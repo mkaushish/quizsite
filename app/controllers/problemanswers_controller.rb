@@ -32,7 +32,6 @@ class ProblemanswersController < ApplicationController
 		@problem.save
 
     @problemanswer = Problemanswer.new
-		flash[:problem_id] = @problem.id
 
     respond_to do |format|
       format.html # new.html.erb
@@ -48,7 +47,7 @@ class ProblemanswersController < ApplicationController
   # POST /problemanswers
   # POST /problemanswers.json
   def create
-		@problem = Problem.find(flash[:problem_id])
+		@problem = Problem.find(params["problem_id"])
 		@problem.load_problem
 
 		# TODO use hidden field not flash
