@@ -18,6 +18,10 @@ class Problem < ActiveRecord::Base
 		@prob = Marshal.load self.problem
 	end
 
+	def unpack
+		load_problem
+	end
+
 	# should be passed the params variable returned by the HTML form
 	def correct?(params)
 		@prob.correct?(params)

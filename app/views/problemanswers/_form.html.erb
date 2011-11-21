@@ -15,20 +15,17 @@
 	<% @problem.text.each do |elt| %>
 		<% if elt.is_a? InputField %>
 			<div class="field">
-				<% if elt.is_a? RadioButton %>
-					<% elt.fields.each do |field| %>
-						<%= radio_button_tag elt.name, field %>
-						<%= label_tag elt.name, field %> <br>
-					<% end %>
-				<% elsif elt.is_a? Dropdown %>
-					<%= select_tag elt.name, elt.fields.map { |f| [f.to_s, f.to_s] } %>
-				<% elsif elt.is_a? TextField %>
-					<%= label_tag elt.name, elt.label %> <br>
-					<%= text_field_tag elt.name %>
-				<% elsif elt.is_a? CheckBox %>
-					<%= label_tag elt.name, elt.label %> <br>
-					<%= check_box_tag elt.name %>
+				<%= render_inputfield elt %>
+			</div>
+		<% elsif %>
+			<div class="fraction">
+				<%= unless elt.intpart.nil %>
+					<%= (elt.intpart.is_a? InputField) ? render_inputfield elt.intpart : elt.intpart.to_s %> <hr>
 				<% end %>
+				<div class="quotient">
+					<%= (elt.num.is_a? InputField) ? render_inputfield elt.num : elt.num.to_s %> <hr>
+					<%= (elt.den.is_a? InputField) ? render_inputfield elt.den : elt.den.to_s %>
+				</div>
 			</div>
 		<% else %>
 			<div class="explanation">

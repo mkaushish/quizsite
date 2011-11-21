@@ -16,6 +16,7 @@ class ProblemanswersController < ApplicationController
   # GET /problemanswers/1.json
   def show
     @problemanswer = Problemanswer.find(params[:id])
+		@problem = Problemanswer.problem.unpack
 
     respond_to do |format|
       format.html # show.html.erb
