@@ -15,16 +15,16 @@
 	<% @problem.text.each do |elt| %>
 		<% if elt.is_a? InputField %>
 			<div class="field">
-				<%= render_inputfield elt %>
+				<%= (render_inputfield elt).html_safe %>
 			</div>
-		<% elsif %>
+		<% elsif elt.is_a? Fraction %>
 			<div class="fraction">
-				<%= unless elt.intpart.nil %>
-					<%= (elt.intpart.is_a? InputField) ? render_inputfield elt.intpart : elt.intpart.to_s %> <hr>
+				<% unless elt.intpart.nil? then %>
+					<%= (elt.intpart.is_a? InputField) ? render_inputfield(elt.intpart).html_safe : elt.intpart.to_s %> <hr>
 				<% end %>
 				<div class="quotient">
-					<%= (elt.num.is_a? InputField) ? render_inputfield elt.num : elt.num.to_s %> <hr>
-					<%= (elt.den.is_a? InputField) ? render_inputfield elt.den : elt.den.to_s %>
+					<%= (elt.num.is_a?(InputField)) ? render_inputfield(elt.num).html_safe : elt.num.to_s %> <hr>
+					<%= (elt.den.is_a?(InputField)) ? render_inputfield(elt.den).html_safe : elt.den.to_s %>
 				</div>
 			</div>
 		<% else %>
