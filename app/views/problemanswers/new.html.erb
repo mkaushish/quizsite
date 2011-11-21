@@ -1,0 +1,8 @@
+<h1>Your are being quizzed!</h1>
+<% unless flash[:notice].nil? %>
+	<p><%= flash[:notice] %></p>
+<% end %>
+
+<%= render 'form' %>
+
+<%= link_to 'Back', problemanswers_path %>

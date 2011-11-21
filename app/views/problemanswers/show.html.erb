@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Correct:</b>
+  <%= @problemanswer.correct %>
+</p>
+
+<p>
+  <b>Problem:</b>
+  <%= @problemanswer.problem_id %>
+</p>
+
+
+<%= link_to 'Edit', edit_problemanswer_path(@problemanswer) %> |
+<%= link_to 'Back', problemanswers_path %>

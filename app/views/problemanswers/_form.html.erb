@@ -1,0 +1,43 @@
+<%= form_tag :action => 'create' do %>
+	<% if @problemanswer.errors.any? %>
+		<div id="error_explanation">
+			<h2><%= pluralize(@problemanswer.errors.count, "error") %> prohibited this problemanswer from being saved:</h2>
+
+			<ul>
+				<% @problemanswer.errors.full_messages.each do |msg| %>
+					<li><%= msg %></li>
+				<% end %>
+			</ul>
+		</div>
+	<% end %>
+
+	<%= hidden_field_tag 'problem_id', @problem.id %>
+	<% @problem.text.each do |elt| %>
+		<% if elt.is_a? InputField %>
+			<div class="field">
+				<% if elt.is_a? RadioButton %>
+					<% elt.fields.each do |field| %>
+						<%= radio_button_tag elt.name, field %>
+						<%= label_tag elt.name, field %> <br>
+					<% end %>
+				<% elsif elt.is_a? Dropdown %>
+					<%= select_tag elt.name, elt.fields.map { |f| [f.to_s, f.to_s] } %>
+				<% elsif elt.is_a? TextField %>
+					<%= label_tag elt.name, elt.label %> <br>
+					<%= text_field_tag elt.name %>
+				<% elsif elt.is_a? CheckBox %>
+					<%= label_tag elt.name, elt.label %> <br>
+					<%= check_box_tag elt.name %>
+				<% end %>
+			</div>
+		<% else %>
+			<div class="explanation">
+				<%= elt.to_s %>
+			</div>
+		<% end %>
+	<% end %>
+
+	<div class="actions">
+		<%= submit_tag %>
+	</div>
+<% end %>
