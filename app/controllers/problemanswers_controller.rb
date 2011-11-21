@@ -31,7 +31,11 @@ class ProblemanswersController < ApplicationController
 		@problem.my_initialize(ptype)
 		@problem.save
 
-    @problemanswer = Problemanswer.new
+		if flash[:last_correct] == false
+			@last_prob = Problemanswer.find(flash[:last_id])
+		end
+
+		@problemanswer = Problemanswer.new
 
     respond_to do |format|
       format.html # new.html.erb
@@ -50,12 +54,15 @@ class ProblemanswersController < ApplicationController
 		@problem = Problem.find(params["problem_id"])
 		@problem.load_problem
 
-		# TODO use hidden field not flash
-		if @problem.correct?(params)
-			flash[:notice] = "You got the last question right!"
+		@problemanswer = Problemanswer.new(:problem => @problem, :correct => @problem.correct?(params))
+		if @problemanswer.save
+			flash[:notice] = 'Problemanswer successsfully created' 
 		else
-			flash[:notice] = "You missed the last question"
+			flash[:notice] = "THERE WAS AN ERRORR OH NOOOOOOOOOO Problemanswer wasn't created for some reason"
 		end
+
+		flash[:last_correct] = @problemanswer.correct
+		flash[:last_id] = @problemanswer.id
 
 		$stderr.puts "\n\n#{"#"*30}\n#{@problem.text}"
 		$stderr.puts "#{@problem.prob.solve}"

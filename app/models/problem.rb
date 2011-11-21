@@ -1,4 +1,6 @@
 class Problem < ActiveRecord::Base
+	has_many :problemanswers
+
 	attr_accessor :prob
 	attr_accessible :problem
 
