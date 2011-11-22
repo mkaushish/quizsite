@@ -27,6 +27,10 @@ class Problem < ActiveRecord::Base
 		@prob.correct?(params)
 	end
 
+	def solve
+		@prob.solve
+	end
+
 	def my_initialize(type)
 		unless type.is_a? Class
 			raise "Problem's initialize must be passed a class"

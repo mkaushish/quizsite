@@ -16,7 +16,9 @@ class ProblemanswersController < ApplicationController
   # GET /problemanswers/1.json
   def show
     @problemanswer = Problemanswer.find(params[:id])
-		@problem = Problemanswer.problem.unpack
+		@problem = @problemanswer.problem.unpack
+		@soln = @problem.solve
+		$stderr.puts "#"*50 + "#{@soln.inspect}\n#{@problem.text.inspect}"
 
     respond_to do |format|
       format.html # show.html.erb
