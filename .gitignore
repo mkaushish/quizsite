@@ -3,3 +3,9 @@ db/*.sqlite3
 log/*.log
 tmp/
 .sass-cache/
+tags
+ctags
+.*.swp
+.*.swo
+allfiles.txt
+TODO
