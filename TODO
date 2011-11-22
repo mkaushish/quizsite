@@ -1,0 +1,6 @@
+1) store the quiz (which problems are allowed) info in session data
+2) allow display of other input fields besides radio/text fields
+3) add users
+4) fix TODO's throughout code
+5) add support for multitextfields - dynamic number of text fields
+		or perhaps just generic, and specify which ones you can add?

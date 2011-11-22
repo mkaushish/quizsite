@@ -37,7 +37,7 @@ module ProblemanswersHelper
 														:placeholder => resp[elt.name],
 														:disabled => true)
 			ret += "</div>".html_safe
-		elsif elt.is_a? RadioButton
+		elsif elt.is_a?(RadioButton) || elt.is_a?(Dropdown)
 			elt.fields.each do |field|
 				checked = false
 				if field.to_s == soln[elt.name].to_s
@@ -54,6 +54,7 @@ module ProblemanswersHelper
 					ret += '</div>'.html_safe
 				end
 			end
+			#TODO add for other fields please!!!
 		end
 		return ret + '</div>'
 	end

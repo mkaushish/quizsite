@@ -19,8 +19,6 @@ class ProblemanswersController < ApplicationController
 		@problem = @problemanswer.problem.unpack
 		@solution = @problem.prefix_solve
 		@response = @problemanswer.response_hash
-		$stderr.puts "#"*80 + "\n#{@soln.inspect}\n#{@response.inspect}"
-		$stderr.puts "#{@problem.class}: " + @problem.inspect
 
     respond_to do |format|
       format.html # show.html.erb
@@ -77,6 +75,11 @@ class ProblemanswersController < ApplicationController
 		$stderr.puts "params = #{params.inspect}\n#{"#"*30}\n"
 
 		redirect_to :action => 'new'
+		# TODO FIX ME
+		#if @problemanswer.correct
+		#else
+		#	redirect_to "problemanswer/#{@problemanswer.id}"
+		#end
     #respond_to do |format|
     #  if @problemanswer.save
     #    format.html { redirect_to @problemanswer, notice: 'Problemanswer was successfully created.' }
