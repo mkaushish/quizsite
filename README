@@ -259,3 +259,15 @@ vendor
   External libraries that the application depends on. Also includes the plugins
   subdirectory. If the app has frozen rails, those gems also go here, under
   vendor/rails/. This directory is in the load path.
+
+ADDED BY THOMAS
+a useful setting!
+Look for the file /usr/lib/ruby/1.9.1/webrick/config.rb and edit it.
+
+Replace the line
+
+:DoNotReverseLookup => nil,
+with
+
+:DoNotReverseLookup => true,
+Restart webrick and it'll work like a charm :)

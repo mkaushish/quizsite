@@ -25,8 +25,7 @@ module ProblemanswersHelper
 	end
 
 	def render_soln_field(soln, resp, elt)
-		ret = ""
-		
+		ret = '<div class="field">'
 		if elt.is_a? TextField
 			ret += label_tag(elt.name, elt.label) + "\n" unless elt.label.nil?
 			ret += "<div class=\"correct\">".html_safe
@@ -56,7 +55,7 @@ module ProblemanswersHelper
 				end
 			end
 		end
-		return ret
+		return ret + '</div>'
 	end
 
 	# Takes as input the solution hash from problem.solve, and the InputField,
