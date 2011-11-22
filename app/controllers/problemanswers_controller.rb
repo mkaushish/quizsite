@@ -1,4 +1,8 @@
 require 'c1'
+require 'c2'
+require 'c3'
+require 'c6'
+require 'c7'
 
 class ProblemanswersController < ApplicationController
   # GET /problemanswers
@@ -74,12 +78,12 @@ class ProblemanswersController < ApplicationController
 		$stderr.puts "#{@problem.prob.solve}"
 		$stderr.puts "params = #{params.inspect}\n#{"#"*30}\n"
 
-		redirect_to :action => 'new'
 		# TODO FIX ME
-		#if @problemanswer.correct
-		#else
-		#	redirect_to "problemanswer/#{@problemanswer.id}"
-		#end
+		if @problemanswer.correct
+			redirect_to :action => 'new'
+		else
+			redirect_to @problemanswer
+		end
     #respond_to do |format|
     #  if @problemanswer.save
     #    format.html { redirect_to @problemanswer, notice: 'Problemanswer was successfully created.' }

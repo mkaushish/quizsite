@@ -1,4 +1,6 @@
-<p id="notice"><%= notice %></p>
+<% if flash[:last_correct] == false %>
+	<p>It seems you got the last problem incorrect :(</p>
+<% end %>
 
 <% @problem.text.each do |elt| %>
 	<% if elt.is_a? InputField %>

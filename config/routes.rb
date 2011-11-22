@@ -1,5 +1,8 @@
 Quizsite::Application.routes.draw do
+  get "problem/choose"
+
   resources :problemanswers
+	match 'problems/:id' => 'problemanswer#show'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

@@ -25,20 +25,20 @@ module ProblemanswersHelper
 	end
 
 	def render_soln_field(soln, resp, elt)
-		ret = '<div class="field">'
+		ret = '<div class="field">' + "\n"
 		if elt.is_a? TextField
-			ret += label_tag(elt.name, elt.label) + "\n" unless elt.label.nil?
+			ret += label_tag(elt.label) + "\n" unless(elt.label.nil?) || elt.label == ""
 			ret += "<div class=\"correct\">".html_safe
-			ret += text_field_tag(elt.name+"soln", nil, 
-														:placeholder => soln[elt.name],
-														:disabled => true)
-			ret += "</div>\n</div class=\"incorrect\">".html_safe
+			# TODO decide whether to use label_tag or text_field_tag
+			ret += label_tag(soln[elt.name])
+			ret += "</div>\n<div class=\"incorrect\">".html_safe
 			ret += text_field_tag(elt.name+"resp", nil, 
 														:placeholder => resp[elt.name],
 														:disabled => true)
-			ret += "</div>".html_safe
+			ret += "</div>\n".html_safe
 		elsif elt.is_a?(RadioButton) || elt.is_a?(Dropdown)
 			elt.fields.each do |field|
+
 				checked = false
 				if field.to_s == soln[elt.name].to_s
 					ret += '<div class="correct">'.html_safe
@@ -48,11 +48,12 @@ module ProblemanswersHelper
 					checked = true
 				end
 
-				ret += check_box_tag(field, "1", checked, :disabled => true) + "\n" + label_tag(elt.name, field) + " <br>".html_safe
+				ret += check_box_tag(field, "1", checked, :disabled => true) + "\n" + label_tag(field) + " <br>".html_safe
 
-				if field.to_s == soln[elt.name].to_s || field.to_s == resp[elt.name].to_s
+				if checked
 					ret += '</div>'.html_safe
 				end
+				ret += "\n"
 			end
 			#TODO add for other fields please!!!
 		end
