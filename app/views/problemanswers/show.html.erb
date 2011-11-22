@@ -3,13 +3,13 @@
 <% @problem.text.each do |elt| %>
 	<% if elt.is_a? InputField %>
 		<div class="solution">
-			<%= field_soln(@soln, elt) %>
+			<%= render_soln_field(@solution, @response, elt).html_safe %>
 		</div>
 	<% elsif elt.is_a? Fraction %>
 		<div class="solution">
-			<%= field_soln(@soln, elt.num) %> / 
-			<%= field_soln(@soln, elt.den) %>
-		</div>e
+			<%= @solution[elt.num] %> / 
+			<%= @solution[elt.den] %>
+		</div>
 	<% else %>
 		<div class="explanation">
 			<%= elt.to_s %>

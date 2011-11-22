@@ -28,7 +28,18 @@ class Problem < ActiveRecord::Base
 	end
 
 	def solve
-		@prob.solve
+		@prob.prefix_solve
+	end
+
+	def get_response(params)
+		soln = solve
+		@response = {}
+		soln.each_key { |key| @response[key] = params[key] }
+		@response
+	end
+
+	def get_packed_response(params)
+		Marshal.dump(get_response(params))
 	end
 
 	def my_initialize(type)

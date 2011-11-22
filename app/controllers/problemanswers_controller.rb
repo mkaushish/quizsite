@@ -17,8 +17,10 @@ class ProblemanswersController < ApplicationController
   def show
     @problemanswer = Problemanswer.find(params[:id])
 		@problem = @problemanswer.problem.unpack
-		@soln = @problem.solve
-		$stderr.puts "#"*50 + "#{@soln.inspect}\n#{@problem.text.inspect}"
+		@solution = @problem.prefix_solve
+		@response = @problemanswer.response_hash
+		$stderr.puts "#"*80 + "\n#{@soln.inspect}\n#{@response.inspect}"
+		$stderr.puts "#{@problem.class}: " + @problem.inspect
 
     respond_to do |format|
       format.html # show.html.erb
@@ -57,7 +59,10 @@ class ProblemanswersController < ApplicationController
 		@problem = Problem.find(params["problem_id"])
 		@problem.load_problem
 
-		@problemanswer = Problemanswer.new(:problem => @problem, :correct => @problem.correct?(params))
+		@problemanswer = Problemanswer.new(:problem => @problem, 
+																			 :correct => @problem.correct?(params),
+																			 :response => @problem.get_packed_response(params))
+
 		if @problemanswer.save
 			flash[:notice] = 'Problemanswer successsfully created' 
 		else
@@ -70,6 +75,7 @@ class ProblemanswersController < ApplicationController
 		$stderr.puts "\n\n#{"#"*30}\n#{@problem.text}"
 		$stderr.puts "#{@problem.prob.solve}"
 		$stderr.puts "params = #{params.inspect}\n#{"#"*30}\n"
+
 		redirect_to :action => 'new'
     #respond_to do |format|
     #  if @problemanswer.save

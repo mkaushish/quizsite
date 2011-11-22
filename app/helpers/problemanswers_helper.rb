@@ -21,6 +21,42 @@ module ProblemanswersHelper
 			ret += label_tag elt.name, elt.label + "\n" unless elt.label.nil?
 			ret += check_box_tag elt.name
 		end
+		ret
+	end
+
+	def render_soln_field(soln, resp, elt)
+		ret = ""
+		
+		if elt.is_a? TextField
+			ret += label_tag(elt.name, elt.label) + "\n" unless elt.label.nil?
+			ret += "<div class=\"correct\">".html_safe
+			ret += text_field_tag(elt.name+"soln", nil, 
+														:placeholder => soln[elt.name],
+														:disabled => true)
+			ret += "</div>\n</div class=\"incorrect\">".html_safe
+			ret += text_field_tag(elt.name+"resp", nil, 
+														:placeholder => resp[elt.name],
+														:disabled => true)
+			ret += "</div>".html_safe
+		elsif elt.is_a? RadioButton
+			elt.fields.each do |field|
+				checked = false
+				if field.to_s == soln[elt.name].to_s
+					ret += '<div class="correct">'.html_safe
+					checked = true
+				elsif field.to_s == resp[elt.name].to_s
+					ret += '<div class="incorrect">'.html_safe
+					checked = true
+				end
+
+				ret += check_box_tag(field, "1", checked, :disabled => true) + "\n" + label_tag(elt.name, field) + " <br>".html_safe
+
+				if field.to_s == soln[elt.name].to_s || field.to_s == resp[elt.name].to_s
+					ret += '</div>'.html_safe
+				end
+			end
+		end
+		return ret
 	end
 
 	# Takes as input the solution hash from problem.solve, and the InputField,

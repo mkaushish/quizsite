@@ -1,9 +1,9 @@
 <h1>Your are being quizzed!</h1>
 <% unless flash[:last_correct].nil? %>
 	<% if flash[:last_correct] %>
-		<div class=right_answer>You got the last one right!</div>
+		<div class="correct">You got the last one right!</div>
 	<% else %>
-		<div class=wrong_answer>You missed the last question. <%= link_to "See why", @last_prob %></div>
+		<div class="incorrect">You missed the last question. <%= link_to "See why", @last_prob %></div>
 	<% end %>
 <% end %>
 
