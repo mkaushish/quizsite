@@ -10,8 +10,8 @@ class ProblemController < ApplicationController
 	end
 		
   def choose
-		all_probs
 		@chosen_probs = get_probs
+		@all_probs = all_probs
 		$stderr.puts "#"*50 + "\n" + @chosen_probs[0].inspect
   end
 

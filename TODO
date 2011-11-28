@@ -1,19 +1,24 @@
-1) store the quiz (which problems are allowed) info in session data
-2) allow display of other input fields besides radio/text fields
-3) add users
-4) fix TODO's throughout code
-5) add support for multitextfields - dynamic number of text fields
+Short Term
+----------
+[ ] debug EquivalenFractions thing
+[ ] write out number in words not working
+[ ] successor and predecessor not working
+[ ] fraction input not working => test with problem ToImproperFraction
+[ ] radio button text field
+[ ] add users
+[ ] fix TODO's throughout code
+[ ] add support for multitextfields - dynamic number of text fields
 		or perhaps just generic, and specify which ones you can add?
-6) research ajax calaculator
-7) radio button text field
 
-8) error if you haven't selected problems currently
-9) make the quiz store better (not marshal dump/load every request)
-10) fraction input not working => test with problem ToImproperFraction
-11) In multipart questions, if one answer is correct, it should only display it once (outlined in green)
-12) debug EquivalenFractions thing
-13) write out number in words not working
-14) successor and predecessor not working
+Long Term
+---------
+[ ] select problems from prestocked group
+[ ] make the quiz store better (not marshal dump/load every request)
+[ ] research ajax for calculator/multiform input fields
 
-eventually:
-	* select problems from prestocked group
+Completed
+---------
+[X] allow display of other input fields besides radio/text fields
+[X] error if you haven't selected problems currently
+[X] In multipart questions, if one answer is correct, it should only display it once (outlined in green)
+[X] store the quiz (which problems are allowed) info in session data
