@@ -1,0 +1,12 @@
+<%= form_tag :action => 'makequiz' do %>
+	<% @problems.each do |prob| %>
+		<div class=problem>
+			<%= check_box_tag prob.to_s, "1", (@chosen_probs.include? prob) %>
+			<%= label_tag prob.to_s %>
+		</div>
+	<% end %>
+
+	<div class="actions">
+		<%= submit_tag %>
+	</div>
+<% end %>

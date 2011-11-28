@@ -16,7 +16,8 @@ module ProblemanswersHelper
 			end
 			return ret
 		elsif elt.is_a? Dropdown
-			return select_tag(elt.name, elt.fields.map { |f| [f.to_s, f.to_s] } )
+			#return select_tag(elt.name, options_from_collection_for_select( elt.fields.map { |f| [f.to_s, f.to_s] } ))
+			return select_tag(elt.name, options_from_collection_for_select(elt.fields, 'to_s', 'to_s' ))
 		elsif elt.is_a? CheckBox
 			ret += label_tag elt.name, elt.label + "\n" unless elt.label.nil?
 			ret += check_box_tag elt.name

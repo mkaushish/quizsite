@@ -8,7 +8,7 @@ class ProblemanswersController < ApplicationController
   # GET /problemanswers
   # GET /problemanswers.json
   def index
-    @problemanswers = Problemanswer.all
+    @problemanswers = get_probs
 
     respond_to do |format|
       format.html # index.html.erb
@@ -33,7 +33,7 @@ class ProblemanswersController < ApplicationController
   # GET /problemanswers/new
   # GET /problemanswers/new.json
   def new
-		ptype = Chapter1::PROBLEMS.sample
+		ptype = get_probs.sample
 		@problem = Problem.new
 		@problem.my_initialize(ptype)
 		@problem.save
@@ -54,6 +54,13 @@ class ProblemanswersController < ApplicationController
   def edit
     @problemanswer = Problemanswer.find(params[:id])
   end
+
+	def explain
+		@bigproblem = Problem.find(params["problem_id"])
+		if @bigproblem.is_a? QuestionWithExplanation
+			@subproblems = @bigproblem.explain
+		end
+	end
 
   # POST /problemanswers
   # POST /problemanswers.json

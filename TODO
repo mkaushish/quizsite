@@ -4,3 +4,5 @@
 4) fix TODO's throughout code
 5) add support for multitextfields - dynamic number of text fields
 		or perhaps just generic, and specify which ones you can add?
+6) research ajax calaculator
+7) radio button text field
