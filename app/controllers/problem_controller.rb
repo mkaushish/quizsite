@@ -16,11 +16,10 @@ class ProblemController < ApplicationController
   end
 
 	def makequiz
-		all_probs
 		$stderr.puts params.inspect
 
 		session_problems = []
-		@problems.each do |prob|
+		all_probs.each do |prob|
 			if params[prob.to_s] == "1"
 				session_problems << prob
 			end
