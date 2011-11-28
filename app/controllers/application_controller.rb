@@ -7,6 +7,8 @@ require 'c7'
 class ApplicationController < ActionController::Base
   protect_from_forgery
 
+	@@all_probs = [Chapter1, Chapter2, Chapter3, Chapter6, Chapter7].map { |chap| chap::PROBLEMS }.flatten
+
 	def get_probs
 		return [] if session[:problems].nil?
 		session[:problems].map { |p| dec_prob(p) }
@@ -20,9 +22,7 @@ class ApplicationController < ActionController::Base
 	private
 
 	def all_probs
-		chapters = [Chapter1, Chapter2, Chapter3, Chapter6, Chapter7]
-		@problems = []
-		chapters.each { |chap| @problems.concat chap::PROBLEMS }
+		@@all_probs
 	end
 
 	# TODO make a global hash instead of using Marshal for every request...

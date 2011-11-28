@@ -33,7 +33,11 @@ class ProblemanswersController < ApplicationController
   # GET /problemanswers/new
   # GET /problemanswers/new.json
   def new
-		ptype = get_probs.sample
+		plist = get_probs
+		plist = all_probs if plist.empty?
+		$stderr.puts "#"*30 + " PLIST: " + plist.inspect
+		ptype = plist.sample
+
 		@problem = Problem.new
 		@problem.my_initialize(ptype)
 		@problem.save

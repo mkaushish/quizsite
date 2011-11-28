@@ -8,9 +8,12 @@
 7) radio button text field
 
 8) error if you haven't selected problems currently
-9) make the quiz store better
+9) make the quiz store better (not marshal dump/load every request)
 10) fraction input not working => test with problem ToImproperFraction
 11) In multipart questions, if one answer is correct, it should only display it once (outlined in green)
 12) debug EquivalenFractions thing
 13) write out number in words not working
 14) successor and predecessor not working
+
+eventually:
+	* select problems from prestocked group
