@@ -16,7 +16,6 @@ module ProblemanswersHelper
 			end
 			return ret
 		elsif elt.is_a? Dropdown
-			#return select_tag(elt.name, options_from_collection_for_select( elt.fields.map { |f| [f.to_s, f.to_s] } ))
 			return select_tag(elt.name, options_from_collection_for_select(elt.fields, 'to_s', 'to_s' ))
 		elsif elt.is_a? CheckBox
 			ret += label_tag elt.name, elt.label + "\n" unless elt.label.nil?
@@ -25,6 +24,9 @@ module ProblemanswersHelper
 		ret
 	end
 
+	# soln = the hash given by calling soln on the problem
+	# resp = the params hash given as a response
+	#
 	def render_soln_field(soln, resp, elt)
 		ret = '<div class="field">' + "\n"
 		if elt.is_a? TextField
@@ -32,10 +34,12 @@ module ProblemanswersHelper
 			ret += "<div class=\"correct\">".html_safe
 			# TODO decide whether to use label_tag or text_field_tag
 			ret += label_tag(soln[elt.name])
-			ret += "</div>\n<div class=\"incorrect\">".html_safe
-			ret += text_field_tag(elt.name+"resp", nil, 
-														:placeholder => resp[elt.name],
-														:disabled => true)
+			unless soln[elt.name].to_s.strip == resp[elt.name].to_s.strip
+				ret += "</div>\n<div class=\"incorrect\">".html_safe
+				ret += text_field_tag(elt.name+"resp", nil, 
+															:placeholder => resp[elt.name],
+															:disabled => true)
+			end
 			ret += "</div>\n".html_safe
 		elsif elt.is_a?(RadioButton) || elt.is_a?(Dropdown)
 			elt.fields.each do |field|
