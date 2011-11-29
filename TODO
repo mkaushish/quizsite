@@ -1,14 +1,16 @@
 Short Term
 ----------
-[ ] debug EquivalenFractions thing
-[ ] write out number in words not working
-[ ] successor and predecessor not working
+[ ] move view logic from problemanswersHelper into partials!
 [ ] fraction input not working => test with problem ToImproperFraction
+	[X] allow fraction input fields
+	[ ] fix fraction display in problemanswers/show
 [ ] radio button text field
 [ ] add users
 [ ] fix TODO's throughout code
 [ ] add support for multitextfields - dynamic number of text fields
 		or perhaps just generic, and specify which ones you can add?
+[ ] fix suitable arrangement stuff in chapter 2
+[ ] commas seem to not be preprocessed out, see writinginternational
 
 Long Term
 ---------
@@ -22,3 +24,5 @@ Completed
 [X] error if you haven't selected problems currently
 [X] In multipart questions, if one answer is correct, it should only display it once (outlined in green)
 [X] store the quiz (which problems are allowed) info in session data
+[X] write out number in words not working
+[X] successor and predecessor not working

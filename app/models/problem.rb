@@ -1,3 +1,13 @@
+# == Schema Information
+#
+# Table name: problems
+#
+#  id         :integer         not null, primary key
+#  problem    :string(255)
+#  created_at :datetime
+#  updated_at :datetime
+#
+
 class Problem < ActiveRecord::Base
 	has_many :problemanswers
 

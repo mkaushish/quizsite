@@ -1,17 +1,17 @@
 # == Schema Information
 #
-# Table name: problemanswers
+# Table name: users
 #
 #  id         :integer         not null, primary key
-#  correct    :boolean
-#  problem_id :integer
+#  name       :string(255)
+#  email      :string(255)
+#  perms      :string(255)
 #  created_at :datetime
 #  updated_at :datetime
-#  response   :string(255)
 #
 
 require 'spec_helper'
 
-describe Problemanswer do
+describe User do
   pending "add some examples to (or delete) #{__FILE__}"
 end

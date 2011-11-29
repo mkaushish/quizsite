@@ -15,7 +15,7 @@ group :test, :development do
 end
 
 group :development do
-	gem 'annotate'
+	gem 'annotate', :git => 'git://github.com/ctran/annotate_models.git'
 end
 
 # Gems used only for assets and not required

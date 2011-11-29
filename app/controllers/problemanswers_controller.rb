@@ -35,12 +35,13 @@ class ProblemanswersController < ApplicationController
   def new
 		plist = get_probs
 		plist = all_probs if plist.empty?
-		$stderr.puts "#"*30 + " PLIST: " + plist.inspect
 		ptype = plist.sample
 
 		@problem = Problem.new
 		@problem.my_initialize(ptype)
 		@problem.save
+
+		#$stderr.puts "#"*30 + "\n" + @problem.prob.text.inspect
 
 		if flash[:last_correct] == false
 			@last_prob = Problemanswer.find(flash[:last_id])

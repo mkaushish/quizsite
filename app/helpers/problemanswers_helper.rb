@@ -36,9 +36,10 @@ module ProblemanswersHelper
 			ret += label_tag(soln[elt.name])
 			unless soln[elt.name].to_s.strip == resp[elt.name].to_s.strip
 				ret += "</div>\n<div class=\"incorrect\">".html_safe
-				ret += text_field_tag(elt.name+"resp", nil, 
-															:placeholder => resp[elt.name],
-															:disabled => true)
+				ret += label_tag(resp[elt.name])
+				#ret += text_field_tag(elt.name+"resp", nil, 
+				#											:placeholder => resp[elt.name],
+				#											:disabled => true)
 			end
 			ret += "</div>\n".html_safe
 		elsif elt.is_a?(RadioButton) || elt.is_a?(Dropdown)
