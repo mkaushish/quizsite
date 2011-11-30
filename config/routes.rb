@@ -1,4 +1,8 @@
 Quizsite::Application.routes.draw do
+  get "users/new"
+
+  get "users/show"
+
   get "problem/choose"
 	post "problem/makequiz"
 	get "problem/index"
