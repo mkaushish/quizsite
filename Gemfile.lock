@@ -4,6 +4,14 @@ GIT
   specs:
     annotate (2.4.1.beta1)
 
+GIT
+  remote: https://github.com/thoughtbot/factory_girl_rails.git
+  revision: 1e47af0319b71ee2da6e5fda920fb075727cc76e
+  specs:
+    factory_girl_rails (1.4.0)
+      factory_girl (~> 2.3.0)
+      railties (>= 3.0.0)
+
 GEM
   remote: http://rubygems.org/
   specs:
@@ -51,6 +59,8 @@ GEM
     erubis (2.7.0)
     execjs (1.2.9)
       multi_json (~> 1.0)
+    factory_girl (2.3.2)
+      activesupport
     hike (1.2.1)
     i18n (0.6.0)
     jquery-rails (1.0.17)
@@ -141,6 +151,7 @@ PLATFORMS
 DEPENDENCIES
   annotate!
   coffee-rails (~> 3.1.0)
+  factory_girl_rails!
   jquery-rails
   rails (= 3.1.0)
   rspec-rails

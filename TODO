@@ -14,7 +14,6 @@ Short Term
 
 [ ] commas seem to not be preprocessed out, see writinginternational
 [ ] 7186110.to_international returns something and 17???
-[ ] 1350000.to_indian returns something thous [no and]
 
 Long Term
 ---------
@@ -30,3 +29,4 @@ Completed
 [X] store the quiz (which problems are allowed) info in session data
 [X] write out number in words not working
 [X] successor and predecessor not working
+[X] 1350000.to_indian returns something thous [no and]

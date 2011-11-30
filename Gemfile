@@ -40,5 +40,6 @@ gem 'jquery-rails'
 group :test do
   # Pretty printed test output
   gem 'turn', :require => false
+  gem 'factory_girl_rails', :git => 'https://github.com/thoughtbot/factory_girl_rails.git'
 end
 
