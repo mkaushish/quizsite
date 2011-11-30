@@ -2,12 +2,14 @@
 #
 # Table name: users
 #
-#  id         :integer         not null, primary key
-#  name       :string(255)
-#  email      :string(255)
-#  perms      :string(255)
-#  created_at :datetime
-#  updated_at :datetime
+#  id                 :integer         not null, primary key
+#  name               :string(255)
+#  email              :string(255)
+#  perms              :string(255)
+#  created_at         :datetime
+#  updated_at         :datetime
+#  encrypted_password :string(255)
+#  salt               :string(255)
 #
 
 require_relative '../spec_helper'
@@ -17,7 +19,7 @@ describe User do
 		@attr = {
       :name => "Thomas Ramfjord",
       :email => "myfakeemail@blah.com",
-      :password => "blah123"
+      :password => "blah123",
       :password_confirmation => "blah123"
     }
 	end
@@ -78,6 +80,46 @@ describe User do
       long = "a" * 41
       hash = @attr.merge(:password => long, :password_confirmation => long)
       User.new(hash).should_not be_valid
+    end
+  end
+
+  describe "password encryption" do
+
+    before :each do
+      @user = User.create!(@attr)
+    end
+
+    it "should set the encrypted password" do
+      @user.encrypted_password.should_not be_blank
+    end
+
+    describe "has_password? method" do
+
+      it "should be true if the passwords match" do
+        @user.has_password?(@attr[:password]).should be_true
+      end    
+
+      it "should be false if the passwords don't match" do
+        @user.has_password?("invalid").should be_false
+      end 
+    end
+
+    describe "authenticate method" do
+
+      it "should return nil on email/password mismatch" do
+        wrong_password_user = User.authenticate(@attr[:email], "wrongpass")
+        wrong_password_user.should be_nil
+      end
+
+      it "should return nil for an email address with no user" do
+        nonexistent_user = User.authenticate("bar@foo.com", @attr[:password])
+        nonexistent_user.should be_nil
+      end
+
+      it "should return the user on email/password match" do
+        matching_user = User.authenticate(@attr[:email], @attr[:password])
+        matching_user.should == @user
+      end
     end
   end
 end
