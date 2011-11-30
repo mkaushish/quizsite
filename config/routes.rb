@@ -1,15 +1,21 @@
 Quizsite::Application.routes.draw do
-  get "sessions/new"
-
-  get "users/new"
-
-  get "users/show"
+  resources :users
+  resources :sessions, :only => [:new, :create, :destroy]
+  scope(:path_names => { :new => "quiz" }) do
+    resources :problemanswers, :except => [:edit, :destroy, :index]
+  end
+  resources :problemanswers
 
   get "problem/choose"
 	post "problem/makequiz"
 	get "problem/index"
 
-  resources :problemanswers
+  match '/signup',  :to => 'users#new'
+  match '/signin',  :to => 'sessions#new'
+  match '/signout', :to => 'sessions#destroy'
+
+  root :to => 'problemanswers#new'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
@@ -59,7 +65,6 @@ Quizsite::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
-  root :to => 'problemanswers#new'
 
   # See how all your routes lay out with "rake routes"
 
