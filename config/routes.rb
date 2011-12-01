@@ -4,7 +4,6 @@ Quizsite::Application.routes.draw do
   scope(:path_names => { :new => "quiz" }) do
     resources :problemanswers, :except => [:edit, :destroy, :index]
   end
-  resources :problemanswers
 
   get "problem/choose"
 	post "problem/makequiz"

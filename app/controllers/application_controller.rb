@@ -6,6 +6,7 @@ require 'c7'
 
 class ApplicationController < ActionController::Base
   protect_from_forgery
+  include SessionsHelper
 
 	@@all_probs = [Chapter1, Chapter2, Chapter3, Chapter6, Chapter7].map { |chap| chap::PROBLEMS }.flatten
 
