@@ -71,4 +71,8 @@ module ProblemanswersHelper
 	def field_soln(solnhash, field)
 		solnhash[ToHTML::rm_prefix(field.name)].to_s
 	end
+
+  def correct_class(problemanswer)
+    (problemanswer.correct) ? "correct" : "incorrect"
+  end
 end

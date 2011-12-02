@@ -1,6 +1,5 @@
 Short Term
 ----------
-[ ] add users
 
 [ ] move view logic from problemanswersHelper into partials!
 [ ] fraction input not working => test with problem ToImproperFraction
@@ -14,12 +13,17 @@ Short Term
 
 [ ] commas seem to not be preprocessed out, see writinginternational
 [ ] 7186110.to_international returns something and 17???
+[ ] keep text fields from autocompleting
+[ ] in preprocessing we should also
 
 Long Term
 ---------
 [ ] select problems from prestocked group
 [ ] make the quiz store better (not marshal dump/load every request)
+[ ] add quiz model - track stats over each quiz, view past quizzes, etc
 [ ] research ajax for calculator/multiform input fields
+[ ] track user statistics, and do stuff with them
+[ ] Allow partial credit on problems
 
 Completed
 ---------
@@ -30,3 +34,4 @@ Completed
 [X] write out number in words not working
 [X] successor and predecessor not working
 [X] 1350000.to_indian returns something thous [no and]
+[X] add users

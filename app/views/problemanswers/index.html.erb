@@ -1,25 +1,3 @@
 <h1>Listing problemanswers</h1>
 
-<table>
-  <tr>
-    <th>Correct</th>
-    <th>Problem</th>
-    <th></th>
-    <th></th>
-    <th></th>
-  </tr>
-
-<% @problemanswers.each do |problemanswer| %>
-  <tr>
-    <td><%= problemanswer.correct %></td>
-    <td><%= problemanswer.problem_id %></td>
-    <td><%= link_to 'Show', problemanswer %></td>
-    <td><%= link_to 'Edit', edit_problemanswer_path(problemanswer) %></td>
-    <td><%= link_to 'Destroy', problemanswer, confirm: 'Are you sure?', method: :delete %></td>
-  </tr>
-<% end %>
-</table>
-
-<br />
-
-<%= link_to 'New Problemanswer', new_problemanswer_path %>
+<%= render 'history' %>

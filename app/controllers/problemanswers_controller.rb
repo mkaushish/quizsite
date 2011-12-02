@@ -8,7 +8,7 @@ class ProblemanswersController < ApplicationController
   # GET /problemanswers
   # GET /problemanswers.json
   def index
-    @problemanswers = get_probs
+    @problemanswers = current_user.problemanswers
 
     respond_to do |format|
       format.html # index.html.erb
@@ -43,11 +43,9 @@ class ProblemanswersController < ApplicationController
 
 		#$stderr.puts "#"*30 + "\n" + @problem.prob.text.inspect
 
-		if flash[:last_correct] == false
+		unless flash[:last_correct] || flash[:last_id].nil?
 			@last_prob = Problemanswer.find(flash[:last_id])
 		end
-
-		@problemanswer = Problemanswer.new
 
     respond_to do |format|
       format.html # new.html.erb
@@ -73,15 +71,10 @@ class ProblemanswersController < ApplicationController
 		@problem = Problem.find(params["problem_id"])
 		@problem.load_problem
 
-		@problemanswer = Problemanswer.new(:problem => @problem, 
-																			 :correct => @problem.correct?(params),
-																			 :response => @problem.get_packed_response(params))
-
-		if @problemanswer.save
-			flash[:notice] = 'Problemanswer successsfully created' 
-		else
-			flash[:notice] = "THERE WAS AN ERRORR OH NOOOOOOOOOO Problemanswer wasn't created for some reason"
-		end
+		@problemanswer = current_user.problemanswers.new(
+                        :problem  => @problem, 
+											  :correct  => @problem.correct?(params),
+												:response => @problem.get_packed_response(params))
 
 		flash[:last_correct] = @problemanswer.correct
 		flash[:last_id] = @problemanswer.id
@@ -90,12 +83,16 @@ class ProblemanswersController < ApplicationController
 		$stderr.puts "#{@problem.prob.solve}"
 		$stderr.puts "params = #{params.inspect}\n#{"#"*30}\n"
 
-		# TODO FIX ME
-		if @problemanswer.correct
-			redirect_to :action => 'new'
-		else
-			redirect_to @problemanswer
-		end
+    if @problemanswer.save
+      if @problemanswer.correct
+        redirect_to :action => 'new'
+      else
+        redirect_to @problemanswer
+      end
+    else
+      adderror("Had some trouble saving the last response")
+      redirect_to :action => 'new'
+    end
     #respond_to do |format|
     #  if @problemanswer.save
     #    format.html { redirect_to @problemanswer, notice: 'Problemanswer was successfully created.' }

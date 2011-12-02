@@ -8,10 +8,37 @@
 #  created_at :datetime
 #  updated_at :datetime
 #  response   :string(255)
+#  user_id    :integer
 #
 
 require 'spec_helper'
 
 describe Problemanswer do
-  pending "add some examples to (or delete) #{__FILE__}"
+  before :each do
+    @user = Factory(:user)
+    @attr = {
+      :problem_id => 1, 
+      :correct => true, 
+      :response => Marshal.dump({"ans" => "35"})
+    }
+  end
+
+  it "should create a new instance given valid attributes" do
+    @user.problemanswers.create!(@attr)
+  end
+
+  describe "user associations" do
+    before :each do
+      @probans = @user.problemanswers.create!(@attr)
+    end
+
+    it "should have a user attribute" do
+      @probans.should respond_to(:user)
+    end
+
+    it "should have the correct associated user" do
+      @probans.user.should == @user
+      @probans.user_id.should == @user.id
+    end
+  end
 end

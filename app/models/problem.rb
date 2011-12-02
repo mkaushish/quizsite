@@ -11,13 +11,12 @@
 class Problem < ActiveRecord::Base
 	has_many :problemanswers
 
-	attr_accessor :prob
 	attr_accessible :problem
 
 	before_save :dump_problem
 
 	def after_find
-		@prob = Marshal.load self.problem
+    load_problem
 	end
 
 	def dump_problem
@@ -51,6 +50,14 @@ class Problem < ActiveRecord::Base
 	def get_packed_response(params)
 		Marshal.dump(get_response(params))
 	end
+
+  def to_s
+    self.prob.class.to_s
+  end
+
+  def prob
+    @prob ||= load_problem
+  end
 
 	def my_initialize(type)
 		unless type.is_a? Class
@@ -102,22 +109,6 @@ class Problem < ActiveRecord::Base
 	def response_fields
 		@response_fields
 	end
-
-	# def correct?
-	#	format = @prob.ans_format
-	#	if format.is_a?(Fixnum) || format.is_a?(Float)
-	#		return @prob.correct? @ans
-	#	elsif format.is_a? Array
-	#		# I know this could be done with map, but order must be ensured
-	#		results = Array.new(@response_fields.length)
-	#		@response_fields.each_with_index do |field, i|
-	#			results[i] = instance_variable_get "@#{field}".to_sym
-	#		end
-	#		return @prob.correct? results
-	#	else
-	#		raise "Only Arrays and Fixnums implemented currently"
-	#	end
-	#end
 
 	private
 

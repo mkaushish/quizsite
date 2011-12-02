@@ -8,12 +8,19 @@
 #  created_at :datetime
 #  updated_at :datetime
 #  response   :string(255)
+#  user_id    :integer
 #
 
 class Problemanswer < ActiveRecord::Base
 	belongs_to :problem
+  belongs_to :user
+
+  attr_accessible :problem, :problem_id, :response,  :correct
 
 	before_save :dump_response
+
+  validates :problem_id, :presence => true
+  validates :response, :presence => true
 	
 	def dump_response
 		unless @response_hash.nil? || self.response != nil
@@ -23,6 +30,5 @@ class Problemanswer < ActiveRecord::Base
 
 	def response_hash
 		@response_hash ||= Marshal.load self.response
-		@response_hash
 	end
 end

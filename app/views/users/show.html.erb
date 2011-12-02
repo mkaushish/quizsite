@@ -1,3 +1,4 @@
 <h1><%= @user.name %></h1>
-<p>Below are the problems you have selected currently</p>
+<h3>Problem History</h3>
+<%= render :partial => 'problemanswers/history', :locals => {:problemanswers => @problemanswers} %>
 <% # TODO add problems in... and other stuff like statistics %>

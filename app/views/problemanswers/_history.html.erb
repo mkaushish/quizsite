@@ -1,0 +1,5 @@
+<% @problemanswers.each do |problemanswer| %>
+  <div class=<%= correct_class(problemanswer) %>>
+    <td><%= link_to "#{problemanswer.problem.to_s}", problemanswer %></td>
+  </div>
+<% end %>
