@@ -1,0 +1,25 @@
+<% if htmlobj.is_a? InputField %>
+  <div class=field>
+    <% if htmlobj.is_a? TextField %>
+      <%= label_tag(htmlobj.name, htmlobj.label) unless htmlobj.label.nil? %>
+      <%= text_field_tag htmlobj.name %>
+    <% elsif htmlobj.is_a? RadioButton %>
+      <% htmlobj.fields.each do |field| %>
+        <%= radio_button_tag(htmlobj.name, field) %>
+        <%= label_tag(htmlobj.name, field) %>
+        <br>
+      <% end %>
+    <% elsif htmlobj.is_a? Dropdown %>
+      <%= select_tag(htmlobj.name, options_from_collection_for_select(htmlobj.fields, 'to_s', 'to_s' )) %>
+    <% elsif htmlobj.is_a? Checkbox %>
+      <%= label_tag(htmlobj.name, htmlobj.label) unless htmlobj.label.nil? %>
+      <%= check_box_tag htmlobj.name %>
+    <% else %>
+      <% flash[:error] = "It seems the inputfield you passed in here didn't have a view implemented yet" %>
+    <% end %>
+  </div>
+<% else %>
+  <div class=explanation>
+    <%= htmlobj.to_s %>
+  </div>
+<% end %>

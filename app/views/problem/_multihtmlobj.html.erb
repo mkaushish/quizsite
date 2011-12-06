@@ -1,0 +1,20 @@
+<% if multihtmlobj.is_a? Fraction %>
+  <div class="fraction">
+    <% unless elt.intpart.nil? then %>
+      <%= render :partial => 'problem/htmlobj', :object => elt.intpart %>
+    <% end %>
+    <div class="quotient">
+      <%= render :partial => 'problem/htmlobj', :object => elt.num %> <hr>
+      <%= render :partial => 'problem/htmlobj', :object => elt.den %>
+    </div>
+  </div>
+<% elsif multihtmlobj.is_a? MultiTextField %>
+  <div class="multitext">
+    <% multihtmlobj.each_name do |curname| %>
+      <!-- Below code is duplicated in add_multitext_field_link in ApplicationHelper -->
+      <%= text_field_tag curname, nil, :class => 'mt_field' %>
+    <% end %>
+    <%= add_multitext_field_link(multihtmlobj.name) %>
+    <%= del_multitext_field_link() %>
+  </div>
+<% end %>

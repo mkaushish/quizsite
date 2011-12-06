@@ -1,24 +1,10 @@
 <%= form_tag :action => 'create' do %>
 	<%= hidden_field_tag 'problem_id', @problem.id %>
 	<% @problem.text.each do |elt| %>
-		<% if elt.is_a? InputField %>
-			<div class="field">
-				<%= (render_inputfield elt).html_safe %>
-			</div>
-		<% elsif elt.is_a? Fraction %>
-			<div class="fraction">
-				<% unless elt.intpart.nil? then %>
-					<%= (elt.intpart.is_a? InputField) ? render_inputfield(elt.intpart).html_safe : elt.intpart.to_s %> <hr>
-				<% end %>
-				<div class="quotient">
-					<%= (elt.num.is_a?(InputField)) ? render_inputfield(elt.num).html_safe : elt.num.to_s %> <hr>
-					<%= (elt.den.is_a?(InputField)) ? render_inputfield(elt.den).html_safe : elt.den.to_s %>
-				</div>
-			</div>
-		<% else %>
-			<div class="explanation">
-				<%= elt.to_s %>
-			</div>
+		<% if elt.is_a? HTMLObj %>
+      <%= render :partial => 'problem/htmlobj', :object => elt %>
+		<% elsif elt.is_a? MultiHTMLObj %>
+      <%= render :partial => 'problem/multihtmlobj', :object => elt %>
 		<% end %>
 	<% end %>
 
