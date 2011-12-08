@@ -29,4 +29,20 @@ module ApplicationHelper
   def del_multitext_field_link(link_name = "-")
     link_to link_name, "#", :class => "del_mt_field"
   end
+
+  def htmlobj_partial
+    @htmlobj_partial ||= 'problem/htmlobj'
+  end
+
+  def htmlobj_partial=(partial)
+    @htmlobj_partial = partial
+  end
+
+  def htmlobj_locals
+    @htmlobj_locals ||= {}
+  end
+
+  def htmlobj_locals=(locals)
+    @htmlobj_locals = locals
+  end
 end

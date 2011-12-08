@@ -2,69 +2,11 @@
 include ToHTML
 
 module ProblemanswersHelper
-	def render_inputfield(elt)
-		raise "render_inputfield can only be called on InputField" unless elt.is_a? InputField
-		ret = ""
+  attr_accessor :solution, :response
 
-		if elt.is_a? TextField
-			ret += label_tag(elt.name, elt.label) + "\n" unless elt.label.nil?
-			ret += text_field_tag elt.name
-			return ret
-		elsif elt.is_a? RadioButton
-			elt.fields.each do |field|
-				ret += radio_button_tag(elt.name, field) + "\n" + label_tag(elt.name, field) + " <br>".html_safe
-			end
-			return ret
-		elsif elt.is_a? Dropdown
-			return select_tag(elt.name, options_from_collection_for_select(elt.fields, 'to_s', 'to_s' ))
-		elsif elt.is_a? CheckBox
-			ret += label_tag elt.name, elt.label + "\n" unless elt.label.nil?
-			ret += check_box_tag elt.name
-		end
-		ret
-	end
-
-	# soln = the hash given by calling soln on the problem
-	# resp = the params hash given as a response
-	#
-	def render_soln_field(soln, resp, elt)
-		ret = '<div class="field">' + "\n"
-		if elt.is_a? TextField
-			ret += label_tag(elt.label) + "\n" unless(elt.label.nil?) || elt.label == ""
-			ret += "<div class=\"correct\">".html_safe
-			# TODO decide whether to use label_tag or text_field_tag
-			ret += label_tag(soln[elt.name])
-			unless soln[elt.name].to_s.strip == resp[elt.name].to_s.strip
-				ret += "</div>\n<div class=\"incorrect\">".html_safe
-				ret += label_tag(resp[elt.name])
-				#ret += text_field_tag(elt.name+"resp", nil, 
-				#											:placeholder => resp[elt.name],
-				#											:disabled => true)
-			end
-			ret += "</div>\n".html_safe
-		elsif elt.is_a?(RadioButton) || elt.is_a?(Dropdown)
-			elt.fields.each do |field|
-
-				checked = false
-				if field.to_s == soln[elt.name].to_s
-					ret += '<div class="correct">'.html_safe
-					checked = true
-				elsif field.to_s == resp[elt.name].to_s
-					ret += '<div class="incorrect">'.html_safe
-					checked = true
-				end
-
-				ret += check_box_tag(field, "1", checked, :disabled => true) + "\n" + label_tag(field) + " <br>".html_safe
-
-				if checked
-					ret += '</div>'.html_safe
-				end
-				ret += "\n"
-			end
-			#TODO add for other fields please!!!
-		end
-		return ret + '</div>'
-	end
+  def correct?(htmlobj)
+    htmlobj.correct? @solution, @response
+  end
 
 	# Takes as input the solution hash from problem.solve, and the InputField,
 	# and returns the solution associated with said field in string form

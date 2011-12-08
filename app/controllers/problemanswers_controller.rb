@@ -22,6 +22,8 @@ class ProblemanswersController < ApplicationController
     @problemanswer = Problemanswer.find(params[:id])
 		@problem = @problemanswer.problem.unpack
 		@solution = @problem.prefix_solve
+    puts "^"*60
+    puts @solution.inspect
 		@response = @problemanswer.response_hash
 
     respond_to do |format|

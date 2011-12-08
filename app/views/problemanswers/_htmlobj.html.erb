@@ -1,0 +1,30 @@
+<% if htmlobj.is_a? TextLabel %>
+  <%= htmlobj.to_s %>
+<% elsif htmlobj.is_a?(TextField) || htmlobj.is_a?(Checkbox) %>
+  <div class="correct">
+    <%= render :partial => 'responsefield', :locals => {:response => @solution}, :object => htmlobj %>
+  </div>
+  <% unless htmlobj.correct? @solution, @response %>
+    <div class="incorrect">
+      <%= render :partial => 'responsefield', :locals => {:response => @response}, :object => htmlobj %>
+    </div>
+  <% end %>
+<% elsif htmlobj.is_a?(RadioButton) || htmlobj.is_a?(Dropdown) %>
+  <% htmlobj.fields.each do |field| %>
+    <% if htmlobj.correct?(@solution, {htmlobj.name => field.to_s}) %>
+      <% @checked = true %>
+      <div class="correct">
+    <% elsif htmlobj.correct?(@response, {htmlobj.name => field.to_s}) %>
+      <% @checked = true %>
+      <div class="incorrect">
+    <% end %>
+        <%= check_box_tag(field, "1", @checked, :disabled => true) %>
+        <%= label_tag(field) %>
+        <br>
+    <% if @checked %>
+      </div>
+    <% end %>
+  <% end %>
+<% else %>
+  <% flash[:error] = "passed a non-htmlobj into the htmlobj partial!" %>
+<% end %>

@@ -1,0 +1,19 @@
+<% if multihtmlobj.is_a?(Fraction) || multihtmlobj.is_a?(MultiTextField) %>
+  <% htmlobj_partial = 'problemanswers/responsefield' %>
+  <% htmlobj_locals = {:response => @solution} %>
+  <div class="correct">
+    <% multihtmlobj.length_from_hash(@solution) if multihtmlobj.is_a?(MultiTextField) %>
+    <%= render :partial => 'problem/multihtmlobj', :object => multihtmlobj, 
+      :locals => {:partial => 'problemanswers/responsefield', :locals => {:response => @solution}} %>
+  </div>
+  <% unless multihtmlobj.correct?(@solution, @response) then %>
+    <div class="incorrect">
+    <% multihtmlobj.length_from_hash(@response) if multihtmlobj.is_a?(MultiTextField) %>
+    <%= render :partial => 'problem/multihtmlobj', :object => multihtmlobj, 
+      :locals => {:partial => 'problemanswers/responsefield', :locals => {:response => @response}} %>
+    </div>
+  <% end %>
+<% elsif multihtmlobj.is_a? TableField %>
+  <% htmlobj_partial = 'problemanswers/htmlobj' %>
+  <%= render :partial => 'problem/multihtmlobj', :object => multihtmlobj %>
+<% end %>

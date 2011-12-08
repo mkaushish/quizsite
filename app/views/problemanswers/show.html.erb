@@ -3,21 +3,11 @@
 <% end %>
 
 <% @problem.text.each do |elt| %>
-	<% if elt.is_a? InputField %>
-		<div class="solution">
-			<%= render_soln_field(@solution, @response, elt).html_safe %>
-		</div>
-	<% elsif elt.is_a? Fraction %>
-		<div class="solution">
-			<%= @solution[elt.num] %> / 
-			<%= @solution[elt.den] %>
-		</div>
+	<% if elt.is_a? MultiHTMLObj %>
+    <%= render :partial => 'multihtmlobj', :object => elt %>
 	<% else %>
-		<div class="explanation">
-			<%= elt.to_s %>
-		</div> 
+    <%= render :partial => 'htmlobj', :object => elt %>
 	<% end %>
 <% end %>
 
 <%= link_to "More Problems", root_path %>
-

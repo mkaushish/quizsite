@@ -1,20 +1,37 @@
+<% # TODO move this to helper somehow?? %>
+<% partial ||= 'problem/htmlobj' %>
+<% locals  ||= {} %>
+
 <% if multihtmlobj.is_a? Fraction %>
   <div class="fraction">
-    <% unless elt.intpart.nil? then %>
-      <%= render :partial => 'problem/htmlobj', :object => elt.intpart %>
+    <% unless multihtmlobj.intpart.nil? then %>
+      <%= render :partial => partial, :object => multihtmlobj.intpart, :locals => locals %>
     <% end %>
     <div class="quotient">
-      <%= render :partial => 'problem/htmlobj', :object => elt.num %> <hr>
-      <%= render :partial => 'problem/htmlobj', :object => elt.den %>
+      <%= render :partial => partial, :object => multihtmlobj.num, :locals => locals %> <hr>
+      <%= render :partial => partial, :object => multihtmlobj.den, :locals => locals %>
     </div>
   </div>
 <% elsif multihtmlobj.is_a? MultiTextField %>
-  <div class="multitext">
-    <% multihtmlobj.each_name do |curname| %>
-      <!-- Below code is duplicated in add_multitext_field_link in ApplicationHelper -->
-      <%= text_field_tag curname, nil, :class => 'mt_field' %>
+  <div class="multifield">
+    <% multihtmlobj.each_field do |field| %>
+      <%= render :partial => partial, :object => field, :locals => locals %>
     <% end %>
-    <%= add_multitext_field_link(multihtmlobj.name) %>
-    <%= del_multitext_field_link() %>
+    <% if partial == 'problem/htmlobj' %>
+      <%= add_multitext_field_link(multihtmlobj.name) %>
+      <%= del_multitext_field_link() %>
+    <% end %>
+  </div>
+<% elsif multihtmlobj.is_a? TableField %>
+  <div class="multifield">
+    <table>
+      <%= multihtmlobj.nrows.times do |row| %>
+        <tr>
+          <%= multihtmlobj.each_col(row) do |htmlobj| %>
+            <td><%= render :partial => partial, :object => htmlobj, :locals => locals%></td>
+          <% end %>
+        </tr>
+      <% end %>
+    </table>
   </div>
 <% end %>

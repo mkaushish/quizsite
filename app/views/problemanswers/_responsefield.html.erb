@@ -1,0 +1,11 @@
+<% if responsefield.is_a? TextLabel %>
+  <%= responsefield.to_s %>
+<% elsif responsefield.is_a? TextField %>
+  <%= label_tag(responsefield.name, responsefield.label) unless responsefield.label.nil? %>
+  <%= label_tag responsefield.fromhash(response) %>
+<% elsif responsefield.is_a? Checkbox %>
+  <%= check_box_tag responsefield.name, "1", responsefield.fromhash(response).nil?, :disabled => true %>
+  <%= label_tag(responsefield.name, responsefield.label) unless responsefield.label.nil? %>
+<% else %>
+  <% flash[:error] = "responsefield partial only displays TextLabels, TextFields, and Checkboxes" %>
+<% end %>

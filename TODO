@@ -1,20 +1,14 @@
 Short Term
 ----------
 
-[ ] move view logic from problemanswersHelper into partials!
-[ ] fraction input not working => test with problem ToImproperFraction
-	[X] allow fraction input fields
-	[ ] fix fraction display in problemanswers/show
 [ ] radio button text field
 [ ] fix TODO's throughout code
-[ ] add support for multitextfields - dynamic number of text fields
-		or perhaps just generic, and specify which ones you can add?
 [ ] fix suitable arrangement stuff in chapter 2
-
 [ ] commas seem to not be preprocessed out, see writinginternational
 [ ] 7186110.to_international returns something and 17???
 [ ] keep text fields from autocompleting
 [ ] in preprocessing we should also
+[ ] disallow going back and redoing problems
 
 Long Term
 ---------
@@ -35,3 +29,10 @@ Completed
 [X] successor and predecessor not working
 [X] 1350000.to_indian returns something thous [no and]
 [X] add users
+[X] add support for multitextfields - dynamic number of text fields
+		or perhaps just generic, and specify which ones you can add?
+[x] allow multitextfields to be ordered or not
+[X] move view logic from problemanswersHelper into partials!
+[X] fraction input not working => test with problem ToImproperFraction
+	[X] allow fraction input fields
+	[X] fix fraction display in problemanswers/show
