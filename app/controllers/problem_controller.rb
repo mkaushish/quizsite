@@ -12,7 +12,10 @@ class ProblemController < ApplicationController
   def choose
     @chosen_probs = get_probs
     @all_probs = all_probs
-    $stderr.puts "#"*50 + "\n" + @chosen_probs[0].inspect
+  end
+
+  def explain
+    @problem = Problem.find(params[:id]).unpack
   end
 
   def makequiz
@@ -29,9 +32,5 @@ class ProblemController < ApplicationController
     flash[:notice] = "you just set your problems"
 
     redirect_to :action => :index
-  end
-
-  def explain
-    @problem = Problem.find(params[:id])
   end
 end

@@ -1,6 +1,7 @@
 Quizsite::Application.routes.draw do
   resources :users
   resources :sessions, :only => [:new, :create, :destroy]
+  # resources :problems, :only => [:index, 
   scope(:path_names => { :new => "quiz" }) do
     resources :problemanswers, :except => [:edit, :destroy]
   end
@@ -8,6 +9,7 @@ Quizsite::Application.routes.draw do
   get "problem/choose"
   post "problem/makequiz"
   get "problem/index"
+  match "/explain/:id" => 'problem#explain', :as => :explain
 
   match '/signup',  :to => 'users#new'
   match '/signin',  :to => 'sessions#new'

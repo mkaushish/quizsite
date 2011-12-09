@@ -1,5 +1,7 @@
 Short Term
 ----------
+[ ] view thinks all fractions are inputfields - only if they are text fields don't make them correct
+[ ] display problems in reverse chronological order in profile
 [ ] radio button text field
 [ ] fix TODO's throughout code
 [ ] fix suitable arrangement stuff in chapter 2

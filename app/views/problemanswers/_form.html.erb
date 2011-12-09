@@ -1,13 +1,6 @@
 <%= form_tag :action => 'create' do %>
 	<%= hidden_field_tag 'problem_id', @problem.id %>
-	<% @problem.text.each do |elt| %>
-		<% if elt.is_a? HTMLObj %>
-      <%= render :partial => 'problem/htmlobj', :object => elt %>
-		<% elsif elt.is_a? MultiHTMLObj %>
-      <%= render :partial => 'problem/multihtmlobj', :object => elt %>
-		<% end %>
-	<% end %>
-
+  <%= render :partial => 'problem/problem', :object => @problem, :locals => {:partialdir => 'problem'} %>
 	<div class="actions">
 		<%= submit_tag "Submit Answer" %>
 	</div>

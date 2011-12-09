@@ -1,13 +1,8 @@
 <% if flash[:last_correct] == false %>
 	<p>It seems you got the last problem incorrect :(</p>
 <% end %>
-
-<% @problem.text.each do |elt| %>
-	<% if elt.is_a? MultiHTMLObj %>
-    <%= render :partial => 'multihtmlobj', :object => elt %>
-	<% else %>
-    <%= render :partial => 'htmlobj', :object => elt %>
-	<% end %>
+<%= render :partial => 'problem/problem', :object => @problem, :locals => {:partialdir => 'problemanswers'} %>
+<% if @problem.is_a? QuestionWithExplanation %>
+  <%= link_to "See Explanation", explain_path(@problemanswer.problem) %>
 <% end %>
-
 <%= link_to "More Problems", root_path %>
