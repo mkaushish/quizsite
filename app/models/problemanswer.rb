@@ -12,23 +12,23 @@
 #
 
 class Problemanswer < ActiveRecord::Base
-	belongs_to :problem
+  belongs_to :problem
   belongs_to :user
 
   attr_accessible :problem, :problem_id, :response,  :correct
 
-	before_save :dump_response
+  before_save :dump_response
 
   validates :problem_id, :presence => true
   validates :response, :presence => true
-	
-	def dump_response
-		unless @response_hash.nil? || self.response != nil
-			self.response = Marshal.dump @response_hash
-		end
-	end
+  
+  def dump_response
+    unless @response_hash.nil? || self.response != nil
+      self.response = Marshal.dump @response_hash
+    end
+  end
 
-	def response_hash
-		@response_hash ||= Marshal.load self.response
-	end
+  def response_hash
+    @response_hash ||= Marshal.load self.response
+  end
 end

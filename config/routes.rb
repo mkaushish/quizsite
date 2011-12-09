@@ -6,8 +6,8 @@ Quizsite::Application.routes.draw do
   end
 
   get "problem/choose"
-	post "problem/makequiz"
-	get "problem/index"
+  post "problem/makequiz"
+  get "problem/index"
 
   match '/signup',  :to => 'users#new'
   match '/signin',  :to => 'sessions#new'

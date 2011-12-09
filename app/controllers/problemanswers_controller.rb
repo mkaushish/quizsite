@@ -20,11 +20,11 @@ class ProblemanswersController < ApplicationController
   # GET /problemanswers/1.json
   def show
     @problemanswer = Problemanswer.find(params[:id])
-		@problem = @problemanswer.problem.unpack
-		@solution = @problem.prefix_solve
+    @problem = @problemanswer.problem.unpack
+    @solution = @problem.prefix_solve
     puts "^"*60
     puts @solution.inspect
-		@response = @problemanswer.response_hash
+    @response = @problemanswer.response_hash
 
     respond_to do |format|
       format.html # show.html.erb
@@ -35,19 +35,19 @@ class ProblemanswersController < ApplicationController
   # GET /problemanswers/new
   # GET /problemanswers/new.json
   def new
-		plist = get_probs
-		plist = all_probs if plist.empty?
-		ptype = plist.sample
+    plist = get_probs
+    plist = all_probs if plist.empty?
+    ptype = plist.sample
 
-		@problem = Problem.new
-		@problem.my_initialize(ptype)
-		@problem.save
+    @problem = Problem.new
+    @problem.my_initialize(ptype)
+    @problem.save
 
-		#$stderr.puts "#"*30 + "\n" + @problem.prob.text.inspect
+    #$stderr.puts "#"*30 + "\n" + @problem.prob.text.inspect
 
-		unless flash[:last_correct] || flash[:last_id].nil?
-			@last_prob = Problemanswer.find(flash[:last_id])
-		end
+    unless flash[:last_correct] || flash[:last_id].nil?
+      @last_prob = Problemanswer.find(flash[:last_id])
+    end
 
     respond_to do |format|
       format.html # new.html.erb
@@ -60,30 +60,30 @@ class ProblemanswersController < ApplicationController
     @problemanswer = Problemanswer.find(params[:id])
   end
 
-	def explain
-		@bigproblem = Problem.find(params["problem_id"])
-		if @bigproblem.is_a? QuestionWithExplanation
-			@subproblems = @bigproblem.explain
-		end
-	end
+  def explain
+    @bigproblem = Problem.find(params["problem_id"])
+    if @bigproblem.is_a? QuestionWithExplanation
+      @subproblems = @bigproblem.explain
+    end
+  end
 
   # POST /problemanswers
   # POST /problemanswers.json
   def create
-		@problem = Problem.find(params["problem_id"])
-		@problem.load_problem
+    @problem = Problem.find(params["problem_id"])
+    @problem.load_problem
 
-		@problemanswer = current_user.problemanswers.new(
+    @problemanswer = current_user.problemanswers.new(
                         :problem  => @problem, 
-											  :correct  => @problem.correct?(params),
-												:response => @problem.get_packed_response(params))
+                        :correct  => @problem.correct?(params),
+                        :response => @problem.get_packed_response(params))
 
-		flash[:last_correct] = @problemanswer.correct
-		flash[:last_id] = @problemanswer.id
+    flash[:last_correct] = @problemanswer.correct
+    flash[:last_id] = @problemanswer.id
 
-		$stderr.puts "\n\n#{"#"*30}\n#{@problem.text}"
-		$stderr.puts "#{@problem.prob.solve}"
-		$stderr.puts "params = #{params.inspect}\n#{"#"*30}\n"
+    $stderr.puts "\n\n#{"#"*30}\n#{@problem.text}"
+    $stderr.puts "#{@problem.prob.solve}"
+    $stderr.puts "params = #{params.inspect}\n#{"#"*30}\n"
 
     if @problemanswer.save
       if @problemanswer.correct
