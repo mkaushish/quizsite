@@ -1,0 +1,11 @@
+var myInputs = $('input:not(:submit)').filter('[type!="hidden"]')
+myInputs.attr("disabled", true);
+
+var checkboxes = myInputs.filter(':checked');
+checkboxes.insertBefore('<div class="correct">');
+checkboxes.insertAfter('</div>');
+//checkboxes.next('label').after('</div>');
+//checkboxes.next('label').before('<div class="correct">');
+  
+$('#next_subproblem').before("<%= escape_javascript(render(:partial => 'problem/problem', :object => @explain[@i], :locals => {:partialdir => 'problem'})) %>");
+$('#subproblem_index').html("<%= escape_javascript(hidden_field_tag('subproblem_index', @i)) %>");

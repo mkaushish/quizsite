@@ -9,8 +9,10 @@ Quizsite::Application.routes.draw do
   get "problem/choose"
   post "problem/makequiz"
   get "problem/index"
+  post "problem/next_subproblem"
   match "/explain/:id" => 'problem#explain', :as => :explain
 
+  match '/profile' => 'users#show'
   match '/signup',  :to => 'users#new'
   match '/signin',  :to => 'sessions#new'
   match '/signout', :to => 'sessions#destroy'

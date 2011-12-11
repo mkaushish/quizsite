@@ -1,12 +1,12 @@
-<% unless @problem.is_a? QuestionWithExplanation %>
+<% unless @problem.prob.is_a? QuestionWithExplanation %>
   <p>We're sorry, this problem doesn't seem to have an explanation.</p>
 <% else %>
-  <div class="explanation">
-  <% @problem.explain.each do |subproblem| %>
-    <div class="subproblem">
-    <%= render :partial => 'problem/problem', :object => subproblem, :locals => {:partialdir => 'problem'} %>
-    </div>
+  <%= form_tag({:action => 'next_subproblem'}, :remote => true, :autocomplete => "off") do %>
+    <%= hidden_field_tag 'subproblem_index', @i %>
+    <%= hidden_field_tag 'problem_id', @problem.id %>
+    <%= render :partial => 'problem/problem', :object => @explain[@i], :locals => {:partialdir => 'problem'} %>
+    <%= hidden_field_tag 'next_subproblem', "" %>
+    <%= submit_tag "Submit Answer" %>
   <% end %>
-  </div>
 <% end %>
 

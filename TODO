@@ -1,6 +1,8 @@
 Short Term
 ----------
+[ ] add some css for fractions
 [ ] view thinks all fractions are inputfields - only if they are text fields don't make them correct
+[ ] make explanations only keep showing once you get the right answer on the previous one
 [ ] display problems in reverse chronological order in profile
 [ ] radio button text field
 [ ] fix TODO's throughout code
