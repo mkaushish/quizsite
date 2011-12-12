@@ -13,9 +13,77 @@
 	-khtml-border-radius: $radius; /* for old Konqueror browsers */
 }
 
+#container {
+  width: 800px;
+  float: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#banner {
+  width: 500px;
+  height: 60px;
+}
+
+nav {
+  float: top;
+  margin-bottom: 10px;
+  //border-bottom: 2px solid;
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  li {
+    float: left;
+  }
+
+  a {
+    display: block;
+    width: 120px;
+    color: #000000;
+    border: 2px solid #fff;
+    background: #fff;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+
+    &:hover {
+      border: 2px solid green;
+      color: #000000;
+      background: #fff;
+    }
+  }
+  
+}
+
+input {
+  margin: 5px
+}
+
+.explanation {
+  float: left;
+}
+
 .fraction {
-  .field  
+  margin: 7px 15px;
+  float: left;
+  input {
+    width: 50px;
+  }
+  .intpart { 
+    margin-top: 25px;
+    float: left;
+  }
   .quotient {
-    float: left
+    float: left;
+    .numerator {
+      float: top;
+    }
+
+    .denominator {
+      float:bottom;
+    }
   }
 }

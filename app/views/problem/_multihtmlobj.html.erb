@@ -5,11 +5,16 @@
 <% if multihtmlobj.is_a? Fraction %>
   <div class="fraction">
     <% unless multihtmlobj.intpart.nil? then %>
-      <%= render :partial => partial, :object => multihtmlobj.intpart, :locals => locals %>
+      <div class="intpart">
+        <%= render :partial => partial, :object => multihtmlobj.intpart, :locals => locals %>
+      </div>
     <% end %>
     <div class="quotient">
-      <%= render :partial => partial, :object => multihtmlobj.num, :locals => locals %> <hr>
-      <%= render :partial => partial, :object => multihtmlobj.den, :locals => locals %>
+      <div class="numerator">
+        <%= render :partial => partial, :object => multihtmlobj.num, :locals => locals %>
+      </div> <hr> <div class="denominator">
+        <%= render :partial => partial, :object => multihtmlobj.den, :locals => locals %>
+      </div>
     </div>
   </div>
 <% elsif multihtmlobj.is_a? MultiTextField %>
