@@ -18,6 +18,12 @@ group :development do
 	gem 'annotate', :git => 'git://github.com/ctran/annotate_models.git'
 end
 
+# heroku uses postgresssql
+group :production do
+  gem 'pg'
+end
+
+
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
