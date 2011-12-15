@@ -6,6 +6,10 @@
  *= require_tree . 
 */
 
+/* Varables {{{ */
+
+$graphite: #503214;
+
 @mixin rounded-corners($radius) {
 	-moz-border-radius: $radius;
 	-webkit-border-radius: $radius;
@@ -13,22 +17,44 @@
 	-khtml-border-radius: $radius; /* for old Konqueror browsers */
 }
 
+@font-face {
+  font-family: "SketchRockwell";
+  src: url('SketchRockwell-Bold.ttf') format('truetype');
+}
+/* }}} */
+
+/* Layout ID's {{{ */
 #container {
   width: 800px;
-  float: center;
+  height: 1100px;
   margin-left: auto;
   margin-right: auto;
+  background-image: url('graphpapertile.png');
+  background-repeat: repeat;
 }
 
-#banner {
-  width: 500px;
-  height: 60px;
+#sitetitle {
+  width: 800px;
+  height: 70px;
+  margin-bottom: 10px;
+  a {
+    padding-top: 10px;
+    display: block;
+    text-align: center;
+    font-family: "SketchRockwell";
+    //border: 2px solid #fff;
+    margin: 4px;
+    font-size: 3em;
+    &:hover {
+      color: black;
+    }
+  }
 }
 
 nav {
-  float: top;
+  width:800px;
   margin-bottom: 10px;
-  //border-bottom: 2px solid;
+  border-bottom: 2px solid;
   ul {
     list-style-type: none;
     margin: 0;
@@ -41,49 +67,100 @@ nav {
 
   a {
     display: block;
-    width: 120px;
-    color: #000000;
-    border: 2px solid #fff;
-    background: #fff;
+    width: 170px;
+    font-family: "SketchRockwell";
+    font-size: 1.5em;
     text-align: center;
     padding: 4px;
-    text-decoration: none;
-
-    &:hover {
-      border: 2px solid green;
-      color: #000000;
-      background: #fff;
-    }
   }
   
+}
+
+/* }}} */
+
+a {
+  text-decoration: none;
+  color: $graphite;
+  border-style: solid;
+  border-width: 2px;
+  border-color: transparent;
+  &:hover {
+    color: black;
+    border-color: green;
+  }
+  &:visited {
+    color: $graphite;
+  }
 }
 
 input {
   margin: 5px
 }
 
+/* Common Classes {{{ */
+
 .explanation {
   float: left;
 }
 
 .fraction {
+  height: 70px;
   margin: 7px 15px;
-  float: left;
   input {
     width: 50px;
   }
+
   .intpart { 
-    margin-top: 25px;
+    text-align: right;
+    padding-right: 5px;
+    height: 45px;
+    padding: 25px 5px 0;
     float: left;
   }
-  .quotient {
+  .intpartInput { 
+    text-align: right;
+    height: 52px;
+    padding: 18px 5px 0;
     float: left;
+  }
+
+  .quotient {
+    margin: 0px;
+    height: 70px;
+    float: left;
+
     .numerator {
-      float: top;
+      text-align: center;
+      height:24px;
+      border-bottom: 2px solid black;
+      padding: 9px 5px 0px; /* 0 top, 5 left and right, 5 bottom */
+    }
+    .numeratorInput {
+      text-align: center;
+      height:28px;
+      border-bottom: 2px solid black;
+      padding: 0px 5px 5px; /* 0 top, 5 left and right, 5 bottom */
     }
 
     .denominator {
-      float:bottom;
+      text-align: center;
+      height:30px;
+      padding: 5px 5px 0px; /* 5 top, 5 left and right, 0 bottom */
+    }
+    .denominatorInput {
+      text-align: center;
+      height:30px;
+      padding: 2px 5px 3px; /* 2 top, 5 left and right, 3 bottom */
     }
   }
 }
+
+.correct {
+	border: 3px solid green;
+}
+
+.incorrect {
+	border: 3px solid red;
+}
+/* }}} */
+

@@ -1,14 +1,13 @@
 <nav>
-<%= link_to image_tag("smartergrades.png"), root_path, :id => "banner" %>
-  <ul>
-    <% if signed_in? %>
-      <li><%= link_to image_tag("profile.png"), user_path(current_user) %></li>
-    <% end %>
-    <li><%= link_to "Make Quiz", :controller => :problem, :action => :choose %></li>
-    <li><%= link_to "Start Quiz", root_path %></li>
-    <li>
-      <%= render 'shared/signin' %>
-    </li>
-  </ul>
-  <br>
+<ul>
+  <% if signed_in? %>
+    <li><%= link_to "Profile", user_path(current_user) %></li>
+  <% end %>
+  <li><%= link_to "Make Quiz", :controller => :problem, :action => :choose %></li>
+  <li><%= link_to "Start Quiz", root_path %></li>
+  <li>
+  <%= render 'shared/signin' %>
+  </li>
+</ul>
+<br>
 </nav>

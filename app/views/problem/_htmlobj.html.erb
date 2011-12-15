@@ -1,5 +1,4 @@
 <% if htmlobj.is_a? InputField %>
-  <div class=field>
     <% if htmlobj.is_a? TextField %>
       <%= label_tag(htmlobj.name, htmlobj.label) unless htmlobj.label.nil? %>
       <%= text_field_tag htmlobj.name %>
@@ -17,9 +16,6 @@
     <% else %>
       <% flash[:error] = "It seems the inputfield you passed in here didn't have a view implemented yet" %>
     <% end %>
-  </div>
 <% else %>
-  <div class=explanation>
     <%= htmlobj.to_s %>
-  </div>
 <% end %>

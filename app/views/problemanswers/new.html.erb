@@ -1,5 +1,8 @@
-<h1>Your are being quizzed!</h1>
-<p>Problem Type: <%= @problem.prob.class.to_s %></p>
+<div id="quizheader">
+<h1><%= @problem.to_s %></h1>
+</div>
+<br>
+<div id="quiz">
 <% unless flash[:last_correct].nil? %>
 	<% if flash[:last_correct] %>
 		<div class="correct">You got the last one right!</div>
@@ -10,5 +13,4 @@
 
 <%= render 'form' %>
 
-<%= link_to 'Back', :back %> <br>
-<%= link_to 'Choose Questions', :action => :choose, :controller => :problem %>
+</div>

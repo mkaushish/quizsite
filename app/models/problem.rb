@@ -52,7 +52,7 @@ class Problem < ActiveRecord::Base
   end
 
   def to_s
-    self.prob.class.to_s
+    self.prob.type
   end
 
   def prob

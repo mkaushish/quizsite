@@ -1,3 +1,16 @@
 // Place all the styles related to the problemanswers controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+#quizheader {
+  width: 800px;
+  height: 40px;
+  margin-left: 30px; 
+  h1 {
+    float: left;
+    font-size: 1.3em;
+  }
+}
+
+#quiz {
+  margin-left: 30px;
+}
