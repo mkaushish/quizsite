@@ -22,7 +22,8 @@ ActiveRecord::Schema.define(:version => 20111201130311) do
     t.integer  "user_id"
   end
 
-  add_index "problemanswers", ["user_id", "problem_id"], :name => "index_problemanswers_on_user_id_and_problem_id"
+  add_index "problemanswers", ["user_id", "created_at"], :name => "index_problemanswers_on_user_id_and_created_at"
+  add_index "problemanswers", ["user_id"], :name => "index_problemanswers_on_user_id"
 
   create_table "problems", :force => true do |t|
     t.string   "problem"
