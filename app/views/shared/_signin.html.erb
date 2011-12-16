@@ -1,7 +1,7 @@
 <% if signed_in? %>
   <%= link_to "Sign Out", signout_path, :method => :delete %>
 <% else %>
-  <%= form_for(:session, :url => sessions_path) do |f| %>
+  <%= form_for(:session, {:url => sessions_path, :html => {:class => "signin"}}) do |f| %>
     <div class = "field">
       <%= f.label :email %>
       <%= f.text_field :email %>
@@ -11,6 +11,7 @@
       <%= f.password_field :password %>
     </div>
     <div class = "actions">
+      <label></label>
       <%= f.submit "Sign in" %>
     </div>
   <% end %>

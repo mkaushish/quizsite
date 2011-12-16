@@ -12,6 +12,7 @@ Short Term
 [ ] keep text fields from autocompleting
 [ ] in preprocessing we should also
 [ ] disallow going back and redoing problems
+[ ] what should our starting page be for non-signed in? signed in?
 
 Long Term
 ---------

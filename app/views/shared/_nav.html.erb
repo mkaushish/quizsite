@@ -1,13 +1,15 @@
 <nav>
-<ul>
   <% if signed_in? %>
-    <li><%= link_to "Profile", user_path(current_user) %></li>
+  <ul>
+    <% if signed_in? %>
+      <li><%= link_to "Profile", user_path(current_user) %></li>
+    <% end %>
+    <li><%= link_to "Make Quiz", :controller => :problem, :action => :choose %></li>
+    <li><%= link_to "Start Quiz", root_path %></li>
+    <li>
+    <%= render 'shared/signin' %>
+    </li>
+  </ul>
   <% end %>
-  <li><%= link_to "Make Quiz", :controller => :problem, :action => :choose %></li>
-  <li><%= link_to "Start Quiz", root_path %></li>
-  <li>
-  <%= render 'shared/signin' %>
-  </li>
-</ul>
-<br>
 </nav>
+

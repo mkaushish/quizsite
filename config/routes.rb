@@ -1,4 +1,8 @@
 Quizsite::Application.routes.draw do
+  get "pages/home"
+  get "pages/contact"
+  #get "pages/team" # TODO ADD THIS PAGE
+
   resources :users
   resources :sessions, :only => [:new, :create, :destroy]
   # resources :problems, :only => [:index, 
@@ -18,8 +22,11 @@ Quizsite::Application.routes.draw do
   match '/signout', :to => 'sessions#destroy'
   match '/history', :to => 'problemanswers#index'
   match '/quiz',    :to => 'problemanswers#new'
+  match '/home',    :to => 'pages#home'
+  match '/contact', :to => 'pages#home'
+  #match '/team',    :to => 'pages#team'
 
-  root :to => 'problemanswers#new'
+  root :to => 'pages#home'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
