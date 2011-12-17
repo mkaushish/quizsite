@@ -39,14 +39,16 @@ $graphite: #503214;
   height: 70px;
   margin-bottom: 10px;
   a {
+    text-decoration: none;
     padding-top: 10px;
     display: block;
     text-align: center;
     font-family: "SketchRockwell";
-    //border: 2px solid #fff;
+    border: 0;
     margin: 4px;
     font-size: 3em;
     &:hover {
+      border: 0;
       color: black;
     }
   }
@@ -57,6 +59,7 @@ nav {
   margin-bottom: 10px;
   border-bottom: 2px solid;
   ul {
+    text-align: center;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -67,12 +70,16 @@ nav {
   }
 
   a {
+    text-decoration: none;
     display: block;
     width: 170px;
     font-family: "SketchRockwell";
     font-size: 1.5em;
     text-align: center;
     padding: 4px;
+    &:hover {
+      color: black;
+    }
   }
   
 }
@@ -80,14 +87,10 @@ nav {
 /* }}} */
 
 a {
-  text-decoration: none;
   color: $graphite;
-  border-style: solid;
-  border-width: 2px;
   border-color: transparent;
   &:hover {
     color: black;
-    border-color: green;
   }
   &:visited {
     color: $graphite;
