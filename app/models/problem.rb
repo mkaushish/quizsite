@@ -20,11 +20,11 @@ class Problem < ActiveRecord::Base
   end
 
   def dump_problem
-    self.problem = ActiveRecord::Base.connection.escape_bytea(Marshal.dump(@prob))
+    write_attribute :problem, ActiveSupport::Base64.encode64(Marshal.dump(@prob))
   end
 
   def load_problem
-    @prob = Marshal.load(ActiveRecord::Base.connection.unescape_bytea(self.problem))
+    @prob = Marshal.load(ActiveSupport::Base64.decode64(read_attribute :problem))
   end
 
   def unpack
