@@ -24,11 +24,11 @@ class Problemanswer < ActiveRecord::Base
   
   def dump_response
     unless @response_hash.nil? || self.response != nil
-      self.response = Marshal.dump @response_hash
+      self.response = ActiveRecord::Base.connection.escape_bytea(Marshal.dump(@response_hash))
     end
   end
 
   def response_hash
-    @response_hash ||= Marshal.load self.response
+    @response_hash ||= Marshal.load(ActiveRecord::Base.connection.unescape_bytea(self.response))
   end
 end
