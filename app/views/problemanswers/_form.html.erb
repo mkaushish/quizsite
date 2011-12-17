@@ -1,4 +1,4 @@
-<%= form_tag :action => 'create' do %>
+<%= form_tag({:action => 'create'}, :autocomplete => "off") do %>
 	<%= hidden_field_tag 'problem_id', @problem.id %>
   <%= render :partial => 'problem/problem', :object => @problem, :locals => {:partialdir => 'problem'} %>
 	<div class="actions">
