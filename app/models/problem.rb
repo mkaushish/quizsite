@@ -20,11 +20,11 @@ class Problem < ActiveRecord::Base
   end
 
   def dump_problem
-    self.problem = Marshal.dump @prob
+    self.problem = ActiveRecord::Base.connection.escape_bytea(Marshal.dump(@prob))
   end
 
   def load_problem
-    @prob = Marshal.load self.problem
+    @prob = Marshal.load(ActiveRecord::Base.connection.unescape_bytea(self.problem))
   end
 
   def unpack
