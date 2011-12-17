@@ -1,5 +1,6 @@
 Short Term
 ----------
+[ ] Get commits to heroku to work
 [ ] MultiTextField: add 2 fields and remove 2 doesn't seem to work
 [ ] view thinks all fractions are inputfields - only if they are text fields don't make them correct
 [ ] make explanations only keep showing once you get the right answer on the previous one
