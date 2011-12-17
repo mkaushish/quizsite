@@ -47,7 +47,7 @@
 require 'digest'
 
 class User < ActiveRecord::Base
-  @@email_regex = /^[\w+.!#\$%&'*+\-\/=?^_`{|}~]+@[a-z\-]+(:?\.[a-z\-]+)+$/i
+  @@email_regex = /^[\w0-9+.!#\$%&'*+\-\/=?^_`{|}~]+@[a-z0-9\-]+(:?\.[0-9a-z\-]+)+$/i
 
   attr_accessor :password
   attr_accessible :email, :name, :password, :password_confirmation
