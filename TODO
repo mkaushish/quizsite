@@ -1,5 +1,8 @@
 Short Term
 ----------
+[ ] add team description page
+[ ] if an the correct answer is the response in one part of a multipart question, it should have class=correct
+[ ] fillfractions in C7 doesn't have the correct name in soln hash
 [ ] Get commits to heroku to work
 [ ] MultiTextField: add 2 fields and remove 2 doesn't seem to work
 [ ] view thinks all fractions are inputfields - only if they are text fields don't make them correct
@@ -10,7 +13,6 @@ Short Term
 [ ] fix suitable arrangement stuff in chapter 2
 [ ] commas seem to not be preprocessed out, see writinginternational
 [ ] 7186110.to_international returns something and 17???
-[ ] keep text fields from autocompleting
 [ ] in preprocessing we should also
 [ ] disallow going back and redoing problems
 [ ] what should our starting page be for non-signed in? signed in?
@@ -23,9 +25,11 @@ Long Term
 [ ] research ajax for calculator/multiform input fields
 [ ] track user statistics, and do stuff with them
 [ ] Allow partial credit on problems
+[ ] remove require statements in rails - use autoload
 
 Completed
 ---------
+[x] keep text fields from autocompleting
 [X] allow display of other input fields besides radio/text fields
 [X] error if you haven't selected problems currently
 [X] In multipart questions, if one answer is correct, it should only display it once (outlined in green)

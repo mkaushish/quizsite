@@ -3,7 +3,7 @@
 # Table name: problems
 #
 #  id         :integer         not null, primary key
-#  problem    :string(255)
+#  problem    :string
 #  created_at :datetime
 #  updated_at :datetime
 #

@@ -3,12 +3,13 @@
 # Table name: problems
 #
 #  id         :integer         not null, primary key
-#  problem    :string(255)
+#  problem    :string
 #  created_at :datetime
 #  updated_at :datetime
 #
 
 class Problem < ActiveRecord::Base
+  include ApplicationHelper
   has_many :problemanswers
 
   attr_accessible :problem
@@ -20,11 +21,11 @@ class Problem < ActiveRecord::Base
   end
 
   def dump_problem
-    write_attribute :problem, ActiveSupport::Base64.encode64(Marshal.dump(@prob))
+    self.problem = m_pack(@prob)
   end
 
   def load_problem
-    @prob = Marshal.load(ActiveSupport::Base64.decode64(read_attribute :problem))
+    @prob = m_unpack(self.problem)
   end
 
   def unpack
@@ -48,7 +49,7 @@ class Problem < ActiveRecord::Base
   end
 
   def get_packed_response(params)
-    Marshal.dump(get_response(params))
+    m_pack(get_response(params))
   end
 
   def to_s

@@ -1,3 +1,4 @@
+require 'c1'
 class PagesController < ApplicationController
   def home
     if signed_in?
@@ -13,5 +14,4 @@ class PagesController < ApplicationController
 
   def team
   end
-
 end

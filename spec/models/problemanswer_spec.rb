@@ -7,7 +7,7 @@
 #  problem_id :integer
 #  created_at :datetime
 #  updated_at :datetime
-#  response   :string(255)
+#  response   :string
 #  user_id    :integer
 #
 

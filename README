@@ -11,3 +11,12 @@ with
 Restart webrick and it'll work like a charm :)
 
 Note, much of the code in this was taken from Micheal Hartls excellent Ruby on Rails Tutorial
+
+Instructions for setting up posgresql on ubuntu:
+------------------------------------------------
+$ sudo apt-get install postgresql
+$ sudo su postgres # ubuntu package creates user postgres by default
+$ createuser -d <username> # where user name is your user name
+$ # answer yes at superuser prompt
+$ bundle install # Gemfile should include a line saying "gem 'pg'"
+$ rake db:create:all

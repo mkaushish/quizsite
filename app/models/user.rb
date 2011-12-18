@@ -3,13 +3,13 @@
 # Table name: users
 #
 #  id                 :integer         not null, primary key
-#  name               :string(255)
-#  email              :string(255)
-#  perms              :string(255)
+#  name               :string
+#  email              :string
+#  perms              :string
 #  created_at         :datetime
 #  updated_at         :datetime
-#  encrypted_password :string(255)
-#  salt               :string(255)
+#  encrypted_password :string
+#  salt               :string
 #
 
 #Copyright (c) 2010 Michael Hartl

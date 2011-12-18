@@ -7,11 +7,12 @@
 #  problem_id :integer
 #  created_at :datetime
 #  updated_at :datetime
-#  response   :string(255)
+#  response   :string
 #  user_id    :integer
 #
 
 class Problemanswer < ActiveRecord::Base
+  include ApplicationHelper
   belongs_to :problem
   belongs_to :user
 
@@ -24,11 +25,11 @@ class Problemanswer < ActiveRecord::Base
   
   def dump_response
     unless @response_hash.nil? || self.response != nil
-      self.response = ActiveSupport::Base64.encode64(Marshal.dump(@response_hash))
+      self.response = m_pack(@response_hash)
     end
   end
 
   def response_hash
-    @response_hash ||= Marshal.load(ActiveSupport::Base64.decode64(self.response))
+    @response_hash ||= m_unpack(self.response)
   end
 end
