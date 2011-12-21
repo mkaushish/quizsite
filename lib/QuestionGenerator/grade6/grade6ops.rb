@@ -217,8 +217,7 @@ class Fixnum
   end
 
   def int_commas
-    # TODO this shouldn't make a number start with a comma
-    to_s.reverse.gsub(/([0-9]{3})/, '\1,').reverse
+    to_s.reverse.gsub(/([0-9]{3}(?!$))/, '\1,').reverse
   end
 
   def ind_commas
