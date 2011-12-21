@@ -20,7 +20,7 @@ $(document).ready(function () {
   $('.del_mt_field').click(function() {
     var num = $(this).siblings(".mt_field").length;
 
-    if(num > 1) {
+    if(num >= 1) {
       $(this).siblings(".mt_field").last().remove();
     }
   });
