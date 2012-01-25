@@ -1,4 +1,11 @@
-<% partialdir ||= 'problem/htmlobj' %>
+<%# I will display a QuestionBase type object, either with or without the answer %>
+<%# IMPORTANT LOCAL VARIABLES (PASS THESE BABIES IN)
+      problem: I better be a QuestionBase derivative
+      partialdir (optional): I will display each HTMLObj individually with the templates in partialdir. If none
+         is provided, I will use the templates in the 'problem' view directory. Basically see the code
+    %>
+
+<% partialdir ||= 'problem' %>
 <% problem.text.each do |elt| %>
 	<% if elt.is_a? MultiHTMLObj %>
     <%= render :partial => "#{partialdir}/multihtmlobj", :object => elt %>

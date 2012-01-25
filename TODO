@@ -1,9 +1,12 @@
 Short Term
 ----------
+[ ] make background like blackboard
+[ ] add default size for text field
+[ ] push geometry to heroku
+[ ] make nicer button for add/remove multitext fields
 [ ] add team description page
 [ ] if an the correct answer is the response in one part of a multipart question, it should have class=correct
 [ ] fillfractions in C7 doesn't have the correct name in soln hash
-[ ] Get commits to heroku to work
 [ ] MultiTextField: add 2 fields and remove 2 doesn't seem to work
 [ ] view thinks all fractions are inputfields - only if they are text fields don't make them correct
 [ ] make explanations only keep showing once you get the right answer on the previous one
@@ -19,6 +22,7 @@ Short Term
 
 Long Term
 ---------
+[ ] make sub rails app for generating question code
 [ ] select problems from prestocked group
 [ ] make the quiz store better (not marshal dump/load every request)
 [ ] add quiz model - track stats over each quiz, view past quizzes, etc
@@ -29,6 +33,7 @@ Long Term
 
 Completed
 ---------
+[x] Get commits to heroku to work
 [x] keep text fields from autocompleting
 [X] allow display of other input fields besides radio/text fields
 [X] error if you haven't selected problems currently

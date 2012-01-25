@@ -14,4 +14,8 @@ class PagesController < ApplicationController
 
   def team
   end
+
+  # TEMPORARY/TESTING PAGES
+  def draw
+  end
 end

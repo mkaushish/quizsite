@@ -1,4 +1,23 @@
-ADDED BY THOMAS
+VIEW STRUCTURE FOR PROBLEMS:
+  The goal of this swection is to explain how we convert a QuestionBase into HTML.
+
+What we start with:
+  QuestionBase
+    | +- .text (array of HTMLObj's)
+    +--- .soln (hash of solnname) -> solnval
+
+The Process:
+  Basically we want to display every HTMLObj in text.  To do this, we have a series of nested partials
+    problem/_problem.html.erb = iterates through text, choosing the appropriate subpartials
+    | +--> _multihtmlobj.html.erb = Displays MultiHTMLObjs  ]\ 
+    +----> _htmlobj.html.erb  = displays single htmlobjs    ]/> these are either in problem, or problemanswer, depending on
+              | |                                               whether you just want the problem, or also the answer
+              | |
+              | +-> problem/_inputfield.html.erb = displays individual input fields in either mutli or singular htmlobj's
+              +---> problemanswer/_responsefield.html.erb = TODO what again?
+
+NOTES:
+
 a useful setting!
 Look for the file /usr/lib/ruby/1.9.1/webrick/config.rb and edit it.
 
