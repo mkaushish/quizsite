@@ -2,28 +2,29 @@
   <script>
 
     $(function() {
+      // global drawing variables
       var canvas = $('#canvas')[0];
       var context = canvas.getContext('2d');
+      var mousex;         // global mouse position x coord
+      var mousey;         // global mouse position y coord
+      var downx;          // x coord where the click started
+      var downy;          // y coord where the click started
 
-      //
       // state information
-      //
       var PROTRACTOR = 0;
       var COMPASS    = 1;
       var RULER      = 2;
       var LINE       = 3;
-      // TODO add all the other states
-      var state = protState;
-      var mousex;
-      var mousey;
-      var downx;
-      var downy;
+      var BLANK      = 4;
+      var state;          // determines mousedown/up/move effects of canvas - currently represents either
+                          //  protractor, compass, ruler, or line drawing
 
+      // shape informtion
       var CIRCLE = 1;
       //var LINE = 3; yeah I'm doubling down on this constant, see above
-      // each "shape" in this array should be an array of the form
-      // [ <shape type (see above constants)>, params for draw<shape type> ... ]
-      // eg: [ CIRCLE, x, y, r ]
+
+      // array of shape objects - each has at least 5 methods: activate, deactivate, mouseup, mousedown, mousemove oh also underMouse might be nice... maybe
+      // TODO doc better shape interface/abstract class - maybe even make it a superclass/prototype here
       var shapes = [];
       var noshape = null;
 
@@ -204,23 +205,28 @@
           var y = this.y;
           context.beginPath();
           context.arc(this.x, this.y, 5, 0, 2*Math.PI, true);
-          context.arc(this.x, this.y, outerRadius, Math.PI, 2*Math.PI, false);
-          //context.moveTo(0,0);
-          //context.lineTo(outerRadius,0);
-          //context.moveTo(0,0);
-          //context.lineTo(-outerRadius,0);
+          context.arc(this.x, this.y, outerRadius, Math.PI + this.theta, 2*Math.PI + this.theta, false);
+          context.arc(this.x, this.y, innerRadius, Math.PI + this.theta, 2*Math.PI + this.theta, false);
 
-          //var total = 1;
-          //var divisors = [2,9,2];
-          //for (var n = 0; n < divisors.length; n++) {
-            //  total *= divisors[n];
-            //  theta_i = Math.PI / total;
-            //  myInnerRadius = (outerRadius - innerRadius) * n / divisors.length + innerRadius;
-            //  for(var i = 1; i < total; i++) {
-              //    context.moveTo((myInnerRadius * Math.cos(i * theta_i)), -(myInnerRadius * Math.sin(i * theta_i)));
-              //    context.lineTo((outerRadius * Math.cos(i * theta_i)), -(outerRadius * Math.sin(i * theta_i)));
-              //  }
-            //}
+          var total = 1;
+          var divisors = [2,9,2];
+          for (var n = 0; n < divisors.length; n++) {
+              total *= divisors[n];
+              theta_i = Math.PI / total; // not that theta is the current rotation of the compass
+              myInnerRadius = (outerRadius - innerRadius) * n / divisors.length + innerRadius;
+              for(var i = 1; i < total; i++) {
+                var angle = i * theta_i + this.theta;
+                var sine = 0.0 - Math.sin(angle);
+                var cosine = 0.0 - Math.cos(angle);
+                var x1 = cosine * myInnerRadius + this.x;
+                var y1 = sine * myInnerRadius + this.y;
+                var x2 = cosine * outerRadius + this.x;
+                var y2 = sine * outerRadius + this.y;
+
+                context.moveTo(x1,y1);
+                context.lineTo(x2,y2);
+                }
+            }
           context.closePath();
           context.stroke();
         },
@@ -249,7 +255,7 @@
         }
 
         if(typeof STATES[newstate] === "undefined"){
-          alert("undefined newstate: "+ newstate + ", " + STATES);
+          alert("undefined newstate: "+ newstate + ", " + a_to_s(STATES));
           state = protState;
         } 
         else {
@@ -324,9 +330,7 @@
           //shapes[this.minicircle_i] = new Circle(downx, downy, radius);
           tmp = new Circle(downx, downy, radius);
           shapes.push(tmp);
-          if(radius > 5) {
-            redraw();
-          }
+          redraw();
           this.mouse_is_down = false;
         },
         mousemove : function() {
@@ -343,6 +347,7 @@
         }
       } 
 
+      // state for using a ruler
       var rulerState = {
         mouse_is_down : false,
         x : 0,
@@ -381,29 +386,7 @@
 
       }
 
-      var tracingLine = {
-        shape_i : -1,
-        start : function() {
-          if(this.shape_i < 0) {
-            var line = new Line(mousex, mousey, mousex+1, mousey+1);
-            this.shape_i = shapes.push(line) - 1;
-          }
-        },
-        follow : function() {
-          shapes[this.shape_i].set_p2(mousex, mousey);
-          //context.fillText(shapes[i].toString(), (canvas.width-200), 500);
-          redraw();
-        },
-        clear : function() {
-          line = shapes[this.shape_i];
-          var dist = distance(line.x1, line.y1,line.x2, line.y2);
-          shapes.splice(this.shape_i,1);
-          this.shape_i = -1
-          redraw();
-          return dist;
-        }
-      }
-
+      // the state for drawing a line / using a straightedge
       var lineState = {
         x1 : mousex,
         y1 : mousey,
@@ -439,7 +422,40 @@
         }
       }
 
-      var STATES = [protState, compState, rulerState, lineState];
+      // state we start in
+      var blankState = {
+        activate : nullfunc,
+        deactivate : nullfunc,
+        mousedown : nullfunc,
+        mouseup : nullfunc,
+        mousemove : nullfunc
+      }
+
+      var STATES = [protState, compState, rulerState, lineState, blankState];
+
+      // a helper state for those which want a tracing line on mouse pushdown
+      var tracingLine = {
+        shape_i : -1,
+        start : function() {
+          if(this.shape_i < 0) {
+            var line = new Line(mousex, mousey, mousex+1, mousey+1);
+            this.shape_i = shapes.push(line) - 1;
+          }
+        },
+        follow : function() {
+          shapes[this.shape_i].set_p2(mousex, mousey);
+          //context.fillText(shapes[i].toString(), (canvas.width-200), 500);
+          redraw();
+        },
+        clear : function() {
+          line = shapes[this.shape_i];
+          var dist = distance(line.x1, line.y1,line.x2, line.y2);
+          shapes.splice(this.shape_i,1);
+          this.shape_i = -1
+          redraw();
+          return dist;
+        }
+      }
 
       //
       // Callbacks for mouse gestures
