@@ -1,5 +1,19 @@
 Short Term
 ----------
+[ ] make drawtools nice
+  [ ] allow protractor to rotate
+  [ ] put js somewhere useful
+  [ ] put html into a partial
+  [ ] add points of interest that the mouse automatically moves to
+  [ ] put outline around app
+  [ ] improve text stuff
+    [ ] add coordinates into a standard place
+    [ ] make it so text doesn't block stuff if it doesn't need to 
+  [ ] add question API
+    [ ] add hidden form variable that gets set to the shapes variable
+  [ ] give me some style baby
+    [ ] image buttons that look like compass ruler etc
+    [ ] improve ruler/line interface
 [ ] make background like blackboard
 [ ] add default size for text field
 [ ] push geometry to heroku
