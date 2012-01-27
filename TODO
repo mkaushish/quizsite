@@ -1,8 +1,8 @@
 Short Term
 ----------
 [ ] make drawtools nice
-  [ ] allow protractor to rotate
-  [ ] put js somewhere useful
+  [X] allow protractor to rotate
+  [/] put js somewhere useful
   [ ] put html into a partial
   [ ] add points of interest that the mouse automatically moves to
   [ ] put outline around app

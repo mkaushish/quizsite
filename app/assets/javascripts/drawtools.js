@@ -167,6 +167,7 @@ $(function() {
 
     lastx : -1,
     lasty : -1,
+    lasttheta : 0.0,
 
     addToShapes : function() {
       if(this.shapes_i >= 0){
@@ -194,15 +195,33 @@ $(function() {
       this.lastx = mousex;
       this.lasty = mousey;
     },
+    rotate : function() {
+      var mousetheta = Math.atan2((mousex - this.x), (mousey - this.y));
+      this.theta -= mousetheta - this.lasttheta;
+      this.lasttheta = mousetheta;
+      // T?DO? ensure theta is between 0 and PI/2 
+    },
+    // sets this.lasttheta to the mouse coordinate theta
+    setLasttheta : function() {
+      this.lasttheta = Math.atan2((mousex - this.x), (mousey - this.y));
+    },
 
     draw : function() {
       var innerRadius = 50;
       var outerRadius = 100;
       var x = this.x;
       var y = this.y;
+
+      // the weird path stuff here is to fix a bug with the closing path with lines thing
       context.beginPath();
+      // minicircle in the center
       context.arc(this.x, this.y, 5, 0, 2*Math.PI, true);
+      context.closePath();
+      context.stroke();
+      // outer D
+      context.beginPath();
       context.arc(this.x, this.y, outerRadius, Math.PI + this.theta, 2*Math.PI + this.theta, false);
+      //inner semicircle
       context.arc(this.x, this.y, innerRadius, Math.PI + this.theta, 2*Math.PI + this.theta, false);
 
       var total = 1;
@@ -224,7 +243,13 @@ $(function() {
           context.lineTo(x2,y2);
         }
       }
-      context.closePath();
+      var x1 = Math.cos(this.theta) * outerRadius + this.x;
+      var y1 = Math.sin(this.theta) * outerRadius + this.y;
+      var x2 = Math.cos(this.theta + Math.PI) * outerRadius + this.x;
+      var y2 = Math.sin(this.theta + Math.PI) * outerRadius + this.y;
+      context.moveTo(x1,y1);
+      context.lineTo(x2,y2);
+      //context.closePath();
       context.stroke();
     },
     underMouse : function() {
@@ -283,6 +308,9 @@ $(function() {
       protractor.lasty = downy;
       topshape = getTopShape();
       this.on_protractor = protractor.underMouse();
+      if(!this.on_protractor) {
+        protractor.setLasttheta();
+      }
     },
     mouseup : function() {
       this.mouse_is_down = false;
@@ -295,7 +323,7 @@ $(function() {
         }
         else {
           // TODO add rotation
-          //protractor.rotate()
+          protractor.rotate()
           redraw();
         }
       }
