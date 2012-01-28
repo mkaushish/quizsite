@@ -19,6 +19,7 @@ Short Term
 [ ] when you get problems like div_39 wrong, the "see explanation" and "more problems" links show up at the bottom of the page rather than right under the question
 [ ] add "undo last" button in the geometry section 
 [ ] add float equals method to allow similar answers rather than exact answers 
+[ ] prime factors question removes first element from solve
 
 Long Term
 ---------
