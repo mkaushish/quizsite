@@ -20,6 +20,7 @@ Short Term
 [ ] add "undo last" button in the geometry section 
 [ ] add float equals method to allow similar answers rather than exact answers 
 [ ] prime factors question removes first element from solve
+[ ] multitextfied should allow answers in any order unless stated
 
 Long Term
 ---------
