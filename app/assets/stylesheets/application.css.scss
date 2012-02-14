@@ -24,6 +24,10 @@ $graphite: #503214;
 /* }}} */
 
 /* Layout ID's {{{ */
+body {
+  background-image: url('woodtile.jpeg');
+  background-repeat: repeat;
+}
 #container {
   width: 800px;
   height: 1100px;

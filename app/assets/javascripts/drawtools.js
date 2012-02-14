@@ -41,7 +41,7 @@ $(function() {
   }
 
   function writeMessage(message){
-    context.clearRect(0,0,canvas.width,100);
+    context.clearRect(0,0,canvas.width,30);
     context.font = "12pt Calibri";
     context.fillStyle = "black";
     context.fillText(message, 10, 25);
@@ -71,8 +71,8 @@ $(function() {
   function drawCircle(x, y, r) {
     context.beginPath();
     context.arc(x, y, r, 0, (2.0 * Math.PI), false);
-    context.stroke();
     context.closePath();
+    context.stroke();
   }
 
   function drawLine(x1,y1, x2, y2) {
@@ -158,6 +158,32 @@ $(function() {
     return shapes.push(tmp) - 1;
   }
 
+  function interestPoint(x, y) {
+    this.x = x;
+    this.y = y;
+    this.active = false;
+
+    this.toString = function() {
+      // TODO this really shouldn't print out in the list of shapes
+      // return "";
+      return "(IP "+this.x+", "+this.y+", "+ (this.active) ? "":"not " + "active)";
+    }
+
+    this.distance = function(x,y) {
+      return distance(this.x,this.y,x,y);
+    }
+
+    this.draw = function() { 
+      if(this.active) {
+        context.beginPath();
+        context.arc(this.x, this.y, 3, 0, (2.0 * Math.PI), false);
+        context.closePath();
+        context.fillStyle = "green";
+        context.fill();
+      }
+    }
+  }
+
   // unique shapes
   var protractor = {
     x : canvas.width / 2,
@@ -212,7 +238,7 @@ $(function() {
       var x = this.x;
       var y = this.y;
 
-      // the weird path stuff here is to fix a bug with the closing path with lines thing
+      // the weird begin/closePath stuff here is to fix a bug with the closing path with lines thing
       context.beginPath();
       // minicircle in the center
       context.arc(this.x, this.y, 5, 0, 2*Math.PI, true);

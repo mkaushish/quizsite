@@ -1,6 +1,7 @@
 Short Term
 ----------
 [ ] make drawtools nice
+  [ ] use some sort of units besides pixels
   [X] allow protractor to rotate
   [/] put js somewhere useful
   [ ] put html into a partial
@@ -28,6 +29,7 @@ Short Term
 [ ] radio button text field
 [ ] fix TODO's throughout code
 [ ] fix suitable arrangement stuff in chapter 2
+[ ] writingIndian/int seems to be broken - always wrong answer.
 [ ] commas seem to not be preprocessed out, see writinginternational
 [ ] 7186110.to_international returns something and 17???
 [ ] in preprocessing we should also
