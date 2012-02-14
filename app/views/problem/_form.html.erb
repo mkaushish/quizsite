@@ -2,7 +2,7 @@
 	<% @all_probs.each do |prob| %>
 		<div class=problem>
 			<%= check_box_tag prob.to_s, "1", (@chosen_probs.include? prob) %>
-			<%= label_tag prob.to_s %>
+			<%= label_tag prob.type %>
 		</div>
 	<% end %>
 
