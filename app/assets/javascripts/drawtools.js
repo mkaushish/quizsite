@@ -1,6 +1,33 @@
+// This is a fairly complicated javascript app, so I've written down the basic format.  Basically there is an array of shapes (a 
+// shape is basically an interface.  See an example for the functions you need to implement).  The function "redraw" draws all the shapes
+// the canvas.  The mouse functions on the canvas element are determined by the "state" variable, which is an index of the STATES array.  
+// Each "state" in the array is an object with functions for all the mouse callbacks.
+//
+//  section 1:
+//      global variables and constants.  Constants should be all caps.
+//    shapes: the variable which contains all the shapes
+//
+//  section 2:
+//      drawing/utility functions.  Here you will find functions to write output like messages, and various utility functions used
+//      elsewhere in the code.  Odds and ends can go here.
+//    redraw: I redraw all the shapes and write messages and stuff.
+//
+//  section 3:
+//      -shape utility functions
+//      -generic shape definitons (eg. circle, line)
+//      -specific shape definitions (eg. protractor)
+//
+//  section 4:
+//      -state definitions (eg. compassState, rulerState, etc)
+//
+//  section 5:
+//      -essentially the main method type code - If you want to draw things on load do it here.
+
 $(function() {
   // global drawing variables
   var canvas = $('#canvas')[0];
+  var shapesDisp = $('#shapes');
+  var messageDisp = $('#message')[0];
   var context = canvas.getContext('2d');
   var mousex;         // global mouse position x coord
   var mousey;         // global mouse position y coord
@@ -18,7 +45,7 @@ $(function() {
 
   // shape informtion
   var CIRCLE = 1;
-  //var LINE = 3; yeah I'm doubling down on this constant, see above
+  //var LINE = 3; yeah I'm doubling down on this constant, see above definition
 
   // array of shape objects - each has at least 5 methods: activate, deactivate, mouseup, mousedown, mousemove oh also underMouse might be nice... maybe
   // TODO doc better shape interface/abstract class - maybe even make it a superclass/prototype here
@@ -47,12 +74,12 @@ $(function() {
     context.fillText(message, 10, 25);
   }
   function writeShapes(){
-    context.clearRect((canvas.width-200),100,canvas.width,canvas.height);
-    context.font = "9pt Calibri";
-    context.fillStyle = "black";
+    var s = "";
     for(var i = 0; i < shapes.length; i++) {
-      context.fillText(shapes[i].toString(), (canvas.width-200), (130 + 20 * i));
+      //context.fillText(shapes[i].toString(), (canvas.width-200), (130 + 20 * i));
+      s += "<p>" + shapes[i] + "</p>\n";
     }
+    shapesDisp.html(s);
   }
 
   // TODO remove...? ugly

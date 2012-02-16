@@ -171,3 +171,17 @@ input {
 	border: 3px solid red;
 }
 /* }}} */
+
+/* Less common ID's {{{ */
+
+#canvas {
+  border: 2px solid black;
+  float: left;
+  margin-left: 10px;
+}
+
+#shapes {
+  margin-left: 10px;
+  float: left;
+}
+/* }}} */
