@@ -27,7 +27,7 @@ $(function() {
   // global drawing variables
   var canvas = $('#canvas')[0];
   var shapesDisp = $('#shapes');
-  var messageDisp = $('#message')[0];
+  var messageDisp = $('#message');
   var context = canvas.getContext('2d');
   var mousex;         // global mouse position x coord
   var mousey;         // global mouse position y coord
@@ -77,7 +77,9 @@ $(function() {
     var s = "";
     for(var i = 0; i < shapes.length; i++) {
       //context.fillText(shapes[i].toString(), (canvas.width-200), (130 + 20 * i));
-      s += "<p>" + shapes[i] + "</p>\n";
+      if(!shapes[i].hidden) {
+        s += "<p>" + shapes[i] + "</p>\n";
+      }
     }
     shapesDisp.html(s);
   }
@@ -135,7 +137,14 @@ $(function() {
   //
   // Specific Shape functions/definitions
   //
+  function Shape(hidden) {
+    hidden = typeof hidden !== 'undefined' ? hidden : false;
+    this.hidden = hidden;
+    this.color = "Black";
+  }
+
   function Line(x1, y1, x2, y2) {
+    Shape.call(this);
     this.x1 = x1;
     this.y1 = y1;
     this.x2 = x2;
@@ -165,6 +174,7 @@ $(function() {
   }
 
   function Circle(x,y,r) {
+    Shape.call(this);
     this.x = x;
     this.y = y;
     this.r = r;
@@ -175,7 +185,7 @@ $(function() {
       return insideCircle(this.x, this.y, this.r);
     }
     this.toString = function() {
-      return "(Circle " + x + ", " + y + ", " + r + ")";
+      return "(Circle " + x + ", " + y + ", " + r.toFixed(3) + ")"; //round of radius to 3 digs
     }
   }
 
@@ -186,6 +196,7 @@ $(function() {
   }
 
   function interestPoint(x, y) {
+    Shape.call(this, true); // the true just makes this hidden to start
     this.x = x;
     this.y = y;
     this.active = false;
@@ -396,18 +407,16 @@ $(function() {
     deactivate : nullfunc,
     mousedown : function() {
       this.mouse_is_down = true;
+      tracingLine.start();
       this.minicircle_i = addCircle(mousex, mousey, 5);
-      this.line_i = addLine(mousex, mousey, mousex+1, mousey+1);
+      shapes[this.minicircle_i].hidden = true;
       redraw();
     },
     mouseup : function() {
       // TODO rm
-      shapes.pop(); // line
-      shapes.pop(); // line
-      var radius = distance(downx, downy, mousex, mousey);
-      //shapes[this.minicircle_i] = new Circle(downx, downy, radius);
-      tmp = new Circle(downx, downy, radius);
-      shapes.push(tmp);
+      shapes.pop(); // minicircle
+      var radius = tracingLine.clear();
+      addCircle(downx, downy, radius);
       redraw();
       this.mouse_is_down = false;
     },
@@ -415,7 +424,7 @@ $(function() {
       if(this.mouse_is_down) {
         var radius = distance(mousex, mousey, downx, downy);
         message = "center: ("+downx+", "+downy+"), radius:"+radius;
-        shapes[this.line_i] = new Line(mousex, mousey, downx, downy);
+        tracingLine.follow();
         redraw();
       }
       else {
@@ -517,6 +526,7 @@ $(function() {
     start : function() {
       if(this.shape_i < 0) {
         var line = new Line(mousex, mousey, mousex+1, mousey+1);
+        line.hidden = true;
         this.shape_i = shapes.push(line) - 1;
       }
     },
