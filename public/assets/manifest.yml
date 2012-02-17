@@ -7,3 +7,4 @@ jquery-ui.min.js: jquery-ui.min-0424e108178defa1cc794ee24fc92d24.js
 jquery.min.js: jquery.min-460459a37590253002f65e6137a90b87.js
 application.js: application-8411940091dae0f745de033c7aa27edd.js
 application.css: application-cfa2866c58c9e2817fb032820b66a6bf.css
+drawtools.js: drawtools-79077b7a45f1a202dd5305fc909c2f9a.js
