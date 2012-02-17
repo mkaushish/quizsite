@@ -6,12 +6,12 @@ gem 'rails', '3.1.0'
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
 gem 'sqlite3'
-# gem 'therubyracer'
 
 # gems in just test and dev environments
 group :test, :development do
 	gem 'rspec-rails'
 	gem 'webrat'
+  gem 'therubyracer'
 end
 
 group :development do
