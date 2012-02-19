@@ -17,6 +17,13 @@ The Process:
               +---> problemanswer/_responsefield.html.erb = TODO what again?
 
 NOTES:
+-------------------
+
+PRECOMPILING ASSETS
+  * add to precompiled assets in config/environments/production
+  * RAILS_ENV=prodcution be rake assets:precompile
+  * assets are compiled to /public/assets, so make sure you git add and commit that
+  * ensure that shit changes when pushed to heruok (try pushing both production and master branches?)
 
 a useful setting!
 Look for the file /usr/lib/ruby/1.9.1/webrick/config.rb and edit it.
