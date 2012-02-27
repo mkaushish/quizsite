@@ -143,6 +143,11 @@ $(function() {
     this.color = "Black";
   }
 
+  function addShape(shape) {
+    shapes.push(shape);
+    writeShapes();
+  }
+
   function Line(x1, y1, x2, y2) {
     Shape.call(this);
     this.x1 = x1;

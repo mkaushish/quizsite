@@ -15,9 +15,7 @@ Short Term
   [ ] give me some style baby
     [ ] image buttons that look like compass ruler etc
     [ ] improve ruler/line interface
-[ ] make background like blackboard
 [ ] add default size for text field
-[ ] push geometry to heroku
 [ ] make nicer button for add/remove multitext fields
 [ ] add team description page
 [ ] if an the correct answer is the response in one part of a multipart question, it should have class=correct
