@@ -1,25 +1,15 @@
 Short Term
 ----------
-
-[ ] remove the first few questions which are not working (writing numbers)
 [ ] add cricket questions to website (from QuestionGenerator)
 [ ] add some differentiation questions
 [ ] add a few basic stats to the profile page
 [ ] assessing whether fractions are equal in the correct method should use the rational class unless stated
-[ ] names to add:
-  [ ] Sanjeev Bikhchandani: sanjeev@naukri.com
-  [ ] Andrea Kalyn: akalyn@oberlin.edu
-  [ ] Mary Kay Gray: mary.gray@oberlin.edu
-  [ ] Akhil Dhawan: akhildhawan@gmail.com
-  [ ] Rajshree Sood: rajyashreesood@yahoo.com
-  [ ] Sandhya Saini: sandhyas@vasantvalley.org
-  [ ] Karan Bedi (no email)
 [ ] when you get problems like div_39 wrong, the "see explanation" and "more problems" links show up at the bottom of the page rather than right under the question
-[ ] add "undo last" button in the geometry section 
 [ ] add float equals method to allow similar answers rather than exact answers 
 [ ] prime factors question removes first element from solve
 [ ] multitextfied should allow answers in any order unless stated
 [ ] make drawtools nice
+  [ ] add "undo last" button
   [ ] use some sort of units besides pixels
   [X] allow protractor to rotate
   [/] put js somewhere useful
@@ -67,6 +57,7 @@ Long Term
 
 Completed
 ---------
+[X] remove the first few questions which are not working (writing numbers)
 [x] Get commits to heroku to work
 [x] keep text fields from autocompleting
 [X] allow display of other input fields besides radio/text fields
@@ -85,3 +76,11 @@ Completed
 	[X] allow fraction input fields
 	[X] fix fraction display in problemanswers/show
 [x] add some css for fractions
+[X] names to add:
+  [X] Sanjeev Bikhchandani: sanjeev@naukri.com
+  [X] Andrea Kalyn: akalyn@oberlin.edu
+  [X] Mary Kay Gray: mary.gray@oberlin.edu
+  [X] Akhil Dhawan: akhildhawan@gmail.com
+  [X] Rajshree Sood: rajyashreesood@yahoo.com
+  [X] Sandhya Saini: sandhyas@vasantvalley.org
+  [X] Karan Bedi (no email)
