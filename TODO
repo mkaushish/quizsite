@@ -1,5 +1,24 @@
 Short Term
 ----------
+
+[ ] remove the first few questions which are not working (writing numbers)
+[ ] add cricket questions to website (from QuestionGenerator)
+[ ] add some differentiation questions
+[ ] add a few basic stats to the profile page
+[ ] assessing whether fractions are equal in the correct method should use the rational class unless stated
+[ ] names to add:
+  [ ] Sanjeev Bikhchandani: sanjeev@naukri.com
+  [ ] Andrea Kalyn: akalyn@oberlin.edu
+  [ ] Mary Kay Gray: mary.gray@oberlin.edu
+  [ ] Akhil Dhawan: akhildhawan@gmail.com
+  [ ] Rajshree Sood: rajyashreesood@yahoo.com
+  [ ] Sandhya Saini: sandhyas@vasantvalley.org
+  [ ] Karan Bedi (no email)
+[ ] when you get problems like div_39 wrong, the "see explanation" and "more problems" links show up at the bottom of the page rather than right under the question
+[ ] add "undo last" button in the geometry section 
+[ ] add float equals method to allow similar answers rather than exact answers 
+[ ] prime factors question removes first element from solve
+[ ] multitextfied should allow answers in any order unless stated
 [ ] make drawtools nice
   [ ] use some sort of units besides pixels
   [X] allow protractor to rotate
@@ -33,11 +52,7 @@ Short Term
 [ ] in preprocessing we should also
 [ ] disallow going back and redoing problems
 [ ] what should our starting page be for non-signed in? signed in?
-[ ] when you get problems like div_39 wrong, the "see explanation" and "more problems" links show up at the bottom of the page rather than right under the question
-[ ] add "undo last" button in the geometry section 
-[ ] add float equals method to allow similar answers rather than exact answers 
-[ ] prime factors question removes first element from solve
-[ ] multitextfied should allow answers in any order unless stated
+
 
 Long Term
 ---------
