@@ -1,4 +1,7 @@
 <h1><%= @user.name %></h1>
-<h3>Problem History</h3>
-<%= render :partial => 'problemanswers/history', :locals => {:problemanswers => @problemanswers} %>
-<% # TODO add problems in... and other stuff like statistics %>
+<div id="problemhist">
+  <%= render :partial => 'problemanswers/history', :locals => {:problemanswers => @problemanswers} %>
+</div>
+<div id="stats">
+  <%= #render :partial => 'stats' %>
+</div>
