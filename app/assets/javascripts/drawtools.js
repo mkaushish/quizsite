@@ -63,6 +63,9 @@ $(function() {
     for (var i = 0; i < shapes.length; i++) {
       shapes[i].draw();
     }
+    for (var i = 0; i < interestPoints.length; i++) {
+      interestPoints[i].draw();
+    }
 
     // TESTING TODO REMOVE
     //message = "mousex = " + mousex + ", mousey = " + mousey;
@@ -227,6 +230,12 @@ $(function() {
     shapes.push(shape);
     writeShapes();
     updatePOIs();
+    return shapes.length;
+  }
+  function delShape(shape_i) {
+    shapes.splice(shape_i,1);
+    writeShapes();
+    updatePOIs();
   }
 
   function Line(x1, y1, x2, y2) {
@@ -256,7 +265,7 @@ $(function() {
 
   function addLine(x1,y1,x2,y2) {
     var tmp = new Line(x1,y1,x2,y2);
-    return shapes.push(tmp) - 1;
+    return addShape(tmp);
   }
 
   function Circle(x,y,r) {
@@ -278,7 +287,7 @@ $(function() {
   // creates a new circle, adds it to shapes, returns new index
   function addCircle(x,y,r) {
     tmp = new Circle(x,y,r);
-    return shapes.push(tmp) - 1;
+    return addShape(tmp);
   }
 
   function POI(x, y) {
