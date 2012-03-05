@@ -319,7 +319,7 @@ module Chapter1
   # note that I have to be at the end to compile :(
   PROBLEMS = [  Chapter1::FindMaxNumber,      Chapter1::FindMinNumber,        
                 #Chapter1::ArrangeAscending,    Chapter1::ArrangeDescending,  
-                Chapter1::WritingIndian,      Chapter1::WritingInternational, 
+                #Chapter1::WritingIndian,      Chapter1::WritingInternational, 
                 Chapter1::ReadingIndian,      Chapter1::ReadingInternational, 
                 Chapter1::AddCommasIndian,    Chapter1::AddCommasInternational,    
                 Chapter1::EstimateArithmetic, 
