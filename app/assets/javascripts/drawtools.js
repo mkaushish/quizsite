@@ -117,6 +117,7 @@ $(function() {
         }
       }
     }
+    alert("" + pointsOfInterest);
   }
   function poiLineLine(l1, l2) {
     var denom = (l1.x1 - l1.x2)*(l2.y1 - l2.y2) - (l1.y1 - l1.y2)*(l2.x1 - l2.x2);
@@ -418,16 +419,6 @@ $(function() {
       // TODO calculate for real
       return insideCircle(this.x, this.y, 100);
     }
-  }
-
-  //
-  // Specific drawing functions
-  //
-
-  function drawCompassMiniCircle(x, y) {
-  }
-
-  function drawCompassLine(x, y) {
   }
 
   //
