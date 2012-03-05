@@ -11,6 +11,8 @@
 //      drawing/utility functions.  Here you will find functions to write output like messages, and various utility functions used
 //      elsewhere in the code.  Odds and ends can go here.
 //    redraw: I redraw all the shapes and write messages and stuff.
+//    updatePOIs: goes through each pair of shapes, and adds points of interest where they intersect
+//      -intBlahBlah functions are for finding intersections between a pair of shapes
 //
 //  section 3:
 //      -shape utility functions
@@ -46,6 +48,7 @@ $(function() {
   // shape informtion
   var CIRCLE = 1;
   //var LINE = 3; yeah I'm doubling down on this constant, see above definition
+//    
 
   // array of shape objects - each has at least 5 methods: activate, deactivate, mouseup, mousedown, mousemove oh also underMouse might be nice... maybe
   // TODO doc better shape interface/abstract class - maybe even make it a superclass/prototype here
@@ -82,6 +85,83 @@ $(function() {
       }
     }
     shapesDisp.html(s);
+  }
+
+  function updatePOIs() {
+    pointsOfInterest = [];
+    for(var i = 0; i < (shapes.length -1); i++) {
+      for(var j = i+1; j < shapes.length; j++) {
+        if(shapes[i].hidden || shapes[j].hidden) {
+          continue;
+        }
+
+        if(shapes[i] instanceof Circle) {
+          if(shapes[j] instanceof Circle) {
+            poiCircleCircle(shapes[i], shapes[j])
+          }
+          else if(shapes[j] instanceof Line) {
+            poiLineCircle(shapes[j], shapes[i])
+          }
+        }
+        else if(shapes[i] instanceof Line) {
+          if(shapes[j] instanceof Circle) {
+            poiLineCircle(shapes[i], shapes[j]);
+          }
+          else if(shapes[j] instanceof Line) {
+            poiLineLine(shapes[i], shapes[j]) {
+            }
+          }
+        }
+      }
+    }
+  }
+  function poiLineLine(l1, l2) {
+    var denom = (l1.x1 - l1.x2)*(l2.y1 - l2.y2) - (l1.y1 - l1.y2)*(l2.x1 - l2.x2);
+    if(denom == 0) { // lines are parallel
+      return 0;
+    }
+    
+    // get the intersection of the lines using a formula given by wikipedia: http://en.wikipedia.org/wiki/Line-line_intersection
+    var x = Math.floor(((l1.x1 * l1.y2 - l1.y1 * l1.x2) * (l2.x1 - l2.x2) - (l1.x1 - l1.x2)*(l2.x1 * l2.y2 - l2.y1 * l2.x2)) / denom);
+    var y = Math.floor(((l1.x1 * l1.y2 - l1.y1 * l1.x2) * (l2.y1 - l2.y2) - (l1.y1 - l1.y2)*(l2.x1 * l2.y2 - l2.y1 * l2.x2)) / denom);
+
+    // ensure that the intersection is on both line segments
+    var maxX = Math.min(max(l1.x1, l1.x2), max(l2.x1, l2.x2));
+    var maxY = Math.min(max(l1.y1, l1.y2), max(l2.y1, l2.y2));
+    var minX = max(Math.min(l1.x1, l1.x2), Math.min(l2.x1, l2.x2));
+    var minY = max(Math.min(l1.y1, l1.y2), Math.min(l2.y1, l2.y2));
+    if(minX <= x && x <= maxX && minY <= y && y <= maxY) {
+      addPOI(x,y)
+    }
+  }
+  function poiLineCircle(var l, var c) {
+  }
+  function poiCircleCircle(var c1, var c2) {
+    var dist = distance(c1.x, c1.y, c2.x, x2.y);
+    var overlap = (c1.r + c2.r) - dist;
+    if(overlap < 0 || dist = 0) { return 0; } // if no intersections OR circles are same, we don't want POIS
+    if(overlap == 0) { 
+      var x = (c2.x - c1.x)*(c1.r/(c1.r + c2.r)) + c1.x;
+      var y = (c2.y - c1.y)*(c1.r/(c1.r + c2.r)) + c1.y;
+      addPOI(x,y);
+      return 1;
+    }
+    
+    // we can now assume that there are 2 points of intersection
+    // equations taken from http://paulbourke.net/geometry/2circle/
+    var a = (c1.r * c1.r - c2.r * c2.r + dist * dist) / (2 * dist); // a =~ distance from c1 to the midpoint between the two circles
+    var h = Math.sqrt(c1.r * c1.r - a * a); // 
+    // (x,y) is P2 on the url above, which is the main point between the two circles
+    var x = (c2.x - c1.x)*(a/dist) + c1.x;
+    var y = (c2.y - c1.y)*(a/dist) + c1.y;
+
+    var x1 = x + (h/dist)*(c2.y - c1.y);
+    var x2 = x - (h/dist)*(c2.y - c1.y);
+    var y1 = y + (h/dist)*(c2.x - c1.x);
+    var y2 = y - (h/dist)*(c2.x - c1.x);
+    addPOI(x1,y1);
+    addPOI(x2,y2);
+    return 2;
   }
 
   // TODO remove...? ugly
@@ -146,6 +226,7 @@ $(function() {
   function addShape(shape) {
     shapes.push(shape);
     writeShapes();
+    updatePOIs();
   }
 
   function Line(x1, y1, x2, y2) {
@@ -200,7 +281,7 @@ $(function() {
     return shapes.push(tmp) - 1;
   }
 
-  function interestPoint(x, y) {
+  function POI(x, y) {
     Shape.call(this, true); // the true just makes this hidden to start
     this.x = x;
     this.y = y;
@@ -209,7 +290,7 @@ $(function() {
     this.toString = function() {
       // TODO this really shouldn't print out in the list of shapes
       // return "";
-      return "(IP "+this.x+", "+this.y+", "+ (this.active) ? "":"not " + "active)";
+      return "(POI "+this.x+", "+this.y+", "+ (this.active) ? "":"not " + "active)";
     }
 
     this.distance = function(x,y) {
@@ -217,14 +298,17 @@ $(function() {
     }
 
     this.draw = function() { 
-      if(this.active) {
+      //if(this.active) {
         context.beginPath();
         context.arc(this.x, this.y, 3, 0, (2.0 * Math.PI), false);
         context.closePath();
         context.fillStyle = "green";
         context.fill();
-      }
+      //}
     }
+  }
+  function addPOI(x, y) {
+    pointsOfInterest.push(new POI(x,y));
   }
 
   // unique shapes
