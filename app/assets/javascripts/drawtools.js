@@ -57,7 +57,7 @@ $(function() {
   // TODO doc better shape interface/abstract class - maybe even make it a superclass/prototype here
   var shapes = [];
   var pointsOfInterest = [];
-  var activePOIs = [];
+  var activePOI_i = -1;
   var noshape = null;
 
   //
@@ -65,9 +65,11 @@ $(function() {
   //
   function redraw(){
     context.clearRect(0,0,canvas.width, canvas.height);
-    for (var i = 0; i < activePOIs.length; i++) {
-      activePOIs[i].draw();
+
+    if(activePOI_i >= 0) { 
+      pointsOfInterest[activePOI_i].draw(); 
     }
+
     for (var i = 0; i < shapes.length; i++) {
       shapes[i].draw();
     }
@@ -90,26 +92,25 @@ $(function() {
         s += "<p>" + shapes[i] + "</p>\n";
       }
     }
-    s += "<p>POIs<br>" + a_to_s(activePOIs);
     shapesDisp.html(s);
   }
 
   function getActivePOIs() {
-    // remove active POIs no longer in range
-    for (var i = activePOIs.length - 1; i >= 0; i--) {
-      if(activePOIs[i].mouseDist() > 10) {
-        activePOIs[i].active = false;
-        activePOIs.splice(i,1);
+    // if there is an active POI, check if we're still within range
+    if(activePOI_i >= 0) {
+      if(pointsOfInterest[activePOI_i].mouseDist() > 10) {
+        activePOI_i = -1;
         redraw();
       }
     }
 
-    // activate POIs in range that are currently inactive
-    for (var i = 0; i < pointsOfInterest.length; i++) {
-      if(!pointsOfInterest[i].active && pointsOfInterest[i].mouseDist() < 5) {
-        activePOIs.push(pointsOfInterest[i]);
-        pointsOfInterest[i].active = true;
-        redraw();
+    // otherwise activate any POI within range
+    else {
+      for (var i = 0; i < pointsOfInterest.length; i++) {
+        if(pointsOfInterest[i].mouseDist() < 5) {
+          activePOI_i = i;
+          redraw();
+        }
       }
     }
   }
@@ -723,9 +724,9 @@ $(function() {
 
     // activate interest points if we are close to them
     getActivePOIs();
-    if(activePOIs.length > 0) {
-      mousex = activePOIs[0].x;
-      mousey = activePOIs[0].y;
+    if(activePOI_i >= 0) {
+      mousex = pointsOfInterest[activePOI_i].x;
+      mousey = pointsOfInterest[activePOI_i].y;
     }
     state.mousemove();
   });
