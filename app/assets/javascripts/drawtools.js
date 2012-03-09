@@ -1,7 +1,10 @@
+// Drawtools.js
+// @author Thomas Ramfjord
 // This is a fairly complicated javascript app, so I've written down the basic format.  Basically there is an array of shapes (a 
 // shape is basically an interface.  See an example for the functions you need to implement).  The function "redraw" draws all the shapes
 // the canvas.  The mouse functions on the canvas element are determined by the "state" variable, which is an index of the STATES array.  
-// Each "state" in the array is an object with functions for all the mouse callbacks.
+// Each "state" in the array is an object with functions for all the mouse callbacks.  At the intersection of shapes and at the end of lines
+// and such are Points Of Interest (POIs), which the mouse will jump to when close enough.
 //
 //  section 1:
 //      global variables and constants.  Constants should be all caps.
@@ -720,6 +723,10 @@ $(function() {
 
     // activate interest points if we are close to them
     getActivePOIs();
+    if(activePOIs.length > 0) {
+      mousex = activePOIs[0].x;
+      mousey = activePOIs[0].y;
+    }
     state.mousemove();
   });
 

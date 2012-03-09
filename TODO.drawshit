@@ -1,3 +1,0 @@
-[ ] add list of interestPoints
-[ ] make pushShape and popShape method, each of which should add/rm interest points as necessary
-[ ] genInterestPoints() // should iterate through shapes and shape combos, adding interest points when possible.
