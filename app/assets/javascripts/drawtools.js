@@ -12,7 +12,7 @@
 //      elsewhere in the code.  Odds and ends can go here.
 //    redraw: I redraw all the shapes and write messages and stuff.
 //    updatePOIs: goes through each pair of shapes, and adds points of interest where they intersect
-//      -intBlahBlah functions are for finding intersections between a pair of shapes
+//      -poiBlahBlah functions are for finding intersections between a pair of shapes and adding POI's for them
 //
 //  section 3:
 //      -shape utility functions
@@ -53,6 +53,7 @@ $(function() {
   // array of shape objects - each has at least 5 methods: activate, deactivate, mouseup, mousedown, mousemove oh also underMouse might be nice... maybe
   // TODO doc better shape interface/abstract class - maybe even make it a superclass/prototype here
   var shapes = [];
+  var pointsOfInterest = [];
   var noshape = null;
 
   //
@@ -63,8 +64,8 @@ $(function() {
     for (var i = 0; i < shapes.length; i++) {
       shapes[i].draw();
     }
-    for (var i = 0; i < interestPoints.length; i++) {
-      interestPoints[i].draw();
+    for (var i = 0; i < pointsOfInterest.length; i++) {
+      pointsOfInterest[i].draw();
     }
 
     // TESTING TODO REMOVE
@@ -91,6 +92,7 @@ $(function() {
   }
 
   function updatePOIs() {
+    //alert("updatePOIs being called");
     pointsOfInterest = [];
     for(var i = 0; i < (shapes.length -1); i++) {
       for(var j = i+1; j < shapes.length; j++) {
@@ -100,10 +102,10 @@ $(function() {
 
         if(shapes[i] instanceof Circle) {
           if(shapes[j] instanceof Circle) {
-            poiCircleCircle(shapes[i], shapes[j])
+            poiCircleCircle(shapes[i], shapes[j]);
           }
           else if(shapes[j] instanceof Line) {
-            poiLineCircle(shapes[j], shapes[i])
+            poiLineCircle(shapes[j], shapes[i]);
           }
         }
         else if(shapes[i] instanceof Line) {
@@ -111,13 +113,11 @@ $(function() {
             poiLineCircle(shapes[i], shapes[j]);
           }
           else if(shapes[j] instanceof Line) {
-            poiLineLine(shapes[i], shapes[j]) {
-            }
+            poiLineLine(shapes[i], shapes[j]);
           }
         }
       }
     }
-    alert("" + pointsOfInterest);
   }
   function poiLineLine(l1, l2) {
     var denom = (l1.x1 - l1.x2)*(l2.y1 - l2.y2) - (l1.y1 - l1.y2)*(l2.x1 - l2.x2);
@@ -130,20 +130,63 @@ $(function() {
     var y = Math.floor(((l1.x1 * l1.y2 - l1.y1 * l1.x2) * (l2.y1 - l2.y2) - (l1.y1 - l1.y2)*(l2.x1 * l2.y2 - l2.y1 * l2.x2)) / denom);
 
     // ensure that the intersection is on both line segments
-    var maxX = Math.min(max(l1.x1, l1.x2), max(l2.x1, l2.x2));
-    var maxY = Math.min(max(l1.y1, l1.y2), max(l2.y1, l2.y2));
-    var minX = max(Math.min(l1.x1, l1.x2), Math.min(l2.x1, l2.x2));
-    var minY = max(Math.min(l1.y1, l1.y2), Math.min(l2.y1, l2.y2));
+    var maxX = Math.min(Math.max(l1.x1, l1.x2), Math.max(l2.x1, l2.x2));
+    var maxY = Math.min(Math.max(l1.y1, l1.y2), Math.max(l2.y1, l2.y2));
+    var minX = Math.max(Math.min(l1.x1, l1.x2), Math.min(l2.x1, l2.x2));
+    var minY = Math.max(Math.min(l1.y1, l1.y2), Math.min(l2.y1, l2.y2));
     if(minX <= x && x <= maxX && minY <= y && y <= maxY) {
       addPOI(x,y)
     }
   }
-  function poiLineCircle(var l, var c) {
+  // note that I currently don't return the number of POIs like my friends, or indeed anything useful
+  function poiLineCircle(l, c) {
+    var m = (l.y2 - l.y1)/(l.x2 - l.x1);
+    var b = l.y1 - m*l.x1;
+    // (x-c.x)^2 + (y-c.y)^2 = c.r^2                                                  CIRCLE
+    // y = m(x - l.x1) + l.y1                                                         LINE
+    // (x-c.x)^2 + (m(x - l.x1) + l.y1 - c.y)^2 = c.r^2                               SUB Y
+    var tmp = l.y1 - c.y - m*l.x1; 
+    // (x-c.x)^2 + (mx + tmp)^2 = c.r^2                                               SUB tmp
+    // x^2 - 2x*c.x + c.x^2 + (mx)^2 + 2*tmp*mx + tmp^2 = c.r^2                       EXPAND
+    // (m^2+1) x^2 + (2*tmp*m - 2*c.x) x + (tmp^2 + c.x^2 - c.r^2) = 0                REARRANGE
+    var a = m*m + 1;
+    var b = 2*tmp*m - 2*c.x;
+    var c = tmp*tmp + c.x*c.x - c.r*c.r;
+
+    var discriminant = b*b - 4*a*c;
+    //alert("discriminant = " + discriminant);
+    //alert("se:  a = " + a + ", b = " + b + ", c = " + c + "\n" +
+    //      "me:  a = " + a1 + ", b = " + b1 + ", c = " + c1 + "\n" +
+    //      "mad: a = " + a2 + ", b = " + b2 + ", c = " + c2 + "\n" +
+    //      "m = " + (l.y2 - l.y1) + "/" + (l.x2 - l.x1) + " = " + m);
+    if(discriminant < 0) { // indicates no intersection even on infinite line
+      return 0;
+    }
+    var maxX = Math.max(l.x1, l.x2);
+    var maxY = Math.max(l.y1, l.y2);
+    var minX = Math.min(l.x1, l.x2);
+    var minY = Math.min(l.y1, l.y2);
+
+    discriminant = Math.sqrt(discriminant);
+    var x1 = Math.floor((discriminant - b)/(2 * a));
+    var y1 = Math.floor(m*(x1 - l.x1) + l.y1);
+    //if(minX <= x1 && x1 <= maxX && minY <= y1 && y1 <= minY){
+      addPOI(x1, y1);
+    //}
+    if(discriminant == 0) { return 1; }
+
+    var x2 = Math.floor((0 - b - discriminant)/(2 * a));
+    var y2 = Math.floor(m*(x2 - l.x1) + l.y1);
+    //if(minX <= x1 && x1 <= maxX && minY <= y1 && y1 <= minY){
+      addPOI(x2, y2);
+    //}
+    //alert("x1 = " + x1 + ", y1 = " + y1);
+    return 2;
   }
-  function poiCircleCircle(var c1, var c2) {
-    var dist = distance(c1.x, c1.y, c2.x, x2.y);
+  function poiCircleCircle(c1, c2) {
+    var dist = distance(c1.x, c1.y, c2.x, c2.y);
     var overlap = (c1.r + c2.r) - dist;
-    if(overlap < 0 || dist = 0) { return 0; } // if no intersections OR circles are same, we don't want POIS
+    if(overlap < 0 || dist == 0) { return 0; } // if no intersections OR circles are same, we don't want POIS
     if(overlap == 0) { 
       var x = (c2.x - c1.x)*(c1.r/(c1.r + c2.r)) + c1.x;
       var y = (c2.y - c1.y)*(c1.r/(c1.r + c2.r)) + c1.y;
@@ -159,8 +202,8 @@ $(function() {
     var x = (c2.x - c1.x)*(a/dist) + c1.x;
     var y = (c2.y - c1.y)*(a/dist) + c1.y;
 
-    var x1 = x + (h/dist)*(c2.y - c1.y);
-    var x2 = x - (h/dist)*(c2.y - c1.y);
+    var x1 = x - (h/dist)*(c2.y - c1.y);
+    var x2 = x + (h/dist)*(c2.y - c1.y);
     var y1 = y + (h/dist)*(c2.x - c1.x);
     var y2 = y - (h/dist)*(c2.x - c1.x);
     addPOI(x1,y1);
@@ -310,7 +353,7 @@ $(function() {
     this.draw = function() { 
       //if(this.active) {
         context.beginPath();
-        context.arc(this.x, this.y, 3, 0, (2.0 * Math.PI), false);
+        context.arc(this.x, this.y, 10, 0, (2.0 * Math.PI), false);
         context.closePath();
         context.fillStyle = "green";
         context.fill();
@@ -497,9 +540,9 @@ $(function() {
     mousedown : function() {
       this.mouse_is_down = true;
       tracingLine.start();
-      this.minicircle_i = addCircle(mousex, mousey, 5);
-      shapes[this.minicircle_i].hidden = true;
-      redraw();
+      var miniCircle = new Circle(mousex, mousey, 5);
+      miniCircle.hidden = true;
+      this.minicircle_i = addShape(miniCircle);
     },
     mouseup : function() {
       // TODO rm
@@ -680,12 +723,13 @@ $(function() {
   //
   // general/main part
   //
-  addLine(600, 0, 600, canvas.height);
+  //addLine(600, 0, 600, canvas.height);
   //alert(STATES[0].tool + ", " + STATES[1].tool);
   mycircle = new Circle(200,200,60);
   mycircle2 = new Circle(300,300,60);
-  shapes = [mycircle, mycircle2] ;
-  writeShapes();
+  
+  shapes = [mycircle] ;
   setState(COMPASS);
+  addLine(20,50, 300,300);
   redraw();
 });
