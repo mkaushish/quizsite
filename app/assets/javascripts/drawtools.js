@@ -94,11 +94,25 @@ $(function() {
   function updatePOIs() {
     //alert("updatePOIs being called");
     pointsOfInterest = [];
+
+    // individual shape POIs
+    for(var i = 0; i < shapes.length; i++) {
+      if(shapes[i].hidden) { continue; }
+
+      if(shapes[i] instanceof Line) {
+        addPOI(shapes[i].x1, shapes[i].y1);
+        addPOI(shapes[i].x2, shapes[i].y2);
+      }
+
+      if(shapes[i] instanceof Circle) {
+        addPOI(shapes[i].x, shapes[i].y);
+      }
+    }
+
+    // shape intersection POIs
     for(var i = 0; i < (shapes.length -1); i++) {
       for(var j = i+1; j < shapes.length; j++) {
-        if(shapes[i].hidden || shapes[j].hidden) {
-          continue;
-        }
+        if(shapes[i].hidden || shapes[j].hidden) { continue; }
 
         if(shapes[i] instanceof Circle) {
           if(shapes[j] instanceof Circle) {
@@ -351,13 +365,13 @@ $(function() {
     }
 
     this.draw = function() { 
-      //if(this.active) {
+      if(this.active) {
         context.beginPath();
         context.arc(this.x, this.y, 10, 0, (2.0 * Math.PI), false);
         context.closePath();
         context.fillStyle = "green";
         context.fill();
-      //}
+      }
     }
   }
   function addPOI(x, y) {
