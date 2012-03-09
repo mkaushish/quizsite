@@ -65,11 +65,11 @@ $(function() {
   //
   function redraw(){
     context.clearRect(0,0,canvas.width, canvas.height);
-    for (var i = 0; i < shapes.length; i++) {
-      shapes[i].draw();
-    }
     for (var i = 0; i < activePOIs.length; i++) {
       activePOIs[i].draw();
+    }
+    for (var i = 0; i < shapes.length; i++) {
+      shapes[i].draw();
     }
 
     //writeMessage(message);
