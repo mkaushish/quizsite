@@ -54,6 +54,7 @@ $(function() {
   // TODO doc better shape interface/abstract class - maybe even make it a superclass/prototype here
   var shapes = [];
   var pointsOfInterest = [];
+  var activePOIs = [];
   var noshape = null;
 
   //
@@ -64,12 +65,10 @@ $(function() {
     for (var i = 0; i < shapes.length; i++) {
       shapes[i].draw();
     }
-    for (var i = 0; i < pointsOfInterest.length; i++) {
-      pointsOfInterest[i].draw();
+    for (var i = 0; i < activePOIs.length; i++) {
+      activePOIs[i].draw();
     }
 
-    // TESTING TODO REMOVE
-    //message = "mousex = " + mousex + ", mousey = " + mousey;
     //writeMessage(message);
     writeShapes();
   }
@@ -88,9 +87,29 @@ $(function() {
         s += "<p>" + shapes[i] + "</p>\n";
       }
     }
+    s += "<p>POIs<br>" + a_to_s(activePOIs);
     shapesDisp.html(s);
   }
 
+  function getActivePOIs() {
+    // remove active POIs no longer in range
+    for (var i = activePOIs.length - 1; i >= 0; i--) {
+      if(activePOIs[i].mouseDist() > 10) {
+        activePOIs[i].active = false;
+        activePOIs.splice(i,1);
+        redraw();
+      }
+    }
+
+    // activate POIs in range that are currently inactive
+    for (var i = 0; i < pointsOfInterest.length; i++) {
+      if(!pointsOfInterest[i].active && pointsOfInterest[i].mouseDist() < 5) {
+        activePOIs.push(pointsOfInterest[i]);
+        pointsOfInterest[i].active = true;
+        redraw();
+      }
+    }
+  }
   function updatePOIs() {
     //alert("updatePOIs being called");
     pointsOfInterest = [];
@@ -225,15 +244,6 @@ $(function() {
     return 2;
   }
 
-  // TODO remove...? ugly
-  function a_to_s(arr) {
-    s = "";
-    for(var i = 0; i < shapes.length; i++) {
-      s += shapes[i] + "\n";
-    }
-    return s;
-  }
-
   function clearMessage(){
     writeMessage("");
   }
@@ -348,30 +358,27 @@ $(function() {
     return addShape(tmp);
   }
 
+  // Interest Point stuff
   function POI(x, y) {
-    Shape.call(this, true); // the true just makes this hidden to start
     this.x = x;
     this.y = y;
     this.active = false;
 
-    this.toString = function() {
-      // TODO this really shouldn't print out in the list of shapes
-      // return "";
-      return "(POI "+this.x+", "+this.y+", "+ (this.active) ? "":"not " + "active)";
+    this.mouseDist = function() {
+      return distance(this.x,this.y,mousex,mousey);
     }
 
-    this.distance = function(x,y) {
-      return distance(this.x,this.y,x,y);
+    this.toString = function() {
+      //TODO remove mousedist
+      return "(POI " + this.x+", " + this.y + ", " + this.mouseDist();
     }
 
     this.draw = function() { 
-      if(this.active) {
-        context.beginPath();
-        context.arc(this.x, this.y, 10, 0, (2.0 * Math.PI), false);
-        context.closePath();
-        context.fillStyle = "green";
-        context.fill();
-      }
+      context.beginPath();
+      context.arc(this.x, this.y, 10, 0, (2.0 * Math.PI), false);
+      context.closePath();
+      context.fillStyle = "green";
+      context.fill();
     }
   }
   function addPOI(x, y) {
@@ -710,6 +717,9 @@ $(function() {
     // global scope.
     mousex = e.pageX - this.offsetLeft;
     mousey = e.pageY - this.offsetTop;
+
+    // activate interest points if we are close to them
+    getActivePOIs();
     state.mousemove();
   });
 
@@ -733,6 +743,14 @@ $(function() {
     shapes = [];
     redraw();
   });
+
+  function a_to_s(arr) {
+    s = "";
+    for(var i = 0; i < arr.length; i++) {
+      s += arr[i] + "\n";
+    }
+    return s;
+  }
 
   //
   // general/main part
