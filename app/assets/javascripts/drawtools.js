@@ -70,6 +70,9 @@ $(function() {
     if(activePOI_i >= 0) { 
       pointsOfInterest[activePOI_i].draw(); 
     }
+    //for (var i = 0; i < pointsOfInterest.length; i++) {
+    //  pointsOfInterest[i].draw();
+    //}
 
     for (var i = 0; i < shapes.length; i++) {
       shapes[i].draw();
@@ -93,6 +96,9 @@ $(function() {
         s += "<p>" + shapes[i] + "</p>\n";
       }
     }
+    //for(var i = 0; i < pointsOfInterest.length; i++) {
+    //  s += "<p>" + pointsOfInterest[i] + "</p>\n";
+    //}
     shapesDisp.html(s);
   }
   function getStartShapes(){
@@ -119,7 +125,6 @@ $(function() {
     }
   }
   function updatePOIs() {
-    //alert("updatePOIs being called");
     pointsOfInterest = [];
 
     // individual shape POIs
@@ -181,47 +186,54 @@ $(function() {
   }
   // note that I currently don't return the number of POIs like my friends, or indeed anything useful
   function poiLineCircle(l, c) {
-    var m = (l.y2 - l.y1)/(l.x2 - l.x1);
-    var b = l.y1 - m*l.x1;
-    // (x-c.x)^2 + (y-c.y)^2 = c.r^2                                                  CIRCLE
-    // y = m(x - l.x1) + l.y1                                                         LINE
-    // (x-c.x)^2 + (m(x - l.x1) + l.y1 - c.y)^2 = c.r^2                               SUB Y
-    var tmp = l.y1 - c.y - m*l.x1; 
-    // (x-c.x)^2 + (mx + tmp)^2 = c.r^2                                               SUB tmp
-    // x^2 - 2x*c.x + c.x^2 + (mx)^2 + 2*tmp*mx + tmp^2 = c.r^2                       EXPAND
-    // (m^2+1) x^2 + (2*tmp*m - 2*c.x) x + (tmp^2 + c.x^2 - c.r^2) = 0                REARRANGE
+    // flip x and y when the slope is close to vertical - this leads to more precise calculations
+    // and avoids failure on the vertical case
+    var flipped = Math.abs(l.x2 - l.x1) < Math.abs(l.y2 - l.y1);
+    var x1 = flipped ? l.y1 : l.x1;
+    var y1 = flipped ? l.x1 : l.y1;
+    var x2 = flipped ? l.y2 : l.x2;
+    var y2 = flipped ? l.x2 : l.y2;
+    var xc = flipped ? c.y : c.x;
+    var yc = flipped ? c.x : c.y;
+
+    var m = (y2 - y1)/(x2 - x1);
+    var b = y1 - m*x1;
+    // (x-xc)^2 + (y-yc)^2 = c.r^2                                     CIRCLE
+    // y = m(x - x1) + y1                                              LINE
+    // (x-xc)^2 + (m(x - x1) + y1 - yc)^2 = c.r^2                      SUB Y
+    var tmp = y1 - yc - m*x1; 
+    // (x-xc)^2 + (mx + tmp)^2 = c.r^2                                 SUB tmp
+    // x^2 - 2x*xc + xc^2 + (mx)^2 + 2*tmp*mx + tmp^2 = c.r^2          EXPAND
+    // (m^2+1) x^2 + (2*tmp*m - 2*xc) x + (tmp^2 + xc^2 - c.r^2) = 0   REARRANGE
     var a = m*m + 1;
-    var b = 2*tmp*m - 2*c.x;
-    var c = tmp*tmp + c.x*c.x - c.r*c.r;
+    var b = 2*tmp*m - 2*xc;
+    var c = tmp*tmp + xc*xc - c.r*c.r;
 
     var discriminant = b*b - 4*a*c;
     //alert("discriminant = " + discriminant);
-    //alert("se:  a = " + a + ", b = " + b + ", c = " + c + "\n" +
-    //      "me:  a = " + a1 + ", b = " + b1 + ", c = " + c1 + "\n" +
-    //      "mad: a = " + a2 + ", b = " + b2 + ", c = " + c2 + "\n" +
-    //      "m = " + (l.y2 - l.y1) + "/" + (l.x2 - l.x1) + " = " + m);
+    //alert("se:  a = " + a + ", b = " + b + ", c = " + c + ", disc = " + discriminant + "\n" +
+    //      "m = " + (y2 - y1) + "/" + (x2 - x1) + " = " + m + (flipped ? ", flipped" : ""));
     if(discriminant < 0) { // indicates no intersection even on infinite line
       return 0;
     }
-    var maxX = Math.max(l.x1, l.x2);
-    var maxY = Math.max(l.y1, l.y2);
-    var minX = Math.min(l.x1, l.x2);
-    var minY = Math.min(l.y1, l.y2);
+    var maxX = Math.max(x1, x2);
+    var maxY = Math.max(y1, y2);
+    var minX = Math.min(x1, x2);
+    var minY = Math.min(y1, y2);
 
     discriminant = Math.sqrt(discriminant);
-    var x1 = Math.floor((discriminant - b)/(2 * a));
-    var y1 = Math.floor(m*(x1 - l.x1) + l.y1);
-    //if(minX <= x1 && x1 <= maxX && minY <= y1 && y1 <= minY){
-      addPOI(x1, y1);
-    //}
+    var x_poi = Math.floor((discriminant - b)/(2 * a));
+    var y_poi = Math.floor(m*(x_poi - x1) + y1);
+    if(minX <= x_poi && x_poi <= maxX && minY <= y_poi && y_poi <= maxY){
+      if(flipped){ addPOI(y_poi, x_poi); } else { addPOI(x_poi, y_poi); }
+    }
     if(discriminant == 0) { return 1; }
 
-    var x2 = Math.floor((0 - b - discriminant)/(2 * a));
-    var y2 = Math.floor(m*(x2 - l.x1) + l.y1);
-    //if(minX <= x1 && x1 <= maxX && minY <= y1 && y1 <= minY){
-      addPOI(x2, y2);
-    //}
-    //alert("x1 = " + x1 + ", y1 = " + y1);
+    x_poi = Math.floor((0 - b - discriminant)/(2 * a));
+    y_poi = Math.floor(m*(x_poi - x1) + y1);
+    if(minX <= x_poi && x_poi <= maxX && minY <= y_poi && y_poi <= maxY){
+      if(flipped){ addPOI(y_poi, x_poi); } else { addPOI(x_poi, y_poi); }
+    }
     return 2;
   }
   function poiCircleCircle(c1, c2) {
