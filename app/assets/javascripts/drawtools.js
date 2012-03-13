@@ -95,6 +95,9 @@ $(function() {
     }
     shapesDisp.html(s);
   }
+  function getStartShapes(){
+    var s = $('#startshapes').text;
+  }
 
   function getActivePOIs() {
     // if there is an active POI, check if we're still within range
@@ -547,28 +550,48 @@ $(function() {
   var compState = {
     tool : "compass",
     mouse_is_down : false,
-    line_i : -1,
+    usingsetradius : false,
     minicircle_i : -1,
 
-    activate : nullfunc,
-    deactivate : nullfunc,
+    activate : function() {
+      $('#circlesize').attr("value", "");
+      $('#circlesize').show();
+      $('#usecirclesize').show();
+    },
+    deactivate : function() {
+      $('#circlesize').hide();
+      $('#usecirclesize').hide();
+    },
+
     mousedown : function() {
-      this.mouse_is_down = true;
-      tracingLine.start();
-      var miniCircle = new Circle(mousex, mousey, 5);
-      miniCircle.hidden = true;
-      this.minicircle_i = addShape(miniCircle);
+      if(!this.usingSetRadius()) {
+        this.mouse_is_down = true;
+        tracingLine.start();
+        var miniCircle = new Circle(mousex, mousey, 5);
+        miniCircle.hidden = true;
+        this.minicircle_i = addShape(miniCircle);
+      }
     },
     mouseup : function() {
       // TODO rm
-      shapes.pop(); // minicircle
-      var radius = tracingLine.clear();
+      if(this.usingsetradius){
+        var radius = parseFloat($('#circlesize').attr("value"));
+        if(isNaN(radius) || radius < 0.0 || 1000 < radius) {
+          alert('"' + $('#circlesize').attr("value") + '" is an invalid circle radius - it has to be a number between 0 and 1000');
+          return;
+        }
+      }
+      else {
+        shapes.pop(); // minicircle
+        var radius = tracingLine.clear();
+      }
       addCircle(downx, downy, radius);
       redraw();
       this.mouse_is_down = false;
+      $('#circlesize').attr("value", ''+radius);
     },
     mousemove : function() {
-      if(this.mouse_is_down) {
+      if(this.mouse_is_down && (!this.usingsetradius)) {
         var radius = distance(mousex, mousey, downx, downy);
         message = "center: ("+downx+", "+downy+"), radius:"+radius;
         tracingLine.follow();
@@ -578,6 +601,10 @@ $(function() {
         message = "center: ("+mousex+", "+mousey+")";
       }
       writeMessage(message);
+    },
+    usingSetRadius : function() {
+      this.usingsetradius = $('#usecirclesize:checked').length == 1;
+      return this.usingsetradius;
     }
   } 
 
@@ -738,7 +765,8 @@ $(function() {
   });
 
   $('#clear').click(function(){
-    shapes = [];
+    shapes = startShapes.slice(0); // coopy of startShapes
+    updatePOIs();
     redraw();
   });
 
@@ -755,6 +783,7 @@ $(function() {
   //
   //addLine(600, 0, 600, canvas.height);
   //alert(STATES[0].tool + ", " + STATES[1].tool);
+  $('#circlesize').hide();
   mycircle = new Circle(200,200,60);
   mycircle2 = new Circle(300,300,60);
   
