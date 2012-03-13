@@ -276,16 +276,6 @@ $(function() {
     ydiff = y1 - y2;
     return Math.sqrt(xdiff * xdiff + ydiff * ydiff);
   }
-  function getTopShape() {
-    // we want to do this in order
-    for(var i = 0; i < shapes.length; i++){
-      if(shapes[i].underMouse()){
-        return shapes[i];
-      }
-    }
-    return null;
-  }
-
   function insideCircle(x, y, r) {
     return (distance(x,y, mousex, mousey) <= r)
   }
