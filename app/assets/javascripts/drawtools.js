@@ -54,11 +54,12 @@ $(function() {
 //    
 
   // array of shape objects - each has at least 5 methods: activate, deactivate, mouseup, mousedown, mousemove oh also underMouse might be nice... maybe
-  // TODO doc better shape interface/abstract class - maybe even make it a superclass/prototype here
-  var shapes = [];
+  var startShapes = []; // will contain the starting shapes that are not to be deleated on clear()
+  var shapes = [];      // will hold the current list of shapes - reset to startShapes on clear()
+
+  // array of POI objects, set with the function updatePOIs()
   var pointsOfInterest = [];
-  var activePOI_i = -1;
-  var noshape = null;
+  var activePOI_i = -1; // index of the active POI, -1 indicates none active
 
   //
   // Drawing/Utility Functions
@@ -282,7 +283,7 @@ $(function() {
         return shapes[i];
       }
     }
-    return noshape;
+    return null;
   }
 
   function insideCircle(x, y, r) {
@@ -527,7 +528,6 @@ $(function() {
       this.mouse_is_down = true;
       protractor.lastx = downx;
       protractor.lasty = downy;
-      topshape = getTopShape();
       this.on_protractor = protractor.underMouse();
       if(!this.on_protractor) {
         protractor.setLasttheta();
