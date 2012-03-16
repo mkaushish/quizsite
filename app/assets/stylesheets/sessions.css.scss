@@ -1,21 +1,40 @@
 // Place all the styles related to the Sessions controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+$graphite: #503214;
 form.signin {
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 11px;
+  width:500px;
   .field {
-    clear: left;
+    float:left;
     input {
       float: left;
-      width: 220px;
+      border-style: solid;
+      border-color: $graphite;
+      color: $graphite;
+      width: 167px;
+      margin:5px;
+      background: white;
+      padding-left: 1px;
     }
   }
-  label {
-    text-align: right;
-    width: 110px;
-    float: left;
-    padding: 5px;
-  }
   .actions {
-    clear: left;
+    float: left;
+    input {
+      text-align:center;
+      float:left;
+      width:63px;
+      margin-right:0px;
+      margin-left:0px;
+    }
   }
+}
+
+.break {
+  clear: left;
+}
+
+#passwdfield {
 }

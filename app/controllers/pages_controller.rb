@@ -9,10 +9,16 @@ class PagesController < ApplicationController
     end
   end
 
-  def contact
+  def features
   end
 
   def team
+  end
+
+  def blog
+  end
+
+  def contact_us
   end
 
   # TEMPORARY/TESTING PAGES

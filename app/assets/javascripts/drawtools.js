@@ -51,9 +51,8 @@ $(function() {
   // shape informtion
   var CIRCLE = 1;
   //var LINE = 3; yeah I'm doubling down on this constant, see above definition
-//    
+  //    
 
-  // array of shape objects - each has at least 5 methods: activate, deactivate, mouseup, mousedown, mousemove oh also underMouse might be nice... maybe
   var startShapes = []; // will contain the starting shapes that are not to be deleated on clear()
   var shapes = [];      // will hold the current list of shapes - reset to startShapes on clear()
 
@@ -90,19 +89,29 @@ $(function() {
   }
   function writeShapes(){
     var s = "";
+    var hidden_s = "";
     for(var i = 0; i < shapes.length; i++) {
       //context.fillText(shapes[i].toString(), (canvas.width-200), (130 + 20 * i));
       if(!shapes[i].hidden) {
         s += "<p>" + shapes[i] + "</p>\n";
+        hidden_s += ","+shapes[i].encode();
       }
     }
     //for(var i = 0; i < pointsOfInterest.length; i++) {
     //  s += "<p>" + pointsOfInterest[i] + "</p>\n";
     //}
     shapesDisp.html(s);
+    // this is the output that will get passed to the actual question's correct?
+    $('#geometry').attr('value', hidden_s.substr(1));
   }
   function getStartShapes(){
-    var s = $('#startshapes').text;
+    startShapes = [];
+    var s = $('#startshapes').attr('value');
+    var a = s.split(',');
+    for(var i = 0; i < a.length; i++) {
+      startShapes.push(decodeShape(a[i]));
+    }
+    clear();
   }
 
   function getActivePOIs() {
@@ -303,17 +312,35 @@ $(function() {
     this.hidden = hidden;
     this.color = "Black";
   }
+  function decodeShape(s) {
+    var a = s.split(":");
+    var type = a.shift();
+    if(type == "line"){
+      for(var i = 0; i < a.length; i++) { a[i] = parseInt(a[i]); }
+      return new Line(a[0], a[1], a[2], a[3]);
+    }
+    else if(type == "circle"){
+      return new Circle(parseInt(a[0]), parseInt(a[1]), parseFloat(a[2]));
+    }
+  }
 
-  function addShape(shape) {
-    shapes.push(shape);
+  function updateShapePeriphery() {
     writeShapes();
     updatePOIs();
+    redraw();
+  }
+  function addShape(shape) {
+    shapes.push(shape);
+    updateShapePeriphery();
     return shapes.length;
   }
   function delShape(shape_i) {
     shapes.splice(shape_i,1);
-    writeShapes();
-    updatePOIs();
+    updateShapePeriphery();
+  }
+  function clear() {
+    shapes = startShapes.slice(0);
+    updateShapePeriphery();
   }
 
   function Line(x1, y1, x2, y2) {
@@ -339,6 +366,9 @@ $(function() {
     this.toString = function() {
       return "(Line from " + x1 + ", " + y1 + " to " + x2 + ", " + y2 + ")";
     }
+    this.encode = function() {
+      return "line:"+this.x1+":"+this.y1+":"+this.x2+":"+this.y2;
+    }
   }
 
   function addLine(x1,y1,x2,y2) {
@@ -359,6 +389,9 @@ $(function() {
     }
     this.toString = function() {
       return "(Circle " + x + ", " + y + ", " + r.toFixed(3) + ")"; //round of radius to 3 digs
+    }
+    this.encode = function() {
+      return "circle:"+this.x+":"+this.y+":"+this.r;
     }
   }
 
@@ -704,6 +737,7 @@ $(function() {
     mousemove : nullfunc
   }
 
+  // array of state objects - each has at least 5 methods: activate, deactivate, mouseup, mousedown, mousemove 
   var STATES = [protState, compState, rulerState, lineState, blankState];
 
   // a helper state for those which want a tracing line on mouse pushdown
@@ -777,9 +811,7 @@ $(function() {
   });
 
   $('#clear').click(function(){
-    shapes = startShapes.slice(0); // coopy of startShapes
-    updatePOIs();
-    redraw();
+    clear();
   });
 
   function a_to_s(arr) {
@@ -795,12 +827,6 @@ $(function() {
   //
   //addLine(600, 0, 600, canvas.height);
   //alert(STATES[0].tool + ", " + STATES[1].tool);
-  $('#circlesize').hide();
-  mycircle = new Circle(200,200,60);
-  mycircle2 = new Circle(300,300,60);
-  
-  shapes = [mycircle] ;
+  getStartShapes();
   setState(COMPASS);
-  addLine(20,50, 300,300);
-  redraw();
 });

@@ -13,6 +13,5 @@
 Your browser does not support the HTML5 Canvas feature. This app uses new HTML5 features and will only work on the latest versions of Firefox, Safari or Chrome (and maybe Internet Explorer 9).         
 </canvas>   
 <div id="shapes"></div>
-<% shapes = ["circle:200:200:50", "line:40:50:300:325"] %>
-<%= hidden_field_tag 'startshapes', shapes.join(",") %>
+<%= hidden_field_tag 'startshapes', drawtools.encodedStartShapes %>
 <%= hidden_field_tag 'geometry', "" %>

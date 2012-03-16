@@ -1,15 +1,18 @@
+<div id="nav">
 <nav>
-  <% if signed_in? %>
   <ul>
-    <% if signed_in? %>
-      <li><%= link_to "Profile", user_path(current_user) %></li>
-    <% end %>
+  <% if signed_in? %>
+    <li><%= link_to "SmarterGrades", root_path %></li>
+    <li><%= link_to "Profile", user_path(current_user) %></li>
     <li><%= link_to "Make Quiz", :controller => :problem, :action => :choose %></li>
     <li><%= link_to "Start Quiz", quiz_path %></li>
-    <li>
-    <%= render 'shared/signin' %>
-    </li>
-  </ul>
+    <li><%= render 'shared/signin' %></li>
+  <% else %>
+    <li><%= link_to "Features", features_path %></li>
+    <li><%= link_to "Team", team_path %></li>
+    <li><%= link_to "Blog", "http://blog.smartergrades.com" %></li>
+    <li><%= link_to "Contact", contact_path %></li>
   <% end %>
+  </ul>
 </nav>
-
+</div>

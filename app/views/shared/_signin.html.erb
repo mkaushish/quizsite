@@ -3,17 +3,14 @@
 <% else %>
   <%= form_for(:session, {:url => sessions_path, :html => {:class => "signin"}}) do |f| %>
     <div class = "field">
-      <%= f.label :email %>
-      <%= f.text_field :email %>
-    </div>
-    <div class = "field">
-      <%= f.label :password %>
-      <%= f.password_field :password %>
+      <%= f.text_field :email, :placeholder=>"Email" %>
+      <%= f.password_field :password, :placeholder => "Password" %>
     </div>
     <div class = "actions">
-      <label></label>
       <%= f.submit "Sign in" %>
+      <%= f.submit "Register" %>
     </div>
+    <div class = "break"></div>
   <% end %>
   <% # TODO add signup link here? %>
 <% end %>

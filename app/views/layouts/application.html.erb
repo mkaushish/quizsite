@@ -9,11 +9,8 @@
   <%= yield :head %>
 </head>
 <body>
+  <%= render 'shared/nav' %>
   <div id="container">
-    <div id="sitetitle">
-      <%= link_to "Smarter Grades", root_path %>
-    </div>
-    <%= render 'shared/nav' %>
     <%= render 'shared/errors' %>
     <%= yield %>
   </div>
