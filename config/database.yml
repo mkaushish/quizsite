@@ -1,7 +1,8 @@
 login: &login
   adapter: postgresql
-  username: thomas
+  username: madhav 
   password:
+  database: smartergrades
   encoding: UTF8
   pool: 5
   timeout: 5000
