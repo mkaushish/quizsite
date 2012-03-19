@@ -6,10 +6,21 @@
  *= require_tree . 
 */
 
+
 /* Varables {{{ */
 
 $graphite: #503214;
 
+@mixin shadow($h_off, $v_off, $blur, $spread, $col) {
+  // h_off : horizontal offset, positive = right, negative = left
+  // v_off : vertical offset, positive = bot, negative = top
+  // blur  : 0 => sharp, higher => more blurred (ex 5px)
+  // spread: increases size, default 0 => same size as blur...?
+  // col   : obvious
+  -moz-box-shadow:    $h_off $v_off $blur $spread $col;
+  -webkit-box-shadow: $h_off $v_off $blur $spread $col;
+  box-shadow:         $h_off $v_off $blur $spread $col;
+}
 @mixin rounded-corners($radius) {
 	-moz-border-radius: $radius;
 	-webkit-border-radius: $radius;
@@ -25,43 +36,45 @@ $graphite: #503214;
 
 /* Layout ID's {{{ */
 body {
-  background-image: url('woodtile.jpeg');
-  background-repeat: repeat;
+  background-image: url('bggrad.png');
+  background-repeat: repeat-x;
+  line-height:160%;
+  font-size:0.85em;
 }
 #container {
+  @include shadow(5px, -2px, 5px, 0px, black);
   width: 800px;
-  height: 1100px;
+  height: 1000px;
   margin-left: auto;
   margin-right: auto;
-  background-image: url('graphpapertile.png');
+  background-image: url('lightgraphpapertile.png');
   background-repeat: repeat;
-  padding: 0 25px 0;
+  padding: 25px 25px 0;
 }
 
+#logo {
+  text-decoration: none;
+  display: block;
+  font-family: "SketchRockwell";
+  border: 0;
+  margin: 4px;
+  font-size: 3em;
+  &:hover {
+    border: 0;
+    color: black;
+  }
+}
 #sitetitle {
   width: 800px;
-  height: 70px;
   margin-bottom: 10px;
-  a {
-    text-decoration: none;
-    padding-top: 10px;
-    display: block;
-    text-align: center;
-    font-family: "SketchRockwell";
-    border: 0;
-    margin: 4px;
-    font-size: 3em;
-    &:hover {
-      border: 0;
-      color: black;
-    }
-  }
+  text-align: center;
 }
 
 nav {
+  margin-left: auto;
+  margin-right: auto;
   width:800px;
-  margin-bottom: 10px;
-  border-bottom: 2px solid;
+  height:42px;
   ul {
     text-align: center;
     list-style-type: none;
@@ -71,17 +84,23 @@ nav {
   }
   li {
     float: left;
+    text-align: center;
   }
 
   a {
+    color:black;
     text-decoration: none;
     display: block;
-    width: 170px;
+    width: 152px;
     font-family: "SketchRockwell";
-    font-size: 1.5em;
-    text-align: center;
+    font-size: 1.75em;
     padding: 4px;
     &:hover {
+      color: black;
+      //font-weight: bold;
+      font-size: 2em;
+    }
+    &:visited {
       color: black;
     }
   }
@@ -90,6 +109,28 @@ nav {
 
 /* }}} */
 
+/* Homepage stuff {{{ */
+#homedescription {
+  font-size: 1.15em;
+  float:left;
+  width:440px;
+  margin:10px;
+  text-indent:20px;
+  text-align:justify;
+  padding:5px;
+}
+
+#slideshow {
+  float:left;
+  width:250px;
+  margin:10px;
+  img {
+    width:450;
+    height:350;
+  }
+}
+
+/*}}}*/
 a {
   color: $graphite;
   border-color: transparent;
@@ -177,11 +218,14 @@ input {
 #canvas {
   border: 2px solid black;
   float: left;
-  margin-left: 10px;
+  width: 550; 
+  height: 400;
 }
 
 #shapes {
   margin-left: 10px;
   float: left;
+  width: 240;
+  height: 400;
 }
 /* }}} */

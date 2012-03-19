@@ -23,6 +23,8 @@ Quizsite::Application.routes.draw do
   match '/history', :to => 'problemanswers#index'
   match '/quiz',    :to => 'problemanswers#new'
   match '/home',    :to => 'pages#home'
+  match '/features',:to => 'pages#features'
+  match '/team',    :to => 'pages#team'
   match '/contact', :to => 'pages#home'
   match '/draw',    :to => 'pages#draw'
   #match '/team',    :to => 'pages#team'

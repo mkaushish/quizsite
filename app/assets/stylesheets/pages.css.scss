@@ -1,3 +1,35 @@
 // Place all the styles related to the Pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+@mixin rounded-corners($radius) {
+	-moz-border-radius: $radius;
+	-webkit-border-radius: $radius;
+	border-radius: $radius; /* future proofing */
+	-khtml-border-radius: $radius; /* for old Konqueror browsers */
+}
+
+.teammember { 
+  clear:left;
+  div {
+    margin: 2px;
+    padding: 2px;
+    border: 2px;
+  }
+  .info {
+    float: left;
+    width: 200px;
+  }
+  
+  .text {
+    float:left;
+    width:500px;
+    .intro {
+      width:500px;
+    }
+
+    .why {
+      width:500px;
+    }
+  }
+}

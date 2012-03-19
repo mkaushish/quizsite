@@ -9,13 +9,18 @@ Short Term
 [ ] prime factors question removes first element from solve
 [ ] multitextfied should allow answers in any order unless stated
 [ ] make drawtools nice
+  [ ] if no shapes are passed in we get several errors neither shapes nore state seems to get set
+  [X] poiLineCircle doesn't check for bounds properly
+  [X] poiLineCircle can't handle vertical lines, and has trouble on those that are close
+  [/] cycle through nearby points of interest when both are nearby (currently selects first one added)
+  [X] allow users to input circle radius before drawing
   [ ] add "undo last" button
   [ ] use some sort of units besides pixels
   [X] allow protractor to rotate
   [/] put js somewhere useful
-  [ ] put html into a partial
-  [ ] add points of interest that the mouse automatically moves to
-  [ ] put outline around app
+  [x] put html into a partial
+  [x] add points of interest that the mouse automatically moves to
+  [x] put outline around app
   [ ] improve text stuff
     [ ] add coordinates into a standard place
     [ ] make it so text doesn't block stuff if it doesn't need to 
@@ -34,29 +39,27 @@ Short Term
 [ ] make explanations only keep showing once you get the right answer on the previous one
 [ ] display problems in reverse chronological order in profile
 [ ] radio button text field
-[ ] fix TODO's throughout code
 [ ] fix suitable arrangement stuff in chapter 2
+  [ ] add Arrangement HTMLObj
 [ ] writingIndian/int seems to be broken - always wrong answer.
 [ ] commas seem to not be preprocessed out, see writinginternational
 [ ] 7186110.to_international returns something and 17???
-[ ] in preprocessing we should also
 [ ] disallow going back and redoing problems
 [ ] what should our starting page be for non-signed in? signed in?
 
 
 Long Term
 ---------
-[ ] make sub rails app for generating question code
 [ ] select problems from prestocked group
 [ ] make the quiz store better (not marshal dump/load every request)
 [ ] add quiz model - track stats over each quiz, view past quizzes, etc
-[ ] research ajax for calculator/multiform input fields
 [ ] track user statistics, and do stuff with them
 [ ] Allow partial credit on problems
 [ ] remove require statements in rails - use autoload
 
 Completed
 ---------
+[X] research ajax for calculator/multiform input fields
 [X] remove the first few questions which are not working (writing numbers)
 [x] Get commits to heroku to work
 [x] keep text fields from autocompleting

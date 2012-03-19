@@ -9,6 +9,7 @@
 <% problem.text.each do |elt| %>
 	<% if elt.is_a? MultiHTMLObj %>
     <%= render :partial => "#{partialdir}/multihtmlobj", :object => elt %>
+  <% elsif elt.is_a? GeometryField %>
 	<% else %>
     <%= render :partial => "#{partialdir}/htmlobj", :object => elt %>
 	<% end %>
