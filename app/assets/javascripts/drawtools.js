@@ -638,14 +638,14 @@ $(function() {
     mousemove : function() {
       if(this.mouse_is_down && (!this.usingsetradius)) {
         var radius = distance(mousex, mousey, downx, downy);
-        message = "center: ("+downx+", "+downy+"), radius:"+radius;
+        //message = "center: ("+downx+", "+downy+"), radius:"+radius;
         tracingLine.follow();
         redraw();
       }
       else {
-        message = "center: ("+mousex+", "+mousey+")";
+        //message = "center: ("+mousex+", "+mousey+")";
       }
-      writeMessage(message);
+      //writeMessage(message);
     },
     usingSetRadius : function() {
       this.usingsetradius = $('#usecirclesize:checked').length == 1;
@@ -680,7 +680,7 @@ $(function() {
         message = "(" + mousex + ", " + mousey + "), just measured: " + this.last_dist;
       }
       redraw();
-      writeMessage(message);
+      //writeMessage(message);
     },
     mouseup : function() {
       this.mouse_is_down = false;
@@ -724,7 +724,7 @@ $(function() {
         message = "center: ("+mousex+", "+mousey+")";
       }
       // TODO somehow need to write this message on mouseup as well
-      writeMessage(message);
+      //writeMessage(message);
     }
   }
 

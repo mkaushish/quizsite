@@ -38,7 +38,8 @@ $graphite: #503214;
 body {
   background-image: url('bggrad.png');
   background-repeat: repeat-x;
-  line-height:175%;
+  line-height:160%;
+  font-size:0.85em;
 }
 #container {
   @include shadow(5px, -2px, 5px, 0px, black);
@@ -46,14 +47,13 @@ body {
   height: 1000px;
   margin-left: auto;
   margin-right: auto;
-  background-image: url('graphpapertile.png');
+  background-image: url('lightgraphpapertile.png');
   background-repeat: repeat;
-  padding: 0 25px 0;
+  padding: 25px 25px 0;
 }
 
 #logo {
   text-decoration: none;
-  padding-top: 40px;
   display: block;
   font-family: "SketchRockwell";
   border: 0;
@@ -70,12 +70,6 @@ body {
   text-align: center;
 }
 
-//#nav {
-//  height: 50px;
-//  margin: 0px;
-//  padding: 0px;
-//  border: 0px;
-//}
 nav {
   margin-left: auto;
   margin-right: auto;
@@ -97,7 +91,7 @@ nav {
     color:black;
     text-decoration: none;
     display: block;
-    width: 192px;
+    width: 152px;
     font-family: "SketchRockwell";
     font-size: 1.75em;
     padding: 4px;
@@ -117,16 +111,23 @@ nav {
 
 /* Homepage stuff {{{ */
 #homedescription {
+  font-size: 1.15em;
   float:left;
-  width:450px;
+  width:440px;
   margin:10px;
-  text-indent:50px;
+  text-indent:20px;
+  text-align:justify;
+  padding:5px;
 }
 
 #slideshow {
   float:left;
   width:250px;
   margin:10px;
+  img {
+    width:450;
+    height:350;
+  }
 }
 
 /*}}}*/

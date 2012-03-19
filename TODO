@@ -9,6 +9,7 @@ Short Term
 [ ] prime factors question removes first element from solve
 [ ] multitextfied should allow answers in any order unless stated
 [ ] make drawtools nice
+  [ ] if no shapes are passed in we get several errors neither shapes nore state seems to get set
   [X] poiLineCircle doesn't check for bounds properly
   [X] poiLineCircle can't handle vertical lines, and has trouble on those that are close
   [/] cycle through nearby points of interest when both are nearby (currently selects first one added)
