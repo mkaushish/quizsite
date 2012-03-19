@@ -1,7 +1,3 @@
 <h1><%= @user.name %></h1>
-<div id="problemhist">
-  <%= render :partial => 'problemanswers/history', :locals => {:problemanswers => @problemanswers} %>
-</div>
-<div id="stats">
-  <% #render :partial => 'stats' %>
-</div>
+<%= render :partial => 'problemanswers/history', :locals => {:problemanswers => @problemanswers} %>
+<%= render :partial => 'users/stats' %>

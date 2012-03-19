@@ -98,7 +98,7 @@ nav {
     &:hover {
       color: black;
       //font-weight: bold;
-      font-size: 2em;
+      font-size: 1.9em;
     }
     &:visited {
       color: black;
@@ -140,6 +140,13 @@ a {
   &:visited {
     color: $graphite;
   }
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 
 input {
@@ -210,6 +217,30 @@ input {
 
 .incorrect {
 	border: 3px solid red;
+}
+/* }}} */
+
+/* PScore colors {{{ */
+.pscore_95 {
+  background-color:#04e504;
+}
+.pscore_90 {
+  background-color:#0a5f0a;
+}
+.pscore_80 {
+  background-color:#325f0a;
+}
+.pscore_70 {
+  background-color:#676818;
+}
+.pscore_60 {
+  background-color:#685018;
+}
+.pscore_35 {
+  background-color:#883004;
+}
+.pscore_0 {
+  background-color:#880420;
 }
 /* }}} */
 
