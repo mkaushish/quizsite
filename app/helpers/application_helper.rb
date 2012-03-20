@@ -5,6 +5,10 @@ require 'c6'
 require 'c7'
 
 module ApplicationHelper
+  def jsonload
+    return "" if @jsonload.nil?
+    return @jsonload
+  end
   def adderror(string)
     if flash[:errors].nil?
       flash[:errors] = [ string ]
@@ -51,5 +55,16 @@ module ApplicationHelper
   end
   def m_unpack(marshobj)
     Marshal.load(ActiveSupport::Base64.decode64(marshobj))
+  end
+
+  def pscore_class(pscore)
+    p = pscore.to_i
+    return "pscore_95" if p >= 95
+    return "pscore_90" if p >= 90
+    return "pscore_80" if p >= 80
+    return "pscore_70" if p >= 70
+    return "pscore_60" if p >= 60
+    return "pscore_35" if p >= 35
+    return "pscore_0"
   end
 end

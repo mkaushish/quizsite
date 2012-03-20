@@ -9,23 +9,31 @@
 	-khtml-border-radius: $radius; /* for old Konqueror browsers */
 }
 
+#team {
+  font-family:Latine;
+}
+
 .teammember { 
+  clear:left;
   div {
     margin: 2px;
     padding: 2px;
-    //border: 2px;
+    border: 2px;
   }
   .info {
     float: left;
     width: 200px;
   }
   
-  .intro {
-    float: left;
-  }
+  .text {
+    float:left;
+    width:500px;
+    .intro {
+      width:500px;
+    }
 
-  .why {
-    float: left;
-    width: 400px;
+    .why {
+      width:500px;
+    }
   }
 }

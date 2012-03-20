@@ -1,3 +1,111 @@
 // Place all the styles related to the Users controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+$graphite: #503214;
+
+@mixin rounded-corners($radius) {
+	-moz-border-radius: $radius;
+	-webkit-border-radius: $radius;
+	border-radius: $radius; /* future proofing */
+	-khtml-border-radius: $radius; /* for old Konqueror browsers */
+}
+
+@mixin rounded-top-corners($radius) {
+	-moz-border-radius-topleft: $radius;
+	-webkit-border-top-left-radius: $radius;
+	border-top-left-radius: $radius; /* future proofing */
+	-khtml-border-radius-topleft: $radius; /* for old Konqueror browsers */
+
+	-moz-border-radius-topright: $radius;
+	-webkit-border-top-right-radius: $radius;
+	border-top-right-radius: $radius; /* future proofing */
+	-khtml-border-radius-topright: $radius; /* for old Konqueror browsers */
+}
+
+#problemhist {
+  @include rounded-corners(5px);
+  float:right;
+  width:230px;
+  border:2px solid $graphite;
+  padding:5px 15px;
+  h2 {
+    width:200px;
+    text-align:center;
+  }
+  div {
+    a {
+      float:left;
+      text-decoration:none;
+      width:200px;
+      display:block;
+    }
+    img {
+      float:left;
+    }
+  }
+}
+
+#stats {
+  @include rounded-corners(5px);
+  border: 2px solid $graphite;
+  width:500px;
+  #quizzes {
+    margin-top:10px;
+    font-size:1.25em;
+    li.unselected {
+      background-color:$graphite;
+      color:white;
+      margin: 0px 10px;
+      padding:2px 10px;
+      width:100px;
+      float:left;
+      text-align:center;
+      @include rounded-top-corners(8px);
+    }
+    li.selected {
+      background-color:#222222;
+      color:white;
+      margin: 0px 10px;
+      padding:2px 10px;
+      width:100px;
+      float:left;
+      text-align:center;
+      @include rounded-top-corners(8px);
+    }
+  }
+
+  #problemscores {
+    border-top:2px solid black;
+    margin:0px 10px;
+    ul {
+      margin: 10px;
+    }
+    li {
+      font-size:1.25em;
+      padding:5px;
+      div { 
+        float:right;
+      }
+    }
+  }
+}
+
+#pscore {
+  color:white;
+  margin-top:5px;
+  font-size:1.35em;
+  padding:5px;
+  text-align:center;
+  height:25px;
+  width:460px;
+  @include rounded-corners(5px);
+}
+
+.pscore {
+  text-align:center;
+  padding:5px;
+  width:50px;
+  height:20px;
+  color:white;
+  @include rounded-corners(5px);
+}

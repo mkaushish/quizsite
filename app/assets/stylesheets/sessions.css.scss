@@ -5,19 +5,13 @@ $graphite: #503214;
 form.signin {
   margin-right: auto;
   margin-left: auto;
-  margin-top: 11px;
   width:500px;
   .field {
     float:left;
     input {
       float: left;
-      border-style: solid;
-      border-color: $graphite;
-      color: $graphite;
       width: 167px;
       margin:5px;
-      background: white;
-      padding-left: 1px;
     }
   }
   .actions {
@@ -34,7 +28,4 @@ form.signin {
 
 .break {
   clear: left;
-}
-
-#passwdfield {
 }

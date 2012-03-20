@@ -1,5 +1,10 @@
-<% @problemanswers.each do |problemanswer| %>
-  <div class=<%= correct_class(problemanswer) %>>
-    <td><%= link_to "#{problemanswer.problem.to_s}", problemanswer %></td>
-  </div>
-<% end %>
+<div id="problemhist">
+  <h2>Problem History</h2>
+  <% @problemanswers.each do |problemanswer| %>
+    <div>
+      <% corr = correct_class(problemanswer) %>
+      <%= link_to "#{problemanswer.problem.to_s}", problemanswer %>
+      <%= image_tag "#{correct_class(problemanswer)}_circ_small.png" %>
+    </div>
+  <% end %>
+</div>

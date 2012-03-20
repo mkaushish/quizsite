@@ -2,8 +2,13 @@ var myInputs = $('input:not(:submit)').filter('[type!="hidden"]')
 myInputs.attr("disabled", true);
 
 var checkboxes = myInputs.filter(':checked');
-checkboxes.insertBefore('<div class="correct">');
-checkboxes.insertAfter('</div>');
+checkboxes.replaceWith("<%= escape_javascript(image_tag "correct_circ_small.png", :style => "position:relative; top:7px;") %>");
+
+var texts = myInputs.filter(':text');
+texts.css("border","2px solid green");
+//checkboxes.hide();
+//checkboxes.insertBefore('<div class="correct">');
+//checkboxes.insertAfter('</div>');
 //checkboxes.next('label').after('</div>');
 //checkboxes.next('label').before('<div class="correct">');
   

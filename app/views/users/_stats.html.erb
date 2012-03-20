@@ -1,0 +1,29 @@
+<div id="stats">
+  <div id="quizzes">
+    <ul>
+      <li class="selected">Fractions</li>
+      <li class="unselected">Chapter 2</li>
+      <li class="unselected">Chapter 1</li>
+    </ul>
+  </div>
+  <div id="problemscores">
+    <div id=pscore class=pscore_80>
+      Your PScore for this quiz is 86
+    </div>
+    <ul>
+      <% ptypes = [
+        ["Convert to Improper Fractions", "84"],
+        ["Convert to Mixed Fractions", "90"],
+        ["Reduce Fractions", "57"],
+        ["Fill Fractions",   "76"],
+        ["Compare Like Fractions", "89"],
+        ["Compare Unlike Fractions", "96"]] %>
+      <% ptypes.each do |ptype| %>
+        <li>
+        <%= ptype.first %>
+        <div class="pscore <%=pscore_class(ptype.last)%>"><%= ptype.last %></div>
+        </li>
+      <% end %>
+    </ul>
+  </div>
+</div>
