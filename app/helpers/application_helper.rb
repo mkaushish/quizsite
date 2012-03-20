@@ -5,6 +5,10 @@ require 'c6'
 require 'c7'
 
 module ApplicationHelper
+  def jsonload
+    return "" if @jsonload.nil?
+    return @jsonload
+  end
   def adderror(string)
     if flash[:errors].nil?
       flash[:errors] = [ string ]

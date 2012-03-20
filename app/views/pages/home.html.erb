@@ -14,10 +14,33 @@
   </p>
 </div>
 
-<div id="slideshow">
-  <div id="slides" >
-    <%= image_tag "drawtoolstext.png" %>
+<div id=slideshow>
+  <div id=slides >
+    <div id=slide1>
+      <%= image_tag "pscore_450_260.png" %>
+      <div class=slide_description>
+        The PScore is how well we predict you will do on a question/quiz.  We use it to figure out the best problems for you to practice.
+      </div>
+    </div>
+    <div id=slide2 style="display:none">
+      <%= image_tag "drawtoolsex_450_260.png" %>
+      <div class=slide_description>
+        Smarter Grades teaches students to solve problems with online versions of the same tools they have available in class.  It's not just multiple choice!
+      </div>
+    </div>
+    <div id=slide3 style="display:none">
+      <%= image_tag "explain_450_260.png" %>
+      <div class=slide_description>
+        If students are having trouble with a problem, we teach them how to break down each problem into simple steps.  Then we help them understand each step.
+      </div>
+    </div>
   </div>
   <div id="slideshownav">
+    <div id="slideNo" style="display:none">1</div>
+    <ul>
+      <li onclick="setSlide(1,this);" class=selected>PScore</li>
+      <li onclick="setSlide(2,this);">Tools</li>
+      <li onclick="setSlide(3,this);" style="border:0; width:144px; float:right;">Explanations</li>
+    </ul>
   </div>
 </div>

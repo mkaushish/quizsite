@@ -6,6 +6,8 @@ class PagesController < ApplicationController
       @title = @user.name
       @problemanswers = @user.problemanswers
       render 'users/show'
+    else
+      @jsonload = 'onload=startShow();'
     end
   end
 

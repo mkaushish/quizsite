@@ -31,6 +31,7 @@
 $(function() {
   // global drawing variables
   var canvas = $('#canvas')[0];
+  if((canvas === undefined)) { return; }
   var shapesDisp = $('#shapes');
   var messageDisp = $('#message');
   var context = canvas.getContext('2d');
@@ -829,4 +830,4 @@ $(function() {
   //alert(STATES[0].tool + ", " + STATES[1].tool);
   getStartShapes();
   setState(COMPASS);
-});
+  });

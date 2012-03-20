@@ -1,6 +1,9 @@
 <% unless @problem.prob.is_a? QuestionWithExplanation %>
   <p>We're sorry, this problem doesn't seem to have an explanation.</p>
 <% else %>
+  <div id=quiz>
+    
+  <div id=quizheader>How to use the general rule to estimate.</div>
   <%= form_tag({:action => 'next_subproblem'}, :remote => true, :autocomplete => "off") do %>
     <%= hidden_field_tag 'subproblem_index', @i %>
     <%= hidden_field_tag 'problem_id', @problem.id %>
@@ -8,5 +11,6 @@
     <%= hidden_field_tag 'next_subproblem', "" %>
     <%= submit_tag "Submit Answer" %>
   <% end %>
+  </div>
 <% end %>
 

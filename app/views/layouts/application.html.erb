@@ -1,14 +1,14 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-  <title>Quizsite</title>
+  <title>Smarter Grades</title>
   <%= stylesheet_link_tag    "application" %>
   <%= javascript_include_tag "application" %>
   <% #javascript_include_tag :defaults %>
   <%= csrf_meta_tags %>
   <%= yield :head %>
 </head>
-<body>
+<body <%= jsonload %>>
   <%= render 'shared/nav' %>
   <div id="container">
     <%= render 'shared/errors' %>

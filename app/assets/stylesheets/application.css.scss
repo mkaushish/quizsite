@@ -27,21 +27,61 @@ $graphite: #503214;
 	border-radius: $radius; /* future proofing */
 	-khtml-border-radius: $radius; /* for old Konqueror browsers */
 }
+@mixin gradient($first, $second) {
+  background-color: $second;
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#{ie-hex-str($first)}', endColorstr='#{ie-hex-str($second)}');";
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#{ie-hex-str($first)}', endColorstr='#{ie-hex-str($second)}');;
+  zoom: 1;
+  background: -webkit-gradient(linear, left top, left bottom, from($first), to($second));
+  background: -moz-linear-gradient(top, $first, $second);
+}
 
+// handwriting fonts
 @font-face {
   font-family: "SketchRockwell";
-  src: url('SketchRockwell-Bold.ttf') format('truetype');
+  src: url('handwriting/SketchRockwell-Bold.ttf') format('truetype');
+}
+@font-face {
+  font-family: "NeverSayNever";
+  src: url('handwriting/NeverSayNever.ttf') format('truetype');
+}
+@font-face {
+  font-family: "QarmicSans";
+  src: url('handwriting/Qarmic_sans_Abridged.ttf') format('truetype');
+}
+
+// seriffed fonts
+@font-face {
+  font-family: "Latine";
+  src: url('serif/Latine.ttf') format('truetype');
+}
+@font-face {
+  font-family: "GentiumBook";
+  src: url('serif/GenBkBasR.ttf') format('truetype');
+}
+@font-face {
+  font-family: "Romanuni";
+  src: url('serif/romanuni.ttf') format('truetype');
+}
+@font-face {
+  font-family: "Symbola";
+  src: url('serif/Symbola.otf');
 }
 /* }}} */
 
 /* Layout ID's {{{ */
 body {
-  background-image: url('bggrad.png');
-  background-repeat: repeat-x;
+  //background-image: url('bggrad.png');
+  //background-repeat: repeat-x;
+  //font-family: "QarmicSans";
+  font-family: "Latine";
   line-height:160%;
   font-size:0.85em;
+  margin:0px;
 }
 #container {
+  position:relative;
+  bottom:7px;
   @include shadow(5px, -2px, 5px, 0px, black);
   width: 800px;
   height: 1000px;
@@ -66,10 +106,15 @@ body {
 }
 #sitetitle {
   width: 800px;
-  margin-bottom: 10px;
+  margin-bottom: 12px;
   text-align: center;
 }
 
+$navlink: #c1c1d8;
+#nav {
+  @include gradient(#262632, #74748e);
+  border-bottom:2px solid black;
+}
 nav {
   margin-left: auto;
   margin-right: auto;
@@ -77,18 +122,16 @@ nav {
   height:42px;
   ul {
     text-align: center;
-    list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 5px 0px;
     overflow: hidden;
   }
   li {
     float: left;
-    text-align: center;
   }
 
   a {
-    color:black;
+    color:$navlink;
     text-decoration: none;
     display: block;
     width: 152px;
@@ -96,12 +139,12 @@ nav {
     font-size: 1.75em;
     padding: 4px;
     &:hover {
-      color: black;
+      color: $navlink;
       //font-weight: bold;
       font-size: 1.9em;
     }
     &:visited {
-      color: black;
+      color: $navlink;
     }
   }
   
@@ -111,6 +154,7 @@ nav {
 
 /* Homepage stuff {{{ */
 #homedescription {
+  font-family:Latine;
   font-size: 1.15em;
   float:left;
   width:440px;
@@ -121,12 +165,57 @@ nav {
 }
 
 #slideshow {
+  background-color:white;
+  line-height:0;
   float:left;
-  width:250px;
-  margin:10px;
+  width:450px;
+  margin:10px 10px 0px 10px;
+  border: 2px solid black;
+  padding:0px;
+  position:absolute;
+  left:500px;
+  top:115px;
   img {
-    width:450;
-    height:350;
+    width:450px;
+    height:260px;
+    margin:0px;
+  }
+
+  #slides div {
+    position:absolute;
+  }
+
+  #slideshownav {
+    position:absolute;
+    top:340px;
+    margin:0; padding:0; width:450px;
+  }
+  
+  .slide_description {
+    top:260px;
+    padding:5px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    line-height:160%;
+    margin:0px;
+    width:440px;
+    height:66px; // just so we can add up to 80
+    background-color:white;
+  }
+  li {
+    font-size:1.25em;
+    height:20px;
+    width:142px;
+    padding:3px;
+    border-right: 2px solid black;
+    text-align: center;
+    line-height:100%;
+    float:left;
+    margin:0;
+  }
+  height:366px;
+  .selected {
+    background-color:green;
   }
 }
 
@@ -149,9 +238,31 @@ ul {
   overflow: hidden;
 }
 
-input {
-  margin: 5px
+input[type="text"] {
+  border-style: solid;
+  border-color: $graphite;
+  color: $graphite;
+  background: white;
+  padding-left:1px;
+  margin:0;
 }
+
+input[type="password"] {
+  border-style: solid;
+  border-color: $graphite;
+  color: $graphite;
+  background: white;
+  padding-left:1px;
+  margin:0;
+}
+
+input[type="submit"] {
+  // the classes text and submit get added automatically for all input fields in application.js
+  margin:2px;
+  padding:3px;
+}
+
+/* }}} */
 
 /* Common Classes {{{ */
 
@@ -212,11 +323,13 @@ input {
 }
 
 .correct {
-	border: 3px solid green;
+  @include rounded-corners(5px);
+  padding:3px;
+	border: 2px solid green;
 }
 
 .incorrect {
-	border: 3px solid red;
+	border: 2px solid red;
 }
 /* }}} */
 
