@@ -30,7 +30,7 @@ Quizsite::Application.routes.draw do
   match '/signinpage',    :to => 'pages#signinpage'
   match '/numberline', :to => 'pages#numberline'
   #match '/team',    :to => 'pages#team'
-
+  match '/numberline', :to => 'pages#numberline'
   root :to => 'pages#home'
 
   # The priority is based upon order of creation:

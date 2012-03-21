@@ -211,9 +211,19 @@ nav {
     margin:0;
   }
   height:366px;
-  .selected {
-    background-color:green;
+  #slideshownav1.selected{
+    background-color: #b8daec;
   }
+  #slideshownav2.selected{
+    background-color: #f19e49;
+  }
+  #slideshownav3.selected{
+    background-color: #7e65cf;
+  }
+  /*.selected {
+    
+    background-color:green;
+  }*/
 }
 
 /*}}}*/

@@ -1,7 +1,6 @@
-
       $(function() {
         // global drawing variables
-        var canvas = $('#canvas')[0];
+        var canvas = $('#numcanvas')[0];
         var context = canvas.getContext('2d');
         var mousex;         // global mouse position x coord
         var mousey;         // global mouse position y coord
@@ -173,18 +172,18 @@
         }
         malNumLine.draw("frac");
         malNumLine.drawZBar();
-        $('#canvas').mousedown(function (e) { 
+        $('#numcanvas').mousedown(function (e) { 
           // downx and y have many uses
           downx = mousex;
           downy = mousey;
           mousedown=true;
         });
 
-        $('#canvas').mouseup(function (e) { 
+        $('#numcanvas').mouseup(function (e) { 
           mousedown=false;
         });
 
-        $('#canvas').mousemove(function (e) { 
+        $('#numcanvas').mousemove(function (e) { 
           // mousex and mousey are used for many things, and therefore need to be in the
           // global scope.
           mousex = e.pageX - this.offsetLeft;
