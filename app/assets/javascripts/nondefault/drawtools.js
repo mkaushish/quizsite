@@ -82,6 +82,14 @@ $(function() {
     writeShapes();
   }
 
+  function setMouseXY(e) {
+    var offset = $('#canvas').offset();
+    var offsetx = Math.round(offset.left);
+    var offsety = Math.round(offset.top);
+      
+    mousex = e.pageX - offsetx; // - offset.left;
+    mousey = e.pageY - offsety; // - offset.top;
+  }
   function writeMessage(message){
     context.clearRect(0,0,canvas.width,30);
     context.font = "12pt Calibri";
@@ -127,7 +135,7 @@ $(function() {
     // otherwise activate any POI within range
     else {
       for (var i = 0; i < pointsOfInterest.length; i++) {
-        if(pointsOfInterest[i].mouseDist() < 5) {
+        if(pointsOfInterest[i].mouseDist() < 7) {
           activePOI_i = i;
           redraw();
         }
@@ -783,8 +791,7 @@ $(function() {
   $('#canvas').mousemove(function (e) { 
     // mousex and mousey are used for many things, and therefore need to be in the
     // global scope.
-    mousex = e.pageX - this.offsetLeft;
-    mousey = e.pageY - this.offsetTop;
+    setMouseXY(e);
 
     // activate interest points if we are close to them
     getActivePOIs();
