@@ -28,7 +28,7 @@ Quizsite::Application.routes.draw do
   match '/contact', :to => 'pages#home'
   match '/draw',    :to => 'pages#draw'
   #match '/team',    :to => 'pages#team'
-
+  match '/numberline', :to => 'pages#numberline'
   root :to => 'pages#home'
 
   # The priority is based upon order of creation:

@@ -23,6 +23,9 @@ class PagesController < ApplicationController
   def contact_us
   end
 
+  def numberline
+   @title='Number Line' 
+  end
   # TEMPORARY/TESTING PAGES
   def draw
   end
