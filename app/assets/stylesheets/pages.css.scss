@@ -9,31 +9,30 @@
 	-khtml-border-radius: $radius; /* for old Konqueror browsers */
 }
 
-#team {
-  font-family:Latine;
-}
-
 .teammember { 
   clear:left;
-  div {
-    margin: 2px;
-    padding: 2px;
-    border: 2px;
-  }
   .info {
+    padding:10px 20px 10px 0;
     float: left;
-    width: 200px;
+    img {
+      width:125px;
+      height:125px;
+    }
+  }
+
+  .name {
+    border-bottom:2px solid black;
+    height: 20px;
+    margin-right:20px;
+    font-size:1.20em;
   }
   
   .text {
+    font-size:1em;
+    width:625px;
+    padding:10px 0;
     float:left;
-    width:500px;
-    .intro {
-      width:500px;
-    }
-
     .why {
-      width:500px;
     }
   }
 }

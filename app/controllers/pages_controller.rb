@@ -1,6 +1,7 @@
 require 'c1'
 class PagesController < ApplicationController
   def home
+    @container_height = 500
     if signed_in?
       @user = current_user;
       @title = @user.name
@@ -17,10 +18,11 @@ class PagesController < ApplicationController
   def team
   end
 
-  def blog
+  def contact_us
   end
 
-  def contact_us
+  def signinpage
+    @container_height = 450
   end
 
   def numberline
