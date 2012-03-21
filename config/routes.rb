@@ -28,6 +28,7 @@ Quizsite::Application.routes.draw do
   match '/contact', :to => 'pages#home'
   match '/draw',    :to => 'pages#draw'
   match '/signinpage',    :to => 'pages#signinpage'
+  match '/numberline', :to => 'pages#numberline'
   #match '/team',    :to => 'pages#team'
 
   root :to => 'pages#home'

@@ -13,19 +13,29 @@ class PagesController < ApplicationController
   end
 
   def features
+    @title = "Features"
+    @container_height = 1100
   end
 
   def team
+    @title = "Team"
   end
 
   def contact_us
+    @title = "Contact"
   end
 
   def signinpage
-    @container_height = 450
+    @title = "Sign In"
+    @container_height = 475
   end
 
-  # TEMPORARY/TESTING PAGES
+  def numberline
+    @title = "Number Line"
+  end
+
   def draw
+    @title = "Draw"
+    @container_height = 475
   end
 end

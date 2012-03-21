@@ -25,6 +25,7 @@
     height: 20px;
     margin-right:20px;
     font-size:1.20em;
+    padding:3px;
   }
   
   .text {
@@ -35,4 +36,40 @@
     .why {
     }
   }
+}
+
+.column {
+  float:left;
+  width:400px;
+}
+.feature {
+  padding:10px;
+  margin:10px 10px 20px 10px;
+  @include rounded-corners(5px);
+  h2 {
+    font-weight:none;
+    padding-bottom:5px;
+    font-size:1.3em;
+    margin:0px;
+    border-bottom:2px solid black;
+  }
+  p {
+    margin:10px 0 0 0;
+    text-align:justify;
+  }
+}
+.b_green {
+  border:2px solid green;
+}
+.b_red {
+  border:2px solid red;
+}
+.b_blue {
+  border:2px solid blue;
+}
+.b_yellow {
+  border:2px solid yellow;
+}
+.b_orange {
+  border:2px solid orange;
 }

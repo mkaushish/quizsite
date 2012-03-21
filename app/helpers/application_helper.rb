@@ -5,6 +5,10 @@ require 'c6'
 require 'c7'
 
 module ApplicationHelper
+  def title
+    return "Smarter Grades" if @title.nil?
+    return "#{@title} | Smarter Grades"
+  end
   def jsonload
     return "" if @jsonload.nil?
     return @jsonload
