@@ -9,6 +9,11 @@ module ApplicationHelper
     return "" if @jsonload.nil?
     return @jsonload
   end
+  def container_height_style
+    return "" if @container_height.nil?
+    return "style=height:#{@container_height}px;"
+  end
+
   def adderror(string)
     if flash[:errors].nil?
       flash[:errors] = [ string ]

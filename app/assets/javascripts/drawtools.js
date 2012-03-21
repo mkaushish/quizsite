@@ -31,7 +31,7 @@
 $(function() {
   // global drawing variables
   var canvas = $('#canvas')[0];
-  if((canvas === undefined)) { return; }
+  if(canvas === undefined) { return 0; }
   var shapesDisp = $('#shapes');
   var messageDisp = $('#message');
   var context = canvas.getContext('2d');
