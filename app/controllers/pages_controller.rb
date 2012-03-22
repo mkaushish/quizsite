@@ -52,12 +52,12 @@ class PagesController < ApplicationController
 
   def numberline
     @title = "Number Line"
-    @container_height = 475
+    @container_height = 650
   end
 
   def graph
     @title = "Graph"
-    @container_height = 475
+    @container_height = 750 
   end
 
   def draw
