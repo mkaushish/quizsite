@@ -1,0 +1,11 @@
+<%= content_for :head do %>
+  <%= javascript_include_tag "nondefault/graph" %>
+<% end %>
+
+<h1>Graph App</h1>
+<input type="text" id="circlesize">
+<button id="function">Graph</button>
+<button id="undo">Undo</button>
+<canvas id="canvas" style="background-color:white;" height="550" width="550" border="2px">
+Your browser does not support the HTML5 Canvas feature. This app uses new HTML5 features and will only work on the latest versions of Firefox, Safari or Chrome (and maybe Internet Explorer 9).         
+</canvas>   
