@@ -33,11 +33,14 @@ class PagesController < ApplicationController
 
   def numberline
     @title = "Number Line"
+    @container_height = 475
   end
 
-  def numberline
-   @title='Number Line' 
+  def graph
+    @title = "Graph"
+    @container_height = 475
   end
+
   def draw
     @title = "Draw"
     @container_height = 475
