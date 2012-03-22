@@ -1,5 +1,5 @@
 Quizsite::Application.routes.draw do
-  get "pages/home"
+  get "pages/fasthome"
   get "pages/contact"
   #get "pages/team" # TODO ADD THIS PAGE
 
@@ -17,21 +17,15 @@ Quizsite::Application.routes.draw do
   match "/explain/:id" => 'problem#explain', :as => :explain
 
   match '/profile' => 'users#show'
-  match '/signup',  :to => 'users#new'
+  # match '/signup',  :to => 'users#new'
   match '/signin',  :to => 'sessions#new'
   match '/signout', :to => 'sessions#destroy'
   match '/history', :to => 'problemanswers#index'
   match '/quiz',    :to => 'problemanswers#new'
-  match '/home',    :to => 'pages#home'
-  match '/features',:to => 'pages#features'
-  match '/team',    :to => 'pages#team'
-  match '/contact', :to => 'pages#contact'
+  match '/home/:page',    :to => 'pages#fasthome'
   match '/draw',    :to => 'pages#draw'
-  match '/signinpage',    :to => 'pages#signinpage'
   match '/numberline', :to => 'pages#numberline'
-  #match '/team',    :to => 'pages#team'
-  match '/numberline', :to => 'pages#numberline'
-  root :to => 'pages#home'
+  root :to => 'pages#fasthome'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

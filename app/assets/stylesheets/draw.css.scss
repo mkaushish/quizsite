@@ -1,0 +1,40 @@
+@mixin rounded-corners($radius) {
+	-moz-border-radius: $radius;
+	-webkit-border-radius: $radius;
+	border-radius: $radius; /* future proofing */
+	-khtml-border-radius: $radius; /* for old Konqueror browsers */
+}
+$graphite: #503214;
+#shapes {
+  div {
+    width:100px;
+    padding:2px;
+    margin:5px;
+    text-align:center;
+    font-style:italic;
+    @include rounded-corners(10px);
+  }
+}
+#tools  {
+  div {
+    @include rounded-corners(10px);
+    float:left;
+    margin:5px;
+    padding:7px;
+    border: 2px solid $graphite;
+    height:30px;
+    span {
+      padding:4px 7px 4px 7px;
+    }
+    input[type="checkbox"] {
+      position:relative;
+      top:3px;
+    }
+  }
+
+  .selected {
+    background-color:$graphite;
+    color:white;
+  }
+}
+

@@ -1,0 +1,71 @@
+<div id=about class=staticpage>
+  <div class="logo team">Team Smarter Grades</div>
+  <div class="logo contact" style="display:none;">Contact Us</div>
+
+  <p class="desc team">SmarterGrades was started by pair of Oberlin College alumni who enjoy math and want others to as well.  Read on to find out who they are, and be sure to check out our <%= link_to "blog!", "http://blog.smartergrades.com" %></p> 
+  <p class="desc contact" id="contactblurb" style="display:none">We at Smarter Grades value your input and ideas.  Please contact us with any questions, comments, or suggestions you might have, and we'll be sure to get back to you</p>
+
+  <div id=aboutnav>
+    <div id=team><%= link_to "Team", "#" %></div>
+    <div id=contact><%= link_to "Contact", "#" %></div>
+    <div><%= link_to "Blog", "http://blog.smartergrades.com" %></div>
+  </div>
+  <div id=aboutcontent>
+    <div class=team>
+      <div class="teammember">
+        <div class="name">
+          Madhav Kaushish, CEO
+        </div>
+        <div class="info">
+          <%= image_tag "madhav_125.jpg" %>
+        </div>
+        <div class="text">
+          <div class=blurb>
+            Madhav majored in Maths at Oberlin College. He has loved maths from a young age, and his teachers in school played a huge role in this. They pushed him to experiment with new concepts and go beyond the prescribed textbook. He decided to start Smarter Grades to give others a great high school math experience as well. Madhav's aim is to make Smarter Grades available to the largest possible audience. For Madhav, the possibility of translating Smarter Grades into other languages, while ensuring low bandwidth requirements, is the most exciting aspect of the product.
+          </div>
+        </div>
+      </div>
+      <div class=teammember>
+        <div class=name>
+          Thomas Ramfjord, CTO
+        </div>
+        <div class=info>
+          <%= image_tag "thomas_125.jpg" %>
+        </div>
+        <div class=text>
+          <div class=blurb>
+            Thomas studied Computer Science at Oberlin. He loves math puzzles and problems, but this was not always the case.  It took years of college courses for him to disassociate math from tedious problem sets and repetition.  He joined Smarter Grades to make math accessible and enjoyable to high school students by giving each student personalized attention and problem sets that focus on learning, not repetition.
+          </div>
+        </div>
+      </div>
+      <div style="clear:left;"></div>
+    </div>
+    <div class=contact style="display:none;">
+      <div id=emailinfo>
+        <div class=contactinfo>
+          <h2>Email</h2>
+          <div class=lcol>
+            Support:
+          </div>
+          <div><%= mail_to "support@smartergrades.com" %></div>
+          <div class=lcol>
+            Other:
+          </div>
+          <div><%= mail_to "mkaushish@smartergrades.com" %></div>
+          <div class=lcol style="color:transparent;">
+            .
+          </div>
+          <div><%= mail_to "tramfjord@smartergrades.com" %></div>
+        </div>
+      </div>
+      <div id=mailinfo>
+        <div class=contactinfo>
+          <h2>Mail</h2>
+          <div>Smarter Grades</div>
+          <div>K24A Hauzkhas Enclave</div>
+          <div>New Delhi, India</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

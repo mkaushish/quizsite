@@ -6,19 +6,12 @@
     <li><%= link_to "Make Quiz", :controller => :problem, :action => :choose %></li>
     <li><%= link_to "Start Quiz", quiz_path %></li>
     <li><%= link_to "Sign Out", signout_path, :method => :delete %></li>
-  <% elsif fastnav? %>
+  <% else if fastnav? %>
     <li><%= link_to "Home", "#", :id=>'homelink', :class => 'selected' %></li>
     <li><%= link_to "Features", "#", :id=>'featureslink' %></li>
     <li><%= link_to "About Us", "#", :id=>'aboutlink' %></li>
     <li><%= link_to "Sign In", "#", :id=>'signinlink' %></li>
   <% else %>
-    <li><%= link_to "Home", :controller => "pages", :action => "fasthome" %></li>
-    <li><%= link_to "Features", :controller => "pages", :action => "fasthome", :page => "features" %></li>
-    <li><%= link_to "About Us", :controller => "pages", :action => "fasthome", :page => "about" %></li>
-    <li><%= link_to "Sign In", :controller => "pages", :action => "fasthome", :page => "signin" %></li>
-    <li><%= link_to "Features", "#", :id=>'featureslink' %></li>
-    <li><%= link_to "About Us", "#", :id=>'aboutlink' %></li>
-    <li><%= link_to "Sign In", "#", :id=>'signinlink' %></li>
   <% end %>
   </ul>
 </nav>

@@ -17,6 +17,9 @@ module ApplicationHelper
     return "" if @container_height.nil?
     return "style=height:#{@container_height}px;"
   end
+  def fastnav?
+    !@fastnav.nil?
+  end
 
   def adderror(string)
     if flash[:errors].nil?

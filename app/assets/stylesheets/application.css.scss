@@ -120,7 +120,7 @@ nav {
   ul {
     text-align: center;
     margin: 0;
-    padding: 5px 0px;
+    padding:0;
     overflow: hidden;
   }
   li {
@@ -131,18 +131,26 @@ nav {
     color:$navlink;
     text-decoration: none;
     display: block;
-    width: 152px;
+    //width: 152px; // for 4 nav links
+    width: 184px;
+    border-left:2px solid black;
+    border-right:2px solid black;
     font-family: "SketchRockwell";
     font-size: 1.75em;
-    padding: 4px;
-    &:hover {
-      color: $navlink;
-      //font-weight: bold;
-      font-size: 1.9em;
-    }
+    padding: 9px 4px;
+    //&:hover {
+    //  color: $navlink;
+    //  //font-weight: bold;
+    //  font-size: 1.9em;
+    //}
     &:visited {
       color: $navlink;
     }
+  }
+  a.selected {
+    font-size:1.9em;
+    //@include gradient(#262632, #74748e);
+    @include gradient(#1b1b32, #58588e);
   }
   
 }
@@ -250,7 +258,7 @@ h1 {
   text-decoration:none;
   font-family: "SketchRockwell";
   font-size:2.5em;
-  font-weight:none;
+  font-style:normal;
   text-align:center;
   color: $graphite;
 }

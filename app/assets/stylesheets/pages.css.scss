@@ -31,17 +31,15 @@ $graphite: #503214;
   
   .text {
     font-size:1em;
-    width:625px;
+    width:525px;
     padding:10px 0;
     float:left;
-    .why {
-    }
   }
 }
 
 .column {
   float:left;
-  width:400px;
+  width:50%
 }
 .feature {
   padding:10px;
@@ -75,6 +73,14 @@ $graphite: #503214;
   border:2px solid orange;
 }
 
+#emailinfo {
+  float:left;
+  width:60%;
+}
+#mailinfo {
+  float:left;
+  width:40%;
+}
 .contactinfo {
   @include rounded-corners(5px);
   border: 2px solid $graphite;
@@ -91,4 +97,37 @@ $graphite: #503214;
     float:left;
     width:100px;
   }
+}
+
+#aboutnav {
+  position:relative;
+  left:-10px;
+  top:10px;
+  float:left;
+  @include rounded-corners(5px);
+  border: 2px solid $graphite;
+  margin:0px;
+  div {
+    width:60px;
+    padding:5px 10px;
+  }
+  .selected {
+    color:white;
+    background-color:$graphite;
+  }
+}
+#aboutcontent {
+  float:left;
+  width:670px;
+}
+.logo {
+  color:$graphite;
+  text-align:center;
+  text-decoration: none;
+  display: block;
+  font-family: "SketchRockwell";
+  border: 0;
+  padding: 4px;
+  margin-bottom:12px;
+  font-size: 3em;
 }

@@ -31,7 +31,6 @@
 $(function() {
   // global drawing variables
   var canvas = $('#canvas')[0];
-  if(canvas === undefined) { return 0; }
   var shapesDisp = $('#shapes');
   var messageDisp = $('#message');
   var context = canvas.getContext('2d');
@@ -39,6 +38,12 @@ $(function() {
   var mousey;         // global mouse position y coord
   var downx;          // x coord where the click started
   var downy;          // y coord where the click started
+
+  var nextLineNo = 1;   // lines and circles will be given names like l1, l2 - these indicat the number
+  var nextCircleNo = 1;
+  var startLineNo = 1;  // starting number - set by getStartShapes
+  var startCircleNo = 1;
+  var COLORS = ["green", "blue", "purple", "red", "orange", "yellow"]
 
   // state information
   var PROTRACTOR = 0;
@@ -48,11 +53,6 @@ $(function() {
   var BLANK      = 4;
   var state;          // determines mousedown/up/move effects of canvas - currently represents either
   //  protractor, compass, ruler, or line drawing
-
-  // shape informtion
-  var CIRCLE = 1;
-  //var LINE = 3; yeah I'm doubling down on this constant, see above definition
-  //    
 
   var startShapes = []; // will contain the starting shapes that are not to be deleated on clear()
   var shapes = [];      // will hold the current list of shapes - reset to startShapes on clear()
@@ -79,7 +79,7 @@ $(function() {
     }
 
     //writeMessage(message);
-    writeShapes();
+    //writeShapes();
   }
 
   function setMouseXY(e) {
@@ -99,10 +99,13 @@ $(function() {
   function writeShapes(){
     var s = "";
     var hidden_s = "";
+    var color_i = 0;
     for(var i = 0; i < shapes.length; i++) {
-      //context.fillText(shapes[i].toString(), (canvas.width-200), (130 + 20 * i));
       if(!shapes[i].hidden) {
-        s += "<p>" + shapes[i] + "</p>\n";
+        //if(i == startShapes.length) { s += "<hl>" }
+        s += "<div class=shape style=\"background-color:"+COLORS[i]+";\" id=s_" + i + " >" 
+                + shapes[i] + 
+             "</div>\n";
         hidden_s += ","+shapes[i].encode();
       }
     }
@@ -110,16 +113,34 @@ $(function() {
     //  s += "<p>" + pointsOfInterest[i] + "</p>\n";
     //}
     shapesDisp.html(s);
-    // this is the output that will get passed to the actual question's correct?
     $('#geometry').attr('value', hidden_s.substr(1));
+
+    // add callbacks for colors
+    for(var i = 0; i < shapes.length; i++) {
+      if(!shapes[i].hidden) {
+        $('#s_'+i).mouseenter({i:i, color:COLORS[i]}, function(e) {
+          shapes[e.data.i].highlight(e.data.color);
+          redraw();
+        });
+        $('#s_'+i).mouseleave({i:i}, function(e) {
+          shapes[e.data.i].unhilight();
+          redraw();
+        });
+      }
+    }
+    
   }
   function getStartShapes(){
     startShapes = [];
     var s = $('#startshapes').attr('value');
     var a = s.split(',');
     for(var i = 0; i < a.length; i++) {
-      startShapes.push(decodeShape(a[i]));
+      addShape(decodeShape(a[i]));
     }
+
+    startLineNo = nextLineNo;
+    startCircleNo = nextCircleNo;
+    startShapes = shapes.slice(0);
     clear();
   }
 
@@ -286,14 +307,21 @@ $(function() {
     writeMessage("");
   }
 
-  function drawCircle(x, y, r) {
+  function drawCircle(x, y, r, color, width) {
+    if(color != undefined) { context.strokeStyle = color }
+    if(width != undefined) { context.lineWidth = width }
+    else { context.lineWidth = 1; }
+
     context.beginPath();
     context.arc(x, y, r, 0, (2.0 * Math.PI), false);
     context.closePath();
     context.stroke();
   }
 
-  function drawLine(x1,y1, x2, y2) {
+  function drawLine(x1,y1, x2, y2, color, width) {
+    if(color != undefined) { context.strokeStyle = color; }
+    if(width != undefined) { context.lineWidth = width }
+    else { context.lineWidth = 1; }
     context.beginPath();
     context.moveTo(x1,y1);
     context.lineTo(x2, y2);
@@ -339,6 +367,13 @@ $(function() {
     redraw();
   }
   function addShape(shape) {
+    if(shape instanceof Line){
+      nextLineNo++;
+    }
+    if(shape instanceof Circle){
+      nextCircleNo++;
+    }
+
     shapes.push(shape);
     updateShapePeriphery();
     return shapes.length;
@@ -348,6 +383,9 @@ $(function() {
     updateShapePeriphery();
   }
   function clear() {
+    nextLineNo = startLineNo;
+    nextCircleNo = startCircleNo;
+
     shapes = startShapes.slice(0);
     updateShapePeriphery();
   }
@@ -358,22 +396,31 @@ $(function() {
     this.y1 = y1;
     this.x2 = x2;
     this.y2 = y2;
+    this.num = nextLineNo;
+
     this.draw = function() {
-      drawLine(x1, y1, x2, y2);
+      drawLine(x1, y1, x2, y2, "black");
+    }
+    this.highlight = function(color) { 
+      this.draw = function() { drawLine(x1, y1, x2, y2, color, 3); }
+    }
+    this.unhilight = function() { 
+      this.draw = function() { drawLine(x1, y1, x2, y2, "black"); }
     }
     // TODO remove this - it is kind of a hack to make tracingLine work
     this.set_p2 = function(x, y){
       this.x2 = x;
       this.y2 = y;
       this.draw = function() {
-        drawLine(this.x1, this.y1, x, y);
+        drawLine(this.x1, this.y1, x, y, "black");
       }
     }
     this.underMouse = function() { 
       return false; 
     }
     this.toString = function() {
-      return "(Line from " + x1 + ", " + y1 + " to " + x2 + ", " + y2 + ")";
+      //return "(Line from " + x1 + ", " + y1 + " to " + x2 + ", " + y2 + ")";
+      return "L<sub>" + this.num + "</sub>"
     }
     this.encode = function() {
       return "line:"+this.x1+":"+this.y1+":"+this.x2+":"+this.y2;
@@ -390,14 +437,23 @@ $(function() {
     this.x = x;
     this.y = y;
     this.r = r;
+    this.num = nextCircleNo;
+
     this.draw = function() {
-      drawCircle(this.x, this.y, this.r);
+      drawCircle(this.x, this.y, this.r, "black");
+    }
+    this.highlight = function(color) {
+      this.draw = function() { drawCircle(this.x, this.y, this.r, color, 3); }
+    }
+    this.unhilight = function() {
+      this.draw = function() { drawCircle(this.x, this.y, this.r, "black", 1); }
     }
     this.underMouse = function() { 
       return insideCircle(this.x, this.y, this.r);
     }
     this.toString = function() {
-      return "(Circle " + x + ", " + y + ", " + r.toFixed(3) + ")"; //round of radius to 3 digs
+      //return "(Circle " + x + ", " + y + ", " + r.toFixed(3) + ")"; //round of radius to 3 digs
+      return "C<sub>"+this.num+"</sub>";
     }
     this.encode = function() {
       return "circle:"+this.x+":"+this.y+":"+this.r;
@@ -417,7 +473,12 @@ $(function() {
     this.active = false;
 
     this.mouseDist = function() {
-      return distance(this.x,this.y,mousex,mousey);
+      if(state == protState){
+        return distance(this.x, this.y, protractor.x, protractor.y);
+      }
+      else {
+        return distance(this.x,this.y,mousex,mousey);
+      }
     }
 
     this.toString = function() {
@@ -541,6 +602,9 @@ $(function() {
   // App State/Tool definitions
   //
   function setState(newstate) {
+    if(state == STATES[newstate]) { return; }
+    $('#tools div').removeClass("selected");
+    $(STATEIDS[newstate]).addClass("selected");
     if(!(typeof state === "undefined")){
       state.deactivate();
     }
@@ -607,23 +671,36 @@ $(function() {
     usingsetradius : false,
     minicircle_i : -1,
 
-    activate : function() {
-      $('#circlesize').attr("value", "");
+    useWrittenSize : function() {
+      $("#compass span").attr("style","");
+      $('#compass span').text("Compass R = " + Math.round(parseFloat($("#circlesize").attr("value")),2));
+      $('#circlesize').hide();
+    },
+    useMakeSize : function() {
+      $("#compass span").attr("style","border-right:2px solid black;");
+      $('#compass span').text("Compass");
       $('#circlesize').show();
+    },
+
+    activate : function() {
+      $('#usecirclesize').prop("checked", false);
+      $('#circlesize').attr("value", "");
       $('#usecirclesize').show();
+      this.useMakeSize();
     },
     deactivate : function() {
+      $(STATEIDS[COMPASS]+" span").attr("style","");
+      $("#compass span").text("Compass");
       $('#circlesize').hide();
       $('#usecirclesize').hide();
     },
-
     mousedown : function() {
       if(!this.usingSetRadius()) {
         this.mouse_is_down = true;
         tracingLine.start();
         var miniCircle = new Circle(mousex, mousey, 5);
         miniCircle.hidden = true;
-        this.minicircle_i = addShape(miniCircle);
+        this.minicircle_i = shapes.push(miniCircle);
       }
     },
     mouseup : function() {
@@ -748,6 +825,7 @@ $(function() {
 
   // array of state objects - each has at least 5 methods: activate, deactivate, mouseup, mousedown, mousemove 
   var STATES = [protState, compState, rulerState, lineState, blankState];
+  var STATEIDS = ["#protractor", "#compass", "#ruler", "#line", "#blank"]
 
   // a helper state for those which want a tracing line on mouse pushdown
   var tracingLine = {
@@ -796,14 +874,44 @@ $(function() {
     // activate interest points if we are close to them
     getActivePOIs();
     if(activePOI_i >= 0) {
-      mousex = pointsOfInterest[activePOI_i].x;
-      mousey = pointsOfInterest[activePOI_i].y;
+      if(state == protState) {
+        protractor.x = pointsOfInterest[activePOI_i].x;
+        protractor.y = pointsOfInterest[activePOI_i].y;
+      }
+      else {
+        mousex = pointsOfInterest[activePOI_i].x;
+        mousey = pointsOfInterest[activePOI_i].y;
+      }
     }
     state.mousemove();
   });
 
   $('#compass').click(function(){
     setState(COMPASS);
+  });
+
+  function validateCircleSize() {
+    var radius = parseFloat($('#circlesize').attr("value"));
+    if(isNaN(radius) || 0 >= radius) {
+      alert("The radius on the right needs to be a positive number!");
+      $('#usecirclesize').prop("checked", false);
+      return false;
+    }
+    if(radius > 500) {
+      alert("Hey, that's a pretty big radius.  I don't think it will fit on the screen");
+      $('#usecirclesize').prop("checked", false);
+      return false;
+    }
+    return true;
+  }
+  $('#usecirclesize').click(function() {
+    if($('#usecirclesize').prop("checked")){
+      if(validateCircleSize()){
+        compState.useWrittenSize();
+      }
+    } else {
+      compState.useMakeSize();
+    }
   });
 
   $('#protractor').click(function(){
@@ -837,4 +945,4 @@ $(function() {
   //alert(STATES[0].tool + ", " + STATES[1].tool);
   getStartShapes();
   setState(COMPASS);
-  });
+});
