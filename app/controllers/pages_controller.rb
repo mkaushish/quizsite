@@ -21,8 +21,9 @@ class PagesController < ApplicationController
     @title = "Team"
   end
 
-  def contact_us
+  def contact
     @title = "Contact"
+    @container_height = 475
   end
 
   def signinpage

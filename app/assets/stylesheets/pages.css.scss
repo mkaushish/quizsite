@@ -2,6 +2,7 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+$graphite: #503214;
 @mixin rounded-corners($radius) {
 	-moz-border-radius: $radius;
 	-webkit-border-radius: $radius;
@@ -72,4 +73,22 @@
 }
 .b_orange {
   border:2px solid orange;
+}
+
+.contactinfo {
+  @include rounded-corners(5px);
+  border: 2px solid $graphite;
+  padding:10px;
+  margin:10px;
+  h2 {
+    font-weight:none;
+    padding-bottom:5px;
+    font-size:1.3em;
+    margin:0 0 4px 0;
+    border-bottom:2px solid black;
+  }
+  .lcol {
+    float:left;
+    width:100px;
+  }
 }
