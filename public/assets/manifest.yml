@@ -60,3 +60,5 @@ jquery-ui.min.js: jquery-ui.min-0424e108178defa1cc794ee24fc92d24.js
 jquery.min.js: jquery.min-460459a37590253002f65e6137a90b87.js
 application.js: application-30b37963a09c0637ed2fa0d9e6e3f8a0.js
 application.css: application-5d6acc056fea9fd408efd6d9c23b05a1.css
+nondefault/drawtools.js: nondefault/drawtools-bf2f24154989d61af83a16c3ed226984.js
+nondefault/numberline.js: nondefault/numberline-e1509d4d2dfe96906d9460c4c8fb4a2c.js

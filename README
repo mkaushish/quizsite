@@ -18,6 +18,9 @@ The Process:
 
 NOTES:
 -------------------
+PUSHING TO HEROKU
+  * remember to precompile assets in master (see below)
+  * hope for the best...?
 
 PRECOMPILING ASSETS
   * add to precompiled assets in config/environments/production
