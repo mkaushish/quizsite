@@ -334,8 +334,16 @@
           fnarr.pop();
           redraw();
         });
+        function get_random_color() {
+          var letters = '0123456789ABCDEF'.split('');
+          var color = '#';
+          for (var i = 0; i < 6; i++ ) {
+            color += letters[Math.round(Math.random() * 15)];
+          }
+          return color;
+        }
         $('#function').click(function(){ 
-          var colour=["blue", "green", "yellow", "red"][fnarr.length % 4];
+          var colour=get_random_color();
           context.strokeStyle=colour;
           fnarr.push(new fn($('#circlesize').attr("value"), colour));
           context.strokeStyle="black";
@@ -467,12 +475,14 @@
               pos.push([q,Math.round(ypos)]);
             }
             ke=pos[0];  
+            ve=values[0];
             for(e=0; e<pos.length; e++){
-              if(distance(ke[0],ke[1],pos[e][0],pos[e][1]) < 50){
+              if(Math.abs(distance(ve[0],ve[1],values[e][0],values[e][1])) < 2*czoom){
                 drawLine(ke[0],ke[1],pos[e][0],pos[e][1]);
               }
               else {context.fillRect(pos[e][0],pos[e][1]);} 
               ke=pos[e];
+              ve=values[e];
             }    
           } 
           return [values, pos];
