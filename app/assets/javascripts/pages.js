@@ -1,12 +1,12 @@
 function startShow() {
-  setInterval("nextSlide()", 9000);
+  setInterval("nextSlide()", 1000);
 }
 
 function resetTimer(time) {
   if(time === undefined) { 
-    var time = 9;
+    var time = 6;
   }
-  $('#numsecs').text(time + '');
+  $('#slideTimer').text(time + '');
 }
 
 function nextSlide() {
@@ -20,18 +20,15 @@ function nextSlide() {
   //alert("switching to slide " + slideno);
   var nextslide = $('#slideshownav li').toArray()[slideno];
   if(!$(nextslide).hasClass("selected")) { $(nextslide).click(); }
-  $('#slideNo').text((slideno + 1) + '');
-  resetTimer();
 }
 
 function setSlide(num, sender) {
   $('#slideshownav li').removeClass();
   $(sender).addClass("selected");
-  //$('#slides').children().hide();
-  //$('#slide'+num).show();
   $('#slides').children().fadeOut();
   $('#slide'+num).fadeIn();
-  resetTimer;
+  $('#slideNo').text(num);
+  resetTimer();
 }
 
 function setPageFunc(name, height) {
