@@ -42,8 +42,8 @@ function setPageFunc(name, height) {
 }
 
 var goHome = setPageFunc('home', 510);
-var goFeatures = setPageFunc('features', 510);
-var goAbout = setPageFunc('about', 510);
+var goFeatures = setPageFunc('features', 900);
+var goAbout = setPageFunc('about', 525);
 var goSignin = setPageFunc('signin', 510);
 
 var homeOnLoad = function(pagename) {
