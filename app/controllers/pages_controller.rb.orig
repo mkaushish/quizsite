@@ -21,9 +21,8 @@ class PagesController < ApplicationController
     @title = "Team"
   end
 
-  def contact
+  def contact_us
     @title = "Contact"
-    @container_height = 475
   end
 
   def signinpage
@@ -35,9 +34,13 @@ class PagesController < ApplicationController
     @title = "Number Line"
   end
 
+<<<<<<< HEAD
+=======
   def numberline
    @title='Number Line' 
   end
+  # TEMPORARY/TESTING PAGES
+>>>>>>> 71d28dc05a5e296086f8c4171e4633a5477efd17
   def draw
     @title = "Draw"
     @container_height = 475

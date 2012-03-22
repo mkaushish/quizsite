@@ -92,21 +92,19 @@ body {
 }
 
 #logo {
+  color:$graphite;
+  text-align:center;
   text-decoration: none;
   display: block;
   font-family: "SketchRockwell";
   border: 0;
-  margin: 4px;
+  padding: 4px;
+  margin-bottom:12px;
   font-size: 3em;
-  &:hover {
-    border: 0;
-    color: black;
-  }
 }
 #sitetitle {
   width: 800px;
   margin-bottom: 12px;
-  text-align: center;
 }
 
 $navlink: #c1c1d8;
@@ -229,6 +227,7 @@ nav {
 }
 
 /*}}}*/
+
 a {
   color: $graphite;
   border-color: transparent;
@@ -238,6 +237,22 @@ a {
   &:visited {
     color: $graphite;
   }
+}
+
+p.desc {
+  font-size:1.25em;
+  padding-bottom:4px;
+  text-align:justify;
+}
+
+h1 {
+  margin:0;
+  text-decoration:none;
+  font-family: "SketchRockwell";
+  font-size:2.5em;
+  font-weight:none;
+  text-align:center;
+  color: $graphite;
 }
 
 ul {
