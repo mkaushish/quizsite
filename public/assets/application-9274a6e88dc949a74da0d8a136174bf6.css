@@ -1,0 +1,855 @@
+/*
+ * This is a manifest file that'll automatically include all the stylesheets available in this directory
+ * and any sub-directories. You're free to add application-wide styles to this file and they'll appear at
+ * the top of the compiled file, but it's generally better to create a new file per style scope.
+*/
+/* Varables {{{ */
+@font-face {
+  font-family: "SketchRockwell";
+  src: url("handwriting/SketchRockwell-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "NeverSayNever";
+  src: url("handwriting/NeverSayNever.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "QarmicSans";
+  src: url("handwriting/Qarmic_sans_Abridged.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Latine";
+  src: url("serif/Latine.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "GentiumBook";
+  src: url("serif/GenBkBasR.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Romanuni";
+  src: url("serif/romanuni.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Symbola";
+  src: url("serif/Symbola.otf");
+}
+
+/* }}} */
+/* Layout ID's {{{ */
+/* line 72, /home/thomas/Workspace/smartergrades/quizsite/app/assets/stylesheets/application.css.scss */
+body {
+  font-family: "Latine";
+  line-height: 160%;
+  font-size: 0.85em;
+  margin: 0px;
+}
+
+/* line 81, /home/thomas/Workspace/smartergrades/quizsite/app/assets/stylesheets/application.css.scss */
+#container {
+  position: relative;
+  bottom: 7px;
+  -moz-box-shadow: 5px -2px 5px 0px black;
+  -webkit-box-shadow: 5px -2px 5px 0px black;
+  box-shadow: 5px -2px 5px 0px black;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("lightgraphpapertile.png");
+  background-repeat: repeat;
+  padding: 25px 25px 0;
+}
+
+/* line 93, /home/thomas/Workspace/smartergrades/quizsite/app/assets/stylesheets/application.css.scss */
+#logo {
+  color: #503214;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-family: "SketchRockwell";
+  border: 0;
+  padding: 4px;
+  margin-bottom: 12px;
+  font-size: 3em;
+}
+
+/* line 104, /home/thomas/Workspace/smartergrades/quizsite/app/assets/stylesheets/application.css.scss */
+#sitetitle {
+  width: 800px;
+  margin-bottom: 12px;
+}
+
+/* line 110, /home/thomas/Workspace/smartergrades/quizsite/app/assets/stylesheets/application.css.scss */
+#nav {
+  background-color: #74748e;
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='ie-hex-str(#262632)', endColorstr='ie-hex-str(#74748e)');";
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='ie-hex-str(#262632)', endColorstr='ie-hex-str(#74748e)');
+  zoom: 1;
+  background: -webkit-gradient(linear, left top, left bottom, from(#262632), to(#74748e));
+  background: -moz-linear-gradient(top, #262632, #74748e);
+  border-bottom: 2px solid black;
+}
+
+/* line 114, /home/thomas/Workspace/smartergrades/quizsite/app/assets/stylesheets/application.css.scss */
+nav {
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+  height: 42px;
+}
+/* line 119, /home/thomas/Workspace/smartergrades/quizsite/app/assets/stylesheets/application.css.scss */
+nav ul {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+/* line 125, /home/thomas/Workspace/smartergrades/quizsite/app/assets/stylesheets/application.css.scss */
+nav li {
+  float: left;
+}
+/* line 129, /home/thomas/Workspace/smartergrades/quizsite/app/assets/stylesheets/application.css.scss */
+nav a {
+  color: #c1c1d8;
+  text-decoration: none;
+  display: block;
+  width: 184px;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  font-family: "SketchRockwell";
+  font-size: 1.75em;
+  padding: 9px 4px;
+}
+/* line 145, /home/thomas/Workspace/smartergrades/quizsite/app/assets/stylesheets/application.css.scss */
+nav a:visited {
+  color: #c1c1d8;
+}
+/* line 149, /home/thomas/Workspace/smartergrades/quizsite/app/assets/stylesheets/application.css.scss */
+nav a.selected {
+  font-size: 1.9em;
+  background-color: #58588e;
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='ie-hex-str(#1b1b32)', endColorstr='ie-hex-str(#58588e)');";
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='ie-hex-str(#1b1b32)', endColorstr='ie-hex-str(#58588e)');
+  zoom: 1;
+  background: -webkit-gradient(linear, left top, left bottom, from(#1b1b32), to(#58588e));
+  background: -moz-linear-gradient(top, #1b1b32, #58588e);
+}
+
+/* }}} */
+/* Homepage stuff {{{ */
+/* line 160, /home/thomas/Workspace/smartergrades/quizsite/app/assets/stylesheets/application.css.scss */
+#homedescription {
+  font-family: Latine;
+  font-size: 1.15em;
+  float: left;
+  width: 440px;
+  margin: 10px;
+  text-indent: 20px;
+  text-align: justify;
+  padding: 5px;
+}
+
+/* line 171, /home/thomas/Workspace/smartergrades/quizsite/app/assets/stylesheets/application.css.scss */
+#slideshow {
+  background-color: white;
+  line-height: 0;
+  float: left;
+  width: 450px;
+  margin: 10px 10px 0px 10px;
+  border: 2px solid black;
+  padding: 0px;
+  position: absolute;
+  left: 500px;
+  top: 115px;
+  height: 366px;
+  /*.selected {
+    
+    background-color:green;
+  }*/
+}
+/* line 182, /home/thomas/Workspace/smartergrades/quizsite/app/assets/stylesheets/application.css.scss */
+#slideshow img {
+  width: 450px;
+  height: 260px;
+  margin: 0px;
+}
+/* line 188, /home/thomas/Workspace/smartergrades/quizsite/app/assets/stylesheets/application.css.scss */
+#slideshow #slides div {
+  position: absolute;
+}
+/* line 192, /home/thomas/Workspace/smartergrades/quizsite/app/assets/stylesheets/application.css.scss */
+#slideshow #slideshownav {
+  position: absolute;
+  top: 340px;
+  margin: 0;
+  padding: 0;
+  width: 450px;
+}
+/* line 198, /home/thomas/Workspace/smartergrades/quizsite/app/assets/stylesheets/application.css.scss */
+#slideshow .slide_description {
+  top: 260px;
+  padding: 5px;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  line-height: 160%;
+  margin: 0px;
+  width: 440px;
+  height: 66px;
+  background-color: white;
+}
+/* line 209, /home/thomas/Workspace/smartergrades/quizsite/app/assets/stylesheets/application.css.scss */
+#slideshow li {
+  font-size: 1.25em;
+  height: 20px;
+  width: 142px;
+  padding: 3px;
+  border-right: 2px solid black;
+  text-align: center;
+  line-height: 100%;
+  float: left;
+  margin: 0;
+}
+/* line 221, /home/thomas/Workspace/smartergrades/quizsite/app/assets/stylesheets/application.css.scss */
+#slideshow #slideshownav1.selected {
+  background-color: #b8daec;
+}
+/* line 224, /home/thomas/Workspace/smartergrades/quizsite/app/assets/stylesheets/application.css.scss */
+#slideshow #slideshownav2.selected {
+  background-color: #f19e49;
+}
+/* line 227, /home/thomas/Workspace/smartergrades/quizsite/app/assets/stylesheets/application.css.scss */
+#slideshow #slideshownav3.selected {
+  background-color: #7e65cf;
+}
+
+/*}}}*/
+/* line 238, /home/thomas/Workspace/smartergrades/quizsite/app/assets/stylesheets/application.css.scss */
+a {
+  color: #503214;
+  border-color: transparent;
+}
+/* line 241, /home/thomas/Workspace/smartergrades/quizsite/app/assets/stylesheets/application.css.scss */
+a:hover {
+  color: black;
+}
+/* line 244, /home/thomas/Workspace/smartergrades/quizsite/app/assets/stylesheets/application.css.scss */
+a:visited {
+  color: #503214;
+}
+
+/* line 249, /home/thomas/Workspace/smartergrades/quizsite/app/assets/stylesheets/application.css.scss */
+p.desc {
+  font-size: 1.25em;
+  padding-bottom: 4px;
+  text-align: justify;
+}
+
+/* line 255, /home/thomas/Workspace/smartergrades/quizsite/app/assets/stylesheets/application.css.scss */
+h1 {
+  margin: 0;
+  text-decoration: none;
+  font-family: "SketchRockwell";
+  font-size: 2.5em;
+  font-style: normal;
+  text-align: center;
+  color: #503214;
+}
+
+/* line 265, /home/thomas/Workspace/smartergrades/quizsite/app/assets/stylesheets/application.css.scss */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+/* line 272, /home/thomas/Workspace/smartergrades/quizsite/app/assets/stylesheets/application.css.scss */
+input[type="text"] {
+  border-style: solid;
+  border-color: #503214;
+  color: #503214;
+  background: white;
+  padding-left: 1px;
+  margin: 0;
+}
+
+/* line 281, /home/thomas/Workspace/smartergrades/quizsite/app/assets/stylesheets/application.css.scss */
+input[type="password"] {
+  border-style: solid;
+  border-color: #503214;
+  color: #503214;
+  background: white;
+  padding-left: 1px;
+  margin: 0;
+}
+
+/* line 290, /home/thomas/Workspace/smartergrades/quizsite/app/assets/stylesheets/application.css.scss */
+input[type="submit"] {
+  margin: 2px;
+  padding: 3px;
+}
+
+/* }}} */
+/* Common Classes {{{ */
+/* line 300, /home/thomas/Workspace/smartergrades/quizsite/app/assets/stylesheets/application.css.scss */
+.explanation {
+  float: left;
+}
+
+/* line 304, /home/thomas/Workspace/smartergrades/quizsite/app/assets/stylesheets/application.css.scss */
+.fraction {
+  height: 70px;
+  margin: 7px 15px;
+}
+/* line 307, /home/thomas/Workspace/smartergrades/quizsite/app/assets/stylesheets/application.css.scss */
+.fraction input {
+  width: 50px;
+}
+/* line 311, /home/thomas/Workspace/smartergrades/quizsite/app/assets/stylesheets/application.css.scss */
+.fraction .intpart {
+  text-align: right;
+  padding-right: 5px;
+  height: 45px;
+  padding: 25px 5px 0;
+  float: left;
+}
+/* line 318, /home/thomas/Workspace/smartergrades/quizsite/app/assets/stylesheets/application.css.scss */
+.fraction .intpartInput {
+  text-align: right;
+  height: 52px;
+  padding: 18px 5px 0;
+  float: left;
+}
+/* line 325, /home/thomas/Workspace/smartergrades/quizsite/app/assets/stylesheets/application.css.scss */
+.fraction .quotient {
+  margin: 0px;
+  height: 70px;
+  float: left;
+}
+/* line 330, /home/thomas/Workspace/smartergrades/quizsite/app/assets/stylesheets/application.css.scss */
+.fraction .quotient .numerator {
+  text-align: center;
+  height: 24px;
+  border-bottom: 2px solid black;
+  padding: 9px 5px 0px;
+  /* 0 top, 5 left and right, 5 bottom */
+}
+/* line 336, /home/thomas/Workspace/smartergrades/quizsite/app/assets/stylesheets/application.css.scss */
+.fraction .quotient .numeratorInput {
+  text-align: center;
+  height: 28px;
+  border-bottom: 2px solid black;
+  padding: 0px 5px 5px;
+  /* 0 top, 5 left and right, 5 bottom */
+}
+/* line 343, /home/thomas/Workspace/smartergrades/quizsite/app/assets/stylesheets/application.css.scss */
+.fraction .quotient .denominator {
+  text-align: center;
+  height: 30px;
+  padding: 5px 5px 0px;
+  /* 5 top, 5 left and right, 0 bottom */
+}
+/* line 348, /home/thomas/Workspace/smartergrades/quizsite/app/assets/stylesheets/application.css.scss */
+.fraction .quotient .denominatorInput {
+  text-align: center;
+  height: 30px;
+  padding: 2px 5px 3px;
+  /* 2 top, 5 left and right, 3 bottom */
+}
+
+/* line 356, /home/thomas/Workspace/smartergrades/quizsite/app/assets/stylesheets/application.css.scss */
+.correct {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  /* future proofing */
+  -khtml-border-radius: 5px;
+  /* for old Konqueror browsers */
+  padding: 3px;
+  border: 2px solid green;
+}
+
+/* line 362, /home/thomas/Workspace/smartergrades/quizsite/app/assets/stylesheets/application.css.scss */
+.incorrect {
+  border: 2px solid red;
+}
+
+/* }}} */
+/* PScore colors {{{ */
+/* line 368, /home/thomas/Workspace/smartergrades/quizsite/app/assets/stylesheets/application.css.scss */
+.pscore_95 {
+  background-color: #04e504;
+}
+
+/* line 371, /home/thomas/Workspace/smartergrades/quizsite/app/assets/stylesheets/application.css.scss */
+.pscore_90 {
+  background-color: #0a5f0a;
+}
+
+/* line 374, /home/thomas/Workspace/smartergrades/quizsite/app/assets/stylesheets/application.css.scss */
+.pscore_80 {
+  background-color: #325f0a;
+}
+
+/* line 377, /home/thomas/Workspace/smartergrades/quizsite/app/assets/stylesheets/application.css.scss */
+.pscore_70 {
+  background-color: #676818;
+}
+
+/* line 380, /home/thomas/Workspace/smartergrades/quizsite/app/assets/stylesheets/application.css.scss */
+.pscore_60 {
+  background-color: #685018;
+}
+
+/* line 383, /home/thomas/Workspace/smartergrades/quizsite/app/assets/stylesheets/application.css.scss */
+.pscore_35 {
+  background-color: #883004;
+}
+
+/* line 386, /home/thomas/Workspace/smartergrades/quizsite/app/assets/stylesheets/application.css.scss */
+.pscore_0 {
+  background-color: #880420;
+}
+
+/* }}} */
+/* Less common ID's {{{ */
+/* line 393, /home/thomas/Workspace/smartergrades/quizsite/app/assets/stylesheets/application.css.scss */
+#canvas {
+  border: 2px solid black;
+  float: left;
+  width: 550;
+  height: 400;
+}
+
+/* line 400, /home/thomas/Workspace/smartergrades/quizsite/app/assets/stylesheets/application.css.scss */
+#shapes {
+  margin-left: 10px;
+  float: left;
+  width: 240;
+  height: 400;
+}
+
+/* }}} */
+/* line 9, /home/thomas/Workspace/smartergrades/quizsite/app/assets/stylesheets/draw.css.scss */
+#shapes div {
+  width: 100px;
+  padding: 2px;
+  margin: 5px;
+  text-align: center;
+  font-style: italic;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  /* future proofing */
+  -khtml-border-radius: 10px;
+  /* for old Konqueror browsers */
+}
+
+/* line 19, /home/thomas/Workspace/smartergrades/quizsite/app/assets/stylesheets/draw.css.scss */
+#tools div {
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  /* future proofing */
+  -khtml-border-radius: 10px;
+  /* for old Konqueror browsers */
+  float: left;
+  margin: 5px;
+  padding: 7px;
+  border: 2px solid #503214;
+  height: 30px;
+}
+/* line 26, /home/thomas/Workspace/smartergrades/quizsite/app/assets/stylesheets/draw.css.scss */
+#tools div span {
+  padding: 4px 7px 4px 7px;
+}
+/* line 29, /home/thomas/Workspace/smartergrades/quizsite/app/assets/stylesheets/draw.css.scss */
+#tools div input[type="checkbox"] {
+  position: relative;
+  top: 3px;
+}
+/* line 35, /home/thomas/Workspace/smartergrades/quizsite/app/assets/stylesheets/draw.css.scss */
+#tools .selected {
+  background-color: #503214;
+  color: white;
+}
+/* line 13, /home/thomas/Workspace/smartergrades/quizsite/app/assets/stylesheets/pages.css.scss */
+.teammember {
+  clear: left;
+}
+/* line 15, /home/thomas/Workspace/smartergrades/quizsite/app/assets/stylesheets/pages.css.scss */
+.teammember .info {
+  padding: 10px 20px 10px 0;
+  float: left;
+}
+/* line 18, /home/thomas/Workspace/smartergrades/quizsite/app/assets/stylesheets/pages.css.scss */
+.teammember .info img {
+  width: 125px;
+  height: 125px;
+}
+/* line 24, /home/thomas/Workspace/smartergrades/quizsite/app/assets/stylesheets/pages.css.scss */
+.teammember .name {
+  border-bottom: 2px solid black;
+  height: 20px;
+  margin-right: 20px;
+  font-size: 1.20em;
+  padding: 3px;
+}
+/* line 32, /home/thomas/Workspace/smartergrades/quizsite/app/assets/stylesheets/pages.css.scss */
+.teammember .text {
+  font-size: 1em;
+  width: 525px;
+  padding: 10px 0;
+  float: left;
+}
+
+/* line 40, /home/thomas/Workspace/smartergrades/quizsite/app/assets/stylesheets/pages.css.scss */
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* line 44, /home/thomas/Workspace/smartergrades/quizsite/app/assets/stylesheets/pages.css.scss */
+.feature {
+  padding: 10px;
+  margin: 10px 10px 20px 10px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  /* future proofing */
+  -khtml-border-radius: 5px;
+  /* for old Konqueror browsers */
+}
+/* line 48, /home/thomas/Workspace/smartergrades/quizsite/app/assets/stylesheets/pages.css.scss */
+.feature h2 {
+  font-weight: none;
+  padding-bottom: 5px;
+  font-size: 1.3em;
+  margin: 0px;
+  border-bottom: 2px solid black;
+}
+/* line 55, /home/thomas/Workspace/smartergrades/quizsite/app/assets/stylesheets/pages.css.scss */
+.feature p {
+  margin: 10px 0 0 0;
+  text-align: justify;
+}
+
+/* line 60, /home/thomas/Workspace/smartergrades/quizsite/app/assets/stylesheets/pages.css.scss */
+.b_green {
+  border: 2px solid green;
+}
+
+/* line 63, /home/thomas/Workspace/smartergrades/quizsite/app/assets/stylesheets/pages.css.scss */
+.b_red {
+  border: 2px solid red;
+}
+
+/* line 66, /home/thomas/Workspace/smartergrades/quizsite/app/assets/stylesheets/pages.css.scss */
+.b_blue {
+  border: 2px solid blue;
+}
+
+/* line 69, /home/thomas/Workspace/smartergrades/quizsite/app/assets/stylesheets/pages.css.scss */
+.b_yellow {
+  border: 2px solid yellow;
+}
+
+/* line 72, /home/thomas/Workspace/smartergrades/quizsite/app/assets/stylesheets/pages.css.scss */
+.b_orange {
+  border: 2px solid orange;
+}
+
+/* line 76, /home/thomas/Workspace/smartergrades/quizsite/app/assets/stylesheets/pages.css.scss */
+#emailinfo {
+  float: left;
+  width: 60%;
+}
+
+/* line 80, /home/thomas/Workspace/smartergrades/quizsite/app/assets/stylesheets/pages.css.scss */
+#mailinfo {
+  float: left;
+  width: 40%;
+}
+
+/* line 84, /home/thomas/Workspace/smartergrades/quizsite/app/assets/stylesheets/pages.css.scss */
+.contactinfo {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  /* future proofing */
+  -khtml-border-radius: 5px;
+  /* for old Konqueror browsers */
+  border: 2px solid #503214;
+  padding: 10px;
+  margin: 10px;
+}
+/* line 89, /home/thomas/Workspace/smartergrades/quizsite/app/assets/stylesheets/pages.css.scss */
+.contactinfo h2 {
+  font-weight: none;
+  padding-bottom: 5px;
+  font-size: 1.3em;
+  margin: 0 0 4px 0;
+  border-bottom: 2px solid black;
+}
+/* line 96, /home/thomas/Workspace/smartergrades/quizsite/app/assets/stylesheets/pages.css.scss */
+.contactinfo .lcol {
+  float: left;
+  width: 100px;
+}
+
+/* line 102, /home/thomas/Workspace/smartergrades/quizsite/app/assets/stylesheets/pages.css.scss */
+#aboutnav {
+  position: relative;
+  left: -10px;
+  top: 10px;
+  float: left;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  /* future proofing */
+  -khtml-border-radius: 5px;
+  /* for old Konqueror browsers */
+  border: 2px solid #503214;
+  margin: 0px;
+}
+/* line 110, /home/thomas/Workspace/smartergrades/quizsite/app/assets/stylesheets/pages.css.scss */
+#aboutnav div {
+  width: 60px;
+  padding: 5px 10px;
+}
+/* line 114, /home/thomas/Workspace/smartergrades/quizsite/app/assets/stylesheets/pages.css.scss */
+#aboutnav .selected {
+  color: white;
+  background-color: #503214;
+}
+
+/* line 119, /home/thomas/Workspace/smartergrades/quizsite/app/assets/stylesheets/pages.css.scss */
+#aboutcontent {
+  float: left;
+  width: 670px;
+}
+
+/* line 123, /home/thomas/Workspace/smartergrades/quizsite/app/assets/stylesheets/pages.css.scss */
+.logo {
+  color: #503214;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-family: "SketchRockwell";
+  border: 0;
+  padding: 4px;
+  margin-bottom: 12px;
+  font-size: 3em;
+}
+/* line 4, /home/thomas/Workspace/smartergrades/quizsite/app/assets/stylesheets/problem.css.scss */
+.explanation {
+  width: 800px;
+}
+/* line 14, /home/thomas/Workspace/smartergrades/quizsite/app/assets/stylesheets/problemanswers.css.scss */
+#quizname {
+  font-size: 2em;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+/* line 22, /home/thomas/Workspace/smartergrades/quizsite/app/assets/stylesheets/problemanswers.css.scss */
+#quizheader {
+  padding: 10px;
+  font-size: 1.3em;
+}
+
+/* line 27, /home/thomas/Workspace/smartergrades/quizsite/app/assets/stylesheets/problemanswers.css.scss */
+#quiz {
+  padding: 10px;
+  width: 450px;
+  border: 2px solid #503214;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  /* future proofing */
+  -khtml-border-radius: 5px;
+  /* for old Konqueror browsers */
+}
+/* line 32, /home/thomas/Workspace/smartergrades/quizsite/app/assets/stylesheets/problemanswers.css.scss */
+#quiz form {
+  padding: 10px;
+}
+/* line 5, /home/thomas/Workspace/smartergrades/quizsite/app/assets/stylesheets/sessions.css.scss */
+form.signin {
+  margin-right: auto;
+  margin-left: auto;
+  width: 500px;
+}
+/* line 9, /home/thomas/Workspace/smartergrades/quizsite/app/assets/stylesheets/sessions.css.scss */
+form.signin .field {
+  float: left;
+}
+/* line 11, /home/thomas/Workspace/smartergrades/quizsite/app/assets/stylesheets/sessions.css.scss */
+form.signin .field input {
+  float: left;
+  width: 167px;
+  margin: 5px;
+}
+/* line 17, /home/thomas/Workspace/smartergrades/quizsite/app/assets/stylesheets/sessions.css.scss */
+form.signin .actions {
+  float: left;
+}
+/* line 19, /home/thomas/Workspace/smartergrades/quizsite/app/assets/stylesheets/sessions.css.scss */
+form.signin .actions input {
+  text-align: center;
+  float: left;
+  width: 63px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+/* line 29, /home/thomas/Workspace/smartergrades/quizsite/app/assets/stylesheets/sessions.css.scss */
+.break {
+  clear: left;
+}
+/* line 25, /home/thomas/Workspace/smartergrades/quizsite/app/assets/stylesheets/users.css.scss */
+#problemhist {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  /* future proofing */
+  -khtml-border-radius: 5px;
+  /* for old Konqueror browsers */
+  float: right;
+  width: 230px;
+  border: 2px solid #503214;
+  padding: 5px 15px;
+}
+/* line 31, /home/thomas/Workspace/smartergrades/quizsite/app/assets/stylesheets/users.css.scss */
+#problemhist h2 {
+  width: 200px;
+  text-align: center;
+}
+/* line 36, /home/thomas/Workspace/smartergrades/quizsite/app/assets/stylesheets/users.css.scss */
+#problemhist div a {
+  float: left;
+  text-decoration: none;
+  width: 200px;
+  display: block;
+}
+/* line 42, /home/thomas/Workspace/smartergrades/quizsite/app/assets/stylesheets/users.css.scss */
+#problemhist div img {
+  float: left;
+}
+
+/* line 48, /home/thomas/Workspace/smartergrades/quizsite/app/assets/stylesheets/users.css.scss */
+#stats {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  /* future proofing */
+  -khtml-border-radius: 5px;
+  /* for old Konqueror browsers */
+  border: 2px solid #503214;
+  width: 500px;
+}
+/* line 52, /home/thomas/Workspace/smartergrades/quizsite/app/assets/stylesheets/users.css.scss */
+#stats #quizzes {
+  margin-top: 10px;
+  font-size: 1.25em;
+}
+/* line 55, /home/thomas/Workspace/smartergrades/quizsite/app/assets/stylesheets/users.css.scss */
+#stats #quizzes li.unselected {
+  background-color: #503214;
+  color: white;
+  margin: 0px 10px;
+  padding: 2px 10px;
+  width: 100px;
+  float: left;
+  text-align: center;
+  -moz-border-radius-topleft: 8px;
+  -webkit-border-top-left-radius: 8px;
+  border-top-left-radius: 8px;
+  /* future proofing */
+  -khtml-border-radius-topleft: 8px;
+  /* for old Konqueror browsers */
+  -moz-border-radius-topright: 8px;
+  -webkit-border-top-right-radius: 8px;
+  border-top-right-radius: 8px;
+  /* future proofing */
+  -khtml-border-radius-topright: 8px;
+  /* for old Konqueror browsers */
+}
+/* line 65, /home/thomas/Workspace/smartergrades/quizsite/app/assets/stylesheets/users.css.scss */
+#stats #quizzes li.selected {
+  background-color: #222222;
+  color: white;
+  margin: 0px 10px;
+  padding: 2px 10px;
+  width: 100px;
+  float: left;
+  text-align: center;
+  -moz-border-radius-topleft: 8px;
+  -webkit-border-top-left-radius: 8px;
+  border-top-left-radius: 8px;
+  /* future proofing */
+  -khtml-border-radius-topleft: 8px;
+  /* for old Konqueror browsers */
+  -moz-border-radius-topright: 8px;
+  -webkit-border-top-right-radius: 8px;
+  border-top-right-radius: 8px;
+  /* future proofing */
+  -khtml-border-radius-topright: 8px;
+  /* for old Konqueror browsers */
+}
+/* line 77, /home/thomas/Workspace/smartergrades/quizsite/app/assets/stylesheets/users.css.scss */
+#stats #problemscores {
+  border-top: 2px solid black;
+  margin: 0px 10px;
+}
+/* line 80, /home/thomas/Workspace/smartergrades/quizsite/app/assets/stylesheets/users.css.scss */
+#stats #problemscores ul {
+  margin: 10px;
+}
+/* line 83, /home/thomas/Workspace/smartergrades/quizsite/app/assets/stylesheets/users.css.scss */
+#stats #problemscores li {
+  font-size: 1.25em;
+  padding: 5px;
+}
+/* line 86, /home/thomas/Workspace/smartergrades/quizsite/app/assets/stylesheets/users.css.scss */
+#stats #problemscores li div {
+  float: right;
+}
+
+/* line 93, /home/thomas/Workspace/smartergrades/quizsite/app/assets/stylesheets/users.css.scss */
+#pscore {
+  color: white;
+  margin-top: 5px;
+  font-size: 1.35em;
+  padding: 5px;
+  text-align: center;
+  height: 25px;
+  width: 460px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  /* future proofing */
+  -khtml-border-radius: 5px;
+  /* for old Konqueror browsers */
+}
+
+/* line 104, /home/thomas/Workspace/smartergrades/quizsite/app/assets/stylesheets/users.css.scss */
+.pscore {
+  text-align: center;
+  padding: 5px;
+  width: 50px;
+  height: 20px;
+  color: white;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  /* future proofing */
+  -khtml-border-radius: 5px;
+  /* for old Konqueror browsers */
+}
