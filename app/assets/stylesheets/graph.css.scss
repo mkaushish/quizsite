@@ -1,0 +1,21 @@
+
+@mixin rounded-corners($radius) {
+	-moz-border-radius: $radius;
+	-webkit-border-radius: $radius;
+	border-radius: $radius; /* future proofing */
+	-khtml-border-radius: $radius; /* for old Konqueror browsers */
+}
+#curves {
+  float:left;
+  div {
+    width:100px;
+    padding:2px;
+    margin:5px;
+    text-align:center;
+    font-style:italic;
+    @include rounded-corners(10px);
+  }
+}
+#commands {
+  float:left;
+}

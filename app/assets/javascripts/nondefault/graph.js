@@ -1,8 +1,11 @@
  
       $(function() {
         // global drawing variables
+        COLOR=["blue", "green", "red"]
         var canvas = $('#canvas')[0];
+        var curve = $('#shapes')
         var context = canvas.getContext('2d');
+        var clshapes = new Array();
         var mousex;         // global mouse position x coord
         var mousey;         // global mouse position y coord
         var downx;          // x coord where the click started
@@ -55,7 +58,7 @@
             this.centery+=mmovy;
           },
           zoom : function(dist) {
-            this.ewid=Math.max(this.iewid*(dist/this.ldiv), 2.5);
+            this.ewid=(this.iewid-2.5)*(dist/this.ldiv)+2.5;
             width=this.ewid*this.snum;
           },
           moveZBar : function() {
@@ -94,7 +97,7 @@
             drawLine(15,this.zbarc-this.ldiv,5,this.zbarc-this.ldiv);
           },
           draw : function(type) {
-            context.strokeStyle = "b9b9b9";
+            context.strokeStyle = "e3e3e3";
             var first=canvas.width-off;
             var last=off;
             t=this.mid;
@@ -192,10 +195,10 @@
                     else { context.fillText(-num, i-9, this.centery+5); }
                   }
                 }
+              }
                 maxposx=t;
                 t+=this.diff;
                 ct+=1;
-              }
             }
 
             //y axis
@@ -295,10 +298,10 @@
                     else { context.fillText(-num, this.centerx-10, i); }
                   }
                 }
+              }
                 minnegy=t;
                 t-=this.diff;
                 ct-=1;
-              }
             }
             if (minnegx!=null) {
               minx=minnegx;
@@ -333,6 +336,12 @@
         $('#undo').click(function(){ 
           fnarr.pop();
           redraw();
+          var f="";
+          for (k=0; k<fnarr.length; k++){
+            f+=fnarr[k].html;
+          }
+          //alert(f)
+          curve.html(f);
         });
         function get_random_color() {
           var letters = '0123456789ABCDEF'.split('');
@@ -342,11 +351,65 @@
           }
           return color;
         }
+        
         $('#function').click(function(){ 
-          var colour=get_random_color();
-          context.strokeStyle=colour;
-          fnarr.push(new fn($('#circlesize').attr("value"), colour));
+          var color;
+          if(fnarr.length < COLOR.length) {color=COLOR[fnarr.length];} 
+          else {color=get_random_color();}
+          context.strokeStyle=color;
+          var func=$('#circlesize').attr("value");
+          fnarr.push(new fn(func, color));
+          var h="<div class=shapes style=\"background-color:"+color+";\" id=s_"+(fnarr.length-1)+" >"+fnarr[fnarr.length-1].fn+"</div>\n";  
+          //h+="<button id=delete_"+(fnarr.length-1)+"> Delete </button>\n";
+          fnarr[fnarr.length-1].html=h;
+          clshapes[fnarr.length-1]=false;
+          //alert(fnarr[fnarr.length-1].html);
           context.strokeStyle="black";
+          f="";
+          for (k=0; k<fnarr.length; k++){
+            f+=fnarr[k].html;
+          }
+          //alert(f)
+          curve.html(f);
+          for (w=0; w<fnarr.length; w++){
+            $('#s_'+(w)).mouseenter({w:w}, function(e) {
+              //alert("here");
+              if(!clshapes[e.data.w]){
+                fnarr[e.data.w].lwidth=3;
+                redraw();
+              }
+            });
+
+            $('#s_'+(w)).click({w:w}, function(e) {
+              if(!clshapes[e.data.w]){
+                fnarr[e.data.w].lwidth=3;
+                clshapes[e.data.w]=true;
+                redraw();
+              }
+              else {
+                fnarr[e.data.w].lwidth=1;
+                redraw();
+                clshapes[e.data.w]=false;
+              }
+            });
+            $('#s_'+(w)).mouseleave({w:w}, function(e) {
+              if(!clshapes[e.data.w]){
+                fnarr[e.data.w].lwidth=1;
+                redraw();
+              }
+            });
+            /*$('#delete_'+(w)).click({w:w}, function(e) {
+              fnarr.splice(e.data.w, 1);
+              f="";
+              for (k=0; k<fnarr.length; k++){
+                f+=fnarr[k].html;
+              }
+              curve.html(f);
+              redraw();
+            });*/
+          }
+          $('#circlesize').val("");
+          redraw();
         });
         $('#canvas').mouseup(function (e) { 
           mousedown=false;
@@ -463,6 +526,8 @@
           //alert(sy);
           var values=new Array();
           var pos=new Array();
+          var ke;  
+          var ve;
           for(q=off; q<canvas.width-off; q+=1){
             xpos=q;
             curx=czoom*(xpos-cx)/width;
@@ -470,36 +535,39 @@
             cury=evaluatefn(sy,curx)/czoom;
             ypos=(cy-width*cury);
             //alert(q+", "+ypos);
-            if (ypos>off && ypos<canvas.height-off){
+            if (ypos>=off && ypos<=canvas.height-off){
               values.push([curx,cury]);
               pos.push([q,Math.round(ypos)]);
-            }
-            ke=pos[0];  
-            ve=values[0];
-            for(e=0; e<pos.length; e++){
-              if(Math.abs(distance(ve[0],ve[1],values[e][0],values[e][1])) < 2*czoom){
-                drawLine(ke[0],ke[1],pos[e][0],pos[e][1]);
+              if(q>off) {
+                if(Math.abs(distance(ve[0],ve[1],curx, cury)) < 2*czoom){
+                  drawLine(ke[0],ke[1],xpos,ypos);
+                }
+                else {context.fillRect(xpos,ypos, 1, 1);} 
               }
-              else {context.fillRect(pos[e][0],pos[e][1]);} 
-              ke=pos[e];
-              ve=values[e];
-            }    
+            }
+            ke=[xpos, ypos];
+            ve=[curx, cury];
           } 
           return [values, pos];
         }
         function fn(fn, color){
           this.fn=fn;
+          this.html="";
+          this.lwidth=1;
           this.ret=drawfunction(fn);
           this.color=color;
           this.values=this.ret[0];
           this.pos=this.ret[1];
           this.draw=function(){
             //alert("here");
+            context.lineWidth=this.lwidth;
             this.ret=drawfunction(this.fn);
+            context.lineWidth=1;
             this.values=this.ret[0];
             this.pos=this.ret[1];
             return this.values;
           }
+
         }
         function operation(op, lt, rt) {
           if (op=="+") {
