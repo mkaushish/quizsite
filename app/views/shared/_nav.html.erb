@@ -2,23 +2,20 @@
 <nav>
   <ul>
   <% if signed_in? %>
-    <li><%= link_to "My Profile", user_path(current_user) %></li>
+    <li><%= link_to "My Profile", user_path(current_user), :class => selected?("profile") %></li>
     <li><%= link_to "Make Quiz", :controller => :problem, :action => :choose %></li>
-    <li><%= link_to "Start Quiz", quiz_path %></li>
+    <li><%= link_to "Start Quiz", quiz_path, :class => selected?("quiz"); %></li>
     <li><%= link_to "Sign Out", signout_path, :method => :delete %></li>
   <% elsif fastnav? %>
-    <li><%= link_to "Home", "#", :id=>'homelink', :class => 'selected' %></li>
-    <li><%= link_to "Features", "#", :id=>'featureslink' %></li>
-    <li><%= link_to "About Us", "#", :id=>'aboutlink' %></li>
-    <li><%= link_to "Sign In", "#", :id=>'signinlink' %></li>
+    <li><%= link_to "Home",     "#", :id=>'homelink',     :class => selected?("home") %></li>
+    <li><%= link_to "Features", "#", :id=>'featureslink', :class => selected?("features") %></li>
+    <li><%= link_to "About Us", "#", :id=>'aboutlink',    :class => selected?("about") %></li>
+    <li><%= link_to "Sign In",  "#", :id=>'signinlink',   :class => selected?("signinpage") %></li>
   <% else %>
-    <li><%= link_to "Home", :controller => "pages", :action => "fasthome" %></li>
-    <li><%= link_to "Features", :controller => "pages", :action => "fasthome", :page => "features" %></li>
-    <li><%= link_to "About Us", :controller => "pages", :action => "fasthome", :page => "about" %></li>
-    <li><%= link_to "Sign In", :controller => "pages", :action => "fasthome", :page => "signin" %></li>
-    <li><%= link_to "Features", "#", :id=>'featureslink' %></li>
-    <li><%= link_to "About Us", "#", :id=>'aboutlink' %></li>
-    <li><%= link_to "Sign In", "#", :id=>'signinlink' %></li>
+    <li><%= link_to "Home",     home_path, :class => selected?("home") %></li>
+    <li><%= link_to "Features", features_path, :class => selected?("features") %></li>
+    <li><%= link_to "About Us", about_path, :class => selected?("about") %></li>
+    <li><%= link_to "Sign In",  signinpage_path, :class => selected?("signinpage") %></li>
   <% end %>
   </ul>
 </nav>

@@ -2,10 +2,13 @@
  * This is a manifest file that'll automatically include all the stylesheets available in this directory
  * and any sub-directories. You're free to add application-wide styles to this file and they'll appear at
  * the top of the compiled file, but it's generally better to create a new file per style scope.
+ *= require bootstrap
+ *= require bootstrap-responsive
  *= require_self
  *= require_tree . 
 */
 
+@import 'mixins_n_colors';
 
 /* Varables {{{ */
 
@@ -71,14 +74,23 @@ $graphite: #503214;
 
 /* Layout ID's {{{ */
 body {
-  //background-image: url('bggrad.png');
-  //background-repeat: repeat-x;
-  //font-family: "QarmicSans";
+  line-height: 18px;
+  color: #333333;
+  background-color: #ffffff;
   font-family: "Latine";
   line-height:160%;
-  font-size:0.85em;
-  margin:0px;
+  font-size: 14px;
+  margin:0;
 }
+
+/*
+p {
+  margin: 0 0 9px;
+  font-size: 20px;
+  line-height: 25px;
+}
+*/
+
 #container {
   position:relative;
   bottom:7px;

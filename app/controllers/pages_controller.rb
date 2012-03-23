@@ -10,7 +10,8 @@ class PagesController < ApplicationController
     else
       @fastnav = true
       @container_height = 500
-      @jsonload = "onload=homeOnLoad(\"#{params[:page]}\");"
+      @nav_selected = "home"
+      @jsonload = 'onload=homeOnLoad("home");'
     end
   end
 
@@ -27,26 +28,26 @@ class PagesController < ApplicationController
   end
 
   def features
+    @fastnav = true
     @title = "Features"
+    @nav_selected = "features"
     @container_height = 950
+    @jsonload = 'onload=homeOnLoad("features");'
+    render 'fasthome'
   end
 
   def about
+    @fastnav = true
     @title = "About Us"
+    @nav_selected = "about"
     @container_height = 475
-  end
-
-  def team
-    @title = "Team"
-  end
-
-  def contact
-    @title = "Contact"
-    @container_height = 475
+    @jsonload = 'onload=homeOnLoad("about");'
+    render 'fasthome'
   end
 
   def signinpage
     @title = "Sign In"
+    @nav_selected = "signinpage"
     @container_height = 475
   end
 

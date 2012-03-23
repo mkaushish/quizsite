@@ -5,10 +5,9 @@ class UsersController < ApplicationController
   end
 
   def show
-    # TODO what should users be able to see on other users' profiles?
-    # TODO Make PROFILE PATH
     @user = User.find(params[:id])
-    @title = @user.name
+    @title = "Profile"
+    @nav_selected = "profile"
     @problemanswers = @user.problemanswers
   end
 

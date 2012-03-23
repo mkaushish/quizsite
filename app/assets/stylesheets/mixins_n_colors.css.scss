@@ -1,0 +1,35 @@
+$blue:  #049cdb;
+$green: #46a546;
+$red: #9d261d;
+$yellow:  #ffc40d;
+$orange:  #f89406;
+$pink:  #c3325f;
+$purple:  #7a43b6;
+
+$graphite: #503214;
+@mixin rounded-corners($radius) {
+	-moz-border-radius: $radius;
+	-webkit-border-radius: $radius;
+	border-radius: $radius; /* future proofing */
+	-khtml-border-radius: $radius; /* for old Konqueror browsers */
+}
+
+@mixin shadow($h_off, $v_off, $blur, $spread, $col) {
+  // h_off : horizontal offset, positive = right, negative = left
+  // v_off : vertical offset, positive = bot, negative = top
+  // blur  : 0 => sharp, higher => more blurred (ex 5px)
+  // spread: increases size, default 0 => same size as blur...?
+  // col   : obvious
+  -moz-box-shadow:    $h_off $v_off $blur $spread $col;
+  -webkit-box-shadow: $h_off $v_off $blur $spread $col;
+  box-shadow:         $h_off $v_off $blur $spread $col;
+}
+
+@mixin gradient($first, $second) {
+  background-color: $second;
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#{ie-hex-str($first)}', endColorstr='#{ie-hex-str($second)}');";
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#{ie-hex-str($first)}', endColorstr='#{ie-hex-str($second)}');;
+  zoom: 1;
+  background: -webkit-gradient(linear, left top, left bottom, from($first), to($second));
+  background: -moz-linear-gradient(top, $first, $second);
+}

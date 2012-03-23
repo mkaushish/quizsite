@@ -1,14 +1,7 @@
 // Place all the styles related to the Pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-
-$graphite: #503214;
-@mixin rounded-corners($radius) {
-	-moz-border-radius: $radius;
-	-webkit-border-radius: $radius;
-	border-radius: $radius; /* future proofing */
-	-khtml-border-radius: $radius; /* for old Konqueror browsers */
-}
+@import 'mixins_n_colors';
 
 .teammember { 
   clear:left;
@@ -37,40 +30,38 @@ $graphite: #503214;
   }
 }
 
-.column {
-  float:left;
-  width:50%
-}
-.feature {
-  padding:10px;
-  margin:10px 10px 20px 10px;
-  @include rounded-corners(5px);
+#featuresaccordion {
+  .accordion-group {
+    margin:10px 0px;
+    border-width:2px;
+    border-style:solid;
+  }
+  .accordion-inner {
+    border-style: solid none none none;
+    border-width:2px;
+  }
   h2 {
-    font-weight:none;
-    padding-bottom:5px;
-    font-size:1.3em;
-    margin:0px;
-    border-bottom:2px solid black;
+    text-indent:20px;
   }
   p {
-    margin:10px 0 0 0;
-    text-align:justify;
+    margin:0px;
+    //float:left;
   }
 }
 .b_green {
-  border:2px solid green;
+  border-color: $green;
 }
 .b_red {
-  border:2px solid red;
+  border-color: $red;
 }
 .b_blue {
-  border:2px solid blue;
+  border-color: $blue;
 }
 .b_yellow {
-  border:2px solid yellow;
+  border-color: $yellow;
 }
 .b_orange {
-  border:2px solid orange;
+  border:1px solid $orange;
 }
 
 #emailinfo {

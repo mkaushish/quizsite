@@ -20,6 +20,10 @@ module ApplicationHelper
   def fastnav?
     !@fastnav.nil?
   end
+  def selected?(s)
+    return "selected" if @nav_selected == s
+    return ""
+  end
 
   def adderror(string)
     if flash[:errors].nil?

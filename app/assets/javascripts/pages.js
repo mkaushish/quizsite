@@ -76,8 +76,10 @@ $(document).ready(function() {
     $('.contact').show();
   });
 
-  $('#homelink').mouseenter(goHome);
-  $('#featureslink').mouseenter(goFeatures);
-  $('#aboutlink').mouseenter(goAbout);
-  $('#signinlink').mouseenter(goSignin);
+  $('.features').collapse();
+
+  $('#homelink').click(goHome);
+  $('#featureslink').click(goFeatures);
+  $('#aboutlink').click(goAbout);
+  $('#signinlink').click(goSignin);
 });

@@ -1,0 +1,13 @@
+<div id=signin class=staticpage style="display:none;">
+  <% unless flash[:error].nil? %>
+    <div class="incorrect">
+      <%= flash[:error] %>
+    </div>
+  <% end %>
+  <div style="position:relative; top:150px;">
+    <div id="sitetitle">
+      <%= link_to "Smarter Grades", root_path, :id => "logo" %>
+    </div>
+    <%= render :partial => 'shared/signin' %>
+  </div>
+</div>
