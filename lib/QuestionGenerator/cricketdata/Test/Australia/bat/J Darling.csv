@@ -1,0 +1,61 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+42, 1894-12-14, 1, 4, England, , Richardson, 0, 1, 1, 0, 0
+42, 1894-12-14, 4, 4, England, c Brockwell, Peel, 53, 80, na, 5, 1
+43, 1895-12-29, 2, 5, England, , Lockwood, 32, 30, na, na, 1
+43, 1895-12-29, 4, 5, England, , Brockwell, 5, 5, na, na, 0
+44, 1895-01-11, 1, 5, England, c Philipson, Briggs, 10, 20, na, 1, 0
+44, 1895-01-11, 3, 5, England, c Philipson, Lockwood, 3, 5, na, 0, 0
+45, 1895-02-01, 1, 8, England, , Richardson, 31, 50, na, 1, 1
+46, 1895-03-01, 1, 6, England, c Ford, Peel, 74, 115, na, 9, 0
+46, 1895-03-01, 3, 6, England, , Peel, 50, 120, na, na, 0
+50, 1896-06-22, 1, 2, England, , Richardson, 22, na, na, na, 0
+50, 1896-06-22, 3, 2, England, , Richardson, 0, na, na, 0, 0
+51, 1896-07-16, 1, 2, England, c Lilley, Richardson, 27, 35, na, na, 0
+51, 1896-07-16, 4, 2, England, c Lilley, Richardson, 16, na, na, na, 0
+52, 1896-08-10, 2, 1, England, c MacLaren, Hearne, 47, na, na, na, 0
+52, 1896-08-10, 4, 2, England, , Hearne, 0, na, na, 0, 0
+53, 1897-12-13, 2, 1, England, c Druce, Richardson, 7, 16, na, na, 0
+53, 1897-12-13, 3, 1, England, c Druce, Briggs, 101, 194, na, 19, 0
+54, 1898-01-01, 1, 1, England, c Hirst, Briggs, 36, 45, na, 5, 0
+55, 1898-01-14, 1, 2, England, c Storer, Richardson, 178, 285, na, 26, 3
+56, 1898-01-29, 1, 2, England, c Hearne, Richardson, 12, 32, na, 1, 0
+56, 1898-01-29, 4, 2, England, c +Druce, Hayward, 29, 38, na, 4, 0
+57, 1898-02-26, 2, 2, England, c Mason, Briggs, 14, 40, na, na, 0
+57, 1898-02-26, 4, 2, England, c Wainwright, Richardson, 160, 171, na, 30, 0
+60, 1899-06-01, 1, 1, England, , Hearne, 47, na, na, na, 0
+60, 1899-06-01, 3, 1, England, , Rhodes, 14, na, na, na, 0
+61, 1899-06-15, 2, 2, England, c Ranjitsinhji, Rhodes, 9, na, na, na, 0
+61, 1899-06-15, 4, 2, England, not out, , 17, na, na, na, 0
+62, 1899-06-29, 1, 6, England, c Young, Briggs, 9, na, na, na, 0
+62, 1899-06-29, 3, 2, England, c Fry, Young, 16, na, na, na, 0
+63, 1899-07-17, 2, 8, England, , Young, 4, na, na, na, 0
+63, 1899-07-17, 3, 6, England, c sub (W Rhodes), Young, 39, na, na, na, 0
+64, 1899-08-14, 2, 5, England, c Fry, Lockwood, 71, na, na, na, 0
+64, 1899-08-14, 3, 6, England, run out, , 6, na, na, na, 0
+65, 1901-12-13, 2, 8, England, c Quaife, Barnes, 39, 97, na, 5, 0
+65, 1901-12-13, 3, 1, England, c Jessop, Braund, 3, 8, na, 0, 0
+66, 1902-01-01, 1, 2, England, c Lilley, Blythe, 19, 27, na, 2, 0
+66, 1902-01-01, 3, 2, England, c Tyldesley, Barnes, 23, 56, na, na, na
+67, 1902-01-17, 2, 1, England, c MacLaren, Blythe, 1, 4, na, 0, 0
+67, 1902-01-17, 4, 5, England, c Hayward, Jessop, 69, 209, na, 7, 0
+70, 1902-05-29, 2, 5, England, c Jessop, Rhodes, 3, na, na, 0, 0
+72, 1902-07-03, 1, 4, England, c Braund, Barnes, 0, 1, 1, 0, 0
+72, 1902-07-03, 3, 4, England, c Braund, Barnes, 0, na, na, 0, 0
+73, 1902-07-24, 1, 6, England, c MacLaren, Rhodes, 51, na, na, 5, 2
+73, 1902-07-24, 3, 4, England, c Palairet, Rhodes, 37, na, na, na, 0
+74, 1902-08-11, 1, 4, England, c Lilley, Hirst, 3, na, na, 0, 0
+74, 1902-08-11, 3, 4, England, c MacLaren, Lockwood, 15, na, na, na, 0
+75, 1902-10-11, 2, 6, South Africa, st Halliwell, Sinclair, 0, na, na, 0, 0
+75, 1902-10-11, 3, 5, South Africa, , Llewellyn, 14, na, na, na, 0
+76, 1902-10-18, 1, 6, South Africa, c Anderson, Llewellyn, 6, na, na, na, 0
+76, 1902-10-18, 3, 6, South Africa, , Llewellyn, 4, na, na, na, 0
+77, 1902-11-08, 1, 8, South Africa, , Llewellyn, 1, na, na, 0, 0
+83, 1905-05-29, 2, 6, England, c Bosanquet, Jackson, 0, 1, 2, 0, 0
+83, 1905-05-29, 4, 2, England, , Bosanquet, 40, na, na, na, 0
+84, 1905-06-15, 2, 6, England, c Haigh, Arnold, 41, na, na, na, 0
+85, 1905-07-03, 2, 6, England, c Bosanquet, Warren, 5, na, na, na, 0
+85, 1905-07-03, 4, 6, England, , Blythe, 2, na, na, 0, 0
+86, 1905-07-24, 2, 6, England, c Tyldesley, Jackson, 73, 86, na, 13, 0
+86, 1905-07-24, 3, 6, England, c Rhodes, Brearley, 0, na, 2, 0, 0
+87, 1905-08-14, 2, 6, England, , Hirst, 57, 57, na, 8, 1
+87, 1905-08-14, 4, 6, England, not out, , 12, na, na, na, 0

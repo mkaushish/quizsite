@@ -1,0 +1,101 @@
+
+Test # 263
+The Ashes, 1938, 1st Test
+England v Australia
+Trent Bridge, Nottingham
+10,11,13,14 June 1938 (4-day match)
+
+Result: Match drawn
+Series: 5-match series level 0-0
+
+Toss: England
+Umpires: F Chester and E Robinson
+Test debuts: BA Barnett, AL Hassett (Australia); WJ Edrich, RA Sinfield,
+ DVP Wright (England).
+
+Close of play:
+ Day 1: England 422/4 (Paynter 75*, Compton 69*)
+ Day 2: England 658/8d, Australia 138/3 (McCabe 19*, Ward 0*)
+ Day 3: Australia 411, Australia 102/1 (Brown 51*, Bradman 3*)
+
+England 1st innings                                             R   M   B  4 6
+CJ Barnett                               b McCormick          126 172 188 18 0
+L Hutton              lbw                b Fleetwood-Smith    100 199 221 14 0
+WJ Edrich                                b O'Reilly             5  31  30  1 0
+*WR Hammond                              b O'Reilly            26  52  63  4 0
+E Paynter             not out                                 216 319 333 26 1
+DCS Compton           c Badcock          b Fleetwood-Smith    102 138 173 15 0
++LEG Ames                                b Fleetwood-Smith     46  54  70  6 0
+H Verity                                 b Fleetwood-Smith      3  23  22  0 0
+RA Sinfield           lbw                b O'Reilly             6  20  20  0 0
+DVP Wright            not out                                   1  30  19  0 0
+Extras                (b 1, lb 22, nb 4)                       27
+Total                 (8 wickets dec, 188 overs)              658
+
+DNB: K Farnes.
+
+FoW: 1-219 (Barnett), 2-240 (Hutton), 3-244 (Edrich),
+     4-281 (Hammond), 5-487 (Compton), 6-577 (Ames),
+     7-597 (Verity), 8-626 (Sinfield).
+
+Bowling                      O      M      R      W
+McCormick                   32      4    108      1
+O'Reilly                    56     11    164      3
+McCabe                      21      5     64      0
+Fleetwood-Smith             49      9    153      4
+Ward                        30      2    142      0
+
+Australia 1st innings                                           R   M   B  4 6
+JHW Fingleton                            b Wright               9  37  36  0 0
+WA Brown              c Ames             b Farnes              48 152 192  5 0
+*DG Bradman           c Ames             b Sinfield            51  89  96  5 0
+SJ McCabe             c Compton          b Verity             232 235 277 34 1
+FA Ward                                  b Farnes               2  15  16  0 0
+AL Hassett            c Hammond          b Wright               1   9  10  0 0
+CL Badcock                               b Wright               9  47  54  0 0
++BA Barnett           c Wright           b Farnes              22  55  56  2 0
+WJ O'Reilly           c Paynter          b Farnes               9  35  25  1 0
+EL McCormick                             b Wright               2  11   6  0 0
+LO Fleetwood-Smith    not out                                   5  28  18  1 0
+Extras                (b 10, lb 10, w 1)                       21
+Total                 (all out, 130.3 overs)                  411
+
+FoW: 1-34 (Fingleton), 2-111 (Bradman), 3-134 (Brown),
+     4-144 (Ward), 5-151 (Hassett), 6-194 (Badcock),
+     7-263 (Barnett), 8-319 (O'Reilly), 9-334 (McCormick),
+     10-411 (McCabe).
+
+Bowling                      O      M      R      W
+Farnes                      37     11    106      4
+Hammond                     19      7     44      0
+Sinfield                    28      8     51      1
+Wright                      39      6    153      4
+Verity                       7.3    0     36      1
+
+Australia 2nd innings (following on)                            R   M   B  4 6
+JHW Fingleton         c Hammond          b Edrich              40 133 152  5 0
+WA Brown              c Paynter          b Verity             133 320 378 13 0
+*DG Bradman           not out                                 144 365 379  5 0
+SJ McCabe             c Hammond          b Verity              39  59  73  6 0
+AL Hassett            c Compton          b Verity               2   8   9  0 0
+CL Badcock                               b Wright               5  35  26  0 0
++BA Barnett           lbw                b Sinfield            31  55  70  5 0
+FA Ward               not out                                   7  14  22  1 0
+Extras                (b 5, lb 16, nb 5)                       26
+Total                 (6 wickets dec, 184 overs)              427
+
+DNB: WJ O'Reilly, EL McCormick, LO Fleetwood-Smith.
+
+FoW: 1-89 (Fingleton), 2-259 (Brown), 3-331 (McCabe),
+     4-337 (Hassett), 5-369 (Badcock), 6-417 (Barnett).
+
+Bowling                      O      M      R      W
+Farnes                      24      2     78      0
+Hammond                     12      6     15      0
+Sinfield                    35      8     72      1
+Wright                      37      8     85      1
+Verity                      62     27    102      3
+Edrich                      13      2     39      1
+Barnett                      1      0     10      0
+
+<END>

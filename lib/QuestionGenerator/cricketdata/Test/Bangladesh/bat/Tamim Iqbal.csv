@@ -1,0 +1,46 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+1859, 2008-01-04, 1, 1, New Zealand, c Fulton, Martin, 53, 143, 88, 9, 0
+1859, 2008-01-04, 3, 1, New Zealand, , Mills, 84, 175, 128, 12, 1
+1861, 2008-01-12, 1, 1, New Zealand, c Sinclair, Mills, 15, 28, 26, 2, 0
+1861, 2008-01-12, 3, 11, New Zealand, absent ill, , -, , , , 
+1864, 2008-01-22, 1, 1, South Africa,                c &, Steyn, 0, 2, 2, 0, 0
+1864, 2008-01-22, 3, 1, South Africa, , Steyn, 2, 12, 11, 0, 0
+1865, 2008-02-29, 2, 1, South Africa, c de Villiers, Steyn, 14, 42, 29, 3, 0
+1865, 2008-02-29, 3, 1, South Africa, c Steyn, Peterson, 9, 80, 57, 1, 0
+1888, 2008-09-17, 1, 1, New Zealand, c McCullum, Vettori, 18, 123, 90, 2, 0
+1888, 2008-09-17, 3, 1, New Zealand,                c &, Vettori, 33, 133, 100, 5, 0
+1890, 2008-09-25, 2, 1, New Zealand, c Taylor, Vettori, 24, 101, 75, 2, 0
+1893, 2008-10-19, 2, 1, South Africa, , Steyn, 7, 12, 13, 0, 0
+1893, 2008-10-19, 3, 1, South Africa, c Boucher, Ntini, 20, 72, 49, 4, 0
+1895, 2008-10-26, 1, 1, South Africa, c Boucher, Morkel, 31, 97, 67, 5, 0
+1895, 2008-10-26, 3, 1, South Africa, c McKenzie, Morkel, 20, 67, 45, 2, 0
+1903, 2008-11-26, 2, 1, Sri Lanka, c Warnapura, Muralitharan, 17, 50, 35, 3, 0
+1903, 2008-11-26, 4, 1, Sri Lanka, c HAPW Jayawardene, Prasad, 47, 63, 53, 8, 0
+1905, 2009-01-03, 2, 1, Sri Lanka, c HAPW Jayawardene, Vaas, 0, 3, 6, 0, 0
+1905, 2009-01-03, 4, 1, Sri Lanka, c HAPW Jayawardene, Vaas, 17, 43, 31, 3, 0
+1923, 2009-06-09, 1, 1, West Indies, c Reifer, Best, 14, 83, 66, 1, 0
+1923, 2009-06-09, 3, 1, West Indies, c Dowlin, Bernard, 128, 311, 243, 17, 0
+1926, 2009-06-17, 2, 1, West Indies, c Walton, Bernard, 37, 100, 59, 6, 0
+1926, 2009-06-17, 4, 1, West Indies, c Walton, Sammy, 18, 50, 42, 2, 0
+1949, 2010-01-17, 2, 1, India, , Khan, 31, 81, 45, 6, 0
+1949, 2010-01-17, 4, 1, India, c Dravid, Sehwag, 52, 200, 122, 6, 0
+1950, 2010-01-24, 1, 1, India, , Khan, 0, 12, 8, 0, 0
+1950, 2010-01-24, 3, 1, India, c Dhoni, Khan, 151, 231, 183, 18, 3
+1953, 2010-01-15, 2, 1, New Zealand, c McCullum, Southee, 68, 105, 70, 11, 0
+1953, 2010-01-15, 4, 1, New Zealand, c Tuffey, Vettori, 30, 24, 19, 5, 1
+1954, 2010-02-12, 2, 1, England, , Bresnan, 86, 180, 124, 14, 1
+1954, 2010-02-12, 4, 1, England, , Swann, 14, 46, 33, 1, 0
+1956, 2010-02-20, 1, 1, England, c Prior, Tredwell, 85, 93, 71, 13, 1
+1956, 2010-02-20, 3, 1, England, c Broad, Swann, 52, 114, 84, 5, 0
+1958, 2010-04-27, 2, 1, England, run out (Pietersen), , 55, 92, 62, 8, 0
+1958, 2010-04-27, 3, 1, England, c Trott, Finn, 103, 157, 100, 15, 2
+1959, 2010-05-04, 2, 1, England, c Prior, Anderson, 108, 150, 114, 11, 1
+1959, 2010-05-04, 3, 1, England, c Prior, Anderson, 2, 1, 2, 0, 0
+2002, 2011-07-04, 2, 1, Zimbabwe, c Taylor, Vitori, 15, 46, 33, 3, 0
+2002, 2011-07-04, 4, 1, Zimbabwe, , Mpofu, 43, 64, 44, 7, 0
+2010, 2011-09-21, 1, 1, West Indies, c Brathwaite, Samuels, 52, 170, 141, 5, 0
+2010, 2011-09-21, 3, 1, West Indies, c Baugh, Sammy, 37, 102, 75, 5, 0
+2012, 2011-10-29, 2, 1, West Indies, c Bravo, FH Edwards, 14, 20, 10, 3, 0
+2012, 2011-10-29, 4, 1, West Indies, c Sammy, Bishoo, 83, 186, 158, 8, 1
+2022, 2011-11-09, 1, 1, Pakistan, c Adnan Akmal, Aizaz Cheema, 9, 29, 23, 0, 1
+2022, 2011-11-09, 3, 1, Pakistan, , Mohammad Hafeez, 15, 37, 27, 3, 0

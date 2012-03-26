@@ -1,0 +1,164 @@
+
+Test # 1758
+The Ashes, 2005, 2nd Test
+England v Australia
+Edgbaston, Birmingham
+4,5,6,7 August 2005 (5-day match)
+
+Result: England won by 2 runs
+Series: 5-match series level 1-1
+
+Toss: Australia
+Umpires: BF Bowden (NZ) and RE Koertzen (SA)
+TV umpire: JW Lloyds
+Match referee: RS Madugalle (SL)
+Player of the match: A Flintoff
+
+Close of play:
+ Day 1: England 407
+ Day 2: Australia 308, England 25/1 (Trescothick 19*, Hoggard 0*, 7 ov)
+ Day 3: England 182, Australia 175/8 (Warne 20*, 43.4 ov)
+
+England 1st innings                                             R   M   B  4 6
+ME Trescothick        c Gilchrist        b Kasprowicz          90 143 102 15 2
+AJ Strauss                               b Warne               48 113  76 10 0
+*MP Vaughan           c Lee              b Gillespie           24  54  41  3 0
+IR Bell               c Gilchrist        b Kasprowicz           6   2   3  1 0
+KP Pietersen          c Katich           b Lee                 71 152  76 10 1
+A Flintoff            c Gilchrist        b Gillespie           68  74  62  6 5
++GO Jones             c Gilchrist        b Kasprowicz           1  14  15  0 0
+AF Giles              lbw                b Warne               23  34  30  4 0
+MJ Hoggard            lbw                b Warne               16  62  49  2 0
+SJ Harmison                              b Warne               17  16  11  2 1
+SP Jones              not out                                  19  39  24  1 1
+Extras                (lb 9, w 1, nb 14)                       24
+Total                 (all out, 79.2 overs, 356 mins)         407
+
+FoW: 1-112 (Strauss, 25.3 ov), 2-164 (Trescothick, 32.3 ov),
+     3-170 (Bell, 32.6 ov), 4-187 (Vaughan, 36.6 ov),
+     5-290 (Flintoff, 54.3 ov), 6-293 (GO Jones, 57.4 ov),
+     7-342 (Giles, 65.1 ov), 8-348 (Pietersen, 66.3 ov),
+     9-375 (Harmison, 69.4 ov), 10-407 (Hoggard, 79.2 ov).
+
+Bowling                      O      M      R      W
+Lee                         17      1    111      1 (3nb, 1w)
+Gillespie                   22      3     91      2 (3nb)
+Kasprowicz                  15      3     80      3 (8nb)
+Warne                       25.2    4    116      4
+
+Australia 1st innings                                           R   M   B  4 6
+JL Langer             lbw                b SP Jones            82 276 154  7 0
+ML Hayden             c Strauss          b Hoggard              0   5   1  0 0
+*RT Ponting           c Vaughan          b Giles               61  87  76 12 0
+DR Martyn             run out (Vaughan)                        20  23  18  4 0
+MJ Clarke             c GO Jones         b Giles               40  85  68  7 0
+SM Katich             c GO Jones         b Flintoff             4  22  18  1 0
++AC Gilchrist         not out                                  49 120  69  4 0
+SK Warne                                 b Giles                8  14  14  2 0
+B Lee                 c Flintoff         b SP Jones             6  14  10  1 0
+JN Gillespie          lbw                b Flintoff             7  36  37  1 0
+MS Kasprowicz         lbw                b Flintoff             0   1   1  0 0
+Extras                (b 13, lb 7, w 1, nb 10)                 31
+Total                 (all out, 76 overs, 346 mins)           308
+
+FoW: 1-0 (Hayden, 1.1 ov), 2-88 (Ponting, 19.5 ov),
+     3-118 (Martyn, 24.5 ov), 4-194 (Clarke, 44.2 ov),
+     5-208 (Katich, 49.4 ov), 6-262 (Langer, 61.3 ov),
+     7-273 (Warne, 64.5 ov), 8-282 (Lee, 67.1 ov),
+     9-308 (Gillespie, 75.5 ov), 10-308 (Kasprowicz, 75.6 ov).
+
+Bowling                      O      M      R      W
+Harmison                    11      1     48      0 (2nb)
+Hoggard                      8      0     41      1 (4nb)
+SP Jones                    16      2     69      2 (1nb, 1w)
+Flintoff                    15      1     52      3 (3nb)
+Giles                       26      2     78      3
+
+England 2nd innings                                             R   M   B  4 6
+ME Trescothick        c Gilchrist        b Lee                 21  51  38  4 0
+AJ Strauss                               b Warne                6  28  12  1 0
+MJ Hoggard            c Hayden           b Lee                  1  35  27  0 0
+*MP Vaughan                              b Lee                  1   2   2  0 0
+IR Bell               c Gilchrist        b Warne               21  69  43  2 0
+KP Pietersen          c Gilchrist        b Warne               20  50  35  0 2
+A Flintoff                               b Warne               73 133  86  6 4
++GO Jones             c Ponting          b Lee                  9  33  19  1 0
+AF Giles              c Hayden           b Warne                8  44  36  0 0
+SJ Harmison           c Ponting          b Warne                0   2   1  0 0
+SP Jones              not out                                  12  42  23  3 0
+Extras                (lb 1, nb 9)                             10
+Total                 (all out, 52.1 overs, 249 mins)         182
+
+FoW: 1-25 (Strauss, 6.2 ov), 2-27 (Trescothick, 11.2 ov),
+     3-29 (Vaughan, 11.5 ov), 4-31 (Hoggard, 13.5 ov),
+     5-72 (Pietersen, 24.6 ov), 6-75 (Bell, 26.5 ov),
+     7-101 (GO Jones, 33.6 ov), 8-131 (Giles, 44.3 ov),
+     9-131 (Harmison, 44.4 ov), 10-182 (Flintoff, 52.1 ov).
+
+Bowling                      O      M      R      W
+Lee                         18      1     82      4 (5nb)
+Gillespie                    8      0     24      0 (1nb)
+Kasprowicz                   3      0     29      0 (3nb)
+Warne                       23.1    7     46      6
+
+Australia 2nd innings (target: 282 runs)                        R   M   B  4 6
+JL Langer                                b Flintoff            28  54  47  4 0
+ML Hayden             c Trescothick      b SP Jones            31 106  64  4 0
+*RT Ponting           c GO Jones         b Flintoff             0   4   5  0 0
+DR Martyn             c Bell             b Hoggard             28  64  36  5 0
+MJ Clarke                                b Harmison            30 101  57  4 0
+SM Katich             c Trescothick      b Giles               16  27  21  3 0
++AC Gilchrist         c Flintoff         b Giles                1   8   4  0 0
+JN Gillespie          lbw                b Flintoff             0   4   2  0 0
+SK Warne              hit wicket         b Flintoff            42  79  59  4 2
+B Lee                 not out                                  43  99  75  5 0
+MS Kasprowicz         c GO Jones         b Harmison            20  60  31  3 0
+Extras                (b 13, lb 8, w 1, nb 18)                 40
+Total                 (all out, 64.3 overs, 307 mins)         279
+
+FoW: 1-47 (Langer, 12.2 ov), 2-48 (Ponting, 12.6 ov),
+     3-82 (Hayden, 22.5 ov), 4-107 (Martyn, 26.1 ov),
+     5-134 (Katich, 31.6 ov), 6-136 (Gilchrist, 33.5 ov),
+     7-137 (Gillespie, 34.2 ov), 8-175 (Clarke, 43.4 ov),
+     9-220 (Warne, 52.1 ov), 10-279 (Kasprowicz, 64.3 ov).
+
+Bowling                      O      M      R      W
+Harmison                    17.3    3     62      2 (1nb, 1w)
+Hoggard                      5      0     26      1
+Giles                       15      3     68      2
+Flintoff                    22      3     79      4 (13nb)
+SP Jones                     5      1     23      1
+
+*** 4th Umpire - AA Jones
+
+*** Day 1
+*** England 1st innings: 1x5 ball over (65th over, 13th over bowled by Lee,
+    called by umpire Koertzen)
+*** England 50 in 10.4 overs
+*** ME Trescothick 50 in 74 balls, 9X4, 1x6
+*** England 100 in 22.4 overs
+*** Score at Lunch: England 132/1 in 27 overs (Vaughan 1*, Trescothick 77*)
+*** England 150 in 29.1 overs
+*** England 200 in 40.4 overs
+*** England 250 in 48.3 overs
+*** A Flintoff 50 in 44 balls, 3x4, 4x6
+*** Score at Tea: England 289/4 in 54 overs (Pietersen 40*, Flintoff 68*)
+*** England 300 in 59.5 overs
+*** England 350 in 66.6 overs
+*** KP Pietersen 50 in 64 balls, 7x4
+*** England 400 in 78.4 overs
+
+*** Day 2
+*** Australia 50 in 8.4 overs
+*** Australia 100 in 22.1 overs
+*** Score at Lunch: Australia 118/3 in 24.5 overs (JL Langer 27*)
+*** Australia 150 in 32.5 overs
+*** JL Langer 50 in 93 balls, 4x4
+*** Australia 200 in 46.6 overs
+*** Score at Tea: Australia 219/5 in 53 overs (Langer 72*, Gilchrist 5*)
+
+*** Day 3
+*** Score at Lunch: England 95/6 in 33 overs (Flintoff 17*, GO Jones 4*)
+*** Score at Tea: England 182
+
+<END>

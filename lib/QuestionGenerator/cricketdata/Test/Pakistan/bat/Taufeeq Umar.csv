@@ -1,0 +1,68 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+1560, 2001-07-29, 2, 2, Bangladesh, c Khaled Mashud, Hasibul Hossain, 104, 231, 163, 15, 0
+1584, 2002-01-09, 2, 1, Bangladesh, lbw, Mohammad Sharif, 53, 114, 104, 9, 0
+1586, 2002-01-16, 2, 1, Bangladesh, c Aminul Islam, Mohammad Sharif, 47, 133, 106, 8, 0
+1587, 2002-01-31, 1, 1, West Indies, , Hooper, 24, 114, 81, 2, 0
+1587, 2002-01-31, 3, 1, West Indies, run out (Jacobs), , 23, 95, 70, 2, 0
+1588, 2002-01-07, 1, 1, West Indies, c Ganga, Dillon, 8, 28, 24, 1, 0
+1588, 2002-01-07, 3, 2, West Indies, lbw, Dillon, 69, 215, 169, 8, 0
+1592, 2002-02-06, 1, 2, Sri Lanka, c Samaraweera, Vaas, 6, 23, 14, 1, 0
+1592, 2002-02-06, 3, 2, Sri Lanka, , Vaas, 19, 44, 26, 3, 0
+1615, 2002-09-03, 2, 2, Australia, c Ponting, Gillespie, 0, 7, 1, 0, 0
+1615, 2002-09-03, 4, 2, Australia, c ME Waugh, Lee, 88, 256, 172, 16, 0
+1617, 2002-09-11, 1, 2, Australia, , Lee, 0, 6, 2, 0, 0
+1617, 2002-09-11, 3, 2, Australia, run out (Ponting/McGrath), , 0, 3, 0, 0, 0
+1620, 2002-09-19, 2, 1, Australia, lbw, McGrath, 5, 30, 20, 1, 0
+1620, 2002-09-19, 3, 1, Australia, c Gilchrist, McGrath, 1, 2, 3, 0, 0
+1625, 2002-10-09, 1, 1, Zimbabwe, c A Flower, Blignaut, 75, 151, 121, 8, 1
+1625, 2002-10-09, 3, 1, Zimbabwe, c Taibu, Blignaut, 111, 360, 229, 13, 0
+1627, 2002-10-16, 2, 1, Zimbabwe, c Taibu, Olonga, 34, 110, 85, 5, 0
+1627, 2002-10-16, 4, 1, Zimbabwe, not out, , 21, 39, 30, 5, 0
+1635, 2002-11-26, 2, 1, South Africa, c Smith, Hayward, 39, 109, 69, 7, 0
+1635, 2002-11-26, 3, 1, South Africa, lbw, Boje, 39, 152, 111, 4, 0
+1637, 2003-01-02, 2, 1, South Africa, c Kallis, Ntini, 135, 345, 254, 20, 1
+1637, 2003-01-02, 3, 1, South Africa, c Boucher, Pollock, 67, 149, 101, 13, 0
+1655, 2003-07-20, 2, 2, Bangladesh, c Javed Omar, Mohammad Rafique, 38, 127, 94, 3, 0
+1655, 2003-07-20, 4, 2, Bangladesh, c Rajin Saleh, Tapash Baisya, 4, 23, 18, 1, 0
+1657, 2003-07-27, 2, 2, Bangladesh, c Khaled Mashud, Mohammad Rafique, 75, 234, 151, 11, 0
+1657, 2003-07-27, 4, 2, Bangladesh, c Mashrafe Mortaza, Khaled Mahmud, 43, 187, 127, 6, 0
+1664, 2003-09-17, 2, 1, South Africa,                c &, Adams, 111, 322, 247, 16, 0
+1664, 2003-09-17, 4, 1, South Africa, , Adams, 63, 153, 114, 9, 0
+1666, 2003-09-24, 2, 1, South Africa, c Gibbs, Adams, 68, 195, 167, 8, 1
+1666, 2003-09-24, 4, 1, South Africa, c Smith, Peterson, 71, 246, 183, 12, 0
+1676, 2003-11-19, 2, 2, New Zealand, c Butler, Tuffey, 27, 50, 26, 5, 0
+1677, 2003-11-26, 2, 2, New Zealand, c Oram, Tuffey, 16, 154, 99, 1, 0
+1677, 2003-11-26, 4, 2, New Zealand, lbw, Vettori, 34, 113, 78, 5, 0
+1693, 2004-03-28, 2, 2, India, c Dravid, Pathan, 23, 95, 79, 4, 0
+1693, 2004-03-28, 3, 2, India, lbw, Kumble, 9, 79, 60, 1, 0
+1695, 2004-03-05, 2, 2, India, , Balaji, 24, 71, 52, 4, 0
+1695, 2004-03-05, 4, 2, India, not out, , 14, 28, 20, 3, 0
+1697, 2004-03-13, 1, 2, India, lbw, Balaji, 9, 45, 32, 2, 0
+1697, 2004-03-13, 3, 2, India, lbw, Pathan, 13, 48, 34, 2, 0
+1738, 2005-02-08, 1, 2, India, , Balaji, 44, 117, 89, 7, 0
+1738, 2005-02-08, 3, 2, India,                c &, Balaji, 4, 7, 3, 1, 0
+1741, 2005-02-16, 2, 1, India, c Harbhajan Singh, Balaji, 18, 60, 44, 3, 0
+1741, 2005-02-16, 4, 1, India, c Sehwag, Balaji, 35, 123, 88, 4, 0
+1813, 2006-07-04, 2, 2, England, c Read, Hoggard, 7, 57, 38, 1, 0
+1813, 2006-07-04, 4, 2, England, c Cook, Panesar, 11, 79, 54, 1, 0
+1976, 2010-10-12, 2, 2, South Africa, lbw, Morkel, 42, 144, 129, 3, 0
+1976, 2010-10-12, 4, 2, South Africa, c Kallis, Botha, 22, 125, 92, 3, 0
+1979, 2010-10-20, 2, 2, South Africa, c Amla, Kallis, 43, 174, 105, 5, 0
+1979, 2010-10-20, 4, 2, South Africa, lbw, Botha, 30, 86, 73, 4, 0
+1990, 2011-01-07, 2, 2, New Zealand, c Williamson, Arnel, 54, 126, 104, 11, 0
+1990, 2011-01-07, 4, 1, New Zealand, not out, , 12, 15, 15, 2, 0
+1991, 2011-01-15, 2, 1, New Zealand, c Guptill, Vettori, 70, 200, 143, 12, 0
+1991, 2011-01-15, 4, 2, New Zealand, lbw, Southee, 0, 6, 1, 0, 0
+1992, 2011-04-12, 2, 2, West Indies, lbw, Sammy, 19, 94, 62, 2, 0
+1992, 2011-04-12, 4, 2, West Indies, lbw, Rampaul, 0, 7, 3, 0, 0
+1993, 2011-04-20, 1, 2, West Indies, c Baugh, Rampaul, 11, 32, 23, 1, 0
+1993, 2011-04-20, 3, 2, West Indies, run out (Sammy), , 135, 419, 314, 13, 0
+2006, 2011-08-01, 2, 2, Zimbabwe, lbw, Jarvis, 4, 9, 9, 1, 0
+2006, 2011-08-01, 4, 2, Zimbabwe, c Taibu, Jarvis, 8, 16, 13, 2, 0
+2009, 2011-09-18, 2, 2, Sri Lanka, run out (Sangakkara/HAPW Jayawardene), , 236, 712, 496, 17, 1
+2009, 2011-09-18, 4, 2, Sri Lanka, lbw, Welegedara, 2, 15, 11, 0, 0
+2011, 2011-09-26, 2, 2, Sri Lanka, c Silva, Prasad, 27, 95, 75, 3, 0
+2011, 2011-09-26, 4, 2, Sri Lanka, , Herath, 1, 14, 9, 0, 0
+2014, 2011-10-03, 2, 2, Sri Lanka, st Silva, Herath, 19, 64, 40, 2, 0
+2014, 2011-10-03, 4, 2, Sri Lanka, c Sangakkara, Randiv, 39, 144, 121, 4, 0
+2022, 2011-11-09, 2, 2, Bangladesh, lbw, Mahmudullah, 61, 220, 164, 8, 0

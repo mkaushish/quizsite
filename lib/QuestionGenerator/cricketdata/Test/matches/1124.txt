@@ -1,0 +1,118 @@
+
+Test # 1124
+The Ashes, 1989, 4th Test
+England v Australia
+Old Trafford, Manchester
+27,28,29,31 July, 1 August 1989 (5-day match)
+
+Result: Australia won by 9 wickets
+Series: Australia leads the 6-match series 3-0
+
+Toss: England
+Umpires: JH Hampshire and BJ Meyer
+Player of the match: GF Lawson
+
+Close of play:
+ Day 1: England 224/7 (Smith 112*, Foster 36*)
+ Day 2: England 260, Australia 219/3 (Border 19*, Jones 49*)
+ Day 3: Australia 441/9 (Lawson 13*, Alderman 5*)
+ Day 4: Australia 447, England 123/6 (Russell 47*, Emburey 22*)
+
+England 1st innings                                             R   M   B  4 6
+GA Gooch                                 b Lawson              11  50  32  1 0
+TS Curtis                                b Lawson              22 133 103  4 0
+RT Robinson           lbw                b Lawson               0  15   9  0 0
+RA Smith              c Hohns            b Hughes             143 353 285 15 0
+*DI Gower             lbw                b Hohns               35  87  51  6 0
+IT Botham                                b Hohns                0   8   6  0 0
++RC Russell           lbw                b Lawson               1  13  11  0 0
+JE Emburey            lbw                b Hohns                5  39  34  1 0
+NA Foster             c Border           b Lawson              39 100  68  4 1
+ARC Fraser            lbw                b Lawson               2  18   9  0 0
+NGB Cook              not out                                   0  15  10  0 0
+Extras                (lb 2)                                    2
+Total                 (all out, 103 overs)                    260
+
+FoW: 1-23 (Gooch), 2-23 (Robinson), 3-57 (Curtis), 4-132 (Gower),
+     5-140 (Botham), 6-147 (Russell), 7-158 (Emburey),
+     8-232 (Foster), 9-252 (Fraser), 10-260 (Smith).
+
+Bowling                      O      M      R      W
+Alderman                    25     13     49      0
+Lawson                      33     11     72      6
+Hughes                      17      6     55      1
+Hohns                       22      7     59      3
+Waugh                        6      1     23      0
+
+Australia 1st innings                                           R   M   B  4 6
+MA Taylor             st Russell         b Emburey             85 180 180 10 0
+GR Marsh              c Russell          b Botham              47 157 100  5 0
+DC Boon                                  b Fraser              12  41  40  2 0
+*AR Border            c Russell          b Foster              80 313 266 10 0
+DM Jones                                 b Botham              69 174 141  7 1
+SR Waugh              c Curtis           b Fraser              92 203 174  7 0
++IA Healy             lbw                b Foster               0   1   1  0 0
+TV Hohns              c Gower            b Cook                17  64  64  2 0
+MG Hughes                                b Cook                 3  10   6  0 0
+GF Lawson                                b Fraser              17  29  31  3 0
+TM Alderman           not out                                   6  23  12  0 0
+Extras                (b 5, lb 7, w 1, nb 6)                   19
+Total                 (all out, 167.5 overs)                  447
+
+FoW: 1-135 (Marsh), 2-143 (Taylor), 3-154 (Boon), 4-274 (Jones),
+     5-362 (Border), 6-362 (Healy), 7-413 (Hohns),
+     8-423 (Hughes), 9-423 (Waugh), 10-447 (Lawson).
+
+Bowling                      O      M      R      W
+Foster                      34     12     74      2
+Fraser                      36.5    4     95      3
+Emburey                     45      9    118      1
+Cook                        28      6     85      2
+Botham                      24      6     63      2
+
+England 2nd innings                                             R   M   B  4 6
+GA Gooch              c Alderman         b Lawson              13  50  23  2 0
+TS Curtis             c Boon             b Alderman             0   5   2  0 0
+RT Robinson           lbw                b Lawson              12  32  28  1 0
+RA Smith              c Healy            b Alderman             1   6   8  0 0
+*DI Gower             c Marsh            b Lawson              15  68  40  1 0
+IT Botham             lbw                b Alderman             4  25  23  0 0
++RC Russell           not out                                 128 352 293 14 0
+JE Emburey                               b Alderman            64 221 183 10 0
+NA Foster                                b Alderman             6  39  28  0 0
+ARC Fraser            c Marsh            b Hohns                3  40  32  0 0
+NGB Cook              c Healy            b Hughes               5  11  11  1 0
+Extras                (lb 6, w 2, nb 5)                        13
+Total                 (all out, 110.4 overs)                  264
+
+FoW: 1-10 (Curtis), 2-25 (Robinson), 3-27 (Smith), 4-28 (Gooch),
+     5-38 (Botham), 6-59 (Gower), 7-201 (Emburey),
+     8-223 (Foster), 9-255 (Fraser), 10-264 (Cook).
+
+Bowling                      O      M      R      W
+Lawson                      31      8     81      3
+Alderman                    27      7     66      5
+Hohns                       26     15     37      1
+Hughes                      14.4    2     45      1
+Border                       8      2     12      0
+Waugh                        4      0     17      0
+
+Australia 2nd innings (target: 78 runs)                         R   M   B  4 6
+MA Taylor             not out                                  37 111  83  4 0
+GR Marsh              c Robinson         b Emburey             31  94  94  1 0
+DC Boon               not out                                  10  16  23  2 0
+Extras                (nb 3)                                    3
+Total                 (1 wicket, 32.5 overs)                   81
+
+DNB: *AR Border, DM Jones, SR Waugh, +IA Healy, TV Hohns,
+     MG Hughes, GF Lawson, TM Alderman.
+
+FoW: 1-62 (Marsh).
+
+Bowling                      O      M      R      W
+Foster                       5      2      5      0
+Fraser                      10      0     28      0
+Emburey                     13      3     30      1
+Cook                         4.5    0     18      0
+
+<END>

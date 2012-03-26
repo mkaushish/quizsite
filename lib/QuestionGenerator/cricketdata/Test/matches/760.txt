@@ -1,0 +1,100 @@
+
+Test # 760
+The Ashes, 1975, 1st Test
+England v Australia
+Edgbaston, Birmingham
+10,11,12,14 July 1975 (5-day match)
+
+Result: Australia won by an innings and 85 runs
+Series: Australia leads the 4-match series 1-0
+
+Toss: England
+Umpires: HD Bird and AE Fagg
+Test debuts: A Turner (Australia); GA Gooch (England).
+
+Close of play:
+ Day 1: Australia 243/5 (Edwards 22*, Marsh 47*)
+ Day 2: Australia 359, England 83/7 (Underwood 8*, Old 0*)
+ Day 3: England 101, England 93/5 (Knott 10*, Old 2*)
+
+Australia 1st innings                                           R   M   B  4 6
+RB McCosker                              b Arnold              59 180 135  3 0
+A Turner              c Denness          b Snow                37 125  96  4 0
+*IM Chappell          c Fletcher         b Snow                52 109  95  7 0
+GS Chappell           lbw                b Old                  0  11   8  0 0
+R Edwards             c Gooch            b Old                 56 256 163  5 0
+KD Walters            c Old              b Greig               14  32  26  2 0
++RW Marsh             c Fletcher         b Arnold              61 110  97  8 1
+MHN Walker            c Knott            b Snow                 7  28  22  0 0
+JR Thomson            c Arnold           b Underwood           49  76  67  5 0
+DK Lillee             c Knott            b Arnold               3  12   8  0 0
+AA Mallett            not out                                   3  25  19  0 0
+Extras                (b 1, lb 8, nb 9)                        18
+Total                 (all out, 121 overs)                    359
+
+FoW: 1-80 (Turner), 2-126 (McCosker), 3-135 (GS Chappell),
+     4-161 (IM Chappell), 5-186 (Walters), 6-265 (Marsh),
+     7-286 (Walker), 8-332 (Edwards), 9-343 (Lillee),
+     10-359 (Thomson).
+
+Bowling                      O      M      R      W
+Arnold                      33      3     91      3
+Snow                        33      6     86      3
+Old                         33      7    111      2
+Greig                       15      2     43      1
+Underwood                    7      3     10      1
+
+England 1st innings                                             R   M   B  4 6
+JH Edrich             lbw                b Lillee              34 164 123  2 0
+DL Amiss              c Thomson          b Lillee               4  36  25  0 0
+KWR Fletcher          c Mallett          b Walker               6  14  13  1 0
+*MH Denness           c GS Chappell      b Walker               3  46  26  0 0
+GA Gooch              c Marsh            b Walker               0   1   3  0 0
+AW Greig              c Marsh            b Walker               8  15  12  2 0
++APE Knott                               b Lillee              14  33  21  2 0
+DL Underwood                             b Lillee              10  25  22  1 0
+CM Old                c GS Chappell      b Walker              13  30  26  2 0
+JA Snow               lbw                b Lillee               0   8   3  0 0
+GG Arnold             not out                                   0   2   1  0 0
+Extras                (lb 3, w 5, nb 1)                         9
+Total                 (all out, 45.3 overs)                   101
+
+FoW: 1-9 (Amiss), 2-24 (Fletcher), 3-46 (Denness), 4-46 (Gooch),
+     5-54 (Greig), 6-75 (Knott), 7-78 (Edrich), 8-87 (Underwood),
+     9-97 (Snow), 10-101 (Old).
+
+Bowling                      O      M      R      W
+Lillee                      15      8     15      5
+Thomson                     10      3     21      0
+Walker                      17.3    5     48      5
+Mallett                      3      1      8      0
+
+England 2nd innings (following on)                              R   M   B  4 6
+JH Edrich             c Marsh            b Walker               5  26  17  1 0
+DL Amiss              c sub (GJ Gilmour) b Thomson              5  85  78  0 0
+KWR Fletcher          c Walters          b Lillee              51 129  99  6 0
+*MH Denness                              b Thomson              8  25  23  0 0
+GA Gooch              c Marsh            b Thomson              0   7   7  0 0
+AW Greig              c Marsh            b Walker               7  32  26  1 0
++APE Knott            c McCosker         b Thomson             38 176 125  4 0
+CM Old                c Walters          b Lillee               7  22  22  0 0
+JA Snow               c Marsh            b Thomson             34  46  40  4 1
+DL Underwood                             b Mallett              3  17  14  0 0
+GG Arnold             not out                                   6   3   4  1 0
+Extras                (lb 5, w 2, nb 2)                         9
+Total                 (all out, 75.2 overs)                   173
+
+FoW: 1-7 (Edrich), 2-18 (Denness), 3-20 (Gooch), 4-52 (Greig),
+     5-90 (Fletcher), 6-100 (Old), 7-122 (Amiss), 8-151 (Knott),
+     9-167 (Snow), 10-173 (Underwood).
+
+Bowling                      O      M      R      W
+Lillee                      20      8     45      2
+Thomson                     18      8     38      5
+Walker                      24      9     47      2
+Mallett                     13.2    6     34      1
+
+*** Gooch bagged a pair on his debut
+*** DL Amiss (2) retired hurt on 2* from 7/0 to 100/6
+
+<END>

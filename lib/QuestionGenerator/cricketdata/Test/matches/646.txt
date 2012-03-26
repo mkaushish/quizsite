@@ -1,0 +1,133 @@
+
+Test # 646
+The Frank Worrell Trophy, 1968/69, 5th Test
+Australia v West Indies
+Sydney Cricket Ground
+14,15,16,18,19,20 February 1969 (6-day match)
+
+Result: Australia won by 382 runs
+Series: Australia wins the 5-match series 3-1
+
+Toss: West Indies
+Umpires: CJ Egar and LP Rowan
+Balls per over: 8
+
+Close of play:
+ Day 1: Australia 268/3 (Lawry 117*, Walters 122*)
+ Day 2: Australia 583/8 (Taber 34*, Gleeson 24*)
+ Day 3: Australia 619, West Indies 233/7 (Lloyd 27*, Griffith 16*)
+ Day 4: West Indies 279, Australia 239/3 (Redpath 96*, Walters 100*)
+ Day 5: Australia 394/8d, West Indies 303/7 (Nurse 100*, Griffith 3*)
+
+Australia 1st innings                                           R   M   B  4 6
+*WM Lawry                                b Griffith           151 500 367 12 0
+KR Stackpole                             b Hall                20  72  36  2 0
+IM Chappell           lbw                b Sobers               1  16  12  0 0
+IR Redpath            c Nurse            b Sobers               0   1   3  0 0
+KD Walters                               b Gibbs              242 480 412 24 0
+AP Sheahan            c Fredericks       b Griffith            27  58  64  0 0
+EW Freeman            c Hendriks         b Griffith            56  99  67  7 0
+GD McKenzie                              b Gibbs               19  28  28  3 0
++HB Taber             lbw                b Hall                48 180 135  2 0
+JW Gleeson            c Hendriks         b Hall                45 127 103  3 0
+AN Connolly           not out                                   1   3   1  0 0
+Extras                (lb 2, w 1, nb 6)                         9
+Total                 (all out, 152.7 overs)                  619
+
+FoW: 1-43 (Stackpole), 2-51 (Chappell), 3-51 (Redpath),
+     4-387 (Lawry), 5-435 (Sheahan), 6-453 (Walters),
+     7-483 (McKenzie), 8-543 (Freeman), 9-614 (Taber),
+     10-619 (Gleeson).
+
+Bowling                      O      M      R      W
+Hall                        35.7    3    157      3
+Griffith                    37      1    175      3
+Sobers                      28      4     94      2
+Gibbs                       40      8    133      2
+Carew                       10      2     44      0
+Lloyd                        2      1      7      0
+
+West Indies 1st innings                                         R   M   B  4 6
+RC Fredericks         c Taber            b Connolly            39 175 146  6 0
+MC Carew              c Taber            b Freeman             64 105  94  2 0
+RB Kanhai             c Taber            b Connolly            44  58  57  3 0
+*GS Sobers            c Taber            b Connolly            13  33  24  3 0
+BF Butcher            c Sheahan          b McKenzie            10  25  19  1 0
+CH Lloyd                                 b McKenzie            53 162 160  4 0
+SM Nurse              c Stackpole        b Connolly             9  14  16  0 0
++JL Hendriks          c Taber            b McKenzie             1   8   4  0 0
+CC Griffith           c Freeman          b Gleeson             27  80  60  3 0
+WW Hall                                  b Gleeson              1   6  10  0 0
+LR Gibbs              not out                                   4  42  32  0 0
+Extras                (b 2, lb 4, nb 8)                        14
+Total                 (all out, 76.6 overs)                   279
+
+FoW: 1-100 (Carew), 2-154 (Kanhai), 3-159 (Fredericks),
+     4-179 (Sobers), 5-179 (Butcher), 6-190 (Nurse),
+     7-193 (Hendriks), 8-257 (Griffith), 9-259 (Hall),
+     10-279 (Lloyd).
+
+Bowling                      O      M      R      W
+McKenzie                    22.6    2     90      3
+Connolly                    17      2     61      4
+Freeman                     12      2     48      1
+Gleeson                     19      8     53      2
+Chappell                     6      1     13      0
+
+Australia 2nd innings                                           R   M   B  4 6
+*WM Lawry             c Fredericks       b Griffith            17  88  79  0 0
+KR Stackpole          c Carew            b Hall                 6  43  24  0 0
+IM Chappell           c Hendriks         b Hall                10  26  22  1 0
+IR Redpath            c Sobers           b Gibbs              132 267 277 11 0
+KD Walters            c Fredericks       b Gibbs              103 196 181  7 0
+AP Sheahan            c Hendriks         b Sobers              34  70  91  4 0
+EW Freeman            c Carew            b Sobers              15  14  10  2 0
+GD McKenzie           c Carew            b Sobers              40  30  34  3 2
++HB Taber             not out                                  15  33  36  1 0
+JW Gleeson            not out                                   5   4   5  1 0
+Extras                (b 4, lb 6, w 1, nb 6)                   17
+Total                 (8 wickets dec, 92 overs)               394
+
+DNB: AN Connolly.
+
+FoW: 1-21 (Stackpole), 2-36 (Chappell), 3-40 (Lawry),
+     4-250 (Walters), 5-301 (Redpath), 6-329 (Freeman),
+     7-329 (Sheahan), 8-388 (McKenzie).
+
+Bowling                      O      M      R      W
+Hall                        12      0     47      2
+Griffith                    14      0     41      1
+Sobers                      26      3    117      3
+Gibbs                       33      2    133      2
+Carew                        5      0     26      0
+Lloyd                        2      0     13      0
+
+West Indies 2nd innings (target: 735 runs)                      R   M   B  4 6
+RC Fredericks         c Taber            b McKenzie             0   3   7  0 0
+MC Carew                                 b Connolly             3  10   5  0 0
+RB Kanhai             c Connolly         b McKenzie            18  26  23  2 0
+BF Butcher            c Gleeson          b Stackpole           31  45  42  4 0
+*GS Sobers            c Redpath          b Gleeson            113 144 126 20 0
+CH Lloyd              c Freeman          b Stackpole           11  18  14  1 0
+SM Nurse                                 b Gleeson            137 200 204 18 1
++JL Hendriks          c Stackpole        b McKenzie            16  48  51  3 0
+CC Griffith                              b Gleeson             15  58  43  0 0
+WW Hall               c Sheahan          b Chappell             0   3   4  0 0
+LR Gibbs              not out                                   0   3   3  0 0
+Extras                (b 1, lb 5, nb 2)                         8
+Total                 (all out, 64.2 overs)                   352
+
+FoW: 1-0 (Fredericks), 2-10 (Carew), 3-30 (Kanhai),
+     4-76 (Butcher), 5-102 (Lloyd), 6-220 (Sobers),
+     7-284 (Hendriks), 8-351 (Nurse), 9-352 (Hall),
+     10-352 (Griffith).
+
+Bowling                      O      M      R      W
+McKenzie                    16      1     93      3
+Connolly                    18      4     72      1
+Freeman                      2      0     16      0
+Gleeson                     15.2    1     84      3
+Chappell                     6      0     22      1
+Stackpole                    7      0     57      2
+
+<END>

@@ -1,0 +1,85 @@
+
+ODI # 1466
+ICC World Cup, 1999, 24th match, Group B
+New Zealand v Pakistan
+County Ground, Derby
+28 May 1999 (50-over match)
+
+Result: Pakistan won by 62 runs
+Points: Pakistan 2, New Zealand 0
+
+Toss: New Zealand
+Umpires: KT Francis (SL) and RE Koertzen (SA)
+TV umpire: P Willey
+Match referee: RS Madugalle (SL)
+Player of the match: Inzamam-ul-Haq
+
+Pakistan innings (50 overs maximum)                             R   M   B  4 6
+Saeed Anwar                              b Allott              28  44  25  4 0
+Shahid Afridi         c Parore           b Allott              17  25  22  2 1
+Abdul Razzaq          run out (Astle)                          33  92  82  4 0
+Ijaz Ahmed            run out (Harris)                         51 107  68  0 0
+Inzamam-ul-Haq        not out                                  73  86  61  7 0
+Saleem Malik                             b Allott               8  10   9  1 0
++Moin Khan            c McMillan         b Astle               19  20  17  3 0
+*Wasim Akram          lbw                b Cairns               1   6   7  0 0
+Azhar Mahmood         c Twose            b Allott              14  14  12  2 0
+Saqlain Mushtaq       not out                                   0   3   0  0 0
+Extras                (b 4, lb 10, w 8, nb 3)                  25
+Total                 (8 wickets, 50 overs)                   269
+
+DNB: Shoaib Akhtar.
+
+FoW: 1-40 (Shahid Afridi, 5.3 ov), 2-51 (Saeed Anwar, 9.5 ov),
+     3-127 (Abdul Razzaq, 28.3 ov), 4-163 (Ijaz Ahmed, 36.2 ov),
+     5-180 (Saleem Malik, 38.5 ov), 6-221 (Moin Khan, 43.4 ov),
+     7-226 (Wasim Akram, 45.2 ov), 8-255 (Azhar Mahmood, 48.6 ov).
+
+Bowling                      O      M      R      W
+Nash                        10      1     36      0 (1nb)
+Allott                      10      0     64      4 (2nb, 5w)
+Larsen                      10      0     35      0
+Cairns                       7      0     46      1 (1w)
+Harris                       8      0     47      0 (1w)
+Astle                        5      0     27      1 (1w)
+
+New Zealand innings (target: 270 runs from 50 overs)            R   M   B  4 6
+MJ Horne              c Moin Khan        b Shoaib Akhtar        1  22  20  0 0
+NJ Astle              c Moin Khan        b Shoaib Akhtar        0   7   6  0 0
+CD McMillan           c Saleem Malik     b Wasim Akram         20  38  25  3 0
+*SP Fleming           c Wasim Akram      b Azhar Mahmood       69 143 100  4 0
+RG Twose              c Inzamam-ul-Haq   b Saqlain Mushtaq     13  34  25  0 1
+CL Cairns             lbw                b Azhar Mahmood        0   3   4  0 0
++AC Parore            lbw                b Azhar Mahmood        0   1   1  0 0
+CZ Harris             c Abdul Razzaq     b Saqlain Mushtaq     42 111  96  0 0
+DJ Nash               not out                                  21  41  32  0 0
+GR Larsen             not out                                   3   3   4  0 0
+Extras                (lb 15, w 13, nb 10)                     38
+Total                 (8 wickets, 50 overs)                   207
+
+DNB: GI Allott.
+
+FoW: 1-2 (Astle, 1.5 ov), 2-12 (Horne, 5.1 ov),
+     3-35 (McMillan, 10.4 ov), 4-70 (Twose, 18.4 ov),
+     5-71 (Cairns, 19.4 ov), 6-71 (Parore, 19.5 ov),
+     7-154 (Fleming, 38.5 ov), 8-200 (Harris, 48.6 ov).
+
+Bowling                      O      M      R      W
+Wasim Akram                  9      0     27      1 (5nb, 2w)
+Shoaib Akhtar                7      1     31      2 (4nb, 1w)
+Azhar Mahmood               10      0     38      3 (2w)
+Saqlain Mushtaq             10      1     34      2 (1nb, 1w)
+Shahid Afridi                6      1     26      0 (2nb, 1w)
+Abdul Razzaq                 8      0     36      0 (2w)
+
+*** Ijaz Ahmed 51 off 68 balls, 0x4 0x6
+*** Inzamam-ul-Haq 50 off 50 balls, 3x4 0x6
+*** New Zealand innings: 1x7 ball over (26th over of the innings, 1st from
+    Abdur Razzaq, called by RE Koertzen)
+*** SP Fleming 50 off 76 balls, 3x4 0x6
+*** The official scorers appear to have missed 2 no balls in the New Zealand
+    innings (1 bowled by Wasim Akram, 1 bowled by Shahid Afridi). In order to
+    make the balls faced balance, the analysis of Akram and Afridi includes
+    the extra no balls (but not the runs)
+
+<END>

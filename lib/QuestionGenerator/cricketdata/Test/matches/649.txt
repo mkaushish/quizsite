@@ -1,0 +1,118 @@
+
+Test # 649
+England in Pakistan, 1968/69, 2nd Test
+Pakistan v England
+Dacca Stadium
+28 February, 1,2,3 March 1969 (4-day match)
+
+Result: Match drawn
+Series: 3-match series level 0-0
+
+Toss: Pakistan
+Umpires: Mohammad Gulzar Mir and Shujauddin
+
+Close of play:
+ Day 1: Pakistan 176/5 (Majid Khan 24*, Hanif Mohammad 1*)
+ Day 2: Pakistan 246, England 139/7 (D'Oliveira 16*, Snow 7*)
+ Day 3: England 274, Pakistan 77/3 (Mushtaq Mohammad 18*, Saeed Ahmed 10*)
+
+Pakistan 1st innings                                            R   M   B  4 6
+Mohammad Ilyas        c Knott            b Snow                20            0
+Salahuddin            c Brown            b Snow                 6            0
+*Saeed Ahmed                             b Brown               19            0
+Asif Iqbal                               b Brown               44            0
+Mushtaq Mohammad      c Cottam           b Snow                52            0
+Majid Khan            c Knott            b Brown               27            0
+Hanif Mohammad        lbw                b Snow                 8            0
+Intikhab Alam         lbw                b Underwood           25            0
++Wasim Bari           c Knott            b Cottam              14            0
+Niaz Ahmed            not out                                  16            0
+Pervez Sajjad                            b Cottam               2          0 0
+Extras                (b 4, lb 4, nb 5)                        13
+Total                 (all out, 110.1 overs)                  246
+
+FoW: 1-16 (Salahuddin), 2-39 (Saeed Ahmed),
+     3-55 (Mohammad Ilyas), 4-123 (Asif Iqbal),
+     5-168 (Mushtaq Mohammad), 6-184 (Majid Khan),
+     7-186 (Hanif Mohammad), 8-211 (Wasim Bari),
+     9-237 (Intikhab Alam), 10-246 (Pervez Sajjad).
+
+Bowling                      O      M      R      W
+Snow                        25      5     70      4
+Brown                       23      8     51      3
+Underwood                   27     13     45      1
+Cottam                      27.1    6     52      2
+D'Oliveira                   8      1     15      0
+
+England 1st innings                                             R   M   B  4 6
+JH Edrich             c Mushtaq Mohammad b Intikhab Alam       24            0
+RM Prideaux           c Hanif Mohammad   b Pervez Sajjad        4            0
+TW Graveney                              b Pervez Sajjad       46            0
+KWR Fletcher          c Hanif Mohammad   b Saeed Ahmed         16            0
+*MC Cowdrey           lbw                b Pervez Sajjad        7            0
+BL D'Oliveira         not out                                 114 285      9 0
++APE Knott                           c & b Pervez Sajjad        2          0 0
+DJ Brown              c Hanif Mohammad   b Saeed Ahmed          4            0
+JA Snow               c Majid Khan       b Niaz Ahmed           9 105        0
+DL Underwood          c Mohammad Ilyas   b Mushtaq Mohammad    22 100        0
+RMH Cottam            c Hanif Mohammad   b Saeed Ahmed          4  65        0
+Extras                (b 14, lb 8)                             22
+Total                 (all out, 132.4 overs)                  274
+
+FoW: 1-17 (Prideaux), 2-61 (Edrich), 3-96 (Fletcher),
+     4-100 (Graveney), 5-113 (Cowdrey), 6-117 (Knott),
+     7-130 (Brown), 8-170 (Snow), 9-236 (Underwood),
+     10-274 (Cottam).
+
+Bowling                      O      M      R      W
+Niaz Ahmed                  10      4     20      1
+Majid Khan                  11      4     15      0
+Pervez Sajjad               37      8     75      4
+Saeed Ahmed                 37.4   15     59      3
+Intikhab Alam               26      7     65      1
+Mushtaq Mohammad            11      3     18      1
+
+Pakistan 2nd innings                                            R   M   B  4 6
+Mohammad Ilyas        c Snow             b Cottam              21            0
+Salahuddin            lbw                b Underwood            5            0
+Asif Iqbal                               b Underwood           16            0
+Mushtaq Mohammad      c D'Oliveira       b Underwood           31            0
+*Saeed Ahmed          c Knott            b Underwood           33 200        0
+Majid Khan            not out                                  49            0
+Hanif Mohammad        lbw                b Underwood            8            0
+Intikhab Alam         not out                                  19            0
+Extras                (lb 5, nb 8)                             13
+Total                 (6 wickets dec, 101 overs)              195
+
+DNB: +Wasim Bari, Niaz Ahmed, Pervez Sajjad.
+
+FoW: 1-8 (Salahuddin), 2-48 (Mohammad Ilyas), 3-50 (Asif Iqbal),
+     4-97 (Saeed Ahmed), 5-129 (Mushtaq Mohammad),
+     6-147 (Hanif Mohammad).
+
+Bowling                      O      M      R      W
+Snow                        12      7     15      0
+Brown                        6      1     18      0
+Underwood                   44     15     94      5
+Cottam                      30     17     43      1
+D'Oliveira                   9      2     12      0
+
+England 2nd innings (target: 168 runs)                          R   M   B  4 6
+JH Edrich             not out                                  12            0
+RM Prideaux           not out                                  18            0
+Extras                (b 2, nb 1)                               3
+Total                 (0 wickets, 20 overs)                    33
+
+DNB: TW Graveney, KWR Fletcher, *MC Cowdrey, BL D'Oliveira,
+     +APE Knott, DJ Brown, JA Snow, DL Underwood, RMH Cottam.
+
+Bowling                      O      M      R      W
+Niaz Ahmed                   2      0      2      0
+Pervez Sajjad                3      2      1      0
+Saeed Ahmed                  3      2      4      0
+Intikhab Alam                4      0     19      0
+Asif Iqbal                   4      2      2      0
+Hanif Mohammad               3      2      1      0
+Mohammad Ilyas               1      0      1      0
+
+<END>

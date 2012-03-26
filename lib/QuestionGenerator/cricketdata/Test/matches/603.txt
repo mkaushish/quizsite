@@ -1,0 +1,99 @@
+
+Test # 603
+England in New Zealand, 1965/66, 2nd Test
+New Zealand v England
+Carisbrook, Dunedin
+4,5,7,8 March 1966 (4-day match)
+
+Result: Match drawn
+Series: 3-match series level 0-0
+
+Toss: New Zealand
+Umpires: WJC Gwynne and WT Martin
+
+Close of play:
+ Day 1: New Zealand 83/5 (Pollard 5*, Bartlett 0*)
+ Day 2: New Zealand 192, England 103/3 (Cowdrey 23*, Smith 20*)
+ Day 3: England 181/5 (Cowdrey 57*, Murray 38*)
+
+New Zealand 1st innings                                         R   M   B  4 6
+GP Bilby              c Murray           b Jones                3  21      0 0
+MJF Shrimpton         c Boycott          b Higgs               38 187      3 0
+BE Congdon            c Murray           b Jones                0  18      0 0
+*BW Sinclair                             b Knight              33 104      1 0
+V Pollard             c Murray           b Higgs                8  63      0 0
+RW Morgan             c Murray           b Higgs                0   1   1  0 0
+GA Bartlett           c Parfitt          b Allen                6  46      1 0
++EC Petrie            c Smith            b Jones               28 136      2 0
+RC Motz               c Higgs            b Knight              57 117      5 3
+RS Cunis              c Boycott          b Allen                8  28      1 0
+N Puna                not out                                   3  22      0 0
+Extras                (b 4, lb 4)                               8
+Total                 (all out, 105.4 overs)                  192
+
+FoW: 1-4 (Bilby), 2-6 (Congdon), 3-66 (Sinclair),
+     4-83 (Shrimpton), 5-83 (Morgan), 6-92 (Pollard),
+     7-100 (Bartlett), 8-179 (Petrie), 9-181 (Motz),
+     10-192 (Cunis).
+
+Bowling                      O      M      R      W
+Jones                       26     11     46      3
+Higgs                       20      6     29      3
+Knight                      32     14     41      2
+Allen                       27.4    9     68      2
+
+England 1st innings                                             R   M   B  4 6
+G Boycott                                b Bartlett             5  23      0 0
+WE Russell                               b Motz                11  64      0 0
+JH Edrich             c Bilby            b Cunis               36  98      3 0
+MC Cowdrey            not out                                  89 351      7 0
+*MJK Smith            c Pollard          b Bartlett            20  45      2 0
+PH Parfitt            c Pollard          b Puna                 4  35      0 0
++JT Murray            c Sinclair         b Puna                50 116      3 2
+BR Knight             c Bartlett         b Motz                12  12      1 0
+DA Allen                                 b Cunis                9  59      0 0
+K Higgs               not out                                   0  19      0 0
+Extras                (b 4, lb 6, nb 8)                        18
+Total                 (8 wickets dec, 104 overs)              254
+
+DNB: IJ Jones.
+
+FoW: 1-9 (Boycott), 2-32 (Russell), 3-72 (Edrich), 4-103 (Smith),
+     5-119 (Parfitt), 6-200 (Murray), 7-213 (Knight),
+     8-241 (Allen).
+
+Bowling                      O      M      R      W
+Motz                        32      7     76      2
+Bartlett                    29      4     70      2
+Cunis                       28      7     49      2
+Puna                        14      2     40      2
+Pollard                      1      0      1      0
+
+New Zealand 2nd innings                                         R   M   B  4 6
+GP Bilby              c Parfitt          b Higgs               21  56      3 0
+V Pollard                                b Higgs                2  19      0 0
+BE Congdon                               b Parfitt             19  88      2 0
+*BW Sinclair          c Knight           b Jones               39 111      4 0
+RW Morgan             c Smith            b Allen                3  12      0 0
+MJF Shrimpton                            b Allen                0   2   4  0 0
+GA Bartlett           c Knight           b Allen                4   4      1 0
++EC Petrie            not out                                  13 110      1 0
+RC Motz                                  b Jones                1  17      0 0
+RS Cunis              lbw                b Allen                9  17      1 0
+N Puna                not out                                  18  35      2 0
+Extras                (b 10, lb 6, nb 2)                       18
+Total                 (9 wickets, 82 overs)                   147
+
+FoW: 1-8 (Pollard), 2-27 (Bilby), 3-66 (Congdon), 4-75 (Morgan),
+     5-75 (Shrimpton), 6-79 (Bartlett), 7-100 (Sinclair),
+     8-102 (Motz), 9-112 (Cunis).
+
+Bowling                      O      M      R      W
+Jones                       15      4     32      2
+Higgs                       13      7     12      2
+Knight                       3      1      3      0
+Allen                       33     17     46      4
+Parfitt                     17      6     30      1
+Edrich                       1      0      6      0
+
+<END>

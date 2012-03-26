@@ -1,0 +1,124 @@
+
+Test # 33
+The Ashes, 1890, 1st Test
+England v Australia
+Lord's, London
+21,22,23 July 1890 (3-day match)
+
+Result: England won by 7 wickets
+Series: England leads the 3-match series 1-0
+
+Toss: Australia
+Umpires: A Hill and CK Pullin
+Balls per over: 5
+Test debuts: JE Barrett, EJK Burn, PC Charlton, SE Gregory,
+ H Trumble (Australia); G MacGregor (England).
+
+Close of play:
+ Day 1: Australia 132, England 108/5 (Ulyett 45*, Peel 8*)
+ Day 2: England 173, Australia 168/9 (Barrett 63*, Burn 15*)
+
+Australia 1st innings                                           R   M   B  4 6
+JJ Lyons                                 b Barnes              55  45      8 0
+CTB Turner                               b Attewell            24            0
+*WL Murdoch                          c & b Attewell             9            0
+JE Barrett            c Grace            b Ulyett               9            0
+GHS Trott             run out                                  12            0
+SE Gregory                               b Attewell             0          0 0
+PC Charlton           st MacGregor       b Peel                 6            0
++JM Blackham                             b Peel                 5            0
+JJ Ferris                                b Attewell             8            0
+EJK Burn              st MacGregor       b Peel                 0          0 0
+H Trumble             not out                                   1          0 0
+Extras                (lb 3)                                    3
+Total                 (all out, 86 overs)                     132
+
+FoW: 1-66 (Lyons), 2-82 (Murdoch), 3-93 (Turner),
+     4-109 (Barrett), 5-111 (Gregory), 6-113 (Trott),
+     7-120 (Blackham), 8-131 (Ferris), 9-131 (Charlton),
+     10-132 (Burn).
+
+Bowling                      O      M      R      W
+Lohmann                     21     10     43      0
+Peel                        24     11     28      3
+Attewell                    32     15     42      4
+Barnes                       6      2     16      1
+Ulyett                       3      3      0      1
+
+England 1st innings                                             R   M   B  4 6
+*WG Grace                            c & b Turner               0   1   1  0 0
+A Shrewsbury snr      st Blackham        b Ferris               4  30        0
+W Gunn                run out                                  14            0
+WW Read                              c & b Ferris               1          0 0
+JM Read                                  b Lyons               34            0
+G Ulyett                                 b Lyons               74            0
+R Peel                               c & b Trumble             16            0
+W Barnes                                 b Lyons                9            0
+GA Lohmann                           c & b Lyons               19            0
++G MacGregor                             b Lyons                0          0 0
+W Attewell            not out                                   0          0 0
+Extras                (lb 2)                                    2
+Total                 (all out, 110.1 overs)                  173
+
+FoW: 1-0 (Grace), 2-14 (Shrewsbury), 3-20 (WW Read), 4-20 (Gunn),
+     5-92 (JM Read), 6-133 (Peel), 7-147 (Ulyett),
+     8-162 (Barnes), 9-166 (MacGregor), 10-173 (Lohmann).
+
+Bowling                      O      M      R      W
+Turner                      35     17     53      1
+Ferris                      40     17     55      2
+Trott                        3      0     16      0
+Lyons                       20.1    7     30      5
+Trumble                     12      7     17      1
+
+Australia 2nd innings                                           R   M   B  4 6
+JE Barrett            not out                                  67 280        0
+CTB Turner            lbw                b Peel                 2          0 0
+GHS Trott                                b Peel                 0          0 0
+JJ Lyons              c Attewell         b Peel                33  25        0
+*WL Murdoch                              b Lohmann             19            0
+SE Gregory            c Lohmann          b Barnes               9            0
+PC Charlton           lbw                b Grace                2          0 0
++JM Blackham          c Barnes           b Grace               10            0
+JJ Ferris             lbw                b Lohmann              8            0
+H Trumble             c Barnes           b Lohmann              5            0
+EJK Burn              c MacGregor        b Attewell            19            0
+Extras                (lb 2)                                    2
+Total                 (all out, 140.2 overs)                  176
+
+FoW: 1-6 (Turner), 2-8 (Trott), 3-48 (Lyons), 4-84 (Murdoch),
+     5-106 (Gregory), 6-109 (Charlton), 7-119 (Blackham),
+     8-136 (Ferris), 9-142 (Trumble), 10-176 (Burn).
+
+Bowling                      O      M      R      W
+Lohmann                     29     19     28      3
+Peel                        43     23     59      3
+Attewell                    42.2   22     54      1
+Barnes                       6      3     10      1
+Ulyett                       6      2     11      0
+Grace                       14     10     12      2
+
+England 2nd innings (target: 136 runs)                          R   M   B  4 6
+*WG Grace             not out                                  75            0
+A Shrewsbury snr      lbw                b Ferris              13            0
+W Gunn                               c & b Ferris              34            0
+WW Read                                  b Trumble             13            0
+JM Read               not out                                   2          0 0
+Extras                                                          0
+Total                 (3 wickets, 75 overs)                   137
+
+DNB: G Ulyett, R Peel, W Barnes, GA Lohmann, +G MacGregor,
+     W Attewell.
+
+FoW: 1-27 (Shrewsbury), 2-101 (Gunn), 3-135 (WW Read).
+
+Bowling                      O      M      R      W
+Turner                      22     12     31      0
+Ferris                      25     11     42      2
+Lyons                       20      6     43      0
+Trumble                      8      1     21      1
+
+*** Barrett playing in his first Test match, became the first to carry his
+    bat through a completed innings in a Test between Australia and England.
+
+<END>

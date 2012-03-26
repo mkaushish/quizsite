@@ -1,0 +1,73 @@
+
+Test # 472
+England in New Zealand, 1958/59, 2nd Test
+New Zealand v England
+Eden Park, Auckland
+14,16,17,18 March 1959 (4-day match)
+
+Result: Match drawn
+Series: England wins the 2-match series 1-0
+
+Toss: New Zealand
+Umpires: J Cowie and RWR Shortt
+
+Close of play:
+ Day 1: New Zealand 181, England 0/0 (Richardson 0*, Watson 0*)
+ Day 2: England 311/7 (May 24*, Trueman 21*, 118 ov)
+ Day 3: No play
+ Day 4: No play
+
+New Zealand 1st innings                                         R   M   B  4 6
+BA Bolton             run out                                   0  14  11  0 0
+RM Harris             c Swetman          b Dexter              12  97  65  1 0
+SN McGregor           hit wicket         b Trueman              1  25  19  0 0
+JW Guy                                   b Dexter               1  25  19  0 0
+B Sutcliffe                              b Lock                61 163 131  7 1
+*JR Reid                                 b Dexter               3  46  44  0 0
+JT Sparling           c Swetman          b Trueman             25 111  91  2 0
+AM Moir               c Graveney         b Trueman             10  44  32  0 0
++EC Petrie            c Trueman          b Lock                13  90  80  1 0
+RW Blair              c Cowdrey          b Tyson               22  40  31  2 1
+KW Hough              not out                                  24  17  14  5 0
+Extras                (b 7, lb 1, nb 1)                         9
+Total                 (all out, 89.3 overs)                   181
+
+FoW: 1-3 (Bolton), 2-6 (McGregor), 3-11 (Guy), 4-16 (Harris),
+     5-41 (Reid), 6-98 (Sutcliffe), 7-116 (Sparling),
+     8-125 (Moir), 9-157 (Blair), 10-181 (Petrie).
+
+Bowling                      O      M      R      W
+Trueman                     26     12     46      3
+Tyson                       20      9     50      1
+Dexter                      19      8     23      3
+Lock                        20.3   12     29      2
+Mortimore                    4      1     24      0
+
+England 1st innings                                             R   M   B  4 6
+PE Richardson         c Bolton           b Moir                67 188      5 0
+W Watson                                 b Hough               11  51      0 0
+TW Graveney                              b Moir                46  60      8 0
+*PBH May              not out                                 124 250     14 0
+MC Cowdrey                               b Hough                5  20      0 0
+ER Dexter             c Petrie           b Moir                 1   9      0 0
+JB Mortimore                             b Hough                9  49      1 0
++R Swetman            run out                                  17  47      1 0
+FS Trueman            not out                                  21  42      3 0
+Extras                (b 4, lb 6)                              10
+Total                 (7 wickets, 118 overs)                  311
+
+DNB: GAR Lock, FH Tyson.
+
+FoW: 1-26 (Watson), 2-94 (Graveney), 3-165 (Richardson),
+     4-182 (Cowdrey), 5-183 (Dexter), 6-223 (Mortimore),
+     7-261 (Swetman).
+
+Bowling                      O      M      R      W
+Blair                       27      6     69      0
+Hough                       38     12     79      3
+Reid                         4      1     19      0
+Sparling                    20      7     48      0
+Moir                        28      4     84      3
+Sutcliffe                    1      0      2      0
+
+<END>

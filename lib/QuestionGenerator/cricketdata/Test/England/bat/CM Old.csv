@@ -1,0 +1,67 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+706, 1973-12-30, 2, 8, India, not out, , 33, 106, 90, 3, 1
+706, 1973-12-30, 4, 8, India, not out, , 17, 92, 78, 1, 0
+708, 1973-01-12, 1, 8, India, c Durani, Chandrasekhar, 4, 20, 15, 1, 0
+708, 1973-01-12, 3, 8, India, c Bedi, Prasanna, 9, 83, 60, 1, 0
+709, 1973-01-25, 2, 8, India, lbw, Chandrasekhar, 4, 28, 34, 0, 0
+711, 1973-02-06, 2, 9, India,                c &, Venkataraghavan, 28, 45, 43, 6, 0
+715, 1973-03-02, 1, 8, Pakistan, , Pervez Sajjad, 0, 2, na, 0, 0
+715, 1973-03-02, 3, 8, Pakistan, not out, , 17, 20, na, 3, 0
+723, 1973-06-21, 1, 8, New Zealand, , Howarth, 7, 18, 18, 1, 0
+723, 1973-06-21, 3, 8, New Zealand, c Congdon, Pollard, 7, 9, 10, 1, 0
+724, 1973-07-05, 2, 8, New Zealand, lbw, Collinge, 34, 93, 73, 5, 0
+726, 1973-08-09, 2, 9, West Indies, run out, , 0, 3, 1, 0, 0
+731, 1974-02-02, 1, 8, West Indies, c Fredericks, Ali, 11, 41, 28, 0, 0
+731, 1974-02-02, 3, 8, West Indies,                c &, Gibbs, 3, 20, 26, 0, 0
+732, 1974-02-16, 1, 8, West Indies, c Murray, Julien, 2, 10, 2, 0, 0
+732, 1974-02-16, 3, 9, West Indies, , Barrett, 19, 101, 104, 1, 0
+734, 1974-03-06, 1, 8, West Indies, c Murray, Roberts, 1, 22, 25, 0, 0
+734, 1974-03-06, 3, 8, West Indies, , Lloyd, 0, 1, 1, 0, 0
+737, 1974-03-22, 1, 9, West Indies, c Kanhai, Boyce, 14, 39, 36, 2, 1
+739, 1974-06-06, 1, 9, India, c Engineer, Chandrasekhar, 12, 26, 17, 1, 0
+740, 1974-06-20, 1, 8, India, , Abid Ali, 3, 10, 9, 0, 0
+742, 1974-07-25, 2, 8, Pakistan, c Asif Masood, Imran Khan, 0, 1, 3, 0, 0
+742, 1974-07-25, 4, 8, Pakistan, not out, , 10, 30, 23, 1, 0
+743, 1974-08-08, 2, 8, Pakistan, c Wasim Bari, Mushtaq Mohammad, 41, 90, 74, 7, 0
+744, 1974-08-22, 2, 9, Pakistan, lbw, Intikhab Alam, 65, 241, 165, 6, 0
+748, 1974-12-13, 1, 9, Australia, c GS Chappell, IM Chappell, 7, 5, 7, 1, 0
+748, 1974-12-13, 3, 9, Australia, c Thomson, Mallett, 43, 64, 48, 5, 2
+755, 1975-02-08, 2, 8, Australia, , Dymock, 0, 5, 3, 0, 0
+757, 1975-02-20, 1, 8, New Zealand, not out, , 9, 17, 10, 2, 0
+760, 1975-07-10, 2, 9, Australia, c GS Chappell, Walker, 13, 30, 26, 2, 0
+760, 1975-07-10, 3, 8, Australia, c Walters, Lillee, 7, 22, 22, 0, 0
+762, 1975-08-14, 1, 9, Australia, , Gilmour, 5, 31, 26, 0, 0
+762, 1975-08-14, 3, 6, Australia, st Marsh, Mallett, 10, 15, 16, 2, 0
+763, 1975-08-28, 2, 9, Australia, not out, , 25, 71, 51, 4, 0
+763, 1975-08-28, 3, 8, Australia, c IM Chappell, Walters, 0, 4, 5, 0, 0
+777, 1976-06-03, 2, 8, West Indies, , Daniel, 33, 81, 62, 7, 0
+778, 1976-06-17, 1, 8, West Indies, , Holder, 19, 82, 40, 3, 0
+778, 1976-06-17, 3, 9, West Indies, run out, , 13, 63, 28, 1, 0
+788, 1976-12-17, 1, 8, India, c Viswanath, Bedi, 15, 102, 76, 1, 0
+791, 1977-01-01, 2, 8, India, c Madan Lal, Prasanna, 52, 186, 170, 4, 2
+793, 1977-01-14, 1, 9, India, c Amarnath, Bedi, 2, 17, 20, 0, 0
+793, 1977-01-14, 3, 8, India, c Chandrasekhar, Prasanna, 4, 8, 8, 1, 0
+794, 1977-01-28, 2, 8, India, lbw, Prasanna, 9, 56, 55, 1, 0
+794, 1977-01-28, 4, 8, India, lbw, Chandrasekhar, 13, 40, 34, 2, 0
+800, 1977-03-12, 2, 9, Australia, c Marsh, Lillee, 3, 27, 17, 0, 0
+800, 1977-03-12, 4, 8, Australia, c Chappell, Lillee, 2, 5, 4, 0, 0
+804, 1977-06-16, 1, 8, Australia, c Marsh, Walker, 9, 31, 27, 1, 0
+804, 1977-06-16, 3, 8, Australia, c Walters, Walker, 0, 2, 3, 0, 0
+805, 1977-07-07, 2, 8, Australia, c Marsh, Walker, 37, 115, 90, 5, 0
+810, 1977-12-14, 2, 7, Pakistan, c Mudassar Nazar, Iqbal Qasim, 2, 17, 17, 0, 0
+817, 1978-02-10, 2, 8, New Zealand, , RJ Hadlee, 10, 36, 36, 0, 0
+817, 1978-02-10, 4, 8, New Zealand, lbw, RJ Hadlee, 9, 27, 20, 2, 0
+818, 1978-02-24, 1, 9, New Zealand, , Hadlee, 8, 14, 12, 2, 0
+818, 1978-02-24, 3, 5, New Zealand, , Collinge, 1, 7, 3, 0, 0
+825, 1978-06-01, 2, 8, Pakistan, c Mudassar Nazar, Iqbal Qasim, 5, 40, 22, 0, 0
+826, 1978-06-15, 1, 9, Pakistan, c Mohsin Khan, Sikander Bakht, 0, 1, 1, 0, 0
+828, 1978-07-27, 2, 10, New Zealand, c Edwards, Cairns, 16, 68, 54, 3, 0
+834, 1978-12-01, 2, 10, Australia, not out, , 29, 113, 102, 2, 0
+884, 1980-08-07, 1, 10, West Indies, c Garner, Marshall, 6, 9, 11, 1, 0
+885, 1980-08-28, 2, 10, Australia, not out, , 24, 19, 15, 2, 2
+896, 1981-02-13, 2, 11, West Indies, , Roberts, 1, 17, 6, 0, 0
+896, 1981-02-13, 3, 11, West Indies, c sub, Garner, 0, 1, 1, 0, 0
+905, 1981-07-16, 2, 10, Australia, c Border, Alderman, 0, 4, 4, 0, 0
+905, 1981-07-16, 3, 10, Australia, , Lawson, 29, 54, 31, 6, 0
+906, 1981-07-30, 1, 10, Australia, not out, , 11, 35, 23, 0, 0
+906, 1981-07-30, 3, 8, Australia, c Marsh, Alderman, 23, 27, 24, 3, 0

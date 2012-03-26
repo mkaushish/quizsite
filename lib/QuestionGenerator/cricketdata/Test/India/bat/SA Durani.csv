@@ -1,0 +1,51 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+484, 1960-01-01, 1, 10, Australia, c Stevens, Benaud, 18, na, na, na, 0
+513, 1961-11-11, 2, 6, England, c Barber, Allen, 71, 158, na, 10, 2
+513, 1961-11-11, 4, 6, England,                c &, Richardson, 0, na, na, 0, 0
+514, 1961-12-01, 1, 4, England, c Lock, Dexter, 37, 168, na, 5, 0
+516, 1961-12-13, 1, 7, England, , Allen, 18, 40, na, 4, 0
+518, 1962-12-30, 1, 8, England, , Allen, 43, 116, na, 8, 0
+518, 1962-12-30, 3, 7, England, c Parfitt, Lock, 0, 3, 3, 0, 0
+520, 1962-01-10, 1, 7, England, , Allen, 21, 32, na, 3, 0
+520, 1962-01-10, 3, 8, England, c Millman, Lock, 9, 29, na, 2, 0
+525, 1962-02-16, 1, 7, West Indies,                c &, Sobers, 56, 138, na, 8, 0
+525, 1962-02-16, 3, 7, West Indies, c Worrell, Sobers, 7, na, na, na, 0
+526, 1962-03-07, 1, 7, West Indies, lbw, Hall, 17, na, na, na, 0
+526, 1962-03-07, 3, 8, West Indies, , Gibbs, 0, na, na, 0, 0
+527, 1962-03-23, 1, 10, West Indies, not out, , 48, na, na, na, 0
+527, 1962-03-23, 3, 10, West Indies, c Hunte, Gibbs, 5, na, na, na, 0
+528, 1962-04-04, 2, 9, West Indies, c Worrell, Rodriguez, 12, na, na, na, 0
+528, 1962-04-04, 3, 3, West Indies, c Rodriguez, Sobers, 104, na, na, na, 0
+529, 1962-04-13, 2, 3, West Indies, c Allan, King, 6, na, na, na, 0
+529, 1962-04-13, 4, 3, West Indies, lbw, King, 4, na, na, na, 0
+551, 1964-01-10, 1, 6, England, lbw, Titmus, 8, 32, na, 2, 0
+551, 1964-01-10, 3, 5, England, c Parks, Mortimore, 3, 14, na, 0, 0
+552, 1964-01-21, 1, 8, England, c Binks, Price, 90, 183, na, 11, 0
+552, 1964-01-21, 3, 6, England, c Knight, Titmus, 3, 24, na, 0, 0
+554, 1964-01-29, 1, 8, England, c Binks, Price, 8, 20, na, 1, 0
+554, 1964-01-29, 3, 7, England, c Cowdrey, Larter, 25, 53, na, 3, 1
+556, 1964-02-08, 1, 7, England, c Smith, Wilson, 16, 95, na, 1, 0
+557, 1964-02-15, 2, 8, England, , Mortimore, 16, 109, na, 2, 0
+557, 1964-02-15, 3, 5, England, not out, , 61, 34, na, 5, 3
+566, 1964-10-02, 2, 8, Australia, c Grout, McKenzie, 5, 27, na, 1, 0
+566, 1964-10-02, 4, 10, Australia, c O'Neill, Veivers, 10, 36, na, 1, 0
+567, 1964-10-10, 2, 3, Australia, c Jarman, Simpson, 12, 32, na, 1, 0
+567, 1964-10-10, 4, 3, Australia, c Cowper, Simpson, 31, 96, na, 1, 0
+568, 1964-10-17, 2, 3, Australia, c Simpson, Veivers, 12, 57, na, 0, 0
+579, 1965-02-27, 1, 7, New Zealand, , Reid, 34, 96, na, 4, 0
+581, 1965-03-05, 2, 8, New Zealand, c sub, Yuile, 20, 51, na, 3, 0
+581, 1965-03-05, 4, 4, New Zealand, , Vivian, 23, 21, na, 3, 1
+582, 1965-03-12, 2, 3, New Zealand, c Morgan, Taylor, 4, 12, na, 1, 0
+582, 1965-03-12, 3, 3, New Zealand, c Ward, Taylor, 6, 43, na, 1, 0
+610, 1966-12-13, 1, 7, West Indies, , Sobers, 55, 119, na, 9, 1
+610, 1966-12-13, 3, 7, West Indies, c Hendriks, Gibbs, 17, 50, na, 3, 0
+680, 1971-02-18, 1, 5, West Indies, , Barrett, 13, 35, na, 2, 0
+683, 1971-03-06, 2, 3, West Indies,                c &, Noreiga, 9, 30, na, na, 0
+683, 1971-03-06, 4, 3, West Indies, , Barrett, 0, na, na, 0, 0
+684, 1971-03-19, 2, 5, West Indies, lbw, Sobers, 2, na, na, 0, 0
+706, 1973-12-30, 1, 5, England, , Greig, 4, 36, 25, 1, 0
+706, 1973-12-30, 3, 3, England, c Fletcher, Greig, 53, 199, 139, 7, 1
+708, 1973-01-12, 2, 4, England,                c &, Gifford, 38, 203, 161, 4, 1
+708, 1973-01-12, 4, 4, England, lbw, Pocock, 38, 99, 77, 3, 2
+711, 1973-02-06, 1, 4, England, c Underwood, Pocock, 73, 210, 150, 10, 2
+711, 1973-02-06, 3, 3, England, c Knott, Pocock, 37, 66, 61, 6, 1

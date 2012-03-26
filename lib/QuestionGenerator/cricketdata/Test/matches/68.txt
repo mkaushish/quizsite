@@ -1,0 +1,115 @@
+
+Test # 68
+The Ashes, 1901/02, 4th Test
+Australia v England
+Sydney Cricket Ground
+14,15,17,18 February 1902 (timeless match)
+
+Result: Australia won by 7 wickets
+Series: Australia leads the 5-match series 3-1
+
+Toss: England
+Umpires: C Bannerman and R Callaway
+Test debuts: AJY Hopkins, JV Saunders (Australia); CP McGahey (England).
+
+Close of play:
+ Day 1: England 266/6 (McGahey 18*, Lilley 10*)
+ Day 2: England 317, Australia 148/5 (Noble 51*, Armstrong 11*)
+ Day 3: Australia 299, England 77/7 (McGahey 12*, Jones 6*)
+
+England 1st innings                                             R   M   B  4 6
+*AC MacLaren          c Duff             b Saunders            92 190     15 0
+TW Hayward                               b Saunders            41  95      8 0
+JT Tyldesley          c Kelly            b Noble               79 174     14 1
+WG Quaife             c Kelly            b Saunders             4  20        0
+GL Jessop             c Noble            b Saunders             0   1   1  0 0
+LC Braund             lbw                b Trumble             17  40        0
+CP McGahey                               b Trumble             18  35        0
++AFA Lilley           c Kelly            b Noble               40  65      5 0
+AO Jones              c Kelly            b Trumble             15  46        0
+JR Gunn               not out                                   0   7      0 0
+C Blythe                                 b Noble                4   5        0
+Extras                (b 5, nb 2)                               7
+Total                 (all out, 138.2 overs)                  317
+
+FoW: 1-73 (Hayward), 2-179 (MacLaren), 3-188 (Quaife),
+     4-188 (Jessop), 5-225 (Braund), 6-245 (Tyldesley),
+     7-267 (McGahey), 8-312 (Lilley), 9-312 (Jones),
+     10-317 (Blythe).
+
+Bowling                      O      M      R      W
+Noble                       33.2   12     78      3
+Saunders                    43     11    119      4
+Howell                      22     10     40      0
+Trumble                     38     18     65      3
+Armstrong                    2      1      8      0
+
+Australia 1st innings                                           R   M   B  4 6
+*H Trumble            c MacLaren         b Jessop               6   6      1 0
+VT Trumper            c Braund           b Jessop               7  15        0
+C Hill                c Jones            b Jessop              21  37        0
+SE Gregory            c Braund           b Jessop               5  10        0
+MA Noble              lbw                b Braund              56 165      6 0
+RA Duff               c Lilley           b Blythe              39  88        0
+WW Armstrong                             b Braund              55 115      7 1
+AJY Hopkins           c Lilley           b Braund              43 114        0
++JJ Kelly             not out                                  24  82        0
+WP Howell             c MacLaren         b Gunn                35  14  15  6 1
+JV Saunders                              b Braund               0  10      0 0
+Extras                (b 7, nb 1)                               8
+Total                 (all out, 139 overs)                    299
+
+FoW: 1-7 (Trumble), 2-18 (Trumper), 3-30 (Gregory), 4-48 (Hill),
+     5-119 (Duff), 6-160 (Noble), 7-205 (Armstrong),
+     8-252 (Hopkins), 9-288 (Howell), 10-299 (Saunders).
+
+Bowling                      O      M      R      W
+Braund                      60     25    118      4
+Gunn                        16      5     48      1
+Jessop                      26      5     68      4
+Blythe                      37     17     57      1
+
+England 2nd innings                                             R   M   B  4 6
+*AC MacLaren          c Kelly            b Noble                5   8        0
+TW Hayward                               b Noble               12  54        0
+JT Tyldesley          c Trumble          b Saunders            10  15        0
+WG Quaife             lbw                b Noble               15  50        0
+GL Jessop                                b Saunders            15  19        0
+LC Braund                                b Saunders             0          0 0
+CP McGahey            c Kelly            b Saunders            13            0
++AFA Lilley           c Trumble          b Noble                0          0 0
+AO Jones              c Kelly            b Noble                6            0
+JR Gunn               not out                                  13            0
+C Blythe              c Kelly            b Saunders             8            0
+Extras                (lb 2)                                    2
+Total                 (all out, 48.1 overs)                    99
+
+FoW: 1-5 (MacLaren), 2-24 (Tyldesley), 3-36 (Hayward),
+     4-57 (Jessop), 5-57 (Quaife), 6-57 (Braund), 7-60 (Lilley),
+     8-78 (McGahey), 9-88 (Jones), 10-99 (Blythe).
+
+Bowling                      O      M      R      W
+Saunders                    24.1    8     43      5
+Noble                       24      7     54      5
+
+Australia 2nd innings (target: 118 runs)                        R   M   B  4 6
+RA Duff               not out                                  51  97      6 0
+VT Trumper            lbw                b Blythe              25  35      4 0
+C Hill                c Lilley           b Gunn                30  37        0
+WP Howell             c sub              b Gunn                 0   1   1  0 0
+SE Gregory            not out                                  12  20        0
+Extras                (lb 1, nb 2)                              3
+Total                 (3 wickets, 36.3 overs)                 121
+
+DNB: *H Trumble, MA Noble, WW Armstrong, AJY Hopkins, +JJ Kelly,
+     JV Saunders.
+
+FoW: 1-50 (Trumper), 2-105 (Hill), 3-105 (Howell).
+
+Bowling                      O      M      R      W
+Braund                      15      2     55      0
+Gunn                         8.3    1     17      2
+Jessop                       7      0     23      0
+Blythe                       6      0     23      1
+
+<END>

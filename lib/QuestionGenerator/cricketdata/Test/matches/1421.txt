@@ -1,0 +1,132 @@
+
+Test # 1421
+South Africa in England, 1998, 4th Test
+England v South Africa
+Trent Bridge, Nottingham
+23,24,25,26,27 July 1998 (5-day match)
+
+Result: England won by 8 wickets
+Series: 5-match series level 1-1
+
+Toss: England
+Umpires: RS Dunne (NZ) and MJ Kitchen
+TV umpire: R Julian
+Match referee: AM Ebrahim (Zim)
+Test debuts: A Flintoff (England); S Elworthy (South Africa).
+Player of the match: ARC Fraser
+
+Close of play:
+ Day 1: South Africa 302/7 (Cronje 113*, Elworthy 0*)
+ Day 2: South Africa 374, England 202/4 (Ramprakash 4*, Salisbury 1*)
+ Day 3: England 336, South Africa 92/3 (Cullinan 41*, Cronje 32*)
+ Day 4: South Africa 208, England 108/1 (Atherton 43*, Hussain 28*)
+
+South Africa 1st innings                                        R   M   B  4 6
+G Kirsten                                b Gough                7  43  21  1 0
+GFJ Liebenberg        c Stewart          b Gough               13  34  40  1 0
+JH Kallis             c Stewart          b Flintoff            47 156 103  4 0
+DJ Cullinan           c Ramprakash       b Fraser              30  62  53  3 0
+*WJ Cronje            c Hick             b Fraser             126 289 212 16 1
+JN Rhodes             lbw                b Fraser              24  63  44  3 0
+SM Pollock            c Stewart          b Fraser              50  90  71  6 0
++MV Boucher           lbw                b Fraser               4   9   6  1 0
+S Elworthy            c Ramprakash       b Gough               48  72  52  7 0
+AA Donald             not out                                   4  42  25  0 0
+PR Adams              c Hick             b Gough                0   6   4  0 0
+Extras                (b 9, lb 3, nb 9)                        21
+Total                 (all out, 103.2 overs)                  374
+
+FoW: 1-21 (Liebenberg, 8.5 ov), 2-26 (Kirsten, 10.4 ov),
+     3-68 (Cullinan, 26.2 ov), 4-147 (Kallis, 45.4 ov),
+     5-196 (Rhodes, 60.6 ov), 6-292 (Pollock, 84.1 ov),
+     7-302 (Boucher, 86.1 ov), 8-325 (Cronje, 94.2 ov),
+     9-374 (Elworthy, 101.4 ov), 10-374 (Adams, 103.2 ov).
+
+Bowling                      O      M      R      W
+Gough                       30.2    4    116      4 (4nb)
+Cork                        17      2     65      0 (2nb)
+Fraser                      26      7     60      5 (6nb)
+Flintoff                    17      2     52      1
+Salisbury                    9      1     57      0
+Butcher                      4      1     12      0
+
+England 1st innings                                             R   M   B  4 6
+MA Butcher            lbw                b Donald              75 195 141 12 0
+MA Atherton           c Boucher          b Donald              58 187 157  7 0
+N Hussain             lbw                b Elworthy            22  79  52  4 0
+*+AJ Stewart          c Kirsten          b Kallis              19  58  42  4 0
+MR Ramprakash         not out                                  67 270 205  7 0
+IDK Salisbury                            b Donald              23 102  77  2 0
+GA Hick                                  b Donald               6  24  17  1 0
+A Flintoff            c Boucher          b Kallis              17  47  37  3 0
+DG Cork               c Boucher          b Pollock              6  36  29  1 0
+D Gough               c Boucher          b Donald               2  15  13  0 0
+ARC Fraser            lbw                b Pollock              7  28  14  1 0
+Extras                (b 7, lb 13, w 1, nb 13)                 34
+Total                 (all out, 127.5 overs)                  336
+
+FoW: 1-145 (Atherton, 47.5 ov), 2-150 (Butcher, 49.1 ov),
+     3-191 (Stewart, 62.2 ov), 4-199 (Hussain, 65.2 ov),
+     5-244 (Salisbury, 91.2 ov), 6-254 (Hick, 97.1 ov),
+     7-285 (Flintoff, 109.1 ov), 8-302 (Cork, 117.3 ov),
+     9-307 (Gough, 120.5 ov), 10-336 (Fraser, 127.5 ov).
+
+Bowling                      O      M      R      W
+Donald                      33      8    109      5
+Pollock                     35.5   12     75      2 (9nb)
+Elworthy                    22      8     41      1 (2nb)
+Kallis                      28      9     60      2 (5nb, 1w)
+Adams                        9      2     31      0 (1nb)
+
+South Africa 2nd innings                                        R   M   B  4 6
+G Kirsten             lbw                b Fraser               6  53  31  0 0
+GFJ Liebenberg        lbw                b Gough                0   2   4  0 0
+JH Kallis             c Stewart          b Cork                11  44  33  2 0
+DJ Cullinan           c Ramprakash       b Fraser              56 142 105  8 0
+*WJ Cronje            c Stewart          b Cork                67 247 168  8 0
+JN Rhodes             c Stewart          b Cork                 2  10   8  0 0
+SM Pollock            c Stewart          b Cork                 7  22  10  1 0
++MV Boucher           c Hussain          b Fraser              35  85  65  5 0
+S Elworthy            lbw                b Fraser              10  16  19  1 0
+AA Donald             not out                                   7  16   4  1 0
+PR Adams              c Stewart          b Fraser               1   8   7  0 0
+Extras                (b 1, lb 4, w 1)                          6
+Total                 (all out, 75.3 overs)                   208
+
+FoW: 1-3 (Liebenberg, 0.6 ov), 2-17 (Kallis, 10.4 ov),
+     3-21 (Kirsten, 11.4 ov), 4-119 (Cullinan, 43.6 ov),
+     5-122 (Rhodes, 46.4 ov), 6-136 (Pollock, 50.5 ov),
+     7-189 (Cronje, 70.1 ov), 8-193 (Boucher, 71.6 ov),
+     9-200 (Elworthy, 73.5 ov), 10-208 (Adams, 75.3 ov).
+
+Bowling                      O      M      R      W
+Gough                       16      4     56      1 (1nb)
+Fraser                      28.3    6     62      5
+Cork                        20      4     60      4
+Flintoff                     6      1     16      0
+Salisbury                    5      2      9      0
+
+England 2nd innings (target: 247 runs)                          R   M   B  4 6
+MA Butcher            c Boucher          b Pollock             22  68  50  4 0
+MA Atherton           not out                                  98 353 277 14 0
+N Hussain             c Kallis           b Donald              58 238 170  5 0
+*+AJ Stewart          not out                                  45  45  34  9 0
+Extras                (b 2, lb 11, w 2, nb 9)                  24
+Total                 (2 wickets, 87 overs)                   247
+
+DNB: MR Ramprakash, GA Hick, A Flintoff, DG Cork, IDK Salisbury,
+     D Gough, ARC Fraser.
+
+FoW: 1-40 (Butcher, 17.1 ov), 2-192 (Hussain, 75.6 ov).
+
+Bowling                      O      M      R      W
+Donald                      23      8     56      1
+Pollock                     26      3     79      1 (8nb, 1w)
+Adams                       12      4     23      0
+Kallis                      13      5     26      0 (1w)
+Elworthy                     9      1     38      0
+Cronje                       4      1     12      0 (1nb)
+
+*** South Africa 1st innings: 1x5 ball over (DG Cork's 4th over)
+
+<END>

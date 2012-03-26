@@ -1,0 +1,102 @@
+
+Test # 310
+West Indies in India, 1948/49, 4th Test
+India v West Indies
+Madras Cricket Club Ground, Chepauk, Madras
+27,28,29,31 January 1949 (5-day match)
+
+Result: West Indies won by an innings and 193 runs
+Series: West Indies leads the 5-match series 1-0
+
+Toss: West Indies
+Umpires: AR Joshi and BJ Mohoni
+Test debuts: NR Chowdhury, MR Rege (India).
+
+Close of play:
+ Day 1: West Indies 315/1 (Stollmeyer 157*, Walcott 42*)
+ Day 2: West Indies 582
+ Day 3: India 225/6 (Phadkar 39*, Mankad 1*)
+
+West Indies 1st innings                                         R   M   B  4 6
+AF Rae                c Rege             b Phadkar            109 230      5 3
+JB Stollmeyer         c Sen              b Chowdhury          160         11 0
++CL Walcott           lbw                b Phadkar             43            0
+ED Weekes             run out                                  90         12 0
+RJ Christiani         c Modi             b Phadkar             18            0
+*JDC Goddard          c Sen              b Phadkar             24            0
+GE Gomez              c Mankad           b Phadkar             50            0
+FJ Cameron            c Hazare           b Phadkar             48            0
+PEW Jones             c Ghulam Ahmed     b Mankad              10            0
+J Trim                c Sen              b Phadkar              9            0
+W Ferguson            not out                                   2          0 0
+Extras                (b 10, lb 7, nb 2)                       19
+Total                 (all out, 176.3 overs)                  582
+
+FoW: 1-239 (Rae), 2-319 (Stollmeyer), 3-319 (Walcott),
+     4-339 (Christiani), 5-420 (Goddard), 6-472 (Weekes),
+     7-532 (Gomez), 8-551 (Jones), 9-565 (Trim),
+     10-582 (Cameron).
+
+Bowling                      O      M      R      W
+Phadkar                     45.3   10    159      7
+Hazare                      12      1     44      0
+Amarnath                    16      4     39      0
+Chowdhury                   37      6    130      1
+Mankad                      33      4     93      1
+Ghulam Ahmed                32      3     88      0
+Adhikari                     1      0     10      0
+
+India 1st innings                                               R   M   B  4 6
+S Mushtaq Ali         lbw                b Trim                32            0
+MR Rege                                  b Jones               15            0
+RS Modi                                  b Ferguson            56            0
+VS Hazare             c Goddard          b Ferguson            27            0
+*L Amarnath           hit wicket         b Trim                13            0
+HR Adhikari           c Stollmeyer       b Jones               32            0
+DG Phadkar            c Jones            b Goddard             48            0
+MH Mankad                                b Trim                 1          0 0
++PK Sen               c Stollmeyer       b Gomez                2          0 0
+Ghulam Ahmed                             b Trim                 5            0
+NR Chowdhury          not out                                   3          0 0
+Extras                (b 5, lb 1, nb 5)                        11
+Total                 (all out, 99 overs)                     245
+
+FoW: 1-41 (Mushtaq Ali), 2-52 (Rege), 3-116 (Hazare),
+     4-136 (Modi), 5-158 (Amarnath), 6-220 (Adhikari),
+     7-225 (Mankad), 8-228 (Sen), 9-233 (Phadkar),
+     10-245 (Ghulam Ahmed).
+
+Bowling                      O      M      R      W
+Jones                       16      5     28      2
+Gomez                       28     10     60      1
+Trim                        27      7     48      4
+Ferguson                    20      2     72      2
+Goddard                      8      1     26      1
+
+India 2nd innings (following on)                                R   M   B  4 6
+S Mushtaq Ali         c Walcott          b Jones               14            0
+MR Rege               c Walcott          b Jones                0          0 0
+RS Modi                                  b Gomez                6            0
+VS Hazare             c Stollmeyer       b Trim                52            0
+*L Amarnath                              b Jones                6            0
+HR Adhikari           c Walcott          b Jones                1          0 0
+DG Phadkar            c Rae              b Trim                10            0
+MH Mankad                                b Trim                21            0
++PK Sen               not out                                  19            0
+Ghulam Ahmed          c sub              b Gomez               11            1
+NR Chowdhury          c Rae              b Gomez                0          0 0
+Extras                (lb 2, nb 2)                              4
+Total                 (all out, 63.3 overs)                   144
+
+FoW: 1-0 (Rege), 2-7 (Modi), 3-29 (Mushtaq Ali), 4-42 (Amarnath),
+     5-44 (Adhikari), 6-61 (Phadkar), 7-106 (Mankad),
+     8-119 (Hazare), 9-132 (Ghulam Ahmed), 10-144 (Chowdhury).
+
+Bowling                      O      M      R      W
+Jones                       10      3     30      4
+Gomez                       20.3   12     35      3
+Trim                        16      5     28      3
+Ferguson                    11      1     39      0
+Goddard                      6      3      8      0
+
+<END>

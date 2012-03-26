@@ -30,17 +30,16 @@ module Chapter8
       pp={}
       np={}
       while i>=0
-        pp["ans_1_"+POS[PPVALUE[posdot-i-1]].to_s] = @num.to_s[i]
+        pp["ans_"+PPVALUE[posdot-i-1].to_s] = @num.to_s[i]
         i-=1
       end
       i=posdot
       for j in i...(@num.to_s.length-1)
-        np["ans_1_"+ POS[NPVALUE[j-i]].to_s ] = @num.to_s[j+1]
+        np["ans_"+ NPVALUE[j-i].to_s ] = @num.to_s[j+1]
       end
+      @pp=pp
+      @np=np
       ret=pp.merge(np)
-      for j in 0...(PPVALUE+NPVALUE).length
-        ret["ans_1_"+j.to_s]="0" if  ret["ans_1_"+j.to_s]==nil
-      end
       ret
     end   
     
@@ -53,13 +52,21 @@ module Chapter8
 
 
     def text
+      solve
       ret=[TextLabel.new("Write the following in the place value table"), TextLabel.new(@num.to_s)]
       tab=TableField.new("ans", 2, PPVALUE.length+NPVALUE.length)
       for i in 0...PPVALUE.length
         tab.set_field(0, i, TextLabel.new(PPVALUE[PPVALUE.length-i-1]))
       end
+
       for i in 0...NPVALUE.length
         tab.set_field(0, PPVALUE.length+i, TextLabel.new(NPVALUE[i]))
+      end
+      for i in 0...(PPVALUE.length)
+        tab.set_field(1, PPVALUE.length-1-i, TextField.new("ans_"+PPVALUE[i]))
+      end
+      for i in 0...NPVALUE.length
+        tab.set_field(1, PPVALUE.length+i, TextField.new("ans_"+NPVALUE[i]))
       end
       ret << tab
     end
@@ -88,7 +95,7 @@ module Chapter8
       orat=Rational(@num-solve["intpart"].to_i*(10**@div), 10**@div).to_f
         [Subproblem.new([TextLabel.new("What is the integer part of #{rat}"), TextField.new("intpart")], {"intpart" => solve["intpart"]}),  
         Subproblem.new([TextLabel.new("How many digits are there after the decimal point in #{rat}"), TextField.new("numd")], {"numd" => @div}),
-        Subproblem.new([TextLabel.new("The decimal part of the number is #{orat}. Multiply it by 1 followed by #{@div} zeroes. This is the numerator. 1 followed by #{@div} zeros is the denominator"), Fraction.new(TextField.new("num" => "Numerator"), TextField.new("den" => "Denominator"), solve["intpart"])], {"num" => (orat)*(10**@div), "den" => 10**@div}),
+        Subproblem.new([TextLabel.new("The decimal part of the number is #{orat}. Multiply it by 1 followed by #{@div} zeroes. This is the numerator. 1 followed by #{@div} zeros is the denominator"), Fraction.new(TextField.new("num", "Numerator"), TextField.new("den" , "Denominator"), solve["intpart"])], {"num" => (orat)*(10**@div), "den" => 10**@div}),
         Subproblem.new([TextLabel.new("Reduce the fraction to its lowest terms"), Fraction.new((orat*(10**@div)).to_i, 10**@div, solve["intpart"]), Fraction.new("num", "den", solve["intpart"])], {"num" => solve["num"], "den" => solve["den"]} )]
     end
     def text

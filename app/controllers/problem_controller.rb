@@ -10,8 +10,10 @@ class ProblemController < ApplicationController
   end
     
   def choose
+    @nav_selected = "makequiz"
     @chosen_probs = get_probs
-    @all_probs = all_probs
+    @all_chapters = all_chapters
+    @chapter = Chapter3
   end
 
   def explain
@@ -30,7 +32,14 @@ class ProblemController < ApplicationController
       if @explain.length == @i
         $stderr.puts "Good job, you're done!"
         # TODO redirect somewhere else... 
-        render :js => "window.location = '/'"
+        #render :js => "window.location = '/'"
+        if signed_in?
+          #redirect_to quiz_path
+          render :js => "window.location = '/quiz'"
+        else
+          #redirect_to estimate_path
+          render :js => "window.location = '/estimate'"
+        end
       else
         $stderr.puts "you got the last subproblem right!, moving on to #{@i}"
         respond_to { |format| format.js }

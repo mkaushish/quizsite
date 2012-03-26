@@ -1,0 +1,117 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+1410, 1998-03-19, 1, 11, Sri Lanka, not out, , 3, 5, 7, 0, 0
+1410, 1998-03-19, 3, 11, Sri Lanka, not out, , 0, 6, 3, 0, 0
+1414, 1998-03-27, 2, 11, Sri Lanka, not out, , 2, 11, 9, 0, 0
+1422, 1998-08-06, 2, 11, England, not out, , 4, 10, 6, 1, 0
+1422, 1998-08-06, 4, 11, England, lbw, Gough, 0, 8, 8, 0, 0
+1504, 2000-06-20, 2, 11, Sri Lanka, c Ranatunga, Chandana, 8, 15, 17, 2, 0
+1504, 2000-06-20, 3, 11, Sri Lanka, , Muralitharan, 0, 1, 1, 0, 0
+1519, 2000-11-30, 2, 11, New Zealand, not out, , 0, 6, 5, 0, 0
+1526, 2000-11-26, 1, 10, Sri Lanka, , Fernando, 8, 12, 12, 2, 0
+1529, 2001-01-20, 1, 11, Sri Lanka, c Kaluwitharana, Wickramasinghe, 10, 30, 24, 1, 0
+1534, 2001-02-09, 2, 11, West Indies, c Jacobs, Dillon, 11, 15, 12, 2, 0
+1538, 2001-02-17, 1, 11, West Indies,                c &, McLean, 7, 18, 17, 1, 0
+1538, 2001-02-17, 3, 11, West Indies, not out, , 5, 20, 10, 1, 0
+1541, 2001-03-29, 1, 11, West Indies,                c &, Ramnarine, 0, 19, 10, 0, 0
+1542, 2001-03-06, 1, 11, West Indies, , Dillon, 0, 2, 1, 0, 0
+1564, 2001-10-03, 2, 10, India, c Dasgupta, Srinath, 23, 37, 23, 4, 1
+1569, 2001-10-16, 1, 10, India, c Das, Srinath, 10, 21, 14, 2, 0
+1576, 2001-11-14, 2, 10, Australia, c Ponting, Warne, 9, 22, 14, 2, 0
+1576, 2001-11-14, 4, 10, Australia, , Lee, 4, 71, 34, 0, 0
+1590, 2002-01-22, 2, 9, Australia, c SR Waugh, Lee, 9, 31, 18, 2, 0
+1590, 2002-01-22, 3, 9, Australia, , McGrath, 0, 1, 1, 0, 0
+1593, 2002-02-08, 1, 10, Australia, c ME Waugh, Warne, 14, 23, 16, 3, 0
+1593, 2002-02-08, 3, 10, Australia, c Langer, Warne, 11, 32, 23, 1, 0
+1595, 2002-02-15, 2, 10, Australia, c McGrath, Warne, 14, 13, 8, 2, 1
+1624, 2002-10-08, 2, 11, Sri Lanka, not out, , 2, 6, 3, 0, 0
+1626, 2002-10-15, 2, 11, Sri Lanka, c Arnold, Vaas, 8, 47, 22, 1, 0
+1635, 2002-11-26, 1, 10, Pakistan, c Taufeeq Umar, Saqlain Mushtaq, 0, 3, 3, 0, 0
+1642, 2003-04-01, 1, 11, Bangladesh, not out, , 0, 1, 0, 0, 0
+1654, 2003-07-14, 2, 11, England, not out, , 4, 25, 12, 1, 0
+1654, 2003-07-14, 4, 11, England, not out, , 3, 8, 6, 0, 0
+1656, 2003-07-21, 1, 10, England, not out, , 32, 53, 47, 4, 0
+1656, 2003-07-21, 3, 10, England, lbw, Ali, 8, 26, 21, 1, 0
+1659, 2003-08-04, 1, 11, England, , Anderson, 11, 48, 26, 2, 0
+1659, 2003-08-04, 3, 11, England, c Smith, Harmison, 1, 16, 17, 0, 0
+1664, 2003-09-17, 1, 11, Pakistan, c Asim Kamal, Shoaib Malik, 8, 13, 10, 0, 1
+1664, 2003-09-17, 3, 11, Pakistan, not out, , 0, 3, 0, 0, 0
+1666, 2003-09-24, 1, 11, Pakistan, not out, , 16, 45, 39, 2, 0
+1674, 2003-11-12, 1, 11, West Indies, not out, , 22, 34, 23, 2, 1
+1679, 2003-11-26, 2, 10, West Indies, c Lara, Sanford, 0, 9, 4, 0, 0
+1681, 2004-01-02, 1, 10, West Indies, c Jacobs, Mohammed, 18, 49, 37, 1, 1
+1686, 2004-02-10, 1, 10, New Zealand, run out (Oram/McCullum), , 21, 29, 38, 3, 0
+1689, 2004-02-18, 1, 10, New Zealand, c McCullum, Martin, 0, 2, 2, 0, 0
+1689, 2004-02-18, 3, 10, New Zealand, c McMillan, Cairns, 6, 15, 17, 1, 0
+1692, 2004-02-26, 2, 10, New Zealand, c McCullum, Cairns, 4, 2, 2, 1, 0
+1709, 2004-07-04, 2, 10, Sri Lanka, c Chandana, Muralitharan, 10, 27, 24, 2, 0
+1710, 2004-07-11, 2, 10, Sri Lanka, , Herath, 0, 2, 2, 0, 0
+1710, 2004-07-11, 4, 10, Sri Lanka, c Kaluwitharana, Vaas, 0, 2, 2, 0, 0
+1724, 2004-11-28, 1, 11, India, c Pathan, Harbhajan Singh, 0, 2, 2, 0, 0
+1724, 2004-11-28, 3, 11, India, c Dravid, Kumble, 12, 26, 19, 2, 0
+1728, 2004-11-17, 1, 10, England, not out, , 2, 16, 6, 0, 0
+1728, 2004-11-17, 3, 10, England, lbw, SP Jones, 4, 10, 5, 1, 0
+1730, 2004-11-26, 2, 10, England, c SP Jones, Flintoff, 22, 44, 20, 4, 1
+1730, 2004-11-26, 4, 10, England, not out, , 16, 10, 6, 4, 0
+1732, 2005-01-02, 1, 10, England, c Vaughan, Flintoff, 0, 3, 3, 0, 0
+1732, 2005-01-02, 3, 10, England, not out, , 0, 10, 7, 0, 0
+1734, 2005-01-13, 2, 10, England, , Giles, 26, 71, 46, 4, 0
+1734, 2005-01-13, 4, 10, England, lbw, Flintoff, 13, 31, 17, 3, 0
+1736, 2005-01-21, 1, 10, England, c Hoggard, SP Jones, 6, 12, 9, 1, 0
+1745, 2005-03-31, 2, 9, West Indies, lbw, Powell, 8, 21, 15, 2, 0
+1747, 2005-03-08, 2, 10, West Indies, , Gayle, 4, 9, 8, 1, 0
+1749, 2005-03-21, 2, 10, West Indies, c Bravo, Powell, 16, 19, 20, 1, 0
+1777, 2005-11-16, 2, 11, Australia, c Hodge, Lee, 12, 8, 10, 2, 0
+1779, 2005-11-26, 2, 11, Australia, not out, , 10, 12, 10, 2, 0
+1779, 2005-11-26, 4, 11, Australia, , MacGill, 2, 5, 6, 0, 0
+1789, 2006-02-16, 1, 11, Australia, not out, , 17, 25, 15, 1, 1
+1789, 2006-02-16, 3, 11, Australia, c Kasprowicz, Warne, 6, 13, 6, 1, 0
+1792, 2006-02-24, 2, 11, Australia, c Ponting, Lee, 0, 2, 1, 0, 0
+1792, 2006-02-24, 4, 11, Australia, lbw, Warne, 0, 14, 13, 0, 0
+1795, 2006-03-31, 1, 11, Australia, not out, , 0, 7, 5, 0, 0
+1795, 2006-03-31, 3, 11, Australia, , Lee, 0, 3, 2, 0, 0
+1798, 2006-03-15, 1, 11, New Zealand, not out, , 1, 8, 3, 0, 0
+1798, 2006-03-15, 3, 11, New Zealand, lbw, Vettori, 16, 35, 27, 3, 0
+1800, 2006-04-27, 2, 11, New Zealand, run out (Astle/McCullum), , 11, 16, 16, 1, 0
+1801, 2006-04-05, 2, 11, New Zealand, c McCullum, Mills, 8, 17, 8, 2, 0
+1810, 2006-06-27, 1, 11, Sri Lanka, not out, , 0, 21, 5, 0, 0
+1810, 2006-06-27, 3, 11, Sri Lanka, , Malinga, 16, 37, 32, 1, 1
+1812, 2006-07-04, 1, 11, Sri Lanka, c Maharoof, Muralitharan, 13, 35, 27, 3, 0
+1812, 2006-07-04, 3, 11, Sri Lanka, not out, , 5, 21, 10, 1, 0
+1823, 2006-11-15, 2, 10, India, , Kumble, 0, 2, 1, 0, 0
+1823, 2006-11-15, 4, 11, India, c Sehwag, Khan, 8, 28, 20, 1, 0
+1825, 2006-11-26, 1, 11, India, lbw, Kumble, 16, 46, 30, 2, 0
+1827, 2007-01-02, 2, 11, India, lbw, Kumble, 0, 1, 1, 0, 0
+1828, 2007-01-11, 2, 11, Pakistan, c Younis Khan, Mohammad Asif, 5, 36, 23, 1, 0
+1829, 2007-01-19, 1, 10, Pakistan, not out, , 0, 6, 0, 0, 0
+1829, 2007-01-19, 3, 11, Pakistan, c Yasir Hameed, Danish Kaneria, 18, 49, 29, 2, 0
+1830, 2007-01-26, 2, 11, Pakistan, lbw, Mohammad Sami, 0, 2, 1, 0, 0
+1843, 2007-09-01, 1, 11, Pakistan, not out, , 0, 4, 2, 0, 0
+1844, 2007-09-08, 1, 11, Pakistan, not out, , 0, 13, 3, 0, 0
+1846, 2007-10-08, 1, 11, New Zealand, not out, , 0, 5, 1, 0, 0
+1848, 2007-10-16, 2, 11, New Zealand, not out, , 0, 2, 0, 0, 0
+1856, 2007-11-26, 2, 11, West Indies, not out, , 0, 8, 5, 0, 0
+1856, 2007-11-26, 4, 11, West Indies, c Powell, Samuels, 1, 5, 7, 0, 0
+1858, 2008-01-02, 2, 11, West Indies, not out, , 3, 22, 14, 0, 0
+1864, 2008-01-22, 2, 11, Bangladesh, not out, , 3, 17, 12, 0, 0
+1870, 2008-02-26, 1, 11, India, not out, , 1, 10, 6, 0, 0
+1873, 2008-03-11, 1, 11, India, not out, , 0, 15, 2, 0, 0
+1873, 2008-03-11, 3, 11, India, c Ganguly, Sehwag, 0, 22, 12, 0, 0
+1880, 2008-06-10, 2, 11, England, not out, , 0, 13, 1, 0, 0
+1881, 2008-06-18, 2, 11, England, c Pietersen, Panesar, 1, 14, 13, 0, 0
+1883, 2008-07-30, 2, 11, England, not out, , 0, 11, 2, 0, 0
+1885, 2008-07-07, 1, 11, England, , Panesar, 9, 44, 29, 1, 0
+1885, 2008-07-07, 3, 11, England, c Collingwood, Broad, 2, 10, 9, 0, 0
+1893, 2008-10-19, 1, 10, Bangladesh, c Mushfiqur Rahim, Mahbubul Alam, 5, 21, 13, 1, 0
+1895, 2008-10-26, 2, 10, Bangladesh, c Mohammad Ashraful, Shahadat Hossain, 0, 5, 2, 0, 0
+1899, 2008-11-17, 2, 11, Australia, not out, , 5, 41, 15, 1, 0
+1902, 2008-11-26, 2, 11, Australia, not out, , 2, 49, 29, 0, 0
+1904, 2009-01-03, 2, 11, Australia, not out, , 0, 5, 1, 0, 0
+1904, 2009-01-03, 4, 10, Australia, not out, , 28, 91, 75, 5, 0
+1910, 2009-02-26, 2, 11, Australia, , Johnson, 1, 9, 2, 0, 0
+1910, 2009-02-26, 4, 11, Australia, not out, , 0, 2, 0, 0, 0
+1913, 2009-02-06, 2, 11, Australia, lbw, Siddle, 0, 1, 1, 0, 0
+1913, 2009-02-06, 4, 10, Australia, not out, , 4, 6, 3, 1, 0
+1916, 2009-02-19, 2, 11, Australia, not out, , 4, 11, 6, 1, 0
+1942, 2009-11-16, 1, 11, England, not out, , 4, 9, 7, 1, 0
+1944, 2009-11-26, 1, 11, England, not out, , 6, 47, 30, 0, 0
+1944, 2009-11-26, 3, 11, England, not out, , 1, 6, 3, 0, 0

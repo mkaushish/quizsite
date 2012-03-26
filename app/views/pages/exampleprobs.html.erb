@@ -1,0 +1,25 @@
+<div class=logo>Problem Questions/Explanations</div>
+<p class=desc>This question teaches students to use the general rule for estimating addition and multiplication.  Watch how it guides you through the solution if you get it wrong!</p>
+<div class="lastprobinfo" >
+  <% unless @lastproblem.nil? %>
+    <% if @correct %>
+      <div class=correctex>
+        You got the last problem right!
+      </div>
+    <% else %>
+      <div class=incorrectex>
+        You got the last problem wrong... <%= link_to "See how to do it.", explain_path(@lastproblem) %>
+      </div>
+    <% end %>
+  <% end %>
+</div>
+<%# shouldn't need this floating div... %>
+<div class="exampleprob" >
+<%= form_tag({:action => 'exampleprobs'}, :autocomplete => "off") do %>
+  <%= hidden_field_tag 'problem_id', @problem.id %>
+  <%= render :partial => 'problem/problem', :object => @problem, :locals => {:partialdir => 'problem'} %>
+  <div class="actions">
+    <%= submit_tag "Submit Answer", :class=>"btn-primary" %>
+  </div>
+<% end %>
+</div>

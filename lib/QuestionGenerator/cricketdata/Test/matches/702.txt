@@ -1,0 +1,128 @@
+
+Test # 702
+The Ashes, 1972, 5th Test
+England v Australia
+Kennington Oval, London
+10,11,12,14,15,16 August 1972 (6-day match)
+
+Result: Australia won by 5 wickets
+Series: 5-match series drawn 2-2
+
+Toss: England
+Umpires: AE Fagg and AEG Rhodes
+Test debut: B Wood (England).
+
+Close of play:
+ Day 1: England 267/9 (Knott 78*, Underwood 3*)
+ Day 2: England 284, Australia 274/3 (IM Chappell 107*, Edwards 16*)
+ Day 3: Australia 394/8 (Mallett 3*, Massie 2*)
+ Day 4: Australia 399, England 227/5 (Greig 13*, Illingworth 10*)
+ Day 5: England 356, Australia 116/1 (Stackpole 70*, IM Chappell 29*)
+
+England 1st innings                                             R   M   B  4 6
+B Wood                c Marsh            b Watson              26 116  81  3 0
+JH Edrich             lbw                b Lillee               8  55  38  1 0
+PH Parfitt                               b Lillee              51 182 128  4 0
+JH Hampshire          c Inverarity       b Mallett             42  99  79  7 0
+BL D'Oliveira         c GS Chappell      b Mallett              4   7   6  1 0
+AW Greig              c Stackpole        b Mallett             16  25  25  3 0
+*R Illingworth        c GS Chappell      b Lillee               0   1   1  0 0
++APE Knott            c Marsh            b Lillee              92 135 126 17 0
+JA Snow               c Marsh            b Lillee               3  20  12  0 0
+GG Arnold                                b Inverarity          22  68  51  4 0
+DL Underwood          not out                                   3  30  15  0 0
+Extras                (lb 8, w 1, nb 8)                        17
+Total                 (all out, 92.2 overs)                   284
+
+FoW: 1-25 (Edrich), 2-50 (Wood), 3-133 (Hampshire),
+     4-142 (D'Oliveira), 5-145 (Parfitt), 6-145 (Illingworth),
+     7-159 (Greig), 8-181 (Snow), 9-262 (Arnold), 10-284 (Knott).
+
+Bowling                      O      M      R      W
+Lillee                      24.2    7     58      5
+Massie                      27      5     69      0
+Watson                      12      4     23      1
+Mallett                     23      4     80      3
+GS Chappell                  2      0     18      0
+Inverarity                   4      0     19      1
+
+Australia 1st innings                                           R   M   B  4 6
+GD Watson             c Knott            b Arnold              13  27  20  2 0
+KR Stackpole                             b Snow                18  41  31  1 0
+*IM Chappell          c Snow             b Arnold             118 330 267 20 0
+GS Chappell           c Greig            b Illingworth        113 241 226 17 0
+R Edwards                                b Underwood           79 222 178  9 0
+AP Sheahan            c Hampshire        b Underwood            5  26  22  1 0
++RW Marsh                                b Underwood            0   5   4  0 0
+RJ Inverarity         c Greig            b Underwood           28 130 110  2 0
+AA Mallett            run out                                   5  52  39  0 0
+RAL Massie                               b Arnold               4  25  21  0 0
+DK Lillee             not out                                   0   2   0  0 0
+Extras                (lb 8, w 1, nb 7)                        16
+Total                 (all out, 151.5 overs)                  399
+
+FoW: 1-24 (Watson), 2-34 (Stackpole), 3-235 (GS Chappell),
+     4-296 (IM Chappell), 5-310 (Sheahan), 6-310 (Marsh),
+     7-383 (Edwards), 8-387 (Inverarity), 9-399 (Massie),
+     10-399 (Mallett).
+
+Bowling                      O      M      R      W
+Arnold                      35     11     87      3
+Snow                        34.5    5    111      1
+Greig                       18      9     25      0
+D'Oliveira                   9      4     17      0
+Underwood                   38     16     90      4
+Illingworth                 17      4     53      1
+
+England 2nd innings                                             R   M   B  4 6
+B Wood                lbw                b Massie              90 272 216 15 0
+JH Edrich                                b Lillee              18  93  54  2 0
+PH Parfitt                               b Lillee              18  27  21  2 0
+JH Hampshire          c IM Chappell      b Watson              20  46  39  3 0
+BL D'Oliveira         c IM Chappell      b Massie              43 115  96  8 0
+AW Greig              c Marsh            b Lillee              29  86  72  6 0
+*R Illingworth        lbw                b Lillee              31  80  54  5 0
++APE Knott                               b Lillee              63 128  98  9 0
+JA Snow               c Stackpole        b Mallett             14  65  44  1 0
+GG Arnold             lbw                b Mallett              4  40  38  1 0
+DL Underwood          not out                                   0  10   8  0 0
+Extras                (b 11, lb 8, nb 7)                       26
+Total                 (all out, 121.2 overs)                  356
+
+FoW: 1-56 (Edrich), 2-81 (Parfitt), 3-114 (Hampshire),
+     4-194 (Wood), 5-205 (D'Oliveira), 6-270 (Greig),
+     7-271 (Illingworth), 8-333 (Snow), 9-356 (Arnold),
+     10-356 (Knott).
+
+Bowling                      O      M      R      W
+Lillee                      32.2    8    123      5
+Massie                      32     10     77      2
+Watson                      19      8     32      1
+Mallett                     23      7     66      2
+Inverarity                  15      4     32      0
+
+Australia 2nd innings (target: 242 runs)                        R   M   B  4 6
+GD Watson             lbw                b Arnold               6  19  16  1 0
+KR Stackpole          c Knott            b Greig               79 201 163  9 0
+*IM Chappell          c sub (RGD Willis) b Underwood           37 193 149  5 0
+GS Chappell           lbw                b Underwood           16  77  56  2 0
+R Edwards             lbw                b Greig                1   9  10  0 0
+AP Sheahan            not out                                  44 142 121  4 0
++RW Marsh             not out                                  43  87  51  5 0
+Extras                (lb 6, nb 10)                            16
+Total                 (5 wickets, 92.2 overs)                 242
+
+DNB: RJ Inverarity, AA Mallett, RAL Massie, DK Lillee.
+
+FoW: 1-16 (Watson), 2-132 (Stackpole), 3-136 (IM Chappell),
+     4-137 (Edwards), 5-171 (GS Chappell).
+
+Bowling                      O      M      R      W
+Arnold                      15      5     26      1
+Snow                         6      1     21      0
+Greig                       25.3   10     49      2
+Underwood                   35     11     94      2
+Illingworth                  8.5    2     26      0
+Parfitt                      2      0     10      0
+
+<END>

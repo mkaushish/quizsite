@@ -1,0 +1,100 @@
+
+Test # 256
+The Ashes, 1936/37, 2nd Test
+Australia v England
+Sydney Cricket Ground
+18,19,21,22 December 1936 (timeless match)
+
+Result: England won by an innings and 22 runs
+Series: England leads the 5-match series 2-0
+
+Toss: England
+Umpires: GE Borwick and JD Scott
+Balls per over: 8
+
+Close of play:
+ Day 1: England 279/3 (Hammond 167*, Ames 14*)
+ Day 2: England 426/6 (Hammond 231*, Verity 0*)
+ Day 3: England 426/6d, Australia 80, Australia 145/1 (Fingleton 67*, Bradman 57*)
+
+England 1st innings                                             R   M   B  4 6
+AE Fagg               c Sievers          b McCormick           11  29  31  0 0
+CJ Barnett                               b Ward                57 107 111  5 0
+WR Hammond            not out                                 231 460 579 27 0
+M Leyland             lbw                b McCabe              42 154 171  3 0
++LEG Ames             c sub              b Ward                29 123 143  1 0
+*GOB Allen            lbw                b O'Reilly             9  20  21  2 0
+J Hardstaff jnr                          b McCormick           26  75  78  3 0
+H Verity              not out                                   0   5   3  0 0
+Extras                (b 8, lb 8, w 1, nb 4)                   21
+Total                 (6 wickets dec, 141.2 overs)            426
+
+DNB: JM Sims, RWV Robins, W Voce.
+
+FoW: 1-27 (Fagg), 2-118 (Barnett), 3-247 (Leyland), 4-351 (Ames),
+     5-368 (Allen), 6-424 (Hardstaff).
+
+Bowling                      O      M      R      W
+McCormick                   20      1     79      2
+Sievers                     16.2    4     30      0
+Ward                        42      8    132      2
+O'Reilly                    41     17     86      1
+Chipperfield                13      2     47      0
+McCabe                       9      1     31      1
+
+Australia 1st innings                                           R   M   B  4 6
+JHW Fingleton         c Verity           b Voce                12  55  53  1 0
+LPJ O'Brien           c Sims             b Voce                 0   4   4  0 0
+*DG Bradman           c Allen            b Voce                 0   1   1  0 0
+SJ McCabe             c Sims             b Voce                 0   5   2  0 0
+AG Chipperfield       c Sims             b Allen               13  14  14  2 0
+MW Sievers            c Voce             b Verity               4  28  22  0 0
++WAS Oldfield                            b Verity               1  10   8  0 0
+WJ O'Reilly           not out                                  37  44  44  2 3
+EL McCormick                             b Allen               10  35  41  0 0
+FA Ward                                  b Allen                0   1   2  0 0
+CL Badcock            absent hurt                               -
+Extras                (b 1, lb 1, nb 1)                         3
+Total                 (all out, 23.7 overs)                    80
+
+FoW: 1-1 (O'Brien), 2-1 (Bradman), 3-1 (McCabe),
+     4-16 (Chipperfield), 5-28 (Fingleton), 6-30 (Sievers),
+     7-31 (Oldfield), 8-80 (McCormick), 9-80 (Ward).
+
+Bowling                      O      M      R      W
+Voce                         8      1     10      4
+Allen                        5.7    1     19      3
+Verity                       3      0     17      2
+Hammond                      4      0      6      0
+Sims                         2      0     20      0
+Robins                       1      0      5      0
+
+Australia 2nd innings (following on)                            R   M   B  4 6
+JHW Fingleton                            b Sims                73 196 248  4 0
+LPJ O'Brien           c Allen            b Hammond             17  43  26  0 0
+*DG Bradman                              b Verity              82 171 140  6 0
+SJ McCabe             lbw                b Voce                93 174 186 10 0
+AG Chipperfield                          b Voce                21  60  54  2 0
+CL Badcock            lbw                b Allen                2  14  17  0 0
+MW Sievers            run out                                  24  90  93  2 0
++WAS Oldfield         c Ames             b Voce                 1  11  10  0 0
+WJ O'Reilly                              b Hammond              3   7   4  0 0
+EL McCormick          lbw                b Hammond              0   4   1  0 0
+FA Ward               not out                                   1   2   5  0 0
+Extras                (lb 3, nb 4)                              7
+Total                 (all out, 96.7 overs)                   324
+
+FoW: 1-38 (O'Brien), 2-162 (Fingleton), 3-186 (Bradman),
+     4-220 (Chipperfield), 5-226 (Badcock), 6-318 (McCabe),
+     7-319 (Sievers), 8-323 (Oldfield), 9-323 (O'Reilly),
+     10-324 (McCormick).
+
+Bowling                      O      M      R      W
+Voce                        19      4     66      3
+Allen                       19      4     61      1
+Verity                      19      7     55      1
+Hammond                     15.7    3     29      3
+Sims                        17      0     80      1
+Robins                       7      0     26      0
+
+<END>

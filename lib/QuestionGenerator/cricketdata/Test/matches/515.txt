@@ -1,0 +1,128 @@
+
+Test # 515
+New Zealand in South Africa, 1961/62, 1st Test
+South Africa v New Zealand
+Kingsmead, Durban
+8,9,11,12 December 1961 (4-day match)
+
+Result: South Africa won by 30 runs
+Series: South Africa leads the 5-match series 1-0
+
+Toss: South Africa
+Umpires: WP Anderson and DR Fell
+Test debuts: GA Bartlett, PT Barton, FJ Cameron, AE Dick,
+ RC Motz (New Zealand); EJ Barlow, KC Bland, HD Bromfield, MK Elgie,
+ GB Lawrence, PM Pollock, KA Walter (South Africa).
+
+Close of play:
+ Day 1: South Africa 292, New Zealand 31/1 (Guy 8*, Barton 8*)
+ Day 2: New Zealand 245, South Africa 13/0 (McGlew 5*, Barlow 4*)
+ Day 3: South Africa 149, New Zealand 83/4 (McGregor 29*, Reid 10*)
+
+South Africa 1st innings                                        R   M   B  4 6
+*DJ McGlew            not out                                 127 312     10 0
+EJ Barlow                                b Motz                15            0
++JHB Waite            c Dick             b Bartlett            25            1
+RA McLean                                b Alabaster           63            1
+KC Bland              c Reid             b Cameron              5            0
+MK Elgie                                 b Motz                 1          0 0
+S O'Linn              lbw                b Cameron              8            0
+PM Pollock            c Dick             b Cameron              0          0 0
+GB Lawrence           c Sparling         b Alabaster           16            0
+KA Walter             c Dick             b Alabaster            0          0 0
+HD Bromfield          lbw                b Alabaster            0          0 0
+Extras                (b 11, lb 6, w 1, nb 14)                 32
+Total                 (all out, 88.5 overs)                   292
+
+FoW: 1-20 (Barlow), 2-82 (Waite), 3-185 (McLean), 4-216 (Bland),
+     5-233 (Elgie), 6-253 (O'Linn), 7-263 (Pollock),
+     8-286 (Lawrence), 9-292 (Walter), 10-292 (Bromfield).
+
+Bowling                      O      M      R      W
+Motz                        23      3     64      2
+Bartlett                     9      3     39      1
+Cameron                     27      5     60      3
+Reid                        11      1     38      0
+Alabaster                   17.5    2     59      4
+Sparling                     1      1      0      0
+
+New Zealand 1st innings                                         R   M   B  4 6
+JW Guy                c Walter           b Pollock              8            0
+JT Sparling           c Waite            b Pollock             13            0
+PT Barton             c Elgie            b Lawrence            54            0
+SN McGregor           c Barlow           b Walter              20            0
+*JR Reid              c Pollock          b Lawrence            13            0
+PGZ Harris            c Elgie            b Walter              74            0
++AE Dick              c Waite            b Pollock              3          0 0
+RC Motz               c McGlew           b Walter               0          0 0
+GA Bartlett           c Pollock          b Walter              40            0
+JC Alabaster          lbw                b Lawrence             2          0 0
+FJ Cameron            not out                                   0          0 0
+Extras                (b 1, lb 1, nb 16)                       18
+Total                 (all out, 99.3 overs)                   245
+
+FoW: 1-20 (Sparling), 2-33 (Guy), 3-63 (McGregor), 4-89 (Reid),
+     5-150 (Barton), 6-153 (Dick), 7-162 (Motz), 8-235 (Harris),
+     9-245 (Alabaster), 10-245 (Bartlett).
+
+Bowling                      O      M      R      W
+Pollock                     22      3     61      3
+Walter                      25.3    6     63      4
+Lawrence                    29      6     63      3
+Barlow                       8      3     17      0
+Bromfield                   15      5     23      0
+
+South Africa 2nd innings                                        R   M   B  4 6
+*DJ McGlew                               b Motz                 5            0
+EJ Barlow             c Dick             b Motz                10            0
++JHB Waite            c sub (GT Dowling) b Cameron             63            0
+RA McLean             c Bartlett         b Motz                 0          0 0
+KC Bland              run out                                  30            0
+MK Elgie              st Dick            b Alabaster            0          0 0
+S O'Linn              c Cameron          b Alabaster            6            0
+PM Pollock            c Dick             b Cameron             15            0
+GB Lawrence           lbw                b Alabaster            0          0 0
+KA Walter             c Dick             b Cameron              1          0 0
+HD Bromfield          not out                                   0          0 0
+Extras                (b 2, lb 4, w 5, nb 8)                   19
+Total                 (all out, 61.2 overs)                   149
+
+FoW: 1-17 (McGlew), 2-38 (Barlow), 3-38 (McLean), 4-110 (Bland),
+     5-113 (Elgie), 6-129 (Waite), 7-137 (O'Linn),
+     8-137 (Lawrence), 9-144 (Walter), 10-149 (Pollock).
+
+Bowling                      O      M      R      W
+Motz                        20      1     51      3
+Bartlett                     9      3     11      0
+Cameron                     15.2    1     32      3
+Alabaster                   17      6     36      3
+
+New Zealand 2nd innings (target: 197 runs)                      R   M   B  4 6
+JW Guy                c Bromfield        b Pollock              1          0 0
+JT Sparling           c Waite            b Walter              10            0
+PT Barton             c Waite            b Pollock             23            0
+SN McGregor           c Walter           b Bromfield           55            0
+PGZ Harris            lbw                b Pollock              0          0 0
+*JR Reid              c Waite            b Pollock             16            0
++AE Dick              c Waite            b Pollock              2          0 0
+GA Bartlett           c O'Linn           b Bromfield           23            0
+RC Motz                                  b Bromfield           10            0
+JC Alabaster          c Bromfield        b Pollock              8            0
+FJ Cameron            not out                                   1          0 0
+Extras                (b 1, lb 1, nb 15)                       17
+Total                 (all out, 79.3 overs)                   166
+
+FoW: 1-7 (Guy), 2-23 (Sparling), 3-53 (Barton), 4-53 (Harris),
+     5-100 (Reid), 6-102 (Dick), 7-137 (McGregor),
+     8-150 (Bartlett), 9-162 (Motz), 10-166 (Alabaster).
+
+Bowling                      O      M      R      W
+Pollock                     20.3    8     38      6
+Walter                      16      5     34      1
+Lawrence                    25      8     40      0
+Bromfield                   18      4     37      3
+
+*** McGlew (312 mins, 12 fours) carried his bat
+*** Pollock career best bowling figures in his first test
+
+<END>

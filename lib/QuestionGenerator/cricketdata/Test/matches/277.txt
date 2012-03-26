@@ -1,0 +1,121 @@
+
+Test # 277
+India in England, 1946, 2nd Test
+England v India
+Old Trafford, Manchester
+20,22,23 July 1946 (3-day match)
+
+Result: Match drawn
+Series: England leads the 3-match series 1-0
+
+Toss: India
+Umpires: G Beet and F Chester
+Test debuts: R Pollard (England); CT Sarwate, SW Sohoni (India).
+
+Close of play:
+ Day 1: England 236/4 (Hammond 45*, Gibb 13*)
+ Day 2: England 294, India 160/7 (Pataudi 9*, Sohoni 0*)
+
+England 1st innings                                             R   M   B  4 6
+L Hutton              c Mushtaq Ali      b Mankad              67 180      3 0
+C Washbrook           c Hindlekar        b Mankad              52            0
+DCS Compton           lbw                b Amarnath            51  75        0
+*WR Hammond                              b Amarnath            69          6 1
+J Hardstaff jnr       c Merchant         b Amarnath             5            0
++PA Gibb                                 b Mankad              24            0
+JT Ikin               c Mankad           b Amarnath             2          0 0
+W Voce                                   b Mankad               0          0 0
+R Pollard             not out                                  10            0
+AV Bedser             lbw                b Amarnath             8            0
+DVP Wright            lbw                b Mankad               0          0 0
+Extras                (b 2, lb 4)                               6
+Total                 (all out, 129 overs)                    294
+
+FoW: 1-81 (Washbrook), 2-156 (Compton), 3-186 (Hutton),
+     4-193 (Hardstaff), 5-250 (Gibb), 6-265 (Ikin), 7-270 (Voce),
+     8-274 (Hammond), 9-287 (Bedser), 10-294 (Wright).
+
+Bowling                      O      M      R      W
+Sohoni                      11      1     31      0
+Amarnath                    51     17     96      5
+Hazare                      14      2     48      0
+Mankad                      46     15    101      5
+Sarwate                      7      0     12      0
+
+India 1st innings                                               R   M   B  4 6
+VM Merchant           c Bedser           b Pollard             78 170      9 0
+S Mushtaq Ali                            b Pollard             46 135        0
+Abdul Hafeez                         c & b Pollard              1          0 0
+MH Mankad                                b Pollard              0   1   1  0 0
+VS Hazare                                b Voce                 3          0 0
+RS Modi               c Ikin             b Bedser               2          0 0
+*Nawab of Pataudi snr                    b Pollard             11            0
+L Amarnath                               b Bedser               8            0
+SW Sohoni                            c & b Bedser               3          0 0
+CT Sarwate            c Ikin             b Bedser               0          0 0
++DD Hindlekar         not out                                   1          0 0
+Extras                (b 10, lb 5, nb 2)                       17
+Total                 (all out, 82 overs)                     170
+
+FoW: 1-124 (Mushtaq Ali), 2-130 (Abdul Hafeez), 3-130 (Mankad),
+     4-141 (Merchant), 5-141 (Hazare), 6-146 (Modi),
+     7-156 (Amarnath), 8-168 (Pataudi), 9-169 (Sarwate),
+     10-170 (Sohoni).
+
+Bowling                      O      M      R      W
+Voce                        20      3     44      1
+Bedser                      26      9     41      4
+Pollard                     27     16     24      5
+Wright                       2      0     12      0
+Compton                      4      0     18      0
+Ikin                         2      0     11      0
+Hammond                      1      0      3      0
+
+England 2nd innings                                             R   M   B  4 6
+L Hutton              c Hindlekar        b Amarnath             2          0 0
+C Washbrook           lbw                b Mankad              26            0
+DCS Compton           not out                                  71 130      7 0
+*WR Hammond           c Abdul Hafeez     b Mankad               8            0
+J Hardstaff jnr                          b Amarnath             0          0 0
++PA Gibb              c Modi             b Amarnath             0          0 0
+JT Ikin               not out                                  29            0
+Extras                (b 6, lb 10, w 1)                        17
+Total                 (5 wickets dec, 61 overs)               153
+
+DNB: W Voce, R Pollard, AV Bedser, DVP Wright.
+
+FoW: 1-7 (Hutton), 2-48 (Washbrook), 3-68 (Hammond),
+     4-68 (Hardstaff), 5-84 (Gibb).
+
+Bowling                      O      M      R      W
+Amarnath                    30      9     71      3
+Hazare                      10      3     20      0
+Mankad                      21      6     45      2
+
+India 2nd innings (target: 278 runs)                            R   M   B  4 6
+VM Merchant           c Ikin             b Pollard              0          0 0
+S Mushtaq Ali                            b Pollard              1          0 0
+*Nawab of Pataudi snr                    b Bedser               4            0
+RS Modi                                  b Bedser              30            0
+VS Hazare                                b Bedser              44            1
+L Amarnath                               b Bedser               3          0 0
+Abdul Hafeez                         c & b Bedser              35            0
+MH Mankad             c Pollard          b Bedser               5            0
+SW Sohoni             not out                                  11            0
+CT Sarwate            c Gibb             b Bedser               2          0 0
++DD Hindlekar         not out                                   4  13        0
+Extras                (b 5, lb 8)                              13
+Total                 (9 wickets, 61 overs)                   152
+
+FoW: 1-0 (Merchant), 2-3 (Mushtaq Ali), 3-5 (Pataudi),
+     4-79 (Hazare), 5-84 (Modi), 6-87 (Amarnath), 7-113 (Mankad),
+     8-132 (Abdul Hafeez), 9-138 (Sarwate).
+
+Bowling                      O      M      R      W
+Voce                         6      5      2      0
+Bedser                      25      4     52      7
+Pollard                     25     10     63      2
+Wright                       2      0     17      0
+Compton                      3      1      5      0
+
+<END>

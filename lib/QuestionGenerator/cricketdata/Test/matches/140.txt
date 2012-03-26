@@ -1,0 +1,111 @@
+
+Test # 140
+The Ashes, 1921, 1st Test
+England v Australia
+Trent Bridge, Nottingham
+28,30 May 1921 (3-day match)
+
+Result: Australia won by 10 wickets
+Series: Australia leads the 5-match series 1-0
+
+Toss: England
+Umpires: HR Butt and J Moss
+Test debuts: TJE Andrews, HSTL Hendry (Australia); P Holmes, VWC Jupp,
+ DJ Knight, TL Richmond, GE Tyldesley (England).
+
+Close of play:
+ Day 1: England 112, Australia 167/6 (Pellew 21*, Carter 3*)
+
+England 1st innings                                             R   M   B  4 6
+DJ Knight             c Carter           b Gregory              8  15      0 0
+P Holmes                                 b McDonald            30  93      4 0
+GE Tyldesley                             b Gregory              0   1      0 0
+EH Hendren                               b Gregory              0   4      0 0
+*JWHT Douglas         c Gregory          b Armstrong           11  33      0 0
+FE Woolley            c Hendry           b McDonald            20  23      2 0
+VWC Jupp              c Armstrong        b McDonald             8  21      1 0
+W Rhodes              c Carter           b Gregory             19  28      4 0
++H Strudwick          c Collins          b Gregory              0  15      0 0
+H Howell              not out                                   0   9      0 0
+TL Richmond                          c & b Gregory              4   3      1 0
+Extras                (b 6, lb 6)                              12
+Total                 (all out, 37 overs)                     112
+
+FoW: 1-18 (Knight), 2-18 (Tyldesley), 3-18 (Hendren),
+     4-43 (Douglas), 5-77 (Woolley), 6-78 (Holmes), 7-101 (Jupp),
+     8-107 (Rhodes), 9-108 (Strudwick), 10-112 (Richmond).
+
+Bowling                      O      M      R      W
+Gregory                     19      5     58      6
+McDonald                    15      5     42      3
+Armstrong                    3      3      0      1
+
+Australia 1st innings                                           R   M   B  4 6
+W Bardsley            lbw                b Woolley             66 149      7 0
+HL Collins            lbw                b Richmond            17  53      2 0
+CG Macartney          lbw                b Douglas             20  23      3 0
+JM Taylor             c Jupp             b Douglas              4  12      0 0
+*WW Armstrong                            b Jupp                11  41      1 0
+JM Gregory            lbw                b Richmond            14  22      1 0
+CE Pellew                            c & b Rhodes              25  30      4 0
++H Carter             c Strudwick        b Woolley             33  64      3 0
+TJE Andrews                          c & b Rhodes               6  23      0 0
+HSTL Hendry           not out                                  12  33      2 0
+EA McDonald           c Knight           b Woolley             10  12      2 0
+Extras                (b 8, lb 5, nb 1)                        14
+Total                 (all out, 78 overs)                     232
+
+FoW: 1-49 (Collins), 2-86 (Macartney), 3-98 (Taylor),
+     4-126 (Armstrong), 5-138 (Bardsley), 6-152 (Gregory),
+     7-183 (Pellew), 8-202 (Andrews), 9-212 (Carter),
+     10-232 (McDonald).
+
+Bowling                      O      M      R      W
+Howell                       9      3     22      0
+Douglas                     13      2     34      2
+Richmond                    16      3     69      2
+Woolley                     22      8     46      3
+Jupp                         5      0     14      1
+Rhodes                      13      3     33      2
+
+England 2nd innings                                             R   M   B  4 6
+DJ Knight             run out                                  38 113      3 0
+P Holmes              c Taylor           b McDonald             8  38      0 0
+GE Tyldesley                             b Gregory              7  39      0 0
+EH Hendren                               b McDonald             7  40      0 0
+*JWHT Douglas         c Hendry           b McDonald            13  38      2 0
+FE Woolley            c Carter           b Hendry              34 113      2 1
+VWC Jupp              c Pellew           b Gregory             15  47      2 0
+W Rhodes              c Carter           b McDonald            10  42      1 0
++H Strudwick                             b Hendry               0   1      0 0
+H Howell              not out                                   4  10      0 0
+TL Richmond                              b McDonald             2   4      0 0
+Extras                (b 4, lb 3, nb 2)                         9
+Total                 (all out, 85.4 overs)                   147
+
+FoW: 1-23 (Holmes), 2-41 (Tyldesley), 3-60 (Knight),
+     4-63 (Hendren), 5-76 (Douglas), 6-110 (Jupp),
+     7-138 (Woolley), 8-138 (Strudwick), 9-140 (Rhodes),
+     10-147 (Richmond).
+
+Bowling                      O      M      R      W
+Gregory                     22      8     45      2
+McDonald                    22.4   10     32      5
+Armstrong                   27     10     33      0
+Macartney                    5      2     10      0
+Hendry                       9      1     18      2
+
+Australia 2nd innings (target: 28 runs)                         R   M   B  4 6
+W Bardsley            not out                                   8  18      1 0
+CG Macartney          not out                                  22  18      2 0
+Extras                                                          0
+Total                 (0 wickets, 6.1 overs)                   30
+
+DNB: HL Collins, JM Taylor, *WW Armstrong, JM Gregory, CE Pellew,
+     +H Carter, TJE Andrews, HSTL Hendry, EA McDonald.
+
+Bowling                      O      M      R      W
+Jupp                         3.1    0     13      0
+Richmond                     3      0     17      0
+
+<END>

@@ -1,0 +1,98 @@
+
+Test # 153
+South Africa in England, 1924, 1st Test
+England v South Africa
+Edgbaston, Birmingham
+14,16,17 June 1924 (3-day match)
+
+Result: England won by an innings and 18 runs
+Series: England leads the 5-match series 1-0
+
+Toss: South Africa
+Umpires: HR Butt and W Reeves
+Test debuts: APF Chapman, R Kilner, H Sutcliffe, MW Tate, GEC Wood (England);
+ HG Deane, GM Parker, MJ Susskind (South Africa).
+
+Close of play:
+ Day 1: England 398/7 (Kilner 40*, Gilligan 4*)
+ Day 2: England 438, South Africa 30, South Africa 274/4 (Catterall 52*, Blanckenberg 56*)
+
+England 1st innings                                             R   M   B  4 6
+JB Hobbs              lbw                b Blanckenberg        76            0
+H Sutcliffe                              b Parker              64 130        1
+FE Woolley            c Ward             b Parker              64          8 1
+EH Hendren            c Nourse           b Parker              74 165        0
+APF Chapman                              b Parker               8            0
+PGH Fender            c Taylor           b Blanckenberg        36            0
+R Kilner                             c & b Pegler              59            0
+MW Tate               c Taylor           b Parker              19            0
+*AER Gilligan                            b Pegler              13            0
++GEC Wood                                b Parker               1          0 0
+CH Parkin             not out                                   8            0
+Extras                (b 4, lb 11, nb 1)                       16
+Total                 (all out, 124 overs)                    438
+
+FoW: 1-136 (Sutcliffe), 2-164 (Hobbs), 3-247 (Woolley),
+     4-255 (Chapman), 5-315 (Hendren), 6-356 (Fender),
+     7-386 (Tate), 8-407 (Gilligan), 9-410 (Wood),
+     10-438 (Kilner).
+
+Bowling                      O      M      R      W
+Parker                      37      2    152      6
+Pegler                      36      8    106      2
+Blanckenberg                32      5     95      2
+Nupen                       18      2     66      0
+Nourse                       1      0      3      0
+
+South Africa 1st innings                                        R   M   B  4 6
+*HW Taylor                               b Tate                 7            0
+RH Catterall                             b Gilligan             0          0 0
+MJ Susskind           c Kilner           b Tate                 3          0 0
+AW Nourse             lbw                b Gilligan             1          0 0
+JMM Commaille         not out                                   1          0 0
+JM Blanckenberg                          b Tate                 4            0
+HG Deane                                 b Gilligan             2          0 0
+EP Nupen                                 b Gilligan             0          0 0
+SJ Pegler                                b Tate                 0          0 0
++TA Ward                                 b Gilligan             1          0 0
+GM Parker             lbw                b Gilligan             0          0 0
+Extras                (b 1, lb 7, nb 3)                        11
+Total                 (all out, 12.3 overs)                    30
+
+FoW: 1-1 (Catterall), 2-4 (Susskind), 3-6 (Nourse),
+     4-14 (Taylor), 5-20 (Blanckenberg), 6-23 (Deane),
+     7-23 (Nupen), 8-24 (Pegler), 9-30 (Ward), 10-30 (Parker).
+
+Bowling                      O      M      R      W
+Gilligan                     6.3    4      7      6
+Tate                         6      1     12      4
+
+South Africa 2nd innings (following on)                         R   M   B  4 6
+*HW Taylor                           c & b Tate                34            0
+JMM Commaille         c Hendren          b Tate                29            0
+MJ Susskind                              b Gilligan            51            0
+AW Nourse             c Wood             b Gilligan            34            0
+RH Catterall          c Hobbs            b Tate               120 195     15 2
+JM Blanckenberg       c Chapman          b Gilligan            56            0
+HG Deane              run out                                   5            0
+EP Nupen              lbw                b Tate                 5            0
++TA Ward                                 b Gilligan            19            0
+SJ Pegler             c Hobbs            b Gilligan             6            0
+GM Parker             not out                                   2          0 0
+Extras                (b 4, lb 18, w 1, nb 6)                  29
+Total                 (all out, 143.4 overs)                  390
+
+FoW: 1-54 (Taylor), 2-101 (Commaille), 3-152 (Susskind),
+     4-161 (Nourse), 5-275 (Blanckenberg), 6-284 (Deane),
+     7-295 (Nupen), 8-350 (Ward), 9-372 (Pegler),
+     10-390 (Catterall).
+
+Bowling                      O      M      R      W
+Gilligan                    28      6     83      5
+Tate                        50.4   19    103      4
+Parkin                      16      5     38      0
+Kilner                      22     10     40      0
+Fender                      17      5     56      0
+Woolley                     10      2     41      0
+
+<END>

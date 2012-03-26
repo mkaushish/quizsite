@@ -1,0 +1,66 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+950, 1983-03-04, 1, 5, Sri Lanka, run out, , 12, 63, 57, 1, 0
+951, 1983-03-11, 2, 5, Sri Lanka, c Silva, Ratnayake, 36, 120, 101, 3, 0
+951, 1983-03-11, 4, 4, Sri Lanka, , Ratnayake, 11, 20, 16, 2, 0
+957, 1983-07-14, 2, 3, England, c Randall, Willis, 0, 9, 4, 0, 0
+957, 1983-07-14, 4, 3, England, c Lamb, Willis, 9, 25, 20, 0, 0
+958, 1983-07-28, 2, 5, England, run out, , 0, 5, 4, 0, 0
+958, 1983-07-28, 4, 5, England, , Willis, 13, 36, 23, 0, 0
+975, 1984-01-20, 1, 5, England, c Taylor, Foster, 52, 129, 104, 9, 0
+975, 1984-01-20, 3, 5, England, lbw, Botham, 3, 19, 16, 0, 0
+976, 1984-02-03, 1, 5, England, lbw, Cowans, 47, 88, 73, 7, 0
+977, 1984-02-10, 1, 5, England, , Marks, 128, 384, 285, 20, 0
+980, 1984-03-09, 1, 5, Sri Lanka, c sub, John, 20, 58, 48, 2, 0
+980, 1984-03-09, 3, 8, Sri Lanka, c Amerasinghe, Kaluperuma, 9, 31, 10, 1, 0
+982, 1984-03-16, 2, 4, Sri Lanka, , Ratnayeke, 50, 162, 114, 8, 0
+982, 1984-03-16, 4, 4, Sri Lanka, c de Alwis, Ranatunga, 16, 70, 47, 3, 0
+985, 1984-03-24, 2, 6, Sri Lanka, lbw, John, 18, 58, 39, 3, 0
+998, 1984-11-16, 1, 1, Pakistan, c Anil Dalpat, Mudassar Nazar, 0, 3, 4, 0, 0
+998, 1984-11-16, 3, 5, Pakistan, , Iqbal Qasim, 43, 96, 71, 1, 1
+1000, 1984-11-25, 1, 6, Pakistan, c Saleem Malik, Zaheer Abbas, 39, 72, 61, 7, 0
+1000, 1984-11-25, 3, 6, Pakistan, lbw, Iqbal Qasim, 57, 132, 140, 7, 0
+1003, 1984-12-10, 2, 5, Pakistan, c Javed Miandad, Azeem Hafeez, 62, 155, 132, 7, 1
+1009, 1985-01-18, 1, 5, Pakistan, c Shoaib Mohammad, Iqbal Qasim, 4, 27, 20, 0, 0
+1009, 1985-01-18, 3, 5, Pakistan, not out, , 19, 122, 101, 1, 0
+1010, 1985-01-25, 2, 6, Pakistan, run out, , 30, 126, 96, 2, 0
+1012, 1985-02-09, 2, 5, Pakistan, lbw, Wasim Akram, 6, 15, 12, 1, 0
+1012, 1985-02-09, 4, 5, Pakistan, lbw, Wasim Akram, 0, 1, 1, 0, 0
+1013, 1985-03-29, 2, 3, West Indies,                c &, Harper, 64, 128, 96, 10, 0
+1013, 1985-03-29, 4, 3, West Indies, c Garner, Marshall, 27, 138, 93, 3, 0
+1014, 1985-04-06, 2, 3, West Indies, , Marshall, 22, 125, 89, 3, 0
+1015, 1985-04-26, 1, 5, West Indies, c Dujon, Davis, 21, 175, 115, 3, 0
+1015, 1985-04-26, 3, 5, West Indies, , Davis, 4, 30, 22, 0, 0
+1016, 1985-05-04, 2, 3, West Indies, c Richardson, Garner, 2, 5, 5, 0, 0
+1016, 1985-05-04, 3, 3, West Indies, c Marshall, Richards, 112, 284, 206, 10, 1
+1029, 1985-11-08, 2, 6, Australia, c Holland, Matthews, 35, 51, 52, 5, 1
+1030, 1985-11-22, 1, 6, Australia, , Holland, 13, 30, 38, 2, 0
+1030, 1985-11-22, 3, 6, Australia,                c &, Holland, 6, 33, 27, 0, 0
+1031, 1985-11-30, 2, 6, Australia, lbw, Holland, 17, 136, 101, 1, 0
+1031, 1985-11-30, 4, 6, Australia, not out, , 2, 17, 17, 0, 0
+1049, 1986-07-24, 2, 5, England, c Gatting, Edmonds, 18, 86, 61, 3, 0
+1050, 1986-08-07, 2, 3, England, c French, Small, 23, 75, 66, 3, 0
+1050, 1986-08-07, 4, 2, England, lbw, Small, 2, 19, 13, 0, 0
+1051, 1986-08-21, 1, 3, England, lbw, Botham, 8, 14, 11, 2, 0
+1068, 1987-02-20, 1, 6, West Indies, c Logie, Garner, 37, 139, 111, 3, 0
+1068, 1987-02-20, 3, 6, West Indies, not out, , 27, 143, 127, 2, 0
+1070, 1987-02-27, 2, 3, West Indies, c Dujon, Walsh, 1, 25, 20, 0, 0
+1070, 1987-02-27, 3, 3, West Indies, c Gray, Walsh, 21, 127, 97, 2, 0
+1072, 1987-03-12, 2, 3, West Indies, c Dujon, Gray, 55, 247, 165, 5, 0
+1072, 1987-03-12, 4, 3, West Indies, c Gray, Walsh, 2, 10, 8, 0, 0
+1074, 1987-04-16, 2, 5, Sri Lanka, not out, , 120, 609, 398, 13, 0
+1082, 1987-12-04, 1, 5, Australia, lbw, Waugh, 16, 91, 71, 1, 0
+1082, 1987-12-04, 3, 5, Australia, lbw, Reid, 12, 71, 53, 1, 0
+1084, 1987-12-11, 1, 1, Australia, c Veletta, Reid, 0, 2, 3, 0, 0
+1084, 1987-12-11, 3, 1, Australia, c Boon, May, 19, 82, 70, 2, 0
+1087, 1987-12-26, 1, 5, Australia, lbw, McDermott, 6, 29, 22, 1, 0
+1087, 1987-12-26, 3, 5, Australia, c Boon, Sleep, 25, 70, 62, 1, 0
+1091, 1988-02-12, 2, 5, England, c French, DeFreitas, 28, 209, 144, 1, 0
+1091, 1988-02-12, 4, 5, England, lbw, DeFreitas, 0, 27, 19, 0, 0
+1093, 1988-02-25, 1, 3, England, c Capel, Dilley, 11, 48, 42, 1, 0
+1093, 1988-02-25, 3, 3, England, lbw, Dilley, 1, 13, 14, 0, 0
+1115, 1989-02-10, 1, 6, Pakistan, , Abdul Qadir, 39, 217, 168, 4, 0
+1115, 1989-02-10, 3, 6, Pakistan, , Saleem Jaffar, 23, 88, 59, 4, 0
+1116, 1989-02-24, 2, 7, Pakistan, c Javed Miandad, Abdul Qadir, 33, 208, 178, 2, 0
+1129, 1989-11-24, 2, 6, Australia, c Healy, Rackemann, 7, 90, 58, 1, 0
+1129, 1989-11-24, 3, 6, Australia, lbw, Hughes, 49, 155, 115, 8, 0
+1141, 1990-03-15, 2, 7, Australia, lbw, Alderman, 9, 49, 44, 1, 0

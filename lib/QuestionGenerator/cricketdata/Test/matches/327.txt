@@ -1,0 +1,116 @@
+
+Test # 327
+The Ashes, 1950/51, 1st Test
+Australia v England
+Brisbane Cricket Ground, Woolloongabba, Brisbane
+1,2,4,5 December 1950 (6-day match)
+
+Result: Australia won by 70 runs
+Series: Australia leads the 5-match series 1-0
+
+Toss: Australia
+Umpires: AN Barlow and HAR Elphinstone
+Balls per over: 8
+Test debut: JB Iverson (Australia).
+
+Close of play:
+ Day 1: Australia 228
+ Day 2: No play
+ Day 3: England 68/7d, Australia 32/7d, England 30/6 (Evans 0*)
+
+Australia 1st innings                                           R   M   B  4 6
+J Moroney             c Hutton           b Bailey               0   2   4  0 0
+AR Morris             lbw                b Bedser              25  99      3 0
+RN Harvey             c Evans            b Bedser              74 136     10 0
+KR Miller             c McIntyre         b Wright              15  35      2 0
+*AL Hassett                              b Bedser               8  14      0 1
+SJE Loxton            c Evans            b Brown               24  49      3 0
+RR Lindwall           c Bedser           b Bailey              41 121      5 0
++D Tallon             c Simpson          b Brown                5  12      0 0
+IWG Johnson           c Simpson          b Bailey              23  52      2 0
+WA Johnston           c Hutton           b Bedser               1  19      0 0
+JB Iverson            not out                                   1   4      0 0
+Extras                (b 5, lb 3, nb 3)                        11
+Total                 (all out, 55.5 overs)                   228
+
+FoW: 1-0 (Moroney), 2-69 (Morris), 3-116 (Miller),
+     4-118 (Harvey), 5-129 (Hassett), 6-156 (Loxton),
+     7-172 (Tallon), 8-219 (Johnson), 9-226 (Lindwall),
+     10-228 (Johnston).
+
+Bowling                      O      M      R      W
+Bailey                      12      4     28      3
+Bedser                      16.5    4     45      4
+Wright                      16      0     81      1
+Brown                       11      0     63      2
+
+England 1st innings                                             R   M   B  4 6
+RT Simpson                               b Johnston            12  59      0 0
+C Washbrook           c Hassett          b Johnston            19  31      2 0
++TG Evans             c Iverson          b Johnston            16  28      3 0
+DCS Compton           c Lindwall         b Johnston             3   5      0 0
+JG Dewes              c Loxton           b Miller               1  10      0 0
+L Hutton              not out                                   8  34      0 0
+AJW McIntyre                             b Johnston             1   3      0 0
+*FR Brown             c Tallon           b Miller               4  14      0 0
+TE Bailey             not out                                   1   6      0 0
+Extras                (lb 2, nb 1)                              3
+Total                 (7 wickets dec, 22 overs)                68
+
+DNB: AV Bedser, DVP Wright.
+
+FoW: 1-28 (Washbrook), 2-49 (Simpson), 3-52 (Evans),
+     4-52 (Compton), 5-56 (Dewes), 6-57 (McIntyre), 7-67 (Brown).
+
+Bowling                      O      M      R      W
+Lindwall                     1      0      1      0
+Johnston                    11      2     35      5
+Miller                      10      1     29      2
+
+Australia 2nd innings                                           R   M   B  4 6
+J Moroney             lbw                b Bailey               0   2   7  0 0
+AR Morris             c Bailey           b Bedser               0  12  10  0 0
+IWG Johnson           lbw                b Bailey               8  42      1 0
+SJE Loxton            c Bailey           b Bedser               0   1   1  0 0
+*AL Hassett           lbw                b Bailey               3  20      0 0
+RN Harvey             c Simpson          b Bedser              12  25      2 0
+KR Miller             c Simpson          b Bailey               8   9      2 0
+RR Lindwall           not out                                   0   5      0 0
+Extras                (nb 1)                                    1
+Total                 (7 wickets dec, 13.5 overs)              32
+
+DNB: +D Tallon, WA Johnston, JB Iverson.
+
+FoW: 1-0 (Moroney), 2-0 (Morris), 3-0 (Loxton), 4-12 (Hassett),
+     5-19 (Johnson), 6-31 (Miller), 7-32 (Harvey).
+
+Bowling                      O      M      R      W
+Bailey                       7      2     22      4
+Bedser                       6.5    2      9      3
+
+England 2nd innings (target: 193 runs)                          R   M   B  4 6
+RT Simpson                               b Lindwall             0   1   1  0 0
+C Washbrook           c Loxton           b Lindwall             6  29      1 0
+JG Dewes                                 b Miller               9  44      1 0
+TE Bailey             c Johnston         b Iverson              7  30      1 0
+AV Bedser             c Harvey           b Iverson              0   8      0 0
++TG Evans             c Loxton           b Johnston             5  22      0 0
+AJW McIntyre          run out                                   7   2      1 0
+L Hutton              not out                                  62  90      7 0
+DCS Compton           c Loxton           b Johnston             0   1   1  0 0
+*FR Brown             c Loxton           b Iverson             17  32      2 0
+DVP Wright            c Lindwall         b Iverson              2  38      0 0
+Extras                (b 6, nb 1)                               7
+Total                 (all out, 38 overs)                     122
+
+FoW: 1-0 (Simpson), 2-16 (Washbrook), 3-22 (Dewes),
+     4-23 (Bailey), 5-23 (Bedser), 6-30 (McIntyre), 7-46 (Evans),
+     8-46 (Compton), 9-77 (Brown), 10-122 (Wright).
+
+Bowling                      O      M      R      W
+Lindwall                     7      3     21      2
+Johnston                    11      2     30      2
+Miller                       7      3     21      1
+Iverson                     13      3     43      4
+
+<END>

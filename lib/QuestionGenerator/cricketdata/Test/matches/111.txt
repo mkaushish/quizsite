@@ -1,0 +1,103 @@
+
+Test # 111
+South Africa in Australia, 1910/11, 1st Test
+Australia v South Africa
+Sydney Cricket Ground
+9,10,12,13,14 December 1910 (timeless match)
+
+Result: Australia won by an innings and 114 runs
+Series: Australia leads the 5-match series 1-0
+
+Toss: Australia
+Umpires: RM Crockett and WG Curran
+Test debuts: C Kelleway (Australia); COC Pearse (South Africa).
+
+Close of play:
+ Day 1: Australia 494/6 (Armstrong 43*, Kelleway 6*)
+ Day 2: Australia 528, South Africa 140/7 (Faulkner 45*, Schwarz 52*)
+ Day 3: No play
+ Day 4: South Africa 146/7 (Faulkner 45*, Schwarz 58*)
+
+Australia 1st innings                                           R   M   B  4 6
+VT Trumper            run out                                  27  32  38  3 0
+W Bardsley                               b Pearse             132 150 150 16 0
+*C Hill                                  b Pearse             191 200 200 18 0
+DRA Gehrs                                b Pearse              67  64  79  8 0
+WW Armstrong                             b Schwarz             48  69  70  5 0
+VS Ransford                              b Schwarz             11  17  28  1 0
+CG Macartney                             b Schwarz              1   4   6  0 0
+C Kelleway            not out                                  14  60  51  1 0
++H Carter             st Sherwell        b Schwarz              5   8  14  1 0
+A Cotter              st Sherwell        b Schwarz              0   1   2  0 0
+WJ Whitty             c Snooke           b Sinclair            15  12  18  3 0
+Extras                (b 12, lb 4, nb 1)                       17
+Total                 (all out, 109.4 overs)                  528
+
+FoW: 1-52 (Trumper), 2-276 (Bardsley), 3-420 (Gehrs),
+     4-427 (Hill), 5-445 (Ransford), 6-453 (Macartney),
+     7-499 (Armstrong), 8-511 (Carter), 9-511 (Cotter),
+     10-528 (Whitty).
+
+Bowling                      O      M      R      W
+Llewellyn                   14      0     54      0
+Sinclair                    19.4    0     80      1
+Schwarz                     25      6    102      5
+Nourse                      12      0     61      0
+Vogler                      15      0     87      0
+Faulkner                    12      0     71      0
+Pearse                      12      0     56      3
+
+South Africa 1st innings                                        R   M   B  4 6
+LA Stricker                              b Cotter               2  14  15  0 0
+JW Zulch                                 b Cotter               4   6   8  0 0
+COC Pearse            c Trumper          b Cotter              16  34  33  2 0
+AW Nourse             c Kelleway         b Cotter               5  35  38  0 0
+GA Faulkner           c Kelleway         b Whitty              62 146 142 10 0
+CB Llewellyn                             b Cotter               0   1   1  0 0
+SJ Snooke                                b Whitty               3  12  12  0 0
+JH Sinclair                              b Cotter               1   7   8  0 0
+RO Schwarz            c Trumper          b Whitty              61  97 130  6 0
+*+PW Sherwell         not out                                   8  20  28  1 0
+AEE Vogler                               b Whitty               0   1   1  0 0
+Extras                (lb 6, nb 6)                             12
+Total                 (all out, 68 overs)                     174
+
+FoW: 1-5 (Zulch), 2-10 (Stricker), 3-29 (Pearse), 4-38 (Nourse),
+     5-38 (Llewellyn), 6-44 (Snooke), 7-49 (Sinclair),
+     8-149 (Schwarz), 9-174 (Faulkner), 10-174 (Vogler).
+
+Bowling                      O      M      R      W
+Cotter                      20      2     69      6
+Whitty                      24     11     33      4
+Armstrong                    8      3     16      0
+Kelleway                     9      1     33      0
+Macartney                    7      4     11      0
+
+South Africa 2nd innings (following on)                         R   M   B  4 6
+*+PW Sherwell         c Whitty           b Kelleway            60  78 104  7 1
+JH Sinclair                              b Cotter               6  19  19  1 0
+SJ Snooke                                b Cotter               4   5   6  1 0
+JW Zulch              run out                                   1   7   6  0 0
+GA Faulkner           c Bardsley         b Whitty              43  67  75  8 0
+AW Nourse             not out                                  64 119 109  3 0
+LA Stricker           lbw                b Whitty               4  14   8  0 0
+CB Llewellyn          c Macartney        b Whitty              19  34  20  1 0
+RO Schwarz            c Carter           b Whitty               0   1   3  0 0
+COC Pearse            run out                                  31  41  61  6 0
+AEE Vogler                               b Kelleway             0   2   1  0 0
+Extras                (lb 1, nb 7)                              8
+Total                 (all out, 67.1 overs)                   240
+
+FoW: 1-24 (Sinclair), 2-38 (Snooke), 3-44 (Zulch),
+     4-98 (Sherwell), 5-124 (Faulkner), 6-144 (Stricker),
+     7-183 (Llewellyn), 8-183 (Schwarz), 9-237 (Pearse),
+     10-240 (Vogler).
+
+Bowling                      O      M      R      W
+Cotter                      17      2     73      2
+Whitty                      21      4     75      4
+Armstrong                    9      1     35      0
+Kelleway                    15.1    4     37      2
+Macartney                    5      1     12      0
+
+<END>

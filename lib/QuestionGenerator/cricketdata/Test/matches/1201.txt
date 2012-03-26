@@ -1,0 +1,137 @@
+
+Test # 1201
+India in South Africa, 1992/93, 2nd Test
+South Africa v India
+New Wanderers Stadium, Johannesburg
+26,27,28,29,30 November 1992 (5-day match)
+
+Result: Match drawn
+Series: 4-match series level 0-0
+
+Toss: South Africa
+Umpires: SA Bucknor (WI), SB Lambson and CJ Mitchley
+TV umpires: SB Lambson and CJ Mitchley
+Match referee: CH Lloyd (WI)
+Test debut: CR Matthews (South Africa).
+Player of the match: BM McMillan
+
+Close of play:
+ Day 1: South Africa 226/7 (McMillan 69*, Matthews 15*)
+ Day 2: South Africa 292, India 128/6 (Tendulkar 75*, Kapil Dev 1*)
+ Day 3: India 227, South Africa 75/1 (Hudson 35*, Richardson 2*)
+ Day 4: South Africa 252, India 15/0 (Shastri 7*, Jadeja 8*)
+
+South Africa 1st innings                                        R   M   B  4 6
+SJ Cook               c More             b Prabhakar            2  30  17  0 0
+AC Hudson             c Azharuddin       b Prabhakar            8  21  16  1 0
+*KC Wessels           c Azharuddin       b Srinath              5  52  36  0 0
+PN Kirsten            lbw                b Prabhakar            0   3   4  0 0
+JN Rhodes             lbw                b Kumble              91 243 189 10 0
+WJ Cronje                            c & b Kapil Dev            8  84  63  1 0
+BM McMillan           c Manjrekar        b Srinath             98 307 203 12 0
++DJ Richardson        lbw                b Kumble               9  34  31  1 0
+CR Matthews                              b Prabhakar           31  87  71  4 0
+MW Pringle            retired hurt                              3  20  15  0 0
+AA Donald             not out                                  14  41  32  1 0
+Extras                (lb 10, w 4, nb 9)                       23
+Total                 (all out, 110.5 overs)                  292
+
+FoW: 1-10 (Hudson), 2-11 (Cook), 3-11 (Kirsten), 4-26 (Wessels),
+     5-73 (Cronje), 6-158 (Rhodes), 7-186 (Richardson),
+     8-251 (Matthews), 9-292 (McMillan).
+
+Bowling                      O      M      R      W
+Kapil Dev                   25      4     62      1
+Prabhakar                   29      3     90      4 (7nb, 2w)
+Srinath                     26.5    6     60      2 (2nb, 2w)
+Kumble                      26      8     60      2
+Shastri                      4      0     10      0
+
+India 1st innings                                               R   M   B  4 6
+RJ Shastri            c Wessels          b Matthews             7  69  48  0 0
+A Jadeja              lbw                b McMillan            14  72  53  1 0
+SV Manjrekar                             b McMillan             7  42  28  1 0
+SR Tendulkar          c Hudson           b Cronje             111 373 270 19 0
+*M Azharuddin         c Wessels          b Matthews             9  44  27  1 0
+PK Amre               lbw                b McMillan             7  80  50  1 0
+M Prabhakar           c Richardson       b Donald               2  20  14  0 0
+N Kapil Dev           c McMillan         b Donald              25  53  37  4 0
++KS More              c Richardson       b McMillan            10  71  52  0 0
+A Kumble              not out                                  21  87  58  4 0
+J Srinath             c Richardson       b Donald               5  26  16  0 0
+Extras                (lb 4, w 4, nb 1)                         9
+Total                 (all out, 108 overs)                    227
+
+FoW: 1-27 (Shastri), 2-27 (Jadeja), 3-44 (Manjrekar),
+     4-77 (Azharuddin), 5-124 (Amre), 6-127 (Prabhakar),
+     7-155 (Kapil Dev), 8-174 (More), 9-212 (Tendulkar),
+     10-227 (Srinath).
+
+Bowling                      O      M      R      W
+Donald                      31      9     78      3 (2w)
+McMillan                    29     11     74      4 (2w)
+Matthews                    29     13     41      2 (1nb)
+Cronje                      17     10     22      1
+Kirsten                      2      0      8      0
+
+South Africa 2nd innings                                        R   M   B  4 6
+SJ Cook               c More             b Srinath             31 148 109  2 0
+AC Hudson                                b Kumble              53 203 157  6 0
++DJ Richardson                           b Kumble              50 150 124  7 0
+*KC Wessels           run out (sub [C Sharma])                 11  57  35  0 0
+PN Kirsten                               b Kumble              26 109  84  4 0
+JN Rhodes                                b Kumble              13  54  34  1 0
+WJ Cronje                                b Kumble              15 110  75  0 0
+BM McMillan           c Prabhakar        b Kumble               5  30  27  0 0
+CR Matthews           c Tendulkar        b Prabhakar           18  84  60  1 0
+AA Donald             not out                                   7  22  13  0 0
+MW Pringle            absent hurt                               -
+Extras                (b 1, lb 14, w 1, nb 7)                  23
+Total                 (all out, 118.2 overs)                  252
+
+FoW: 1-73 (Cook), 2-108 (Hudson), 3-138 (Wessels),
+     4-170 (Richardson), 5-194 (Rhodes), 6-199 (Kirsten),
+     7-209 (McMillan), 8-239 (Cronje), 9-252 (Matthews).
+
+Bowling                      O      M      R      W
+Kapil Dev                   24      6     50      0 (1w)
+Prabhakar                   23.2    3     74      1 (3nb)
+Srinath                     26      2     58      1
+Kumble                      44     22     53      6 (4nb)
+Tendulkar                    1      0      2      0
+
+India 2nd innings (target: 318 runs)                            R   M   B  4 6
+RJ Shastri                               b Matthews            23 197 139  4 0
+A Jadeja              c Wessels          b Donald              43 164 117  4 0
+*M Azharuddin         c Richardson       b Matthews             1   8   8  0 0
+SR Tendulkar          lbw                b Donald               1   6   5  0 0
+SV Manjrekar          not out                                  32 172 116  2 0
+PK Amre               not out                                  35 156 110  3 0
+Extras                (b 2, lb 2, nb 2)                         6
+Total                 (4 wickets, 82 overs)                   141
+
+DNB: M Prabhakar, N Kapil Dev, +KS More, A Kumble, J Srinath.
+
+FoW: 1-68 (Jadeja), 2-70 (Azharuddin), 3-71 (Tendulkar),
+     4-73 (Shastri).
+
+Bowling                      O      M      R      W
+Donald                      20      6     43      2 (2nb)
+McMillan                    21      6     34      0
+Matthews                    20     10     23      2
+Cronje                      18      7     32      0
+Kirsten                      3      1      5      0
+
+*** Day 1
+*** Rhodes on 26 in a score of 61/4 luckily escaped when Umpire Bucknor
+    refused to refer a run out to the 3rd umpire. Replays showed Rhodes
+    clearly out of the crease.
+
+*** Day 2
+*** MW Pringle retired hurt at 261/8 (injured over the eye by a ball from
+    Srinath).
+*** SR Tendulkar, 111 in 373 min, 270 balls, 19x4, 4th test hundred.
+*** When on 33, Tendulkar became the youngest at 19 years & 217 days to reach
+    1000 runs in Test cricket.
+
+<END>

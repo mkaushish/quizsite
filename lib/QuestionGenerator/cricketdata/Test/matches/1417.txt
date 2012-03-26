@@ -1,0 +1,124 @@
+
+Test # 1417
+South Africa in England, 1998, 1st Test
+England v South Africa
+Edgbaston, Birmingham
+4,5,6,7,8 June 1998 (5-day match)
+
+Result: Match drawn
+Series: 5-match series level 0-0
+
+Toss: South Africa
+Umpires: DR Shepherd and RB Tiffin (Zim)
+TV umpire: JH Hampshire
+Match referee: Javed Burki (Pak)
+Player of the match: MA Atherton
+
+Close of play:
+ Day 1: England 249/1 (Atherton 103*, Stewart 28*, 92 ov)
+ Day 2: England 462
+ Day 3: South Africa 192/5 (Rhodes 36*, Pollock 0*, 75.2 ov)
+ Day 4: South Africa 343, England 170/8 (Croft 1*, 45.1 ov)
+ Day 5: No play
+
+England 1st innings                                             R   M   B  4 6
+MA Butcher            c Kallis           b Adams               77 278 214  7 0
+MA Atherton           c Boucher          b Donald             103 366 279 12 0
+*+AJ Stewart          c Cullinan         b Klusener            49 188 128  5 0
+N Hussain             lbw                b Adams               35  99  82  5 0
+GP Thorpe                                b Pollock             10  37  30  1 0
+MR Ramprakash                            b Donald              49 192 151  4 0
+MA Ealham                                b Adams                5  57  39  0 0
+DG Cork               c Pollock          b Donald              36 127 109  5 0
+RDB Croft             c Boucher          b Donald              19  32  21  2 0
+D Gough               not out                                  16  35  15  2 0
+ARC Fraser            c Cronje           b Pollock              9  29  21  1 0
+Extras                (b 18, lb 26, w 8, nb 2)                 54
+Total                 (all out, 181 overs)                    462
+
+FoW: 1-179 (Butcher, 69.6 ov), 2-249 (Atherton, 93.4 ov),
+     3-309 (Stewart, 116.3 ov), 4-309 (Hussain, 117.1 ov),
+     5-329 (Thorpe, 126.5 ov), 6-356 (Ealham, 141.5 ov),
+     7-411 (Ramprakash, 169.1 ov), 8-430 (Cork, 173.6 ov),
+     9-437 (Croft, 175.1 ov), 10-462 (Fraser, 180.6 ov).
+
+Bowling                      O      M      R      W
+Donald                      35      9     95      4 (2w)
+Pollock                     42     12     92      2 (2nb, 1w)
+Klusener                    31      7     74      1 (1nb)
+Cronje                      11      3     28      0 (1w)
+Adams                       42     10     83      3
+Kallis                      20      7     46      0 (1w)
+
+South Africa 1st innings                                        R   M   B  4 6
+G Kirsten             c Butcher          b Cork                12  81  55  1 0
+GFJ Liebenberg        c sub (BL Spendlove) b Cork               3  23  15  0 0
+JH Kallis             c Stewart          b Cork                61 192 131  3 0
+DJ Cullinan                              b Fraser              78 220 193  8 0
+*WJ Cronje            c sub (BL Spendlove) b Cork               1   8   6  0 0
+JN Rhodes             c Stewart          b Fraser              95 228 156  8 1
+SM Pollock            c Croft            b Fraser              16  16  18  3 0
++MV Boucher           c Stewart          b Fraser               0  18   9  0 0
+L Klusener            c Stewart          b Ealham              57 119  90 11 0
+AA Donald                            c & b Cork                 7  28  17  0 0
+PR Adams              not out                                   6  24  17  1 0
+Extras                (lb 5, nb 2)                              7
+Total                 (all out, 117.3 overs)                  343
+
+FoW: 1-6 (Liebenberg, 5.4 ov), 2-38 (Kirsten, 18.5 ov),
+     3-119 (Kallis, 54.5 ov), 4-125 (Cronje, 56.5 ov),
+     5-191 (Cullinan, 74.4 ov), 6-211 (Pollock, 78.4 ov),
+     7-224 (Boucher, 82.3 ov), 8-328 (Rhodes, 110.6 ov),
+     9-328 (Klusener, 111.5 ov), 10-343 (Donald, 117.3 ov).
+
+Bowling                      O      M      R      W
+Fraser                      34      6    103      4 (1nb)
+Cork                        32.3    7     93      5
+Ealham                      23      8     55      1
+Croft                       27      3     85      0
+Butcher                      1      0      2      0 (1nb)
+
+England 2nd innings                                             R   M   B  4 6
+MA Butcher            lbw                b Pollock             11  23  21  1 0
+MA Atherton                              b Klusener            43 170 115  7 0
+N Hussain             lbw                b Donald               0  14   5  0 0
+*+AJ Stewart                             b Donald              28  67  34  3 0
+GP Thorpe                                b Klusener            43  55  59  5 0
+MR Ramprakash         c Kallis           b Adams               11  15  10  1 1
+MA Ealham             c Pollock          b Klusener             7  12  12  1 0
+DG Cork               st Boucher         b Adams                2  16   7  0 0
+RDB Croft             not out                                   1  11   8  0 0
+Extras                (b 10, lb 6, w 8)                        24
+Total                 (8 wickets dec, 45.1 overs)             170
+
+DNB: ARC Fraser, D Gough.
+
+FoW: 1-24 (Butcher, 5.4 ov), 2-31 (Hussain, 8.3 ov),
+     3-80 (Stewart, 22.1 ov), 4-148 (Thorpe, 38.1 ov),
+     5-153 (Atherton, 40.1 ov), 6-167 (Ramprakash, 41.5 ov),
+     7-167 (Ealham, 42.5 ov), 8-170 (Cork, 45.1 ov).
+
+Bowling                      O      M      R      W
+Donald                      10      1     48      2 (1w)
+Pollock                     12      2     43      1 (4w)
+Klusener                    11      4     27      3
+Adams                       12.1    3     36      2
+
+*** Day 2
+*** Darren Gough has had his finger broken by Alan Donald after taking the
+    3rd new ball, and will not bowl or bat for the rest of the match, He is
+    expected to be out for 6 weeks and will miss the Lord's Test.
+*** BL Spendlove substituted for GP Thorpe
+*** Rain stopped play 5.08 to 6.10pm.
+
+*** Day 4
+*** Jonty Rhodes dropped by Spendlove on 66
+*** Lance Klusener dropped by Nasser Hussain on 56
+*** Angus Fraser takes his 150th test wicket
+*** Paul Adams takes his 50th test wicket
+*** Lance Klusener scores his 500th test run
+
+*** Day 5
+*** Match abandoned at 2.30 by the umpires, heavy rain.
+
+<END>

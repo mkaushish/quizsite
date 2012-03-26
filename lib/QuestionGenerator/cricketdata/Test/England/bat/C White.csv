@@ -1,0 +1,51 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+1260, 1994-06-02, 2, 6, New Zealand, c Larsen, Hart, 19, 55, 47, 3, 0
+1261, 1994-06-16, 2, 6, New Zealand, run out, , 51, 128, 129, 7, 0
+1261, 1994-06-16, 4, 6, New Zealand, c Thomson, Nash, 9, 72, 50, 1, 0
+1262, 1994-06-30, 1, 6, New Zealand, c Hart, Owens, 42, 170, 129, 7, 0
+1263, 1994-07-21, 2, 6, South Africa, c Richardson, Donald, 10, 101, 63, 1, 0
+1263, 1994-07-21, 4, 6, South Africa, c Wessels, Matthews, 0, 1, 1, 0, 0
+1301, 1995-07-27, 2, 6, West Indies, c Murray, Benjamin, 23, 83, 52, 3, 0
+1301, 1995-07-27, 4, 6, West Indies, c sub (S Chanderpaul), Benjamin, 1, 9, 5, 0, 0
+1302, 1995-08-10, 1, 7, West Indies, c Browne, Bishop, 1, 28, 13, 0, 0
+1302, 1995-08-10, 3, 5, West Indies, c Campbell, Bishop, 1, 27, 17, 0, 0
+1348, 1996-12-26, 1, 7, Zimbabwe, c Campbell, Whittall, 9, 59, 47, 0, 0
+1351, 1997-01-24, 2, 7, New Zealand, lbw, Vaughan, 0, 1, 1, 0, 0
+1503, 2000-06-29, 2, 7, West Indies, run out (Adams), , 27, 82, 59, 4, 0
+1503, 2000-06-29, 4, 7, West Indies, c Jacobs, Walsh, 0, 4, 3, 0, 0
+1506, 2000-07-03, 2, 7, West Indies, , King, 6, 34, 30, 0, 0
+1508, 2000-07-17, 2, 9, West Indies, c Jacobs, McLean, 0, 2, 7, 0, 0
+1509, 2000-08-31, 1, 8, West Indies, not out, , 11, 67, 40, 1, 0
+1509, 2000-08-31, 3, 8, West Indies, run out (Griffith), , 18, 32, 25, 3, 0
+1513, 2000-10-15, 1, 7, Pakistan, c Yousuf Youhana, Saqlain Mushtaq, 93, 286, 199, 9, 2
+1518, 2000-11-29, 2, 8, Pakistan, , Saqlain Mushtaq, 41, 88, 46, 3, 2
+1518, 2000-11-29, 4, 7, Pakistan, not out, , 9, 25, 26, 1, 0
+1521, 2000-11-07, 2, 7, Pakistan, st Moin Khan, Danish Kaneria, 35, 143, 96, 3, 1
+1530, 2001-01-22, 2, 8, Sri Lanka, c Sangakkara, Jayasuriya, 25, 58, 47, 2, 0
+1530, 2001-01-22, 3, 7, Sri Lanka, lbw, Muralitharan, 3, 20, 16, 0, 0
+1532, 2001-02-07, 2, 7, Sri Lanka, st Sangakkara, Jayasuriya, 39, 127, 113, 6, 0
+1532, 2001-02-07, 4, 8, Sri Lanka, not out, , 21, 88, 74, 2, 0
+1537, 2001-02-15, 2, 7, Sri Lanka, c Sangakkara, Vaas, 0, 1, 1, 0, 0
+1537, 2001-02-15, 4, 6, Sri Lanka, c Jayawardene, Jayasuriya, 8, 20, 11, 1, 0
+1550, 2001-06-05, 1, 8, Australia, lbw, Warne, 4, 9, 8, 0, 0
+1550, 2001-06-05, 3, 8, Australia, , Gillespie, 0, 8, 6, 0, 0
+1552, 2001-06-19, 1, 8, Australia, c Hayden, McGrath, 0, 18, 14, 0, 0
+1552, 2001-06-19, 3, 8, Australia, not out, , 27, 38, 28, 5, 0
+1554, 2001-07-02, 1, 7, Australia, c Hayden, McGrath, 0, 10, 9, 0, 0
+1554, 2001-07-02, 3, 7, Australia, c SR Waugh, Warne, 7, 35, 24, 0, 0
+1574, 2001-11-03, 1, 7, India, c Dravid, Kumble, 5, 27, 24, 0, 0
+1574, 2001-11-03, 3, 7, India, c Dasgupta, Harbhajan Singh, 22, 37, 34, 3, 0
+1575, 2001-11-11, 1, 7, India, , Harbhajan Singh, 121, 343, 265, 12, 2
+1575, 2001-11-11, 3, 6, India, run out (Yohannan/Harbhajan Singh), , 18, 60, 47, 2, 0
+1578, 2001-11-19, 1, 7, India, c Das, Srinath, 39, 116, 93, 6, 0
+1610, 2002-06-25, 1, 8, India, st Ratra, Kumble, 53, 124, 75, 4, 1
+1610, 2002-06-25, 3, 8, India, not out, , 6, 5, 4, 1, 0
+1612, 2002-07-08, 2, 8, India, not out, , 94, 208, 119, 12, 1
+1623, 2002-10-07, 2, 7, Australia, , McGrath, 12, 27, 19, 2, 0
+1623, 2002-10-07, 4, 7, Australia, c Hayden, McGrath, 13, 26, 19, 2, 0
+1628, 2002-10-21, 1, 7, Australia, c Bichel, Gillespie, 1, 19, 12, 0, 0
+1628, 2002-10-21, 3, 7, Australia, c sub (B Lee), McGrath, 5, 47, 50, 0, 0
+1629, 2002-11-29, 1, 7, Australia, c Martyn, Lee, 2, 21, 19, 0, 0
+1629, 2002-11-29, 3, 8, Australia, st Gilchrist, Warne, 15, 34, 25, 1, 0
+1634, 2002-11-26, 2, 8, Australia, not out, , 85, 182, 134, 9, 3
+1634, 2002-11-26, 3, 7, Australia, c Gilchrist, MacGill, 21, 95, 62, 3, 0

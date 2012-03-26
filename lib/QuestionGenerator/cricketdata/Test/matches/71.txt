@@ -1,0 +1,45 @@
+
+Test # 71
+The Ashes, 1902, 2nd Test
+England v Australia
+Lord's, London
+12,13,14 June 1902 (3-day match)
+
+Result: Match drawn
+Series: 5-match series level 0-0
+
+Toss: England
+Umpires: CE Richardson and VA Titchmarsh
+
+Close of play:
+ Day 1: England 102/2 (MacLaren 47*, Jackson 55*, 38 ov)
+ Day 2: No play
+ Day 3: No play
+
+England 1st innings                                             R   M   B  4 6
+*AC MacLaren          not out                                  47 105        0
+CB Fry                c Hill             b Hopkins              0          0 0
+KS Ranjitsinhji                          b Hopkins              0          0 0
+Hon.FS Jackson        not out                                  55            0
+Extras                                                          0
+Total                 (2 wickets, 38 overs)                   102
+
+DNB: JT Tyldesley, +AFA Lilley, GH Hirst, GL Jessop, LC Braund,
+     WH Lockwood, W Rhodes.
+
+FoW: 1-0 (Fry), 2-0 (Ranjitsinhji).
+
+Bowling                      O      M      R      W
+Jones                       11      4     31      0
+Hopkins                      9      3     18      2
+Saunders                     3      0     15      0
+Trumper                      8      1     33      0
+Armstrong                    5      0      5      0
+Noble                        2      2      0      0
+
+Australia team:
+ VT Trumper, RA Duff, AJY Hopkins, C Hill, SE Gregory,
+ *J Darling, MA Noble, WW Armstrong, +JJ Kelly, E Jones,
+ JV Saunders.
+
+<END>

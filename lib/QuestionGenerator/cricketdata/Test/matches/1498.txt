@@ -1,0 +1,135 @@
+
+Test # 1498
+Zimbabwe in England, 2000, 2nd Test
+England v Zimbabwe
+Trent Bridge, Nottingham
+1,2,3,4,5 June 2000 (5-day match)
+
+Result: Match drawn
+Series: England wins the 2-match series 1-0
+
+Toss: Zimbabwe
+Umpires: MJ Kitchen and DL Orchard (SA)
+TV umpire: JW Lloyds
+Match referee: GT Dowling (NZ)
+Test debut: ML Nkala (Zimbabwe).
+Player of the match: MW Goodwin
+Players of the series: MA Atherton and HH Streak
+
+Close of play:
+ Day 1: England 203/3 (Atherton 96*, Stewart 8*, 75 ov)
+ Day 2: No play
+ Day 3: England 374, Zimbabwe 51/2 (Goodwin 11*, Johnson 9*, 14 ov)
+ Day 4: Zimbabwe 285/4 (Goodwin 148*, Murphy 0*, 82.3 ov)
+
+England 1st innings                                             R   M   B  4 6
+MA Atherton           c GW Flower        b Mbangwa            136 472 330 19 1
+MR Ramprakash         c GW Flower        b Johnson             56 199 142  9 0
+*N Hussain            c Streak           b Nkala               21  78  57  5 0
+GA Hick               c Murphy           b Nkala                5   7   8  1 0
++AJ Stewart           lbw                b Whittall             9  33  29  1 0
+NV Knight             lbw                b Whittall             1  18  14  0 0
+A Flintoff            lbw                b Mbangwa             16  67  46  3 0
+CP Schofield                             b Murphy              57 169 119  7 0
+AR Caddick            c GW Flower        b Nkala               13  49  38  2 0
+D Gough               c Campbell         b Streak               9  37  28  1 0
+ESH Giddins           not out                                   3  19  11  0 0
+Extras                (b 9, lb 13, w 16, nb 10)                48
+Total                 (all out, 135.2 overs, 582 mins)        374
+
+FoW: 1-121 (Ramprakash, 48.4 ov), 2-182 (Hussain, 66.5 ov),
+     3-188 (Hick, 68.4 ov), 4-209 (Stewart, 77.5 ov),
+     5-221 (Knight, 81.5 ov), 6-264 (Flintoff, 97.3 ov),
+     7-303 (Atherton, 110.6 ov), 8-335 (Caddick, 123.1 ov),
+     9-358 (Gough, 130.5 ov), 10-374 (Schofield, 135.2 ov).
+
+Bowling                      O      M      R      W
+Streak                      32      7     82      1 (1w)
+Nkala                       31      6     82      3 (3nb, 4w)
+Johnson                     22      7     63      1 (2nb, 2w)
+Mbangwa                     18      6     40      2 (1nb)
+Murphy                      12.2    1     36      1
+Whittall                    19      7     47      2 (4nb, 1w)
+GW Flower                    1      0      2      0
+
+Zimbabwe 1st innings                                            R   M   B  4 6
+GW Flower             c Ramprakash       b Gough                0   3   6  0 0
+GJ Whittall           lbw                b Giddins             28  33  28  4 0
+MW Goodwin            not out                                 148 335 250 20 0
+NC Johnson            c Stewart          b Gough               51 150 100  8 0
+*+A Flower                               b Gough               42 146 113  4 0
+BA Murphy             not out                                   0   6   4  0 0
+Extras                (b 5, lb 5, nb 6)                        16
+Total                 (4 wickets dec, 82.3 overs, 339 mins)   285
+
+DNB: SV Carlisle, HH Streak, ADR Campbell, ML Nkala, M Mbangwa.
+
+FoW: 1-1 (GW Flower, 0.5 ov), 2-33 (Whittall, 7.4 ov),
+     3-162 (Johnson, 42.6 ov), 4-284 (A Flower, 81.3 ov).
+
+Bowling                      O      M      R      W
+Gough                       20      2     66      3 (4nb)
+Caddick                     18.3    4     57      0 (2nb)
+Giddins                     16      5     46      1
+Schofield                   18      2     73      0
+Flintoff                    10      3     33      0
+
+England 2nd innings                                             R   M   B  4 6
+NV Knight                                b Streak               6  56  42  0 0
+MR Ramprakash         c A Flower         b Nkala                4   7   6  1 0
+*N Hussain            lbw                b Nkala                0  14   8  0 0
+GA Hick               c A Flower         b Johnson             30 170 110  3 0
++AJ Stewart           c A Flower         b Johnson             15  26  18  3 0
+A Flintoff            c A Flower         b Streak              16  68  62  1 1
+MA Atherton           c GW Flower        b Whittall            34 137  94  6 0
+CP Schofield          c Campbell         b Murphy              10  27  24  1 0
+AR Caddick            c A Flower         b Whittall            12  58  57  2 0
+D Gough               c Murphy           b Whittall             3  24  23  0 0
+ESH Giddins           not out                                   0  14   9  0 0
+Extras                (b 5, lb 8, w 1, nb 3)                   17
+Total                 (all out, 75 overs, 306 mins)           147
+
+FoW: 1-6 (Ramprakash, 1.6 ov), 2-6 (Hussain, 5.1 ov),
+     3-12 (Knight, 12.5 ov), 4-44 (Stewart, 18.2 ov),
+     5-73 (Flintoff, 34.5 ov), 6-95 (Hick, 44.1 ov),
+     7-110 (Schofield, 51.3 ov), 8-139 (Caddick, 68.2 ov),
+     9-140 (Atherton, 70.6 ov), 10-147 (Gough, 74.6 ov).
+
+Bowling                      O      M      R      W
+Streak                      17      8     13      2 (1w)
+Nkala                       11      5     22      2 (1nb)
+Johnson                     12      2     41      2 (2nb)
+Mbangwa                     15      8     25      0
+Whittall                     8      3     14      3
+Murphy                      12      6     19      1
+
+Zimbabwe 2nd innings (target: 237 runs)                         R   M   B  4 6
+GW Flower             c Hick             b Caddick             12   7   9  3 0
+GJ Whittall           not out                                  12  22  18  2 0
+MW Goodwin            not out                                   1  14   3  0 0
+Extras                                                          0
+Total                 (1 wicket, 5 overs, 22 mins)             25
+
+DNB: ADR Campbell, *+A Flower, NC Johnson, SV Carlisle,
+     HH Streak, BA Murphy, ML Nkala, M Mbangwa.
+
+FoW: 1-17 (GW Flower, 1.5 ov).
+
+Bowling                      O      M      R      W
+Gough                        2      0     15      0
+Caddick                      2      1      9      1
+Ramprakash                   1      0      1      0
+
+*** Day 1
+*** No play before Lunch
+*** England 50 off 133 balls 91 mins
+*** Ramprakash 50 off 131 balls, 186 mins
+*** 50 partnership (Atherton/Hussain) off 80 balls
+
+*** Day 2
+*** No play before lunch
+
+*** Day 4
+*** No play before lunch
+
+<END>

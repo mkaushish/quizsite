@@ -1,0 +1,129 @@
+
+Test # 182
+South Africa in England, 1929, 2nd Test
+England v South Africa
+Lord's, London
+29 June, 1,2 July 1929 (3-day match)
+
+Result: Match drawn
+Series: 5-match series level 0-0
+
+Toss: England
+Umpires: W Bestwick and F Chester
+Test debuts: J O'Connor, RWV Robins (England); AJ Bell, EL Dalton,
+ Q McMillan (South Africa).
+
+Close of play:
+ Day 1: England 302, South Africa 57/1 (Mitchell 15*, Christy 42*)
+ Day 2: South Africa 322, England 49/2 (Leyland 12*, Hendren 0*)
+
+England 1st innings                                             R   M   B  4 6
+H Sutcliffe           c Mitchell         b Bell               100            0
+ET Killick                               b Morkel               3          0 0
+WR Hammond            c Christy          b Morkel               8            0
+J O'Connor                               b Morkel               0          0 0
+EH Hendren                               b Morkel              43            0
+M Leyland                                b Bell                73            1
+MW Tate               c Cameron          b Bell                15            0
+RWV Robins            c Mitchell         b Bell                 4            0
+H Larwood                                b Bell                35            0
+*JC White                                b Bell                 8            0
++G Duckworth          not out                                   8            0
+Extras                (lb 4, w 1)                               5
+Total                 (all out, 99.4 overs)                   302
+
+FoW: 1-8 (Killick), 2-18 (Hammond), 3-18 (O'Connor),
+     4-111 (Hendren), 5-199 (Sutcliffe), 6-243 (Tate),
+     7-249 (Robins), 8-252 (Leyland), 9-287 (White),
+     10-302 (Larwood).
+
+Bowling                      O      M      R      W
+Ochse                       24      5     51      0
+Morkel                      31      6     93      4
+Bell                        30.4    7     99      6
+Christy                      6      2     20      0
+McMillan                     7      0     31      0
+Owen-Smith                   1      0      3      0
+
+South Africa 1st innings                                        R   M   B  4 6
+RH Catterall                             b Larwood              0          0 0
+B Mitchell            st Duckworth       b Hammond             29            0
+JAJ Christy           run out                                  70            0
+DPB Morkel            lbw                b Tate                88            0
+*HG Deane                                b Tate                 1          0 0
++HB Cameron           c Leyland          b Robins              32            0
+HGO Owen-Smith        not out                                  52            0
+EL Dalton                                b Tate                 6            0
+Q McMillan            c Killick          b White               17            1
+AL Ochse              c Duckworth        b White                1          0 0
+AJ Bell                                  b Robins              13            0
+Extras                (b 9, lb 4)                              13
+Total                 (all out, 131 overs)                    322
+
+FoW: 1-0 (Catterall), 2-82 (Mitchell), 3-125 (Christy),
+     4-126 (Deane), 5-189 (Cameron), 6-237 (Morkel),
+     7-253 (Dalton), 8-272 (McMillan), 9-279 (Ochse),
+     10-322 (Bell).
+
+Bowling                      O      M      R      W
+Larwood                     20      4     65      1
+Tate                        39      9    108      3
+Hammond                      8      3     19      1
+White                       35     12     61      2
+Robins                      24      5     47      2
+Leyland                      5      2      9      0
+
+England 2nd innings                                             R   M   B  4 6
+H Sutcliffe           c Catterall        b Morkel              10            0
+ET Killick            c Morkel           b Christy             24            0
+M Leyland             c Cameron          b Ochse              102            0
+EH Hendren                               b Morkel              11            0
+WR Hammond                               b Morkel               5            0
+J O'Connor            c Cameron          b Ochse               11            0
+MW Tate               not out                                 100            0
+RWV Robins            c Mitchell         b Ochse                0          0 0
+H Larwood                                b Ochse                9            0
+*JC White             not out                                  18            0
+Extras                (b 11, lb 6, w 2, nb 3)                  22
+Total                 (8 wickets dec, 82.2 overs)             312
+
+DNB: +G Duckworth.
+
+FoW: 1-28 (Sutcliffe), 2-46 (Killick), 3-83 (Hendren),
+     4-93 (Hammond), 5-117 (O'Connor), 6-246 (Leyland),
+     7-250 (Robins), 8-260 (Larwood).
+
+Bowling                      O      M      R      W
+Ochse                       20      0     99      4
+Morkel                      24      6     63      3
+Bell                        18.2    2     60      0
+Christy                      3      0     15      1
+McMillan                    13      0     34      0
+Mitchell                     4      0     19      0
+
+South Africa 2nd innings (target: 293 runs)                     R   M   B  4 6
+RH Catterall                             b Tate                 3          0 0
+B Mitchell            c Hendren          b Robins              22            0
+JAJ Christy           c Hendren          b Robins              41            0
+DPB Morkel            not out                                  17            0
+EL Dalton             c Killick          b Larwood              1          0 0
+*HG Deane             st Duckworth       b Robins               2          0 0
++HB Cameron           retired hurt                              0          0 0
+HGO Owen-Smith        not out                                   1          0 0
+Extras                (b 2, lb 1)                               3
+Total                 (5 wickets, 51 overs)                    90
+
+DNB: Q McMillan, AL Ochse, AJ Bell.
+
+FoW: 1-9 (Catterall), 2-60 (Mitchell), 3-77 (Christy),
+     4-82 (Dalton), 5-85 (Deane).
+
+Bowling                      O      M      R      W
+Larwood                     12      3     17      1
+Tate                        11      3     27      1
+White                        9      3     11      0
+Robins                      19      4     32      3
+
+*** HB Cameron retired hurt at 86/5
+
+<END>

@@ -1,0 +1,96 @@
+
+Test # 353
+India in England, 1952, 3rd Test
+England v India
+Old Trafford, Manchester
+17,18,19 July 1952 (5-day match)
+
+Result: England won by an innings and 207 runs
+Series: England leads the 4-match series 3-0
+
+Toss: England
+Umpires: D Davies and FS Lee
+Test debut: GAR Lock (England).
+
+Close of play:
+ Day 1: England 153/2 (Hutton 85*, May 5*)
+ Day 2: England 292/7 (Evans 35*)
+
+England 1st innings                                             R   M   B  4 6
+*L Hutton             c Sen              b Divecha            104 315     10 0
+DS Sheppard           lbw                b Ramchand            34 130      3 0
+JT Ikin               c Divecha          b Ghulam Ahmed        29  76      1 0
+PBH May               c Sen              b Mankad              69 173      9 0
+TW Graveney           lbw                b Divecha             14  96      0 0
+AJ Watkins            c Phadkar          b Mankad               4   7      1 0
++TG Evans                            c & b Ghulam Ahmed        71  78      9 1
+JC Laker              c Sen              b Divecha              0  12      0 0
+AV Bedser             c Phadkar          b Ghulam Ahmed        17  45      2 1
+GAR Lock              not out                                   1   6      0 0
+Extras                (b 2, lb 2)                               4
+Total                 (9 wickets dec, 144 overs)              347
+
+DNB: FS Trueman.
+
+FoW: 1-78 (Sheppard), 2-133 (Ikin), 3-214 (Hutton), 4-248 (May),
+     5-252 (Watkins), 6-284 (Graveney), 7-292 (Laker),
+     8-336 (Evans), 9-347 (Bedser).
+
+Bowling                      O      M      R      W
+Phadkar                     22     10     30      0
+Divecha                     45     12    102      3
+Ramchand                    33      7     78      1
+Mankad                      28      9     67      2
+Ghulam Ahmed                 9      3     43      3
+Hazare                       7      3     23      0
+
+India 1st innings                                               R   M   B  4 6
+MH Mankad             c Lock             b Bedser               4   4      1 0
+P Roy                 c Hutton           b Trueman              0   8      0 0
+HR Adhikari           c Graveney         b Trueman              0  12      0 0
+*VS Hazare                               b Bedser              16  68      2 0
+PR Umrigar                               b Trueman              4  19      1 0
+DG Phadkar            c Sheppard         b Trueman              0   1      0 0
+VL Manjrekar          c Ikin             b Trueman             22  25      3 0
+RV Divecha                               b Trueman              4   2      1 0
+GS Ramchand           c Graveney         b Trueman              2   7      0 0
++PK Sen               c Lock             b Trueman              4   6      1 0
+Ghulam Ahmed          not out                                   1   2      0 0
+Extras                (lb 1)                                    1
+Total                 (all out, 21.4 overs)                    58
+
+FoW: 1-4 (Mankad), 2-4 (Roy), 3-5 (Adhikari), 4-17 (Umrigar),
+     5-17 (Phadkar), 6-45 (Manjrekar), 7-51 (Divecha),
+     8-53 (Hazare), 9-53 (Ramchand), 10-58 (Sen).
+
+Bowling                      O      M      R      W
+Bedser                      11      4     19      2
+Trueman                      8.4    2     31      8
+Laker                        2      0      7      0
+
+India 2nd innings (following on)                                R   M   B  4 6
+MH Mankad             lbw                b Bedser               6  33      0 0
+P Roy                 c Laker            b Trueman              0  26      0 0
+HR Adhikari           c May              b Lock                27  73      5 0
+*VS Hazare            c Ikin             b Lock                16  47      1 0
+PR Umrigar            c Watkins          b Bedser               3  15      0 0
+DG Phadkar                               b Bedser               5   5      1 0
+VL Manjrekar          c Evans            b Bedser               0   8      0 0
+RV Divecha                               b Bedser               2  18      0 0
+GS Ramchand           c Watkins          b Lock                 1   1      0 0
++PK Sen               not out                                  13  17      3 0
+Ghulam Ahmed          c Ikin             b Lock                 0   7      0 0
+Extras                (b 8, nb 1)                               9
+Total                 (all out, 36.3 overs)                    82
+
+FoW: 1-7 (Roy), 2-7 (Mankad), 3-55 (Hazare), 4-59 (Umrigar),
+     5-66 (Phadkar), 6-66 (Manjrekar), 7-66 (Adhikari),
+     8-67 (Ramchand), 9-77 (Divecha), 10-82 (Ghulam Ahmed).
+
+Bowling                      O      M      R      W
+Bedser                      15      6     27      5
+Trueman                      8      5      9      1
+Watkins                      4      3      1      0
+Lock                         9.3    2     36      4
+
+<END>

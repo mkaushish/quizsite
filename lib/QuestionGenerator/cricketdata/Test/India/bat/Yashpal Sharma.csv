@@ -1,0 +1,60 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+852, 1979-08-02, 1, 6, England, c Taylor, Botham, 11, 65, 53, 2, 0
+852, 1979-08-02, 3, 6, England, not out, , 5, 11, 9, 0, 0
+853, 1979-08-16, 2, 5, England, c Botham, Miller, 40, 133, 125, 2, 0
+854, 1979-08-30, 2, 5, England, lbw, Willis, 27, 59, 61, 3, 0
+854, 1979-08-30, 4, 5, England, lbw, Botham, 19, 47, 29, 0, 0
+855, 1979-09-11, 2, 6, Australia, lbw, Higgs, 52, 204, 150, 4, 0
+856, 1979-09-19, 2, 6, Australia, c Border, Yardley, 37, 121, 88, 4, 1
+857, 1979-10-02, 1, 5, Australia, , Hogg, 0, 6, na, 0, 0
+857, 1979-10-02, 3, 5, Australia, c Wright, Dymock, 0, 15, na, 0, 0
+858, 1979-10-13, 1, 5, Australia, not out, , 100, 280, 239, 10, 3
+859, 1979-10-26, 2, 5, Australia, c Wright, Hogg, 22, 128, 92, 3, 0
+859, 1979-10-26, 4, 5, Australia, not out, , 85, 145, 117, 10, 0
+860, 1979-11-03, 1, 6, Australia, c Whatmore, Hogg, 8, 55, 47, 1, 0
+861, 1979-11-21, 2, 5, Pakistan, c Javed Miandad, Majid Khan, 62, 208, 185, 7, 0
+863, 1979-12-04, 2, 5, Pakistan, not out, , 28, 147, 84, 3, 0
+863, 1979-12-04, 4, 5, Pakistan,                c &, Sikander Bakht, 60, 194, 135, 9, 0
+865, 1979-12-16, 1, 5, Pakistan, , Iqbal Qasim, 3, 43, 30, 0, 0
+865, 1979-12-16, 3, 5, Pakistan, c Majid Khan, Iqbal Qasim, 16, 76, 50, 2, 0
+866, 1979-12-25, 1, 5, Pakistan, c Wasim Bari, Ehteshamuddin, 16, 119, 87, 3, 0
+869, 1980-01-15, 2, 6, Pakistan, , Iqbal Qasim, 46, 201, 122, 4, 0
+871, 1980-01-29, 1, 6, Pakistan, c Wasim Bari, Imran Khan, 62, 247, 146, 9, 0
+871, 1980-01-29, 3, 7, Pakistan, , Ehteshamuddin, 21, 68, 40, 4, 0
+874, 1980-02-15, 1, 6, England, lbw, Botham, 21, 62, 39, 4, 0
+874, 1980-02-15, 3, 6, England, lbw, Botham, 27, 116, 70, 3, 0
+893, 1981-01-02, 1, 5, Australia, c Marsh, Pascoe, 6, 8, 8, 1, 0
+893, 1981-01-02, 3, 5, Australia, c Walters, Lillee, 4, 53, 40, 0, 0
+894, 1981-01-23, 2, 7, Australia, c Marsh, Lillee, 47, 164, 129, 7, 0
+894, 1981-01-23, 4, 6, Australia, lbw, Yardley, 13, 169, 157, 2, 0
+895, 1981-02-07, 1, 6, Australia, c Marsh, Lillee, 4, 12, 9, 0, 0
+895, 1981-02-07, 3, 6, Australia, , Pascoe, 9, 18, 23, 1, 0
+898, 1981-03-06, 1, 6, New Zealand, c Howarth, Hadlee, 0, 9, 8, 0, 0
+918, 1982-01-13, 1, 5, England, c Tavare, Botham, 140, 497, 298, 18, 2
+918, 1982-01-13, 3, 4, England, c Botham, Underwood, 25, 70, 53, 4, 0
+920, 1982-01-30, 2, 5, England, not out, , 55, 266, 196, 6, 0
+928, 1982-06-10, 2, 5, England, lbw, Pringle, 4, 22, 18, 0, 0
+928, 1982-06-10, 3, 6, England, , Willis, 37, 178, 147, 1, 0
+929, 1982-06-24, 2, 6, England, , Edmonds, 10, 35, 35, 1, 0
+930, 1982-07-08, 2, 4, England, c Gower, Willis, 38, 149, 118, 3, 0
+930, 1982-07-08, 4, 5, England, not out, , 9, 84, 59, 0, 0
+934, 1982-09-17, 2, 6, Sri Lanka, c Goonatilleke, de Mel, 17, na, na, na, 0
+934, 1982-09-17, 4, 5, Sri Lanka, not out, , 31, na, na, na, 0
+947, 1983-01-23, 2, 4, Pakistan, not out, , 63, 282, 224, 8, 0
+948, 1983-01-30, 1, 4, Pakistan, c Wasim Bari, Imran Khan, 9, 32, 19, 1, 0
+948, 1983-01-30, 3, 4, Pakistan, not out, , 19, 90, 79, 0, 0
+949, 1983-02-23, 1, 5, West Indies, c Haynes, Garner, 63, 270, na, na, 0
+949, 1983-02-23, 3, 5, West Indies, c Gomes, Holding, 24, na, na, na, 0
+952, 1983-03-11, 1, 5, West Indies, not out, , 11, na, na, na, 0
+952, 1983-03-11, 3, 5, West Indies, , Roberts, 50, na, na, na, 0
+953, 1983-03-31, 2, 5, West Indies, not out, , 35, na, na, na, 0
+954, 1983-04-15, 1, 5, West Indies, c Richards, Roberts, 24, 72, na, na, 1
+954, 1983-04-15, 3, 5, West Indies, c Greenidge, Roberts, 12, na, na, na, 0
+956, 1983-04-28, 1, 5, West Indies, c Gomes, Roberts, 3, na, na, 0, 0
+956, 1983-04-28, 3, 5, West Indies, c sub (SFAF Bacchus), Gomes, 20, na, na, na, 0
+961, 1983-09-14, 1, 4, Pakistan, c Wasim Bari, Mudassar Nazar, 16, na, na, na, 0
+962, 1983-09-24, 2, 4, Pakistan, lbw, Tahir Naqqash, 7, na, na, na, 0
+963, 1983-10-05, 1, 4, Pakistan, lbw, Mohammad Nazir, 13, na, na, na, 0
+963, 1983-10-05, 3, 4, Pakistan, c Wasim Bari, Azeem Hafeez, 15, na, na, na, 0
+965, 1983-10-29, 1, 4, West Indies, , Holding, 5, na, na, na, 0
+965, 1983-10-29, 3, 4, West Indies, lbw, Daniel, 0, na, na, 0, 0

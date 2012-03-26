@@ -1,0 +1,126 @@
+
+Test # 293
+England in West Indies, 1947/48, 1st Test
+West Indies v England
+Kensington Oval, Bridgetown, Barbados
+21,22,23,24,26 January 1948 (5-day match)
+
+Result: Match drawn
+Series: 4-match series level 0-0
+
+Toss: West Indies
+Umpires: CS Foster and JH Walcott
+Test debuts: D Brookes, JC Laker, W Place, GA Smithson, MF Tremlett (England);
+ RJ Christiani, W Ferguson, BBM Gaskin, JDC Goddard, PEW Jones, CL Walcott,
+ ED Weekes (West Indies).
+
+Close of play:
+ Day 1: West Indies 244/3 (Gomez 85*, Headley 29*)
+ Day 2: West Indies 296, England 150/3 (Hardstaff 42*, Ikin 3*)
+ Day 3: England 253, West Indies 117/4 (Goddard 9*, Christiani 28*)
+ Day 4: West Indies 351/9d, England 60/2 (Robertson 35*, Cranston 2*)
+
+West Indies 1st innings                                         R   M   B  4 6
+JB Stollmeyer         c Robertson        b Ikin                78            0
++CL Walcott                              b Laker                8            0
+ED Weekes             c Evans            b Tremlett            35            0
+GE Gomez                                 b Laker               86            0
+*GA Headley                              b Laker               29            0
+RJ Christiani         lbw                b Laker                1          0 0
+JDC Goddard                              b Howorth             28            0
+EAV Williams          c Ikin             b Laker                2          0 0
+W Ferguson                               b Laker                0          0 0
+PEW Jones             not out                                  10            0
+BBM Gaskin            c Ikin             b Laker               10            0
+Extras                (lb 4, w 2, nb 3)                         9
+Total                 (all out, 124 overs)                    296
+
+FoW: 1-18 (Walcott), 2-81 (Weekes), 3-185 (Stollmeyer),
+     4-245 (Headley), 5-246 (Gomez), 6-271 (Christiani),
+     7-273 (Williams), 8-273 (Ferguson), 9-279 (Goddard),
+     10-296 (Gaskin).
+
+Bowling                      O      M      R      W
+Tremlett                    26      8     49      1
+Cranston                    15      4     29      0
+Laker                       37      9    103      7
+Ikin                        16      3     38      1
+Howorth                     30      8     68      1
+
+England 1st innings                                             R   M   B  4 6
+JDB Robertson         lbw                b Williams            80            0
+W Place               c Gomez            b Goddard             12            0
+D Brookes                                b Jones               10            0
+J Hardstaff jnr                          b Williams            98            0
+JT Ikin               c Walcott          b Williams             3          0 0
+GA Smithson           c Gomez            b Jones                0          0 0
+*K Cranston           run out                                   2          0 0
+R Howorth             c Goddard          b Ferguson            14            0
++TG Evans                                b Jones               26            0
+JC Laker              c Walcott          b Jones                2          0 0
+MF Tremlett           not out                                   0          0 0
+Extras                (b 2, lb 2, w 1, nb 1)                    6
+Total                 (all out, 110.2 overs)                  253
+
+FoW: 1-32 (Place), 2-67 (Brookes), 3-130 (Robertson),
+     4-153 (Ikin), 5-156 (Smithson), 6-176 (Cranston),
+     7-197 (Howorth), 8-250 (Hardstaff), 9-252 (Evans),
+     10-253 (Laker).
+
+Bowling                      O      M      R      W
+Jones                       25.2    6     54      4
+Gaskin                      11      0     30      0
+Williams                    33     15     51      3
+Goddard                     21      6     49      1
+Ferguson                    14      1     52      1
+Headley                      6      1     11      0
+
+West Indies 2nd innings                                         R   M   B  4 6
+JB Stollmeyer         c Evans            b Howorth             31            0
++CL Walcott           c Ikin             b Howorth             16            0
+ED Weekes                                b Laker               25            0
+GE Gomez              st Evans           b Howorth              0          0 0
+JDC Goddard           c Ikin             b Laker               18            0
+RJ Christiani         lbw                b Cranston            99            0
+EAV Williams          c Evans            b Howorth             72  63        3
+PEW Jones             c Robertson        b Howorth              7            0
+W Ferguson            not out                                  56            0
+BBM Gaskin            c Brookes          b Howorth              7            0
+*GA Headley           not out                                   7            0
+Extras                (b 6, lb 4, w 1, nb 2)                   13
+Total                 (9 wickets dec, 106 overs)              351
+
+FoW: 1-46 (Walcott), 2-69 (Stollmeyer), 3-71 (Gomez),
+     4-87 (Weekes), 5-144 (Goddard), 6-240 (Williams),
+     7-252 (Jones), 8-301 (Christiani), 9-328 (Gaskin).
+
+Bowling                      O      M      R      W
+Tremlett                    10      0     40      0
+Cranston                    13      3     31      1
+Laker                       30     12     95      2
+Ikin                        12      1     48      0
+Howorth                     41      8    124      6
+
+England 2nd innings (target: 395 runs)                          R   M   B  4 6
+JDB Robertson         not out                                  51            0
+D Brookes             c Walcott          b Goddard              7            0
+R Howorth                                b Ferguson            16            0
+*K Cranston           lbw                b Gaskin               8            0
+J Hardstaff jnr       c Gomez            b Goddard              0          0 0
+W Place               not out                                   1          0 0
+Extras                (lb 3)                                    3
+Total                 (4 wickets, 45.4 overs)                  86
+
+DNB: JT Ikin, GA Smithson, +TG Evans, JC Laker, MF Tremlett.
+
+FoW: 1-33 (Brookes), 2-55 (Howorth), 3-70 (Cranston),
+     4-71 (Hardstaff).
+
+Bowling                      O      M      R      W
+Jones                        9      1     29      0
+Gaskin                      10      4     15      1
+Williams                     9      3     17      0
+Goddard                     14      4     18      2
+Ferguson                     3.4    1      4      1
+
+<END>

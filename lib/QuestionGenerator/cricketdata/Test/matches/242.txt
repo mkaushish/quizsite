@@ -1,0 +1,89 @@
+
+Test # 242
+South Africa in England, 1935, 1st Test
+England v South Africa
+Trent Bridge, Nottingham
+15,17,18 June 1935 (3-day match)
+
+Result: Match drawn
+Series: 5-match series level 0-0
+
+Toss: England
+Umpires: A Dolphin and J Hardstaff snr
+Test debuts: NS Mitchell-Innes (England); RJ Crisp, ACB Langton, AD Nourse,
+ EAB Rowan, DS Tomlinson, HF Wade (South Africa).
+
+Close of play:
+ Day 1: England 384/7 (Nichols 13*)
+ Day 2: England 384/7d, South Africa 220, South Africa 17/1 (Mitchell 8*, Rowan 6*, 9 ov)
+ Day 3: No play
+
+England 1st innings                                             R   M   B  4 6
+H Sutcliffe           lbw                b Langton             61 110      5 1
+*RES Wyatt            c Wade             b Crisp              149 295     17 0
+WR Hammond            lbw                b Vincent             28            0
+NS Mitchell-Innes     lbw                b Mitchell             5            0
+M Leyland             c Mitchell         b Crisp               69 120      5 0
++LEG Ames             c Viljoen          b Vincent             17            0
+J Iddon               c Rowan            b Vincent             29            0
+MS Nichols            not out                                  13            0
+Extras                (b 3, lb 10)                             13
+Total                 (7 wickets dec, 132 overs)              384
+
+DNB: RWV Robins, H Verity, WE Bowes.
+
+FoW: 1-118 (Sutcliffe), 2-170 (Hammond), 3-179 (Mitchell-Innes),
+     4-318 (Wyatt), 5-325 (Leyland), 6-355 (Ames), 7-384 (Iddon).
+
+Bowling                      O      M      R      W
+Crisp                       18      4     49      2
+Langton                     39      3    117      1
+Vincent                     43      9    101      3
+Tomlinson                   10      0     38      0
+Mitchell                    22      1     66      1
+
+South Africa 1st innings                                        R   M   B  4 6
+IJ Siedle                                b Verity              59 180      6 0
+B Mitchell                               b Nichols             25            0
+EAB Rowan             c Ames             b Robins              20  80        0
+AD Nourse             c Hammond          b Verity               4            0
+*HF Wade              c Nichols          b Verity              18 105        0
++HB Cameron                              b Nichols             52 110      8 0
+KG Viljoen                               b Nichols             13            0
+CL Vincent            lbw                b Nichols              0          0 0
+DS Tomlinson                             b Nichols              9          2 0
+ACB Langton           not out                                   0          0 0
+RJ Crisp              c Robins           b Nichols              4            0
+Extras                (b 4, lb 10, nb 2)                       16
+Total                 (all out, 116.5 overs)                  220
+
+FoW: 1-42 (Mitchell), 2-98 (Rowan), 3-103 (Nourse),
+     4-120 (Siedle), 5-174 (Wade), 6-198 (Cameron),
+     7-198 (Vincent), 8-215 (Viljoen), 9-216 (Tomlinson),
+     10-220 (Crisp).
+
+Bowling                      O      M      R      W
+Bowes                       22      9     31      0
+Nichols                     23.5    9     35      6
+Verity                      41     18     52      3
+Robins                      19      4     65      1
+Iddon                        4      2      3      0
+Leyland                      7      2     18      0
+
+South Africa 2nd innings (following on)                         R   M   B  4 6
+IJ Siedle             c Verity           b Nichols              2          0 0
+B Mitchell            not out                                   8            0
+EAB Rowan             not out                                   6            0
+Extras                (nb 1)                                    1
+Total                 (1 wicket, 9 overs)                      17
+
+DNB: AD Nourse, *HF Wade, +HB Cameron, KG Viljoen, CL Vincent,
+     DS Tomlinson, ACB Langton, RJ Crisp.
+
+FoW: 1-3 (Siedle).
+
+Bowling                      O      M      R      W
+Nichols                      5      1     14      1
+Bowes                        4      3      2      0
+
+<END>

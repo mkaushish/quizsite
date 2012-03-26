@@ -1,0 +1,133 @@
+
+Test # 271
+England in South Africa, 1938/39, 5th Test
+South Africa v England
+Kingsmead, Durban
+3,4,6,7,8,9,10,11,13,14 March 1939 (timeless match)
+
+Result: Match drawn (by agreement)
+Series: England wins the 5-match series 1-0
+
+Toss: South Africa
+Umpires: RGA Ashman and GL Sickler
+Balls per over: 8
+Test debut: RTD Perks (England).
+
+Close of play:
+ Day 1: South Africa 229/2 (van der Bijl 105*, Mitchell 4*)
+ Day 2: South Africa 423/6 (Nourse 77*, Grieveson 26*)
+ Day 3: South Africa 530, England 35/1 (Hutton 24*, Paynter 6*)
+ Day 4: England 268/7 (Ames 82*, Wright 5*)
+ Day 5: England 316, South Africa 193/3 (Nourse 1*, Viljoen 1*)
+ Day 6: South Africa 481, England 0/0 (Hutton 0*, Gibb 0*)
+ Day 7: England 253/1 (Gibb 78*, Edrich 107*)
+ Day 8: No play
+ Day 9: England 496/3 (Hammond 58*, Paynter 24*)
+
+South Africa 1st innings                                        R   M   B  4 6
+*A Melville           hit wicket         b Wright              78 200      5 0
+PGV van der Bijl                         b Perks              125 428     11 1
+EAB Rowan             lbw                b Perks               33  90        0
+B Mitchell                               b Wright              11            0
+AD Nourse                                b Perks              103 364      6 0
+KG Viljoen            c Ames             b Perks                0          0 0
+EL Dalton             c Ames             b Farnes              57            1
++RE Grieveson                            b Perks               75 205      3 0
+ACB Langton           c Paynter          b Verity              27            1
+ES Newson                            c & b Verity               1          0 0
+N Gordon              not out                                   0          0 0
+Extras                (b 2, lb 12, nb 6)                       20
+Total                 (all out, 202.6 overs)                  530
+
+FoW: 1-131 (Melville), 2-219 (Rowan), 3-236 (Mitchell),
+     4-274 (van der Bijl), 5-278 (Viljoen), 6-368 (Dalton),
+     7-475 (Nourse), 8-522 (Grieveson), 9-523 (Newson),
+     10-530 (Langton).
+
+Bowling                      O      M      R      W
+Farnes                      46      9    108      1
+Perks                       41      5    100      5
+Wright                      37      6    142      2
+Verity                      55.6   14     97      2
+Hammond                     14      4     34      0
+Edrich                       9      2     29      0
+
+England 1st innings                                             R   M   B  4 6
+L Hutton              run out                                  38 144        0
+PA Gibb               c Grieveson        b Newson               4  30        0
+E Paynter             lbw                b Langton             62 260      3 0
+*WR Hammond           st Grieveson       b Dalton              24  90      0 0
++LEG Ames             c Dalton           b Langton             84 172      7 0
+WJ Edrich             c Rowan            b Langton              1          0 0
+BH Valentine          st Grieveson       b Dalton              26            0
+H Verity                                 b Dalton               3          0 0
+DVP Wright            c Langton          b Dalton              26            0
+K Farnes                                 b Newson              20            0
+RTD Perks             not out                                   2          0 0
+Extras                (b 7, lb 17, w 1, nb 1)                  26
+Total                 (all out, 117.6 overs)                  316
+
+FoW: 1-9 (Gibb), 2-64 (Hutton), 3-125 (Hammond), 4-169 (Paynter),
+     5-171 (Edrich), 6-229 (Valentine), 7-245 (Verity),
+     8-276 (Ames), 9-305 (Wright), 10-316 (Farnes).
+
+Bowling                      O      M      R      W
+Newson                      25.6    5     58      2
+Langton                     35     12     71      3
+Gordon                      37      7     82      0
+Mitchell                     7      0     20      0
+Dalton                      13      1     59      4
+
+South Africa 2nd innings                                        R   M   B  4 6
+B Mitchell            hit wicket         b Verity              89 222      6 0
+PGV van der Bijl      c Paynter          b Wright              97 230      7 0
+EAB Rowan             c Edrich           b Verity               0          0 0
+AD Nourse             c Hutton           b Farnes              25          3 0
+KG Viljoen                               b Perks               74 183      7 0
+*A Melville                              b Farnes             103 199     10 0
+EL Dalton                            c & b Wright              21          3 1
++RE Grieveson                            b Farnes              39            0
+ACB Langton           c Hammond          b Farnes               6            0
+ES Newson                                b Wright               3          0 0
+N Gordon              not out                                   7            0
+Extras                (b 5, lb 8, nb 4)                        17
+Total                 (all out, 142.1 overs)                  481
+
+FoW: 1-191 (Mitchell), 2-191 (Rowan), 3-191 (van der Bijl),
+     4-242 (Nourse), 5-346 (Viljoen), 6-382 (Dalton),
+     7-434 (Melville), 8-450 (Langton), 9-462 (Newson),
+     10-481 (Grieveson).
+
+Bowling                      O      M      R      W
+Farnes                      22.1    2     74      4
+Perks                       32      6     99      1
+Wright                      32      7    146      3
+Verity                      40      9     87      2
+Hammond                      9      1     30      0
+Edrich                       6      1     18      0
+Hutton                       1      0     10      0
+
+England 2nd innings (target: 696 runs)                          R   M   B  4 6
+L Hutton                                 b Mitchell            55            0
+PA Gibb                                  b Dalton             120 451      2 0
+WJ Edrich             c Gordon           b Langton            219 460     25 0
+*WR Hammond           st Grieveson       b Dalton             140 349      7 0
+E Paynter             c Grieveson        b Gordon              75 213      5 0
++LEG Ames             not out                                  17            0
+BH Valentine          not out                                   4            0
+Extras                (b 8, lb 12, w 1, nb 3)                  24
+Total                 (5 wickets, 218.2 overs)                654
+
+DNB: H Verity, DVP Wright, K Farnes, RTD Perks.
+
+FoW: 1-78 (Hutton), 2-358 (Gibb), 3-447 (Edrich),
+     4-611 (Paynter), 5-650 (Hammond).
+
+Bowling                      O      M      R      W
+Newson                      43      4     91      0
+Langton                     56     12    132      1
+Gordon                      55.2   10    174      1
+Mitchell                    37      4    133      1
+Dalton                      27      3    100      2
+
+<END>

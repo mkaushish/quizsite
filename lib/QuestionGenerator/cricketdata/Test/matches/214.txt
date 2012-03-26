@@ -1,0 +1,131 @@
+
+Test # 214
+South Africa in Australia, 1931/32, 3rd Test
+Australia v South Africa
+Melbourne Cricket Ground
+31 December 1931, 1,2,4,5,6 January 1932 (timeless match)
+
+Result: Australia won by 169 runs
+Series: Australia leads the 5-match series 3-0
+
+Toss: Australia
+Umpires: GE Borwick and GA Hele
+
+Close of play:
+ Day 1: Australia 198, South Africa 46/1 (Curnow 22*, Christy 3*)
+ Day 2: South Africa 268/7 (Viljoen 65*, McMillan 10*)
+ Day 3: South Africa 358, Australia 206/1 (Woodfull 73*, Bradman 97*)
+ Day 4: Australia 554/9 (Grimmett 16*, Ironmonger 0*)
+ Day 5: Australia 554, South Africa 198/7 (Vincent 10*, McMillan 1*)
+
+Australia 1st innings                                           R   M   B  4 6
+*WM Woodfull          c Cameron          b Bell                 7  48      0 0
+WH Ponsford                              b Bell                 7  17      1 0
+DG Bradman            c Cameron          b Quinn                2  14      0 0
+AF Kippax             c Bell             b Quinn               52 114      4 1
+SJ McCabe             c Morkel           b Bell                22  45      4 0
+KE Rigg               c Mitchell         b Bell                68  98      5 0
+EL a'Beckett          c Mitchell         b Quinn                6  10      0 0
++WAS Oldfield         c Vincent          b Quinn                0   3      0 0
+CV Grimmett           c Morkel           b Bell                 9  34        0
+TW Wall               not out                                   6  18        0
+H Ironmonger          run out                                  12  12      2 0
+Extras                (b 1, lb 4, w 1, nb 1)                    7
+Total                 (all out, 77.1 overs)                   198
+
+FoW: 1-11 (Ponsford), 2-16 (Bradman), 3-25 (Woodfull),
+     4-74 (McCabe), 5-135 (Kippax), 6-143 (a'Beckett),
+     7-143 (Oldfield), 8-173 (Rigg), 9-179 (Grimmett),
+     10-198 (Ironmonger).
+
+Bowling                      O      M      R      W
+Bell                        26.1    9     69      5
+Quinn                       31     13     42      4
+Morkel                       3      0     12      0
+Vincent                     12      1     32      0
+McMillan                     2      0     22      0
+Christy                      3      0     14      0
+
+South Africa 1st innings                                        R   M   B  4 6
+SH Curnow                                b Grimmett            47 144      3 0
+B Mitchell            c McCabe           b Wall                17  58      1 0
+JAJ Christy           c McCabe           b Ironmonger          16  64      1 0
+HW Taylor             lbw                b Grimmett            11  46      0 0
+DPB Morkel            lbw                b Ironmonger          33  89      2 0
+*+HB Cameron          st Oldfield        b Ironmonger          39  96      4 0
+KG Viljoen            c Wall             b McCabe             111 205      9 0
+CL Vincent            c Oldfield         b Wall                16  60      1 0
+Q McMillan            c Oldfield         b Wall                29 129      3 0
+NA Quinn                                 b McCabe              11  51        0
+AJ Bell               not out                                  10  38        0
+Extras                (b 3, lb 13, nb 2)                       18
+Total                 (all out, 188.3 overs)                  358
+
+FoW: 1-39 (Mitchell), 2-79 (Christy), 3-89 (Curnow),
+     4-108 (Taylor), 5-163 (Morkel), 6-183 (Cameron),
+     7-225 (Vincent), 8-329 (Viljoen), 9-336 (McMillan),
+     10-358 (Quinn).
+
+Bowling                      O      M      R      W
+Wall                        37      5     98      3
+a'Beckett                   18      5     29      0
+Grimmett                    63     23    100      2
+Ironmonger                  49     26     72      3
+McCabe                      21.3    4     41      2
+
+Australia 2nd innings                                           R   M   B  4 6
+*WM Woodfull          c Mitchell         b McMillan           161 300      5 0
+WH Ponsford           c Mitchell         b Bell                34  53      2 0
+DG Bradman            lbw                b Vincent            167 183     18 0
+AF Kippax             c Curnow           b McMillan            67 150      5 0
+SJ McCabe             c Mitchell         b McMillan            71  97      5 1
+KE Rigg               c Mitchell         b Vincent              1   3      0 0
+EL a'Beckett                             b Vincent              4  20      0 0
++WAS Oldfield         lbw                b McMillan             0   9      0 0
+CV Grimmett           not out                                  16  41        0
+TW Wall                                  b Vincent             12  24        0
+H Ironmonger                             b Quinn                0   9      0 0
+Extras                (b 17, lb 3, nb 1)                       21
+Total                 (all out, 164.4 overs)                  554
+
+FoW: 1-54 (Ponsford), 2-328 (Bradman), 3-408 (Woodfull),
+     4-519 (Kippax), 5-521 (McCabe), 6-521 (Rigg),
+     7-524 (Oldfield), 8-530 (a'Beckett), 9-550 (Wall),
+     10-554 (Ironmonger).
+
+Bowling                      O      M      R      W
+Bell                        36      6    101      1
+Quinn                       36.4    6    113      1
+Morkel                       4      0     15      0
+Vincent                     55     16    154      4
+McMillan                    33      3    150      4
+
+South Africa 2nd innings (target: 395 runs)                     R   M   B  4 6
+SH Curnow                                b Grimmett             9  34      1 0
+B Mitchell                           c & b Grimmett            46 177      0 0
+JAJ Christy           c Oldfield         b Ironmonger          63 112      5 0
+HW Taylor                                b Grimmett            38 108      1 0
+DPB Morkel                               b Ironmonger           4   4      1 0
+*+HB Cameron          lbw                b Ironmonger          13  45      0 0
+KG Viljoen                               b Ironmonger           2  21      0 0
+CL Vincent            c Ponsford         b Grimmett            34  40      5 1
+Q McMillan            c Wall             b Grimmett             1  26      0 0
+NA Quinn              not out                                   0   8      0 0
+AJ Bell                                  b Grimmett             0   1   2  0 0
+Extras                (b 8, lb 6, nb 1)                        15
+Total                 (all out, 115 overs)                    225
+
+FoW: 1-18 (Curnow), 2-120 (Christy), 3-133 (Mitchell),
+     4-138 (Morkel), 5-178 (Cameron), 6-186 (Viljoen),
+     7-188 (Taylor), 8-208 (McMillan), 9-225 (Vincent),
+     10-225 (Bell).
+
+Bowling                      O      M      R      W
+Wall                        13      3     35      0
+a'Beckett                    3      1      6      0
+Grimmett                    46     14     92      6
+Ironmonger                  42     18     54      4
+McCabe                      10      1     21      0
+Bradman                      1      0      2      0
+
+<END>

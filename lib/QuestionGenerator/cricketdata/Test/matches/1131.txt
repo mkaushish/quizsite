@@ -1,0 +1,105 @@
+
+Test # 1131
+Sri Lanka in Australia, 1989/90, 1st Test
+Australia v Sri Lanka
+Brisbane Cricket Ground, Woolloongabba, Brisbane
+8,9,10,11,12 December 1989 (5-day match)
+
+Result: Match drawn
+Series: 2-match series level 0-0
+
+Toss: Sri Lanka
+Umpires: AR Crafter and CD Timmins
+Test debuts: D Ranatunga, AGD Wickremasinghe (Sri Lanka).
+Player of the match: PA de Silva
+
+Close of play:
+ Day 1: Australia 178/2 (Moody 101*, Border 54*)
+ Day 2: Australia 367, Sri Lanka 81/2 (Gurusinha 28*, EAR de Silva 1*)
+ Day 3: Sri Lanka 275/6 (PA de Silva 75*, Ratnayeke 22*)
+ Day 4: Sri Lanka 418, Australia 94/1 (Taylor 36*, Moody 22*)
+
+Australia 1st innings                                           R   M   B  4 6
+DC Boon               c Samarasekera     b Labrooy              0   7   8  0 0
+MA Taylor             c Wickremasinghe   b Ramanayake           9  46  24  1 0
+TM Moody              c Wickremasinghe   b Labrooy            106 218 179 12 0
+*AR Border            c A Ranatunga      b Labrooy             56 166 109  5 0
+DM Jones              lbw                b Labrooy             15  33  26  1 0
+SR Waugh              c A Ranatunga      b Ramanayake          60 147  99  5 0
++IA Healy             lbw                b Gurusinha           21  54  55  1 0
+MG Hughes             run out                                  25  27  19  4 0
+GF Lawson             c Wickremasinghe   b Labrooy             22  38  25  3 0
+CG Rackemann          not out                                   5  42  23  0 0
+TM Alderman           c PA de Silva      b Gurusinha           18  37  31  4 0
+Extras                (b 1, lb 8, nb 21)                       30
+Total                 (all out, 95.3 overs)                   367
+
+FoW: 1-1 (Boon), 2-27 (Taylor), 3-185 (Border), 4-197 (Moody),
+     5-210 (Jones), 6-247 (Healy), 7-295 (Hughes),
+     8-339 (Lawson), 9-339 (Waugh), 10-367 (Alderman).
+
+Bowling                      O      M      R      W
+Ratnayeke                    8.5    1     17      0
+Labrooy                     31.1    5    133      5
+Ramanayake                  26      2    101      2
+A Ranatunga                 13      1     49      0
+EAR de Silva                 8      1     21      0
+Gurusinha                    8.3    1     37      2
+
+Sri Lanka 1st innings                                           R   M   B  4 6
+RS Mahanama           lbw                b Alderman             5  41  29  0 0
+D Ranatunga           c Waugh            b Lawson              40 146 120  3 0
+AP Gurusinha          c Healy            b Rackemann           43 177 104  3 0
+EAR de Silva                             b Alderman            22 163 128  0 0
+PA de Silva           c Lawson           b Rackemann          167 491 361 17 1
+*A Ranatunga          lbw                b Hughes              25  87  63  2 0
+MAR Samarasekera      c Moody            b Rackemann           18  45  33  3 0
+JR Ratnayeke          lbw                b Hughes              56 211 138  6 0
++AGD Wickremasinghe   c Boon             b Hughes               2  11   9  0 0
+GF Labrooy            lbw                b Alderman             1  11   8  0 0
+CPH Ramanayake        not out                                  10  30  15  1 0
+Extras                (lb 23, w 2, nb 4)                       29
+Total                 (all out, 166.3 overs)                  418
+
+FoW: 1-10 (Mahanama), 2-80 (D Ranatunga), 3-114 (Gurusinha),
+     4-148 (EAR de Silva), 5-201 (A Ranatunga),
+     6-238 (Samarasekera), 7-382 (Ratnayeke),
+     8-386 (Wickremasinghe), 9-391 (Labrooy),
+     10-418 (PA de Silva).
+
+Bowling                      O      M      R      W
+Alderman                    40     13     81      3
+Lawson                      33     10     51      1
+Rackemann                   30.3    6     88      3
+Hughes                      39      8    123      3
+Moody                       16      8     15      0
+Border                       7      0     36      0
+Jones                        1      0      1      0
+
+Australia 2nd innings                                           R   M   B  4 6
+MA Taylor             lbw                b Ramanayake         164 425 334 17 2
+DC Boon               lbw                b Ramanayake          26 100  62  5 0
+TM Moody              c A Ranatunga      b EAR de Silva        30  92  78  3 0
+DM Jones              c Ramanayake       b PA de Silva         23  62  45  2 0
+SR Waugh                                 b Gurusinha           57 182 147  3 0
++IA Healy             not out                                  26  62  52  3 0
+CG Rackemann                             b Gurusinha            0   1   2  0 0
+MG Hughes             not out                                  23  46  38  1 1
+Extras                (b 5, lb 4, nb 17)                       26
+Total                 (6 wickets, 123 overs)                  375
+
+DNB: *AR Border, GF Lawson, TM Alderman.
+
+FoW: 1-60 (Boon), 2-124 (Moody), 3-167 (Jones), 4-316 (Taylor),
+     5-324 (Waugh), 6-324 (Rackemann).
+
+Bowling                      O      M      R      W
+Labrooy                     24      4     69      0
+Ramanayake                  28      3     81      2
+EAR de Silva                39      8    112      1
+PA de Silva                 15      2     45      1
+Gurusinha                   10      3     31      2
+A Ranatunga                  6      0     25      0
+Mahanama                     1      0      3      0
+
+<END>

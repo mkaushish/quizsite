@@ -1,0 +1,127 @@
+
+Test # 536
+The Ashes, 1962/63, 2nd Test
+Australia v England
+Melbourne Cricket Ground
+29,31 December 1962, 1,2,3 January 1963 (5-day match)
+
+Result: England won by 7 wickets
+Series: England leads the 5-match series 1-0
+
+Toss: Australia
+Umpires: CJ Egar and WJ Smyth
+Balls per over: 8
+
+Close of play:
+ Day 1: Australia 263/7 (Mackay 37*, Benaud 21*)
+ Day 2: Australia 316, England 210/3 (Cowdrey 94*, Barrington 11*)
+ Day 3: England 331, Australia 105/4 (Lawry 41*, Booth 19*)
+ Day 4: Australia 248, England 9/1 (Sheppard 1*, Dexter 3*)
+
+Australia 1st innings                                           R   M   B  4 6
+WM Lawry                                 b Trueman             52 157 108  4 0
+RB Simpson            c Smith            b Coldwell            38  84  69  4 0
+NC O'Neill            c Graveney         b Statham             19  58  44  0 0
+RN Harvey                                b Coldwell             0   6   4  0 0
+PJP Burge             lbw                b Titmus              23  70  64  2 0
+BC Booth              c Barrington       b Titmus              27  81  76  1 0
+AK Davidson           c Smith            b Trueman             40 105 104  3 0
+KD Mackay             lbw                b Titmus              49 190 137  2 0
+*R Benaud             c Barrington       b Titmus              36  84  82  3 0
+GD McKenzie                              b Trueman             16  38  24  1 0
++BN Jarman            not out                                  10  24  24  0 0
+Extras                (b 2, lb 4)                               6
+Total                 (all out, 92 overs)                     316
+
+FoW: 1-62 (Simpson), 2-111 (O'Neill), 3-112 (Harvey),
+     4-112 (Lawry), 5-155 (Burge), 6-164 (Booth),
+     7-237 (Davidson), 8-289 (Benaud), 9-294 (Mackay),
+     10-316 (McKenzie).
+
+Bowling                      O      M      R      W
+Trueman                     23      1     83      3
+Statham                     22      2     83      1
+Coldwell                    17      2     58      2
+Barrington                   6      0     23      0
+Dexter                       6      1     10      0
+Titmus                      15      2     43      4
+Graveney                     3      1     10      0
+
+England 1st innings                                             R   M   B  4 6
+Rev.DS Sheppard       lbw                b Davidson             0   2   4  0 0
+G Pullar                                 b Davidson            11  29  26  2 0
+*ER Dexter            c Simpson          b Benaud              93 222 198 11 0
+MC Cowdrey            c Burge            b McKenzie           113 270 231  7 0
+KF Barrington         lbw                b McKenzie            35  79  72  3 0
+TW Graveney           run out                                  41  75  52  4 0
+FJ Titmus             c Jarman           b Davidson            15  41  45  3 0
++AC Smith             not out                                   6  64  42  0 0
+FS Trueman            c O'Neill          b Davidson             6  16  19  0 0
+JB Statham                               b Davidson             1  12  13  0 0
+LJ Coldwell           c Benaud           b Davidson             1   7   4  0 0
+Extras                (b 4, lb 4, nb 1)                         9
+Total                 (all out, 88.1 overs)                   331
+
+FoW: 1-0 (Sheppard), 2-19 (Pullar), 3-194 (Dexter),
+     4-254 (Cowdrey), 5-255 (Barrington), 6-292 (Titmus),
+     7-315 (Graveney), 8-324 (Trueman), 9-327 (Statham),
+     10-331 (Coldwell).
+
+Bowling                      O      M      R      W
+Davidson                    23.1    4     75      6
+McKenzie                    29      3     95      2
+Mackay                       6      2     17      0
+Benaud                      18      3     82      1
+Simpson                      7      1     34      0
+O'Neill                      5      1     19      0
+
+Australia 2nd innings                                           R   M   B  4 6
+RB Simpson                               b Trueman             14  34  37  1 0
+WM Lawry                                 b Dexter              57 306 239  3 0
+NC O'Neill            c Cowdrey          b Trueman              0   1   1  0 0
+RN Harvey             run out                                  10  31  20  0 0
+PJP Burge                                b Statham             14  53  45  1 0
+BC Booth              c Trueman          b Statham            103 348 274  5 0
+AK Davidson           c Smith            b Titmus              17  60  59  2 0
+KD Mackay             lbw                b Trueman              9  33  30  1 0
+*R Benaud             c Cowdrey          b Trueman              4  20  18  0 0
+GD McKenzie                              b Trueman              0   3   4  0 0
++BN Jarman            not out                                  11  49  41  1 0
+Extras                (b 4, lb 5)                               9
+Total                 (all out, 96 overs)                     248
+
+FoW: 1-30 (Simpson), 2-30 (O'Neill), 3-46 (Harvey), 4-69 (Burge),
+     5-161 (Lawry), 6-193 (Davidson), 7-212 (Mackay),
+     8-228 (Benaud), 9-228 (McKenzie), 10-248 (Booth).
+
+Bowling                      O      M      R      W
+Trueman                     20      1     62      5
+Statham                     23      1     52      2
+Coldwell                    25      2     60      0
+Barrington                   5      0     22      0
+Dexter                       9      2     18      1
+Titmus                      14      4     25      1
+
+England 2nd innings (target: 234 runs)                          R   M   B  4 6
+Rev.DS Sheppard       run out                                 113 301 218  5 0
+G Pullar              c Jarman           b McKenzie             5   6   9  0 0
+*ER Dexter            run out                                  52 166 164  5 0
+MC Cowdrey            not out                                  58 128 123  5 0
+KF Barrington         not out                                   0   1   0  0 0
+Extras                (b 5, lb 3, nb 1)                         9
+Total                 (3 wickets, 64.2 overs)                 237
+
+DNB: TW Graveney, FJ Titmus, +AC Smith, FS Trueman, JB Statham,
+     LJ Coldwell.
+
+FoW: 1-5 (Pullar), 2-129 (Dexter), 3-233 (Sheppard).
+
+Bowling                      O      M      R      W
+Davidson                    19      2     53      0
+McKenzie                    20      3     58      1
+Mackay                       9      0     34      0
+Benaud                      14      1     69      0
+Simpson                      2      0     10      0
+Booth                        0.2    0      4      0
+
+<END>

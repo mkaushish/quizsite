@@ -1,0 +1,125 @@
+
+Test # 331
+The Ashes, 1950/51, 5th Test
+Australia v England
+Melbourne Cricket Ground
+23,24,26,27,28 February 1951 (6-day match)
+
+Result: England won by 8 wickets
+Series: Australia wins the 5-match series 4-1
+
+Toss: Australia
+Umpires: AN Barlow and HAR Elphinstone
+Balls per over: 8
+Test debut: GB Hole (Australia).
+
+Close of play:
+ Day 1: Australia 206/8 (Lindwall 18*, Johnston 4*)
+ Day 2: No play
+ Day 3: Australia 217, England 218/6 (Simpson 80*, Bedser 3*)
+ Day 4: England 320, Australia 129/4 (Hassett 44*, Hole 18*)
+
+Australia 1st innings                                           R   M   B  4 6
+JW Burke              c Tattersall       b Bedser              11  52      0 0
+AR Morris             lbw                b Brown               50 173      2 0
+*AL Hassett           c Hutton           b Brown               92 212      9 0
+RN Harvey             c Evans            b Brown                1   9      0 0
+KR Miller                            c & b Brown                7   7      1 0
+GB Hole                                  b Bedser              18  46      2 0
+IWG Johnson           lbw                b Bedser               1   9      0 0
+RR Lindwall           c Compton          b Bedser              21  62      1 1
++D Tallon             c Hutton           b Bedser               1  10      0 0
+WA Johnston           not out                                  12  43      1 0
+JB Iverson            c Washbrook        b Brown                0   6      0 0
+Extras                (b 2, lb 1)                               3
+Total                 (all out, 69 overs)                     217
+
+FoW: 1-23 (Burke), 2-111 (Morris), 3-115 (Harvey),
+     4-123 (Miller), 5-156 (Hole), 6-166 (Johnson),
+     7-184 (Hassett), 8-187 (Tallon), 9-216 (Lindwall),
+     10-217 (Iverson).
+
+Bowling                      O      M      R      W
+Bedser                      22      5     46      5
+Bailey                       9      1     29      0
+Brown                       18      4     49      5
+Wright                       9      1     50      0
+Tattersall                  11      3     40      0
+
+England 1st innings                                             R   M   B  4 6
+L Hutton                                 b Hole                79 174      8 0
+C Washbrook           c Tallon           b Miller              27  32      1 0
+RT Simpson            not out                                 156 338     12 0
+DCS Compton           c Miller           b Lindwall            11  43      1 0
+DS Sheppard           c Tallon           b Miller               1   6      0 0
+*FR Brown                                b Lindwall             6  12      0 0
++TG Evans                                b Miller               1  13      0 0
+AV Bedser                                b Lindwall            11  21      1 0
+TE Bailey             c Johnson          b Iverson              5  25      1 0
+DVP Wright            lbw                b Iverson              3   8      0 0
+R Tattersall                             b Miller              10  55      1 0
+Extras                (b 9, lb 1)                              10
+Total                 (all out, 90.7 overs)                   320
+
+FoW: 1-40 (Washbrook), 2-171 (Hutton), 3-204 (Compton),
+     4-205 (Sheppard), 5-212 (Brown), 6-213 (Evans),
+     7-228 (Bedser), 8-236 (Bailey), 9-246 (Wright),
+     10-320 (Tattersall).
+
+Bowling                      O      M      R      W
+Lindwall                    21      1     77      3
+Miller                      21.7    5     76      4
+Johnston                    12      1     55      0
+Iverson                     20      4     52      2
+Johnson                     11      1     40      0
+Hole                         5      0     10      1
+
+Australia 2nd innings                                           R   M   B  4 6
+JW Burke              c Hutton           b Bedser               1  13      0 0
+AR Morris             lbw                b Bedser               4   9      0 0
+*AL Hassett                              b Wright              48 193      1 0
+RN Harvey             lbw                b Wright              52  94      5 0
+KR Miller                            c & b Brown                0  11      0 0
+GB Hole                                  b Bailey              63 162      6 0
+IWG Johnson           c Brown            b Wright               0   3      0 0
+RR Lindwall                              b Bedser              14  58      1 0
++D Tallon             not out                                   2  21      0 0
+WA Johnston                              b Bedser               1   5      0 0
+JB Iverson            c Compton          b Bedser               0   1      0 0
+Extras                (b 2, lb 8, w 1, nb 1)                   12
+Total                 (all out, 64.3 overs)                   197
+
+FoW: 1-5 (Morris), 2-6 (Burke), 3-87 (Harvey), 4-89 (Miller),
+     5-142 (Hassett), 6-142 (Johnson), 7-192 (Lindwall),
+     8-196 (Hole), 9-197 (Johnston), 10-197 (Iverson).
+
+Bowling                      O      M      R      W
+Bedser                      20.3    4     59      5
+Bailey                      15      3     32      1
+Brown                        9      1     32      1
+Wright                      15      2     56      3
+Tattersall                   5      2      6      0
+
+England 2nd innings (target: 95 runs)                           R   M   B  4 6
+L Hutton              not out                                  60 113      3 0
+C Washbrook           c Lindwall         b Johnston             7  34      1 0
+RT Simpson            run out                                  15  35      2 0
+DCS Compton           not out                                  11  41      0 0
+Extras                (lb 2)                                    2
+Total                 (2 wickets, 29.6 overs)                  95
+
+DNB: DS Sheppard, *FR Brown, +TG Evans, AV Bedser, TE Bailey,
+     DVP Wright, R Tattersall.
+
+FoW: 1-32 (Washbrook), 2-62 (Simpson).
+
+Bowling                      O      M      R      W
+Lindwall                     2      0     12      0
+Miller                       2      0      5      0
+Johnston                    11      3     36      1
+Iverson                     12      2     32      0
+Johnson                      1      0      1      0
+Hole                         1      0      3      0
+Hassett                      0.6    0      4      0
+
+<END>

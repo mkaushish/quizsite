@@ -1,0 +1,54 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+1751, 2005-04-26, 1, 6, England, , Hoggard, 19, 85, 56, 3, 0
+1751, 2005-04-26, 3, 6, England, c GO Jones, Flintoff, 3, 9, 9, 0, 0
+1786, 2006-02-08, 1, 6, Sri Lanka, lbw, Muralitharan, 2, 19, 18, 0, 0
+1786, 2006-02-08, 3, 6, Sri Lanka, c Sangakkara, Bandara, 0, 2, 2, 0, 0
+1838, 2007-06-03, 1, 7, Sri Lanka, c HAPW Jayawardene, Muralitharan, 9, 14, 10, 2, 0
+1838, 2007-06-03, 3, 7, Sri Lanka,                c &, Muralitharan, 80, 235, 183, 9, 1
+1839, 2007-06-11, 1, 7, Sri Lanka, not out, , 11, 60, 46, 1, 0
+1839, 2007-06-11, 3, 5, Sri Lanka, c Tharanga, de Silva, 1, 27, 20, 0, 0
+1859, 2008-01-04, 1, 7, New Zealand, c Bell, Mills, 7, 59, 32, 1, 0
+1859, 2008-01-04, 3, 7, New Zealand, lbw, Vettori, 6, 24, 19, 1, 0
+1861, 2008-01-12, 1, 7, New Zealand, lbw, Martin, 8, 26, 15, 2, 0
+1861, 2008-01-12, 3, 6, New Zealand, c Bell, Oram, 0, 13, 10, 0, 0
+1864, 2008-01-22, 1, 8, South Africa, , Morkel, 7, 53, 26, 0, 0
+1864, 2008-01-22, 3, 8, South Africa, c Boucher, Kallis, 2, 9, 9, 0, 0
+1865, 2008-02-29, 2, 8, South Africa, c Boucher, Ntini, 15, 76, 56, 2, 0
+1865, 2008-02-29, 3, 6, South Africa, c Kallis, Peterson, 4, 16, 7, 0, 0
+1888, 2008-09-17, 1, 6, New Zealand, c How, Vettori, 79, 294, 210, 12, 1
+1888, 2008-09-17, 3, 6, New Zealand, , O'Brien, 32, 165, 121, 4, 0
+1890, 2008-09-25, 2, 6, New Zealand, c McCullum, O'Brien, 7, 36, 27, 1, 0
+1893, 2008-10-19, 2, 7, South Africa, lbw, Kallis, 48, 88, 63, 9, 0
+1893, 2008-10-19, 3, 7, South Africa, run out (Prince), , 0, 7, 2, 0, 0
+1895, 2008-10-26, 1, 8, South Africa, c de Villiers, Zondeki, 65, 117, 86, 9, 2
+1895, 2008-10-26, 3, 8, South Africa, , Ntini, 4, 33, 16, 0, 0
+1903, 2008-11-26, 2, 8, Sri Lanka, not out, , 12, 38, 27, 0, 0
+1903, 2008-11-26, 4, 8, Sri Lanka, c Dilshan, Muralitharan, 61, 156, 111, 7, 0
+1905, 2009-01-03, 2, 8, Sri Lanka, st HAPW Jayawardene, Mendis, 21, 51, 43, 3, 0
+1905, 2009-01-03, 4, 6, Sri Lanka, run out (Vaas/HAPW Jayawardene), , 43, 132, 93, 6, 0
+1923, 2009-06-09, 1, 7, West Indies, run out (Sammy/Miller), , 36, 92, 81, 4, 0
+1923, 2009-06-09, 3, 7, West Indies, , Roach, 37, 127, 97, 3, 0
+1926, 2009-06-17, 2, 8, West Indies, c Walton, Roach, 48, 89, 58, 6, 1
+1926, 2009-06-17, 4, 7, West Indies,                c &, Sammy, 12, 33, 31, 1, 0
+1949, 2010-01-17, 2, 7, India, c Sehwag, Mishra, 44, 148, 104, 6, 0
+1949, 2010-01-17, 4, 7, India, c sub (PP Ojha), Mishra, 101, 142, 114, 17, 1
+1950, 2010-01-24, 1, 7, India, lbw, Sharma, 30, 75, 61, 6, 0
+1950, 2010-01-24, 3, 8, India, not out, , 10, 28, 26, 2, 0
+1953, 2010-01-15, 2, 7, New Zealand, c Guptill, Vettori, 7, 16, 17, 1, 0
+1953, 2010-01-15, 4, 7, New Zealand, c McIntosh, Tuffey, 22, 85, 71, 3, 1
+1954, 2010-02-12, 2, 8, England, c sub (JC Tredwell), Swann, 79, 196, 152, 15, 0
+1954, 2010-02-12, 4, 7, England, , Swann, 95, 293, 232, 12, 0
+1956, 2010-02-20, 1, 7, England, c Prior, Bresnan, 30, 96, 83, 3, 1
+1956, 2010-02-20, 3, 7, England, , Broad, 3, 35, 20, 0, 0
+1958, 2010-04-27, 2, 7, England, , Finn, 16, 79, 59, 2, 0
+1958, 2010-04-27, 3, 8, England, c Prior, Finn, 0, 25, 11, 0, 0
+1959, 2010-05-04, 2, 7, England, c Anderson, Swann, 11, 44, 23, 1, 0
+1959, 2010-05-04, 3, 7, England, c sub (KR Brown), Finn, 13, 59, 42, 2, 0
+2002, 2011-07-04, 2, 7, Zimbabwe, c Mawoyo, Vitori, 27, 107, 68, 3, 0
+2002, 2011-07-04, 4, 5, Zimbabwe, c Ervine, Mpofu, 28, 109, 70, 2, 0
+2010, 2011-09-21, 1, 5, West Indies, c Bishoo, FH Edwards, 68, 184, 145, 5, 0
+2010, 2011-09-21, 3, 5, West Indies, not out, , 2, 7, 4, 0, 0
+2012, 2011-10-29, 2, 5, West Indies, c Chanderpaul, FH Edwards, 0, 2, 1, 0, 0
+2012, 2011-10-29, 4, 5, West Indies, , Bishoo, 69, 142, 109, 9, 0
+2022, 2011-11-09, 1, 5, Pakistan, lbw, Saeed Ajmal, 4, 24, 12, 1, 0
+2022, 2011-11-09, 3, 7, Pakistan, lbw, Abdur Rehman, 49, 98, 88, 7, 0

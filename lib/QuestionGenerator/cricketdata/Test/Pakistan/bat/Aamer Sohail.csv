@@ -1,0 +1,84 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+1189, 1992-06-04, 1, 1, England, c Stewart, DeFreitas, 18, 35, 22, 1, 0
+1190, 1992-06-18, 2, 1, England, c Russell, DeFreitas, 73, 156, 108, 11, 0
+1190, 1992-06-18, 4, 1, England, , Salisbury, 39, 108, 74, 3, 0
+1191, 1992-07-02, 1, 1, England, , Lewis, 205, 343, 284, 32, 0
+1191, 1992-07-02, 3, 1, England, c Smith, Lewis, 1, 5, 7, 0, 0
+1192, 1992-07-23, 1, 1, England, c Atherton, Mallender, 23, 55, 45, 5, 0
+1192, 1992-07-23, 3, 1, England, c Stewart, Mallender, 1, 13, 10, 0, 0
+1193, 1992-08-06, 2, 1, England, c Stewart, Malcolm, 49, 126, 86, 0, 0
+1193, 1992-08-06, 4, 1, England, not out, , 4, 2, 1, 1, 0
+1207, 1993-01-02, 1, 2, New Zealand, c Owens, Morrison, 0, 11, 9, 0, 0
+1207, 1993-01-02, 3, 1, New Zealand, , Morrison, 0, 1, 1, 0, 0
+1220, 1993-04-16, 2, 1, West Indies, c Hooper, Bishop, 55, 117, 92, 9, 0
+1220, 1993-04-16, 4, 1, West Indies, lbw, Walsh, 15, 52, 39, 2, 0
+1221, 1993-04-23, 2, 1, West Indies, c Murray, Ambrose, 10, 26, 30, 2, 0
+1221, 1993-04-23, 3, 1, West Indies, c Benjamin, Ambrose, 4, 12, 12, 0, 0
+1237, 1993-12-01, 1, 1, Zimbabwe, , Peall, 63, 120, 78, 9, 0
+1237, 1993-12-01, 3, 1, Zimbabwe, run out, , 29, 43, 28, 3, 0
+1240, 1993-12-09, 1, 1, Zimbabwe, c Houghton, Streak, 8, 73, 48, 1, 0
+1240, 1993-12-09, 3, 1, Zimbabwe, lbw, Streak, 9, 61, 46, 0, 0
+1241, 1993-12-16, 1, 1, Zimbabwe, c Campbell, Brain, 2, 9, 8, 0, 0
+1241, 1993-12-16, 3, 1, Zimbabwe, c James, Brain, 32, 120, 97, 4, 0
+1248, 1994-02-10, 2, 2, New Zealand, c Jones, de Groen, 16, 54, 39, 2, 0
+1248, 1994-02-10, 4, 2, New Zealand, c Young, Thomson, 78, 151, 124, 10, 1
+1249, 1994-02-17, 2, 2, New Zealand, lbw, Morrison, 2, 47, 27, 0, 0
+1251, 1994-02-24, 1, 2, New Zealand, c Hartland, Doull, 60, 178, 125, 3, 1
+1251, 1994-02-24, 3, 2, New Zealand, c Young, Doull, 3, 24, 12, 0, 0
+1265, 1994-08-09, 1, 2, Sri Lanka, , Dharmasena, 41, 71, 51, 8, 0
+1265, 1994-08-09, 3, 2, Sri Lanka, c Jayasuriya, Dharmasena, 65, 135, 96, 9, 0
+1267, 1994-08-26, 2, 2, Sri Lanka, c Tillakaratne, Pushpakumara, 74, 155, 98, 11, 1
+1268, 1994-09-28, 2, 2, Australia, c Bevan, Warne, 36, 97, 97, 7, 0
+1268, 1994-09-28, 4, 2, Australia, run out, , 34, 64, 44, 5, 0
+1269, 1994-10-05, 2, 2, Australia, , Fleming, 80, 121, 83, 13, 1
+1269, 1994-10-05, 3, 2, Australia, c Healy, McDermott, 72, 186, 139, 11, 0
+1273, 1994-11-01, 1, 2, Australia, c Emery, McGrath, 1, 32, 26, 0, 0
+1273, 1994-11-01, 3, 7, Australia, st Emery, Warne, 105, 280, 200, 17, 0
+1283, 1995-01-19, 2, 1, South Africa, c Richardson, de Villiers, 23, 49, 37, 3, 0
+1283, 1995-01-19, 4, 1, South Africa, c McMillan, de Villiers, 0, 17, 14, 0, 0
+1285, 1995-01-31, 2, 1, Zimbabwe, c Houghton, Brain, 61, 201, 137, 7, 0
+1285, 1995-01-31, 3, 1, Zimbabwe, c Campbell, Brain, 5, 37, 31, 0, 0
+1288, 1995-02-07, 2, 1, Zimbabwe, lbw, Streak, 26, 74, 45, 3, 0
+1288, 1995-02-07, 4, 1, Zimbabwe, c Campbell, BC Strang, 46, 45, 27, 11, 0
+1290, 1995-02-15, 1, 1, Zimbabwe, c PA Strang, Streak, 21, 53, 37, 3, 0
+1290, 1995-02-15, 3, 6, Zimbabwe, c GW Flower, Whittall, 19, 20, 20, 2, 1
+1304, 1995-09-08, 1, 2, Sri Lanka, c Dunusinghe, Vaas, 28, 65, 48, 5, 0
+1305, 1995-09-15, 2, 2, Sri Lanka, , Muralitharan, 20, 66, 55, 3, 0
+1305, 1995-09-15, 4, 2, Sri Lanka, lbw, Vaas, 0, 8, 4, 0, 0
+1306, 1995-09-22, 2, 1, Sri Lanka, , Dharmasena, 48, 104, 79, 6, 0
+1306, 1995-09-22, 4, 1, Sri Lanka, c Hathurusingha, Wickramasinghe, 5, 21, 14, 1, 0
+1311, 1995-11-09, 2, 1, Australia, st Healy, Warne, 32, 87, 66, 4, 0
+1311, 1995-11-09, 3, 1, Australia, , McGrath, 99, 200, 159, 15, 0
+1313, 1995-11-17, 2, 1, Australia, c Healy, Reiffel, 32, 108, 74, 2, 0
+1313, 1995-11-17, 4, 1, Australia, c sub (BP Julian), Blewett, 57, 143, 110, 6, 0
+1314, 1995-11-30, 1, 1, Australia, c ME Waugh, McDermott, 4, 1, 3, 1, 0
+1314, 1995-11-30, 3, 1, Australia, c Boon, McDermott, 9, 19, 19, 0, 1
+1316, 1995-12-08, 1, 1, New Zealand, hit wicket, Cairns, 88, 117, 94, 15, 0
+1316, 1995-12-08, 3, 1, New Zealand, , Patel, 30, 75, 59, 3, 0
+1330, 1996-07-25, 1, 1, England, lbw, Brown, 2, 13, 14, 0, 0
+1332, 1996-08-22, 2, 2, England, c Cork, Croft, 46, 94, 78, 7, 0
+1332, 1996-08-22, 4, 2, England, not out, , 29, 33, 17, 5, 0
+1336, 1996-10-17, 2, 2, Zimbabwe, c A Flower, PA Strang, 46, 46, 45, 11, 0
+1337, 1996-10-24, 2, 2, Zimbabwe, lbw, Matambanadzo, 2, 11, 6, 0, 0
+1337, 1996-10-24, 4, 2, Zimbabwe, not out, , 18, 85, 47, 3, 0
+1382, 1997-10-24, 2, 8, South Africa, c Donald, Pollock, 38, 99, 76, 5, 0
+1382, 1997-10-24, 4, 2, South Africa, c Bacher, Donald, 14, 27, 26, 2, 0
+1384, 1997-11-17, 2, 2, West Indies, c Lara, Walsh, 4, 13, 10, 1, 0
+1389, 1997-11-29, 2, 2, West Indies, c sub (PV Simmons), Walsh, 160, 441, 297, 17, 1
+1391, 1997-12-06, 2, 1, West Indies, lbw, Chanderpaul, 160, 354, 255, 21, 0
+1400, 1998-02-14, 2, 2, South Africa, c Boucher, Pollock, 12, 31, 25, 2, 0
+1403, 1998-03-26, 1, 2, South Africa, c Boucher, Pollock, 17, 45, 39, 2, 0
+1403, 1998-03-26, 3, 2, South Africa, c Boucher, Donald, 36, 144, 113, 4, 0
+1406, 1998-03-06, 2, 2, South Africa, c Hudson, Donald, 3, 42, 36, 0, 0
+1406, 1998-03-06, 4, 7, South Africa, lbw, Adams, 7, 31, 29, 1, 0
+1424, 1998-10-01, 1, 2, Australia, c Healy, McGrath, 4, 22, 15, 0, 0
+1424, 1998-10-01, 3, 2, Australia, , McGrath, 13, 55, 39, 1, 0
+1426, 1998-10-15, 2, 2, Australia, c Fleming, McGrath, 31, 36, 24, 3, 0
+1427, 1998-10-22, 2, 1, Australia, c Langer, Miller, 133, 346, 272, 18, 1
+1427, 1998-10-22, 4, 1, Australia, lbw, Miller, 25, 27, 26, 5, 0
+1430, 1998-11-27, 1, 2, Zimbabwe, c A Flower, Mbangwa, 15, 57, 45, 1, 0
+1430, 1998-11-27, 3, 1, Zimbabwe,                c &, Olonga, 2, 7, 8, 0, 0
+1485, 2000-03-26, 1, 3, Sri Lanka, c Kaluwitharana, Vaas, 0, 10, 9, 0, 0
+1485, 2000-03-26, 3, 3, Sri Lanka, c Jayawardene, Muralitharan, 24, 103, 65, 3, 0
+1487, 2000-03-05, 2, 2, Sri Lanka, c de Silva, Jayawardene, 22, 86, 62, 2, 0
+1487, 2000-03-05, 4, 4, Sri Lanka, c Dilshan, Jayasuriya, 0, 6, 7, 0, 0

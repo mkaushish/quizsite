@@ -1,0 +1,116 @@
+
+Test # 714
+The Frank Worrell Trophy, 1972/73, 1st Test
+West Indies v Australia
+Sabina Park, Kingston, Jamaica
+16,17,18,20,21 February 1973 (5-day match)
+
+Result: Match drawn
+Series: 5-match series level 0-0
+
+Toss: Australia
+Umpires: RG Gosein and D Sang Hue
+Test debut: JR Hammond (Australia).
+
+Close of play:
+ Day 1: Australia 190/4 (Edwards 20*, Walters 9*)
+ Day 2: Australia 428/7d, West Indies 39/1 (Fredericks 22*, Rowe 15*)
+ Day 3: West Indies 300/4 (Kanhai 60*, Foster 69*)
+ Day 4: West Indies 428, Australia 96/0 (Stackpole 58*, Redpath 33*)
+
+Australia 1st innings                                           R   M   B  4 6
+KR Stackpole                             b Foster              44  94      7 0
+IR Redpath                               b Gibbs               46 132      7 0
+*IM Chappell          c Dowe             b Ali                 19  72      3 0
+GS Chappell           c Kallicharran     b Gibbs               42 116      5 0
+R Edwards                            c & b Gibbs               63 277      6 0
+KD Walters            c Kanhai           b Gibbs               72 102     13 0
++RW Marsh             hit wicket         b Dowe                97 167     17 1
+KJ O'Keeffe           not out                                  19  75      0 0
+Extras                (b 6, lb 12, w 1, nb 7)                  26
+Total                 (7 wickets dec, 157 overs)              428
+
+DNB: MHN Walker, JR Hammond, DK Lillee.
+
+FoW: 1-66 (Stackpole), 2-106 (Redpath), 3-128 (IM Chappell),
+     4-179 (GS Chappell), 5-271 (Walters), 6-365 (Edwards),
+     7-428 (Marsh).
+
+Bowling                      O      M      R      W
+Holder                      26      5     55      0
+Dowe                        21      3     96      1
+Foster                      44     18     84      1
+Gibbs                       41     14     85      4
+Ali                         25      5     82      1
+
+West Indies 1st innings                                         R   M   B  4 6
+RC Fredericks         c O'Keeffe         b Walker              31  80      6 0
+GA Greenidge                             b Walker               0  17      0 0
+LG Rowe               c Stackpole        b Walker              76 185     11 0
+AI Kallicharran       c Marsh            b Hammond             50 113      2 0
+*RB Kanhai            c Marsh            b Hammond             84 216     12 0
+MLC Foster                               b Walker             125 236     16 0
++TM Findlay           c Marsh            b Walker              12  62      2 0
+Inshan Ali            c Marsh            b Walker              10  50      0 0
+VA Holder             lbw                b Hammond             12  13      2 0
+LR Gibbs              c O'Keeffe         b Hammond              5  34      1 0
+UG Dowe               not out                                   5  18      1 0
+Extras                (lb 9, nb 9)                             18
+Total                 (all out, 124.5 overs)                  428
+
+FoW: 1-6 (Greenidge), 2-49 (Fredericks), 3-165 (Kallicharran),
+     4-165 (Rowe), 5-375 (Kanhai), 6-385 (Foster),
+     7-400 (Findlay), 8-417 (Ali), 9-423 (Holder),
+     10-428 (Gibbs).
+
+Bowling                      O      M      R      W
+Lillee                      26      4    112      0
+Walker                      39     10    114      6
+Hammond                     28.5    5     79      4
+O'Keeffe                    18      1     71      0
+IM Chappell                 11      3     30      0
+GS Chappell                  2      0      4      0
+
+Australia 2nd innings                                           R   M   B  4 6
+KR Stackpole          c Rowe             b Holder             142 274     22 2
+IR Redpath            c Kanhai           b Gibbs               60 210      7 0
+*IM Chappell          not out                                  38  97      5 0
+GS Chappell           not out                                  14  32      2 0
+Extras                (lb 2, nb 4)                              6
+Total                 (2 wickets dec, 82 overs)               260
+
+DNB: R Edwards, KD Walters, +RW Marsh, KJ O'Keeffe, MHN Walker,
+     JR Hammond, DK Lillee.
+
+FoW: 1-161 (Redpath), 2-230 (Stackpole).
+
+Bowling                      O      M      R      W
+Holder                      19      5     34      1
+Dowe                        21      4     72      0
+Foster                      22      7     71      0
+Gibbs                       15      4     40      1
+Ali                          4      0     28      0
+Fredericks                   1      0      9      0
+
+West Indies 2nd innings (target: 261 runs)                      R   M   B  4 6
+RC Fredericks         c Marsh            b GS Chappell         21  70      4 0
++TM Findlay           c Marsh            b GS Chappell         13  62      0 0
+LG Rowe               c GS Chappell      b Hammond              4  26      0 0
+AI Kallicharran       not out                                   7  53      1 0
+MLC Foster            not out                                  18  33      3 0
+Extras                (b 1, w 1, nb 2)                          4
+Total                 (3 wickets, 33 overs)                    67
+
+DNB: GA Greenidge, *RB Kanhai, Inshan Ali, VA Holder, LR Gibbs,
+     UG Dowe.
+
+FoW: 1-35 (Findlay), 2-36 (Fredericks), 3-42 (Rowe).
+
+Bowling                      O      M      R      W
+Lillee                       6      1     20      0
+Walker                       6      3      8      0
+Hammond                     10      4     17      1
+GS Chappell                 10      4     18      2
+Walters                      1      1      0      0
+
+<END>

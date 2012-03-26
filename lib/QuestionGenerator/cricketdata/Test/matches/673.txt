@@ -1,0 +1,131 @@
+
+Test # 673
+Australia in South Africa, 1969/70, 4th Test
+South Africa v Australia
+Crusaders Ground, St George's Park, Port Elizabeth
+5,6,7,9,10 March 1970 (5-day match)
+
+Result: South Africa won by 323 runs
+Series: South Africa wins the 4-match series 4-0
+
+Toss: South Africa
+Umpires: CMP Coetzee and AJ Warner
+
+Close of play:
+ Day 1: South Africa 249/5 (Lindsay 23*, Lance 17*)
+ Day 2: South Africa 311, Australia 189/6 (Sheahan 66*, Mayne 2*)
+ Day 3: Australia 212, South Africa 235/3 (Bacher 52*, Irvine 9*)
+ Day 4: South Africa 470/8d, Australia 134/4 (Walters 7*, Sheahan 4*)
+
+South Africa 1st innings                                        R   M   B  4 6
+BA Richards           c Taber            b Connolly            81 212 178 10 0
+EJ Barlow             c McKenzie         b Connolly            73 205 176  9 1
+*A Bacher             run out                                  17  38  34  2 0
+RG Pollock            c Taber            b Gleeson              1   4   6  0 0
+BL Irvine             c Redpath          b Gleeson             25  68  59  3 1
++DT Lindsay           c Taber            b Connolly            43 174 143  4 0
+HR Lance                                 b Mayne               21  91  79  2 0
+MJ Procter            c Taber            b Connolly            26  58  49  3 0
+PM Pollock            not out                                   4  31  17  1 0
+PHJ Trimborn                             b Connolly             0   5   3  0 0
+AJ Traicos            c Taber            b Connolly             2   5   9  0 0
+Extras                (b 4, lb 3, nb 11)                       18
+Total                 (all out, 123.2 overs)                  311
+
+FoW: 1-157 (Barlow), 2-158 (Richards), 3-159 (RG Pollock),
+     4-183 (Bacher), 5-208 (Irvine), 6-259 (Lance),
+     7-294 (Lindsay), 8-305 (Procter), 9-305 (Trimborn),
+     10-311 (Traicos).
+
+Bowling                      O      M      R      W
+McKenzie                    27      7     66      0
+Mayne                       27      4     71      1
+Connolly                    28.2    9     47      6
+Walters                      9      1     19      0
+Gleeson                     32      9     90      2
+
+Australia 1st innings                                           R   M   B  4 6
+KR Stackpole          c Barlow           b Procter             15  32  27  0 0
+*WM Lawry             c Lindsay          b Lance               18  65  41  3 0
+IR Redpath            c Trimborn         b Procter             55 153 114  8 0
+IM Chappell           c Procter          b Trimborn            17  31  22  1 0
+KD Walters            c Lindsay          b Trimborn             1   4   3  0 0
+AP Sheahan            c Procter          b PM Pollock          67 159 137  7 1
++HB Taber             lbw                b Barlow               3  25  28  0 0
+LC Mayne                                 b Procter             13 101  62  1 0
+GD McKenzie           c Barlow           b PM Pollock           0   7   2  0 0
+JW Gleeson            c Lindsay          b PM Pollock           8  31  15  2 0
+AN Connolly           not out                                   2  22  15  0 0
+Extras                (lb 3, w 1, nb 9)                        13
+Total                 (all out, 76.1 overs)                   212
+
+FoW: 1-27 (Stackpole), 2-46 (Lawry), 3-80 (Chappell),
+     4-82 (Walters), 5-152 (Redpath), 6-177 (Taber),
+     7-191 (Sheahan), 8-195 (McKenzie), 9-208 (Gleeson),
+     10-212 (Mayne).
+
+Bowling                      O      M      R      W
+PM Pollock                  14      2     46      3
+Procter                     25.1   11     30      3
+Barlow                       9      1     27      1
+Lance                        8      1     32      1
+Trimborn                    17      1     47      2
+Traicos                      3      1     17      0
+
+South Africa 2nd innings                                        R   M   B  4 6
+BA Richards           c Chappell         b Mayne              126 236 212 16 3
+EJ Barlow             c Stackpole        b Walters             27 115  87  1 0
+*A Bacher             hit wicket         b McKenzie            73 215 170  8 0
+RG Pollock                               b Mayne                4  25  23  0 0
+BL Irvine             c Gleeson          b Mayne              102 178 146  9 2
++DT Lindsay                              b Connolly            60  54  54 10 1
+HR Lance              run out                                  19  30  35  2 0
+MJ Procter            c Mayne            b Gleeson             23  28  35  3 1
+PM Pollock            not out                                   7  24  17  1 0
+Extras                (lb 9, nb 20)                            29
+Total                 (8 wickets dec, 121.2 overs)            470
+
+DNB: PHJ Trimborn, AJ Traicos.
+
+FoW: 1-73 (Barlow), 2-199 (Richards), 3-213 (RG Pollock),
+     4-279 (Bacher), 5-367 (Lindsay), 6-440 (Lance),
+     7-440 (Irvine), 8-470 (Procter).
+
+Bowling                      O      M      R      W
+McKenzie                    20      3     72      1
+Mayne                       29      6     83      3
+Connolly                    36      3    130      1
+Walters                      5      2     14      1
+Gleeson                     30.2    5    142      1
+Redpath                      1      1      0      0
+
+Australia 2nd innings (target: 570 runs)                        R   M   B  4 6
+KR Stackpole                             b Procter             20  20  18  5 0
+*WM Lawry             c Lindsay          b Barlow              43 113  87  6 1
+IR Redpath            c Barlow           b Procter             37 140 111  5 0
+IM Chappell           c Trimborn         b Barlow              14  29  24  2 0
+KD Walters                               b Procter             23 116 100  2 0
+AP Sheahan            c Lindsay          b Trimborn            46  63  64  6 0
++HB Taber             not out                                  30 115  95  6 0
+LC Mayne              c Lindsay          b Procter             12  58  52  2 0
+GD McKenzie           c Lindsay          b Procter              2  14   9  0 0
+JW Gleeson                               b Procter              0   1   1  0 0
+AN Connolly           c Bacher           b Trimborn             3   4   3  0 0
+Extras                (lb 2, nb 14)                            16
+Total                 (all out, 90.3 overs)                   246
+
+FoW: 1-22 (Stackpole), 2-98 (Lawry), 3-116 (Chappell),
+     4-130 (Redpath), 5-189 (Sheahan), 6-207 (Walters),
+     7-234 (Mayne), 8-243 (McKenzie), 9-243 (Gleeson),
+     10-246 (Connolly).
+
+Bowling                      O      M      R      W
+PM Pollock                   1.1    0      2      0
+Procter                     24     11     73      6
+Barlow                      18      3     66      2
+Lance                       10      4     18      0
+Trimborn                    20.2    4     44      2
+Traicos                     14      5     21      0
+Richards                     3      1      6      0
+
+<END>

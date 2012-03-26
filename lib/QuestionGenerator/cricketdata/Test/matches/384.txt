@@ -1,0 +1,124 @@
+
+Test # 384
+England in West Indies, 1953/54, 3rd Test
+West Indies v England
+Bourda, Georgetown, British Guiana
+24,25,26,27 February, 1,2 March 1954 (6-day match)
+
+Result: England won by 9 wickets
+Series: West Indies leads the 5-match series 2-1
+
+Toss: England
+Umpires: ES Gillette and B Menzies
+
+Close of play:
+ Day 1: England 153/2 (Hutton 84*, Compton 37*)
+ Day 2: England 401/8 (Bailey 40*, Lock 0*)
+ Day 3: England 435, West Indies 31/3 (Weekes 21*, Christiani 3*)
+ Day 4: West Indies 241/9 (Holt 38*, Valentine 0*)
+ Day 5: West Indies 251, West Indies 205/6 (Gomez 13*, Atkinson 0*)
+
+England 1st innings                                             R   M   B  4 6
+W Watson                                 b Ramadhin            12  80        0
+*L Hutton             c Worrell          b Ramadhin           169 460     24 1
+PBH May               lbw                b Atkinson            12            0
+DCS Compton           c Stollmeyer       b Atkinson            64 240        0
+TW Graveney                              b Ramadhin             0          0 0
+JH Wardle                                b Ramadhin            38            0
+TE Bailey             c Weekes           b Ramadhin            49            0
++TG Evans             lbw                b Atkinson            19  45        0
+JC Laker                                 b Valentine           27            1
+GAR Lock                                 b Ramadhin            13            0
+JB Statham            not out                                  10            0
+Extras                (b 20, nb 2)                             22
+Total                 (all out, 220 overs)                    435
+
+FoW: 1-33 (Watson), 2-76 (May), 3-226 (Compton),
+     4-227 (Graveney), 5-306 (Hutton), 6-321 (Wardle),
+     7-350 (Evans), 8-390 (Laker), 9-412 (Bailey), 10-435 (Lock).
+
+Bowling                      O      M      R      W
+Gomez                       32      6     75      0
+Worrell                     15      4     33      0
+Ramadhin                    67     34    113      6
+Valentine                   44     18    109      1
+Atkinson                    58     27     78      3
+Stollmeyer                   2      1      3      0
+Walcott                      2      0      2      0
+
+West Indies 1st innings                                         R   M   B  4 6
+FMM Worrell           c Evans            b Statham              0   2   1  0 0
+*JB Stollmeyer                           b Statham              2          0 0
+ED Weekes                                b Lock                94            0
+CL Walcott                               b Statham              4            0
+RJ Christiani         c Watson           b Laker               25            0
+GE Gomez                                 b Statham              8            0
+DS Atkinson                          c & b Lock                 0          0 0
++CA McWatt            run out                                  54            0
+JKC Holt              not out                                  48            0
+S Ramadhin                               b Laker                0          0 0
+AL Valentine          run out                                   0          0 0
+Extras                (b 8, lb 7, w 1)                         16
+Total                 (all out, 105.5 overs)                  251
+
+FoW: 1-1 (Worrell), 2-12 (Stollmeyer), 3-16 (Walcott),
+     4-78 (Christiani), 5-132 (Gomez), 6-134 (Weekes),
+     7-139 (Atkinson), 8-238 (McWatt), 9-240 (Ramadhin),
+     10-251 (Valentine).
+
+Bowling                      O      M      R      W
+Statham                     27      6     64      4
+Bailey                       5      0     13      0
+Laker                       21     11     32      2
+Wardle                      22      4     60      0
+Compton                      3      1      6      0
+Lock                        27.5    7     60      2
+
+West Indies 2nd innings (following on)                          R   M   B  4 6
+JKC Holt                                 b Lock                64            0
+*JB Stollmeyer        c Compton          b Laker               44            0
+FMM Worrell           c Evans            b Statham              2          0 0
+ED Weekes             c Graveney         b Bailey              38            0
+CL Walcott            lbw                b Laker               26            0
+RJ Christiani                            b Bailey              11            1
+GE Gomez              c Graveney         b Wardle              35            0
+DS Atkinson                              b Wardle              18            0
++CA McWatt            not out                                   9            0
+S Ramadhin                               b Statham              1          0 0
+AL Valentine                             b Wardle               0          0 0
+Extras                (b 2, lb 4, nb 2)                         8
+Total                 (all out, 117.3 overs)                  256
+
+FoW: 1-79 (Stollmeyer), 2-96 (Worrell), 3-120 (Holt),
+     4-168 (Weekes), 5-186 (Christiani), 6-200 (Walcott),
+     7-245 (Atkinson), 8-246 (Gomez), 9-251 (Ramadhin),
+     10-256 (Valentine).
+
+Bowling                      O      M      R      W
+Statham                     22      3     86      2
+Bailey                      22      9     41      2
+Laker                       36     18     56      2
+Wardle                      12.3    4     24      3
+Lock                        25     11     41      1
+
+England 2nd innings (target: 73 runs)                           R   M   B  4 6
+TW Graveney           not out                                  33            0
+PBH May                                  b Atkinson            12            0
+W Watson              not out                                  27            1
+Extras                (b 3)                                     3
+Total                 (1 wicket, 20.1 overs)                   75
+
+DNB: *L Hutton, DCS Compton, JH Wardle, TE Bailey, +TG Evans,
+     JC Laker, GAR Lock, JB Statham.
+
+FoW: 1-18 (May).
+
+Bowling                      O      M      R      W
+Gomez                        5      1     15      0
+Ramadhin                     4      0      7      0
+Atkinson                     7      0     34      1
+Walcott                      2      0      6      0
+Weekes                       1.1    0      8      0
+Christiani                   1      0      2      0
+
+<END>

@@ -1,0 +1,127 @@
+
+Test # 46
+The Ashes, 1894/95, 5th Test
+Australia v England
+Melbourne Cricket Ground
+1,2,4,5,6 March 1895 (timeless match)
+
+Result: England won by 6 wickets
+Series: England wins the 5-match series 3-2
+
+Toss: Australia
+Umpires: T Flynn and J Phillips
+Test debut: TR McKibbin (Australia).
+
+Close of play:
+ Day 1: Australia 282/4 (Gregory 70*, Darling 72*)
+ Day 2: Australia 414, England 200/4 (MacLaren 40*, Peel 18*)
+ Day 3: England 385, Australia 69/1 (GHS Trott 37*, Giffen 14*)
+ Day 4: Australia 267, England 28/1 (Ward 6*, Stoddart 11*)
+
+Australia 1st innings                                           R   M   B  4 6
+GHS Trott                                b Briggs              42 105        0
+W Bruce               c MacLaren         b Peel                22  32        0
+*G Giffen                                b Peel                57 135        0
+FA Iredale                               b Richardson           8  40        0
+SE Gregory            c Philipson        b Richardson          70 135      8 0
+J Darling             c Ford             b Peel                74 115      9 0
+JJ Lyons              c Philipson        b Lockwood            55  70        0
+H Graham                                 b Richardson           6  20        0
+AE Trott              c Lockwood         b Peel                10  25        0
++AH Jarvis            not out                                  34  55        0
+TR McKibbin           c Peel             b Briggs              23  35        0
+Extras                (b 3, lb 10)                             13
+Total                 (all out, 148.4 overs)                  414
+
+FoW: 1-40 (Bruce), 2-101 (GHS Trott), 3-126 (Iredale),
+     4-142 (Giffen), 5-284 (Darling), 6-286 (Gregory),
+     7-304 (Graham), 8-335 (AE Trott), 9-367 (Lyons),
+     10-414 (McKibbin).
+
+Bowling                      O      M      R      W
+Richardson                  42      7    138      3
+Peel                        48     13    114      4
+Lockwood                    27      7     72      1
+Briggs                      23.4    5     46      2
+Brockwell                    6      1     22      0
+Ford                         2      0      9      0
+
+England 1st innings                                             R   M   B  4 6
+A Ward                                   b McKibbin            32 120      3 0
+W Brockwell           st Jarvis          b GHS Trott            5  10      0 0
+*AE Stoddart          st Jarvis          b GHS Trott           68  95      7 0
+JT Brown                                 b AE Trott            30  38      5 0
+AC MacLaren           hit wicket         b GHS Trott          120 220     12 0
+R Peel                c Gregory          b Giffen              73 160      7 0
+WH Lockwood           c GHS Trott        b Giffen               5            0
+FGJ Ford              c AE Trott         b Giffen              11            0
+J Briggs              c GHS Trott        b Giffen               0          0 0
++H Philipson          not out                                  10            0
+T Richardson          lbw                b GHS Trott           11            0
+Extras                (b 8, lb 8, w 4)                         20
+Total                 (all out, 133 overs)                    385
+
+FoW: 1-6 (Brockwell), 2-110 (Stoddart), 3-112 (Ward),
+     4-166 (Brown), 5-328 (Peel), 6-342 (Lockwood), 7-364 (Ford),
+     8-364 (MacLaren), 9-366 (Briggs), 10-385 (Richardson).
+
+Bowling                      O      M      R      W
+Giffen                      45     13    130      4
+GHS Trott                   24      5     71      4
+AE Trott                    30      4     84      1
+McKibbin                    29      6     73      1
+Bruce                        5      1      7      0
+
+Australia 2nd innings                                           R   M   B  4 6
+GHS Trott                                b Peel                42 110        0
+W Bruce                              c & b Peel                11  40        0
+*G Giffen                                b Richardson          51 180        0
+FA Iredale                               b Richardson          18  60        0
+SE Gregory                               b Richardson          30  75        0
+J Darling                                b Peel                50 120        0
+JJ Lyons                                 b Briggs              15  12        0
+H Graham              lbw                b Richardson          10            0
+AE Trott                                 b Richardson           0          0 0
++AH Jarvis            not out                                  14            0
+TR McKibbin           c Philipson        b Richardson          13            0
+Extras                (b 5, lb 6, nb 2)                        13
+Total                 (all out, 123.2 overs)                  267
+
+FoW: 1-32 (Bruce), 2-75 (GHS Trott), 3-125 (Iredale),
+     4-148 (Giffen), 5-179 (Gregory), 6-200 (Lyons),
+     7-219 (Graham), 8-219 (AE Trott), 9-248 (Darling),
+     10-267 (McKibbin).
+
+Bowling                      O      M      R      W
+Richardson                  45.2    7    104      6
+Peel                        46     16     89      3
+Lockwood                    16      7     24      0
+Briggs                      16      3     37      1
+
+England 2nd innings (target: 297 runs)                          R   M   B  4 6
+A Ward                                   b GHS Trott           93 207      6 1
+W Brockwell                          c & b Giffen               5   5      0 0
+*AE Stoddart          lbw                b GHS Trott           11  15        0
+JT Brown              c Giffen           b McKibbin           140 145     16 0
+AC MacLaren           not out                                  20  45        0
+R Peel                not out                                  15   8        0
+Extras                (b 6, lb 5, w 2, nb 1)                   14
+Total                 (4 wickets, 88.1 overs)                 298
+
+DNB: WH Lockwood, FGJ Ford, J Briggs, +H Philipson, T Richardson.
+
+FoW: 1-5 (Brockwell), 2-28 (Stoddart), 3-238 (Brown),
+     4-278 (Ward).
+
+Bowling                      O      M      R      W
+Giffen                      31      4    106      1
+GHS Trott                   20.1    1     63      2
+AE Trott                    19      2     56      0
+McKibbin                    14      2     47      1
+Bruce                        3      1     10      0
+Lyons                        1      0      2      0
+
+*** JT Brown (140) scored his first fifty in only 28 minutes. His hundred
+    took 95 minutes.
+
+<END>

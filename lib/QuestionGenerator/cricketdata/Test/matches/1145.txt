@@ -1,0 +1,93 @@
+
+Test # 1145
+New Zealand in England, 1990, 1st Test
+England v New Zealand
+Trent Bridge, Nottingham
+7,8,9,11,12 June 1990 (5-day match)
+
+Result: Match drawn
+Series: 3-match series level 0-0
+
+Toss: New Zealand
+Umpires: HD Bird and JH Hampshire
+Test debut: MW Priest (New Zealand).
+Player of the match: MA Atherton
+
+Close of play:
+ Day 1: New Zealand 171/5 (Priest 23*, Snedden 0*)
+ Day 2: New Zealand 189/6 (Snedden 0*, Bracewell 28*)
+ Day 3: New Zealand 208, England 4/1 (Atherton 3*, Stewart 1*)
+ Day 4: England 187/5 (Atherton 78*, Russell 4*)
+
+New Zealand 1st innings                                         R   M   B  4 6
+TJ Franklin                              b Malcolm             33 178 132  2 0
+*JG Wright            c Stewart          b Small                8  61  45  0 0
+AH Jones              c Stewart          b Malcolm             39 144 108  4 0
+MD Crowe                                 b DeFreitas           59 112  94  5 1
+MJ Greatbatch                            b Hemmings             1  19   8  0 0
+MW Priest             c Russell          b DeFreitas           26  77  57  1 0
+MC Snedden            c Gooch            b DeFreitas            0  39  29  0 0
+JG Bracewell          c Gooch            b Small               28  50  38  3 0
+RJ Hadlee                                b DeFreitas            0   9   8  0 0
++IDS Smith            not out                                   2  21  10  0 0
+DK Morrison           lbw                b DeFreitas            0   6   6  0 0
+Extras                (b 1, lb 10, w 1)                        12
+Total                 (all out, 89 overs)                     208
+
+FoW: 1-16 (Wright), 2-75 (Franklin), 3-110 (Jones),
+     4-121 (Greatbatch), 5-170 (Crowe), 6-174 (Priest),
+     7-191 (Snedden), 8-191 (Hadlee), 9-203 (Bracewell),
+     10-208 (Morrison).
+
+Bowling                      O      M      R      W
+Small                       29      9     49      2
+Malcolm                     19      7     48      2
+Hemmings                    19      6     47      1
+DeFreitas                   22      6     53      5
+
+England 1st innings                                             R   M   B  4 6
+*GA Gooch             lbw                b Hadlee               0   1   1  0 0
+MA Atherton           c Snedden          b Priest             151 495 382 16 0
+AJ Stewart            c Smith            b Hadlee              27  61  45  1 0
+AJ Lamb               lbw                b Hadlee               0   6   3  0 0
+RA Smith              c Smith            b Bracewell           55 172 134  6 0
+NH Fairbrother        c Franklin         b Snedden             19  49  48  2 0
++RC Russell           c Snedden          b Morrison            28 159 120  3 0
+PAJ DeFreitas         lbw                b Bracewell           14  46  35  2 0
+GC Small              c Crowe            b Hadlee              26  39  36  4 0
+EE Hemmings           not out                                  13  42  21  1 0
+DE Malcolm            not out                                   4   7   9  1 0
+Extras                (b 2, lb 3, nb 3)                         8
+Total                 (9 wickets dec, 138 overs)              345
+
+FoW: 1-0 (Gooch), 2-43 (Stewart), 3-45 (Lamb), 4-141 (Smith),
+     5-168 (Fairbrother), 6-260 (Russell), 7-302 (Atherton),
+     8-306 (DeFreitas), 9-340 (Small).
+
+Bowling                      O      M      R      W
+Hadlee                      33      6     89      4
+Morrison                    22      3     96      1
+Snedden                     36     17     54      1
+Bracewell                   35      8     75      2
+Priest                      12      4     26      1
+
+New Zealand 2nd innings                                         R   M   B  4 6
+TJ Franklin           not out                                  22  72  59  2 0
+*JG Wright            c Russell          b Small                1  25  14  0 0
+AH Jones              c Russell          b DeFreitas           13  40  28  1 0
+DK Morrison           not out                                   0   5   2  0 0
+Extras                                                          0
+Total                 (2 wickets, 17 overs)                    36
+
+DNB: MD Crowe, MJ Greatbatch, MW Priest, MC Snedden,
+     JG Bracewell, RJ Hadlee, +IDS Smith.
+
+FoW: 1-8 (Wright), 2-36 (Jones).
+
+Bowling                      O      M      R      W
+Small                        6      2     14      1
+Malcolm                      7      2     22      0
+Hemmings                     2      2      0      0
+DeFreitas                    2      2      0      1
+
+<END>

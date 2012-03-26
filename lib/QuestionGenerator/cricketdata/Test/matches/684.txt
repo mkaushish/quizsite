@@ -1,0 +1,118 @@
+
+Test # 684
+India in West Indies, 1970/71, 3rd Test
+West Indies v India
+Bourda, Georgetown, Guyana
+19,20,21,23,24 March 1971 (5-day match)
+
+Result: Match drawn
+Series: India leads the 5-match series 1-0
+
+Toss: West Indies
+Umpires: RG Gosein and FCP Kippins
+Test debuts: KD Boyce, DM Lewis (West Indies).
+
+Close of play:
+ Day 1: West Indies 231/6 (Lewis 1*)
+ Day 2: West Indies 363, India 114/1 (Gavaskar 48*, Wadekar 16*)
+ Day 3: India 256/5 (Sardesai 5*, Solkar 6*)
+ Day 4: India 376, West Indies 63/1 (Carew 21*, Davis 34*)
+
+West Indies 1st innings                                         R   M   B  4 6
+RC Fredericks         c Abid Ali         b Venkataraghavan     47 192        0
+MC Carew              c Mankad           b Durani              41 130        0
+RB Kanhai             c Krishnamurthy    b Bedi                25  45        0
+CH Lloyd              run out                                  60            0
+CA Davis              lbw                b Solkar              34            0
+*GS Sobers            c Venkataraghavan  b Bedi                 4  25        0
++DM Lewis             not out                                  81 216     10 0
+KD Boyce              c Gavaskar         b Venkataraghavan      9            0
+GC Shillingford       c Bedi             b Venkataraghavan      5            0
+LR Gibbs              run out                                  25 120        0
+JM Noreiga            run out                                   9            0
+Extras                (b 11, lb 9, nb 3)                       23
+Total                 (all out, 158.2 overs)                  363
+
+FoW: 1-78 (Carew), 2-119 (Kanhai), 3-135 (Fredericks),
+     4-213 (Davis), 5-226 (Lloyd), 6-231 (Sobers), 7-246 (Boyce),
+     8-256 (Shillingford), 9-340 (Gibbs), 10-363 (Noreiga).
+
+Bowling                      O      M      R      W
+Abid Ali                    13.2    5     42      0
+Solkar                      17      3     34      1
+Venkataraghavan             59     14    128      3
+Bedi                        55     18     85      2
+Durani                      14      3     51      1
+
+India 1st innings                                               R   M   B  4 6
+AV Mankad                                b Noreiga             40            0
+SM Gavaskar           c Carew            b Sobers             116 265     11 0
+*AL Wadekar                              b Sobers              16            0
+GR Viswanath                             b Boyce               50            0
+SA Durani             lbw                b Sobers               2          0 0
+DN Sardesai           run out                                  45            0
+ED Solkar             run out                                  16            0
+S Abid Ali            not out                                  50            0
+S Venkataraghavan     lbw                b Shillingford        12            0
++P Krishnamurthy      run out                                   0          0 0
+BS Bedi               lbw                b Boyce                2          0 0
+Extras                (b 5, lb 6, w 1, nb 15)                  27
+Total                 (all out, 167.4 overs)                  376
+
+FoW: 1-72 (Mankad), 2-116 (Wadekar), 3-228 (Gavaskar),
+     4-244 (Durani), 5-246 (Viswanath), 6-278 (Solkar),
+     7-339 (Sardesai), 8-370 (Venkataraghavan),
+     9-374 (Krishnamurthy), 10-376 (Bedi).
+
+Bowling                      O      M      R      W
+Boyce                       20.4    5     47      2
+Shillingford                21      2     76      1
+Sobers                      43     15     72      3
+Gibbs                       39     17     61      0
+Noreiga                     42      9     91      1
+Carew                        2      0      2      0
+
+West Indies 2nd innings                                         R   M   B  4 6
+RC Fredericks         lbw                b Solkar               5            0
+MC Carew              c Durani           b Bedi                45            0
+CA Davis              not out                                 125            0
+CH Lloyd              c Krishnamurthy    b Bedi                 9            0
+*GS Sobers            not out                                 108            2
+Extras                (b 5, lb 6, nb 4)                        15
+Total                 (3 wickets dec, 100 overs)              307
+
+DNB: RB Kanhai, +DM Lewis, KD Boyce, GC Shillingford, LR Gibbs,
+     JM Noreiga.
+
+FoW: 1-11 (Fredericks), 2-114 (Carew), 3-137 (Lloyd).
+
+Bowling                      O      M      R      W
+Abid Ali                    14      2     55      0
+Solkar                      16      4     43      1
+Venkataraghavan             20     10     47      0
+Bedi                        26      9     55      2
+Durani                      16      2     47      0
+Mankad                       5      0     33      0
+Wadekar                      3      0     12      0
+
+India 2nd innings (target: 295 runs)                            R   M   B  4 6
+AV Mankad             not out                                  53  90        0
+SM Gavaskar           not out                                  64  90        0
+Extras                (b 4, w 1, nb 1)                          6
+Total                 (0 wickets, 30 overs)                   123
+
+DNB: *AL Wadekar, GR Viswanath, SA Durani, DN Sardesai,
+     ED Solkar, S Abid Ali, S Venkataraghavan, +P Krishnamurthy,
+     BS Bedi.
+
+Bowling                      O      M      R      W
+Boyce                        2      0     12      0
+Shillingford                 2      0     13      0
+Sobers                       5      1     14      0
+Gibbs                        1      0      4      0
+Noreiga                     10      0     30      0
+Lloyd                        3      0     20      0
+Fredericks                   4      0      9      0
+Davis                        3      0     15      0
+
+<END>

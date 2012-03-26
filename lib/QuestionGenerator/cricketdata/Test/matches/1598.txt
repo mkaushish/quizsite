@@ -1,0 +1,89 @@
+
+Test # 1598
+India in West Indies, 2002, 1st Test
+West Indies v India
+Bourda, Georgetown, Guyana
+11,12,13,14,15 April 2002 (5-day match)
+
+Result: Match drawn
+Series: 5-match series level 0-0
+
+Toss: West Indies
+Umpires: EAR de Silva (SL) and DJ Harper (Aus)
+TV umpire: BR Doctrove
+Match referee: RS Madugalle (SL)
+Test debut: A Sanford (West Indies).
+Player of the match: CL Hooper
+
+Close of play:
+ Day 1: West Indies 270/4 (Hooper 108*, Chanderpaul 57*, 90 ov)
+ Day 2: West Indies 494/7 (Nagamootoo 9*, Dillon 0*, 158.3 ov)
+ Day 3: West Indies 501, India 237/4 (Dravid 57*, Laxman 46*, 86.5 ov)
+ Day 4: India 395/7 (Dravid 144*, Sarandeep Singh 39*, 140.3 ov)
+ Day 5: No play
+
+West Indies 1st innings                                         R   M   B  4 6
+CH Gayle              c Dasgupta         b Srinath             12  12  11  3 0
+SC Williams           lbw                b Srinath             13  34  20  3 0
+RR Sarwan             c Khan             b Sarandeep Singh     53 230 180  6 0
+BC Lara               c Dasgupta         b Srinath              0  19  11  0 0
+*CL Hooper            c Sarandeep Singh  b Kumble             233 630 402 29 3
+S Chanderpaul         lbw                b Khan               140 367 290 23 0
++JR Murray            lbw                b Khan                 0  14   9  0 0
+MV Nagamootoo         not out                                  15  84  65  2 0
+M Dillon              lbw                b Bangar               0   6   6  0 0
+A Sanford             lbw                b Kumble               1  13   8  0 0
+CE Cuffy              run out (Tendulkar/Dasgupta)              0   7   3  0 0
+Extras                (b 1, lb 4, w 3, nb 26)                  34
+Total                 (all out, 163.1 overs, 720 mins)        501
+
+FoW: 1-21 (Gayle, 2.2 ov), 2-37 (Williams, 6.6 ov),
+     3-44 (Lara, 10.5 ov), 4-157 (Sarwan, 55.4 ov),
+     5-450 (Chanderpaul, 139.6 ov), 6-454 (Murray, 143.2 ov),
+     7-494 (Hooper, 157.2 ov), 8-494 (Dillon, 158.6 ov),
+     9-499 (Sanford, 161.6 ov), 10-501 (Cuffy, 163.1 ov).
+
+Bowling                      O      M      R      W
+Srinath                     33      8     91      3 (3nb)
+Khan                        32      9     97      2 (13nb, 1w)
+Bangar                      27      6     63      1 (1w)
+Kumble                      45.1    7    145      2 (5nb)
+Ganguly                      2      1      2      0 (1nb)
+Sarandeep Singh             21      5     80      1 (3nb)
+Tendulkar                    3      0     18      0 (1w)
+
+India 1st innings                                               R   M   B  4 6
+SS Das                                   b Sanford             33 147  98  3 0
++D Dasgupta           lbw                b Cuffy                0   8   5  0 0
+*SC Ganguly           c Nagamootoo       b Dillon               5  24  12  0 0
+SR Tendulkar          lbw                b Nagamootoo          79 191 136 13 0
+R Dravid              not out                                 144 436 345 23 0
+VVS Laxman            c Gayle            b Cuffy               69 126 113 11 0
+SB Bangar             lbw                b Cuffy                0  10   8  0 0
+A Kumble              c Nagamootoo       b Sanford              3  12  11  0 0
+Sarandeep Singh       not out                                  39 165 120  1 0
+Extras                (b 4, lb 12, w 2, nb 5)                  23
+Total                 (7 wickets, 140.3 overs, 560 mins)      395
+
+DNB: J Srinath, Z Khan.
+
+FoW: 1-6 (Dasgupta, 1.5 ov), 2-21 (Ganguly, 6.4 ov),
+     3-99 (Das, 32.1 ov), 4-144 (Tendulkar, 53.5 ov),
+     5-263 (Laxman, 93.5 ov), 6-270 (Bangar, 95.6 ov),
+     7-275 (Kumble, 98.5 ov).
+
+Bowling                      O      M      R      W
+Dillon                      32.3    5    115      1 (2nb)
+Cuffy                       27      6     57      3 (2w)
+Sanford                     25      5     81      2 (2nb)
+Nagamootoo                  40     13    103      1 (1nb)
+Hooper                      12      4     16      0
+Gayle                        4      2      7      0
+
+*** 4th Umpire - EA Nicholls
+
+*** Day 2
+*** West Indies 1st innings: 1x7 ball over - 140th over, Z Khan's 28th over
+    (given by Umpire EAR de Silva)
+
+<END>

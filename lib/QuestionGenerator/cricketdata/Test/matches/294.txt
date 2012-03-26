@@ -1,0 +1,106 @@
+
+Test # 294
+India in Australia, 1947/48, 4th Test
+Australia v India
+Adelaide Oval
+23,24,26,27,28 January 1948 (6-day match)
+
+Result: Australia won by an innings and 16 runs
+Series: Australia leads the 5-match series 3-0
+
+Toss: Australia
+Umpires: GE Borwick and RJJ Wright
+Balls per over: 8
+Test debuts: RN Harvey (Australia); CR Rangachari (India).
+
+Close of play:
+ Day 1: Australia 370/3 (Hassett 39*, Miller 4*)
+ Day 2: Australia 674, India 6/2 (Mankad 3*)
+ Day 3: India 299/5 (Hazare 108*, Phadkar 77*)
+ Day 4: India 381, India 188/6 (Hazare 102*, Adhikari 18*)
+
+Australia 1st innings                                           R   M   B  4 6
+SG Barnes             lbw                b Mankad             112 230 281 16 0
+AR Morris                                b Phadkar              7  12   8  1 0
+*DG Bradman                              b Hazare             201 272 296 21 1
+AL Hassett            not out                                 198 340 305 16 0
+KR Miller                                b Rangachari          67 114 125  3 1
+RN Harvey             lbw                b Rangachari          13  15  17  2 0
+CL McCool                                b Phadkar             27  42  54  2 0
+IWG Johnson                              b Rangachari          22  46  62  0 0
+RR Lindwall                              b Rangachari           2   7  11  0 0
++D Tallon             lbw                b Mankad               1   2   3  0 0
+ERH Toshack           lbw                b Hazare               8  43  49  0 0
+Extras                (b 8, lb 6, nb 2)                        16
+Total                 (all out, 151.3 overs, 570 mins)        674
+
+FoW: 1-20 (Morris), 2-256 (Barnes), 3-361 (Bradman),
+     4-503 (Miller), 5-523 (Harvey), 6-576 (McCool),
+     7-634 (Johnson), 8-640 (Lindwall), 9-641 (Tallon),
+     10-674 (Toshack).
+
+Bowling                      O      M      R      W
+Phadkar                     15      0     74      2 (2nb)
+Amarnath                     9      0     42      0
+Rangachari                  41      5    141      4
+Mankad                      43      8    170      2
+Sarwate                     22      1    121      0
+Hazare                      21.3    1    110      2
+
+India 1st innings                                               R   M   B  4 6
+MH Mankad                                b McCool              49 139 156  4 0
+CT Sarwate                               b Miller               1  13  10  0 0
++PK Sen                                  b Miller               0   1   1  0 0
+*L Amarnath           c Bradman          b Johnson             46  55  47  5 0
+VS Hazare             lbw                b Johnson            116 271 303 14 0
+Gul Mohammad          st Tallon          b Johnson              4   8  13  1 0
+DG Phadkar            lbw                b Toshack            123 250 284 15 0
+G Kishenchand                            b Lindwall            10  37  39  0 0
+HR Adhikari           run out                                   2   6   4  0 0
+KM Rangnekar          st Tallon          b Johnson              8  18  22  1 0
+CR Rangachari         not out                                   0   6   0  0 0
+Extras                (b 11, lb 8, nb 3)                       22
+Total                 (all out, 109.1 overs, 405 mins)        381
+
+FoW: 1-6 (Sarwate), 2-6 (Sen), 3-69 (Amarnath), 4-124 (Mankad),
+     5-133 (Gul Mohammad), 6-321 (Hazare), 7-353 (Kishenchand),
+     8-359 (Adhikari), 9-375 (Phadkar), 10-381 (Rangnekar).
+
+Bowling                      O      M      R      W
+Lindwall                    21      6     61      1 (1nb)
+Miller                       9      1     39      2
+McCool                      28      2    102      1
+Johnson                     23.1    5     64      4
+Toshack                     18      2     66      1 (2nb)
+Barnes                       9      0     23      0
+Bradman                      1      0      4      0
+
+India 2nd innings (following on)                                R   M   B  4 6
+MH Mankad             c Tallon           b Lindwall             0   4   7  0 0
+CT Sarwate                               b Toshack             11  47  44  0 0
+*L Amarnath                              b Lindwall             0   1   1  0 0
+VS Hazare                                b Lindwall           145 313 372 17 0
+Gul Mohammad                             b Barnes              34  50  68  7 0
+DG Phadkar            lbw                b Lindwall            14  26  25  2 0
+G Kishenchand                            b Lindwall             0   1   3  0 0
+HR Adhikari           lbw                b Miller              51 198 210  5 0
+KM Rangnekar                             b Lindwall             0  10   6  0 0
++PK Sen               not out                                   0   6   4  0 0
+CR Rangachari         c McCool           b Lindwall             0   1   3  0 0
+Extras                (b 18, lb 3, nb 1)                       22
+Total                 (all out, 92.5 overs, 338 mins)         277
+
+FoW: 1-0 (Mankad), 2-0 (Amarnath), 3-33 (Sarwate),
+     4-99 (Gul Mohammad), 5-139 (Phadkar), 6-139 (Kishenchand),
+     7-271 (Hazare), 8-273 (Adhikari), 9-273 (Rangnekar),
+     10-277 (Rangachari).
+
+Bowling                      O      M      R      W
+Lindwall                    16.5    4     38      7
+Miller                       9      3     13      1
+McCool                       4      0     26      0
+Johnson                     20      4     54      0
+Toshack                     25      8     73      1 (1nb)
+Barnes                      18      4     51      1
+
+<END>

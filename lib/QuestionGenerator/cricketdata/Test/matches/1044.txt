@@ -1,0 +1,108 @@
+
+Test # 1044
+The Wisden Trophy, 1985/86, 4th Test
+West Indies v England
+Queen's Park Oval, Port of Spain, Trinidad
+3,4,5 April 1986 (5-day match)
+
+Result: West Indies won by 10 wickets
+Series: West Indies leads the 5-match series 4-0
+
+Toss: West Indies
+Umpires: CE Cumberbatch and S Mohammed
+Player of the match: IVA Richards
+
+Close of play:
+ Day 1: England 200, West Indies 12/0 (Greenidge 4*, Haynes 8*)
+ Day 2: West Indies 271/7 (Harper 3*, Holding 15*)
+
+England 1st innings                                             R   M   B  4 6
+GA Gooch              c Richards         b Garner              14  75  52  2 0
+RT Robinson           c Marshall         b Garner               0  17   3  0 0
+*DI Gower             c Dujon            b Garner              10  41  27  1 0
+DM Smith              c Greenidge        b Patterson           47 120  79  8 0
+AJ Lamb                                  b Holding             36 125  66  6 0
+IT Botham                                b Holding             38 163  90  7 0
+P Willey              c Richardson       b Garner              10  63  44  1 0
++PR Downton           c Garner           b Marshall             7  33  26  0 0
+JE Emburey            c Haynes           b Marshall             8  23  17  1 0
+NA Foster             c Richards         b Holding              0  16   9  0 0
+JG Thomas             not out                                   5  13   6  1 0
+Extras                (lb 3, w 1, nb 21)                       25
+Total                 (all out, 65.4 overs)                   200
+
+FoW: 1-8 (Robinson), 2-29 (Gower), 3-31 (Gooch), 4-123 (Smith),
+     5-124 (Lamb), 6-151 (Willey), 7-168 (Downton),
+     8-181 (Emburey), 9-190 (Foster), 10-200 (Botham).
+
+Bowling                      O      M      R      W
+Marshall                    23      4     71      2
+Garner                      18      3     43      4
+Patterson                   10      2     31      1
+Holding                     14.4    3     52      3
+
+West Indies 1st innings                                         R   M   B  4 6
+CG Greenidge          lbw                b Emburey             42 105  67  8 0
+DL Haynes             c Botham           b Foster              25  82  55  5 0
+RB Richardson                            b Emburey             32  71  56  4 1
+HA Gomes              c Downton          b Foster              48 169 123  6 0
+*IVA Richards         lbw                b Botham              87 181 110 11 1
++PJL Dujon            c Downton          b Botham               5  42  25  0 0
+MD Marshall                              b Emburey              5  13   7  0 0
+RA Harper             lbw                b Botham              21  69  50  3 0
+MA Holding                               b Botham              25  54  34  3 1
+J Garner              not out                                   5  19  12  0 0
+BP Patterson          c Downton          b Botham               3   8   3  0 0
+Extras                (lb 10, w 3, nb 1)                       14
+Total                 (all out, 90.1 overs)                   312
+
+FoW: 1-58 (Haynes), 2-74 (Greenidge), 3-111 (Richardson),
+     4-213 (Gomes), 5-244 (Dujon), 6-249 (Marshall),
+     7-249 (Richards), 8-300 (Holding), 9-306 (Harper),
+     10-312 (Patterson).
+
+Bowling                      O      M      R      W
+Botham                      24.1    3     71      5
+Thomas                      15      0    101      0
+Foster                      24      3     68      2
+Emburey                     27     10     62      3
+
+England 2nd innings                                             R   M   B  4 6
+GA Gooch              c Dujon            b Marshall             0   5   3  0 0
+RT Robinson                              b Garner               5  48  34  0 0
+*DI Gower             lbw                b Patterson           22  44  28  5 0
+DM Smith              lbw                b Holding             32  82  48  5 0
+AJ Lamb                                  b Patterson           11  30  33  2 0
+IT Botham             c Gomes            b Marshall            25  59  32  2 0
+P Willey              lbw                b Marshall             2  19  13  0 0
++PR Downton           not out                                  11  58  40  1 0
+JE Emburey                               b Holding              0  16   6  0 0
+NA Foster                                b Garner              14  27  16  3 0
+JG Thomas                                b Garner               0   3   4  0 0
+Extras                (b 5, lb 7, nb 16)                       28
+Total                 (all out, 38 overs)                     150
+
+FoW: 1-0 (Gooch), 2-30 (Robinson), 3-30 (Gower), 4-75 (Lamb),
+     5-105 (Smith), 6-109 (Botham), 7-115 (Willey),
+     8-126 (Emburey), 9-150 (Foster), 10-150 (Thomas).
+
+Bowling                      O      M      R      W
+Marshall                    10      2     42      3
+Garner                       9      3     15      3
+Patterson                    9      1     36      2
+Holding                     10      1     45      2
+
+West Indies 2nd innings (target: 39 runs)                       R   M   B  4 6
+DL Haynes             not out                                  17  27  20  3 0
+RB Richardson         not out                                  22  27  15  5 0
+Extras                                                          0
+Total                 (0 wickets, 5.5 overs)                   39
+
+DNB: CG Greenidge, HA Gomes, *IVA Richards, +PJL Dujon,
+     MD Marshall, RA Harper, MA Holding, J Garner, BP Patterson.
+
+Bowling                      O      M      R      W
+Botham                       3      0     24      0
+Foster                       2.5    0     15      0
+
+<END>

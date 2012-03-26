@@ -1,0 +1,130 @@
+
+Test # 790
+Pakistan in Australia, 1976/77, 2nd Test
+Australia v Pakistan
+Melbourne Cricket Ground
+1,2,3,5,6 January 1977 (5-day match)
+
+Result: Australia won by 348 runs
+Series: Australia leads the 3-match series 1-0
+
+Toss: Australia
+Umpires: TF Brooks and MG O'Connell
+Balls per over: 8
+
+Close of play:
+ Day 1: Australia 322/4 (Chappell 80*, Cosier 50*)
+ Day 2: Australia 517/8d, Pakistan 186/1 (Sadiq Mohammad 78*, Zaheer Abbas 30*)
+ Day 3: Pakistan 333, Australia 122/1 (Davis 53*, McCosker 56*)
+ Day 4: Australia 315/8d, Pakistan 128/7 (Imran Khan 8*)
+
+Australia 1st innings                                           R   M   B  4 6
+IC Davis              c Imran Khan       b Asif Iqbal          56 134  97  5 0
+A Turner                                 b Asif Iqbal          82 165 118  9 0
+RB McCosker           lbw                b Asif Iqbal           0   1   1  0 0
+*GS Chappell          c Wasim Bari       b Iqbal Qasim        121 246 186  9 0
+KD Walters            st Wasim Bari      b Iqbal Qasim         42  76  78  1 0
+GJ Cosier             c Asif Masood      b Majid Khan         168 228 206 20 0
++RW Marsh             lbw                b Iqbal Qasim          2   2   2  0 0
+GJ Gilmour            st Wasim Bari      b Iqbal Qasim          0   1   2  0 0
+KJ O'Keeffe           not out                                  28  81  63  0 0
+Extras                (b 3, lb 7, w 1, nb 7)                   18
+Total                 (8 wickets dec, 92.6 overs)             517
+
+DNB: DK Lillee, MHN Walker.
+
+FoW: 1-134 (Davis), 2-134 (McCosker), 3-151 (Turner),
+     4-227 (Walters), 5-398 (Chappell), 6-400 (Marsh),
+     7-400 (Gilmour), 8-517 (Cosier).
+
+Bowling                      O      M      R      W
+Imran Khan                  22      0    115      0
+Saleem Altaf                17      2    117      0
+Asif Masood                 13      1     79      0
+Asif Iqbal                  16      3     52      3
+Javed Miandad                2      0     15      0
+Iqbal Qasim                 21      5    111      4
+Majid Khan                   1.6    0     10      1
+
+Pakistan 1st innings                                            R   M   B  4 6
+Majid Khan            c Marsh            b Lillee              76 133 111  8 0
+Sadiq Mohammad        c McCosker         b O'Keeffe           105 296 262 10 0
+Zaheer Abbas                             b Gilmour             90 231 144  8 0
+*Mushtaq Mohammad     lbw                b Lillee               9  40  51  0 0
+Javed Miandad         lbw                b Lillee               5  12   9  0 0
+Asif Iqbal            c sub (KJ Hughes)  b Gilmour             35  91  65  5 0
+Imran Khan            c Marsh            b Lillee               5  19  14  0 0
+Saleem Altaf          c Chappell         b Lillee               0  15   8  0 0
++Wasim Bari           lbw                b Lillee               0   1   1  0 0
+Iqbal Qasim           run out                                   1  39  16  0 0
+Asif Masood           not out                                   0   1   0  0 0
+Extras                (lb 2, nb 5)                              7
+Total                 (all out, 84.1 overs)                   333
+
+FoW: 1-113 (Majid Khan), 2-241 (Sadiq Mohammad),
+     3-270 (Mushtaq Mohammad), 4-285 (Javed Miandad),
+     5-292 (Zaheer Abbas), 6-303 (Imran Khan),
+     7-303 (Saleem Altaf), 8-303 (Wasim Bari),
+     9-332 (Iqbal Qasim), 10-333 (Asif Iqbal).
+
+Bowling                      O      M      R      W
+Lillee                      23      4     82      6
+Gilmour                     16.1    2     78      2
+Walker                      22      1     93      0
+O'Keeffe                    21      4     63      1
+Cosier                       2      0     10      0
+
+Australia 2nd innings                                           R   M   B  4 6
+IC Davis              c Asif Iqbal       b Iqbal Qasim         88 184 163  9 0
+A Turner              lbw                b Imran Khan           5  19  16  1 0
+RB McCosker           st Wasim Bari      b Iqbal Qasim        105 202 178 10 0
+*GS Chappell          c Majid Khan       b Imran Khan          67 111  78  6 0
+KD Walters                               b Imran Khan           0   6   3  0 0
+GJ Cosier                                b Imran Khan           8  19   3  0 0
++RW Marsh             st Wasim Bari      b Iqbal Qasim         13  38  42  0 0
+GJ Gilmour            not out                                   7  16   9  0 0
+DK Lillee                                b Imran Khan           6  12  12  1 0
+Extras                (b 2, lb 11, nb 3)                       16
+Total                 (8 wickets dec, 61.5 overs)             315
+
+DNB: KJ O'Keeffe, MHN Walker.
+
+FoW: 1-6 (Turner), 2-182 (Davis), 3-223 (McCosker),
+     4-226 (Walters), 5-244 (Cosier), 6-301 (Marsh),
+     7-301 (Chappell), 8-315 (Lillee).
+
+Bowling                      O      M      R      W
+Imran Khan                  25.5    2    122      5
+Saleem Altaf                 6      1     28      0
+Iqbal Qasim                 25      2    119      3
+Majid Khan                   2      0     12      0
+Mushtaq Mohammad             3      0     18      0
+
+Pakistan 2nd innings (target: 500 runs)                         R   M   B  4 6
+Majid Khan                               b Lillee              35 120 111  5 0
+Sadiq Mohammad        c Walters          b Gilmour              0   7   1  0 0
+Zaheer Abbas          lbw                b Walker              58  88  74  7 0
+*Mushtaq Mohammad     c Chappell         b Lillee               4  35  26  0 0
+Javed Miandad         c Turner           b O'Keeffe            10  40  29  0 0
+Asif Iqbal            lbw                b Lillee               6  21  28  0 0
+Imran Khan                           c & b O'Keeffe            28  48  52  4 0
+Saleem Altaf                             b O'Keeffe             0   8  11  0 0
++Wasim Bari           c Walker           b O'Keeffe             2   8   3  0 0
+Iqbal Qasim           c Marsh            b Lillee               1  13  12  0 0
+Asif Masood           not out                                   0   9   6  0 0
+Extras                (b 1, lb 6)                               7
+Total                 (all out, 44.1 overs)                   151
+
+FoW: 1-4 (Sadiq Mohammad), 2-86 (Zaheer Abbas),
+     3-99 (Majid Khan), 4-104 (Mushtaq Mohammad),
+     5-120 (Asif Iqbal), 6-124 (Javed Miandad),
+     7-128 (Saleem Altaf), 8-136 (Wasim Bari),
+     9-145 (Iqbal Qasim), 10-151 (Imran Khan).
+
+Bowling                      O      M      R      W
+Lillee                      14      1     53      4
+Gilmour                      3      0     19      1
+Walker                       9      2     34      1
+O'Keeffe                    18.1    5     38      4
+
+<END>

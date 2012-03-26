@@ -90,19 +90,19 @@ module Chapter2
           @nums << sums[i]
         end
       end
-       
+
       @nums.shuffle!
     end
 
     # produces a hash where the possible answers point to their group numbers (see init_nums)
     def solve
-        ans = {}
-        @nums.each_with_index do |n, i|
-          if n.is_a? Array
-            ans[n[0]] = n[1]
-          end
+      ans = {}
+      @nums.each_with_index do |n, i|
+        if n.is_a? Array
+          ans[n[0]] = n[1]
         end
-        ans
+      end
+      ans
     end
 
     def num_array
@@ -123,7 +123,7 @@ module Chapter2
       return false unless ans.is_a?(Array) && ans.length == 2
       soln = solve
       soln[ans[0]] == soln[ans[1]]
-      
+
     end
 
     def ans_format
@@ -177,8 +177,101 @@ module Chapter2
     end
   end
 
+  class AddLargeNumbers
+    def initialize
+      @num1=rand(100000)+10000
+      @num2=rand(100000)+10000
+    end
+    def solve
+      return {"ans" => (@num1+@num2).to_s}
+    end
+    def explain
+      st1=@num1.to_s
+      st2=@num2.to_s
+      len1=st1.length
+      len2=st2.length 
+      if @num2 < @num1
+        slen=len2
+        blen=len1
+      else 
+        slen=len1
+        blen=len2
+      end
+      st=(@num1+@num2).to_s
+      ret=[]
+      for i in 0...slen
+        tab=TableField.new("tab_#{st.length-i-1}", 5, blen+2)
+        for j in 0...len1
+          tab.set_field(1, blen+1-j, st1[len1-1-j])
+        end
+        for j in 0...len2
+          tab.set_field(2, blen+1-j, st2[len2-1-j])
+        end
+        for j in 0...blen+2
+          tab.set_field(3, j, "_")
+        end
+        for j in 0...i
+          tab.set_field(4, blen+1-j, st[st.length-1-j])
+        end
+        if i > 0
+          puts ((st1[len1-i].to_i+st2[len2-i].to_i)/10).to_s
+          tab.set_field(0, blen+1-i, ((st1[len1-i].to_i+st2[len2-i].to_i)/10).to_s)
+        end 
+        tab.set_field(4, blen+1-i, TextField.new("sum_#{st.length-i-1}"))
+        tab.set_field(0, blen-i, TextField.new("rem_#{st.length-i-1}"))
+        tab.set_field(2, 0, "+")
+        puts tab
+        ret << Subproblem.new([tab], {"sum_#{st.length-1-i}" => st[st.length-i-1], "rem_#{st.length-1-i}" => ((st1[len1-1-i].to_i+st2[len2-1-i].to_i)/10).to_s})
+      end
+      for i in slen...blen
+        tab=TableField.new("tab_#{st.length-i-1}", 5, blen+2)
+        for j in 0...len1
+          tab.set_field(1, blen+1-j, st1[len1-1-j])
+        end
+        for j in 0...len2
+          tab.set_field(2, blen+1-j, st2[len2-1-j])
+        end
+        for j in 0...blen+2
+          tab.set_field(3, j, "_")
+        end
+        for j in 0...i
+          tab.set_field(4, blen+1-j, st[st.length-1-j])
+        end
+        if i == slen
+          tab.set_field(0, blen+1-i, ((st1[len1-i].to_i+st2[len2-i].to_i) % 10).to_s)
+        end 
+        tab.set_field(4, blen+1-i, TextField.new("sum_#{st.length-i-1}"))
+        tab.set_field(2, 0, "+")
+        ret << Subproblem.new([tab], {"sum_#{st.length-1-i}" => st[st.length-i-1]})
+      end
+      if st.length > blen
+       tab=TableField.new("tab_#{0}", 5, blen+2)
+        for j in 0...len1
+          tab.set_field(1, blen+1-j, st1[len1-1-j])
+        end
+        for j in 0...len2
+          tab.set_field(2, blen+1-j, st2[len2-1-j])
+        end
+        for j in 0...blen+2
+          tab.set_field(3, j, "_")
+        end
+        for j in 0...st.length-1
+          tab.set_field(4, blen+1-j, st[st.length-1-j])
+        end
+        tab.set_field(0, blen-st.length+2, st[0])
+        tab.set_field(4, blen+2-st.length, TextField.new("sum_#{0}"))
+        tab.set_field(2, 0, "+")
+        ret << Subproblem.new([tab], {"sum_#{0}" => st[0]}) 
+      end
+      ret
+    end
+    def text
+      [TextLabel.new("Add #{@num1} and #{@num2}"), TextField.new("ans", "Sum")]
+    end
+  end
+
   PROBLEMS = [  Chapter2::WriteSuccessors,            Chapter2::WritePredecessors,
-                Chapter2::SuitableRearrangementSum,    Chapter2::SuitableRearrangementProduct 
-             ]
+    Chapter2::SuitableRearrangementSum,    Chapter2::SuitableRearrangementProduct 
+  ]
 
 end

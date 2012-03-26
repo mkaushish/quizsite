@@ -1,0 +1,94 @@
+
+Test # 84
+The Ashes, 1905, 2nd Test
+England v Australia
+Lord's, London
+15,16,17 June 1905 (3-day match)
+
+Result: Match drawn
+Series: England leads the 5-match series 1-0
+
+Toss: England
+Umpires: J Phillips (Aus) and W Richards
+
+Close of play:
+ Day 1: England 258/8 (Lilley 0*)
+ Day 2: England 282, Australia 181, England 151/5 (Fry 36*, Bosanquet 4*, 50 ov)
+ Day 3: No play
+
+England 1st innings                                             R   M   B  4 6
+AC MacLaren                              b Hopkins             56 145      8 0
+TW Hayward            lbw                b Duff                16            0
+JT Tyldesley          c Laver            b Armstrong           43            0
+CB Fry                c Kelly            b Hopkins             73 205      7 0
+*Hon.FS Jackson       c Armstrong        b Laver               29  90        0
+AO Jones                                 b Laver                1          0 0
+BJT Bosanquet                        c & b Armstrong            6            0
+W Rhodes                                 b Hopkins             15            0
++AFA Lilley           lbw                b McLeod               0          0 0
+S Haigh                                  b Laver               14            0
+EG Arnold             not out                                   7            0
+Extras                (b 20, lb 2)                             22
+Total                 (all out, 140 overs)                    282
+
+FoW: 1-59 (Hayward), 2-97 (MacLaren), 3-149 (Tyldesley),
+     4-208 (Jackson), 5-210 (Jones), 6-227 (Bosanquet),
+     7-257 (Fry), 8-258 (Rhodes), 9-258 (Lilley), 10-282 (Haigh).
+
+Bowling                      O      M      R      W
+McLeod                      20      7     40      1
+Laver                       34      8     64      3
+Armstrong                   30     11     41      2
+Noble                       34     13     61      0
+Duff                         7      4     14      1
+Hopkins                     15      4     40      3
+
+Australia 1st innings                                           R   M   B  4 6
+VT Trumper                               b Jackson             31  35        0
+RA Duff               c Lilley           b Rhodes              27            0
+C Hill                c Bosanquet        b Jackson              7            0
+MA Noble              c Fry              b Jackson              7            0
+WW Armstrong          lbw                b Jackson             33            0
+*J Darling            c Haigh            b Arnold              41            0
+SE Gregory            c Jones            b Rhodes               5            0
+AJY Hopkins                              b Haigh               16            0
+CE McLeod                                b Haigh                0          0 0
+FJ Laver              not out                                   4            0
++JJ Kelly             lbw                b Rhodes               2          0 0
+Extras                (b 3, lb 5)                               8
+Total                 (all out, 50.1 overs)                   181
+
+FoW: 1-57 (Trumper), 2-73 (Hill), 3-73 (Duff), 4-95 (Noble),
+     5-131 (Armstrong), 6-138 (Gregory), 7-171 (Hopkins),
+     8-175 (Darling), 9-175 (McLeod), 10-181 (Kelly).
+
+Bowling                      O      M      R      W
+Haigh                       12      3     40      2
+Rhodes                      16.1    1     70      3
+Jackson                     15      0     50      4
+Arnold                       7      3     13      1
+
+England 2nd innings                                             R   M   B  4 6
+AC MacLaren                              b Armstrong           79 125     13 0
+TW Hayward            c Laver            b McLeod               8            0
+JT Tyldesley                             b Noble               12            0
+CB Fry                not out                                  36            0
+*Hon.FS Jackson                          b Armstrong            0       1  0 0
+AO Jones              c Trumper          b Armstrong            5            0
+BJT Bosanquet         not out                                   4            0
+Extras                (b 2, lb 4, nb 1)                         7
+Total                 (5 wickets, 50 overs)                   151
+
+DNB: W Rhodes, +AFA Lilley, S Haigh, EG Arnold.
+
+FoW: 1-18 (Hayward), 2-63 (Tyldesley), 3-136 (MacLaren),
+     4-136 (Jackson), 5-146 (Jones).
+
+Bowling                      O      M      R      W
+McLeod                      15      5     33      1
+Laver                       10      4     39      0
+Armstrong                   10      2     30      3
+Noble                       13      2     31      1
+Hopkins                      2      0     11      0
+
+<END>

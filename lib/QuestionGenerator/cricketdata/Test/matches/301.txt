@@ -1,0 +1,118 @@
+
+Test # 301
+The Ashes, 1948, 3rd Test
+England v Australia
+Old Trafford, Manchester
+8,9,10,12,13 July 1948 (5-day match)
+
+Result: Match drawn
+Series: Australia leads the 5-match series 2-0
+
+Toss: England
+Umpires: F Chester and D Davies
+Test debuts: JF Crapp, GM Emmett (England).
+
+Close of play:
+ Day 1: England 231/7 (Compton 64*, Bedser 4*)
+ Day 2: England 363, Australia 126/3 (Morris 48*, Miller 23*)
+ Day 3: Australia 221, England 174/3 (Washbrook 85*, Crapp 19*)
+ Day 4: No play
+
+England 1st innings                                             R   M   B  4 6
+C Washbrook                              b Johnston            11  30      1 0
+GM Emmett             c Barnes           b Lindwall            10  47      0 0
+WJ Edrich             c Tallon           b Lindwall            32 170      5 0
+DCS Compton           not out                                 145 324     16 0
+JF Crapp              lbw                b Lindwall            37 115      4 1
+HE Dollery                               b Johnston             1   5      0 0
+*NWD Yardley          c Johnson          b Toshack             22  83      3 0
++TG Evans             c Johnston         b Lindwall            34  76      4 0
+AV Bedser             run out                                  37 145      7 0
+R Pollard                                b Toshack              3  26      0 0
+JA Young              c Bradman          b Johnston             4  10      0 0
+Extras                (b 7, lb 17, nb 3)                       27
+Total                 (all out, 171.5 overs)                  363
+
+FoW: 1-22 (Washbrook), 2-28 (Emmett), 3-96 (Crapp),
+     4-97 (Dollery), 5-119 (Edrich), 6-141 (Yardley),
+     7-216 (Evans), 8-337 (Bedser), 9-352 (Pollard),
+     10-363 (Young).
+
+Bowling                      O      M      R      W
+Lindwall                    40      8     99      4
+Johnston                    45.5   13     67      3
+Loxton                       7      0     18      0
+Toshack                     41     20     75      2
+Johnson                     38     16     77      0
+
+Australia 1st innings                                           R   M   B  4 6
+AR Morris             c Compton          b Bedser              51 218      6 0
+IWG Johnson           c Evans            b Bedser               1   7      0 0
+*DG Bradman           lbw                b Pollard              7   9   7  1 0
+AL Hassett            c Washbrook        b Young               38 101      5 0
+KR Miller             lbw                b Pollard             31  75      4 0
+SG Barnes             retired hurt                              1  25      0 0
+SJE Loxton                               b Pollard             36  77      6 0
++D Tallon             c Evans            b Edrich              18  30      1 0
+RR Lindwall           c Washbrook        b Bedser              23 106      3 0
+WA Johnston           c Crapp            b Bedser               3  13      0 0
+ERH Toshack           not out                                   0   1      0 0
+Extras                (b 5, lb 4, nb 3)                        12
+Total                 (all out, 93 overs)                     221
+
+FoW: 1-3 (Johnson), 2-13 (Bradman), 3-82 (Hassett),
+     4-135 (Miller), 5-139 (Morris), 6-172 (Tallon),
+     7-208 (Loxton), 8-219 (Johnston), 9-221 (Lindwall).
+
+Bowling                      O      M      R      W
+Bedser                      36     12     81      4
+Pollard                     32      9     53      3
+Edrich                       7      3     27      1
+Yardley                      4      0     12      0
+Young                       14      5     36      1
+
+England 2nd innings                                             R   M   B  4 6
+C Washbrook           not out                                  85 208     11 0
+GM Emmett             c Tallon           b Lindwall             0   3      0 0
+WJ Edrich             run out                                  53 138      8 1
+DCS Compton           c Miller           b Toshack              0   6      0 0
+JF Crapp              not out                                  19  55      2 0
+Extras                (b 9, lb 7, w 1)                         17
+Total                 (3 wickets dec, 69 overs)               174
+
+DNB: HE Dollery, *NWD Yardley, +TG Evans, AV Bedser, R Pollard,
+     JA Young.
+
+FoW: 1-1 (Emmett), 2-125 (Edrich), 3-129 (Compton).
+
+Bowling                      O      M      R      W
+Lindwall                    14      4     37      1
+Johnston                    14      3     34      0
+Loxton                       8      2     29      0
+Toshack                     12      5     26      1
+Johnson                      7      3     16      0
+Miller                      14      7     15      0
+
+Australia 2nd innings (target: 317 runs)                        R   M   B  4 6
+AR Morris             not out                                  54 156      9 0
+IWG Johnson           c Crapp            b Young                6  32      1 0
+*DG Bradman           not out                                  30 122 146  6 0
+Extras                (nb 2)                                    2
+Total                 (1 wicket, 61 overs)                     92
+
+DNB: AL Hassett, KR Miller, SG Barnes, SJE Loxton, +D Tallon,
+     RR Lindwall, WA Johnston, ERH Toshack.
+
+FoW: 1-10 (Johnson).
+
+Bowling                      O      M      R      W
+Bedser                      19     12     27      0
+Pollard                     10      8      6      0
+Edrich                       2      0      8      0
+Young                       21     12     31      1
+Compton                      9      3     18      0
+
+*** SG Barnes retired hurt at 139/5
+*** DCS Compton (1) retired hurt on 4* from 33/2 to 119/5
+
+<END>

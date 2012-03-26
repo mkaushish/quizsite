@@ -1,0 +1,75 @@
+
+Test # 1075
+Pakistan in England, 1987, 1st Test
+England v Pakistan
+Old Trafford, Manchester
+4,5,6,8,9 June 1987 (5-day match)
+
+Result: Match drawn
+Series: 5-match series level 0-0
+
+Toss: Pakistan
+Umpires: HD Bird and BJ Meyer
+Test debut: NH Fairbrother (England).
+Player of the match: RT Robinson
+
+Close of play:
+ Day 1: England 145/3 (Robinson 62*, French 6*)
+ Day 2: England 402/7 (Emburey 14*, DeFreitas 5*)
+ Day 3: England 447, Pakistan 93/3 (Mansoor Akhtar 42*, Saleem Malik 3*)
+ Day 4: Pakistan 140/5 (Imran Khan 10*, Mudassar Nazar 0*, 64 ov)
+ Day 5: No play
+
+England 1st innings                                             R   M   B  4 6
+CWJ Athey                                b Wasim Akram         19 105  93  1 0
+RT Robinson           c Saleem Yousuf    b Mohsin Kamal       166 528 365 16 0
+*MW Gatting                              b Mohsin Kamal        42 104  84  7 0
+NH Fairbrother        lbw                b Mohsin Kamal         0   3   4  0 0
++BN French            c Imran Khan       b Wasim Akram         59 154 113 10 0
+DI Gower              c Saleem Yousuf    b Wasim Akram         22  48  42  4 0
+IT Botham             c Wasim Akram      b Tauseef Ahmed       48 129  69  5 1
+JE Emburey            c Shoaib Mohammad  b Mohsin Kamal        19  47  31  4 0
+PAJ DeFreitas                            b Wasim Akram         11  19  19  2 0
+NA Foster                                b Tauseef Ahmed        8  36  20  0 0
+PH Edmonds            not out                                  23  32  30  2 1
+Extras                (b 9, lb 15, w 1, nb 5)                  30
+Total                 (all out, 143.4 overs)                  447
+
+FoW: 1-50 (Athey), 2-133 (Gatting), 3-133 (Fairbrother),
+     4-246 (French), 5-284 (Gower), 6-373 (Robinson),
+     7-397 (Botham), 8-413 (DeFreitas), 9-413 (Emburey),
+     10-447 (Foster).
+
+Bowling                      O      M      R      W
+Wasim Akram                 46     11    111      4
+Mohsin Kamal                39      4    127      4
+Tauseef Ahmed               21.4    4     52      2
+Mudassar Nazar              37      8    133      0
+
+Pakistan 1st innings                                            R   M   B  4 6
+Rameez Raja           c Emburey          b DeFreitas           15  40  29  1 0
+Shoaib Mohammad       c French           b Foster               0  16   7  0 0
+Mansoor Akhtar        c Fairbrother      b Edmonds             75 199 182 12 0
+Javed Miandad         c French           b Botham              21  80  65  2 0
+Saleem Malik          run out                                   6  26  21  0 0
+*Imran Khan           not out                                  10  71  73  0 0
+Mudassar Nazar        not out                                   0   4   9  0 0
+Extras                (b 9, lb 2, w 1, nb 1)                   13
+Total                 (5 wickets, 64 overs)                   140
+
+DNB: +Saleem Yousuf, Wasim Akram, Tauseef Ahmed, Mohsin Kamal.
+
+FoW: 1-9 (Shoaib Mohammad), 2-21 (Rameez Raja),
+     3-74 (Javed Miandad), 4-100 (Saleem Malik),
+     5-139 (Mansoor Akhtar).
+
+Bowling                      O      M      R      W
+Foster                      15      3     34      1
+DeFreitas                   12      4     36      1
+Botham                      14      7     29      1
+Emburey                     16      3     28      0
+Edmonds                      7      5      2      1
+
+*** Attendance: 31 823
+
+<END>

@@ -1,0 +1,120 @@
+
+Test # 199
+West Indies in Australia, 1930/31, 1st Test
+Australia v West Indies
+Adelaide Oval
+12,13,15,16 December 1930 (timeless match)
+
+Result: Australia won by 10 wickets
+Series: Australia leads the 5-match series 1-0
+
+Toss: West Indies
+Umpires: GA Hele and AG Jenkins
+Test debuts: A Hurwood (Australia); LS Birkett, GC Grant (West Indies).
+
+Close of play:
+ Day 1: West Indies 286/7 (Grant 49*, Francis 3*)
+ Day 2: West Indies 296, Australia 297/5 (Kippax 118*, Fairfax 7*)
+ Day 3: Australia 376, West Indies 203/7 (Grant 50*)
+
+West Indies 1st innings                                         R   M   B  4 6
+CA Roach              st Oldfield        b Hurwood             56 130      2 1
+LS Birkett                           c & b Grimmett            27  47        0
+GA Headley            c Wall             b Grimmett             0   2   1  0 0
+FR Martin                                b Grimmett            39  88      6 0
+LN Constantine        c Wall             b Grimmett             1   3      0 0
+*GC Grant             not out                                  53 188        0
+EL Bartlett           lbw                b Grimmett            84 119      7 0
++IM Barrow            c Bradman          b Grimmett            12  28        0
+GN Francis            lbw                b Hurwood              5  20        0
+OC Scott              c Fairfax          b Grimmett             3   5      0 0
+HC Griffith                              b Hurwood              1   2      0 0
+Extras                (b 6, lb 8, nb 1)                        15
+Total                 (all out, 127.1 overs)                  296
+
+FoW: 1-58 (Birkett), 2-58 (Headley), 3-118 (Roach),
+     4-123 (Constantine), 5-131 (Martin), 6-245 (Bartlett),
+     7-269 (Barrow), 8-290 (Francis), 9-295 (Scott),
+     10-296 (Griffith).
+
+Bowling                      O      M      R      W
+Wall                        16      0     64      0
+Fairfax                     11      1     36      0
+Grimmett                    48     19     87      7
+Hurwood                     36.1   14     55      3
+McCabe                      12      3     32      0
+Bradman                      4      0      7      0
+
+Australia 1st innings                                           R   M   B  4 6
+WH Ponsford           c Birkett          b Francis             24  65        0
+A Jackson             c Barrow           b Francis             31  60        0
+DG Bradman            c Grant            b Griffith             4  15      0 0
+AF Kippax             c Barrow           b Griffith           146 229     18 0
+SJ McCabe                            c & b Constantine         90 132      9 0
+*WM Woodfull          run out                                   6  25        0
+AG Fairfax            not out                                  41 108      3 1
++WAS Oldfield         c Francis          b Scott               15  40        0
+CV Grimmett           c Barrow           b Scott                0   1   1  0 0
+A Hurwood             c Martin           b Scott                0   2      0 0
+TW Wall               lbw                b Scott                0   2      0 0
+Extras                (b 2, lb 10, nb 7)                       19
+Total                 (all out, 117.5 overs)                  376
+
+FoW: 1-56 (Jackson), 2-59 (Ponsford), 3-64 (Bradman),
+     4-246 (McCabe), 5-269 (Woodfull), 6-341 (Kippax),
+     7-374 (Oldfield), 8-374 (Grimmett), 9-374 (Hurwood),
+     10-376 (Wall).
+
+Bowling                      O      M      R      W
+Francis                     18      7     43      2
+Constantine                 22      0     89      1
+Griffith                    28      4     69      2
+Martin                      29      3     73      0
+Scott                       20.5    2     83      4
+
+West Indies 2nd innings                                         R   M   B  4 6
+CA Roach                                 b Hurwood              9            0
+LS Birkett            st Oldfield        b Grimmett            64 104      5 0
+GA Headley            st Oldfield        b Grimmett            11            0
+FR Martin             run out                                   3          0 0
+LN Constantine                           b Grimmett            14          2 0
+*GC Grant             not out                                  71 160      6 0
+EL Bartlett           c Grimmett         b Hurwood             11            0
++IM Barrow            lbw                b Bradman             27  75        0
+GN Francis                               b Hurwood              3          0 0
+OC Scott              c Kippax           b Hurwood              8            0
+HC Griffith           st Oldfield        b Grimmett            10            0
+Extras                (b 16, lb 2)                             18
+Total                 (all out, 98 overs)                     249
+
+FoW: 1-15 (Roach), 2-47 (Headley), 3-52 (Martin),
+     4-74 (Constantine), 5-115 (Birkett), 6-138 (Bartlett),
+     7-203 (Barrow), 8-208 (Francis), 9-220 (Scott),
+     10-249 (Griffith).
+
+Bowling                      O      M      R      W
+Wall                        10      1     20      0
+Fairfax                      3      2      6      0
+Grimmett                    38      7     96      4
+Hurwood                     34     11     86      4
+McCabe                       8      2     15      0
+Bradman                      5      1      8      1
+
+Australia 2nd innings (target: 170 runs)                        R   M   B  4 6
+WH Ponsford           not out                                  92 148      5 0
+A Jackson             not out                                  70 148      3 0
+Extras                (b 8, w 1, nb 1)                         10
+Total                 (0 wickets, 55.3 overs)                 172
+
+DNB: DG Bradman, AF Kippax, SJ McCabe, *WM Woodfull, AG Fairfax,
+     +WAS Oldfield, CV Grimmett, A Hurwood, TW Wall.
+
+Bowling                      O      M      R      W
+Francis                     10      1     30      0
+Constantine                  9.3    3     27      0
+Griffith                    10      1     20      0
+Martin                      11      0     28      0
+Scott                       13      0     55      0
+Birkett                      2      0      2      0
+
+<END>

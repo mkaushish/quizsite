@@ -1,0 +1,120 @@
+
+Test # 319
+Australia in South Africa, 1949/50, 2nd Test
+South Africa v Australia
+Newlands, Cape Town
+31 December 1949, 2,3,4 January 1950 (4-day match)
+
+Result: Australia won by 8 wickets
+Series: Australia leads the 5-match series 2-0
+
+Toss: Australia
+Umpires: RGA Ashman and DV Collins
+Balls per over: 8
+
+Close of play:
+ Day 1: Australia 312/4 (Harvey 55*, Loxton 7*)
+ Day 2: Australia 526/7d, South Africa 169/3 (Nourse 43*, Wade 4*)
+ Day 3: South Africa 278, South Africa 120/4 (Nourse 55*, Cheetham 16*)
+
+Australia 1st innings                                           R   M   B  4 6
+AR Morris             c Watkins          b Tayfield            42            0
+J Moroney             c Cheetham         b Mann                87            0
+KR Miller                                b Watkins             58            0
+*AL Hassett                          c & b Mann                57            0
+RN Harvey             c Wade             b Mann               178 240     16 0
+SJE Loxton                               b Tayfield            35            0
+CL McCool             not out                                  49            0
+IWG Johnson           c Watkins          b Mann                 0          0 0
+RR Lindwall           not out                                   8            1
+Extras                (b 8, lb 4)                              12
+Total                 (7 wickets dec, 126 overs)              526
+
+DNB: +RA Saggers, WA Johnston.
+
+FoW: 1-68 (Morris), 2-172 (Moroney), 3-215 (Miller),
+     4-276 (Hassett), 5-416 (Loxton), 6-502 (Harvey),
+     7-502 (Johnson).
+
+Bowling                      O      M      R      W
+McCarthy                    24      2     98      0
+Watkins                     12      2     59      1
+Mann                        28      3    105      4
+Tayfield                    37      4    141      2
+Smith                       25      0    111      0
+
+South Africa 1st innings                                        R   M   B  4 6
+EAB Rowan             lbw                b McCool              67            0
+OE Wynne              c Johnson          b Miller              13            0
+JD Nel                lbw                b Johnson             38            0
+*AD Nourse            c Johnston         b Miller              65            0
++WW Wade              c Saggers          b Loxton               4            0
+JE Cheetham           c McCool           b Miller               3          0 0
+JC Watkins            st Saggers         b McCool              35            0
+HJ Tayfield           st Saggers         b McCool              15            0
+NBF Mann                                 b McCool              16            1
+VI Smith              not out                                  11            0
+CN McCarthy           st Saggers         b McCool               0          0 0
+Extras                (b 2, lb 8, w 1)                         11
+Total                 (all out, 75.4 overs)                   278
+
+FoW: 1-33 (Wynne), 2-92 (Rowan), 3-154 (Nel), 4-169 (Wade),
+     5-194 (Cheetham), 6-203 (Nourse), 7-241 (Tayfield),
+     8-250 (Watkins), 9-278 (Mann), 10-278 (McCarthy).
+
+Bowling                      O      M      R      W
+Lindwall                    12      2     33      0
+Johnston                    17      3     53      0
+Johnson                     12      1     61      1
+Miller                      17      3     54      3
+McCool                      11.4    1     41      5
+Loxton                       6      0     25      1
+
+South Africa 2nd innings (following on)                         R   M   B  4 6
+EAB Rowan             c Harvey           b Johnston             3          0 0
+OE Wynne              c Saggers          b Johnston            10            0
+JD Nel                c McCool           b Johnson             19            0
+*AD Nourse            lbw                b McCool             114 270        0
++WW Wade                                 b Johnston            11            0
+JE Cheetham           c Saggers          b Lindwall            27            0
+JC Watkins            c Saggers          b Lindwall             9            0
+HJ Tayfield                              b Lindwall            75 158        0
+NBF Mann                                 b Lindwall            46            0
+VI Smith              lbw                b Lindwall             4            0
+CN McCarthy           not out                                   0          0 0
+Extras                (b 3, lb 10, nb 2)                       15
+Total                 (all out, 102.4 overs)                  333
+
+FoW: 1-5 (Rowan), 2-16 (Wynne), 3-61 (Nel), 4-80 (Wade),
+     5-141 (Cheetham), 6-159 (Watkins), 7-225 (Nourse),
+     8-327 (Mann), 9-332 (Tayfield), 10-333 (Smith).
+
+Bowling                      O      M      R      W
+Lindwall                    15.4    2     32      5
+Johnston                    24      2     70      3
+Johnson                     24      5     91      1
+Miller                      11      0     43      0
+McCool                      21      3     71      1
+Loxton                       4      1      6      0
+Harvey                       3      1      5      0
+
+Australia 2nd innings (target: 86 runs)                         R   M   B  4 6
+AR Morris                            c & b Mann                24            0
+J Moroney             lbw                b Mann                19            0
+RN Harvey             not out                                  23            0
+KR Miller             not out                                  16            0
+Extras                (b 5)                                     5
+Total                 (2 wickets, 20 overs)                    87
+
+DNB: *AL Hassett, SJE Loxton, CL McCool, IWG Johnson,
+     RR Lindwall, +RA Saggers, WA Johnston.
+
+FoW: 1-37 (Morris), 2-44 (Moroney).
+
+Bowling                      O      M      R      W
+McCarthy                     4      1     18      0
+Watkins                      2      0     10      0
+Mann                         8      1     23      2
+Tayfield                     6      1     31      0
+
+<END>

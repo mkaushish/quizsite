@@ -1,0 +1,102 @@
+
+Test # 733
+Australia in New Zealand, 1973/74, 1st Test
+New Zealand v Australia
+Basin Reserve, Wellington
+1,2,3,5,6 March 1974 (5-day match)
+
+Result: Match drawn
+Series: 3-match series level 0-0
+
+Toss: Australia
+Umpires: DEA Copps and FR Goodall
+Balls per over: 8
+
+Close of play:
+ Day 1: Australia 372/4 (GS Chappell 162*, Walters 6*)
+ Day 2: Australia 511/6d, New Zealand 161/2 (Morrison 62*, Congdon 7*)
+ Day 3: New Zealand 364/3 (Congdon 108*, Hastings 86*)
+ Day 4: New Zealand 484, Australia 86/1 (Redpath 35*, IM Chappell 12*)
+
+Australia 1st innings                                           R   M   B  4 6
+KR Stackpole                             b Webb                10  13  13  1 0
+IR Redpath            c Coney            b Hadlee              19  74  61  2 0
+*IM Chappell          c Wadsworth        b Webb               145 283 268 17 1
+GS Chappell           not out                                 247 410 356 30 1
+IC Davis              c Wadsworth        b Hadlee              16  48  35  1 0
+KD Walters            c Howarth          b Collinge            32  66  61  5 0
++RW Marsh             lbw                b Congdon             22  60  74  3 0
+Extras                (b 1, lb 4, nb 15)                       20
+Total                 (6 wickets dec, 105.5 overs)            511
+
+DNB: KJ O'Keeffe, MHN Walker, AA Mallett, G Dymock.
+
+FoW: 1-13 (Stackpole), 2-55 (Redpath), 3-319 (IM Chappell),
+     4-359 (Davis), 5-431 (Walters), 6-511 (Marsh).
+
+Bowling                      O      M      R      W
+Webb                        21      1    114      2
+Collinge                    24      3    103      1
+Hadlee                      27      7    107      2
+Howarth                     21      0    113      0
+Congdon                     12.5    0     54      1
+
+New Zealand 1st innings                                         R   M   B  4 6
+GM Turner             c Redpath          b O'Keeffe            79 185 178 11 0
+JM Parker             lbw                b Walker              10  40  33  1 0
+JFM Morrison                             b Walker              66 198 202  7 0
+*BE Congdon           c Davis            b Mallett            132 390 360 14 0
+BF Hastings           c IM Chappell      b Dymock             101 281 274  8 0
+JV Coney              c GS Chappell      b Walker              13  69  76  2 0
++KJ Wadsworth                            b Dymock               5  34  27  0 0
+DR Hadlee             c Davis            b O'Keeffe             9  50  56  0 0
+RO Collinge           run out                                   2  21  14  0 0
+HJ Howarth            not out                                  29  93 102  3 0
+MG Webb               c O'Keeffe         b Dymock              12  68  41  0 0
+Extras                (b 10, lb 5, nb 11)                      26
+Total                 (all out, 169 overs)                    484
+
+FoW: 1-28 (Parker), 2-136 (Turner), 3-169 (Morrison),
+     4-398 (Hastings), 5-409 (Congdon), 6-423 (Coney),
+     7-423 (Wadsworth), 8-430 (Collinge), 9-437 (Hadlee),
+     10-484 (Webb).
+
+Bowling                      O      M      R      W
+Walker                      41     11    107      3
+Dymock                      35      7     77      3
+Walters                      8      1     39      0
+Mallett                     41      8    117      1
+O'Keeffe                    33      9     83      2
+GS Chappell                  7      0     27      0
+IM Chappell                  4      0      8      0
+
+Australia 2nd innings                                           R   M   B  4 6
+KR Stackpole                             b Collinge            27  75  59  3 0
+IR Redpath            c Howarth          b Congdon             93 237 206 11 0
+*IM Chappell          c Hadlee           b Howarth            121 199 218 13 1
+GS Chappell           c Wadsworth        b Collinge           133 186 175 18 0
+IC Davis              c Wadsworth        b Howarth              8  20  21  0 0
+KD Walters            c Morrison         b Hadlee               8  50  38  1 0
++RW Marsh             c Collinge         b Congdon             17  44  33  4 0
+KJ O'Keeffe           c Howarth          b Congdon              2  25  25  0 0
+MHN Walker            not out                                  22  28  29  4 0
+AA Mallett            not out                                   4  25  23  0 0
+Extras                (b 4, lb 4, w 1, nb 16)                  25
+Total                 (8 wickets, 101 overs)                  460
+
+DNB: G Dymock.
+
+FoW: 1-67 (Stackpole), 2-208 (Redpath), 3-294 (IM Chappell),
+     4-318 (Davis), 5-359 (Walters), 6-414 (Marsh),
+     7-433 (GS Chappell), 8-433 (O'Keeffe).
+
+Bowling                      O      M      R      W
+Webb                        19      0     93      0
+Collinge                    19      3     60      2
+Hadlee                      21      2    106      1
+Howarth                     25      3     97      2
+Congdon                     13      1     60      3
+Coney                        2      0     13      0
+Hastings                     2      0      6      0
+
+<END>

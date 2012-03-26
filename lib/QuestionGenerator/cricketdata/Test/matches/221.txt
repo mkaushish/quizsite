@@ -1,0 +1,125 @@
+
+Test # 221
+The Ashes, 1932/33, 2nd Test
+Australia v England
+Melbourne Cricket Ground
+30,31 December 1932, 2,3 January 1933 (timeless match)
+
+Result: Australia won by 111 runs
+Series: 5-match series level 1-1
+
+Toss: Australia
+Umpires: GE Borwick and GA Hele
+Test debut: LPJ O'Brien (Australia).
+
+Close of play:
+ Day 1: Australia 194/7 (Oldfield 13*)
+ Day 2: Australia 228, England 161/9 (Allen 26*)
+ Day 3: England 169, Australia 191, England 43/0 (Sutcliffe 33*, Leyland 10*)
+
+Australia 1st innings                                           R   M   B  4 6
+JHW Fingleton                            b Allen               83 234 227  3 0
+*WM Woodfull                             b Allen               10  53  33  0 0
+LPJ O'Brien           run out                                  10  65  47  0 0
+DG Bradman                               b Bowes                0   1   1  0 0
+SJ McCabe             c Jardine          b Voce                32  76  58  1 0
+VY Richardson         c Hammond          b Voce                34  74  66  5 0
++WAS Oldfield         not out                                  27  84  66  1 0
+CV Grimmett           c Sutcliffe        b Voce                 2   7   6  0 0
+TW Wall               run out                                   1  10   3  0 0
+WJ O'Reilly                              b Larwood             15  15  13  1 0
+H Ironmonger                             b Larwood              4   5   4  1 0
+Extras                (b 5, lb 1, w 2, nb 2)                   10
+Total                 (all out, 86.3 overs)                   228
+
+FoW: 1-29 (Woodfull), 2-67 (O'Brien), 3-67 (Bradman),
+     4-131 (McCabe), 5-156 (Fingleton), 6-188 (Richardson),
+     7-194 (Grimmett), 8-200 (Wall), 9-222 (O'Reilly),
+     10-228 (Ironmonger).
+
+Bowling                      O      M      R      W
+Larwood                     20.3    2     52      2
+Voce                        20      3     54      3
+Allen                       17      3     41      2
+Hammond                     10      3     21      0
+Bowes                       19      2     50      1
+
+England 1st innings                                             R   M   B  4 6
+H Sutcliffe           c Richardson       b Wall                52 156 182  5 0
+RES Wyatt             lbw                b O'Reilly            13  56  51  0 1
+WR Hammond                               b Wall                 8   9   7  1 0
+Nawab of Pataudi snr                     b O'Reilly            15  60  78  0 0
+M Leyland                                b O'Reilly            22  68  62  2 0
+*DR Jardine           c Oldfield         b Wall                 1  11   7  0 0
++LEG Ames                                b Wall                 4   9  10  0 0
+GOB Allen             c Richardson       b O'Reilly            30  68  74  3 0
+H Larwood                                b O'Reilly             9  11  11  1 0
+W Voce                c McCabe           b Grimmett             6  29  30  0 0
+WE Bowes              not out                                   4   6   9  0 0
+Extras                (b 1, lb 2, nb 2)                         5
+Total                 (all out, 85.3 overs)                   169
+
+FoW: 1-30 (Wyatt), 2-43 (Hammond), 3-83 (Pataudi),
+     4-98 (Sutcliffe), 5-104 (Jardine), 6-110 (Ames),
+     7-122 (Leyland), 8-138 (Larwood), 9-161 (Voce),
+     10-169 (Allen).
+
+Bowling                      O      M      R      W
+Wall                        21      4     52      4
+O'Reilly                    34.3   17     63      5
+Grimmett                    16      4     21      1
+Ironmonger                  14      4     28      0
+
+Australia 2nd innings                                           R   M   B  4 6
+JHW Fingleton         c Ames             b Allen                1   6   9  0 0
+*WM Woodfull          c Allen            b Larwood             26  85  71  0 0
+LPJ O'Brien                              b Larwood             11  21  13  0 0
+DG Bradman            not out                                 103 185 146  7 0
+SJ McCabe                                b Allen                0   4   5  0 0
+VY Richardson         lbw                b Hammond             32  44  48  3 0
++WAS Oldfield                            b Voce                 6  15  15  1 0
+CV Grimmett                              b Voce                 0   6   5  0 0
+TW Wall               lbw                b Hammond              3  34  22  0 0
+WJ O'Reilly           c Ames             b Hammond              0   7   8  0 0
+H Ironmonger          run out                                   0   6   2  0 0
+Extras                (b 3, lb 1, w 4, nb 1)                    9
+Total                 (all out, 56.5 overs)                   191
+
+FoW: 1-1 (Fingleton), 2-27 (O'Brien), 3-78 (Woodfull),
+     4-81 (McCabe), 5-135 (Richardson), 6-150 (Oldfield),
+     7-156 (Grimmett), 8-184 (Wall), 9-186 (O'Reilly),
+     10-191 (Ironmonger).
+
+Bowling                      O      M      R      W
+Larwood                     15      2     50      2
+Voce                        15      2     47      2
+Allen                       12      1     44      2
+Hammond                     10.5    2     21      3
+Bowes                        4      0     20      0
+
+England 2nd innings (target: 251 runs)                          R   M   B  4 6
+H Sutcliffe                              b O'Reilly            33  53  63  4 0
+M Leyland                                b Wall                19  58  51  2 0
+Nawab of Pataudi snr  c Fingleton        b Ironmonger           5  34  36  0 0
+WR Hammond            c O'Brien          b O'Reilly            23  51  43  2 0
+*DR Jardine           c McCabe           b Ironmonger           0   2   3  0 0
++LEG Ames             c Fingleton        b O'Reilly             2   8  10  0 0
+RES Wyatt             lbw                b O'Reilly            25  54  50  3 0
+GOB Allen             st Oldfield        b Ironmonger          23  51  63  1 0
+H Larwood             c Wall             b Ironmonger           4  11   7  0 0
+W Voce                c O'Brien          b O'Reilly             0   3   5  0 0
+WE Bowes              not out                                   0   2   2  0 0
+Extras                (lb 4, nb 1)                              5
+Total                 (all out, 55.1 overs)                   139
+
+FoW: 1-53 (Sutcliffe), 2-53 (Leyland), 3-70 (Pataudi),
+     4-70 (Jardine), 5-77 (Ames), 6-85 (Hammond), 7-135 (Wyatt),
+     8-137 (Allen), 9-138 (Voce), 10-139 (Larwood).
+
+Bowling                      O      M      R      W
+Wall                         8      2     23      1
+O'Reilly                    24      5     66      5
+Grimmett                     4      0     19      0
+Ironmonger                  19.1    8     26      4
+
+<END>

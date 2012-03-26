@@ -1,0 +1,90 @@
+
+Test # 564
+The Ashes, 1964, 4th Test
+England v Australia
+Old Trafford, Manchester
+23,24,25,27,28 July 1964 (5-day match)
+
+Result: Match drawn
+Series: Australia leads the 5-match series 1-0
+
+Toss: Australia
+Umpires: JS Buller and WFF Price
+Test debuts: TW Cartwright, FE Rumsey (England).
+
+Close of play:
+ Day 1: Australia 253/2 (Simpson 109*, O'Neill 10*)
+ Day 2: Australia 570/4 (Simpson 265*, Booth 82*)
+ Day 3: Australia 656/8d, England 162/2 (Dexter 71*, Barrington 20*)
+ Day 4: England 411/3 (Barrington 153*, Parfitt 12*)
+
+Australia 1st innings                                           R   M   B  4 6
+WM Lawry              run out                                 106 281      5 3
+*RB Simpson           c Parks            b Price              311 762 740 23 1
+IR Redpath            lbw                b Cartwright          19  50      2 0
+NC O'Neill                               b Price               47 103      5 0
+PJP Burge             c Price            b Cartwright          34  80      4 0
+BC Booth                             c & b Price               98 216     10 1
+TR Veivers            c Edrich           b Rumsey              22  38      4 0
++ATW Grout            c Dexter           b Rumsey               0  10      0 0
+GD McKenzie           not out                                   0   2      0 0
+Extras                (b 1, lb 9, nb 9)                        19
+Total                 (8 wickets dec, 255.5 overs)            656
+
+DNB: NJN Hawke, GE Corling.
+
+FoW: 1-201 (Lawry), 2-233 (Redpath), 3-318 (O'Neill),
+     4-382 (Burge), 5-601 (Booth), 6-646 (Simpson),
+     7-652 (Grout), 8-656 (Veivers).
+
+Bowling                      O      M      R      W
+Rumsey                      35.5    4     99      2
+Price                       45      4    183      3
+Cartwright                  77     32    118      2
+Titmus                      44     14    100      0
+Dexter                       4      0     12      0
+Mortimore                   49     13    122      0
+Boycott                      1      0      3      0
+
+England 1st innings                                             R   M   B  4 6
+G Boycott                                b McKenzie            58 185      3 0
+JH Edrich             c Redpath          b McKenzie             6  29      0 0
+*ER Dexter                               b Veivers            174 481     22 0
+KF Barrington         lbw                b McKenzie           256 683     26 0
+PH Parfitt            c Grout            b McKenzie            12  46      2 0
++JM Parks             c Hawke            b Veivers             60 200      3 0
+FJ Titmus             c Simpson          b McKenzie             9  57      1 0
+JB Mortimore          c Burge            b McKenzie            12  56      3 0
+TW Cartwright                            b McKenzie             4   5      1 0
+JSE Price                                b Veivers              1  33      0 0
+FE Rumsey             not out                                   3  20      0 0
+Extras                (b 5, lb 11)                             16
+Total                 (all out, 293.1 overs)                  611
+
+FoW: 1-15 (Edrich), 2-126 (Boycott), 3-372 (Dexter),
+     4-417 (Parfitt), 5-560 (Parks), 6-589 (Titmus),
+     7-594 (Barrington), 8-602 (Mortimore), 9-607 (Cartwright),
+     10-611 (Price).
+
+Bowling                      O      M      R      W
+McKenzie                    60     15    153      7
+Corling                     46     11     96      0
+Hawke                       63     28     95      0
+Simpson                     19      4     59      0
+Veivers                     95.1   36    155      3
+O'Neill                     10      0     37      0
+
+Australia 2nd innings                                           R   M   B  4 6
+*RB Simpson           not out                                   4   5   6  1 0
+WM Lawry              not out                                   0   5   6  0 0
+Extras                                                          0
+Total                 (0 wickets, 2 overs)                      4
+
+DNB: IR Redpath, NC O'Neill, PJP Burge, BC Booth, TR Veivers,
+     +ATW Grout, GD McKenzie, NJN Hawke, GE Corling.
+
+Bowling                      O      M      R      W
+Barrington                   1      0      4      0
+Titmus                       1      1      0      0
+
+<END>

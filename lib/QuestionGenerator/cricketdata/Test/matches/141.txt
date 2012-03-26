@@ -1,0 +1,119 @@
+
+Test # 141
+The Ashes, 1921, 2nd Test
+England v Australia
+Lord's, London
+11,13,14 June 1921 (3-day match)
+
+Result: Australia won by 8 wickets
+Series: Australia leads the 5-match series 2-0
+
+Toss: England
+Umpires: J Moss and W Phillips
+Test debuts: AE Dipper, FJ Durston, AJ Evans, NE Haig (England).
+
+Close of play:
+ Day 1: England 187, Australia 191/3 (Bardsley 88*, Taylor 15*)
+ Day 2: Australia 342, England 243/8 (Tennyson 44*, Strudwick 6*)
+
+England 1st innings                                             R   M   B  4 6
+DJ Knight             c Gregory          b Armstrong            7  27      0 0
+AE Dipper                                b McDonald            11  21      1 0
+FE Woolley            st Carter          b Mailey              95 183     10 0
+EH Hendren                               b McDonald             0   4      0 0
+*JWHT Douglas                            b McDonald            34 112      2 0
+AJ Evans                                 b McDonald             4  11      0 0
+Hon.LH Tennyson       st Carter          b Mailey               5  20      0 0
+NE Haig               c Carter           b Gregory              3  11      0 0
+CH Parkin                                b Mailey               0   2      0 0
++H Strudwick          c McDonald         b Mailey               8   6      2 0
+FJ Durston            not out                                   6  11      1 0
+Extras                (b 1, lb 11, w 1, nb 1)                  14
+Total                 (all out, 68.2 overs)                   187
+
+FoW: 1-20 (Dipper), 2-24 (Knight), 3-25 (Hendren),
+     4-108 (Douglas), 5-120 (Evans), 6-145 (Tennyson),
+     7-156 (Haig), 8-157 (Parkin), 9-170 (Woolley),
+     10-187 (Strudwick).
+
+Bowling                      O      M      R      W
+Gregory                     16      1     51      1
+McDonald                    20      2     58      4
+Armstrong                   18     12      9      1
+Mailey                      14.2    1     55      4
+
+Australia 1st innings                                           R   M   B  4 6
+W Bardsley            c Woolley          b Douglas             88 131     11 0
+TJE Andrews           c Strudwick        b Durston              9   9      1 0
+CG Macartney          c Strudwick        b Durston             31  25      5 0
+CE Pellew                                b Haig                43  50      7 0
+JM Taylor             lbw                b Douglas             36  72      6 0
+*WW Armstrong                            b Durston              0   4      0 0
+JM Gregory                           c & b Parkin              52  75      8 0
+HSTL Hendry                              b Haig                 5  40      1 0
++H Carter                                b Durston             46  53      7 0
+AA Mailey                            c & b Parkin               5  10      0 0
+EA McDonald           not out                                  17  31      3 0
+Extras                (b 2, lb 5, nb 3)                        10
+Total                 (all out, 84.1 overs)                   342
+
+FoW: 1-19 (Andrews), 2-73 (Macartney), 3-145 (Pellew),
+     4-191 (Bardsley), 5-192 (Armstrong), 6-230 (Taylor),
+     7-263 (Hendry), 8-277 (Gregory), 9-289 (Mailey),
+     10-342 (Carter).
+
+Bowling                      O      M      R      W
+Durston                     24.1    2    102      4
+Douglas                      9      1     53      2
+Parkin                      20      5     72      2
+Haig                        20      4     61      2
+Woolley                     11      2     44      0
+
+England 2nd innings                                             R   M   B  4 6
+DJ Knight             c Carter           b Gregory              1   7      0 0
+AE Dipper                                b McDonald            40  97      2 0
+FE Woolley            c Hendry           b Mailey              93 155     12 0
+EH Hendren            c Gregory          b Mailey              10  15      1 0
+*JWHT Douglas                            b Gregory             14  51      0 0
+AJ Evans              lbw                b McDonald            14  35      1 0
+Hon.LH Tennyson       not out                                  74 102      9 0
+NE Haig                                  b McDonald             0   6      0 0
+CH Parkin             c Pellew           b McDonald            11  20      0 0
++H Strudwick                             b Gregory             12  18      2 0
+FJ Durston                               b Gregory              2  19      0 0
+Extras                (b 4, lb 3, nb 5)                        12
+Total                 (all out, 90.2 overs)                   283
+
+FoW: 1-3 (Knight), 2-97 (Dipper), 3-124 (Hendren),
+     4-165 (Douglas), 5-165 (Woolley), 6-198 (Evans),
+     7-202 (Haig), 8-235 (Parkin), 9-263 (Strudwick),
+     10-283 (Durston).
+
+Bowling                      O      M      R      W
+Gregory                     26.2    4     76      4
+McDonald                    23      3     89      4
+Armstrong                   12      6     19      0
+Mailey                      25      4     72      2
+Hendry                       4      0     15      0
+
+Australia 2nd innings (target: 129 runs)                        R   M   B  4 6
+W Bardsley            not out                                  63 100      4 0
+TJE Andrews           lbw                b Parkin              49  76      3 0
+CG Macartney                             b Durston              8  14      0 0
+CE Pellew             not out                                   5   6      1 0
+Extras                (b 3, lb 2, nb 1)                         6
+Total                 (2 wickets, 30.3 overs)                 131
+
+DNB: JM Taylor, *WW Armstrong, JM Gregory, HSTL Hendry,
+     +H Carter, AA Mailey, EA McDonald.
+
+FoW: 1-103 (Andrews), 2-114 (Macartney).
+
+Bowling                      O      M      R      W
+Durston                      9.3    0     34      1
+Douglas                      6      0     23      0
+Parkin                       9      0     31      1
+Haig                         3      0     27      0
+Woolley                      3      0     10      0
+
+<END>

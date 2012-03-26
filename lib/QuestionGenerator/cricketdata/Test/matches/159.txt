@@ -1,0 +1,134 @@
+
+Test # 159
+The Ashes, 1924/25, 2nd Test
+Australia v England
+Melbourne Cricket Ground
+1,2,3,5,6,7,8 January 1925 (timeless match)
+
+Result: Australia won by 81 runs
+Series: Australia leads the 5-match series 2-0
+
+Toss: Australia
+Umpires: RM Crockett and C Garing
+Balls per over: 8
+Test debut: AEV Hartkopf (Australia).
+
+Close of play:
+ Day 1: Australia 300/4 (Ponsford 128*, VY Richardson 39*)
+ Day 2: Australia 600
+ Day 3: England 283/0 (Hobbs 154*, Sutcliffe 123*)
+ Day 4: England 479, Australia 63/3 (Collins 17*, Taylor 25*)
+ Day 5: Australia 250, England 54/1 (Sutcliffe 12*, Strudwick 15*)
+ Day 6: England 259/6 (Sutcliffe 114*, Douglas 0*)
+
+Australia 1st innings                                           R   M   B  4 6
+*HL Collins           c Strudwick        b Tate                 9  40  63  1 0
+W Bardsley            c Strudwick        b Gilligan            19  76  52  0 0
+AJ Richardson         run out                                  14  31  33  0 0
+WH Ponsford                              b Tate               128 222 233  6 0
+JM Taylor             run out                                  72 130 142  3 0
+VY Richardson         run out                                 138 198 217 13 0
+C Kelleway            c Strudwick        b Gilligan            32 132 138  2 0
+AEV Hartkopf          c Chapman          b Gilligan            80 162 158  8 0
+JM Gregory            c Gilligan         b Tate                44  40  56  5 0
++WAS Oldfield         not out                                  39 106 100  2 0
+AA Mailey             lbw                b Douglas              1   4   6  0 0
+Extras                (b 18, lb 5, nb 1)                       24
+Total                 (all out, 149.5 overs)                  600
+
+FoW: 1-22 (Collins), 2-47 (AJ Richardson), 3-47 (Bardsley),
+     4-208 (Taylor), 5-301 (Ponsford), 6-424 (VY Richardson),
+     7-439 (Kelleway), 8-499 (Gregory), 9-599 (Hartkopf),
+     10-600 (Mailey).
+
+Bowling                      O      M      R      W
+Tate                        45     10    142      3
+Douglas                     19.5    0     95      1
+Tyldesley                   35      3    130      0
+Gilligan                    26      1    114      3
+Hearne                      13      1     69      0
+Woolley                     11      3     26      0
+
+England 1st innings                                             R   M   B  4 6
+JB Hobbs                                 b Mailey             154 288 340 11 0
+H Sutcliffe                              b Kelleway           176 431 481 17 0
+FE Woolley                               b Gregory              0   5   8  0 0
+JW Hearne                                b Mailey               9  42  57  0 0
+EH Hendren            c Oldfield         b Kelleway            32  57  66  1 0
+APF Chapman           c Oldfield         b Gregory             28  41  35  2 1
+JWHT Douglas          c Collins          b AJ Richardson        8  45  40  0 0
+RK Tyldesley          c Collins          b Gregory              5   7  11  1 0
+MW Tate                                  b AJ Richardson       34  39  35  4 0
+*AER Gilligan         not out                                  17  21  23  3 0
++H Strudwick                             b Hartkopf             4  12  14  0 0
+Extras                (b 4, lb 4, nb 4)                        12
+Total                 (all out, 138 overs)                    479
+
+FoW: 1-283 (Hobbs), 2-284 (Woolley), 3-305 (Hearne),
+     4-373 (Hendren), 5-404 (Sutcliffe), 6-412 (Chapman),
+     7-418 (Tyldesley), 8-453 (Douglas), 9-458 (Tate),
+     10-479 (Strudwick).
+
+Bowling                      O      M      R      W
+Gregory                     34      4    124      3
+Kelleway                    30     10     62      2
+Mailey                      34      5    141      2
+Hartkopf                    26      1    120      1
+AJ Richardson               14      6     20      2
+
+Australia 2nd innings                                           R   M   B  4 6
+*HL Collins                              b Hearne              30 114 117  1 0
+W Bardsley            lbw                b Tate                 2   2   3  0 0
+AJ Richardson                            b Tate                 9   9  13  1 0
+WH Ponsford                              b Tate                 4  13   9  0 0
+JM Taylor                                b Tate                90 149 180  7 0
+VY Richardson         c Strudwick        b Hearne               8  19  31  0 0
+C Kelleway                           c & b Hearne              17  58  87  2 0
+AEV Hartkopf          lbw                b Tate                 0   8   6  0 0
+JM Gregory            not out                                  36  86 101  4 0
++WAS Oldfield         lbw                b Hearne              39  70  76  3 0
+AA Mailey                                b Tate                 3   9  15  0 0
+Extras                (b 11, lb 1)                             12
+Total                 (all out, 79.3 overs)                   250
+
+FoW: 1-3 (Bardsley), 2-13 (AJ Richardson), 3-27 (Ponsford),
+     4-106 (Collins), 5-126 (VY Richardson), 6-166 (Taylor),
+     7-168 (Kelleway), 8-168 (Hartkopf), 9-239 (Oldfield),
+     10-250 (Mailey).
+
+Bowling                      O      M      R      W
+Tate                        33.3    8     99      6
+Douglas                      4      0      9      0
+Tyldesley                    2      0      6      0
+Gilligan                    11      2     40      0
+Hearne                      29      5     84      4
+
+England 2nd innings (target: 372 runs)                          R   M   B  4 6
+JB Hobbs              lbw                b Mailey              22  45  59  2 0
+H Sutcliffe           c Gregory          b Mailey             127 379 390 12 0
++H Strudwick          lbw                b Gregory             22  42  63  1 0
+JW Hearne             lbw                b Gregory             23  60  70  2 0
+FE Woolley            lbw                b AJ Richardson       50 128 152  6 0
+EH Hendren                               b Gregory             18  54  55  3 0
+RK Tyldesley          c Ponsford         b Mailey               0   4  10  0 0
+JWHT Douglas                             b Mailey              14  46  41  0 0
+APF Chapman           not out                                   4  16  11  0 0
+*AER Gilligan                        c & b Mailey               0   1   1  0 0
+MW Tate                                  b Gregory              0   1   1  0 0
+Extras                (b 6, lb 2, nb 2)                        10
+Total                 (all out, 106.3 overs)                  290
+
+FoW: 1-36 (Hobbs), 2-75 (Strudwick), 3-121 (Hearne),
+     4-211 (Woolley), 5-254 (Hendren), 6-255 (Tyldesley),
+     7-280 (Sutcliffe), 8-289 (Douglas), 9-289 (Gilligan),
+     10-290 (Tate).
+
+Bowling                      O      M      R      W
+Gregory                     27.3    6     87      4
+Kelleway                    18      4     42      0
+Mailey                      24      2     92      5
+Hartkopf                     4      1     14      0
+AJ Richardson               22      7     35      1
+Collins                     11      3     10      0
+
+<END>

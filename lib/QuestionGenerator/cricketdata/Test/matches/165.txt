@@ -1,0 +1,95 @@
+
+Test # 165
+The Ashes, 1926, 3rd Test
+England v Australia
+Headingley, Leeds
+10,12,13 July 1926 (3-day match)
+
+Result: Match drawn
+Series: 5-match series level 0-0
+
+Toss: England
+Umpires: HR Butt and W Reeves
+
+Close of play:
+ Day 1: Australia 366/3 (Woodfull 134*, Richardson 70*)
+ Day 2: Australia 494, England 203/8 (Geary 6*, Macaulay 18*)
+
+Australia 1st innings                                           R   M   B  4 6
+*W Bardsley           c Sutcliffe        b Tate                 0   1   1  0 0
+WM Woodfull                              b Tate               141 295     12 0
+CG Macartney          c Hendren          b Macaulay           151 172     21 0
+TJE Andrews           lbw                b Kilner               4            0
+AJ Richardson         run out                                 100 180     10 0
+JM Taylor             c Strudwick        b Geary                4            0
+JM Gregory            c Geary            b Kilner              26            0
+J Ryder                                  b Tate                42            0
++WAS Oldfield         lbw                b Tate                14            0
+CV Grimmett           c Sutcliffe        b Geary                1          0 0
+AA Mailey             not out                                   1          0 0
+Extras                (b 2, lb 4, nb 4)                        10
+Total                 (all out, 165 overs)                    494
+
+FoW: 1-0 (Bardsley), 2-235 (Macartney), 3-249 (Andrews),
+     4-378 (Woodfull), 5-385 (Taylor), 6-423 (Gregory),
+     7-452 (Richardson), 8-485 (Ryder), 9-492 (Oldfield),
+     10-494 (Grimmett).
+
+Bowling                      O      M      R      W
+Tate                        51     13     99      4
+Macaulay                    32      8    123      1
+Kilner                      37      6    106      2
+Geary                       41      5    130      2
+Woolley                      4      0     26      0
+
+England 1st innings                                             R   M   B  4 6
+JB Hobbs              c Andrews          b Mailey              49            0
+H Sutcliffe                          c & b Grimmett            26  80        0
+FE Woolley            run out                                  27            0
+EH Hendren            c Andrews          b Mailey               0       2  0 0
+*AW Carr              lbw                b Macartney           13            0
+APF Chapman                              b Macartney           15            0
+R Kilner              c Ryder            b Grimmett            36            0
+MW Tate               st Oldfield        b Grimmett             5            0
+G Geary               not out                                  35 150        0
+GG Macaulay                          c & b Grimmett            76 120     10 0
++H Strudwick          c Gregory          b Grimmett             1          0 0
+Extras                (b 4, lb 6, nb 1)                        11
+Total                 (all out, 128 overs)                    294
+
+FoW: 1-59 (Sutcliffe), 2-104 (Hobbs), 3-108 (Hendren),
+     4-110 (Woolley), 5-131 (Chapman), 6-140 (Carr),
+     7-175 (Tate), 8-182 (Kilner), 9-290 (Macaulay),
+     10-294 (Strudwick).
+
+Bowling                      O      M      R      W
+Gregory                     17      5     37      0
+Macartney                   31     13     51      2
+Grimmett                    39     11     88      5
+Richardson                  20      5     44      0
+Mailey                      21      4     63      2
+
+England 2nd innings (following on)                              R   M   B  4 6
+JB Hobbs                                 b Grimmett            88 150      8 0
+H Sutcliffe                              b Richardson          94 195        0
+FE Woolley            c Macartney        b Grimmett            20            0
+EH Hendren            not out                                   4            0
+APF Chapman           not out                                  42  20      6 1
+Extras                (b 5, lb 1)                               6
+Total                 (3 wickets, 86 overs)                   254
+
+DNB: *AW Carr, R Kilner, MW Tate, G Geary, GG Macaulay,
+     +H Strudwick.
+
+FoW: 1-156 (Hobbs), 2-208 (Woolley), 3-210 (Sutcliffe).
+
+Bowling                      O      M      R      W
+Gregory                      6      2     12      0
+Macartney                    4      1     13      0
+Grimmett                    29     10     59      2
+Richardson                  16      7     22      1
+Mailey                      18      2     80      0
+Ryder                        9      2     26      0
+Andrews                      4      0     36      0
+
+<END>

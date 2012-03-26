@@ -1,0 +1,103 @@
+
+Test # 499
+Pakistan in India, 1960/61, 2nd Test
+India v Pakistan
+Green Park, Kanpur
+16,17,18,20,21 December 1960 (5-day match)
+
+Result: Match drawn
+Series: 5-match series level 0-0
+
+Toss: Pakistan
+Umpires: SK Ganguli and AR Joshi
+
+Close of play:
+ Day 1: Pakistan 170/3 (Javed Burki 77*, Mathias 33*)
+ Day 2: Pakistan 335, India 10/0 (Contractor 10*, Jaisimha 0*)
+ Day 3: India 159/2 (Jaisimha 54*, Manjrekar 36*)
+ Day 4: India 335/7 (Umrigar 68*, Tamhane 1*)
+
+Pakistan 1st innings                                            R   M   B  4 6
+Hanif Mohammad        c Contractor       b Umrigar              5            0
++Imtiaz Ahmed                            b Gupte               20            0
+Saeed Ahmed           c Tamhane          b Desai               32            0
+Javed Burki           run out                                  79 270     13 0
+W Mathias             lbw                b Desai               37            0
+Alimuddin             c Nadkarni         b Umrigar             24 122        0
+Mushtaq Mohammad      c Umrigar          b Muddiah             13            0
+Nasim-ul-Ghani        not out                                  70          8 0
+*Fazal Mahmood        lbw                b Umrigar             16  96        0
+Mahmood Hussain       c Borde            b Umrigar              7            0
+Haseeb Ahsan          c Tamhane          b Gupte               13            0
+Extras                (b 13, lb 6)                             19
+Total                 (all out, 188.4 overs)                  335
+
+FoW: 1-21 (Hanif Mohammad), 2-29 (Imtiaz Ahmed),
+     3-93 (Saeed Ahmed), 4-174 (Mathias), 5-177 (Javed Burki),
+     6-214 (Mushtaq Mohammad), 7-240 (Alimuddin),
+     8-293 (Fazal Mahmood), 9-305 (Mahmood Hussain),
+     10-335 (Haseeb Ahsan).
+
+Bowling                      O      M      R      W
+Desai                       30      6     54      2
+Umrigar                     55     23     71      4
+Gupte                       42.4   14     84      2
+Muddiah                     22      6     62      1
+Nadkarni                    32     24     23      0
+Borde                        6      2     16      0
+Contractor                   1      0      6      0
+
+India 1st innings                                               R   M   B  4 6
+*NJ Contractor                           b Haseeb Ahsan        47 171      6 0
+ML Jaisimha           run out                                  99 505     12 0
+AA Baig                                  b Haseeb Ahsan        13          2 0
+VL Manjrekar          c Nasim-ul-Ghani   b Fazal Mahmood       52 161      4 0
+PR Umrigar            c Javed Burki      b Mahmood Hussain    115 339     11 0
+CG Borde              c Fazal Mahmood    b Nasim-ul-Ghani       0  15      0 0
+RG Nadkarni                              b Haseeb Ahsan        16            0
+RB Desai                                 b Haseeb Ahsan        14            0
++NS Tamhane           c Mathias          b Haseeb Ahsan         3          0 0
+VM Muddiah                               b Mahmood Hussain     11            0
+SP Gupte              not out                                   1          0 0
+Extras                (b 20, lb 1, nb 12)                      33
+Total                 (all out, 193.5 overs)                  404
+
+FoW: 1-71 (Contractor), 2-92 (Baig), 3-182 (Manjrekar),
+     4-258 (Jaisimha), 5-263 (Borde), 6-294 (Nadkarni),
+     7-334 (Desai), 8-342 (Tamhane), 9-403 (Umrigar),
+     10-404 (Muddiah).
+
+Bowling                      O      M      R      W
+Mahmood Hussain             44.5   13    101      2
+Fazal Mahmood               36     14     37      1
+Nasim-ul-Ghani              55     17    109      1
+Haseeb Ahsan                56     15    121      5
+Mushtaq Mohammad             2      1      3      0
+
+Pakistan 2nd innings                                            R   M   B  4 6
+Hanif Mohammad        c Jaisimha         b Muddiah             19            0
++Imtiaz Ahmed         c Contractor       b Muddiah             16            0
+Saeed Ahmed                              b Gupte                4            0
+Javed Burki           not out                                  48            0
+W Mathias             not out                                  46 107        0
+Extras                (b 2, lb 5)                               7
+Total                 (3 wickets, 64 overs)                   140
+
+DNB: Alimuddin, Mushtaq Mohammad, Nasim-ul-Ghani, *Fazal Mahmood,
+     Mahmood Hussain, Haseeb Ahsan.
+
+FoW: 1-31 (Imtiaz Ahmed), 2-42 (Saeed Ahmed),
+     3-42 (Hanif Mohammad).
+
+Bowling                      O      M      R      W
+Desai                        4      1      3      0
+Umrigar                      3      0     10      0
+Gupte                       17      6     29      1
+Muddiah                     18      7     40      2
+Nadkarni                     7      4      6      0
+Borde                       10      0     36      0
+Jaisimha                     3      0      5      0
+Manjrekar                    1      0      2      0
+Baig                         1      0      2      0
+
+<END>

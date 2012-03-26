@@ -1,0 +1,116 @@
+
+Test # 168
+England in South Africa, 1927/28, 1st Test
+South Africa v England
+Old Wanderers, Johannesburg
+24,26,27 December 1927 (4-day match)
+
+Result: England won by 10 wickets
+Series: England leads the 5-match series 1-0
+
+Toss: South Africa
+Umpires: AG Laver and GB Treadwell
+Test debuts: WE Astill, WR Hammond, GB Legge, IAR Peebles, RT Stanyforth,
+ RES Wyatt (England); HB Cameron, SK Coen, JP Duminy, DPB Morkel, HLE Promnitz,
+ CL Vincent (South Africa).
+
+Close of play:
+ Day 1: South Africa 196, England 9/1 (Sutcliffe 9*, Tyldesley 0*)
+ Day 2: England 313, South Africa 8/0 (Commaille 4*, Duminy 4*)
+
+South Africa 1st innings                                        R   M   B  4 6
+HW Taylor                            c & b Stevens             31            0
+JP Duminy                                b Geary                0          0 0
+JMM Commaille         lbw                b Stevens             23            0
+RH Catterall                         c & b Geary               86 130        0
+*HG Deane                                b Geary                7            0
+DPB Morkel            lbw                b Geary                2          0 0
+SK Coen                                  b Geary                7            0
++HB Cameron           lbw                b Stevens             20            0
+EP Nupen                                 b Geary                6            0
+CL Vincent            not out                                   2          0 0
+HLE Promnitz                             b Geary                4            0
+Extras                (lb 6, nb 2)                              8
+Total                 (all out, 78.3 overs)                   196
+
+FoW: 1-1 (Duminy), 2-53 (Taylor), 3-58 (Commaille), 4-89 (Deane),
+     5-93 (Morkel), 6-120 (Coen), 7-170 (Cameron), 8-185 (Nupen),
+     9-190 (Catterall), 10-196 (Promnitz).
+
+Bowling                      O      M      R      W
+Geary                       27.3    7     70      7
+Hammond                      8      2     21      0
+Stevens                     19      3     58      3
+Peebles                     12      5     22      0
+Wyatt                        4      1      6      0
+Astill                       8      4     11      0
+
+England 1st innings                                             R   M   B  4 6
+P Holmes              lbw                b Morkel               0          0 0
+H Sutcliffe           c Vincent          b Promnitz           102            0
+GE Tyldesley          lbw                b Duminy             122            0
+WR Hammond            c Promnitz         b Vincent             51            1
+RES Wyatt             lbw                b Promnitz             0          0 0
+GTS Stevens           c Nupen            b Promnitz             0          0 0
+GB Legge                             c & b Nupen                0          0 0
+WE Astill             c Cameron          b Promnitz             7            0
+*+RT Stanyforth       c Cameron          b Promnitz             1          0 0
+G Geary               lbw                b Vincent              3          0 0
+IAR Peebles           not out                                   2          0 0
+Extras                (b 11, lb 10, w 1, nb 3)                 25
+Total                 (all out, 137.3 overs)                  313
+
+FoW: 1-0 (Holmes), 2-230 (Tyldesley), 3-252 (Sutcliffe),
+     4-252 (Wyatt), 5-254 (Stevens), 6-263 (Legge),
+     7-280 (Astill), 8-292 (Stanyforth), 9-308 (Geary),
+     10-313 (Hammond).
+
+Bowling                      O      M      R      W
+Morkel                      14      3     38      1
+Nupen                       49     12    111      1
+Vincent                     31.3    5     57      2
+Promnitz                    37     14     58      5
+Coen                         2      0      7      0
+Duminy                       4      0     17      1
+
+South Africa 2nd innings                                        R   M   B  4 6
+JMM Commaille         c Stanyforth       b Geary                4            0
+JP Duminy                                b Hammond              4            0
+HW Taylor                                b Hammond              3          0 0
+RH Catterall                             b Hammond              1          0 0
+*HG Deane                                b Geary                5            0
++HB Cameron           lbw                b Geary                5            0
+DPB Morkel            lbw                b Geary               29            0
+EP Nupen                                 b Geary                1          0 0
+CL Vincent            lbw                b Hammond             53            0
+SK Coen               not out                                  41            0
+HLE Promnitz                             b Hammond              5            0
+Extras                (b 5, lb 13, nb 1)                       19
+Total                 (all out, 69.2 overs)                   170
+
+FoW: 1-10 (Duminy), 2-10 (Commaille), 3-11 (Catterall),
+     4-20 (Taylor), 5-20 (Deane), 6-26 (Cameron), 7-38 (Nupen),
+     8-78 (Morkel), 9-158 (Vincent), 10-170 (Promnitz).
+
+Bowling                      O      M      R      W
+Geary                       27      9     60      5
+Hammond                     21.2    9     36      5
+Stevens                      8      3     13      0
+Peebles                      7      1     25      0
+Astill                       6      0     17      0
+
+England 2nd innings (target: 54 runs)                           R   M   B  4 6
+P Holmes              not out                                  15            0
+H Sutcliffe           not out                                  41            0
+Extras                (b 1)                                     1
+Total                 (0 wickets, 21 overs)                    57
+
+DNB: GE Tyldesley, WR Hammond, RES Wyatt, GTS Stevens, GB Legge,
+     WE Astill, *+RT Stanyforth, G Geary, IAR Peebles.
+
+Bowling                      O      M      R      W
+Nupen                       11      1     29      0
+Promnitz                     6      1     14      0
+Duminy                       4      0     13      0
+
+<END>

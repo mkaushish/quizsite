@@ -1,0 +1,103 @@
+
+Test # 329
+The Ashes, 1950/51, 3rd Test
+Australia v England
+Sydney Cricket Ground
+5,6,8,9 January 1951 (6-day match)
+
+Result: Australia won by an innings and 13 runs
+Series: Australia leads the 5-match series 3-0
+
+Toss: England
+Umpires: AN Barlow and HAR Elphinstone
+Balls per over: 8
+Test debut: JJ Warr (England).
+
+Close of play:
+ Day 1: England 211/5 (Brown 36*, Bailey 9*)
+ Day 2: England 290, Australia 110/1 (Archer 44*, Hassett 62*)
+ Day 3: Australia 362/6 (Miller 96*, Johnson 64*)
+
+England 1st innings                                             R   M   B  4 6
+L Hutton              lbw                b Miller              62 176      3 0
+C Washbrook           c Miller           b Johnson             18  38      2 0
+RT Simpson            c Loxton           b Miller              49 166      3 0
+DCS Compton                              b Miller               0   2      0 0
+WGA Parkhouse         c Morris           b Johnson             25  66      3 0
+*FR Brown                                b Lindwall            79 158      9 0
+TE Bailey             c Tallon           b Johnson             15 130      0 0
++TG Evans             not out                                  23  49      3 0
+AV Bedser                                b Lindwall             3   4      0 0
+JJ Warr                                  b Miller               4  20      0 0
+DVP Wright            run out                                   0   5      0 0
+Extras                (lb 10, nb 2)                            12
+Total                 (all out, 98.7 overs)                   290
+
+FoW: 1-34 (Washbrook), 2-128 (Hutton), 3-128 (Compton),
+     4-137 (Simpson), 5-187 (Parkhouse), 6-258 (Brown),
+     7-267 (Bedser), 8-281 (Warr), 9-286 (Bailey),
+     10-290 (Wright).
+
+Bowling                      O      M      R      W
+Lindwall                    16      0     60      2
+Miller                      15.7    4     37      4
+Johnson                     31      8     94      3
+Johnston                    21      5     50      0
+Iverson                     10      1     25      0
+Loxton                       5      0     12      0
+
+Australia 1st innings                                           R   M   B  4 6
+KA Archer             c Evans            b Bedser              48 191      4 0
+AR Morris                                b Bedser               0   3      0 0
+*AL Hassett           c Bedser           b Brown               70 192      6 0
+RN Harvey                                b Bedser              39  79      3 0
+KR Miller             not out                                 145 354      6 1
+SJE Loxton            c Bedser           b Brown               17  64      0 0
++D Tallon             lbw                b Bedser              18  28      2 0
+IWG Johnson                              b Brown               77 161      7 0
+RR Lindwall           lbw                b Brown                1   3      0 0
+WA Johnston           run out                                   0   4      0 0
+JB Iverson            run out                                   1   5      0 0
+Extras                (b 3, lb 7)                              10
+Total                 (all out, 129 overs)                    426
+
+FoW: 1-1 (Morris), 2-122 (Archer), 3-122 (Hassett),
+     4-190 (Harvey), 5-223 (Loxton), 6-252 (Tallon),
+     7-402 (Johnson), 8-406 (Lindwall), 9-418 (Johnston),
+     10-426 (Iverson).
+
+Bowling                      O      M      R      W
+Bedser                      43      4    107      4
+Warr                        36      4    142      0
+Brown                       44      4    153      4
+Compton                      6      1     14      0
+
+England 2nd innings                                             R   M   B  4 6
+L Hutton              c Tallon           b Iverson              9  47      0 0
+C Washbrook                              b Iverson             34  75      4 0
+RT Simpson            c Tallon           b Iverson              0  13      0 0
+DCS Compton           c Johnson          b Johnston            23 104      1 0
+WGA Parkhouse         run out                                  15  51      1 0
+*FR Brown                                b Iverson             18  59      2 0
++TG Evans                                b Johnson             14  17      3 0
+TE Bailey             not out                                   0  13      0 0
+AV Bedser                                b Iverson              4   8      0 0
+JJ Warr                                  b Iverson              0   2      0 0
+DVP Wright            absent hurt                               -
+Extras                (b 1, lb 5)                               6
+Total                 (all out, 52.4 overs)                   123
+
+FoW: 1-32 (Hutton), 2-40 (Simpson), 3-45 (Washbrook),
+     4-74 (Parkhouse), 5-91 (Compton), 6-119 (Evans),
+     7-119 (Brown), 8-123 (Bedser), 9-123 (Warr).
+
+Bowling                      O      M      R      W
+Lindwall                     4      1     12      0
+Miller                       6      2     15      0
+Johnson                     10      2     32      1
+Johnston                    13      6     31      1
+Iverson                     19.4    8     27      6
+
+*** TE Bailey (1) retired hurt on ?* from 263/6 to 281/8
+
+<END>

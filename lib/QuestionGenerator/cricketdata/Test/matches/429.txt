@@ -1,0 +1,117 @@
+
+Test # 429
+The Ashes, 1956, 5th Test
+England v Australia
+Kennington Oval, London
+23,24,25,27,28 August 1956 (5-day match)
+
+Result: Match drawn
+Series: England wins the 5-match series 2-1
+
+Toss: England
+Umpires: TJ Bartley and D Davies
+
+Close of play:
+ Day 1: England 223/7 (May 67*, Laker 0*)
+ Day 2: England 247, Australia 198/8 (Miller 57*, Lindwall 22*)
+ Day 3: Australia 202, England 76/1 (Richardson 28*, Sheppard 40*)
+ Day 4: No play
+
+England 1st innings                                             R   M   B  4 6
+PE Richardson         c Langley          b Miller              37 110      3 0
+MC Cowdrey            c Langley          b Lindwall             0   3      0 0
+Rev.DS Sheppard       c Archer           b Miller              24  78      0 0
+*PBH May              not out                                  83 286      9 0
+DCS Compton           c Davidson         b Archer              94 210      7 0
+GAR Lock              c Langley          b Archer               0   2      0 0
+C Washbrook           lbw                b Archer               0   6      0 0
++TG Evans             lbw                b Miller               0   5      0 0
+JC Laker              c Archer           b Miller               4  19      0 0
+FH Tyson              c Davidson         b Archer               3  13      0 0
+JB Statham                               b Archer               0   3      0 0
+Extras                (w 2)                                     2
+Total                 (all out, 109.2 overs)                  247
+
+FoW: 1-1 (Cowdrey), 2-53 (Sheppard), 3-66 (Richardson),
+     4-222 (Compton), 5-222 (Lock), 6-222 (Washbrook),
+     7-223 (Evans), 8-231 (Laker), 9-243 (Tyson),
+     10-247 (Statham).
+
+Bowling                      O      M      R      W
+Lindwall                    18      5     36      1
+Miller                      40      7     91      4
+Davidson                     5      1     16      0
+Archer                      28.2    7     53      5
+Johnson                      9      2     28      0
+Benaud                       9      2     21      0
+
+Australia 1st innings                                           R   M   B  4 6
+CC McDonald           c Lock             b Tyson                3   8      0 0
+JW Burke                                 b Laker                8  28      2 0
+RN Harvey             c May              b Lock                39 156      2 0
+ID Craig              c Statham          b Lock                 2   8      0 0
+*IWG Johnson                             b Laker               12  42      1 0
+AK Davidson           c May              b Laker                8  20      2 0
+KR Miller             c Washbrook        b Statham             61 217      2 2
+RG Archer             c Tyson            b Laker                9  17      0 1
+R Benaud                                 b Statham             32  39      6 0
+RR Lindwall           not out                                  22 100      3 0
++GRA Langley          lbw                b Statham              0   2      0 0
+Extras                (b 6)                                     6
+Total                 (all out, 92 overs)                     202
+
+FoW: 1-3 (McDonald), 2-17 (Burke), 3-20 (Craig), 4-35 (Johnson),
+     5-47 (Davidson), 6-90 (Harvey), 7-111 (Archer),
+     8-154 (Benaud), 9-202 (Miller), 10-202 (Langley).
+
+Bowling                      O      M      R      W
+Statham                     21      8     33      3
+Tyson                       14      5     34      1
+Laker                       32     12     80      4
+Lock                        25     10     49      2
+
+England 2nd innings                                             R   M   B  4 6
+PE Richardson         c Langley          b Lindwall            34 114      4 0
+MC Cowdrey            c Benaud           b Davidson             8  30      1 0
+Rev.DS Sheppard       c Archer           b Miller              62  98      9 0
+*PBH May              not out                                  37  93      3 0
+DCS Compton           not out                                  35  75      4 0
+Extras                (b 3, lb 3)                               6
+Total                 (3 wickets dec, 61 overs)               182
+
+DNB: GAR Lock, C Washbrook, +TG Evans, JC Laker, FH Tyson,
+     JB Statham.
+
+FoW: 1-17 (Cowdrey), 2-100 (Richardson), 3-108 (Sheppard).
+
+Bowling                      O      M      R      W
+Lindwall                    12      3     29      1
+Miller                      22      3     56      1
+Davidson                     5      0     18      1
+Archer                      13      3     42      0
+Johnson                      4      1      7      0
+Benaud                       1      0     10      0
+Burke                        4      2     14      0
+
+Australia 2nd innings (target: 228 runs)                        R   M   B  4 6
+CC McDonald           lbw                b Statham              0   3      0 0
+JW Burke              lbw                b Laker                1  43      0 0
+RN Harvey             c May              b Lock                 1  20      0 0
+ID Craig              c Lock             b Laker                7  36      1 0
+KR Miller             not out                                   7  66      1 0
+*IWG Johnson          c Lock             b Laker               10  43      1 0
+R Benaud              not out                                   0   1      0 0
+Extras                (b 1)                                     1
+Total                 (5 wickets, 38.1 overs)                  27
+
+DNB: AK Davidson, RG Archer, RR Lindwall, +GRA Langley.
+
+FoW: 1-0 (McDonald), 2-1 (Harvey), 3-5 (Burke), 4-10 (Craig),
+     5-27 (Johnson).
+
+Bowling                      O      M      R      W
+Statham                      2      1      1      1
+Laker                       18     14      8      3
+Lock                        18.1   11     17      1
+
+<END>

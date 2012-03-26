@@ -1,0 +1,67 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+1875, 2008-04-22, 1, 8, West Indies, c Ramdin, Sammy, 11, 41, 35, 1, 0
+1875, 2008-04-22, 3, 8, West Indies, c Morton, Bravo, 23, 90, 76, 2, 0
+1877, 2008-05-30, 1, 7, West Indies, c Morton, Taylor, 33, 86, 55, 6, 0
+1877, 2008-05-30, 3, 6, West Indies, lbw, Edwards, 7, 32, 12, 1, 0
+1879, 2008-05-12, 1, 7, West Indies, lbw, Benn, 32, 91, 66, 6, 0
+1879, 2008-05-12, 3, 7, West Indies, not out, , 45, 107, 83, 5, 1
+1887, 2008-09-09, 1, 7, India, c Laxman, Sharma, 33, 126, 110, 4, 0
+1887, 2008-09-09, 3, 7, India, not out, , 35, 101, 61, 3, 0
+1889, 2008-09-17, 2, 7, India, , Harbhajan Singh, 9, 39, 29, 1, 0
+1889, 2008-09-17, 4, 7, India, , Khan, 37, 118, 105, 6, 0
+1891, 2008-10-29, 2, 7, India, st Dhoni, Kumble, 17, 32, 35, 1, 1
+1892, 2008-10-06, 2, 7, India, c Dravid, Mishra, 28, 94, 80, 3, 0
+1892, 2008-10-06, 4, 7, India, c Tendulkar, Mishra, 4, 13, 10, 0, 0
+1894, 2008-10-20, 1, 8, New Zealand, c How, Ryder, 6, 22, 19, 1, 0
+1894, 2008-10-20, 3, 8, New Zealand, , Vettori, 19, 65, 44, 3, 0
+1896, 2008-11-28, 2, 7, New Zealand, c Fulton, Redmond, 169, 303, 222, 24, 2
+1899, 2008-11-17, 1, 7, South Africa, c Duminy, Ntini, 46, 117, 68, 4, 2
+1899, 2008-11-17, 3, 7, South Africa, st Boucher, Harris, 94, 208, 136, 7, 4
+1902, 2008-11-26, 1, 7, South Africa, c Smith, Ntini, 40, 88, 71, 5, 0
+1902, 2008-11-26, 3, 7, South Africa, c Kallis, Ntini, 10, 38, 35, 0, 1
+1904, 2009-01-03, 1, 7, South Africa, , Steyn, 38, 97, 79, 4, 1
+1910, 2009-02-26, 1, 7, South Africa, c Harris, Ntini, 63, 148, 105, 9, 0
+1910, 2009-02-26, 3, 7, South Africa, c Boucher, Ntini, 37, 83, 54, 1, 2
+1913, 2009-02-06, 1, 7, South Africa, c Amla, Ntini, 5, 23, 10, 0, 0
+1916, 2009-02-19, 1, 6, South Africa, lbw, Harris, 42, 101, 67, 8, 0
+1916, 2009-02-19, 3, 6, South Africa, c Duminy, Harris, 18, 40, 27, 3, 0
+1922, 2009-06-08, 2, 7, England, c Bopara, Collingwood, 121, 200, 151, 11, 3
+1925, 2009-06-16, 2, 7, England, c Cook, Broad, 28, 28, 38, 3, 0
+1925, 2009-06-16, 4, 7, England, c Collingwood, Flintoff, 80, 187, 130, 10, 0
+1929, 2009-07-07, 2, 7, England, c Bell, Harmison, 14, 25, 23, 1, 0
+1931, 2009-07-20, 2, 7, England, , Broad, 1, 13, 9, 0, 0
+1931, 2009-07-20, 4, 7, England, c Strauss, Swann, 34, 95, 49, 6, 0
+1936, 2009-10-26, 1, 7, West Indies, c Ramdin, Rampaul, 38, 136, 75, 6, 1
+1939, 2009-11-04, 2, 7, West Indies, not out, , 55, 96, 80, 5, 1
+1939, 2009-11-04, 4, 7, West Indies, not out, , 21, 94, 57, 2, 0
+1941, 2009-11-16, 1, 7, West Indies, c Ramdin, Roach, 88, 118, 91, 11, 2
+1941, 2009-11-16, 3, 6, West Indies, c Bravo, Benn, 23, 34, 28, 2, 1
+1943, 2009-11-26, 3, 7, Pakistan, c Kamran Akmal, Mohammad Amir, 0, 2, 2, 0, 0
+1945, 2010-01-03, 1, 7, Pakistan, c Mohammad Yousuf, Mohammad Asif, 6, 18, 9, 0, 0
+1945, 2010-01-03, 3, 7, Pakistan, lbw, Danish Kaneria, 15, 35, 25, 0, 0
+1947, 2010-01-14, 1, 7, Pakistan, c Umar Gul, Danish Kaneria, 41, 40, 34, 5, 1
+1947, 2010-01-14, 3, 5, Pakistan, run out (Mohammad Amir), , 8, 4, 3, 0, 1
+1955, 2010-02-19, 1, 7, New Zealand, not out, , 11, 30, 18, 2, 0
+1957, 2010-02-27, 1, 7, New Zealand,                c &, Southee, 12, 32, 31, 2, 0
+1957, 2010-02-27, 3, 7, New Zealand, , Patel, 48, 52, 40, 4, 3
+1981, 2010-10-25, 2, 7, England, c Collingwood, Swann, 136, 374, 287, 16, 1
+1983, 2010-11-03, 1, 7, England, c Finn, Broad, 56, 148, 95, 3, 1
+1983, 2010-11-03, 3, 7, England, c Prior, Anderson, 12, 24, 21, 2, 0
+1984, 2010-11-16, 1, 7, England, c Swann, Anderson, 53, 119, 80, 6, 1
+1984, 2010-11-16, 3, 7, England, , Tremlett, 7, 17, 10, 0, 1
+1986, 2010-11-26, 1, 7, England, c Strauss, Bresnan, 5, 23, 16, 1, 0
+1986, 2010-11-26, 3, 7, England, not out, , 55, 135, 93, 4, 1
+1989, 2011-01-03, 1, 6, England, c Prior, Anderson, 6, 15, 13, 0, 0
+1989, 2011-01-03, 3, 6, England, c Prior, Tremlett, 30, 51, 41, 3, 0
+2005, 2011-08-31, 1, 7, Sri Lanka, c Mathews, Randiv, 24, 44, 46, 3, 1
+2005, 2011-08-31, 3, 7, Sri Lanka, c DPMD Jayawardene, Herath, 0, 8, 5, 0, 0
+2007, 2011-08-08, 2, 7, Sri Lanka, c Sangakkara, Randiv, 1, 5, 5, 0, 0
+2008, 2011-08-16, 1, 7, Sri Lanka, c HAPW Jayawardene, Eranga, 35, 85, 57, 6, 0
+2008, 2011-08-16, 3, 7, Sri Lanka, c Lakmal, Herath, 30, 79, 62, 4, 0
+2016, 2011-10-09, 1, 7, South Africa, c Prince, Steyn, 5, 8, 8, 1, 0
+2016, 2011-10-09, 3, 6, South Africa, c Boucher, Philander, 0, 14, 3, 0, 0
+2018, 2011-10-17, 2, 7, South Africa, lbw, Imran Tahir, 16, 42, 23, 3, 0
+2018, 2011-10-17, 4, 7, South Africa, c Boucher, Philander, 55, 142, 106, 7, 0
+2020, 2011-11-01, 2, 7, New Zealand, c Martin, Guptill, 80, 251, 145, 6, 2
+2021, 2011-11-09, 2, 7, New Zealand, c McCullum, Bracewell, 5, 16, 13, 1, 0
+2021, 2011-11-09, 4, 7, New Zealand, c Taylor, Southee, 15, 28, 21, 2, 0

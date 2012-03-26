@@ -1,0 +1,115 @@
+
+Test # 262
+New Zealand in England, 1937, 3rd Test
+England v New Zealand
+Kennington Oval, London
+14,16,17 August 1937 (3-day match)
+
+Result: Match drawn
+Series: England wins the 3-match series 1-0
+
+Toss: New Zealand
+Umpires: A Dolphin and EJ Smith
+Test debuts: DCS Compton, ADG Matthews, C Washbrook (England).
+
+Close of play:
+ Day 1: New Zealand 20/0 (Vivian 13*, Hadlee 7*)
+ Day 2: New Zealand 249, England 86/3 (Compton 28*, Hardstaff 23*)
+
+New Zealand 1st innings                                         R   M   B  4 6
+HG Vivian             c Ames             b Gover               13            0
+WA Hadlee                                b Matthews            18            0
+WM Wallace            run out                                   8            0
+GL Weir               c Matthews         b Gover                3          0 0
+MP Donnelly           c Hutton           b Robins              58  60      6 0
+DAR Moloney                              b Hammond             23            0
+*ML Page              c Washbrook        b Robins              53            0
+AW Roberts            c Hutton           b Gover               50          6 0
++EWT Tindill                             b Robins               4            0
+JA Dunning            c Gover            b Robins               0          0 0
+J Cowie               not out                                   4            0
+Extras                (b 2, lb 11, nb 2)                       15
+Total                 (all out, 83.1 overs)                   249
+
+FoW: 1-22 (Vivian), 2-36 (Hadlee), 3-42 (Wallace), 4-47 (Weir),
+     5-97 (Moloney), 6-145 (Donnelly), 7-222 (Roberts),
+     8-244 (Tindill), 9-244 (Dunning), 10-249 (Page).
+
+Bowling                      O      M      R      W
+Gover                       28      3     85      3
+Matthews                    22      6     52      1
+Goddard                     10      2     25      0
+Hammond                      7      1     25      1
+Robins                      14.1    2     40      4
+Hutton                       2      0      7      0
+
+England 1st innings                                             R   M   B  4 6
+CJ Barnett            c Hadlee           b Cowie               13            0
+L Hutton                             c & b Vivian              12            0
+C Washbrook           lbw                b Vivian               9            0
+DCS Compton           run out                                  65 120        0
+J Hardstaff jnr                          b Cowie              103 180     16 0
+WR Hammond            c Wallace          b Cowie               31            0
++LEG Ames             not out                                   6            0
+*RWV Robins                          c & b Roberts              9            0
+ADG Matthews          not out                                   2          0 0
+Extras                (b 2, lb 1, w 1)                          4
+Total                 (7 wickets dec, 93 overs)               254
+
+DNB: TWJ Goddard, AR Gover.
+
+FoW: 1-15 (Barnett), 2-31 (Washbrook), 3-36 (Hutton),
+     4-161 (Compton), 5-222 (Hammond), 6-240 (Hardstaff),
+     7-249 (Robins).
+
+Bowling                      O      M      R      W
+Cowie                       24      5     73      3
+Roberts                     15      4     26      1
+Dunning                     25      5     89      0
+Vivian                      29      5     62      2
+
+New Zealand 2nd innings                                         R   M   B  4 6
+HG Vivian             lbw                b Hammond             57  90      7 0
+WA Hadlee             c Compton          b Matthews             0          0 0
+WM Wallace            lbw                b Gover                7            0
+GL Weir               c Barnett          b Goddard              8            0
+DAR Moloney                              b Compton             38 125        0
+MP Donnelly           c Ames             b Hammond              0          0 0
+AW Roberts            lbw                b Goddard              9            0
++EWT Tindill          not out                                  37  90        0
+JA Dunning                               b Compton             19            0
+J Cowie               c Robins           b Hutton               2          0 0
+*ML Page              absent hurt                               -
+Extras                (b 4, lb 5, nb 1)                        10
+Total                 (all out, 68.4 overs)                   187
+
+FoW: 1-4 (Hadlee), 2-19 (Wallace), 3-46 (Weir), 4-87 (Vivian),
+     5-94 (Donnelly), 6-107 (Roberts), 7-150 (Moloney),
+     8-182 (Dunning), 9-187 (Cowie).
+
+Bowling                      O      M      R      W
+Gover                       12      1     42      1
+Matthews                     8      2     13      1
+Goddard                     18      8     41      2
+Hammond                     11      3     19      2
+Robins                      11      2     24      0
+Hutton                       2.4    1      4      1
+Compton                      6      0     34      2
+
+England 2nd innings (target: 183 runs)                          R   M   B  4 6
+CJ Barnett            c Roberts          b Dunning             21            0
+C Washbrook           not out                                   8            0
+Extras                (lb 2)                                    2
+Total                 (1 wicket, 9.2 overs)                    31
+
+DNB: L Hutton, DCS Compton, J Hardstaff jnr, WR Hammond,
+     +LEG Ames, *RWV Robins, ADG Matthews, TWJ Goddard, AR Gover.
+
+FoW: 1-31 (Barnett).
+
+Bowling                      O      M      R      W
+Cowie                        4      1     15      0
+Roberts                      4      1      9      0
+Dunning                      1.2    0      5      1
+
+<END>

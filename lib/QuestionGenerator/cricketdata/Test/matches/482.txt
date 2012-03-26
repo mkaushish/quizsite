@@ -1,0 +1,106 @@
+
+Test # 482
+Australia in India, 1959/60, 1st Test
+India v Australia
+Feroz Shah Kotla, Delhi
+12,13,14,16 December 1959 (5-day match)
+
+Result: Australia won by an innings and 127 runs
+Series: Australia leads the 5-match series 1-0
+
+Toss: India
+Umpires: SK Ganguli and Mohammad Yunus
+Test debut: VM Muddiah (India).
+
+Close of play:
+ Day 1: India 135, Australia 22/0 (McDonald 9*, Favell 13*)
+ Day 2: Australia 293/4 (Mackay 50*, Davidson 12*)
+ Day 3: Australia 468, India 46/0 (Roy 25*, Contractor 12*)
+
+India 1st innings                                               R   M   B  4 6
+P Roy                 c Grout            b Davidson             0          0 0
+NJ Contractor                            b Davidson            41 130        0
+PR Umrigar            c Grout            b Davidson             0          0 0
+AA Baig                                  b Rorke                9            0
+CG Borde              c Grout            b Meckiff             14            0
+*GS Ramchand          c Grout            b Kline               20            0
+RG Nadkarni                              b Rorke                1          0 0
++PG Joshi                                b Benaud              15            0
+Surendranath          not out                                  24            0
+VM Muddiah            lbw                b Benaud               0          0 0
+RB Desai              c O'Neill          b Benaud               0          0 0
+Extras                (b 6, lb 2, nb 3)                        11
+Total                 (all out, 59.4 overs)                   135
+
+FoW: 1-4 (Roy), 2-8 (Umrigar), 3-32 (Baig), 4-66 (Borde),
+     5-69 (Contractor), 6-70 (Nadkarni), 7-100 (Ramchand),
+     8-131 (Joshi), 9-135 (Muddiah), 10-135 (Desai).
+
+Bowling                      O      M      R      W
+Davidson                    14      9     22      3
+Meckiff                     17      4     52      1
+Rorke                       14      5     30      2
+Kline                        9      3     15      1
+Benaud                       3.4    3      0      3
+Mackay                       1      0      1      0
+O'Neill                      1      0      4      0
+
+Australia 1st innings                                           R   M   B  4 6
+CC McDonald                              b Surendranath        20            0
+LE Favell                                b Surendranath        39            0
+RN Harvey             lbw                b Nadkarni           114 230        0
+NC O'Neill            run out                                  39            0
+KD Mackay             c Joshi            b Umrigar             78            0
+AK Davidson           c Baig             b Desai               25            1
+*R Benaud             c Borde            b Umrigar             20            0
++ATW Grout                               b Umrigar             42            0
+LF Kline                             c & b Ramchand            14            0
+I Meckiff             not out                                  45            0
+GF Rorke              c sub              b Umrigar              7            0
+Extras                (b 11, lb 13, nb 1)                      25
+Total                 (all out, 143 overs)                    468
+
+FoW: 1-53 (McDonald), 2-64 (Favell), 3-143 (O'Neill),
+     4-275 (Harvey), 5-318 (Davidson), 6-353 (Mackay),
+     7-398 (Benaud), 8-402 (Grout), 9-443 (Kline),
+     10-468 (Rorke).
+
+Bowling                      O      M      R      W
+Desai                       34.3    3    123      1
+Surendranath                38      8    101      2
+Borde                       15      3     49      0
+Muddiah                     13      4     32      0
+Nadkarni                    20      6     62      1
+Ramchand                     7      1     27      1
+Umrigar                     15.3    1     49      4
+
+India 2nd innings                                               R   M   B  4 6
+P Roy                 c Benaud           b Kline               99            0
+NJ Contractor         c Favell           b Benaud              34            0
+AA Baig               run out                                   5            0
+CG Borde              c Davidson         b Benaud               0          0 0
+PR Umrigar            c Favell           b Kline               32            0
+*GS Ramchand          c Davidson         b Kline                6            0
+RG Nadkarni           lbw                b Benaud               7            0
++PG Joshi             c Davidson         b Kline                8            0
+Surendranath          c Davidson         b Benaud               0          0 0
+VM Muddiah            not out                                   0          0 0
+RB Desai              c Meckiff          b Benaud               0          0 0
+Extras                (b 8, lb 5, nb 2)                        15
+Total                 (all out, 111 overs)                    206
+
+FoW: 1-121 (Contractor), 2-132 (Baig), 3-132 (Borde),
+     4-172 (Roy), 5-187 (Umrigar), 6-192 (Ramchand),
+     7-202 (Nadkarni), 8-206 (Joshi), 9-206 (Surendranath),
+     10-206 (Desai).
+
+Bowling                      O      M      R      W
+Davidson                    14      5     16      0
+Meckiff                     14      3     33      0
+Rorke                        7      3      5      0
+Kline                       24     12     42      4
+Benaud                      46     18     76      5
+O'Neill                      5      0     19      0
+Harvey                       1      1      0      0
+
+<END>

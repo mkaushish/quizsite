@@ -158,7 +158,7 @@ module Chapter3
       for i in 0...@len2  
         num2 = num2*@nums2[i]
       end
-      [TextLabel.new("Give the common factors of #{num1} and#{num2}"), MultiTextField.new("ans")]
+      [TextLabel.new("Give the common factors of #{num1} and #{num2}"), MultiTextField.new("ans")]
     end
   end
 
@@ -271,7 +271,8 @@ module Chapter3
 
   end
 
-  class Div_11 < QuestionBase
+  class Div_11 < QuestionWithExplanation
+
     def initialize
       @num =Grade6ops::divgen(11)
     end
@@ -315,7 +316,9 @@ module Chapter3
     end
 
     def solve
-      @nums 
+      ret = {}
+      @nums.each_with_index { |num,i| ret["ans_#{i}"] = num }
+      ret
     end
 
     def correct?(params)
@@ -323,7 +326,7 @@ module Chapter3
       bool = true
       for i in 0...@nums.length do
         bool = false if !ODDPRIMES.member?(HTMLObj::get_result("ans"+i.to_s, params).to_i)
-        solsum+=HTMLObj::get_result("ans"+i.to_s, params)
+        solsum+=HTMLObj::get_result("ans"+i.to_s, params).to_i
       end
       return true if bool && solsum==@sum
       return false
@@ -341,15 +344,15 @@ module Chapter3
 
 
   MAXHL=500
-  class HCFLCM < QuestionBase
-    @@primes=[2,2,2,3,3,3,5,5,7,11]
+  class HCFLCM < QuestionWithExplanation
+    @@primes=[2,2,2,2,2,3,3,3,3,5,5,5,7,11]
 
     def initialize()
 
       @nums1=Array.new
       @pro1=MAXHL+1
       while @pro1 > MAXHL
-        @len1=rand(3)+3
+        @len1=rand(3)+2
         for i in 0...@len1 do
           @nums1[i]=@@primes[rand(@@primes.length)]
         end
@@ -358,7 +361,7 @@ module Chapter3
       @nums2=Array.new
       @pro2=MAXHL+1
       while @pro2 >MAXHL
-        @len2=rand(3)+3
+        @len2=rand(3)+2
         for i in 0...@len2 do
           @nums2[i]=@@primes[rand(@@primes.length)]
         end

@@ -1,0 +1,80 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+967, 1983-11-12, 2, 3, West Indies, run out, , 15, na, na, na, 0
+967, 1983-11-12, 4, 3, West Indies, c Dujon, Holding, 4, na, na, na, 0
+972, 1983-12-24, 2, 2, West Indies, c Richards, Roberts, 20, 114, na, na, 0
+1107, 1988-11-12, 1, 3, New Zealand, c Jones, Gray, 116, 295, 195, 12, 4
+1107, 1988-11-12, 3, 3, New Zealand, not out, , 43, 72, 49, 2, 0
+1109, 1988-11-24, 2, 3, New Zealand, lbw, Chatfield, 6, 29, 20, 0, 0
+1109, 1988-11-24, 4, 3, New Zealand, , Bracewell, 14, 76, 38, 1, 0
+1111, 1988-12-02, 2, 3, New Zealand, c Franklin, Snedden, 19, 56, 46, 2, 0
+1117, 1989-03-25, 2, 2, West Indies, not out, , 42, 152, 104, 5, 0
+1118, 1989-04-07, 1, 2, West Indies, c Richards, Walsh, 9, 87, 55, 0, 0
+1118, 1989-04-07, 3, 2, West Indies, c Logie, Marshall, 0, 10, 9, 0, 0
+1119, 1989-04-15, 2, 2, West Indies, , Marshall, 11, 75, 50, 1, 0
+1119, 1989-04-15, 4, 2, West Indies, c Dujon, Ambrose, 1, 62, 40, 0, 0
+1120, 1989-04-28, 1, 1, West Indies, c Richards, Walsh, 116, 358, 237, 13, 0
+1120, 1989-04-28, 3, 1, West Indies, c Greenidge, Walsh, 0, 7, 4, 0, 0
+1127, 1989-11-15, 2, 2, Pakistan, , Wasim Akram, 0, 10, 3, 0, 0
+1127, 1989-11-15, 4, 2, Pakistan, c Rameez Raja, Imran Khan, 85, 230, 155, 12, 1
+1128, 1989-11-23, 1, 2, Pakistan, c Nadeem Abbasi, Wasim Akram, 20, 118, 71, 1, 0
+1128, 1989-11-23, 3, 2, Pakistan, run out, , 51, 88, 69, 6, 0
+1130, 1989-12-01, 1, 2, Pakistan, lbw, Imran Khan, 4, 12, 4, 1, 0
+1132, 1989-12-09, 1, 2, Pakistan, c Rameez Raja, Wasim Akram, 12, 43, 29, 0, 0
+1132, 1989-12-09, 3, 2, Pakistan, c Imran Khan, Zakir Khan, 97, 346, 234, 13, 0
+1136, 1990-02-02, 2, 2, New Zealand, lbw, Morrison, 51, 164, 104, 5, 0
+1136, 1990-02-02, 3, 11, New Zealand, absent hurt, , -, , , , 
+1148, 1990-07-26, 2, 2, England, c Morris, Fraser, 30, 76, 56, 2, 0
+1148, 1990-07-26, 4, 2, England, c Morris, Fraser, 1, 9, 5, 0, 0
+1149, 1990-08-09, 2, 2, England, c Gooch, Fraser, 13, 24, 16, 1, 0
+1149, 1990-08-09, 4, 2, England, c sub (CJ Adams), Fraser, 0, 5, 1, 0, 0
+1150, 1990-08-23, 1, 2, England, c Russell, Fraser, 12, 15, 12, 2, 0
+1181, 1992-01-02, 2, 2, Australia, c Waugh, McDermott, 0, 11, 7, 0, 0
+1184, 1992-01-25, 2, 2, Australia, c Healy, Hughes, 27, 136, 97, 2, 0
+1184, 1992-01-25, 4, 2, Australia, lbw, Hughes, 35, 99, 74, 4, 0
+1186, 1992-02-01, 2, 2, Australia, c Healy, Hughes, 5, 39, 25, 0, 0
+1186, 1992-02-01, 4, 2, Australia, c Jones, Reiffel, 35, 126, 92, 5, 0
+1211, 1993-01-29, 1, 2, England, c Hick, Taylor, 13, 101, 73, 3, 0
+1211, 1993-01-29, 4, 2, England, st Stewart, Hick, 37, 102, 68, 5, 1
+1213, 1993-02-11, 1, 2, England, c Hick, Jarvis, 106, 403, 273, 9, 0
+1214, 1993-02-19, 2, 1, England, c Smith, Tufnell, 79, 265, 201, 12, 1
+1218, 1993-03-13, 1, 2, Zimbabwe, lbw, Traicos, 61, 147, 98, 10, 0
+1228, 1993-07-27, 1, 2, Sri Lanka, c Tillakaratne, Warnaweera, 82, 225, 140, 12, 1
+1228, 1993-07-27, 3, 2, Sri Lanka, c AM de Silva, Hathurusingha, 104, 384, 268, 7, 0
+1229, 1993-08-04, 2, 2, Sri Lanka, c Kaluwitharana, Wickramasinghe, 39, 160, 123, 5, 0
+1244, 1994-01-18, 1, 2, Sri Lanka, c Kalpage, Muralitharan, 124, 280, 223, 9, 8
+1245, 1994-01-26, 1, 2, Sri Lanka, lbw, Muralitharan, 99, 291, 228, 9, 2
+1247, 1994-02-08, 2, 2, Sri Lanka, c Kalpage, Muralitharan, 43, 177, 115, 4, 1
+1255, 1994-03-19, 2, 2, New Zealand, , Morrison, 10, 41, 24, 0, 0
+1255, 1994-03-19, 4, 2, New Zealand, c Parore, Hart, 98, 224, 177, 8, 3
+1274, 1994-11-18, 1, 2, West Indies, lbw, Walsh, 18, 137, 89, 2, 0
+1274, 1994-11-18, 3, 2, West Indies, lbw, Benjamin, 12, 79, 56, 1, 0
+1277, 1994-12-01, 1, 2, West Indies, c Murray, Hooper, 107, 298, 231, 17, 0
+1277, 1994-12-01, 3, 2, West Indies, c Simmons, Hooper, 76, 235, 165, 7, 0
+1278, 1994-12-10, 2, 2, West Indies, , Walsh, 0, 3, 3, 0, 0
+1278, 1994-12-10, 4, 2, West Indies, lbw, Benjamin, 11, 46, 32, 1, 0
+1309, 1995-10-25, 1, 3, New Zealand, c Twose, Cairns, 33, 118, 105, 2, 0
+1310, 1995-11-08, 1, 3, New Zealand, c Fleming, Nash, 41, 159, 121, 2, 0
+1357, 1997-03-06, 2, 2, West Indies, lbw, Bishop, 10, 52, 32, 1, 0
+1357, 1997-03-06, 4, 2, West Indies, c Holder, Walsh, 0, 14, 7, 0, 0
+1361, 1997-03-14, 2, 2, West Indies, , Ambrose, 201, 673, 491, 19, 1
+1363, 1997-03-27, 2, 2, West Indies, c Browne, Rose, 26, 57, 31, 6, 0
+1363, 1997-03-27, 4, 2, West Indies, c Williams, Rose, 3, 22, 10, 0, 0
+1365, 1997-04-17, 1, 2, West Indies, c Hooper, Walsh, 36, 164, 104, 6, 0
+1374, 1997-08-02, 1, 2, Sri Lanka, c Kaluwitharana, Vaas, 111, 250, 200, 13, 2
+1376, 1997-08-09, 2, 2, Sri Lanka, st Kaluwitharana, Muralitharan, 29, 129, 72, 4, 0
+1376, 1997-08-09, 4, 2, Sri Lanka, c Jayasuriya, Vaas, 16, 70, 42, 2, 0
+1385, 1997-11-19, 2, 2, Sri Lanka, run out (PA de Silva/SKL de Silva), , 131, 476, 372, 14, 2
+1387, 1997-11-26, 1, 2, Sri Lanka, c Atapattu, Vaas, 79, 214, 162, 13, 1
+1390, 1997-12-03, 1, 2, Sri Lanka, c Mahanama, Dharmasena, 35, 113, 67, 5, 0
+1390, 1997-12-03, 3, 2, Sri Lanka, c Pushpakumara, Jayasuriya, 43, 109, 70, 5, 1
+1405, 1998-03-06, 1, 2, Australia, run out (ME Waugh), , 62, 189, 133, 7, 2
+1405, 1998-03-06, 3, 2, Australia, c Ponting, Robertson, 64, 171, 127, 10, 1
+1409, 1998-03-18, 2, 2, Australia, lbw, ME Waugh, 97, 204, 152, 16, 0
+1413, 1998-03-25, 1, 2, Australia, , Warne, 74, 162, 135, 8, 3
+1413, 1998-03-25, 3, 2, Australia, c Lehmann, Warne, 44, 90, 62, 6, 1
+1425, 1998-10-07, 2, 2, Zimbabwe, c Flower, Olonga, 6, 57, 36, 1, 0
+1425, 1998-10-07, 4, 2, Zimbabwe, c Johnson, Streak, 0, 8, 9, 0, 0
+1435, 1998-12-26, 1, 1, New Zealand, c Fleming, Doull, 0, 3, 6, 0, 0
+1435, 1998-12-26, 3, 2, New Zealand, lbw, Doull, 34, 94, 66, 4, 2
+1438, 1999-01-02, 2, 1, New Zealand, c Parore, Cairns, 1, 14, 12, 0, 0
+1438, 1999-01-02, 4, 2, New Zealand, , Cairns, 13, 32, 23, 3, 0

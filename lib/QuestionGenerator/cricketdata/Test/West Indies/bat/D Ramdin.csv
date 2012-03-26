@@ -1,0 +1,74 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+1755, 2005-06-13, 1, 7, Sri Lanka, , Wijekoon, 56, 83, 73, 9, 0
+1755, 2005-06-13, 3, 7, Sri Lanka, lbw, Muralitharan, 11, 58, 34, 1, 0
+1757, 2005-06-22, 2, 7, Sri Lanka, lbw, Vaas, 13, 56, 41, 2, 0
+1757, 2005-06-22, 4, 7, Sri Lanka, , Muralitharan, 28, 62, 51, 5, 0
+1769, 2005-10-03, 2, 7, Australia, not out, , 37, 100, 76, 6, 0
+1769, 2005-10-03, 4, 7, Australia, c Gilchrist, Lee, 6, 12, 16, 0, 0
+1771, 2005-10-17, 1, 8, Australia, c Warne, MacGill, 2, 8, 7, 0, 0
+1771, 2005-10-17, 3, 8, Australia, c Warne, MacGill, 71, 225, 190, 6, 0
+1773, 2005-10-25, 1, 8, Australia, lbw, McGrath, 27, 69, 44, 4, 0
+1773, 2005-10-25, 3, 9, Australia, c Gilchrist, Warne, 28, 59, 50, 4, 0
+1787, 2006-02-09, 2, 9, New Zealand,                c &, Vettori, 9, 20, 15, 2, 0
+1787, 2006-02-09, 4, 8, New Zealand, c Franklin, Vettori, 15, 61, 52, 1, 0
+1790, 2006-02-17, 1, 7, New Zealand, , Franklin, 2, 8, 6, 0, 0
+1790, 2006-02-17, 3, 7, New Zealand, , Vettori, 7, 69, 55, 1, 0
+1805, 2006-05-02, 2, 7, India, c Dhoni, Patel, 26, 90, 68, 3, 0
+1805, 2006-05-02, 4, 7, India, c Dravid, Sehwag, 8, na, 21, 1, 0
+1806, 2006-05-10, 2, 7, India, c Dhoni, Patel, 30, na, 83, 4, 0
+1806, 2006-05-10, 3, 7, India, not out, , 19, na, 62, 2, 0
+1807, 2006-05-22, 1, 8, India, c Jaffer, Harbhajan Singh, 3, na, 5, 0, 0
+1807, 2006-05-22, 3, 8, India, not out, , 8, na, 7, 1, 0
+1808, 2006-06-30, 2, 8, India, c Yuvraj Singh, Harbhajan Singh, 10, 24, 14, 2, 0
+1808, 2006-06-30, 4, 8, India, not out, , 62, 111, 85, 8, 1
+1815, 2006-10-11, 1, 7, Pakistan, c Mohammad Hafeez, Danish Kaneria, 12, 32, 27, 2, 0
+1815, 2006-10-11, 3, 8, Pakistan, c Imran Farhat, Danish Kaneria, 1, 13, 9, 0, 0
+1816, 2006-10-19, 2, 7, Pakistan, c Kamran Akmal, Shahid Nazir, 11, 47, 39, 1, 0
+1818, 2006-11-27, 2, 8, Pakistan, run out (Mohammad Yousuf/Abdul Razzaq), , 50, na, 95, 7, 0
+1818, 2006-11-27, 4, 8, Pakistan, not out, , 25, na, 71, 2, 0
+1831, 2007-04-17, 2, 8, England, c Collingwood, Plunkett, 60, 100, 87, 11, 0
+1834, 2007-04-25, 2, 7, England, c Prior, Plunkett, 6, 13, 15, 1, 0
+1834, 2007-04-25, 3, 8, England, lbw, Harmison, 5, 20, 20, 0, 0
+1835, 2007-05-07, 2, 7, England, c Pietersen, Sidebottom, 5, 21, 11, 1, 0
+1835, 2007-05-07, 4, 7, England, c Collingwood, Panesar, 34, 93, 74, 6, 0
+1836, 2007-05-15, 1, 8, England, c Collingwood, Sidebottom, 13, 27, 22, 2, 0
+1836, 2007-05-15, 3, 8, England, , Panesar, 4, 14, 12, 0, 0
+1856, 2007-11-26, 1, 7, South Africa, c Boucher, Ntini, 1, 12, 10, 0, 0
+1856, 2007-11-26, 3, 7, South Africa, c Gibbs, Steyn, 0, 20, 7, 0, 0
+1858, 2008-01-02, 1, 7, South Africa, lbw, Steyn, 21, 67, 55, 2, 0
+1858, 2008-01-02, 3, 2, South Africa, c Boucher, Kallis, 32, 109, 79, 5, 0
+1860, 2008-01-10, 1, 7, South Africa, c Gibbs, Nel, 30, 33, 25, 5, 0
+1860, 2008-01-10, 3, 6, South Africa, c Boucher, Nel, 25, 48, 38, 5, 0
+1869, 2008-02-22, 2, 8, Sri Lanka, c Sangakkara, Vaas, 38, 97, 74, 1, 0
+1869, 2008-02-22, 4, 8, Sri Lanka, c DPMD Jayawardene, Thushara, 1, 5, 7, 0, 0
+1872, 2008-03-03, 2, 8, Sri Lanka, c Jayawardene, Muralitharan, 13, na, 44, 0, 0
+1875, 2008-04-22, 2, 7, Australia, c Haddin, Lee, 0, 9, 9, 0, 0
+1875, 2008-04-22, 4, 7, Australia, run out (MacGill), , 36, 91, 61, 5, 0
+1877, 2008-05-30, 2, 7, Australia, lbw, Lee, 0, 1, 1, 0, 0
+1877, 2008-05-30, 4, 7, Australia, not out, , 21, 47, 45, 3, 0
+1879, 2008-05-12, 2, 7, Australia, c Clarke, Johnson, 1, 16, 12, 0, 0
+1879, 2008-05-12, 4, 6, Australia, lbw, Clark, 8, 51, 27, 1, 0
+1897, 2008-11-11, 2, 7, New Zealand, lbw, Vettori, 5, 16, 5, 1, 0
+1900, 2008-11-19, 1, 7, New Zealand, , Vettori, 6, 28, 10, 1, 0
+1900, 2008-11-19, 3, 7, New Zealand, c Flynn, Franklin, 6, 31, 22, 0, 0
+1906, 2009-01-04, 2, 7, England, c Collingwood, Panesar, 35, 111, 77, 4, 0
+1908, 2009-01-15, 2, 8, England,                c &, Swann, 0, 1, 1, 0, 0
+1908, 2009-01-15, 4, 7, England, , Anderson, 21, 101, 76, 3, 0
+1911, 2009-02-26, 2, 7, England, , Swann, 166, 424, 268, 20, 0
+1914, 2009-02-06, 2, 9, England, lbw, Anderson, 15, 62, 49, 3, 0
+1914, 2009-02-06, 4, 7, England, not out, , 17, 120, 87, 2, 0
+1919, 2009-04-06, 2, 7, England, lbw, Onions, 5, 15, 6, 1, 0
+1919, 2009-04-06, 3, 7, England, , Broad, 61, 140, 98, 13, 0
+1920, 2009-04-14, 2, 7, England, c Swann, Anderson, 55, 140, 82, 7, 1
+1920, 2009-04-14, 3, 7, England, c Anderson, Bresnan, 0, 5, 2, 0, 0
+1936, 2009-10-26, 2, 7, Australia, c North, Johnson, 54, 75, 55, 9, 0
+1936, 2009-10-26, 3, 7, Australia, c Haddin, Hauritz, 16, 35, 27, 2, 0
+1939, 2009-11-04, 1, 7, Australia, , Watson, 4, 3, 3, 1, 0
+1939, 2009-11-04, 3, 7, Australia, , Johnson, 0, 2, 2, 0, 0
+1941, 2009-11-16, 2, 7, Australia, , Bollinger, 8, 36, 12, 2, 0
+1941, 2009-11-16, 4, 7, Australia, , McKay, 14, 10, 21, 3, 0
+1960, 2010-05-10, 2, 7, South Africa, not out, , 25, na, 31, 4, 0
+1960, 2010-05-10, 4, 7, South Africa, c de Villiers, Tsotsobe, 9, na, 43, 0, 0
+1961, 2010-05-18, 2, 7, South Africa, c Petersen, Tsotsobe, 1, na, 4, 0, 0
+1962, 2010-05-26, 1, 7, South Africa, c Steyn, Kallis, 27, na, 71, 4, 0
+1962, 2010-05-26, 3, 7, South Africa, c Boucher, Botha, 1, na, 5, 0, 0

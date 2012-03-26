@@ -212,7 +212,7 @@ module Chapter1
 
   class EstimateArithmetic < QuestionWithExplanation
     attr_accessor :op, :n1, :n2
-    @type = "Estimating Arithmetic"
+    @type = "Estimating with the General Rule"
 
     def bigger
       (@n1 > @n2) ? n1 : n2
@@ -243,7 +243,7 @@ module Chapter1
     end
 
     def text
-      [ TextLabel.new("Estimate the value of #{@n1} #{@op} #{@n2}"),
+      [ TextLabel.new("Estimate the value of #{@n1} #{@op} #{@n2} using the General Rule"),
         TextField.new("ans")
       ]
     end
@@ -256,11 +256,11 @@ module Chapter1
       solution = big_round.send(@op, small_round)
 
       return [ 
-        Subproblem.new( [ TextLabel.new("First pick the smallest number, because we want to round off to the most significant digit of " + 
+        Subproblem.new( [ TextLabel.new("First pick the smallest number, because we need to round off to the most significant digit of " + 
                                         "the smaller number"),
                           RadioButton.new("small", @n1, @n2)
                         ], {"small" => smaller}),
-        Subproblem.new(  [ TextLabel.new("Now round off #{small} according to the general rule"),
+        Subproblem.new(  [ TextLabel.new("Now round off #{small} according to the general rule for rounding"),
                           TextField.new("small_round")
                         ], {"small_round" => smaller.gen_rule}),
         Subproblem.new( [ TextLabel.new("Because #{small} is #{small.to_s.length} digits long, we need to round off the last " +
@@ -319,7 +319,7 @@ module Chapter1
   # note that I have to be at the end to compile :(
   PROBLEMS = [  Chapter1::FindMaxNumber,      Chapter1::FindMinNumber,        
                 #Chapter1::ArrangeAscending,    Chapter1::ArrangeDescending,  
-                #Chapter1::WritingIndian,      Chapter1::WritingInternational, 
+                Chapter1::WritingIndian,      Chapter1::WritingInternational, 
                 Chapter1::ReadingIndian,      Chapter1::ReadingInternational, 
                 Chapter1::AddCommasIndian,    Chapter1::AddCommasInternational,    
                 Chapter1::EstimateArithmetic, 

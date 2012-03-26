@@ -1,0 +1,124 @@
+
+Test # 554
+England in India, 1963/64, 3rd Test
+India v England
+Eden Gardens, Calcutta
+29,30 January, 1,2,3 February 1964 (5-day match)
+
+Result: Match drawn
+Series: 5-match series level 0-0
+
+Toss: India
+Umpires: MV Nagendra and S Roy
+
+Close of play:
+ Day 1: India 230/9 (Nadkarni 33*, Chandrasekhar 15*)
+ Day 2: India 241, England 149/3 (Cowdrey 41*, Parks 29*)
+ Day 3: England 235/7 (Cowdrey 90*, Titmus 12*)
+ Day 4: England 267, India 180/2 (Jaisimha 103*, Manjrekar 4*)
+
+India 1st innings                                               R   M   B  4 6
+ML Jaisimha           c Binks            b Price               33  45      6 0
++BK Kunderan          c Binks            b Price               23  30      3 0
+DN Sardesai           c Binks            b Larter              54 172      6 0
+VL Manjrekar                         c & b Price               25  80      3 0
+RF Surti                                 b Price                0   5      0 0
+CG Borde              c Cowdrey          b Wilson              21  63      4 0
+*Nawab of Pataudi jnr c Binks            b Wilson               2  34      0 0
+SA Durani             c Binks            b Price                8  20      1 0
+RG Nadkarni           not out                                  43 122      5 0
+RB Desai              lbw                b Titmus              11  40      2 0
+BS Chandrasekhar      c Cowdrey          b Knight              16  76      3 0
+Extras                (lb 1, nb 4)                              5
+Total                 (all out, 85.2 overs)                   241
+
+FoW: 1-47 (Kunderan), 2-61 (Jaisimha), 3-103 (Manjrekar),
+     4-103 (Surti), 5-150 (Borde), 6-158 (Sardesai),
+     7-169 (Pataudi), 8-169 (Durani), 9-190 (Desai),
+     10-241 (Chandrasekhar).
+
+Bowling                      O      M      R      W
+Knight                      13.2    5     39      1
+Price                       23      4     73      5
+Larter                      18      4     61      1
+Titmus                      15      4     46      1
+Wilson                      16     10     17      2
+
+England 1st innings                                             R   M   B  4 6
+JB Bolus                             c & b Durani              39 153      3 0
++JG Binks             c Desai            b Durani              13  67      1 0
+*MJK Smith            c Jaisimha         b Borde               19  60      2 0
+MC Cowdrey            c Pataudi          b Desai              107 380     17 0
+JM Parks              lbw                b Nadkarni            30 165      2 0
+PH Parfitt                           c & b Desai                4  60      0 0
+D Wilson              st Kunderan        b Chandrasekhar        1  15      0 0
+BR Knight             c Manjrekar        b Nadkarni            13  29      2 0
+FJ Titmus                                b Desai               26  95      3 0
+JSE Price             not out                                   1  13      0 0
+JDF Larter            c Manjrekar        b Desai                0   8      0 0
+Extras                (b 6, lb 5, nb 3)                        14
+Total                 (all out, 148.5 overs)                  267
+
+FoW: 1-40 (Binks), 2-74 (Smith), 3-77 (Bolus), 4-158 (Parks),
+     5-175 (Parfitt), 6-193 (Wilson), 7-214 (Knight),
+     8-258 (Cowdrey), 9-267 (Titmus), 10-267 (Larter).
+
+Bowling                      O      M      R      W
+Desai                       22.5    3     62      4
+Surti                        6      2      8      0
+Jaisimha                     4      1     10      0
+Durani                      22      7     59      2
+Borde                       31     14     40      1
+Chandrasekhar               21      5     36      1
+Nadkarni                    42     24     38      2
+
+India 2nd innings                                               R   M   B  4 6
+ML Jaisimha           c Larter           b Titmus             129 315     18 1
++BK Kunderan          lbw                b Wilson              27  80      5 0
+DN Sardesai                          c & b Parfitt             36 127      4 0
+VL Manjrekar                             b Parfitt             16 120      1 0
+*Nawab of Pataudi jnr c Smith            b Larter              31  73      5 0
+CG Borde              c Parks            b Titmus               8  20      1 0
+SA Durani             c Cowdrey          b Larter              25  53      3 1
+RG Nadkarni           not out                                  10  20      0 0
+RB Desai              not out                                   2  12      0 0
+Extras                (b 7, lb 5, nb 4)                        16
+Total                 (7 wickets dec, 120 overs)              300
+
+DNB: RF Surti, BS Chandrasekhar.
+
+FoW: 1-80 (Kunderan), 2-161 (Sardesai), 3-217 (Jaisimha),
+     4-218 (Manjrekar), 5-237 (Borde), 6-272 (Pataudi),
+     7-289 (Durani).
+
+Bowling                      O      M      R      W
+Knight                       4      0     33      0
+Price                        7      0     31      0
+Larter                       8      0     27      2
+Titmus                      46     23     67      2
+Wilson                      21      7     55      1
+Parfitt                     34     16     71      2
+
+England 2nd innings (target: 275 runs)                          R   M   B  4 6
+JB Bolus              c Jaisimha         b Borde               35 100      5 0
++JG Binks                                b Durani              13  55      1 0
+*MJK Smith            not out                                  75 113      8 2
+MC Cowdrey            not out                                  13  70      1 0
+Extras                (b 9)                                     9
+Total                 (2 wickets, 55 overs)                   145
+
+DNB: JM Parks, PH Parfitt, D Wilson, BR Knight, FJ Titmus,
+     JSE Price, JDF Larter.
+
+FoW: 1-30 (Binks), 2-87 (Bolus).
+
+Bowling                      O      M      R      W
+Desai                        5      0     12      0
+Jaisimha                    13      5     32      0
+Durani                       8      3     15      1
+Borde                       15      5     39      1
+Chandrasekhar                8      2     20      0
+Pataudi                      3      1      8      0
+Sardesai                     3      0     10      0
+
+<END>

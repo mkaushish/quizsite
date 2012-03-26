@@ -1,0 +1,103 @@
+
+Test # 1022
+The Ashes, 1985, 6th Test
+England v Australia
+Kennington Oval, London
+29,30,31 August, 2 September 1985 (5-day match)
+
+Result: England won by an innings and 94 runs
+Series: England wins the 6-match series 3-1
+
+Toss: England
+Umpires: HD Bird and KE Palmer
+Test debut: DR Gilbert (Australia).
+Player of the match: GA Gooch
+Player of the series: DI Gower
+
+Close of play:
+ Day 1: England 376/3 (Gooch 179*, Emburey 0*)
+ Day 2: England 464, Australia 145/6 (Ritchie 20*, Bennett 0*)
+ Day 3: Australia 241, Australia 62/4 (Border 26*, Ritchie 6*)
+
+England 1st innings                                             R   M   B  4 6
+GA Gooch                             c & b McDermott          196 423 310 27 0
+RT Robinson                              b McDermott            3  35  21  0 0
+*DI Gower             c Bennett          b McDermott          157 335 216 20 0
+MW Gatting            c Border           b Bennett              4  25  27  0 0
+JE Emburey            c Wellham          b Lawson               9  27  17  1 0
+AJ Lamb               c McDermott        b Lawson               1  28  15  0 0
+IT Botham             c Phillips         b Lawson              12  34  23  2 0
++PR Downton                              b McDermott           16  75  46  1 0
+RM Ellison            c Phillips         b Gilbert              3  43  32  0 0
+PH Edmonds            lbw                b Lawson              12  34  26  2 0
+LB Taylor             not out                                   1  15  10  0 0
+Extras                (b 13, lb 11, nb 26)                     50
+Total                 (all out, 118.2 overs)                  464
+
+FoW: 1-20 (Robinson), 2-371 (Gower), 3-376 (Gatting),
+     4-403 (Gooch), 5-405 (Emburey), 6-418 (Lamb),
+     7-425 (Botham), 8-447 (Ellison), 9-452 (Downton),
+     10-464 (Edmonds).
+
+Bowling                      O      M      R      W
+Lawson                      29.2    6    101      4
+McDermott                   31      2    108      4
+Gilbert                     21      2     96      1
+Bennett                     32      8    111      1
+Border                       2      0      8      0
+Wessels                      3      0     16      0
+
+Australia 1st innings                                           R   M   B  4 6
+GM Wood               lbw                b Botham              22  31  27  3 0
+AMJ Hilditch          c Gooch            b Botham              17  60  32  1 0
+KC Wessels                               b Emburey             12  56  51  0 0
+*AR Border                               b Edmonds             38 105  67  4 0
+DM Wellham            c Downton          b Ellison             13  52  41  2 0
+GM Ritchie            not out                                  64 195 156  5 0
++WB Phillips                             b Edmonds             18  38  29  2 0
+MJ Bennett            c Robinson         b Ellison             12  49  46  1 0
+GF Lawson             c Botham           b Taylor              14  29  26  1 0
+CJ McDermott          run out                                  25  34  23  2 1
+DR Gilbert                               b Botham               1  13   9  0 0
+Extras                (lb 3, w 2)                               5
+Total                 (all out, 84 overs)                     241
+
+FoW: 1-35 (Wood), 2-52 (Hilditch), 3-56 (Wessels),
+     4-101 (Wellham), 5-109 (Border), 6-144 (Phillips),
+     7-171 (Bennett), 8-192 (Lawson), 9-235 (McDermott),
+     10-241 (Gilbert).
+
+Bowling                      O      M      R      W
+Botham                      20      3     64      3
+Taylor                      13      1     39      1
+Ellison                     18      5     35      2
+Emburey                     19      7     48      1
+Edmonds                     14      2     52      2
+
+Australia 2nd innings (following on)                            R   M   B  4 6
+GM Wood                                  b Botham               6  27  18  1 0
+AMJ Hilditch          c Gower            b Taylor               9  36  27  0 0
+KC Wessels            c Downton          b Botham               7  34  21  0 0
+*AR Border            c Botham           b Ellison             58 157  92  7 0
+DM Wellham            lbw                b Ellison              5  19  17  0 0
+GM Ritchie            c Downton          b Ellison              6  58  42  0 0
++WB Phillips          c Downton          b Botham              10  30  24  1 0
+MJ Bennett                           c & b Taylor              11  43  29  1 0
+GF Lawson             c Downton          b Ellison              7  16  10  1 0
+CJ McDermott          c Botham           b Ellison              2   3   4  0 0
+DR Gilbert            not out                                   0   2   0  0 0
+Extras                (b 4, nb 4)                               8
+Total                 (all out, 46.3 overs)                   129
+
+FoW: 1-13 (Wood), 2-16 (Hilditch), 3-37 (Wessels),
+     4-51 (Wellham), 5-71 (Ritchie), 6-96 (Phillips),
+     7-114 (Border), 8-127 (Lawson), 9-129 (McDermott),
+     10-129 (Bennett).
+
+Bowling                      O      M      R      W
+Botham                      17      3     44      3
+Taylor                      11.3    1     34      2
+Ellison                     17      3     46      5
+Emburey                      1      0      1      0
+
+<END>

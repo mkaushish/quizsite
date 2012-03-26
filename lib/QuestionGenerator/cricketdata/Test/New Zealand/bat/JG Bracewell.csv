@@ -1,0 +1,61 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+887, 1980-11-28, 1, 10, Australia, not out, , 6, 17, 14, 0, 0
+887, 1980-11-28, 3, 8, Australia, c Border, Lawson, 0, 7, 3, 0, 0
+889, 1980-12-12, 1, 9, Australia, lbw, Lillee, 6, 44, 30, 0, 0
+889, 1980-12-12, 3, 3, Australia, run out, , 16, 112, 63, 1, 0
+891, 1980-12-26, 2, 7, Australia, c Chappell, Pascoe, 0, 2, 2, 0, 0
+899, 1981-03-13, 2, 10, India, lbw, Shastri, 1, 31, 38, 0, 0
+957, 1983-07-14, 2, 8, England,                c &, Botham, 7, 26, 26, 0, 0
+957, 1983-07-14, 4, 9, England, c Gower, Marks, 0, 7, 6, 0, 0
+958, 1983-07-28, 2, 8, England, c Dilley, Edmonds, 16, 55, 40, 3, 0
+959, 1983-08-11, 2, 7, England, c Gower, Cook, 0, 2, 2, 0, 0
+959, 1983-08-11, 4, 8, England, lbw, Willis, 4, 7, 6, 1, 0
+960, 1983-08-25, 2, 11, England, not out, , 1, 5, 2, 0, 0
+960, 1983-08-25, 4, 11, England, c Taylor, Smith, 28, 38, 26, 3, 1
+980, 1984-03-09, 1, 10, Sri Lanka, c de Silva, John, 2, 22, 11, 0, 0
+980, 1984-03-09, 3, 4, Sri Lanka, c Amerasinghe, John, 21, 64, 47, 2, 0
+985, 1984-03-24, 2, 10, Sri Lanka, c Kaluperuma, de Silva, 0, 8, 1, 0, 0
+1000, 1984-11-25, 1, 9, Pakistan, c Mudassar Nazar, Abdul Qadir, 0, 15, 15, 0, 0
+1000, 1984-11-25, 3, 9, Pakistan,                c &, Abdul Qadir, 0, 3, 1, 0, 0
+1003, 1984-12-10, 2, 10, Pakistan, c Anil Dalpat, Azeem Hafeez, 30, 95, 91, 1, 0
+1016, 1985-05-04, 2, 9, West Indies, not out, , 25, 72, 51, 0, 0
+1016, 1985-05-04, 3, 8, West Indies, c Gomes, Marshall, 27, 73, 57, 2, 0
+1030, 1985-11-22, 1, 10, Australia, not out, , 83, 146, 120, 8, 0
+1030, 1985-11-22, 3, 10, Australia, not out, , 2, 41, 32, 0, 0
+1031, 1985-11-30, 2, 9, Australia, not out, , 28, 71, 49, 3, 0
+1038, 1986-02-28, 2, 9, Australia, c Marsh, Reid, 20, 64, 48, 3, 0
+1040, 1986-03-13, 2, 9, Australia, c Boon, Bright, 4, 17, 12, 1, 0
+1049, 1986-07-24, 2, 10, England, not out, , 1, 18, 13, 0, 0
+1050, 1986-08-07, 2, 8, England, c Moxon, Emburey, 110, 265, 200, 10, 0
+1051, 1986-08-21, 1, 8, England, c Athey, Emburey, 3, 15, 13, 0, 0
+1068, 1987-02-20, 1, 7, West Indies, lbw, Garner, 17, 54, 53, 3, 0
+1068, 1987-02-20, 3, 7, West Indies, not out, , 28, 86, 75, 1, 0
+1070, 1987-02-27, 2, 7, West Indies, c Richardson, Gray, 7, 44, 31, 0, 0
+1070, 1987-02-27, 3, 7, West Indies, lbw, Gomes, 43, 132, 132, 4, 0
+1072, 1987-03-12, 2, 7, West Indies, c Haynes, Garner, 66, 150, 129, 4, 2
+1072, 1987-03-12, 4, 7, West Indies, not out, , 2, 4, 3, 0, 0
+1082, 1987-12-04, 1, 8, Australia, c Veletta, McDermott, 11, 81, 54, 1, 0
+1082, 1987-12-04, 3, 8, Australia, c Dyer, McDermott, 0, 2, 2, 0, 0
+1084, 1987-12-11, 1, 8, Australia, c Sleep, McDermott, 32, 116, 105, 1, 1
+1087, 1987-12-26, 1, 7, Australia, c Dyer, Whitney, 9, 60, 39, 1, 0
+1087, 1987-12-26, 3, 8, Australia, c Veletta, Dodemaide, 1, 19, 12, 0, 0
+1091, 1988-02-12, 2, 6, England, c French, Dilley, 31, 92, 67, 4, 0
+1091, 1988-02-12, 4, 6, England, not out, , 20, 93, 74, 1, 0
+1093, 1988-02-25, 1, 7, England, c Moxon, Dilley, 9, 18, 19, 1, 0
+1093, 1988-02-25, 3, 8, England, lbw, Gatting, 38, 115, 112, 1, 0
+1094, 1988-03-03, 1, 7, England, c Fairbrother, Capel, 54, 153, 111, 4, 0
+1107, 1988-11-12, 2, 8, India, c More, Arshad Ayub, 3, 15, 11, 0, 0
+1107, 1988-11-12, 4, 10, India, c Arun Lal, Arshad Ayub, 11, 14, 19, 2, 0
+1109, 1988-11-24, 1, 9, India, c More, Shastri, 52, 135, 100, 5, 0
+1109, 1988-11-24, 3, 10, India,                c &, Arshad Ayub, 32, 124, 132, 1, 0
+1111, 1988-12-02, 1, 9, India, c Vengsarkar, Sharma, 3, 33, 18, 0, 0
+1111, 1988-12-02, 3, 10, India, lbw, Kapil Dev, 0, 9, 5, 0, 0
+1115, 1989-02-10, 1, 7, Pakistan, , Imran Khan, 15, 46, 29, 2, 0
+1115, 1989-02-10, 3, 7, Pakistan, lbw, Saleem Jaffar, 0, 7, 4, 0, 0
+1116, 1989-02-24, 2, 8, Pakistan, , Abdul Qadir, 0, 1, 1, 0, 0
+1136, 1990-02-02, 1, 7, India, , Hirwani, 0, 4, 5, 0, 0
+1141, 1990-03-15, 2, 10, Australia, not out, , 19, 95, 68, 1, 0
+1145, 1990-06-07, 1, 8, England, c Gooch, Small, 28, 50, 38, 3, 0
+1146, 1990-06-21, 2, 8, England, run out (DeFreitas/Russell), , 4, 11, 11, 0, 0
+1147, 1990-07-05, 2, 8, England, , Hemmings, 25, 28, 22, 4, 0
+1147, 1990-07-05, 4, 9, England, c Atherton, Malcolm, 0, 3, 3, 0, 0

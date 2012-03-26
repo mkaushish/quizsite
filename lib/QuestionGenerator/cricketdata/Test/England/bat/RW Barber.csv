@@ -1,0 +1,46 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+492, 1960-06-09, 1, 8, South Africa, lbw, Adcock, 5, na, na, na, 0
+492, 1960-06-09, 3, 7, South Africa, c McLean, Tayfield, 4, na, na, na, 0
+512, 1961-10-21, 2, 7, Pakistan, st Imtiaz Ahmed, Haseeb Ahsan, 6, na, na, 1, 0
+512, 1961-10-21, 4, 7, Pakistan, not out, , 39, na, na, 3, 0
+513, 1961-11-11, 1, 6, India, st Kunderan, Borde, 19, na, na, na, 0
+513, 1961-11-11, 3, 2, India, run out, , 31, na, na, na, 0
+514, 1961-12-01, 2, 6, India, not out, , 69, 181, na, 7, 0
+514, 1961-12-01, 3, 6, India, run out, , 10, 23, na, 1, 0
+518, 1962-12-30, 2, 6, India, , Borde, 12, 35, na, 2, 0
+518, 1962-12-30, 4, 5, India, c Jaisimha, Durani, 6, 19, na, 1, 0
+520, 1962-01-10, 2, 2, India, lbw, Borde, 16, 93, na, 1, 0
+520, 1962-01-10, 4, 2, India, , Durani, 21, 39, na, 3, 0
+521, 1962-01-19, 2, 2, Pakistan, lbw, Nasim-ul-Ghani, 86, 214, na, 9, 1
+522, 1962-02-02, 2, 6, Pakistan, st Imtiaz Ahmed, Haseeb Ahsan, 23, 109, na, 1, 0
+565, 1964-08-13, 1, 2, Australia, , Hawke, 24, 51, na, 0, 0
+565, 1964-08-13, 3, 2, Australia, lbw, McKenzie, 29, 122, na, 2, 0
+571, 1964-12-04, 1, 2, South Africa, , Goddard, 74, 166, na, 3, 1
+572, 1964-12-23, 1, 2, South Africa, , Seymour, 97, 147, 111, 10, 0
+573, 1965-01-01, 2, 2, South Africa, lbw, Goddard, 58, 159, na, 6, 0
+575, 1965-01-22, 2, 2, South Africa, lbw, McKinnon, 61, 170, na, 5, 0
+591, 1965-05-27, 1, 2, New Zealand, , Motz, 31, na, na, na, 0
+591, 1965-05-27, 4, 2, New Zealand, c sub, Morgan, 51, 100, na, na, 0
+592, 1965-06-17, 2, 2, New Zealand, c Dick, Motz, 13, na, na, na, 0
+592, 1965-06-17, 4, 2, New Zealand, , Motz, 34, 72, na, na, 0
+593, 1965-07-08, 1, 1, New Zealand, c Ward, Taylor, 13, na, na, na, 0
+594, 1965-07-22, 2, 2, South Africa, , Bromfield, 56, na, na, na, 0
+594, 1965-07-22, 4, 2, South Africa, c Lindsay, PM Pollock, 12, na, na, na, 0
+595, 1965-08-05, 2, 2, South Africa, c Bacher, Dumbrill, 41, 105, na, 4, 0
+595, 1965-08-05, 4, 2, South Africa, c Lindsay, PM Pollock, 1, 11, na, 0, 0
+596, 1965-08-26, 2, 1, South Africa, st Lindsay, McKinnon, 40, 137, na, 2, 0
+596, 1965-08-26, 4, 1, South Africa,                c &, PM Pollock, 22, 41, na, 2, 0
+597, 1965-12-10, 2, 1, Australia, c Walters, Hawke, 5, 10, 10, 1, 0
+597, 1965-12-10, 3, 1, Australia, c Veivers, Walters, 34, 45, 37, 3, 1
+598, 1966-12-30, 2, 2, Australia, c Grout, McKenzie, 48, 97, 62, 3, 0
+598, 1966-12-30, 4, 2, Australia, not out, , 0, 10, 5, 0, 0
+599, 1966-01-07, 1, 2, Australia, , Hawke, 185, 296, 255, 19, 0
+600, 1966-01-28, 1, 2, Australia, , McKenzie, 0, 5, 3, 0, 0
+600, 1966-01-28, 3, 2, Australia, c Grout, Hawke, 19, 37, 23, 3, 0
+601, 1966-02-11, 1, 2, Australia, run out, , 17, 55, 24, 0, 0
+601, 1966-02-11, 3, 2, Australia, , McKenzie, 20, 22, 21, 4, 0
+608, 1966-08-04, 2, 2, West Indies, c Hendriks, Griffith, 6, 23, 15, 1, 0
+608, 1966-08-04, 3, 2, West Indies, , Sobers, 55, 116, 102, 7, 0
+609, 1966-08-18, 2, 2, West Indies, c Nurse, Sobers, 36, 87, 66, 5, 0
+637, 1968-06-06, 2, 6, Australia, c Sheahan, McKenzie, 20, 86, 82, 1, 0
+637, 1968-06-06, 4, 6, Australia, c Cowper, Hawke, 46, 102, 116, 4, 0

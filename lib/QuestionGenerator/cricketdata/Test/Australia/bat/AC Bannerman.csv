@@ -1,0 +1,52 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+3, 1879-01-02, 2, 4, England, , Schultz, 73, 235, na, 7, 0
+4, 1880-09-06, 2, 1, England, , Morley, 32, 48, 54, 5, 0
+4, 1880-09-06, 3, 1, England, c Lucas, Shaw, 8, 7, 14, 1, 0
+5, 1882-12-31, 2, 2, England, , Ulyett, 38, na, na, 1, 0
+5, 1882-12-31, 4, 2, England, , Ulyett, 8, na, na, 1, 0
+7, 1882-03-03, 2, 1, England, , Midwinter, 70, 265, na, 11, 0
+7, 1882-03-03, 4, 2, England, c Pilling, Peate, 14, na, na, 1, 0
+8, 1882-03-10, 2, 2, England,                c &, Midwinter, 37, na, na, 3, 0
+9, 1882-08-28, 1, 1, England, c Grace, Peate, 9, 70, 87, 0, 0
+9, 1882-08-28, 3, 1, England, c Studd, Barnes, 13, 70, 69, 0, 0
+10, 1883-12-30, 1, 1, England, st Tylecote, Leslie, 30, na, na, 3, 0
+10, 1883-12-30, 4, 1, England, not out, , 25, 95, na, 3, 0
+11, 1883-01-19, 2, 2, England, , Bates, 14, 105, na, 0, 0
+11, 1883-01-19, 3, 2, England, c Bligh, Bates, 14, na, na, 1, 0
+12, 1883-01-26, 2, 2, England, c Bates, Morley, 94, 245, na, 13, 0
+12, 1883-01-26, 4, 2, England, c Bligh, Barlow, 5, na, na, 1, 0
+13, 1883-02-17, 2, 1, England, c Barlow, Morley, 10, na, na, 1, 0
+13, 1883-02-17, 4, 1, England, c Bligh, CT Studd, 63, 175, na, 6, 1
+14, 1884-07-10, 2, 2, England, lbw, Ulyett, 6, na, na, na, 0
+15, 1884-07-21, 1, 2, England, , Peate, 12, na, na, na, 0
+15, 1884-07-21, 3, 2, England,                c &, Ulyett, 27, na, na, na, 0
+16, 1884-08-11, 1, 1, England, c Read, Peate, 4, na, 8, 1, 0
+17, 1884-12-12, 1, 1, England, lbw, Peel, 2, na, na, 0, 0
+17, 1884-12-12, 3, 11, England, absent hurt, , -, , , , 
+19, 1885-02-20, 1, 1, England, c Peel, Flowers, 13, 105, na, 1, 0
+19, 1885-02-20, 3, 1, England, c Shrewsbury, Ulyett, 16, 95, na, 0, 0
+20, 1885-03-14, 2, 5, England, c Shrewsbury, Flowers, 51, na, na, 8, 0
+20, 1885-03-14, 4, 2, England, , Barnes, 8, na, na, 2, 0
+21, 1885-03-21, 1, 1, England, c Peel, Ulyett, 5, na, na, 0, 0
+21, 1885-03-21, 3, 1, England, c sub (GF Vernon), Ulyett, 2, na, na, 0, 0
+25, 1887-01-28, 2, 6, England, not out, , 15, 140, na, 1, 0
+25, 1887-01-28, 4, 6, England, , Lohmann, 4, 84, na, 0, 0
+27, 1888-02-10, 2, 1, England, c Ulyett, Lohmann, 2, 13, 19, 0, 0
+27, 1888-02-10, 4, 1, England, c Attewell, Lohmann, 2, 9, 14, 0, 0
+28, 1888-07-16, 1, 1, England, c Grace, Lohmann, 0, na, na, 0, 0
+28, 1888-07-16, 3, 1, England, , Peel, 0, na, na, 0, 0
+29, 1888-08-13, 1, 1, England, c Lohmann, Barnes, 13, na, na, na, 0
+29, 1888-08-13, 3, 1, England, , Barnes, 5, 75, na, na, 0
+30, 1888-08-30, 2, 2, England, , Peel, 1, na, na, 0, 0
+30, 1888-08-30, 3, 1, England, c Grace, Peel, 0, 1, 1, 0, 0
+35, 1892-01-01, 1, 1, England, c Read, Sharpe, 45, 195, na, 4, 0
+35, 1892-01-01, 3, 1, England, c Grace, Sharpe, 41, 230, na, 1, 0
+36, 1892-01-29, 1, 1, England, c Abel, Lohmann, 12, na, na, na, 0
+36, 1892-01-29, 3, 1, England, c Grace, Briggs, 91, 448, na, 3, 0
+38, 1892-03-24, 2, 2, England, c Bean, Lohmann, 12, na, na, 1, 0
+38, 1892-03-24, 3, 2, England, , Briggs, 1, na, na, 0, 0
+39, 1893-07-17, 2, 2, England, c Shrewsbury, Lockwood, 17, na, na, na, 0
+40, 1893-08-14, 2, 1, England, c MacGregor, Lockwood, 10, na, na, na, 0
+40, 1893-08-14, 3, 1, England, c Read, Lockwood, 55, na, na, na, 0
+41, 1893-08-24, 1, 1, England, c MacGregor, Briggs, 19, na, na, na, 0
+41, 1893-08-24, 3, 1, England, , Richardson, 60, 235, na, na, 0

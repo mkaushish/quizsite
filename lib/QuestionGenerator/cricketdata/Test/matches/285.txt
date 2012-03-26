@@ -1,0 +1,125 @@
+
+Test # 285
+South Africa in England, 1947, 1st Test
+England v South Africa
+Trent Bridge, Nottingham
+7,9,10,11 June 1947 (4-day match)
+
+Result: Match drawn
+Series: 5-match series level 0-0
+
+Toss: South Africa
+Umpires: CAR Coleman and JA Smart
+Test debuts: C Cook, HE Dollery, JW Martin (England); OC Dawson, TA Harris,
+ JD Lindsay, NBF Mann, AMB Rowan, VI Smith, L Tuckett (South Africa).
+
+Close of play:
+ Day 1: South Africa 376/3 (Melville 183*, Dawson 3*)
+ Day 2: South Africa 533, England 154/2 (Edrich 44*, Compton 65*)
+ Day 3: England 208, England 278/4 (Compton 83*, Yardley 45*)
+
+South Africa 1st innings                                        R   M   B  4 6
+B Mitchell                               b Bedser              14  40        0
+*A Melville                              b Martin             189 364     16 1
+KG Viljoen            lbw                b Edrich              10  44        0
+AD Nourse                                b Hollies            149 244     15 1
+OC Dawson             st Evans           b Hollies             48 101        0
+TA Harris             c Hutton           b Hollies             60 133      9 0
+AMB Rowan             not out                                  34 102        0
+L Tuckett             lbw                b Hollies              0   1      0 0
+NBF Mann                                 b Bedser               8  18        0
++JD Lindsay                              b Bedser               0   7      0 0
+VI Smith              c Yardley          b Hollies              1   7      0 0
+Extras                (b 7, lb 12, w 1)                        20
+Total                 (all out, 196.3 overs)                  533
+
+FoW: 1-23 (Mitchell), 2-44 (Viljoen), 3-363 (Nourse),
+     4-384 (Melville), 5-450 (Dawson), 6-505 (Harris),
+     7-505 (Tuckett), 8-528 (Mann), 9-530 (Lindsay),
+     10-533 (Smith).
+
+Bowling                      O      M      R      W
+Martin                      36      4    111      1
+Bedser                      57.1   14    106      3
+Edrich                      20      8     56      1
+Hollies                     55.2   16    123      5
+Cook                        21      4     87      0
+Yardley                      5      0     24      0
+Compton                      2      1      6      0
+
+England 1st innings                                             R   M   B  4 6
+L Hutton              lbw                b Rowan               17  46        0
+C Washbrook           lbw                b Tuckett             25  60        0
+WJ Edrich                                b Smith               57 205      1 0
+DCS Compton           c Mitchell         b Tuckett             65 135      1 0
+HE Dollery                               b Dawson               9  13        0
+*NWD Yardley          lbw                b Tuckett             22  45        0
++TG Evans             st Lindsay         b Smith                2  21      0 0
+AV Bedser             c Melville         b Smith                7   8        1
+C Cook                                   b Tuckett              0   2      0 0
+JW Martin             c Lindsay          b Tuckett              0   1      0 0
+WE Hollies            not out                                   0   3      0 0
+Extras                (b 1, lb 2, w 1)                          4
+Total                 (all out, 113.1 overs)                  208
+
+FoW: 1-40 (Hutton), 2-48 (Washbrook), 3-154 (Compton),
+     4-165 (Dollery), 5-198 (Edrich), 6-198 (Yardley),
+     7-207 (Bedser), 8-208 (Cook), 9-208 (Martin),
+     10-208 (Evans).
+
+Bowling                      O      M      R      W
+Tuckett                     37      9     68      5
+Dawson                      13      2     35      1
+Rowan                       16      6     45      1
+Mann                        20     13     10      0
+Smith                       27.1   10     46      3
+
+England 2nd innings (following on)                              R   M   B  4 6
+L Hutton                                 b Tuckett              9  20        0
+C Washbrook           c Lindsay          b Rowan               59 150      2 0
+WJ Edrich                                b Smith               50 109      7 0
+DCS Compton           c Mitchell         b Mann               163 290     19 0
+HE Dollery                           c & b Dawson              17  47        0
+*NWD Yardley          c Tuckett          b Dawson              99 250     10 0
++TG Evans                            c & b Smith               74  76     14 0
+AV Bedser             c Harris           b Smith                2  31      0 0
+C Cook                c Dawson           b Smith                4  19        0
+WE Hollies            not out                                  18  52        0
+JW Martin                                b Rowan               26  49        2
+Extras                (b 15, lb 13, w 2)                       30
+Total                 (all out, 226.2 overs)                  551
+
+FoW: 1-20 (Hutton), 2-116 (Edrich), 3-133 (Washbrook),
+     4-170 (Dollery), 5-407 (Compton), 6-434 (Yardley),
+     7-472 (Bedser), 8-499 (Evans), 9-500 (Cook),
+     10-551 (Martin).
+
+Bowling                      O      M      R      W
+Tuckett                     47     12    127      1
+Dawson                      25      7     57      2
+Rowan                       43.2    8    100      2
+Mann                        60     22     94      1
+Smith                       51     15    143      4
+
+South Africa 2nd innings (target: 227 runs)                     R   M   B  4 6
+B Mitchell            c Evans            b Bedser               4  22        0
+*A Melville           not out                                 104 160     15 0
+KG Viljoen            not out                                  51 137      5 0
+Extras                (b 1, w 5, nb 1)                          7
+Total                 (1 wicket, 51 overs)                    166
+
+DNB: AD Nourse, OC Dawson, TA Harris, AMB Rowan, L Tuckett,
+     NBF Mann, +JD Lindsay, VI Smith.
+
+FoW: 1-21 (Mitchell).
+
+Bowling                      O      M      R      W
+Martin                       9      2     18      0
+Bedser                      14      3     31      1
+Edrich                       4      0      8      0
+Hollies                      9      1     33      0
+Cook                         9      0     40      0
+Compton                      4      0     14      0
+Hutton                       2      0     15      0
+
+<END>

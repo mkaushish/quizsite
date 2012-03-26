@@ -1,0 +1,37 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+543, 1963-06-06, 1, 2, England, c Andrew, Trueman, 16, 60, na, na, 0
+543, 1963-06-06, 4, 2, England, not out, , 0, 1, 0, 0, 0
+545, 1963-07-04, 2, 2, England,                c &, Trueman, 40, na, na, na, 1
+545, 1963-07-04, 4, 2, England, lbw, Shackleton, 1, na, na, 0, 0
+606, 1966-06-16, 1, 2, England, c Parks, Higgs, 2, 6, 4, 0, 0
+606, 1966-06-16, 3, 2, England, c Knight, Higgs, 0, 7, 2, 0, 0
+635, 1968-03-14, 1, 2, England, c Lock, Brown, 36, 149, na, 5, 0
+635, 1968-03-14, 3, 2, England, not out, , 40, 165, na, 3, 0
+642, 1968-12-06, 1, 2, Australia, run out, , 83, 246, na, 12, 0
+642, 1968-12-06, 3, 8, Australia, not out, , 71, 180, na, 10, 0
+643, 1968-12-26, 1, 3, Australia, c Gleeson, McKenzie, 7, 34, 33, 0, 0
+643, 1968-12-26, 3, 8, Australia, , Stackpole, 33, 88, 76, 3, 0
+644, 1969-01-03, 1, 2, Australia, c Jarman, McKenzie, 30, 142, 137, 3, 0
+644, 1969-01-03, 3, 2, Australia, c Jarman, Freeman, 10, 36, 26, 0, 0
+645, 1969-01-24, 1, 2, Australia, c Chappell, Gleeson, 36, 120, na, 5, 0
+645, 1969-01-24, 3, 2, Australia, c Chappell, Connolly, 90, 232, na, 9, 0
+646, 1969-02-14, 2, 2, Australia, c Taber, Freeman, 64, 105, 94, 2, 0
+646, 1969-02-14, 4, 2, Australia, , Connolly, 3, 10, 5, 0, 0
+648, 1969-02-27, 2, 2, New Zealand, c Burgess, Yuile, 109, 317, na, 12, 0
+648, 1969-02-27, 4, 2, New Zealand, c Hastings, Cunis, 38, 139, na, 5, 0
+651, 1969-03-07, 1, 2, New Zealand, c Taylor, Motz, 17, na, na, na, 0
+651, 1969-03-07, 3, 2, New Zealand, run out, , 1, na, na, 0, 0
+652, 1969-03-13, 1, 2, New Zealand, c Turner, Pollard, 91, 304, na, 11, 0
+653, 1969-06-12, 2, 2, England, , Brown, 1, 9, 3, 0, 0
+653, 1969-06-12, 3, 2, England, c Sharpe, D'Oliveira, 44, 103, 88, 6, 0
+680, 1971-02-18, 2, 6, India, c Wadekar, Prasanna, 3, 24, na, 0, 0
+684, 1971-03-19, 1, 2, India, c Mankad, Durani, 41, 130, na, na, 0
+684, 1971-03-19, 3, 2, India, c Durani, Bedi, 45, na, na, na, 0
+686, 1971-04-13, 2, 1, India, c Wadekar, Prasanna, 28, na, na, na, 0
+686, 1971-04-13, 4, 1, India, run out, , 4, na, na, na, 0
+693, 1972-02-16, 1, 2, New Zealand, lbw, Congdon, 43, 115, na, 5, 0
+693, 1972-02-16, 3, 2, New Zealand, , Congdon, 22, na, na, na, 0
+694, 1972-03-09, 2, 2, New Zealand, lbw, Taylor, 4, na, na, na, 0
+694, 1972-03-09, 4, 2, New Zealand, c Vivian, Taylor, 28, 59, na, na, 0
+695, 1972-03-23, 1, 2, New Zealand, c Morgan, Taylor, 1, na, na, 0, 0
+695, 1972-03-23, 3, 2, New Zealand, c Turner, Howarth, 45, na, na, 7, 0

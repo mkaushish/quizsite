@@ -1,0 +1,122 @@
+
+Test # 105
+The Ashes, 1909, 5th Test
+England v Australia
+Kennington Oval, London
+9,10,11 August 1909 (3-day match)
+
+Result: Match drawn
+Series: Australia wins the 5-match series 2-1
+
+Toss: Australia
+Umpires: J Moss and W Richards
+Test debuts: DW Carr, FE Woolley (England).
+
+Close of play:
+ Day 1: Australia 325, England 40/2 (Rhodes 7*, Fry 3*)
+ Day 2: England 352, Australia 76/0 (Gregory 35*, Bardsley 33*)
+
+Australia 1st innings                                           R   M   B  4 6
+SE Gregory                               b Carr                 1          0 0
+W Bardsley                               b Sharp              136 225     12 0
+*MA Noble             lbw                b Carr                 2          0 0
+WW Armstrong          lbw                b Carr                15            0
+VS Ransford                              b Barnes               3          0 0
+VT Trumper            c Rhodes           b Barnes              73            0
+CG Macartney          c Rhodes           b Sharp               50            0
+AJY Hopkins           c Rhodes           b Sharp               21            0
+A Cotter                                 b Carr                 7            0
++H Carter             lbw                b Carr                 4            0
+FJ Laver              not out                                   8            0
+Extras                (b 1, lb 3, nb 1)                         5
+Total                 (all out, 89.3 overs)                   325
+
+FoW: 1-9 (Gregory), 2-27 (Noble), 3-55 (Armstrong),
+     4-58 (Ransford), 5-176 (Trumper), 6-259 (Bardsley),
+     7-289 (Hopkins), 8-300 (Cotter), 9-304 (Carter),
+     10-325 (Macartney).
+
+Bowling                      O      M      R      W
+Carr                        34      2    146      5
+Barnes                      19      3     57      2
+Sharp                       16.3    3     67      3
+Woolley                      4      1      6      0
+Hayes                        4      0     10      0
+Rhodes                      12      3     34      0
+
+England 1st innings                                             R   M   B  4 6
+RH Spooner                               b Cotter              13            0
+*AC MacLaren          lbw                b Cotter              15            0
+W Rhodes              c Carter           b Cotter              66            0
+CB Fry                run out                                  62            0
+J Sharp               c Gregory          b Hopkins            105 170     11 0
+FE Woolley                               b Cotter               8            0
+EG Hayes              lbw                b Armstrong            4            0
+KL Hutchings          c Macartney        b Cotter              59            0
++AFA Lilley           not out                                   2          0 0
+SF Barnes             c Carter           b Hopkins              0          0 0
+DW Carr                                  b Cotter               0          0 0
+Extras                (b 8, lb 4, nb 6)                        18
+Total                 (all out, 106.4 overs)                  352
+
+FoW: 1-15 (Spooner), 2-36 (MacLaren), 3-140 (Fry),
+     4-187 (Rhodes), 5-201 (Woolley), 6-206 (Hayes),
+     7-348 (Sharp), 8-348 (Hutchings), 9-351 (Barnes),
+     10-352 (Carr).
+
+Bowling                      O      M      R      W
+Cotter                      27.4    1     95      6
+Armstrong                   31      7     93      1
+Laver                        8      1     13      0
+Macartney                   16      2     49      0
+Hopkins                     15      2     51      2
+Noble                        8      1     29      0
+Gregory                      1      0      4      0
+
+Australia 2nd innings                                           R   M   B  4 6
+SE Gregory            run out                                  74 135        0
+W Bardsley            lbw                b Barnes             130 225     10 0
+*MA Noble             c MacLaren         b Barnes              55            0
+WW Armstrong          c Woolley          b Carr                10            0
+VS Ransford           not out                                  36            0
+VT Trumper            st Lilley          b Carr                20            0
+CG Macartney          not out                                   4            0
+Extras                (b 4, lb 3, w 1, nb 2)                   10
+Total                 (5 wickets dec, 100 overs)              339
+
+DNB: AJY Hopkins, A Cotter, +H Carter, FJ Laver.
+
+FoW: 1-180 (Gregory), 2-267 (Bardsley), 3-268 (Noble),
+     4-294 (Armstrong), 5-335 (Trumper).
+
+Bowling                      O      M      R      W
+Carr                        35      1    136      2
+Barnes                      27      7     61      2
+Sharp                       12      0     34      0
+Woolley                      6      0     31      0
+Hayes                        2      0     14      0
+Rhodes                      14      1     35      0
+Hutchings                    4      0     18      0
+
+England 2nd innings (target: 313 runs)                          R   M   B  4 6
+RH Spooner                           c & b Macartney            3          0 0
+W Rhodes              st Carter          b Armstrong           54            0
+EG Hayes              c sub              b Armstrong            9            0
+CB Fry                not out                                  35            0
+J Sharp               not out                                   0          0 0
+Extras                (lb 2, nb 1)                              3
+Total                 (3 wickets, 33 overs)                   104
+
+DNB: *AC MacLaren, FE Woolley, KL Hutchings, +AFA Lilley,
+     SF Barnes, DW Carr.
+
+FoW: 1-14 (Spooner), 2-27 (Hayes), 3-88 (Rhodes).
+
+Bowling                      O      M      R      W
+Cotter                       8      1     21      0
+Armstrong                    7      4      8      2
+Macartney                    8      2     11      1
+Hopkins                      8      0     40      0
+Gregory                      2      0     21      0
+
+<END>

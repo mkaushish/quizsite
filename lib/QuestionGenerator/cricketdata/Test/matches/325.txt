@@ -1,0 +1,120 @@
+
+Test # 325
+West Indies in England, 1950, 3rd Test
+England v West Indies
+Trent Bridge, Nottingham
+20,21,22,24,25 July 1950 (5-day match)
+
+Result: West Indies won by 10 wickets
+Series: West Indies leads the 4-match series 2-1
+
+Toss: England
+Umpires: F Chester and H Elliott
+Test debuts: DJ Insole, D Shackleton (England).
+
+Close of play:
+ Day 1: England 223, West Indies 77/1 (Rae 31*, Christiani 0*)
+ Day 2: West Indies 479/3 (Worrell 239*, Weekes 108*)
+ Day 3: West Indies 558, England 87/0 (Simpson 37*, Washbrook 38*)
+ Day 4: England 350/5 (Dewes 55*)
+
+England 1st innings                                             R   M   B  4 6
+RT Simpson            c Walcott          b Johnson              4            0
+C Washbrook           c Stollmeyer       b Worrell              3          0 0
+WGA Parkhouse         c Weekes           b Johnson             13            0
+JG Dewes              c Gomez            b Worrell              0          0 0
+*NWD Yardley          c Goddard          b Valentine           41            0
+DJ Insole             lbw                b Ramadhin            21            0
++TG Evans                                b Ramadhin            32            0
+D Shackleton                             b Worrell             42  70        0
+RO Jenkins                               b Johnson             39            0
+AV Bedser             c Stollmeyer       b Valentine           13            0
+WE Hollies            not out                                   2          0 0
+Extras                (lb 12, nb 1)                            13
+Total                 (all out, 98.4 overs)                   223
+
+FoW: 1-6 (Washbrook), 2-18 (Simpson), 3-23 (Parkhouse),
+     4-25 (Dewes), 5-75 (Insole), 6-105 (Yardley), 7-147 (Evans),
+     8-174 (Shackleton), 9-191 (Bedser), 10-223 (Jenkins).
+
+Bowling                      O      M      R      W
+Johnson                     25.4    5     59      3
+Worrell                     17      4     40      3
+Gomez                        3      1      9      0
+Goddard                      6      3     10      0
+Ramadhin                    29     12     49      2
+Valentine                   18      6     43      2
+
+West Indies 1st innings                                         R   M   B  4 6
+AF Rae                st Evans           b Yardley             68 250      7 0
+JB Stollmeyer                        c & b Jenkins             46            0
+RJ Christiani         lbw                b Shackleton          10            0
+FMM Worrell           c Yardley          b Bedser             261 335     35 2
+ED Weekes                            c & b Hollies            129 220     17 0
++CL Walcott                              b Bedser               8            0
+GE Gomez              not out                                  19            0
+*JDC Goddard          c Yardley          b Bedser               0  10      0 0
+HHH Johnson           c Insole           b Bedser               0          0 0
+S Ramadhin                               b Bedser               2          0 0
+AL Valentine                             b Hollies              1          0 0
+Extras                (b 2, lb 10, nb 2)                       14
+Total                 (all out, 174.4 overs)                  558
+
+FoW: 1-77 (Stollmeyer), 2-95 (Christiani), 3-238 (Rae),
+     4-521 (Worrell), 5-535 (Walcott), 6-537 (Weekes),
+     7-538 (Goddard), 8-539 (Johnson), 9-551 (Ramadhin),
+     10-558 (Valentine).
+
+Bowling                      O      M      R      W
+Bedser                      48      9    127      5
+Shackleton                  43      7    128      1
+Yardley                     27      3     82      1
+Jenkins                     13      0     73      1
+Hollies                     43.4    8    134      2
+
+England 2nd innings                                             R   M   B  4 6
+RT Simpson            run out                                  94 335      6 0
+C Washbrook           c Worrell          b Valentine          102 320      9 0
+WGA Parkhouse         lbw                b Goddard             69          9 0
+JG Dewes              lbw                b Valentine           67          8 0
+*NWD Yardley                             b Ramadhin             7            0
+DJ Insole             st Walcott         b Ramadhin             0          0 0
++TG Evans             c Stollmeyer       b Ramadhin            63          6 0
+D Shackleton          c Weekes           b Valentine            1          0 0
+RO Jenkins            not out                                   6            0
+AV Bedser                                b Ramadhin             2          0 0
+WE Hollies            lbw                b Ramadhin             0          0 0
+Extras                (b 11, lb 10, w 2, nb 2)                 25
+Total                 (all out, 245.2 overs)                  436
+
+FoW: 1-212 (Washbrook), 2-220 (Simpson), 3-326 (Parkhouse),
+     4-346 (Yardley), 5-350 (Insole), 6-408 (Dewes),
+     7-410 (Shackleton), 8-434 (Evans), 9-436 (Bedser),
+     10-436 (Hollies).
+
+Bowling                      O      M      R      W
+Johnson                     30      5     65      0
+Worrell                     19      8     30      0
+Gomez                       11      3     23      0
+Goddard                     12      6     18      1
+Ramadhin                    81.2   25    135      5
+Valentine                   92     49    140      3
+
+West Indies 2nd innings (target: 102 runs)                      R   M   B  4 6
+AF Rae                not out                                  46 100        0
+JB Stollmeyer         not out                                  52 100      5 0
+Extras                (nb 5)                                    5
+Total                 (0 wickets, 36.3 overs)                 103
+
+DNB: RJ Christiani, FMM Worrell, ED Weekes, +CL Walcott,
+     GE Gomez, *JDC Goddard, HHH Johnson, S Ramadhin,
+     AL Valentine.
+
+Bowling                      O      M      R      W
+Bedser                      11      1     35      0
+Shackleton                   6      2      7      0
+Jenkins                     11      1     46      0
+Hollies                      7      6      1      0
+Simpson                      1.3    0      9      0
+
+<END>

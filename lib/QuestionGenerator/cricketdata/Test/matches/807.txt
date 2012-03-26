@@ -1,0 +1,108 @@
+
+Test # 807
+The Ashes, 1977, 4th Test
+England v Australia
+Headingley, Leeds
+11,12,13,15 August 1977 (5-day match)
+
+Result: England won by an innings and 85 runs
+Series: England leads the 5-match series 3-0
+
+Toss: England
+Umpires: WE Alley and WL Budd
+
+Close of play:
+ Day 1: England 252/4 (Boycott 110*, Roope 19*)
+ Day 2: England 436, Australia 67/5 (Robinson 6*, Marsh 0*)
+ Day 3: Australia 103, Australia 120/4 (Chappell 29*, Robinson 11*)
+
+England 1st innings                                             R   M   B  4 6
+*JM Brearley          c Marsh            b Thomson              0   1   3  0 0
+G Boycott             c Chappell         b Pascoe             191 629 471 23 0
+RA Woolmer            c Chappell         b Thomson             37 133 100  6 0
+DW Randall            lbw                b Pascoe              20  26  26  3 0
+AW Greig                                 b Thomson             43 102  80  4 1
+GRJ Roope             c Walters          b Thomson             34 121  92  4 0
++APE Knott            lbw                b Bright              57 177 135  7 0
+IT Botham                                b Bright               0   1   3  0 0
+DL Underwood          c Bright           b Pascoe               6  27  25  1 0
+M Hendrick            c Robinson         b Pascoe               4  10  12  1 0
+RGD Willis            not out                                   5  15  12  0 0
+Extras                (b 5, lb 9, w 3, nb 22)                  39
+Total                 (all out, 155.4 overs)                  436
+
+FoW: 1-0 (Brearley), 2-82 (Woolmer), 3-105 (Randall),
+     4-201 (Greig), 5-275 (Roope), 6-398 (Knott), 7-398 (Botham),
+     8-412 (Underwood), 9-422 (Hendrick), 10-436 (Boycott).
+
+Bowling                      O      M      R      W
+Thomson                     34      7    113      4
+Walker                      48     21     97      0
+Pascoe                      34.4   10     91      4
+Walters                      3      1      5      0
+Bright                      26      9     66      2
+Chappell                    10      2     25      0
+
+Australia 1st innings                                           R   M   B  4 6
+RB McCosker           run out                                  27  50  39  3 1
+IC Davis              lbw                b Hendrick             0   6   2  0 0
+*GS Chappell          c Brearley         b Hendrick             4  15  11  0 0
+DW Hookes             lbw                b Botham              24  30  26  4 0
+KD Walters            c Hendrick         b Botham               4  20  18  0 0
+RD Robinson           c Greig            b Hendrick            20  51  41  3 0
++RW Marsh             c Knott            b Botham               2  21  16  0 0
+RJ Bright             not out                                   9  34  22  1 0
+MHN Walker            c Knott            b Botham               7   8   8  1 0
+JR Thomson                               b Botham               0   1   3  0 0
+LS Pascoe                                b Hendrick             0  10   6  0 0
+Extras                (lb 3, w 1, nb 2)                         6
+Total                 (all out, 31.3 overs)                   103
+
+FoW: 1-8 (Davis), 2-26 (Chappell), 3-52 (McCosker),
+     4-57 (Hookes), 5-66 (Walters), 6-77 (Marsh),
+     7-87 (Robinson), 8-100 (Walker), 9-100 (Thomson),
+     10-103 (Pascoe).
+
+Bowling                      O      M      R      W
+Willis                       5      0     35      0
+Hendrick                    15.3    2     41      4
+Botham                      11      3     21      5
+
+Australia 2nd innings (following on)                            R   M   B  4 6
+RB McCosker           c Knott            b Greig               12  63  48  0 0
+IC Davis              c Knott            b Greig               19  45  33  4 0
+*GS Chappell          c Greig            b Willis              36 190 146  4 0
+DW Hookes             lbw                b Hendrick            21  34  35  1 0
+KD Walters            lbw                b Woolmer             15  44  32  2 0
+RD Robinson                              b Hendrick            20 121  96  2 0
++RW Marsh             c Randall          b Hendrick            63 131  87  9 0
+RJ Bright             c Greig            b Hendrick             5  17  18  1 0
+MHN Walker                               b Willis              30  63  54  4 0
+JR Thomson                               b Willis               0   1   2  0 0
+LS Pascoe             not out                                   0   5   6  0 0
+Extras                (b 1, lb 4, w 4, nb 18)                  27
+Total                 (all out, 89.5 overs)                   248
+
+FoW: 1-31 (Davis), 2-35 (McCosker), 3-63 (Hookes),
+     4-97 (Walters), 5-130 (Chappell), 6-167 (Robinson),
+     7-179 (Bright), 8-244 (Walker), 9-245 (Thomson),
+     10-248 (Marsh).
+
+Bowling                      O      M      R      W
+Willis                      14      7     32      3
+Hendrick                    22.5    6     54      4
+Greig                       20      7     64      2
+Botham                      17      3     47      0
+Woolmer                      8      4      8      1
+Underwood                    8      3     16      0
+
+*** Eng 1st innings
+*** Boycott scores his 100th first-class hundred, the first to do so during a
+    Test Match. He was also the fouth English player to be on the field for
+    the entire duration of the Test Match.
+*** G Boycott: 191 runs, 471 balls, 629 min., 23x4, 1x5
+
+*** APE Knott makes his 250th dismissal (Davis)
+*** RGD Willis takes his 100th wicket (Thomson)
+
+<END>

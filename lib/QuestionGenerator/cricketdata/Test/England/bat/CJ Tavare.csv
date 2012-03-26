@@ -1,0 +1,57 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+880, 1980-06-05, 1, 3, West Indies, , Garner, 13, 76, 48, 1, 0
+880, 1980-06-05, 3, 3, West Indies, c Richards, Garner, 4, 35, 27, 0, 0
+881, 1980-06-19, 1, 3, West Indies, c Greenidge, Holding, 42, 294, 202, 1, 0
+881, 1980-06-19, 3, 3, West Indies, lbw, Garner, 6, 50, 40, 0, 0
+907, 1981-08-13, 1, 3, Australia, c Alderman, Whitney, 69, 287, 193, 7, 0
+907, 1981-08-13, 3, 3, Australia, c Kent, Alderman, 78, 423, 289, 3, 0
+908, 1981-08-27, 2, 3, Australia, c Marsh, Lillee, 24, 127, 91, 2, 0
+908, 1981-08-27, 4, 3, Australia, c Kent, Whitney, 8, 44, 36, 0, 0
+911, 1981-11-27, 2, 3, India, c Shastri, Doshi, 56, 309, 239, 5, 0
+911, 1981-11-27, 4, 3, India, c Gavaskar, Kapil Dev, 0, 7, 4, 0, 0
+912, 1981-12-09, 1, 3, India, lbw, Madan Lal, 22, 176, 143, 2, 0
+912, 1981-12-09, 3, 3, India, c Patil, Shastri, 31, 84, 71, 4, 0
+914, 1981-12-23, 1, 3, India, , Madan Lal, 149, 454, 303, 18, 0
+916, 1982-01-01, 1, 3, India, c Kirmani, Kapil Dev, 7, 18, 18, 1, 0
+916, 1982-01-01, 3, 3, India, run out, , 25, 126, 92, 3, 0
+918, 1982-01-13, 2, 2, India, c Gavaskar, Doshi, 35, 332, 240, 3, 0
+920, 1982-01-30, 1, 2, India, , Doshi, 24, 95, 61, 3, 0
+921, 1982-02-17, 2, 3, Sri Lanka, , de Mel, 0, 2, 2, 0, 0
+921, 1982-02-17, 4, 3, Sri Lanka, st Goonatilleke, GRA de Silva, 85, 220, 186, 12, 0
+928, 1982-06-10, 1, 2, India, c Viswanath, Kapil Dev, 4, 64, 31, 0, 0
+928, 1982-06-10, 4, 2, India, , Kapil Dev, 3, 15, 5, 0, 0
+929, 1982-06-24, 1, 2, India, , Doshi, 57, 249, 176, 7, 0
+930, 1982-07-08, 1, 2, India, , Kapil Dev, 39, 151, 123, 4, 0
+930, 1982-07-08, 3, 2, India, not out, , 75, 257, 208, 6, 0
+931, 1982-07-29, 1, 2, Pakistan, c Javed Miandad, Abdul Qadir, 54, 252, 180, 8, 0
+931, 1982-07-29, 3, 2, Pakistan, c Mohsin Khan, Imran Khan, 17, 88, 70, 2, 0
+932, 1982-08-12, 2, 2, Pakistan, , Sarfraz Nawaz, 8, 18, 15, 1, 0
+932, 1982-08-12, 3, 2, Pakistan, c Javed Miandad, Imran Khan, 82, 406, 277, 6, 0
+933, 1982-08-26, 2, 1, Pakistan, c sub (Haroon Rasheed), Imran Khan, 22, 128, 90, 3, 0
+933, 1982-08-26, 4, 1, Pakistan, c Majid Khan, Imran Khan, 33, 139, 102, 4, 0
+938, 1982-11-12, 1, 2, Australia, c Hughes, Yardley, 89, 466, 337, 9, 0
+938, 1982-11-12, 3, 2, Australia, c Chappell, Yardley, 9, 127, 82, 0, 0
+939, 1982-11-26, 1, 1, Australia, c Hughes, Lawson, 1, 40, 25, 0, 0
+939, 1982-11-26, 3, 1, Australia, c Marsh, Lawson, 13, 111, 68, 1, 0
+940, 1982-12-10, 2, 1, Australia, c Marsh, Hogg, 1, 6, 4, 0, 0
+940, 1982-12-10, 3, 1, Australia, c Wessels, Thomson, 0, 18, 10, 0, 0
+943, 1982-12-26, 1, 3, Australia, c Yardley, Thomson, 89, 247, 165, 15, 0
+943, 1982-12-26, 3, 3, Australia, , Hogg, 0, 9, 8, 0, 0
+944, 1983-01-02, 2, 2, Australia, , Lawson, 0, 16, 8, 0, 0
+944, 1983-01-02, 4, 2, Australia, lbw, Yardley, 16, 60, 26, 2, 0
+957, 1983-07-14, 1, 2, New Zealand, run out, , 45, 119, 105, 5, 0
+957, 1983-07-14, 3, 2, New Zealand, c Howarth, Bracewell, 109, 306, 259, 11, 0
+958, 1983-07-28, 1, 2, New Zealand, c Smith, Coney, 69, 292, 229, 8, 0
+958, 1983-07-28, 3, 2, New Zealand, , Chatfield, 23, 64, 64, 4, 0
+959, 1983-08-11, 1, 1, New Zealand, , Crowe, 51, 205, 171, 1, 0
+959, 1983-08-11, 3, 1, New Zealand, c Crowe, Hadlee, 16, 32, 28, 2, 0
+960, 1983-08-25, 1, 1, New Zealand, c Cairns, Snedden, 4, 7, 7, 0, 0
+960, 1983-08-25, 3, 1, New Zealand, c sub, Bracewell, 13, 57, 59, 0, 0
+975, 1984-01-20, 2, 1, New Zealand, , Cairns, 9, 83, 60, 1, 0
+975, 1984-01-20, 4, 1, New Zealand, not out, , 36, 87, 75, 3, 0
+976, 1984-02-03, 2, 2, New Zealand, c JJ Crowe, Hadlee, 3, 31, 35, 0, 0
+976, 1984-02-03, 3, 2, New Zealand, c Smith, Hadlee, 6, 44, 36, 0, 0
+993, 1984-08-09, 2, 4, West Indies, c Dujon, Holding, 16, 92, 55, 2, 0
+993, 1984-08-09, 4, 3, West Indies, c Richards, Garner, 49, 201, 153, 4, 0
+994, 1984-08-23, 2, 3, Sri Lanka, c Ranatunga, DS de Silva, 14, 138, 95, 1, 0
+1123, 1989-07-06, 2, 4, Australia, c Taylor, Alderman, 2, 11, 9, 0, 0

@@ -1,0 +1,108 @@
+
+Test # 1183
+England in New Zealand, 1991/92, 1st Test
+New Zealand v England
+Lancaster Park, Christchurch
+18,19,20,21,22 January 1992 (5-day match)
+
+Result: England won by an innings and 4 runs
+Series: England leads the 3-match series 1-0
+
+Toss: New Zealand
+Umpires: BL Aldridge and RS Dunne
+Match referee: PJP Burge (Aus)
+Test debuts: DA Reeve (England); BR Hartland (New Zealand).
+Player of the match: PCR Tufnell
+
+Close of play:
+ Day 1: England 310/4 (Lamb 17*, Russell 0*)
+ Day 2: England 580/9d, New Zealand 3/0 (Hartland 0*, Wright 2*)
+ Day 3: New Zealand 169/6 (Patel 55*, Cairns 3*)
+ Day 4: New Zealand 312, New Zealand 81/1 (Wright 28*, Morrison 0*)
+
+England 1st innings                                             R   M   B  4 6
+*GA Gooch             c Smith            b Morrison             2  10   6  0 0
+AJ Stewart            c Crowe            b Morrison           148 355 265 17 0
+GA Hick               lbw                b Cairns              35  97  80  6 0
+RA Smith              c Greatbatch       b Pringle             96 180 153 16 1
+AJ Lamb                                  b Patel               93 270 203 13 1
++RC Russell           run out                                  36 101  64  5 0
+DA Reeve              c Jones            b Pringle             59 160 125  5 0
+CC Lewis                                 b Pringle             70  86  73 13 0
+DR Pringle            c Greatbatch       b Patel               10  21  14  0 0
+PAJ DeFreitas         not out                                   7   6   5  0 1
+Extras                (b 5, lb 10, w 1, nb 8)                  24
+Total                 (9 wickets dec, 163 overs)              580
+
+DNB: PCR Tufnell.
+
+FoW: 1-6 (Gooch), 2-95 (Hick), 3-274 (Smith), 4-310 (Stewart),
+     5-390 (Russell), 6-466 (Lamb), 7-544 (Reeve),
+     8-571 (Pringle), 9-580 (Lewis).
+
+Bowling                      O      M      R      W
+Morrison                    33      5    133      2
+Cairns                      30      3    118      1
+Pringle                     36      4    127      3
+Thomson                     15      3     47      0
+Patel                       46      5    132      2
+Jones                        3      0      8      0
+
+New Zealand 1st innings                                         R   M   B  4 6
+BR Hartland           c Smith            b Tufnell             22 134 105  2 0
+JG Wright             c Lamb             b Tufnell             28 125  97  2 0
+AH Jones              lbw                b Lewis               16  55  43  0 0
+MJ Greatbatch         c Stewart          b Tufnell             11  66  50  2 0
+SA Thomson                               b Tufnell              5  29  20  1 0
+DN Patel              run out                                  99 189 134 10 2
+*MD Crowe             c Stewart          b Pringle             20  58  56  2 0
+CL Cairns             c Hick             b Reeve               61 155 140 11 0
++IDS Smith            lbw                b DeFreitas           20  84  62  3 0
+DK Morrison           not out                                   8  69  53  0 0
+C Pringle             c Hick             b DeFreitas            6  19  16  1 0
+Extras                (b 1, lb 7, nb 8)                        16
+Total                 (all out, 127.4 overs)                  312
+
+FoW: 1-51 (Wright), 2-52 (Hartland), 3-73 (Jones),
+     4-87 (Greatbatch), 5-91 (Thomson), 6-139 (Crowe),
+     7-256 (Patel), 8-279 (Cairns), 9-306 (Smith),
+     10-312 (Pringle).
+
+Bowling                      O      M      R      W
+DeFreitas                   32.4   16     54      2
+Lewis                       30      9     69      1
+Pringle                     15      2     54      1
+Tufnell                     39     10    100      4
+Hick                         3      0     11      0
+Reeve                        8      4     16      1
+
+New Zealand 2nd innings (following on)                          R   M   B  4 6
+BR Hartland           c Smith            b Tufnell             45 126 111  6 0
+JG Wright             st Russell         b Tufnell             99 400 323 14 0
+DK Morrison           c Russell          b Lewis                0  19  19  0 0
+AH Jones              c Russell          b Pringle             39 213 171  4 0
+*MD Crowe             c Pringle          b Tufnell             48 134 109  7 0
+MJ Greatbatch         c Smith            b Tufnell              0  13  11  0 0
+SA Thomson            lbw                b Tufnell              0   1   3  0 0
+DN Patel              c Pringle          b Tufnell              6  23  19  1 0
+CL Cairns             c Smith            b Tufnell              0  16  13  0 0
++IDS Smith            c Russell          b Lewis                1  14  12  0 0
+C Pringle             not out                                   5  22  15  0 0
+Extras                (b 1, lb 7, nb 13)                       21
+Total                 (all out, 132.1 overs)                  264
+
+FoW: 1-81 (Hartland), 2-81 (Morrison), 3-182 (Jones),
+     4-211 (Wright), 5-222 (Greatbatch), 6-222 (Thomson),
+     7-236 (Patel), 8-241 (Cairns), 9-250 (Smith),
+     10-264 (Crowe).
+
+Bowling                      O      M      R      W
+DeFreitas                   23      6     54      0
+Lewis                       22      3     66      2
+Pringle                     21      5     64      1
+Tufnell                     46.1   25     47      7
+Hick                        14      8     11      0
+Reeve                        2      0      8      0
+Smith                        4      2      6      0
+
+<END>

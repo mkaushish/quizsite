@@ -1,0 +1,69 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+1238, 1993-12-03, 1, 2, Australia, c Healy, ME Waugh, 38, 187, 167, 3, 0
+1238, 1993-12-03, 3, 2, Australia, , Warne, 53, 140, 122, 2, 0
+1248, 1994-02-10, 1, 1, Pakistan, c Rashid Latif, Waqar Younis, 29, 122, 99, 4, 0
+1248, 1994-02-10, 3, 1, Pakistan, c Rashid Latif, Wasim Akram, 0, 2, 6, 0, 0
+1249, 1994-02-17, 1, 1, Pakistan, lbw, Wasim Akram, 0, 2, 4, 0, 0
+1249, 1994-02-17, 3, 2, Pakistan, , Wasim Akram, 4, 13, 8, 0, 0
+1251, 1994-02-24, 2, 2, Pakistan, lbw, Aamer Nazir, 38, 123, 94, 3, 0
+1251, 1994-02-24, 4, 1, Pakistan, , Wasim Akram, 120, 416, 314, 7, 0
+1255, 1994-03-19, 1, 2, India, c Kumble, Srinath, 13, 44, 38, 1, 0
+1255, 1994-03-19, 3, 1, India, c Mongia, Chauhan, 85, 252, 206, 16, 0
+1260, 1994-06-02, 1, 1, England, c Hick, DeFreitas, 15, 82, 57, 1, 0
+1260, 1994-06-02, 3, 2, England, c Rhodes, Fraser, 53, 114, 87, 10, 0
+1261, 1994-06-16, 1, 1, England, lbw, Fraser, 0, 3, 6, 0, 0
+1261, 1994-06-16, 3, 2, England, c Hick, Such, 94, 242, 169, 15, 0
+1262, 1994-06-30, 2, 1, England, c Rhodes, DeFreitas, 25, 133, 84, 3, 0
+1262, 1994-06-30, 3, 1, England, lbw, DeFreitas, 8, 9, 13, 1, 0
+1276, 1994-11-25, 1, 1, South Africa, c McMillan, Snell, 7, 12, 16, 1, 0
+1276, 1994-11-25, 3, 2, South Africa, c Richardson, de Villiers, 18, 73, 52, 3, 0
+1280, 1994-12-26, 1, 1, South Africa, , Jack, 2, 22, 17, 0, 0
+1280, 1994-12-26, 3, 1, South Africa, c Cullinan, McMillan, 51, 339, 238, 3, 0
+1282, 1995-01-02, 1, 1, South Africa, lbw, McMillan, 45, 181, 131, 5, 0
+1282, 1995-01-02, 3, 1, South Africa, c Kirsten, McMillan, 51, 278, 194, 5, 0
+1286, 1995-02-03, 1, 1, West Indies, c Murray, Walsh, 19, 69, 57, 2, 0
+1286, 1995-02-03, 3, 1, West Indies, c Murray, KCG Benjamin, 21, 58, 49, 1, 0
+1289, 1995-02-10, 2, 1, West Indies, lbw, Walsh, 29, 98, 86, 5, 0
+1289, 1995-02-10, 3, 1, West Indies, , Walsh, 0, 3, 6, 0, 0
+1291, 1995-03-04, 2, 1, South Africa, c Richardson, Donald, 74, 189, 149, 7, 0
+1291, 1995-03-04, 4, 1, South Africa, c Cullinan, de Villiers, 4, 20, 17, 0, 0
+1292, 1995-03-11, 2, 1, Sri Lanka, c Dunusinghe, Wickramasinghe, 2, 4, 6, 0, 0
+1292, 1995-03-11, 4, 1, Sri Lanka, c Samaraweera, Muralitharan, 14, 90, 64, 1, 0
+1293, 1995-03-18, 2, 1, Sri Lanka, c Gurusinha, Vaas, 84, 381, 267, 6, 0
+1293, 1995-03-18, 4, 1, Sri Lanka, not out, , 0, 1, 1, 0, 0
+1308, 1995-10-18, 1, 1, India, c Tendulkar, Raju, 14, 74, 53, 2, 0
+1308, 1995-10-18, 3, 2, India, lbw, Prabhakar, 8, 11, 8, 2, 0
+1316, 1995-12-08, 2, 1, Pakistan, c Rashid Latif, Ata-ur-Rehman, 16, 78, 54, 1, 0
+1316, 1995-12-08, 4, 1, Pakistan, c Rashid Latif, Mushtaq Ahmed, 18, 59, 46, 2, 0
+1339, 1996-11-21, 1, 1, Pakistan, lbw, Waqar Younis, 8, 42, 26, 1, 0
+1339, 1996-11-21, 3, 1, Pakistan, c Mohammad Wasim, Mushtaq Ahmed, 36, 106, 82, 4, 0
+1342, 1996-11-28, 1, 1, Pakistan, lbw, Mushtaq Ahmed, 39, 93, 67, 5, 0
+1342, 1996-11-28, 3, 1, Pakistan, c Zahoor Elahi, Mohammad Zahid, 61, 171, 121, 6, 0
+1351, 1997-01-24, 1, 1, England, lbw, Mullally, 44, 141, 119, 5, 0
+1351, 1997-01-24, 3, 2, England, c Hussain, Cork, 3, 35, 24, 0, 0
+1354, 1997-02-06, 1, 1, England, c Stewart, Gough, 8, 40, 29, 0, 0
+1354, 1997-02-06, 3, 2, England, c Stewart, Tufnell, 56, 132, 103, 6, 0
+1355, 1997-02-14, 1, 1, England, , Cork, 11, 9, 11, 2, 0
+1355, 1997-02-14, 3, 2, England, c Knight, Tufnell, 49, 165, 135, 5, 0
+1358, 1997-03-07, 1, 1, Sri Lanka, not out, , 267, 605, 422, 37, 0
+1359, 1997-03-14, 1, 2, Sri Lanka, run out (PA de Silva), , 4, 44, 28, 0, 0
+1359, 1997-03-14, 3, 1, Sri Lanka, c Ranatunga, Dharmasena, 62, 167, 127, 8, 1
+1383, 1997-11-07, 2, 1, Australia, c Taylor, Kasprowicz, 1, 7, 6, 0, 0
+1383, 1997-11-07, 4, 2, Australia, lbw, McGrath, 45, 119, 77, 3, 0
+1386, 1997-11-20, 1, 1, Australia, c SR Waugh, Kasprowicz, 9, 20, 19, 2, 0
+1386, 1997-11-20, 3, 2, Australia, run out (Elliott), , 23, 91, 69, 4, 0
+1388, 1997-11-27, 2, 1, Australia, , Reiffel, 31, 92, 79, 3, 0
+1388, 1997-11-27, 4, 6, Australia, c Ponting, Warne, 10, 39, 27, 1, 0
+1401, 1998-02-19, 2, 1, Zimbabwe, c Strang, Streak, 0, 11, 11, 0, 0
+1401, 1998-02-19, 4, 2, Zimbabwe, not out, , 10, 14, 12, 2, 0
+1402, 1998-02-26, 2, 1, Zimbabwe, , Streak, 1, 10, 5, 0, 0
+1415, 1998-05-27, 1, 1, Sri Lanka, c Kaluwitharana, Muralitharan, 30, 136, 117, 4, 0
+1415, 1998-05-27, 3, 1, Sri Lanka, lbw, Bandaratilleke, 11, 12, 13, 2, 0
+1416, 1998-06-03, 1, 1, Sri Lanka, c Jayasuriya, Bandaratilleke, 46, 183, 152, 6, 0
+1416, 1998-06-03, 3, 1, Sri Lanka, c Tillakaratne, Bandaratilleke, 11, 38, 28, 2, 0
+1418, 1998-06-10, 2, 1, Sri Lanka, c Atapattu, Bandaratilleke, 2, 33, 20, 0, 0
+1418, 1998-06-10, 4, 1, Sri Lanka, st Kaluwitharana, Muralitharan, 24, 86, 56, 3, 0
+1449, 1999-03-11, 1, 2, South Africa, , Donald, 5, 14, 9, 1, 0
+1449, 1999-03-11, 3, 1, South Africa, not out, , 55, 210, 168, 6, 0
+1452, 1999-03-18, 1, 2, South Africa, c Rhodes, Kallis, 18, 86, 61, 2, 0
+1452, 1999-03-18, 3, 1, South Africa, c Boucher, Pollock, 2, 18, 14, 0, 0

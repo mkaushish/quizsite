@@ -1,0 +1,80 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+279, 1946-11-29, 1, 2, England, c Hammond, Bedser, 2, 11, 9, 0, 0
+280, 1946-12-13, 2, 2, England, , Edrich, 5, 48, 29, 0, 0
+281, 1947-01-01, 1, 2, England, lbw, Bedser, 21, 50, 40, 2, 0
+281, 1947-01-01, 3, 2, England, , Bedser, 155, 364, 317, 8, 0
+282, 1947-01-31, 2, 2, England, c Evans, Bedser, 122, 268, 255, 12, 2
+282, 1947-01-31, 4, 2, England, not out, , 124, 193, 171, 12, 0
+283, 1947-02-28, 2, 2, England, lbw, Bedser, 57, 162, 139, 6, 0
+283, 1947-02-28, 4, 2, England, run out, , 17, 60, 41, 2, 0
+290, 1947-11-28, 1, 2, India, hit wicket, Sarwate, 47, 118, 178, 2, 0
+291, 1947-12-12, 2, 2, India, lbw, Amarnath, 10, 56, 54, 0, 0
+292, 1948-01-01, 1, 2, India, , Amarnath, 45, 100, 123, 3, 0
+292, 1948-01-01, 3, 5, India, not out, , 100, 198, 210, 7, 0
+294, 1948-01-23, 1, 2, India, , Phadkar, 7, 12, 8, 1, 0
+299, 1948-06-10, 2, 2, England, , Laker, 31, 121, na, 3, 0
+299, 1948-06-10, 4, 2, England, , Bedser, 9, 32, na, 1, 0
+300, 1948-06-24, 1, 2, England, c Hutton, Coxon, 105, 209, na, 14, 1
+300, 1948-06-24, 3, 2, England, , Wright, 62, na, na, na, 1
+301, 1948-07-08, 2, 1, England, c Compton, Bedser, 51, 218, na, 6, 0
+301, 1948-07-08, 4, 1, England, not out, , 54, 156, na, 9, 0
+302, 1948-07-22, 2, 1, England, c Cranston, Bedser, 6, na, na, na, 0
+302, 1948-07-22, 4, 1, England, c Pollard, Yardley, 182, 291, na, 33, 0
+303, 1948-08-14, 2, 2, England, run out, , 196, 406, na, 16, 0
+318, 1949-12-24, 1, 1, South Africa, c Tayfield, McCarthy, 0, na, na, 0, 0
+319, 1950-12-31, 1, 1, South Africa, c Watkins, Tayfield, 42, na, na, na, 0
+319, 1950-12-31, 4, 1, South Africa,                c &, Mann, 24, na, na, na, 0
+320, 1950-01-20, 2, 1, South Africa, c Smith, Tayfield, 25, na, na, na, 0
+320, 1950-01-20, 4, 1, South Africa, hit wicket, Tayfield, 44, na, na, na, 0
+321, 1950-02-10, 1, 1, South Africa, c Fullerton, McCarthy, 111, 270, na, 9, 1
+321, 1950-02-10, 3, 1, South Africa, c Mann, McCarthy, 19, na, na, na, 0
+322, 1950-03-03, 1, 1, South Africa, c Winslow, Melle, 157, na, na, 15, 1
+327, 1950-12-01, 1, 2, England, lbw, Bedser, 25, 99, na, 3, 0
+327, 1950-12-01, 3, 2, England, c Bailey, Bedser, 0, 12, 10, 0, 0
+328, 1950-12-22, 1, 2, England, c Hutton, Bedser, 2, 17, na, 0, 0
+328, 1950-12-22, 3, 2, England, lbw, Wright, 18, 63, na, 2, 0
+329, 1951-01-05, 2, 2, England, , Bedser, 0, 3, na, 0, 0
+330, 1951-02-02, 1, 2, England, , Tattersall, 206, 462, na, 23, 0
+330, 1951-02-02, 3, 2, England, run out, , 16, 28, na, 2, 0
+331, 1951-02-23, 1, 2, England, lbw, Brown, 50, 173, na, 2, 0
+331, 1951-02-23, 3, 2, England, lbw, Bedser, 4, 9, na, 0, 0
+340, 1951-11-09, 2, 2, West Indies, c Rae, Valentine, 33, 117, na, 3, 0
+340, 1951-11-09, 4, 2, West Indies, c Gomez, Ramadhin, 48, 172, na, 3, 0
+341, 1951-11-30, 2, 2, West Indies, c Walcott, Jones, 11, 37, na, 1, 0
+341, 1951-11-30, 4, 2, West Indies, st Walcott, Ramadhin, 30, 70, na, 4, 0
+343, 1951-12-22, 1, 2, West Indies, , Worrell, 1, 5, na, 0, 0
+343, 1951-12-22, 3, 5, West Indies, , Valentine, 45, 81, na, 6, 1
+345, 1952-12-31, 2, 2, West Indies, , Trim, 6, 20, na, 0, 0
+345, 1952-12-31, 4, 2, West Indies, lbw, Valentine, 12, 41, na, 0, 0
+359, 1952-12-05, 1, 2, South Africa, lbw, Watkins, 29, 77, na, 4, 0
+359, 1952-12-05, 3, 2, South Africa, c Melle, Tayfield, 58, 190, na, 3, 0
+361, 1952-12-24, 2, 2, South Africa,                c &, Tayfield, 43, 107, na, 1, 0
+361, 1952-12-24, 4, 2, South Africa, c Watkins, Melle, 1, 12, na, 0, 0
+362, 1953-01-09, 2, 2, South Africa, , Watkins, 18, 81, na, 3, 0
+364, 1953-01-24, 1, 2, South Africa, c Endean, Fuller, 1, 18, na, 0, 0
+364, 1953-01-24, 3, 2, South Africa, c Endean, Melle, 77, 164, na, 8, 0
+365, 1953-02-06, 1, 2, South Africa, run out, , 99, 163, na, 7, 0
+365, 1953-02-06, 3, 2, South Africa, lbw, Tayfield, 44, 124, na, 2, 0
+372, 1953-06-11, 1, 2, England, lbw, Bedser, 67, 179, na, 11, 0
+372, 1953-06-11, 3, 2, England, , Tattersall, 60, 108, na, 7, 0
+373, 1953-06-25, 1, 2, England, st Evans, Bedser, 30, 80, na, na, 0
+373, 1953-06-25, 3, 2, England, c Statham, Compton, 89, 210, na, 13, 0
+374, 1953-07-09, 1, 2, England, , Bedser, 1, 34, na, 0, 0
+374, 1953-07-09, 3, 2, England, c Hutton, Laker, 0, 7, na, 0, 0
+375, 1953-07-23, 2, 2, England, c Lock, Bedser, 10, 35, na, na, 0
+375, 1953-07-23, 4, 2, England, st Evans, Laker, 38, 38, na, na, 0
+376, 1953-08-15, 1, 2, England, lbw, Bedser, 16, na, na, na, 0
+376, 1953-08-15, 3, 2, England, lbw, Lock, 26, na, na, na, 0
+391, 1954-11-26, 1, 2, England, c Cowdrey, Bailey, 153, 419, na, 18, 2
+392, 1954-12-17, 2, 2, England, c Hutton, Bailey, 12, 18, 15, 2, 0
+392, 1954-12-17, 4, 2, England, lbw, Statham, 10, 26, 17, 1, 0
+393, 1955-12-31, 2, 2, England, lbw, Tyson, 3, 17, na, 0, 0
+393, 1955-12-31, 4, 2, England, c Cowdrey, Tyson, 4, 36, na, 0, 0
+396, 1955-01-28, 1, 2, England, c Evans, Tyson, 25, 110, na, 1, 0
+396, 1955-01-28, 3, 2, England,                c &, Appleyard, 16, 29, na, 1, 0
+403, 1955-03-26, 1, 2, West Indies, lbw, Valentine, 65, 150, na, 6, 1
+403, 1955-03-26, 4, 2, West Indies, c Gibbs, Weekes, 1, na, na, 0, 0
+404, 1955-04-11, 2, 2, West Indies, c King, Butler, 111, na, na, na, 0
+405, 1955-04-26, 2, 2, West Indies, c Sobers, Atkinson, 44, na, na, na, 0
+405, 1955-04-26, 4, 2, West Indies, c Walcott, Marshall, 38, 96, na, 3, 0
+408, 1955-06-11, 2, 3, West Indies, lbw, Dewdney, 7, na, na, na, 0

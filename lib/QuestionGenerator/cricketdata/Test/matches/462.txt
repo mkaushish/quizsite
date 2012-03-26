@@ -1,0 +1,117 @@
+
+Test # 462
+The Ashes, 1958/59, 2nd Test
+Australia v England
+Melbourne Cricket Ground
+31 December 1958, 1,2,3,5 January 1959 (6-day match)
+
+Result: Australia won by 8 wickets
+Series: Australia leads the 5-match series 2-0
+
+Toss: England
+Umpires: MJ McInnes and RJJ Wright
+Balls per over: 8
+
+Close of play:
+ Day 1: England 173/4 (May 89*, Cowdrey 28*)
+ Day 2: England 259, Australia 96/1 (McDonald 32*, Harvey 60*)
+ Day 3: Australia 282/6 (Mackay 14*, Davidson 12*)
+ Day 4: Australia 308, England 87, Australia 9/1 (Burke 2*, Grout 2*)
+
+England 1st innings                                             R   M   B  4 6
+PE Richardson         c Grout            b Davidson             3  11   8  0 0
+TE Bailey             c Benaud           b Meckiff             48 151 114  6 0
+W Watson                                 b Davidson             0   2   4  0 0
+TW Graveney           lbw                b Davidson             0   1   1  0 0
+*PBH May                                 b Meckiff            113 315 298 11 0
+MC Cowdrey            c Grout            b Davidson            44 200 208  5 0
++TG Evans             c Davidson         b Meckiff              4  11   8  1 0
+GAR Lock              st Grout           b Benaud               5  36  29  0 0
+JC Laker              not out                                  22  86  85  0 0
+JB Statham                               b Davidson            13  45  34  1 0
+PJ Loader                                b Davidson             1  11   3  0 0
+Extras                (b 1, lb 2, w 3)                          6
+Total                 (all out, 98.5 overs)                   259
+
+FoW: 1-7 (Richardson), 2-7 (Watson), 3-7 (Graveney),
+     4-92 (Bailey), 5-210 (May), 6-218 (Evans), 7-218 (Cowdrey),
+     8-233 (Lock), 9-253 (Statham), 10-259 (Loader).
+
+Bowling                      O      M      R      W
+Davidson                    25.5    7     64      6
+Meckiff                     24      4     69      3
+Mackay                       9      2     16      0
+Benaud                      29      7     61      1
+Kline                       11      2     43      0
+
+Australia 1st innings                                           R   M   B  4 6
+CC McDonald           c Graveney         b Statham             47 248 169  0 0
+JW Burke                                 b Statham              3  27  20  0 0
+RN Harvey                                b Loader             167 370 325 16 0
+NC O'Neill            c Evans            b Statham             37 142 109  2 0
+KD Mackay             c Evans            b Statham             18  88  60  1 0
+RB Simpson            lbw                b Loader               0  14   7  0 0
+*R Benaud             lbw                b Statham              0   6   5  0 0
+AK Davidson                              b Statham             24  74  64  2 0
++ATW Grout            c May              b Loader               8  47  26  1 0
+I Meckiff                                b Statham              0   2   2  0 0
+LF Kline              not out                                   1  25  15  0 0
+Extras                (lb 3)                                    3
+Total                 (all out, 100.2 overs)                  308
+
+FoW: 1-11 (Burke), 2-137 (McDonald), 3-255 (O'Neill),
+     4-257 (Harvey), 5-261 (Simpson), 6-262 (Benaud),
+     7-295 (Mackay), 8-300 (Davidson), 9-300 (Meckiff),
+     10-308 (Grout).
+
+Bowling                      O      M      R      W
+Statham                     28      6     57      7
+Loader                      27.2    4     97      3
+Bailey                      16      0     50      0
+Laker                       12      1     47      0
+Lock                        17      2     54      0
+
+England 2nd innings                                             R   M   B  4 6
+PE Richardson         c Harvey           b Meckiff              2   8  11  0 0
+TE Bailey             c Burke            b Meckiff             14  56  34  1 0
+W Watson                                 b Davidson             7  23  21  0 0
+TW Graveney           c Davidson         b Meckiff              3   8   7  0 0
+*PBH May              c Davidson         b Meckiff             17  98  68  1 0
+MC Cowdrey            c Grout            b Meckiff             12  19  12  2 0
++TG Evans             run out                                  11  26  27  0 0
+GAR Lock                             c & b Davidson             6  43  38  1 0
+JC Laker              c Harvey           b Davidson             3  18  10  0 0
+JB Statham            not out                                   8  25  19  0 0
+PJ Loader                                b Meckiff              0  12   5  0 0
+Extras                (b 1, lb 1, nb 2)                         4
+Total                 (all out, 31.2 overs)                    87
+
+FoW: 1-3 (Richardson), 2-14 (Watson), 3-21 (Graveney),
+     4-27 (Bailey), 5-44 (Cowdrey), 6-57 (Evans), 7-71 (May),
+     8-75 (Lock), 9-80 (Laker), 10-87 (Loader).
+
+Bowling                      O      M      R      W
+Davidson                    15      2     41      3
+Meckiff                     15.2    3     38      6
+Benaud                       1      0      4      0
+
+Australia 2nd innings (target: 39 runs)                         R   M   B  4 6
+CC McDonald           lbw                b Statham              5  12  13  0 0
+JW Burke              not out                                  18  76  55  1 0
++ATW Grout            st Evans           b Laker               12  38  44  0 0
+RN Harvey             not out                                   7  22  25  0 0
+Extras                                                          0
+Total                 (2 wickets, 17.1 overs)                  42
+
+DNB: NC O'Neill, KD Mackay, RB Simpson, *R Benaud, AK Davidson,
+     I Meckiff, LF Kline.
+
+FoW: 1-6 (McDonald), 2-26 (Grout).
+
+Bowling                      O      M      R      W
+Statham                      5      1     11      1
+Loader                       5      1     13      0
+Laker                        4      1      7      1
+Lock                         3.1    1     11      0
+
+<END>

@@ -1,0 +1,99 @@
+
+Test # 86
+The Ashes, 1905, 4th Test
+England v Australia
+Old Trafford, Manchester
+24,25,26 July 1905 (3-day match)
+
+Result: England won by an innings and 80 runs
+Series: England leads the 5-match series 2-0
+
+Toss: England
+Umpires: J Carlin and JE West
+Test debuts: W Brearley, RH Spooner (England).
+
+Close of play:
+ Day 1: England 352/6 (Jackson 103*, Arnold 0*)
+ Day 2: England 446, Australia 197, Australia 118/1 (Duff 58*, Hill 26*)
+
+England 1st innings                                             R   M   B  4 6
+AC MacLaren           c Hill             b McLeod              14            0
+TW Hayward            c Gehrs            b McLeod              82 195      5 0
+JT Tyldesley                             b Laver               24            0
+CB Fry                                   b Armstrong           17            0
+*Hon.FS Jackson       c Cotter           b McLeod             113 223     12 0
+RH Spooner                           c & b McLeod              52 107      5 0
+GH Hirst              c Laver            b McLeod              25            0
+EG Arnold             run out                                  25            0
+W Rhodes              not out                                  27            0
++AFA Lilley           lbw                b Noble               28            0
+W Brearley            c Darling          b Noble                0       4  0 0
+Extras                (b 17, lb 20, w 1, nb 1)                 39
+Total                 (all out, 157.5 overs)                  446
+
+FoW: 1-24 (MacLaren), 2-77 (Tyldesley), 3-136 (Fry),
+     4-176 (Hayward), 5-301 (Spooner), 6-347 (Hirst),
+     7-382 (Jackson), 8-387 (Arnold), 9-446 (Lilley),
+     10-446 (Brearley).
+
+Bowling                      O      M      R      W
+Cotter                      26      4     83      0
+McLeod                      47      8    125      5
+Armstrong                   48     14     93      1
+Laver                       21      5     73      1
+Noble                       15.5    3     33      2
+
+Australia 1st innings                                           R   M   B  4 6
+MA Noble                                 b Brearley             7            0
+VT Trumper            c Rhodes           b Brearley            11            0
+C Hill                c Fry              b Arnold               0       2  0 0
+WW Armstrong                             b Rhodes              29            0
+RA Duff               c MacLaren         b Brearley            11            0
+*J Darling            c Tyldesley        b Jackson             73  86     13 0
+DRA Gehrs                                b Arnold               0       3  0 0
+CE McLeod                                b Brearley             6            0
+A Cotter              c Fry              b Jackson             11            0
+FJ Laver                                 b Rhodes              24            0
++JJ Kelly             not out                                  16            0
+Extras                (b 9)                                     9
+Total                 (all out, 45.5 overs)                   197
+
+FoW: 1-20 (Trumper), 2-21 (Hill), 3-27 (Noble), 4-41 (Duff),
+     5-88 (Armstrong), 6-93 (Gehrs), 7-146 (McLeod),
+     8-146 (Darling), 9-166 (Cotter), 10-197 (Laver).
+
+Bowling                      O      M      R      W
+Hirst                        2      0     12      0
+Brearley                    17      3     72      4
+Arnold                      14      2     53      2
+Rhodes                       5.5    1     25      2
+Jackson                      7      0     26      2
+
+Australia 2nd innings (following on)                            R   M   B  4 6
+RA Duff               c Spooner          b Brearley            60 100      5 0
+VT Trumper            lbw                b Rhodes              30            0
+C Hill                c sub              b Arnold              27            0
+MA Noble              c Rhodes           b Brearley            10            0
+WW Armstrong                             b Brearley             9            0
+*J Darling            c Rhodes           b Brearley             0       2  0 0
++JJ Kelly             c Rhodes           b Arnold               5            0
+DRA Gehrs                            c & b Rhodes              11            0
+CE McLeod             c Arnold           b Rhodes               6            0
+A Cotter              run out                                   0          0 0
+FJ Laver              not out                                   6            0
+Extras                (b 4, nb 1)                               5
+Total                 (all out, 52.3 overs)                   169
+
+FoW: 1-55 (Trumper), 2-121 (Duff), 3-122 (Hill),
+     4-133 (Armstrong), 5-133 (Darling), 6-146 (Noble),
+     7-146 (Kelly), 8-158 (Gehrs), 9-158 (Cotter),
+     10-169 (McLeod).
+
+Bowling                      O      M      R      W
+Hirst                        7      2     19      0
+Brearley                    14      3     54      4
+Arnold                      15      5     35      2
+Rhodes                      11.3    3     36      3
+Jackson                      5      0     20      0
+
+<END>

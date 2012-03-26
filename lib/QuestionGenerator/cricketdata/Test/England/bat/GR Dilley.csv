@@ -1,0 +1,59 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+864, 1979-12-14, 2, 9, Australia, not out, , 38, 206, 157, 4, 0
+864, 1979-12-14, 4, 9, Australia, c Marsh, Dymock, 16, 56, 61, 1, 0
+868, 1980-01-04, 1, 9, Australia, not out, , 22, 52, 45, 2, 0
+868, 1980-01-04, 3, 10, Australia, , Dymock, 4, 13, 12, 1, 0
+882, 1980-07-10, 1, 10, West Indies, , Garner, 0, 1, 1, 0, 0
+883, 1980-07-24, 1, 10, West Indies, , Garner, 1, 43, 22, 0, 0
+883, 1980-07-24, 3, 10, West Indies, c sub, Holding, 1, 20, 15, 0, 0
+884, 1980-08-07, 1, 11, West Indies, , Garner, 0, 6, 9, 0, 0
+896, 1981-02-13, 2, 10, West Indies, , Croft, 0, 22, 12, 0, 0
+896, 1981-02-13, 3, 10, West Indies, not out, , 1, 19, 15, 0, 0
+900, 1981-03-13, 2, 11, West Indies, c Gomes, Croft, 0, 2, 4, 0, 0
+900, 1981-03-13, 4, 11, West Indies, not out, , 7, 12, 9, 1, 0
+901, 1981-03-27, 1, 11, West Indies, c Murray, Holding, 2, 69, 36, 0, 0
+902, 1981-04-10, 1, 11, West Indies, not out, , 1, 4, 2, 0, 0
+903, 1981-06-18, 1, 9, Australia, , Hogg, 34, 71, 49, 6, 0
+903, 1981-06-18, 3, 9, Australia, c Marsh, Alderman, 13, 20, 18, 2, 0
+904, 1981-07-02, 1, 10, Australia, not out, , 7, 32, 21, 1, 0
+904, 1981-07-02, 3, 8, Australia, not out, , 27, 41, 38, 3, 0
+905, 1981-07-16, 2, 9, Australia,                c &, Lillee, 13, 30, 17, 2, 0
+905, 1981-07-16, 3, 9, Australia, , Alderman, 56, 80, 75, 9, 0
+911, 1981-11-27, 2, 8, India, , Shastri, 0, 9, 7, 0, 0
+911, 1981-11-27, 4, 8, India, , Madan Lal, 9, 25, 13, 2, 0
+912, 1981-12-09, 1, 9, India, c Gavaskar, Shastri, 52, 168, 110, 5, 0
+918, 1982-01-13, 2, 7, India,                c &, Kapil Dev, 8, 61, 31, 1, 0
+920, 1982-01-30, 1, 7, India, lbw, Shastri, 1, 11, 9, 0, 0
+958, 1983-07-28, 1, 8, New Zealand, , Cairns, 0, 2, 3, 0, 0
+958, 1983-07-28, 3, 8, New Zealand, c Smith, Chatfield, 15, 69, 72, 1, 0
+981, 1984-03-12, 2, 9, Pakistan, not out, , 2, 36, 15, 0, 0
+1046, 1986-06-05, 1, 10, India, c More, Binny, 4, 37, 20, 1, 0
+1046, 1986-06-05, 3, 10, India, not out, , 2, 57, 57, 0, 0
+1047, 1986-06-19, 2, 10, India, , Shastri, 10, 61, 60, 0, 0
+1047, 1986-06-19, 4, 11, India, run out, , 2, 16, 11, 0, 0
+1049, 1986-07-24, 1, 9, New Zealand, c Smith, Hadlee, 17, 81, 55, 1, 0
+1057, 1986-11-14, 1, 11, Australia, c Boon, Waugh, 0, 7, 8, 0, 0
+1060, 1986-12-12, 2, 11, Australia, , Reid, 0, 6, 6, 0, 0
+1065, 1987-01-10, 2, 11, Australia, not out, , 4, 10, 4, 1, 0
+1065, 1987-01-10, 4, 11, Australia, not out, , 2, 6, 2, 0, 0
+1076, 1987-06-18, 1, 11, Pakistan, c Saleem Yousuf, Imran Khan, 17, 28, 24, 3, 0
+1077, 1987-07-02, 1, 11, Pakistan, not out, , 1, 9, 7, 0, 0
+1077, 1987-07-02, 3, 11, Pakistan, , Imran Khan, 0, 3, 6, 0, 0
+1078, 1987-07-23, 2, 11, Pakistan, , Imran Khan, 2, 9, 9, 0, 0
+1079, 1987-08-06, 2, 11, Pakistan, not out, , 0, 12, 11, 0, 0
+1086, 1987-12-16, 1, 11, Pakistan, not out, , 0, 6, 4, 0, 0
+1086, 1987-12-16, 3, 11, Pakistan, not out, , 0, 35, 13, 0, 0
+1090, 1988-01-29, 1, 11, Australia, , Waugh, 13, 20, 15, 1, 0
+1091, 1988-02-12, 1, 11, New Zealand, not out, , 7, 34, 14, 0, 0
+1091, 1988-02-12, 3, 11, New Zealand, c Jones, Morrison, 2, 9, 7, 0, 0
+1093, 1988-02-25, 2, 11, New Zealand, not out, , 8, 25, 11, 1, 0
+1098, 1988-06-02, 1, 11, West Indies, , Ambrose, 2, 2, 2, 0, 0
+1099, 1988-06-16, 2, 11, West Indies, , Marshall, 0, 1, 1, 0, 0
+1099, 1988-06-16, 4, 11, West Indies, c Richardson, Patterson, 28, 52, 36, 6, 0
+1100, 1988-06-30, 1, 10, West Indies, c Harper, Walsh, 14, 29, 21, 3, 0
+1100, 1988-06-30, 3, 10, West Indies, , Marshall, 4, 16, 13, 0, 0
+1101, 1988-07-21, 1, 11, West Indies, c Hooper, Ambrose, 8, 17, 16, 1, 0
+1101, 1988-07-21, 3, 11, West Indies, not out, , 2, 7, 5, 0, 0
+1122, 1989-06-22, 1, 11, Australia, c Border, Alderman, 7, 70, 51, 0, 0
+1122, 1989-06-22, 3, 11, Australia, c Boon, Hughes, 24, 83, 64, 3, 0
+1123, 1989-07-06, 2, 10, Australia, not out, , 11, 87, 63, 1, 0

@@ -1,0 +1,100 @@
+
+Test # 773
+India in West Indies, 1975/76, 1st Test
+West Indies v India
+Kensington Oval, Bridgetown, Barbados
+10,11,13 March 1976 (5-day match)
+
+Result: West Indies won by an innings and 97 runs
+Series: West Indies leads the 4-match series 1-0
+
+Toss: India
+Umpires: SE Parris and D Sang Hue
+
+Close of play:
+ Day 1: India 177, West Indies 97/1 (Fredericks 45*, Richards 14*)
+ Day 2: West Indies 439/5 (Lloyd 73*, Holford 5*)
+
+India 1st innings                                               R   M   B  4 6
+SM Gavaskar           lbw                b Roberts             37            1
+PH Sharma             c Fredericks       b Holding              6            0
+AD Gaekwad            c Murray           b Julien              16            0
+GR Viswanath          c Rowe             b Holford             11            0
+S Amarnath            c Richards         b Holford              0          0 0
+M Amarnath                               b Holding             26            0
+S Madan Lal                              b Holford             45            0
++SMH Kirmani                             b Roberts              8            0
+EAS Prasanna          c Richards         b Holford              3          0 0
+*BS Bedi              c Julien           b Holford              0          0 0
+BS Chandrasekhar      not out                                   1          0 0
+Extras                (b 2, lb 7, nb 15)                       24
+Total                 (all out, 54.1 overs)                   177
+
+FoW: 1-51 (Sharma), 2-57 (Gavaskar), 3-74 (Viswanath),
+     4-74 (S Amarnath), 5-103 (Gaekwad), 6-133 (M Amarnath),
+     7-162 (Kirmani), 8-171 (Prasanna), 9-176 (Madan Lal),
+     10-177 (Bedi).
+
+Bowling                      O      M      R      W
+Roberts                     11      2     48      2
+Holding                     15     10     24      2
+Julien                      15      5     46      1
+Holford                      8.1    1     23      5
+Jumadeen                     5      1     12      0
+
+West Indies 1st innings                                         R   M   B  4 6
+RC Fredericks         c M Amarnath       b Chandrasekhar       54            0
+LG Rowe               lbw                b Chandrasekhar       30            0
+IVA Richards          c Kirmani          b M Amarnath         142 285     19 1
+AI Kallicharran       c Viswanath        b M Amarnath          93         12 1
+*CH Lloyd             st Kirmani         b Bedi               102 175     12 2
++DL Murray                               b Bedi                27            0
+DAJ Holford           c Kirmani          b Chandrasekhar        9            0
+BD Julien             not out                                  13            0
+MA Holding            lbw                b Chandrasekhar        0          0 0
+AME Roberts           c S Amarnath       b Bedi                 0          0 0
+Extras                (b 7, lb 7, nb 4)                        18
+Total                 (9 wickets dec, 138.5 overs)            488
+
+DNB: RR Jumadeen.
+
+FoW: 1-58 (Rowe), 2-108 (Fredericks), 3-328 (Kallicharran),
+     4-337 (Richards), 5-417 (Murray), 6-446 (Holford),
+     7-482 (Lloyd), 8-483 (Holding), 9-488 (Roberts).
+
+Bowling                      O      M      R      W
+Madan Lal                   16      1     61      0
+M Amarnath                  12      2     53      2
+Bedi                        43.5    8    113      3
+Chandrasekhar               39      5    163      4
+Prasanna                    24      2     66      0
+Gaekwad                      4      0     14      0
+
+India 2nd innings                                               R   M   B  4 6
+SM Gavaskar           c Jumadeen         b Roberts              1          0 0
+PH Sharma             c Murray           b Holding              1          0 0
+AD Gaekwad            c Murray           b Roberts             14            0
+GR Viswanath          lbw                b Roberts             62 170        0
+S Amarnath                               b Jumadeen             8            0
+M Amarnath            c Rowe             b Jumadeen            25            0
+S Madan Lal           not out                                  55  65      7 0
++SMH Kirmani          lbw                b Holford             15            0
+*BS Bedi              c Murray           b Jumadeen            10            0
+BS Chandrasekhar                         b Holding              0          0 0
+EAS Prasanna          absent hurt                               -
+Extras                (b 7, lb 3, nb 13)                       23
+Total                 (all out, 73 overs)                     214
+
+FoW: 1-4 (Gavaskar), 2-9 (Sharma), 3-40 (Gaekwad),
+     4-66 (S Amarnath), 5-117 (Viswanath), 6-146 (M Amarnath),
+     7-184 (Kirmani), 8-213 (Bedi), 9-214 (Chandrasekhar).
+
+Bowling                      O      M      R      W
+Roberts                     14      4     51      3
+Holding                     13      6     22      2
+Julien                       4      2      8      0
+Holford                     17      1     52      1
+Jumadeen                    24      7     57      3
+Fredericks                   1      0      1      0
+
+<END>

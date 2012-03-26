@@ -1,0 +1,54 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+1696, 2004-03-10, 2, 7, West Indies, , Edwards, 38, 119, 88, 5, 0
+1696, 2004-03-10, 3, 7, West Indies, not out, , 10, 22, 21, 1, 0
+1700, 2004-04-20, 2, 8, New Zealand, c Oram, Styris, 46, 78, 52, 6, 1
+1702, 2004-05-03, 2, 7, New Zealand, c Fleming, Cairns, 100, 192, 146, 15, 1
+1704, 2004-05-10, 2, 8, New Zealand, lbw, Styris, 22, 56, 42, 4, 0
+1704, 2004-05-10, 4, 7, New Zealand, c Oram, Franklin, 27, 61, 50, 6, 0
+1707, 2004-06-22, 1, 7, West Indies, c Jacobs, Collins, 4, 11, 13, 0, 0
+1708, 2004-07-29, 1, 7, West Indies, c Jacobs, Collymore, 74, 140, 97, 12, 0
+1708, 2004-07-29, 3, 7, West Indies, , Lawson, 4, 20, 21, 0, 0
+1711, 2004-07-12, 2, 8, West Indies, , Bravo, 12, 64, 37, 1, 0
+1712, 2004-07-19, 1, 7, West Indies, c Sarwan, Collymore, 22, 85, 57, 3, 0
+1728, 2004-11-17, 2, 7, South Africa, c Dippenaar, Ntini, 2, 9, 3, 0, 0
+1730, 2004-11-26, 1, 7, South Africa, c Rudolph, Ntini, 24, 40, 33, 3, 1
+1730, 2004-11-26, 3, 7, South Africa, c Ntini, Boje, 73, 133, 82, 10, 2
+1732, 2005-01-02, 2, 8, South Africa, c Smith, Langeveldt, 13, 33, 21, 1, 0
+1732, 2005-01-02, 4, 7, South Africa, c Kallis, Boje, 38, 136, 87, 7, 0
+1734, 2005-01-13, 1, 8, South Africa, c Smith, Pollock, 2, 7, 6, 0, 0
+1734, 2005-01-13, 3, 7, South Africa, c de Villiers, Pollock, 13, 44, 30, 2, 0
+1736, 2005-01-21, 2, 7, South Africa, c Smith, Nel, 50, 81, 54, 5, 3
+1756, 2005-06-21, 2, 7, Australia, c Gilchrist, Lee, 30, 85, 56, 6, 0
+1756, 2005-06-21, 4, 7, Australia, c Gillespie, McGrath, 6, 51, 27, 1, 0
+1758, 2005-07-04, 1, 7, Australia, c Gilchrist, Kasprowicz, 1, 14, 15, 0, 0
+1758, 2005-07-04, 3, 8, Australia, c Ponting, Lee, 9, 33, 19, 1, 0
+1760, 2005-07-11, 1, 8, Australia, , Gillespie, 42, 86, 51, 6, 0
+1760, 2005-07-11, 3, 7, Australia, not out, , 27, 15, 12, 2, 2
+1762, 2005-07-25, 1, 7, Australia,                c &, Kasprowicz, 85, 205, 149, 8, 0
+1762, 2005-07-25, 4, 7, Australia, c Kasprowicz, Warne, 3, 25, 13, 0, 0
+1763, 2005-08-08, 1, 8, Australia, , Lee, 25, 60, 41, 5, 0
+1763, 2005-08-08, 3, 8, Australia, , Tait, 1, 24, 12, 0, 0
+1770, 2005-10-12, 2, 8, Pakistan, , Shabbir Ahmed, 22, 46, 30, 4, 0
+1770, 2005-10-12, 4, 7, Pakistan, , Shoaib Akhtar, 33, 107, 75, 1, 0
+1772, 2005-10-20, 2, 7, Pakistan, lbw, Shahid Afridi, 55, 143, 86, 8, 0
+1772, 2005-10-20, 4, 7, Pakistan, not out, , 30, 94, 61, 6, 0
+1774, 2005-11-29, 1, 7, Pakistan, , Danish Kaneria, 4, 23, 17, 0, 0
+1774, 2005-11-29, 3, 7, Pakistan, lbw, Shoaib Akhtar, 5, 22, 17, 1, 0
+1785, 2006-02-01, 1, 7, India, lbw, Pathan, 14, 32, 30, 3, 0
+1788, 2006-02-09, 1, 7, India, , Kumble, 52, 186, 134, 8, 0
+1788, 2006-02-09, 3, 7, India, , Patel, 5, 10, 7, 1, 0
+1791, 2006-02-18, 1, 7, India, c Kumble, Sreesanth, 1, 11, 7, 0, 0
+1791, 2006-02-18, 3, 8, India, c Pathan, Harbhajan Singh, 3, 33, 22, 0, 0
+1802, 2006-04-11, 1, 8, Sri Lanka, not out, , 11, 33, 22, 1, 0
+1803, 2006-04-25, 2, 8, Sri Lanka, c Samaraweera, Muralitharan, 4, 17, 12, 0, 0
+1804, 2006-05-02, 2, 7, Sri Lanka, st Sangakkara, Muralitharan, 19, 52, 43, 2, 0
+1804, 2006-05-02, 4, 7, Sri Lanka, , Muralitharan, 6, 33, 27, 0, 0
+1809, 2006-06-13, 1, 7, Pakistan, lbw, Danish Kaneria, 18, 38, 30, 1, 1
+1809, 2006-06-13, 3, 7, Pakistan, c Kamran Akmal, Danish Kaneria, 16, 67, 54, 1, 0
+1811, 2006-06-27, 2, 7, Pakistan, lbw, Mohammad Sami, 8, 18, 9, 0, 1
+1817, 2006-10-23, 2, 7, Australia, lbw, McGrath, 19, 90, 57, 2, 0
+1817, 2006-10-23, 4, 7, Australia, , McGrath, 33, 68, 48, 5, 0
+1819, 2006-11-01, 1, 7, Australia, c Martyn, Warne, 1, 10, 7, 0, 0
+1819, 2006-11-01, 3, 7, Australia, c Hayden, Lee, 10, 41, 24, 1, 0
+1821, 2006-11-14, 2, 7, Australia, c Langer, Symonds, 0, 11, 4, 0, 0
+1821, 2006-11-14, 4, 8, Australia, run out (Ponting), , 0, 11, 7, 0, 0

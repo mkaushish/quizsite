@@ -1,0 +1,123 @@
+
+Test # 1121
+The Ashes, 1989, 1st Test
+England v Australia
+Headingley, Leeds
+8,9,10,12,13 June 1989 (5-day match)
+
+Result: Australia won by 210 runs
+Series: Australia leads the 6-match series 1-0
+
+Toss: England
+Umpires: JW Holder and DR Shepherd
+Test debut: GD Campbell (Australia).
+Player of the match: TM Alderman
+
+Close of play:
+ Day 1: Australia 207/3 (Taylor 96*, Jones 10*)
+ Day 2: Australia 580/6 (Waugh 174*, Hughes 63*)
+ Day 3: Australia 601/7d, England 284/4 (Lamb 103*, Smith 16*)
+ Day 4: England 430, Australia 158/3 (Border 31*, Jones 12*)
+
+Australia 1st innings                                           R   M   B  4 6
+GR Marsh              lbw                b DeFreitas           16  78  63  1 0
+MA Taylor             lbw                b Foster             136 391 315 16 0
+DC Boon               c Russell          b Foster               9  30  24  1 0
+*AR Border            c Foster           b DeFreitas           66 141 118  9 1
+DM Jones              c Russell          b Newport             79 266 172  7 0
+SR Waugh              not out                                 177 310 242 24 0
++IA Healy                            c & b Newport             16  39  31  2 0
+MG Hughes             c Russell          b Foster              71 130 105  6 2
+GF Lawson             not out                                  10  13  13  1 0
+Extras                (lb 13, w 1, nb 7)                       21
+Total                 (7 wickets dec, 178.3 overs)            601
+
+DNB: GD Campbell, TM Alderman.
+
+FoW: 1-44 (Marsh), 2-57 (Boon), 3-174 (Border), 4-273 (Taylor),
+     5-411 (Jones), 6-441 (Healy), 7-588 (Hughes).
+
+Bowling                      O      M      R      W
+DeFreitas                   45.3    8    140      2
+Foster                      46     14    109      3
+Newport                     39      5    153      2
+Pringle                     33      5    123      0
+Gooch                        9      1     31      0
+Barnett                      6      0     32      0
+
+England 1st innings                                             R   M   B  4 6
+GA Gooch              lbw                b Alderman            13  59  46  2 0
+BC Broad                                 b Hughes              37 106  74  5 0
+KJ Barnett            lbw                b Alderman            80 164 118 10 0
+AJ Lamb               c Boon             b Alderman           125 282 204 24 0
+*DI Gower             c Healy            b Lawson              26  60  39  5 0
+RA Smith              lbw                b Alderman            66 193 132  8 0
+DR Pringle            lbw                b Campbell             6  15  15  1 0
+PJ Newport            c Boon             b Lawson              36 107  73  3 0
++RC Russell           c Marsh            b Lawson              15  53  33  3 0
+PAJ DeFreitas         lbw                b Alderman             1  12   6  0 0
+NA Foster             not out                                   2   6   5  0 0
+Extras                (b 5, lb 7, w 1, nb 10)                  23
+Total                 (all out, 121.5 overs)                  430
+
+FoW: 1-35 (Gooch), 2-81 (Broad), 3-195 (Barnett), 4-243 (Gower),
+     5-323 (Lamb), 6-338 (Pringle), 7-392 (Smith),
+     8-421 (Newport), 9-424 (DeFreitas), 10-430 (Russell).
+
+Bowling                      O      M      R      W
+Alderman                    37      7    107      5
+Lawson                      34.5    6    105      3
+Campbell                    14      0     82      1
+Hughes                      28      7     92      1
+Waugh                        6      2     27      0
+Border                       2      1      5      0
+
+Australia 2nd innings                                           R   M   B  4 6
+GR Marsh              c Russell          b Foster               6  22  22  0 0
+MA Taylor             c Broad            b Pringle             60 120 112  8 0
+DC Boon               lbw                b DeFreitas           43 139  95  6 0
+*AR Border            not out                                  60  99  76  8 0
+DM Jones              not out                                  40  57  34  3 0
+Extras                (b 2, lb 5, w 9, nb 5)                   21
+Total                 (3 wickets dec, 54.5 overs)             230
+
+DNB: SR Waugh, +IA Healy, MG Hughes, GF Lawson, GD Campbell,
+     TM Alderman.
+
+FoW: 1-14 (Marsh), 2-97 (Taylor), 3-129 (Boon).
+
+Bowling                      O      M      R      W
+Foster                      19      4     65      1
+DeFreitas                   18      2     76      1
+Pringle                     12.5    1     60      1
+Newport                      5      2     22      0
+
+England 2nd innings (target: 402 runs)                          R   M   B  4 6
+GA Gooch              lbw                b Hughes              68 174 118 10 0
+BC Broad              lbw                b Alderman             7  17  12  1 0
+KJ Barnett            c Taylor           b Alderman            34  51  46  7 0
+AJ Lamb               c Boon             b Alderman             4  10   6  1 0
+*DI Gower             c Healy            b Lawson              34  52  44  6 0
+RA Smith              c Border           b Lawson               0   6   3  0 0
+DR Pringle            c Border           b Alderman             0  39  27  0 0
+PJ Newport            c Marsh            b Alderman             8  38  27  1 0
++RC Russell           c Healy            b Hughes               2  25  22  0 0
+PAJ DeFreitas                            b Hughes              21  27  18  3 0
+NA Foster             not out                                   1  20  16  0 0
+Extras                (b 4, lb 3, nb 5)                        12
+Total                 (all out, 55.2 overs)                   191
+
+FoW: 1-17 (Broad), 2-67 (Barnett), 3-77 (Lamb), 4-134 (Gower),
+     5-134 (Smith), 6-153 (Gooch), 7-153 (Pringle),
+     8-166 (Russell), 9-170 (Newport), 10-191 (DeFreitas).
+
+Bowling                      O      M      R      W
+Alderman                    20      7     44      5
+Lawson                      11      2     58      2
+Campbell                    10      0     42      0
+Hughes                       9.2    2     36      3
+Border                       5      3      4      0
+
+*** Attendance: 50,600
+
+<END>

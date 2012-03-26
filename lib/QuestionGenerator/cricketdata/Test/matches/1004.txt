@@ -1,0 +1,123 @@
+
+Test # 1004
+England in India, 1984/85, 2nd Test
+India v England
+Feroz Shah Kotla, Delhi
+12,13,15,16,17 December 1984 (5-day match)
+
+Result: England won by 8 wickets
+Series: 5-match series level 1-1
+
+Toss: India
+Umpires: DN Dotiwalla and PD Reporter
+Test debut: M Prabhakar (India).
+
+Close of play:
+ Day 1: India 208/6 (Kapil Dev 60*, Kirmani 16*)
+ Day 2: India 307, England 107/2 (Robinson 53*, Lamb 12*)
+ Day 3: England 337/5 (Robinson 157*, Downton 35*)
+ Day 4: England 418, India 128/2 (Gavaskar 51*, Amarnath 57*)
+
+India 1st innings                                               R   M   B  4 6
+*SM Gavaskar          c Downton          b Ellison              1   6   5  0 0
+AD Gaekwad                               b Pocock              28  95  60  5 0
+DB Vengsarkar         st Downton         b Edmonds             24 103  77  2 0
+M Amarnath            c Gower            b Pocock              42 139 129  8 0
+SM Patil              c Pocock           b Edmonds             30  94  82  3 0
+RJ Shastri            c Fowler           b Pocock               2  10  11  0 0
+N Kapil Dev           c Downton          b Ellison             60 115  97  7 0
++SMH Kirmani          c Gatting          b Ellison             27 136  89  3 1
+M Prabhakar           c Downton          b Ellison             25  76  53  3 0
+NS Yadav              not out                                  28 108  87  6 0
+L Sivaramakrishnan    run out                                  25  71  64  3 0
+Extras                (b 1, lb 12, nb 2)                       15
+Total                 (all out, 125.2 overs)                  307
+
+FoW: 1-3 (Gavaskar), 2-56 (Gaekwad), 3-68 (Vengsarkar),
+     4-129 (Patil), 5-131 (Shastri), 6-140 (Amarnath),
+     7-208 (Kapil Dev), 8-235 (Kirmani), 9-258 (Prabhakar),
+     10-307 (Sivaramakrishnan).
+
+Bowling                      O      M      R      W
+Cowans                      20      5     70      0
+Ellison                     26      6     66      4
+Edmonds                     44.2   16     83      2
+Pocock                      33      8     70      3
+Gatting                      2      0      5      0
+
+England 1st innings                                             R   M   B  4 6
+G Fowler              c Gaekwad          b Prabhakar            5  24  19  0 0
+RT Robinson           c Gavaskar         b Kapil Dev          160 508 390 17 0
+MW Gatting                               b Yadav               26  54  51  4 0
+AJ Lamb               c Vengsarkar       b Yadav               52 189 157  7 0
+*DI Gower             lbw                b Sivaramakrishnan     5  20  17  0 0
+CS Cowdrey            c Gavaskar         b Sivaramakrishnan    38  57  64  3 2
++PR Downton           c Kapil Dev        b Sivaramakrishnan    74 292 206  6 0
+PH Edmonds            c Shastri          b Sivaramakrishnan    26 113  83  2 0
+RM Ellison                               b Sivaramakrishnan    10  33  23  1 0
+PI Pocock                                b Sivaramakrishnan     0   8   4  0 0
+NG Cowans             not out                                   0   7   4  0 0
+Extras                (b 6, lb 13, nb 3)                       22
+Total                 (all out, 169.1 overs)                  418
+
+FoW: 1-15 (Fowler), 2-60 (Gatting), 3-170 (Lamb), 4-181 (Gower),
+     5-237 (Cowdrey), 6-343 (Robinson), 7-398 (Edmonds),
+     8-411 (Downton), 9-415 (Pocock), 10-418 (Ellison).
+
+Bowling                      O      M      R      W
+Kapil Dev                   32      5     87      1
+Prabhakar                   21      3     68      1
+Sivaramakrishnan            49.1   17     99      6
+Yadav                       36      6     95      2
+Shastri                     29      4     44      0
+Amarnath                     2      0      6      0
+
+India 2nd innings                                               R   M   B  4 6
+*SM Gavaskar                             b Pocock              65 228 164  6 1
+M Prabhakar           c Downton          b Cowans               5  23  16  1 0
+DB Vengsarkar                            b Cowans               1  10  11  0 0
+M Amarnath                               b Edmonds             64 135 112  8 1
+SM Patil              c Lamb             b Edmonds             41 124 118  4 1
+RJ Shastri            not out                                  25 145 135  2 0
+N Kapil Dev           c Lamb             b Pocock               7   4   6  0 1
+AD Gaekwad            c Downton          b Edmonds              0   9  10  0 0
++SMH Kirmani                             b Pocock               6  12   8  1 0
+NS Yadav              c Lamb             b Edmonds              1  41  39  0 0
+L Sivaramakrishnan                   c & b Pocock               0   8   7  0 0
+Extras                (b 6, lb 10, w 1, nb 3)                  20
+Total                 (all out, 103.4 overs)                  235
+
+FoW: 1-12 (Prabhakar), 2-15 (Vengsarkar), 3-136 (Amarnath),
+     4-172 (Gavaskar), 5-207 (Patil), 6-214 (Kapil Dev),
+     7-216 (Gaekwad), 8-225 (Kirmani), 9-234 (Yadav),
+     10-235 (Sivaramakrishnan).
+
+Bowling                      O      M      R      W
+Cowans                      13      2     43      2
+Ellison                      7      1     20      0
+Edmonds                     44     24     60      4
+Pocock                      38.4    9     93      4
+Gatting                      1      0      3      0
+
+England 2nd innings (target: 125 runs)                          R   M   B  4 6
+G Fowler              c Vengsarkar       b Sivaramakrishnan    29  70  49  4 0
+RT Robinson           run out                                  18  49  27  1 0
+MW Gatting            not out                                  30  60  32  4 0
+AJ Lamb               not out                                  37  39  38  4 2
+Extras                (b 4, lb 7, nb 2)                        13
+Total                 (2 wickets, 23.4 overs)                 127
+
+DNB: *DI Gower, CS Cowdrey, +PR Downton, PH Edmonds, RM Ellison,
+     PI Pocock, NG Cowans.
+
+FoW: 1-41 (Robinson), 2-68 (Fowler).
+
+Bowling                      O      M      R      W
+Kapil Dev                    6      0     20      0
+Prabhakar                    3      0     18      0
+Sivaramakrishnan             8      0     41      1
+Yadav                        2      0      7      0
+Shastri                      4      0     20      0
+Gavaskar                     0.4    0     10      0
+
+<END>

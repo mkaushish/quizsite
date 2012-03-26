@@ -1,0 +1,120 @@
+
+Test # 651
+West Indies in New Zealand, 1968/69, 2nd Test
+New Zealand v West Indies
+Basin Reserve, Wellington
+7,8,10,11 March 1969 (4-day match)
+
+Result: New Zealand won by 6 wickets
+Series: 3-match series level 1-1
+
+Toss: New Zealand
+Umpires: ECA MacKintosh and RWR Shortt
+Balls per over: 8
+
+Close of play:
+ Day 1: West Indies 297, New Zealand 2/0 (Dowling 1*, Turner 0*)
+ Day 2: New Zealand 257/7 (Taylor 22*, Motz 16*)
+ Day 3: New Zealand 282, West Indies 148, New Zealand 40/3 (Hastings 0*, Yuile 1*)
+
+West Indies 1st innings                                         R   M   B  4 6
+RC Fredericks         c Milburn          b Motz                15            0
+MC Carew              c Taylor           b Motz                17            0
+SM Nurse                                 b Motz                21            0
+BF Butcher            lbw                b Motz                50 127      5 0
+CH Lloyd              c Milburn          b Cunis               44          7 0
+*GS Sobers            c Morgan           b Motz                20            0
+DAJ Holford           lbw                b Cunis                1          0 0
++JL Hendriks          not out                                  54 137      8 0
+CC Griffith           c Congdon          b Motz                31  52      5 0
+RM Edwards            run out                                  22  67        0
+LR Gibbs              c Milburn          b Yuile                2          0 0
+Extras                (b 3, lb 6, w 1, nb 10)                  20
+Total                 (all out, 65.4 overs)                   297
+
+FoW: 1-27 (Carew), 2-58 (Fredericks), 3-67 (Nurse),
+     4-130 (Lloyd), 5-174 (Sobers), 6-177 (Holford),
+     7-181 (Butcher), 8-241 (Griffith), 9-287 (Edwards),
+     10-297 (Gibbs).
+
+Bowling                      O      M      R      W
+Motz                        18      2     69      6
+Taylor                      14      1     67      0
+Cunis                       18      4     76      2
+Yuile                        9.4    4     27      1
+Pollard                      2      0     19      0
+Morgan                       4      0     19      0
+
+New Zealand 1st innings                                         R   M   B  4 6
+*GT Dowling           c Gibbs            b Griffith            21  79        0
+GM Turner             c Sobers           b Edwards             74 224      7 0
+BE Congdon            c Sobers           b Carew               52 104      6 0
+BF Hastings           c Hendriks         b Edwards              8            0
+V Pollard             c Hendriks         b Griffith             9            0
+RW Morgan             c Gibbs            b Edwards              0          0 0
+BW Yuile              c Hendriks         b Sobers              33  98      4 0
+BR Taylor             c Holford          b Griffith            33 114        0
+RC Motz               c Gibbs            b Edwards             18  45        0
+RS Cunis              lbw                b Edwards              5            0
++BD Milburn           not out                                   4            0
+Extras                (lb 7, nb 18)                            25
+Total                 (all out, 83.7 overs)                   282
+
+FoW: 1-41 (Dowling), 2-137 (Congdon), 3-152 (Hastings),
+     4-169 (Turner), 5-169 (Morgan), 6-194 (Pollard),
+     7-224 (Yuile), 8-262 (Motz), 9-270 (Taylor), 10-282 (Cunis).
+
+Bowling                      O      M      R      W
+Griffith                    26      2     92      3
+Edwards                     24.7    5     84      5
+Sobers                       9      2     22      1
+Gibbs                       14      3     41      0
+Carew                       10      3     18      1
+
+West Indies 2nd innings                                         R   M   B  4 6
+RC Fredericks         c Hastings         b Motz                 2          0 0
+MC Carew              run out                                   1          0 0
+SM Nurse              c Congdon          b Cunis               16            0
+BF Butcher            lbw                b Yuile               59 158      8 0
+CH Lloyd                                 b Cunis                1          0 0
+*GS Sobers            c Pollard          b Cunis               39  67      8 0
+DAJ Holford                              b Yuile               12            0
++JL Hendriks                             b Motz                 5            0
+CC Griffith                              b Yuile                4            0
+RM Edwards            run out                                   1          0 0
+LR Gibbs              not out                                   1          0 0
+Extras                (nb 7)                                    7
+Total                 (all out, 37.4 overs)                   148
+
+FoW: 1-2 (Carew), 2-17 (Fredericks), 3-36 (Nurse), 4-38 (Lloyd),
+     5-92 (Sobers), 6-116 (Holford), 7-140 (Butcher),
+     8-140 (Hendriks), 9-144 (Edwards), 10-148 (Griffith).
+
+Bowling                      O      M      R      W
+Motz                        13      3     44      2
+Taylor                       6      0     36      0
+Cunis                       12      2     36      3
+Yuile                        6.4    0     25      3
+
+New Zealand 2nd innings (target: 164 runs)                      R   M   B  4 6
+*GT Dowling           c Hendriks         b Griffith            23            0
+GM Turner             c Griffith         b Edwards              1          0 0
+BE Congdon            c Griffith         b Edwards              4            0
+BF Hastings           not out                                  62 196      8 0
+BW Yuile              lbw                b Gibbs               37            0
+RW Morgan             not out                                  16  45        0
+Extras                (b 13, lb 4, w 1, nb 5)                  23
+Total                 (4 wickets, 48.5 overs)                 166
+
+DNB: V Pollard, BR Taylor, RC Motz, RS Cunis, +BD Milburn.
+
+FoW: 1-20 (Turner), 2-32 (Congdon), 3-39 (Dowling),
+     4-113 (Yuile).
+
+Bowling                      O      M      R      W
+Griffith                    15      6     29      1
+Edwards                     11      2     42      2
+Sobers                       8      2     22      0
+Gibbs                       14.5    3     50      1
+
+<END>

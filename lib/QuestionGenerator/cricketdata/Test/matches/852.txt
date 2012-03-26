@@ -1,0 +1,99 @@
+
+Test # 852
+India in England, 1979, 2nd Test
+England v India
+Lord's, London
+2,3,4,6,7 August 1979 (5-day match)
+
+Result: Match drawn
+Series: England leads the 4-match series 1-0
+
+Toss: India
+Umpires: HD Bird and KE Palmer
+Test debut: Yashpal Sharma (India).
+Player of the match: DB Vengsarkar
+
+Close of play:
+ Day 1: India 96, England 53/1 (Boycott 26*, Gooch 8*)
+ Day 2: England 72/3 (Gower 9*, Randall 0*)
+ Day 3: England 357/7 (Miller 52*, Taylor 25*)
+ Day 4: England 419/9d, India 196/2 (Vengsarkar 66*, Viswanath 35*)
+
+India 1st innings                                               R   M   B  4 6
+SM Gavaskar           c Taylor           b Gooch               42 139 114  4 0
+CPS Chauhan           c Randall          b Botham               2  29  14  0 0
+DB Vengsarkar         c Botham           b Hendrick             0  20  12  0 0
+GR Viswanath          c Brearley         b Hendrick            21  38  34  3 0
+AD Gaekwad            c Taylor           b Botham              13  93  71  1 0
+Yashpal Sharma        c Taylor           b Botham              11  65  53  2 0
+N Kapil Dev           c Miller           b Botham               4   5   5  0 0
+KD Ghavri             not out                                   3  36  19  0 0
++B Reddy              lbw                b Botham               0  10   8  0 0
+*S Venkataraghavan    run out                                   0   1   1  0 0
+BS Bedi                                  b Lever                0   2   4  0 0
+Extras                                                          0
+Total                 (all out, 55.5 overs)                    96
+
+FoW: 1-12 (Chauhan), 2-23 (Vengsarkar), 3-51 (Viswanath),
+     4-75 (Gavaskar), 5-79 (Gaekwad), 6-89 (Kapil Dev),
+     7-96 (Yashpal Sharma), 8-96 (Reddy), 9-96 (Venkataraghavan),
+     10-96 (Bedi).
+
+Bowling                      O      M      R      W
+Lever                        9.5    3     29      1
+Botham                      19      9     35      5
+Hendrick                    15      7     15      2
+Edmonds                      2      1      1      0
+Gooch                       10      5     16      1
+
+England 1st innings                                             R   M   B  4 6
+*JM Brearley          c Reddy            b Kapil Dev           12  35  28  2 0
+G Boycott             c Gavaskar         b Ghavri              32  93  80  5 0
+GA Gooch                                 b Kapil Dev           10  76  52  1 0
+DI Gower                                 b Ghavri              82 131  94 10 2
+DW Randall            run out                                  57 156 135  8 0
+IT Botham                                b Venkataraghavan     36  74  63  3 0
+G Miller              st Reddy           b Bedi                62 192 160  4 0
+PH Edmonds            c Reddy            b Kapil Dev           20  50  53  4 0
++RW Taylor            c Vengsarkar       b Bedi                64 123 112  9 0
+JK Lever              not out                                   6  12   8  1 0
+Extras                (b 11, lb 21, w 2, nb 4)                 38
+Total                 (9 wickets dec, 129.5 overs)            419
+
+DNB: M Hendrick.
+
+FoW: 1-21 (Brearley), 2-60 (Boycott), 3-71 (Gooch),
+     4-185 (Gower), 5-226 (Randall), 6-253 (Botham),
+     7-291 (Edmonds), 8-394 (Miller), 9-419 (Taylor).
+
+Bowling                      O      M      R      W
+Kapil Dev                   38     11     93      3
+Ghavri                      31      2    122      2
+Bedi                        38.5   13     87      2
+Venkataraghavan             22      2     79      1
+
+India 2nd innings                                               R   M   B  4 6
+SM Gavaskar           c Brearley         b Botham              59 142 117  8 0
+CPS Chauhan           c Randall          b Edmonds             31 114 100  4 0
+DB Vengsarkar         c Boycott          b Edmonds            103 353 295 13 0
+GR Viswanath          c Gower            b Lever              113 351 337 14 0
+AD Gaekwad            not out                                   1  37  31  0 0
+Yashpal Sharma        not out                                   5  11   9  0 0
+Extras                (b 2, lb 2, w 1, nb 1)                    6
+Total                 (4 wickets, 148 overs)                  318
+
+DNB: N Kapil Dev, KD Ghavri, +B Reddy, *S Venkataraghavan,
+     BS Bedi.
+
+FoW: 1-79 (Chauhan), 2-99 (Gavaskar), 3-309 (Vengsarkar),
+     4-312 (Viswanath).
+
+Bowling                      O      M      R      W
+Botham                      35     13     80      1
+Hendrick                    25     12     56      0
+Lever                       24      7     69      1
+Edmonds                     45     18     62      2
+Miller                      17      6     37      0
+Gooch                        2      0      8      0
+
+<END>

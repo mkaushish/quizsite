@@ -1,0 +1,125 @@
+
+Test # 778
+The Wisden Trophy, 1976, 2nd Test
+England v West Indies
+Lord's, London
+17,18,19,21,22 June 1976 (5-day match)
+
+Result: Match drawn
+Series: 5-match series level 0-0
+
+Toss: England
+Umpires: HD Bird and DJ Constant
+
+Close of play:
+ Day 1: England 197/8 (Old 0*)
+ Day 2: England 250, West Indies 182, England 27/0 (Brearley 12*, Pocock 2*)
+ Day 3: No play
+ Day 4: England 223/7 (Wood 14*, Old 7*)
+
+England 1st innings                                             R   M   B  4 6
+B Wood                c Murray           b Roberts              6  28  17  0 0
+JM Brearley                              b Roberts             40 204 146  4 0
+DS Steele             lbw                b Roberts              7  29  20  1 0
+DB Close              c Holder           b Jumadeen            60 205 146  6 0
+RA Woolmer            c Murray           b Holding             38 145 105  5 0
+*AW Greig             c Lloyd            b Roberts              6  15  15  1 0
++APE Knott                               b Holder              17  49  31  2 0
+CM Old                                   b Holder              19  82  40  3 0
+JA Snow                                  b Roberts              0  10   6  0 0
+DL Underwood                             b Holder              31  69  56  2 0
+PI Pocock             not out                                   0  10   3  0 0
+Extras                (b 7, lb 5, w 5, nb 9)                   26
+Total                 (all out, 95.4 overs)                   250
+
+FoW: 1-15 (Wood), 2-31 (Steele), 3-115 (Brearley), 4-153 (Close),
+     5-161 (Greig), 6-188 (Knott), 7-196 (Woolmer), 8-197 (Snow),
+     9-249 (Old), 10-250 (Underwood).
+
+Bowling                      O      M      R      W
+Roberts                     23      6     60      5
+Holding                     19      4     52      1
+Julien                      23      6     54      0
+Holder                      18.4    7     35      3
+Jumadeen                    12      4     23      1
+
+West Indies 1st innings                                         R   M   B  4 6
+RC Fredericks         c Snow             b Old                  0   1   2  0 0
+CG Greenidge          c Snow             b Underwood           84 147 119 14 2
+HA Gomes              c Woolmer          b Snow                11  31  23  2 0
+AI Kallicharran       c Old              b Snow                 0   4   1  0 0
+*CH Lloyd             c Knott            b Underwood           50 132  80  6 0
++DL Murray                               b Snow                 2   1   2  0 0
+BD Julien             lbw                b Snow                 3   9   9  0 0
+MA Holding                               b Underwood            0   3   5  0 0
+VA Holder             c Woolmer          b Underwood           12  45  33  2 0
+AME Roberts                              b Underwood           16  41  32  3 0
+RR Jumadeen           not out                                   0   1   0  0 0
+Extras                (b 2, nb 2)                               4
+Total                 (all out, 50.4 overs)                   182
+
+FoW: 1-0 (Fredericks), 2-28 (Gomes), 3-40 (Kallicharran),
+     4-139 (Greenidge), 5-141 (Murray), 6-145 (Julien),
+     7-146 (Holding), 8-153 (Lloyd), 9-178 (Holder),
+     10-182 (Roberts).
+
+Bowling                      O      M      R      W
+Old                         10      0     58      1
+Snow                        19      3     68      4
+Underwood                   18.4    7     39      5
+Pocock                       3      0     13      0
+
+England 2nd innings                                             R   M   B  4 6
+B Wood                c Murray           b Holding             30 108  87  4 0
+JM Brearley                              b Holding             13  64  39  3 0
+PI Pocock             c Jumadeen         b Roberts              3  26  19  0 0
+DS Steele             c Jumadeen         b Roberts             64 266 206  7 0
+DB Close                             c & b Holder              46 135 106  4 1
+RA Woolmer            c Murray           b Roberts             29  94  60  5 0
+*AW Greig             c Gomes            b Holder              20  90  50  3 0
++APE Knott            lbw                b Roberts              4  38  28  0 0
+CM Old                run out                                  13  63  28  1 0
+JA Snow               not out                                   6  15  15  0 0
+DL Underwood                             b Roberts              2   8   3  0 0
+Extras                (b 7, lb 7, nb 10)                       24
+Total                 (all out, 104.5 overs)                  254
+
+FoW: 1-29 (Pocock), 2-29 (Brearley), 3-112 (Close),
+     4-169 (Woolmer), 5-186 (Steele), 6-207 (Knott),
+     7-215 (Greig), 8-245 (Wood), 9-249 (Old),
+     10-254 (Underwood).
+
+Bowling                      O      M      R      W
+Roberts                     29.5   10     63      5
+Holding                     27     10     56      2
+Julien                      13      5     20      0
+Holder                      19      2     50      2
+Jumadeen                    16      4     41      0
+
+West Indies 2nd innings (target: 323 runs)                      R   M   B  4 6
+RC Fredericks         c Greig            b Old                138 282 253 14 1
+CG Greenidge          c Close            b Pocock              22  83  70  2 1
+AI Kallicharran                          b Greig               34 146 129  5 0
+*CH Lloyd                                b Greig               33  55  31  1 0
+BD Julien                                b Underwood            1  11   8  0 0
++DL Murray            not out                                   7  21  20  0 0
+HA Gomes                                 b Underwood            0   6   8  0 0
+VA Holder             not out                                   0   4   2  0 0
+Extras                (b 3, lb 2, nb 1)                         6
+Total                 (6 wickets, 86.3 overs)                 241
+
+DNB: MA Holding, AME Roberts, RR Jumadeen.
+
+FoW: 1-41 (Greenidge), 2-154 (Kallicharran), 3-230 (Fredericks),
+     4-233 (Lloyd), 5-238 (Julien), 6-238 (Gomes).
+
+Bowling                      O      M      R      W
+Old                         14      4     46      1
+Snow                         7      2     22      0
+Underwood                   24.3    8     73      2
+Pocock                      27      9     52      1
+Greig                       14      3     42      2
+
+*** B Wood (2) retired hurt on 10* from 19/0 to 207/6
+
+<END>

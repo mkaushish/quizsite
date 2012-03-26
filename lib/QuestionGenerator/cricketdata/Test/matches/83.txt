@@ -1,0 +1,124 @@
+
+Test # 83
+The Ashes, 1905, 1st Test
+England v Australia
+Trent Bridge, Nottingham
+29,30,31 May 1905 (3-day match)
+
+Result: England won by 213 runs
+Series: England leads the 5-match series 1-0
+
+Toss: England
+Umpires: J Carlin and J Phillips (Aus)
+
+Close of play:
+ Day 1: England 196, Australia 158/4 (Armstrong 20*, Cotter 6*)
+ Day 2: Australia 221, England 318/5 (Jackson 19*, Rhodes 2*)
+
+England 1st innings                                             R   M   B  4 6
+TW Hayward                               b Cotter               5            0
+AO Jones                                 b Laver                4            0
+JT Tyldesley          c Duff             b Laver               56 125      9 0
+AC MacLaren           c Kelly            b Laver                2          0 0
+*Hon.FS Jackson                          b Cotter               0          0 0
+BJT Bosanquet                            b Laver               27            0
+JR Gunn                                  b Cotter               8            0
+GL Jessop                                b Laver                0       1  0 0
++AFA Lilley                          c & b Laver               37            0
+W Rhodes              c Noble            b Laver               29            0
+EG Arnold             not out                                   2          0 0
+Extras                (b 21, lb 5)                             26
+Total                 (all out, 71.3 overs)                   196
+
+FoW: 1-6 (Hayward), 2-24 (Jones), 3-40 (MacLaren),
+     4-49 (Jackson), 5-98 (Bosanquet), 6-119 (Tyldesley),
+     7-119 (Jessop), 8-139 (Gunn), 9-187 (Lilley),
+     10-196 (Rhodes).
+
+Bowling                      O      M      R      W
+Cotter                      23      2     64      3
+Laver                       31.3   14     64      7
+McLeod                       8      2     19      0
+Armstrong                    6      3      4      0
+Noble                        3      0     19      0
+
+Australia 1st innings                                           R   M   B  4 6
+RA Duff               c Hayward          b Gunn                 1          0 0
+VT Trumper            retired hurt                             13          3 0
+C Hill                                   b Jackson             54 117      7 0
+MA Noble              c Lilley           b Jackson             50  97      7 0
+WW Armstrong          st Lilley          b Rhodes              27            1
+*J Darling            c Bosanquet        b Jackson              0   1   2  0 0
+A Cotter                             c & b Jessop              45            0
+SE Gregory            c Jones            b Jackson              2          0 0
+CE McLeod                                b Arnold               4            0
+FJ Laver              c Jones            b Jackson              5            0
++JJ Kelly             not out                                   1          0 0
+Extras                (b 16, lb 2, w 1)                        19
+Total                 (all out, 63.5 overs)                   221
+
+FoW: 1-1 (Duff), 2-129 (Noble), 3-130 (Hill), 4-130 (Darling),
+     5-200 (Cotter), 6-204 (Armstrong), 7-209 (McLeod),
+     8-216 (Gregory), 9-221 (Laver).
+
+Bowling                      O      M      R      W
+Arnold                      11      2     39      1
+Gunn                         6      2     27      1
+Jessop                       7      2     18      1
+Bosanquet                    7      0     29      0
+Rhodes                      18      6     37      1
+Jackson                     14.5    2     52      5
+
+England 2nd innings                                             R   M   B  4 6
+TW Hayward            c Darling          b Armstrong           47 150        0
+AC MacLaren           c Duff             b Laver              140 237     21 0
+JT Tyldesley                         c & b Duff                61 125      8 0
+AO Jones                                 b Duff                30            0
+*Hon.FS Jackson       not out                                  82 145      8 0
+BJT Bosanquet                            b Cotter               6            0
+W Rhodes              not out                                  39            0
+Extras                (b 11, lb 9, w 1)                        21
+Total                 (5 wickets dec, 153 overs)              426
+
+DNB: JR Gunn, GL Jessop, +AFA Lilley, EG Arnold.
+
+FoW: 1-145 (Hayward), 2-222 (MacLaren), 3-276 (Jones),
+     4-301 (Tyldesley), 5-313 (Bosanquet).
+
+Bowling                      O      M      R      W
+Cotter                      17      1     59      1
+Laver                       34      7    121      1
+McLeod                      28      9     84      0
+Armstrong                   52     24     67      1
+Noble                        7      1     31      0
+Duff                        15      2     43      2
+
+Australia 2nd innings (target: 402 runs)                        R   M   B  4 6
+RA Duff                              c & b Bosanquet           25            0
+*J Darling                               b Bosanquet           40            0
+MA Noble              st Lilley          b Bosanquet            7            0
+WW Armstrong          c Jackson          b Bosanquet            6            0
+C Hill                               c & b Bosanquet            8            0
+SE Gregory            c Arnold           b Bosanquet           51  60      8 0
+A Cotter                                 b Rhodes              18            0
+FJ Laver              st Lilley          b Bosanquet            5            0
+CE McLeod             lbw                b Bosanquet           13            0
++JJ Kelly             not out                                   6            0
+VT Trumper            absent hurt                               -
+Extras                (b 4, lb 3, w 2)                          9
+Total                 (all out, 72.4 overs)                   188
+
+FoW: 1-62 (Duff), 2-75 (Noble), 3-82 (Darling), 4-93 (Hill),
+     5-100 (Armstrong), 6-139 (Cotter), 7-144 (Laver),
+     8-175 (Gregory), 9-188 (McLeod).
+
+Bowling                      O      M      R      W
+Arnold                       4      2      7      0
+Jessop                       1      0      1      0
+Bosanquet                   32.4    2    107      8
+Rhodes                      30      8     58      1
+Jackson                      5      3      6      0
+
+*** VT Trumper retired hurt at 23/1
+
+<END>

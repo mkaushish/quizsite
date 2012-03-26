@@ -1,0 +1,75 @@
+
+Test # 1035
+Trans-Tasman Trophy, 1985/86, 1st Test
+New Zealand v Australia
+Basin Reserve, Wellington
+21,22,23,24,25 February 1986 (5-day match)
+
+Result: Match drawn
+Series: 3-match series level 0-0
+
+Toss: New Zealand
+Umpires: FR Goodall and SJ Woodward
+Test debuts: SP Davis, TJ Zoehrer (Australia); SR Gillespie (New Zealand).
+Player of the match: JV Coney
+
+Close of play:
+ Day 1: Australia 285/4 (Ritchie 55*, Matthews 55*)
+ Day 2: Australia 435, New Zealand 70/2 (Edgar 28*, Gillespie 6*)
+ Day 3: New Zealand 311/6 (Coney 79*, Hadlee 27*)
+ Day 4: New Zealand 379/6 (Coney 101*, Hadlee 72*, 126.3 ov)
+ Day 5: No play
+
+Australia 1st innings                                           R   M   B  4 6
+DC Boon               c Smith            b Troup               70 199 154  9 0
+GR Marsh              c Coney            b Chatfield           43 151 100  3 0
+WB Phillips                              b Gillespie           32  77  64  5 0
+*AR Border            lbw                b Hadlee              13  43  35  0 0
+GM Ritchie                               b Troup               92 268 200 12 0
+GRJ Matthews          c Rutherford       b Coney              130 306 235 12 0
+SR Waugh              c Smith            b Coney               11  51  48  1 0
++TJ Zoehrer           c sub (JG Bracewell) b Coney             18  30  26  2 0
+CJ McDermott                             b Hadlee               2  24  18  0 0
+BA Reid               not out                                   0   9   6  0 0
+SP Davis                             c & b Hadlee               0   5   2  0 0
+Extras                (b 2, lb 9, w 4, nb 9)                   24
+Total                 (all out, 146.1 overs)                  435
+
+FoW: 1-104 (Marsh), 2-143 (Boon), 3-166 (Phillips),
+     4-166 (Border), 5-379 (Ritchie), 6-414 (Matthews),
+     7-418 (Waugh), 8-435 (McDermott), 9-435 (Zoehrer),
+     10-435 (Davis).
+
+Bowling                      O      M      R      W
+Hadlee                      37.1    5    116      3
+Chatfield                   36     10     96      1
+Troup                       28      6     86      2
+Gillespie                   27      2     79      1
+Coney                       18      7     47      3
+
+New Zealand 1st innings                                         R   M   B  4 6
+TJ Franklin           c Border           b McDermott            0   3   5  0 0
+BA Edgar              c Waugh            b Matthews            38 186 136  3 0
+JF Reid               c Phillips         b Reid                32  92  65  5 0
+SR Gillespie          c Border           b Reid                28 114  81  2 0
+MD Crowe                                 b Matthews            19  58  48  3 0
+KR Rutherford         c sub (RJ Bright)  b Reid                65 178 131 11 0
+*JV Coney             not out                                 101 282 192 14 0
+RJ Hadlee             not out                                  72 143 120 11 1
+Extras                (b 2, lb 6, w 1, nb 15)                  24
+Total                 (6 wickets, 126.3 overs)                379
+
+DNB: +IDS Smith, GB Troup, EJ Chatfield.
+
+FoW: 1-0 (Franklin), 2-57 (Reid), 3-94 (Edgar),
+     4-115 (Gillespie), 5-138 (Crowe), 6-247 (Rutherford).
+
+Bowling                      O      M      R      W
+McDermott                   25.3    5     80      1
+Davis                       25      4     70      0
+Reid                        31      6    104      3
+Matthews                    37     10    107      2
+Border                       4      3      1      0
+Waugh                        4      1      9      0
+
+<END>

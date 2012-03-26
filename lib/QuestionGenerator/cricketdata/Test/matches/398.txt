@@ -1,0 +1,121 @@
+
+Test # 398
+India in Pakistan, 1954/55, 4th Test
+Pakistan v India
+Services Ground, Peshawar
+13,14,15,16 February 1955 (4-day match)
+
+Result: Match drawn
+Series: 5-match series level 0-0
+
+Toss: Pakistan
+Umpires: Idrees Baig and Shujauddin
+
+Close of play:
+ Day 1: Pakistan 129/6 (Wazir Mohammad 20*, Shujauddin 5*)
+ Day 2: Pakistan 188, India 162/3 (Umrigar 94*, Gadkari 2*)
+ Day 3: India 245, Pakistan 44/1 (Hanif Mohammad 13*, Waqar Hasan 15*)
+
+Pakistan 1st innings                                            R   M   B  4 6
+Hanif Mohammad        c Phadkar          b Gupte               13            0
+Alimuddin                                b Ramchand             0          0 0
+Waqar Hasan                          c & b Gupte               43            0
+Maqsood Ahmed         c Punjabi          b Phadkar             31            0
++Imtiaz Ahmed                            b Phadkar              0          0 0
+Wazir Mohammad        hit wicket         b Mankad              34            0
+*AH Kardar                               b Gupte               11            0
+Shujauddin            c Tamhane          b Gupte               37            0
+Khan Mohammad         c Mankad           b Ghulam Ahmed         4            0
+Mahmood Hussain       not out                                   5            0
+Miran Bakhsh          lbw                b Gupte                0          0 0
+Extras                (b 5, lb 4, nb 1)                        10
+Total                 (all out, 146.3 overs)                  188
+
+FoW: 1-2 (Alimuddin), 2-31 (Hanif Mohammad),
+     3-81 (Maqsood Ahmed), 4-81 (Imtiaz Ahmed),
+     5-96 (Waqar Hasan), 6-111 (Kardar), 7-171 (Wazir Mohammad),
+     8-176 (Khan Mohammad), 9-188 (Shujauddin),
+     10-188 (Miran Bakhsh).
+
+Bowling                      O      M      R      W
+Phadkar                     24     14     19      2
+Ramchand                     7      2     13      1
+Gupte                       41.3   22     63      5
+Mankad                      61     34     71      1
+Ghulam Ahmed                13      7     12      1
+
+India 1st innings                                               R   M   B  4 6
+P Roy                 run out                                  16            0
+PH Punjabi                               b Khan Mohammad       16            0
+PR Umrigar            run out                                 108         13 0
+VL Manjrekar          run out                                  32            0
+CV Gadkari            c Maqsood Ahmed    b Mahmood Hussain     15            0
+GS Ramchand           c Shujauddin       b Khan Mohammad       18            0
+*MH Mankad            not out                                   3          0 0
++NS Tamhane           run out                                   0          0 0
+DG Phadkar                               b Khan Mohammad       13            0
+SP Gupte              c Waqar Hasan      b Mahmood Hussain      2          0 0
+Ghulam Ahmed                             b Khan Mohammad        8            0
+Extras                (b 5, lb 4, w 1, nb 4)                   14
+Total                 (all out, 108 overs)                    245
+
+FoW: 1-30 (Roy), 2-44 (Punjabi), 3-135 (Manjrekar),
+     4-182 (Gadkari), 5-210 (Umrigar), 6-218 (Ramchand),
+     7-219 (Tamhane), 8-232 (Phadkar), 9-235 (Gupte),
+     10-245 (Ghulam Ahmed).
+
+Bowling                      O      M      R      W
+Khan Mohammad               36     14     79      4
+Mahmood Hussain             38     11     78      2
+Miran Bakhsh                 8      2     30      0
+Kardar                      19      6     34      0
+Maqsood Ahmed                7      3     10      0
+
+Pakistan 2nd innings                                            R   M   B  4 6
+Hanif Mohammad                       c & b Mankad              21            0
+Alimuddin             lbw                b Ghulam Ahmed         4            0
+Waqar Hasan           lbw                b Gupte               16            0
+Wazir Mohammad                           b Mankad               0          0 0
+Maqsood Ahmed                        c & b Mankad              44            0
++Imtiaz Ahmed         c Punjabi          b Mankad              69            0
+*AH Kardar                               b Phadkar              0          0 0
+Shujauddin            run out                                  11            0
+Khan Mohammad         c sub              b Mankad               3          0 0
+Mahmood Hussain       st Tamhane         b Phadkar              2          0 0
+Miran Bakhsh          not out                                   0          0 0
+Extras                (b 8, lb 4)                              12
+Total                 (all out, 122 overs)                    182
+
+FoW: 1-10 (Alimuddin), 2-50 (Waqar Hasan), 3-68 (Hanif Mohammad),
+     4-70 (Wazir Mohammad), 5-153 (Maqsood Ahmed),
+     6-156 (Kardar), 7-176 (Shujauddin), 8-177 (Imtiaz Ahmed),
+     9-182 (Mahmood Hussain), 10-182 (Khan Mohammad).
+
+Bowling                      O      M      R      W
+Phadkar                     18      2     42      2
+Ramchand                     2      1      3      0
+Gupte                       35     16     52      1
+Mankad                      54     26     64      5
+Ghulam Ahmed                13      9      9      1
+
+India 2nd innings (target: 126 runs)                            R   M   B  4 6
+P Roy                 not out                                  13            0
+PH Punjabi                               b Hanif Mohammad       6            0
+PR Umrigar            not out                                   3          0 0
+Extras                (nb 1)                                    1
+Total                 (1 wicket, 19 overs)                     23
+
+DNB: VL Manjrekar, CV Gadkari, GS Ramchand, *MH Mankad,
+     +NS Tamhane, DG Phadkar, SP Gupte, Ghulam Ahmed.
+
+FoW: 1-19 (Punjabi).
+
+Bowling                      O      M      R      W
+Khan Mohammad                4      0     10      0
+Mahmood Hussain              2      1      2      0
+Miran Bakhsh                 2      0      3      0
+Kardar                       1      1      0      0
+Maqsood Ahmed                6      2      6      0
+Hanif Mohammad               4      3      1      1
+
+<END>

@@ -1,0 +1,97 @@
+
+Test # 29
+The Ashes, 1888, 2nd Test
+England v Australia
+Kennington Oval, London
+13,14 August 1888 (3-day match)
+
+Result: England won by an innings and 137 runs
+Series: 3-match series level 1-1
+
+Toss: Australia
+Umpires: RP Carpenter and FH Farrands
+Balls per over: 4
+Test debuts: J Shuter, FH Sugg, H Wood (England).
+
+Close of play:
+ Day 1: Australia 80, England 185/5 (Abel 65*, Sugg 5*)
+
+Australia 1st innings                                           R   M   B  4 6
+AC Bannerman          c Lohmann          b Barnes              13            0
+*PS McDonnell         c Lohmann          b Peel                 0          0 0
+GHS Trott                                b Briggs              13            0
+GJ Bonnor                                b Briggs               0          0 0
+JD Edwards                               b Lohmann             26            0
+AH Jarvis                                b Briggs               5            0
+SMJ Woods             run out                                   0          0 0
+CTB Turner                               b Briggs               0          0 0
++JM Blackham                             b Briggs               0          0 0
+J Worrall             c Grace            b Barnes               8            0
+JJ Ferris             not out                                  13            0
+Extras                (b 1, lb 1)                               2
+Total                 (all out, 90.3 overs)                    80
+
+FoW: 1-0 (McDonnell), 2-22 (Trott), 3-22 (Bonnor),
+     4-40 (Bannerman), 5-49 (Jarvis), 6-49 (Woods),
+     7-50 (Turner), 8-50 (Blackham), 9-63 (Worrall),
+     10-80 (Edwards).
+
+Bowling                      O      M      R      W
+Lohmann                     29.3   21     21      1
+Peel                         8      4     14      1
+Briggs                      37     24     25      5
+Barnes                      16      9     18      2
+
+England 1st innings                                             R   M   B  4 6
+*WG Grace             c Edwards          b Turner               1          0 0
+J Shuter                                 b Turner              28            0
+G Ulyett              c Blackham         b Turner               0          0 0
+WW Read                                  b Turner              18            0
+R Abel                run out                                  70          9 0
+W Barnes              c Worrall          b Turner              62            0
+FH Sugg                                  b Turner              31            0
+R Peel                                   b Woods               25            0
+J Briggs                                 b Woods                0          0 0
+GA Lohmann            not out                                  62  55     10 0
++H Wood               c Bannerman        b Ferris               8            0
+Extras                (b 6, lb 4, w 2)                         12
+Total                 (all out, 138.2 overs)                  317
+
+FoW: 1-2 (Grace), 2-6 (Ulyett), 3-46 (Shuter), 4-53 (Read),
+     5-165 (Barnes), 6-191 (Abel), 7-241 (Sugg), 8-242 (Briggs),
+     9-259 (Peel), 10-317 (Wood).
+
+Bowling                      O      M      R      W
+Turner                      60     24    112      6
+Ferris                      35.2   15     73      1
+Trott                        7      2     25      0
+Woods                       32     10     80      2
+Worrall                      4      1     15      0
+
+Australia 2nd innings                                           R   M   B  4 6
+AC Bannerman                             b Barnes               5  75        0
+*PS McDonnell                            b Peel                32            0
+GHS Trott             st Wood            b Peel                 4            0
+GJ Bonnor             c Wood             b Barnes               5            0
+JD Edwards            c Read             b Barnes               0          0 0
+JJ Ferris             run out                                  16            0
+SMJ Woods             c Abel             b Barnes               7            0
+CTB Turner                               b Peel                18            0
+AH Jarvis                                b Peel                 8            0
++JM Blackham          c Lohmann          b Barnes               4            0
+J Worrall             not out                                   0          0 0
+Extras                (lb 1)                                    1
+Total                 (all out, 69.2 overs)                   100
+
+FoW: 1-34 (McDonnell), 2-38 (Trott), 3-43 (Bonnor),
+     4-45 (Edwards), 5-62 (Ferris), 6-62 (Bannerman),
+     7-72 (Woods), 8-89 (Jarvis), 9-98 (Blackham),
+     10-100 (Turner).
+
+Bowling                      O      M      R      W
+Lohmann                      6      4     11      0
+Peel                        28.2   13     49      4
+Briggs                       6      3      7      0
+Barnes                      29     16     32      5
+
+<END>

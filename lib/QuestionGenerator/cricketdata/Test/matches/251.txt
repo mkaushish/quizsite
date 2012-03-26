@@ -1,0 +1,98 @@
+
+Test # 251
+Australia in South Africa, 1935/36, 5th Test
+South Africa v Australia
+Kingsmead, Durban
+28,29 February, 2,3 March 1936 (4-day match)
+
+Result: Australia won by an innings and 6 runs
+Series: Australia wins the 5-match series 4-0
+
+Toss: South Africa
+Umpires: JC Collings and WJ Routledge
+
+Close of play:
+ Day 1: South Africa 199/8 (Viljoen 42*, van der Merwe 0*)
+ Day 2: South Africa 222, Australia 239/2 (Fingleton 117*, O'Brien 23*)
+ Day 3: Australia 455, South Africa 110/2 (Mitchell 16*, Nourse 20*)
+
+South Africa 1st innings                                        R   M   B  4 6
+IJ Siedle             c Fingleton        b Grimmett            36            0
+*HF Wade              c Richardson       b Grimmett            26            0
+B Mitchell                           c & b Grimmett            10            0
+AD Nourse             lbw                b Grimmett            50            0
+KG Viljoen            c Chipperfield     b McCormick           56            0
+RL Harvey             c Oldfield         b McCormick           28            0
+ACB Langton           st Oldfield        b Grimmett             1          0 0
+XC Balaskas           st Oldfield        b Grimmett             2          0 0
+RJ Crisp                                 b Grimmett             0       1  0 0
++EA van der Merwe     not out                                   7            0
+EQ Davies                                b McCormick            0          0 0
+Extras                (b 1, lb 5)                               6
+Total                 (all out, 109.1 overs)                  222
+
+FoW: 1-44 (Wade), 2-57 (Mitchell), 3-124 (Siedle),
+     4-125 (Nourse), 5-178 (Harvey), 6-183 (Langton),
+     7-199 (Balaskas), 8-199 (Crisp), 9-220 (Viljoen),
+     10-222 (Davies).
+
+Bowling                      O      M      R      W
+McCormick                   20.1    8     37      3
+McCabe                       7      0     20      0
+Grimmett                    45     18    100      7
+O'Reilly                    37     15     59      0
+
+Australia 1st innings                                           R   M   B  4 6
+JHW Fingleton                            b Crisp              118            1
+WA Brown              c Langton          b Mitchell            84            0
+SJ McCabe                            c & b Mitchell             1          0 0
+LPJ O'Brien           c van der Merwe    b Balaskas            48            0
+LS Darling            lbw                b Mitchell            62            0
+AG Chipperfield       c Balaskas         b Mitchell            18            0
+*VY Richardson                           b Crisp               45            0
++WAS Oldfield         c Crisp            b Langton             29            0
+CV Grimmett           c Siedle           b Mitchell            14            0
+WJ O'Reilly           c Siedle           b Langton             13            1
+EL McCormick          not out                                   0          0 0
+Extras                (b 19, lb 3, nb 1)                       23
+Total                 (all out, 146.5 overs)                  455
+
+FoW: 1-162 (Brown), 2-164 (McCabe), 3-240 (Fingleton),
+     4-316 (O'Brien), 5-338 (Darling), 6-361 (Chipperfield),
+     7-423 (Richardson), 8-433 (Oldfield), 9-451 (O'Reilly),
+     10-455 (Grimmett).
+
+Bowling                      O      M      R      W
+Davies                      18      0     54      0
+Crisp                       19      2     65      2
+Langton                     33      9     69      2
+Balaskas                    51      4    157      1
+Mitchell                    25.5    2     87      5
+
+South Africa 2nd innings                                        R   M   B  4 6
+IJ Siedle             c Brown            b Grimmett            46            0
+*HF Wade                                 b O'Reilly            25            0
+B Mitchell            not out                                  72            0
+AD Nourse                                b O'Reilly            41            0
+KG Viljoen            lbw                b Grimmett            25            0
+RL Harvey             c Richardson       b Grimmett             1          0 0
+ACB Langton                              b Grimmett             3          0 0
+XC Balaskas           c Richardson       b Grimmett             0          0 0
++EA van der Merwe     c Richardson       b Grimmett             0          0 0
+EQ Davies             c Richardson       b O'Reilly             2          0 0
+RJ Crisp              c Richardson       b O'Reilly             0       1  0 0
+Extras                (b 5, lb 7)                              12
+Total                 (all out, 113.1 overs)                  227
+
+FoW: 1-63 (Wade), 2-73 (Siedle), 3-146 (Nourse), 4-196 (Viljoen),
+     5-206 (Harvey), 6-212 (Langton), 7-216 (Balaskas),
+     8-220 (van der Merwe), 9-227 (Davies), 10-227 (Crisp).
+
+Bowling                      O      M      R      W
+McCormick                   15      1     64      0
+McCabe                       2      0     11      0
+Grimmett                    48     23     73      6
+O'Reilly                    40.1   18     47      4
+Chipperfield                 8      1     20      0
+
+<END>

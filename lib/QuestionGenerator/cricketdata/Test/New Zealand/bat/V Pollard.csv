@@ -1,0 +1,60 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+579, 1965-02-27, 2, 8, India, c Venkataraghavan, Jaisimha, 3, 39, na, 0, 0
+581, 1965-03-05, 1, 7, India, c Jaisimha, Desai, 31, 93, na, 7, 0
+581, 1965-03-05, 3, 7, India, , Jaisimha, 43, 112, na, 8, 0
+582, 1965-03-12, 1, 6, India, c Jaisimha, Desai, 26, 81, na, 5, 0
+582, 1965-03-12, 4, 7, India, c Borde, Durani, 4, 13, na, 1, 0
+583, 1965-03-19, 1, 8, India, , Venkataraghavan, 27, 50, na, 5, 0
+583, 1965-03-19, 3, 8, India, c Engineer, Subramanya, 6, 61, na, 1, 0
+585, 1965-03-27, 1, 9, Pakistan, lbw, Pervez Sajjad, 15, na, na, na, 0
+585, 1965-03-27, 3, 10, Pakistan, c Hanif Mohammad, Pervez Sajjad, 0, na, na, 0, 0
+586, 1965-04-02, 2, 8, Pakistan, not out, , 8, na, na, na, 0
+587, 1965-04-09, 1, 8, Pakistan, , Mohammad Farooq, 1, na, na, 0, 0
+587, 1965-04-09, 3, 9, Pakistan, , Salahuddin, 4, na, na, na, 0
+591, 1965-05-27, 2, 8, England, lbw, Titmus, 4, na, na, na, 0
+591, 1965-05-27, 3, 8, England, not out, , 81, 240, na, 12, 0
+592, 1965-06-17, 1, 6, England,                c &, Titmus, 55, 188, na, 5, 0
+592, 1965-06-17, 3, 6, England, run out, , 55, 258, na, 3, 0
+593, 1965-07-08, 2, 6, England, run out, , 33, 102, na, 5, 0
+593, 1965-07-08, 3, 5, England, c Cowdrey, Larter, 53, 171, na, 6, 0
+602, 1966-02-25, 2, 5, England, lbw, Higgs, 23, 86, na, 0, 1
+602, 1966-02-25, 4, 5, England, not out, , 6, 92, na, 1, 0
+603, 1966-03-04, 1, 5, England, c Murray, Higgs, 8, 63, na, 0, 0
+603, 1966-03-04, 3, 2, England, , Higgs, 2, 19, na, 0, 0
+604, 1966-03-11, 1, 6, England, c Knight, Allen, 2, 35, 22, 0, 0
+604, 1966-03-11, 3, 6, England, c Parks, Jones, 25, 155, 141, 1, 0
+630, 1968-02-15, 1, 5, India, , Abid Ali, 20, na, na, 0, 1
+630, 1968-02-15, 3, 7, India, c Abid Ali, Bedi, 15, na, na, na, 0
+631, 1968-02-22, 1, 4, India, c Jaisimha, Bedi, 1, 17, 19, 0, 0
+631, 1968-02-22, 4, 4, India, c Jaisimha, Prasanna, 9, na, na, na, 0
+632, 1968-02-29, 1, 6, India, c Engineer, Nadkarni, 24, na, na, na, 0
+632, 1968-02-29, 3, 4, India, c Abid Ali, Nadkarni, 1, na, na, 0, 0
+634, 1968-03-07, 2, 6, India, run out, , 3, na, na, 0, 0
+634, 1968-03-07, 4, 6, India, , Bedi, 0, na, na, 0, 0
+648, 1969-02-27, 1, 6, West Indies,                c &, Gibbs, 4, na, na, na, 0
+648, 1969-02-27, 3, 7, West Indies, not out, , 51, 108, na, 4, 1
+651, 1969-03-07, 2, 5, West Indies, c Hendriks, Griffith, 9, na, na, na, 0
+652, 1969-03-13, 2, 7, West Indies, , Holford, 21, na, na, na, 0
+652, 1969-03-13, 3, 6, West Indies, , Carew, 44, 116, na, 4, 0
+656, 1969-07-24, 2, 5, England, c Ward, Underwood, 8, 21, 31, 1, 0
+656, 1969-07-24, 4, 5, England, lbw, Underwood, 0, 2, 5, 0, 0
+657, 1969-08-07, 1, 5, England, c Fletcher, Underwood, 8, 24, 23, 0, 0
+658, 1969-08-21, 1, 6, England, st Knott, Illingworth, 13, 23, 36, 2, 0
+658, 1969-08-21, 3, 6, England, c Denness, Underwood, 9, 32, 23, 1, 0
+660, 1969-10-03, 1, 6, India, c Wadekar, Abid Ali, 10, 50, na, 0, 0
+660, 1969-10-03, 3, 6, India, c Wadekar, Prasanna, 29, 92, na, 3, 1
+662, 1969-10-24, 2, 6, Pakistan, , Mohammad Nazir, 2, 5, na, 0, 0
+662, 1969-10-24, 4, 6, Pakistan, not out, , 28, 86, na, 2, 0
+663, 1969-10-30, 2, 6, Pakistan, c Wasim Bari, Pervez Sajjad, 11, na, na, na, 0
+663, 1969-10-30, 4, 6, Pakistan, st Wasim Bari, Mohammad Nazir, 0, 4, na, 0, 0
+665, 1969-11-08, 1, 7, Pakistan, c Shafqat Rana, Intikhab Alam, 2, 26, na, 0, 0
+665, 1969-11-08, 3, 7, Pakistan, , Intikhab Alam, 11, 34, na, na, 0
+681, 1971-02-25, 1, 7, England, , Wilson, 18, 36, 35, 4, 0
+681, 1971-02-25, 3, 7, England, lbw, Underwood, 34, 86, 87, 2, 0
+712, 1973-02-07, 2, 6, Pakistan, c Sarfraz Nawaz, Intikhab Alam, 3, na, na, 0, 0
+712, 1973-02-07, 3, 6, Pakistan, , Intikhab Alam, 61, 90, na, 7, 0
+722, 1973-06-07, 2, 6, England, not out, , 16, 102, 59, 0, 0
+722, 1973-06-07, 4, 6, England, lbw, Greig, 116, 437, 311, 10, 0
+723, 1973-06-21, 2, 7, England, not out, , 105, 235, 185, 14, 0
+724, 1973-07-05, 1, 6, England, c Boycott, Old, 62, 124, 130, 10, 0
+724, 1973-07-05, 3, 6, England, c Roope, Arnold, 3, 19, 20, 0, 0

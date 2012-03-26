@@ -1,0 +1,104 @@
+
+Test # 356
+Pakistan in India, 1952/53, 2nd Test
+India v Pakistan
+University Ground, Lucknow
+23,24,25,26 October 1952 (4-day match)
+
+Result: Pakistan won by an innings and 43 runs
+Series: 5-match series level 1-1
+
+Toss: India
+Umpires: BJ Mohoni and JR Patel
+Test debuts: HG Gaekwad, S Nyalchand (India); Mahmood Hussain,
+ Zulfiqar Ahmed (Pakistan).
+
+Close of play:
+ Day 1: India 106, Pakistan 46/0 (Nazar Mohammad 21*, Hanif Mohammad 25*)
+ Day 2: Pakistan 239/7 (Nazar Mohammad 87*)
+ Day 3: Pakistan 331, India 170/9 (Amarnath 50*)
+
+India 1st innings                                               R   M   B  4 6
+P Roy                 lbw                b Fazal Mahmood       30            0
+DK Gaekwad                               b Maqsood Ahmed        6            0
+Gul Mohammad          lbw                b Maqsood Ahmed        0          0 0
+VL Manjrekar                             b Fazal Mahmood        3          0 0
+G Kishenchand         lbw                b Fazal Mahmood        0          0 0
+PR Umrigar                               b Mahmood Hussain     15            0
+*L Amarnath           c Zulfiqar Ahmed   b Mahmood Hussain     10            0
++PG Joshi                                b Mahmood Hussain      9            0
+HG Gaekwad                               b Fazal Mahmood       14            0
+S Nyalchand           not out                                   6            0
+Ghulam Ahmed          c Hanif Mohammad   b Fazal Mahmood        8            0
+Extras                (b 5)                                     5
+Total                 (all out, 55.1 overs)                   106
+
+FoW: 1-17 (DK Gaekwad), 2-17 (Gul Mohammad), 3-20 (Manjrekar),
+     4-22 (Kishenchand), 5-55 (Umrigar), 6-65 (Roy),
+     7-68 (Amarnath), 8-85 (Joshi), 9-93 (HG Gaekwad),
+     10-106 (Ghulam Ahmed).
+
+Bowling                      O      M      R      W
+Mahmood Hussain             23      7     35      3
+Kardar                       3      2      2      0
+Fazal Mahmood               24.1    8     52      5
+Maqsood Ahmed                5      1     12      2
+
+Pakistan 1st innings                                            R   M   B  4 6
+Nazar Mohammad        not out                                 124 515        0
++Hanif Mohammad       c Umrigar          b Ghulam Ahmed        34            0
+Waqar Hasan           lbw                b Amarnath            23            0
+Imtiaz Ahmed          lbw                b Amarnath             0          0 0
+Maqsood Ahmed         lbw                b Nyalchand           41            0
+*AH Kardar            c Ghulam Ahmed     b Nyalchand           16            0
+Anwar Hussain                            b Nyalchand            5            0
+Fazal Mahmood         c Joshi            b Gul Mohammad        29            0
+Zulfiqar Ahmed        lbw                b Ghulam Ahmed        34            1
+Mahmood Hussain                          b Ghulam Ahmed        13            0
+Amir Elahi                               b Gul Mohammad         4            0
+Extras                (b 4, lb 3, nb 1)                         8
+Total                 (all out, 194.3 overs)                  331
+
+FoW: 1-63 (Hanif Mohammad), 2-118 (Waqar Hasan),
+     3-120 (Imtiaz Ahmed), 4-167 (Maqsood Ahmed), 5-194 (Kardar),
+     6-201 (Anwar Hussain), 7-239 (Fazal Mahmood),
+     8-302 (Zulfiqar Ahmed), 9-318 (Mahmood Hussain),
+     10-331 (Amir Elahi).
+
+Bowling                      O      M      R      W
+Amarnath                    40     18     74      2
+Umrigar                      1      0      1      0
+Nyalchand                   64     33     97      3
+HG Gaekwad                  37     21     47      0
+Ghulam Ahmed                45     19     83      3
+Gul Mohammad                 7.3    2     21      2
+
+India 2nd innings                                               R   M   B  4 6
+P Roy                 c Imtiaz Ahmed     b Mahmood Hussain      2          0 0
+DK Gaekwad            c Nazar Mohammad   b Fazal Mahmood       32            0
+G Kishenchand         c Nazar Mohammad   b Fazal Mahmood       20            0
+VL Manjrekar          lbw                b Fazal Mahmood        3          0 0
+PR Umrigar            lbw                b Fazal Mahmood       32            0
+Gul Mohammad                             b Fazal Mahmood        2          0 0
+*L Amarnath           not out                                  61            0
+HG Gaekwad                               b Fazal Mahmood        8            0
++PG Joshi                                b Amir Elahi          15            0
+Ghulam Ahmed          c sub              b Amir Elahi           0          0 0
+S Nyalchand           lbw                b Fazal Mahmood        1          0 0
+Extras                (b 5, nb 1)                               6
+Total                 (all out, 76.3 overs)                   182
+
+FoW: 1-4 (Roy), 2-27 (Kishenchand), 3-43 (Manjrekar),
+     4-73 (DK Gaekwad), 5-77 (Gul Mohammad), 6-103 (Umrigar),
+     7-115 (HG Gaekwad), 8-170 (Joshi), 9-170 (Ghulam Ahmed),
+     10-182 (Nyalchand).
+
+Bowling                      O      M      R      W
+Mahmood Hussain             19      5     57      1
+Kardar                      13      5     15      0
+Fazal Mahmood               27.3   11     42      7
+Maqsood Ahmed                5      0     25      0
+Amir Elahi                   7      1     20      2
+Zulfiqar Ahmed               5      1     17      0
+
+<END>

@@ -4,13 +4,7 @@
   <div id=quiz>
     
   <div id=quizheader>How to use the general rule to estimate.</div>
-  <%= form_tag({:action => 'next_subproblem'}, :remote => true, :autocomplete => "off") do %>
-    <%= hidden_field_tag 'subproblem_index', @i %>
-    <%= hidden_field_tag 'problem_id', @problem.id %>
-    <%= render :partial => 'problem/problem', :object => @explain[@i], :locals => {:partialdir => 'problem'} %>
-    <%= hidden_field_tag 'next_subproblem', "" %>
-    <%= submit_tag "Submit Answer" %>
-  <% end %>
+  <%= render :partial => 'explanation' %>
   </div>
 <% end %>
 

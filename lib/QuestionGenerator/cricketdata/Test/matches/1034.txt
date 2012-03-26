@@ -1,0 +1,99 @@
+
+Test # 1034
+India in Australia, 1985/86, 3rd Test
+Australia v India
+Sydney Cricket Ground
+2,3,4,5,6 January 1986 (5-day match)
+
+Result: Match drawn
+Series: 3-match series drawn 0-0
+
+Toss: India
+Umpires: PJ McConnell and SG Randell
+Player of the match: K Srikkanth
+Players of the series: N Kapil Dev and K Srikkanth
+
+Close of play:
+ Day 1: India 334/1 (Gavaskar 132*, Amarnath 72*)
+ Day 2: India 600/4d, Australia 4/0 (Boon 2*, Marsh 1*)
+ Day 3: Australia 169/0 (Boon 100*, Marsh 54*)
+ Day 4: Australia 347/4 (Border 64*, Matthews 15*)
+
+India 1st innings                                               R   M   B  4 6
+SM Gavaskar                              b Holland            172 513 400 19 0
+K Srikkanth                              b Reid               116 190 117 19 1
+M Amarnath            c Bright           b Gilbert            138 382 312 10 0
+*N Kapil Dev                             b Gilbert             42  89  48  3 0
+DB Vengsarkar         not out                                  37 123  83  1 0
+M Azharuddin          not out                                  59  92  78  5 0
+Extras                (b 5, lb 9, nb 22)                       36
+Total                 (4 wickets dec, 169 overs)              600
+
+DNB: RJ Shastri, +SMH Kirmani, C Sharma, L Sivaramakrishnan,
+     NS Yadav.
+
+FoW: 1-191 (Srikkanth), 2-415 (Gavaskar), 3-485 (Amarnath),
+     4-510 (Kapil Dev).
+
+Bowling                      O      M      R      W
+Gilbert                     37      3    135      2
+Reid                        34      8     89      1
+Bright                      41      7    121      0
+Holland                     21      6    113      1
+Matthews                    29      2     95      0
+Waugh                        7      0     33      0
+
+Australia 1st innings                                           R   M   B  4 6
+DC Boon                                  b Kapil Dev          131 345 311 16 0
+GR Marsh              c Gavaskar         b Shastri             92 408 304  7 0
+*AR Border            c Sharma           b Shastri             71 239 172  5 0
+GM Ritchie            c Kapil Dev        b Yadav               14  31  37  0 0
++WB Phillips          c Srikkanth        b Shastri             14  53  52  1 0
+GRJ Matthews          c Amarnath         b Yadav               40 139 105  3 0
+SR Waugh              c Sivaramakrishnan b Yadav                8  38  37  1 0
+RJ Bright             c Kirmani          b Shastri              3  17  18  0 0
+DR Gilbert            c Azharuddin       b Yadav                1  15  20  0 0
+BA Reid               st Kirmani         b Yadav                4  13  24  0 0
+RG Holland            not out                                   1   6   2  0 0
+Extras                (lb 14, nb 3)                            17
+Total                 (all out, 179.3 overs)                  396
+
+FoW: 1-217 (Boon), 2-258 (Marsh), 3-277 (Ritchie),
+     4-302 (Phillips), 5-369 (Border), 6-387 (Waugh),
+     7-388 (Matthews), 8-390 (Bright), 9-395 (Reid),
+     10-396 (Gilbert).
+
+Bowling                      O      M      R      W
+Kapil Dev                   25      8     65      1
+Shastri                     57     21    101      4
+Yadav                       62.3   21     99      5
+Sivaramakrishnan            22      2     79      0
+Sharma                      13      2     38      0
+
+Australia 2nd innings (following on)                            R   M   B  4 6
+DC Boon               run out                                  25  89  72  2 0
+GR Marsh              lbw                b Yadav               28  91  84  2 0
+GM Ritchie            not out                                  17 166 157  1 0
+SR Waugh              lbw                b Shastri              0  20  21  0 0
++WB Phillips          c Srikkanth        b Shastri             22  63  62  2 0
+GRJ Matthews          c Kapil Dev        b Yadav               17  29  29  2 0
+*AR Border            c Sivaramakrishnan b Yadav                4  19  20  0 0
+RJ Bright             not out                                   0  20  18  0 0
+Extras                (b 3, lb 2, nb 1)                         6
+Total                 (6 wickets, 77 overs)                   119
+
+DNB: DR Gilbert, BA Reid, RG Holland.
+
+FoW: 1-57 (Boon), 2-57 (Marsh), 3-60 (Waugh), 4-87 (Phillips),
+     5-111 (Matthews), 6-115 (Border).
+
+Bowling                      O      M      R      W
+Kapil Dev                    7      3     11      0
+Yadav                       33     22     19      3
+Sharma                       3      0     11      0
+Shastri                     25     12     36      2
+Sivaramakrishnan             9      0     37      0
+
+*** 12th Men: DW Hookes (Australia).
+
+<END>

@@ -1,0 +1,123 @@
+
+Test # 958
+New Zealand in England, 1983, 2nd Test
+England v New Zealand
+Headingley, Leeds
+28,29,30 July, 1 August 1983 (5-day match)
+
+Result: New Zealand won by 5 wickets
+Series: 4-match series level 1-1
+
+Toss: New Zealand
+Umpires: DJ Constant and BJ Meyer
+Player of the match: BL Cairns
+
+Close of play:
+ Day 1: England 225, New Zealand 11/0 (Wright 2*, Edgar 9*)
+ Day 2: New Zealand 252/5 (Edgar 28*, Hadlee 52*)
+ Day 3: New Zealand 377, England 154/6 (Gower 54*, Dilley 1*)
+
+England 1st innings                                             R   M   B  4 6
+G Fowler              c Smith            b Chatfield            9  65  55  0 0
+CJ Tavare             c Smith            b Coney               69 292 229  8 0
+DI Gower              c Coney            b Cairns               9  22  18  1 0
+AJ Lamb               c MD Crowe         b Cairns              58 100  83  9 1
+IT Botham             c Howarth          b Cairns              38  36  33  6 1
+DW Randall            c Coney            b Cairns               4  14  10  0 0
+PH Edmonds            c Smith            b Cairns               8  35  35  0 0
+GR Dilley                                b Cairns               0   2   3  0 0
++RW Taylor            not out                                  10  50  43  1 0
+*RGD Willis           c JJ Crowe         b Coney                9  34  26  1 0
+NG Cowans             c Bracewell        b Cairns               0   3   2  0 0
+Extras                (b 4, lb 7)                              11
+Total                 (all out, 89.2 overs)                   225
+
+FoW: 1-18 (Fowler), 2-35 (Gower), 3-135 (Lamb), 4-175 (Botham),
+     5-185 (Randall), 6-205 (Edmonds), 7-205 (Dilley),
+     8-209 (Tavare), 9-225 (Willis), 10-225 (Cowans).
+
+Bowling                      O      M      R      W
+Hadlee                      21      9     44      0
+Chatfield                   22      8     67      1
+Cairns                      33.2   14     74      7
+Coney                       12      3     21      2
+Bracewell                    1      0      8      0
+
+New Zealand 1st innings                                         R   M   B  4 6
+JG Wright             c Willis           b Cowans              93 286 226 13 0
+BA Edgar                                 b Willis              84 278 207 11 0
+*GP Howarth           run out                                  13  26  14  3 0
+MD Crowe              lbw                b Cowans              37 177 134  5 0
+JJ Crowe              run out                                   0   5   4  0 0
+JV Coney              c Gower            b Willis              19  71  59  4 0
+RJ Hadlee                                b Cowans              75 185 134  9 0
+JG Bracewell          c Dilley           b Edmonds             16  55  40  3 0
++IDS Smith            c Tavare           b Willis               2   5   6  0 0
+BL Cairns             not out                                  24  29  21  1 2
+EJ Chatfield          lbw                b Willis               0   1   1  0 0
+Extras                (b 1, lb 4, w 1, nb 8)                   14
+Total                 (all out, 139.3 overs)                  377
+
+FoW: 1-52 (Howarth), 2-168 (MD Crowe), 3-169 (JJ Crowe),
+     4-169 (Wright), 5-218 (Coney), 6-304 (Hadlee),
+     7-348 (Bracewell), 8-351 (Smith), 9-377 (Edgar),
+     10-377 (Chatfield).
+
+Bowling                      O      M      R      W
+Willis                      23.3    6     57      4
+Dilley                      17      4     36      0
+Botham                      26      9     81      0
+Cowans                      28      8     88      3
+Edmonds                     45     14    101      1
+
+England 2nd innings                                             R   M   B  4 6
+G Fowler              c Smith            b Chatfield           19  57  41  1 0
+CJ Tavare                                b Chatfield           23  64  64  4 0
+DI Gower              not out                                 112 266 196 14 0
+AJ Lamb                                  b Coney               28  77  71  3 0
+IT Botham             c Howarth          b Coney                4   7   3  1 0
+DW Randall            c Smith            b Chatfield           16  15  16  3 0
+PH Edmonds            c Smith            b Chatfield            0   2   4  0 0
+GR Dilley             c Smith            b Chatfield           15  69  72  1 0
++RW Taylor                               b Cairns               9  41  35  1 0
+*RGD Willis           c Coney            b Cairns               4   2   2  1 0
+NG Cowans             c MD Crowe         b Cairns              10  42  18  2 0
+Extras                (b 8, lb 3, w 1)                         12
+Total                 (all out, 87 overs)                     252
+
+FoW: 1-39 (Fowler), 2-44 (Tavare), 3-116 (Lamb), 4-126 (Botham),
+     5-142 (Randall), 6-142 (Edmonds), 7-190 (Dilley),
+     8-217 (Taylor), 9-221 (Willis), 10-252 (Cowans).
+
+Bowling                      O      M      R      W
+Hadlee                      26      9     45      0
+Chatfield                   29      5     95      5
+Cairns                      24      2     70      3
+Coney                        8      1     30      2
+
+New Zealand 2nd innings (target: 101 runs)                      R   M   B  4 6
+JG Wright             c Randall          b Willis              26  74  43  3 0
+BA Edgar              c Edmonds          b Willis               2  21  15  0 0
+*GP Howarth           c Randall          b Willis              20  23  22  4 0
+MD Crowe              c Lamb             b Willis               1  32  13  0 0
+JJ Crowe                                 b Willis              13  36  23  0 0
+JV Coney              not out                                  10  67  38  1 0
+RJ Hadlee             not out                                   6  34  21  0 0
+Extras                (b 8, lb 7, nb 10)                       25
+Total                 (5 wickets, 27.1 overs)                 103
+
+DNB: JG Bracewell, +IDS Smith, BL Cairns, EJ Chatfield.
+
+FoW: 1-11 (Edgar), 2-42 (Howarth), 3-60 (Wright),
+     4-61 (MD Crowe), 5-83 (JJ Crowe).
+
+Bowling                      O      M      R      W
+Willis                      14      5     35      5
+Dilley                       8      2     16      0
+Botham                       0.1    0      4      0
+Cowans                       5      0     23      0
+
+*** New Zealand's 1st test win in England.
+*** BA Edgar (1) retired hurt on 19* from 26/0 to 218/5
+
+<END>

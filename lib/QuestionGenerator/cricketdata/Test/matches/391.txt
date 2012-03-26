@@ -1,0 +1,103 @@
+
+Test # 391
+The Ashes, 1954/55, 1st Test
+Australia v England
+Brisbane Cricket Ground, Woolloongabba, Brisbane
+26,27,29,30 November, 1 December 1954 (6-day match)
+
+Result: Australia won by an innings and 154 runs
+Series: Australia leads the 5-match series 1-0
+
+Toss: England
+Umpires: C Hoy and MJ McInnes
+Balls per over: 8
+Test debuts: LE Favell (Australia); KV Andrew, MC Cowdrey (England).
+
+Close of play:
+ Day 1: Australia 208/2 (Morris 82*, Harvey 41*)
+ Day 2: Australia 503/6 (Benaud 14*, Lindwall 27*)
+ Day 3: Australia 601/8d, England 107/5 (Bailey 38*, Tyson 0*)
+ Day 4: England 190, England 130/2 (Edrich 68*, May 39*)
+
+Australia 1st innings                                           R   M   B  4 6
+LE Favell             c Cowdrey          b Statham             23  80      3 0
+AR Morris             c Cowdrey          b Bailey             153 419     18 2
+KR Miller                                b Bailey              49  86      4 1
+RN Harvey             c Bailey           b Bedser             162 380     17 0
+GB Hole               run out                                  57 120      4 0
+R Benaud              c May              b Tyson               34  93      1 1
+RG Archer             c Bedser           b Statham              0   5      0 0
+RR Lindwall           not out                                  64 128     11 0
++GRA Langley                             b Bailey              16  29      2 0
+*IWG Johnson          not out                                  24  20      2 1
+Extras                (b 11, lb 7, nb 1)                       19
+Total                 (8 wickets dec, 129 overs)              601
+
+DNB: WA Johnston.
+
+FoW: 1-51 (Favell), 2-123 (Miller), 3-325 (Morris), 4-456 (Hole),
+     5-463 (Harvey), 6-464 (Archer), 7-545 (Benaud),
+     8-572 (Langley).
+
+Bowling                      O      M      R      W
+Bedser                      37      4    131      1
+Statham                     34      2    123      2
+Tyson                       29      1    160      1
+Bailey                      26      1    140      3
+Edrich                       3      0     28      0
+
+England 1st innings                                             R   M   B  4 6
+*L Hutton             c Langley          b Lindwall             4   4      1 0
+RT Simpson                               b Miller               2  10      0 0
+WJ Edrich             c Langley          b Archer              15  42      3 0
+PBH May                                  b Lindwall             1   5      0 0
+MC Cowdrey            c Hole             b Johnston            40 196      7 0
+TE Bailey                                b Johnston            88 261     11 1
+FH Tyson                                 b Johnson              7  23      0 1
+AV Bedser                                b Johnson              5   8      1 0
++KV Andrew                               b Lindwall             6  13      0 0
+JB Statham                               b Johnson             11  37      2 0
+DCS Compton           not out                                   2  15      0 0
+Extras                (b 3, lb 6)                               9
+Total                 (all out, 76.1 overs)                   190
+
+FoW: 1-4 (Hutton), 2-10 (Simpson), 3-11 (May), 4-25 (Edrich),
+     5-107 (Cowdrey), 6-132 (Tyson), 7-141 (Bedser),
+     8-156 (Andrew), 9-181 (Statham), 10-190 (Bailey).
+
+Bowling                      O      M      R      W
+Lindwall                    14      4     27      3
+Miller                      11      5     19      1
+Archer                       4      1     14      1
+Johnson                     19      5     46      3
+Benaud                      12      5     28      0
+Johnston                    16.1    5     47      2
+
+England 2nd innings (following on)                              R   M   B  4 6
+*L Hutton             lbw                b Miller              13  60      2 0
+RT Simpson            run out                                   9  40      0 0
+WJ Edrich                                b Johnston            88 191     13 1
+PBH May               lbw                b Lindwall            44 145      6 0
+MC Cowdrey                               b Benaud              10  68      2 0
+TE Bailey             c Langley          b Lindwall            23  95      4 0
+FH Tyson              not out                                  37  95      1 0
+AV Bedser             c Archer           b Johnson              5  19      0 0
++KV Andrew                               b Johnson              5   8      1 0
+DCS Compton           c Langley          b Benaud               0   2      0 0
+JB Statham            c Harvey           b Benaud              14   6      2 0
+Extras                (b 7, lb 2)                               9
+Total                 (all out, 90.1 overs)                   257
+
+FoW: 1-22 (Simpson), 2-23 (Hutton), 3-147 (May), 4-163 (Edrich),
+     5-181 (Cowdrey), 6-220 (Bailey), 7-231 (Bedser),
+     8-242 (Andrew), 9-243 (Compton), 10-257 (Statham).
+
+Bowling                      O      M      R      W
+Lindwall                    17      3     50      2
+Miller                      12      2     30      1
+Archer                      15      4     28      0
+Johnson                     17      5     38      2
+Benaud                       8.1    1     43      3
+Johnston                    21      8     59      1
+
+<END>

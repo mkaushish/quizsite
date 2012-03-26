@@ -1,0 +1,71 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+1032, 1985-12-13, 1, 11, India, c Vengsarkar, Kapil Dev, 0, 4, 5, 0, 0
+1057, 1986-11-14, 2, 10, England, , Botham, 0, 3, 2, 0, 0
+1057, 1986-11-14, 3, 10, England, , DeFreitas, 0, 10, 7, 0, 0
+1062, 1986-12-26, 1, 10, England, c Richards, Botham, 2, 15, 15, 0, 0
+1062, 1986-12-26, 3, 10, England, c Small, Edmonds, 8, 11, 8, 2, 0
+1065, 1987-01-10, 1, 10, England, c Botham, Edmonds, 16, 116, 108, 1, 0
+1065, 1987-01-10, 3, 10, England, , Emburey, 5, 31, 27, 0, 0
+1082, 1987-12-04, 2, 10, New Zealand, c Smith, Morrison, 5, 9, 9, 1, 0
+1092, 1988-02-12, 1, 11, Sri Lanka, , Amalean, 8, 9, 7, 2, 0
+1110, 1988-12-02, 4, 10, West Indies, c Logie, Ambrose, 0, 4, 5, 0, 0
+1112, 1988-12-24, 2, 10, West Indies, not out, , 21, 67, 37, 1, 0
+1112, 1988-12-24, 4, 10, West Indies, c Dujon, Patterson, 4, 9, 8, 0, 0
+1113, 1989-01-26, 2, 10, West Indies, c Dujon, Walsh, 12, 52, 41, 1, 0
+1114, 1989-02-03, 1, 10, West Indies, not out, , 72, 142, 118, 6, 1
+1121, 1989-06-08, 1, 8, England, c Russell, Foster, 71, 130, 105, 6, 2
+1122, 1989-06-22, 2, 8, England, c Gooch, Foster, 30, 71, 52, 4, 0
+1123, 1989-07-06, 1, 8, England, c Botham, Dilley, 2, 22, 16, 0, 0
+1124, 1989-07-27, 2, 9, England, , Cook, 3, 10, 6, 0, 0
+1126, 1989-08-24, 1, 9, England, lbw, Pringle, 21, 46, 42, 3, 0
+1129, 1989-11-24, 1, 8, New Zealand, c Wright, Snedden, 16, 41, 32, 3, 0
+1131, 1989-12-08, 1, 8, Sri Lanka, run out, , 25, 27, 19, 4, 0
+1131, 1989-12-08, 3, 8, Sri Lanka, not out, , 23, 46, 38, 1, 1
+1133, 1989-12-16, 1, 9, Sri Lanka, , EAR de Silva, 27, 53, 43, 4, 0
+1133, 1989-12-16, 3, 4, Sri Lanka, c Gurusinha, Ratnayake, 30, 79, 44, 2, 0
+1134, 1990-01-12, 1, 9, Pakistan, c Mansoor Akhtar, Wasim Akram, 8, 26, 12, 1, 0
+1134, 1990-01-12, 3, 9, Pakistan, c Mansoor Akhtar, Wasim Akram, 32, 61, 50, 4, 0
+1135, 1990-01-19, 2, 9, Pakistan, not out, , 6, 29, 9, 0, 0
+1135, 1990-01-19, 4, 8, Pakistan, not out, , 2, 8, 6, 0, 0
+1155, 1990-11-23, 2, 9, England, c Russell, Fraser, 9, 23, 23, 1, 0
+1159, 1990-12-26, 2, 9, England, lbw, Malcolm, 4, 46, 15, 0, 0
+1161, 1991-01-25, 1, 10, England, lbw, Small, 1, 30, 23, 0, 0
+1161, 1991-01-25, 3, 6, England, c Gooch, Fraser, 30, 102, 62, 3, 0
+1163, 1991-02-01, 2, 10, England, c Gooch, Tufnell, 0, 6, 4, 0, 0
+1166, 1991-03-01, 2, 10, West Indies, c Hooper, Patterson, 0, 1, 1, 0, 0
+1167, 1991-03-23, 1, 10, West Indies, , Ambrose, 0, 17, 10, 0, 0
+1167, 1991-03-23, 3, 10, West Indies, c Patterson, Walsh, 21, 115, 65, 4, 0
+1168, 1991-04-05, 1, 10, West Indies, lbw, Patterson, 0, 3, 4, 0, 0
+1169, 1991-04-19, 2, 9, West Indies, c Logie, Walsh, 3, 22, 15, 0, 0
+1169, 1991-04-19, 4, 5, West Indies, c Dujon, Marshall, 3, 32, 28, 0, 0
+1170, 1991-04-27, 1, 9, West Indies, , Ambrose, 1, 13, 11, 0, 0
+1170, 1991-04-27, 3, 9, West Indies, c Walsh, Ambrose, 13, 33, 16, 2, 0
+1177, 1991-11-29, 2, 9, India, , Kapil Dev, 11, 37, 35, 2, 0
+1180, 1991-12-26, 2, 9, India, c Tendulkar, Kapil Dev, 36, 84, 53, 3, 1
+1181, 1992-01-02, 1, 8, India, c Pandit, Prabhakar, 2, 10, 5, 0, 0
+1181, 1992-01-02, 3, 8, India, c Prabhakar, Tendulkar, 21, 76, 73, 1, 0
+1184, 1992-01-25, 1, 8, India, c Manjrekar, Kapil Dev, 26, 114, 93, 3, 1
+1184, 1992-01-25, 3, 8, India, lbw, Srinath, 23, 46, 37, 2, 0
+1186, 1992-02-01, 1, 8, India, c Srikkanth, Srinath, 24, 63, 55, 1, 1
+1186, 1992-02-01, 3, 7, India, c Tendulkar, Srinath, 11, 11, 12, 1, 0
+1202, 1992-11-27, 1, 9, West Indies, c Bishop, Hooper, 10, 69, 39, 1, 0
+1202, 1992-11-27, 3, 9, West Indies, c Williams, Ambrose, 1, 13, 6, 0, 0
+1205, 1992-12-26, 1, 8, West Indies, not out, , 9, 57, 30, 0, 0
+1205, 1992-12-26, 3, 9, West Indies, c Williams, Ambrose, 15, 55, 43, 1, 1
+1208, 1993-01-02, 1, 9, West Indies, c Haynes, Bishop, 17, 38, 34, 1, 1
+1210, 1993-01-23, 2, 8, West Indies, c Murray, Hooper, 43, 89, 66, 3, 1
+1210, 1993-01-23, 4, 8, West Indies, lbw, Ambrose, 1, 5, 3, 0, 0
+1212, 1993-01-30, 1, 8, West Indies, c Arthurton, Ambrose, 0, 9, 4, 0, 0
+1212, 1993-01-30, 3, 9, West Indies, c Murray, Walsh, 22, 15, 13, 2, 1
+1215, 1993-02-25, 1, 8, New Zealand, c Cairns, Patel, 45, 68, 46, 3, 4
+1216, 1993-03-04, 2, 8, New Zealand, c Wright, Morrison, 8, 11, 10, 1, 0
+1217, 1993-03-12, 1, 8, New Zealand, c Morrison, Patel, 33, 46, 39, 4, 1
+1217, 1993-03-12, 3, 8, New Zealand, not out, , 31, 120, 87, 3, 0
+1223, 1993-06-03, 1, 9, England, c DeFreitas, Such, 2, 9, 12, 0, 0
+1225, 1993-07-01, 2, 9, England, , Ilott, 17, 33, 19, 2, 0
+1230, 1993-08-05, 2, 8, England, , Bicknell, 38, 162, 102, 2, 1
+1231, 1993-08-19, 2, 8, England, c Ramprakash, Watkin, 7, 27, 25, 1, 0
+1231, 1993-08-19, 4, 8, England, c Watkin, Fraser, 12, 87, 68, 0, 0
+1252, 1994-03-04, 2, 8, South Africa, c G Kirsten, McMillan, 7, 8, 6, 1, 0
+1252, 1994-03-04, 4, 8, South Africa, not out, , 26, 118, 69, 2, 0
+1253, 1994-03-17, 2, 8, South Africa, lbw, Matthews, 0, 1, 1, 0, 0

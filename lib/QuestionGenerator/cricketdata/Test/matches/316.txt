@@ -1,0 +1,106 @@
+
+Test # 316
+New Zealand in England, 1949, 3rd Test
+England v New Zealand
+Old Trafford, Manchester
+23,25,26 July 1949 (3-day match)
+
+Result: Match drawn
+Series: 4-match series level 0-0
+
+Toss: England
+Umpires: F Chester and FS Lee
+Test debuts: DB Close, HL Jackson (England); JR Reid (New Zealand).
+
+Close of play:
+ Day 1: New Zealand 276/8 (Rabone 27*, Cave 6*)
+ Day 2: New Zealand 293, England 363/5 (Bailey 36*)
+
+New Zealand 1st innings                                         R   M   B  4 6
+B Sutcliffe                              b Bailey               9  22      2 0
+VJ Scott                                 b Bailey              13  30      0 0
+*WA Hadlee                               b Bailey              34  92      5 0
+WM Wallace            c Washbrook        b Close               12  59      1 0
+MP Donnelly           lbw                b Bailey              75 170     12 0
+JR Reid               lbw                b Jackson             50 127      8 0
+GO Rabone             c Brown            b Bailey              33 132      1 0
++FLH Mooney                              b Jackson              5  20      0 0
+TB Burtt              st Evans           b Compton             32  63      3 1
+HB Cave                                  b Bailey              12  16      2 0
+J Cowie               not out                                   3   8      0 0
+Extras                (b 3, lb 9, nb 3)                        15
+Total                 (all out, 128.2 overs)                  293
+
+FoW: 1-22 (Sutcliffe), 2-23 (Scott), 3-62 (Wallace),
+     4-82 (Hadlee), 5-198 (Reid), 6-205 (Donnelly),
+     7-217 (Mooney), 8-269 (Burtt), 9-288 (Cave),
+     10-293 (Rabone).
+
+Bowling                      O      M      R      W
+Bailey                      30.2    5     84      6
+Jackson                     27     11     47      2
+Close                       25     12     39      1
+Hollies                     18      8     29      0
+Brown                       18      4     43      0
+Compton                      6      0     28      1
+Edrich                       4      1      8      0
+
+England 1st innings                                             R   M   B  4 6
+L Hutton              st Mooney          b Burtt               73 192      6 1
+C Washbrook           c Mooney           b Cowie               44 142      4 0
+WJ Edrich             c Rabone           b Burtt               78 158     10 0
+DCS Compton                              b Cowie               25  38      2 0
+RT Simpson            c Donnelly         b Burtt              103 137     11 3
+TE Bailey             not out                                  72 120      4 0
+*FR Brown             c Wallace          b Burtt               22  24      3 0
++TG Evans             c Mooney           b Burtt               12   9      2 0
+DB Close              c Rabone           b Burtt                0   3      0 0
+WE Hollies            c Mooney           b Cowie                0   1      0 0
+HL Jackson            not out                                   7  19      1 0
+Extras                (b 2, lb 2)                               4
+Total                 (9 wickets dec, 128 overs)              440
+
+FoW: 1-103 (Washbrook), 2-127 (Hutton), 3-172 (Compton),
+     4-258 (Edrich), 5-363 (Simpson), 6-404 (Brown),
+     7-419 (Evans), 8-419 (Close), 9-419 (Hollies).
+
+Bowling                      O      M      R      W
+Cowie                       36      8     98      3
+Cave                        30      4     97      0
+Burtt                       45     11    162      6
+Rabone                      10      0     43      0
+Sutcliffe                    5      0     22      0
+Reid                         2      0     14      0
+
+New Zealand 2nd innings                                         R   M   B  4 6
+B Sutcliffe           lbw                b Compton            101 170     12 0
+VJ Scott                                 b Jackson             13  30      1 0
+*WA Hadlee            c Brown            b Hollies             22  32      3 0
+WM Wallace            lbw                b Hollies             14  46      2 0
+MP Donnelly           st Evans           b Brown               80 166      6 0
+JR Reid                                  b Bailey              25  50      3 0
+GO Rabone             not out                                  39  96      2 0
++FLH Mooney           st Evans           b Brown               15   8      1 0
+TB Burtt              not out                                  27  28      3 0
+Extras                (b 2, lb 4, nb 6)                        12
+Total                 (7 wickets, 110 overs)                  348
+
+DNB: HB Cave, J Cowie.
+
+FoW: 1-24 (Scott), 2-58 (Hadlee), 3-109 (Wallace),
+     4-187 (Sutcliffe), 5-235 (Reid), 6-295 (Donnelly),
+     7-313 (Mooney).
+
+Bowling                      O      M      R      W
+Bailey                      16      0     71      1
+Jackson                     12      3     25      1
+Close                       17      2     46      0
+Hollies                     26      6     52      2
+Brown                       21      3     71      2
+Compton                      8      0     28      1
+Edrich                       5      0     26      0
+Simpson                      2      1      9      0
+Washbrook                    2      0      8      0
+Hutton                       1      1      0      0
+
+<END>

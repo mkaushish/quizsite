@@ -1,0 +1,118 @@
+
+Test # 10
+The Ashes, 1882/83, 1st Test
+Australia v England
+Melbourne Cricket Ground
+30 December 1882, 1,2 January 1883 (timeless match)
+
+Result: Australia won by 9 wickets
+Series: Australia leads the 3-match series 1-0
+
+Toss: Australia
+Umpires: EH Elliott and JS Swift
+Balls per over: 4
+Test debuts: Hon.IFW Bligh, CFH Leslie, WW Read, GB Studd, EFS Tylecote,
+ GF Vernon (England).
+
+Close of play:
+ Day 1: Australia 258/7 (Bonnor 60*, Spofforth 1*)
+ Day 2: Australia 291, England 177, England 11/0 (Barlow 8*, Tylecote 3*)
+
+Australia 1st innings                                           R   M   B  4 6
+AC Bannerman          st Tylecote        b Leslie              30          3 0
+HH Massie                            c & b CT Studd             4          1 0
+*WL Murdoch                              b Leslie              48          4 0
+TP Horan              c Barlow           b Leslie               0          0 0
+PS McDonnell                             b Bates               43          4 0
+G Giffen              st Tylecote        b Steel               36          6 0
+GJ Bonnor             c Barlow           b Barnes              85 135      5 4
++JM Blackham          c Tylecote         b CT Studd            25          2 0
+FR Spofforth          c Steel            b Barnes               9          0 0
+TW Garrett            c CT Studd         b Steel                0          0 0
+GE Palmer             not out                                   0          0 0
+Extras                (b 4, lb 2, w 2, nb 3)                   11
+Total                 (all out, 169 overs)                    291
+
+FoW: 1-5 (Massie), 2-81 (Murdoch), 3-81 (Horan),
+     4-96 (Bannerman), 5-162 (McDonnell), 6-190 (Giffen),
+     7-251 (Blackham), 8-287 (Spofforth), 9-287 (Garrett),
+     10-291 (Bonnor).
+
+Bowling                      O      M      R      W
+CT Studd                    46     30     35      2
+Barnes                      30     11     51      2
+Steel                       33     16     68      2
+Barlow                      20      6     37      0
+Bates                       21      7     31      1
+Read                         8      2     27      0
+Leslie                      11      1     31      3
+
+England 1st innings                                             R   M   B  4 6
+RG Barlow             st Blackham        b Palmer              10          0 0
+*Hon.IFW Bligh                           b Palmer               0          0 0
+CFH Leslie            c Garrett          b Palmer               4          0 0
+CT Studd                                 b Spofforth            0          0 0
+AG Steel                                 b Palmer              27          5 0
+WW Read                                  b Palmer              19          1 0
+W Bates               c Bannerman        b Garrett             28          1 1
++EFS Tylecote                            b Palmer              33          3 0
+GB Studd              run out                                   7          1 0
+W Barnes                                 b Palmer              26          1 0
+GF Vernon             not out                                  11          0 0
+Extras                (b 8, lb 1, nb 3)                        12
+Total                 (all out, 107.2 overs)                  177
+
+FoW: 1-2 (Bligh), 2-7 (Leslie), 3-8 (CT Studd), 4-36 (Barlow),
+     5-45 (Steel), 6-96 (Read), 7-100 (Bates), 8-117 (GB Studd),
+     9-156 (Tylecote), 10-177 (Barnes).
+
+Bowling                      O      M      R      W
+Spofforth                   28     11     56      1
+Palmer                      52.2   25     65      7
+Garrett                     27      6     44      1
+
+England 2nd innings (following on)                              R   M   B  4 6
+RG Barlow                                b Spofforth           28          1 0
++EFS Tylecote                            b Spofforth           38          2 0
+CT Studd                                 b Palmer              21          1 0
+AG Steel              lbw                b Giffen              29          4 0
+*Hon.IFW Bligh                           b Spofforth            3          0 0
+WW Read                                  b Giffen              29          4 0
+CFH Leslie                               b Giffen               4          0 0
+W Bates               c Massie           b Palmer              11          1 0
+GB Studd              c Palmer           b Giffen               0          0 0
+W Barnes              not out                                   2          0 0
+GF Vernon             lbw                b Palmer               3          0 0
+Extras                (lb 1)                                    1
+Total                 (all out, 99.1 overs)                   169
+
+FoW: 1-64 (Tylecote), 2-75 (Barlow), 3-105 (CT Studd),
+     4-108 (Bligh), 5-132 (Steel), 6-150 (Leslie), 7-164 (Read),
+     8-164 (GB Studd), 9-164 (Bates), 10-169 (Vernon).
+
+Bowling                      O      M      R      W
+Spofforth                   41     15     65      3
+Palmer                      36.1   11     61      3
+Garrett                      2      1      4      0
+Giffen                      20      7     38      4
+
+Australia 2nd innings (target: 56 runs)                         R   M   B  4 6
+AC Bannerman          not out                                  25  95      3 0
+HH Massie                            c & b Barnes               0          0 0
+*WL Murdoch           not out                                  33          1 0
+Extras                                                          0
+Total                 (1 wicket, 53.1 overs)                   58
+
+DNB: TP Horan, PS McDonnell, G Giffen, GJ Bonnor, +JM Blackham,
+     FR Spofforth, TW Garrett, GE Palmer.
+
+FoW: 1-0 (Massie).
+
+Bowling                      O      M      R      W
+CT Studd                    14     11      7      0
+Barnes                      13      8      6      1
+Steel                        9      4     17      0
+Barlow                       4      2      6      0
+Bates                       13.1    7     22      0
+
+<END>

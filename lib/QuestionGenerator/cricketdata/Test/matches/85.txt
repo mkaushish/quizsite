@@ -1,0 +1,121 @@
+
+Test # 85
+The Ashes, 1905, 3rd Test
+England v Australia
+Headingley, Leeds
+3,4,5 July 1905 (3-day match)
+
+Result: Match drawn
+Series: England leads the 5-match series 1-0
+
+Toss: England
+Umpires: J Phillips (Aus) and VA Titchmarsh
+Test debuts: D Denton, A Warren (England).
+
+Close of play:
+ Day 1: England 301
+ Day 2: Australia 195, England 169/2 (Tyldesley 62*, Denton 11*)
+
+England 1st innings                                             R   M   B  4 6
+TW Hayward                               b McLeod              26            0
+CB Fry                c Noble            b McLeod              32            0
+JT Tyldesley                             b Laver                0          0 0
+D Denton              c Duff             b McLeod               0          0 0
+*Hon.FS Jackson       not out                                 144 268     18 0
+GH Hirst              c Trumper          b Laver               35            0
+BJT Bosanquet                            b Duff                20            0
++AFA Lilley                              b Noble               11            0
+S Haigh               c Noble            b Armstrong           11            0
+A Warren              run out                                   7            0
+C Blythe                                 b Armstrong            0       1  0 0
+Extras                (b 10, lb 1, w 2, nb 2)                  15
+Total                 (all out, 128.3 overs)                  301
+
+FoW: 1-51 (Fry), 2-54 (Tyldesley), 3-57 (Denton), 4-64 (Hayward),
+     5-133 (Hirst), 6-201 (Bosanquet), 7-232 (Lilley),
+     8-282 (Haigh), 9-301 (Warren), 10-301 (Blythe).
+
+Bowling                      O      M      R      W
+Armstrong                   26.3    6     44      2
+Noble                       23      6     59      1
+Laver                       29     10     61      2
+McLeod                      37     13     88      3
+Hopkins                      9      4     21      0
+Duff                         4      1     13      1
+
+Australia 1st innings                                           R   M   B  4 6
+VT Trumper                               b Warren               8            0
+RA Duff               c Lilley           b Blythe              48            0
+C Hill                               c & b Hirst                7            0
+MA Noble              c Hayward          b Warren               2          0 0
+WW Armstrong          c Hayward          b Warren              66 129      8 0
+*J Darling            c Bosanquet        b Warren               5            0
+AJY Hopkins           c Lilley           b Jackson             36            0
+SE Gregory            run out                                   4            0
+CE McLeod                                b Haigh                8            0
++JJ Kelly             not out                                   1          0 0
+FJ Laver                                 b Warren               3          0 0
+Extras                (b 4, lb 1, w 2)                          7
+Total                 (all out, 53.2 overs)                   195
+
+FoW: 1-26 (Trumper), 2-33 (Hill), 3-36 (Noble), 4-96 (Duff),
+     5-105 (Darling), 6-161 (Hopkins), 7-166 (Gregory),
+     8-191 (McLeod), 9-191 (Armstrong), 10-195 (Laver).
+
+Bowling                      O      M      R      W
+Hirst                        7      1     37      1
+Warren                      19.2    5     57      5
+Blythe                       8      0     36      1
+Jackson                      4      0     10      1
+Haigh                       11      5     19      1
+Bosanquet                    4      0     29      0
+
+England 2nd innings                                             R   M   B  4 6
+TW Hayward            c Hopkins          b Armstrong           60 165      8 0
+CB Fry                c Kelly            b Armstrong           30 100        0
+JT Tyldesley          st Kelly           b Armstrong          100 168     12 0
+D Denton              c Hill             b Armstrong           12            0
+*Hon.FS Jackson       c Duff             b Armstrong           17            0
+GH Hirst              not out                                  40            0
+BJT Bosanquet         not out                                  22            0
+Extras                (b 1, lb 6, w 6, nb 1)                   14
+Total                 (5 wickets dec, 104 overs)              295
+
+DNB: +AFA Lilley, S Haigh, A Warren, C Blythe.
+
+FoW: 1-80 (Fry), 2-126 (Hayward), 3-170 (Denton),
+     4-202 (Jackson), 5-258 (Tyldesley).
+
+Bowling                      O      M      R      W
+Armstrong                   51     14    122      5
+Noble                       20      3     68      0
+Laver                       10      4     29      0
+McLeod                      23      6     62      0
+
+Australia 2nd innings (target: 402 runs)                        R   M   B  4 6
+VT Trumper            c Hirst            b Warren               0          0 0
+RA Duff                                  b Hirst               17            0
+C Hill                c Warren           b Haigh               33            0
+MA Noble              st Lilley          b Bosanquet           62 166      4 0
+WW Armstrong          lbw                b Blythe              32            0
+*J Darling                               b Blythe               2          0 0
+AJY Hopkins                              b Blythe              17            0
+SE Gregory            not out                                  32            0
+CE McLeod             not out                                  10            0
+Extras                (b 11, w 6, nb 2)                        19
+Total                 (7 wickets, 91 overs)                   224
+
+DNB: +JJ Kelly, FJ Laver.
+
+FoW: 1-0 (Trumper), 2-36 (Duff), 3-64 (Hill), 4-117 (Armstrong),
+     5-121 (Darling), 6-152 (Hopkins), 7-199 (Noble).
+
+Bowling                      O      M      R      W
+Hirst                       10      2     26      1
+Warren                      20      4     56      1
+Blythe                      24     11     41      3
+Jackson                      8      2     10      0
+Haigh                       14      4     36      1
+Bosanquet                   15      1     36      1
+
+<END>

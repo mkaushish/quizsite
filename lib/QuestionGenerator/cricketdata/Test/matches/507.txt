@@ -1,0 +1,96 @@
+
+Test # 507
+The Ashes, 1961, 1st Test
+England v Australia
+Edgbaston, Birmingham
+8,9,10,12,13 June 1961 (5-day match)
+
+Result: Match drawn
+Series: 5-match series level 0-0
+
+Toss: England
+Umpires: JS Buller and FS Lee
+Test debuts: WM Lawry (Australia); JT Murray (England).
+
+Close of play:
+ Day 1: England 180/8 (Allen 11*, Trueman 14*)
+ Day 2: England 195, Australia 359/5 (Simpson 36*, Davidson 16*)
+ Day 3: Australia 516/9d, England 5/0 (Pullar 0*, Subba Row 5*)
+ Day 4: England 106/1 (Subba Row 68*, Dexter 5*)
+
+England 1st innings                                             R   M   B  4 6
+G Pullar                                 b Davidson            17  44        0
+R Subba Row           c Simpson          b Mackay              59 171        0
+ER Dexter             c Davidson         b Mackay              10            0
+*MC Cowdrey                              b Misson              13  65      0 0
+KF Barrington         c Misson           b Mackay              21            0
+MJK Smith             c Lawry            b Mackay               0       2  0 0
+R Illingworth         c Grout            b Benaud              15            0
++JT Murray            c Davidson         b Benaud              16            0
+DA Allen              run out                                  11            0
+FS Trueman            c Burge            b Benaud              20            1
+JB Statham            not out                                   7            0
+Extras                (b 3, lb 3)                               6
+Total                 (all out, 84.3 overs)                   195
+
+FoW: 1-36 (Pullar), 2-53 (Dexter), 3-88 (Cowdrey),
+     4-121 (Barrington), 5-121 (Smith), 6-122 (Subba Row),
+     7-153 (Murray), 8-156 (Illingworth), 9-181 (Allen),
+     10-195 (Trueman).
+
+Bowling                      O      M      R      W
+Davidson                    26      6     70      1
+Misson                      15      6     47      1
+Mackay                      29     10     57      4
+Benaud                      14.3    8     15      3
+
+Australia 1st innings                                           R   M   B  4 6
+WM Lawry              c Murray           b Illingworth         57 110      6 0
+CC McDonald           c Illingworth      b Statham             22  58        0
+RN Harvey             lbw                b Allen              114 212     15 0
+NC O'Neill                               b Statham             82 117     11 0
+PJP Burge             lbw                b Allen               25            0
+RB Simpson                           c & b Trueman             76 210        0
+AK Davidson                          c & b Illingworth         22            0
+KD Mackay             c Barrington       b Statham             64         10 0
+*R Benaud             not out                                  36            0
++ATW Grout            c Dexter           b Trueman              5            0
+Extras                (b 8, lb 4, nb 1)                        13
+Total                 (9 wickets dec, 152.5 overs)            516
+
+DNB: FM Misson.
+
+FoW: 1-47 (McDonald), 2-106 (Lawry), 3-252 (O'Neill),
+     4-299 (Harvey), 5-322 (Burge), 6-381 (Davidson),
+     7-469 (Simpson), 8-501 (Mackay), 9-516 (Grout).
+
+Bowling                      O      M      R      W
+Trueman                     36.5    1    136      2
+Statham                     43      6    147      3
+Illingworth                 44     12    110      2
+Allen                       24      4     88      2
+Dexter                       5      1     22      0
+
+England 2nd innings                                             R   M   B  4 6
+G Pullar              c Grout            b Misson              28 120        0
+R Subba Row                              b Misson             112 244     14 0
+ER Dexter             st Grout           b Simpson            180 344     31 0
+*MC Cowdrey                              b Mackay              14            0
+KF Barrington         not out                                  48 190        0
+MJK Smith             not out                                   1          0 0
+Extras                (lb 18)                                  18
+Total                 (4 wickets, 154 overs)                  401
+
+DNB: R Illingworth, +JT Murray, DA Allen, FS Trueman, JB Statham.
+
+FoW: 1-93 (Pullar), 2-202 (Subba Row), 3-239 (Cowdrey),
+     4-400 (Dexter).
+
+Bowling                      O      M      R      W
+Davidson                    31     10     60      0
+Misson                      28      6     82      2
+Simpson                     34     12     87      1
+Mackay                      41     13     87      1
+Benaud                      20      4     67      0
+
+<END>

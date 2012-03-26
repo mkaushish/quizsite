@@ -1,0 +1,123 @@
+
+Test # 454
+New Zealand in England, 1958, 1st Test
+England v New Zealand
+Edgbaston, Birmingham
+5,6,7,9 June 1958 (5-day match)
+
+Result: England won by 205 runs
+Series: England leads the 5-match series 1-0
+
+Toss: England
+Umpires: JS Buller and CS Elliott
+Test debuts: MJK Smith (England); JW D'Arcy, T Meale, WR Playle (New Zealand).
+
+Close of play:
+ Day 1: England 221, New Zealand 41/3 (D'Arcy 18*, Playle 0*)
+ Day 2: New Zealand 94, England 131/3 (Richardson 71*, Cowdrey 21*)
+ Day 3: England 215/6d, New Zealand 69/4 (Harford 15*, Reid 1*)
+
+England 1st innings                                             R   M   B  4 6
+PE Richardson         lbw                b MacGibbon            4            0
+MJK Smith             lbw                b MacGibbon            0       3  0 0
+TW Graveney           c Alabaster        b Hayes                7            0
+*PBH May              c Petrie           b MacGibbon           84         12 0
+MC Cowdrey                               b MacGibbon           81         10 0
+TE Bailey             c Petrie           b Alabaster            2          0 0
++TG Evans             c Petrie           b MacGibbon            2          0 0
+GAR Lock              lbw                b Alabaster            4            0
+FS Trueman                               b Alabaster            0          0 0
+JC Laker              not out                                  11            1
+PJ Loader                                b Alabaster           17            0
+Extras                (lb 3, w 4, nb 2)                         9
+Total                 (all out, 75.5 overs)                   221
+
+FoW: 1-4 (Smith), 2-11 (Richardson), 3-29 (Graveney),
+     4-150 (May), 5-153 (Bailey), 6-172 (Evans), 7-185 (Lock),
+     8-191 (Cowdrey), 9-191 (Trueman), 10-221 (Loader).
+
+Bowling                      O      M      R      W
+Hayes                       15      2     57      1
+MacGibbon                   27     11     64      5
+Cave                        12      2     29      0
+Reid                         6      3     16      0
+Alabaster                   15.5    4     46      4
+
+New Zealand 1st innings                                         R   M   B  4 6
+LSM Miller            lbw                b Trueman              7          1 0
+JW D'Arcy             c Evans            b Trueman             19 135        0
+NS Harford                               b Bailey               9            0
+*JR Reid                                 b Bailey               7  50        0
+WR Playle                                b Trueman              4  70        0
+T Meale               lbw                b Trueman              7  85        0
+AR MacGibbon          c Evans            b Laker                5            0
++EC Petrie            lbw                b Loader               1          0 0
+JC Alabaster                             b Trueman              9            0
+HB Cave               not out                                  12            0
+JA Hayes              run out                                  14            0
+Extras                                                          0
+Total                 (all out, 69.3 overs)                    94
+
+FoW: 1-12 (Miller), 2-21 (Harford), 3-39 (Reid), 4-43 (D'Arcy),
+     5-46 (Playle), 6-54 (MacGibbon), 7-59 (Petrie),
+     8-67 (Meale), 9-68 (Alabaster), 10-94 (Hayes).
+
+Bowling                      O      M      R      W
+Trueman                     21      8     31      5
+Loader                      21.3    6     37      1
+Bailey                      20      9     17      2
+Lock                         2      2      0      0
+Laker                        5      2      9      1
+
+England 2nd innings                                             R   M   B  4 6
+PE Richardson         c Cave             b MacGibbon          100 280      7 0
+MJK Smith             c Petrie           b MacGibbon            7  55        0
+TW Graveney           c Petrie           b Cave                19  60        0
+*PBH May              c Petrie           b MacGibbon           11  35        0
+MC Cowdrey            c Reid             b Hayes               70          9 1
+TE Bailey             not out                                   6            0
++TG Evans             c Reid             b Cave                 0          0 0
+Extras                (b 1, lb 1)                               2
+Total                 (6 wickets dec, 96.2 overs)             215
+
+DNB: GAR Lock, FS Trueman, JC Laker, PJ Loader.
+
+FoW: 1-24 (Smith), 2-71 (Graveney), 3-94 (May),
+     4-198 (Richardson), 5-214 (Cowdrey), 6-215 (Evans).
+
+Bowling                      O      M      R      W
+Hayes                       20      3     51      1
+MacGibbon                   24      8     41      3
+Cave                        28.2    9     70      2
+Reid                         9      2     18      0
+Alabaster                   15      7     33      0
+
+New Zealand 2nd innings (target: 343 runs)                      R   M   B  4 6
+LSM Miller                               b Trueman              8            0
+JW D'Arcy             c Trueman          b Loader              25  89        0
+WR Playle             c Bailey           b Loader               8            0
+NS Harford            c Graveney         b Loader              23            0
+T Meale               c Smith            b Lock                10          1 1
+*JR Reid                                 b Bailey              13            0
+HB Cave                                  b Bailey               1          0 0
+AR MacGibbon          c Cowdrey          b Laker               26  95        0
+JC Alabaster          c Laker            b Lock                11  69        0
++EC Petrie            not out                                   5            0
+JA Hayes              c Bailey           b Lock                 5            0
+Extras                (lb 1, w 1)                               2
+Total                 (all out, 77.3 overs)                   137
+
+FoW: 1-19 (Miller), 2-42 (Playle), 3-49 (D'Arcy), 4-64 (Meale),
+     5-93 (Reid), 6-94 (Harford), 7-95 (Cave), 8-123 (Alabaster),
+     9-131 (MacGibbon), 10-137 (Hayes).
+
+Bowling                      O      M      R      W
+Trueman                     17      5     33      1
+Loader                      23     11     40      3
+Bailey                      20      9     23      2
+Lock                         8.3    3     25      3
+Laker                        9      4     14      1
+
+*** NS Harford (2) retired hurt on 23* from 85/4 to 93/5
+
+<END>

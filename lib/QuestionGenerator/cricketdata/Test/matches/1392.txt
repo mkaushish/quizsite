@@ -1,0 +1,182 @@
+
+Test # 1392
+South Africa in Australia, 1997/98, 1st Test
+Australia v South Africa
+Melbourne Cricket Ground
+26,27,28,29,30 December 1997 (5-day match)
+
+Result: Match drawn
+Series: 3-match series level 0-0
+
+Toss: Australia
+Umpires: SA Bucknor (WI) and SG Randell
+TV umpire: WP Sheahan
+Match referee: RS Madugalle (SL)
+Player of the match: JH Kallis
+
+Close of play:
+ Day 1: Australia 206/4 (SR Waugh 87*, Ponting 56*, 90 ov)
+ Day 2: Australia 309, South Africa 94/4 (Kirsten 61*, McMillan 6*, 56 ov)
+ Day 3: South Africa 186, Australia 67/4 (Taylor 30*, Ponting 8*, 37 ov)
+ Day 4: Australia 257, South Africa 79/1 (Bacher 34*, Kallis 40*, 30 ov)
+
+Australia 1st innings                                           R   M   B  4 6
+MTG Elliott           c Richardson       b Klusener             6  55  33  0 0
+*MA Taylor            c Kirsten          b McMillan            20  98  78  1 0
+GS Blewett            st Richardson      b Symcox              26 156 114  1 0
+ME Waugh              c Richardson       b Donald               0  21  18  0 0
+SR Waugh              c Cullinan         b Donald              96 264 188  9 0
+RT Ponting                               b Symcox             105 269 208 14 0
++IA Healy                                b Donald              16  28  25  2 0
+PR Reiffel                               b Symcox              27  77  54  2 0
+SK Warne                             c & b Pollock              1  11   8  0 0
+MS Kasprowicz         c Bacher           b Symcox               0   8   3  0 0
+GD McGrath            not out                                   0   5   5  0 0
+Extras                (b 1, lb 6, nb 5)                        12
+Total                 (all out, 121.2 overs, 500 mins)        309
+
+FoW: 1-18 (Elliott, 13.2 ov), 2-42 (Taylor, 22.5 ov),
+     3-44 (ME Waugh, 28.3 ov), 4-77 (Blewett, 51.3 ov),
+     5-222 (SR Waugh, 94.3 ov), 6-250 (Healy, 100.6 ov),
+     7-302 (Ponting, 117.4 ov), 8-309 (Reiffel, 119.5 ov),
+     9-309 (Warne, 120.1 ov), 10-309 (Kasprowicz, 121.2 ov).
+
+Bowling                      O      M      R      W
+Donald                      29      6     74      3 (2nb)
+Pollock                     28      6     76      1 (2nb)
+Klusener                    19      3     48      1 (2nb)
+McMillan                    10      3     19      1
+Symcox                      27.2    4     69      4
+Kallis                       4      2      5      0
+Cronje                       4      2     11      0
+
+South Africa 1st innings                                        R   M   B  4 6
+AM Bacher             c Healy            b Kasprowicz           3  53  35  0 0
+G Kirsten             c Healy            b ME Waugh            83 323 256  7 0
+JH Kallis             c Healy            b McGrath             15  77  57  1 0
+DJ Cullinan           run out (Ponting)                         5  39  29  0 0
+*WJ Cronje            c Blewett          b Warne                0   3   2  0 0
+BM McMillan           c Healy            b Kasprowicz          48 227 189  2 0
+SM Pollock            lbw                b Warne                7  28  25  1 0
++DJ Richardson        lbw                b ME Waugh             1  10   9  0 0
+L Klusener            lbw                b Warne               11  47  35  1 0
+PL Symcox                                b Kasprowicz           4  12   9  1 0
+AA Donald             not out                                   0   4   2  0 0
+Extras                (lb 2, w 1, nb 6)                         9
+Total                 (all out, 106.5 overs, 416 mins)        186
+
+FoW: 1-28 (Bacher, 12.3 ov), 2-62 (Kallis, 32.2 ov),
+     3-75 (Cullinan, 40.6 ov), 4-76 (Cronje, 41.5 ov),
+     5-138 (Kirsten, 81.4 ov), 6-155 (Pollock, 90.4 ov),
+     7-158 (Richardson, 93.5 ov), 8-182 (McMillan, 104.2 ov),
+     9-182 (Klusener, 105.3 ov), 10-186 (Symcox, 106.5 ov).
+
+Bowling                      O      M      R      W
+McGrath                     17      9     20      1
+Reiffel                     14      5     32      0 (2nb)
+Kasprowicz                  13.5    3     28      3 (2nb)
+Warne                       42     15     64      3 (2nb, 1w)
+ME Waugh                    18      8     28      2
+SR Waugh                     2      0     12      0
+
+Australia 2nd innings                                           R   M   B  4 6
+*MA Taylor            c Cullinan         b Symcox              59 248 195  4 0
+MTG Elliott           lbw                b Donald               1  28  19  0 0
+GS Blewett            c McMillan         b Donald               6  10   7  0 0
+ME Waugh                                 b Donald               1  15  12  0 0
+SR Waugh              c Richardson       b Pollock             17  43  27  2 0
+RT Ponting                           c & b Pollock             32 113  84  2 0
++IA Healy                                b Donald               4  39  17  0 0
+PR Reiffel            not out                                  79 154 115  6 0
+SK Warne              c Symcox           b Donald              10  19  16  2 0
+MS Kasprowicz         c Kirsten          b Donald              19  62  43  2 0
+GD McGrath            c McMillan         b Pollock             18  66  47  0 0
+Extras                (b 4, lb 3, nb 4)                        11
+Total                 (all out, 96.2 overs, 403 mins)         257
+
+FoW: 1-4 (Elliott, 6.1 ov), 2-10 (Blewett, 8.3 ov),
+     3-12 (ME Waugh, 12.5 ov), 4-44 (SR Waugh, 22.2 ov),
+     5-106 (Ponting, 50.4 ov), 6-128 (Taylor, 59.3 ov),
+     7-128 (Healy, 60.1 ov), 8-146 (Warne, 64.4 ov),
+     9-208 (Kasprowicz, 80.4 ov), 10-257 (McGrath, 96.2 ov).
+
+Bowling                      O      M      R      W
+Donald                      27      8     59      6 (3nb)
+Pollock                     21.2    5     56      3 (1nb)
+Symcox                      35      9     90      1
+McMillan                     2      0      6      0
+Klusener                     9      2     28      0
+Cronje                       2      0     11      0
+
+South Africa 2nd innings (target: 381 runs)                     R   M   B  4 6
+G Kirsten                                b Reiffel              0  23  14  0 0
+AM Bacher             c Taylor           b Warne               39 149 109  1 0
+JH Kallis                                b Reiffel            101 357 279  6 0
+DJ Cullinan                              b Warne                0  10   8  0 0
+*WJ Cronje            c Taylor           b SR Waugh            70 170 143  2 0
+BM McMillan           c Taylor           b Warne               16  84  69  2 0
+SM Pollock            not out                                  15 101  70  1 0
++DJ Richardson        lbw                b McGrath             11  47  39  0 0
+L Klusener            not out                                   6  16  10  1 0
+Extras                (b 5, lb 4, nb 6)                        15
+Total                 (7 wickets, 122 overs, 483 mins)        273
+
+DNB: PL Symcox, AA Donald.
+
+FoW: 1-1 (Kirsten, 5.1 ov), 2-88 (Bacher, 37.1 ov),
+     3-88 (Cullinan, 39.3 ov), 4-211 (Cronje, 84.2 ov),
+     5-229 (Kallis, 97.2 ov), 6-241 (McMillan, 105.6 ov),
+     7-260 (Richardson, 118.2 ov).
+
+Bowling                      O      M      R      W
+McGrath                     28     11     57      1
+Reiffel                     18      7     24      2 (2nb)
+Kasprowicz                  14      1     45      0
+Warne                       44     11     97      3 (8nb)
+ME Waugh                    10      0     25      0
+SR Waugh                     7      2     12      1
+Blewett                      1      0      4      0
+
+*** Scorers: MK Walsh (Australia) and KV O'Neill (South Australia)
+*** 12th Men: AJ Bichel (Australia) and JN Rhodes (Southg Australia)
+
+*** Day 1
+*** Lunch: Australia 44/3 (Blewett 13*; 28.4 overs)
+*** Tea: Australia 92/4 (SR Waugh 28*, Ponting 5*; 59 overs)
+*** Elliott dropped by Kallis off Donald in the 1st over.
+*** Richardson took the South African record for Most Fielding Dismissals
+    apon catching Elliott (previous: JHB Waite, 141 Dismissals).
+*** SR Waugh was caught by Richardson off a no-ball by Donald soon after
+    reaching his 50.
+*** SR Waugh was dropped by Kirsten in 2nd last over of the day.
+
+*** Day 2
+*** Lunch: Australia 302/7 (Reiffel 21*; 117.5 overs)
+*** Tea: South Africa 41/1 (Kirsten 31*, Kallis 5*; 22 overs)
+
+*** Day 3
+*** Lunch: South Africa 147/5 (McMillan 31*, Pollock 3*; 87 overs)
+*** Tea: Australia 8/1 (Taylor 2*, Blewett 4*; 8 overs)
+*** The dismissal of Pollock was SK Warne's 500th First-class wicket
+
+*** Day 4
+*** Lunch: Australia 146/8 (Reiffel 8*, Kasprowicz 0*; 65 overs)
+*** Tea: Australia 257 all out 96.2 overs
+*** With the dismissal of Kasprowicz, Donald passes the highest number of
+    Test wickets taken in a career by a South African (170, HJ Tayfield)
+*** Paul Reiffel passes his highest Test score
+*** With the dismissal of Kirsten, Reiffel claims his 100th Test wicket
+*** With the score on 2/0 AM Bacher was given out to a catch by RT Ponting,
+    Ponting then advises that the catch was grounded and the decision was
+    reversed.
+
+*** Day 5
+*** Lunch: South Africa 139/3 (Kallis 67*, Cronje 27*; 60 overs)
+*** Tea: South Africa 226/4 (Kallis 100*, McMillan 6*; 93 overs)
+*** Jacques Kallis passes his highest Test score
+
+*** Attendance: Day 1 - 73,812 (third-largest Boxing Day crowd at the MCG);
+    Day 2 - 31,367; Day 3 - 24,859; Day 4 - 18,895; Day 5 - 11,249. Aggregate
+    160,182.
+
+<END>

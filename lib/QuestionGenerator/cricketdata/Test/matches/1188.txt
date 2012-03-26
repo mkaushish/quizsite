@@ -1,0 +1,133 @@
+
+Test # 1188
+South Africa in West Indies, 1991/92, Only Test
+West Indies v South Africa
+Kensington Oval, Bridgetown, Barbados
+18,19,20,22,23 April 1992 (5-day match)
+
+Result: West Indies won by 52 runs
+Series: West Indies wins the one-off match
+
+Toss: South Africa
+Umpires: DM Archer and SA Bucknor
+Match referee: R Subba Row (Eng)
+Test debuts: T Bosch, WJ Cronje, AA Donald, AC Hudson, PN Kirsten, AP Kuiper,
+ MW Pringle, DJ Richardson, MW Rushmere, RP Snell (South Africa); JC Adams,
+ KCG Benjamin, D Williams (West Indies).
+Players of the match: CEL Ambrose and AC Hudson
+
+Close of play:
+ Day 1: West Indies 262, South Africa 13/0 (Rushmere 2*, Hudson 9*)
+ Day 2: South Africa 254/4 (Hudson 135*, Kuiper 19*)
+ Day 3: South Africa 345, West Indies 184/7 (Adams 23*, Benjamin 6*)
+ Day 4: West Indies 283, South Africa 122/2 (Wessels 74*, Kirsten 36*)
+
+West Indies 1st innings                                         R   M   B  4 6
+DL Haynes             c Wessels          b Snell               58 109  82  9 0
+PV Simmons            c Kirsten          b Snell               35  93  65  4 0
+BC Lara               c Richardson       b Bosch               17  46  33  3 0
+*RB Richardson        c Richardson       b Snell               44 122  78  4 0
+KLT Arthurton         c Kuiper           b Pringle             59 124  97 10 0
+JC Adams                                 b Donald              11  60  30  1 0
++D Williams           c Hudson           b Donald               1   4   4  0 0
+CEL Ambrose           not out                                   6  47  29  0 0
+KCG Benjamin                             b Snell                1  19   9  0 0
+CA Walsh                                 b Pringle              6   5   6  1 0
+BP Patterson          run out                                   0   1   1  0 0
+Extras                (lb 7, nb 17)                            24
+Total                 (all out, 71.4 overs)                   262
+
+FoW: 1-99 (Simmons), 2-106 (Haynes), 3-137 (Lara),
+     4-219 (Richardson), 5-240 (Arthurton), 6-241 (Williams),
+     7-250 (Adams), 8-255 (Benjamin), 9-262 (Walsh),
+     10-262 (Patterson).
+
+Bowling                      O      M      R      W
+Donald                      20      1     67      2
+Bosch                       15      2     43      1
+Pringle                     18.4    2     62      2
+Snell                       18      3     83      4
+
+South Africa 1st innings                                        R   M   B  4 6
+MW Rushmere           c Lara             b Ambrose              3  37  30  0 0
+AC Hudson                                b Benjamin           163 519 384 20 0
+*KC Wessels           c Adams            b Ambrose             59 147 102  8 1
+PN Kirsten            c Lara             b Benjamin            11  49  31  1 0
+WJ Cronje             c Lara             b Adams                5  28  20  0 0
+AP Kuiper             c Williams         b Patterson           34 195 168  4 0
++DJ Richardson        c Ambrose          b Adams                8  31  27  1 0
+RP Snell              run out                                   6  28  20  1 0
+MW Pringle            c Walsh            b Adams               15  38  33  0 0
+AA Donald             st Williams        b Adams                0  23  21  0 0
+T Bosch               not out                                   5   8   7  1 0
+Extras                (b 4, lb 6, w 1, nb 25)                  36
+Total                 (all out, 135.5 overs)                  345
+
+FoW: 1-14 (Rushmere), 2-139 (Wessels), 3-168 (Kirsten),
+     4-187 (Cronje), 5-279 (Kuiper), 6-293 (Richardson),
+     7-312 (Hudson), 8-316 (Snell), 9-336 (Donald),
+     10-345 (Pringle).
+
+Bowling                      O      M      R      W
+Ambrose                     36     19     47      2
+Patterson                   23      4     79      1
+Walsh                       27      7     71      0
+Benjamin                    25      3     87      2
+Arthurton                    3      0      8      0
+Adams                       21.5    5     43      4
+
+West Indies 2nd innings                                         R   M   B  4 6
+DL Haynes             c Richardson       b Snell               23  72  39  4 0
+PV Simmons            c Kirsten          b Bosch                3  13  12  0 0
+BC Lara               c Richardson       b Donald              64 150 102 11 0
+*RB Richardson        lbw                b Snell                2   6   2  0 0
+KLT Arthurton                            b Donald              22  66  55  2 0
+JC Adams              not out                                  79 221 169 11 0
++D Williams           lbw                b Snell                5  28  27  1 0
+CEL Ambrose           c Richardson       b Donald               6  18  12  0 0
+KCG Benjamin          lbw                b Donald               7  32  18  1 0
+CA Walsh              c Richardson       b Snell               13  46  30  0 0
+BP Patterson                             b Bosch               11  86  47  0 0
+Extras                (b 17, lb 11, nb 20)                     48
+Total                 (all out, 81.3 overs)                   283
+
+FoW: 1-10 (Simmons), 2-66 (Haynes), 3-68 (Richardson),
+     4-120 (Arthurton), 5-139 (Lara), 6-164 (Williams),
+     7-174 (Ambrose), 8-196 (Benjamin), 9-221 (Walsh),
+     10-283 (Patterson).
+
+Bowling                      O      M      R      W
+Donald                      25      3     77      4
+Bosch                       24.3    7     61      2
+Pringle                     16      0     43      0
+Snell                       16      1     74      4
+
+South Africa 2nd innings (target: 201 runs)                     R   M   B  4 6
+AC Hudson             c Lara             b Ambrose              0   2   2  0 0
+MW Rushmere                              b Ambrose              3  40  26  0 0
+*KC Wessels           c Lara             b Walsh               74 215 174  7 0
+PN Kirsten                               b Walsh               52 223 168  5 0
+WJ Cronje             c Williams         b Ambrose              2  19  14  0 0
+AP Kuiper             c Williams         b Walsh                0  10   7  0 0
++DJ Richardson        c Williams         b Ambrose              2  50  25  0 0
+RP Snell              c Adams            b Walsh                0   9   8  0 0
+MW Pringle                               b Ambrose              4  12   7  0 0
+T Bosch               not out                                   0  10   3  0 0
+AA Donald                                b Ambrose              0   1   1  0 0
+Extras                (b 4, lb 3, nb 4)                        11
+Total                 (all out, 72.4 overs)                   148
+
+FoW: 1-0 (Hudson), 2-27 (Rushmere), 3-123 (Wessels),
+     4-130 (Cronje), 5-131 (Kuiper), 6-142 (Kirsten),
+     7-142 (Snell), 8-147 (Pringle), 9-148 (Richardson),
+     10-148 (Donald).
+
+Bowling                      O      M      R      W
+Ambrose                     24.4    7     34      6
+Patterson                    7      1     26      0
+Walsh                       22     10     31      4
+Benjamin                     9      2     21      0
+Adams                        5      0     16      0
+Simmons                      5      1     13      0
+
+<END>

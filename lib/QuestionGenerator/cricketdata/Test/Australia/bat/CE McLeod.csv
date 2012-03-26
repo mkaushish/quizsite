@@ -1,0 +1,30 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+42, 1894-12-14, 1, 8, England, , Richardson, 15, 23, na, 0, 0
+42, 1894-12-14, 4, 8, England, not out, , 2, 24, na, 0, 0
+53, 1897-12-13, 2, 9, England, not out, , 50, 105, na, 8, 0
+53, 1897-12-13, 3, 3, England, run out, , 26, 95, na, na, 0
+54, 1898-01-01, 1, 2, England, , Storer, 112, 244, na, 4, 0
+55, 1898-01-14, 1, 1, England, , Briggs, 31, 120, na, 2, 0
+56, 1898-01-29, 1, 1, England, , Hearne, 1, 5, na, 0, 0
+56, 1898-01-29, 4, 1, England, not out, , 64, 99, na, 5, 0
+57, 1898-02-26, 2, 1, England, , Richardson, 64, 163, na, 8, 0
+57, 1898-02-26, 4, 1, England, , Hearne, 4, 10, na, 0, 0
+64, 1899-08-14, 2, 9, England, not out, , 31, na, na, na, 0
+64, 1899-08-14, 3, 2, England, , Rhodes, 77, na, na, na, 0
+65, 1901-12-13, 2, 6, England, , Barnes, 0, na, na, 0, 0
+65, 1901-12-13, 3, 6, England, , Blythe, 0, na, na, 0, 0
+67, 1902-01-17, 2, 11, England, , Gunn, 7, 10, na, 0, 0
+80, 1904-01-15, 1, 9, England, run out, , 8, 25, na, 0, 0
+80, 1904-01-15, 3, 9, England, , Bosanquet, 2, 7, na, 0, 0
+81, 1904-02-26, 2, 6, England, , Rhodes, 18, 20, na, 1, 0
+81, 1904-02-26, 4, 8, England, c Lilley, Bosanquet, 6, 9, na, 0, 0
+82, 1904-03-05, 1, 8, England, c Rhodes, Braund, 8, 17, na, 0, 0
+82, 1904-03-05, 3, 2, England, c Bosanquet, Braund, 0, 19, na, 0, 0
+83, 1905-05-29, 2, 9, England, , Arnold, 4, na, na, na, 0
+83, 1905-05-29, 4, 9, England, lbw, Bosanquet, 13, na, na, na, 0
+84, 1905-06-15, 2, 9, England, , Haigh, 0, na, na, 0, 0
+85, 1905-07-03, 2, 9, England, , Haigh, 8, na, na, na, 0
+85, 1905-07-03, 4, 9, England, not out, , 10, na, na, na, 0
+86, 1905-07-24, 2, 8, England, , Brearley, 6, na, na, na, 0
+86, 1905-07-24, 3, 9, England, c Arnold, Rhodes, 6, na, na, na, 0
+87, 1905-08-14, 2, 8, England, , Brearley, 0, na, na, 0, 0

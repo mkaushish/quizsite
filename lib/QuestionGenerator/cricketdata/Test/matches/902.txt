@@ -1,0 +1,104 @@
+
+Test # 902
+The Wisden Trophy, 1980/81, 5th Test
+West Indies v England
+Sabina Park, Kingston, Jamaica
+10,11,12,14,15 April 1981 (5-day match)
+
+Result: Match drawn
+Series: West Indies wins the 4-match series 2-0 (1 abandoned)
+
+Toss: West Indies
+Umpires: CE Cumberbatch and D Sang Hue
+Player of the match: GA Gooch
+Player of the series: CH Lloyd
+
+Close of play:
+ Day 1: England 278/6 (Botham 12*, Downton 0*)
+ Day 2: England 285, West Indies 193/3 (Mattis 14*, Lloyd 13*)
+ Day 3: West Indies 442
+ Day 4: England 134/3 (Gower 70*, Willey 44*)
+
+England 1st innings                                             R   M   B  4 6
+GA Gooch              c Murray           b Holding            153 314 213 21 2
+G Boycott             c Murray           b Garner              40 125  79  2 0
+CWJ Athey                                b Holding              3  52  29  0 0
+DI Gower                                 b Croft               22  61  42  3 0
+P Willey              c Murray           b Marshall             4  30  23  0 0
+RO Butcher                               b Garner              32  84  56  4 0
+*IT Botham            c Greenidge        b Marshall            13  54  42  1 0
++PR Downton           c Croft            b Holding              0  17   6  0 0
+JE Emburey                               b Holding              1  15  10  0 0
+RD Jackman            c Haynes           b Holding              0  16   7  0 0
+GR Dilley             not out                                   1   4   2  0 0
+Extras                (b 8, nb 8)                              16
+Total                 (all out, 83 overs)                     285
+
+FoW: 1-93 (Boycott), 2-148 (Athey), 3-196 (Gower),
+     4-210 (Willey), 5-249 (Gooch), 6-275 (Butcher),
+     7-283 (Botham), 8-283 (Downton), 9-284 (Emburey),
+     10-285 (Jackman).
+
+Bowling                      O      M      R      W
+Holding                     18      3     56      5
+Marshall                    16      2     49      2
+Croft                       17      4     92      1
+Garner                      20      4     43      2
+Richards                    12      2     29      0
+
+West Indies 1st innings                                         R   M   B  4 6
+CG Greenidge          c Botham           b Dilley              62 165 121  8 1
+DL Haynes                                b Willey              84 285 213 11 0
+IVA Richards          c Downton          b Dilley              15  29  22  2 1
+EH Mattis             c sub              b Dilley              34 156 110  5 0
+*CH Lloyd             c Downton          b Jackman             95 209 168 19 0
+HA Gomes              not out                                  90 319 220 10 0
++DA Murray            c Gooch            b Emburey             14  66  51  0 0
+MD Marshall                              b Emburey             15  58  47  3 0
+J Garner              c sub              b Dilley              19  34  28  3 0
+MA Holding            c Downton          b Botham               0   5   3  0 0
+CEH Croft             c sub              b Botham               0   8   2  0 0
+Extras                (lb 8, w 1, nb 5)                        14
+Total                 (all out, 163.1 overs)                  442
+
+FoW: 1-116 (Greenidge), 2-136 (Richards), 3-179 (Haynes),
+     4-227 (Mattis), 5-345 (Lloyd), 6-372 (Murray),
+     7-415 (Marshall), 8-441 (Garner), 9-442 (Holding),
+     10-442 (Croft).
+
+Bowling                      O      M      R      W
+Dilley                      28.4    6    116      4
+Botham                      26.1    9     73      2
+Jackman                     26.2    6     57      1
+Gooch                        8      3     20      0
+Emburey                     56     23    108      2
+Willey                      18      3     54      1
+
+England 2nd innings                                             R   M   B  4 6
+GA Gooch              c Lloyd            b Marshall             3  19  19  0 0
+G Boycott             c Garner           b Croft               12  61  25  1 0
+CWJ Athey             c Murray           b Holding              1  13   9  0 0
+DI Gower              not out                                 154 461 403 16 1
+P Willey              c Greenidge        b Richards            67 174 120  7 0
+RO Butcher            lbw                b Croft                0   7   3  0 0
+*IT Botham            c Garner           b Holding             16  63  49  0 0
++PR Downton           not out                                  26 186 144  2 0
+Extras                (b 6, lb 13, nb 4)                       23
+Total                 (6 wickets dec, 128 overs)              302
+
+DNB: JE Emburey, RD Jackman, GR Dilley.
+
+FoW: 1-5 (Gooch), 2-10 (Athey), 3-32 (Boycott), 4-168 (Willey),
+     5-168 (Butcher), 6-215 (Botham).
+
+Bowling                      O      M      R      W
+Holding                     28      7     58      2
+Marshall                     5      0     15      1
+Croft                       29      7     80      2
+Garner                      24      7     46      0
+Richards                    23      8     48      1
+Gomes                       13      3     18      0
+Mattis                       5      1     10      0
+Haynes                       1      0      4      0
+
+<END>

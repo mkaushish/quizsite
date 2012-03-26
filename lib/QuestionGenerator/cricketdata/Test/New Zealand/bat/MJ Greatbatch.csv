@@ -1,0 +1,72 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+1093, 1988-02-25, 1, 5, England, c French, Dilley, 11, 77, 48, 0, 0
+1093, 1988-02-25, 3, 5, England, not out, , 107, 407, 325, 12, 0
+1094, 1988-03-03, 1, 5, England, c DeFreitas, Emburey, 68, 252, 213, 8, 0
+1107, 1988-11-12, 2, 4, India, c Srikkanth, Raman, 14, 99, 103, 2, 0
+1107, 1988-11-12, 4, 4, India, c Kapil Dev, Arshad Ayub, 10, 56, 45, 0, 0
+1109, 1988-11-24, 1, 4, India, lbw, Shastri, 46, 156, 131, 4, 0
+1109, 1988-11-24, 3, 4, India, , Hirwani, 31, 119, 86, 2, 0
+1111, 1988-12-02, 1, 4, India, not out, , 90, 261, 244, 9, 0
+1111, 1988-12-02, 3, 5, India, lbw, Hirwani, 5, 26, 20, 1, 0
+1116, 1989-02-24, 2, 6, Pakistan, , Abdul Qadir, 76, 242, 179, 12, 0
+1116, 1989-02-24, 3, 5, Pakistan, not out, , 13, 40, 28, 3, 0
+1129, 1989-11-24, 2, 3, Australia, c Healy, Hughes, 76, 221, 139, 13, 0
+1129, 1989-11-24, 3, 3, Australia, not out, , 146, 655, 485, 17, 0
+1136, 1990-02-02, 1, 5, India, , Wassan, 46, 200, 108, 3, 0
+1139, 1990-02-22, 1, 5, India, , Wassan, 4, 35, 22, 0, 0
+1139, 1990-02-22, 3, 5, India, c Gursharan Singh, Wassan, 43, 67, 57, 4, 1
+1141, 1990-03-15, 2, 5, Australia, c Healy, PL Taylor, 16, 77, 59, 3, 0
+1145, 1990-06-07, 1, 5, England, , Hemmings, 1, 19, 8, 0, 0
+1146, 1990-06-21, 2, 5, England, , Malcolm, 47, 155, 98, 2, 1
+1147, 1990-07-05, 2, 5, England, , Malcolm, 45, 94, 82, 8, 0
+1147, 1990-07-05, 4, 5, England, c Atherton, Hemmings, 22, 64, 45, 4, 0
+1151, 1990-10-10, 1, 3, Pakistan,                c &, Ijaz Ahmed, 43, 249, 151, 3, 0
+1151, 1990-10-10, 3, 3, Pakistan, lbw, Aaqib Javed, 21, 91, 64, 2, 0
+1152, 1990-10-18, 1, 3, Pakistan, , Waqar Younis, 11, 37, 23, 1, 0
+1152, 1990-10-18, 3, 3, Pakistan, , Waqar Younis, 6, 20, 15, 1, 0
+1153, 1990-10-26, 2, 3, Pakistan, c Saleem Yousuf, Waqar Younis, 8, 75, 46, 0, 0
+1153, 1990-10-26, 4, 4, Pakistan, , Aaqib Javed, 0, 20, 11, 0, 0
+1162, 1991-01-31, 1, 5, Sri Lanka, c Gurusinha, Labrooy, 13, 63, 40, 1, 0
+1162, 1991-01-31, 3, 5, Sri Lanka, not out, , 14, 61, 48, 2, 0
+1165, 1991-03-01, 2, 4, Sri Lanka, lbw, Labrooy, 65, 266, 175, 6, 0
+1165, 1991-03-01, 4, 4, Sri Lanka, , Labrooy, 7, 40, 35, 0, 0
+1183, 1992-01-18, 2, 4, England, c Stewart, Tufnell, 11, 66, 50, 2, 0
+1183, 1992-01-18, 3, 6, England, c Smith, Tufnell, 0, 13, 11, 0, 0
+1198, 1992-11-01, 1, 1, Zimbabwe, c Campbell, Omarshah, 87, 107, 79, 14, 1
+1198, 1992-11-01, 3, 1, Zimbabwe, c Houghton, Jarvis, 88, 153, 108, 4, 2
+1199, 1992-11-07, 1, 1, Zimbabwe, c A Flower, Brain, 55, 166, 97, 5, 1
+1199, 1992-11-07, 3, 1, Zimbabwe, c Brandes, Brain, 13, 41, 26, 1, 0
+1207, 1993-01-02, 2, 1, Pakistan, lbw, Waqar Younis, 133, 427, 317, 16, 0
+1207, 1993-01-02, 4, 2, Pakistan, c Aamer Sohail, Wasim Akram, 8, 50, 30, 0, 0
+1215, 1993-02-25, 2, 1, Australia, c Healy, McDermott, 4, 2, 3, 1, 0
+1215, 1993-02-25, 3, 1, Australia, c Reiffel, Hughes, 0, 11, 11, 0, 0
+1216, 1993-03-04, 1, 1, Australia, c Taylor, Reiffel, 61, 222, 184, 6, 0
+1216, 1993-03-04, 3, 1, Australia, , McDermott, 0, 8, 7, 0, 0
+1217, 1993-03-12, 2, 2, Australia, c Border, Hughes, 32, 109, 81, 2, 0
+1217, 1993-03-12, 4, 2, Australia, , Hughes, 29, 46, 30, 4, 1
+1235, 1993-11-12, 2, 1, Australia, c Healy, McGrath, 18, 37, 33, 3, 0
+1235, 1993-11-12, 4, 1, Australia, c Healy, McDermott, 0, 1, 1, 0, 0
+1236, 1993-11-26, 2, 1, Australia, c May, McDermott, 12, 19, 20, 1, 0
+1236, 1993-11-26, 3, 1, Australia, c ME Waugh, McDermott, 0, 11, 11, 0, 0
+1238, 1993-12-03, 1, 5, Australia, c Healy, McDermott, 35, 91, 76, 4, 0
+1238, 1993-12-03, 3, 5, Australia, lbw, McDermott, 2, 6, 5, 0, 0
+1248, 1994-02-10, 1, 5, Pakistan, c Saleem Malik, Mushtaq Ahmed, 48, 47, 34, 8, 1
+1248, 1994-02-10, 3, 5, Pakistan, c Inzamam-ul-Haq, Wasim Akram, 0, 10, 9, 0, 0
+1249, 1994-02-17, 1, 5, Pakistan, c Rashid Latif, Waqar Younis, 45, 94, 56, 6, 1
+1249, 1994-02-17, 3, 5, Pakistan, c Rashid Latif, Wasim Akram, 10, 29, 18, 2, 0
+1251, 1994-02-24, 2, 5, Pakistan, lbw, Wasim Akram, 1, 5, 5, 0, 0
+1251, 1994-02-24, 4, 5, Pakistan, c Inzamam-ul-Haq, Waqar Younis, 1, 37, 25, 0, 0
+1255, 1994-03-19, 1, 4, India, c Azharuddin, Srinath, 12, 57, 43, 0, 0
+1255, 1994-03-19, 3, 4, India, c Manjrekar, Kumble, 27, 74, 53, 3, 0
+1262, 1994-06-30, 2, 2, England, c Hick, Gough, 0, 8, 5, 0, 0
+1262, 1994-06-30, 3, 2, England, c DeFreitas, White, 21, 117, 58, 4, 0
+1292, 1995-03-11, 2, 3, Sri Lanka, lbw, Wickramasinghe, 1, 6, 6, 0, 0
+1292, 1995-03-11, 4, 3, Sri Lanka, c Tillakaratne, Muralitharan, 46, 82, 82, 5, 1
+1293, 1995-03-18, 2, 3, Sri Lanka, lbw, Vaas, 0, 3, 2, 0, 0
+1308, 1995-10-18, 1, 2, India, , Srinath, 10, 38, 22, 1, 0
+1308, 1995-10-18, 3, 1, India, , Prabhakar, 16, 32, 19, 3, 0
+1310, 1995-11-08, 2, 1, India, c Jadeja, Hirwani, 50, 141, 117, 6, 0
+1339, 1996-11-21, 1, 6, Pakistan, c Mohammad Wasim, Waqar Younis, 18, 80, 37, 1, 0
+1339, 1996-11-21, 3, 6, Pakistan, , Waqar Younis, 1, 21, 10, 0, 0
+1342, 1996-11-28, 1, 6, Pakistan, c Saeed Anwar, Mushtaq Ahmed, 2, 9, 2, 0, 0
+1342, 1996-11-28, 3, 5, Pakistan, c Saeed Anwar, Mushtaq Ahmed, 19, 36, 30, 2, 0

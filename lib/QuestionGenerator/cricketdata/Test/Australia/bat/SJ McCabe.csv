@@ -1,0 +1,63 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+194, 1930-06-13, 2, 6, England, c Hammond, Robins, 4, 5, 2, 1, 0
+194, 1930-06-13, 4, 5, England, c sub, Tate, 49, 70, 76, 7, 0
+195, 1930-06-27, 2, 5, England, c Woolley, Hammond, 44, 51, 41, 8, 0
+195, 1930-06-27, 4, 5, England, not out, , 25, 39, 60, 3, 0
+196, 1930-07-11, 1, 5, England, , Larwood, 30, na, 46, na, 0
+197, 1930-07-25, 1, 5, England, lbw, Peebles, 4, na, 9, 1, 0
+198, 1930-08-16, 2, 6, England, c Duckworth, Hammond, 54, na, 76, 9, 0
+199, 1930-12-12, 2, 5, West Indies,                c &, Constantine, 90, 132, na, 9, 0
+201, 1931-01-01, 1, 5, West Indies, lbw, Scott, 31, 59, na, 2, 0
+203, 1931-01-16, 1, 5, West Indies, c Constantine, Griffith, 8, 37, na, na, 0
+205, 1931-02-13, 2, 5, West Indies, run out, , 2, 8, na, 0, 0
+208, 1931-02-27, 2, 6, West Indies, c Headley, Francis, 21, 35, na, 1, 0
+208, 1931-02-27, 4, 7, West Indies, c Grant, Martin, 44, 64, na, 3, 0
+212, 1931-11-27, 1, 5, South Africa, c Vincent, Morkel, 27, 50, na, 2, 0
+213, 1931-12-18, 2, 5, South Africa, c Christy, Vincent, 79, 122, na, 7, 0
+214, 1932-12-31, 1, 5, South Africa, c Morkel, Bell, 22, 45, na, 4, 0
+214, 1932-12-31, 3, 5, South Africa, c Mitchell, McMillan, 71, 97, na, 5, 1
+215, 1932-01-29, 2, 5, South Africa, c Vincent, Bell, 2, 4, na, 0, 0
+216, 1932-02-12, 2, 5, South Africa, c Cameron, Bell, 0, 1, 1, 0, 0
+220, 1932-12-02, 1, 5, England, not out, , 187, 242, 233, 25, 0
+220, 1932-12-02, 3, 4, England, lbw, Hammond, 32, 65, 69, 3, 1
+221, 1933-12-30, 1, 5, England, c Jardine, Voce, 32, 76, 58, 1, 0
+221, 1933-12-30, 3, 5, England, , Allen, 0, 4, 5, 0, 0
+222, 1933-01-13, 2, 4, England, c Jardine, Larwood, 8, 21, 25, 1, 0
+222, 1933-01-13, 4, 5, England, c Leyland, Allen, 7, 21, 19, 1, 0
+223, 1933-02-10, 1, 4, England, c Jardine, Allen, 20, 28, 28, 4, 0
+223, 1933-02-10, 3, 5, England, , Verity, 22, 82, 75, 1, 0
+224, 1933-02-23, 1, 5, England, c Hammond, Verity, 73, 172, 129, 11, 0
+224, 1933-02-23, 3, 5, England, c Jardine, Voce, 4, 6, 6, 1, 0
+233, 1934-06-08, 1, 5, England, c Leyland, Farnes, 65, na, 156, 7, 0
+233, 1934-06-08, 3, 5, England, c Hammond, Farnes, 88, 105, 121, 15, 1
+234, 1934-06-22, 2, 4, England, c Hammond, Verity, 34, na, 88, na, 0
+234, 1934-06-22, 3, 3, England, c Hendren, Verity, 19, na, 56, na, 0
+235, 1934-07-06, 2, 3, England, c Verity, Hammond, 137, 214, 204, 22, 0
+235, 1934-07-06, 4, 3, England, not out, , 33, 82, 74, na, 0
+236, 1934-07-20, 2, 6, England, , Bowes, 27, na, 63, na, 0
+237, 1934-08-18, 1, 4, England, , Allen, 10, na, 12, na, 0
+237, 1934-08-18, 3, 4, England, c Walters, Clark, 70, na, 102, na, 0
+247, 1935-12-14, 2, 3, South Africa, c Rowan, Langton, 149, 268, na, 6, 0
+247, 1935-12-14, 4, 3, South Africa, not out, , 7, na, na, na, na
+248, 1935-12-24, 2, 3, South Africa, c Robertson, Langton, 34, na, na, na, 0
+248, 1935-12-24, 4, 3, South Africa, not out, , 189, na, na, na, 0
+249, 1936-01-01, 1, 3, South Africa,                c &, Balaskas, 0, na, na, 0, 0
+250, 1936-02-15, 2, 3, South Africa, , Davies, 40, na, na, na, 0
+251, 1936-02-28, 2, 3, South Africa,                c &, Mitchell, 1, na, na, 0, 0
+255, 1936-12-04, 2, 4, England, c Barnett, Voce, 51, 116, 128, 6, 0
+255, 1936-12-04, 4, 6, England, c Leyland, Allen, 7, 6, 8, 1, 0
+256, 1936-12-18, 2, 4, England, c Sims, Voce, 0, 5, 2, 0, 0
+256, 1936-12-18, 3, 4, England, lbw, Voce, 93, 174, 186, 10, 0
+257, 1937-01-01, 1, 5, England, c Worthington, Voce, 63, 144, 146, 6, 0
+257, 1937-01-01, 3, 8, England, lbw, Allen, 22, 43, 51, 2, 0
+258, 1937-01-29, 1, 5, England, c Allen, Robins, 88, 134, 145, 9, 0
+258, 1937-01-29, 3, 4, England, c Wyatt, Robins, 55, 92, 116, 7, 0
+259, 1937-02-26, 1, 4, England, c Farnes, Verity, 112, 163, 155, 16, 0
+263, 1938-06-10, 2, 4, England, c Compton, Verity, 232, 235, 277, 34, 1
+263, 1938-06-10, 3, 4, England, c Hammond, Verity, 39, 59, 73, 6, 0
+264, 1938-06-24, 2, 4, England, c Verity, Farnes, 38, 32, 32, 5, 1
+264, 1938-06-24, 4, 4, England, c Hutton, Verity, 21, 25, 22, 4, 0
+265, 1938-07-22, 2, 5, England, , Farnes, 1, 14, 9, 0, 0
+265, 1938-07-22, 4, 4, England, c Barnett, Wright, 15, 17, 16, 1, 0
+266, 1938-08-20, 2, 3, England, c Edrich, Farnes, 14, 10, 15, 2, 0
+266, 1938-08-20, 3, 3, England, c Wood, Farnes, 2, 1, 2, 0, 0

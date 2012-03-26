@@ -1,0 +1,69 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+659, 1969-09-25, 1, 2, New Zealand, c Murray, Cunis, 18, 53, na, 2, 1
+659, 1969-09-25, 3, 2, New Zealand, c Wadsworth, Burgess, 34, 200, na, 0, 0
+660, 1969-10-03, 2, 2, New Zealand, c Turner, Yuile, 14, 65, na, 2, 0
+660, 1969-10-03, 4, 2, New Zealand, c Congdon, Howarth, 19, 80, na, 1, 0
+669, 1969-12-24, 2, 1, Australia, c Chappell, Mallett, 19, na, na, na, 0
+669, 1969-12-24, 4, 1, Australia, c Redpath, McKenzie, 1, na, na, 0, 0
+708, 1973-01-12, 2, 1, England, c Knott, Arnold, 0, 15, 16, 0, 0
+708, 1973-01-12, 4, 1, England, c Knott, Pocock, 11, 83, 52, 0, 0
+709, 1973-01-25, 1, 1, England, c Old, Underwood, 22, 173, 116, 1, 0
+709, 1973-01-25, 3, 1, England, c Roope, Arnold, 1, 32, 24, 0, 0
+811, 1977-12-16, 1, 2, Australia, c Gannon, Simpson, 88, 195, 151, 13, 0
+811, 1977-12-16, 3, 2, Australia, c Ogilvie, Thomson, 32, 56, 40, 7, 0
+812, 1978-12-30, 1, 2, Australia, c Mann, Clark, 0, 9, 6, 0, 0
+812, 1978-12-30, 3, 2, Australia, run out, , 20, 45, 27, 2, 0
+814, 1978-01-07, 2, 2, Australia, c Mann, Clark, 42, 170, 124, 6, 0
+816, 1978-01-28, 2, 2, Australia, c Cosier, Clark, 15, 31, 20, 2, 0
+816, 1978-01-28, 4, 2, Australia, c Wood, Yardley, 32, 99, 61, 3, 0
+831, 1978-10-16, 2, 2, Pakistan, c Wasim Bari, Sarfraz Nawaz, 46, na, na, na, 0
+831, 1978-10-16, 4, 2, Pakistan, not out, , 30, na, na, na, 0
+832, 1978-10-27, 1, 2, Pakistan, , Imran Khan, 10, na, na, na, 0
+832, 1978-10-27, 3, 2, Pakistan, c Wasim Bari, Javed Miandad, 93, na, na, na, 0
+833, 1978-11-14, 1, 2, Pakistan, c Iqbal Qasim, Sarfraz Nawaz, 33, na, na, na, 0
+833, 1978-11-14, 3, 2, Pakistan, c Wasim Bari, Sarfraz Nawaz, 0, na, na, 0, 0
+835, 1978-12-01, 1, 2, West Indies, c Greenidge, Holder, 52, 219, 167, 0, 0
+835, 1978-12-01, 3, 2, West Indies, c Murray, Parry, 84, 215, 188, 13, 0
+837, 1978-12-15, 2, 5, West Indies, c Parry, Marshall, 15, na, na, na, 0
+839, 1979-12-29, 1, 2, West Indies, , Clarke, 11, na, na, na, 0
+841, 1979-01-12, 2, 2, West Indies, c Murray, Holder, 20, na, na, na, 0
+841, 1979-01-12, 4, 2, West Indies, c Bacchus, Phillip, 10, na, na, na, 0
+842, 1979-01-24, 1, 2, West Indies, c Parry, Phillip, 60, 142, na, 9, 0
+845, 1979-02-02, 1, 2, West Indies, st Murray, Parry, 79, 300, na, na, 0
+851, 1979-07-12, 2, 2, England, c Gooch, Botham, 4, 16, 8, 1, 0
+851, 1979-07-12, 3, 2, England, c Randall, Willis, 56, 167, 142, 8, 0
+852, 1979-08-02, 1, 2, England, c Randall, Botham, 2, 29, 14, 0, 0
+852, 1979-08-02, 3, 2, England, c Randall, Edmonds, 31, 114, 100, 4, 0
+853, 1979-08-16, 2, 2, England, c Botham, Willis, 0, 1, 1, 0, 0
+854, 1979-08-30, 2, 2, England, c Botham, Willis, 6, 15, 13, 1, 0
+854, 1979-08-30, 4, 2, England, c Botham, Willis, 80, 314, 263, 7, 0
+855, 1979-09-11, 2, 2, Australia, c Wright, Higgs, 26, 115, 91, 3, 0
+856, 1979-09-19, 2, 2, Australia, c Hilditch, Yardley, 31, 100, 77, 6, 0
+857, 1979-10-02, 1, 2, Australia,                c &, Hogg, 58, 303, na, 9, 0
+857, 1979-10-02, 3, 2, Australia, c Yardley, Dymock, 84, 368, na, 10, 0
+858, 1979-10-13, 1, 2, Australia, c Whatmore, Dymock, 19, 45, 40, 4, 0
+859, 1979-10-26, 2, 2, Australia, c Border, Higgs, 39, 232, 160, 5, 0
+859, 1979-10-26, 4, 2, Australia, c Wright, Dymock, 50, 180, 130, 4, 0
+860, 1979-11-03, 1, 2, Australia, , Dymock, 73, 228, 178, 10, 0
+861, 1979-11-21, 2, 2, Pakistan, c Majid Khan, Imran Khan, 13, 19, 17, 2, 0
+863, 1979-12-04, 2, 2, Pakistan, c Wasim Bari, Sikander Bakht, 11, 43, 29, 1, 0
+863, 1979-12-04, 4, 2, Pakistan, lbw, Sikander Bakht, 40, 159, 120, 5, 0
+865, 1979-12-16, 1, 2, Pakistan, c Wasim Bari, Imran Khan, 5, 60, 42, 1, 0
+865, 1979-12-16, 3, 2, Pakistan, , Mudassar Nazar, 0, 27, 15, 0, 0
+866, 1979-12-25, 1, 2, Pakistan, c Zaheer Abbas, Sikander Bakht, 6, 58, 34, 0, 0
+866, 1979-12-25, 3, 2, Pakistan, c Sadiq Mohammad, Wasim Raja, 61, 334, 194, 6, 0
+869, 1980-01-15, 2, 2, Pakistan, c Iqbal Qasim, Mudassar Nazar, 5, 64, 31, 1, 0
+869, 1980-01-15, 4, 2, Pakistan, not out, , 46, 88, 61, 8, 0
+871, 1980-01-29, 1, 2, Pakistan, lbw, Ehteshamuddin, 18, 80, 30, 3, 0
+871, 1980-01-29, 3, 1, Pakistan, , Ehteshamuddin, 21, 102, 50, 1, 0
+893, 1981-01-02, 1, 2, Australia, c Border, Pascoe, 20, 101, 60, 1, 0
+893, 1981-01-02, 3, 2, Australia, c Walters, Pascoe, 36, 122, 78, 4, 0
+894, 1981-01-23, 2, 2, Australia, c Marsh, Lillee, 97, 342, 227, 11, 0
+894, 1981-01-23, 4, 2, Australia, c Marsh, Pascoe, 11, 16, 12, 0, 0
+895, 1981-02-07, 1, 2, Australia, c Yardley, Pascoe, 0, 5, 3, 0, 0
+895, 1981-02-07, 3, 2, Australia, c Yardley, Lillee, 85, 243, 198, 12, 0
+897, 1981-02-21, 2, 2, New Zealand, c Coney, Troup, 17, 55, 37, 3, 0
+897, 1981-02-21, 4, 2, New Zealand, , Hadlee, 1, 19, 12, 0, 0
+898, 1981-03-06, 1, 2, New Zealand, c Smith, Hadlee, 78, 266, 216, 9, 0
+899, 1981-03-13, 1, 2, New Zealand, c Cairns, Bracewell, 36, 165, 132, 4, 0
+899, 1981-03-13, 3, 2, New Zealand, c Cairns, Bracewell, 7, 86, 52, 0, 0

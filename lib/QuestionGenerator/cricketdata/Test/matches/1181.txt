@@ -1,0 +1,104 @@
+
+Test # 1181
+India in Australia, 1991/92, 3rd Test
+Australia v India
+Sydney Cricket Ground
+2,3,4,5,6 January 1992 (5-day match)
+
+Result: Match drawn
+Series: Australia leads the 5-match series 2-0
+
+Toss: India
+Umpires: PJ McConnell and SG Randell
+Match referee: PBH May (Eng)
+Test debuts: SK Warne (Australia); ST Banerjee (India).
+Player of the match: RJ Shastri
+
+Close of play:
+ Day 1: Australia 234/4 (Boon 89*, Border 14*)
+ Day 2: Australia 313, India 103/2 (Shastri 52*, Vengsarkar 13*)
+ Day 3: India 178/2 (Shastri 95*, Vengsarkar 43*)
+ Day 4: India 445/7 (Tendulkar 120*, Pandit 3*)
+
+Australia 1st innings                                           R   M   B  4 6
+GR Marsh                                 b Banerjee             8  54  48  1 0
+MA Taylor             c Pandit           b Banerjee            56 207 135  5 0
+DC Boon               not out                                 129 444 361 13 0
+ME Waugh              c Prabhakar        b Banerjee             5  14  10  1 0
+DM Jones              run out                                  35  99  75  4 0
+*AR Border            c Pandit           b Kapil Dev           19  67  51  2 0
++IA Healy             c sub (K Srikkanth) b Prabhakar           1   6   4  0 0
+MG Hughes             c Pandit           b Prabhakar            2  10   5  0 0
+CJ McDermott                             b Prabhakar            1  14   7  0 0
+SK Warne              c Pandit           b Kapil Dev           20  71  67  1 0
+BA Reid               c Tendulkar        b Kapil Dev            0   1   2  0 0
+Extras                (b 4, lb 14, w 1, nb 18)                 37
+Total                 (all out, 124 overs, 499 mins)          313
+
+FoW: 1-22 (Marsh), 2-117 (Taylor), 3-127 (Waugh), 4-210 (Jones),
+     5-248 (Border), 6-251 (Healy), 7-259 (Hughes),
+     8-269 (McDermott), 9-313 (Warne), 10-313 (Reid).
+
+Bowling                      O      M      R      W
+Kapil Dev                   33      9     60      3
+Prabhakar                   39     12     82      3
+Banerjee                    18      4     47      3
+Srinath                     21      5     69      0
+Shastri                     13      1     37      0
+
+India 1st innings                                               R   M   B  4 6
+RJ Shastri            c Jones            b Warne              206 572 477 17 2
+NS Sidhu              c Waugh            b McDermott            0  11   7  0 0
+SV Manjrekar          c Waugh            b Hughes              34 161 121  2 0
+DB Vengsarkar         c Waugh            b McDermott           54 196 140  3 0
+*M Azharuddin         c Boon             b McDermott            4   2   2  1 0
+SR Tendulkar          not out                                 148 298 213 14 0
+M Prabhakar           c Taylor           b Hughes              14  42  29  1 0
+N Kapil Dev           c Marsh            b Hughes               0   1   1  0 0
++CS Pandit            run out                                   9  32  18  0 0
+ST Banerjee           c Border           b McDermott            3  13   7  0 0
+J Srinath             run out                                   1   7   2  0 0
+Extras                (b 1, lb 4, nb 5)                        10
+Total                 (all out, 168.4 overs, 672 mins)        483
+
+FoW: 1-7 (Sidhu), 2-86 (Manjrekar), 3-197 (Vengsarkar),
+     4-201 (Azharuddin), 5-397 (Shastri), 6-434 (Prabhakar),
+     7-434 (Kapil Dev), 8-458 (Pandit), 9-474 (Banerjee),
+     10-483 (Srinath).
+
+Bowling                      O      M      R      W
+McDermott                   51     12    147      4
+Reid                         4      0     10      0
+Hughes                      41.4    8    104      3
+Waugh                       14      5     28      0
+Warne                       45      7    150      1
+Border                      13      3     39      0
+
+Australia 2nd innings                                           R   M   B  4 6
+MA Taylor             c Kapil Dev        b Shastri             35 182 122  0 0
+GR Marsh              c Pandit           b Kapil Dev            4  16   9  0 0
+DC Boon               c Azharuddin       b Srinath              7  36  33  0 0
+ME Waugh              lbw                b Prabhakar           18  50  51  0 0
+DM Jones              c Pandit           b Shastri             18  40  25  1 0
+*AR Border            not out                                  53 158 157  2 0
++IA Healy             c Prabhakar        b Shastri              7  36  28  0 0
+MG Hughes             c Prabhakar        b Tendulkar           21  76  73  1 0
+CJ McDermott          c Vengsarkar       b Shastri              0  10   5  0 0
+SK Warne              not out                                   1   7   7  0 0
+Extras                (lb 4, w 1, nb 4)                         9
+Total                 (8 wickets, 84 overs, 305 mins)         173
+
+DNB: BA Reid.
+
+FoW: 1-9 (Marsh), 2-31 (Boon), 3-55 (Waugh), 4-85 (Jones),
+     5-106 (Taylor), 6-114 (Healy), 7-164 (Hughes),
+     8-171 (McDermott).
+
+Bowling                      O      M      R      W
+Kapil Dev                   19      5     41      1
+Prabhakar                   27     10     53      1
+Srinath                     12      0     28      1
+Shastri                     25      8     45      4
+Tendulkar                    1      0      2      1
+
+<END>

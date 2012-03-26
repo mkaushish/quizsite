@@ -1,0 +1,122 @@
+
+Test # 573
+England in South Africa, 1964/65, 3rd Test
+South Africa v England
+Newlands, Cape Town
+1,2,4,5,6 January 1965 (5-day match)
+
+Result: Match drawn
+Series: England leads the 5-match series 1-0
+
+Toss: South Africa
+Umpires: VJ Costello and JE Warner
+Test debut: GG Hall (South Africa).
+
+Close of play:
+ Day 1: South Africa 252/1 (Barlow 138*, Pithey 59*)
+ Day 2: South Africa 501/7d, England 24/0 (Boycott 11*, Barber 11*)
+ Day 3: England 240/4 (Parfitt 43*, Smith 13*)
+ Day 4: England 442, South Africa 39/2 (Barlow 22*, Varnals 4*)
+
+South Africa 1st innings                                        R   M   B  4 6
+*TL Goddard                              b Titmus              40 105      3 0
+EJ Barlow             c Parks            b Thomson            138 344     16 0
+AJ Pithey             c Barber           b Allen              154 440     12 1
+RG Pollock            c Parks            b Allen               31  87      3 0
+KC Bland              run out                                  78 167      9 0
++DT Lindsay           lbw                b Thomson              2  22      0 0
+GD Varnals            c Smith            b Titmus              19  64      2 0
+SF Burke              not out                                  10  32      0 0
+Extras                (b 5, lb 11, w 1, nb 12)                 29
+Total                 (7 wickets dec, 179.2 overs)            501
+
+DNB: PM Pollock, HD Bromfield, GG Hall.
+
+FoW: 1-80 (Goddard), 2-252 (Barlow), 3-313 (RG Pollock),
+     4-430 (Pithey), 5-439 (Lindsay), 6-470 (Bland),
+     7-501 (Varnals).
+
+Bowling                      O      M      R      W
+Price                       34      6    133      0
+Thomson                     45     19     89      2
+Titmus                      50.2   11    133      2
+Dexter                       2      0     10      0
+Allen                       40     14     79      2
+Parfitt                      8      0     28      0
+
+England 1st innings                                             R   M   B  4 6
+G Boycott             c Barlow           b Bromfield           15 135      2 0
+RW Barber             lbw                b Goddard             58 159      6 0
+ER Dexter                            c & b Bromfield           61 229      8 0
+KF Barrington         c Lindsay          b PM Pollock          49 147      6 0
+PH Parfitt                               b Hall                44 117      6 0
+*MJK Smith            c Goddard          b Bromfield          121 320     12 1
++JM Parks             c Lindsay          b Barlow              59 137      7 1
+FJ Titmus             c Lindsay          b PM Pollock           4  23      0 0
+DA Allen              c Barlow           b Bromfield           22  76      4 0
+NI Thomson            c RG Pollock       b Bromfield            0   9      0 0
+JSE Price             not out                                   0  13      0 0
+Extras                (b 2, lb 5, nb 2)                         9
+Total                 (all out, 205.2 overs)                  442
+
+FoW: 1-72 (Boycott), 2-80 (Barber), 3-170 (Barrington),
+     4-206 (Dexter), 5-243 (Parfitt), 6-360 (Parks),
+     7-368 (Titmus), 8-438 (Allen), 9-440 (Thomson),
+     10-442 (Smith).
+
+Bowling                      O      M      R      W
+PM Pollock                  39     14     89      2
+Burke                       29      8     61      0
+Bromfield                   57.2   26     88      5
+Hall                        31      7     94      1
+Goddard                     37     13     64      1
+Barlow                      12      3     37      1
+
+South Africa 2nd innings                                        R   M   B  4 6
+*TL Goddard           c Parfitt          b Price                6  20      0 0
+EJ Barlow             c Parks            b Dexter              78 209     10 0
+AJ Pithey             c Parks            b Thomson              2   6      0 0
+GD Varnals            c Smith            b Parfitt             20 116      1 0
+RG Pollock                               b Boycott             73 126     11 0
+KC Bland                                 b Boycott             64  84      6 3
++DT Lindsay                              b Barrington          50 106      7 0
+SF Burke              c Barber           b Boycott             20  52      1 1
+PM Pollock            lbw                b Barrington           7  37      0 0
+HD Bromfield          not out                                  12  12      3 0
+GG Hall                                  b Barrington           0   5      0 0
+Extras                (b 1, lb 9, w 1, nb 3)                   14
+Total                 (all out, 119.1 overs)                  346
+
+FoW: 1-10 (Goddard), 2-13 (Pithey), 3-86 (Varnals),
+     4-144 (Barlow), 5-231 (RG Pollock), 6-256 (Bland),
+     7-310 (Burke), 8-331 (Lindsay), 9-334 (PM Pollock),
+     10-346 (Hall).
+
+Bowling                      O      M      R      W
+Price                       11      4     19      1
+Thomson                     14      4     31      1
+Allen                       17      6     27      0
+Barber                       1      0      2      0
+Titmus                       6      2     21      0
+Parfitt                     19      4     74      1
+Dexter                      17      3     64      1
+Boycott                     20      5     47      3
+Smith                       11      1     43      0
+Barrington                   3.1    1      4      3
+
+England 2nd innings (target: 406 runs)                          R   M   B  4 6
+G Boycott             not out                                   1  20  17  0 0
+KF Barrington         not out                                  14  20  31  1 0
+Extras                                                          0
+Total                 (0 wickets, 8 overs)                     15
+
+DNB: RW Barber, ER Dexter, PH Parfitt, *MJK Smith, +JM Parks,
+     FJ Titmus, DA Allen, NI Thomson, JSE Price.
+
+Bowling                      O      M      R      W
+Bland                        2      0      3      0
+RG Pollock                   2      1      5      0
+Pithey                       2      0      5      0
+Varnals                      2      1      2      0
+
+<END>

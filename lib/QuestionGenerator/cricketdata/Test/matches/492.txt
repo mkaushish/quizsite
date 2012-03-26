@@ -1,0 +1,129 @@
+
+Test # 492
+South Africa in England, 1960, 1st Test
+England v South Africa
+Edgbaston, Birmingham
+9,10,11,13,14 June 1960 (5-day match)
+
+Result: England won by 100 runs
+Series: England leads the 5-match series 1-0
+
+Toss: England
+Umpires: JG Langridge and WE Phillipson
+Test debuts: RW Barber, PM Walker (England); JP Fellows-Smith, GM Griffin,
+ S O'Linn (South Africa).
+
+Close of play:
+ Day 1: England 175/3 (Subba Row 32*, Smith 42*)
+ Day 2: England 292, South Africa 114/5 (Waite 42*, O'Linn 18*)
+ Day 3: South Africa 186, England 89/4 (Smith 18*, Illingworth 6*)
+ Day 4: England 203, South Africa 120/3 (McLean 68*, Waite 21*)
+
+England 1st innings                                             R   M   B  4 6
+G Pullar              c McLean           b Goddard             37 152 141    0
+*MC Cowdrey           c Waite            b Adcock               3  30  50  0 0
+ER Dexter                                b Tayfield            52 150 141  8 0
+R Subba Row           c Waite            b Griffin             56 240 212    0
+MJK Smith             c Waite            b Adcock              54 155 144  5 0
++JM Parks             c Waite            b Adcock              35 115 103    0
+R Illingworth                            b Tayfield             1          0 0
+RW Barber             lbw                b Adcock               5            0
+PM Walker             c Goddard          b Adcock               9            0
+FS Trueman                               b Tayfield            11            0
+JB Statham            not out                                  14            0
+Extras                (b 4, lb 9, nb 2)                        15
+Total                 (all out, 150.5 overs)                  292
+
+FoW: 1-19 (Cowdrey), 2-80 (Pullar), 3-100 (Dexter),
+     4-196 (Smith), 5-225 (Subba Row), 6-234 (Illingworth),
+     7-255 (Barber), 8-262 (Parks), 9-275 (Trueman),
+     10-292 (Walker).
+
+Bowling                      O      M      R      W
+Adcock                      41.5   14     62      5
+Griffin                     21      3     61      1
+Goddard                     33     17     47      1
+Tayfield                    50     19     93      3
+Fellows-Smith                5      1     14      0
+
+South Africa 1st innings                                        R   M   B  4 6
+*DJ McGlew            c Parks            b Trueman             11            0
+TL Goddard            c Smith            b Statham             10            0
+AJ Pithey             lbw                b Statham              6            0
+RA McLean             c Statham          b Trueman             21            0
++JHB Waite                               b Illingworth         58 210      5 0
+PR Carlstein          lbw                b Trueman              4            0
+S O'Linn              c Cowdrey          b Illingworth         42 120        0
+JP Fellows-Smith      lbw                b Illingworth         18            0
+GM Griffin                               b Trueman              6            0
+HJ Tayfield           run out                                   6            0
+NAT Adcock            not out                                   1          0 0
+Extras                (b 2, nb 1)                               3
+Total                 (all out, 82.5 overs)                   186
+
+FoW: 1-11 (Goddard), 2-21 (McGlew), 3-40 (Pithey), 4-52 (McLean),
+     5-61 (Carlstein), 6-146 (O'Linn), 7-168 (Waite),
+     8-179 (Fellows-Smith), 9-179 (Griffin), 10-186 (Tayfield).
+
+Bowling                      O      M      R      W
+Statham                     28      8     67      2
+Trueman                     24.5    4     58      4
+Dexter                       1      0      4      0
+Barber                       6      0     26      0
+Illingworth                 17     11     15      3
+Walker                       6      1     13      0
+
+England 2nd innings                                             R   M   B  4 6
+*MC Cowdrey                              b Adcock               0          0 0
+R Subba Row           c Waite            b Tayfield            32            0
+ER Dexter                                b Adcock              26          4 0
+MJK Smith             c O'Linn           b Tayfield            28 150        0
++JM Parks                                b Griffin              4            0
+R Illingworth         c Waite            b Adcock              16            0
+RW Barber             c McLean           b Tayfield             4            0
+PM Walker             c Goddard          b Griffin             37          6 0
+FS Trueman                               b Tayfield            25            1
+JB Statham            c McLean           b Griffin             22            0
+G Pullar              not out                                   1          0 0
+Extras                (b 2, lb 4, nb 2)                         8
+Total                 (all out, 86 overs)                     203
+
+FoW: 1-0 (Cowdrey), 2-42 (Dexter), 3-69 (Subba Row),
+     4-74 (Parks), 5-112 (Illingworth), 6-112 (Smith),
+     7-118 (Barber), 8-163 (Trueman), 9-202 (Walker),
+     10-203 (Statham).
+
+Bowling                      O      M      R      W
+Adcock                      28      8     57      3
+Griffin                     21      4     44      3
+Goddard                     10      5     32      0
+Tayfield                    27     12     62      4
+
+South Africa 2nd innings (target: 310 runs)                     R   M   B  4 6
+*DJ McGlew            c Parks            b Statham              5            0
+TL Goddard            c Walker           b Statham              0          0 0
+AJ Pithey                                b Illingworth         17  90        0
+RA McLean             lbw                b Trueman             68 150     12 0
++JHB Waite            not out                                  56 180        0
+PR Carlstein                             b Trueman             10            0
+S O'Linn              lbw                b Barber              12            0
+JP Fellows-Smith      lbw                b Illingworth          5            0
+HJ Tayfield                              b Illingworth          3          0 0
+GM Griffin            c Walker           b Trueman             14            1
+NAT Adcock                               b Statham              7          1 0
+Extras                (b 7, lb 5)                              12
+Total                 (all out, 84 overs)                     209
+
+FoW: 1-4 (Goddard), 2-5 (McGlew), 3-58 (Pithey), 4-120 (McLean),
+     5-132 (Carlstein), 6-156 (O'Linn), 7-161 (Fellows-Smith),
+     8-167 (Tayfield), 9-200 (Griffin), 10-209 (Adcock).
+
+Bowling                      O      M      R      W
+Statham                     18      5     41      3
+Trueman                     22      4     58      3
+Dexter                       6      4      4      0
+Barber                      10      2     29      1
+Illingworth                 24      6     57      3
+Walker                       4      2      8      0
+
+<END>

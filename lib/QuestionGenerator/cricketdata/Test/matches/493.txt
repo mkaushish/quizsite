@@ -1,0 +1,97 @@
+
+Test # 493
+South Africa in England, 1960, 2nd Test
+England v South Africa
+Lord's, London
+23,24,25,27 June 1960 (5-day match)
+
+Result: England won by an innings and 73 runs
+Series: England leads the 5-match series 2-0
+
+Toss: England
+Umpires: JS Buller and FS Lee
+Test debut: C Wesley (South Africa).
+
+Close of play:
+ Day 1: England 114/2 (Subba Row 36*, Barrington 5*)
+ Day 2: England 362/8 (Illingworth 0*, Statham 2*)
+ Day 3: England 362/8d, South Africa 152, South Africa 34/1 (Goddard 11*, O'Linn 6*)
+
+England 1st innings                                             R   M   B  4 6
+*MC Cowdrey           c McLean           b Griffin              4            0
+R Subba Row           lbw                b Adcock              90 298      5 0
+ER Dexter             c McLean           b Adcock              56 125      7 0
+KF Barrington         lbw                b Goddard             24  77        0
+MJK Smith             c Waite            b Griffin             99 243     10 1
++JM Parks             c Fellows-Smith    b Adcock               3          0 0
+PM Walker                                b Griffin             52 144      5 2
+R Illingworth         not out                                   0          0 0
+FS Trueman                               b Griffin              0   1   1  0 0
+JB Statham            not out                                   2          0 0
+Extras                (b 6, lb 14, w 1, nb 11)                 32
+Total                 (8 wickets dec, 129 overs)              362
+
+DNB: AE Moss.
+
+FoW: 1-7 (Cowdrey), 2-103 (Dexter), 3-165 (Barrington),
+     4-220 (Subba Row), 5-227 (Parks), 6-347 (Smith),
+     7-360 (Walker), 8-360 (Trueman).
+
+Bowling                      O      M      R      W
+Adcock                      36     11     70      3
+Griffin                     30      7     87      4
+Goddard                     31      6     96      1
+Tayfield                    27      9     64      0
+Fellows-Smith                5      0     13      0
+
+South Africa 1st innings                                        R   M   B  4 6
+*DJ McGlew            lbw                b Statham             15  60        0
+TL Goddard                               b Statham             19  35        0
+S O'Linn              c Walker           b Moss                18            0
+RA McLean             c Cowdrey          b Statham             15            0
++JHB Waite            c Parks            b Statham              3          0 0
+PR Carlstein          c Cowdrey          b Moss                12            0
+C Wesley              c Parks            b Statham             11            0
+JP Fellows-Smith      c Parks            b Moss                29            0
+HJ Tayfield           c Smith            b Moss                12            0
+GM Griffin                               b Statham              5            0
+NAT Adcock            not out                                   8            0
+Extras                (lb 4, nb 1)                              5
+Total                 (all out, 43.3 overs)                   152
+
+FoW: 1-33 (Goddard), 2-48 (McGlew), 3-56 (O'Linn), 4-69 (Waite),
+     5-78 (McLean), 6-88 (Carlstein), 7-112 (Wesley),
+     8-132 (Fellows-Smith), 9-138 (Griffin), 10-152 (Tayfield).
+
+Bowling                      O      M      R      W
+Statham                     20      5     63      6
+Trueman                     13      2     49      0
+Moss                        10.3    0     35      4
+
+South Africa 2nd innings (following on)                         R   M   B  4 6
+*DJ McGlew                               b Statham             17            0
+TL Goddard            c Parks            b Statham             24            0
+S O'Linn              lbw                b Trueman              8            0
+RA McLean             c Parks            b Trueman             13  60        0
++JHB Waite            lbw                b Statham              0          0 0
+PR Carlstein          c Parks            b Moss                 6            0
+C Wesley                                 b Dexter              35            0
+JP Fellows-Smith      not out                                  27            0
+HJ Tayfield                              b Dexter               4            0
+GM Griffin                               b Statham              0          0 0
+NAT Adcock                               b Statham              2          0 0
+Extras                (nb 1)                                    1
+Total                 (all out, 57 overs)                     137
+
+FoW: 1-26 (McGlew), 2-49 (Goddard), 3-49 (O'Linn), 4-50 (Waite),
+     5-63 (Carlstein), 6-72 (McLean), 7-126 (Wesley),
+     8-132 (Tayfield), 9-133 (Griffin), 10-137 (Adcock).
+
+Bowling                      O      M      R      W
+Statham                     21      6     34      5
+Trueman                     17      5     44      2
+Moss                        14      1     41      1
+Illingworth                  1      1      0      0
+Dexter                       4      0     17      2
+
+<END>

@@ -9,7 +9,8 @@ class ApplicationController < ActionController::Base
   include SessionsHelper
   include ApplicationHelper
 
-  @@all_probs = [Chapter1, Chapter2, Chapter3, Chapter6, Chapter7].map { |chap| chap::PROBLEMS }.flatten
+  @@all_chapters = [Chapter1, Chapter2, Chapter3, Chapter6, Chapter7]
+  @@all_probs = @@all_chapters.map { |chap| chap::PROBLEMS }.flatten
 
   def get_probs
     return [] if session[:problems].nil?
@@ -25,6 +26,10 @@ class ApplicationController < ActionController::Base
 
   def all_probs
     @@all_probs
+  end
+
+  def all_chapters
+    @@all_chapters
   end
 
   # TODO make a global hash instead of using Marshal for every request...

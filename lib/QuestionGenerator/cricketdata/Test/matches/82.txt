@@ -1,0 +1,119 @@
+
+Test # 82
+The Ashes, 1903/04, 5th Test
+Australia v England
+Melbourne Cricket Ground
+5,7,8 March 1904 (timeless match)
+
+Result: Australia won by 218 runs
+Series: England wins the 5-match series 3-2
+
+Toss: Australia
+Umpires: P Argall and RM Crockett
+Test debut: DRA Gehrs (Australia).
+
+Close of play:
+ Day 1: Australia 247, England 4/2 (Rhodes 3*, Warner 1*)
+ Day 2: England 61, Australia 13/3 (Kelly 4*)
+
+Australia 1st innings                                           R   M   B  4 6
+RA Duff                                  b Braund               9  10      0 0
+VT Trumper                           c & b Braund              88 110     11 0
+C Hill                c Braund           b Rhodes              16  33      1 0
+*MA Noble             c Foster           b Arnold              29  80      2 0
+PA McAlister          st Lilley          b Braund              36  75      3 0
+DRA Gehrs                            c & b Braund               3  20      0 0
+AJY Hopkins           c Knight           b Braund              32  50      4 2
+CE McLeod             c Rhodes           b Braund               8  17      0 0
+H Trumble             c Foster           b Braund               6  23      1 0
++JJ Kelly             not out                                   6  20      1 0
+A Cotter                                 b Braund               6   5      0 0
+Extras                (b 4, lb 4)                               8
+Total                 (all out, 82.1 overs)                   247
+
+FoW: 1-13 (Duff), 2-67 (Hill), 3-142 (Trumper), 4-144 (Noble),
+     5-159 (Gehrs), 6-218 (McAlister), 7-221 (Hopkins),
+     8-231 (McLeod), 9-235 (Trumble), 10-247 (Cotter).
+
+Bowling                      O      M      R      W
+Hirst                       19      6     44      0
+Braund                      29.1    6     81      8
+Rhodes                      12      1     41      1
+Arnold                      18      4     46      1
+Bosanquet                    4      0     27      0
+
+England 1st innings                                             R   M   B  4 6
+TW Hayward                               b Noble                0   2   5  0 0
+W Rhodes              c Gehrs            b Cotter               3  15      0 0
+EG Arnold             c Kelly            b Noble                0   1   1  0 0
+*PF Warner            c McAlister        b Cotter               1  20      0 0
+JT Tyldesley          c Gehrs            b Noble               10  30      0 0
+RE Foster                                b Cotter              18  44      0 1
+GH Hirst              c Trumper          b Cotter               0   5      0 0
+LC Braund             c Hopkins          b Noble                5  35      0 0
+AE Knight                                b Cotter               0   4      0 0
+BJT Bosanquet         c Noble            b Cotter              16  25      2 0
++AFA Lilley           not out                                   6  14      1 0
+Extras                (b 1, nb 1)                               2
+Total                 (all out, 31.2 overs)                    61
+
+FoW: 1-0 (Hayward), 2-0 (Arnold), 3-4 (Rhodes), 4-5 (Warner),
+     5-23 (Tyldesley), 6-26 (Hirst), 7-36 (Foster),
+     8-36 (Knight), 9-48 (Braund), 10-61 (Bosanquet).
+
+Bowling                      O      M      R      W
+Noble                       15      8     19      4
+Cotter                      15.2    2     40      6
+McLeod                       1      1      0      0
+
+Australia 2nd innings                                           R   M   B  4 6
+PA McAlister          c Foster           b Arnold               9  10      1 0
+CE McLeod             c Bosanquet        b Braund               0  19      0 0
++JJ Kelly                            c & b Arnold              24  45      5 0
+A Cotter                                 b Hirst                0   5      0 0
+VT Trumper                               b Hirst                0   1      0 0
+C Hill                c Warner           b Hirst               16  40      2 0
+RA Duff               c Warner           b Rhodes              31  55      5 0
+*MA Noble             st Lilley          b Rhodes              19  24      2 0
+AJY Hopkins           not out                                  25  39      4 0
+DRA Gehrs                            c & b Hirst                5  16      1 0
+H Trumble             c Arnold           b Hirst                0   5      0 0
+Extras                (b 1, lb 3)                               4
+Total                 (all out, 43.5 overs)                   133
+
+FoW: 1-9 (McAlister), 2-9 (McLeod), 3-13 (Cotter),
+     4-13 (Trumper), 5-43 (Kelly), 6-49 (Hill), 7-92 (Noble),
+     8-115 (Duff), 9-133 (Gehrs), 10-133 (Trumble).
+
+Bowling                      O      M      R      W
+Hirst                       16.5    4     48      5
+Braund                       4      1      6      1
+Rhodes                      15      2     52      2
+Arnold                       8      3     23      2
+
+England 2nd innings (target: 320 runs)                          R   M   B  4 6
+LC Braund             c McAlister        b Cotter               0   1   1  0 0
+RE Foster             c Trumper          b Trumble             30  46      4 0
+JT Tyldesley          c Hopkins          b Cotter              15  23      2 0
+AE Knight             c Kelly            b Trumble              0  16      0 0
+*PF Warner                           c & b Trumble             11  25      1 0
+GH Hirst              c McAlister        b Trumble              1   7      0 0
+BJT Bosanquet         c Gehrs            b Trumble              4  15      0 0
+W Rhodes              not out                                  16  19      2 0
++AFA Lilley           lbw                b Trumble              0   1   1  0 0
+EG Arnold             c Duff             b Trumble             19  13      1 0
+TW Hayward            absent hurt                               -
+Extras                (b 1, lb 4)                               5
+Total                 (all out, 22.5 overs)                   101
+
+FoW: 1-0 (Braund), 2-24 (Tyldesley), 3-38 (Knight),
+     4-47 (Foster), 5-54 (Hirst), 6-61 (Bosanquet),
+     7-61 (Warner), 8-61 (Lilley), 9-101 (Arnold).
+
+Bowling                      O      M      R      W
+Noble                        6      2     19      0
+Cotter                       5      0     25      2
+McLeod                       5      0     24      0
+Trumble                      6.5    0     28      7
+
+<END>

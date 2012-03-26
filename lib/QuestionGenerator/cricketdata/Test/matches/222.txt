@@ -1,0 +1,129 @@
+
+Test # 222
+The Ashes, 1932/33, 3rd Test
+Australia v England
+Adelaide Oval
+13,14,16,17,18,19 January 1933 (timeless match)
+
+Result: England won by 338 runs
+Series: England leads the 5-match series 2-1
+
+Toss: England
+Umpires: GE Borwick and GA Hele
+
+Close of play:
+ Day 1: England 236/7 (Paynter 25*, Verity 5*)
+ Day 2: England 341, Australia 109/4 (Ponsford 45*, Richardson 21*)
+ Day 3: Australia 222, England 85/1 (Jardine 24*, Wyatt 47*)
+ Day 4: England 296/6 (Ames 18*)
+ Day 5: England 412, Australia 120/4 (Woodfull 36*, Richardson 0*)
+
+England 1st innings                                             R   M   B  4 6
+H Sutcliffe           c Wall             b O'Reilly             9  46  43  0 0
+*DR Jardine                              b Wall                 3  20  18  0 0
+WR Hammond            c Oldfield         b Wall                 2  15  15  0 0
++LEG Ames                                b Ironmonger           3  39  38  0 0
+M Leyland                                b O'Reilly            83 180 190 13 0
+RES Wyatt             c Richardson       b Grimmett            78 164 176  3 3
+E Paynter             c Fingleton        b Wall                77 185 216  9 0
+GOB Allen             lbw                b Grimmett            15  37  30  2 0
+H Verity              c Richardson       b Wall                45 154 147  2 0
+W Voce                                   b Wall                 8  14  13  1 0
+H Larwood             not out                                   3   3   4  0 0
+Extras                (b 1, lb 7, nb 7)                        15
+Total                 (all out, 146.1 overs)                  341
+
+FoW: 1-4 (Jardine), 2-16 (Hammond), 3-16 (Sutcliffe),
+     4-30 (Ames), 5-186 (Leyland), 6-196 (Wyatt), 7-228 (Allen),
+     8-324 (Paynter), 9-336 (Voce), 10-341 (Verity).
+
+Bowling                      O      M      R      W
+Wall                        34.1   10     72      5
+O'Reilly                    50     19     82      2
+Ironmonger                  20      6     50      1
+Grimmett                    28      6     94      2
+McCabe                      14      3     28      0
+
+Australia 1st innings                                           R   M   B  4 6
+JHW Fingleton         c Ames             b Allen                0   5   8  0 0
+*WM Woodfull                             b Allen               22  89  65  0 0
+DG Bradman            c Allen            b Larwood              8  18  17  1 0
+SJ McCabe             c Jardine          b Larwood              8  21  25  1 0
+WH Ponsford                              b Voce                85 216 213  8 0
+VY Richardson                            b Allen               28  95  81  1 0
++WAS Oldfield         retired hurt                             41 123 114  4 0
+CV Grimmett           c Voce             b Allen               10  29  24  1 0
+TW Wall                                  b Hammond              6  22  19  0 0
+WJ O'Reilly                              b Larwood              0   8   9  0 0
+H Ironmonger          not out                                   0   1   0  0 0
+Extras                (b 2, lb 11, nb 1)                       14
+Total                 (all out, 95.4 overs)                   222
+
+FoW: 1-1 (Fingleton), 2-18 (Bradman), 3-34 (McCabe),
+     4-51 (Woodfull), 5-131 (Richardson), 6-194 (Ponsford),
+     7-212 (Grimmett), 8-222 (O'Reilly), 9-222 (Wall).
+
+Bowling                      O      M      R      W
+Larwood                     25      6     55      3
+Allen                       23      4     71      4
+Hammond                     17.4    4     30      1
+Voce                        14      5     21      1
+Verity                      16      7     31      0
+
+England 2nd innings                                             R   M   B  4 6
+H Sutcliffe           c sub (LPJ O'Brien) b Wall                7  13  11  1 0
+*DR Jardine           lbw                b Ironmonger          56 254 266  2 0
+RES Wyatt             c Wall             b O'Reilly            49 133 138  4 0
+GOB Allen             lbw                b Grimmett            15  52  59  2 0
+WR Hammond                               b Bradman             85 221 247  8 0
+M Leyland             c Wall             b Ironmonger          42 108  93  5 0
++LEG Ames                                b O'Reilly            69 169 173  6 0
+H Verity              lbw                b O'Reilly            40 115 131  2 0
+H Larwood             c Bradman          b Ironmonger           8  14  12  1 0
+E Paynter             not out                                   1  17  15  0 0
+W Voce                                   b O'Reilly             8   7  10  0 0
+Extras                (b 17, lb 11, nb 4)                      32
+Total                 (all out, 191.3 overs)                  412
+
+FoW: 1-7 (Sutcliffe), 2-91 (Wyatt), 3-123 (Allen),
+     4-154 (Jardine), 5-245 (Leyland), 6-296 (Hammond),
+     7-394 (Ames), 8-395 (Verity), 9-403 (Larwood),
+     10-412 (Voce).
+
+Bowling                      O      M      R      W
+Wall                        29      6     75      1
+O'Reilly                    50.3   21     79      4
+Ironmonger                  57     21     87      3
+Grimmett                    35      9     74      1
+McCabe                      16      0     42      0
+Bradman                      4      0     23      1
+
+Australia 2nd innings (target: 532 runs)                        R   M   B  4 6
+JHW Fingleton                            b Larwood              0   8  14  0 0
+*WM Woodfull          not out                                  73 235 208  2 0
+WH Ponsford           c Jardine          b Larwood              3  13  11  0 0
+DG Bradman                           c & b Verity              66  73  71 10 1
+SJ McCabe             c Leyland          b Allen                7  21  19  1 0
+VY Richardson         c Allen            b Larwood             21  83  76  3 0
+CV Grimmett                              b Allen                6  10   8  1 0
+TW Wall                                  b Allen                0   1   4  0 0
+WJ O'Reilly                              b Larwood              5   3  10  1 0
+H Ironmonger                             b Allen                0   2   1  0 0
++WAS Oldfield         absent hurt                               -
+Extras                (b 4, lb 2, w 1, nb 5)                   12
+Total                 (all out, 69.2 overs)                   193
+
+FoW: 1-3 (Fingleton), 2-12 (Ponsford), 3-100 (Bradman),
+     4-116 (McCabe), 5-171 (Richardson), 6-183 (Grimmett),
+     7-183 (Wall), 8-192 (O'Reilly), 9-193 (Ironmonger).
+
+Bowling                      O      M      R      W
+Larwood                     19      3     71      4
+Allen                       17.2    5     50      4
+Hammond                      9      3     27      0
+Voce                         4      1      7      0
+Verity                      20     12     26      1
+
+*** WAS Oldfield retired hurt at 218/7
+
+<END>

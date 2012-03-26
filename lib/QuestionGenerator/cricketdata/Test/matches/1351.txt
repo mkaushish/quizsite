@@ -1,0 +1,150 @@
+
+Test # 1351
+England in New Zealand, 1996/97, 1st Test
+New Zealand v England
+Eden Park, Auckland
+24,25,26,27,28 January 1997 (5-day match)
+
+Result: Match drawn
+Series: 3-match series level 0-0
+
+Toss: England
+Umpires: SA Bucknor (WI) and RS Dunne
+TV umpire: DB Cowie
+Match referee: PJP Burge (Aus)
+Players of the match: NJ Astle and AJ Stewart
+
+Close of play:
+ Day 1: New Zealand 233/5 (Fleming 58*, Cairns 15*)
+ Day 2: New Zealand 390, England 123/1 (Atherton 48*, Stewart 67*)
+ Day 3: England 366/6 (Thorpe 57*, Cork 16*)
+ Day 4: England 521, New Zealand 56/3 (Parore 16*, Germon 4*)
+
+New Zealand 1st innings                                         R   M   B  4 6
+BA Young              lbw                b Mullally            44 141 119  5 0
+BA Pocock             lbw                b Gough               70 286 197  8 0
+AC Parore             c Stewart          b Cork                 6  48  28  1 0
+SP Fleming                           c & b Cork               129 368 254 18 1
+NJ Astle              c Stewart          b White               10  27  25  2 0
+JTC Vaughan           lbw                b Cork                 3  25  21  0 0
+CL Cairns             c Stewart          b White               67 140 113  7 2
+*+LK Germon           c Stewart          b Gough               14  40  26  1 1
+DN Patel              lbw                b Gough                0   1   1  0 0
+SB Doull              c Knight           b Gough                5  16  10  1 0
+DK Morrison           not out                                   6  17  15  0 0
+Extras                (b 5, lb 12, w 2, nb 17)                 36
+Total                 (all out, 131.5 overs, 560 mins)        390
+
+FoW: 1-85 (Young), 2-114 (Parore), 3-193 (Pocock), 4-210 (Astle),
+     5-215 (Vaughan), 6-333 (Cairns), 7-362 (Germon),
+     8-362 (Patel), 9-380 (Doull), 10-390 (Fleming).
+
+Bowling                      O      M      R      W
+Cork                        32.5    8     96      3 (4nb)
+Mullally                    27     11     55      1 (4nb, 2w)
+Gough                       32      5     91      4 (6nb)
+Tufnell                     25      5     80      0
+White                       15      3     51      2 (4nb)
+
+England 1st innings                                             R   M   B  4 6
+NV Knight             lbw                b Doull                5  31  28  1 0
+*MA Atherton                         c & b Patel               83 273 213 11 0
++AJ Stewart                          c & b Doull              173 362 277 23 1
+N Hussain             c Fleming          b Patel                8  25  22  1 0
+GP Thorpe             hit wicket         b Cairns             119 341 245 17 0
+JP Crawley            run out (Doull)                          14  61  43  1 0
+C White               lbw                b Vaughan              0   1   1  0 0
+DG Cork               c Young            b Morrison            59 236 192  6 1
+D Gough               c Germon           b Morrison             2  29  19  0 0
+AD Mullally           c Germon           b Morrison            21  83  40  2 0
+PCR Tufnell           not out                                  19  55  49  2 0
+Extras                (b 2, lb 12, w 2, nb 2)                  18
+Total                 (all out, 187.4 overs, 753 mins)        521
+
+FoW: 1-18 (Knight), 2-200 (Atherton), 3-222 (Hussain),
+     4-304 (Stewart), 5-339 (Crawley), 6-339 (White),
+     7-453 (Thorpe), 8-471 (Gough), 9-478 (Cork),
+     10-521 (Mullally).
+
+Bowling                      O      M      R      W
+Morrison                    24.4    4    104      3 (3nb)
+Doull                       39     10    118      2 (1w)
+Cairns                      30      3    103      1 (1w)
+Astle                       14      3     33      0
+Vaughan                     36     10     57      1
+Patel                       44     10     92      2
+
+New Zealand 2nd innings                                         R   M   B  4 6
+BA Pocock             lbw                b Gough               20  74  62  2 0
+BA Young              c Hussain          b Cork                 3  35  24  0 0
+AC Parore             st Stewart         b Tufnell             33 138 106  4 0
+SP Fleming            c Crawley          b Tufnell              9  36  31  0 0
+*+LK Germon           run out (Hussain)                        13  53  36  3 0
+NJ Astle              not out                                 102 279 214 13 0
+JTC Vaughan           lbw                b Tufnell              2  16  10  0 0
+CL Cairns                                b Mullally             7  24  23  1 0
+DN Patel              lbw                b Mullally             0  23  15  0 0
+SB Doull                                 b Gough               26  37  40  4 0
+DK Morrison           not out                                  14 166 133  0 0
+Extras                (lb 11, nb 8)                            19
+Total                 (9 wickets dec, 114 overs, 445 mins)    248
+
+FoW: 1-17 (Young), 2-28 (Pocock), 3-47 (Fleming), 4-88 (Germon),
+     5-90 (Parore), 6-92 (Vaughan), 7-101 (Cairns),
+     8-105 (Patel), 9-142 (Doull).
+
+Bowling                      O      M      R      W
+Cork                        16      3     45      1 (1nb)
+Mullally                    26     11     47      2 (3nb)
+White                       10      2     26      0 (1nb)
+Gough                       22      3     66      2 (4nb)
+Tufnell                     40     18     53      3 (2nb)
+
+*** Day 1
+*** Lunch: NZ 72/0 (Young 37*, Pocock 25*)
+*** Tea: NZ 154/2 (Pocock 54*, Fleming 25*)
+*** New ball taken by England after 80.2 overs.
+*** CL Cairns dropped by D Gough off the bowling of AD Mullally with his
+    score on 5 and the New Zealand total at 220/5 after 84.1 overs.
+*** BA Pocock 50 off 160 balls, in 229 mins.
+*** SP Fleming 50 off 89 balls, in 106 mins.
+
+*** Day 2
+*** Lunch: NZ 338/6 (Fleming 105*, Germon 2*)
+*** Tea: Eng 39/1 (Atherton 18*, Stewart 13*)
+*** CL Cairns 50 off 88 balls, in 117 mins
+*** SP Fleming 100 off 198 balls, in 276 mins.
+*** AJ Stewart 50 off 57 balls, in 79 mins.
+*** Stumps pulled 21 minutes early due to bad light.
+
+*** Day 3
+*** Lunch: Eng 193/1 (Atherton 79*, Stewart 104*)
+*** Tea: Eng 285/3 (Stewart 165*, Thorpe 18*)
+*** AJ Stewart 100 off 161 balls, 215 mins, 14x4 1x6, 10th Test 100, 4th
+    against New Zealand.
+*** AJ Stewart 150 off 254 balls, in 329 mins, 20x4, 1x6.
+*** GP Thorpe 50 off 118 balls, in 177 mins.
+*** New ball taken by New Zealand after 88.2 overs.
+*** AJ Stewart 173 is the highest score in Tests by an England wicketkeeper
+    and 6th equal highest in Test history.
+
+*** Day 4
+*** Lunch: Eng 448/6 (Thorpe 117*, Cork 38*)
+*** Tea: Eng 521 (Tufnell 19*)
+*** 2nd new ball taken by New Zealand after 182 overs.
+
+*** Day 5
+*** Lunch: NZ 105/8 (Astle 7*, Doull 0*)
+*** Tea: NZ 207/9 (Astle 65*, Morrison 13*)
+*** New ball taken by England after 81.2 overs.
+*** Record 10th wicket partnership of 106* between NJ Astle and DK Morrison
+    for New Zealand and England (previous best: 57 by FLH Mooney and J Cowie
+    at Leeds in 1949). 13th century partnership for the 10th wicket in Test
+    history. Last one: CL Hooper and CA Walsh 106 for West Indies v Pakistan
+    at Antigua in 1992-93. Best ever: BF Hastings and RO Collinge 151 for New
+    Zealand v Pakistan at Auckland, 1972-73. 3rd ever 100 partnership for the
+    10th wicket by New Zealand.
+*** Play finished at 4:55pm
+*** Man of the match adjudicator: Sir RJ Hadlee
+
+<END>

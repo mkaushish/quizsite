@@ -1,0 +1,130 @@
+
+Test # 169
+England in South Africa, 1927/28, 2nd Test
+South Africa v England
+Newlands, Cape Town
+31 December 1927, 2,3,4 January 1928 (4-day match)
+
+Result: England won by 87 runs
+Series: England leads the 5-match series 2-0
+
+Toss: South Africa
+Umpires: HV Adams and GB Treadwell
+Test debuts: GF Bissett, AW Palm (South Africa).
+
+Close of play:
+ Day 1: England 133, South Africa 128/4 (Morkel 17*)
+ Day 2: South Africa 250, England 220/1 (Sutcliffe 92*, Tyldesley 24*)
+ Day 3: England 412/8 (Wyatt 76*, Peebles 6*)
+
+England 1st innings                                             R   M   B  4 6
+P Holmes                                 b Bissett              9            0
+H Sutcliffe           c Nupen            b Bissett             29            0
+GE Tyldesley                             b Bissett              0          0 0
+WR Hammond            lbw                b Morkel              43            0
+GTS Stevens           c Cameron          b Bissett              0          0 0
+RES Wyatt             lbw                b Bissett              2          0 0
+WE Astill             lbw                b Vincent             25            0
+*+RT Stanyforth                          b Vincent              4            0
+G Geary               lbw                b Vincent              0          0 0
+IAR Peebles           not out                                   3          0 0
+AP Freeman            st Cameron         b Vincent              7            0
+Extras                (b 5, lb 1, nb 5)                        11
+Total                 (all out, 59.1 overs)                   133
+
+FoW: 1-14 (Holmes), 2-14 (Tyldesley), 3-50 (Sutcliffe),
+     4-59 (Stevens), 5-66 (Wyatt), 6-97 (Hammond),
+     7-106 (Stanyforth), 8-106 (Geary), 9-123 (Astill),
+     10-133 (Freeman).
+
+Bowling                      O      M      R      W
+Bissett                     17      5     37      5
+Morkel                       9      3     20      1
+Vincent                     15.1    4     22      4
+Nupen                        3      0     10      0
+Promnitz                    15      5     33      0
+
+South Africa 1st innings                                        R   M   B  4 6
+HW Taylor             hit wicket         b Freeman             68            0
+JMM Commaille         lbw                b Freeman             13            0
++HB Cameron           c Geary            b Stevens             19            0
+RH Catterall                             b Hammond              9            0
+DPB Morkel                               b Freeman             36            0
+AW Palm               c Stevens          b Freeman              2          0 0
+*HG Deane             c Stanyforth       b Hammond             41            0
+CL Vincent                               b Astill              13            0
+EP Nupen              not out                                  39            0
+GF Bissett                               b Hammond              3          0 0
+HLE Promnitz          run out                                   3          0 0
+Extras                (b 2, lb 2)                               4
+Total                 (all out, 101 overs)                    250
+
+FoW: 1-32 (Commaille), 2-72 (Cameron), 3-99 (Catterall),
+     4-128 (Taylor), 5-140 (Palm), 6-153 (Morkel),
+     7-197 (Vincent), 8-211 (Deane), 9-221 (Bissett),
+     10-250 (Promnitz).
+
+Bowling                      O      M      R      W
+Geary                       23      2     50      0
+Hammond                     17      4     53      3
+Freeman                     29     12     58      4
+Peebles                     14      3     27      0
+Stevens                     10      1     26      1
+Astill                       8      0     32      1
+
+England 2nd innings                                             R   M   B  4 6
+P Holmes              c Vincent          b Nupen               88            0
+H Sutcliffe                              b Bissett             99            0
+GE Tyldesley          lbw                b Promnitz            87            0
+WR Hammond            c Palm             b Promnitz            14            0
+GTS Stevens           c Morkel           b Bissett              2          0 0
+RES Wyatt             c Promnitz         b Bissett             91            0
+WE Astill             c Cameron          b Vincent              9            0
+*+RT Stanyforth                          b Vincent              1          0 0
+G Geary                                  b Vincent              1          0 0
+IAR Peebles           c Vincent          b Promnitz             6            0
+AP Freeman            not out                                   0          0 0
+Extras                (b 19, lb 5, nb 6)                       30
+Total                 (all out, 158.5 overs)                  428
+
+FoW: 1-140 (Holmes), 2-233 (Sutcliffe), 3-278 (Hammond),
+     4-282 (Stevens), 5-326 (Tyldesley), 6-348 (Astill),
+     7-350 (Stanyforth), 8-360 (Geary), 9-415 (Peebles),
+     10-428 (Wyatt).
+
+Bowling                      O      M      R      W
+Bissett                     31.5    5     99      3
+Morkel                      21      4     60      0
+Vincent                     40     10     93      3
+Nupen                       36      8     90      1
+Promnitz                    30     10     56      3
+
+South Africa 2nd innings (target: 312 runs)                     R   M   B  4 6
+HW Taylor             run out                                  71            0
+JMM Commaille         c Astill           b Hammond             47            0
++HB Cameron                              b Hammond             19            0
+RH Catterall          lbw                b Astill              10            0
+DPB Morkel            c Holmes           b Astill              23            0
+*HG Deane             c Hammond          b Freeman              4            0
+AW Palm               c Hammond          b Freeman             13            0
+CL Vincent            c Hammond          b Freeman             11            0
+EP Nupen                                 b Astill               1          0 0
+GF Bissett            not out                                  11            0
+HLE Promnitz                             b Peebles              2          0 0
+Extras                (b 6, lb 4, nb 2)                        12
+Total                 (all out, 101.1 overs)                  224
+
+FoW: 1-115 (Commaille), 2-126 (Taylor), 3-147 (Cameron),
+     4-161 (Catterall), 5-166 (Deane), 6-190 (Palm),
+     7-197 (Morkel), 8-206 (Nupen), 9-210 (Vincent),
+     10-224 (Promnitz).
+
+Bowling                      O      M      R      W
+Hammond                     30     13     50      2
+Freeman                     22      7     66      3
+Peebles                     12.1    4     26      1
+Stevens                      5      0     17      0
+Astill                      29     11     48      3
+Wyatt                        3      0      5      0
+
+<END>

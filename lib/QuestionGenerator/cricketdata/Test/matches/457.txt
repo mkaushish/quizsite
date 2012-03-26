@@ -1,0 +1,103 @@
+
+Test # 457
+New Zealand in England, 1958, 4th Test
+England v New Zealand
+Old Trafford, Manchester
+24,25,26,28,29 July 1958 (5-day match)
+
+Result: England won by an innings and 13 runs
+Series: England leads the 5-match series 4-0
+
+Toss: New Zealand
+Umpires: DE Davies and WE Phillipson
+Test debuts: ER Dexter, R Illingworth, R Subba Row (England).
+
+Close of play:
+ Day 1: New Zealand 220/6 (Sparling 45*, Petrie 32*)
+ Day 2: New Zealand 267, England 192/2 (Graveney 25*, May 10*)
+ Day 3: England 206/3 (May 23*, Subba Row 1*)
+ Day 4: England 365/9d, New Zealand 30/0 (Sutcliffe 28*, D'Arcy 2*)
+
+New Zealand 1st innings                                         R   M   B  4 6
+B Sutcliffe                              b Statham             41 115        0
+JW D'Arcy             lbw                b Trueman              1  25      0 0
+NS Harford            lbw                b Statham              2          0 0
+*JR Reid              c Trueman          b Lock                14            0
+WR Playle             lbw                b Illingworth         15  85        0
+AR MacGibbon          c Evans            b Statham             66 157      9 0
+JT Sparling           c Evans            b Statham             50 175        0
++EC Petrie            retired hurt                             45 150        0
+AM Moir               not out                                  21            0
+JA Hayes                                 b Trueman              4            0
+RW Blair                                 b Trueman              2          0 0
+Extras                (b 4, lb 2)                               6
+Total                 (all out, 128.5 overs)                  267
+
+FoW: 1-15 (D'Arcy), 2-22 (Harford), 3-62 (Sutcliffe),
+     4-62 (Reid), 5-117 (Playle), 6-166 (MacGibbon),
+     7-227 (Sparling), 8-257 (Hayes), 9-267 (Blair).
+
+Bowling                      O      M      R      W
+Trueman                     29.5    4     67      3
+Statham                     33     10     71      4
+Dexter                       5      0     23      0
+Lock                        33     12     61      1
+Illingworth                 28      9     39      1
+
+England 1st innings                                             R   M   B  4 6
+PE Richardson         st +Reid           b Sparling            74 150     10 0
+W Watson              c MacGibbon        b Moir                66 210      4 0
+TW Graveney           c sub (JC Alabaster) b MacGibbon         25            0
+*PBH May              c Playle           b MacGibbon          101 153      7 4
+R Subba Row           c Petrie           b Blair                9            0
+ER Dexter             lbw                b Reid                52  82      6 2
++TG Evans             c Blair            b Reid                 3          0 0
+R Illingworth         not out                                   3          0 0
+GAR Lock              lbw                b MacGibbon            7            0
+FS Trueman                               b Reid                 5            0
+Extras                (b 13, lb 4, w 1, nb 2)                  20
+Total                 (9 wickets dec, 129.3 overs)            365
+
+DNB: JB Statham.
+
+FoW: 1-126 (Richardson), 2-180 (Watson), 3-193 (Graveney),
+     4-248 (Subba Row), 5-330 (May), 6-337 (Evans),
+     7-351 (Dexter), 8-360 (Lock), 9-365 (Trueman).
+
+Bowling                      O      M      R      W
+Hayes                       19      4     51      0
+MacGibbon                   34      8     86      3
+Blair                       27      5     68      1
+Moir                        17      3     47      1
+Sparling                    21      7     46      1
+Reid                        11.3    2     47      3
+
+New Zealand 2nd innings                                         R   M   B  4 6
+B Sutcliffe                              b Statham             28            0
+JW D'Arcy             c Subba Row        b Lock                 8            0
+NS Harford                               b Illingworth          4  40        0
+*JR Reid              c Watson           b Lock                 8            0
+WR Playle             lbw                b Lock                 1          0 0
+AR MacGibbon          lbw                b Lock                 1          0 0
+JT Sparling                          c & b Lock                 2          0 0
++EC Petrie            c Statham          b Illingworth          9  50        0
+AM Moir               c Evans            b Lock                12  30        0
+JA Hayes              not out                                   5            0
+RW Blair                                 b Lock                 0          0 0
+Extras                (b 5, lb 2)                               7
+Total                 (all out, 52 overs)                      85
+
+FoW: 1-36 (Sutcliffe), 2-36 (D'Arcy), 3-46 (Reid),
+     4-49 (Harford), 5-49 (Playle), 6-51 (MacGibbon),
+     7-60 (Sparling), 8-78 (Moir), 9-80 (Petrie), 10-85 (Blair).
+
+Bowling                      O      M      R      W
+Trueman                      2      1     11      0
+Statham                      9      4     12      1
+Lock                        24     11     35      7
+Illingworth                 17      9     20      2
+
+*** EC Petrie retired hurt at 253/7 (edged a hook shot onto his left ear)
+*** JR Reid kept wicket on the 2nd and 3rd days
+
+<END>

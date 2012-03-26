@@ -1,0 +1,123 @@
+
+Test # 75
+Australia in South Africa, 1902/03, 1st Test
+South Africa v Australia
+Old Wanderers, Johannesburg
+11,13,14 October 1902 (3-day match)
+
+Result: Match drawn
+Series: 3-match series level 0-0
+
+Toss: South Africa
+Umpires: F Hearne and A Soames
+Test debuts: CMH Hathorn, AW Nourse, CJE Smith, HM Taberer, LJ Tancred,
+ G Thornton (South Africa).
+
+Close of play:
+ Day 1: South Africa 428/7 (Nourse 64*, Halliwell 44*)
+ Day 2: South Africa 454, Australia 296, Australia 76/2 (Hill 22*, Armstrong 0*)
+
+South Africa 1st innings                                        R   M   B  4 6
+WA Shalders                          c & b Jones               19            0
+LJ Tancred            c Duff             b Trumper             97            0
+CB Llewellyn                             b Trumper             90            0
+JH Sinclair                          c & b Hopkins             44            0
+CMH Hathorn           c Gregory          b Jones               45            0
+CJE Smith                                b Hopkins             13            0
+*HM Taberer                              b Hopkins              2          0 0
+AW Nourse             c Hopkins          b Noble               72            0
++EA Halliwell         c Darling          b Jones               57            0
+G Thornton            not out                                   1          0 0
+GA Rowe               c Jones            b Noble                4            0
+Extras                (b 5, lb 4, nb 1)                        10
+Total                 (all out, 95 overs)                     454
+
+FoW: 1-31 (Shalders), 2-204 (Llewellyn), 3-223 (Tancred),
+     4-296 (Sinclair), 5-304 (Hathorn), 6-306 (Taberer),
+     7-325 (Smith), 8-449 (Nourse), 9-449 (Halliwell),
+     10-454 (Rowe).
+
+Bowling                      O      M      R      W
+Jones                       21      5     78      3
+Armstrong                   13      3     88      0
+Trumble                     23      1    103      0
+Trumper                     12      0     62      2
+Hopkins                     12      1     59      3
+Noble                       14      2     54      2
+
+Australia 1st innings                                           R   M   B  4 6
+VT Trumper            c Rowe             b Llewellyn           63            0
+WW Armstrong                             b Sinclair            11            0
+C Hill                c Nourse           b Sinclair            76            0
+RA Duff               not out                                  82            0
+MA Noble                                 b Sinclair             1          0 0
+*J Darling            st Halliwell       b Sinclair             0          0 0
+SE Gregory            lbw                b Llewellyn            0          0 0
+AJY Hopkins           c Tancred          b Llewellyn            1          0 0
+H Trumble             c Thornton         b Llewellyn           13            0
++JJ Kelly             c Halliwell        b Llewellyn           25            0
+E Jones               c Sinclair         b Llewellyn            0          0 0
+Extras                (b 22, lb 2)                             24
+Total                 (all out, 51 overs)                     296
+
+FoW: 1-60 (Armstrong), 2-106 (Trumper), 3-195 (Hill),
+     4-196 (Noble), 5-196 (Darling), 6-199 (Gregory),
+     7-217 (Hopkins), 8-242 (Trumble), 9-296 (Kelly),
+     10-296 (Jones).
+
+Bowling                      O      M      R      W
+Rowe                         5      1     28      0
+Taberer                      4      1     23      0
+Llewellyn                   22      3     92      6
+Sinclair                    20      1    129      4
+
+Australia 2nd innings (following on)                            R   M   B  4 6
+VT Trumper                               b Taberer             37            0
+RA Duff               c Halliwell        b Rowe                15            0
+C Hill                               c & b Sinclair           142            1
+WW Armstrong          c Halliwell        b Thornton            59            0
+*J Darling                               b Llewellyn           14            0
+MA Noble              not out                                  53            1
+SE Gregory                               b Llewellyn            4            0
+AJY Hopkins           lbw                b Llewellyn           30            0
+H Trumble             not out                                   0          0 0
+Extras                (b 13, lb 5)                             18
+Total                 (7 wickets dec, 78 overs)               372
+
+DNB: +JJ Kelly, E Jones.
+
+FoW: 1-42 (Duff), 2-67 (Trumper), 3-231 (Armstrong),
+     4-277 (Darling), 5-281 (Hill), 6-297 (Gregory),
+     7-354 (Hopkins).
+
+Bowling                      O      M      R      W
+Rowe                        11      1     55      1
+Taberer                      6      1     25      1
+Llewellyn                   26      3    124      3
+Sinclair                    23      2    115      1
+Nourse                       8      2     15      0
+Thornton                     4      0     20      1
+
+South Africa 2nd innings (target: 215 runs)                     R   M   B  4 6
+WA Shalders           c Kelly            b Jones                0          0 0
+LJ Tancred                               b Armstrong           24            0
+CMH Hathorn           c Armstrong        b Noble               31            0
+JH Sinclair                              b Armstrong           19            1
+CJE Smith             not out                                  16            0
+CB Llewellyn          not out                                   4            0
+Extras                (b 4, lb 3)                               7
+Total                 (4 wickets, 32 overs)                   101
+
+DNB: *HM Taberer, AW Nourse, +EA Halliwell, G Thornton, GA Rowe.
+
+FoW: 1-5 (Shalders), 2-44 (Tancred), 3-74 (Sinclair),
+     4-90 (Hathorn).
+
+Bowling                      O      M      R      W
+Jones                        7      3     22      1
+Armstrong                    7      2     24      2
+Trumble                     11      3     24      0
+Hopkins                      2      0     17      0
+Noble                        5      1      7      1
+
+<END>

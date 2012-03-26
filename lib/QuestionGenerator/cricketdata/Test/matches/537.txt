@@ -1,0 +1,121 @@
+
+Test # 537
+The Ashes, 1962/63, 3rd Test
+Australia v England
+Sydney Cricket Ground
+11,12,14,15 January 1963 (5-day match)
+
+Result: Australia won by 8 wickets
+Series: 5-match series level 1-1
+
+Toss: England
+Umpires: LP Rowan and WJ Smyth
+Balls per over: 8
+Test debuts: CEJ Guest, BK Shepherd (Australia).
+
+Close of play:
+ Day 1: England 256/7 (Titmus 28*, Trueman 16*)
+ Day 2: England 279, Australia 212/5 (Shepherd 18*, Jarman 0*)
+ Day 3: Australia 319, England 86/6 (Parfitt 26*, Murray 0*)
+
+England 1st innings                                             R   M   B  4 6
+G Pullar              c Benaud           b Simpson             53 207 184  3 0
+Rev.DS Sheppard       c McKenzie         b Davidson             3  20  16  0 0
+*ER Dexter            c Lawry            b Benaud              32  82  71  2 0
+MC Cowdrey            c Jarman           b Simpson             85 159 155  8 0
+KF Barrington         lbw                b Davidson            35 103  75  3 0
+PH Parfitt            c Lawry            b Simpson              0   8   7  0 0
+FJ Titmus                                b Davidson            32 126 121  3 0
++JT Murray            lbw                b Davidson             0   1   1  0 0
+FS Trueman                               b Simpson             32  68  80  3 0
+JB Statham            c Benaud           b Simpson              0   1   1  0 0
+LJ Coldwell           not out                                   2  14   4  0 0
+Extras                (lb 3, w 2)                               5
+Total                 (all out, 86.5 overs)                   279
+
+FoW: 1-4 (Sheppard), 2-65 (Dexter), 3-132 (Pullar),
+     4-201 (Cowdrey), 5-203 (Parfitt), 6-221 (Barrington),
+     7-221 (Murray), 8-272 (Trueman), 9-272 (Statham),
+     10-279 (Titmus).
+
+Bowling                      O      M      R      W
+Davidson                    24.5    7     54      4
+McKenzie                    15      3     52      0
+Guest                       16      0     51      0
+Benaud                      16      2     60      1
+Simpson                     15      3     57      5
+
+Australia 1st innings                                           R   M   B  4 6
+WM Lawry              c Murray           b Coldwell             8  32  19  0 0
+RB Simpson                               b Titmus              91 242 228  6 0
+RN Harvey             c Barrington       b Titmus              64 197 170  2 0
+BC Booth              c Trueman          b Titmus              16  68  54  1 0
+NC O'Neill                               b Titmus               3  23  20  0 0
+BK Shepherd           not out                                  71 204 151  8 1
++BN Jarman            run out                                   0   9   8  0 0
+AK Davidson           c Trueman          b Titmus              15  63  61  2 0
+*R Benaud                            c & b Titmus              15  26  31  0 0
+GD McKenzie           lbw                b Titmus               4  10  17  0 0
+CEJ Guest                                b Statham             11  54  52  1 0
+Extras                (b 10, lb 11)                            21
+Total                 (all out, 101.2 overs)                  319
+
+FoW: 1-14 (Lawry), 2-174 (Harvey), 3-177 (Simpson),
+     4-187 (O'Neill), 5-212 (Booth), 6-216 (Jarman),
+     7-242 (Davidson), 8-274 (Benaud), 9-280 (McKenzie),
+     10-319 (Guest).
+
+Bowling                      O      M      R      W
+Trueman                     20      2     68      0
+Statham                     21.2    2     67      1
+Coldwell                    15      1     41      1
+Titmus                      37     14     79      7
+Barrington                   8      0     43      0
+
+England 2nd innings                                             R   M   B  4 6
+G Pullar                                 b Davidson             0   1   2  0 0
+Rev.DS Sheppard       c Simpson          b Davidson            12  33  13  1 0
+*ER Dexter            c Simpson          b Davidson            11  22  26  0 0
+MC Cowdrey            c Simpson          b Benaud               8  34  22  0 0
+KF Barrington                            b McKenzie            21  60  59  2 0
+PH Parfitt            c O'Neill          b McKenzie            28 143 156  3 0
+FJ Titmus             c Booth            b O'Neill              6  44  37  1 0
++JT Murray            not out                                   3 100 100  0 0
+FS Trueman            c Jarman           b McKenzie             9   8  11  2 0
+JB Statham                               b Davidson             2  20  23  0 0
+LJ Coldwell           c Shepherd         b Davidson             0   2   5  0 0
+Extras                (b 2, lb 2)                               4
+Total                 (all out, 56.6 overs)                   104
+
+FoW: 1-0 (Pullar), 2-20 (Dexter), 3-25 (Sheppard),
+     4-37 (Cowdrey), 5-53 (Barrington), 6-71 (Titmus),
+     7-90 (Parfitt), 8-100 (Trueman), 9-104 (Statham),
+     10-104 (Coldwell).
+
+Bowling                      O      M      R      W
+Davidson                    10.6    2     25      5
+McKenzie                    14      3     26      3
+Guest                        2      0      8      0
+Benaud                      19     10     29      1
+Simpson                      4      2      5      0
+O'Neill                      7      5      7      1
+
+Australia 2nd innings (target: 65 runs)                         R   M   B  4 6
+WM Lawry                                 b Trueman              8  29  16  0 0
+RB Simpson            not out                                  34  62  43  1 0
+RN Harvey             lbw                b Trueman             15  18  26  1 0
+BC Booth              not out                                   5  11  13  1 0
+Extras                (b 5)                                     5
+Total                 (2 wickets, 12.2 overs)                  67
+
+DNB: NC O'Neill, BK Shepherd, +BN Jarman, AK Davidson, *R Benaud,
+     GD McKenzie, CEJ Guest.
+
+FoW: 1-28 (Lawry), 2-54 (Harvey).
+
+Bowling                      O      M      R      W
+Trueman                      6      1     20      2
+Statham                      3      0     15      0
+Dexter                       3.2    0     27      0
+
+<END>

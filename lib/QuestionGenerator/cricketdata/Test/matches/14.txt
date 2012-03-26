@@ -1,0 +1,98 @@
+
+Test # 14
+The Ashes, 1884, 1st Test
+England v Australia
+Old Trafford, Manchester
+10,11,12 July 1884 (3-day match)
+
+Result: Match drawn
+Series: 3-match series level 0-0
+
+Toss: England
+Umpires: CK Pullin and J Rowbotham
+Balls per over: 4
+Test debuts: HJH Scott (Australia); TC O'Brien (England).
+
+Close of play:
+ Day 1: No play
+ Day 2: England 95, Australia 141/7 (Midwinter 29*, Palmer 0*)
+
+England 1st innings                                             R   M   B  4 6
+WG Grace              c Palmer           b Boyle                8            0
+*AN Hornby            st Blackham        b Boyle                0          0 0
+G Ulyett                                 b Spofforth            5            0
+A Shrewsbury snr                         b Boyle               43            0
+AG Steel              c Midwinter        b Spofforth           15            0
+AP Lucas              not out                                  15            0
+W Barnes                             c & b Boyle                0          0 0
+TC O'Brien                               b Spofforth            0          0 0
+RG Barlow             c Bonnor           b Boyle                6            0
++R Pilling            c Scott            b Boyle                0          0 0
+E Peate                                  b Spofforth            2          0 0
+Extras                (lb 1)                                    1
+Total                 (all out, 63 overs)                      95
+
+FoW: 1-6 (Hornby), 2-13 (Grace), 3-13 (Ulyett), 4-45 (Steel),
+     5-83 (Shrewsbury), 6-83 (Barnes), 7-84 (O'Brien),
+     8-93 (Barlow), 9-93 (Pilling), 10-95 (Peate).
+
+Bowling                      O      M      R      W
+Spofforth                   32     10     42      4
+Boyle                       25      9     42      6
+Palmer                       6      2     10      0
+
+Australia 1st innings                                           R   M   B  4 6
+PS McDonnell          c Pilling          b Steel               36            0
+AC Bannerman          lbw                b Ulyett               6            0
+*WL Murdoch           c Grace            b Peate               28            0
+G Giffen                             c & b Barnes              16            0
+WE Midwinter          c Grace            b Ulyett              37            0
+GJ Bonnor             hit wicket         b Peate                6          0 0
++JM Blackham          lbw                b Steel                8            0
+HJH Scott                                b Grace               12            0
+GE Palmer             not out                                  14            0
+FR Spofforth          c Shrewsbury       b Peate               13            0
+HF Boyle                                 b Ulyett               4            0
+Extras                (lb 2)                                    2
+Total                 (all out, 130 overs)                    182
+
+FoW: 1-10 (Bannerman), 2-56 (McDonnell), 3-86 (Murdoch),
+     4-90 (Giffen), 5-97 (Bonnor), 6-118 (Blackham),
+     7-141 (Scott), 8-157 (Midwinter), 9-172 (Spofforth),
+     10-182 (Boyle).
+
+Bowling                      O      M      R      W
+Peate                       49     25     62      3
+Ulyett                      30     17     41      3
+Barlow                       8      3     18      0
+Steel                       13      5     32      2
+Barnes                      19     10     25      1
+Grace                       11     10      2      1
+
+England 2nd innings                                             R   M   B  4 6
+WG Grace                                 b Palmer              31  75        0
+AP Lucas                                 b Giffen              24 120        0
+G Ulyett              c Bannerman        b Boyle                1          0 0
+A Shrewsbury snr                         b Palmer              25            0
+AG Steel              c Blackham         b Bonnor              18            0
+W Barnes                                 b Palmer               8            0
+RG Barlow             not out                                  14            0
+TC O'Brien            c Bannerman        b Spofforth           20            0
+*AN Hornby            st Blackham        b Palmer               4            0
++R Pilling                               b Spofforth            3          0 0
+E Peate               not out                                   8            0
+Extras                (b 18, lb 5, nb 1)                       24
+Total                 (9 wickets, 130 overs)                  180
+
+FoW: 1-41 (Grace), 2-44 (Ulyett), 3-70 (Lucas),
+     4-106 (Shrewsbury), 5-108 (Steel), 6-114 (Barnes),
+     7-139 (O'Brien), 8-145 (Hornby), 9-154 (Pilling).
+
+Bowling                      O      M      R      W
+Spofforth                   41     17     52      2
+Boyle                       20      8     27      1
+Palmer                      36     17     47      4
+Giffen                      29     15     25      1
+Bonnor                       4      1      5      1
+
+<END>

@@ -1,0 +1,120 @@
+
+Test # 195
+The Ashes, 1930, 2nd Test
+England v Australia
+Lord's, London
+27,28,30 June, 1 July 1930 (4-day match)
+
+Result: Australia won by 7 wickets
+Series: 5-match series level 1-1
+
+Toss: England
+Umpires: F Chester and TW Oates
+Test debut: GOB Allen (England).
+
+Close of play:
+ Day 1: England 405/9 (White 14*, Duckworth 7*)
+ Day 2: England 425, Australia 404/2 (Bradman 155*, Kippax 7*)
+ Day 3: Australia 729/6d, England 98/2 (Hammond 20*, Duleepsinhji 27*)
+
+England 1st innings                                             R   M   B  4 6
+JB Hobbs              c Oldfield         b Fairfax              1  16  15  0 0
+FE Woolley            c Wall             b Fairfax             41  45  46  7 0
+WR Hammond                               b Grimmett            38  85  95  4 0
+KS Duleepsinhji       c Bradman          b Grimmett           173 292 321 21 0
+EH Hendren            c McCabe           b Fairfax             48  91  97  3 0
+*APF Chapman          c Oldfield         b Wall                11  17  14  1 0
+GOB Allen                                b Fairfax              3   5  10  0 0
+MW Tate               c McCabe           b Wall                54  69  61  8 0
+RWV Robins            c Oldfield         b Hornibrook           5  30  29  0 0
+JC White              not out                                  23  55  55  2 0
++G Duckworth          c Oldfield         b Wall                18  36  34  3 0
+Extras                (b 2, lb 7, nb 1)                        10
+Total                 (all out, 128.4 overs)                  425
+
+FoW: 1-13 (Hobbs), 2-53 (Woolley), 3-105 (Hammond),
+     4-209 (Hendren), 5-236 (Chapman), 6-239 (Allen),
+     7-337 (Tate), 8-363 (Robins), 9-387 (Duleepsinhji),
+     10-425 (Duckworth).
+
+Bowling                      O      M      R      W
+Wall                        29.4    2    118      3
+Fairfax                     31      6    101      4
+Grimmett                    33      4    105      2
+Hornibrook                  26      6     62      1
+McCabe                       9      1     29      0
+
+Australia 1st innings                                           R   M   B  4 6
+*WM Woodfull          st Duckworth       b Robins             155 323 391  9 0
+WH Ponsford           c Hammond          b White               81 172 205  8 0
+DG Bradman            c Chapman          b White              254 341 376 25 0
+AF Kippax                                b White               83 193 223  4 0
+SJ McCabe             c Woolley          b Hammond             44  51  41  8 0
+VY Richardson         c Hobbs            b Tate                30  25  30  3 1
++WAS Oldfield         not out                                  43  65  76  4 0
+AG Fairfax            not out                                  20  47  52  1 0
+Extras                (b 6, lb 8, w 5)                         19
+Total                 (6 wickets dec, 232 overs)              729
+
+DNB: CV Grimmett, PM Hornibrook, TW Wall.
+
+FoW: 1-162 (Ponsford), 2-393 (Woodfull), 3-585 (Bradman),
+     4-588 (Kippax), 5-643 (Richardson), 6-672 (McCabe).
+
+Bowling                      O      M      R      W
+Allen                       34      7    115      0
+Tate                        64     16    148      1
+White                       51      7    158      3
+Robins                      42      1    172      1
+Hammond                     35      8     82      1
+Woolley                      6      0     35      0
+
+England 2nd innings                                             R   M   B  4 6
+JB Hobbs                                 b Grimmett            19  35  41  1 0
+FE Woolley            hit wicket         b Grimmett            28  55  52  3 0
+WR Hammond            c Fairfax          b Grimmett            32 100 133  2 0
+KS Duleepsinhji       c Oldfield         b Hornibrook          48  93 112  5 0
+EH Hendren            c Richardson       b Grimmett             9   9  14  2 0
+*APF Chapman          c Oldfield         b Fairfax            121 152 166 12 3
+GOB Allen             lbw                b Grimmett            57 107 120  8 0
+MW Tate               c Ponsford         b Grimmett            10  28  20  1 0
+RWV Robins            not out                                  11  28  20  0 0
+JC White              run out                                  10  12  17  2 0
++G Duckworth          lbw                b Fairfax              0   2   6  0 0
+Extras                (b 16, lb 13, w 1)                       30
+Total                 (all out, 116.4 overs)                  375
+
+FoW: 1-45 (Hobbs), 2-58 (Woolley), 3-129 (Hammond),
+     4-141 (Duleepsinhji), 5-147 (Hendren), 6-272 (Allen),
+     7-329 (Tate), 8-354 (Chapman), 9-372 (White),
+     10-375 (Duckworth).
+
+Bowling                      O      M      R      W
+Wall                        25      2     80      0
+Fairfax                     12.4    2     37      2
+Grimmett                    53     13    167      6
+Hornibrook                  22      6     49      1
+McCabe                       3      1     11      0
+Bradman                      1      0      1      0
+
+Australia 2nd innings (target: 72 runs)                         R   M   B  4 6
+*WM Woodfull          not out                                  26  74  79  2 0
+WH Ponsford                              b Robins              14  19  16  2 0
+DG Bradman            c Chapman          b Tate                 1   2   3  0 0
+AF Kippax             c Duckworth        b Robins               3   8  12  0 0
+SJ McCabe             not out                                  25  39  60  3 0
+Extras                (b 1, lb 2)                               3
+Total                 (3 wickets, 28.2 overs)                  72
+
+DNB: VY Richardson, +WAS Oldfield, AG Fairfax, CV Grimmett,
+     PM Hornibrook, TW Wall.
+
+FoW: 1-16 (Ponsford), 2-17 (Bradman), 3-22 (Kippax).
+
+Bowling                      O      M      R      W
+Tate                        13      6     21      1
+White                        2      0      8      0
+Robins                       9      1     34      2
+Hammond                      4.2    1      6      0
+
+<END>

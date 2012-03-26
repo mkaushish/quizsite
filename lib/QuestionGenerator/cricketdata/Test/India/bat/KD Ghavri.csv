@@ -1,0 +1,58 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+750, 1975-12-27, 1, 8, West Indies, , Holder, 3, na, na, 0, 0
+750, 1975-12-27, 3, 8, West Indies, , Roberts, 27, 139, na, 1, 1
+752, 1975-01-11, 1, 8, West Indies, , Roberts, 12, 40, na, 2, 0
+752, 1975-01-11, 3, 9, West Indies, not out, , 35, 87, na, 6, 0
+753, 1975-01-23, 2, 10, West Indies, c Kallicharran, Gibbs, 9, 19, na, 1, 0
+753, 1975-01-23, 4, 9, West Indies, c Murray, Holder, 1, 18, na, 0, 0
+786, 1976-11-18, 1, 8, New Zealand, c Troup, Petherick, 37, 93, na, 6, 0
+787, 1976-11-26, 1, 8, New Zealand, c Petherick, Hadlee, 8, na, na, na, 0
+788, 1976-12-17, 2, 9, England, not out, , 3, 28, 17, 0, 0
+788, 1976-12-17, 3, 8, England, not out, , 35, 78, 58, 4, 1
+794, 1977-01-28, 1, 8, England, c Knott, Willis, 16, 123, 65, 0, 0
+794, 1977-01-28, 3, 9, England, c Amiss, Lever, 12, 69, 41, 1, 0
+795, 1977-02-11, 1, 8, England, lbw, Greig, 25, 73, 64, 4, 0
+795, 1977-02-11, 3, 8, England, c Fletcher, Underwood, 8, 36, 20, 0, 0
+812, 1978-12-30, 1, 8, Australia, c Rixon, Gannon, 6, 26, 20, 0, 0
+812, 1978-12-30, 3, 8, Australia, c Simpson, Clark, 6, 13, 10, 1, 0
+814, 1978-01-07, 2, 8, Australia, c Serjeant, Thomson, 64, 142, 123, 5, 0
+816, 1978-01-28, 2, 8, Australia, c Simpson, Clark, 3, 15, 15, 0, 0
+816, 1978-01-28, 4, 8, Australia, c sub (KJ Hughes), Callen, 23, 109, 90, 3, 0
+833, 1978-11-14, 1, 8, Pakistan, c Majid Khan, Sarfraz Nawaz, 42, na, na, na, 0
+833, 1978-11-14, 3, 8, Pakistan, c Javed Miandad, Imran Khan, 35, na, na, na, 0
+835, 1978-12-01, 1, 8, West Indies, not out, , 15, 59, 36, 0, 1
+837, 1978-12-15, 2, 8, West Indies, , Clarke, 43, na, na, na, 0
+839, 1979-12-29, 1, 7, West Indies, c Marshall, Phillip, 5, na, na, na, 0
+841, 1979-01-12, 2, 8, West Indies, c Murray, Clarke, 1, na, na, 0, 0
+841, 1979-01-12, 4, 7, West Indies, c Clarke, Phillip, 8, na, na, na, 0
+842, 1979-01-24, 1, 8, West Indies, c Murray, Phillip, 2, na, na, 0, 0
+845, 1979-02-02, 1, 9, West Indies, not out, , 18, na, na, na, 0
+851, 1979-07-12, 2, 8, England, c Brearley, Willis, 6, 29, 25, 1, 0
+851, 1979-07-12, 3, 8, England, c Randall, Hendrick, 4, 30, 25, 0, 0
+852, 1979-08-02, 1, 8, England, not out, , 3, 36, 19, 0, 0
+853, 1979-08-16, 2, 8, England, not out, , 20, 99, 97, 1, 0
+854, 1979-08-30, 2, 8, England, c Bairstow, Botham, 7, 15, 14, 0, 0
+854, 1979-08-30, 4, 9, England, not out, , 3, 12, 4, 0, 0
+855, 1979-09-11, 2, 9, Australia, not out, , 23, 49, 38, 4, 0
+857, 1979-10-02, 1, 8, Australia, c Whatmore, Dymock, 5, na, na, na, 0
+857, 1979-10-02, 3, 8, Australia, c sub (PR Sleep), Hogg, 25, 70, na, 5, 0
+858, 1979-10-13, 1, 9, Australia, not out, , 8, 29, 23, 1, 0
+859, 1979-10-26, 2, 9, Australia, c Wright, Yardley, 1, 7, 9, 0, 0
+860, 1979-11-03, 1, 9, Australia, c sub (GD Porter), Dymock, 86, 153, 99, 12, 3
+861, 1979-11-21, 2, 9, Pakistan, , Majid Khan, 2, 14, 7, 0, 0
+863, 1979-12-04, 2, 9, Pakistan, lbw, Sikander Bakht, 0, 2, 2, 0, 0
+865, 1979-12-16, 1, 9, Pakistan, c Asif Iqbal, Sikander Bakht, 36, 103, 72, 3, 1
+865, 1979-12-16, 3, 8, Pakistan, c Wasim Bari, Iqbal Qasim, 1, 20, 12, 0, 0
+866, 1979-12-25, 1, 9, Pakistan, not out, , 45, 146, 92, 1, 0
+869, 1980-01-15, 2, 10, Pakistan, , Iqbal Qasim, 1, 9, 6, 0, 0
+871, 1980-01-29, 1, 9, Pakistan, run out, , 16, 83, 42, 1, 0
+871, 1980-01-29, 3, 9, Pakistan, not out, , 37, 146, 99, 4, 0
+874, 1980-02-15, 1, 9, England, c Taylor, Stevenson, 11, 37, 28, 1, 0
+874, 1980-02-15, 3, 9, England, c Brearley, Lever, 5, 17, 13, 1, 0
+893, 1981-01-02, 1, 10, Australia, c Wood, Lillee, 7, 24, 18, 1, 0
+893, 1981-01-02, 3, 10, Australia, c Hogg, Higgs, 21, 48, 37, 1, 0
+894, 1981-01-23, 2, 10, Australia, c Wood, Yardley, 3, 51, 35, 0, 0
+894, 1981-01-23, 4, 9, Australia, not out, , 7, 39, 36, 0, 0
+895, 1981-02-07, 1, 9, Australia, run out, , 0, 25, 21, 0, 0
+895, 1981-02-07, 3, 9, Australia, not out, , 11, 39, 42, 1, 0
+898, 1981-03-06, 1, 9, New Zealand, c Reid, Coney, 17, 104, 90, 1, 0

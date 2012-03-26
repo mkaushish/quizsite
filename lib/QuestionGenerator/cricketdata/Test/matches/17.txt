@@ -1,0 +1,123 @@
+
+Test # 17
+The Ashes, 1884/85, 1st Test
+Australia v England
+Adelaide Oval
+12,13,15,16 December 1884 (timeless match)
+
+Result: England won by 8 wickets
+Series: England leads the 5-match series 1-0
+
+Toss: Australia
+Umpires: N Cole and IA Fisher
+Balls per over: 4
+Test debuts: W Attewell, J Briggs, W Flowers, J Hunter, R Peel (England).
+
+Close of play:
+ Day 1: Australia 243
+ Day 2: England 233/2 (Scotton 71*, Barnes 86*)
+ Day 3: England 369, Australia 152/4 (Giffen 43*, Cooper 3*)
+
+Australia 1st innings                                           R   M   B  4 6
+AC Bannerman          lbw                b Peel                 2          0 0
+PS McDonnell                             b Attewell           124 195      8 0
+*WL Murdoch           c Hunter           b Peel                 5          0 0
+HJH Scott                                b Peel                19          1 0
++JM Blackham          c Attewell         b Bates               66          5 0
+G Giffen                                 b Bates                4          0 0
+GJ Bonnor             c Read             b Bates                4          0 0
+GE Palmer             c Shrewsbury       b Bates                6          0 0
+HF Boyle              c Hunter           b Bates                1          0 0
+G Alexander           run out                                   3          0 0
+WH Cooper             not out                                   0          0 0
+Extras                (b 7, w 2)                                9
+Total                 (all out, 149.1 overs)                  243
+
+FoW: 1-33 (Bannerman), 2-47 (Murdoch), 3-95 (Scott),
+     4-190 (McDonnell), 5-224 (Blackham), 6-227 (Giffen),
+     7-233 (Bonnor), 8-239 (Palmer), 9-242 (Alexander),
+     10-243 (Boyle).
+
+Bowling                      O      M      R      W
+Peel                        41     15     68      3
+Attewell                    50     23     48      1
+Ulyett                      10      3     23      0
+Flowers                     10      1     27      0
+Barnes                      14      2     37      0
+Bates                       24.1   10     31      5
+
+England 1st innings                                             R   M   B  4 6
+WH Scotton            st Blackham        b Giffen              82 345      2 0
+*A Shrewsbury snr                        b Boyle                0  20      0 0
+G Ulyett              c Alexander        b Boyle               68 120      5 0
+W Barnes                                 b Palmer             134 285      7 0
+W Bates               c Giffen           b Palmer              18            0
+W Flowers             lbw                b Palmer              15            0
+JM Read                              c & b Giffen              14            0
+J Briggs              c Blackham         b Palmer               1          0 0
+W Attewell            not out                                  12            0
+R Peel                                   b Palmer               4            0
++J Hunter             run out                                   1          0 0
+Extras                (b 18, lb 1, nb 1)                       20
+Total                 (all out, 243.2 overs)                  369
+
+FoW: 1-11 (Shrewsbury), 2-107 (Ulyett), 3-282 (Scotton),
+     4-306 (Bates), 5-325 (Flowers), 6-344 (Barnes),
+     7-349 (Briggs), 8-349 (Read), 9-361 (Peel), 10-369 (Hunter).
+
+Bowling                      O      M      R      W
+Boyle                       63     25     95      2
+Giffen                      56.2   26     80      2
+Cooper                      18      4     26      0
+Bonnor                      16     10     23      0
+Palmer                      73     37     81      5
+McDonnell                    3      0     11      0
+Scott                        4      1      9      0
+Alexander                   10      3     24      0
+
+Australia 2nd innings                                           R   M   B  4 6
++JM Blackham                             b Peel                11            0
+PS McDonnell          run out                                  83 150      6 0
+*WL Murdoch                              b Peel                 7            0
+G Giffen              c Shrewsbury       b Peel                47            0
+HJH Scott             lbw                b Peel                 1          0 0
+WH Cooper             c Shrewsbury       b Barnes               6            0
+GJ Bonnor             c Peel             b Barnes              19            0
+GE Palmer                                b Barnes               0          0 0
+G Alexander           st Hunter          b Peel                10            0
+HF Boyle              not out                                   0          0 0
+AC Bannerman          absent hurt                               -
+Extras                (b 7)                                     7
+Total                 (all out, 116.1 overs)                  191
+
+FoW: 1-28 (Blackham), 2-56 (Murdoch), 3-125 (McDonnell),
+     4-139 (Scott), 5-160 (Cooper), 6-160 (Giffen),
+     7-171 (Palmer), 8-182 (Bonnor), 9-191 (Alexander).
+
+Bowling                      O      M      R      W
+Peel                        40.1   15     51      5
+Attewell                    18     10     26      0
+Ulyett                       2      1      3      0
+Flowers                     16      4     27      0
+Barnes                      31     10     51      3
+Bates                        9      3     26      0
+
+England 2nd innings (target: 66 runs)                           R   M   B  4 6
+WH Scotton            c Scott            b Boyle                2          0 0
+W Flowers             c Scott            b Palmer               7          0 0
+*A Shrewsbury snr     not out                                  26            0
+W Barnes              not out                                  28            0
+Extras                (b 4)                                     4
+Total                 (2 wickets, 31 overs)                    67
+
+DNB: G Ulyett, W Bates, JM Read, J Briggs, W Attewell, R Peel,
+     +J Hunter.
+
+FoW: 1-8 (Flowers), 2-14 (Scotton).
+
+Bowling                      O      M      R      W
+Boyle                        9      3     21      1
+Giffen                       6      0     19      0
+Palmer                      16      5     23      1
+
+<END>

@@ -1,0 +1,176 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+1242, 1993-12-26, 2, 2, Australia, c Taylor, Waugh, 16, 89, 59, 0, 0
+1243, 1994-01-02, 1, 2, Australia, st Healy, Warne, 67, 218, 186, 4, 0
+1243, 1994-01-02, 3, 2, Australia, , McDermott, 41, 146, 121, 8, 0
+1246, 1994-01-28, 2, 2, Australia, c May, McDermott, 43, 168, 148, 6, 0
+1246, 1994-01-28, 4, 2, Australia, , Warne, 7, 70, 54, 1, 0
+1252, 1994-03-04, 1, 2, Australia, , Hughes, 47, 117, 75, 8, 0
+1252, 1994-03-04, 3, 2, Australia, c Hughes, May, 35, 130, 90, 7, 0
+1253, 1994-03-17, 1, 2, Australia, run out, , 29, 82, 62, 2, 0
+1253, 1994-03-17, 3, 2, Australia, lbw, Warne, 10, 52, 28, 1, 0
+1256, 1994-03-25, 2, 2, Australia, c Healy, Reiffel, 41, 216, 161, 3, 0
+1263, 1994-07-21, 1, 2, England, c DeFreitas, Hick, 72, 206, 145, 12, 0
+1263, 1994-07-21, 3, 1, England, st Rhodes, Hick, 44, 170, 126, 8, 0
+1264, 1994-08-04, 2, 2, England, c Rhodes, DeFreitas, 7, 39, 21, 0, 0
+1264, 1994-08-04, 4, 2, England, c Rhodes, DeFreitas, 65, 155, 128, 11, 0
+1266, 1994-08-18, 1, 1, England, c Rhodes, DeFreitas, 2, 9, 12, 0, 0
+1266, 1994-08-18, 3, 2, England,                c &, Malcolm, 0, 5, 3, 0, 0
+1276, 1994-11-25, 2, 2, New Zealand, c Crowe, de Groen, 9, 38, 20, 2, 0
+1276, 1994-11-25, 4, 2, New Zealand, lbw, Hart, 33, 100, 81, 5, 0
+1280, 1994-12-26, 2, 2, New Zealand, c Parore, Doull, 29, 82, 50, 4, 0
+1280, 1994-12-26, 4, 2, New Zealand, not out, , 66, 190, 117, 9, 0
+1282, 1995-01-02, 2, 1, New Zealand, , Thomson, 64, 187, 131, 9, 0
+1282, 1995-01-02, 4, 1, New Zealand, lbw, Hart, 25, 60, 58, 2, 1
+1283, 1995-01-19, 1, 1, Pakistan, c Aamer Sohail, Kabir Khan, 62, 190, 122, 11, 0
+1283, 1995-01-19, 3, 1, Pakistan, , Wasim Akram, 42, 132, 87, 6, 0
+1291, 1995-03-04, 1, 1, New Zealand, , Larsen, 16, 57, 43, 1, 0
+1291, 1995-03-04, 3, 1, New Zealand, c Parore, Nash, 76, 160, 136, 12, 0
+1307, 1995-10-13, 2, 2, Zimbabwe, lbw, Streak, 1, 12, 9, 0, 0
+1307, 1995-10-13, 4, 1, Zimbabwe, c A Flower, Lock, 13, 65, 43, 2, 0
+1315, 1995-11-30, 1, 2, England, c Russell, Malcolm, 110, 351, 241, 16, 0
+1315, 1995-11-30, 3, 2, England, c Russell, Malcolm, 1, 23, 19, 0, 0
+1318, 1995-12-14, 1, 1, England, c Hick, Martin, 8, 79, 62, 0, 0
+1320, 1995-12-26, 1, 2, England, c Thorpe, Ilott, 51, 167, 128, 9, 0
+1320, 1995-12-26, 3, 2, England, c Illingworth, Martin, 69, 287, 176, 8, 0
+1321, 1996-01-02, 2, 1, England, c Atherton, Watkinson, 23, 156, 99, 3, 0
+1321, 1996-01-02, 4, 1, England, not out, , 41, 63, 48, 8, 0
+1338, 1996-11-20, 2, 1, India, st Mongia, Kumble, 17, 62, 47, 2, 0
+1338, 1996-11-20, 4, 2, India, lbw, Joshi, 20, 84, 43, 2, 0
+1341, 1996-11-27, 1, 2, India, , Srinath, 102, 244, 170, 14, 0
+1341, 1996-11-27, 3, 2, India, run out (Joshi), , 133, 317, 196, 18, 0
+1344, 1996-12-08, 2, 2, India, c Raman, Kapoor, 43, 164, 108, 5, 0
+1344, 1996-12-08, 4, 2, India, lbw, Srinath, 7, 46, 25, 0, 0
+1347, 1996-12-26, 1, 2, India, , Prasad, 2, 17, 12, 0, 0
+1347, 1996-12-26, 3, 2, India, c Dravid, Prasad, 2, 17, 17, 0, 0
+1349, 1997-01-02, 1, 2, India, run out (Azharuddin/Ganguly), , 103, 290, 204, 15, 0
+1349, 1997-01-02, 3, 2, India, lbw, Ganesh, 0, 16, 10, 0, 0
+1350, 1997-01-16, 2, 2, India, , Prasad, 29, 74, 48, 5, 0
+1350, 1997-01-16, 4, 2, India, c Rathour, Prasad, 1, 23, 10, 0, 0
+1356, 1997-02-28, 1, 2, Australia, c Healy, McGrath, 9, 67, 36, 1, 0
+1356, 1997-02-28, 3, 1, Australia, , Warne, 8, 64, 47, 0, 0
+1360, 1997-03-14, 1, 1, Australia, c Hayden, Gillespie, 0, 27, 19, 0, 0
+1360, 1997-03-14, 3, 1, Australia, , Gillespie, 43, 138, 106, 7, 0
+1362, 1997-03-21, 2, 1, Australia, c Healy, McGrath, 16, 59, 42, 2, 0
+1362, 1997-03-21, 4, 1, Australia, c Taylor, Blewett, 6, 18, 16, 1, 0
+1380, 1997-10-06, 2, 1, Pakistan, c Ijaz Ahmed, Saqlain Mushtaq, 98, 425, 344, 7, 0
+1381, 1997-10-17, 1, 1, Pakistan, , Wasim Akram, 56, 159, 142, 7, 0
+1382, 1997-10-24, 1, 1, Pakistan, not out, , 100, 298, 208, 15, 0
+1382, 1997-10-24, 3, 2, Pakistan, c Mushtaq Ahmed, Wasim Akram, 4, 20, 13, 1, 0
+1392, 1997-12-26, 2, 2, Australia, c Healy, ME Waugh, 83, 323, 256, 7, 0
+1392, 1997-12-26, 4, 1, Australia, , Reiffel, 0, 23, 14, 0, 0
+1393, 1998-01-02, 1, 2, Australia, c Taylor, McGrath, 11, 55, 42, 0, 0
+1393, 1998-01-02, 3, 1, Australia, lbw, McGrath, 0, 8, 9, 0, 0
+1397, 1998-01-30, 1, 2, Australia, c Warne, Kasprowicz, 77, 205, 155, 12, 0
+1397, 1998-01-30, 3, 1, Australia, not out, , 108, 235, 159, 12, 1
+1400, 1998-02-14, 1, 2, Pakistan, c Azhar Mahmood, Waqar Younis, 3, 32, 13, 0, 0
+1400, 1998-02-14, 3, 1, Pakistan, not out, , 20, 49, 33, 4, 0
+1403, 1998-03-26, 2, 2, Pakistan, c Azhar Mahmood, Fazl-e-Akbar, 0, 9, 7, 0, 0
+1403, 1998-03-26, 4, 1, Pakistan, c sub (Rashid Latif), Mushtaq Ahmed, 25, 104, 77, 4, 0
+1406, 1998-03-06, 1, 2, Pakistan, , Waqar Younis, 38, 119, 88, 5, 0
+1406, 1998-03-06, 3, 1, Pakistan, c Rashid Latif, Azhar Mahmood, 44, 139, 93, 5, 1
+1410, 1998-03-19, 1, 2, Sri Lanka, lbw, Vaas, 62, 203, 136, 9, 0
+1410, 1998-03-19, 3, 1, Sri Lanka, c Mahanama, Vaas, 15, 41, 28, 2, 0
+1414, 1998-03-27, 2, 2, Sri Lanka, , Muralitharan, 13, 115, 82, 2, 0
+1414, 1998-03-27, 4, 1, Sri Lanka, not out, , 75, 233, 203, 12, 0
+1417, 1998-06-04, 2, 1, England, c Butcher, Cork, 12, 81, 55, 1, 0
+1419, 1998-06-18, 1, 2, England, , Cork, 4, 11, 7, 1, 0
+1419, 1998-06-18, 4, 1, England, not out, , 9, 6, 4, 2, 0
+1420, 1998-07-02, 1, 1, England, c Stewart, Fraser, 210, 650, 525, 24, 1
+1421, 1998-07-23, 1, 1, England, , Gough, 7, 43, 21, 1, 0
+1421, 1998-07-23, 3, 1, England, lbw, Fraser, 6, 53, 31, 0, 0
+1422, 1998-08-06, 2, 1, England, lbw, Fraser, 6, 26, 24, 1, 0
+1422, 1998-08-06, 4, 1, England, c Atherton, Gough, 3, 32, 24, 0, 0
+1429, 1998-11-26, 2, 1, West Indies, , McLean, 62, 213, 144, 4, 0
+1429, 1998-11-26, 4, 1, West Indies, c Jacobs, Ambrose, 7, 35, 30, 1, 0
+1433, 1998-12-10, 1, 1, West Indies, c Jacobs, Walsh, 29, 78, 58, 5, 0
+1433, 1998-12-10, 3, 1, West Indies, c Jacobs, Walsh, 2, 35, 23, 0, 0
+1437, 1998-12-26, 2, 1, West Indies, c Hooper, Rose, 26, 123, 95, 2, 0
+1437, 1998-12-26, 4, 1, West Indies, not out, , 71, 168, 152, 9, 0
+1440, 1999-01-02, 1, 1, West Indies, c Jacobs, Ambrose, 0, 1, 1, 0, 0
+1440, 1999-01-02, 3, 1, West Indies, c Murray, McLean, 5, 49, 21, 0, 0
+1441, 1999-01-15, 1, 1, West Indies, c Jacobs, Walsh, 0, 2, 2, 0, 0
+1441, 1999-01-15, 3, 1, West Indies, c Ganga, Hooper, 134, 448, 305, 15, 0
+1446, 1999-03-27, 1, 1, New Zealand, c Astle, Allott, 128, 361, 282, 15, 0
+1449, 1999-03-11, 2, 1, New Zealand, c Astle, Vettori, 65, 208, 170, 11, 0
+1452, 1999-03-18, 2, 1, New Zealand, , O'Connor, 40, 105, 75, 7, 0
+1452, 1999-03-18, 4, 1, New Zealand, not out, , 12, 30, 17, 1, 0
+1471, 1999-11-25, 2, 1, England, lbw, Mullally, 13, 66, 47, 1, 0
+1475, 1999-12-09, 1, 1, England, c Hussain, Caddick, 15, 33, 29, 2, 0
+1475, 1999-12-09, 3, 1, England, c Vaughan, Gough, 2, 18, 23, 0, 0
+1480, 1999-12-26, 2, 1, England, c Stewart, Caddick, 11, 43, 31, 2, 0
+1480, 1999-12-26, 3, 1, England, , Butcher, 275, 878, 642, 26, 0
+1482, 2000-01-02, 2, 1, England, c Stewart, Silverwood, 80, 296, 196, 8, 0
+1484, 2000-02-24, 2, 1, India, , Tendulkar, 50, 192, 139, 6, 0
+1484, 2000-02-24, 4, 1, India, c Mongia, Kumble, 20, 73, 52, 1, 0
+1486, 2000-03-02, 2, 1, India, c Jaffer, Kumble, 79, 264, 209, 7, 0
+1504, 2000-06-20, 2, 1, Sri Lanka, c Sangakkara, Muralitharan, 12, 80, 60, 1, 0
+1504, 2000-06-20, 3, 1, Sri Lanka, run out (Vaas/Sangakkara), , 55, 150, 138, 7, 0
+1505, 2000-07-30, 1, 1, Sri Lanka, lbw, Vaas, 0, 4, 5, 0, 0
+1505, 2000-07-30, 3, 1, Sri Lanka, , Dharmasena, 13, 65, 53, 1, 0
+1507, 2000-07-06, 1, 1, Sri Lanka, c Ranatunga, Perera, 11, 90, 63, 0, 0
+1507, 2000-07-06, 3, 1, Sri Lanka, lbw, Muralitharan, 40, 198, 150, 3, 0
+1514, 2000-10-17, 1, 2, New Zealand, c Astle, Martin, 31, 117, 75, 2, 0
+1514, 2000-10-17, 4, 2, New Zealand, lbw, O'Connor, 1, 8, 6, 0, 0
+1519, 2000-11-30, 2, 1, New Zealand, c Parore, Walmsley, 49, 183, 118, 9, 0
+1519, 2000-11-30, 4, 2, New Zealand, not out, , 47, 128, 104, 5, 0
+1522, 2000-11-08, 2, 2, New Zealand, c Richardson, Martin, 10, 20, 17, 2, 0
+1526, 2000-11-26, 1, 2, Sri Lanka, c Kaluwitharana, Fernando, 180, 558, 461, 20, 0
+1526, 2000-11-26, 3, 2, Sri Lanka, c Arnold, Muralitharan, 34, 115, 71, 2, 0
+1528, 2001-01-02, 2, 1, Sri Lanka, c Dilshan, Muralitharan, 52, 157, 114, 7, 0
+1534, 2001-02-09, 2, 1, West Indies, c Jacobs, Walsh, 150, 446, 338, 13, 1
+1534, 2001-02-09, 4, 1, West Indies, c Hinds, Ramnarine, 24, 117, 101, 4, 0
+1538, 2001-02-17, 1, 2, West Indies, c Hooper, McLean, 23, 126, 91, 1, 0
+1538, 2001-02-17, 3, 2, West Indies, c Jacobs, Walsh, 22, 58, 39, 3, 0
+1541, 2001-03-29, 1, 1, West Indies, c Gayle, Walsh, 0, 2, 3, 0, 0
+1541, 2001-03-29, 3, 2, West Indies, c Samuels, Cuffy, 0, 7, 4, 0, 0
+1542, 2001-03-06, 1, 1, West Indies, c Dillon, McGarrell, 8, 71, 54, 0, 0
+1542, 2001-03-06, 3, 2, West Indies, c Sarwan, Walsh, 9, 22, 16, 2, 0
+1544, 2001-03-19, 2, 2, West Indies, c Gayle, Walsh, 0, 28, 15, 0, 0
+1544, 2001-03-19, 4, 1, West Indies, c Jacobs, Dillon, 14, 64, 45, 1, 0
+1562, 2001-08-07, 1, 2, Zimbabwe, c A Flower, Hondo, 220, 442, 286, 33, 1
+1562, 2001-08-07, 4, 2, Zimbabwe, not out, , 31, 66, 36, 6, 0
+1563, 2001-08-14, 2, 2, Zimbabwe, st A Flower, Price, 65, 232, 177, 6, 0
+1564, 2001-10-03, 2, 2, India, , Kumble, 73, 198, 132, 12, 0
+1564, 2001-10-03, 4, 2, India, not out, , 30, 60, 48, 4, 0
+1569, 2001-10-16, 1, 2, India, c Laxman, Srinath, 4, 26, 16, 0, 0
+1569, 2001-10-16, 3, 2, India, c Laxman, Srinath, 5, 21, 17, 1, 0
+1576, 2001-11-14, 2, 2, Australia, lbw, McGrath, 47, 125, 86, 6, 0
+1576, 2001-11-14, 4, 2, Australia, c Ponting, Warne, 7, 46, 31, 1, 0
+1580, 2001-11-26, 1, 2, Australia, , McGrath, 10, 77, 53, 1, 0
+1580, 2001-11-26, 3, 2, Australia, c Ponting, Lee, 10, 22, 14, 1, 0
+1582, 2002-01-02, 2, 2, Australia, c Ponting, McGrath, 18, 58, 39, 2, 0
+1582, 2002-01-02, 3, 2, Australia, , MacGill, 153, 437, 359, 20, 0
+1590, 2002-01-22, 2, 2, Australia, c Warne, McGrath, 1, 9, 2, 0, 0
+1590, 2002-01-22, 3, 2, Australia, c Martyn, Gillespie, 12, 30, 21, 3, 0
+1593, 2002-02-08, 1, 2, Australia, c ME Waugh, Lee, 7, 44, 20, 1, 0
+1593, 2002-02-08, 3, 2, Australia, lbw, Lee, 87, 260, 181, 11, 0
+1595, 2002-02-15, 2, 2, Australia, c Gilchrist, Lee, 21, 54, 40, 4, 0
+1595, 2002-02-15, 4, 2, Australia, run out (Martyn/Lee), , 64, 186, 134, 12, 0
+1619, 2002-09-18, 1, 3, Bangladesh, c Alok Kapali, Talha Jubair, 150, 326, 223, 14, 0
+1621, 2002-09-25, 2, 3, Bangladesh, c Khaled Mashud, Talha Jubair, 160, 372, 227, 17, 1
+1624, 2002-10-08, 2, 2, Sri Lanka, c Muralitharan, KHRK Fernando, 55, 196, 139, 9, 0
+1626, 2002-10-15, 2, 3, Sri Lanka, c KHRK Fernando, CRD Fernando, 11, 40, 25, 2, 0
+1626, 2002-10-15, 4, 3, Sri Lanka, c Mubarak, CRD Fernando, 11, 42, 25, 2, 0
+1635, 2002-11-26, 1, 3, Pakistan, c Younis Khan, Saqlain Mushtaq, 56, 171, 118, 9, 0
+1637, 2003-01-02, 1, 3, Pakistan, c Younis Khan, Waqar Younis, 19, 50, 33, 3, 0
+1651, 2003-06-24, 1, 3, England, c Stewart, Giles, 44, 105, 95, 7, 0
+1651, 2003-06-24, 3, 3, England, c McGrath, Harmison, 1, 7, 10, 0, 0
+1653, 2003-07-31, 2, 3, England, , McGrath, 108, 284, 244, 15, 0
+1656, 2003-07-21, 1, 3, England, c Bicknell, Ali, 130, 458, 323, 17, 0
+1656, 2003-07-21, 3, 3, England, lbw, Ali, 60, 212, 147, 5, 0
+1659, 2003-08-04, 1, 3, England, lbw, Giles, 90, 215, 156, 15, 0
+1659, 2003-08-04, 3, 3, England, c Trescothick, Harmison, 29, 78, 59, 4, 1
+1664, 2003-09-17, 1, 3, Pakistan, retired hurt, , 53, 125, 100, 8, 0
+1664, 2003-09-17, 3, 6, Pakistan, c Yousuf Youhana, Danish Kaneria, 46, 114, 93, 7, 0
+1666, 2003-09-24, 1, 5, Pakistan, c Taufeeq Umar, Abdul Razzaq, 54, 149, 115, 7, 0
+1666, 2003-09-24, 3, 4, Pakistan, c Taufeeq Umar, Abdul Razzaq, 118, 316, 232, 11, 1
+1679, 2003-11-26, 2, 5, West Indies, c Drakes, Sarwan, 137, 275, 218, 20, 0
+1681, 2004-01-02, 1, 5, West Indies, c Sanford, Edwards, 16, 42, 36, 3, 0
+1681, 2004-01-02, 3, 5, West Indies, not out, , 10, 16, 15, 0, 0
+1682, 2004-01-16, 1, 5, West Indies,                c &, Sarwan, 10, 20, 15, 0, 1
+1686, 2004-02-10, 1, 5, New Zealand, c Papps, Vettori, 137, 307, 213, 18, 1
+1686, 2004-02-10, 3, 6, New Zealand, not out, , 34, 146, 106, 4, 1
+1689, 2004-02-18, 1, 5, New Zealand, , Oram, 1, 11, 8, 0, 0
+1689, 2004-02-18, 3, 5, New Zealand, lbw, Martin, 1, 5, 3, 0, 0
+1692, 2004-02-26, 2, 4, New Zealand, c McCullum, Martin, 1, 4, 4, 0, 0
+1692, 2004-02-26, 4, 5, New Zealand, lbw, Styris, 76, 227, 180, 11, 0

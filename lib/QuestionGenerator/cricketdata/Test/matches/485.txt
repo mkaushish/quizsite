@@ -1,0 +1,93 @@
+
+Test # 485
+England in West Indies, 1959/60, 1st Test
+West Indies v England
+Kensington Oval, Bridgetown, Barbados
+6,7,8,9,11,12 January 1960 (6-day match)
+
+Result: Match drawn
+Series: 5-match series level 0-0
+
+Toss: England
+Umpires: HBD Jordan and JHJ Roberts
+Test debuts: DA Allen (England); RO Scarlett, CD Watson (West Indies).
+
+Close of play:
+ Day 1: England 188/3 (Barrington 73*, Smith 9*)
+ Day 2: England 430/7 (Dexter 103*, Trueman 0*)
+ Day 3: England 482, West Indies 114/3 (Sobers 21*, Worrell 8*)
+ Day 4: West Indies 279/3 (Sobers 100*, Worrell 91*)
+ Day 5: West Indies 486/3 (Sobers 216*, Worrell 177*)
+
+England 1st innings                                             R   M   B  4 6
+G Pullar              run out                                  65            0
+MC Cowdrey            c Sobers           b Watson              30            0
+KF Barrington         c Alexander        b Ramadhin           128 330     20 0
+*PBH May              c Alexander        b Hall                 1          0 0
+MJK Smith             c Alexander        b Scarlett            39            1
+ER Dexter             not out                                 136 285     19 1
+R Illingworth                            b Ramadhin             5            0
++R Swetman            c Alexander        b Worrell             45            0
+FS Trueman            c Alexander        b Ramadhin             3          0 0
+DA Allen              lbw                b Watson              10            0
+AE Moss                                  b Watson               4       2  1 0
+Extras                (b 4, lb 6, nb 6)                        16
+Total                 (all out, 188.4 overs)                  482
+
+FoW: 1-50 (Cowdrey), 2-153 (Pullar), 3-162 (May), 4-251 (Smith),
+     5-291 (Barrington), 6-303 (Illingworth), 7-426 (Swetman),
+     8-439 (Trueman), 9-478 (Allen), 10-482 (Moss).
+
+Bowling                      O      M      R      W
+Hall                        40      9     98      1
+Watson                      32.4    6    121      3
+Worrell                     15      2     39      1
+Ramadhin                    54     22    109      3
+Scarlett                    26      9     46      1
+Sobers                      21      3     53      0
+
+West Indies 1st innings                                         R   M   B  4 6
+CC Hunte              c Swetman          b Barrington          42            0
+EDAS McMorris         run out                                   0          0 0
+RB Kanhai                                b Trueman             40            1
+GS Sobers                                b Trueman            226 647     24 0
+FMM Worrell           not out                                 197 682     17 2
+BF Butcher            c Trueman          b Dexter              13            0
+WW Hall               lbw                b Trueman             14            0
+*+FCM Alexander       c Smith            b Trueman              3          0 0
+RO Scarlett           lbw                b Dexter               7            0
+Extras                (b 8, lb 7, w 1, nb 5)                   21
+Total                 (8 wickets dec, 239.4 overs)            563
+
+DNB: CD Watson, S Ramadhin.
+
+FoW: 1-6 (McMorris), 2-68 (Kanhai), 3-102 (Hunte),
+     4-501 (Sobers), 5-521 (Butcher), 6-544 (Hall),
+     7-556 (Alexander), 8-563 (Scarlett).
+
+Bowling                      O      M      R      W
+Trueman                     47     15     93      4
+Moss                        47     14    116      0
+Dexter                      37.4   11     85      2
+Illingworth                 47      9    106      0
+Allen                       43     12     82      0
+Barrington                  18      3     60      1
+
+England 2nd innings                                             R   M   B  4 6
+G Pullar              not out                                  46 140        0
+MC Cowdrey            not out                                  16 140        0
+Extras                (b 7, lb 1, w 1)                          9
+Total                 (0 wickets, 42 overs)                    71
+
+DNB: KF Barrington, *PBH May, MJK Smith, ER Dexter,
+     R Illingworth, +R Swetman, FS Trueman, DA Allen, AE Moss.
+
+Bowling                      O      M      R      W
+Hall                         6      2      9      0
+Watson                       8      1     19      0
+Ramadhin                     7      2     11      0
+Scarlett                    10      4     12      0
+Hunte                        7      2      9      0
+Kanhai                       4      3      2      0
+
+<END>

@@ -1,0 +1,104 @@
+
+Test # 609
+The Wisden Trophy, 1966, 5th Test
+England v West Indies
+Kennington Oval, London
+18,19,20,22 August 1966 (5-day match)
+
+Result: England won by an innings and 34 runs
+Series: West Indies wins the 5-match series 3-1
+
+Toss: West Indies
+Umpires: JS Buller and CS Elliott
+Test debut: DL Amiss (England).
+Batsmen of the match: TW Graveney and JT Murray
+Bowler of the match: JA Snow
+
+Close of play:
+ Day 1: West Indies 268, England 20/1 (Barber 11*, Edrich 5*)
+ Day 2: England 330/7 (Graveney 132*, Murray 81*)
+ Day 3: England 527, West Indies 135/4 (Nurse 41*, Holford 5*)
+
+West Indies 1st innings                                         R   M   B  4 6
+CC Hunte                                 b Higgs                1   5   5  0 0
+EDAS McMorris                            b Snow                14  72  57  0 0
+RB Kanhai             c Graveney         b Illingworth        104 224 217 14 0
+BF Butcher            c Illingworth      b Close               12  31  39  1 0
+SM Nurse              c Graveney         b D'Oliveira           0   2   4  0 0
+*GS Sobers            c Graveney         b Barber              81 145 151 12 0
+DAJ Holford           c D'Oliveira       b Illingworth          5  27  32  1 0
++JL Hendriks                             b Barber               0  18  19  0 0
+CC Griffith           c Higgs            b Barber               4  11  13  1 0
+WW Hall               not out                                  30  33  29  5 0
+LR Gibbs              c Murray           b Snow                12  30  24  1 0
+Extras                (b 1, lb 3, nb 1)                         5
+Total                 (all out, 97.5 overs)                   268
+
+FoW: 1-1 (Hunte), 2-56 (McMorris), 3-73 (Butcher), 4-74 (Nurse),
+     5-196 (Kanhai), 6-218 (Sobers), 7-218 (Holford),
+     8-223 (Hendriks), 9-223 (Griffith), 10-268 (Gibbs).
+
+Bowling                      O      M      R      W
+Snow                        20.5    1     66      2
+Higgs                       17      4     52      1
+D'Oliveira                  21      7     35      1
+Close                        9      2     21      1
+Barber                      15      3     49      3
+Illingworth                 15      7     40      2
+
+England 1st innings                                             R   M   B  4 6
+G Boycott                                b Hall                 4  11  11  1 0
+RW Barber             c Nurse            b Sobers              36  87  66  5 0
+JH Edrich             c Hendriks         b Sobers              35  93  98  5 0
+TW Graveney           run out                                 165 359 361 19 0
+DL Amiss              lbw                b Hall                17  43  58  2 0
+BL D'Oliveira                            b Hall                 4   7   4  1 0
+*DB Close             run out                                   4  25  21  0 0
+R Illingworth         c Hendriks         b Griffith             3  26  23  0 0
++JT Murray            lbw                b Sobers             112 266 260 13 0
+K Higgs                              c & b Holford             63 172 148  3 1
+JA Snow               not out                                  59 140 146  8 0
+Extras                (b 8, lb 14, nb 3)                       25
+Total                 (all out, 199.5 overs)                  527
+
+FoW: 1-6 (Boycott), 2-72 (Barber), 3-85 (Edrich), 4-126 (Amiss),
+     5-130 (D'Oliveira), 6-150 (Close), 7-166 (Illingworth),
+     8-383 (Graveney), 9-399 (Murray), 10-527 (Higgs).
+
+Bowling                      O      M      R      W
+Hall                        31      8     85      3
+Griffith                    32      7     78      1
+Sobers                      54     23    104      3
+Holford                     25.5    1     79      1
+Gibbs                       44     16    115      0
+Hunte                       13      2     41      0
+
+West Indies 2nd innings                                         R   M   B  4 6
+CC Hunte              c Murray           b Snow                 7  24  25  1 0
+EDAS McMorris         c Murray           b Snow                 1  10   6  0 0
+RB Kanhai                                b D'Oliveira          15  46  30  2 0
+BF Butcher            c Barber           b Illingworth         60  87 102  9 0
+SM Nurse              c Edrich           b Barber              70 129 121 14 0
+DAJ Holford           run out                                   7  25  24  0 0
+*GS Sobers            c Close            b Snow                 0   1   1  0 0
++JL Hendriks                             b Higgs                0  18  18  0 0
+CC Griffith           not out                                  29 105  93  3 0
+WW Hall               c D'Oliveira       b Illingworth         17  52  56  3 0
+LR Gibbs                             c & b Barber               3  26  36  0 0
+Extras                (b 1, lb 14, nb 1)                       16
+Total                 (all out, 85.1 overs)                   225
+
+FoW: 1-5 (McMorris), 2-12 (Hunte), 3-50 (Kanhai),
+     4-107 (Butcher), 5-137 (Holford), 6-137 (Sobers),
+     7-142 (Hendriks), 8-168 (Nurse), 9-204 (Hall),
+     10-225 (Gibbs).
+
+Bowling                      O      M      R      W
+Snow                        13      5     40      3
+Higgs                       15      6     18      1
+D'Oliveira                  17      4     44      1
+Close                        3      1      7      0
+Barber                      22.1    2     78      2
+Illingworth                 15      9     22      2
+
+<END>

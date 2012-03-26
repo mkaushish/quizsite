@@ -1,0 +1,41 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+230, 1933-12-15, 1, 3, England, lbw, Langridge, 38, na, na, na, 0
+230, 1933-12-15, 3, 3, England, c Nichols, Clark, 118, 185, na, 21, 0
+231, 1934-01-05, 2, 5, England, c Jardine, Clark, 0, na, na, 0, 0
+231, 1934-01-05, 3, 5, England, c Levett, Clark, 9, na, na, na, 0
+232, 1934-02-10, 2, 5, England, c Elliott, Langridge, 12, na, na, na, 0
+232, 1934-02-10, 4, 8, England, not out, , 26, na, na, na, 0
+276, 1946-06-22, 1, 3, England, lbw, Bedser, 0, na, na, 0, 0
+276, 1946-06-22, 3, 8, England, , Smailes, 50, na, na, na, 0
+277, 1946-07-20, 2, 8, England, , Bedser, 8, na, na, na, 0
+277, 1946-07-20, 4, 6, England, , Bedser, 3, na, na, 0, 0
+278, 1946-08-17, 1, 4, England, , Edrich, 8, na, na, na, 0
+290, 1947-11-28, 2, 7, Australia, c Bradman, Toshack, 22, 32, 40, 2, 0
+290, 1947-11-28, 3, 7, Australia, , Toshack, 5, 10, 13, 0, 0
+291, 1947-12-12, 1, 5, Australia, , Johnson, 25, 57, 83, 0, 0
+291, 1947-12-12, 3, 7, Australia, c Morris, Johnson, 14, 22, 25, 2, 0
+292, 1948-01-01, 2, 5, Australia, lbw, Barnes, 0, 1, 1, 0, 0
+292, 1948-01-01, 4, 5, Australia, , Lindwall, 8, 17, 13, 1, 0
+294, 1948-01-23, 2, 4, Australia, c Bradman, Johnson, 46, 55, 47, 5, 0
+294, 1948-01-23, 3, 3, Australia, , Lindwall, 0, 1, 1, 0, 0
+295, 1948-02-06, 2, 5, Australia, c Barnes, Ring, 12, 21, 26, 1, 0
+295, 1948-02-06, 3, 6, Australia, c Johnson, Ring, 8, 23, 9, 1, 0
+304, 1948-11-10, 2, 4, West Indies, c Christiani, Jones, 62, na, na, na, 0
+304, 1948-11-10, 3, 4, West Indies, , Cameron, 36, na, na, na, 0
+305, 1948-12-09, 2, 7, West Indies,                c &, Ferguson, 24, na, na, na, 0
+305, 1948-12-09, 3, 5, West Indies, not out, , 58, na, na, na, 0
+308, 1949-12-31, 2, 5, West Indies, c +Christiani, Gomez, 3, na, na, 0, 0
+308, 1949-12-31, 4, 5, West Indies, not out, , 34, na, na, na, 0
+310, 1949-01-27, 2, 5, West Indies, hit wicket, Trim, 13, na, na, na, 0
+310, 1949-01-27, 3, 5, West Indies, , Jones, 6, na, na, na, 0
+311, 1949-02-04, 2, 7, West Indies, , Trim, 19, na, na, na, 0
+311, 1949-02-04, 4, 4, West Indies, , Atkinson, 39, na, na, 6, 0
+342, 1951-12-14, 1, 5, England, c Howard, Tattersall, 32, na, na, na, 0
+342, 1951-12-14, 3, 5, England, c Howard, Watkins, 4, na, na, na, 0
+344, 1952-12-30, 2, 5, England, , Tattersall, 0, na, na, 0, 0
+348, 1952-02-06, 2, 5, England, c Spooner, Statham, 31, na, na, na, 0
+355, 1952-10-16, 1, 5, Pakistan, c Khan Mohammad, Fazal Mahmood, 9, na, na, na, 0
+356, 1952-10-23, 1, 7, Pakistan, c Zulfiqar Ahmed, Mahmood Hussain, 10, na, na, na, 0
+356, 1952-10-23, 3, 7, Pakistan, not out, , 61, na, na, na, 0
+358, 1952-11-28, 2, 6, Pakistan, c Imtiaz Ahmed, Kardar, 14, na, na, na, 0
+360, 1952-12-12, 2, 7, Pakistan, c Maqsood Ahmed, Fazal Mahmood, 11, na, na, na, 0

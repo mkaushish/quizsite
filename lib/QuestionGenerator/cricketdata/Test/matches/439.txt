@@ -1,0 +1,121 @@
+
+Test # 439
+West Indies in England, 1957, 1st Test
+England v West Indies
+Edgbaston, Birmingham
+30,31 May, 1,3,4 June 1957 (5-day match)
+
+Result: Match drawn
+Series: 5-match series level 0-0
+
+Toss: England
+Umpires: DE Davies and CS Elliott
+Test debuts: R Gilchrist, RB Kanhai (West Indies).
+
+Close of play:
+ Day 1: England 186, West Indies 83/1 (Kanhai 42*, Walcott 40*)
+ Day 2: West Indies 316/5 (Smith 70*, Worrell 48*)
+ Day 3: West Indies 474, England 102/2 (Close 34*, May 21*)
+ Day 4: England 378/3 (May 193*, Cowdrey 78*)
+
+England 1st innings                                             R   M   B  4 6
+PE Richardson         c Walcott          b Ramadhin            47 148      5 0
+DB Close              c Kanhai           b Gilchrist           15  34      1 0
+DJ Insole                                b Ramadhin            20  46      1 0
+*PBH May              c Weekes           b Ramadhin            30  80      3 0
+MC Cowdrey            c Gilchrist        b Ramadhin             4  35      0 0
+TE Bailey                                b Ramadhin             1   8      0 0
+GAR Lock                                 b Ramadhin             0   6      0 0
++TG Evans                                b Gilchrist           14  37      1 0
+JC Laker                                 b Ramadhin             7  10      0 0
+FS Trueman            not out                                  29  45      3 1
+JB Statham                               b Atkinson            13  26      1 0
+Extras                (b 3, lb 3)                               6
+Total                 (all out, 79.4 overs)                   186
+
+FoW: 1-32 (Close), 2-61 (Insole), 3-104 (Richardson),
+     4-115 (May), 5-116 (Bailey), 6-118 (Lock), 7-121 (Cowdrey),
+     8-130 (Laker), 9-150 (Evans), 10-186 (Statham).
+
+Bowling                      O      M      R      W
+Worrell                      9      1     27      0
+Gilchrist                   27      4     74      2
+Ramadhin                    31     16     49      7
+Atkinson                    12.4    3     30      1
+
+West Indies 1st innings                                         R   M   B  4 6
+BH Pairaudeau                            b Trueman              1  14      0 0
++RB Kanhai            lbw                b Statham             42 119      6 0
+CL Walcott            c Evans            b Laker               90 262     11 0
+ED Weekes                                b Trueman              9  53      0 0
+GS Sobers             c Bailey           b Statham             53 129      8 0
+OG Smith              lbw                b Laker              161 341     19 1
+FMM Worrell                              b Statham             81 293      8 0
+*JDC Goddard          c Lock             b Laker               24  48      3 0
+DS Atkinson           c Statham          b Laker                1   8      0 0
+S Ramadhin            not out                                   5   6      0 0
+R Gilchrist           run out                                   0   3      0 0
+Extras                (b 1, lb 6)                               7
+Total                 (all out, 191.4 overs)                  474
+
+FoW: 1-4 (Pairaudeau), 2-83 (Kanhai), 3-120 (Weekes),
+     4-183 (Walcott), 5-197 (Sobers), 6-387 (Worrell),
+     7-466 (Smith), 8-469 (Atkinson), 9-474 (Goddard),
+     10-474 (Gilchrist).
+
+Bowling                      O      M      R      W
+Statham                     39      4    114      3
+Trueman                     30      4     99      2
+Bailey                      34     11     80      0
+Laker                       54     17    119      4
+Lock                        34.4   15     55      0
+
+England 2nd innings                                             R   M   B  4 6
+PE Richardson         c sub              b Ramadhin            34  92      2 0
+DB Close              c Weekes           b Gilchrist           42 141      3 0
+DJ Insole                                b Ramadhin             0   2      0 0
+*PBH May              not out                                 285 600     25 2
+MC Cowdrey            c sub              b Smith              154 500     16 0
++TG Evans             not out                                  29  30      5 0
+Extras                (b 23, lb 16)                            39
+Total                 (4 wickets dec, 258 overs)              583
+
+DNB: TE Bailey, GAR Lock, JC Laker, FS Trueman, JB Statham.
+
+FoW: 1-63 (Richardson), 2-65 (Insole), 3-113 (Close),
+     4-524 (Cowdrey).
+
+Bowling                      O      M      R      W
+Gilchrist                   26      2     67      1
+Ramadhin                    98     35    179      2
+Atkinson                    72     29    137      0
+Sobers                      30      4     77      0
+Smith                       26      4     72      1
+Goddard                      6      2     12      0
+
+West Indies 2nd innings (target: 296 runs)                      R   M   B  4 6
+BH Pairaudeau                            b Trueman              7  25      0 0
++RB Kanhai            c Close            b Trueman              1   5      0 0
+GS Sobers             c Cowdrey          b Lock                14  35      3 0
+ED Weekes             c Trueman          b Lock                33  91      6 0
+FMM Worrell           c May              b Lock                 0  18      0 0
+CL Walcott            c Lock             b Laker                1  28      0 0
+OG Smith              lbw                b Laker                5  64      0 0
+*JDC Goddard          not out                                   0  40      0 0
+DS Atkinson           not out                                   4   6      1 0
+Extras                (b 7)                                     7
+Total                 (7 wickets, 60 overs)                    72
+
+DNB: S Ramadhin, R Gilchrist.
+
+FoW: 1-1 (Kanhai), 2-9 (Pairaudeau), 3-25 (Sobers),
+     4-27 (Worrell), 5-43 (Walcott), 6-66 (Weekes), 7-68 (Smith).
+
+Bowling                      O      M      R      W
+Statham                      2      0      6      0
+Trueman                      5      3      7      2
+Laker                       24     20     13      2
+Lock                        27     19     31      3
+Close                        2      1      8      0
+
+<END>

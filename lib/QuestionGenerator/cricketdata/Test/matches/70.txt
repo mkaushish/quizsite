@@ -1,0 +1,88 @@
+
+Test # 70
+The Ashes, 1902, 1st Test
+England v Australia
+Edgbaston, Birmingham
+29,30,31 May 1902 (3-day match)
+
+Result: Match drawn
+Series: 5-match series level 0-0
+
+Toss: England
+Umpires: W Hearn and J Phillips (Aus)
+
+Close of play:
+ Day 1: England 351/9 (Lockwood 41*, Rhodes 24*)
+ Day 2: England 376/9d, Australia 36, Australia 8/0 (Trumper 8*, Duff 0*)
+
+England 1st innings                                             R   M   B  4 6
+*AC MacLaren          run out                                   9            0
+CB Fry                c Kelly            b Jones                0          0 0
+KS Ranjitsinhji                          b Armstrong           13  50        0
+Hon.FS Jackson                           b Jones               53            0
+JT Tyldesley          lbw                b Howell             138 262     20 0
++AFA Lilley           c Jones            b Noble                2          0 0
+GH Hirst              c Armstrong        b Trumper             48  75        0
+GL Jessop             c Hopkins          b Trumper              6            0
+LC Braund                                b Jones               14            0
+WH Lockwood           not out                                  52            0
+W Rhodes              not out                                  38            0
+Extras                (lb 3)                                    3
+Total                 (9 wickets dec, 142 overs)              376
+
+FoW: 1-5 (Fry), 2-13 (MacLaren), 3-35 (Ranjitsinhji),
+     4-112 (Jackson), 5-121 (Lilley), 6-212 (Hirst),
+     7-230 (Jessop), 8-264 (Braund), 9-295 (Tyldesley).
+
+Bowling                      O      M      R      W
+Jones                       28      9     76      3
+Noble                       44     15    112      1
+Trumper                     13      5     35      2
+Armstrong                   25      6     64      1
+Howell                      26      8     58      1
+Hopkins                      6      2     28      0
+
+Australia 1st innings                                           R   M   B  4 6
+VT Trumper                               b Hirst               18  70        0
+RA Duff               c Jessop           b Rhodes               2          0 0
+C Hill                c Braund           b Hirst                1          0 0
+SE Gregory            lbw                b Hirst                0          0 0
+*J Darling            c Jessop           b Rhodes               3          0 0
+MA Noble              st Lilley          b Rhodes               3          0 0
+WW Armstrong          c Lilley           b Rhodes               0   1   1  0 0
+AJY Hopkins           c Lilley           b Rhodes               5            0
++JJ Kelly             not out                                   1          0 0
+E Jones               c Jackson          b Rhodes               0   1   1  0 0
+WP Howell             c Fry              b Rhodes               0   1   1  0 0
+Extras                (b 3)                                     3
+Total                 (all out, 23 overs)                      36
+
+FoW: 1-9 (Duff), 2-10 (Hill), 3-14 (Gregory), 4-17 (Darling),
+     5-25 (Noble), 6-25 (Armstrong), 7-31 (Trumper),
+     8-35 (Hopkins), 9-35 (Jones), 10-36 (Howell).
+
+Bowling                      O      M      R      W
+Hirst                       11      4     15      3
+Rhodes                      11      3     17      7
+Braund                       1      0      1      0
+
+Australia 2nd innings (following on)                            R   M   B  4 6
+VT Trumper            c Braund           b Rhodes              14            0
+RA Duff               c Fry              b Braund              15            0
+C Hill                not out                                  10            0
+SE Gregory            not out                                   1          0 0
+Extras                (lb 4, w 1, nb 1)                         6
+Total                 (2 wickets, 28 overs)                    46
+
+DNB: *J Darling, MA Noble, WW Armstrong, AJY Hopkins, +JJ Kelly,
+     E Jones, WP Howell.
+
+FoW: 1-16 (Trumper), 2-41 (Duff).
+
+Bowling                      O      M      R      W
+Hirst                        9      6     10      0
+Rhodes                      10      5      9      1
+Braund                       5      0     14      1
+Jackson                      4      2      7      0
+
+<END>

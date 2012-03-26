@@ -1,0 +1,127 @@
+
+Test # 588
+The Frank Worrell Trophy, 1964/65, 3rd Test
+West Indies v Australia
+Bourda, Georgetown, British Guiana
+14,15,17,19,20 April 1965 (6-day match)
+
+Result: West Indies won by 212 runs
+Series: West Indies leads the 5-match series 2-0
+
+Toss: West Indies
+Umpires: GE Gomez and HBD Jordan
+
+Close of play:
+ Day 1: West Indies 201/2 (Kanhai 88*, Butcher 47*)
+ Day 2: West Indies 355, Australia 92/4 (O'Neill 10*, Booth 7*)
+ Day 3: Australia 179, West Indies 69/3 (Hunte 23*, Nurse 6*)
+ Day 4: West Indies 180, Australia 144/9 (McKenzie 6*, Mayne 0*)
+
+West Indies 1st innings                                         R   M   B  4 6
+CC Hunte              c McKenzie         b Philpott            31            0
+BA Davis                                 b Hawke               28            0
+RB Kanhai                                b Hawke               89            1
+BF Butcher            run out                                  49            0
+SM Nurse                             c & b Hawke               42            0
+*GS Sobers            c Grout            b Hawke               45            0
+JS Solomon            c Grout            b Hawke                0          0 0
++JL Hendriks          not out                                  31            1
+WW Hall               c Mayne            b Hawke                7            0
+CC Griffith           lbw                b O'Neill             19            0
+LR Gibbs                                 b O'Neill              2          0 0
+Extras                (b 7, lb 1, w 1, nb 3)                   12
+Total                 (all out, 107.2 overs)                  355
+
+FoW: 1-56 (Davis), 2-68 (Hunte), 3-203 (Kanhai), 4-210 (Butcher),
+     5-290 (Nurse), 6-290 (Solomon), 7-297 (Sobers),
+     8-309 (Hall), 9-353 (Griffith), 10-355 (Gibbs).
+
+Bowling                      O      M      R      W
+McKenzie                    23      2     92      0
+Hawke                       32      8     72      6
+Mayne                       12      1     54      0
+Philpott                    26      5     75      1
+O'Neill                      6.2    1     26      2
+Simpson                      7      1     23      0
+Cowper                       1      0      1      0
+
+Australia 1st innings                                           R   M   B  4 6
+*RB Simpson                              b Sobers               7            0
+WM Lawry              run out                                  20            0
+RM Cowper             c Hendriks         b Gibbs               41            0
+NC O'Neill                               b Griffith            27            0
+PI Philpott           c Butcher          b Sobers               5            0
+BC Booth              c Sobers           b Gibbs               37            0
+G Thomas                                 b Hall                 8            0
+NJN Hawke             c Sobers           b Hall                 0          0 0
++ATW Grout            run out                                  19            0
+GD McKenzie           not out                                   3          0 0
+LC Mayne                                 b Gibbs                5            0
+Extras                (lb 1, nb 6)                              7
+Total                 (all out, 64.5 overs)                   179
+
+FoW: 1-11 (Simpson), 2-68 (Cowper), 3-71 (Lawry),
+     4-85 (Philpott), 5-116 (O'Neill), 6-127 (Thomas),
+     7-130 (Hawke), 8-170 (Booth), 9-171 (Grout), 10-179 (Mayne).
+
+Bowling                      O      M      R      W
+Hall                        13      2     43      2
+Sobers                      12      2     38      2
+Griffith                    14      2     40      1
+Gibbs                       25.5    9     51      3
+
+West Indies 2nd innings                                         R   M   B  4 6
+CC Hunte              c Grout            b Hawke               38            0
+BA Davis                                 b McKenzie            17            0
+RB Kanhai                                b McKenzie             0          0 0
+BF Butcher                               b Hawke               18            0
+SM Nurse              st Grout           b Philpott             6            0
+*GS Sobers            c Simpson          b Philpott            42            0
+JS Solomon            c Simpson          b Philpott            17            0
++JL Hendriks          c Grout            b Hawke                2          0 0
+WW Hall               not out                                  20            0
+CC Griffith           c Thomas           b Philpott            13            0
+LR Gibbs                                 b Hawke                1          0 0
+Extras                (lb 3, w 1, nb 2)                         6
+Total                 (all out, 77.4 overs)                   180
+
+FoW: 1-31 (Davis), 2-31 (Kanhai), 3-62 (Butcher), 4-69 (Nurse),
+     5-125 (Hunte), 6-129 (Sobers), 7-146 (Hendriks),
+     8-146 (Solomon), 9-176 (Griffith), 10-180 (Gibbs).
+
+Bowling                      O      M      R      W
+McKenzie                    21      7     53      2
+Hawke                       20.4    7     43      4
+Mayne                        2      1      6      0
+Philpott                    16      3     49      4
+O'Neill                      1      0      4      0
+Simpson                     17      9     19      0
+
+Australia 2nd innings (target: 357 runs)                        R   M   B  4 6
+*RB Simpson                              b Griffith            23            0
+WM Lawry                                 b Gibbs               22            0
+RM Cowper             st Hendriks        b Gibbs               30            0
+NC O'Neill            c Sobers           b Gibbs               16            0
+BC Booth              c Hendriks         b Gibbs                0          0 0
+G Thomas              st Hendriks        b Solomon              5            0
+NJN Hawke             c Hendriks         b Sobers              14            0
+PI Philpott           c Sobers           b Gibbs                6            0
++ATW Grout                               b Sobers               8            0
+GD McKenzie                              b Gibbs                6            0
+LC Mayne              not out                                   0          0 0
+Extras                (b 4, lb 4, nb 6)                        14
+Total                 (all out, 58.2 overs)                   144
+
+FoW: 1-31 (Simpson), 2-88 (Lawry), 3-91 (Cowper),
+     4-104 (O'Neill), 5-109 (Booth), 6-115 (Thomas),
+     7-130 (Hawke), 8-130 (Philpott), 9-144 (Grout),
+     10-144 (McKenzie).
+
+Bowling                      O      M      R      W
+Hall                         2      1      1      0
+Sobers                      19      7     39      2
+Griffith                     6      1     30      1
+Gibbs                       22.2    9     29      6
+Solomon                      9      2     31      1
+
+<END>

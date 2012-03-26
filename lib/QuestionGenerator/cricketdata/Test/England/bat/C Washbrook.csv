@@ -1,0 +1,67 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+262, 1937-08-14, 2, 3, New Zealand, lbw, Vivian, 9, na, na, na, 0
+262, 1937-08-14, 4, 2, New Zealand, not out, , 8, na, na, na, 0
+276, 1946-06-22, 2, 2, India, c Mankad, Amarnath, 27, na, na, na, 0
+276, 1946-06-22, 4, 2, India, not out, , 24, na, na, na, 0
+277, 1946-07-20, 1, 2, India, c Hindlekar, Mankad, 52, na, na, na, 0
+277, 1946-07-20, 3, 2, India, lbw, Mankad, 26, na, na, na, 0
+278, 1946-08-17, 2, 2, India, c Mushtaq Ali, Mankad, 17, na, na, na, 0
+279, 1946-11-29, 2, 2, Australia, c Barnes, Miller, 6, 55, 30, 0, 0
+279, 1946-11-29, 3, 2, Australia, c Barnes, Miller, 13, 46, 39, 1, 0
+280, 1946-12-13, 1, 2, Australia, , Freer, 1, 8, 10, 0, 0
+280, 1946-12-13, 3, 2, Australia, c McCool, Johnson, 41, 87, 72, 1, 0
+281, 1947-01-01, 2, 2, Australia, c Tallon, Dooland, 62, 235, 207, 1, 1
+281, 1947-01-01, 4, 2, Australia, , Dooland, 112, 245, 299, 8, 1
+282, 1947-01-31, 1, 2, Australia, c Tallon, Dooland, 65, 178, 188, 5, 0
+282, 1947-01-31, 3, 2, Australia, c Tallon, Lindwall, 39, 87, 78, 2, 1
+283, 1947-02-28, 1, 2, Australia, , Lindwall, 0, 4, 2, 0, 0
+283, 1947-02-28, 3, 2, Australia, , McCool, 24, 50, 49, 2, 0
+284, 1947-03-21, 2, 1, New Zealand, c Smith, Cowie, 2, 3, na, 0, 0
+285, 1947-06-07, 2, 2, South Africa, lbw, Tuckett, 25, 60, na, na, 0
+285, 1947-06-07, 3, 2, South Africa, c Lindsay, Rowan, 59, 150, na, 2, 0
+286, 1947-06-21, 1, 2, South Africa, c Tuckett, Dawson, 65, 140, na, na, 0
+286, 1947-06-21, 4, 2, South Africa, not out, , 13, 30, na, na, 0
+287, 1947-07-05, 2, 2, South Africa, c Nourse, Tuckett, 29, 46, na, na, 0
+287, 1947-07-05, 4, 2, South Africa, c Lindsay, Dawson, 40, 53, na, na, 0
+288, 1947-07-26, 2, 2, South Africa, , Mann, 75, 190, na, 10, 0
+288, 1947-07-26, 4, 2, South Africa, not out, , 15, 38, na, na, 0
+289, 1947-08-16, 1, 2, South Africa, lbw, Mann, 32, 85, na, na, 0
+289, 1947-08-16, 3, 2, South Africa, c Fullerton, Rowan, 43, 69, na, na, 0
+299, 1948-06-10, 1, 2, Australia, c Brown, Lindwall, 6, 41, na, 0, 0
+299, 1948-06-10, 3, 2, Australia, c Tallon, Miller, 1, 10, na, 0, 0
+300, 1948-06-24, 2, 2, Australia, c Tallon, Lindwall, 8, na, na, na, 0
+300, 1948-06-24, 4, 2, Australia, c Tallon, Toshack, 37, na, na, na, 0
+301, 1948-07-08, 1, 1, Australia, , Johnston, 11, 30, na, 1, 0
+301, 1948-07-08, 3, 1, Australia, not out, , 85, 208, na, 11, 0
+302, 1948-07-22, 1, 2, Australia, c Lindwall, Johnston, 143, 317, na, 22, 0
+302, 1948-07-22, 3, 2, Australia, c Harvey, Johnston, 65, na, na, na, 1
+306, 1948-12-16, 2, 2, South Africa, c Wade, Mann, 35, na, na, na, 0
+306, 1948-12-16, 4, 2, South Africa, lbw, Mann, 25, 30, na, na, 0
+307, 1948-12-27, 1, 2, South Africa, c Begbie, McCarthy, 195, 295, na, 18, 0
+309, 1949-01-01, 1, 2, South Africa, , Rowan, 74, na, na, na, 0
+309, 1949-01-01, 3, 2, South Africa, c Mitchell, McCarthy, 9, na, na, na, 0
+312, 1949-02-12, 1, 2, South Africa, c EAB Rowan, McCarthy, 97, na, na, na, 1
+312, 1949-02-12, 3, 2, South Africa, lbw, AMB Rowan, 31, na, na, na, 0
+313, 1949-03-05, 2, 2, South Africa, c Dawson, AMB Rowan, 36, na, na, na, 0
+313, 1949-03-05, 4, 2, South Africa, c AMB Rowan, Mann, 40, na, na, na, 1
+314, 1949-06-11, 1, 2, New Zealand, c Sutcliffe, Cowie, 10, 35, na, na, 0
+314, 1949-06-11, 3, 2, New Zealand, not out, , 103, 180, na, 12, 0
+316, 1949-07-23, 2, 2, New Zealand, c Mooney, Cowie, 44, 142, na, 4, 0
+324, 1950-06-24, 2, 2, West Indies, st Walcott, Ramadhin, 36, na, na, na, 0
+324, 1950-06-24, 4, 2, West Indies, , Ramadhin, 114, 330, na, 14, 1
+325, 1950-07-20, 1, 2, West Indies, c Stollmeyer, Worrell, 3, na, na, 0, 0
+325, 1950-07-20, 3, 2, West Indies, c Worrell, Valentine, 102, 320, na, 9, 0
+327, 1950-12-01, 2, 2, Australia, c Hassett, Johnston, 19, 31, na, 2, 0
+327, 1950-12-01, 4, 2, Australia, c Loxton, Lindwall, 6, 29, na, 1, 0
+328, 1950-12-22, 2, 2, Australia, lbw, Lindwall, 21, 52, na, 1, 0
+328, 1950-12-22, 4, 2, Australia, , Iverson, 8, 33, na, 0, 0
+329, 1951-01-05, 1, 2, Australia, c Miller, Johnson, 18, 38, na, 2, 0
+329, 1951-01-05, 3, 2, Australia, , Iverson, 34, 75, na, 4, 0
+330, 1951-02-02, 2, 2, Australia, c Iverson, Lindwall, 2, 9, na, 0, 0
+330, 1951-02-02, 4, 2, Australia, lbw, Johnston, 31, 115, na, 0, 1
+331, 1951-02-23, 2, 2, Australia, c Tallon, Miller, 27, 32, na, 1, 0
+331, 1951-02-23, 4, 2, Australia, c Lindwall, Johnston, 7, 34, na, 1, 0
+332, 1951-03-17, 2, 2, New Zealand, c Mooney, Hayes, 58, 171, na, 5, 0
+427, 1956-07-12, 1, 5, Australia, lbw, Benaud, 98, 328, na, 13, 0
+428, 1956-07-26, 1, 6, Australia, lbw, Johnson, 6, 8, na, 1, 0
+429, 1956-08-23, 1, 7, Australia, lbw, Archer, 0, 6, na, 0, 0

@@ -1,0 +1,101 @@
+
+Test # 203
+West Indies in Australia, 1930/31, 3rd Test
+Australia v West Indies
+Exhibition Ground, Brisbane
+16,17,19,20 January 1931 (timeless match)
+
+Result: Australia won by an innings and 217 runs
+Series: Australia leads the 5-match series 3-0
+
+Toss: Australia
+Umpires: JP Orr and AE Wyeth
+
+Close of play:
+ Day 1: Australia 428/3 (Bradman 223*, McCabe 1*)
+ Day 2: Australia 558, West Indies 51/3 (Headley 21*, Grant 2*)
+ Day 3: West Indies 193, West Indies 115/8 (Sealy 2*, Francis 2*)
+
+Australia 1st innings                                           R   M   B  4 6
+WH Ponsford           c Birkett          b Francis            109 165     12 0
+A Jackson             lbw                b Francis              0   2   1  0 0
+DG Bradman            c Grant            b Constantine        223 297     24 0
+AF Kippax                                b Birkett             84 118      7 0
+SJ McCabe             c Constantine      b Griffith             8  37        0
+*WM Woodfull          c Barrow           b Griffith            17  46        0
+AG Fairfax            c Sealy            b Scott                9  40        0
+RK Oxenham            lbw                b Griffith            48  80      6 0
++WAS Oldfield         not out                                  38  89        0
+CV Grimmett           c Constantine      b Francis              4  11        0
+H Ironmonger          c Roach            b Griffith             2  12      0 0
+Extras                (b 2, lb 7, nb 7)                        16
+Total                 (all out, 147 overs)                    558
+
+FoW: 1-1 (Jackson), 2-230 (Ponsford), 3-423 (Kippax),
+     4-431 (Bradman), 5-441 (McCabe), 6-462 (Woodfull),
+     7-468 (Fairfax), 8-543 (Oxenham), 9-551 (Grimmett),
+     10-558 (Ironmonger).
+
+Bowling                      O      M      R      W
+Francis                     26      4     76      3
+Constantine                 26      2     74      1
+Griffith                    33      4    133      4
+Scott                       24      1    125      1
+Martin                      27      3     85      0
+Sealy                        3      0     32      0
+Birkett                      7      0     16      1
+Grant                        1      0      1      0
+
+West Indies 1st innings                                         R   M   B  4 6
+CA Roach              lbw                b Oxenham              4  15        0
+FR Martin             lbw                b Grimmett            21  65        0
+GA Headley            not out                                 102 247     10 0
+JED Sealy             c McCabe           b Ironmonger           3  17      0 0
+*GC Grant             c McCabe           b Grimmett             8            0
+LN Constantine        c Fairfax          b Ironmonger           9            0
+LS Birkett            lbw                b Oxenham              8          1 0
++IM Barrow            st Oldfield        b Grimmett            19  47        0
+OC Scott                                 b Oxenham              0          0 0
+GN Francis                               b Oxenham              8            0
+HC Griffith           lbw                b Grimmett             8            0
+Extras                (b 1, lb 2)                               3
+Total                 (all out, 104.3 overs)                  193
+
+FoW: 1-5 (Roach), 2-36 (Martin), 3-41 (Sealy), 4-60 (Grant),
+     5-94 (Constantine), 6-116 (Birkett), 7-159 (Barrow),
+     8-162 (Scott), 9-182 (Francis), 10-193 (Griffith).
+
+Bowling                      O      M      R      W
+Fairfax                      7      2     13      0
+Oxenham                     30     15     39      4
+Ironmonger                  26     15     43      2
+Grimmett                    41.3    9     95      4
+
+West Indies 2nd innings (following on)                          R   M   B  4 6
+CA Roach                                 b McCabe               1  15      0 0
+FR Martin             lbw                b Oxenham             11            0
+GA Headley            c Oldfield         b Ironmonger          28            0
+LN Constantine        lbw                b Oxenham              7            0
+LS Birkett                               b Grimmett            13            0
+*GC Grant             run out                                  10  60        0
++IM Barrow            st Oldfield        b Grimmett            17            0
+OC Scott              lbw                b Grimmett            15            0
+JED Sealy             not out                                  16            0
+GN Francis            c Oldfield         b Grimmett             7            0
+HC Griffith           c Bradman          b Grimmett            12            0
+Extras                (b 5, lb 4, nb 2)                        11
+Total                 (all out, 60.3 overs)                   148
+
+FoW: 1-13 (Roach), 2-29 (Martin), 3-47 (Headley),
+     4-58 (Constantine), 5-72 (Birkett), 6-82 (Grant),
+     7-94 (Barrow), 8-112 (Scott), 9-128 (Francis),
+     10-148 (Griffith).
+
+Bowling                      O      M      R      W
+Fairfax                      6      2      6      0
+Oxenham                     18      5     37      2
+Ironmonger                  15      8     29      1
+Grimmett                    14.3    4     49      5
+McCabe                       7      1     16      1
+
+<END>

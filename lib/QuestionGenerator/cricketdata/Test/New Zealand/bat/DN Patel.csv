@@ -1,0 +1,67 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+1068, 1987-02-20, 1, 5, West Indies, c Garner, Walsh, 18, 73, 59, 2, 0
+1068, 1987-02-20, 3, 5, West Indies, , Walsh, 20, 109, 91, 1, 0
+1070, 1987-02-27, 2, 5, West Indies, c Greenidge, Butts, 21, 83, 65, 0, 0
+1070, 1987-02-27, 3, 5, West Indies, lbw, Marshall, 5, 15, 8, 0, 0
+1072, 1987-03-12, 2, 5, West Indies, c Dujon, Gray, 0, 16, 11, 0, 0
+1072, 1987-03-12, 4, 5, West Indies, c Richardson, Walsh, 9, 11, 10, 1, 0
+1082, 1987-12-04, 1, 6, Australia, c Dyer, McDermott, 17, 80, 59, 2, 0
+1082, 1987-12-04, 3, 6, Australia, c Dyer, Hughes, 62, 179, 141, 7, 1
+1084, 1987-12-11, 1, 5, Australia, c Marsh, McDermott, 35, 100, 88, 3, 0
+1084, 1987-12-11, 3, 5, Australia, c Boon, May, 40, 130, 113, 4, 1
+1087, 1987-12-26, 1, 6, Australia, , McDermott, 0, 7, 2, 0, 0
+1087, 1987-12-26, 3, 6, Australia, c Dyer, Dodemaide, 38, 98, 60, 3, 1
+1115, 1989-02-10, 1, 5, Pakistan, lbw, Imran Khan, 0, 4, 3, 0, 0
+1115, 1989-02-10, 3, 5, Pakistan, c Saleem Yousuf, Saleem Jaffar, 2, 18, 12, 0, 0
+1129, 1989-11-24, 2, 5, Australia, c Boon, Hughes, 0, 5, 4, 0, 0
+1129, 1989-11-24, 3, 5, Australia, lbw, Alderman, 7, 48, 26, 0, 0
+1151, 1990-10-10, 1, 6, Pakistan, lbw, Waqar Younis, 2, 45, 31, 0, 0
+1151, 1990-10-10, 3, 6, Pakistan, lbw, Wasim Akram, 19, 52, 36, 4, 0
+1152, 1990-10-18, 1, 6, Pakistan, , Waqar Younis, 4, 58, 35, 0, 0
+1152, 1990-10-18, 3, 7, Pakistan, c Saleem Yousuf, Saleem Jaffar, 7, 53, 23, 1, 0
+1153, 1990-10-26, 2, 6, Pakistan, lbw, Waqar Younis, 0, 14, 8, 0, 0
+1153, 1990-10-26, 4, 7, Pakistan, c Saleem Yousuf, Saleem Jaffar, 45, 165, 105, 1, 0
+1164, 1991-02-22, 1, 7, Sri Lanka, not out, , 26, 97, 50, 3, 0
+1164, 1991-02-22, 3, 7, Sri Lanka, , Labrooy, 9, 19, 13, 2, 0
+1165, 1991-03-01, 2, 7, Sri Lanka, c Labrooy, Ramanayake, 41, 128, 98, 5, 0
+1165, 1991-03-01, 4, 7, Sri Lanka, not out, , 16, 60, 56, 3, 0
+1183, 1992-01-18, 2, 6, England, run out, , 99, 189, 134, 10, 2
+1183, 1992-01-18, 3, 8, England, c Pringle, Tufnell, 6, 23, 19, 1, 0
+1185, 1992-01-30, 2, 6, England, lbw, Lewis, 24, 60, 38, 5, 0
+1185, 1992-01-30, 4, 6, England,                c &, Tufnell, 17, 30, 26, 3, 0
+1187, 1992-02-06, 2, 7, England, lbw, Hick, 9, 20, 20, 1, 0
+1198, 1992-11-01, 3, 8, Zimbabwe, not out, , 11, 15, 13, 0, 1
+1199, 1992-11-07, 1, 6, Zimbabwe, c Campbell, Traicos, 6, 6, 10, 1, 0
+1199, 1992-11-07, 3, 6, Zimbabwe, not out, , 58, 128, 107, 5, 1
+1207, 1993-01-02, 2, 7, Pakistan, lbw, Mushtaq Ahmed, 12, 43, 33, 2, 0
+1207, 1993-01-02, 4, 9, Pakistan, , Waqar Younis, 4, 34, 25, 0, 0
+1215, 1993-02-25, 2, 8, Australia, c McDermott, Hughes, 35, 69, 64, 4, 0
+1215, 1993-02-25, 3, 8, Australia, , Warne, 8, 45, 26, 0, 0
+1216, 1993-03-04, 1, 8, Australia, not out, , 13, 39, 27, 1, 0
+1216, 1993-03-04, 3, 8, Australia, c Healy, ME Waugh, 25, 85, 74, 3, 0
+1217, 1993-03-12, 2, 8, Australia, c Healy, Warne, 2, 24, 16, 0, 0
+1235, 1993-11-12, 2, 6, Australia, c SR Waugh, Reiffel, 20, 71, 59, 2, 0
+1235, 1993-11-12, 4, 6, Australia, not out, , 18, 52, 46, 1, 0
+1236, 1993-11-26, 2, 5, Australia, c Taylor, Warne, 18, 71, 53, 1, 0
+1236, 1993-11-26, 3, 5, Australia, lbw, May, 16, 37, 25, 1, 0
+1238, 1993-12-03, 1, 7, Australia, c Boon, May, 1, 15, 16, 0, 0
+1238, 1993-12-03, 3, 8, Australia, , Warne, 3, 38, 32, 0, 0
+1291, 1995-03-04, 2, 9, South Africa, c Richardson, Donald, 15, 21, 19, 2, 0
+1291, 1995-03-04, 4, 7, South Africa, run out (Rhodes), , 12, 26, 16, 1, 0
+1293, 1995-03-18, 2, 6, Sri Lanka, , Muralitharan, 52, 178, 136, 3, 0
+1316, 1995-12-08, 2, 8, Pakistan, c Aamer Sohail, Wasim Akram, 3, 16, 14, 0, 0
+1316, 1995-12-08, 4, 8, Pakistan, , Mushtaq Ahmed, 15, 59, 41, 2, 0
+1322, 1996-01-13, 1, 8, Zimbabwe, c Olonga, PA Strang, 31, 83, 63, 4, 0
+1323, 1996-01-20, 1, 8, Zimbabwe, not out, , 7, 58, 33, 1, 0
+1326, 1996-04-27, 2, 9, West Indies, c Browne, Bishop, 78, 230, 174, 9, 0
+1339, 1996-11-21, 1, 10, Pakistan, lbw, Mushtaq Ahmed, 26, 64, 40, 3, 0
+1339, 1996-11-21, 3, 10, Pakistan, lbw, Shahid Nazir, 0, 4, 1, 0, 0
+1342, 1996-11-28, 1, 10, Pakistan, c Ijaz Ahmed, Mushtaq Ahmed, 21, 77, 50, 2, 0
+1342, 1996-11-28, 3, 10, Pakistan, lbw, Mohammad Zahid, 0, 19, 11, 0, 0
+1351, 1997-01-24, 1, 9, England, lbw, Gough, 0, 1, 1, 0, 0
+1351, 1997-01-24, 3, 9, England, lbw, Mullally, 0, 23, 15, 0, 0
+1354, 1997-02-06, 1, 8, England, c Cork, Caddick, 45, 99, 66, 6, 0
+1354, 1997-02-06, 3, 5, England, lbw, Croft, 0, 5, 2, 0, 0
+1358, 1997-03-07, 1, 9, Sri Lanka, not out, , 30, 47, 42, 1, 1
+1359, 1997-03-14, 1, 8, Sri Lanka, c Dharmasena, Muralitharan, 13, 36, 21, 2, 0
+1359, 1997-03-14, 3, 8, Sri Lanka, c PA de Silva, Dharmasena, 4, 14, 15, 0, 0

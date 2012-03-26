@@ -1,0 +1,58 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+1607, 2002-05-21, 2, 10, New Zealand, c Harris, Vettori, 0, 12, 11, 0, 0
+1607, 2002-05-21, 4, 8, New Zealand, c Astle, Butler, 2, 13, 10, 0, 0
+1622, 2002-10-30, 2, 9, India, lbw, Kumble, 0, 5, 5, 0, 0
+1630, 2002-11-08, 2, 9, Bangladesh, st Khaled Mashud, Mohammad Ashraful, 16, 45, 42, 1, 1
+1632, 2002-11-16, 2, 9, Bangladesh, , Tapash Baisya, 1, 27, 18, 0, 0
+1747, 2005-03-08, 1, 9, South Africa, , Ntini, 15, 24, 29, 3, 0
+1747, 2005-03-08, 3, 9, South Africa, c Kallis, Nel, 1, 5, 7, 0, 0
+1749, 2005-03-21, 1, 9, South Africa, c Boucher, Zondeki, 3, 12, 11, 0, 0
+1749, 2005-03-21, 3, 9, South Africa, lbw, Nel, 5, 16, 10, 1, 0
+1750, 2005-04-29, 2, 9, South Africa, , de Villiers, 12, 30, 39, 1, 0
+1752, 2005-04-26, 1, 8, Pakistan, , Abdul Razzaq, 10, 42, 26, 0, 0
+1752, 2005-04-26, 3, 8, Pakistan, , Naved-ul-Hasan, 5, 41, 33, 0, 0
+1754, 2005-05-03, 2, 8, Pakistan, c Kamran Akmal, Shabbir Ahmed, 14, 36, 27, 0, 1
+1754, 2005-05-03, 4, 8, Pakistan, c Yasir Hameed, Danish Kaneria, 12, 45, 31, 3, 0
+1755, 2005-06-13, 1, 9, Sri Lanka, c Jayawardene, Malinga, 3, 8, 7, 0, 0
+1755, 2005-06-13, 3, 9, Sri Lanka, c Jayawardene, Muralitharan, 0, 3, 1, 0, 0
+1757, 2005-06-22, 2, 9, Sri Lanka, , Vaas, 0, 2, 3, 0, 0
+1757, 2005-06-22, 4, 9, Sri Lanka, c Jayawardene, Muralitharan, 0, 10, 7, 0, 0
+1769, 2005-10-03, 2, 8, Australia, c Gilchrist, Warne, 4, 26, 25, 1, 0
+1769, 2005-10-03, 4, 8, Australia, lbw, Bracken, 0, 14, 4, 0, 0
+1771, 2005-10-17, 1, 9, Australia, c Gilchrist, Lee, 15, 42, 40, 1, 0
+1771, 2005-10-17, 3, 9, Australia, lbw, MacGill, 0, 26, 19, 0, 0
+1773, 2005-10-25, 1, 9, Australia, lbw, McGrath, 14, 77, 50, 2, 0
+1773, 2005-10-25, 3, 4, Australia, , Warne, 2, 37, 24, 0, 0
+1790, 2006-02-17, 1, 10, New Zealand, c How, Mills, 16, 36, 27, 2, 1
+1790, 2006-02-17, 3, 10, New Zealand, c How, Mills, 7, 20, 16, 0, 0
+1816, 2006-10-19, 2, 9, Pakistan, lbw, Abdul Razzaq, 9, 32, 19, 2, 0
+1818, 2006-11-27, 2, 9, Pakistan, , Umar Gul, 1, na, 18, 0, 0
+1818, 2006-11-27, 4, 9, Pakistan, c Younis Khan, Danish Kaneria, 0, na, 1, 0, 0
+1831, 2007-04-17, 2, 9, England, not out, , 36, 91, 60, 7, 0
+1834, 2007-04-25, 2, 8, England, c Collingwood, Plunkett, 8, 21, 15, 1, 0
+1834, 2007-04-25, 3, 3, England, lbw, Sidebottom, 0, 11, 10, 0, 0
+1836, 2007-05-15, 1, 9, England, c Prior, Harmison, 1, 5, 3, 0, 0
+1836, 2007-05-15, 3, 9, England, c Vaughan, Harmison, 4, 13, 12, 1, 0
+1856, 2007-11-26, 1, 10, South Africa, not out, , 1, 38, 17, 0, 0
+1856, 2007-11-26, 3, 10, South Africa, , Harris, 6, 21, 15, 1, 0
+1858, 2008-01-02, 1, 10, South Africa, c Kallis, Nel, 0, 14, 8, 0, 0
+1858, 2008-01-02, 3, 10, South Africa, c Smith, Steyn, 1, 21, 17, 0, 0
+1860, 2008-01-10, 1, 10, South Africa, not out, , 15, 23, 10, 3, 0
+1860, 2008-01-10, 3, 9, South Africa, , Steyn, 0, 3, 2, 0, 0
+1869, 2008-02-22, 2, 11, Sri Lanka, c DPMD Jayawardene, Thushara, 12, 51, 43, 1, 0
+1869, 2008-02-22, 4, 11, Sri Lanka, c Muralitharan, Vaas, 14, 19, 13, 3, 0
+1872, 2008-03-03, 2, 10, Sri Lanka, lbw, Muralitharan, 3, na, 8, 0, 0
+1875, 2008-04-22, 2, 9, Australia, , Lee, 3, 15, 17, 0, 0
+1875, 2008-04-22, 4, 9, Australia, c Haddin, MacGill, 27, 51, 35, 6, 0
+1877, 2008-05-30, 2, 10, Australia, lbw, Lee, 0, 2, 2, 0, 0
+1879, 2008-05-12, 2, 10, Australia, c Haddin, Lee, 9, 6, 6, 2, 0
+1879, 2008-05-12, 4, 10, Australia, c Haddin, Lee, 6, 27, 18, 1, 0
+1897, 2008-11-11, 2, 9, New Zealand, lbw, Vettori, 0, 1, 1, 0, 0
+1900, 2008-11-19, 1, 10, New Zealand, c McCullum, O'Brien, 6, 14, 6, 1, 0
+1900, 2008-11-19, 3, 10, New Zealand, lbw, Vettori, 22, 39, 37, 2, 1
+1906, 2009-01-04, 2, 10, England, c Prior, Harmison, 9, 33, 23, 0, 0
+1908, 2009-01-15, 2, 3, England, c Collingwood, Swann, 22, 129, 86, 2, 0
+1908, 2009-01-15, 4, 10, England, not out, , 22, 65, 55, 2, 0
+1911, 2009-02-26, 2, 10, England, not out, , 13, 36, 30, 0, 0
+1914, 2009-02-06, 2, 3, England, c Pietersen, Broad, 0, 20, 14, 0, 0
+1914, 2009-02-06, 4, 9, England, , Anderson, 0, 24, 18, 0, 0

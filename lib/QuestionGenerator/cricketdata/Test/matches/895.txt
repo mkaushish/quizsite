@@ -1,0 +1,127 @@
+
+Test # 895
+India in Australia, 1980/81, 3rd Test
+Australia v India
+Melbourne Cricket Ground
+7,8,9,10,11 February 1981 (5-day match)
+
+Result: India won by 59 runs
+Series: 3-match series drawn 1-1
+
+Toss: Australia
+Umpires: MW Johnson and RV Whitehead
+Player of the match: GR Viswanath
+Player of the series: DK Lillee
+
+Close of play:
+ Day 1: India 237, Australia 12/0 (Dyson 9*, Wood 1*)
+ Day 2: Australia 272/4 (Border 95*, Walters 36*)
+ Day 3: Australia 419, India 108/0 (Gavaskar 59*, Chauhan 41*)
+ Day 4: India 324, Australia 24/3 (Hughes 4*, Yardley 4*)
+
+India 1st innings                                               R   M   B  4 6
+*SM Gavaskar          c Hughes           b Pascoe              10  93  70  0 0
+CPS Chauhan           c Yardley          b Pascoe               0   5   3  0 0
+DB Vengsarkar         c Border           b Lillee              12  39  28  1 0
+GR Viswanath          c Chappell         b Yardley            114 274 222 11 0
+SM Patil              c Hughes           b Lillee              23  47  33  4 0
+Yashpal Sharma        c Marsh            b Lillee               4  12   9  0 0
+N Kapil Dev           c Hughes           b Pascoe               5  17  13  1 0
++SMH Kirmani          c Marsh            b Lillee              25  58  44  1 0
+KD Ghavri             run out                                   0  25  21  0 0
+NS Yadav              not out                                  20  79  55  2 0
+DR Doshi              c Walters          b Yardley              0  16  16  0 0
+Extras                (b 1, lb 8, w 6, nb 9)                   24
+Total                 (all out, 84 overs, 337 mins)           237
+
+FoW: 1-0 (Chauhan), 2-22 (Vengsarkar), 3-43 (Gavaskar),
+     4-91 (Patil), 5-99 (Yashpal Sharma), 6-115 (Kapil Dev),
+     7-164 (Kirmani), 8-190 (Ghavri), 9-230 (Viswanath),
+     10-237 (Doshi).
+
+Bowling                      O      M      R      W
+Lillee                      25      6     65      4
+Pascoe                      22     11     29      3
+Chappell                     5      2      9      0
+Yardley                     13      3     45      2
+Higgs                       19      2     65      0
+
+Australia 1st innings                                           R   M   B  4 6
+J Dyson               c Kirmani          b Kapil Dev           16  42  41  0 0
+GM Wood               c Doshi            b Ghavri              10  49  25  0 0
+*GS Chappell                         c & b Ghavri              76 227 175  6 0
+KJ Hughes             c Chauhan          b Yadav               24  81  64  4 0
+AR Border                                b Yadav              124 303 265 12 0
+KD Walters            st Kirmani         b Doshi               78 209 148  6 0
++RW Marsh             c sub (KBJ Azad)   b Doshi               45 129 118  3 0
+B Yardley             lbw                b Doshi                0   2   5  0 0
+DK Lillee                            c & b Patil               19  77  72  2 0
+LS Pascoe             lbw                b Patil                3  18  17  0 0
+JD Higgs              not out                                   1  15  15  0 0
+Extras                (b 12, lb 6, nb 5)                       23
+Total                 (all out, 156.3 overs, 580 mins)        419
+
+FoW: 1-30 (Dyson), 2-32 (Wood), 3-81 (Hughes), 4-189 (Chappell),
+     5-320 (Border), 6-356 (Walters), 7-356 (Yardley),
+     8-413 (Lillee), 9-413 (Marsh), 10-419 (Pascoe).
+
+Bowling                      O      M      R      W
+Kapil Dev                   19      7     41      1
+Doshi                       52     14    109      3
+Ghavri                      39      4    110      2
+Yadav                       32      6    100      2
+Chauhan                      2      0      8      0
+Patil                       12.3    4     28      2
+
+India 2nd innings                                               R   M   B  4 6
+*SM Gavaskar          lbw                b Lillee              70 226 180  5 0
+CPS Chauhan           c Yardley          b Lillee              85 243 198 12 0
+DB Vengsarkar         c Marsh            b Pascoe              41 116  91  3 0
+GR Viswanath                             b Lillee              30  94  72  3 0
+SM Patil              c Chappell         b Yardley             36  46  26  1 0
+Yashpal Sharma                           b Pascoe               9  18  23  1 0
++SMH Kirmani          run out                                   9  42  17  0 0
+N Kapil Dev                              b Yardley              0   2   1  0 0
+KD Ghavri             not out                                  11  39  42  1 0
+DR Doshi                                 b Lillee               7  17  12  1 0
+NS Yadav              absent hurt                               -
+Extras                (b 11, lb 8, nb 7)                       26
+Total                 (all out, 109.1 overs, 424 mins)        324
+
+FoW: 1-165 (Gavaskar), 2-176 (Chauhan), 3-243 (Viswanath),
+     4-245 (Vengsarkar), 5-260 (Yashpal Sharma), 6-296 (Patil),
+     7-296 (Kapil Dev), 8-308 (Kirmani), 9-324 (Doshi).
+
+Bowling                      O      M      R      W
+Lillee                      32.1    5    104      4
+Pascoe                      29      4     80      2
+Higgs                       15      3     41      0
+Yardley                     31     11     65      2
+Border                       2      0      8      0
+
+Australia 2nd innings (target: 143 runs)                        R   M   B  4 6
+J Dyson               c Kirmani          b Ghavri               3  27  24  0 0
+GM Wood               st Kirmani         b Doshi               10  56  41  0 0
+*GS Chappell                             b Ghavri               0   1   1  0 0
+KJ Hughes                                b Doshi               16  65  49  1 0
+B Yardley                                b Kapil Dev            7  73  58  1 0
+AR Border             c Kirmani          b Kapil Dev            9  51  24  1 0
+KD Walters            not out                                  18  71  60  1 0
++RW Marsh                                b Kapil Dev            3  17   8  0 0
+DK Lillee                                b Kapil Dev            4   7   5  1 0
+LS Pascoe             run out                                   6  15  15  0 0
+JD Higgs              lbw                b Kapil Dev            0  13   9  0 0
+Extras                (lb 5, nb 2)                              7
+Total                 (all out, 48.4 overs, 203 mins)          83
+
+FoW: 1-11 (Dyson), 2-11 (Chappell), 3-18 (Wood), 4-40 (Hughes),
+     5-50 (Yardley), 6-55 (Border), 7-61 (Marsh), 8-69 (Lillee),
+     9-79 (Pascoe), 10-83 (Higgs).
+
+Bowling                      O      M      R      W
+Ghavri                       8      4     10      2
+Patil                        2      0      5      0
+Doshi                       22      9     33      2
+Kapil Dev                   16.4    4     28      5
+
+<END>

@@ -1,0 +1,63 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+1466, 1999-11-29, 2, 1, Zimbabwe, lbw, Olonga, 20, 64, 56, 4, 0
+1468, 1999-11-11, 2, 2, Zimbabwe, c Johnson, Olonga, 33, 139, 92, 2, 0
+1514, 2000-10-17, 1, 1, New Zealand, c Astle, O'Connor, 0, 1, 2, 0, 0
+1514, 2000-10-17, 4, 1, New Zealand, c Parore, Tuffey, 27, 58, 48, 5, 0
+1519, 2000-11-30, 2, 2, New Zealand, lbw, Martin, 35, 127, 114, 4, 0
+1519, 2000-11-30, 4, 1, New Zealand, lbw, O'Connor, 0, 19, 15, 0, 0
+1522, 2000-11-08, 2, 1, New Zealand, , O'Connor, 100, 236, 192, 21, 0
+1526, 2000-11-26, 1, 1, Sri Lanka, c Kaluwitharana, Fernando, 11, 39, 27, 1, 0
+1526, 2000-11-26, 3, 1, Sri Lanka, lbw, Muralitharan, 22, 49, 36, 3, 0
+1529, 2001-01-20, 1, 1, Sri Lanka, c Kaluwitharana, Perera, 20, 29, 25, 4, 0
+1562, 2001-08-07, 4, 1, Zimbabwe, lbw, Friend, 0, 1, 1, 0, 0
+1563, 2001-08-14, 2, 5, Zimbabwe, c GW Flower, Price, 11, 59, 39, 2, 0
+1564, 2001-10-03, 2, 5, India, , Srinath, 20, 81, 62, 5, 0
+1569, 2001-10-16, 1, 5, India, c Dasgupta, Agarkar, 29, 171, 138, 4, 0
+1569, 2001-10-16, 3, 5, India, c Sehwag, Harbhajan Singh, 28, 95, 76, 4, 0
+1576, 2001-11-14, 2, 3, Australia, c Ponting, McGrath, 4, 8, 7, 1, 0
+1576, 2001-11-14, 4, 3, Australia, c Warne, McGrath, 0, 33, 27, 0, 0
+1580, 2001-11-26, 1, 3, Australia, c Hayden, Lee, 26, 71, 53, 4, 0
+1580, 2001-11-26, 3, 3, Australia, c Hayden, Warne, 23, 83, 49, 3, 0
+1582, 2002-01-02, 2, 3, Australia, , McGrath, 3, 12, 14, 0, 0
+1582, 2002-01-02, 3, 3, Australia, c Ponting, MacGill, 74, 146, 116, 14, 0
+1590, 2002-01-22, 2, 6, Australia, c Gilchrist, McGrath, 2, 37, 25, 0, 0
+1590, 2002-01-22, 3, 6, Australia, lbw, Warne, 1, 10, 8, 0, 0
+1635, 2002-11-26, 1, 5, Pakistan, c Kamran Akmal, Saqlain Mushtaq, 1, 10, 7, 0, 0
+1637, 2003-01-02, 1, 5, Pakistan, c Kamran Akmal, Saqlain Mushtaq, 62, 244, 146, 7, 0
+1640, 2003-03-24, 2, 4, Bangladesh, not out, , 177, 514, 369, 25, 2
+1642, 2003-04-01, 1, 4, Bangladesh, c Mehrab Hossain, Mohammad Rafique, 1, 12, 15, 0, 0
+1651, 2003-06-24, 1, 4, England, c Butcher, Gough, 22, 83, 62, 3, 0
+1651, 2003-06-24, 3, 4, England, not out, , 28, 72, 46, 2, 0
+1653, 2003-07-31, 2, 4, England, c Butcher, Giles, 92, 273, 202, 14, 0
+1654, 2003-07-14, 2, 5, England, lbw, Kirtley, 0, 1, 1, 0, 0
+1654, 2003-07-14, 4, 5, England, c Smith, Anderson, 1, 6, 7, 0, 0
+1664, 2003-09-17, 1, 5, Pakistan, c Imran Farhat, Shoaib Malik, 24, 81, 44, 3, 0
+1664, 2003-09-17, 3, 3, Pakistan, c Yousuf Youhana, Shoaib Akhtar, 27, 107, 82, 3, 0
+1666, 2003-09-24, 1, 3, Pakistan, c Taufeeq Umar, Shabbir Ahmed, 4, 17, 14, 1, 0
+1666, 2003-09-24, 3, 3, Pakistan, lbw, Shoaib Malik, 21, 64, 53, 3, 0
+1709, 2004-07-04, 2, 1, Sri Lanka, run out (Chandana/Muralitharan), , 46, 133, 113, 5, 0
+1709, 2004-07-04, 4, 2, Sri Lanka, c Jayawardene, Muralitharan, 11, 76, 56, 1, 0
+1710, 2004-07-11, 2, 7, Sri Lanka, c Dilshan, Herath, 25, 70, 60, 5, 0
+1710, 2004-07-11, 4, 6, Sri Lanka, not out, , 59, 216, 166, 8, 0
+1722, 2004-10-20, 1, 6, India, c Karthik, Ganguly, 48, 154, 127, 5, 0
+1722, 2004-10-20, 3, 6, India, not out, , 31, 88, 80, 4, 0
+1724, 2004-11-28, 1, 6, India, c Karthik, Pathan, 1, 17, 12, 0, 0
+1724, 2004-11-28, 3, 6, India, c Sehwag, Kumble, 2, 8, 8, 0, 0
+1728, 2004-11-17, 1, 5, England, c Trescothick, SP Jones, 110, 372, 245, 11, 0
+1728, 2004-11-17, 3, 5, England, , Giles, 10, 28, 26, 1, 0
+1732, 2005-01-02, 1, 5, England, , Giles, 29, 126, 101, 2, 0
+1732, 2005-01-02, 3, 5, England, c Vaughan, Flintoff, 44, 159, 127, 5, 0
+1734, 2005-01-13, 2, 5, England, c Trescothick, Flintoff, 0, 37, 20, 0, 0
+1734, 2005-01-13, 4, 5, England, c Giles, Hoggard, 14, 69, 46, 2, 0
+1749, 2005-03-21, 2, 3, West Indies, run out (sub [DR Smith]), , 71, 192, 158, 6, 1
+1750, 2005-04-29, 1, 3, West Indies, run out (Deonarine/Best/Browne), , 5, 19, 4, 0, 0
+1750, 2005-04-29, 3, 3, West Indies, not out, , 56, 132, 101, 7, 2
+1795, 2006-03-31, 1, 3, Australia, c Gilchrist, Clark, 32, 101, 69, 7, 0
+1795, 2006-03-31, 3, 3, Australia, c Hayden, Clark, 20, 40, 21, 4, 0
+1798, 2006-03-15, 1, 3, New Zealand, c Fulton, Mills, 52, 142, 96, 10, 0
+1798, 2006-03-15, 3, 3, New Zealand, c Fleming, Oram, 16, 58, 39, 3, 0
+1800, 2006-04-27, 2, 2, New Zealand, , Patel, 47, 151, 111, 4, 0
+1801, 2006-04-05, 2, 2, New Zealand, , Martin, 0, 2, 1, 0, 0
+1801, 2006-04-05, 4, 2, New Zealand, c McCullum, Martin, 37, 61, 48, 5, 0
+1830, 2007-01-26, 2, 1, Pakistan, lbw, Mohammad Asif, 0, 3, 3, 0, 0
+1830, 2007-01-26, 4, 2, Pakistan, c Kamran Akmal, Danish Kaneria, 3, 36, 20, 0, 0

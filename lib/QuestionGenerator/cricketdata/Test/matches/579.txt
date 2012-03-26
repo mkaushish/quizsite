@@ -1,0 +1,116 @@
+
+Test # 579
+New Zealand in India, 1964/65, 1st Test
+India v New Zealand
+Corporation Stadium, Madras
+27,28 February, 1,2 March 1965 (4-day match)
+
+Result: Match drawn
+Series: 4-match series level 0-0
+
+Toss: India
+Umpires: Mohammad Yunus and SK Raghunatha Rao
+Test debuts: S Venkataraghavan (India); TW Jarvis, V Pollard (New Zealand).
+
+Close of play:
+ Day 1: India 225/6 (Borde 68*, Nadkarni 14*)
+ Day 2: India 397, New Zealand 93/2 (Sinclair 25*, Reid 16*)
+ Day 3: New Zealand 283/9 (Ward 20*, Collinge 20*)
+
+India 1st innings                                               R   M   B  4 6
+DN Sardesai                              b Pollard             22  86      4 0
+ML Jaisimha           c Morgan           b Motz                51 160      9 0
+VL Manjrekar          c Dowling          b Pollard             19  65      1 0
+CG Borde              c Reid             b Motz                68 180     10 0
+*Nawab of Pataudi jnr                    b Motz                 9  13      1 0
+Hanumant Singh        c Ward             b Pollard              0  15      0 0
+SA Durani                                b Reid                34  96      4 0
+RG Nadkarni           c Collinge         b Yuile               75 177     10 0
++FM Engineer          c Pollard          b Yuile               90 115     14 0
+RF Surti              not out                                   9  31      1 0
+S Venkataraghavan                        b Collinge             4  24      0 0
+Extras                (b 10, lb 1, nb 5)                       16
+Total                 (all out, 143.5 overs)                  397
+
+FoW: 1-51 (Sardesai), 2-94 (Manjrekar), 3-94 (Jaisimha),
+     4-107 (Pataudi), 5-114 (Hanumant Singh), 6-202 (Durani),
+     7-232 (Borde), 8-375 (Engineer), 9-378 (Nadkarni),
+     10-397 (Venkataraghavan).
+
+Bowling                      O      M      R      W
+Collinge                    22.5    5     55      1
+Motz                        30      6     87      3
+Reid                        30     11     70      1
+Yuile                       20      7     62      2
+Pollard                     34     16     90      3
+Morgan                       7      2     17      0
+
+New Zealand 1st innings                                         R   M   B  4 6
+TW Jarvis                                b Durani               9 123      0 0
+GT Dowling                               b Venkataraghavan     29  75      5 0
+BW Sinclair                              b Venkataraghavan     30 145      4 0
+*JR Reid              lbw                b Nadkarni            42  45      7 1
+RW Morgan             lbw                b Durani              39 156      6 0
+B Sutcliffe                              b Surti               56 160      9 0
+BW Yuile              c Nadkarni         b Durani               0  17      0 0
+V Pollard             c Venkataraghavan  b Jaisimha             3  39      0 0
+RC Motz                                  b Nadkarni            11  60      2 0
++JT Ward              not out                                  35 130      6 0
+RO Collinge           lbw                b Borde               34  72      4 1
+Extras                (b 8, lb 10, w 3, nb 6)                  27
+Total                 (all out, 179 overs)                    315
+
+FoW: 1-38 (Dowling), 2-58 (Jarvis), 3-119 (Reid),
+     4-139 (Sinclair), 5-200 (Morgan), 6-200 (Yuile),
+     7-227 (Sutcliffe), 8-227 (Pollard), 9-254 (Motz),
+     10-315 (Collinge).
+
+Bowling                      O      M      R      W
+Jaisimha                    12      4     30      1
+Surti                       33     12     55      1
+Durani                      45     23     53      3
+Venkataraghavan             48     23     90      2
+Nadkarni                    36     21     42      2
+Borde                        5      2     18      1
+
+India 2nd innings                                               R   M   B  4 6
+DN Sardesai           retired hurt                              0   7   6  0 0
+ML Jaisimha           c Collinge         b Yuile               49  90      9 1
+VL Manjrekar          not out                                 102 200     14 0
+CG Borde                                 b Pollard             20  58      3 0
+RF Surti              not out                                  17  63      3 0
+Extras                (b 3, lb 1, nb 7)                        11
+Total                 (2 wickets dec, 58.1 overs)             199
+
+DNB: *Nawab of Pataudi jnr, Hanumant Singh, SA Durani,
+     RG Nadkarni, +FM Engineer, S Venkataraghavan.
+
+FoW: 1-88 (Jaisimha), 2-130 (Borde).
+
+Bowling                      O      M      R      W
+Collinge                     9      2     29      0
+Motz                        19      1     57      0
+Yuile                       11.1    0     53      1
+Pollard                     14      4     32      1
+Morgan                       5      2     17      0
+
+New Zealand 2nd innings (target: 282 runs)                      R   M   B  4 6
+TW Jarvis             not out                                  40  60      8 0
+GT Dowling            not out                                  21  60      4 0
+Extras                (nb 1)                                    1
+Total                 (0 wickets, 21 overs)                    62
+
+DNB: BW Sinclair, *JR Reid, RW Morgan, B Sutcliffe, BW Yuile,
+     V Pollard, RC Motz, +JT Ward, RO Collinge.
+
+Bowling                      O      M      R      W
+Jaisimha                     4      2      8      0
+Surti                        1      0     10      0
+Durani                       1      0      4      0
+Pataudi                      3      2      9      0
+Hanumant Singh               6      0     19      0
+Manjrekar                    6      4     11      0
+
+*** DN Sardesai retired hurt at 1/0
+
+<END>

@@ -1,0 +1,120 @@
+
+Test # 547
+The Wisden Trophy, 1963, 5th Test
+England v West Indies
+Kennington Oval, London
+22,23,24,26 August 1963 (5-day match)
+
+Result: West Indies won by 8 wickets
+Series: West Indies wins the 5-match series 3-1
+
+Toss: England
+Umpires: JS Buller and AEG Rhodes
+
+Close of play:
+ Day 1: England 275
+ Day 2: West Indies 231/8 (Solomon 15*, Griffith 3*)
+ Day 3: West Indies 246, England 223, West Indies 5/0 (Hunte 5*, Rodriguez 0*)
+
+England 1st innings                                             R   M   B  4 6
+JB Bolus              c Murray           b Sobers              33  87      3 0
+JH Edrich             c Murray           b Sobers              25  95      1 0
+*ER Dexter                           c & b Griffith            29  76      2 0
+KF Barrington         c Sobers           b Gibbs               16  50      1 0
+DB Close                                 b Griffith            46 127      6 0
+PJ Sharpe             c Murray           b Griffith            63 119      9 0
++JM Parks             c Kanhai           b Griffith            19  75      1 0
+FS Trueman                               b Griffith            19  28      2 0
+GAR Lock              hit wicket         b Griffith             4  16      0 0
+JB Statham                               b Hall                 8  23      0 0
+D Shackleton          not out                                   0   3      0 0
+Extras                (b 4, lb 2, nb 7)                        13
+Total                 (all out, 102.2 overs)                  275
+
+FoW: 1-59 (Bolus), 2-64 (Edrich), 3-103 (Barrington),
+     4-115 (Dexter), 5-216 (Close), 6-224 (Sharpe),
+     7-254 (Trueman), 8-258 (Lock), 9-275 (Parks),
+     10-275 (Statham).
+
+Bowling                      O      M      R      W
+Hall                        22.2    2     71      1
+Griffith                    27      4     71      6
+Sobers                      21      4     44      2
+Gibbs                       27      7     50      1
+Worrell                      5      0     26      0
+
+West Indies 1st innings                                         R   M   B  4 6
+CC Hunte              c Parks            b Shackleton          80 195      7 0
+WV Rodriguez          c Lock             b Statham              5  13      1 0
+RB Kanhai                                b Lock                30  77      3 0
+BF Butcher            run out                                  53 156      7 0
+GS Sobers             run out                                  26  68      2 0
+JS Solomon            c Trueman          b Statham             16 119      0 0
+*FMM Worrell                             b Statham              9  28      1 0
++DL Murray            c Lock             b Trueman              5   8      1 0
+WW Hall                                  b Trueman              2   8      0 0
+CC Griffith           not out                                  13  48      2 0
+LR Gibbs                                 b Trueman              4  12      0 0
+Extras                (lb 3)                                    3
+Total                 (all out, 104.1 overs)                  246
+
+FoW: 1-10 (Rodriguez), 2-72 (Kanhai), 3-152 (Hunte),
+     4-185 (Butcher), 5-198 (Sobers), 6-214 (Worrell),
+     7-221 (Murray), 8-225 (Hall), 9-233 (Solomon),
+     10-246 (Gibbs).
+
+Bowling                      O      M      R      W
+Trueman                     26.1    2     65      3
+Statham                     22      3     68      3
+Shackleton                  21      5     37      1
+Lock                        29      6     65      1
+Dexter                       6      1      8      0
+
+England 2nd innings                                             R   M   B  4 6
+JB Bolus              c Gibbs            b Sobers              15  53      0 0
+JH Edrich             c Murray           b Griffith            12  58      1 0
+*ER Dexter            c Murray           b Sobers              27  98      2 0
+KF Barrington                            b Griffith            28  28      4 0
+DB Close              lbw                b Sobers               4   3      1 0
+PJ Sharpe             c Murray           b Hall                83 197     10 0
++JM Parks             lbw                b Griffith            23  58      2 0
+FS Trueman            c Sobers           b Hall                 5  35      0 0
+GAR Lock                                 b Hall                 0   1      0 0
+JB Statham                               b Hall                14  22      3 0
+D Shackleton          not out                                   0  14      0 0
+Extras                (b 5, lb 3, nb 4)                        12
+Total                 (all out, 81 overs)                     223
+
+FoW: 1-29 (Bolus), 2-31 (Edrich), 3-64 (Barrington),
+     4-69 (Close), 5-121 (Dexter), 6-173 (Parks),
+     7-196 (Trueman), 8-196 (Lock), 9-218 (Statham),
+     10-223 (Sharpe).
+
+Bowling                      O      M      R      W
+Hall                        16      3     39      4
+Griffith                    23      7     66      3
+Sobers                      33      6     77      3
+Gibbs                        9      1     29      0
+
+West Indies 2nd innings (target: 253 runs)                      R   M   B  4 6
+CC Hunte              not out                                 108 306      9 0
+WV Rodriguez          c Lock             b Dexter              28 146      1 0
+RB Kanhai             c Bolus            b Lock                77  88     10 1
+BF Butcher            not out                                  31  68      3 0
+Extras                (b 4, lb 7)                              11
+Total                 (2 wickets, 95 overs)                   255
+
+DNB: GS Sobers, JS Solomon, *FMM Worrell, +DL Murray, WW Hall,
+     CC Griffith, LR Gibbs.
+
+FoW: 1-78 (Rodriguez), 2-191 (Kanhai).
+
+Bowling                      O      M      R      W
+Trueman                      1      1      0      0
+Statham                     22      2     54      0
+Shackleton                  32      7     68      0
+Lock                        25      8     52      1
+Dexter                       9      1     34      1
+Close                        6      0     36      0
+
+<END>

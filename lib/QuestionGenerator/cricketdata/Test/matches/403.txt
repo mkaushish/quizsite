@@ -1,0 +1,121 @@
+
+Test # 403
+Australia in West Indies, 1955, 1st Test
+West Indies v Australia
+Sabina Park, Kingston, Jamaica
+26,28,29,30,31 March 1955 (6-day match)
+
+Result: Australia won by 9 wickets
+Series: Australia leads the 5-match series 1-0
+
+Toss: Australia
+Umpires: P Burke and TA Ewart
+Test debuts: GL Gibbs, OG Smith (West Indies).
+
+Close of play:
+ Day 1: Australia 266/2 (Harvey 84*, Miller 64*)
+ Day 2: Australia 515/9 (Johnson 18*, Johnston 0*)
+ Day 3: Australia 515/9d, West Indies 221/5 (Walcott 95*, Smith 37*)
+ Day 4: West Indies 259, West Indies 186/3 (Smith 92*, Walcott 28*)
+
+Australia 1st innings                                           R   M   B  4 6
+CC McDonald           st Binns           b Valentine           50 115        0
+AR Morris             lbw                b Valentine           65 150      6 1
+RN Harvey             lbw                b Walcott            133 306     20 0
+KR Miller             lbw                b Walcott            147 346     15 0
+RR Lindwall           lbw                b Ramadhin            10            0
+PJP Burge                            c & b Atkinson            14            0
++LV Maddocks                             b Valentine            1          0 0
+R Benaud                                 b Walcott             46  85        0
+RG Archer             c Walcott          b Holt                24          5 0
+*IWG Johnson          not out                                  18            0
+WA Johnston           not out                                   0          0 0
+Extras                (b 3, lb 3, w 1)                          7
+Total                 (9 wickets dec, 201 overs)              515
+
+FoW: 1-102 (McDonald), 2-137 (Morris), 3-361 (Harvey),
+     4-391 (Lindwall), 5-417 (Miller), 6-430 (Burge),
+     7-435 (Maddocks), 8-475 (Archer), 9-506 (Benaud).
+
+Bowling                      O      M      R      W
+King                        28      7    122      0
+Worrell                      7      2     13      0
+Atkinson                    23      9     46      1
+Ramadhin                    46     12    112      1
+Valentine                   54     20    113      3
+Smith                       11      0     27      0
+Walcott                     26      9     50      3
+Gibbs                        3      1      5      0
+Holt                         3      0     20      1
+
+West Indies 1st innings                                         R   M   B  4 6
+JKC Holt              c Benaud           b Lindwall            31            0
+GL Gibbs              lbw                b Archer              12            0
++AP Binns             c Burge            b Archer               0       4  0 0
+ED Weekes             run out                                  19            0
+CL Walcott            c Benaud           b Miller             108         12 0
+FMM Worrell                              b Johnston             9  44        0
+OG Smith              lbw                b Lindwall            44 153        0
+*DS Atkinson          c Harvey           b Miller               1       5  0 0
+FM King               c Maddocks         b Lindwall             4            0
+S Ramadhin            not out                                  12            0
+AL Valentine                             b Lindwall             0          0 0
+Extras                (b 14, lb 2, nb 3)                       19
+Total                 (all out, 101 overs)                    259
+
+FoW: 1-27 (Gibbs), 2-27 (Binns), 3-56 (Weekes), 4-75 (Holt),
+     5-101 (Worrell), 6-239 (Smith), 7-240 (Atkinson),
+     8-243 (Walcott), 9-253 (King), 10-259 (Valentine).
+
+Bowling                      O      M      R      W
+Lindwall                    24      6     61      4
+Archer                      19      8     39      2
+Johnston                    23      4     75      1
+Benaud                      19      7     29      0
+Miller                      16      5     36      2
+
+West Indies 2nd innings (following on)                          R   M   B  4 6
+JKC Holt              c Maddocks         b Benaud              60 140     11 0
+GL Gibbs                                 b Johnston             0  36      0 0
+OG Smith              c Harvey           b Miller             104 220     14 0
+ED Weekes                            c & b Benaud               1          0 0
+CL Walcott            c Archer           b Lindwall            39            0
+*DS Atkinson          c Benaud           b Miller              30            0
++AP Binns             lbw                b Miller               0          0 0
+FMM Worrell                              b Archer               9            0
+FM King               c Maddocks         b Lindwall            21            0
+S Ramadhin            c Lindwall         b Archer               3          0 0
+AL Valentine          not out                                   2          0 0
+Extras                (b 5, nb 1)                               6
+Total                 (all out, 96.1 overs)                   275
+
+FoW: 1-20 (Gibbs), 2-122 (Holt), 3-132 (Weekes), 4-209 (Walcott),
+     5-213 (Smith), 6-213 (Binns), 7-239 (Worrell),
+     8-253 (Atkinson), 9-270 (Ramadhin), 10-275 (King).
+
+Bowling                      O      M      R      W
+Lindwall                    16.1    3     63      2
+Archer                      12      3     44      2
+Johnston                    16      3     54      1
+Benaud                      23      7     44      2
+Miller                      28      9     62      3
+Harvey                       1      0      2      0
+
+Australia 2nd innings (target: 20 runs)                         R   M   B  4 6
++LV Maddocks          not out                                  12            0
+AR Morris             c Gibbs            b Weekes               1          0 0
+CC McDonald           not out                                   7            0
+Extras                                                          0
+Total                 (1 wicket, 5.2 overs)                    20
+
+DNB: RN Harvey, KR Miller, RR Lindwall, PJP Burge, R Benaud,
+     RG Archer, *IWG Johnson, WA Johnston.
+
+FoW: 1-6 (Morris).
+
+Bowling                      O      M      R      W
+King                         2      0     10      0
+Weekes                       2.2    0      8      1
+Gibbs                        1      0      2      0
+
+<END>

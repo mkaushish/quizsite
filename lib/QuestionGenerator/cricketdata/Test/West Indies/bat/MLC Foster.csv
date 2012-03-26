@@ -1,0 +1,25 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+653, 1969-06-12, 2, 7, England, st Knott, Underwood, 4, 12, 14, 0, 0
+653, 1969-06-12, 3, 7, England, lbw, Brown, 3, 22, 14, 0, 0
+685, 1971-04-01, 1, 7, India, not out, , 36, 81, na, na, 0
+685, 1971-04-01, 3, 7, India, not out, , 24, na, na, na, 0
+686, 1971-04-13, 2, 7, India, , Abid Ali, 99, na, na, na, 0
+686, 1971-04-13, 4, 6, India, run out, , 18, na, na, na, 0
+693, 1972-02-16, 1, 5, New Zealand, not out, , 28, na, na, na, 0
+693, 1972-02-16, 3, 5, New Zealand, not out, , 13, na, na, na, 0
+694, 1972-03-09, 2, 5, New Zealand, , Howarth, 23, 83, na, na, 0
+694, 1972-03-09, 4, 5, New Zealand, c Burgess, Taylor, 3, na, na, 0, 0
+695, 1972-03-23, 1, 6, New Zealand, c Wadsworth, Taylor, 22, na, na, 4, 0
+695, 1972-03-23, 3, 6, New Zealand, lbw, Taylor, 4, na, na, na, 0
+714, 1973-02-16, 2, 6, Australia, , Walker, 125, 236, na, 16, 0
+714, 1973-02-16, 4, 5, Australia, not out, , 18, 33, na, 3, 0
+716, 1973-03-09, 2, 6, Australia, , Jenner, 12, 19, na, 3, 0
+718, 1973-03-23, 2, 2, Australia, lbw, Jenner, 25, 69, na, 2, 0
+718, 1973-03-23, 4, 6, Australia, c GS Chappell, O'Keeffe, 34, 80, na, 2, 0
+721, 1973-04-21, 2, 2, Australia, c Marsh, Walker, 29, 44, na, 6, 0
+721, 1973-04-21, 4, 2, Australia, c IM Chappell, Walker, 19, 51, na, 3, 0
+727, 1973-08-23, 1, 7, England, c Willis, Greig, 9, 57, 44, 1, 0
+797, 1977-02-18, 2, 6, Pakistan, , Sarfraz Nawaz, 15, na, na, na, 0
+797, 1977-02-18, 4, 6, Pakistan, , Sarfraz Nawaz, 4, na, na, na, 0
+824, 1978-04-28, 2, 6, Australia, c Rixon, Laughlin, 8, 26, na, 1, 0
+824, 1978-04-28, 4, 4, Australia, run out, , 5, 23, na, 0, 0

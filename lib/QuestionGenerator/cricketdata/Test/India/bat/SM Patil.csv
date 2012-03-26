@@ -1,0 +1,48 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+869, 1980-01-15, 2, 5, Pakistan, c Javed Miandad, Sikander Bakht, 15, 44, 22, 2, 0
+871, 1980-01-29, 1, 5, Pakistan, , Imran Khan, 62, 158, 96, 9, 0
+871, 1980-01-29, 3, 5, Pakistan, run out, , 31, 53, 44, 5, 0
+874, 1980-02-15, 1, 5, England, c Taylor, Botham, 30, 50, 34, 5, 0
+874, 1980-02-15, 3, 5, England, lbw, Botham, 0, 1, 1, 0, 0
+893, 1981-01-02, 1, 6, Australia, retired hurt, , 65, 142, 78, 9, 0
+893, 1981-01-02, 3, 8, Australia, c Wood, Lillee, 4, 5, 2, 1, 0
+894, 1981-01-23, 2, 6, Australia, lbw, Hogg, 174, 301, 240, 22, 1
+894, 1981-01-23, 4, 5, Australia, lbw, Lillee, 9, 22, 20, 0, 0
+895, 1981-02-07, 1, 5, Australia, c Hughes, Lillee, 23, 47, 33, 4, 0
+895, 1981-02-07, 3, 5, Australia, c Chappell, Yardley, 36, 46, 26, 1, 0
+897, 1981-02-21, 2, 5, New Zealand, c Smith, Troup, 64, 137, 113, 10, 0
+897, 1981-02-21, 4, 5, New Zealand, c Smith, Cairns, 42, 89, 62, 7, 0
+898, 1981-03-06, 1, 5, New Zealand, c Reid, Hadlee, 4, 10, 9, 1, 0
+899, 1981-03-13, 1, 4, New Zealand, c Smith, Cairns, 19, 28, 18, 4, 0
+899, 1981-03-13, 3, 6, New Zealand, , Bracewell, 57, 100, 93, 8, 1
+911, 1981-11-27, 1, 5, England, lbw, Botham, 17, 51, 36, 2, 0
+911, 1981-11-27, 3, 5, England, lbw, Botham, 13, 26, 20, 1, 0
+912, 1981-12-09, 2, 6, England, lbw, Lever, 17, 30, 19, 3, 0
+914, 1981-12-23, 2, 5, England, , Willis, 31, 109, 61, 3, 2
+916, 1982-01-01, 2, 5, England, c Fletcher, Emburey, 0, 2, 4, 0, 0
+916, 1982-01-01, 4, 5, England, not out, , 17, 93, 99, 2, 0
+929, 1982-06-24, 2, 7, England, not out, , 129, 212, 196, 18, 2
+930, 1982-07-08, 2, 5, England, c sub, Botham, 62, 122, 102, 9, 0
+934, 1982-09-17, 2, 5, Sri Lanka, not out, , 114, 216, na, 13, 1
+934, 1982-09-17, 4, 3, Sri Lanka, run out, , 46, na, na, na, 0
+941, 1982-12-10, 2, 6, Pakistan, run out, , 68, 97, 56, 11, 1
+942, 1982-12-23, 1, 6, Pakistan, c Javed Miandad, Abdul Qadir, 4, 25, 13, 1, 0
+942, 1982-12-23, 3, 6, Pakistan, , Imran Khan, 0, 3, 2, 0, 0
+945, 1983-01-03, 1, 6, Pakistan, c Wasim Bari, Imran Khan, 84, 132, 99, 14, 0
+945, 1983-01-03, 3, 6, Pakistan, , Imran Khan, 6, 14, 9, 1, 0
+946, 1983-01-14, 2, 8, Pakistan, c Imran Khan, Sarfraz Nawaz, 2, 24, 11, 0, 0
+946, 1983-01-14, 3, 8, Pakistan, c Imran Khan, Abdul Qadir, 9, 31, 23, 2, 0
+961, 1983-09-14, 1, 5, Pakistan, c Javed Miandad, Tahir Naqqash, 6, na, na, na, 0
+962, 1983-09-24, 2, 5, Pakistan, c Wasim Bari, Tahir Naqqash, 26, na, na, na, 0
+963, 1983-10-05, 1, 5, Pakistan, c Wasim Raja, Azeem Hafeez, 6, na, na, na, 0
+963, 1983-10-05, 3, 5, Pakistan, lbw, Wasim Raja, 26, na, na, na, 0
+964, 1983-10-21, 2, 5, West Indies, c Richards, Davis, 19, na, na, na, 0
+964, 1983-10-21, 3, 5, West Indies, , Davis, 3, na, na, 0, 0
+967, 1983-11-12, 2, 4, West Indies, c Dujon, Marshall, 22, na, na, na, 0
+967, 1983-11-12, 4, 4, West Indies, c Daniel, Marshall, 1, na, na, 0, 0
+995, 1984-10-17, 2, 5, Pakistan, c Saleem Malik, Azeem Hafeez, 0, na, na, 0, 0
+995, 1984-10-17, 3, 5, Pakistan, , Jalal-ud-Din, 7, na, na, na, 0
+996, 1984-10-24, 1, 5, Pakistan, c Zaheer Abbas, Mudassar Nazar, 127, na, 231, 18, 0
+1001, 1984-11-28, 2, 5, England, c Gower, Edmonds, 20, 52, 31, 4, 0
+1004, 1984-12-12, 1, 5, England, c Pocock, Edmonds, 30, 94, 82, 3, 0
+1004, 1984-12-12, 3, 5, England, c Lamb, Edmonds, 41, 124, 118, 4, 1

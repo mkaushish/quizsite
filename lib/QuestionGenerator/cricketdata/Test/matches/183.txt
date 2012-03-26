@@ -1,0 +1,126 @@
+
+Test # 183
+South Africa in England, 1929, 3rd Test
+England v South Africa
+Headingley, Leeds
+13,15,16 July 1929 (3-day match)
+
+Result: England won by 5 wickets
+Series: England leads the 5-match series 1-0
+
+Toss: South Africa
+Umpires: LC Braund and WR Parry
+Test debuts: EH Bowley (England); EA van der Merwe (South Africa).
+
+Close of play:
+ Day 1: South Africa 236, England 106/2 (Hammond 30*, Duckworth 5*)
+ Day 2: England 328, South Africa 116/7 (Owen-Smith 27*)
+
+South Africa 1st innings                                        R   M   B  4 6
+RH Catterall                             b Freeman             74            0
+IJ Siedle                                b Larwood              0          0 0
+B Mitchell                               b Tate                22            0
+DPB Morkel            st Duckworth       b Freeman             17            0
+JP Duminy                                b Freeman              2          0 0
+*HG Deane             c Duckworth        b Tate                20            0
+HGO Owen-Smith        c Hammond          b Freeman              6            0
+CL Vincent                               b Freeman             60            4
+NA Quinn              c Leyland          b Freeman              5            0
++EA van der Merwe     c Hammond          b Freeman             19            0
+AJ Bell               not out                                   2          0 0
+Extras                (lb 9)                                    9
+Total                 (all out, 100.3 overs)                  236
+
+FoW: 1-1 (Siedle), 2-75 (Mitchell), 3-120 (Catterall),
+     4-124 (Duminy), 5-125 (Morkel), 6-143 (Owen-Smith),
+     7-151 (Deane), 8-170 (Quinn), 9-219 (van der Merwe),
+     10-236 (Vincent).
+
+Bowling                      O      M      R      W
+Larwood                     17      4     35      1
+Tate                        26      8     40      2
+Freeman                     32.3    6    115      7
+Hammond                      8      2     13      0
+White                       17      6     24      0
+
+England 1st innings                                             R   M   B  4 6
+H Sutcliffe           c Mitchell         b Quinn               37            0
+EH Bowley             c Bell             b Quinn               31            0
+WR Hammond            c van der Merwe    b Quinn               65            0
++G Duckworth                             b Bell                21            0
+FE Woolley                               b Vincent             83            1
+EH Hendren            c van der Merwe    b Quinn                0          0 0
+M Leyland             c Duminy           b Quinn               45            0
+MW Tate               c Owen-Smith       b Vincent              3          0 0
+*JC White             not out                                  20            0
+H Larwood             c Deane            b Mitchell             0          0 0
+AP Freeman                               b Quinn               15            0
+Extras                (b 2, lb 4, nb 2)                         8
+Total                 (all out, 107.5 overs)                  328
+
+FoW: 1-42 (Bowley), 2-94 (Sutcliffe), 3-149 (Duckworth),
+     4-170 (Hammond), 5-170 (Hendren), 6-276 (Leyland),
+     7-285 (Tate), 8-295 (Woolley), 9-300 (Larwood),
+     10-328 (Freeman).
+
+Bowling                      O      M      R      W
+Morkel                      19      5     41      0
+Bell                        14      0     58      1
+Quinn                       29.5    5     92      6
+Vincent                     30      5     76      2
+Owen-Smith                   2      0      8      0
+Mitchell                    13      1     45      1
+
+South Africa 2nd innings                                        R   M   B  4 6
+RH Catterall                             b Tate                10            0
+IJ Siedle             c White            b Freeman             14            0
+B Mitchell            lbw                b White               24            0
+DPB Morkel            lbw                b Freeman             14            0
+JP Duminy                                b Woolley             12            0
+*HG Deane                                b White                4            0
+HGO Owen-Smith        c Sutcliffe        b Woolley            129            2
+CL Vincent                               b Woolley              0          0 0
+NA Quinn              st Duckworth       b White               28            1
++EA van der Merwe     c Duckworth        b Freeman              1          0 0
+AJ Bell               not out                                  26  65        0
+Extras                (b 6, lb 6, nb 1)                        13
+Total                 (all out, 111.1 overs)                  275
+
+FoW: 1-15 (Catterall), 2-25 (Siedle), 3-66 (Morkel),
+     4-66 (Mitchell), 5-73 (Deane), 6-116 (Duminy),
+     7-116 (Vincent), 8-167 (Quinn), 9-172 (van der Merwe),
+     10-275 (Owen-Smith).
+
+Bowling                      O      M      R      W
+Tate                        26      5     50      1
+Freeman                     35      7     92      3
+Hammond                      7      0     19      0
+White                       23      7     40      3
+Bowley                       4      1      7      0
+Woolley                     13.1    3     35      3
+Leyland                      3      0     19      0
+
+England 2nd innings (target: 184 runs)                          R   M   B  4 6
+H Sutcliffe           c Owen-Smith       b Morkel               4            0
+EH Bowley             c Mitchell         b Vincent             46            0
+WR Hammond                           c & b Morkel               0          0 0
+FE Woolley            not out                                  95            0
+EH Hendren            c Owen-Smith       b Vincent              5            0
+M Leyland                                b Vincent              0          0 0
+MW Tate               not out                                  24  45        0
+Extras                (b 8, lb 4)                              12
+Total                 (5 wickets, 52.4 overs)                 186
+
+DNB: +G Duckworth, *JC White, H Larwood, AP Freeman.
+
+FoW: 1-13 (Sutcliffe), 2-13 (Hammond), 3-98 (Bowley),
+     4-110 (Hendren), 5-110 (Leyland).
+
+Bowling                      O      M      R      W
+Morkel                      14      1     43      2
+Bell                         2      0     12      0
+Quinn                       17      2     46      0
+Vincent                     19      0     67      3
+Mitchell                     0.4    0      6      0
+
+<END>

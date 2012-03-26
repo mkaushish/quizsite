@@ -1,0 +1,122 @@
+
+Test # 297
+England in West Indies, 1947/48, 3rd Test
+West Indies v England
+Bourda, Georgetown, British Guiana
+3,4,5,6 March 1948 (5-day match)
+
+Result: West Indies won by 7 wickets
+Series: West Indies leads the 4-match series 1-0
+
+Toss: West Indies
+Umpires: J Da Silva and ES Gillette
+Test debuts: LR Pierre, J Trim (West Indies).
+
+Close of play:
+ Day 1: West Indies 284/5 (Worrell 127*, Weekes 36*)
+ Day 2: West Indies 297/8d, England 110/9 (Howorth 3*)
+ Day 3: England 111, England 226/6 (Evans 37*, Ikin 18*)
+
+West Indies 1st innings                                         R   M   B  4 6
+GM Carew                                 b Cranston            17            0
+*JDC Goddard                             b Allen                1          0 0
++CL Walcott           lbw                b Cranston            11            0
+RJ Christiani         c Hardstaff        b Tremlett            51            1
+FMM Worrell           not out                                 131 215     15 0
+GE Gomez              c Evans            b Cranston            36            0
+ED Weekes                                b Cranston            36            0
+EAV Williams                             b Laker                7            1
+W Ferguson            c Allen            b Laker                2          0 0
+Extras                (lb 1, w 3, nb 1)                         5
+Total                 (8 wickets dec, 105.4 overs)            297
+
+DNB: J Trim, LR Pierre.
+
+FoW: 1-7 (Goddard), 2-26 (Carew), 3-48 (Walcott),
+     4-127 (Christiani), 5-224 (Gomez), 6-284 (Weekes),
+     7-295 (Williams), 8-297 (Ferguson).
+
+Bowling                      O      M      R      W
+Allen                        2.4    0      5      1
+Tremlett                    14      4     35      1
+Cranston                    25      5     78      4
+Laker                       36     11     94      2
+Howorth                     23      4     58      0
+Ikin                         5      2     22      0
+
+England 1st innings                                             R   M   B  4 6
+L Hutton              c Williams         b Goddard             31            0
+JDB Robertson         c Ferguson         b Goddard             23            0
+W Place               c Christiani       b Goddard              1          0 0
+J Hardstaff jnr                          b Ferguson             3          0 0
+JT Ikin               c Ferguson         b Goddard              7            0
+K Cranston            st Walcott         b Ferguson            24            0
+R Howorth             c Ferguson         b Goddard              4            0
+JC Laker              c Walcott          b Ferguson            10            0
++TG Evans                                b Trim                 1          0 0
+MF Tremlett           c Christiani       b Trim                 0          0 0
+*GOB Allen            not out                                   0          0 0
+Extras                (b 4, lb 1, nb 2)                         7
+Total                 (all out, 50.2 overs)                   111
+
+FoW: 1-59 (Hutton), 2-61 (Robertson), 3-64 (Place),
+     4-64 (Hardstaff), 5-94 (Cranston), 6-96 (Ikin),
+     7-109 (Laker), 8-110 (Evans), 9-110 (Tremlett),
+     10-111 (Howorth).
+
+Bowling                      O      M      R      W
+Trim                        10      6      6      2
+Pierre                       2      0      9      0
+Williams                     6      0     21      0
+Goddard                     14.2    5     31      5
+Worrell                      2      0      5      0
+Ferguson                    15      5     23      3
+Gomez                        1      0      9      0
+
+England 2nd innings (following on)                              R   M   B  4 6
+L Hutton                                 b Ferguson            24            0
+JDB Robertson         lbw                b Ferguson             9            0
+W Place                                  b Ferguson            15            0
+J Hardstaff jnr       c Christiani       b Trim                63          6 1
+*GOB Allen            lbw                b Ferguson            20            0
+K Cranston            c Christiani       b Goddard             32            0
++TG Evans             c Goddard          b Williams            37            0
+JT Ikin               run out                                  24            0
+R Howorth             lbw                b Ferguson             2          0 0
+JC Laker              c Goddard          b Williams             6            0
+MF Tremlett           not out                                  18            1
+Extras                (b 4, lb 5, w 1, nb 3)                   13
+Total                 (all out, 106.4 overs)                  263
+
+FoW: 1-21 (Robertson), 2-51 (Place), 3-52 (Hutton),
+     4-137 (Allen), 5-145 (Hardstaff), 6-185 (Cranston),
+     7-226 (Evans), 8-233 (Howorth), 9-239 (Ikin),
+     10-263 (Laker).
+
+Bowling                      O      M      R      W
+Trim                        13      2     38      1
+Pierre                       5      0     19      0
+Williams                    24.4   12     34      2
+Goddard                     24      8     43      1
+Ferguson                    40      6    116      5
+
+West Indies 2nd innings (target: 78 runs)                       R   M   B  4 6
+GM Carew              c Allen            b Laker                8            0
+*JDC Goddard          lbw                b Laker                3          0 0
++CL Walcott           not out                                  31            0
+RJ Christiani         lbw                b Howorth              3          0 0
+GE Gomez              not out                                  25            0
+Extras                (lb 7, nb 1)                              8
+Total                 (3 wickets, 20 overs)                    78
+
+DNB: FMM Worrell, ED Weekes, EAV Williams, W Ferguson, J Trim,
+     LR Pierre.
+
+FoW: 1-10 (Goddard), 2-23 (Carew), 3-26 (Christiani).
+
+Bowling                      O      M      R      W
+Cranston                     2      0     11      0
+Laker                        9      1     34      2
+Howorth                      9      0     25      1
+
+<END>

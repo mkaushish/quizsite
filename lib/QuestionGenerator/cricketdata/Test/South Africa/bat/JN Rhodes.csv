@@ -1,0 +1,81 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+1200, 1992-11-13, 1, 5, India, c Azharuddin, Kumble, 41, 114, 84, 5, 0
+1200, 1992-11-13, 3, 5, India, not out, , 26, 77, 72, 2, 0
+1201, 1992-11-26, 1, 5, India, lbw, Kumble, 91, 243, 189, 10, 0
+1201, 1992-11-26, 3, 6, India, , Kumble, 13, 54, 34, 1, 0
+1206, 1992-12-26, 2, 6, India, c Prabhakar, Kumble, 2, 24, 19, 0, 0
+1209, 1993-01-02, 1, 6, India, c More, Srinath, 86, 287, 236, 11, 0
+1209, 1993-01-02, 3, 6, India, c Srinath, Kumble, 16, 111, 100, 0, 0
+1232, 1993-08-25, 2, 6, Sri Lanka, c Tillakaratne, Muralitharan, 8, 48, 31, 0, 0
+1232, 1993-08-25, 4, 6, Sri Lanka, not out, , 101, 262, 107, 14, 1
+1233, 1993-09-06, 2, 5, Sri Lanka, run out (Mahanama), , 10, 26, 21, 0, 0
+1234, 1993-09-14, 1, 5, Sri Lanka, st Dassanayake, Muralitharan, 7, 22, 17, 0, 0
+1234, 1993-09-14, 3, 5, Sri Lanka, , Muralitharan, 19, 111, 88, 1, 0
+1242, 1993-12-26, 2, 5, Australia, not out, , 35, 193, 124, 1, 0
+1243, 1994-01-02, 1, 5, Australia, lbw, Warne, 4, 31, 20, 0, 0
+1243, 1994-01-02, 3, 6, Australia, not out, , 76, 195, 162, 6, 1
+1246, 1994-01-28, 2, 5, Australia, , SR Waugh, 5, 19, 22, 0, 0
+1246, 1994-01-28, 4, 6, Australia, lbw, May, 4, 16, 13, 1, 0
+1252, 1994-03-04, 1, 6, Australia, c ME Waugh, McDermott, 69, 169, 126, 6, 1
+1252, 1994-03-04, 3, 6, Australia, c Healy, SR Waugh, 14, 50, 36, 2, 0
+1253, 1994-03-17, 1, 6, Australia, lbw, McGrath, 5, 18, 15, 0, 0
+1253, 1994-03-17, 3, 6, Australia, c Border, SR Waugh, 27, 179, 149, 2, 0
+1256, 1994-03-25, 2, 6, Australia, lbw, Warne, 78, 221, 190, 11, 0
+1263, 1994-07-21, 1, 6, England, , White, 32, 106, 79, 3, 0
+1263, 1994-07-21, 3, 6, England, , Gough, 32, 102, 68, 3, 1
+1264, 1994-08-04, 2, 7, England, c Rhodes, Gough, 46, 129, 97, 3, 1
+1266, 1994-08-18, 1, 6, England, retired hurt, , 8, 20, 14, 1, 0
+1266, 1994-08-18, 3, 9, England, c Rhodes, Malcolm, 10, 37, 20, 1, 0
+1276, 1994-11-25, 2, 6, New Zealand, lbw, Doull, 37, 94, 62, 6, 0
+1276, 1994-11-25, 4, 6, New Zealand, lbw, Doull, 0, 1, 1, 0, 0
+1280, 1994-12-26, 2, 6, New Zealand, c Fleming, Hart, 1, 15, 12, 0, 0
+1282, 1995-01-02, 2, 6, New Zealand, , Doull, 18, 65, 44, 1, 0
+1283, 1995-01-19, 1, 6, Pakistan, c Inzamam-ul-Haq, Aamer Nazir, 72, 188, 129, 7, 0
+1283, 1995-01-19, 3, 5, Pakistan, c Moin Khan, Wasim Akram, 16, 40, 33, 2, 0
+1291, 1995-03-04, 1, 7, New Zealand, c Parore, Nash, 0, 11, 8, 0, 0
+1291, 1995-03-04, 3, 6, New Zealand, , Larsen, 28, 107, 80, 3, 0
+1307, 1995-10-13, 2, 6, Zimbabwe, c A Flower, BC Strang, 15, 50, 33, 2, 1
+1307, 1995-10-13, 4, 4, Zimbabwe, , Streak, 6, 17, 11, 1, 0
+1315, 1995-11-30, 1, 5, England, c Russell, Cork, 5, 21, 14, 0, 0
+1315, 1995-11-30, 3, 5, England, c Russell, Fraser, 57, 171, 134, 7, 0
+1318, 1995-12-14, 1, 5, England, lbw, Ilott, 38, 310, 132, 4, 0
+1320, 1995-12-26, 1, 5, England, c Smith, Cork, 49, 154, 119, 5, 1
+1320, 1995-12-26, 3, 5, England, lbw, Cork, 0, 13, 8, 0, 0
+1321, 1996-01-02, 2, 5, England, c Russell, Fraser, 16, 99, 70, 0, 0
+1338, 1996-11-20, 2, 5, India, c Manjrekar, Joshi, 14, 47, 38, 0, 0
+1338, 1996-11-20, 4, 7, India, lbw, Srinath, 0, 1, 1, 0, 0
+1356, 1997-02-28, 1, 6, Australia, c Healy, Gillespie, 22, 36, 37, 3, 0
+1356, 1997-02-28, 3, 6, Australia, lbw, Warne, 8, 57, 44, 1, 0
+1381, 1997-10-17, 1, 6, Pakistan, , Mushtaq Ahmed, 11, 29, 12, 2, 0
+1397, 1998-01-30, 1, 7, Australia, c Bichel, Kasprowicz, 6, 24, 21, 1, 0
+1397, 1998-01-30, 3, 8, Australia, not out, , 19, 23, 26, 3, 0
+1417, 1998-06-04, 2, 6, England, c Stewart, Fraser, 95, 228, 156, 8, 1
+1419, 1998-06-18, 1, 6, England, c Stewart, Fraser, 117, 296, 200, 14, 1
+1420, 1998-07-02, 1, 6, England, c Cork, Gough, 12, 34, 23, 1, 0
+1421, 1998-07-23, 1, 6, England, lbw, Fraser, 24, 63, 44, 3, 0
+1421, 1998-07-23, 3, 6, England, c Stewart, Cork, 2, 10, 8, 0, 0
+1422, 1998-08-06, 2, 6, England, c Stewart, Gough, 32, 37, 39, 4, 0
+1422, 1998-08-06, 4, 6, England, c Flintoff, Gough, 85, 211, 147, 10, 1
+1429, 1998-11-26, 2, 6, West Indies, lbw, McLean, 17, 34, 24, 1, 0
+1429, 1998-11-26, 4, 6, West Indies, c Jacobs, Walsh, 9, 33, 24, 1, 0
+1433, 1998-12-10, 1, 6, West Indies, c Hooper, Ambrose, 17, 20, 14, 3, 0
+1433, 1998-12-10, 3, 6, West Indies, , Ambrose, 64, 149, 106, 8, 1
+1437, 1998-12-26, 2, 6, West Indies,                c &, Walsh, 87, 182, 129, 8, 2
+1440, 1999-01-02, 1, 6, West Indies, , Hooper, 34, 88, 68, 2, 1
+1440, 1999-01-02, 3, 6, West Indies, lbw, Hooper, 23, 59, 36, 0, 0
+1441, 1999-01-15, 1, 6, West Indies, c King, Dillon, 24, 37, 32, 4, 0
+1441, 1999-01-15, 3, 6, West Indies, not out, , 103, 104, 95, 8, 6
+1446, 1999-03-27, 1, 6, New Zealand, c Twose, Harris, 63, 165, 135, 9, 0
+1452, 1999-03-18, 2, 6, New Zealand, c Young, Vettori, 3, 38, 26, 0, 0
+1466, 1999-11-29, 2, 6, Zimbabwe, lbw, Olonga, 70, 172, 138, 8, 1
+1468, 1999-11-11, 2, 7, Zimbabwe, c GW Flower, Mbangwa, 4, 17, 9, 1, 0
+1471, 1999-11-25, 2, 6, England, lbw, Mullally, 26, 115, 81, 1, 0
+1475, 1999-12-09, 1, 6, England, c Atherton, Flintoff, 50, 176, 132, 5, 0
+1475, 1999-12-09, 3, 6, England, not out, , 57, 177, 145, 6, 0
+1482, 2000-01-02, 2, 6, England, c Adams, Silverwood, 16, 32, 29, 2, 0
+1504, 2000-06-20, 2, 5, Sri Lanka, , Muralitharan, 12, 34, 26, 1, 0
+1504, 2000-06-20, 3, 5, Sri Lanka, not out, , 63, 144, 107, 6, 0
+1505, 2000-07-30, 1, 5, Sri Lanka, , Dharmasena, 12, 24, 22, 0, 0
+1505, 2000-07-30, 3, 5, Sri Lanka, c Sangakkara, Jayasuriya, 33, 85, 66, 2, 1
+1507, 2000-07-06, 1, 5, Sri Lanka, , Muralitharan, 21, 52, 53, 3, 0
+1507, 2000-07-06, 3, 5, Sri Lanka, c Jayawardene, Muralitharan, 54, 172, 151, 5, 0

@@ -1,0 +1,115 @@
+
+Test # 1155
+The Ashes, 1990/91, 1st Test
+Australia v England
+Brisbane Cricket Ground, Woolloongabba, Brisbane
+23,24,25 November 1990 (5-day match)
+
+Result: Australia won by 10 wickets
+Series: Australia leads the 5-match series 1-0
+
+Toss: Australia
+Umpires: AR Crafter and PJ McConnell
+Player of the match: TM Alderman
+
+Close of play:
+ Day 1: England 194, Australia 16/0 (Marsh 6*, Taylor 4*)
+ Day 2: Australia 152, England 56/3 (Lamb 10*, Russell 1*)
+
+England 1st innings                                             R   M   B  4 6
+MA Atherton           lbw                b Reid                13  91  54  0 0
+W Larkins             c Healy            b Hughes              12  42  37  1 0
+DI Gower              c Healy            b Reid                61 162 121  8 0
+*AJ Lamb              c Hughes           b Matthews            32 106  78  5 0
+RA Smith                                 b Reid                 7  20  13  0 0
+AJ Stewart            lbw                b Reid                 4  22  17  1 0
++RC Russell                          c & b Alderman            16  93  74  2 0
+CC Lewis              c Border           b Hughes              20  44  31  3 1
+GC Small              not out                                  12  57  35  1 0
+ARC Fraser            c Healy            b Alderman             1   8   5  0 0
+DE Malcolm            c Waugh            b Hughes               5   8   7  1 0
+Extras                (b 1, lb 7, nb 3)                        11
+Total                 (all out, 78 overs, 331 mins)           194
+
+FoW: 1-23 (Larkins), 2-43 (Atherton), 3-117 (Lamb),
+     4-123 (Gower), 5-134 (Smith), 6-135 (Stewart),
+     7-167 (Lewis), 8-181 (Russell), 9-187 (Fraser),
+     10-194 (Malcolm).
+
+Bowling                      O      M      R      W
+Alderman                    18      5     44      2
+Reid                        18      3     53      4 (2nb)
+Hughes                      19      5     39      3 (1nb)
+Waugh                        7      2     20      0
+Matthews                    16      8     30      1
+
+Australia 1st innings                                           R   M   B  4 6
+GR Marsh              lbw                b Fraser               9  29  31  1 0
+MA Taylor             c Lewis            b Fraser              10  69  44  1 0
+DC Boon               lbw                b Small               18  85  42  0 0
+*AR Border            c Atherton         b Small                9  33  30  1 0
+DM Jones              c Small            b Lewis               17  85  42  2 0
+SR Waugh              c Smith            b Small                1   7   4  0 0
+GRJ Matthews          c Small            b Malcolm             35 127  93  2 0
++IA Healy             c Atherton         b Lewis               22 101  71  2 0
+MG Hughes             c Russell          b Fraser               9  23  23  1 0
+BA Reid                                  b Lewis                0   9   8  0 0
+TM Alderman           not out                                   0   4   3  0 0
+Extras                (b 1, lb 10, nb 11)                      22
+Total                 (all out, 63 overs, 285 mins)           152
+
+FoW: 1-22 (Marsh), 2-35 (Taylor), 3-49 (Border), 4-60 (Boon),
+     5-64 (Waugh), 6-89 (Jones), 7-135 (Matthews),
+     8-150 (Hughes), 9-150 (Healy), 10-152 (Reid).
+
+Bowling                      O      M      R      W
+Malcolm                     17      2     45      1 (3nb)
+Fraser                      21      6     33      3 (5nb)
+Small                       16      4     34      3
+Lewis                        9      0     29      3 (3nb)
+
+England 2nd innings                                             R   M   B  4 6
+MA Atherton                              b Alderman            15  64  44  1 0
+W Larkins             lbw                b Reid                 0   6   1  0 0
+DI Gower                                 b Hughes              27  63  44  2 0
+*AJ Lamb              lbw                b Alderman            14  32  24  2 0
++RC Russell           lbw                b Waugh               15 116  84  1 0
+RA Smith              c Taylor           b Alderman             1  34  14  0 0
+AJ Stewart            c sub (PE Cantrell) b Alderman            6  16  10  0 0
+CC Lewis              lbw                b Alderman            14  71  47  0 0
+GC Small              c Alderman         b Hughes              15  54  42  1 0
+ARC Fraser            c sub (PE Cantrell) b Alderman            0  14   8  0 0
+DE Malcolm            not out                                   0   5   5  0 0
+Extras                (lb 3, nb 4)                              7
+Total                 (all out, 53.1 overs, 242 mins)         114
+
+FoW: 1-0 (Larkins), 2-42 (Atherton), 3-46 (Gower), 4-60 (Lamb),
+     5-78 (Smith), 6-84 (Stewart), 7-93 (Russell), 8-112 (Lewis),
+     9-114 (Fraser), 10-114 (Small).
+
+Bowling                      O      M      R      W
+Alderman                    22      7     47      6 (1nb)
+Reid                        14      3     40      1 (1nb)
+Hughes                      12.1    5     17      2 (2nb)
+Matthews                     1      1      0      0
+Waugh                        4      2      7      1
+
+Australia 2nd innings (target: 157 runs)                        R   M   B  4 6
+MA Taylor             not out                                  67 198 139  7 0
+GR Marsh              not out                                  72 198 154  9 0
+Extras                (b 3, lb 2, w 3, nb 10)                  18
+Total                 (0 wickets, 46 overs)                   157
+
+DNB: DC Boon, *AR Border, DM Jones, SR Waugh, GRJ Matthews,
+     +IA Healy, MG Hughes, BA Reid, TM Alderman.
+
+Bowling                      O      M      R      W
+Fraser                      14      2     49      0 (1nb)
+Small                       15      2     36      0 (1nb, 3w)
+Malcolm                      9      5     22      0 (1nb)
+Lewis                        6      0     29      0
+Atherton                     2      0     16      0
+
+*** Twelfth men: C.G.Rackemann (A) and M.P.Bicknell (E)
+
+<END>

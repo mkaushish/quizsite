@@ -1,0 +1,44 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+313, 1949-03-05, 1, 6, England,                c &, Bedser, 2, na, na, 0, 0
+313, 1949-03-05, 3, 3, England, c Compton, Young, 18, na, na, na, 0
+318, 1949-12-24, 2, 6, Australia, lbw, Johnston, 10, na, na, na, 0
+318, 1949-12-24, 3, 6, Australia, c Hassett, Johnston, 35, na, na, na, 0
+319, 1950-12-31, 2, 6, Australia, c McCool, Miller, 3, na, na, 0, 0
+319, 1950-12-31, 3, 6, Australia, c Saggers, Lindwall, 27, na, na, na, 0
+320, 1950-01-20, 1, 7, Australia, c Hassett, Johnston, 4, na, na, na, 0
+320, 1950-01-20, 3, 6, Australia, c Hassett, Johnson, 1, na, na, 0, 0
+334, 1951-06-07, 1, 5, England, c Ikin, Bedser, 31, na, na, na, 0
+334, 1951-06-07, 3, 5, England, , Bedser, 28, na, na, na, 0
+335, 1951-06-21, 2, 5, England, c Hutton, Tattersall, 15, na, na, na, 0
+335, 1951-06-21, 3, 5, England, , Statham, 54, 135, na, 7, 0
+336, 1951-07-05, 1, 5, England, c Hutton, Bedser, 20, 55, na, 2, 0
+336, 1951-07-05, 3, 5, England, , Bedser, 46, 122, na, 5, 1
+337, 1951-07-26, 1, 5, England, , Bedser, 7, na, na, na, 0
+338, 1951-08-16, 1, 5, England, lbw, Laker, 0, na, na, 0, 0
+338, 1951-08-16, 3, 5, England, c Hutton, Tattersall, 18, na, na, na, 0
+359, 1952-12-05, 2, 6, Australia, c Langley, Lindwall, 26, 96, na, 1, 0
+359, 1952-12-05, 4, 6, Australia, , Johnston, 18, 87, na, 1, 0
+361, 1952-12-24, 1, 6, Australia, c Johnston, Miller, 15, 28, na, 0, 0
+361, 1952-12-24, 3, 6, Australia, lbw, Johnston, 6, 43, na, 0, 0
+362, 1953-01-09, 1, 6, Australia, c Johnston, Miller, 5, 40, na, 0, 0
+362, 1953-01-09, 3, 5, Australia, c Morris, Lindwall, 5, 20, na, 0, 0
+364, 1953-01-24, 2, 7, Australia, , Johnston, 6, 27, na, 1, 0
+364, 1953-01-24, 4, 7, Australia, not out, , 13, 29, na, 1, 0
+365, 1953-02-06, 2, 7, Australia, c McDonald, Johnston, 66, 193, na, 7, 0
+368, 1953-03-06, 1, 7, New Zealand, , Burtt, 17, na, na, na, 0
+370, 1953-03-13, 1, 6, New Zealand, run out, , 54, 160, na, 6, 0
+370, 1953-03-13, 3, 7, New Zealand, not out, , 10, na, na, na, 0
+377, 1953-12-11, 1, 7, New Zealand, , Rabone, 17, na, na, na, 0
+378, 1953-12-24, 1, 7, New Zealand, c Mooney, MacGibbon, 20, na, na, na, 0
+378, 1953-12-24, 3, 6, New Zealand, c Sutcliffe, Reid, 1, na, na, 0, 0
+379, 1954-01-01, 2, 7, New Zealand, , Rabone, 89, 182, na, 9, 2
+381, 1954-01-29, 1, 7, New Zealand, run out, , 29, na, na, na, 0
+381, 1954-01-29, 4, 3, New Zealand, not out, , 16, na, na, 3, 0
+382, 1954-02-05, 2, 3, New Zealand, c Sutcliffe, MacGibbon, 42, 149, na, na, 0
+382, 1954-02-05, 4, 7, New Zealand, not out, , 13, na, na, na, 0
+407, 1955-06-09, 2, 7, England, c Graveney, Wardle, 54, 208, na, 7, 0
+407, 1955-06-09, 3, 6, England, , Tyson, 5, 30, na, 0, 0
+409, 1955-06-23, 2, 3, England, lbw, Bailey, 13, 75, na, na, 0
+409, 1955-06-23, 4, 3, England, retired hurt, , 3, na, na, 0, 0
+412, 1955-08-13, 2, 7, England, not out, , 12, 55, na, 1, 0
+412, 1955-08-13, 4, 7, England, lbw, Laker, 9, 23, na, 1, 0

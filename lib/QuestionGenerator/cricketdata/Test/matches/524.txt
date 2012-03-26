@@ -1,0 +1,131 @@
+
+Test # 524
+New Zealand in South Africa, 1961/62, 5th Test
+South Africa v New Zealand
+Crusaders Ground, St George's Park, Port Elizabeth
+16,17,19,20 February 1962 (4-day match)
+
+Result: New Zealand won by 40 runs
+Series: 5-match series drawn 2-2
+
+Toss: New Zealand
+Umpires: GD Gibbon and G Parry
+
+Close of play:
+ Day 1: New Zealand 242/7 (Bartlett 19*, Alabaster 8*)
+ Day 2: New Zealand 275, South Africa 190, New Zealand 36/1 (Dowling 19*, Harris 12*)
+ Day 3: New Zealand 228, South Africa 38/0 (Barlow 25*, Farrer 8*)
+
+New Zealand 1st innings                                         R   M   B  4 6
+GT Dowling            lbw                b Adcock               2          0 0
+JT Sparling           c Lance            b Pollock              3          0 0
+PT Barton             c Bromfield        b Lance              109 276     20 0
+*JR Reid                                 b Adcock              26          6 0
+SN McGregor                              b Pollock             10            0
+PGZ Harris            c McGlew           b Bromfield            7            0
++AE Dick              c Waite            b Pollock             46 158      6 0
+GA Bartlett           hit wicket         b Adcock              29            0
+JC Alabaster          lbw                b Lawrence            24            0
+RC Motz               c McLean           b Lawrence             2          0 0
+FJ Cameron            not out                                   1          0 0
+Extras                (b 1, lb 7, nb 8)                        16
+Total                 (all out, 111.2 overs)                  275
+
+FoW: 1-4 (Dowling), 2-20 (Sparling), 3-82 (Reid),
+     4-108 (McGregor), 5-115 (Harris), 6-180 (Barton),
+     7-225 (Dick), 8-269 (Bartlett), 9-272 (Motz),
+     10-275 (Alabaster).
+
+Bowling                      O      M      R      W
+Adcock                      27     11     60      3
+Pollock                     28      9     63      3
+Lawrence                    26.2    7     71      2
+Lance                       14      4     50      1
+Bromfield                   16      7     15      1
+
+South Africa 1st innings                                        R   M   B  4 6
+EJ Barlow             c Dowling          b Motz                20            0
+GB Lawrence           c Dick             b Alabaster           43 141      8 0
++JHB Waite            c Dowling          b Cameron              0          0 0
+WS Farrer             c Dick             b Motz                 7            0
+RA McLean             c McGregor         b Bartlett            25  21      4 1
+KC Bland              lbw                b Bartlett            12            0
+HR Lance              st Dick            b Reid                 9            0
+*DJ McGlew            not out                                  28  82        0
+PM Pollock            lbw                b Motz                 8            0
+NAT Adcock            c Dowling          b Reid                 5            0
+HD Bromfield          c Dick             b Alabaster           21            0
+Extras                (lb 6, nb 6)                             12
+Total                 (all out, 72.4 overs)                   190
+
+FoW: 1-34 (Barlow), 2-39 (Waite), 3-65 (Farrer), 4-92 (McLean),
+     5-112 (Bland), 6-115 (Lawrence), 7-125 (Lance),
+     8-137 (Pollock), 9-143 (Adcock), 10-190 (Bromfield).
+
+Bowling                      O      M      R      W
+Cameron                     11      2     46      1
+Bartlett                     8      4     10      2
+Motz                        14      7     33      3
+Alabaster                   25.4    7     63      2
+Reid                        14      6     26      2
+
+New Zealand 2nd innings                                         R   M   B  4 6
+GT Dowling            lbw                b Lawrence            78 290      8 0
+JT Sparling           c Bromfield        b Pollock              4            0
+PGZ Harris            c Bland            b Adcock              13            0
+PT Barton             lbw                b Pollock              2          0 0
+*JR Reid              c Bromfield        b Lance               69 201      8 2
+SN McGregor                              b Lawrence            24            0
++AE Dick              lbw                b Lance                1          0 0
+GA Bartlett           c Barlow           b Lawrence            18            0
+JC Alabaster          c Adcock           b Lawrence             7            0
+RC Motz               c Waite            b Pollock              0       1  0 0
+FJ Cameron            not out                                   0       0  0 0
+Extras                (b 4, lb 6, nb 2)                        12
+Total                 (all out, 83.1 overs)                   228
+
+FoW: 1-4 (Sparling), 2-37 (Harris), 3-50 (Barton), 4-175 (Reid),
+     5-185 (Dowling), 6-192 (Dick), 7-216 (McGregor),
+     8-228 (Alabaster), 9-228 (Bartlett), 10-228 (Motz).
+
+Bowling                      O      M      R      W
+Adcock                      21     11     25      1
+Pollock                     24.1    5     70      3
+Lawrence                    28      5     85      4
+Lance                        8      0     36      2
+Bromfield                    2      2      0      0
+
+South Africa 2nd innings (target: 314 runs)                     R   M   B  4 6
+EJ Barlow                                b Reid                59 156      9 0
+WS Farrer             lbw                b Cameron             10  92        0
+*DJ McGlew            run out                                  26            0
++JHB Waite            c Dowling          b Reid                 7            0
+RA McLean                                b Alabaster           10            0
+KC Bland              lbw                b Reid                32  94      4 1
+HR Lance              c Dick             b Reid                 9            0
+GB Lawrence                              b Alabaster           17            0
+PM Pollock            not out                                  54 103     10 0
+NAT Adcock                               b Motz                24  49        0
+HD Bromfield          c McGregor         b Cameron              0  36      0 0
+Extras                (b 6, lb 3, w 2, nb 14)                  25
+Total                 (all out, 144 overs)                    273
+
+FoW: 1-57 (Farrer), 2-101 (Barlow), 3-117 (McGlew),
+     4-125 (Waite), 5-133 (McLean), 6-142 (Lance), 7-193 (Bland),
+     8-199 (Lawrence), 9-259 (Adcock), 10-273 (Bromfield).
+
+Bowling                      O      M      R      W
+Cameron                     18      6     48      2
+Bartlett                     9      3     26      0
+Motz                        20     11     34      1
+Alabaster                   52     23     96      2
+Reid                        45     27     44      4
+
+*** Barton's first and only test century (276 mins, 20 fours)
+*** Waite sets new world record for wicketkeeping dismissals in a series (26)
+*** NZ won with just 21 minutes to spare -- won two tests in a series for the
+    first time (and did not achieve this again until 1982-83) McGlew's last
+    test -- he played with a splinted thumb, and (after a fielding accident
+    in the first innings) a plaster-encased shoulder.
+
+<END>

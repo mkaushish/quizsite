@@ -1,0 +1,125 @@
+
+Test # 459
+West Indies in India, 1958/59, 1st Test
+India v West Indies
+Brabourne Stadium, Bombay
+28,29,30 November, 2,3 December 1958 (5-day match)
+
+Result: Match drawn
+Series: 5-match series level 0-0
+
+Toss: West Indies
+Umpires: JR Patel and MG Vijayasarathi
+Test debuts: CG Borde, GM Guard, MS Hardikar (India); BF Butcher,
+ WW Hall (West Indies).
+
+Close of play:
+ Day 1: West Indies 227
+ Day 2: India 152
+ Day 3: West Indies 253/4 (Sobers 95*, Butcher 41*)
+ Day 4: West Indies 323/4d, India 117/2 (Roy 54*, Manjrekar 17*)
+
+West Indies 1st innings                                         R   M   B  4 6
+JKC Holt              c Tamhane          b Ramchand            16            0
+CC Hunte              c Guard            b Ramchand             0          0 0
+GS Sobers                            c & b Guard               25  80        0
+RB Kanhai             lbw                b Hardikar            66 116     11 0
+OG Smith              c Ramchand         b Nadkarni            63 213      6 1
+BF Butcher            lbw                b Gupte               28  75        0
+*+FCM Alexander       st Tamhane         b Gupte                5            0
+ES Atkinson                              b Gupte                1          0 0
+S Ramadhin            c Nadkarni         b Gupte                9            0
+WW Hall               not out                                  12            0
+R Gilchrist                              b Nadkarni             1          0 0
+Extras                (b 1)                                     1
+Total                 (all out, 101.1 overs)                  227
+
+FoW: 1-2 (Hunte), 2-36 (Holt), 3-50 (Sobers), 4-118 (Kanhai),
+     5-172 (Butcher), 6-200 (Smith), 7-202 (Atkinson),
+     8-206 (Alexander), 9-226 (Ramadhin), 10-227 (Gilchrist).
+
+Bowling                      O      M      R      W
+Guard                       15      7     19      1
+Ramchand                    12      2     31      2
+Umrigar                      3      0     12      0
+Gupte                       33      9     86      4
+Borde                       10      1     29      0
+Nadkarni                    21.1    7     40      2
+Hardikar                     7      5      9      1
+
+India 1st innings                                               R   M   B  4 6
+P Roy                                    b Hall                18            0
+NJ Contractor         c Atkinson         b Hall                 0          0 0
+*PR Umrigar                              b Gilchrist           55            0
+VL Manjrekar          c Sobers           b Hall                 0          0 0
+RG Nadkarni                              b Atkinson             2          0 0
+GS Ramchand           c Alexander        b Atkinson            48 150      6 0
+MS Hardikar           lbw                b Gilchrist            0   1   1  0 0
+CG Borde              run out                                   7  10        0
++NS Tamhane           not out                                   9            0
+GM Guard                                 b Gilchrist            4            0
+SP Gupte              c Sobers           b Gilchrist            1          0 0
+Extras                (b 3, lb 5)                               8
+Total                 (all out, 68.2 overs)                   152
+
+FoW: 1-0 (Contractor), 2-37 (Roy), 3-37 (Manjrekar),
+     4-40 (Nadkarni), 5-120 (Umrigar), 6-120 (Hardikar),
+     7-132 (Borde), 8-138 (Ramchand), 9-148 (Guard),
+     10-152 (Gupte).
+
+Bowling                      O      M      R      W
+Gilchrist                   23.2    8     39      4
+Hall                        14      4     35      3
+Atkinson                    19     10     21      2
+Ramadhin                     9      0     30      0
+Sobers                       3      0     19      0
+
+West Indies 2nd innings                                         R   M   B  4 6
+JKC Holt              c Hardikar         b Guard               24            0
+CC Hunte              c Nadkarni         b Guard               10            0
+GS Sobers             not out                                 142          8 1
+RB Kanhai             c Roy              b Gupte               22            0
+OG Smith              c Roy              b Gupte               58 139      6 0
+BF Butcher            not out                                  64            0
+Extras                (lb 3)                                    3
+Total                 (4 wickets dec, 112 overs)              323
+
+DNB: *+FCM Alexander, ES Atkinson, S Ramadhin, WW Hall,
+     R Gilchrist.
+
+FoW: 1-27 (Hunte), 2-37 (Holt), 3-70 (Kanhai), 4-189 (Smith).
+
+Bowling                      O      M      R      W
+Guard                       17      2     69      2
+Ramchand                    10      3     22      0
+Umrigar                      9      0     22      0
+Gupte                       35      4    111      2
+Borde                       16      3     31      0
+Nadkarni                    15      3     29      0
+Hardikar                    10      2     36      0
+
+India 2nd innings (target: 399 runs)                            R   M   B  4 6
+P Roy                                c & b Hall                90 444        0
+NJ Contractor         run out                                   6            0
+*PR Umrigar                              b Gilchrist           36 112      3 0
+VL Manjrekar          c Kanhai           b Gilchrist           23 115        0
+RG Nadkarni           c Kanhai           b Atkinson             7            0
+GS Ramchand           not out                                  67            0
+MS Hardikar           not out                                  32            0
+Extras                (b 19, lb 2, nb 7)                       28
+Total                 (5 wickets, 132 overs)                  289
+
+DNB: CG Borde, +NS Tamhane, GM Guard, SP Gupte.
+
+FoW: 1-27 (Contractor), 2-88 (Umrigar), 3-136 (Manjrekar),
+     4-159 (Nadkarni), 5-204 (Roy).
+
+Bowling                      O      M      R      W
+Gilchrist                   41     13     75      2
+Hall                        30     10     72      1
+Atkinson                    29     11     56      1
+Ramadhin                    11      4     20      0
+Sobers                       3      0      8      0
+Smith                       18      4     30      0
+
+<END>

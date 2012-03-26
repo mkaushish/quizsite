@@ -1,0 +1,121 @@
+
+Test # 1049
+New Zealand in England, 1986, 1st Test
+England v New Zealand
+Lord's, London
+24,25,26,28,29 July 1986 (5-day match)
+
+Result: Match drawn
+Series: 3-match series level 0-0
+
+Toss: England
+Umpires: HD Bird and AGT Whitehead
+Test debuts: MD Moxon (England); W Watson (New Zealand).
+Player of the match: GA Gooch
+
+Close of play:
+ Day 1: England 248/5 (Willey 27*, Edmonds 6*)
+ Day 2: England 307, New Zealand 127/2 (Edgar 52*, MD Crowe 52*)
+ Day 3: New Zealand 342/9 (Bracewell 1*, Watson 1*)
+ Day 4: New Zealand 342, England 110/3 (Gooch 64*, Gatting 21*)
+
+England 1st innings                                             R   M   B  4 6
+GA Gooch              c Smith            b Hadlee              18  32  27  4 0
+MD Moxon              lbw                b Hadlee              74 242 192  7 0
+CWJ Athey             c JJ Crowe         b Hadlee              44  90  64  5 0
+DI Gower              c MD Crowe         b Bracewell           62 194 169 10 0
+*MW Gatting                              b Hadlee               2  21  17  0 0
+P Willey              lbw                b Watson              44 127 104  5 0
+PH Edmonds            c MD Crowe         b Hadlee               6  48  33  1 0
++BN French            retired hurt                              0  12  12  0 0
+GR Dilley             c Smith            b Hadlee              17  81  55  1 0
+NA Foster                                b Watson               8  21  14  1 0
+NV Radford            not out                                  12  46  36  1 0
+Extras                (b 6, lb 7, nb 7)                        20
+Total                 (all out, 118.5 overs)                  307
+
+FoW: 1-27 (Gooch), 2-102 (Athey), 3-196 (Moxon), 4-198 (Gatting),
+     5-237 (Gower), 6-258 (Edmonds), 7-271 (Willey),
+     8-285 (Foster), 9-307 (Dilley).
+
+Bowling                      O      M      R      W
+Hadlee                      37.5   11     80      6
+Watson                      30      7     70      2
+MD Crowe                     8      1     38      0
+Coney                        4      0     12      0
+Bracewell                   26      8     65      1
+Gray                        13      9     29      0
+
+New Zealand 1st innings                                         R   M   B  4 6
+JG Wright                                b Dilley               0  11  10  0 0
+BA Edgar              c Gatting          b Gooch               83 360 298  8 0
+KR Rutherford         c Gooch            b Dilley               0  10   9  0 0
+MD Crowe                             c & b Edmonds            106 343 243 11 0
+JJ Crowe              c Gatting          b Edmonds             18  86  61  3 0
+*JV Coney             c Gooch            b Radford             51 105  85  6 0
+EJ Gray               c Gower            b Edmonds             11  53  37  1 0
+RJ Hadlee                                b Edmonds             19  71  54  1 0
++IDS Smith            c Edmonds          b Dilley              18  45  36  1 0
+JG Bracewell          not out                                   1  18  13  0 0
+W Watson              lbw                b Dilley               1  15  10  0 0
+Extras                (b 4, lb 9, w 6, nb 15)                  34
+Total                 (all out, 140.1 overs)                  342
+
+FoW: 1-2 (Wright), 2-5 (Rutherford), 3-215 (Edgar),
+     4-218 (MD Crowe), 5-274 (JJ Crowe), 6-292 (Coney),
+     7-310 (Gray), 8-340 (Hadlee), 9-340 (Smith),
+     10-342 (Watson).
+
+Bowling                      O      M      R      W
+Dilley                      35.1    9     82      4
+Foster                      25      6     56      0
+Radford                     25      4     71      1
+Edmonds                     42     10     97      4
+Gooch                       13      6     23      1
+
+England 2nd innings                                             R   M   B  4 6
+GA Gooch              c Watson           b Bracewell          183 439 369 22 0
+MD Moxon              lbw                b Hadlee               5  19  21  0 0
+CWJ Athey                                b Gray                16  64  42  2 0
+DI Gower                                 b Gray                 3  24  22  0 0
+*MW Gatting           c MD Crowe         b Gray                26 118 104  2 1
+P Willey                                 b Bracewell           42 178 148  5 0
+PH Edmonds            not out                                   9  28  23  2 0
+Extras                (lb 6, w 1, nb 4)                        11
+Total                 (6 wickets dec, 120.4 overs)            295
+
+DNB: +BN French, GR Dilley, NA Foster, NV Radford.
+
+FoW: 1-9 (Moxon), 2-68 (Athey), 3-72 (Gower), 4-136 (Gatting),
+     5-262 (Willey), 6-295 (Gooch).
+
+Bowling                      O      M      R      W
+Hadlee                      27      3     78      1
+Watson                      17      2     50      0
+MD Crowe                     4      0     13      0
+Bracewell                   23.4    7     57      2
+Gray                        46     14     83      3
+Rutherford                   3      0      8      0
+
+New Zealand 2nd innings (target: 261 runs)                      R   M   B  4 6
+JG Wright             c Gower            b Dilley               0   8   3  0 0
+BA Edgar              c Gower            b Foster               0   2   3  0 0
+KR Rutherford         not out                                  24  54  43  5 0
+MD Crowe              not out                                  11  48  43  1 0
+Extras                (lb 4, nb 2)                              6
+Total                 (2 wickets, 15 overs)                    41
+
+DNB: JJ Crowe, *JV Coney, EJ Gray, RJ Hadlee, +IDS Smith,
+     JG Bracewell, W Watson.
+
+FoW: 1-0 (Edgar), 2-8 (Wright).
+
+Bowling                      O      M      R      W
+Dilley                       6      3      5      1
+Foster                       3      1     13      1
+Edmonds                      5      0     18      0
+Gower                        1      0      1      0
+
+*** BN French retired hurt at 259/6
+
+<END>

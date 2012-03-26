@@ -1,0 +1,102 @@
+
+Test # 643
+The Frank Worrell Trophy, 1968/69, 2nd Test
+Australia v West Indies
+Melbourne Cricket Ground
+26,27,28,30 December 1968 (5-day match)
+
+Result: Australia won by an innings and 30 runs
+Series: 5-match series level 1-1
+
+Toss: Australia
+Umpires: CJ Egar and LP Rowan
+Balls per over: 8
+Test debuts: CA Davis, RM Edwards, RC Fredericks (West Indies).
+
+Close of play:
+ Day 1: West Indies 176/6 (Fredericks 76*, Davis 3*)
+ Day 2: West Indies 200, Australia 263/1 (Lawry 117*, Chappell 133*)
+ Day 3: Australia 510, West Indies 25/1 (Fredericks 13*, Edwards 1*)
+
+West Indies 1st innings                                         R   M   B  4 6
+GS Camacho            c Chappell         b McKenzie             0   4   5  0 0
+RC Fredericks         c Redpath          b McKenzie            76 281 226  4 0
+MC Carew              c Gleeson          b McKenzie             7  34  33  0 0
+SM Nurse              c Jarman           b Freeman             22  32  30  2 0
+BF Butcher            lbw                b Gleeson             42 124  96  4 0
+*GS Sobers                               b McKenzie            19  33  45  2 0
+RB Kanhai             c Sheahan          b McKenzie             5  23  33  0 0
+CA Davis                                 b McKenzie            18  79  68  0 0
++JL Hendriks          c Chappell         b McKenzie             0   2   3  0 0
+RM Edwards            not out                                   9  56  38  0 0
+LR Gibbs                                 b McKenzie             0   5   7  0 0
+Extras                (b 1, lb 1)                               2
+Total                 (all out, 73 overs)                     200
+
+FoW: 1-0 (Camacho), 2-14 (Carew), 3-42 (Nurse), 4-135 (Butcher),
+     5-158 (Sobers), 6-170 (Kanhai), 7-177 (Fredericks),
+     8-177 (Hendriks), 9-200 (Davis), 10-200 (Gibbs).
+
+Bowling                      O      M      R      W
+McKenzie                    28      5     71      8
+Connolly                    12      2     34      0
+Freeman                      7      0     32      1
+Gleeson                     25      8     49      1
+Stackpole                    1      0     12      0
+
+Australia 1st innings                                           R   M   B  4 6
+IR Redpath            c Hendriks         b Edwards              7  19  17  1 0
+*WM Lawry             c Carew            b Davis              205 461 416 12 1
+IM Chappell                              b Sobers             165 310 320 16 0
+KD Walters            c Camacho          b Sobers              76 196 207  5 0
+KR Stackpole                             b Gibbs               15  21  17  1 0
+AP Sheahan                           c & b Sobers              18  57  64  1 0
++BN Jarman            c Butcher          b Gibbs               12  19  30  1 0
+EW Freeman            c Carew            b Gibbs                2  10  10  0 0
+GD McKenzie                              b Sobers               1  10   7  0 0
+JW Gleeson                               b Gibbs                0   1   1  0 0
+AN Connolly           not out                                   3   2   5  0 0
+Extras                (lb 4, nb 2)                              6
+Total                 (all out, 136.3 overs)                  510
+
+FoW: 1-14 (Redpath), 2-312 (Chappell), 3-435 (Lawry),
+     4-453 (Stackpole), 5-488 (Walters), 6-501 (Sheahan),
+     7-505 (Jarman), 8-506 (Freeman), 9-506 (Gleeson),
+     10-510 (McKenzie).
+
+Bowling                      O      M      R      W
+Sobers                      33.3    4     97      4
+Edwards                     26      1    128      1
+Davis                       24      0     94      1
+Gibbs                       43      8    139      4
+Carew                       10      2     46      0
+
+West Indies 2nd innings                                         R   M   B  4 6
+GS Camacho            lbw                b Gleeson             11  58  66  2 0
+RC Fredericks         c Freeman          b Gleeson             47 156 134  3 0
+RM Edwards            run out                                  21  72  71  3 0
+RB Kanhai             c Redpath          b Freeman              4  19  22  0 0
+SM Nurse              c Stackpole        b Gleeson             74 196 192  7 0
+*GS Sobers            lbw                b McKenzie            67 167 148  7 0
+BF Butcher            c Jarman           b McKenzie             0   3   4  0 0
+MC Carew                                 b Stackpole           33  88  76  3 0
+CA Davis              c Redpath          b Gleeson             10  50  44  0 0
++JL Hendriks          c Redpath          b Gleeson              3  23  19  0 0
+LR Gibbs              not out                                   0   2  12  0 0
+Extras                (b 7, lb 3)                              10
+Total                 (all out, 98.4 overs)                   280
+
+FoW: 1-23 (Camacho), 2-76 (Edwards), 3-85 (Kanhai),
+     4-85 (Fredericks), 5-219 (Sobers), 6-219 (Butcher),
+     7-243 (Nurse), 8-264 (Davis), 9-278 (Carew),
+     10-280 (Hendriks).
+
+Bowling                      O      M      R      W
+McKenzie                    20      2     88      2
+Connolly                    19      7     35      0
+Freeman                     11      1     31      1
+Gleeson                     26.4    9     61      5
+Stackpole                   13      9     19      1
+Chappell                     9      1     36      0
+
+<END>

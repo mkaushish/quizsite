@@ -1,0 +1,108 @@
+
+Test # 280
+The Ashes, 1946/47, 2nd Test
+Australia v England
+Sydney Cricket Ground
+13,14,16,17,18,19 December 1946 (6-day match)
+
+Result: Australia won by an innings and 33 runs
+Series: Australia leads the 5-match series 2-0
+
+Toss: England
+Umpires: GE Borwick and JD Scott
+Balls per over: 8
+Test debut: FAW Freer (Australia).
+
+Close of play:
+ Day 1: England 219/8 (Ikin 52*, Bedser 1*)
+ Day 2: England 255, Australia 27/1 (Barnes 21*, Johnson 0*)
+ Day 3: Australia 252/4 (Barnes 109*, Bradman 52*)
+ Day 4: Australia 571/6 (McCool 3*, Tallon 4*)
+ Day 5: Australia 659/8d, England 247/3 (Edrich 86*, Hammond 15*)
+
+England 1st innings                                             R   M   B  4 6
+L Hutton              c Tallon           b Johnson             39 112 128  2 0
+C Washbrook                              b Freer                1   8  10  0 0
+WJ Edrich             lbw                b McCool              71 202 236  6 0
+DCS Compton           c Tallon           b McCool               5  15  23  1 0
+*WR Hammond           c Tallon           b McCool               1   7  15  0 0
+JT Ikin               c Hassett          b Johnson             60 174 214  3 0
+NWD Yardley           c Tallon           b Johnson             25  48  52  3 0
+TPB Smith             lbw                b Johnson              4   5   4  0 0
++TG Evans                                b Johnson              5   8  14  0 0
+AV Bedser                                b Johnson             14  46  51  0 0
+DVP Wright            not out                                  15  15  23  2 0
+Extras                (b 4, lb 11)                             15
+Total                 (all out, 96.1 overs)                   255
+
+FoW: 1-10 (Washbrook), 2-88 (Hutton), 3-97 (Compton),
+     4-99 (Hammond), 5-148 (Edrich), 6-187 (Yardley),
+     7-197 (Smith), 8-205 (Evans), 9-234 (Ikin), 10-255 (Bedser).
+
+Bowling                      O      M      R      W
+Miller                       9      2     24      0
+Freer                        7      1     25      1
+Toshack                      7      2      6      0
+Tribe                       20      3     70      0
+Johnson                     30.1   12     42      6
+McCool                      23      2     73      3
+
+Australia 1st innings                                           R   M   B  4 6
+SG Barnes             c Ikin             b Bedser             234 649 667 17 0
+AR Morris                                b Edrich               5  48  29  0 0
+IWG Johnson           c Washbrook        b Edrich               7  35  27  0 0
+AL Hassett            c Compton          b Edrich              34  81  74  3 0
+KR Miller             c Evans            b Smith               40  73  79  7 0
+*DG Bradman           lbw                b Yardley            234 397 396 24 0
+CL McCool             c Hammond          b Smith               12  34  36  1 0
++D Tallon                            c & b Wright              30  44  46  1 0
+FAW Freer             not out                                  28  30  21  3 1
+GE Tribe              not out                                  25  16  16  5 0
+Extras                (lb 7, w 1, nb 2)                        10
+Total                 (8 wickets dec, 173 overs)              659
+
+DNB: ERH Toshack.
+
+FoW: 1-24 (Morris), 2-37 (Johnson), 3-96 (Hassett),
+     4-159 (Miller), 5-564 (Bradman), 6-564 (Barnes),
+     7-595 (McCool), 8-617 (Tallon).
+
+Bowling                      O      M      R      W
+Bedser                      46      7    153      1
+Edrich                      26      3     79      3
+Wright                      46      8    169      1
+Smith                       37      1    172      2
+Ikin                         3      0     15      0
+Compton                      6      0     38      0
+Yardley                      9      0     23      1
+
+England 2nd innings                                             R   M   B  4 6
+L Hutton              hit wicket         b Miller              37  24  39  6 0
+C Washbrook           c McCool           b Johnson             41  87  72  1 0
+WJ Edrich                                b McCool             119 314 379  7 0
+DCS Compton           c Bradman          b Freer               54 120 125  5 0
+*WR Hammond           c Toshack          b McCool              37  64  96  2 1
+JT Ikin                                  b Freer               17  34  45  2 0
+NWD Yardley                              b McCool              35  50  56  4 0
+TPB Smith             c Hassett          b Johnson              2  11  12  0 0
++TG Evans             st Tallon          b McCool               9  14  12  0 0
+AV Bedser             not out                                   3  10   7  0 0
+DVP Wright            c Tallon           b McCool               0   3   9  0 0
+Extras                (b 8, lb 6, w 1, nb 2)                   17
+Total                 (all out, 106.4 overs)                  371
+
+FoW: 1-49 (Hutton), 2-118 (Washbrook), 3-220 (Compton),
+     4-280 (Hammond), 5-309 (Ikin), 6-327 (Edrich),
+     7-346 (Smith), 8-366 (Yardley), 9-369 (Evans),
+     10-371 (Wright).
+
+Bowling                      O      M      R      W
+Miller                      11      3     37      1
+Freer                       13      2     49      2
+Toshack                      6      1     16      0
+Tribe                       12      0     40      0
+Johnson                     29      7     92      2
+McCool                      32.4    4    109      5
+Barnes                       3      0     11      0
+
+<END>

@@ -1,0 +1,128 @@
+
+Test # 752
+West Indies in India, 1974/75, 4th Test
+India v West Indies
+Madras Cricket Club Ground, Chepauk, Madras
+11,12,14,15 January 1975 (5-day match)
+
+Result: India won by 100 runs
+Series: 5-match series level 2-2
+
+Toss: India
+Umpires: B Satyaji Rao and MS Sivasankariah
+
+Close of play:
+ Day 1: India 190, West Indies 36/3 (Kallicharran 6*, Richards 1*)
+ Day 2: West Indies 192, India 85/4 (Viswanath 10*, Prasanna 0*)
+ Day 3: India 256, West Indies 38/1 (Greenidge 15*, Gibbs 0*)
+
+India 1st innings                                               R   M   B  4 6
++FM Engineer          c Greenidge        b Julien              14  33      2 0
+ED Solkar             c Kallicharran     b Julien               4  24      1 0
+AD Gaekwad            lbw                b Roberts              7  23      1 0
+GR Viswanath          not out                                  97 228     14 0
+*Mansur Ali Khan      lbw                b Roberts              6  19      1 0
+AV Mankad             c Fredericks       b Roberts             19  39      2 0
+S Madan Lal                              b Roberts              0   3      0 0
+KD Ghavri                                b Roberts             12  40      2 0
+EAS Prasanna          c Murray           b Roberts              0   3      0 0
+BS Bedi                                  b Gibbs               14  43      2 0
+BS Chandrasekhar      c Lloyd            b Roberts              1  38      0 0
+Extras                (b 1, lb 6, nb 9)                        16
+Total                 (all out, 58.5 overs)                   190
+
+FoW: 1-21 (Solkar), 2-24 (Engineer), 3-30 (Gaekwad),
+     4-41 (Mansur Ali Khan), 5-74 (Mankad), 6-76 (Madan Lal),
+     7-117 (Ghavri), 8-117 (Prasanna), 9-169 (Bedi),
+     10-190 (Chandrasekhar).
+
+Bowling                      O      M      R      W
+Roberts                     20.5    5     64      7
+Julien                       6      2     12      2
+Boyce                       11      3     40      0
+Holder                       9      1     26      0
+Gibbs                       12      1     32      1
+
+West Indies 1st innings                                         R   M   B  4 6
+RC Fredericks         c Solkar           b Ghavri              14  28      1 1
+CG Greenidge          c Prasanna         b Bedi                14  52      1 1
+AI Kallicharran       c Viswanath        b Bedi                17  78      3 0
+VA Holder             hit wicket         b Bedi                 0   1   1  0 0
+IVA Richards          c Chandrasekhar    b Prasanna            50 129      7 0
+*CH Lloyd             c Viswanath        b Prasanna            39  68      6 0
++DL Murray            c Engineer         b Prasanna             8  22      2 0
+BD Julien                            c & b Prasanna             2  18      0 0
+KD Boyce              c Bedi             b Prasanna             0   1      0 0
+LR Gibbs              not out                                  14  14      2 0
+AME Roberts           lbw                b Chandrasekhar       17   8      1 2
+Extras                (b 7, lb 10)                             17
+Total                 (all out, 59.2 overs)                   192
+
+FoW: 1-20 (Fredericks), 2-35 (Greenidge), 3-35 (Holder),
+     4-70 (Kallicharran), 5-138 (Lloyd), 6-155 (Richards),
+     7-160 (Murray), 8-160 (Boyce), 9-165 (Julien),
+     10-192 (Roberts).
+
+Bowling                      O      M      R      W
+Ghavri                       6      0     25      1
+Madan Lal                    2      0      7      0
+Prasanna                    23      6     70      5
+Bedi                        19      7     40      3
+Chandrasekhar                9.2    1     33      1
+
+India 2nd innings                                               R   M   B  4 6
++FM Engineer                             b Holder              28  82      4 0
+ED Solkar             c Kallicharran     b Julien              15  38      1 0
+AV Mankad                                b Boyce               20  87      4 0
+GR Viswanath          c Murray           b Roberts             46 235      5 0
+*Mansur Ali Khan      lbw                b Roberts              4  28      0 0
+EAS Prasanna          lbw                b Boyce                0   4      0 0
+AD Gaekwad            run out                                  80 256      9 0
+S Madan Lal           c Murray           b Roberts              5  15      1 0
+KD Ghavri             not out                                  35  87      6 0
+BS Bedi               c Murray           b Roberts              0   1      0 0
+BS Chandrasekhar                         b Roberts              0   1      0 0
+Extras                (b 12, lb 3, nb 8)                       23
+Total                 (all out, 104.4 overs)                  256
+
+FoW: 1-40 (Solkar), 2-65 (Engineer), 3-73 (Mankad),
+     4-85 (Mansur Ali Khan), 5-85 (Prasanna), 6-178 (Viswanath),
+     7-188 (Madan Lal), 8-256 (Gaekwad), 9-256 (Bedi),
+     10-256 (Chandrasekhar).
+
+Bowling                      O      M      R      W
+Roberts                     21.4    6     57      5
+Julien                      13      4     31      1
+Boyce                       15      4     61      2
+Holder                      24      8     40      1
+Gibbs                       26     11     36      0
+Fredericks                   5      2      8      0
+
+West Indies 2nd innings (target: 255 runs)                      R   M   B  4 6
+RC Fredericks         c Solkar           b Prasanna            19  40      2 0
+CG Greenidge                             b Chandrasekhar       17  70      2 0
+LR Gibbs              c Solkar           b Chandrasekhar        3  54      0 0
+AI Kallicharran       run out                                  51 105      9 0
+IVA Richards          c Engineer         b Prasanna             2  10      0 0
+*CH Lloyd             st Engineer        b Prasanna             7  14      1 0
++DL Murray            c Solkar           b Bedi                18  43      3 0
+BD Julien             not out                                  14  37      1 0
+KD Boyce              lbw                b Prasanna             4   4      1 0
+VA Holder             c Viswanath        b Bedi                 4  31      0 0
+AME Roberts           lbw                b Bedi                 0   6      0 0
+Extras                (b 14, lb 1)                             15
+Total                 (all out, 67 overs)                     154
+
+FoW: 1-32 (Fredericks), 2-45 (Greenidge), 3-62 (Gibbs),
+     4-65 (Richards), 5-85 (Lloyd), 6-125 (Murray),
+     7-133 (Kallicharran), 8-138 (Boyce), 9-152 (Holder),
+     10-154 (Roberts).
+
+Bowling                      O      M      R      W
+Ghavri                       2      0     13      0
+Madan Lal                    2      0      5      0
+Prasanna                    24      8     41      4
+Bedi                        19      8     29      3
+Chandrasekhar               20      6     51      2
+
+<END>

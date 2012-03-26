@@ -1,0 +1,128 @@
+
+Test # 170
+England in South Africa, 1927/28, 3rd Test
+South Africa v England
+Kingsmead, Durban
+21,23,24,25 January 1928 (4-day match)
+
+Result: Match drawn
+Series: England leads the 5-match series 2-0
+
+Toss: South Africa
+Umpires: AG Laver and C Saunders
+Test debuts: SJ Staples (England); JFW Nicolson, AL Ochse,
+ IJ Siedle (South Africa).
+
+Close of play:
+ Day 1: South Africa 246, England 42/0 (Holmes 23*, Sutcliffe 17*)
+ Day 2: England 381/8 (Stevens 42*, Peebles 0*)
+ Day 3: England 430, South Africa 279/4 (Nicolson 66*, Morkel 39*)
+
+South Africa 1st innings                                        R   M   B  4 6
+HW Taylor                                b Wyatt                7            0
+IJ Siedle             lbw                b Staples             11            0
++HB Cameron                              b Peebles             21            0
+JFW Nicolson          c Astill           b Staples             39            0
+RH Catterall                             b Staples             14            0
+DPB Morkel                               b Peebles             14            0
+*HG Deane             st Stanyforth      b Wyatt               77            1
+CL Vincent            c Stevens          b Peebles              2          0 0
+EP Nupen              lbw                b Wyatt               51            0
+AL Ochse                                 b Freeman              4            0
+GF Bissett            not out                                   1          0 0
+Extras                (b 1, lb 1, nb 3)                         5
+Total                 (all out, 104.3 overs)                  246
+
+FoW: 1-13 (Taylor), 2-22 (Siedle), 3-55 (Cameron),
+     4-93 (Catterall), 5-98 (Nicolson), 6-135 (Morkel),
+     7-146 (Vincent), 8-241 (Nupen), 9-242 (Deane),
+     10-246 (Ochse).
+
+Bowling                      O      M      R      W
+Hammond                     16      3     54      0
+Wyatt                       13     10      4      3
+Freeman                     16.3    3     44      1
+Staples                     36     17     50      3
+Peebles                     16      3     69      3
+Stevens                      4      0     12      0
+Astill                       3      1      8      0
+
+England 1st innings                                             R   M   B  4 6
+P Holmes              c Catterall        b Nupen               70            0
+H Sutcliffe                              b Vincent             25            0
+GE Tyldesley          c Siedle           b Vincent             78            0
+WR Hammond                               b Vincent             90            1
+RES Wyatt             lbw                b Vincent              0          0 0
+GTS Stevens                              b Vincent             69            0
+WE Astill             c Ochse            b Vincent             40            0
+*+RT Stanyforth       c Vincent          b Nupen                0          0 0
+SJ Staples                               b Nupen               11            0
+IAR Peebles           not out                                  18            0
+AP Freeman                               b Nupen                3          0 0
+Extras                (b 15, lb 9, nb 2)                       26
+Total                 (all out, 139.3 overs)                  430
+
+FoW: 1-67 (Sutcliffe), 2-131 (Holmes), 3-258 (Tyldesley),
+     4-260 (Wyatt), 5-303 (Hammond), 6-365 (Astill),
+     7-365 (Stanyforth), 8-379 (Staples), 9-421 (Stevens),
+     10-430 (Freeman).
+
+Bowling                      O      M      R      W
+Bissett                     30      4     89      0
+Ochse                       11      1     45      0
+Vincent                     45     10    131      6
+Nupen                       44.3    9     94      4
+Morkel                       3      0     17      0
+Nicolson                     2      0      5      0
+Catterall                    2      0     15      0
+Taylor                       2      0      8      0
+
+South Africa 2nd innings                                        R   M   B  4 6
+HW Taylor             c Astill           b Peebles             60            0
+IJ Siedle             st Stanyforth      b Freeman             10            0
++HB Cameron           c Stanyforth       b Freeman              9            0
+JFW Nicolson          c Hammond          b Astill              78            0
+RH Catterall                             b Staples             76            1
+DPB Morkel                               b Freeman             42            0
+*HG Deane             lbw                b Astill              73            0
+EP Nupen                                 b Staples             69            1
+CL Vincent            not out                                   8            1
+AL Ochse              not out                                   4            0
+Extras                (b 22, lb 12, nb 1)                      35
+Total                 (8 wickets dec, 157 overs)              464
+
+DNB: GF Bissett.
+
+FoW: 1-30 (Siedle), 2-50 (Cameron), 3-118 (Taylor),
+     4-225 (Catterall), 5-284 (Morkel), 6-307 (Nicolson),
+     7-430 (Nupen), 8-454 (Deane).
+
+Bowling                      O      M      R      W
+Hammond                     16      2     37      0
+Wyatt                       15      6     31      0
+Freeman                     33      3    122      3
+Staples                     47      9    111      2
+Peebles                     11      2     29      1
+Stevens                     11      0     58      0
+Astill                      24      6     41      2
+
+England 2nd innings (target: 281 runs)                          R   M   B  4 6
+P Holmes              c Catterall        b Vincent             56            0
+H Sutcliffe           c Morkel           b Nupen                8            0
+GE Tyldesley          not out                                  62            0
+WR Hammond            not out                                   1          0 0
+Extras                (b 5)                                     5
+Total                 (2 wickets, 42.2 overs)                 132
+
+DNB: RES Wyatt, GTS Stevens, WE Astill, *+RT Stanyforth,
+     SJ Staples, IAR Peebles, AP Freeman.
+
+FoW: 1-25 (Sutcliffe), 2-127 (Holmes).
+
+Bowling                      O      M      R      W
+Bissett                     11      2     41      0
+Vincent                     13      0     31      1
+Nupen                       10.2    2     29      1
+Morkel                       8      0     26      0
+
+<END>

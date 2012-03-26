@@ -1,0 +1,112 @@
+
+Test # 1060
+The Ashes, 1986/87, 3rd Test
+Australia v England
+Adelaide Oval
+12,13,14,15,16 December 1986 (5-day match)
+
+Result: Match drawn
+Series: England leads the 5-match series 1-0
+
+Toss: Australia
+Umpires: AR Crafter and SG Randell
+Test debuts: GC Dyer (Australia); JJ Whitaker (England).
+Player of the match: AR Border
+
+Close of play:
+ Day 1: Australia 207/2 (Jones 27*, Border 19*)
+ Day 2: Australia 514/5d, England 29/0 (Broad 18*, Athey 10*)
+ Day 3: England 349/5 (Emburey 5*, Whitaker 3*)
+ Day 4: England 455, Australia 82/3 (Border 31*, Ritchie 4*)
+
+Australia 1st innings                                           R   M   B  4 6
+GR Marsh                                 b Edmonds             43 196 137  5 0
+DC Boon               c Whitaker         b Emburey            103 305 274 14 0
+DM Jones              c Richards         b Dilley              93 283 220  9 0
+*AR Border            c Richards         b Edmonds             70 151 130  7 0
+GM Ritchie            c Broad            b DeFreitas           36  83  56  3 0
+GRJ Matthews          not out                                  73 181 119 12 1
+SR Waugh              not out                                  79 119 117 10 0
+Extras                (lb 2, nb 15)                            17
+Total                 (5 wickets dec, 171 overs)              514
+
+DNB: PR Sleep, +GC Dyer, MG Hughes, BA Reid.
+
+FoW: 1-113 (Marsh), 2-185 (Boon), 3-311 (Border), 4-333 (Jones),
+     5-368 (Ritchie).
+
+Bowling                      O      M      R      W
+Dilley                      32      3    111      1
+DeFreitas                   32      4    128      1
+Emburey                     46     11    117      1
+Edmonds                     52     14    134      2
+Gatting                      9      1     22      0
+
+England 1st innings                                             R   M   B  4 6
+BC Broad              c Marsh            b Waugh              116 307 263 12 1
+CWJ Athey                                b Sleep               55 140 100  5 0
+*MW Gatting           c Waugh            b Sleep              100 180 141 15 0
+AJ Lamb               c Matthews         b Hughes              14  72  47  3 0
+DI Gower              lbw                b Reid                38  61  42  5 0
+JE Emburey            c Dyer             b Reid                49 160 118  6 0
+JJ Whitaker           c Matthews         b Reid                11  48  34  1 0
++CJ Richards          c Jones            b Sleep               29  89  84  3 0
+PAJ DeFreitas         not out                                   4  55  36  0 0
+PH Edmonds            c Border           b Sleep               13  26  28  1 0
+GR Dilley                                b Reid                 0   6   6  0 0
+Extras                (b 4, lb 14, w 4, nb 4)                  26
+Total                 (all out, 148.4 overs)                  455
+
+FoW: 1-112 (Athey), 2-273 (Broad), 3-283 (Gatting), 4-341 (Lamb),
+     5-341 (Gower), 6-361 (Whitaker), 7-422 (Richards),
+     8-439 (Emburey), 9-454 (Edmonds), 10-455 (Dilley).
+
+Bowling                      O      M      R      W
+Hughes                      30      8     82      1
+Reid                        28.4    8     64      4
+Sleep                       47     14    132      4
+Matthews                    23      1    102      0
+Waugh                       19      4     56      1
+Border                       1      0      1      0
+
+Australia 2nd innings                                           R   M   B  4 6
+GR Marsh                             c & b Edmonds             41 143  95  5 0
+DC Boon               lbw                b DeFreitas            0  15  11  0 0
+DM Jones              c Lamb             b Dilley               2  31  21  0 0
+*AR Border            not out                                 100 303 253 11 0
+GM Ritchie            not out                                  46 207 162  2 0
+Extras                (b 4, lb 6, nb 2)                        12
+Total                 (3 wickets dec, 90 overs)               201
+
+DNB: GRJ Matthews, SR Waugh, PR Sleep, +GC Dyer, MG Hughes,
+     BA Reid.
+
+FoW: 1-1 (Boon), 2-8 (Jones), 3-77 (Marsh).
+
+Bowling                      O      M      R      W
+Dilley                      21      8     38      1
+DeFreitas                   16      5     36      1
+Emburey                     22      6     50      0
+Edmonds                     29      7     63      1
+Gatting                      2      1      4      0
+
+England 2nd innings (target: 261 runs)                          R   M   B  4 6
+BC Broad              not out                                  15  90  69  1 0
+CWJ Athey             c Dyer             b Hughes              12  26  20  2 0
+*MW Gatting                              b Matthews             0   3   1  0 0
+AJ Lamb               not out                                   9  59  48  1 0
+Extras                (b 2, lb 1)                               3
+Total                 (2 wickets, 23 overs)                    39
+
+DNB: DI Gower, JE Emburey, JJ Whitaker, +CJ Richards,
+     PAJ DeFreitas, PH Edmonds, GR Dilley.
+
+FoW: 1-21 (Athey), 2-22 (Gatting).
+
+Bowling                      O      M      R      W
+Hughes                       7      2     16      1
+Waugh                        3      1     10      0
+Matthews                     8      4     10      1
+Sleep                        5      5      0      0
+
+<END>

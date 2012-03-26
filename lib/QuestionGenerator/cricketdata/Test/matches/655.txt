@@ -1,0 +1,132 @@
+
+Test # 655
+The Wisden Trophy, 1969, 3rd Test
+England v West Indies
+Headingley, Leeds
+10,11,12,14,15 July 1969 (5-day match)
+
+Result: England won by 30 runs
+Series: England wins the 3-match series 2-0
+
+Toss: England
+Umpires: CS Elliott and AE Fagg
+Batsmen of the match: BF Butcher, GS Camacho and JH Edrich
+Bowlers of the match: BR Knight and GS Sobers
+Player of the series: APE Knott
+Fielder of the series: CH Lloyd
+
+Close of play:
+ Day 1: England 194/7 (Knott 29*, Underwood 3*)
+ Day 2: England 223, West Indies 161, England 13/1 (Edrich 6*, Sharpe 7*)
+ Day 3: England 214/9 (Brown 24*, Snow 0*)
+ Day 4: England 240, West Indies 240/7 (Findlay 1*, Holder 7*)
+
+England 1st innings                                             R   M   B  4 6
+G Boycott             lbw                b Sobers              12  18  20  2 0
+JH Edrich             lbw                b Shepherd            79 190 170  6 0
+PJ Sharpe             c Findlay          b Holder               6  42  29  0 0
+JH Hampshire          c Findlay          b Holder               1  23   8  0 0
+BL D'Oliveira         c Sobers           b Shepherd            48 127 134  3 1
++APE Knott            c Findlay          b Sobers              44 135 102  2 0
+*R Illingworth                           b Shepherd             1   6   9  0 0
+BR Knight             c Fredericks       b Gibbs                7  19  29  1 0
+DL Underwood          c Findlay          b Holder               4  50  52  0 0
+DJ Brown                                 b Holder              12  36  35  0 0
+JA Snow               not out                                   1   4   1  0 0
+Extras                (b 4, lb 3, nb 1)                         8
+Total                 (all out, 98 overs)                     223
+
+FoW: 1-30 (Boycott), 2-52 (Sharpe), 3-64 (Hampshire),
+     4-140 (Edrich), 5-165 (D'Oliveira), 6-167 (Illingworth),
+     7-182 (Knight), 8-199 (Underwood), 9-217 (Knott),
+     10-223 (Brown).
+
+Bowling                      O      M      R      W
+Sobers                      21      1     68      2
+Holder                      26      7     48      4
+Shillingford                 7      0     21      0
+Gibbs                       19      6     33      1
+Shepherd                    24      8     43      3
+Davis                        1      0      2      0
+
+West Indies 1st innings                                         R   M   B  4 6
+RC Fredericks         lbw                b Knight              11  90  79  1 0
+GS Camacho            c Knott            b Knight               4  41  34  0 0
+CA Davis              c Underwood        b Knight              18  35  38  1 0
+BF Butcher                               b Snow                35  63  59  6 0
+*GS Sobers            c Sharpe           b Knight              13  38  34  1 0
+CH Lloyd              c Snow             b Brown               27  85  54  1 1
++TM Findlay           lbw                b D'Oliveira           1  17  22  0 0
+VA Holder                                b Snow                35  50  55  3 0
+LR Gibbs              not out                                   6  13   4  1 0
+GC Shillingford       c Knott            b Brown                3   7   9  0 0
+JN Shepherd           absent hurt                               -
+Extras                (lb 7, nb 1)                              8
+Total                 (all out, 64.3 overs)                   161
+
+FoW: 1-17 (Camacho), 2-37 (Davis), 3-46 (Fredericks),
+     4-80 (Sobers), 5-88 (Butcher), 6-91 (Findlay),
+     7-151 (Lloyd), 8-153 (Holder), 9-161 (Shillingford).
+
+Bowling                      O      M      R      W
+Snow                        20      4     50      2
+Brown                        7.3    2     13      2
+Knight                      22      5     63      4
+D'Oliveira                  15      8     27      1
+
+England 2nd innings                                             R   M   B  4 6
+G Boycott             c Findlay          b Sobers               0   1   2  0 0
+JH Edrich             lbw                b Sobers              15  71  62  0 0
+PJ Sharpe             lbw                b Sobers              15 117 100  0 0
+JH Hampshire          lbw                b Shillingford        22  88  81  2 0
+BL D'Oliveira         c Sobers           b Davis               39 107  77  4 0
++APE Knott            c Findlay          b Sobers              31 128 130  1 0
+*R Illingworth        c Lloyd            b Holder              19  64  68  3 0
+BR Knight             c Holder           b Gibbs               27  90  80  4 0
+DL Underwood                             b Sobers              16  32  28  2 0
+DJ Brown                                 b Shillingford        34 115 126  5 0
+JA Snow               not out                                  15  57  37  1 0
+Extras                (lb 5, w 1, nb 1)                         7
+Total                 (all out, 131.4 overs)                  240
+
+FoW: 1-0 (Boycott), 2-23 (Edrich), 3-42 (Sharpe),
+     4-58 (Hampshire), 5-102 (D'Oliveira), 6-147 (Knott),
+     7-147 (Illingworth), 8-171 (Underwood), 9-203 (Knight),
+     10-240 (Brown).
+
+Bowling                      O      M      R      W
+Sobers                      40     18     42      5
+Holder                      33     13     66      1
+Shillingford                20.4    4     56      2
+Gibbs                       21      6     42      1
+Davis                       17      8     27      1
+
+West Indies 2nd innings (target: 303 runs)                      R   M   B  4 6
+RC Fredericks         c Sharpe           b Snow                 6  33  25  0 0
+GS Camacho            c Hampshire        b Underwood           71 231 202 10 0
+CA Davis                             c & b Underwood           29  76  73  4 0
+BF Butcher            c Knott            b Underwood           91 154 148 16 0
+CH Lloyd              c Knott            b Illingworth         23  51  39  4 0
+*GS Sobers                               b Knight               0  10   4  0 0
++TM Findlay           lbw                b Knight              16 103  75  1 0
+JN Shepherd           c Knott            b Underwood            0   3   6  0 0
+VA Holder             c Sharpe           b Brown               13  47  41  0 1
+LR Gibbs              c Knott            b Brown                4   7  10  0 0
+GC Shillingford       not out                                   5  31  19  0 0
+Extras                (lb 11, nb 3)                            14
+Total                 (all out, 106.2 overs)                  272
+
+FoW: 1-8 (Fredericks), 2-69 (Davis), 3-177 (Camacho),
+     4-219 (Butcher), 5-224 (Sobers), 6-228 (Lloyd),
+     7-228 (Shepherd), 8-251 (Holder), 9-255 (Gibbs),
+     10-272 (Findlay).
+
+Bowling                      O      M      R      W
+Snow                        21      7     43      1
+Brown                       21      8     53      2
+Knight                      18.2    4     47      2
+D'Oliveira                  10      3     22      0
+Illingworth                 14      5     38      1
+Underwood                   22     12     55      4
+
+<END>

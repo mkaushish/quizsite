@@ -1,0 +1,128 @@
+
+Test # 434
+England in South Africa, 1956/57, 1st Test
+South Africa v England
+New Wanderers Stadium, Johannesburg
+24,26,27,28,29 December 1956 (5-day match)
+
+Result: England won by 131 runs
+Series: England leads the 5-match series 1-0
+
+Toss: England
+Umpires: JH McMenamin and W Marais
+Balls per over: 8
+Test debut: AI Taylor (South Africa).
+
+Close of play:
+ Day 1: England 157/3 (Richardson 69*, Cowdrey 51*)
+ Day 2: England 268, South Africa 91/1 (Goddard 49*, Keith 29*)
+ Day 3: South Africa 215, England 42/3 (Compton 17*, Insole 0*)
+ Day 4: England 150, South Africa 40/7 (van Ryneveld 4*)
+
+England 1st innings                                             R   M   B  4 6
+PE Richardson         lbw                b Goddard            117 525      6 0
+TE Bailey             c Waite            b Heine               16  97      1 0
+DCS Compton           c Keith            b Goddard              5  30      0 0
+*PBH May              c Goddard          b Adcock               6  37      0 0
+MC Cowdrey            c Goddard          b Heine               59 212      4 0
+DJ Insole             c Waite            b van Ryneveld         1   8      0 0
++TG Evans             c Keith            b Adcock              20  55      2 0
+FH Tyson                                 b Adcock              22 103      2 0
+JH Wardle             not out                                   6  12      1 0
+JC Laker              c Goddard          b Adcock               0   2      0 0
+JB Statham            c Waite            b Goddard              0   6      0 0
+Extras                (b 4, lb 9, nb 3)                        16
+Total                 (all out, 118.5 overs)                  268
+
+FoW: 1-28 (Bailey), 2-37 (Compton), 3-48 (May), 4-169 (Cowdrey),
+     5-170 (Insole), 6-205 (Evans), 7-259 (Richardson),
+     8-263 (Tyson), 9-263 (Laker), 10-268 (Statham).
+
+Bowling                      O      M      R      W
+Heine                       31      5     89      2
+Adcock                      20      6     36      4
+Goddard                     28.5    9     51      3
+Watkins                     11      3     23      0
+Tayfield                    20      4     30      0
+van Ryneveld                 8      2     23      1
+
+South Africa 1st innings                                        R   M   B  4 6
+AI Taylor             st Evans           b Wardle              12 106      0 0
+TL Goddard            c Cowdrey          b Statham             49 160      5 0
+HJ Keith              c Cowdrey          b Bailey              42 106      5 0
+WR Endean             c Cowdrey          b Laker               18 142      1 0
+RA McLean             lbw                b Bailey               0   1   2  0 0
+JC Watkins            c Insole           b Wardle               9  47      0 0
+*CB van Ryneveld      c Bailey           b Statham             10  42      1 0
++JHB Waite            c Evans            b Bailey              17  63      2 0
+HJ Tayfield                              b Wardle              24  82      3 0
+PS Heine              not out                                  13  47      1 0
+NAT Adcock                               b Statham             17  23      2 1
+Extras                (b 1, lb 3)                               4
+Total                 (all out, 89.1 overs)                   215
+
+FoW: 1-54 (Taylor), 2-92 (Goddard), 3-112 (Keith),
+     4-112 (McLean), 5-126 (Watkins), 6-141 (Endean),
+     7-141 (van Ryneveld), 8-176 (Waite), 9-194 (Tayfield),
+     10-215 (Adcock).
+
+Bowling                      O      M      R      W
+Statham                     24.1    4     71      3
+Tyson                        9      1     22      0
+Wardle                      20      4     52      3
+Laker                       21     10     33      1
+Bailey                      15      5     33      3
+
+England 2nd innings                                             R   M   B  4 6
+PE Richardson         lbw                b Adcock              10  33      1 0
+TE Bailey             c Endean           b Heine               10  69      1 0
+DCS Compton                          c & b Tayfield            32 170      4 0
+JH Wardle             lbw                b Heine                0   2   3  0 0
+DJ Insole             c Waite            b Goddard             29 134      2 0
+*PBH May              c Endean           b Heine               14  57      1 0
+MC Cowdrey            c Goddard          b Adcock               6  63      0 0
++TG Evans             c Heine            b Tayfield            30  46      2 1
+FH Tyson              c Watkins          b Adcock               2  23      0 0
+JC Laker              not out                                   3  13      0 0
+JB Statham            lbw                b Tayfield             2   6      0 0
+Extras                (b 8, lb 1, nb 3)                        12
+Total                 (all out, 66.6 overs)                   150
+
+FoW: 1-11 (Richardson), 2-37 (Bailey), 3-37 (Wardle),
+     4-84 (Compton), 5-100 (Insole), 6-107 (May),
+     7-126 (Cowdrey), 8-145 (Tyson), 9-147 (Evans),
+     10-150 (Statham).
+
+Bowling                      O      M      R      W
+Heine                       19      7     41      3
+Adcock                      13      1     33      3
+Goddard                     14      7     14      1
+Watkins                      3      0     10      0
+Tayfield                    17.6    5     40      3
+
+South Africa 2nd innings (target: 204 runs)                     R   M   B  4 6
+AI Taylor             c Insole           b Bailey               6  48      0 0
+TL Goddard            c Insole           b Bailey               5  17      1 0
+HJ Keith              c Evans            b Bailey               2   4      0 0
++JHB Waite                               b Statham              0   2      0 0
+WR Endean                                b Statham              3  37      0 0
+RA McLean             c Insole           b Bailey               6  49      0 0
+JC Watkins                               b Laker                8  38      1 0
+*CB van Ryneveld      run out                                  16  85      1 0
+HJ Tayfield           c Evans            b Bailey               2  17      0 0
+PS Heine              run out                                  17  51      2 0
+NAT Adcock            not out                                   0   8      0 0
+Extras                (b 2, lb 3, nb 2)                         7
+Total                 (all out, 33.4 overs)                    72
+
+FoW: 1-6 (Goddard), 2-10 (Keith), 3-11 (Waite), 4-20 (Taylor),
+     5-25 (Endean), 6-36 (McLean), 7-40 (Watkins),
+     8-44 (Tayfield), 9-71 (Heine), 10-72 (van Ryneveld).
+
+Bowling                      O      M      R      W
+Statham                     13      4     22      2
+Wardle                       3      0     18      0
+Laker                        2      1      5      1
+Bailey                      15.4    6     20      5
+
+<END>

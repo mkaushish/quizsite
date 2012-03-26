@@ -1,0 +1,120 @@
+
+Test # 110
+England in South Africa, 1909/10, 5th Test
+South Africa v England
+Newlands, Cape Town
+11,12,14 March 1910 (5-day match)
+
+Result: England won by 9 wickets
+Series: South Africa wins the 5-match series 3-2
+
+Toss: England
+Umpires: AJ Atfield (Eng) and SL Harris
+Test debuts: NC Tufnell (England); NO Norton, SV Samuelson (South Africa).
+
+Close of play:
+ Day 1: England 406/7 (Thompson 48*, Tufnell 12*)
+ Day 2: England 417, South Africa 103, South Africa 102/3 (Snooke 31*, Faulkner 39*)
+
+England 1st innings                                             R   M   B  4 6
+JB Hobbs              hit wicket         b Norton             187            0
+W Rhodes                                 b Nourse              77            0
+D Denton              c Samuelson        b Nourse              26            0
+*FL Fane                                 b Norton               6            0
+FE Woolley                               b Norton               0          0 0
+GJ Thompson           c Sinclair         b Faulkner            51            0
+MC Bird                                  b Norton               0          0 0
+GHT Simpson-Hayward   c Snooke           b Faulkner            19            0
++NC Tufnell                          c & b Vogler              14            0
+H Strudwick           c Zulch            b Faulkner             2          0 0
+C Blythe              not out                                   2          0 0
+Extras                (b 30, lb 3)                             33
+Total                 (all out, 108.2 overs)                  417
+
+FoW: 1-221 (Rhodes), 2-265 (Denton), 3-286 (Fane),
+     4-286 (Woolley), 5-327 (Hobbs), 6-327 (Bird),
+     7-381 (Simpson-Hayward), 8-408 (Tufnell), 9-411 (Strudwick),
+     10-417 (Thompson).
+
+Bowling                      O      M      R      W
+Snooke                       5      0     17      0
+Vogler                      26      2    103      1
+Faulkner                    25.2    6     72      3
+Samuelson                   18      2     64      0
+Norton                      15      4     47      4
+Sinclair                     8      1     36      0
+Nourse                       8      1     35      2
+Schwarz                      3      0     10      0
+
+South Africa 1st innings                                        R   M   B  4 6
+JW Zulch              not out                                  43            0
+JMM Commaille                            b Blythe               4            0
+*SJ Snooke                               b Blythe               0          0 0
+AW Nourse             lbw                b Thompson             8            0
+GA Faulkner           c Rhodes           b Blythe              10            0
+JH Sinclair           c Denton           b Thompson             1          0 0
++M Bisset             c Rhodes           b Blythe               4            0
+AEE Vogler                               b Blythe               0          0 0
+RO Schwarz            c Denton           b Blythe              13            0
+NO Norton                                b Blythe               2          0 0
+SV Samuelson                             b Simpson-Hayward     15            0
+Extras                (lb 2, nb 1)                              3
+Total                 (all out, 38.5 overs)                   103
+
+FoW: 1-4 (Commaille), 2-4 (Snooke), 3-23 (Nourse),
+     4-38 (Faulkner), 5-41 (Sinclair), 6-48 (Bisset),
+     7-48 (Vogler), 8-83 (Schwarz), 9-86 (Norton),
+     10-103 (Samuelson).
+
+Bowling                      O      M      R      W
+Hobbs                        4      0     11      0
+Blythe                      18      5     46      7
+Thompson                    12      6     28      2
+Simpson-Hayward              4.5    0     15      1
+
+South Africa 2nd innings (following on)                         R   M   B  4 6
+JW Zulch                                 b Woolley             14            0
+JMM Commaille         lbw                b Thompson             5            0
+*SJ Snooke                               b Woolley             47            0
+AW Nourse             c Simpson-Hayward  b Woolley              0          0 0
+GA Faulkner           c Woolley          b Thompson            99            0
+JH Sinclair           st Tufnell         b Blythe              37            1
++M Bisset             not out                                  27            0
+AEE Vogler                               b Thompson             2          0 0
+RO Schwarz            c Bird             b Hobbs               44            0
+NO Norton             c Fane             b Blythe               7            0
+SV Samuelson                             b Blythe               7            0
+Extras                (b 25, lb 5, nb 8)                       38
+Total                 (all out, 99 overs)                     327
+
+FoW: 1-25 (Commaille), 2-29 (Zulch), 3-31 (Nourse),
+     4-151 (Snooke), 5-199 (Sinclair), 6-226 (Faulkner),
+     7-229 (Vogler), 8-296 (Schwarz), 9-307 (Norton),
+     10-327 (Samuelson).
+
+Bowling                      O      M      R      W
+Hobbs                        8      3     19      1
+Blythe                      30     13     58      3
+Thompson                    30      5     96      3
+Simpson-Hayward              8      1     35      0
+Woolley                     13      3     47      3
+Bird                         3      0     12      0
+Rhodes                       7      0     22      0
+
+England 2nd innings (target: 14 runs)                           R   M   B  4 6
+MC Bird               c Bisset           b Vogler               0          0 0
+W Rhodes              not out                                   0          0 0
+D Denton              not out                                  16            0
+Extras                                                          0
+Total                 (1 wicket, 4.1 overs)                    16
+
+DNB: JB Hobbs, *FL Fane, FE Woolley, GJ Thompson,
+     GHT Simpson-Hayward, +NC Tufnell, H Strudwick, C Blythe.
+
+FoW: 1-0 (Bird).
+
+Bowling                      O      M      R      W
+Vogler                       2.1    1     16      1
+Snooke                       2      2      0      0
+
+<END>

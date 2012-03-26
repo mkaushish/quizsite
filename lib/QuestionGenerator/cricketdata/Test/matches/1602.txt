@@ -1,0 +1,96 @@
+
+Test # 1602
+India in West Indies, 2002, 4th Test
+West Indies v India
+Antigua Recreation Ground, St John's, Antigua
+10,11,12,13,14 May 2002 (5-day match)
+
+Result: Match drawn
+Series: 5-match series level 1-1
+
+Toss: West Indies
+Umpires: DR Shepherd (Eng) and RB Tiffin (Zim)
+TV umpire: EA Nicholls
+Match referee: RS Madugalle (SL)
+Player of the match: A Ratra
+
+Close of play:
+ Day 1: India 226/3 (Dravid 86*, Ganguly 41*, 90 ov)
+ Day 2: India 462/6 (Laxman 124*, Ratra 93*, 180 ov)
+ Day 3: India 513/9d, West Indies 187/3 (Sarwan 50*, Hooper 26*, 72 ov)
+ Day 4: West Indies 405/5 (Chanderpaul 80*, Jacobs 18*, 162 ov)
+
+India 1st innings                                               R   M   B  4 6
+SS Das                                   b Collins              3  32  28  0 0
+W Jaffer              c Jacobs           b Collins             86 260 180 14 0
+R Dravid                                 b Dillon              91 378 291 12 0
+SR Tendulkar          c Jacobs           b Collins              0   2   1  0 0
+*SC Ganguly           c Hinds            b Cuffy               45 150 101  4 1
+VVS Laxman            hit wicket         b Dillon             130 369 244 14 0
+A Kumble              c Chanderpaul      b Dillon               6  43  17  0 0
++A Ratra              not out                                 115 369 284 12 0
+Z Khan                c Jacobs           b Cuffy                4  17   7  0 0
+J Srinath             c Lara             b Cuffy               15  31  27  2 0
+A Nehra               not out                                   1  10   6  0 0
+Extras                (lb 6, w 1, nb 10)                       17
+Total                 (9 wickets dec, 196 overs, 799 mins)    513
+
+FoW: 1-13 (Das, 7.5 ov), 2-168 (Jaffer, 64.2 ov),
+     3-168 (Tendulkar, 64.3 ov), 4-233 (Ganguly, 97.6 ov),
+     5-235 (Dravid, 100.4 ov), 6-257 (Kumble, 108.2 ov),
+     7-474 (Laxman, 184.1 ov), 8-485 (Khan, 187.4 ov),
+     9-508 (Srinath, 193.6 ov).
+
+Bowling                      O      M      R      W
+Dillon                      51     14    116      3 (2nb)
+Cuffy                       40      7     87      3 (1nb)
+Collins                     44     10    125      3 (6nb, 1w)
+Sanford                     32      6    113      0 (1nb)
+Hooper                      13      4     29      0
+Hinds                        2      0      9      0
+Sarwan                       9      3     23      0
+Gayle                        5      1      5      0
+
+West Indies 1st innings                                         R   M   B  4 6
+CH Gayle              c Ratra            b Khan                32 117  88  5 0
+WW Hinds                                 b Tendulkar           65 190 117  9 0
+RR Sarwan             lbw                b Khan                51 195 155  6 0
+BC Lara               lbw                b Kumble               4  35  25  0 0
+*CL Hooper            c Nehra            b Tendulkar          136 401 278 13 3
+S Chanderpaul         not out                                 136 675 510 17 0
++RD Jacobs            c Laxman           b Dravid             118 240 206 11 5
+M Dillon                                 b Jaffer              43  68  65  6 2
+PT Collins            c sub (Harbhajan Singh) b Jaffer         11  26  31  2 0
+A Sanford             c Khan             b Laxman               2   7   5  0 0
+CE Cuffy              not out                                   0  18  14  0 0
+Extras                (b 10, lb 9, w 6, nb 6)                  31
+Total                 (9 wickets dec, 248 overs, 998 mins)    629
+
+FoW: 1-65 (Gayle, 25.3 ov), 2-121 (Hinds, 43.3 ov),
+     3-135 (Lara, 51.3 ov), 4-196 (Sarwan, 74.2 ov),
+     5-382 (Hooper, 149.1 ov), 6-548 (Jacobs, 212.1 ov),
+     7-607 (Dillon, 234.2 ov), 8-625 (Collins, 242.2 ov),
+     9-628 (Sanford, 243.1 ov).
+
+Bowling                      O      M      R      W
+Srinath                     45     19     82      0 (3nb)
+Nehra                       49     16    122      0
+Khan                        48     14    129      2
+Ganguly                     12      0     44      0 (2nb)
+Tendulkar                   34      4    107      2 (1w)
+Kumble                      14      5     29      1 (1nb)
+Laxman                      17      6     32      1
+Dravid                       9      3     18      1
+Jaffer                      11      3     18      2 (1w)
+Das                          8      2     28      0
+Ratra                        1      0      1      0
+
+*** Day 5
+*** This is the first occurrence of when the keepers from both sides have
+    scored a 100
+*** This is the third occasion on which all eleven players have bowled in an
+    innings, the others being England v Australia at The Oval 1884 and
+    Australia v Pakistan at Faisalabad 1979/80
+*** R Dravid kept wicket while Ratra bowled
+
+<END>

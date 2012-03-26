@@ -1,0 +1,59 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+1125, 1989-08-10, 2, 11, Australia, c Healy, Hughes, 9, 13, 15, 0, 1
+1125, 1989-08-10, 3, 10, Australia, , Hughes, 5, 8, 9, 1, 0
+1140, 1990-02-24, 2, 11, West Indies, lbw, Walsh, 0, 1, 1, 0, 0
+1142, 1990-03-23, 2, 11, West Indies, not out, , 0, 20, 6, 0, 0
+1143, 1990-04-05, 2, 11, West Indies, , Bishop, 12, 15, 15, 2, 0
+1143, 1990-04-05, 4, 11, West Indies, lbw, Ambrose, 4, 29, 18, 1, 0
+1144, 1990-04-12, 1, 11, West Indies, not out, , 0, 5, 5, 0, 0
+1144, 1990-04-12, 3, 11, West Indies, not out, , 1, 24, 11, 0, 0
+1145, 1990-06-07, 2, 11, New Zealand, not out, , 4, 7, 9, 1, 0
+1146, 1990-06-21, 1, 11, New Zealand, not out, , 0, 6, 1, 0, 0
+1147, 1990-07-05, 1, 11, New Zealand, , Hadlee, 0, 2, 3, 0, 0
+1147, 1990-07-05, 3, 11, New Zealand, lbw, Hadlee, 0, 3, 3, 0, 0
+1149, 1990-08-09, 1, 11, India, , Shastri, 13, 55, 37, 0, 0
+1150, 1990-08-23, 2, 11, India, not out, , 15, 56, 23, 2, 1
+1155, 1990-11-23, 1, 11, Australia, c Waugh, Hughes, 5, 8, 7, 1, 0
+1155, 1990-11-23, 3, 11, Australia, not out, , 0, 5, 5, 0, 0
+1159, 1990-12-26, 1, 10, Australia, c Taylor, Reid, 6, 32, 19, 1, 0
+1159, 1990-12-26, 3, 10, Australia, lbw, Matthews, 1, 21, 14, 0, 0
+1161, 1991-01-25, 2, 10, Australia, c Healy, Reid, 2, 10, 8, 0, 0
+1163, 1991-02-01, 1, 11, Australia, c Marsh, McDermott, 7, 27, 12, 1, 0
+1163, 1991-02-01, 3, 11, Australia, c Jones, McDermott, 6, 31, 12, 0, 0
+1171, 1991-06-06, 1, 11, West Indies, not out, , 5, 41, 31, 1, 0
+1171, 1991-06-06, 3, 11, West Indies, , Marshall, 4, 29, 11, 1, 0
+1172, 1991-06-20, 2, 11, West Indies, , Ambrose, 0, 2, 4, 0, 0
+1190, 1992-06-18, 1, 11, Pakistan, lbw, Mushtaq Ahmed, 0, 7, 3, 0, 0
+1190, 1992-06-18, 3, 11, Pakistan, , Wasim Akram, 0, 1, 1, 0, 0
+1191, 1992-07-02, 2, 11, Pakistan, , Aaqib Javed, 4, 16, 11, 1, 0
+1193, 1992-08-06, 1, 11, Pakistan, , Wasim Akram, 2, 7, 4, 0, 0
+1193, 1992-08-06, 3, 11, Pakistan, , Waqar Younis, 0, 16, 10, 0, 0
+1211, 1993-01-29, 2, 11, India, not out, , 4, 23, 11, 0, 0
+1211, 1993-01-29, 3, 11, India, lbw, Kapil Dev, 0, 1, 1, 0, 0
+1213, 1993-02-11, 2, 11, India, not out, , 0, 8, 6, 0, 0
+1213, 1993-02-11, 3, 11, India, c sub (WV Raman), Raju, 0, 16, 15, 0, 0
+1219, 1993-03-13, 1, 11, Sri Lanka, c Gurusinha, Warnaweera, 13, 11, 8, 0, 2
+1219, 1993-03-13, 3, 11, Sri Lanka, not out, , 8, 64, 30, 1, 0
+1231, 1993-08-19, 1, 11, Australia, not out, , 0, 3, 0, 0, 0
+1231, 1993-08-19, 3, 11, Australia, not out, , 0, 4, 4, 0, 0
+1250, 1994-02-19, 1, 11, West Indies, run out, , 6, 4, 5, 1, 0
+1250, 1994-02-19, 3, 11, West Indies, , Walsh, 18, 44, 22, 3, 0
+1266, 1994-08-18, 2, 11, South Africa, c sub (TG Shaw), Matthews, 4, 8, 4, 1, 0
+1279, 1994-12-24, 2, 10, Australia, not out, , 11, 26, 13, 2, 0
+1279, 1994-12-24, 4, 10, Australia, c Boon, Warne, 0, 1, 1, 0, 0
+1281, 1995-01-01, 1, 10, Australia, , Warne, 29, 22, 18, 3, 2
+1284, 1995-01-26, 1, 10, Australia, , McDermott, 0, 3, 1, 0, 0
+1284, 1995-01-26, 3, 10, Australia, not out, , 10, 8, 4, 1, 1
+1287, 1995-02-03, 2, 11, Australia, not out, , 0, 3, 1, 0, 0
+1287, 1995-02-03, 4, 11, Australia, , McDermott, 0, 20, 13, 0, 0
+1298, 1995-06-08, 1, 11, West Indies, , Benjamin, 0, 6, 4, 0, 0
+1298, 1995-06-08, 3, 11, West Indies, , Ambrose, 5, 23, 7, 1, 0
+1303, 1995-08-24, 1, 11, West Indies, c Lara, Benjamin, 10, 7, 7, 2, 0
+1315, 1995-11-30, 2, 11, South Africa, not out, , 0, 2, 1, 0, 0
+1321, 1996-01-02, 1, 11, South Africa, , Adams, 1, 5, 3, 0, 0
+1321, 1996-01-02, 3, 11, South Africa, not out, , 0, 17, 11, 0, 0
+1370, 1997-06-19, 1, 11, Australia, not out, , 0, 3, 0, 0, 0
+1375, 1997-08-07, 2, 11, Australia, , McGrath, 12, 20, 12, 3, 0
+1375, 1997-08-07, 4, 11, Australia, c ME Waugh, McGrath, 0, 2, 2, 0, 0
+1377, 1997-08-21, 1, 11, Australia, lbw, Kasprowicz, 0, 3, 1, 0, 0
+1377, 1997-08-21, 3, 11, Australia, , Kasprowicz, 0, 2, 2, 0, 0

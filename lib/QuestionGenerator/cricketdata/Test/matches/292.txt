@@ -1,0 +1,125 @@
+
+Test # 292
+India in Australia, 1947/48, 3rd Test
+Australia v India
+Melbourne Cricket Ground
+1,2,3,5 January 1948 (6-day match)
+
+Result: Australia won by 233 runs
+Series: Australia leads the 5-match series 2-0
+
+Toss: Australia
+Umpires: AN Barlow and HAR Elphinstone
+Balls per over: 8
+Test debuts: K Rai Singh, PK Sen (India).
+
+Close of play:
+ Day 1: Australia 355/8 (Dooland 2*, Johnson 2*)
+ Day 2: Australia 394, India 262/6 (Phadkar 43*, Rai Singh 2*)
+ Day 3: India 291/9d, Australia 255/4 (Morris 100*, Bradman 127*)
+
+Australia 1st innings                                           R   M   B  4 6
+SG Barnes                                b Mankad              12  34  37  0 0
+AR Morris                                b Amarnath            45 100 123  3 0
+*DG Bradman           lbw                b Phadkar            132 199 204  8 0
+AL Hassett            lbw                b Mankad              80 123 148  9 0
+KR Miller             lbw                b Mankad              29  22  29  0 3
+RA Hamence            st Sen             b Amarnath            25  55  49  1 0
+RR Lindwall                              b Amarnath            26  21  34  3 0
++D Tallon             c Mankad           b Amarnath             2   5   7  0 0
+B Dooland             not out                                  21  63  68  1 0
+IWG Johnson           lbw                b Mankad              16  45  51  0 0
+WA Johnston           run out                                   5   3   4  1 0
+Extras                (b 1)                                     1
+Total                 (all out, 94.1 overs, 341 mins)         394
+
+FoW: 1-29 (Barnes), 2-99 (Morris), 3-268 (Hassett),
+     4-280 (Bradman), 5-302 (Miller), 6-339 (Lindwall),
+     7-341 (Tallon), 8-352 (Hamence), 9-387 (Johnson),
+     10-394 (Johnston).
+
+Bowling                      O      M      R      W
+Phadkar                     15      1     80      1
+Amarnath                    21      3     78      4
+Hazare                      16.1    0     62      0
+Mankad                      37      4    135      4
+Sarwate                      3      0     16      0
+Nayudu                       2      0     22      0
+
+India 1st innings                                               R   M   B  4 6
+MH Mankad             c Tallon           b Johnston           116 182 187 13 0
+CT Sarwate            c Tallon           b Johnston            36  91  84  3 0
+Gul Mohammad                         c & b Dooland             12  21  19  2 0
+VS Hazare             c Tallon           b Barnes              17  41  39  2 0
+*L Amarnath           lbw                b Barnes               0   1   1  0 0
+DG Phadkar            not out                                  55 120 124  7 0
+HR Adhikari           st Tallon          b Johnson             26  54  57  3 0
+K Rai Singh           c Barnes           b Johnson              2   7   7  0 0
+KM Rangnekar                         c & b Johnson              6  23  28  0 0
++PK Sen                                  b Johnson              4   2   3  1 0
+CS Nayudu             not out                                   4   4   4  0 0
+Extras                (b 9, lb 3, nb 1)                        13
+Total                 (9 wickets dec, 69 overs, 280 mins)     291
+
+FoW: 1-124 (Sarwate), 2-145 (Gul Mohammad), 3-188 (Hazare),
+     4-188 (Amarnath), 5-198 (Mankad), 6-260 (Adhikari),
+     7-264 (Rai Singh), 8-280 (Rangnekar), 9-284 (Sen).
+
+Bowling                      O      M      R      W
+Lindwall                    12      0     47      0 (1nb)
+Miller                      13      2     46      0
+Johnston                    12      0     33      2
+Johnson                     14      1     59      4
+Dooland                     12      0     68      1
+Barnes                       6      1     25      2
+
+Australia 2nd innings                                           R   M   B  4 6
+IWG Johnson           c Hazare           b Amarnath             0   6   9  0 0
+B Dooland             lbw                b Phadkar              6  38  54  0 0
+WA Johnston           lbw                b Amarnath             3  39  39  0 0
+SG Barnes             c Sen              b Amarnath            15  25  41  2 0
+AR Morris             not out                                 100 198 210  7 0
+*DG Bradman           not out                                 127 178 169 13 0
+Extras                (b 3, nb 1)                               4
+Total                 (4 wickets dec, 65 overs, 246 mins)     255
+
+DNB: AL Hassett, KR Miller, RA Hamence, RR Lindwall, +D Tallon.
+
+FoW: 1-1 (Johnson), 2-11 (Dooland), 3-13 (Johnston),
+     4-32 (Barnes).
+
+Bowling                      O      M      R      W
+Phadkar                     10      1     28      1
+Amarnath                    20      3     52      3
+Hazare                      11      1     55      0
+Mankad                      18      4     74      0
+Sarwate                      5      0     41      0 (1nb)
+Gul Mohammad                 1      0      1      0
+
+India 2nd innings (target: 359 runs)                            R   M   B  4 6
+MH Mankad                                b Johnston            13  37  43  2 0
+CT Sarwate                               b Johnston             1  12   7  0 0
+Gul Mohammad          c Morris           b Johnson             28  53  50  4 0
+VS Hazare             c Barnes           b Miller              10  12  17  2 0
+*L Amarnath                              b Lindwall             8  17  13  1 0
+DG Phadkar            c Barnes           b Johnston            13  38  28  1 0
+HR Adhikari           c Lindwall         b Johnson              1   6   5  0 0
+K Rai Singh           c Tallon           b Johnston            24  18  25  1 1
+KM Rangnekar          c Hamence          b Johnson             18  14  14  3 0
++PK Sen               c Hassett          b Johnson              2   7   6  0 0
+CS Nayudu             not out                                   0   1   0  0 0
+Extras                (b 6, lb 1)                               7
+Total                 (all out, 25.7 overs, 118 mins)         125
+
+FoW: 1-10 (Sarwate), 2-27 (Mankad), 3-44 (Hazare),
+     4-60 (Gul Mohammad), 5-60 (Amarnath), 6-69 (Adhikari),
+     7-100 (Rai Singh), 8-107 (Phadkar), 9-125 (Rangnekar),
+     10-125 (Sen).
+
+Bowling                      O      M      R      W
+Lindwall                     3      0     10      1
+Miller                       7      0     29      1
+Johnston                    10      1     44      4
+Johnson                      5.7    0     35      4
+
+<END>

@@ -1,0 +1,102 @@
+
+Test # 1071
+Pakistan in India, 1986/87, 4th Test
+India v Pakistan
+Gujarat Stadium, Motera, Ahmedabad
+4,5,7,8,9 March 1987 (5-day match)
+
+Result: Match drawn
+Series: 5-match series level 0-0
+
+Toss: Pakistan
+Umpires: RB Gupta and SR Ramchandra Rao
+Player of the match: Ijaz Faqih
+
+Close of play:
+ Day 1: Pakistan 130/4 (Saleem Malik 17*, Manzoor Elahi 19*)
+ Day 2: Pakistan 379/7 (Ijaz Faqih 104*, Abdul Qadir 20*)
+ Day 3: Pakistan 395, India 165/3 (Vengsarkar 62*, More 1*)
+ Day 4: India 323, Pakistan 25/0 (Rameez Raja 14*, Rizwan-uz-Zaman 10*)
+
+Pakistan 1st innings                                            R   M   B  4 6
+Rameez Raja                              b Kapil Dev           41 159 135  5 0
++Saleem Yousuf        st More            b Amarnath             2  14  15  0 0
+Rizwan-uz-Zaman       c Kapil Dev        b Maninder Singh       5  76  54  0 0
+Younis Ahmed          st More            b Yadav               40 185 156  3 0
+Saleem Malik          c More             b Yadav               20 192 136  1 0
+Manzoor Elahi         c Kapil Dev        b Yadav               52 106  94  5 1
+*Imran Khan                              b Sharma              72 224 165  8 1
+Ijaz Faqih            lbw                b Kapil Dev          105 332 272  7 4
+Abdul Qadir                              b Kapil Dev           25 128  89  0 1
+Wasim Akram           not out                                   4  20  11  0 0
+Iqbal Qasim           c More             b Yadav                0   8   3  0 0
+Extras                (b 6, lb 20, nb 3)                       29
+Total                 (all out, 187.3 overs)                  395
+
+FoW: 1-2 (Saleem Yousuf), 2-23 (Rizwan-uz-Zaman),
+     3-62 (Rameez Raja), 4-99 (Younis Ahmed),
+     5-149 (Saleem Malik), 6-176 (Manzoor Elahi),
+     7-330 (Imran Khan), 8-391 (Abdul Qadir), 9-394 (Ijaz Faqih),
+     10-395 (Iqbal Qasim).
+
+Bowling                      O      M      R      W
+Kapil Dev                   27      9     46      3
+Amarnath                     9      3     14      1
+Maninder Singh              54     21    106      1
+Sharma                      36      8     62      1
+Yadav                       48.3   13    109      4
+Shastri                     11      3     26      0
+Srikkanth                    2      0      6      0
+
+India 1st innings                                               R   M   B  4 6
+SM Gavaskar           lbw                b Imran Khan          63 242 170  6 0
+K Srikkanth                              b Ijaz Faqih          22  30  25  4 0
+M Amarnath                           c & b Iqbal Qasim          7  18  19  1 0
+DB Vengsarkar         c Saleem Malik     b Wasim Akram        109 403 295 10 0
++KS More              c Iqbal Qasim      b Abdul Qadir         23  83  51  4 0
+M Azharuddin                             b Imran Khan          12  20  22  2 0
+RJ Shastri            c Iqbal Qasim      b Manzoor Elahi       15  33  29  2 0
+*N Kapil Dev          not out                                  50  90  52  7 1
+NS Yadav                                 b Wasim Akram          0  12   7  0 0
+G Sharma              lbw                b Wasim Akram          0   1   1  0 0
+Maninder Singh                           b Wasim Akram          0   3   4  0 0
+Extras                (b 11, lb 6, nb 5)                       22
+Total                 (all out, 111.5 overs)                  323
+
+FoW: 1-34 (Srikkanth), 2-46 (Amarnath), 3-157 (Gavaskar),
+     4-204 (More), 5-218 (Azharuddin), 6-246 (Shastri),
+     7-306 (Vengsarkar), 8-322 (Yadav), 9-322 (Sharma),
+     10-323 (Maninder Singh).
+
+Bowling                      O      M      R      W
+Imran Khan                  17      6     41      2
+Wasim Akram                 21.5    2     60      4
+Ijaz Faqih                  27      3     81      1
+Iqbal Qasim                 30     11     63      1
+Abdul Qadir                 13      1     53      1
+Manzoor Elahi                3      2      8      1
+
+Pakistan 2nd innings                                            R   M   B  4 6
+Rameez Raja           c Azharuddin       b Maninder Singh      21 101  75  2 0
+Rizwan-uz-Zaman       c Azharuddin       b Sharma              58 300 252  1 0
+Younis Ahmed          not out                                  34 268 226  2 0
+Saleem Malik          not out                                  14  69  50  2 0
+Extras                (nb 8)                                    8
+Total                 (2 wickets, 99 overs)                   135
+
+DNB: +Saleem Yousuf, Manzoor Elahi, *Imran Khan, Ijaz Faqih,
+     Abdul Qadir, Wasim Akram, Iqbal Qasim.
+
+FoW: 1-43 (Rameez Raja), 2-107 (Rizwan-uz-Zaman).
+
+Bowling                      O      M      R      W
+Kapil Dev                   10      3     19      0
+Amarnath                     2      0      6      0
+Maninder Singh              23     16     13      1
+Sharma                      26      9     36      1
+Yadav                       14      4     18      0
+Shastri                     18      6     23      0
+Srikkanth                    2      0      5      0
+Gavaskar                     4      1     15      0
+
+<END>

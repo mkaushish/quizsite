@@ -1,0 +1,129 @@
+
+Test # 647
+England in Pakistan, 1968/69, 1st Test
+Pakistan v England
+Lahore Stadium
+21,22,23,24 February 1969 (4-day match)
+
+Result: Match drawn
+Series: 3-match series level 0-0
+
+Toss: England
+Umpires: Munawar Hussain and Shujauddin
+Test debuts: RMH Cottam (England); Aftab Gul, Asif Masood (Pakistan).
+
+Close of play:
+ Day 1: England 226/5 (D'Oliveira 16*, Knott 5*)
+ Day 2: England 306, Pakistan 176/8 (Shafqat Rana 22*)
+ Day 3: Pakistan 209, England 174/7 (Fletcher 69*, Brown 12*)
+
+England 1st innings                                             R   M   B  4 6
+JH Edrich             c Asif Masood      b Intikhab Alam       54          9 0
+RM Prideaux           c Shafqat Rana     b Asif Masood          9            0
+*MC Cowdrey           c Wasim Bari       b Majid Khan         100 240        0
+TW Graveney           c Asif Iqbal       b Intikhab Alam       13            0
+KWR Fletcher          c Intikhab Alam    b Saeed Ahmed         20            0
+BL D'Oliveira         c Mohammad Ilyas   b Intikhab Alam       26            0
++APE Knott            lbw                b Saeed Ahmed         52            0
+DL Underwood          c Intikhab Alam    b Saeed Ahmed          0          0 0
+DJ Brown                                 b Saeed Ahmed          7            0
+PI Pocock                                b Intikhab Alam       12            0
+RMH Cottam            not out                                   4            0
+Extras                (b 4, lb 2, nb 3)                         9
+Total                 (all out, 119.1 overs)                  306
+
+FoW: 1-41 (Prideaux), 2-92 (Edrich), 3-113 (Graveney),
+     4-182 (Fletcher), 5-219 (Cowdrey), 6-246 (D'Oliveira),
+     7-257 (Underwood), 8-287 (Brown), 9-294 (Knott),
+     10-306 (Pocock).
+
+Bowling                      O      M      R      W
+Asif Masood                 21      5     59      1
+Asif Iqbal                   4      2     11      0
+Majid Khan                  18      8     25      1
+Intikhab Alam               40.1    8    117      4
+Saeed Ahmed                 20      5     64      4
+Mushtaq Mohammad            14      6     15      0
+Shafqat Rana                 2      0      6      0
+
+Pakistan 1st innings                                            R   M   B  4 6
+Mohammad Ilyas        lbw                b Brown                0          0 0
+Aftab Gul             c D'Oliveira       b Brown               12            0
+*Saeed Ahmed          c Knott            b D'Oliveira          18            0
+Asif Iqbal            c D'Oliveira       b Cottam              70 150        0
+Mushtaq Mohammad      c Fletcher         b Cottam               4            0
+Hanif Mohammad                           b Brown                7            0
+Majid Khan            c Pocock           b Underwood           18            0
+Shafqat Rana          c Knott            b Cottam              30            0
+Intikhab Alam         c D'Oliveira       b Pocock              12            0
++Wasim Bari           not out                                  14            0
+Asif Masood                              b Cottam              11            0
+Extras                (b 8, lb 4, nb 1)                        13
+Total                 (all out, 70.2 overs)                   209
+
+FoW: 1-0 (Mohammad Ilyas), 2-32 (Saeed Ahmed), 3-32 (Aftab Gul),
+     4-52 (Mushtaq Mohammad), 5-72 (Hanif Mohammad),
+     6-119 (Majid Khan), 7-145 (Asif Iqbal),
+     8-176 (Intikhab Alam), 9-187 (Shafqat Rana),
+     10-209 (Asif Masood).
+
+Bowling                      O      M      R      W
+Brown                       14      0     43      3
+Cottam                      22.2    5     50      4
+D'Oliveira                   8      2     28      1
+Underwood                   16      4     36      1
+Pocock                      10      3     39      1
+
+England 2nd innings                                             R   M   B  4 6
+JH Edrich             c Majid Khan       b Asif Masood          8            0
+RM Prideaux                              b Majid Khan           5            0
+*MC Cowdrey           c Wasim Bari       b Asif Masood         12            0
+TW Graveney           run out                                  12            0
+KWR Fletcher                             b Majid Khan          83 240      8 0
+BL D'Oliveira         c Mushtaq Mohammad b Saeed Ahmed          5            0
++APE Knott                               b Asif Masood         30            0
+DL Underwood          c Aftab Gul        b Mushtaq Mohammad     6            0
+DJ Brown              not out                                  44            0
+PI Pocock                                b Saeed Ahmed          1          0 0
+Extras                (b 6, lb 9, nb 4)                        19
+Total                 (9 wickets dec, 84.5 overs)             225
+
+DNB: RMH Cottam.
+
+FoW: 1-8 (Prideaux), 2-25 (Edrich), 3-41 (Cowdrey),
+     4-46 (Graveney), 5-68 (D'Oliveira), 6-136 (Knott),
+     7-151 (Underwood), 8-201 (Fletcher), 9-225 (Pocock).
+
+Bowling                      O      M      R      W
+Asif Masood                 25      4     68      3
+Majid Khan                  20      5     41      2
+Intikhab Alam               15      5     29      0
+Saeed Ahmed                 15.5    3     44      2
+Mushtaq Mohammad             9      1     24      1
+
+Pakistan 2nd innings (target: 323 runs)                         R   M   B  4 6
+Mohammad Ilyas        c Fletcher         b Brown                1          0 0
+Aftab Gul             c Pocock           b Underwood           29            0
+*Saeed Ahmed                             b Cottam              39            0
+Asif Iqbal                           c & b Cottam               0          0 0
+Mushtaq Mohammad      not out                                  34            0
+Majid Khan            c Pocock           b Brown               68            0
+Hanif Mohammad        not out                                  23            0
+Extras                (b 3, lb 5, nb 1)                         9
+Total                 (5 wickets, 79 overs)                   203
+
+DNB: Shafqat Rana, Intikhab Alam, +Wasim Bari, Asif Masood.
+
+FoW: 1-6 (Mohammad Ilyas), 2-71 (Saeed Ahmed), 3-71 (Asif Iqbal),
+     4-71 (Aftab Gul), 5-156 (Majid Khan).
+
+Bowling                      O      M      R      W
+Brown                       15      4     47      2
+Cottam                      13      1     35      2
+Underwood                   19      8     29      1
+Pocock                      16      4     41      0
+Fletcher                     8      2     31      0
+Graveney                     6      0     11      0
+Prideaux                     2      2      0      0
+
+<END>

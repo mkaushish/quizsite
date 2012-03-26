@@ -1,0 +1,101 @@
+
+Test # 318
+Australia in South Africa, 1949/50, 1st Test
+South Africa v Australia
+Ellis Park, Johannesburg
+24,26,27,28 December 1949 (4-day match)
+
+Result: Australia won by an innings and 85 runs
+Series: Australia leads the 5-match series 1-0
+
+Toss: Australia
+Umpires: RGA Ashman and DV Collins
+Balls per over: 8
+Test debuts: J Moroney (Australia); JD Nel, HJ Tayfield,
+ JC Watkins (South Africa).
+
+Close of play:
+ Day 1: Australia 190/4 (Hassett 109*, Loxton 16*)
+ Day 2: Australia 413, South Africa 70/4 (Rowan 48*, Cheetham 5*)
+ Day 3: South Africa 137, South Africa 84/2 (Nel 6*, Nourse 2*)
+
+Australia 1st innings                                           R   M   B  4 6
+AR Morris             c Tayfield         b McCarthy             0          0 0
+J Moroney             run out                                   0          0 0
+KR Miller                                b Mann                21            0
+*AL Hassett                              b Watkins            112 270        0
+RN Harvey                                b Watkins             34            0
+SJE Loxton            st Wade            b Tayfield           101 135     14 0
+CL McCool                                b Tayfield            31            0
+IWG Johnson           c Cheetham         b Mann                66            0
++RA Saggers           lbw                b McCarthy            14            0
+RR Lindwall           c Nel              b Tayfield            21            0
+WA Johnston           not out                                   1          0 0
+Extras                (b 5, lb 5, w 2)                         12
+Total                 (all out, 113.4 overs)                  413
+
+FoW: 1-0 (Morris), 2-2 (Moroney), 3-71 (Miller), 4-163 (Harvey),
+     5-200 (Hassett), 6-283 (McCool), 7-320 (Loxton),
+     8-372 (Saggers), 9-408 (Lindwall), 10-413 (Johnson).
+
+Bowling                      O      M      R      W
+McCarthy                    25      2     90      2
+Watkins                     19      3     56      2
+Smith                       13      0     70      0
+Tayfield                    28      3     93      3
+Mann                        28.4    4     92      2
+
+South Africa 1st innings                                        R   M   B  4 6
+EAB Rowan                                b Miller              60            0
+OE Wynne              lbw                b Johnston             3          0 0
+JD Nel                                   b Johnson              4            0
+*AD Nourse            c Hassett          b Johnson              0          0 0
++WW Wade                                 b Miller               2          0 0
+JE Cheetham           lbw                b Johnston            10            0
+JC Watkins            c Hassett          b Miller              36            0
+HJ Tayfield           lbw                b Miller               6            0
+NBF Mann                                 b Miller               0          0 0
+VI Smith              not out                                   1          0 0
+CN McCarthy                              b Johnson              0          0 0
+Extras                (lb 14, nb 1)                            15
+Total                 (all out, 56.2 overs)                   137
+
+FoW: 1-14 (Wynne), 2-32 (Nel), 3-40 (Nourse), 4-47 (Wade),
+     5-82 (Cheetham), 6-112 (Rowan), 7-122 (Tayfield),
+     8-122 (Mann), 9-133 (Watkins), 10-137 (McCarthy).
+
+Bowling                      O      M      R      W
+Lindwall                    10      1     22      0
+Johnston                    12      4     21      2
+Miller                      15      3     40      5
+Johnson                     18.2    6     37      3
+Loxton                       1      0      2      0
+
+South Africa 2nd innings (following on)                         R   M   B  4 6
+EAB Rowan             lbw                b McCool              32            0
+OE Wynne              c Saggers          b Johnston            33            0
+JD Nel                c Saggers          b Johnston            14            0
+*AD Nourse            c Saggers          b Johnson             36            0
++WW Wade                                 b Johnston            11            0
+JE Cheetham           c Hassett          b Johnston            35            0
+JC Watkins            c Miller           b Johnson              0          0 0
+HJ Tayfield           c Miller           b Johnson              0          0 0
+NBF Mann              lbw                b Johnston            13            0
+VI Smith              c McCool           b Johnston             1          0 0
+CN McCarthy           not out                                   1          0 0
+Extras                (b 9, lb 3, w 1, nb 2)                   15
+Total                 (all out, 65.1 overs)                   191
+
+FoW: 1-50 (Rowan), 2-81 (Wynne), 3-113 (Nel), 4-133 (Nourse),
+     5-141 (Wade), 6-142 (Watkins), 7-142 (Tayfield),
+     8-184 (Mann), 9-186 (Smith), 10-191 (Cheetham).
+
+Bowling                      O      M      R      W
+Lindwall                     8      1     25      0
+Johnston                    20.1    5     44      6
+Miller                      11      1     27      0
+Johnson                     14      0     54      3
+Loxton                       3      0     11      0
+McCool                       9      3     15      1
+
+<END>

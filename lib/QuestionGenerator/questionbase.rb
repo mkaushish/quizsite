@@ -62,6 +62,7 @@ class QuestionBase
   #        "varname" => "response to var"
   # where "varname" is the name you passed the input field, and "response to var" is 
   # whatever the user put into the input field
+  # NOTE: correct? MUST be overriden if you have a GeometryField in your question
   def correct?(response)
     postsolution = prefix_solve # memoized version is already preprocessed
     postresponse = preprocess_hash(response)
@@ -73,9 +74,10 @@ class QuestionBase
   # METHODS THAT YOU SHOULD HAVE NO REASON TO OVERRIDE WHEN DEFINING A SUBCLASS, SO DON'T OVERRIDE THEM #
   #######################################################################################################
   def type
-    return self.class.type
+    return self.class.type # all instances of a class have the same type
   end
 
+  # used to call preprocess on all the keys of the response hash, and avoid name issues
   def preprocess_hash(response)
     ret = {}
     response.each do |key, value|
@@ -91,7 +93,7 @@ class QuestionBase
     ret
   end
 
-  # stores the response from solve, in case solve didn't already do this
+  # stores the response from solve, in case solve didn't already do this, so the hash is only created once
   def soln
     @soln ||= preprocess_hash(solve)
   end
@@ -126,6 +128,8 @@ class QuestionWithExplanation < QuestionBase
 end
 
 # This is here to definite a problem on the fly - just pass in the hash for solve and the array for text
+# The difference between a subproblem and defining your own class to extend Qbase, is just that all subproblems
+# will have the class "Subproblem", and can't by default override methods like "correct?"
 class Subproblem < QuestionBase
   def initialize(text, soln={})
     # can't name this soln, because some preprocessing goes on there

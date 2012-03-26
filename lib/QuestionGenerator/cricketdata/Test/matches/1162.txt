@@ -1,0 +1,100 @@
+
+Test # 1162
+Sri Lanka in New Zealand, 1990/91, 1st Test
+New Zealand v Sri Lanka
+Basin Reserve, Wellington
+31 January, 1,2,3,4 February 1991 (5-day match)
+
+Result: Match drawn
+Series: 3-match series level 0-0
+
+Toss: Sri Lanka
+Umpires: BL Aldridge and SJ Woodward
+Test debut: CP Senanayake (Sri Lanka).
+Player of the match: MD Crowe
+
+Close of play:
+ Day 1: New Zealand 174, Sri Lanka 41/2 (Gurusinha 17*, PA de Silva 0*)
+ Day 2: Sri Lanka 359/3 (PA de Silva 203*, Ranatunga 52*)
+ Day 3: Sri Lanka 497, New Zealand 91/0 (Franklin 24*, Wright 55*)
+ Day 4: New Zealand 369/2 (Jones 82*, Crowe 126*)
+
+New Zealand 1st innings                                         R   M   B  4 6
+TJ Franklin           c sub              b Labrooy              3  28  22  0 0
+JG Wright             c Gurusinha        b Labrooy             15  83  49  2 0
+AH Jones              c Tillakaratne     b Ratnayake            5  19  15  1 0
+*MD Crowe             c Tillakaratne     b Ramanayake          30 104  71  2 0
+MJ Greatbatch         c Gurusinha        b Labrooy             13  63  40  1 0
+KR Rutherford         c Tillakaratne     b Ratnayake           25  65  43  5 0
+GE Bradburn           c Tillakaratne     b Ramanayake          14  39  27  2 0
++IDS Smith            c Senanayake       b Ratnayake           28  42  28  5 0
+C Pringle             lbw                b Labrooy              0   7   3  0 0
+DK Morrison                              b Ratnayake           13  53  40  1 0
+W Watson              not out                                  10  38  23  2 0
+Extras                (b 1, lb 7, w 1, nb 9)                   18
+Total                 (all out, 58.2 overs)                   174
+
+FoW: 1-5 (Franklin), 2-18 (Jones), 3-33 (Wright),
+     4-75 (Greatbatch), 5-78 (Crowe), 6-108 (Bradburn),
+     7-124 (Rutherford), 8-131 (Pringle), 9-150 (Smith),
+     10-174 (Morrison).
+
+Bowling                      O      M      R      W
+Ratnayake                   18.2    6     45      4
+Labrooy                     23      5     68      4
+Ramanayake                  11      3     39      2
+Warnaweera                   6      1     14      0
+
+Sri Lanka 1st innings                                           R   M   B  4 6
+CP Senanayake         c Smith            b Watson               0   8  10  0 0
++HP Tillakaratne      c Greatbatch       b Morrison            21  54  37  2 0
+AP Gurusinha          c Crowe            b Watson              70 206 152 11 0
+PA de Silva           c Bradburn         b Morrison           267 509 380 40 0
+*A Ranatunga          hit wicket         b Morrison            55 214 155  6 0
+EAR de Silva          c Smith            b Morrison            26 123 114  3 0
+GF Labrooy            c Wright           b Morrison             0   1   2  0 0
+RJ Ratnayake                             b Watson              26  35  27  3 2
+CPH Ramanayake        not out                                  14  46  36  2 0
+KPJ Warnaweera                           b Watson               3  18   7  0 0
+RS Mahanama           absent hurt                               -
+Extras                (lb 7, nb 8)                             15
+Total                 (all out, 151.1 overs)                  497
+
+FoW: 1-8 (Senanayake), 2-41 (Tillakaratne), 3-184 (Gurusinha),
+     4-362 (Ranatunga), 5-449 (EAR de Silva), 6-449 (Labrooy),
+     7-454 (PA de Silva), 8-487 (Ratnayake), 9-497 (Warnaweera).
+
+Bowling                      O      M      R      W
+Morrison                    44      6    153      5
+Watson                      46.1   10    121      4
+Pringle                     31      4    116      0
+Bradburn                    26      5     83      0
+Rutherford                   2      0     11      0
+Jones                        2      0      6      0
+
+New Zealand 2nd innings                                         R   M   B  4 6
+TJ Franklin           lbw                b Ramanayake          39 223 176  3 0
+JG Wright             c Tillakaratne     b Ramanayake          88 240 168 13 0
+AH Jones              c sub              b Ranatunga          186 562 454 15 0
+*MD Crowe             c Tillakaratne     b Ranatunga          299 610 523 29 3
+MJ Greatbatch         not out                                  14  61  48  2 0
+Extras                (lb 9, w 1, nb 35)                       45
+Total                 (4 wickets, 220.3 overs)                671
+
+DNB: KR Rutherford, GE Bradburn, +IDS Smith, C Pringle,
+     DK Morrison, W Watson.
+
+FoW: 1-134 (Franklin), 2-148 (Wright), 3-615 (Jones),
+     4-671 (Crowe).
+
+Bowling                      O      M      R      W
+Ratnayake                   30      1    101      0
+Labrooy                     26      1     88      0
+Ramanayake                  40      5    122      2
+Warnaweera                  34      8     75      0
+Ranatunga                   19.3    4     60      2
+EAR de Silva                56     14    141      0
+PA de Silva                  8      0     59      0
+Gurusinha                    7      0     16      0
+
+<END>

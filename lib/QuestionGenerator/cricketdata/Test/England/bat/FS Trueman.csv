@@ -1,0 +1,86 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+351, 1952-06-05, 2, 11, India, not out, , 0, na, na, 0, 0
+352, 1952-06-19, 2, 11, India, , Ghulam Ahmed, 17, na, na, na, 1
+376, 1953-08-15, 2, 10, Australia, , Johnston, 10, 35, na, na, 0
+380, 1954-01-15, 2, 10, West Indies, c McWatt, Gomez, 18, na, na, na, 1
+380, 1954-01-15, 4, 10, West Indies, , Kentish, 1, na, na, 0, 0
+385, 1954-03-17, 2, 10, West Indies, lbw, King, 19, na, na, na, 0
+386, 1954-03-30, 2, 11, West Indies, not out, , 0, na, na, 0, 0
+409, 1955-06-23, 1, 11, South Africa, not out, , 2, na, na, 0, 0
+409, 1955-06-23, 3, 11, South Africa, not out, , 6, na, na, na, 0
+426, 1956-06-21, 2, 10, Australia, c Langley, Miller, 7, 5, na, 1, 0
+426, 1956-06-21, 4, 10, Australia, , Archer, 2, 15, na, 0, 0
+427, 1956-07-12, 1, 11, Australia,                c &, Lindwall, 0, 8, na, 0, 0
+439, 1957-05-30, 1, 10, West Indies, not out, , 29, 45, na, 3, 1
+440, 1957-06-20, 2, 10, West Indies, not out, , 36, 29, na, 2, 3
+442, 1957-07-25, 2, 10, West Indies, not out, , 2, 19, na, 0, 0
+443, 1957-08-22, 1, 9, West Indies, , Ramadhin, 22, 28, na, 3, 0
+454, 1958-06-05, 1, 9, New Zealand, , Alabaster, 0, na, na, 0, 0
+455, 1958-06-19, 1, 9, New Zealand, , Hayes, 8, na, na, na, 0
+457, 1958-07-24, 2, 10, New Zealand, , Reid, 5, na, na, na, 0
+458, 1958-08-21, 2, 10, New Zealand, not out, , 39, 29, na, 1, 3
+464, 1959-01-09, 1, 9, Australia, c Burke, Benaud, 18, 37, 29, 1, 1
+464, 1959-01-09, 3, 8, Australia, st Grout, Benaud, 0, 3, 1, 0, 0
+466, 1959-01-30, 2, 7, Australia, c Grout, Benaud, 0, 16, 11, 0, 0
+466, 1959-01-30, 3, 7, Australia, c Grout, Davidson, 0, 4, 3, 0, 0
+468, 1959-02-13, 1, 9, Australia,                c &, Benaud, 21, 80, 56, 1, 0
+468, 1959-02-13, 3, 9, Australia, , Rorke, 36, 80, 59, 5, 0
+470, 1959-02-27, 1, 9, New Zealand, lbw, Reid, 21, 63, 63, 3, 0
+472, 1959-03-14, 2, 9, New Zealand, not out, , 21, 42, na, 3, 0
+474, 1959-06-04, 1, 8, India, , Borde, 28, 53, na, 3, 0
+475, 1959-06-18, 2, 8, India, lbw, Gupte, 7, 40, na, na, 0
+476, 1959-07-02, 2, 9, India, c Desai, Gupte, 17, na, na, na, 0
+477, 1959-07-23, 1, 10, India, , Surendranath, 0, na, na, 0, 0
+477, 1959-07-23, 3, 8, India, c Baig, Borde, 8, na, na, na, 0
+478, 1959-08-20, 2, 9, India, st Tamhane, Nadkarni, 1, 10, na, 0, 0
+485, 1960-01-06, 1, 9, West Indies, c Alexander, Ramadhin, 3, na, na, 0, 0
+488, 1960-01-28, 1, 9, West Indies, lbw, Ramadhin, 7, na, na, 0, 1
+488, 1960-01-28, 3, 9, West Indies, c Alexander, Watson, 37, 45, na, na, 2
+489, 1960-02-17, 1, 9, West Indies, c Solomon, Ramadhin, 17, na, na, na, 0
+489, 1960-02-17, 3, 9, West Indies, lbw, Watson, 4, na, na, na, 0
+490, 1960-03-09, 1, 10, West Indies, , Hall, 6, na, na, na, 0
+491, 1960-03-25, 1, 10, West Indies, not out, , 10, na, na, na, 0
+491, 1960-03-25, 3, 9, West Indies, not out, , 2, na, na, 0, 0
+492, 1960-06-09, 1, 10, South Africa, , Tayfield, 11, na, na, na, 0
+492, 1960-06-09, 3, 9, South Africa, , Tayfield, 25, na, na, na, 1
+493, 1960-06-23, 1, 9, South Africa, , Griffin, 0, 1, 1, 0, 0
+494, 1960-07-07, 1, 9, South Africa, , Goddard, 15, 31, na, 2, 0
+495, 1960-07-21, 1, 10, South Africa, c Tayfield, Adcock, 10, na, na, na, 0
+495, 1960-07-21, 3, 9, South Africa, not out, , 14, 10, na, 1, 1
+496, 1960-08-18, 1, 9, South Africa, lbw, Adcock, 0, 7, na, 0, 0
+496, 1960-08-18, 3, 9, South Africa, , Goddard, 24, 19, na, 2, 1
+507, 1961-06-08, 1, 10, Australia, c Burge, Benaud, 20, na, na, na, 1
+508, 1961-06-22, 1, 10, Australia, , Davidson, 25, na, na, na, 0
+508, 1961-06-22, 3, 10, Australia, c Grout, McKenzie, 0, na, na, 0, 0
+509, 1961-07-06, 2, 8, Australia, c Burge, Davidson, 4, na, na, 1, 0
+510, 1961-07-27, 2, 9, Australia, c Harvey, Simpson, 3, 25, na, 0, 0
+510, 1961-07-27, 4, 9, Australia, c Benaud, Simpson, 8, 43, na, 2, 0
+531, 1962-06-21, 2, 10, Pakistan, lbw, Saeed Ahmed, 29, na, na, na, 1
+532, 1962-07-05, 1, 10, Pakistan, lbw, Munir Malik, 20, na, na, na, 1
+535, 1962-11-30, 2, 10, Australia, c Jarman, McKenzie, 19, 25, na, 2, 1
+536, 1963-12-29, 2, 9, Australia, c O'Neill, Davidson, 6, 16, 19, 0, 0
+537, 1963-01-11, 1, 9, Australia, , Simpson, 32, 68, 80, 3, 0
+537, 1963-01-11, 3, 9, Australia, c Jarman, McKenzie, 9, 8, 11, 2, 0
+538, 1963-01-25, 2, 10, Australia, c Benaud, Mackay, 38, 37, na, 5, 2
+539, 1963-02-15, 1, 8, Australia, c Harvey, Benaud, 30, 50, na, 0, 0
+539, 1963-02-15, 3, 8, Australia, c Harvey, McKenzie, 8, 2, na, 2, 0
+541, 1963-03-01, 2, 9, New Zealand, , Cameron, 3, 14, na, 0, 0
+542, 1963-03-15, 2, 9, New Zealand, c Reid, Alabaster, 11, 27, na, 1, 0
+543, 1963-06-06, 2, 9, West Indies, c Worrell, Sobers, 5, na, na, 1, 0
+543, 1963-06-06, 3, 10, West Indies, not out, , 29, na, na, na, 2
+544, 1963-06-20, 2, 9, West Indies, , Hall, 10, na, na, na, 0
+544, 1963-06-20, 4, 9, West Indies, c Murray, Hall, 0, 1, 1, 0, 0
+545, 1963-07-04, 1, 9, West Indies, , Griffith, 4, na, na, 0, 0
+545, 1963-07-04, 3, 9, West Indies, c Gibbs, Sobers, 1, na, na, 0, 0
+546, 1963-07-25, 2, 9, West Indies, c Hall, Gibbs, 4, 8, na, 1, 0
+546, 1963-07-25, 4, 9, West Indies, c Griffith, Gibbs, 5, na, na, na, 0
+547, 1963-08-22, 1, 8, West Indies, , Griffith, 19, 28, na, 2, 0
+547, 1963-08-22, 3, 8, West Indies, c Sobers, Hall, 5, 35, na, 0, 0
+561, 1964-06-04, 1, 8, Australia, c Simpson, Veivers, 0, 2, 1, 0, 0
+561, 1964-06-04, 3, 7, Australia, c Grout, McKenzie, 4, 23, na, 0, 0
+562, 1964-06-18, 2, 9, Australia, , Corling, 8, na, na, 0, 1
+563, 1964-07-02, 1, 9, Australia, c Cowper, Hawke, 4, na, na, na, 0
+563, 1964-07-02, 3, 10, Australia, not out, , 12, na, na, na, 0
+565, 1964-08-13, 1, 9, Australia, c Redpath, Hawke, 14, 29, na, 3, 0
+591, 1965-05-27, 1, 10, New Zealand, c Pollard, Cameron, 3, na, na, 0, 0
+592, 1965-06-17, 2, 9, New Zealand, , Collinge, 3, na, na, 0, 0

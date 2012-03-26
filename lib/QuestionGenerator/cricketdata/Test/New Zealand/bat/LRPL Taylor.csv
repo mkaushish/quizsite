@@ -1,0 +1,62 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+1846, 2007-10-08, 2, 6, South Africa, c Gibbs, Kallis, 15, 60, 28, 2, 0
+1846, 2007-10-08, 4, 4, South Africa, c Kallis, Nel, 4, 4, 2, 1, 0
+1848, 2007-10-16, 1, 6, South Africa, c Prince, Nel, 17, 38, 20, 4, 0
+1848, 2007-10-16, 3, 5, South Africa, run out (Amla), , 8, 8, 6, 2, 0
+1866, 2008-02-05, 1, 5, England,                c &, Pietersen, 120, 322, 235, 18, 0
+1866, 2008-02-05, 3, 6, England,                c &, Panesar, 6, 39, 32, 1, 0
+1867, 2008-02-13, 2, 5, England, c Ambrose, Anderson, 53, 127, 94, 9, 0
+1867, 2008-02-13, 4, 5, England, lbw, Sidebottom, 55, 96, 78, 8, 0
+1868, 2008-02-22, 2, 5, England, c Ambrose, Broad, 2, 6, 4, 0, 0
+1868, 2008-02-22, 4, 5, England, c Collingwood, Panesar, 74, 139, 117, 14, 0
+1874, 2008-04-15, 1, 4, England, c Collingwood, Broad, 19, 24, 20, 3, 0
+1874, 2008-04-15, 3, 4, England, lbw, Panesar, 20, 57, 36, 4, 0
+1876, 2008-04-23, 1, 4, England, not out, , 154, 292, 176, 17, 5
+1876, 2008-04-23, 3, 4, England, lbw, Panesar, 15, 72, 48, 1, 0
+1878, 2008-05-05, 2, 4, England, c Pietersen, Anderson, 21, 75, 50, 3, 0
+1878, 2008-05-05, 3, 4, England, lbw, Broad, 14, 36, 23, 2, 0
+1888, 2008-09-17, 2, 4, Bangladesh, lbw, Abdur Razzak, 12, 19, 22, 2, 0
+1888, 2008-09-17, 4, 5, Bangladesh, c sub (Mahbubul Alam), Mashrafe Mortaza, na, 3, 2, na, 0 
+1890, 2008-09-25, 1, 4, Bangladesh, , Shahadat Hossain, 19, 56, 36, 3, 0
+1894, 2008-10-20, 2, 4, Australia, lbw, Lee, 40, 77, 51, 7, 0
+1894, 2008-10-20, 4, 4, Australia, c Haddin, Johnson, 75, 188, 128, 9, 0
+1896, 2008-11-28, 1, 4, Australia, lbw, Clark, 44, 120, 88, 6, 0
+1896, 2008-11-28, 3, 4, Australia,                c &, Lee, 1, 21, 20, 0, 0
+1897, 2008-11-11, 1, 4, West Indies, c Marshall, Gayle, 15, 37, 22, 3, 0
+1900, 2008-11-19, 2, 4, West Indies, c Ramdin, Edwards, 4, 26, 14, 0, 0
+1900, 2008-11-19, 4, 4, West Indies, lbw, Benn, 46, 86, 50, 3, 2
+1915, 2009-02-18, 1, 4, India, , Sharma, 18, 58, 37, 2, 0
+1915, 2009-02-18, 3, 5, India, c Sehwag, Patel, 4, 58, 30, 0, 0
+1917, 2009-02-26, 1, 4, India, c Yuvraj Singh, Harbhajan Singh, 151, 262, 204, 26, 1
+1918, 2009-03-03, 2, 4, India, c Dhoni, Harbhajan Singh, 42, 139, 92, 6, 0
+1918, 2009-03-03, 4, 4, India, , Harbhajan Singh, 107, 261, 165, 16, 0
+1930, 2009-07-18, 2, 5, Sri Lanka, c HAPW Jayawardene, Thushara, 35, 90, 81, 3, 1
+1930, 2009-07-18, 4, 3, Sri Lanka, c HAPW Jayawardene, DPMD Jayawardene, 16, 88, 57, 2, 0
+1932, 2009-07-26, 2, 4, Sri Lanka, c HAPW Jayawardene, Herath, 81, 182, 155, 10, 0
+1932, 2009-07-26, 4, 4, Sri Lanka, c DPMD Jayawardene, Herath, 27, 49, 36, 4, 0
+1934, 2009-10-24, 1, 4, Pakistan, c Imran Farhat, Saeed Ajmal, 94, 237, 174, 13, 1
+1934, 2009-10-24, 3, 4, Pakistan, run out (Khurram Manzoor), , 59, 122, 83, 7, 1
+1938, 2009-11-03, 2, 4, Pakistan, , Umar Gul, 30, 54, 40, 4, 0
+1938, 2009-11-03, 4, 4, Pakistan, c Misbah-ul-Haq, Mohammad Amir, 97, 204, 135, 9, 5
+1940, 2009-11-11, 2, 4, Pakistan, c Mohammad Yousuf, Danish Kaneria, 21, 52, 49, 4, 0
+1953, 2010-01-15, 1, 4, Bangladesh, c Mushfiqur Rahim, Rubel Hossain, 40, 72, 63, 7, 0
+1953, 2010-01-15, 3, 4, Bangladesh, c Imrul Kayes, Mahmudullah, 51, 89, 72, 6, 0
+1955, 2010-02-19, 2, 4, Australia, c North, Bollinger, 21, 54, 38, 4, 0
+1955, 2010-02-19, 3, 4, Australia, lbw, Hauritz, 25, 36, 26, 3, 1
+1957, 2010-02-27, 2, 4, Australia, c Haddin, Bollinger, 138, 180, 104, 19, 4
+1957, 2010-02-27, 4, 4, Australia, c Haddin, Johnson, 22, 65, 42, 3, 0
+1974, 2010-10-04, 2, 4, India, c Laxman, Harbhajan Singh, 56, 158, 124, 6, 0
+1975, 2010-10-12, 1, 4, India, c Dhoni, Khan, 24, 67, 53, 1, 0
+1975, 2010-10-12, 3, 4, India, , Sreesanth, 7, 28, 19, 0, 0
+1978, 2010-10-20, 1, 3, India, lbw, Sharma, 20, 48, 24, 3, 0
+1978, 2010-10-20, 3, 5, India, c sub (CA Pujara), Harbhajan Singh, 29, 54, 41, 4, 0
+1990, 2011-01-07, 1, 4, Pakistan, c Adnan Akmal, Abdur Rehman, 6, 28, 27, 1, 0
+1990, 2011-01-07, 3, 4, Pakistan, run out (Misbah-ul-Haq), , 8, 36, 21, 2, 0
+1991, 2011-01-15, 1, 4, Pakistan, c Adnan Akmal, Wahab Riaz, 78, 251, 168, 6, 1
+1991, 2011-01-15, 3, 4, Pakistan, lbw, Umar Gul, 52, 135, 101, 4, 1
+2013, 2011-10-01, 1, 4, Zimbabwe, c Chakabva, Ncube, 76, 227, 165, 9, 0
+2013, 2011-10-01, 3, 5, Zimbabwe, lbw, Jarvis, 76, 193, 130, 4, 2
+2020, 2011-11-01, 1, 4, Australia, , Pattinson, 14, 33, 15, 3, 0
+2020, 2011-11-01, 3, 5, Australia, c Haddin, Pattinson, 0, 1, 1, 0, 0
+2021, 2011-11-09, 1, 4, Australia, lbw, Siddle, 6, 22, 18, 0, 0
+2021, 2011-11-09, 3, 4, Australia, c Clarke, Pattinson, 56, 221, 169, 6, 0

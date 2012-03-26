@@ -1,0 +1,97 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+543, 1963-06-06, 1, 8, England, not out, , 7, na, na, na, 0
+544, 1963-06-20, 1, 8, England, c Cowdrey, Trueman, 20, na, na, na, 0
+544, 1963-06-20, 3, 8, England, c Parks, Trueman, 2, na, na, 0, 0
+545, 1963-07-04, 2, 8, England, not out, , 20, na, na, na, 0
+545, 1963-07-04, 4, 8, England, c Parks, Trueman, 3, na, na, 0, 0
+546, 1963-07-25, 1, 7, England, lbw, Titmus, 34, na, na, na, 0
+546, 1963-07-25, 3, 8, England, c Lock, Titmus, 2, na, na, 0, 0
+547, 1963-08-22, 2, 8, England, c Lock, Trueman, 5, 8, na, 1, 0
+627, 1968-01-19, 2, 8, England, c D'Oliveira, Hobbs, 16, 33, na, 2, 0
+627, 1968-01-19, 3, 8, England, lbw, Brown, 0, 3, na, 0, 0
+629, 1968-02-08, 2, 2, England, c D'Oliveira, Brown, 0, 14, na, 0, 0
+629, 1968-02-08, 3, 8, England, lbw, Brown, 14, 30, na, 3, 0
+633, 1968-02-29, 1, 8, England, c Parks, Brown, 27, 96, na, 3, 0
+633, 1968-02-29, 3, 7, England, c Snow, Pocock, 18, 49, na, 2, 0
+635, 1968-03-14, 1, 9, England, not out, , 5, 14, na, 0, 0
+636, 1968-03-28, 1, 8, England, c Knott, Lock, 8, 20, 21, 1, 0
+636, 1968-03-28, 3, 7, England, c Boycott, Pocock, 16, 33, 39, 2, 0
+716, 1973-03-09, 2, 7, Australia, c Redpath, Jenner, 90, 276, na, 13, 0
+718, 1973-03-23, 2, 6, Australia, lbw, Hammond, 40, 171, na, 7, 0
+718, 1973-03-23, 4, 2, Australia, c Redpath, Walker, 7, 41, na, 1, 0
+720, 1973-04-06, 1, 7, Australia, c IM Chappell, Hammond, 1, 13, na, 0, 0
+720, 1973-04-06, 3, 7, Australia, c Marsh, Walker, 3, 24, na, 0, 0
+721, 1973-04-21, 2, 7, Australia, c Marsh, Walker, 34, 115, na, 4, 0
+721, 1973-04-21, 4, 5, Australia, c IM Chappell, Jenner, 7, 49, na, 1, 0
+725, 1973-07-26, 1, 6, England, c Roope, Arnold, 28, 152, 115, 1, 0
+725, 1973-07-26, 3, 7, England, c Roope, Underwood, 4, 14, 16, 1, 0
+726, 1973-08-09, 1, 7, England, , Underwood, 25, 205, 139, 0, 0
+726, 1973-08-09, 3, 7, England, hit wicket, Arnold, 15, 69, 79, 0, 0
+727, 1973-08-23, 1, 2, England, , Willis, 4, 23, 19, 0, 0
+731, 1974-02-02, 2, 7, England, c Fletcher, Pocock, 19, 75, 59, 0, 0
+732, 1974-02-16, 2, 9, England, not out, , 6, 36, 34, 0, 0
+734, 1974-03-06, 2, 8, England, not out, , 53, 167, 116, 5, 0
+738, 1974-03-30, 2, 7, England, c Pocock, Greig, 2, 14, 13, 0, 0
+738, 1974-03-30, 4, 7, England, c Fletcher, Greig, 33, 122, 109, 2, 0
+745, 1974-11-22, 1, 6, India, c Solkar, Venkataraghavan, 0, 6, na, 0, 0
+745, 1974-11-22, 3, 2, India, lbw, Abid Ali, 0, 3, na, 0, 0
+747, 1974-12-11, 2, 2, India, c Patel, Solkar, 0, 5, na, 0, 0
+750, 1975-12-27, 2, 6, India, run out, , 24, 110, na, na, 0
+750, 1975-12-27, 4, 6, India, lbw, Bedi, 13, na, na, na, 0
+752, 1975-01-11, 2, 7, India, c Engineer, Prasanna, 8, 22, na, 2, 0
+752, 1975-01-11, 4, 7, India, c Solkar, Bedi, 18, 43, na, 3, 0
+753, 1975-01-23, 1, 7, India, c Patel, Ghavri, 91, 267, na, 9, 0
+756, 1975-02-15, 2, 6, Pakistan, run out, , 10, na, na, na, 0
+756, 1975-02-15, 4, 6, Pakistan, not out, , 1, na, na, 0, 0
+759, 1975-03-01, 2, 6, Pakistan, c Majid Khan, Intikhab Alam, 19, na, na, na, 0
+764, 1975-11-28, 1, 7, Australia, c Mallett, Gilmour, 66, 106, 69, 7, 3
+764, 1975-11-28, 3, 8, Australia,                c &, Mallett, 55, 120, 90, 6, 0
+765, 1975-12-12, 2, 7, Australia, c Marsh, Lillee, 63, 150, 100, 8, 1
+766, 1975-12-26, 1, 7, Australia, c Walker, Lillee, 24, 48, 38, 3, 0
+766, 1975-12-26, 3, 7, Australia, c Marsh, Lillee, 22, 75, 82, 3, 0
+767, 1976-01-03, 1, 7, Australia, c Thomson, Walker, 32, 32, 24, 3, 1
+767, 1976-01-03, 3, 7, Australia, , Thomson, 50, 139, 106, 3, 0
+768, 1976-01-23, 2, 6, Australia, c Mallett, Lillee, 18, 24, 15, 3, 0
+768, 1976-01-23, 4, 6, Australia, c Marsh, Thomson, 6, 44, 28, 1, 0
+770, 1976-01-31, 2, 7, Australia, c Marsh, Lillee, 1, 7, 8, 0, 0
+770, 1976-01-31, 4, 7, Australia, c Marsh, Lillee, 5, 11, 13, 0, 0
+773, 1976-03-10, 2, 6, India, , Bedi, 27, na, na, na, 0
+774, 1976-03-24, 1, 6, India, c Kirmani, Bedi, 46, 155, na, 1, 0
+774, 1976-03-24, 3, 7, India, c Vengsarkar, Bedi, 9, na, na, na, 0
+775, 1976-04-07, 1, 6, India, , Chandrasekhar, 11, na, na, na, 0
+775, 1976-04-07, 3, 6, India, c Solkar, Bedi, 25, na, na, na, 0
+776, 1976-04-21, 2, 6, India, c sub, Chandrasekhar, 71, 188, na, 5, 1
+777, 1976-06-03, 1, 8, England, c Close, Snow, 19, 63, 44, 3, 0
+778, 1976-06-17, 2, 6, England, , Snow, 2, 1, 2, 0, 0
+778, 1976-06-17, 4, 6, England, not out, , 7, 21, 20, 0, 0
+779, 1976-07-08, 1, 7, England, c Greig, Hendrick, 1, 24, 13, 0, 0
+779, 1976-07-08, 3, 7, England, not out, , 7, 22, 27, 0, 0
+780, 1976-07-22, 1, 7, England, c Willis, Snow, 33, 45, 32, 4, 0
+780, 1976-07-22, 3, 7, England, , Willis, 18, 52, 36, 3, 0
+781, 1976-08-12, 1, 7, England,                c &, Underwood, 36, 94, 85, 4, 0
+797, 1977-02-18, 2, 7, Pakistan, c Mushtaq Mohammad, Imran Khan, 52, 155, na, na, 0
+797, 1977-02-18, 4, 7, Pakistan, c Wasim Bari, Saleem Altaf, 20, na, na, na, 0
+799, 1977-03-04, 2, 7, Pakistan, , Mushtaq Mohammad, 10, na, na, na, 0
+801, 1977-03-18, 2, 7, Pakistan, c Zaheer Abbas, Majid Khan, 42, 163, na, na, 0
+802, 1977-04-01, 2, 8, Pakistan, lbw, Imran Khan, 0, na, na, 0, 0
+802, 1977-04-01, 4, 7, Pakistan, c Sadiq Mohammad, Wasim Raja, 30, 176, na, na, 0
+803, 1977-04-15, 1, 7, Pakistan, c Sikander Bakht, Imran Khan, 31, na, na, na, 1
+803, 1977-04-15, 3, 7, Pakistan, c Wasim Bari, Imran Khan, 33, na, na, na, 0
+819, 1978-03-03, 2, 7, Australia, c Rixon, Higgs, 21, 70, na, 1, 0
+821, 1978-03-17, 2, 7, Australia, c Darling, Thomson, 60, 107, na, 9, 0
+862, 1979-12-01, 2, 7, Australia, c McCosker, Thomson, 21, 70, 40, 2, 0
+867, 1980-12-29, 2, 7, Australia, , Dymock, 24, 85, 80, 1, 0
+870, 1980-01-26, 1, 7, Australia, c Marsh, Dymock, 4, 12, 7, 1, 0
+870, 1980-01-26, 3, 8, Australia, c GS Chappell, Dymock, 28, 56, 61, 2, 0
+873, 1980-02-08, 1, 7, New Zealand, c Edgar, Troup, 6, 20, 20, 0, 0
+873, 1980-02-08, 3, 7, New Zealand, lbw, Hadlee, 30, 108, 97, 3, 0
+875, 1980-02-22, 1, 7, New Zealand, c Webb, Cairns, 6, 48, 34, 0, 0
+875, 1980-02-22, 3, 7, New Zealand, not out, , 1, 1, 1, 0, 0
+877, 1980-02-29, 1, 7, New Zealand, c Lees, Hadlee, 16, 28, 21, 2, 0
+877, 1980-02-29, 3, 7, New Zealand, lbw, Cairns, 7, 23, 15, 0, 0
+880, 1980-06-05, 2, 6, England, , Willis, 64, 178, 121, 8, 0
+880, 1980-06-05, 4, 7, England, c Hendrick, Willis, 16, 46, 33, 2, 0
+881, 1980-06-19, 2, 8, England, c Tavare, Botham, 34, 52, 52, 5, 0
+882, 1980-07-10, 2, 7, England, , Botham, 17, 45, 35, 2, 0
+883, 1980-07-24, 2, 6, England, hit wicket, Dilley, 0, 5, 1, 0, 0
+884, 1980-08-07, 2, 7, England, c Emburey, Dilley, 14, 21, 15, 2, 0

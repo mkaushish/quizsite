@@ -1,0 +1,70 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+887, 1980-11-28, 2, 9, New Zealand, c sub (SL Boock), Hadlee, 16, 56, 53, 1, 0
+903, 1981-06-18, 2, 8, England, c Gower, Botham, 14, 30, 18, 1, 0
+903, 1981-06-18, 4, 8, England, not out, , 5, 15, 11, 1, 0
+904, 1981-07-02, 2, 9, England, lbw, Willis, 5, 29, 22, 1, 0
+905, 1981-07-16, 1, 9, England, c Taylor, Botham, 13, 45, 35, 2, 0
+905, 1981-07-16, 4, 9, England, c Taylor, Willis, 1, 2, 2, 0, 0
+915, 1981-12-26, 1, 10, West Indies, , Holding, 2, 2, 3, 0, 0
+915, 1981-12-26, 3, 10, West Indies, not out, , 0, 17, 7, 0, 0
+935, 1982-09-22, 1, 10, Pakistan, c Wasim Bari, Tahir Naqqash, 0, 1, 1, 0, 0
+935, 1982-09-22, 3, 10, Pakistan, run out, , 11, 22, 20, 0, 0
+936, 1982-09-30, 2, 10, Pakistan, c Zaheer Abbas, Iqbal Qasim, 14, 120, 59, 1, 0
+936, 1982-09-30, 3, 10, Pakistan, lbw, Abdul Qadir, 0, 4, 4, 0, 0
+937, 1982-10-14, 1, 9, Pakistan, not out, , 57, 118, 64, 9, 1
+937, 1982-10-14, 3, 9, Pakistan, c sub (Iqbal Qasim), Imran Khan, 9, 19, 15, 0, 0
+938, 1982-11-12, 2, 8, England, , Miller, 50, 114, 80, 5, 0
+939, 1982-11-26, 2, 9, England, c Hemmings, Willis, 6, 37, 20, 1, 0
+940, 1982-12-10, 1, 5, England, c Botham, Willis, 2, 23, 18, 0, 0
+940, 1982-12-10, 4, 3, England, c Randall, Willis, 14, 48, 33, 0, 0
+943, 1982-12-26, 2, 9, England, c Fowler, Miller, 0, 8, 2, 0, 0
+943, 1982-12-26, 4, 9, England, c Cowans, Pringle, 7, 28, 16, 0, 0
+944, 1983-01-02, 1, 9, England,                c &, Botham, 6, 32, 24, 0, 0
+944, 1983-01-02, 3, 9, England, not out, , 13, 42, 30, 1, 0
+966, 1983-11-11, 1, 8, Pakistan, c Mohammad Nazir, Abdul Qadir, 9, 21, 15, 2, 0
+969, 1983-11-25, 2, 8, Pakistan, , Abdul Qadir, 49, 100, 84, 6, 0
+970, 1983-12-09, 1, 9, Pakistan, c Wasim Bari, Azeem Hafeez, 4, 22, 23, 1, 0
+970, 1983-12-09, 3, 9, Pakistan, not out, , 7, 48, 34, 0, 0
+973, 1983-12-26, 2, 9, Pakistan, c Mudassar Nazar, Abdul Qadir, 0, 5, 6, 0, 0
+979, 1984-03-02, 1, 8, West Indies, c Richards, Harper, 11, 23, 27, 1, 0
+979, 1984-03-02, 3, 8, West Indies, not out, , 35, 121, 66, 4, 0
+983, 1984-03-16, 1, 8, West Indies,                c &, Daniel, 14, 69, 53, 0, 0
+983, 1984-03-16, 3, 9, West Indies, , Marshall, 20, 33, 30, 3, 0
+986, 1984-03-30, 1, 9, West Indies, , Baptiste, 10, 23, na, 1, 0
+986, 1984-03-30, 3, 9, West Indies, c Harper, Marshall, 2, 17, na, 0, 0
+987, 1984-04-07, 1, 9, West Indies, , Holding, 4, 10, 7, 1, 0
+987, 1984-04-07, 3, 9, West Indies, not out, , 17, 52, 31, 3, 0
+988, 1984-04-28, 1, 9, West Indies, c Harper, Garner, 15, 36, 28, 2, 0
+988, 1984-04-28, 3, 8, West Indies, , Marshall, 4, 10, 6, 1, 0
+997, 1984-11-09, 2, 8, West Indies, c Dujon, Marshall, 1, 14, 10, 0, 0
+997, 1984-11-09, 3, 8, West Indies, not out, , 38, 73, 35, 4, 0
+999, 1984-11-23, 1, 8, West Indies, , Garner, 14, 27, 19, 2, 0
+999, 1984-11-23, 3, 9, West Indies, c Richards, Marshall, 14, 35, 24, 2, 0
+1002, 1984-12-07, 2, 8, West Indies, c Dujon, Garner, 49, 101, 68, 6, 0
+1002, 1984-12-07, 4, 8, West Indies, c Dujon, Marshall, 2, 13, 6, 0, 0
+1005, 1984-12-22, 2, 9, West Indies, c Walsh, Garner, 8, 28, 23, 1, 0
+1005, 1984-12-22, 4, 9, West Indies, , Walsh, 0, 12, 6, 0, 0
+1006, 1985-12-30, 1, 9, West Indies, not out, , 5, 20, 13, 0, 0
+1017, 1985-06-13, 1, 10, England, c Downton, Allott, 0, 2, 3, 0, 0
+1017, 1985-06-13, 3, 9, England, c Downton, Emburey, 15, 39, 20, 3, 0
+1018, 1985-06-27, 2, 9, England, not out, , 5, 28, 16, 0, 0
+1019, 1985-07-11, 2, 10, England, c Gooch, Botham, 18, 67, 50, 3, 0
+1020, 1985-08-01, 1, 9, England, c Downton, Botham, 4, 18, 17, 0, 0
+1021, 1985-08-15, 1, 8, England, run out, , 53, 140, 93, 7, 0
+1021, 1985-08-15, 3, 9, England, c Gower, Edmonds, 3, 7, 8, 0, 0
+1022, 1985-08-29, 2, 9, England, c Botham, Taylor, 14, 29, 26, 1, 0
+1022, 1985-08-29, 3, 9, England, c Downton, Ellison, 7, 16, 10, 1, 0
+1029, 1985-11-08, 1, 8, New Zealand, c Hadlee, Brown, 8, 36, 27, 1, 0
+1029, 1985-11-08, 3, 9, New Zealand, c Brown, Chatfield, 7, 28, 22, 0, 0
+1031, 1985-11-30, 1, 8, New Zealand, c JJ Crowe, Hadlee, 11, 25, 18, 0, 0
+1031, 1985-11-30, 3, 8, New Zealand, c JJ Crowe, Hadlee, 21, 53, 60, 1, 0
+1059, 1986-11-28, 2, 9, England, , DeFreitas, 13, 33, 27, 0, 0
+1110, 1988-12-02, 2, 10, West Indies, retired hurt, , 0, 4, 2, 0, 0
+1110, 1988-12-02, 4, 11, West Indies, absent hurt, , -, , , , 
+1121, 1989-06-08, 1, 9, England, not out, , 10, 13, 13, 1, 0
+1122, 1989-06-22, 2, 10, England, c Broad, Emburey, 74, 107, 94, 11, 0
+1123, 1989-07-06, 1, 10, England, , Fraser, 12, 35, 28, 2, 0
+1124, 1989-07-27, 2, 10, England, , Fraser, 17, 29, 31, 3, 0
+1126, 1989-08-24, 1, 10, England, , Pringle, 2, 9, 8, 0, 0
+1129, 1989-11-24, 1, 9, New Zealand, , Morrison, 1, 5, 6, 0, 0
+1131, 1989-12-08, 1, 9, Sri Lanka, c Wickremasinghe, Labrooy, 22, 38, 25, 3, 0

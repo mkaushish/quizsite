@@ -1,0 +1,116 @@
+
+Test # 181
+South Africa in England, 1929, 1st Test
+England v South Africa
+Edgbaston, Birmingham
+15,17,18 June 1929 (3-day match)
+
+Result: Match drawn
+Series: 5-match series level 0-0
+
+Toss: England
+Umpires: J Hardstaff snr and TW Oates
+Test debuts: KS Duleepsinhji, ET Killick (England); JAJ Christy, B Mitchell,
+ HGO Owen-Smith, NA Quinn (South Africa).
+
+Close of play:
+ Day 1: England 245, South Africa 59/0 (Catterall 33*, Mitchell 25*)
+ Day 2: South Africa 250, England 34/0 (Sutcliffe 10*, Killick 23*)
+
+England 1st innings                                             R   M   B  4 6
+H Sutcliffe           c Cameron          b Ochse               26            0
+ET Killick            c Morkel           b Ochse               31            0
+WR Hammond                               b Quinn               18            0
+KS Duleepsinhji       c Vincent          b Morkel              12            0
+EH Hendren                               b Morkel              70            0
+M Leyland             c Taylor           b Ochse                3          0 0
+PGH Fender            c Cameron          b Quinn                6            0
+MW Tate               c Mitchell         b Morkel              40            1
+H Larwood             lbw                b Ochse                6            0
+*JC White             run out                                   5            0
++G Duckworth          not out                                  11            0
+Extras                (b 9, lb 3, w 4, nb 1)                   17
+Total                 (all out, 81.1 overs)                   245
+
+FoW: 1-59 (Killick), 2-66 (Sutcliffe), 3-92 (Duleepsinhji),
+     4-96 (Hammond), 5-111 (Leyland), 6-128 (Fender),
+     7-215 (Tate), 8-215 (Hendren), 9-222 (White),
+     10-245 (Larwood).
+
+Bowling                      O      M      R      W
+Morkel                      20      4     40      3
+Quinn                       27      8     62      2
+Ochse                       25.1    2     79      4
+Vincent                      7      0     37      0
+Mitchell                     2      0     10      0
+
+South Africa 1st innings                                        R   M   B  4 6
+RH Catterall          lbw                b Fender              67            0
+B Mitchell                               b Tate                88            0
+JAJ Christy                              b Larwood              1          0 0
+HW Taylor                                b Larwood              2          0 0
+DPB Morkel                               b Tate                 5            0
+*HG Deane                            c & b Fender              29            0
++HB Cameron                              b Larwood              5            0
+HGO Owen-Smith                           b Tate                25            0
+CL Vincent            not out                                  14            0
+NA Quinn                                 b Larwood              1          0 0
+AL Ochse                                 b Larwood              2          0 0
+Extras                (b 6, lb 2, w 1, nb 2)                   11
+Total                 (all out, 172.4 overs)                  250
+
+FoW: 1-119 (Catterall), 2-120 (Christy), 3-122 (Taylor),
+     4-130 (Morkel), 5-174 (Deane), 6-182 (Cameron),
+     7-224 (Owen-Smith), 8-239 (Mitchell), 9-248 (Quinn),
+     10-250 (Ochse).
+
+Bowling                      O      M      R      W
+Larwood                     42.4   17     57      5
+Tate                        44     14     65      3
+Fender                      32     10     64      2
+Hammond                     22     12     25      0
+White                       32     19     28      0
+
+England 2nd innings                                             R   M   B  4 6
+H Sutcliffe                              b Morkel             114            0
+ET Killick                               b Quinn               23            0
+WR Hammond            not out                                 138            0
+PGH Fender            c Vincent          b Ochse               12            0
+KS Duleepsinhji       lbw                b Ochse                1          0 0
+EH Hendren            not out                                   8            0
+Extras                (lb 10, w 2)                             12
+Total                 (4 wickets dec, 100 overs)              308
+
+DNB: M Leyland, MW Tate, H Larwood, *JC White, +G Duckworth.
+
+FoW: 1-34 (Killick), 2-255 (Sutcliffe), 3-278 (Fender),
+     4-280 (Duleepsinhji).
+
+Bowling                      O      M      R      W
+Morkel                      22      6     54      1
+Quinn                       20      2     55      1
+Ochse                       28      2     88      2
+Vincent                     19      3     55      0
+Owen-Smith                   6      0     29      0
+Christy                      5      1     15      0
+
+South Africa 2nd innings (target: 304 runs)                     R   M   B  4 6
+RH Catterall          c White            b Fender              98            0
+B Mitchell            not out                                  61            0
+Extras                (b 9, nb 3)                              12
+Total                 (1 wicket, 59.4 overs)                  171
+
+DNB: JAJ Christy, HW Taylor, DPB Morkel, *HG Deane, +HB Cameron,
+     HGO Owen-Smith, CL Vincent, NA Quinn, AL Ochse.
+
+FoW: 1-171 (Catterall).
+
+Bowling                      O      M      R      W
+Larwood                     11      6     12      0
+Tate                        16      4     43      0
+Fender                      15.4    3     55      1
+Hammond                      3      0     19      0
+White                       13      5     23      0
+Duleepsinhji                 1      0      7      0
+
+<END>

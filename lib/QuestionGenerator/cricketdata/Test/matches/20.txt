@@ -1,0 +1,118 @@
+
+Test # 20
+The Ashes, 1884/85, 4th Test
+Australia v England
+Sydney Cricket Ground
+14,16,17 March 1885 (timeless match)
+
+Result: Australia won by 8 wickets
+Series: 5-match series level 2-2
+
+Toss: England
+Umpires: EH Elliott and PG McShane
+Balls per over: 4
+
+Close of play:
+ Day 1: England 269, Australia 11/1 (Garrett 9*, Trumble 2*)
+ Day 2: Australia 308/8 (Jones 40*, Blackham 11*)
+
+England 1st innings                                             R   M   B  4 6
+G Ulyett                                 b Giffen              10          2 0
+*A Shrewsbury snr                        b Giffen              40          4 0
+WH Scotton            c Blackham         b Giffen               4          0 0
+W Barnes                                 b Giffen              50          4 0
+W Bates                              c & b Jones               64          7 1
+JM Read                                  b Giffen              47          7 0
+W Flowers                                b Giffen              14          1 0
+J Briggs              c Palmer           b Spofforth            3       2  0 0
+W Attewell                               b Giffen               1          0 0
+R Peel                not out                                  17          2 0
++J Hunter                                b Spofforth           13          2 0
+Extras                (b 5, nb 1)                               6
+Total                 (all out, 126 overs)                    269
+
+FoW: 1-19 (Ulyett), 2-52 (Scotton), 3-76 (Shrewsbury),
+     4-159 (Barnes), 5-186 (Bates), 6-219 (Flowers),
+     7-222 (Briggs), 8-229 (Attewell), 9-252 (Read),
+     10-269 (Hunter).
+
+Bowling                      O      M      R      W
+Giffen                      52     14    117      7
+Palmer                      16      5     35      0
+Spofforth                   29     10     61      2
+Garrett                      2      1      5      0
+Trumble                     12      5     16      0
+Horan                        5      2     12      0
+Jones                       10      5     17      1
+
+Australia 1st innings                                           R   M   B  4 6
+GE Palmer                                b Ulyett               0   2   4  0 0
+TW Garrett                               b Barnes              32          2 0
+JW Trumble                               b Peel                 5          0 0
+PS McDonnell          c Attewell         b Ulyett              20          2 0
+AC Bannerman          c Shrewsbury       b Flowers             51          8 0
+G Giffen              c Attewell         b Barnes               1          0 0
+TP Horan              c Barnes           b Ulyett               9          1 0
+GJ Bonnor             c Bates            b Barnes             128 115     14 3
+SP Jones              run out                                  40          3 0
+*+JM Blackham         not out                                  11          1 0
+FR Spofforth          c Read             b Barnes               1          0 0
+Extras                (b 5, lb 1, w 2, nb 3)                   11
+Total                 (all out, 169.3 overs)                  309
+
+FoW: 1-0 (Palmer), 2-15 (Trumble), 3-40 (McDonnell),
+     4-98 (Garrett), 5-108 (Giffen), 6-119 (Horan),
+     7-134 (Bannerman), 8-288 (Bonnor), 9-308 (Jones),
+     10-309 (Spofforth).
+
+Bowling                      O      M      R      W
+Ulyett                      54     25     91      3
+Peel                        31     12     53      1
+Attewell                    18     13     22      0
+Bates                       17      5     44      0
+Barnes                      35.3   17     61      4
+Flowers                     14      5     27      1
+
+England 2nd innings                                             R   M   B  4 6
+G Ulyett              c Garrett          b Palmer               2          0 0
+*A Shrewsbury snr     c Bonnor           b Spofforth           16          2 0
+WH Scotton            c Jones            b Spofforth            0          0 0
+W Barnes              c Bannerman        b Spofforth           20          1 0
+W Bates               c Blackham         b Palmer               1          0 0
+JM Read               c Bannerman        b Spofforth            6          0 0
+W Flowers             c Jones            b Palmer               7          0 0
+J Briggs              run out                                   5          0 0
+W Attewell            not out                                   1          0 0
+R Peel                               c & b Spofforth            0          0 0
++J Hunter                                b Palmer               4          0 0
+Extras                (b 14, nb 1)                             15
+Total                 (all out, 39.1 overs)                    77
+
+FoW: 1-3 (Ulyett), 2-16 (Scotton), 3-19 (Shrewsbury),
+     4-20 (Bates), 5-27 (Read), 6-46 (Flowers), 7-66 (Briggs),
+     8-69 (Barnes), 9-69 (Peel), 10-77 (Hunter).
+
+Bowling                      O      M      R      W
+Palmer                      19.1    7     32      4
+Spofforth                   20      8     30      5
+
+Australia 2nd innings (target: 38 runs)                         R   M   B  4 6
+PS McDonnell          c Ulyett           b Peel                 3          0 0
+AC Bannerman                             b Barnes               8          2 0
+TP Horan              not out                                  12          0 0
+SP Jones              not out                                  15          2 0
+Extras                                                          0
+Total                 (2 wickets, 24.3 overs)                  38
+
+DNB: GE Palmer, TW Garrett, JW Trumble, G Giffen, GJ Bonnor,
+     *+JM Blackham, FR Spofforth.
+
+FoW: 1-7 (McDonnell), 2-16 (Bannerman).
+
+Bowling                      O      M      R      W
+Peel                         9      4     16      1
+Attewell                     3      1      4      0
+Barnes                       9      3     15      1
+Flowers                      3.3    2      3      0
+
+<END>

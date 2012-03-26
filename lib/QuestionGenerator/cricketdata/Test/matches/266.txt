@@ -1,0 +1,100 @@
+
+Test # 266
+The Ashes, 1938, 5th Test
+England v Australia
+Kennington Oval, London
+20,22,23,24 August 1938 (timeless match)
+
+Result: England won by an innings and 579 runs
+Series: 4-match series drawn 1-1 (1 abandoned)
+
+Toss: England
+Umpires: F Chester and FI Walden
+Test debuts: SG Barnes (Australia); A Wood (England).
+
+Close of play:
+ Day 1: England 347/1 (Hutton 160*, Leyland 156*)
+ Day 2: England 634/5 (Hutton 300*, Hardstaff 40*)
+ Day 3: England 903/7d, Australia 117/3 (Brown 29*, Barnes 25*)
+
+England 1st innings                                             R   M   B  4 6
+L Hutton              c Hassett          b O'Reilly           364 797 847 35 0
+WJ Edrich             lbw                b O'Reilly            12  45  59  0 0
+M Leyland             run out                                 187 381 438 17 0
+*WR Hammond           lbw                b Fleetwood-Smith     59 141 153  4 0
+E Paynter             lbw                b O'Reilly             0   4   4  0 0
+DCS Compton                              b Waite                1  13  14  0 0
+J Hardstaff jnr       not out                                 169 326 400 20 0
++A Wood                              c & b Barnes              53  92  95  8 0
+H Verity              not out                                   8  25  19  1 0
+Extras                (b 22, lb 19, w 1, nb 8)                 50
+Total                 (7 wickets dec, 335.2 overs)            903
+
+DNB: K Farnes, WE Bowes.
+
+FoW: 1-29 (Edrich), 2-411 (Leyland), 3-546 (Hammond),
+     4-547 (Paynter), 5-555 (Compton), 6-770 (Hutton),
+     7-876 (Wood).
+
+Bowling                      O      M      R      W
+Waite                       72     16    150      1
+McCabe                      38      8     85      0
+O'Reilly                    85     26    178      3
+Fleetwood-Smith             87     11    298      1
+Barnes                      38      3     84      1
+Hassett                     13      2     52      0
+Bradman                      2.2    1      6      0
+
+Australia 1st innings                                           R   M   B  4 6
+WA Brown              c Hammond          b Leyland             69 166 153  6 0
+CL Badcock            c Hardstaff        b Bowes                0   4   3  0 0
+SJ McCabe             c Edrich           b Farnes              14  10  15  2 0
+AL Hassett            c Compton          b Edrich              42  33  41  5 0
+SG Barnes                                b Bowes               41  68  72  5 0
++BA Barnett           c Wood             b Bowes                2   2   3  0 0
+MG Waite                                 b Bowes                8  10   8  2 0
+WJ O'Reilly           c Wood             b Bowes                0   2   3  0 0
+LO Fleetwood-Smith    not out                                  16  26  20  3 0
+*DG Bradman           absent hurt                               -
+JHW Fingleton         absent hurt                               -
+Extras                (b 4, lb 2, nb 3)                         9
+Total                 (all out, 52.1 overs)                   201
+
+FoW: 1-0 (Badcock), 2-19 (McCabe), 3-70 (Hassett),
+     4-145 (Barnes), 5-147 (Barnett), 6-160 (Waite),
+     7-160 (O'Reilly), 8-201 (Brown).
+
+Bowling                      O      M      R      W
+Farnes                      13      2     54      1
+Bowes                       19      3     49      5
+Edrich                      10      2     55      1
+Verity                       5      1     15      0
+Leyland                      3.1    0     11      1
+Hammond                      2      0      8      0
+
+Australia 2nd innings (following on)                            R   M   B  4 6
+WA Brown              c Edrich           b Farnes              15  47  27  1 0
+CL Badcock                               b Bowes                9  17  29  2 0
+SJ McCabe             c Wood             b Farnes               2   1   2  0 0
+AL Hassett            lbw                b Bowes               10  10  12  1 0
+SG Barnes             lbw                b Verity              33  64  74  4 0
++BA Barnett                              b Farnes              46  55  50  7 0
+MG Waite              c Edrich           b Verity               0   1   1  0 0
+WJ O'Reilly           not out                                   7  10   7  1 0
+LO Fleetwood-Smith    c Leyland          b Farnes               0   6   3  0 0
+*DG Bradman           absent hurt                               -
+JHW Fingleton         absent hurt                               -
+Extras                (b 1)                                     1
+Total                 (all out, 34.1 overs)                   123
+
+FoW: 1-15 (Badcock), 2-18 (McCabe), 3-35 (Hassett), 4-41 (Brown),
+     5-115 (Barnes), 6-115 (Waite), 7-117 (Barnett),
+     8-123 (Fleetwood-Smith).
+
+Bowling                      O      M      R      W
+Farnes                      12.1    1     63      4
+Bowes                       10      3     25      2
+Verity                       7      3     15      2
+Leyland                      5      0     19      0
+
+<END>

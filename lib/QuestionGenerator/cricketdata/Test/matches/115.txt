@@ -1,0 +1,127 @@
+
+Test # 115
+South Africa in Australia, 1910/11, 5th Test
+Australia v South Africa
+Sydney Cricket Ground
+3,4,6,7 March 1911 (timeless match)
+
+Result: Australia won by 7 wickets
+Series: Australia wins the 5-match series 4-1
+
+Toss: South Africa
+Umpires: RM Crockett and AC Jones
+
+Close of play:
+ Day 1: Australia 281/3 (Bardsley 83*, Whitty 2*)
+ Day 2: Australia 364, South Africa 160, South Africa 33/1 (Zulch 7*, Pegler 10*)
+ Day 3: South Africa 368/6 (Snooke 2*)
+
+Australia 1st innings                                           R   M   B  4 6
+C Kelleway            c Snooke           b Llewellyn            2   1   2  0 0
+CG Macartney          lbw                b Schwarz            137 193 193 16 0
+HV Hordern            lbw                b Sinclair            50  89  97  4 0
+W Bardsley                           c & b Sinclair            94 136 157  9 0
+WJ Whitty             c Nourse           b Llewellyn           13  24  20  1 0
+VT Trumper                               b Schwarz             31  30  23  5 0
+*C Hill               st Sherwell        b Schwarz             13  24  20  1 0
+WW Armstrong          c Pearse           b Schwarz              0   1   3  0 0
+VS Ransford           st Sherwell        b Schwarz              6  21  40  0 0
+A Cotter              st Sherwell        b Schwarz              8   7  10  1 0
++H Carter             not out                                   1   6  10  0 0
+Extras                (b 7, lb 2)                               9
+Total                 (all out, 96.4 overs)                   364
+
+FoW: 1-2 (Kelleway), 2-126 (Hordern), 3-271 (Macartney),
+     4-296 (Whitty), 5-317 (Bardsley), 6-346 (Trumper),
+     7-346 (Armstrong), 8-351 (Hill), 9-361 (Cotter),
+     10-364 (Ransford).
+
+Bowling                      O      M      R      W
+Llewellyn                   25      0     92      2
+Faulkner                    12      2     38      0
+Sinclair                    27      6     83      2
+Pegler                       6      1     31      0
+Schwarz                     11.4    0     47      6
+Nourse                       5      1     26      0
+Pearse                       9      0     36      0
+Zulch                        1      0      2      0
+
+South Africa 1st innings                                        R   M   B  4 6
+COC Pearse                               b Whitty               0   5   4  0 0
+JW Zulch              st Carter          b Hordern             15  41  39  2 0
+GA Faulkner                              b Armstrong           52  81  82  6 0
+AW Nourse                                b Armstrong            3  31  26  0 0
+LA Stricker           c Macartney        b Hordern             19  50  60  3 0
+JH Sinclair           c Ransford         b Hordern              1   7   4  0 0
+SJ Snooke                                b Hordern             18  20  33  2 0
+CB Llewellyn          c Carter           b Kelleway            24  37  28  3 0
+RO Schwarz            run out                                  13  12  16  2 0
+*+PW Sherwell         c Bardsley         b Whitty               5  13  10  1 0
+SJ Pegler             not out                                   0   1   0  0 0
+Extras                (b 1, lb 8, nb 1)                        10
+Total                 (all out, 50.1 overs)                   160
+
+FoW: 1-4 (Pearse), 2-47 (Zulch), 3-70 (Nourse), 4-81 (Faulkner),
+     5-87 (Sinclair), 6-115 (Snooke), 7-128 (Stricker),
+     8-144 (Schwarz), 9-160 (Llewellyn), 10-160 (Sherwell).
+
+Bowling                      O      M      R      W
+Cotter                       8      2     24      0
+Whitty                      11.1    3     32      2
+Hordern                     21      3     73      4
+Kelleway                     4      1      4      1
+Armstrong                    6      1     17      2
+
+South Africa 2nd innings (following on)                         R   M   B  4 6
+*+PW Sherwell                            b Armstrong           14  11  16  3 0
+JW Zulch                                 b Ransford           150 298 304 15 0
+SJ Pegler             c Cotter           b Hordern             26  40  35  2 0
+GA Faulkner                              b Cotter              92 107 135 10 0
+AW Nourse             c Cotter           b Whitty              28  61  64  5 0
+LA Stricker                              b Cotter              42  81  90  1 0
+SJ Snooke             c Carter           b Whitty              12  29  34  1 0
+JH Sinclair                          c & b Whitty              12  31  28  0 0
+CB Llewellyn                             b Whitty               3  19  18  0 0
+RO Schwarz            not out                                   6  15  12  0 0
+COC Pearse            lbw                b Hordern              2   5   5  0 0
+Extras                (b 3, lb 4, w 2, nb 5)                   14
+Total                 (all out, 122.1 overs)                  401
+
+FoW: 1-19 (Sherwell), 2-64 (Pegler), 3-207 (Faulkner),
+     4-278 (Nourse), 5-357 (Zulch), 6-368 (Stricker),
+     7-385 (Snooke), 8-392 (Sinclair), 9-398 (Llewellyn),
+     10-401 (Pearse).
+
+Bowling                      O      M      R      W
+Cotter                      18      1     60      2
+Whitty                      27      5     66      4
+Hordern                     30.1    1    117      2
+Kelleway                     7      1     46      0
+Armstrong                   26      4     68      1
+Macartney                   10      0     21      0
+Ransford                     4      2      9      1
+
+Australia 2nd innings (target: 198 runs)                        R   M   B  4 6
+W Bardsley                               b Nourse              39  87  75  5 0
+CG Macartney          c Nourse           b Schwarz             56  40  50  7 0
+VT Trumper            not out                                  74  84 100  5 0
+VS Ransford                              b Nourse               0   1   1  0 0
+C Kelleway            not out                                  24  35  33  1 0
+Extras                (b 1, lb 3, w 1)                          5
+Total                 (3 wickets, 43.1 overs)                 198
+
+DNB: HV Hordern, WJ Whitty, *C Hill, WW Armstrong, A Cotter,
+     +H Carter.
+
+FoW: 1-74 (Macartney), 2-134 (Bardsley), 3-134 (Ransford).
+
+Bowling                      O      M      R      W
+Llewellyn                    8      1     43      0
+Faulkner                     5      0     18      0
+Sinclair                     6      1     22      0
+Pegler                       4      0     22      0
+Schwarz                      9      0     42      1
+Nourse                       8.1    0     32      2
+Pearse                       3      0     14      0
+
+<END>

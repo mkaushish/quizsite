@@ -1,0 +1,124 @@
+
+Test # 142
+The Ashes, 1921, 3rd Test
+England v Australia
+Headingley, Leeds
+2,4,5 July 1921 (3-day match)
+
+Result: Australia won by 219 runs
+Series: Australia leads the 5-match series 3-0
+
+Toss: Australia
+Umpires: HR Butt and A Millward
+Test debuts: G Brown, A Ducat, HTW Hardinge, JC White (England).
+
+Close of play:
+ Day 1: Australia 407, England 22/2 (Hardinge 11*, Ducat 3*)
+ Day 2: England 259, Australia 143/2 (Andrews 78*, Carter 3*)
+
+Australia 1st innings                                           R   M   B  4 6
+W Bardsley            c Woolley          b Douglas              6  20      1 0
+TJE Andrews           c Woolley          b Douglas             19  41      3 0
+CG Macartney          lbw                b Parkin             115 186     13 0
+CE Pellew             c Hearne           b Woolley             52  70      6 0
+JM Taylor             c Douglas          b Jupp                50  75      8 0
+JM Gregory                               b Parkin               1   3      0 0
+*WW Armstrong         c Brown            b Douglas             77  94     10 1
+HSTL Hendry                              b Parkin               0   2      0 0
++H Carter                                b Jupp                34  38      7 0
+EA McDonald           not out                                  21  43      2 1
+AA Mailey                            c & b Parkin               6  10      1 0
+Extras                (b 16, lb 7, nb 3)                       26
+Total                 (all out, 93.1 overs)                   407
+
+FoW: 1-22 (Bardsley), 2-45 (Andrews), 3-146 (Pellew),
+     4-255 (Taylor), 5-256 (Gregory), 6-271 (Macartney),
+     7-271 (Hendry), 8-333 (Carter), 9-388 (Armstrong),
+     10-407 (Mailey).
+
+Bowling                      O      M      R      W
+Douglas                     20      3     80      3
+White                       25      4     70      0
+Parkin                      20.1    0    106      4
+Hearne                       5      0     21      0
+Jupp                        18      2     70      2
+Woolley                      5      0     34      1
+
+England 1st innings                                             R   M   B  4 6
+FE Woolley                               b Gregory              0   2      0 0
+HTW Hardinge          lbw                b Armstrong           25  55      2 0
+JW Hearne                                b McDonald             7  14      1 0
+A Ducat               c Gregory          b McDonald             3  21      0 0
+JWHT Douglas                             b Armstrong           75 235      5 0
+VWC Jupp              c Carter           b Gregory             14  24      1 0
++G Brown              c Armstrong        b Mailey              57 114      6 0
+JC White                                 b McDonald             1   3      0 0
+*Hon.LH Tennyson      c Gregory          b McDonald            63  82     10 0
+CH Parkin             not out                                   5   8      1 0
+JB Hobbs              absent hurt                               -
+Extras                (lb 3, nb 6)                              9
+Total                 (all out, 93.1 overs)                   259
+
+FoW: 1-0 (Woolley), 2-13 (Hearne), 3-30 (Ducat), 4-47 (Hardinge),
+     5-67 (Jupp), 6-164 (Brown), 7-165 (White), 8-253 (Douglas),
+     9-259 (Tennyson).
+
+Bowling                      O      M      R      W
+Gregory                     21      6     47      2
+McDonald                    26.1    0    105      4
+Armstrong                   19      4     44      2
+Mailey                      17      4     38      1
+Hendry                      10      4     16      0
+
+Australia 2nd innings                                           R   M   B  4 6
+W Bardsley                               b Jupp                25  52      2 0
+TJE Andrews                              b Jupp                92 155      7 0
+CG Macartney                         c & b Woolley             30  56      2 0
++H Carter             lbw                b Parkin              47 104      7 0
+CE Pellew             c Ducat            b White               16  17      2 0
+JM Taylor             c Tennyson         b White                4   5      0 0
+*WW Armstrong         not out                                  28  45      3 0
+JM Gregory            c Jupp             b White                3   5      0 0
+HSTL Hendry           not out                                  11  35      1 0
+Extras                (b 10, lb 4, nb 3)                       17
+Total                 (7 wickets dec, 73 overs)               273
+
+DNB: EA McDonald, AA Mailey.
+
+FoW: 1-71 (Bardsley), 2-139 (Macartney), 3-193 (Andrews),
+     4-223 (Pellew), 5-227 (Taylor), 6-227 (Carter),
+     7-230 (Gregory).
+
+Bowling                      O      M      R      W
+Douglas                     11      0     38      0
+White                       11      3     37      3
+Parkin                      20      0     91      1
+Jupp                        13      2     45      2
+Woolley                     18      4     45      1
+
+England 2nd innings (target: 422 runs)                          R   M   B  4 6
++G Brown              lbw                b Gregory             46  81      5 0
+HTW Hardinge          c Gregory          b McDonald             5  10      0 0
+JW Hearne             c Taylor           b McDonald            27  33      2 0
+FE Woolley                               b Mailey              37  55      6 0
+JWHT Douglas                             b Gregory              8  31      1 0
+A Ducat               st Carter          b Mailey               2   5      0 0
+VWC Jupp              c Carter           b Armstrong           28  53      4 0
+*Hon.LH Tennyson                         b Armstrong           36  40      4 0
+JC White              not out                                   6  11      1 0
+CH Parkin                                b Mailey               4   4      0 0
+JB Hobbs              absent hurt                               -
+Extras                (b 3)                                     3
+Total                 (all out, 52.2 overs)                   202
+
+FoW: 1-15 (Hardinge), 2-57 (Hearne), 3-98 (Brown),
+     4-124 (Woolley), 5-126 (Ducat), 6-128 (Douglas),
+     7-190 (Tennyson), 8-197 (Jupp), 9-202 (Parkin).
+
+Bowling                      O      M      R      W
+Gregory                     14      1     55      2
+McDonald                    15      2     67      2
+Armstrong                    3      0      6      2
+Mailey                      20.2    3     71      3
+
+<END>

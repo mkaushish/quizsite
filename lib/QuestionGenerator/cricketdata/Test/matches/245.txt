@@ -1,0 +1,118 @@
+
+Test # 245
+South Africa in England, 1935, 4th Test
+England v South Africa
+Old Trafford, Manchester
+27,29,30 July 1935 (3-day match)
+
+Result: Match drawn
+Series: South Africa leads the 5-match series 1-0
+
+Toss: England
+Umpires: F Chester and FI Walden
+
+Close of play:
+ Day 1: England 357, South Africa 3/0 (Mitchell 2*, Rowan 1*)
+ Day 2: South Africa 318, England 43/1 (Bakewell 21*, Barber 21*)
+
+England 1st innings                                             R   M   B  4 6
+D Smith               c Mitchell         b Bell                35            0
+AH Bakewell                              b Crisp               63 140        0
+W Barber              c Langton          b Bell                 1          0 0
+WR Hammond                               b Crisp               29            0
+*RES Wyatt            lbw                b Crisp                3          0 0
+M Leyland             c Mitchell         b Crisp               53            0
+RWV Robins                               b Bell               108 130     12 0
+H Verity              lbw                b Langton             16            0
+MW Tate               c Viljoen          b Vincent             34          7 0
++G Duckworth          c Nourse           b Crisp                2          0 0
+WE Bowes              not out                                   0          0 0
+Extras                (b 2, lb 9, w 1, nb 1)                   13
+Total                 (all out, 92.1 overs)                   357
+
+FoW: 1-71 (Smith), 2-77 (Barber), 3-123 (Hammond),
+     4-132 (Bakewell), 5-141 (Wyatt), 6-246 (Leyland),
+     7-302 (Verity), 8-338 (Robins), 9-357 (Tate),
+     10-357 (Duckworth).
+
+Bowling                      O      M      R      W
+Crisp                       26.1    1     99      5
+Bell                        26      3     90      3
+Vincent                     28      4     85      1
+Langton                     11      0     59      1
+Mitchell                     1      0     11      0
+
+South Africa 1st innings                                        R   M   B  4 6
+B Mitchell            c Duckworth        b Hammond             10            0
+EAB Rowan                                b Bowes               13            0
+KG Viljoen            c Verity           b Bowes              124 285     10 0
+AD Nourse             lbw                b Verity              29            0
+*HF Wade              lbw                b Bowes               16            0
++HB Cameron           c Bowes            b Tate                53          5 2
+EL Dalton             lbw                b Robins              47            0
+CL Vincent            not out                                  14            0
+ACB Langton           c Bakewell         b Bowes                0          0 0
+RJ Crisp              c Verity           b Bowes                3          0 0
+AJ Bell               lbw                b Tate                 1          0 0
+Extras                (b 3, lb 5)                               8
+Total                 (all out, 109.3 overs)                  318
+
+FoW: 1-21 (Rowan), 2-41 (Mitchell), 3-91 (Nourse), 4-124 (Wade),
+     5-223 (Cameron), 6-288 (Dalton), 7-311 (Viljoen),
+     8-311 (Langton), 9-315 (Crisp), 10-318 (Bell).
+
+Bowling                      O      M      R      W
+Bowes                       36      7    100      5
+Tate                        22.3    5     67      2
+Hammond                     17      2     49      1
+Verity                      20      4     48      1
+Robins                      10      0     34      1
+Wyatt                        4      1     12      0
+
+England 2nd innings                                             R   M   B  4 6
+D Smith               lbw                b Crisp                0          0 0
+AH Bakewell                              b Langton             54            0
+W Barber                                 b Vincent             44            0
+WR Hammond            not out                                  63  90        0
+M Leyland             c Mitchell         b Vincent             37            0
+RWV Robins            c Wade             b Vincent             14            0
+MW Tate                                  b Vincent              0   1   1  0 0
+*RES Wyatt            not out                                  15            0
+Extras                (b 1, lb 1, w 1, nb 1)                    4
+Total                 (6 wickets dec, 67 overs)               231
+
+DNB: H Verity, +G Duckworth, WE Bowes.
+
+FoW: 1-1 (Smith), 2-90 (Barber), 3-110 (Bakewell),
+     4-172 (Leyland), 5-200 (Robins), 6-200 (Tate).
+
+Bowling                      O      M      R      W
+Crisp                       11      0     43      1
+Bell                         1      0      3      0
+Vincent                     26      6     78      4
+Langton                     25      2     80      1
+Dalton                       4      0     23      0
+
+South Africa 2nd innings (target: 271 runs)                     R   M   B  4 6
+B Mitchell            not out                                  48 225        0
+EAB Rowan             hit wicket         b Robins              49            0
+KG Viljoen            lbw                b Robins              10            0
+AD Nourse             not out                                  53            0
+Extras                (b 6, lb 1, w 2)                          9
+Total                 (2 wickets, 83 overs)                   169
+
+DNB: *HF Wade, +HB Cameron, EL Dalton, CL Vincent, ACB Langton,
+     RJ Crisp, AJ Bell.
+
+FoW: 1-67 (Rowan), 2-103 (Viljoen).
+
+Bowling                      O      M      R      W
+Bowes                       15      1     34      0
+Tate                         9      2     20      0
+Hammond                      5      0     15      0
+Verity                      20     10     24      0
+Robins                      19      8     31      2
+Leyland                     12      4     28      0
+Bakewell                     3      0      8      0
+
+<END>

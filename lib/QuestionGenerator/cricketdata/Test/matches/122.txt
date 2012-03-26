@@ -1,0 +1,100 @@
+
+Test # 122
+South Africa in England, 1912, 1st Test
+Triangular Tournament, 1912, 2nd match
+England v South Africa
+Lord's, London
+10,11,12 June 1912 (3-day match)
+
+Result: England won by an innings and 62 runs
+Triangular Tournament points: England 1, South Africa 0
+South Africa in England Test Series: England leads the 3-match series 1-0
+
+Toss: South Africa
+Umpires: W Richards and WAJ West
+Test debut: CP Carter (South Africa).
+
+Close of play:
+ Day 1: South Africa 58, England 122/1 (Rhodes 36*, Spooner 67*)
+ Day 2: England 337, South Africa 114/4 (Llewellyn 60*, Snooke 5*)
+
+South Africa 1st innings                                        R   M   B  4 6
+GPD Hartigan          c Foster           b Barnes               0          0 0
+HW Taylor             lbw                b Barnes               1          0 0
+AW Nourse                                b Foster              13            0
+CB Llewellyn                             b Foster               9            0
+GA Faulkner                              b Foster               7            0
+SJ Snooke                                b Barnes               2          0 0
+*F Mitchell                          c & b Barnes               1          0 0
+RO Schwarz            c Foster           b Barnes               4            0
+SJ Pegler                                b Foster               4            0
+CP Carter                                b Foster               0          0 0
++T Campbell           not out                                   0          0 0
+Extras                (b 12, lb 3, nb 2)                       17
+Total                 (all out, 26.1 overs)                    58
+
+FoW: 1-2 (Hartigan), 2-3 (Taylor), 3-28 (Nourse),
+     4-35 (Llewellyn), 5-36 (Faulkner), 6-42 (Mitchell),
+     7-45 (Snooke), 8-54 (Schwarz), 9-55 (Carter),
+     10-58 (Pegler).
+
+Bowling                      O      M      R      W
+Foster                      13.1    7     16      5
+Barnes                      13      3     25      5
+
+England 1st innings                                             R   M   B  4 6
+JB Hobbs                                 b Nourse               4            0
+W Rhodes                                 b Nourse              36            0
+RH Spooner            c Llewellyn        b Nourse             119 180        1
+*CB Fry                                  b Pegler              29            0
+PF Warner             st Campbell        b Pegler              39            0
+FE Woolley                               b Pegler              73            2
+GL Jessop                                b Pegler               3          0 0
+FR Foster             lbw                b Pegler              11            0
++EJ Smith                                b Pegler               2          0 0
+SF Barnes             not out                                   0          0 0
+W Brearley                               b Pegler               0          0 0
+Extras                (b 11, lb 9, w 1)                        21
+Total                 (all out, 119 overs)                    337
+
+FoW: 1-4 (Hobbs), 2-128 (Rhodes), 3-183 (Fry), 4-207 (Spooner),
+     5-320 (Warner), 6-323 (Woolley), 7-324 (Jessop),
+     8-330 (Smith), 9-337 (Foster), 10-337 (Brearley).
+
+Bowling                      O      M      R      W
+Nourse                      16      5     46      3
+Pegler                      31      8     65      7
+Faulkner                    29      6     72      0
+Carter                       4      0     15      0
+Llewellyn                    9      0     60      0
+Schwarz                     20      3     44      0
+Hartigan                    10      2     14      0
+
+South Africa 2nd innings                                        R   M   B  4 6
+GPD Hartigan                             b Foster               1          0 0
+HW Taylor                                b Barnes               5            0
+AW Nourse             run out                                  17            0
+CB Llewellyn          c Smith            b Foster              75            0
+GA Faulkner                              b Barnes              15  75        0
+SJ Snooke                                b Foster              16            0
+*F Mitchell                              b Barnes               1          0 0
+RO Schwarz                               b Barnes              28            0
+SJ Pegler                                b Barnes              10            0
+CP Carter             not out                                  27            0
++T Campbell           c Jessop           b Barnes               3          0 0
+Extras                (b 17, lb 1, nb 1)                       19
+Total                 (all out, 82 overs)                     217
+
+FoW: 1-5 (Hartigan), 2-17 (Taylor), 3-36 (Nourse),
+     4-104 (Faulkner), 5-132 (Snooke), 6-135 (Mitchell),
+     7-147 (Llewellyn), 8-176 (Pegler), 9-197 (Schwarz),
+     10-217 (Campbell).
+
+Bowling                      O      M      R      W
+Foster                      27     10     54      3
+Barnes                      34      9     85      6
+Brearley                     6      2      4      0
+Woolley                      4      0     19      0
+Hobbs                       11      2     36      0
+
+<END>

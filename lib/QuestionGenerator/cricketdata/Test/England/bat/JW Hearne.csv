@@ -1,0 +1,39 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+116, 1911-12-15, 2, 6, Australia, c Trumper, Kelleway, 76, 165, 155, 8, 0
+116, 1911-12-15, 4, 7, Australia, , Hordern, 43, 142, 125, 5, 0
+117, 1912-12-30, 2, 3, Australia, c Carter, Cotter, 114, 225, 243, 11, 0
+117, 1912-12-30, 4, 4, Australia, not out, , 12, 33, 39, 0, 0
+118, 1912-01-12, 2, 4, Australia, c Hill, Kelleway, 12, 42, 43, 1, 0
+118, 1912-01-12, 4, 4, Australia, c Kelleway, Matthews, 2, 6, 13, 0, 0
+119, 1912-02-09, 2, 4, Australia, c Armstrong, Minnett, 0, 1, 3, 0, 0
+120, 1912-02-23, 1, 4, Australia, c Macartney, Armstrong, 4, 26, 32, 0, 0
+120, 1912-02-23, 3, 4, Australia, , Hordern, 18, 28, 29, 3, 0
+123, 1912-06-24, 1, 8, Australia, not out, , 21, na, na, na, 0
+124, 1912-07-08, 1, 5, South Africa, , Pegler, 45, na, na, na, 0
+124, 1912-07-08, 3, 5, South Africa, , Nourse, 35, na, na, na, 0
+126, 1912-07-29, 1, 5, Australia, , Hazlitt, 9, na, na, na, 0
+128, 1912-08-12, 2, 7, South Africa, lbw, Faulkner, 20, na, na, na, 0
+128, 1912-08-12, 4, 2, South Africa, not out, , 5, na, na, na, 0
+129, 1912-08-19, 1, 6, Australia, c Jennings, Whitty, 1, na, na, 0, 0
+129, 1912-08-19, 3, 6, Australia, c Matthews, Hazlitt, 14, na, na, na, 0
+132, 1914-01-01, 1, 3, South Africa,                c &, Dixon, 27, na, na, na, 0
+132, 1914-01-01, 3, 4, South Africa, lbw, Newberry, 0, na, na, 0, 0
+133, 1914-02-14, 2, 3, South Africa, c Newberry, Carter, 2, na, na, 0, 0
+133, 1914-02-14, 4, 3, South Africa, not out, , 8, na, na, na, 0
+134, 1914-02-27, 2, 4, South Africa, c HW Taylor, Blanckenberg, 32, na, na, na, 0
+135, 1920-12-17, 2, 3, Australia, c Gregory, Mailey, 14, 45, 51, 0, 0
+135, 1920-12-17, 4, 3, Australia, , Gregory, 57, 161, 176, 4, 0
+136, 1921-12-31, 2, 11, Australia, absent hurt, , -, , , , 
+136, 1921-12-31, 3, 11, Australia, absent hurt, , -, , , , 
+142, 1921-07-02, 2, 3, Australia, , McDonald, 7, 14, na, 1, 0
+142, 1921-07-02, 4, 3, Australia, c Taylor, McDonald, 27, 33, na, 2, 0
+155, 1924-07-12, 1, 3, South Africa, lbw, Pegler, 20, na, na, na, 0
+155, 1924-07-12, 4, 3, South Africa, not out, , 23, 30, na, na, 0
+157, 1924-08-16, 2, 3, South Africa, c Susskind, Pegler, 35, na, na, na, 0
+158, 1924-12-19, 2, 3, Australia, c sub, Mailey, 7, 15, 20, 1, 0
+158, 1924-12-19, 4, 3, Australia, , Gregory, 0, 16, 22, 0, 0
+159, 1925-01-01, 2, 4, Australia, , Mailey, 9, 42, 57, 0, 0
+159, 1925-01-01, 4, 4, Australia, lbw, Gregory, 23, 60, 70, 2, 0
+161, 1925-02-13, 1, 3, Australia, c Bardsley, Richardson, 44, 101, 106, 2, 0
+162, 1925-02-27, 2, 6, Australia, lbw, Grimmett, 16, 79, na, 1, 0
+162, 1925-02-27, 4, 6, Australia, lbw, Grimmett, 24, 55, na, 1, 0

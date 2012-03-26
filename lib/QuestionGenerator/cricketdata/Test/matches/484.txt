@@ -1,0 +1,119 @@
+
+Test # 484
+Australia in India, 1959/60, 3rd Test
+India v Australia
+Brabourne Stadium, Bombay
+1,2,3,5,6 January 1960 (5-day match)
+
+Result: Match drawn
+Series: 5-match series level 1-1
+
+Toss: India
+Umpires: HE Choudhury and ND Nagarwala
+Test debuts: SA Durani, BK Kunderan (India).
+
+Close of play:
+ Day 1: India 153/2 (Contractor 86*, Baig 50*)
+ Day 2: India 289, Australia 17/0 (McDonald 9*, Stevens 4*)
+ Day 3: Australia 229/2 (Harvey 85*, O'Neill 80*)
+ Day 4: Australia 387/8d, India 92/0 (Roy 55*, Contractor 32*)
+
+India 1st innings                                               R   M   B  4 6
+P Roy                                    b Davidson             6            0
+NJ Contractor         c Benaud           b Meckiff            108            0
+PR Umrigar            c Harvey           b Davidson             0          0 0
+AA Baig               c Grout            b Davidson            50            0
+CG Borde                                 b Meckiff             26            0
+*GS Ramchand          lbw                b Meckiff              0          0 0
+RB Kenny                                 b Meckiff             20            0
++BK Kunderan          lbw                b Lindwall            19            0
+RG Nadkarni           not out                                  18            0
+SA Durani             c Stevens          b Benaud              18            0
+GM Guard              c Benaud           b Davidson             7            0
+Extras                (b 9, lb 4, nb 4)                        17
+Total                 (all out, 142.5 overs)                  289
+
+FoW: 1-21 (Roy), 2-21 (Umrigar), 3-154 (Baig),
+     4-199 (Contractor), 5-199 (Ramchand), 6-203 (Borde),
+     7-229 (Kunderan), 8-246 (Kenny), 9-272 (Durani),
+     10-289 (Guard).
+
+Bowling                      O      M      R      W
+Davidson                    34.5    9     62      4
+Lindwall                    23      7     56      1
+Mackay                       6      3     11      0
+Meckiff                     38     12     79      4
+Benaud                      41     24     64      1
+
+Australia 1st innings                                           R   M   B  4 6
+CC McDonald                              b Nadkarni            36            0
+GB Stevens                               b Nadkarni            22            0
+RN Harvey                                b Nadkarni           102 285        0
+NC O'Neill            c sub              b Borde              163 360        0
+LE Favell                                b Nadkarni             1          0 0
++ATW Grout                               b Nadkarni            31            0
+*R Benaud             lbw                b Nadkarni            14            0
+AK Davidson           not out                                   9            0
+KD Mackay                                b Borde                1          0 0
+RR Lindwall           not out                                   1          0 0
+Extras                (b 4, lb 3)                               7
+Total                 (8 wickets dec, 140 overs)              387
+
+DNB: I Meckiff.
+
+FoW: 1-60 (McDonald), 2-63 (Stevens), 3-270 (Harvey),
+     4-282 (Favell), 5-358 (Grout), 6-376 (Benaud),
+     7-379 (O'Neill), 8-380 (Mackay).
+
+Bowling                      O      M      R      W
+Guard                       33      7     93      0
+Ramchand                    35     13     85      0
+Umrigar                      8      2     19      0
+Nadkarni                    51     11    105      6
+Borde                       13      1     78      2
+
+India 2nd innings                                               R   M   B  4 6
+P Roy                                    b Meckiff             57            0
+NJ Contractor                            b Lindwall            43            0
++BK Kunderan          hit wicket         b Meckiff              2          0 0
+CG Borde                                 b Meckiff              1          0 0
+AA Baig               c Mackay           b Lindwall            58            0
+RB Kenny              not out                                  55            0
+RG Nadkarni           not out                                   1          0 0
+Extras                (lb 9)                                    9
+Total                 (5 wickets dec, 101 overs)              226
+
+DNB: PR Umrigar, *GS Ramchand, SA Durani, GM Guard.
+
+FoW: 1-95 (Roy), 2-99 (Kunderan), 3-111 (Contractor),
+     4-112 (Borde), 5-221 (Baig).
+
+Bowling                      O      M      R      W
+Davidson                    14      4     25      0
+Lindwall                    23      7     56      2
+Mackay                       6      4      6      0
+Meckiff                     28      8     67      3
+Benaud                      24     10     36      0
+O'Neill                      3      1     16      0
+Harvey                       3      1     11      0
+
+Australia 2nd innings (target: 129 runs)                        R   M   B  4 6
++ATW Grout            not out                                  22            0
+I Meckiff                                b Roy                  0          0 0
+*R Benaud             not out                                  12            0
+Extras                                                          0
+Total                 (1 wicket, 8 overs)                      34
+
+DNB: CC McDonald, GB Stevens, RN Harvey, NC O'Neill, LE Favell,
+     AK Davidson, KD Mackay, RR Lindwall.
+
+FoW: 1-4 (Meckiff).
+
+Bowling                      O      M      R      W
+Guard                        1      0      1      0
+Roy                          2      0      6      1
+Contractor                   2      1      5      0
+Baig                         2      0     13      0
+Durani                       1      0      9      0
+
+<END>

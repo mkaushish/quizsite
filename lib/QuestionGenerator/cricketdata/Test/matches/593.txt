@@ -1,0 +1,97 @@
+
+Test # 593
+New Zealand in England, 1965, 3rd Test
+England v New Zealand
+Headingley, Leeds
+8,9,10,12,13 July 1965 (5-day match)
+
+Result: England won by an innings and 187 runs
+Series: England wins the 3-match series 3-0
+
+Toss: England
+Umpires: JF Crapp and CS Elliott
+
+Close of play:
+ Day 1: England 366/1 (Edrich 194*, Barrington 152*)
+ Day 2: England 546/4d, New Zealand 100/5 (Pollard 12*, Yuile 0*)
+ Day 3: New Zealand 193, New Zealand 0/0 (Dowling 0*, Congdon 0*)
+ Day 4: New Zealand 161/9 (Pollard 50*, Ward 0*)
+
+England 1st innings                                             R   M   B  4 6
+RW Barber             c Ward             b Taylor              13            0
+JH Edrich             not out                                 310 532 450 52 5
+KF Barrington         c Ward             b Motz               163 339     26 0
+MC Cowdrey                               b Taylor              13            0
+PH Parfitt                               b Collinge            32  97      2 0
+*MJK Smith            not out                                   2  34      0 0
+Extras                (b 4, lb 8, nb 1)                        13
+Total                 (4 wickets dec, 151 overs)              546
+
+DNB: +JM Parks, R Illingworth, FJ Titmus, FE Rumsey, JDF Larter.
+
+FoW: 1-13 (Barber), 2-382 (Barrington), 3-407 (Cowdrey),
+     4-516 (Parfitt).
+
+Bowling                      O      M      R      W
+Motz                        41      8    140      1
+Taylor                      40      8    140      2
+Collinge                    32      7     87      1
+Yuile                       17      5     80      0
+Morgan                       6      0     28      0
+Pollard                     11      2     46      0
+Congdon                      4      0     12      0
+
+New Zealand 1st innings                                         R   M   B  4 6
+GT Dowling            c Parks            b Larter               5            0
+BE Congdon            c Parks            b Rumsey              13            0
+BW Sinclair           c Smith            b Larter              13            0
+*JR Reid              lbw                b Illingworth         54  98      9 1
+RW Morgan                                b Illingworth          1          0 0
+V Pollard             run out                                  33 102      5 0
+BW Yuile                                 b Larter              46 149      7 0
+BR Taylor             c Parks            b Illingworth          9            0
+RC Motz               c Barber           b Illingworth          3          0 0
++JT Ward              not out                                   0          0 0
+RO Collinge                              b Larter               8            0
+Extras                (b 5, lb 1, w 2)                          8
+Total                 (all out, 88.1 overs)                   193
+
+FoW: 1-15 (Dowling), 2-19 (Congdon), 3-53 (Sinclair),
+     4-61 (Morgan), 5-100 (Reid), 6-153 (Pollard),
+     7-165 (Taylor), 8-173 (Motz), 9-181 (Yuile),
+     10-193 (Collinge).
+
+Bowling                      O      M      R      W
+Rumsey                      24      6     59      1
+Larter                      28.1    6     66      4
+Illingworth                 28     14     42      4
+Titmus                       6      2     16      0
+Barber                       2      0      2      0
+
+New Zealand 2nd innings (following on)                          R   M   B  4 6
+GT Dowling                               b Rumsey              41 100      6 0
+BE Congdon                               b Rumsey               1          0 0
+BW Sinclair           lbw                b Larter              29            0
+*JR Reid              c Barrington       b Rumsey               5            0
+V Pollard             c Cowdrey          b Larter              53 171      6 0
+RW Morgan                                b Titmus              21            0
+BW Yuile              c Cowdrey          b Titmus              12  60        0
+BR Taylor                            c & b Titmus               0   2   2  0 0
+RC Motz               c Barrington       b Titmus               0   1   1  0 0
+RO Collinge                              b Titmus               0   2   2  0 0
++JT Ward              not out                                   2          0 0
+Extras                (nb 2)                                    2
+Total                 (all out, 84 overs)                     166
+
+FoW: 1-4 (Congdon), 2-67 (Dowling), 3-75 (Reid), 4-86 (Sinclair),
+     5-111 (Morgan), 6-158 (Yuile), 7-158 (Taylor), 8-158 (Motz),
+     9-158 (Collinge), 10-166 (Pollard).
+
+Bowling                      O      M      R      W
+Rumsey                      15      5     49      3
+Larter                      22     10     54      2
+Illingworth                  7      0     28      0
+Titmus                      26     17     19      5
+Barber                      14      7     14      0
+
+<END>

@@ -1,0 +1,102 @@
+
+Test # 1166
+The Frank Worrell Trophy, 1990/91, 1st Test
+West Indies v Australia
+Sabina Park, Kingston, Jamaica
+1,2,3,5,6 March 1991 (5-day match)
+
+Result: Match drawn
+Series: 5-match series level 0-0
+
+Toss: West Indies
+Umpires: DM Archer and SA Bucknor
+Players of the match: DC Boon and AL Logie
+
+Close of play:
+ Day 1: West Indies 264, Australia 4/0 (Marsh 0*, Taylor 2*)
+ Day 2: Australia 296/4 (Boon 71*, Waugh 22*)
+ Day 3: Australia 371, West Indies 187/2 (Richardson 33*, Hooper 11*)
+ Day 4: No play
+
+West Indies 1st innings                                         R   M   B  4 6
+CG Greenidge                         c & b McDermott           27 134  80  3 0
+DL Haynes                                b McDermott            8  33  21  0 0
+RB Richardson         c Healy            b Hughes              15  36  27  3 0
+CL Hooper             c Marsh            b Hughes               0  10   6  0 0
+*IVA Richards         c Hughes           b McDermott           11  25  21  2 0
+AL Logie              not out                                  77 167 110 12 0
++PJL Dujon            c Marsh            b Hughes              59 210 166  7 0
+MD Marshall           lbw                b McDermott            0   1   1  0 0
+CEL Ambrose                          c & b Waugh               33  72  47  6 0
+CA Walsh              lbw                b McDermott           10  26  14  0 0
+BP Patterson                             b Hughes               4  33  20  0 0
+Extras                (lb 6, w 1, nb 13)                       20
+Total                 (all out, 82.3 overs, 379 mins)         264
+
+FoW: 1-33 (Richardson), 2-37 (Hooper), 3-57 (Richards),
+     4-69 (Greenidge), 5-75 (Haynes), 6-75 (Marshall),
+     7-144 (Ambrose), 8-166 (Walsh), 9-234 (Dujon),
+     10-264 (Patterson).
+
+Bowling                      O      M      R      W
+McDermott                   23      3     80      5 (4nb)
+Whitney                     21      4     58      0 (5nb)
+Hughes                      21.3    4     67      4
+Matthews                    11      2     28      0
+Waugh                        6      1     25      1 (4nb)
+
+Australia 1st innings                                           R   M   B  4 6
+GR Marsh              c Dujon            b Ambrose             69 198 117 10 0
+MA Taylor             c Hooper           b Patterson           58 237 151  3 0
+DC Boon               not out                                 109 385 243  9 0
+*AR Border            c Dujon            b Ambrose             31  98  72  4 0
+DM Jones                             c & b Hooper               0   3   3  0 0
+ME Waugh              lbw                b Marshall            39 144 107  3 0
+GRJ Matthews          c Dujon            b Patterson           10  57  27  1 0
++IA Healy             lbw                b Walsh                0   5   4  0 0
+CJ McDermott                             b Patterson            1  17  15  0 0
+MG Hughes             c Hooper           b Patterson            0   1   1  0 0
+MR Whitney                               b Patterson            2  13   8  0 0
+Extras                (b 4, lb 23, w 4, nb 21)                 52
+Total                 (all out, 120 overs, 582 mins)          371
+
+FoW: 1-139 (Marsh), 2-159 (Taylor), 3-227 (Border),
+     4-228 (Jones), 5-329 (Waugh), 6-357 (Matthews),
+     7-358 (Healy), 8-365 (McDermott), 9-365 (Hughes),
+     10-371 (Whitney).
+
+Bowling                      O      M      R      W
+Ambrose                     30      3     94      2 (8nb)
+Patterson                   24      1     83      5 (6nb)
+Marshall                    22      3     57      1 (3nb, 4w)
+Walsh                       23      4     73      1 (4nb)
+Hooper                      21      7     37      1
+
+West Indies 2nd innings                                         R   M   B  4 6
+CG Greenidge          c Healy            b McDermott           35 136  89  5 1
+DL Haynes             c Healy            b McDermott           84 169 128 14 0
+RB Richardson         not out                                 104 318 233 15 0
+CL Hooper                                b McDermott           31 102  80  3 0
+*IVA Richards         not out                                  52 183 147  5 2
+Extras                (b 15, lb 6, w 1, nb 6)                  28
+Total                 (3 wickets, 111 overs, 455 mins)        334
+
+DNB: AL Logie, +PJL Dujon, MD Marshall, CEL Ambrose, CA Walsh,
+     BP Patterson.
+
+FoW: 1-118 (Greenidge), 2-134 (Haynes), 3-216 (Hooper).
+
+Bowling                      O      M      R      W
+McDermott                   24     10     48      3 (5nb)
+Whitney                     17      3     55      0
+Hughes                      22      5     79      0
+Matthews                    25      2     90      0
+Border                      10      3     21      0
+Waugh                       13      6     20      0 (1nb, 1w)
+
+*** Day 1
+*** DL Haynes (1) retired hurt on 4* from 9/0 to 69/4-[AL Logie] (injured
+    foot after being struck by the ball)
+*** AL Logie (1) retired hurt on 9* from 69/4 to 166/8 (struck under the eye)
+
+<END>

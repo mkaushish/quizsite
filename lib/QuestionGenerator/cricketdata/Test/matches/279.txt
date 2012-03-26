@@ -1,0 +1,103 @@
+
+Test # 279
+The Ashes, 1946/47, 1st Test
+Australia v England
+Brisbane Cricket Ground, Woolloongabba, Brisbane
+29,30 November, 2,3,4 December 1946 (6-day match)
+
+Result: Australia won by an innings and 332 runs
+Series: Australia leads the 5-match series 1-0
+
+Toss: Australia
+Umpires: GE Borwick and JD Scott
+Balls per over: 8
+Test debuts: AR Morris, GE Tribe (Australia).
+
+Close of play:
+ Day 1: Australia 292/2 (Bradman 162*, Hassett 81*)
+ Day 2: Australia 595/5 (McCool 92*, Johnson 47*)
+ Day 3: Australia 645, England 21/1 (Washbrook 5*, Edrich 8*)
+ Day 4: England 117/5 (Hammond 30*, Yardley 25*)
+
+Australia 1st innings                                           R   M   B  4 6
+SG Barnes             c Bedser           b Wright              31  66  52  4 0
+AR Morris             c Hammond          b Bedser               2  11   9  0 0
+*DG Bradman                              b Edrich             187 316 313 19 0
+AL Hassett            c Yardley          b Bedser             128 392 395 10 1
+KR Miller             lbw                b Wright              79 160 154  6 1
+CL McCool             lbw                b Wright              95 156 153 14 0
+IWG Johnson           lbw                b Wright              47 110 109  3 0
++D Tallon             lbw                b Edrich              14  39  36  3 0
+RR Lindwall           c Voce             b Wright              31  49  39  3 2
+GE Tribe              c Gibb             b Edrich               1   7   6  0 0
+ERH Toshack           not out                                   1   7   6  0 0
+Extras                (b 5, lb 11, w 2, nb 11)                 29
+Total                 (all out, 158.6 overs)                  645
+
+FoW: 1-9 (Morris), 2-46 (Barnes), 3-322 (Bradman),
+     4-428 (Hassett), 5-465 (Miller), 6-596 (Johnson),
+     7-599 (McCool), 8-629 (Tallon), 9-643 (Tribe),
+     10-645 (Lindwall).
+
+Bowling                      O      M      R      W
+Voce                        28      9     92      0
+Bedser                      41      5    159      2
+Wright                      43.6    4    167      5
+Edrich                      25      2    107      3
+Yardley                     13      1     47      0
+Ikin                         2      0     24      0
+Compton                      6      0     20      0
+
+England 1st innings                                             R   M   B  4 6
+L Hutton                                 b Miller               7  16  16  0 0
+C Washbrook           c Barnes           b Miller               6  55  30  0 0
+WJ Edrich             c McCool           b Miller              16  98 117  1 0
+DCS Compton           lbw                b Miller              17  36  37  1 0
+*WR Hammond           lbw                b Toshack             32 132 145  3 0
+JT Ikin               c Tallon           b Miller               0   1   1  0 0
+NWD Yardley           c Tallon           b Toshack             29 125 114  4 0
++PA Gibb                                 b Miller              13  19  23  2 0
+W Voce                not out                                   1  11   7  0 0
+AV Bedser             lbw                b Miller               0   1   1  0 0
+DVP Wright            c Tallon           b Toshack              4   5   8  1 0
+Extras                (b 8, lb 3, w 2, nb 3)                   16
+Total                 (all out, 61.5 overs)                   141
+
+FoW: 1-10 (Hutton), 2-25 (Washbrook), 3-49 (Compton),
+     4-56 (Edrich), 5-56 (Ikin), 6-121 (Hammond),
+     7-134 (Yardley), 8-136 (Gibb), 9-136 (Bedser),
+     10-141 (Wright).
+
+Bowling                      O      M      R      W
+Lindwall                    12      4     23      0
+Miller                      22      4     60      7
+Toshack                     16.5   11     17      3
+Tribe                        9      2     19      0
+McCool                       1      0      5      0
+Barnes                       1      0      1      0
+
+England 2nd innings (following on)                              R   M   B  4 6
+L Hutton              c Barnes           b Miller               0   1   1  0 0
+C Washbrook           c Barnes           b Miller              13  46  39  1 0
+WJ Edrich             lbw                b Toshack              7  14  17  1 0
+DCS Compton           c Barnes           b Toshack             15  68  90  1 0
+*WR Hammond                              b Toshack             23  44  49  1 2
+JT Ikin                                  b Tribe               32  42  56  5 0
+NWD Yardley           c Hassett          b Toshack              0   2   3  0 0
++PA Gibb              lbw                b Toshack             11  37  33  2 0
+W Voce                c Hassett          b Tribe               18  16  21  1 1
+AV Bedser                            c & b Toshack             18  29  33  2 0
+DVP Wright            not out                                  10  16  16  2 0
+Extras                (b 15, lb 7, w 1, nb 2)                  25
+Total                 (all out, 43.7 overs)                   172
+
+FoW: 1-0 (Hutton), 2-13 (Edrich), 3-33 (Washbrook),
+     4-62 (Compton), 5-65 (Hammond), 6-65 (Yardley),
+     7-112 (Ikin), 8-114 (Gibb), 9-143 (Voce), 10-172 (Bedser).
+
+Bowling                      O      M      R      W
+Miller                      11      3     17      2
+Toshack                     20.7    2     82      6
+Tribe                       12      2     48      2
+
+<END>

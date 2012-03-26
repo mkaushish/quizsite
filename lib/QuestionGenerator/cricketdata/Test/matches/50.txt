@@ -1,0 +1,127 @@
+
+Test # 50
+The Ashes, 1896, 1st Test
+England v Australia
+Lord's, London
+22,23,24 June 1896 (3-day match)
+
+Result: England won by 6 wickets
+Series: England leads the 3-match series 1-0
+
+Toss: Australia
+Umpires: J Phillips (Aus) and WAJ West
+Balls per over: 5
+Test debuts: CJ Eady, C Hill, JJ Kelly (Australia); AFA Lilley (England).
+
+Close of play:
+ Day 1: Australia 53, England 286/8 (Hayward 12*, Hearne 11*)
+ Day 2: England 292, Australia 347, England 16/1 (Grace 7*, Hayward 4*)
+
+Australia 1st innings                                           R   M   B  4 6
+H Donnan              run out                                   1          0 0
+J Darling                                b Richardson          22            0
+G Giffen              c Lilley           b Lohmann              0          0 0
+*GHS Trott                               b Richardson           0          0 0
+SE Gregory                               b Richardson          14            0
+H Graham                                 b Richardson           0          0 0
+C Hill                                   b Lohmann              1          0 0
+CJ Eady               not out                                  10            0
+H Trumble                                b Richardson           0          0 0
++JJ Kelly             c Lilley           b Lohmann              0          0 0
+E Jones                                  b Richardson           4            0
+Extras                (b 1)                                     1
+Total                 (all out, 22.3 overs)                    53
+
+FoW: 1-3 (Donnan), 2-3 (Giffen), 3-4 (Trott), 4-26 (Gregory),
+     5-26 (Graham), 6-31 (Hill), 7-41 (Darling), 8-45 (Trumble),
+     9-46 (Kelly), 10-53 (Jones).
+
+Bowling                      O      M      R      W
+Richardson                  11.3    3     39      6
+Lohmann                     11      6     13      3
+
+England 1st innings                                             R   M   B  4 6
+*WG Grace             c Trumble          b Giffen              66            0
+AE Stoddart                              b Eady                17            0
+R Abel                                   b Eady                94 180     13 0
+JT Brown                                 b Jones                9            0
+W Gunn                c Kelly            b Trumble             25            0
+FS Jackson            c Darling          b Giffen              44            0
+TW Hayward            not out                                  12            0
++AFA Lilley                              b Eady                 0          0 0
+GA Lohmann            c sub (FA Iredale) b Giffen               1          0 0
+JT Hearne             c Giffen           b Trott               11            0
+T Richardson          c Hill             b Trott                6            0
+Extras                (b 5, lb 2)                               7
+Total                 (all out, 107.4 overs)                  292
+
+FoW: 1-38 (Stoddart), 2-143 (Grace), 3-152 (Brown), 4-197 (Gunn),
+     5-256 (Abel), 6-266 (Jackson), 7-266 (Lilley),
+     8-267 (Lohmann), 9-286 (Hearne), 10-292 (Richardson).
+
+Bowling                      O      M      R      W
+Jones                       26      6     64      1
+Giffen                      26      5     95      3
+Eady                        29     12     58      3
+Trott                        7.4    2     13      2
+Trumble                     19      3     55      1
+
+Australia 2nd innings                                           R   M   B  4 6
+CJ Eady               c Lilley           b Richardson           2          0 0
+J Darling                                b Richardson           0          0 0
+G Giffen                                 b Richardson          32            0
+*GHS Trott            c Hayward          b Richardson         143 210     24 0
+SE Gregory            c Lohmann          b Hearne             103 160     17 0
+H Graham                                 b Richardson          10            0
+C Hill                                   b Hearne               5            0
+H Trumble             c Lilley           b Hearne               4            0
++JJ Kelly             not out                                  24            0
+E Jones               c Jackson          b Hearne               4            0
+H Donnan                                 b Hearne               8            0
+Extras                (b 7, lb 4, w 1)                         12
+Total                 (all out, 133 overs)                    347
+
+FoW: 1-0 (Darling), 2-3 (Eady), 3-62 (Giffen), 4-283 (Gregory),
+     5-289 (Trott), 6-300 (Hill), 7-304 (Graham),
+     8-308 (Trumble), 9-318 (Jones), 10-347 (Donnan).
+
+Bowling                      O      M      R      W
+Richardson                  47     15    134      5
+Lohmann                     22      6     39      0
+Hayward                     11      3     44      0
+Hearne                      36     14     76      5
+Jackson                     11      5     28      0
+Grace                        6      1     14      0
+
+England 2nd innings (target: 109 runs)                          R   M   B  4 6
+*WG Grace             c Hill             b Trumble              7            0
+R Abel                c sub (FA Iredale) b Jones                4            0
+TW Hayward                               b Jones               13            0
+JT Brown              c Kelly            b Eady                36            0
+AE Stoddart           not out                                  30            0
+W Gunn                not out                                  13            0
+Extras                (b 3, lb 4, w 1)                          8
+Total                 (4 wickets, 47.1 overs)                 111
+
+DNB: FS Jackson, +AFA Lilley, GA Lohmann, JT Hearne,
+     T Richardson.
+
+FoW: 1-16 (Abel), 2-20 (Grace), 3-42 (Hayward), 4-82 (Brown).
+
+Bowling                      O      M      R      W
+Jones                       23     10     42      2
+Trumble                     20     10     37      1
+Giffen                       1      0      9      0
+Eady                         3      0     11      1
+Trott                        0.1    0      4      0
+
+*** Grace completed his 1,000 runs in Test cricket.
+*** The forth-wicket partnership of 221 between Trott and Gregory was a new
+    record for any wicket in Test matches.
+*** Lohmann ended his final Test with career figures of 112 wickets, average
+    10.75. in 18 matches. Besides recording the lowest average by any bowler
+    taking 25 or more wickets, he remains the most frequent wicket-taker, at
+    34 balls per dismissal.
+*** Less that five years later Lohmann died of consumption at the age of 36.
+
+<END>

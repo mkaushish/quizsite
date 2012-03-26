@@ -1,0 +1,116 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+1769, 2005-10-03, 1, 2, West Indies, c Ramdin, Powell, 1, 26, 14, 0, 0
+1769, 2005-10-03, 3, 1, West Indies, c Collymore, Gayle, 29, 75, 65, 2, 0
+1771, 2005-10-17, 2, 2, West Indies, c Sarwan, Bravo, 137, 388, 234, 19, 0
+1771, 2005-10-17, 4, 1, West Indies, not out, , 31, 96, 82, 3, 0
+1773, 2005-10-25, 2, 5, West Indies, not out, , 133, 293, 215, 13, 3
+1773, 2005-10-25, 4, 5, West Indies, not out, , 30, 81, 61, 3, 0
+1777, 2005-11-16, 1, 5, South Africa, c Langeveldt, Ntini, 23, 84, 51, 3, 0
+1777, 2005-11-16, 3, 6, South Africa, c Boucher, Pollock, 58, 172, 121, 8, 0
+1779, 2005-11-26, 1, 5, South Africa, , Ntini, 122, 247, 203, 14, 4
+1779, 2005-11-26, 3, 5, South Africa, c Kallis, Smith, 31, 94, 74, 2, 0
+1780, 2006-01-02, 2, 5, South Africa, c Boucher, Botha, 45, 149, 111, 8, 0
+1789, 2006-02-16, 2, 5, South Africa, c Boucher, Hall, 6, 32, 23, 0, 0
+1789, 2006-02-16, 4, 5, South Africa, not out, , 14, 23, 20, 1, 0
+1792, 2006-02-24, 1, 5, South Africa, lbw, Kallis, 75, 228, 155, 10, 1
+1795, 2006-03-31, 2, 5, South Africa, lbw, Boje, 73, 202, 153, 11, 0
+1795, 2006-03-31, 4, 2, South Africa, lbw, Boje, 89, 263, 197, 12, 0
+1797, 2006-03-09, 2, 2, Bangladesh, , Mohammad Rafique, 23, 110, 65, 2, 0
+1797, 2006-03-09, 4, 2, Bangladesh, , Enamul Haque jnr, 37, 107, 79, 4, 0
+1799, 2006-03-16, 2, 5, Bangladesh, c Shahadat Hossain, Aftab Ahmed, 182, 309, 203, 21, 1
+1817, 2006-10-23, 1, 5, England, , Flintoff, 86, 257, 187, 8, 0
+1819, 2006-11-01, 2, 5, England, , Hoggard, 91, 298, 212, 7, 1
+1819, 2006-11-01, 4, 4, England, not out, , 61, 129, 66, 5, 0
+1821, 2006-11-14, 1, 4, England, not out, , 74, 244, 162, 10, 0
+1821, 2006-11-14, 3, 4, England, c Jones, Panesar, 103, 224, 156, 12, 0
+1824, 2006-11-26, 2, 5, England, , Hoggard, 6, 37, 20, 0, 0
+1826, 2007-01-02, 2, 4, England, c Read, Anderson, 37, 120, 100, 3, 1
+1845, 2007-10-08, 1, 4, Sri Lanka, c Atapattu, Fernando, 133, 354, 249, 13, 2
+1847, 2007-10-16, 1, 4, Sri Lanka, lbw, Fernando, 132, 282, 220, 18, 1
+1847, 2007-10-16, 3, 4, Sri Lanka, not out, , 34, 67, 48, 1, 1
+1855, 2007-11-26, 1, 4, India, lbw, Kumble, 2, 4, 3, 0, 0
+1855, 2007-11-26, 3, 4, India, c Tendulkar, Singh, 36, 95, 84, 0, 0
+1857, 2008-01-02, 1, 4, India, c Tendulkar, Singh, 41, 100, 79, 3, 0
+1857, 2008-01-02, 3, 4, India, not out, , 145, 340, 259, 16, 0
+1862, 2008-01-16, 2, 4, India, c Dhoni, Singh, 0, 10, 8, 0, 0
+1862, 2008-01-16, 4, 4, India, lbw, Singh, 46, 165, 113, 5, 0
+1863, 2008-01-24, 2, 4, India, , Pathan, 22, 81, 66, 1, 0
+1875, 2008-04-22, 1, 4, West Indies, c Bravo, Jaggernauth, 56, 186, 146, 6, 0
+1875, 2008-04-22, 3, 4, West Indies, , Powell, 1, 25, 15, 0, 0
+1877, 2008-05-30, 1, 4, West Indies, c Chanderpaul, Sammy, 10, 56, 38, 2, 0
+1877, 2008-05-30, 3, 2, West Indies, c Ramdin, Bravo, 40, 110, 94, 3, 0
+1879, 2008-05-12, 1, 4, West Indies, c Powell, Bravo, 12, 22, 25, 0, 1
+1879, 2008-05-12, 3, 4, West Indies, c Bravo, Benn, 18, 59, 48, 2, 0
+1887, 2008-09-09, 1, 4, India, , Khan, 146, 402, 276, 15, 1
+1887, 2008-09-09, 3, 4, India, , Harbhajan Singh, 31, 122, 72, 3, 0
+1889, 2008-09-17, 2, 4, India, c Dhoni, Sharma, 54, 181, 119, 7, 0
+1889, 2008-09-17, 4, 4, India, lbw, Harbhajan Singh, 1, 8, 4, 0, 0
+1891, 2008-10-29, 2, 4, India, , Sehwag, 53, 187, 146, 7, 0
+1892, 2008-10-06, 2, 4, India, run out (Vijay/Dhoni), , 90, 315, 229, 8, 0
+1892, 2008-10-06, 4, 5, India, c Dravid, Mishra, 19, 62, 30, 2, 0
+1894, 2008-10-20, 1, 4, New Zealand, lbw, Martin, 35, 119, 78, 4, 0
+1894, 2008-10-20, 3, 4, New Zealand, c McCullum, O'Brien, 0, 3, 4, 0, 0
+1896, 2008-11-28, 2, 4, New Zealand, c Redmond, Martin, 70, 259, 183, 8, 0
+1899, 2008-11-17, 1, 4, South Africa, c de Villiers, Steyn, 0, 11, 7, 0, 0
+1899, 2008-11-17, 3, 4, South Africa, , Ntini, 8, 53, 35, 0, 0
+1902, 2008-11-26, 1, 4, South Africa, c Boucher, Steyn, 0, 16, 9, 0, 0
+1902, 2008-11-26, 3, 4, South Africa, c Amla, Morkel, 2, 15, 8, 0, 0
+1904, 2009-01-03, 1, 4, South Africa, c Kallis, Harris, 30, 117, 99, 5, 0
+1904, 2009-01-03, 3, 4, South Africa, not out, , 45, 123, 94, 3, 1
+1910, 2009-02-26, 1, 4, South Africa, c Kallis, Morkel, 4, 32, 21, 1, 0
+1910, 2009-02-26, 3, 4, South Africa, c Ntini, Kallis, 0, 2, 1, 0, 0
+1913, 2009-02-06, 1, 4, South Africa, , Morkel, 50, 214, 144, 9, 0
+1913, 2009-02-06, 3, 4, South Africa, c Kallis, Duminy, 19, 53, 50, 2, 0
+1916, 2009-02-19, 1, 4, South Africa, , Steyn, 20, 27, 20, 4, 0
+1916, 2009-02-19, 3, 4, South Africa, c Duminy, Steyn, 39, 197, 153, 5, 0
+1922, 2009-06-08, 2, 4, England, c Prior, Anderson, 3, 24, 16, 0, 0
+1925, 2009-06-16, 2, 4, England, , Flintoff, 51, 127, 91, 8, 0
+1925, 2009-06-16, 4, 4, England, c Collingwood, Swann, 27, 100, 63, 3, 0
+1928, 2009-07-30, 1, 4, England, , Onions, 0, 1, 1, 0, 0
+1928, 2009-07-30, 3, 4, England, c Prior, Broad, 64, 154, 130, 13, 0
+1929, 2009-07-07, 2, 4, England, lbw, Broad, 10, 16, 10, 2, 0
+1931, 2009-07-20, 2, 4, England, lbw, Broad, 0, 6, 3, 0, 0
+1931, 2009-07-20, 4, 4, England, c Cook, Swann, 121, 328, 263, 14, 0
+1936, 2009-10-26, 1, 4, West Indies,                c &, Benn, 66, 147, 132, 9, 0
+1939, 2009-11-04, 2, 4, West Indies, c Ramdin, Roach, 41, 168, 126, 2, 0
+1939, 2009-11-04, 4, 4, West Indies, c Ramdin, Bravo, 29, 104, 81, 3, 0
+1941, 2009-11-16, 1, 4, West Indies, c Ramdin, Rampaul, 82, 202, 172, 9, 0
+1941, 2009-11-16, 3, 4, West Indies, c Dowlin, Benn, 17, 53, 32, 3, 0
+1943, 2009-11-26, 1, 4, Pakistan, lbw, Saeed Ajmal, 82, 176, 113, 10, 0
+1943, 2009-11-26, 3, 4, Pakistan, lbw, Mohammad Amir, 4, 9, 3, 1, 0
+1945, 2010-01-03, 1, 4, Pakistan, c Misbah-ul-Haq, Mohammad Asif, 28, 96, 52, 4, 0
+1945, 2010-01-03, 3, 4, Pakistan, not out, , 134, 385, 284, 16, 0
+1947, 2010-01-14, 1, 4, Pakistan, c Sarfraz Ahmed, Mohammad Amir, 6, 19, 12, 1, 0
+1947, 2010-01-14, 3, 4, Pakistan, not out, , 13, 24, 21, 1, 0
+1955, 2010-02-19, 1, 4, New Zealand, c Watling, Martin, 4, 17, 11, 1, 0
+1957, 2010-02-27, 1, 4, New Zealand, c McCullum, Southee, 22, 65, 48, 5, 0
+1957, 2010-02-27, 3, 4, New Zealand, c McCullum, Arnel, 67, 207, 160, 8, 0
+1963, 2010-06-13, 1, 5, Pakistan, not out, , 56, 161, 100, 8, 1
+1963, 2010-06-13, 3, 5, Pakistan, c Imran Farhat, Umar Gul, 0, 1, 1, 0, 0
+1965, 2010-06-21, 1, 5, Pakistan, lbw, Umar Gul, 5, 24, 13, 1, 0
+1965, 2010-06-21, 3, 5, Pakistan, c Umar Akmal, Mohammad Amir, 8, 17, 16, 1, 0
+1972, 2010-09-01, 1, 5, India, lbw, Khan, 17, 104, 76, 0, 0
+1972, 2010-09-01, 3, 5, India, lbw, Harbhajan Singh, 28, 121, 72, 3, 0
+1973, 2010-09-09, 1, 5, India, c Sehwag, Khan, 34, 71, 45, 4, 0
+1973, 2010-09-09, 3, 5, India, lbw, Ojha, 20, 64, 51, 1, 0
+1981, 2010-10-25, 2, 5, England, c Cook, Finn, 195, 462, 330, 26, 1
+1983, 2010-11-03, 1, 5, England, c Collingwood, Swann, 93, 299, 183, 8, 0
+1983, 2010-11-03, 3, 5, England, c Anderson, Finn, 52, 154, 107, 5, 1
+1984, 2010-11-16, 1, 5, England, c Prior, Swann, 61, 139, 104, 9, 1
+1984, 2010-11-16, 3, 5, England, c Swann, Tremlett, 116, 296, 172, 15, 0
+1986, 2010-11-26, 1, 5, England, c Prior, Anderson, 8, 44, 41, 1, 0
+1986, 2010-11-26, 3, 5, England, c Bell, Bresnan, 0, 9, 7, 0, 0
+1989, 2011-01-03, 1, 5, England, , Collingwood, 33, 113, 92, 2, 0
+1989, 2011-01-03, 3, 5, England, c Pietersen, Bresnan, 12, 66, 49, 1, 0
+2005, 2011-08-31, 1, 5, Sri Lanka, lbw, Dilshan, 95, 246, 177, 7, 3
+2005, 2011-08-31, 3, 5, Sri Lanka, c Paranavitana, Herath, 15, 61, 37, 1, 0
+2007, 2011-08-08, 2, 5, Sri Lanka, c Sangakkara, Samaraweera, 142, 301, 244, 16, 0
+2008, 2011-08-16, 1, 6, Sri Lanka, , Eranga, 118, 253, 178, 12, 2
+2008, 2011-08-16, 3, 6, Sri Lanka, c Welegedara, Dilshan, 93, 226, 138, 11, 1
+2016, 2011-10-09, 1, 6, South Africa, c Boucher, Morkel, 1, 25, 18, 0, 0
+2016, 2011-10-09, 3, 5, South Africa, c Prince, Morkel, 0, 1, 1, 0, 0
+2018, 2011-10-17, 2, 6, South Africa, , Steyn, 20, 34, 27, 4, 0
+2018, 2011-10-17, 4, 6, South Africa, lbw, Philander, 39, 124, 77, 3, 0
+2020, 2011-11-01, 2, 6, New Zealand, c Ryder, Vettori, 15, 82, 49, 2, 0
+2021, 2011-11-09, 2, 6, New Zealand, c Young, Boult, 8, 28, 16, 1, 0
+2021, 2011-11-09, 4, 6, New Zealand, lbw, Bracewell, 0, 1, 1, 0, 0

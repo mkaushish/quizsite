@@ -1,0 +1,74 @@
+
+Test # 516
+England in India, 1961/62, 3rd Test
+India v England
+Feroz Shah Kotla, Delhi
+13,14,16,17,18 December 1961 (5-day match)
+
+Result: Match drawn
+Series: 5-match series level 0-0
+
+Toss: India
+Umpires: SV Kumaraswamy and B Satyaji Rao
+Test debut: Nawab of Pataudi jnr (India).
+
+Close of play:
+ Day 1: India 253/3 (Manjrekar 61*, Umrigar 8*)
+ Day 2: India 466, England 21/1 (Pullar 7*, Barrington 13*)
+ Day 3: England 256/3 (Barrington 113*, Dexter 45*, 114 ov)
+ Day 4: No play
+ Day 5: No play
+
+India 1st innings                                               R   M   B  4 6
+ML Jaisimha                          c & b DR Smith           127 249     14 2
+*NJ Contractor        c Pullar           b Lock                39 162      3 0
+VL Manjrekar          not out                                 189 445     29 0
+Nawab of Pataudi jnr  c Richardson       b Allen               13  70      2 0
+PR Umrigar            lbw                b Allen               22  46      4 0
+CG Borde                                 b Barber              45 166      8 0
+SA Durani                                b Allen               18  40      4 0
++FM Engineer          lbw                b Allen                1   9      0 0
+AG Kripal Singh       run out                                   2   6      0 0
+RB Desai              lbw                b Knight               5   5      1 0
+SP Gupte                                 b Knight               0   9      0 0
+Extras                (b 2, lb 2, nb 1)                         5
+Total                 (all out, 177.3 overs)                  466
+
+FoW: 1-121 (Contractor), 2-199 (Jaisimha), 3-244 (Pataudi),
+     4-276 (Umrigar), 5-408 (Borde), 6-443 (Durani),
+     7-451 (Engineer), 8-455 (Kripal Singh), 9-462 (Desai),
+     10-466 (Gupte).
+
+Bowling                      O      M      R      W
+DR Smith                    30     11     66      1
+Knight                      24.3    5     72      2
+Allen                       47     18     87      4
+Barber                      25      3    103      1
+Dexter                       2      0     11      0
+Lock                        40     15     83      1
+Barrington                   9      1     39      0
+
+England 1st innings                                             R   M   B  4 6
+PE Richardson         lbw                b Desai                1  10      0 0
+G Pullar              c Manjrekar        b Kripal Singh        89 250     13 0
+KF Barrington         not out                                 113 359     12 0
+MJK Smith                                b Gupte                2  34      0 0
+*ER Dexter            not out                                  45  84      7 0
+Extras                (b 5, nb 1)                               6
+Total                 (3 wickets, 114 overs)                  256
+
+DNB: RW Barber, +JT Murray, BR Knight, DA Allen, GAR Lock,
+     DR Smith.
+
+FoW: 1-2 (Richardson), 2-166 (Pullar), 3-177 (MJK Smith).
+
+Bowling                      O      M      R      W
+Desai                       28      5     57      1
+Jaisimha                    11      2     28      0
+Gupte                       36     14     78      1
+Durani                      13      3     38      0
+Kripal Singh                12      4     27      1
+Borde                       10      4     19      0
+Umrigar                      4      1      3      0
+
+<END>

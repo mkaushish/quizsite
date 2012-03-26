@@ -1,0 +1,102 @@
+
+Test # 339
+England in India, 1951/52, 1st Test
+India v England
+Feroz Shah Kotla, Delhi
+2,3,4,6,7 November 1951 (5-day match)
+
+Result: Match drawn
+Series: 5-match series level 0-0
+
+Toss: England
+Umpires: BJ Mohoni and MG Vijayasarathi
+Test debuts: DB Carr, ND Howard, D Kenyon, F Ridgway, RT Spooner (England);
+ PG Joshi, P Roy (India).
+
+Close of play:
+ Day 1: England 203
+ Day 2: India 186/2 (Merchant 106*, Hazare 45*)
+ Day 3: India 418/6 (Hazare 164*, Adhikari 38*)
+ Day 4: India 418/6d, England 202/3 (Watkins 51*, Carr 44*)
+
+England 1st innings                                             R   M   B  4 6
+JDB Robertson         lbw                b Shinde              50 150        0
+FA Lowson             lbw                b Phadkar              4            0
+D Kenyon                                 b Shinde              35            0
+DB Carr               c Joshi            b Shinde              14            0
+AJ Watkins            c Joshi            b Mankad              40            0
++RT Spooner           hit wicket         b Shinde              11            0
+*ND Howard            st Joshi           b Mankad              13            0
+D Shackleton          st Joshi           b Mankad              10            0
+JB Statham                               b Shinde               4            0
+R Tattersall          not out                                   4            0
+F Ridgway                                b Shinde              15            0
+Extras                (lb 3)                                    3
+Total                 (all out, 102.3 overs)                  203
+
+FoW: 1-9 (Lowson), 2-79 (Kenyon), 3-102 (Robertson),
+     4-111 (Carr), 5-153 (Spooner), 6-161 (Watkins),
+     7-175 (Shackleton), 8-184 (Howard), 9-184 (Statham),
+     10-203 (Ridgway).
+
+Bowling                      O      M      R      W
+Phadkar                     11      4     26      1
+Chowdhury                   18      4     30      0
+Hazare                       5      5      0      0
+Mankad                      33     15     53      3
+Shinde                      35.3    9     91      6
+
+India 1st innings                                               R   M   B  4 6
+VM Merchant                              b Statham            154 450        0
+P Roy                 lbw                b Shackleton          12            0
+PR Umrigar            run out                                  21            0
+*VS Hazare            not out                                 164 515        0
+DG Phadkar            run out                                   3          0 0
+MH Mankad             c Spooner          b Tattersall           4            0
+RS Modi               lbw                b Tattersall           7            0
+HR Adhikari           not out                                  38            0
+Extras                (b 12, lb 2, nb 1)                       15
+Total                 (6 wickets dec, 175 overs)              418
+
+DNB: SG Shinde, +PG Joshi, NR Chowdhury.
+
+FoW: 1-18 (Roy), 2-64 (Umrigar), 3-275 (Merchant),
+     4-278 (Phadkar), 5-292 (Mankad), 6-328 (Modi).
+
+Bowling                      O      M      R      W
+Statham                     21      4     49      1
+Ridgway                     20      1     55      0
+Watkins                     31      7     60      0
+Shackleton                  29      7     76      1
+Tattersall                  53     17     95      2
+Carr                        16      4     56      0
+Robertson                    5      1     12      0
+
+England 2nd innings                                             R   M   B  4 6
+JDB Robertson         c Phadkar          b Mankad              22            0
+FA Lowson             c Phadkar          b Mankad              68            0
+D Kenyon              c Roy              b Shinde               6            0
+AJ Watkins            not out                                 137 540        0
+DB Carr               c Umrigar          b Shinde              76 300        0
++RT Spooner                              b Mankad               1          0 0
+*ND Howard            lbw                b Mankad               9            0
+D Shackleton          not out                                  21            0
+Extras                (b 18, lb 7, w 1, nb 2)                  28
+Total                 (6 wickets, 221 overs)                  368
+
+DNB: JB Statham, R Tattersall, F Ridgway.
+
+FoW: 1-61 (Robertson), 2-78 (Kenyon), 3-116 (Lowson),
+     4-274 (Carr), 5-275 (Spooner), 6-309 (Howard).
+
+Bowling                      O      M      R      W
+Phadkar                     14      3     28      0
+Chowdhury                   31     11     45      0
+Hazare                      12      4     24      0
+Mankad                      76     47     58      4
+Shinde                      73     26    162      2
+Umrigar                      6      1      8      0
+Modi                         5      1     14      0
+Roy                          4      3      1      0
+
+<END>

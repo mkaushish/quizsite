@@ -1,0 +1,50 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+1827, 2007-01-02, 2, 9, India, not out, , 11, 39, 29, 2, 0
+1828, 2007-01-11, 2, 9, Pakistan, , Danish Kaneria, 3, 6, 4, 0, 0
+1828, 2007-01-11, 4, 4, Pakistan, c Faisal Iqbal, Mohammad Asif, 7, 25, 25, 0, 0
+1829, 2007-01-19, 1, 11, Pakistan, c Yasir Hameed, Mohammad Asif, 4, 4, 5, 1, 0
+1829, 2007-01-19, 3, 10, Pakistan, c sub (Faisal Iqbal), Danish Kaneria, 0, 3, 3, 0, 0
+1830, 2007-01-26, 2, 7, Pakistan, c Younis Khan, Mohammad Asif, 1, 22, 9, 0, 0
+1830, 2007-01-26, 4, 3, Pakistan, lbw, Danish Kaneria, 0, 16, 13, 0, 0
+1843, 2007-09-01, 1, 9, Pakistan, c Kamran Akmal, Abdur Rehman, 1, 8, 5, 0, 0
+1843, 2007-09-01, 3, 9, Pakistan, not out, , 1, 15, 10, 0, 0
+1844, 2007-09-08, 1, 9, Pakistan, c Shoaib Malik, Umar Gul, 46, 160, 132, 6, 0
+1846, 2007-10-08, 1, 9, New Zealand, lbw, Vettori, 3, 18, 15, 0, 0
+1848, 2007-10-16, 2, 8, New Zealand, c McCullum, Gillespie, 0, 15, 10, 0, 0
+1856, 2007-11-26, 2, 8, West Indies, c Taylor, Bravo, 9, 100, 68, 0, 0
+1856, 2007-11-26, 4, 8, West Indies, , Bravo, 0, 12, 9, 0, 0
+1858, 2008-01-02, 2, 8, West Indies, c Morton, Powell, 4, 8, 8, 1, 0
+1870, 2008-02-26, 1, 9, India, c Dhoni, Harbhajan Singh, 5, 26, 16, 0, 0
+1871, 2008-03-03, 2, 9, India, not out, , 9, 38, 22, 1, 0
+1873, 2008-03-11, 1, 9, India, , Sharma, 12, 44, 31, 2, 0
+1873, 2008-03-11, 3, 9, India, c Dravid, Harbhajan Singh, 0, 5, 7, 0, 0
+1880, 2008-06-10, 2, 9, England, c Anderson, Panesar, 6, 19, 18, 1, 0
+1881, 2008-06-18, 2, 9, England, c Anderson, Panesar, 24, 94, 76, 1, 1
+1883, 2008-07-30, 2, 3, England, c Cook, Sidebottom, 19, 91, 54, 3, 0
+1885, 2008-07-07, 1, 9, England, not out, , 13, 68, 49, 1, 0
+1885, 2008-07-07, 3, 9, England, c Flintoff, Broad, 34, 88, 74, 3, 0
+1893, 2008-10-19, 1, 11, Bangladesh, absent hurt, , -, , , , 
+1899, 2008-11-17, 2, 9, Australia, c Krejza, Johnson, 0, 3, 3, 0, 0
+1902, 2008-11-26, 2, 9, Australia, c Johnson, Hussey, 39, 74, 67, 4, 0
+1904, 2009-01-03, 2, 9, Australia, lbw, Siddle, 2, 4, 11, 0, 0
+1904, 2009-01-03, 4, 8, Australia, lbw, Siddle, 6, 53, 43, 0, 0
+1910, 2009-02-26, 2, 9, Australia, lbw, North, 1, 4, 4, 0, 0
+1910, 2009-02-26, 4, 9, Australia, c Katich, Siddle, 8, 42, 35, 0, 0
+1913, 2009-02-06, 2, 8, Australia, , McDonald, 4, 69, 46, 0, 0
+1913, 2009-02-06, 4, 7, Australia, c Siddle, Katich, 5, 18, 15, 0, 0
+1916, 2009-02-19, 2, 9, Australia, c Haddin, Johnson, 27, 70, 49, 4, 0
+1942, 2009-11-16, 1, 9, England, , Onions, 38, 117, 89, 4, 0
+1942, 2009-11-16, 3, 3, England, , Anderson, 11, 26, 17, 2, 0
+1944, 2009-11-26, 1, 9, England, lbw, Swann, 2, 15, 12, 0, 0
+1944, 2009-11-26, 3, 9, England, c Broad, Anderson, 36, 57, 50, 5, 0
+1946, 2010-01-03, 1, 10, England, not out, , 10, 14, 7, 1, 0
+1952, 2010-01-14, 1, 9, India, c Dhoni, Sharma, 1, 11, 4, 0, 0
+1952, 2010-01-14, 3, 10, India, c sub (KD Karthik), Sharma, 4, 36, 24, 1, 0
+1960, 2010-05-10, 1, 5, West Indies, c Shillingford, Benn, 10, na, 24, 0, 1
+1962, 2010-05-26, 2, 4, West Indies, c Gayle, Bess, 11, na, 30, 2, 0
+1976, 2010-10-12, 1, 5, Pakistan, c Younis Khan, Umar Gul, 0, 37, 29, 0, 0
+1979, 2010-10-20, 1, 10, Pakistan, c Adnan Akmal, Tanvir Ahmed, 19, 30, 24, 2, 1
+1987, 2010-11-26, 2, 9, India, c Pujara, Harbhajan Singh, 0, 4, 5, 0, 0
+1987, 2010-11-26, 4, 9, India, , Khan, 7, 58, 28, 0, 0
+1988, 2011-01-02, 1, 10, India, c Pujara, Sharma, 7, 55, 41, 0, 0
+1988, 2011-01-02, 3, 3, India, lbw, Harbhajan Singh, 0, 9, 8, 0, 0

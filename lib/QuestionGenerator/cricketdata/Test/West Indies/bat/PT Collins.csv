@@ -1,0 +1,48 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+1448, 1999-03-05, 2, 7, Australia, lbw, McGrath, 1, 21, 16, 0, 0
+1448, 1999-03-05, 4, 10, Australia, , Gillespie, 0, 11, 6, 0, 0
+1451, 1999-03-13, 2, 6, Australia, c ME Waugh, MacGill, 13, 71, 47, 2, 0
+1453, 1999-03-26, 2, 4, Australia, lbw, McGrath, 0, 2, 1, 0, 0
+1453, 1999-03-26, 4, 4, Australia, lbw, McGrath, 0, 5, 6, 0, 0
+1570, 2001-10-21, 2, 10, Sri Lanka, lbw, Vaas, 0, 22, 12, 0, 0
+1570, 2001-10-21, 4, 10, Sri Lanka, , Muralitharan, 0, 6, 4, 0, 0
+1572, 2001-11-29, 1, 10, Sri Lanka, c Samaraweera, Vaas, 4, 10, 6, 1, 0
+1572, 2001-11-29, 3, 10, Sri Lanka, lbw, Vaas, 0, 6, 2, 0, 0
+1587, 2002-01-31, 2, 11, Pakistan, not out, , 1, 16, 9, 0, 0
+1587, 2002-01-31, 4, 11, Pakistan, , Abdul Razzaq, 12, 25, 16, 3, 0
+1588, 2002-01-07, 2, 11, Pakistan, c Inzamam-ul-Haq, Saqlain Mushtaq, 1, 34, 10, 0, 0
+1588, 2002-01-07, 4, 11, Pakistan, , Waqar Younis, 0, 2, 2, 0, 0
+1601, 2002-04-02, 2, 9, India, , Harbhajan Singh, 0, 5, 3, 0, 0
+1602, 2002-04-10, 2, 9, India, c sub (Harbhajan Singh), Jaffer, 11, 26, 31, 2, 0
+1604, 2002-04-18, 1, 9, India, c Laxman, Nehra, 12, 30, 25, 2, 0
+1604, 2002-04-18, 3, 9, India, , Harbhajan Singh, 24, 125, 67, 2, 0
+1607, 2002-05-21, 2, 8, New Zealand, c Vincent, Butler, 8, 24, 20, 1, 0
+1607, 2002-05-21, 4, 9, New Zealand, lbw, Bond, 8, 37, 18, 1, 0
+1608, 2002-06-28, 2, 9, New Zealand, lbw, Vettori, 14, 36, 15, 2, 0
+1616, 2002-09-09, 2, 10, India, lbw, Kumble, 0, 3, 1, 0, 0
+1616, 2002-09-09, 3, 10, India, c Dravid, Harbhajan Singh, 8, 44, 27, 1, 0
+1618, 2002-09-17, 1, 10, India, not out, , 1, 8, 2, 0, 0
+1618, 2002-09-17, 3, 10, India, not out, , 6, 28, 14, 0, 0
+1630, 2002-11-08, 2, 10, Bangladesh, c Habibul Bashar, Mohammad Ashraful, 13, 23, 17, 3, 0
+1632, 2002-11-16, 2, 10, Bangladesh, not out, , 12, 32, 10, 2, 0
+1638, 2003-03-10, 1, 10, Australia, st Gilchrist, MacGill, 3, 18, 9, 0, 0
+1638, 2003-03-10, 3, 10, Australia, not out, , 1, 5, 3, 0, 0
+1639, 2003-03-19, 2, 11, Australia, not out, , 7, 29, 24, 1, 0
+1639, 2003-03-19, 4, 11, Australia, lbw, Gillespie, 5, 21, 12, 1, 0
+1690, 2004-02-19, 1, 10, England, , Harmison, 10, 54, 30, 0, 0
+1690, 2004-02-19, 3, 10, England, , Jones, 7, 15, 13, 1, 0
+1694, 2004-03-01, 1, 9, England, c Trescothick, Jones, 7, 15, 14, 1, 0
+1694, 2004-03-01, 3, 9, England, run out (Hussain), , 1, 12, 7, 0, 0
+1701, 2004-05-28, 2, 9, Bangladesh, c Habibul Bashar, Mushfiqur Rahman, 4, 29, 30, 0, 0
+1707, 2004-06-22, 2, 10, England, , Flintoff, 0, 14, 11, 0, 0
+1707, 2004-06-22, 4, 10, England, st GO Jones, Giles, 2, 58, 38, 0, 0
+1708, 2004-07-29, 2, 9, England, c Flintoff, Giles, 6, 22, 22, 0, 0
+1708, 2004-07-29, 4, 9, England, lbw, Hoggard, 0, 10, 9, 0, 0
+1711, 2004-07-12, 1, 9, England, retired not out, , 19, 40, 22, 3, 0
+1711, 2004-07-12, 3, 9, England, , Harmison, 8, 24, 16, 1, 0
+1747, 2005-03-08, 1, 10, South Africa, lbw, Nel, 2, 16, 9, 0, 0
+1747, 2005-03-08, 3, 10, South Africa, , Ntini, 0, 14, 10, 0, 0
+1806, 2006-05-10, 2, 10, India, c Dravid, Sehwag, 0, na, 5, 0, 0
+1807, 2006-05-22, 1, 10, India, c Dravid, Harbhajan Singh, 1, na, 5, 0, 0
+1808, 2006-06-30, 2, 10, India, c Sehwag, Harbhajan Singh, 0, 9, 6, 0, 0
+1808, 2006-06-30, 4, 10, India, lbw, Kumble, 3, 39, 19, 0, 0

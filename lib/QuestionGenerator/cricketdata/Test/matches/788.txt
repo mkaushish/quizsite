@@ -1,0 +1,102 @@
+
+Test # 788
+England in India, 1976/77, 1st Test
+India v England
+Feroz Shah Kotla, Delhi
+17,18,19,21,22 December 1976 (5-day match)
+
+Result: England won by an innings and 25 runs
+Series: England leads the 5-match series 1-0
+
+Toss: England
+Umpires: MV Nagendra and J Reuben
+Test debuts: GD Barlow, JK Lever (England).
+
+Close of play:
+ Day 1: England 239/6 (Amiss 109*, Old 5*)
+ Day 2: England 381, India 51/4 (Gavaskar 22*, Patel 2*)
+ Day 3: India 122, India 82/1 (Gavaskar 40*, Sharma 24*)
+ Day 4: India 216/7 (Ghavri 23*, Venkataraghavan 3*)
+
+England 1st innings                                             R   M   B  4 6
+DL Amiss              c Sharma           b Venkataraghavan    179 511 397 22 1
+JM Brearley           run out                                   5  50  31  0 0
+GD Barlow             c Amarnath         b Bedi                 0   4   5  0 0
+RA Woolmer            lbw                b Chandrasekhar        4  34  20  0 0
+KWR Fletcher                             b Chandrasekhar        8  16  14  1 0
+*AW Greig             lbw                b Venkataraghavan     25  59  57  3 0
++APE Knott            st Kirmani         b Bedi                75 105  90 13 0
+CM Old                c Viswanath        b Bedi                15 102  76  1 0
+JK Lever              c Bedi             b Chandrasekhar       53 169 194  6 0
+RGD Willis            c Venkataraghavan  b Bedi                 1  15  15  0 0
+DL Underwood          not out                                   7  19  14  1 0
+Extras                (b 1, lb 5, w 1, nb 2)                    9
+Total                 (all out, 151.5 overs)                  381
+
+FoW: 1-34 (Brearley), 2-34 (Barlow), 3-51 (Woolmer),
+     4-65 (Fletcher), 5-125 (Greig), 6-226 (Knott), 7-263 (Old),
+     8-357 (Amiss), 9-363 (Willis), 10-381 (Lever).
+
+Bowling                      O      M      R      W
+Ghavri                      14      3     50      0
+Amarnath                     8      2     12      0
+Bedi                        59     22     92      4
+Chandrasekhar               32.5    6    117      3
+Venkataraghavan             34      6     94      2
+Gaekwad                      1      0      1      0
+Sharma                       3      0      6      0
+
+India 1st innings                                               R   M   B  4 6
+SM Gavaskar           c Willis           b Lever               38 200 140  4 0
+AD Gaekwad            lbw                b Lever               20  68  37  3 0
+M Amarnath            lbw                b Lever                0   2   1  0 0
+GR Viswanath          lbw                b Lever                3  17  12  0 0
+S Venkataraghavan                        b Lever                0   2   2  0 0
+BP Patel              c Knott            b Lever               33  87  52  3 0
+PH Sharma             c Willis           b Underwood            4  37  29  1 0
++SMH Kirmani                             b Lever               13  36  23  3 0
+KD Ghavri             not out                                   3  28  17  0 0
+*BS Bedi              c Greig            b Old                  0   5   2  0 0
+BS Chandrasekhar                         b Old                  0   2   1  0 0
+Extras                (lb 4, w 1, nb 3)                         8
+Total                 (all out, 51.5 overs)                   122
+
+FoW: 1-43 (Gaekwad), 2-43 (Amarnath), 3-49 (Viswanath),
+     4-49 (Venkataraghavan), 5-96 (Patel), 6-99 (Gavaskar),
+     7-103 (Sharma), 8-121 (Kirmani), 9-122 (Bedi),
+     10-122 (Chandrasekhar).
+
+Bowling                      O      M      R      W
+Old                         12.5    0     28      2
+Willis                       7      3     21      0
+Lever                       23      6     46      7
+Underwood                    9      3     19      1
+
+India 2nd innings (following on)                                R   M   B  4 6
+SM Gavaskar           c Woolmer          b Underwood           71 240 215  7 1
+AD Gaekwad                               b Willis              11  25  19  2 0
+PH Sharma             c Fletcher         b Underwood           29 196 151  3 0
+GR Viswanath          c Knott            b Greig               18  81  75  0 0
+BP Patel                             c & b Underwood           14  56  49  1 0
+M Amarnath            c sub              b Underwood           24  39  41  3 0
++SMH Kirmani          c Lever            b Greig               10  15  13  2 0
+KD Ghavri             not out                                  35  78  58  4 1
+S Venkataraghavan     c Knott            b Lever                4  48  38  0 0
+*BS Bedi                                 b Lever                0   2   2  0 0
+BS Chandrasekhar                         b Lever                0  15  10  0 0
+Extras                (b 3, lb 8, nb 7)                        18
+Total                 (all out, 110.4 overs)                  234
+
+FoW: 1-20 (Gaekwad), 2-110 (Sharma), 3-133 (Gavaskar),
+     4-153 (Viswanath), 5-163 (Patel), 6-182 (Kirmani),
+     7-190 (Amarnath), 8-226 (Venkataraghavan), 9-226 (Bedi),
+     10-234 (Chandrasekhar).
+
+Bowling                      O      M      R      W
+Old                          4      2      6      0
+Willis                       9      3     24      1
+Lever                       13.4    6     24      3
+Underwood                   44     15     78      4
+Greig                       40     11     84      2
+
+<END>

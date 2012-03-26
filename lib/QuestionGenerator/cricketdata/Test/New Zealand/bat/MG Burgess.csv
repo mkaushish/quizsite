@@ -1,0 +1,93 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+630, 1968-02-15, 1, 6, India, , Nadkarni, 50, 138, na, 5, 0
+630, 1968-02-15, 3, 6, India, run out, , 39, 108, na, 4, 1
+631, 1968-02-22, 1, 5, India, c Pataudi, Nadkarni, 26, 116, 84, 4, 0
+631, 1968-02-22, 4, 5, India, lbw, Bedi, 1, na, na, 0, 0
+632, 1968-02-29, 1, 4, India, c Surti, Prasanna, 66, 210, na, 8, 0
+632, 1968-02-29, 3, 5, India, c Pataudi, Nadkarni, 60, 175, na, 10, 0
+634, 1968-03-07, 2, 4, India, c Subramanya, Prasanna, 11, na, na, na, 0
+634, 1968-03-07, 4, 4, India, c Bedi, Surti, 18, na, na, na, 0
+648, 1969-02-27, 1, 5, West Indies, c Hendriks, Sobers, 11, na, na, na, 0
+648, 1969-02-27, 3, 5, West Indies, c Fredericks, Holford, 30, na, na, 2, 1
+652, 1969-03-13, 2, 6, West Indies, , Edwards, 26, na, na, na, 0
+652, 1969-03-13, 3, 5, West Indies, c Sobers, Holford, 2, na, na, 0, 0
+656, 1969-07-24, 2, 6, England, lbw, Illingworth, 10, 35, 35, 1, 0
+656, 1969-07-24, 4, 6, England, lbw, Underwood, 6, 35, 37, 1, 0
+657, 1969-08-07, 1, 6, England, c Knight, Ward, 2, 47, 46, 0, 0
+659, 1969-09-25, 2, 6, India, c Abid Ali, Pai, 10, 60, na, 0, 0
+659, 1969-09-25, 4, 7, India,                c &, Bedi, 0, 2, na, 0, 0
+660, 1969-10-03, 1, 4, India, lbw, Prasanna, 89, 192, na, 13, 0
+660, 1969-10-03, 3, 5, India, c Chauhan, Venkataraghavan, 12, 41, na, 2, 0
+661, 1969-10-15, 1, 6, India, lbw, Bedi, 2, 18, na, 0, 0
+661, 1969-10-15, 3, 5, India, , Abid Ali, 3, 8, na, 0, 0
+662, 1969-10-24, 2, 5, Pakistan, , Mohammad Nazir, 21, 45, na, 1, 1
+662, 1969-10-24, 4, 5, Pakistan, c Asif Iqbal, Pervez Sajjad, 45, 96, na, 5, 1
+663, 1969-10-30, 2, 5, Pakistan, c Mushtaq Mohammad, Pervez Sajjad, 0, na, na, 0, 0
+663, 1969-10-30, 4, 5, Pakistan, not out, , 29, 40, na, 2, 1
+665, 1969-11-08, 1, 6, Pakistan, c Wasim Bari, Pervez Sajjad, 59, 159, na, 9, 0
+665, 1969-11-08, 3, 6, Pakistan, not out, , 119, 255, na, 12, 0
+682, 1971-03-05, 2, 5, England, c Edrich, Willis, 104, 237, 176, 12, 1
+693, 1972-02-16, 2, 4, West Indies, , Dowe, 15, na, na, na, 0
+693, 1972-02-16, 4, 4, West Indies,                c &, Dowe, 101, 185, na, 15, 1
+694, 1972-03-09, 1, 4, West Indies, c Findlay, Holder, 32, na, na, 4, 0
+694, 1972-03-09, 3, 4, West Indies, not out, , 62, na, na, 6, 1
+695, 1972-03-23, 2, 4, West Indies, c Fredericks, Sobers, 19, na, na, na, 0
+696, 1972-04-06, 2, 4, West Indies, , Howard, 8, 27, 27, 1, 0
+697, 1972-04-20, 2, 4, West Indies, , Ali, 5, na, na, na, 0
+697, 1972-04-20, 4, 4, West Indies, c Greenidge, Ali, 6, na, na, na, 0
+710, 1973-02-02, 2, 5, Pakistan,                c &, Intikhab Alam, 79, 140, na, 7, 1
+710, 1973-02-02, 4, 5, Pakistan, not out, , 21, 93, na, na, 0
+712, 1973-02-07, 2, 5, Pakistan, , Intikhab Alam, 10, na, na, na, 0
+712, 1973-02-07, 3, 5, Pakistan, c Pervez Sajjad, Intikhab Alam, 4, na, na, na, 0
+713, 1973-02-16, 2, 5, Pakistan, , Intikhab Alam, 2, na, na, 0, 0
+713, 1973-02-16, 4, 4, Pakistan, c Mushtaq Mohammad, Wasim Raja, 1, na, na, 0, 0
+722, 1973-06-07, 2, 5, England, c Knott, Arnold, 0, 1, 2, 0, 0
+722, 1973-06-07, 4, 5, England, c Knott, Arnold, 26, 60, 41, 3, 0
+723, 1973-06-21, 2, 6, England, , Snow, 105, 227, 174, 12, 0
+724, 1973-07-05, 1, 5, England, c Roope, Old, 87, 238, 171, 11, 0
+724, 1973-07-05, 3, 5, England, lbw, Old, 18, 33, 23, 2, 0
+736, 1974-03-22, 2, 6, Australia, c Marsh, Gilmour, 7, 27, 22, 1, 0
+736, 1974-03-22, 4, 6, Australia, c Stackpole, Walker, 6, 11, 6, 1, 0
+769, 1976-01-24, 1, 6, India, c Prasanna, Venkataraghavan, 31, 76, na, 6, 0
+769, 1976-01-24, 3, 6, India, lbw, Chandrasekhar, 6, na, na, na, 0
+771, 1976-02-05, 2, 5, India,                c &, Madan Lal, 31, 129, na, 4, 0
+772, 1976-02-13, 2, 5, India, lbw, Madan Lal, 95, 313, na, 3, 1
+782, 1976-10-09, 2, 5, Pakistan, , Imran Khan, 17, na, na, na, 0
+782, 1976-10-09, 3, 5, Pakistan, , Intikhab Alam, 111, 248, na, 9, 0
+783, 1976-10-23, 2, 5, Pakistan, c Wasim Bari, Imran Khan, 33, 78, na, 3, 0
+783, 1976-10-23, 3, 5, Pakistan, c sub (Wasim Raja), Intikhab Alam, 21, na, na, na, 0
+784, 1976-10-30, 2, 5, Pakistan, c Javed Miandad, Sarfraz Nawaz, 44, na, na, 4, 1
+784, 1976-10-30, 4, 5, Pakistan, c Majid Khan, Javed Miandad, 1, na, na, 0, 0
+785, 1976-11-10, 2, 4, India, c sub, Bedi, 42, na, na, na, 0
+785, 1976-11-10, 4, 4, India, c Gavaskar, Bedi, 0, na, na, 0, 0
+786, 1976-11-18, 2, 4, India, c Ghavri, Bedi, 54, na, na, 4, 2
+786, 1976-11-18, 4, 4, India, lbw, Venkataraghavan, 24, 18, na, 5, 0
+787, 1976-11-26, 2, 4, India, , Bedi, 40, 91, na, 3, 1
+787, 1976-11-26, 4, 4, India, run out, , 15, na, na, na, 0
+796, 1977-02-18, 2, 5, Australia, c Marsh, Walker, 66, 108, 95, 10, 0
+796, 1977-02-18, 4, 5, Australia, c McCosker, Walker, 39, 104, 77, 7, 0
+798, 1977-02-25, 1, 5, Australia, c Marsh, Walters, 1, 13, 9, 0, 0
+798, 1977-02-25, 3, 5, Australia, , Walker, 38, 126, 100, 3, 1
+817, 1978-02-10, 1, 4, England, , Willis, 9, 55, 42, 1, 0
+817, 1978-02-10, 3, 4, England, c Boycott, Botham, 6, 55, 37, 1, 0
+818, 1978-02-24, 2, 4, England, c Roope, Botham, 29, 189, 152, 3, 0
+818, 1978-02-24, 4, 4, England, not out, , 6, 33, 13, 1, 0
+820, 1978-03-04, 1, 4, England, c Randall, Botham, 50, 140, 133, 5, 0
+820, 1978-03-04, 3, 4, England, c Taylor, Edmonds, 17, 71, 82, 2, 0
+828, 1978-07-27, 1, 5, England, lbw, Willis, 34, 147, 130, 3, 0
+828, 1978-07-27, 3, 5, England, lbw, Botham, 7, 69, 59, 0, 0
+829, 1978-08-10, 2, 6, England, c Taylor, Botham, 5, 25, 18, 0, 0
+829, 1978-08-10, 3, 5, England, c Brearley, Edmonds, 7, 60, 53, 1, 0
+830, 1978-08-24, 1, 5, England, lbw, Botham, 68, 144, 145, 8, 0
+830, 1978-08-24, 3, 5, England, c Hendrick, Botham, 14, 58, 44, 3, 0
+844, 1979-02-02, 2, 4, Pakistan, c Javed Miandad, Sikander Bakht, 16, 86, na, na, 0
+844, 1979-02-02, 4, 5, Pakistan, c Sarfraz Nawaz, Wasim Raja, 6, na, na, na, 0
+847, 1979-02-16, 2, 5, Pakistan, c Javed Miandad, Imran Khan, 40, 84, na, 3, 2
+848, 1979-02-23, 1, 5, Pakistan, c Sarfraz Nawaz, Sikander Bakht, 3, na, na, 0, 0
+848, 1979-02-23, 3, 4, Pakistan, c Asif Iqbal, Sarfraz Nawaz, 71, 288, na, 8, 0
+887, 1980-11-28, 1, 6, Australia, c Chappell, Pascoe, 0, 7, 4, 0, 0
+887, 1980-11-28, 3, 6, Australia, c Wood, Lillee, 2, 7, 9, 0, 0
+889, 1980-12-12, 1, 6, Australia, c Hughes, Lillee, 43, 152, 112, 3, 0
+889, 1980-12-12, 3, 7, Australia, lbw, Higgs, 18, 85, 46, 1, 0
+891, 1980-12-26, 2, 5, Australia, lbw, Pascoe, 49, 149, 120, 4, 0
+891, 1980-12-26, 4, 6, Australia, not out, , 10, 73, 60, 0, 0

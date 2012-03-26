@@ -1,0 +1,103 @@
+
+Test # 198
+The Ashes, 1930, 5th Test
+England v Australia
+Kennington Oval, London
+16,18,19,20,21,22 August 1930 (timeless match)
+
+Result: Australia won by an innings and 39 runs
+Series: Australia wins the 5-match series 2-1
+
+Toss: England
+Umpires: J Hardstaff snr and WR Parry
+
+Close of play:
+ Day 1: England 316/5 (Sutcliffe 138*, Wyatt 39*)
+ Day 2: England 405, Australia 215/2 (Bradman 27*, Kippax 11*)
+ Day 3: Australia 403/3 (Bradman 130*, Jackson 43*)
+ Day 4: Australia 695, England 24/1 (Sutcliffe 8*, Whysall 6*)
+ Day 5: No play
+
+England 1st innings                                             R   M   B  4 6
+JB Hobbs              c Kippax           b Wall                47     161    0
+H Sutcliffe           c Oldfield         b Fairfax            161 403 391 10 0
+WW Whysall            lbw                b Wall                13      33    0
+KS Duleepsinhji       c Fairfax          b Grimmett            50  50  76  5 0
+WR Hammond                               b McCabe              13      43    0
+M Leyland                                b Grimmett             3  10  12  0 0
+*RES Wyatt            c Oldfield         b Fairfax             64 180 219    0
+MW Tate               st Oldfield        b Grimmett            10  20  26    0
+H Larwood             lbw                b Grimmett            19      35    0
++G Duckworth                             b Fairfax              3      19  0 0
+IAR Peebles           not out                                   3      13  0 0
+Extras                (lb 17, nb 2)                            19
+Total                 (all out, 171.2 overs)                  405
+
+FoW: 1-68 (Hobbs), 2-97 (Whysall), 3-162 (Duleepsinhji),
+     4-190 (Hammond), 5-197 (Leyland), 6-367 (Sutcliffe),
+     7-379 (Tate), 8-379 (Wyatt), 9-391 (Duckworth),
+     10-405 (Larwood).
+
+Bowling                      O      M      R      W
+Wall                        37      6     96      2
+Fairfax                     31      9     52      3
+Grimmett                    66.2   18    135      4
+McCabe                      22      4     49      1
+Hornibrook                  15      1     54      0
+
+Australia 1st innings                                           R   M   B  4 6
+*WM Woodfull          c Duckworth        b Peebles             54 195 196  3 0
+WH Ponsford                              b Peebles            110 159 203 11 0
+DG Bradman            c Duckworth        b Larwood            232 438 417 16 0
+AF Kippax             c Wyatt            b Peebles             28      64    0
+A Jackson             c Sutcliffe        b Wyatt               73 285 311    0
+SJ McCabe             c Duckworth        b Hammond             54      76  9 0
+AG Fairfax            not out                                  53 150 163    0
++WAS Oldfield         c Larwood          b Peebles             34      63    0
+CV Grimmett           lbw                b Peebles              6      27  0 0
+TW Wall               lbw                b Peebles              0       4  0 0
+PM Hornibrook         c Duckworth        b Tate                 7      13    0
+Extras                (b 22, lb 18, nb 4)                      44
+Total                 (all out, 256.1 overs)                  695
+
+FoW: 1-159 (Ponsford), 2-190 (Woodfull), 3-263 (Kippax),
+     4-506 (Jackson), 5-570 (Bradman), 6-594 (McCabe),
+     7-670 (Oldfield), 8-684 (Grimmett), 9-684 (Wall),
+     10-695 (Hornibrook).
+
+Bowling                      O      M      R      W
+Larwood                     48      6    132      1
+Tate                        65.1   12    153      1
+Peebles                     71      8    204      6
+Wyatt                       14      1     58      1
+Hammond                     42     12     70      1
+Leyland                     16      7     34      0
+
+England 2nd innings                                             R   M   B  4 6
+JB Hobbs                                 b Fairfax              9      19    0
+H Sutcliffe           c Fairfax          b Hornibrook          54     174    0
+WW Whysall            c Hornibrook       b Grimmett            10      38    0
+KS Duleepsinhji       c Kippax           b Hornibrook          46     138    0
+WR Hammond            c Fairfax          b Hornibrook          60 100 136  8 1
+M Leyland                                b Hornibrook          20  40  43    0
+*RES Wyatt                               b Hornibrook           7      19    0
+MW Tate               run out                                   0       2  0 0
+H Larwood             c McCabe           b Hornibrook           9      13    0
++G Duckworth                             b Hornibrook          15      12  3 0
+IAR Peebles           not out                                   0       2  0 0
+Extras                (b 16, lb 3, nb 2)                       21
+Total                 (all out, 99.2 overs)                   251
+
+FoW: 1-17 (Hobbs), 2-37 (Whysall), 3-118 (Sutcliffe),
+     4-135 (Duleepsinhji), 5-189 (Leyland), 6-207 (Wyatt),
+     7-208 (Tate), 8-220 (Larwood), 9-248 (Duckworth),
+     10-251 (Hammond).
+
+Bowling                      O      M      R      W
+Wall                        12      2     25      0
+Fairfax                     10      3     21      1
+Grimmett                    43     12     90      1
+McCabe                       3      1      2      0
+Hornibrook                  31.2    9     92      7
+
+<END>

@@ -1,0 +1,99 @@
+
+Test # 470
+England in New Zealand, 1958/59, 1st Test
+New Zealand v England
+Lancaster Park, Christchurch
+27,28 February, 2 March 1959 (4-day match)
+
+Result: England won by an innings and 99 runs
+Series: England leads the 2-match series 1-0
+
+Toss: England
+Umpires: J Cowie and EWT Tindill
+Test debuts: BA Bolton, RM Harris, KW Hough (New Zealand).
+
+Close of play:
+ Day 1: England 336/8 (Dexter 123*, Lock 8*)
+ Day 2: England 374, New Zealand 142, New Zealand 28/0 (Bolton 18*, Harris 9*)
+
+England 1st innings                                             R   M   B  4 6
+PE Richardson         c Petrie           b Blair                8  61  53  0 0
+W Watson              c Petrie           b Blair               10  30  25  1 0
+TW Graveney           lbw                b Hough               42  98 112  4 0
+*PBH May              c Hough            b Moir                71 144 143 10 0
+MC Cowdrey                               b Hough               15  30  23  3 0
+ER Dexter                                b Reid               141 237 292 24 0
+JB Mortimore                         c & b Moir                11  25  30  2 0
++R Swetman                               b Hough                9  33  38  0 0
+FS Trueman            lbw                b Reid                21  63  63  3 0
+GAR Lock                                 b Reid                15  34  66  1 0
+FH Tyson              not out                                   6  19   8  1 0
+Extras                (b 12, lb 13)                            25
+Total                 (all out, 142.1 overs)                  374
+
+FoW: 1-13 (Watson), 2-30 (Richardson), 3-98 (Graveney),
+     4-126 (Cowdrey), 5-171 (May), 6-197 (Mortimore),
+     7-224 (Swetman), 8-305 (Trueman), 9-367 (Lock),
+     10-374 (Dexter).
+
+Bowling                      O      M      R      W
+Blair                       31      5     89      2
+Hough                       39     11     96      3
+Moir                        36      9     83      2
+Reid                        18.1    9     34      3
+Sparling                    16      7     38      0
+Sutcliffe                    2      0      9      0
+
+New Zealand 1st innings                                         R   M   B  4 6
+BA Bolton             c Swetman          b Lock                33 190 109  1 0
+RM Harris             c Lock             b Tyson                6  46  28  1 0
+JW Guy                c Trueman          b Lock                 3  25  25  0 0
+*JR Reid                                 b Tyson               40  73  73  7 0
+B Sutcliffe           c Lock             b Tyson                0   1   2  0 0
+SN McGregor           c Lock             b Mortimore            0   8   5  0 0
+JT Sparling           st Swetman         b Lock                12  41  42  1 0
+AM Moir               c Graveney         b Lock                 0   1   2  0 0
++EC Petrie            lbw                b Trueman              8  53  57  0 0
+RW Blair              lbw                b Lock                 0   5   6  0 0
+KW Hough              not out                                  31  36  28  3 1
+Extras                (b 5, lb 4)                               9
+Total                 (all out, 72.5 overs)                   142
+
+FoW: 1-22 (Harris), 2-33 (Guy), 3-83 (Reid), 4-83 (Sutcliffe),
+     5-86 (McGregor), 6-101 (Bolton), 7-101 (Moir),
+     8-102 (Sparling), 9-102 (Blair), 10-142 (Petrie).
+
+Bowling                      O      M      R      W
+Trueman                     10.5    3     39      1
+Tyson                       14      4     23      3
+Lock                        26     15     31      5
+Mortimore                   22      8     40      1
+
+New Zealand 2nd innings (following on)                          R   M   B  4 6
+BA Bolton             c May              b Mortimore           26 124 119  2 0
+RM Harris                                b Trueman             13  59  49  2 0
+JW Guy                c Lock             b Tyson               56 143 127  9 0
+*JR Reid              c Cowdrey          b Lock                 1  11  11  0 0
+B Sutcliffe           c Trueman          b Lock                12  22  26  3 0
+SN McGregor           lbw                b Lock                 6  54  50  0 0
+JT Sparling                              b Tyson                0   6   5  0 0
+AM Moir               c Swetman          b Lock                 1   8   7  0 0
++EC Petrie            not out                                   2  23  23  0 0
+RW Blair              c Trueman          b Lock                 2   4   5  0 0
+KW Hough                                 b Lock                 7  12  14  0 0
+Extras                (b 1, lb 5, nb 1)                         7
+Total                 (all out, 72.2 overs)                   133
+
+FoW: 1-37 (Harris), 2-68 (Bolton), 3-79 (Reid),
+     4-101 (Sutcliffe), 5-117 (Guy), 6-119 (Sparling),
+     7-120 (Moir), 8-121 (McGregor), 9-123 (Blair),
+     10-133 (Hough).
+
+Bowling                      O      M      R      W
+Trueman                      8      2     20      1
+Tyson                       14      6     23      2
+Lock                        28.2   13     53      6
+Mortimore                   21     10     27      1
+Dexter                       1      0      3      0
+
+<END>

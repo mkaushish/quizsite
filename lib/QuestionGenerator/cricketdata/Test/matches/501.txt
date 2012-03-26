@@ -1,0 +1,124 @@
+
+Test # 501
+Pakistan in India, 1960/61, 3rd Test
+India v Pakistan
+Eden Gardens, Calcutta
+30,31 December 1960, 1,3,4 January 1961 (5-day match)
+
+Result: Match drawn
+Series: 5-match series level 0-0
+
+Toss: Pakistan
+Umpires: SK Ganguli and B Satyaji Rao
+
+Close of play:
+ Day 1: Pakistan 201/6 (Mushtaq Mohammad 28*, Intikhab Alam 3*)
+ Day 2: Pakistan 301, India 83/2 (Jaisimha 28*)
+ Day 3: India 147/6 (Borde 33*, Desai 0*)
+ Day 4: India 180, Pakistan 30/1 (Hanif Mohammad 9*, Saeed Ahmed 11*)
+
+Pakistan 1st innings                                            R   M   B  4 6
+Hanif Mohammad        c Baig             b Desai               56 210      9 0
++Imtiaz Ahmed                            b Surendranath         9            0
+Saeed Ahmed           c Nadkarni         b Surendranath        41            0
+Javed Burki           lbw                b Borde               48            0
+W Mathias             c Umrigar          b Desai                8            0
+Mushtaq Mohammad      c Jaisimha         b Borde               61 170      6 0
+Nasim-ul-Ghani                           b Surendranath         0          0 0
+Intikhab Alam         c Tamhane          b Surendranath        56          8 0
+*Fazal Mahmood        lbw                b Borde                8            0
+Mahmood Hussain                          b Borde                4            0
+Haseeb Ahsan          not out                                   1          0 0
+Extras                (b 6, lb 3)                               9
+Total                 (all out, 127.2 overs)                  301
+
+FoW: 1-12 (Imtiaz Ahmed), 2-84 (Saeed Ahmed),
+     3-135 (Hanif Mohammad), 4-164 (Mathias),
+     5-185 (Javed Burki), 6-186 (Nasim-ul-Ghani),
+     7-274 (Mushtaq Mohammad), 8-296 (Intikhab Alam),
+     9-296 (Fazal Mahmood), 10-301 (Mahmood Hussain).
+
+Bowling                      O      M      R      W
+Desai                       35      3    118      2
+Surendranath                46     19     93      4
+Umrigar                      6      2     15      0
+Gupte                       18      5     41      0
+Borde                       16.2    7     21      4
+Nadkarni                     6      5      4      0
+
+India 1st innings                                               R   M   B  4 6
+*NJ Contractor                           b Intikhab Alam       25            0
+ML Jaisimha           c Mathias          b Mahmood Hussain     28            0
+AA Baig                                  b Intikhab Alam       19            0
+PR Umrigar            c Imtiaz Ahmed     b Mahmood Hussain      1          0 0
+VL Manjrekar                             b Fazal Mahmood       29            0
+CG Borde              c Imtiaz Ahmed     b Fazal Mahmood       44 200      6 0
+RG Nadkarni           c Imtiaz Ahmed     b Fazal Mahmood        1          0 0
+RB Desai                                 b Haseeb Ahsan        14            0
++NS Tamhane           c Intikhab Alam    b Fazal Mahmood        0          0 0
+Surendranath          not out                                   5            0
+SP Gupte                                 b Fazal Mahmood        0          0 0
+Extras                (b 10, lb 3, nb 1)                       14
+Total                 (all out, 99.3 overs)                   180
+
+FoW: 1-59 (Contractor), 2-83 (Baig), 3-83 (Jaisimha),
+     4-85 (Umrigar), 5-145 (Manjrekar), 6-147 (Nadkarni),
+     7-174 (Borde), 8-175 (Tamhane), 9-180 (Desai),
+     10-180 (Gupte).
+
+Bowling                      O      M      R      W
+Mahmood Hussain             31     12     56      2
+Fazal Mahmood               25.3   12     26      5
+Intikhab Alam               24     11     35      2
+Nasim-ul-Ghani              12      5     32      0
+Haseeb Ahsan                 7      1     17      1
+
+Pakistan 2nd innings                                            R   M   B  4 6
+Hanif Mohammad        not out                                  63            0
++Imtiaz Ahmed                            b Desai                9            0
+Saeed Ahmed           lbw                b Surendranath        13            0
+Javed Burki           run out                                  42  65      5 0
+Intikhab Alam         not out                                  11            0
+Extras                (b 3, lb 5)                               8
+Total                 (3 wickets dec, 49 overs)               146
+
+DNB: W Mathias, Mushtaq Mohammad, Nasim-ul-Ghani, *Fazal Mahmood,
+     Mahmood Hussain, Haseeb Ahsan.
+
+FoW: 1-15 (Imtiaz Ahmed), 2-34 (Saeed Ahmed),
+     3-116 (Javed Burki).
+
+Bowling                      O      M      R      W
+Desai                       16      4     37      1
+Surendranath                18      2     51      1
+Umrigar                      7      2     14      0
+Gupte                        1      1      0      0
+Nadkarni                     7      0     36      0
+
+India 2nd innings (target: 268 runs)                            R   M   B  4 6
+*NJ Contractor        c Fazal Mahmood    b Haseeb Ahsan        12  93        0
+ML Jaisimha           c Mathias          b Intikhab Alam       26            0
+AA Baig                                  b Haseeb Ahsan         1          0 0
+VL Manjrekar          not out                                  45          5 0
+PR Umrigar                               b Intikhab Alam        4            0
+CG Borde              not out                                  23          4 0
+Extras                (b 3, lb 9, nb 4)                        16
+Total                 (4 wickets, 57 overs)                   127
+
+DNB: RG Nadkarni, RB Desai, +NS Tamhane, Surendranath, SP Gupte.
+
+FoW: 1-47 (Jaisimha), 2-47 (Contractor), 3-48 (Baig),
+     4-65 (Umrigar).
+
+Bowling                      O      M      R      W
+Mahmood Hussain              8      3      9      0
+Fazal Mahmood               12      2     19      0
+Intikhab Alam               15      2     33      2
+Nasim-ul-Ghani               2      1      5      0
+Haseeb Ahsan                14      6     25      2
+Saeed Ahmed                  1      0      2      0
+Mushtaq Mohammad             3      1      9      0
+Hanif Mohammad               1      0      6      0
+Javed Burki                  1      0      3      0
+
+<END>

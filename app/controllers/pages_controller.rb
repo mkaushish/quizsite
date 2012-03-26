@@ -51,19 +51,38 @@ class PagesController < ApplicationController
     @container_height = 475
   end
 
+  def exampleprobs
+    @title = "Examples"
+    @nav_selected = "features"
+
+    unless params["problem_id"].nil?
+      @lastproblem = Problem.find(params["problem_id"])
+      @lastproblem.load_problem
+      @correct = @lastproblem.correct?(params);
+    end
+
+    @problem = Problem.new
+    @problem.my_initialize(Chapter1::EstimateArithmetic);
+    @problem.save
+    @container_height = 475
+  end
+
   def numberline
     @title = "Number Line"
     @container_height = 650
+    @nav_selected = "features"
   end
 
   def graph
     @title = "Graph"
     @container_height = 750 
+    @nav_selected = "features"
   end
 
   def draw
     @title = "Draw"
     @container_height = 525
+    @nav_selected = "features"
     # center at 275,200
     x = 0
     y = 0

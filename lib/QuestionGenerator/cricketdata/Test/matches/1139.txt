@@ -1,0 +1,116 @@
+
+Test # 1139
+India in New Zealand, 1989/90, 3rd Test
+New Zealand v India
+Eden Park, Auckland
+22,23,24,25,26 February 1990 (5-day match)
+
+Result: Match drawn
+Series: New Zealand wins the 3-match series 1-0
+
+Toss: India
+Umpires: BL Aldridge and RS Dunne
+Test debuts: Gursharan Singh (India); SA Thomson (New Zealand).
+Player of the match: IDS Smith
+
+Close of play:
+ Day 1: New Zealand 387/9 (Smith 169*, Morrison 0*)
+ Day 2: New Zealand 391, India 316/7 (Azharuddin 130*, More 6*)
+ Day 3: India 482, New Zealand 135/1 (Wright 58*, Jones 62*)
+ Day 4: New Zealand 416/5 (Jones 144*, Thomson 8*)
+
+New Zealand 1st innings                                         R   M   B  4 6
+TJ Franklin           c Tendulkar        b Wassan               4  55  37  0 0
+*JG Wright            c Gursharan Singh  b Kapil Dev            3  20  14  0 0
+AH Jones              c More             b Prabhakar           19  29  26  2 1
+MD Crowe              c More             b Wassan              24  52  33  4 0
+MJ Greatbatch                            b Wassan               4  35  22  0 0
+KR Rutherford         c Prabhakar        b Wassan              20  42  35  1 0
+SA Thomson            c More             b Kapil Dev           22  67  49  2 1
+RJ Hadlee                                b Hirwani             87 134 108 14 0
++IDS Smith            lbw                b Prabhakar          173 237 136 23 3
+MC Snedden            c More             b Prabhakar           22 116  90  1 0
+DK Morrison           not out                                   0  22  15  0 0
+Extras                (lb 9, nb 4)                             13
+Total                 (all out, 92.2 overs)                   391
+
+FoW: 1-8 (Wright), 2-29 (Jones), 3-29 (Franklin),
+     4-51 (Greatbatch), 5-64 (Crowe), 6-85 (Rutherford),
+     7-131 (Thomson), 8-234 (Hadlee), 9-370 (Snedden),
+     10-391 (Smith).
+
+Bowling                      O      M      R      W
+Kapil Dev                   29.2    6     85      2
+Prabhakar                   29.2    3    123      3
+Wassan                      16.4    1    108      4
+Hirwani                     17      1     66      1
+
+India 1st innings                                               R   M   B  4 6
+WV Raman              c Franklin         b Hadlee               8  12  12  2 0
+M Prabhakar           lbw                b Snedden             36  70  47  7 0
+SV Manjrekar                             b Morrison            16  44  31  2 0
+DB Vengsarkar         c Smith            b Morrison            47 162 115  5 0
+*M Azharuddin         c Rutherford       b Thomson            192 421 259 26 0
+SR Tendulkar          c Smith            b Morrison             5  15  13  1 0
+Gursharan Singh                      c & b Thomson             18  50  38  2 0
+N Kapil Dev           c Jones            b Hadlee              22  30  19  3 1
++KS More              lbw                b Morrison            50  83  58  8 0
+AS Wassan                                b Morrison            53  83  58  7 0
+ND Hirwani            not out                                   0   5   3  0 0
+Extras                (b 1, lb 11, w 1, nb 22)                 35
+Total                 (all out, 104.3 overs)                  482
+
+FoW: 1-15 (Raman), 2-65 (Manjrekar), 3-71 (Prabhakar),
+     4-215 (Vengsarkar), 5-223 (Tendulkar),
+     6-263 (Gursharan Singh), 7-308 (Kapil Dev), 8-396 (More),
+     9-482 (Wassan), 10-482 (Azharuddin).
+
+Bowling                      O      M      R      W
+Hadlee                      30      8    123      2
+Morrison                    30      3    145      5
+Snedden                     26      4    110      1
+Thomson                     18.3    3     92      2
+
+New Zealand 2nd innings                                         R   M   B  4 6
+TJ Franklin           lbw                b Prabhakar            2  25  19  0 0
+*JG Wright            c Wassan           b Hirwani             74 277 195 10 1
+AH Jones              not out                                 170 636 446 15 2
+MD Crowe              lbw                b Hirwani            113 227 174 17 0
+MJ Greatbatch         c Gursharan Singh  b Wassan              43  67  57  4 1
+KR Rutherford         c More             b Hirwani              8  22  22  2 0
+SA Thomson            not out                                  43  65  51  8 0
+Extras                (b 4, lb 14, nb 12)                      30
+Total                 (5 wickets dec, 159 overs)              483
+
+DNB: RJ Hadlee, +IDS Smith, MC Snedden, DK Morrison.
+
+FoW: 1-7 (Franklin), 2-155 (Wright), 3-334 (Crowe),
+     4-396 (Greatbatch), 5-406 (Rutherford).
+
+Bowling                      O      M      R      W
+Kapil Dev                   31      4    101      0
+Prabhakar                   38      6    118      1
+Wassan                      25      5     80      1
+Hirwani                     46     11    143      3
+Raman                       19     10     23      0
+
+India 2nd innings (target: 393 runs)                            R   M   B  4 6
+WV Raman              not out                                  72 174 142  8 0
+M Prabhakar           not out                                  63 174 134  6 0
+Extras                (lb 9, nb 5)                             14
+Total                 (0 wickets, 45 overs)                   149
+
+DNB: SV Manjrekar, DB Vengsarkar, *M Azharuddin, SR Tendulkar,
+     Gursharan Singh, N Kapil Dev, +KS More, AS Wassan,
+     ND Hirwani.
+
+Bowling                      O      M      R      W
+Hadlee                       4      1      9      0
+Morrison                     7      1     34      0
+Snedden                     12      1     29      0
+Thomson                      9      1     30      0
+Jones                        9      1     28      0
+Rutherford                   3      0     10      0
+Greatbatch                   1      1      0      0
+
+<END>

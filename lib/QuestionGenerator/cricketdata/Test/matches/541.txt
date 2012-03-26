@@ -1,0 +1,105 @@
+
+Test # 541
+England in New Zealand, 1962/63, 2nd Test
+New Zealand v England
+Basin Reserve, Wellington
+1,2,4 March 1963 (4-day match)
+
+Result: England won by an innings and 47 runs
+Series: England leads the 3-match series 2-0
+
+Toss: England
+Umpires: DP Dumbleton and WT Martin
+Test debuts: BD Morrison, MJF Shrimpton (New Zealand).
+
+Close of play:
+ Day 1: New Zealand 194, England 74/1 (Illingworth 43*, Barrington 29*)
+ Day 2: England 410/8 (Cowdrey 114*, Smith 61*)
+
+New Zealand 1st innings                                         R   M   B  4 6
+GT Dowling            c Smith            b Trueman             12  37      2 0
+WR Playle             c Smith            b Knight              23  94      2 0
+PT Barton             c Cowdrey          b Trueman              0   1   2  0 0
+*JR Reid              c Smith            b Knight               0  18      0 0
+BW Sinclair                              b Trueman              4  10      1 0
+MJF Shrimpton         lbw                b Knight              28  68      4 0
++AE Dick              c Sheppard         b Trueman              7  21      0 0
+BW Yuile              c Illingworth      b Titmus              13  58      2 0
+RW Blair              not out                                  64 111      8 0
+BD Morrison           run out                                  10  27      2 0
+FJ Cameron            lbw                b Barrington          12  50      0 0
+Extras                (b 13, lb 5, nb 3)                       21
+Total                 (all out, 76.3 overs)                   194
+
+FoW: 1-32 (Dowling), 2-32 (Barton), 3-35 (Reid), 4-40 (Sinclair),
+     5-61 (Playle), 6-74 (Dick), 7-96 (Shrimpton), 8-129 (Yuile),
+     9-150 (Morrison), 10-194 (Cameron).
+
+Bowling                      O      M      R      W
+Trueman                     20      5     46      4
+Larter                      14      2     52      0
+Knight                      21      8     32      3
+Titmus                      18      3     40      1
+Barrington                   2.3    1      1      1
+Dexter                       1      0      2      0
+
+England 1st innings                                             R   M   B  4 6
+Rev.DS Sheppard                          b Blair                0   1   2  0 0
+R Illingworth         c Morrison         b Blair               46  96      6 0
+KF Barrington         c Dick             b Reid                76 197      8 1
+*ER Dexter                               b Morrison            31  57      5 0
+PH Parfitt            c Dick             b Morrison             0   1   2  0 0
+BR Knight             c Dick             b Cameron             31  71      3 0
+FJ Titmus             run out                                  33 101      2 0
+MC Cowdrey            not out                                 128 238     10 0
+FS Trueman                               b Cameron              3  14      0 0
++AC Smith             not out                                  69 151     11 0
+Extras                (b 3, lb 6, nb 2)                        11
+Total                 (8 wickets dec, 149 overs)              428
+
+DNB: JDF Larter.
+
+FoW: 1-0 (Sheppard), 2-77 (Illingworth), 3-125 (Dexter),
+     4-125 (Parfitt), 5-173 (Barrington), 6-197 (Knight),
+     7-258 (Titmus), 8-265 (Trueman).
+
+Bowling                      O      M      R      W
+Blair                       33     11     81      2
+Morrison                    31      5    129      2
+Cameron                     43     16     98      2
+Reid                        32      8     73      1
+Yuile                       10      1     36      0
+
+New Zealand 2nd innings                                         R   M   B  4 6
+GT Dowling            c Knight           b Trueman              2          0 0
+WR Playle                            c & b Illingworth         65 202      4 0
+PT Barton             c Barrington       b Knight               3          0 0
+*JR Reid              c Barrington       b Titmus               9          1 0
+BW Sinclair                          c & b Barrington          36 117      3 0
+MJF Shrimpton         c Parfitt          b Barrington          10  55      1 0
++AE Dick              not out                                  38  78      5 0
+BW Yuile                                 b Titmus               0   2      0 0
+RW Blair              c Larter           b Titmus               5  12      1 0
+BD Morrison           c Larter           b Titmus               0   4      0 0
+FJ Cameron            lbw                b Barrington           0  10      0 0
+Extras                (b 13, lb 4, nb 2)                       19
+Total                 (all out, 98 overs)                     187
+
+FoW: 1-15 (Dowling), 2-18 (Barton), 3-41 (Reid),
+     4-122 (Sinclair), 5-126 (Playle), 6-158 (Shrimpton),
+     7-159 (Yuile), 8-171 (Blair), 9-179 (Morrison),
+     10-187 (Cameron).
+
+Bowling                      O      M      R      W
+Trueman                     18      7     27      1
+Larter                       7      1     18      0
+Knight                       4      1      7      1
+Titmus                      31     15     50      4
+Barrington                  11      3     32      3
+Illingworth                 27     14     34      1
+
+*** Eng 1st innings
+*** Cowdrey/Smith unbeaten partnership of 163 (in 161 minutes) for the ninth
+    wicket is a new English record, and was the world record (until 1967) .
+
+<END>

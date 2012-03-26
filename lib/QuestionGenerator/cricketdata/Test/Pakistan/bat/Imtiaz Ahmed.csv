@@ -1,0 +1,73 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+355, 1952-10-16, 2, 4, India, lbw, Mankad, 0, na, na, 0, 0
+355, 1952-10-16, 3, 4, India, lbw, Ghulam Ahmed, 41, na, na, na, 0
+356, 1952-10-23, 2, 4, India, lbw, Amarnath, 0, na, na, 0, 0
+357, 1952-11-13, 1, 4, India, , Amarnath, 0, na, na, 0, 0
+357, 1952-11-13, 3, 4, India, c Adhikari, Gupte, 28, na, na, na, 0
+358, 1952-11-28, 1, 4, India, c Maka, Divecha, 6, na, na, na, 0
+360, 1952-12-12, 1, 4, India, c Gaekwad, Phadkar, 57, na, na, na, 0
+360, 1952-12-12, 3, 4, India, , Mankad, 13, na, na, na, 0
+387, 1954-06-10, 1, 5, England, , Laker, 12, na, na, na, 0
+388, 1954-07-01, 1, 5, England, , Appleyard, 11, 16, na, 2, 0
+388, 1954-07-01, 3, 5, England, lbw, Wardle, 33, 123, na, 3, 0
+389, 1954-07-22, 2, 2, England, c McConnon, Wardle, 13, 50, na, 2, 0
+390, 1954-08-12, 1, 5, England, c Evans, Tyson, 23, 24, na, 4, 0
+390, 1954-08-12, 3, 5, England, c Wardle, Tyson, 12, 77, na, 1, 0
+394, 1955-01-01, 1, 6, India, , Phadkar, 54, na, na, na, 0
+394, 1955-01-01, 3, 5, India, c Umrigar, Gupte, 5, na, na, na, 0
+395, 1955-01-15, 2, 5, India, st Tamhane, Gupte, 3, na, na, 0, 0
+397, 1955-01-29, 1, 7, India, run out, , 55, na, na, na, 0
+397, 1955-01-29, 3, 5, India, c Tamhane, Gupte, 9, na, na, na, 0
+398, 1955-02-13, 1, 5, India, , Phadkar, 0, na, na, 0, 0
+398, 1955-02-13, 3, 6, India, c Punjabi, Mankad, 69, na, na, na, 0
+400, 1955-02-26, 1, 5, India, c Ramchand, Patel, 37, na, na, na, 0
+400, 1955-02-26, 3, 5, India, run out, , 1, na, na, 0, 0
+413, 1955-10-13, 2, 5, New Zealand, c McMahon, MacGibbon, 64, 150, na, 4, 0
+414, 1955-10-26, 2, 8, New Zealand, , Moir, 209, 380, na, 28, 0
+414, 1955-10-26, 4, 3, New Zealand, c Cave, Reid, 0, na, na, 0, 0
+415, 1955-11-07, 2, 5, New Zealand, , Cave, 11, na, na, na, 0
+430, 1956-10-11, 2, 4, Australia, c McDonald, Benaud, 15, na, na, na, 0
+446, 1958-01-17, 2, 2, West Indies, lbw, Gilchrist, 20, na, na, na, 0
+446, 1958-01-17, 3, 2, West Indies, lbw, Gilchrist, 91, na, na, na, 0
+448, 1958-02-05, 2, 3, West Indies, lbw, Smith, 39, na, na, na, 0
+448, 1958-02-05, 4, 4, West Indies, , Sobers, 18, na, na, na, 0
+450, 1958-02-26, 1, 2, West Indies, c Alexander, Gilchrist, 122, na, na, 14, 0
+450, 1958-02-26, 3, 2, West Indies, lbw, Dewdney, 0, na, na, 0, 0
+452, 1958-03-13, 1, 2, West Indies, c Walcott, Smith, 32, na, na, na, 0
+452, 1958-03-13, 3, 2, West Indies, , Gibbs, 7, na, na, na, 0
+453, 1958-03-26, 2, 1, West Indies, , Taylor, 15, na, na, na, 0
+469, 1959-02-20, 2, 4, West Indies, lbw, Smith, 31, 110, na, 4, 0
+471, 1959-03-06, 1, 4, West Indies, , Ramadhin, 3, na, na, 0, 0
+471, 1959-03-06, 3, 4, West Indies, c Smith, Atkinson, 4, na, na, na, 0
+473, 1959-03-26, 2, 2, West Indies, run out, , 40, 100, na, 5, 0
+473, 1959-03-26, 3, 2, West Indies, c Gibbs, Atkinson, 1, na, na, 0, 0
+479, 1959-11-13, 1, 7, Australia, , Davidson, 13, na, na, na, 0
+479, 1959-11-13, 3, 7, Australia, , Mackay, 4, na, na, na, 0
+480, 1959-11-21, 1, 2, Australia, , Davidson, 18, na, na, na, 0
+480, 1959-11-21, 3, 2, Australia, c O'Neill, Kline, 54, na, na, na, 0
+481, 1959-12-04, 1, 2, Australia, , Davidson, 18, na, na, na, 0
+481, 1959-12-04, 3, 2, Australia, c Harvey, Davidson, 9, na, na, na, 0
+497, 1960-12-02, 1, 2, India, , Desai, 19, na, na, na, 0
+497, 1960-12-02, 3, 2, India, c Roy, Nadkarni, 69, 200, na, 4, 0
+499, 1960-12-16, 1, 2, India, , Gupte, 20, na, na, na, 0
+499, 1960-12-16, 3, 2, India, c Contractor, Muddiah, 16, na, na, na, 0
+501, 1961-12-30, 1, 2, India, , Surendranath, 9, na, na, na, 0
+501, 1961-12-30, 3, 2, India, , Desai, 9, na, na, na, 0
+503, 1961-01-13, 1, 2, India, , Desai, 135, na, na, na, 0
+503, 1961-01-13, 3, 2, India, not out, , 20, na, na, na, 0
+505, 1961-02-08, 2, 2, India, , Kumar, 25, na, na, na, 0
+505, 1961-02-08, 3, 2, India, lbw, Nadkarni, 53, na, na, na, 0
+512, 1961-10-21, 1, 2, England, c Murray, White, 4, na, na, 0, 0
+512, 1961-10-21, 3, 2, England, , Dexter, 12, na, na, 1, 0
+521, 1962-01-19, 1, 7, England, , Lock, 0, 5, na, 0, 0
+521, 1962-01-19, 3, 6, England, hit wicket, Allen, 0, 3, na, 0, 0
+522, 1962-02-02, 1, 2, England, , White, 0, 4, na, 0, 0
+522, 1962-02-02, 3, 5, England, c Smith, Dexter, 86, 201, na, 9, 0
+530, 1962-05-31, 2, 6, England, , Trueman, 39, na, na, na, 0
+530, 1962-05-31, 3, 3, England, c Graveney, Lock, 46, 74, na, 5, 1
+531, 1962-06-21, 1, 2, England, , Coldwell, 1, na, na, 0, 0
+531, 1962-06-21, 3, 7, England, c Trueman, Coldwell, 33, na, na, na, 1
+533, 1962-07-26, 2, 6, England, lbw, Trueman, 15, 29, na, 1, 1
+533, 1962-07-26, 3, 6, England, lbw, Statham, 1, 17, na, 0, 0
+534, 1962-08-16, 2, 2, England, c Murray, Knight, 49, 132, na, 5, 0
+534, 1962-08-16, 3, 2, England, c Cowdrey, Larter, 98, 216, na, 10, 0

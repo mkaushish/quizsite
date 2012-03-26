@@ -1,0 +1,10 @@
+--2012-01-03 15:04:23--  http://stats.espncricinfo.com/ci/engine/match/62550.txt
+Resolving stats.espncricinfo.com... 80.168.92.140
+Connecting to stats.espncricinfo.com|80.168.92.140|:80... connected.
+HTTP request sent, awaiting response... Read error (Connection timed out) in headers.
+Retrying.
+
+--2012-01-03 15:19:50--  (try: 2)  http://stats.espncricinfo.com/ci/engine/match/62550.txt
+Connecting to stats.espncricinfo.com|80.168.92.140|:80... failed: Network is unreachable.
+Resolving stats.espncricinfo.com... failed: Name or service not known.
+wget: unable to resolve host address `stats.espncricinfo.com'

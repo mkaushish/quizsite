@@ -1,0 +1,127 @@
+
+Test # 255
+The Ashes, 1936/37, 1st Test
+Australia v England
+Brisbane Cricket Ground, Woolloongabba, Brisbane
+4,5,7,8,9 December 1936 (timeless match)
+
+Result: England won by 322 runs
+Series: England leads the 5-match series 1-0
+
+Toss: England
+Umpires: GE Borwick and JD Scott
+Balls per over: 8
+Test debuts: CL Badcock, RH Robinson, MW Sievers, FA Ward (Australia).
+
+Close of play:
+ Day 1: England 263/6 (Hardstaff 27*, Robins 6*)
+ Day 2: England 358, Australia 151/2 (Fingleton 61*, McCabe 37*)
+ Day 3: Australia 234, England 75/2 (Fagg 24*, Hammond 12*)
+ Day 4: England 256, Australia 3/1 (Badcock 0*, Sievers 2*)
+
+England 1st innings                                             R   M   B  4 6
+TS Worthington        c Oldfield         b McCormick            0   1   1  0 0
+CJ Barnett            c Oldfield         b O'Reilly            69 145 153 11 1
+AE Fagg               c Oldfield         b McCormick            4  23  28  0 0
+WR Hammond            c Robinson         b McCormick            0   1   1  0 0
+M Leyland                                b Ward               126 251 290 11 0
++LEG Ames             c Chipperfield     b Ward                24  49  66  3 0
+J Hardstaff jnr       c McCabe           b O'Reilly            43 125 148  6 0
+RWV Robins            c sub              b O'Reilly            38  40  51  7 0
+*GOB Allen            c McCabe           b O'Reilly            35  75  98  4 1
+H Verity              c Sievers          b O'Reilly             7  63  67  1 0
+W Voce                not out                                   4   7  11  0 0
+Extras                (b 1, lb 3, nb 4)                         8
+Total                 (all out, 113.6 overs)                  358
+
+FoW: 1-0 (Worthington), 2-20 (Fagg), 3-20 (Hammond),
+     4-119 (Barnett), 5-162 (Ames), 6-252 (Leyland),
+     7-311 (Hardstaff), 8-311 (Robins), 9-343 (Verity),
+     10-358 (Allen).
+
+Bowling                      O      M      R      W
+McCormick                    8      1     26      3
+Sievers                     16      5     42      0
+O'Reilly                    40.6   13    102      5
+Ward                        36      3    138      2
+Chipperfield                11      3     32      0
+McCabe                       2      0     10      0
+
+Australia 1st innings                                           R   M   B  4 6
+JHW Fingleton                            b Verity             100 301 310  6 0
+CL Badcock                               b Allen                8  11  10  1 0
+*DG Bradman           c Worthington      b Voce                38  71  57  5 0
+SJ McCabe             c Barnett          b Voce                51 116 128  6 0
+RH Robinson           c Hammond          b Voce                 2   5   7  0 0
+AG Chipperfield       c Ames             b Voce                 7  53  61  0 0
+MW Sievers                               b Allen                8  55  71  0 0
++WAS Oldfield         c Ames             b Voce                 6  30  34  0 0
+WJ O'Reilly           c Leyland          b Voce                 3  13   6  0 0
+FA Ward               c Hardstaff        b Allen                0   5   3  0 0
+EL McCormick          not out                                   1   2   4  0 0
+Extras                (b 4, lb 1, nb 5)                        10
+Total                 (all out, 85.6 overs)                   234
+
+FoW: 1-13 (Badcock), 2-89 (Bradman), 3-166 (McCabe),
+     4-176 (Robinson), 5-202 (Chipperfield), 6-220 (Fingleton),
+     7-229 (Sievers), 8-231 (Oldfield), 9-231 (Ward),
+     10-234 (O'Reilly).
+
+Bowling                      O      M      R      W
+Allen                       16      2     71      3
+Voce                        20.6    5     41      6
+Hammond                      4      0     12      0
+Verity                      28     11     52      1
+Robins                      17      0     48      0
+
+England 2nd innings                                             R   M   B  4 6
+TS Worthington        st Oldfield        b McCabe               8  19  23  1 0
+CJ Barnett            c Badcock          b Ward                26  75  95  4 0
+AE Fagg               st Oldfield        b Ward                27 108 146  1 0
+WR Hammond            hit wicket         b Ward                25  95 119  5 0
+M Leyland             c Bradman          b Ward                33 107 141  1 0
++LEG Ames                                b Sievers              9  23  21  2 0
+*GOB Allen            c Fingleton        b Sievers             68 194 205  8 0
+J Hardstaff jnr       st Oldfield        b Ward                20  64  78  3 0
+RWV Robins            c Chipperfield     b Ward                 0   6   6  0 0
+H Verity              lbw                b Sievers             19  58  91  2 0
+W Voce                not out                                   2  20  11  0 0
+Extras                (b 14, lb 4, nb 1)                       19
+Total                 (all out, 116.6 overs)                  256
+
+FoW: 1-17 (Worthington), 2-50 (Barnett), 3-82 (Fagg),
+     4-105 (Hammond), 5-122 (Ames), 6-144 (Leyland),
+     7-205 (Hardstaff), 8-205 (Robins), 9-247 (Verity),
+     10-256 (Allen).
+
+Bowling                      O      M      R      W
+Sievers                     19.6    9     29      3
+O'Reilly                    35     15     59      0
+Ward                        46     16    102      6
+Chipperfield                10      2     33      0
+McCabe                       6      1     14      1
+
+Australia 2nd innings (target: 381 runs)                        R   M   B  4 6
+JHW Fingleton                            b Voce                 0   1   1  0 0
+CL Badcock            c Fagg             b Allen                0  13   5  0 0
+MW Sievers            c Voce             b Allen                5  19  22  0 0
++WAS Oldfield                            b Voce                10  35  28  2 0
+*DG Bradman           c Fagg             b Allen                0   1   2  0 0
+SJ McCabe             c Leyland          b Allen                7   6   8  1 0
+RH Robinson           c Hammond          b Voce                 3   4   3  0 0
+AG Chipperfield       not out                                  26  31  18  4 0
+WJ O'Reilly                              b Allen                0   4   5  0 0
+FA Ward                                  b Voce                 1  13  15  0 0
+EL McCormick          absent hurt                               -
+Extras                (nb 6)                                    6
+Total                 (all out, 12.3 overs)                    58
+
+FoW: 1-0 (Fingleton), 2-3 (Badcock), 3-7 (Sievers),
+     4-7 (Bradman), 5-16 (McCabe), 6-20 (Robinson),
+     7-35 (Oldfield), 8-41 (O'Reilly), 9-58 (Ward).
+
+Bowling                      O      M      R      W
+Voce                         6.3    0     16      4
+Allen                        6      0     36      5
+
+<END>

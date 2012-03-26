@@ -1,0 +1,106 @@
+
+Test # 608
+The Wisden Trophy, 1966, 4th Test
+England v West Indies
+Headingley, Leeds
+4,5,6,8 August 1966 (5-day match)
+
+Result: West Indies won by an innings and 55 runs
+Series: West Indies leads the 5-match series 3-0
+
+Toss: West Indies
+Umpires: JS Buller and CS Elliott
+Batsman of the match: GS Sobers
+Bowler of the match: GS Sobers
+
+Close of play:
+ Day 1: West Indies 137/3 (Butcher 26*, Nurse 8*)
+ Day 2: West Indies 500/9d, England 4/0 (Boycott 4*, Barber 0*)
+ Day 3: England 240, England 40/1 (Barber 22*, D'Oliveira 0*)
+
+West Indies 1st innings                                         R   M   B  4 6
+CC Hunte              lbw                b Snow                48 159 130  7 0
+PD Lashley                               b Higgs                9  44  44  1 0
+RB Kanhai             c Graveney         b Underwood           45  81  94  7 0
+BF Butcher            c Parks            b Higgs               38  77  66  7 0
+SM Nurse              c Titmus           b Snow               137 341 323 14 2
+*GS Sobers                               b Barber             174 240 260 24 0
+DAJ Holford                              b Higgs               24  39  45  1 0
+CC Griffith                              b Higgs                0   1   2  0 0
++JL Hendriks          not out                                   9  27  18  1 0
+WW Hall                                  b Snow                 1   5   3  0 0
+LR Gibbs              not out                                   2   7   7  0 0
+Extras                (b 1, lb 12)                             13
+Total                 (9 wickets dec, 164 overs)              500
+
+FoW: 1-37 (Lashley), 2-102 (Kanhai), 3-122 (Hunte),
+     4-154 (Butcher), 5-419 (Sobers), 6-467 (Holford),
+     7-467 (Griffith), 8-489 (Nurse), 9-491 (Hall).
+
+Bowling                      O      M      R      W
+Snow                        42      6    146      3
+Higgs                       43     11     94      4
+D'Oliveira                  19      3     52      0
+Titmus                      22      7     59      0
+Underwood                   24      9     81      1
+Barber                      14      2     55      1
+
+England 1st innings                                             R   M   B  4 6
+G Boycott             c Holford          b Hall                12  38  29  1 0
+RW Barber             c Hendriks         b Griffith             6  23  15  1 0
+C Milburn             not out                                  29  65  54  6 0
+TW Graveney                              b Hall                 8  56  36  0 0
+*MC Cowdrey                              b Hall                17  22  17  3 0
+BL D'Oliveira         c Hall             b Griffith            88 137 141  8 4
++JM Parks             lbw                b Sobers               2  11   9  0 0
+FJ Titmus             c Hendriks         b Sobers               6  19  23  1 0
+K Higgs               c Nurse            b Sobers              49 128 139  5 2
+DL Underwood          c Gibbs            b Sobers               0   3   5  0 0
+JA Snow               c Holford          b Sobers               0   1   1  0 0
+Extras                (b 12, lb 11)                            23
+Total                 (all out, 78.3 overs)                   240
+
+FoW: 1-10 (Barber), 2-18 (Boycott), 3-42 (Cowdrey),
+     4-49 (Graveney), 5-63 (Parks), 6-83 (Titmus),
+     7-179 (D'Oliveira), 8-238 (Higgs), 9-240 (Underwood),
+     10-240 (Snow).
+
+Bowling                      O      M      R      W
+Hall                        17      5     47      3
+Griffith                    12      2     37      2
+Sobers                      19.3    4     41      5
+Gibbs                       20      5     49      0
+Holford                     10      3     43      0
+
+England 2nd innings (following on)                              R   M   B  4 6
+G Boycott             c Hendriks         b Lashley             14  33  26  1 0
+RW Barber                                b Sobers              55 116 102  7 0
+BL D'Oliveira         c Butcher          b Sobers               7  67  53  1 0
+TW Graveney                              b Gibbs               19  65  46  1 0
+*MC Cowdrey           lbw                b Gibbs               12  29  28  2 0
++JM Parks             c Nurse            b Gibbs               16  31  44  1 0
+C Milburn                                b Gibbs               42  35  46  7 1
+FJ Titmus                                b Gibbs               22  43  51  2 0
+K Higgs               c Hunte            b Sobers               7  27  29  1 0
+DL Underwood          c Kanhai           b Gibbs                0   1   2  0 0
+JA Snow               not out                                   0   1   2  0 0
+Extras                (b 8, lb 1, nb 2)                        11
+Total                 (all out, 71.1 overs)                   205
+
+FoW: 1-28 (Boycott), 2-70 (D'Oliveira), 3-84 (Barber),
+     4-109 (Cowdrey), 5-128 (Graveney), 6-133 (Parks),
+     7-184 (Milburn), 8-205 (Titmus), 9-205 (Underwood),
+     10-205 (Higgs).
+
+Bowling                      O      M      R      W
+Hall                         8      2     24      0
+Griffith                    12      0     52      0
+Sobers                      20.1    5     39      3
+Gibbs                       19      6     39      6
+Holford                      9      0     39      0
+Lashley                      3      2      1      1
+
+*** C Milburn (1) retired hurt on 0* from 11/1 to 179/7 (hit on left elbow by
+    Hall; 20/2 score not confirmed)
+
+<END>

@@ -1,0 +1,127 @@
+
+Test # 363
+India in West Indies, 1952/53, 1st Test
+West Indies v India
+Queen's Park Oval, Port of Spain, Trinidad
+21,22,23,24,27,28 January 1953 (6-day match)
+
+Result: Match drawn
+Series: 5-match series level 0-0
+
+Toss: India
+Umpires: C John and EN Lee Kow
+Test debuts: CV Gadkari (India); AP Binns, FM King,
+ BH Pairaudeau (West Indies).
+
+Close of play:
+ Day 1: India 208/4 (Umrigar 22*, Phadkar 28*)
+ Day 2: India 417
+ Day 3: West Indies 205/4 (Weekes 92*, Pairaudeau 8*)
+ Day 4: West Indies 438
+ Day 5: India 179/4 (Umrigar 30*, Phadkar 46*)
+
+India 1st innings                                               R   M   B  4 6
+MH Mankad             lbw                b King                 2          0 0
+ML Apte               c Binns            b Stollmeyer          64            0
+GS Ramchand           c Stollmeyer       b Ramadhin            61            0
+*VS Hazare            c Worrell          b Valentine           29            0
+PR Umrigar            c Binns            b Valentine          130            2
+DG Phadkar                               b Gomez               30            0
+DK Gaekwad            c Worrell          b Stollmeyer          43            0
+RH Shodhan            c Worrell          b Gomez               45            0
+CV Gadkari            c Walcott          b Gomez                7            0
++PG Joshi             c Binns            b King                 3          0 0
+SP Gupte              not out                                   0          0 0
+Extras                (lb 2, nb 1)                              3
+Total                 (all out, 192.1 overs)                  417
+
+FoW: 1-16 (Mankad), 2-110 (Apte), 3-157 (Ramchand),
+     4-158 (Hazare), 5-210 (Phadkar), 6-328 (Umrigar),
+     7-379 (Gaekwad), 8-412 (Shodhan), 9-417 (Gadkari),
+     10-417 (Joshi).
+
+Bowling                      O      M      R      W
+King                        41.1   10     75      2
+Gomez                       42     12     84      3
+Ramadhin                    37     13    107      1
+Valentine                   56     28     92      2
+Stollmeyer                  16      2     56      2
+
+West Indies 1st innings                                         R   M   B  4 6
+AF Rae                                   b Ramchand             1          0 0
+*JB Stollmeyer        c Phadkar          b Gupte               33            1
+FMM Worrell                              b Gupte               18            0
+ED Weekes             c Gadkari          b Gupte              207 445     20 0
+CL Walcott            c Ramchand         b Mankad              47            0
+BH Pairaudeau         st Joshi           b Gupte              115            0
+GE Gomez              c Mankad           b Gupte                0          0 0
++AP Binns             run out                                   2          0 0
+FM King               lbw                b Gupte                0          0 0
+S Ramadhin            not out                                   5            0
+AL Valentine          st Joshi           b Gupte                0          0 0
+Extras                (b 5, lb 1, w 2, nb 2)                   10
+Total                 (all out, 182 overs)                    438
+
+FoW: 1-3 (Rae), 2-36 (Worrell), 3-89 (Stollmeyer),
+     4-190 (Walcott), 5-409 (Weekes), 6-409 (Gomez),
+     7-413 (Binns), 8-419 (King), 9-438 (Pairaudeau),
+     10-438 (Valentine).
+
+Bowling                      O      M      R      W
+Phadkar                     13      4     38      0
+Ramchand                    22      7     56      1
+Gupte                       66     15    162      7
+Mankad                      63     16    129      1
+Hazare                      12      1     30      0
+Shodhan                      1      0      1      0
+Gadkari                      5      0     12      0
+
+India 2nd innings                                               R   M   B  4 6
++PG Joshi             run out                                  32            0
+ML Apte                                  b Valentine           52            0
+GS Ramchand           c Binns            b Walcott             17            0
+*VS Hazare                           c & b Walcott              0          0 0
+PR Umrigar                               b Worrell             69            0
+DG Phadkar            c Walcott          b Worrell             65            1
+DK Gaekwad            lbw                b King                24            0
+RH Shodhan                               b Ramadhin            11            0
+MH Mankad                                b Ramadhin            10            0
+CV Gadkari            not out                                  11            0
+SP Gupte              c Rae              b Ramadhin             1          0 0
+Extras                (lb 1, nb 1)                              2
+Total                 (all out, 143.5 overs)                  294
+
+FoW: 1-55 (Joshi), 2-90 (Ramchand), 3-90 (Hazare), 4-106 (Apte),
+     5-237 (Umrigar), 6-238 (Phadkar), 7-257 (Shodhan),
+     8-273 (Mankad), 9-291 (Gaekwad), 10-294 (Gupte).
+
+Bowling                      O      M      R      W
+King                        24     12     35      1
+Gomez                       18      5     51      0
+Ramadhin                    24.5    7     58      3
+Valentine                   28     13     47      1
+Stollmeyer                  11      1     47      0
+Worrell                     20      4     32      2
+Walcott                     16     10     12      2
+Weekes                       2      0     10      0
+
+West Indies 2nd innings (target: 274 runs)                      R   M   B  4 6
+AF Rae                not out                                  63            0
+*JB Stollmeyer        not out                                  76            1
+Extras                (b 1, lb 1, w 1)                          3
+Total                 (0 wickets, 55 overs)                   142
+
+DNB: FMM Worrell, ED Weekes, CL Walcott, BH Pairaudeau, GE Gomez,
+     +AP Binns, FM King, S Ramadhin, AL Valentine.
+
+Bowling                      O      M      R      W
+Phadkar                      9      4     12      0
+Ramchand                    13      2     31      0
+Gupte                        2      1      2      0
+Mankad                      12      1     32      0
+Shodhan                      7      2     19      0
+Gadkari                      9      3     25      0
+Umrigar                      2      0     14      0
+Gaekwad                      1      0      4      0
+
+<END>

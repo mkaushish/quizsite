@@ -1,0 +1,81 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+181, 1929-06-15, 2, 2, England, , Tate, 88, na, na, na, 0
+181, 1929-06-15, 4, 2, England, not out, , 61, na, na, na, 0
+182, 1929-06-29, 2, 2, England, st Duckworth, Hammond, 29, na, na, na, 0
+182, 1929-06-29, 4, 2, England, c Hendren, Robins, 22, na, na, na, 0
+183, 1929-07-13, 1, 3, England, , Tate, 22, na, na, na, 0
+183, 1929-07-13, 3, 3, England, lbw, White, 24, na, na, na, 0
+184, 1929-07-27, 2, 3, England, c Geary, Freeman, 1, na, na, 0, 0
+184, 1929-07-27, 3, 3, England, , Geary, 2, na, na, 0, 0
+185, 1929-08-17, 2, 3, England, , Geary, 2, na, na, 0, 0
+200, 1930-12-24, 1, 3, England, c Hammond, Voce, 6, 21, na, 0, 0
+200, 1930-12-24, 3, 3, England, c Duckworth, Hammond, 72, 140, na, 7, 0
+202, 1931-01-01, 1, 1, England, , Tate, 123, na, na, na, 0
+204, 1931-01-16, 1, 2, England, c Duckworth, Tate, 5, na, na, na, 0
+204, 1931-01-16, 3, 3, England, c Chapman, White, 13, na, na, na, 0
+206, 1931-02-13, 2, 3, England, lbw, Tate, 68, 195, na, na, 0
+206, 1931-02-13, 4, 3, England, c Hammond, Voce, 74, na, na, 12, 0
+207, 1931-02-21, 1, 2, England, , Hammond, 73, 203, na, 4, 0
+207, 1931-02-21, 3, 2, England, c Hammond, Voce, 21, 63, na, 1, 0
+212, 1931-11-27, 2, 3, Australia, run out, , 58, 291, na, 6, 0
+212, 1931-11-27, 3, 3, Australia, , Wall, 0, 8, na, 0, 0
+213, 1931-12-18, 1, 2, Australia, , McCabe, 1, 10, na, 0, 0
+213, 1931-12-18, 3, 2, Australia, c Oldfield, Wall, 24, 67, na, 1, 0
+214, 1932-12-31, 2, 2, Australia, c McCabe, Wall, 17, 58, na, 1, 0
+214, 1932-12-31, 4, 2, Australia,                c &, Grimmett, 46, 177, na, 0, 0
+215, 1932-01-29, 1, 2, Australia,                c &, McCabe, 75, 175, na, 7, 0
+215, 1932-01-29, 3, 2, Australia, c O'Reilly, Grimmett, 95, 293, na, 5, 0
+216, 1932-02-12, 1, 1, Australia, c Rigg, McCabe, 2, 11, na, 0, 0
+216, 1932-02-12, 3, 4, Australia, c Oldfield, Ironmonger, 4, 13, na, 0, 0
+217, 1932-02-27, 2, 2, New Zealand, c James, Cromb, 113, 190, na, na, 0
+218, 1932-03-04, 2, 2, New Zealand, , Cromb, 0, na, na, 0, 0
+218, 1932-03-04, 4, 2, New Zealand, c James, Dickinson, 53, na, na, na, 0
+242, 1935-06-15, 2, 2, England, , Nichols, 25, na, na, na, 0
+242, 1935-06-15, 3, 2, England, not out, , 8, na, na, na, 0
+243, 1935-06-29, 1, 1, England, lbw, Nichols, 30, na, na, na, 0
+243, 1935-06-29, 3, 1, England, not out, , 164, 330, na, na, 0
+244, 1935-07-13, 2, 2, England, lbw, Hammond, 8, na, na, na, 0
+244, 1935-07-13, 4, 2, England, , Hammond, 58, 165, na, na, 0
+245, 1935-07-27, 2, 1, England, c Duckworth, Hammond, 10, na, na, na, 0
+245, 1935-07-27, 4, 1, England, not out, , 48, 225, na, na, 0
+246, 1935-08-17, 1, 2, England, c Ames, Read, 128, 280, na, 11, 0
+246, 1935-08-17, 3, 2, England, , Read, 9, na, na, na, 0
+247, 1935-12-14, 1, 1, Australia, , Fleetwood-Smith, 19, 91, na, 0, 0
+247, 1935-12-14, 3, 1, Australia, run out, , 19, 64, na, 0, 0
+248, 1935-12-24, 1, 1, Australia, c Oldfield, McCormick, 8, na, na, na, 0
+248, 1935-12-24, 3, 4, Australia, c Oldfield, McCabe, 45, na, na, na, 0
+249, 1936-01-01, 2, 4, Australia, c Fingleton, O'Reilly, 14, na, na, na, 0
+249, 1936-01-01, 3, 5, Australia, , Grimmett, 0, na, na, 0, 0
+250, 1936-02-15, 1, 6, Australia, st Oldfield, Grimmett, 16, na, na, na, 0
+250, 1936-02-15, 3, 4, Australia, not out, , 48, na, na, na, 1
+251, 1936-02-28, 1, 3, Australia,                c &, Grimmett, 10, na, na, na, 0
+251, 1936-02-28, 3, 3, Australia, not out, , 72, na, na, na, 0
+267, 1938-12-24, 2, 1, England, , Farnes, 73, na, na, na, 0
+267, 1938-12-24, 4, 1, England, not out, , 48, 165, na, 5, 0
+268, 1939-12-31, 2, 1, England, , Wright, 42, 220, na, na, 0
+268, 1939-12-31, 3, 1, England, c Ames, Farnes, 1, 9, na, 0, 0
+269, 1939-01-20, 2, 1, England, c Ames, Edrich, 30, 80, na, na, 0
+269, 1939-01-20, 3, 1, England, c Ames, Farnes, 109, 190, na, 14, 0
+270, 1939-02-18, 2, 4, England, c Ames, Farnes, 63, 112, na, 7, 0
+271, 1939-03-03, 1, 4, England, , Wright, 11, na, na, na, 0
+271, 1939-03-03, 3, 1, England, hit wicket, Verity, 89, 222, na, 6, 0
+285, 1947-06-07, 1, 1, England, , Bedser, 14, 40, na, na, 0
+285, 1947-06-07, 4, 1, England, c Evans, Bedser, 4, 22, na, na, 0
+286, 1947-06-21, 2, 1, England, st Evans, Compton, 46, 95, na, na, 0
+286, 1947-06-21, 3, 1, England, c Edrich, Wright, 80, 253, na, na, 0
+287, 1947-07-05, 1, 3, England, run out, , 80, 223, na, na, 0
+287, 1947-07-05, 3, 3, England, c Hutton, Compton, 6, 55, na, na, 0
+288, 1947-07-26, 1, 3, England, , Butler, 53, 183, na, na, 0
+288, 1947-07-26, 3, 3, England, , Young, 5, 19, na, na, 0
+289, 1947-08-16, 2, 1, England, c Evans, Copson, 120, 381, na, 14, 0
+289, 1947-08-16, 4, 1, England, not out, , 189, 420, na, na, 0
+306, 1948-12-16, 1, 3, England, c Evans, Bedser, 27, na, na, na, 0
+306, 1948-12-16, 3, 3, England, , Wright, 19, na, na, na, 0
+307, 1948-12-27, 2, 3, England, , Gladwin, 86, na, na, na, 0
+307, 1948-12-27, 3, 3, England, c Hutton, Wright, 40, na, na, na, 0
+309, 1949-01-01, 2, 3, England, , Compton, 120, 345, na, na, 0
+309, 1949-01-01, 4, 5, England, not out, , 20, na, na, na, 0
+312, 1949-02-12, 2, 1, England, c Griffith, Bedser, 2, na, na, 0, 0
+312, 1949-02-12, 4, 1, England, c Compton, Gladwin, 6, na, na, na, 0
+313, 1949-03-05, 1, 1, England, c Griffith, Bedser, 99, 397, na, na, 0
+313, 1949-03-05, 3, 1, England, c Griffith, Bedser, 56, na, na, na, 0

@@ -1,0 +1,101 @@
+
+Test # 374
+The Ashes, 1953, 3rd Test
+England v Australia
+Old Trafford, Manchester
+9,10,11,13,14 July 1953 (5-day match)
+
+Result: Match drawn
+Series: 5-match series level 0-0
+
+Toss: Australia
+Umpires: D Davies and H Elliott
+Test debut: JH de Courcy (Australia).
+
+Close of play:
+ Day 1: Australia 151/3 (Harvey 60*, Hole 41*)
+ Day 2: Australia 221/3 (Harvey 105*, Hole 66*)
+ Day 3: Australia 318, England 126/4 (Wardle 0*, Watson 0*)
+ Day 4: No play
+
+Australia 1st innings                                           R   M   B  4 6
+*AL Hassett                              b Bailey              26  51      4 0
+AR Morris                                b Bedser               1  34      0 0
+KR Miller                                b Bedser              17  39      1 0
+RN Harvey             c Evans            b Bedser             122 236     11 0
+GB Hole               c Evans            b Bedser              66 205      6 0
+JH de Courcy          lbw                b Wardle              41 111      5 0
+AK Davidson           st Evans           b Laker               15  44      3 0
+RG Archer             c Compton          b Bedser               5  14      1 0
+RR Lindwall           c Edrich           b Wardle               1   3      0 0
+JC Hill               not out                                   8  26      2 0
++GRA Langley          c Edrich           b Wardle               8   7      1 0
+Extras                (b 6, lb 1, nb 1)                         8
+Total                 (all out, 116.3 overs)                  318
+
+FoW: 1-15 (Morris), 2-48 (Hassett), 3-48 (Miller), 4-221 (Hole),
+     5-256 (Harvey), 6-285 (Davidson), 7-290 (Archer),
+     8-291 (Lindwall), 9-302 (de Courcy), 10-318 (Langley).
+
+Bowling                      O      M      R      W
+Bedser                      45     10    115      5
+Bailey                      26      4     83      1
+Wardle                      28.3   10     70      3
+Laker                       17      3     42      1
+
+England 1st innings                                             R   M   B  4 6
+*L Hutton             lbw                b Lindwall            66 162     10 0
+WJ Edrich             c Hole             b Hill                 6  23      1 0
+TW Graveney           c de Courcy        b Miller               5  18      1 0
+DCS Compton           c Langley          b Archer              45 127      3 1
+JH Wardle                                b Lindwall             5  66      1 0
+W Watson                                 b Davidson            16  51      2 0
+RT Simpson            c Langley          b Davidson            31  83      5 0
+TE Bailey             c Hole             b Hill                27 115      3 0
++TG Evans             not out                                  44  39      4 1
+JC Laker              lbw                b Hill                 5   6      1 0
+AV Bedser                                b Morris              10  14      1 1
+Extras                (b 8, lb 8)                              16
+Total                 (all out, 120 overs)                    276
+
+FoW: 1-19 (Edrich), 2-32 (Graveney), 3-126 (Hutton),
+     4-126 (Compton), 5-149 (Watson), 6-149 (Wardle),
+     7-209 (Simpson), 8-231 (Bailey), 9-243 (Laker),
+     10-276 (Bedser).
+
+Bowling                      O      M      R      W
+Lindwall                    20      8     30      2
+Archer                      15      8     12      1
+Hill                        35      7     97      3
+Miller                      24     11     38      1
+Davidson                    20      4     60      2
+Harvey                       3      2      2      0
+Hole                         2      0     16      0
+Morris                       1      0      5      1
+
+Australia 2nd innings                                           R   M   B  4 6
+*AL Hassett           c Bailey           b Bedser               8  10      2 0
+AR Morris             c Hutton           b Laker                0   7      0 0
+KR Miller             st Evans           b Laker                6  11      0 0
+GB Hole               c Evans            b Bedser               2  13      0 0
+JH de Courcy          st Evans           b Wardle               8  21      0 1
+AK Davidson           not out                                   4  33      0 0
+RN Harvey                                b Wardle               0   3      0 0
+RG Archer             lbw                b Wardle               0   1      0 0
+RR Lindwall                              b Wardle               4   3      1 0
+JC Hill               not out                                   0   2      0 0
+Extras                (lb 3)                                    3
+Total                 (8 wickets, 18 overs)                    35
+
+DNB: +GRA Langley.
+
+FoW: 1-8 (Morris), 2-12 (Hassett), 3-18 (Miller), 4-18 (Hole),
+     5-31 (de Courcy), 6-31 (Harvey), 7-31 (Archer),
+     8-35 (Lindwall).
+
+Bowling                      O      M      R      W
+Bedser                       4      1     14      2
+Laker                        9      5     11      2
+Wardle                       5      2      7      4
+
+<END>

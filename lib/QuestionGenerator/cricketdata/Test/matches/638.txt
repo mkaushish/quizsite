@@ -1,0 +1,98 @@
+
+Test # 638
+The Ashes, 1968, 2nd Test
+England v Australia
+Lord's, London
+20,21,22,24,25 June 1968 (5-day match)
+
+Result: Match drawn
+Series: Australia leads the 5-match series 1-0
+
+Toss: England
+Umpires: JS Buller and AE Fagg
+Batsman of the match: C Milburn
+Bowlers of the match: DJ Brown and JW Gleeson
+
+Close of play:
+ Day 1: England 53/1 (Boycott 27*, Milburn 16*)
+ Day 2: England 314/5 (Knight 8*, Knott 30*)
+ Day 3: England 351/7 (Knight 27*, Snow 0*)
+ Day 4: England 351/7d, Australia 78, Australia 50/0 (Lawry 25*, Redpath 24*)
+
+England 1st innings                                             R   M   B  4 6
+JH Edrich             c Cowper           b McKenzie             7  21  23  1 0
+G Boycott             c Sheahan          b McKenzie            49 181 153  6 0
+C Milburn             c Walters          b Gleeson             83 147 154 12 2
+*MC Cowdrey           c Cowper           b McKenzie            45 152 141  8 0
+KF Barrington         c Jarman           b Connolly            75 205 181  6 0
+TW Graveney           c Jarman           b Connolly            14  31  29  2 0
+BR Knight             not out                                  27 123  93  3 0
++APE Knott            run out                                  33  91  98  4 0
+JA Snow               not out                                   0   1   0  0 0
+Extras                (b 7, lb 5, w 1, nb 5)                   18
+Total                 (7 wickets dec, 144.3 overs)            351
+
+DNB: DJ Brown, DL Underwood.
+
+FoW: 1-10 (Edrich), 2-142 (Milburn), 3-147 (Boycott),
+     4-244 (Cowdrey), 5-271 (Graveney), 6-330 (Knott),
+     7-351 (Barrington).
+
+Bowling                      O      M      R      W
+McKenzie                    45     18    111      3
+Hawke                       35      7     82      0
+Connolly                    26.3    8     55      2
+Walters                      3      2      2      0
+Cowper                       8      2     40      0
+Gleeson                     27     11     43      1
+
+Australia 1st innings                                           R   M   B  4 6
+*WM Lawry             c Knott            b Brown                0   6   6  0 0
+IR Redpath            c Cowdrey          b Brown                4  16  11  1 0
+RM Cowper             c Graveney         b Snow                 8  27  27  1 0
+KD Walters            c Knight           b Brown               26  72  57  4 0
+AP Sheahan            c Knott            b Knight               6  35  26  1 0
+IM Chappell           lbw                b Knight               7  16  16  1 0
+NJN Hawke             c Cowdrey          b Knight               2  52  32  0 0
+GD McKenzie                              b Brown                5  15  14  1 0
+JW Gleeson            c Cowdrey          b Brown               14  19  17  3 0
++BN Jarman            retired hurt                              0   1   1  0 0
+AN Connolly           not out                                   0   3   0  0 0
+Extras                (lb 2, nb 4)                              6
+Total                 (all out, 33.4 overs)                    78
+
+FoW: 1-1 (Lawry), 2-12 (Redpath), 3-23 (Cowper), 4-46 (Sheahan),
+     5-52 (Walters), 6-58 (Chappell), 7-63 (McKenzie),
+     8-78 (Gleeson), 9-78 (Hawke).
+
+Bowling                      O      M      R      W
+Snow                         9      5     14      1
+Brown                       14      5     42      5
+Knight                      10.4    5     16      3
+
+Australia 2nd innings (following on)                            R   M   B  4 6
+*WM Lawry             c Brown            b Snow                28 126  99  3 0
+IR Redpath                               b Underwood           53 167 143  8 0
+RM Cowper             c Underwood        b Barrington          32  92  90  6 0
+KD Walters                               b Underwood            0  12  12  0 0
+AP Sheahan            not out                                   0  52  44  0 0
+IM Chappell           not out                                  12  12  16  0 0
+Extras                (nb 2)                                    2
+Total                 (4 wickets, 67 overs)                   127
+
+DNB: NJN Hawke, GD McKenzie, JW Gleeson, +BN Jarman, AN Connolly.
+
+FoW: 1-66 (Lawry), 2-93 (Redpath), 3-97 (Walters),
+     4-115 (Cowper).
+
+Bowling                      O      M      R      W
+Snow                        12      5     30      1
+Brown                       19      9     40      0
+Knight                      16      9     35      0
+Underwood                   18     15      8      2
+Barrington                   2      0     12      1
+
+*** BN Jarman retired hurt at 78/8
+*** KF Barrington (1) retired hurt on ?* from 271/5 to 330/6
+
+<END>

@@ -1,0 +1,69 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+1566, 2001-10-08, 1, 9, Zimbabwe, c A Flower, Streak, 8, 45, 22, 0, 0
+1568, 2001-10-15, 2, 10, Zimbabwe, lbw, Brent, 1, 10, 6, 0, 0
+1568, 2001-10-15, 3, 10, Zimbabwe, st A Flower, Marillier, 0, 5, 1, 0, 0
+1577, 2001-11-18, 2, 10, New Zealand, lbw, Bond, 3, 24, 7, 0, 0
+1577, 2001-11-18, 3, 10, New Zealand, c Vincent, Cairns, 2, 6, 6, 0, 0
+1579, 2001-11-26, 1, 11, New Zealand, run out (McMillan), , 8, 13, 8, 0, 1
+1579, 2001-11-26, 3, 10, New Zealand, , Cairns, 29, 28, 21, 4, 1
+1640, 2003-03-24, 1, 11, South Africa, st Boucher, Adams, 20, 18, 15, 4, 0
+1640, 2003-03-24, 3, 9, South Africa, c Pollock, Adams, 0, 1, 3, 0, 0
+1642, 2003-04-01, 2, 11, South Africa, c Dippenaar, Peterson, 1, 21, 12, 0, 0
+1642, 2003-04-01, 3, 11, South Africa, , Pollock, 4, 2, 3, 1, 0
+1650, 2003-06-18, 1, 9, Australia, c Gilchrist, Gillespie, 3, 10, 5, 0, 0
+1650, 2003-06-18, 3, 10, Australia, run out (Lehmann), , 15, 11, 6, 1, 1
+1652, 2003-06-25, 1, 10, Australia, c Lee, Gillespie, 8, 16, 13, 1, 0
+1652, 2003-06-25, 3, 10, Australia, not out, , 3, 8, 3, 0, 0
+1655, 2003-07-20, 1, 11, Pakistan, not out, , 9, 20, 16, 1, 0
+1655, 2003-07-20, 3, 11, Pakistan, not out, , 10, 8, 7, 0, 1
+1657, 2003-07-27, 1, 10, Pakistan, , Umar Gul, 10, 33, 22, 0, 1
+1657, 2003-07-27, 3, 10, Pakistan, , Umar Gul, 14, 8, 8, 3, 0
+1665, 2003-09-21, 1, 10, England, , Harmison, 11, 28, 22, 0, 1
+1665, 2003-09-21, 3, 10, England, c Trescothick, Hoggard, 1, 5, 4, 0, 0
+1667, 2003-10-29, 2, 10, England, , Johnson, 1, 5, 6, 0, 0
+1667, 2003-10-29, 4, 11, England, absent hurt, , -, , , , 
+1725, 2004-11-10, 1, 11, India, run out (Gambhir/Kumble), , 7, 18, 13, 1, 0
+1725, 2004-11-10, 3, 11, India, not out, , 0, 4, 1, 0, 0
+1727, 2004-11-17, 2, 3, India, lbw, Kumble, 4, 13, 15, 1, 0
+1727, 2004-11-17, 3, 9, India, c Harbhajan Singh, Tendulkar, 6, 8, 9, 1, 0
+1733, 2005-01-06, 1, 9, Zimbabwe, c Sibanda, Cremer, 48, 60, 44, 8, 1
+1733, 2005-01-06, 3, 9, Zimbabwe, c Hondo, Chigumbura, 19, 15, 16, 4, 0
+1735, 2005-01-14, 2, 9, Zimbabwe, c Chigumbura, Panyangara, 26, 110, 81, 2, 0
+1751, 2005-04-26, 1, 9, England, , Harmison, 0, 4, 3, 0, 0
+1751, 2005-04-26, 3, 9, England, , Harmison, 0, 2, 1, 0, 0
+1753, 2005-05-03, 1, 10, England, c GO Jones, Harmison, 1, 11, 5, 0, 0
+1753, 2005-05-03, 3, 11, England, c Trescothick, Hoggard, 0, 3, 3, 0, 0
+1797, 2006-03-09, 1, 9, Australia, lbw, MacGill, 6, 18, 23, 0, 0
+1797, 2006-03-09, 3, 9, Australia, , Warne, 0, 1, 1, 0, 0
+1799, 2006-03-16, 1, 9, Australia, c Gilchrist, Cullen, 4, 13, 9, 1, 0
+1799, 2006-03-16, 3, 9, Australia, c Gillespie, Warne, 1, 4, 4, 0, 0
+1832, 2007-04-18, 2, 8, India, , VRV Singh, 79, 136, 91, 7, 3
+1833, 2007-04-25, 2, 9, India, c Kumble, Sharma, 2, 11, 4, 0, 0
+1833, 2007-04-25, 3, 8, India, c Dhoni, Tendulkar, 70, 102, 68, 8, 3
+1837, 2007-05-25, 1, 9, Sri Lanka, st HAPW Jayawardene, Muralitharan, 1, 11, 8, 0, 0
+1837, 2007-05-25, 3, 8, Sri Lanka, lbw, Muralitharan, 9, 8, 9, 2, 0
+1838, 2007-06-03, 1, 8, Sri Lanka, c DPMD Jayawardene, Fernando, 0, 3, 2, 0, 0
+1838, 2007-06-03, 3, 9, Sri Lanka, lbw, Vaas, 0, 2, 1, 0, 0
+1839, 2007-06-11, 1, 8, Sri Lanka,                c &, Muralitharan, 5, 14, 6, 1, 0
+1839, 2007-06-11, 3, 8, Sri Lanka, c sub (SM Warnapura), Muralitharan, 8, 31, 24, 0, 0
+1859, 2008-01-04, 1, 8, New Zealand, , Oram, 22, 32, 26, 5, 0
+1859, 2008-01-04, 3, 8, New Zealand, c McCullum, Vettori, 10, 2, 4, 1, 1
+1861, 2008-01-12, 1, 11, New Zealand, c Bell, Vettori, 15, 18, 14, 0, 2
+1861, 2008-01-12, 3, 10, New Zealand, c Mills, Oram, 6, 40, 25, 1, 0
+1864, 2008-01-22, 1, 10, South Africa, , Steyn, 29, 49, 42, 4, 0
+1864, 2008-01-22, 3, 10, South Africa, c Smith, Kallis, 11, 19, 12, 2, 0
+1865, 2008-02-29, 2, 10, South Africa, c Boucher, Ntini, 1, 19, 9, 0, 0
+1865, 2008-02-29, 3, 10, South Africa, c McKenzie, Morkel, 4, 8, 3, 1, 0
+1888, 2008-09-17, 1, 9, New Zealand, c Ryder, Vettori, 0, 3, 3, 0, 0
+1888, 2008-09-17, 3, 9, New Zealand, st McCullum, Redmond, 44, 110, 87, 7, 0
+1890, 2008-09-25, 2, 8, New Zealand, c Flynn, O'Brien, 48, 129, 89, 7, 2
+1893, 2008-10-19, 2, 9, South Africa,                c &, Morkel, 5, 22, 9, 0, 0
+1893, 2008-10-19, 3, 9, South Africa, , Steyn, 6, 20, 12, 0, 0
+1895, 2008-10-26, 1, 9, South Africa, c Kallis, Ntini, 12, 17, 11, 2, 0
+1895, 2008-10-26, 3, 9, South Africa, not out, , 23, 38, 21, 4, 0
+1903, 2008-11-26, 2, 9, Sri Lanka, lbw, Muralitharan, 0, 2, 1, 0, 0
+1903, 2008-11-26, 4, 9, Sri Lanka, c HAPW Jayawardene, Prasad, 2, 10, 9, 0, 0
+1905, 2009-01-03, 2, 9, Sri Lanka, c Dilshan, Muralitharan, 63, 109, 89, 8, 2
+1905, 2009-01-03, 4, 9, Sri Lanka, c DPMD Jayawardene, Dilshan, 0, 6, 4, 0, 0
+1923, 2009-06-09, 1, 9, West Indies, c Walton, Roach, 39, 60, 52, 2, 2
+1923, 2009-06-09, 3, 9, West Indies, c Roach, Sammy, 0, 10, 7, 0, 0

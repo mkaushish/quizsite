@@ -1,0 +1,103 @@
+
+Test # 8
+England in Australia, 1881/82, 4th Test
+Australia v England
+Melbourne Cricket Ground
+10,11,13,14 March 1882 (timeless match)
+
+Result: Match drawn (by agreement)
+Series: Australia wins the 4-match series 2-0
+
+Toss: England
+Umpires: G Coulthard and James Lillywhite jnr (Eng)
+Balls per over: 4
+
+Close of play:
+ Day 1: England 282/7 (Emmett 27*, Shaw 1*)
+ Day 2: England 309, Australia 228/5 (McDonnell 41*, Blackham 0*)
+ Day 3: Australia 300, England 234/2 (Selby 48*, Bates 52*, 97.3 ov)
+ Day 4: No play
+
+England 1st innings                                             R   M   B  4 6
+G Ulyett              c Blackham         b Garrett            149 240     13 0
+RG Barlow             c Blackham         b Garrett             16          1 0
+J Selby                                  b Spofforth            7          1 0
+W Bates               st Blackham        b Garrett             23          2 0
+A Shrewsbury snr      lbw                b Palmer               1          0 0
+WE Midwinter          c Palmer           b Boyle               21          2 0
+WH Scotton            st Blackham        b Giffen              26          1 0
+T Emmett                                 b Giffen              27          4 1
+*A Shaw               c Murdoch          b Garrett              3          0 0
++R Pilling            not out                                   6          0 0
+E Peate                              c & b Garrett             13          1 0
+Extras                (b 10, lb 7)                             17
+Total                 (all out, 159.2 overs)                  309
+
+FoW: 1-32 (Barlow), 2-49 (Selby), 3-98 (Bates),
+     4-109 (Shrewsbury), 5-177 (Midwinter), 6-239 (Ulyett),
+     7-281 (Scotton), 8-284 (Emmett), 9-288 (Shaw),
+     10-309 (Peate).
+
+Bowling                      O      M      R      W
+Garrett                     54.2   23     80      5
+Spofforth                   51     14     92      1
+Boyle                       18      4     33      1
+Palmer                      23      5     70      1
+Giffen                      13      6     17      2
+
+Australia 1st innings                                           R   M   B  4 6
+*WL Murdoch                              b Midwinter           85 165      6 0
+AC Bannerman                         c & b Midwinter           37          3 0
+TP Horan                             c & b Midwinter           20          2 0
+PS McDonnell          c Barlow           b Ulyett              52          3 1
+HH Massie             c Emmett           b Shaw                19          0 0
+G Giffen              c Scotton          b Peate               14          0 0
++JM Blackham          c Pilling          b Midwinter            6          0 0
+TW Garrett            c Ulyett           b Bates               10          0 0
+GE Palmer             c Ulyett           b Bates               32          5 0
+HF Boyle              c Shrewsbury       b Bates                6          1 0
+FR Spofforth          not out                                   3          0 0
+Extras                (b 2, lb 7, w 6, nb 1)                   16
+Total                 (all out, 163.1 overs)                  300
+
+FoW: 1-110 (Bannerman), 2-149 (Horan), 3-153 (Murdoch),
+     4-189 (Massie), 5-228 (Giffen), 6-247 (Blackham),
+     7-247 (McDonnell), 8-280 (Garrett), 9-297 (Palmer),
+     10-300 (Boyle).
+
+Bowling                      O      M      R      W
+Bates                       28.1   14     49      3
+Peate                       20      6     38      1
+Emmett                      19     14     22      0
+Ulyett                      24      8     40      1
+Barlow                      15      6     25      0
+Shaw                        16      6     29      1
+Midwinter                   41      9     81      4
+
+England 2nd innings                                             R   M   B  4 6
+G Ulyett              c Palmer           b Boyle               64          3 1
+RG Barlow             run out                                  56          6 0
+J Selby               not out                                  48          2 0
+W Bates               not out                                  52          5 0
+Extras                (b 12, lb 2)                             14
+Total                 (2 wickets, 97.3 overs)                 234
+
+DNB: A Shrewsbury snr, WE Midwinter, WH Scotton, T Emmett,
+     *A Shaw, +R Pilling, E Peate.
+
+FoW: 1-98 (Ulyett), 2-152 (Barlow).
+
+Bowling                      O      M      R      W
+Garrett                     27      6     62      0
+Spofforth                   15      3     36      0
+Boyle                       25      9     38      1
+Palmer                      20      5     47      0
+Giffen                       8.3    1     25      0
+Bannerman                    2      0     12      0
+
+*** This was the last drawn Test in Australia until 1946-47. G Ulyett's 149
+    was the first Test hundred for England in Australia and it was the
+    highest score for England on the first day of a Test in Australia until
+    RW Barber scored 185 in 1965-66.
+
+<END>

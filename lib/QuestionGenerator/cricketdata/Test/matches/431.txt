@@ -1,0 +1,97 @@
+
+Test # 431
+Australia in India, 1956/57, 1st Test
+India v Australia
+Corporation Stadium, Madras
+19,20,22,23 October 1956 (5-day match)
+
+Result: Australia won by an innings and 5 runs
+Series: Australia leads the 3-match series 1-0
+
+Toss: India
+Umpires: DD Desai and MG Vijayasarathi
+
+Close of play:
+ Day 1: India 117/5 (Manjrekar 33*, Kripal Singh 4*)
+ Day 2: India 161, Australia 120/3 (Craig 30*, Burge 12*)
+ Day 3: Australia 319, India 29/2 (Umrigar 0*, Tamhane 3*)
+
+India 1st innings                                               R   M   B  4 6
+MH Mankad             c McDonald         b Benaud              27            0
+P Roy                 c Harvey           b Benaud              13            0
+*PR Umrigar           c Craig            b Benaud              31            0
+VL Manjrekar          lbw                b Benaud              41            0
+GS Ramchand                              b Crawford             0          0 0
+HR Adhikari           c Burke            b Crawford             5            0
+AG Kripal Singh       c Harvey           b Crawford            13            0
++NS Tamhane           not out                                   9            0
+JM Patel              c Johnson          b Benaud               3          0 0
+Ghulam Ahmed          c Harvey           b Benaud              11            0
+SP Gupte              c McDonald         b Benaud               4            0
+Extras                (lb 4)                                    4
+Total                 (all out, 99.3 overs)                   161
+
+FoW: 1-41 (Mankad), 2-44 (Roy), 3-97 (Umrigar), 4-98 (Ramchand),
+     5-106 (Adhikari), 6-134 (Manjrekar), 7-134 (Kripal Singh),
+     8-137 (Patel), 9-151 (Ghulam Ahmed), 10-161 (Gupte).
+
+Bowling                      O      M      R      W
+Lindwall                     9      1     15      0
+Crawford                    26      8     32      3
+Benaud                      29.3   10     72      7
+Mackay                      20      9     25      0
+Johnson                     15     10     13      0
+
+Australia 1st innings                                           R   M   B  4 6
+CC McDonald           st Tamhane         b Mankad              29            0
+JW Burke              c Tamhane          b Gupte               10            0
+RN Harvey                                b Mankad              37            0
+ID Craig              c Ramchand         b Mankad              40            0
+PJP Burge             lbw                b Patel               35            0
+KD Mackay             c Tamhane          b Ghulam Ahmed        29            0
+R Benaud                                 b Ghulam Ahmed         6            0
+RR Lindwall           c Adhikari         b Gupte                8            0
+*IWG Johnson          c Roy              b Gupte               73            0
+WPA Crawford          st Tamhane         b Mankad              34            0
++GRA Langley          not out                                  10            0
+Extras                (b 5, lb 3)                               8
+Total                 (all out, 134.3 overs)                  319
+
+FoW: 1-12 (Burke), 2-58 (Harvey), 3-97 (McDonald), 4-152 (Craig),
+     5-186 (Mackay), 6-186 (Burge), 7-198 (Benaud),
+     8-200 (Lindwall), 9-287 (Crawford), 10-319 (Johnson).
+
+Bowling                      O      M      R      W
+Ramchand                     5      1     12      0
+Umrigar                      4      0     17      0
+Gupte                       28.3    6     89      3
+Ghulam Ahmed                38     17     67      2
+Mankad                      45     15     90      4
+Patel                       14      3     36      1
+
+India 2nd innings                                               R   M   B  4 6
+MH Mankad             c Langley          b Lindwall            11            0
+P Roy                 c Harvey           b Lindwall             9            0
+*PR Umrigar           c Langley          b Lindwall            25            0
++NS Tamhane           c Crawford         b Benaud               5            0
+VL Manjrekar                             b Crawford            16            0
+GS Ramchand           lbw                b Johnson             28            0
+HR Adhikari           lbw                b Lindwall             0          0 0
+AG Kripal Singh       not out                                  20            0
+JM Patel                                 b Lindwall             0          0 0
+Ghulam Ahmed          c Burge            b Lindwall            13            0
+SP Gupte                                 b Lindwall             8            0
+Extras                (b 10, lb 5, nb 3)                       18
+Total                 (all out, 63.5 overs)                   153
+
+FoW: 1-18 (Roy), 2-22 (Mankad), 3-39 (Tamhane), 4-63 (Manjrekar),
+     5-99 (Ramchand), 6-100 (Adhikari), 7-113 (Umrigar),
+     8-119 (Patel), 9-143 (Ghulam Ahmed), 10-153 (Gupte).
+
+Bowling                      O      M      R      W
+Lindwall                    22.5    9     43      7
+Crawford                    12      6     18      1
+Benaud                      20      5     59      1
+Johnson                      9      5     15      1
+
+<END>

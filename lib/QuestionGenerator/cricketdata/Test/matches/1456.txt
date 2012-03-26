@@ -1,0 +1,141 @@
+
+Test # 1456
+New Zealand in England, 1999, 2nd Test
+England v New Zealand
+Lord's, London
+22,23,24,25 July 1999 (5-day match)
+
+Result: New Zealand won by 9 wickets
+Series: 4-match series level 1-1
+
+Toss: England
+Umpires: MJ Kitchen and RE Koertzen (SA)
+TV umpire: NT Plews
+Match referee: PL van der Merwe (SA)
+Player of the match: MJ Horne
+
+Close of play:
+ Day 1: England 183/9 (Hussain 59*, Tufnell 0*, 59.2 ov)
+ Day 2: England 186, New Zealand 242/6 (Vettori 2*, 85.4 ov)
+ Day 3: New Zealand 358, England 107/4 (Habib 11*, Headley 2*, 54 ov)
+
+England 1st innings                                             R   M   B  4 6
+MA Butcher            c Parore           b Cairns               8  60  52  1 0
+AJ Stewart            c Fleming          b Nash                50 106  62  8 0
+*N Hussain            c Parore           b Cairns              61 221 144 11 0
+GP Thorpe             c Astle            b Cairns               7  34  25  1 0
+MR Ramprakash         lbw                b Nash                 4   8   7  1 0
+A Habib                                  b Nash                 6  16   9  1 0
++CMW Read                                b Cairns               0   7   7  0 0
+AR Caddick            run out (Horne/Astle)                    18  50  40  1 0
+DW Headley            lbw                b Cairns               4  25  22  1 0
+AD Mullally           c Astle            b Cairns               0   9   6  0 0
+PCR Tufnell           not out                                   1  17   7  0 0
+Extras                (b 5, lb 8, nb 14)                       27
+Total                 (all out, 61.1 overs)                   186
+
+FoW: 1-35 (Butcher, 13.5 ov), 2-79 (Stewart, 22.4 ov),
+     3-102 (Thorpe, 31.1 ov), 4-112 (Ramprakash, 32.5 ov),
+     5-123 (Habib, 36.1 ov), 6-125 (Read, 37.6 ov),
+     7-150 (Caddick, 49.1 ov), 8-165 (Headley, 55.6 ov),
+     9-170 (Mullally, 57.6 ov), 10-186 (Hussain, 61.1 ov).
+
+Bowling                      O      M      R      W
+Allott                      10      1     37      0 (3nb)
+Cairns                      21.1    1     77      6 (11nb)
+Nash                        23     11     50      3
+Astle                        7      3      9      0
+
+New Zealand 1st innings                                         R   M   B  4 6
+MJ Horne              c Hussain          b Headley            100 368 224 13 0
+MD Bell               lbw                b Headley             15  64  47  2 0
+*SP Fleming           c Read             b Mullally             1   4   5  0 0
+NJ Astle              c Read             b Mullally            43  77  61  9 0
+RG Twose              c Caddick          b Headley             52 183 153  5 0
+CD McMillan           c Read             b Caddick              3  36  30  0 0
+DL Vettori            c Thorpe           b Tufnell             54 135 106  7 0
++AC Parore                               b Caddick             12  39  27  1 0
+CL Cairns                                b Caddick             31  73  42  5 0
+DJ Nash               c Mullally         b Tufnell              6  30  23  0 0
+GI Allott             not out                                   1  13  10  0 0
+Extras                (b 1, lb 24, w 2, nb 13)                 40
+Total                 (all out, 119.1 overs)                  358
+
+FoW: 1-43 (Bell, 15.3 ov), 2-45 (Fleming, 16.1 ov),
+     3-112 (Astle, 34.3 ov), 4-232 (Twose, 76.6 ov),
+     5-239 (Horne, 84.4 ov), 6-242 (McMillan, 85.4 ov),
+     7-275 (Parore, 93.6 ov), 8-345 (Cairns, 110.5 ov),
+     9-351 (Vettori, 115.5 ov), 10-358 (Nash, 119.1 ov).
+
+Bowling                      O      M      R      W
+Mullally                    27      7     98      2 (2w)
+Caddick                     34     11     92      3 (2nb)
+Headley                     27      7     74      3 (8nb)
+Tufnell                     27.1    7     61      2 (3nb)
+Butcher                      3      0      7      0
+Ramprakash                   1      0      1      0
+
+England 2nd innings                                             R   M   B  4 6
+MA Butcher            c Astle            b Vettori             20  86  76  4 0
+AJ Stewart                               b Vettori             35 138  97  5 0
+MR Ramprakash         c Parore           b Astle               24 105  76  4 0
+GP Thorpe                                b Cairns               7   7   5  1 0
+A Habib               c Astle            b Allott              19 126 104  3 0
+DW Headley            c Fleming          b Allott              12  67  53  2 0
++CMW Read             lbw                b Nash                37 120  84  4 0
+AR Caddick            c Fleming          b Allott              45 147  96  6 0
+AD Mullally           c Twose            b Cairns              10  14  13  2 0
+PCR Tufnell           not out                                   5  24  13  0 0
+*N Hussain            absent hurt                               -
+Extras                (b 5, lb 3, nb 7)                        15
+Total                 (all out, 101.4 overs)                  229
+
+FoW: 1-55 (Butcher, 21.3 ov), 2-71 (Stewart, 35.2 ov),
+     3-78 (Thorpe, 36.1 ov), 4-97 (Ramprakash, 47.5 ov),
+     5-123 (Headley, 64.6 ov), 6-127 (Habib, 68.5 ov),
+     7-205 (Read, 94.2 ov), 8-216 (Mullally, 97.2 ov),
+     9-229 (Caddick, 101.4 ov).
+
+Bowling                      O      M      R      W
+Allott                      16.4    6     36      3 (3nb)
+Cairns                      25      6     67      2 (1nb)
+Vettori                     31     12     62      2
+Nash                        25      9     50      1 (3nb)
+Astle                        4      2      6      1
+
+New Zealand 2nd innings (target: 58 runs)                       R   M   B  4 6
+MJ Horne              lbw                b Caddick             26  55  43  2 0
+MD Bell               not out                                  26  89  72  1 0
+*SP Fleming           not out                                   5  33  24  0 0
+Extras                (b 2, nb 1)                               3
+Total                 (1 wicket, 23 overs)                     60
+
+DNB: NJ Astle, RG Twose, CD McMillan, CL Cairns, +AC Parore,
+     DJ Nash, DL Vettori, GI Allott.
+
+FoW: 1-37 (Horne, 14.1 ov).
+
+Bowling                      O      M      R      W
+Mullally                     5      0     21      0
+Caddick                     10      4     18      1
+Tufnell                      8      2     19      0 (1nb)
+
+*** Day 1
+*** AJ Stewart 50 off 58 balls 8x4
+*** N Hussain 50 off 132 balls 9x4
+
+*** Day 2
+*** MJ Horne 50 off 115 balls 7x4
+*** RG Twose 50 off 152 balls 5x4
+*** MJ Horne 100 off 202 balls 13x4
+
+*** Day 3
+*** Nasser Hussain left the field with a fractured finger, which subsequently
+    prevented him from batting in the second innings.
+*** Dean Cosker substituted for Hussain, Graham Thorpe was the acting Captain
+*** DL Vettori 50 off 94 balls 7x4
+
+*** This was New Zealand's 5th win in 80 Tests against England, their first
+    win at Lord's in 13 attempts, and their first win in England since 1986.
+
+<END>

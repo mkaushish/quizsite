@@ -1,0 +1,46 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+168, 1927-12-24, 1, 8, England, lbw, Stevens, 20, na, na, na, 0
+168, 1927-12-24, 3, 6, England, lbw, Geary, 5, na, na, na, 0
+169, 1928-12-31, 2, 3, England, c Geary, Stevens, 19, na, na, na, 0
+169, 1928-12-31, 4, 3, England, , Hammond, 19, na, na, na, 0
+170, 1928-01-21, 1, 3, England, , Peebles, 21, na, na, na, 0
+170, 1928-01-21, 3, 3, England, c Stanyforth, Freeman, 9, na, na, na, 0
+171, 1928-01-28, 2, 6, England,                c &, Astill, 64, na, na, na, 0
+171, 1928-01-28, 4, 6, England, c Wyatt, Astill, 18, na, na, na, 0
+172, 1928-02-04, 2, 6, England, c Holmes, Freeman, 53, na, na, na, 2
+181, 1929-06-15, 2, 7, England, , Larwood, 5, na, na, na, 0
+182, 1929-06-29, 2, 6, England, c Leyland, Robins, 32, na, na, na, 0
+182, 1929-06-29, 4, 7, England, retired hurt, , 0, na, na, 0, 0
+184, 1929-07-27, 2, 6, England, c Bowley, Freeman, 13, na, na, na, 0
+184, 1929-07-27, 3, 7, England, c Woolley, Freeman, 83, na, na, na, 1
+185, 1929-08-17, 2, 6, England, c Freeman, Geary, 62, na, na, na, 0
+200, 1930-12-24, 1, 7, England, , Peebles, 0, 5, na, 0, 0
+200, 1930-12-24, 3, 7, England, c Duckworth, Voce, 51, 53, na, 5, 0
+202, 1931-01-01, 1, 6, England, c Peebles, White, 26, na, na, na, 1
+204, 1931-01-16, 1, 6, England, c Voce, Tate, 41, na, na, na, 0
+204, 1931-01-16, 3, 6, England, , Hammond, 8, na, na, na, 0
+206, 1931-02-13, 2, 7, England, , Peebles, 2, na, na, 0, 0
+206, 1931-02-13, 4, 6, England, not out, , 69, na, na, na, 0
+207, 1931-02-21, 1, 6, England, , Voce, 4, 6, na, 1, 0
+207, 1931-02-21, 3, 7, England, not out, , 41, 62, na, 3, 0
+212, 1931-11-27, 2, 4, Australia, st Oldfield, Grimmett, 4, 10, na, 0, 0
+212, 1931-11-27, 3, 4, Australia, , Ironmonger, 21, 72, na, na, 1
+213, 1931-12-18, 1, 4, Australia, , Wall, 11, 40, na, 2, 0
+213, 1931-12-18, 3, 4, Australia, , Wall, 0, 1, na, 0, 0
+214, 1932-12-31, 2, 6, Australia, st Oldfield, Ironmonger, 39, 96, na, 4, 0
+214, 1932-12-31, 4, 6, Australia, lbw, Ironmonger, 13, 45, na, 0, 0
+215, 1932-01-29, 1, 5, Australia, lbw, Grimmett, 52, 89, na, 7, 0
+215, 1932-01-29, 3, 5, Australia, , O'Reilly, 4, 6, na, 1, 0
+216, 1932-02-12, 1, 6, Australia, c McCabe, Nash, 11, 37, na, 1, 0
+216, 1932-02-12, 3, 5, Australia, c McCabe, O'Reilly, 0, 12, na, 0, 0
+217, 1932-02-27, 2, 4, New Zealand, c James, Badcock, 47, 47, na, na, 0
+218, 1932-03-04, 2, 3, New Zealand, c Blunt, Vivian, 44, na, na, na, 0
+218, 1932-03-04, 4, 3, New Zealand, not out, , 22, na, na, na, 0
+242, 1935-06-15, 2, 6, England, , Nichols, 52, 110, na, 8, 0
+243, 1935-06-29, 1, 6, England, , Nichols, 90, 105, na, 6, 3
+243, 1935-06-29, 3, 5, England, c Ames, Mitchell, 3, na, na, 0, 0
+244, 1935-07-13, 2, 6, England, lbw, Nichols, 9, na, na, na, 0
+244, 1935-07-13, 4, 6, England, st Ames, Barber, 49, na, na, na, 1
+245, 1935-07-27, 2, 6, England, c Bowes, Tate, 53, na, na, 5, 2
+246, 1935-08-17, 1, 6, England, c Mitchell, Read, 8, na, na, na, 0
+246, 1935-08-17, 3, 6, England, st Ames, Robins, 42, na, na, na, 0

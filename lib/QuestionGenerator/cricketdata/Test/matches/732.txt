@@ -1,0 +1,107 @@
+
+Test # 732
+The Wisden Trophy, 1973/74, 2nd Test
+West Indies v England
+Sabina Park, Kingston, Jamaica
+16,17,19,20,21 February 1974 (5-day match)
+
+Result: Match drawn
+Series: West Indies leads the 5-match series 1-0
+
+Toss: England
+Umpires: HBD Jordan and D Sang Hue
+
+Close of play:
+ Day 1: England 251/5 (Denness 51*, Knott 13*)
+ Day 2: England 353, West Indies 159/0 (Fredericks 72*, Rowe 80*)
+ Day 3: West Indies 434/4 (Kallicharran 89*, Sobers 8*)
+ Day 4: West Indies 583/9d, England 218/5 (Amiss 123*, Underwood 1*)
+
+England 1st innings                                             R   M   B  4 6
+G Boycott             c Kanhai           b Sobers              68 219 263  9 0
+DL Amiss              c Kanhai           b Barrett             27  89  63  4 0
+JA Jameson            st Murray          b Gibbs               23  57  70  4 0
+FC Hayes              c Boyce            b Sobers              10  65  77  1 0
+*MH Denness           c Fredericks       b Boyce               67 179 176 10 0
+AW Greig              c Fredericks       b Barrett             45  99  77  5 0
++APE Knott            c Murray           b Barrett             39 138 115  5 0
+CM Old                c Murray           b Julien               2  10   2  0 0
+DL Underwood          c Fredericks       b Sobers              24  34  36  3 0
+PI Pocock             c Gibbs            b Julien              23  45  59  2 0
+RGD Willis            not out                                   6  28  19  1 0
+Extras                (lb 7, nb 12)                            19
+Total                 (all out, 157 overs)                    353
+
+FoW: 1-68 (Amiss), 2-104 (Jameson), 3-133 (Hayes),
+     4-134 (Boycott), 5-224 (Greig), 6-278 (Denness),
+     7-286 (Old), 8-322 (Underwood), 9-333 (Knott),
+     10-353 (Pocock).
+
+Bowling                      O      M      R      W
+Boyce                       19      2     52      1
+Julien                      18      3     40      2
+Sobers                      33     11     65      3
+Barrett                     39     16     86      3
+Gibbs                       40     16     78      1
+Fredericks                   4      0     11      0
+Lloyd                        4      2      2      0
+
+West Indies 1st innings                                         R   M   B  4 6
+RC Fredericks                            b Old                 94 284 246  8 0
+LG Rowe               lbw                b Willis             120 303 258 17 1
+AI Kallicharran       c Denness          b Old                 93 288 252 12 1
+CH Lloyd                                 b Jameson             49 142 124  4 1
+*RB Kanhai            c Willis           b Greig               39  62  62  1 0
+GS Sobers             c Willis           b Greig               57 154 139  8 0
+BD Julien             c Denness          b Greig               66  74  58 10 1
+KD Boyce              c Greig            b Willis               8   4   4  2 0
++DL Murray            not out                                   6  36  34  0 0
+AG Barrett            lbw                b Willis               0   8   5  0 0
+LR Gibbs              not out                                   6  14  11  1 0
+Extras                (b 16, lb 18, nb 11)                     45
+Total                 (9 wickets dec, 196 overs)              583
+
+FoW: 1-206 (Fredericks), 2-226 (Rowe), 3-338 (Lloyd),
+     4-401 (Kanhai), 5-439 (Kallicharran), 6-551 (Julien),
+     7-563 (Boyce), 8-567 (Sobers), 9-574 (Barrett).
+
+Bowling                      O      M      R      W
+Willis                      24      5     97      3
+Old                         23      6     72      2
+Pocock                      57     14    152      0
+Underwood                   36     12     98      0
+Greig                       49     14    102      3
+Jameson                      7      2     17      1
+
+England 2nd innings                                             R   M   B  4 6
+G Boycott             c Murray           b Boyce                5  27  17  1 0
+DL Amiss              not out                                 262 570 563 40 1
+JA Jameson            c Rowe             b Barrett             38  65  78  5 1
+FC Hayes              run out                                   0   9   9  0 0
+*MH Denness           c Rowe             b Barrett             28  78  83  5 0
+AW Greig                                 b Gibbs               14  39  48  3 0
+DL Underwood          c Murray           b Sobers              12  84  74  1 0
++APE Knott            run out                                   6  13  18  1 0
+CM Old                                   b Barrett             19 101 104  1 0
+PI Pocock             c sub              b Boyce                4  83  88  0 0
+RGD Willis            not out                                   3  53  41  0 0
+Extras                (b 10, lb 11, w 1, nb 19)                41
+Total                 (9 wickets, 183 overs)                  432
+
+FoW: 1-32 (Boycott), 2-102 (Jameson), 3-107 (Hayes),
+     4-176 (Denness), 5-217 (Greig), 6-258 (Underwood),
+     7-271 (Knott), 8-343 (Old), 9-392 (Pocock).
+
+Bowling                      O      M      R      W
+Boyce                       21      4     70      2
+Julien                      13      3     36      0
+Sobers                      34     13     73      1
+Barrett                     54     24     87      3
+Gibbs                       44     15     82      1
+Fredericks                   6      1     17      0
+Lloyd                        3      1      5      0
+Kanhai                       3      1      8      0
+Rowe                         2      1      1      0
+Kallicharran                 3      0     12      0
+
+<END>

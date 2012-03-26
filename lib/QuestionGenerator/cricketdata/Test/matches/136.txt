@@ -1,0 +1,102 @@
+
+Test # 136
+The Ashes, 1920/21, 2nd Test
+Australia v England
+Melbourne Cricket Ground
+31 December 1920, 1,3,4 January 1921 (timeless match)
+
+Result: Australia won by an innings and 91 runs
+Series: Australia leads the 5-match series 2-0
+
+Toss: Australia
+Umpires: RM Crockett and DA Elder
+Test debuts: RL Park (Australia); H Howell, JWH Makepeace (England).
+
+Close of play:
+ Day 1: Australia 282/6 (Pellew 33*, Ryder 13*)
+ Day 2: Australia 499, England 93/2 (Hobbs 53*, Hendren 29*)
+ Day 3: England 251, England 76/5 (Woolley 15*, Douglas 0*)
+
+Australia 1st innings                                           R   M   B  4 6
+HL Collins            c Hearne           b Howell              64 103 115  6 0
+W Bardsley            c Strudwick        b Woolley             51 115  89  5 0
+RL Park                                  b Howell               0   1   1  0 0
+JM Taylor             c Woolley          b Parkin              68 128 108  5 0
+*WW Armstrong         lbw                b Douglas             39  60  64  1 0
+C Kelleway            c Strudwick        b Howell               9  28  24  0 0
+CE Pellew                                b Parkin             116 203 186  8 0
+J Ryder               c Woolley          b Douglas             13  47  61  0 0
+JM Gregory            c Russell          b Woolley            100 137 115 12 0
++WAS Oldfield                        c & b Rhodes              24  35  50  3 0
+AA Mailey             not out                                   8  24  12  0 0
+Extras                (b 1, lb 3, w 1, nb 2)                    7
+Total                 (all out, 137.3 overs)                  499
+
+FoW: 1-116 (Collins), 2-116 (Park), 3-118 (Bardsley),
+     4-194 (Armstrong), 5-220 (Kelleway), 6-251 (Taylor),
+     7-282 (Ryder), 8-455 (Pellew), 9-469 (Gregory),
+     10-499 (Oldfield).
+
+Bowling                      O      M      R      W
+Howell                      37      5    142      3
+Douglas                     24      1     83      2
+Parkin                      27      0    116      2
+Hearne                      14      0     38      0
+Woolley                     27      8     87      2
+Rhodes                       8.3    1     26      1
+
+England 1st innings                                             R   M   B  4 6
+JB Hobbs              c Ryder            b Gregory            122 210 218  9 0
+W Rhodes                                 b Gregory              7  15  15  0 0
+JWH Makepeace         lbw                b Armstrong            4  11  11  0 0
+EH Hendren            c Taylor           b Gregory             67 140 146  3 0
+CAG Russell           c Collins          b Gregory              0   7   1  0 0
+FE Woolley                               b Gregory              5  17  12  0 0
+*JWHT Douglas         lbw                b Gregory             15  44  51  0 0
+CH Parkin             c Mailey           b Gregory              4   6   8  1 0
++H Strudwick          not out                                  21  44  37  0 0
+H Howell              st Oldfield        b Armstrong            5  15  25  0 0
+JW Hearne             absent hurt                               -
+Extras                (nb 1)                                    1
+Total                 (all out, 87.3 overs)                   251
+
+FoW: 1-20 (Rhodes), 2-32 (Makepeace), 3-174 (Hendren),
+     4-185 (Russell), 5-201 (Woolley), 6-208 (Hobbs),
+     7-213 (Parkin), 8-232 (Douglas), 9-251 (Howell).
+
+Bowling                      O      M      R      W
+Gregory                     20      1     69      7
+Kelleway                    19      1     54      0
+Armstrong                   24.3    8     50      2
+Ryder                       14      2     31      0
+Park                         1      0      9      0
+Collins                      9      0     37      0
+
+England 2nd innings (following on)                              R   M   B  4 6
+JB Hobbs                                 b Kelleway            20  34  37  2 0
+W Rhodes              c Collins          b Armstrong           28  83  90  0 0
+JWH Makepeace         c Gregory          b Armstrong            4  31  36  0 0
+EH Hendren                           c & b Collins              1   7  12  0 0
+CAG Russell           c Armstrong        b Collins              5  21  16  0 0
+FE Woolley                               b Ryder               50 109 112  3 0
+*JWHT Douglas                            b Gregory              9  42  38  1 0
++H Strudwick          c Oldfield         b Armstrong           24  36  40  1 0
+CH Parkin             c Taylor           b Armstrong            9  19  24  1 0
+H Howell              not out                                   0   8   8  0 0
+JW Hearne             absent hurt                               -
+Extras                (b 3, lb 3, nb 1)                         7
+Total                 (all out, 67.2 overs)                   157
+
+FoW: 1-36 (Hobbs), 2-53 (Makepeace), 3-54 (Hendren),
+     4-58 (Rhodes), 5-70 (Russell), 6-104 (Douglas),
+     7-141 (Strudwick), 8-151 (Woolley), 9-157 (Parkin).
+
+Bowling                      O      M      R      W
+Gregory                     12      0     32      1
+Kelleway                    12      1     25      1
+Armstrong                   15.2    5     26      4
+Ryder                       10      2     17      1
+Collins                     17      5     47      2
+Pellew                       1      0      3      0
+
+<END>

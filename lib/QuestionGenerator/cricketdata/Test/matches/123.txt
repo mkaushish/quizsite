@@ -1,0 +1,76 @@
+
+Test # 123
+The Ashes, 1912, 1st Test
+Triangular Tournament, 1912, 3rd match
+England v Australia
+Lord's, London
+24,25,26 June 1912 (3-day match)
+
+Result: Match drawn
+Triangular Tournament points: England 0, Australia 0
+The Ashes: 3-match series level 0-0
+
+Toss: England
+Umpires: J Moss and AE Street
+Test debuts: DBM Smith (Australia); H Dean (England).
+
+Close of play:
+ Day 1: England 211/4 (Fry 24*)
+ Day 2: England 241/4 (Fry 41*, Woolley 8*)
+
+England 1st innings                                             R   M   B  4 6
+JB Hobbs                                 b Emery              107 167     15 0
+W Rhodes              c Carkeek          b Kelleway            59  95      8 0
+RH Spooner            c Bardsley         b Kelleway             1          0 0
+*CB Fry               run out                                  42            0
+PF Warner                                b Emery                4            0
+FE Woolley            c Kelleway         b Hazlitt             20            0
+FR Foster             c Macartney        b Whitty              20            0
+JW Hearne             not out                                  21            0
++EJ Smith             not out                                  14            0
+Extras                (b 16, lb 4, nb 2)                       22
+Total                 (7 wickets dec, 90 overs)               310
+
+DNB: SF Barnes, H Dean.
+
+FoW: 1-112 (Rhodes), 2-123 (Spooner), 3-197 (Hobbs),
+     4-211 (Warner), 5-246 (Fry), 6-255 (Woolley),
+     7-285 (Foster).
+
+Bowling                      O      M      R      W
+Whitty                      12      2     69      1
+Hazlitt                     25      6     68      1
+Matthews                    13      4     26      0
+Kelleway                    21      5     66      2
+Emery                       12      1     46      2
+Macartney                    7      1     13      0
+
+Australia 1st innings                                           R   M   B  4 6
+CB Jennings           c Smith            b Foster              21  45        0
+C Kelleway                               b Rhodes              61 275        0
+CG Macartney          c Smith            b Foster              99 135        1
+W Bardsley            lbw                b Rhodes              21            0
+*SE Gregory           c Foster           b Dean                10            0
+DBM Smith             not out                                  24            0
+TJ Matthews                              b Dean                 0          0 0
+GR Hazlitt                               b Rhodes              19            0
+Extras                (b 17, lb 5, w 1, nb 4)                  27
+Total                 (7 wickets, 127.2 overs)                282
+
+DNB: SH Emery, WJ Whitty, +W Carkeek.
+
+FoW: 1-27 (Jennings), 2-173 (Macartney), 3-226 (Bardsley),
+     4-233 (Kelleway), 5-243 (Gregory), 6-243 (Matthews),
+     7-282 (Hazlitt).
+
+Bowling                      O      M      R      W
+Foster                      36     18     42      2
+Barnes                      31     10     74      0
+Dean                        29     10     49      2
+Hearne                      12      1     31      0
+Rhodes                      19.2    5     59      3
+
+*** Only 3.5 hours play was possible on the first day, and 20 minutes on the
+    second.
+
+<END>

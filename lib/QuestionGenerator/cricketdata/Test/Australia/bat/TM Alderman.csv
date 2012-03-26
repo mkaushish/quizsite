@@ -1,0 +1,54 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+903, 1981-06-18, 2, 11, England, not out, , 12, 51, 31, 0, 0
+904, 1981-07-02, 2, 11, England, c Taylor, Willis, 5, 57, 42, 0, 0
+905, 1981-07-16, 1, 11, England, not out, , 0, 0, 0, 0, 0
+905, 1981-07-16, 4, 11, England, not out, , 0, 6, 5, 0, 0
+906, 1981-07-30, 2, 11, England, not out, , 3, 6, 3, 0, 0
+906, 1981-07-30, 4, 11, England, , Botham, 0, 2, 3, 0, 0
+907, 1981-08-13, 2, 11, England, not out, , 2, 2, 1, 0, 0
+907, 1981-08-13, 4, 10, England, lbw, Botham, 0, 13, 10, 0, 0
+908, 1981-08-27, 1, 10, England, , Botham, 0, 2, 2, 0, 0
+909, 1981-11-13, 1, 11, Pakistan, not out, , 0, 2, 0, 0, 0
+910, 1981-11-27, 2, 11, Pakistan, not out, , 5, 17, 17, 1, 0
+913, 1981-12-11, 2, 11, Pakistan, lbw, Imran Khan, 1, 4, 2, 0, 0
+913, 1981-12-11, 3, 11, Pakistan, not out, , 4, 3, 4, 1, 0
+915, 1981-12-26, 1, 11, West Indies, c Murray, Croft, 10, 56, 26, 1, 0
+915, 1981-12-26, 3, 11, West Indies, , Holding, 1, 9, 10, 0, 0
+917, 1982-01-02, 2, 5, West Indies, , Clarke, 0, 10, 11, 0, 0
+924, 1982-03-12, 1, 11, New Zealand, not out, , 0, 7, 3, 0, 0
+924, 1982-03-12, 3, 11, New Zealand, not out, , 0, 9, 5, 0, 0
+926, 1982-03-19, 1, 11, New Zealand, not out, , 1, 2, 2, 0, 0
+937, 1982-10-14, 1, 11, Pakistan, , Imran Khan, 7, 48, 39, 0, 0
+937, 1982-10-14, 3, 11, Pakistan, c Zaheer Abbas, Imran Khan, 0, 4, 4, 0, 0
+979, 1984-03-02, 1, 10, West Indies, lbw, Garner, 1, 5, 9, 0, 0
+979, 1984-03-02, 3, 11, West Indies, not out, , 3, 10, 7, 0, 0
+983, 1984-03-16, 1, 11, West Indies, c Richardson, Garner, 1, 14, 9, 0, 0
+983, 1984-03-16, 3, 11, West Indies, not out, , 21, 105, 69, 3, 0
+986, 1984-03-30, 1, 11, West Indies, not out, , 2, 81, 35, 0, 0
+986, 1984-03-30, 3, 11, West Indies, , Marshall, 0, 12, na, 0, 0
+997, 1984-11-09, 2, 11, West Indies, not out, , 0, 8, 2, 0, 0
+997, 1984-11-09, 3, 11, West Indies, c Richardson, Holding, 23, 61, 50, 3, 0
+999, 1984-11-23, 1, 9, West Indies, c Lloyd, Walsh, 0, 14, 9, 0, 0
+999, 1984-11-23, 3, 7, West Indies, c Richardson, Marshall, 1, 11, 11, 0, 0
+1002, 1984-12-07, 2, 11, West Indies, c Richardson, Marshall, 10, 49, 33, 0, 0
+1002, 1984-12-07, 4, 11, West Indies, , Marshall, 0, 6, 6, 0, 0
+1112, 1988-12-24, 2, 11, West Indies, , Walsh, 3, 11, 8, 0, 0
+1112, 1988-12-24, 4, 11, West Indies, c Dujon, Patterson, 0, 6, 2, 0, 0
+1113, 1989-01-26, 2, 11, West Indies, run out, , 9, 12, 10, 1, 0
+1122, 1989-06-22, 2, 11, England, lbw, Emburey, 8, 37, 39, 1, 0
+1123, 1989-07-06, 1, 11, England, not out, , 0, 11, 8, 0, 0
+1124, 1989-07-27, 2, 11, England, not out, , 6, 23, 12, 0, 0
+1126, 1989-08-24, 1, 11, England, not out, , 6, 16, 10, 1, 0
+1131, 1989-12-08, 1, 11, Sri Lanka, c PA de Silva, Gurusinha, 18, 37, 31, 4, 0
+1133, 1989-12-16, 1, 11, Sri Lanka, , Ratnayake, 0, 1, 1, 0, 0
+1134, 1990-01-12, 1, 10, Pakistan, c Aamer Malik, Wasim Akram, 0, 2, 2, 0, 0
+1134, 1990-01-12, 3, 10, Pakistan, not out, , 1, 24, 19, 0, 0
+1141, 1990-03-15, 1, 11, New Zealand, , Hadlee, 4, 8, 4, 1, 0
+1141, 1990-03-15, 3, 11, New Zealand, st Smith, Bracewell, 1, 7, 8, 0, 0
+1155, 1990-11-23, 2, 11, England, not out, , 0, 4, 3, 0, 0
+1159, 1990-12-26, 2, 10, England, , Fraser, 0, 9, 10, 0, 0
+1160, 1991-01-04, 1, 10, England, not out, , 26, 86, 73, 1, 0
+1160, 1991-01-04, 3, 10, England, c Gower, Tufnell, 1, 10, 10, 0, 0
+1163, 1991-02-01, 2, 11, England, lbw, DeFreitas, 7, 25, 21, 1, 0
+1170, 1991-04-27, 1, 11, West Indies, , Walsh, 0, 4, 2, 0, 0
+1170, 1991-04-27, 3, 11, West Indies, not out, , 0, 2, 2, 0, 0

@@ -3,6 +3,6 @@
 	<%= hidden_field_tag 'problem_id', @problem.id %>
   <%= render :partial => 'problem/problem', :object => @problem, :locals => {:partialdir => 'problem'} %>
 	<div class="actions">
-		<%= submit_tag "Submit Answer" %>
+    <%= submit_tag "Submit Answer", :class=>"btn-primary" %>
 	</div>
 <% end %>

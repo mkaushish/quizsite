@@ -1,0 +1,131 @@
+
+Test # 519
+New Zealand in South Africa, 1961/62, 3rd Test
+South Africa v New Zealand
+Newlands, Cape Town
+1,2,3,4 January 1962 (4-day match)
+
+Result: New Zealand won by 72 runs
+Series: 5-match series level 1-1
+
+Toss: New Zealand
+Umpires: DV Collins and JE Warner
+Test debuts: SF Burke, WS Farrer (South Africa).
+
+Close of play:
+ Day 1: New Zealand 337/4 (Harris 91*, Chapple 58*)
+ Day 2: New Zealand 385, South Africa 190, New Zealand 8/0 (McGregor 1*, Dowling 7*)
+ Day 3: New Zealand 212/9d, South Africa 54/2 (Waite 5*)
+
+New Zealand 1st innings                                         R   M   B  4 6
+SN McGregor                              b Burke               68 141     11 0
+GT Dowling            lbw                b Lawrence             0          0 0
+JT Sparling           c Elgie            b Burke               19            0
+*JR Reid              c Bromfield        b McKinnon            92 135     10 0
+PGZ Harris            st Waite           b Bromfield          101 269     10 2
+ME Chapple            c Waite            b Burke               69 155     10 0
++AE Dick              c Waite            b Burke                4            0
+GA Bartlett           c Waite            b Burke               12            0
+RC Motz                                  b Burke                0          0 0
+JC Alabaster          c Farrer           b Bromfield            1          0 0
+FJ Cameron            not out                                   2          0 0
+Extras                (lb 8, nb 9)                             17
+Total                 (all out, 157.5 overs)                  385
+
+FoW: 1-15 (Dowling), 2-59 (Sparling), 3-116 (McGregor),
+     4-209 (Reid), 5-357 (Chapple), 6-367 (Harris), 7-369 (Dick),
+     8-369 (Motz), 9-370 (Alabaster), 10-385 (Bartlett).
+
+Bowling                      O      M      R      W
+Burke                       53.5   19    128      6
+Lawrence                    23      7     46      1
+McKinnon                    19      6     42      1
+Barlow                       9      0     40      0
+Bromfield                   46     11     94      2
+Elgie                        7      2     18      0
+
+South Africa 1st innings                                        R   M   B  4 6
+*DJ McGlew            c Bartlett         b Motz                14  41        0
+EJ Barlow             c Harris           b Alabaster           51  94     10 0
+WS Farrer             c Dick             b Alabaster           11            0
++JHB Waite            c Chapple          b Cameron             33            0
+RA McLean             c Dick             b Cameron             20            0
+KC Bland                                 b Alabaster           32  75        1
+MK Elgie              c Chapple          b Alabaster            6            0
+SF Burke              c Dick             b Cameron              0          0 0
+GB Lawrence           c Reid             b Cameron              4            0
+AH McKinnon           not out                                   9            0
+HD Bromfield          lbw                b Cameron              1          0 0
+Extras                (b 6, lb 2, nb 1)                         9
+Total                 (all out, 68.4 overs)                   190
+
+FoW: 1-36 (McGlew), 2-67 (Farrer), 3-85 (Barlow), 4-124 (McLean),
+     5-157 (Waite), 6-164 (Elgie), 7-165 (Burke),
+     8-173 (Lawrence), 9-185 (Bland), 10-190 (Bromfield).
+
+Bowling                      O      M      R      W
+Motz                        11      2     30      1
+Cameron                     24.4   10     48      5
+Alabaster                   21      4     61      4
+Bartlett                     5      1     17      0
+Sparling                     6      1     22      0
+Chapple                      1      0      3      0
+
+New Zealand 2nd innings                                         R   M   B  4 6
+SN McGregor           run out                                  20            0
+GT Dowling            c Barlow           b Burke               12            0
+JT Sparling           c Waite            b Burke                9            0
+*JR Reid              c Bromfield        b Burke               14            0
+PGZ Harris            c Bland            b Burke               30            0
+ME Chapple                               b Burke               33  93        0
+GA Bartlett           st Waite           b McKinnon            29  56        0
++AE Dick              not out                                  50  92      6 0
+RC Motz               c Barlow           b Bromfield            0          0 0
+JC Alabaster          st Waite           b McKinnon             4            0
+FJ Cameron            not out                                  10  42        0
+Extras                (b 1)                                     1
+Total                 (9 wickets dec, 88.1 overs)             212
+
+FoW: 1-28 (Dowling), 2-40 (McGregor), 3-44 (Sparling),
+     4-61 (Reid), 5-106 (Harris), 6-127 (Chapple),
+     7-158 (Bartlett), 8-159 (Motz), 9-163 (Alabaster).
+
+Bowling                      O      M      R      W
+Burke                       27.1   10     68      5
+McKinnon                    17      7     32      2
+Barlow                      20      2     53      0
+Bromfield                   24      3     58      1
+
+South Africa 2nd innings (target: 408 runs)                     R   M   B  4 6
+*DJ McGlew            c Dick             b Bartlett            63 190      9 0
+EJ Barlow             c Reid             b Alabaster           16            0
+WS Farrer             c Dowling          b Alabaster           20            0
++JHB Waite            lbw                b Alabaster           21  55        0
+RA McLean             c Harris           b Bartlett           113 174     18 1
+KC Bland              lbw                b Reid                42 136      3 2
+MK Elgie              c Harris           b Cameron             12            0
+SF Burke              c Motz             b Sparling            12            0
+GB Lawrence           c Harris           b Reid                 0          0 0
+AH McKinnon                              b Alabaster            4            0
+HD Bromfield          not out                                   0  15      0 0
+Extras                (b 14, lb 13, w 4, nb 1)                 32
+Total                 (all out, 142.2 overs)                  335
+
+FoW: 1-27 (Barlow), 2-54 (Farrer), 3-100 (Waite), 4-201 (McGlew),
+     5-273 (McLean), 6-315 (Elgie), 7-317 (Bland), 8-331 (Burke),
+     9-335 (McKinnon), 10-335 (Lawrence).
+
+Bowling                      O      M      R      W
+Motz                        24      9     69      0
+Cameron                     26     14     42      1
+Alabaster                   50     12    119      4
+Bartlett                    22      8     40      2
+Sparling                     6      3     12      1
+Reid                        14.2    8     21      2
+
+*** DJ McGlew (2) retired hurt on 11* from 11/0 to 100/3
+*** SF Burke (11-196) became the first bowler to take ten wickets in New
+    Zealand v South Africa Tests.
+*** NZ's 2nd ever Test victory, and the 1st away from home
+
+<END>

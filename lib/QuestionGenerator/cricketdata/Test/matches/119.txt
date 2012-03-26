@@ -1,0 +1,102 @@
+
+Test # 119
+The Ashes, 1911/12, 4th Test
+Australia v England
+Melbourne Cricket Ground
+9,10,12,13 February 1912 (timeless match)
+
+Result: England won by an innings and 225 runs
+Series: England leads the 5-match series 3-1
+
+Toss: England
+Umpires: RM Crockett and WA Young
+Test debut: J Vine (England).
+
+Close of play:
+ Day 1: Australia 191, England 54/0 (Hobbs 30*, Rhodes 23*)
+ Day 2: England 370/1 (Rhodes 157*, Gunn 22*)
+ Day 3: England 589, Australia 8/0 (Kelleway 2*, Carter 5*)
+
+Australia 1st innings                                           R   M   B  4 6
+C Kelleway            c Hearne           b Woolley             29  75  78  4 0
+HV Hordern                               b Barnes              19  81  84  1 0
+W Bardsley                               b Foster               0  19   8  0 0
+VT Trumper                               b Foster              17  23  33  1 0
+*C Hill               c Hearne           b Barnes              22  61  40  1 0
+WW Armstrong                             b Barnes               7  10  17  1 0
+RB Minnett            c Rhodes           b Foster              56  80  77  6 0
+VS Ransford           c Rhodes           b Foster               4  22  15  0 0
+TJ Matthews           c Gunn             b Barnes               3  16  13  0 0
+A Cotter                                 b Barnes              15  22  19  3 0
++H Carter             not out                                   6  16  18  1 0
+Extras                (b 1, lb 5, nb 7)                        13
+Total                 (all out, 65.1 overs)                   191
+
+FoW: 1-53 (Kelleway), 2-53 (Hordern), 3-69 (Bardsley),
+     4-74 (Trumper), 5-83 (Armstrong), 6-124 (Hill),
+     7-152 (Ransford), 8-165 (Minnett), 9-170 (Matthews),
+     10-191 (Cotter).
+
+Bowling                      O      M      R      W
+Foster                      22      2     77      4
+Barnes                      29.1    4     74      5
+Woolley                     11      3     22      1
+Rhodes                       2      1      1      0
+Hearne                       1      0      4      0
+
+England 1st innings                                             R   M   B  4 6
+JB Hobbs              c Carter           b Hordern            178 268 296 22 0
+W Rhodes              c Carter           b Minnett            179 397 405 15 0
+G Gunn                c Hill             b Armstrong           75 174 184  6 0
+JW Hearne             c Armstrong        b Minnett              0   1   3  0 0
+FR Foster             c Hordern          b Armstrong           50  84  86  4 0
+*JWHT Douglas         c Bardsley         b Armstrong            0   1   2  0 0
+FE Woolley            c Kelleway         b Minnett             56  76  78  4 1
+CP Mead                                  b Hordern             21  56  57  2 0
+J Vine                not out                                   4  39  33  0 0
++EJ Smith             c Matthews         b Kelleway             7  14  20  0 0
+SF Barnes             c Hill             b Hordern              0   3   2  0 0
+Extras                (b 2, lb 4, w 4, nb 9)                   19
+Total                 (all out, 190.5 overs)                  589
+
+FoW: 1-323 (Hobbs), 2-425 (Rhodes), 3-425 (Hearne), 4-486 (Gunn),
+     5-486 (Douglas), 6-513 (Foster), 7-565 (Woolley),
+     8-579 (Mead), 9-589 (Smith), 10-589 (Barnes).
+
+Bowling                      O      M      R      W
+Cotter                      37      5    125      0
+Kelleway                    26      2     80      1
+Armstrong                   36     12     93      3
+Matthews                    22      1     68      0
+Hordern                     47.5    5    137      3
+Minnett                     20      5     59      3
+Ransford                     2      1      8      0
+
+Australia 2nd innings                                           R   M   B  4 6
+C Kelleway            c Smith            b Barnes               5  21  25  0 0
++H Carter             c Hearne           b Douglas             38 103 120  2 0
+W Bardsley                               b Foster               3  14  19  0 0
+VT Trumper                               b Barnes              28  81  77  3 0
+*C Hill                                  b Douglas             11  49  34  0 0
+WW Armstrong                             b Douglas             11  14  16  1 0
+RB Minnett                               b Douglas              7  21  17  0 0
+VS Ransford           not out                                  29  49  34  5 0
+A Cotter              c Mead             b Foster               8   8   9  1 0
+TJ Matthews                              b Foster              10  17  15  2 0
+HV Hordern            c Foster           b Douglas              5  12  14  1 0
+Extras                (b 9, lb 2, nb 7)                        18
+Total                 (all out, 61.5 overs)                   173
+
+FoW: 1-12 (Kelleway), 2-20 (Bardsley), 3-76 (Carter),
+     4-86 (Trumper), 5-101 (Armstrong), 6-112 (Hill),
+     7-117 (Minnett), 8-127 (Cotter), 9-156 (Matthews),
+     10-173 (Hordern).
+
+Bowling                      O      M      R      W
+Foster                      19      3     38      3
+Barnes                      20      6     47      2
+Woolley                      2      0      7      0
+Hearne                       3      0     17      0
+Douglas                     17.5    6     46      5
+
+<END>

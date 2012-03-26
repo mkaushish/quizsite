@@ -1,0 +1,47 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+624, 1967-12-23, 1, 9, India, lbw, Abid Ali, 1, 12, na, 0, 0
+624, 1967-12-23, 3, 9, India, not out, , 18, 59, na, 1, 0
+625, 1968-12-30, 2, 9, India, c Borde, Prasanna, 13, 26, 27, 1, 0
+626, 1968-01-19, 1, 9, India, run out, , 15, 67, na, 0, 0
+626, 1968-01-19, 3, 9, India, c Abid Ali, Surti, 1, 14, na, 0, 0
+628, 1968-01-26, 1, 11, India, lbw, Prasanna, 14, 51, 54, 1, 0
+628, 1968-01-26, 3, 11, India, not out, , 4, 12, 16, 1, 0
+637, 1968-06-06, 1, 10, England, c Knott, Higgs, 0, 18, 13, 0, 0
+637, 1968-06-06, 3, 10, England, run out, , 2, 10, 13, 0, 0
+638, 1968-06-20, 2, 9, England, c Cowdrey, Brown, 14, 19, 17, 3, 0
+639, 1968-07-11, 2, 10, England, c Illingworth, Underwood, 3, 8, 14, 0, 0
+640, 1968-07-25, 1, 10, England, not out, , 2, 20, 22, 0, 0
+640, 1968-07-25, 3, 10, England, c Knott, Underwood, 7, 41, 51, 1, 0
+641, 1968-08-22, 2, 10, England, c Dexter, Underwood, 19, 54, 43, 2, 0
+641, 1968-08-22, 4, 10, England, , Underwood, 5, 13, 15, 1, 0
+642, 1968-12-06, 2, 10, West Indies, not out, , 1, 8, na, 0, 0
+642, 1968-12-06, 4, 10, West Indies, c sub, Sobers, 10, 12, na, 2, 0
+643, 1968-12-26, 2, 10, West Indies, , Gibbs, 0, 1, 1, 0, 0
+644, 1969-01-03, 2, 10, West Indies, not out, , 42, 125, 135, 3, 0
+645, 1969-01-24, 2, 10, West Indies, , Gibbs, 17, 60, na, 2, 0
+645, 1969-01-24, 4, 10, West Indies, lbw, Griffith, 0, 5, na, 0, 0
+646, 1969-02-14, 1, 10, West Indies, c Hendriks, Hall, 45, 127, 103, 3, 0
+646, 1969-02-14, 3, 10, West Indies, not out, , 5, 4, 5, 1, 0
+664, 1969-11-04, 2, 10, India, c Borde, Prasanna, 0, na, na, 0, 0
+666, 1969-11-15, 2, 10, India, , Guha, 13, na, na, na, 0
+667, 1969-11-28, 1, 10, India, c Solkar, Prasanna, 1, na, na, 0, 0
+667, 1969-11-28, 3, 10, India, c Viswanath, Bedi, 1, na, na, 0, 0
+670, 1970-01-22, 2, 10, South Africa, , Goddard, 17, 47, 49, 2, 0
+670, 1970-01-22, 4, 10, South Africa, , Richards, 10, 20, 21, 2, 0
+671, 1970-02-05, 2, 10, South Africa, not out, , 4, 35, 31, 0, 0
+671, 1970-02-05, 3, 10, South Africa, c Gamsy, Procter, 24, 106, 87, 2, 0
+672, 1970-02-19, 2, 10, South Africa, , Procter, 0, 7, 9, 0, 0
+672, 1970-02-19, 4, 10, South Africa, , Goddard, 0, 2, 2, 0, 0
+673, 1970-03-05, 2, 10, South Africa, c Lindsay, PM Pollock, 8, 31, 15, 2, 0
+673, 1970-03-05, 4, 10, South Africa, , Procter, 0, 1, 1, 0, 0
+674, 1970-11-27, 1, 10, England, c Cowdrey, Snow, 0, 9, 5, 0, 0
+674, 1970-11-27, 3, 10, England, , Shuttleworth, 6, 14, 17, 0, 0
+675, 1970-12-11, 2, 10, England, c Knott, Snow, 15, 38, 35, 3, 0
+676, 1971-01-09, 2, 10, England, c Fletcher, D'Oliveira, 0, 7, 11, 0, 0
+676, 1971-01-09, 4, 10, England, , Snow, 0, 4, 5, 0, 0
+677, 1971-01-21, 1, 9, England, c Cowdrey, Willis, 5, 8, 9, 1, 0
+678, 1971-01-29, 2, 9, England, c Boycott, Willis, 16, 52, 46, 2, 0
+698, 1972-06-08, 2, 10, England, , Snow, 0, 1, 2, 0, 0
+698, 1972-06-08, 4, 10, England, , Greig, 30, 88, 75, 3, 0
+699, 1972-06-22, 2, 7, England, c Knott, Greig, 1, 32, 24, 0, 0
+700, 1972-07-13, 1, 10, England, not out, , 6, 31, 28, 0, 0

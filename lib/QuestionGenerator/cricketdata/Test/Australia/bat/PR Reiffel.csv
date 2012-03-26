@@ -1,0 +1,51 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+1186, 1992-02-01, 1, 9, India, c More, Prabhakar, 9, 47, 34, 0, 0
+1215, 1993-02-25, 1, 9, New Zealand, c Greatbatch, Su'a, 18, 27, 19, 4, 0
+1216, 1993-03-04, 2, 9, New Zealand, lbw, Morrison, 7, 18, 15, 1, 0
+1217, 1993-03-12, 1, 9, New Zealand, c Blain, Morrison, 9, 61, 42, 2, 0
+1217, 1993-03-12, 3, 9, New Zealand, , Watson, 1, 17, 15, 0, 0
+1230, 1993-08-05, 2, 9, England, , Such, 20, 108, 89, 4, 0
+1231, 1993-08-19, 2, 9, England, c Maynard, Watkin, 0, 2, 3, 0, 0
+1231, 1993-08-19, 4, 9, England,                c &, Fraser, 42, 73, 59, 6, 0
+1235, 1993-11-12, 1, 8, New Zealand, c Jones, Watson, 51, 102, 65, 5, 0
+1236, 1993-11-26, 1, 8, New Zealand, not out, , 23, 41, 25, 3, 0
+1246, 1994-01-28, 1, 8, South Africa, not out, , 32, 85, 65, 4, 0
+1246, 1994-01-28, 3, 8, South Africa, not out, , 2, 13, 5, 0, 0
+1256, 1994-03-25, 1, 8, South Africa, lbw, de Villiers, 13, 58, 47, 0, 0
+1294, 1995-03-31, 2, 9, West Indies, , WKM Benjamin, 1, 4, 6, 0, 0
+1295, 1995-04-08, 1, 9, West Indies, not out, , 22, 71, 47, 1, 0
+1295, 1995-04-08, 3, 9, West Indies, not out, , 13, 31, 24, 1, 0
+1296, 1995-04-21, 1, 9, West Indies, c Lara, Walsh, 11, 45, 39, 2, 0
+1296, 1995-04-21, 3, 9, West Indies, c Hooper, Ambrose, 6, 29, 18, 0, 0
+1297, 1995-04-29, 2, 9, West Indies, , KCG Benjamin, 23, 97, 81, 2, 0
+1311, 1995-11-09, 1, 8, Pakistan, lbw, Waqar Younis, 9, 40, 32, 0, 0
+1313, 1995-11-17, 1, 8, Pakistan, c Mohammad Akram, Mushtaq Ahmed, 14, 42, 41, 1, 0
+1313, 1995-11-17, 3, 8, Pakistan, , Mushtaq Ahmed, 0, 3, 3, 0, 0
+1314, 1995-11-30, 2, 8, Pakistan, not out, , 10, 56, 31, 1, 0
+1314, 1995-11-30, 4, 10, Pakistan, not out, , 2, 19, 12, 0, 0
+1319, 1995-12-26, 1, 8, Sri Lanka, not out, , 4, 13, 13, 0, 0
+1324, 1996-01-25, 1, 8, Sri Lanka, c Gurusinha, Wickramasinghe, 56, 163, 124, 7, 0
+1324, 1996-01-25, 3, 8, Sri Lanka, not out, , 14, 25, 15, 2, 0
+1335, 1996-10-10, 1, 9, India, c Dravid, Kumble, 7, 26, 31, 1, 0
+1335, 1996-10-10, 3, 9, India, lbw, Kumble, 6, 37, 39, 0, 0
+1340, 1996-11-22, 1, 8, West Indies,                c &, Walsh, 20, 83, 61, 0, 0
+1340, 1996-11-22, 3, 7, West Indies, run out (Campbell), , 11, 16, 10, 2, 0
+1346, 1996-12-26, 1, 8, West Indies, c Samuels, Benjamin, 0, 8, 4, 0, 0
+1346, 1996-12-26, 3, 8, West Indies, lbw, Benjamin, 8, 17, 11, 1, 0
+1353, 1997-02-01, 1, 8, West Indies, c Simmons, Ambrose, 0, 1, 1, 0, 0
+1353, 1997-02-01, 3, 8, West Indies, c Adams, Walsh, 5, 5, 6, 1, 0
+1370, 1997-06-19, 2, 9, England, not out, , 1, 6, 6, 0, 0
+1372, 1997-07-03, 1, 9, England, , Gough, 31, 103, 84, 1, 0
+1372, 1997-07-03, 3, 9, England, not out, , 45, 108, 88, 6, 0
+1373, 1997-07-24, 2, 9, England, not out, , 54, 109, 72, 5, 0
+1375, 1997-08-07, 1, 9, England, c Thorpe, Headley, 26, 62, 45, 4, 0
+1375, 1997-08-07, 3, 9, England, c BC Hollioake, Croft, 22, 56, 37, 3, 0
+1383, 1997-11-07, 1, 8, New Zealand, c Parore, Allott, 77, 139, 113, 10, 0
+1383, 1997-11-07, 3, 8, New Zealand, not out, , 28, 56, 40, 3, 0
+1386, 1997-11-20, 2, 8, New Zealand, c Fleming, Cairns, 54, 108, 88, 7, 0
+1388, 1997-11-27, 1, 8, New Zealand, c Young, Doull, 19, 34, 26, 3, 0
+1392, 1997-12-26, 1, 8, South Africa, , Symcox, 27, 77, 54, 2, 0
+1392, 1997-12-26, 3, 8, South Africa, not out, , 79, 154, 115, 6, 0
+1393, 1998-01-02, 2, 9, South Africa, , Donald, 0, 12, 7, 0, 0
+1405, 1998-03-06, 2, 8, India, c Dravid, Kumble, 15, 51, 51, 1, 0
+1405, 1998-03-06, 4, 4, India, c Azharuddin, Raju, 8, 100, 84, 1, 0

@@ -1,0 +1,106 @@
+
+Test # 771
+India in New Zealand, 1975/76, 2nd Test
+New Zealand v India
+Lancaster Park, Christchurch
+5,6,7,8,9,10 February 1976 (5-day match)
+
+Result: Match drawn
+Series: India leads the 3-match series 1-0
+
+Toss: India
+Umpires: DEA Copps and WRC Gardiner
+Balls per over: 8
+Test debut: ADG Roberts (New Zealand).
+
+Close of play:
+ Day 1: India 270, New Zealand 26/0 (Morrison 11*, Turner 9*)
+ Day 2: New Zealand 237/2 (Turner 101*, Parker 39*)
+ Day 3: No play
+ Day 4: New Zealand 361/9 (RJ Hadlee 5*)
+ Day 5: New Zealand 403, India 16/0 (Gavaskar 5*, Vengsarkar 9*)
+
+India 1st innings                                               R   M   B  4 6
+SM Gavaskar           c Burgess          b Collinge            22            0
+DB Vengsarkar         c Wadsworth        b Collinge            16            0
+S Amarnath                               b Collinge            11            0
+GR Viswanath          c Turner           b DR Hadlee           83 178     10 0
+BP Patel              c Burgess          b Collinge             8            0
+M Amarnath            lbw                b Congdon             45            0
+S Madan Lal           c Wadsworth        b DR Hadlee            5            0
++SMH Kirmani          lbw                b Collinge            27            0
+EAS Prasanna          c Roberts          b DR Hadlee            1          0 0
+*BS Bedi              c Howarth          b Collinge            30  50      3 0
+BS Chandrasekhar      not out                                   2          0 0
+Extras                (b 6, lb 4, nb 10)                       20
+Total                 (all out, 60.6 overs)                   270
+
+FoW: 1-32 (Gavaskar), 2-41 (Vengsarkar), 3-52 (S Amarnath),
+     4-98 (Patel), 5-196 (Viswanath), 6-204 (M Amarnath),
+     7-204 (Madan Lal), 8-206 (Prasanna), 9-258 (Bedi),
+     10-270 (Kirmani).
+
+Bowling                      O      M      R      W
+Collinge                    16.6    0     63      6
+RJ Hadlee                   12      1     75      0
+DR Hadlee                   16      0     76      3
+Congdon                     16      3     36      1
+
+New Zealand 1st innings                                         R   M   B  4 6
+JFM Morrison          lbw                b Madan Lal           31  94      3 0
+*GM Turner            c Kirmani          b M Amarnath         117 411      9 0
+BE Congdon            st Kirmani         b Bedi                58 168      5 0
+JM Parker             c Bedi             b M Amarnath          44 135      6 0
+MG Burgess                           c & b Madan Lal           31 129      4 0
+ADG Roberts           lbw                b Madan Lal           17            0
++KJ Wadsworth         c Kirmani          b Madan Lal           29          3 0
+DR Hadlee             c Kirmani          b Madan Lal           10  29      0 1
+RJ Hadlee             c Kirmani          b M Amarnath          33  69      3 1
+RO Collinge           c Kirmani          b M Amarnath           0   6      0 0
+HJ Howarth            not out                                   8  50        0
+Extras                (b 8, lb 14, nb 3)                       25
+Total                 (all out, 132.1 overs)                  403
+
+FoW: 1-56 (Morrison), 2-170 (Congdon), 3-254 (Parker),
+     4-260 (Turner), 5-293 (Roberts), 6-325 (Burgess),
+     7-347 (DR Hadlee), 8-360 (Wadsworth), 9-361 (Collinge),
+     10-403 (RJ Hadlee).
+
+Bowling                      O      M      R      W
+Madan Lal                   43      9    134      5
+M Amarnath                  25.1    5     63      4
+Chandrasekhar               15      2     60      0
+Bedi                        33      7     59      1
+Prasanna                    16      1     62      0
+
+India 2nd innings                                               R   M   B  4 6
+SM Gavaskar           c Howarth          b DR Hadlee           71 203      7 1
+DB Vengsarkar         c Wadsworth        b RJ Hadlee           30  75      3 0
+S Amarnath            c Wadsworth        b Collinge            21            0
+GR Viswanath          c Wadsworth        b Roberts             79 208      7 0
+BP Patel              c Morrison         b Parker               7            0
+M Amarnath            c Wadsworth        b Howarth             30            0
+S Madan Lal           not out                                   4            0
++SMH Kirmani          not out                                   1          0 0
+Extras                (b 2, lb 3, w 1, nb 6)                   12
+Total                 (6 wickets, 79 overs)                   255
+
+DNB: EAS Prasanna, *BS Bedi, BS Chandrasekhar.
+
+FoW: 1-60 (Vengsarkar), 2-97 (S Amarnath), 3-138 (Gavaskar),
+     4-175 (Patel), 5-250 (M Amarnath), 6-250 (Viswanath).
+
+Bowling                      O      M      R      W
+Collinge                    14      1     36      1
+RJ Hadlee                   14      2     64      1
+DR Hadlee                   12      1     52      1
+Congdon                      5      2      5      0
+Howarth                     22      7     48      1
+Parker                       5      2     24      1
+Roberts                      5      1     12      1
+Burgess                      2      1      2      0
+
+*** Match extended by 1 day (the scheduled rest day March 9 became a playing
+    day after the 3rd day was washed out)
+
+<END>

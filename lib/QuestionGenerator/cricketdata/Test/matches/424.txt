@@ -1,0 +1,128 @@
+
+Test # 424
+West Indies in New Zealand, 1955/56, 4th Test
+New Zealand v West Indies
+Eden Park, Auckland
+9,10,12,13 March 1956 (4-day match)
+
+Result: New Zealand won by 190 runs
+Series: West Indies wins the 4-match series 3-1
+
+Toss: New Zealand
+Umpires: JC Harris and TM Pearce
+Test debut: AT Roberts (West Indies).
+
+Close of play:
+ Day 1: New Zealand 203/6 (Reid 82*)
+ Day 2: New Zealand 255, West Indies 96/5 (Furlonge 48*, Roberts 1*)
+ Day 3: West Indies 145, New Zealand 61/2 (MacGibbon 30*)
+
+New Zealand 1st innings                                         R   M   B  4 6
+LSM Miller            c Weekes           b Valentine           47            0
+SN McGregor           c Smith            b Dewdney              2          0 0
+AR MacGibbon                             b Smith                9 100      2 0
+DD Taylor             lbw                b Valentine           11            0
+*JR Reid              hit wicket         b Dewdney             84 190     11 0
+JEF Beck              c Sobers           b Ramadhin            38 124      6 0
++SC Guillen           run out                                   6            0
+ME Chapple            c Atkinson         b Dewdney              3          0 0
+DD Beard              c Binns            b Dewdney             31  94        1
+HB Cave               c Smith            b Dewdney             11            0
+JC Alabaster          not out                                   1          0 0
+Extras                (b 7, lb 5)                              12
+Total                 (all out, 166.5 overs)                  255
+
+FoW: 1-9 (McGregor), 2-45 (MacGibbon), 3-66 (Taylor),
+     4-87 (Miller), 5-191 (Beck), 6-203 (Guillen), 7-205 (Reid),
+     8-210 (Chapple), 9-250 (Cave), 10-255 (Beard).
+
+Bowling                      O      M      R      W
+Dewdney                     19.5   11     21      5
+Atkinson                    32     14     45      0
+Valentine                   41     20     46      2
+Ramadhin                    23      8     41      1
+Smith                       31     19     55      1
+Sobers                      20      7     35      0
+
+West Indies 1st innings                                         R   M   B  4 6
+HA Furlonge           c Guillen          b Cave                64 211      8 0
+BH Pairaudeau         c MacGibbon        b Cave                 9            0
+GS Sobers             c Guillen          b MacGibbon            1          0 0
+ED Weekes             c Guillen          b MacGibbon            5            0
+OG Smith                                 b Beard                2          0 0
+*DS Atkinson                             b Reid                28            1
+AT Roberts                               b MacGibbon           28            0
++AP Binns             lbw                b MacGibbon            0          0 0
+S Ramadhin                               b Cave                 3          0 0
+AL Valentine          c Taylor           b Cave                 0          0 0
+DT Dewdney            not out                                   0          0 0
+Extras                (b 1, lb 3, nb 1)                         5
+Total                 (all out, 78.3 overs)                   145
+
+FoW: 1-25 (Pairaudeau), 2-32 (Sobers), 3-46 (Weekes),
+     4-59 (Smith), 5-94 (Atkinson), 6-139 (Furlonge),
+     7-140 (Binns), 8-145 (Ramadhin), 9-145 (Roberts),
+     10-145 (Valentine).
+
+Bowling                      O      M      R      W
+MacGibbon                   21      5     44      4
+Cave                        27.3   17     22      4
+Reid                        18      5     48      1
+Beard                        9      4     20      1
+Alabaster                    3      1      6      0
+
+New Zealand 2nd innings                                         R   M   B  4 6
+LSM Miller            c Weekes           b Atkinson            25 100        0
+SN McGregor           c Binns            b Atkinson             5            0
+AR MacGibbon          c Weekes           b Atkinson            35  75      5 0
+DD Taylor             c Valentine        b Atkinson            16            0
+*JR Reid              c Binns            b Atkinson            12            0
+JEF Beck              lbw                b Atkinson             2          0 0
++SC Guillen           st Binns           b Valentine           41  40      3 2
+ME Chapple            lbw                b Ramadhin             1          0 0
+DD Beard              not out                                   6            0
+JC Alabaster                             b Atkinson             5            0
+HB Cave               not out                                   0          0 0
+Extras                (b 4, lb 5)                               9
+Total                 (9 wickets dec, 80 overs)               157
+
+FoW: 1-14 (McGregor), 2-61 (Miller), 3-66 (MacGibbon),
+     4-91 (Taylor), 5-100 (Beck), 6-102 (Reid), 7-109 (Chapple),
+     8-146 (Guillen), 9-155 (Alabaster).
+
+Bowling                      O      M      R      W
+Dewdney                     12      5     22      0
+Atkinson                    40     21     53      7
+Valentine                    6      0     29      1
+Ramadhin                    18      6     26      1
+Smith                        4      0     18      0
+
+West Indies 2nd innings (target: 268 runs)                      R   M   B  4 6
+HA Furlonge           c MacGibbon        b Beard                3          0 0
+BH Pairaudeau                            b Cave                 3          0 0
+*DS Atkinson          c Chapple          b Cave                10            0
+ED Weekes             c McGregor         b Alabaster           31  87      7 0
+OG Smith                                 b Cave                 0   2   2  0 0
+GS Sobers             run out                                   1          0 0
+AT Roberts                               b Beard                0          0 0
++AP Binns                                b Alabaster           20  65        0
+S Ramadhin            c Miller           b Beard                0          0 0
+AL Valentine          st Guillen         b Cave                 5            0
+DT Dewdney            not out                                   4            0
+Extras                                                          0
+Total                 (all out, 45.1 overs)                    77
+
+FoW: 1-4 (Pairaudeau), 2-16 (Furlonge), 3-16 (Atkinson),
+     4-16 (Smith), 5-18 (Sobers), 6-22 (Roberts), 7-68 (Weekes),
+     8-68 (Ramadhin), 9-68 (Binns), 10-77 (Valentine).
+
+Bowling                      O      M      R      W
+MacGibbon                    6      1     16      0
+Cave                        13.1    9     21      4
+Reid                         6      2     14      0
+Beard                       15      7     22      3
+Alabaster                    5      4      4      2
+
+*** New Zealand's first ever test win in 45 matches and 26 years.
+
+<END>

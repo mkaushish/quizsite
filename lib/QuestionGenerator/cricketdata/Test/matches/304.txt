@@ -1,0 +1,108 @@
+
+Test # 304
+West Indies in India, 1948/49, 1st Test
+India v West Indies
+Feroz Shah Kotla, Delhi
+10,11,12,13,14 November 1948 (5-day match)
+
+Result: Match drawn
+Series: 5-match series level 0-0
+
+Toss: West Indies
+Umpires: DK Naik and JR Patel
+Test debuts: KC Ibrahim, KK Tarapore (India); DS Atkinson, FJ Cameron,
+ AF Rae (West Indies).
+
+Close of play:
+ Day 1: West Indies 294/3 (Walcott 152*, Gomez 99*)
+ Day 2: West Indies 623/8 (Christiani 103*, Atkinson 42*)
+ Day 3: West Indies 631, India 223/3 (Amarnath 50*, Hazare 18*)
+ Day 4: India 454
+
+West Indies 1st innings                                         R   M   B  4 6
+AF Rae                c Sen              b Rangachari           8            0
+JB Stollmeyer         lbw                b Rangachari          13            0
+GA Headley                               b Rangachari           2          0 0
++CL Walcott           run out                                 152 245     12 0
+GE Gomez              st Sen             b Amarnath           101          7 0
+*JDC Goddard                             b Mankad              44            0
+ED Weekes             c Hazare           b Mankad             128 194     16 0
+RJ Christiani         c Hazare           b Rangachari         107            0
+FJ Cameron            lbw                b Sarwate              2          0 0
+DS Atkinson           c Sen              b Rangachari          45            0
+PEW Jones             not out                                   1          0 0
+Extras                (b 20, lb 8)                             28
+Total                 (all out, 183.4 overs)                  631
+
+FoW: 1-15 (Rae), 2-22 (Stollmeyer), 3-27 (Headley),
+     4-294 (Walcott), 5-302 (Gomez), 6-403 (Goddard),
+     7-521 (Weekes), 8-524 (Cameron), 9-630 (Christiani),
+     10-631 (Atkinson).
+
+Bowling                      O      M      R      W
+Phadkar                     18      1     61      0
+Amarnath                    25      3     73      1
+Rangachari                  29.4    4    107      5
+Mankad                      59     10    176      2
+Tarapore                    19      2     72      0
+Hazare                      17      1     62      0
+Sarwate                     16      0     52      1
+
+India 1st innings                                               R   M   B  4 6
+MH Mankad             lbw                b Jones                5            0
+KC Ibrahim            lbw                b Gomez               85          9 1
+RS Modi               c Rae              b Cameron             63            0
+*L Amarnath           c Christiani       b Jones               62            0
+VS Hazare             c Atkinson         b Gomez               18            0
+DG Phadkar            c Weekes           b Stollmeyer          41            0
+HR Adhikari           not out                                 114 245     10 0
+CT Sarwate            st Walcott         b Stollmeyer          37            0
++PK Sen               c Walcott          b Cameron             22            0
+CR Rangachari                        c & b Goddard              0          0 0
+KK Tarapore           c Walcott          b Jones                2          0 0
+Extras                (b 1, lb 3, nb 1)                         5
+Total                 (all out, 158.4 overs)                  454
+
+FoW: 1-8 (Mankad), 2-129 (Modi), 3-181 (Ibrahim), 4-223 (Hazare),
+     5-249 (Amarnath), 6-309 (Phadkar), 7-388 (Sarwate),
+     8-419 (Sen), 9-438 (Rangachari), 10-454 (Tarapore).
+
+Bowling                      O      M      R      W
+Jones                       28.4    5     90      3
+Gomez                       39     14     76      2
+Atkinson                    13      3     27      0
+Headley                      2      0     13      0
+Cameron                     27      3     74      2
+Stollmeyer                  15      0     80      2
+Goddard                     30      7     83      1
+Christiani                   4      0      6      0
+
+India 2nd innings (following on)                                R   M   B  4 6
+MH Mankad                                b Goddard             17            0
+KC Ibrahim            run out                                  44            0
+RS Modi                                  b Christiani          36            0
+*L Amarnath                              b Cameron             36            0
+VS Hazare                                b Christiani           7            0
+DG Phadkar                           c & b Christiani           5            0
+HR Adhikari           not out                                  29            0
+CT Sarwate            not out                                  35            0
+Extras                (b 8, lb 3)                              11
+Total                 (6 wickets, 102 overs)                  220
+
+DNB: +PK Sen, CR Rangachari, KK Tarapore.
+
+FoW: 1-44 (Mankad), 2-102 (Ibrahim), 3-111 (Modi),
+     4-121 (Hazare), 5-142 (Phadkar), 6-162 (Amarnath).
+
+Bowling                      O      M      R      W
+Jones                       10      2     32      0
+Gomez                       10      4     17      0
+Atkinson                     5      0     11      0
+Headley                      1      0      5      0
+Cameron                     27     10     49      1
+Stollmeyer                  10      2     23      0
+Goddard                     15      7     18      1
+Christiani                  23      1     52      3
+Weekes                       1      0      2      0
+
+<END>

@@ -1,0 +1,44 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+111, 1910-12-09, 1, 8, South Africa, not out, , 14, 60, 51, 1, 0
+112, 1911-12-31, 1, 8, South Africa, c Faulkner, Stricker, 18, 30, 43, 0, 0
+112, 1911-12-31, 3, 7, South Africa, , Pegler, 48, 120, 130, 4, 0
+113, 1911-01-07, 2, 2, South Africa, c Sherwell, Llewellyn, 47, 113, 119, 1, 0
+113, 1911-01-07, 4, 4, South Africa, c Sherwell, Sinclair, 65, 134, 137, 2, 0
+114, 1911-02-17, 1, 6, South Africa, run out, , 59, 142, 172, 1, 0
+114, 1911-02-17, 3, 1, South Africa, run out, , 18, 30, 38, 2, 0
+115, 1911-03-03, 1, 1, South Africa, c Snooke, Llewellyn, 2, 1, 2, 0, 0
+115, 1911-03-03, 4, 5, South Africa, not out, , 24, 35, 33, 1, 0
+116, 1911-12-15, 1, 2, England,                c &, Woolley, 20, 81, 81, 1, 0
+116, 1911-12-15, 3, 2, England, , Douglas, 70, 183, 199, 9, 0
+117, 1912-12-30, 1, 1, England, lbw, Barnes, 2, 19, 16, 0, 0
+117, 1912-12-30, 3, 1, England, c Gunn, Foster, 13, 30, 37, 1, 0
+118, 1912-01-12, 1, 2, England, , Foster, 1, 11, 10, 0, 0
+118, 1912-01-12, 3, 2, England, , Douglas, 37, 82, 92, 5, 0
+119, 1912-02-09, 1, 1, England, c Hearne, Woolley, 29, 75, 78, 4, 0
+119, 1912-02-09, 3, 1, England, c Smith, Barnes, 5, 21, 25, 0, 0
+121, 1912-05-27, 1, 2, South Africa, c Ward, Pegler, 114, 195, na, 5, 0
+123, 1912-06-24, 2, 2, England, , Rhodes, 61, 275, na, na, 0
+125, 1912-07-15, 2, 2, South Africa, lbw, Faulkner, 102, 220, na, 7, 0
+126, 1912-07-29, 2, 2, England, not out, , 3, na, na, 0, 0
+127, 1912-08-05, 2, 2, South Africa, c Faulkner, Pegler, 37, na, na, na, 0
+129, 1912-08-19, 2, 2, England, lbw, Woolley, 43, na, na, na, 0
+129, 1912-08-19, 4, 2, England, c Douglas, Dean, 0, na, na, 0, 0
+135, 1920-12-17, 1, 4, England, run out, , 33, 73, 92, 4, 0
+135, 1920-12-17, 3, 6, England, c Russell, Woolley, 78, 207, 232, 2, 0
+136, 1921-12-31, 1, 6, England, c Strudwick, Howell, 9, 28, 24, 0, 0
+137, 1921-01-14, 1, 3, England, c Fender, Parkin, 4, 17, 21, 0, 0
+137, 1921-01-14, 3, 3, England, , Howell, 147, 417, 404, 13, 0
+138, 1921-02-11, 2, 8, England, , Fender, 27, 41, 52, 2, 0
+139, 1921-02-25, 2, 8, England, c Strudwick, Wilson, 32, 45, 49, 3, 0
+158, 1924-12-19, 1, 7, England, c Woolley, Tate, 17, 33, 43, 1, 0
+158, 1924-12-19, 3, 3, England, , Gilligan, 23, 76, 87, 2, 0
+159, 1925-01-01, 1, 7, England, c Strudwick, Gilligan, 32, 132, 138, 2, 0
+159, 1925-01-01, 3, 7, England,                c &, Hearne, 17, 58, 87, 2, 0
+160, 1925-01-16, 1, 9, England, c Strudwick, Woolley, 16, 65, 93, 1, 0
+160, 1925-01-16, 3, 8, England, not out, , 22, 56, 62, 1, 0
+161, 1925-02-13, 2, 8, England, lbw, Kilner, 1, 14, na, 0, 0
+161, 1925-02-13, 3, 6, England, c Strudwick, Tate, 42, 99, na, 4, 0
+162, 1925-02-27, 1, 8, England, lbw, Tate, 9, 39, na, 1, 0
+162, 1925-02-27, 3, 8, England, c Whysall, Tate, 73, 202, na, 5, 0
+176, 1928-11-30, 2, 5, England, , Larwood, 8, 15, 22, 1, 0
+176, 1928-11-30, 4, 10, England, absent hurt, , -, , , , 

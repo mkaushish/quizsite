@@ -1,0 +1,51 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+355, 1952-10-16, 2, 9, India, not out, , 21, na, na, na, 0
+355, 1952-10-16, 3, 9, India,                c &, Ghulam Ahmed, 27, na, na, na, 0
+356, 1952-10-23, 2, 8, India, c Joshi, Gul Mohammad, 29, na, na, na, 0
+357, 1952-11-13, 1, 8, India, c Amarnath, Hazare, 33, na, na, na, 0
+357, 1952-11-13, 3, 8, India, st Rajindernath, Gupte, 0, na, na, 0, 0
+358, 1952-11-28, 1, 8, India, c Maka, Phadkar, 30, na, na, na, 0
+360, 1952-12-12, 1, 8, India, c Mankad, Ramchand, 5, na, na, na, 0
+360, 1952-12-12, 3, 8, India, not out, , 28, na, na, na, 0
+387, 1954-06-10, 1, 7, England, , Wardle, 5, na, na, na, 0
+388, 1954-07-01, 1, 7, England, c Sheppard, Bedser, 14, 38, na, 2, 0
+388, 1954-07-01, 3, 7, England, , Statham, 36, 100, na, 3, 0
+389, 1954-07-22, 2, 8, England, c Compton, Bedser, 9, 28, na, 0, 0
+390, 1954-08-12, 1, 8, England, c Evans, Loader, 0, 2, na, 0, 0
+390, 1954-08-12, 3, 9, England, , Wardle, 6, 10, na, 1, 0
+394, 1955-01-01, 1, 9, India, c Tamhane, Ramchand, 0, na, na, 0, 0
+394, 1955-01-01, 3, 9, India, not out, , 15, na, na, na, 0
+395, 1955-01-15, 2, 7, India, , Umrigar, 9, na, na, na, 0
+397, 1955-01-29, 1, 9, India, st Tamhane, Gupte, 12, na, na, na, 0
+400, 1955-02-26, 1, 9, India, lbw, Patel, 3, na, na, 0, 0
+413, 1955-10-13, 2, 10, New Zealand, not out, , 34, na, na, na, 0
+430, 1956-10-11, 2, 9, Australia, not out, , 10, na, na, na, 0
+446, 1958-01-17, 2, 8, West Indies, , Gilchrist, 4, na, na, na, 0
+446, 1958-01-17, 3, 8, West Indies, , Valentine, 19, na, na, na, 2
+448, 1958-02-05, 2, 10, West Indies, c Madray, Sobers, 60, na, na, na, 0
+448, 1958-02-05, 4, 8, West Indies, , Gilchrist, 0, na, na, 0, 0
+450, 1958-02-26, 1, 8, West Indies, c Alexander, Atkinson, 6, na, na, na, 0
+450, 1958-02-26, 3, 8, West Indies, c Alexander, Atkinson, 0, na, na, 0, 0
+452, 1958-03-13, 1, 8, West Indies, c Gibbs, Gilchrist, 39, na, na, na, 0
+452, 1958-03-13, 3, 8, West Indies, c Alexander, Gibbs, 31, na, na, na, 0
+453, 1958-03-26, 2, 8, West Indies, , Taylor, 0, na, na, 0, 0
+469, 1959-02-20, 2, 7, West Indies, c Alexander, Hall, 0, na, na, 0, 0
+471, 1959-03-06, 1, 8, West Indies, c Alexander, Ramadhin, 12, na, na, na, 0
+471, 1959-03-06, 3, 9, West Indies, not out, , 7, na, na, na, 0
+473, 1959-03-26, 2, 9, West Indies, c Sobers, Hall, 0, na, 1, 0, 0
+473, 1959-03-26, 3, 9, West Indies, , Gibbs, 14, na, na, na, 0
+479, 1959-11-13, 1, 10, Australia, , Benaud, 1, na, na, 0, 0
+479, 1959-11-13, 3, 10, Australia,                c &, Mackay, 4, na, na, na, 0
+481, 1959-12-04, 1, 9, Australia, c Harvey, Benaud, 7, na, na, na, 0
+481, 1959-12-04, 3, 9, Australia, c Benaud, Davidson, 11, na, na, na, 0
+497, 1960-12-02, 1, 8, India, c Joshi, Gupte, 1, na, na, 0, 0
+499, 1960-12-16, 1, 9, India, lbw, Umrigar, 16, 96, na, na, 0
+501, 1961-12-30, 1, 9, India, lbw, Borde, 8, na, na, na, 0
+503, 1961-01-13, 1, 9, India, lbw, Desai, 4, na, na, na, 0
+505, 1961-02-08, 2, 8, India, c Nadkarni, Kumar, 13, na, na, na, 0
+505, 1961-02-08, 3, 8, India, lbw, Desai, 18, 45, na, na, 0
+522, 1962-02-02, 1, 9, England, , Knight, 12, 35, na, 2, 0
+522, 1962-02-02, 3, 9, England, , Dexter, 0, 8, na, 0, 0
+533, 1962-07-26, 2, 10, England, lbw, Knight, 2, 9, na, 0, 0
+534, 1962-08-16, 2, 11, England, , Coldwell, 0, 3, na, 0, 0
+534, 1962-08-16, 3, 11, England, , Larter, 5, 9, na, 0, 0

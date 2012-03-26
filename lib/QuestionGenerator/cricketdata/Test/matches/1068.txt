@@ -1,0 +1,129 @@
+
+Test # 1068
+West Indies in New Zealand, 1986/87, 1st Test
+New Zealand v West Indies
+Basin Reserve, Wellington
+20,21,22,23,24 February 1987 (5-day match)
+
+Result: Match drawn
+Series: 3-match series level 0-0
+
+Toss: West Indies
+Umpires: BL Aldridge and SJ Woodward
+Test debut: DN Patel (New Zealand).
+Player of the match: JG Wright
+
+Close of play:
+ Day 1: New Zealand 205/8 (Hadlee 16*, Boock 2*)
+ Day 2: New Zealand 228, West Indies 218/2 (Haynes 110*, Richardson 6*)
+ Day 3: West Indies 345, New Zealand 91/2 (Wright 35*, MD Crowe 28*)
+ Day 4: New Zealand 272/3 (Wright 102*, Patel 4*)
+
+New Zealand 1st innings                                         R   M   B  4 6
+JG Wright             c Garner           b Richards            75 246 172  8 0
+KR Rutherford         c Logie            b Garner               6  33  27  0 0
+*JV Coney             c Logie            b Marshall             3  19  13  0 0
+MD Crowe              lbw                b Walsh                3  50  37  0 0
+DN Patel              c Garner           b Walsh               18  73  59  2 0
+JJ Crowe              c Logie            b Garner              37 139 111  3 0
+JG Bracewell          lbw                b Garner              17  54  53  3 0
+RJ Hadlee             not out                                  35  80  57  2 0
++IDS Smith            lbw                b Garner               0   1   2  0 0
+SL Boock              c Garner           b Marshall             3  52  25  0 0
+EJ Chatfield          lbw                b Garner               0   7   5  0 0
+Extras                (lb 7, nb 24)                            31
+Total                 (all out, 89 overs)                     228
+
+FoW: 1-10 (Rutherford), 2-19 (Coney), 3-46 (MD Crowe),
+     4-107 (Patel), 5-153 (Wright), 6-181 (Bracewell),
+     7-192 (JJ Crowe), 8-192 (Smith), 9-226 (Boock),
+     10-228 (Chatfield).
+
+Bowling                      O      M      R      W
+Marshall                    22      3     57      2
+Garner                      27      5     51      5
+Walsh                       12      1     46      2
+Holding                     16      4     34      0
+Richards                    11      3     32      1
+Gomes                        1      0      1      0
+
+West Indies 1st innings                                         R   M   B  4 6
+CG Greenidge          c Rutherford       b Chatfield           78 185 151 11 2
+DL Haynes                                b Bracewell          121 307 269 20 0
+HA Gomes              c Smith            b Hadlee              18  62  44  2 0
+RB Richardson                            b Boock               37 134 113  3 0
+*IVA Richards         c Smith            b Chatfield           24  44  28  4 1
+AL Logie              c Coney            b Hadlee               3  13   7  0 0
++PJL Dujon            c Smith            b Chatfield           22  84  67  3 0
+MD Marshall                          c & b Boock               30  91  73  2 0
+MA Holding            c sub              b Chatfield            0  11  11  0 0
+J Garner              c Hadlee           b Boock                0   9   6  0 0
+CA Walsh              not out                                   1   2   1  0 0
+Extras                (b 1, lb 8, w 1, nb 1)                   11
+Total                 (all out, 128 overs)                    345
+
+FoW: 1-150 (Greenidge), 2-208 (Gomes), 3-232 (Haynes),
+     4-278 (Richards), 5-287 (Logie), 6-289 (Richardson),
+     7-339 (Dujon), 8-343 (Holding), 9-344 (Garner),
+     10-345 (Marshall).
+
+Bowling                      O      M      R      W
+Hadlee                      31      9     77      2
+Chatfield                   39     14    102      4
+Coney                        3      0      8      0
+Bracewell                   14      5     47      1
+Boock                       35     14     76      3
+MD Crowe                     3      1     13      0
+Patel                        3      0     13      0
+
+New Zealand 2nd innings                                         R   M   B  4 6
+JG Wright                            c & b Gomes              138 582 465 14 0
+KR Rutherford         lbw                b Garner               6  18  17  1 0
+*JV Coney             c Richards         b Garner               4  10   8  1 0
+MD Crowe              c Holding          b Richards           119 385 308 15 0
+DN Patel                                 b Walsh               20 109  91  1 0
+JJ Crowe              not out                                  27 143 127  2 0
+JG Bracewell          not out                                  28  86  75  1 0
+Extras                (b 10, lb 10, nb 24)                     44
+Total                 (5 wickets dec, 177 overs)              386
+
+DNB: RJ Hadlee, +IDS Smith, SL Boock, EJ Chatfield.
+
+FoW: 1-13 (Rutherford), 2-20 (Coney), 3-261 (MD Crowe),
+     4-301 (Patel), 5-331 (Wright).
+
+Bowling                      O      M      R      W
+Marshall                    20      6     43      0
+Garner                      30      9     72      2
+Walsh                       34     13     59      1
+Holding                     21      4     65      0
+Richards                    47     13     86      1
+Gomes                       21      6     37      1
+Richardson                   4      1      4      0
+
+West Indies 2nd innings (target: 270 runs)                      R   M   B  4 6
+CG Greenidge          c Rutherford       b Boock               25  69  70  3 0
+DL Haynes             c Hadlee           b Boock               13  40  30  1 0
+HA Gomes              not out                                   8  35  28  1 0
+RB Richardson         not out                                   0   6   4  0 0
+Extras                (b 3, lb 1)                               4
+Total                 (2 wickets, 22 overs)                    50
+
+DNB: *IVA Richards, AL Logie, +PJL Dujon, MD Marshall,
+     MA Holding, J Garner, CA Walsh.
+
+FoW: 1-33 (Haynes), 2-46 (Greenidge).
+
+Bowling                      O      M      R      W
+Hadlee                       4      0     12      0
+Chatfield                    4      0     13      0
+Bracewell                    7      2     13      0
+Boock                        7      4      8      2
+
+*** NZ 2nd innings
+*** Wright's century the slowest in home NZ Tests (582 min.)
+*** 3rd wicket partnership record for NZ (241)
+
+*** MA Holding's final Test match
+
+<END>

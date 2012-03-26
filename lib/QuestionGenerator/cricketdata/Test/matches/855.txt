@@ -1,0 +1,100 @@
+
+Test # 855
+Australia in India, 1979/80, 1st Test
+India v Australia
+Madras Cricket Club Ground, Chepauk, Madras
+11,12,14,15,16 September 1979 (5-day match)
+
+Result: Match drawn
+Series: 6-match series level 0-0
+
+Toss: Australia
+Umpires: MV Gothoskar and S Kishen
+Test debut: DR Doshi (India).
+
+Close of play:
+ Day 1: Australia 244/2 (Border 129*, Hughes 77*)
+ Day 2: Australia 390, India 80/1 (Gavaskar 44*, Kirmani 0*)
+ Day 3: India 302/6 (Yashpal Sharma 29*, Kapil Dev 15*)
+ Day 4: India 425, Australia 98/1 (Hilditch 44*, Border 49*)
+
+Australia 1st innings                                           R   M   B  4 6
+AMJ Hilditch          c Venkataraghavan  b Kapil Dev            4  12   8  1 0
+GM Wood               lbw                b Doshi               33 124  83  5 0
+AR Border             run out                                 162 416 360 24 1
+*KJ Hughes            c Venkataraghavan  b Doshi              100 276 204 10 1
+GN Yallop             c Yajurvindra Singh b Doshi              18  55  53  2 0
+DF Whatmore           c Venkataraghavan  b Doshi               20  36  44  3 0
++KJ Wright                               b Venkataraghavan     20  32  36  4 0
+G Dymock              lbw                b Kapil Dev           16  62  58  4 0
+RM Hogg               c Kapil Dev        b Doshi                3   6   4  0 0
+AG Hurst              c Kirmani          b Doshi                0   1   1  0 0
+JD Higgs              not out                                   1  26  21  0 0
+Extras                (b 1, lb 7, w 1, nb 4)                   13
+Total                 (all out, 143.4 overs)                  390
+
+FoW: 1-8 (Hilditch), 2-75 (Wood), 3-297 (Hughes), 4-318 (Border),
+     5-339 (Yallop), 6-352 (Whatmore), 7-369 (Wright),
+     8-375 (Hogg), 9-376 (Hurst), 10-390 (Dymock).
+
+Bowling                      O      M      R      W
+Kapil Dev                   25.4    3     95      2
+Ghavri                      20      4     49      0
+Yajurvindra Singh            9      1     29      0
+Venkataraghavan             46     16    101      1
+Doshi                       43     10    103      6
+
+India 1st innings                                               R   M   B  4 6
+*SM Gavaskar          c Wood             b Hogg                50 130  80  7 0
+CPS Chauhan           c Wright           b Higgs               26 115  91  3 0
++SMH Kirmani          c Border           b Hogg                57 235 206  6 0
+GR Viswanath          c Hughes           b Higgs               17  65  45  3 0
+DB Vengsarkar         c Whatmore         b Higgs               65 111  77 10 1
+Yashpal Sharma        lbw                b Higgs               52 204 150  4 0
+Yajurvindra Singh     c Wright           b Yallop              15  72  47  3 0
+N Kapil Dev           c Hurst            b Higgs               83 104  74 14 0
+KD Ghavri             not out                                  23  49  38  4 0
+S Venkataraghavan     lbw                b Higgs                4  26  19  1 0
+DR Doshi              c Hogg             b Higgs                3   5   4  0 0
+Extras                (b 2, lb 5, nb 23)                       30
+Total                 (all out, 130.3 overs)                  425
+
+FoW: 1-80 (Chauhan), 2-89 (Gavaskar), 3-122 (Viswanath),
+     4-221 (Vengsarkar), 5-240 (Kirmani),
+     6-281 (Yajurvindra Singh), 7-371 (Yashpal Sharma),
+     8-394 (Kapil Dev), 9-417 (Venkataraghavan), 10-425 (Doshi).
+
+Bowling                      O      M      R      W
+Hogg                        22      1     85      2
+Hurst                       23      8     51      0
+Higgs                       41.3   12    143      7
+Dymock                      24      6     65      0
+Border                      14      4     30      0
+Yallop                       6      1     21      1
+
+Australia 2nd innings                                           R   M   B  4 6
+AMJ Hilditch          lbw                b Doshi               55 211 188  5 0
+GM Wood               c Chauhan          b Kapil Dev            2   3   4  0 0
+AR Border                                b Venkataraghavan     50 174 138  8 0
+*KJ Hughes            lbw                b Venkataraghavan     36 135 125  0 0
+GN Yallop             run out                                   2  25  23  0 0
+DF Whatmore           c Chauhan          b Doshi                8  26  28  1 0
++KJ Wright                               b Venkataraghavan      5  25  24  0 0
+G Dymock              not out                                  28  85  69  3 0
+RM Hogg               not out                                   8  60  58  1 0
+Extras                (b 11, lb 4, nb 3)                       18
+Total                 (7 wickets, 113.4 overs)                212
+
+DNB: AG Hurst, JD Higgs.
+
+FoW: 1-2 (Wood), 2-103 (Border), 3-123 (Hilditch),
+     4-127 (Yallop), 5-146 (Whatmore), 6-156 (Wright),
+     7-175 (Hughes).
+
+Bowling                      O      M      R      W
+Kapil Dev                    9      3     30      1
+Ghavri                      17.4    8     23      0
+Venkataraghavan             45     10     77      3
+Doshi                       42     15     64      2
+
+<END>

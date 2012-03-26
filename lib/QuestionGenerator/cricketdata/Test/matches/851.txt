@@ -1,0 +1,102 @@
+
+Test # 851
+India in England, 1979, 1st Test
+England v India
+Edgbaston, Birmingham
+12,13,14,16 July 1979 (5-day match)
+
+Result: England won by an innings and 83 runs
+Series: England leads the 4-match series 1-0
+
+Toss: England
+Umpires: DJ Constant and BJ Meyer
+Test debut: B Reddy (India).
+Player of the match: DI Gower
+
+Close of play:
+ Day 1: England 318/3 (Boycott 113*, Gower 43*)
+ Day 2: England 633/5d, India 59/2 (Gavaskar 25*)
+ Day 3: India 297, India 7/0 (Gavaskar 3*, Chauhan 2*)
+
+England 1st innings                                             R   M   B  4 6
+*JM Brearley          c Reddy            b Kapil Dev           24 116  95  2 0
+G Boycott             lbw                b Kapil Dev          155 458 341 12 0
+DW Randall            c Reddy            b Kapil Dev           15  31  31  3 0
+GA Gooch              c Reddy            b Kapil Dev           83 122 109 13 1
+DI Gower              not out                                 200 365 279 24 0
+IT Botham                                b Kapil Dev           33  33  39  4 1
+G Miller              not out                                  63 144 116  5 0
+Extras                (b 4, lb 27, w 11, nb 18)                60
+Total                 (5 wickets dec, 165.2 overs)            633
+
+DNB: PH Edmonds, +RW Taylor, RGD Willis, M Hendrick.
+
+FoW: 1-66 (Brearley), 2-90 (Randall), 3-235 (Gooch),
+     4-426 (Boycott), 5-468 (Botham).
+
+Bowling                      O      M      R      W
+Kapil Dev                   48     15    146      5
+Ghavri                      38      5    129      0
+Amarnath                    13.2    2     47      0
+Chandrasekhar               29      1    113      0
+Venkataraghavan             31      4    107      0
+Gaekwad                      3      0     12      0
+Chauhan                      3      0     19      0
+
+India 1st innings                                               R   M   B  4 6
+SM Gavaskar           run out                                  61 178 160  3 0
+CPS Chauhan           c Gooch            b Botham               4  16   8  1 0
+DB Vengsarkar         c Gooch            b Edmonds             22  58  57  4 0
+GR Viswanath          c Botham           b Edmonds             78 213 181  9 0
+AD Gaekwad            c Botham           b Willis              25 126 124  3 0
+M Amarnath                               b Willis              31  67  47  6 0
+N Kapil Dev           lbw                b Botham               1   4   6  0 0
+KD Ghavri             c Brearley         b Willis               6  29  25  1 0
++B Reddy                                 b Hendrick            21  75  57  3 0
+*S Venkataraghavan    c Botham           b Hendrick            28  52  46  3 2
+BS Chandrasekhar      not out                                   0   4   0  0 0
+Extras                (b 1, lb 4, w 3, nb 12)                  20
+Total                 (all out, 116.1 overs)                  297
+
+FoW: 1-15 (Chauhan), 2-59 (Vengsarkar), 3-129 (Gavaskar),
+     4-205 (Viswanath), 5-209 (Gaekwad), 6-210 (Kapil Dev),
+     7-229 (Ghavri), 8-251 (Amarnath), 9-294 (Venkataraghavan),
+     10-297 (Reddy).
+
+Bowling                      O      M      R      W
+Willis                      24      9     69      3
+Botham                      26      4     86      2
+Hendrick                    24.1    9     36      2
+Edmonds                     26     11     60      2
+Boycott                      5      1      8      0
+Miller                      11      3     18      0
+
+India 2nd innings (following on)                                R   M   B  4 6
+SM Gavaskar           c Gooch            b Hendrick            68 137 117 10 0
+CPS Chauhan           c Randall          b Willis              56 167 142  8 0
+DB Vengsarkar         c Edmonds          b Hendrick             7  32  24  0 0
+GR Viswanath          c Taylor           b Botham              51 133 119  6 0
+AD Gaekwad            c Gooch            b Botham              15  60  54  3 0
+M Amarnath            lbw                b Botham              10  77  69  1 0
+N Kapil Dev           c Hendrick         b Botham              21  18  17  4 0
+KD Ghavri             c Randall          b Hendrick             4  30  25  0 0
++B Reddy              lbw                b Hendrick             0   7   1  0 0
+*S Venkataraghavan    lbw                b Botham               0   4   6  0 0
+BS Chandrasekhar      not out                                   0   4   3  0 0
+Extras                (b 7, lb 12, nb 2)                       21
+Total                 (all out, 95.4 overs)                   253
+
+FoW: 1-124 (Gavaskar), 2-136 (Chauhan), 3-136 (Vengsarkar),
+     4-182 (Gaekwad), 5-227 (Viswanath), 6-240 (Amarnath),
+     7-249 (Kapil Dev), 8-250 (Reddy), 9-251 (Venkataraghavan),
+     10-253 (Ghavri).
+
+Bowling                      O      M      R      W
+Willis                      14      3     45      1
+Botham                      29      8     70      5
+Hendrick                    20.4    8     45      4
+Edmonds                     17      6     37      0
+Miller                       9      1     27      0
+Gooch                        6      3      8      0
+
+<END>

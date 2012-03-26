@@ -1,0 +1,129 @@
+
+Test # 4
+Australia in England, 1880, Only Test
+England v Australia
+Kennington Oval, London
+6,7,8 September 1880 (3-day match)
+
+Result: England won by 5 wickets
+Series: England wins the one-off match
+
+Toss: England
+Umpires: HH Stephenson and RA Thoms
+Balls per over: 4
+Test debuts: G Alexander, GJ Bonnor, TU Groube, PS McDonnell, WH Moule,
+ GE Palmer, J Slight (Australia); W Barnes, EM Grace, GF Grace, WG Grace,
+ Hon.A Lyttelton, F Morley, F Penn, AG Steel (England).
+
+Close of play:
+ Day 1: England 410/8 (Lyttelton 4*)
+ Day 2: England 420, Australia 149, Australia 170/6 (Murdoch 79*, Bonnor 13*)
+
+England 1st innings                                             R   M   B  4 6
+EM Grace              c Alexander        b Bannerman           36  81  94  4 0
+WG Grace                                 b Palmer             152 251 294 12 0
+AP Lucas                                 b Bannerman           55 109 121  5 0
+W Barnes                                 b Alexander           28  50  67  1 0
+*Lord Harris          c Bonnor           b Alexander           52  90  97  7 0
+F Penn                                   b Bannerman           23  35  45  3 0
+AG Steel              c Boyle            b Moule               42  50  66  5 0
++Hon.A Lyttelton      not out                                  11  21  32  1 0
+GF Grace              c Bannerman        b Moule                0   2   2  0 0
+A Shaw                                   b Moule                0   6   4  0 0
+F Morley              run out                                   2   5   9  0 0
+Extras                (b 8, lb 11)                             19
+Total                 (all out, 210.3 overs)                  420
+
+FoW: 1-91 (EM Grace), 2-211 (Lucas), 3-269 (Barnes),
+     4-281 (WG Grace), 5-322 (Penn), 6-404 (Harris),
+     7-410 (Steel), 8-410 (GF Grace), 9-413 (Shaw),
+     10-420 (Morley).
+
+Bowling                      O      M      R      W
+Boyle                       44     17     71      0
+Palmer                      70     27    116      1
+Alexander                   32     10     69      2
+Bannerman                   50     12    111      3
+McDonnell                    2      0     11      0
+Moule                       12.3    4     23      3
+
+Australia 1st innings                                           R   M   B  4 6
+AC Bannerman                             b Morley              32  48  54  5 0
+*WL Murdoch           c Barnes           b Steel                0  22  19  0 0
+TU Groube                                b Steel               11  39  44  1 0
+PS McDonnell          c Barnes           b Morley              27  49  41  2 0
+J Slight              c GF Grace         b Morley              11  29  35  1 0
++JM Blackham                         c & b Morley               0   1   2  0 0
+GJ Bonnor             c GF Grace         b Shaw                 2   9   8  0 0
+HF Boyle              not out                                  36  53  47  5 0
+GE Palmer                                b Morley               6  17  17  0 0
+G Alexander           c WG Grace         b Steel                6  13  20  0 0
+WH Moule              c Morley           b WG Grace             6  15  14  0 0
+Extras                (b 9, lb 3)                              12
+Total                 (all out, 75.1 overs)                   149
+
+FoW: 1-28 (Murdoch), 2-39 (Bannerman), 3-59 (Groube),
+     4-84 (Slight), 5-84 (Blackham), 6-89 (McDonnell),
+     7-97 (Bonnor), 8-113 (Palmer), 9-126 (Alexander),
+     10-149 (Moule).
+
+Bowling                      O      M      R      W
+Morley                      32      9     56      5
+Steel                       29      9     58      3
+Shaw                        13      5     21      1
+WG Grace                     1.1    0      2      1
+
+Australia 2nd innings (following on)                            R   M   B  4 6
+AC Bannerman          c Lucas            b Shaw                 8   7  14  1 0
+HF Boyle              run out                                   3   9   7  0 0
+*WL Murdoch           not out                                 153 316 358 17 0
+TU Groube             c Shaw             b Morley               0   2   1  0 0
+PS McDonnell          lbw                b WG Grace            43  75  76  9 0
+J Slight              c Harris           b WG Grace             0   2   1  0 0
++JM Blackham          c EM Grace         b Morley              19  49  54  2 0
+GJ Bonnor                                b Steel               16  23  29  3 0
+GE Palmer                            c & b Steel                4   6   9  1 0
+G Alexander           c Shaw             b Morley              33  56  59  5 0
+WH Moule                                 b Barnes              34  90  99  4 0
+Extras                (b 7, lb 7)                              14
+Total                 (all out, 176.3 overs)                  327
+
+FoW: 1-8 (Bannerman), 2-13 (Boyle), 3-14 (Groube),
+     4-97 (McDonnell), 5-101 (Slight), 6-143 (Blackham),
+     7-181 (Bonnor), 8-187 (Palmer), 9-239 (Alexander),
+     10-327 (Moule).
+
+Bowling                      O      M      R      W
+Morley                      61     30     90      3
+Steel                       31      6     73      2
+Shaw                        33     18     42      1
+WG Grace                    28     10     66      2
+Barnes                       8.3    3     17      1
+Lucas                       12      7     23      0
+Penn                         3      1      2      0
+
+England 2nd innings (target: 57 runs)                           R   M   B  4 6
++Hon.A Lyttelton                         b Palmer              13  25  32  1 0
+GF Grace                                 b Palmer               0  15   2  0 0
+AP Lucas              c Blackham         b Palmer               2  12  18  0 0
+F Penn                not out                                  27  44  46  3 0
+W Barnes              c Moule            b Boyle                5  14  15  1 0
+EM Grace                                 b Boyle                0   1   2  0 0
+WG Grace              not out                                   9  17  20  1 0
+Extras                (nb 1)                                    1
+Total                 (5 wickets, 33.3 overs)                  57
+
+DNB: *Lord Harris, AG Steel, A Shaw, F Morley.
+
+FoW: 1-2 (GF Grace), 2-10 (Lucas), 3-22 (Lyttelton),
+     4-31 (Barnes), 5-31 (EM Grace).
+
+Bowling                      O      M      R      W
+Boyle                       17      7     21      2
+Palmer                      16.3    5     35      3
+
+*** WG Grace, who scored England's first Test century, and his brothers EM
+    and GF provided the first instance of three brothers playing the the same
+    Test.
+
+<END>

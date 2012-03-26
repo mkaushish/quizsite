@@ -1,0 +1,66 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+762, 1975-08-14, 1, 8, Australia, not out, , 13, 53, 36, 1, 0
+762, 1975-08-14, 3, 9, Australia, c sub (A Turner), Gilmour, 8, 17, 12, 1, 0
+763, 1975-08-28, 2, 8, Australia, c Marsh, Thomson, 4, 45, 30, 0, 0
+763, 1975-08-28, 3, 9, Australia, run out, , 7, 10, 10, 1, 0
+813, 1978-01-02, 2, 8, Pakistan, c Wasim Bari, Abdul Qadir, 4, 5, 5, 1, 0
+815, 1978-01-18, 1, 8, Pakistan, lbw, Abdul Qadir, 6, 25, 19, 0, 0
+817, 1978-02-10, 2, 9, New Zealand, lbw, Congdon, 4, 22, 25, 0, 0
+817, 1978-02-10, 4, 9, New Zealand, c Parker, RJ Hadlee, 11, 88, 61, 0, 0
+818, 1978-02-24, 1, 10, New Zealand, c Lees, Collinge, 50, 75, 70, 8, 1
+820, 1978-03-04, 2, 9, New Zealand, , Boock, 8, 38, 33, 1, 0
+825, 1978-06-01, 2, 9, Pakistan, not out, , 4, 5, 4, 0, 0
+826, 1978-06-15, 1, 10, Pakistan, not out, , 36, 62, 47, 3, 1
+827, 1978-06-29, 2, 9, Pakistan, not out, , 1, 15, 14, 0, 0
+828, 1978-07-27, 2, 9, New Zealand, lbw, Hadlee, 28, 140, 127, 3, 0
+829, 1978-08-10, 1, 8, New Zealand, , Cairns, 6, 23, 18, 0, 0
+830, 1978-08-24, 2, 8, New Zealand, c Edgar, Hadlee, 5, 22, 19, 1, 0
+834, 1978-12-01, 2, 9, Australia, c Maclean, Hogg, 1, 15, 9, 0, 0
+852, 1979-08-02, 2, 8, India, c Reddy, Kapil Dev, 20, 50, 53, 4, 0
+853, 1979-08-16, 1, 8, India, run out, , 18, 54, 49, 2, 0
+854, 1979-08-30, 1, 9, India, c Kapil Dev, Venkataraghavan, 16, 47, 41, 2, 0
+854, 1979-08-30, 3, 9, India, not out, , 27, 36, 31, 4, 1
+928, 1982-06-10, 1, 8, India, c Kirmani, Madan Lal, 64, 160, 136, 6, 0
+929, 1982-06-24, 1, 9, India, c Kirmani, Madan Lal, 12, 54, 53, 1, 0
+930, 1982-07-08, 1, 8, India, c sub, Doshi, 14, 34, 25, 1, 0
+957, 1983-07-14, 1, 8, New Zealand,                c &, Bracewell, 12, 35, 39, 1, 0
+957, 1983-07-14, 3, 8, New Zealand, not out, , 43, 143, 124, 5, 0
+958, 1983-07-28, 1, 7, New Zealand, c Smith, Cairns, 8, 35, 35, 0, 0
+958, 1983-07-28, 3, 7, New Zealand, c Smith, Chatfield, 0, 2, 4, 0, 0
+1001, 1984-11-28, 1, 9, India, c Gaekwad, Shastri, 48, 88, 81, 4, 3
+1001, 1984-11-28, 3, 9, India, c Kapil Dev, Sivaramakrishnan, 8, 26, 27, 1, 0
+1004, 1984-12-12, 2, 8, India, c Shastri, Sivaramakrishnan, 26, 113, 83, 2, 0
+1007, 1985-12-31, 2, 9, India, c Gavaskar, Sharma, 8, 15, 14, 1, 0
+1008, 1985-01-13, 2, 5, India, lbw, Shastri, 36, 58, 37, 3, 2
+1011, 1985-01-31, 2, 8, India, lbw, Kapil Dev, 49, 138, 120, 5, 0
+1018, 1985-06-27, 1, 9, Australia, c Border, McDermott, 21, 94, 78, 0, 0
+1018, 1985-06-27, 3, 10, Australia, c Boon, Holland, 1, 45, 34, 0, 0
+1019, 1985-07-11, 1, 10, Australia, , Holland, 12, 34, 31, 1, 0
+1020, 1985-08-01, 2, 9, Australia, , McDermott, 1, 5, 7, 0, 0
+1022, 1985-08-29, 1, 10, Australia, lbw, Lawson, 12, 34, 26, 2, 0
+1036, 1986-02-21, 1, 10, West Indies, not out, , 5, 28, 18, 0, 0
+1036, 1986-02-21, 3, 10, West Indies, lbw, Patterson, 7, 26, 20, 1, 0
+1039, 1986-03-07, 1, 10, West Indies, not out, , 3, 31, 18, 0, 0
+1039, 1986-03-07, 3, 10, West Indies, c Payne, Garner, 13, 55, 40, 0, 0
+1042, 1986-03-21, 2, 9, West Indies, c Richardson, Patterson, 4, 53, 27, 1, 0
+1042, 1986-03-21, 3, 6, West Indies, lbw, Garner, 4, 36, 19, 0, 0
+1046, 1986-06-05, 1, 11, India, not out, , 7, 9, 8, 1, 0
+1046, 1986-06-05, 3, 11, India, c Binny, Maninder Singh, 7, 46, 37, 0, 0
+1048, 1986-07-03, 1, 9, India, , Sharma, 18, 50, 30, 2, 0
+1048, 1986-07-03, 3, 9, India, c Binny, Maninder Singh, 10, 54, 40, 1, 0
+1049, 1986-07-24, 1, 7, New Zealand, c MD Crowe, Hadlee, 6, 48, 33, 1, 0
+1049, 1986-07-24, 3, 7, New Zealand, not out, , 9, 28, 23, 2, 0
+1050, 1986-08-07, 1, 8, New Zealand, c Smith, Hadlee, 0, 2, 2, 0, 0
+1050, 1986-08-07, 3, 3, New Zealand, lbw, Hadlee, 20, 113, 80, 1, 0
+1057, 1986-11-14, 1, 10, Australia, not out, , 9, 15, 10, 1, 0
+1060, 1986-12-12, 2, 10, Australia, c Border, Sleep, 13, 26, 28, 1, 0
+1062, 1986-12-26, 2, 10, Australia, lbw, McDermott, 19, 67, 49, 1, 0
+1065, 1987-01-10, 2, 9, Australia, c Marsh, Taylor, 3, 15, 14, 0, 0
+1065, 1987-01-10, 4, 9, Australia, lbw, Sleep, 0, 1, 1, 0, 0
+1075, 1987-06-04, 1, 11, Pakistan, not out, , 23, 32, 30, 2, 1
+1076, 1987-06-18, 1, 10, Pakistan, not out, , 17, 47, 32, 1, 0
+1077, 1987-07-02, 1, 10, Pakistan, c Saleem Yousuf, Mohsin Kamal, 0, 1, 2, 0, 0
+1077, 1987-07-02, 3, 10, Pakistan, not out, , 0, 6, 1, 0, 0
+1078, 1987-07-23, 2, 10, Pakistan, not out, , 24, 36, 26, 3, 0
+1078, 1987-07-23, 4, 8, Pakistan, run out, , 0, 2, 2, 0, 0
+1079, 1987-08-06, 2, 10, Pakistan, lbw, Abdul Qadir, 2, 24, 26, 0, 0

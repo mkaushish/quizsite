@@ -1,0 +1,135 @@
+
+Test # 51
+The Ashes, 1896, 2nd Test
+England v Australia
+Old Trafford, Manchester
+16,17,18 July 1896 (3-day match)
+
+Result: Australia won by 3 wickets
+Series: 3-match series level 1-1
+
+Toss: Australia
+Umpires: A Chester and J Phillips (Aus)
+Balls per over: 5
+Test debut: KS Ranjitsinhji (England).
+
+Close of play:
+ Day 1: Australia 366/8 (Kelly 14*, McKibbin 7*)
+ Day 2: Australia 412, England 231, England 109/4 (Ranjitsinhji 41*)
+
+Australia 1st innings                                           R   M   B  4 6
+FA Iredale                               b Briggs             108 220     16 0
+J Darling             c Lilley           b Richardson          27  35        0
+G Giffen                             c & b Richardson          80 110        0
+*GHS Trott            c +Brown           b Lilley              53            0
+SE Gregory            c Stoddart         b Briggs              25            0
+H Donnan                                 b Richardson          12            0
+C Hill                c Jackson          b Richardson           9            0
+H Trumble                                b Richardson          24            0
++JJ Kelly             c Lilley           b Richardson          27            0
+TR McKibbin           not out                                  28            0
+E Jones                                  b Richardson           4            0
+Extras                (b 6, lb 8, w 1)                         15
+Total                 (all out, 170 overs)                    412
+
+FoW: 1-41 (Darling), 2-172 (Giffen), 3-242 (Iredale),
+     4-294 (Trott), 5-294 (Gregory), 6-314 (Donnan),
+     7-325 (Hill), 8-352 (Trumble), 9-403 (Kelly),
+     10-412 (Jones).
+
+Bowling                      O      M      R      W
+Richardson                  68     23    168      7
+Briggs                      40     18     99      2
+Jackson                     16      6     34      0
+Hearne                      28     11     53      0
+Grace                        7      3     11      0
+Stoddart                     6      2      9      0
+Lilley                       5      1     23      1
+
+England 1st innings                                             R   M   B  4 6
+AE Stoddart           st Kelly           b Trott               15            0
+*WG Grace             st Kelly           b Trott                2          0 0
+KS Ranjitsinhji       c Trott            b McKibbin            62            0
+R Abel                c Trumble          b McKibbin            26            0
+FS Jackson            run out                                  18            0
+JT Brown              c Kelly            b Trumble             22            0
+AC MacLaren           c Trumble          b McKibbin             0          0 0
++AFA Lilley           not out                                  65            0
+J Briggs                                 b Trumble              0          0 0
+JT Hearne             c Trumble          b Giffen              18            0
+T Richardson          run out                                   2          0 0
+Extras                (b 1)                                     1
+Total                 (all out, 90 overs)                     231
+
+FoW: 1-2 (Grace), 2-23 (Stoddart), 3-104 (Abel),
+     4-111 (Ranjitsinhji), 5-140 (Jackson), 6-140 (MacLaren),
+     7-154 (Brown), 8-166 (Briggs), 9-219 (Hearne),
+     10-231 (Richardson).
+
+Bowling                      O      M      R      W
+Jones                        5      2     11      0
+Trott                       10      0     46      2
+Giffen                      19      3     48      1
+Trumble                     37     14     80      2
+McKibbin                    19      8     45      3
+
+England 2nd innings (following on)                              R   M   B  4 6
+AE Stoddart                              b McKibbin            41            0
+*WG Grace             c Trott            b Jones               11            0
+KS Ranjitsinhji       not out                                 154 185     23 0
+R Abel                c McKibbin         b Giffen              13            0
+FS Jackson            c McKibbin         b Giffen               1          0 0
+JT Brown              c Iredale          b Jones               19            0
+AC MacLaren           c Jones            b Trumble             15            0
++AFA Lilley           c Trott            b Giffen              19            0
+J Briggs              st Kelly           b McKibbin            16            0
+JT Hearne             c Kelly            b McKibbin             9            0
+T Richardson          c Jones            b Trumble              1          0 0
+Extras                (b 2, lb 3, w 1)                          6
+Total                 (all out, 90.1 overs)                   305
+
+FoW: 1-33 (Grace), 2-76 (Stoddart), 3-97 (Abel), 4-109 (Jackson),
+     5-132 (Brown), 6-179 (MacLaren), 7-232 (Lilley),
+     8-268 (Briggs), 9-304 (Hearne), 10-305 (Richardson).
+
+Bowling                      O      M      R      W
+Jones                       17      0     78      2
+Trott                        7      1     17      0
+Giffen                      16      1     65      3
+Trumble                     29.1   12     78      2
+McKibbin                    21      4     61      3
+
+Australia 2nd innings (target: 125 runs)                        R   M   B  4 6
+FA Iredale                               b Richardson          11            0
+J Darling             c Lilley           b Richardson          16            0
+G Giffen              c Ranjitsinhji     b Richardson           6            0
+*GHS Trott            c Lilley           b Richardson           2          0 0
+SE Gregory            c Ranjitsinhji     b Briggs              33            0
+H Donnan              c Jackson          b Richardson          15            0
+C Hill                c Lilley           b Richardson          14            0
+H Trumble             not out                                  17            0
++JJ Kelly             not out                                   8            0
+Extras                (lb 3)                                    3
+Total                 (7 wickets, 84.3 overs)                 125
+
+DNB: TR McKibbin, E Jones.
+
+FoW: 1-20 (Iredale), 2-26 (Giffen), 3-28 (Trott), 4-45 (Darling),
+     5-79 (Gregory), 6-95 (Donnan), 7-100 (Hill).
+
+Bowling                      O      M      R      W
+Richardson                  42.3   16     76      6
+Briggs                      18      8     24      1
+Hearne                      24     13     22      0
+
+*** Ranji, the first Indian to play Test cricket, became the second batsman
+    after Grace to score a hundred on debut for England.
+*** He was the first to score a hundred before lunch in a Test match; on the
+    third morning he took his overnight score of 41* to 154*, adding 113 runs
+    in 130 minutes.
+*** Brown kept wicket when Lilley's leg-breaks were required to break a
+    stand.
+*** G Giffen became the first to complete the Test career double of 1,000
+    runs and 100 wickets.
+
+<END>

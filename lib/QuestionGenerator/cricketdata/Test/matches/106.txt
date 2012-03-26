@@ -1,0 +1,139 @@
+
+Test # 106
+England in South Africa, 1909/10, 1st Test
+South Africa v England
+Old Wanderers, Johannesburg
+1,3,4,5 January 1910 (5-day match)
+
+Result: South Africa won by 19 runs
+Series: South Africa leads the 5-match series 1-0
+
+Toss: South Africa
+Umpires: AJ Atfield (Eng) and FW Grey
+Test debuts: MC Bird, CP Buckenham, HDG Leveson Gower, GHT Simpson-Hayward,
+ H Strudwick (England); T Campbell, JMM Commaille, LA Stricker,
+ JW Zulch (South Africa).
+
+Close of play:
+ Day 1: South Africa 208, England 147/0 (Hobbs 77*, Rhodes 65*)
+ Day 2: England 310, South Africa 124/3 (Nourse 27*, Campbell 8*)
+ Day 3: South Africa 345, England 144/7 (Thompson 25*, Leveson Gower 12*)
+
+South Africa 1st innings                                        R   M   B  4 6
+JW Zulch                                 b Simpson-Hayward     19            0
+LA Stricker                              b Buckenham           12            0
+GA Faulkner           lbw                b Simpson-Hayward     78            0
+AW Nourse             c Leveson Gower    b Rhodes              53            0
+*SJ Snooke            c Strudwick        b Buckenham           12            0
+GC White              c Woolley          b Buckenham            0          0 0
+JH Sinclair                              b Simpson-Hayward      3          0 0
+JMM Commaille         st Strudwick       b Simpson-Hayward      8            0
+RO Schwarz                               b Simpson-Hayward      0          0 0
+AEE Vogler            c Denton           b Simpson-Hayward     10            0
++T Campbell           not out                                   8            0
+Extras                (b 1, lb 2, nb 2)                         5
+Total                 (all out, 63 overs)                     208
+
+FoW: 1-25 (Zulch), 2-33 (Stricker), 3-133 (Nourse),
+     4-155 (Snooke), 5-155 (White), 6-164 (Sinclair),
+     7-187 (Commaille), 8-187 (Schwarz), 9-195 (Faulkner),
+     10-208 (Vogler).
+
+Bowling                      O      M      R      W
+Buckenham                   19      1     77      3
+Hobbs                        6      1     20      0
+Simpson-Hayward             16      3     43      6
+Thompson                    11      3     25      0
+Rhodes                       9      1     34      1
+Woolley                      1      0      4      0
+Bird                         1      1      0      0
+
+England 1st innings                                             R   M   B  4 6
+JB Hobbs              c Campbell         b Vogler              89            0
+W Rhodes                                 b Vogler              66            0
+D Denton              c Vogler           b Faulkner            28            0
+FL Fane               c Vogler           b Faulkner            23            0
+FE Woolley            c Schwarz          b Vogler              14            0
+GJ Thompson           lbw                b Vogler              16            0
+MC Bird               c Vogler           b Faulkner             4            0
+CP Buckenham                             b Faulkner             0          0 0
+*HDG Leveson Gower    c Campbell         b Faulkner            17            0
+GHT Simpson-Hayward   not out                                  29            0
++H Strudwick                             b Vogler               7            0
+Extras                (b 9, lb 8)                              17
+Total                 (all out, 90.1 overs)                   310
+
+FoW: 1-159 (Rhodes), 2-190 (Hobbs), 3-206 (Denton),
+     4-237 (Woolley), 5-241 (Fane), 6-245 (Bird),
+     7-247 (Buckenham), 8-265 (Thompson), 9-275 (Leveson Gower),
+     10-310 (Strudwick).
+
+Bowling                      O      M      R      W
+Vogler                      30.1    4     87      5
+Snooke                       6      1     28      0
+Nourse                       9      3     13      0
+Faulkner                    33      4    120      5
+White                        3      0     15      0
+Sinclair                     4      0     10      0
+Schwarz                      2      0      8      0
+Stricker                     3      0     12      0
+
+South Africa 2nd innings                                        R   M   B  4 6
+JW Zulch              lbw                b Buckenham           27            0
+LA Stricker                              b Simpson-Hayward     17            0
+GC White              c Woolley          b Buckenham           39            0
+AW Nourse             c Strudwick        b Buckenham           34            0
++T Campbell                              b Thompson             8            0
+GA Faulkner                              b Bird               123            0
+*SJ Snooke            c Rhodes           b Buckenham           47            0
+JH Sinclair                              b Simpson-Hayward      0          0 0
+JMM Commaille                            b Bird                19            0
+AEE Vogler            c Rhodes           b Bird                14            0
+RO Schwarz            not out                                   6            0
+Extras                (b 2, w 1, nb 8)                         11
+Total                 (all out, 114 overs)                    345
+
+FoW: 1-30 (Stricker), 2-88 (White), 3-95 (Zulch),
+     4-129 (Campbell), 5-143 (Nourse), 6-242 (Snooke),
+     7-247 (Sinclair), 8-321 (Commaille), 9-332 (Faulkner),
+     10-345 (Vogler).
+
+Bowling                      O      M      R      W
+Buckenham                   39      5    110      4
+Hobbs                        6      2     16      0
+Simpson-Hayward             24      3     59      2
+Thompson                    28      6    100      1
+Rhodes                       9      3     25      0
+Woolley                      4      1     13      0
+Bird                         4      1     11      3
+
+England 2nd innings (target: 244 runs)                          R   M   B  4 6
+JB Hobbs                                 b Vogler              35            0
+W Rhodes              c Nourse           b Vogler               2          0 0
+D Denton                             c & b Vogler              26            0
+FL Fane               lbw                b Vogler               0          0 0
+FE Woolley                               b Vogler              25            0
+GJ Thompson                              b Faulkner            63            0
+MC Bird               c Snooke           b Faulkner             5            0
+CP Buckenham                             b Vogler               1          0 0
+*HDG Leveson Gower                       b Faulkner            31            0
+GHT Simpson-Hayward   c White            b Vogler              14            0
++H Strudwick          not out                                   1          0 0
+Extras                (b 14, lb 2, w 1, nb 4)                  21
+Total                 (all out, 53.2 overs)                   224
+
+FoW: 1-36 (Rhodes), 2-47 (Hobbs), 3-47 (Fane), 4-91 (Woolley),
+     5-94 (Denton), 6-102 (Bird), 7-108 (Buckenham),
+     8-178 (Leveson Gower), 9-210 (Simpson-Hayward),
+     10-224 (Thompson).
+
+Bowling                      O      M      R      W
+Vogler                      22      2     94      7
+Snooke                       3      0     10      0
+Nourse                       5      0     20      0
+Faulkner                    17.2    7     40      3
+White                        4      0     33      0
+Schwarz                      1      0      4      0
+Stricker                     1      0      2      0
+
+<END>

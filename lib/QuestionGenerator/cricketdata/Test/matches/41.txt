@@ -1,0 +1,124 @@
+
+Test # 41
+The Ashes, 1893, 3rd Test
+England v Australia
+Old Trafford, Manchester
+24,25,26 August 1893 (3-day match)
+
+Result: Match drawn
+Series: England wins the 3-match series 1-0
+
+Toss: Australia
+Umpires: C Clements and J Phillips (Aus)
+Balls per over: 5
+Test debuts: W Brockwell, T Richardson (England).
+
+Close of play:
+ Day 1: Australia 204, England 54/2 (Grace 29*, Gunn 5*)
+ Day 2: England 243, Australia 93/3 (Bannerman 26*, McLeod 1*)
+
+Australia 1st innings                                           R   M   B  4 6
+AC Bannerman          c MacGregor        b Briggs              19            0
+JJ Lyons              c MacGregor        b Briggs              27            0
+G Giffen                                 b Richardson          17            0
+GHS Trott             c Grace            b Richardson           9            0
+W Bruce               c Read             b Richardson          68            0
+H Graham              lbw                b Mold                18            0
+SE Gregory                               b Briggs               0          0 0
+H Trumble                                b Richardson          35            0
+RW McLeod                                b Briggs               2          0 0
+CTB Turner                               b Richardson           0          0 0
+*+JM Blackham         not out                                   0          0 0
+Extras                (b 5, lb 4)                               9
+Total                 (all out, 96.4 overs)                   204
+
+FoW: 1-32 (Lyons), 2-59 (Giffen), 3-69 (Bannerman), 4-73 (Trott),
+     5-129 (Graham), 6-130 (Gregory), 7-194 (Bruce),
+     8-198 (McLeod), 9-201 (Turner), 10-204 (Trumble).
+
+Bowling                      O      M      R      W
+Mold                        28     11     48      1
+Richardson                  23.4    5     49      5
+Briggs                      42     18     81      4
+Brockwell                    3      0     17      0
+
+England 1st innings                                             R   M   B  4 6
+AE Stoddart           run out                                   0          0 0
+*WG Grace                                b Bruce               40            0
+A Shrewsbury snr      c Bruce            b Giffen              12            0
+W Gunn                not out                                 102 250      8 0
+A Ward                c Blackham         b Turner              13            0
+WW Read                                  b Giffen              12            0
+W Brockwell           c Gregory          b Giffen              11            0
+J Briggs                                 b Giffen               2          0 0
++G MacGregor          st Blackham        b Turner              12            0
+T Richardson                             b Bruce               16            0
+AW Mold                                  b Trumble              0          0 0
+Extras                (b 17, lb 6)                             23
+Total                 (all out, 140.2 overs)                  243
+
+FoW: 1-4 (Stoddart), 2-43 (Shrewsbury), 3-73 (Grace),
+     4-93 (Ward), 5-112 (Read), 6-136 (Brockwell),
+     7-165 (Briggs), 8-196 (MacGregor), 9-238 (Richardson),
+     10-243 (Mold).
+
+Bowling                      O      M      R      W
+Giffen                      67     30    113      4
+Turner                      53     22     72      2
+Bruce                       17      5     26      2
+Trumble                      3.2    1      9      1
+
+Australia 2nd innings                                           R   M   B  4 6
+AC Bannerman                             b Richardson          60 235        0
+JJ Lyons                                 b Mold                33  35        0
+G Giffen              c Brockwell        b Richardson          17            0
+GHS Trott                                b Mold                12            0
+RW McLeod             c Read             b Richardson           6            0
+W Bruce               c Shrewsbury       b Richardson          36            0
+H Graham              st MacGregor       b Briggs               3          0 0
+SE Gregory            lbw                b Richardson           3          0 0
+H Trumble             run out                                   8            0
+CTB Turner            c Mold             b Briggs              27            0
+*+JM Blackham         not out                                  23            0
+Extras                (b 4, lb 4)                               8
+Total                 (all out, 95.3 overs)                   236
+
+FoW: 1-56 (Lyons), 2-79 (Giffen), 3-92 (Trott), 4-99 (McLeod),
+     5-153 (Bruce), 6-170 (Graham), 7-173 (Gregory),
+     8-182 (Trumble), 9-200 (Bannerman), 10-236 (Turner).
+
+Bowling                      O      M      R      W
+Mold                        23      6     57      2
+Richardson                  44     15    107      5
+Briggs                      28.3   11     64      2
+
+England 2nd innings (target: 198 runs)                          R   M   B  4 6
+AE Stoddart           c Gregory          b Trumble             42            0
+*WG Grace             c Trott            b McLeod              45            0
+A Shrewsbury snr      not out                                  19            0
+W Gunn                                   b Trumble             11            0
+A Ward                                   b Trumble              0          0 0
+WW Read               not out                                   0          0 0
+Extras                (b 1)                                     1
+Total                 (4 wickets, 63 overs)                   118
+
+DNB: W Brockwell, J Briggs, +G MacGregor, T Richardson, AW Mold.
+
+FoW: 1-78 (Stoddart), 2-100 (Grace), 3-117 (Gunn), 4-117 (Ward).
+
+Bowling                      O      M      R      W
+Giffen                       6      3     10      0
+Turner                       7      1     18      0
+Bruce                        9      4     19      0
+Trumble                     25      4     49      3
+McLeod                      16      7     21      1
+
+*** During his match-saving second innings, Turner was struck on the hand and
+    dislocated a finger. Dr Grace pulled the joint back into place and he was
+    able to continue his last-wicket partnership of 36 with Blackham which
+    occupied valuable time for Australia.
+*** Gunn's hundred took 250 minutes and was the first in a Test at Old
+    Trafford.
+*** England made no attempt to score 198 runs in 135 minutes.
+
+<END>

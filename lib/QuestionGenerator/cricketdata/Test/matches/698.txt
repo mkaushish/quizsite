@@ -1,0 +1,132 @@
+
+Test # 698
+The Ashes, 1972, 1st Test
+England v Australia
+Old Trafford, Manchester
+8,9,10,12,13 June 1972 (5-day match)
+
+Result: England won by 89 runs
+Series: England leads the 5-match series 1-0
+
+Toss: England
+Umpires: CS Elliott and TW Spencer
+Test debuts: DJ Colley, BC Francis (Australia); AW Greig (England).
+
+Close of play:
+ Day 1: England 147/5 (Greig 26*, Knott 3*)
+ Day 2: England 249, Australia 103/4 (GS Chappell 15*, Walters 1*)
+ Day 3: Australia 142, England 136/3 (Smith 18*, D'Oliveira 35*)
+ Day 4: England 234, Australia 57/2 (Stackpole 28*, GS Chappell 16*)
+
+England 1st innings                                             R   M   B  4 6
+G Boycott             c Stackpole        b Gleeson              8  53  44  0 0
+JH Edrich             run out                                  49 181 136  5 0
+BW Luckhurst                             b Colley              14  58  45  2 0
+MJK Smith             lbw                b Lillee              10  54  40  1 0
+BL D'Oliveira                            b GS Chappell         23  72  63  2 0
+AW Greig              lbw                b Colley              57 158 123  8 0
++APE Knott            c Marsh            b Lillee              18 111  94  1 0
+*R Illingworth        not out                                  26 125 106  2 0
+JA Snow                                  b Colley               3  20  12  0 0
+N Gifford             run out                                  15  70  53  3 0
+GG Arnold             c Francis          b Gleeson              1  15  12  0 0
+Extras                (b 10, lb 9, w 2, nb 4)                  25
+Total                 (all out, 120.4 overs)                  249
+
+FoW: 1-50 (Luckhurst), 2-86 (Smith), 3-99 (Edrich),
+     4-118 (D'Oliveira), 5-127 (Boycott), 6-190 (Greig),
+     7-200 (Knott), 8-209 (Snow), 9-243 (Gifford),
+     10-249 (Arnold).
+
+Bowling                      O      M      R      W
+Lillee                      29     14     40      2
+Colley                      33      3     83      3
+GS Chappell                 16      6     28      1
+Walters                      5      1      7      0
+Watson                       4      2      8      0
+Gleeson                     24.4   10     45      2
+Inverarity                   9      3     13      0
+
+Australia 1st innings                                           R   M   B  4 6
+KR Stackpole          lbw                b Arnold              53 114  85  7 0
+BC Francis            lbw                b D'Oliveira          27  84  75  0 0
+*IM Chappell          c Smith            b Greig                0   1   1  0 0
+GS Chappell           c Greig            b Snow                24  81  66  2 0
+GD Watson             c Knott            b Arnold               2   8   4  0 0
+KD Walters            c Illingworth      b Snow                17 102  78  1 0
+RJ Inverarity         c Knott            b Arnold               4   6  10  0 0
++RW Marsh             c Edrich           b Arnold               8  14  13  1 0
+DJ Colley                                b Snow                 1  11   8  0 0
+JW Gleeson                               b Snow                 0   1   2  0 0
+DK Lillee             not out                                   1  16   6  0 0
+Extras                (b 1, lb 4)                               5
+Total                 (all out, 58 overs)                     142
+
+FoW: 1-68 (Francis), 2-69 (IM Chappell), 3-91 (Stackpole),
+     4-99 (Watson), 5-119 (GS Chappell), 6-124 (Inverarity),
+     7-134 (Marsh), 8-137 (Colley), 9-137 (Gleeson),
+     10-142 (Walters).
+
+Bowling                      O      M      R      W
+Snow                        20      7     41      4
+Arnold                      25      4     62      4
+Greig                        7      1     21      1
+D'Oliveira                   6      1     13      1
+
+England 2nd innings                                             R   M   B  4 6
+G Boycott             lbw                b Gleeson             47 104  81  7 0
+JH Edrich             c Marsh            b Watson              26 137 104  4 0
+BW Luckhurst          c Marsh            b Colley               0  10   9  0 0
+MJK Smith             c Marsh            b Lillee              34 147  99  2 0
+BL D'Oliveira         c Watson           b Lillee              37  70  49  7 0
+AW Greig                                 b GS Chappell         62 146 116  6 0
++APE Knott            c Marsh            b Lillee               1  10   8  0 0
+*R Illingworth        c IM Chappell      b Lillee              14  69  50  1 0
+JA Snow               lbw                b Lillee               0   1   2  0 0
+N Gifford             c Marsh            b Lillee               0   1   1  0 0
+GG Arnold             not out                                   0   2   0  0 0
+Extras                (b 4, lb 8, nb 1)                        13
+Total                 (all out, 86.2 overs)                   234
+
+FoW: 1-60 (Boycott), 2-65 (Luckhurst), 3-81 (Edrich),
+     4-140 (D'Oliveira), 5-182 (Smith), 6-192 (Knott),
+     7-234 (Illingworth), 8-234 (Snow), 9-234 (Gifford),
+     10-234 (Greig).
+
+Bowling                      O      M      R      W
+Lillee                      30      8     66      6
+Colley                      23      3     68      1
+GS Chappell                 21.2    6     42      1
+Watson                       5      0     29      1
+Gleeson                      7      3     16      1
+
+Australia 2nd innings (target: 342 runs)                        R   M   B  4 6
+KR Stackpole                             b Greig               67 201 141  6 0
+BC Francis            lbw                b Snow                 6  10   7  1 0
+*IM Chappell          c Knott            b Snow                 7  37  25  1 0
+GS Chappell           c D'Oliveira       b Arnold              23  72  67  2 0
+GD Watson                            c & b Snow                 0   3   3  0 0
+KD Walters                               b Greig               20  30  37  3 0
+RJ Inverarity         c Luckhurst        b D'Oliveira           3  16  26  0 0
++RW Marsh             c Knott            b Greig               91 123 111  9 4
+DJ Colley             c Greig            b Snow                 4  18  18  1 0
+JW Gleeson                               b Greig               30  88  75  3 0
+DK Lillee             not out                                   0   4   2  0 0
+Extras                (w 1)                                     1
+Total                 (all out, 85.2 overs)                   252
+
+FoW: 1-9 (Francis), 2-31 (IM Chappell), 3-77 (GS Chappell),
+     4-78 (Watson), 5-115 (Walters), 6-120 (Inverarity),
+     7-136 (Stackpole), 8-147 (Colley), 9-251 (Marsh),
+     10-252 (Gleeson).
+
+Bowling                      O      M      R      W
+Snow                        27      2     87      4
+Arnold                      20      2     59      1
+Greig                       19.2    7     53      4
+D'Oliveira                  16      4     23      1
+Gifford                      3      0     29      0
+
+*** G Boycott (1) retired hurt on 3* from 13/0 to 118/4
+
+<END>

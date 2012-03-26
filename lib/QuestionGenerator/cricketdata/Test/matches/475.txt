@@ -1,0 +1,119 @@
+
+Test # 475
+India in England, 1959, 2nd Test
+England v India
+Lord's, London
+18,19,20 June 1959 (5-day match)
+
+Result: England won by 8 wickets
+Series: England leads the 5-match series 2-0
+
+Toss: India
+Umpires: DE Davies and CS Elliott
+Test debut: ML Jaisimha (India).
+
+Close of play:
+ Day 1: India 168, England 50/3 (Cowdrey 19*, Barrington 1*)
+ Day 2: England 226, India 108/4 (Manjrekar 46*, Kripal Singh 28*)
+
+India 1st innings                                               R   M   B  4 6
+*P Roy                c Evans            b Statham             15            0
+NJ Contractor                            b Greenhough          81 255      9 1
+PR Umrigar                               b Statham              1          0 0
+VL Manjrekar          lbw                b Trueman             12            0
+JM Ghorpade           lbw                b Greenhough          41            0
+AG Kripal Singh                          b Greenhough           0          0 0
+ML Jaisimha           lbw                b Greenhough           1          0 0
++PG Joshi                                b Horton               4            0
+Surendranath                             b Greenhough           0   1   1  0 0
+SP Gupte              c May              b Horton               0          0 0
+RB Desai              not out                                   2          0 0
+Extras                (lb 11)                                  11
+Total                 (all out, 77.4 overs)                   168
+
+FoW: 1-32 (Roy), 2-40 (Umrigar), 3-61 (Manjrekar),
+     4-144 (Ghorpade), 5-152 (Kripal Singh), 6-158 (Jaisimha),
+     7-163 (Contractor), 8-163 (Surendranath), 9-164 (Gupte),
+     10-168 (Joshi).
+
+Bowling                      O      M      R      W
+Trueman                     16      4     40      1
+Statham                     16      6     27      2
+Moss                        14      5     31      0
+Greenhough                  16      4     35      5
+Horton                      15.4    7     24      2
+
+England 1st innings                                             R   M   B  4 6
+CA Milton             c Surendranath     b Desai               14            0
+K Taylor              c Gupte            b Desai                6            0
+MC Cowdrey            c Joshi            b Desai               34            0
+*PBH May                                 b Surendranath         9            0
+KF Barrington         c sub              b Desai               80 225     10 0
+MJ Horton                                b Desai                2          0 0
++TG Evans                                b Surendranath         0          0 0
+FS Trueman            lbw                b Gupte                7  40        0
+JB Statham            c Surendranath     b Gupte               38  80        0
+AE Moss                                  b Surendranath        26  29        0
+T Greenhough          not out                                   0          0 0
+Extras                (b 5, lb 4, w 1)                         10
+Total                 (all out, 84.4 overs)                   226
+
+FoW: 1-9 (Taylor), 2-26 (Milton), 3-35 (May), 4-69 (Cowdrey),
+     5-79 (Horton), 6-80 (Evans), 7-100 (Trueman),
+     8-184 (Statham), 9-226 (Moss), 10-226 (Barrington).
+
+Bowling                      O      M      R      W
+Desai                       31.4    8     89      5
+Surendranath                30     17     46      3
+Umrigar                      1      1      0      0
+Gupte                       19      2     62      2
+Kripal Singh                 3      0     19      0
+
+India 2nd innings                                               R   M   B  4 6
+*P Roy                c May              b Trueman              0   2   3  0 0
+ML Jaisimha           lbw                b Moss                 8            0
+PR Umrigar            c Horton           b Trueman              0   1   1  0 0
+JM Ghorpade           c Evans            b Statham             22            0
+VL Manjrekar          lbw                b Statham             61            0
+AG Kripal Singh                          b Statham             41            0
++PG Joshi                                b Moss                 6            0
+NJ Contractor         not out                                  11            0
+Surendranath          run out                                   0          0 0
+SP Gupte              st Evans           b Greenhough           7            0
+RB Desai                                 b Greenhough           5            0
+Extras                (lb 4)                                    4
+Total                 (all out, 79.1 overs)                   165
+
+FoW: 1-0 (Roy), 2-0 (Umrigar), 3-22 (Jaisimha), 4-42 (Ghorpade),
+     5-131 (Manjrekar), 6-140 (Kripal Singh), 7-147 (Joshi),
+     8-147 (Surendranath), 9-159 (Gupte), 10-165 (Desai).
+
+Bowling                      O      M      R      W
+Trueman                     21      3     55      2
+Statham                     17      7     45      3
+Moss                        23     10     30      2
+Greenhough                  18.1    8     31      2
+
+England 2nd innings (target: 108 runs)                          R   M   B  4 6
+CA Milton             c Joshi            b Desai                3          0 0
+K Taylor              lbw                b Surendranath         3          0 0
+MC Cowdrey            not out                                  63            1
+*PBH May              not out                                  33  70        0
+Extras                (b 5, lb 1)                               6
+Total                 (2 wickets, 27.2 overs)                 108
+
+DNB: KF Barrington, MJ Horton, +TG Evans, FS Trueman, JB Statham,
+     AE Moss, T Greenhough.
+
+FoW: 1-8 (Taylor), 2-12 (Milton).
+
+Bowling                      O      M      R      W
+Desai                        7      1     29      1
+Surendranath                11      2     32      1
+Umrigar                      1      0      8      0
+Gupte                        6      2     21      0
+Kripal Singh                 1      1      0      0
+Jaisimha                     1      0      8      0
+Roy                          0.2    0      4      0
+
+<END>

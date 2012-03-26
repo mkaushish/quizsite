@@ -1,0 +1,75 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+662, 1969-10-24, 1, 2, New Zealand, , Howarth, 69, 240, na, 10, 0
+662, 1969-10-24, 3, 2, New Zealand, run out, , 37, 181, na, 2, 0
+663, 1969-10-30, 1, 1, New Zealand, , Congdon, 16, 87, na, 1, 0
+663, 1969-10-30, 3, 1, New Zealand,                c &, Howarth, 17, 123, na, na, 0
+665, 1969-11-08, 2, 2, New Zealand, c Turner, Pollard, 21, 102, na, 1, 0
+665, 1969-11-08, 4, 2, New Zealand, , Cunis, 3, 19, na, 0, 0
+687, 1971-06-03, 1, 2, England,                c &, Lever, 17, 84, 59, 0, 0
+688, 1971-06-17, 2, 2, England, c Knott, D'Oliveira, 28, 85, 80, 4, 0
+689, 1971-07-08, 2, 2, England, c Knott, Gifford, 28, 99, 84, 4, 0
+689, 1971-07-08, 4, 2, England,                c &, D'Oliveira, 91, 241, 220, 16, 0
+704, 1972-12-22, 1, 1, Australia, c GS Chappell, Massie, 11, 53, na, 2, 0
+704, 1972-12-22, 3, 1, Australia,                c &, Mallett, 81, 215, na, 8, 0
+705, 1973-12-29, 2, 1, Australia, lbw, Lillee, 137, 313, 261, 15, 0
+705, 1973-12-29, 4, 1, Australia, c Marsh, Walker, 5, 23, 16, 1, 0
+707, 1973-01-06, 2, 1, Australia, c GS Chappell, Lillee, 30, 79, 69, 2, 0
+707, 1973-01-06, 4, 1, Australia, c Edwards, Massie, 6, 17, 14, 0, 0
+710, 1973-02-02, 1, 1, New Zealand, c sub, Hadlee, 166, 362, na, 19, 0
+710, 1973-02-02, 3, 1, New Zealand, c Congdon, Howarth, 68, 161, na, 7, 0
+712, 1973-02-07, 1, 1, New Zealand, , Hadlee, 61, 157, na, 5, 0
+713, 1973-02-16, 1, 1, New Zealand, c Wadsworth, Collinge, 33, 75, na, 5, 0
+713, 1973-02-16, 3, 1, New Zealand, c Hadlee, Taylor, 38, na, na, 8, 0
+715, 1973-03-02, 2, 1, England, c Roope, Greig, 119, 370, na, 14, 0
+715, 1973-03-02, 4, 1, England, c Roope, Greig, 9, 11, na, 2, 0
+717, 1973-03-16, 2, 1, England, c Knott, Pocock, 30, 115, na, 2, 0
+719, 1973-03-24, 1, 1, England, c Denness, Gifford, 89, 248, na, 9, 0
+719, 1973-03-24, 3, 6, England, , Gifford, 1, 26, na, 0, 0
+742, 1974-07-25, 1, 1, England, c Lloyd, Hendrick, 28, 80, 53, 3, 0
+742, 1974-07-25, 3, 1, England, c Greig, Old, 12, 19, 13, 2, 0
+743, 1974-08-08, 1, 1, England, lbw, Hendrick, 40, 95, 73, 4, 0
+743, 1974-08-08, 3, 1, England, lbw, Arnold, 43, 135, 119, 4, 0
+744, 1974-08-22, 1, 1, England, c Old, Willis, 21, 71, 44, 2, 0
+744, 1974-08-22, 3, 1, England,                c &, Arnold, 4, 8, 10, 0, 0
+759, 1975-03-01, 1, 2, West Indies, c Murray, Roberts, 27, na, na, na, 0
+759, 1975-03-01, 3, 7, West Indies, not out, , 98, 315, na, na, 0
+782, 1976-10-09, 1, 2, New Zealand, c Burgess, Hadlee, 5, na, na, na, 0
+782, 1976-10-09, 4, 2, New Zealand, c Parker, Howarth, 38, 73, na, 6, 0
+783, 1976-10-23, 1, 1, New Zealand, not out, , 103, na, na, 14, 0
+784, 1976-10-30, 1, 1, New Zealand, c Burgess, Hadlee, 34, 164, na, 2, 0
+784, 1976-10-30, 3, 1, New Zealand, c Lees, Collinge, 31, 65, na, 4, 0
+790, 1977-01-01, 2, 2, Australia, c McCosker, O'Keeffe, 105, 296, 262, 10, 0
+790, 1977-01-01, 4, 2, Australia, c Walters, Gilmour, 0, 7, 1, 0, 0
+792, 1977-01-14, 2, 2, Australia, c Cosier, Walker, 25, 31, 24, 2, 0
+792, 1977-01-14, 4, 2, Australia, c Marsh, Lillee, 0, 3, 3, 0, 0
+797, 1977-02-18, 1, 2, West Indies, c Croft, Garner, 37, na, na, na, 0
+797, 1977-02-18, 3, 2, West Indies, c Garner, Croft, 9, na, na, na, 0
+799, 1977-03-04, 1, 2, West Indies,                c &, Croft, 17, na, na, na, 0
+799, 1977-03-04, 3, 2, West Indies, c Kallicharran, Garner, 81, 235, na, na, 0
+801, 1977-03-18, 1, 2, West Indies, c Murray, Garner, 12, na, na, na, 0
+801, 1977-03-18, 3, 2, West Indies, lbw, Croft, 48, na, na, na, 0
+802, 1977-04-01, 1, 2, West Indies, c Lloyd, Roberts, 0, 3, na, 0, 0
+802, 1977-04-01, 3, 2, West Indies, , Ali, 24, na, na, na, 0
+803, 1977-04-15, 2, 2, West Indies, , Roberts, 3, na, na, 0, 0
+803, 1977-04-15, 4, 2, West Indies, c Greenidge, Croft, 14, na, na, na, 0
+810, 1977-12-14, 1, 2, England, lbw, Miller, 18, 103, 67, 0, 0
+810, 1977-12-14, 3, 2, England, , Lever, 1, 14, 4, 0, 0
+813, 1978-01-02, 1, 2, England, c Taylor, Willis, 9, 30, 23, 1, 0
+813, 1978-01-02, 3, 2, England, c Edmonds, Cope, 22, 165, 121, 1, 0
+825, 1978-06-01, 1, 2, England, c Radley, Old, 23, 75, 49, 3, 0
+825, 1978-06-01, 3, 2, England, , Old, 79, 164, 123, 9, 0
+826, 1978-06-15, 2, 2, England, c Botham, Willis, 11, 31, 20, 1, 0
+826, 1978-06-15, 3, 2, England, c Taylor, Willis, 0, 2, 2, 0, 0
+827, 1978-06-29, 1, 2, England, c Brearley, Botham, 97, 373, 282, 8, 0
+831, 1978-10-16, 1, 2, India,                c &, Bedi, 41, na, na, na, 0
+831, 1978-10-16, 3, 2, India, c Gavaskar, Kapil Dev, 16, na, na, na, 0
+866, 1979-12-25, 2, 2, India, c Kirmani, Ghavri, 47, 176, 114, 7, 0
+869, 1980-01-15, 1, 2, India, c Kirmani, Kapil Dev, 46, 87, 53, 10, 0
+869, 1980-01-15, 3, 2, India, c Binny, Kapil Dev, 0, 6, 2, 0, 0
+871, 1980-01-29, 2, 2, India, lbw, Kapil Dev, 5, 32, 25, 1, 0
+871, 1980-01-29, 4, 2, India, , Ghavri, 8, 52, 27, 0, 0
+886, 1980-11-24, 1, 2, West Indies, c Murray, Marshall, 19, 54, 40, 2, 0
+886, 1980-11-24, 3, 2, West Indies, lbw, Croft, 28, 139, 103, 2, 0
+890, 1980-12-22, 1, 2, West Indies, lbw, Croft, 0, 15, 9, 0, 0
+890, 1980-12-22, 3, 2, West Indies, c Bacchus, Clarke, 36, 155, 84, 2, 0
+892, 1981-12-30, 2, 2, West Indies, , Clarke, 3, 26, 14, 0, 0

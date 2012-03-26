@@ -1,0 +1,103 @@
+
+Test # 983
+The Frank Worrell Trophy, 1983/84, 2nd Test
+West Indies v Australia
+Queen's Park Oval, Port of Spain, Trinidad
+16,17,18,20,21 March 1984 (5-day match)
+
+Result: Match drawn
+Series: 5-match series level 0-0
+
+Toss: West Indies
+Umpires: DM Archer and CE Cumberbatch
+Test debuts: DM Jones (Australia); MA Small (West Indies).
+Player of the match: AR Border
+
+Close of play:
+ Day 1: Australia 55/4 (Border 12*, Hookes 0*)
+ Day 2: Australia 241/8 (Border 92*, Hogg 5*)
+ Day 3: Australia 255, West Indies 218/4 (Richards 69*, Logie 39*)
+ Day 4: West Indies 468/8d, Australia 55/3 (Hughes 12*, Hogan 6*)
+
+Australia 1st innings                                           R   M   B  4 6
+KC Wessels            c Gomes            b Garner               4   3   5  1 0
++WB Phillips          c Dujon            b Garner               4  41  22  0 0
+GM Ritchie                               b Garner               1   9   5  0 0
+*KJ Hughes            c Dujon            b Garner              24  65  39  3 1
+AR Border             not out                                  98 360 314 11 0
+DW Hookes                                b Garner              23  35  20  5 0
+DM Jones                             c & b Richards            48 161 104  6 0
+GF Lawson                            c & b Daniel              14  69  53  0 0
+TG Hogan              c Greenidge        b Daniel               0   1   2  0 0
+RM Hogg               c Marshall         b Daniel              11  45  32  2 0
+TM Alderman           c Richardson       b Garner               1  14   9  0 0
+Extras                (b 6, lb 4, nb 17)                       27
+Total                 (all out, 92.1 overs)                   255
+
+FoW: 1-4 (Wessels), 2-7 (Ritchie), 3-16 (Phillips),
+     4-50 (Hughes), 5-85 (Hookes), 6-185 (Jones), 7-233 (Lawson),
+     8-233 (Hogan), 9-253 (Hogg), 10-255 (Alderman).
+
+Bowling                      O      M      R      W
+Garner                      28.1    9     60      6
+Marshall                    19      4     73      0
+Daniel                      15      3     40      3
+Small                       10      3     24      0
+Gomes                       10      0     33      0
+Richards                    10      4     15      1
+
+West Indies 1st innings                                         R   M   B  4 6
+CG Greenidge          c Phillips         b Hogg                24  35  28  5 0
+DL Haynes             run out                                  53 120  66  7 0
+RB Richardson         c Wessels          b Alderman            23 131  85  2 0
+*IVA Richards         c Phillips         b Alderman            76 189 188 13 0
+HA Gomes                                 b Lawson               3  20  16  0 0
+AL Logie              lbw                b Hogan               97 321 197 10 0
++PJL Dujon                               b Hogan              130 262 187 15 2
+MD Marshall           lbw                b Lawson              10  36  20  0 0
+J Garner              not out                                  24  21  24  0 2
+WW Daniel             not out                                   6   2   4  0 1
+Extras                (b 7, lb 12, w 2, nb 1)                  22
+Total                 (8 wickets dec, 126 overs)              468
+
+DNB: MA Small.
+
+FoW: 1-35 (Greenidge), 2-93 (Haynes), 3-124 (Richardson),
+     4-129 (Gomes), 5-229 (Richards), 6-387 (Logie),
+     7-430 (Marshall), 8-462 (Dujon).
+
+Bowling                      O      M      R      W
+Lawson                      32      3    132      2
+Hogg                        31      2    103      1
+Alderman                    35      9     91      2
+Hogan                       28      3    123      2
+
+Australia 2nd innings                                           R   M   B  4 6
+KC Wessels            lbw                b Garner               4  47  36  0 0
++WB Phillips          run out                                   0   4   0  0 0
+GM Ritchie                               b Small               26  36  21  5 0
+*KJ Hughes            lbw                b Marshall            33  86  56  6 0
+TG Hogan              c Logie            b Daniel              38  89  49  6 0
+AR Border             not out                                 100 279 269  3 0
+DW Hookes             c Richardson       b Gomes               21  70  47  0 0
+DM Jones                                 b Richards             5  18  23  0 0
+GF Lawson                                b Marshall            20  33  30  3 0
+RM Hogg               c Garner           b Richards             9  53  34  1 0
+TM Alderman           not out                                  21 105  69  3 0
+Extras                (b 6, lb 1, w 1, nb 14)                  22
+Total                 (9 wickets, 112.1 overs)                299
+
+FoW: 1-1 (Phillips), 2-35 (Ritchie), 3-41 (Wessels),
+     4-114 (Hughes), 5-115 (Hogan), 6-153 (Hookes),
+     7-162 (Jones), 8-196 (Lawson), 9-238 (Hogg).
+
+Bowling                      O      M      R      W
+Marshall                    22      3     73      2
+Garner                      15      4     35      1
+Small                       14      2     51      1
+Daniel                       9      3     11      1
+Richards                    25      5     65      2
+Gomes                       27      5     53      1
+Logie                        0.1    0      4      0
+
+<END>

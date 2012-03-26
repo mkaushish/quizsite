@@ -1,0 +1,124 @@
+
+Test # 72
+The Ashes, 1902, 3rd Test
+England v Australia
+Bramall Lane, Sheffield
+3,4,5 July 1902 (3-day match)
+
+Result: Australia won by 143 runs
+Series: Australia leads the 5-match series 1-0
+
+Toss: Australia
+Umpires: J Phillips (Aus) and W Richards
+
+Close of play:
+ Day 1: Australia 194, England 102/5 (Lilley 0*, Braund 0*)
+ Day 2: England 145, Australia 289, England 73/1 (Jessop 53*, Tyldesley 11*)
+
+Australia 1st innings                                           R   M   B  4 6
+VT Trumper                               b Braund               1          0 0
+RA Duff               c Lilley           b Barnes              25            0
+C Hill                c Rhodes           b Barnes              18            0
+*J Darling            c Braund           b Barnes               0   1   1  0 0
+SE Gregory            c Abel             b Barnes              11            0
+MA Noble              c Braund           b Rhodes              47  70        0
+AJY Hopkins           c Braund           b Barnes              27            0
+WW Armstrong                         c & b Braund              25            0
++JJ Kelly                                b Barnes               0          0 0
+H Trumble                            c & b Jackson             32            0
+JV Saunders           not out                                   0          0 0
+Extras                (b 3, lb 5)                               8
+Total                 (all out, 66.1 overs)                   194
+
+FoW: 1-3 (Trumper), 2-39 (Duff), 3-39 (Darling), 4-52 (Hill),
+     5-73 (Gregory), 6-127 (Noble), 7-137 (Hopkins),
+     8-137 (Kelly), 9-194 (Armstrong), 10-194 (Trumble).
+
+Bowling                      O      M      R      W
+Hirst                       15      1     59      0
+Braund                      13      4     34      2
+Barnes                      20      9     49      6
+Jackson                      5.1    1     11      1
+Rhodes                      13      3     33      1
+
+England 1st innings                                             R   M   B  4 6
+*AC MacLaren                             b Noble               31            0
+R Abel                                   b Noble               38            0
+JT Tyldesley          c Armstrong        b Noble               22            0
+Hon.FS Jackson        c Gregory          b Saunders             3          0 0
+CB Fry                st Kelly           b Saunders             1          0 0
++AFA Lilley                              b Noble                8            0
+LC Braund             st Kelly           b Saunders             0          0 0
+GH Hirst              c Trumble          b Saunders             8            0
+GL Jessop             c Saunders         b Noble               12            0
+W Rhodes              not out                                   7            0
+SF Barnes             c Darling          b Saunders             7            0
+Extras                (b 4, lb 3, nb 1)                         8
+Total                 (all out, 61.3 overs)                   145
+
+FoW: 1-61 (MacLaren), 2-86 (Abel), 3-101 (Tyldesley),
+     4-101 (Jackson), 5-102 (Fry), 6-106 (Braund),
+     7-110 (Lilley), 8-130 (Jessop), 9-131 (Hirst),
+     10-145 (Barnes).
+
+Bowling                      O      M      R      W
+Trumble                     18     10     21      0
+Saunders                    15.3    4     50      5
+Trumper                      4      1      8      0
+Noble                       19      6     51      5
+Armstrong                    5      2      7      0
+
+Australia 2nd innings                                           R   M   B  4 6
+VT Trumper            c Lilley           b Jackson             62  50        0
+RA Duff               c Hirst            b Rhodes               1          0 0
+C Hill                c MacLaren         b Jackson            119 145     16 0
+*J Darling            c Braund           b Barnes               0          0 0
+SE Gregory            run out                                  29  67        0
+MA Noble                                 b Jackson              8            0
+AJY Hopkins           not out                                  40            0
+WW Armstrong                             b Rhodes              26            0
++JJ Kelly             c Hirst            b Rhodes               0          0 0
+H Trumble                                b Rhodes               0          0 0
+JV Saunders                              b Rhodes               1          0 0
+Extras                (lb 3)                                    3
+Total                 (all out, 72.1 overs)                   289
+
+FoW: 1-20 (Duff), 2-80 (Trumper), 3-80 (Darling),
+     4-187 (Gregory), 5-214 (Noble), 6-225 (Hill),
+     7-277 (Armstrong), 8-287 (Kelly), 9-287 (Trumble),
+     10-289 (Saunders).
+
+Bowling                      O      M      R      W
+Hirst                       10      1     40      0
+Braund                      12      0     58      0
+Barnes                      12      4     50      1
+Jackson                     17      2     60      3
+Rhodes                      17.1    3     63      5
+Jessop                       4      0     15      0
+
+England 2nd innings (target: 339 runs)                          R   M   B  4 6
+GL Jessop             lbw                b Trumble             55            0
+R Abel                c Hill             b Noble                8            0
+JT Tyldesley                             b Trumble             14            0
+*AC MacLaren          c Trumper          b Noble               63            0
+CB Fry                lbw                b Trumble              4            0
+Hon.FS Jackson                           b Noble               14            0
++AFA Lilley                              b Noble                9            0
+LC Braund             c Armstrong        b Noble                9            0
+GH Hirst                                 b Noble                0          0 0
+W Rhodes              not out                                   7            0
+SF Barnes                                b Trumble              5            0
+Extras                (b 4, lb 1, w 1, nb 1)                    7
+Total                 (all out, 60.5 overs)                   195
+
+FoW: 1-14 (Abel), 2-75 (Jessop), 3-84 (Tyldesley), 4-98 (Fry),
+     5-162 (Jackson), 6-165 (MacLaren), 7-174 (Lilley),
+     8-174 (Hirst), 9-186 (Braund), 10-195 (Barnes).
+
+Bowling                      O      M      R      W
+Trumble                     21.5    3     49      4
+Saunders                    12      0     68      0
+Trumper                      6      0     19      0
+Noble                       21      4     52      6
+
+<END>

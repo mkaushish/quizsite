@@ -1,0 +1,128 @@
+
+Test # 328
+The Ashes, 1950/51, 2nd Test
+Australia v England
+Melbourne Cricket Ground
+22,23,26,27 December 1950 (6-day match)
+
+Result: Australia won by 28 runs
+Series: Australia leads the 5-match series 2-0
+
+Toss: Australia
+Umpires: GS Cooper and RJJ Wright
+Balls per over: 8
+Test debut: KA Archer (Australia).
+
+Close of play:
+ Day 1: Australia 194
+ Day 2: England 197, Australia 25/0 (Archer 15*, Morris 10*)
+ Day 3: Australia 181, England 28/2 (Simpson 10*, Hutton 2*)
+
+Australia 1st innings                                           R   M   B  4 6
+KA Archer             c Bedser           b Bailey              26 131      1 0
+AR Morris             c Hutton           b Bedser               2  17      0 0
+RN Harvey             c Evans            b Bedser              42  68      6 0
+KR Miller             lbw                b Brown               18  57      4 0
+*AL Hassett                              b Bailey              52 110      4 0
+SJE Loxton            c Evans            b Close               32  85      1 0
+RR Lindwall           lbw                b Bailey               8  42      1 0
++D Tallon             not out                                   7  44      0 0
+IWG Johnson           c Parkhouse        b Bedser               0   6      0 0
+WA Johnston           c Hutton           b Bedser               0   1      0 0
+JB Iverson                               b Bailey               1   3      0 0
+Extras                (b 4, lb 2)                               6
+Total                 (all out, 59.1 overs)                   194
+
+FoW: 1-6 (Morris), 2-67 (Harvey), 3-89 (Archer), 4-93 (Miller),
+     5-177 (Loxton), 6-177 (Hassett), 7-192 (Lindwall),
+     8-193 (Johnson), 9-193 (Johnston), 10-194 (Iverson).
+
+Bowling                      O      M      R      W
+Bailey                      17.1    5     40      4
+Bedser                      19      3     37      4
+Wright                       8      0     63      0
+Brown                        9      0     28      1
+Close                        6      1     20      1
+
+England 1st innings                                             R   M   B  4 6
+RT Simpson            c Johnson          b Miller               4  15      0 0
+C Washbrook           lbw                b Lindwall            21  52      1 0
+JG Dewes              c Miller           b Johnston             8  30      0 0
+L Hutton              c Tallon           b Iverson             12  39      1 0
+WGA Parkhouse         c Hassett          b Miller               9  45      0 0
+DB Close              c Loxton           b Iverson              0   2      0 0
+*FR Brown             c Johnson          b Iverson             62 123      4 1
+TE Bailey                                b Lindwall            12  71      0 0
++TG Evans             c Johnson          b Iverson             49  84      4 0
+AV Bedser             not out                                   4  50      0 0
+DVP Wright            lbw                b Johnston             2   4      0 0
+Extras                (b 8, lb 6)                              14
+Total                 (all out, 62 overs)                     197
+
+FoW: 1-11 (Simpson), 2-33 (Dewes), 3-37 (Washbrook),
+     4-54 (Hutton), 5-54 (Close), 6-61 (Parkhouse),
+     7-126 (Bailey), 8-153 (Brown), 9-194 (Evans),
+     10-197 (Wright).
+
+Bowling                      O      M      R      W
+Lindwall                    13      2     46      2
+Miller                      13      0     39      2
+Johnston                     9      1     28      2
+Iverson                     18      3     37      4
+Johnson                      5      1     19      0
+Loxton                       4      1     14      0
+
+Australia 2nd innings                                           R   M   B  4 6
+KA Archer             c Bailey           b Bedser              46 130      4 0
+AR Morris             lbw                b Wright              18  63      2 0
+RN Harvey             run out                                  31  70      2 0
+KR Miller                                b Bailey              14  42      2 0
+*AL Hassett           c Bailey           b Brown               19  93      2 0
+SJE Loxton            c Evans            b Brown                2  14      0 0
+RR Lindwall           c Evans            b Brown                7  26      1 0
++D Tallon             lbw                b Brown                0   2      0 0
+IWG Johnson           c Close            b Bedser              23  40      3 0
+WA Johnston                              b Bailey               6  24      0 0
+JB Iverson            not out                                   0   3      0 0
+Extras                (b 10, lb 5)                             15
+Total                 (all out, 53.3 overs)                   181
+
+FoW: 1-43 (Morris), 2-99 (Archer), 3-100 (Harvey),
+     4-126 (Miller), 5-131 (Loxton), 6-151 (Lindwall),
+     7-151 (Tallon), 8-156 (Hassett), 9-181 (Johnston),
+     10-181 (Johnson).
+
+Bowling                      O      M      R      W
+Bailey                      15      3     47      2
+Bedser                      16.3    2     43      2
+Wright                       9      0     42      1
+Brown                       12      2     26      4
+Close                        1      0      8      0
+
+England 2nd innings (target: 179 runs)                          R   M   B  4 6
+RT Simpson                               b Lindwall            23  93      0 0
+C Washbrook                              b Iverson              8  33      0 0
+TE Bailey                                b Johnson              0   5      0 0
+L Hutton              c Lindwall         b Johnston            40 124      4 0
+JG Dewes              c Harvey           b Iverson              5  46      1 0
+WGA Parkhouse         lbw                b Johnston            28 102      2 0
+DB Close              lbw                b Johnston             1   8      0 0
+*FR Brown                                b Lindwall             8  42      1 0
++TG Evans                                b Lindwall             2   9      0 0
+AV Bedser             not out                                  14  34      1 0
+DVP Wright            lbw                b Johnston             2  16      0 0
+Extras                (b 17, lb 2)                             19
+Total                 (all out, 63.7 overs)                   150
+
+FoW: 1-21 (Washbrook), 2-22 (Bailey), 3-52 (Simpson),
+     4-82 (Dewes), 5-92 (Hutton), 6-95 (Close), 7-122 (Brown),
+     8-124 (Evans), 9-134 (Parkhouse), 10-150 (Wright).
+
+Bowling                      O      M      R      W
+Lindwall                    12      1     29      3
+Miller                       5      2     16      0
+Johnston                    13.7    1     26      4
+Iverson                     20      4     36      2
+Johnson                     13      3     24      1
+
+<END>

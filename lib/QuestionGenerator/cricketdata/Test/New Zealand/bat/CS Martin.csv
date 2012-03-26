@@ -1,0 +1,94 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+1514, 2000-10-17, 2, 11, South Africa, c Boucher, Kallis, 7, 33, 23, 1, 0
+1514, 2000-10-17, 3, 11, South Africa, not out, , 0, 10, 6, 0, 0
+1519, 2000-11-30, 1, 11, South Africa, not out, , 5, 9, 9, 1, 0
+1519, 2000-11-30, 3, 11, South Africa, not out, , 0, 5, 2, 0, 0
+1522, 2000-11-08, 1, 11, South Africa, , Kallis, 0, 4, 5, 0, 0
+1533, 2001-02-08, 2, 11, Pakistan, , Mohammad Sami, 0, 5, 5, 0, 0
+1533, 2001-02-08, 4, 11, Pakistan, , Saqlain Mushtaq, 0, 3, 1, 0, 0
+1536, 2001-02-15, 1, 11, Pakistan, , Waqar Younis, 0, 13, 4, 0, 0
+1596, 2002-02-21, 2, 11, England, not out, , 0, 14, 6, 0, 0
+1600, 2002-04-01, 2, 11, Pakistan, , Shoaib Akhtar, 0, 1, 1, 0, 0
+1600, 2002-04-01, 3, 11, Pakistan, c sub (Shoaib Malik), Saqlain Mushtaq, 0, 5, 6, 0, 0
+1689, 2004-02-18, 2, 11, South Africa, , Pollock, 0, 2, 3, 0, 0
+1692, 2004-02-26, 1, 11, South Africa, not out, , 1, 24, 8, 0, 0
+1692, 2004-02-26, 3, 11, South Africa, not out, , 1, 29, 15, 0, 0
+1700, 2004-04-20, 1, 11, England, not out, , 1, 21, 6, 0, 0
+1700, 2004-04-20, 3, 11, England, , Flintoff, 7, 37, 34, 1, 0
+1702, 2004-05-03, 1, 11, England, not out, , 0, 1, 0, 0, 0
+1702, 2004-05-03, 3, 10, England, run out (Jones), , 0, 6, 0, 0, 0
+1704, 2004-05-10, 1, 11, England, c Vaughan, Hoggard, 2, 3, 4, 0, 0
+1704, 2004-05-10, 3, 11, England, not out, , 0, 13, 0, 0, 0
+1721, 2004-10-18, 1, 11, Australia, c Ponting, Warne, 0, 29, 9, 0, 0
+1721, 2004-10-18, 3, 11, Australia, lbw, Warne, 0, 8, 7, 0, 0
+1723, 2004-10-26, 2, 11, Australia, not out, , 2, 11, 6, 0, 0
+1723, 2004-10-26, 4, 11, Australia, c Ponting, Warne, 2, 2, 4, 0, 0
+1739, 2005-02-10, 1, 11, Australia, c Gilchrist, McGrath, 1, 17, 7, 0, 0
+1739, 2005-02-10, 3, 11, Australia, lbw, Warne, 0, 1, 1, 0, 0
+1744, 2005-02-26, 1, 11, Australia, c Clarke, Kasprowicz, 0, 4, 2, 0, 0
+1744, 2005-02-26, 3, 11, Australia, not out, , 4, 20, 12, 1, 0
+1746, 2005-03-04, 1, 11, Sri Lanka, not out, , 1, 15, 4, 0, 0
+1746, 2005-03-04, 3, 11, Sri Lanka, not out, , 4, 19, 8, 1, 0
+1748, 2005-03-11, 2, 11, Sri Lanka, not out, , 4, 20, 9, 1, 0
+1759, 2005-07-07, 1, 11, Zimbabwe, not out, , 4, na, 6, 0, 0
+1761, 2005-07-15, 2, 11, Zimbabwe, not out, , 0, 5, 4, 0, 0
+1787, 2006-02-09, 1, 11, West Indies, c Ramdin, Bradshaw, 0, 15, 6, 0, 0
+1787, 2006-02-09, 3, 11, West Indies, , Gayle, 0, 5, 2, 0, 0
+1790, 2006-02-17, 2, 11, West Indies, , Edwards, 0, 2, 1, 0, 0
+1798, 2006-03-15, 2, 11, South Africa, not out, , 1, 6, 3, 0, 0
+1798, 2006-03-15, 4, 11, South Africa, , Steyn, 0, 3, 4, 0, 0
+1801, 2006-04-05, 1, 11, South Africa, c Smith, Ntini, 1, 10, 8, 0, 0
+1801, 2006-04-05, 3, 11, South Africa, c Amla, Hall, 0, 2, 1, 0, 0
+1820, 2006-11-07, 2, 11, Sri Lanka, not out, , 0, 5, 3, 0, 0
+1822, 2006-11-15, 2, 11, Sri Lanka, not out, , 0, 7, 3, 0, 0
+1822, 2006-11-15, 4, 11, Sri Lanka, not out, , 4, 10, 7, 1, 0
+1846, 2007-10-08, 2, 11, South Africa, c Harris, Steyn, 0, 2, 2, 0, 0
+1846, 2007-10-08, 4, 10, South Africa, , Steyn, 0, 9, 6, 0, 0
+1848, 2007-10-16, 1, 11, South Africa, c Kallis, Ntini, 0, 5, 3, 0, 0
+1848, 2007-10-16, 3, 10, South Africa, not out, , 0, 2, 0, 0, 0
+1859, 2008-01-04, 2, 11, Bangladesh, not out, , 12, 24, 20, 2, 0
+1861, 2008-01-12, 2, 11, Bangladesh, not out, , 0, 8, 9, 0, 0
+1866, 2008-02-05, 1, 11, England, , Sidebottom, 0, 1, 1, 0, 0
+1866, 2008-02-05, 3, 11, England, not out, , 0, 5, 3, 0, 0
+1867, 2008-02-13, 2, 11, England, , Collingwood, 1, 19, 11, 0, 0
+1867, 2008-02-13, 4, 11, England, not out, , 0, 2, 0, 0, 0
+1868, 2008-02-22, 2, 11, England, not out, , 4, 4, 1, 1, 0
+1868, 2008-02-22, 4, 11, England, , Sidebottom, 5, 35, 21, 1, 0
+1874, 2008-04-15, 1, 11, England, not out, , 0, 19, 13, 0, 0
+1876, 2008-04-23, 1, 11, England, , Anderson, 0, 11, 3, 0, 0
+1876, 2008-04-23, 3, 10, England, not out, , 0, 3, 2, 0, 0
+1878, 2008-05-05, 2, 11, England, not out, , 0, 4, 1, 0, 0
+1878, 2008-05-05, 3, 11, England, c Collingwood, Anderson, 0, 3, 2, 0, 0
+1894, 2008-10-20, 2, 11, Australia, , Clark, 1, 8, 8, 0, 0
+1894, 2008-10-20, 4, 11, Australia, , Johnson, 1, 5, 4, 0, 0
+1896, 2008-11-28, 1, 11, Australia, , Lee, 0, 8, 5, 0, 0
+1896, 2008-11-28, 3, 11, Australia, , Johnson, 0, 13, 2, 0, 0
+1915, 2009-02-18, 1, 11, India, not out, , 0, 5, 5, 0, 0
+1915, 2009-02-18, 3, 11, India, not out, , 0, 4, 2, 0, 0
+1918, 2009-03-03, 2, 11, India, not out, , 4, 5, 5, 1, 0
+1930, 2009-07-18, 2, 11, Sri Lanka, not out, , 2, 24, 9, 0, 0
+1930, 2009-07-18, 4, 11, Sri Lanka, not out, , 0, 3, 0, 0, 0
+1932, 2009-07-26, 2, 11, Sri Lanka, not out, , 0, 5, 3, 0, 0
+1932, 2009-07-26, 4, 11, Sri Lanka, not out, , 0, 18, 13, 0, 0
+1934, 2009-10-24, 1, 11, Pakistan, lbw, Saeed Ajmal, 0, 5, 5, 0, 0
+1934, 2009-10-24, 3, 11, Pakistan, not out, , 1, 12, 2, 0, 0
+1938, 2009-11-03, 2, 11, Pakistan, not out, , 0, 5, 1, 0, 0
+1938, 2009-11-03, 4, 11, Pakistan, not out, , 0, 13, 6, 0, 0
+1940, 2009-11-11, 2, 11, Pakistan, lbw, Danish Kaneria, 0, 3, 4, 0, 0
+1955, 2010-02-19, 2, 11, Australia, not out, , 0, 4, 3, 0, 0
+1955, 2010-02-19, 3, 11, Australia, , Johnson, 1, 12, 5, 0, 0
+1957, 2010-02-27, 2, 11, Australia, , Harris, 0, 2, 2, 0, 0
+1957, 2010-02-27, 4, 11, Australia, not out, , 5, 8, 6, 1, 0
+1974, 2010-10-04, 2, 11, India, not out, , 3, 37, 21, 0, 0
+1975, 2010-10-12, 1, 11, India, c Sehwag, Harbhajan Singh, 3, 23, 14, 0, 0
+1978, 2010-10-20, 1, 11, India, not out, , 2, 14, 6, 0, 0
+1978, 2010-10-20, 3, 11, India, , Sharma, 0, 2, 1, 0, 0
+1990, 2011-01-07, 1, 11, Pakistan, not out, , 0, 10, 2, 0, 0
+1990, 2011-01-07, 3, 11, Pakistan, c Younis Khan, Umar Gul, 7, 16, 10, 1, 0
+1991, 2011-01-15, 1, 11, Pakistan, not out, , 4, 30, 16, 1, 0
+1991, 2011-01-15, 3, 11, Pakistan, c Adnan Akmal, Umar Gul, 1, 13, 4, 0, 0
+2013, 2011-10-01, 1, 11, Zimbabwe, , Price, 0, 4, 3, 0, 0
+2020, 2011-11-01, 1, 11, Australia, , Lyon, 1, 15, 12, 0, 0
+2020, 2011-11-01, 3, 11, Australia, c Starc, Lyon, 0, 17, 10, 0, 0
+2021, 2011-11-09, 1, 11, Australia, , Pattinson, 0, 2, 1, 0, 0
+2021, 2011-11-09, 3, 11, Australia, not out, , 2, 15, 9, 0, 0

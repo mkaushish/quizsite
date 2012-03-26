@@ -1,0 +1,49 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+497, 1960-12-02, 1, 6, India, lbw, Gupte, 7, na, na, na, 0
+497, 1960-12-02, 3, 6, India, not out, , 13, na, na, na, 0
+499, 1960-12-16, 1, 4, India, run out, , 79, 270, na, 13, 0
+499, 1960-12-16, 3, 4, India, not out, , 48, na, na, na, 0
+501, 1961-12-30, 1, 4, India, lbw, Borde, 48, na, na, na, 0
+501, 1961-12-30, 3, 4, India, run out, , 42, 65, na, 5, 0
+503, 1961-01-13, 1, 4, India, c Contractor, Borde, 19, na, na, na, 0
+505, 1961-02-08, 2, 4, India, c Manjrekar, Desai, 61, 240, na, 12, 0
+505, 1961-02-08, 3, 4, India,                c &, Kumar, 8, na, na, na, 0
+512, 1961-10-21, 1, 4, England, c Murray, Allen, 138, 375, na, 17, 1
+512, 1961-10-21, 3, 4, England, c Allen, Barber, 15, na, na, 2, 0
+521, 1962-01-19, 1, 4, England,                c &, Lock, 140, 351, na, 17, 0
+521, 1962-01-19, 3, 4, England, c Knight, Lock, 0, 15, na, 0, 0
+522, 1962-02-02, 1, 4, England, c Millman, Dexter, 3, 23, na, 0, 0
+522, 1962-02-02, 3, 4, England, c Millman, Dexter, 44, 165, na, 5, 0
+530, 1962-05-31, 2, 5, England, c Barrington, Allen, 13, na, na, na, 0
+530, 1962-05-31, 3, 6, England, , Statham, 19, na, na, na, 0
+531, 1962-06-21, 1, 4, England, c Dexter, Trueman, 5, na, na, na, 0
+531, 1962-06-21, 3, 5, England, lbw, Coldwell, 101, 225, na, 15, 0
+532, 1962-07-05, 2, 6, England, , Trueman, 1, na, na, 0, 0
+532, 1962-07-05, 3, 7, England, c Murray, Statham, 21, na, na, na, 1
+533, 1962-07-26, 2, 4, England, c Murray, Knight, 19, 71, na, 1, 0
+533, 1962-07-26, 3, 4, England, c sub, Titmus, 28, 109, na, 1, 0
+534, 1962-08-16, 2, 4, England, , Larter, 3, 55, na, 0, 0
+534, 1962-08-16, 3, 6, England, c Parfitt, Knight, 42, 60, na, 6, 1
+569, 1964-10-24, 1, 4, Australia, hit wicket, McKenzie, 8, na, na, na, 0
+569, 1964-10-24, 3, 5, Australia, c Grout, Cowper, 62, na, na, na, 0
+570, 1964-12-04, 1, 4, Australia, c Simpson, McKenzie, 29, 124, 107, 2, 0
+570, 1964-12-04, 3, 4, Australia, , Hawke, 47, 120, 133, 5, 0
+574, 1965-01-22, 2, 4, New Zealand, , Motz, 0, na, na, 0, 0
+574, 1965-01-22, 4, 4, New Zealand, c Dick, Collinge, 0, na, na, 0, 0
+576, 1965-01-29, 1, 4, New Zealand, c sub (SG Gedye), Cameron, 63, 225, na, na, 0
+576, 1965-01-29, 3, 4, New Zealand, c Congdon, Collinge, 15, na, na, na, 0
+577, 1965-02-12, 1, 3, New Zealand, , Collinge, 4, na, na, na, 0
+577, 1965-02-12, 3, 4, New Zealand, , Collinge, 12, na, na, na, 0
+585, 1965-03-27, 2, 4, New Zealand, , Collinge, 6, na, na, na, 0
+586, 1965-04-02, 1, 5, New Zealand, c Dick, Cameron, 10, na, na, na, 0
+586, 1965-04-02, 3, 4, New Zealand, c +Reid, Sinclair, 14, na, na, na, 0
+587, 1965-04-09, 2, 4, New Zealand, c Morgan, Pollard, 29, 160, na, na, 0
+587, 1965-04-09, 4, 4, New Zealand, not out, , 4, na, na, 1, 0
+621, 1967-07-27, 2, 2, England, lbw, Higgs, 31, 102, 85, 3, 0
+621, 1967-07-27, 4, 2, England,                c &, Barrington, 13, 62, 59, 1, 0
+622, 1967-08-10, 1, 2, England, lbw, Arnold, 1, 10, 7, 0, 0
+622, 1967-08-10, 3, 2, England, c Knott, Higgs, 3, 20, 23, 0, 0
+623, 1967-08-24, 1, 6, England, c D'Oliveira, Titmus, 27, 84, 77, 3, 0
+623, 1967-08-24, 3, 8, England, , Underwood, 7, 34, 33, 1, 0
+665, 1969-11-08, 2, 3, New Zealand, c Turner, Howarth, 22, 53, na, 3, 0
+665, 1969-11-08, 4, 3, New Zealand, not out, , 17, 45, na, 1, 0

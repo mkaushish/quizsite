@@ -1,0 +1,93 @@
+
+Test # 387
+Pakistan in England, 1954, 1st Test
+England v Pakistan
+Lord's, London
+10,11,12,14,15 June 1954 (5-day match)
+
+Result: Match drawn
+Series: 4-match series level 0-0
+
+Toss: England
+Umpires: TJ Bartley and D Davies
+Test debuts: Alimuddin, Khalid Wazir, Shujauddin (Pakistan).
+
+Close of play:
+ Day 1: No play
+ Day 2: No play
+ Day 3: No play
+ Day 4: Pakistan 50/3 (Hanif Mohammad 11*, Imtiaz Ahmed 6*)
+
+Pakistan 1st innings                                            R   M   B  4 6
+Hanif Mohammad                           b Tattersall          20 195        0
+Alimuddin             c Edrich           b Wardle              19            0
+Waqar Hasan           c Compton          b Wardle               9            0
+Maqsood Ahmed         st Evans           b Wardle               0          0 0
++Imtiaz Ahmed                            b Laker               12            0
+*AH Kardar                               b Statham              2          0 0
+Fazal Mahmood                            b Wardle               5            0
+Khalid Wazir                             b Statham              3          0 0
+Khan Mohammad                            b Statham              0          0 0
+Zulfiqar Ahmed                           b Statham             11            0
+Shujauddin            not out                                   0          0 0
+Extras                (b 4, lb 1, nb 1)                         6
+Total                 (all out, 83.5 overs)                    87
+
+FoW: 1-24 (Alimuddin), 2-42 (Waqar Hasan), 3-43 (Maqsood Ahmed),
+     4-57 (Imtiaz Ahmed), 5-67 (Kardar), 6-67 (Hanif Mohammad),
+     7-71 (Khalid Wazir), 8-71 (Khan Mohammad),
+     9-87 (Zulfiqar Ahmed), 10-87 (Fazal Mahmood).
+
+Bowling                      O      M      R      W
+Statham                     13      6     18      4
+Bailey                       3      2      1      0
+Wardle                      30.5   22     33      4
+Tattersall                  15      8     12      1
+Laker                       22     12     17      1
+
+England 1st innings                                             R   M   B  4 6
+*L Hutton                                b Khan Mohammad        0          0 0
+RT Simpson            lbw                b Fazal Mahmood       40            0
+PBH May                                  b Khan Mohammad       27            0
+DCS Compton                              b Fazal Mahmood        0          0 0
+WJ Edrich                                b Khan Mohammad        4            0
+JH Wardle             c Maqsood Ahmed    b Fazal Mahmood        3          0 0
++TG Evans                                b Khan Mohammad       25            0
+TE Bailey                                b Khan Mohammad        3          0 0
+JC Laker              not out                                  13            0
+JB Statham                               b Fazal Mahmood        0          0 0
+Extras                (b 2)                                     2
+Total                 (9 wickets dec, 31 overs)               117
+
+DNB: R Tattersall.
+
+FoW: 1-9 (Hutton), 2-55 (Simpson), 3-59 (Compton), 4-72 (Edrich),
+     5-75 (May), 6-79 (Wardle), 7-85 (Bailey), 8-110 (Evans),
+     9-117 (Statham).
+
+Bowling                      O      M      R      W
+Fazal Mahmood               16      2     54      4
+Khan Mohammad               15      3     61      5
+
+Pakistan 2nd innings                                            R   M   B  4 6
+Hanif Mohammad        lbw                b Laker               39 145        0
+Alimuddin                                b Bailey               0          0 0
+Waqar Hasan           c Statham          b Compton             53            0
+Maqsood Ahmed         not out                                  29            0
+Extras                                                          0
+Total                 (3 wickets, 52.2 overs)                 121
+
+DNB: +Imtiaz Ahmed, *AH Kardar, Fazal Mahmood, Khalid Wazir,
+     Khan Mohammad, Zulfiqar Ahmed, Shujauddin.
+
+FoW: 1-0 (Alimuddin), 2-71 (Waqar Hasan), 3-121 (Hanif Mohammad).
+
+Bowling                      O      M      R      W
+Statham                      5      2     17      0
+Bailey                       6      2     13      1
+Wardle                       8      6      6      0
+Tattersall                  10      1     27      0
+Laker                       10.2    5     22      1
+Compton                     13      2     36      1
+
+<END>

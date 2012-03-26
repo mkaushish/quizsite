@@ -1,0 +1,61 @@
+
+Test # 126
+The Ashes, 1912, 2nd Test
+Triangular Tournament, 1912, 6th match
+England v Australia
+Old Trafford, Manchester
+29,30,31 July 1912 (3-day match)
+
+Result: Match drawn
+Triangular Tournament points: England 0, Australia 0
+The Ashes: 3-match series level 0-0
+
+Toss: England
+Umpires: G Webb and WAJ West
+
+Close of play:
+ Day 1: England 185/6 (Rhodes 92*, Smith 0*)
+ Day 2: England 203, Australia 14/0 (Jennings 9*, Kelleway 3*, 13 ov)
+ Day 3: No play
+
+England 1st innings                                             R   M   B  4 6
+JB Hobbs                                 b Whitty              19            0
+W Rhodes                                 b Whitty              92          8 0
+RH Spooner                               b Whitty               1          0 0
+*CB Fry               c sub (JW McLaren) b Matthews            19            0
+JW Hearne                                b Hazlitt              9            0
+FE Woolley            c Kelleway         b Whitty              13            0
+FR Foster                            c & b Matthews            13            0
++EJ Smith             c Emery            b Hazlitt              4            0
+S Haigh               c Kelleway         b Hazlitt              9            0
+SF Barnes             not out                                   1          0 0
+JW Hitch                                 b Hazlitt              4            0
+Extras                (b 9, lb 9, nb 1)                        19
+Total                 (all out, 92.5 overs)                   203
+
+FoW: 1-37 (Hobbs), 2-39 (Spooner), 3-83 (Fry), 4-140 (Hearne),
+     5-155 (Woolley), 6-181 (Foster), 7-185 (Rhodes),
+     8-189 (Smith), 9-199 (Haigh), 10-203 (Hitch).
+
+Bowling                      O      M      R      W
+Hazlitt                     40.5   12     77      4
+Whitty                      27     15     43      4
+Kelleway                     6      1     19      0
+Matthews                    12      4     23      2
+Emery                        7      1     22      0
+
+Australia 1st innings                                           R   M   B  4 6
+CB Jennings           not out                                   9            0
+C Kelleway            not out                                   3          0 0
+Extras                (b 2)                                     2
+Total                 (0 wickets, 13 overs)                    14
+
+DNB: W Bardsley, *SE Gregory, CG Macartney, ER Mayne,
+     TJ Matthews, SH Emery, WJ Whitty, GR Hazlitt, +W Carkeek.
+
+Bowling                      O      M      R      W
+Foster                       1      0      3      0
+Haigh                        6      4      3      0
+Woolley                      6      3      6      0
+
+<END>

@@ -1,0 +1,123 @@
+
+Test # 22
+The Ashes, 1886, 1st Test
+England v Australia
+Old Trafford, Manchester
+5,6,7 July 1886 (3-day match)
+
+Result: England won by 4 wickets
+Series: England leads the 3-match series 1-0
+
+Toss: Australia
+Umpires: CK Pullin and J West
+Balls per over: 4
+Test debut: GA Lohmann (England).
+
+Close of play:
+ Day 1: Australia 205, England 36/1 (Scotton 10*, Shrewsbury 17*)
+ Day 2: England 223, Australia 55/4 (Scott 36*)
+
+Australia 1st innings                                           R   M   B  4 6
+SP Jones              lbw                b Grace               87 170      6 0
+*HJH Scott            c Barlow           b Ulyett              21            0
+G Giffen                                 b Steel                3          0 0
++AH Jarvis            c Scotton          b Ulyett              45          6 0
+GJ Bonnor             c Lohmann          b Barlow               4            0
+JW Trumble            c Scotton          b Steel               24            0
+W Bruce               run out                                   2          0 0
+TW Garrett            c Pilling          b Lohmann              5            0
+JM Blackham           not out                                   7            0
+GE Palmer             c Lohmann          b Ulyett               4            0
+FR Spofforth          c Barlow           b Ulyett               2          0 0
+Extras                (w 1)                                     1
+Total                 (all out, 137.1 overs)                  205
+
+FoW: 1-58 (Scott), 2-71 (Giffen), 3-134 (Jones), 4-141 (Bonnor),
+     5-181 (Trumble), 6-187 (Bruce), 7-188 (Jarvis),
+     8-192 (Garrett), 9-201 (Palmer), 10-205 (Spofforth).
+
+Bowling                      O      M      R      W
+Peate                       19      7     30      0
+Lohmann                     23      9     41      1
+Steel                       27      5     47      2
+Ulyett                      36.1   20     46      4
+Barlow                      23     15     19      1
+Grace                        9      3     21      1
+
+England 1st innings                                             R   M   B  4 6
+WH Scotton            c Trumble          b Garrett             21            0
+WG Grace              c Bonnor           b Spofforth            8            0
+A Shrewsbury snr                         b Spofforth           31            0
+WW Read               c Scott            b Garrett             51          7 0
+*AG Steel             c Jarvis           b Palmer              12            0
+RG Barlow             not out                                  38            0
+G Ulyett                                 b Spofforth           17            0
+J Briggs              c Garrett          b Spofforth            1          0 0
+GA Lohmann                               b Giffen              32            0
+E Peate               st Jarvis          b Palmer               6            0
++R Pilling            c Bruce            b Palmer               2          0 0
+Extras                (b 2, lb 2)                               4
+Total                 (all out, 157.2 overs)                  223
+
+FoW: 1-9 (Grace), 2-51 (Shrewsbury), 3-80 (Scotton),
+     4-109 (Steel), 5-131 (Read), 6-156 (Ulyett), 7-160 (Briggs),
+     8-206 (Lohmann), 9-219 (Peate), 10-223 (Pilling).
+
+Bowling                      O      M      R      W
+Spofforth                   53     22     82      4
+Giffen                      32     15     44      1
+Garrett                     45     23     43      2
+Bruce                       10      7      9      0
+Palmer                      17.2    4     41      3
+
+Australia 2nd innings                                           R   M   B  4 6
+SP Jones              c Ulyett           b Steel               12            0
+*HJH Scott                               b Barlow              47          4 0
+G Giffen              c Shrewsbury       b Barlow               1          0 0
++AH Jarvis            c Lohmann          b Barlow               2          0 0
+GJ Bonnor             c Barlow           b Peate                2          0 0
+JW Trumble            c Ulyett           b Barlow               4            0
+JM Blackham           lbw                b Barlow               2          0 0
+W Bruce               c Grace            b Barlow               0          0 0
+TW Garrett            c Grace            b Ulyett              22            0
+GE Palmer             c Pilling          b Barlow               8            0
+FR Spofforth          not out                                  20            0
+Extras                (b 3)                                     3
+Total                 (all out, 118.3 overs)                  123
+
+FoW: 1-37 (Jones), 2-42 (Giffen), 3-44 (Jarvis), 4-55 (Bonnor),
+     5-68 (Trumble), 6-70 (Blackham), 7-70 (Bruce), 8-73 (Scott),
+     9-103 (Palmer), 10-123 (Garrett).
+
+Bowling                      O      M      R      W
+Peate                       46     25     45      1
+Lohmann                      5      3     14      0
+Steel                        8      3      9      1
+Ulyett                       6.3    3      7      1
+Barlow                      52     34     44      7
+Grace                        1      0      1      0
+
+England 2nd innings (target: 106 runs)                          R   M   B  4 6
+WH Scotton                               b Palmer              20            0
+WG Grace              c Palmer           b Giffen               4            0
+A Shrewsbury snr                     c & b Giffen               4            0
+WW Read               c Jones            b Spofforth            9            0
+RG Barlow             c Palmer           b Spofforth           30            0
+*AG Steel             not out                                  19            0
+G Ulyett              c Scott            b Garrett              8            0
+J Briggs              not out                                   2          0 0
+Extras                (b 10, lb 1)                             11
+Total                 (6 wickets, 77.2 overs)                 107
+
+DNB: GA Lohmann, E Peate, +R Pilling.
+
+FoW: 1-7 (Grace), 2-15 (Shrewsbury), 3-24 (Read), 4-62 (Scotton),
+     5-90 (Barlow), 6-105 (Ulyett).
+
+Bowling                      O      M      R      W
+Spofforth                   29.2   13     40      2
+Giffen                      24      9     31      2
+Garrett                     17      9     14      1
+Palmer                       7      3     11      1
+
+<END>

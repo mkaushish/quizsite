@@ -1,0 +1,118 @@
+
+Test # 87
+The Ashes, 1905, 5th Test
+England v Australia
+Kennington Oval, London
+14,15,16 August 1905 (3-day match)
+
+Result: Match drawn
+Series: England wins the 5-match series 2-0
+
+Toss: England
+Umpires: J Phillips (Aus) and WAJ West
+
+Close of play:
+ Day 1: England 381/7 (Arnold 25*, Rhodes 32*)
+ Day 2: England 430, Australia 363, England 0/1 (Hayward 0*)
+
+England 1st innings                                             R   M   B  4 6
+AC MacLaren           c Laver            b Cotter               6            0
+TW Hayward            hit wicket         b Hopkins             59 125      8 0
+JT Tyldesley                             b Cotter              16            0
+CB Fry                                   b Cotter             144 213     23 0
+*Hon.FS Jackson       c Armstrong        b Laver               76 160     10 0
+RH Spooner                               b Cotter               0          0 0
+GH Hirst              c Noble            b Laver                5            0
+EG Arnold             c Trumper          b Cotter              40            0
+W Rhodes                                 b Cotter              36            0
++AFA Lilley                              b Cotter              17            0
+W Brearley            not out                                  11            0
+Extras                (b 11, lb 1, w 1, nb 7)                  20
+Total                 (all out, 130 overs)                    430
+
+FoW: 1-12 (MacLaren), 2-32 (Tyldesley), 3-132 (Hayward),
+     4-283 (Fry), 5-291 (Spooner), 6-306 (Hirst),
+     7-322 (Jackson), 8-394 (Rhodes), 9-418 (Arnold),
+     10-430 (Lilley).
+
+Bowling                      O      M      R      W
+Cotter                      40      4    148      7
+Noble                       18      6     51      0
+Armstrong                   27      7     76      0
+McLeod                      13      2     47      0
+Laver                       17      3     41      2
+Hopkins                     11      2     32      1
+Duff                         4      1     15      0
+
+Australia 1st innings                                           R   M   B  4 6
+VT Trumper                               b Brearley             4            0
+RA Duff                              c & b Hirst              146 197     21 0
+C Hill                c Rhodes           b Brearley            18            0
+MA Noble              c MacLaren         b Jackson             25            0
+WW Armstrong          c sub              b Hirst               18            0
+*J Darling                               b Hirst               57  57      8 1
+AJY Hopkins                              b Brearley             1          0 0
+CE McLeod                                b Brearley             0          0 0
++JJ Kelly             run out                                  42            0
+A Cotter              c Fry              b Brearley             6            0
+FJ Laver              not out                                  15            0
+Extras                (b 17, lb 9, w 1, nb 4)                  31
+Total                 (all out, 93.1 overs)                   363
+
+FoW: 1-5 (Trumper), 2-44 (Hill), 3-159 (Noble),
+     4-214 (Armstrong), 5-237 (Duff), 6-247 (Hopkins),
+     7-265 (McLeod), 8-293 (Darling), 9-304 (Cotter),
+     10-363 (Kelly).
+
+Bowling                      O      M      R      W
+Hirst                       23      6     86      3
+Brearley                    31.1    8    110      5
+Arnold                       9      0     50      0
+Rhodes                      21      2     59      0
+Jackson                      9      1     27      1
+
+England 2nd innings                                             R   M   B  4 6
+EG Arnold                                b Cotter               0       5  0 0
+TW Hayward            lbw                b Armstrong            2          0 0
+AC MacLaren           c Kelly            b Armstrong            6            0
+JT Tyldesley          not out                                 112 212     14 0
+CB Fry                c Armstrong        b Noble               16            0
+*Hon.FS Jackson                          b Cotter              31            0
+RH Spooner            c sub              b Noble               79  96     14 0
+Extras                (b 4, lb 5, w 1, nb 5)                   15
+Total                 (6 wickets dec, 80.3 overs)             261
+
+DNB: GH Hirst, W Rhodes, +AFA Lilley, W Brearley.
+
+FoW: 1-0 (Arnold), 2-8 (MacLaren), 3-13 (Hayward), 4-48 (Fry),
+     5-103 (Jackson), 6-261 (Spooner).
+
+Bowling                      O      M      R      W
+Cotter                      21      2     73      2
+Noble                       14.3    3     56      2
+Armstrong                   30     13     61      2
+McLeod                      11      2     27      0
+Laver                        3      0     18      0
+Hopkins                      1      0     11      0
+
+Australia 2nd innings (target: 329 runs)                        R   M   B  4 6
+VT Trumper            c Spooner          b Brearley            28            0
+AJY Hopkins           run out                                  10            0
+C Hill                                   b Arnold              34            0
+MA Noble                                 b Hirst                3          0 0
+WW Armstrong          not out                                  32            0
+*J Darling            not out                                  12            0
+Extras                (b 4, lb 1)                               5
+Total                 (4 wickets, 37 overs)                   124
+
+DNB: RA Duff, CE McLeod, +JJ Kelly, A Cotter, FJ Laver.
+
+FoW: 1-27 (Hopkins), 2-49 (Trumper), 3-58 (Noble), 4-92 (Hill).
+
+Bowling                      O      M      R      W
+Hirst                        9      2     32      1
+Brearley                    11      2     41      1
+Arnold                       9      2     17      1
+Rhodes                       8      0     29      0
+
+<END>

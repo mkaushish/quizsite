@@ -1,0 +1,103 @@
+
+Test # 695
+New Zealand in West Indies, 1971/72, 3rd Test
+West Indies v New Zealand
+Kensington Oval, Bridgetown, Barbados
+23,24,25,26,28 March 1972 (5-day match)
+
+Result: Match drawn
+Series: 5-match series level 0-0
+
+Toss: West Indies
+Umpires: HBD Jordan and FCP Kippins
+
+Close of play:
+ Day 1: West Indies 133, New Zealand 31/0 (Turner 4*, Jarvis 20*)
+ Day 2: New Zealand 297/5 (Hastings 81*, Vivian 1*)
+ Day 3: New Zealand 422, West Indies 98/2 (Rowe 15*, Findlay 3*)
+ Day 4: West Indies 297/5 (Davis 72*, Sobers 74*)
+
+West Indies 1st innings                                         R   M   B  4 6
+RC Fredericks         c Hastings         b Cunis                5  26        0
+MC Carew              c Morgan           b Taylor               1          0 0
+LG Rowe               c Wadsworth        b Taylor               0   1   1  0 0
+CA Davis              c Jarvis           b Taylor               1          0 0
+*GS Sobers            c Wadsworth        b Congdon             35 124      5 0
+MLC Foster            c Wadsworth        b Taylor              22          4 0
+DAJ Holford           c Wadsworth        b Taylor               3          0 0
++TM Findlay           not out                                  44 103      4 0
+Inshan Ali                               b Taylor               3          0 0
+VA Holder                                b Congdon              3          0 0
+GC Shillingford       c Morgan           b Taylor              15  31        0
+Extras                (nb 1)                                    1
+Total                 (all out, 49.3 overs)                   133
+
+FoW: 1-6 (Carew), 2-6 (Rowe), 3-6 (Fredericks), 4-12 (Davis),
+     5-44 (Foster), 6-52 (Holford), 7-83 (Sobers), 8-99 (Ali),
+     9-102 (Holder), 10-133 (Shillingford).
+
+Bowling                      O      M      R      W
+Cunis                       10      3     26      1
+Taylor                      20.3    6     74      7
+Congdon                     16      3     26      2
+Howarth                      3      1      6      0
+
+New Zealand 1st innings                                         R   M   B  4 6
+GM Turner             c Holford          b Holder              21 166        0
+TW Jarvis             lbw                b Shillingford        26 138        0
+*BE Congdon           lbw                b Holder             126 258     11 0
+MG Burgess            c Fredericks       b Sobers              19            0
+BF Hastings           lbw                b Sobers             105 275     15 0
+RW Morgan             c Fredericks       b Ali                  2          0 0
+GE Vivian                                b Sobers              38          4 0
++KJ Wadsworth         not out                                  15            0
+BR Taylor             lbw                b Sobers               0       1  0 0
+RS Cunis              c Findlay          b Holder              27          3 0
+HJ Howarth                               b Shillingford         8            0
+Extras                (lb 13, nb 22)                           35
+Total                 (all out, 163.2 overs)                  422
+
+FoW: 1-54 (Jarvis), 2-68 (Turner), 3-112 (Burgess),
+     4-287 (Congdon), 5-293 (Morgan), 6-356 (Hastings),
+     7-369 (Vivian), 8-369 (Taylor), 9-412 (Cunis),
+     10-422 (Howarth).
+
+Bowling                      O      M      R      W
+Holder                      40     13     91      3
+Sobers                      29      6     64      4
+Shillingford                24.2    7     65      2
+Davis                       10      3     19      0
+Ali                         35     11     81      1
+Holford                      9      0     20      0
+Foster                      14      2     40      0
+Fredericks                   2      0      7      0
+
+West Indies 2nd innings                                         R   M   B  4 6
+RC Fredericks         lbw                b Cunis               28  66      4 0
+MC Carew              c Turner           b Howarth             45          7 0
+LG Rowe               lbw                b Congdon             51          5 0
++TM Findlay           c Morgan           b Howarth              9            0
+CA Davis              run out                                 183 602     21 0
+MLC Foster            lbw                b Taylor               4            0
+*GS Sobers            c Vivian           b Taylor             142 363     18 0
+DAJ Holford           c Wadsworth        b Congdon             50  96      9 0
+Inshan Ali            not out                                  12            0
+VA Holder             not out                                  16            0
+Extras                (b 6, lb 9, w 1, nb 8)                   24
+Total                 (8 wickets, 214 overs)                  564
+
+DNB: GC Shillingford.
+
+FoW: 1-48 (Fredericks), 2-91 (Carew), 3-105 (Findlay),
+     4-163 (Rowe), 5-171 (Foster), 6-425 (Sobers),
+     7-518 (Holford), 8-544 (Davis).
+
+Bowling                      O      M      R      W
+Cunis                       38      8    130      1
+Taylor                      33      3    108      2
+Congdon                     31      7     66      2
+Howarth                     74     24    138      2
+Morgan                      30      8     78      0
+Vivian                       8      2     20      0
+
+<END>

@@ -1,0 +1,129 @@
+
+Test # 12
+The Ashes, 1882/83, 3rd Test
+Australia v England
+Sydney Cricket Ground
+26,27,29,30 January 1883 (timeless match)
+
+Result: England won by 69 runs
+Series: England wins the 3-match series 2-1
+
+Toss: England
+Umpires: EH Elliott and JS Swift
+Balls per over: 4
+
+Close of play:
+ Day 1: England 247, Australia 8/0 (Giffen 6*, Bannerman 1*)
+ Day 2: Australia 133/1 (Bannerman 68*, Murdoch 17*)
+ Day 3: Australia 218, England 123, Australia 0/0 (Giffen 0*, Bannerman 0*)
+
+England 1st innings                                             R   M   B  4 6
+RG Barlow             c Murdoch          b Spofforth           28          2 0
+CT Studd              c Blackham         b Garrett             21          1 0
+CFH Leslie                               b Spofforth            0          0 0
+AG Steel                                 b Garrett             17          2 0
+WW Read               c Massie           b Bannerman           66          9 0
+W Barnes              c Blackham         b Spofforth            2          0 0
++EFS Tylecote         run out                                  66          7 0
+W Bates               c McDonnell        b Spofforth           17          1 0
+GB Studd                                 b Palmer               3          0 0
+*Hon.IFW Bligh                           b Palmer              13          0 0
+F Morley              not out                                   2          0 0
+Extras                (b 8, lb 3, nb 1)                        12
+Total                 (all out, 143 overs)                    247
+
+FoW: 1-41 (CT Studd), 2-44 (Leslie), 3-67 (Barlow), 4-69 (Steel),
+     5-75 (Barnes), 6-191 (Tylecote), 7-223 (Read),
+     8-224 (Bates), 9-244 (Bligh), 10-247 (GB Studd).
+
+Bowling                      O      M      R      W
+Giffen                      12      3     37      0
+Palmer                      38     21     38      2
+Spofforth                   51     19     73      4
+Garrett                     27      8     54      2
+Bannerman                   11      2     17      1
+McDonnell                    4      0     16      0
+
+Australia 1st innings                                           R   M   B  4 6
+G Giffen              st Tylecote        b Bates               41          3 0
+AC Bannerman          c Bates            b Morley              94 245     13 0
+*WL Murdoch           lbw                b Steel               19          0 0
+PS McDonnell                             b Steel                0          0 0
+TP Horan              c Steel            b Morley              19          1 0
+HH Massie             c Bligh            b Steel                1          0 0
+GJ Bonnor             c GB Studd         b Morley               0          0 0
++JM Blackham                             b Barlow              27          2 0
+TW Garrett            c Barlow           b Morley               0          0 0
+GE Palmer             c GB Studd         b Barnes               7          0 0
+FR Spofforth          not out                                   0          0 0
+Extras                (b 6, lb 2, w 1, nb 1)                   10
+Total                 (all out, 179.1 overs)                  218
+
+FoW: 1-76 (Giffen), 2-140 (Murdoch), 3-140 (McDonnell),
+     4-176 (Bannerman), 5-177 (Massie), 6-178 (Bonnor),
+     7-196 (Horan), 8-196 (Garrett), 9-218 (Palmer),
+     10-218 (Blackham).
+
+Bowling                      O      M      R      W
+Morley                      34     16     47      4
+Barlow                      47.1   31     52      1
+Bates                       45     20     55      1
+Barnes                      13      6     22      1
+CT Studd                    14     11      5      0
+Steel                       26     14     27      3
+
+England 2nd innings                                             R   M   B  4 6
+CFH Leslie                               b Spofforth            8          1 0
+CT Studd                                 b Spofforth           25          2 0
+RG Barlow             c Palmer           b Horan               24          3 0
+AG Steel              lbw                b Spofforth            6          0 0
+WW Read                                  b Horan               21          3 0
+W Barnes              lbw                b Spofforth            3          0 0
++EFS Tylecote         c Bonnor           b Spofforth            0          0 0
+W Bates               c Murdoch          b Horan                4          0 0
+*Hon.IFW Bligh        not out                                  17          2 0
+GB Studd              c Garrett          b Spofforth            8          1 0
+F Morley                                 b Spofforth            0          0 0
+Extras                (b 5, lb 2)                               7
+Total                 (all out, 80.1 overs)                   123
+
+FoW: 1-13 (Leslie), 2-45 (CT Studd), 3-55 (Steel), 4-87 (Read),
+     5-92 (Barlow), 6-94 (Barnes), 7-97 (Tylecote), 8-98 (Bates),
+     9-115 (GB Studd), 10-123 (Morley).
+
+Bowling                      O      M      R      W
+Spofforth                   41.1   23     44      7
+Garrett                     13      3     31      0
+Palmer                       9      3     19      0
+Horan                       17     10     22      3
+
+Australia 2nd innings (target: 153 runs)                        R   M   B  4 6
+G Giffen                                 b Barlow               7          1 0
+AC Bannerman          c Bligh            b Barlow               5          1 0
+*WL Murdoch           c GB Studd         b Morley               0          0 0
+TP Horan              run out                                   8          1 0
+PS McDonnell          c Bligh            b Morley               0          0 0
+HH Massie             c CT Studd         b Barlow              11          2 0
+GJ Bonnor                                b Barlow               8          0 0
++JM Blackham                             b Barlow              26          2 0
+FR Spofforth          c Steel            b Barlow               7          0 0
+GE Palmer             not out                                   2          0 0
+TW Garrett                               b Barlow               0          0 0
+Extras                (b 6, lb 2, w 1)                          9
+Total                 (all out, 69.2 overs)                    83
+
+FoW: 1-11 (Giffen), 2-12 (Bannerman), 3-18 (Murdoch),
+     4-18 (McDonnell), 5-30 (Horan), 6-33 (Massie),
+     7-56 (Bonnor), 8-72 (Spofforth), 9-80 (Blackham),
+     10-83 (Garrett).
+
+Bowling                      O      M      R      W
+Morley                      35     19     34      2
+Barlow                      34.2   20     40      7
+
+*** After this match, the last of the rubber originally scheduled, some
+    Australian ladies burned a bail, sealed the ashes in an urn and presented
+    it to the victorious captain of the English team. The urn, together with
+    its embroidered velvet bag, is housed in the Memorial Gallery at Lord's.
+
+<END>

@@ -1,0 +1,105 @@
+
+Test # 600
+The Ashes, 1965/66, 4th Test
+Australia v England
+Adelaide Oval
+28,29,31 January, 1 February 1966 (5-day match)
+
+Result: Australia won by an innings and 9 runs
+Series: 5-match series level 1-1
+
+Toss: England
+Umpires: CJ Egar and LP Rowan
+Balls per over: 8
+Test debut: KR Stackpole (Australia).
+
+Close of play:
+ Day 1: England 240/9 (Titmus 32*, Jones 0*)
+ Day 2: England 241, Australia 333/3 (Simpson 159*)
+ Day 3: Australia 516, England 64/3 (Barrington 14*, Cowdrey 13*)
+
+England 1st innings                                             R   M   B  4 6
+G Boycott             c Chappell         b Hawke               22  22  18  4 0
+RW Barber                                b McKenzie             0   5   3  0 0
+JH Edrich             c Simpson          b McKenzie             5  46  39  0 0
+KF Barrington         lbw                b Walters             60 200 159  2 0
+MC Cowdrey            run out                                  38  95  98  6 0
+*MJK Smith                               b Veivers             29 118 111  2 0
++JM Parks             c Stackpole        b McKenzie            49  90  81  3 0
+FJ Titmus             lbw                b McKenzie            33  88 104  2 0
+DA Allen              c Simpson          b McKenzie             2   3   4  0 0
+DJ Brown              c Thomas           b McKenzie             1   3   9  0 0
+IJ Jones              not out                                   0  16  21  0 0
+Extras                (lb 2)                                    2
+Total                 (all out, 80.7 overs)                   241
+
+FoW: 1-7 (Barber), 2-25 (Boycott), 3-33 (Edrich),
+     4-105 (Cowdrey), 5-150 (Barrington), 6-178 (Smith),
+     7-210 (Parks), 8-212 (Allen), 9-222 (Brown),
+     10-241 (Titmus).
+
+Bowling                      O      M      R      W
+McKenzie                    21.7    4     48      6
+Hawke                       23      2     69      1
+Walters                     14      0     50      1
+Stackpole                    5      0     30      0
+Chappell                     4      1     18      0
+Veivers                     13      3     24      1
+
+Australia 1st innings                                           R   M   B  4 6
+*RB Simpson           c Titmus           b Jones              225 545 427 18 1
+WM Lawry                                 b Titmus             119 255 217  9 1
+G Thomas                                 b Jones               52  74  91  5 0
+TR Veivers            c Parks            b Jones                1   7  14  0 0
+PJP Burge             c Parks            b Jones               27  59  46  3 0
+KD Walters            c Parks            b Brown                0  17  16  0 0
+IM Chappell           c Edrich           b Jones               17  53  60  2 0
+KR Stackpole          c Parks            b Jones               43  83  64  7 0
+NJN Hawke             not out                                  20  41  43  2 0
++ATW Grout                               b Titmus               4   7  12  0 0
+GD McKenzie           lbw                b Titmus               1  15  17  0 0
+Extras                (b 4, lb 3)                               7
+Total                 (all out, 126 overs)                    516
+
+FoW: 1-244 (Lawry), 2-331 (Thomas), 3-333 (Veivers),
+     4-379 (Burge), 5-383 (Walters), 6-415 (Chappell),
+     7-480 (Simpson), 8-501 (Stackpole), 9-506 (Grout),
+     10-516 (McKenzie).
+
+Bowling                      O      M      R      W
+Jones                       29      3    118      6
+Brown                       28      4    109      1
+Boycott                      7      3     33      0
+Titmus                      37      6    116      3
+Allen                       21      1    103      0
+Barber                       4      0     30      0
+
+England 2nd innings                                             R   M   B  4 6
+G Boycott             lbw                b McKenzie            12  24  23  0 0
+RW Barber             c Grout            b Hawke               19  37  23  3 0
+JH Edrich             c Simpson          b Hawke                1  23  23  0 0
+KF Barrington         c Chappell         b Hawke              102 359 288  4 0
+MC Cowdrey            c Grout            b Stackpole           35 155 129  2 0
+*MJK Smith            c McKenzie         b Stackpole            5  19  28  1 0
++JM Parks             run out                                  16  53  42  2 0
+FJ Titmus             c Grout            b Hawke               53  95 108  8 0
+DA Allen              not out                                   5  33  23  0 0
+DJ Brown                             c & b Hawke                0   8  13  0 0
+IJ Jones              c Lawry            b Veivers              8   4   4  1 0
+Extras                (lb 2, nb 8)                             10
+Total                 (all out, 87.7 overs)                   266
+
+FoW: 1-23 (Boycott), 2-31 (Barber), 3-32 (Edrich),
+     4-114 (Cowdrey), 5-123 (Smith), 6-163 (Parks),
+     7-244 (Titmus), 8-253 (Barrington), 9-257 (Brown),
+     10-266 (Jones).
+
+Bowling                      O      M      R      W
+McKenzie                    18      4     53      1
+Hawke                       21      6     54      5
+Walters                      9      0     47      0
+Stackpole                   14      3     33      2
+Chappell                    22      4     53      0
+Veivers                      3.7    0     16      1
+
+<END>

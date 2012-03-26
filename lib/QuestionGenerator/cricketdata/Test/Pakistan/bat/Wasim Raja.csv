@@ -1,0 +1,93 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+710, 1973-02-02, 1, 6, New Zealand, c Congdon, Taylor, 10, na, na, na, 0
+710, 1973-02-02, 3, 6, New Zealand, c sub, Howarth, 41, na, na, 7, 1
+712, 1973-02-07, 1, 6, New Zealand, not out, , 8, na, na, na, 0
+713, 1973-02-16, 1, 6, New Zealand, c Wadsworth, Collinge, 1, na, na, 0, 0
+713, 1973-02-16, 3, 7, New Zealand, , Collinge, 49, 63, na, 11, 0
+715, 1973-03-02, 2, 7, England, c Roope, Greig, 23, 128, na, 2, 0
+715, 1973-03-02, 4, 5, England, not out, , 6, 20, na, 1, 0
+743, 1974-08-08, 1, 5, England, c Greig, Underwood, 24, 57, 38, 4, 0
+743, 1974-08-08, 3, 5, England, c Lloyd, Underwood, 53, 168, 142, 3, 1
+744, 1974-08-22, 1, 6, England, c Denness, Greig, 28, 83, 70, 5, 0
+744, 1974-08-22, 3, 5, England, not out, , 30, 63, 60, 4, 0
+756, 1975-02-15, 1, 6, West Indies, c Fredericks, Boyce, 13, na, na, na, 0
+756, 1975-02-15, 3, 6, West Indies, , Holder, 35, na, na, na, 0
+759, 1975-03-01, 1, 6, West Indies, not out, , 107, na, na, na, 1
+759, 1975-03-01, 3, 11, West Indies, , Gibbs, 1, na, na, 0, 0
+782, 1976-10-09, 1, 7, New Zealand,                c &, Petherick, 0, 1, 1, 0, 0
+797, 1977-02-18, 1, 7, West Indies, not out, , 117, 260, na, 12, 1
+797, 1977-02-18, 3, 7, West Indies, c Garner, Foster, 71, 180, na, 5, 2
+799, 1977-03-04, 1, 6, West Indies, , Croft, 65, 160, na, 7, 2
+799, 1977-03-04, 3, 6, West Indies, c Garner, Croft, 84, 180, na, 7, 2
+801, 1977-03-18, 1, 7, West Indies,                c &, Croft, 5, na, na, na, 0
+801, 1977-03-18, 3, 8, West Indies, , Garner, 0, na, na, 0, 0
+802, 1977-04-01, 1, 7, West Indies,                c &, Ali, 28, na, na, na, 0
+802, 1977-04-01, 3, 7, West Indies, , Garner, 70, na, na, 6, 3
+803, 1977-04-15, 2, 7, West Indies, c King, Holford, 13, na, na, 0, 2
+803, 1977-04-15, 4, 7, West Indies, c Fredericks, Holford, 64, 95, na, na, 2
+810, 1977-12-14, 1, 6, England, st Taylor, Cope, 24, 54, 53, 0, 2
+813, 1978-01-02, 1, 6, England, c Brearley, Edmonds, 0, 10, 6, 0, 0
+813, 1978-01-02, 3, 3, England, c Edmonds, Willis, 24, 110, 85, 3, 0
+815, 1978-01-18, 2, 6, England, c Gatting, Edmonds, 47, 149, 115, 4, 1
+825, 1978-06-01, 1, 6, England, c Taylor, Old, 17, 42, 22, 2, 0
+825, 1978-06-01, 3, 7, England, , Edmonds, 9, 25, 23, 1, 0
+826, 1978-06-15, 2, 6, England, , Edmonds, 28, 43, 38, 4, 0
+826, 1978-06-15, 3, 7, England,                c &, Botham, 1, 6, 5, 0, 0
+827, 1978-06-29, 1, 7, England, lbw, Botham, 0, 2, 2, 0, 0
+844, 1979-02-02, 1, 6, New Zealand, c Boock, Cairns, 12, na, na, na, 0
+844, 1979-02-02, 3, 6, New Zealand, c Hadlee, Coney, 17, 58, na, 3, 0
+847, 1979-02-16, 1, 7, New Zealand, lbw, Hadlee, 74, 172, na, 10, 0
+848, 1979-02-23, 2, 7, New Zealand, c Coney, Troup, 19, 61, na, 4, 0
+849, 1979-03-10, 1, 7, Australia, , Hurst, 13, 26, 16, 1, 0
+849, 1979-03-10, 3, 7, Australia, c Wright, Hurst, 28, 73, 53, 2, 0
+861, 1979-11-21, 1, 5, India, lbw, Kapil Dev, 36, 79, 60, 4, 0
+863, 1979-12-04, 1, 5, India, lbw, Kapil Dev, 97, 251, 174, 15, 0
+863, 1979-12-04, 3, 5, India, c Kapil Dev, Doshi, 61, 211, 121, 8, 0
+865, 1979-12-16, 2, 5, India, c Viswanath, Doshi, 24, 25, 20, 5, 0
+865, 1979-12-16, 4, 5, India, c Vengsarkar, Ghavri, 4, 5, 3, 1, 0
+866, 1979-12-25, 2, 7, India, not out, , 94, 229, 124, 5, 1
+869, 1980-01-15, 1, 7, India, c Kapil Dev, Doshi, 15, 53, 31, 2, 0
+869, 1980-01-15, 3, 7, India, c Viswanath, Doshi, 57, 102, 66, 11, 0
+871, 1980-01-29, 2, 5, India, not out, , 50, 130, 101, na, 0
+871, 1980-01-29, 4, 5, India, run out, , 12, 48, 29, 0, 0
+876, 1980-02-27, 2, 5, Australia, c sub (GF Lawson), Chappell, 0, 2, 3, 0, 0
+876, 1980-02-27, 4, 5, Australia, not out, , 12, 6, 6, 2, 0
+879, 1980-03-18, 2, 6, Australia, c Border, Lillee, 55, 138, 113, 6, 0
+886, 1980-11-24, 1, 6, West Indies, c Kallicharran, Richards, 76, 147, 101, 10, 0
+886, 1980-11-24, 3, 6, West Indies, lbw, Clarke, 3, 26, 25, 0, 0
+888, 1980-12-08, 2, 6, West Indies, st Murray, Nanan, 21, 66, 50, 1, 0
+888, 1980-12-08, 4, 7, West Indies, not out, , 38, 105, 73, 5, 0
+890, 1980-12-22, 1, 6, West Indies, c Bacchus, Croft, 2, 20, 10, 0, 0
+890, 1980-12-22, 3, 6, West Indies, not out, , 77, 238, 142, 3, 0
+892, 1981-12-30, 2, 7, West Indies, not out, , 29, 84, 38, 3, 0
+909, 1981-11-13, 2, 6, Australia, c Thomson, Lillee, 4, 6, 4, 1, 0
+909, 1981-11-13, 4, 6, Australia, c Hughes, Yardley, 48, 98, 62, 7, 0
+910, 1981-11-27, 1, 6, Australia, c Laird, Lillee, 43, 134, 80, 5, 0
+910, 1981-11-27, 3, 6, Australia, , Lillee, 36, 87, 74, 4, 0
+913, 1981-12-11, 1, 6, Australia, c Laird, Yardley, 50, 164, 132, 4, 0
+923, 1982-03-05, 1, 5, Sri Lanka, c Dias, de Mel, 31, 62, 37, 5, 1
+923, 1982-03-05, 3, 6, Sri Lanka, not out, , 12, 14, 15, 3, 0
+925, 1982-03-14, 2, 5, Sri Lanka, c Madugalle, DS de Silva, 22, 47, 32, 4, 0
+925, 1982-03-14, 4, 5, Sri Lanka, c Wettimuny, DS de Silva, 0, 2, 3, 0, 0
+927, 1982-03-22, 2, 6, Sri Lanka, c Goonatilleke, de Mel, 1, 14, 8, 0, 0
+931, 1982-07-29, 2, 7, England, c Tavare, Willis, 26, 62, 55, 3, 0
+931, 1982-07-29, 4, 6, England, c Gower, Willis, 16, 21, 13, 1, 0
+948, 1983-01-30, 2, 5, India, run out, , 10, 55, 47, 1, 0
+961, 1983-09-14, 2, 6, India, , Doshi, 39, na, 106, 4, 1
+962, 1983-09-24, 1, 7, India, c Kirmani, Shastri, 125, 258, 207, 17, 2
+963, 1983-10-05, 2, 7, India, c Yashpal Sharma, Shastri, 16, na, na, na, 0
+966, 1983-11-11, 2, 6, Australia, c Chappell, Rackemann, 14, 81, 51, 1, 0
+966, 1983-11-11, 3, 6, Australia, c Marsh, Lawson, 4, 12, 9, 0, 0
+969, 1983-11-25, 1, 6, Australia, c Hughes, Rackemann, 27, 84, 71, 3, 0
+978, 1984-03-02, 2, 6, England, c Cowans, Cook, 3, 35, 26, 0, 0
+978, 1984-03-02, 4, 6, England, c Cowans, Cook, 0, 7, 2, 0, 0
+981, 1984-03-12, 1, 6, England, , Marks, 112, 300, 210, 14, 2
+981, 1984-03-12, 3, 6, England, not out, , 5, 13, 13, 0, 0
+984, 1984-03-19, 2, 6, England, c Gower, Cowans, 12, 47, 30, 1, 0
+984, 1984-03-19, 4, 6, England, lbw, Cowans, 0, 7, 2, 0, 0
+995, 1984-10-17, 1, 7, India, c Amarnath, Kapil Dev, 3, na, na, 0, 0
+1003, 1984-12-10, 1, 7, New Zealand, lbw, Stirling, 51, 168, 124, 10, 0
+1003, 1984-12-10, 3, 7, New Zealand, not out, , 60, 200, 145, 10, 0
+1009, 1985-01-18, 2, 7, New Zealand, c MD Crowe, Boock, 14, 33, 28, 2, 0
+1010, 1985-01-25, 1, 7, New Zealand, c Smith, Chatfield, 4, 4, 5, 1, 0
+1010, 1985-01-25, 3, 7, New Zealand, c Wright, Boock, 11, 49, 36, 1, 0

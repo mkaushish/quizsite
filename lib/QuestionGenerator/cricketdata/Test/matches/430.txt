@@ -1,0 +1,115 @@
+
+Test # 430
+Australia in Pakistan, 1956/57, Only Test
+Pakistan v Australia
+National Stadium, Karachi
+11,12,13,15,17 October 1956 (5-day match)
+
+Result: Pakistan won by 9 wickets
+Series: Pakistan wins the one-off match
+
+Toss: Australia
+Umpires: Daud Khan and Idrees Baig
+
+Close of play:
+ Day 1: Australia 80, Pakistan 15/2 (Gul Mohammad 5*)
+ Day 2: Pakistan 199
+ Day 3: Australia 138/6 (Benaud 53*, Davidson 9*)
+ Day 4: Australia 187, Pakistan 63/1 (Alimuddin 31*, Gul Mohammad 24*)
+
+Australia 1st innings                                           R   M   B  4 6
+CC McDonald           c Imtiaz Ahmed     b Fazal Mahmood       17            0
+JW Burke              c Mathias          b Fazal Mahmood        4            0
+RN Harvey             lbw                b Fazal Mahmood        2          0 0
+ID Craig              c Imtiaz Ahmed     b Fazal Mahmood        0          0 0
+KR Miller             c Wazir Mohammad   b Fazal Mahmood       21            0
+RG Archer             c Imtiaz Ahmed     b Khan Mohammad       10            0
+R Benaud              c Waqar Hasan      b Fazal Mahmood        4            0
+AK Davidson           c Kardar           b Khan Mohammad        3          0 0
+RR Lindwall           c Mathias          b Khan Mohammad        2          0 0
+*IWG Johnson          not out                                  13            0
++GRA Langley          c Waqar Hasan      b Khan Mohammad        1          0 0
+Extras                (lb 2, nb 1)                              3
+Total                 (all out, 53.1 overs)                    80
+
+FoW: 1-19 (Burke), 2-23 (Harvey), 3-24 (McDonald), 4-43 (Craig),
+     5-48 (Miller), 6-52 (Benaud), 7-56 (Davidson),
+     8-65 (Archer), 9-76 (Lindwall), 10-80 (Langley).
+
+Bowling                      O      M      R      W
+Fazal Mahmood               27     11     34      6
+Khan Mohammad               26.1    9     43      4
+
+Pakistan 1st innings                                            R   M   B  4 6
+Hanif Mohammad        c Langley          b Miller               0          0 0
+Alimuddin             c Lindwall         b Archer              10            0
+Gul Mohammad                             b Davidson            12            0
++Imtiaz Ahmed         c McDonald         b Benaud              15            0
+Waqar Hasan           c Langley          b Miller               6            0
+Wazir Mohammad                       c & b Johnson             67            0
+*AH Kardar            lbw                b Johnson             69            0
+W Mathias                                b Johnson              0          0 0
+Fazal Mahmood         not out                                  10            0
+Zulfiqar Ahmed        c Langley          b Lindwall             0          0 0
+Khan Mohammad                            b Johnson              3          0 0
+Extras                (b 5, lb 2)                               7
+Total                 (all out, 91.3 overs)                   199
+
+FoW: 1-3 (Hanif Mohammad), 2-15 (Alimuddin), 3-25 (Gul Mohammad),
+     4-35 (Waqar Hasan), 5-70 (Imtiaz Ahmed), 6-174 (Kardar),
+     7-174 (Mathias), 8-189 (Wazir Mohammad),
+     9-190 (Zulfiqar Ahmed), 10-199 (Khan Mohammad).
+
+Bowling                      O      M      R      W
+Lindwall                    27      8     42      1
+Miller                      17      5     40      2
+Archer                       4      0     18      1
+Davidson                     6      4      6      1
+Benaud                      17      5     36      1
+Johnson                     20.3    3     50      4
+
+Australia 2nd innings                                           R   M   B  4 6
+CC McDonald                              b Fazal Mahmood        3          0 0
+JW Burke              c Mathias          b Fazal Mahmood       10            0
+RN Harvey                                b Fazal Mahmood        4            0
+ID Craig              lbw                b Fazal Mahmood       18            0
+KR Miller                                b Khan Mohammad       11            0
+RG Archer             c Fazal Mahmood    b Khan Mohammad       27            0
+R Benaud                                 b Fazal Mahmood       56            0
+AK Davidson           c Imtiaz Ahmed     b Khan Mohammad       37            0
+RR Lindwall           lbw                b Fazal Mahmood        0          0 0
+*IWG Johnson                             b Fazal Mahmood        0          0 0
++GRA Langley          not out                                  13            0
+Extras                (lb 2, nb 6)                              8
+Total                 (all out, 109.5 overs)                  187
+
+FoW: 1-6 (McDonald), 2-10 (Harvey), 3-23 (Burke), 4-46 (Craig),
+     5-47 (Miller), 6-111 (Archer), 7-141 (Benaud),
+     8-141 (Lindwall), 9-143 (Johnson), 10-187 (Davidson).
+
+Bowling                      O      M      R      W
+Fazal Mahmood               48     17     80      7
+Khan Mohammad               40.5   13     69      3
+Zulfiqar Ahmed               9      1     18      0
+Kardar                      12      5     12      0
+
+Pakistan 2nd innings (target: 69 runs)                          R   M   B  4 6
+Hanif Mohammad        c Harvey           b Davidson             5            0
+Alimuddin             not out                                  34            0
+Gul Mohammad          not out                                  27            0
+Extras                (lb 1, nb 2)                              3
+Total                 (1 wicket, 48.4 overs)                   69
+
+DNB: +Imtiaz Ahmed, Waqar Hasan, Wazir Mohammad, *AH Kardar,
+     W Mathias, Fazal Mahmood, Zulfiqar Ahmed, Khan Mohammad.
+
+FoW: 1-7 (Hanif Mohammad).
+
+Bowling                      O      M      R      W
+Lindwall                    16      8     22      0
+Miller                      12      4     18      0
+Archer                       3.5    3      1      0
+Davidson                     9      5      9      1
+Johnson                      7.5    2     16      0
+
+<END>

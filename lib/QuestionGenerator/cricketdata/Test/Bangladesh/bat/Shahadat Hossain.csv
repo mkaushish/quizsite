@@ -1,0 +1,61 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+1751, 2005-04-26, 1, 11, England, c GO Jones, Hoggard, 4, 9, 10, 1, 0
+1751, 2005-04-26, 3, 11, England, not out, , 2, 6, 3, 0, 0
+1764, 2005-08-12, 1, 10, Sri Lanka, lbw, Muralitharan, 2, 7, 6, 0, 0
+1764, 2005-08-12, 3, 10, Sri Lanka, not out, , 5, 15, 12, 0, 0
+1766, 2005-08-20, 2, 10, Sri Lanka, c Sangakkara, Malinga, 7, 17, 16, 1, 0
+1766, 2005-08-20, 3, 6, Sri Lanka, , Vaas, 1, 29, 12, 0, 0
+1784, 2006-02-28, 1, 9, Sri Lanka, c Tharanga, Malinga, 13, 52, 29, 2, 0
+1784, 2006-02-28, 3, 9, Sri Lanka, c Malinga, Bandara, 0, 16, 11, 0, 0
+1786, 2006-02-08, 1, 9, Sri Lanka, c Muralitharan, Fernando, 6, 47, 23, 1, 0
+1786, 2006-02-08, 3, 9, Sri Lanka, , Fernando, 8, 22, 14, 1, 0
+1797, 2006-03-09, 1, 10, Australia, not out, , 3, 23, 9, 0, 0
+1797, 2006-03-09, 3, 10, Australia, not out, , 1, 12, 8, 0, 0
+1799, 2006-03-16, 1, 11, Australia, c Gillespie, Warne, 0, 11, 9, 0, 0
+1799, 2006-03-16, 3, 11, Australia, not out, , 3, 36, 19, 0, 0
+1832, 2007-04-18, 2, 10, India, , Tendulkar, 31, 74, 55, 5, 0
+1837, 2007-05-25, 1, 8, Sri Lanka, c Muralitharan, Fernando, 1, 13, 11, 0, 0
+1837, 2007-05-25, 3, 10, Sri Lanka, st HAPW Jayawardene, Muralitharan, 1, 8, 3, 0, 0
+1838, 2007-06-03, 1, 11, Sri Lanka, , Muralitharan, 1, 8, 6, 0, 0
+1838, 2007-06-03, 3, 11, Sri Lanka, run out (Vandort/Vaas), , 2, 20, 10, 0, 0
+1839, 2007-06-11, 1, 10, Sri Lanka, c Dilshan, Muralitharan, 0, 4, 1, 0, 0
+1839, 2007-06-11, 3, 10, Sri Lanka, , Muralitharan, 5, 13, 15, 0, 0
+1859, 2008-01-04, 1, 9, New Zealand, c McCullum, Oram, 0, 2, 1, 0, 0
+1859, 2008-01-04, 3, 10, New Zealand, lbw, Vettori, 0, 7, 3, 0, 0
+1861, 2008-01-12, 1, 9, New Zealand, c McCullum, O'Brien, 1, 4, 4, 0, 0
+1861, 2008-01-12, 3, 8, New Zealand, c McCullum, O'Brien, 5, 53, 37, 0, 0
+1864, 2008-01-22, 1, 11, South Africa, not out, , 0, 6, 3, 0, 0
+1864, 2008-01-22, 3, 11, South Africa, not out, , 1, 4, 1, 0, 0
+1865, 2008-02-29, 2, 11, South Africa, not out, , 13, 11, 7, 3, 0
+1865, 2008-02-29, 3, 9, South Africa, c Prince, Peterson, 24, 49, 42, 4, 0
+1888, 2008-09-17, 1, 11, New Zealand, not out, , 0, 1, 0, 0, 0
+1888, 2008-09-17, 3, 11, New Zealand, not out, , 0, 47, 17, 0, 0
+1890, 2008-09-25, 2, 10, New Zealand, c Vettori, O'Brien, 4, 7, 3, 1, 0
+1893, 2008-10-19, 2, 10, South Africa, , Kallis, 23, 57, 35, 5, 0
+1893, 2008-10-19, 3, 10, South Africa, , Steyn, 16, 36, 25, 3, 0
+1895, 2008-10-26, 1, 10, South Africa, c Boucher, Steyn, 4, 10, 7, 1, 0
+1895, 2008-10-26, 3, 10, South Africa, c de Villiers, Zondeki, 0, 4, 1, 0, 0
+1903, 2008-11-26, 2, 10, Sri Lanka, st HAPW Jayawardene, Muralitharan, 5, 19, 17, 0, 0
+1903, 2008-11-26, 4, 11, Sri Lanka, not out, , 0, 5, 3, 0, 0
+1905, 2009-01-03, 2, 11, Sri Lanka, not out, , 5, 72, 47, 0, 0
+1905, 2009-01-03, 4, 10, Sri Lanka, , Dilshan, 1, 7, 5, 0, 0
+1923, 2009-06-09, 1, 10, West Indies, c Walton, Austin, 33, 71, 48, 4, 1
+1923, 2009-06-09, 3, 10, West Indies, not out, , 0, 8, 5, 0, 0
+1926, 2009-06-17, 2, 10, West Indies, c Richards, Roach, 0, 5, 4, 0, 0
+1949, 2010-01-17, 2, 9, India, c Yuvraj Singh, Mishra, 11, 16, 14, 1, 0
+1949, 2010-01-17, 4, 9, India, , Mishra, 24, 46, 30, 5, 0
+1950, 2010-01-24, 1, 9, India, st Dhoni, Ojha, 8, 36, 18, 1, 0
+1950, 2010-01-24, 3, 4, India, c sub (A Mishra), Harbhajan Singh, 40, 100, 74, 4, 1
+1953, 2010-01-15, 2, 9, New Zealand, c McCullum, Martin, 13, 13, 13, 3, 0
+1953, 2010-01-15, 4, 9, New Zealand, not out, , 17, 54, 36, 2, 1
+1954, 2010-02-12, 2, 7, England, c Collingwood, Finn, 14, 60, 35, 2, 0
+1954, 2010-02-12, 4, 10, England, c Prior, Bresnan, 12, 33, 22, 2, 0
+1958, 2010-04-27, 2, 9, England, , Anderson, 20, 16, 17, 3, 0
+1958, 2010-04-27, 3, 6, England, , Bresnan, 0, 10, 4, 0, 0
+1959, 2010-05-04, 2, 11, England, lbw, Swann, 0, 5, 2, 0, 0
+1959, 2010-05-04, 3, 11, England, not out, , 4, 4, 3, 1, 0
+2010, 2011-09-21, 1, 10, West Indies, st Baugh, Bishoo, 9, 36, 28, 1, 0
+2012, 2011-10-29, 2, 10, West Indies, , Bishoo, 4, 17, 13, 0, 0
+2012, 2011-10-29, 4, 10, West Indies, not out, , 1, 24, 13, 0, 0
+2022, 2011-11-09, 1, 10, Pakistan, , Abdur Rehman, 8, 22, 16, 1, 0
+2022, 2011-11-09, 3, 10, Pakistan, c Umar Gul, Aizaz Cheema, 21, 28, 26, 3, 0

@@ -1,0 +1,119 @@
+
+Test # 28
+The Ashes, 1888, 1st Test
+England v Australia
+Lord's, London
+16,17 July 1888 (3-day match)
+
+Result: Australia won by 61 runs
+Series: Australia leads the 3-match series 1-0
+
+Toss: Australia
+Umpires: FH Farrands and CK Pullin
+Balls per over: 4
+Test debuts: JD Edwards, GHS Trott, SMJ Woods (Australia); R Abel (England).
+
+Close of play:
+ Day 1: Australia 116, England 18/3 (Grace 10*)
+
+Australia 1st innings                                           R   M   B  4 6
+AC Bannerman          c Grace            b Lohmann              0          0 0
+*PS McDonnell         c O'Brien          b Peel                22            0
+GHS Trott             c Lohmann          b Peel                 0          0 0
+GJ Bonnor                                b Lohmann              6            0
++JM Blackham                             b Briggs              22            0
+SMJ Woods             c Gunn             b Briggs              18            0
+CTB Turner            c Lohmann          b Peel                 3          0 0
+JD Edwards            not out                                  21            0
+AH Jarvis             c Lohmann          b Peel                 3          0 0
+J Worrall             c Abel             b Briggs               2          0 0
+JJ Ferris             c Sherwin          b Steel               14            0
+Extras                (b 5)                                     5
+Total                 (all out, 71.2 overs)                   116
+
+FoW: 1-0 (Bannerman), 2-3 (Trott), 3-28 (Bonnor),
+     4-32 (McDonnell), 5-65 (Woods), 6-76 (Turner),
+     7-76 (Blackham), 8-79 (Jarvis), 9-82 (Worrall),
+     10-116 (Ferris).
+
+Bowling                      O      M      R      W
+Lohmann                     20      9     28      2
+Peel                        21      7     36      4
+Briggs                      21      8     26      3
+Barnes                       6      0     17      0
+Steel                        3.2    2      4      1
+
+England 1st innings                                             R   M   B  4 6
+WG Grace              c Woods            b Ferris              10            0
+R Abel                                   b Ferris               3          0 0
+W Barnes              c Jarvis           b Turner               3          0 0
+GA Lohmann            lbw                b Turner               2          0 0
+WW Read               st Blackham        b Turner               4            0
+TC O'Brien                               b Turner               0          0 0
+R Peel                run out                                   8            0
+*AG Steel             st Blackham        b Turner               3          0 0
+W Gunn                c Blackham         b Ferris               2          0 0
+J Briggs                                 b Woods               17            0
++M Sherwin            not out                                   0          0 0
+Extras                (lb 1)                                    1
+Total                 (all out, 50 overs)                      53
+
+FoW: 1-5 (Abel), 2-14 (Barnes), 3-18 (Lohmann), 4-22 (Read),
+     5-22 (Grace), 6-22 (O'Brien), 7-26 (Steel), 8-35 (Gunn),
+     9-49 (Peel), 10-53 (Briggs).
+
+Bowling                      O      M      R      W
+Turner                      25      9     27      5
+Ferris                      21     13     19      3
+Woods                        4      2      6      1
+
+Australia 2nd innings                                           R   M   B  4 6
+AC Bannerman                             b Peel                 0          0 0
+*PS McDonnell                            b Lohmann              1          0 0
+GHS Trott                                b Lohmann              3          0 0
+GJ Bonnor             c Lohmann          b Peel                 8            0
++JM Blackham          run out                                   1          0 0
+SMJ Woods             c Grace            b Peel                 3          0 0
+CTB Turner            c Grace            b Briggs              12            0
+JD Edwards            c Sherwin          b Lohmann              0          0 0
+JJ Ferris             not out                                  20            0
+J Worrall                                b Lohmann              4            0
+AH Jarvis             c Barnes           b Peel                 4            0
+Extras                (b 3, lb 1)                               4
+Total                 (all out, 29.2 overs)                    60
+
+FoW: 1-1 (McDonnell), 2-1 (Bannerman), 3-13 (Trott),
+     4-15 (Bonnor), 5-18 (Woods), 6-18 (Blackham),
+     7-18 (Edwards), 8-42 (Turner), 9-49 (Worrall),
+     10-60 (Jarvis).
+
+Bowling                      O      M      R      W
+Lohmann                     14      4     33      4
+Peel                        10.2    3     14      4
+Briggs                       4      1      9      1
+Steel                        1      1      0      0
+
+England 2nd innings (target: 124 runs)                          R   M   B  4 6
+WG Grace              c Bannerman        b Ferris              24            0
+R Abel                c Bonnor           b Ferris               8            0
+R Peel                                   b Turner               4            0
+WW Read                                  b Turner               3          0 0
+TC O'Brien                               b Turner               4            0
+*AG Steel             not out                                  10            0
+W Gunn                                   b Ferris               8            0
+J Briggs                                 b Turner               0          0 0
+W Barnes              st Blackham        b Ferris               1          0 0
+GA Lohmann            st Blackham        b Ferris               0          0 0
++M Sherwin            c Ferris           b Turner               0          0 0
+Extras                                                          0
+Total                 (all out, 47 overs)                      62
+
+FoW: 1-29 (Abel), 2-34 (Grace), 3-38 (Peel), 4-39 (Read),
+     5-44 (O'Brien), 6-55 (Gunn), 7-56 (Briggs), 8-57 (Barnes),
+     9-57 (Lohmann), 10-62 (Sherwin).
+
+Bowling                      O      M      R      W
+Turner                      24      8     36      5
+Ferris                      23     11     26      5
+
+<END>

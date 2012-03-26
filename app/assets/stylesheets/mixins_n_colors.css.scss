@@ -14,6 +14,18 @@ $graphite: #503214;
 	-khtml-border-radius: $radius; /* for old Konqueror browsers */
 }
 
+@mixin rounded-top-corners($radius) {
+	-moz-border-radius-topleft: $radius;
+	-webkit-border-top-left-radius: $radius;
+	border-top-left-radius: $radius; /* future proofing */
+	-khtml-border-radius-topleft: $radius; /* for old Konqueror browsers */
+
+	-moz-border-radius-topright: $radius;
+	-webkit-border-top-right-radius: $radius;
+	border-top-right-radius: $radius; /* future proofing */
+	-khtml-border-radius-topright: $radius; /* for old Konqueror browsers */
+}
+
 @mixin shadow($h_off, $v_off, $blur, $spread, $col) {
   // h_off : horizontal offset, positive = right, negative = left
   // v_off : vertical offset, positive = bot, negative = top

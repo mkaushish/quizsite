@@ -1,0 +1,105 @@
+
+Test # 290
+India in Australia, 1947/48, 1st Test
+Australia v India
+Brisbane Cricket Ground, Woolloongabba, Brisbane
+28,29 November, 1,2,3,4 December 1947 (6-day match)
+
+Result: Australia won by an innings and 226 runs
+Series: Australia leads the 5-match series 1-0
+
+Toss: Australia
+Umpires: AN Barlow and GE Borwick
+Balls per over: 8
+Test debuts: WA Johnston (Australia); HR Adhikari, JK Irani, G Kishenchand,
+ KM Rangnekar (India).
+
+Close of play:
+ Day 1: Australia 273/3 (Bradman 160*, Miller 6*)
+ Day 2: Australia 309/3 (Bradman 179*, Miller 19*)
+ Day 3: Australia 382/8d, India 58, India 41/4 (Sarwate 8*, Hazare 0*)
+ Day 4: India 70/4 (Sarwate 16*, Hazare 18*)
+ Day 5: No play
+
+Australia 1st innings                                           R   M   B  4 6
+WA Brown              c Irani            b Amarnath            11  53  65  0 0
+AR Morris             hit wicket         b Sarwate             47 118 178  2 0
+*DG Bradman           hit wicket         b Amarnath           185 288 336 20 0
+AL Hassett            c Gul Mohammad     b Mankad              48  89 119  3 0
+KR Miller             c Mankad           b Amarnath            58 163 164  2 4
+CL McCool             c Sohoni           b Amarnath            10  15  17  1 0
+RR Lindwall           st Irani           b Mankad               7  11  12  1 0
++D Tallon             not out                                   3   8   5  0 0
+IWG Johnson           c Rangnekar        b Mankad               6   4  10  1 0
+ERH Toshack           not out                                   0   1   0  0 0
+Extras                (b 5, lb 1, w 1)                          7
+Total                 (8 wickets dec, 115 overs, 380 mins)    382
+
+DNB: WA Johnston.
+
+FoW: 1-38 (Brown), 2-97 (Morris), 3-198 (Hassett),
+     4-318 (Bradman), 5-344 (McCool), 6-373 (Lindwall),
+     7-373 (Miller), 8-380 (Johnson).
+
+Bowling                      O      M      R      W
+Sohoni                      23      4     81      0
+Amarnath                    39     10     84      4 (1w)
+Mankad                      34      3    113      3
+Sarwate                      5      1     16      1
+Hazare                      11      1     63      0
+Nayudu                       3      0     18      0
+
+India 1st innings                                               R   M   B  4 6
+MH Mankad             c Tallon           b Lindwall             0   1   1  0 0
+CT Sarwate            c Johnston         b Miller              12  55  34  1 0
+Gul Mohammad                             b Lindwall             0   2   6  0 0
+HR Adhikari           c McCool           b Johnston             8  27  35  1 0
+G Kishenchand         c Tallon           b Johnston             1  15  20  0 0
+VS Hazare             c Brown            b Toshack             10  21  16  1 0
+*L Amarnath           c Bradman          b Toshack             22  32  40  2 0
+KM Rangnekar          c Miller           b Toshack              1   7   6  0 0
+SW Sohoni             c Miller           b Toshack              2   2   2  0 0
+CS Nayudu             not out                                   0   6   8  0 0
++JK Irani             c Hassett          b Toshack              0   2   3  0 0
+Extras                (b 1, lb 1)                               2
+Total                 (all out, 21.3 overs, 92 mins)           58
+
+FoW: 1-0 (Mankad), 2-0 (Gul Mohammad), 3-19 (Adhikari),
+     4-23 (Kishenchand), 5-23 (Sarwate), 6-53 (Hazare),
+     7-56 (Rangnekar), 8-58 (Sohoni), 9-58 (Amarnath),
+     10-58 (Irani).
+
+Bowling                      O      M      R      W
+Lindwall                     5      2     11      2
+Johnston                     8      4     17      2
+Miller                       6      1     26      1
+Toshack                      2.3    1      2      5
+
+India 2nd innings (following on)                                R   M   B  4 6
+MH Mankad                                b Lindwall             7  27  14  1 0
+CT Sarwate                               b Johnston            26 179 160  0 0
+Gul Mohammad                             b Toshack             13  16  18  2 0
+HR Adhikari           lbw                b Toshack             13  13  24  2 0
+G Kishenchand         c Bradman          b Toshack              0   1   1  0 0
+VS Hazare             c Morris           b Toshack             18  65  82  1 0
+*L Amarnath                              b Toshack              5  10  13  0 0
+KM Rangnekar          c Hassett          b Toshack              0   3   2  0 0
+SW Sohoni             c Brown            b Miller               4  20  16  0 0
+CS Nayudu             c Hassett          b Lindwall             6  32  28  1 0
++JK Irani             not out                                   2  13  10  0 0
+Extras                (b 3, nb 1)                               4
+Total                 (all out, 49.7 overs, 194 mins)          98
+
+FoW: 1-14 (Mankad), 2-27 (Gul Mohammad), 3-41 (Adhikari),
+     4-41 (Kishenchand), 5-72 (Hazare), 6-80 (Amarnath),
+     7-80 (Rangnekar), 8-89 (Sohoni), 9-94 (Sarwate),
+     10-98 (Nayudu).
+
+Bowling                      O      M      R      W
+Lindwall                    10.7    2     19      2
+Johnston                     9      6     11      1
+Miller                      10      2     30      1
+Toshack                     17      6     29      6
+Johnson                      3      1      5      0
+
+<END>

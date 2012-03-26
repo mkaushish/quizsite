@@ -1,0 +1,110 @@
+
+Test # 21
+The Ashes, 1884/85, 5th Test
+Australia v England
+Melbourne Cricket Ground
+21,23,24,25 March 1885 (timeless match)
+
+Result: England won by an innings and 98 runs
+Series: England wins the 5-match series 3-2
+
+Toss: Australia
+Umpires: GJ Hodges and J Phillips
+Balls per over: 4
+Test debuts: PG McShane, FH Walters (Australia).
+
+Close of play:
+ Day 1: Australia 163, England 44/0 (Barnes 19*, Scotton 21*)
+ Day 2: England 270/5 (Shrewsbury 54*, Briggs 11*)
+ Day 3: England 386, Australia 105/7 (Bruce 28*, Jarvis 1*)
+
+Australia 1st innings                                           R   M   B  4 6
+AC Bannerman          c Peel             b Ulyett               5          0 0
+W Bruce               c Briggs           b Peel                15          1 0
+G Giffen                                 b Ulyett              13          2 0
+*TP Horan             lbw                b Ulyett               0          0 0
+SP Jones              lbw                b Peel                 0          0 0
+FH Walters                               b Ulyett               7          1 0
++AH Jarvis            c Hunter           b Peel                15          1 0
+JW Trumble            not out                                  34          4 0
+PG McShane            c Hunter           b Barnes               9          1 0
+TW Garrett            c Briggs           b Barnes               6          0 0
+FR Spofforth                             b Attewell            50  70      4 1
+Extras                (b 5, lb 1, nb 3)                         9
+Total                 (all out, 106 overs)                    163
+
+FoW: 1-21 (Bruce), 2-21 (Bannerman), 3-21 (Horan), 4-34 (Jones),
+     5-34 (Giffen), 6-45 (Walters), 7-67 (Jarvis),
+     8-89 (McShane), 9-99 (Garrett), 10-163 (Spofforth).
+
+Bowling                      O      M      R      W
+Peel                        41     26     28      3
+Ulyett                      23      7     52      4
+Barnes                      28     12     47      2
+Flowers                      9      6      9      0
+Attewell                     5      1     18      1
+
+England 1st innings                                             R   M   B  4 6
+W Barnes              c Horan            b Bruce               74 175      8 0
+WH Scotton                               b Bruce               27          4 0
+JM Read                                  b Giffen              13          1 0
+G Ulyett                                 b Spofforth            1          0 0
+*A Shrewsbury snr     not out                                 105 320     10 0
+W Bates               c Walters          b Bruce               61          8 0
+W Flowers                                b Spofforth           16          0 0
+J Briggs              c Walters          b Trumble             43          8 0
+W Attewell            c Bannerman        b Trumble              0          0 0
+R Peel                                   b Trumble              0          0 0
++J Hunter                                b Giffen              18          1 0
+Extras                (b 10, lb 14, nb 4)                      28
+Total                 (all out, 221.3 overs)                  386
+
+FoW: 1-61 (Scotton), 2-96 (Read), 3-97 (Ulyett), 4-141 (Barnes),
+     5-256 (Flowers), 6-324 (Briggs), 7-324 (Attewell),
+     8-335 (Bates), 9-337 (Peel), 10-386 (Hunter).
+
+Bowling                      O      M      R      W
+Giffen                      74.3   31    132      2
+Bruce                       51     13     99      3
+Spofforth                   49     21     71      2
+Trumble                     28     14     29      3
+Garrett                      8      6     12      0
+McShane                      3      2      3      0
+Jones                        5      2      7      0
+Horan                        3      0      5      0
+
+Australia 2nd innings                                           R   M   B  4 6
+AC Bannerman          c sub (GF Vernon)  b Ulyett               2          0 0
+TW Garrett                               b Ulyett               5          1 0
+G Giffen              c Peel             b Ulyett              12          1 0
+SP Jones                                 b Peel                17          2 0
+*TP Horan                                b Attewell            20          3 0
+W Bruce               c Bates            b Attewell            35          1 1
+JW Trumble            lbw                b Attewell            10          1 0
+FH Walters            c Attewell         b Flowers              5          1 0
++AH Jarvis            c Peel             b Flowers              1          0 0
+FR Spofforth          c sub (AH Jarvis)  b Flowers              1          0 0
+PG McShane            not out                                  12          0 0
+Extras                (b 5)                                     5
+Total                 (all out, 102.1 overs)                  125
+
+FoW: 1-4 (Bannerman), 2-17 (Garrett), 3-26 (Giffen),
+     4-60 (Horan), 5-60 (Jones), 6-91 (Trumble), 7-100 (Walters),
+     8-106 (Jarvis), 9-108 (Spofforth), 10-125 (Bruce).
+
+Bowling                      O      M      R      W
+Peel                        30     16     37      1
+Ulyett                      15      7     25      3
+Flowers                     21      7     34      3
+Attewell                    36.1   22     24      3
+
+*** A Shrewsbury became the first Englad captain to score a Test hundred.
+*** TW Garrett deputised for umpire Hodges when the latter refused to stand
+    after tea on the third day because of England's complaints about his
+    decisions. JC Allen stood for Phillips on the third and fourth days.
+    McShane played in this Test after umpiring in the previous one.
+*** Jarvis was the second Australian substitute fielder after Murdoch to hold
+    a catch for England.
+*** W Bates (1) retired hurt on 54* from 214/4 to 324/7
+
+<END>

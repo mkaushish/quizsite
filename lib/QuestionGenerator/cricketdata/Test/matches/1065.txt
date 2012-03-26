@@ -1,0 +1,131 @@
+
+Test # 1065
+The Ashes, 1986/87, 5th Test
+Australia v England
+Sydney Cricket Ground
+10,11,12,14,15 January 1987 (5-day match)
+
+Result: Australia won by 55 runs
+Series: England wins the 5-match series 2-1
+
+Toss: Australia
+Umpires: PJ McConnell and SG Randell
+Test debut: PL Taylor (Australia).
+Player of the match: PL Taylor
+Player of the series: BC Broad
+
+Close of play:
+ Day 1: Australia 236/7 (Jones 119*, Taylor 0*)
+ Day 2: Australia 343, England 132/5 (Gower 62*, Richards 8*)
+ Day 3: England 275, Australia 74/2 (Jones 6*, Border 38*)
+ Day 4: Australia 251, England 39/1 (Athey 11*, Gower 7*)
+
+Australia 1st innings                                           R   M   B  4 6
+GR Marsh              c Gatting          b Small               24  86  57  2 0
+GM Ritchie            lbw                b Dilley               6  20  12  1 0
+DM Jones              not out                                 184 540 421 12 1
+*AR Border            c Botham           b Edmonds             34 137 112  3 0
+DM Wellham            c Richards         b Small               17  49  49  2 0
+SR Waugh              c Richards         b Small                0   1   1  0 0
+PR Sleep              c Richards         b Small                9  16  15  1 0
++TJ Zoehrer           c Gatting          b Small               12  56  38  0 0
+PL Taylor             c Emburey          b Edmonds             11  84  64  1 0
+MG Hughes             c Botham           b Edmonds             16 116 108  1 0
+BA Reid                                  b Dilley               4   5   3  1 0
+Extras                (b 12, lb 4, w 2, nb 8)                  26
+Total                 (all out, 144.5 overs)                  343
+
+FoW: 1-8 (Ritchie), 2-58 (Marsh), 3-149 (Border),
+     4-184 (Wellham), 5-184 (Waugh), 6-200 (Sleep),
+     7-232 (Zoehrer), 8-271 (Taylor), 9-338 (Hughes),
+     10-343 (Reid).
+
+Bowling                      O      M      R      W
+Dilley                      23.5    5     67      2
+Small                       33     11     75      5
+Botham                      23     10     42      0
+Emburey                     30      4     62      0
+Edmonds                     34      5     79      3
+Gatting                      1      0      2      0
+
+England 1st innings                                             R   M   B  4 6
+BC Broad              lbw                b Hughes               6  22  19  1 0
+CWJ Athey             c Zoehrer          b Hughes               5  12   7  1 0
+*MW Gatting           lbw                b Reid                 0   5   2  0 0
+AJ Lamb               c Zoehrer          b Taylor              24  92  60  4 0
+DI Gower              c Wellham          b Taylor              72 133 144 12 0
+IT Botham             c Marsh            b Taylor              16  15  13  2 1
++CJ Richards          c Wellham          b Reid                46 162 136  7 0
+JE Emburey                               b Taylor              69 210 168  8 0
+PH Edmonds            c Marsh            b Taylor               3  15  14  0 0
+GC Small                                 b Taylor              14  55  31  1 0
+GR Dilley             not out                                   4  10   4  1 0
+Extras                (b 9, lb 3, w 2, nb 2)                   16
+Total                 (all out, 94 overs)                     275
+
+FoW: 1-16 (Athey), 2-17 (Gatting), 3-17 (Broad), 4-89 (Lamb),
+     5-119 (Botham), 6-142 (Gower), 7-213 (Richards),
+     8-219 (Edmonds), 9-270 (Small), 10-275 (Emburey).
+
+Bowling                      O      M      R      W
+Hughes                      16      3     58      2
+Reid                        25      7     74      2
+Waugh                        6      4      6      0
+Taylor                      26      7     78      6
+Sleep                       21      6     47      0
+
+Australia 2nd innings                                           R   M   B  4 6
+GR Marsh              c Emburey          b Dilley              14  52  39  2 0
+GM Ritchie            c Botham           b Edmonds             13  67  46  0 0
+DM Jones              c Richards         b Emburey             30 146 109  2 0
+*AR Border                               b Edmonds             49 113  95  8 0
+DM Wellham            c Lamb             b Emburey              1  26  17  0 0
+SR Waugh              c Athey            b Emburey             73 185 172  5 0
+PR Sleep              c Lamb             b Emburey             10  22  25  2 0
++TJ Zoehrer           lbw                b Emburey              1  11  14  0 0
+PL Taylor             c Lamb             b Emburey             42 160 154  1 0
+MG Hughes                                b Emburey              5  31  27  0 0
+BA Reid               not out                                   1   7   5  0 0
+Extras                (b 5, lb 7)                              12
+Total                 (all out, 117 overs)                    251
+
+FoW: 1-29 (Marsh), 2-31 (Ritchie), 3-106 (Border), 4-110 (Jones),
+     5-115 (Wellham), 6-141 (Sleep), 7-145 (Zoehrer),
+     8-243 (Waugh), 9-248 (Taylor), 10-251 (Hughes).
+
+Bowling                      O      M      R      W
+Dilley                      15      4     48      1
+Small                        8      2     17      0
+Edmonds                     43     16     79      2
+Emburey                     46     15     78      7
+Botham                       3      0     17      0
+Gatting                      2      2      0      0
+
+England 2nd innings (target: 320 runs)                          R   M   B  4 6
+BC Broad                             c & b Sleep               17  39  31  1 0
+CWJ Athey                                b Sleep               31 164 134  3 0
+DI Gower              c Marsh            b Border              37 119  92  5 0
+AJ Lamb               c Waugh            b Taylor               3  26  25  0 0
+*MW Gatting                          c & b Waugh               96 210 161 10 1
+IT Botham             c Wellham          b Taylor               0   1   1  0 0
++CJ Richards                             b Sleep               38 218 166  2 0
+JE Emburey                               b Sleep               22  68  56  4 0
+PH Edmonds            lbw                b Sleep                0   1   1  0 0
+GC Small              c Border           b Reid                 0  27  19  0 0
+GR Dilley             not out                                   2   6   2  0 0
+Extras                (b 8, lb 6, w 1, nb 3)                   18
+Total                 (all out, 114 overs)                    264
+
+FoW: 1-24 (Broad), 2-91 (Gower), 3-91 (Athey), 4-102 (Lamb),
+     5-102 (Botham), 6-233 (Gatting), 7-257 (Richards),
+     8-257 (Edmonds), 9-262 (Small), 10-264 (Emburey).
+
+Bowling                      O      M      R      W
+Hughes                      12      3     32      0
+Reid                        19      8     32      1
+Sleep                       35     14     72      5
+Taylor                      29     10     76      2
+Border                      13      6     25      1
+Waugh                        6      2     13      1
+
+<END>

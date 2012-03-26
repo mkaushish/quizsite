@@ -1,0 +1,97 @@
+
+Test # 1019
+The Ashes, 1985, 3rd Test
+England v Australia
+Trent Bridge, Nottingham
+11,12,13,15,16 July 1985 (5-day match)
+
+Result: Match drawn
+Series: 6-match series level 1-1
+
+Toss: England
+Umpires: DJ Constant and AGT Whitehead
+Test debut: A Sidebottom (England).
+Player of the match: DI Gower
+
+Close of play:
+ Day 1: England 279/2 (Gower 107*, Gatting 53*)
+ Day 2: England 456, Australia 94/1 (Wood 38*, Holland 4*)
+ Day 3: Australia 366/5 (Wood 152*, Ritchie 65*)
+ Day 4: Australia 539, England 8/0 (Gooch 4*, Robinson 3*)
+
+England 1st innings                                             R   M   B  4 6
+GA Gooch              c Wessels          b Lawson              70 190 132 12 0
+RT Robinson           c Border           b Lawson              38  65  54  6 0
+*DI Gower             c Phillips         b O'Donnell          166 381 284 17 0
+MW Gatting            run out                                  74 244 162  9 0
+AJ Lamb               lbw                b Lawson              17  49  29  3 0
+IT Botham             c O'Donnell        b McDermott           38  37  35  7 0
++PR Downton           c Ritchie          b McDermott            0   6   1  0 0
+A Sidebottom          c O'Donnell        b Lawson               2   8   8  0 0
+JE Emburey            not out                                  16  58  26  2 0
+PH Edmonds                               b Holland             12  34  31  1 0
+PJW Allott            c Border           b Lawson               7  18  21  0 0
+Extras                (lb 12, w 1, nb 3)                       16
+Total                 (all out, 129.4 overs)                  456
+
+FoW: 1-55 (Robinson), 2-171 (Gooch), 3-358 (Gatting),
+     4-365 (Gower), 5-416 (Lamb), 6-416 (Botham),
+     7-419 (Downton), 8-419 (Sidebottom), 9-443 (Edmonds),
+     10-456 (Allott).
+
+Bowling                      O      M      R      W
+Lawson                      39.4   10    103      5
+McDermott                   35      3    147      2
+O'Donnell                   29      4    104      1
+Holland                     26      3     90      1
+
+Australia 1st innings                                           R   M   B  4 6
+GM Wood               c Robinson         b Botham             172 596 449 21 0
+AMJ Hilditch          lbw                b Allott              47 130  89  5 0
+RG Holland            lbw                b Sidebottom          10  56  41  2 0
+KC Wessels            c Downton          b Emburey             33  95  85  1 0
+*AR Border            c Botham           b Edmonds             23  16  17  2 1
+DC Boon                              c & b Emburey             15  46  47  3 0
+GM Ritchie                               b Edmonds            146 356 309 16 0
++WB Phillips                             b Emburey              2  22  23  0 0
+SP O'Donnell          c Downton          b Botham              46 159 118  6 0
+GF Lawson             c Gooch            b Botham              18  67  50  3 0
+CJ McDermott          not out                                   0   1   1  0 0
+Extras                (b 6, lb 7, w 2, nb 12)                  27
+Total                 (all out, 201.2 overs)                  539
+
+FoW: 1-87 (Hilditch), 2-128 (Holland), 3-205 (Wessels),
+     4-234 (Border), 5-263 (Boon), 6-424 (Wood),
+     7-437 (Phillips), 8-491 (Ritchie), 9-539 (O'Donnell),
+     10-539 (Lawson).
+
+Bowling                      O      M      R      W
+Botham                      34.2    3    107      3
+Sidebottom                  18.4    3     65      1
+Allott                      18      4     55      1
+Edmonds                     66     18    155      2
+Emburey                     55     15    129      3
+Gooch                        8.2    2     13      0
+Gatting                      1      0      2      0
+
+England 2nd innings                                             R   M   B  4 6
+GA Gooch              c Ritchie          b McDermott           48 117  91  6 0
+RT Robinson           not out                                  77 270 197  4 0
+*DI Gower             c Phillips         b McDermott           17  40  34  2 0
+MW Gatting            not out                                  35 109  89  5 0
+Extras                (b 1, lb 16, nb 2)                       19
+Total                 (2 wickets, 68 overs)                   196
+
+DNB: AJ Lamb, IT Botham, +PR Downton, A Sidebottom, JE Emburey,
+     PH Edmonds, PJW Allott.
+
+FoW: 1-79 (Gooch), 2-107 (Gower).
+
+Bowling                      O      M      R      W
+Lawson                      13      4     32      0
+McDermott                   16      2     42      2
+Holland                     28      9     69      0
+O'Donnell                   10      2     26      0
+Ritchie                      1      0     10      0
+
+<END>

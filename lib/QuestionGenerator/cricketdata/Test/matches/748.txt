@@ -1,0 +1,119 @@
+
+Test # 748
+The Ashes, 1974/75, 2nd Test
+Australia v England
+Western Australia Cricket Association Ground, Perth
+13,14,15,17 December 1974 (5-day match)
+
+Result: Australia won by 9 wickets
+Series: Australia leads the 6-match series 2-0
+
+Toss: Australia
+Umpires: RC Bailhache and TF Brooks
+Balls per over: 8
+
+Close of play:
+ Day 1: England 208, Australia 1/0 (Redpath 1*, WJ Edwards 0*)
+ Day 2: Australia 352/4 (R Edwards 79*, Walters 103*)
+ Day 3: Australia 481, England 102/1 (Denness 13*, Greig 28*)
+
+England 1st innings                                             R   M   B  4 6
+D Lloyd               c GS Chappell      b Thomson             49 187 157  6 0
+BW Luckhurst          c Mallett          b Walker              27  81  53  6 0
+MC Cowdrey                               b Thomson             22 125 101  3 0
+AW Greig              c Mallett          b Walker              23  65  46  3 0
+KWR Fletcher          c Redpath          b Lillee               4  24  17  1 0
+*MH Denness           c GS Chappell      b Lillee               2  13  12  0 0
++APE Knott            c Redpath          b Walters             51  86  70  5 0
+FJ Titmus             c Redpath          b Walters             10  94  66  0 0
+CM Old                c GS Chappell      b IM Chappell          7   5   7  1 0
+GG Arnold             run out                                   1   1   1  0 0
+RGD Willis            not out                                   4   2   2  1 0
+Extras                (w 3, nb 5)                               8
+Total                 (all out, 65.3 overs)                   208
+
+FoW: 1-44 (Luckhurst), 2-99 (Lloyd), 3-119 (Cowdrey),
+     4-128 (Fletcher), 5-132 (Denness), 6-132 (Greig),
+     7-194 (Knott), 8-201 (Old), 9-202 (Arnold), 10-208 (Titmus).
+
+Bowling                      O      M      R      W
+Lillee                      16      4     48      2
+Thomson                     15      6     45      2
+Walker                      20      5     49      2
+Mallett                     10      3     35      0
+Walters                      2.3    0     13      2
+IM Chappell                  2      0     10      1
+
+Australia 1st innings                                           R   M   B  4 6
+IR Redpath            st Knott           b Titmus              41 111  92  2 0
+WJ Edwards            c Lloyd            b Greig               30  62  43  2 0
+*IM Chappell          c Knott            b Arnold              25  69  48  5 0
+GS Chappell           c Greig            b Willis              62 126 122  6 0
+R Edwards                                b Arnold             115 322 252  6 0
+KD Walters            c Fletcher         b Willis             103 140 119 11 1
++RW Marsh             c Lloyd            b Titmus              41 120  93  5 0
+MHN Walker            c Knott            b Old                 19  80  72  0 0
+DK Lillee                                b Old                 11  13  20  1 0
+AA Mallett            c Knott            b Old                  0   1   2  0 0
+JR Thomson            not out                                  11  16  12  1 0
+Extras                (b 7, lb 14, nb 2)                       23
+Total                 (all out, 108.6 overs)                  481
+
+FoW: 1-64 (WJ Edwards), 2-101 (Redpath), 3-113 (IM Chappell),
+     4-192 (GS Chappell), 5-362 (Walters), 6-416 (R Edwards),
+     7-449 (Marsh), 8-462 (Lillee), 9-462 (Mallett),
+     10-481 (Walker).
+
+Bowling                      O      M      R      W
+Willis                      22      0     91      2
+Arnold                      27      1    129      2
+Old                         22.6    3     85      3
+Greig                        9      0     69      1
+Titmus                      28      3     84      2
+
+England 2nd innings                                             R   M   B  4 6
+D Lloyd               c GS Chappell      b Walker              35 180 148  4 0
+MC Cowdrey            lbw                b Thomson             41 131  96  7 0
+*MH Denness           c Redpath          b Thomson             20  97  66  1 0
+AW Greig              c GS Chappell      b Thomson             32  58  49  6 0
+KWR Fletcher          c Marsh            b Thomson              0   1   1  0 0
++APE Knott            c GS Chappell      b Lillee              18  32  31  3 0
+BW Luckhurst          c Mallett          b Lillee              23 136 107  2 0
+FJ Titmus             c GS Chappell      b Mallett             61 108  91  8 0
+CM Old                c Thomson          b Mallett             43  64  48  5 2
+GG Arnold             c Mallett          b Thomson              4   8   8  1 0
+RGD Willis            not out                                   0   2   0  0 0
+Extras                (lb 4, w 1, nb 11)                       16
+Total                 (all out, 91.1 overs)                   293
+
+FoW: 1-62 (Cowdrey), 2-106 (Greig), 3-124 (Denness),
+     4-124 (Fletcher), 5-154 (Knott), 6-156 (Lloyd),
+     7-219 (Luckhurst), 8-285 (Old), 9-293 (Arnold),
+     10-293 (Titmus).
+
+Bowling                      O      M      R      W
+Lillee                      22      5     59      2
+Thomson                     25      4     93      5
+Walker                      24      7     76      1
+Mallett                     11.1    4     32      2
+Walters                      9      4     17      0
+
+Australia 2nd innings (target: 21 runs)                         R   M   B  4 6
+IR Redpath            not out                                  12  22  21  2 0
+WJ Edwards            lbw                b Arnold               0   8   3  0 0
+*IM Chappell          not out                                  11  12   7  1 0
+Extras                                                          0
+Total                 (1 wicket, 3.7 overs)                    23
+
+DNB: GS Chappell, R Edwards, KD Walters, +RW Marsh, MHN Walker,
+     DK Lillee, AA Mallett, JR Thomson.
+
+FoW: 1-4 (WJ Edwards).
+
+Bowling                      O      M      R      W
+Willis                       2      0      8      0
+Arnold                       1.7    0     15      1
+
+*** D Lloyd (2) retired hurt on 17* from 52/0 to 106/2
+
+<END>

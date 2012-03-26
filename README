@@ -41,6 +41,16 @@ Restart webrick and it'll work like a charm :)
 
 Note, much of the code in this was taken from Micheal Hartls excellent Ruby on Rails Tutorial
 
+GIT NOTES:
+----------
+revert a single file:
+  $ git checkout <filename>  # checks out from HEAD
+  $ git checkout -- <filename>  # necessary if filename is the same as a branch!
+
+revert working directory
+  $ git reset --hard  # CAREFUL this completely overwrites all diffs b/n the working copy and HEAD
+
+
 Instructions for setting up posgresql on ubuntu:
 ------------------------------------------------
 $ sudo apt-get install postgresql

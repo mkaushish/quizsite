@@ -1,0 +1,98 @@
+
+Test # 478
+India in England, 1959, 5th Test
+England v India
+Kennington Oval, London
+20,21,22,24 August 1959 (5-day match)
+
+Result: England won by an innings and 27 runs
+Series: England wins the 5-match series 5-0
+
+Toss: India
+Umpires: DE Davies and FS Lee
+
+Close of play:
+ Day 1: India 140, England 35/0 (Pullar 20*, Subba Row 15*)
+ Day 2: England 289/6 (Illingworth 20*, Swetman 33*)
+ Day 3: England 361, India 146/5 (Nadkarni 69*, Ghorpade 15*)
+
+India 1st innings                                               R   M   B  4 6
+P Roy                                    b Statham              3  51      0 0
+NJ Contractor         c Illingworth      b Dexter              22 199      1 0
+AA Baig               c Cowdrey          b Trueman             23  54      2 0
+RG Nadkarni           c Swetman          b Trueman              6  15      1 0
+CG Borde                                 b Greenhough           0   9      0 0
+*DK Gaekwad           c Barrington       b Dexter              11  43      0 0
+JM Ghorpade                              b Greenhough           5   4      1 0
++NS Tamhane           c Swetman          b Statham             32 115      3 0
+Surendranath          c Illingworth      b Trueman             27  83      3 0
+SP Gupte                                 b Trueman              2   1      0 0
+RB Desai              not out                                   3  13      0 0
+Extras                (b 1, lb 4, nb 1)                         6
+Total                 (all out, 85.3 overs)                   140
+
+FoW: 1-12 (Roy), 2-43 (Baig), 3-49 (Nadkarni), 4-50 (Borde),
+     5-67 (Gaekwad), 6-72 (Ghorpade), 7-74 (Contractor),
+     8-132 (Surendranath), 9-134 (Gupte), 10-140 (Tamhane).
+
+Bowling                      O      M      R      W
+Trueman                     17      6     24      4
+Statham                     16.3    6     24      2
+Dexter                      16      7     24      2
+Greenhough                  29     11     36      2
+Illingworth                  1      0      2      0
+Barrington                   6      0     24      0
+
+England 1st innings                                             R   M   B  4 6
+G Pullar              c Tamhane          b Surendranath        22  53      0 0
+R Subba Row           c Tamhane          b Desai               94 306     11 0
+*MC Cowdrey           c Borde            b Surendranath         6  38      0 0
+MJK Smith                                b Desai               98 197     14 0
+KF Barrington         c sub              b Gupte                8  32      1 0
+ER Dexter             c Tamhane          b Surendranath         0   9      0 0
+R Illingworth         c Gaekwad          b Nadkarni            50 141      7 0
++R Swetman            c Baig             b Surendranath        65 104     10 0
+FS Trueman            st Tamhane         b Nadkarni             1  10      0 0
+JB Statham            not out                                   3  17      0 0
+T Greenhough          c Contractor       b Surendranath         2   1      0 0
+Extras                (b 3, lb 8, w 1)                         12
+Total                 (all out, 147.3 overs)                  361
+
+FoW: 1-38 (Pullar), 2-52 (Cowdrey), 3-221 (Smith),
+     4-232 (Subba Row), 5-233 (Dexter), 6-235 (Barrington),
+     7-337 (Swetman), 8-347 (Trueman), 9-358 (Illingworth),
+     10-361 (Greenhough).
+
+Bowling                      O      M      R      W
+Desai                       33      5    103      2
+Surendranath                51.3   25     75      5
+Gupte                       38      9    119      1
+Nadkarni                    25     11     52      2
+
+India 2nd innings                                               R   M   B  4 6
+P Roy                 lbw                b Statham              0  13      0 0
+NJ Contractor         c Trueman          b Statham             25  69      2 0
+AA Baig               c Cowdrey          b Statham              4  14      1 0
+RG Nadkarni           lbw                b Illingworth         76 235      8 0
+CG Borde              run out                                   6  36      0 0
+*DK Gaekwad           c Swetman          b Greenhough          15  83      1 0
+JM Ghorpade                              b Greenhough          24  56      5 0
++NS Tamhane                              b Trueman              9  44      1 0
+Surendranath          not out                                  17  67      3 0
+SP Gupte              c Greenhough       b Trueman              5  16      1 0
+RB Desai              c Swetman          b Trueman              0  19      0 0
+Extras                (b 4, lb 6, nb 3)                        13
+Total                 (all out, 95 overs)                     194
+
+FoW: 1-5 (Roy), 2-17 (Baig), 3-44 (Contractor), 4-70 (Borde),
+     5-106 (Gaekwad), 6-159 (Ghorpade), 7-163 (Nadkarni),
+     8-173 (Tamhane), 9-188 (Gupte), 10-194 (Desai).
+
+Bowling                      O      M      R      W
+Trueman                     14      4     30      3
+Statham                     18      4     50      3
+Dexter                       7      1     11      0
+Greenhough                  27     12     47      2
+Illingworth                 29     10     43      1
+
+<END>

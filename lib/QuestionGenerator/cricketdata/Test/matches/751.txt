@@ -1,0 +1,129 @@
+
+Test # 751
+The Ashes, 1974/75, 4th Test
+Australia v England
+Sydney Cricket Ground
+4,5,6,8,9 January 1975 (5-day match)
+
+Result: Australia won by 171 runs
+Series: Australia leads the 6-match series 3-0
+
+Toss: Australia
+Umpires: RC Bailhache and TF Brooks
+Balls per over: 8
+Test debut: RB McCosker (Australia).
+
+Close of play:
+ Day 1: Australia 251/4 (GS Chappell 59*, Walters 0*)
+ Day 2: Australia 405, England 106/3 (Edrich 13*, Fletcher 23*)
+ Day 3: England 295, Australia 123/1 (Redpath 47*, GS Chappell 69*)
+ Day 4: Australia 289/4d, England 33/0 (Amiss 14*, Lloyd 15*)
+
+Australia 1st innings                                           R   M   B  4 6
+IR Redpath            hit wicket         b Titmus              33 140 114  1 0
+RB McCosker           c Knott            b Greig               80 192 169  7 0
+*IM Chappell          c Knott            b Arnold              53 118  83  5 0
+GS Chappell           c Greig            b Arnold              84 216 173  9 0
+R Edwards                                b Greig               15  61  57  3 0
+KD Walters            lbw                b Arnold               1   9   7  0 0
++RW Marsh                                b Greig               30  56  44  0 0
+MHN Walker            c Greig            b Arnold              30  87  59  0 0
+DK Lillee                                b Arnold               8  32  23  1 0
+AA Mallett            lbw                b Greig               31  73  53  4 0
+JR Thomson            not out                                  24  27  23  4 0
+Extras                (lb 4, w 1, nb 11)                       16
+Total                 (all out, 98.7 overs)                   405
+
+FoW: 1-96 (Redpath), 2-142 (McCosker), 3-199 (IM Chappell),
+     4-251 (Edwards), 5-255 (Walters), 6-305 (Marsh),
+     7-310 (GS Chappell), 8-332 (Lillee), 9-368 (Walker),
+     10-405 (Mallett).
+
+Bowling                      O      M      R      W
+Willis                      18      2     80      0
+Arnold                      29      7     86      5
+Greig                       22.7    2    104      4
+Underwood                   13      3     54      0
+Titmus                      16      2     65      1
+
+England 1st innings                                             R   M   B  4 6
+DL Amiss              c Mallett          b Walker              12  39  26  1 0
+D Lloyd               c Thomson          b Lillee              19  54  45  3 0
+MC Cowdrey            c McCosker         b Thomson             22  63  48  3 0
+*JH Edrich            c Marsh            b Walters             50 223 177  5 0
+KWR Fletcher          c Redpath          b Walker              24  88  62  3 0
+AW Greig              c GS Chappell      b Thomson              9  16  13  1 0
++APE Knott                               b Thomson             82 158 121 11 0
+FJ Titmus             c Marsh            b Walters             22  47  44  3 0
+DL Underwood          c Walker           b Lillee              27  53  31  5 0
+RGD Willis                               b Thomson              2  14   8  0 0
+GG Arnold             not out                                   3  13  14  0 0
+Extras                (b 15, lb 7, w 1)                        23
+Total                 (all out, 73.1 overs)                   295
+
+FoW: 1-36 (Amiss), 2-46 (Lloyd), 3-69 (Cowdrey),
+     4-108 (Fletcher), 5-123 (Greig), 6-180 (Edrich),
+     7-240 (Titmus), 8-273 (Knott), 9-285 (Willis),
+     10-295 (Underwood).
+
+Bowling                      O      M      R      W
+Lillee                      19.1    2     66      2
+Thomson                     19      3     74      4
+Walker                      23      2     77      2
+Mallett                      1      0      8      0
+Walters                      7      2     26      2
+IM Chappell                  4      0     21      0
+
+Australia 2nd innings                                           R   M   B  4 6
+IR Redpath            c sub (CM Old)     b Underwood          105 344 239  9 0
+*IM Chappell          c Lloyd            b Willis               5  22   9  0 0
+GS Chappell           c Lloyd            b Arnold             144 252 209 16 0
+KD Walters                               b Underwood            5  13  15  0 0
+R Edwards             not out                                  17  59  44  1 0
++RW Marsh             not out                                   7   7   4  0 0
+Extras                (lb 2, w 1, nb 3)                         6
+Total                 (4 wickets dec, 64.3 overs)             289
+
+DNB: RB McCosker, MHN Walker, DK Lillee, AA Mallett, JR Thomson.
+
+FoW: 1-15 (IM Chappell), 2-235 (GS Chappell), 3-242 (Walters),
+     4-280 (Redpath).
+
+Bowling                      O      M      R      W
+Willis                      11      1     52      1
+Arnold                      22      3     78      1
+Greig                       12      1     64      0
+Underwood                   12      1     65      2
+Titmus                       7.3    2     24      0
+
+England 2nd innings (target: 400 runs)                          R   M   B  4 6
+DL Amiss              c Marsh            b Lillee              37  93  67  2 0
+D Lloyd               c GS Chappell      b Thomson             26  86  54  3 0
+MC Cowdrey            c IM Chappell      b Walker               1  37  26  0 0
+*JH Edrich            not out                                  33 155 163  5 0
+KWR Fletcher          c Redpath          b Thomson             11  64  46  1 0
+AW Greig              st Marsh           b Mallett             54 139 114  9 0
++APE Knott            c Redpath          b Mallett             10  56  39  2 0
+FJ Titmus             c Thomson          b Mallett              4  31  25  0 0
+DL Underwood                         c & b Walker               5  16  13  1 0
+RGD Willis                               b Lillee              12  88  68  2 0
+GG Arnold             c GS Chappell      b Mallett             14  35  20  2 0
+Extras                (b 13, lb 3, nb 5)                       21
+Total                 (all out, 79.5 overs)                   228
+
+FoW: 1-68 (Lloyd), 2-70 (Amiss), 3-74 (Cowdrey),
+     4-103 (Fletcher), 5-136 (Knott), 6-156 (Titmus),
+     7-158 (Greig), 8-175 (Underwood), 9-201 (Willis),
+     10-228 (Arnold).
+
+Bowling                      O      M      R      W
+Lillee                      21      5     65      2
+Thomson                     23      7     74      2
+Walker                      16      5     46      2
+Mallett                     16.5    9     21      4
+IM Chappell                  3      2      1      0
+
+*** JH Edrich (2) retired hurt on 0* from 70/2 to 156/6 (hit on the ribs
+    first ball, by Lillee)
+
+<END>

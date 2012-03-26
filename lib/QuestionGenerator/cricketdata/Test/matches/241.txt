@@ -1,0 +1,106 @@
+
+Test # 241
+England in West Indies, 1934/35, 4th Test
+West Indies v England
+Sabina Park, Kingston, Jamaica
+14,15,16,18 March 1935 (4-day match)
+
+Result: West Indies won by an innings and 161 runs
+Series: West Indies wins the 4-match series 2-1
+
+Toss: West Indies
+Umpires: SC Burke and E Knibbs
+Test debuts: RL Fuller, GH Mudie (West Indies).
+
+Close of play:
+ Day 1: West Indies 235/2 (Headley 132*, Sealy 60*)
+ Day 2: West Indies 535/7d, England 27/4 (Ames 0*, Hendren 1*)
+ Day 3: England 271, England 14/0 (Iddon 0*, Townsend 11*)
+
+West Indies 1st innings                                         R   M   B  4 6
+IM Barrow                                b Farnes               3          0 0
++CM Christiani                           b Paine               27            0
+GA Headley            not out                                 270 495     30 0
+JED Sealy                                b Paine               91            0
+LN Constantine        lbw                b Paine               34            2
+GH Mudie              c Townsend         b Paine                5            0
+RL Fuller             lbw                b Hollies              1          0 0
+RS Grant              c Wyatt            b Paine               77            0
+LG Hylton             not out                                   5            0
+Extras                (b 8, lb 13, nb 1)                       22
+Total                 (7 wickets dec, 168 overs)              535
+
+DNB: *GC Grant, EA Martindale.
+
+FoW: 1-5 (Barrow), 2-92 (Christiani), 3-294 (Sealy),
+     4-352 (Constantine), 5-376 (Mudie), 6-381 (Fuller),
+     7-528 (RS Grant).
+
+Bowling                      O      M      R      W
+Smith                       22      2     83      0
+Farnes                      24      4     72      1
+Wyatt                        5      1     12      0
+Hollies                     46     11    114      1
+Holmes                       8      0     40      0
+Paine                       56     12    168      5
+Iddon                        7      1     24      0
+
+England 1st innings                                             R   M   B  4 6
+*RES Wyatt            retired hurt                              1          0 0
+DCH Townsend          c Christiani       b Martindale           8            0
+WR Hammond            c Hylton           b Constantine         11            0
+GAE Paine             lbw                b Martindale           0          0 0
+ERT Holmes                               b Martindale           0          0 0
++LEG Ames             c Constantine      b Mudie              126 270     16 0
+EH Hendren            c Barrow           b RS Grant            40            0
+J Iddon               lbw                b Mudie               54            0
+CIJ Smith                                b Constantine         10            0
+K Farnes                                 b Constantine          5            0
+WE Hollies            not out                                   1          0 0
+Extras                (b 4, lb 6, nb 5)                        15
+Total                 (all out, 99.2 overs)                   271
+
+FoW: 1-23 (Townsend), 2-26 (Paine), 3-26 (Holmes),
+     4-26 (Hammond), 5-95 (Hendren), 6-252 (Ames), 7-265 (Smith),
+     8-267 (Iddon), 9-271 (Farnes).
+
+Bowling                      O      M      R      W
+Martindale                  17      1     56      3
+Hylton                      19      1     59      0
+Constantine                 23.2    4     55      3
+Fuller                       6      2     10      0
+RS Grant                    16      1     48      1
+Mudie                       17      7     23      2
+GC Grant                     1      0      5      0
+
+England 2nd innings (following on)                              R   M   B  4 6
+J Iddon               lbw                b Constantine          0          0 0
+DCH Townsend                             b Martindale          11            0
+WR Hammond                               b Martindale          34            0
+EH Hendren            c Constantine      b Mudie               11            0
++LEG Ames             c RS Grant         b Constantine         17            0
+ERT Holmes            lbw                b Sealy                3          0 0
+GAE Paine             not out                                  10            0
+CIJ Smith                                b Martindale           4            0
+K Farnes              c Christiani       b Martindale           0          0 0
+WE Hollies            c Martindale       b Constantine          6            0
+*RES Wyatt            absent hurt                               -
+Extras                (b 4, lb 1, w 2)                          7
+Total                 (all out, 54 overs)                     103
+
+FoW: 1-14 (Iddon), 2-18 (Townsend), 3-45 (Hendren), 4-68 (Ames),
+     5-83 (Holmes), 6-83 (Hammond), 7-89 (Smith), 8-93 (Farnes),
+     9-103 (Hollies).
+
+Bowling                      O      M      R      W
+Martindale                  16      5     28      4
+Hylton                       4      1     11      0
+Constantine                  9      3     13      3
+Fuller                       2      0      2      0
+RS Grant                     9      2     19      0
+Mudie                       12      5     17      1
+Sealy                        2      0      6      1
+
+*** RES Wyatt retired hurt at 2/0
+
+<END>

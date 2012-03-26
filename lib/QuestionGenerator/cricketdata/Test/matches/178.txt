@@ -1,0 +1,133 @@
+
+Test # 178
+The Ashes, 1928/29, 3rd Test
+Australia v England
+Melbourne Cricket Ground
+29,31 December 1928, 1,2,3,4,5 January 1929 (timeless match)
+
+Result: England won by 3 wickets
+Series: England leads the 5-match series 3-0
+
+Toss: Australia
+Umpires: DA Elder and GA Hele
+Test debuts: EL a'Beckett, RK Oxenham (Australia).
+
+Close of play:
+ Day 1: Australia 276/4 (Ryder 111*, Bradman 26*)
+ Day 2: Australia 397, England 47/1 (Sutcliffe 15*, Hammond 12*)
+ Day 3: England 312/4 (Hammond 169*, Jardine 21*)
+ Day 4: England 417, Australia 118/2 (Woodfull 64*, Kippax 34*)
+ Day 5: Australia 347/8 (Oxenham 39*, Grimmett 0*)
+ Day 6: Australia 351, England 171/1 (Sutcliffe 83*, Jardine 18*)
+
+Australia 1st innings                                           R   M   B  4 6
+WM Woodfull           c Jardine          b Tate                 7  29  30  1 0
+VY Richardson         c Duckworth        b Larwood              3   7   4  0 0
+HSTL Hendry           c Jardine          b Larwood             23  72  74  1 0
+AF Kippax             c Jardine          b Larwood            100 213 255 11 0
+*J Ryder              c Hendren          b Tate               112 220 219  7 1
+DG Bradman                               b Hammond             79 194 220  9 0
++WAS Oldfield                            b Geary                3  19  30  0 0
+EL a'Beckett          c Duckworth        b White               41 142 164  6 0
+RK Oxenham                               b Geary               15  50  58  0 0
+CV Grimmett           c Duckworth        b Geary                5  20  24  0 0
+DD Blackie            not out                                   2   6   7  0 0
+Extras                (b 4, lb 3)                               7
+Total                 (all out, 180.5 overs)                  397
+
+FoW: 1-5 (Richardson), 2-15 (Woodfull), 3-57 (Hendry),
+     4-218 (Kippax), 5-282 (Ryder), 6-287 (Oldfield),
+     7-373 (Bradman), 8-383 (a'Beckett), 9-394 (Grimmett),
+     10-397 (Oxenham).
+
+Bowling                      O      M      R      W
+Larwood                     37      3    127      3
+Tate                        46     17     87      2
+Geary                       31.5    4     83      3
+Hammond                      8      4     19      1
+White                       57     30     64      1
+Jardine                      1      0     10      0
+
+England 1st innings                                             R   M   B  4 6
+JB Hobbs              c Oldfield         b a'Beckett           20  33  47  1 0
+H Sutcliffe                              b Blackie             58 199 253  3 0
+WR Hammond            c a'Beckett        b Blackie            200 398 472 17 0
+*APF Chapman                             b Blackie             24  35  40  1 0
+EH Hendren            c a'Beckett        b Hendry              19  38  47  1 0
+DR Jardine                           c & b Blackie             62 194 213  6 0
+H Larwood                            c & b Blackie              0   8  11  0 0
+G Geary               lbw                b Grimmett             1  20  24  0 0
+MW Tate               c Kippax           b Grimmett            21  35  33  2 0
++G Duckworth                             b Blackie              3   6   8  0 0
+JC White              not out                                   8  22  22  0 0
+Extras                (b 1)                                     1
+Total                 (all out, 195 overs)                    417
+
+FoW: 1-28 (Hobbs), 2-161 (Sutcliffe), 3-201 (Chapman),
+     4-238 (Hendren), 5-364 (Hammond), 6-364 (Larwood),
+     7-381 (Geary), 8-385 (Jardine), 9-391 (Duckworth),
+     10-417 (Tate).
+
+Bowling                      O      M      R      W
+a'Beckett                   37      7     92      1
+Hendry                      20      8     35      1
+Grimmett                    55     14    114      2
+Oxenham                     35     11     67      0
+Blackie                     44     13     94      6
+Ryder                        4      0     14      0
+
+Australia 2nd innings                                           R   M   B  4 6
+WM Woodfull           c Duckworth        b Tate               107 271 309  7 0
+VY Richardson                            b Larwood              5   7   7  0 0
+HSTL Hendry           st Duckworth       b White               12  68  73  0 0
+AF Kippax                                b Tate                41  94  99  4 0
+*J Ryder                                 b Geary                5   7  11  1 0
+DG Bradman            c Duckworth        b Geary              112 246 281  7 0
++WAS Oldfield                            b White                7  40  51  1 0
+EL a'Beckett                             b White                6  25  24  0 0
+RK Oxenham                               b White               39 105 103  2 0
+CV Grimmett           not out                                   4  22  23  0 0
+DD Blackie                               b White                0  11  14  0 0
+Extras                (b 6, lb 7)                              13
+Total                 (all out, 165.5 overs)                  351
+
+FoW: 1-7 (Richardson), 2-60 (Hendry), 3-138 (Kippax),
+     4-143 (Ryder), 5-201 (Woodfull), 6-226 (Oldfield),
+     7-252 (a'Beckett), 8-345 (Bradman), 9-351 (Oxenham),
+     10-351 (Blackie).
+
+Bowling                      O      M      R      W
+Larwood                     16      3     37      1
+Tate                        47     15     70      2
+Geary                       30      4     94      2
+Hammond                     16      6     30      0
+White                       56.5   20    107      5
+
+England 2nd innings (target: 332 runs)                          R   M   B  4 6
+JB Hobbs              lbw                b Blackie             49 138 156  1 0
+H Sutcliffe           lbw                b Grimmett           135 384 462 10 0
+DR Jardine                               b Grimmett            33 115 127  3 0
+WR Hammond            run out                                  32  69 104  4 0
+EH Hendren                               b Oxenham             45  71  93  4 0
+*APF Chapman          c Woodfull         b Ryder                5  15  10  0 0
+MW Tate               run out                                   0   6   3  0 0
+G Geary               not out                                   4   4   4  1 0
++G Duckworth          not out                                   0   1   0  0 0
+Extras                (b 15, lb 14)                            29
+Total                 (7 wickets, 159.5 overs)                332
+
+DNB: H Larwood, JC White.
+
+FoW: 1-105 (Hobbs), 2-199 (Jardine), 3-257 (Hammond),
+     4-318 (Sutcliffe), 5-326 (Hendren), 6-328 (Chapman),
+     7-328 (Tate).
+
+Bowling                      O      M      R      W
+a'Beckett                   22      5     39      0
+Hendry                      23      5     33      0
+Grimmett                    42     12     96      2
+Oxenham                     28     10     44      1
+Blackie                     39     11     75      1
+Ryder                        5.5    1     16      1
+
+<END>

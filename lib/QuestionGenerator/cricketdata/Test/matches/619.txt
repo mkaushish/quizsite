@@ -1,0 +1,102 @@
+
+Test # 619
+India in England, 1967, 2nd Test
+England v India
+Lord's, London
+22,23,24,26 June 1967 (5-day match)
+
+Result: England won by an innings and 124 runs
+Series: England leads the 3-match series 2-0
+
+Toss: India
+Umpires: JS Buller and A Jepson
+Batsmen of the match: TW Graveney and BK Kunderan
+Bowlers of the match: BS Chandrasekhar and R Illingworth
+Fielder of the match: JT Murray
+
+Close of play:
+ Day 1: India 152, England 107/2 (Barrington 54*)
+ Day 2: England 252/3 (Graveney 74*, D'Oliveira 27*)
+ Day 3: England 386
+
+India 1st innings                                               R   M   B  4 6
+DN Sardesai           c Murray           b Illingworth         28  91  85  4 0
++FM Engineer          c Murray           b Brown                8  14   9  2 0
+AL Wadekar            c Illingworth      b D'Oliveira          57 133  97  9 0
+CG Borde                                 b Snow                 0   4   3  0 0
+*Nawab of Pataudi jnr c Murray           b Brown                5   5   6  1 0
+RF Surti              c Murray           b D'Oliveira           6  21  22  1 0
+V Subramanya          c Murray           b Brown                0  16  15  0 0
+BK Kunderan           c Murray           b Snow                20  40  37  3 0
+EAS Prasanna          run out                                  17  43  31  3 0
+BS Bedi               c Amiss            b Snow                 5  17  17  1 0
+BS Chandrasekhar      not out                                   2  13  12  0 0
+Extras                (b 2, lb 2)                               4
+Total                 (all out, 55.4 overs)                   152
+
+FoW: 1-12 (Engineer), 2-24 (Borde), 3-29 (Pataudi), 4-45 (Surti),
+     5-58 (Subramanya), 6-102 (Kunderan), 7-112 (Wadekar),
+     8-144 (Sardesai), 9-145 (Prasanna), 10-152 (Bedi).
+
+Bowling                      O      M      R      W
+Snow                        20.4    5     49      3
+Brown                       18      3     61      3
+D'Oliveira                  15      6     38      2
+Illingworth                  2      2      0      1
+
+England 1st innings                                             R   M   B  4 6
+JH Edrich                            c & b Surti               12  53  56  1 0
+KF Barrington                            b Chandrasekhar       97 242 225 10 0
+DL Amiss                                 b Chandrasekhar       29  82  97  4 0
+TW Graveney           st Engineer        b Bedi               151 297 308 20 2
+BL D'Oliveira                        c & b Chandrasekhar       33 126  99  4 0
+*DB Close             c Borde            b Prasanna             7  32  28  1 0
++JT Murray                               b Chandrasekhar        7  45  47  1 0
+R Illingworth         lbw                b Chandrasekhar        4  31  31  1 0
+RNS Hobbs                                b Bedi                 7  13  18  0 1
+DJ Brown              c Pataudi          b Bedi                 5  10   9  1 0
+JA Snow               not out                                   8   7   7  1 0
+Extras                (b 5, lb 18, w 1, nb 2)                  26
+Total                 (all out, 154.2 overs)                  386
+
+FoW: 1-46 (Edrich), 2-107 (Amiss), 3-185 (Barrington),
+     4-307 (D'Oliveira), 5-334 (Close), 6-359 (Graveney),
+     7-365 (Murray), 8-372 (Illingworth), 9-372 (Hobbs),
+     10-386 (Brown).
+
+Bowling                      O      M      R      W
+Surti                       31     10     67      1
+Subramanya                   7      1     20      0
+Chandrasekhar               53      9    127      5
+Bedi                        31.2   13     68      3
+Prasanna                    32      5     78      1
+
+India 2nd innings                                               R   M   B  4 6
++FM Engineer          c Amiss            b Snow                 8  16  13  1 0
+BK Kunderan           lbw                b Illingworth         47 163 164  6 0
+AL Wadekar                               b Illingworth         19  64  69  3 0
+CG Borde              c Snow             b Close                1  13  13  0 0
+*Nawab of Pataudi jnr c Graveney         b Close                5  20  26  1 0
+RF Surti              c D'Oliveira       b Illingworth          0   2   1  0 0
+V Subramanya          c Edrich           b Illingworth          1   6   7  0 0
+EAS Prasanna          c D'Oliveira       b Illingworth          0   4   4  0 0
+BS Bedi                                  b Illingworth         11  27  37  2 0
+BS Chandrasekhar      not out                                   3  10   6  0 0
+DN Sardesai           absent hurt                               -
+Extras                (b 11, lb 4)                             15
+Total                 (all out, 56.3 overs)                   110
+
+FoW: 1-8 (Engineer), 2-60 (Wadekar), 3-67 (Borde),
+     4-79 (Pataudi), 5-80 (Surti), 6-86 (Subramanya),
+     7-90 (Prasanna), 8-101 (Kunderan), 9-110 (Bedi).
+
+Bowling                      O      M      R      W
+Snow                         8      4     12      1
+Brown                        5      2     10      0
+Illingworth                 22.3   12     29      6
+Hobbs                        6      1     16      0
+Close                       15      5     28      2
+
+*** DN Sardesai (1) retired hurt on 9* from 22/1 to 102/6
+
+<END>

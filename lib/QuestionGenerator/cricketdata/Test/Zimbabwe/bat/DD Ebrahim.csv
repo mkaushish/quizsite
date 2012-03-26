@@ -1,0 +1,56 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+1543, 2001-03-19, 2, 2, Bangladesh, c Khaled Mashud, Manjural Islam, 2, 17, 14, 0, 0
+1545, 2001-03-26, 2, 2, Bangladesh, c Akram Khan, Naimur Rahman, 39, 154, 99, 5, 0
+1545, 2001-03-26, 4, 2, Bangladesh, run out (Javed Omar/Mehrab Hossain), , 10, 40, 23, 1, 0
+1548, 2001-05-07, 1, 2, India, run out (Harbhajan Singh), , 12, 86, 60, 1, 0
+1548, 2001-05-07, 3, 2, India, c Dravid, Srinath, 0, 19, 13, 0, 0
+1549, 2001-05-15, 2, 2, India, lbw, Harbhajan Singh, 49, 165, 108, 6, 0
+1549, 2001-05-15, 4, 2, India, c Badani, Harbhajan Singh, 20, 56, 33, 3, 0
+1551, 2001-06-19, 1, 1, West Indies, lbw, Collins, 0, 14, 14, 0, 0
+1551, 2001-06-19, 3, 1, West Indies, lbw, Stuart, 71, 238, 205, 10, 0
+1553, 2001-06-27, 1, 1, West Indies, c Browne, King, 19, 30, 31, 2, 0
+1553, 2001-06-27, 3, 1, West Indies, c Browne, Stuart, 12, 34, 30, 2, 0
+1562, 2001-08-07, 2, 1, South Africa, st Boucher, Henderson, 71, 142, 107, 9, 0
+1562, 2001-08-07, 3, 1, South Africa, lbw, Pollock, 0, 2, 5, 0, 0
+1563, 2001-08-14, 1, 2, South Africa, c Pollock, Henderson, 71, 313, 258, 7, 0
+1563, 2001-08-14, 3, 2, South Africa, , Henderson, 4, 30, 24, 0, 0
+1566, 2001-10-08, 2, 1, Bangladesh, lbw, Manjural Islam, 3, 13, 6, 0, 0
+1568, 2001-10-15, 1, 1, Bangladesh, , Mashrafe Mortaza, 41, 157, 111, 2, 0
+1568, 2001-10-15, 4, 1, Bangladesh, , Mashrafe Mortaza, 0, 3, 5, 0, 0
+1585, 2002-01-12, 2, 8, Sri Lanka, c Arnold, Jayasuriya, 0, 22, 24, 0, 0
+1585, 2002-01-12, 4, 8, Sri Lanka, not out, , 5, 58, 54, 0, 0
+1591, 2002-02-28, 1, 5, India, lbw, Srinath, 94, 304, 203, 10, 0
+1591, 2002-02-28, 3, 5, India, lbw, Kumble, 22, 109, 91, 2, 0
+1625, 2002-10-09, 2, 1, Pakistan, c Inzamam-ul-Haq, Mohammad Sami, 31, 64, 38, 3, 0
+1625, 2002-10-09, 4, 1, Pakistan, , Shoaib Akhtar, 69, 191, 116, 9, 0
+1627, 2002-10-16, 1, 1, Pakistan, lbw, Waqar Younis, 5, 23, 16, 0, 0
+1627, 2002-10-16, 3, 1, Pakistan, lbw, Waqar Younis, 7, 22, 12, 1, 0
+1646, 2003-04-22, 2, 1, England, c McGrath, Butcher, 68, 160, 127, 9, 0
+1646, 2003-04-22, 3, 1, England, c Key, Harmison, 6, 17, 14, 0, 0
+1647, 2003-05-05, 2, 1, England, lbw, Anderson, 6, 19, 14, 1, 0
+1647, 2003-05-05, 3, 1, England, lbw, Harmison, 55, 155, 123, 6, 0
+1661, 2003-09-09, 2, 1, Australia, , Gillespie, 29, 97, 62, 5, 0
+1661, 2003-09-09, 3, 1, Australia, , Gillespie, 4, 26, 26, 0, 0
+1663, 2003-09-17, 1, 1, Australia, , Lee, 9, 19, 12, 2, 0
+1663, 2003-09-17, 3, 1, Australia, c Katich, Williams, 0, 3, 4, 0, 0
+1683, 2004-01-19, 1, 1, Bangladesh, st Khaled Mashud, Mohammad Rafique, 65, 202, 159, 8, 0
+1683, 2004-01-19, 3, 1, Bangladesh, c Hannan Sarkar, Tapash Baisya, 31, 87, 68, 2, 0
+1684, 2004-02-26, 2, 1, Bangladesh, c Hannan Sarkar, Tapash Baisya, 2, 11, 9, 0, 0
+1698, 2004-04-06, 1, 3, Sri Lanka, lbw, Zoysa, 1, 13, 10, 0, 0
+1698, 2004-04-06, 3, 3, Sri Lanka, c HAPW Jayawardene, Zoysa, 2, 11, 8, 0, 0
+1699, 2004-04-14, 1, 4, Sri Lanka, c Dilshan, Maharoof, 70, 205, 172, 12, 0
+1699, 2004-04-14, 3, 4, Sri Lanka, c Atapattu, Jayasuriya, 42, 133, 103, 5, 0
+1735, 2005-01-14, 1, 3, Bangladesh, lbw, Enamul Haque jnr, 12, 68, 64, 1, 0
+1735, 2005-01-14, 3, 3, Bangladesh, lbw, Mashrafe Mortaza, 1, 5, 5, 0, 0
+1737, 2005-02-04, 1, 3, South Africa, , Ntini, 3, 21, 16, 0, 0
+1737, 2005-02-04, 3, 3, South Africa, lbw, Langeveldt, 72, 202, 153, 10, 0
+1740, 2005-02-11, 1, 3, South Africa, , Kallis, 37, 121, 76, 7, 0
+1740, 2005-02-11, 3, 3, South Africa, c Smith, Nel, 1, 18, 10, 0, 0
+1759, 2005-07-07, 2, 3, New Zealand, lbw, Franklin, 0, na, 1, 0, 0
+1759, 2005-07-07, 3, 3, New Zealand, , Martin, 8, na, 24, 1, 0
+1761, 2005-07-15, 1, 1, New Zealand, lbw, Bond, 0, 2, 2, 0, 0
+1761, 2005-07-15, 3, 1, New Zealand, c Styris, Bond, 2, 9, 12, 0, 0
+1765, 2005-08-13, 1, 4, India,                c &, Pathan, 24, na, 82, 2, 0
+1765, 2005-08-13, 3, 4, India, , Pathan, 1, na, 13, 0, 0
+1767, 2005-08-20, 1, 3, India, c Karthik, Khan, 14, na, 32, 1, 0
+1767, 2005-08-20, 3, 3, India, c Yuvraj Singh, Khan, 3, na, 15, 0, 0

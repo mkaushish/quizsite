@@ -1,0 +1,92 @@
+
+Test # 204
+England in South Africa, 1930/31, 3rd Test
+South Africa v England
+Kingsmead, Durban
+16,17,19,20 January 1931 (4-day match)
+
+Result: Match drawn
+Series: South Africa leads the 5-match series 1-0
+
+Toss: South Africa
+Umpires: JC Collings and AC King
+
+Close of play:
+ Day 1: South Africa 59/4 (Siedle 29*, Cameron 4*)
+ Day 2: No play
+ Day 3: South Africa 177, England 130/0 (Wyatt 45*, Hammond 83*)
+
+South Africa 1st innings                                        R   M   B  4 6
+IJ Siedle                                b White               38            0
+B Mitchell            c Duckworth        b Tate                 5            0
+SH Curnow             c Duckworth        b Voce                 2          0 0
+HW Taylor             c Duckworth        b Voce                 3          0 0
+RH Catterall                             b White               11            0
++HB Cameron           c Voce             b Tate                41            0
+*HG Deane                                b Voce                15            0
+Q McMillan            c Wyatt            b White               20            0
+CL Vincent            c Duckworth        b Voce                18            0
+NA Quinn                                 b Voce                 3          0 0
+AJ Bell               not out                                   0          0 0
+Extras                (b 5, lb 8, nb 8)                        21
+Total                 (all out, 97.2 overs)                   177
+
+FoW: 1-14 (Mitchell), 2-23 (Curnow), 3-33 (Taylor),
+     4-51 (Catterall), 5-86 (Siedle), 6-118 (Deane),
+     7-141 (Cameron), 8-161 (McMillan), 9-172 (Quinn),
+     10-177 (Vincent).
+
+Bowling                      O      M      R      W
+Tate                        27     13     33      2
+Allom                       25      4     44      0
+Voce                        29.2    3     58      5
+White                       16      6     21      3
+
+England 1st innings                                             R   M   B  4 6
+RES Wyatt             c Siedle           b Vincent             54 170        0
+WR Hammond            not out                                 136            0
+M Leyland             not out                                  31            1
+Extras                (lb 2)                                    2
+Total                 (1 wicket dec, 82 overs)                223
+
+DNB: EH Hendren, MJL Turnbull, *APF Chapman, JC White, MJC Allom,
+     MW Tate, W Voce, +G Duckworth.
+
+FoW: 1-160 (Wyatt).
+
+Bowling                      O      M      R      W
+Bell                        22      3     45      0
+Catterall                   10      0     37      0
+Quinn                       19      4     42      0
+Vincent                     25      7     66      1
+McMillan                     6      0     31      0
+
+South Africa 2nd innings                                        R   M   B  4 6
+IJ Siedle             lbw                b Tate                 0          0 0
+SH Curnow             c Hammond          b Voce                 9            0
+B Mitchell            c Chapman          b White               13            0
+HW Taylor             not out                                  64 120        0
+RH Catterall                             b Hammond             19            0
++HB Cameron                              b Hammond              8            0
+*HG Deane             c Duckworth        b Allom                8            0
+Q McMillan            c Chapman          b White                1          0 0
+CL Vincent            c sub              b White                5            0
+AJ Bell               not out                                   0          0 0
+Extras                (b 8, lb 8, nb 2)                        18
+Total                 (8 wickets, 70 overs)                   145
+
+DNB: NA Quinn.
+
+FoW: 1-0 (Siedle), 2-27 (Curnow), 3-47 (Mitchell),
+     4-106 (Catterall), 5-116 (Cameron), 6-136 (Deane),
+     7-137 (McMillan), 8-145 (Vincent).
+
+Bowling                      O      M      R      W
+Tate                         9      3     12      1
+Allom                       11      0     27      1
+Voce                        12      3     14      1
+White                       18      4     33      3
+Hammond                     11      6      9      2
+Leyland                      9      1     32      0
+
+<END>

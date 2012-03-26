@@ -1,0 +1,63 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+1728, 2004-11-17, 1, 11, England, c Strauss, Giles, 8, 10, 10, 0, 1
+1728, 2004-11-17, 3, 11, England, not out, , 2, 8, 2, 0, 0
+1730, 2004-11-26, 2, 11, England, not out, , 7, 38, 13, 1, 0
+1734, 2005-01-13, 2, 11, England, not out, , 0, 13, 2, 0, 0
+1734, 2005-01-13, 4, 11, England, c Jones, Hoggard, 8, 33, 17, 2, 0
+1798, 2006-03-15, 1, 10, New Zealand, c Mills, Martin, 13, 59, 45, 2, 0
+1798, 2006-03-15, 3, 10, New Zealand, not out, , 7, 41, 27, 1, 0
+1800, 2006-04-27, 2, 10, New Zealand, st McCullum, Vettori, 13, 58, 40, 2, 0
+1801, 2006-04-05, 2, 10, New Zealand, , Martin, 2, 12, 9, 0, 0
+1810, 2006-06-27, 1, 10, Sri Lanka, , Fernando, 0, 2, 1, 0, 0
+1810, 2006-06-27, 3, 10, Sri Lanka, , Muralitharan, 4, 11, 9, 1, 0
+1812, 2006-07-04, 1, 10, Sri Lanka, c Jayasuriya, Muralitharan, 6, 24, 22, 0, 0
+1812, 2006-07-04, 3, 10, Sri Lanka, lbw, Muralitharan, 0, 10, 7, 0, 0
+1823, 2006-11-15, 2, 11, India, not out, , 0, 3, 1, 0, 0
+1823, 2006-11-15, 4, 10, India, not out, , 6, 42, 24, 0, 0
+1827, 2007-01-02, 2, 10, India, , Kumble, 1, 4, 5, 0, 0
+1830, 2007-01-26, 2, 10, Pakistan, run out (Younis Khan), , 3, 37, 16, 0, 0
+1843, 2007-09-01, 1, 10, Pakistan, , Abdur Rehman, 0, 31, 6, 0, 0
+1844, 2007-09-08, 1, 10, Pakistan, , Danish Kaneria, 0, 13, 5, 0, 0
+1846, 2007-10-08, 1, 10, New Zealand, c McCullum, Martin, 13, 32, 19, 1, 1
+1848, 2007-10-16, 2, 10, New Zealand, c Papps, O'Brien, 25, 55, 40, 2, 1
+1856, 2007-11-26, 2, 10, West Indies, c Powell, Bravo, 7, 17, 9, 1, 0
+1856, 2007-11-26, 4, 10, West Indies, not out, , 33, 47, 26, 3, 2
+1858, 2008-01-02, 2, 10, West Indies, c Morton, Lewis, 19, 51, 27, 2, 0
+1864, 2008-01-22, 2, 10, Bangladesh, , Shahadat Hossain, 7, 28, 22, 1, 0
+1870, 2008-02-26, 1, 10, India, c Singh, Harbhajan Singh, 15, 22, 21, 3, 0
+1873, 2008-03-11, 1, 10, India, c sub (M Kaif), Harbhajan Singh, 0, 8, 5, 0, 0
+1873, 2008-03-11, 3, 10, India, , Harbhajan Singh, 7, 22, 10, 1, 0
+1880, 2008-06-10, 2, 10, England, c Sidebottom, Pietersen, 19, 81, 46, 2, 0
+1881, 2008-06-18, 2, 10, England, not out, , 10, 18, 13, 2, 0
+1893, 2008-10-19, 1, 9, Bangladesh, c Tamim Iqbal, Shakib Al Hasan, 1, 12, 10, 0, 0
+1895, 2008-10-26, 2, 11, Bangladesh, , Shahadat Hossain, 1, 25, 15, 0, 0
+1899, 2008-11-17, 2, 10, Australia, c Haddin, Johnson, 8, 16, 9, 1, 0
+1902, 2008-11-26, 2, 10, Australia, , Siddle, 76, 238, 191, 9, 1
+1904, 2009-01-03, 2, 10, Australia, , Siddle, 6, 8, 10, 1, 0
+1904, 2009-01-03, 4, 9, Australia, lbw, McDonald, 28, 88, 65, 2, 0
+1910, 2009-02-26, 2, 10, Australia, c North, McDonald, 17, 63, 49, 2, 0
+1910, 2009-02-26, 4, 10, Australia, , Johnson, 6, 18, 12, 0, 0
+1913, 2009-02-06, 2, 10, Australia, c Haddin, Siddle, 8, 59, 41, 1, 0
+1913, 2009-02-06, 4, 9, Australia, st Haddin, Katich, 7, 27, 22, 0, 0
+1916, 2009-02-19, 2, 10, Australia, c Clarke, Katich, 0, 3, 4, 0, 0
+1944, 2009-11-26, 1, 10, England, c Prior, Anderson, 47, 66, 58, 3, 3
+1944, 2009-11-26, 3, 10, England, lbw, Swann, 3, 37, 25, 0, 0
+1946, 2010-01-03, 1, 8, England, c Trott, Anderson, 26, 68, 59, 3, 0
+1946, 2010-01-03, 3, 8, England, not out, , 1, 5, 1, 0, 0
+1948, 2010-01-14, 2, 9, England, not out, , 1, 10, 5, 0, 0
+1951, 2010-01-06, 1, 8, India, not out, , 0, 10, 7, 0, 0
+1952, 2010-01-14, 1, 8, India, lbw, Mishra, 5, 47, 37, 0, 0
+1952, 2010-01-14, 3, 8, India, lbw, Harbhajan Singh, 1, 16, 16, 0, 0
+1960, 2010-05-10, 1, 9, West Indies, st Ramdin, Benn, 39, na, 73, 4, 2
+1961, 2010-05-18, 1, 8, West Indies, not out, , 20, na, 41, 0, 1
+1962, 2010-05-26, 2, 10, West Indies, , Roach, 4, na, 10, 1, 0
+1976, 2010-10-12, 1, 10, Pakistan, not out, , 10, 46, 42, 0, 0
+1979, 2010-10-20, 1, 9, Pakistan, c Mohammad Hafeez, Abdur Rehman, 27, 76, 57, 3, 1
+1987, 2010-11-26, 2, 8, India, c Dravid, Harbhajan Singh, 1, 11, 11, 0, 0
+1987, 2010-11-26, 4, 8, India, c Pujara, Khan, 10, 25, 24, 2, 0
+1988, 2011-01-02, 1, 8, India, c Pujara, Khan, 0, 12, 5, 0, 0
+1988, 2011-01-02, 3, 9, India, c sub (M Vijay), Harbhajan Singh, 32, 61, 48, 2, 1
+2016, 2011-10-09, 2, 9, Australia, not out, , 9, 26, 18, 0, 0
+2018, 2011-10-17, 1, 9, Australia, not out, , 15, 33, 31, 1, 1
+2018, 2011-10-17, 3, 9, Australia, c Haddin, Cummins, 41, 98, 64, 2, 3
+2023, 2011-11-15, 2, 3, Sri Lanka, run out (Herath), , 0, 13, 5, 0, 0

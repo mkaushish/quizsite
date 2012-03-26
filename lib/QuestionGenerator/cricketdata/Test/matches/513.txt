@@ -1,0 +1,129 @@
+
+Test # 513
+England in India, 1961/62, 1st Test
+India v England
+Brabourne Stadium, Bombay
+11,12,14,15,16 November 1961 (5-day match)
+
+Result: Match drawn
+Series: 5-match series level 0-0
+
+Toss: England
+Umpires: SK Ganguli and AR Joshi
+Test debut: DR Smith (England).
+
+Close of play:
+ Day 1: England 288/3 (Barrington 52*, Dexter 30*)
+ Day 2: England 500/8d, India 42/0 (Contractor 9*, Manjrekar 18*)
+ Day 3: India 255/4 (Borde 42*, Durani 41*)
+ Day 4: India 390, England 127/3 (Barrington 34*, Dexter 16*)
+
+England 1st innings                                             R   M   B  4 6
+PE Richardson         c Kunderan         b Borde               71 187      7 0
+G Pullar              st Kunderan        b Borde               83 170     10 1
+KF Barrington         not out                                 151 420        0
+MJK Smith             c Kunderan         b Ranjane             36            0
+*ER Dexter                               b Durani              85 185     11 0
+RW Barber             st Kunderan        b Borde               19            0
++JT Murray            c sub              b Ranjane              8            0
+DA Allen              c Kunderan         b Ranjane              0   1   2  0 0
+GAR Lock                                 b Ranjane             23            0
+Extras                (b 7, lb 15, nb 2)                       24
+Total                 (8 wickets dec, 173 overs)              500
+
+DNB: DR Smith, A Brown.
+
+FoW: 1-159 (Pullar), 2-164 (Richardson), 3-228 (MJK Smith),
+     4-389 (Dexter), 5-434 (Barber), 6-458 (Murray),
+     7-458 (Allen), 8-500 (Lock).
+
+Bowling                      O      M      R      W
+Desai                       32      4     85      0
+Ranjane                     21      2     76      4
+Kripal Singh                33      9     64      0
+Kumar                       27      8     70      0
+Durani                      30      5     91      1
+Borde                       30      5     90      3
+
+India 1st innings                                               R   M   B  4 6
+*NJ Contractor                           b Allen               19 137        0
+ML Jaisimha           c Barrington       b Dexter              56         11 0
+VL Manjrekar          c Lock             b Barber              68          6 0
+AG Milkha Singh       c Brown            b Allen                2          0 0
+CG Borde                                 b DR Smith            69 261      9 0
+SA Durani             c Barber           b Allen               71 158     10 2
+AG Kripal Singh       not out                                  38          4 0
++BK Kunderan          lbw                b Lock                 5            0
+RB Desai              c Richardson       b Lock                 1          0 0
+VB Ranjane            c Barber           b Lock                16            0
+VV Kumar                                 b Lock                 0          0 0
+Extras                (b 33, lb 4, nb 8)                       45
+Total                 (all out, 168 overs)                    390
+
+FoW: 1-80 (Contractor), 2-121 (Manjrekar), 3-140 (Milkha Singh),
+     4-173 (Jaisimha), 5-315 (Durani), 6-341 (Borde),
+     7-356 (Kunderan), 8-358 (Desai), 9-383 (Ranjane),
+     10-390 (Kumar).
+
+Bowling                      O      M      R      W
+DR Smith                    31     12     54      1
+Brown                       19      2     64      0
+Dexter                      12      4     25      1
+Barber                      22      5     74      1
+Lock                        45     22     74      4
+Allen                       39     21     54      3
+
+England 2nd innings                                             R   M   B  4 6
+PE Richardson         c Kripal Singh     b Durani              43            0
+RW Barber             run out                                  31            0
+KF Barrington         not out                                  52 130        0
+MJK Smith                                b Durani               0          0 0
+*ER Dexter            c sub              b Ranjane             27            0
++JT Murray                               b Desai                2          0 0
+GAR Lock              not out                                  22            0
+Extras                (b 3, lb 4)                               7
+Total                 (5 wickets dec, 58 overs)               184
+
+DNB: G Pullar, DA Allen, DR Smith, A Brown.
+
+FoW: 1-74 (Barber), 2-93 (Richardson), 3-93 (MJK Smith),
+     4-144 (Dexter), 5-147 (Murray).
+
+Bowling                      O      M      R      W
+Desai                       13      2     39      1
+Ranjane                     13      1     53      1
+Kripal Singh                14      3     33      0
+Durani                      11      1     28      2
+Borde                        7      1     24      0
+
+India 2nd innings (target: 295 runs)                            R   M   B  4 6
+*NJ Contractor        c Allen            b DR Smith             1          0 0
+ML Jaisimha           c Barber           b MJK Smith           51            0
+VL Manjrekar          lbw                b Lock                84            0
+AG Milkha Singh       c Allen            b Richardson          12            0
+CG Borde              not out                                  12            0
+SA Durani                            c & b Richardson           0          0 0
+AG Kripal Singh       not out                                  13            0
+Extras                (b 4, lb 2, nb 1)                         7
+Total                 (5 wickets, 73 overs)                   180
+
+DNB: +BK Kunderan, RB Desai, VB Ranjane, VV Kumar.
+
+FoW: 1-5 (Contractor), 2-136 (Jaisimha), 3-140 (Manjrekar),
+     4-162 (Milkha Singh), 5-162 (Durani).
+
+Bowling                      O      M      R      W
+DR Smith                     7      2     18      1
+Brown                        5      0     15      0
+Dexter                       4      0     15      0
+Barber                      13      2     42      0
+Lock                        16      9     33      1
+Allen                       11      5     12      0
+Barrington                   3      0     18      0
+MJK Smith                    8      3     10      1
+Richardson                   6      3     10      2
+
+*** ML Jaisimha (1) retired hurt on 0* from 0/0 to 80/1 (struck on the head
+    by Brown)
+
+<END>

@@ -1,0 +1,122 @@
+
+Test # 244
+South Africa in England, 1935, 3rd Test
+England v South Africa
+Headingley, Leeds
+13,15,16 July 1935 (3-day match)
+
+Result: Match drawn
+Series: South Africa leads the 5-match series 1-0
+
+Toss: England
+Umpires: F Chester and JW Hitch
+Test debuts: W Barber, J Hardstaff jnr, JM Sims, D Smith (England).
+
+Close of play:
+ Day 1: England 216, South Africa 26/1 (Siedle 14*, Rowan 3*)
+ Day 2: South Africa 171, England 177/3 (Hammond 15*, Wyatt 14*)
+
+England 1st innings                                             R   M   B  4 6
+*RES Wyatt            c Cameron          b Crisp                0   2   3  0 0
+D Smith               c Cameron          b Vincent             36  90        0
+W Barber              c Bell             b Langton             24            0
+WR Hammond            lbw                b Vincent             63 120        0
+A Mitchell            c Mitchell         b Langton             58 180        0
+J Hardstaff jnr                      c & b Vincent             10            0
++LEG Ames                                b Vincent              0          0 0
+MS Nichols            lbw                b Langton              4            0
+JM Sims                                  b Langton             12            0
+H Verity              c Cameron          b Crisp                1          0 0
+WE Bowes              not out                                   0          0 0
+Extras                (b 2, lb 6)                               8
+Total                 (all out, 93.5 overs)                   216
+
+FoW: 1-0 (Wyatt), 2-52 (Barber), 3-78 (Smith), 4-147 (Hammond),
+     5-177 (Hardstaff), 6-177 (Ames), 7-188 (Nichols),
+     8-215 (Mitchell), 9-216 (Sims), 10-216 (Verity).
+
+Bowling                      O      M      R      W
+Crisp                       13.5    3     26      2
+Bell                        16      3     48      0
+Langton                     26      5     59      4
+Vincent                     32     12     45      4
+Mitchell                     6      0     30      0
+
+South Africa 1st innings                                        R   M   B  4 6
+IJ Siedle             run out                                  33            0
+B Mitchell            lbw                b Hammond              8            0
+EAB Rowan             c Hammond          b Bowes               62 210        0
+KG Viljoen            c Smith            b Wyatt               19            0
+*HF Wade              c Mitchell         b Verity               3          0 0
++HB Cameron           lbw                b Nichols              9            0
+EL Dalton                                b Bowes                4            0
+CL Vincent            c Barber           b Verity               0          0 0
+ACB Langton                              b Nichols              0          0 0
+RJ Crisp              c Hammond          b Nichols             18            0
+AJ Bell               not out                                   3          0 0
+Extras                (b 8, lb 3, nb 1)                        12
+Total                 (all out, 87.4 overs)                   171
+
+FoW: 1-21 (Mitchell), 2-65 (Siedle), 3-120 (Viljoen),
+     4-123 (Wade), 5-141 (Cameron), 6-149 (Dalton),
+     7-150 (Vincent), 8-150 (Rowan), 9-150 (Langton),
+     10-171 (Crisp).
+
+Bowling                      O      M      R      W
+Bowes                       29      5     62      2
+Nichols                     21.4    4     58      3
+Hammond                     12      6     13      1
+Sims                         9      4     20      0
+Verity                      12      9      5      2
+Wyatt                        4      3      1      1
+
+England 2nd innings                                             R   M   B  4 6
+A Mitchell            c Viljoen          b Vincent             72            0
+D Smith                                  b Vincent             57            0
+W Barber              c Dalton           b Vincent             14            0
+WR Hammond            not out                                  87 105     14 1
+*RES Wyatt            c Vincent          b Bell                44            0
+J Hardstaff jnr                          b Bell                 0          0 0
++LEG Ames                                b Bell                13            0
+MS Nichols                               b Vincent              2          0 0
+Extras                (b 1, lb 4)                               5
+Total                 (7 wickets dec, 79.3 overs)             294
+
+DNB: JM Sims, H Verity, WE Bowes.
+
+FoW: 1-128 (Mitchell), 2-139 (Smith), 3-148 (Barber),
+     4-277 (Wyatt), 5-277 (Hardstaff), 6-291 (Ames),
+     7-294 (Nichols).
+
+Bowling                      O      M      R      W
+Crisp                       11      1     52      0
+Bell                        14      4     38      3
+Langton                     31      8     95      0
+Vincent                     23.3    3    104      4
+
+South Africa 2nd innings (target: 340 runs)                     R   M   B  4 6
+IJ Siedle             c Hammond          b Bowes               21            0
+B Mitchell                               b Hammond             58 165        0
+EAB Rowan                                b Bowes                5            0
+KG Viljoen                               b Sims                 9            0
+*HF Wade              not out                                  32            0
++HB Cameron           st Ames            b Barber              49            1
+Extras                (b 14, lb 4, w 1, nb 1)                  20
+Total                 (5 wickets, 95.2 overs)                 194
+
+DNB: EL Dalton, CL Vincent, ACB Langton, RJ Crisp, AJ Bell.
+
+FoW: 1-53 (Siedle), 2-61 (Rowan), 3-91 (Viljoen),
+     4-111 (Mitchell), 5-194 (Cameron).
+
+Bowling                      O      M      R      W
+Bowes                       19      9     31      2
+Nichols                     22      5     65      0
+Hammond                      7      4     10      1
+Sims                        27     13     48      1
+Verity                      13     11      4      0
+Wyatt                        6      2     12      0
+Mitchell                     1      0      4      0
+Barber                       0.2    0      0      1
+
+<END>

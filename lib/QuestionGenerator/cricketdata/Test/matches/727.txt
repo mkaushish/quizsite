@@ -1,0 +1,101 @@
+
+Test # 727
+The Wisden Trophy, 1973, 3rd Test
+England v West Indies
+Lord's, London
+23,24,25,27 August 1973 (5-day match)
+
+Result: West Indies won by an innings and 226 runs
+Series: West Indies wins the 3-match series 2-0
+
+Toss: West Indies
+Umpires: HD Bird and CS Elliott
+
+Close of play:
+ Day 1: West Indies 335/4 (Kanhai 156*, Sobers 31*)
+ Day 2: West Indies 652/8d, England 88/3 (Amiss 32*, Fletcher 30*)
+ Day 3: England 233, England 42/3 (Luckhurst 2*)
+
+West Indies 1st innings                                         R   M   B  4 6
+RC Fredericks         c Underwood        b Willis              51  96  77  9 0
++DL Murray                               b Willis               4  23  19  0 0
+*RB Kanhai            c Greig            b Willis             157 339 280 21 0
+CH Lloyd                             c & b Willis              63 134 114  7 1
+AI Kallicharran       c Arnold           b Illingworth         14  40  48  1 0
+GS Sobers             not out                                 150 288 227 19 0
+MLC Foster            c Willis           b Greig                9  57  44  1 0
+BD Julien                            c & b Greig              121 171 143 18 2
+KD Boyce              c Amiss            b Greig               36  50  46  6 0
+VA Holder             not out                                  23  21  25  3 1
+Extras                (b 1, lb 14, w 1, nb 8)                  24
+Total                 (8 wickets dec, 168.4 overs)            652
+
+DNB: LR Gibbs.
+
+FoW: 1-8 (Murray), 2-87 (Fredericks), 3-225 (Lloyd),
+     4-256 (Kallicharran), 5-339 (Kanhai), 6-373 (Foster),
+     7-604 (Julien), 8-610 (Boyce).
+
+Bowling                      O      M      R      W
+Arnold                      35      6    111      0
+Willis                      35      3    118      4
+Greig                       33      2    180      3
+Underwood                   34      6    105      0
+Illingworth                 31.4    3    114      1
+
+England 1st innings                                             R   M   B  4 6
+G Boycott             c Kanhai           b Holder               4  10   8  1 0
+DL Amiss              c Sobers           b Holder              35 104  74  5 0
+BW Luckhurst          c Murray           b Boyce                1   7   6  0 0
+FC Hayes              c Fredericks       b Holder               8  14   6  2 0
+KWR Fletcher          c Sobers           b Gibbs               68 159 129  7 0
+AW Greig              c Sobers           b Boyce               44 109  91  6 0
+*R Illingworth        c Sobers           b Gibbs                0   1   1  0 0
++APE Knott            c Murray           b Boyce               21  53  51  2 0
+GG Arnold             c Murray           b Boyce                5  14  11  0 0
+RGD Willis            not out                                   5  58  56  0 0
+DL Underwood          c Gibbs            b Holder              12  34  28  1 0
+Extras                (b 6, lb 4, w 3, nb 17)                  30
+Total                 (all out, 73 overs)                     233
+
+FoW: 1-5 (Boycott), 2-7 (Luckhurst), 3-29 (Hayes), 4-97 (Amiss),
+     5-176 (Fletcher), 6-176 (Illingworth), 7-187 (Greig),
+     8-205 (Arnold), 9-213 (Knott), 10-233 (Underwood).
+
+Bowling                      O      M      R      W
+Holder                      15      3     56      4
+Boyce                       20      7     50      4
+Julien                      11      4     26      0
+Gibbs                       18      3     39      2
+Sobers                       8      0     30      0
+Foster                       1      0      2      0
+
+England 2nd innings (following on)                              R   M   B  4 6
+G Boycott             c Kallicharran     b Boyce               15  84  52  1 0
+DL Amiss              c Sobers           b Boyce               10  62  45  1 0
++APE Knott            c Murray           b Boyce                5   8  11  0 0
+BW Luckhurst          c Sobers           b Julien              12  64  50  2 0
+FC Hayes              c Holder           b Boyce                0  18  14  0 0
+KWR Fletcher          not out                                  86 175 132 12 0
+AW Greig              lbw                b Julien              13  26  19  2 0
+*R Illingworth        c Kanhai           b Gibbs               13  35  31  2 0
+GG Arnold             c Fredericks       b Gibbs                1  12  11  0 0
+RGD Willis            c Fredericks       b Julien               0   4   6  0 0
+DL Underwood                             b Gibbs               14  53  38  1 0
+Extras                (b 9, w 1, nb 14)                        24
+Total                 (all out, 65.3 overs)                   193
+
+FoW: 1-32 (Amiss), 2-38 (Knott), 3-42 (Boycott), 4-49 (Hayes),
+     5-63 (Luckhurst), 6-87 (Greig), 7-132 (Illingworth),
+     8-143 (Arnold), 9-146 (Willis), 10-193 (Underwood).
+
+Bowling                      O      M      R      W
+Holder                      14      4     18      0
+Boyce                       16      5     49      4
+Julien                      18      2     69      3
+Gibbs                       13.3    3     26      3
+Sobers                       4      1      7      0
+
+*** GS Sobers (1) retired hurt on 132* from 528/6 to 604/7
+
+<END>

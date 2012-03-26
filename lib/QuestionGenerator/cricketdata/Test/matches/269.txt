@@ -1,0 +1,96 @@
+
+Test # 269
+England in South Africa, 1938/39, 3rd Test
+South Africa v England
+Kingsmead, Durban
+20,21,23 January 1939 (4-day match)
+
+Result: England won by an innings and 13 runs
+Series: England leads the 5-match series 1-0
+
+Toss: England
+Umpires: RGA Ashman and GL Sickler
+Balls per over: 8
+
+Close of play:
+ Day 1: England 373/2 (Paynter 197*, Hammond 99*)
+ Day 2: England 469/4d, South Africa 103, South Africa 73/1 (Mitchell 53*, Rowan 7*)
+
+England 1st innings                                             R   M   B  4 6
+L Hutton              lbw                b Gordon              31  40        0
+PA Gibb               c Wade             b Davies              38 144      2 0
+E Paynter             c Melville         b Langton            243 334     24 0
+*WR Hammond           c Mitchell         b Gordon             120 178     16 0
++LEG Ames             not out                                  27  50        0
+Extras                (b 5, lb 4, nb 1)                        10
+Total                 (4 wickets dec, 88.5 overs)             469
+
+DNB: WJ Edrich, BH Valentine, H Verity, DVP Wright, K Farnes,
+     LL Wilkinson.
+
+FoW: 1-38 (Hutton), 2-153 (Gibb), 3-395 (Hammond),
+     4-469 (Paynter).
+
+Bowling                      O      M      R      W
+Davies                      15      0    106      1
+Langton                     23.5    0    107      1
+Gordon                      29      0    127      2
+Mitchell                     8      0     45      0
+Dalton                      13      0     74      0
+
+South Africa 1st innings                                        R   M   B  4 6
+B Mitchell            c Ames             b Edrich              30  80        0
+PGV van der Bijl      run out                                  28            0
+EAB Rowan             lbw                b Wright               4            0
+AD Nourse             c Hammond          b Farnes               0          0 0
+KG Viljoen            c Hammond          b Wright               2  40      0 0
+EL Dalton                                b Wilkinson           12            0
++WW Wade              c Hammond          b Farnes              14            0
+*A Melville           not out                                   5            0
+ACB Langton           c Hutton           b Farnes               0   1   1  0 0
+N Gordon                                 b Farnes               1          0 0
+EQ Davies             lbw                b Wilkinson            2          0 0
+Extras                (b 1, lb 3, w 1)                          5
+Total                 (all out, 45.5 overs)                   103
+
+FoW: 1-60 (Mitchell), 2-61 (van der Bijl), 3-65 (Nourse),
+     4-65 (Rowan), 5-79 (Dalton), 6-87 (Viljoen), 7-98 (Wade),
+     8-98 (Langton), 9-100 (Gordon), 10-103 (Davies).
+
+Bowling                      O      M      R      W
+Farnes                      13      1     29      4
+Hammond                      2      1      2      0
+Wright                      12      1     37      2
+Verity                       8      4      9      0
+Edrich                       4      0      9      1
+Wilkinson                    6.5    2     12      2
+
+South Africa 2nd innings (following on)                         R   M   B  4 6
+B Mitchell            c Ames             b Farnes             109 190     14 0
+PGV van der Bijl                         b Verity              13            0
+EAB Rowan             c Ames             b Hammond             67 208      0 0
+AD Nourse             c Ames             b Edrich              27            0
+KG Viljoen            c Hammond          b Farnes              61 105      9 0
+*A Melville                              b Wilkinson           10  44        0
+EL Dalton             c Hammond          b Verity               8            0
++WW Wade              lbw                b Farnes              28            0
+ACB Langton                              b Wilkinson           12            0
+N Gordon              c Edrich           b Verity               0          0 0
+EQ Davies             not out                                   2          0 0
+Extras                (b 7, lb 9)                              16
+Total                 (all out, 114.2 overs)                  353
+
+FoW: 1-46 (van der Bijl), 2-165 (Mitchell), 3-223 (Rowan),
+     4-247 (Nourse), 5-282 (Melville), 6-306 (Viljoen),
+     7-308 (Dalton), 8-345 (Langton), 9-346 (Gordon),
+     10-353 (Wade).
+
+Bowling                      O      M      R      W
+Farnes                      28.2    8     80      3
+Hammond                      3      0     11      1
+Wright                      15      2     56      0
+Verity                      35     10     71      3
+Edrich                       7      2     16      1
+Wilkinson                   26      4    103      2
+
+<END>

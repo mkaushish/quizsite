@@ -1,0 +1,101 @@
+
+Test # 709
+England in India, 1972/73, 4th Test
+India v England
+Green Park, Kanpur
+25,27,28,29,30 January 1973 (5-day match)
+
+Result: Match drawn
+Series: India leads the 5-match series 2-1
+
+Toss: India
+Umpires: MV Gothoskar and J Reuben
+Test debuts: J Birkenshaw, GRJ Roope (England).
+
+Close of play:
+ Day 1: India 168/2 (Wadekar 41*, Viswanath 24*)
+ Day 2: India 332/7 (Abid Ali 20*, Prasanna 0*)
+ Day 3: India 357, England 198/3 (Lewis 86*, Fletcher 28*)
+ Day 4: England 390/7 (Birkenshaw 59*, Arnold 45*)
+
+India 1st innings                                               R   M   B  4 6
+CPS Chauhan           c Old              b Underwood           22 173 116  1 0
+SM Gavaskar           c Greig            b Birkenshaw          69 231 183 10 0
+*AL Wadekar           c Fletcher         b Greig               90 322 222  9 1
+GR Viswanath          c Denness          b Old                 25 109  91  3 0
+Mansur Ali Khan       lbw                b Arnold              54 230 185  7 1
+ED Solkar                                b Underwood           10  96  62  0 0
++FM Engineer                             b Underwood           15  72  45  1 0
+S Abid Ali                               b Old                 41 100  76  4 0
+EAS Prasanna          c Knott            b Old                  0  21  18  0 0
+BS Bedi               not out                                   4  28  20  0 0
+BS Chandrasekhar                         b Old                  0   2   3  0 0
+Extras                (b 1, lb 9, nb 17)                       27
+Total                 (all out, 167 overs)                    357
+
+FoW: 1-85 (Chauhan), 2-109 (Gavaskar), 3-179 (Viswanath),
+     4-265 (Wadekar), 5-292 (Mansur Ali Khan), 6-296 (Solkar),
+     7-326 (Engineer), 8-345 (Prasanna), 9-357 (Abid Ali),
+     10-357 (Chandrasekhar).
+
+Bowling                      O      M      R      W
+Arnold                      35     10     72      1
+Old                         24      5     69      4
+Underwood                   51     20     90      3
+Greig                       29     11     40      1
+Gifford                      8      2     17      0
+Birkenshaw                  20      6     42      1
+
+England 1st innings                                             R   M   B  4 6
+MH Denness            c Abid Ali         b Chandrasekhar       31  92  81  4 0
+GRJ Roope             c Abid Ali         b Chandrasekhar       11  71  63  0 0
++APE Knott            c Gavaskar         b Prasanna            40  98  95  5 0
+*AR Lewis                                b Abid Ali           125 267 228 16 1
+KWR Fletcher          c Chandrasekhar    b Bedi                58 210 179  9 0
+AW Greig              c Chauhan          b Bedi                 8  64  50  1 0
+J Birkenshaw          c Abid Ali         b Chandrasekhar       64 229 179  3 0
+CM Old                lbw                b Chandrasekhar        4  28  34  0 0
+GG Arnold                                b Bedi                45 160 130  6 0
+DL Underwood          not out                                   0   3   2  0 0
+N Gifford             absent hurt                               -
+Extras                (b 1, lb 8, w 1, nb 1)                   11
+Total                 (all out, 172.5 overs)                  397
+
+FoW: 1-37 (Roope), 2-48 (Denness), 3-118 (Knott), 4-262 (Lewis),
+     5-274 (Fletcher), 6-288 (Greig), 7-301 (Old),
+     8-397 (Birkenshaw), 9-397 (Arnold).
+
+Bowling                      O      M      R      W
+Abid Ali                    22      3     55      1
+Solkar                       5      0     14      0
+Bedi                        68.5   15    134      3
+Chandrasekhar               41     12     86      4
+Prasanna                    34      4     87      1
+Viswanath                    2      0     10      0
+
+India 2nd innings                                               R   M   B  4 6
+CPS Chauhan           c Roope            b Arnold               1  32  24  0 0
+SM Gavaskar           c sub              b Underwood           24  80  46  4 0
+*AL Wadekar                          c & b Underwood            9  64  48  0 0
+GR Viswanath          not out                                  75 240 206 10 0
++FM Engineer          c Old              b Birkenshaw           2  10  14  0 0
+ED Solkar             c Greig            b Birkenshaw          26  82  70  5 0
+S Abid Ali                               b Greig               36 106  83  6 0
+EAS Prasanna          not out                                   2  20  16  0 0
+Extras                (b 5, lb 4, nb 2)                        11
+Total                 (6 wickets, 84 overs)                   186
+
+DNB: Mansur Ali Khan, BS Bedi, BS Chandrasekhar.
+
+FoW: 1-8 (Chauhan), 2-33 (Gavaskar), 3-36 (Wadekar),
+     4-39 (Engineer), 5-103 (Solkar), 6-181 (Abid Ali).
+
+Bowling                      O      M      R      W
+Arnold                       7      3     15      1
+Old                         11      3     28      0
+Underwood                   26     11     46      2
+Greig                       10      7      6      1
+Birkenshaw                  25      5     66      2
+Roope                        5      1     14      0
+
+<END>

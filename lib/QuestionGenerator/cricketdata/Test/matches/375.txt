@@ -1,0 +1,124 @@
+
+Test # 375
+The Ashes, 1953, 4th Test
+England v Australia
+Headingley, Leeds
+23,24,25,27,28 July 1953 (5-day match)
+
+Result: Match drawn
+Series: 5-match series level 0-0
+
+Toss: Australia
+Umpires: F Chester and FS Lee
+
+Close of play:
+ Day 1: England 142/7 (Evans 18*, Lock 5*)
+ Day 2: England 167, Australia 266
+ Day 3: England 62/1 (Edrich 33*, Graveney 3*)
+ Day 4: England 177/5 (Compton 60*, Bailey 4*)
+
+England 1st innings                                             R   M   B  4 6
+*L Hutton                                b Lindwall             0   1   2  0 0
+WJ Edrich             lbw                b Miller              10  79      1 0
+TW Graveney           c Benaud           b Miller              55 223      3 0
+DCS Compton           c Davidson         b Lindwall             0  10      0 0
+W Watson                                 b Lindwall            24 165      1 0
+RT Simpson            c Langley          b Lindwall            15            0
+TE Bailey             run out                                   7            0
++TG Evans             lbw                b Lindwall            25  90        0
+JC Laker              c Lindwall         b Archer              10  43        0
+GAR Lock                                 b Davidson             9  77        0
+AV Bedser             not out                                   0          0 0
+Extras                (b 8, lb 4)                              12
+Total                 (all out, 109.4 overs)                  167
+
+FoW: 1-0 (Hutton), 2-33 (Edrich), 3-36 (Compton),
+     4-98 (Graveney), 5-108 (Watson), 6-110 (Bailey),
+     7-133 (Laker), 8-149 (Evans), 9-167 (Simpson),
+     10-167 (Lock).
+
+Bowling                      O      M      R      W
+Lindwall                    35     10     54      5
+Miller                      28     13     39      2
+Davidson                    20.4    7     23      1
+Archer                      18      4     27      1
+Benaud                       8      1     12      0
+
+Australia 1st innings                                           R   M   B  4 6
+*AL Hassett           c Lock             b Bedser              37  80        0
+AR Morris             c Lock             b Bedser              10  35        0
+RN Harvey             lbw                b Bailey              71 150      9 0
+KR Miller             c Edrich           b Bailey               5            0
+GB Hole               c Lock             b Bedser              53 120      6 0
+JH de Courcy          lbw                b Lock                10          2 0
+R Benaud                                 b Bailey               7            0
+AK Davidson           c Evans            b Bedser               2          0 0
+RG Archer             not out                                  31            0
+RR Lindwall                              b Bedser               9   9      2 0
++GRA Langley          c Hutton           b Bedser              17  37        0
+Extras                (b 4, lb 8, w 2)                         14
+Total                 (all out, 82.5 overs)                   266
+
+FoW: 1-27 (Morris), 2-70 (Hassett), 3-84 (Miller),
+     4-168 (Harvey), 5-183 (de Courcy), 6-203 (Benaud),
+     7-203 (Hole), 8-208 (Davidson), 9-218 (Lindwall),
+     10-266 (Langley).
+
+Bowling                      O      M      R      W
+Bedser                      28.5    2     95      6
+Bailey                      22      4     71      3
+Lock                        23      9     53      1
+Laker                        9      1     33      0
+
+England 2nd innings                                             R   M   B  4 6
+*L Hutton             c Langley          b Archer              25            0
+WJ Edrich             c de Courcy        b Lindwall            64 245     10 0
+TW Graveney                              b Lindwall             3          0 0
+DCS Compton           lbw                b Lindwall            61 280        0
+W Watson              c Davidson         b Miller              15  72        0
+RT Simpson            c de Courcy        b Miller               0   4   1  0 0
+TE Bailey             c Hole             b Davidson            38 261        0
++TG Evans             c Lindwall         b Miller               1  20      0 0
+JC Laker              c Benaud           b Davidson            48 115      6 0
+GAR Lock              c Morris           b Miller               8  40      1 0
+AV Bedser             not out                                   3  45      0 0
+Extras                (b 1, lb 8)                               9
+Total                 (all out, 177.3 overs)                  275
+
+FoW: 1-57 (Hutton), 2-62 (Graveney), 3-139 (Edrich),
+     4-167 (Watson), 5-171 (Simpson), 6-182 (Evans),
+     7-239 (Bailey), 8-244 (Compton), 9-258 (Lock),
+     10-275 (Laker).
+
+Bowling                      O      M      R      W
+Lindwall                    54     19    104      3
+Miller                      47     19     63      4
+Davidson                    29.3   15     36      2
+Archer                      25     12     31      1
+Benaud                      19      8     26      0
+Hole                         3      1      6      0
+
+Australia 2nd innings (target: 177 runs)                        R   M   B  4 6
+*AL Hassett                              b Lock                 4            0
+AR Morris             st Evans           b Laker               38  38        0
+GB Hole               c Graveney         b Bailey              33            0
+RN Harvey             lbw                b Bedser              34  31        0
+AK Davidson           not out                                  17            0
+JH de Courcy          not out                                  13            1
+Extras                (b 3, lb 4, w 1)                          8
+Total                 (4 wickets, 33 overs)                   147
+
+DNB: KR Miller, R Benaud, RG Archer, RR Lindwall, +GRA Langley.
+
+FoW: 1-27 (Hassett), 2-54 (Morris), 3-111 (Harvey), 4-117 (Hole).
+
+Bowling                      O      M      R      W
+Bedser                      17      1     65      1
+Bailey                       6      1      9      1
+Lock                         8      1     48      1
+Laker                        2      0     17      1
+
+*** RT Simpson (1) retired hurt on 2* from 101/4 to 149/8
+*** DCS Compton (2) retired hurt on 60* from 177/5 to 239/7
+
+<END>

@@ -1,0 +1,100 @@
+
+Test # 234
+The Ashes, 1934, 2nd Test
+England v Australia
+Lord's, London
+22,23,25 June 1934 (4-day match)
+
+Result: England won by an innings and 38 runs
+Series: 5-match series level 1-1
+
+Toss: England
+Umpires: F Chester and J Hardstaff snr
+
+Close of play:
+ Day 1: England 293/5 (Leyland 95*, Ames 44*)
+ Day 2: England 440, Australia 192/2 (Brown 103*, McCabe 24*)
+
+England 1st innings                                             R   M   B  4 6
+CF Walters            c Bromley          b O'Reilly            82 170 203    0
+H Sutcliffe           lbw                b Chipperfield        20 105 123    0
+WR Hammond                           c & b Chipperfield         2       5  0 0
+EH Hendren            c McCabe           b Wall                13      15    0
+*RES Wyatt            c Oldfield         b Chipperfield        33      98    0
+M Leyland                                b Wall               109 211 252 14 1
++LEG Ames             c Oldfield         b McCabe             120 262 325 14 0
+G Geary               c Chipperfield     b Wall                 9  55  49  1 0
+H Verity              st Oldfield        b Grimmett            29      89    0
+K Farnes                                 b Wall                 1       7  0 0
+WE Bowes              not out                                  10  45  25    0
+Extras                (lb 12)                                  12
+Total                 (all out, 198.3 overs)                  440
+
+FoW: 1-70 (Sutcliffe), 2-78 (Hammond), 3-99 (Hendren),
+     4-130 (Walters), 5-182 (Wyatt), 6-311 (Leyland),
+     7-359 (Geary), 8-409 (Ames), 9-410 (Farnes),
+     10-440 (Verity).
+
+Bowling                      O      M      R      W
+Wall                        49      7    108      4
+McCabe                      18      3     38      1
+Grimmett                    53.3   13    102      1
+O'Reilly                    38     15     70      1
+Chipperfield                34     10     91      3
+Darling                      6      2     19      0
+
+Australia 1st innings                                           R   M   B  4 6
+*WM Woodfull                             b Bowes               22      91    0
+WA Brown              c Ames             b Bowes              105 199 202 14 0
+DG Bradman                           c & b Verity              36  46  37  7 0
+SJ McCabe             c Hammond          b Verity              34      88    0
+LS Darling            c Sutcliffe        b Verity               0       5  0 0
+AG Chipperfield       not out                                  37     119    0
+EH Bromley            c Geary            b Verity               4       9    0
++WAS Oldfield         c Sutcliffe        b Verity              23      58    0
+CV Grimmett                              b Bowes                9      27    0
+WJ O'Reilly                              b Verity               4      16    0
+TW Wall               lbw                b Verity               0       2  0 0
+Extras                (b 1, lb 9)                              10
+Total                 (all out, 109 overs)                    284
+
+FoW: 1-68 (Woodfull), 2-141 (Bradman), 3-203 (Brown),
+     4-204 (Darling), 5-205 (McCabe), 6-218 (Bromley),
+     7-258 (Oldfield), 8-273 (Grimmett), 9-284 (O'Reilly),
+     10-284 (Wall).
+
+Bowling                      O      M      R      W
+Farnes                      12      3     43      0
+Bowes                       31      5     98      3
+Geary                       22      4     56      0
+Verity                      36     15     61      7
+Hammond                      4      1      6      0
+Leyland                      4      1     10      0
+
+Australia 2nd innings (following on)                            R   M   B  4 6
+*WM Woodfull          c Hammond          b Verity              43 120 118    0
+WA Brown              c Walters          b Bowes                2      14  0 0
+SJ McCabe             c Hendren          b Verity              19      56    0
+DG Bradman            c Ames             b Verity              13  28  27    0
+LS Darling                               b Hammond             10      25    0
+AG Chipperfield       c Geary            b Verity              14      35    0
+EH Bromley                           c & b Verity               1       3  0 0
++WAS Oldfield         lbw                b Verity               0       4  0 0
+CV Grimmett           c Hammond          b Verity               0       1  0 0
+WJ O'Reilly           not out                                   8      30    0
+TW Wall               c Hendren          b Verity               1      10  0 0
+Extras                (b 6, nb 1)                               7
+Total                 (all out, 53.3 overs)                   118
+
+FoW: 1-10 (Brown), 2-43 (McCabe), 3-57 (Bradman),
+     4-94 (Woodfull), 5-94 (Darling), 6-95 (Bromley),
+     7-95 (Oldfield), 8-95 (Grimmett), 9-112 (Chipperfield),
+     10-118 (Wall).
+
+Bowling                      O      M      R      W
+Farnes                       4      2      6      0
+Bowes                       14      4     24      1
+Verity                      22.3    8     43      8
+Hammond                     13      0     38      1
+
+<END>

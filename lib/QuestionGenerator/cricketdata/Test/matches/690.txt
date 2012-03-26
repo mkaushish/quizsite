@@ -1,0 +1,129 @@
+
+Test # 690
+India in England, 1971, 1st Test
+England v India
+Lord's, London
+22,23,24,26,27 July 1971 (5-day match)
+
+Result: Match drawn
+Series: 3-match series level 0-0
+
+Toss: England
+Umpires: DJ Constant and CS Elliott
+
+Close of play:
+ Day 1: England 252/8 (Snow 51*, Gifford 4*)
+ Day 2: England 304, India 179/5 (Viswanath 24*, Solkar 0*)
+ Day 3: India 313
+ Day 4: England 145/5 (Knott 17*)
+
+England 1st innings                                             R   M   B  4 6
+G Boycott             c Engineer         b Abid Ali             3  32  26  0 0
+BW Luckhurst          c Solkar           b Chandrasekhar       30  81  72  5 0
+JH Edrich             c Venkataraghavan  b Bedi                18  62  49  0 0
+DL Amiss              c Engineer         b Bedi                 9  53  53  1 0
+BL D'Oliveira         c Solkar           b Chandrasekhar        4   8  11  1 0
++APE Knott            c Wadekar          b Venkataraghavan     67 126 135  9 1
+*R Illingworth        c Engineer         b Bedi                33 127 132  4 0
+RA Hutton                                b Venkataraghavan     20  82  96  1 0
+JA Snow               c Abid Ali         b Chandrasekhar       73 143 132  6 0
+N Gifford                                b Bedi                17 109 112  2 0
+JSE Price             not out                                   5  18  25  0 0
+Extras                (b 8, lb 12, nb 5)                       25
+Total                 (all out, 139.3 overs)                  304
+
+FoW: 1-18 (Boycott), 2-46 (Luckhurst), 3-56 (Edrich),
+     4-61 (D'Oliveira), 5-71 (Amiss), 6-161 (Knott),
+     7-183 (Illingworth), 8-223 (Hutton), 9-294 (Snow),
+     10-304 (Gifford).
+
+Bowling                      O      M      R      W
+Abid Ali                    15      3     38      1
+Solkar                       8      3     17      0
+Venkataraghavan             28      8     44      2
+Chandrasekhar               49     10    110      3
+Bedi                        39.3   18     70      4
+
+India 1st innings                                               R   M   B  4 6
+AV Mankad             c Gifford          b Snow                 1  12  13  0 0
+SM Gavaskar           c Amiss            b Price                4  48  37  0 0
+*AL Wadekar           c Illingworth      b Gifford             85 192 182 11 0
+DN Sardesai           c Illingworth      b Gifford             25 117  96  2 0
+GR Viswanath          c Knott            b Hutton              68 273 263  6 0
++FM Engineer          c Illingworth      b Hutton              28  49  54  3 0
+ED Solkar             c Knott            b Gifford             67 306 257  3 1
+S Abid Ali            c Luckhurst        b Snow                 6  19  12  0 0
+S Venkataraghavan     c Hutton           b Price               11  53  42  1 0
+BS Bedi               c Price            b Gifford              0  16  12  0 0
+BS Chandrasekhar      not out                                   0  30  27  0 0
+Extras                (b 7, lb 9, nb 2)                        18
+Total                 (all out, 165.3 overs)                  313
+
+FoW: 1-1 (Mankad), 2-29 (Gavaskar), 3-108 (Sardesai),
+     4-125 (Wadekar), 5-175 (Engineer), 6-267 (Viswanath),
+     7-279 (Abid Ali), 8-302 (Venkataraghavan), 9-311 (Bedi),
+     10-313 (Solkar).
+
+Bowling                      O      M      R      W
+Price                       25      9     46      2
+Snow                        31      9     64      2
+Hutton                      24      8     38      2
+Gifford                     45.3   14     84      4
+D'Oliveira                  15      7     20      0
+Illingworth                 25     12     43      0
+
+England 2nd innings                                             R   M   B  4 6
+G Boycott             c Wadekar          b Venkataraghavan     33  96  83  5 0
+BW Luckhurst                             b Solkar               1  13   9  0 0
+JH Edrich             c Engineer         b Bedi                62 190 169  5 0
+DL Amiss              run out                                   0  11  14  0 0
+BL D'Oliveira                            b Bedi                30  51  60  4 0
++APE Knott            c Wadekar          b Chandrasekhar       24  49  62  1 0
+*R Illingworth        c Wadekar          b Venkataraghavan     20  81  98  3 0
+RA Hutton                                b Chandrasekhar        0   5   8  0 0
+JA Snow               c Chandrasekhar    b Venkataraghavan      9  18  12  1 0
+N Gifford             not out                                   7  51  68  1 0
+JSE Price             c Abid Ali         b Venkataraghavan      0   6  10  0 0
+Extras                (lb 5)                                    5
+Total                 (all out, 98.5 overs)                   191
+
+FoW: 1-4 (Luckhurst), 2-65 (Boycott), 3-70 (Amiss),
+     4-117 (D'Oliveira), 5-145 (Edrich), 6-153 (Knott),
+     7-153 (Hutton), 8-174 (Snow), 9-189 (Illingworth),
+     10-191 (Price).
+
+Bowling                      O      M      R      W
+Abid Ali                     9      1     20      0
+Solkar                       6      3     13      1
+Venkataraghavan             30.5   11     52      4
+Chandrasekhar               23      7     60      2
+Bedi                        30     13     41      2
+
+India 2nd innings (target: 183 runs)                            R   M   B  4 6
+AV Mankad             c Knott            b Snow                 5  10  13  0 0
+SM Gavaskar           c Edrich           b Gifford             53 123  96  5 0
+*AL Wadekar           c Boycott          b Price                5  12   8  0 0
++FM Engineer          st Knott           b Gifford             35  49  40  4 0
+GR Viswanath          c Amiss            b Gifford              9  16  19  1 0
+DN Sardesai                              b Illingworth          1  12  13  0 0
+ED Solkar             not out                                   6  64  54  1 0
+S Abid Ali            c Snow             b Illingworth         14  23  29  1 0
+S Venkataraghavan     c Hutton           b Gifford              7  13  16  1 0
+BS Bedi               not out                                   2   9  13  0 0
+Extras                (lb 7, nb 1)                              8
+Total                 (8 wickets, 50 overs)                   145
+
+DNB: BS Chandrasekhar.
+
+FoW: 1-8 (Mankad), 2-21 (Wadekar), 3-87 (Engineer),
+     4-101 (Viswanath), 5-108 (Sardesai), 6-114 (Gavaskar),
+     7-135 (Abid Ali), 8-142 (Venkataraghavan).
+
+Bowling                      O      M      R      W
+Price                        4      0     26      1
+Snow                         8      0     23      1
+Hutton                       3      0     12      0
+Gifford                     19      4     43      4
+Illingworth                 16      2     33      2
+
+<END>

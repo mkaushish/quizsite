@@ -1,0 +1,49 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+1427, 1998-10-22, 2, 2, Australia, c Taylor, McGrath, 10, 21, 15, 1, 0
+1427, 1998-10-22, 4, 2, Australia, c Healy, Miller, 6, 14, 7, 1, 0
+1442, 1999-01-28, 1, 2, India, c Ganguly, Srinath, 11, 35, 27, 2, 0
+1442, 1999-01-28, 3, 2, India, , Prasad, 141, 305, 191, 21, 3
+1443, 1999-02-04, 2, 2, India, , Harbhajan Singh, 32, 75, 53, 3, 2
+1443, 1999-02-04, 4, 2, India, c Mongia, Kumble, 41, 104, 64, 7, 0
+1444, 1999-02-16, 1, 2, India, c Mongia, Srinath, 8, 10, 6, 2, 0
+1444, 1999-02-16, 3, 6, India, c Laxman, Srinath, 0, 1, 1, 0, 0
+1447, 1999-03-04, 1, 6, Sri Lanka, c Gunawardene, Kalpage, 0, 1, 1, 0, 0
+1447, 1999-03-04, 3, 2, Sri Lanka, c Kaluwitharana, de Silva, 84, 179, 118, 11, 1
+1450, 1999-03-12, 2, 6, Sri Lanka,                c &, Chandana, 21, 26, 29, 3, 1
+1487, 2000-03-05, 2, 6, Sri Lanka, c Arnold, Vaas, 4, 24, 13, 0, 0
+1487, 2000-03-05, 4, 2, Sri Lanka, st Kaluwitharana, Muralitharan, 31, 93, 50, 2, 2
+1489, 2000-03-12, 1, 2, Sri Lanka, c Wickramasinghe, Muralitharan, 74, 136, 92, 12, 1
+1489, 2000-03-12, 3, 2, Sri Lanka, , Pushpakumara, 34, 93, 59, 6, 0
+1513, 2000-10-15, 2, 2, England, c Gough, Giles, 52, 123, 68, 6, 1
+1518, 2000-11-29, 1, 2, England, c Thorpe, Gough, 10, 37, 22, 1, 0
+1518, 2000-11-29, 3, 2, England, c Giles, Gough, 10, 19, 10, 2, 0
+1521, 2000-11-07, 1, 8, England, , Giles, 10, 22, 14, 1, 0
+1521, 2000-11-07, 3, 9, England, not out, , 15, 35, 25, 2, 0
+1588, 2002-01-07, 1, 2, West Indies, , Cuffy, 107, 209, 150, 16, 3
+1588, 2002-01-07, 3, 1, West Indies, c Jacobs, Dillon, 0, 2, 3, 0, 0
+1592, 2002-02-06, 1, 1, Sri Lanka, run out (Samaraweera/Sangakkara), , 9, 25, 19, 2, 0
+1592, 2002-02-06, 3, 1, Sri Lanka, st Sangakkara, Muralitharan, 70, 170, 111, 9, 1
+1600, 2002-04-01, 1, 2, New Zealand, c Hart, Tuffey, 0, 2, 1, 0, 0
+1731, 2005-01-02, 1, 6, Australia, c McGrath, MacGill, 12, 17, 9, 1, 1
+1731, 2005-01-02, 3, 6, Australia, run out (Martyn), , 46, 83, 52, 9, 0
+1741, 2005-02-16, 2, 2, India, c Tendulkar, Pathan, 29, 29, 21, 7, 0
+1741, 2005-02-16, 4, 2, India, c Ganguly, Kumble, 59, 79, 59, 9, 2
+1743, 2005-02-24, 1, 2, India, c Dravid, Balaji, 0, 6, 1, 0, 0
+1743, 2005-02-24, 3, 2, India, st Karthik, Tendulkar, 58, 62, 34, 8, 2
+1752, 2005-04-26, 2, 2, West Indies, c Smith, Edwards, 16, 27, 15, 1, 1
+1752, 2005-04-26, 4, 6, West Indies, c Chanderpaul, Powell, 122, 179, 95, 9, 6
+1754, 2005-05-03, 1, 6, West Indies, c Browne, Collymore, 33, 54, 44, 6, 0
+1754, 2005-05-03, 3, 6, West Indies, c Smith, Best, 43, 75, 43, 5, 1
+1772, 2005-10-20, 1, 6, England, c Trescothick, Hoggard, 92, 109, 85, 6, 6
+1772, 2005-10-20, 3, 6, England, , Flintoff, 0, 2, 1, 0, 0
+1781, 2006-01-13, 1, 6, India, c Harbhajan Singh, Agarkar, 103, 111, 80, 7, 7
+1782, 2006-01-21, 1, 6, India, c Yuvraj Singh, Kumble, 156, 208, 128, 20, 6
+1782, 2006-01-21, 3, 6, India, c Dhoni, Khan, 1, 6, 4, 0, 0
+1783, 2006-01-29, 1, 6, India, , Khan, 10, 20, 14, 1, 0
+1783, 2006-01-29, 3, 6, India, c Tendulkar, Singh, 60, 80, 46, 9, 1
+1794, 2006-02-26, 2, 7, Sri Lanka, , Muralitharan, 14, 38, 21, 1, 0
+1809, 2006-06-13, 2, 9, England, c Bell, Hoggard, 17, 35, 20, 3, 0
+1811, 2006-06-27, 1, 8, England, c Pietersen, Panesar, 15, 19, 16, 2, 1
+1811, 2006-06-27, 3, 8, England, c Strauss, Harmison, 17, 18, 17, 2, 1
+1963, 2010-06-13, 2, 7, Australia, c Johnson, Watson, 31, 13, 15, 4, 2
+1963, 2010-06-13, 4, 7, Australia, c Hussey, North, 2, 2, 4, 0, 0

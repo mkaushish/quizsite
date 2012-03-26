@@ -1,0 +1,70 @@
+
+Test # 166
+The Ashes, 1926, 4th Test
+England v Australia
+Old Trafford, Manchester
+24,26,27 July 1926 (3-day match)
+
+Result: Match drawn
+Series: 5-match series level 0-0
+
+Toss: Australia
+Umpires: H Chidgey and HI Young
+
+Close of play:
+ Day 1: Australia 6/0 (Woodfull 5*, Bardsley 0*)
+ Day 2: Australia 322/8 (Oldfield 2*, Grimmett 4*)
+
+Australia 1st innings                                           R   M   B  4 6
+WM Woodfull           c Hendren          b Root               117 259      6 0
+*W Bardsley           c Tyldesley        b Stevens             15          2 0
+CG Macartney                             b Root               109 180     14 0
+TJE Andrews           c sub              b Stevens              8          1 0
+WH Ponsford                          c & b Kilner              23          0 0
+AJ Richardson         c Woolley          b Stevens              0          0 0
+J Ryder               c Strudwick        b Root                 3          0 0
+JM Gregory            c Kilner           b Root                34          6 0
++WAS Oldfield         not out                                  12          2 0
+CV Grimmett           c Stevens          b Tate                 6          0 0
+AA Mailey                                b Tate                 1          0 0
+Extras                (b 2, lb 1, w 1, nb 3)                    7
+Total                 (all out, 150.2 overs)                  335
+
+FoW: 1-29 (Bardsley), 2-221 (Macartney), 3-252 (Woodfull),
+     4-256 (Andrews), 5-257 (Richardson), 6-266 (Ryder),
+     7-300 (Ponsford), 8-317 (Gregory), 9-329 (Grimmett),
+     10-335 (Mailey).
+
+Bowling                      O      M      R      W
+Tate                        36.2    7     88      2
+Root                        52     27     84      4
+Kilner                      28     12     51      1
+Stevens                     32      3     86      3
+Woolley                      2      0     19      0
+
+England 1st innings                                             R   M   B  4 6
+JB Hobbs              c Ryder            b Grimmett            74 160      7 0
+H Sutcliffe           c Oldfield         b Mailey              20  74      1 0
+GE Tyldesley          c Oldfield         b Macartney           81 160      7 0
+FE Woolley            c Ryder            b Mailey              58  93      5 2
+EH Hendren            not out                                  32          5 0
+GTS Stevens           c Bardsley         b Mailey              24          4 0
+R Kilner              not out                                   9          2 0
+Extras                (b 4, lb 3)                               7
+Total                 (5 wickets, 125 overs)                  305
+
+DNB: *AW Carr, MW Tate, CF Root, +H Strudwick.
+
+FoW: 1-58 (Sutcliffe), 2-135 (Hobbs), 3-225 (Tyldesley),
+     4-243 (Woolley), 5-272 (Stevens).
+
+Bowling                      O      M      R      W
+Gregory                     11      4     17      0
+Grimmett                    38      9     85      1
+Mailey                      27      4     87      3
+Ryder                       15      3     46      0
+Richardson                  17      3     43      0
+Macartney                    8      5      7      1
+Andrews                      9      5     13      0
+
+<END>

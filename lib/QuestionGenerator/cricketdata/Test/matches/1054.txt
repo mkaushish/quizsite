@@ -1,0 +1,93 @@
+
+Test # 1054
+Australia in India, 1986/87, 3rd Test
+India v Australia
+Wankhede Stadium, Bombay
+15,16,17,18,19 October 1986 (5-day match)
+
+Result: Match drawn
+Series: 3-match series drawn 0-0
+
+Toss: Australia
+Umpires: JD Ghosh and RB Gupta
+Test debut: RR Kulkarni (India).
+
+Close of play:
+ Day 1: Australia 217/2 (Marsh 89*, Border 34*)
+ Day 2: Australia 345, India 61/1 (Gavaskar 30*, More 0*)
+ Day 3: India 291/5 (Vengsarkar 41*, Shastri 37*)
+ Day 4: India 517/5d, Australia 9/0 (Marsh 2*, Boon 5*)
+
+Australia 1st innings                                           R   M   B  4 6
+GR Marsh              c Gavaskar         b Kulkarni           101 370 300 11 0
+DC Boon               c Gavaskar         b Kulkarni            47 132  97  7 0
+DM Jones              c sub (L Sivaramakrishnan) b Yadav       35 111  93  2 0
+*AR Border            st More            b Maninder Singh      46 143 109  6 0
+GM Ritchie            run out                                  31 123 105  4 0
+GRJ Matthews                             b Yadav               20  67  48  3 0
+SR Waugh                                 b Yadav                6  20  12  1 0
++TJ Zoehrer                          c & b Maninder Singh      21  67  64  3 0
+RJ Bright             lbw                b Kulkarni             8  55  32  0 0
+DR Gilbert            c sub (L Sivaramakrishnan) b Yadav        1  26  19  0 0
+BA Reid               not out                                   2  21  22  0 0
+Extras                (b 5, lb 12, nb 10)                      27
+Total                 (all out, 147.4 overs)                  345
+
+FoW: 1-76 (Boon), 2-151 (Jones), 3-241 (Marsh), 4-252 (Border),
+     5-295 (Matthews), 6-304 (Waugh), 7-308 (Ritchie),
+     8-340 (Bright), 9-340 (Zoehrer), 10-345 (Gilbert).
+
+Bowling                      O      M      R      W
+Kulkarni                    23      2     85      3
+Kapil Dev                    6      1     16      0
+Shastri                     42     16     68      0
+Yadav                       41.4    8     84      4
+Maninder Singh              33     10     72      2
+Srikkanth                    2      0      3      0
+
+India 1st innings                                               R   M   B  4 6
+SM Gavaskar           c Ritchie          b Matthews           103 302 203 11 0
+K Srikkanth           c Marsh            b Bright              24  82  51  2 1
++KS More              c Jones            b Matthews            15 107  79  0 0
+M Amarnath            c sub (MRJ Veletta) b Matthews           35 134 103  4 0
+DB Vengsarkar         not out                                 164 432 303 21 1
+M Azharuddin          c sub (MRJ Veletta) b Matthews           10  20  21  1 0
+RJ Shastri            not out                                 121 388 287  9 6
+Extras                (b 9, lb 15, nb 21)                      45
+Total                 (5 wickets dec, 170 overs)              517
+
+DNB: *N Kapil Dev, NS Yadav, RR Kulkarni, Maninder Singh.
+
+FoW: 1-53 (Srikkanth), 2-119 (More), 3-194 (Gavaskar),
+     4-205 (Amarnath), 5-219 (Azharuddin).
+
+Bowling                      O      M      R      W
+Reid                        32      5     81      0
+Gilbert                     24      3     75      0
+Matthews                    52      8    158      4
+Bright                      38      6    109      1
+Border                      10      3     29      0
+Waugh                       14      2     41      0
+
+Australia 2nd innings                                           R   M   B  4 6
+GR Marsh                                 b Shastri             20 106  83  3 0
+DC Boon               c More             b Shastri             40 118 118  5 0
+DM Jones              not out                                  73 211 164  9 0
+*AR Border            not out                                  66 199 172  8 0
+Extras                (b 5, lb 5, nb 7)                        17
+Total                 (2 wickets, 88 overs)                   216
+
+DNB: GM Ritchie, GRJ Matthews, SR Waugh, +TJ Zoehrer, RJ Bright,
+     DR Gilbert, BA Reid.
+
+FoW: 1-64 (Marsh), 2-70 (Boon).
+
+Bowling                      O      M      R      W
+Kapil Dev                    6      1     24      0
+Maninder Singh              20      6     31      0
+Shastri                     30      8     60      2
+Yadav                       23      7     52      0
+Kulkarni                     6      0     29      0
+Srikkanth                    3      0     10      0
+
+<END>

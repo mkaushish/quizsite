@@ -1,0 +1,103 @@
+
+Test # 556
+England in India, 1963/64, 4th Test
+India v England
+Feroz Shah Kotla, Delhi
+8,9,11,12,13 February 1964 (5-day match)
+
+Result: Match drawn
+Series: 5-match series level 0-0
+
+Toss: India
+Umpires: SP Pan and B Satyaji Rao
+Test debut: Hanumant Singh (India).
+
+Close of play:
+ Day 1: India 247/4 (Hanumant Singh 79*, Borde 22*)
+ Day 2: India 344, England 124/2 (Smith 16*, Wilson 2*)
+ Day 3: England 354/5 (Cowdrey 102*, Parks 32*)
+ Day 4: England 451, India 166/2 (Kunderan 73*, Pataudi 31*)
+
+India 1st innings                                               R   M   B  4 6
+ML Jaisimha                              b Titmus              47 130      6 1
++BK Kunderan                             b Titmus              40 110      7 0
+DN Sardesai           c Parks            b Mortimore           44 160      3 0
+*Nawab of Pataudi jnr                    b Titmus              13  48      1 0
+Hanumant Singh                       c & b Mortimore          105 230     16 0
+CG Borde                                 b Price               26  98      2 0
+SA Durani             c Smith            b Wilson              16  95      1 0
+AG Kripal Singh                          b Mortimore            0   1      0 0
+RG Nadkarni           run out                                  34  98      4 0
+RB Desai              not out                                  14  53      1 0
+BS Chandrasekhar      run out                                   0   1      0 0
+Extras                (lb 3, nb 2)                              5
+Total                 (all out, 148 overs)                    344
+
+FoW: 1-81 (Kunderan), 2-90 (Jaisimha), 3-116 (Pataudi),
+     4-201 (Sardesai), 5-267 (Borde), 6-283 (Hanumant Singh),
+     7-283 (Kripal Singh), 8-307 (Durani), 9-344 (Nadkarni),
+     10-344 (Chandrasekhar).
+
+Bowling                      O      M      R      W
+Price                       23      3     71      1
+Knight                      11      0     46      0
+Wilson                      22      9     41      1
+Titmus                      49     15    100      3
+Mortimore                   38     13     74      3
+Parfitt                      5      2      7      0
+
+England 1st innings                                             R   M   B  4 6
+JB Bolus              lbw                b Kripal Singh        58 110     10 0
+JH Edrich                            c & b Kripal Singh        41 120      7 0
+*MJK Smith            c Pataudi          b Kripal Singh        37  77      4 0
+D Wilson              c Pataudi          b Chandrasekhar        6  32      1 0
+PH Parfitt            c Kunderan         b Durani              67 180     10 0
+MC Cowdrey            lbw                b Nadkarni           151 375     23 1
++JM Parks             c sub              b Chandrasekhar       32 132      3 1
+BR Knight             c Desai            b Nadkarni            21  62      4 0
+JB Mortimore          c Hanumant Singh   b Nadkarni            21  55      2 1
+FJ Titmus             not out                                   4  25      0 0
+JSE Price                                b Chandrasekhar        0   5      0 0
+Extras                (b 8, lb 3, nb 2)                        13
+Total                 (all out, 185.3 overs)                  451
+
+FoW: 1-101 (Bolus), 2-114 (Edrich), 3-134 (Wilson),
+     4-153 (Smith), 5-268 (Parfitt), 6-354 (Parks),
+     7-397 (Knight), 8-438 (Cowdrey), 9-451 (Mortimore),
+     10-451 (Price).
+
+Bowling                      O      M      R      W
+Desai                        9      2     23      0
+Jaisimha                     4      0     14      0
+Kripal Singh                36     13     90      3
+Chandrasekhar               34.3   11     79      3
+Borde                       12      2     42      0
+Durani                      33      5     93      1
+Nadkarni                    57     30     97      3
+
+India 2nd innings                                               R   M   B  4 6
+ML Jaisimha           st Parks           b Parfitt             50  65      7 1
++BK Kunderan          lbw                b Price              100 285     15 0
+DN Sardesai                              b Wilson               4  28      1 0
+*Nawab of Pataudi jnr not out                                 203 430     23 2
+Hanumant Singh        c Mortimore        b Wilson              23  58      3 0
+CG Borde              not out                                  67 180     10 0
+Extras                (b 5, lb 9, nb 2)                        16
+Total                 (4 wickets, 165 overs)                  463
+
+DNB: SA Durani, AG Kripal Singh, RG Nadkarni, RB Desai,
+     BS Chandrasekhar.
+
+FoW: 1-74 (Jaisimha), 2-101 (Sardesai), 3-226 (Kunderan),
+     4-273 (Hanumant Singh).
+
+Bowling                      O      M      R      W
+Price                        9      1     36      1
+Knight                       8      1     47      0
+Wilson                      41     17     74      2
+Titmus                      43     12    105      0
+Mortimore                   32     11     52      0
+Parfitt                     19      3     81      1
+Smith                       13      0     52      0
+
+<END>

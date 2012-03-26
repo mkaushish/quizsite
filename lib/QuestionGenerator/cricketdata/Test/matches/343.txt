@@ -1,0 +1,121 @@
+
+Test # 343
+West Indies in Australia, 1951/52, 3rd Test
+Australia v West Indies
+Adelaide Oval
+22,24,25 December 1951 (5-day match)
+
+Result: West Indies won by 6 wickets
+Series: Australia leads the 5-match series 2-1
+
+Toss: Australia
+Umpires: MJ McInnes and RJJ Wright
+Balls per over: 8
+Test debut: SC Guillen (West Indies).
+
+Close of play:
+ Day 1: Australia 82, West Indies 105, Australia 20/2 (Langley 0*, Ring 0*)
+ Day 2: Australia 255, West Indies 54/0 (Marshall 18*, Stollmeyer 33*)
+
+Australia 1st innings                                           R   M   B  4 6
+JW Burke              c Stollmeyer       b Worrell              3  10      0 0
+*AR Morris                               b Worrell              1   5      0 0
+RN Harvey             c Guillen          b Gomez               10  32      1 0
+KR Miller             c Ramadhin         b Worrell              4  44      0 0
+GB Hole               c Worrell          b Goddard             23  18      4 0
+RR Lindwall                              b Worrell              2  16      0 0
+IWG Johnson           c Stollmeyer       b Worrell             11  40      2 0
+DT Ring               c Christiani       b Goddard              5  12      1 0
++GRA Langley                             b Worrell              5  31      0 0
+G Noblet                                 b Goddard              8   9      1 0
+WA Johnston           not out                                   7   6      1 0
+Extras                (lb 3)                                    3
+Total                 (all out, 25.7 overs)                    82
+
+FoW: 1-4 (Morris), 2-5 (Burke), 3-15 (Harvey), 4-39 (Miller),
+     5-41 (Hole), 6-43 (Lindwall), 7-58 (Ring), 8-62 (Johnson),
+     9-72 (Noblet), 10-82 (Langley).
+
+Bowling                      O      M      R      W
+Gomez                        5      3      5      1
+Worrell                     12.7    3     38      6
+Goddard                      8      1     36      3
+
+West Indies 1st innings                                         R   M   B  4 6
+RE Marshall           c Burke            b Johnston            14  18      1 0
+JB Stollmeyer                            b Johnston            17  36      2 0
+*JDC Goddard          c Langley          b Lindwall             0   4      0 0
+FMM Worrell                              b Miller               6  23      0 0
+ED Weekes                                b Johnston            26  58      2 0
+GE Gomez              c Langley          b Johnston             4   5      1 0
+RJ Christiani         c Miller           b Johnston             4  10      1 0
++SC Guillen                              b Noblet               9  38      1 0
+DS Atkinson           c Burke            b Johnston            15  13      3 0
+S Ramadhin            not out                                   5   8      1 0
+AL Valentine                             b Noblet               0   3      0 0
+Extras                (lb 5)                                    5
+Total                 (all out, 24.5 overs)                   105
+
+FoW: 1-25 (Marshall), 2-26 (Goddard), 3-34 (Stollmeyer),
+     4-44 (Worrell), 5-51 (Gomez), 6-55 (Christiani),
+     7-85 (Weekes), 8-87 (Guillen), 9-101 (Atkinson),
+     10-105 (Valentine).
+
+Bowling                      O      M      R      W
+Lindwall                     4      0     18      1
+Johnston                    12      0     62      6
+Miller                       5      1     13      1
+Noblet                       3.5    0      7      2
+
+Australia 2nd innings                                           R   M   B  4 6
+IWG Johnson           c Marshall         b Valentine           16  24      2 0
++GRA Langley                             b Valentine           23  80      2 0
+G Noblet              c Weekes           b Valentine            0   6      0 0
+DT Ring               run out                                  67 112      8 2
+*AR Morris                               b Valentine           45  81      6 1
+RN Harvey             c Guillen          b Ramadhin             9  26      1 0
+KR Miller             lbw                b Gomez               35  75      4 0
+GB Hole               c Weekes           b Gomez               25  47      3 0
+JW Burke                                 b Valentine           15  42      1 0
+RR Lindwall           not out                                   8  28      0 0
+WA Johnston           lbw                b Valentine            0   1      0 0
+Extras                (b 8, lb 4)                              12
+Total                 (all out, 74.5 overs)                   255
+
+FoW: 1-16 (Johnson), 2-20 (Noblet), 3-81 (Langley), 4-148 (Ring),
+     5-162 (Morris), 6-172 (Harvey), 7-227 (Hole),
+     8-240 (Miller), 9-255 (Burke), 10-255 (Johnston).
+
+Bowling                      O      M      R      W
+Gomez                        7      2     17      2
+Worrell                      9      2     29      0
+Goddard                      1      0      7      0
+Valentine                   27.5    6    102      6
+Ramadhin                    25      4     76      1
+Marshall                     5      1     12      0
+
+West Indies 2nd innings (target: 233 runs)                      R   M   B  4 6
+RE Marshall           c Langley          b Ring                29 118      6 0
+JB Stollmeyer         c Miller           b Ring                47 103      5 0
+FMM Worrell           c Noblet           b Johnston            28  88      2 0
+ED Weekes                            c & b Ring                29  75      3 0
+GE Gomez              not out                                  46 105      5 0
+RJ Christiani         not out                                  42 101      5 0
+Extras                (b 6, lb 5, w 1)                         12
+Total                 (4 wickets, 73.5 overs)                 233
+
+DNB: *JDC Goddard, +SC Guillen, DS Atkinson, S Ramadhin,
+     AL Valentine.
+
+FoW: 1-72 (Stollmeyer), 2-85 (Marshall), 3-141 (Worrell),
+     4-141 (Weekes).
+
+Bowling                      O      M      R      W
+Lindwall                    13      1     40      0
+Johnston                    19      4     50      1
+Miller                       5      0     12      0
+Noblet                      13      1     30      0
+Ring                        16.5    3     62      3
+Johnson                      7      1     27      0
+
+<END>

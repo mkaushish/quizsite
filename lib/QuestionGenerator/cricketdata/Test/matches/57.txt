@@ -1,0 +1,133 @@
+
+Test # 57
+The Ashes, 1897/98, 5th Test
+Australia v England
+Sydney Cricket Ground
+26,28 February, 1,2 March 1898 (timeless match)
+
+Result: Australia won by 6 wickets
+Series: Australia wins the 5-match series 4-1
+
+Toss: England
+Umpires: C Bannerman and J Phillips
+
+Close of play:
+ Day 1: England 301/5 (Druce 43*, Hirst 43*)
+ Day 2: England 335, Australia 184/5 (Noble 31*, Trott 14*)
+ Day 3: Australia 239, England 172/9 (Hearne 3*)
+
+England 1st innings                                             R   M   B  4 6
+*AC MacLaren                             b Trott               65 113      8 0
+E Wainwright          c Hill             b Trumble             49 117        0
+KS Ranjitsinhji       c Gregory          b Trott                2   6      0 0
+TW Hayward                               b Jones               47  95      5 0
++W Storer                                b Jones               44 108      4 0
+NF Druce              lbw                b Noble               64 114     10 0
+GH Hirst                                 b Jones               44  80      3 0
+JR Mason              c Howell           b Jones                7  10        0
+J Briggs                                 b Jones                0  10      0 0
+JT Hearne             not out                                   2   5      0 0
+T Richardson                             b Jones                1   1      0 0
+Extras                (b 2, lb 5, w 2, nb 1)                   10
+Total                 (all out, 129.2 overs)                  335
+
+FoW: 1-111 (MacLaren), 2-117 (Wainwright), 3-119 (Ranjitsinhji),
+     4-197 (Hayward), 5-230 (Storer), 6-308 (Hirst),
+     7-318 (Mason), 8-324 (Briggs), 9-334 (Druce),
+     10-335 (Richardson).
+
+Bowling                      O      M      R      W
+Noble                       26      6     57      1
+Howell                      17      6     40      0
+Trumble                     26      4     67      1
+Jones                       26.2    3     82      6
+Trott                       23      6     56      2
+McLeod                      11      4     23      0
+
+Australia 1st innings                                           R   M   B  4 6
+CE McLeod                                b Richardson          64 163      8 0
+J Darling             c Mason            b Briggs              14  40        0
+C Hill                                   b Richardson           8  10        0
+J Worrall             c Ranjitsinhji     b Richardson          26  65        0
+SE Gregory            c Storer           b Richardson          21  22        0
+MA Noble              c Storer           b Richardson          31  75        0
+*GHS Trott            c Ranjitsinhji     b Hearne              18  55        0
+H Trumble                                b Richardson          12            0
++JJ Kelly             not out                                  27  60        0
+WP Howell             c MacLaren         b Richardson          10            0
+E Jones               c Storer           b Richardson           1          0 0
+Extras                (b 5, w 1, nb 1)                          7
+Total                 (all out, 100.1 overs)                  239
+
+FoW: 1-36 (Darling), 2-45 (Hill), 3-99 (Worrall),
+     4-132 (Gregory), 5-137 (McLeod), 6-188 (Trott),
+     7-188 (Noble), 8-221 (Trumble), 9-232 (Howell),
+     10-239 (Jones).
+
+Bowling                      O      M      R      W
+Richardson                  36.1    7     94      8
+Briggs                      17      4     39      1
+Hearne                      21      9     40      1
+Storer                       5      1     13      0
+Mason                       13      7     20      0
+Hayward                      4      0     12      0
+Hirst                        4      1     14      0
+
+England 2nd innings                                             R   M   B  4 6
+*AC MacLaren          c Darling          b Jones                0   1   1  0 0
+E Wainwright                             b Noble                6  25        0
+KS Ranjitsinhji       lbw                b Jones               12  58        0
+TW Hayward            c Worrall          b Trumble             43 105        0
++W Storer             c Gregory          b Trumble             31  65        0
+NF Druce              c Howell           b Trumble             18  25        0
+GH Hirst              c Trott            b Jones                7  30      0 1
+JR Mason                                 b Trumble             11  30        0
+J Briggs                                 b Howell              29  45        0
+JT Hearne             not out                                   3  25      0 0
+T Richardson                             b Howell               6   5        0
+Extras                (lb 12)                                  12
+Total                 (all out, 78.1 overs)                   178
+
+FoW: 1-0 (MacLaren), 2-16 (Wainwright), 3-30 (Ranjitsinhji),
+     4-99 (Storer), 5-104 (Hayward), 6-121 (Druce),
+     7-137 (Hirst), 8-148 (Mason), 9-172 (Briggs),
+     10-178 (Richardson).
+
+Bowling                      O      M      R      W
+Noble                       15      4     34      1
+Howell                       6.1    0     22      2
+Trumble                     24      7     37      4
+Jones                       26      3     61      3
+Trott                        7      1     12      0
+
+Australia 2nd innings (target: 275 runs)                        R   M   B  4 6
+CE McLeod                                b Hearne               4  10      0 0
+J Darling             c Wainwright       b Richardson         160 171     30 0
+C Hill                                   b Richardson           2  10      0 0
+J Worrall             c Hirst            b Hayward             62 121      9 0
+SE Gregory            not out                                  22  45        0
+MA Noble              not out                                  15  17        0
+Extras                (b 6, w 1, nb 4)                         11
+Total                 (4 wickets, 62.4 overs)                 276
+
+DNB: *GHS Trott, H Trumble, +JJ Kelly, WP Howell, E Jones.
+
+FoW: 1-23 (McLeod), 2-40 (Hill), 3-233 (Worrall),
+     4-252 (Darling).
+
+Bowling                      O      M      R      W
+Richardson                  21.4    1    110      2
+Briggs                       5      1     25      0
+Hearne                      15      5     52      1
+Mason                       11      1     27      0
+Hayward                      3      0     18      1
+Hirst                        7      0     33      0
+
+*** Darling's hundred took only 91 minutes.
+*** Tom Richardson ended his Test career by returning his best analysis. His
+    88 wickets in only 14 matches included 11 instances of five or more in an
+    innings.
+*** Darling was the first batsman to score three hundreds in the same Test
+    rubber and the first to aggregate 500 runs in one.
+
+<END>

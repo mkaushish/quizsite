@@ -1,0 +1,89 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+887, 1980-11-28, 1, 7, Australia, c Hughes, Lillee, 7, 17, 16, 1, 0
+887, 1980-11-28, 3, 7, Australia, c Hughes, Pascoe, 7, 24, 17, 0, 0
+897, 1981-02-21, 1, 7, India, c Vengsarkar, Kapil Dev, 20, 50, 36, 3, 0
+897, 1981-02-21, 3, 7, India, not out, , 15, na, 39, 2, 0
+898, 1981-03-06, 2, 7, India, not out, , 11, 27, 27, 2, 0
+899, 1981-03-13, 2, 9, India, , Shastri, 10, 27, 23, 2, 0
+922, 1982-02-26, 1, 8, Australia, c Chappell, Yardley, 11, 32, 20, 2, 0
+924, 1982-03-12, 2, 8, Australia, lbw, Yardley, 5, 21, 16, 0, 0
+926, 1982-03-19, 2, 8, Australia, , Thomson, 0, 1, 1, 0, 0
+926, 1982-03-19, 3, 8, Australia, c Wood, Yardley, 0, 6, 7, 0, 0
+958, 1983-07-28, 2, 9, England, c Tavare, Willis, 2, 5, 6, 0, 0
+959, 1983-08-11, 2, 10, England, c Lamb, Botham, 3, 23, 18, 0, 0
+959, 1983-08-11, 4, 10, England, not out, , 17, 36, 30, 2, 0
+975, 1984-01-20, 1, 9, England, lbw, Botham, 24, 57, 45, 3, 0
+975, 1984-01-20, 3, 9, England, , Cook, 29, 109, 81, 3, 0
+976, 1984-02-03, 1, 8, England, not out, , 32, 85, 48, 5, 0
+977, 1984-02-10, 1, 8, England, not out, , 113, 239, 182, 9, 2
+980, 1984-03-09, 1, 8, Sri Lanka, , Ranatunga, 30, 20, 17, 6, 0
+980, 1984-03-09, 3, 9, Sri Lanka, not out, , 31, 30, 26, 5, 0
+982, 1984-03-16, 2, 9, Sri Lanka, c Kaluperuma, Ratnayeke, 7, 31, 18, 1, 0
+985, 1984-03-24, 2, 9, Sri Lanka, , John, 42, 89, 53, 5, 0
+998, 1984-11-16, 1, 8, Pakistan, c Iqbal Qasim, Azeem Hafeez, 41, 53, 31, 6, 0
+998, 1984-11-16, 3, 9, Pakistan, not out, , 11, 43, 26, 1, 0
+1000, 1984-11-25, 1, 7, Pakistan, c Iqbal Qasim, Zaheer Abbas, 6, 17, 13, 0, 0
+1000, 1984-11-25, 3, 7, Pakistan, c Mudassar Nazar, Azeem Hafeez, 34, 38, 28, 5, 0
+1003, 1984-12-10, 2, 8, Pakistan, c Saleem Malik, Iqbal Qasim, 0, 3, 1, 0, 0
+1009, 1985-01-18, 1, 8, Pakistan,                c &, Mudassar Nazar, 65, 142, 95, 7, 0
+1010, 1985-01-25, 2, 9, Pakistan, c Javed Miandad, Wasim Akram, 7, 36, 22, 0, 0
+1012, 1985-02-09, 2, 8, Pakistan, lbw, Tahir Naqqash, 12, 41, 34, 2, 0
+1012, 1985-02-09, 4, 8, Pakistan, c Javed Miandad, Wasim Akram, 6, 13, 9, 0, 0
+1013, 1985-03-29, 2, 8, West Indies, c Logie, Holding, 10, 52, 31, 0, 0
+1013, 1985-03-29, 4, 8, West Indies, not out, , 11, 59, 50, 2, 0
+1014, 1985-04-06, 2, 8, West Indies, lbw, Marshall, 53, 173, 131, 5, 0
+1015, 1985-04-26, 1, 7, West Indies, c Greenidge, Marshall, 2, 17, 12, 0, 0
+1015, 1985-04-26, 3, 7, West Indies,                c &, Marshall, 26, 39, 36, 3, 0
+1016, 1985-05-04, 2, 7, West Indies, , Garner, 0, 7, 3, 0, 0
+1016, 1985-05-04, 3, 6, West Indies, , Marshall, 9, 33, 33, 0, 0
+1029, 1985-11-08, 2, 9, Australia, not out, , 2, 8, 7, 0, 0
+1030, 1985-11-22, 1, 8, Australia, c Hookes, Bright, 28, 28, 24, 4, 0
+1030, 1985-11-22, 3, 8, Australia,                c &, Bright, 12, 34, 25, 1, 0
+1031, 1985-11-30, 2, 8, Australia, c Matthews, Lawson, 12, 42, 36, 0, 0
+1038, 1986-02-28, 2, 8, Australia, , Waugh, 22, 79, 64, 3, 0
+1040, 1986-03-13, 2, 8, Australia, , Waugh, 3, 21, 14, 0, 0
+1049, 1986-07-24, 2, 9, England, c Edmonds, Dilley, 18, 45, 36, 1, 0
+1050, 1986-08-07, 2, 9, England, lbw, Edmonds, 2, 11, 14, 0, 0
+1068, 1987-02-20, 1, 9, West Indies, lbw, Garner, 0, 1, 2, 0, 0
+1070, 1987-02-27, 2, 9, West Indies, not out, , 40, 54, 40, 6, 1
+1070, 1987-02-27, 3, 9, West Indies, c Richards, Walsh, 10, 43, 26, 2, 0
+1072, 1987-03-12, 2, 9, West Indies, c Dujon, Garner, 7, 18, 16, 0, 0
+1082, 1987-12-04, 1, 9, Australia, lbw, Reid, 2, 16, 16, 0, 0
+1082, 1987-12-04, 3, 9, Australia, c Veletta, Reid, 9, 15, 15, 1, 0
+1084, 1987-12-11, 1, 9, Australia, not out, , 8, 23, 15, 1, 0
+1084, 1987-12-11, 3, 8, Australia, c Dyer, Sleep, 5, 11, 8, 1, 0
+1087, 1987-12-26, 1, 9, Australia, c Jones, Whitney, 44, 82, 45, 7, 0
+1087, 1987-12-26, 3, 9, Australia, c Dyer, Dodemaide, 12, 34, 28, 3, 0
+1091, 1988-02-12, 2, 8, England, c Capel, Jarvis, 13, 21, 18, 3, 0
+1093, 1988-02-25, 1, 8, England, c French, Jarvis, 23, 55, 38, 2, 0
+1093, 1988-02-25, 3, 9, England, not out, , 23, 46, 39, 5, 0
+1094, 1988-03-03, 1, 8, England, not out, , 33, 37, 19, 5, 0
+1107, 1988-11-12, 2, 9, India, lbw, Kapil Dev, 30, 45, 36, 3, 0
+1107, 1988-11-12, 4, 9, India, lbw, Hirwani, 25, 30, 27, 4, 0
+1109, 1988-11-24, 1, 8, India, , Shastri, 13, 16, 17, 3, 0
+1109, 1988-11-24, 3, 8, India, c Vengsarkar, Arshad Ayub, 54, 112, 96, 8, 0
+1111, 1988-12-02, 1, 8, India, c Srikkanth, Kapil Dev, 79, 113, 114, 10, 0
+1111, 1988-12-02, 3, 9, India, , Kapil Dev, 0, 1, 1, 0, 0
+1115, 1989-02-10, 1, 9, Pakistan, not out, , 40, 78, 47, 3, 1
+1115, 1989-02-10, 3, 9, Pakistan, not out, , 29, 52, 28, 4, 0
+1116, 1989-02-24, 2, 9, Pakistan, c Mudassar Nazar, Imran Khan, 58, 183, 137, 6, 0
+1129, 1989-11-24, 2, 7, Australia, c Lawson, Hughes, 11, 33, 17, 2, 0
+1129, 1989-11-24, 3, 7, Australia, c Border, Hughes, 0, 1, 1, 0, 0
+1136, 1990-02-02, 1, 8, India, lbw, Raju, 9, 16, 17, 0, 0
+1139, 1990-02-22, 1, 9, India, lbw, Prabhakar, 173, 237, 136, 23, 3
+1141, 1990-03-15, 2, 9, Australia, c MA Taylor, Campbell, 1, 4, 4, 0, 0
+1145, 1990-06-07, 1, 10, England, not out, , 2, 21, 10, 0, 0
+1146, 1990-06-21, 2, 9, England, c Small, Malcolm, 27, 46, 36, 4, 0
+1151, 1990-10-10, 1, 9, Pakistan, lbw, Wasim Akram, 4, 9, 4, 1, 0
+1151, 1990-10-10, 3, 8, Pakistan, , Waqar Younis, 14, 12, 10, 2, 0
+1152, 1990-10-18, 1, 8, Pakistan, c Saleem Yousuf, Abdul Qadir, 33, 59, 41, 6, 0
+1152, 1990-10-18, 3, 9, Pakistan, c Saleem Jaffar, Abdul Qadir, 8, 36, 27, 0, 0
+1153, 1990-10-26, 2, 8, Pakistan, c Saleem Malik, Tauseef Ahmed, 61, 83, 42, 11, 0
+1153, 1990-10-26, 4, 9, Pakistan,                c &, Waqar Younis, 21, 17, 11, 4, 0
+1162, 1991-01-31, 1, 8, Sri Lanka, c Senanayake, Ratnayake, 28, 42, 28, 5, 0
+1164, 1991-02-22, 1, 8, Sri Lanka, c Senanayake, Ratnayake, 7, 44, 29, 0, 0
+1164, 1991-02-22, 3, 8, Sri Lanka, not out, , 6, 26, 14, 0, 0
+1165, 1991-03-01, 2, 8, Sri Lanka, , Ratnayake, 3, 11, 10, 0, 0
+1183, 1992-01-18, 2, 9, England, lbw, DeFreitas, 20, 84, 62, 3, 0
+1183, 1992-01-18, 3, 10, England, c Russell, Lewis, 1, 14, 12, 0, 0
+1187, 1992-02-06, 2, 9, England, , Hick, 21, 40, 33, 2, 0

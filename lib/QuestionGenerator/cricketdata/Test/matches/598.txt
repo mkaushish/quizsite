@@ -1,0 +1,119 @@
+
+Test # 598
+The Ashes, 1965/66, 2nd Test
+Australia v England
+Melbourne Cricket Ground
+30,31 December 1965, 1,3,4 January 1966 (5-day match)
+
+Result: Match drawn
+Series: 5-match series level 0-0
+
+Toss: Australia
+Umpires: CJ Egar and WJ Smyth
+Balls per over: 8
+
+Close of play:
+ Day 1: Australia 278/4 (Cowper 90*, Walters 7*)
+ Day 2: Australia 358, England 208/2 (Edrich 48*, Barrington 54*)
+ Day 3: England 516/7 (Parks 66*, Titmus 23*)
+ Day 4: England 558, Australia 131/1 (Lawry 61*, Cowper 1*)
+
+Australia 1st innings                                           R   M   B  4 6
+*RB Simpson           c Edrich           b Allen               59 145 145  7 0
+WM Lawry              c Cowdrey          b Allen               88 266 223 10 0
+PJP Burge                                b Jones                5  30  50  0 0
+RM Cowper             c Titmus           b Jones               99 203 183 13 0
+BC Booth              lbw                b Jones               23  63  42  3 0
+KD Walters            c Parks            b Knight              22  92  84  1 0
+TR Veivers            run out                                  19  92  67  1 0
+PI Philpott                              b Knight              10  28  35  1 0
++ATW Grout            c Barber           b Knight              11  32  26  1 0
+GD McKenzie           not out                                  12  20  22  1 0
+AN Connolly           c Parks            b Knight               0  10   6  0 0
+Extras                (b 2, lb 7, nb 1)                        10
+Total                 (all out, 107.5 overs)                  358
+
+FoW: 1-93 (Simpson), 2-109 (Burge), 3-203 (Lawry), 4-262 (Booth),
+     5-297 (Cowper), 6-318 (Walters), 7-330 (Philpott),
+     8-342 (Veivers), 9-352 (Grout), 10-358 (Connolly).
+
+Bowling                      O      M      R      W
+Jones                       24      4     92      3
+Knight                      26.5    2     84      4
+Titmus                      31      7     93      0
+Allen                       20      4     55      2
+Barber                       6      1     24      0
+
+England 1st innings                                             R   M   B  4 6
+G Boycott             c McKenzie         b Walters             51  77  85  5 0
+RW Barber             c Grout            b McKenzie            48  97  62  3 0
+JH Edrich                            c & b Veivers            109 310 286 11 0
+KF Barrington         c Burge            b Veivers             63 158 139  5 0
+MC Cowdrey            c Connolly         b Cowper             104 197 187  9 0
+*MJK Smith            c Grout            b McKenzie            41 103  92  4 0
++JM Parks             c Cowper           b McKenzie            71 160 124  5 0
+BR Knight             c Simpson          b McKenzie             1  10  15  0 0
+FJ Titmus             not out                                  56 143 128  7 0
+DA Allen              c Grout            b Connolly             2  16  22  0 0
+IJ Jones                                 b McKenzie             1  15   9  0 0
+Extras                (b 4, lb 5, w 2)                         11
+Total                 (all out, 143.2 overs)                  558
+
+FoW: 1-98 (Boycott), 2-110 (Barber), 3-228 (Barrington),
+     4-333 (Edrich), 5-409 (Cowdrey), 6-443 (Smith),
+     7-447 (Knight), 8-540 (Parks), 9-551 (Allen),
+     10-558 (Jones).
+
+Bowling                      O      M      R      W
+McKenzie                    35.2    3    134      5
+Connolly                    37      5    125      1
+Philpott                    30      2    133      0
+Walters                     10      2     32      1
+Simpson                     16      4     61      0
+Veivers                     12      3     46      2
+Cowper                       3      0     16      1
+
+Australia 2nd innings                                           R   M   B  4 6
+*RB Simpson           c Barrington       b Knight              67 147 129  7 0
+WM Lawry              c Smith            b Barber              78 222 198  5 0
+RM Cowper             lbw                b Jones                5  42  24  0 0
+PJP Burge             c Edrich           b Boycott            120 255 193 12 0
+BC Booth                                 b Allen               10  29  43  0 0
+KD Walters                           c & b Barrington         115 263 296  8 0
+TR Veivers            st Parks           b Boycott              3  23  18  0 0
+PI Philpott                              b Knight               2   5   5  0 0
++ATW Grout            c Allen            b Barrington          16  27  26  1 0
+GD McKenzie           run out                                   2   8   4  0 0
+AN Connolly           not out                                   0   2   0  0 0
+Extras                (b 1, lb 3, w 1, nb 3)                    8
+Total                 (all out, 116.4 overs)                  426
+
+FoW: 1-120 (Simpson), 2-141 (Cowper), 3-163 (Lawry),
+     4-176 (Booth), 5-374 (Burge), 6-382 (Veivers),
+     7-385 (Philpott), 8-417 (Grout), 9-426 (McKenzie),
+     10-426 (Walters).
+
+Bowling                      O      M      R      W
+Jones                       20      1     92      1
+Knight                      21      4     61      2
+Titmus                      22      6     43      0
+Allen                       18      3     48      1
+Barber                      17      0     87      1
+Barrington                   7.4    0     47      2
+Boycott                      9      0     32      2
+Smith                        2      0      8      0
+
+England 2nd innings (target: 227 runs)                          R   M   B  4 6
+G Boycott             not out                                   5  10  11  0 0
+RW Barber             not out                                   0  10   5  0 0
+Extras                                                          0
+Total                 (0 wickets, 2 overs)                      5
+
+DNB: JH Edrich, KF Barrington, MC Cowdrey, *MJK Smith, +JM Parks,
+     BR Knight, FJ Titmus, DA Allen, IJ Jones.
+
+Bowling                      O      M      R      W
+McKenzie                     1      0      2      0
+Connolly                     1      0      3      0
+
+<END>

@@ -1,0 +1,116 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+915, 1981-12-26, 2, 7, Australia, c Hughes, Lillee, 41, 58, 48, 6, 0
+915, 1981-12-26, 4, 6, Australia, c Marsh, Yardley, 43, 163, 163, 1, 0
+917, 1982-01-02, 1, 6, Australia,                c &, Thomson, 44, 131, 87, 4, 0
+917, 1982-01-02, 3, 6, Australia,                c &, Yardley, 48, 112, 82, 5, 0
+919, 1982-01-30, 2, 8, Australia, c Thomson, Yardley, 51, 89, 65, 8, 0
+919, 1982-01-30, 4, 7, Australia, not out, , 0, 5, 5, 0, 0
+949, 1983-02-23, 2, 7, India, lbw, Kapil Dev, 29, na, na, na, 0
+949, 1983-02-23, 4, 6, India, not out, , 17, na, na, na, 2
+952, 1983-03-11, 2, 7, India, lbw, Kapil Dev, 31, na, na, na, 0
+953, 1983-03-31, 1, 8, India,                c &, Venkataraghavan, 47, 104, na, na, 0
+954, 1983-04-15, 2, 7, India, c Vengsarkar, Kapil Dev, 25, na, na, na, 0
+956, 1983-04-28, 2, 7, India, c Gaekwad, Venkataraghavan, 110, 265, na, 14, 0
+964, 1983-10-21, 1, 7, India, , Binny, 81, 195, na, 8, 0
+965, 1983-10-29, 2, 8, India, lbw, Kapil Dev, 22, na, na, na, 0
+967, 1983-11-12, 1, 7, India, c Kapil Dev, Shastri, 98, 192, 154, 14, 0
+967, 1983-11-12, 3, 7, India, c sub (Gursharan Singh), Kapil Dev, 20, na, na, na, 0
+968, 1983-11-24, 2, 6, India, c Kirmani, Yadav, 84, 189, 131, 9, 1
+971, 1983-12-10, 2, 5, India, c Gaekwad, Kapil Dev, 0, na, na, 0, 0
+972, 1983-12-24, 1, 5, India, c Kapil Dev, Binny, 62, 217, 169, 9, 0
+979, 1984-03-02, 2, 7, Australia, , Hogan, 21, 48, 42, 3, 0
+983, 1984-03-16, 2, 7, Australia, , Hogan, 130, 262, 187, 15, 2
+986, 1984-03-30, 2, 6, Australia, , Alderman, 2, 8, 7, 0, 0
+987, 1984-04-07, 2, 5, Australia, c Hughes, Rackemann, 28, 87, 61, 4, 0
+988, 1984-04-28, 2, 6, Australia, c Phillips, Maguire, 23, 133, 90, 2, 0
+989, 1984-06-14, 2, 5, England, c Gower, Miller, 23, 62, 51, 2, 0
+990, 1984-06-28, 2, 6, England, c Fowler, Botham, 8, 11, 9, 1, 0
+991, 1984-07-12, 2, 6, England, lbw, Allott, 26, 60, 52, 4, 0
+992, 1984-07-26, 1, 6, England, c Downton, Botham, 101, 245, 228, 12, 0
+993, 1984-08-09, 1, 5, England, c Tavare, Botham, 3, 14, 10, 0, 0
+993, 1984-08-09, 3, 6, England, c Lamb, Ellison, 49, 77, 63, 8, 0
+997, 1984-11-09, 1, 7, Australia, c Phillips, Alderman, 139, 240, 158, 21, 0
+999, 1984-11-23, 2, 6, Australia, c Phillips, Holland, 14, 37, 23, 1, 0
+1002, 1984-12-07, 1, 7, Australia, lbw, Lawson, 77, 245, 175, 11, 0
+1002, 1984-12-07, 3, 8, Australia, c Boon, Holland, 32, 72, 46, 2, 1
+1005, 1984-12-22, 1, 6, Australia, , McDermott, 0, 3, 4, 0, 0
+1005, 1984-12-22, 3, 6, Australia, not out, , 49, 154, 120, 2, 0
+1006, 1985-12-30, 2, 7, Australia, c Hilditch, Bennett, 22, 62, 46, 0, 1
+1006, 1985-12-30, 3, 7, Australia,                c &, Holland, 8, 30, 25, 0, 0
+1013, 1985-03-29, 1, 7, New Zealand, , Chatfield, 15, 29, 23, 1, 0
+1013, 1985-03-29, 3, 6, New Zealand, , Chatfield, 5, 41, 27, 0, 0
+1014, 1985-04-06, 1, 7, New Zealand, not out, , 60, 95, 79, 7, 0
+1014, 1985-04-06, 3, 7, New Zealand, , Cairns, 3, 20, 20, 0, 0
+1015, 1985-04-26, 2, 8, New Zealand, , Hadlee, 3, 24, 13, 0, 0
+1016, 1985-05-04, 1, 7, New Zealand, c Bracewell, Troup, 70, 153, 111, 12, 0
+1036, 1986-02-21, 2, 8, England, c Gooch, Thomas, 54, 142, 91, 9, 0
+1042, 1986-03-21, 1, 7, England, c sub (WN Slack), Botham, 5, 7, 7, 1, 0
+1044, 1986-04-03, 2, 6, England, c Downton, Botham, 5, 42, 25, 0, 0
+1045, 1986-04-11, 1, 6, England, , Foster, 21, 60, 44, 2, 0
+1055, 1986-10-24, 2, 5, Pakistan, c Rameez Raja, Tauseef Ahmed, 0, 1, 1, 0, 0
+1055, 1986-10-24, 4, 6, Pakistan, lbw, Imran Khan, 0, 3, 2, 0, 0
+1056, 1986-11-07, 2, 6, Pakistan, , Imran Khan, 2, 22, 13, 0, 0
+1058, 1986-11-20, 1, 6, Pakistan, c Saleem Yousuf, Abdul Qadir, 19, 72, 54, 2, 0
+1058, 1986-11-20, 3, 6, Pakistan, c Saleem Yousuf, Saleem Jaffar, 6, 39, 24, 0, 0
+1068, 1987-02-20, 2, 7, New Zealand, c Smith, Chatfield, 22, 84, 67, 3, 0
+1070, 1987-02-27, 1, 7, New Zealand, , Boock, 77, 249, 202, 8, 0
+1072, 1987-03-12, 1, 7, New Zealand, c Coney, Hadlee, 6, 8, 4, 1, 0
+1072, 1987-03-12, 3, 7, New Zealand, c MD Crowe, Snedden, 39, 126, 103, 5, 0
+1080, 1987-11-25, 2, 6, India, c Lamba, Kapil Dev, 5, 17, 16, 0, 0
+1080, 1987-11-25, 4, 7, India, not out, , 12, 66, 54, 1, 0
+1085, 1987-12-11, 2, 7, India,                c &, Shastri, 14, 74, 48, 0, 0
+1088, 1987-12-26, 1, 7, India, not out, , 40, 95, 91, 3, 0
+1089, 1988-01-11, 2, 7, India, st More, Hirwani, 24, 58, 44, 2, 0
+1089, 1988-01-11, 4, 7, India, st More, Hirwani, 2, 7, 5, 0, 0
+1095, 1988-04-02, 1, 7, Pakistan, lbw, Imran Khan, 15, 47, 28, 2, 0
+1095, 1988-04-02, 3, 7, Pakistan, c Imran Khan, Shoaib Mohammad, 11, 54, 38, 1, 0
+1096, 1988-04-14, 1, 7, Pakistan, c Saleem Yousuf, Imran Khan, 24, 62, 48, 2, 1
+1096, 1988-04-14, 3, 7, Pakistan, not out, , 106, 316, 175, 13, 0
+1097, 1988-04-22, 2, 7, Pakistan, run out, , 0, 5, 4, 0, 0
+1097, 1988-04-22, 4, 8, Pakistan, not out, , 29, 123, 92, 2, 0
+1098, 1988-06-02, 2, 7, England,                c &, Dilley, 16, 69, 60, 0, 0
+1099, 1988-06-16, 1, 7, England, , Emburey, 53, 149, 124, 8, 0
+1099, 1988-06-16, 3, 7, England, , Jarvis, 52, 134, 117, 8, 0
+1100, 1988-06-30, 2, 6, England, c Capel, Dilley, 67, 180, 159, 4, 0
+1101, 1988-07-21, 2, 2, England, c Smith, Dilley, 13, 14, 14, 2, 0
+1101, 1988-07-21, 4, 2, England, not out, , 40, 54, 44, 7, 0
+1102, 1988-08-04, 2, 6, England, lbw, Pringle, 64, 150, 111, 7, 0
+1108, 1988-11-18, 2, 7, Australia, c May, McDermott, 27, 62, 57, 5, 0
+1110, 1988-12-02, 1, 7, Australia, c Veletta, May, 32, 116, 86, 6, 0
+1110, 1988-12-02, 3, 7, Australia, c Dodemaide, Hughes, 9, 20, 18, 2, 0
+1112, 1988-12-24, 1, 7, Australia, c Healy, Waugh, 26, 72, 60, 3, 0
+1112, 1988-12-24, 3, 5, Australia, c Wood, Alderman, 46, 130, 89, 3, 0
+1113, 1989-01-26, 1, 7, Australia, c Hughes, Border, 18, 47, 47, 2, 0
+1113, 1989-01-26, 3, 7, Australia, run out, , 9, 28, 32, 2, 0
+1114, 1989-02-03, 2, 7, Australia, , Hohns, 28, 129, 84, 1, 0
+1117, 1989-03-25, 1, 8, India, lbw, Arshad Ayub, 31, 64, 74, 5, 0
+1118, 1989-04-07, 2, 7, India, c Manjrekar, Shastri, 33, 120, 96, 4, 0
+1119, 1989-04-15, 1, 7, India, c Raman, Arshad Ayub, 5, 38, 38, 0, 0
+1119, 1989-04-15, 3, 7, India, , Shastri, 3, 24, 20, 0, 0
+1120, 1989-04-28, 2, 7, India, , Arshad Ayub, 11, 101, 61, 0, 0
+1140, 1990-02-24, 1, 7, England, not out, , 19, 70, 40, 2, 0
+1140, 1990-02-24, 3, 7, England, , Malcolm, 15, 40, 30, 3, 0
+1142, 1990-03-23, 1, 5, England, lbw, Small, 4, 18, 10, 0, 0
+1142, 1990-03-23, 3, 5, England, , Malcolm, 0, 1, 1, 0, 0
+1143, 1990-04-05, 1, 7, England, , Capel, 31, 132, 74, 5, 0
+1143, 1990-04-05, 3, 8, England, not out, , 15, 49, 30, 0, 0
+1144, 1990-04-12, 2, 7, England, run out, , 25, 63, 38, 3, 1
+1154, 1990-11-15, 1, 7, Pakistan, c Javed Miandad, Waqar Younis, 17, 45, 42, 1, 0
+1154, 1990-11-15, 3, 7, Pakistan, , Shoaib Mohammad, 1, 15, 9, 0, 0
+1157, 1990-11-23, 2, 7, Pakistan, lbw, Wasim Akram, 9, 67, 38, 0, 0
+1158, 1990-12-06, 1, 7, Pakistan, st Moin Khan, Masood Anwar, 0, 6, 5, 0, 0
+1158, 1990-12-06, 3, 7, Pakistan, c Moin Khan, Wasim Akram, 3, 34, 26, 0, 0
+1166, 1991-03-01, 1, 7, Australia, c Marsh, Hughes, 59, 210, 166, 7, 0
+1167, 1991-03-23, 2, 7, Australia, lbw, Border, 29, 102, 87, 4, 0
+1168, 1991-04-05, 2, 7, Australia, lbw, McDermott, 70, 250, 178, 6, 0
+1169, 1991-04-19, 1, 7, Australia, c Healy, Hughes, 10, 26, 17, 1, 0
+1169, 1991-04-19, 3, 8, Australia, c ME Waugh, McDermott, 4, 15, 13, 0, 0
+1170, 1991-04-27, 2, 7, Australia, c Jones, Hughes, 33, 91, 58, 2, 2
+1170, 1991-04-27, 4, 7, Australia, lbw, McDermott, 4, 26, 20, 0, 0
+1171, 1991-06-06, 2, 7, England, c Ramprakash, Watkin, 6, 14, 13, 1, 0
+1171, 1991-06-06, 4, 7, England, lbw, DeFreitas, 33, 72, 62, 5, 0
+1172, 1991-06-20, 1, 7, England, c Lamb, Pringle, 20, 63, 43, 1, 0
+1173, 1991-07-04, 2, 7, England, c Hick, Pringle, 19, 110, 79, 3, 0
+1174, 1991-07-25, 2, 7, England, lbw, DeFreitas, 6, 29, 17, 1, 0
+1175, 1991-08-08, 2, 6, England, lbw, Lawrence, 0, 6, 1, 0, 0
+1175, 1991-08-08, 3, 7, England, c Stewart, Lawrence, 5, 14, 14, 1, 0

@@ -1,0 +1,118 @@
+
+Test # 125
+Australia v South Africa, 1912, 2nd Test
+Triangular Tournament, 1912, 5th match
+Australia v South Africa
+Lord's, London
+15,16,17 July 1912 (3-day match)
+
+Result: Australia won by 10 wickets
+Triangular Tournament points: Australia 1, South Africa 0
+Australia v South Africa Test Series: Australia leads the 3-match series 2-0
+
+Toss: South Africa
+Umpires: J Moss and AE Street
+Test debut: ER Mayne (Australia).
+
+Close of play:
+ Day 1: South Africa 263, Australia 86/2 (Kelleway 33*, Bardsley 32*)
+ Day 2: Australia 390, South Africa 146/8 (Taylor 5*)
+
+South Africa 1st innings                                        R   M   B  4 6
+GA Faulkner                              b Whitty               5            0
+LJ Tancred            lbw                b Matthews            31            0
+GC White              c Carkeek          b Minnett              0          0 0
+CB Llewellyn          c Jennings         b Minnett              8            0
+AW Nourse                                b Hazlitt             11            0
+HW Taylor             c Kelleway         b Hazlitt             93 170     12 0
+LA Stricker           lbw                b Kelleway            48          9 0
+*F Mitchell                              b Whitty              12            0
+RO Schwarz                               b Whitty               0          0 0
+SJ Pegler             c Bardsley         b Whitty              25            0
++TA Ward              not out                                   1          0 0
+Extras                (b 12, lb 14, w 1, nb 2)                 29
+Total                 (all out, 89 overs)                     263
+
+FoW: 1-24 (Faulkner), 2-25 (White), 3-35 (Llewellyn),
+     4-56 (Nourse), 5-74 (Tancred), 6-171 (Stricker),
+     7-203 (Mitchell), 8-213 (Schwarz), 9-250 (Pegler),
+     10-263 (Taylor).
+
+Bowling                      O      M      R      W
+Minnett                     15      6     49      2
+Whitty                      31      9     68      4
+Hazlitt                     19      9     47      2
+Matthews                    13      5     32      1
+Kelleway                    11      3     38      1
+
+Australia 1st innings                                           R   M   B  4 6
+CB Jennings                              b Nourse               0          0 0
+C Kelleway            lbw                b Faulkner           102 220      7 0
+CG Macartney                             b Nourse               9            0
+W Bardsley            lbw                b Llewellyn          164         15 1
+*SE Gregory                              b Llewellyn            5            0
+ER Mayne              st Ward            b Pegler              23            0
+RB Minnett                               b Pegler              39            0
+TJ Matthews           c Faulkner         b Pegler               9            0
+GR Hazlitt                               b Nourse               0          0 0
++W Carkeek            not out                                   6            0
+WJ Whitty             lbw                b Pegler               3          0 0
+Extras                (b 24, lb 3, w 2, nb 1)                  30
+Total                 (all out, 128.5 overs)                  390
+
+FoW: 1-0 (Jennings), 2-14 (Macartney), 3-256 (Kelleway),
+     4-277 (Gregory), 5-316 (Bardsley), 6-353 (Mayne),
+     7-375 (Matthews), 8-379 (Hazlitt), 9-381 (Minnett),
+     10-390 (Whitty).
+
+Bowling                      O      M      R      W
+Nourse                      36     12     60      3
+Pegler                      29.5    7     79      4
+Schwarz                     11      1     44      0
+Faulkner                    28      3     86      1
+Llewellyn                   19      2     71      2
+Taylor                       2      0     12      0
+Stricker                     3      1      8      0
+
+South Africa 2nd innings                                        R   M   B  4 6
+LA Stricker                              b Hazlitt             13            0
+LJ Tancred            c Bardsley         b Hazlitt             19            0
+GC White                                 b Matthews            18            0
+CB Llewellyn                             b Macartney           59  75        0
+AW Nourse             lbw                b Kelleway            10            0
+GA Faulkner                          c & b Matthews             6            0
+HW Taylor             not out                                  10            0
+*F Mitchell                              b Matthews             3          0 0
+RO Schwarz            c Macartney        b Matthews             1          0 0
+SJ Pegler             c Kelleway         b Macartney           14            0
++TA Ward                                 b Macartney            7            0
+Extras                (b 9, lb 4)                              13
+Total                 (all out, 57.1 overs)                   173
+
+FoW: 1-28 (Tancred), 2-54 (White), 3-62 (Stricker),
+     4-102 (Nourse), 5-134 (Llewellyn), 6-136 (Faulkner),
+     7-142 (Mitchell), 8-146 (Schwarz), 9-163 (Pegler),
+     10-173 (Ward).
+
+Bowling                      O      M      R      W
+Whitty                       9      0     41      0
+Hazlitt                     13      1     39      2
+Matthews                    13      2     29      4
+Kelleway                     8      1     22      1
+Macartney                   14.1    5     29      3
+
+Australia 2nd innings (target: 47 runs)                         R   M   B  4 6
+CB Jennings           not out                                  22            0
+ER Mayne              not out                                  25            0
+Extras                (b 1)                                     1
+Total                 (0 wickets, 12.1 overs)                  48
+
+DNB: C Kelleway, CG Macartney, W Bardsley, *SE Gregory,
+     RB Minnett, TJ Matthews, GR Hazlitt, +W Carkeek, WJ Whitty.
+
+Bowling                      O      M      R      W
+Nourse                       6.1    2     22      0
+Pegler                       4      1     15      0
+Faulkner                     2      0     10      0
+
+<END>

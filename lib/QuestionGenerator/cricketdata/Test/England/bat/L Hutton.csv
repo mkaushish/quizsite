@@ -1,0 +1,140 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+260, 1937-06-26, 1, 2, New Zealand, , Cowie, 0, 30, na, 0, 0
+260, 1937-06-26, 3, 2, New Zealand, c Vivian, Cowie, 1, na, na, 0, 0
+261, 1937-07-24, 1, 2, New Zealand, c Dunning, Vivian, 100, 210, na, 8, 0
+261, 1937-07-24, 3, 2, New Zealand, c Vivian, Cowie, 14, na, na, na, 0
+262, 1937-08-14, 2, 2, New Zealand,                c &, Vivian, 12, na, na, na, 0
+263, 1938-06-10, 1, 2, Australia, lbw, Fleetwood-Smith, 100, 199, 221, 14, 0
+264, 1938-06-24, 1, 2, Australia, c Brown, McCormick, 4, 11, 9, 1, 0
+264, 1938-06-24, 3, 2, Australia, c McCormick, O'Reilly, 5, 35, 16, 0, 0
+266, 1938-08-20, 1, 1, Australia, c Hassett, O'Reilly, 364, 797, 847, 35, 0
+268, 1939-12-31, 1, 1, South Africa, , Gordon, 17, 30, na, na, 1
+269, 1939-01-20, 1, 1, South Africa, lbw, Gordon, 31, 40, na, na, 0
+270, 1939-02-18, 1, 1, South Africa, , Mitchell, 92, 202, na, 7, 0
+270, 1939-02-18, 3, 1, South Africa, c Grieveson, Gordon, 32, 100, na, na, 0
+271, 1939-03-03, 2, 1, South Africa, run out, , 38, 144, na, na, 0
+271, 1939-03-03, 4, 1, South Africa, , Mitchell, 55, na, na, na, 0
+272, 1939-06-24, 2, 1, West Indies, c Grant, Hylton, 196, 335, na, 21, 0
+272, 1939-06-24, 4, 1, West Indies, , Hylton, 16, na, na, na, 0
+273, 1939-07-22, 1, 1, West Indies, c Martindale, Grant, 13, na, na, na, 0
+273, 1939-07-22, 3, 1, West Indies, c Sealy, Martindale, 17, na, na, na, 0
+274, 1939-08-19, 1, 1, West Indies,                c &, Johnson, 73, na, na, na, 0
+274, 1939-08-19, 3, 1, West Indies, not out, , 165, 310, na, 17, 0
+276, 1946-06-22, 2, 1, India, c Nayudu, Amarnath, 7, na, na, na, 0
+276, 1946-06-22, 4, 1, India, not out, , 22, na, na, na, 0
+277, 1946-07-20, 1, 1, India, c Mushtaq Ali, Mankad, 67, 180, na, 3, 0
+277, 1946-07-20, 3, 1, India, c Hindlekar, Amarnath, 2, na, na, 0, 0
+278, 1946-08-17, 2, 1, India, lbw, Mankad, 25, na, na, na, 0
+279, 1946-11-29, 2, 1, Australia, , Miller, 7, 16, 16, 0, 0
+279, 1946-11-29, 3, 1, Australia, c Barnes, Miller, 0, 1, 1, 0, 0
+280, 1946-12-13, 1, 1, Australia, c Tallon, Johnson, 39, 112, 128, 2, 0
+280, 1946-12-13, 3, 1, Australia, hit wicket, Miller, 37, 24, 39, 6, 0
+281, 1947-01-01, 2, 1, Australia, c McCool, Lindwall, 2, 15, 10, 0, 0
+281, 1947-01-01, 4, 1, Australia, c Bradman, Toshack, 40, 178, 168, 3, 0
+282, 1947-01-31, 1, 1, Australia, lbw, McCool, 94, 236, 274, 7, 0
+282, 1947-01-31, 3, 1, Australia, , Johnson, 76, 144, 161, 7, 0
+283, 1947-02-28, 1, 1, Australia, retired hurt, , 122, 300, 356, 5, 0
+283, 1947-02-28, 3, 11, Australia, absent hurt, , -, , , , 
+285, 1947-06-07, 2, 1, South Africa, lbw, Rowan, 17, 46, na, na, 0
+285, 1947-06-07, 3, 1, South Africa, , Tuckett, 9, 20, na, na, 0
+286, 1947-06-21, 1, 1, South Africa, , Rowan, 18, 110, 121, 1, 0
+286, 1947-06-21, 4, 1, South Africa, not out, , 13, 30, na, na, 0
+287, 1947-07-05, 2, 1, South Africa, c Lindsay, Plimsoll, 12, 32, na, na, 0
+287, 1947-07-05, 4, 1, South Africa, c Dawson, Mann, 24, 71, na, na, 0
+288, 1947-07-26, 2, 1, South Africa, run out, , 100, 277, na, na, 0
+288, 1947-07-26, 4, 1, South Africa, not out, , 32, 38, na, na, 1
+289, 1947-08-16, 1, 1, South Africa, , Mann, 83, 213, na, 6, 0
+289, 1947-08-16, 3, 1, South Africa, c Tuckett, Mann, 36, 55, na, na, 0
+297, 1948-03-03, 2, 1, West Indies, c Williams, Goddard, 31, na, na, na, 0
+297, 1948-03-03, 3, 1, West Indies, , Ferguson, 24, na, na, na, 0
+298, 1948-03-27, 1, 1, West Indies, , Johnson, 56, na, na, na, 0
+298, 1948-03-27, 3, 1, West Indies, c sub, Goddard, 60, 120, na, na, 0
+299, 1948-06-10, 1, 1, Australia, , Miller, 3, 12, na, 0, 0
+299, 1948-06-10, 3, 1, Australia, , Miller, 74, 168, na, 11, 0
+300, 1948-06-24, 2, 1, Australia, , Johnson, 20, na, na, na, 0
+300, 1948-06-24, 4, 1, Australia, c Johnson, Lindwall, 13, na, na, na, 0
+302, 1948-07-22, 1, 1, Australia, , Lindwall, 81, 187, na, na, 0
+302, 1948-07-22, 3, 1, Australia, c Bradman, Johnson, 57, na, na, na, 1
+303, 1948-08-14, 1, 1, Australia, c Tallon, Lindwall, 30, 124, 147, 1, 0
+303, 1948-08-14, 3, 1, Australia, c Tallon, Miller, 64, na, na, na, 0
+306, 1948-12-16, 2, 1, South Africa, c McCarthy, AMB Rowan, 83, 189, na, na, 0
+306, 1948-12-16, 4, 1, South Africa, c Dawson, Tuckett, 5, 20, na, 0, 0
+307, 1948-12-27, 1, 1, South Africa, c Wade, McCarthy, 158, 290, na, 16, 0
+309, 1949-01-01, 1, 1, South Africa, run out, , 41, na, na, na, 0
+309, 1949-01-01, 3, 1, South Africa, , Rowan, 87, na, na, na, 0
+312, 1949-02-12, 1, 1, South Africa, , Tuckett, 2, na, na, 0, 0
+312, 1949-02-12, 3, 1, South Africa, , AMB Rowan, 123, na, na, na, 0
+313, 1949-03-05, 2, 1, South Africa, c Dawson, AMB Rowan, 46, na, na, na, 1
+313, 1949-03-05, 4, 1, South Africa, st Wade, AMB Rowan, 32, 27, na, na, 0
+314, 1949-06-11, 1, 1, New Zealand, c Sutcliffe, Cowie, 101, 245, na, 14, 0
+314, 1949-06-11, 3, 1, New Zealand, c Mooney, Cave, 0, 1, 2, 0, 0
+315, 1949-06-25, 1, 1, New Zealand, , Burtt, 23, 77, na, na, 0
+315, 1949-06-25, 3, 1, New Zealand, c Cave, Rabone, 66, na, na, na, 0
+316, 1949-07-23, 2, 1, New Zealand, st Mooney, Burtt, 73, 192, na, 6, 1
+317, 1949-08-13, 2, 1, New Zealand, c Rabone, Cresswell, 206, 300, na, 25, 0
+323, 1950-06-08, 1, 1, West Indies, , Valentine, 39, 73, na, 3, 0
+323, 1950-06-08, 3, 8, West Indies,                c &, Worrell, 45, 116, na, 7, 0
+324, 1950-06-24, 2, 1, West Indies, st Walcott, Valentine, 35, na, na, na, 0
+324, 1950-06-24, 4, 1, West Indies, , Valentine, 10, na, na, na, 0
+326, 1950-08-12, 2, 1, West Indies, not out, , 202, 470, na, 22, 0
+326, 1950-08-12, 3, 1, West Indies, c Christiani, Goddard, 2, na, na, 0, 0
+327, 1950-12-01, 2, 6, Australia, not out, , 8, 34, na, 0, 0
+327, 1950-12-01, 4, 8, Australia, not out, , 62, 90, na, 7, 0
+328, 1950-12-22, 2, 4, Australia, c Tallon, Iverson, 12, 39, na, 1, 0
+328, 1950-12-22, 4, 4, Australia, c Lindwall, Johnston, 40, 124, na, 4, 0
+329, 1951-01-05, 1, 1, Australia, lbw, Miller, 62, 176, na, 3, 0
+329, 1951-01-05, 3, 1, Australia, c Tallon, Iverson, 9, 47, na, 0, 0
+330, 1951-02-02, 2, 1, Australia, not out, , 156, 370, na, 11, 0
+330, 1951-02-02, 4, 1, Australia, c sub, Johnston, 45, 90, na, 5, 0
+331, 1951-02-23, 2, 1, Australia, , Hole, 79, 174, na, 8, 0
+331, 1951-02-23, 4, 1, Australia, not out, , 60, 113, na, 3, 0
+332, 1951-03-17, 2, 1, New Zealand, , Moir, 28, 88, na, 1, 0
+333, 1951-03-24, 2, 1, New Zealand, c Reid, Moir, 57, 195, na, 2, 0
+333, 1951-03-24, 4, 1, New Zealand, c Hadlee, Cresswell, 29, 92, na, 3, 0
+334, 1951-06-07, 2, 1, South Africa, c Waite, AMB Rowan, 63, na, na, 6, 0
+334, 1951-06-07, 4, 1, South Africa,                c &, AMB Rowan, 11, na, na, na, 0
+335, 1951-06-21, 1, 1, South Africa, lbw, McCarthy, 12, 20, na, 2, 0
+335, 1951-06-21, 4, 1, South Africa, not out, , 12, 10, 14, 2, 0
+336, 1951-07-05, 2, 1, South Africa, c van Ryneveld, AMB Rowan, 27, 120, na, 1, 0
+336, 1951-07-05, 4, 1, South Africa, not out, , 98, 178, na, 12, 0
+337, 1951-07-26, 2, 1, South Africa, , van Ryneveld, 100, 300, na, na, 0
+338, 1951-08-16, 2, 1, South Africa, lbw, AMB Rowan, 28, na, na, na, 0
+338, 1951-08-16, 4, 1, South Africa, obstructing the field, , 27, 50, na, na, 0
+351, 1952-06-05, 2, 1, India, c Ramchand, Ghulam Ahmed, 10, na, na, na, 0
+351, 1952-06-05, 4, 1, India, , Phadkar, 10, na, na, na, 0
+352, 1952-06-19, 2, 1, India, c Mantri, Hazare, 150, 317, na, 20, 0
+352, 1952-06-19, 4, 1, India, not out, , 39, 125, na, na, 0
+353, 1952-07-17, 1, 1, India, c Sen, Divecha, 104, 315, na, 10, 0
+354, 1952-08-14, 1, 1, India, c Phadkar, Ramchand, 86, 240, na, na, 0
+372, 1953-06-11, 2, 1, Australia, c Benaud, Davidson, 43, 120, na, na, 0
+372, 1953-06-11, 4, 1, Australia, not out, , 60, na, na, 6, 0
+373, 1953-06-25, 2, 1, Australia, c Hole, Johnston, 145, 315, na, 16, 0
+373, 1953-06-25, 4, 1, Australia, c Hole, Lindwall, 5, na, na, na, 0
+374, 1953-07-09, 2, 1, Australia, lbw, Lindwall, 66, 162, na, 10, 0
+375, 1953-07-23, 1, 1, Australia, , Lindwall, 0, 1, 2, 0, 0
+375, 1953-07-23, 3, 1, Australia, c Langley, Archer, 25, na, na, na, 0
+376, 1953-08-15, 2, 1, Australia, , Johnston, 82, 218, na, 8, 0
+376, 1953-08-15, 4, 1, Australia, run out, , 17, na, na, na, 0
+380, 1954-01-15, 2, 2, West Indies, , Valentine, 24, na, na, na, 0
+380, 1954-01-15, 4, 2, West Indies, lbw, Gomez, 56, na, na, na, 0
+383, 1954-02-06, 2, 1, West Indies, c Ramadhin, Valentine, 72, 270, na, na, 0
+383, 1954-02-06, 4, 1, West Indies, c Worrell, Ramadhin, 77, na, na, na, 0
+384, 1954-02-24, 1, 2, West Indies, c Worrell, Ramadhin, 169, 460, na, 24, 1
+385, 1954-03-17, 2, 1, West Indies, c Ferguson, King, 44, na, na, na, 0
+385, 1954-03-17, 4, 4, West Indies, not out, , 30, na, na, na, 0
+386, 1954-03-30, 2, 1, West Indies, c McWatt, Walcott, 205, 532, na, 24, 1
+387, 1954-06-10, 2, 1, Pakistan, , Khan Mohammad, 0, na, na, 0, 0
+390, 1954-08-12, 2, 1, Pakistan, c Imtiaz Ahmed, Fazal Mahmood, 14, 44, na, 3, 0
+390, 1954-08-12, 4, 1, Pakistan, c Imtiaz Ahmed, Fazal Mahmood, 5, 21, na, 1, 0
+391, 1954-11-26, 2, 1, Australia, c Langley, Lindwall, 4, 4, na, 1, 0
+391, 1954-11-26, 3, 1, Australia, lbw, Miller, 13, 60, na, 2, 0
+392, 1954-12-17, 1, 1, Australia, c Davidson, Johnston, 30, 132, 109, 3, 0
+392, 1954-12-17, 3, 1, Australia, c Benaud, Johnston, 28, 77, 53, 4, 0
+393, 1955-12-31, 1, 1, Australia, c Hole, Miller, 12, 37, na, 1, 0
+393, 1955-12-31, 3, 1, Australia, lbw, Archer, 42, 146, na, 3, 0
+396, 1955-01-28, 2, 1, Australia, c Davidson, Johnston, 80, 270, na, 5, 0
+396, 1955-01-28, 4, 1, Australia, c Davidson, Miller, 5, 11, na, 0, 0
+399, 1955-02-25, 1, 1, Australia, c Burge, Lindwall, 6, 3, 4, 1, 0
+401, 1955-03-11, 2, 1, New Zealand, c Colquhoun, Reid, 11, 50, na, 2, 0
+401, 1955-03-11, 4, 1, New Zealand, c Colquhoun, Blair, 3, 17, na, 0, 0
+402, 1955-03-25, 2, 5, New Zealand, , MacGibbon, 53, 143, na, 5, 0

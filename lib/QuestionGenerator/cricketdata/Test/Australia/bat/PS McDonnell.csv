@@ -1,0 +1,35 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+4, 1880-09-06, 2, 4, England, c Barnes, Morley, 27, 49, 41, 2, 0
+4, 1880-09-06, 3, 5, England, lbw, WG Grace, 43, 75, 76, 9, 0
+5, 1882-12-31, 2, 4, England, , Midwinter, 19, na, na, 2, 0
+5, 1882-12-31, 4, 5, England, not out, , 33, na, na, 4, 1
+6, 1882-02-17, 2, 6, England, , Bates, 14, na, na, 1, 0
+6, 1882-02-17, 4, 5, England, , Shaw, 25, na, na, 2, 0
+7, 1882-03-03, 2, 5, England, c Midwinter, Peate, 147, 250, na, 16, 1
+7, 1882-03-03, 4, 5, England, c Emmett, Peate, 9, na, na, 0, 0
+8, 1882-03-10, 2, 4, England, c Barlow, Ulyett, 52, na, na, 3, 1
+10, 1883-12-30, 1, 5, England, , Bates, 43, na, na, 4, 0
+11, 1883-01-19, 2, 5, England, , Bates, 3, na, na, 0, 0
+11, 1883-01-19, 3, 6, England, , Bates, 13, na, na, 1, 0
+12, 1883-01-26, 2, 4, England, , Steel, 0, na, na, 0, 0
+12, 1883-01-26, 4, 5, England, c Bligh, Morley, 0, na, na, 0, 0
+14, 1884-07-10, 2, 1, England, c Pilling, Steel, 36, na, na, na, 0
+15, 1884-07-21, 1, 1, England, , Peate, 0, na, na, 0, 0
+15, 1884-07-21, 3, 1, England, , Steel, 20, na, na, na, 0
+16, 1884-08-11, 1, 2, England, c Ulyett, Peate, 103, na, 168, 14, 0
+17, 1884-12-12, 1, 2, England, , Attewell, 124, 195, na, 8, 0
+17, 1884-12-12, 3, 2, England, run out, , 83, 150, na, 6, 0
+20, 1885-03-14, 2, 4, England, c Attewell, Ulyett, 20, na, na, 2, 0
+20, 1885-03-14, 4, 1, England, c Ulyett, Peel, 3, na, na, 0, 0
+25, 1887-01-28, 2, 2, England, , Barnes, 14, 24, na, 0, 1
+25, 1887-01-28, 4, 2, England, lbw, Barnes, 0, 5, na, 0, 0
+26, 1887-02-25, 2, 5, England, c Gunn, Lohmann, 10, 8, 9, 2, 0
+26, 1887-02-25, 4, 1, England, c Gunn, Lohmann, 35, 52, na, 2, 0
+27, 1888-02-10, 2, 7, England, , Lohmann, 3, 2, 5, 0, 0
+27, 1888-02-10, 4, 2, England, , Peel, 6, 12, 16, 1, 0
+28, 1888-07-16, 1, 2, England, c O'Brien, Peel, 22, na, na, na, 0
+28, 1888-07-16, 3, 2, England, , Lohmann, 1, na, na, 0, 0
+29, 1888-08-13, 1, 2, England, c Lohmann, Peel, 0, na, na, 0, 0
+29, 1888-08-13, 3, 2, England, , Peel, 32, na, na, na, 0
+30, 1888-08-30, 2, 1, England, c Grace, Peel, 15, na, na, na, 0
+30, 1888-08-30, 3, 2, England, , Lohmann, 0, na, na, 0, 0

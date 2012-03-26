@@ -1,0 +1,121 @@
+
+Test # 94
+South Africa in England, 1907, 2nd Test
+England v South Africa
+Headingley, Leeds
+29,30,31 July 1907 (3-day match)
+
+Result: England won by 53 runs
+Series: England leads the 3-match series 1-0
+
+Toss: England
+Umpires: J Carlin and J Moss
+Test debut: NA Knox (England).
+
+Close of play:
+ Day 1: England 76, South Africa 110, England 25/0 (Hayward 13*, Fry 12*)
+ Day 2: England 110/4 (Foster 4*, Hirst 1*)
+
+England 1st innings                                             R   M   B  4 6
+TW Hayward            st Sherwell        b Faulkner            24  60        0
+CB Fry                                   b Vogler               2   5      0 0
+JT Tyldesley                             b Faulkner            12            0
+*RE Foster                               b Sinclair             0          0 0
+LC Braund             lbw                b Faulkner             1          0 0
+GH Hirst              c Hathorn          b Sinclair            17  35        0
+GL Jessop             c Sherwell         b Faulkner             0   1   2  0 0
+EG Arnold                                b Faulkner             0          0 0
++AFA Lilley           c Schwarz          b Faulkner             3          0 0
+C Blythe              not out                                   5            0
+NA Knox               c Faulkner         b Sinclair             8            0
+Extras                (b 1, lb 2, nb 1)                         4
+Total                 (all out, 36.3 overs)                    76
+
+FoW: 1-9 (Fry), 2-41 (Tyldesley), 3-42 (Foster), 4-42 (Hayward),
+     5-53 (Braund), 6-53 (Jessop), 7-57 (Arnold), 8-63 (Hirst),
+     9-63 (Lilley), 10-76 (Knox).
+
+Bowling                      O      M      R      W
+Vogler                       8      3     14      1
+Schwarz                      7      0     18      0
+Faulkner                    11      4     17      6
+Sinclair                    10.3    2     23      3
+
+South Africa 1st innings                                        R   M   B  4 6
+LJ Tancred            st Lilley          b Blythe               0          0 0
+*+PW Sherwell         lbw                b Blythe              26  70        0
+CMH Hathorn           c Lilley           b Hirst                0          0 0
+AW Nourse             c Arnold           b Blythe              18            0
+GC White              c Hirst            b Blythe               3          0 0
+JH Sinclair           st Lilley          b Blythe               2          0 0
+GA Faulkner           c Braund           b Blythe               6            0
+SJ Snooke             c Lilley           b Knox                13            0
+WA Shalders           c Fry              b Blythe              21            0
+AEE Vogler            c Hayward          b Blythe              11  20        0
+RO Schwarz            not out                                   5            0
+Extras                (b 3, lb 1, nb 1)                         5
+Total                 (all out, 31.5 overs)                   110
+
+FoW: 1-6 (Tancred), 2-9 (Hathorn), 3-34 (Nourse), 4-47 (White),
+     5-49 (Sinclair), 6-56 (Sherwell), 7-59 (Faulkner),
+     8-73 (Snooke), 9-102 (Vogler), 10-110 (Shalders).
+
+Bowling                      O      M      R      W
+Hirst                        9      3     22      1
+Blythe                      15.5    1     59      8
+Arnold                       4      1     11      0
+Knox                         3      0     13      1
+
+England 2nd innings                                             R   M   B  4 6
+TW Hayward            st Sherwell        b Vogler              15            0
+CB Fry                lbw                b White               54  65      4 0
+JT Tyldesley          c Snooke           b Schwarz             30  50      2 0
+*RE Foster            lbw                b Faulkner            22  75      1 0
+LC Braund             c Schwarz          b White                0          0 0
+GH Hirst                                 b White                2          0 0
+GL Jessop             c Hathorn          b Faulkner            10       8    0
+EG Arnold             c Schwarz          b Faulkner            12            0
++AFA Lilley           lbw                b White                0          0 0
+C Blythe              not out                                   4            0
+NA Knox               run out                                   5            0
+Extras                (b 7, lb 1)                               8
+Total                 (all out, 49.4 overs)                   162
+
+FoW: 1-37 (Hayward), 2-100 (Fry), 3-106 (Tyldesley),
+     4-107 (Braund), 5-115 (Hirst), 6-126 (Jessop),
+     7-151 (Arnold), 8-152 (Lilley), 9-154 (Foster),
+     10-162 (Knox).
+
+Bowling                      O      M      R      W
+Vogler                       4      0     18      1
+Schwarz                      5.4    0     18      1
+Faulkner                    20      3     58      3
+Sinclair                     4      0     13      0
+White                       16      3     47      4
+
+South Africa 2nd innings (target: 129 runs)                     R   M   B  4 6
+LJ Tancred            run out                                   0          0 0
+*+PW Sherwell         c Foster           b Blythe               1          0 0
+CMH Hathorn                              b Arnold               7            0
+AW Nourse             lbw                b Blythe               2          0 0
+GC White              c Arnold           b Blythe               7            0
+GA Faulkner           c Foster           b Blythe              11            0
+JH Sinclair           c Braund           b Blythe              15            0
+SJ Snooke             c Hirst            b Blythe              14            0
+WA Shalders           lbw                b Hirst                5            0
+AEE Vogler            c Tyldesley        b Blythe               9            0
+RO Schwarz            not out                                   0          0 0
+Extras                (b 3, nb 1)                               4
+Total                 (all out, 44.4 overs)                    75
+
+FoW: 1-0 (Tancred), 2-3 (Sherwell), 3-10 (Nourse),
+     4-16 (Hathorn), 5-18 (White), 6-38 (Sinclair),
+     7-56 (Faulkner), 8-66 (Shalders), 9-75 (Vogler),
+     10-75 (Snooke).
+
+Bowling                      O      M      R      W
+Blythe                      22.4    9     40      7
+Arnold                      13      7     10      1
+Hirst                        9      2     21      1
+
+<END>

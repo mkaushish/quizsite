@@ -1,0 +1,105 @@
+
+Test # 837
+West Indies in India, 1978/79, 2nd Test
+India v West Indies
+Karnataka State Cricket Association Stadium, Bangalore
+15,16,17,19,20 December 1978 (5-day match)
+
+Result: Match drawn
+Series: 6-match series level 0-0
+
+Toss: West Indies
+Umpires: S Kishen and Mohammad Ghouse
+Test debut: MD Marshall (West Indies).
+
+Close of play:
+ Day 1: West Indies 285/5 (Shivnarine 6*, Holder 0*)
+ Day 2: West Indies 437, India 129/1 (Gaekwad 57*, Vengsarkar 57*)
+ Day 3: India 369/8 (Ghavri 42*, Bedi 18*)
+ Day 4: India 371, West Indies 200/8 (Phillip 13*, Holder 0*, 82 ov)
+ Day 5: No play
+
+West Indies 1st innings                                         R   M   B  4 6
+AB Williams           st Kirmani         b Bedi                44            0
+SFAF Bacchus                             b Bedi                96            0
+HA Gomes                             c & b Chandrasekhar       51            0
+*AI Kallicharran      c Viswanath        b Ghavri              71            0
++DA Murray            c Kirmani          b Ghavri              14            0
+S Shivnarine                             b Venkataraghavan     62          9 0
+VA Holder                                b Kapil Dev           27  55        0
+DR Parry              not out                                  41            0
+MD Marshall           lbw                b Chandrasekhar        0          0 0
+N Phillip             run out                                  26            0
+ST Clarke                            c & b Bedi                 0          0 0
+Extras                (lb 3, nb 2)                              5
+Total                 (all out, 140 overs)                    437
+
+FoW: 1-97 (Williams), 2-164 (Bacchus), 3-238 (Gomes),
+     4-268 (Murray), 5-284 (Kallicharran), 6-343 (Holder),
+     7-383 (Shivnarine), 8-384 (Marshall), 9-437 (Phillip),
+     10-437 (Clarke).
+
+Bowling                      O      M      R      W
+Kapil Dev                   20      5     79      1
+Ghavri                      16      1     77      2
+Bedi                        29      7     98      3
+Chandrasekhar               33      4     94      2
+Venkataraghavan             41     15     74      1
+Gaekwad                      1      0     10      0
+
+India 1st innings                                               R   M   B  4 6
+*SM Gavaskar          c Shivnarine       b Clarke               0   1   1  0 0
+AD Gaekwad                               b Parry               87            0
+DB Vengsarkar         c Murray           b Phillip             73            0
+GR Viswanath          c Kallicharran     b Clarke              70            0
+CPS Chauhan           c Parry            b Marshall            15            0
++SMH Kirmani          c Kallicharran     b Phillip             15            0
+N Kapil Dev           c Murray           b Clarke              12            0
+KD Ghavri                                b Clarke              43            0
+S Venkataraghavan     c Phillip          b Clarke              11            0
+BS Bedi               c Shivnarine       b Phillip             18            0
+BS Chandrasekhar      not out                                   0          0 0
+Extras                (b 1, lb 5, nb 21)                       27
+Total                 (all out, 116.2 overs)                  371
+
+FoW: 1-0 (Gavaskar), 2-170 (Vengsarkar), 3-200 (Gaekwad),
+     4-233 (Chauhan), 5-266 (Kirmani), 6-291 (Viswanath),
+     7-304 (Kapil Dev), 8-318 (Venkataraghavan), 9-369 (Bedi),
+     10-371 (Ghavri).
+
+Bowling                      O      M      R      W
+Clarke                      34.2    3    126      5
+Phillip                     25      6     86      3
+Marshall                    18      2     53      1
+Holder                      24      3     55      0
+Parry                       12      6     22      1
+Shivnarine                   3      2      2      0
+
+West Indies 2nd innings                                         R   M   B  4 6
+AB Williams           c Gavaskar         b Ghavri              20            0
+SFAF Bacchus          c Chauhan          b Ghavri               4            0
+HA Gomes              c Chauhan          b Ghavri              82 265        0
+*AI Kallicharran                         b Ghavri              21            0
++DA Murray                               b Kapil Dev            9            0
+S Shivnarine          c Chauhan          b Kapil Dev            0          0 0
+DR Parry              c Kirmani          b Bedi                38            0
+N Phillip             not out                                  13            0
+MD Marshall                              b Ghavri               5            0
+VA Holder             not out                                   0          0 0
+Extras                (b 1, lb 3, nb 4)                         8
+Total                 (8 wickets, 82 overs)                   200
+
+DNB: ST Clarke.
+
+FoW: 1-7 (Bacchus), 2-38 (Williams), 3-74 (Kallicharran),
+     4-98 (Murray), 5-101 (Shivnarine), 6-179 (Parry),
+     7-181 (Gomes), 8-192 (Marshall).
+
+Bowling                      O      M      R      W
+Kapil Dev                   11      1     30      2
+Ghavri                      24      8     51      5
+Bedi                        19      8     33      1
+Chandrasekhar               12      2     39      0
+Venkataraghavan             16      5     39      0
+
+<END>

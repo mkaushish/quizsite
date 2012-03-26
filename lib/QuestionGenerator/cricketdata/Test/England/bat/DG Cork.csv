@@ -1,0 +1,57 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+1299, 1995-06-22, 1, 7, West Indies, , Walsh, 30, 106, 77, 4, 0
+1299, 1995-06-22, 3, 7, West Indies, c Murray, Bishop, 23, 67, 50, 3, 0
+1300, 1995-07-06, 1, 7, West Indies, lbw, Walsh, 4, 16, 18, 0, 0
+1300, 1995-07-06, 3, 5, West Indies, c sub, Walsh, 16, 43, 33, 1, 0
+1301, 1995-07-27, 2, 9, West Indies, not out, , 56, 140, 91, 7, 0
+1302, 1995-08-10, 1, 10, West Indies, c Browne, Benjamin, 31, 61, 48, 4, 0
+1302, 1995-08-10, 3, 9, West Indies, c Browne, Benjamin, 4, 7, 6, 1, 0
+1303, 1995-08-24, 1, 9, West Indies, , Ambrose, 33, 107, 63, 3, 0
+1312, 1995-11-16, 1, 8, South Africa, c Matthews, McMillan, 13, 34, 24, 3, 0
+1315, 1995-11-30, 2, 8, South Africa, c Cullinan, Pollock, 8, 56, 38, 1, 0
+1318, 1995-12-14, 2, 7, South Africa, not out, , 23, 92, 31, 3, 0
+1320, 1995-12-26, 2, 8, South Africa, c Richardson, Pollock, 1, 2, 3, 0, 0
+1321, 1996-01-02, 1, 8, South Africa, , Donald, 16, 53, 33, 2, 0
+1321, 1996-01-02, 3, 9, South Africa, c Kallis, Pollock, 8, 14, 9, 2, 0
+1327, 1996-06-06, 2, 9, India, c Jadeja, Prasad, 4, 8, 9, 0, 0
+1328, 1996-06-20, 1, 9, India, c Mongia, Prasad, 0, 23, 24, 0, 0
+1328, 1996-06-20, 3, 10, India, c Azharuddin, Kumble, 1, 6, 2, 0, 0
+1329, 1996-07-04, 2, 9, India, not out, , 32, 108, 96, 2, 0
+1330, 1996-07-25, 2, 8, Pakistan, c Saeed Anwar, Ata-ur-Rehman, 3, 7, 4, 0, 0
+1330, 1996-07-25, 4, 8, Pakistan, , Waqar Younis, 3, 9, 10, 0, 0
+1331, 1996-08-08, 2, 9, Pakistan, c Shadab Kabir, Wasim Akram, 26, 85, 71, 3, 0
+1332, 1996-08-22, 1, 9, Pakistan, c Moin Khan, Waqar Younis, 0, 5, 5, 0, 0
+1332, 1996-08-22, 3, 8, Pakistan, , Mushtaq Ahmed, 26, 39, 33, 6, 0
+1351, 1997-01-24, 2, 8, New Zealand, c Young, Morrison, 59, 236, 192, 6, 1
+1354, 1997-02-06, 2, 7, New Zealand, lbw, Astle, 7, 59, 45, 0, 0
+1355, 1997-02-14, 2, 7, New Zealand, c Parore, Davis, 16, 60, 44, 2, 0
+1355, 1997-02-14, 4, 8, New Zealand, not out, , 39, 140, 123, 5, 0
+1417, 1998-06-04, 1, 8, South Africa, c Pollock, Donald, 36, 127, 109, 5, 0
+1417, 1998-06-04, 3, 8, South Africa, st Boucher, Adams, 2, 16, 7, 0, 0
+1419, 1998-06-18, 2, 9, South Africa, c Klusener, Pollock, 12, 52, 41, 2, 0
+1419, 1998-06-18, 3, 9, South Africa, c Boucher, Kallis, 2, 18, 17, 0, 0
+1420, 1998-07-02, 2, 6, South Africa, c Cronje, Adams, 6, 47, 34, 1, 0
+1420, 1998-07-02, 3, 7, South Africa, , Adams, 1, 7, 6, 0, 0
+1421, 1998-07-23, 2, 9, South Africa, c Boucher, Pollock, 6, 36, 29, 1, 0
+1422, 1998-08-06, 1, 8, South Africa, not out, , 24, 48, 33, 4, 0
+1422, 1998-08-06, 3, 9, South Africa, c Boucher, Donald, 10, 57, 36, 2, 0
+1423, 1998-08-27, 1, 8, Sri Lanka, , Muralitharan, 6, 74, 48, 0, 0
+1423, 1998-08-27, 3, 8, Sri Lanka, c Kaluwitharana, Muralitharan, 8, 22, 23, 2, 0
+1428, 1998-11-20, 2, 7, Australia, c MacGill, McGrath, 0, 16, 11, 0, 0
+1428, 1998-11-20, 4, 7, Australia, not out, , 21, 39, 37, 3, 0
+1431, 1998-11-28, 1, 8, Australia, c Taylor, Fleming, 2, 13, 13, 0, 0
+1431, 1998-11-28, 3, 8, Australia, lbw, Gillespie, 16, 47, 31, 1, 0
+1503, 2000-06-29, 2, 8, West Indies, c Jacobs, Walsh, 4, 36, 24, 1, 0
+1503, 2000-06-29, 4, 8, West Indies, not out, , 33, 83, 49, 4, 1
+1506, 2000-07-03, 2, 8, West Indies, c Jacobs, Ambrose, 16, 51, 35, 2, 0
+1508, 2000-07-17, 2, 10, West Indies, not out, , 11, 37, 19, 1, 0
+1509, 2000-08-31, 1, 9, West Indies, lbw, McLean, 0, 14, 6, 0, 0
+1509, 2000-08-31, 3, 9, West Indies, lbw, McLean, 26, 51, 27, 4, 1
+1546, 2001-04-17, 1, 9, Pakistan, c Younis Khan, Wasim Akram, 25, 62, 44, 1, 0
+1547, 2001-05-31, 2, 8, Pakistan, c Saeed Anwar, Abdul Razzaq, 2, 8, 11, 0, 0
+1547, 2001-05-31, 4, 8, Pakistan, lbw, Saqlain Mushtaq, 4, 57, 33, 1, 0
+1552, 2001-06-19, 1, 9, Australia, c Ponting, Gillespie, 24, 44, 28, 3, 1
+1552, 2001-06-19, 3, 9, Australia, c Warne, McGrath, 2, 5, 3, 0, 0
+1603, 2002-04-16, 2, 9, Sri Lanka, c Sangakkara, Fernando, 0, 2, 2, 0, 0
+1612, 2002-07-08, 2, 9, India, c Jaffer, Harbhajan Singh, 31, 70, 42, 7, 0
+1614, 2002-08-05, 1, 7, India, lbw, Harbhajan Singh, 52, 141, 112, 8, 0

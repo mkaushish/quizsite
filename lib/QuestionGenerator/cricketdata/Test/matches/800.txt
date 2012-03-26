@@ -1,0 +1,127 @@
+
+Test # 800
+Centenary Test, 1976/77, Only Test
+Australia v England
+Melbourne Cricket Ground
+12,13,14,16,17 March 1977 (5-day match)
+
+Result: Australia won by 45 runs
+Series: Australia wins the 1976/77 Centenary Test
+
+Toss: England
+Umpires: TF Brooks and MG O'Connell
+Balls per over: 8
+Test debut: DW Hookes (Australia).
+Player of the match: DW Randall
+
+Close of play:
+ Day 1: Australia 138, England 29/1 (Brearley 12*, Underwood 5*)
+ Day 2: England 95, Australia 104/3 (Davis 45*, Walters 32*)
+ Day 3: Australia 387/8 (Marsh 95*, McCosker 17*)
+ Day 4: Australia 419/9d, England 191/2 (Randall 87*, Amiss 34*)
+
+Australia 1st innings                                           R   M   B  4 6
+IC Davis              lbw                b Lever                5  28  22  0 0
+RB McCosker                              b Willis               4  33  17  0 0
+GJ Cosier             c Fletcher         b Lever               10  19  10  2 0
+*GS Chappell                             b Underwood           40 234 139  0 0
+DW Hookes             c Greig            b Old                 17  32  19  2 0
+KD Walters            c Greig            b Willis               4  14   8  0 0
++RW Marsh             c Knott            b Old                 28  91  56  3 0
+GJ Gilmour            c Greig            b Old                  4  24  20  0 0
+KJ O'Keeffe           c Brearley         b Underwood            0   2   2  0 0
+DK Lillee             not out                                  10  59  53  1 0
+MHN Walker                               b Underwood            2  14  14  0 0
+Extras                (b 4, lb 2, nb 8)                        14
+Total                 (all out, 43.6 overs)                   138
+
+FoW: 1-11 (Davis), 2-13 (McCosker), 3-23 (Cosier), 4-45 (Hookes),
+     5-51 (Walters), 6-102 (Marsh), 7-114 (Gilmour),
+     8-117 (O'Keeffe), 9-136 (Chappell), 10-138 (Walker).
+
+Bowling                      O      M      R      W
+Lever                       12      1     36      2
+Willis                       8      0     33      2 (4nb)
+Old                         12      4     39      3 (6nb)
+Underwood                   11.6    2     16      3
+
+England 1st innings                                             R   M   B  4 6
+RA Woolmer            c Chappell         b Lillee               9  43  30  1 0
+JM Brearley           c Hookes           b Lillee              12  64  40  1 0
+DL Underwood          c Chappell         b Walker               7  28  18  1 0
+DW Randall            c Marsh            b Lillee               4  35  20  0 0
+DL Amiss              c O'Keeffe         b Walker               4  18  18  0 0
+KWR Fletcher          c Marsh            b Walker               4  44  27  0 0
+*AW Greig                                b Walker              18  24  20  3 0
++APE Knott            lbw                b Lillee              15  59  45  0 0
+CM Old                c Marsh            b Lillee               3  27  17  0 0
+JK Lever              c Marsh            b Lillee              11  39  25  2 0
+RGD Willis            not out                                   1  20  17  0 0
+Extras                (b 2, lb 2, w 1, nb 2)                    7
+Total                 (all out, 34.3 overs)                    95
+
+FoW: 1-19 (Woolmer), 2-30 (Brearley), 3-34 (Underwood),
+     4-40 (Amiss), 5-40 (Randall), 6-61 (Greig), 7-65 (Fletcher),
+     8-78 (Old), 9-86 (Knott), 10-95 (Lever).
+
+Bowling                      O      M      R      W
+Lillee                      13.3    2     26      6
+Walker                      15      3     54      4
+O'Keeffe                     1      0      4      0
+Gilmour                      5      3      4      0 (2nb)
+
+Australia 2nd innings                                           R   M   B  4 6
+IC Davis              c Knott            b Greig               68 238 153  6 0
+KJ O'Keeffe           c Willis           b Old                 14  50  36  1 0
+*GS Chappell                             b Old                  2  15  14  0 0
+GJ Cosier             c Knott            b Lever                4  35  27  0 0
+KD Walters            c Knott            b Greig               66 213 143  5 0
+DW Hookes             c Fletcher         b Underwood           56 122  69  9 0
++RW Marsh             not out                                 110 295 173 10 0
+GJ Gilmour                               b Lever               16  44  31  1 0
+DK Lillee             c Amiss            b Old                 25  86  56  3 0
+RB McCosker           c Greig            b Old                 25  85  68  3 0
+MHN Walker            not out                                   8  27  24  0 0
+Extras                (lb 10, nb 15)                           25
+Total                 (9 wickets dec, 96.6 overs)             419
+
+FoW: 1-33 (O'Keeffe), 2-40 (Chappell), 3-53 (Cosier),
+     4-132 (Davis), 5-187 (Walters), 6-244 (Hookes),
+     7-277 (Gilmour), 8-353 (Lillee), 9-407 (McCosker).
+
+Bowling                      O      M      R      W
+Lever                       21      1     95      2
+Willis                      22      0     91      0 (8nb)
+Old                         27.6    2    104      4 (9nb)
+Greig                       14      3     66      2 (3nb)
+Underwood                   12      2     38      1
+
+England 2nd innings (target: 463 runs)                          R   M   B  4 6
+RA Woolmer            lbw                b Walker              12  47  36  1 0
+JM Brearley           lbw                b Lillee              43 170 142  2 0
+DW Randall            c Cosier           b O'Keeffe           174 446 353 21 0
+DL Amiss                                 b Chappell            64 227 185  3 0
+KWR Fletcher          c Marsh            b Lillee               1  12   8  0 0
+*AW Greig             c Cosier           b O'Keeffe            41 100  82  7 0
++APE Knott            lbw                b Lillee              42  81  51  5 0
+CM Old                c Chappell         b Lillee               2   5   4  0 0
+JK Lever              lbw                b O'Keeffe             4  15  25  0 0
+DL Underwood                             b Lillee               7  21  19  0 0
+RGD Willis            not out                                   5  10   5  1 0
+Extras                (b 8, lb 4, w 3, nb 7)                   22
+Total                 (all out, 112.4 overs)                  417
+
+FoW: 1-28 (Woolmer), 2-113 (Brearley), 3-279 (Amiss),
+     4-290 (Fletcher), 5-346 (Randall), 6-369 (Greig),
+     7-380 (Old), 8-385 (Lever), 9-410 (Underwood),
+     10-417 (Knott).
+
+Bowling                      O      M      R      W
+Lillee                      34.4    7    139      5 (1nb)
+Walker                      22      4     83      1
+Gilmour                      4      0     29      0 (6nb)
+Chappell                    16      7     29      1
+O'Keeffe                    33      6    108      3 (1nb)
+Walters                      3      2      7      0 (2nb)
+
+<END>

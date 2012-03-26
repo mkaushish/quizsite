@@ -1,0 +1,130 @@
+
+Test # 60
+The Ashes, 1899, 1st Test
+England v Australia
+Trent Bridge, Nottingham
+1,2,3 June 1899 (3-day match)
+
+Result: Match drawn
+Series: 5-match series level 0-0
+
+Toss: Australia
+Umpires: RG Barlow and VA Titchmarsh
+Balls per over: 5
+Test debuts: FJ Laver, VT Trumper (Australia); W Rhodes (England).
+
+Close of play:
+ Day 1: Australia 238/8 (Laver 0*, Trumble 9*)
+ Day 2: Australia 252, England 193, Australia 93/1 (Noble 38*, Hill 41*)
+
+Australia 1st innings                                           R   M   B  4 6
+*J Darling                               b Hearne              47            0
+FA Iredale            c Hayward          b Hearne               6            0
+MA Noble                                 b Rhodes              41            0
+SE Gregory                               b Hirst               48            0
+C Hill                run out                                  52            0
+VT Trumper                               b Hearne               0          0 0
++JJ Kelly             c Hirst            b Hearne              26            0
+FJ Laver                                 b Rhodes               3          0 0
+WP Howell             c Hayward          b Rhodes               0          0 0
+H Trumble             not out                                  16            0
+E Jones               c Fry              b Rhodes               4            0
+Extras                (b 8, lb 1)                               9
+Total                 (all out, 152.2 overs)                  252
+
+FoW: 1-14 (Iredale), 2-85 (Darling), 3-109 (Noble),
+     4-166 (Gregory), 5-167 (Trumper), 6-229 (Hill),
+     7-229 (Kelly), 8-229 (Howell), 9-248 (Laver),
+     10-252 (Jones).
+
+Bowling                      O      M      R      W
+Rhodes                      35.2   13     58      4
+Hearne                      59     28     71      4
+Grace                       20      8     31      0
+Hirst                       24      9     42      1
+Jackson                     11      3     27      0
+Hayward                      3      0     14      0
+
+England 1st innings                                             R   M   B  4 6
+*WG Grace             c Kelly            b Noble               28            0
+CB Fry                                   b Jones               50          4 0
+FS Jackson            c Darling          b Noble                8            0
+W Gunn                                   b Jones               14            0
+KS Ranjitsinhji                          b Jones               42            0
+TW Hayward            run out                                   0          0 0
+JT Tyldesley          c Laver            b Howell              22            0
++W Storer                                b Jones                4            0
+GH Hirst                                 b Howell               6            0
+W Rhodes              c Kelly            b Jones                6            0
+JT Hearne             not out                                   4            0
+Extras                (lb 3, nb 6)                              9
+Total                 (all out, 90.4 overs)                   193
+
+FoW: 1-75 (Grace), 2-91 (Jackson), 3-93 (Fry), 4-116 (Gunn),
+     5-117 (Hayward), 6-172 (Ranjitsinhji), 7-176 (Tyldesley),
+     8-178 (Storer), 9-185 (Rhodes), 10-193 (Hirst).
+
+Bowling                      O      M      R      W
+Jones                       33      6     88      5
+Howell                      28.4   12     43      2
+Trumble                     13      7     17      0
+Noble                       16      4     36      2
+
+Australia 2nd innings                                           R   M   B  4 6
+*J Darling                               b Rhodes              14            0
+MA Noble              lbw                b Rhodes              45            0
+C Hill                c Grace            b Jackson             80 160      7 0
+FA Iredale            run out                                  20            0
+VT Trumper                               b Jackson             11            0
+E Jones               c Ranjitsinhji     b Hearne               3          0 0
+FJ Laver                                 b Jackson              3          0 0
+H Trumble             c Ranjitsinhji     b Rhodes              38            0
++JJ Kelly             not out                                  11            0
+WP Howell             not out                                   4            0
+Extras                (lb 1)                                    1
+Total                 (8 wickets dec, 94 overs)               230
+
+DNB: SE Gregory.
+
+FoW: 1-18 (Darling), 2-111 (Noble), 3-151 (Iredale),
+     4-170 (Trumper), 5-173 (Hill), 6-177 (Jones), 7-180 (Laver),
+     8-226 (Trumble).
+
+Bowling                      O      M      R      W
+Rhodes                      20      3     60      3
+Hearne                      29     10     70      1
+Grace                        2      0      6      0
+Hirst                       11      4     20      0
+Jackson                     26      8     57      3
+Hayward                      6      2     16      0
+
+England 2nd innings (target: 290 runs)                          R   M   B  4 6
+*WG Grace                                b Howell               1          0 0
+CB Fry                c Jones            b Trumble              9            0
+FS Jackson                               b Howell               0          0 0
+W Gunn                                   b Jones                3          0 0
+KS Ranjitsinhji       not out                                  93 165     11 0
+TW Hayward                               b Trumble             28            0
+JT Tyldesley          c Kelly            b Trumble             10            0
++W Storer             lbw                b Jones                3          0 0
+Extras                (b 5, w 1, nb 2)                          8
+Total                 (7 wickets, 99 overs)                   155
+
+DNB: GH Hirst, W Rhodes, JT Hearne.
+
+FoW: 1-1 (Grace), 2-1 (Jackson), 3-10 (Gunn), 4-19 (Fry),
+     5-82 (Hayward), 6-140 (Tyldesley), 7-155 (Storer).
+
+Bowling                      O      M      R      W
+Jones                       22      9     31      2
+Howell                      37     18     54      2
+Trumble                     29     16     39      3
+Noble                       11      5     23      0
+
+*** The first five-match rubber in England began with the first Test ever
+    staged at Nottingham.
+*** WG Grace, playing his last Test was 50 years and 320 days old when the
+    match ended; only W Rhodes played Test cricket at a greater age, and by
+    coincidence, he was making his debut in Grace's last match.
+
+<END>

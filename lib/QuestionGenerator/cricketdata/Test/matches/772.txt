@@ -1,0 +1,99 @@
+
+Test # 772
+India in New Zealand, 1975/76, 3rd Test
+New Zealand v India
+Basin Reserve, Wellington
+13,14,15,17 February 1976 (5-day match)
+
+Result: New Zealand won by an innings and 33 runs
+Series: 3-match series drawn 1-1
+
+Toss: India
+Umpires: WRC Gardiner and RL Monteith
+Balls per over: 8
+
+Close of play:
+ Day 1: India 220
+ Day 2: New Zealand 170/5 (Burgess 23*, Wadsworth 4*)
+ Day 3: New Zealand 333/9 (DR Hadlee 12*, Collinge 5*)
+
+India 1st innings                                               R   M   B  4 6
+SM Gavaskar           c Wadsworth        b RJ Hadlee           22  72        0
+DB Vengsarkar         c Wadsworth        b RJ Hadlee           20            0
+S Amarnath            c Roberts          b RJ Hadlee            2          0 0
+GR Viswanath          c Turner           b DR Hadlee            4            0
+BP Patel              c Congdon          b Cairns              81 248      7 1
+M Amarnath            lbw                b Collinge            26            0
+S Madan Lal                              b DR Hadlee            3          0 0
++SMH Kirmani          c Wadsworth        b RJ Hadlee           49 148      4 0
+EAS Prasanna          not out                                   0          0 0
+*BS Bedi              run out                                   2          0 0
+BS Chandrasekhar                         b Cairns               0          0 0
+Extras                (lb 8, nb 3)                             11
+Total                 (all out, 73.7 overs)                   220
+
+FoW: 1-40 (Gavaskar), 2-46 (S Amarnath), 3-47 (Vengsarkar),
+     4-50 (Viswanath), 5-92 (M Amarnath), 6-101 (Madan Lal),
+     7-217 (Patel), 8-218 (Kirmani), 9-220 (Bedi),
+     10-220 (Chandrasekhar).
+
+Bowling                      O      M      R      W
+Collinge                    12      1     33      1
+Cairns                      20.7    2     57      2
+DR Hadlee                   18      1     51      2
+RJ Hadlee                   14      1     35      4
+Congdon                      9      1     33      0
+
+New Zealand 1st innings                                         R   M   B  4 6
+*GM Turner            st Kirmani         b Bedi                64 187      3 0
+JFM Morrison          c Kirmani          b Madan Lal           12  96        0
+BE Congdon            c Viswanath        b Chandrasekhar       52 185      3 1
+JM Parker             c Gavaskar         b Bedi                 5            0
+MG Burgess            lbw                b Madan Lal           95 313      3 1
+ADG Roberts           c Kirmani          b Chandrasekhar        0       5  0 0
++KJ Wadsworth         c Gavaskar         b Bedi                10            0
+BL Cairns             c sub              b M Amarnath          47 121      4 1
+RJ Hadlee             c Prasanna         b Madan Lal           12            0
+DR Hadlee             c Kirmani          b Chandrasekhar       13            0
+RO Collinge           not out                                   5            0
+Extras                (lb 15, nb 4)                            19
+Total                 (all out, 113.7 overs)                  334
+
+FoW: 1-55 (Morrison), 2-103 (Turner), 3-117 (Parker),
+     4-155 (Congdon), 5-155 (Roberts), 6-180 (Wadsworth),
+     7-270 (Cairns), 8-301 (RJ Hadlee), 9-324 (Burgess),
+     10-334 (DR Hadlee).
+
+Bowling                      O      M      R      W
+M Amarnath                  18.2    2     60      1
+Madan Lal                   38      4    116      3
+Bedi                        27      6     63      3
+Chandrasekhar               22.5    2     55      3
+Prasanna                     8      2     21      0
+
+India 2nd innings                                               R   M   B  4 6
+DB Vengsarkar         c Turner           b Collinge             4            0
+S Amarnath            c Burgess          b RJ Hadlee           27  70      4 0
+GR Viswanath          c Congdon          b RJ Hadlee           20            0
+BP Patel              c Wadsworth        b RJ Hadlee            3          0 0
+M Amarnath            c Roberts          b DR Hadlee           13            0
++SMH Kirmani          c Burgess          b RJ Hadlee            1          0 0
+S Madan Lal           not out                                   2          0 0
+EAS Prasanna                             b RJ Hadlee            0          0 0
+*BS Bedi                                 b RJ Hadlee            2          0 0
+BS Chandrasekhar                         b RJ Hadlee            0          0 0
+SM Gavaskar           absent hurt                               -
+Extras                (b 5, lb 2, nb 2)                         9
+Total                 (all out, 26.3 overs)                    81
+
+FoW: 1-10 (Vengsarkar), 2-46 (S Amarnath), 3-62 (Viswanath),
+     4-75 (Patel), 5-77 (M Amarnath), 6-77 (Kirmani),
+     7-77 (Prasanna), 8-79 (Bedi), 9-81 (Chandrasekhar).
+
+Bowling                      O      M      R      W
+Collinge                     5      0     21      1
+Cairns                       4      1      9      0
+DR Hadlee                    9      2     19      1
+RJ Hadlee                    8.3    0     23      7
+
+<END>

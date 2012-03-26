@@ -1,0 +1,103 @@
+
+Test # 860
+Australia in India, 1979/80, 6th Test
+India v Australia
+Wankhede Stadium, Bombay
+3,4,6,7 November 1979 (5-day match)
+
+Result: India won by an innings and 100 runs
+Series: India wins the 6-match series 2-0
+
+Toss: India
+Umpires: JD Ghosh and Mohammad Ghouse
+
+Close of play:
+ Day 1: India 231/3 (Viswanath 9*, Kirmani 0*)
+ Day 2: India 458/8d, Australia 15/0 (Hilditch 8*, Yallop 7*)
+ Day 3: Australia 160, Australia 60/2 (Border 22*, Hughes 19*)
+
+India 1st innings                                               R   M   B  4 6
+*SM Gavaskar          c Hughes           b Border             123 303 239 17 0
+CPS Chauhan                              b Dymock              73 228 178 10 0
+DB Vengsarkar         c Whatmore         b Border               6  77  64  0 0
+GR Viswanath                         c & b Higgs               10  56  40  2 0
++SMH Kirmani          not out                                 101 306 206 17 0
+Yashpal Sharma        c Whatmore         b Hogg                 8  55  47  1 0
+M Amarnath            hit wicket         b Hogg                 2   9   7  0 0
+N Kapil Dev           c Whatmore         b Higgs               17  39  29  3 0
+KD Ghavri             c sub (GD Porter)  b Dymock              86 153  99 12 3
+NS Yadav              not out                                   0   6   6  0 0
+Extras                (b 3, lb 12, nb 17)                      32
+Total                 (8 wickets dec, 149 overs)              458
+
+DNB: DR Doshi.
+
+FoW: 1-192 (Chauhan), 2-222 (Vengsarkar), 3-231 (Gavaskar),
+     4-240 (Viswanath), 5-272 (Yashpal Sharma), 6-281 (Amarnath),
+     7-327 (Kapil Dev), 8-454 (Ghavri).
+
+Bowling                      O      M      R      W
+Dymock                      31      5     95      2
+Hogg                        28     14     53      2
+Higgs                       29      4    116      2
+Border                      27      7     60      2
+Sleep                       28      7     79      0
+Whatmore                     5      2     11      0
+Yallop                       1      0     12      0
+
+Australia 1st innings                                           R   M   B  4 6
+AMJ Hilditch          run out                                  13  30  28  1 0
+GN Yallop             c Kapil Dev        b Yadav               60 180 125  5 0
+AR Border             c Vengsarkar       b Yadav               23  78  48  2 1
+*KJ Hughes            c Vengsarkar       b Doshi               14  41  42  2 0
+DF Whatmore           lbw                b Doshi                6  19  22  0 0
+WM Darling            c sub (RMH Binny)  b Yadav               16  40  35  2 0
+PR Sleep                                 b Yadav                1   5   2  0 0
++KJ Wright            not out                                  11  60  41  1 0
+G Dymock              c Chauhan          b Doshi                1   6   5  0 0
+RM Hogg               c Amarnath         b Doshi                5  30  24  0 0
+JD Higgs                                 b Doshi                0   6   7  0 0
+Extras                (b 1, lb 2, nb 7)                        10
+Total                 (all out, 61.5 overs)                   160
+
+FoW: 1-28 (Hilditch), 2-77 (Border), 3-110 (Hughes),
+     4-118 (Whatmore), 5-124 (Yallop), 6-125 (Sleep),
+     7-144 (Darling), 8-145 (Dymock), 9-158 (Hogg),
+     10-160 (Higgs).
+
+Bowling                      O      M      R      W
+Kapil Dev                    8      0     26      0
+Ghavri                       8      1     30      0
+Doshi                       19.5    4     43      5
+Yadav                       21      7     40      4
+Amarnath                     5      1     11      0
+
+Australia 2nd innings (following on)                            R   M   B  4 6
+AMJ Hilditch                             b Kapil Dev            9  16  14  1 0
+GN Yallop             c Amarnath         b Ghavri               4  26  12  0 0
+AR Border                                b Doshi               61 257 182  7 0
+*KJ Hughes            c Ghavri           b Kapil Dev           80 168 144  8 0
+DF Whatmore           lbw                b Kapil Dev            0   7   2  0 0
+WM Darling            retired hurt                              0   3   2  0 0
+PR Sleep              c Kapil Dev        b Doshi                3   7  10  0 0
++KJ Wright            lbw                b Doshi                5  35  31  0 0
+G Dymock              c Viswanath        b Yadav                7   8   9  1 0
+RM Hogg               not out                                   3  30  22  0 0
+JD Higgs                                 b Kapil Dev            4  20  22  0 0
+Extras                (lb 12, nb 10)                           22
+Total                 (all out, 73.1 overs)                   198
+
+FoW: 1-11 (Hilditch), 2-17 (Yallop), 3-149 (Hughes),
+     4-154 (Whatmore), 5-159 (Sleep), 6-176 (Wright),
+     7-183 (Dymock), 8-187 (Border), 9-198 (Higgs).
+
+Bowling                      O      M      R      W
+Kapil Dev                   14.1    5     39      4
+Ghavri                      10      0     28      1
+Doshi                       25      6     60      3
+Yadav                       22      9     48      1
+Amarnath                     2      1      1      0
+
+*** WM Darling retired hurt at 154/4
+
+<END>

@@ -1,0 +1,124 @@
+
+Test # 781
+The Wisden Trophy, 1976, 5th Test
+England v West Indies
+Kennington Oval, London
+12,13,14,16,17 August 1976 (5-day match)
+
+Result: West Indies won by 231 runs
+Series: West Indies wins the 5-match series 3-0
+
+Toss: West Indies
+Umpires: WE Alley and HD Bird
+Test debut: G Miller (England).
+
+Close of play:
+ Day 1: West Indies 373/3 (Richards 200*, Lloyd 15*)
+ Day 2: West Indies 687/8d, England 34/0 (Woolmer 6*, Amiss 22*)
+ Day 3: England 304/5 (Amiss 176*, Underwood 1*)
+ Day 4: England 435, West Indies 182/0d, England 43/0 (Woolmer 21*, Amiss 14*)
+
+West Indies 1st innings                                         R   M   B  4 6
+RC Fredericks         c Balderstone      b Miller              71 157 137  7 0
+CG Greenidge          lbw                b Willis               0  11  11  0 0
+IVA Richards                             b Greig              291 472 386 38 0
+LG Rowe               st Knott           b Underwood           70 167 178 10 0
+*CH Lloyd             c Knott            b Greig               84 193 150 12 0
+CL King               c Selvey           b Balderstone         63 142 124  6 0
++DL Murray                           c & b Underwood           36  94  85  4 0
+VA Holder             not out                                  13  30  23  2 0
+MA Holding                               b Underwood           32  21  15  5 1
+Extras                (b 1, lb 17, nb 9)                       27
+Total                 (8 wickets dec, 182.5 overs)            687
+
+DNB: AME Roberts, WW Daniel.
+
+FoW: 1-5 (Greenidge), 2-159 (Fredericks), 3-350 (Rowe),
+     4-524 (Richards), 5-547 (Lloyd), 6-640 (Murray),
+     7-642 (King), 8-687 (Holding).
+
+Bowling                      O      M      R      W
+Willis                      15      3     73      1
+Selvey                      15      0     67      0
+Underwood                   60.5   15    165      3
+Woolmer                      9      0     44      0
+Miller                      27      4    106      1
+Balderstone                 16      0     80      1
+Greig                       34      5     96      2
+Willey                       3      0     11      0
+Steele                       3      0     18      0
+
+England 1st innings                                             R   M   B  4 6
+RA Woolmer            lbw                b Holding              8  69  43  1 0
+DL Amiss                                 b Holding            203 443 320 28 0
+DS Steele             lbw                b Holding             44 110  88  6 0
+JC Balderstone                           b Holding              0  10   7  0 0
+P Willey              c Fredericks       b King                33 157 117  5 0
+*AW Greig                                b Holding             12  34  22  2 0
+DL Underwood                             b Holding              4  28  18  0 0
++APE Knott                               b Holding             50 107  65  8 0
+G Miller              c sub              b Holder              36 128 100  4 0
+MWW Selvey                               b Holding              0   1   1  0 0
+RGD Willis            not out                                   5  39  22  0 0
+Extras                (b 8, lb 11, nb 21)                      40
+Total                 (all out, 129.5 overs)                  435
+
+FoW: 1-47 (Woolmer), 2-147 (Steele), 3-151 (Balderstone),
+     4-279 (Willey), 5-303 (Greig), 6-323 (Underwood),
+     7-342 (Amiss), 8-411 (Knott), 9-411 (Selvey),
+     10-435 (Miller).
+
+Bowling                      O      M      R      W
+Roberts                     27      4    102      0
+Holding                     33      9     92      8
+Holder                      27.5    7     75      1
+Daniel                      10      1     30      0
+Fredericks                  11      2     36      0
+Richards                    14      4     30      0
+King                         7      3     30      1
+
+West Indies 2nd innings                                         R   M   B  4 6
+RC Fredericks         not out                                  86 137 101  9 0
+CG Greenidge          not out                                  85 137  98 12 1
+Extras                (b 4, lb 1, w 1, nb 5)                   11
+Total                 (0 wickets dec, 32 overs)               182
+
+DNB: IVA Richards, LG Rowe, *CH Lloyd, CL King, +DL Murray,
+     VA Holder, MA Holding, AME Roberts, WW Daniel.
+
+Bowling                      O      M      R      W
+Willis                       7      0     48      0
+Selvey                       9      1     44      0
+Underwood                    9      2     38      0
+Woolmer                      5      0     30      0
+Greig                        2      0     11      0
+
+England 2nd innings (target: 435 runs)                          R   M   B  4 6
+RA Woolmer            c Murray           b Holding             30  39  28  6 0
+DL Amiss              c Greenidge        b Holding             16  30  16  2 0
+DS Steele             c Murray           b Holder              42 183 145  5 0
+JC Balderstone                           b Holding              0  25  17  0 0
+P Willey              c Greenidge        b Holder               1  13  11  0 0
+*AW Greig                                b Holding              1   2   4  0 0
++APE Knott                               b Holding             57 193 172  4 0
+G Miller                                 b Richards            24  61  50  3 0
+DL Underwood          c Lloyd            b Roberts              2  19  14  0 0
+MWW Selvey            not out                                   4  17  13  0 0
+RGD Willis            lbw                b Holding              0   3   2  0 0
+Extras                (b 15, lb 3, w 8)                        26
+Total                 (all out, 78.4 overs)                   203
+
+FoW: 1-49 (Amiss), 2-54 (Woolmer), 3-64 (Balderstone),
+     4-77 (Willey), 5-78 (Greig), 6-148 (Steele), 7-196 (Miller),
+     8-196 (Knott), 9-202 (Underwood), 10-203 (Willis).
+
+Bowling                      O      M      R      W
+Roberts                     13      4     37      1
+Holding                     20.4    6     57      6
+Holder                      14      5     29      2
+Fredericks                  12      5     33      0
+Richards                    11      6     11      1
+King                         6      2      9      0
+Lloyd                        2      1      1      0
+
+<END>

@@ -1,0 +1,84 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+135, 1920-12-17, 2, 4, Australia, c Gregory, Ryder, 28, 68, 66, 3, 0
+135, 1920-12-17, 4, 4, Australia, , Kelleway, 56, 125, 110, 6, 0
+136, 1921-12-31, 2, 4, Australia, c Taylor, Gregory, 67, 140, 146, 3, 0
+136, 1921-12-31, 3, 4, Australia,                c &, Collins, 1, 7, 12, 0, 0
+137, 1921-01-14, 2, 4, Australia, , Gregory, 36, 60, 67, 2, 0
+137, 1921-01-14, 4, 4, Australia, , Mailey, 51, 107, 95, 2, 1
+138, 1921-02-11, 1, 4, Australia, c Carter, Mailey, 30, 41, 51, 0, 0
+138, 1921-02-11, 3, 4, Australia, , Kelleway, 32, 47, 41, 3, 0
+139, 1921-02-25, 1, 4, Australia, c Carter, Gregory, 5, 8, 6, 0, 0
+139, 1921-02-25, 3, 6, Australia, st Carter, Mailey, 13, 42, 44, 2, 0
+140, 1921-05-28, 1, 4, Australia, , Gregory, 0, 4, na, 0, 0
+140, 1921-05-28, 3, 4, Australia, , McDonald, 7, 40, na, 0, 0
+141, 1921-06-11, 1, 4, Australia, , McDonald, 0, 4, na, 0, 0
+141, 1921-06-11, 3, 4, Australia, c Gregory, Mailey, 10, 15, na, 1, 0
+153, 1924-06-14, 1, 4, South Africa, c Nourse, Parker, 74, 165, na, na, 0
+154, 1924-06-28, 2, 4, South Africa, not out, , 50, 55, na, na, 0
+155, 1924-07-12, 1, 5, South Africa, c Deane, Nupen, 132, na, na, 20, 0
+157, 1924-08-16, 2, 6, South Africa, c Nourse, Carter, 142, 180, na, 14, 2
+158, 1924-12-19, 2, 5, Australia, not out, , 74, 113, 109, 6, 1
+158, 1924-12-19, 4, 5, Australia, c Gregory, Hendry, 9, 26, 39, 0, 0
+159, 1925-01-01, 2, 5, Australia, c Oldfield, Kelleway, 32, 57, 66, 1, 0
+159, 1925-01-01, 4, 6, Australia, , Gregory, 18, 54, 55, 3, 0
+160, 1925-01-16, 2, 8, Australia, c Taylor, Gregory, 92, 193, 213, 8, 0
+160, 1925-01-16, 4, 4, Australia, lbw, Kelleway, 4, 7, 12, 0, 0
+161, 1925-02-13, 1, 5, Australia, , Ryder, 65, 114, 132, 4, 0
+162, 1925-02-27, 2, 5, Australia, c Ponsford, Gregory, 10, 27, na, 0, 0
+162, 1925-02-27, 4, 5, Australia, c Oldfield, Grimmett, 10, 20, na, 1, 0
+164, 1926-06-26, 2, 4, Australia, not out, , 127, 208, na, 18, 0
+165, 1926-07-10, 2, 4, Australia, c Andrews, Mailey, 0, na, 2, 0, 0
+165, 1926-07-10, 3, 4, Australia, not out, , 4, na, na, na, 0
+166, 1926-07-24, 2, 5, Australia, not out, , 32, na, na, 5, 0
+167, 1926-08-14, 1, 4, Australia, , Gregory, 8, na, na, na, 0
+167, 1926-08-14, 3, 4, Australia, c Oldfield, Grimmett, 15, na, na, na, 0
+175, 1928-08-11, 2, 6, West Indies, c Roach, Griffith, 14, na, na, na, 0
+176, 1928-11-30, 1, 6, Australia, c Ponsford, Ironmonger, 169, 308, 314, 16, 0
+176, 1928-11-30, 3, 6, Australia, c Ponsford, Grimmett, 45, 58, 67, 5, 2
+177, 1928-12-14, 2, 5, Australia, c Richardson, Blackie, 74, 123, 138, 8, 0
+178, 1929-12-29, 2, 5, Australia, c a'Beckett, Hendry, 19, 38, 47, 1, 0
+178, 1929-12-29, 4, 5, Australia, , Oxenham, 45, 71, 93, 4, 0
+179, 1929-02-01, 1, 5, Australia, , Blackie, 13, 34, 35, 0, 0
+179, 1929-02-01, 3, 5, Australia, c Bradman, Blackie, 11, 14, 20, 1, 0
+180, 1929-03-08, 1, 6, Australia, c Hornibrook, Fairfax, 95, 190, 188, 10, 0
+180, 1929-03-08, 3, 6, Australia, , Grimmett, 1, 5, 7, 0, 0
+181, 1929-06-15, 1, 5, South Africa, , Morkel, 70, na, na, na, 0
+181, 1929-06-15, 3, 6, South Africa, not out, , 8, na, na, na, 0
+182, 1929-06-29, 1, 5, South Africa, , Morkel, 43, na, na, na, 0
+182, 1929-06-29, 3, 4, South Africa, , Morkel, 11, na, na, na, 0
+183, 1929-07-13, 2, 6, South Africa, c van der Merwe, Quinn, 0, na, na, 0, 0
+183, 1929-07-13, 4, 5, South Africa, c Owen-Smith, Vincent, 5, na, na, na, 0
+184, 1929-07-27, 1, 5, South Africa, , Quinn, 12, na, na, na, 0
+187, 1930-01-11, 2, 4, West Indies, c Constantine, St Hill, 80, na, na, na, 0
+187, 1930-01-11, 4, 4, West Indies, not out, , 36, na, na, na, 0
+189, 1930-02-01, 1, 4, West Indies, , Achong, 77, na, na, na, 0
+189, 1930-02-01, 3, 4, West Indies, not out, , 205, na, na, 29, 0
+192, 1930-02-21, 2, 4, West Indies, , Constantine, 56, na, na, na, 0
+192, 1930-02-21, 4, 4, West Indies, lbw, St Hill, 123, na, na, 21, 0
+193, 1930-04-03, 1, 4, West Indies, c Passailaigue, Scott, 61, 80, 93, 7, 1
+193, 1930-04-03, 3, 4, West Indies, , Roach, 55, 60, 75, 8, 0
+194, 1930-06-13, 1, 5, Australia, , Grimmett, 5, 11, 20, 1, 0
+194, 1930-06-13, 3, 5, Australia, c Richardson, Wall, 72, 116, 132, 8, 0
+195, 1930-06-27, 1, 5, Australia, c McCabe, Fairfax, 48, 91, 97, 3, 0
+195, 1930-06-27, 3, 5, Australia, c Richardson, Grimmett, 9, 9, 14, 2, 0
+200, 1930-12-24, 2, 4, South Africa, c Cameron, McMillan, 8, 4, na, 1, 0
+200, 1930-12-24, 4, 4, South Africa, c Mitchell, Nupen, 3, 6, na, 0, 0
+202, 1931-01-01, 2, 4, South Africa, , Balaskas, 93, na, na, 6, 0
+202, 1931-01-01, 3, 4, South Africa, , Vincent, 86, na, na, na, 0
+206, 1931-02-13, 1, 4, South Africa, c Cameron, Hall, 64, 98, na, 9, 0
+206, 1931-02-13, 3, 4, South Africa, c Vincent, Nupen, 45, na, na, na, 0
+207, 1931-02-21, 2, 4, South Africa, c McMillan, Vincent, 30, 56, na, 2, 1
+233, 1934-06-08, 2, 6, Australia, , O'Reilly, 79, 223, 247, 8, 0
+233, 1934-06-08, 4, 5, Australia, c Chipperfield, O'Reilly, 3, 30, 45, 0, 0
+234, 1934-06-22, 1, 4, Australia, c McCabe, Wall, 13, na, 15, na, 0
+235, 1934-07-06, 1, 5, Australia,                c &, O'Reilly, 132, 243, 248, 22, 0
+236, 1934-07-20, 1, 4, Australia, , Chipperfield, 29, na, 88, na, 0
+236, 1934-07-20, 3, 4, Australia, lbw, O'Reilly, 42, 200, 221, na, 0
+238, 1935-01-08, 2, 4, West Indies, c RS Grant, Martindale, 3, na, na, 0, 0
+238, 1935-01-08, 4, 4, West Indies, , Martindale, 20, na, na, na, 1
+239, 1935-01-24, 2, 6, West Indies, c GC Grant, RS Grant, 41, na, na, na, 0
+239, 1935-01-24, 4, 6, West Indies, run out, , 11, na, na, na, 0
+240, 1935-02-14, 1, 6, West Indies, c Martindale, Hylton, 38, na, na, na, 0
+240, 1935-02-14, 3, 6, West Indies, not out, , 38, na, na, na, 0
+241, 1935-03-14, 2, 7, West Indies, c Barrow, RS Grant, 40, na, na, na, 0
+241, 1935-03-14, 3, 4, West Indies, c Constantine, Mudie, 11, na, na, na, 0

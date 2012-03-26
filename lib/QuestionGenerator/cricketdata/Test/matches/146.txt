@@ -1,0 +1,117 @@
+
+Test # 146
+Australia in South Africa, 1921/22, 2nd Test
+South Africa v Australia
+Old Wanderers, Johannesburg
+12,14,15,16 November 1921 (4-day match)
+
+Result: Match drawn
+Series: 3-match series level 0-0
+
+Toss: Australia
+Umpires: SL Harris and AG Laver
+Test debut: NV Lindsay (South Africa).
+
+Close of play:
+ Day 1: Australia 450
+ Day 2: South Africa 243, South Africa 39/1 (Frank 13*, Lindsay 24*)
+ Day 3: South Africa 311/3 (Frank 106*, Nourse 79*)
+
+Australia 1st innings                                           R   M   B  4 6
+*HL Collins           c Lindsay          b Carter             203 267     26 0
+W Bardsley                               b Marx                 8   8      1 0
+J Ryder                                  b Blanckenberg        56  93      5 0
+JM Gregory            st Ward            b Carter             119  85     19 2
+TJE Andrews           st Ward            b Carter               3   7      0 0
+JM Taylor             c Nupen            b Marx                11  17      1 0
+ER Mayne                                 b Carter               1   3      0 0
+HSTL Hendry                              b Carter              15  14      2 0
++WAS Oldfield                            b Marx                 2  11      0 0
+EA McDonald           not out                                   9  15      1 0
+AA Mailey             st Ward            b Carter               4  21      1 0
+Extras                (b 3, lb 15, nb 1)                       19
+Total                 (all out, 97.5 overs)                   450
+
+FoW: 1-15 (Bardsley), 2-128 (Ryder), 3-337 (Gregory),
+     4-347 (Andrews), 5-382 (Taylor), 6-383 (Mayne),
+     7-407 (Hendry), 8-422 (Oldfield), 9-446 (Collins),
+     10-450 (Mailey).
+
+Bowling                      O      M      R      W
+Marx                        21      0     85      3
+Nupen                       16      0     86      0
+Carter                      29.5    4     91      6
+Blanckenberg                21      2    105      1
+Nourse                       7      1     44      0
+Ling                         3      0     20      0
+
+South Africa 1st innings                                        R   M   B  4 6
+JW Zulch              hit wicket         b McDonald             4  13      0 0
+CN Frank              run out                                   1   9      0 0
+NV Lindsay            hit wicket         b Gregory              6  16      1 0
+*HW Taylor            c Mailey           b Gregory             47  85      6 0
+AW Nourse             c sub              b McDonald            64 114      9 0
+WVS Ling              c Hendry           b Gregory              0  11      0 0
+WFE Marx              c Collins          b Mailey              36  72      5 0
++TA Ward              c Taylor           b Collins              7  28      1 0
+JM Blanckenberg                          b Gregory             45  58      7 1
+EP Nupen                                 b Mailey              22  28      4 0
+CP Carter             not out                                   0   2      0 0
+Extras                (b 4, lb 4, nb 3)                        11
+Total                 (all out, 78.3 overs)                   243
+
+FoW: 1-6 (Frank), 2-6 (Zulch), 3-16 (Lindsay), 4-95 (Taylor),
+     5-109 (Ling), 6-135 (Nourse), 7-164 (Ward), 8-189 (Marx),
+     9-243 (Nupen), 10-243 (Blanckenberg).
+
+Bowling                      O      M      R      W
+Gregory                     19.3    1     71      4
+McDonald                    19      7     43      2
+Mailey                      22      4     72      2
+Hendry                      12      2     37      0
+Collins                      6      2      9      1
+
+South Africa 2nd innings (following on)                         R   M   B  4 6
+JW Zulch                                 b Gregory              2   8      0 0
+CN Frank              c Collins          b Mailey             152 512     17 0
+NV Lindsay                               b Gregory             29  52      3 0
+*HW Taylor            c Hendry           b Gregory             80  99     12 0
+AW Nourse             c Gregory          b Ryder              111 228     13 0
+WVS Ling              st Oldfield        b Ryder               19  28      2 0
+JM Blanckenberg       c Andrews          b Mailey               4  12      1 0
+WFE Marx              c Bardsley         b Mailey              34  70      5 0
++TA Ward              not out                                   9  23      1 0
+EP Nupen              not out                                  13  16      1 1
+Extras                (b 10, lb 5, nb 4)                       19
+Total                 (8 wickets dec, 195 overs)              472
+
+DNB: CP Carter.
+
+FoW: 1-6 (Zulch), 2-44 (Lindsay), 3-149 (Taylor), 4-355 (Nourse),
+     5-387 (Ling), 6-393 (Blanckenberg), 7-446 (Marx),
+     8-450 (Frank).
+
+Bowling                      O      M      R      W
+Gregory                     28      7     68      3
+McDonald                    44     14    121      0
+Mailey                      43      8    113      3
+Hendry                      23      6     58      0
+Collins                     15     12      7      0
+Taylor                      11      4     19      0
+Mayne                        1      0      1      0
+Ryder                       30      9     66      2
+
+Australia 2nd innings (target: 266 runs)                        R   M   B  4 6
+*HL Collins           not out                                   5   5      1 0
+W Bardsley            not out                                   2   5      0 0
+Extras                                                          0
+Total                 (0 wickets, 1.4 overs)                    7
+
+DNB: J Ryder, JM Gregory, TJE Andrews, JM Taylor, ER Mayne,
+     HSTL Hendry, +WAS Oldfield, EA McDonald, AA Mailey.
+
+Bowling                      O      M      R      W
+Marx                         1      0      4      0
+Nupen                        0.4    0      3      0
+
+<END>

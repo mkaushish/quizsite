@@ -1,0 +1,114 @@
+
+Test # 885
+Centenary Test, 1980, Only Test
+England v Australia
+Lord's, London
+28,29,30 August, 1,2 September 1980 (5-day match)
+
+Result: Match drawn
+Series: 1980 Centenary Test drawn
+
+Toss: Australia
+Umpires: HD Bird and DJ Constant
+Test debut: CWJ Athey (England).
+Player of the match: KJ Hughes
+
+Close of play:
+ Day 1: Australia 227/2 (Wood 100*, Hughes 47*)
+ Day 2: Australia 278/4 (Hughes 82*, Border 2*)
+ Day 3: Australia 385/5d, England 1/0 (Gooch 0*, Boycott 0*)
+ Day 4: England 205, Australia 106/2 (Chappell 47*, Hughes 38*)
+
+Australia 1st innings                                           R   M   B  4 6
+GM Wood               st Bairstow        b Emburey            112 363 295 10 0
+BM Laird              c Bairstow         b Old                 24  83  64  3 0
+*GS Chappell          c Gatting          b Old                 47 138 115  9 0
+KJ Hughes             c Athey            b Old                117 205 209 14 3
+GN Yallop             lbw                b Hendrick             2  11  11  0 0
+AR Border             not out                                  56  96  80  7 1
++RW Marsh             not out                                  16  48  32  3 0
+Extras                (b 1, lb 8, nb 2)                        11
+Total                 (5 wickets dec, 134 overs)              385
+
+DNB: RJ Bright, DK Lillee, AA Mallett, LS Pascoe.
+
+FoW: 1-64 (Laird), 2-150 (Chappell), 3-260 (Wood),
+     4-267 (Yallop), 5-320 (Hughes).
+
+Bowling                      O      M      R      W
+Old                         35      9     91      3
+Hendrick                    30      6     67      1
+Botham                      22      2     89      0
+Emburey                     38      9    104      1
+Gooch                        8      3     16      0
+Willey                       1      0      7      0
+
+England 1st innings                                             R   M   B  4 6
+GA Gooch              c Bright           b Lillee               8  14  13  1 0
+G Boycott             c Marsh            b Lillee              62 193 146  5 0
+CWJ Athey                                b Lillee               9  34  22  0 0
+DI Gower                                 b Lillee              45 120 100  7 0
+MW Gatting            lbw                b Pascoe              12  53  37  2 0
+*IT Botham            c Wood             b Pascoe               0  15  14  0 0
+P Willey              lbw                b Pascoe               5   6  11  1 0
++DL Bairstow          lbw                b Pascoe               6  29  18  0 0
+JE Emburey            lbw                b Pascoe               3  29  18  0 0
+CM Old                not out                                  24  19  15  2 2
+M Hendrick            c Border           b Mallett              5   4   6  0 0
+Extras                (b 6, lb 8, nb 12)                       26
+Total                 (all out, 63.2 overs)                   205
+
+FoW: 1-10 (Gooch), 2-41 (Athey), 3-137 (Gower), 4-151 (Boycott),
+     5-158 (Botham), 6-163 (Willey), 7-164 (Gatting),
+     8-173 (Bairstow), 9-200 (Emburey), 10-205 (Hendrick).
+
+Bowling                      O      M      R      W
+Lillee                      15      4     43      4
+Pascoe                      18      5     59      5
+Chappell                     2      0      2      0
+Bright                      21      6     50      0
+Mallett                      7.2    3     25      1
+
+Australia 2nd innings                                           R   M   B  4 6
+GM Wood               lbw                b Old                  8  40  35  0 0
+BM Laird              c Bairstow         b Old                  6  69  45  1 0
+*GS Chappell                             b Old                 59 134 115  7 0
+KJ Hughes             lbw                b Botham              84 141  99 11 2
+AR Border             not out                                  21  34  29  1 1
+Extras                (b 1, lb 8, nb 2)                        11
+Total                 (4 wickets dec, 53.2 overs)             189
+
+DNB: GN Yallop, +RW Marsh, RJ Bright, DK Lillee, AA Mallett,
+     LS Pascoe.
+
+FoW: 1-15 (Wood), 2-28 (Laird), 3-139 (Chappell), 4-189 (Hughes).
+
+Bowling                      O      M      R      W
+Old                         20      6     47      3
+Hendrick                    15      4     53      0
+Botham                       9.2    1     43      1
+Emburey                      9      2     35      0
+
+England 2nd innings (target: 370 runs)                          R   M   B  4 6
+GA Gooch              lbw                b Lillee              16  21  15  2 0
+G Boycott             not out                                 128 316 252 12 0
+CWJ Athey             c Laird            b Pascoe               1  36  21  0 0
+DI Gower                                 b Mallett             35  95  63  4 0
+MW Gatting            not out                                  51 158 153  7 0
+Extras                (b 3, lb 2, nb 8)                        13
+Total                 (3 wickets, 82 overs)                   244
+
+DNB: *IT Botham, P Willey, +DL Bairstow, JE Emburey, CM Old,
+     M Hendrick.
+
+FoW: 1-19 (Gooch), 2-43 (Athey), 3-124 (Gower).
+
+Bowling                      O      M      R      W
+Lillee                      19      5     53      1
+Pascoe                      17      1     73      1
+Bright                      25      9     44      0
+Mallett                     21      2     61      1
+
+*** Centenary Test
+
+<END>

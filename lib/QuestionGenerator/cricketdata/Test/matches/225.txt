@@ -1,0 +1,89 @@
+
+Test # 225
+England in New Zealand, 1932/33, 1st Test
+New Zealand v England
+Lancaster Park, Christchurch
+24,25,27 March 1933 (3-day match)
+
+Result: Match drawn
+Series: 2-match series level 0-0
+
+Toss: England
+Umpires: TW Burgess and RC Torrance
+Test debuts: DL Freeman, HD Smith, PE Whitelaw (New Zealand).
+
+Close of play:
+ Day 1: England 418/5 (Hammond 223*, Brown 12*)
+ Day 2: England 560/8d, New Zealand 153/3 (Kerr 42*)
+
+England 1st innings                                             R   M   B  4 6
+H Sutcliffe           c James            b Badcock              0   1   1  0 0
+E Paynter                                b Smith                0   5   1  0 0
+WR Hammond                               b Badcock            227 301        0
+RES Wyatt             run out                                  20  41        0
+*DR Jardine           c James            b Badcock             45  75        0
++LEG Ames                                b Vivian             103 144        0
+FR Brown              c Kerr             b Page                74  83        0
+W Voce                c Dempster         b Page                66  57        1
+MW Tate               not out                                  10  10        0
+Extras                (b 8, lb 7)                              15
+Total                 (8 wickets dec, 147.3 overs)            560
+
+DNB: GOB Allen, H Verity.
+
+FoW: 1-0 (Sutcliffe), 2-4 (Paynter), 3-46 (Wyatt),
+     4-133 (Jardine), 5-375 (Ames), 6-424 (Hammond),
+     7-532 (Brown), 8-560 (Voce).
+
+Bowling                      O      M      R      W
+Badcock                     54     11    142      3
+Smith                       20      0    113      1
+Newman                      25      5     91      0
+Freeman                     20      2     78      0
+Vivian                      19      1     72      1
+Page                         2.3    0     21      2
+Weir                         7      0     28      0
+
+New Zealand 1st innings                                         R   M   B  4 6
+CS Dempster           c Wyatt            b Allen                8            0
+PE Whitelaw           c Brown            b Verity              30            0
+GL Weir               c Hammond          b Voce                66 150        0
+JL Kerr               c Hammond          b Brown               59            0
+*ML Page              c Voce             b Allen               22            0
++KC James             lbw                b Tate                 2          0 0
+HD Smith                                 b Tate                 4            0
+J Newman                                 b Voce                 5            0
+DL Freeman                               b Voce                 1          0 0
+FT Badcock            not out                                  10            0
+HG Vivian             absent hurt                               -
+Extras                (b 3, lb 10, nb 3)                       16
+Total                 (all out, 116.1 overs)                  223
+
+FoW: 1-25 (Dempster), 2-59 (Whitelaw), 3-153 (Weir),
+     4-186 (Kerr), 5-194 (James), 6-205 (Smith), 7-211 (Page),
+     8-212 (Freeman), 9-223 (Newman).
+
+Bowling                      O      M      R      W
+Tate                        37     16     42      2
+Voce                        17.1    3     27      3
+Allen                       20      5     46      2
+Brown                       19     10     34      1
+Verity                      23      7     58      1
+
+New Zealand 2nd innings (following on)                          R   M   B  4 6
+CS Dempster           not out                                  14            0
+PE Whitelaw           not out                                  17            0
+Extras                (lb 1, nb 3)                              4
+Total                 (0 wickets, 16.1 overs)                  35
+
+DNB: GL Weir, JL Kerr, *ML Page, +KC James, HD Smith, J Newman,
+     DL Freeman, FT Badcock, HG Vivian.
+
+Bowling                      O      M      R      W
+Tate                         3      1      5      0
+Voce                         4      0     13      0
+Allen                        4.1    1      5      0
+Verity                       3      1      6      0
+Hammond                      2      0      2      0
+
+<END>

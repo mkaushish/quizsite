@@ -1,0 +1,127 @@
+
+Test # 324
+West Indies in England, 1950, 2nd Test
+England v West Indies
+Lord's, London
+24,26,27,28,29 June 1950 (5-day match)
+
+Result: West Indies won by 326 runs
+Series: 4-match series level 1-1
+
+Toss: West Indies
+Umpires: D Davies and FS Lee
+Test debut: WGA Parkhouse (England).
+
+Close of play:
+ Day 1: West Indies 320/7 (Christiani 33*, Jones 0*)
+ Day 2: West Indies 326, England 151, West Indies 45/0 (Rae 16*, Stollmeyer 29*)
+ Day 3: West Indies 386/5 (Walcott 148*, Gomez 57*)
+ Day 4: West Indies 425/6d, England 218/4 (Washbrook 114*, Yardley 0*)
+
+West Indies 1st innings                                         R   M   B  4 6
+AF Rae                               c & b Jenkins            106 280     15 0
+JB Stollmeyer         lbw                b Wardle              20            0
+FMM Worrell                              b Bedser              52            0
+ED Weekes                                b Bedser              63  90     10 0
++CL Walcott           st Evans           b Jenkins             14            0
+GE Gomez              st Evans           b Jenkins              1          0 0
+RJ Christiani                            b Bedser              33            0
+*JDC Goddard                             b Wardle              14            0
+PEW Jones             c Evans            b Jenkins              0          0 0
+S Ramadhin            not out                                   1          0 0
+AL Valentine          c Hutton           b Jenkins              5            0
+Extras                (b 10, lb 5, w 1, nb 1)                  17
+Total                 (all out, 131.2 overs)                  326
+
+FoW: 1-37 (Stollmeyer), 2-128 (Worrell), 3-233 (Weekes),
+     4-262 (Walcott), 5-273 (Rae), 6-274 (Gomez),
+     7-320 (Goddard), 8-320 (Christiani), 9-320 (Jones),
+     10-326 (Valentine).
+
+Bowling                      O      M      R      W
+Bedser                      40     14     60      3
+Edrich                      16      4     30      0
+Jenkins                     35.2    6    116      5
+Wardle                      17      6     46      2
+Berry                       19      7     45      0
+Yardley                      4      1     12      0
+
+England 1st innings                                             R   M   B  4 6
+L Hutton              st Walcott         b Valentine           35            0
+C Washbrook           st Walcott         b Ramadhin            36            0
+WJ Edrich             c Walcott          b Ramadhin             8  90        0
+GHG Doggart           lbw                b Ramadhin             0          0 0
+WGA Parkhouse                            b Valentine            0      30  0 0
+*NWD Yardley                             b Valentine           16            0
++TG Evans                                b Ramadhin             8          2 0
+RO Jenkins            c Walcott          b Valentine            4  35        0
+JH Wardle             not out                                  33          6 0
+AV Bedser                                b Ramadhin             5          1 0
+R Berry               c Goddard          b Jones                2          0 0
+Extras                (b 2, lb 1, w 1)                          4
+Total                 (all out, 106.4 overs)                  151
+
+FoW: 1-62 (Hutton), 2-74 (Washbrook), 3-74 (Doggart),
+     4-75 (Parkhouse), 5-86 (Edrich), 6-102 (Evans),
+     7-110 (Yardley), 8-113 (Jenkins), 9-122 (Bedser),
+     10-151 (Berry).
+
+Bowling                      O      M      R      W
+Jones                        8.4    2     13      1
+Worrell                     10      4     20      0
+Valentine                   45     28     48      4
+Ramadhin                    43     27     66      5
+
+West Indies 2nd innings                                         R   M   B  4 6
+AF Rae                                   b Jenkins             24            0
+JB Stollmeyer                            b Jenkins             30            0
+FMM Worrell           c Doggart          b Jenkins             45            0
+ED Weekes             run out                                  63            0
+*JDC Goddard          c Evans            b Jenkins             11            0
++CL Walcott           not out                                 168         24 0
+GE Gomez              c Edrich           b Bedser              70            0
+RJ Christiani         not out                                   5            0
+Extras                (lb 8, nb 1)                              9
+Total                 (6 wickets dec, 178 overs)              425
+
+DNB: PEW Jones, S Ramadhin, AL Valentine.
+
+FoW: 1-48 (Stollmeyer), 2-75 (Rae), 3-108 (Worrell),
+     4-146 (Goddard), 5-199 (Weekes), 6-410 (Gomez).
+
+Bowling                      O      M      R      W
+Bedser                      44     16     80      1
+Edrich                      13      2     37      0
+Jenkins                     59     13    174      4
+Wardle                      30     10     58      0
+Berry                       32     15     67      0
+
+England 2nd innings (target: 601 runs)                          R   M   B  4 6
+L Hutton                                 b Valentine           10            0
+C Washbrook                              b Ramadhin           114 330     14 1
+WJ Edrich             c Jones            b Ramadhin             8            0
+GHG Doggart                              b Ramadhin            25            0
+WGA Parkhouse         c Goddard          b Valentine           48            0
+*NWD Yardley          c Weekes           b Valentine           19            0
++TG Evans             c Rae              b Ramadhin             2          0 0
+RO Jenkins                               b Ramadhin             4            0
+JH Wardle             lbw                b Worrell             21            0
+AV Bedser                                b Ramadhin             0          0 0
+R Berry               not out                                   0          0 0
+Extras                (b 16, lb 7)                             23
+Total                 (all out, 191.3 overs)                  274
+
+FoW: 1-28 (Hutton), 2-57 (Edrich), 3-140 (Doggart),
+     4-218 (Parkhouse), 5-228 (Washbrook), 6-238 (Evans),
+     7-245 (Yardley), 8-248 (Jenkins), 9-258 (Bedser),
+     10-274 (Wardle).
+
+Bowling                      O      M      R      W
+Jones                        7      1     22      0
+Worrell                     22.3    9     39      1
+Valentine                   71     47     79      3
+Ramadhin                    72     43     86      6
+Gomez                       13      1     25      0
+Goddard                      6      6      0      0
+
+<END>

@@ -1,0 +1,132 @@
+
+Test # 281
+The Ashes, 1946/47, 3rd Test
+Australia v England
+Melbourne Cricket Ground
+1,2,3,4,6,7 January 1947 (6-day match)
+
+Result: Match drawn
+Series: Australia leads the 5-match series 2-0
+
+Toss: Australia
+Umpires: GE Borwick and JD Scott
+Balls per over: 8
+Test debut: B Dooland (Australia).
+
+Close of play:
+ Day 1: Australia 253/6 (McCool 28*, Tallon 35*)
+ Day 2: Australia 365, England 147/1 (Washbrook 54*, Edrich 83*)
+ Day 3: England 351, Australia 33/0 (Barnes 19*, Morris 14*)
+ Day 4: Australia 293/4 (Morris 132*, McCool 25*)
+ Day 5: Australia 536, England 91/0 (Hutton 25*, Washbrook 60*)
+
+Australia 1st innings                                           R   M   B  4 6
+SG Barnes             lbw                b Bedser              45 117 124  3 0
+AR Morris             lbw                b Bedser              21  50  40  2 0
+*DG Bradman                              b Yardley             79 169 162  2 0
+AL Hassett            c Hammond          b Wright              12  53  48  0 0
+KR Miller             c Evans            b Wright              33  61  68  3 0
+IWG Johnson           lbw                b Yardley              0   1   1  0 0
+CL McCool             not out                                 104 183 174  8 0
++D Tallon             c Evans            b Edrich              35  59  71  3 0
+RR Lindwall                              b Bedser               9  23  30  1 0
+B Dooland             c Hammond          b Edrich              19  78  68  0 0
+ERH Toshack           c Hutton           b Edrich               6   8   6  1 0
+Extras                (nb 2)                                    2
+Total                 (all out, 97.3 overs)                   365
+
+FoW: 1-32 (Morris), 2-108 (Barnes), 3-143 (Hassett),
+     4-188 (Bradman), 5-188 (Johnson), 6-192 (Miller),
+     7-255 (Tallon), 8-272 (Lindwall), 9-355 (Dooland),
+     10-365 (Toshack).
+
+Bowling                      O      M      R      W
+Voce                        10      2     40      0
+Bedser                      31      4     99      3
+Wright                      26      2    124      2
+Yardley                     20      4     50      2
+Edrich                      10.3    2     50      3
+
+England 1st innings                                             R   M   B  4 6
+L Hutton              c McCool           b Lindwall             2  15  10  0 0
+C Washbrook           c Tallon           b Dooland             62 235 207  1 1
+WJ Edrich             lbw                b Lindwall            89 173 237 10 0
+DCS Compton           lbw                b Toshack             11  19  23  1 0
+*WR Hammond                          c & b Dooland              9  11  13  1 0
+JT Ikin               c Miller           b Dooland             48 142 144  2 0
+NWD Yardley                              b McCool              61 122 122  3 0
++TG Evans                                b McCool              17  32  40  1 0
+W Voce                lbw                b Dooland              0   1   1  0 0
+AV Bedser             not out                                  27  54  52  2 0
+DVP Wright                               b Johnson             10  30  28  1 0
+Extras                (b 1, lb 12, nb 2)                       15
+Total                 (all out, 108.5 overs)                  351
+
+FoW: 1-8 (Hutton), 2-155 (Edrich), 3-167 (Compton),
+     4-176 (Hammond), 5-179 (Washbrook), 6-292 (Yardley),
+     7-298 (Ikin), 8-298 (Voce), 9-324 (Evans), 10-351 (Wright).
+
+Bowling                      O      M      R      W
+Lindwall                    20      1     64      2
+Miller                      10      0     34      0
+Toshack                     26      5     88      1
+McCool                      19      3     53      2
+Dooland                     27      5     69      4
+Johnson                      6.5    1     28      1
+
+Australia 2nd innings                                           R   M   B  4 6
+SG Barnes             c Evans            b Yardley             32  73  84  0 0
+AR Morris                                b Bedser             155 364 317  8 0
+*DG Bradman                          c & b Yardley             49  99  95  4 0
+AL Hassett                               b Wright               9  22  21  1 0
+KR Miller             c Hammond          b Yardley             34  80  84  3 0
+CL McCool             c Evans            b Bedser              43 108 106  3 0
+IWG Johnson           run out                                   0   6   4  0 0
++D Tallon                            c & b Wright              92 105 108 10 0
+RR Lindwall           c Washbrook        b Bedser             100 113  90 13 1
+B Dooland             c Compton          b Wright               1   8   4  0 0
+ERH Toshack           not out                                   2  14   8  0 0
+Extras                (b 14, lb 2, nb 3)                       19
+Total                 (all out, 113.3 overs)                  536
+
+FoW: 1-68 (Barnes), 2-159 (Bradman), 3-177 (Hassett),
+     4-242 (Miller), 5-333 (Morris), 6-335 (Johnson),
+     7-341 (McCool), 8-495 (Tallon), 9-511 (Dooland),
+     10-536 (Lindwall).
+
+Bowling                      O      M      R      W
+Voce                         6      1     29      0
+Bedser                      34.3    4    176      3
+Wright                      32      3    131      3
+Yardley                     20      0     67      3
+Edrich                      18      1     86      0
+Hutton                       3      0     28      0
+
+England 2nd innings (target: 551 runs)                          R   M   B  4 6
+L Hutton              c Bradman          b Toshack             40 178 168  3 0
+C Washbrook                              b Dooland            112 245 299  8 1
+WJ Edrich             lbw                b McCool              13  22  34  1 0
+DCS Compton           run out                                  14  22  27  2 0
+*WR Hammond                              b Lindwall            26  77  80  3 0
+JT Ikin               c Hassett          b Miller               5  33  34  0 0
+NWD Yardley           not out                                  53  89 106  6 0
+AV Bedser             lbw                b Miller              25  49  50  3 0
++TG Evans             not out                                   0  15   3  0 0
+Extras                (b 15, lb 6, w 1)                        22
+Total                 (7 wickets, 100 overs)                  310
+
+DNB: W Voce, DVP Wright.
+
+FoW: 1-138 (Hutton), 2-163 (Edrich), 3-186 (Compton),
+     4-197 (Washbrook), 5-221 (Ikin), 6-249 (Hammond),
+     7-294 (Bedser).
+
+Bowling                      O      M      R      W
+Lindwall                    16      2     59      1
+Miller                      11      0     41      2
+Toshack                     16      5     39      1
+McCool                      24      9     41      1
+Dooland                     21      1     84      1
+Johnson                     12      4     24      0
+
+<END>

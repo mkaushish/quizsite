@@ -1,0 +1,105 @@
+
+Test # 1093
+England in New Zealand, 1987/88, 2nd Test
+New Zealand v England
+Eden Park, Auckland
+25,26,27,28,29 February 1988 (5-day match)
+
+Result: Match drawn
+Series: 3-match series level 0-0
+
+Toss: England
+Umpires: FR Goodall and RL McHarg
+Test debut: MJ Greatbatch (New Zealand).
+Player of the match: JG Wright
+
+Close of play:
+ Day 1: New Zealand 186/3 (Wright 101*, Greatbatch 5*)
+ Day 2: New Zealand 301, England 97/1 (Moxon 42*, Robinson 37*)
+ Day 3: England 302/8 (Emburey 40*, Radford 5*)
+ Day 4: England 323, New Zealand 154/5 (Greatbatch 6*, Snedden 0*)
+
+New Zealand 1st innings                                         R   M   B  4 6
+JG Wright             c French           b Dilley             103 352 276 16 0
+TJ Franklin                              b Jarvis              27 138 108  3 0
+*JJ Crowe             c Capel            b Dilley              11  48  42  1 0
+MD Crowe              c Capel            b Emburey             36 120  94  3 0
+MJ Greatbatch         c French           b Dilley              11  77  48  0 0
+KR Rutherford                            b Capel               29  99  54  5 0
+JG Bracewell          c Moxon            b Dilley               9  18  19  1 0
++IDS Smith            c French           b Jarvis              23  55  38  2 0
+MC Snedden            c Moxon            b Dilley              14  35  28  1 0
+DK Morrison           not out                                  14  79  60  2 0
+EJ Chatfield          c French           b Capel               10  52  41  1 0
+Extras                (b 1, lb 2, w 2, nb 9)                   14
+Total                 (all out, 134.2 overs)                  301
+
+FoW: 1-77 (Franklin), 2-98 (JJ Crowe), 3-169 (MD Crowe),
+     4-191 (Wright), 5-207 (Greatbatch), 6-219 (Bracewell),
+     7-254 (Rutherford), 8-262 (Smith), 9-279 (Snedden),
+     10-301 (Chatfield).
+
+Bowling                      O      M      R      W
+Dilley                      28      9     60      5
+Jarvis                      33      9     74      2
+Radford                     30      4     79      0
+Capel                       26.2    4     57      2
+Emburey                     17      7     28      1
+
+England 1st innings                                             R   M   B  4 6
+BC Broad              c MD Crowe         b Bracewell            9  55  43  1 0
+MD Moxon              c JJ Crowe         b Chatfield           99 349 269 10 0
+RT Robinson           c Morrison         b Bracewell           54 182 150  7 0
+*MW Gatting           c Smith            b Morrison            42 119 109  5 0
+NH Fairbrother        c Smith            b Chatfield            1  21  19  0 0
+DJ Capel              c Bracewell        b Morrison             5  44  25  0 0
+JE Emburey            c Smith            b Chatfield           45 189 133  5 0
++BN French            c Franklin         b Bracewell           13  52  39  2 0
+PW Jarvis             c Smith            b Snedden             10  30  26  2 0
+NV Radford                               b Chatfield            8  47  30  0 0
+GR Dilley             not out                                   8  25  11  1 0
+Extras                (b 12, lb 12, nb 5)                      29
+Total                 (all out, 141.1 overs)                  323
+
+FoW: 1-27 (Broad), 2-135 (Robinson), 3-211 (Moxon),
+     4-220 (Gatting), 5-222 (Fairbrother), 6-234 (Capel),
+     7-267 (French), 8-282 (Jarvis), 9-308 (Radford),
+     10-323 (Emburey).
+
+Bowling                      O      M      R      W
+Morrison                    32      7     95      2
+Chatfield                   31.1   15     37      4
+Bracewell                   39      8     88      3
+Snedden                     34     14     71      1
+Rutherford                   5      1      8      0
+
+New Zealand 2nd innings                                         R   M   B  4 6
+TJ Franklin                              b Dilley              62 217 189  6 0
+JG Wright             c French           b Radford             49 208 155  8 0
+*JJ Crowe             lbw                b Dilley               1  13  14  0 0
+MD Crowe              lbw                b Jarvis              26  67  60  5 0
+MJ Greatbatch         not out                                 107 407 325 12 0
+KR Rutherford                            b Emburey              2  18  10  0 0
+MC Snedden            c French           b Capel               20 162 115  2 0
+JG Bracewell          lbw                b Gatting             38 115 112  1 0
++IDS Smith            not out                                  23  46  39  5 0
+Extras                (b 8, lb 8, nb 6)                        22
+Total                 (7 wickets dec, 169 overs)              350
+
+DNB: DK Morrison, EJ Chatfield.
+
+FoW: 1-117 (Wright), 2-119 (Franklin), 3-119 (JJ Crowe),
+     4-150 (MD Crowe), 5-153 (Rutherford), 6-232 (Snedden),
+     7-296 (Bracewell).
+
+Bowling                      O      M      R      W
+Dilley                      23      9     44      2
+Jarvis                      27      7     54      1
+Radford                     20      4     53      1
+Emburey                     57     24     91      1
+Capel                       21      4     40      1
+Gatting                     17      4     40      1
+Fairbrother                  2      0      9      0
+Moxon                        2      0      3      0
+
+<END>

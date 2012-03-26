@@ -1,0 +1,119 @@
+
+Test # 508
+The Ashes, 1961, 2nd Test
+England v Australia
+Lord's, London
+22,23,24,26 June 1961 (5-day match)
+
+Result: Australia won by 5 wickets
+Series: Australia leads the 5-match series 1-0
+
+Toss: England
+Umpires: CS Elliott and WE Phillipson
+Test debut: GD McKenzie (Australia).
+
+Close of play:
+ Day 1: England 206, Australia 42/2 (Lawry 32*, Harvey 6*)
+ Day 2: Australia 286/8 (Mackay 32*, McKenzie 29*)
+ Day 3: Australia 340, England 178/6 (Barrington 59*, Murray 14*)
+
+England 1st innings                                             R   M   B  4 6
+G Pullar                                 b Davidson            11            0
+R Subba Row           lbw                b Mackay              48            0
+ER Dexter             c McKenzie         b Misson              27            0
+*MC Cowdrey           c Grout            b McKenzie            16          3 0
+PBH May               c Grout            b Davidson            17            0
+KF Barrington         c Mackay           b Davidson             4          1 0
+R Illingworth                            b Misson              13  70        0
++JT Murray            lbw                b Mackay              18  55        0
+GAR Lock              c Grout            b Davidson             5            0
+FS Trueman                               b Davidson            25            0
+JB Statham            not out                                  11            0
+Extras                (lb 9, w 2)                              11
+Total                 (all out, 78.3 overs)                   206
+
+FoW: 1-26 (Pullar), 2-87 (Subba Row), 3-87 (Dexter), 4-111 (May),
+     5-115 (Barrington), 6-127 (Cowdrey), 7-156 (Murray),
+     8-164 (Illingworth), 9-167 (Lock), 10-206 (Trueman).
+
+Bowling                      O      M      R      W
+Davidson                    24.3    6     42      5
+McKenzie                    26      7     81      1
+Misson                      16      4     48      2
+Mackay                      12      3     24      2
+
+Australia 1st innings                                           R   M   B  4 6
+WM Lawry              c Murray           b Dexter             130 369     18 0
+CC McDonald                              b Statham              4            0
+RB Simpson            c Illingworth      b Trueman              0          0 0
+*RN Harvey            c Barrington       b Trueman             27            0
+NC O'Neill                               b Dexter               1          0 0
+PJP Burge             c Murray           b Statham             46 140        0
+AK Davidson           lbw                b Trueman              6            0
+KD Mackay             c Barrington       b Illingworth         54            0
++ATW Grout            lbw                b Dexter               0          0 0
+GD McKenzie                              b Trueman             34            0
+FM Misson             not out                                  25            0
+Extras                (b 1, lb 12)                             13
+Total                 (all out, 139.3 overs)                  340
+
+FoW: 1-5 (McDonald), 2-6 (Simpson), 3-81 (Harvey),
+     4-88 (O'Neill), 5-183 (Burge), 6-194 (Davidson),
+     7-238 (Lawry), 8-238 (Grout), 9-291 (McKenzie),
+     10-340 (Mackay).
+
+Bowling                      O      M      R      W
+Statham                     44     10     89      2
+Trueman                     34      3    118      4
+Dexter                      24      7     56      3
+Lock                        26     13     48      0
+Illingworth                 11.3    5     16      1
+
+England 2nd innings                                             R   M   B  4 6
+G Pullar              c Grout            b Misson              42            0
+R Subba Row           c Grout            b Davidson             8            0
+ER Dexter                                b McKenzie            17            0
+*MC Cowdrey           c Mackay           b Misson               7          1 0
+PBH May               c Grout            b McKenzie            22 102        0
+KF Barrington         lbw                b Davidson            66 199     11 0
+R Illingworth         c Harvey           b Simpson              0          0 0
++JT Murray            c Grout            b McKenzie            25            0
+GAR Lock                                 b McKenzie             1          0 0
+FS Trueman            c Grout            b McKenzie             0          0 0
+JB Statham            not out                                   2          0 0
+Extras                (b 1, lb 10, w 1)                        12
+Total                 (all out, 97 overs)                     202
+
+FoW: 1-33 (Subba Row), 2-63 (Dexter), 3-67 (Pullar),
+     4-80 (Cowdrey), 5-127 (May), 6-144 (Illingworth),
+     7-191 (Barrington), 8-199 (Murray), 9-199 (Trueman),
+     10-202 (Lock).
+
+Bowling                      O      M      R      W
+Davidson                    24      8     50      2
+McKenzie                    29     13     37      5
+Misson                      17      2     66      2
+Mackay                       8      6      5      0
+Simpson                     19     10     32      1
+
+Australia 2nd innings (target: 69 runs)                         R   M   B  4 6
+WM Lawry              c Murray           b Statham              1          0 0
+CC McDonald           c Illingworth      b Trueman             14            0
+*RN Harvey            c Murray           b Trueman              4            0
+NC O'Neill                               b Statham              0          0 0
+PJP Burge             not out                                  37            0
+RB Simpson            c Illingworth      b Statham             15            0
+AK Davidson           not out                                   0          0 0
+Extras                                                          0
+Total                 (5 wickets, 20.5 overs)                  71
+
+DNB: KD Mackay, +ATW Grout, GD McKenzie, FM Misson.
+
+FoW: 1-15 (McDonald), 2-15 (Lawry), 3-19 (Harvey),
+     4-19 (O'Neill), 5-58 (Simpson).
+
+Bowling                      O      M      R      W
+Statham                     10.5    3     31      3
+Trueman                     10      0     40      2
+
+<END>

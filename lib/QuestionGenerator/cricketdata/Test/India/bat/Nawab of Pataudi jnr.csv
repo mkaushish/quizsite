@@ -1,0 +1,72 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+516, 1961-12-13, 1, 4, England, c Richardson, Allen, 13, 70, na, 2, 0
+518, 1962-12-30, 1, 4, England, c Lock, Allen, 64, 164, na, 11, 0
+518, 1962-12-30, 3, 4, England, c Millman, Lock, 32, 107, na, 5, 0
+520, 1962-01-10, 1, 4, England, c Lock, Knight, 103, 162, na, 16, 2
+520, 1962-01-10, 3, 4, England, c MJK Smith, Lock, 10, 21, na, 2, 0
+527, 1962-03-23, 1, 6, West Indies,                c &, Valentine, 48, na, na, na, 0
+527, 1962-03-23, 3, 6, West Indies, c Sobers, Gibbs, 0, 1, 2, 0, 0
+528, 1962-04-04, 2, 7, West Indies, c Sobers, Rodriguez, 47, na, na, na, 0
+528, 1962-04-04, 3, 5, West Indies, c Kanhai, Sobers, 1, na, na, 0, 0
+529, 1962-04-13, 2, 5, West Indies, c Kanhai, Hall, 14, na, na, na, 0
+529, 1962-04-13, 4, 6, West Indies, , Sobers, 4, na, na, na, 0
+551, 1964-01-10, 1, 5, England, lbw, Titmus, 0, 2, na, 0, 0
+551, 1964-01-10, 3, 6, England, c Bolus, Titmus, 18, 62, na, 1, 0
+552, 1964-01-21, 1, 5, England, c Titmus, Knight, 10, 42, na, 1, 0
+552, 1964-01-21, 3, 4, England, , Price, 0, 6, na, 0, 0
+554, 1964-01-29, 1, 7, England, c Binks, Wilson, 2, 34, na, 0, 0
+554, 1964-01-29, 3, 5, England, c Smith, Larter, 31, 73, na, 5, 0
+556, 1964-02-08, 1, 4, England, , Titmus, 13, 48, na, 1, 0
+556, 1964-02-08, 3, 4, England, not out, , 203, 430, na, 23, 2
+557, 1964-02-15, 2, 6, England, , Titmus, 31, 68, na, 5, 1
+566, 1964-10-02, 2, 6, Australia, not out, , 128, 343, na, 17, 0
+566, 1964-10-02, 4, 7, Australia, , McKenzie, 1, 9, na, 0, 0
+567, 1964-10-10, 2, 6, Australia, c McKenzie, Veivers, 86, 213, na, 11, 0
+567, 1964-10-10, 4, 7, Australia, c Burge, Connolly, 53, 203, na, 4, 0
+568, 1964-10-17, 2, 6, Australia, , Simpson, 2, 38, na, 0, 0
+579, 1965-02-27, 1, 5, New Zealand, , Motz, 9, 13, na, 1, 0
+581, 1965-03-05, 2, 6, New Zealand, c Ward, Taylor, 153, 265, na, 29, 0
+582, 1965-03-12, 2, 6, New Zealand, c Ward, Congdon, 9, 25, na, 2, 0
+582, 1965-03-12, 3, 6, New Zealand, , Motz, 3, 11, na, 0, 0
+583, 1965-03-19, 2, 5, New Zealand, , Collinge, 113, 202, na, 17, 2
+583, 1965-03-19, 4, 4, New Zealand, , Reid, 29, 34, na, 6, 0
+610, 1966-12-13, 1, 5, West Indies, , Holford, 44, 119, na, 5, 0
+610, 1966-12-13, 3, 6, West Indies, , Gibbs, 51, 84, na, 3, 1
+612, 1967-12-31, 2, 5, West Indies, c Griffith, Gibbs, 2, 22, na, 0, 0
+612, 1967-12-31, 3, 5, West Indies, c Griffith, Lloyd, 2, 10, na, 0, 0
+614, 1967-01-13, 1, 5, West Indies, , Hall, 40, 95, na, 5, 1
+614, 1967-01-13, 3, 5, West Indies, c Sobers, Gibbs, 5, 22, na, 1, 0
+618, 1967-06-08, 2, 6, England, c Barrington, Hobbs, 64, 181, 206, 7, 1
+618, 1967-06-08, 3, 6, England, , Illingworth, 148, 348, 348, 15, 1
+619, 1967-06-22, 1, 5, England, c Murray, Brown, 5, 5, 6, 1, 0
+619, 1967-06-22, 3, 5, England, c Graveney, Close, 5, 20, 26, 1, 0
+620, 1967-07-13, 2, 5, England, , Brown, 0, 1, 2, 0, 0
+620, 1967-07-13, 4, 5, England, c Hobbs, Close, 47, 131, 145, 8, 0
+625, 1968-12-30, 1, 7, Australia, c Jarman, Renneberg, 75, 228, 194, 8, 0
+625, 1968-12-30, 3, 7, Australia, c Redpath, Simpson, 85, 155, 157, 12, 0
+626, 1968-01-19, 2, 5, Australia, lbw, Freeman, 74, 156, na, 10, 1
+626, 1968-01-19, 4, 5, Australia, , Walters, 48, 108, na, 6, 0
+628, 1968-01-26, 2, 5, Australia, c Simpson, Freeman, 51, 140, 139, 8, 0
+628, 1968-01-26, 4, 5, Australia, c Chappell, Simpson, 6, 30, 48, 0, 0
+630, 1968-02-15, 2, 6, New Zealand, , Alabaster, 24, na, na, na, 0
+630, 1968-02-15, 4, 5, New Zealand,                c &, Taylor, 11, na, na, na, 0
+631, 1968-02-22, 2, 5, New Zealand, c Murray, Pollard, 52, 108, na, 8, 0
+631, 1968-02-22, 3, 5, New Zealand, , Bartlett, 47, 145, na, 5, 1
+632, 1968-02-29, 2, 5, New Zealand, c Harford, Taylor, 30, 81, na, na, 0
+634, 1968-03-07, 1, 5, New Zealand, c Pollard, Motz, 51, 183, na, 6, 0
+634, 1968-03-07, 3, 5, New Zealand, lbw, Pollard, 6, na, na, na, 0
+659, 1969-09-25, 1, 5, New Zealand, c Congdon, Hadlee, 18, 103, na, 2, 0
+659, 1969-09-25, 3, 5, New Zealand, c Howarth, Taylor, 67, 282, na, 9, 0
+660, 1969-10-03, 2, 6, New Zealand, c Wadsworth, Burgess, 7, 11, na, 1, 0
+660, 1969-10-03, 4, 5, New Zealand, lbw, Howarth, 28, 108, na, 4, 0
+661, 1969-10-15, 2, 5, New Zealand, c Murray, Hadlee, 0, 2, na, 0, 0
+661, 1969-10-15, 4, 5, New Zealand, lbw, Cunis, 9, 44, na, 1, 0
+664, 1969-11-04, 1, 5, Australia, c Lawry, Gleeson, 95, 369, na, 14, 0
+664, 1969-11-04, 3, 5, Australia, c Stackpole, Gleeson, 0, na, na, 0, 0
+666, 1969-11-15, 1, 5, Australia, c Redpath, McKenzie, 38, na, na, na, 0
+666, 1969-11-15, 3, 5, Australia, lbw, McKenzie, 0, na, na, 0, 0
+667, 1969-11-28, 2, 6, Australia, c Chappell, Mallett, 8, na, na, na, 0
+668, 1969-12-12, 1, 5, Australia, c Chappell, Mallett, 15, na, na, na, 0
+668, 1969-12-12, 3, 6, Australia, c Connolly, Mallett, 1, na, na, 0, 0
+669, 1969-12-24, 2, 6, Australia, c Sheahan, McKenzie, 59, 129, na, 5, 2
+669, 1969-12-24, 4, 6, Australia, c Chappell, Mallett, 4, na, na, na, 0

@@ -1,0 +1,119 @@
+
+Test # 401
+England in New Zealand, 1954/55, 1st Test
+New Zealand v England
+Carisbrook, Dunedin
+11,12,14,15,16 March 1955 (5-day match)
+
+Result: England won by 8 wickets
+Series: England leads the 2-match series 1-0
+
+Toss: England
+Umpires: RG Currie and SB Tomkinson
+Test debuts: IA Colquhoun, SN McGregor, L Watt (New Zealand).
+
+Close of play:
+ Day 1: New Zealand 125
+ Day 2: England 209/8 (Wardle 32*, Appleyard 0*)
+ Day 3: No play
+ Day 4: No play
+
+New Zealand 1st innings                                         R   M   B  4 6
+*GO Rabone            st Evans           b Wardle              18 180      2 0
+ME Chapple                               b Statham              0  25      0 0
+B Sutcliffe           c Statham          b Bailey              74 267      5 3
+JR Reid                                  b Statham              4   3      1 0
+SN McGregor                              b Tyson                2  27      0 0
+L Watt                                   b Tyson                0   6      0 0
+HB Cave                                  b Tyson                1  18      0 0
+AM Moir                                  b Statham              7  11      1 0
+RW Blair                                 b Statham              0   9      0 0
+AR MacGibbon          c Evans            b Bailey               7  15      1 0
++IA Colquhoun         not out                                   0   7      0 0
+Extras                (b 5, lb 4, nb 3)                        12
+Total                 (all out, 81.2 overs)                   125
+
+FoW: 1-3 (Chapple), 2-63 (Rabone), 3-68 (Reid), 4-72 (McGregor),
+     5-76 (Watt), 6-86 (Cave), 7-103 (Moir), 8-113 (Blair),
+     9-122 (MacGibbon), 10-125 (Sutcliffe).
+
+Bowling                      O      M      R      W
+Tyson                       19      7     23      3
+Statham                     17      9     24      4
+Bailey                      12.2    6     19      2
+Wardle                      26     15     31      1
+Appleyard                    7      3     16      0
+
+England 1st innings                                             R   M   B  4 6
+*L Hutton             c Colquhoun        b Reid                11  50      2 0
+TW Graveney                              b Cave                41  83      7 0
+PBH May                                  b MacGibbon           10  70      1 0
+MC Cowdrey            lbw                b Reid                42  88      6 0
+RT Simpson                               b Cave                21  58      2 1
+TE Bailey             lbw                b Reid                 0   3      0 0
++TG Evans                                b Reid                 0   9      0 0
+JH Wardle             not out                                  32 102      3 0
+FH Tyson              c McGregor         b MacGibbon           16  90      2 0
+R Appleyard           not out                                   0   3      0 0
+Extras                (b 13, lb 17, nb 6)                      36
+Total                 (8 wickets dec, 92.5 overs)             209
+
+DNB: JB Statham.
+
+FoW: 1-60 (Hutton), 2-71 (Graveney), 3-101 (May),
+     4-150 (Cowdrey), 5-152 (Bailey), 6-152 (Simpson),
+     7-156 (Evans), 8-208 (Tyson).
+
+Bowling                      O      M      R      W
+Blair                        8      1     29      0
+MacGibbon                   24.5   11     39      2
+Reid                        27     11     36      4
+Cave                        24     15     27      2
+Moir                         9      1     42      0
+
+New Zealand 2nd innings                                         R   M   B  4 6
+*GO Rabone            lbw                b Wardle               7  41      0 0
+B Sutcliffe           run out                                  35  91      4 1
+ME Chapple                               b Statham             20  61      1 1
+JR Reid                                  b Tyson               28  90      3 1
+SN McGregor           c Cowdrey          b Appleyard            8  25      1 0
+L Watt                                   b Appleyard            2  11      0 0
+HB Cave                                  b Tyson                1   8      0 0
+AR MacGibbon                             b Tyson                0   1      0 0
+AM Moir               lbw                b Tyson               10  15      2 0
+RW Blair                                 b Wardle               3  14      0 0
++IA Colquhoun         not out                                   1   5      0 0
+Extras                (b 7, lb 10)                             17
+Total                 (all out, 56.3 overs)                   132
+
+FoW: 1-24 (Rabone), 2-68 (Sutcliffe), 3-75 (Chapple),
+     4-96 (McGregor), 5-98 (Watt), 6-103 (Cave),
+     7-103 (MacGibbon), 8-123 (Moir), 9-126 (Reid),
+     10-132 (Blair).
+
+Bowling                      O      M      R      W
+Tyson                       12      6     16      4
+Statham                     15      5     30      1
+Bailey                       8      4      9      0
+Wardle                      14.3    4     41      2
+Appleyard                    7      2     19      2
+
+England 2nd innings (target: 49 runs)                           R   M   B  4 6
+*L Hutton             c Colquhoun        b Blair                3  17      0 0
+TW Graveney           not out                                  32  50      5 0
+PBH May                                  b MacGibbon           13  25      2 0
+MC Cowdrey            not out                                   0   4      0 0
+Extras                (lb 1)                                    1
+Total                 (2 wickets, 15.2 overs)                  49
+
+DNB: RT Simpson, TE Bailey, +TG Evans, JH Wardle, FH Tyson,
+     R Appleyard, JB Statham.
+
+FoW: 1-22 (Hutton), 2-47 (May).
+
+Bowling                      O      M      R      W
+Blair                        4      0     20      1
+MacGibbon                    7.2    2     16      1
+Reid                         4      2     12      0
+
+<END>

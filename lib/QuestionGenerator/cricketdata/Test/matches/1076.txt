@@ -1,0 +1,53 @@
+
+Test # 1076
+Pakistan in England, 1987, 2nd Test
+England v Pakistan
+Lord's, London
+18,19,20,22,23 June 1987 (5-day match)
+
+Result: Match drawn
+Series: 5-match series level 0-0
+
+Toss: England
+Umpires: DJ Constant and AGT Whitehead
+Player of the match: CWJ Athey
+
+Close of play:
+ Day 1: England 231/4 (Athey 107*, French 1*)
+ Day 2: No play
+ Day 3: England 368
+ Day 4: No play
+
+England 1st innings                                             R   M   B  4 6
+BC Broad                                 b Mudassar Nazar      55 170 120  4 0
+RT Robinson           c Saleem Yousuf    b Mohsin Kamal         7  46  39  0 0
+CWJ Athey                                b Imran Khan         123 315 202 14 0
+DI Gower              c Saleem Yousuf    b Mudassar Nazar       8   8   9  2 0
+*MW Gatting           run out                                  43 124  98  7 0
++BN French                               b Wasim Akram         42  88  69  5 0
+IT Botham             c Javed Miandad    b Wasim Akram          6  47  32  1 0
+JE Emburey            run out                                  12  60  37  2 0
+NA Foster                                b Abdul Qadir         21  24  22  4 0
+PH Edmonds            not out                                  17  47  32  1 0
+GR Dilley             c Saleem Yousuf    b Imran Khan          17  28  24  3 0
+Extras                (lb 12, w 1, nb 4)                       17
+Total                 (all out, 112.5 overs)                  368
+
+FoW: 1-29 (Robinson), 2-118 (Broad), 3-128 (Gower),
+     4-230 (Gatting), 5-272 (Athey), 6-294 (French),
+     7-305 (Botham), 8-329 (Foster), 9-340 (Emburey),
+     10-368 (Dilley).
+
+Bowling                      O      M      R      W
+Imran Khan                  34.5    7     90      2
+Wasim Akram                 28      1     98      2
+Mohsin Kamal                 9      2     42      1
+Abdul Qadir                 25      1    100      1
+Mudassar Nazar              16      6     26      2
+
+Pakistan team:
+ Mudassar Nazar, Shoaib Mohammad, Mansoor Akhtar, Javed Miandad,
+ Saleem Malik, Ijaz Ahmed, *Imran Khan, +Saleem Yousuf,
+ Wasim Akram, Abdul Qadir, Mohsin Kamal.
+
+<END>

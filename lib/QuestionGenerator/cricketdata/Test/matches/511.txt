@@ -1,0 +1,102 @@
+
+Test # 511
+The Ashes, 1961, 5th Test
+England v Australia
+Kennington Oval, London
+17,18,19,21,22 August 1961 (5-day match)
+
+Result: Match drawn
+Series: Australia wins the 5-match series 2-1
+
+Toss: England
+Umpires: CS Elliott and FS Lee
+
+Close of play:
+ Day 1: England 210/8 (Allen 7*, Statham 2*)
+ Day 2: England 256, Australia 290/4 (Burge 86*, Booth 33*)
+ Day 3: Australia 494, England 32/0 (Pullar 13*, Subba Row 19*)
+ Day 4: England 155/4 (Subba Row 69*, Barrington 35*)
+
+England 1st innings                                             R   M   B  4 6
+G Pullar                                 b Davidson             8  26      1 0
+R Subba Row           lbw                b Gaunt               12  45      1 0
+MC Cowdrey            c Grout            b Davidson             0  21      0 0
+*PBH May              c Lawry            b Benaud              71 183     11 0
+ER Dexter             c Grout            b Gaunt               24  71      5 0
+KF Barrington         c Grout            b Gaunt               53 195      5 0
++JT Murray            c O'Neill          b Mackay              27 110      2 0
+GAR Lock              c Grout            b Mackay               3   2      0 0
+DA Allen              not out                                  22  79      2 0
+JB Statham                               b Davidson            18  47      2 0
+JA Flavell            c Simpson          b Davidson            14  17      1 0
+Extras                (b 1, lb 2, w 1)                          4
+Total                 (all out, 118.1 overs)                  256
+
+FoW: 1-18 (Pullar), 2-20 (Subba Row), 3-20 (Cowdrey),
+     4-67 (Dexter), 5-147 (May), 6-193 (Barrington),
+     7-199 (Lock), 8-202 (Murray), 9-238 (Statham),
+     10-256 (Flavell).
+
+Bowling                      O      M      R      W
+Davidson                    34.1    8     83      4
+Gaunt                       24      3     53      3
+Benaud                      17      4     35      1
+Mackay                      39     14     75      2
+Simpson                      4      2      6      0
+
+Australia 1st innings                                           R   M   B  4 6
+WM Lawry              c Murray           b Statham              0   2      0 0
+RB Simpson                               b Allen               40 107      4 0
+RN Harvey             lbw                b Flavell             13  18      1 0
+NC O'Neill            c sub              b Allen              117 200     14 0
+PJP Burge                                b Allen              181 411     22 0
+BC Booth              c Subba Row        b Lock                71 199     12 0
+KD Mackay             c Murray           b Flavell              5  13      0 0
+AK Davidson           lbw                b Statham             17  43      3 0
+*R Benaud                                b Allen                6  26      1 0
++ATW Grout            not out                                  30  28      6 0
+RA Gaunt                                 b Statham              3  18      0 0
+Extras                (b 10, lb 1)                             11
+Total                 (all out, 165.5 overs)                  494
+
+FoW: 1-0 (Lawry), 2-15 (Harvey), 3-88 (Simpson), 4-211 (O'Neill),
+     5-396 (Booth), 6-401 (Mackay), 7-441 (Davidson),
+     8-455 (Benaud), 9-472 (Burge), 10-494 (Gaunt).
+
+Bowling                      O      M      R      W
+Statham                     38.5   10     75      3
+Flavell                     31      5    105      2
+Dexter                      24      2     68      0
+Allen                       30      6    133      4
+Lock                        42     14    102      1
+
+England 2nd innings                                             R   M   B  4 6
+G Pullar              c Grout            b Mackay              13  52      0 0
+R Subba Row                          c & b Benaud             137 385     15 1
+ER Dexter             c Gaunt            b Mackay               0   5      0 0
+*PBH May              c O'Neill          b Mackay              33  44      7 0
+MC Cowdrey            c Benaud           b Mackay               3  13      0 0
+KF Barrington         c O'Neill          b Benaud              83 226     10 0
++JT Murray            c Grout            b Benaud              40 130      7 0
+GAR Lock              c Benaud           b Mackay               0   3      0 0
+DA Allen              not out                                  42 124      4 0
+JB Statham            not out                                   9  24      2 0
+Extras                (b 6, lb 3, w 1)                         10
+Total                 (8 wickets, 177 overs)                  370
+
+DNB: JA Flavell.
+
+FoW: 1-33 (Pullar), 2-33 (Dexter), 3-83 (May), 4-90 (Cowdrey),
+     5-262 (Barrington), 6-283 (Subba Row), 7-283 (Lock),
+     8-355 (Murray).
+
+Bowling                      O      M      R      W
+Davidson                    29      7     67      0
+Gaunt                       22      7     33      0
+Mackay                      68     21    121      5
+Benaud                      51     18    113      3
+Simpson                      2      0     13      0
+O'Neill                      4      1     13      0
+Harvey                       1      1      0      0
+
+<END>

@@ -1,0 +1,141 @@
+
+Test # 944
+The Ashes, 1982/83, 5th Test
+Australia v England
+Sydney Cricket Ground
+2,3,4,6,7 January 1983 (5-day match)
+
+Result: Match drawn
+Series: Australia wins the 5-match series 2-1
+
+Toss: Australia
+Umpires: RA French and MW Johnson
+Player of the match: KJ Hughes
+Player of the series: GF Lawson
+
+Close of play:
+ Day 1: Australia 138/2 (Dyson 58*, Hughes 20*)
+ Day 2: Australia 314, England 76/3 (Gower 38*, Randall 21*)
+ Day 3: England 237, Australia 90/3 (Hughes 17*, Hookes 5*)
+ Day 4: Australia 382, England 8/1 (Tavare 1*, Hemmings 4*)
+
+Australia 1st innings                                           R   M   B  4 6
+KC Wessels            c Willis           b Botham              19  61  47  2 0
+J Dyson               c Taylor           b Hemmings            79 301 188  7 0
+*GS Chappell          lbw                b Willis              35  69  52  4 0
+KJ Hughes             c Cowans           b Botham              29  88  68  3 0
+DW Hookes             c Botham           b Hemmings            17  28  21  2 0
+AR Border             c Miller           b Hemmings            89 211 198 12 0
++RW Marsh                            c & b Miller               3  26  23  0 0
+B Yardley                                b Cowans              24  57  48  3 0
+GF Lawson                            c & b Botham               6  32  24  0 0
+JR Thomson            c Lamb             b Botham               0  16  11  0 0
+RM Hogg               not out                                   0  23  11  0 0
+Extras                (b 3, lb 8, w 2)                         13
+Total                 (all out, 115 overs)                    314
+
+FoW: 1-39 (Wessels), 2-96 (Chappell), 3-150 (Hughes),
+     4-173 (Hookes), 5-210 (Dyson), 6-219 (Marsh),
+     7-262 (Yardley), 8-283 (Lawson), 9-291 (Thomson),
+     10-314 (Border).
+
+Bowling                      O      M      R      W
+Willis                      20      6     57      1
+Cowans                      21      3     67      1
+Botham                      30      8     75      4
+Hemmings                    27     10     68      3
+Miller                      17      7     34      1
+
+England 1st innings                                             R   M   B  4 6
+G Cook                c Chappell         b Hogg                 8  32  19  0 0
+CJ Tavare                                b Lawson               0  16   8  0 0
+DI Gower              c Chappell         b Lawson              70 207 125  7 0
+AJ Lamb                                  b Lawson               0   5   3  0 0
+DW Randall                               b Thomson             70 132  90  5 0
+IT Botham             c Wessels          b Thomson              5  27  17  0 0
+G Miller              lbw                b Thomson             34 123  79  3 0
++RW Taylor            lbw                b Thomson              0   3   3  0 0
+EE Hemmings           c Border           b Yardley             29  52  39  2 0
+*RGD Willis           c Border           b Thomson              1  32  19  0 0
+NG Cowans             not out                                   0  10   2  0 0
+Extras                (b 4, lb 4, nb 12)                       20
+Total                 (all out, 64.5 overs)                   237
+
+FoW: 1-8 (Tavare), 2-23 (Cook), 3-24 (Lamb), 4-146 (Randall),
+     5-163 (Botham), 6-169 (Gower), 7-170 (Taylor),
+     8-220 (Hemmings), 9-232 (Willis), 10-237 (Miller).
+
+Bowling                      O      M      R      W
+Lawson                      20      2     70      3
+Hogg                        16      2     50      1
+Thomson                     14.5    2     50      5
+Yardley                     14      4     47      1
+
+Australia 2nd innings                                           R   M   B  4 6
+KC Wessels            lbw                b Botham              53 116  89  6 0
+J Dyson               c Gower            b Willis               2  40  24  0 0
+*GS Chappell          c Randall          b Hemmings            11  17  14  0 0
+KJ Hughes             c Botham           b Hemmings           137 379 316 12 3
+DW Hookes             lbw                b Miller              19  52  52  2 0
+AR Border             c Botham           b Cowans              83 163 148  9 0
++RW Marsh             c Taylor           b Miller              41  86  70  3 0
+B Yardley             c Botham           b Hemmings             0  11  11  0 0
+GF Lawson             not out                                  13  42  30  1 0
+JR Thomson            c Gower            b Miller              12  29  34  1 0
+RM Hogg               run out                                   0   5   6  0 0
+Extras                (lb 7, nb 4)                             11
+Total                 (all out, 131.3 overs)                  382
+
+FoW: 1-23 (Dyson), 2-38 (Chappell), 3-82 (Wessels),
+     4-113 (Hookes), 5-262 (Border), 6-350 (Marsh),
+     7-357 (Yardley), 8-358 (Hughes), 9-382 (Thomson),
+     10-382 (Hogg).
+
+Bowling                      O      M      R      W
+Willis                      10      2     33      1
+Cowans                      13      1     47      1
+Botham                      10      0     35      1
+Hemmings                    47     16    116      3
+Miller                      49.3   12    133      3
+Cook                         2      1      7      0
+
+England 2nd innings (target: 460 runs)                          R   M   B  4 6
+G Cook                lbw                b Lawson               2   3   5  0 0
+CJ Tavare             lbw                b Yardley             16  60  26  2 0
+EE Hemmings           c Marsh            b Yardley             95 223 195  6 0
+DI Gower              c Hookes           b Yardley             24  53  39  3 0
+AJ Lamb                              c & b Yardley             29  70  66  3 1
+DW Randall                               b Thomson             44 114  95  6 0
+IT Botham             lbw                b Thomson             32  73  56  4 0
+G Miller              not out                                  21  86  84  3 0
++RW Taylor            not out                                  28  83  53  3 0
+Extras                (b 1, lb 10, w 1, nb 11)                 23
+Total                 (7 wickets, 96 overs)                   314
+
+DNB: *RGD Willis, NG Cowans.
+
+FoW: 1-3 (Cook), 2-55 (Tavare), 3-104 (Gower), 4-155 (Lamb),
+     5-196 (Hemmings), 6-260 (Randall), 7-261 (Botham).
+
+Bowling                      O      M      R      W
+Lawson                      15      1     50      1
+Hogg                        13      6     25      0
+Thomson                     12      3     30      2
+Yardley                     37      6    139      4
+Border                      16      3     36      0
+Hookes                       2      1      5      0
+Chappell                     1      0      6      0
+
+*** Australia regains the Ashes, which they lost in 1977
+
+*** Aus 1st innings
+*** RW Taylor: 150 Test dismissals (Dyson)
+
+*** Eng 2nd innings
+*** EE Hemmings was 5 runs from becoming the 4th 'night-watchman' to score a
+    century at Test level.
+*** RW Taylor passes 1000 runs (completeing the keeper's double)
+*** This match was only the 4th drawn Test at Sydney between the 2 countries
+    (out of 46)
+
+<END>

@@ -1,0 +1,115 @@
+
+Test # 495
+South Africa in England, 1960, 4th Test
+England v South Africa
+Old Trafford, Manchester
+21,22,23,25,26 July 1960 (5-day match)
+
+Result: Match drawn
+Series: England leads the 5-match series 3-0
+
+Toss: England
+Umpires: JG Langridge and N Oldfield
+Test debut: DEV Padgett (England).
+
+Close of play:
+ Day 1: No play
+ Day 2: No play
+ Day 3: England 260, South Africa 17/0 (McGlew 13*, Goddard 4*)
+ Day 4: South Africa 229, England 50/2 (Dexter 12*, Illingworth 3*)
+
+England 1st innings                                             R   M   B  4 6
+G Pullar                                 b Pothecary           12  35        0
+R Subba Row           lbw                b Adcock              27 135        0
+ER Dexter                                b Pothecary           38  60      5 1
+*MC Cowdrey           c Waite            b Adcock              20  22        0
+KF Barrington                            b Goddard             76 167        0
+DEV Padgett           c Wesley           b Pothecary            5            0
++JM Parks             lbw                b Goddard             36            1
+R Illingworth         not out                                  22            0
+DA Allen              lbw                b Goddard              0          0 0
+FS Trueman            c Tayfield         b Adcock              10            0
+JB Statham                               b Adcock               0          0 0
+Extras                (b 8, lb 6)                              14
+Total                 (all out, 93 overs)                     260
+
+FoW: 1-27 (Pullar), 2-85 (Dexter), 3-108 (Cowdrey),
+     4-113 (Subba Row), 5-134 (Padgett), 6-197 (Parks),
+     7-239 (Barrington), 8-239 (Allen), 9-260 (Trueman),
+     10-260 (Statham).
+
+Bowling                      O      M      R      W
+Adcock                      23      5     66      4
+Pothecary                   28      3     85      3
+Goddard                     24     16     26      3
+Tayfield                    18      3     69      0
+
+South Africa 1st innings                                        R   M   B  4 6
+*DJ McGlew            c Subba Row        b Trueman             32            0
+TL Goddard            c Parks            b Statham              8            0
+AJ Pithey             c Parks            b Statham              7            0
+PR Carlstein                             b Trueman             11            0
+RA McLean                                b Allen              109 160 157 14 0
++JHB Waite                               b Statham             11            0
+S O'Linn              c sub              b Allen               27 174 125    1
+C Wesley              c Trueman          b Allen                3          0 0
+HJ Tayfield           c Trueman          b Allen                4            0
+JE Pothecary                             b Trueman             12            0
+NAT Adcock            not out                                   0          0 0
+Extras                (b 1, lb 4)                               5
+Total                 (all out, 89.5 overs)                   229
+
+FoW: 1-25 (Goddard), 2-33 (Pithey), 3-57 (Carlstein),
+     4-62 (McGlew), 5-92 (Waite), 6-194 (McLean), 7-198 (Wesley),
+     8-202 (Tayfield), 9-225 (Pothecary), 10-229 (O'Linn).
+
+Bowling                      O      M      R      W
+Statham                     22     11     32      3
+Trueman                     20      2     58      3
+Dexter                      17      5     41      0
+Allen                       19.5    6     58      4
+Illingworth                 11      2     35      0
+
+England 2nd innings                                             R   M   B  4 6
+G Pullar                             c & b Pothecary            9            0
+*MC Cowdrey                              b Adcock              25            1
+ER Dexter             c McLean           b Pothecary           22            0
+R Illingworth         c McLean           b Adcock               5            0
+DEV Padgett           c Waite            b Adcock               2          0 0
++JM Parks                            c & b Goddard             20            0
+KF Barrington         c Waite            b Goddard             35 140        0
+DA Allen              not out                                  14  90        0
+FS Trueman            not out                                  14  10      1 1
+Extras                (b 1, lb 5, nb 1)                         7
+Total                 (7 wickets dec, 75 overs)               153
+
+DNB: R Subba Row, JB Statham.
+
+FoW: 1-23 (Pullar), 2-41 (Cowdrey), 3-63 (Illingworth),
+     4-65 (Dexter), 5-71 (Padgett), 6-101 (Parks),
+     7-134 (Barrington).
+
+Bowling                      O      M      R      W
+Adcock                      27      9     59      3
+Pothecary                   32     10     61      2
+Goddard                     16      5     26      2
+
+South Africa 2nd innings (target: 185 runs)                     R   M   B  4 6
+*DJ McGlew            not out                                  26 107        0
+TL Goddard            not out                                  16 107        0
+Extras                (b 3, nb 1)                               4
+Total                 (0 wickets, 26 overs)                    46
+
+DNB: AJ Pithey, PR Carlstein, RA McLean, +JHB Waite, S O'Linn,
+     C Wesley, HJ Tayfield, JE Pothecary, NAT Adcock.
+
+Bowling                      O      M      R      W
+Statham                      4      2      3      0
+Trueman                      6      1     10      0
+Allen                        7      4      5      0
+Illingworth                  5      3      6      0
+Pullar                       1      0      6      0
+Padgett                      2      0      8      0
+Cowdrey                      1      0      4      0
+
+<END>

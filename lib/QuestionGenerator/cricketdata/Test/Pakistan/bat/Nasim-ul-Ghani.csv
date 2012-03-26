@@ -1,0 +1,52 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+446, 1958-01-17, 2, 9, West Indies, run out, , 11, na, na, na, 0
+446, 1958-01-17, 3, 9, West Indies, , Valentine, 0, na, na, 0, 0
+448, 1958-02-05, 2, 6, West Indies, c Alexander, Gilchrist, 0, na, na, 0, 0
+448, 1958-02-05, 4, 11, West Indies, , Gibbs, 0, na, na, 0, 0
+450, 1958-02-26, 1, 9, West Indies, , Atkinson, 5, na, na, na, 0
+450, 1958-02-26, 3, 10, West Indies, absent hurt, , -, , , , 
+452, 1958-03-13, 1, 10, West Indies, , Dewdney, 13, na, na, na, 0
+452, 1958-03-13, 3, 10, West Indies,                c &, Gibbs, 22, na, na, na, 0
+453, 1958-03-26, 2, 9, West Indies, c Alexander, Gibbs, 15, na, na, na, 0
+469, 1959-02-20, 2, 9, West Indies, , Gibbs, 11, na, na, na, 0
+471, 1959-03-06, 1, 9, West Indies, run out, , 7, na, na, na, 0
+471, 1959-03-06, 3, 8, West Indies, , Hall, 0, na, na, 0, 0
+473, 1959-03-26, 2, 10, West Indies, , Hall, 0, na, 1, 0, 0
+473, 1959-03-26, 3, 10, West Indies, not out, , 6, na, na, na, 0
+479, 1959-11-13, 1, 11, Australia, , Davidson, 5, na, na, na, 0
+479, 1959-11-13, 3, 11, Australia, c McDonald, Benaud, 0, na, na, 0, 0
+480, 1959-11-21, 1, 10, Australia, c Stevens, Davidson, 6, na, na, na, 0
+480, 1959-11-21, 3, 8, Australia, , Benaud, 15, na, na, na, 0
+497, 1960-12-02, 1, 7, India, c Joshi, Desai, 4, na, na, na, 0
+499, 1960-12-16, 1, 8, India, not out, , 70, na, na, 8, 0
+501, 1961-12-30, 1, 7, India, , Surendranath, 0, na, na, 0, 0
+503, 1961-01-13, 1, 7, India, c Kunderan, Umrigar, 5, na, na, na, 0
+521, 1962-01-19, 1, 8, England, not out, , 15, 14, na, 2, 0
+521, 1962-01-19, 3, 8, England, c Richardson, Allen, 12, 48, na, 2, 0
+522, 1962-02-02, 1, 8, England, , Barber, 3, 18, na, 0, 0
+522, 1962-02-02, 3, 8, England, not out, , 41, 80, na, 5, 1
+530, 1962-05-31, 2, 8, England, , Statham, 0, na, na, 0, 0
+530, 1962-05-31, 3, 8, England, c Parfitt, Trueman, 35, na, na, na, 0
+531, 1962-06-21, 1, 8, England, c Millman, Trueman, 17, na, na, na, 0
+531, 1962-06-21, 3, 6, England, c Graveney, Coldwell, 101, 180, na, 15, 1
+532, 1962-07-05, 2, 7, England, c Graveney, Titmus, 5, na, na, na, 0
+532, 1962-07-05, 3, 3, England, lbw, Statham, 19, na, na, na, 0
+533, 1962-07-26, 2, 8, England, c Murray, Knight, 41, 132, na, 1, 0
+533, 1962-07-26, 3, 8, England, not out, , 0, 5, na, 0, 0
+534, 1962-08-16, 2, 9, England, c Murray, Coldwell, 5, 29, na, 1, 0
+534, 1962-08-16, 3, 8, England, , Coldwell, 24, 81, na, 2, 0
+569, 1964-10-24, 1, 7, Australia, c Redpath, Hawke, 15, na, na, na, 0
+569, 1964-10-24, 3, 8, Australia, c Grout, Veivers, 22, na, na, na, 0
+570, 1964-12-04, 1, 6, Australia, , McKenzie, 27, 118, 131, 2, 0
+570, 1964-12-04, 3, 6, Australia, , Sincock, 10, 38, 35, 1, 0
+574, 1965-01-22, 2, 7, New Zealand, , Cameron, 16, na, na, na, 0
+574, 1965-01-22, 4, 7, New Zealand, c Dowling, Reid, 23, na, na, na, 0
+576, 1965-01-29, 1, 5, New Zealand, c Dowling, Yuile, 2, na, na, 0, 0
+576, 1965-01-29, 3, 5, New Zealand, lbw, Cameron, 14, na, na, na, 0
+577, 1965-02-12, 1, 7, New Zealand, , Motz, 5, na, na, na, 0
+577, 1965-02-12, 3, 7, New Zealand, , Collinge, 12, na, na, na, 0
+621, 1967-07-27, 2, 6, England, c D'Oliveira, Snow, 2, 33, 29, 0, 0
+622, 1967-08-10, 1, 8, England, run out, , 11, 17, 16, 2, 0
+622, 1967-08-10, 3, 4, England, c Close, Titmus, 6, 28, 29, 0, 0
+707, 1973-01-06, 2, 2, Australia, c Redpath, GS Chappell, 64, 158, 105, 9, 0
+707, 1973-01-06, 4, 2, Australia, , Lillee, 5, 46, 34, 1, 0

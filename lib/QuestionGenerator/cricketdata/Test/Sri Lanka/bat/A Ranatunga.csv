@@ -1,0 +1,156 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+921, 1982-02-17, 1, 6, England, , Underwood, 54, 140, 96, 7, 0
+921, 1982-02-17, 3, 6, England, c Fletcher, Emburey, 2, 9, 4, 0, 0
+923, 1982-03-05, 2, 7, Pakistan, st Saleem Yousuf, Tauseef Ahmed, 13, 19, 20, 3, 0
+923, 1982-03-05, 4, 6, Pakistan, c Saleem Yousuf, Tauseef Ahmed, 33, 52, 41, 5, 1
+925, 1982-03-14, 1, 6, Pakistan, , Iqbal Qasim, 0, 1, 1, 0, 0
+925, 1982-03-14, 3, 6, Pakistan, c Ashraf Ali, Tauseef Ahmed, 2, 25, 16, 0, 0
+934, 1982-09-17, 1, 5, India, c Vengsarkar, Doshi, 25, na, na, na, 0
+934, 1982-09-17, 3, 5, India, c Kirmani, Doshi, 15, na, na, na, 0
+955, 1983-04-22, 2, 6, Australia, c Lillee, Yardley, 90, 174, 120, 16, 0
+955, 1983-04-22, 3, 7, Australia, , Hogan, 32, 72, 64, 2, 1
+980, 1984-03-09, 2, 7, New Zealand, c Bracewell, Cairns, 20, 39, 32, 1, 0
+980, 1984-03-09, 4, 6, New Zealand,                c &, Bracewell, 51, 75, 47, 7, 1
+982, 1984-03-16, 1, 7, New Zealand, c Smith, Cairns, 6, 24, 21, 1, 0
+982, 1984-03-16, 3, 8, New Zealand, run out, , 7, 29, 7, 1, 0
+985, 1984-03-24, 1, 7, New Zealand, c sub, Chatfield, 37, 187, 109, 6, 0
+985, 1984-03-24, 3, 4, New Zealand, c Wright, Boock, 50, 131, 92, 7, 1
+994, 1984-08-23, 1, 5, England, , Agnew, 84, 248, 183, 8, 0
+994, 1984-08-23, 3, 5, England, lbw, Botham, 0, 7, 6, 0, 0
+1023, 1985-08-30, 2, 6, India, , Shastri, 111, 335, na, na, 1
+1023, 1985-08-30, 4, 4, India, run out, , 15, na, na, na, 0
+1024, 1985-09-06, 1, 6, India, lbw, Sharma, 21, na, na, na, 0
+1025, 1985-09-14, 2, 6, India, c Vengsarkar, Maninder Singh, 38, 100, na, 6, 1
+1025, 1985-09-14, 4, 6, India, , Sharma, 0, na, na, 0, 0
+1026, 1985-10-16, 1, 6, Pakistan, c Shoaib Mohammad, Abdul Qadir, 79, na, na, na, 0
+1027, 1985-10-27, 1, 6, Pakistan, not out, , 25, na, na, na, 0
+1027, 1985-10-27, 3, 6, Pakistan, c Saleem Malik, Imran Khan, 28, na, na, na, 0
+1028, 1985-11-07, 1, 6, Pakistan, c Javed Miandad, Tauseef Ahmed, 12, na, na, na, 0
+1028, 1985-11-07, 3, 5, Pakistan, c Saleem Yousuf, Wasim Akram, 25, na, na, na, 0
+1037, 1986-02-23, 1, 6, Pakistan, , Tauseef Ahmed, 18, na, na, na, 0
+1037, 1986-02-23, 3, 6, Pakistan, st Zulqarnain, Tauseef Ahmed, 33, na, na, na, 0
+1041, 1986-03-14, 2, 5, Pakistan, c Qasim Umar, Wasim Akram, 77, 305, 175, 11, 0
+1043, 1986-03-22, 1, 4, Pakistan, c Imran Khan, Zakir Khan, 53, na, na, na, 0
+1043, 1986-03-22, 3, 5, Pakistan, not out, , 135, 341, 208, 14, 4
+1061, 1986-12-17, 1, 7, India, lbw, Maninder Singh, 52, na, 36, 8, 1
+1063, 1986-12-27, 1, 6, India, c Amarnath, Yadav, 59, na, 77, 5, 1
+1063, 1986-12-27, 3, 7, India, c Gavaskar, Maninder Singh, 5, na, na, na, 0
+1064, 1987-01-04, 2, 6, India, lbw, Kapil Dev, 30, na, na, na, 1
+1064, 1987-01-04, 3, 6, India, lbw, Maninder Singh, 2, na, na, 0, 0
+1074, 1987-04-16, 1, 5, New Zealand, c Smith, Bracewell, 15, 83, 58, 0, 0
+1092, 1988-02-12, 2, 5, Australia,                c &, Waugh, 55, 225, 169, 5, 0
+1092, 1988-02-12, 3, 5, Australia, lbw, Dodemaide, 45, 92, 65, 6, 0
+1103, 1988-08-25, 1, 6, England, lbw, Newport, 5, 18, 12, 1, 0
+1103, 1988-08-25, 3, 6, England, , Newport, 78, 227, 179, 10, 0
+1131, 1989-12-08, 2, 6, Australia, lbw, Hughes, 25, 87, 63, 2, 0
+1133, 1989-12-16, 2, 6, Australia, c Moody, Sleep, 21, 74, 53, 1, 0
+1133, 1989-12-16, 4, 5, Australia, c Jones, Hughes, 38, 132, 91, 3, 0
+1156, 1990-11-23, 2, 5, India, , Raju, 1, na, na, 0, 0
+1156, 1990-11-23, 3, 5, India, c Azharuddin, Raju, 42, na, na, na, 0
+1162, 1991-01-31, 2, 5, New Zealand, hit wicket, Morrison, 55, 214, 155, 6, 0
+1164, 1991-02-22, 2, 8, New Zealand, c Smith, Morrison, 21, 90, 66, 3, 0
+1164, 1991-02-22, 4, 7, New Zealand, not out, , 20, 89, 62, 2, 0
+1165, 1991-03-01, 1, 5, New Zealand, c Smith, Cairns, 34, 89, 66, 5, 0
+1165, 1991-03-01, 3, 5, New Zealand, c Thomson, Cairns, 30, 92, 66, 1, 1
+1178, 1991-12-12, 1, 5, Pakistan, lbw, Aaqib Javed, 0, 3, 4, 0, 0
+1178, 1991-12-12, 3, 5, Pakistan, c Moin Khan, Waqar Younis, 0, 9, 3, 0, 0
+1182, 1992-01-02, 1, 5, Pakistan, lbw, Saleem Jaffar, 0, 1, 1, 0, 0
+1182, 1992-01-02, 3, 8, Pakistan, c Javed Miandad, Wasim Akram, 6, 20, 11, 0, 0
+1194, 1992-08-17, 2, 5, Australia, c Warne, Matthews, 127, 266, 192, 15, 3
+1194, 1992-08-17, 4, 5, Australia, c Border, McDermott, 0, 8, 2, 0, 0
+1195, 1992-08-28, 2, 5, Australia, c sub (DR Martyn), Dodemaide, 18, 39, 36, 2, 0
+1196, 1992-09-08, 2, 6, Australia, c Jones, McDermott, 48, 182, 141, 3, 0
+1203, 1992-11-27, 2, 6, New Zealand, c Parore, Owens, 3, 17, 10, 0, 0
+1204, 1992-12-06, 1, 5, New Zealand, c Parore, Su'a, 76, 160, 135, 10, 0
+1219, 1993-03-13, 2, 5, England, c Stewart, Lewis, 64, 167, 119, 6, 1
+1219, 1993-03-13, 4, 5, England, c Gatting, Tufnell, 35, 87, 56, 3, 0
+1226, 1993-07-17, 1, 5, India, not out, , 7, 26, 23, 1, 0
+1228, 1993-07-27, 2, 5, India, c Srinath, Kumble, 88, 151, 126, 15, 0
+1228, 1993-07-27, 4, 5, India, c More, Prabhakar, 14, 65, 51, 2, 1
+1229, 1993-08-04, 1, 5, India, c Kapil Dev, Raju, 9, 19, 22, 2, 0
+1229, 1993-08-04, 3, 5, India, c Tendulkar, Prabhakar, 13, 20, 18, 1, 1
+1232, 1993-08-25, 1, 5, South Africa, c Richardson, Donald, 44, 71, 66, 7, 1
+1232, 1993-08-25, 3, 6, South Africa, , Schultz, 131, 214, 140, 18, 1
+1233, 1993-09-06, 1, 5, South Africa, c Cullinan, Snell, 11, 17, 8, 2, 0
+1233, 1993-09-06, 3, 6, South Africa, c Richardson, Schultz, 14, 25, 21, 3, 0
+1234, 1993-09-14, 2, 5, South Africa, c Richardson, Schultz, 50, 203, 148, 2, 0
+1239, 1993-12-08, 1, 5, West Indies, c Lara, Walsh, 31, 114, 91, 3, 0
+1244, 1994-01-18, 2, 5, India, c Chauhan, Raju, 9, 29, 30, 1, 0
+1244, 1994-01-18, 3, 5, India, c Mongia, Kumble, 0, 1, 1, 0, 0
+1245, 1994-01-26, 2, 4, India, lbw, Kapil Dev, 26, 73, 52, 3, 0
+1245, 1994-01-26, 3, 5, India, c Sidhu, Kumble, 28, 79, 60, 2, 2
+1247, 1994-02-08, 1, 5, India, c Azharuddin, Raju, 15, 59, 56, 1, 1
+1247, 1994-02-08, 3, 5, India, c Sidhu, Raju, 29, 79, 49, 2, 1
+1265, 1994-08-09, 2, 5, Pakistan,                c &, Mushtaq Ahmed, 9, 23, 13, 2, 0
+1265, 1994-08-09, 4, 6, Pakistan, st Rashid Latif, Akram Raza, 41, 61, 43, 6, 0
+1267, 1994-08-26, 1, 5, Pakistan, c Saeed Anwar, Waqar Younis, 0, 12, 10, 0, 0
+1267, 1994-08-26, 3, 6, Pakistan, c Rashid Latif, Waqar Younis, 34, 91, 55, 5, 0
+1270, 1994-10-11, 1, 5, Zimbabwe, c sub, Streak, 62, 160, 102, 6, 0
+1271, 1994-10-20, 2, 5, Zimbabwe, c James, Jarvis, 34, 93, 71, 6, 0
+1272, 1994-10-26, 1, 6, Zimbabwe, c Dekker, Streak, 39, 127, 95, 5, 0
+1272, 1994-10-26, 3, 5, Zimbabwe, not out, , 22, 50, 30, 3, 1
+1292, 1995-03-11, 1, 6, New Zealand, c Young, Walmsley, 55, 147, 111, 4, 0
+1292, 1995-03-11, 3, 6, New Zealand, , Morrison, 28, 99, 64, 3, 0
+1293, 1995-03-18, 1, 5, New Zealand, c Young, Larsen, 0, 5, 4, 0, 0
+1293, 1995-03-18, 3, 6, New Zealand, c Parore, Larsen, 90, 179, 139, 12, 0
+1304, 1995-09-08, 2, 5, Pakistan, lbw, Aaqib Javed, 8, 29, 19, 2, 0
+1304, 1995-09-08, 3, 5, Pakistan, c Inzamam-ul-Haq, Aamer Sohail, 76, 162, 91, 12, 0
+1305, 1995-09-15, 1, 5, Pakistan, c Ijaz Ahmed, Saqlain Mushtaq, 0, 2, 1, 0, 0
+1305, 1995-09-15, 3, 6, Pakistan,                c &, Aamer Sohail, 2, 26, 16, 0, 0
+1306, 1995-09-22, 1, 5, Pakistan, , Aamer Sohail, 24, 128, 75, 2, 1
+1306, 1995-09-22, 3, 5, Pakistan, c Inzamam-ul-Haq, Mohammad Akram, 87, 282, 184, 10, 0
+1317, 1995-12-08, 1, 5, Australia, c Healy, McGrath, 32, 79, 54, 2, 1
+1317, 1995-12-08, 3, 5, Australia, , McGrath, 46, 114, 64, 6, 1
+1319, 1995-12-26, 2, 5, Australia, c Warne, McDermott, 51, 141, 105, 9, 0
+1319, 1995-12-26, 3, 7, Australia, not out, , 11, 113, 68, 0, 0
+1333, 1996-09-11, 1, 6, Zimbabwe, lbw, Streak, 75, 192, 120, 7, 0
+1334, 1996-09-18, 2, 5, Zimbabwe, c Wishart, BC Strang, 6, 33, 21, 0, 0
+1358, 1997-03-07, 2, 5, New Zealand, c Young, Doull, 14, 48, 40, 1, 0
+1358, 1997-03-07, 3, 5, New Zealand, c Horne, Vettori, 13, 58, 45, 1, 0
+1359, 1997-03-14, 2, 5, New Zealand, lbw, Davis, 4, 30, 23, 0, 0
+1359, 1997-03-14, 4, 6, New Zealand, c Doull, Vettori, 33, 99, 70, 3, 1
+1366, 1997-04-19, 1, 5, Pakistan, c Saleem Elahi, Asif Mujtaba, 49, 168, 131, 5, 0
+1366, 1997-04-19, 3, 4, Pakistan, c Rameez Raja, Mushtaq Ahmed, 58, 206, 165, 5, 0
+1367, 1997-04-26, 1, 5, Pakistan, c Saleem Elahi, Saqlain Mushtaq, 4, 6, 3, 1, 0
+1367, 1997-04-26, 3, 5, Pakistan, st +Saleem Elahi, Mushtaq Ahmed, 66, 81, 62, 9, 3
+1369, 1997-06-13, 1, 5, West Indies, run out (Ambrose/Browne), , 42, 153, 116, 6, 0
+1369, 1997-06-13, 3, 5, West Indies, c Rose, Bishop, 13, 44, 17, 2, 0
+1371, 1997-06-20, 2, 5, West Indies, c Lara, Walsh, 13, 65, 50, 1, 0
+1371, 1997-06-20, 4, 5, West Indies, not out, , 72, 188, 136, 7, 0
+1374, 1997-08-02, 2, 5, India, run out (sub [A Jadeja]/Mongia), , 86, 150, 110, 14, 0
+1376, 1997-08-09, 1, 5, India, c Mongia, Ganguly, 14, 40, 30, 2, 0
+1376, 1997-08-09, 3, 5, India, run out (Ganguly), , 1, 6, 3, 0, 0
+1385, 1997-11-19, 1, 5, India, c Chauhan, Srinath, 30, 90, 60, 3, 0
+1385, 1997-11-19, 3, 5, India, c Dravid, Kuruvilla, 3, 19, 8, 0, 0
+1390, 1997-12-03, 2, 6, India, c Azharuddin, Chauhan, 1, 25, 15, 0, 0
+1390, 1997-12-03, 4, 5, India, , Chauhan, 12, 121, 80, 1, 0
+1394, 1998-01-07, 1, 5, Zimbabwe, , Whittall, 27, 103, 57, 2, 1
+1395, 1998-01-14, 2, 5, Zimbabwe, c Streak, Strang, 52, 202, 143, 6, 0
+1395, 1998-01-14, 4, 7, Zimbabwe, not out, , 87, 303, 232, 12, 0
+1410, 1998-03-19, 2, 5, South Africa, c Ackerman, Adams, 20, 27, 26, 3, 0
+1410, 1998-03-19, 4, 5, South Africa, c Kirsten, Kallis, 43, 120, 93, 6, 0
+1414, 1998-03-27, 1, 5, South Africa, lbw, Donald, 73, 264, 177, 12, 0
+1414, 1998-03-27, 3, 5, South Africa, c Boucher, Cronje, 0, 10, 7, 0, 0
+1415, 1998-05-27, 2, 5, New Zealand, , Cairns, 49, 122, 74, 6, 1
+1415, 1998-05-27, 4, 5, New Zealand,                c &, Vettori, 9, 32, 29, 2, 0
+1416, 1998-06-03, 2, 5, New Zealand, c O'Connor, Vettori, 36, 100, 55, 1, 1
+1418, 1998-06-10, 1, 5, New Zealand, run out (McMillan), , 4, 39, 25, 0, 0
+1418, 1998-06-10, 3, 5, New Zealand, c Cairns, Priest, 64, 114, 96, 9, 0
+1423, 1998-08-27, 2, 5, England, lbw, Gough, 51, 138, 99, 7, 1
+1445, 1999-02-24, 2, 6, India, c sub (HH Kanitkar), Kumble, 66, 176, 113, 8, 0
+1459, 1999-09-09, 2, 6, Australia, c Healy, Warne, 4, 8, 4, 1, 0
+1459, 1999-09-09, 4, 6, Australia, not out, , 19, 46, 29, 1, 1
+1460, 1999-09-22, 1, 6, Australia, c Miller, Warne, 10, 23, 26, 0, 0
+1461, 1999-10-30, 2, 6, Australia, not out, , 1, 4, 3, 0, 0
+1485, 2000-03-26, 2, 6, Pakistan, , Abdul Razzaq, 49, 212, 159, 4, 0
+1485, 2000-03-26, 4, 6, Pakistan, not out, , 29, 156, 94, 2, 0
+1499, 2000-05-14, 1, 6, Pakistan, run out (Mushtaq Ahmed), , 6, 15, 10, 1, 0
+1499, 2000-05-14, 3, 6, Pakistan, c Saeed Anwar, Wasim Akram, 7, 41, 20, 0, 0
+1501, 2000-05-21, 1, 6, Pakistan, run out (Moin Khan/Yousuf Youhana), , 51, 172, 124, 5, 0
+1501, 2000-05-21, 3, 6, Pakistan, lbw, Wasim Akram, 65, 120, 80, 13, 0
+1502, 2000-06-28, 1, 6, Pakistan, c Mushtaq Ahmed, Arshad Khan, 6, 55, 41, 0, 0
+1504, 2000-06-20, 1, 6, South Africa, c Pollock, Adams, 13, 21, 16, 0, 0
+1505, 2000-07-30, 2, 6, South Africa, lbw, Hayward, 54, 129, 77, 9, 1
+1505, 2000-07-30, 4, 6, South Africa, c Rhodes, Boje, 88, 140, 103, 15, 0
+1507, 2000-07-06, 2, 7, South Africa, , Boje, 14, 69, 52, 2, 0
+1507, 2000-07-06, 4, 6, South Africa, not out, , 28, 64, 42, 6, 0

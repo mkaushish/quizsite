@@ -1,0 +1,100 @@
+
+Test # 249
+Australia in South Africa, 1935/36, 3rd Test
+South Africa v Australia
+Newlands, Cape Town
+1,2,3,4 January 1936 (4-day match)
+
+Result: Australia won by an innings and 78 runs
+Series: Australia leads the 5-match series 2-0
+
+Toss: Australia
+Umpires: RGA Ashman and JC Collings
+
+Close of play:
+ Day 1: No play
+ Day 2: Australia 362/8 (Grimmett 30*, McCormick 0*)
+ Day 3: Australia 362/8d, South Africa 102, South Africa 11/0 (Siedle 5*, Wade 5*)
+
+Australia 1st innings                                           R   M   B  4 6
+WA Brown                             c & b Robertson          121            1
+JHW Fingleton         c Wade             b Balaskas           112            0
+SJ McCabe                            c & b Balaskas             0          0 0
+LS Darling            lbw                b Balaskas            12            0
+*VY Richardson        lbw                b Crisp               14            0
+AG Chipperfield                          b Langton             30            0
++WAS Oldfield                            b Robertson            8            0
+CV Grimmett           not out                                  30            0
+WJ O'Reilly                              b Balaskas            17            0
+EL McCormick          not out                                   0          0 0
+Extras                (b 14, lb 4)                             18
+Total                 (8 wickets dec, 115 overs)              362
+
+DNB: LO Fleetwood-Smith.
+
+FoW: 1-233 (Fingleton), 2-235 (McCabe), 3-251 (Brown),
+     4-259 (Darling), 5-299 (Richardson), 6-313 (Chipperfield),
+     7-313 (Oldfield), 8-361 (O'Reilly).
+
+Bowling                      O      M      R      W
+Crisp                       14      2     30      1
+Langton                     30      2     94      1
+Robertson                   29      8     75      2
+Balaskas                    38      1    126      4
+Mitchell                     4      0     19      0
+
+South Africa 1st innings                                        R   M   B  4 6
+IJ Siedle             lbw                b Grimmett             1          0 0
+*HF Wade                             c & b McCabe               0          0 0
+EAB Rowan                                b Grimmett            12            0
+B Mitchell            c Fingleton        b O'Reilly            14            0
+KG Viljoen            st Oldfield        b Fleetwood-Smith     14            0
+AD Nourse             not out                                  44            0
++F Nicholson                             b Fleetwood-Smith      0          0 0
+ACB Langton                              b Grimmett             3          0 0
+RJ Crisp                                 b Grimmett             0          0 0
+XC Balaskas                              b Grimmett             0          0 0
+JB Robertson          run out                                   1          0 0
+Extras                (lb 13)                                  13
+Total                 (all out, 38.2 overs)                   102
+
+FoW: 1-0 (Wade), 2-12 (Rowan), 3-21 (Siedle), 4-29 (Mitchell),
+     5-86 (Viljoen), 6-88 (Nicholson), 7-95 (Langton),
+     8-95 (Crisp), 9-95 (Balaskas), 10-102 (Robertson).
+
+Bowling                      O      M      R      W
+McCormick                    2      1      3      0
+McCabe                       2      1      9      1
+O'Reilly                    11      4     24      1
+Grimmett                    17      4     32      5
+Fleetwood-Smith              6.2    0     21      2
+
+South Africa 2nd innings (following on)                         R   M   B  4 6
+IJ Siedle                                b Grimmett            59            0
+*HF Wade              lbw                b Fleetwood-Smith     31            0
+EAB Rowan             c Richardson       b O'Reilly            19            0
+AD Nourse                            c & b Grimmett            25            0
+B Mitchell                               b Grimmett             0          0 0
+KG Viljoen            c O'Reilly         b Grimmett            23            0
++F Nicholson                         c & b O'Reilly             4            0
+ACB Langton                              b O'Reilly             4            0
+RJ Crisp              c Richardson       b O'Reilly             0          0 0
+JB Robertson          not out                                  12            0
+XC Balaskas                              b Grimmett             2          0 0
+Extras                (b 1, lb 2)                               3
+Total                 (all out, 87.4 overs)                   182
+
+FoW: 1-87 (Wade), 2-97 (Siedle), 3-137 (Nourse), 4-137 (Rowan),
+     5-139 (Mitchell), 6-146 (Nicholson), 7-156 (Langton),
+     8-156 (Crisp), 9-174 (Viljoen), 10-182 (Balaskas).
+
+Bowling                      O      M      R      W
+McCormick                    2      0      8      0
+O'Reilly                    25     15     35      4
+Grimmett                    36.4   17     56      5
+Fleetwood-Smith             24      4     80      1
+
+*** When Grimmett took his seventh wicket he passed SF Barnes' world record
+    of 189 Test wickets.
+
+<END>

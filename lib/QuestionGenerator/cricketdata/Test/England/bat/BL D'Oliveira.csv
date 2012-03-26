@@ -1,0 +1,71 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+606, 1966-06-16, 2, 7, West Indies, run out, , 27, 52, 42, 5, 0
+607, 1966-06-30, 2, 7, West Indies, , Hall, 76, 177, 149, 10, 0
+607, 1966-06-30, 4, 7, West Indies, lbw, Griffith, 54, 103, 135, 10, 0
+608, 1966-08-04, 2, 6, West Indies, c Hall, Griffith, 88, 137, 141, 8, 4
+608, 1966-08-04, 3, 3, West Indies, c Butcher, Sobers, 7, 67, 53, 1, 0
+609, 1966-08-18, 2, 6, West Indies, , Hall, 4, 7, 4, 1, 0
+618, 1967-06-08, 1, 5, India, c sub, Chandrasekhar, 109, 205, 183, 13, 0
+618, 1967-06-08, 4, 4, India, not out, , 24, 53, 50, 3, 0
+619, 1967-06-22, 2, 5, India,                c &, Chandrasekhar, 33, 126, 99, 4, 0
+621, 1967-07-27, 1, 5, Pakistan, c Intikhab Alam, Mushtaq Mohammad, 59, 138, 110, 9, 1
+621, 1967-07-27, 3, 5, Pakistan, not out, , 81, 206, 176, 6, 0
+622, 1967-08-10, 2, 5, Pakistan, run out, , 7, 40, 37, 0, 0
+623, 1967-08-24, 2, 6, Pakistan, c Mushtaq Mohammad, Asif Iqbal, 3, 16, 17, 0, 0
+627, 1968-01-19, 1, 7, West Indies, , Griffith, 32, 54, na, 4, 0
+629, 1968-02-08, 1, 7, West Indies, st Murray, Holford, 0, 7, na, 0, 0
+629, 1968-02-08, 4, 7, West Indies, not out, , 13, 41, na, 2, 0
+633, 1968-02-29, 2, 7, West Indies, , Hall, 51, 135, na, 6, 0
+635, 1968-03-14, 2, 6, West Indies, , Rodriguez, 0, 2, na, 0, 0
+635, 1968-03-14, 4, 5, West Indies, not out, , 12, 22, na, 0, 0
+636, 1968-03-28, 2, 6, West Indies, c Nurse, Holford, 27, 88, 76, 5, 0
+636, 1968-03-28, 4, 6, West Indies,                c &, Gibbs, 2, 6, 9, 0, 0
+637, 1968-06-06, 2, 7, Australia, , Connolly, 9, 34, 38, 2, 0
+637, 1968-06-06, 4, 7, Australia, not out, , 87, 172, 188, 13, 1
+641, 1968-08-22, 1, 6, Australia, c Inverarity, Mallett, 158, 309, 325, 21, 0
+641, 1968-08-22, 3, 6, Australia, c Gleeson, Connolly, 9, 24, 31, 1, 0
+647, 1969-02-21, 1, 6, Pakistan, c Mohammad Ilyas, Intikhab Alam, 26, na, na, na, 0
+647, 1969-02-21, 3, 6, Pakistan, c Mushtaq Mohammad, Saeed Ahmed, 5, na, na, na, 0
+649, 1969-02-28, 2, 6, Pakistan, not out, , 114, 285, na, 9, 0
+650, 1969-03-06, 1, 6, Pakistan, c Aftab Gul, Mushtaq Mohammad, 16, na, na, na, 0
+653, 1969-06-12, 1, 5, West Indies, c Hendriks, Shepherd, 57, 157, 175, 7, 1
+654, 1969-06-26, 2, 4, West Indies, c Shepherd, Sobers, 0, 1, 4, 0, 0
+654, 1969-06-26, 4, 4, West Indies, c Fredericks, Gibbs, 18, 35, 32, 3, 0
+655, 1969-07-10, 1, 5, West Indies, c Sobers, Shepherd, 48, 127, 134, 3, 1
+655, 1969-07-10, 3, 5, West Indies, c Sobers, Davis, 39, 107, 77, 4, 0
+656, 1969-07-24, 1, 5, New Zealand, run out, , 37, 85, 69, 5, 0
+656, 1969-07-24, 3, 5, New Zealand, c Wadsworth, Taylor, 12, 18, 18, 3, 0
+657, 1969-08-07, 2, 5, New Zealand,                c &, Hadlee, 45, 127, 104, 3, 0
+658, 1969-08-21, 2, 5, New Zealand, c Cunis, Howarth, 1, 15, 7, 0, 0
+674, 1970-11-27, 2, 7, Australia, c Sheahan, McKenzie, 57, 198, 192, 6, 1
+675, 1970-12-11, 1, 7, Australia, c Stackpole, Thomson, 8, 28, 24, 0, 0
+675, 1970-12-11, 3, 6, Australia, , Gleeson, 31, 94, 76, 2, 0
+676, 1971-01-09, 1, 5, Australia, c Connolly, Mallett, 0, 7, 6, 0, 0
+676, 1971-01-09, 3, 5, Australia, c IM Chappell, GS Chappell, 56, 156, 148, 6, 0
+677, 1971-01-21, 2, 5, Australia, c Marsh, Thomson, 117, 346, 294, 11, 1
+678, 1971-01-29, 1, 5, Australia, c Marsh, GS Chappell, 47, 134, 104, 3, 0
+678, 1971-01-29, 3, 4, Australia, c Walters, Thomson, 5, 13, 11, 0, 0
+679, 1971-02-12, 1, 5, Australia, , Dell, 1, 5, 9, 0, 0
+679, 1971-02-12, 3, 5, Australia, c IM Chappell, Lillee, 47, 145, 133, 4, 0
+681, 1971-02-25, 2, 5, New Zealand, , Shrimpton, 100, 216, 216, 13, 2
+682, 1971-03-05, 1, 5, New Zealand, c Morgan, Congdon, 58, 124, 94, 9, 0
+682, 1971-03-05, 3, 9, New Zealand, , Collinge, 5, 51, 50, 0, 0
+687, 1971-06-03, 2, 5, Pakistan, c Mushtaq Mohammad, Intikhab Alam, 73, 132, 136, 14, 0
+687, 1971-06-03, 3, 5, Pakistan, c Mushtaq Mohammad, Asif Iqbal, 22, 66, 54, 3, 0
+689, 1971-07-08, 1, 5, Pakistan, , Intikhab Alam, 74, 124, 123, 12, 0
+689, 1971-07-08, 3, 5, Pakistan, c Wasim Bari, Saleem Altaf, 72, 166, 158, 9, 0
+690, 1971-07-22, 1, 5, India, c Solkar, Chandrasekhar, 4, 8, 11, 1, 0
+690, 1971-07-22, 3, 5, India, , Bedi, 30, 51, 60, 4, 0
+691, 1971-08-05, 1, 5, India, c Gavaskar, Abid Ali, 12, 34, 37, 1, 0
+691, 1971-08-05, 3, 5, India, not out, , 23, 14, 16, 1, 2
+692, 1971-08-19, 1, 5, India, c Mankad, Chandrasekhar, 2, 16, 19, 0, 0
+692, 1971-08-19, 3, 5, India, c sub, Venkataraghavan, 17, 26, 28, 2, 0
+698, 1972-06-08, 1, 5, Australia, , GS Chappell, 23, 72, 63, 2, 0
+698, 1972-06-08, 3, 5, Australia, c Watson, Lillee, 37, 70, 49, 7, 0
+699, 1972-06-22, 1, 5, Australia, lbw, Massie, 32, 72, 49, 5, 0
+699, 1972-06-22, 3, 5, Australia, c GS Chappell, Massie, 3, 23, 16, 0, 0
+700, 1972-07-13, 2, 5, Australia, lbw, Lillee, 29, 104, 72, 4, 0
+700, 1972-07-13, 4, 5, Australia, not out, , 50, 170, 162, 8, 0
+701, 1972-07-27, 2, 5, Australia, , Mallett, 12, 53, 44, 1, 0
+702, 1972-08-10, 1, 5, Australia, c GS Chappell, Mallett, 4, 7, 6, 1, 0
+702, 1972-08-10, 3, 5, Australia, c IM Chappell, Massie, 43, 115, 96, 8, 0

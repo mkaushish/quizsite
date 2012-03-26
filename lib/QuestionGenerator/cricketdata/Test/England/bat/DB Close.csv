@@ -1,0 +1,38 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+316, 1949-07-23, 2, 9, New Zealand, c Rabone, Burtt, 0, 3, na, 0, 0
+328, 1950-12-22, 2, 6, Australia, c Loxton, Iverson, 0, 2, na, 0, 0
+328, 1950-12-22, 4, 7, Australia, lbw, Johnston, 1, 8, na, 0, 0
+412, 1955-08-13, 1, 2, South Africa, c Mansell, Goddard, 32, 119, na, 2, 0
+412, 1955-08-13, 3, 2, South Africa, , Goddard, 15, 71, na, 1, 0
+439, 1957-05-30, 1, 2, West Indies, c Kanhai, Gilchrist, 15, 34, na, 1, 0
+439, 1957-05-30, 3, 2, West Indies, c Weekes, Gilchrist, 42, 141, na, 3, 0
+440, 1957-06-20, 2, 7, West Indies, c Kanhai, Goddard, 32, 113, na, 3, 0
+476, 1959-07-02, 2, 6, India, , Gupte, 27, na, na, na, 0
+510, 1961-07-27, 2, 5, Australia, lbw, McKenzie, 33, 99, na, 4, 1
+510, 1961-07-27, 4, 5, Australia, c O'Neill, Benaud, 8, 8, na, 0, 1
+543, 1963-06-06, 2, 6, West Indies, c Hunte, Gibbs, 30, na, na, na, 0
+543, 1963-06-06, 3, 7, West Indies, c Sobers, Gibbs, 32, na, na, na, 0
+544, 1963-06-20, 2, 6, West Indies, c Murray, Griffith, 9, na, na, na, 0
+544, 1963-06-20, 4, 6, West Indies, c Murray, Griffith, 70, 230, 198, 8, 0
+545, 1963-07-04, 1, 5, West Indies, lbw, Sobers, 55, 173, na, 5, 0
+545, 1963-07-04, 3, 4, West Indies, c Sobers, Griffith, 13, 47, na, na, 0
+546, 1963-07-25, 2, 5, West Indies, , Griffith, 0, 1, 1, 0, 0
+546, 1963-07-25, 4, 5, West Indies, c Solomon, Griffith, 56, na, na, 10, 0
+547, 1963-08-22, 1, 5, West Indies, , Griffith, 46, 127, na, 6, 0
+547, 1963-08-22, 3, 5, West Indies, lbw, Sobers, 4, 3, na, 1, 0
+609, 1966-08-18, 2, 7, West Indies, run out, , 4, 25, 21, 0, 0
+618, 1967-06-08, 1, 6, India, not out, , 22, 25, 31, 1, 0
+619, 1967-06-22, 2, 6, India, c Borde, Prasanna, 7, 32, 28, 1, 0
+620, 1967-07-13, 1, 6, India, c Subramanya, Prasanna, 26, 90, 80, 3, 0
+620, 1967-07-13, 3, 6, India, c Chandrasekhar, Prasanna, 47, 85, 85, 4, 1
+621, 1967-07-27, 1, 6, Pakistan, c sub, Saleem Altaf, 4, 3, 5, 0, 0
+621, 1967-07-27, 3, 6, Pakistan, st Wasim Bari, Nasim-ul-Ghani, 36, 132, 146, 5, 0
+622, 1967-08-10, 2, 6, Pakistan, c Wasim Bari, Niaz Ahmed, 41, 152, 117, 4, 0
+623, 1967-08-24, 2, 2, Pakistan, c Wasim Bari, Asif Iqbal, 6, 51, 35, 1, 0
+623, 1967-08-24, 4, 2, Pakistan, , Asif Iqbal, 8, 15, 11, 1, 0
+777, 1976-06-03, 2, 4, West Indies, c Murray, Daniel, 2, 19, 17, 0, 0
+777, 1976-06-03, 4, 4, West Indies, not out, , 36, 191, 173, 2, 0
+778, 1976-06-17, 1, 4, West Indies, c Holder, Jumadeen, 60, 205, 146, 6, 0
+778, 1976-06-17, 3, 5, West Indies,                c &, Holder, 46, 135, 106, 4, 1
+779, 1976-07-08, 2, 2, West Indies, lbw, Daniel, 2, 31, 20, 0, 0
+779, 1976-07-08, 4, 2, West Indies, , Roberts, 20, 162, 108, 4, 0

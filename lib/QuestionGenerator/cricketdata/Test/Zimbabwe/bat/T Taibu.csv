@@ -1,0 +1,53 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+1551, 2001-06-19, 1, 9, West Indies, c Sarwan, Stuart, 6, 24, 16, 1, 0
+1551, 2001-06-19, 3, 3, West Indies, lbw, Stuart, 4, 16, 16, 0, 0
+1553, 2001-06-27, 1, 9, West Indies, c King, Stuart, 9, 45, 33, 1, 0
+1553, 2001-06-27, 3, 9, West Indies, , Stuart, 10, 10, 9, 1, 0
+1589, 2002-01-21, 1, 8, India, , Kumble, 1, 27, 16, 0, 0
+1589, 2002-01-21, 3, 9, India, c sub (V Sehwag), Harbhajan Singh, 0, 8, 10, 0, 0
+1591, 2002-02-28, 1, 9, India, lbw, Kumble, 13, 37, 26, 2, 0
+1591, 2002-02-28, 3, 9, India, c Bangar, Kumble, 10, 22, 21, 2, 0
+1625, 2002-10-09, 2, 7, Pakistan, not out, , 51, 176, 118, 3, 0
+1625, 2002-10-09, 4, 7, Pakistan, lbw, Waqar Younis, 28, 57, 50, 4, 0
+1627, 2002-10-16, 1, 7, Pakistan, c Kamran Akmal, Saqlain Mushtaq, 15, 61, 51, 1, 0
+1627, 2002-10-16, 3, 7, Pakistan, c Yousuf Youhana, Waqar Younis, 37, 137, 80, 4, 0
+1646, 2003-04-22, 2, 5, England, c Hoggard, Harmison, 25, 92, 65, 3, 0
+1646, 2003-04-22, 3, 5, England, c Butcher, McGrath, 16, 63, 49, 2, 0
+1647, 2003-05-05, 2, 5, England, lbw, Johnson, 31, 81, 67, 5, 0
+1647, 2003-05-05, 3, 5, England, c Butcher, Giles, 14, 56, 44, 1, 0
+1661, 2003-09-09, 2, 7, Australia, lbw, Gillespie, 15, 55, 46, 1, 0
+1661, 2003-09-09, 3, 7, Australia, c Gilchrist, Bichel, 3, 18, 19, 0, 0
+1663, 2003-09-17, 1, 6, Australia, c Gilchrist, Hogg, 27, 78, 70, 5, 0
+1663, 2003-09-17, 3, 6, Australia, c Ponting, Katich, 35, 181, 150, 4, 0
+1668, 2003-10-04, 1, 7, West Indies, , Edwards, 83, 209, 188, 9, 0
+1668, 2003-10-04, 3, 7, West Indies, , Drakes, 21, 55, 34, 1, 0
+1669, 2003-10-12, 2, 7, West Indies, c Gayle, Collymore, 27, 110, 77, 2, 0
+1669, 2003-10-12, 4, 8, West Indies, lbw, Collymore, 1, 25, 19, 0, 0
+1683, 2004-01-19, 1, 5, Bangladesh, lbw, Mohammad Rafique, 59, 190, 126, 9, 0
+1683, 2004-01-19, 3, 5, Bangladesh, c Habibul Bashar, Mohammad Rafique, 58, 124, 107, 8, 0
+1698, 2004-04-06, 1, 4, Sri Lanka, c DPMD Jayawardene, Muralitharan, 40, 128, 108, 5, 0
+1698, 2004-04-06, 3, 4, Sri Lanka, lbw, Zoysa, 0, 9, 6, 0, 0
+1699, 2004-04-14, 1, 5, Sri Lanka, c Samaraweera, Maharoof, 27, 57, 45, 4, 0
+1699, 2004-04-14, 3, 5, Sri Lanka, c Dilshan, Muralitharan, 0, 8, 7, 0, 0
+1733, 2005-01-06, 2, 7, Bangladesh, lbw, Mohammad Rafique, 92, 345, 241, 13, 0
+1733, 2005-01-06, 4, 6, Bangladesh, c Aftab Ahmed, Enamul Haque jnr, 0, 12, 15, 0, 0
+1735, 2005-01-14, 1, 6, Bangladesh, not out, , 85, 294, 218, 8, 0
+1735, 2005-01-14, 3, 6, Bangladesh, c Tapash Baisya, Enamul Haque jnr, 153, 340, 292, 19, 2
+1737, 2005-02-04, 1, 6, South Africa, c de Villiers, Kallis, 7, 42, 32, 1, 0
+1737, 2005-02-04, 3, 6, South Africa, c sub (WE September), Langeveldt, 9, 22, 22, 2, 0
+1740, 2005-02-11, 1, 6, South Africa, c Gibbs, Zondeki, 14, 48, 36, 3, 0
+1740, 2005-02-11, 3, 6, South Africa, c Boucher, Zondeki, 13, 72, 58, 1, 0
+1759, 2005-07-07, 2, 7, New Zealand, lbw, Martin, 5, na, 34, 1, 0
+1759, 2005-07-07, 3, 7, New Zealand, c Fleming, Martin, 4, na, 22, 0, 0
+1761, 2005-07-15, 1, 6, New Zealand, c Vettori, Bond, 76, 170, 157, 11, 1
+1761, 2005-07-15, 3, 6, New Zealand, lbw, Vettori, 25, 82, 60, 3, 1
+1765, 2005-08-13, 1, 5, India, not out, , 71, na, 158, 6, 1
+1765, 2005-08-13, 3, 5, India, c Karthik, Kumble, 52, na, 83, 8, 0
+1767, 2005-08-20, 1, 4, India, c Karthik, Pathan, 0, na, 2, 0, 0
+1767, 2005-08-20, 3, 5, India, c Kumble, Khan, 1, na, 7, 0, 0
+2002, 2011-07-04, 1, 6, Bangladesh, c Shahriar Nafees, Shakib Al Hasan, 23, 59, 44, 3, 0
+2002, 2011-07-04, 3, 6, Bangladesh, c Robiul Islam, Shafiul Islam, 59, 149, 136, 5, 0
+2006, 2011-08-01, 1, 5, Pakistan, c Adnan Akmal, Sohail Khan, 44, 102, 70, 6, 0
+2006, 2011-08-01, 3, 5, Pakistan, c Adnan Akmal, Aizaz Cheema, 58, 157, 131, 5, 1
+2013, 2011-10-01, 2, 5, New Zealand, c Patel, Vettori, 20, 38, 47, 2, 0
+2013, 2011-10-01, 4, 5, New Zealand, c Guptill, Vettori, 63, 189, 163, 6, 1

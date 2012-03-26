@@ -1,0 +1,120 @@
+
+Test # 309
+England in South Africa, 1948/49, 3rd Test
+South Africa v England
+Newlands, Cape Town
+1,3,4,5 January 1949 (4-day match)
+
+Result: Match drawn
+Series: England leads the 5-match series 1-0
+
+Toss: England
+Umpires: RGA Ashman and JV Hart-Davis
+Balls per over: 8
+Test debut: MA Hanley (South Africa).
+
+Close of play:
+ Day 1: England 294/9 (Gladwin 11*, Wright 3*)
+ Day 2: England 308, South Africa 223/2 (Mitchell 93*, Nourse 64*)
+ Day 3: South Africa 356, England 85/1 (Hutton 45*, Crapp 31*)
+
+England 1st innings                                             R   M   B  4 6
+L Hutton              run out                                  41            0
+C Washbrook                              b Rowan               74            0
+JF Crapp              c Wynne            b Mitchell            35            0
+DCS Compton                              b Rowan                1          0 0
+AJ Watkins            c Melville         b Dawson              27            0
+*FG Mann              c Mitchell         b Hanley              44            0
++TG Evans                                b Rowan               27            0
+RO Jenkins            c Wynne            b Rowan                1          0 0
+AV Bedser                                b McCarthy            16            0
+C Gladwin             not out                                  17            0
+DVP Wright            c Dawson           b Rowan               11            0
+Extras                (b 7, lb 7)                              14
+Total                 (all out, 91.2 overs)                   308
+
+FoW: 1-88 (Hutton), 2-149 (Crapp), 3-151 (Compton),
+     4-152 (Washbrook), 5-203 (Watkins), 6-249 (Evans),
+     7-251 (Jenkins), 8-263 (Mann), 9-281 (Bedser),
+     10-308 (Wright).
+
+Bowling                      O      M      R      W
+McCarthy                    26      2     95      1
+Dawson                       7      2     35      1
+Rowan                       31.2    3     80      5
+Mann                         3      0     18      0
+Hanley                      18      4     57      1
+Mitchell                     6      0      9      1
+
+South Africa 1st innings                                        R   M   B  4 6
+OE Wynne              c Crapp            b Watkins             50            0
+A Melville                               b Jenkins             15            0
+B Mitchell                               b Compton            120 345        0
+*AD Nourse                           c & b Compton            112            0
++WW Wade              c Watkins          b Compton              0          0 0
+DW Begbie             run out                                  18            0
+OC Dawson             c Mann             b Compton             25            0
+AMB Rowan             c Hutton           b Gladwin              2          0 0
+NBF Mann              not out                                  10            0
+MA Hanley             run out                                   0          0 0
+CN McCarthy           st Evans           b Compton              1          0 0
+Extras                (b 1, nb 2)                               3
+Total                 (all out, 119.2 overs)                  356
+
+FoW: 1-30 (Melville), 2-108 (Wynne), 3-298 (Nourse),
+     4-298 (Wade), 5-303 (Mitchell), 6-342 (Dawson),
+     7-344 (Rowan), 8-349 (Begbie), 9-349 (Hanley),
+     10-356 (McCarthy).
+
+Bowling                      O      M      R      W
+Bedser                      34      5     92      0
+Gladwin                     30      7     51      1
+Wright                       9      0     58      0
+Jenkins                     11      1     46      1
+Watkins                     10      0     36      1
+Compton                     25.2    3     70      5
+
+England 2nd innings                                             R   M   B  4 6
+L Hutton                                 b Rowan               87            0
+C Washbrook           c Mitchell         b McCarthy             9            0
+JF Crapp              c Wade             b McCarthy            54            0
+DCS Compton           not out                                  51            0
+AJ Watkins            not out                                  64            0
+Extras                (b 8, lb 3)                              11
+Total                 (3 wickets dec, 96 overs)               276
+
+DNB: *FG Mann, +TG Evans, RO Jenkins, AV Bedser, C Gladwin,
+     DVP Wright.
+
+FoW: 1-11 (Washbrook), 2-145 (Hutton), 3-165 (Crapp).
+
+Bowling                      O      M      R      W
+McCarthy                    20      2     75      2
+Dawson                      13      3     33      0
+Rowan                       30      5     65      1
+Mann                        15      5     27      0
+Hanley                      11      3     31      0
+Mitchell                     7      1     34      0
+
+South Africa 2nd innings (target: 229 runs)                     R   M   B  4 6
+OE Wynne              c Bedser           b Jenkins             46            0
+A Melville            st Evans           b Jenkins             24            0
++WW Wade              c Evans            b Jenkins             11            0
+*AD Nourse            st Evans           b Jenkins             34            0
+B Mitchell            not out                                  20            0
+OC Dawson             not out                                   5            0
+Extras                (lb 1, nb 1)                              2
+Total                 (4 wickets, 31 overs)                   142
+
+DNB: DW Begbie, AMB Rowan, NBF Mann, MA Hanley, CN McCarthy.
+
+FoW: 1-58 (Melville), 2-83 (Wynne), 3-83 (Wade), 4-132 (Nourse).
+
+Bowling                      O      M      R      W
+Bedser                       7      0     40      0
+Gladwin                     10      2     27      0
+Wright                       2      0     18      0
+Jenkins                      9      0     48      4
+Compton                      3      1      7      0
+
+<END>

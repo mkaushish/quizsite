@@ -1,0 +1,91 @@
+
+Test # 696
+New Zealand in West Indies, 1971/72, 4th Test
+West Indies v New Zealand
+Bourda, Georgetown, Guyana
+6,7,8,9,11 April 1972 (5-day match)
+
+Result: Match drawn
+Series: 5-match series level 0-0
+
+Toss: West Indies
+Umpires: HBD Jordan and FCP Kippins
+Test debuts: GA Greenidge, AB Howard, AI Kallicharran (West Indies).
+
+Close of play:
+ Day 1: West Indies 201/4 (Davis 14*, Kallicharran 14*)
+ Day 2: West Indies 310/7 (Kallicharran 59*, Findlay 5*)
+ Day 3: West Indies 365/7d, New Zealand 163/0 (Turner 87*, Jarvis 71*)
+ Day 4: New Zealand 410/1 (Turner 210*, Congdon 4*)
+
+West Indies 1st innings                                         R   M   B  4 6
+RC Fredericks         c Turner           b Cunis               41 138        0
+GA Greenidge          c Wadsworth        b Taylor              50 180      6 0
+LG Rowe                                  b Congdon             31            0
+CH Lloyd              run out                                  43  83      5 0
+CA Davis              c Wadsworth        b Taylor              28            0
+AI Kallicharran       not out                                 100 254      7 1
+*GS Sobers            c Burgess          b Taylor               5            0
+DAJ Holford           lbw                b Congdon             28  65      5 0
++TM Findlay           not out                                  15  64        0
+Extras                (b 10, lb 5, w 1, nb 8)                  24
+Total                 (7 wickets dec, 135 overs)              365
+
+DNB: VA Holder, AB Howard.
+
+FoW: 1-79 (Fredericks), 2-103 (Greenidge), 3-160 (Rowe),
+     4-178 (Lloyd), 5-237 (Davis), 6-244 (Sobers),
+     7-305 (Holford).
+
+Bowling                      O      M      R      W
+Cunis                       24      5     61      1
+Taylor                      37      7    105      3
+Congdon                     33      7     86      2
+Howarth                     38     10     79      0
+Vivian                       3      0     10      0
+
+New Zealand 1st innings                                         R   M   B  4 6
+GM Turner             lbw                b Howard             259 704 759 22 0
+TW Jarvis             c Greenidge        b Holford            182 540 555 19 0
+*BE Congdon           not out                                  61 235 215  3 0
+MG Burgess                               b Howard               8  27  27  1 0
+BF Hastings           not out                                  18  47  57  3 0
+Extras                (lb 11, nb 4)                            15
+Total                 (3 wickets dec, 268 overs)              543
+
+DNB: RW Morgan, GE Vivian, +KJ Wadsworth, BR Taylor, RS Cunis,
+     HJ Howarth.
+
+FoW: 1-387 (Jarvis), 2-482 (Turner), 3-496 (Burgess).
+
+Bowling                      O      M      R      W
+Holder                      24      8     39      0
+Sobers                      42     15     76      0
+Lloyd                       36     11     74      0
+Howard                      62     16    140      2
+Holford                     54     24     78      1
+Greenidge                   14      4     34      0
+Davis                       25      8     42      0
+Kallicharran                 6      1     17      0
+Rowe                         5      0     28      0
+
+West Indies 2nd innings                                         R   M   B  4 6
+RC Fredericks         not out                                  42 130      6 0
+GA Greenidge          not out                                  35 130      4 0
+Extras                (b 4, lb 2, w 1, nb 2)                    9
+Total                 (0 wickets, 40 overs)                    86
+
+DNB: LG Rowe, CH Lloyd, CA Davis, AI Kallicharran, *GS Sobers,
+     DAJ Holford, +TM Findlay, VA Holder, AB Howard.
+
+Bowling                      O      M      R      W
+Cunis                        5      2     13      0
+Taylor                       6      3      9      0
+Howarth                      9      3     12      0
+Vivian                       3      0     16      0
+Morgan                       9      3     10      0
+Burgess                      5      3     12      0
+Turner                       2      1      5      0
+Jarvis                       1      1      0      0
+
+<END>

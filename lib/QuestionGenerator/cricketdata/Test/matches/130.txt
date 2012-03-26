@@ -1,0 +1,101 @@
+
+Test # 130
+England in South Africa, 1913/14, 1st Test
+South Africa v England
+Lord's, Durban
+13,15,16,17 December 1913 (4-day match)
+
+Result: England won by an innings and 157 runs
+Series: England leads the 5-match series 1-0
+
+Toss: South Africa
+Umpires: AJ Atfield (Eng) and FW Grey
+Test debuts: MW Booth, Hon.LH Tennyson (England); HV Baumgartner,
+ JM Blanckenberg, AHC Cooper, JL Cox, PAM Hands, PT Lewis,
+ GL Tapscott (South Africa).
+
+Close of play:
+ Day 1: South Africa 182, England 94/2 (Hobbs 59*, Tennyson 6*)
+ Day 2: England 419/7 (Douglas 108*, Booth 0*)
+ Day 3: England 450, South Africa 18/0 (Taylor 6*, Hands 6*)
+
+South Africa 1st innings                                        R   M   B  4 6
+*HW Taylor            c Strudwick        b Douglas            109            1
+GPD Hartigan          c Strudwick        b Barnes               0          0 0
+PAM Hands             c Barnes           b Booth                3          0 0
+AW Nourse                                b Douglas             19            0
+PT Lewis              c Woolley          b Barnes               0          0 0
+AHC Cooper                               b Barnes               6            0
+GL Tapscott                              b Barnes               4            0
++TA Ward              c Woolley          b Booth                9            0
+HV Baumgartner        lbw                b Woolley             16            0
+JM Blanckenberg       not out                                   6            0
+JL Cox                                   b Barnes               1          0 0
+Extras                (b 6, lb 1, nb 2)                         9
+Total                 (all out, 56.4 overs)                   182
+
+FoW: 1-5 (Hartigan), 2-22 (Hands), 3-62 (Nourse), 4-65 (Lewis),
+     5-73 (Cooper), 6-77 (Tapscott), 7-113 (Ward),
+     8-144 (Baumgartner), 9-181 (Taylor), 10-182 (Cox).
+
+Bowling                      O      M      R      W
+Barnes                      19.4    1     57      5
+Booth                       10      0     38      2
+Woolley                      7      0     24      1
+Relf                         5      2      9      0
+Douglas                      8      2     19      2
+Rhodes                       7      0     26      0
+
+England 1st innings                                             R   M   B  4 6
+JB Hobbs                                 b Baumgartner         82            1
+W Rhodes              c Tapscott         b Cox                 18            0
+AE Relf               c Baumgartner      b Cox                  1          0 0
+Hon.LH Tennyson       lbw                b Nourse              52            0
+CP Mead                              c & b Blanckenberg        41            0
+*JWHT Douglas                            b Baumgartner        119            0
+FE Woolley            c Cooper           b Hartigan            31            2
+MC Bird               c Ward             b Nourse              61            0
+MW Booth              run out                                  14            0
+SF Barnes             run out                                   0          0 0
++H Strudwick          not out                                   2          0 0
+Extras                (b 25, lb 2, w 2)                        29
+Total                 (all out, 144.4 overs)                  450
+
+FoW: 1-24 (Rhodes), 2-40 (Relf), 3-136 (Hobbs), 4-173 (Tennyson),
+     5-236 (Mead), 6-301 (Woolley), 7-416 (Bird), 8-448 (Booth),
+     9-448 (Douglas), 10-450 (Barnes).
+
+Bowling                      O      M      R      W
+Cox                         43      9    123      2
+Nourse                      29      7     74      2
+Hartigan                    18      5     72      1
+Baumgartner                 27.4    3     99      2
+Blanckenberg                21      5     46      1
+Taylor                       6      3      7      0
+
+South Africa 2nd innings                                        R   M   B  4 6
+*HW Taylor            lbw                b Barnes               8            0
+PAM Hands             lbw                b Relf                14            0
+GPD Hartigan          c Hobbs            b Woolley             13            0
+AW Nourse             hit wicket         b Barnes              46            0
+PT Lewis              c Woolley          b Barnes               0          0 0
+AHC Cooper            c Strudwick        b Barnes               0          0 0
+GL Tapscott           c Relf             b Woolley              1          0 0
++TA Ward              c Rhodes           b Barnes              12            0
+HV Baumgartner                           b Relf                 3          0 0
+JM Blanckenberg       not out                                   0          0 0
+JL Cox                               c & b Relf                 0          0 0
+Extras                (b 6, lb 6, w 2)                         14
+Total                 (all out, 52.2 overs)                   111
+
+FoW: 1-21 (Taylor), 2-31 (Hands), 3-57 (Hartigan), 4-71 (Lewis),
+     5-77 (Cooper), 6-78 (Tapscott), 7-104 (Nourse),
+     8-111 (Ward), 9-111 (Baumgartner), 10-111 (Cox).
+
+Bowling                      O      M      R      W
+Barnes                      25     11     48      5
+Woolley                      9      3     16      2
+Relf                        16.2    3     31      3
+Douglas                      2      1      2      0
+
+<END>

@@ -1,0 +1,104 @@
+
+Test # 131
+England in South Africa, 1913/14, 2nd Test
+South Africa v England
+Old Wanderers, Johannesburg
+26,27,29,30 December 1913 (4-day match)
+
+Result: England won by an innings and 12 runs
+Series: England leads the 5-match series 2-0
+
+Toss: South Africa
+Umpires: AJ Atfield (Eng) and FW Grey
+Test debut: C Newberry (South Africa).
+
+Close of play:
+ Day 1: South Africa 160
+ Day 2: England 317/2 (Rhodes 143*, Mead 73*)
+ Day 3: England 403, South Africa 177/4 (Nourse 52*, Hands 40*)
+
+South Africa 1st innings                                        R   M   B  4 6
+JW Zulch              c Woolley          b Barnes              14            0
+*HW Taylor                               b Barnes              29            0
+PAM Hands             c Rhodes           b Barnes               0          0 0
+R Beaumont            c Strudwick        b Barnes               0          0 0
+AW Nourse                                b Barnes              17            0
+LJ Tancred            st Strudwick       b Barnes              13            0
+GPD Hartigan          c Smith            b Rhodes              51            0
++TA Ward                                 b Woolley             19            0
+C Newberry            st Strudwick       b Barnes               1          0 0
+JM Blanckenberg       not out                                   0          0 0
+JL Cox                c Strudwick        b Barnes               0          0 0
+Extras                (b 10, lb 4, nb 2)                       16
+Total                 (all out, 62.5 overs)                   160
+
+FoW: 1-22 (Zulch), 2-22 (Hands), 3-24 (Beaumont), 4-56 (Nourse),
+     5-63 (Taylor), 6-78 (Tancred), 7-155 (Ward),
+     8-159 (Hartigan), 9-160 (Newberry), 10-160 (Cox).
+
+Bowling                      O      M      R      W
+Douglas                      2      0     11      0
+Barnes                      26.5    9     56      8
+Relf                        14      1     34      0
+Woolley                      3      1      5      1
+Rhodes                      13      5     23      1
+Bird                         4      1     15      0
+
+England 1st innings                                             R   M   B  4 6
+W Rhodes                             c & b Blanckenberg       152            0
+AE Relf                                  b Blanckenberg        63            0
+JB Hobbs              lbw                b Newberry            23            0
+CP Mead               c Beaumont         b Blanckenberg       102            0
+Hon.LH Tennyson       lbw                b Cox                 13            0
+*JWHT Douglas         c Taylor           b Blanckenberg         3          0 0
+FE Woolley                               b Newberry             0          0 0
+MC Bird               c Ward             b Newberry             1          0 0
+EJ Smith              lbw                b Cox                  9            0
++H Strudwick          c Cox              b Blanckenberg        14            0
+SF Barnes             not out                                   0          0 0
+Extras                (b 18, lb 4, w 1)                        23
+Total                 (all out, 135 overs)                    403
+
+FoW: 1-141 (Relf), 2-181 (Hobbs), 3-333 (Rhodes),
+     4-354 (Tennyson), 5-373 (Douglas), 6-374 (Woolley),
+     7-376 (Mead), 8-376 (Bird), 9-395 (Strudwick),
+     10-403 (Smith).
+
+Bowling                      O      M      R      W
+Cox                         30      8     74      2
+Nourse                      21      2     62      0
+Blanckenberg                38     13     83      5
+Newberry                    26      2     93      3
+Hartigan                     5      0     24      0
+Hands                        6      0     17      0
+Taylor                       8      0     27      0
+Beaumont                     1      1      0      0
+
+South Africa 2nd innings                                        R   M   B  4 6
+JW Zulch              c Relf             b Barnes              34            0
+*HW Taylor            c Rhodes           b Barnes              40            0
+R Beaumont            c Strudwick        b Relf                 5            0
+AW Nourse             c Strudwick        b Barnes              56            0
+GPD Hartigan          lbw                b Barnes               2          0 0
+PAM Hands             c Rhodes           b Barnes              40            0
+LJ Tancred                               b Barnes              20            0
++TA Ward                                 b Barnes               0          0 0
+C Newberry            st Strudwick       b Barnes               5            0
+JM Blanckenberg       not out                                  12            0
+JL Cox                                   b Barnes               0          0 0
+Extras                (b 9, lb 6, nb 2)                        17
+Total                 (all out, 83.4 overs)                   231
+
+FoW: 1-70 (Taylor), 2-77 (Zulch), 3-93 (Beaumont),
+     4-106 (Hartigan), 5-177 (Hands), 6-194 (Nourse),
+     7-201 (Ward), 8-212 (Tancred), 9-223 (Newberry),
+     10-231 (Cox).
+
+Bowling                      O      M      R      W
+Douglas                      6      0     27      0
+Barnes                      38.4    7    103      9
+Relf                         9      3     19      1
+Woolley                     21      5     45      0
+Rhodes                       9      2     20      0
+
+<END>

@@ -1,0 +1,51 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+581, 1965-03-05, 1, 8, India, c Kunderan, Nadkarni, 105, 158, na, 14, 3
+581, 1965-03-05, 3, 10, India, not out, , 0, 8, na, 0, 0
+582, 1965-03-12, 1, 8, India, c Hanumant Singh, Desai, 8, 37, na, 1, 0
+582, 1965-03-12, 4, 8, India, , Venkataraghavan, 21, 27, na, 4, 0
+583, 1965-03-19, 1, 7, India, c Borde, Chandrasekhar, 21, 26, na, 3, 1
+583, 1965-03-19, 3, 7, India, c Sardesai, Venkataraghavan, 3, 28, na, 0, 0
+585, 1965-03-27, 1, 7, Pakistan, , Pervez Sajjad, 76, 88, na, 13, 1
+585, 1965-03-27, 3, 9, Pakistan, not out, , 7, na, na, na, 0
+586, 1965-04-02, 2, 7, Pakistan, not out, , 25, na, na, na, 0
+587, 1965-04-09, 1, 7, Pakistan, c Pervez Sajjad, Intikhab Alam, 6, na, na, na, 0
+587, 1965-04-09, 3, 7, Pakistan, c Hanif Mohammad, Intikhab Alam, 3, na, na, 0, 0
+592, 1965-06-17, 1, 8, England, , Trueman, 51, 118, na, 6, 0
+592, 1965-06-17, 3, 8, England, c Smith, Snow, 0, na, na, 0, 0
+593, 1965-07-08, 2, 8, England, c Parks, Illingworth, 9, na, na, na, 0
+593, 1965-07-08, 3, 8, England,                c &, Titmus, 0, 2, 2, 0, 0
+604, 1966-03-11, 1, 9, England, , Allen, 18, 35, 27, 3, 0
+604, 1966-03-11, 3, 9, England, , Higgs, 6, 23, 25, 0, 0
+630, 1968-02-15, 1, 8, India, c Engineer, Abid Ali, 7, na, na, na, 0
+630, 1968-02-15, 3, 9, India, c Engineer, Prasanna, 14, na, na, na, 0
+632, 1968-02-29, 1, 7, India, st Engineer, Prasanna, 17, na, na, na, 0
+632, 1968-02-29, 3, 7, India, c Subramanya, Prasanna, 28, 23, na, 4, 1
+634, 1968-03-07, 2, 8, India, c Abid Ali, Bedi, 7, na, na, na, 0
+634, 1968-03-07, 4, 9, India, , Prasanna, 0, na, na, 0, 0
+648, 1969-02-27, 1, 8, West Indies, c Fredericks, Edwards, 124, 111, na, 14, 5
+648, 1969-02-27, 3, 6, West Indies, c Gibbs, Holford, 9, na, na, na, 0
+651, 1969-03-07, 2, 8, West Indies, c Holford, Griffith, 33, 114, na, na, 0
+652, 1969-03-13, 2, 8, West Indies, not out, , 43, 56, na, 7, 1
+652, 1969-03-13, 3, 8, West Indies, not out, , 0, na, na, 0, 0
+656, 1969-07-24, 2, 8, England, c Brown, Illingworth, 3, 14, 12, 0, 0
+656, 1969-07-24, 4, 7, England, , Underwood, 0, 1, 2, 0, 0
+658, 1969-08-21, 1, 7, England, c Denness, Underwood, 0, 6, 4, 0, 0
+658, 1969-08-21, 3, 7, England, st Knott, Underwood, 4, 8, 6, 1, 0
+659, 1969-09-25, 2, 9, India, c Mankad, Prasanna, 21, 30, na, 4, 0
+659, 1969-09-25, 4, 9, India, c Abid Ali, Bedi, 9, 25, na, 1, 0
+661, 1969-10-15, 1, 7, India, c Gandotra, Prasanna, 16, 46, na, 2, 0
+661, 1969-10-15, 3, 7, India, , Venkataraghavan, 18, 51, na, 2, 0
+663, 1969-10-30, 2, 9, Pakistan, , Pervez Sajjad, 0, na, na, 0, 0
+694, 1972-03-09, 1, 8, West Indies, , Foster, 46, 85, na, 5, 1
+695, 1972-03-23, 2, 9, West Indies, lbw, Sobers, 0, na, 1, 0, 0
+697, 1972-04-20, 2, 8, West Indies, , Sobers, 26, 68, na, 2, 0
+697, 1972-04-20, 4, 9, West Indies, not out, , 42, 106, na, 4, 0
+710, 1973-02-02, 2, 6, Pakistan, c Zaheer Abbas, Majid Khan, 5, na, na, na, 0
+712, 1973-02-07, 2, 7, Pakistan, c Sarfraz Nawaz, Intikhab Alam, 0, na, na, 0, 0
+712, 1973-02-07, 3, 8, Pakistan, run out, , 3, 16, na, 0, 0
+713, 1973-02-16, 2, 8, Pakistan, c Majid Khan, Pervez Sajjad, 2, na, na, 0, 0
+722, 1973-06-07, 2, 8, England, c Knott, Snow, 19, 34, 28, 1, 0
+722, 1973-06-07, 4, 8, England, lbw, Snow, 11, 51, 35, 1, 0
+723, 1973-06-21, 2, 9, England, , Old, 11, 13, 7, 2, 0
+724, 1973-07-05, 1, 8, England, c Fletcher, Greig, 20, 29, 23, 4, 0
+724, 1973-07-05, 3, 8, England, c Roope, Snow, 1, 11, 12, 0, 0

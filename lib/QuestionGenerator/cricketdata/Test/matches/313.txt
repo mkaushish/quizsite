@@ -1,0 +1,123 @@
+
+Test # 313
+England in South Africa, 1948/49, 5th Test
+South Africa v England
+Crusaders Ground, St George's Park, Port Elizabeth
+5,7,8,9 March 1949 (4-day match)
+
+Result: England won by 3 wickets
+Series: England wins the 5-match series 2-0
+
+Toss: South Africa
+Umpires: RGA Ashman and DV Collins
+Balls per over: 8
+Test debut: JE Cheetham (South Africa).
+
+Close of play:
+ Day 1: South Africa 219/3 (Mitchell 73*, Wade 63*)
+ Day 2: South Africa 379, England 80/1 (Hutton 37*, Crapp 2*)
+ Day 3: England 390/9 (Mann 131*)
+
+South Africa 1st innings                                        R   M   B  4 6
+B Mitchell            c Griffith         b Bedser              99 397        0
+EAB Rowan             c Watkins          b Gladwin              3          0 0
+KG Viljoen                               b Bedser               2          0 0
+*AD Nourse                               b Bedser              73            0
++WW Wade              c Compton          b Jenkins            125 350        0
+JE Cheetham                          c & b Bedser               2          0 0
+OC Dawson             c Gladwin          b Jenkins             20            0
+AMB Rowan             not out                                  29            0
+L Tuckett                                b Jenkins              2          0 0
+NBF Mann              c Compton          b Gladwin             11            0
+CN McCarthy                              b Gladwin              3          0 0
+Extras                (b 2, lb 5, nb 3)                        10
+Total                 (all out, 143.5 overs)                  379
+
+FoW: 1-10 (EAB Rowan), 2-13 (Viljoen), 3-114 (Nourse),
+     4-264 (Mitchell), 5-282 (Cheetham), 6-330 (Wade),
+     7-336 (Dawson), 8-338 (Tuckett), 9-375 (Mann),
+     10-379 (McCarthy).
+
+Bowling                      O      M      R      W
+Bedser                      38      9     61      4
+Gladwin                     30.5    6     70      3
+Jenkins                     15      2     53      3
+Watkins                      5      0     24      0
+Young                       48      9    122      0
+Compton                      7      0     39      0
+
+England 1st innings                                             R   M   B  4 6
+L Hutton              c Dawson           b AMB Rowan           46            1
+C Washbrook           c Dawson           b AMB Rowan           36            0
+JF Crapp                                 b McCarthy             4            0
+DCS Compton           c Wade             b Mann                49            0
+AJ Watkins            c AMB Rowan        b Mann                14            0
+*FG Mann              not out                                 136 230     12 1
+RO Jenkins            lbw                b Mann                29            0
+AV Bedser             c Mitchell         b AMB Rowan           33            0
+C Gladwin             c Dawson           b AMB Rowan           10            0
++SC Griffith          c EAB Rowan        b AMB Rowan            5            0
+JA Young              c Wade             b McCarthy             0          0 0
+Extras                (b 11, lb 18, nb 4)                      33
+Total                 (all out, 141.4 overs)                  395
+
+FoW: 1-78 (Washbrook), 2-82 (Crapp), 3-96 (Hutton),
+     4-149 (Watkins), 5-168 (Compton), 6-268 (Jenkins),
+     7-341 (Bedser), 8-362 (Gladwin), 9-390 (Griffith),
+     10-395 (Young).
+
+Bowling                      O      M      R      W
+McCarthy                    17.4    1     42      2
+Dawson                       3      0     10      0
+Tuckett                      5      0     22      0
+AMB Rowan                   60      9    167      5
+Mann                        51     18     95      3
+Mitchell                     5      0     26      0
+
+South Africa 2nd innings                                        R   M   B  4 6
+B Mitchell            c Griffith         b Bedser              56            0
+EAB Rowan             c Jenkins          b Young               37            0
+JE Cheetham           c Compton          b Young               18            0
+*AD Nourse            not out                                  30            0
++WW Wade              not out                                  34            0
+Extras                (b 6, lb 5, nb 1)                        12
+Total                 (3 wickets dec, 58 overs)               187
+
+DNB: KG Viljoen, OC Dawson, AMB Rowan, L Tuckett, NBF Mann,
+     CN McCarthy.
+
+FoW: 1-101 (Mitchell), 2-101 (EAB Rowan), 3-127 (Cheetham).
+
+Bowling                      O      M      R      W
+Bedser                      16      3     43      1
+Gladwin                      6      2     14      0
+Jenkins                      4      0     27      0
+Young                       23      9     34      2
+Compton                      9      0     57      0
+
+England 2nd innings (target: 172 runs)                          R   M   B  4 6
+L Hutton              st Wade            b AMB Rowan           32  27        0
+C Washbrook           c AMB Rowan        b Mann                40            1
+DCS Compton           c Cheetham         b AMB Rowan           42            0
+*FG Mann              c Dawson           b Mann                 2          0 0
+AV Bedser             c Nourse           b AMB Rowan            1          0 0
+JF Crapp              not out                                  26            0
+C Gladwin             c Tuckett          b Mann                15            1
++SC Griffith                             b Mann                 0       2  0 0
+AJ Watkins            not out                                   5            0
+Extras                (b 3, lb 8)                              11
+Total                 (7 wickets, 23.7 overs)                 174
+
+DNB: RO Jenkins, JA Young.
+
+FoW: 1-58 (Hutton), 2-104 (Washbrook), 3-124 (Mann),
+     4-125 (Compton), 5-125 (Bedser), 6-152 (Gladwin),
+     7-153 (Griffith).
+
+Bowling                      O      M      R      W
+McCarthy                     2      0     20      0
+Tuckett                      2      0     13      0
+AMB Rowan                   10      0     65      3
+Mann                         9.7    0     65      4
+
+<END>

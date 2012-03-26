@@ -1,0 +1,122 @@
+
+Test # 34
+The Ashes, 1890, 2nd Test
+England v Australia
+Kennington Oval, London
+11,12 August 1890 (3-day match)
+
+Result: England won by 2 wickets
+Series: England leads the 3-match series 2-0
+
+Toss: Australia
+Umpires: CK Pullin and J Street
+Balls per over: 5
+Test debuts: J Cranston, F Martin, JW Sharpe (England).
+
+Close of play:
+ Day 1: Australia 92, England 100, Australia 5/2 (Burn 0*)
+
+Australia 1st innings                                           R   M   B  4 6
+JJ Lyons              c WW Read          b Martin              13            0
+CTB Turner            c Sharpe           b Lohmann             12            0
+*WL Murdoch                              b Martin               2          0 0
+JE Barrett            c Lohmann          b Martin               0          0 0
+GHS Trott             c MacGregor        b Martin              39  80        0
+EJK Burn              c MacGregor        b Lohmann              7            0
++JM Blackham                             b Martin               1          0 0
+JJ Ferris             c Lohmann          b Sharpe               6            0
+PC Charlton                              b Martin              10            0
+SE Gregory                               b Lohmann              2          0 0
+H Trumble             not out                                   0          0 0
+Extras                                                          0
+Total                 (all out, 65.2 overs)                    92
+
+FoW: 1-16 (Lyons), 2-27 (Turner), 3-27 (Barrett), 4-32 (Murdoch),
+     5-39 (Burn), 6-46 (Blackham), 7-70 (Ferris), 8-85 (Trott),
+     9-92 (Charlton), 10-92 (Gregory).
+
+Bowling                      O      M      R      W
+Martin                      27      9     50      6
+Lohmann                     32.2   19     34      3
+Sharpe                       6      3      8      1
+
+England 1st innings                                             R   M   B  4 6
+A Shrewsbury snr      c Trott            b Turner               4            0
+*WG Grace             c Trumble          b Ferris               0          0 0
+W Gunn                                   b Ferris              32            0
+WW Read                                  b Turner               1          0 0
+J Cranston            run out                                  16            0
+JM Read               c Murdoch          b Charlton            19            0
+W Barnes              c Murdoch          b Charlton             5            0
+GA Lohmann            c Gregory          b Ferris               3          0 0
++G MacGregor          c Turner           b Ferris               1          0 0
+JW Sharpe             not out                                   5            0
+F Martin              c Turner           b Charlton             1          0 0
+Extras                (b 9, lb 3, nb 1)                        13
+Total                 (all out, 55 overs)                     100
+
+FoW: 1-0 (Grace), 2-10 (Shrewsbury), 3-16 (WW Read),
+     4-55 (Cranston), 5-79 (Gunn), 6-90 (JM Read), 7-91 (Barnes),
+     8-93 (MacGregor), 9-94 (Lohmann), 10-100 (Martin).
+
+Bowling                      O      M      R      W
+Turner                      22     12     37      2
+Ferris                      25     14     25      4
+Trumble                      2      0      7      0
+Charlton                     6      0     18      3
+
+Australia 2nd innings                                           R   M   B  4 6
+JE Barrett                               b Martin               4            0
+EJK Burn                                 b Martin              15            0
+JJ Ferris                                b Lohmann              1          0 0
+JJ Lyons                                 b Martin              21            0
+*WL Murdoch                              b Lohmann              6            0
+GHS Trott             c Cranston         b Martin              25            0
+CTB Turner                               b Martin               0          0 0
++JM Blackham                             b Lohmann              1          0 0
+PC Charlton                              b Sharpe              11            0
+H Trumble                                b Martin               6            0
+SE Gregory            not out                                   4            0
+Extras                (b 7, lb 1)                               8
+Total                 (all out, 60.2 overs)                   102
+
+FoW: 1-4 (Barrett), 2-5 (Ferris), 3-36 (Lyons), 4-43 (Murdoch),
+     5-49 (Burn), 6-53 (Turner), 7-54 (Blackham), 8-90 (Trott),
+     9-92 (Charlton), 10-102 (Trumble).
+
+Bowling                      O      M      R      W
+Martin                      30.2   12     52      6
+Lohmann                     21      8     32      3
+Sharpe                       9      5     10      1
+
+England 2nd innings (target: 95 runs)                           R   M   B  4 6
+A Shrewsbury snr      lbw                b Ferris               9            0
+*WG Grace             c Trumble          b Ferris              16            0
+W Gunn                st Blackham        b Ferris               1          0 0
+WW Read                                  b Turner               6            0
+JM Read               c Barrett          b Turner              35            0
+J Cranston            c Trumble          b Turner              15            0
+GA Lohmann            c Blackham         b Ferris               2          0 0
+W Barnes              lbw                b Ferris               5            0
++G MacGregor          not out                                   2          0 0
+JW Sharpe             not out                                   2          0 0
+Extras                (lb 1, nb 1)                              2
+Total                 (8 wickets, 51 overs)                    95
+
+DNB: F Martin.
+
+FoW: 1-24 (Grace), 2-25 (Shrewsbury), 3-28 (Gunn),
+     4-32 (WW Read), 5-83 (JM Read), 6-83 (Cranston),
+     7-86 (Lohmann), 8-93 (Barnes).
+
+Bowling                      O      M      R      W
+Turner                      25      9     38      3
+Ferris                      23      8     49      5
+Charlton                     3      1      6      0
+
+*** Martin, a left-arm, medium-fast bowler from Kent, became the first to
+    take twelve wickets on debut.
+*** England won the match from an overthrow when Barrett missed an easy
+    run-out.
+
+<END>

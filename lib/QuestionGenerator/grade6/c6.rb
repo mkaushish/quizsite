@@ -68,7 +68,7 @@ module Chapter6
           str += ','
           str += @nums[i].to_s
         end
-        str += "and" 
+        str += " and " 
         str += @nums[@nums.length-1].to_s
       end
       [TextLabel.new(str), TextField.new("ans")]

@@ -1,0 +1,54 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+973, 1983-12-26, 2, 8, Pakistan, lbw, Sarfraz Nawaz, 75, 252, 210, 11, 0
+974, 1984-01-02, 2, 7, Pakistan, not out, , 22, 73, 49, 0, 0
+988, 1984-04-28, 1, 7, West Indies, st Dujon, Harper, 7, 46, 32, 0, 0
+988, 1984-04-28, 3, 2, West Indies, , Holding, 7, 69, 50, 0, 0
+1005, 1984-12-22, 2, 6, West Indies, , Marshall, 5, 58, 39, 0, 0
+1005, 1984-12-22, 4, 6, West Indies, , Harper, 2, 5, 5, 0, 0
+1020, 1985-08-01, 1, 7, England, , Botham, 4, 37, 25, 0, 0
+1020, 1985-08-01, 3, 2, England,                c &, Edmonds, 17, 64, 42, 2, 0
+1029, 1985-11-08, 1, 7, New Zealand, , Hadlee, 2, 5, 4, 0, 0
+1029, 1985-11-08, 3, 7, New Zealand, c Coney, Hadlee, 115, 229, 205, 10, 1
+1030, 1985-11-22, 2, 7, New Zealand, c Smith, Hadlee, 50, 158, 138, 3, 0
+1030, 1985-11-22, 4, 7, New Zealand, lbw, Hadlee, 32, 40, 28, 4, 0
+1031, 1985-11-30, 1, 7, New Zealand, , Hadlee, 34, 103, 76, 1, 0
+1031, 1985-11-30, 3, 7, New Zealand, lbw, Hadlee, 14, 54, 37, 0, 0
+1032, 1985-12-13, 1, 7, India, lbw, Kapil Dev, 18, 88, 57, 1, 0
+1033, 1985-12-26, 1, 7, India, not out, , 100, 195, 152, 9, 2
+1033, 1985-12-26, 3, 6, India, c Azharuddin, Sivaramakrishnan, 16, 71, 65, 1, 0
+1034, 1986-01-02, 2, 6, India, c Amarnath, Yadav, 40, 139, 105, 3, 0
+1034, 1986-01-02, 3, 6, India, c Kapil Dev, Yadav, 17, 29, 29, 2, 0
+1035, 1986-02-21, 1, 6, New Zealand, c Rutherford, Coney, 130, 306, 235, 12, 0
+1038, 1986-02-28, 1, 6, New Zealand, c Smith, Hadlee, 6, 24, 18, 1, 0
+1038, 1986-02-28, 3, 6, New Zealand, c sub (JJ Crowe), Hadlee, 3, 18, 18, 0, 0
+1040, 1986-03-13, 1, 7, New Zealand, , Bracewell, 5, 85, 61, 1, 0
+1040, 1986-03-13, 3, 7, New Zealand, st Smith, Bracewell, 4, 12, 5, 1, 0
+1052, 1986-09-18, 1, 7, India, c Pandit, Yadav, 44, 130, 78, 5, 0
+1052, 1986-09-18, 3, 6, India, not out, , 27, 40, 25, 2, 0
+1054, 1986-10-15, 1, 6, India, , Yadav, 20, 67, 48, 3, 0
+1057, 1986-11-14, 2, 7, England, not out, , 56, 169, 115, 5, 0
+1057, 1986-11-14, 3, 6, England,                c &, Dilley, 13, 31, 26, 2, 0
+1059, 1986-11-28, 2, 7, England, c Botham, Dilley, 45, 95, 80, 8, 0
+1059, 1986-11-28, 4, 6, England, not out, , 14, 95, 78, 1, 0
+1060, 1986-12-12, 1, 6, England, not out, , 73, 181, 119, 12, 1
+1062, 1986-12-26, 1, 6, England, c Botham, Small, 14, 76, 50, 1, 0
+1062, 1986-12-26, 3, 6, England, , Emburey, 0, 8, 7, 0, 0
+1155, 1990-11-23, 2, 7, England, c Small, Malcolm, 35, 127, 93, 2, 0
+1159, 1990-12-26, 2, 7, England, lbw, Fraser, 12, 79, 54, 0, 0
+1160, 1991-01-04, 1, 7, England, c Hemmings, Tufnell, 128, 242, 175, 17, 0
+1160, 1991-01-04, 3, 8, England, , Hemmings, 19, 72, 56, 0, 0
+1161, 1991-01-25, 1, 7, England, c Stewart, Gooch, 65, 318, 215, 3, 0
+1161, 1991-01-25, 3, 8, England, not out, , 34, 71, 51, 1, 0
+1163, 1991-02-01, 2, 7, England, not out, , 60, 196, 137, 5, 0
+1166, 1991-03-01, 2, 7, West Indies, c Dujon, Patterson, 10, 57, 27, 1, 0
+1167, 1991-03-23, 1, 7, West Indies, c Dujon, Ambrose, 1, 6, 4, 0, 0
+1167, 1991-03-23, 3, 7, West Indies, c Dujon, Marshall, 16, 63, 46, 1, 0
+1194, 1992-08-17, 1, 7, Sri Lanka, lbw, Ramanayake, 6, 17, 6, 1, 0
+1194, 1992-08-17, 3, 7, Sri Lanka, c Kaluwitharana, Ramanayake, 64, 195, 129, 9, 0
+1195, 1992-08-28, 1, 7, Sri Lanka, c Muralitharan, Ramanayake, 55, 199, 132, 4, 0
+1195, 1992-08-28, 3, 7, Sri Lanka, c Mahanama, Anurasiri, 51, 155, 106, 4, 0
+1196, 1992-09-08, 1, 7, Sri Lanka, run out, , 57, 144, 110, 4, 0
+1196, 1992-09-08, 3, 7, Sri Lanka, , Ramanayake, 96, 273, 227, 5, 1
+1202, 1992-11-27, 1, 7, West Indies, c Arthurton, Bishop, 30, 140, 97, 1, 0
+1202, 1992-11-27, 3, 7, West Indies, lbw, Ambrose, 0, 2, 2, 0, 0
+1208, 1993-01-02, 1, 7, West Indies, c Murray, Hooper, 79, 249, 200, 7, 0

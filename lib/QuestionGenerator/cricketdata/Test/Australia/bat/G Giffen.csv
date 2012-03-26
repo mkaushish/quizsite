@@ -1,0 +1,54 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+5, 1882-12-31, 2, 6, England, , Emmett, 30, 150, na, 1, 0
+7, 1882-03-03, 2, 6, England, c Pilling, Peate, 2, na, na, 0, 0
+8, 1882-03-10, 2, 6, England, c Scotton, Peate, 14, na, na, 0, 0
+9, 1882-08-28, 1, 6, England, , Peate, 2, 17, 20, 0, 0
+9, 1882-08-28, 3, 6, England, c Grace, Peate, 0, 1, 1, 0, 0
+10, 1883-12-30, 1, 6, England, st Tylecote, Steel, 36, na, na, 6, 0
+11, 1883-01-19, 2, 6, England,                c &, Bates, 0, 1, 1, 0, 0
+11, 1883-01-19, 3, 8, England, c Bligh, Bates, 19, na, na, 2, 0
+12, 1883-01-26, 2, 1, England, st Tylecote, Bates, 41, na, na, 3, 0
+12, 1883-01-26, 4, 1, England, , Barlow, 7, na, na, 1, 0
+13, 1883-02-17, 2, 5, England, c GB Studd, Leslie, 27, na, na, 4, 0
+13, 1883-02-17, 4, 5, England, st Tylecote, Steel, 32, na, na, 2, 0
+14, 1884-07-10, 2, 4, England,                c &, Barnes, 16, na, na, na, 0
+15, 1884-07-21, 1, 4, England, , Peate, 63, na, na, 4, 0
+15, 1884-07-21, 3, 4, England, c Peate, Ulyett, 5, na, na, na, 0
+16, 1884-08-11, 1, 5, England, c Steel, Ulyett, 32, na, 94, 2, 0
+17, 1884-12-12, 1, 6, England, , Bates, 4, na, na, 0, 0
+17, 1884-12-12, 3, 4, England, c Shrewsbury, Peel, 47, na, na, na, 0
+20, 1885-03-14, 2, 6, England, c Attewell, Barnes, 1, na, na, 0, 0
+21, 1885-03-21, 1, 3, England, , Ulyett, 13, na, na, 2, 0
+21, 1885-03-21, 3, 3, England, c Peel, Ulyett, 12, na, na, 1, 0
+22, 1886-07-05, 1, 3, England, , Steel, 3, na, na, 0, 0
+22, 1886-07-05, 3, 3, England, c Shrewsbury, Barlow, 1, na, na, 0, 0
+23, 1886-07-19, 2, 3, England, , Steel, 3, na, na, 0, 0
+23, 1886-07-19, 3, 6, England, , Barlow, 1, na, na, 0, 0
+24, 1886-08-12, 2, 3, England, c Shrewsbury, Briggs, 5, na, na, na, 0
+24, 1886-08-12, 3, 4, England,                c &, Lohmann, 47, na, na, na, 0
+35, 1892-01-01, 1, 3, England, lbw, Peel, 2, na, na, 0, 0
+35, 1892-01-01, 3, 3, England, , Attewell, 1, na, na, 0, 0
+36, 1892-01-29, 1, 3, England, c Abel, Lohmann, 6, na, na, na, 0
+36, 1892-01-29, 3, 4, England, lbw, Attewell, 49, na, na, na, 0
+38, 1892-03-24, 2, 3, England, run out, , 5, na, na, 1, 0
+38, 1892-03-24, 3, 3, England, c Bean, Attewell, 27, na, na, 4, 0
+39, 1893-07-17, 2, 3, England, , Lockwood, 0, na, na, 0, 0
+40, 1893-08-14, 2, 6, England, c MacGregor, Lockwood, 4, na, na, na, 0
+40, 1893-08-14, 3, 3, England, , Lockwood, 53, na, na, na, 0
+41, 1893-08-24, 1, 3, England, , Richardson, 17, na, na, na, 0
+41, 1893-08-24, 3, 3, England, c Brockwell, Richardson, 17, na, na, na, 0
+42, 1894-12-14, 1, 3, England, c Ford, Brockwell, 161, 254, na, 22, 1
+42, 1894-12-14, 4, 3, England, lbw, Briggs, 41, 135, na, 4, 0
+43, 1895-12-29, 2, 3, England, c Philipson, Briggs, 32, 105, na, na, 0
+43, 1895-12-29, 4, 3, England, c Brown, Brockwell, 43, 120, na, na, 0
+44, 1895-01-11, 1, 3, England, c Lockwood, Brockwell, 58, 155, na, 4, 0
+44, 1895-01-11, 3, 3, England, c Ford, Peel, 24, 35, na, 3, 0
+45, 1895-02-01, 1, 3, England, , Peel, 8, 35, na, 1, 0
+46, 1895-03-01, 1, 3, England, , Peel, 57, 135, na, na, 0
+46, 1895-03-01, 3, 3, England, , Richardson, 51, 180, na, na, 0
+50, 1896-06-22, 1, 3, England, c Lilley, Lohmann, 0, na, na, 0, 0
+50, 1896-06-22, 3, 3, England, , Richardson, 32, na, na, na, 0
+51, 1896-07-16, 1, 3, England,                c &, Richardson, 80, 110, na, na, 0
+51, 1896-07-16, 4, 3, England, c Ranjitsinhji, Richardson, 6, na, na, na, 0
+52, 1896-08-10, 2, 3, England, , Hearne, 0, na, na, 0, 0
+52, 1896-08-10, 4, 4, England, , Hearne, 1, na, na, 0, 0

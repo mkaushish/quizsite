@@ -1,0 +1,121 @@
+
+Test # 561
+The Ashes, 1964, 1st Test
+England v Australia
+Trent Bridge, Nottingham
+4,5,6,8,9 June 1964 (5-day match)
+
+Result: Match drawn
+Series: 5-match series level 0-0
+
+Toss: England
+Umpires: JS Buller and CS Elliott
+Test debuts: GE Corling (Australia); G Boycott (England).
+
+Close of play:
+ Day 1: England 52/1 (Boycott 23*, Dexter 6*)
+ Day 2: England 216/8 (Sharpe 35*, Coldwell 0*)
+ Day 3: No play
+ Day 4: England 216/8d, Australia 168, England 71/0 (Dexter 56*, Titmus 13*)
+
+England 1st innings                                             R   M   B  4 6
+G Boycott             c Simpson          b Corling             48 149      5 0
+FJ Titmus             c Redpath          b Hawke               16  57      2 0
+*ER Dexter            c Grout            b Hawke                9  52      0 0
+MC Cowdrey                               b Hawke               32 117      3 0
+KF Barrington         c Lawry            b Veivers             22  64      2 0
+PJ Sharpe             not out                                  35 133      3 0
++JM Parks             c Booth            b Veivers             15  22      1 1
+FS Trueman            c Simpson          b Veivers              0   2   1  0 0
+DA Allen              c Grout            b McKenzie            21  85      0 0
+LJ Coldwell           not out                                   0   8      0 0
+Extras                (b 5, lb 11, nb 2)                       18
+Total                 (8 wickets dec, 102 overs)              216
+
+DNB: JA Flavell.
+
+FoW: 1-38 (Titmus), 2-70 (Dexter), 3-90 (Boycott),
+     4-135 (Barrington), 5-141 (Cowdrey), 6-164 (Parks),
+     7-165 (Trueman), 8-212 (Allen).
+
+Bowling                      O      M      R      W
+McKenzie                    28      7     53      1
+Corling                     23      7     38      1
+Hawke                       35     15     68      3
+Veivers                     16      2     39      3
+
+Australia 1st innings                                           R   M   B  4 6
+WM Lawry              c Barrington       b Coldwell            11  71      1 0
+IR Redpath                               b Trueman              6  28      0 0
+NC O'Neill                               b Allen               26  65      3 1
+PJP Burge             lbw                b Trueman             31  75      3 0
+BC Booth              run out                                   0   5      0 0
+*RB Simpson           c Barrington       b Titmus              50 139      3 0
+TR Veivers            c Trueman          b Flavell              8  64      0 0
+GD McKenzie           c Parks            b Coldwell             4  30      0 0
+NJN Hawke             not out                                  10  35      1 0
++ATW Grout            c Parks            b Coldwell            13  22      1 0
+GE Corling                               b Trueman              3   3      0 0
+Extras                (lb 1, nb 5)                              6
+Total                 (all out, 78.3 overs)                   168
+
+FoW: 1-8 (Redpath), 2-37 (Lawry), 3-57 (O'Neill), 4-61 (Booth),
+     5-91 (Burge), 6-118 (Veivers), 7-137 (McKenzie),
+     8-141 (Simpson), 9-165 (Grout), 10-168 (Corling).
+
+Bowling                      O      M      R      W
+Trueman                     20.3    3     58      3
+Coldwell                    22      3     48      3
+Allen                       16      8     22      1
+Flavell                     16      3     28      1
+Titmus                       4      1      6      1
+
+England 2nd innings                                             R   M   B  4 6
+*ER Dexter            c O'Neill          b McKenzie            68  98     11 0
+FJ Titmus             lbw                b McKenzie            17 111      1 0
+MC Cowdrey                               b McKenzie            33 114      0 0
+KF Barrington         lbw                b Corling             33  57      4 0
++JM Parks             c Hawke            b Veivers             19  26      1 0
+PJ Sharpe                            c & b Veivers              1   6      0 0
+FS Trueman            c Grout            b McKenzie             4  23      0 0
+DA Allen              lbw                b McKenzie             3  12      0 0
+JA Flavell            c Booth            b Corling              7   7      1 0
+LJ Coldwell           not out                                   0   2      0 0
+Extras                (b 2, lb 2, w 1, nb 3)                    8
+Total                 (9 wickets dec, 66.5 overs)             193
+
+DNB: G Boycott.
+
+FoW: 1-90 (Dexter), 2-95 (Titmus), 3-147 (Barrington),
+     4-174 (Parks), 5-179 (Sharpe), 6-180 (Cowdrey),
+     7-186 (Allen), 8-187 (Trueman), 9-193 (Flavell).
+
+Bowling                      O      M      R      W
+McKenzie                    24      5     53      5
+Corling                     15.5    4     54      2
+Hawke                       19      5     53      0
+Veivers                      8      0     25      2
+
+Australia 2nd innings (target: 242 runs)                        R   M   B  4 6
+WM Lawry              run out                                   3   2   4  0 0
+IR Redpath            c Parks            b Flavell              2  16      0 0
+NC O'Neill            retired hurt                             24  23      4 0
+PJP Burge             not out                                   4  24      0 0
+BC Booth              not out                                   6  14      1 0
+Extras                (nb 1)                                    1
+Total                 (2 wickets, 9.2 overs)                   40
+
+DNB: *RB Simpson, TR Veivers, GD McKenzie, NJN Hawke, +ATW Grout,
+     GE Corling.
+
+FoW: 1-3 (Lawry), 2-25 (Redpath).
+
+Bowling                      O      M      R      W
+Trueman                      5      0     28      0
+Flavell                      4.2    0     11      1
+
+*** Boycott didn't bat 2nd Innings because of a fielding injury
+*** O'Neill was hit on the hand by a ball from Flavell
+*** NC O'Neill retired hurt at 31/2
+
+<END>

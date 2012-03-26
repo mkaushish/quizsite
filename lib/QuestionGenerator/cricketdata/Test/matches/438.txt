@@ -1,0 +1,124 @@
+
+Test # 438
+England in South Africa, 1956/57, 5th Test
+South Africa v England
+Crusaders Ground, St George's Park, Port Elizabeth
+1,2,4,5 March 1957 (5-day match)
+
+Result: South Africa won by 58 runs
+Series: 5-match series drawn 2-2
+
+Toss: South Africa
+Umpires: VJ Costello and W Marais
+Balls per over: 8
+
+Close of play:
+ Day 1: South Africa 138/5 (Endean 68*, van Ryneveld 17*)
+ Day 2: South Africa 164, England 110/9 (Lock 14*, Loader 0*)
+ Day 3: England 110, South Africa 122/7 (Tayfield 9*, Waite 4*)
+
+South Africa 1st innings                                        R   M   B  4 6
+AJ Pithey             c Evans            b Bailey              15 125      1 0
+TL Goddard            lbw                b Bailey               2  20      0 0
++JHB Waite            c Evans            b Loader               3  22      0 0
+KJ Funston                               b Bailey               3  15      0 0
+WR Endean             lbw                b Tyson               70 288      4 0
+RA McLean             c Evans            b Lock                23  76      3 0
+*CB van Ryneveld      c Tyson            b Loader              24 198      1 0
+CAR Duckworth         lbw                b Laker                6  54      0 0
+HJ Tayfield                              b Loader               4  18      0 0
+PS Heine                                 b Tyson                4  24      0 0
+NAT Adcock            not out                                   0   8      0 0
+Extras                (lb 1, nb 9)                             10
+Total                 (all out, 87 overs)                     164
+
+FoW: 1-4 (Goddard), 2-15 (Waite), 3-21 (Funston), 4-41 (Pithey),
+     5-78 (McLean), 6-143 (Endean), 7-155 (van Ryneveld),
+     8-155 (Duckworth), 9-163 (Tayfield), 10-164 (Heine).
+
+Bowling                      O      M      R      W
+Loader                      20      3     35      3
+Bailey                      25     12     23      3
+Tyson                       17      6     38      2
+Laker                       14      1     37      1
+Lock                        11      5     21      1
+
+England 1st innings                                             R   M   B  4 6
+PE Richardson         lbw                b Adcock               0  10      0 0
+TE Bailey                                b Heine               41 143      4 0
+DCS Compton                              b Adcock               0   1   2  0 0
+*PBH May              c Duckworth        b Goddard             24 101      2 0
+DJ Insole             lbw                b Heine                4  20      0 0
+MC Cowdrey            c Waite            b Adcock               3  42      0 0
++TG Evans                                b Heine                5  16      0 0
+GAR Lock                                 b Adcock              14 110      0 0
+FH Tyson                             c & b Heine                1  48      0 0
+JC Laker                                 b Goddard              6  23      1 0
+PJ Loader             not out                                   0  16      0 0
+Extras                (b 8, lb 4)                              12
+Total                 (all out, 61.3 overs)                   110
+
+FoW: 1-1 (Richardson), 2-1 (Compton), 3-55 (May), 4-77 (Insole),
+     5-78 (Bailey), 6-86 (Evans), 7-89 (Cowdrey), 8-97 (Tyson),
+     9-110 (Laker), 10-110 (Lock).
+
+Bowling                      O      M      R      W
+Heine                       15      6     22      4
+Adcock                      11.3    4     20      4
+Tayfield                    22      8     43      0
+Goddard                     13      8     13      2
+
+South Africa 2nd innings                                        R   M   B  4 6
+AJ Pithey                                b Laker                6  78      0 0
+TL Goddard            c Evans            b Tyson               30 193      0 0
+WR Endean                                b Tyson                1   1      0 0
+KJ Funston                               b Lock                24  98      0 0
+*CB van Ryneveld      lbw                b Tyson               13  79      1 0
+RA McLean                                b Bailey              19  54      3 0
+CAR Duckworth                            b Tyson                6  55      0 0
+HJ Tayfield           c Evans            b Tyson               10  66      0 0
++JHB Waite            not out                                   7  84      0 0
+PS Heine              c Evans            b Tyson                4  18      1 0
+NAT Adcock                               b Bailey               3  18      0 0
+Extras                (b 1, lb 7, nb 3)                        11
+Total                 (all out, 80.7 overs)                   134
+
+FoW: 1-20 (Pithey), 2-21 (Endean), 3-65 (Funston), 4-98 (McLean),
+     5-99 (van Ryneveld), 6-105 (Goddard), 7-111 (Duckworth),
+     8-123 (Tayfield), 9-129 (Heine), 10-134 (Adcock).
+
+Bowling                      O      M      R      W
+Loader                       4      3      1      0
+Bailey                      24.7    5     39      2
+Tyson                       23      7     40      6
+Laker                       14      5     26      1
+Lock                        15      6     17      1
+
+England 2nd innings (target: 189 runs)                          R   M   B  4 6
+PE Richardson                            b Adcock               3  22      0 0
+TE Bailey             c McLean           b Tayfield            18 101      2 0
+*PBH May              lbw                b Goddard             21  51      1 1
+MC Cowdrey            c van Ryneveld     b Tayfield             8  44      0 0
+DJ Insole             c Duckworth        b Tayfield             8  60      0 0
+DCS Compton           c Endean           b Tayfield             5  49      0 0
++TG Evans             c Endean           b Heine               21  31      2 2
+GAR Lock              c Goddard          b Tayfield            12  61      2 0
+FH Tyson              c Tayfield         b Goddard             23  36      1 1
+JC Laker              not out                                   3   7      0 0
+PJ Loader             c McLean           b Tayfield             0   2      0 0
+Extras                (b 5, lb 3)                               8
+Total                 (all out, 58.3 overs)                   130
+
+FoW: 1-15 (Richardson), 2-41 (May), 3-53 (Bailey),
+     4-57 (Cowdrey), 5-71 (Compton), 6-72 (Insole), 7-99 (Evans),
+     8-127 (Lock), 9-129 (Tyson), 10-130 (Loader).
+
+Bowling                      O      M      R      W
+Heine                       11      3     22      1
+Adcock                       7      2     10      1
+Tayfield                    24.3    6     78      6
+Goddard                     16      8     12      2
+
+*** TL Goddard (2) retired hurt on 27* from 64/2 to 99/5
+
+<END>

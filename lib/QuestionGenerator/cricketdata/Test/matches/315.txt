@@ -1,0 +1,98 @@
+
+Test # 315
+New Zealand in England, 1949, 2nd Test
+England v New Zealand
+Lord's, London
+25,27,28 June 1949 (3-day match)
+
+Result: Match drawn
+Series: 4-match series level 0-0
+
+Toss: England
+Umpires: WH Ashdown and F Chester
+
+Close of play:
+ Day 1: England 313/9d, New Zealand 20/0 (Sutcliffe 12*, Scott 8*)
+ Day 2: New Zealand 372/7 (Donnelly 126*, Burtt 5*)
+
+England 1st innings                                             R   M   B  4 6
+L Hutton                                 b Burtt               23  77        0
+JDB Robertson         c Mooney           b Cowie               26            0
+WJ Edrich             c Donnelly         b Cowie                9            0
+DCS Compton           c Sutcliffe        b Burtt              116 195     11 0
+AJ Watkins            c Wallace          b Burtt                6            0
+*FG Mann                                 b Cave                18            0
+TE Bailey             c Sutcliffe        b Rabone              93 150     16 0
++TG Evans                                b Burtt                5            0
+C Gladwin             run out                                   5            0
+JA Young              not out                                   1          0 0
+Extras                (b 9, lb 2)                              11
+Total                 (9 wickets dec, 103.1 overs)            313
+
+DNB: WE Hollies.
+
+FoW: 1-48 (Hutton), 2-59 (Edrich), 3-72 (Robertson),
+     4-83 (Watkins), 5-112 (Mann), 6-301 (Compton),
+     7-307 (Bailey), 8-307 (Evans), 9-313 (Gladwin).
+
+Bowling                      O      M      R      W
+Cowie                       26.1    5     64      2
+Cave                        27      2     79      1
+Rabone                      14      5     56      1
+Burtt                       35      7    102      4
+Sutcliffe                    1      0      1      0
+
+New Zealand 1st innings                                         R   M   B  4 6
+B Sutcliffe           c Compton          b Gladwin             57  90        0
+VJ Scott              c Edrich           b Compton             42            0
+*WA Hadlee            c Robertson        b Hollies             43  75        0
+WM Wallace            c Evans            b Hollies              2          0 0
+MP Donnelly           c Hutton           b Young              206 355     26 0
+FB Smith                                 b Hollies             23            0
+GO Rabone                                b Hollies             25            0
++FLH Mooney           c Watkins          b Young               33            0
+TB Burtt              c Edrich           b Hollies             23  65        0
+HB Cave                              c & b Young                6  25      1 0
+J Cowie               not out                                   1          0 0
+Extras                (b 16, lb 3, w 3, nb 1)                  23
+Total                 (all out, 159.4 overs)                  484
+
+FoW: 1-89 (Sutcliffe), 2-124 (Scott), 3-137 (Wallace),
+     4-160 (Hadlee), 5-197 (Smith), 6-273 (Rabone),
+     7-351 (Mooney), 8-436 (Burtt), 9-464 (Cave),
+     10-484 (Donnelly).
+
+Bowling                      O      M      R      W
+Bailey                      33      3    136      0
+Gladwin                     28      5     67      1
+Edrich                       4      0     16      0
+Hollies                     58     18    133      5
+Compton                      7      0     33      1
+Young                       26.4    4     65      3
+Watkins                      3      1     11      0
+
+England 2nd innings                                             R   M   B  4 6
+L Hutton              c Cave             b Rabone              66            0
+JDB Robertson         c Cave             b Rabone             121 225     11 1
+WJ Edrich             c Hadlee           b Burtt               31            0
+DCS Compton                              b Burtt                6            0
+AJ Watkins            not out                                  49            0
+*FG Mann              c Donnelly         b Rabone              17            0
+TE Bailey             not out                                   6            0
+Extras                (b 9, lb 1)                              10
+Total                 (5 wickets, 103 overs)                  306
+
+DNB: +TG Evans, C Gladwin, JA Young, WE Hollies.
+
+FoW: 1-143 (Hutton), 2-216 (Edrich), 3-226 (Robertson),
+     4-226 (Compton), 5-252 (Mann).
+
+Bowling                      O      M      R      W
+Cowie                       14      3     39      0
+Cave                         7      1     23      0
+Rabone                      28      6    116      3
+Burtt                       37     12     58      2
+Sutcliffe                   16      1     55      0
+Wallace                      1      0      5      0
+
+<END>

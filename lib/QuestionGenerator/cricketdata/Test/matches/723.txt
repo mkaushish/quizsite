@@ -1,0 +1,102 @@
+
+Test # 723
+New Zealand in England, 1973, 2nd Test
+England v New Zealand
+Lord's, London
+21,22,23,25,26 June 1973 (5-day match)
+
+Result: Match drawn
+Series: England leads the 3-match series 1-0
+
+Toss: New Zealand
+Umpires: AE Fagg and TW Spencer
+
+Close of play:
+ Day 1: England 240/9 (Arnold 2*, Gifford 2*)
+ Day 2: England 253, New Zealand 200/3 (Congdon 100*, Howarth 0*)
+ Day 3: New Zealand 492/6 (Pollard 77*, Wadsworth 14*)
+ Day 4: New Zealand 551/9d, England 224/2 (Roope 41*, Fletcher 28*)
+
+England 1st innings                                             R   M   B  4 6
+G Boycott             c Parker           b Collinge            61 165 144  3 2
+DL Amiss              c Howarth          b Hadlee               9  48  39  0 0
+GRJ Roope             lbw                b Howarth             56 180 155  3 0
+KWR Fletcher          c Hastings         b Howarth             25  99  99  4 0
+AW Greig              c Howarth          b Collinge            63 123  95  6 2
+*R Illingworth        c Collinge         b Hadlee               3  11  17  0 0
++APE Knott                               b Hadlee               0   4   3  0 0
+CM Old                                   b Howarth              7  18  18  1 0
+JA Snow                                  b Taylor               2  21  15  0 0
+GG Arnold             not out                                   8  51  43  0 0
+N Gifford             c Wadsworth        b Collinge             8  24  19  1 0
+Extras                (lb 1, w 1, nb 9)                        11
+Total                 (all out, 106 overs)                    253
+
+FoW: 1-24 (Amiss), 2-116 (Boycott), 3-148 (Roope),
+     4-165 (Fletcher), 5-171 (Illingworth), 6-175 (Knott),
+     7-195 (Old), 8-217 (Snow), 9-237 (Greig), 10-253 (Gifford).
+
+Bowling                      O      M      R      W
+Collinge                    31      8     69      3
+Taylor                      19      1     54      1
+Hadlee                      26      4     70      3
+Congdon                      5      2      7      0
+Howarth                     25      6     42      3
+
+New Zealand 1st innings                                         R   M   B  4 6
+GM Turner             c Greig            b Arnold               4  32  30  0 0
+JM Parker             c Knott            b Snow                 3  12  12  0 0
+*BE Congdon           c Knott            b Old                175 514 454 12 0
+BF Hastings           lbw                b Snow                86 289 233  9 0
+HJ Howarth            hit wicket         b Old                 17  91  64  2 0
+MG Burgess                               b Snow               105 227 174 12 0
+V Pollard             not out                                 105 235 185 14 0
++KJ Wadsworth         c Knott            b Old                 27  90  69  3 0
+BR Taylor                                b Old                 11  13   7  2 0
+DR Hadlee             c Fletcher         b Old                  6  10  10  0 0
+Extras                (lb 5, nb 7)                             12
+Total                 (9 wickets dec, 204.5 overs)            551
+
+DNB: RO Collinge.
+
+FoW: 1-5 (Parker), 2-10 (Turner), 3-200 (Hastings),
+     4-249 (Howarth), 5-330 (Congdon), 6-447 (Burgess),
+     7-523 (Wadsworth), 8-535 (Taylor), 9-551 (Hadlee).
+
+Bowling                      O      M      R      W
+Snow                        38      4    109      3
+Arnold                      41      6    108      1
+Old                         41.5    7    113      5
+Roope                        6      1     15      0
+Gifford                     39      6    107      0
+Illingworth                 39     12     87      0
+
+England 2nd innings                                             R   M   B  4 6
+G Boycott                            c & b Howarth             92 220 200 13 1
+DL Amiss                             c & b Howarth             53 125 109  6 0
+GRJ Roope             c Parker           b Taylor              51 176 211  4 0
+KWR Fletcher          c Taylor           b Collinge           178 379 380 21 2
+AW Greig              c Wadsworth        b Hadlee              12  48  38  2 0
+*R Illingworth        c Turner           b Howarth             22 112 114  1 0
++APE Knott            c Congdon          b Howarth              0   3   4  0 0
+CM Old                c Congdon          b Pollard              7   9  10  1 0
+JA Snow               c Hastings         b Pollard              0  24  29  0 0
+GG Arnold             not out                                  23  92  89  3 0
+N Gifford             not out                                   2   4   7  0 0
+Extras                (b 8, lb 3, nb 12)                       23
+Total                 (9 wickets, 196 overs)                  463
+
+FoW: 1-112 (Amiss), 2-185 (Boycott), 3-250 (Roope),
+     4-274 (Greig), 5-335 (Illingworth), 6-339 (Knott),
+     7-352 (Old), 8-368 (Snow), 9-460 (Fletcher).
+
+Bowling                      O      M      R      W
+Collinge                    19      4     41      1
+Taylor                      34     10     90      1
+Hadlee                      25      2     79      1
+Congdon                      8      3     22      0
+Howarth                     70     24    144      4
+Pollard                     39     11     61      2
+Hastings                     1      0      3      0
+
+<END>
