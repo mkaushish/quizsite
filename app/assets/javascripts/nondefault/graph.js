@@ -1,7 +1,11 @@
  
       $(function() {
         // global drawing variables
-        COLOR=["blue", "green", "red"]
+        COLOR=["#049cdb", "#46a546", "#9d261d", "#f89406", "#c3325f", "#7a43b6", "#ffc40d"];
+        ccolor=new Array();
+        for (var a=0; a<COLOR.length; a++){
+          ccolor[a]=false;
+        }
         var canvas = $('#canvas')[0];
         var curve = $('#shapes')
         var context = canvas.getContext('2d');
@@ -334,6 +338,7 @@
         });
 
         $('#undo').click(function(){ 
+          ccolor[COLOR.indexOf(fnarr[fnarr.length-1].color)]=false;
           fnarr.pop();
           redraw();
           var f="";
@@ -352,15 +357,48 @@
           return color;
         }
         
-        $('#function').click(function(){ 
-          var color;
-          if(fnarr.length < COLOR.length) {color=COLOR[fnarr.length];} 
-          else {color=get_random_color();}
+        function freeColor(){
+          var cl="";
+          for( var a=0; a<ccolor.length; a++){
+            if(!ccolor[a]) {
+              cl=COLOR[a];
+              ccolor[a]=true;
+              break;
+            }
+          }
+          if(cl==""){
+            COLOR.push(get_random_color());
+            cl=COLOR[COLOR.length-1];
+            ccolor[a]=true;
+          }
+          return cl;
+        }
+        function deleteCurve(index){
+          ccolor[COLOR.indexOf(fnarr[index].color)]=false;
+          clshapes.splice(index,1);
+          fnarr.splice(index, 1);
+          var f=""
+          for ( var k=0; k<fnarr.length; k++){
+            fnarr[k].html="<div class=shapes style=\"background-color:"+fnarr[k].color+";\" id=s_"+k+" >"+fnarr[k].fn+"</div>\n";  
+            fnarr[k].html+="<button id=delete_"+k+"> Delete </button>\n";
+            f+=fnarr[k].html;
+          }
+          curve.html(f);
+          curveCallbacks();
+          redraw();
+        }
+        function addCurve(fun){
+          var func=fun;
+          var color=freeColor();
           context.strokeStyle=color;
-          var func=$('#circlesize').attr("value");
-          fnarr.push(new fn(func, color));
+          dd=new fn(func, color);
+          if (dd.ret==false){
+            ccolor[COLOR.indexOf(color)]=false;
+            return false;
+          }
+          fnarr.push(dd);
           var h="<div class=shapes style=\"background-color:"+color+";\" id=s_"+(fnarr.length-1)+" >"+fnarr[fnarr.length-1].fn+"</div>\n";  
-          //h+="<button id=delete_"+(fnarr.length-1)+"> Delete </button>\n";
+          h+="<button id=delete_"+(fnarr.length-1)+"> Delete </button>\n";
           fnarr[fnarr.length-1].html=h;
           clshapes[fnarr.length-1]=false;
           //alert(fnarr[fnarr.length-1].html);
@@ -369,8 +407,12 @@
           for (k=0; k<fnarr.length; k++){
             f+=fnarr[k].html;
           }
-          //alert(f)
           curve.html(f);
+          $('#circlesize').val("");
+          curveCallbacks();
+          redraw();
+        }
+        function curveCallbacks(){
           for (w=0; w<fnarr.length; w++){
             $('#s_'+(w)).mouseenter({w:w}, function(e) {
               //alert("here");
@@ -398,18 +440,18 @@
                 redraw();
               }
             });
-            /*$('#delete_'+(w)).click({w:w}, function(e) {
-              fnarr.splice(e.data.w, 1);
-              f="";
-              for (k=0; k<fnarr.length; k++){
-                f+=fnarr[k].html;
-              }
-              curve.html(f);
-              redraw();
-            });*/
+            $('#delete_'+(w)).click({w:w}, function(e) {
+              deleteCurve(e.data.w);
+            });
           }
-          $('#circlesize').val("");
-          redraw();
+        }
+        $('#function').click(function(){ 
+          addCurve($('#circlesize').attr("value"));
+          writeMessage(" ");
+          writeMessageDown(" ");
+          context.clearRect(0,0,context.width, 25);
+          context.clearRect(0,context.height-25, context.width, 25);
+          //alert(f)
         });
         $('#canvas').mouseup(function (e) { 
           mousedown=false;
@@ -445,8 +487,11 @@
               fnarr[w].draw();
               context.strokeStyle="black";
             }
+          writeMessage(" ");
+          writeMessageDown(" ");
           }
           graph.curpos();
+          writeMessageDown(" ");
 
           // activate interest points if we are close to them
         });
@@ -459,9 +504,20 @@
             fnarr[w].draw();
             context.strokeStyle="black";
           }
+          writeMessage(" ");
+          writeMessageDown(" ");
+          context.clearRect(0,0,context.width, 25);
+          context.clearRect(0,context.height-25, context.width, 25);
         }
         function writeMessage(message){
-          context.clearRect(0,0,canvas.width/2,25);
+          context.clearRect(0,0,canvas.width,25);
+          context.font = "10pt Calibri";
+          context.fillStyle = "black";
+          context.fillText(message, 10, 20);
+        }
+
+        function writeMessageDown(message){
+          context.clearRect(0,canvas.height-25,canvas.width,25);
           context.font = "10pt Calibri";
           context.fillStyle = "black";
           context.fillText(message, 10, 20);
@@ -523,6 +579,7 @@
         }
         function drawfunction(fn){
           sy=parseFN(fn);
+          if(sy==false){return false;}
           //alert(sy);
           var values=new Array();
           var pos=new Array();
@@ -535,7 +592,7 @@
             cury=evaluatefn(sy,curx)/czoom;
             ypos=(cy-width*cury);
             //alert(q+", "+ypos);
-            if (ypos>=off && ypos<=canvas.height-off){
+            if (ypos>=0 && ypos<=canvas.height+off){
               values.push([curx,cury]);
               pos.push([q,Math.round(ypos)]);
               if(q>off) {
@@ -555,6 +612,7 @@
           this.html="";
           this.lwidth=1;
           this.ret=drawfunction(fn);
+          if(this.ret==false) {return false;}
           this.color=color;
           this.values=this.ret[0];
           this.pos=this.ret[1];
@@ -577,6 +635,9 @@
           if (op=="*") {return lt*rt;}
           if (op=="/") {return rt/lt;}
           if (op=="^") {return Math.pow(rt,lt);}
+          if (op=="q") {return Math.asin(lt);}
+          if (op=="r") {return Math.acos(lt);}
+          if (op=="k") {return Math.atan(lt);}
           if (op=="s")
           {
             return Math.sin(lt);
@@ -616,17 +677,21 @@
         sop["sec"] = "d";
         sop["cot"] = "u";
         sop["log"] = "l";
-        fns=["s","c","t","o","d","u","l"];
+        sop["asin"]= "q";
+        sop["acos"]= "r";
+        sop["atan"]= "k";
+        fns=["q","r","k","s","c","t","o","d","u","l"];
         opers=new Object();
         opers["^"]=1;
         opers["/"]=2;
         opers["*"]=2;
         opers["+"]=3;
         opers["-"]=3;
-        ops=["sin", "cosec", "cos", "sec", "tan", "cot", "pi", "log"];
+        ops=["asin", "acos", "atan", "sin", "cosec", "cos", "sec", "tan", "cot", "pi", "log"];
         //fnarr.push(new fn("sin(x)"));
         //fnarr[0].draw;
-
+        lbrac=["(","{","[","|"];
+        rbrac=[")","}","]","|"];
         function isOperator(op){
           if (opers[op]!=null){
             return true;
@@ -701,6 +766,10 @@
             }
             else if (fns.indexOf(fn.charAt(i))!=-1)
             {
+              if(lbrac.indexOf(fn.charAt(i+1))==-1){
+                alert("Error: There has to be a bracket after trignometric, log functions");
+                return false;
+              }
               op.push(fn.charAt(i));
             }
             else if (isOperator(fn.charAt(i)))
@@ -725,25 +794,31 @@
               op.push(fn.charAt(i));
               //context.fillText(op.toString(), 300, (i+1)*10);
             }
-            else if (fn.charAt(i)=="(")
+            else if (lbrac.indexOf(fn.charAt(i))!=-1)
             {
-              if(!isNaN(tokens[tokens.length-2]) || tokens[tokens.length-2]=="x" || tokens[tokens.length-2]=="p" || tokens[tokens.length-2]=="e" || tokens[tokens.length-2]==")") {op.push("*");}
+              //alert[fn.charAt(i)];
+              if(!isNaN(tokens[tokens.length-2]) || tokens[tokens.length-2]=="x" || tokens[tokens.length-2]=="p" || tokens[tokens.length-2]=="e" || rbrac.indexOf(tokens[tokens.length-2])!=-1) {op.push("*");}
               op.push(fn.charAt(i));
             }
-            else if (fn.charAt(i)==")")
+            else if (rbrac.indexOf(fn.charAt(i))!=-1)
             {
-              while (op[op.length-1]!="(")
+              //alert(fn.charAt(i));
+              while (op[op.length-1]!=lbrac[rbrac.indexOf(fn.charAt(i))])
               {
                 if (op.length==0)
                 {
-                  return "Error: mismatched parentheses";
+                  alert("Error: mismatched parentheses");
+                  return false;
                 }
                 out.enqueue(op.pop());
               }
               op.pop();
               if (fns.indexOf(op[op.length-1])!=-1) {out.enqueue(op.pop());}
             }
-            else {return "Error: symbol not recognized";}
+            else {
+              alert("Error: symbol not recognized");
+              return false; 
+            }
             //writeMessageRight(op.toString()+", "+out.toString());
 
           }
@@ -754,7 +829,8 @@
             //writeMessage("here");
             if (op[op.length-1]=="(")
             {
-              return "Error: mismatched parentheses";
+              alert("Error: mismatched parentheses");
+              return false;
             }
             //writeMessage(op.peek());
             t=op.pop();
