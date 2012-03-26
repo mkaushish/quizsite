@@ -1,3 +1,9 @@
 <div id=logo><%= @user.name %></div>
-<%= render :partial => 'problemanswers/history', :locals => {:problemanswers => @problemanswers} %>
-<%= render :partial => 'users/stats' %>
+<div class=row-fluid>
+  <div id=stats class=span9>
+    <%= render :partial => 'users/stats' %>
+  </div>
+  <div id=problemhist class=span3>
+    <%= render :partial => 'problemanswers/history', :locals => {:problemanswers => @problemanswers} %>
+  </div>
+</div>

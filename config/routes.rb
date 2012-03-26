@@ -22,6 +22,7 @@ Quizsite::Application.routes.draw do
   match '/signout', :to => 'sessions#destroy'
   match '/history', :to => 'problemanswers#index'
   match '/quiz',    :to => 'problemanswers#new'
+  match '/makequiz',    :to => 'probleman#choose'
   match '/home',    :to => 'pages#fasthome'
   match '/features',:to => 'pages#features'
   match '/about',   :to => 'pages#about'

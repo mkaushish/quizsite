@@ -10,36 +10,7 @@
 
 @import 'mixins_n_colors';
 
-/* Varables {{{ */
-
-$graphite: #503214;
-
-@mixin shadow($h_off, $v_off, $blur, $spread, $col) {
-  // h_off : horizontal offset, positive = right, negative = left
-  // v_off : vertical offset, positive = bot, negative = top
-  // blur  : 0 => sharp, higher => more blurred (ex 5px)
-  // spread: increases size, default 0 => same size as blur...?
-  // col   : obvious
-  -moz-box-shadow:    $h_off $v_off $blur $spread $col;
-  -webkit-box-shadow: $h_off $v_off $blur $spread $col;
-  box-shadow:         $h_off $v_off $blur $spread $col;
-}
-@mixin rounded-corners($radius) {
-	-moz-border-radius: $radius;
-	-webkit-border-radius: $radius;
-	border-radius: $radius; /* future proofing */
-	-khtml-border-radius: $radius; /* for old Konqueror browsers */
-}
-@mixin gradient($first, $second) {
-  background-color: $second;
-  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#{ie-hex-str($first)}', endColorstr='#{ie-hex-str($second)}');";
-  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#{ie-hex-str($first)}', endColorstr='#{ie-hex-str($second)}');;
-  zoom: 1;
-  background: -webkit-gradient(linear, left top, left bottom, from($first), to($second));
-  background: -moz-linear-gradient(top, $first, $second);
-}
-
-// handwriting fonts
+// handwriting fonts {{{
 @font-face {
   font-family: "SketchRockwell";
   src: url('handwriting/SketchRockwell-Bold.ttf') format('truetype');
@@ -78,7 +49,6 @@ body {
   color: #333333;
   background-color: #ffffff;
   font-family: "Latine";
-  line-height:160%;
   font-size: 14px;
   margin:0;
 }
@@ -91,6 +61,9 @@ p {
 }
 */
 
+.container {
+  background-color:yellow;
+}
 #container {
   position:relative;
   bottom:7px;

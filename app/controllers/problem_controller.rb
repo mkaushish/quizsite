@@ -10,8 +10,10 @@ class ProblemController < ApplicationController
   end
     
   def choose
+    @nav_selected = "makequiz"
     @chosen_probs = get_probs
-    @all_probs = all_probs
+    @all_chapters = all_chapters
+    @chapter = Chapter3
   end
 
   def explain

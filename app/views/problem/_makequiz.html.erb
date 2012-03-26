@@ -1,0 +1,31 @@
+<%= form_tag :action => 'makequiz' do %>
+  <div class=row-fluid>
+    <div class="span3">
+      <ul class=vnav>
+        <% @all_chapters.each do |chapter| %>
+          <li class="<%= (chapter == @chapter) ? "active":""%>">
+          <a href="#<%= chapter.to_s %>" data-toggle="tab"><%= chapter.to_s %></a>
+          </li>
+        <% end %>
+        <li><%= submit_tag "Save Quiz", :class=>"btn-primary" %></li>
+      </ul>
+    </div>
+    <div class="span9 tab-content" id="problemtabs">
+      <% @all_chapters.each do |chapter| %>
+        <ul class="tab-pane<%= (chapter == @chapter) ? " active":"" %>" id="<%= chapter.to_s %>" >
+          <% chapter::PROBLEMS.each do |problem| %>
+            <li>
+              <%= check_box_tag problem.to_s, "1", (@chosen_probs.include? problem) %>
+              <%= label_tag problem.to_s, problem.type %>
+            </li>
+          <% end %>
+        </ul>
+      <% end %>
+    </div>
+  </div>
+  <script>
+    $(function () {
+      $('a[href="#<%= @chapter.to_s %>"]').tab('show');
+    })
+  </script>
+<% end %>

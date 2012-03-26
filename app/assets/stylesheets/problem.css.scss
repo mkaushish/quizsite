@@ -1,6 +1,7 @@
 // Place all the styles related to the Problem controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+@import 'mixins_n_colors';
 .explanation {
   width: 800px;
 }
@@ -9,4 +10,35 @@
 }
 
 .actions {
+}
+
+.vnav {
+  margin:5px;
+  text-align:center;
+  height:100%;
+  li {
+    border-right:1px solid $graphite;
+    padding:5px;
+  }
+}
+
+/**/
+.vnav li.active {
+  border-right:1px solid transparent;
+  border-bottom:1px solid $graphite;
+  border-top:1px solid $graphite;
+  border-left:1px solid $graphite;
+}
+/* */
+
+#problemtabs {
+  li {
+    padding:5px;
+  }
+  input {
+    float:left;
+  }
+  label {
+    padding:3px 5px;
+  }
 }

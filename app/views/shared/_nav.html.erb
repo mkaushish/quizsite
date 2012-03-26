@@ -3,7 +3,7 @@
   <ul>
   <% if signed_in? %>
     <li><%= link_to "My Profile", user_path(current_user), :class => selected?("profile") %></li>
-    <li><%= link_to "Make Quiz", :controller => :problem, :action => :choose %></li>
+    <li><%= link_to "Make Quiz", {:controller => :problem, :action => :choose}, :class => selected?("makequiz") %></li>
     <li><%= link_to "Start Quiz", quiz_path, :class => selected?("quiz"); %></li>
     <li><%= link_to "Sign Out", signout_path, :method => :delete %></li>
   <% elsif fastnav? %>
