@@ -73,6 +73,9 @@ module CricketQuestions
      
       @names=@mat.slice!(0)
     end
+    def correct?(params)
+      HTMLObj::get_result("ans", params).to_f==solve["ans"]
+    end  
     def image
       return @pname[0]+".png"
     end
@@ -133,6 +136,9 @@ module CricketQuestions
         end
       end
     end
+    def correct?(params)
+      HTMLObj::get_result("ans", params).to_f==solve["ans"]
+    end  
     def image
       return @pname[0]+".png"
     end
@@ -177,6 +183,9 @@ module CricketQuestions
       @mat=CricketQuestions::pick_matches(type, pname[0], "bat", pname[1], nomat)
       @names=@mat.slice!(0)   
     end
+    def correct?(params)
+      HTMLObj::get_result("ans", params).to_f==solve["ans"]
+    end  
     def solve
       sum=0
       balls=0
@@ -247,6 +256,9 @@ module CricketQuestions
         end
       end
     end
+    def correct?(params)
+      HTMLObj::get_result("ans", params).to_f==solve["ans"]
+    end  
     def image
       return @pname[0]+".png"
     end
