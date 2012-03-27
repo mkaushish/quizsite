@@ -122,3 +122,39 @@
   margin-bottom:12px;
   font-size: 3em;
 }
+
+.lastprobinfo {
+  height:80px;
+  width:450px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.exampleprob {
+  width:450px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align:center;
+  @include rounded-corners(5px);
+  border:2px solid $graphite;
+  padding:10px;
+  .actions {
+    margin-top:15px;
+  }
+}
+
+.incorrectex {
+  text-align:center;
+  border:1px solid $red;
+  padding:10px;
+  margin-top:10px;
+  @include rounded-corners(5px);
+}
+
+.correctex {
+  text-align:center;
+  border:1px solid $green;
+  padding:10px;
+  margin-top:10px;
+  @include rounded-corners(5px);
+}
