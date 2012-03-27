@@ -11,7 +11,7 @@ module ApplicationHelper
   end
   def jsonload
     return "" if @jsonload.nil?
-    return @jsonload
+    return "onload=#{@jsonload}"
   end
   def container_height_style
     return "" if @container_height.nil?

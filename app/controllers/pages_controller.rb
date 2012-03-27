@@ -11,7 +11,7 @@ class PagesController < ApplicationController
       @fastnav = true
       @container_height = 500
       @nav_selected = "home"
-      @jsonload = 'onload=homeOnLoad("home");'
+      @jsonload = 'homeOnLoad("home");'
     end
   end
   def nologinhome
@@ -24,7 +24,7 @@ class PagesController < ApplicationController
       @fastnav = true
       @container_height = 500
       @nav_selected = "home"
-      @jsonload = 'onload=homeOnLoad("home");'
+      @jsonload = 'homeOnLoad("home");'
     end
   end
 
@@ -36,7 +36,7 @@ class PagesController < ApplicationController
       @problemanswers = @user.problemanswers
       render 'users/show'
     else
-      @jsonload = 'onload=startShow();'
+      @jsonload = 'startShow();'
     end
   end
 
@@ -45,7 +45,7 @@ class PagesController < ApplicationController
     @title = "Features"
     @nav_selected = "features"
     @container_height = 950
-    @jsonload = 'onload=homeOnLoad("features");'
+    @jsonload = 'homeOnLoad("features");'
     render 'fasthome'
   end
 
@@ -54,7 +54,7 @@ class PagesController < ApplicationController
     @title = "About Us"
     @nav_selected = "about"
     @container_height = 475
-    @jsonload = 'onload=homeOnLoad("about");'
+    @jsonload = 'homeOnLoad("about");'
     render 'fasthome'
   end
 

@@ -15,7 +15,21 @@ $(document).ready(function () {
     }
   });
 
+  function setCurQuiz() {
+    var quiz_s = "<li><h3>Current Quiz</h3></li>";
+    $(':checkbox:checked').each(function() {
+      var problemname = $(this).attr("name").split("::")[1];
+      quiz_s = quiz_s + "<li class=quizelt>"+problemname+"</li>";
+    });
+    $('#curquiz').html(quiz_s);
+  }
+
   $('#clear-quiz').click(function() {
     $(':checkbox:checked').attr('checked', false);
+    setCurQuiz();
+  });
+
+  $('#problemtabs :checkbox').click(function() {
+    setCurQuiz();
   });
 });

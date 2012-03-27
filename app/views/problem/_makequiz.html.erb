@@ -9,10 +9,10 @@
           </li>
         <% end %>
         <li><button type="button" class="btn" id=clear-quiz>Clear Quiz</button></li>
-        <li><%= submit_tag "Save Quiz", :class=>"btn-primary" %></li>
+        <li><%= submit_tag "Start Quiz", :class=>"btn-primary" %></li>
       </ul>
     </div>
-    <div class="span9 tab-content" id="problemtabs">
+    <div class="span5 tab-content" id="problemtabs">
       <% @all_chapters.each do |chapter| %>
         <ul class="tab-pane<%= (chapter == @chapter) ? " active":"" %>" id="<%= chapter.to_s %>" >
           <% chapter::PROBLEMS.each do |problem| %>
@@ -23,6 +23,14 @@
           <% end %>
         </ul>
       <% end %>
+    </div>
+    <div class="span4">
+      <ul id="curquiz">
+        <li><h3>Current Quiz</h3></li>
+        <% @chosen_probs.each do |problem| %>
+          <li class=quizelt><%= problem.to_s.split("::")[1] %></li>
+        <% end %>
+      </ul>
     </div>
   </div>
   <script>

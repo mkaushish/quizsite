@@ -1,16 +1,7 @@
 // Place all the styles related to the problemanswers controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-
-$graphite: #503214;
-
-@mixin rounded-corners($radius) {
-	-moz-border-radius: $radius;
-	-webkit-border-radius: $radius;
-	border-radius: $radius; /* future proofing */
-	-khtml-border-radius: $radius; /* for old Konqueror browsers */
-}
-
+@import 'mixins_n_colors';
 #quizname {
   font-size:2em;
   text-align: center;
@@ -25,6 +16,7 @@ $graphite: #503214;
 }
 
 #quiz {
+  background-color:white;
   padding:10px;
   width:450px;
   border: 2px solid $graphite;
