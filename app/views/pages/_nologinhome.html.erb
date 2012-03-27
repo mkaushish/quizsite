@@ -1,0 +1,47 @@
+<div id=home class=staticpage>
+  <div class=logo>Smarter Grades</div>
+  <%= render :partial => 'shared/fakesignin' %>
+  <div id="homedescription"> 
+    <p>
+    SmarterGrades is an online tutor for CBSE maths.  We give students personalized attention and problems sets to prepare them for their exams.  Our PScore predicts how well the students will do on each type of question, and allows us to focus on the problems the student is having trouble with.  
+    </p> 
+    <p> 
+    Our problems sets are about learning, not testing.  That's why when a student gets a problem wrong we don't just mark it wrong - we guide the student through the steps in solving the problem.  This way we can ensure that every student has complete understanding of every question.
+    </p>
+    <p>
+    SmarterGrades is going to enter alpha testing soon.  If you would like to sign your 6th grader up for personal online maths instruction, please email us at signup@smartergrades.com! 
+    </p>
+  </div>
+
+  <div id=slideshow>
+    <div id=slides >
+      <div id=slide1>
+        <%= image_tag "pscore_450_260.png" %>
+        <div class=slide_description>
+          The PScore is how well we predict you will do on a question/quiz.  We use it to figure out the best problems for you to practice.
+        </div>
+      </div>
+      <div id=slide2 style="display:none">
+        <%= image_tag "drawtoolsexnew_450_260.png" %>
+        <div class=slide_description>
+          Smarter Grades teaches students to solve problems with online versions of the same tools they have available in class.  It's not just multiple choice!
+        </div>
+      </div>
+      <div id=slide3 style="display:none">
+        <%= image_tag "explanation_450_260.png" %>
+        <div class=slide_description>
+          If students are having trouble with a problem, we teach them how to break down each problem into simple steps.  Then we help them understand each step.
+        </div>
+      </div>
+    </div>
+    <div id="slideshownav">
+      <div id="slideNo" style="display:none">1</div>
+      <div id="slideTimer" style="display:none">6</div>
+      <ul>
+        <li id="slideshownav1" onclick="setSlide(1,this);" class=selected>PScore</li>
+        <li id="slideshownav2" onclick="setSlide(2,this);">Tools</li>
+        <li id="slideshownav3" onclick="setSlide(3,this);" style="border:0; width:144px; float:right;">Explanations</li>
+      </ul>
+    </div>
+  </div>
+</div>

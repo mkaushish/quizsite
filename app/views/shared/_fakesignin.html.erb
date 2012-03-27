@@ -1,0 +1,13 @@
+<%= form_for(:session, {:url => sessions_path, :html => {:class => "signin"}}) do |f| %>
+  <div class = "field">
+    <%= f.text_field :text1, :placeholder=>"I'm Not Real" %>
+    <%= f.text_field :text2, :placeholder => "Click Sign In ->" %>
+    <%= hidden_field_tag 'email', "exampleuser@gmail.com" %>
+    <%= hidden_field_tag 'password', "examplepassword" %>
+  </div>
+  <div class = "actions">
+    <%= f.submit "Sign in", :class=>"btn-primary" %>
+    <%= f.submit "Register", :class=>"btn-primary", :disabled=>"true" %>
+  </div>
+  <div class = "break"></div>
+<% end %>

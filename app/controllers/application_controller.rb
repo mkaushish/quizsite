@@ -3,13 +3,18 @@ require 'c2'
 require 'c3'
 require 'c6'
 require 'c7'
+require 'c8'
+# require 'c10'
+# require 'c12'
+require 'crqu'
+
 
 class ApplicationController < ActionController::Base
   protect_from_forgery
   include SessionsHelper
   include ApplicationHelper
 
-  @@all_chapters = [Chapter1, Chapter2, Chapter3, Chapter6, Chapter7]
+  @@all_chapters = [Chapter1, Chapter2, Chapter3, Chapter6, Chapter7, Chapter8, CricketQuestions]
   @@all_probs = @@all_chapters.map { |chap| chap::PROBLEMS }.flatten
 
   def get_probs

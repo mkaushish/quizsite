@@ -22,5 +22,9 @@ namespace :db do
         User.create!(userhash.merge({:password => "newpass", :password_confirmation => "newpass"}))
       end
     end
+    userhash = { :name => "Example User", :email => "exampleuser@gmail.com" }
+    if User.find_by_email(userhash[:email]).nil?
+      User.create!(userhash.merge({:password => "examplepassword", :password_confirmation => "examplepassword"}))
+    end
   end
 end
