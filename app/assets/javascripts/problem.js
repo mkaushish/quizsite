@@ -14,4 +14,8 @@ $(document).ready(function () {
       $(this).siblings(".mt_field").last().remove();
     }
   });
+
+  $('#clear-quiz').click(function() {
+    $(':checkbox:checked').attr('checked', false);
+  });
 });

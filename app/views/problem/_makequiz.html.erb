@@ -2,11 +2,13 @@
   <div class=row-fluid>
     <div class="span3">
       <ul class=vnav>
+        <li><h3>Grade 6</h3></li>
         <% @all_chapters.each do |chapter| %>
           <li class="<%= (chapter == @chapter) ? "active":""%>">
           <a href="#<%= chapter.to_s %>" data-toggle="tab"><%= chapter.to_s %></a>
           </li>
         <% end %>
+        <li><button type="button" class="btn" id=clear-quiz>Clear Quiz</button></li>
         <li><%= submit_tag "Save Quiz", :class=>"btn-primary" %></li>
       </ul>
     </div>
