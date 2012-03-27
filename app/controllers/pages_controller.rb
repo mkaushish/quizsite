@@ -14,6 +14,19 @@ class PagesController < ApplicationController
       @jsonload = 'onload=homeOnLoad("home");'
     end
   end
+  def nologinhome
+    if signed_in?
+      @user = current_user;
+      @title = @user.name
+      @problemanswers = @user.problemanswers
+      render 'users/show'
+    else
+      @fastnav = true
+      @container_height = 500
+      @nav_selected = "home"
+      @jsonload = 'onload=homeOnLoad("home");'
+    end
+  end
 
   def home
     @container_height = 500

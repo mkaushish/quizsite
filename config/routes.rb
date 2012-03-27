@@ -1,6 +1,6 @@
 Quizsite::Application.routes.draw do
-  get "pages/fasthome"
-  get "pages/contact"
+  #get "pages/fasthome"
+  #get "pages/contact"
   #get "pages/team" # TODO ADD THIS PAGE
 
   resources :users
@@ -16,21 +16,25 @@ Quizsite::Application.routes.draw do
   post "problem/next_subproblem"
   match "/explain/:id" => 'problem#explain', :as => :explain
 
+  post "pages/exampleprobs"
+
   match '/profile' => 'users#show'
   # match '/signup',  :to => 'users#new'
-  match '/signin',  :to => 'sessions#new'
-  match '/signout', :to => 'sessions#destroy'
-  match '/history', :to => 'problemanswers#index'
-  match '/quiz',    :to => 'problemanswers#new'
+  match '/signin',      :to => 'sessions#new'
+  match '/signout',     :to => 'sessions#destroy'
+  match '/history',     :to => 'problemanswers#index'
+  match '/quiz',        :to => 'problemanswers#new'
   match '/makequiz',    :to => 'probleman#choose'
-  match '/home',    :to => 'pages#fasthome'
-  match '/features',:to => 'pages#features'
-  match '/about',   :to => 'pages#about'
-  match '/signinpage',:to => 'pages#signinpage'
-  match '/draw',    :to => 'pages#draw'
-  match '/numberline',:to => 'pages#numberline'
-  match '/graph', :to => 'pages#graph'
-  root :to => 'pages#fasthome'
+  match '/home',        :to => 'pages#fasthome'
+  match '/features',    :to => 'pages#features'
+  match '/about',       :to => 'pages#about'
+  match '/signinpage',  :to => 'pages#signinpage'
+  match '/draw',        :to => 'pages#draw'
+  match '/numberline',  :to => 'pages#numberline'
+  match '/graph',       :to => 'pages#graph'
+  match '/estimate',    :to => 'pages#exampleprobs', :via => [:get, :post]
+  match '/nologinhome_3dbfabcacc12868a282be76f5d59a198', :to => 'pages#nologinhome'
+  root                  :to => 'pages#fasthome'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

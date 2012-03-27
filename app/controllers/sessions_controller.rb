@@ -4,8 +4,17 @@ class SessionsController < ApplicationController
   end
 
   def create
-    user = User.authenticate(params[:session][:email],
-                             params[:session][:password])
+    $stderr.puts("#{"FARTS"*10}\n#{params[:session][:email]}, #{params[:session][:password]}")
+
+    user = nil
+    unless params[:email].nil?
+      user = User.authenticate(params[:email],
+                               params[:password])
+    else
+      user = User.authenticate(params[:session][:email],
+                               params[:session][:password])
+    end
+
     if user.nil?
       flash.now[:error] = "Invalid email/password combination."
       @title = "Sign in"

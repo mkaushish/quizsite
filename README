@@ -28,6 +28,10 @@ PRECOMPILING ASSETS
   * assets are compiled to /public/assets, so make sure you git add and commit that
   * ensure that shit changes when pushed to heruok (try pushing both production and master branches?)
 
+UPDATING QG ON RAILS
+  * add any necessary new folders to config.autoload_paths in config/application.rb
+  * update all_chapters in app/controllers/application.rb
+
 a useful setting!
 Look for the file /usr/lib/ruby/1.9.1/webrick/config.rb and edit it.
 
