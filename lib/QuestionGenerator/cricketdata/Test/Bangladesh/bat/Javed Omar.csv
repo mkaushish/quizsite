@@ -1,0 +1,81 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+1543, 2001-03-19, 1, 1, Zimbabwe, c Ebrahim, Murphy, 62, 189, 138, 9, 0
+1543, 2001-03-19, 3, 1, Zimbabwe, not out, , 85, 277, 168, 10, 0
+1545, 2001-03-26, 1, 1, Zimbabwe, c Blignaut, Streak, 1, 7, 8, 0, 0
+1545, 2001-03-26, 3, 1, Zimbabwe, c GW Flower, Price, 43, 158, 117, 6, 0
+1560, 2001-07-29, 1, 1, Pakistan, c Shoaib Malik, Waqar Younis, 12, 24, 22, 1, 0
+1560, 2001-07-29, 3, 1, Pakistan, c Abdul Razzaq, Waqar Younis, 4, 18, 17, 0, 0
+1561, 2001-08-06, 1, 1, Sri Lanka, c Jayasuriya, Vaas, 7, 21, 16, 1, 0
+1561, 2001-08-06, 3, 1, Sri Lanka, lbw, Muralitharan, 40, 78, 66, 8, 0
+1566, 2001-10-08, 1, 1, Zimbabwe, , Streak, 3, 69, 51, 0, 0
+1566, 2001-10-08, 3, 1, Zimbabwe, c Olonga, Marillier, 35, 182, 119, 4, 0
+1568, 2001-10-15, 2, 1, Zimbabwe, c A Flower, Streak, 8, 17, 14, 1, 0
+1568, 2001-10-15, 3, 1, Zimbabwe, lbw, Friend, 80, 416, 322, 9, 0
+1577, 2001-11-18, 2, 1, New Zealand, c Richardson, Cairns, 9, 16, 12, 2, 0
+1577, 2001-11-18, 3, 1, New Zealand, lbw, Martin, 15, 35, 31, 1, 0
+1579, 2001-11-26, 1, 1, New Zealand, c Vincent, Cairns, 0, 8, 7, 0, 0
+1579, 2001-11-26, 3, 1, New Zealand, lbw, Bond, 12, 39, 35, 2, 0
+1586, 2002-01-16, 1, 1, Pakistan, c Shadab Kabir, Saqlain Mushtaq, 17, 119, 86, 1, 0
+1586, 2002-01-16, 3, 1, Pakistan, c Rashid Latif, Waqar Younis, 0, 3, 4, 0, 0
+1619, 2002-09-18, 2, 1, South Africa, lbw, Terbrugge, 7, 29, 22, 0, 0
+1619, 2002-09-18, 3, 1, South Africa, c Gibbs, Hayward, 10, 51, 37, 1, 0
+1640, 2003-03-24, 1, 1, South Africa, lbw, Dawson, 28, 149, 106, 5, 0
+1640, 2003-03-24, 3, 1, South Africa, c Boucher, Ntini, 71, 262, 183, 13, 0
+1642, 2003-04-01, 2, 1, South Africa, c sub (AJ Hall), Ntini, 11, 47, 36, 1, 0
+1642, 2003-04-01, 3, 1, South Africa, c Pollock, Adams, 27, 109, 73, 4, 0
+1650, 2003-06-18, 1, 2, Australia, c Gilchrist, Gillespie, 5, 47, 37, 0, 0
+1650, 2003-06-18, 3, 2, Australia, lbw, McGrath, 5, 12, 11, 1, 0
+1652, 2003-06-25, 1, 2, Australia, c Gilchrist, Lee, 26, 73, 58, 3, 0
+1652, 2003-06-25, 3, 2, Australia, lbw, Gillespie, 8, 21, 16, 1, 0
+1655, 2003-07-20, 1, 2, Pakistan, , Umar Gul, 1, 18, 13, 0, 0
+1655, 2003-07-20, 3, 2, Pakistan, lbw, Shoaib Akhtar, 13, 41, 27, 2, 0
+1657, 2003-07-27, 1, 2, Pakistan, , Shoaib Akhtar, 119, 493, 357, 17, 0
+1657, 2003-07-27, 3, 2, Pakistan, c Rashid Latif, Shoaib Akhtar, 0, 4, 1, 0, 0
+1658, 2003-08-03, 1, 2, Pakistan, c Younis Khan, Umar Gul, 38, 157, 101, 7, 0
+1658, 2003-08-03, 3, 2, Pakistan, c Inzamam-ul-Haq, Shabbir Ahmed, 16, 67, 36, 1, 0
+1665, 2003-09-21, 1, 2, England, c Clarke, Harmison, 3, 38, 27, 0, 0
+1665, 2003-09-21, 3, 7, England, lbw, Hoggard, 27, 92, 76, 2, 0
+1667, 2003-10-29, 2, 2, England, c Vaughan, Johnson, 2, 14, 5, 0, 0
+1667, 2003-10-29, 4, 2, England, c Read, Saggers, 18, 73, 51, 3, 0
+1701, 2004-05-28, 1, 2, West Indies, c DS Smith, Collins, 32, 138, 92, 4, 0
+1701, 2004-05-28, 3, 2, West Indies, c Jacobs, Collins, 7, 41, 26, 1, 0
+1703, 2004-05-04, 1, 2, West Indies, c Jacobs, Edwards, 20, 93, 51, 2, 0
+1703, 2004-05-04, 3, 1, West Indies, c DR Smith, Best, 5, 38, 22, 1, 0
+1715, 2004-09-19, 1, 2, New Zealand, , Franklin, 1, 26, 19, 0, 0
+1715, 2004-09-19, 3, 2, New Zealand, c McCullum, Vettori, 14, 61, 39, 2, 0
+1717, 2004-09-26, 2, 2, New Zealand, c Sinclair, Wiseman, 58, 198, 151, 5, 0
+1717, 2004-09-26, 3, 2, New Zealand,                c &, Franklin, 1, 14, 12, 0, 0
+1725, 2004-11-10, 1, 1, India, lbw, Pathan, 4, 14, 12, 1, 0
+1725, 2004-11-10, 3, 1, India, lbw, Pathan, 4, 3, 3, 1, 0
+1727, 2004-11-17, 2, 2, India, c Dravid, Kumble, 10, 113, 78, 1, 0
+1727, 2004-11-17, 3, 2, India, c Karthik, Pathan, 6, 32, 20, 1, 0
+1733, 2005-01-06, 1, 1, Zimbabwe, c Taibu, Chigumbura, 33, 145, 110, 6, 0
+1733, 2005-01-06, 3, 7, Zimbabwe, c Masakadza, Chigumbura, 15, 45, 28, 2, 0
+1735, 2005-01-14, 2, 1, Zimbabwe, c Taibu, Hondo, 34, 75, 52, 6, 0
+1735, 2005-01-14, 4, 1, Zimbabwe, c Taylor, Cremer, 43, 340, 258, 2, 0
+1751, 2005-04-26, 1, 1, England, c Trescothick, SP Jones, 22, 81, 60, 3, 0
+1751, 2005-04-26, 3, 1, England, c Thorpe, SP Jones, 25, 59, 44, 3, 0
+1753, 2005-05-03, 1, 1, England, c GO Jones, Hoggard, 37, 113, 83, 6, 0
+1753, 2005-05-03, 3, 1, England, c GO Jones, Harmison, 71, 131, 108, 11, 0
+1764, 2005-08-12, 1, 1, Sri Lanka, c Sangakkara, Fernando, 30, 74, 48, 5, 0
+1764, 2005-08-12, 3, 1, Sri Lanka, c Sangakkara, Malinga, 9, 6, 6, 1, 0
+1766, 2005-08-20, 2, 1, Sri Lanka, , Fernando, 18, 63, 33, 2, 0
+1766, 2005-08-20, 3, 2, Sri Lanka, c Atapattu, Vaas, 9, 18, 19, 1, 0
+1784, 2006-02-28, 1, 1, Sri Lanka, c Samaraweera, Malinga, 4, 3, 5, 1, 0
+1784, 2006-02-28, 3, 1, Sri Lanka, lbw, Fernando, 31, 80, 58, 5, 0
+1786, 2006-02-08, 1, 1, Sri Lanka, lbw, Muralitharan, 35, 104, 78, 5, 0
+1786, 2006-02-08, 3, 1, Sri Lanka, c Sangakkara, Fernando, 13, 50, 33, 2, 0
+1797, 2006-03-09, 1, 1, Australia, lbw, Gillespie, 27, 52, 40, 6, 0
+1797, 2006-03-09, 3, 1, Australia, c Gilchrist, Gillespie, 18, 60, 21, 2, 0
+1799, 2006-03-16, 1, 1, Australia, lbw, Gillespie, 2, 40, 22, 0, 0
+1799, 2006-03-16, 3, 1, Australia, lbw, Lee, 19, 22, 19, 3, 0
+1832, 2007-04-18, 2, 1, India, lbw, RP Singh, 7, 25, 16, 1, 0
+1832, 2007-04-18, 4, 1, India, not out, , 52, 120, 82, 8, 1
+1833, 2007-04-25, 2, 1, India, c Karthik, Khan, 0, 1, 1, 0, 0
+1833, 2007-04-25, 3, 1, India, c Dhoni, Khan, 0, 1, 1, 0, 0
+1837, 2007-05-25, 1, 1, Sri Lanka, c HAPW Jayawardene, Vaas, 8, 43, 22, 1, 0
+1837, 2007-05-25, 3, 1, Sri Lanka, lbw, Malinga, 62, 151, 118, 10, 0
+1838, 2007-06-03, 1, 1, Sri Lanka, c HAPW Jayawardene, Malinga, 8, 36, 23, 1, 0
+1838, 2007-06-03, 3, 1, Sri Lanka, lbw, Vaas, 28, 41, 23, 6, 0
+1839, 2007-06-11, 1, 1, Sri Lanka, lbw, Malinga, 8, 12, 11, 2, 0
+1839, 2007-06-11, 3, 1, Sri Lanka, c Sangakkara, Malinga, 22, 72, 56, 4, 0

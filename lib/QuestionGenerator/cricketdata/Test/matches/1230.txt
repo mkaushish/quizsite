@@ -1,0 +1,122 @@
+
+Test # 1230
+The Ashes, 1993, 5th Test
+England v Australia
+Edgbaston, Birmingham
+5,6,7,8,9 August 1993 (5-day match)
+
+Result: Australia won by 8 wickets
+Series: Australia leads the 6-match series 4-0
+
+Toss: England
+Umpires: JH Hampshire and DR Shepherd
+TV umpire: AGT Whitehead
+Match referee: CH Lloyd (WI)
+Player of the match: ME Waugh
+
+Close of play:
+ Day 1: England 276/9 (Emburey 55*, Ilott 3*)
+ Day 2: England 276, Australia 258/5 (SR Waugh 57*, Healy 12*)
+ Day 3: Australia 408, England 89/1 (Gooch 44*, Smith 7*)
+ Day 4: England 251, Australia 9/0 (Slater 7*, Taylor 2*)
+
+England 1st innings                                             R   M   B  4 6
+GA Gooch              c Taylor           b Reiffel              8  24  20  1 0
+*MA Atherton                             b Reiffel             72 192 157  9 0
+RA Smith                                 b ME Waugh            21  66  59  2 0
+MP Maynard            c SR Waugh         b May                  0  12   9  0 0
++AJ Stewart                          c & b Warne               45  83  92  6 1
+GP Thorpe             c Healy            b May                 37  75  53  6 0
+N Hussain                                b Reiffel              3   8  10  0 0
+JE Emburey            not out                                  55 161 152  5 1
+MP Bicknell           c ME Waugh         b Reiffel             14  66  59  1 0
+PM Such                                  b Reiffel              1   2   3  0 0
+MC Ilott              c Healy            b Reiffel              3  23  16  0 0
+Extras                (b 4, lb 6, nb 7)                        17
+Total                 (all out, 101.5 overs, 364 mins)        276
+
+FoW: 1-17 (Gooch), 2-71 (Smith), 3-76 (Maynard), 4-156 (Stewart),
+     5-156 (Atherton), 6-160 (Hussain), 7-215 (Thorpe),
+     8-262 (Bicknell), 9-264 (Such), 10-276 (Ilott).
+
+Bowling                      O      M      R      W
+Hughes                      19      4     53      0 (1nb)
+Reiffel                     22.5    3     71      6 (4nb)
+ME Waugh                    15      5     43      1 (2nb)
+SR Waugh                     5      2      4      0
+May                         19      9     32      2
+Warne                       21      7     63      1
+
+Australia 1st innings                                           R   M   B  4 6
+MA Taylor             run out                                  19 122  80  2 0
+MJ Slater             c Smith            b Such                22  73  60  4 0
+DC Boon               lbw                b Emburey              0  10  13  0 0
+ME Waugh              c Thorpe           b Ilott              137 240 219 18 0
+*AR Border            c Hussain          b Such                 3   9   9  0 0
+SR Waugh              c Stewart          b Bicknell            59 230 175  6 0
++IA Healy             c Stewart          b Bicknell            80 141 107 11 0
+MG Hughes                                b Bicknell            38 162 102  2 1
+PR Reiffel                               b Such                20 108  89  4 0
+SK Warne              c Stewart          b Emburey             10  43  30  1 0
+TBA May               not out                                   3  23  17  0 0
+Extras                (b 7, lb 8, nb 2)                        17
+Total                 (all out, 149.5 overs, 579 mins)        408
+
+FoW: 1-34 (Slater), 2-39 (Boon), 3-69 (Taylor), 4-80 (Border),
+     5-233 (ME Waugh), 6-263 (SR Waugh), 7-370 (Healy),
+     8-379 (Hughes), 9-398 (Warne), 10-408 (Reiffel).
+
+Bowling                      O      M      R      W
+Bicknell                    34      9     99      3 (2nb)
+Ilott                       24      4     85      1
+Such                        52.5   18     90      3
+Emburey                     39      9    119      2
+
+England 2nd innings                                             R   M   B  4 6
+GA Gooch                                 b Warne               48 178 150  6 0
+*MA Atherton          c Border           b Warne               28  89  66  3 0
+RA Smith              lbw                b Warne               19  69  70  2 0
+MP Maynard            c Healy            b May                 10  13  15  2 0
++AJ Stewart           lbw                b Warne                5  21  26  1 0
+GP Thorpe             st Healy           b Warne               60 235 192  3 0
+N Hussain             c SR Waugh         b May                  0   4   7  0 0
+JE Emburey            c Healy            b May                 37 200 191  3 0
+MP Bicknell           c SR Waugh         b May                  0   1   2  0 0
+PM Such               not out                                   7  50  42  1 0
+MC Ilott                                 b May                 15  44  41  3 0
+Extras                (b 11, lb 9, nb 2)                       22
+Total                 (all out, 133.2 overs, 461 mins)        251
+
+FoW: 1-60 (Atherton), 2-104 (Smith), 3-115 (Maynard),
+     4-115 (Gooch), 5-124 (Stewart), 6-125 (Hussain),
+     7-229 (Emburey), 8-229 (Bicknell), 9-229 (Thorpe),
+     10-251 (Ilott).
+
+Bowling                      O      M      R      W
+Hughes                      18      7     24      0
+Reiffel                     11      2     30      0 (2nb)
+May                         48.2   15     89      5
+Warne                       49     23     82      5
+Border                       2      1      1      0
+ME Waugh                     5      2      5      0
+
+Australia 2nd innings (target: 120 runs)                        R   M   B  4 6
+MJ Slater             c Thorpe           b Emburey              8  43  41  0 0
+MA Taylor             c Thorpe           b Such                 4  35  24  0 0
+DC Boon               not out                                  38 112 109  7 0
+ME Waugh              not out                                  62 104  87  6 1
+Extras                (b 3, lb 5)                               8
+Total                 (2 wickets, 43.3 overs)                 120
+
+DNB: *AR Border, SR Waugh, +IA Healy, MG Hughes, PR Reiffel,
+     SK Warne, TBA May.
+
+FoW: 1-12 (Taylor), 2-12 (Slater).
+
+Bowling                      O      M      R      W
+Bicknell                     3      0      9      0
+Ilott                        2      0     14      0
+Such                        20.3    4     58      1
+Emburey                     18      4     31      1
+
+<END>

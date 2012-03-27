@@ -1,0 +1,63 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+734, 1974-03-06, 2, 10, England, not out, , 9, 48, 37, 0, 0
+745, 1974-11-22, 1, 11, India, not out, , 0, 1, na, 0, 0
+747, 1974-12-11, 2, 11, India, run out, , 2, 8, na, 0, 0
+750, 1975-12-27, 2, 11, India, lbw, Madan Lal, 1, na, na, 0, 0
+750, 1975-12-27, 4, 11, India, , Bedi, 6, na, na, 0, 1
+752, 1975-01-11, 2, 11, India, lbw, Chandrasekhar, 17, 8, na, 1, 2
+752, 1975-01-11, 4, 11, India, lbw, Bedi, 0, 6, na, 0, 0
+756, 1975-02-15, 2, 10, Pakistan, lbw, Sarfraz Nawaz, 0, na, na, 0, 0
+759, 1975-03-01, 2, 10, Pakistan, run out, , 6, na, na, na, 0
+764, 1975-11-28, 1, 10, Australia, c IM Chappell, Mallett, 3, 32, 26, 0, 0
+764, 1975-11-28, 3, 10, Australia, lbw, Lillee, 3, 29, 28, 0, 0
+765, 1975-12-12, 2, 10, Australia, , Walker, 0, 2, 4, 0, 0
+766, 1975-12-26, 1, 10, Australia, c Marsh, Lillee, 6, 33, 28, 0, 0
+766, 1975-12-26, 3, 10, Australia, c Mallett, IM Chappell, 5, 5, 5, 1, 0
+767, 1976-01-03, 1, 10, Australia, c Marsh, Walker, 4, 40, 35, 0, 0
+767, 1976-01-03, 3, 10, Australia, , Walker, 2, 10, 4, 0, 0
+768, 1976-01-23, 2, 10, Australia, c Redpath, IM Chappell, 17, 49, 36, 3, 0
+768, 1976-01-23, 4, 10, Australia,                c &, Gilmour, 0, 16, 14, 0, 0
+773, 1976-03-10, 2, 10, India, c S Amarnath, Bedi, 0, na, na, 0, 0
+774, 1976-03-24, 1, 10, India, c Vengsarkar, Chandrasekhar, 1, na, na, 0, 0
+774, 1976-03-24, 3, 10, India, not out, , 4, 50, na, na, 0
+777, 1976-06-03, 1, 10, England, , Old, 1, 13, 12, 0, 0
+778, 1976-06-17, 2, 10, England, , Underwood, 16, 41, 32, 3, 0
+779, 1976-07-08, 1, 9, England, c Steele, Pocock, 6, 35, 25, 1, 0
+780, 1976-07-22, 1, 10, England, , Snow, 19, 45, 34, 2, 0
+780, 1976-07-22, 3, 10, England, , Willis, 3, 22, 17, 0, 0
+797, 1977-02-18, 2, 9, Pakistan, c Wasim Bari, Saleem Altaf, 4, na, na, na, 0
+797, 1977-02-18, 4, 9, Pakistan, not out, , 9, 95, na, na, 0
+799, 1977-03-04, 2, 9, Pakistan, , Mushtaq Mohammad, 4, na, na, na, 0
+801, 1977-03-18, 2, 10, Pakistan, not out, , 20, na, na, na, 1
+802, 1977-04-01, 2, 9, Pakistan, c Iqbal Qasim, Mushtaq Mohammad, 6, na, na, na, 0
+802, 1977-04-01, 4, 9, Pakistan, c Majid Khan, Wasim Raja, 35, na, na, na, 2
+803, 1977-04-15, 1, 10, Pakistan, , Sarfraz Nawaz, 7, na, na, na, 0
+803, 1977-04-15, 3, 10, Pakistan, c Wasim Bari, Sarfraz Nawaz, 2, na, na, 0, 0
+819, 1978-03-03, 2, 9, Australia, st Rixon, Higgs, 7, 39, na, 0, 0
+821, 1978-03-17, 2, 9, Australia, lbw, Thomson, 4, 3, na, 1, 0
+862, 1979-12-01, 2, 8, Australia, run out, , 7, 41, 22, 1, 0
+867, 1980-12-29, 2, 8, Australia, lbw, Lillee, 54, 89, 88, 6, 0
+870, 1980-01-26, 1, 8, Australia, , Lillee, 9, 56, 41, 1, 0
+870, 1980-01-26, 3, 9, Australia, c Laird, Dymock, 8, 30, 32, 1, 0
+875, 1980-02-22, 1, 8, New Zealand, not out, , 17, 25, 17, 2, 0
+877, 1980-02-29, 1, 8, New Zealand, not out, , 35, 76, 56, 2, 2
+877, 1980-02-29, 3, 8, New Zealand, c McEwan, Troup, 26, 79, 54, 2, 1
+880, 1980-06-05, 2, 9, England, lbw, Botham, 21, 52, 54, 2, 0
+880, 1980-06-05, 4, 9, England, not out, , 22, 42, 35, 3, 0
+881, 1980-06-19, 2, 9, England, , Underwood, 24, 65, 51, 4, 0
+882, 1980-07-10, 2, 9, England, c Knott, Emburey, 11, 85, 72, 0, 0
+896, 1981-02-13, 1, 8, England, not out, , 50, 84, 75, 3, 4
+900, 1981-03-13, 1, 8, England, c Bairstow, Botham, 14, 44, 30, 2, 0
+900, 1981-03-13, 3, 8, England, c Bairstow, Botham, 0, 2, 2, 0, 0
+901, 1981-03-27, 2, 8, England, , Stevenson, 13, 48, 35, 1, 0
+915, 1981-12-26, 2, 9, Australia, c Marsh, Lillee, 18, 37, 23, 3, 0
+915, 1981-12-26, 4, 8, Australia, lbw, Lillee, 10, 85, 40, 0, 1
+919, 1982-01-30, 2, 9, Australia, c sub (DW Hookes), Yardley, 42, 78, 58, 3, 2
+949, 1983-02-23, 2, 9, India, c Sandhu, Shastri, 17, na, na, na, 0
+949, 1983-02-23, 4, 5, India, c Kirmani, Amarnath, 1, na, na, 0, 0
+952, 1983-03-11, 2, 9, India, , Kapil Dev, 9, na, na, na, 0
+953, 1983-03-31, 1, 10, India, c Gavaskar, Sandhu, 36, na, na, na, 1
+954, 1983-04-15, 2, 9, India, c Kapil Dev, Madan Lal, 20, na, na, 1, 2
+956, 1983-04-28, 2, 10, India, not out, , 1, na, na, 0, 0
+971, 1983-12-10, 2, 10, India, c Amarnath, Yadav, 68, 220, 181, 5, 3
+972, 1983-12-24, 1, 10, India, not out, , 0, na, na, 0, 0

@@ -1,0 +1,126 @@
+
+Test # 544
+The Wisden Trophy, 1963, 2nd Test
+England v West Indies
+Lord's, London
+20,21,22,24,25 June 1963 (5-day match)
+
+Result: Match drawn
+Series: West Indies leads the 5-match series 1-0
+
+Toss: West Indies
+Umpires: JS Buller and WE Phillipson
+
+Close of play:
+ Day 1: West Indies 245/6 (Solomon 34*, Murray 12*)
+ Day 2: West Indies 301, England 244/7 (Titmus 23*, Trueman 5*)
+ Day 3: England 297, West Indies 214/5 (Butcher 129*, Worrell 33*)
+ Day 4: West Indies 229, England 116/3 (Barrington 55*, Close 7*)
+
+West Indies 1st innings                                         R   M   B  4 6
+CC Hunte              c Close            b Trueman             44 130      9 0
+EDAS McMorris         lbw                b Trueman             16 115        0
+GS Sobers             c Cowdrey          b Allen               42  80        0
+RB Kanhai             c Edrich           b Trueman             73            0
+BF Butcher            c Barrington       b Trueman             14            0
+JS Solomon            lbw                b Shackleton          56 195        0
+*FMM Worrell                             b Trueman              0   6      0 0
++DL Murray            c Cowdrey          b Trueman             20            0
+WW Hall               not out                                  25            0
+CC Griffith           c Cowdrey          b Shackleton           0   1   1  0 0
+LR Gibbs              c Stewart          b Shackleton           0   5   2  0 0
+Extras                (b 10, lb 1)                             11
+Total                 (all out, 133.2 overs)                  301
+
+FoW: 1-51 (McMorris), 2-64 (Hunte), 3-127 (Sobers),
+     4-145 (Butcher), 5-219 (Kanhai), 6-219 (Worrell),
+     7-263 (Murray), 8-297 (Solomon), 9-297 (Griffith),
+     10-301 (Gibbs).
+
+Bowling                      O      M      R      W
+Trueman                     44     16    100      6
+Shackleton                  50.2   22     93      3
+Dexter                      20      6     41      0
+Close                        9      3     21      0
+Allen                       10      3     35      1
+
+England 1st innings                                             R   M   B  4 6
+MJ Stewart            c Kanhai           b Griffith             2  25  19  0 0
+JH Edrich             c Murray           b Griffith             0   5   1  0 0
+*ER Dexter            lbw                b Sobers              70  83  75 10 0
+KF Barrington         c Sobers           b Worrell             80 190        1
+MC Cowdrey                               b Gibbs                4            0
+DB Close              c Murray           b Griffith             9            0
++JM Parks                                b Worrell             35            0
+FJ Titmus             not out                                  52 125      2 0
+FS Trueman                               b Hall                10            0
+DA Allen              lbw                b Griffith             2  15      0 0
+D Shackleton                             b Griffith             8  43      1 0
+Extras                (b 8, lb 8, nb 9)                        25
+Total                 (all out, 102 overs)                    297
+
+FoW: 1-2 (Edrich), 2-20 (Stewart), 3-102 (Dexter),
+     4-115 (Cowdrey), 5-151 (Close), 6-206 (Barrington),
+     7-235 (Parks), 8-271 (Trueman), 9-274 (Allen),
+     10-297 (Shackleton).
+
+Bowling                      O      M      R      W
+Hall                        18      2     65      1
+Griffith                    26      6     91      5
+Sobers                      18      4     45      1
+Gibbs                       27      9     59      1
+Worrell                     13      6     12      2
+
+West Indies 2nd innings                                         R   M   B  4 6
+CC Hunte              c Cowdrey          b Shackleton           7          0 1
+EDAS McMorris         c Cowdrey          b Trueman              8          2 0
+RB Kanhai             c Cowdrey          b Shackleton          21            0
+BF Butcher            lbw                b Shackleton         133 262 261 17 2
+GS Sobers             c Parks            b Trueman              8          2 0
+JS Solomon            c Stewart          b Allen                5  40        0
+*FMM Worrell          c Stewart          b Trueman             33            0
++DL Murray            c Parks            b Trueman              2          0 0
+WW Hall               c Parks            b Trueman              2          0 0
+CC Griffith                              b Shackleton           1          0 0
+LR Gibbs              not out                                   1          0 0
+Extras                (b 5, lb 2, nb 1)                         8
+Total                 (all out, 98 overs)                     229
+
+FoW: 1-15 (Hunte), 2-15 (McMorris), 3-64 (Kanhai), 4-84 (Sobers),
+     5-104 (Solomon), 6-214 (Worrell), 7-224 (Murray),
+     8-226 (Hall), 9-228 (Butcher), 10-229 (Griffith).
+
+Bowling                      O      M      R      W
+Trueman                     26      9     52      5
+Shackleton                  34     14     72      4
+Allen                       21      7     50      1
+Titmus                      17      3     47      0
+
+England 2nd innings (target: 234 runs)                          R   M   B  4 6
+MJ Stewart            c Solomon          b Hall                17            0
+JH Edrich             c Murray           b Hall                 8            0
+*ER Dexter                               b Gibbs                2  35  19  0 0
+KF Barrington         c Murray           b Griffith            60            2
+MC Cowdrey            not out                                  19            0
+DB Close              c Murray           b Griffith            70 230 198  8 0
++JM Parks             lbw                b Griffith            17            0
+FJ Titmus             c McMorris         b Hall                11  57        0
+FS Trueman            c Murray           b Hall                 0   1   1  0 0
+DA Allen              not out                                   4          0 0
+D Shackleton          run out                                   4  20      0 0
+Extras                (b 5, lb 8, nb 3)                        16
+Total                 (9 wickets, 91 overs)                   228
+
+FoW: 1-15 (Edrich), 2-27 (Stewart), 3-31 (Dexter),
+     4-130 (Barrington), 5-158 (Parks), 6-203 (Titmus),
+     7-203 (Trueman), 8-219 (Close), 9-228 (Shackleton).
+
+Bowling                      O      M      R      W
+Hall                        40      9     93      4
+Griffith                    30      7     59      3
+Sobers                       4      1      4      0
+Gibbs                       17      7     56      1
+
+*** MC Cowdrey (2) retired hurt on 19* from 72/3 to 228/9 (broken left arm)
+
+<END>

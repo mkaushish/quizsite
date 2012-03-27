@@ -1,0 +1,127 @@
+
+Test # 629
+The Wisden Trophy, 1967/68, 2nd Test
+West Indies v England
+Sabina Park, Kingston, Jamaica
+8,9,10,12,13,14 February 1968 (5-day match)
+
+Result: Match drawn
+Series: 5-match series level 0-0
+
+Toss: England
+Umpires: HBD Jordan and D Sang Hue
+
+Close of play:
+ Day 1: England 222/2 (Cowdrey 69*, Barrington 24*)
+ Day 2: England 376, West Indies 27/2 (Kanhai 5*, Nurse 11*)
+ Day 3: West Indies 143, West Indies 81/0 (Camacho 19*, Nurse 56*)
+ Day 4: West Indies 258/5 (Sobers 48*, Holford 14*)
+ Day 5: West Indies 391/9d, England 19/4 (Graveney 0*, Parks 0*)
+
+England 1st innings                                             R   M   B  4 6
+G Boycott                                b Hall                17  99      2 0
+JH Edrich             c Kanhai           b Sobers              96 255     14 0
+*MC Cowdrey           c Murray           b Gibbs              101 345     12 0
+KF Barrington                        c & b Holford             63 228      6 0
+TW Graveney                              b Hall                30 106      4 0
++JM Parks             c Sobers           b Holford              3  15      0 0
+BL D'Oliveira         st Murray          b Holford              0   7      0 0
+FJ Titmus             lbw                b Hall                19  34      4 0
+DJ Brown              c Murray           b Hall                14  37      2 0
+JA Snow                                  b Griffith            10  35      0 0
+IJ Jones              not out                                   0   3      0 0
+Extras                (b 12, lb 7, nb 4)                       23
+Total                 (all out, 169.2 overs)                  376
+
+FoW: 1-49 (Boycott), 2-178 (Edrich), 3-279 (Cowdrey),
+     4-310 (Barrington), 5-318 (Parks), 6-318 (D'Oliveira),
+     7-351 (Titmus), 8-352 (Graveney), 9-376 (Brown),
+     10-376 (Snow).
+
+Bowling                      O      M      R      W
+Hall                        27      5     63      4
+Griffith                    31.2    7     72      1
+Sobers                      31     11     56      1
+Gibbs                       47     18     91      1
+Holford                     33     10     71      3
+
+West Indies 1st innings                                         R   M   B  4 6
+GS Camacho                               b Snow                 5  17      1 0
++DL Murray            c D'Oliveira       b Brown                0  14      0 0
+RB Kanhai             c Graveney         b Snow                26 148      1 0
+SM Nurse                                 b Jones               22  88      2 0
+CH Lloyd              not out                                  34 125      2 0
+*GS Sobers            lbw                b Snow                 0   1   1  0 0
+BF Butcher            c Parks            b Snow                21  33      4 0
+DAJ Holford           c Parks            b Snow                 6   8      1 0
+CC Griffith           c D'Oliveira       b Snow                 8  16      2 0
+WW Hall                                  b Snow                 0   1      0 0
+LR Gibbs              c Parks            b Jones                0   9      0 0
+Extras                (b 12, lb 5, w 1, nb 3)                  21
+Total                 (all out, 48.1 overs)                   143
+
+FoW: 1-5 (Murray), 2-5 (Camacho), 3-51 (Nurse), 4-80 (Kanhai),
+     5-80 (Sobers), 6-120 (Butcher), 7-126 (Holford),
+     8-142 (Griffith), 9-142 (Hall), 10-143 (Gibbs).
+
+Bowling                      O      M      R      W
+Brown                       13      1     34      1
+Snow                        21      7     49      7
+Jones                       14.1    4     39      2
+
+West Indies 2nd innings (following on)                          R   M   B  4 6
+GS Camacho                               b D'Oliveira          25 185      3 0
+SM Nurse                                 b Snow                73 159     12 0
+RB Kanhai             c Edrich           b Jones               36  72      4 0
+BF Butcher            c Parks            b D'Oliveira          25 113      4 0
+CH Lloyd                                 b Brown                7  24      1 0
+*GS Sobers            not out                                 113 357     14 1
+DAJ Holford           lbw                b Titmus              35 190      3 0
++DL Murray            lbw                b Brown               14  30      3 0
+CC Griffith           lbw                b Jones               14  76      1 0
+WW Hall               c Parks            b Jones                0   1   1  0 0
+LR Gibbs              not out                                   1  11      0 0
+Extras                (b 33, lb 10, nb 5)                      48
+Total                 (9 wickets dec, 135 overs)              391
+
+FoW: 1-102 (Nurse), 2-122 (Camacho), 3-164 (Kanhai),
+     4-174 (Lloyd), 5-204 (Butcher), 6-314 (Holford),
+     7-351 (Murray), 8-388 (Griffith), 9-388 (Hall).
+
+Bowling                      O      M      R      W
+Brown                       33      9     65      2
+Snow                        27      4     91      1
+Jones                       30      4     90      3
+D'Oliveira                  32     12     51      2
+Titmus                       7      2     32      1
+Barrington                   6      1     14      0
+
+England 2nd innings (target: 159 runs)                          R   M   B  4 6
+G Boycott                                b Sobers               0   1   4  0 0
+JH Edrich                                b Hall                 6  38      1 0
+*MC Cowdrey           lbw                b Sobers               0   1   2  0 0
+KF Barrington         lbw                b Griffith            13  25      2 0
+TW Graveney           c Griffith         b Gibbs               21  57      2 0
++JM Parks             lbw                b Gibbs                3  32      0 0
+BL D'Oliveira         not out                                  13  41      2 0
+FJ Titmus             c Camacho          b Gibbs                4   9      1 0
+DJ Brown                                 b Sobers               0  12      0 0
+Extras                (b 8)                                     8
+Total                 (8 wickets, 38.5 overs)                  68
+
+DNB: JA Snow, IJ Jones.
+
+FoW: 1-0 (Boycott), 2-0 (Cowdrey), 3-19 (Barrington),
+     4-19 (Edrich), 5-38 (Parks), 6-51 (Graveney), 7-61 (Titmus),
+     8-68 (Brown).
+
+Bowling                      O      M      R      W
+Hall                         3      2      3      1
+Griffith                     5      2     13      1
+Sobers                      16.5    7     33      3
+Gibbs                       14     11     11      3
+
+*** Match extended by 1 day (75 minutes only on the 6th day to make up for
+    the lost time due to rioting on the 4th day)
+
+<END>

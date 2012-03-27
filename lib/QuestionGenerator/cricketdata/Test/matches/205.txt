@@ -1,0 +1,94 @@
+
+Test # 205
+West Indies in Australia, 1930/31, 4th Test
+Australia v West Indies
+Melbourne Cricket Ground
+13,14 February 1931 (timeless match)
+
+Result: Australia won by an innings and 122 runs
+Series: Australia leads the 5-match series 4-0
+
+Toss: West Indies
+Umpires: AN Barlow and J Richards
+
+Close of play:
+ Day 1: West Indies 99, Australia 197/1 (Woodfull 75*, Bradman 92*)
+
+West Indies 1st innings                                         R   M   B  4 6
+CA Roach              c Kippax           b Grimmett            20  51      1 0
+FR Martin             lbw                b Ironmonger          17  69      0 0
+GA Headley            c Jackson          b Ironmonger          33  54      3 0
+LS Birkett            c McCabe           b Ironmonger           0   4      0 0
+EL Bartlett           st Oldfield        b Ironmonger           9  43        0
+*GC Grant             c Oldfield         b Ironmonger           0   6      0 0
+LN Constantine        c Jackson          b Grimmett             7  10      1 0
++IM Barrow            c Fairfax          b Ironmonger           0   1   1  0 0
+OC Scott              run out                                  11  12      2 0
+GN Francis            not out                                   0   9      0 0
+HC Griffith           c Fairfax          b Ironmonger           0   2      0 0
+Extras                (nb 2)                                    2
+Total                 (all out, 50 overs)                      99
+
+FoW: 1-32 (Roach), 2-51 (Martin), 3-53 (Birkett), 4-81 (Headley),
+     5-81 (Grant), 6-88 (Bartlett), 7-88 (Barrow),
+     8-88 (Constantine), 9-99 (Scott), 10-99 (Griffith).
+
+Bowling                      O      M      R      W
+Fairfax                      5      0     14      0
+Oxenham                      6      1     14      0
+Ironmonger                  20      7     23      7
+Grimmett                    19      7     46      2
+
+Australia 1st innings                                           R   M   B  4 6
+*WM Woodfull          run out                                  83 142      7 0
+WH Ponsford           st Barrow          b Constantine         24  49        0
+DG Bradman            c Roach            b Martin             152 154     13 0
+A Jackson             c Birkett          b Constantine         15  41      1 0
+SJ McCabe             run out                                   2   8      0 0
+AG Fairfax            c Birkett          b Martin              16  52        0
+AF Kippax                                b Martin              24  33      3 0
+RK Oxenham            c Constantine      b Griffith             0   7      0 0
++WAS Oldfield         not out                                   1   2      0 0
+Extras                (b 7, lb 3, nb 1)                        11
+Total                 (8 wickets dec, 89.2 overs)             328
+
+DNB: H Ironmonger, CV Grimmett.
+
+FoW: 1-50 (Ponsford), 2-206 (Woodfull), 3-265 (Jackson),
+     4-275 (McCabe), 5-286 (Bradman), 6-325 (Kippax),
+     7-326 (Oxenham), 8-328 (Fairfax).
+
+Bowling                      O      M      R      W
+Francis                     13      0     51      0
+Griffith                     8      1     33      1
+Scott                       11      0     47      0
+Constantine                 25      4     83      2
+Martin                      30.2    3     91      3
+Birkett                      2      0     12      0
+
+West Indies 2nd innings                                         R   M   B  4 6
+CA Roach              lbw                b Fairfax              7   8        0
+LN Constantine        c Kippax           b Fairfax             10          0 0
+GA Headley            c Fairfax          b Ironmonger          11            0
+LS Birkett            c Jackson          b Ironmonger          13          2 0
+*GC Grant             c McCabe           b Ironmonger           3          0 0
+FR Martin             c Oldfield         b Fairfax             10            0
+EL Bartlett                              b Fairfax              6          1 0
++IM Barrow            c Oxenham          b Ironmonger          13            0
+OC Scott              not out                                  20  27      1 1
+HC Griffith                              b Grimmett             4          1 0
+GN Francis            c Jackson          b Grimmett             0          0 0
+Extras                (b 3, lb 6, nb 1)                        10
+Total                 (all out, 35.4 overs)                   107
+
+FoW: 1-8 (Roach), 2-32 (Constantine), 3-36 (Headley),
+     4-49 (Grant), 5-60 (Birkett), 6-60 (Martin),
+     7-67 (Bartlett), 8-92 (Barrow), 9-97 (Griffith),
+     10-107 (Francis).
+
+Bowling                      O      M      R      W
+Fairfax                     14      2     31      4
+Ironmonger                  17      4     56      4
+Grimmett                     4.4    0     10      2
+
+<END>

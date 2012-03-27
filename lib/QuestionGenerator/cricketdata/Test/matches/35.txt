@@ -1,0 +1,131 @@
+
+Test # 35
+The Ashes, 1891/92, 1st Test
+Australia v England
+Melbourne Cricket Ground
+1,2,4,5,6 January 1892 (timeless match)
+
+Result: Australia won by 54 runs
+Series: Australia leads the 3-match series 1-0
+
+Toss: Australia
+Umpires: T Flynn and J Phillips
+Test debuts: ST Callaway, H Donnan, RW McLeod (Australia); G Bean (England).
+
+Close of play:
+ Day 1: Australia 191/7 (Moses 23*, Callaway 11*)
+ Day 2: Australia 240, England 248/7 (Briggs 41*, Attewell 7*)
+ Day 3: England 264, Australia 152/5 (Moses 0*, Trott 0*)
+ Day 4: Australia 236, England 104/7 (Abel 16*, MacGregor 3*)
+
+Australia 1st innings                                           R   M   B  4 6
+AC Bannerman          c Read             b Sharpe              45 195      4 0
+JJ Lyons              c Grace            b Peel                19          4 0
+G Giffen              lbw                b Peel                 2          0 0
+W Bruce                                  b Sharpe              57 115      4 0
+H Donnan                                 b Sharpe               9          2 0
+H Moses               c Lohmann          b Sharpe              23          1 0
+GHS Trott             c MacGregor        b Sharpe               6          0 0
+RW McLeod                                b Sharpe              14          1 0
+ST Callaway                              b Attewell            21          1 0
+CTB Turner                               b Peel                29          4 0
+*+JM Blackham         not out                                   4          1 0
+Extras                (b 5, lb 6)                              11
+Total                 (all out, 151.1 overs)                  240
+
+FoW: 1-32 (Lyons), 2-36 (Giffen), 3-123 (Bruce),
+     4-136 (Bannerman), 5-136 (Donnan), 6-148 (Trott),
+     7-168 (McLeod), 8-191 (Moses), 9-232 (Turner),
+     10-240 (Callaway).
+
+Bowling                      O      M      R      W
+Sharpe                      51     20     84      6
+Peel                        43     23     54      3
+Attewell                    21.1   11     28      1
+Lohmann                     28     14     40      0
+Briggs                       3      1     13      0
+Stoddart                     5      2     10      0
+
+England 1st innings                                             R   M   B  4 6
+*WG Grace                                b McLeod              50  75      3 1
+R Abel                                   b McLeod              32          2 0
+G Bean                c Bruce            b Giffen              50  65      5 0
+AE Stoddart           c Giffen           b McLeod               0          0 0
+JM Read                              c & b Giffen              36          2 0
+R Peel                                   b McLeod              19          3 0
+GA Lohmann            lbw                b Giffen               3          0 0
+J Briggs              c Bruce            b Turner              41          4 0
+W Attewell            c Bannerman        b Turner               8          0 0
++G MacGregor          not out                                   9          0 0
+JW Sharpe             c Blackham         b McLeod               2          0 0
+Extras                (b 9, lb 2, nb 3)                        14
+Total                 (all out, 91.4 overs)                   264
+
+FoW: 1-84 (Abel), 2-85 (Grace), 3-85 (Stoddart), 4-171 (Bean),
+     5-179 (Read), 6-187 (Lohmann), 7-232 (Peel), 8-249 (Briggs),
+     9-256 (Attewell), 10-264 (Sharpe).
+
+Bowling                      O      M      R      W
+Trott                       10      2     25      0
+Giffen                      20      3     75      3
+Turner                      16      3     40      2
+McLeod                      28.4   12     53      5
+Callaway                    14      2     39      0
+Bruce                        3      0     18      0
+
+Australia 2nd innings                                           R   M   B  4 6
+AC Bannerman          c Grace            b Sharpe              41 230      1 0
+JJ Lyons              c Abel             b Briggs              51  90      1 0
+G Giffen                                 b Attewell             1          0 0
+W Bruce               c Lohmann          b Sharpe              40          3 0
+CTB Turner            c Peel             b Lohmann             19          1 0
+H Moses               run out                                  15          2 0
+GHS Trott             lbw                b Attewell            23          0 0
+RW McLeod                                b Peel                31          2 0
+H Donnan                             c & b Lohmann              2          0 0
+ST Callaway           not out                                  13          2 0
+*+JM Blackham         c MacGregor        b Peel                 0          0 0
+Extras                                                          0
+Total                 (all out, 191.5 overs)                  236
+
+FoW: 1-66 (Lyons), 2-67 (Giffen), 3-120 (Bruce),
+     4-152 (Bannerman), 5-152 (Turner), 6-182 (Trott),
+     7-197 (Moses), 8-210 (Donnan), 9-236 (McLeod),
+     10-236 (Blackham).
+
+Bowling                      O      M      R      W
+Sharpe                      54     25     81      2
+Peel                        16.5    7     25      2
+Attewell                    61     32     51      2
+Lohmann                     39     15     53      2
+Briggs                      21      9     26      1
+
+England 2nd innings (target: 213 runs)                          R   M   B  4 6
+*WG Grace             c Bannerman        b Turner              25          2 0
+AE Stoddart                              b Callaway            35          4 0
+G Bean                c McLeod           b Trott                3          0 0
+JM Read                                  b Trott               11          1 0
+R Abel                c Blackham         b Turner              28          0 0
+R Peel                                   b Turner               6          0 0
+GA Lohmann            c Bannerman        b Turner               0          0 0
+J Briggs              c Trott            b McLeod               4          1 0
++G MacGregor          c sub (SE Gregory) b Trott               16          1 0
+W Attewell            c Donnan           b Turner              24          0 0
+JW Sharpe             not out                                   5          0 0
+Extras                (b 1)                                     1
+Total                 (all out, 82.2 overs)                   158
+
+FoW: 1-60 (Grace), 2-60 (Stoddart), 3-71 (Bean), 4-75 (Read),
+     5-93 (Peel), 6-93 (Lohmann), 7-98 (Briggs),
+     8-125 (MacGregor), 9-139 (Abel), 10-158 (Attewell).
+
+Bowling                      O      M      R      W
+Trott                       19      2     52      3
+Giffen                       3      0      8      0
+Turner                      33.2   14     51      5
+McLeod                      23      8     39      1
+Callaway                     4      1      7      1
+
+*** Bannerman batted for 435 minutes for his total of 86 runs.
+
+<END>

@@ -1,0 +1,115 @@
+
+Test # 509
+The Ashes, 1961, 3rd Test
+England v Australia
+Headingley, Leeds
+6,7,8 July 1961 (5-day match)
+
+Result: England won by 8 wickets
+Series: 5-match series level 1-1
+
+Toss: Australia
+Umpires: JS Buller and JG Langridge
+
+Close of play:
+ Day 1: Australia 237, England 9/0 (Pullar 5*, Subba Row 3*)
+ Day 2: England 238/4 (Dexter 22*, Barrington 5*)
+
+Australia 1st innings                                           R   M   B  4 6
+CC McDonald           st Murray          b Lock                54 180        0
+WM Lawry              lbw                b Lock                28 110        0
+RN Harvey             c Lock             b Trueman             73 150        0
+NC O'Neill            c Cowdrey          b Trueman             27  70        0
+PJP Burge             c Cowdrey          b Jackson              5            0
+KD Mackay             lbw                b Jackson              6            0
+RB Simpson            lbw                b Trueman              2          0 0
+AK Davidson           not out                                  22            1
+*R Benaud                                b Trueman              0       1  0 0
++ATW Grout            c Murray           b Trueman              3          0 0
+GD McKenzie                              b Allen                8            0
+Extras                (b 7, lb 2)                               9
+Total                 (all out, 110 overs)                    237
+
+FoW: 1-65 (Lawry), 2-113 (McDonald), 3-187 (O'Neill),
+     4-192 (Harvey), 5-196 (Burge), 6-203 (Simpson),
+     7-203 (Mackay), 8-204 (Benaud), 9-208 (Grout),
+     10-237 (McKenzie).
+
+Bowling                      O      M      R      W
+Trueman                     22      5     58      5
+Jackson                     31     11     57      2
+Allen                       28     12     45      1
+Lock                        29      5     68      2
+
+England 1st innings                                             R   M   B  4 6
+G Pullar                                 b Benaud              53 200        0
+R Subba Row           lbw                b Davidson            35  85        0
+MC Cowdrey            c Grout            b McKenzie            93 255     11 0
+*PBH May                             c & b Davidson            26  89        0
+ER Dexter                                b Davidson            28 120        0
+KF Barrington         c Simpson          b Davidson             6            0
++JT Murray                               b McKenzie             6            0
+FS Trueman            c Burge            b Davidson             4          1 0
+GAR Lock              lbw                b McKenzie            30  19  20  7 0
+DA Allen              not out                                   5            0
+HL Jackson            run out                                   8          2 0
+Extras                (lb 5)                                    5
+Total                 (all out, 149 overs)                    299
+
+FoW: 1-59 (Subba Row), 2-145 (Pullar), 3-190 (May),
+     4-223 (Cowdrey), 5-239 (Barrington), 6-248 (Dexter),
+     7-252 (Trueman), 8-286 (Lock), 9-291 (Murray),
+     10-299 (Jackson).
+
+Bowling                      O      M      R      W
+Davidson                    47     23     63      5
+McKenzie                    27      4     64      3
+Mackay                      22      4     34      0
+Benaud                      39     15     86      1
+Simpson                     14      5     47      0
+
+Australia 2nd innings                                           R   M   B  4 6
+CC McDonald                              b Jackson              1          0 0
+WM Lawry              c Murray           b Allen               28            0
+RN Harvey             c Dexter           b Trueman             53            0
+NC O'Neill            c Cowdrey          b Trueman             19            0
+PJP Burge             lbw                b Allen                0          0 0
+RB Simpson                               b Trueman              3          0 0
+AK Davidson           c Cowdrey          b Trueman              7            0
+*R Benaud                                b Trueman              0          0 0
+KD Mackay             c Murray           b Trueman              0          0 0
++ATW Grout                           c & b Jackson              7            0
+GD McKenzie           not out                                   0          0 0
+Extras                (lb 2)                                    2
+Total                 (all out, 52.5 overs)                   120
+
+FoW: 1-4 (McDonald), 2-49 (Lawry), 3-99 (Harvey), 4-102 (Burge),
+     5-102 (O'Neill), 6-105 (Simpson), 7-109 (Benaud),
+     8-109 (Mackay), 9-120 (Grout), 10-120 (Davidson).
+
+Bowling                      O      M      R      W
+Trueman                     15.5    5     30      6
+Jackson                     13      5     26      2
+Allen                       14      6     30      2
+Lock                        10      1     32      0
+
+England 2nd innings (target: 59 runs)                           R   M   B  4 6
+G Pullar              not out                                  26  75        0
+R Subba Row                              b Davidson             6            0
+MC Cowdrey            c Grout            b Benaud              22            0
+*PBH May              not out                                   8            0
+Extras                                                          0
+Total                 (2 wickets, 23 overs)                    62
+
+DNB: ER Dexter, KF Barrington, +JT Murray, FS Trueman, GAR Lock,
+     DA Allen, HL Jackson.
+
+FoW: 1-14 (Subba Row), 2-45 (Cowdrey).
+
+Bowling                      O      M      R      W
+Davidson                    11      6     17      1
+McKenzie                     5      0     15      0
+Mackay                       1      0      8      0
+Benaud                       6      1     22      1
+
+<END>

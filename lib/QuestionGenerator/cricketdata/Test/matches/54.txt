@@ -1,0 +1,108 @@
+
+Test # 54
+The Ashes, 1897/98, 2nd Test
+Australia v England
+Melbourne Cricket Ground
+1,3,4,5 January 1898 (timeless match)
+
+Result: Australia won by an innings and 55 runs
+Series: 5-match series level 1-1
+
+Toss: Australia
+Umpires: C Bannerman and J Phillips
+Test debut: MA Noble (Australia).
+
+Close of play:
+ Day 1: Australia 283/3 (Gregory 54*, Iredale 12*)
+ Day 2: Australia 520, England 22/1 (MacLaren 9*, Wainwright 3*)
+ Day 3: England 311/8 (Druce 44*, Briggs 45*)
+
+Australia 1st innings                                           R   M   B  4 6
+J Darling             c Hirst            b Briggs              36  45      5 0
+CE McLeod                                b Storer             112 244      4 0
+C Hill                c Storer           b Hayward             58 115      1 0
+SE Gregory                               b Briggs              71 136      3 0
+FA Iredale            c Ranjitsinhji     b Hirst               89 167      6 0
+*GHS Trott            c Wainwright       b Briggs              79 193     11 0
+MA Noble                                 b Richardson          17  22      2 0
+H Trumble             c Hirst            b Mason               14  19      1 0
++JJ Kelly             c Richardson       b Hearne              19  40      2 0
+E Jones               run out                                   7  12      0 0
+TR McKibbin           not out                                   2   3      0 0
+Extras                (b 14, w 1, nb 1)                        16
+Total                 (all out, 185 overs)                    520
+
+FoW: 1-43 (Darling), 2-167 (Hill), 3-244 (McLeod),
+     4-310 (Gregory), 5-434 (Iredale), 6-453 (Noble),
+     7-478 (Trumble), 8-509 (Trott), 9-515 (Kelly),
+     10-520 (Jones).
+
+Bowling                      O      M      R      W
+Richardson                  48     12    114      1
+Hirst                       25      1     89      1
+Briggs                      40     10     96      3
+Hearne                      36      6     94      1
+Mason                       11      1     33      1
+Hayward                      9      4     23      1
+Storer                      16      4     55      1
+
+England 1st innings                                             R   M   B  4 6
+*AC MacLaren          c Trumble          b McKibbin            35  83      2 0
+JR Mason                                 b McKibbin             3   6      0 0
+E Wainwright          c Jones            b Noble               21  60      2 0
+KS Ranjitsinhji                          b Trumble             71 149      4 0
+TW Hayward            c Jones            b Trott               23  70      1 0
++W Storer             c Kelly            b Trumble             51  88      6 0
+GH Hirst                                 b Jones                0   3      0 0
+NF Druce              lbw                b Trumble             44  88      4 0
+JT Hearne                                b Jones                1   1      0 0
+J Briggs              not out                                  46  71      5 0
+T Richardson                             b Trumble              3   4      0 0
+Extras                (b 10, lb 3, nb 4)                       17
+Total                 (all out, 119.5 overs)                  315
+
+FoW: 1-10 (Mason), 2-60 (Wainwright), 3-74 (MacLaren),
+     4-133 (Hayward), 5-203 (Ranjitsinhji), 6-208 (Hirst),
+     7-223 (Storer), 8-224 (Hearne), 9-311 (Druce),
+     10-315 (Richardson).
+
+Bowling                      O      M      R      W
+McKibbin                    28      7     66      2
+Trumble                     26.5    5     54      4
+Jones                       22      5     54      2
+Trott                       17      3     49      1
+Noble                       12      3     31      1
+McLeod                      14      2     44      0
+
+England 2nd innings (following on)                              R   M   B  4 6
+*AC MacLaren          c Trott            b Trumble             38  70      2 0
+JR Mason                                 b Trumble              3  17      0 0
+KS Ranjitsinhji                          b Noble               27  68      2 0
+TW Hayward            c Trumble          b Noble               33  73      3 0
++W Storer             c Trumble          b Noble                1   5      0 0
+GH Hirst              lbw                b Trumble              3   7      0 0
+NF Druce              c McLeod           b Noble               15  32      1 0
+E Wainwright                             b Noble               11  35      0 0
+J Briggs              c Trott            b Trumble             12  33      2 0
+JT Hearne             c Jones            b Noble                0   4      0 0
+T Richardson          not out                                   2   3      0 0
+Extras                (b 3, lb 1, w 1)                          5
+Total                 (all out, 65.4 overs)                   150
+
+FoW: 1-10 (Mason), 2-65 (MacLaren), 3-71 (Ranjitsinhji),
+     4-75 (Storer), 5-80 (Hirst), 6-115 (Druce), 7-123 (Hayward),
+     8-141 (Wainwright), 9-148 (Hearne), 10-150 (Briggs).
+
+Bowling                      O      M      R      W
+McKibbin                     4      0     13      0
+Trumble                     30.4   12     53      4
+Trott                        7      0     17      0
+Noble                       17      1     49      6
+McLeod                       7      2     13      0
+
+*** Jones was the first bowler to be no-balled for throwing in a Test match -
+    umpire Phillips called him once.
+*** McLeod avenged his unfortunate dismissal in the previous match by making
+    the most of his surprising promotion in the order.
+
+<END>

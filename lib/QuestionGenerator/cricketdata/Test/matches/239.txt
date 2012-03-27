@@ -1,0 +1,130 @@
+
+Test # 239
+England in West Indies, 1934/35, 2nd Test
+West Indies v England
+Queen's Park Oval, Port of Spain, Trinidad
+24,25,26,28 January 1935 (4-day match)
+
+Result: West Indies won by 217 runs
+Series: 4-match series level 1-1
+
+Toss: England
+Umpires: V Guillen and AJ Richardson (Aus)
+Test debut: DCH Townsend (England).
+
+Close of play:
+ Day 1: West Indies 284/9 (Constantine 72*, Martindale 0*)
+ Day 2: West Indies 302, England 200/8 (Holmes 41*, Farrimond 11*)
+ Day 3: England 258, West Indies 150/3 (Headley 50*, GC Grant 21*)
+
+West Indies 1st innings                                         R   M   B  4 6
++CM Christiani        c Holmes           b Smith               11            0
+CEL Jones             c Farrimond        b Paine               19            0
+GA Headley            c Holmes           b Paine               25            0
+JED Sealy                                b Wyatt               92         13 0
+*GC Grant                                b Smith                8            0
+OC Da Costa                              b Holmes              25            0
+LN Constantine        c Hendren          b Smith               90            1
+RS Grant                                 b Wyatt                0          0 0
+LG Hylton             c Hendren          b Smith                8            0
+EE Achong             lbw                b Wyatt                9            0
+EA Martindale         not out                                   0          0 0
+Extras                (b 2, lb 5, nb 8)                        15
+Total                 (all out, 95 overs)                     302
+
+FoW: 1-32 (Jones), 2-38 (Christiani), 3-102 (Headley),
+     4-115 (GC Grant), 5-174 (Da Costa), 6-233 (Sealy),
+     7-233 (RS Grant), 8-253 (Hylton), 9-281 (Achong),
+     10-302 (Constantine).
+
+Bowling                      O      M      R      W
+Smith                       26      3    100      4
+Wyatt                       17      7     33      3
+Hammond                     14      5     28      0
+Paine                       26      6     85      2
+Leyland                      9      1     31      0
+Holmes                       3      1     10      1
+
+England 1st innings                                             R   M   B  4 6
+*RES Wyatt            c RS Grant         b Hylton              15            0
+DCH Townsend          lbw                b Constantine          5            0
+WR Hammond            c RS Grant         b Hylton               1          0 0
+LEG Ames              c RS Grant         b Martindale           2          0 0
+M Leyland             lbw                b Constantine          0          0 0
+EH Hendren            c GC Grant         b RS Grant            41            0
+J Iddon               c Headley          b RS Grant            73            0
+ERT Holmes            not out                                  85            0
+CIJ Smith                                b RS Grant             8            0
++W Farrimond          c Constantine      b Sealy               16            0
+GAE Paine             lbw                b Sealy                4            0
+Extras                (b 3, lb 4, nb 1)                         8
+Total                 (all out, 121 overs)                    258
+
+FoW: 1-15 (Wyatt), 2-19 (Hammond), 3-23 (Townsend), 4-23 (Ames),
+     5-23 (Leyland), 6-95 (Hendren), 7-168 (Iddon),
+     8-178 (Smith), 9-240 (Farrimond), 10-258 (Paine).
+
+Bowling                      O      M      R      W
+Martindale                  17      5     26      1
+Hylton                      23      6     55      2
+Constantine                 19      5     41      2
+Achong                      16      4     27      0
+RS Grant                    28      7     68      3
+Da Costa                     8      2     23      0
+Sealy                        6      2      7      2
+Headley                      4      2      3      0
+
+West Indies 2nd innings                                         R   M   B  4 6
++CM Christiani        c Farrimond        b Smith                8            0
+CEL Jones             c Wyatt            b Paine               19            0
+GA Headley            lbw                b Smith               93 225        0
+JED Sealy             c Hammond          b Leyland             35            0
+*GC Grant             c Hammond          b Paine               23            0
+LN Constantine        c Ames             b Paine               31            1
+OC Da Costa           not out                                  19            0
+RS Grant              not out                                  38            0
+Extras                (b 3, lb 8, w 1, nb 2)                   14
+Total                 (6 wickets dec, 103 overs)              280
+
+DNB: LG Hylton, EE Achong, EA Martindale.
+
+FoW: 1-19 (Christiani), 2-34 (Jones), 3-99 (Sealy),
+     4-163 (GC Grant), 5-216 (Constantine), 6-225 (Headley).
+
+Bowling                      O      M      R      W
+Smith                       30      9     73      2
+Wyatt                        8      2     26      0
+Hammond                     10      0     17      0
+Paine                       42     10    109      3
+Leyland                     13      3     41      1
+
+England 2nd innings (target: 325 runs)                          R   M   B  4 6
++W Farrimond          c Headley          b Hylton               2          0 0
+DCH Townsend          c Da Costa         b Achong              36            1
+GAE Paine             hit wicket         b RS Grant            14            0
+CIJ Smith             run out                                   3          0 0
+WR Hammond                               b Constantine          9            0
+EH Hendren            run out                                  11            0
+*RES Wyatt            c Headley          b Constantine          2          0 0
+LEG Ames              c Achong           b Hylton               6            0
+M Leyland             lbw                b Constantine         18            0
+J Iddon               c Christiani       b Hylton               0          0 0
+ERT Holmes            not out                                   0          0 0
+Extras                (b 4, lb 2)                               6
+Total                 (all out, 65.5 overs)                   107
+
+FoW: 1-14 (Farrimond), 2-53 (Townsend), 3-54 (Paine),
+     4-62 (Smith), 5-71 (Hammond), 6-75 (Wyatt), 7-79 (Hendren),
+     8-103 (Ames), 9-103 (Iddon), 10-107 (Leyland).
+
+Bowling                      O      M      R      W
+Martindale                   5      1      5      0
+Hylton                      14      4     25      3
+Constantine                 14.5    9     11      3
+Achong                      12      5     24      1
+RS Grant                    12      4     18      1
+Da Costa                     1      1      0      0
+Sealy                        5      0     16      0
+Jones                        2      0      2      0
+
+<END>

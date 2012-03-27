@@ -1,0 +1,67 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+101, 1909-05-27, 1, 2, England, c MacLaren, Hirst, 2, na, na, 0, 0
+101, 1909-05-27, 3, 6, England, c Thompson, Blythe, 6, na, na, na, 0
+102, 1909-06-14, 2, 3, England, , Relf, 46, na, na, na, 0
+102, 1909-06-14, 4, 2, England, c Lilley, Relf, 0, na, na, 0, 0
+103, 1909-07-01, 1, 5, England, hit wicket, Rhodes, 30, na, na, na, 0
+103, 1909-07-01, 3, 7, England, c Lilley, Barnes, 2, na, na, 0, 0
+104, 1909-07-26, 1, 2, England, , Barnes, 9, na, na, na, 0
+104, 1909-07-26, 3, 2, England, c MacLaren, Blythe, 35, na, na, na, 0
+105, 1909-08-09, 1, 2, England, , Sharp, 136, 225, na, 12, 0
+105, 1909-08-09, 3, 2, England, lbw, Barnes, 130, 225, na, 10, 0
+111, 1910-12-09, 1, 2, South Africa, , Pearse, 132, 150, 150, 16, 0
+112, 1911-12-31, 1, 2, South Africa, c Snooke, Sinclair, 85, 105, 100, 8, 0
+112, 1911-12-31, 3, 2, South Africa, st Sherwell, Schwarz, 14, 33, 24, 1, 0
+113, 1911-01-07, 2, 4, South Africa, lbw, Nourse, 54, 102, 98, 1, 0
+113, 1911-01-07, 4, 2, South Africa,                c &, Faulkner, 58, 80, 75, 6, 0
+114, 1911-02-17, 1, 2, South Africa, c Schwarz, Pegler, 82, 154, 123, 5, 0
+114, 1911-02-17, 3, 3, South Africa, run out, , 15, 33, 36, 0, 0
+115, 1911-03-03, 1, 4, South Africa,                c &, Sinclair, 94, 136, 157, 9, 0
+115, 1911-03-03, 4, 1, South Africa, , Nourse, 39, 87, 75, 5, 0
+116, 1911-12-15, 1, 1, England, c Strudwick, Douglas, 30, 49, 54, 3, 0
+116, 1911-12-15, 3, 1, England, , Foster, 12, 35, 35, 1, 0
+117, 1912-12-30, 1, 2, England, , Barnes, 0, 3, 1, 0, 0
+117, 1912-12-30, 3, 2, England, run out, , 16, 45, 34, 1, 0
+118, 1912-01-12, 1, 1, England, c Smith, Barnes, 5, 17, 19, 1, 0
+118, 1912-01-12, 3, 1, England, , Foster, 63, 133, 135, 5, 0
+119, 1912-02-09, 1, 3, England, , Foster, 0, 19, 8, 0, 0
+119, 1912-02-09, 3, 3, England, , Foster, 3, 14, 19, 0, 0
+121, 1912-05-27, 1, 4, South Africa,                c &, White, 121, 145, na, 11, 2
+123, 1912-06-24, 2, 4, England, lbw, Rhodes, 21, na, na, na, 0
+125, 1912-07-15, 2, 4, South Africa, lbw, Llewellyn, 164, na, na, 15, 1
+127, 1912-08-05, 2, 4, South Africa, run out, , 56, na, na, 0, 0
+129, 1912-08-19, 2, 4, England, , Barnes, 30, na, na, na, 0
+129, 1912-08-19, 4, 4, England, run out, , 0, na, na, 0, 0
+135, 1920-12-17, 1, 3, England, c Strudwick, Hearne, 22, 40, 41, 1, 0
+135, 1920-12-17, 3, 2, England, , Hearne, 57, 123, 114, 4, 0
+136, 1921-12-31, 1, 2, England, c Strudwick, Woolley, 51, 115, 89, 5, 0
+137, 1921-01-14, 1, 2, England, st Strudwick, Douglas, 14, 36, 32, 2, 0
+137, 1921-01-14, 3, 2, England, , Howell, 16, 25, 21, 2, 0
+138, 1921-02-11, 2, 2, England, , Fender, 56, 87, 87, 1, 0
+138, 1921-02-11, 4, 2, England, run out, , 38, 82, 72, 2, 0
+139, 1921-02-25, 2, 2, England, c Fender, Douglas, 7, 17, 11, 0, 0
+139, 1921-02-25, 4, 2, England, not out, , 50, 99, 97, 4, 0
+140, 1921-05-28, 2, 1, England, lbw, Woolley, 66, 149, na, 7, 0
+140, 1921-05-28, 4, 1, England, not out, , 8, 18, na, 1, 0
+141, 1921-06-11, 2, 1, England, c Woolley, Douglas, 88, 131, na, 11, 0
+141, 1921-06-11, 4, 1, England, not out, , 63, 100, na, 4, 0
+142, 1921-07-02, 1, 1, England, c Woolley, Douglas, 6, 20, na, 1, 0
+142, 1921-07-02, 3, 1, England, , Jupp, 25, 52, na, 2, 0
+143, 1921-07-23, 2, 1, England, , Parkin, 3, 12, na, 0, 0
+144, 1921-08-13, 2, 2, England, , Hitch, 22, 36, na, 3, 0
+145, 1921-11-05, 1, 4, South Africa, , Blanckenberg, 5, 13, na, 0, 0
+145, 1921-11-05, 3, 2, South Africa, lbw, Carter, 23, 40, na, 3, 0
+146, 1921-11-12, 1, 2, South Africa, , Marx, 8, 8, na, 1, 0
+146, 1921-11-12, 4, 2, South Africa, not out, , 2, 5, na, 0, 0
+147, 1921-11-26, 2, 2, South Africa, lbw, Blanckenberg, 30, 86, na, 1, 0
+158, 1924-12-19, 1, 2, England, c Woolley, Freeman, 21, 51, 49, 1, 0
+158, 1924-12-19, 3, 2, England, , Tate, 22, 25, 27, 2, 0
+159, 1925-01-01, 1, 2, England, c Strudwick, Gilligan, 19, 76, 52, 0, 0
+159, 1925-01-01, 3, 2, England, lbw, Tate, 2, 2, 3, 0, 0
+161, 1925-02-13, 2, 4, England, run out, , 24, 18, na, 4, 0
+161, 1925-02-13, 3, 2, England, , Tate, 0, 11, 6, 0, 0
+164, 1926-06-26, 1, 2, England, not out, , 193, 398, na, 13, 0
+165, 1926-07-10, 1, 1, England, c Sutcliffe, Tate, 0, 1, 1, 0, 0
+166, 1926-07-24, 1, 2, England, c Tyldesley, Stevens, 15, na, na, 2, 0
+167, 1926-08-14, 2, 2, England, c Strudwick, Larwood, 2, na, na, 0, 0
+167, 1926-08-14, 4, 4, England, c Woolley, Rhodes, 21, 65, na, na, 0

@@ -1,0 +1,124 @@
+
+Test # 149
+England in South Africa, 1922/23, 2nd Test
+South Africa v England
+Newlands, Cape Town
+1,2,3,4 January 1923 (4-day match)
+
+Result: England won by 1 wicket
+Series: 5-match series level 1-1
+
+Toss: South Africa
+Umpires: AG Laver and GJ Thompson (Eng)
+Test debuts: GG Macaulay (England); AE Hall (South Africa).
+
+Close of play:
+ Day 1: South Africa 113, England 128/4 (Mead 17*)
+ Day 2: England 183, South Africa 134/1 (Catterall 74*, Taylor 48*)
+ Day 3: South Africa 242, England 86/6 (Mann 12*)
+
+South Africa 1st innings                                        R   M   B  4 6
+RH Catterall          c Brown            b Fender              10            0
+GAL Hearne            c Fender           b Macaulay             0          0 0
+*HW Taylor                               b Fender               9            0
+AW Nourse             lbw                b Fender              16            0
+WVS Ling              c Mann             b Fender              13            0
+WH Brann                                 b Kennedy              0          0 0
+JM Blanckenberg       c Carr             b Jupp                 9            0
+CM Francois           run out                                  28            0
++TA Ward                                 b Jupp                 4            0
+EP Nupen                             c & b Macaulay             2          0 0
+AE Hall               not out                                   0          0 0
+Extras                (b 14, lb 6, nb 2)                       22
+Total                 (all out, 56 overs)                     113
+
+FoW: 1-0 (Hearne), 2-22 (Catterall), 3-31 (Taylor),
+     4-60 (Nourse), 5-67 (Brann), 6-67 (Ling),
+     7-96 (Blanckenberg), 8-108 (Ward), 9-111 (Nupen),
+     10-113 (Francois).
+
+Bowling                      O      M      R      W
+Kennedy                     18     10     24      1
+Macaulay                    13      5     19      2
+Fender                      14      4     29      4
+Woolley                      2      1      1      0
+Jupp                         9      3     18      2
+
+England 1st innings                                             R   M   B  4 6
+CAG Russell           c Catterall        b Hall                39            0
+A Sandham             c Francois         b Blanckenberg        19            0
+FE Woolley            c Francois         b Hall                 0          0 0
+CP Mead               c Francois         b Blanckenberg        21            0
+AW Carr               c Ward             b Hall                42            0
+*FT Mann              lbw                b Blanckenberg         4            0
+PGH Fender            c Hearne           b Hall                 3          0 0
+VWC Jupp              c Hearne           b Nupen               12            0
+AS Kennedy            c Hearne           b Blanckenberg         2          0 0
++G Brown              not out                                  10            0
+GG Macaulay                              b Blanckenberg        19            0
+Extras                (b 5, lb 4, w 1, nb 2)                   12
+Total                 (all out, 68.1 overs)                   183
+
+FoW: 1-59 (Sandham), 2-59 (Woolley), 3-60 (Russell),
+     4-128 (Carr), 5-134 (Mead), 6-137 (Fender), 7-147 (Mann),
+     8-149 (Kennedy), 9-155 (Jupp), 10-183 (Macaulay).
+
+Bowling                      O      M      R      W
+Nupen                       15      2     48      1
+Hall                        25      8     49      4
+Blanckenberg                24.1    5     61      5
+Francois                     4      1     13      0
+
+South Africa 2nd innings                                        R   M   B  4 6
+RH Catterall                             b Macaulay            76            0
+GAL Hearne                               b Kennedy              0          0 0
+*HW Taylor            c Jupp             b Macaulay            68            0
+AW Nourse                                b Fender              19            0
+WVS Ling              c Fender           b Macaulay             2          0 0
+WH Brann              lbw                b Macaulay             4            0
+CM Francois                          c & b Macaulay            19            0
+JM Blanckenberg                          b Kennedy              5            0
++TA Ward              not out                                  15            0
+EP Nupen                                 b Kennedy              6            0
+AE Hall                                  b Kennedy              5            0
+Extras                (b 15, lb 6, nb 2)                       23
+Total                 (all out, 114.2 overs)                  242
+
+FoW: 1-2 (Hearne), 2-157 (Catterall), 3-158 (Taylor),
+     4-162 (Ling), 5-170 (Brann), 6-200 (Nourse),
+     7-212 (Francois), 8-212 (Blanckenberg), 9-224 (Nupen),
+     10-242 (Hall).
+
+Bowling                      O      M      R      W
+Kennedy                     35.2   13     58      4
+Macaulay                    37     11     64      5
+Fender                      20      3     52      1
+Woolley                     11      3     22      0
+Jupp                        11      3     23      0
+
+England 2nd innings (target: 173 runs)                          R   M   B  4 6
+CAG Russell           lbw                b Blanckenberg         8            0
+A Sandham             lbw                b Hall                17            0
+FE Woolley                               b Hall                 5            0
+CP Mead               lbw                b Hall                31            0
+AW Carr               c Brann            b Hall                 6            0
+PGH Fender            c Nourse           b Hall                 2          0 0
+*FT Mann              c Blanckenberg     b Hall                45            2
+VWC Jupp              st Ward            b Hall                38            0
+AS Kennedy            not out                                  11            0
++G Brown              run out                                   0          0 0
+GG Macaulay           not out                                   1          0 0
+Extras                (b 4, lb 5)                               9
+Total                 (9 wickets, 88.3 overs)                 173
+
+FoW: 1-20 (Russell), 2-29 (Woolley), 3-49 (Sandham), 4-56 (Carr),
+     5-59 (Fender), 6-86 (Mead), 7-154 (Jupp), 8-167 (Mann),
+     9-168 (Brown).
+
+Bowling                      O      M      R      W
+Nupen                       24      8     41      0
+Hall                        37.3   12     63      7
+Blanckenberg                24      7     56      1
+Francois                     3      0      4      0
+
+<END>

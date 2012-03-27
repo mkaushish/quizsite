@@ -1,0 +1,120 @@
+
+Test # 639
+The Ashes, 1968, 3rd Test
+England v Australia
+Edgbaston, Birmingham
+11,12,13,15,16 July 1968 (5-day match)
+
+Result: Match drawn
+Series: Australia leads the 5-match series 1-0
+
+Toss: England
+Umpires: CS Elliott and H Yarnold
+Batsmen of the match: IM Chappell and MC Cowdrey
+Bowlers of the match: EW Freeman, R Illingworth and DL Underwood
+
+Close of play:
+ Day 1: No play
+ Day 2: England 258/3 (Cowdrey 95*, Graveney 32*)
+ Day 3: England 409, Australia 109/1 (Cowper 54*, Chappell 40*)
+ Day 4: Australia 222, England 142/3d, Australia 9/0 (Redpath 6*, Cowper 3*)
+
+England 1st innings                                             R   M   B  4 6
+JH Edrich             c Taber            b Freeman             88 280 245 10 0
+G Boycott             lbw                b Gleeson             36 155 148  3 0
+*MC Cowdrey                              b Freeman            104 244 247 15 0
+KF Barrington         lbw                b Freeman              0   6   4  0 0
+TW Graveney                              b Connolly            96 243 220 10 0
+BR Knight             c Chappell         b Connolly             6  12  12  0 0
++APE Knott                               b McKenzie             4  37  23  0 0
+R Illingworth         lbw                b Gleeson             27  89  84  2 0
+DJ Brown                                 b Connolly             0   1   3  0 0
+JA Snow               c Connolly         b Freeman             19  36  31  2 0
+DL Underwood          not out                                  14  27  24  1 0
+Extras                (b 4, lb 6, w 1, nb 4)                   15
+Total                 (all out, 172.5 overs)                  409
+
+FoW: 1-80 (Boycott), 2-188 (Edrich), 3-189 (Barrington),
+     4-282 (Cowdrey), 5-293 (Knight), 6-323 (Knott),
+     7-374 (Graveney), 8-374 (Brown), 9-376 (Illingworth),
+     10-409 (Snow).
+
+Bowling                      O      M      R      W
+McKenzie                    47     14    115      1
+Freeman                     30.5    8     78      4
+Connolly                    35      8     84      3
+Gleeson                     46     19     84      2
+Cowper                       7      1     25      0
+Walters                      7      3      8      0
+
+Australia 1st innings                                           R   M   B  4 6
+*WM Lawry             retired hurt                              6   6   6  1 0
+IR Redpath                               b Brown                0  16   8  0 0
+RM Cowper                                b Snow                57 149 128  8 0
+IM Chappell                              b Knight              71 197 180  9 0
+KD Walters                           c & b Underwood           46 126 101  5 0
+AP Sheahan                               b Underwood            4  15  16  1 0
++HB Taber             c Barrington       b Illingworth         16  50  53  2 0
+EW Freeman                               b Illingworth          6  15  15  1 0
+GD McKenzie           not out                                   0  26  22  0 0
+JW Gleeson            c Illingworth      b Underwood            3   8  14  0 0
+AN Connolly                              b Illingworth          0   2   6  0 0
+Extras                (b 1, lb 10, nb 2)                       13
+Total                 (all out, 91 overs)                     222
+
+FoW: 1-10 (Redpath), 2-121 (Cowper), 3-165 (Chappell),
+     4-176 (Sheahan), 5-213 (Taber), 6-213 (Walters),
+     7-219 (Freeman), 8-222 (Gleeson), 9-222 (Connolly).
+
+Bowling                      O      M      R      W
+Snow                        17      3     46      1
+Brown                       13      2     44      1
+Knight                      14      2     34      1
+Underwood                   25      9     48      3
+Illingworth                 22     10     37      3
+
+England 2nd innings                                             R   M   B  4 6
+JH Edrich             c Cowper           b Freeman             64 137 104  6 0
+G Boycott             c Taber            b Connolly            31  83  87  3 0
+TW Graveney           not out                                  39  67  50  4 0
+BR Knight                                b Connolly             1   3   2  0 0
++APE Knott            not out                                   4   8  10  1 0
+Extras                (lb 2, nb 1)                              3
+Total                 (3 wickets dec, 42 overs)               142
+
+DNB: *MC Cowdrey, KF Barrington, R Illingworth, DJ Brown,
+     JA Snow, DL Underwood.
+
+FoW: 1-57 (Boycott), 2-131 (Edrich), 3-134 (Knight).
+
+Bowling                      O      M      R      W
+McKenzie                    18      1     57      0
+Freeman                      9      2     23      1
+Connolly                    15      3     59      2
+
+Australia 2nd innings (target: 330 runs)                        R   M   B  4 6
+IR Redpath            lbw                b Snow                22  57  45  2 0
+RM Cowper             not out                                  25 101  86  4 0
+IM Chappell           not out                                  18  42  41  2 0
+Extras                (lb 1, nb 2)                              3
+Total                 (1 wicket, 28.2 overs)                   68
+
+DNB: *WM Lawry, KD Walters, AP Sheahan, +HB Taber, EW Freeman,
+     GD McKenzie, JW Gleeson, AN Connolly.
+
+FoW: 1-44 (Redpath).
+
+Bowling                      O      M      R      W
+Snow                         9      1     32      1
+Brown                        6      1     15      0
+Underwood                    8      4     14      0
+Illingworth                  5.2    2      4      0
+
+*** This was Colin Cowdrey's 100th test match. The first time this milestone
+    was reached.
+*** WM Lawry retired hurt at 6/0
+
+*** Day 5
+*** There was no play after 12:30pm on the final day.
+
+<END>

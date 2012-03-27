@@ -1,0 +1,61 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+653, 1969-06-12, 2, 10, England, run out, , 19, 34, 37, 3, 0
+653, 1969-06-12, 3, 10, England, lbw, Brown, 0, 10, 8, 0, 0
+654, 1969-06-26, 1, 9, England, lbw, Snow, 6, 19, 19, 1, 0
+654, 1969-06-26, 3, 9, England, run out, , 7, 15, 15, 0, 0
+655, 1969-07-10, 2, 8, England, , Snow, 35, 50, 55, 3, 0
+655, 1969-07-10, 4, 9, England, c Sharpe, Brown, 13, 47, 41, 0, 1
+680, 1971-02-18, 2, 9, India, , Venkataraghavan, 7, 5, na, 0, 0
+683, 1971-03-06, 1, 9, India, c Krishnamurthy, Bedi, 14, na, na, na, 1
+683, 1971-03-06, 3, 9, India, , Venkataraghavan, 14, na, na, na, 0
+694, 1972-03-09, 2, 10, New Zealand, , Taylor, 30, na, na, 3, 0
+695, 1972-03-23, 1, 10, New Zealand, , Congdon, 3, na, na, 0, 0
+695, 1972-03-23, 3, 10, New Zealand, not out, , 16, na, na, na, 0
+697, 1972-04-20, 1, 10, New Zealand,                c &, Taylor, 12, na, na, na, 1
+697, 1972-04-20, 3, 10, New Zealand, , Cunis, 42, 76, na, 4, 1
+714, 1973-02-16, 2, 9, Australia, lbw, Hammond, 12, 13, na, 2, 0
+716, 1973-03-09, 2, 10, Australia, , Walker, 1, 18, na, 0, 0
+720, 1973-04-06, 1, 10, Australia, not out, , 9, 17, na, 0, 0
+720, 1973-04-06, 3, 10, Australia, , Walters, 3, 9, na, 0, 0
+726, 1973-08-09, 1, 10, England, c Boycott, Underwood, 6, 31, 30, 0, 0
+726, 1973-08-09, 3, 10, England, c Luckhurst, Greig, 10, 22, 19, 1, 0
+727, 1973-08-23, 1, 10, England, not out, , 23, 21, 25, 3, 1
+734, 1974-03-06, 2, 5, England,                c &, Greig, 8, 29, 30, 1, 0
+745, 1974-11-22, 1, 9, India, , Chandrasekhar, 0, 1, na, 0, 0
+745, 1974-11-22, 3, 7, India, not out, , 26, 38, na, na, 0
+750, 1975-12-27, 2, 9, India, , Chandrasekhar, 2, na, na, 0, 0
+750, 1975-12-27, 4, 9, India, run out, , 0, na, na, 0, 0
+752, 1975-01-11, 2, 4, India, hit wicket, Bedi, 0, 1, 1, 0, 0
+752, 1975-01-11, 4, 10, India, c Viswanath, Bedi, 4, 31, na, 0, 0
+753, 1975-01-23, 1, 5, India, c Chandrasekhar, Ghavri, 5, 28, na, 0, 0
+756, 1975-02-15, 2, 9, Pakistan, lbw, Intikhab Alam, 4, na, na, na, 0
+759, 1975-03-01, 2, 9, Pakistan, lbw, Liaqat Ali, 29, na, na, na, 0
+766, 1975-12-26, 1, 9, Australia, , Walker, 24, 72, 47, 2, 0
+766, 1975-12-26, 3, 9, Australia, run out, , 15, 39, 31, 1, 0
+768, 1976-01-23, 2, 9, Australia, lbw, Thomson, 0, 1, 1, 0, 0
+768, 1976-01-23, 4, 9, Australia, c Marsh, Gilmour, 7, 17, 21, 1, 0
+770, 1976-01-31, 2, 10, Australia, not out, , 14, 30, 29, 2, 0
+770, 1976-01-31, 4, 10, Australia, , Thomson, 22, 67, 63, 3, 0
+776, 1976-04-21, 2, 9, India, not out, , 36, na, na, na, 0
+777, 1976-06-03, 1, 9, England, not out, , 19, 61, 43, 3, 0
+778, 1976-06-17, 2, 9, England, c Woolmer, Underwood, 12, 45, 33, 2, 0
+778, 1976-06-17, 4, 8, England, not out, , 0, 4, 2, 0, 0
+780, 1976-07-22, 1, 9, England, c Hayes, Willis, 1, 3, 3, 0, 0
+780, 1976-07-22, 3, 8, England, , Willis, 5, 24, 17, 1, 0
+781, 1976-08-12, 1, 8, England, not out, , 13, 30, 23, 2, 0
+797, 1977-02-18, 2, 11, Pakistan, absent hurt, , -, , , , 
+797, 1977-02-18, 4, 10, Pakistan, , Imran Khan, 6, 45, na, na, 0
+822, 1978-03-31, 1, 9, Australia, c Laughlin, Clark, 1, 5, na, 0, 0
+822, 1978-03-31, 3, 10, Australia, lbw, Clark, 31, 62, na, 2, 2
+823, 1978-04-15, 1, 10, Australia, , Thomson, 7, 30, na, 1, 0
+823, 1978-04-15, 3, 10, Australia, , Simpson, 0, 9, na, 0, 0
+824, 1978-04-28, 2, 10, Australia, lbw, Laughlin, 24, 75, na, 4, 0
+824, 1978-04-28, 4, 10, Australia, c Rixon, Higgs, 6, 13, na, 1, 0
+835, 1978-12-01, 2, 9, India, c Vengsarkar, Chandrasekhar, 14, 36, 21, 1, 0
+837, 1978-12-15, 1, 7, India, , Kapil Dev, 27, 55, na, na, 0
+837, 1978-12-15, 3, 10, India, not out, , 0, na, na, 0, 0
+839, 1979-12-29, 2, 5, India, c Narasimha Rao, Venkataraghavan, 3, na, na, 0, 0
+839, 1979-12-29, 4, 9, India, , Ghavri, 4, na, na, na, 0
+841, 1979-01-12, 1, 10, India, c Kapil Dev, Parsana, 20, na, na, na, 1
+841, 1979-01-12, 3, 10, India, c Narasimha Rao, Venkataraghavan, 0, na, na, 0, 0
+842, 1979-01-24, 2, 10, India, not out, , 11, na, na, na, 0

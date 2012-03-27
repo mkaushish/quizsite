@@ -1,0 +1,122 @@
+
+Test # 207
+England in South Africa, 1930/31, 5th Test
+South Africa v England
+Kingsmead, Durban
+21,23,24,25 February 1931 (4-day match)
+
+Result: Match drawn
+Series: South Africa wins the 5-match series 1-0
+
+Toss: England
+Umpires: JC Collings and AC King
+Test debut: JAK Cochran (South Africa).
+
+Close of play:
+ Day 1: South Africa 32/0 (Siedle 23*, Mitchell 9*)
+ Day 2: South Africa 252
+ Day 3: England 230, South Africa 3/0 (Siedle 0*, Mitchell 2*)
+
+South Africa 1st innings                                        R   M   B  4 6
+IJ Siedle                            c & b White               57 212      1 0
+B Mitchell                               b Hammond             73 203      4 0
+JAJ Christy                              b Peebles             16  34      1 0
+HW Taylor                            c & b Peebles             16  34      2 0
+KG Viljoen            c Hammond          b Tate                16  69      0 0
+*+HB Cameron                             b Voce                 4   6      1 0
+EL Dalton             c Farrimond        b Hammond             31  74      1 0
+Q McMillan            not out                                  29  64      3 0
+CL Vincent            c Chapman          b Peebles              6  30      0 0
+AJ Bell                                  b Voce                 0   7      0 0
+JAK Cochran                              b Peebles              4   3      1 0
+Extras                                                          0
+Total                 (all out, 130.4 overs, 352 mins)        252
+
+FoW: 1-127 (Mitchell), 2-131 (Siedle), 3-157 (Taylor),
+     4-163 (Christy), 5-168 (Cameron), 6-203 (Viljoen),
+     7-221 (Dalton), 8-242 (Vincent), 9-243 (Bell),
+     10-252 (Cochran).
+
+Bowling                      O      M      R      W
+Tate                        22      6     35      1
+Hammond                     19      6     36      2
+Voce                        27     10     51      2
+Peebles                     27.4    3     67      4
+White                       35      9     63      1
+
+England 1st innings                                             R   M   B  4 6
+RES Wyatt             c Cameron          b Bell                24  90      1 0
+WR Hammond            c Mitchell         b Vincent             29  87      0 0
+M Leyland             lbw                b Bell                 8  38      0 0
+EH Hendren            c McMillan         b Vincent             30  56      2 1
+MJL Turnbull                             b McMillan             6  28      0 0
++W Farrimond          c Taylor           b Vincent             35  87      2 0
+*APF Chapman          c McMillan         b Vincent             24  20      2 0
+MW Tate                                  b Vincent             50  97      5 0
+W Voce                c Bell             b McMillan             0   7      0 0
+JC White                             c & b Vincent             10  46      1 0
+IAR Peebles           not out                                   2  15      0 0
+Extras                (b 5, lb 4, nb 3)                        12
+Total                 (all out, 101.2 overs, 287 mins)        230
+
+FoW: 1-56 (Hammond), 2-56 (Wyatt), 3-87 (Leyland),
+     4-101 (Hendren), 5-101 (Turnbull), 6-126 (Chapman),
+     7-188 (Farrimond), 8-188 (Voce), 9-223 (Tate),
+     10-230 (White).
+
+Bowling                      O      M      R      W
+Bell                        30      4     63      2
+Cochran                     23      5     47      0
+Vincent                     31.2    9     51      6
+McMillan                    17      3     57      2
+
+South Africa 2nd innings                                        R   M   B  4 6
+IJ Siedle             c Chapman          b White               30  88      0 0
+B Mitchell            c Hammond          b Voce                21  63      1 0
+JAJ Christy           st Farrimond       b Peebles             37  82      2 1
+HW Taylor             lbw                b Peebles             14  39      0 0
+KG Viljoen            c Chapman          b Voce                18  56      2 0
+EL Dalton             st Farrimond       b Peebles             11  18      2 0
+*+HB Cameron          not out                                  41  62      3 0
+Q McMillan            c Chapman          b Wyatt               28  65      1 1
+CL Vincent            not out                                   5   8      1 0
+Extras                (b 8, lb 3, nb 3)                        14
+Total                 (7 wickets dec, 82 overs, 237 mins)     219
+
+DNB: AJ Bell, JAK Cochran.
+
+FoW: 1-43 (Mitchell), 2-64 (Siedle), 3-91 (Taylor),
+     4-110 (Christy), 5-126 (Dalton), 6-143 (Viljoen),
+     7-208 (McMillan).
+
+Bowling                      O      M      R      W
+Tate                         9      2     17      0
+Hammond                      5      0     28      0
+Voce                        22      1     46      2
+Peebles                     25      4     71      3
+White                       17      6     37      1
+Wyatt                        4      2      6      1
+
+England 2nd innings (target: 242 runs)                          R   M   B  4 6
+RES Wyatt             c Mitchell         b Christy              1   4      0 0
+WR Hammond            c Vincent          b Bell                28  19      4 1
++W Farrimond          c Cameron          b Taylor               9  20      2 0
+MJL Turnbull                         c & b Siedle               7  25      0 0
+MW Tate               not out                                  24  19      0 3
+Extras                (b 2, lb 1)                               3
+Total                 (4 wickets, 14.1 overs, 47 mins)         72
+
+DNB: M Leyland, EH Hendren, *APF Chapman, W Voce, JC White,
+     IAR Peebles.
+
+FoW: 1-7 (Wyatt), 2-31 (Hammond), 3-40 (Farrimond),
+     4-72 (Turnbull).
+
+Bowling                      O      M      R      W
+Bell                         3      0     14      1
+Christy                      4      1     17      1
+Taylor                       3      0     13      1
+Siedle                       3.1    1      7      1
+Mitchell                     1      0     18      0
+
+<END>

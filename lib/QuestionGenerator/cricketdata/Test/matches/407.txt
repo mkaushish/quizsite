@@ -1,0 +1,100 @@
+
+Test # 407
+South Africa in England, 1955, 1st Test
+England v South Africa
+Trent Bridge, Nottingham
+9,10,11,13 June 1955 (5-day match)
+
+Result: England won by an innings and 5 runs
+Series: England leads the 5-match series 1-0
+
+Toss: England
+Umpires: TJ Bartley and FS Lee
+Test debuts: KF Barrington (England); TL Goddard (South Africa).
+
+Close of play:
+ Day 1: England 244/4 (May 81*, Bailey 1*)
+ Day 2: England 334, South Africa 83/5 (McGlew 38*, Cheetham 17*)
+ Day 3: South Africa 181, South Africa 46/0 (McGlew 24*, Goddard 21*)
+
+England 1st innings                                             R   M   B  4 6
+D Kenyon              lbw                b Goddard             87 234     10 0
+TW Graveney           c Waite            b Adcock              42 135      4 0
+*PBH May              c McGlew           b Smith               83 242      8 0
+DCS Compton           lbw                b Adcock              27 101      0 0
+KF Barrington         c Waite            b Fuller               0   3   5  0 0
+TE Bailey             lbw                b Goddard             49 194      4 0
++TG Evans             c Goddard          b Fuller              12  73      2 0
+JH Wardle             lbw                b Tayfield             2  14      0 0
+FH Tyson              c McLean           b Tayfield             0  14      0 0
+JB Statham            c Waite            b Fuller              20  56      0 0
+R Appleyard           not out                                   0   2   1  0 0
+Extras                (b 6, lb 6)                              12
+Total                 (all out, 168.4 overs)                  334
+
+FoW: 1-91 (Graveney), 2-166 (Kenyon), 3-228 (Compton),
+     4-233 (Barrington), 5-252 (May), 6-285 (Evans),
+     7-294 (Wardle), 8-298 (Tyson), 9-334 (Statham),
+     10-334 (Bailey).
+
+Bowling                      O      M      R      W
+Adcock                      36      9     74      2
+Goddard                     36.4   18     61      2
+Fuller                      29      5     59      3
+Tayfield                    37     11     66      2
+Smith                       30      9     62      1
+
+South Africa 1st innings                                        R   M   B  4 6
+DJ McGlew             c Evans            b Wardle              68 308      5 0
+TL Goddard            lbw                b Statham             12  33      0 0
++JHB Waite            run out                                   0   3      0 0
+WR Endean             lbw                b Tyson                0   8      0 0
+RA McLean                                b Tyson               13  35      1 0
+PL Winslow            c May              b Appleyard            2  30      0 0
+*JE Cheetham          c Graveney         b Wardle              54 208      7 0
+HJ Tayfield           c Bailey           b Appleyard           11  50      1 0
+ERH Fuller                               b Wardle              15  31      1 1
+VI Smith              c May              b Wardle               0  25      0 0
+NAT Adcock            not out                                   1  17      0 0
+Extras                (b 1, lb 2, nb 2)                         5
+Total                 (all out, 114 overs)                    181
+
+FoW: 1-15 (Goddard), 2-17 (Waite), 3-19 (Endean), 4-35 (McLean),
+     5-55 (Winslow), 6-149 (McGlew), 7-156 (Cheetham),
+     8-174 (Tayfield), 9-180 (Fuller), 10-181 (Smith).
+
+Bowling                      O      M      R      W
+Statham                     25      5     47      1
+Tyson                       24      5     51      2
+Bailey                       5      2      8      0
+Appleyard                   28      9     46      2
+Wardle                      32     23     24      4
+
+South Africa 2nd innings (following on)                         R   M   B  4 6
+DJ McGlew             c May              b Bailey              51 250      4 0
+TL Goddard            run out                                  32 185      3 0
++JHB Waite            c Compton          b Tyson                3  18      0 0
+WR Endean             c Graveney         b Bailey               6  33      0 0
+RA McLean             c Graveney         b Tyson               16  36      3 0
+*JE Cheetham                             b Tyson                5  30      0 0
+PL Winslow                               b Tyson                3  18      0 0
+HJ Tayfield                              b Tyson                0   8      0 0
+ERH Fuller            c Evans            b Wardle               6  18      0 0
+VI Smith              not out                                   2  27      0 0
+NAT Adcock                               b Tyson                6  15      1 0
+Extras                (b 8, lb 4, w 4, nb 2)                   18
+Total                 (all out, 96.3 overs)                   148
+
+FoW: 1-73 (Goddard), 2-83 (Waite), 3-101 (Endean),
+     4-108 (McGlew), 5-131 (McLean), 6-132 (Cheetham),
+     7-132 (Tayfield), 8-135 (Winslow), 9-141 (Fuller),
+     10-148 (Adcock).
+
+Bowling                      O      M      R      W
+Statham                     10      4     16      0
+Tyson                       21.3    7     28      6
+Bailey                      17      8     21      2
+Appleyard                   19      4     32      0
+Wardle                      29     17     33      1
+
+<END>

@@ -1,0 +1,129 @@
+
+Test # 672
+Australia in South Africa, 1969/70, 3rd Test
+South Africa v Australia
+New Wanderers Stadium, Johannesburg
+19,20,21,23,24 February 1970 (5-day match)
+
+Result: South Africa won by 307 runs
+Series: South Africa leads the 4-match series 3-0
+
+Toss: South Africa
+Umpires: CMP Coetzee and AJ Warner
+
+Close of play:
+ Day 1: South Africa 191/5 (Irvine 17*, Lance 8*)
+ Day 2: South Africa 279, Australia 122/5 (Sheahan 3*, Freeman 2*)
+ Day 3: Australia 202, South Africa 162/2 (Barlow 64*, RG Pollock 46*)
+ Day 4: South Africa 408, Australia 88/5 (Redpath 50*, Freeman 0*)
+
+South Africa 1st innings                                        R   M   B  4 6
+BA Richards           c Taber            b Connolly            65  87  74 12 1
+TL Goddard            c Walters          b Connolly             6  60  42  0 0
+*A Bacher             lbw                b Mayne               30 128  89  2 0
+RG Pollock            c Taber            b Freeman             52 157 125  5 0
+EJ Barlow             st Taber           b Gleeson              6  44  26  0 0
+BL Irvine             c Stackpole        b Gleeson             79 170 126  4 2
+HR Lance              run out                                   8  42  53  0 0
++DT Lindsay           c Stackpole        b Gleeson              0   3   3  0 0
+MJ Procter            c Chappell         b Walters             22  75  56  2 0
+PM Pollock            c Taber            b Walters              0   9   9  0 0
+AJ Traicos            not out                                   1  20   8  0 0
+Extras                (lb 7, w 1, nb 2)                        10
+Total                 (all out, 102.4 overs)                  279
+
+FoW: 1-56 (Goddard), 2-85 (Richards), 3-141 (Bacher),
+     4-162 (Barlow), 5-170 (RG Pollock), 6-194 (Lance),
+     7-194 (Lindsay), 8-238 (Procter), 9-246 (PM Pollock),
+     10-279 (Irvine).
+
+Bowling                      O      M      R      W
+Mayne                       26      5     83      1
+Connolly                    30     10     49      2
+Freeman                     20      4     60      1
+Gleeson                     21.4    2     61      3
+Walters                      5      1     16      2
+
+Australia 1st innings                                           R   M   B  4 6
+KR Stackpole          c Lindsay          b Procter              5  16  11  1 0
+*WM Lawry             c Lindsay          b PM Pollock           1  19  10  0 0
+IR Redpath            lbw                b Procter              0  27  17  0 0
+IM Chappell           c Lance            b Goddard             34 191 134  4 0
+KD Walters            c Procter          b PM Pollock          64 169 136  5 0
+AP Sheahan                               b PM Pollock          44 157 131  5 1
+EW Freeman            c Goddard          b PM Pollock          10  65  29  1 0
+LC Mayne              run out                                   0   3   3  0 0
++HB Taber             not out                                  26  90  72  3 0
+JW Gleeson                               b Procter              0   7   9  0 0
+AN Connolly           c Richards         b PM Pollock           3  10   5  0 0
+Extras                (lb 4, w 1, nb 10)                       15
+Total                 (all out, 91.2 overs)                   202
+
+FoW: 1-7 (Stackpole), 2-7 (Lawry), 3-12 (Redpath),
+     4-109 (Chappell), 5-112 (Walters), 6-139 (Freeman),
+     7-140 (Mayne), 8-194 (Sheahan), 9-195 (Gleeson),
+     10-202 (Connolly).
+
+Bowling                      O      M      R      W
+Procter                     21      5     48      3
+PM Pollock                  23.2   10     39      5
+Barlow                      12      5     31      0
+Goddard                     26     10     41      1
+Lance                        3      1      5      0
+Traicos                      6      3     23      0
+
+South Africa 2nd innings                                        R   M   B  4 6
+BA Richards           c Taber            b Mayne               35 114  95  3 0
+EJ Barlow             c Lawry            b Gleeson            110 323 252 13 1
+*A Bacher                                b Connolly            15  29  27  2 0
+RG Pollock                               b Freeman             87 148 141 13 0
+BL Irvine             c Lawry            b Gleeson             73 119  86 10 1
++DT Lindsay                              b Gleeson              6   5   4  1 0
+HR Lance              lbw                b Gleeson             30  65  54  2 1
+MJ Procter            not out                                  36  52  31  2 2
+TL Goddard            c Taber            b Connolly             2   6   8  0 0
+PM Pollock            c Taber            b Gleeson              1  10   7  0 0
+AJ Traicos            lbw                b Mayne                0  15  13  0 0
+Extras                (lb 8, nb 5)                             13
+Total                 (all out, 121.3 overs)                  408
+
+FoW: 1-76 (Richards), 2-102 (Bacher), 3-241 (RG Pollock),
+     4-269 (Barlow), 5-275 (Lindsay), 6-349 (Lance),
+     7-372 (Irvine), 8-375 (Goddard), 9-380 (PM Pollock),
+     10-408 (Traicos).
+
+Bowling                      O      M      R      W
+Mayne                       18.3    1     77      2
+Connolly                    32      6     83      2
+Freeman                     19      4     77      1
+Gleeson                     45     15    125      5
+Walters                      7      1     33      0
+
+Australia 2nd innings (target: 486 runs)                        R   M   B  4 6
+KR Stackpole          c Lindsay          b Procter              1  10   2  0 0
+*WM Lawry             c RG Pollock       b Barlow              17  54  35  1 1
+IR Redpath                               b Goddard             66 229 202 11 0
+IM Chappell                              b Barlow               0   1   1  0 0
+KD Walters                               b Procter             15  45  30  2 0
+AP Sheahan                               b Procter              0  12   9  0 0
+EW Freeman            run out                                  18 102  73  3 0
+LC Mayne              c Procter          b Traicos              2  10  10  0 0
++HB Taber             not out                                  18  55  65  2 0
+JW Gleeson                               b Goddard              0   2   2  0 0
+AN Connolly           c Richards         b Goddard             36  41  43  4 1
+Extras                (w 2, nb 3)                               5
+Total                 (all out, 77.5 overs)                   178
+
+FoW: 1-11 (Stackpole), 2-43 (Lawry), 3-43 (Chappell),
+     4-73 (Walters), 5-73 (Sheahan), 6-122 (Freeman),
+     7-124 (Mayne), 8-126 (Redpath), 9-126 (Gleeson),
+     10-178 (Connolly).
+
+Bowling                      O      M      R      W
+Procter                     14      8     24      3
+PM Pollock                  15      4     56      0
+Barlow                       7      3     17      2
+Goddard                     24.5   16     27      3
+Traicos                     17      4     49      1
+
+<END>

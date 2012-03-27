@@ -1,0 +1,103 @@
+
+Test # 1092
+Sri Lanka in Australia, 1987/88, Only Test
+Australia v Sri Lanka
+Western Australia Cricket Association Ground, Perth
+12,13,14,15 February 1988 (5-day match)
+
+Result: Australia won by an innings and 108 runs
+Series: Australia wins the one-off match
+
+Toss: Australia
+Umpires: RC Bailhache and PJ McConnell
+Test debut: CPH Ramanayake (Sri Lanka).
+Player of the match: DM Jones
+
+Close of play:
+ Day 1: Australia 333/3 (Jones 100*, Veletta 10*)
+ Day 2: Australia 455, Sri Lanka 85/3 (Mahanama 37*, Ranatunga 11*)
+ Day 3: Sri Lanka 194, Sri Lanka 78/4 (Ranatunga 24*, Madugalle 5*)
+
+Australia 1st innings                                           R   M   B  4 6
+GR Marsh                                 b Labrooy             53 148 116  5 0
+DC Boon                                  b Ratnayeke           64 170 113  6 0
+DM Jones              lbw                b Labrooy            102 251 174 13 0
+*AR Border                               b Ratnayeke           88 151 147  7 0
+MRJ Veletta           c de Alwis         b Ratnayeke           21  72  57  3 0
+SR Waugh              c Labrooy          b Amalean             20  71  54  2 0
++GC Dyer              c Ramanayake       b Amalean             38 134  84  3 0
+PL Taylor             c Amalean          b Ratnayeke           18  44  38  2 0
+AIC Dodemaide         not out                                  16  49  39  1 0
+CJ McDermott          c de Alwis         b Amalean              4  17   5  0 0
+MG Hughes                                b Amalean              8   9   7  2 0
+Extras                (lb 12, w 5, nb 6)                       23
+Total                 (all out, 137.2 overs)                  455
+
+FoW: 1-120 (Marsh), 2-133 (Boon), 3-289 (Border),
+     4-346 (Veletta), 5-346 (Jones), 6-380 (Waugh),
+     7-418 (Taylor), 8-434 (Dyer), 9-443 (McDermott),
+     10-455 (Hughes).
+
+Bowling                      O      M      R      W
+Ratnayeke                   40      6     98      4
+Labrooy                     36      5    108      2
+Ramanayake                  17      2     58      0
+Amalean                     22.2    1     97      4
+Kaluperuma                  13      0     62      0
+Ranatunga                    8      2     18      0
+de Silva                     1      0      2      0
+
+Sri Lanka 1st innings                                           R   M   B  4 6
+RS Mahanama           c Dyer             b Dodemaide           41 185 134  3 0
+DSBP Kuruppu          c Marsh            b McDermott           19  88  55  2 0
+SMS Kaluperuma        lbw                b McDermott            0   2   1  0 0
+PA de Silva           lbw                b Waugh                6  29  21  1 0
+A Ranatunga                          c & b Waugh               55 225 169  5 0
+*RS Madugalle         c Border           b Dodemaide            6  11   9  1 0
+JR Ratnayeke          c Marsh            b McDermott           24  61  39  5 0
++RG de Alwis          c Dyer             b Waugh                0   4   5  0 0
+CPH Ramanayake        c Dyer             b Waugh                9  69  55  0 0
+GF Labrooy            c Dyer             b Dodemaide            4  23  14  1 0
+KN Amalean            not out                                   7  11  11  1 0
+Extras                (b 1, lb 6, w 2, nb 14)                  23
+Total                 (all out, 82.3 overs)                   194
+
+FoW: 1-51 (Kuruppu), 2-51 (Kaluperuma), 3-60 (de Silva),
+     4-93 (Mahanama), 5-107 (Madugalle), 6-147 (Ratnayeke),
+     7-148 (de Alwis), 8-181 (Ramanayake), 9-182 (Ranatunga),
+     10-194 (Labrooy).
+
+Bowling                      O      M      R      W
+McDermott                   20      3     50      3
+Hughes                      18      2     61      0
+Dodemaide                   22.3    6     40      3
+Waugh                       20      7     33      4
+Taylor                       2      1      3      0
+
+Sri Lanka 2nd innings (following on)                            R   M   B  4 6
+RS Mahanama           run out                                  28  53  43  5 0
+DSBP Kuruppu          c Dyer             b Dodemaide            3  74  50  0 0
+SMS Kaluperuma                       c & b Hughes               6  27  23  1 0
+PA de Silva           lbw                b Dodemaide            7  49  37  1 0
+A Ranatunga           lbw                b Dodemaide           45  92  65  6 0
+*RS Madugalle         c Waugh            b Hughes               7  33  31  0 0
+JR Ratnayeke          c Dyer             b Dodemaide           38  63  41  5 0
++RG de Alwis          c Waugh            b Hughes               8  19  13  1 0
+CPH Ramanayake        c Veletta          b Hughes               0   2   4  0 0
+GF Labrooy                               b Hughes               4  19   9  1 0
+KN Amalean            not out                                   0   1   0  0 0
+Extras                (lb 6, nb 1)                              7
+Total                 (all out, 52.1 overs)                   153
+
+FoW: 1-36 (Mahanama), 2-42 (Kuruppu), 3-42 (Kaluperuma),
+     4-66 (de Silva), 5-83 (Madugalle), 6-111 (Ranatunga),
+     7-130 (de Alwis), 8-131 (Ramanayake), 9-153 (Labrooy),
+     10-153 (Ratnayeke).
+
+Bowling                      O      M      R      W
+McDermott                    4      2      8      0
+Hughes                      21      7     67      5
+Waugh                        8      4     14      0
+Dodemaide                   19.1    7     58      4
+
+<END>

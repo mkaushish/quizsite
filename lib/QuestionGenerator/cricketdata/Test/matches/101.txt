@@ -1,0 +1,110 @@
+
+Test # 101
+The Ashes, 1909, 1st Test
+England v Australia
+Edgbaston, Birmingham
+27,28,29 May 1909 (3-day match)
+
+Result: England won by 10 wickets
+Series: England leads the 5-match series 1-0
+
+Toss: Australia
+Umpires: J Carlin and F Parris
+Test debuts: W Bardsley, WJ Whitty (Australia); GJ Thompson (England).
+
+Close of play:
+ Day 1: Australia 22/2 (Armstrong 10*, Trumper 7*)
+ Day 2: Australia 74, England 121, Australia 67/2 (Gregory 26*, Ransford 28*)
+
+Australia 1st innings                                           R   M   B  4 6
+A Cotter              c Hirst            b Blythe               2          0 0
+W Bardsley            c MacLaren         b Hirst                2          0 0
+WW Armstrong                             b Hirst               24            0
+VT Trumper            c Hirst            b Blythe              10            0
+*MA Noble             c Jessop           b Blythe              15            0
+SE Gregory            c Rhodes           b Blythe               0          0 0
+VS Ransford                              b Hirst                1          0 0
+CG Macartney          c MacLaren         b Blythe              10            0
++H Carter             lbw                b Hirst                0          0 0
+JDA O'Connor          lbw                b Blythe               8            0
+WJ Whitty             not out                                   0          0 0
+Extras                (lb 1, nb 1)                              2
+Total                 (all out, 46 overs)                      74
+
+FoW: 1-5 (Cotter), 2-7 (Bardsley), 3-30 (Trumper),
+     4-46 (Armstrong), 5-47 (Gregory), 6-52 (Ransford),
+     7-58 (Noble), 8-59 (Carter), 9-71 (O'Connor),
+     10-74 (Macartney).
+
+Bowling                      O      M      R      W
+Hirst                       23      8     28      4
+Blythe                      23      6     44      6
+
+England 1st innings                                             R   M   B  4 6
+*AC MacLaren                             b Macartney            5            0
+JB Hobbs              lbw                b Macartney            0       1  0 0
+JT Tyldesley                             b O'Connor            24            0
+CB Fry                                   b Macartney            0       1  0 0
+AO Jones              c Carter           b Armstrong           28            0
+GH Hirst              lbw                b Armstrong           15            0
+GL Jessop                                b Armstrong           22            0
+W Rhodes              not out                                  15            0
++AFA Lilley           c Ransford         b Armstrong            0          0 0
+GJ Thompson           run out                                   6            0
+C Blythe              c Macartney        b Armstrong            1          0 0
+Extras                (b 4, lb 1)                               5
+Total                 (all out, 55.3 overs)                   121
+
+FoW: 1-0 (Hobbs), 2-13 (MacLaren), 3-13 (Fry), 4-61 (Jones),
+     5-61 (Tyldesley), 6-90 (Jessop), 7-103 (Hirst),
+     8-107 (Lilley), 9-116 (Thompson), 10-121 (Blythe).
+
+Bowling                      O      M      R      W
+Whitty                      17      5     43      0
+Macartney                   17      6     21      3
+Noble                        1      0      2      0
+O'Connor                     5      2     23      1
+Armstrong                   15.3    7     27      5
+
+Australia 2nd innings                                           R   M   B  4 6
+*MA Noble             c Jones            b Hirst               11            0
+CG Macartney          lbw                b Blythe               1          0 0
+SE Gregory            c Thompson         b Blythe              43            0
+VS Ransford                              b Blythe              43            0
+VT Trumper            c Rhodes           b Hirst                1          0 0
+W Bardsley            c Thompson         b Blythe               6            0
+WW Armstrong          c Jessop           b Blythe               0          0 0
++H Carter             c Hobbs            b Hirst                1          0 0
+A Cotter              c Tyldesley        b Hirst               15            1
+JDA O'Connor          c Lilley           b Hirst               13            0
+WJ Whitty             not out                                   9            0
+Extras                (b 7, lb 1)                               8
+Total                 (all out, 52.5 overs)                   151
+
+FoW: 1-4 (Macartney), 2-16 (Noble), 3-97 (Gregory),
+     4-99 (Trumper), 5-103 (Ransford), 6-103 (Armstrong),
+     7-106 (Carter), 8-123 (Bardsley), 9-125 (Cotter),
+     10-151 (O'Connor).
+
+Bowling                      O      M      R      W
+Hirst                       23.5    4     58      5
+Blythe                      24      3     58      5
+Thompson                     4      0     19      0
+Rhodes                       1      0      8      0
+
+England 2nd innings (target: 105 runs)                          R   M   B  4 6
+JB Hobbs              not out                                  62            0
+CB Fry                not out                                  35            0
+Extras                (b 5, lb 3)                               8
+Total                 (0 wickets, 32.2 overs)                 105
+
+DNB: *AC MacLaren, JT Tyldesley, AO Jones, GH Hirst, GL Jessop,
+     W Rhodes, +AFA Lilley, GJ Thompson, C Blythe.
+
+Bowling                      O      M      R      W
+Whitty                       5      1     18      0
+Macartney                   11      2     35      0
+O'Connor                     3.2    1     17      0
+Armstrong                   13      5     27      0
+
+<END>

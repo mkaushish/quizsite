@@ -1,0 +1,129 @@
+
+Test # 302
+The Ashes, 1948, 4th Test
+England v Australia
+Headingley, Leeds
+22,23,24,26,27 July 1948 (5-day match)
+
+Result: Australia won by 7 wickets
+Series: Australia leads the 5-match series 3-0
+
+Toss: England
+Umpires: HG Baldwin and F Chester
+Test debut: RA Saggers (Australia).
+
+Close of play:
+ Day 1: England 268/2 (Edrich 41*, Bedser 0*)
+ Day 2: England 496, Australia 63/1 (Hassett 13*, Bradman 31*)
+ Day 3: Australia 457/9 (Lindwall 76*, Toshack 12*)
+ Day 4: Australia 458, England 362/8 (Evans 47*, Laker 14*)
+
+England 1st innings                                             R   M   B  4 6
+L Hutton                                 b Lindwall            81 187        0
+C Washbrook           c Lindwall         b Johnston           143 317     22 0
+WJ Edrich             c Morris           b Johnson            111 314     13 1
+AV Bedser                            c & b Johnson             79 177      8 2
+DCS Compton           c Saggers          b Lindwall            23  55        0
+JF Crapp                                 b Toshack              5            0
+*NWD Yardley                             b Miller              25            0
+K Cranston                               b Loxton              10            0
++TG Evans             c Hassett          b Loxton               3          0 0
+JC Laker              c Saggers          b Loxton               4            0
+R Pollard             not out                                   0          0 0
+Extras                (b 2, lb 8, w 1, nb 1)                   12
+Total                 (all out, 192.1 overs)                  496
+
+FoW: 1-168 (Hutton), 2-268 (Washbrook), 3-423 (Bedser),
+     4-426 (Edrich), 5-447 (Crapp), 6-473 (Compton),
+     7-486 (Cranston), 8-490 (Evans), 9-496 (Laker),
+     10-496 (Yardley).
+
+Bowling                      O      M      R      W
+Lindwall                    38     10     79      2
+Miller                      17.1    2     43      1
+Johnston                    38     12     86      1
+Toshack                     35      6    112      1
+Loxton                      26      4     55      3
+Johnson                     33      9     89      2
+Morris                       5      0     20      0
+
+Australia 1st innings                                           R   M   B  4 6
+AR Morris             c Cranston         b Bedser               6            0
+AL Hassett            c Crapp            b Pollard             13            0
+*DG Bradman                              b Pollard             33  59  56    0
+KR Miller             c Edrich           b Yardley             58            2
+RN Harvey                                b Laker              112 188     17 0
+SJE Loxton                               b Yardley             93 135      8 5
+IWG Johnson           c Cranston         b Laker               10            0
+RR Lindwall           c Crapp            b Bedser              77            0
++RA Saggers           st Evans           b Laker                5            0
+WA Johnston           c Edrich           b Bedser              13            0
+ERH Toshack           not out                                  12            0
+Extras                (b 9, lb 14, nb 3)                       26
+Total                 (all out, 136.2 overs)                  458
+
+FoW: 1-13 (Morris), 2-65 (Hassett), 3-68 (Bradman),
+     4-189 (Miller), 5-294 (Harvey), 6-329 (Johnson),
+     7-344 (Loxton), 8-355 (Saggers), 9-403 (Johnston),
+     10-458 (Lindwall).
+
+Bowling                      O      M      R      W
+Bedser                      31.2    4     92      3
+Pollard                     38      6    104      2
+Cranston                    14      1     51      0
+Edrich                       3      0     19      0
+Laker                       30      8    113      3
+Yardley                     17      6     38      2
+Compton                      3      0     15      0
+
+England 2nd innings                                             R   M   B  4 6
+L Hutton              c Bradman          b Johnson             57            1
+C Washbrook           c Harvey           b Johnston            65            1
+WJ Edrich             lbw                b Lindwall            54            1
+DCS Compton           c Miller           b Johnston            66            0
+JF Crapp                                 b Lindwall            18            0
+*NWD Yardley          c Harvey           b Johnston             7            0
+K Cranston            c Saggers          b Johnston             0       2  0 0
++TG Evans             not out                                  47            0
+AV Bedser             c Hassett          b Miller              17          4 0
+JC Laker              not out                                  15            0
+Extras                (b 4, lb 12, nb 3)                       19
+Total                 (8 wickets dec, 107 overs)              365
+
+DNB: R Pollard.
+
+FoW: 1-129 (Washbrook), 2-129 (Hutton), 3-232 (Edrich),
+     4-260 (Crapp), 5-277 (Yardley), 6-278 (Cranston),
+     7-293 (Compton), 8-330 (Bedser).
+
+Bowling                      O      M      R      W
+Lindwall                    26      6     84      2
+Miller                      21      5     53      1
+Johnston                    29      5     95      4
+Loxton                      10      2     29      0
+Johnson                     21      2     85      1
+
+Australia 2nd innings (target: 404 runs)                        R   M   B  4 6
+AR Morris             c Pollard          b Yardley            182 291     33 0
+AL Hassett                           c & b Compton             17  74      1 0
+*DG Bradman           not out                                 173 255 292 29 0
+KR Miller             lbw                b Cranston            12  30      2 0
+RN Harvey             not out                                   4          1 0
+Extras                (b 6, lb 9, nb 1)                        16
+Total                 (3 wickets, 114.1 overs)                404
+
+DNB: SJE Loxton, IWG Johnson, RR Lindwall, +RA Saggers,
+     WA Johnston, ERH Toshack.
+
+FoW: 1-57 (Hassett), 2-358 (Morris), 3-396 (Miller).
+
+Bowling                      O      M      R      W
+Bedser                      21      2     56      0
+Pollard                     22      6     55      0
+Cranston                     7.1    0     28      1
+Laker                       32     11     93      0
+Yardley                     13      1     44      1
+Compton                     15      3     82      1
+Hutton                       4      1     30      0
+
+<END>

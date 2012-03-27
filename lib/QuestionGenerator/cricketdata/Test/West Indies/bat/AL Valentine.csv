@@ -1,0 +1,52 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+323, 1950-06-08, 2, 11, England,                c &, Berry, 0, 3, na, 0, 0
+323, 1950-06-08, 4, 11, England, c Bailey, Hollies, 0, 6, na, 0, 0
+324, 1950-06-24, 1, 11, England, c Hutton, Jenkins, 5, na, na, na, 0
+325, 1950-07-20, 2, 11, England, , Hollies, 1, na, na, 0, 0
+326, 1950-08-12, 1, 11, England, , Bailey, 9, na, na, na, 0
+340, 1951-11-09, 1, 11, Australia, st Langley, Ring, 2, 8, na, 0, 0
+340, 1951-11-09, 3, 11, Australia, c Morris, Ring, 13, 10, na, 0, 2
+341, 1951-11-30, 1, 11, Australia, not out, , 0, 4, na, 0, 0
+341, 1951-11-30, 3, 11, Australia, , Miller, 1, 27, na, 0, 0
+343, 1951-12-22, 2, 11, Australia, , Noblet, 0, 3, na, 0, 0
+345, 1952-12-31, 1, 11, Australia, c Lindwall, Miller, 14, 20, na, 2, 0
+345, 1952-12-31, 3, 11, Australia, not out, , 1, 12, na, 0, 0
+347, 1952-01-25, 2, 11, Australia, c Langley, Miller, 6, 25, na, 0, 0
+347, 1952-01-25, 4, 11, Australia, , Benaud, 0, 6, na, 0, 0
+349, 1952-02-08, 2, 11, New Zealand, not out, , 0, na, na, 0, 0
+363, 1953-01-21, 2, 11, India, st Joshi, Gupte, 0, na, na, 0, 0
+366, 1953-02-07, 1, 11, India, , Phadkar, 6, na, na, na, 0
+366, 1953-02-07, 3, 11, India, not out, , 0, na, na, 0, 0
+367, 1953-02-19, 2, 11, India, c Ghorpade, Gupte, 0, na, na, 0, 0
+369, 1953-03-11, 2, 11, India, c Hazare, Gupte, 13, na, na, na, 1
+371, 1953-03-28, 2, 11, India, not out, , 4, na, na, na, 0
+380, 1954-01-15, 1, 11, England, , Trueman, 0, na, 1, 0, 0
+383, 1954-02-06, 1, 11, England, not out, , 0, na, na, 0, 0
+384, 1954-02-24, 2, 11, England, run out, , 0, na, na, 0, 0
+384, 1954-02-24, 3, 11, England, , Wardle, 0, na, na, 0, 0
+403, 1955-03-26, 2, 11, Australia, , Lindwall, 0, na, na, 0, 0
+403, 1955-03-26, 3, 11, Australia, not out, , 2, na, na, 0, 0
+404, 1955-04-11, 1, 11, Australia, not out, , 4, na, na, na, 0
+406, 1955-05-14, 2, 11, Australia, not out, , 2, na, na, 0, 0
+421, 1956-02-03, 2, 10, New Zealand, lbw, Blair, 2, na, na, 0, 0
+422, 1956-02-18, 1, 11, New Zealand, run out, , 1, na, na, 0, 0
+423, 1956-03-03, 1, 11, New Zealand, c McGregor, Reid, 2, na, na, 0, 0
+424, 1956-03-09, 2, 10, New Zealand, c Taylor, Cave, 0, na, na, 0, 0
+424, 1956-03-09, 4, 10, New Zealand, st Guillen, Cave, 5, na, na, na, 0
+440, 1957-06-20, 1, 11, England, not out, , 0, 3, na, 0, 0
+440, 1957-06-20, 3, 11, England, , Statham, 1, 3, na, 0, 0
+441, 1957-07-04, 2, 10, England, , Trueman, 1, 5, na, 0, 0
+441, 1957-07-04, 3, 11, England, not out, , 2, 4, na, 0, 0
+446, 1958-01-17, 1, 10, Pakistan, not out, , 5, na, na, na, 0
+498, 1960-12-09, 1, 11, Australia, not out, , 0, 2, na, 0, 0
+498, 1960-12-09, 3, 11, Australia, not out, , 7, 41, na, 0, 0
+500, 1961-12-30, 2, 11, Australia, not out, , 1, 6, 6, 0, 0
+500, 1961-12-30, 3, 11, Australia, not out, , 0, 14, 5, 0, 0
+502, 1961-01-13, 1, 11, Australia, not out, , 0, 15, 3, 0, 0
+502, 1961-01-13, 3, 11, Australia, not out, , 10, 9, 10, 2, 0
+504, 1961-01-27, 1, 11, Australia, lbw, Misson, 0, 7, na, 0, 0
+506, 1961-02-10, 1, 11, Australia, not out, , 0, 6, 4, 0, 0
+506, 1961-02-10, 3, 11, Australia, not out, , 3, 19, 12, 0, 0
+527, 1962-03-23, 2, 11, India, , Borde, 4, na, na, na, 0
+529, 1962-04-13, 1, 11, India, not out, , 7, na, na, na, 0
+529, 1962-04-13, 3, 11, India, lbw, Nadkarni, 7, na, na, na, 0

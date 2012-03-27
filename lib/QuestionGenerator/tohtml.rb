@@ -157,12 +157,7 @@ module ToHTML
     end
 
     def correct?(solution, response)
-      soln = hash_to_arr(solution).sort 
-      resp = hash_to_arr(response).sort
-      # TODO no way of combining this into one line like before?
-      soln.delete("")
-      resp.delete("")
-      soln == resp
+      hash_to_arr(solution).sort == hash_to_arr(response).sort
     end
   end
 

@@ -1,0 +1,100 @@
+
+Test # 92
+England in South Africa, 1905/06, 5th Test
+South Africa v England
+Newlands, Cape Town
+30,31 March, 2 April 1906 (4-day match)
+
+Result: South Africa won by an innings and 16 runs
+Series: South Africa wins the 5-match series 4-1
+
+Toss: England
+Umpires: F Hearne and J Phillips (Aus)
+
+Close of play:
+ Day 1: England 187, South Africa 87/4 (Nourse 12*, Sinclair 12*)
+ Day 2: South Africa 333, England 103/5 (Relf 21*, Warner 1*)
+
+England 1st innings                                             R   M   B  4 6
+JN Crawford                              b Sinclair            74          8 0
+*PF Warner                               b Schwarz              0          0 0
+D Denton                                 b Snooke               4          0 0
+FL Fane                                  b Vogler              30          5 0
+LJ Moon               lbw                b Vogler               7          1 0
+AE Relf               c Faulkner         b Sinclair            25          3 0
++JH Board             c Nourse           b Snooke              20          2 0
+JC Hartley            run out                                   6          1 0
+WS Lees               not out                                   9          1 0
+S Haigh               c Tancred          b Sinclair             1          0 0
+C Blythe                                 b Sinclair             1          0 0
+Extras                (b 6, nb 4)                              10
+Total                 (all out, 65.2 overs)                   187
+
+FoW: 1-0 (Warner), 2-5 (Denton), 3-91 (Fane), 4-108 (Moon),
+     5-137 (Crawford), 6-160 (Relf), 7-176 (Hartley),
+     8-176 (Board), 9-181 (Haigh), 10-187 (Blythe).
+
+Bowling                      O      M      R      W
+Snooke                      12      4     41      2
+Schwarz                      7      2     14      1
+Sinclair                    21.2    8     45      4
+Vogler                      19      6     63      2
+Faulkner                     4      1     11      0
+Nourse                       2      1      3      0
+
+South Africa 1st innings                                        R   M   B  4 6
+LJ Tancred            c Moon             b Crawford            26          4 0
+WA Shalders                          c & b Crawford            21          3 0
+GC White              c Crawford         b Lees                11          1 0
+AW Nourse             c Relf             b Crawford            36          4 0
+CMH Hathorn           c Board            b Blythe               1          0 0
+JH Sinclair                              b Blythe              12          1 0
+GA Faulkner           c Moon             b Relf                45          6 0
+SJ Snooke             lbw                b Relf                60          8 0
+RO Schwarz            c Crawford         b Relf                15          2 0
+*+PW Sherwell         c Blythe           b Lees                30          3 0
+AEE Vogler            not out                                  62  75      5 3
+Extras                (b 12, lb 1, nb 1)                       14
+Total                 (all out, 110.4 overs)                  333
+
+FoW: 1-45 (Tancred), 2-52 (Shalders), 3-65 (White),
+     4-66 (Hathorn), 5-87 (Sinclair), 6-140 (Nourse),
+     7-182 (Faulkner), 8-226 (Schwarz), 9-239 (Snooke),
+     10-333 (Sherwell).
+
+Bowling                      O      M      R      W
+Lees                        24.4    6     64      2
+Blythe                      35     11    106      2
+Crawford                    18      3     69      3
+Haigh                        6      1     18      0
+Hartley                      6      0     22      0
+Relf                        21      6     40      3
+
+England 2nd innings                                             R   M   B  4 6
+JN Crawford                              b Snooke              13          2 0
+LJ Moon               lbw                b Sinclair            33          4 0
+D Denton                                 b Vogler              10          1 0
+FL Fane                                  b Nourse              10          1 0
+AE Relf                                  b Nourse              21          2 0
++JH Board                                b Nourse               4          1 0
+*PF Warner            c Snooke           b Schwarz              4          0 0
+WS Lees                                  b Nourse               2          0 0
+JC Hartley            c Vogler           b Schwarz              0          0 0
+S Haigh               c Nourse           b Schwarz              2          0 0
+C Blythe              not out                                  11          1 0
+Extras                (b 14, lb 2, w 2, nb 2)                  20
+Total                 (all out, 49.2 overs)                   130
+
+FoW: 1-33 (Crawford), 2-62 (Denton), 3-64 (Moon), 4-90 (Fane),
+     5-94 (Board), 6-103 (Relf), 7-105 (Lees), 8-106 (Hartley),
+     9-109 (Haigh), 10-130 (Warner).
+
+Bowling                      O      M      R      W
+Snooke                       9      3     26      1
+Schwarz                      8.2    2     16      3
+Sinclair                    11      4     20      1
+Vogler                       8      3     17      1
+Faulkner                     3      1      6      0
+Nourse                      10      3     25      4
+
+<END>

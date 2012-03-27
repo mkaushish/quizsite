@@ -1,0 +1,121 @@
+
+Test # 27
+The Ashes, 1887/88, Only Test
+Australia v England
+Sydney Cricket Ground
+10,11,13,14,15 February 1888 (timeless match)
+
+Result: England won by 126 runs
+Series: England wins the one-off match
+
+Toss: Australia
+Umpires: C Bannerman and J Phillips
+Balls per over: 4
+Test debuts: W Newham, AE Stoddart (England).
+
+Close of play:
+ Day 1: England 113, Australia 35/8 (Garrett 9*, Turner 3*)
+ Day 2: No play
+ Day 3: No play
+ Day 4: Australia 42, England 137, Australia 47/5 (Jones 13*, Garrett 1*)
+
+England 1st innings                                             R   M   B  4 6
+A Shrewsbury snr      c Turner           b Ferris              44 165 150  3 0
+AE Stoddart           c McShane          b Turner              16  30  35  2 0
+G Ulyett              c Burton           b Turner               5  14  15  0 0
+*WW Read                                 b Turner              10  50  54  1 0
+JM Read                              c & b Turner               0   1   2  0 0
+R Peel                hit wicket         b Ferris               3   9  11  0 0
+W Newham              c Worrall          b Ferris               9  45  79  1 0
+GA Lohmann            c Jones            b Ferris              12  25  22  0 0
+J Briggs                                 b Turner               0   7  11  0 0
+W Attewell            not out                                   7  11  14  1 0
++R Pilling            run out                                   3   9   7  0 0
+Extras                (b 4)                                     4
+Total                 (all out, 100 overs)                    113
+
+FoW: 1-27 (Stoddart), 2-36 (Ulyett), 3-54 (WW Read),
+     4-54 (JM Read), 5-57 (Peel), 6-88 (Newham),
+     7-102 (Shrewsbury), 8-103 (Lohmann), 9-103 (Briggs),
+     10-113 (Pilling).
+
+Bowling                      O      M      R      W
+Turner                      50     27     44      5
+Ferris                      47     25     60      4
+Garrett                      3      1      5      0
+
+Australia 1st innings                                           R   M   B  4 6
+AC Bannerman          c Ulyett           b Lohmann              2  13  19  0 0
+SP Jones              c Shrewsbury       b Peel                 0  20  20  0 0
+H Moses               c WW Read          b Lohmann              3  13  20  0 0
+FJ Burton             c Stoddart         b Lohmann              1  10  11  0 0
+J Worrall             st Pilling         b Peel                 6  12   7  1 0
+PG McShane            c Shrewsbury       b Peel                 0   2   2  0 0
+*PS McDonnell                            b Lohmann              3   2   5  0 0
++JM Blackham          c Shrewsbury       b Peel                 2   6   4  0 0
+TW Garrett            c Pilling          b Lohmann             10  15  26  0 0
+CTB Turner            not out                                   8  25  26  0 0
+JJ Ferris             c WW Read          b Peel                 0  12  12  0 0
+Extras                (b 6, w 1)                                7
+Total                 (all out, 37.3 overs)                    42
+
+FoW: 1-2 (Bannerman), 2-2 (Jones), 3-10 (Moses), 4-16 (Burton),
+     5-18 (McShane), 6-21 (McDonnell), 7-23 (Worrall),
+     8-26 (Blackham), 9-37 (Garrett), 10-42 (Ferris).
+
+Bowling                      O      M      R      W
+Lohmann                     19     13     17      5
+Peel                        18.3    9     18      5
+
+England 2nd innings                                             R   M   B  4 6
+A Shrewsbury snr                         b Ferris               1   9  11  0 0
+AE Stoddart           c Blackham         b Turner              17  25  29  1 0
+G Ulyett                                 b Ferris               5   7   6  0 0
+*WW Read                                 b Turner               8  30  38  0 0
+JM Read               c Bannerman        b Turner              39  45  49  4 1
+R Peel                st Blackham        b Turner               9  30  26  1 0
+GA Lohmann            c Blackham         b Turner               0   1   1  0 0
+W Newham              lbw                b Turner              17  60  58  1 0
+J Briggs              c Worrall          b McShane             14  30  39  2 0
+W Attewell            not out                                  10  35  35  1 0
++R Pilling                               b Turner               5   8   8  1 0
+Extras                (b 7, lb 5)                              12
+Total                 (all out, 75 overs)                     137
+
+FoW: 1-9 (Shrewsbury), 2-15 (Ulyett), 3-27 (Stoddart),
+     4-54 (WW Read), 5-82 (Peel), 6-82 (Lohmann), 7-84 (JM Read),
+     8-111 (Briggs), 9-131 (Newham), 10-137 (Pilling).
+
+Bowling                      O      M      R      W
+Turner                      38     23     43      7
+Ferris                      16      4     43      2
+McShane                     21      7     39      1
+
+Australia 2nd innings (target: 209 runs)                        R   M   B  4 6
+AC Bannerman          c Attewell         b Lohmann              2   9  14  0 0
+*PS McDonnell                            b Peel                 6  12  16  1 0
+H Moses               c Briggs           b Lohmann             11  16  13  1 0
+SP Jones              c Shrewsbury       b Lohmann             15  75  79  2 0
+FJ Burton             c Pilling          b Peel                 1   5   9  0 0
+CTB Turner            lbw                b Attewell            12  25  26  2 0
+TW Garrett            c Shrewsbury       b Peel                 1  20  23  0 0
++JM Blackham          not out                                  25  50  54  1 0
+PG McShane                               b Peel                 0  16  15  0 0
+J Worrall                                b Lohmann              1   5   7  0 0
+JJ Ferris             c Shrewsbury       b Attewell             5  20  22  1 0
+Extras                (b 2, lb 1)                               3
+Total                 (all out, 69.2 overs)                    82
+
+FoW: 1-8 (Bannerman), 2-8 (McDonnell), 3-20 (Moses),
+     4-21 (Burton), 5-44 (Turner), 6-47 (Garrett), 7-53 (Jones),
+     8-60 (McShane), 9-61 (Worrall), 10-82 (Ferris).
+
+Bowling                      O      M      R      W
+Lohmann                     32     18     35      4
+Peel                        33     14     40      4
+Attewell                     4.2    2      4      2
+
+*** Two English touring teams in Australia during 1887-88 season combined to
+    play this match.
+
+<END>

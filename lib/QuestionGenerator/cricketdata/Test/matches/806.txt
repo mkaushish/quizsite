@@ -1,0 +1,130 @@
+
+Test # 806
+The Ashes, 1977, 3rd Test
+England v Australia
+Trent Bridge, Nottingham
+28,29,30 July, 1,2 August 1977 (5-day match)
+
+Result: England won by 7 wickets
+Series: England leads the 5-match series 2-0
+
+Toss: Australia
+Umpires: HD Bird and DJ Constant
+Test debut: IT Botham (England).
+
+Close of play:
+ Day 1: Australia 243, England 9/0 (Brearley 5*, Boycott 1*)
+ Day 2: England 242/5 (Boycott 88*, Knott 87*)
+ Day 3: England 364, Australia 112/2 (McCosker 40*, Hookes 31*)
+ Day 4: Australia 309, England 17/0 (Brearley 5*, Boycott 12*)
+
+Australia 1st innings                                           R   M   B  4 6
+RB McCosker           c Brearley         b Hendrick            51 139 126  8 0
+IC Davis              c Botham           b Underwood           33  98  74  3 1
+*GS Chappell                             b Botham              19  81  64  3 0
+DW Hookes             c Hendrick         b Willis              17  46  26  1 0
+KD Walters            c Hendrick         b Botham              11  26  22  1 0
+RD Robinson           c Brearley         b Greig               11  26  16  2 0
++RW Marsh             lbw                b Botham               0   8   7  0 0
+KJ O'Keeffe           not out                                  48 110  81  5 0
+MHN Walker            c Hendrick         b Botham               0   7   8  0 0
+JR Thomson            c Knott            b Botham              21  36  32  4 0
+LS Pascoe             c Greig            b Hendrick            20  57  46  4 0
+Extras                (b 4, lb 2, nb 6)                        12
+Total                 (all out, 82.2 overs)                   243
+
+FoW: 1-79 (Davis), 2-101 (McCosker), 3-131 (Chappell),
+     4-133 (Hookes), 5-153 (Walters), 6-153 (Robinson),
+     7-153 (Marsh), 8-155 (Walker), 9-196 (Thomson),
+     10-243 (Pascoe).
+
+Bowling                      O      M      R      W
+Willis                      15      0     58      1
+Hendrick                    21.2    6     46      2
+Botham                      20      5     74      5
+Greig                       15      4     35      1
+Underwood                   11      5     18      1
+
+England 1st innings                                             R   M   B  4 6
+*JM Brearley          c Hookes           b Pascoe              15  84  65  0 0
+G Boycott             c McCosker         b Thomson            107 419 315 11 0
+RA Woolmer            lbw                b Pascoe               0   1   3  0 0
+DW Randall            run out                                  13  28  23  2 0
+AW Greig                                 b Thomson             11  22  17  2 0
+G Miller              c Robinson         b Pascoe              13  24  18  2 0
++APE Knott            c Davis            b Thomson            135 293 210 18 0
+IT Botham                                b Walker              25  93  61  3 0
+DL Underwood                             b Pascoe               7  44  37  1 0
+M Hendrick                               b Walker               1  10   6  0 0
+RGD Willis            not out                                   2   7   7  0 0
+Extras                (b 9, lb 7, w 3, nb 16)                  35
+Total                 (all out, 124.2 overs)                  364
+
+FoW: 1-34 (Brearley), 2-34 (Woolmer), 3-52 (Randall),
+     4-64 (Greig), 5-82 (Miller), 6-297 (Boycott), 7-326 (Knott),
+     8-357 (Underwood), 9-357 (Botham), 10-364 (Hendrick).
+
+Bowling                      O      M      R      W
+Thomson                     31      6    103      3
+Pascoe                      32     10     80      4
+Walker                      39.2   12     79      2
+Chappell                     8      0     19      0
+O'Keeffe                    11      4     43      0
+Walters                      3      0      5      0
+
+Australia 2nd innings                                           R   M   B  4 6
+RB McCosker           c Brearley         b Willis             107 368 307 10 1
+IC Davis              c Greig            b Willis               9  26  20  1 0
+*GS Chappell                             b Hendrick            27  37  39  5 0
+DW Hookes             lbw                b Hendrick            42 184 128  4 0
+KD Walters            c Randall          b Greig               28  77  74  3 0
+RD Robinson           lbw                b Underwood           34  96  73  5 0
++RW Marsh             c Greig            b Willis               0   7   5  0 0
+KJ O'Keeffe           not out                                  21 120  81  4 0
+MHN Walker                               b Willis              17  53  43  4 0
+JR Thomson                               b Willis               0   6   5  0 0
+LS Pascoe             c Hendrick         b Underwood            0   5   5  0 0
+Extras                (b 1, lb 5, w 1, nb 17)                  24
+Total                 (all out, 127 overs)                    309
+
+FoW: 1-18 (Davis), 2-60 (Chappell), 3-154 (Hookes),
+     4-204 (Walters), 5-240 (McCosker), 6-240 (Marsh),
+     7-270 (Robinson), 8-307 (Walker), 9-308 (Thomson),
+     10-309 (Pascoe).
+
+Bowling                      O      M      R      W
+Willis                      26      6     88      5
+Hendrick                    32     14     56      2
+Botham                      25      5     60      0
+Greig                        9      2     24      1
+Underwood                   27     15     49      2
+Miller                       5      2      5      0
+Woolmer                      3      0      3      0
+
+England 2nd innings (target: 189 runs)                          R   M   B  4 6
+*JM Brearley                             b Walker              81 258 211 13 0
+G Boycott             not out                                  80 311 231  9 0
++APE Knott            c O'Keeffe         b Walker               2   2   3  0 0
+AW Greig                                 b Walker               0   5   2  0 0
+DW Randall            not out                                  19  40  43  3 0
+Extras                (b 2, lb 2, w 1, nb 2)                    7
+Total                 (3 wickets, 81.2 overs)                 189
+
+DNB: RA Woolmer, G Miller, IT Botham, DL Underwood, M Hendrick,
+     RGD Willis.
+
+FoW: 1-154 (Brearley), 2-156 (Knott), 3-158 (Greig).
+
+Bowling                      O      M      R      W
+Thomson                     16      6     34      0
+Pascoe                      22      6     43      0
+O'Keeffe                    19.2    2     65      0
+Walker                      24      8     40      3
+
+*** Eng 1st innings
+*** APE Knott passes 4000 runs, the first 'keeper to do so
+
+*** G Boycott became the second player after ML Jaisamha to bat on every day
+    of a 5 day Test
+
+<END>

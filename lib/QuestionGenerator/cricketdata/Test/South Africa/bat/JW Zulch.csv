@@ -1,0 +1,33 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+106, 1910-01-01, 1, 1, England, , Simpson-Hayward, 19, na, na, na, 0
+106, 1910-01-01, 3, 1, England, lbw, Buckenham, 27, na, na, na, 0
+107, 1910-01-21, 1, 2, England, , Thompson, 13, na, na, na, 0
+107, 1910-01-21, 3, 2, England, c Rhodes, Buckenham, 3, na, na, 0, 0
+108, 1910-02-26, 1, 2, England, c Woolley, Thompson, 1, na, na, 0, 0
+108, 1910-02-26, 3, 2, England, run out, , 34, na, na, na, 0
+109, 1910-03-07, 2, 1, England, , Simpson-Hayward, 30, na, na, na, 0
+109, 1910-03-07, 4, 1, England, c Strudwick, Thompson, 13, na, na, na, 0
+110, 1910-03-11, 2, 1, England, not out, , 43, na, na, na, 0
+110, 1910-03-11, 3, 1, England, , Woolley, 14, na, na, na, 0
+111, 1910-12-09, 2, 2, Australia, , Cotter, 4, 6, 8, 0, 0
+111, 1910-12-09, 3, 4, Australia, run out, , 1, 7, 6, 0, 0
+112, 1911-12-31, 2, 1, Australia, , Cotter, 42, 124, 152, 5, 0
+112, 1911-12-31, 4, 8, Australia, not out, , 6, 27, 30, 0, 0
+113, 1911-01-07, 1, 2, Australia, c Macartney, Whitty, 105, 185, 237, 9, 1
+113, 1911-01-07, 3, 2, Australia, c Carter, Whitty, 14, 34, 32, 1, 0
+114, 1911-02-17, 2, 1, Australia, run out, , 2, 6, 8, 0, 0
+114, 1911-02-17, 4, 1, Australia, c Trumper, Cotter, 15, 16, 21, 2, 0
+115, 1911-03-03, 2, 2, Australia, st Carter, Hordern, 15, 41, 39, 2, 0
+115, 1911-03-03, 3, 2, Australia, , Ransford, 150, 298, 304, 15, 0
+131, 1913-12-26, 1, 1, England, c Woolley, Barnes, 14, na, na, na, 0
+131, 1913-12-26, 3, 1, England, c Relf, Barnes, 34, na, na, na, 0
+132, 1914-01-01, 2, 2, England,                c &, Hearne, 38, na, na, na, 0
+132, 1914-01-01, 4, 2, England,                c &, Relf, 82, na, na, na, 0
+134, 1914-02-27, 1, 2, England, c Strudwick, Booth, 11, na, na, na, 0
+134, 1914-02-27, 3, 2, England, c Rhodes, Booth, 60, na, na, na, 0
+145, 1921-11-05, 2, 2, Australia, c Gregory, Macartney, 80, 204, na, 8, 0
+145, 1921-11-05, 4, 5, Australia, c Taylor, McDonald, 17, 53, na, 2, 0
+146, 1921-11-12, 2, 1, Australia, hit wicket, McDonald, 4, 13, na, 0, 0
+146, 1921-11-12, 3, 1, Australia, , Gregory, 2, 8, na, 0, 0
+147, 1921-11-26, 1, 2, Australia, c Ryder, Macartney, 50, 147, na, 7, 0
+147, 1921-11-26, 3, 3, Australia,                c &, Macartney, 40, 94, na, 3, 0

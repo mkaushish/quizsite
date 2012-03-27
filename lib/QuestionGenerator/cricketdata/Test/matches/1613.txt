@@ -1,0 +1,137 @@
+
+Test # 1613
+India in England, 2002, 3rd Test
+England v India
+Headingley, Leeds
+22,23,24,25,26 August 2002 (5-day match)
+
+Result: India won by an innings and 46 runs
+Series: 4-match series level 1-1
+
+Toss: India
+Umpires: EAR de Silva (SL) and DL Orchard (SA)
+TV umpire: P Willey
+Match referee: CH Lloyd (WI)
+Player of the match: R Dravid
+
+Close of play:
+ Day 1: India 236/2 (Dravid 110*, Tendulkar 18*, 90 ov)
+ Day 2: India 584/4 (Tendulkar 185*, 173.1 ov)
+ Day 3: India 628/8d, England 264/9 (Stewart 71*, Hoggard 0*, 85 ov)
+ Day 4: England 273, England 239/4 (Hussain 90*, Stewart 40*, 86 ov)
+
+India 1st innings                                               R   M   B  4 6
+SB Bangar             c Stewart          b Flintoff            68 296 236 10 0
+V Sehwag              c Flintoff         b Hoggard              8  30  23  1 0
+R Dravid              st Stewart         b Giles              148 429 307 23 0
+SR Tendulkar          lbw                b Caddick            193 434 330 19 3
+*SC Ganguly                              b Tudor              128 261 167 14 3
+VVS Laxman            c Hussain          b Tudor                6  22   7  1 0
+AB Agarkar                               b Caddick              2   7   7  0 0
++PA Patel             not out                                   7  20  11  0 0
+Harbhajan Singh       c Hoggard          b Caddick             18  14  11  4 0
+Extras                (b 14, lb 13, w 5, nb 18)                50
+Total                 (8 wickets dec, 180.1 overs, 760 mins)  628
+
+DNB: A Kumble, Z Khan.
+
+FoW: 1-15 (Sehwag, 6.5 ov), 2-185 (Bangar, 74.2 ov),
+     3-335 (Dravid, 113.4 ov), 4-584 (Ganguly, 173.1 ov),
+     5-596 (Tendulkar, 174.5 ov), 6-602 (Agarkar, 176.3 ov),
+     7-604 (Laxman, 177.4 ov), 8-628 (Harbhajan Singh, 180.1 ov).
+
+Bowling                      O      M      R      W
+Hoggard                     36     12    102      1 (4nb)
+Caddick                     40.1    5    150      3 (8nb)
+Tudor                       36     10    146      2 (4nb)
+Flintoff                    27      6     68      1 (2nb, 1w)
+Giles                       39      3    134      1
+Butcher                      1      1      0      0
+Vaughan                      1      0      1      0
+
+England 1st innings                                             R   M   B  4 6
+RWT Key               c Laxman           b Khan                30  87  76  6 0
+MP Vaughan            c Sehwag           b Agarkar             61 169 116  9 0
+MA Butcher            lbw                b Kumble              16  42  35  2 0
+*N Hussain            lbw                b Khan                25  61  47  5 0
+JP Crawley            c Laxman           b Harbhajan Singh     13  62  45  1 0
++AJ Stewart           not out                                  78 170 120 11 0
+A Flintoff            lbw                b Harbhajan Singh      0   1   1  0 0
+AJ Tudor              c Sehwag           b Agarkar              1  24  23  0 0
+AF Giles              lbw                b Kumble              25  62  52  4 0
+AR Caddick                               b Harbhajan Singh      1  13  11  0 0
+MJ Hoggard            c Sehwag           b Kumble               0  26  18  0 0
+Extras                (b 1, lb 12, nb 10)                      23
+Total                 (all out, 89 overs, 363 mins)           273
+
+FoW: 1-67 (Key, 21.6 ov), 2-109 (Butcher, 32.4 ov),
+     3-130 (Vaughan, 41.5 ov), 4-140 (Hussain, 47.2 ov),
+     5-164 (Crawley, 56.3 ov), 6-164 (Flintoff, 56.4 ov),
+     7-185 (Tudor, 63.1 ov), 8-255 (Giles, 78.5 ov),
+     9-258 (Caddick, 81.5 ov), 10-273 (Hoggard, 88.6 ov).
+
+Bowling                      O      M      R      W
+Khan                        19      3     59      2 (2nb)
+Agarkar                     15      4     59      2 (2nb)
+Bangar                       4      1      9      0 (1nb)
+Kumble                      33      7     93      3 (5nb)
+Harbhajan Singh             18      6     40      3
+
+England 2nd innings (following on)                              R   M   B  4 6
+RWT Key               lbw                b Kumble              34 110  81  4 0
+MP Vaughan            lbw                b Agarkar             15  41  27  2 0
+MA Butcher            c Dravid           b Bangar              42 124 100  6 0
+*N Hussain            c Sehwag           b Kumble             110 271 194 18 1
+JP Crawley            c Sehwag           b Bangar              12  29  26  2 0
++AJ Stewart           c Dravid           b Kumble              47 195 134  7 0
+A Flintoff            c Dravid           b Khan                 0   4   2  0 0
+AJ Tudor              c Sehwag           b Harbhajan Singh     21  67  56  4 0
+AF Giles              run out (Ganguly/Harbhajan Singh)        10  42  26  1 0
+AR Caddick            c Ganguly          b Kumble               3  25  18  0 0
+MJ Hoggard            not out                                   1   5   6  0 0
+Extras                (b 3, lb 5, nb 6)                        14
+Total                 (all out, 110.5 overs, 461 mins)        309
+
+FoW: 1-28 (Vaughan, 9.4 ov), 2-76 (Key, 26.5 ov),
+     3-116 (Butcher, 39.5 ov), 4-148 (Crawley, 47.1 ov),
+     5-265 (Hussain, 92.6 ov), 6-267 (Flintoff, 93.2 ov),
+     7-267 (Stewart, 94.2 ov), 8-299 (Giles, 103.6 ov),
+     9-307 (Tudor, 109.2 ov), 10-309 (Caddick, 110.5 ov).
+
+Bowling                      O      M      R      W
+Khan                        22      7     63      1 (5nb)
+Agarkar                     18      5     59      1
+Bangar                      13      2     54      2
+Kumble                      29.5   12     66      4 (1nb)
+Harbhajan Singh             27      7     56      1
+Sehwag                       1      0      3      0
+
+*** Day 1
+*** 2nd wicket partnership is a record for India at Headingley - beating the
+    168 by FM Engineer and AL Wadekar in 1967
+*** R Dravid 100 in 300 mins off 220 balls, 14x4
+
+*** Day 2
+*** 3rd wicket partnership is a record for India at Headingley - beating the
+    53 by RJ Shastri and DB Vengsarkar in 1986
+*** SR Tendulkar 100 in 232 mins off 171 balls, 13x4
+*** R Dravid's 148 equals the highest score for India at Headingley
+*** 4th wicket partnership is a record for India v England in ALL Tests
+    beating 222 by VS Hazare and VL Manjrekar in 1952
+*** This is India's highest team toal at Headingley, beating the 510 made in
+    1967
+*** Tendulkar's score is the highest made for India at Headlingley
+
+*** Day 3
+*** India's total is the highest by EITHER team in England v India Test
+    matches
+*** 8th wicket partnership is the highest for England v India at Headingley -
+    beating the 35 by TG Evans and JC Laker in 1952
+
+*** Day 5
+*** N Hussain 100 in 250 mins off 184 balls, 17x4, 1x6
+*** 5th wicket partnership is a record for England v India at Headingley -
+    beating the 90 put on by TW Graveney and AJ Watkins in 1952
+*** England 2nd innings: 1x5 ball over (94th over, Khan's 20th)
+
+<END>

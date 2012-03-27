@@ -1,0 +1,32 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+380, 1954-01-15, 1, 3, England, lbw, Statham, 94, 360, na, na, 0
+380, 1954-01-15, 3, 3, England, lbw, Moss, 1, 15, na, 0, 0
+383, 1954-02-06, 1, 1, England, c Graveney, Bailey, 11, na, na, na, 0
+383, 1954-02-06, 3, 1, England,                c &, Statham, 166, na, na, 25, 1
+384, 1954-02-24, 2, 9, England, not out, , 48, na, na, na, 0
+384, 1954-02-24, 3, 1, England, , Lock, 64, na, na, na, 0
+385, 1954-03-17, 1, 1, England, c Compton, Trueman, 40, na, na, na, 0
+386, 1954-03-30, 1, 1, England, c Lock, Bailey, 0, 3, 5, 0, 0
+386, 1954-03-30, 3, 1, England, c Lock, Trueman, 8, na, na, na, 0
+403, 1955-03-26, 2, 1, Australia, c Benaud, Lindwall, 31, na, na, na, 0
+403, 1955-03-26, 3, 1, Australia, c Maddocks, Benaud, 60, 140, na, 11, 0
+404, 1955-04-11, 1, 1, Australia, c Johnston, Lindwall, 25, na, na, na, 0
+404, 1955-04-11, 3, 1, Australia, lbw, Archer, 21, na, na, na, 0
+405, 1955-04-26, 1, 1, Australia,                c &, Miller, 12, 25, na, na, 0
+405, 1955-04-26, 3, 1, Australia, c Langley, Miller, 6, na, na, na, 0
+406, 1955-05-14, 2, 1, Australia, , Lindwall, 22, 40, na, na, 0
+406, 1955-05-14, 4, 1, Australia, lbw, Hill, 49, na, na, na, 0
+408, 1955-06-11, 1, 1, Australia, c Langley, Miller, 4, na, na, na, 0
+408, 1955-06-11, 3, 1, Australia, c Langley, Benaud, 21, na, na, na, 0
+459, 1958-11-28, 1, 1, India, c Tamhane, Ramchand, 16, na, na, na, 0
+459, 1958-11-28, 3, 1, India, c Hardikar, Guard, 24, na, na, na, 0
+461, 1958-12-12, 1, 1, India, lbw, Gupte, 31, na, na, na, 0
+461, 1958-12-12, 3, 1, India, c Borde, Ramchand, 0, na, na, 0, 0
+463, 1959-12-31, 1, 1, India, c Contractor, Surendranath, 5, na, na, na, 0
+465, 1959-01-21, 1, 2, India, lbw, Gupte, 63, na, na, na, na
+465, 1959-01-21, 3, 2, India, not out, , 81, na, na, na, na
+467, 1959-02-06, 2, 2, India, c Roy, Desai, 123, 255, na, 21, 0
+469, 1959-02-20, 1, 2, Pakistan, lbw, Nasim-ul-Ghani, 29, 129, na, na, 0
+469, 1959-02-20, 3, 2, Pakistan, c Ijaz Butt, Fazal Mahmood, 2, na, na, 0, 0
+471, 1959-03-06, 2, 1, Pakistan, , Mahmood Hussain, 4, na, na, na, 0
+471, 1959-03-06, 4, 1, Pakistan, c Imtiaz Ahmed, Fazal Mahmood, 5, na, na, na, 0

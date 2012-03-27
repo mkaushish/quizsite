@@ -1,0 +1,118 @@
+
+Test # 344
+England in India, 1951/52, 3rd Test
+India v England
+Eden Gardens, Calcutta
+30,31 December 1951, 1,3,4 January 1952 (5-day match)
+
+Result: Match drawn
+Series: 5-match series level 0-0
+
+Toss: England
+Umpires: AR Joshi and BJ Mohoni
+Test debuts: CJ Poole (England); RV Divecha, SP Gupte, VL Manjrekar (India).
+
+Close of play:
+ Day 1: England 214/4 (Watkins 53*, Poole 43*)
+ Day 2: England 342, India 65/0 (Roy 40*, Mankad 20*)
+ Day 3: India 257/6 (Phadkar 72*, Gopinath 11*)
+ Day 4: India 344, England 98/2 (Spooner 39*, Watkins 1*)
+
+England 1st innings                                             R   M   B  4 6
+JDB Robertson         c Phadkar          b Divecha             13            0
++RT Spooner           c Sen              b Mankad              71 195        0
+TW Graveney           c Amarnath         b Divecha             24            0
+AJ Watkins            c Sen              b Phadkar             68 260        0
+D Kenyon              c Manjrekar        b Mankad               3          0 0
+CJ Poole              c Divecha          b Phadkar             55            0
+*ND Howard            c Amarnath         b Mankad              23            0
+JB Statham                               b Phadkar              1          0 0
+E Leadbeater          run out                                  38            0
+F Ridgway             st Sen             b Mankad              24            0
+R Tattersall          not out                                   5            0
+Extras                (b 4, lb 1, w 1, nb 11)                  17
+Total                 (all out, 159.5 overs)                  342
+
+FoW: 1-22 (Robertson), 2-76 (Graveney), 3-133 (Spooner),
+     4-139 (Kenyon), 5-246 (Watkins), 6-247 (Poole),
+     7-259 (Statham), 8-290 (Howard), 9-332 (Leadbeater),
+     10-342 (Ridgway).
+
+Bowling                      O      M      R      W
+Phadkar                     38     11     89      3
+Divecha                     33      9     60      2
+Amarnath                    20      5     35      0
+Mankad                      52.5   16     89      4
+Gupte                       13      0     43      0
+Hazare                       3      0      9      0
+
+India 1st innings                                               R   M   B  4 6
+P Roy                 c Spooner          b Ridgway             42            0
+MH Mankad             c Tattersall       b Leadbeater          59 245        0
+PR Umrigar            c Howard           b Ridgway             10            0
+*VS Hazare                               b Tattersall           2          0 0
+L Amarnath                               b Tattersall           0          0 0
+DG Phadkar            c Leadbeater       b Ridgway            115 385        1
+VL Manjrekar                             b Tattersall          48            0
+CD Gopinath           c Robertson        b Ridgway             19            0
+RV Divecha            c Watkins          b Tattersall          26            0
+SP Gupte              c Leadbeater       b Statham              0          0 0
++PK Sen               not out                                   7            0
+Extras                (b 3, lb 10, w 1, nb 2)                  16
+Total                 (all out, 149.1 overs)                  344
+
+FoW: 1-72 (Roy), 2-90 (Umrigar), 3-93 (Hazare), 4-93 (Amarnath),
+     5-144 (Mankad), 6-220 (Manjrekar), 7-272 (Gopinath),
+     8-320 (Divecha), 9-327 (Gupte), 10-344 (Phadkar).
+
+Bowling                      O      M      R      W
+Statham                     27     10     46      1
+Ridgway                     38.1   10     83      4
+Tattersall                  48     13    104      4
+Leadbeater                  15      2     64      1
+Watkins                     21      9     31      0
+
+England 2nd innings                                             R   M   B  4 6
+JDB Robertson         st Sen             b Mankad              22            0
++RT Spooner                              b Mankad              92 315        0
+TW Graveney           c Sen              b Divecha             21            0
+AJ Watkins                               b Divecha              2          0 0
+D Kenyon                                 b Phadkar              0          0 0
+CJ Poole              not out                                  69            0
+*ND Howard            not out                                  20            0
+Extras                (b 13, lb 6, w 2, nb 5)                  26
+Total                 (5 wickets dec, 120 overs)              252
+
+DNB: JB Statham, E Leadbeater, F Ridgway, R Tattersall.
+
+FoW: 1-52 (Robertson), 2-93 (Graveney), 3-99 (Watkins),
+     4-102 (Kenyon), 5-184 (Spooner).
+
+Bowling                      O      M      R      W
+Phadkar                     20      7     27      1
+Divecha                     25      7     55      2
+Amarnath                    22      5     43      0
+Mankad                      35     13     64      2
+Gupte                        5      0     14      0
+Hazare                       9      4     11      0
+Umrigar                      4      1     12      0
+
+India 2nd innings (target: 251 runs)                            R   M   B  4 6
+P Roy                 not out                                  31  90        0
+MH Mankad             not out                                  71  90     12 0
+Extras                (b 1)                                     1
+Total                 (0 wickets, 29 overs)                   103
+
+DNB: PR Umrigar, *VS Hazare, L Amarnath, DG Phadkar,
+     VL Manjrekar, CD Gopinath, RV Divecha, SP Gupte, +PK Sen.
+
+Bowling                      O      M      R      W
+Statham                      4      0      8      0
+Ridgway                      2      1      8      0
+Tattersall                   4      2      4      0
+Leadbeater                   8      0     54      0
+Poole                        5      1      9      0
+Robertson                    5      1     10      0
+Graveney                     1      0      9      0
+
+<END>

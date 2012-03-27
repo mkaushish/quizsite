@@ -1,0 +1,96 @@
+
+Test # 565
+The Ashes, 1964, 5th Test
+England v Australia
+Kennington Oval, London
+13,14,15,17,18 August 1964 (5-day match)
+
+Result: Match drawn
+Series: Australia wins the 5-match series 1-0
+
+Toss: England
+Umpires: JF Crapp and CS Elliott
+
+Close of play:
+ Day 1: England 182, Australia 3/0 (Simpson 0*, Lawry 3*)
+ Day 2: Australia 245/5 (Redpath 13*, Grout 0*)
+ Day 3: Australia 379, England 132/2 (Boycott 74*, Titmus 0*)
+ Day 4: England 381/4 (Cowdrey 93*, Barrington 54*, 163 ov)
+ Day 5: No play
+
+England 1st innings                                             R   M   B  4 6
+G Boycott                                b Hawke               30  77      3 0
+RW Barber                                b Hawke               24  51      0 0
+*ER Dexter            c Booth            b Hawke               23  77      4 0
+MC Cowdrey            c Grout            b McKenzie            20  83      2 0
+KF Barrington         c Simpson          b Hawke               47 125      7 0
+PH Parfitt                               b McKenzie             3  15      0 0
++JM Parks             c Simpson          b Corling             10  29      1 0
+FJ Titmus             c Grout            b Hawke                8  31      1 0
+FS Trueman            c Redpath          b Hawke               14  29      3 0
+TW Cartwright         c Grout            b McKenzie             0   8      0 0
+JSE Price             not out                                   0   5      0 0
+Extras                (lb 3)                                    3
+Total                 (all out, 71.4 overs)                   182
+
+FoW: 1-44 (Barber), 2-61 (Boycott), 3-82 (Dexter),
+     4-111 (Cowdrey), 5-117 (Parfitt), 6-141 (Parks),
+     7-160 (Titmus), 8-173 (Barrington), 9-174 (Cartwright),
+     10-182 (Trueman).
+
+Bowling                      O      M      R      W
+McKenzie                    26      6     87      3
+Corling                     14      2     32      1
+Hawke                       25.4    8     47      6
+Veivers                      6      1     13      0
+
+Australia 1st innings                                           R   M   B  4 6
+*RB Simpson           c Dexter           b Cartwright          24  74      2 0
+WM Lawry              c Trueman          b Dexter              94 314      9 0
+NC O'Neill            c Parfitt          b Cartwright          11  32      2 0
+PJP Burge             lbw                b Titmus              25  60      4 0
+BC Booth              c Trueman          b Price               74 196      4 0
+IR Redpath                               b Trueman             45 172      4 0
++ATW Grout                               b Cartwright          20  39      1 0
+TR Veivers            not out                                  67 134      8 1
+GD McKenzie           c Cowdrey          b Trueman              0   2      0 0
+NJN Hawke             c Cowdrey          b Trueman             14  34      3 0
+GE Corling            c Parfitt          b Trueman              0  17      0 0
+Extras                (b 4, lb 1)                               5
+Total                 (all out, 177.3 overs)                  379
+
+FoW: 1-45 (Simpson), 2-57 (O'Neill), 3-96 (Burge), 4-202 (Lawry),
+     5-245 (Booth), 6-279 (Grout), 7-343 (Redpath),
+     8-343 (McKenzie), 9-367 (Hawke), 10-379 (Corling).
+
+Bowling                      O      M      R      W
+Trueman                     33.3    6     87      4
+Price                       21      2     67      1
+Cartwright                  62     23    110      3
+Titmus                      42     20     51      1
+Barber                       6      1     23      0
+Dexter                      13      1     36      1
+
+England 2nd innings                                             R   M   B  4 6
+G Boycott             c Redpath          b Simpson            113 297     10 0
+RW Barber             lbw                b McKenzie            29 122      2 0
+*ER Dexter            c Simpson          b McKenzie            25  29      4 0
+FJ Titmus                                b McKenzie            56 211      6 1
+MC Cowdrey            not out                                  93 221      7 0
+KF Barrington         not out                                  54 152      4 0
+Extras                (b 6, lb 4, nb 1)                        11
+Total                 (4 wickets, 163 overs)                  381
+
+DNB: PH Parfitt, +JM Parks, FS Trueman, TW Cartwright, JSE Price.
+
+FoW: 1-80 (Barber), 2-120 (Dexter), 3-200 (Boycott),
+     4-255 (Titmus).
+
+Bowling                      O      M      R      W
+McKenzie                    38      5    112      3
+Corling                     25      4     65      0
+Hawke                       39      8     89      0
+Veivers                     47     15     90      0
+Simpson                     14      7     14      1
+
+<END>

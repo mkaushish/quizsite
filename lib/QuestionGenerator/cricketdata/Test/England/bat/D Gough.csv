@@ -1,0 +1,86 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+1262, 1994-06-30, 1, 9, New Zealand, c sub, Pringle, 65, 157, 126, 10, 0
+1263, 1994-07-21, 2, 10, South Africa,                c &, Donald, 12, 18, 15, 2, 0
+1263, 1994-07-21, 4, 9, South Africa, retired hurt, , 0, 14, 6, 0, 0
+1264, 1994-08-04, 1, 9, South Africa, run out, , 27, 73, 60, 3, 0
+1266, 1994-08-18, 2, 9, South Africa, not out, , 42, 68, 47, 6, 1
+1275, 1994-11-25, 2, 10, Australia, not out, , 17, 26, 20, 0, 2
+1275, 1994-11-25, 4, 9, Australia, c ME Waugh, Warne, 10, 32, 26, 0, 1
+1279, 1994-12-24, 2, 7, Australia, c Healy, McDermott, 20, 65, 52, 3, 0
+1279, 1994-12-24, 4, 9, Australia, c Healy, Warne, 0, 1, 1, 0, 0
+1281, 1995-01-01, 1, 9, Australia, c Fleming, McDermott, 51, 72, 56, 4, 1
+1298, 1995-06-08, 1, 8, West Indies, c Ambrose, Bishop, 0, 1, 1, 0, 0
+1298, 1995-06-08, 3, 8, West Indies, c sub, Ambrose, 29, 73, 50, 3, 0
+1299, 1995-06-22, 1, 8, West Indies, c Campbell, Gibson, 11, 29, 19, 1, 0
+1299, 1995-06-22, 3, 8, West Indies, , Ambrose, 20, 48, 44, 3, 0
+1300, 1995-07-06, 1, 8, West Indies, c Arthurton, Bishop, 1, 28, 17, 0, 0
+1300, 1995-07-06, 3, 8, West Indies, c Campbell, Walsh, 12, 42, 30, 0, 1
+1312, 1995-11-16, 1, 9, South Africa, , McMillan, 0, 12, 9, 0, 0
+1315, 1995-11-30, 2, 9, South Africa,                c &, Pollock, 2, 21, 18, 0, 0
+1345, 1996-12-18, 2, 8, Zimbabwe, c GW Flower, Olonga, 2, 7, 6, 0, 0
+1345, 1996-12-18, 4, 7, Zimbabwe, not out, , 3, 17, 7, 0, 0
+1348, 1996-12-26, 1, 9, Zimbabwe, , Strang, 2, 9, 8, 0, 0
+1351, 1997-01-24, 2, 9, New Zealand, c Germon, Morrison, 2, 29, 19, 0, 0
+1354, 1997-02-06, 2, 9, New Zealand, c Fleming, Doull, 18, 47, 34, 3, 0
+1355, 1997-02-14, 2, 9, New Zealand, , Vettori, 0, 8, 9, 0, 0
+1368, 1997-06-05, 2, 9, Australia, c Healy, Kasprowicz, 0, 8, 9, 0, 0
+1370, 1997-06-19, 1, 9, Australia, c Healy, McGrath, 10, 12, 10, 2, 0
+1372, 1997-07-03, 2, 9, Australia, lbw, Warne, 1, 13, 13, 0, 0
+1372, 1997-07-03, 4, 9, Australia, , McGrath, 6, 25, 18, 1, 0
+1373, 1997-07-24, 1, 10, Australia, , Gillespie, 0, 6, 2, 0, 0
+1373, 1997-07-24, 3, 10, Australia, c ME Waugh, Gillespie, 0, 2, 1, 0, 0
+1417, 1998-06-04, 1, 10, South Africa, not out, , 16, 35, 15, 2, 0
+1420, 1998-07-02, 2, 10, South Africa, c Donald, Adams, 6, 26, 18, 1, 0
+1420, 1998-07-02, 3, 10, South Africa, c Kirsten, Donald, 12, 75, 76, 0, 0
+1421, 1998-07-23, 2, 10, South Africa, c Boucher, Donald, 2, 15, 13, 0, 0
+1422, 1998-08-06, 1, 10, South Africa, c McMillan, Ntini, 2, 16, 7, 0, 0
+1422, 1998-08-06, 3, 10, South Africa, c Cullinan, Donald, 5, 23, 15, 1, 0
+1423, 1998-08-27, 1, 10, Sri Lanka, c Kaluwitharana, Muralitharan, 4, 15, 8, 1, 0
+1423, 1998-08-27, 3, 10, Sri Lanka, , Muralitharan, 15, 145, 133, 2, 0
+1428, 1998-11-20, 2, 9, Australia, lbw, McGrath, 0, 24, 23, 0, 0
+1431, 1998-11-28, 1, 10, Australia, c ME Waugh, Fleming, 11, 23, 24, 0, 0
+1431, 1998-11-28, 3, 10, Australia, lbw, Gillespie, 0, 2, 1, 0, 0
+1434, 1998-12-11, 2, 9, Australia, c Healy, MacGill, 7, 8, 5, 1, 0
+1434, 1998-12-11, 4, 9, Australia, c Healy, McGrath, 3, 9, 9, 0, 0
+1436, 1998-12-26, 1, 9, Australia, , MacGill, 11, 21, 14, 2, 0
+1436, 1998-12-26, 3, 9, Australia, c Slater, MacGill, 4, 20, 14, 0, 0
+1439, 1999-01-02, 2, 10, Australia, lbw, MacGill, 0, 2, 2, 0, 0
+1439, 1999-01-02, 4, 10, Australia, not out, , 7, 21, 15, 1, 0
+1471, 1999-11-25, 1, 10, South Africa, not out, , 15, 45, 39, 2, 0
+1471, 1999-11-25, 3, 10, South Africa, not out, , 16, 39, 26, 2, 0
+1475, 1999-12-09, 2, 9, South Africa, , Donald, 6, 32, 28, 1, 0
+1480, 1999-12-26, 1, 9, South Africa, c Klusener, Donald, 9, 28, 25, 1, 0
+1482, 2000-01-02, 1, 9, South Africa, c Boucher, Klusener, 4, 22, 12, 0, 0
+1482, 2000-01-02, 3, 8, South Africa, c Donald, Kallis, 8, 28, 23, 0, 0
+1495, 2000-04-18, 2, 10, Zimbabwe, c Campbell, Murphy, 5, 12, 11, 1, 0
+1498, 2000-05-01, 1, 10, Zimbabwe, c Campbell, Streak, 9, 37, 28, 1, 0
+1498, 2000-05-01, 3, 10, Zimbabwe, c Murphy, Whittall, 3, 24, 23, 0, 0
+1500, 2000-05-15, 1, 10, West Indies, run out (Jacobs), , 23, 51, 36, 4, 0
+1500, 2000-05-15, 3, 10, West Indies, not out, , 23, 63, 52, 2, 0
+1503, 2000-06-29, 2, 10, West Indies, c Lara, Ambrose, 13, 44, 24, 0, 1
+1503, 2000-06-29, 4, 10, West Indies, not out, , 4, 44, 19, 0, 0
+1506, 2000-07-03, 2, 11, West Indies, c Ambrose, King, 12, 23, 11, 1, 0
+1508, 2000-07-17, 2, 11, West Indies, c Griffith, Walsh, 2, 6, 7, 0, 0
+1509, 2000-08-31, 1, 11, West Indies, , Walsh, 8, 21, 21, 1, 0
+1509, 2000-08-31, 3, 11, West Indies, not out, , 1, 14, 8, 0, 0
+1518, 2000-11-29, 2, 11, Pakistan, not out, , 19, 50, 30, 2, 0
+1521, 2000-11-07, 2, 11, Pakistan, c Yousuf Youhana, Saqlain Mushtaq, 18, 89, 58, 1, 0
+1530, 2001-01-22, 2, 11, Sri Lanka, not out, , 0, 3, 1, 0, 0
+1530, 2001-01-22, 3, 11, Sri Lanka, , Muralitharan, 0, 4, 1, 0, 0
+1532, 2001-02-07, 2, 11, Sri Lanka, lbw, Vaas, 10, 57, 48, 1, 0
+1537, 2001-02-15, 2, 11, Sri Lanka, c Jayawardene, Vaas, 14, 22, 21, 3, 0
+1546, 2001-04-17, 1, 11, Pakistan, not out, , 5, 5, 4, 1, 0
+1547, 2001-05-31, 2, 10, Pakistan, , Abdul Razzaq, 0, 3, 4, 0, 0
+1547, 2001-05-31, 4, 10, Pakistan, c sub (Imran Nazir), Waqar Younis, 23, 49, 29, 5, 0
+1550, 2001-06-05, 1, 10, Australia, c Gillespie, Warne, 0, 2, 3, 0, 0
+1550, 2001-06-05, 3, 10, Australia, lbw, Warne, 0, 1, 1, 0, 0
+1552, 2001-06-19, 1, 11, Australia, , Warne, 5, 6, 4, 1, 0
+1552, 2001-06-19, 3, 11, Australia, c ME Waugh, Gillespie, 1, 4, 2, 0, 0
+1554, 2001-07-02, 1, 11, Australia, not out, , 0, 16, 10, 0, 0
+1554, 2001-07-02, 3, 11, Australia, not out, , 5, 26, 8, 1, 0
+1556, 2001-07-16, 2, 10, Australia, c Slater, McGrath, 8, 7, 6, 2, 0
+1558, 2001-07-23, 2, 10, Australia, st Gilchrist, Warne, 24, 98, 71, 4, 0
+1558, 2001-07-23, 3, 10, Australia, not out, , 39, 79, 57, 6, 0
+1651, 2003-06-24, 2, 9, South Africa, c Rudolph, Ntini, 1, 29, 18, 0, 0
+1653, 2003-07-31, 1, 9, South Africa, c Adams, Pollock, 34, 78, 48, 3, 2
+1653, 2003-07-31, 3, 9, South Africa, c Adams, Pollock, 14, 35, 22, 3, 0

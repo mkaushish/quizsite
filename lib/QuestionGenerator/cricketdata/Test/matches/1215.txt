@@ -1,0 +1,101 @@
+
+Test # 1215
+Trans-Tasman Trophy, 1992/93, 1st Test
+New Zealand v Australia
+Lancaster Park, Christchurch
+25,26,27,28 February 1993 (5-day match)
+
+Result: Australia won by an innings and 60 runs
+Series: Australia leads the 3-match series 1-0
+
+Toss: New Zealand
+Umpires: BL Aldridge and CE King
+Match referee: Javed Burki (Pak)
+Player of the match: SK Warne
+
+Close of play:
+ Day 1: Australia 217/3 (Langer 63*, SR Waugh 33*)
+ Day 2: Australia 485, New Zealand 30/2 (Wright 4*, Crowe 7*)
+ Day 3: New Zealand 182, New Zealand 37/3 (Crowe 5*, Rutherford 4*)
+
+Australia 1st innings                                           R   M   B  4 6
+DC Boon               c Parore           b Owens               15  74  53  2 0
+MA Taylor             c Crowe            b Morrison            82 255 207  6 0
+JL Langer             lbw                b Morrison            63 288 184  7 0
+ME Waugh              c Parore           b Patel               13  32  37  1 0
+SR Waugh              lbw                b Owens               62 156 125  7 0
+*AR Border            c Parore           b Morrison            88 236 182 13 0
++IA Healy             c Morrison         b Owens               54  89  70  7 1
+MG Hughes             c Cairns           b Patel               45  68  46  3 4
+PR Reiffel            c Greatbatch       b Su'a                18  27  19  4 0
+SK Warne              not out                                  22  29  25  1 0
+CJ McDermott          c Jones            b Cairns               4   4   4  1 0
+Extras                (b 2, lb 6, w 5, nb 6)                   19
+Total                 (all out, 157.3 overs, 632 mins)        485
+
+FoW: 1-33 (Boon), 2-149 (Taylor), 3-170 (ME Waugh),
+     4-217 (Langer), 5-264 (SR Waugh), 6-363 (Healy),
+     7-435 (Border), 8-441 (Hughes), 9-480 (Reiffel),
+     10-485 (McDermott).
+
+Bowling                      O      M      R      W
+Morrison                    36     11     81      3 (1nb)
+Su'a                        33      5    106      1 (3nb)
+Cairns                      31.3    9     87      1 (1nb, 4w)
+Owens                       26      9     58      3 (1nb, 1w)
+Patel                       31      3    145      2
+
+New Zealand 1st innings                                         R   M   B  4 6
+MJ Greatbatch         c Healy            b McDermott            4   2   3  1 0
+JG Wright             lbw                b Warne               39 270 201  4 0
+AH Jones              lbw                b McDermott            8  28  18  2 0
+*MD Crowe             c Taylor           b Hughes              15 102  80  2 0
+KR Rutherford                            b Warne               57 107  81  8 2
+CL Cairns             c Boon             b McDermott            0  11   5  0 0
++AC Parore            c Boon             b Reiffel              6  47  34  0 0
+DN Patel              c McDermott        b Hughes              35  69  64  4 0
+ML Su'a               c Healy            b Reiffel              0   8   7  0 0
+DK Morrison           not out                                   4  33  22  0 0
+MB Owens              lbw                b Warne                0   4   5  0 0
+Extras                (b 2, lb 4, w 4, nb 4)                   14
+Total                 (all out, 86 overs, 345 mins)           182
+
+FoW: 1-4 (Greatbatch), 2-18 (Jones), 3-53 (Crowe),
+     4-124 (Rutherford), 5-128 (Cairns), 6-138 (Wright),
+     7-150 (Parore), 8-152 (Su'a), 9-181 (Patel), 10-182 (Owens).
+
+Bowling                      O      M      R      W
+McDermott                   21      4     73      3 (3nb)
+Hughes                      21     10     44      2 (1nb, 4w)
+Reiffel                     18      8     27      2
+SR Waugh                     4      2      9      0
+Warne                       22     12     23      3
+
+New Zealand 2nd innings (following on)                          R   M   B  4 6
+MJ Greatbatch         c Reiffel          b Hughes               0  11  11  0 0
+JG Wright                                b McDermott           14  59  37  1 0
+AH Jones              c Border           b McDermott           10  39  27  1 0
+*MD Crowe             lbw                b Hughes              14  67  39  2 0
+KR Rutherford         c Healy            b Warne              102 260 215  9 1
+CL Cairns             c Taylor           b Warne               21  64  45  3 0
++AC Parore            c Boon             b Warne                5  37  31  1 0
+DN Patel                                 b Warne                8  45  26  0 0
+ML Su'a                                  b Hughes              44 105  88  6 0
+DK Morrison           c Healy            b Hughes              19  64  45  3 0
+MB Owens              not out                                   0  10   9  0 0
+Extras                (lb 2, nb 4)                              6
+Total                 (all out, 94.5 overs, 385 mins)         243
+
+FoW: 1-0 (Greatbatch), 2-19 (Jones), 3-24 (Wright), 4-51 (Crowe),
+     5-92 (Cairns), 6-110 (Parore), 7-144 (Patel),
+     8-190 (Rutherford), 9-242 (Su'a), 10-243 (Morrison).
+
+Bowling                      O      M      R      W
+Hughes                      24.5    6     62      4 (1nb)
+McDermott                   19      6     45      2 (3nb)
+Reiffel                     18      3     59      0
+SR Waugh                     2      2      0      0
+Warne                       26      7     63      4
+ME Waugh                     5      1     12      0
+
+<END>

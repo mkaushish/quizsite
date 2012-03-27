@@ -1,0 +1,129 @@
+
+Test # 361
+South Africa in Australia, 1952/53, 2nd Test
+Australia v South Africa
+Melbourne Cricket Ground
+24,26,27,29,30 December 1952 (5-day match)
+
+Result: South Africa won by 82 runs
+Series: 5-match series level 1-1
+
+Toss: South Africa
+Umpires: HAR Elphinstone and MJ McInnes
+Balls per over: 8
+
+Close of play:
+ Day 1: South Africa 227, Australia 26/0 (McDonald 14*, Morris 11*)
+ Day 2: Australia 243, South Africa 6/0 (McGlew 4*, Waite 2*)
+ Day 3: South Africa 267/4 (Endean 115*, Cheetham 2*)
+ Day 4: South Africa 388, Australia 132/4 (Miller 23*, Langley 0*)
+
+South Africa 1st innings                                        R   M   B  4 6
+DJ McGlew                                b Lindwall            46 163      2 0
++JHB Waite            c Lindwall         b Miller               0   5   1  0 0
+WR Endean             c Benaud           b Lindwall             2  13      0 0
+KJ Funston            c Ring             b Miller               9  38      0 0
+RA McLean             c Lindwall         b Ring                27  40      2 0
+*JE Cheetham          c Johnston         b Miller              15  28      0 0
+JC Watkins            c Langley          b Benaud              19  50      1 0
+PNF Mansell                              b Lindwall            24  42      4 0
+ARA Murray            c Johnston         b Benaud              51 106      5 0
+HJ Tayfield           c Langley          b Miller              23  59      1 0
+MG Melle              not out                                   4  20      0 0
+Extras                (b 4, lb 3)                               7
+Total                 (all out, 71.6 overs)                   227
+
+FoW: 1-2 (Waite), 2-9 (Endean), 3-27 (Funston), 4-63 (McLean),
+     5-93 (Cheetham), 6-112 (McGlew), 7-126 (Watkins),
+     8-156 (Mansell), 9-207 (Tayfield), 10-227 (Murray).
+
+Bowling                      O      M      R      W
+Lindwall                    14      2     29      3
+Miller                      21      3     62      4
+Johnston                    12      2     37      0
+Ring                        18      1     72      1
+Benaud                       6.6    1     20      2
+
+Australia 1st innings                                           R   M   B  4 6
+CC McDonald           c sub              b Mansell             82 165      7 0
+AR Morris                            c & b Tayfield            43 107      1 0
+RN Harvey             c Cheetham         b Tayfield            11  16      1 0
+*AL Hassett           c Melle            b Mansell             18  54      1 0
+KR Miller             c Endean           b Tayfield            52 101      5 1
+GB Hole               c Waite            b Mansell             13  27      1 0
+R Benaud                                 b Tayfield             5  22      0 0
+RR Lindwall           run out                                   1  10      0 0
+DT Ring               c McGlew           b Tayfield            14  22      2 0
++GRA Langley          not out                                   2  10      0 0
+WA Johnston           lbw                b Tayfield             0   2      0 0
+Extras                (nb 2)                                    2
+Total                 (all out, 71.4 overs)                   243
+
+FoW: 1-84 (Morris), 2-98 (Harvey), 3-155 (McDonald),
+     4-158 (Hassett), 5-188 (Hole), 6-211 (Benaud),
+     7-219 (Lindwall), 8-239 (Ring), 9-243 (Miller),
+     10-243 (Johnston).
+
+Bowling                      O      M      R      W
+Melle                       14      0     73      0
+Watkins                      6      1     15      0
+Murray                       3      1     11      0
+Tayfield                    29.4    9     84      6
+Mansell                     19      3     58      3
+
+South Africa 2nd innings                                        R   M   B  4 6
+DJ McGlew             st Langley         b Ring                13  47      1 0
++JHB Waite            c Hole             b Miller              62 195      5 0
+WR Endean             not out                                 162 452      9 0
+KJ Funston            run out                                  26  73      2 0
+RA McLean             lbw                b Miller              42  65      6 0
+*JE Cheetham          lbw                b Johnston             6  43      0 0
+JC Watkins                               b Johnston             3  16      0 0
+PNF Mansell                              b Miller              18  40      4 0
+ARA Murray            st Langley         b Ring                23  39      3 0
+HJ Tayfield           lbw                b Lindwall            22  29      5 0
+MG Melle                                 b Lindwall             0   2      0 0
+Extras                (b 1, lb 5, w 4, nb 1)                   11
+Total                 (all out, 128.5 overs)                  388
+
+FoW: 1-23 (McGlew), 2-134 (Waite), 3-196 (Funston),
+     4-261 (McLean), 5-284 (Cheetham), 6-290 (Watkins),
+     7-317 (Mansell), 8-353 (Murray), 9-388 (Tayfield),
+     10-388 (Melle).
+
+Bowling                      O      M      R      W
+Lindwall                    31.5    4     87      2
+Miller                      22      5     51      3
+Johnston                    31      9     77      2
+Ring                        31      5    115      2
+Benaud                       6      0     23      0
+Hole                         7      0     24      0
+
+Australia 2nd innings (target: 373 runs)                        R   M   B  4 6
+CC McDonald           c Mansell          b Murray              23  53      3 0
+AR Morris             c Watkins          b Melle                1  12      0 0
+*AL Hassett           lbw                b Tayfield            21  95      2 0
+RN Harvey             c Watkins          b Tayfield            60  94      6 0
+KR Miller                                b Tayfield            31  61      2 0
++GRA Langley                             b Tayfield             4  13      0 0
+GB Hole                                  b Tayfield            25  49      4 0
+R Benaud              c Melle            b Tayfield            45 176      4 0
+RR Lindwall                              b Melle               19  61      3 0
+DT Ring               c Melle            b Tayfield            53  81      6 0
+WA Johnston           not out                                   0   8   2  0 0
+Extras                (b 1, lb 6, nb 1)                         8
+Total                 (all out, 95.1 overs)                   290
+
+FoW: 1-3 (Morris), 2-34 (McDonald), 3-76 (Hassett),
+     4-131 (Harvey), 5-139 (Langley), 6-148 (Miller),
+     7-181 (Hole), 8-216 (Lindwall), 9-277 (Benaud),
+     10-290 (Ring).
+
+Bowling                      O      M      R      W
+Melle                       11      2     39      2
+Watkins                     10      2     34      0
+Murray                      23      7     59      1
+Tayfield                    37.1   13     81      7
+Mansell                     14      2     69      0
+
+<END>

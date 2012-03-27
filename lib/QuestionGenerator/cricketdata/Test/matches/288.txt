@@ -1,0 +1,116 @@
+
+Test # 288
+South Africa in England, 1947, 4th Test
+England v South Africa
+Headingley, Leeds
+26,28,29 July 1947 (4-day match)
+
+Result: England won by 10 wickets
+Series: England leads the 5-match series 3-0
+
+Toss: South Africa
+Umpires: F Chester and JJ Hills
+Test debuts: HJ Butler, JA Young (England); GM Fullerton (South Africa).
+
+Close of play:
+ Day 1: South Africa 175, England 53/0 (Hutton 32*, Washbrook 21*)
+ Day 2: England 317/7 (Evans 6*, Young 0*)
+
+South Africa 1st innings                                        R   M   B  4 6
+*A Melville                              b Edrich               0  13      0 0
+DV Dyer               c Evans            b Wright               9  75        0
+B Mitchell                               b Butler              53 183        0
+AD Nourse                                b Butler              51 156        0
+KG Viljoen                               b Wright               5  22        0
+OC Dawson             c Young            b Butler               5  19        0
++GM Fullerton         c Cranston         b Edrich              13  43        0
+AMB Rowan             c Yardley          b Edrich               0   3      0 0
+NBF Mann              c Edrich           b Cranston            29  41        0
+L Tuckett             c Evans            b Butler               3   8      0 0
+VI Smith              not out                                   0   1      0 0
+Extras                (lb 5, nb 2)                              7
+Total                 (all out, 97.1 overs)                   175
+
+FoW: 1-1 (Melville), 2-23 (Dyer), 3-113 (Mitchell),
+     4-121 (Viljoen), 5-125 (Nourse), 6-130 (Dawson),
+     7-131 (Rowan), 8-158 (Fullerton), 9-175 (Tuckett),
+     10-175 (Mann).
+
+Bowling                      O      M      R      W
+Butler                      28     15     34      4
+Edrich                      17      4     46      3
+Young                       17      5     31      0
+Wright                      20      9     24      2
+Cranston                    11.1    3     24      1
+Compton                      4      0      9      0
+
+England 1st innings                                             R   M   B  4 6
+L Hutton              run out                                 100 277        0
+C Washbrook                              b Mann                75 190     10 0
+WJ Edrich             c Melville         b Mann                43 107        0
+DCS Compton           c Mitchell         b Mann                30  69        0
+CJ Barnett            c Tuckett          b Rowan                6  18        0
+*NWD Yardley          c Nourse           b Smith               36  68        0
+K Cranston            c Melville         b Mann                 3  19      0 0
++TG Evans             not out                                   6  24        0
+JA Young              not out                                   0   5      0 0
+Extras                (b 8, lb 8, nb 2)                        18
+Total                 (7 wickets dec, 154 overs)              317
+
+DNB: DVP Wright, HJ Butler.
+
+FoW: 1-141 (Washbrook), 2-218 (Hutton), 3-241 (Edrich),
+     4-253 (Barnett), 5-289 (Compton), 6-306 (Cranston),
+     7-316 (Yardley).
+
+Bowling                      O      M      R      W
+Tuckett                     18      4     48      0
+Dawson                       4      0     12      0
+Mann                        50     20     68      4
+Smith                       36      9     82      1
+Rowan                       46     12     89      1
+
+South Africa 2nd innings                                        R   M   B  4 6
+*A Melville           c Compton          b Young               30  70        0
+DV Dyer               c Yardley          b Edrich               2  10      0 0
+B Mitchell                               b Young                5  19        0
+AD Nourse             lbw                b Butler              57 139        0
+KG Viljoen            lbw                b Butler              29  90        0
+OC Dawson                                b Butler              17  26        0
++GM Fullerton         lbw                b Cranston            13  55        0
+AMB Rowan             not out                                  21  45        0
+NBF Mann              c Evans            b Cranston             0   2   2  0 0
+L Tuckett                                b Cranston             0   2   2  0 0
+VI Smith                                 b Cranston             0   1   1  0 0
+Extras                (b 4, lb 6)                              10
+Total                 (all out, 80 overs)                     184
+
+FoW: 1-6 (Dyer), 2-16 (Mitchell), 3-59 (Melville),
+     4-130 (Viljoen), 5-139 (Nourse), 6-156 (Dawson),
+     7-184 (Fullerton), 8-184 (Mann), 9-184 (Tuckett),
+     10-184 (Smith).
+
+Bowling                      O      M      R      W
+Butler                      24      9     32      3
+Edrich                      14      2     35      1
+Young                       19      7     54      2
+Wright                      14      7     31      0
+Cranston                     7      3     12      4
+Compton                      2      0     10      0
+
+England 2nd innings (target: 43 runs)                           R   M   B  4 6
+L Hutton              not out                                  32  38        1
+C Washbrook           not out                                  15  38        0
+Extras                                                          0
+Total                 (0 wickets, 15.4 overs)                  47
+
+DNB: WJ Edrich, DCS Compton, CJ Barnett, *NWD Yardley,
+     K Cranston, +TG Evans, JA Young, DVP Wright, HJ Butler.
+
+Bowling                      O      M      R      W
+Tuckett                      6      1     12      0
+Dawson                       4      1     13      0
+Mann                         3.4    0     17      0
+Mitchell                     2      1      5      0
+
+<END>

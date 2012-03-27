@@ -1,0 +1,68 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+1523, 2000-11-15, 1, 7, Australia, lbw, Miller, 35, 113, 92, 4, 0
+1523, 2000-11-15, 3, 6, Australia, c Hayden, MacGill, 3, 28, 26, 0, 0
+1525, 2000-11-26, 2, 6, Australia, not out, , 60, 153, 123, 8, 0
+1525, 2000-11-26, 4, 7, Australia, c Gillespie, Miller, 46, 131, 108, 6, 0
+1527, 2001-01-02, 1, 5, Australia, c Langer, MacGill, 28, 89, 72, 5, 0
+1527, 2001-01-02, 3, 5, Australia, lbw, Gillespie, 0, 1, 1, 0, 0
+1534, 2001-02-09, 1, 3, South Africa, , Boje, 40, 110, 87, 6, 0
+1534, 2001-02-09, 3, 3, South Africa, , Kallis, 51, 280, 202, 5, 0
+1538, 2001-02-17, 2, 3, South Africa, c Klusener, Donald, 35, 98, 66, 4, 0
+1538, 2001-02-17, 4, 4, South Africa, c Kallis, Donald, 9, 31, 29, 2, 0
+1541, 2001-03-29, 2, 3, South Africa, c McKenzie, Kallis, 6, 45, 33, 1, 0
+1541, 2001-03-29, 4, 3, South Africa, c Cullinan, Boje, 3, 23, 20, 0, 0
+1544, 2001-03-19, 1, 5, South Africa, c Boucher, Donald, 3, 10, 12, 0, 0
+1544, 2001-03-19, 3, 5, South Africa, , Pollock, 59, 143, 97, 9, 0
+1551, 2001-06-19, 2, 6, Zimbabwe, , Price, 42, 98, 71, 6, 0
+1553, 2001-06-27, 2, 6, Zimbabwe, c Campbell, Price, 39, 93, 82, 7, 0
+1567, 2001-10-13, 1, 6, Sri Lanka, , Muralitharan, 16, 50, 48, 2, 0
+1567, 2001-10-13, 3, 6, Sri Lanka, lbw, Muralitharan, 2, 48, 25, 0, 0
+1570, 2001-10-21, 2, 6, Sri Lanka, c Sangakkara, Muralitharan, 0, 9, 10, 0, 0
+1570, 2001-10-21, 4, 6, Sri Lanka, lbw, Muralitharan, 54, 118, 117, 8, 0
+1572, 2001-11-29, 1, 6, Sri Lanka, lbw, Vaas, 4, 36, 25, 0, 0
+1572, 2001-11-29, 3, 6, Sri Lanka, c Jayawardene, Muralitharan, 0, 2, 2, 0, 0
+1622, 2002-10-30, 2, 7, India, c Sehwag, Harbhajan Singh, 104, 253, 182, 18, 0
+1630, 2002-11-08, 2, 5, Bangladesh, lbw, Talha Jubair, 91, 211, 175, 15, 0
+1632, 2002-11-16, 2, 5, Bangladesh, c Al Sahariar, Talha Jubair, 31, 61, 36, 4, 1
+1632, 2002-11-16, 4, 5, Bangladesh, not out, , 15, 28, 14, 2, 0
+1638, 2003-03-10, 1, 5, Australia, c Hayden, Hogg, 0, 1, 1, 0, 0
+1638, 2003-03-10, 3, 5, Australia, c Ponting, MacGill, 7, 5, 10, 1, 0
+1639, 2003-03-19, 2, 6, Australia, c Bichel, MacGill, 68, 164, 122, 9, 1
+1639, 2003-03-19, 4, 6, Australia, lbw, Bichel, 1, 18, 19, 0, 0
+1648, 2003-05-20, 2, 6, Sri Lanka, st Kaluwitharana, Muralitharan, 8, 43, 33, 0, 0
+1649, 2003-05-27, 2, 5, Sri Lanka, c Tillakaratne, Nissanka, 14, 49, 27, 2, 0
+1649, 2003-05-27, 4, 5, Sri Lanka, not out, , 0, 3, 3, 0, 0
+1769, 2005-10-03, 2, 6, Australia, c Gilchrist, McGrath, 5, 12, 9, 1, 0
+1769, 2005-10-03, 4, 6, Australia, not out, , 17, 52, 20, 3, 0
+1771, 2005-10-17, 1, 6, Australia, c Gilchrist, McGrath, 5, 37, 22, 1, 0
+1771, 2005-10-17, 3, 6, Australia, c Hodge, Warne, 29, 120, 87, 2, 0
+1807, 2006-05-22, 1, 7, India, c Harbhajan Singh, Sehwag, 87, na, 159, 8, 3
+1807, 2006-05-22, 3, 7, India, st Dhoni, Harbhajan Singh, 20, na, 18, 3, 0
+1808, 2006-06-30, 2, 4, India, st Dhoni, Kumble, 2, 23, 20, 0, 0
+1808, 2006-06-30, 4, 7, India, lbw, Kumble, 5, 38, 27, 0, 0
+1836, 2007-05-15, 1, 7, England, , Sidebottom, 19, 79, 64, 3, 0
+1836, 2007-05-15, 3, 7, England, c Collingwood, Panesar, 2, 14, 10, 0, 0
+1856, 2007-11-26, 1, 4, South Africa, c Kallis, Steyn, 94, 267, 195, 12, 0
+1856, 2007-11-26, 3, 4, South Africa, , Steyn, 40, 120, 87, 5, 0
+1858, 2008-01-02, 1, 4, South Africa, c Boucher, Ntini, 51, 204, 144, 7, 0
+1858, 2008-01-02, 3, 4, South Africa, lbw, Nel, 18, 85, 51, 3, 0
+1860, 2008-01-10, 1, 4, South Africa, c Boucher, Ntini, 6, 16, 7, 1, 0
+1860, 2008-01-10, 3, 4, South Africa, , Steyn, 105, 284, 190, 18, 0
+1869, 2008-02-22, 2, 4, Sri Lanka, c HAPW Jayawardene, Thushara, 5, 24, 19, 1, 0
+1869, 2008-02-22, 4, 4, Sri Lanka, c +Sangakkara, Vaas, 10, 28, 23, 1, 0
+1872, 2008-03-03, 2, 4, Sri Lanka, lbw, Muralitharan, 3, na, 10, 0, 0
+1872, 2008-03-03, 4, 4, Sri Lanka, c Warnapura, Vaas, 11, na, 40, 1, 0
+1993, 2011-04-20, 2, 5, Pakistan, c Taufeeq Umar, Saeed Ajmal, 57, 145, 124, 7, 2
+1993, 2011-04-20, 4, 5, Pakistan, c Mohammad Salman, Abdur Rehman, 6, 36, 33, 0, 0
+1998, 2011-06-28, 2, 7, India, not out, , 78, 238, 172, 8, 0
+1998, 2011-06-28, 4, 6, India, lbw, Sharma, 9, 29, 19, 1, 0
+1999, 2011-06-06, 1, 6, India, , Kumar, 9, 37, 23, 2, 0
+1999, 2011-06-06, 3, 6, India, lbw, Harbhajan Singh, 0, 2, 3, 0, 0
+2010, 2011-09-21, 2, 6, Bangladesh, c Raqibul Hasan, Elias Sunny, 24, 53, 44, 4, 0
+2012, 2011-10-29, 1, 7, Bangladesh,                c &, Nasir Hossain, 48, 110, 79, 7, 0
+2015, 2011-10-06, 1, 6, India, c Dhoni, Ashwin, 15, 31, 22, 3, 0
+2015, 2011-10-06, 3, 7, India, , Ashwin, 0, 2, 4, 0, 0
+2017, 2011-10-14, 2, 6, India, , Yadav, 25, 56, 51, 3, 0
+2017, 2011-10-14, 3, 6, India, lbw, Ashwin, 84, 136, 111, 13, 1
+2019, 2011-10-22, 1, 6, India, c Dravid, Ashwin, 61, 132, 103, 9, 0
+2019, 2011-10-22, 3, 6, India, st Dhoni, Ojha, 0, 2, 4, 0, 0

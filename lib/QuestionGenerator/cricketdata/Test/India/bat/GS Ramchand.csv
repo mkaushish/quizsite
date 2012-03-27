@@ -1,0 +1,54 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+351, 1952-06-05, 1, 9, England, c Watkins, Laker, 0, na, na, 0, 0
+351, 1952-06-05, 3, 9, England, st Evans, Jenkins, 0, na, na, 0, 0
+352, 1952-06-19, 1, 8, England, , Trueman, 18, na, na, na, 0
+352, 1952-06-19, 3, 9, England, , Trueman, 42, 42, na, na, 0
+353, 1952-07-17, 2, 9, England, c Graveney, Trueman, 2, 7, na, 0, 0
+353, 1952-07-17, 3, 9, England, c Watkins, Lock, 1, 1, na, 0, 0
+354, 1952-08-14, 2, 9, England, c Hutton, Bedser, 5, na, na, na, 0
+355, 1952-10-16, 1, 9, Pakistan, c Imtiaz Ahmed, Fazal Mahmood, 13, na, na, na, 0
+358, 1952-11-28, 2, 8, Pakistan, not out, , 25, na, na, na, 0
+360, 1952-12-12, 2, 9, Pakistan, , Mahmood Hussain, 25, na, na, na, 0
+363, 1953-01-21, 1, 3, West Indies, c Stollmeyer, Ramadhin, 61, na, na, na, 0
+363, 1953-01-21, 3, 3, West Indies, c Binns, Walcott, 17, na, na, na, 0
+366, 1953-02-07, 2, 6, West Indies, , Ramadhin, 17, na, na, na, 0
+366, 1953-02-07, 4, 4, West Indies, , Ramadhin, 34, na, na, na, 0
+367, 1953-02-19, 1, 3, West Indies, c Legall, King, 62, na, na, 11, 0
+367, 1953-02-19, 3, 3, West Indies, c Weekes, King, 1, na, na, 0, 0
+369, 1953-03-11, 1, 3, West Indies, run out, , 0, na, na, 0, 0
+369, 1953-03-11, 3, 3, West Indies, , Valentine, 2, na, na, 0, 0
+371, 1953-03-28, 1, 3, West Indies, lbw, Valentine, 22, na, na, na, 0
+371, 1953-03-28, 3, 7, West Indies, c Pairaudeau, Valentine, 33, na, na, na, 0
+394, 1955-01-01, 2, 6, Pakistan, c Imtiaz Ahmed, Mahmood Hussain, 37, na, na, na, 0
+395, 1955-01-15, 1, 6, Pakistan, , Mahmood Hussain, 53, na, na, na, 0
+397, 1955-01-29, 2, 6, Pakistan, c Maqsood Ahmed, Fazal Mahmood, 12, na, na, na, 0
+398, 1955-02-13, 2, 6, Pakistan, c Shujauddin, Khan Mohammad, 18, na, na, na, 0
+400, 1955-02-26, 2, 6, Pakistan, c Hanif Mohammad, Fazal Mahmood, 15, na, na, na, 0
+400, 1955-02-26, 4, 4, Pakistan, not out, , 12, na, na, na, 0
+416, 1955-11-19, 1, 6, New Zealand, not out, , 12, na, na, na, 0
+417, 1955-12-02, 1, 6, New Zealand, , MacGibbon, 22, na, na, na, 0
+418, 1955-12-16, 2, 6, New Zealand, st McMahon, Poore, 72, na, na, 11, 1
+419, 1956-12-28, 1, 6, New Zealand, , Reid, 1, na, na, 0, 0
+419, 1956-12-28, 3, 6, New Zealand, not out, , 106, na, na, 14, 0
+420, 1956-01-06, 1, 4, New Zealand, lbw, MacGibbon, 21, na, na, na, 0
+431, 1956-10-19, 1, 5, Australia, , Crawford, 0, na, na, 0, 0
+431, 1956-10-19, 3, 6, Australia, lbw, Johnson, 28, na, na, na, 0
+432, 1956-10-26, 1, 6, Australia, c sub, Mackay, 109, na, na, na, 0
+432, 1956-10-26, 3, 6, Australia, c Maddocks, Wilson, 16, na, na, na, 0
+433, 1956-11-02, 2, 6, Australia, st Langley, Benaud, 2, na, na, 0, 0
+433, 1956-11-02, 4, 6, Australia, , Burke, 3, na, na, 0, 0
+459, 1958-11-28, 2, 6, West Indies, c Alexander, Atkinson, 48, 150, na, 6, 0
+459, 1958-11-28, 4, 6, West Indies, not out, , 67, na, na, na, 0
+461, 1958-12-12, 2, 6, West Indies, c Alexander, Hall, 4, na, na, na, 0
+461, 1958-12-12, 4, 6, West Indies, , Hall, 0, na, na, 0, 0
+465, 1959-01-21, 2, 6, West Indies, c Gilchrist, Atkinson, 30, na, na, na, na
+465, 1959-01-21, 4, 6, West Indies, , Gilchrist, 1, na, na, 0, 0
+482, 1959-12-12, 1, 6, Australia, c Grout, Kline, 20, na, na, na, 0
+482, 1959-12-12, 3, 6, Australia, c Davidson, Kline, 6, na, na, na, 0
+483, 1959-12-19, 1, 6, Australia, c Mackay, Benaud, 24, na, na, na, 0
+483, 1959-12-19, 3, 6, Australia, , Harvey, 5, na, na, na, 0
+484, 1960-01-01, 1, 6, Australia, lbw, Meckiff, 0, na, na, 0, 0
+486, 1960-01-13, 2, 6, Australia, c Harvey, Benaud, 13, na, na, na, 0
+486, 1960-01-13, 3, 8, Australia, st Grout, Benaud, 22, na, na, na, 0
+487, 1960-01-23, 1, 8, Australia, , Davidson, 12, na, na, na, 0
+487, 1960-01-23, 3, 9, Australia, , Benaud, 9, na, na, na, 0

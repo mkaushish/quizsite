@@ -1,0 +1,129 @@
+
+Test # 36
+The Ashes, 1891/92, 2nd Test
+Australia v England
+Sydney Cricket Ground
+29,30 January, 1,2,3 February 1892 (timeless match)
+
+Result: Australia won by 72 runs
+Series: Australia leads the 3-match series 2-0
+
+Toss: Australia
+Umpires: T Flynn and JA Tooher
+
+Close of play:
+ Day 1: Australia 144, England 38/0 (Grace 23*, Abel 15*)
+ Day 2: England 307, Australia 1/1 (Bannerman 0*)
+ Day 3: Australia 263/3 (Bannerman 67*, Bruce 5*)
+ Day 4: Australia 391, England 11/3 (Stoddart 1*)
+
+Australia 1st innings                                           R   M   B  4 6
+AC Bannerman          c Abel             b Lohmann             12            0
+JJ Lyons              c Grace            b Lohmann             41  56        2
+G Giffen              c Abel             b Lohmann              6            0
+H Moses               c Grace            b Lohmann             29            0
+CTB Turner            c MacGregor        b Lohmann             15            0
+W Bruce               c Bean             b Attewell            15            0
+GHS Trott                                b Lohmann              2          0 0
+RW McLeod             c Attewell         b Lohmann             13            0
+WF Giffen                            c & b Lohmann              1          0 0
+ST Callaway           run out                                   1          0 0
+*+JM Blackham         not out                                   3          0 0
+Extras                (b 3, lb 3)                               6
+Total                 (all out, 94.2 overs)                   144
+
+FoW: 1-31 (Bannerman), 2-57 (G Giffen), 3-62 (Lyons),
+     4-90 (Turner), 5-117 (Bruce), 6-123 (Trott), 7-126 (Moses),
+     8-132 (WF Giffen), 9-141 (McLeod), 10-144 (Callaway).
+
+Bowling                      O      M      R      W
+Lohmann                     43.2   18     58      8
+Attewell                    31     20     25      1
+Briggs                      10      2     24      0
+Sharpe                      10      1     31      0
+
+England 1st innings                                             R   M   B  4 6
+*WG Grace                                b Turner              26            0
+R Abel                not out                                 132 314     11 0
+G Bean                                   b G Giffen            19            0
+AE Stoddart           c Blackham         b McLeod              27            1
+JM Read               c Turner           b G Giffen             3          0 0
+R Peel                c G Giffen         b Turner              20            0
+GA Lohmann                               b G Giffen            10            1
++G MacGregor          lbw                b McLeod               3          0 0
+J Briggs              lbw                b Trott               28            0
+W Attewell                               b Trott                0       1  0 0
+JW Sharpe             c Bannerman        b G Giffen            26  60        0
+Extras                (b 10, lb 2, w 1)                        13
+Total                 (all out, 114.2 overs)                  307
+
+FoW: 1-50 (Grace), 2-79 (Bean), 3-123 (Stoddart), 4-127 (Read),
+     5-152 (Peel), 6-167 (Lohmann), 7-178 (MacGregor),
+     8-235 (Briggs), 9-235 (Attewell), 10-307 (Sharpe).
+
+Bowling                      O      M      R      W
+Turner                      37     11     90      2
+McLeod                      18      6     55      2
+G Giffen                    28.2    5     88      4
+Trott                       14      3     42      2
+Callaway                    17     10     19      0
+
+Australia 2nd innings                                           R   M   B  4 6
+AC Bannerman          c Grace            b Briggs              91 448      3 0
+GHS Trott             c Sharpe           b Lohmann              1          0 0
+JJ Lyons              c Grace            b Lohmann            134 165     16 1
+G Giffen              lbw                b Attewell            49            0
+W Bruce               c Briggs           b Sharpe              72 108      8 0
+RW McLeod             c Read             b Peel                18            0
+CTB Turner            not out                                  14            0
+WF Giffen                                b Briggs               3          0 0
+*+JM Blackham         lbw                b Briggs               0   1   1  0 0
+ST Callaway           c Grace            b Briggs               0   1   1  0 0
+H Moses               absent hurt                               -
+Extras                (b 6, lb 2, w 1)                          9
+Total                 (all out, 219.4 overs)                  391
+
+FoW: 1-1 (Trott), 2-175 (Lyons), 3-254 (G Giffen), 4-347 (Bruce),
+     5-364 (Bannerman), 6-376 (McLeod), 7-391 (WF Giffen),
+     8-391 (Blackham), 9-391 (Callaway).
+
+Bowling                      O      M      R      W
+Lohmann                     51     14     84      2
+Attewell                    46     24     43      1
+Briggs                      32.4    8     69      4
+Sharpe                      35      7     91      1
+Peel                        35     13     49      1
+Grace                       16      2     34      0
+Stoddart                     4      1     12      0
+
+England 2nd innings (target: 229 runs)                          R   M   B  4 6
+*WG Grace             c Blackham         b Turner               5            0
+R Abel                c WF Giffen        b G Giffen             1          0 0
+G Bean                c Lyons            b Turner               4            0
+AE Stoddart                              b Turner              69 137      5 1
+JM Read                              c & b G Giffen            22            0
+R Peel                st Blackham        b G Giffen             6            0
+GA Lohmann            c Bruce            b G Giffen            15            0
++G MacGregor                         c & b G Giffen            12            0
+J Briggs              c Trott            b Turner              12            0
+W Attewell                           c & b G Giffen             0   1   1  0 0
+JW Sharpe             not out                                   4            0
+Extras                (b 4, lb 2)                               6
+Total                 (all out, 66.2 overs)                   156
+
+FoW: 1-2 (Abel), 2-6 (Bean), 3-11 (Grace), 4-64 (Read),
+     5-83 (Peel), 6-116 (Lohmann), 7-134 (Stoddart),
+     8-140 (MacGregor), 9-140 (Attewell), 10-156 (Briggs).
+
+Bowling                      O      M      R      W
+Turner                      23.2    7     46      4
+G Giffen                    28     10     72      6
+Trott                        5      0     11      0
+Callaway                    10      6     21      0
+
+*** Abel became the first England player to carry his bat through a completed
+    Test innings.
+*** Briggs ended Australia's second innings with a hat-trick, dismissing WF
+    Giffen,Callaway and Blackham.
+
+<END>

@@ -1,0 +1,101 @@
+
+Test # 474
+India in England, 1959, 1st Test
+England v India
+Trent Bridge, Nottingham
+4,5,6,8 June 1959 (5-day match)
+
+Result: England won by an innings and 59 runs
+Series: England leads the 5-match series 1-0
+
+Toss: England
+Umpires: JS Buller and WE Phillipson
+Test debuts: T Greenhough, MJ Horton, K Taylor (England).
+
+Close of play:
+ Day 1: England 358/6 (Horton 58*, Trueman 11*)
+ Day 2: England 422, India 116/3 (Manjrekar 13*, Borde 11*)
+ Day 3: India 206, India 96/3 (Manjrekar 23*, Gaekwad 3*)
+
+England 1st innings                                             R   M   B  4 6
+CA Milton                                b Surendranath         9  26      0 1
+K Taylor              lbw                b Gupte               24  82      2 0
+MC Cowdrey            c Borde            b Surendranath         5  12      1 0
+*PBH May              c Joshi            b Gupte              106 219     18 0
+KF Barrington                            b Nadkarni            56 146      6 2
+MJ Horton             c Nadkarni         b Desai               58 130      6 0
++TG Evans             c Umrigar          b Nadkarni            73  75  73 12 0
+FS Trueman                               b Borde               28  53      3 0
+JB Statham            not out                                  29  58      2 0
+T Greenhough          c Gaekwad          b Gupte                0   3      0 0
+AE Moss               c Roy              b Gupte               11  22      0 1
+Extras                (b 15, lb 7, w 1)                        23
+Total                 (all out, 143.2 overs)                  422
+
+FoW: 1-17 (Milton), 2-29 (Cowdrey), 3-60 (Taylor),
+     4-185 (Barrington), 5-221 (May), 6-327 (Evans),
+     7-358 (Horton), 8-389 (Trueman), 9-390 (Greenhough),
+     10-422 (Moss).
+
+Bowling                      O      M      R      W
+Desai                       33      7    127      1
+Surendranath                24      8     59      2
+Gupte                       38.1   11    102      4
+Nadkarni                    28.1   15     48      2
+Borde                       20      4     63      1
+
+India 1st innings                                               R   M   B  4 6
+P Roy                                    b Trueman             54 183      4 0
+NJ Contractor         c Barrington       b Greenhough          15 109      0 0
+PR Umrigar                               b Trueman             21  67      1 0
+VL Manjrekar          lbw                b Trueman             17  70      2 0
+CG Borde              retired hurt                             15  53      1 0
+*DK Gaekwad           c Evans            b Statham             33 127      3 0
+RG Nadkarni           lbw                b Trueman             15  47      0 0
++PG Joshi             lbw                b Moss                21  43      4 0
+SP Gupte              c Taylor           b Moss                 2  17      0 0
+Surendranath          not out                                   4  19      1 0
+RB Desai                                 b Statham              0   7      0 0
+Extras                (b 5, nb 4)                               9
+Total                 (all out, 102.5 overs)                  206
+
+FoW: 1-34 (Contractor), 2-85 (Umrigar), 3-95 (Roy),
+     4-126 (Manjrekar), 5-158 (Nadkarni), 6-190 (Gaekwad),
+     7-198 (Gupte), 8-206 (Joshi), 9-206 (Desai).
+
+Bowling                      O      M      R      W
+Statham                     23.5   11     46      2
+Trueman                     24      9     45      4
+Moss                        24     11     33      2
+Greenhough                  26      7     58      1
+Horton                       5      0     15      0
+
+India 2nd innings (following on)                                R   M   B  4 6
+P Roy                 c Trueman          b Greenhough          49 169      8 0
+NJ Contractor         c Cowdrey          b Statham              0  14      0 0
+PR Umrigar                               b Statham             20  90      1 0
+VL Manjrekar          lbw                b Greenhough          44 133      3 0
+*DK Gaekwad           c Horton           b Statham             31 172      5 0
+RG Nadkarni                              b Statham              1  82      0 0
++PG Joshi             lbw                b Trueman              1  14      0 0
+SP Gupte              c May              b Statham              8  33      1 0
+Surendranath          not out                                   1  45      0 0
+RB Desai              c May              b Trueman              1  12      0 0
+CG Borde              absent hurt                               -
+Extras                (nb 1)                                    1
+Total                 (all out, 97.3 overs)                   157
+
+FoW: 1-8 (Contractor), 2-52 (Umrigar), 3-85 (Roy),
+     4-124 (Manjrekar), 5-140 (Nadkarni), 6-143 (Joshi),
+     7-147 (Gaekwad), 8-156 (Gupte), 9-157 (Desai).
+
+Bowling                      O      M      R      W
+Statham                     21     10     31      5
+Trueman                     22.3   10     44      2
+Moss                        12      7     13      0
+Greenhough                  23      5     48      2
+Horton                      19     11     20      0
+
+*** CG Borde retired hurt at 120/3 (fractured left-hand little finger)
+
+<END>

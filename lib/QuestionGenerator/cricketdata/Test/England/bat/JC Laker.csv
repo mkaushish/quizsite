@@ -1,0 +1,64 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+293, 1948-01-21, 2, 10, West Indies, c Walcott, Jones, 2, na, na, 0, 0
+296, 1948-02-11, 1, 9, West Indies, c Gaskin, Goddard, 55, 70, na, 7, 0
+296, 1948-02-11, 3, 5, West Indies, c Carew, Williams, 24, na, na, na, 0
+297, 1948-03-03, 2, 8, West Indies, c Walcott, Ferguson, 10, na, na, na, 0
+297, 1948-03-03, 3, 10, West Indies, c Goddard, Williams, 6, na, na, na, 0
+298, 1948-03-27, 1, 10, West Indies, c Walcott, Johnson, 6, na, na, na, 0
+298, 1948-03-27, 3, 10, West Indies, not out, , 6, na, na, na, 0
+299, 1948-06-10, 1, 9, Australia, c Tallon, Miller, 63, 101, na, 6, 0
+299, 1948-06-10, 3, 9, Australia, , Miller, 4, 16, na, 0, 0
+300, 1948-06-24, 2, 9, Australia, c Tallon, Johnson, 28, na, na, na, 0
+300, 1948-06-24, 4, 9, Australia, , Lindwall, 0, na, na, 0, 0
+302, 1948-07-22, 1, 10, Australia, c Saggers, Loxton, 4, na, na, na, 0
+302, 1948-07-22, 3, 10, Australia, not out, , 15, na, na, na, 0
+317, 1949-08-13, 2, 8, New Zealand, c Scott, Cowie, 0, na, na, 0, 0
+323, 1950-06-08, 1, 9, West Indies, , Valentine, 4, 8, na, 1, 0
+323, 1950-06-08, 3, 9, West Indies, c Stollmeyer, Valentine, 40, 78, na, 5, 0
+336, 1951-07-05, 2, 8, South Africa, c Nourse, Chubb, 27, 63, na, 4, 0
+338, 1951-08-16, 2, 7, South Africa, , Chubb, 6, na, na, na, 0
+338, 1951-08-16, 4, 7, South Africa, not out, , 13, na, na, 2, 0
+351, 1952-06-05, 2, 9, India, , Phadkar, 15, na, na, na, 0
+352, 1952-06-19, 2, 9, India, not out, , 23, na, na, na, 0
+353, 1952-07-17, 1, 8, India, c Sen, Divecha, 0, 12, na, 0, 0
+354, 1952-08-14, 1, 8, India, not out, , 6, na, na, na, 0
+374, 1953-07-09, 2, 10, Australia, lbw, Hill, 5, 6, na, 1, 0
+375, 1953-07-23, 1, 9, Australia, c Lindwall, Archer, 10, 43, na, na, 0
+375, 1953-07-23, 3, 9, Australia, c Benaud, Davidson, 48, 115, na, 6, 0
+376, 1953-08-15, 2, 8, Australia, c Langley, Miller, 1, na, na, 0, 0
+383, 1954-02-06, 2, 9, West Indies, c Gomez, Atkinson, 1, na, na, 0, 0
+383, 1954-02-06, 4, 9, West Indies, lbw, Ramadhin, 0, na, na, 0, 0
+384, 1954-02-24, 1, 9, West Indies, , Valentine, 27, na, na, na, 1
+385, 1954-03-17, 2, 8, West Indies, retired hurt, , 7, na, na, na, 0
+386, 1954-03-30, 2, 10, West Indies, , Sobers, 9, na, na, na, 0
+387, 1954-06-10, 2, 9, Pakistan, not out, , 13, na, na, na, 0
+412, 1955-08-13, 1, 9, South Africa,                c &, Goddard, 2, 14, na, 0, 0
+412, 1955-08-13, 3, 9, South Africa, , Tayfield, 12, 20, na, 1, 0
+425, 1956-06-07, 1, 8, Australia, not out, , 9, 30, na, 1, 0
+426, 1956-06-21, 2, 8, Australia, , Archer, 12, 50, na, 1, 0
+426, 1956-06-21, 4, 8, Australia, c Langley, Archer, 4, 10, na, 1, 0
+427, 1956-07-12, 1, 10, Australia, , Lindwall, 5, 29, na, 0, 0
+428, 1956-07-26, 1, 9, Australia, run out, , 3, 10, na, 0, 0
+429, 1956-08-23, 1, 9, Australia, c Archer, Miller, 4, 19, na, 0, 0
+434, 1956-12-24, 1, 10, South Africa, c Goddard, Adcock, 0, 2, na, 0, 0
+434, 1956-12-24, 3, 10, South Africa, not out, , 3, 13, na, 0, 0
+435, 1957-01-01, 1, 9, South Africa, , Adcock, 0, 7, na, 0, 0
+436, 1957-01-25, 1, 9, South Africa, not out, , 0, 24, na, 0, 0
+436, 1957-01-25, 3, 9, South Africa, c Goddard, Tayfield, 6, 26, na, 0, 0
+437, 1957-02-15, 2, 9, South Africa, lbw, Tayfield, 17, 67, na, 0, 0
+437, 1957-02-15, 4, 9, South Africa, c Duckworth, Tayfield, 5, 16, na, 0, 0
+438, 1957-03-01, 2, 10, South Africa, , Goddard, 6, 23, na, 1, 0
+438, 1957-03-01, 4, 10, South Africa, not out, , 3, 7, na, 0, 0
+439, 1957-05-30, 1, 9, West Indies, , Ramadhin, 7, 10, na, 0, 0
+442, 1957-07-25, 2, 9, West Indies, c Alexander, Worrell, 1, 13, na, 0, 0
+443, 1957-08-22, 1, 10, West Indies, not out, , 10, 12, na, 1, 0
+454, 1958-06-05, 1, 10, New Zealand, not out, , 11, na, na, na, 1
+455, 1958-06-19, 1, 10, New Zealand, c Blair, MacGibbon, 1, na, na, 0, 0
+458, 1958-08-21, 2, 9, New Zealand, c Blair, Reid, 15, 26, na, 2, 0
+460, 1958-12-05, 1, 9, Australia, c Burke, Benaud, 13, 25, 24, 1, 0
+460, 1958-12-05, 3, 9, Australia, , Benaud, 15, 33, 34, 2, 0
+462, 1959-12-31, 1, 9, Australia, not out, , 22, 86, 85, 0, 0
+462, 1959-12-31, 3, 9, Australia, c Harvey, Davidson, 3, 18, 10, 0, 0
+464, 1959-01-09, 1, 10, Australia, c Harvey, Benaud, 2, 2, 4, 0, 0
+468, 1959-02-13, 1, 11, Australia, c Harvey, Davidson, 2, 17, 15, 0, 0
+468, 1959-02-13, 3, 11, Australia, not out, , 5, 24, 16, 0, 0

@@ -1,0 +1,128 @@
+
+Test # 1253
+Australia in South Africa, 1993/94, 2nd Test
+South Africa v Australia
+Newlands, Cape Town
+17,18,19,20,21 March 1994 (5-day match)
+
+Result: Australia won by 9 wickets
+Series: 3-match series level 1-1
+
+Toss: South Africa
+Umpires: KE Liebenberg and DR Shepherd (Eng)
+TV umpire: SB Lambson
+Match referee: DB Carr (Eng)
+Player of the match: SR Waugh
+
+Close of play:
+ Day 1: South Africa 237/5 (PN Kirsten 62*, McMillan 16*)
+ Day 2: South Africa 361, Australia 112/1 (Taylor 57*, Boon 26*)
+ Day 3: Australia 336/5 (SR Waugh 50*, Healy 15*)
+ Day 4: Australia 435, South Africa 100/6 (Rhodes 1*, McMillan 1*)
+
+South Africa 1st innings                                        R   M   B  4 6
+AC Hudson             run out                                 102 250 174 13 0
+G Kirsten             run out                                  29  82  62  2 0
+WJ Cronje                                b McGrath              2  14  11  0 0
+*KC Wessels           c ME Waugh         b McDermott           11  36  34  2 0
+PN Kirsten            lbw                b Warne               70 248 203  7 0
+JN Rhodes             lbw                b McGrath              5  18  15  0 0
+BM McMillan                              b Warne               74 250 200  7 0
++DJ Richardson        lbw                b McDermott           34 109  85  3 0
+CR Matthews           not out                                   7  70  48  0 0
+PS de Villiers        c Taylor           b Warne                7  15  12  1 0
+AA Donald             c Healy            b McGrath              7  34  29  0 0
+Extras                (lb 6, nb 7)                             13
+Total                 (all out, 144.1 overs, 575 mins)        361
+
+FoW: 1-71 (G Kirsten), 2-78 (Cronje), 3-100 (Wessels),
+     4-189 (Hudson), 5-198 (Rhodes), 6-260 (PN Kirsten),
+     7-335 (Richardson), 8-339 (McMillan), 9-348 (de Villiers),
+     10-361 (Donald).
+
+Bowling                      O      M      R      W
+McDermott                   27      6     80      2 (5nb)
+Hughes                      20      1     80      0 (1nb)
+McGrath                     26.1    4     65      3
+SR Waugh                     9      3     20      0
+Warne                       47     18     78      3
+ME Waugh                    10      3     23      0
+Border                       5      2      9      0
+
+Australia 1st innings                                           R   M   B  4 6
+MJ Slater             c PN Kirsten       b de Villiers         26  56  41  3 0
+MA Taylor             c Richardson       b de Villiers         70 212 137  6 0
+DC Boon               c Richardson       b de Villiers         96 353 257 11 0
+ME Waugh              c PN Kirsten       b McMillan             7  20  11  1 0
+*AR Border            c Richardson       b Matthews            45 273 204  5 0
+SR Waugh                                 b Matthews            86 260 164 14 0
++IA Healy             c de Villiers      b Matthews            61 154 118  8 0
+MG Hughes             lbw                b Matthews             0   1   1  0 0
+SK Warne              c McMillan         b de Villiers         11  32  20  2 0
+CJ McDermott          c PN Kirsten       b Matthews             1   9  10  0 0
+GD McGrath            not out                                   1   5   2  0 0
+Extras                (b 6, lb 17, w 1, nb 7)                  31
+Total                 (all out, 159.4 overs, 691 mins)        435
+
+FoW: 1-40 (Slater), 2-145 (Taylor), 3-153 (ME Waugh),
+     4-244 (Boon), 5-310 (Border), 6-418 (Healy), 7-418 (Hughes),
+     8-430 (SR Waugh), 9-434 (McDermott), 10-435 (Warne).
+
+Bowling                      O      M      R      W
+Donald                      35     10    111      0 (2nb, 1w)
+de Villiers                 44.4   11    117      4 (4nb)
+Matthews                    36     12     80      5
+McMillan                    29      8     82      1
+G Kirsten                    4      0     13      0
+Cronje                      11      4      9      0
+
+South Africa 2nd innings                                        R   M   B  4 6
+AC Hudson             lbw                b SR Waugh            49 168 146  6 0
+G Kirsten             lbw                b Warne               10  52  28  1 0
+WJ Cronje                            c & b SR Waugh            19  70  48  4 0
+*KC Wessels           run out                                   9  34  18  0 0
+PN Kirsten            c Taylor           b Warne                3  16  14  0 0
+JN Rhodes             c Border           b SR Waugh            27 179 149  2 0
+PS de Villiers        lbw                b Warne                0   2   3  0 0
+BM McMillan           lbw                b SR Waugh             3  34  25  0 0
++DJ Richardson        c Healy            b McGrath             31 127 112  3 0
+CR Matthews           not out                                   0   3   1  0 0
+AA Donald                                b SR Waugh             0   1   2  0 0
+Extras                (b 4, lb 6, nb 3)                        13
+Total                 (all out, 90.3 overs, 352 mins)         164
+
+FoW: 1-33 (G Kirsten), 2-69 (Cronje), 3-94 (Wessels),
+     4-97 (Hudson), 5-97 (PN Kirsten), 6-97 (de Villiers),
+     7-103 (McMillan), 8-164 (Richardson), 9-164 (Rhodes),
+     10-164 (Donald).
+
+Bowling                      O      M      R      W
+McDermott                   13      3     39      0 (2nb)
+Hughes                       5      1     12      0
+Warne                       30     13     38      3
+McGrath                     16      6     26      1
+SR Waugh                    22.3    9     28      5 (1nb)
+Border                       1      1      0      0
+ME Waugh                     3      1     11      0
+
+Australia 2nd innings (target: 91 runs)                         R   M   B  4 6
+MA Taylor                                b Donald              14  32  24  0 0
+MJ Slater             not out                                  43 147  85  5 0
+DC Boon               not out                                  32  73  45  4 0
+Extras                (b 1, nb 2)                               3
+Total                 (1 wicket, 25.1 overs)                   92
+
+DNB: ME Waugh, *AR Border, SR Waugh, +IA Healy, MG Hughes,
+     SK Warne, CJ McDermott, GD McGrath.
+
+FoW: 1-30 (Taylor).
+
+Bowling                      O      M      R      W
+Matthews                     6      1     14      0
+de Villiers                  6      0     20      0 (1nb)
+Donald                       5      0     20      1 (1nb)
+McMillan                     5      0     23      0
+Cronje                       2      0      4      0
+G Kirsten                    1.1    0     10      0
+
+<END>

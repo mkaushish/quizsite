@@ -1,0 +1,128 @@
+
+Test # 5
+England in Australia, 1881/82, 1st Test
+Australia v England
+Melbourne Cricket Ground
+31 December 1881, 2,3,4 January 1882 (timeless match)
+
+Result: Match drawn (by agreement)
+Series: 4-match series level 0-0
+
+Toss: England
+Umpires: James Lillywhite jnr (Eng) and JS Swift
+Balls per over: 4
+Test debuts: WH Cooper, E Evans, G Giffen, HH Massie (Australia); RG Barlow,
+ W Bates, E Peate, R Pilling, WH Scotton, A Shrewsbury snr (England).
+
+Close of play:
+ Day 1: England 294
+ Day 2: Australia 277/6 (Horan 106*, Palmer 23*)
+ Day 3: Australia 320, England 238/7 (Scotton 13*, Shaw 14*)
+
+England 1st innings                                             R   M   B  4 6
+RG Barlow             c Bannerman        b Palmer               0   4      0 0
+G Ulyett              c McDonnell        b Cooper              87 135      6 1
+J Selby               run out                                  55 140      2 0
+W Bates               c Giffen           b Boyle               58          7 0
+A Shrewsbury snr      c Blackham         b Evans               11          1 0
+WE Midwinter                             b Evans               36          4 0
+T Emmett                                 b Evans                5          0 0
+WH Scotton            run out                                  21          0 0
+*A Shaw               c Boyle            b Cooper               5          0 0
++R Pilling            c Giffen           b Cooper               5          0 0
+E Peate               not out                                   4          1 0
+Extras                (lb 6, nb 1)                              7
+Total                 (all out, 170.2 overs)                  294
+
+FoW: 1-5 (Barlow), 2-142 (Ulyett), 3-151 (Selby),
+     4-187 (Shrewsbury), 5-227 (Bates), 6-232 (Emmett),
+     7-277 (Midwinter), 8-284 (Shaw), 9-289 (Pilling),
+     10-294 (Scotton).
+
+Bowling                      O      M      R      W
+Palmer                      36      9     73      1
+Evans                       71     35     81      3
+Cooper                      32.2    8     80      3
+Boyle                       18      9     18      1
+Giffen                       3      0     12      0
+Bannerman                   10      3     23      0
+
+Australia 1st innings                                           R   M   B  4 6
+HH Massie             st Pilling         b Midwinter            2          0 0
+AC Bannerman                             b Ulyett              38          1 0
+*WL Murdoch                              b Ulyett              39          3 0
+PS McDonnell                             b Midwinter           19          2 0
+TP Horan              run out                                 124 250      6 0
+G Giffen                                 b Emmett              30 150      1 0
++JM Blackham                             b Emmett               2          0 0
+GE Palmer             c Pilling          b Bates               34          3 0
+E Evans                                  b Bates                3          0 0
+HF Boyle              not out                                   4          0 0
+WH Cooper             st Pilling         b Peate                7          0 0
+Extras                (b 4, lb 11, w 3)                        18
+Total                 (all out, 237 overs)                    320
+
+FoW: 1-9 (Massie), 2-82 (Bannerman), 3-97 (Murdoch),
+     4-113 (McDonnell), 5-220 (Giffen), 6-226 (Blackham),
+     7-305 (Palmer), 8-309 (Evans), 9-309 (Horan),
+     10-320 (Cooper).
+
+Bowling                      O      M      R      W
+Peate                       59     24     64      1
+Midwinter                   39     21     50      2
+Bates                       41     20     43      2
+Emmett                      35     12     61      2
+Ulyett                      20      5     41      2
+Barlow                      23     13     22      0
+Shaw                        20     11     21      0
+
+England 2nd innings                                             R   M   B  4 6
+RG Barlow             st Blackham        b Palmer              33          1 0
+G Ulyett              st Blackham        b Cooper              23          3 0
+J Selby               c Boyle            b Cooper              70 165      5 0
+W Bates               c Bannerman        b Cooper              47          2 0
+A Shrewsbury snr                         b Cooper              16          0 0
+WE Midwinter          c Massie           b Cooper               4          1 0
+T Emmett                                 b Cooper               6          1 0
+WH Scotton            not out                                  50          3 0
+*A Shaw               c Cooper           b Boyle               40          3 0
++R Pilling                               b Palmer               3          0 0
+E Peate               run out                                   2          0 0
+Extras                (b 7, lb 2, nb 5)                        14
+Total                 (all out, 229.3 overs)                  308
+
+FoW: 1-37 (Ulyett), 2-96 (Barlow), 3-179 (Bates), 4-183 (Selby),
+     5-188 (Midwinter), 6-197 (Emmett), 7-217 (Shrewsbury),
+     8-300 (Shaw), 9-304 (Pilling), 10-308 (Peate).
+
+Bowling                      O      M      R      W
+Palmer                      77     19     77      2
+Evans                       73     45     63      0
+Cooper                      61     19    120      6
+Boyle                       14.3    6     19      1
+McDonnell                    4      1     15      0
+
+Australia 2nd innings (target: 283 runs)                        R   M   B  4 6
++JM Blackham                             b Bates               25          2 0
+AC Bannerman                             b Ulyett               8          1 0
+TP Horan              c Emmett           b Bates               26          4 0
+*WL Murdoch           not out                                  22          3 0
+PS McDonnell          not out                                  33          4 1
+Extras                (b 9, lb 3, w 1)                         13
+Total                 (3 wickets, 55 overs)                   127
+
+DNB: HH Massie, G Giffen, GE Palmer, E Evans, HF Boyle,
+     WH Cooper.
+
+FoW: 1-35 (Bannerman), 2-70 (Horan), 3-72 (Blackham).
+
+Bowling                      O      M      R      W
+Peate                       11      5     22      0
+Bates                       13      3     43      2
+Emmett                      16     11     19      0
+Ulyett                      15      3     30      1
+
+*** WE Midwinter made his debut for England having played for Australia in
+    the first two Test matches.
+
+<END>

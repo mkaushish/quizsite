@@ -1,0 +1,108 @@
+
+Test # 295
+India in Australia, 1947/48, 5th Test
+Australia v India
+Melbourne Cricket Ground
+6,7,9,10 February 1948 (6-day match)
+
+Result: Australia won by an innings and 177 runs
+Series: Australia wins the 5-match series 4-0
+
+Toss: Australia
+Umpires: AN Barlow and GS Cooper
+Balls per over: 8
+Test debuts: LJ Johnson, SJE Loxton, DT Ring (Australia).
+
+Close of play:
+ Day 1: Australia 336/3 (Harvey 78*, Loxton 48*)
+ Day 2: Australia 575/8d, India 43/1 (Mankad 30*, Adhikari 10*)
+ Day 3: India 251/4 (Hazare 72*, Phadkar 8*)
+
+Australia 1st innings                                           R   M   B  4 6
+SG Barnes             run out                                  33  43  58  3 0
+WA Brown              run out                                  99 205 216  8 0
+*DG Bradman           retired hurt                             57  83  97  4 0
+KR Miller             c Sen              b Phadkar             14  44  54  1 0
+RN Harvey             c Sen              b Mankad             153 250 251 12 0
+SJE Loxton            c Sen              b Amarnath            80 129 155  6 0
+RR Lindwall           c Phadkar          b Mankad              35  51  47  2 0
++D Tallon             c Sen              b Sarwate             37  55  53  3 0
+LJ Johnson            not out                                  25  62  51  1 0
+DT Ring               c Kishenchand      b Hazare              11  18  26  0 0
+WA Johnston           not out                                  23  22  15  2 0
+Extras                (b 4, lb 4)                               8
+Total                 (8 wickets dec, 128 overs, 492 mins)    575
+
+FoW: 1-48 (Barnes), 2-182 (Miller), 3-219 (Brown),
+     4-378 (Loxton), 5-457 (Lindwall), 6-497 (Harvey),
+     7-527 (Tallon), 8-544 (Ring).
+
+Bowling                      O      M      R      W
+Phadkar                      9      0     58      1
+Amarnath                    23      1     79      1
+Rangachari                  17      1     97      0
+Hazare                      14      1     63      1
+Mankad                      33      2    107      2
+Sarwate                     18      1     82      1
+Nayudu                      13      0     77      0
+Adhikari                     1      0      4      0
+
+India 1st innings                                               R   M   B  4 6
+MH Mankad             c Tallon           b Loxton             111 301 309  6 0
+CT Sarwate                               b Lindwall             0  11   8  0 0
+HR Adhikari           c Tallon           b Loxton              38 179 202  1 0
+VS Hazare             lbw                b Lindwall            74 176 179  7 0
+*L Amarnath           c Barnes           b Ring                12  21  26  1 0
+DG Phadkar            not out                                  56 152 168  5 0
+Gul Mohammad          c Lindwall         b Johnson              1   8   8  0 0
+G Kishenchand                            b Ring                14  36  36  2 0
+CS Nayudu             c Bradman          b Ring                 2   3   6  0 0
++PK Sen                                  b Johnson             13  50  40  2 0
+CR Rangachari                            b Johnson              0   1   1  0 0
+Extras                (b 6, lb 2, nb 2)                        10
+Total                 (all out, 123 overs, 478 mins)          331
+
+FoW: 1-3 (Sarwate), 2-127 (Adhikari), 3-206 (Mankad),
+     4-231 (Amarnath), 5-257 (Hazare), 6-260 (Gul Mohammad),
+     7-284 (Kishenchand), 8-286 (Nayudu), 9-331 (Sen),
+     10-331 (Rangachari).
+
+Bowling                      O      M      R      W
+Lindwall                    25      5     66      2 (1nb)
+Johnson                     30      8     66      3
+Loxton                      19      1     61      2 (1nb)
+Johnston                     8      4     14      0
+Ring                        36      8    103      3
+Miller                       3      0     10      0
+Barnes                       2      1      1      0
+
+India 2nd innings (following on)                                R   M   B  4 6
+MH Mankad             c Tallon           b Lindwall             0   1   2  0 0
+CT Sarwate            lbw                b Johnston            10  38  34  1 0
+HR Adhikari           c Bradman          b Loxton              17  42  44  1 0
+VS Hazare                            c & b Johnson             10  38  41  1 0
+DG Phadkar            lbw                b Johnston             0  11  22  0 0
+*L Amarnath           c Johnson          b Ring                 8  23   9  1 0
+Gul Mohammad          c Barnes           b Ring                 4  15  10  0 0
+G Kishenchand         c Barnes           b Johnson              0   5   6  0 0
+CS Nayudu             c Brown            b Ring                 0  14  13  0 0
++PK Sen                                  b Johnson             10  13  14  2 0
+CR Rangachari         not out                                   0   2   0  0 0
+Extras                (b 6, lb 1, nb 1)                         8
+Total                 (all out, 24.2 overs, 110 mins)          67
+
+FoW: 1-0 (Mankad), 2-22 (Sarwate), 3-28 (Adhikari),
+     4-35 (Phadkar), 5-51 (Hazare), 6-51 (Amarnath),
+     7-56 (Kishenchand), 8-56 (Gul Mohammad), 9-66 (Nayudu),
+     10-67 (Sen).
+
+Bowling                      O      M      R      W
+Lindwall                     3      0      9      1
+Johnson                      5.2    2      8      3 (1nb)
+Loxton                       4      1     10      1
+Johnston                     7      0     15      2
+Ring                         5      1     17      3
+
+*** DG Bradman retired hurt at 140/1
+
+<END>

@@ -1,0 +1,114 @@
+
+Test # 548
+South Africa in Australia, 1963/64, 1st Test
+Australia v South Africa
+Brisbane Cricket Ground, Woolloongabba, Brisbane
+6,7,9,10,11 December 1963 (5-day match)
+
+Result: Match drawn
+Series: 5-match series level 0-0
+
+Toss: Australia
+Umpires: CJ Egar and LP Rowan
+Balls per over: 8
+Test debuts: AN Connolly, TR Veivers (Australia); DT Lindsay, JT Partridge,
+ DB Pithey, RG Pollock, MA Seymour, PL van der Merwe (South Africa).
+
+Close of play:
+ Day 1: Australia 337/5 (Booth 128*, McKenzie 14*)
+ Day 2: Australia 435, South Africa 157/4 (Barlow 56*)
+ Day 3: No play
+ Day 4: South Africa 346, Australia 25/0 (Lawry 12*, Simpson 12*)
+
+Australia 1st innings                                           R   M   B  4 6
+WM Lawry              c RG Pollock       b Barlow              43  99      7 0
+RB Simpson            c Waite            b PM Pollock          12  40      1 0
+NC O'Neill            c Barlow           b PM Pollock          82 208     10 0
+PJP Burge             run out                                  13  22      1 0
+BC Booth              c Barlow           b PM Pollock         169 330     19 0
+*R Benaud             lbw                b Goddard             43  76      6 0
+GD McKenzie           c PM Pollock       b Goddard             39  99      4 0
+TR Veivers            c Goddard          b PM Pollock          14  54      1 0
++ATW Grout            c Seymour          b PM Pollock           6  12      1 0
+I Meckiff                                b PM Pollock           7  12      1 0
+AN Connolly           not out                                   1   3      0 0
+Extras                (b 1, lb 5)                               6
+Total                 (all out, 114.6 overs)                  435
+
+FoW: 1-39 (Simpson), 2-73 (Lawry), 3-88 (Burge), 4-208 (O'Neill),
+     5-310 (Benaud), 6-394 (McKenzie), 7-415 (Booth),
+     8-427 (Grout), 9-434 (Meckiff), 10-435 (Veivers).
+
+Bowling                      O      M      R      W
+PM Pollock                  22.6    0     95      6
+Partridge                   25      3     87      0
+Goddard                     24      6     52      2
+Barlow                       9      0     71      1
+Seymour                     11      0     39      0
+Pithey                      23      6     85      0
+
+South Africa 1st innings                                        R   M   B  4 6
+*TL Goddard           c Meckiff          b Benaud              52  94      7 0
+EJ Barlow                                b Benaud             114 354     13 0
+PR Carlstein                         c & b Benaud               0   7      0 0
+RG Pollock                               b McKenzie            25  68      5 0
+DT Lindsay            lbw                b Benaud              17  49      3 0
++JHB Waite            lbw                b Connolly            66 272      4 0
+PL van der Merwe                         b O'Neill             17  39      2 0
+DB Pithey             c Meckiff          b Veivers             18  79      1 0
+PM Pollock            lbw                b Benaud               8  37      0 0
+MA Seymour                               b Simpson             10  31      1 0
+JT Partridge          not out                                   3  18      0 0
+Extras                (b 3, lb 5, nb 8)                        16
+Total                 (all out, 135.5 overs)                  346
+
+FoW: 1-74 (Goddard), 2-78 (Carlstein), 3-120 (RG Pollock),
+     4-157 (Lindsay), 5-239 (Barlow), 6-272 (van der Merwe),
+     7-321 (Pithey), 8-325 (Waite), 9-335 (PM Pollock),
+     10-346 (Seymour).
+
+Bowling                      O      M      R      W
+McKenzie                    23      1     88      1
+Meckiff                      1      0      8      0
+Connolly                    19      4     46      1
+Veivers                     34     15     48      1
+Benaud                      33     10     68      5
+Simpson                     18.5    5     52      1
+O'Neill                      7      0     20      1
+
+Australia 2nd innings                                           R   M   B  4 6
+WM Lawry              not out                                  87 153     10 0
+RB Simpson            c sub              b Partridge           34 100      2 0
+NC O'Neill            not out                                  19  52      2 0
+Extras                (lb 4)                                    4
+Total                 (1 wicket dec, 35 overs)                144
+
+DNB: PJP Burge, BC Booth, *R Benaud, GD McKenzie, TR Veivers,
+     +ATW Grout, I Meckiff, AN Connolly.
+
+FoW: 1-83 (Simpson).
+
+Bowling                      O      M      R      W
+PM Pollock                   6      0     26      0
+Partridge                   17      1     50      1
+Goddard                      7      0     34      0
+Pithey                       5      0     30      0
+
+South Africa 2nd innings (target: 234 runs)                     R   M   B  4 6
+*TL Goddard           not out                                   8  27      1 0
+EJ Barlow             c Simpson          b McKenzie             0   5      0 0
+PR Carlstein          not out                                   1  21      0 0
+Extras                (b 4)                                     4
+Total                 (1 wicket, 6.3 overs)                    13
+
+DNB: RG Pollock, DT Lindsay, +JHB Waite, PL van der Merwe,
+     DB Pithey, PM Pollock, MA Seymour, JT Partridge.
+
+FoW: 1-1 (Barlow).
+
+Bowling                      O      M      R      W
+McKenzie                     3.3    1      3      1
+Connolly                     1      0      2      0
+Benaud                       2      1      4      0
+
+<END>

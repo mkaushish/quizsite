@@ -1,0 +1,91 @@
+
+Test # 856
+Australia in India, 1979/80, 2nd Test
+India v Australia
+Karnataka State Cricket Association Stadium, Bangalore
+19,20,22,23,24 September 1979 (5-day match)
+
+Result: Match drawn
+Series: 6-match series level 0-0
+
+Toss: Australia
+Umpires: PR Punjabi and KB Ramaswami
+Test debut: NS Yadav (India).
+
+Close of play:
+ Day 1: Australia 182/4 (Hughes 31*, Yardley 12*)
+ Day 2: Australia 333, India 69/2 (Vengsarkar 8*, Kirmani 4*)
+ Day 3: India 124/3 (Vengsarkar 33*, Viswanath 3*)
+ Day 4: India 376/5 (Viswanath 124*, Kapil Dev 0*)
+
+Australia 1st innings                                           R   M   B  4 6
+AMJ Hilditch          c sub (J Arun Lal) b Yadav               62 182 154  7 0
+WM Darling                               b Kapil Dev            7  31  17  1 0
+AR Border             c Yadav            b Doshi               44  97  68  4 0
+*KJ Hughes            c Ghavri           b Kapil Dev           86 261 195  7 0
+GN Yallop             c Viswanath        b Yadav               12  34  21  1 0
+B Yardley                            c & b Ghavri              47 118 107  5 0
+GM Wood               c Kirmani          b Ghavri              18  43  32  2 0
++KJ Wright            not out                                  16  77  48  2 0
+RM Hogg               lbw                b Venkataraghavan     19  63  52  3 0
+JD Higgs              lbw                b Yadav                1   2   3  0 0
+AG Hurst                                 b Yadav                0   3   4  0 0
+Extras                (b 5, lb 6, nb 10)                       21
+Total                 (all out, 114.5 overs)                  333
+
+FoW: 1-21 (Darling), 2-99 (Border), 3-137 (Hilditch),
+     4-159 (Yallop), 5-258 (Yardley), 6-294 (Wood),
+     7-294 (Hughes), 8-332 (Hogg), 9-333 (Higgs), 10-333 (Hurst).
+
+Bowling                      O      M      R      W
+Kapil Dev                   25      4     89      2
+Ghavri                      19      5     68      2
+Doshi                       28      6     63      1
+Venkataraghavan             20      6     43      1
+Yadav                       22.5    6     49      4
+
+India 1st innings                                               R   M   B  4 6
+*SM Gavaskar          c Hilditch         b Yardley             10  45  22  1 0
+CPS Chauhan           c Hilditch         b Yardley             31 100  77  6 0
+DB Vengsarkar         lbw                b Yardley            112 366 283 12 2
++SMH Kirmani          st Wright          b Higgs               30  96  81  3 0
+GR Viswanath          not out                                 161 405 297 11 1
+Yashpal Sharma        c Border           b Yardley             37 121  88  4 1
+N Kapil Dev           not out                                  38  67  40  4 0
+Extras                (b 12, lb 8, w 1, nb 17)                 38
+Total                 (5 wickets dec, 144 overs)              457
+
+DNB: KD Ghavri, NS Yadav, S Venkataraghavan, DR Doshi.
+
+FoW: 1-22 (Gavaskar), 2-61 (Chauhan), 3-120 (Kirmani),
+     4-279 (Vengsarkar), 5-372 (Yashpal Sharma).
+
+Bowling                      O      M      R      W
+Hogg                        32      6    118      0
+Hurst                       29      3     93      0
+Yardley                     44     16    107      4
+Higgs                       37      9     95      1
+Yallop                       2      0      6      0
+
+Australia 2nd innings                                           R   M   B  4 6
+AMJ Hilditch          lbw                b Yadav                3  31  25  0 0
+GM Wood               c Viswanath        b Yadav               30 103  88  2 0
+AR Border                                b Yadav               19  47  55  1 0
+*KJ Hughes            not out                                  13  44  42  2 0
+GN Yallop             not out                                   6  20  17  1 0
+Extras                (lb 5, nb 1)                              6
+Total                 (3 wickets, 37.4 overs)                  77
+
+DNB: WM Darling, B Yardley, +KJ Wright, RM Hogg, JD Higgs,
+     AG Hurst.
+
+FoW: 1-13 (Hilditch), 2-53 (Border), 3-62 (Wood).
+
+Bowling                      O      M      R      W
+Kapil Dev                    3      2      1      0
+Ghavri                       3      1      9      0
+Doshi                        8      4     11      0
+Venkataraghavan              8      2     18      0
+Yadav                       15.4    4     32      3
+
+<END>

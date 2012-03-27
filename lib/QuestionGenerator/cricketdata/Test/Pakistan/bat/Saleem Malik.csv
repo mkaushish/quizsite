@@ -1,0 +1,156 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+923, 1982-03-05, 1, 3, Sri Lanka, , DS de Silva, 12, 82, 55, 2, 0
+923, 1982-03-05, 3, 4, Sri Lanka, not out, , 100, 272, 191, 10, 0
+925, 1982-03-14, 2, 3, Sri Lanka, , de Mel, 23, 74, 49, 3, 0
+925, 1982-03-14, 4, 3, Sri Lanka, lbw, de Mel, 4, 19, 9, 0, 0
+941, 1982-12-10, 1, 6, India, , Madan Lal, 6, 19, 10, 1, 0
+942, 1982-12-23, 2, 3, India, c Kirmani, Madan Lal, 3, 25, 14, 0, 0
+945, 1983-01-03, 2, 6, India, , Kapil Dev, 107, 251, 168, 14, 0
+947, 1983-01-23, 1, 6, India, , Maninder Singh, 6, 38, 35, 0, 0
+961, 1983-09-14, 2, 3, India, c Amarnath, Kapil Dev, 5, na, na, na, 0
+963, 1983-10-05, 2, 3, India, lbw, Kapil Dev, 0, na, na, 0, 0
+963, 1983-10-05, 4, 3, India, not out, , 0, na, na, 0, 0
+970, 1983-12-09, 2, 6, Australia, c Lawson, Hogan, 77, 234, 117, 6, 0
+973, 1983-12-26, 1, 6, Australia, c Maguire, Lawson, 35, 101, 68, 2, 0
+973, 1983-12-26, 3, 8, Australia, , Lillee, 14, 62, 75, 1, 0
+974, 1984-01-02, 1, 8, Australia, c Lillee, Lawson, 54, 98, 71, 8, 0
+974, 1984-01-02, 3, 7, Australia, c Chappell, Lillee, 7, 53, 37, 0, 0
+978, 1984-03-02, 2, 5, England, lbw, Willis, 74, 242, 156, 9, 0
+978, 1984-03-02, 4, 5, England, run out, , 11, 23, 32, 2, 0
+981, 1984-03-12, 1, 4, England, c Lamb, Cook, 116, 393, 270, 17, 0
+981, 1984-03-12, 3, 4, England, c sub (NG Cowans), Marks, 76, 144, 95, 12, 0
+984, 1984-03-19, 2, 4, England, , Marks, 38, 172, 125, 1, 0
+984, 1984-03-19, 4, 4, England, c Gatting, Cowans, 7, 13, 7, 1, 0
+995, 1984-10-17, 1, 6, India,                c &, Shastri, 45, na, na, na, 0
+996, 1984-10-24, 2, 6, India, not out, , 102, na, na, 15, 0
+998, 1984-11-16, 2, 6, New Zealand, lbw, Stirling, 10, 42, 19, 2, 0
+998, 1984-11-16, 4, 6, New Zealand, not out, , 24, 46, 31, 3, 0
+1000, 1984-11-25, 2, 7, New Zealand, , Boock, 1, 29, 20, 0, 0
+1003, 1984-12-10, 1, 6, New Zealand,                c &, MD Crowe, 50, 164, 129, 9, 0
+1003, 1984-12-10, 3, 6, New Zealand, not out, , 119, 267, 169, 21, 1
+1009, 1985-01-18, 2, 6, New Zealand, c Cairns, Hadlee, 66, 140, 114, 12, 0
+1010, 1985-01-25, 1, 6, New Zealand, not out, , 41, 85, 64, 7, 0
+1010, 1985-01-25, 3, 4, New Zealand, c Cairns, Chatfield, 0, 6, 2, 0, 0
+1012, 1985-02-09, 1, 8, New Zealand, lbw, Hadlee, 0, 2, 3, 0, 0
+1012, 1985-02-09, 3, 6, New Zealand, , Cairns, 9, 42, 26, 1, 0
+1027, 1985-10-27, 2, 6, Sri Lanka, lbw, Ratnayeke, 22, na, na, na, 0
+1028, 1985-11-07, 2, 5, Sri Lanka, , de Mel, 4, na, na, na, 0
+1037, 1986-02-23, 2, 6, Sri Lanka, c PA de Silva, de Mel, 54, na, na, na, 0
+1041, 1986-03-14, 1, 6, Sri Lanka, c Mahanama, Kuruppuarachchi, 42, na, na, na, 0
+1041, 1986-03-14, 3, 6, Sri Lanka, c Wettimuny, Ratnayeke, 30, na, na, na, 0
+1043, 1986-03-22, 2, 6, Sri Lanka, c sub (SMS Kaluperuma), Ratnayeke, 29, na, na, na, 0
+1055, 1986-10-24, 1, 6, West Indies, retired hurt, , 21, 59, 28, 3, 0
+1055, 1986-10-24, 3, 11, West Indies, not out, , 3, 41, 14, 0, 0
+1066, 1987-02-03, 1, 5, India, , Maninder Singh, 19, na, na, na, 0
+1066, 1987-02-03, 3, 5, India, not out, , 6, na, na, na, 0
+1067, 1987-02-11, 2, 5, India, lbw, Binny, 0, na, na, 0, 0
+1067, 1987-02-11, 4, 6, India, lbw, Kapil Dev, 20, 93, na, na, 0
+1069, 1987-02-21, 2, 6, India, c Srikkanth, Sharma, 10, na, na, na, 0
+1071, 1987-03-04, 1, 5, India, c More, Yadav, 20, 192, 136, 1, 0
+1071, 1987-03-04, 3, 4, India, not out, , 14, 69, 50, 2, 0
+1073, 1987-03-13, 1, 3, India, , Maninder Singh, 33, 99, 60, 5, 0
+1073, 1987-03-13, 3, 4, India, , Kapil Dev, 33, 74, 62, 4, 0
+1075, 1987-06-04, 2, 5, England, run out, , 6, 26, 21, 0, 0
+1077, 1987-07-02, 2, 6, England, c Gower, Edmonds, 99, 331, 238, 8, 0
+1078, 1987-07-23, 1, 5, England, c French, Dilley, 24, 127, 95, 3, 0
+1078, 1987-07-23, 3, 5, England,                c &, Botham, 17, 12, 14, 4, 0
+1079, 1987-08-06, 1, 5, England, c Gower, Botham, 102, 267, 237, 6, 0
+1081, 1987-11-25, 2, 3, England, , Emburey, 0, 1, 1, 0, 0
+1083, 1987-12-07, 2, 3, England, , Cook, 60, 225, 169, 7, 0
+1083, 1987-12-07, 4, 3, England, not out, , 28, 48, 46, 5, 0
+1086, 1987-12-16, 2, 3, England, c Gatting, DeFreitas, 55, 143, 121, 6, 0
+1095, 1988-04-02, 2, 5, West Indies, c Greenidge, Patterson, 27, 153, 97, 3, 0
+1096, 1988-04-14, 2, 6, West Indies, c Logie, Hooper, 66, 173, 99, 8, 0
+1096, 1988-04-14, 4, 5, West Indies, lbw, Walsh, 30, 190, 97, 2, 0
+1097, 1988-04-22, 1, 5, West Indies, , Marshall, 15, 22, 15, 1, 1
+1097, 1988-04-22, 3, 5, West Indies, lbw, Benjamin, 9, 43, 28, 1, 0
+1104, 1988-09-15, 1, 6, Australia, c Boon, May, 45, 176, 122, 5, 1
+1105, 1988-09-23, 1, 5, Australia, , Dodemaide, 0, 7, 3, 0, 0
+1105, 1988-09-23, 3, 5, Australia, c Border, Reid, 10, 45, 30, 2, 0
+1106, 1988-10-07, 2, 5, Australia,                c &, Dodemaide, 26, 94, 54, 4, 0
+1106, 1988-10-07, 4, 5, Australia, c Healy, Taylor, 13, 24, 19, 3, 0
+1115, 1989-02-10, 2, 5, New Zealand, c Smith, Bracewell, 38, 138, 109, 3, 0
+1116, 1989-02-24, 1, 6, New Zealand, not out, , 80, 224, 155, 6, 1
+1127, 1989-11-15, 1, 5, India, c Azharuddin, Ankola, 36, 90, 61, 6, 0
+1127, 1989-11-15, 3, 6, India, not out, , 102, 218, 145, 13, 0
+1128, 1989-11-23, 2, 5, India, lbw, Prabhakar, 63, 127, 82, 7, 0
+1130, 1989-12-01, 2, 3, India, c Manjrekar, Maninder Singh, 55, 162, 94, 4, 0
+1132, 1989-12-09, 2, 5, India, c Shastri, Razdan, 34, 132, 76, 2, 0
+1135, 1990-01-19, 1, 6, Australia, c Healy, Hughes, 11, 28, 22, 1, 0
+1135, 1990-01-19, 3, 8, Australia, not out, , 65, 127, 105, 6, 0
+1151, 1990-10-10, 2, 3, New Zealand, c Rutherford, Pringle, 43, 119, 86, 5, 1
+1152, 1990-10-18, 2, 3, New Zealand, lbw, Watson, 6, 48, 28, 1, 0
+1152, 1990-10-18, 4, 3, New Zealand, not out, , 19, 60, 36, 1, 0
+1153, 1990-10-26, 1, 3, New Zealand, c Smith, Pringle, 4, 26, 17, 0, 0
+1153, 1990-10-26, 3, 4, New Zealand,                c &, Crowe, 71, 190, 126, 12, 0
+1154, 1990-11-15, 2, 5, West Indies, c Dujon, Marshall, 102, 267, 208, 7, 0
+1154, 1990-11-15, 4, 4, West Indies, not out, , 30, 59, 50, 3, 0
+1157, 1990-11-23, 1, 5, West Indies, c Richardson, Bishop, 74, 161, 116, 10, 0
+1157, 1990-11-23, 3, 4, West Indies, , Marshall, 71, 165, 98, 11, 0
+1158, 1990-12-06, 2, 5, West Indies, c Greenidge, Bishop, 8, 32, 26, 1, 0
+1158, 1990-12-06, 4, 5, West Indies, , Bishop, 0, 5, 2, 0, 0
+1178, 1991-12-12, 2, 4, Sri Lanka, c Gurusinha, Anurasiri, 101, 301, 207, 10, 0
+1182, 1992-01-02, 2, 5, Sri Lanka, c Tillakaratne, Gurusinha, 4, 9, 8, 1, 0
+1182, 1992-01-02, 4, 4, Sri Lanka, c Gurusinha, Wijegunawardene, 4, 6, 4, 1, 0
+1189, 1992-06-04, 1, 5, England, lbw, DeFreitas, 165, 370, 297, 19, 1
+1190, 1992-06-18, 2, 5, England, c Smith, Malcolm, 55, 126, 82, 8, 0
+1190, 1992-06-18, 4, 5, England, c Lewis, Salisbury, 12, 32, 22, 1, 0
+1191, 1992-07-02, 1, 6, England, , Gooch, 34, 87, 69, 5, 0
+1191, 1992-07-02, 3, 5, England, , Gooch, 16, 36, 35, 3, 0
+1192, 1992-07-23, 1, 5, England, not out, , 82, 227, 164, 12, 0
+1192, 1992-07-23, 3, 5, England, not out, , 84, 214, 154, 10, 0
+1193, 1992-08-06, 2, 5, England, , Malcolm, 40, 132, 94, 5, 0
+1207, 1993-01-02, 1, 5, New Zealand, c Parore, Morrison, 14, 51, 38, 2, 0
+1207, 1993-01-02, 3, 5, New Zealand, c Su'a, Morrison, 0, 1, 1, 0, 0
+1248, 1994-02-10, 2, 5, New Zealand, c Young, Doull, 18, 48, 29, 3, 0
+1248, 1994-02-10, 4, 4, New Zealand, c Young, de Groen, 11, 40, 24, 1, 0
+1249, 1994-02-17, 2, 5, New Zealand,                c &, Hart, 140, 285, 200, 20, 0
+1251, 1994-02-24, 1, 4, New Zealand, , Hart, 18, 50, 33, 2, 0
+1251, 1994-02-24, 3, 5, New Zealand, c Pringle, Morrison, 23, 92, 62, 1, 0
+1265, 1994-08-09, 1, 4, Sri Lanka, c Tillakaratne, Dharmasena, 1, 6, 7, 0, 0
+1265, 1994-08-09, 3, 4, Sri Lanka, not out, , 50, 166, 85, 4, 0
+1267, 1994-08-26, 2, 5, Sri Lanka, c Dassanayake, Dharmasena, 22, 51, 29, 4, 0
+1268, 1994-09-28, 2, 4, Australia, lbw, Angel, 26, 104, 76, 4, 0
+1268, 1994-09-28, 4, 4, Australia, c Taylor, Angel, 43, 130, 122, 7, 0
+1269, 1994-10-05, 2, 4, Australia, , McDermott, 33, 83, 47, 6, 0
+1269, 1994-10-05, 3, 4, Australia, c Healy, Fleming, 237, 443, 328, 34, 0
+1273, 1994-11-01, 1, 4, Australia, c Bevan, May, 75, 186, 137, 10, 0
+1273, 1994-11-01, 3, 4, Australia, , Bevan, 143, 313, 242, 19, 0
+1283, 1995-01-19, 2, 4, South Africa, c Eksteen, Donald, 99, 228, 154, 16, 0
+1283, 1995-01-19, 4, 4, South Africa, lbw, de Villiers, 1, 4, 3, 0, 0
+1285, 1995-01-31, 2, 5, Zimbabwe, c Carlisle, Whittall, 32, 99, 70, 2, 0
+1285, 1995-01-31, 3, 4, Zimbabwe, c A Flower, Brain, 6, 38, 29, 1, 0
+1288, 1995-02-07, 2, 5, Zimbabwe, , Streak, 44, 127, 101, 7, 0
+1290, 1995-02-15, 1, 4, Zimbabwe, c GW Flower, Streak, 20, 70, 62, 1, 0
+1290, 1995-02-15, 3, 4, Zimbabwe, c Carlisle, Whittall, 5, 19, 19, 1, 0
+1311, 1995-11-09, 2, 11, Australia, absent hurt, , -, , , , 
+1311, 1995-11-09, 3, 8, Australia, c McDermott, Warne, 0, 2, 4, 0, 0
+1314, 1995-11-30, 1, 5, Australia, lbw, McGrath, 36, 107, 81, 6, 0
+1314, 1995-11-30, 3, 4, Australia, lbw, ME Waugh, 45, 192, 154, 3, 0
+1316, 1995-12-08, 1, 5, New Zealand, c Germon, Nash, 0, 3, 2, 0, 0
+1316, 1995-12-08, 3, 5, New Zealand, c Germon, Morrison, 21, 34, 22, 4, 0
+1330, 1996-07-25, 1, 5, England, run out (Salisbury/Russell), , 7, 13, 12, 1, 0
+1330, 1996-07-25, 3, 6, England, not out, , 27, 95, 58, 3, 0
+1331, 1996-08-08, 1, 5, England, , Cork, 55, 193, 143, 3, 0
+1331, 1996-08-08, 3, 5, England, c Cork, Caddick, 6, 17, 18, 1, 0
+1332, 1996-08-22, 2, 5, England, not out, , 100, 289, 223, 10, 0
+1336, 1996-10-17, 2, 5, Zimbabwe, , PA Strang, 52, 104, 106, 6, 1
+1337, 1996-10-24, 2, 4, Zimbabwe, c A Flower, BC Strang, 18, 58, 33, 2, 0
+1339, 1996-11-21, 2, 5, New Zealand, c Young, Doull, 21, 69, 50, 2, 0
+1339, 1996-11-21, 4, 6, New Zealand, c Germon, Doull, 21, 48, 35, 4, 0
+1342, 1996-11-28, 2, 6, New Zealand, , Cairns, 78, 213, 159, 8, 0
+1366, 1997-04-19, 2, 4, Sri Lanka, run out (Ranatunga), , 58, 144, 115, 3, 0
+1367, 1997-04-26, 2, 4, Sri Lanka, c Ranatunga, KSC de Silva, 24, 93, 56, 4, 0
+1367, 1997-04-26, 4, 4, Sri Lanka, c Kaluwitharana, Silva, 155, 338, 240, 26, 0
+1424, 1998-10-01, 1, 5, Australia, c Taylor, Miller, 10, 17, 11, 2, 0
+1424, 1998-10-01, 3, 5, Australia, not out, , 52, 210, 159, 6, 0
+1426, 1998-10-15, 2, 5, Australia, c Taylor, McGrath, 49, 176, 124, 6, 0
+1427, 1998-10-22, 2, 5, Australia, c McGrath, MacGill, 0, 10, 8, 0, 0
+1427, 1998-10-22, 4, 4, Australia, lbw, Miller, 0, 7, 2, 0, 0
+1432, 1998-12-10, 2, 4, Zimbabwe, run out (Streak), , 2, 33, 21, 0, 0
+1442, 1999-01-28, 1, 6, India, , Srinath, 8, 39, 34, 1, 0
+1442, 1999-01-28, 3, 6, India, c Dravid, Joshi, 32, 110, 69, 4, 0
+1443, 1999-02-04, 2, 6, India, c Azharuddin, Prasad, 31, 75, 59, 4, 0
+1443, 1999-02-04, 4, 7, India, , Kumble, 15, 67, 59, 3, 0
+1444, 1999-02-16, 1, 6, India, c Mongia, Srinath, 32, 210, 140, 4, 0
+1444, 1999-02-16, 3, 7, India, lbw, Srinath, 9, 34, 16, 1, 0

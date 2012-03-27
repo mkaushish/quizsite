@@ -1,0 +1,98 @@
+
+Test # 476
+India in England, 1959, 3rd Test
+England v India
+Headingley, Leeds
+2,3,4 July 1959 (5-day match)
+
+Result: England won by an innings and 173 runs
+Series: England leads the 5-match series 3-0
+
+Toss: India
+Umpires: FS Lee and WE Phillipson
+Test debuts: G Pullar, HJ Rhodes (England); AL Apte (India).
+
+Close of play:
+ Day 1: India 161, England 61/0 (Parkhouse 38*, Pullar 23*)
+ Day 2: England 408/4 (Cowdrey 148*, Close 12*)
+
+India 1st innings                                               R   M   B  4 6
+P Roy                 c Swetman          b Rhodes               2          0 0
+AL Apte                                  b Moss                 8            0
+JM Ghorpade           c Swetman          b Trueman              8            0
+CG Borde              c Swetman          b Rhodes               0          0 0
+PR Umrigar            c Trueman          b Moss                29 105        0
+*DK Gaekwad           c Cowdrey          b Rhodes              25  75        0
+RG Nadkarni           c Parkhouse        b Rhodes              27 105        0
++NS Tamhane           c Moss             b Trueman             20  30        0
+Surendranath          c Close            b Trueman              5            0
+SP Gupte              c Swetman          b Close               21            0
+RB Desai              not out                                   7            0
+Extras                (lb 4, nb 5)                              9
+Total                 (all out, 68.5 overs)                   161
+
+FoW: 1-10 (Roy), 2-10 (Apte), 3-11 (Borde), 4-23 (Ghorpade),
+     5-75 (Gaekwad), 6-75 (Umrigar), 7-103 (Tamhane),
+     8-112 (Surendranath), 9-141 (Gupte), 10-161 (Nadkarni).
+
+Bowling                      O      M      R      W
+Trueman                     15      6     30      3
+Moss                        22     11     30      2
+Rhodes                      18.5    3     50      4
+Mortimore                    8      3     24      0
+Close                        5      1     18      1
+
+England 1st innings                                             R   M   B  4 6
+WGA Parkhouse         c Tamhane          b Desai               78 260        0
+G Pullar              c Borde            b Nadkarni            75 210        0
+MC Cowdrey            c Ghorpade         b Gupte              160 280     14 4
+*PBH May                                 b Desai                2          0 0
+KF Barrington         c Tamhane          b Nadkarni            80 165     12 0
+DB Close                                 b Gupte               27            0
+JB Mortimore                             b Gupte                7            0
++R Swetman            not out                                  19            0
+FS Trueman            c Desai            b Gupte               17            0
+Extras                (b 13, lb 5)                             18
+Total                 (8 wickets dec, 174.3 overs)            483
+
+DNB: AE Moss, HJ Rhodes.
+
+FoW: 1-146 (Pullar), 2-180 (Parkhouse), 3-186 (May),
+     4-379 (Barrington), 5-432 (Close), 6-439 (Cowdrey),
+     7-453 (Mortimore), 8-483 (Trueman).
+
+Bowling                      O      M      R      W
+Desai                       38     10    111      2
+Surendranath                32     11     84      0
+Gupte                       44.3   13    111      4
+Umrigar                     24      8     44      0
+Borde                       14      1     51      0
+Nadkarni                    22      2     64      2
+
+India 2nd innings                                               R   M   B  4 6
+P Roy                 c Swetman          b Trueman             20            0
+AL Apte               c Close            b Moss                 7            0
+JM Ghorpade           lbw                b Trueman              0          0 0
+CG Borde              c May              b Close               41            0
+PR Umrigar            c Trueman          b Mortimore           39            0
+*DK Gaekwad                          c & b Close                8            0
+RG Nadkarni           c Barrington       b Close               11            0
++NS Tamhane           not out                                   9            0
+Surendranath          c Cowdrey          b Mortimore            1          0 0
+SP Gupte                             c & b Close                1          0 0
+RB Desai              c Cowdrey          b Mortimore            8            0
+Extras                (lb 4)                                    4
+Total                 (all out, 55.4 overs)                   149
+
+FoW: 1-16 (Apte), 2-19 (Ghorpade), 3-38 (Roy), 4-107 (Borde),
+     5-115 (Umrigar), 6-121 (Gaekwad), 7-138 (Nadkarni),
+     8-139 (Surendranath), 9-140 (Gupte), 10-149 (Desai).
+
+Bowling                      O      M      R      W
+Trueman                     10      1     29      2
+Moss                         6      3     10      1
+Rhodes                      10      2     35      0
+Mortimore                   18.4    6     36      3
+Close                       11      0     35      4
+
+<END>

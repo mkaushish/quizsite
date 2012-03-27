@@ -1,0 +1,37 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+1553, 2001-06-27, 1, 3, West Indies, , Stuart, 9, 42, 23, 1, 0
+1553, 2001-06-27, 3, 3, West Indies, c Hooper, McGarrell, 119, 388, 316, 12, 0
+1562, 2001-08-07, 2, 3, South Africa, run out (McKenzie), , 13, 51, 40, 2, 0
+1562, 2001-08-07, 3, 3, South Africa, c Dippenaar, Henderson, 85, 294, 230, 13, 0
+1563, 2001-08-14, 1, 3, South Africa, c Boucher, Nel, 13, 51, 39, 1, 0
+1563, 2001-08-14, 3, 3, South Africa, not out, , 42, 99, 97, 7, 1
+1581, 2001-11-27, 2, 1, Sri Lanka, c Tillakaratne, Zoysa, 3, 14, 12, 0, 0
+1581, 2001-11-27, 3, 1, Sri Lanka, c Atapattu, Muralitharan, 28, 61, 45, 5, 0
+1583, 2002-01-04, 1, 1, Sri Lanka, , Muralitharan, 10, 65, 50, 0, 0
+1583, 2002-01-04, 3, 1, Sri Lanka, , Vaas, 0, 1, 1, 0, 0
+1625, 2002-10-09, 2, 2, Pakistan, c Kamran Akmal, Mohammad Sami, 9, 52, 32, 1, 0
+1625, 2002-10-09, 4, 2, Pakistan, c Saleem Elahi, Shoaib Akhtar, 0, 7, 4, 0, 0
+1627, 2002-10-16, 1, 6, Pakistan, c Kamran Akmal, Saqlain Mushtaq, 0, 8, 4, 0, 0
+1627, 2002-10-16, 3, 6, Pakistan, c Yousuf Youhana, Saqlain Mushtaq, 16, 30, 24, 3, 0
+1733, 2005-01-06, 2, 4, Bangladesh, , Mashrafe Mortaza, 29, 44, 46, 4, 0
+1733, 2005-01-06, 4, 4, Bangladesh,                c &, Enamul Haque jnr, 56, 181, 130, 8, 0
+1735, 2005-01-14, 1, 4, Bangladesh, c Aftab Ahmed, Tapash Baisya, 43, 93, 70, 6, 0
+1735, 2005-01-14, 3, 4, Bangladesh, c Rajin Saleh, Mohammad Rafique, 1, 20, 20, 0, 0
+1737, 2005-02-04, 1, 4, South Africa, lbw, Kallis, 6, 59, 38, 0, 0
+1737, 2005-02-04, 3, 4, South Africa, c Gibbs, Boje, 46, 107, 78, 7, 0
+1740, 2005-02-11, 1, 4, South Africa, c Smith, Zondeki, 26, 35, 26, 6, 0
+1740, 2005-02-11, 3, 4, South Africa, c Boucher, Zondeki, 47, 131, 97, 7, 0
+1759, 2005-07-07, 2, 4, New Zealand, lbw, Franklin, 0, na, 2, 0, 0
+1759, 2005-07-07, 3, 4, New Zealand,                c &, Vettori, 42, na, 79, 7, 0
+1761, 2005-07-15, 1, 4, New Zealand, c Martin, Bond, 0, 11, 6, 0, 0
+1761, 2005-07-15, 3, 4, New Zealand, , Vettori, 28, 60, 52, 2, 2
+1765, 2005-08-13, 1, 3, India, c Karthik, Khan, 14, na, 17, 3, 0
+1765, 2005-08-13, 3, 3, India, c Kumble, Pathan, 2, na, 12, 0, 0
+1767, 2005-08-20, 1, 5, India, lbw, Pathan, 27, na, 69, 4, 0
+1767, 2005-08-20, 3, 4, India, lbw, Pathan, 71, na, 127, 8, 1
+2002, 2011-07-04, 1, 3, Bangladesh, c Imrul Kayes, Robiul Islam, 104, 306, 244, 8, 1
+2002, 2011-07-04, 3, 3, Bangladesh,                c &, Shakib Al Hasan, 5, 46, 28, 0, 0
+2006, 2011-08-01, 1, 3, Pakistan, , Saeed Ajmal, 11, 48, 41, 2, 0
+2006, 2011-08-01, 3, 3, Pakistan, , Aizaz Cheema, 8, 47, 27, 1, 0
+2013, 2011-10-01, 2, 3, New Zealand, , Bracewell, 22, 99, 85, 1, 0
+2013, 2011-10-01, 4, 3, New Zealand, c Brownlie, Bracewell, 19, 58, 47, 2, 0

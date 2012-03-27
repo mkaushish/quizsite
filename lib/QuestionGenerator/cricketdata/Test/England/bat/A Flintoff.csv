@@ -1,0 +1,130 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+1421, 1998-07-23, 2, 8, South Africa, c Boucher, Kallis, 17, 47, 37, 3, 0
+1422, 1998-08-06, 1, 7, South Africa, c Liebenberg, Pollock, 0, 2, 3, 0, 0
+1422, 1998-08-06, 3, 8, South Africa, c Boucher, Donald, 0, 4, 5, 0, 0
+1471, 1999-11-25, 1, 7, South Africa, c Boucher, Pollock, 38, 71, 48, 7, 0
+1471, 1999-11-25, 3, 7, South Africa,                c &, Adams, 36, 86, 62, 7, 0
+1475, 1999-12-09, 2, 7, South Africa, , Pollock, 42, 67, 37, 9, 0
+1475, 1999-12-09, 4, 7, South Africa, c Boucher, Kallis, 12, 16, 19, 2, 0
+1480, 1999-12-26, 1, 7, South Africa, lbw, Cronje, 5, 20, 19, 1, 0
+1482, 2000-01-02, 1, 8, South Africa, c Rhodes, Klusener, 22, 57, 47, 3, 0
+1482, 2000-01-02, 3, 11, South Africa, absent hurt, , -, , , , 
+1495, 2000-04-18, 2, 7, Zimbabwe, c Streak, Whittall, 1, 9, 12, 0, 0
+1498, 2000-05-01, 1, 7, Zimbabwe, lbw, Mbangwa, 16, 67, 46, 3, 0
+1498, 2000-05-01, 3, 6, Zimbabwe, c A Flower, Streak, 16, 68, 62, 1, 1
+1500, 2000-05-15, 1, 7, West Indies, c Lara, Walsh, 16, 40, 20, 3, 0
+1500, 2000-05-15, 3, 7, West Indies, , King, 12, 24, 22, 3, 0
+1574, 2001-11-03, 1, 6, India, c Kumble, Harbhajan Singh, 18, 49, 38, 4, 0
+1574, 2001-11-03, 3, 6, India, c Ganguly, Kumble, 4, 1, 2, 1, 0
+1575, 2001-11-11, 1, 6, India, c Laxman, Kumble, 0, 7, 2, 0, 0
+1575, 2001-11-11, 3, 5, India, , Kumble, 4, 7, 5, 1, 0
+1578, 2001-11-19, 1, 6, India, c Tendulkar, Sarandeep Singh, 0, 3, 4, 0, 0
+1594, 2002-02-13, 1, 7, New Zealand, lbw, Astle, 0, 24, 14, 0, 0
+1594, 2002-02-13, 3, 7, New Zealand, c sub (MN McKenzie), Astle, 137, 215, 163, 23, 3
+1596, 2002-02-21, 1, 7, New Zealand, c Drum, Butler, 2, 9, 5, 0, 0
+1596, 2002-02-21, 3, 4, New Zealand,                c &, Vettori, 75, 53, 44, 9, 2
+1597, 2002-03-30, 2, 7, New Zealand, c Parore, Adams, 29, 44, 29, 5, 1
+1597, 2002-03-30, 4, 6, New Zealand, , Tuffey, 0, 2, 2, 0, 0
+1603, 2002-04-16, 2, 8, Sri Lanka, c Sangakkara, Fernando, 12, 26, 18, 3, 0
+1605, 2002-05-30, 2, 7, Sri Lanka, c Tillakaratne, Muralitharan, 29, 69, 51, 6, 0
+1606, 2002-05-13, 1, 7, Sri Lanka, run out (Vaas), , 1, 14, 8, 0, 0
+1610, 2002-06-25, 1, 7, India, c Ratra, Agarkar, 59, 85, 62, 10, 1
+1610, 2002-06-25, 3, 6, India, c Tendulkar, Nehra, 7, 12, 12, 1, 0
+1612, 2002-07-08, 2, 7, India, , Khan, 33, 82, 46, 6, 0
+1613, 2002-07-22, 2, 7, India, lbw, Harbhajan Singh, 0, 1, 1, 0, 0
+1613, 2002-07-22, 3, 7, India, c Dravid, Khan, 0, 4, 2, 0, 0
+1651, 2003-06-24, 2, 7, South Africa, lbw, Pretorius, 40, 75, 57, 7, 1
+1653, 2003-07-31, 1, 7, South Africa, c Adams, Ntini, 11, 58, 36, 2, 0
+1653, 2003-07-31, 3, 7, South Africa, st Boucher, Adams, 142, 205, 146, 18, 5
+1654, 2003-07-14, 1, 7, South Africa, c Pollock, Hall, 0, 29, 20, 0, 0
+1654, 2003-07-14, 3, 7, South Africa, c Gibbs, Pollock, 30, 67, 46, 4, 1
+1656, 2003-07-21, 2, 7, South Africa, , Ntini, 55, 84, 64, 4, 3
+1656, 2003-07-21, 4, 7, South Africa, c Hall, Kallis, 50, 81, 62, 8, 0
+1659, 2003-08-04, 2, 7, South Africa, , Adams, 95, 132, 104, 12, 4
+1670, 2003-11-02, 2, 6, Sri Lanka, lbw, Muralitharan, 1, 22, 14, 0, 0
+1670, 2003-11-02, 4, 6, Sri Lanka, c Tillakaratne, Vaas, 0, 5, 6, 0, 0
+1672, 2003-11-10, 2, 7, Sri Lanka, , Muralitharan, 16, 33, 25, 2, 1
+1672, 2003-11-10, 4, 7, Sri Lanka, lbw, Muralitharan, 19, 41, 36, 2, 0
+1675, 2003-11-18, 1, 6, Sri Lanka,                c &, Muralitharan, 77, 136, 109, 10, 4
+1675, 2003-11-18, 3, 7, Sri Lanka, c Sangakkara, Fernando, 30, 89, 75, 6, 0
+1687, 2004-02-11, 2, 6, West Indies, c Hinds, Sarwan, 46, 70, 50, 5, 0
+1690, 2004-02-19, 2, 6, West Indies,                c &, DR Smith, 23, 35, 24, 3, 0
+1694, 2004-03-01, 2, 6, West Indies, c Collymore, Best, 15, 36, 28, 2, 0
+1696, 2004-03-10, 2, 6, West Indies, not out, , 102, 327, 224, 13, 1
+1696, 2004-03-10, 3, 6, West Indies, c Lara, Sarwan, 14, 30, 37, 1, 0
+1700, 2004-04-20, 2, 7, New Zealand, c Richardson, Martin, 63, 116, 85, 8, 2
+1702, 2004-05-03, 2, 6, New Zealand, c Martin, Styris, 94, 235, 144, 12, 1
+1704, 2004-05-10, 2, 6, New Zealand, lbw, Cairns, 54, 92, 79, 12, 0
+1704, 2004-05-10, 4, 6, New Zealand, c sub (HJH Marshall), Cairns, 5, 22, 15, 1, 0
+1707, 2004-06-22, 1, 6, West Indies, , Banks, 6, 5, 4, 0, 1
+1707, 2004-06-22, 3, 6, West Indies, c Jacobs, Collins, 58, 46, 42, 6, 2
+1708, 2004-07-29, 1, 6, West Indies, lbw, Bravo, 167, 274, 191, 17, 7
+1708, 2004-07-29, 3, 6, West Indies, c Bravo, Gayle, 20, 49, 23, 1, 1
+1711, 2004-07-12, 2, 6, West Indies, lbw, Bravo, 7, 19, 15, 1, 0
+1711, 2004-07-12, 4, 5, West Indies, not out, , 57, 107, 92, 5, 2
+1712, 2004-07-19, 1, 6, West Indies, c Lawson, Edwards, 72, 126, 99, 13, 0
+1728, 2004-11-17, 2, 6, South Africa, c Rudolph, Ntini, 35, 107, 70, 4, 1
+1730, 2004-11-26, 1, 6, South Africa, c Amla, Pollock, 0, 10, 12, 0, 0
+1730, 2004-11-26, 3, 6, South Africa, c de Villiers, Smith, 60, 147, 112, 6, 3
+1732, 2005-01-02, 2, 7, South Africa, c Gibbs, Ntini, 12, 13, 10, 2, 0
+1732, 2005-01-02, 4, 6, South Africa, c de Villiers, Pollock, 20, 71, 59, 4, 0
+1734, 2005-01-13, 1, 7, South Africa, c Smith, Ntini, 2, 20, 11, 0, 0
+1734, 2005-01-13, 3, 6, South Africa, c Boucher, Pollock, 7, 17, 12, 0, 1
+1736, 2005-01-21, 2, 6, South Africa, c Boucher, Hall, 77, 206, 144, 12, 1
+1736, 2005-01-21, 4, 6, South Africa, not out, , 14, 41, 29, 3, 0
+1756, 2005-06-21, 2, 6, Australia, , McGrath, 0, 8, 4, 0, 0
+1756, 2005-06-21, 4, 6, Australia, c Gilchrist, Warne, 3, 14, 11, 0, 0
+1758, 2005-07-04, 1, 6, Australia, c Gilchrist, Gillespie, 68, 74, 62, 6, 5
+1758, 2005-07-04, 3, 7, Australia, , Warne, 73, 133, 86, 6, 4
+1760, 2005-07-11, 1, 7, Australia, c Langer, Warne, 46, 93, 67, 7, 0
+1760, 2005-07-11, 3, 6, Australia, , McGrath, 4, 20, 18, 0, 0
+1762, 2005-07-25, 1, 6, Australia, lbw, Tait, 102, 201, 132, 14, 1
+1762, 2005-07-25, 4, 6, Australia, , Lee, 26, 63, 34, 3, 0
+1763, 2005-08-08, 1, 6, Australia, c Warne, McGrath, 72, 162, 115, 12, 1
+1763, 2005-08-08, 3, 6, Australia,                c &, Warne, 8, 20, 13, 1, 0
+1770, 2005-10-12, 2, 7, Pakistan, c Shoaib Malik, Shoaib Akhtar, 45, 98, 79, 7, 0
+1770, 2005-10-12, 4, 6, Pakistan, c Younis Khan, Danish Kaneria, 11, 22, 14, 2, 0
+1772, 2005-10-20, 2, 6, Pakistan, , Shoaib Akhtar, 1, 17, 10, 0, 0
+1772, 2005-10-20, 4, 6, Pakistan, c sub (Hasan Raza), Shoaib Akhtar, 56, 141, 98, 9, 1
+1774, 2005-11-29, 1, 6, Pakistan, c Shoaib Akhtar, Naved-ul-Hasan, 12, 30, 26, 2, 0
+1774, 2005-11-29, 3, 6, Pakistan, , Danish Kaneria, 0, 1, 1, 0, 0
+1785, 2006-02-01, 1, 6, India, lbw, Kumble, 43, 83, 70, 6, 0
+1788, 2006-02-09, 1, 6, India,                c &, Patel, 70, 180, 123, 11, 2
+1788, 2006-02-09, 3, 6, India, c Patel, Chawla, 51, 152, 106, 4, 0
+1791, 2006-02-18, 1, 6, India, c Tendulkar, Kumble, 50, 136, 85, 6, 3
+1791, 2006-02-18, 3, 7, India, st Dhoni, Kumble, 50, 209, 146, 6, 1
+1802, 2006-04-11, 1, 7, Sri Lanka, not out, , 33, 37, 29, 3, 2
+1803, 2006-04-25, 2, 7, Sri Lanka, , Malinga, 9, 64, 48, 1, 0
+1803, 2006-04-25, 4, 6, Sri Lanka, not out, , 4, 7, 4, 1, 0
+1804, 2006-05-02, 2, 6, Sri Lanka, c Jayawardene, Jayasuriya, 1, 4, 5, 0, 0
+1804, 2006-05-02, 4, 6, Sri Lanka, c Dilshan, Muralitharan, 0, 2, 4, 0, 0
+1817, 2006-10-23, 2, 6, Australia, c Gilchrist, Lee, 0, 4, 3, 0, 0
+1817, 2006-10-23, 4, 6, Australia, c Langer, Warne, 16, 37, 26, 4, 0
+1819, 2006-11-01, 1, 6, Australia, not out, , 38, 101, 67, 2, 1
+1819, 2006-11-01, 3, 6, Australia, c Gilchrist, Lee, 2, 25, 24, 0, 0
+1821, 2006-11-14, 2, 6, Australia, c Warne, Symonds, 13, 46, 31, 2, 0
+1821, 2006-11-14, 4, 7, Australia, , Warne, 51, 96, 67, 8, 1
+1824, 2006-11-26, 1, 6, Australia, c Warne, Clark, 13, 36, 31, 1, 0
+1824, 2006-11-26, 3, 6, Australia, lbw, Clark, 25, 60, 45, 2, 0
+1826, 2007-01-02, 1, 6, Australia, c Gilchrist, Clark, 89, 195, 142, 11, 1
+1826, 2007-01-02, 3, 6, Australia, st Gilchrist, Warne, 7, 31, 21, 1, 0
+1881, 2008-06-18, 1, 7, South Africa, c Boucher, Steyn, 17, 52, 28, 4, 0
+1881, 2008-06-18, 3, 8, South Africa, c Kallis, Morkel, 38, 127, 95, 5, 0
+1883, 2008-07-30, 1, 7, South Africa, not out, , 36, 112, 78, 3, 1
+1883, 2008-07-30, 3, 7, South Africa, c Amla, Harris, 2, 4, 4, 0, 0
+1885, 2008-07-07, 2, 6, South Africa, c Boucher, Kallis, 9, 15, 13, 0, 1
+1885, 2008-07-07, 4, 6, South Africa, not out, , 11, 15, 14, 1, 1
+1898, 2008-11-11, 1, 6, India, c Gambhir, Mishra, 18, 80, 75, 2, 0
+1898, 2008-11-11, 3, 6, India, c Dhoni, Sharma, 4, 18, 11, 0, 0
+1901, 2008-11-19, 2, 6, India, c Gambhir, Mishra, 62, 183, 132, 6, 1
+1906, 2009-01-04, 1, 6, West Indies, c Nash, Powell, 43, 227, 146, 3, 0
+1906, 2009-01-04, 3, 6, West Indies, , Edwards, 24, 78, 47, 3, 0
+1908, 2009-01-15, 1, 7, West Indies, , Taylor, 0, 1, 2, 0, 0
+1908, 2009-01-15, 3, 9, West Indies, c Hinds, Benn, 0, 6, 9, 0, 0
+1922, 2009-06-08, 1, 7, Australia, , Siddle, 37, 66, 51, 6, 0
+1922, 2009-06-08, 3, 7, Australia, c Ponting, Johnson, 26, 89, 71, 3, 0
+1925, 2009-06-16, 1, 7, Australia, c Ponting, Hilfenhaus, 4, 16, 10, 1, 0
+1925, 2009-06-16, 3, 7, Australia, not out, , 30, 34, 27, 4, 0
+1928, 2009-07-30, 2, 7, Australia, c Clarke, Hauritz, 74, 116, 79, 10, 1
+1931, 2009-07-20, 1, 7, Australia, c Haddin, Johnson, 7, 21, 19, 1, 0
+1931, 2009-07-20, 3, 7, Australia, c Siddle, North, 22, 24, 18, 4, 0

@@ -1,0 +1,129 @@
+
+Test # 194
+The Ashes, 1930, 1st Test
+England v Australia
+Trent Bridge, Nottingham
+13,14,16,17 June 1930 (4-day match)
+
+Result: England won by 93 runs
+Series: England leads the 5-match series 1-0
+
+Toss: England
+Umpires: J Hardstaff snr and WR Parry
+Test debut: SJ McCabe (Australia).
+
+Close of play:
+ Day 1: England 241/8 (Robins 28*)
+ Day 2: England 270, Australia 140/8 (Kippax 60*, Hornibrook 0*)
+ Day 3: Australia 144, England 302, Australia 60/1 (Ponsford 21*, Bradman 3*)
+
+England 1st innings                                             R   M   B  4 6
+JB Hobbs              c Richardson       b McCabe              78 221 228  7 0
+H Sutcliffe           c Hornibrook       b Fairfax             29  76  89  3 0
+WR Hammond            lbw                b Grimmett             8   7  10  2 0
+FE Woolley            st Oldfield        b Grimmett             0   1   1  0 0
+EH Hendren                               b Grimmett             5  11  20  1 0
+*APF Chapman          c Ponsford         b Hornibrook          52  61  54 10 0
+H Larwood                                b Grimmett            18  34  45  3 0
+RWV Robins            not out                                  50  57  60  5 0
+MW Tate                                  b Grimmett            13  11  14  2 0
+RK Tyldesley          c Fairfax          b Wall                 1   7   8  0 0
++G Duckworth          lbw                b Fairfax              4  16  11  0 0
+Extras                (b 4, lb 7, nb 1)                        12
+Total                 (all out, 89.4 overs)                   270
+
+FoW: 1-53 (Sutcliffe), 2-63 (Hammond), 3-63 (Woolley),
+     4-71 (Hendren), 5-153 (Chapman), 6-188 (Larwood),
+     7-218 (Hobbs), 8-241 (Tate), 9-242 (Tyldesley),
+     10-270 (Duckworth).
+
+Bowling                      O      M      R      W
+Wall                        17      4     47      1
+Fairfax                     21.4    5     51      2
+Grimmett                    32      6    107      5
+Hornibrook                  12      3     30      1
+McCabe                       7      3     23      1
+
+Australia 1st innings                                           R   M   B  4 6
+*WM Woodfull          c Chapman          b Tate                 2  31  30  0 0
+WH Ponsford                              b Tate                 3  15  13  0 0
+AG Fairfax            c Hobbs            b Robins              14  82  85  0 0
+DG Bradman                               b Tate                 8  18  22  0 0
+AF Kippax             not out                                  64 154 151  9 0
+SJ McCabe             c Hammond          b Robins               4   5   2  1 0
+VY Richardson                            b Tyldesley           37  38  55  7 0
++WAS Oldfield         c Duckworth        b Robins               4  40  46  0 0
+CV Grimmett           st Duckworth       b Robins               0   9  11  0 0
+PM Hornibrook         lbw                b Larwood              0  10   9  0 0
+TW Wall                                  b Tyldesley            0   4   8  0 0
+Extras                (b 4, lb 4)                               8
+Total                 (all out, 72 overs)                     144
+
+FoW: 1-4 (Ponsford), 2-6 (Woodfull), 3-16 (Bradman),
+     4-57 (Fairfax), 5-61 (McCabe), 6-105 (Richardson),
+     7-134 (Oldfield), 8-140 (Grimmett), 9-141 (Hornibrook),
+     10-144 (Wall).
+
+Bowling                      O      M      R      W
+Larwood                     15      8     12      1
+Tate                        19      8     20      3
+Tyldesley                   21      8     53      2
+Robins                      17      4     51      4
+
+England 2nd innings                                             R   M   B  4 6
+JB Hobbs              st Oldfield        b Grimmett            74 116 143  9 0
+H Sutcliffe           retired hurt                             58 138 143  6 1
+WR Hammond            lbw                b Grimmett             4  26  20  0 0
+FE Woolley                               b Wall                 5  19  11  0 0
+EH Hendren            c Richardson       b Wall                72 116 132  8 0
+*APF Chapman                             b Wall                29  41  42  4 0
+MW Tate               c Kippax           b Grimmett            24  34  23  4 0
+RWV Robins                               b McCabe               4   5   6  1 0
+H Larwood                                b Grimmett             7  19  19  1 0
+RK Tyldesley                             b Grimmett             5  21  16  0 0
++G Duckworth          not out                                  14  18  22  2 0
+Extras                (b 5, lb 1)                               6
+Total                 (all out, 96 overs)                     302
+
+FoW: 1-125 (Hobbs), 2-137 (Hammond), 3-147 (Woolley),
+     4-211 (Chapman), 5-250 (Tate), 6-260 (Robins),
+     7-283 (Hendren), 8-283 (Larwood), 9-302 (Tyldesley).
+
+Bowling                      O      M      R      W
+Wall                        26      4     67      3
+Fairfax                     15      4     58      0
+Grimmett                    30      4     94      5
+Hornibrook                  11      4     35      0
+McCabe                      14      3     42      1
+
+Australia 2nd innings (target: 429 runs)                        R   M   B  4 6
+*WM Woodfull          c Chapman          b Larwood              4  18  26  0 0
+WH Ponsford                              b Tate                39 153 118  3 0
+DG Bradman                               b Robins             131 258 287 10 0
+AF Kippax             c Hammond          b Robins              23  63  80  1 0
+SJ McCabe             c sub              b Tate                49  70  76  7 0
+VY Richardson         lbw                b Tyldesley           29  59  69  6 0
+AG Fairfax            c Robins           b Tate                14  83  70  0 0
++WAS Oldfield         c Hammond          b Tyldesley           11  34  40  1 0
+CV Grimmett           c Hammond          b Tyldesley            0  10  12  0 0
+PM Hornibrook         c Duckworth        b Robins               5  31  38  0 0
+TW Wall               not out                                   8  17  20  0 1
+Extras                (b 17, lb 5)                             22
+Total                 (all out, 139.2 overs)                  335
+
+FoW: 1-12 (Woodfull), 2-93 (Ponsford), 3-152 (Kippax),
+     4-229 (Bradman), 5-267 (McCabe), 6-296 (Richardson),
+     7-316 (Fairfax), 8-322 (Oldfield), 9-324 (Grimmett),
+     10-335 (Hornibrook).
+
+Bowling                      O      M      R      W
+Larwood                      5      1      9      1
+Tate                        50     20     69      3
+Tyldesley                   35     10     77      3
+Robins                      17.2    1     81      3
+Hammond                     29      5     74      0
+Woolley                      3      1      3      0
+
+*** H Sutcliffe retired hurt at 134/1
+
+<END>

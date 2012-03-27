@@ -1,0 +1,128 @@
+
+Test # 891
+New Zealand in Australia, 1980/81, 3rd Test
+Australia v New Zealand
+Melbourne Cricket Ground
+26,27,28,29,30 December 1980 (5-day match)
+
+Result: Match drawn
+Series: Australia wins the 3-match series 2-0
+
+Toss: New Zealand
+Umpires: RC Bailhache and AR Crafter
+Player of the match: RJ Hadlee
+Player of the series: RJ Hadlee
+
+Close of play:
+ Day 1: Australia 222/6 (Walters 46*, Lillee 9*)
+ Day 2: Australia 321, New Zealand 139/2 (Howarth 54*, Parker 47*)
+ Day 3: New Zealand 251/6 (Coney 29*, Lees 2*)
+ Day 4: New Zealand 317, Australia 121/3 (Chappell 43*, Border 6*)
+
+Australia 1st innings                                           R   M   B  4 6
+GM Wood               c Lees             b Hadlee               0   1   2  0 0
+J Dyson                                  b Troup               13  71  65  0 0
+*GS Chappell          c Coney            b Hadlee              42 128  80  3 0
+KJ Hughes             c Parker           b Hadlee              51 158 120  3 1
+AR Border             c Cairns           b Coney               45 156 178  5 0
+KD Walters                               b Coney              107 276 206  6 0
++RW Marsh             c Parker           b Coney                1   3   3  0 0
+DK Lillee                                b Cairns              27 120  79  3 0
+RM Hogg               run out                                   0   3   4  0 0
+LS Pascoe                                b Cairns               0   1   1  0 0
+JD Higgs              not out                                   6  96  61  1 0
+Extras                (b 7, lb 13, w 3, nb 6)                  29
+Total                 (all out, 121.3 overs)                  321
+
+FoW: 1-0 (Wood), 2-32 (Dyson), 3-75 (Chappell), 4-159 (Hughes),
+     5-190 (Border), 6-192 (Marsh), 7-261 (Lillee), 8-261 (Hogg),
+     9-261 (Pascoe), 10-321 (Walters).
+
+Bowling                      O      M      R      W
+Hadlee                      39      8     89      3
+Troup                       26      5     54      1
+Cairns                      35      6     83      2
+Bracewell                    9      0     38      0
+Coney                       12.3    6     28      3
+
+New Zealand 1st innings                                         R   M   B  4 6
+JG Wright             c Chappell         b Higgs                4  53  34  0 0
+BA Edgar              lbw                b Higgs               21  72  37  2 0
+*GP Howarth                              b Hogg                65 197 124  4 0
+JM Parker             c Marsh            b Pascoe              56 157 124  3 0
+MG Burgess            lbw                b Pascoe              49 149 120  4 0
+JV Coney              not out                                  55 219 151  2 0
+JG Bracewell          c Chappell         b Pascoe               0   2   2  0 0
++WK Lees              lbw                b Hogg                 4  22  16  0 0
+RJ Hadlee             c Border           b Hogg                 9  12   9  0 0
+BL Cairns             lbw                b Higgs               18  46  32  3 0
+GB Troup              c Hughes           b Hogg                 1   5   3  0 0
+Extras                (b 13, lb 12, nb 10)                     35
+Total                 (all out, 108.2 overs)                  317
+
+FoW: 1-27 (Wright), 2-32 (Edgar), 3-157 (Parker),
+     4-163 (Howarth), 5-247 (Burgess), 6-247 (Bracewell),
+     7-264 (Lees), 8-280 (Hadlee), 9-316 (Cairns),
+     10-317 (Troup).
+
+Bowling                      O      M      R      W
+Lillee                      21      4     49      0
+Hogg                        26.2    9     60      4
+Higgs                       29      6     87      3
+Pascoe                      26      6     75      3
+Border                       4      1      6      0
+Chappell                     2      0      5      0
+
+Australia 2nd innings                                           R   M   B  4 6
+GM Wood               c Lees             b Hadlee              21  98  69  0 0
+J Dyson               lbw                b Cairns              16  50  45  0 0
+*GS Chappell                             b Hadlee              78 274 221  6 0
+KJ Hughes                                b Hadlee              30  71  53  2 0
+AR Border             c Lees             b Hadlee               9  39  35  0 0
+KD Walters            run out                                   2   9   7  0 0
++RW Marsh             lbw                b Cairns               0   3   2  0 0
+DK Lillee             c Coney            b Bracewell            8  53  48  1 0
+RM Hogg                                  b Hadlee              12  53  44  2 0
+LS Pascoe             not out                                   0   8   1  0 0
+JD Higgs                                 b Hadlee               0   1   1  0 0
+Extras                (b 6, lb 4, nb 2)                        12
+Total                 (all out, 87.2 overs)                   188
+
+FoW: 1-25 (Dyson), 2-64 (Wood), 3-111 (Hughes), 4-128 (Border),
+     5-131 (Walters), 6-131 (Marsh), 7-149 (Lillee),
+     8-185 (Chappell), 9-188 (Hogg), 10-188 (Higgs).
+
+Bowling                      O      M      R      W
+Hadlee                      27.2    7     57      6
+Troup                       11      1     31      0
+Cairns                      33     13     65      2
+Bracewell                   15      5     22      1
+Coney                        1      0      1      0
+
+New Zealand 2nd innings (target: 193 runs)                      R   M   B  4 6
+JG Wright             c Wood             b Hogg                44 135 115  3 0
+BA Edgar              run out                                  25  82  49  1 0
+*GP Howarth           lbw                b Chappell            20  45  32  3 0
+JM Parker             lbw                b Chappell             1  25  13  0 0
+JV Coney              lbw                b Hogg                 3  13   8  0 0
+MG Burgess            not out                                  10  73  60  0 0
++WK Lees                                 b Lillee               7  48  32  1 0
+RJ Hadlee             not out                                   5  19  22  0 0
+Extras                (b 2, lb 8, w 1, nb 2)                   13
+Total                 (6 wickets, 54 overs)                   128
+
+DNB: JG Bracewell, BL Cairns, GB Troup.
+
+FoW: 1-50 (Edgar), 2-95 (Howarth), 3-97 (Wright), 4-101 (Coney),
+     5-101 (Parker), 6-121 (Lees).
+
+Bowling                      O      M      R      W
+Lillee                      13      3     30      1
+Hogg                         8      1     14      2
+Higgs                       12      4     24      0
+Pascoe                      11      1     35      0
+Border                       2      1      5      0
+Chappell                     7      4      7      2
+Hughes                       1      1      0      0
+
+<END>

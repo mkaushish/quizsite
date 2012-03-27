@@ -1,0 +1,69 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+1341, 1996-11-27, 1, 8, India, , Prasad, 10, 25, 20, 1, 0
+1344, 1996-12-08, 2, 8, India, c Dravid, Srinath, 9, 27, 17, 1, 0
+1344, 1996-12-08, 4, 8, India, not out, , 34, 121, 100, 5, 0
+1347, 1996-12-26, 1, 10, India, c Mongia, Srinath, 1, 4, 4, 0, 0
+1347, 1996-12-26, 3, 10, India, c Mongia, Srinath, 4, 4, 4, 1, 0
+1349, 1997-01-02, 1, 9, India, not out, , 102, 141, 100, 13, 1
+1349, 1997-01-02, 3, 4, India, c Dravid, Srinath, 12, 45, 30, 1, 0
+1350, 1997-01-16, 2, 9, India, not out, , 22, 61, 38, 1, 1
+1350, 1997-01-16, 4, 9, India, c Dravid, Kumble, 49, 117, 77, 5, 1
+1356, 1997-02-28, 1, 8, Australia, c Taylor, Bevan, 9, 21, 22, 2, 0
+1356, 1997-02-28, 3, 8, Australia, c Hayden, Bevan, 0, 9, 4, 0, 0
+1362, 1997-03-21, 2, 9, Australia, , Gillespie, 30, 58, 46, 3, 1
+1381, 1997-10-17, 1, 8, Pakistan, lbw, Azhar Mahmood, 58, 73, 54, 9, 1
+1382, 1997-10-24, 1, 8, Pakistan, c Ijaz Ahmed, Mushtaq Ahmed, 18, 30, 28, 4, 0
+1382, 1997-10-24, 3, 9, Pakistan, lbw, Saqlain Mushtaq, 38, 46, 35, 3, 2
+1392, 1997-12-26, 2, 9, Australia, lbw, Warne, 11, 47, 35, 1, 0
+1392, 1997-12-26, 4, 9, Australia, not out, , 6, 16, 10, 1, 0
+1397, 1998-01-30, 1, 10, Australia, c Warne, MacGill, 38, 68, 59, 6, 0
+1397, 1998-01-30, 3, 5, Australia, , MacGill, 0, 2, 1, 0, 0
+1400, 1998-02-14, 1, 9, Pakistan, , Mushtaq Ahmed, 6, 17, 22, 0, 0
+1403, 1998-03-26, 2, 9, Pakistan, , Shoaib Akhtar, 6, 12, 5, 1, 0
+1403, 1998-03-26, 4, 9, Pakistan, lbw, Mushtaq Ahmed, 2, 77, 20, 0, 0
+1417, 1998-06-04, 2, 9, England, c Stewart, Ealham, 57, 119, 90, 11, 0
+1419, 1998-06-18, 1, 9, England, , Headley, 34, 68, 45, 6, 0
+1420, 1998-07-02, 1, 7, England, not out, , 17, 51, 24, 1, 0
+1441, 1999-01-15, 1, 9, West Indies, c Jacobs, Walsh, 12, 58, 36, 2, 0
+1452, 1999-03-18, 2, 9, New Zealand, c Parore, Nash, 19, 61, 46, 3, 0
+1466, 1999-11-29, 2, 8, Zimbabwe, lbw, GW Flower, 19, 43, 31, 3, 0
+1468, 1999-11-11, 2, 8, Zimbabwe, c Olonga, Mbangwa, 25, 38, 23, 3, 1
+1471, 1999-11-25, 2, 7, England, , Gough, 72, 112, 85, 11, 0
+1475, 1999-12-09, 1, 7, England, c Adams, Gough, 174, 333, 221, 25, 2
+1480, 1999-12-26, 2, 6, England, c Maddy, Tufnell, 15, 16, 10, 3, 0
+1480, 1999-12-26, 3, 7, England, , Butcher, 45, 92, 58, 6, 0
+1482, 2000-01-02, 2, 7, England, , Gough, 3, 17, 10, 0, 0
+1484, 2000-02-24, 2, 6, India, c Laxman, Srinath, 33, 96, 58, 2, 0
+1484, 2000-02-24, 4, 6, India, c Srinath, Kumble, 1, 13, 15, 0, 0
+1486, 2000-03-02, 2, 6, India, c Tendulkar, Kartik, 97, 251, 169, 5, 1
+1504, 2000-06-20, 2, 6, Sri Lanka, c Chandana, Dharmasena, 19, 41, 37, 4, 0
+1504, 2000-06-20, 3, 6, Sri Lanka, c Sangakkara, Muralitharan, 4, 14, 11, 0, 0
+1505, 2000-07-30, 1, 6, Sri Lanka, not out, , 118, 243, 219, 13, 2
+1505, 2000-07-30, 3, 6, Sri Lanka, c Sangakkara, Jayasuriya, 4, 15, 17, 0, 0
+1507, 2000-07-06, 1, 6, Sri Lanka, not out, , 95, 286, 175, 6, 0
+1507, 2000-07-06, 3, 6, Sri Lanka, c Sangakkara, Muralitharan, 35, 131, 87, 4, 0
+1514, 2000-10-17, 1, 7, New Zealand, , O'Connor, 9, 51, 37, 0, 0
+1514, 2000-10-17, 4, 6, New Zealand, c McMillan, Tuffey, 4, 9, 5, 1, 0
+1519, 2000-11-30, 2, 8, New Zealand, c Parore, Martin, 6, 21, 12, 1, 0
+1526, 2000-11-26, 1, 7, Sri Lanka, c Sangakkara, Muralitharan, 50, 157, 121, 5, 0
+1526, 2000-11-26, 3, 8, Sri Lanka, not out, , 11, 19, 10, 2, 0
+1528, 2001-01-02, 2, 7, Sri Lanka, c Jayasuriya, Arnold, 97, 211, 143, 13, 1
+1534, 2001-02-09, 2, 7, West Indies, lbw, McLean, 5, 15, 10, 1, 0
+1538, 2001-02-17, 1, 7, West Indies, c Jacobs, Ramnarine, 15, 28, 23, 3, 0
+1538, 2001-02-17, 3, 6, West Indies, c Gayle, Dillon, 5, 36, 25, 0, 0
+1541, 2001-03-29, 1, 8, West Indies, , Walsh, 1, 25, 19, 0, 0
+1541, 2001-03-29, 3, 6, West Indies, c Cuffy, Ramnarine, 4, 20, 16, 0, 0
+1542, 2001-03-06, 1, 6, West Indies, lbw, McGarrell, 0, 12, 7, 0, 0
+1542, 2001-03-06, 3, 7, West Indies, c Hinds, Walsh, 1, 27, 15, 0, 0
+1544, 2001-03-19, 2, 6, West Indies, , Walsh, 13, 59, 42, 0, 1
+1544, 2001-03-19, 4, 6, West Indies, not out, , 31, 92, 64, 4, 0
+1562, 2001-08-07, 1, 5, Zimbabwe, not out, , 8, 13, 11, 0, 1
+1563, 2001-08-14, 2, 6, Zimbabwe, c Campbell, Price, 27, 74, 50, 4, 0
+1564, 2001-10-03, 2, 6, India,                c &, Kumble, 108, 195, 124, 18, 1
+1569, 2001-10-16, 1, 6, India, c Laxman, Srinath, 9, 14, 13, 2, 0
+1569, 2001-10-16, 3, 6, India, c Sehwag, Harbhajan Singh, 29, 47, 32, 3, 2
+1576, 2001-11-14, 2, 7, Australia, , Warne, 22, 28, 24, 4, 0
+1576, 2001-11-14, 4, 6, Australia, c Warne, Gillespie, 18, 58, 44, 1, 0
+1580, 2001-11-26, 1, 6, Australia,                c &, Bichel, 0, 1, 1, 0, 0
+1580, 2001-11-26, 3, 6, Australia, lbw, McGrath, 7, 34, 29, 1, 0
+1709, 2004-07-04, 2, 8, Sri Lanka, c Jayawardene, Dilshan, 2, 20, 16, 0, 0

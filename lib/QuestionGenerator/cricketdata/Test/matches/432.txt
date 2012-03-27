@@ -1,0 +1,102 @@
+
+Test # 432
+Australia in India, 1956/57, 2nd Test
+India v Australia
+Brabourne Stadium, Bombay
+26,27,29,30,31 October 1956 (5-day match)
+
+Result: Match drawn
+Series: Australia leads the 3-match series 1-0
+
+Toss: India
+Umpires: AR Joshi and BJ Mohoni
+Test debuts: JW Rutherford, JW Wilson (Australia).
+
+Close of play:
+ Day 1: India 169/6 (Ramchand 65*, Adhikari 6*)
+ Day 2: India 251, Australia 134/1 (Burke 42*, Harvey 57*)
+ Day 3: Australia 386/2 (Burke 156*, Burge 52*)
+ Day 4: Australia 523/7d, India 92/1 (Roy 57*, Umrigar 19*)
+
+India 1st innings                                               R   M   B  4 6
+MH Mankad             c Burge            b Lindwall             0          0 0
+P Roy                 c Burge            b Crawford            31            0
+*PR Umrigar                              b Crawford             8            0
+VL Manjrekar          c Harvey           b Benaud              55            0
+JM Ghorpade                              b Crawford             0          0 0
+GS Ramchand           c sub              b Mackay             109            0
+DG Phadkar            c Maddocks         b Benaud               1          0 0
+HR Adhikari           c Davidson         b Mackay              33            0
++NS Tamhane           c Harvey           b Davidson             5            0
+JM Patel              c Maddocks         b Mackay               6            0
+SP Gupte              not out                                   0          0 0
+Extras                (lb 1, nb 2)                              3
+Total                 (all out, 100.2 overs)                  251
+
+FoW: 1-0 (Mankad), 2-18 (Umrigar), 3-74 (Roy), 4-74 (Ghorpade),
+     5-130 (Manjrekar), 6-140 (Phadkar), 7-235 (Adhikari),
+     8-240 (Ramchand), 9-251 (Tamhane), 10-251 (Patel).
+
+Bowling                      O      M      R      W
+Lindwall                    22      7     60      1
+Crawford                    12      3     28      3
+Davidson                     9      1     24      1
+Benaud                      25      6     54      2
+Mackay                      14.2    5     27      3
+Wilson                      15      6     39      0
+Burke                        2      0     12      0
+Rutherford                   1      0      4      0
+
+Australia 1st innings                                           R   M   B  4 6
+JW Burke              c Umrigar          b Mankad             161 504        0
+JW Rutherford         c Tamhane          b Gupte               30            0
+RN Harvey             c sub              b Patel              140 244     17 0
+PJP Burge             c Patel            b Gupte               83            0
+KD Mackay             c Roy              b Patel               26            0
+AK Davidson           lbw                b Ramchand            16            0
+R Benaud              c sub              b Gupte                2          0 0
+*RR Lindwall          not out                                  48            1
++LV Maddocks          not out                                   8            0
+Extras                (b 2, lb 4, nb 3)                         9
+Total                 (7 wickets dec, 180 overs)              523
+
+DNB: WPA Crawford, JW Wilson.
+
+FoW: 1-57 (Rutherford), 2-261 (Harvey), 3-398 (Burke),
+     4-432 (Mackay), 5-459 (Davidson), 6-462 (Benaud),
+     7-470 (Burge).
+
+Bowling                      O      M      R      W
+Phadkar                     39      9     92      0
+Ramchand                    18      2     78      1
+Patel                       39     10    111      2
+Gupte                       38     13    115      3
+Mankad                      46      9    118      1
+
+India 2nd innings                                               R   M   B  4 6
+MH Mankad             c Burke            b Benaud              16            0
+P Roy                 c Maddocks         b Benaud              79            0
+*PR Umrigar                          c & b Lindwall            78 360        0
+VL Manjrekar                             b Rutherford          30            0
+HR Adhikari           not out                                  22            0
+GS Ramchand           c Maddocks         b Wilson              16            0
+DG Phadkar            not out                                   3  12      0 0
+Extras                (b 1, lb 1, nb 4)                         6
+Total                 (5 wickets, 137 overs)                  250
+
+DNB: JM Ghorpade, +NS Tamhane, JM Patel, SP Gupte.
+
+FoW: 1-31 (Mankad), 2-121 (Roy), 3-191 (Manjrekar),
+     4-217 (Umrigar), 5-242 (Ramchand).
+
+Bowling                      O      M      R      W
+Lindwall                    23      9     40      1
+Crawford                    13      4     24      0
+Davidson                    14      9     18      0
+Benaud                      42     15     98      2
+Mackay                      17      6     22      0
+Wilson                      21     11     25      1
+Burke                        2      0      6      0
+Rutherford                   5      2     11      1
+
+<END>

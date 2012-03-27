@@ -1,0 +1,99 @@
+
+Test # 174
+West Indies in England, 1928, 2nd Test
+England v West Indies
+Old Trafford, Manchester
+21,23,24 July 1928 (3-day match)
+
+Result: England won by an innings and 30 runs
+Series: England leads the 3-match series 2-0
+
+Toss: West Indies
+Umpires: A Morton and WR Parry
+Test debuts: ELG Hoad, OC Scott (West Indies).
+
+Close of play:
+ Day 1: West Indies 206, England 84/0 (Hobbs 32*, Sutcliffe 39*)
+ Day 2: England 351, West Indies 71/4 (St Hill 33*, Francis 0*)
+
+West Indies 1st innings                                         R   M   B  4 6
+G Challenor           run out                                  24            0
+CA Roach              lbw                b Freeman             50            0
+FR Martin             run out                                  21            0
+WH St Hill            c Jupp             b Tate                 3          0 0
+ELG Hoad              lbw                b Jupp                13            0
+*+RK Nunes                               b Freeman             17            0
+LN Constantine        lbw                b Jupp                 4       3    0
+CR Browne             c White            b Freeman             23            0
+OC Scott              c Chapman          b Freeman             32            0
+GN Francis                               b Freeman              1          0 0
+HC Griffith           not out                                   1          0 0
+Extras                (b 10, lb 7)                             17
+Total                 (all out, 105.4 overs)                  206
+
+FoW: 1-48 (Challenor), 2-100 (Martin), 3-105 (Roach),
+     4-113 (St Hill), 5-129 (Hoad), 6-133 (Constantine),
+     7-158 (Nunes), 8-185 (Browne), 9-203 (Francis),
+     10-206 (Scott).
+
+Bowling                      O      M      R      W
+Tate                        35     13     68      1
+Hammond                      6      2     16      0
+Freeman                     33.4   18     54      5
+Jupp                        18      5     39      2
+White                       13      6     12      0
+
+England 1st innings                                             R   M   B  4 6
+JB Hobbs              c St Hill          b Browne              53            0
+H Sutcliffe           c Nunes            b Griffith            54            0
+GE Tyldesley                             b Browne               3          0 0
+WR Hammond            c Roach            b Constantine         63            0
+DR Jardine            run out                                  83 160        0
+*APF Chapman          retired hurt                              3          0 0
+MW Tate                                  b Griffith            28            0
+VWC Jupp              c Constantine      b Griffith            12            0
+JC White              not out                                  21            0
++H Elliott            lbw                b Scott                6            0
+AP Freeman            lbw                b Scott                0          0 0
+Extras                (b 15, lb 3, w 1, nb 6)                  25
+Total                 (all out, 107.2 overs)                  351
+
+FoW: 1-119 (Hobbs), 2-124 (Sutcliffe), 3-131 (Tyldesley),
+     4-251 (Hammond), 5-285 (Jardine), 6-311 (Tate),
+     7-326 (Jupp), 8-351 (Elliott), 9-351 (Freeman).
+
+Bowling                      O      M      R      W
+Francis                     23      4     68      0
+Constantine                 25      7     89      1
+Browne                      25      2     72      2
+Griffith                    25      7     69      3
+Scott                        9.2    0     28      2
+
+West Indies 2nd innings                                         R   M   B  4 6
+G Challenor           c Elliott          b Hammond              0          0 0
+CA Roach              c Jardine          b Tate                 0          0 0
+FR Martin             c Hammond          b Freeman             32            0
+WH St Hill            c Hammond          b White               38            0
+ELG Hoad              lbw                b Freeman              4            0
+GN Francis            c Tate             b Freeman              0          0 0
+*+RK Nunes            c sub              b Freeman             11            0
+LN Constantine        c Sutcliffe        b Freeman             18            0
+CR Browne             c Elliott          b White                7            0
+OC Scott              not out                                   3          0 0
+HC Griffith           c Hammond          b White                0   1   1  0 0
+Extras                (b 1, lb 1)                               2
+Total                 (all out, 47.3 overs)                   115
+
+FoW: 1-0 (Challenor), 2-2 (Roach), 3-57 (Martin), 4-67 (Hoad),
+     5-71 (Francis), 6-79 (St Hill), 7-93 (Nunes),
+     8-108 (Constantine), 9-115 (Browne), 10-115 (Griffith).
+
+Bowling                      O      M      R      W
+Tate                         9      4     10      1
+Hammond                      6      0     23      1
+Freeman                     18      5     39      5
+White                       14.3    4     41      3
+
+*** APF Chapman retired hurt at 255/4
+
+<END>

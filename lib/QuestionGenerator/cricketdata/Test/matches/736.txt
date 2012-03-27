@@ -1,0 +1,123 @@
+
+Test # 736
+Australia in New Zealand, 1973/74, 3rd Test
+New Zealand v Australia
+Eden Park, Auckland
+22,23,24 March 1974 (5-day match)
+
+Result: Australia won by 297 runs
+Series: 3-match series drawn 1-1
+
+Toss: New Zealand
+Umpires: DEA Copps and WRC Gardiner
+Balls per over: 8
+
+Close of play:
+ Day 1: Australia 221, New Zealand 85/8 (Turner 34*, RJ Hadlee 4*)
+ Day 2: New Zealand 112, Australia 330/9 (Redpath 150*, Mallett 0*)
+
+Australia 1st innings                                           R   M   B  4 6
+KR Stackpole          c Parker           b RJ Hadlee            0   1   1  0 0
+IR Redpath            c Wadsworth        b Collinge            13  49  35  3 0
+*IM Chappell          c Turner           b Collinge            37  92  66  6 1
+GS Chappell           c Howarth          b Collinge             0  10   8  0 0
+IC Davis              c Hastings         b Collinge             0   3   4  0 0
+KD Walters            not out                                 104 167 138 15 0
++RW Marsh             c Hastings         b Collinge            45  75  71  9 0
+KJ O'Keeffe           c Morrison         b Congdon              0   3   6  0 0
+GJ Gilmour            c Morrison         b Congdon              1  11  10  0 0
+MHN Walker            c Burgess          b Congdon              7  19  20  1 0
+AA Mallett            c Turner           b Congdon              7  24  15  0 0
+Extras                (b 4, lb 1, nb 2)                         7
+Total                 (all out, 46.2 overs)                   221
+
+FoW: 1-0 (Stackpole), 2-32 (Redpath), 3-37 (GS Chappell),
+     4-37 (Davis), 5-64 (IM Chappell), 6-150 (Marsh),
+     7-154 (O'Keeffe), 8-162 (Gilmour), 9-191 (Walker),
+     10-221 (Mallett).
+
+Bowling                      O      M      R      W
+RJ Hadlee                    9      1     45      1
+Collinge                    18      4     82      5
+DR Hadlee                    9      0     41      0
+Congdon                     10.2    0     46      4
+
+New Zealand 1st innings                                         R   M   B  4 6
+GM Turner             c GS Chappell      b Mallett             41 149 101  4 0
+JM Parker             lbw                b Gilmour             11  18  18  2 0
+JFM Morrison          c Marsh            b Walker               9  22  22  1 0
+*BE Congdon           lbw                b Gilmour              4  15  15  1 0
+BF Hastings                              b Gilmour              0  23  23  0 0
+MG Burgess            c Marsh            b Gilmour              7  27  22  1 0
++KJ Wadsworth         c Marsh            b Gilmour              0   2   2  0 0
+HJ Howarth            c Gilmour          b Mallett              0   3   3  0 0
+DR Hadlee                                b Mallett              4   3   3  1 0
+RJ Hadlee             c IM Chappell      b Mallett             13  36  34  0 0
+RO Collinge           not out                                   8   8   7  2 0
+Extras                (b 4, lb 1, nb 10)                       15
+Total                 (all out, 30.2 overs)                   112
+
+FoW: 1-16 (Parker), 2-28 (Morrison), 3-34 (Congdon),
+     4-40 (Hastings), 5-62 (Burgess), 6-62 (Wadsworth),
+     7-63 (Howarth), 8-72 (DR Hadlee), 9-102 (Turner),
+     10-112 (RJ Hadlee).
+
+Bowling                      O      M      R      W
+Walker                      10      4     11      1
+Gilmour                     15      3     64      5
+Mallett                      5.2    0     22      4
+
+Australia 2nd innings                                           R   M   B  4 6
+KR Stackpole          c Congdon          b Collinge             0   9   7  0 0
+IR Redpath            not out                                 159 348 310 20 0
+*IM Chappell          lbw                b Collinge            35  39  32  6 0
+GS Chappell           c Wadsworth        b Howarth             38  40  54  7 0
+IC Davis              c Parker           b Howarth              5  19  25  0 0
+KD Walters            c Parker           b Congdon              5  11  15  0 0
++RW Marsh             c RJ Hadlee        b Howarth             47  74  63  7 0
+KJ O'Keeffe           c Burgess          b Collinge            32 100 106  2 1
+GJ Gilmour                               b RJ Hadlee            4  14  10  0 0
+MHN Walker                               b RJ Hadlee            0   1   1  0 0
+AA Mallett            c Parker           b Collinge             6  20  21  0 0
+Extras                (b 4, lb 4, w 1, nb 6)                   15
+Total                 (all out, 79.4 overs)                   346
+
+FoW: 1-2 (Stackpole), 2-69 (IM Chappell), 3-118 (GS Chappell),
+     4-132 (Davis), 5-143 (Walters), 6-230 (Marsh),
+     7-315 (O'Keeffe), 8-330 (Gilmour), 9-330 (Walker),
+     10-346 (Mallett).
+
+Bowling                      O      M      R      W
+RJ Hadlee                    9      1     50      2
+Collinge                    16.4    0     84      4
+DR Hadlee                    7      0     48      0
+Congdon                     19      1     66      1
+Howarth                     28      5     83      3
+
+New Zealand 2nd innings (target: 456 runs)                      R   M   B  4 6
+GM Turner             c IM Chappell      b Walker              72 168 144 12 0
+JM Parker             c Marsh            b Gilmour             34 137 117  5 0
+JFM Morrison          c Marsh            b Gilmour              0   2   4  0 0
+*BE Congdon           c Marsh            b Walker               4  18  21  0 0
+BF Hastings           lbw                b Walker               1  11   4  0 0
+MG Burgess            c Stackpole        b Walker               6  11   6  1 0
++KJ Wadsworth         c GS Chappell      b Mallett             21  56  55  2 0
+DR Hadlee             c Walters          b Mallett              4  40  40  0 0
+RJ Hadlee                                b O'Keeffe             1   9  10  0 0
+HJ Howarth            not out                                   3  13  14  0 0
+RO Collinge           c IM Chappell      b O'Keeffe             4  10  13  1 0
+Extras                (b 3, lb 2, nb 3)                         8
+Total                 (all out, 53 overs)                     158
+
+FoW: 1-107 (Parker), 2-107 (Morrison), 3-112 (Congdon),
+     4-115 (Hastings), 5-116 (Turner), 6-127 (Burgess),
+     7-145 (DR Hadlee), 8-147 (Wadsworth), 9-147 (RJ Hadlee),
+     10-158 (Collinge).
+
+Bowling                      O      M      R      W
+Walker                      19      8     39      4
+Gilmour                     16      0     52      2
+Mallett                     13      6     51      2
+O'Keeffe                     5      1      8      2
+
+<END>

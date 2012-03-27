@@ -1,0 +1,77 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+579, 1965-02-27, 1, 11, New Zealand, , Collinge, 4, 24, na, 0, 0
+581, 1965-03-05, 2, 10, New Zealand, , Taylor, 7, 30, na, 0, 0
+581, 1965-03-05, 4, 5, New Zealand, not out, , 0, 2, na, 0, 0
+582, 1965-03-12, 2, 10, New Zealand, c Congdon, Taylor, 7, 11, na, 1, 0
+610, 1966-12-13, 1, 10, West Indies, not out, , 36, 62, na, 5, 0
+610, 1966-12-13, 3, 10, West Indies, lbw, Gibbs, 26, 93, na, 3, 0
+612, 1967-12-31, 2, 8, West Indies, , Sobers, 18, 33, na, 3, 0
+612, 1967-12-31, 3, 9, West Indies, c Hendriks, Sobers, 2, 10, na, 0, 0
+620, 1967-07-13, 2, 8, England, not out, , 19, 27, 34, 4, 0
+620, 1967-07-13, 4, 8, England, c Hobbs, Close, 17, 38, 50, 1, 0
+660, 1969-10-03, 2, 5, New Zealand, c Turner, Burgess, 0, 2, na, 0, 0
+660, 1969-10-03, 4, 8, New Zealand, lbw, Burgess, 4, 9, na, 1, 0
+661, 1969-10-15, 2, 9, New Zealand, not out, , 25, 136, na, 1, 0
+661, 1969-10-15, 4, 9, New Zealand, not out, , 2, 10, na, 0, 0
+664, 1969-11-04, 1, 9, Australia, c Taber, Connolly, 2, na, na, 0, 0
+664, 1969-11-04, 3, 9, Australia, c Taber, Connolly, 9, na, na, na, 0
+666, 1969-11-15, 1, 8, Australia, run out, , 17, na, na, na, 0
+666, 1969-11-15, 3, 8, Australia, not out, , 20, na, na, na, 0
+667, 1969-11-28, 2, 5, Australia, c Walters, Mallett, 0, na, na, 0, 0
+668, 1969-12-12, 1, 8, Australia, c Stackpole, Mallett, 24, na, na, na, 0
+668, 1969-12-12, 3, 8, Australia, , Connolly, 0, na, na, 0, 0
+669, 1969-12-24, 2, 9, Australia, run out, , 2, na, na, 0, 0
+669, 1969-12-24, 4, 9, Australia, , Mallett, 13, na, na, na, 0
+680, 1971-02-18, 1, 8, West Indies, c Findlay, Sobers, 4, 7, na, 0, 0
+683, 1971-03-06, 2, 8, West Indies, st Findlay, Noreiga, 5, na, na, na, 0
+684, 1971-03-19, 2, 9, West Indies, lbw, Shillingford, 12, na, na, na, 0
+685, 1971-04-01, 2, 10, West Indies, , Shepherd, 12, na, na, na, 0
+686, 1971-04-13, 1, 8, West Indies, c Carew, Shepherd, 51, na, na, na, 0
+686, 1971-04-13, 3, 8, West Indies, , Noreiga, 21, na, na, na, 0
+690, 1971-07-22, 2, 9, England, c Hutton, Price, 11, 53, 42, 1, 0
+690, 1971-07-22, 4, 9, England, c Hutton, Gifford, 7, 13, 16, 1, 0
+691, 1971-08-05, 2, 9, England, c Knott, Lever, 20, 47, 38, 2, 0
+692, 1971-08-19, 2, 9, England, lbw, Underwood, 24, 62, 66, 4, 0
+703, 1972-12-20, 1, 9, England, c Greig, Arnold, 17, 102, 35, 2, 0
+703, 1972-12-20, 3, 9, England, , Pocock, 0, 8, 4, 0, 0
+711, 1973-02-06, 1, 9, England, not out, , 11, 36, 30, 2, 0
+739, 1974-06-06, 2, 3, England, , Willis, 3, 3, 5, 0, 0
+739, 1974-06-06, 4, 9, England, not out, , 5, 41, 38, 1, 0
+741, 1974-07-04, 1, 9, England, , Underwood, 0, 13, 14, 0, 0
+741, 1974-07-04, 3, 9, England, c Lloyd, Greig, 5, 16, 20, 0, 0
+745, 1974-11-22, 2, 9, West Indies, , Roberts, 1, 7, na, 0, 0
+745, 1974-11-22, 4, 7, West Indies, lbw, Roberts, 7, 31, na, 1, 0
+747, 1974-12-11, 1, 9, West Indies, c Greenidge, Roberts, 13, 41, na, 1, 0
+747, 1974-12-11, 3, 9, West Indies, c Richards, Gibbs, 5, 12, na, 1, 0
+769, 1976-01-24, 2, 6, New Zealand, c Congdon, Howarth, 1, na, na, 0, 0
+775, 1976-04-07, 2, 8, West Indies, , Ali, 13, na, na, na, 0
+776, 1976-04-21, 1, 8, West Indies, lbw, Daniel, 9, na, na, na, 0
+776, 1976-04-21, 3, 5, West Indies, , Holding, 0, na, na, 0, 0
+785, 1976-11-10, 1, 9, New Zealand, c Turner, Hadlee, 3, na, na, 0, 0
+786, 1976-11-18, 1, 9, New Zealand,                c &, Petherick, 27, na, na, na, 0
+787, 1976-11-26, 1, 9, New Zealand, c sub, Cairns, 64, 183, na, 4, 1
+788, 1976-12-17, 2, 5, England, , Lever, 0, 2, 2, 0, 0
+788, 1976-12-17, 3, 9, England, c Knott, Lever, 4, 48, 38, 0, 0
+811, 1977-12-16, 1, 8, Australia, c Simpson, Gannon, 37, 83, 60, 4, 0
+811, 1977-12-16, 3, 8, Australia, c Hughes, Gannon, 14, 46, 41, 1, 0
+835, 1978-12-01, 1, 9, West Indies, c Murray, Clarke, 0, 4, 4, 0, 0
+837, 1978-12-15, 2, 9, West Indies, c Phillip, Clarke, 11, na, na, na, 0
+839, 1979-12-29, 1, 10, West Indies, lbw, Holder, 7, na, na, na, 0
+841, 1979-01-12, 2, 11, West Indies, not out, , 0, na, na, 0, 0
+842, 1979-01-24, 1, 10, West Indies, not out, , 8, na, na, na, 0
+851, 1979-07-12, 2, 10, England, c Botham, Hendrick, 28, 52, 46, 3, 2
+851, 1979-07-12, 3, 10, England, lbw, Botham, 0, 4, 6, 0, 0
+852, 1979-08-02, 1, 10, England, run out, , 0, 1, 1, 0, 0
+854, 1979-08-30, 2, 10, England,                c &, Hendrick, 2, 12, 6, 0, 0
+854, 1979-08-30, 4, 8, England, run out, , 6, 5, 4, 0, 0
+855, 1979-09-11, 2, 10, Australia, lbw, Higgs, 4, 26, 19, 1, 0
+857, 1979-10-02, 1, 10, Australia, c Border, Dymock, 1, na, na, 0, 0
+857, 1979-10-02, 3, 10, Australia, not out, , 4, 26, na, 0, 0
+949, 1983-02-23, 1, 10, West Indies, , Roberts, 0, na, na, 0, 0
+949, 1983-02-23, 3, 10, West Indies, c Greenidge, Roberts, 0, 1, 1, 0, 0
+952, 1983-03-11, 1, 10, West Indies, c Richards, Roberts, 1, na, na, 0, 0
+954, 1983-04-15, 1, 11, West Indies, c Dujon, Garner, 5, na, na, na, 0
+954, 1983-04-15, 3, 11, West Indies, not out, , 0, na, na, 0, 0
+956, 1983-04-28, 1, 11, West Indies, , Marshall, 0, na, na, 0, 0
+961, 1983-09-14, 1, 10, Pakistan, c Saleem Malik, Tahir Naqqash, 5, na, na, na, 0
+962, 1983-09-24, 2, 11, Pakistan, , Wasim Raja, 6, na, na, 1, 0

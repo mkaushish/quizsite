@@ -1,0 +1,89 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+1437, 1998-12-26, 1, 6, South Africa, , Pollock, 28, 117, 94, 3, 0
+1437, 1998-12-26, 3, 6, South Africa, c Gibbs, Pollock, 5, 28, 21, 1, 0
+1440, 1999-01-02, 2, 6, South Africa, c Kirsten, Pollock, 17, 101, 78, 1, 0
+1440, 1999-01-02, 4, 6, South Africa, lbw, Pollock, 16, 46, 33, 2, 0
+1441, 1999-01-15, 2, 2, South Africa, c Kallis, Pollock, 0, 7, 6, 0, 0
+1441, 1999-01-15, 4, 2, South Africa, c Rhodes, Pollock, 9, 75, 52, 1, 0
+1478, 1999-12-26, 2, 11, New Zealand, absent hurt, , -, , , , 
+1478, 1999-12-26, 3, 11, New Zealand, absent hurt, , -, , , , 
+1516, 2000-10-23, 1, 2, Australia, c Ponting, Bichel, 20, 143, 104, 2, 0
+1516, 2000-10-23, 3, 2, Australia, st Gilchrist, MacGill, 8, 71, 48, 1, 0
+1520, 2000-11-01, 1, 2, Australia, lbw, Lee, 0, 8, 5, 0, 0
+1520, 2000-11-01, 3, 2, Australia, c Hayden, Gillespie, 20, 73, 56, 1, 0
+1523, 2000-11-15, 1, 2, Australia, , Gillespie, 23, 87, 51, 2, 0
+1523, 2000-11-15, 3, 2, Australia, lbw, Miller, 32, 137, 85, 4, 0
+1525, 2000-11-26, 2, 2, Australia, c Gilchrist, Gillespie, 4, 30, 22, 1, 0
+1525, 2000-11-26, 4, 2, Australia, lbw, Gillespie, 0, 6, 4, 0, 0
+1551, 2001-06-19, 2, 1, Zimbabwe,                c &, Price, 89, 325, 248, 11, 0
+1553, 2001-06-27, 2, 1, Zimbabwe, c Taibu, Blignaut, 43, 111, 76, 7, 0
+1553, 2001-06-27, 4, 1, Zimbabwe, c Strang, Streak, 5, 37, 20, 1, 0
+1567, 2001-10-13, 1, 1, Sri Lanka, c Jayawardene, Vaas, 47, 130, 107, 5, 0
+1567, 2001-10-13, 3, 1, Sri Lanka, c Tillakaratne, Bandaratilleke, 33, 133, 104, 3, 0
+1570, 2001-10-21, 2, 2, Sri Lanka, c Jayawardene, Zoysa, 0, 7, 1, 0, 0
+1570, 2001-10-21, 4, 1, Sri Lanka, , Muralitharan, 8, 40, 31, 1, 0
+1572, 2001-11-29, 1, 1, Sri Lanka, lbw, Vaas, 6, 34, 25, 0, 0
+1572, 2001-11-29, 3, 1, Sri Lanka, lbw, Vaas, 10, 23, 19, 2, 0
+1587, 2002-01-31, 2, 1, Pakistan, lbw, Saqlain Mushtaq, 20, 133, 94, 0, 0
+1587, 2002-01-31, 4, 1, Pakistan, , Shoaib Akhtar, 34, 101, 71, 4, 0
+1588, 2002-01-07, 2, 1, Pakistan, , Shahid Afridi, 65, 134, 115, 10, 0
+1588, 2002-01-07, 4, 1, Pakistan, lbw, Shoaib Akhtar, 21, 68, 41, 3, 0
+1630, 2002-11-08, 2, 6, Bangladesh, run out (Hannan Sarkar), , 40, 127, 86, 5, 0
+1632, 2002-11-16, 2, 6, Bangladesh, c Tapash Baisya, Sanwar Hossain, 63, 138, 106, 10, 0
+1638, 2003-03-10, 1, 3, Australia, , Gillespie, 0, 4, 3, 0, 0
+1638, 2003-03-10, 3, 3, Australia, c Lee, Lehmann, 113, 311, 225, 19, 1
+1639, 2003-03-19, 2, 3, Australia, c Hayden, Lee, 117, 326, 238, 17, 1
+1639, 2003-03-19, 4, 3, Australia, c Hayden, Gillespie, 2, 25, 17, 0, 0
+1643, 2003-04-01, 2, 3, Australia, c Bichel, Lehmann, 26, 130, 89, 2, 0
+1643, 2003-04-01, 3, 3, Australia, lbw, Lee, 6, 37, 23, 0, 0
+1645, 2003-04-09, 2, 3, Australia, c Gilchrist, Bichel, 6, 35, 22, 1, 0
+1645, 2003-04-09, 4, 3, Australia, lbw, McGrath, 8, 64, 40, 1, 0
+1648, 2003-05-20, 2, 2, Sri Lanka, lbw, Vaas, 12, 29, 21, 3, 0
+1668, 2003-10-04, 2, 3, Zimbabwe, , Mahwire, 73, 196, 141, 14, 0
+1668, 2003-10-04, 4, 3, Zimbabwe, , Price, 16, 60, 35, 2, 0
+1669, 2003-10-12, 1, 3, Zimbabwe, c Matsikenyeri, Price, 23, 58, 35, 3, 0
+1669, 2003-10-12, 3, 3, Zimbabwe, c Carlisle, Blignaut, 8, 27, 22, 2, 0
+1674, 2003-11-12, 2, 2, South Africa, c Peterson, Ntini, 60, 264, 202, 10, 0
+1674, 2003-11-12, 4, 2, South Africa, lbw, Ntini, 10, 37, 22, 1, 0
+1679, 2003-11-26, 1, 2, South Africa, c Pollock, Ntini, 6, 27, 19, 1, 0
+1679, 2003-11-26, 3, 2, South Africa, lbw, Pollock, 12, 66, 52, 1, 0
+1681, 2004-01-02, 2, 2, South Africa, , Nel, 17, 105, 67, 2, 0
+1681, 2004-01-02, 4, 2, South Africa, c Boucher, Ntini, 10, 31, 20, 2, 0
+1682, 2004-01-16, 2, 2, South Africa, c Kallis, Ntini, 7, 57, 44, 1, 0
+1682, 2004-01-16, 3, 2, South Africa, , Ntini, 0, 31, 7, 0, 0
+1694, 2004-03-01, 1, 2, England, lbw, Harmison, 11, 49, 41, 1, 0
+1694, 2004-03-01, 3, 2, England, c Thorpe, Hoggard, 11, 61, 43, 0, 0
+1696, 2004-03-10, 1, 2, England, lbw, Flintoff, 10, 59, 46, 1, 0
+1745, 2005-03-31, 1, 3, South Africa, c Boucher, Nel, 0, 4, 5, 0, 0
+1787, 2006-02-09, 2, 2, New Zealand, c How, Martin, 20, 58, 37, 4, 0
+1787, 2006-02-09, 4, 2, New Zealand, c How, Astle, 95, 310, 231, 16, 0
+1790, 2006-02-17, 1, 2, New Zealand, c McCullum, Mills, 15, 47, 34, 2, 0
+1790, 2006-02-17, 3, 2, New Zealand, c McCullum, Martin, 23, 54, 40, 5, 0
+1793, 2006-02-25, 1, 2, New Zealand, , Bond, 38, 128, 104, 4, 0
+1805, 2006-05-02, 2, 2, India, lbw, Patel, 9, 20, 13, 2, 0
+1805, 2006-05-02, 4, 2, India, c Yuvraj Singh, Kumble, 36, na, 78, 5, 0
+1806, 2006-05-10, 2, 2, India, lbw, Patel, 16, na, 33, 3, 0
+1806, 2006-05-10, 3, 2, India, , Kumble, 26, na, 66, 3, 0
+1807, 2006-05-22, 1, 2, India, , Patel, 135, na, 294, 15, 0
+1807, 2006-05-22, 3, 2, India, not out, , 66, na, 75, 6, 0
+1808, 2006-06-30, 2, 2, India, lbw, Harbhajan Singh, 40, 117, 63, 5, 0
+1808, 2006-06-30, 4, 2, India, , Sreesanth, 16, 47, 39, 2, 0
+1815, 2006-10-11, 1, 2, Pakistan, c Younis Khan, Umar Gul, 3, 40, 27, 0, 0
+1815, 2006-10-11, 3, 2, Pakistan, run out (Imran Farhat), , 5, 16, 13, 1, 0
+1816, 2006-10-19, 2, 2, Pakistan, lbw, Danish Kaneria, 82, 316, 251, 12, 0
+1818, 2006-11-27, 2, 2, Pakistan, c Kamran Akmal, Abdul Razzaq, 81, na, 221, 9, 0
+1818, 2006-11-27, 4, 2, Pakistan, lbw, Shahid Nazir, 2, na, 9, 0, 0
+1831, 2007-04-17, 2, 2, England, lbw, Panesar, 49, 185, 131, 5, 0
+1831, 2007-04-17, 4, 2, England, not out, , 31, 91, 69, 4, 0
+1834, 2007-04-25, 2, 2, England, lbw, Sidebottom, 5, 28, 17, 0, 0
+1834, 2007-04-25, 3, 2, England, lbw, Sidebottom, 9, 29, 23, 1, 0
+1835, 2007-05-07, 2, 2, England, lbw, Harmison, 5, 8, 6, 1, 0
+1835, 2007-05-07, 4, 2, England, lbw, Harmison, 0, 6, 3, 0, 0
+1836, 2007-05-15, 1, 1, England, c Cook, Sidebottom, 0, 1, 1, 0, 0
+1836, 2007-05-15, 3, 3, England, c Prior, Hoggard, 6, 17, 11, 1, 0
+1856, 2007-11-26, 1, 2, South Africa, c Boucher, Nel, 33, 79, 57, 4, 0
+1856, 2007-11-26, 3, 2, South Africa, run out (Gibbs), , 45, 184, 125, 6, 0
+1858, 2008-01-02, 1, 2, South Africa, c Boucher, Steyn, 3, 20, 17, 0, 0
+1858, 2008-01-02, 3, 1, South Africa, , Ntini, 22, 167, 112, 1, 0
+1860, 2008-01-10, 1, 1, South Africa, c Smith, Steyn, 3, 19, 16, 0, 0
+1860, 2008-01-10, 3, 1, South Africa, c Kallis, Ntini, 11, 81, 58, 2, 0

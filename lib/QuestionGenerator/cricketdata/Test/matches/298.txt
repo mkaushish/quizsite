@@ -1,0 +1,121 @@
+
+Test # 298
+England in West Indies, 1947/48, 4th Test
+West Indies v England
+Sabina Park, Kingston, Jamaica
+27,29,30,31 March, 1 April 1948 (5-day match)
+
+Result: West Indies won by 10 wickets
+Series: West Indies wins the 4-match series 2-0
+
+Toss: England
+Umpires: SC Burke and TA Ewart
+Test debuts: HHH Johnson, ESM Kentish, KR Rickards (West Indies).
+
+Close of play:
+ Day 1: England 183/5 (Allen 13*, Ikin 5*)
+ Day 2: England 227, West Indies 168/3 (Weekes 68*, Gomez 5*)
+ Day 3: West Indies 490, England 21/0 (Hutton 11*, Robertson 10*)
+ Day 4: England 258/3 (Place 88*, Cranston 15*)
+
+England 1st innings                                             R   M   B  4 6
+L Hutton                                 b Johnson             56            0
+JDB Robertson         lbw                b Johnson             64            0
+W Place               st Walcott         b Ferguson             8            0
+J Hardstaff jnr       c Gomez            b Ferguson             9            0
+K Cranston            c Walcott          b Johnson             13            0
+*GOB Allen            c Walcott          b Kentish             23            0
+JT Ikin               run out                                   5            0
++TG Evans             c Weekes           b Kentish              9            0
+R Howorth             not out                                  12            0
+JC Laker              c Walcott          b Johnson              6            0
+MF Tremlett                              b Johnson              0          0 0
+Extras                (b 12, lb 8, nb 2)                       22
+Total                 (all out, 128.5 overs)                  227
+
+FoW: 1-129 (Robertson), 2-132 (Hutton), 3-147 (Hardstaff),
+     4-150 (Place), 5-173 (Cranston), 6-185 (Ikin),
+     7-200 (Allen), 8-205 (Evans), 9-221 (Laker),
+     10-227 (Tremlett).
+
+Bowling                      O      M      R      W
+Johnson                     34.5   13     41      5
+Kentish                     21      8     38      2
+Goddard                     19      7     33      0
+Ferguson                    38     14     53      2
+Worrell                     11      1     25      0
+Stollmeyer                   5      1     15      0
+
+West Indies 1st innings                                         R   M   B  4 6
+*JDC Goddard          c Hutton           b Howorth             17            0
+JB Stollmeyer         lbw                b Howorth             30            0
+ED Weekes             c Hutton           b Ikin               141         15 0
+FMM Worrell           lbw                b Allen               38            0
+GE Gomez                                 b Tremlett            23            0
+KR Rickards                              b Laker               67            0
+RJ Christiani                        c & b Laker               14            0
++CL Walcott           c Hutton           b Tremlett            45            0
+W Ferguson            c Hardstaff        b Laker               75 105        0
+HHH Johnson                              b Howorth              8            0
+ESM Kentish           not out                                   1          0 0
+Extras                (b 11, lb 17, nb 3)                      31
+Total                 (all out, 146.4 overs)                  490
+
+FoW: 1-39 (Goddard), 2-62 (Stollmeyer), 3-144 (Worrell),
+     4-204 (Gomez), 5-320 (Weekes), 6-351 (Christiani),
+     7-358 (Rickards), 8-455 (Walcott), 9-482 (Johnson),
+     10-490 (Ferguson).
+
+Bowling                      O      M      R      W
+Allen                       20      1     83      1
+Tremlett                    31      1     98      2
+Howorth                     40     10    106      3
+Laker                       36.4    5    103      3
+Ikin                        19      0     69      1
+
+England 2nd innings                                             R   M   B  4 6
+L Hutton              c sub              b Goddard             60 120        0
+JDB Robertson                            b Johnson             28            0
+W Place               st Walcott         b Stollmeyer         107            0
+J Hardstaff jnr                          b Johnson             64            0
+K Cranston                               b Kentish             36            0
+*GOB Allen            lbw                b Johnson             13            0
+JT Ikin               c Worrell          b Stollmeyer           3          0 0
++TG Evans                                b Johnson              4            0
+R Howorth             st Walcott         b Stollmeyer           1          0 0
+JC Laker              not out                                   6            0
+MF Tremlett           c Walcott          b Johnson              2          0 0
+Extras                (b 8, lb 2, nb 2)                        12
+Total                 (all out, 153 overs)                    336
+
+FoW: 1-69 (Robertson), 2-101 (Hutton), 3-214 (Hardstaff),
+     4-291 (Cranston), 5-316 (Place), 6-316 (Allen),
+     7-327 (Ikin), 8-327 (Evans), 9-329 (Howorth),
+     10-336 (Tremlett).
+
+Bowling                      O      M      R      W
+Johnson                     31     11     55      5
+Kentish                     26      7     68      1
+Goddard                     25      9     38      1
+Ferguson                    32      7     90      0
+Worrell                     20      3     41      0
+Stollmeyer                  19      7     32      3
+
+West Indies 2nd innings (target: 74 runs)                       R   M   B  4 6
+*JDC Goddard          not out                                  46  34      8 1
+JB Stollmeyer         not out                                  25  34        0
+Extras                (lb 4, w 1)                               5
+Total                 (0 wickets, 11 overs)                    76
+
+DNB: ED Weekes, FMM Worrell, GE Gomez, KR Rickards,
+     RJ Christiani, +CL Walcott, W Ferguson, HHH Johnson,
+     ESM Kentish.
+
+Bowling                      O      M      R      W
+Allen                        2      0     14      0
+Tremlett                     1      0      4      0
+Howorth                      4      0     27      0
+Laker                        2      0     11      0
+Ikin                         2      0     15      0
+
+<END>

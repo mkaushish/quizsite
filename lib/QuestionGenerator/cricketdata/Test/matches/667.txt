@@ -1,0 +1,122 @@
+
+Test # 667
+Australia in India, 1969/70, 3rd Test
+India v Australia
+Feroz Shah Kotla, Delhi
+28,29,30 November, 2 December 1969 (5-day match)
+
+Result: India won by 7 wickets
+Series: 5-match series level 1-1
+
+Toss: Australia
+Umpires: I Gopalakrishnan and S Roy
+
+Close of play:
+ Day 1: Australia 261/7 (Taber 36*, McKenzie 0*)
+ Day 2: Australia 296, India 183/4 (Mankad 89*, Pataudi 0*)
+ Day 3: India 223, Australia 107, India 13/1 (Mankad 2*, Bedi 0*)
+
+Australia 1st innings                                           R   M   B  4 6
+KR Stackpole          st Engineer        b Bedi                61 133      7 0
+*WM Lawry                                b Guha                 6            0
+IM Chappell                              b Bedi               138 275     21 0
+KD Walters            c Solkar           b Prasanna             4            0
+IR Redpath            c Bedi             b Prasanna             6            0
+AP Sheahan                               b Bedi                 4            0
++HB Taber             st Engineer        b Bedi                46            0
+AA Mallett                               b Venkataraghavan      2          0 0
+GD McKenzie           lbw                b Prasanna            20            0
+JW Gleeson            c Solkar           b Prasanna             1          0 0
+AN Connolly           not out                                   4            0
+Extras                (b 2, lb 1, nb 1)                         4
+Total                 (all out, 119.4 overs)                  296
+
+FoW: 1-33 (Lawry), 2-100 (Stackpole), 3-105 (Walters),
+     4-117 (Redpath), 5-133 (Sheahan), 6-251 (Chappell),
+     7-260 (Mallett), 8-283 (Taber), 9-291 (McKenzie),
+     10-296 (Gleeson).
+
+Bowling                      O      M      R      W
+Guha                        14      0     47      1
+Solkar                      11      1     43      0
+Bedi                        42     15     71      4
+Prasanna                    38.4    9    111      4
+Venkataraghavan             14      4     20      1
+
+India 1st innings                                               R   M   B  4 6
++FM Engineer                             b Connolly            38            0
+AV Mankad             c Walters          b Mallett             97 253     10 0
+AL Wadekar                           c & b Stackpole           22            0
+GR Viswanath                             b Gleeson             29            0
+S Venkataraghavan     c Walters          b Mallett              0          0 0
+*Nawab of Pataudi jnr c Chappell         b Mallett              8            0
+AK Roy                c Taber            b Mallett              0          0 0
+ED Solkar             not out                                  13            0
+S Guha                                   b Mallett              0          0 0
+EAS Prasanna          lbw                b Gleeson              1          0 0
+BS Bedi                                  b Mallett              6            0
+Extras                (b 3, lb 1, nb 5)                         9
+Total                 (all out, 108.3 overs)                  223
+
+FoW: 1-85 (Engineer), 2-124 (Wadekar), 3-176 (Viswanath),
+     4-177 (Venkataraghavan), 5-197 (Mankad), 6-202 (Roy),
+     7-207 (Pataudi), 8-207 (Guha), 9-208 (Prasanna),
+     10-223 (Bedi).
+
+Bowling                      O      M      R      W
+McKenzie                    12      4     22      0
+Connolly                    20      4     43      1
+Gleeson                     34     14     62      2
+Mallett                     32.3   10     64      6
+Stackpole                   10      4     23      1
+
+Australia 2nd innings                                           R   M   B  4 6
+KR Stackpole                             b Prasanna             9            0
+*WM Lawry             not out                                  49 195      6 0
+IM Chappell           c Solkar           b Bedi                 0          0 0
+KD Walters                               b Bedi                 0          0 0
+IR Redpath                               b Bedi                 4            0
+AP Sheahan            c Venkataraghavan  b Prasanna            15            0
++HB Taber                            c & b Prasanna             7            0
+GD McKenzie           lbw                b Bedi                 7          0 1
+AA Mallett            c Venkataraghavan  b Prasanna             0          0 0
+JW Gleeson            c Viswanath        b Bedi                 1          0 0
+AN Connolly                          c & b Prasanna            11            1
+Extras                (b 4)                                     4
+Total                 (all out, 58.2 overs)                   107
+
+FoW: 1-15 (Stackpole), 2-16 (Chappell), 3-16 (Walters),
+     4-24 (Redpath), 5-61 (Sheahan), 6-81 (Taber),
+     7-88 (McKenzie), 8-89 (Mallett), 9-92 (Gleeson),
+     10-107 (Connolly).
+
+Bowling                      O      M      R      W
+Guha                         2      0      7      0
+Solkar                       1      1      0      0
+Bedi                        23     11     37      5
+Prasanna                    24.2   10     42      5
+Venkataraghavan              8      2     17      0
+
+India 2nd innings (target: 181 runs)                            R   M   B  4 6
++FM Engineer          c McKenzie         b Mallett              6            0
+AV Mankad                                b Mallett              7            0
+BS Bedi                                  b Connolly            20            0
+AL Wadekar            not out                                  91 228     15 0
+GR Viswanath          not out                                  44            0
+Extras                (b 9, lb 2, nb 2)                        13
+Total                 (3 wickets, 80.4 overs)                 181
+
+DNB: S Venkataraghavan, *Nawab of Pataudi jnr, AK Roy, ED Solkar,
+     S Guha, EAS Prasanna.
+
+FoW: 1-13 (Engineer), 2-18 (Mankad), 3-61 (Bedi).
+
+Bowling                      O      M      R      W
+McKenzie                    13.4    5     19      0
+Connolly                    16      5     35      1
+Gleeson                     12      5     24      0
+Mallett                     29     10     60      2
+Stackpole                    8      4     13      0
+Chappell                     2      0     17      0
+
+<END>

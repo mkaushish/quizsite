@@ -1,0 +1,122 @@
+
+Test # 63
+The Ashes, 1899, 4th Test
+England v Australia
+Old Trafford, Manchester
+17,18,19 July 1899 (3-day match)
+
+Result: Match drawn
+Series: Australia leads the 5-match series 1-0
+
+Toss: England
+Umpires: AB Hide and James Lillywhite jnr
+Balls per over: 5
+Test debut: WM Bradley (England).
+
+Close of play:
+ Day 1: England 372, Australia 1/1 (Kelly 0*, Howell 0*)
+ Day 2: Australia 196, Australia 142/2 (Noble 59*, Trumper 18*)
+
+England 1st innings                                             R   M   B  4 6
+WG Quaife             c Darling          b Noble                8            0
+CB Fry                                   b Jones                9            0
+KS Ranjitsinhji       c Worrall          b Jones               21            0
+*AC MacLaren                             b Noble                8            0
+FS Jackson            c Trumble          b Jones               44            0
+TW Hayward            c Jones            b Howell             130 255     18 0
+W Brockwell           c Worrall          b Noble               20            0
++AFA Lilley           lbw                b Laver               58 100        0
+HI Young                                 b Howell              43            0
+JT Hearne             c Iredale          b Trumble              1          0 0
+WM Bradley            not out                                  23            0
+Extras                (b 3, lb 3, w 1)                          7
+Total                 (all out, 141.1 overs)                  372
+
+FoW: 1-14 (Quaife), 2-18 (Fry), 3-47 (Ranjitsinhji),
+     4-47 (MacLaren), 5-107 (Jackson), 6-154 (Brockwell),
+     7-267 (Lilley), 8-324 (Hayward), 9-337 (Hearne),
+     10-372 (Young).
+
+Bowling                      O      M      R      W
+Jones                       42      9    136      3
+Noble                       38     19     85      3
+Trumble                     29     10     72      1
+Howell                      19.1    7     45      2
+Laver                       13      2     27      1
+
+Australia 1st innings                                           R   M   B  4 6
+FJ Laver              c Lilley           b Bradley              0          0 0
++JJ Kelly                                b Young                9            0
+WP Howell                                b Bradley              0          0 0
+J Worrall                                b Bradley             14            0
+MA Noble              not out                                  60 190        0
+SE Gregory            lbw                b Young                5            0
+VT Trumper                               b Young               14            0
+*J Darling                               b Young                4            0
+H Trumble             c MacLaren         b Bradley             44            0
+FA Iredale            c Lilley           b Bradley             31            0
+E Jones                                  b Jackson              0          0 0
+Extras                (b 14, w 1)                              15
+Total                 (all out, 82.3 overs)                   196
+
+FoW: 1-1 (Laver), 2-6 (Howell), 3-14 (Kelly), 4-26 (Worrall),
+     5-35 (Gregory), 6-53 (Trumper), 7-57 (Darling),
+     8-139 (Trumble), 9-195 (Iredale), 10-196 (Jones).
+
+Bowling                      O      M      R      W
+Young                       29     10     79      4
+Bradley                     33     13     67      5
+Brockwell                    6      2     18      0
+Hearne                      10      6      7      0
+Jackson                      3.3    1      9      1
+Ranjitsinhji                 1      0      1      0
+
+Australia 2nd innings (following on)                            R   M   B  4 6
+J Worrall             c Brockwell        b Young               53            0
+MA Noble                             c & b Hearne              89 320        0
+H Trumble             c Ranjitsinhji     b Bradley              7            0
+VT Trumper                               b Hearne              63            0
+SE Gregory            c Ranjitsinhji     b Hearne               1          0 0
+*J Darling            c sub (W Rhodes)   b Young               39            0
+FA Iredale            not out                                  36            0
++JJ Kelly             c Lilley           b Ranjitsinhji        26            0
+FJ Laver              not out                                  14            0
+Extras                (b 14, lb 2, w 1, nb 1)                  18
+Total                 (7 wickets dec, 181 overs)              346
+
+DNB: WP Howell, E Jones.
+
+FoW: 1-93 (Worrall), 2-117 (Trumble), 3-205 (Trumper),
+     4-213 (Gregory), 5-255 (Noble), 6-278 (Darling),
+     7-319 (Kelly).
+
+Bowling                      O      M      R      W
+Young                       37     12     81      2
+Bradley                     46     16     82      1
+Brockwell                   15      3     36      0
+Hearne                      47     26     54      3
+Jackson                     18      8     36      0
+Ranjitsinhji                12      5     23      1
+Hayward                      3      1     10      0
+Quaife                       3      1      6      0
+
+England 2nd innings (target: 171 runs)                          R   M   B  4 6
+WG Quaife             c Iredale          b Jones               15            0
+CB Fry                c Iredale          b Trumble              4            0
+KS Ranjitsinhji       not out                                  49            0
+*AC MacLaren          c Iredale          b Trumble              6            0
+FS Jackson            not out                                  14            0
+Extras                (b 4, nb 2)                               6
+Total                 (3 wickets, 27 overs)                    94
+
+DNB: TW Hayward, W Brockwell, +AFA Lilley, HI Young, JT Hearne,
+     WM Bradley.
+
+FoW: 1-12 (Fry), 2-39 (Quaife), 3-54 (MacLaren).
+
+Bowling                      O      M      R      W
+Jones                        8      0     33      1
+Trumble                     13      3     33      2
+Howell                       6      2     22      0
+
+<END>

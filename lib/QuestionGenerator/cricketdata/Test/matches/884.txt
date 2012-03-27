@@ -1,0 +1,99 @@
+
+Test # 884
+The Wisden Trophy, 1980, 5th Test
+England v West Indies
+Headingley, Leeds
+7,8,9,11,12 August 1980 (5-day match)
+
+Result: Match drawn
+Series: West Indies wins the 5-match series 1-0
+
+Toss: West Indies
+Umpires: WE Alley and KE Palmer
+Player of the match: DL Haynes
+Player of the series: J Garner
+
+Close of play:
+ Day 1: No play
+ Day 2: England 143, West Indies 20/0 (Greenidge 6*, Haynes 13*)
+ Day 3: West Indies 245, England 22/0 (Gooch 12*, Boycott 9*)
+ Day 4: No play
+
+England 1st innings                                             R   M   B  4 6
+GA Gooch              c Marshall         b Garner              14  45  37  1 0
+G Boycott             c Kallicharran     b Holding              4  19  12  0 0
+BC Rose                                  b Croft                7  32  20  0 0
+W Larkins             c Kallicharran     b Garner               9  34  30  0 0
+MW Gatting            c Marshall         b Croft                1  11   5  0 0
+*IT Botham            c Richards         b Holding             37  57  37  6 1
+P Willey              c Murray           b Croft                1   8   6  0 0
++DL Bairstow          lbw                b Marshall            40  92  73  7 0
+JE Emburey            not out                                  13  76  48  2 0
+CM Old                c Garner           b Marshall             6   9  11  1 0
+GR Dilley                                b Garner               0   6   9  0 0
+Extras                (b 3, lb 3, w 1, nb 4)                   11
+Total                 (all out, 47 overs)                     143
+
+FoW: 1-9 (Boycott), 2-27 (Gooch), 3-28 (Rose), 4-34 (Gatting),
+     5-52 (Larkins), 6-59 (Willey), 7-89 (Botham),
+     8-131 (Bairstow), 9-140 (Old), 10-143 (Dilley).
+
+Bowling                      O      M      R      W
+Holding                     10      4     34      2
+Croft                       12      3     35      3
+Garner                      14      4     41      3
+Marshall                    11      3     22      2
+
+West Indies 1st innings                                         R   M   B  4 6
+CG Greenidge          lbw                b Botham              34 163 133  3 0
+DL Haynes                                b Emburey             42 135 108  4 0
+*IVA Richards                            b Old                 31  65  38  2 1
+SFAF Bacchus                         c & b Dilley              11  52  40  1 0
+AI Kallicharran       c Larkins          b Dilley              37 100  75  6 0
+CL King               c Bairstow         b Gooch               12  38  31  0 0
++DL Murray            c Emburey          b Dilley              14  21  15  2 0
+MD Marshall           c Bairstow         b Dilley               0   6   4  0 0
+MA Holding                               b Old                 35  53  44  4 0
+J Garner              c Emburey          b Gooch                0  13  11  0 0
+CEH Croft             not out                                   1  51  26  0 0
+Extras                (b 2, lb 9, w 3, nb 14)                  28
+Total                 (all out, 84.5 overs)                   245
+
+FoW: 1-83 (Haynes), 2-105 (Greenidge), 3-133 (Richards),
+     4-142 (Bacchus), 5-170 (King), 6-198 (Murray),
+     7-198 (Marshall), 8-207 (Kallicharran), 9-207 (Garner),
+     10-245 (Holding).
+
+Bowling                      O      M      R      W
+Dilley                      23      6     79      4
+Old                         28.5    9     64      2
+Botham                      19      8     31      1
+Emburey                      6      0     25      1
+Gooch                        8      3     18      2
+
+England 2nd innings                                             R   M   B  4 6
+GA Gooch              lbw                b Marshall            55 116  88  7 0
+G Boycott             c Kallicharran     b Croft               47 176 127  4 0
+W Larkins             lbw                b Marshall            30 118  70  1 1
+MW Gatting            lbw                b Holding              1  10   6  0 0
+BC Rose               not out                                  43 145  93  7 0
+*IT Botham            lbw                b Marshall             7  18  13  0 0
+P Willey              c Murray           b Holding             10  41  35  2 0
++DL Bairstow          not out                                   9  33  26  2 0
+Extras                (b 5, lb 11, w 2, nb 7)                  25
+Total                 (6 wickets dec, 75 overs)               227
+
+DNB: JE Emburey, CM Old, GR Dilley.
+
+FoW: 1-95 (Gooch), 2-126 (Boycott), 3-129 (Gatting),
+     4-162 (Larkins), 5-174 (Botham), 6-203 (Willey).
+
+Bowling                      O      M      R      W
+Holding                     23      2     62      2
+Croft                       19      2     65      1
+Garner                       1      0      1      0
+Marshall                    19      5     42      3
+King                        12      3     32      0
+Richards                     1      1      0      0
+
+<END>

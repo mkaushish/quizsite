@@ -1,0 +1,105 @@
+
+Test # 11
+The Ashes, 1882/83, 2nd Test
+Australia v England
+Melbourne Cricket Ground
+19,20,22 January 1883 (timeless match)
+
+Result: England won by an innings and 27 runs
+Series: 3-match series level 1-1
+
+Toss: England
+Umpires: EH Elliott and JS Swift
+Balls per over: 4
+
+Close of play:
+ Day 1: England 248/7 (Read 51*, Bates 35*)
+ Day 2: England 294, Australia 114, Australia 28/1 (Bannerman 5*, Blackham 6*)
+
+England 1st innings                                             R   M   B  4 6
+RG Barlow                                b Palmer              14          1 0
+CT Studd                                 b Palmer              14          1 0
+CFH Leslie            run out                                  54          2 0
+AG Steel              c McDonnell        b Giffen              39          1 0
+WW Read                              c & b Palmer              75 190      8 0
+W Barnes                                 b Giffen              32          4 0
++EFS Tylecote                            b Giffen               0          0 0
+*Hon.IFW Bligh                           b Giffen               0          0 0
+W Bates               c Horan            b Palmer              55  95      4 0
+GB Studd                                 b Palmer               1          0 0
+F Morley              not out                                   0          0 0
+Extras                (b 3, lb 3, nb 4)                        10
+Total                 (all out, 183.3 overs)                  294
+
+FoW: 1-28 (CT Studd), 2-35 (Barlow), 3-106 (Leslie),
+     4-131 (Steel), 5-193 (Barnes), 6-199 (Tylecote),
+     7-199 (Bligh), 8-287 (Bates), 9-293 (Read),
+     10-294 (GB Studd).
+
+Bowling                      O      M      R      W
+Spofforth                   34     11     57      0
+Palmer                      66.3   25    103      5
+Giffen                      49     13     89      4
+Garrett                     34     16     35      0
+
+Australia 1st innings                                           R   M   B  4 6
+HH Massie                                b Barlow              43  40      7 0
+AC Bannerman                             b Bates               14 105      0 0
+*WL Murdoch           not out                                  19 150      1 0
+TP Horan                             c & b Barnes               3          0 0
+PS McDonnell                             b Bates                3          0 0
+G Giffen                             c & b Bates                0   1   1  0 0
+GJ Bonnor             c Read             b Bates                0   1   1  0 0
++JM Blackham                             b Barnes               5          0 0
+TW Garrett                               b Bates               10          0 1
+GE Palmer                                b Bates                7          1 0
+FR Spofforth                             b Bates                0          0 0
+Extras                (b 6, lb 3, nb 1)                        10
+Total                 (all out, 98.2 overs)                   114
+
+FoW: 1-56 (Massie), 2-72 (Bannerman), 3-75 (Horan),
+     4-78 (McDonnell), 5-78 (Giffen), 6-78 (Bonnor),
+     7-85 (Blackham), 8-104 (Garrett), 9-114 (Palmer),
+     10-114 (Spofforth).
+
+Bowling                      O      M      R      W
+CT Studd                     4      1     22      0
+Morley                      23     16     13      0
+Barnes                      23      7     32      2
+Barlow                      22     18      9      1
+Bates                       26.2   14     28      7
+
+Australia 2nd innings (following on)                            R   M   B  4 6
+*WL Murdoch                              b Bates               17          2 0
+AC Bannerman          c Bligh            b Bates               14          1 0
++JM Blackham                             b Barlow               6          0 0
+GJ Bonnor             c Morley           b Barlow              34          2 3
+TP Horan              c Morley           b Bates               15          1 0
+PS McDonnell                             b Bates               13          1 0
+HH Massie             c CT Studd         b Barlow              10          1 0
+G Giffen              c Bligh            b Bates               19          2 0
+TW Garrett            c Barnes           b Bates                6          0 0
+GE Palmer             c GB Studd         b Bates                4          1 0
+FR Spofforth          not out                                  14          3 0
+Extras                (b 1)                                     1
+Total                 (all out, 69 overs)                     153
+
+FoW: 1-21 (Murdoch), 2-28 (Blackham), 3-66 (Bonnor),
+     4-72 (Bannerman), 5-93 (Horan), 6-104 (Massie),
+     7-113 (McDonnell), 8-132 (Giffen), 9-139 (Garrett),
+     10-153 (Palmer).
+
+Bowling                      O      M      R      W
+Morley                       2      0      7      0
+Barnes                       3      1      4      0
+Barlow                      31      6     67      3
+Bates                       33     14     74      7
+
+*** W Bates achieved the first Test hat-trick by an England bowler when he
+    dismissed McDonnell, Giffen and Bonnor in the first innings. He went on
+    to become the first player to score a fifty and take ten or more wickets
+    in the same Test match.
+
+*** This was the first victory by an innings margin in a Test match.
+
+<END>

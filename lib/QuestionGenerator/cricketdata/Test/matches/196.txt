@@ -1,0 +1,95 @@
+
+Test # 196
+The Ashes, 1930, 3rd Test
+England v Australia
+Headingley, Leeds
+11,12,14,15 July 1930 (4-day match)
+
+Result: Match drawn
+Series: 5-match series level 1-1
+
+Toss: Australia
+Umpires: W Bestwick and TW Oates
+
+Close of play:
+ Day 1: Australia 458/3 (Bradman 309*, McCabe 12*)
+ Day 2: Australia 566, England 212/5 (Hammond 61*, Duckworth 0*)
+ Day 3: England 242/5 (Hammond 73*, Duckworth 15*)
+
+Australia 1st innings                                           R   M   B  4 6
+*WM Woodfull                             b Hammond             50 160 179    0
+A Jackson             c Larwood          b Tate                 1   8   9  0 0
+DG Bradman            c Duckworth        b Tate               334 383 448 46 0
+AF Kippax             c Chapman          b Tate                77 165 176    0
+SJ McCabe                                b Larwood             30      46    0
+VY Richardson         c Larwood          b Tate                 1       6  0 0
+EL a'Beckett          c Chapman          b Geary               29      66    0
++WAS Oldfield         c Hobbs            b Tate                 2      21  0 0
+CV Grimmett           c Duckworth        b Tyldesley           24      35    2
+TW Wall                                  b Tyldesley            3      18  0 0
+PM Hornibrook         not out                                   1       4  0 0
+Extras                (b 5, lb 8, w 1)                         14
+Total                 (all out, 168 overs)                    566
+
+FoW: 1-2 (Jackson), 2-194 (Woodfull), 3-423 (Kippax),
+     4-486 (McCabe), 5-491 (Richardson), 6-508 (Bradman),
+     7-519 (Oldfield), 8-544 (a'Beckett), 9-565 (Wall),
+     10-566 (Grimmett).
+
+Bowling                      O      M      R      W
+Larwood                     33      3    139      1
+Tate                        39      9    124      5
+Geary                       35     10     95      1
+Tyldesley                   33      5    104      2
+Hammond                     17      3     46      1
+Leyland                     11      0     44      0
+
+England 1st innings                                             R   M   B  4 6
+JB Hobbs              c a'Beckett        b Grimmett            29     112    0
+H Sutcliffe           c Hornibrook       b Grimmett            32     102    0
+WR Hammond            c Oldfield         b McCabe             113 325 361 14 0
+KS Duleepsinhji                          b Hornibrook          35  40  47    0
+M Leyland             c Kippax           b Wall                44     102    2
+G Geary               run out                                   0       5  0 0
++G Duckworth          c Oldfield         b a'Beckett           33 130 146    0
+*APF Chapman                             b Grimmett            45      89    0
+MW Tate               c Jackson          b Grimmett            22      50    0
+H Larwood             not out                                  10      25    0
+RK Tyldesley          c Hornibrook       b Grimmett             6      13  0 1
+Extras                (b 9, lb 10, nb 3)                       22
+Total                 (all out, 175.2 overs)                  391
+
+FoW: 1-53 (Hobbs), 2-64 (Sutcliffe), 3-123 (Duleepsinhji),
+     4-206 (Leyland), 5-206 (Geary), 6-289 (Duckworth),
+     7-319 (Hammond), 8-370 (Chapman), 9-375 (Tate),
+     10-391 (Tyldesley).
+
+Bowling                      O      M      R      W
+Wall                        40     12     70      1
+a'Beckett                   28      8     47      1
+Grimmett                    56.2   16    135      5
+Hornibrook                  41      7     94      1
+McCabe                      10      4     23      1
+
+England 2nd innings (following on)                              R   M   B  4 6
+JB Hobbs              run out                                  13      25    0
+H Sutcliffe           not out                                  28     140    0
+WR Hammond            c Oldfield         b Grimmett            35      93    0
+KS Duleepsinhji       c Grimmett         b Hornibrook          10      48    0
+M Leyland             not out                                   1       5  0 0
+Extras                (lb 8)                                    8
+Total                 (3 wickets, 51.5 overs)                  95
+
+DNB: G Geary, +G Duckworth, *APF Chapman, MW Tate, H Larwood,
+     RK Tyldesley.
+
+FoW: 1-24 (Hobbs), 2-72 (Hammond), 3-94 (Duleepsinhji).
+
+Bowling                      O      M      R      W
+Wall                        10      3     20      0
+a'Beckett                   11      4     19      0
+Grimmett                    17      3     33      1
+Hornibrook                  11.5    5     14      1
+McCabe                       2      1      1      0
+
+<END>

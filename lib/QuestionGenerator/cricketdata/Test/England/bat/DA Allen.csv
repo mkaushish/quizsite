@@ -1,0 +1,52 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+485, 1960-01-06, 1, 10, West Indies, lbw, Watson, 10, na, na, na, 0
+488, 1960-01-28, 1, 10, West Indies, not out, , 10, na, na, na, 0
+488, 1960-01-28, 3, 10, West Indies, c Alexander, Hall, 16, na, na, na, 0
+489, 1960-02-17, 1, 10, West Indies, not out, , 30, na, na, na, 0
+489, 1960-02-17, 3, 10, West Indies, not out, , 17, na, na, na, 0
+490, 1960-03-09, 1, 9, West Indies, c Alexander, Hall, 55, na, na, na, 0
+490, 1960-03-09, 3, 8, West Indies, not out, , 1, na, na, 0, 0
+491, 1960-03-25, 1, 9, West Indies, c sub, Ramadhin, 7, na, na, na, 0
+491, 1960-03-25, 3, 3, West Indies, run out, , 25, na, na, na, 0
+495, 1960-07-21, 1, 9, South Africa, lbw, Goddard, 0, na, na, 0, 0
+495, 1960-07-21, 3, 8, South Africa, not out, , 14, 90, na, na, 0
+496, 1960-08-18, 1, 8, South Africa, lbw, Adcock, 0, 10, na, 0, 0
+496, 1960-08-18, 3, 8, South Africa, not out, , 12, 83, na, 0, 0
+507, 1961-06-08, 1, 9, Australia, run out, , 11, na, na, na, 0
+509, 1961-07-06, 2, 10, Australia, not out, , 5, na, na, na, 0
+510, 1961-07-27, 2, 8, Australia, c Booth, Simpson, 42, 104, na, 7, 0
+510, 1961-07-27, 4, 8, Australia, c Simpson, Benaud, 10, 28, na, 2, 0
+511, 1961-08-17, 1, 9, Australia, not out, , 22, 79, na, 2, 0
+511, 1961-08-17, 3, 9, Australia, not out, , 42, 124, na, 4, 0
+512, 1961-10-21, 2, 9, Pakistan, lbw, Mohammad Munaf, 40, na, na, 6, 0
+513, 1961-11-11, 1, 8, India, c Kunderan, Ranjane, 0, 1, 2, 0, 0
+514, 1961-12-01, 2, 9, India, c Engineer, Borde, 12, 38, na, 1, 0
+518, 1962-12-30, 2, 8, India, , Durani, 15, 43, na, 0, 0
+518, 1962-12-30, 4, 8, India, c Manjrekar, Desai, 7, 35, na, 0, 0
+520, 1962-01-10, 2, 8, India, , Durani, 34, 78, na, 4, 0
+520, 1962-01-10, 4, 8, India, c Umrigar, Borde, 21, 64, na, 2, 0
+521, 1962-01-19, 2, 9, Pakistan, , Shujauddin, 0, 7, na, 0, 0
+522, 1962-02-02, 2, 8, Pakistan, c Imtiaz Ahmed, D'Souza, 1, 8, na, 0, 0
+530, 1962-05-31, 1, 7, Pakistan, not out, , 79, 112, na, 11, 0
+531, 1962-06-21, 2, 6, Pakistan, lbw, Mohammad Farooq, 2, na, na, 0, 0
+532, 1962-07-05, 1, 9, Pakistan, c Ijaz Butt, Munir Malik, 62, na, na, na, 0
+539, 1963-02-15, 1, 10, Australia, c Benaud, Davidson, 14, 55, na, 1, 0
+543, 1963-06-06, 2, 8, West Indies, c Sobers, Gibbs, 5, na, na, na, 0
+543, 1963-06-06, 3, 9, West Indies, , Gibbs, 1, na, na, 0, 0
+544, 1963-06-20, 2, 10, West Indies, lbw, Griffith, 2, 15, na, 0, 0
+544, 1963-06-20, 4, 10, West Indies, not out, , 4, na, na, 0, 0
+561, 1964-06-04, 1, 9, Australia, c Grout, McKenzie, 21, 85, na, 0, 0
+561, 1964-06-04, 3, 8, Australia, lbw, McKenzie, 3, 12, na, 0, 0
+572, 1964-12-23, 1, 9, South Africa, lbw, PM Pollock, 2, 8, na, 0, 0
+573, 1965-01-01, 2, 9, South Africa, c Barlow, Bromfield, 22, 76, na, 4, 0
+578, 1965-02-12, 2, 10, South Africa, not out, , 38, 124, na, 3, 0
+597, 1965-12-10, 2, 8, Australia, c Cowper, Walters, 3, 24, 15, 0, 0
+598, 1966-12-30, 2, 10, Australia, c Grout, Connolly, 2, 16, 22, 0, 0
+599, 1966-01-07, 1, 10, Australia, not out, , 50, 88, 97, 3, 0
+600, 1966-01-28, 1, 9, Australia, c Simpson, McKenzie, 2, 3, 4, 0, 0
+600, 1966-01-28, 3, 9, Australia, not out, , 5, 33, 23, 0, 0
+602, 1966-02-25, 1, 8, New Zealand, c Chapple, Bartlett, 88, 222, na, 8, 0
+603, 1966-03-04, 2, 9, New Zealand, , Cunis, 9, 59, na, 0, 0
+604, 1966-03-11, 2, 7, New Zealand, not out, , 7, 52, 35, 0, 0
+605, 1966-06-02, 2, 8, West Indies, c Sobers, Gibbs, 37, 61, 63, 7, 0
+605, 1966-06-02, 3, 8, West Indies, c Allan, Gibbs, 1, 2, 9, 0, 0

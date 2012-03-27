@@ -1,0 +1,135 @@
+
+Test # 594
+South Africa in England, 1965, 1st Test
+England v South Africa
+Lord's, London
+22,23,24,26,27 July 1965 (5-day match)
+
+Result: Match drawn
+Series: 3-match series level 0-0
+
+Toss: South Africa
+Umpires: JS Buller and AEG Rhodes
+Test debuts: DJ Brown (England); A Bacher, JT Botten,
+ R Dumbrill (South Africa).
+
+Close of play:
+ Day 1: South Africa 227/8 (Botten 27*, PM Pollock 2*)
+ Day 2: South Africa 280, England 26/0 (Boycott 11*, Barber 15*)
+ Day 3: England 287/6 (Parks 25*, Titmus 22*)
+ Day 4: England 338, South Africa 186/5 (Bacher 27*, van der Merwe 1*)
+
+South Africa 1st innings                                        R   M   B  4 6
+EJ Barlow             c Barber           b Rumsey               1          0 0
+HR Lance                             c & b Brown               28            0
++DT Lindsay           c Titmus           b Rumsey              40            0
+RG Pollock            c Barrington       b Titmus              56            0
+KC Bland                                 b Brown               39            0
+A Bacher              lbw                b Titmus               4            0
+*PL van der Merwe     c Barrington       b Rumsey              17            0
+R Dumbrill                               b Barber               3          0 0
+JT Botten                                b Brown               33            0
+PM Pollock            st Parks           b Barber              34            0
+HD Bromfield          not out                                   9            0
+Extras                (lb 14, nb 2)                            16
+Total                 (all out, 119.3 overs)                  280
+
+FoW: 1-1 (Barlow), 2-60 (Lance), 3-75 (Lindsay),
+     4-155 (RG Pollock), 5-170 (Bland), 6-170 (Bacher),
+     7-178 (Dumbrill), 8-212 (van der Merwe), 9-241 (Botten),
+     10-280 (PM Pollock).
+
+Bowling                      O      M      R      W
+Larter                      26     10     47      0
+Rumsey                      30      9     84      3
+Brown                       24      9     44      3
+Titmus                      29     10     59      2
+Barber                      10.3    3     30      2
+
+England 1st innings                                             R   M   B  4 6
+G Boycott             c Barlow           b Botten              31            0
+RW Barber                                b Bromfield           56            0
+JH Edrich             lbw                b PM Pollock           0          0 0
+KF Barrington         run out                                  91 180     11 1
+MC Cowdrey                               b Dumbrill            29            0
+*MJK Smith            c Lindsay          b Botten              26            0
++JM Parks             run out                                  32            0
+FJ Titmus             c PM Pollock       b Bromfield           59            1
+DJ Brown              c Bromfield        b Dumbrill             1          0 0
+FE Rumsey                                b Dumbrill             3          0 0
+JDF Larter            not out                                   0          0 0
+Extras                (b 1, lb 4, w 1, nb 4)                   10
+Total                 (all out, 150.2 overs)                  338
+
+FoW: 1-82 (Boycott), 2-88 (Barber), 3-88 (Edrich),
+     4-144 (Cowdrey), 5-240 (Barrington), 6-240 (Smith),
+     7-294 (Parks), 8-314 (Brown), 9-338 (Rumsey),
+     10-338 (Titmus).
+
+Bowling                      O      M      R      W
+PM Pollock                  39     12     91      1
+Botten                      33     11     65      2
+Barlow                      19      6     31      0
+Bromfield                   25.2    5     71      2
+Dumbrill                    24     11     31      3
+Lance                        5      0     18      0
+RG Pollock                   5      1     21      0
+
+South Africa 2nd innings                                        R   M   B  4 6
+EJ Barlow             c Parks            b Brown               52            0
+HR Lance              c Titmus           b Brown                9            0
++DT Lindsay           c Parks            b Larter              22            0
+RG Pollock                               b Brown                5            0
+KC Bland              c Edrich           b Barber              70            0
+A Bacher                                 b Titmus              37            0
+*PL van der Merwe     c Barrington       b Rumsey              31            0
+R Dumbrill            c Cowdrey          b Rumsey               2          0 0
+JT Botten                                b Rumsey               0          0 0
+PM Pollock            not out                                  14            0
+HD Bromfield          run out                                   0          0 0
+Extras                (b 4, lb 2)                               6
+Total                 (all out, 110 overs)                    248
+
+FoW: 1-55 (Lance), 2-62 (Barlow), 3-68 (RG Pollock),
+     4-120 (Lindsay), 5-170 (Bland), 6-216 (Bacher),
+     7-230 (Dumbrill), 8-230 (Botten), 9-247 (van der Merwe),
+     10-248 (Bromfield).
+
+Bowling                      O      M      R      W
+Larter                      17      2     67      1
+Rumsey                      21      8     49      3
+Brown                       21     11     30      3
+Titmus                      26     13     36      1
+Barber                      25      5     60      1
+
+England 2nd innings (target: 191 runs)                          R   M   B  4 6
+G Boycott                            c & b Dumbrill            28            0
+RW Barber             c Lindsay          b PM Pollock          12            0
+JH Edrich             retired hurt                              7            0
+KF Barrington         lbw                b Dumbrill            18            0
+MC Cowdrey            lbw                b PM Pollock          37            0
+*MJK Smith            c Lindsay          b Dumbrill            13            0
++JM Parks             c van der Merwe    b Dumbrill             7            0
+FJ Titmus             not out                                   9            0
+DJ Brown              c Barlow           b RG Pollock           5            0
+FE Rumsey             not out                                   0          0 0
+Extras                (lb 7, w 1, nb 1)                         9
+Total                 (7 wickets, 68 overs)                   145
+
+DNB: JDF Larter.
+
+FoW: 1-23 (Barber), 2-70 (Boycott), 3-79 (Barrington),
+     4-113 (Smith), 5-121 (Parks), 6-135 (Cowdrey),
+     7-140 (Brown).
+
+Bowling                      O      M      R      W
+PM Pollock                  20      6     52      2
+Botten                      12      6     25      0
+Barlow                       9      1     25      0
+Bromfield                    5      4      4      0
+Dumbrill                    18      8     30      4
+RG Pollock                   4      4      0      1
+
+*** JH Edrich retired hurt at 37/1
+
+<END>

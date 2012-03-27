@@ -1,0 +1,129 @@
+
+Test # 502
+The Frank Worrell Trophy, 1960/61, 3rd Test
+Australia v West Indies
+Sydney Cricket Ground
+13,14,16,17,18 January 1961 (5-day match)
+
+Result: West Indies won by 222 runs
+Series: 5-match series level 1-1
+
+Toss: West Indies
+Umpires: CJ Egar and C Hoy
+Balls per over: 8
+
+Close of play:
+ Day 1: West Indies 303/5 (Sobers 152*, Solomon 4*)
+ Day 2: West Indies 339, Australia 172/5 (Mackay 27*, Davidson 3*)
+ Day 3: Australia 202, West Indies 179/7 (Alexander 11*, Gibbs 4*)
+ Day 4: West Indies 326, Australia 182/2 (Harvey 84*, O'Neill 53*)
+
+West Indies 1st innings                                         R   M   B  4 6
+CC Hunte              c Simpson          b Meckiff             34  73  68  3 0
+CW Smith              c Simpson          b Davidson            16  35  22  3 0
+RB Kanhai             c Grout            b Davidson            21  69  54  2 0
+GS Sobers                            c & b Davidson           168 270 234 25 1
+*FMM Worrell          c Davidson         b Benaud              22  66  81  4 0
+SM Nurse              c Simpson          b Benaud              43 112 118  5 0
+JS Solomon            c Simpson          b Benaud              14  50  37  3 0
++FCM Alexander        c Harvey           b Benaud               0  11   8  0 0
+LR Gibbs              c Grout            b Davidson             0   3   7  0 0
+WW Hall               c Grout            b Davidson            10  17  22  2 0
+AL Valentine          not out                                   0  15   3  0 0
+Extras                (b 6, lb 4, w 1)                         11
+Total                 (all out, 81.6 overs)                   339
+
+FoW: 1-48 (Smith), 2-68 (Hunte), 3-89 (Kanhai), 4-152 (Worrell),
+     5-280 (Nurse), 6-329 (Solomon), 7-329 (Sobers),
+     8-329 (Gibbs), 9-329 (Alexander), 10-339 (Hall).
+
+Bowling                      O      M      R      W
+Davidson                    21.6    4     80      5
+Meckiff                     13      1     74      1
+Mackay                      14      1     40      0
+Benaud                      23      3     86      4
+Martin                       8      1     37      0
+Simpson                      2      0     11      0
+
+Australia 1st innings                                           R   M   B  4 6
+CC McDonald                              b Valentine           34 112  81  1 0
+RB Simpson            c Kanhai           b Hall                10  23  17  0 0
+RN Harvey             c Sobers           b Hall                 9  34  20  0 0
+NC O'Neill                               b Sobers              71 142 148 10 0
+LE Favell             c Worrell          b Valentine           16  36  56  1 0
+KD Mackay             c Solomon          b Gibbs               39 134 155  2 0
+AK Davidson           c Worrell          b Valentine           16  48  58  2 0
+*R Benaud                            c & b Valentine            3  43  49  0 0
+JW Martin             c Solomon          b Gibbs                0   1   1  0 0
++ATW Grout            c Hunte            b Gibbs                0   4   4  0 0
+I Meckiff             not out                                   0   3   6  0 0
+Extras                (b 1, lb 2, nb 1)                         4
+Total                 (all out, 74.2 overs)                   202
+
+FoW: 1-17 (Simpson), 2-40 (Harvey), 3-65 (McDonald),
+     4-105 (Favell), 5-155 (O'Neill), 6-194 (Davidson),
+     7-200 (Mackay), 8-200 (Martin), 9-202 (Grout),
+     10-202 (Benaud).
+
+Bowling                      O      M      R      W
+Hall                        13      0     53      2
+Worrell                      9      4     18      0
+Gibbs                       23      6     46      3
+Valentine                   24.2    6     67      4
+Sobers                       5      2     14      1
+
+West Indies 2nd innings                                         R   M   B  4 6
+CC Hunte              c O'Neill          b Davidson             1  20  16  0 0
+CW Smith              c Simpson          b Benaud              55 116  94  9 0
+RB Kanhai             c Martin           b Davidson             3   7   9  0 0
+GS Sobers             c Grout            b Davidson             1  10   5  0 0
+*FMM Worrell          lbw                b Benaud              82 198 224 11 1
+SM Nurse                             c & b Mackay              11  58  57  0 0
+JS Solomon            c Harvey           b Benaud               1  25  25  0 0
++FCM Alexander        lbw                b Mackay             108 212 190  9 1
+LR Gibbs              st Grout           b Benaud              18  91 112  2 0
+WW Hall                                  b Mackay              24  71  78  0 1
+AL Valentine          not out                                  10   9  10  2 0
+Extras                (b 4, lb 7, w 1)                         12
+Total                 (all out, 102.4 overs)                  326
+
+FoW: 1-10 (Hunte), 2-20 (Kanhai), 3-22 (Sobers), 4-123 (Smith),
+     5-144 (Nurse), 6-159 (Solomon), 7-166 (Worrell),
+     8-240 (Gibbs), 9-309 (Hall), 10-326 (Alexander).
+
+Bowling                      O      M      R      W
+Davidson                     8      1     33      3
+Meckiff                      5      2     12      0
+Mackay                      31.4    5     75      3
+Benaud                      44     14    113      4
+Martin                      10      0     65      0
+Simpson                      4      0     16      0
+
+Australia 2nd innings (target: 464 runs)                        R   M   B  4 6
+CC McDonald           c Alexander        b Valentine           27  97  89  2 0
+RB Simpson                               b Sobers              12  26  27  2 0
+RN Harvey             c Sobers           b Gibbs               85 180 185  9 0
+NC O'Neill            c Sobers           b Gibbs               70 131 146  8 0
+LE Favell                                b Gibbs                2  10   8  0 0
+KD Mackay             c Nurse            b Gibbs                0   2   5  0 0
+*R Benaud                            c & b Valentine           24  50  68  3 0
+JW Martin                                b Valentine            5  12  13  1 0
++ATW Grout                               b Gibbs                0  12  11  0 0
+AK Davidson                              b Valentine            1  25  17  0 0
+I Meckiff             not out                                   6   7   9  0 0
+Extras                (b 3, lb 6)                               9
+Total                 (all out, 72.2 overs)                   241
+
+FoW: 1-27 (Simpson), 2-83 (McDonald), 3-191 (Harvey),
+     4-197 (Favell), 5-197 (Mackay), 6-202 (O'Neill),
+     7-209 (Martin), 8-220 (Grout), 9-234 (Benaud),
+     10-241 (Davidson).
+
+Bowling                      O      M      R      W
+Hall                         8      0     35      0
+Worrell                      4      0      7      0
+Gibbs                       26      5     66      5
+Valentine                   25.2    7     86      4
+Sobers                       9      1     38      1
+
+<END>

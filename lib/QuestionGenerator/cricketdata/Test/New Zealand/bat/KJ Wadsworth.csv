@@ -1,0 +1,52 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+656, 1969-07-24, 2, 7, England, lbw, Illingworth, 14, 42, 35, 2, 0
+656, 1969-07-24, 4, 8, England, , Underwood, 5, 15, 15, 0, 0
+657, 1969-08-07, 1, 7, England, c D'Oliveira, Ward, 21, 53, 44, 0, 0
+658, 1969-08-21, 1, 8, England, c Arnold, Underwood, 2, 11, 15, 0, 0
+658, 1969-08-21, 3, 8, England, c Knott, Snow, 10, 57, 42, 0, 0
+659, 1969-09-25, 2, 7, India, c Wadekar, Bedi, 14, 69, na, 2, 0
+659, 1969-09-25, 4, 8, India, c Pataudi, Prasanna, 13, 28, na, 2, 0
+660, 1969-10-03, 1, 8, India,                c &, Bedi, 1, 6, na, 0, 0
+660, 1969-10-03, 3, 8, India, lbw, Venkataraghavan, 5, 4, na, 1, 0
+661, 1969-10-15, 1, 9, India, run out, , 14, 40, na, 2, 0
+661, 1969-10-15, 3, 6, India, lbw, Prasanna, 5, 11, na, 1, 0
+662, 1969-10-24, 2, 8, Pakistan, st Wasim Bari, Pervez Sajjad, 0, 2, na, 0, 0
+663, 1969-10-30, 2, 10, Pakistan, , Saleem Altaf, 13, 37, na, na, 0
+665, 1969-11-08, 1, 9, Pakistan, c Wasim Bari, Saleem Altaf, 7, 31, na, 0, 0
+665, 1969-11-08, 3, 9, Pakistan, c Aftab Gul, Pervez Sajjad, 0, 37, na, 0, 0
+681, 1971-02-25, 1, 8, England, c Fletcher, Underwood, 0, 2, 2, 0, 0
+681, 1971-02-25, 3, 8, England, c Fletcher, Wilson, 1, 10, 8, 0, 0
+682, 1971-03-05, 2, 7, England, c Hampshire, Willis, 16, 18, 21, 2, 1
+693, 1972-02-16, 2, 7, West Indies, c Fredericks, Dowe, 78, 284, na, 9, 0
+693, 1972-02-16, 4, 7, West Indies, not out, , 36, 125, na, 6, 0
+694, 1972-03-09, 1, 7, West Indies,                c &, Holford, 7, 48, na, na, 0
+695, 1972-03-23, 2, 8, West Indies, not out, , 15, na, na, na, 0
+697, 1972-04-20, 2, 10, West Indies, st Findlay, Ali, 1, na, na, 0, 0
+697, 1972-04-20, 4, 7, West Indies, not out, , 40, 143, na, 5, 0
+710, 1973-02-02, 2, 7, Pakistan, c Asif Iqbal, Sarfraz Nawaz, 28, na, na, na, 0
+712, 1973-02-07, 2, 8, Pakistan, , Mushtaq Mohammad, 45, 73, na, 8, 0
+712, 1973-02-07, 3, 7, Pakistan, c Majid Khan, Intikhab Alam, 17, 31, na, na, 0
+713, 1973-02-16, 2, 7, Pakistan, c Sadiq Mohammad, Intikhab Alam, 6, na, na, na, 0
+722, 1973-06-07, 2, 7, England, c Knott, Greig, 0, 1, 3, 0, 0
+722, 1973-06-07, 4, 7, England, c Roope, Arnold, 46, 155, 144, 6, 0
+723, 1973-06-21, 2, 8, England, c Knott, Old, 27, 90, 69, 3, 0
+724, 1973-07-05, 1, 7, England, , Old, 8, 20, 14, 2, 0
+724, 1973-07-05, 3, 7, England, , Arnold, 5, 7, 9, 1, 0
+728, 1974-12-29, 2, 7, Australia, c GS Chappell, Gilmour, 80, 138, 126, 8, 0
+728, 1974-12-29, 3, 6, Australia, c Stackpole, Mallett, 30, 67, 63, 2, 0
+729, 1974-01-05, 1, 7, Australia, c Marsh, Walters, 54, 89, 74, 7, 0
+729, 1974-01-05, 3, 6, Australia, c GS Chappell, Gilmour, 2, 12, 8, 0, 0
+730, 1974-01-26, 2, 7, Australia, lbw, IM Chappell, 48, 107, 107, 5, 0
+730, 1974-01-26, 3, 7, Australia, c Marsh, O'Keeffe, 16, 53, 58, 0, 0
+733, 1974-03-01, 2, 7, Australia, , Dymock, 5, 34, 27, 0, 0
+735, 1974-03-08, 2, 7, Australia, c Marsh, Mallett, 24, 69, 51, 3, 0
+735, 1974-03-08, 4, 7, Australia, not out, , 9, 32, 33, 1, 0
+736, 1974-03-22, 2, 7, Australia, c Marsh, Gilmour, 0, 2, 2, 0, 0
+736, 1974-03-22, 4, 7, Australia, c GS Chappell, Mallett, 21, 56, 55, 2, 0
+757, 1975-02-20, 2, 7, England, lbw, Underwood, 58, 218, 144, 6, 0
+757, 1975-02-20, 3, 7, England, c Fletcher, Underwood, 6, 36, 36, 0, 0
+758, 1975-02-28, 1, 7, England, c Lever, Greig, 58, 150, 91, 7, 0
+769, 1976-01-24, 1, 7, India, c Gavaskar, Prasanna, 41, 122, na, 3, 0
+769, 1976-01-24, 3, 7, India, , Chandrasekhar, 19, na, na, na, 0
+771, 1976-02-05, 2, 7, India, c Kirmani, Madan Lal, 29, na, na, 3, 0
+772, 1976-02-13, 2, 7, India, c Gavaskar, Bedi, 10, na, na, na, 0

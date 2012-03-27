@@ -1,0 +1,121 @@
+
+Test # 172
+England in South Africa, 1927/28, 5th Test
+South Africa v England
+Kingsmead, Durban
+4,6,7,8 February 1928 (4-day match)
+
+Result: South Africa won by 8 wickets
+Series: 5-match series drawn 2-2
+
+Toss: South Africa
+Umpires: AG Laver and GB Treadwell
+Test debuts: EW Dawson, H Elliott (England).
+
+Close of play:
+ Day 1: No play
+ Day 2: England 282, South Africa 6/0 (Taylor 3*, Coen 2*)
+ Day 3: South Africa 332/7d, England 30/1 (Sutcliffe 10*, Tyldesley 14*)
+
+England 1st innings                                             R   M   B  4 6
+P Holmes              c Cameron          b Bissett              0          0 0
+H Sutcliffe           c Cameron          b Vincent             51            0
+GE Tyldesley          c Morkel           b Vincent            100            0
+WR Hammond            c Catterall        b Nupen               66            0
+RES Wyatt             c Catterall        b Bissett             22            0
+*GTS Stevens          c Taylor           b Vincent             13            0
+EW Dawson             lbw                b Nupen               14            0
+WE Astill             lbw                b Nupen                1          0 0
+SJ Staples                               b Nupen                2          0 0
++H Elliott            c Catterall        b Nupen                1          0 0
+AP Freeman            not out                                   0          0 0
+Extras                (b 4, lb 4, nb 4)                        12
+Total                 (all out, 102.5 overs)                  282
+
+FoW: 1-2 (Holmes), 2-132 (Sutcliffe), 3-177 (Tyldesley),
+     4-240 (Wyatt), 5-262 (Hammond), 6-264 (Stevens),
+     7-265 (Astill), 8-269 (Staples), 9-282 (Elliott),
+     10-282 (Dawson).
+
+Bowling                      O      M      R      W
+Bissett                     16      1     61      2
+Hall                        18      0     48      0
+Nupen                       33.5    9     83      5
+Vincent                     31      4     63      3
+Morkel                       2      0      3      0
+Nicolson                     2      0     12      0
+
+South Africa 1st innings                                        R   M   B  4 6
+HW Taylor             lbw                b Staples             36            0
+SK Coen                                  b Astill              28            0
+DPB Morkel            c Hammond          b Staples              2          0 0
+JFW Nicolson                             b Astill              21            0
+RH Catterall          c Holmes           b Astill             119            2
++HB Cameron           c Holmes           b Freeman             53            2
+*HG Deane                                b Staples             23            0
+EP Nupen              not out                                  19            0
+CL Vincent            not out                                  19            0
+Extras                (b 1, lb 9, nb 2)                        12
+Total                 (7 wickets dec, 113 overs)              332
+
+DNB: GF Bissett, AE Hall.
+
+FoW: 1-57 (Coen), 2-60 (Morkel), 3-87 (Taylor), 4-95 (Nicolson),
+     5-230 (Cameron), 6-278 (Deane), 7-296 (Catterall).
+
+Bowling                      O      M      R      W
+Hammond                     12      2     41      0
+Staples                     44     13     96      3
+Wyatt                        3      0     16      0
+Freeman                     16      2     57      1
+Astill                      36     10     99      3
+Stevens                      2      0     11      0
+
+England 2nd innings                                             R   M   B  4 6
+P Holmes              lbw                b Bissett              0          0 0
+H Sutcliffe           lbw                b Nupen               23            0
+GE Tyldesley          c Deane            b Bissett             21            0
+WR Hammond            c Vincent          b Bissett              3          0 0
+RES Wyatt             not out                                  20            0
+*GTS Stevens          c Deane            b Bissett             18            1
+EW Dawson             c Vincent          b Bissett              9            0
+WE Astill             c Coen             b Bissett              0          0 0
+SJ Staples                               b Bissett              7            0
++H Elliott                               b Vincent              3          0 0
+AP Freeman            c Hall             b Vincent              1          0 0
+Extras                (b 10, lb 1, nb 2)                       13
+Total                 (all out, 55 overs)                     118
+
+FoW: 1-0 (Holmes), 2-40 (Tyldesley), 3-43 (Hammond),
+     4-70 (Sutcliffe), 5-89 (Stevens), 6-90 (Dawson),
+     7-90 (Astill), 8-103 (Staples), 9-114 (Elliott),
+     10-118 (Freeman).
+
+Bowling                      O      M      R      W
+Bissett                     19      5     29      7
+Hall                        10      3     18      0
+Nupen                        9      2     14      1
+Vincent                     17      3     44      2
+
+South Africa 2nd innings (target: 69 runs)                      R   M   B  4 6
+HW Taylor             c Wyatt            b Staples             29            0
+SK Coen               not out                                  25            0
+EP Nupen              c Freeman          b Hammond             10            0
+RH Catterall          not out                                   2          0 0
+Extras                (b 1, lb 2)                               3
+Total                 (2 wickets, 23.3 overs)                  69
+
+DNB: DPB Morkel, JFW Nicolson, +HB Cameron, *HG Deane,
+     CL Vincent, GF Bissett, AE Hall.
+
+FoW: 1-51 (Taylor), 2-66 (Nupen).
+
+Bowling                      O      M      R      W
+Hammond                     10      2     25      1
+Staples                     11      3     30      1
+Astill                       2      0      9      0
+Tyldesley                    0.3    0      2      0
+
+*** RES Wyatt (2) retired hurt on 4* from 49/3 to 89/5
+
+<END>

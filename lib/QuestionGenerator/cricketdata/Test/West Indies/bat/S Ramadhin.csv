@@ -1,0 +1,59 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+323, 1950-06-08, 2, 10, England, not out, , 4, 6, na, 1, 0
+323, 1950-06-08, 4, 10, England, , Berry, 0, 1, na, 0, 0
+324, 1950-06-24, 1, 10, England, not out, , 1, na, na, 0, 0
+325, 1950-07-20, 2, 10, England, , Bedser, 2, na, na, 0, 0
+326, 1950-08-12, 1, 10, England, c McIntyre, Wright, 3, na, na, 0, 0
+340, 1951-11-09, 1, 10, Australia, not out, , 16, 55, na, 2, 0
+340, 1951-11-09, 3, 10, Australia, not out, , 2, 12, na, 0, 0
+341, 1951-11-30, 1, 10, Australia, , Lindwall, 0, 2, na, 0, 0
+341, 1951-11-30, 3, 10, Australia, , Johnston, 3, 26, na, 0, 0
+343, 1951-12-22, 2, 10, Australia, not out, , 5, 8, na, 1, 0
+345, 1952-12-31, 1, 10, Australia, c Langley, Johnston, 1, 9, na, 0, 0
+345, 1952-12-31, 3, 10, Australia, run out, , 0, 1, 1, 0, 0
+347, 1952-01-25, 2, 10, Australia, , Johnston, 0, 5, na, 0, 0
+347, 1952-01-25, 4, 10, Australia, not out, , 3, 14, na, 0, 0
+349, 1952-02-08, 2, 10, New Zealand, , Burtt, 10, na, na, na, 0
+363, 1953-01-21, 2, 10, India, not out, , 5, na, na, na, 0
+366, 1953-02-07, 1, 10, India, not out, , 16, na, na, na, 0
+366, 1953-02-07, 3, 10, India, , Phadkar, 12, na, na, na, 0
+367, 1953-02-19, 2, 10, India, c +Manjrekar, Phadkar, 1, na, na, 0, 0
+369, 1953-03-11, 2, 10, India, not out, , 6, na, na, na, 0
+380, 1954-01-15, 1, 9, England, lbw, Trueman, 7, na, na, na, 0
+383, 1954-02-06, 1, 9, England, , Statham, 1, na, na, 0, 0
+384, 1954-02-24, 2, 10, England, , Laker, 0, na, na, 0, 0
+384, 1954-02-24, 3, 10, England, , Statham, 1, na, na, 0, 0
+386, 1954-03-30, 1, 11, England, lbw, Trueman, 4, na, na, na, 0
+386, 1954-03-30, 3, 10, England,                c &, Laker, 10, na, na, na, 0
+403, 1955-03-26, 2, 10, Australia, not out, , 12, na, na, na, 0
+403, 1955-03-26, 3, 10, Australia, c Lindwall, Archer, 3, na, na, 0, 0
+404, 1955-04-11, 1, 9, Australia, , Lindwall, 0, na, na, 0, 0
+405, 1955-04-26, 1, 10, Australia, c Archer, Benaud, 0, na, 2, 0, 0
+405, 1955-04-26, 3, 10, Australia, st Langley, Johnson, 2, na, na, 0, 0
+406, 1955-05-14, 2, 9, Australia,                c &, Benaud, 10, na, na, na, 0
+421, 1956-02-03, 2, 9, New Zealand, , Blair, 44, 72, na, 8, 0
+422, 1956-02-18, 1, 9, New Zealand, , MacGibbon, 33, na, na, na, 0
+423, 1956-03-03, 1, 8, New Zealand, c Beard, Reid, 15, na, na, na, 0
+424, 1956-03-09, 2, 9, New Zealand, , Cave, 3, na, na, 0, 0
+424, 1956-03-09, 4, 9, New Zealand, c Miller, Beard, 0, na, na, 0, 0
+439, 1957-05-30, 2, 10, England, not out, , 5, 6, na, 0, 0
+440, 1957-06-20, 1, 9, England, , Trueman, 0, 15, na, 0, 0
+440, 1957-06-20, 3, 9, England, c Statham, Bailey, 0, 6, na, 0, 0
+441, 1957-07-04, 2, 11, England, , Statham, 19, 46, na, 3, 0
+441, 1957-07-04, 3, 9, England, , Trueman, 15, 24, na, 2, 0
+442, 1957-07-25, 1, 10, England, c Trueman, Loader, 0, 1, na, 0, 0
+442, 1957-07-25, 3, 10, England, run out, , 6, 10, na, 0, 0
+443, 1957-08-22, 2, 10, England, c Trueman, Lock, 0, 2, na, 0, 0
+443, 1957-08-22, 3, 10, England, , Laker, 2, 6, na, 0, 0
+459, 1958-11-28, 1, 9, India, c Nadkarni, Gupte, 9, na, na, na, 0
+471, 1959-03-06, 2, 11, Pakistan, not out, , 0, na, na, 0, 0
+471, 1959-03-06, 4, 11, Pakistan, not out, , 4, na, na, na, 0
+473, 1959-03-26, 1, 10, Pakistan, not out, , 4, na, na, na, 0
+488, 1960-01-28, 2, 8, England, , Trueman, 23, na, na, na, 0
+488, 1960-01-28, 4, 8, England, lbw, Dexter, 0, na, 1, 0, 0
+489, 1960-02-17, 2, 9, England, , Statham, 5, na, na, na, 0
+491, 1960-03-25, 2, 8, England, c Cowdrey, Dexter, 13, na, na, na, 0
+498, 1960-12-09, 1, 9, Australia, c Harvey, Davidson, 12, 12, na, 2, 0
+498, 1960-12-09, 3, 9, Australia, c Harvey, Simpson, 6, 11, na, 1, 0
+500, 1961-12-30, 2, 8, Australia, , Davidson, 0, 7, 8, 0, 0
+500, 1961-12-30, 3, 8, Australia, st Grout, Benaud, 3, 8, 11, 0, 0

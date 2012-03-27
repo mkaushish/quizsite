@@ -1,0 +1,101 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+1013, 1985-03-29, 2, 2, West Indies, c Haynes, Marshall, 0, 21, 8, 0, 0
+1013, 1985-03-29, 4, 2, West Indies, run out, , 0, 5, 0, 0, 0
+1014, 1985-04-06, 2, 2, West Indies, c Dujon, Garner, 4, 10, 5, 1, 0
+1015, 1985-04-26, 1, 3, West Indies, c Richards, Marshall, 0, 8, 1, 0, 0
+1015, 1985-04-26, 3, 3, West Indies, c Holding, Marshall, 2, 8, 4, 0, 0
+1016, 1985-05-04, 2, 6, West Indies, c Dujon, Marshall, 1, 30, 21, 0, 0
+1016, 1985-05-04, 3, 5, West Indies, lbw, Marshall, 5, 53, 33, 1, 0
+1035, 1986-02-21, 2, 6, Australia, c sub (RJ Bright), Reid, 65, 178, 131, 11, 0
+1038, 1986-02-28, 2, 5, Australia, lbw, Gilbert, 0, 39, 30, 0, 0
+1040, 1986-03-13, 2, 3, Australia, , Matthews, 0, 4, 5, 0, 0
+1040, 1986-03-13, 4, 3, Australia, not out, , 50, 291, 229, 5, 0
+1049, 1986-07-24, 2, 3, England, c Gooch, Dilley, 0, 10, 9, 0, 0
+1049, 1986-07-24, 4, 3, England, not out, , 24, 54, 43, 5, 0
+1068, 1987-02-20, 1, 2, West Indies, c Logie, Garner, 6, 33, 27, 0, 0
+1068, 1987-02-20, 3, 2, West Indies, lbw, Garner, 6, 18, 17, 1, 0
+1070, 1987-02-27, 2, 2, West Indies, , Marshall, 12, 57, 42, 0, 0
+1070, 1987-02-27, 3, 2, West Indies, c Richardson, Marshall, 5, 30, 17, 1, 0
+1074, 1987-04-16, 2, 1, Sri Lanka, c Madugalle, Ratnayake, 11, 56, 22, 1, 0
+1082, 1987-12-04, 1, 1, Australia, c Veletta, Reid, 0, 2, 4, 0, 0
+1082, 1987-12-04, 3, 1, Australia, c Dyer, McDermott, 2, 27, 4, 0, 0
+1093, 1988-02-25, 1, 6, England, , Capel, 29, 99, 54, 5, 0
+1093, 1988-02-25, 3, 6, England, , Emburey, 2, 18, 10, 0, 0
+1094, 1988-03-03, 1, 6, England, not out, , 107, 263, 181, 12, 0
+1107, 1988-11-12, 2, 5, India, c Arun Lal, Hirwani, 14, 61, 53, 1, 0
+1107, 1988-11-12, 4, 6, India, lbw, Hirwani, 0, 9, 5, 0, 0
+1109, 1988-11-24, 1, 5, India, c Srikkanth, Hirwani, 6, 29, 20, 1, 0
+1109, 1988-11-24, 3, 5, India, c Arun Lal, Arshad Ayub, 17, 48, 36, 2, 0
+1136, 1990-02-02, 1, 6, India, , Kapil Dev, 69, 165, 128, 5, 1
+1139, 1990-02-22, 1, 6, India, c Prabhakar, Wassan, 20, 42, 35, 1, 0
+1139, 1990-02-22, 3, 6, India, c More, Hirwani, 8, 22, 22, 2, 0
+1141, 1990-03-15, 2, 6, Australia, c Healy, PL Taylor, 12, 25, 24, 2, 0
+1146, 1990-06-21, 2, 6, England, c Fairbrother, Malcolm, 0, 7, 5, 0, 0
+1147, 1990-07-05, 2, 6, England, c Stewart, Hemmings, 29, 77, 59, 4, 0
+1147, 1990-07-05, 4, 6, England, c Lamb, Lewis, 18, 51, 29, 2, 0
+1151, 1990-10-10, 1, 5, Pakistan, , Aaqib Javed, 79, 187, 141, 14, 0
+1151, 1990-10-10, 3, 5, Pakistan, lbw, Aaqib Javed, 0, 4, 7, 0, 0
+1152, 1990-10-18, 1, 5, Pakistan, lbw, Wasim Akram, 23, 97, 66, 2, 0
+1152, 1990-10-18, 3, 6, Pakistan, lbw, Waqar Younis, 60, 209, 128, 8, 0
+1153, 1990-10-26, 2, 5, Pakistan, , Waqar Younis, 0, 1, 1, 0, 0
+1153, 1990-10-26, 4, 6, Pakistan, c Saleem Yousuf, Saleem Jaffar, 25, 52, 33, 5, 0
+1162, 1991-01-31, 1, 6, Sri Lanka, c Tillakaratne, Ratnayake, 25, 65, 43, 5, 0
+1164, 1991-02-22, 1, 5, Sri Lanka, c Tillakaratne, Ramanayake, 0, 6, 4, 0, 0
+1164, 1991-02-22, 3, 5, Sri Lanka, , EAR de Silva, 6, 29, 20, 0, 0
+1165, 1991-03-01, 2, 5, Sri Lanka, c Gurusinha, EAR de Silva, 15, 38, 28, 3, 0
+1165, 1991-03-01, 4, 5, Sri Lanka, lbw, Labrooy, 6, 30, 21, 0, 0
+1185, 1992-01-30, 2, 5, England, c Russell, DeFreitas, 26, 84, 72, 4, 0
+1185, 1992-01-30, 4, 5, England, c Stewart, Pringle, 32, 88, 69, 5, 0
+1187, 1992-02-06, 2, 5, England, run out, , 8, 59, 40, 0, 0
+1187, 1992-02-06, 4, 5, England, not out, , 2, 11, 10, 0, 0
+1198, 1992-11-01, 1, 5, Zimbabwe, not out, , 7, 22, 20, 1, 0
+1198, 1992-11-01, 3, 7, Zimbabwe, not out, , 11, 24, 17, 0, 0
+1199, 1992-11-07, 1, 5, Zimbabwe, c A Flower, Traicos, 74, 169, 132, 6, 0
+1199, 1992-11-07, 3, 5, Zimbabwe, c Arnott, Brandes, 89, 202, 159, 7, 2
+1203, 1992-11-27, 1, 5, Sri Lanka, c Wickremasinghe, Hathurusingha, 105, 277, 227, 13, 2
+1203, 1992-11-27, 3, 5, Sri Lanka, lbw, Warnaweera, 53, 88, 62, 9, 2
+1204, 1992-12-06, 2, 5, Sri Lanka, c Tillakaratne, Warnaweera, 0, 5, 4, 0, 0
+1204, 1992-12-06, 3, 5, Sri Lanka, c sub (ST Jayasuriya), Warnaweera, 38, 58, 43, 3, 1
+1207, 1993-01-02, 2, 5, Pakistan, c Rashid Latif, Mushtaq Ahmed, 14, 38, 31, 1, 0
+1207, 1993-01-02, 4, 7, Pakistan, c Aamer Sohail, Wasim Akram, 9, 37, 22, 1, 0
+1215, 1993-02-25, 2, 5, Australia, , Warne, 57, 107, 81, 8, 2
+1215, 1993-02-25, 3, 5, Australia, c Healy, Warne, 102, 260, 215, 9, 1
+1216, 1993-03-04, 1, 5, Australia, c Healy, Hughes, 32, 84, 66, 3, 0
+1216, 1993-03-04, 3, 4, Australia, c Healy, Reiffel, 11, 49, 38, 2, 0
+1217, 1993-03-12, 2, 5, Australia, st Healy, Warne, 43, 106, 89, 8, 0
+1217, 1993-03-12, 4, 5, Australia, not out, , 53, 117, 95, 9, 0
+1235, 1993-11-12, 2, 5, Australia, c Healy, McDermott, 17, 53, 41, 1, 0
+1235, 1993-11-12, 4, 5, Australia, lbw, SR Waugh, 39, 59, 49, 6, 0
+1236, 1993-11-26, 2, 4, Australia, c Taylor, May, 17, 63, 59, 2, 0
+1236, 1993-11-26, 3, 4, Australia, , Warne, 55, 105, 97, 8, 0
+1238, 1993-12-03, 1, 4, Australia, c Boon, McDermott, 36, 90, 74, 6, 0
+1238, 1993-12-03, 3, 4, Australia, c Warne, McGrath, 86, 201, 144, 9, 0
+1248, 1994-02-10, 1, 4, Pakistan, , Waqar Younis, 14, 37, 27, 2, 0
+1248, 1994-02-10, 3, 4, Pakistan, , Waqar Younis, 18, 59, 43, 2, 0
+1249, 1994-02-17, 1, 4, Pakistan, c Akram Raza, Ata-ur-Rehman, 7, 21, 14, 1, 0
+1249, 1994-02-17, 3, 4, Pakistan, c Akram Raza, Ata-ur-Rehman, 63, 119, 97, 11, 0
+1251, 1994-02-24, 2, 4, Pakistan, c Inzamam-ul-Haq, Waqar Younis, 7, 33, 26, 1, 0
+1251, 1994-02-24, 4, 4, Pakistan, lbw, Wasim Akram, 13, 43, 28, 1, 0
+1255, 1994-03-19, 1, 3, India, , Kumble, 63, 222, 179, 7, 0
+1255, 1994-03-19, 3, 3, India, , Chauhan, 59, 124, 89, 5, 2
+1260, 1994-06-02, 1, 3, England, lbw, DeFreitas, 25, 99, 71, 2, 0
+1260, 1994-06-02, 3, 3, England, c Atherton, Such, 14, 65, 57, 2, 0
+1261, 1994-06-16, 1, 3, England, c Stewart, DeFreitas, 37, 122, 83, 7, 0
+1261, 1994-06-16, 3, 3, England, lbw, DeFreitas, 0, 1, 1, 0, 0
+1262, 1994-06-30, 2, 3, England, c Gooch, DeFreitas, 7, 22, 18, 0, 0
+1262, 1994-06-30, 3, 3, England, c Rhodes, Gough, 13, 42, 31, 1, 0
+1276, 1994-11-25, 1, 5, South Africa, c Cronje, Eksteen, 68, 165, 126, 11, 2
+1276, 1994-11-25, 3, 5, South Africa, c McMillan, de Villiers, 0, 2, 1, 0, 0
+1280, 1994-12-26, 1, 5, South Africa, c Commins, de Villiers, 0, 12, 6, 0, 0
+1280, 1994-12-26, 3, 3, South Africa, c Commins, McMillan, 6, 14, 11, 0, 0
+1282, 1995-01-02, 1, 5, South Africa, c Kirsten, McMillan, 56, 174, 138, 9, 0
+1282, 1995-01-02, 3, 5, South Africa, lbw, McMillan, 26, 87, 43, 4, 0
+1286, 1995-02-03, 1, 4, West Indies, c Murray, Ambrose, 11, 52, 42, 2, 0
+1286, 1995-02-03, 3, 4, West Indies, not out, , 16, 56, 53, 2, 0
+1289, 1995-02-10, 2, 4, West Indies, lbw, Dhanraj, 22, 71, 48, 3, 0
+1289, 1995-02-10, 3, 4, West Indies, lbw, Ambrose, 5, 21, 16, 0, 0
+1291, 1995-03-04, 2, 5, South Africa, c Richardson, Cronje, 28, 146, 112, 3, 0
+1291, 1995-03-04, 4, 5, South Africa, c Hudson, de Villiers, 56, 86, 60, 11, 0
+1292, 1995-03-11, 2, 5, Sri Lanka, c Tillakaratne, Pushpakumara, 32, 177, 117, 4, 0
+1292, 1995-03-11, 4, 5, Sri Lanka, c Dunusinghe, Vaas, 20, 58, 56, 2, 0
+1293, 1995-03-18, 2, 11, Sri Lanka, absent hurt, , -, , , , 

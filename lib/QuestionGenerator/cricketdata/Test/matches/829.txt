@@ -1,0 +1,102 @@
+
+Test # 829
+New Zealand in England, 1978, 2nd Test
+England v New Zealand
+Trent Bridge, Nottingham
+10,11,12,14 August 1978 (5-day match)
+
+Result: England won by an innings and 119 runs
+Series: England leads the 3-match series 2-0
+
+Toss: England
+Umpires: DJ Constant and TW Spencer
+Player of the match: IT Botham
+
+Close of play:
+ Day 1: England 252/2 (Boycott 108*, Gower 6*)
+ Day 2: England 429, New Zealand 35/3 (Boock 1*, Burgess 0*)
+ Day 3: New Zealand 120, New Zealand 0/0 (Anderson 0*, Edgar 0*)
+
+England 1st innings                                             R   M   B  4 6
+GA Gooch              c Burgess          b Bracewell           55 165 128  7 0
+G Boycott                            c & b Hadlee             131 417 374  9 0
+CT Radley             lbw                b Hadlee              59 164 159  3 0
+DI Gower              c Cairns           b Boock               46 143 132  3 0
+*JM Brearley          c Parker           b Bracewell           50 182 172  6 0
+IT Botham             c Hadlee           b Boock                8   9  16  1 0
+G Miller              c Howarth          b Hadlee               4  32  28  0 0
+PH Edmonds                               b Cairns               6  23  18  0 0
++RW Taylor                               b Hadlee              22  67  63  2 0
+M Hendrick            c Edwards          b Bracewell            7  15   7  1 0
+RGD Willis            not out                                   1   2   2  0 0
+Extras                (b 16, lb 12, w 1, nb 11)                40
+Total                 (all out, 180.5 overs)                  429
+
+FoW: 1-111 (Gooch), 2-240 (Radley), 3-301 (Boycott),
+     4-342 (Gower), 5-350 (Botham), 6-364 (Miller),
+     7-374 (Edmonds), 8-419 (Brearley), 9-427 (Taylor),
+     10-429 (Hendrick).
+
+Bowling                      O      M      R      W
+Hadlee                      42     11     94      4
+Bracewell                   33.5    2    110      3
+Cairns                      38      7     85      1
+Congdon                     39     15     71      0
+Boock                       28     18     29      2
+
+New Zealand 1st innings                                         R   M   B  4 6
+RW Anderson           lbw                b Botham              19  65  55  3 0
+BA Edgar              c Taylor           b Botham               6  58  37  0 0
+GP Howarth            not out                                  31 161 137  3 0
+SL Boock              c Taylor           b Willis               8  48  34  1 0
+JM Parker             c Taylor           b Hendrick             0   2   3  0 0
+*MG Burgess           c Taylor           b Botham               5  25  18  0 0
+BE Congdon            c Hendrick         b Botham              27 100 100  3 0
++GN Edwards           c Taylor           b Botham               0   1   1  0 0
+BL Cairns                                b Edmonds              9  21  22  1 0
+RJ Hadlee             c Gooch            b Botham               4  10  13  1 0
+BP Bracewell                             b Edmonds              0  10   8  0 0
+Extras                (lb 1, w 1, nb 9)                        11
+Total                 (all out, 69.4 overs)                   120
+
+FoW: 1-22 (Edgar), 2-27 (Anderson), 3-35 (Parker), 4-47 (Boock),
+     5-49 (Burgess), 6-99 (Congdon), 7-99 (Edwards),
+     8-110 (Cairns), 9-115 (Hadlee), 10-120 (Bracewell).
+
+Bowling                      O      M      R      W
+Willis                      12      5     22      1
+Hendrick                    15      9     18      1
+Botham                      21      9     34      6
+Edmonds                     15.4    5     21      2
+Miller                       6      1     14      0
+
+New Zealand 2nd innings (following on)                          R   M   B  4 6
+RW Anderson           run out                                   0   9  12  0 0
+BA Edgar              c Botham           b Edmonds             60 240 197  3 0
+GP Howarth            c Botham           b Hendrick            34  66  58  4 0
+JM Parker             run out                                  38 115 119  2 0
+*MG Burgess           c Brearley         b Edmonds              7  60  53  1 0
+BE Congdon            c Brearley         b Botham               4  39  38  0 0
++GN Edwards                          c & b Edmonds             18  44  49  2 0
+BL Cairns             lbw                b Botham               0   5   6  0 0
+RJ Hadlee             c Taylor           b Botham              11  22  21  2 0
+SL Boock                                 b Edmonds              2  12   8  0 0
+BP Bracewell          not out                                   0   2   3  0 0
+Extras                (lb 6, w 1, nb 9)                        16
+Total                 (all out, 92.1 overs)                   190
+
+FoW: 1-5 (Anderson), 2-63 (Howarth), 3-127 (Parker),
+     4-148 (Edgar), 5-152 (Burgess), 6-164 (Congdon),
+     7-168 (Cairns), 8-180 (Edwards), 9-190 (Hadlee),
+     10-190 (Boock).
+
+Bowling                      O      M      R      W
+Willis                       9      0     31      0
+Hendrick                    20      7     30      1
+Botham                      24      7     59      3
+Edmonds                     33.1   15     44      4
+Miller                       6      3     10      0
+
+*** GP Howarth (1) retired hurt on 7* from 34/2 to 49/5
+
+<END>

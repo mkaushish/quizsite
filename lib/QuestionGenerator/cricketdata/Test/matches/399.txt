@@ -1,0 +1,95 @@
+
+Test # 399
+The Ashes, 1954/55, 5th Test
+Australia v England
+Sydney Cricket Ground
+25,26,28 February, 1,2,3 March 1955 (6-day match)
+
+Result: Match drawn
+Series: England wins the 5-match series 3-1
+
+Toss: Australia
+Umpires: MJ McInnes and RJJ Wright
+Balls per over: 8
+Test debuts: PJP Burge, WJ Watson (Australia).
+
+Close of play:
+ Day 1: No play
+ Day 2: No play
+ Day 3: No play
+ Day 4: England 196/4 (Compton 0*)
+ Day 5: England 371/7d, Australia 82/2 (McDonald 45*, Harvey 12*)
+
+England 1st innings                                             R   M   B  4 6
+*L Hutton             c Burge            b Lindwall             6   3   4  1 0
+TW Graveney                          c & b Johnson            111 166 157 14 0
+PBH May               c Davidson         b Benaud              79 184 188  8 0
+MC Cowdrey            c Maddocks         b Johnson              0   1   1  0 0
+DCS Compton                          c & b Johnson             84 188 200  8 0
+TE Bailey                                b Lindwall            72 198 182  4 0
++TG Evans             c McDonald         b Lindwall            10  16  13  0 0
+JH Wardle             not out                                   5   8   8  0 0
+Extras                (b 1, lb 3)                               4
+Total                 (7 wickets dec, 94.6 overs)             371
+
+DNB: FH Tyson, R Appleyard, JB Statham.
+
+FoW: 1-6 (Hutton), 2-188 (Graveney), 3-188 (Cowdrey),
+     4-196 (May), 5-330 (Compton), 6-359 (Evans), 7-371 (Bailey).
+
+Bowling                      O      M      R      W
+Lindwall                    20.6    5     77      3
+Miller                      15      1     71      0
+Davidson                    19      3     72      0
+Johnson                     20      5     68      3
+Benaud                      20      4     79      1
+
+Australia 1st innings                                           R   M   B  4 6
+WJ Watson                                b Wardle              18  62  56  1 0
+CC McDonald           c May              b Appleyard           72 170 149  5 1
+LE Favell                                b Tyson                1   2   3  0 0
+RN Harvey                            c & b Tyson               13  37  33  1 0
+KR Miller             run out                                  19  54  34  2 0
+PJP Burge             c Appleyard        b Wardle              17  32  31  2 0
+R Benaud                                 b Wardle               7   5  12  1 0
++LV Maddocks          c Appleyard        b Wardle              32  64  62  4 0
+AK Davidson           c Evans            b Wardle              18  70  69  2 0
+*IWG Johnson          run out                                  11  32  30  1 0
+RR Lindwall           not out                                   2  10   5  0 0
+Extras                (b 10, lb 1)                             11
+Total                 (all out, 60.4 overs)                   221
+
+FoW: 1-52 (Watson), 2-53 (Favell), 3-85 (Harvey), 4-129 (Miller),
+     5-138 (McDonald), 6-147 (Benaud), 7-157 (Burge),
+     8-202 (Maddocks), 9-217 (Davidson), 10-221 (Johnson).
+
+Bowling                      O      M      R      W
+Tyson                       11      1     46      2
+Statham                      9      1     31      0
+Appleyard                   16      2     54      1
+Wardle                      24.4    6     79      5
+
+Australia 2nd innings (following on)                            R   M   B  4 6
+WJ Watson             c Graveney         b Statham              3  27  20  0 0
+CC McDonald           c Evans            b Graveney            37  81  69  3 0
+LE Favell             c Graveney         b Wardle               9  11  15  2 0
+RN Harvey                            c & b Wardle               1   7   9  0 0
+KR Miller                                b Wardle              28  42  46  4 0
+PJP Burge             not out                                  18  31  36  2 0
+R Benaud                                 b Hutton              22  22  35  4 0
+Extras                                                          0
+Total                 (6 wickets, 28.6 overs)                 118
+
+DNB: +LV Maddocks, AK Davidson, *IWG Johnson, RR Lindwall.
+
+FoW: 1-14 (Watson), 2-27 (Favell), 3-29 (Harvey),
+     4-67 (McDonald), 5-87 (Miller), 6-118 (Benaud).
+
+Bowling                      O      M      R      W
+Tyson                        5      2     20      0
+Statham                      5      0     11      1
+Wardle                      12      1     51      3
+Graveney                     6      0     34      1
+Hutton                       0.6    0      2      1
+
+<END>

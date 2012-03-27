@@ -1,0 +1,101 @@
+
+Test # 291
+India in Australia, 1947/48, 2nd Test
+Australia v India
+Sydney Cricket Ground
+12,13,15,16,17,18 December 1947 (6-day match)
+
+Result: Match drawn
+Series: Australia leads the 5-match series 1-0
+
+Toss: India
+Umpires: AN Barlow and GE Borwick
+Balls per over: 8
+Test debuts: Amir Elahi, DG Phadkar (India).
+
+Close of play:
+ Day 1: India 38/2 (Gul Mohammad 24*, Hazare 5*)
+ Day 2: India 188, Australia 28/1 (Morris 10*, Bradman 0*)
+ Day 3: No play
+ Day 4: No play
+ Day 5: Australia 107, India 61/7 (Hazare 13*, Adhikari 0*, 37 ov)
+ Day 6: No play
+
+India 1st innings                                               R   M   B  4 6
+MH Mankad                                b Lindwall             5  30  28  0 0
+CT Sarwate                               b Johnston             0   6   5  0 0
+Gul Mohammad          c Brown            b Miller              29  88  83  2 0
+VS Hazare                                b Miller              16  69  53  2 0
+*L Amarnath                              b Johnson             25  57  83  0 0
+G Kishenchand                            b Johnson             44 137 181  4 0
+HR Adhikari           lbw                b Johnston             0   2   3  0 0
+DG Phadkar            c Miller           b McCool              51 101  97  4 0
+CS Nayudu                            c & b McCool               6   8  10  0 0
+Amir Elahi            c Miller           b McCool               4   8   7  0 0
++JK Irani             not out                                   1  11   9  0 0
+Extras                (b 5, lb 2)                               7
+Total                 (all out, 70 overs)                     188
+
+FoW: 1-2 (Sarwate), 2-16 (Mankad), 3-52 (Gul Mohammad),
+     4-57 (Hazare), 5-94 (Amarnath), 6-95 (Adhikari),
+     7-165 (Kishenchand), 8-174 (Nayudu), 9-182 (Amir Elahi),
+     10-188 (Phadkar).
+
+Bowling                      O      M      R      W
+Lindwall                    12      3     30      1
+Johnston                    17      4     33      2
+Miller                       9      3     25      2
+McCool                      18      2     71      3
+Johnson                     14      3     22      2
+
+Australia 1st innings                                           R   M   B  4 6
+WA Brown              run out                                  18  36  56  1 0
+AR Morris             lbw                b Amarnath            10  56  54  0 0
+*DG Bradman                              b Hazare              13  40  38  1 0
+AL Hassett            c Adhikari         b Hazare               6  11  15  0 0
+KR Miller             lbw                b Phadkar             17  74  85  1 0
+RA Hamence            c Adhikari         b Mankad              25  70  77  1 0
+IWG Johnson           lbw                b Phadkar              1   9   9  0 0
+CL McCool                                b Phadkar              9  22  11  1 0
+RR Lindwall                              b Hazare               0  10  16  0 0
++D Tallon             c Irani            b Hazare               6  10   7  0 0
+WA Johnston           not out                                   0   3   2  0 0
+Extras                (b 1, lb 1)                               2
+Total                 (all out, 46.2 overs, 175 mins)         107
+
+FoW: 1-25 (Brown), 2-30 (Morris), 3-43 (Hassett), 4-48 (Bradman),
+     5-86 (Miller), 6-92 (Hamence), 7-92 (Johnson),
+     8-97 (Lindwall), 9-105 (McCool), 10-107 (Tallon).
+
+Bowling                      O      M      R      W
+Phadkar                     10      2     14      3
+Amarnath                    14      4     31      1
+Mankad                       9      0     31      1
+Hazare                      13.2    3     29      4
+
+India 2nd innings                                               R   M   B  4 6
+MH Mankad                                b Lindwall             5  30  23  0 0
+Amir Elahi            c Miller           b Johnston            13  16  16  2 0
+CT Sarwate            c Johnson          b Johnston             3  45  73  0 0
+Gul Mohammad          c Bradman          b Johnson              5  21  24  0 0
+VS Hazare             not out                                  13  66  90  0 0
+DG Phadkar            c Tallon           b Miller               2  12  17  0 0
+*L Amarnath           c Morris           b Johnson             14  22  25  2 0
+G Kishenchand         c McCool           b Johnston             0   4   2  0 0
+HR Adhikari           not out                                   0  11  16  0 0
+Extras                (b 3, lb 3)                               6
+Total                 (7 wickets, 37 overs)                    61
+
+DNB: CS Nayudu, +JK Irani.
+
+FoW: 1-17 (Amir Elahi), 2-19 (Mankad), 3-26 (Gul Mohammad),
+     4-29 (Sarwate), 5-34 (Phadkar), 6-53 (Amarnath),
+     7-55 (Kishenchand).
+
+Bowling                      O      M      R      W
+Lindwall                     5      1     13      1
+Johnston                    13      5     15      3
+Miller                       6      2      5      1
+Johnson                     13      7     22      2
+
+<END>

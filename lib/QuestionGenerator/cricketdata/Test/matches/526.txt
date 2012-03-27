@@ -1,0 +1,106 @@
+
+Test # 526
+India in West Indies, 1961/62, 2nd Test
+West Indies v India
+Sabina Park, Kingston, Jamaica
+7,8,9,10,12 March 1962 (6-day match)
+
+Result: West Indies won by an innings and 18 runs
+Series: West Indies leads the 5-match series 2-0
+
+Toss: India
+Umpires: R Cole and O Davies
+Test debuts: IL Mendonca, WV Rodriguez (West Indies).
+
+Close of play:
+ Day 1: India 280/7 (Nadkarni 22*, Engineer 6*)
+ Day 2: India 395, West Indies 157/1 (McMorris 66*, Kanhai 75*)
+ Day 3: West Indies 398/5 (Sobers 63*, Worrell 43*)
+ Day 4: West Indies 631/8d, India 83/3 (Nadkarni 9*, Umrigar 12*)
+
+India 1st innings                                               R   M   B  4 6
+ML Jaisimha           c Gibbs            b Stayers             28            0
+*NJ Contractor        c Mendonca         b Hall                 1          0 0
+RF Surti              lbw                b Sobers              35            0
+VL Manjrekar          c Sobers           b Gibbs               13            0
+PR Umrigar            lbw                b Sobers              50 100      7 0
+CG Borde                                 b Hall                93 185     12 0
+SA Durani             lbw                b Hall                17            0
+RG Nadkarni           not out                                  78            0
++FM Engineer          st Mendonca        b Gibbs               53  92        0
+RB Desai              c Gibbs            b Sobers               0          0 0
+EAS Prasanna          c Mendonca         b Sobers               6            0
+Extras                (b 14, lb 5, nb 2)                       21
+Total                 (all out, 141 overs)                    395
+
+FoW: 1-14 (Contractor), 2-44 (Jaisimha), 3-79 (Manjrekar),
+     4-89 (Surti), 5-183 (Umrigar), 6-234 (Durani),
+     7-263 (Borde), 8-357 (Engineer), 9-358 (Desai),
+     10-395 (Prasanna).
+
+Bowling                      O      M      R      W
+Hall                        28      4     79      3
+Stayers                     23      4     76      1
+Worrell                      9      1     35      0
+Gibbs                       33      9     69      2
+Sobers                      39      8     75      4
+Rodriguez                    7      0     37      0
+Solomon                      2      0      3      0
+
+West Indies 1st innings                                         R   M   B  4 6
+CC Hunte              c Contractor       b Desai                9            0
+EDAS McMorris                            b Prasanna           125            0
+RB Kanhai             c Umrigar          b Prasanna           138            0
+WV Rodriguez          c Umrigar          b Prasanna             3          0 0
+GS Sobers             c Desai            b Durani             153         11 4
+JS Solomon            run out                                   9            0
+*FMM Worrell                             b Durani              58            0
++IL Mendonca                             b Nadkarni            78            0
+SC Stayers            not out                                  35            0
+Extras                (b 7, lb 15, w 1)                        23
+Total                 (8 wickets dec, 217.4 overs)            631
+
+DNB: LR Gibbs, WW Hall.
+
+FoW: 1-16 (Hunte), 2-271 (Kanhai), 3-282 (Rodriguez),
+     4-293 (McMorris), 5-320 (Solomon), 6-430 (Worrell),
+     7-557 (Sobers), 8-631 (Mendonca).
+
+Bowling                      O      M      R      W
+Desai                       20      6     84      1
+Surti                       19      2     73      0
+Borde                       31      6     93      0
+Durani                      70     14    173      2
+Nadkarni                    25.4    9     57      1
+Prasanna                    50     14    122      3
+Contractor                   2      0      6      0
+
+India 2nd innings                                               R   M   B  4 6
+ML Jaisimha                              b Hall                11            0
+*NJ Contractor                           b Hall                 9            0
+RF Surti              lbw                b Hall                26            0
+RG Nadkarni           c Mendonca         b Gibbs               35            0
+PR Umrigar            c Sobers           b Gibbs               32            0
+VL Manjrekar          lbw                b Sobers              19            0
+CG Borde              c McMorris         b Hall                 0          0 0
+SA Durani                                b Gibbs                0          0 0
++FM Engineer          c Hunte            b Hall                40            0
+RB Desai              c Mendonca         b Hall                20            0
+EAS Prasanna          not out                                   1          0 0
+Extras                (b 18, lb 4, w 1, nb 2)                  25
+Total                 (all out, 84.5 overs)                   218
+
+FoW: 1-16 (Jaisimha), 2-46 (Contractor), 3-50 (Surti),
+     4-116 (Umrigar), 5-137 (Nadkarni), 6-138 (Borde),
+     7-141 (Durani), 8-157 (Manjrekar), 9-205 (Desai),
+     10-218 (Engineer).
+
+Bowling                      O      M      R      W
+Hall                        20.5    5     49      6
+Stayers                     10      0     25      0
+Worrell                     10      1     26      0
+Gibbs                       26      8     44      3
+Sobers                      17      3     41      1
+Rodriguez                    1      0      8      0
+
+<END>

@@ -1,0 +1,58 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+1193, 1992-08-06, 2, 8, England, c Smith, Mallender, 50, 114, 87, 6, 0
+1207, 1993-01-02, 1, 8, New Zealand, not out, , 32, 75, 57, 4, 0
+1207, 1993-01-02, 3, 7, New Zealand, c Rutherford, Su'a, 33, 99, 69, 5, 0
+1222, 1993-05-01, 2, 7, West Indies, lbw, Cummins, 2, 26, 27, 0, 0
+1237, 1993-12-01, 1, 7, Zimbabwe, not out, , 68, 237, 165, 6, 0
+1240, 1993-12-09, 1, 7, Zimbabwe, lbw, Brain, 33, 100, 89, 5, 0
+1240, 1993-12-09, 3, 8, Zimbabwe, c Houghton, Streak, 61, 154, 111, 8, 0
+1241, 1993-12-16, 1, 7, Zimbabwe, c Houghton, Brandes, 7, 34, 30, 0, 0
+1248, 1994-02-10, 2, 8, New Zealand, lbw, Doull, 30, 52, 36, 6, 0
+1248, 1994-02-10, 4, 7, New Zealand, not out, , 13, 14, 13, 0, 1
+1251, 1994-02-24, 1, 7, New Zealand, c Hartland, Thomson, 27, 73, 56, 2, 1
+1251, 1994-02-24, 3, 8, New Zealand,                c &, Hart, 3, 37, 25, 0, 0
+1265, 1994-08-09, 1, 7, Sri Lanka, c Dassanayake, Muralitharan, 0, 19, 11, 0, 0
+1267, 1994-08-26, 2, 8, Sri Lanka, c Samaraweera, Dharmasena, 7, 15, 21, 0, 0
+1268, 1994-09-28, 2, 7, Australia, c Taylor, Warne, 2, 8, 9, 0, 0
+1268, 1994-09-28, 4, 9, Australia, lbw, SR Waugh, 35, 62, 56, 6, 0
+1269, 1994-10-05, 2, 7, Australia, c Slater, Fleming, 18, 36, 35, 1, 0
+1269, 1994-10-05, 3, 7, Australia, c Bevan, Taylor, 38, 80, 62, 3, 0
+1285, 1995-01-31, 2, 7, Zimbabwe, c Campbell, Whittall, 6, 52, 29, 1, 0
+1285, 1995-01-31, 3, 7, Zimbabwe, c Houghton, Whittall, 38, 126, 116, 4, 0
+1288, 1995-02-07, 2, 3, Zimbabwe, c A Flower, Streak, 17, 54, 36, 2, 0
+1288, 1995-02-07, 4, 3, Zimbabwe, not out, , 1, 14, 5, 0, 0
+1290, 1995-02-15, 1, 7, Zimbabwe, c PA Strang, BC Strang, 6, 36, 29, 1, 0
+1290, 1995-02-15, 3, 7, Zimbabwe, c A Flower, Streak, 6, 49, 28, 0, 0
+1314, 1995-11-30, 1, 7, Australia, c Healy, McDermott, 1, 16, 10, 0, 0
+1314, 1995-11-30, 3, 8, Australia, lbw, Warne, 3, 6, 5, 0, 0
+1316, 1995-12-08, 1, 7, New Zealand, c Spearman, Morrison, 2, 16, 11, 0, 0
+1316, 1995-12-08, 3, 7, New Zealand, c Germon, Cairns, 39, 156, 116, 3, 0
+1330, 1996-07-25, 1, 8, England, c Hick, Salisbury, 45, 137, 111, 4, 0
+1406, 1998-03-06, 2, 8, South Africa, lbw, de Villiers, 0, 1, 1, 0, 0
+1406, 1998-03-06, 4, 8, South Africa, c Kallis, Adams, 0, 5, 4, 0, 0
+1408, 1998-03-14, 2, 8, Zimbabwe, lbw, Streak, 31, 114, 95, 3, 0
+1412, 1998-03-21, 2, 9, Zimbabwe, c sub (AR Whittall), Strang, 4, 39, 24, 0, 0
+1412, 1998-03-21, 4, 9, Zimbabwe, not out, , 1, 4, 2, 0, 0
+1546, 2001-04-17, 2, 8, England, c Stewart, Gough, 18, 64, 40, 1, 0
+1546, 2001-04-17, 3, 8, England, c Stewart, Gough, 20, 59, 46, 3, 0
+1547, 2001-05-31, 1, 8, England, run out (Trescothick), , 71, 143, 114, 10, 0
+1547, 2001-05-31, 3, 8, England, c Atherton, Hoggard, 25, 80, 58, 2, 0
+1584, 2002-01-09, 2, 7, Bangladesh, c Al Sahariar, Mohammad Sharif, 94, 199, 162, 10, 2
+1586, 2002-01-16, 2, 7, Bangladesh, lbw, Manjural Islam, 15, 40, 27, 3, 0
+1587, 2002-01-31, 1, 7, West Indies, , Gayle, 150, 324, 234, 18, 1
+1587, 2002-01-31, 3, 7, West Indies, not out, , 47, 61, 42, 4, 0
+1588, 2002-01-07, 1, 7, West Indies, c Hooper, Ramnarine, 16, 44, 33, 1, 0
+1588, 2002-01-07, 3, 7, West Indies, not out, , 2, 5, 4, 0, 0
+1592, 2002-02-06, 1, 8, Sri Lanka, c Sangakkara, Muralitharan, 36, 119, 89, 5, 0
+1592, 2002-02-06, 3, 8, Sri Lanka, c Muralitharan, Vaas, 2, 10, 8, 0, 0
+1600, 2002-04-01, 1, 7, New Zealand,                c &, Harris, 7, 27, 27, 1, 0
+1615, 2002-09-03, 2, 7, Australia, c Martyn, Warne, 66, 139, 106, 10, 0
+1615, 2002-09-03, 4, 7, Australia, c Gilchrist, Gillespie, 11, 22, 13, 2, 0
+1617, 2002-09-11, 1, 7, Australia, not out, , 4, 54, 28, 0, 0
+1617, 2002-09-11, 3, 7, Australia, c ME Waugh, Bichel, 0, 5, 3, 0, 0
+1620, 2002-09-19, 2, 7, Australia, c ME Waugh, Warne, 17, 32, 30, 1, 0
+1620, 2002-09-19, 3, 7, Australia, lbw, Warne, 17, 34, 38, 1, 0
+1655, 2003-07-20, 2, 7, Bangladesh, not out, , 54, 136, 110, 7, 0
+1657, 2003-07-27, 2, 6, Bangladesh, st Khaled Mashud, Mohammad Rafique, 40, 91, 66, 5, 0
+1658, 2003-08-03, 2, 7, Bangladesh, c Alok Kapali, Tapash Baisya, 5, 17, 14, 1, 0
+1658, 2003-08-03, 4, 7, Bangladesh, lbw, Khaled Mahmud, 5, 54, 39, 1, 0

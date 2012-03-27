@@ -1,0 +1,127 @@
+
+Test # 722
+New Zealand in England, 1973, 1st Test
+England v New Zealand
+Trent Bridge, Nottingham
+7,8,9,11,12 June 1973 (5-day match)
+
+Result: England won by 38 runs
+Series: England leads the 3-match series 1-0
+
+Toss: England
+Umpires: DJ Constant and AEG Rhodes
+
+Close of play:
+ Day 1: England 216/9 (Knott 32*, Gifford 10*)
+ Day 2: England 250, New Zealand 97, England 72/4 (Amiss 22*, Greig 33*)
+ Day 3: England 325/8d, New Zealand 56/2 (Congdon 29*, Hastings 9*)
+ Day 4: New Zealand 317/5 (Pollard 74*, Wadsworth 3*)
+
+England 1st innings                                             R   M   B  4 6
+G Boycott             lbw                b Taylor              51 174 145  4 0
+DL Amiss              c Wadsworth        b Taylor              42 141  94  3 0
+GRJ Roope             lbw                b DR Hadlee           28 136 112  2 0
+AR Lewis              c Wadsworth        b Taylor               2  10   9  0 0
+KWR Fletcher          lbw                b DR Hadlee           17  51  45  0 0
+AW Greig              c Parker           b Collinge             2   9  12  0 0
+*R Illingworth                           b DR Hadlee            8   8  18  0 0
++APE Knott                               b Congdon             49 143 115  5 0
+JA Snow                                  b DR Hadlee            8  30  21  1 0
+GG Arnold             c Wadsworth        b Taylor               1  11  15  0 0
+N Gifford             not out                                  25  90  69  1 0
+Extras                (lb 10, nb 7)                            17
+Total                 (all out, 107.4 overs)                  250
+
+FoW: 1-92 (Amiss), 2-106 (Boycott), 3-108 (Lewis),
+     4-140 (Fletcher), 5-147 (Greig), 6-161 (Illingworth),
+     7-162 (Roope), 8-184 (Snow), 9-191 (Arnold), 10-250 (Knott).
+
+Bowling                      O      M      R      W
+Collinge                    27      6     62      1
+RJ Hadlee                   26      5     64      0
+Taylor                      29      7     53      4
+DR Hadlee                   19      6     42      4
+Congdon                      6.4    1     12      1
+
+New Zealand 1st innings                                         R   M   B  4 6
+GM Turner             c Roope            b Greig               11  53  53  0 0
+JM Parker             c Knott            b Greig                2  51  39  0 0
+*BE Congdon           run out                                   9  39  28  0 0
+BF Hastings           c Roope            b Arnold               3   4   5  0 0
+MG Burgess            c Knott            b Arnold               0   1   2  0 0
+V Pollard             not out                                  16 102  59  0 0
++KJ Wadsworth         c Knott            b Greig                0   1   3  0 0
+BR Taylor             c Knott            b Snow                19  34  28  1 0
+DR Hadlee                                b Snow                 0   5   2  0 0
+RJ Hadlee                                b Snow                 0   1   2  0 0
+RO Collinge                              b Greig               17  34  36  2 0
+Extras                (b 8, lb 6, nb 6)                        20
+Total                 (all out, 41.4 overs)                    97
+
+FoW: 1-24 (Parker), 2-31 (Turner), 3-34 (Hastings),
+     4-34 (Burgess), 5-45 (Congdon), 6-45 (Wadsworth),
+     7-71 (Taylor), 8-72 (DR Hadlee), 9-72 (RJ Hadlee),
+     10-97 (Collinge).
+
+Bowling                      O      M      R      W
+Snow                        13      5     21      3
+Arnold                      18      8     23      2
+Greig                       10.4    0     33      4
+
+England 2nd innings                                             R   M   B  4 6
+G Boycott             run out                                   1   2   2  0 0
+DL Amiss              not out                                 138 363 276 12 0
+GRJ Roope             c Wadsworth        b Collinge             2  14  11  0 0
+AR Lewis              c Wadsworth        b Taylor               2  13  15  0 0
+KWR Fletcher                             b DR Hadlee            8  35  30  1 0
+AW Greig              lbw                b Collinge           139 200 178 16 0
+*R Illingworth        c Parker           b Pollard              3  18  25  0 0
++APE Knott            c Hastings         b Pollard              2  16  12  0 0
+JA Snow                                  b RJ Hadlee            7  41  27  0 0
+GG Arnold             not out                                  10  10  11  2 0
+Extras                (b 4, lb 6, nb 3)                        13
+Total                 (8 wickets dec, 97 overs)               325
+
+DNB: N Gifford.
+
+FoW: 1-2 (Boycott), 2-8 (Roope), 3-11 (Lewis), 4-24 (Fletcher),
+     5-234 (Greig), 6-241 (Illingworth), 7-263 (Knott),
+     8-311 (Snow).
+
+Bowling                      O      M      R      W
+Collinge                    24      7     43      2
+RJ Hadlee                   19      3     79      1
+Taylor                      23      3     87      1
+DR Hadlee                   13      2     51      1
+Congdon                      9      1     28      0
+Pollard                      9      3     24      2
+
+New Zealand 2nd innings (target: 479 runs)                      R   M   B  4 6
+GM Turner             c Roope            b Arnold               9  54  41  0 0
+JM Parker             c Illingworth      b Snow                 6  48  36  0 0
+*BE Congdon                              b Arnold             176 409 377 19 0
+BF Hastings           lbw                b Arnold              11  76  57  1 0
+MG Burgess            c Knott            b Arnold              26  60  41  3 0
+V Pollard             lbw                b Greig              116 437 311 10 0
++KJ Wadsworth         c Roope            b Arnold              46 155 144  6 0
+BR Taylor             lbw                b Snow                11  51  35  1 0
+DR Hadlee             hit wicket         b Greig               14  66  62  0 0
+RJ Hadlee             not out                                   4  37  29  0 0
+RO Collinge                              b Greig                0   6   5  0 0
+Extras                (lb 13, w 1, nb 7)                       21
+Total                 (all out, 188.1 overs)                  440
+
+FoW: 1-16 (Parker), 2-16 (Turner), 3-68 (Hastings),
+     4-130 (Burgess), 5-307 (Congdon), 6-402 (Wadsworth),
+     7-414 (Pollard), 8-431 (Taylor), 9-440 (DR Hadlee),
+     10-440 (Collinge).
+
+Bowling                      O      M      R      W
+Snow                        43     10    104      2
+Arnold                      53     15    131      5
+Greig                       45.1   10    101      3
+Roope                        9      2     17      0
+Gifford                     17      7     35      0
+Illingworth                 21      7     31      0
+
+<END>

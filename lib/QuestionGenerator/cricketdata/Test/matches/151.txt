@@ -1,0 +1,124 @@
+
+Test # 151
+England in South Africa, 1922/23, 4th Test
+South Africa v England
+Old Wanderers, Johannesburg
+9,10,12,13 February 1923 (4-day match)
+
+Result: Match drawn
+Series: 5-match series level 1-1
+
+Toss: England
+Umpires: SL Harris and AG Laver
+Test debuts: DJ Meintjes, LE Tapscott (South Africa).
+
+Close of play:
+ Day 1: England 244, South Africa 8/0 (Meintjes 2*, Ward 2*)
+ Day 2: South Africa 295, England 6/0 (Russell 3*, Sandham 2*)
+ Day 3: England 294/5 (Woolley 80*, Mann 23*)
+
+England 1st innings                                             R   M   B  4 6
+CAG Russell                              b Hall                 8            0
+A Sandham             c Ward             b Meintjes             6            0
+FE Woolley            c Nourse           b Hall                15            0
+AW Carr               lbw                b Blanckenberg        63            0
+CP Mead                                  b Nupen               38            0
+PGH Fender            c Hall             b Blanckenberg        44            0
+*FT Mann              c Catterall        b Hall                34            0
+VWC Jupp              c Nourse           b Hall                 7            0
+AS Kennedy            c Nourse           b Hall                16            0
++G Brown                                 b Hall                 0          0 0
+GG Macaulay           not out                                   1          0 0
+Extras                (b 4, lb 7, nb 1)                        12
+Total                 (all out, 103.4 overs)                  244
+
+FoW: 1-9 (Sandham), 2-19 (Russell), 3-35 (Woolley), 4-108 (Mead),
+     5-177 (Carr), 6-192 (Fender), 7-207 (Jupp), 8-237 (Kennedy),
+     9-243 (Mann), 10-244 (Brown).
+
+Bowling                      O      M      R      W
+Meintjes                     8      1     31      1
+Snooke                       3      0     10      0
+Hall                        36.4   11     82      6
+Blanckenberg                30     10     46      2
+Nupen                       16      4     50      1
+Francois                    10      6     13      0
+
+South Africa 1st innings                                        R   M   B  4 6
+DJ Meintjes           c Russell          b Kennedy              3          0 0
++TA Ward                                 b Jupp                64            0
+RH Catterall                             b Fender              31            0
+*HW Taylor            c Russell          b Fender              11            0
+AW Nourse             c Woolley          b Jupp                51  90        0
+SJ Snooke             lbw                b Jupp                 2          0 0
+CM Francois           c Brown            b Kennedy             41            0
+LE Tapscott           not out                                  50            1
+JM Blanckenberg       c Russell          b Kennedy              7            0
+EP Nupen              c Mann             b Macaulay            12            0
+AE Hall               c Kennedy          b Macaulay             0          0 0
+Extras                (b 11, lb 6, nb 6)                       23
+Total                 (all out, 92 overs)                     295
+
+FoW: 1-16 (Meintjes), 2-78 (Catterall), 3-116 (Taylor),
+     4-139 (Ward), 5-157 (Snooke), 6-212 (Nourse),
+     7-220 (Francois), 8-230 (Blanckenberg), 9-293 (Nupen),
+     10-295 (Hall).
+
+Bowling                      O      M      R      W
+Kennedy                     24      5     68      3
+Macaulay                    27      5     80      2
+Woolley                      6      3     10      0
+Fender                      20      4     78      2
+Jupp                        15      5     36      3
+
+England 2nd innings                                             R   M   B  4 6
+CAG Russell           c Hall             b Nupen               96            0
+A Sandham             lbw                b Hall                58            0
+FE Woolley            not out                                 115            1
+AW Carr               c Ward             b Meintjes             6            0
+CP Mead                              c & b Meintjes             0          0 0
+PGH Fender                               b Meintjes             9            0
+*FT Mann              c Meintjes         b Blanckenberg        59            2
+VWC Jupp              not out                                  10            0
+Extras                (b 12, lb 8, nb 3)                       23
+Total                 (6 wickets dec, 134 overs)              376
+
+DNB: AS Kennedy, +G Brown, GG Macaulay.
+
+FoW: 1-153 (Sandham), 2-189 (Russell), 3-203 (Carr),
+     4-209 (Mead), 5-221 (Fender), 6-345 (Mann).
+
+Bowling                      O      M      R      W
+Meintjes                    11      3     38      3
+Snooke                       6      3     11      0
+Hall                        44      8    114      1
+Blanckenberg                29      6     78      1
+Nupen                       28      4     88      1
+Francois                     9      3     17      0
+Nourse                       5      3      7      0
+Taylor                       2      2      0      0
+
+South Africa 2nd innings (target: 326 runs)                     R   M   B  4 6
+RH Catterall          c Brown            b Macaulay             8            0
+*HW Taylor            c Russell          b Kennedy            101            1
++TA Ward              c Macaulay         b Kennedy              8            0
+AW Nourse             c Fender           b Kennedy             63 130        0
+SJ Snooke             not out                                  39            0
+CM Francois           not out                                   3          0 0
+Extras                (b 16, lb 3, nb 6)                       25
+Total                 (4 wickets, 79.5 overs)                 247
+
+DNB: DJ Meintjes, LE Tapscott, JM Blanckenberg, EP Nupen,
+     AE Hall.
+
+FoW: 1-19 (Catterall), 2-32 (Ward), 3-166 (Nourse),
+     4-238 (Taylor).
+
+Bowling                      O      M      R      W
+Kennedy                     27.5    7     70      3
+Macaulay                    17      6     27      1
+Woolley                      6      2     26      0
+Fender                      17      2     60      0
+Jupp                        12      3     39      0
+
+<END>

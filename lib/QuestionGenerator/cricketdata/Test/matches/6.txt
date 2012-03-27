@@ -1,0 +1,123 @@
+
+Test # 6
+England in Australia, 1881/82, 2nd Test
+Australia v England
+Sydney Cricket Ground
+17,18,20,21 February 1882 (timeless match)
+
+Result: Australia won by 5 wickets
+Series: Australia leads the 4-match series 1-0
+
+Toss: England
+Umpires: James Lillywhite jnr (Eng) and JS Swift
+Balls per over: 4
+Test debuts: G Coulthard, SP Jones (Australia).
+
+Close of play:
+ Day 1: England 133, Australia 86/1 (Blackham 30*, Evans 5*)
+ Day 2: Australia 197, England 8/0 (Barlow 1*, Ulyett 7*)
+ Day 3: England 232, Australia 35/2 (Murdoch 2*, Horan 6*)
+
+England 1st innings                                             R   M   B  4 6
+G Ulyett              c Murdoch          b Evans               25          4 0
+RG Barlow                                b Palmer              31          5 0
+J Selby                              c & b Evans                6          1 0
+W Bates               c Murdoch          b Palmer               4          0 0
+A Shrewsbury snr                         b Palmer               7          1 0
+WE Midwinter          c Blackham         b Palmer               4          0 0
+WH Scotton                               b Palmer              30          4 0
+T Emmett                                 b Evans               10          1 0
+*A Shaw               c Massie           b Palmer              11          1 0
++R Pilling                               b Palmer               3          0 0
+E Peate               not out                                   1          0 0
+Extras                (lb 1)                                    1
+Total                 (all out, 115 overs)                    133
+
+FoW: 1-39 (Ulyett), 2-47 (Selby), 3-64 (Bates), 4-73 (Barlow),
+     5-77 (Midwinter), 6-90 (Shrewsbury), 7-115 (Scotton),
+     8-123 (Emmett), 9-132 (Pilling), 10-133 (Shaw).
+
+Bowling                      O      M      R      W
+Palmer                      58     36     68      7
+Evans                       57     32     64      3
+
+Australia 1st innings                                           R   M   B  4 6
+HH Massie             c Shrewsbury       b Bates               49          9 0
+JM Blackham           c Shaw             b Midwinter           40          3 0
+E Evans               run out                                  11          1 0
+*+WL Murdoch          c Emmett           b Bates               10          0 0
+TP Horan              run out                                   4          0 0
+PS McDonnell                             b Bates               14          1 0
+SP Jones              c Emmett           b Ulyett              37          1 0
+TW Garrett            c Shrewsbury       b Peate                4          0 0
+GE Palmer                                b Bates               16          1 0
+HF Boyle              c Shrewsbury       b Ulyett               0          0 0
+G Coulthard           not out                                   6          0 0
+Extras                (b 1, lb 2, w 2, nb 1)                    6
+Total                 (all out, 194.2 overs)                  197
+
+FoW: 1-78 (Massie), 2-102 (Evans), 3-103 (Blackham),
+     4-111 (Horan), 5-132 (McDonnell), 6-133 (Murdoch),
+     7-140 (Garrett), 8-167 (Palmer), 9-168 (Boyle),
+     10-197 (Jones).
+
+Bowling                      O      M      R      W
+Peate                       52     28     53      1
+Midwinter                   34     16     43      1
+Emmett                       6      2     24      0
+Ulyett                      22.2   16     11      2
+Bates                       72     43     52      4
+Barlow                       8      4      8      0
+
+England 2nd innings                                             R   M   B  4 6
+RG Barlow             c Boyle            b Garrett             62          6 0
+G Ulyett              lbw                b Palmer              67          4 1
+J Selby               c Blackham         b Palmer               2          0 0
+W Bates                                  b Palmer               5          0 0
+A Shrewsbury snr      c McDonnell        b Garrett             22          2 0
+WE Midwinter                             b Palmer               8          0 0
+WH Scotton            lbw                b Garrett             12          1 0
+T Emmett              c McDonnell        b Garrett              9          1 0
+*A Shaw                                  b Evans               30          2 0
++R Pilling                               b Jones                9          0 0
+E Peate               not out                                   1          0 0
+Extras                (b 3, lb 2)                               5
+Total                 (all out, 153.1 overs)                  232
+
+FoW: 1-122 (Ulyett), 2-124 (Selby), 3-130 (Bates),
+     4-156 (Barlow), 5-165 (Shrewsbury), 6-175 (Midwinter),
+     7-183 (Scotton), 8-204 (Emmett), 9-230 (Pilling),
+     10-232 (Shaw).
+
+Bowling                      O      M      R      W
+Palmer                      66     29     97      4
+Evans                       40.1   19     49      1
+Garrett                     36     12     62      4
+Jones                       11      4     19      1
+
+Australia 2nd innings (target: 169 runs)                        R   M   B  4 6
+JM Blackham                          c & b Bates                4          1 0
+HH Massie                                b Ulyett              22          3 0
+*+WL Murdoch          c Barlow           b Midwinter           49          4 0
+TP Horan                                 b Ulyett              21          0 0
+PS McDonnell                             b Shaw                25          2 0
+SP Jones              not out                                  13          1 0
+TW Garrett            not out                                  31          2 0
+Extras                (b 3, lb 1)                               4
+Total                 (5 wickets, 107.1 overs)                169
+
+DNB: E Evans, GE Palmer, HF Boyle, G Coulthard.
+
+FoW: 1-10 (Blackham), 2-28 (Massie), 3-67 (Horan),
+     4-113 (McDonnell), 5-127 (Murdoch).
+
+Bowling                      O      M      R      W
+Peate                       20     12     22      0
+Midwinter                   18      8     23      1
+Emmett                       6      3     17      0
+Ulyett                      15      4     48      2
+Bates                       24     11     37      1
+Barlow                       4      1      6      0
+Shaw                        20.1   15     12      1
+
+<END>

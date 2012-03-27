@@ -1,0 +1,135 @@
+
+Test # 1399
+The Wisden Trophy, 1997/98, 3rd Test
+West Indies v England
+Queen's Park Oval, Port of Spain, Trinidad
+13,14,15,16,17 February 1998 (5-day match)
+
+Result: England won by 3 wickets
+Series: 6-match series level 1-1
+
+Toss: England
+Umpires: DB Hair (Aus) and EA Nicholls
+TV umpire: CE Cumberbatch
+Match referee: BN Jarman (Aus)
+Player of the match: ARC Fraser
+
+Close of play:
+ Day 1: West Indies 159, England 22/2 (Stewart 16*, Headley 1*, 13.2 ov)
+ Day 2: England 145, West Indies 71/2 (Lara 30*, Benjamin 0*, 25 ov)
+ Day 3: West Indies 210, England 52/0 (Atherton 30*, Stewart 14*)
+ Day 4: England 187/4 (Thorpe 15*, Butcher 8*)
+
+West Indies 1st innings                                         R   M   B  4 6
+SL Campbell           c Thorpe           b Fraser              28 129  88  4 0
+SC Williams           c Thorpe           b Caddick             24  68  48  2 0
+*BC Lara              c Russell          b Fraser              42  89  53  7 0
+CL Hooper             c Butcher          b Fraser               1  13  11  0 0
+S Chanderpaul         lbw                b Fraser              28 159 111  1 0
+JC Adams              c Atherton         b Caddick             11 113  71  0 0
++D Williams                              b Caddick              0   1   1  0 0
+CEL Ambrose                              b Caddick              4   8   3  1 0
+KCG Benjamin          lbw                b Caddick              0   3   2  0 0
+NAM McLean            c Headley          b Fraser              11  30  13  0 0
+CA Walsh              not out                                   5  15   9  0 0
+Extras                (nb 5)                                    5
+Total                 (all out, 67.4 overs)                   159
+
+FoW: 1-36 (SC Williams, 16.1 ov), 2-93 (Campbell, 29.3 ov),
+     3-95 (Hooper, 31.6 ov), 4-100 (Lara, 35.2 ov),
+     5-131 (Adams, 60.4 ov), 6-131 (D Williams, 60.5 ov),
+     7-140 (Ambrose, 62.2 ov), 8-140 (Benjamin, 62.4 ov),
+     9-150 (Chanderpaul, 65.1 ov), 10-159 (McLean, 67.4 ov).
+
+Bowling                      O      M      R      W
+Headley                     14      0     40      0 (2nb)
+Caddick                     22      7     67      5
+Fraser                      20.4    8     40      5 (1nb)
+Tufnell                      9      5     11      0 (1nb)
+Butcher                      2      1      1      0
+
+England 1st innings                                             R   M   B  4 6
+*MA Atherton          lbw                b Ambrose              2  15  11  0 0
+AJ Stewart            c D Williams       b Hooper              44 167 112  4 0
+JP Crawley                               b Ambrose              1  30  16  0 0
+DW Headley                               b Ambrose              1  20  17  0 0
+N Hussain             c D Williams       b Walsh                0  20  14  0 0
+GP Thorpe             c D Williams       b Hooper              32 129  88  2 0
+MA Butcher                           c & b Adams               28 121 104  2 0
++RC Russell           not out                                  20  99  62  0 0
+AR Caddick            run out (Lara)                            0   9   4  0 0
+ARC Fraser                           c & b Ambrose              5  16  10  1 0
+PCR Tufnell           lbw                b Ambrose              0   1   1  0 0
+Extras                (b 1, lb 4, nb 7)                        12
+Total                 (all out, 71.4 overs)                   145
+
+FoW: 1-5 (Atherton, 3.3 ov), 2-15 (Crawley, 9.5 ov),
+     3-22 (Headley, 13.6 ov), 4-27 (Hussain, 18.5 ov),
+     5-71 (Stewart, 35.3 ov), 6-101 (Thorpe, 49.2 ov),
+     7-134 (Butcher, 66.6 ov), 8-135 (Caddick, 68.6 ov),
+     9-145 (Fraser, 71.3 ov), 10-145 (Tufnell, 71.4 ov).
+
+Bowling                      O      M      R      W
+Walsh                       17      5     35      1
+Ambrose                     15.4    5     25      5 (6nb)
+McLean                       9      2     23      0
+Benjamin                    13      3     34      0 (2nb)
+Hooper                      15      3     23      2
+Adams                        2      2      0      1
+
+West Indies 2nd innings                                         R   M   B  4 6
+SL Campbell           lbw                b Fraser              13 108  64  1 0
+SC Williams           c Atherton         b Caddick             23  32  16  3 0
+*BC Lara              lbw                b Fraser              47 132  95  7 0
+KCG Benjamin          c Russell          b Fraser               1  26  11  0 0
+CL Hooper             lbw                b Headley              5  55  36  0 0
+S Chanderpaul         c Russell          b Headley             39 141  92  5 0
+JC Adams              c Atherton         b Fraser              53 222 161  6 0
++D Williams           lbw                b Headley              0   3   5  0 0
+CEL Ambrose                              b Headley              0   4   1  0 0
+NAM McLean            c Stewart          b Caddick              2  61  34  0 0
+CA Walsh              not out                                   1  35  10  0 0
+Extras                (lb 16, nb 10)                           26
+Total                 (all out, 85.3 overs)                   210
+
+FoW: 1-27 (SC Williams, 6.5 ov), 2-66 (Campbell, 23.1 ov),
+     3-82 (Benjamin, 27.2 ov), 4-92 (Lara, 33.1 ov),
+     5-102 (Hooper, 38.1 ov), 6-158 (Chanderpaul, 62.2 ov),
+     7-159 (D Williams, 62.6 ov), 8-159 (Ambrose, 64.1 ov),
+     9-189 (McLean, 78.3 ov), 10-210 (Adams, 85.3 ov).
+
+Bowling                      O      M      R      W
+Caddick                     19      6     64      2
+Fraser                      25.3   11     40      4 (1nb)
+Headley                     26      3     77      4 (11nb)
+Tufnell                     15      6     13      0
+
+England 2nd innings (target: 225 runs)                          R   M   B  4 6
+*MA Atherton          c D Williams       b Walsh               49 233 173  3 0
+AJ Stewart            c D Williams       b Walsh               83 300 245  8 0
+JP Crawley            run out (Benjamin)                        5  62  27  1 0
+N Hussain             lbw                b Hooper               5  62  27  1 0
+GP Thorpe             c D Williams       b Ambrose             19  98  55  1 0
+MA Butcher            not out                                  24 135 103  1 0
++RC Russell           c Hooper           b Ambrose              4  37  25  0 0
+AR Caddick            c D Williams       b Ambrose              0   1   1  0 0
+DW Headley            not out                                   7  25  11  0 0
+Extras                (b 2, lb 15, nb 12)                      29
+Total                 (7 wickets, 108 overs)                  225
+
+DNB: ARC Fraser, PCR Tufnell.
+
+FoW: 1-129 (Atherton, 58.2 ov), 2-145 (Crawley, 65.4 ov),
+     3-152 (Stewart, 72.6 ov), 4-167 (Hussain, 79.2 ov),
+     5-201 (Thorpe, 95.5 ov), 6-213 (Russell, 103.1 ov),
+     7-213 (Caddick, 103.2 ov).
+
+Bowling                      O      M      R      W
+Walsh                       38     11     69      2 (1nb)
+Ambrose                     33      6     62      3 (7nb)
+Benjamin                    11      3     24      0 (2nb)
+McLean                       4      0     17      0 (1nb)
+Adams                        6      3      5      0 (1nb)
+Hooper                      16      3     31      1
+
+<END>

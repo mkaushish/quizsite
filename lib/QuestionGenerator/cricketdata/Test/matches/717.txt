@@ -1,0 +1,105 @@
+
+Test # 717
+England in Pakistan, 1972/73, 2nd Test
+Pakistan v England
+Niaz Stadium, Hyderabad, Sind
+16,17,18,20,21 March 1973 (5-day match)
+
+Result: Match drawn
+Series: 3-match series level 0-0
+
+Toss: England
+Umpires: Mohammad Aslam and Shujauddin
+
+Close of play:
+ Day 1: England 288/4 (Roope 21*, Greig 10*)
+ Day 2: England 487, Pakistan 16/0 (Sadiq Mohammad 9*, Talat Ali 6*)
+ Day 3: Pakistan 266/4 (Mushtaq Mohammad 93*, Asif Iqbal 61*)
+ Day 4: Pakistan 561/9 (Mohammad Nazir 20*, Pervez Sajjad 4*)
+
+England 1st innings                                             R   M   B  4 6
+MH Denness                               b Saleem Altaf         8  54      1 0
+DL Amiss              st Wasim Bari      b Mushtaq Mohammad   158 325     27 0
+KWR Fletcher          c Zaheer Abbas     b Intikhab Alam       78 190     13 0
+*AR Lewis             c Wasim Bari       b Mushtaq Mohammad     7  69      0 0
+GRJ Roope             st Wasim Bari      b Intikhab Alam       27  94      3 0
+AW Greig                                 b Mushtaq Mohammad    36 115      6 0
++APE Knott            c Mohammad Nazir   b Mushtaq Mohammad    71 196      7 0
+GG Arnold             c Wasim Bari       b Intikhab Alam        8  40      0 0
+N Gifford                                b Intikhab Alam       24 104      2 0
+DL Underwood          not out                                  20  97      2 0
+PI Pocock                                b Pervez Sajjad       33  72      4 0
+Extras                (b 2, lb 11, nb 4)                       17
+Total                 (all out, 200.2 overs)                  487
+
+FoW: 1-22 (Denness), 2-190 (Fletcher), 3-250 (Lewis),
+     4-259 (Amiss), 5-319 (Roope), 6-343 (Greig), 7-364 (Arnold),
+     8-428 (Gifford), 9-432 (Knott), 10-487 (Pocock).
+
+Bowling                      O      M      R      W
+Saleem Altaf                29     10     63      1
+Asif Iqbal                  11      5     31      0
+Intikhab Alam               65     17    137      4
+Mohammad Nazir              36      9     84      0
+Pervez Sajjad               21.2    5     56      1
+Mushtaq Mohammad            35     10     93      4
+Sadiq Mohammad               3      1      6      0
+
+Pakistan 1st innings                                            R   M   B  4 6
+Sadiq Mohammad        c Knott            b Pocock              30 115      2 0
+Talat Ali             c Fletcher         b Gifford             22  99      2 0
+*Majid Khan           c Knott            b Pocock              17  25      4 0
+Mushtaq Mohammad      lbw                b Gifford            157 469     17 0
+Zaheer Abbas          c Roope            b Pocock              24 110      3 0
+Asif Iqbal            c Roope            b Pocock              68 184     11 0
+Intikhab Alam                            b Arnold             138 261     15 4
+Saleem Altaf          c Gifford          b Pocock               2  20      0 0
++Wasim Bari           c Pocock           b Gifford             48 117      5 1
+Mohammad Nazir        not out                                  22  81      1 0
+Pervez Sajjad         not out                                  10  40      1 0
+Extras                (b 14, lb 10, nb 7)                      31
+Total                 (9 wickets dec, 192 overs)              569
+
+FoW: 1-53 (Talat Ali), 2-66 (Sadiq Mohammad), 3-77 (Majid Khan),
+     4-139 (Zaheer Abbas), 5-292 (Asif Iqbal),
+     6-437 (Mushtaq Mohammad), 7-449 (Saleem Altaf),
+     8-514 (Intikhab Alam), 9-553 (Wasim Bari).
+
+Bowling                      O      M      R      W
+Arnold                      24      2     78      1
+Greig                       13      2     39      0
+Pocock                      52      9    169      5
+Gifford                     52     16    111      3
+Underwood                   48     15    119      0
+Fletcher                     3      0     22      0
+
+England 2nd innings                                             R   M   B  4 6
+MH Denness            c Mushtaq Mohammad b Saleem Altaf         0   5   5  0 0
+DL Amiss              c Sadiq Mohammad   b Intikhab Alam        0   9   1  0 0
+KWR Fletcher          c Asif Iqbal       b Intikhab Alam       21  85      2 0
+*AR Lewis             c Pervez Sajjad    b Intikhab Alam       21  44      3 0
+GRJ Roope                                b Mushtaq Mohammad    18  68      1 0
+AW Greig              c Wasim Bari       b Asif Iqbal          64 173      5 1
++APE Knott            not out                                  63 196      7 0
+GG Arnold             not out                                  19  54      3 0
+Extras                (b 1, lb 5, nb 6)                        12
+Total                 (6 wickets, 85 overs)                   218
+
+DNB: N Gifford, DL Underwood, PI Pocock.
+
+FoW: 1-0 (Denness), 2-0 (Amiss), 3-34 (Lewis), 4-52 (Fletcher),
+     5-77 (Roope), 6-189 (Greig).
+
+Bowling                      O      M      R      W
+Saleem Altaf                10      1     40      1
+Asif Iqbal                   1      0      3      1
+Intikhab Alam               19      5     44      3
+Mohammad Nazir              16      3     41      0
+Pervez Sajjad               11      5     11      0
+Mushtaq Mohammad            20      5     42      1
+Sadiq Mohammad               3      0     14      0
+Majid Khan                   2      0      4      0
+Talat Ali                    2      1      6      0
+Zaheer Abbas                 1      0      1      0
+
+<END>

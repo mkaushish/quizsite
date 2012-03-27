@@ -1,0 +1,126 @@
+
+Test # 133
+England in South Africa, 1913/14, 4th Test
+South Africa v England
+Lord's, Durban
+14,16,17,18 February 1914 (4-day match)
+
+Result: Match drawn
+Series: England leads the 5-match series 3-0
+
+Toss: South Africa
+Umpires: AJ Atfield (Eng) and FW Grey
+Test debuts: HW Chapman, FL le Roux, D Taylor (South Africa).
+
+Close of play:
+ Day 1: South Africa 162/8 (Chapman 17*, Carter 15*)
+ Day 2: South Africa 170, England 163, South Africa 32/1 (HW Taylor 17*, D Taylor 10*)
+ Day 3: South Africa 249/7 (Carter 32*, Chapman 0*)
+
+South Africa 1st innings                                        R   M   B  4 6
+*HW Taylor            c Strudwick        b Barnes              16            0
++TA Ward                                 b Barnes               5            0
+D Taylor              c Rhodes           b Barnes              36            0
+AW Nourse                                b Barnes               9            0
+FL le Roux                               b Barnes               1          0 0
+PAM Hands             st Strudwick       b Rhodes              51            2
+C Newberry                               b Rhodes               0          0 0
+HW Chapman                               b Barnes              17            0
+JM Blanckenberg       c Douglas          b Rhodes               4            0
+CP Carter             not out                                  19            0
+JL Cox                c Strudwick        b Barnes               4            0
+Extras                (b 6, lb 2)                               8
+Total                 (all out, 68.5 overs)                   170
+
+FoW: 1-20 (HW Taylor), 2-25 (Ward), 3-35 (Nourse),
+     4-45 (le Roux), 5-84 (D Taylor), 6-84 (Newberry),
+     7-135 (Hands), 8-145 (Blanckenberg), 9-164 (Chapman),
+     10-170 (Cox).
+
+Bowling                      O      M      R      W
+Barnes                      29.5    7     56      7
+Woolley                     10      3     27      0
+Relf                         8      3     15      0
+Rhodes                      14      5     33      3
+Douglas                      7      0     31      0
+
+England 1st innings                                             R   M   B  4 6
+JB Hobbs              c Nourse           b Blanckenberg        64            0
+W Rhodes              lbw                b Carter              22            0
+JW Hearne             c Newberry         b Carter               2          0 0
+CP Mead               c Newberry         b Blanckenberg        31            0
+Hon.LH Tennyson                      c & b Newberry             1          0 0
+*JWHT Douglas                        c & b Carter               0          0 0
+FE Woolley            c Hands            b Newberry             9            0
+MC Bird                                  b Carter               8            0
+AE Relf                                  b Carter              11            0
+SF Barnes             not out                                   4            0
++H Strudwick                             b Carter               0          0 0
+Extras                (b 7, lb 3, nb 1)                        11
+Total                 (all out, 75 overs)                     163
+
+FoW: 1-92 (Hobbs), 2-92 (Rhodes), 3-104 (Hearne),
+     4-109 (Tennyson), 5-116 (Douglas), 6-127 (Woolley),
+     7-146 (Mead), 8-146 (Bird), 9-163 (Relf),
+     10-163 (Strudwick).
+
+Bowling                      O      M      R      W
+le Roux                      6      1     19      0
+Cox                         10      1     30      0
+Carter                      28      8     50      6
+Blanckenberg                20      4     35      2
+Newberry                    11      4     18      2
+
+South Africa 2nd innings                                        R   M   B  4 6
+*HW Taylor            lbw                b Barnes              93            0
++TA Ward                                 b Barnes               1          0 0
+D Taylor              c Strudwick        b Barnes              36            0
+AW Nourse             c Tennyson         b Rhodes              45            0
+FL le Roux                           c & b Barnes               0          0 0
+PAM Hands             c Rhodes           b Barnes               8            0
+C Newberry            c Bird             b Barnes              16            0
+CP Carter                                b Douglas             45            1
+HW Chapman            not out                                  16            0
+JM Blanckenberg       c Tennyson         b Barnes              13            0
+JL Cox                not out                                  12            0
+Extras                (b 12, lb 5, nb 3)                       20
+Total                 (9 wickets dec, 102 overs)              305
+
+FoW: 1-15 (Ward), 2-84 (D Taylor), 3-181 (HW Taylor),
+     4-183 (le Roux), 5-195 (Nourse), 6-203 (Hands),
+     7-244 (Newberry), 8-269 (Carter), 9-283 (Blanckenberg).
+
+Bowling                      O      M      R      W
+Barnes                      32     10     88      7
+Woolley                     13      2     26      0
+Rhodes                      26      6     53      1
+Douglas                     14      1     51      1
+Hearne                      11      0     46      0
+Bird                         6      1     21      0
+
+England 2nd innings (target: 313 runs)                          R   M   B  4 6
+JB Hobbs                                 b Blanckenberg        97            1
+W Rhodes              lbw                b Carter              35            0
+JW Hearne             not out                                   8            0
+CP Mead               c Blanckenberg     b Newberry             1          0 0
+*JWHT Douglas         lbw                b Blanckenberg         7            0
+Hon.LH Tennyson                          b Blanckenberg         0          0 0
+FE Woolley            not out                                   0          0 0
+Extras                (b 2, lb 4)                               6
+Total                 (5 wickets, 80 overs)                   154
+
+DNB: MC Bird, AE Relf, SF Barnes, +H Strudwick.
+
+FoW: 1-133 (Hobbs), 2-141 (Rhodes), 3-142 (Mead),
+     4-152 (Douglas), 5-154 (Tennyson).
+
+Bowling                      O      M      R      W
+le Roux                      3      2      5      0
+Cox                         13      6     18      0
+Carter                      29     12     27      1
+Blanckenberg                15      4     43      3
+Newberry                    10      4     22      1
+Nourse                       6      0     13      0
+Chapman                      4      0     20      0
+
+<END>

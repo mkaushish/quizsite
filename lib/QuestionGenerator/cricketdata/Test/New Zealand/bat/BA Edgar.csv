@@ -1,0 +1,69 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+828, 1978-07-27, 1, 4, England,                c &, Miller, 0, 18, 18, 0, 0
+828, 1978-07-27, 3, 4, England, , Edmonds, 38, 124, 109, 2, 0
+829, 1978-08-10, 2, 2, England, c Taylor, Botham, 6, 58, 37, 0, 0
+829, 1978-08-10, 3, 2, England, c Botham, Edmonds, 60, 240, 197, 3, 0
+830, 1978-08-24, 1, 2, England, c Edmonds, Emburey, 39, 110, 88, 7, 0
+830, 1978-08-24, 3, 2, England, , Botham, 4, 20, 16, 1, 0
+844, 1979-02-02, 2, 2, Pakistan, c Wasim Bari, Sikander Bakht, 129, 414, na, 14, 0
+844, 1979-02-02, 4, 2, Pakistan, c Sarfraz Nawaz, Sikander Bakht, 16, na, na, na, 0
+847, 1979-02-16, 2, 1, Pakistan, c Mushtaq Mohammad, Imran Khan, 3, na, na, 0, 0
+848, 1979-02-23, 1, 2, Pakistan, c Wasim Bari, Imran Khan, 1, na, na, 0, 0
+848, 1979-02-23, 3, 2, Pakistan, , Imran Khan, 0, na, na, 0, 0
+873, 1980-02-08, 2, 2, West Indies, lbw, Parry, 65, 300, 226, 5, 0
+873, 1980-02-08, 4, 2, West Indies, c Greenidge, Holding, 6, 25, 13, 0, 0
+875, 1980-02-22, 2, 2, West Indies, c Murray, Holding, 21, 125, 70, 0, 0
+877, 1980-02-29, 2, 2, West Indies, , Roberts, 127, 432, 317, 11, 0
+877, 1980-02-29, 4, 5, West Indies, not out, , 22, 80, 65, 2, 0
+887, 1980-11-28, 1, 2, Australia, c Marsh, Lawson, 20, 112, 75, 1, 0
+887, 1980-11-28, 3, 2, Australia, c Hughes, Lillee, 51, 156, 88, 6, 0
+889, 1980-12-12, 1, 2, Australia, c Border, Lillee, 0, 10, 6, 0, 0
+889, 1980-12-12, 3, 2, Australia, c Hughes, Pascoe, 0, 5, 2, 0, 0
+891, 1980-12-26, 2, 2, Australia, lbw, Higgs, 21, 72, 37, 2, 0
+891, 1980-12-26, 4, 2, Australia, run out, , 25, 82, 49, 1, 0
+897, 1981-02-21, 1, 2, India, c Kirmani, Patil, 39, 167, 97, 3, 0
+897, 1981-02-21, 3, 2, India, c Patil, Binny, 28, 103, 75, 2, 0
+898, 1981-03-06, 2, 2, India, lbw, Shastri, 49, 247, 231, 2, 0
+899, 1981-03-13, 2, 2, India, c Shastri, Patil, 0, 5, 2, 0, 0
+899, 1981-03-13, 4, 2, India, c Kirmani, Kapil Dev, 1, 9, 7, 0, 0
+922, 1982-02-26, 1, 1, Australia, lbw, Alderman, 55, 336, 259, 4, 0
+924, 1982-03-12, 2, 1, Australia,                c &, Yardley, 161, 513, 418, 22, 0
+924, 1982-03-12, 4, 1, Australia, c Lillee, Yardley, 29, 109, 50, 4, 0
+926, 1982-03-19, 2, 1, Australia, c Dyson, Alderman, 22, 64, 53, 1, 0
+926, 1982-03-19, 3, 1, Australia, c Marsh, Alderman, 11, 48, 44, 2, 0
+950, 1983-03-04, 1, 2, Sri Lanka, c MD Wettimuny, Ratnayeke, 39, 90, 66, 5, 0
+951, 1983-03-11, 2, 2, Sri Lanka, c John, Ratnayake, 10, 44, 43, 2, 0
+951, 1983-03-11, 4, 2, Sri Lanka, not out, , 47, 156, 110, 6, 0
+957, 1983-07-14, 2, 2, England, c Taylor, Willis, 12, 121, 56, 1, 0
+957, 1983-07-14, 4, 2, England, c Taylor, Willis, 3, 20, 14, 0, 0
+958, 1983-07-28, 2, 2, England, , Willis, 84, 278, 207, 11, 0
+958, 1983-07-28, 4, 2, England, c Edmonds, Willis, 2, 21, 15, 0, 0
+959, 1983-08-11, 2, 2, England, c Willis, Cook, 70, 238, 190, 7, 0
+959, 1983-08-11, 4, 2, England, c Lamb, Cowans, 27, 125, 95, 3, 0
+960, 1983-08-25, 2, 2, England, c Gatting, Cook, 62, 200, 164, 6, 0
+960, 1983-08-25, 4, 2, England, c Gower, Cook, 76, 268, 228, 8, 0
+975, 1984-01-20, 1, 2, England, c Taylor, Botham, 9, 105, 72, 0, 0
+975, 1984-01-20, 3, 2, England, c Taylor, Willis, 30, 118, 85, 3, 0
+976, 1984-02-03, 1, 2, England, c Randall, Pigott, 1, 51, 33, 0, 0
+977, 1984-02-10, 1, 2, England, lbw, Willis, 0, 8, 2, 0, 0
+977, 1984-02-10, 3, 2, England, not out, , 0, 24, 9, 0, 0
+998, 1984-11-16, 1, 2, Pakistan, , Mudassar Nazar, 3, 56, 37, 0, 0
+998, 1984-11-16, 3, 2, Pakistan, lbw, Azeem Hafeez, 26, 67, 34, 3, 0
+1000, 1984-11-25, 1, 2, Pakistan, c Saleem Malik, Abdul Qadir, 11, 83, 37, 2, 0
+1000, 1984-11-25, 3, 2, Pakistan, lbw, Mudassar Nazar, 1, 20, 10, 0, 0
+1003, 1984-12-10, 2, 2, Pakistan, run out, , 15, 92, 56, 0, 0
+1029, 1985-11-08, 2, 1, Australia, c Phillips, Gilbert, 17, 67, 50, 1, 0
+1030, 1985-11-22, 1, 2, Australia, c Border, Holland, 50, 214, 163, 3, 0
+1030, 1985-11-22, 3, 2, Australia,                c &, Holland, 52, 174, 144, 5, 0
+1031, 1985-11-30, 2, 2, Australia, c Hookes, McDermott, 74, 394, 291, 1, 0
+1031, 1985-11-30, 4, 1, Australia, c Border, Matthews, 16, 106, 84, 1, 0
+1035, 1986-02-21, 2, 2, Australia, c Waugh, Matthews, 38, 186, 136, 3, 0
+1038, 1986-02-28, 2, 1, Australia, lbw, Reid, 8, 58, 45, 0, 0
+1038, 1986-02-28, 4, 1, Australia,                c &, Matthews, 9, 39, 36, 1, 0
+1040, 1986-03-13, 2, 2, Australia, lbw, Matthews, 24, 109, 91, 2, 0
+1040, 1986-03-13, 4, 2, Australia, , Reid, 1, 25, 20, 0, 0
+1049, 1986-07-24, 2, 2, England, c Gatting, Gooch, 83, 360, 298, 8, 0
+1049, 1986-07-24, 4, 2, England, c Gower, Foster, 0, 2, 3, 0, 0
+1050, 1986-08-07, 2, 2, England, lbw, Thomas, 8, 65, 45, 0, 0
+1051, 1986-08-21, 1, 2, England, c Gooch, Botham, 1, 37, 21, 0, 0
+1051, 1986-08-21, 3, 2, England, not out, , 0, 4, 2, 0, 0

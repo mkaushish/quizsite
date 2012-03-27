@@ -1,0 +1,102 @@
+
+Test # 379
+New Zealand in South Africa, 1953/54, 3rd Test
+South Africa v New Zealand
+Newlands, Cape Town
+1,2,4,5 January 1954 (4-day match)
+
+Result: Match drawn
+Series: South Africa leads the 5-match series 2-0
+
+Toss: New Zealand
+Umpires: DV Collins and S Collins
+Balls per over: 8
+Test debuts: W Bell, IB Leggat (New Zealand); RJ Westcott (South Africa).
+
+Close of play:
+ Day 1: New Zealand 212/2 (Poore 31*, Sutcliffe 37*)
+ Day 2: New Zealand 505, South Africa 5/0 (McGlew 1*, Waite 3*)
+ Day 3: South Africa 206/7 (Cheetham 25*, Tayfield 2*)
+
+New Zealand 1st innings                                         R   M   B  4 6
+*GO Rabone            lbw                b van Ryneveld        56 238      5 0
+ME Chapple            c Waite            b van Ryneveld        76 198      5 0
+MB Poore              c McGlew           b Adcock              44 168      2 0
+B Sutcliffe           c Waite            b Ironside            66 176      5 0
+JR Reid                                  b Murray             135 196     18 2
+JEF Beck              run out                                  99 224      9 1
++FLH Mooney                              b Ironside             4  45      0 0
+AR MacGibbon          c McGlew           b Ironside             8  13      1 0
+EW Dempster           c Endean           b Ironside             0  21      0 0
+IB Leggat             c McGlew           b Tayfield             0   1      0 0
+W Bell                not out                                   0   4      0 0
+Extras                (b 14, lb 3)                             17
+Total                 (all out, 165.3 overs)                  505
+
+FoW: 1-126 (Chapple), 2-145 (Rabone), 3-239 (Poore),
+     4-271 (Sutcliffe), 5-447 (Reid), 6-472 (Mooney),
+     7-490 (MacGibbon), 8-505 (Beck), 9-505 (Leggat),
+     10-505 (Dempster).
+
+Bowling                      O      M      R      W
+Adcock                      29      3    105      1
+Ironside                    46.3   16    117      4
+Murray                      34      8     93      1
+Tayfield                    33     10     80      1
+van Ryneveld                23      1     93      2
+
+South Africa 1st innings                                        R   M   B  4 6
+DJ McGlew             c Sutcliffe        b MacGibbon           86 273      7 0
++JHB Waite            lbw                b MacGibbon            8            0
+RJ Westcott           c Leggat           b MacGibbon            2          0 0
+WR Endean             c Sutcliffe        b MacGibbon           33            0
+RA McLean             c Mooney           b Rabone               9            0
+CB van Ryneveld       c Mooney           b Rabone              23            0
+*JE Cheetham                             b Rabone              89 182      9 2
+ARA Murray            lbw                b Rabone               6            0
+HJ Tayfield           c Leggat           b Rabone              34 106        0
+DEJ Ironside          c MacGibbon        b Rabone              10            0
+NAT Adcock            not out                                   8            0
+Extras                (b 6, lb 6, nb 6)                        18
+Total                 (all out, 127.7 overs)                  326
+
+FoW: 1-17 (Waite), 2-23 (Westcott), 3-82 (Endean),
+     4-101 (McLean), 5-172 (McGlew), 6-180 (van Ryneveld),
+     7-204 (Murray), 8-299 (Tayfield), 9-313 (Cheetham),
+     10-326 (Ironside).
+
+Bowling                      O      M      R      W
+MacGibbon                   33     13     71      4
+Reid                        20      7     48      0
+Leggat                       3      0      6      0
+Bell                        18      5     77      0
+Rabone                      38.7   10     68      6
+Dempster                     8      3     19      0
+Sutcliffe                    5      1     13      0
+Poore                        2      0      6      0
+
+South Africa 2nd innings (following on)                         R   M   B  4 6
+DJ McGlew             c Chapple          b Poore               28  90        0
++JHB Waite            st Mooney          b Rabone              16            0
+RJ Westcott                              b Dempster            62 111     10 0
+WR Endean             not out                                  34            0
+RA McLean             not out                                  18            0
+Extras                (b 1)                                     1
+Total                 (3 wickets, 54 overs)                   159
+
+DNB: CB van Ryneveld, *JE Cheetham, ARA Murray, HJ Tayfield,
+     DEJ Ironside, NAT Adcock.
+
+FoW: 1-26 (Waite), 2-57 (McGlew), 3-139 (Westcott).
+
+Bowling                      O      M      R      W
+MacGibbon                    8      4     15      0
+Reid                         4      1      8      0
+Bell                         6      2     22      0
+Rabone                      10      6     16      1
+Dempster                     6      0     24      1
+Sutcliffe                    7      0     33      0
+Poore                       12      1     39      1
+Chapple                      1      0      1      0
+
+<END>

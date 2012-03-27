@@ -1,0 +1,119 @@
+
+Test # 1038
+Trans-Tasman Trophy, 1985/86, 2nd Test
+New Zealand v Australia
+Lancaster Park, Christchurch
+28 February, 1,2,3,4 March 1986 (5-day match)
+
+Result: Match drawn
+Series: 3-match series level 0-0
+
+Toss: New Zealand
+Umpires: BL Aldridge and FR Goodall
+Player of the match: AR Border
+
+Close of play:
+ Day 1: Australia 224/5 (Border 84*, Waugh 65*)
+ Day 2: Australia 364, New Zealand 48/3 (Crowe 14*, Rutherford 0*)
+ Day 3: New Zealand 339
+ Day 4: Australia 49/2 (Phillips 11*, Border 15*)
+
+Australia 1st innings                                           R   M   B  4 6
+GR Marsh                                 b Hadlee              28 102  85  2 0
+DC Boon               c Coney            b Hadlee              26 110  67  1 0
+WB Phillips           c Smith            b Chatfield            1   5   8  0 0
+*AR Border                               b Chatfield          140 386 338 15 1
+GM Ritchie            lbw                b Hadlee               4  10  19  0 0
+GRJ Matthews          c Smith            b Hadlee               6  24  18  1 0
+SR Waugh              lbw                b Hadlee              74 230 172  5 0
++TJ Zoehrer           c Coney            b Hadlee              30 148  99  1 0
+RJ Bright             c Smith            b Bracewell           21  87  67  1 0
+DR Gilbert                               b Hadlee              15  64  57  1 0
+BA Reid               not out                                   1   8   7  0 0
+Extras                (b 1, lb 9, nb 8)                        18
+Total                 (all out, 152.4 overs)                  364
+
+FoW: 1-57 (Marsh), 2-58 (Phillips), 3-58 (Boon), 4-64 (Ritchie),
+     5-74 (Matthews), 6-251 (Waugh), 7-319 (Border),
+     8-334 (Zoehrer), 9-358 (Bright), 10-364 (Gilbert).
+
+Bowling                      O      M      R      W
+Hadlee                      44.4    8    116      7
+Troup                       34      4    104      0
+Chatfield                   36     13     56      2
+Coney                        9      0     28      0
+Bracewell                   27      9     46      1
+Crowe                        2      1      4      0
+
+New Zealand 1st innings                                         R   M   B  4 6
+BA Edgar              lbw                b Reid                 8  58  45  0 0
+JG Wright             c Zoehrer          b Gilbert             10  16  17  2 0
+JF Reid               c Zoehrer          b Waugh                2  35  19  0 0
+MD Crowe              c Waugh            b Reid               137 283 226 21 0
+KR Rutherford         lbw                b Gilbert              0  39  30  0 0
+*JV Coney             c Reid             b Waugh               98 238 173 10 1
+RJ Hadlee             c Zoehrer          b Reid                 0  15  16  0 0
++IDS Smith                               b Waugh               22  79  64  3 0
+JG Bracewell          c Marsh            b Reid                20  64  48  3 0
+GB Troup              lbw                b Waugh               10  15  14  1 0
+EJ Chatfield          not out                                   2  17  15  0 0
+Extras                (b 6, lb 8, nb 16)                       30
+Total                 (all out, 107.3 overs)                  339
+
+FoW: 1-17 (Wright), 2-29 (Reid), 3-29 (Edgar), 4-48 (Rutherford),
+     5-124 (Hadlee), 6-190 (Smith), 7-263 (Coney),
+     8-311 (Bracewell), 9-331 (Troup), 10-339 (Crowe).
+
+Bowling                      O      M      R      W
+Reid                        34.3    8     90      4
+Gilbert                     26      4    106      2
+Waugh                       23      6     56      4
+Bright                      18      6     51      0
+Matthews                     6      1     22      0
+
+Australia 2nd innings                                           R   M   B  4 6
+GR Marsh              lbw                b Bracewell           15  66  50  1 0
+DC Boon               c Coney            b Troup                6  16  14  0 0
+WB Phillips                              b Hadlee              25 114  93  1 0
+*AR Border            not out                                 114 280 201 10 0
+GM Ritchie            c Smith            b Bracewell           11  72  71  1 0
+GRJ Matthews          c sub (JJ Crowe)   b Hadlee               3  18  18  0 0
+SR Waugh              c Smith            b Bracewell            1   5  10  0 0
++TJ Zoehrer           c Rutherford       b Bracewell           13  45  35  2 0
+RJ Bright             not out                                  21  71  76  2 0
+Extras                (lb 6, w 1, nb 3)                        10
+Total                 (7 wickets dec, 94 overs)               219
+
+DNB: DR Gilbert, BA Reid.
+
+FoW: 1-15 (Boon), 2-32 (Marsh), 3-76 (Phillips), 4-120 (Ritchie),
+     5-129 (Matthews), 6-130 (Waugh), 7-166 (Zoehrer).
+
+Bowling                      O      M      R      W
+Hadlee                      25      4     47      2
+Troup                       15      0     50      1
+Chatfield                   17      6     29      0
+Bracewell                   33     12     77      4
+Reid                         1      1      0      0
+Coney                        3      1     10      0
+
+New Zealand 2nd innings (target: 245 runs)                      R   M   B  4 6
+BA Edgar                             c & b Matthews             9  39  36  1 0
+JG Wright             not out                                   4  57  37  0 0
+JF Reid               not out                                   0  17  14  0 0
+Extras                (nb 3)                                    3
+Total                 (1 wicket, 14 overs)                     16
+
+DNB: MD Crowe, KR Rutherford, *JV Coney, RJ Hadlee, +IDS Smith,
+     JG Bracewell, GB Troup, EJ Chatfield.
+
+FoW: 1-13 (Edgar).
+
+Bowling                      O      M      R      W
+Gilbert                      7      4      9      0
+Reid                         4      0      7      0
+Matthews                     3      3      0      1
+
+*** MD Crowe (1) retired hurt on 51* from 117/4 to 190/6
+
+<END>

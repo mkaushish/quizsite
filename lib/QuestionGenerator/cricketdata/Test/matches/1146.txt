@@ -1,0 +1,99 @@
+
+Test # 1146
+New Zealand in England, 1990, 2nd Test
+England v New Zealand
+Lord's, London
+21,22,23,25,26 June 1990 (5-day match)
+
+Result: Match drawn
+Series: 3-match series level 0-0
+
+Toss: New Zealand
+Umpires: MJ Kitchen and DR Shepherd
+Player of the match: Sir RJ Hadlee
+
+Close of play:
+ Day 1: England 27/1 (Gooch 16*, Stewart 3*)
+ Day 2: England 329/8 (DeFreitas 33*, Hemmings 0*)
+ Day 3: England 334, New Zealand 156/0 (Franklin 60*, Wright 84*)
+ Day 4: New Zealand 440/8 (Smith 20*, Snedden 0*)
+
+England 1st innings                                             R   M   B  4 6
+*GA Gooch                            c & b Bracewell           85 203 160 12 0
+MA Atherton                              b Morrison             0  14  11  0 0
+AJ Stewart            lbw                b Hadlee              54 170 125  8 0
+AJ Lamb               lbw                b Snedden             39  60  46  9 0
+RA Smith              c Bracewell        b Morrison            64 147 127  9 0
+NH Fairbrother        c Morrison         b Bracewell            2  13   6  0 0
++RC Russell                              b Hadlee              13  26  16  3 0
+PAJ DeFreitas         c Franklin         b Morrison            38  92  58  4 0
+GC Small                                 b Morrison             3   8   8  0 0
+EE Hemmings                              b Hadlee               0  12   7  0 0
+DE Malcolm            not out                                   0   6   1  0 0
+Extras                (lb 13, w 1, nb 22)                      36
+Total                 (all out, 89.4 overs)                   334
+
+FoW: 1-3 (Atherton), 2-151 (Stewart), 3-178 (Gooch),
+     4-216 (Lamb), 5-226 (Fairbrother), 6-255 (Russell),
+     7-319 (Smith), 8-322 (Small), 9-332 (Hemmings),
+     10-334 (DeFreitas).
+
+Bowling                      O      M      R      W
+Hadlee                      29      5    113      3
+Morrison                    18.4    4     64      4
+Snedden                     21      4     72      1
+Bracewell                   21      3     72      2
+
+New Zealand 1st innings                                         R   M   B  4 6
+TJ Franklin           c Russell          b Malcolm            101 435 310  8 0
+*JG Wright            c Stewart          b Small               98 280 215 15 0
+AH Jones              c Stewart          b Malcolm             49 128 113  6 0
+MD Crowe              c Russell          b Hemmings             1  37  32  0 0
+MJ Greatbatch                            b Malcolm             47 155  98  2 1
+KR Rutherford         c Fairbrother      b Malcolm              0   7   5  0 0
+Sir RJ Hadlee                            b Hemmings            86 107  84 12 2
+JG Bracewell          run out (DeFreitas/Russell)               4  11  11  0 0
++IDS Smith            c Small            b Malcolm             27  46  36  4 0
+MC Snedden            not out                                  13  53  33  1 0
+DK Morrison           not out                                   2  22  14  0 0
+Extras                (b 12, lb 15, w 2, nb 5)                 34
+Total                 (9 wickets dec, 157.4 overs)            462
+
+FoW: 1-185 (Wright), 2-278 (Jones), 3-281 (Franklin),
+     4-284 (Crowe), 5-285 (Rutherford), 6-408 (Hadlee),
+     7-415 (Bracewell), 8-425 (Greatbatch), 9-448 (Smith).
+
+Bowling                      O      M      R      W
+Malcolm                     43     14     94      5
+Small                       35      4    127      1
+DeFreitas                   35.4    1    122      0
+Hemmings                    30     13     67      2
+Gooch                       13      7     25      0
+Atherton                     1      1      0      0
+
+England 2nd innings                                             R   M   B  4 6
+*GA Gooch                                b Hadlee              37  88  74  7 0
+MA Atherton           c Bracewell        b Jones               54 161 144  9 0
+AJ Stewart            c sub (MW Priest)  b Bracewell           42 106  92  7 0
+AJ Lamb               not out                                  84 116  99 14 1
+RA Smith              hit wicket         b Bracewell            0  13  13  0 0
+NH Fairbrother        not out                                  33  71  53  6 0
+Extras                (b 8, lb 8, nb 6)                        22
+Total                 (4 wickets dec, 78 overs)               272
+
+DNB: +RC Russell, PAJ DeFreitas, GC Small, EE Hemmings,
+     DE Malcolm.
+
+FoW: 1-68 (Gooch), 2-135 (Atherton), 3-171 (Stewart),
+     4-175 (Smith).
+
+Bowling                      O      M      R      W
+Hadlee                      13      2     32      1
+Morrison                    16      0     81      0
+Bracewell                   34     13     85      2
+Jones                       12      3     40      1
+Rutherford                   3      0     18      0
+
+*** Sir RJ Hadlee was knighted between the 1st and 2nd Tests
+
+<END>

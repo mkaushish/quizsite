@@ -1,0 +1,157 @@
+
+Test # 1422
+South Africa in England, 1998, 5th Test
+England v South Africa
+Headingley, Leeds
+6,7,8,9,10 August 1998 (5-day match)
+
+Result: England won by 23 runs
+Series: England wins the 5-match series 2-1
+
+Toss: England
+Umpires: Javed Akhtar (Pak) and P Willey
+TV umpire: KE Palmer
+Match referee: AM Ebrahim (Zim)
+Player of the match: MA Butcher
+Players of the series: MA Atherton and AA Donald
+
+Close of play:
+ Day 1: England 230, South Africa 9/0 (Kirsten 4*, Liebenberg 5*, 4 ov)
+ Day 2: South Africa 252, England 2/0 (Butcher 0*, Atherton 1*, 1 ov)
+ Day 3: England 206/4 (Hussain 83*, Salisbury 4*, 91 ov)
+ Day 4: England 240, South Africa 185/8 (Pollock 24*, Donald 2*, 68 ov)
+
+England 1st innings                                             R   M   B  4 6
+MA Butcher                               b Pollock            116 319 252 18 0
+MA Atherton           c Kallis           b Ntini               16  76  50  2 0
+N Hussain             c Boucher          b Pollock              9  68  45  1 0
+*+AJ Stewart          c Kallis           b Donald              15  50  30  3 0
+MR Ramprakash         c Boucher          b Donald              21  88  62  2 0
+GA Hick               c Rhodes           b Ntini                2  38  21  0 0
+A Flintoff            c Liebenberg       b Pollock              0   2   3  0 0
+DG Cork               not out                                  24  48  33  4 0
+IDK Salisbury                            b Ntini                0   8   4  0 0
+D Gough               c McMillan         b Ntini                2  16   7  0 0
+ARC Fraser            c Cullinan         b Donald               4  19   7  0 0
+Extras                (b 4, lb 5, w 2, nb 10)                  21
+Total                 (all out, 83.3 overs)                   230
+
+FoW: 1-45 (Atherton, 17.4 ov), 2-83 (Hussain, 33.6 ov),
+     3-110 (Stewart, 45.5 ov), 4-181 (Ramprakash, 67.4 ov),
+     5-196 (Butcher, 74.3 ov), 6-196 (Flintoff, 74.6 ov),
+     7-198 (Hick, 75.3 ov), 8-200 (Salisbury, 77.1 ov),
+     9-213 (Gough, 79.4 ov), 10-230 (Fraser, 83.3 ov).
+
+Bowling                      O      M      R      W
+Donald                      20.3    6     44      3 (1w)
+Pollock                     24      8     51      3 (7nb)
+Ntini                       21      5     72      4 (3nb, 1w)
+Kallis                       9      4     30      0
+McMillan                     9      0     24      0 (3nb)
+
+South Africa 1st innings                                        R   M   B  4 6
+G Kirsten             lbw                b Fraser               6  26  24  1 0
+GFJ Liebenberg        c Hick             b Fraser              21  61  42  2 0
+JH Kallis             c Ramprakash       b Cork                40 177 134  7 0
+DJ Cullinan           c Stewart          b Gough               27  54  29  4 0
+*WJ Cronje            lbw                b Fraser              57 235 163  9 0
+JN Rhodes             c Stewart          b Gough               32  37  39  4 0
+BM McMillan           c Salisbury        b Cork                 7  35  25  1 0
+SM Pollock            c Salisbury        b Fraser              31  84  64  1 0
++MV Boucher           c Atherton         b Gough                6  24  16  1 0
+AA Donald             lbw                b Fraser               0   2   2  0 0
+M Ntini               not out                                   4  10   6  1 0
+Extras                (lb 20, nb 1)                            21
+Total                 (all out, 90.3 overs)                   252
+
+FoW: 1-17 (Kirsten, 7.1 ov), 2-36 (Liebenberg, 15.4 ov),
+     3-83 (Cullinan, 28.2 ov), 4-120 (Kallis, 49.1 ov),
+     5-163 (Rhodes, 58.6 ov), 6-184 (McMillan, 67.5 ov),
+     7-237 (Cronje, 85.2 ov), 8-242 (Pollock, 87.4 ov),
+     9-242 (Donald, 87.6 ov), 10-252 (Boucher, 90.3 ov).
+
+Bowling                      O      M      R      W
+Gough                       24.3    7     58      3
+Fraser                      25      9     42      5
+Cork                        21      3     72      2
+Flintoff                     8      1     31      0
+Salisbury                    3      0      6      0
+Butcher                      9      4     23      0 (1nb)
+
+England 2nd innings                                             R   M   B  4 6
+MA Butcher            c McMillan         b Pollock             37 147 108  5 0
+MA Atherton           lbw                b Donald               1   5   4  0 0
+N Hussain             c Cronje           b Pollock             94 421 341 14 0
+*+AJ Stewart          c Boucher          b Pollock             35 103  68  7 0
+MR Ramprakash         lbw                b Pollock             25  95  75  4 0
+IDK Salisbury         c Boucher          b Pollock              4  21  11  1 0
+GA Hick               c Kirsten          b Donald               1   9   7  0 0
+A Flintoff            c Boucher          b Donald               0   4   5  0 0
+DG Cork               c Boucher          b Donald              10  57  36  2 0
+D Gough               c Cullinan         b Donald               5  23  15  1 0
+ARC Fraser            not out                                   1   8   4  0 0
+Extras                (b 14, lb 1, w 2, nb 10)                 27
+Total                 (all out, 110.2 overs)                  240
+
+FoW: 1-2 (Atherton, 1.1 ov), 2-81 (Butcher, 36.5 ov),
+     3-143 (Stewart, 62.5 ov), 4-200 (Ramprakash, 85.6 ov),
+     5-206 (Salisbury, 91.2 ov), 6-207 (Hick, 94.1 ov),
+     7-207 (Flintoff, 94.6 ov), 8-229 (Hussain, 105.3 ov),
+     9-235 (Cork, 108.3 ov), 10-240 (Gough, 110.2 ov).
+
+Bowling                      O      M      R      W
+Pollock                     35     14     53      5 (2nb)
+Donald                      29.2    9     71      5 (1nb, 1w)
+McMillan                    11      0     22      0 (3nb)
+Ntini                       15      4     43      0 (5nb, 1w)
+Kallis                      15      6     31      0 (1w)
+Cullinan                     1      0      1      0 (1nb)
+Cronje                       4      1      4      0
+
+South Africa 2nd innings (target: 219 runs)                     R   M   B  4 6
+G Kirsten             c Atherton         b Gough                3  32  24  0 0
+GFJ Liebenberg        lbw                b Gough                6  17  15  1 0
+JH Kallis             lbw                b Fraser               3  18  15  0 0
+DJ Cullinan           lbw                b Gough                0  29  13  0 0
+*WJ Cronje            c Stewart          b Fraser               0   9   6  0 0
+JN Rhodes             c Flintoff         b Gough               85 211 147 10 1
+BM McMillan           c Stewart          b Cork                54 149 120  8 0
+SM Pollock            not out                                  28 106  74  1 0
++MV Boucher           lbw                b Gough                4  21   8  0 0
+AA Donald             c Stewart          b Fraser               4  29  23  0 0
+M Ntini               lbw                b Gough                0   8   8  0 0
+Extras                (lb 6, nb 2)                              8
+Total                 (all out, 75 overs)                     195
+
+FoW: 1-9 (Liebenberg, 4.4 ov), 2-12 (Kirsten, 8.4 ov),
+     3-12 (Kallis, 9.2 ov), 4-12 (Cronje, 11.2 ov),
+     5-27 (Cullinan, 14.3 ov), 6-144 (McMillan, 50.6 ov),
+     7-167 (Rhodes, 60.5 ov), 8-175 (Boucher, 66.1 ov),
+     9-194 (Donald, 73.1 ov), 10-195 (Ntini, 74.6 ov).
+
+Bowling                      O      M      R      W
+Gough                       23      6     42      6 (1nb)
+Fraser                      23      8     50      3 (2nb)
+Cork                        17      1     50      1
+Flintoff                     4      1     13      0
+Salisbury                    8      0     34      0
+
+*** Day 1
+*** Hansie Cronje breaks John Waite's test appearance record for South
+    Africa.
+*** Alan Donald sets a new South African record for most wickets in a series
+    in England.
+*** Mark Butcher scores his maiden test hundred.
+
+*** Day 2
+*** England dropped 4 catches, 3 in 23 balls. Cronje and Rhodes were each
+    dropped twice, the culprits being Ramprakash, Hussain, Hick and Stewart.
+*** Fraser's 3rd successive five wicket innings.
+
+*** Day 4
+*** Darren Gough gets his 100th test wicket
+
+*** Man of the Match adjudicator was Paul Allott Date-stamped : 10 Aug1998 -
+    18:26
+
+<END>

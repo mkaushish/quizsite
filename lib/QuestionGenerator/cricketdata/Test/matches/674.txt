@@ -1,0 +1,126 @@
+
+Test # 674
+The Ashes, 1970/71, 1st Test
+Australia v England
+Brisbane Cricket Ground, Woolloongabba, Brisbane
+27,28,29 November, 1,2 December 1970 (5-day match)
+
+Result: Match drawn
+Series: 6-match series level 0-0
+
+Toss: Australia
+Umpires: TF Brooks and LP Rowan
+Balls per over: 8
+Test debuts: TJ Jenner, RW Marsh, AL Thomson (Australia); BW Luckhurst,
+ K Shuttleworth (England).
+
+Close of play:
+ Day 1: Australia 308/2 (Stackpole 175*, Walters 55*)
+ Day 2: Australia 433, England 99/1 (Luckhurst 52*, Knott 6*)
+ Day 3: England 365/6 (D'Oliveira 11*, Illingworth 7*)
+ Day 4: England 464, Australia 56/2 (Lawry 29*, Walters 3*)
+
+Australia 1st innings                                           R   M   B  4 6
+*WM Lawry             c Knott            b Snow                 4  24  23  0 0
+KR Stackpole          c Knott            b Snow               207 454 356 25 1
+IM Chappell           run out                                  59 178 156  6 0
+KD Walters                               b Underwood          112 328 264  9 0
+IR Redpath            c Illingworth      b Underwood           22  65  64  1 0
+AP Sheahan            c Knott            b Underwood            0   2   3  0 0
++RW Marsh                                b Snow                 9  33  29  2 0
+TJ Jenner             c Cowdrey          b Snow                 0   7  11  0 0
+GD McKenzie           not out                                   3  25  17  0 0
+JW Gleeson            c Cowdrey          b Snow                 0   9   5  0 0
+AL Thomson                               b Snow                 0   1   1  0 0
+Extras                (b 7, lb 4, nb 6)                        17
+Total                 (all out, 115.3 overs)                  433
+
+FoW: 1-12 (Lawry), 2-163 (Chappell), 3-372 (Stackpole),
+     4-418 (Redpath), 5-418 (Sheahan), 6-421 (Walters),
+     7-422 (Jenner), 8-433 (Marsh), 9-433 (Gleeson),
+     10-433 (Thomson).
+
+Bowling                      O      M      R      W
+Snow                        32.3    6    114      6
+Shuttleworth                27      6     81      0
+D'Oliveira                  16      2     63      0
+Illingworth                 11      1     47      0
+Underwood                   28      6    101      3
+Cowdrey                      1      0     10      0
+
+England 1st innings                                             R   M   B  4 6
+G Boycott             c Marsh            b Gleeson             37 141 126  3 0
+BW Luckhurst          run out                                  74 204 201  9 0
++APE Knott            c Lawry            b Walters             73 202 167  9 0
+JH Edrich             c Chappell         b Jenner              79 179 182  9 0
+MC Cowdrey            c Chappell         b Gleeson             28  92  65  3 0
+KWR Fletcher          c Marsh            b McKenzie            34  77  76  3 0
+BL D'Oliveira         c Sheahan          b McKenzie            57 198 192  6 1
+*R Illingworth        c Marsh            b Thomson              8  52  51  0 0
+JA Snow               c Marsh            b Walters             34 132 115  4 0
+DL Underwood          not out                                   2  24  14  0 0
+K Shuttleworth        c Lawry            b Walters              7   9  15  1 0
+Extras                (b 2, lb 7, nb 22)                       31
+Total                 (all out, 146.5 overs)                  464
+
+FoW: 1-92 (Boycott), 2-136 (Luckhurst), 3-245 (Knott),
+     4-284 (Edrich), 5-336 (Cowdrey), 6-346 (Fletcher),
+     7-371 (Illingworth), 8-449 (D'Oliveira), 9-456 (Snow),
+     10-464 (Shuttleworth).
+
+Bowling                      O      M      R      W
+McKenzie                    28      5     90      2
+Thomson                     43      8    136      1
+Gleeson                     42     15     97      2
+Jenner                      24      5     86      1
+Stackpole                    4      0     12      0
+Walters                      5.5    0     12      3
+
+Australia 2nd innings                                           R   M   B  4 6
+*WM Lawry             c Snow             b Fletcher            84 330 317  9 0
+KR Stackpole          c Knott            b Shuttleworth         8  82  63  0 0
+IM Chappell           st Knott           b Illingworth         10  30  30  1 0
+KD Walters            c Luckhurst        b Snow                 7  37  30  0 0
+IR Redpath                           c & b Underwood           28 124 120  3 0
+AP Sheahan            c Shuttleworth     b Snow                36 116 101  2 0
++RW Marsh                                b Shuttleworth        14  41  43  2 0
+TJ Jenner             c Boycott          b Shuttleworth         2  13  16  0 0
+GD McKenzie                              b Shuttleworth         1  31  19  0 0
+JW Gleeson                               b Shuttleworth         6  14  17  0 0
+AL Thomson            not out                                   4  10   5  1 0
+Extras                (b 4, lb 3, nb 7)                        14
+Total                 (all out, 93.5 overs)                   214
+
+FoW: 1-30 (Stackpole), 2-47 (Chappell), 3-64 (Walters),
+     4-137 (Redpath), 5-152 (Lawry), 6-193 (Marsh),
+     7-199 (Jenner), 8-201 (Sheahan), 9-208 (Gleeson),
+     10-214 (McKenzie).
+
+Bowling                      O      M      R      W
+Snow                        20      3     48      2
+Shuttleworth                17.5    2     47      5
+D'Oliveira                   7      5      7      0
+Illingworth                 18     11     19      1
+Underwood                   20     10     23      1
+Cowdrey                      2      0      8      0
+Fletcher                     9      1     48      1
+
+England 2nd innings (target: 184 runs)                          R   M   B  4 6
+G Boycott                            c & b Jenner              16  60  57  2 0
+BW Luckhurst          not out                                  20  60  69  1 0
+Extras                (lb 3)                                    3
+Total                 (1 wicket, 15.6 overs)                   39
+
+DNB: +APE Knott, JH Edrich, MC Cowdrey, KWR Fletcher,
+     BL D'Oliveira, *R Illingworth, JA Snow, DL Underwood,
+     K Shuttleworth.
+
+FoW: 1-39 (Boycott).
+
+Bowling                      O      M      R      W
+McKenzie                     3      0      6      0
+Thomson                      4      0     20      0
+Jenner                       4.6    2      9      1
+Stackpole                    4      3      1      0
+
+<END>

@@ -1,0 +1,91 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+457, 1958-07-24, 2, 8, New Zealand, not out, , 3, na, na, 0, 0
+477, 1959-07-23, 1, 7, India, c Gaekwad, Desai, 21, na, na, na, 0
+477, 1959-07-23, 3, 7, India, not out, , 47, na, na, na, 0
+478, 1959-08-20, 2, 7, India, c Gaekwad, Nadkarni, 50, 141, na, 7, 0
+485, 1960-01-06, 1, 7, West Indies, , Ramadhin, 5, na, na, na, 0
+488, 1960-01-28, 1, 7, West Indies, , Ramadhin, 10, na, na, na, 0
+488, 1960-01-28, 3, 7, West Indies, not out, , 41, na, na, na, 0
+489, 1960-02-17, 1, 7, West Indies, c Alexander, Hall, 17, 85, na, na, 0
+489, 1960-02-17, 3, 7, West Indies, , Ramadhin, 6, na, na, na, 0
+490, 1960-03-09, 1, 7, West Indies, , Sobers, 4, na, na, na, 0
+490, 1960-03-09, 3, 6, West Indies, c Kanhai, Worrell, 9, na, na, na, 0
+491, 1960-03-25, 1, 8, West Indies, c Sobers, Ramadhin, 0, na, na, 0, 0
+492, 1960-06-09, 1, 7, South Africa, , Tayfield, 1, na, na, 0, 0
+492, 1960-06-09, 3, 6, South Africa, c Waite, Adcock, 16, na, na, na, 0
+493, 1960-06-23, 1, 8, South Africa, not out, , 0, na, na, 0, 0
+494, 1960-07-07, 1, 7, South Africa,                c &, Tayfield, 37, 113, na, 3, 0
+495, 1960-07-21, 1, 8, South Africa, not out, , 22, na, na, na, 0
+495, 1960-07-21, 3, 4, South Africa, c McLean, Adcock, 5, na, na, na, 0
+507, 1961-06-08, 1, 7, Australia, c Grout, Benaud, 15, na, na, na, 0
+508, 1961-06-22, 1, 7, Australia, , Misson, 13, 70, na, na, 0
+508, 1961-06-22, 3, 7, Australia, c Harvey, Simpson, 0, na, na, 0, 0
+534, 1962-08-16, 1, 7, Pakistan, not out, , 2, 23, na, 0, 0
+538, 1963-01-25, 2, 8, Australia, c Grout, McKenzie, 12, 37, na, 1, 0
+539, 1963-02-15, 1, 6, Australia, c Grout, Davidson, 27, 78, na, 2, 0
+539, 1963-02-15, 3, 2, Australia, c Hawke, Benaud, 18, 75, na, 0, 0
+540, 1963-02-23, 1, 2, New Zealand, c Reid, Cameron, 20, 48, na, 4, 0
+541, 1963-03-01, 2, 2, New Zealand, c Morrison, Blair, 46, 96, na, 6, 0
+542, 1963-03-15, 2, 2, New Zealand, c Dick, Cameron, 2, 28, na, 0, 0
+607, 1966-06-30, 2, 8, West Indies, c Lashley, Griffith, 0, 19, 14, 0, 0
+607, 1966-06-30, 4, 8, West Indies, c Lashley, Sobers, 4, 6, 10, 1, 0
+609, 1966-08-18, 2, 8, West Indies, c Hendriks, Griffith, 3, 26, 23, 0, 0
+618, 1967-06-08, 4, 6, India, not out, , 12, 26, 34, 2, 0
+619, 1967-06-22, 2, 8, India, lbw, Chandrasekhar, 4, 31, 31, 1, 0
+620, 1967-07-13, 1, 8, India, c Wadekar, Prasanna, 2, 7, 4, 0, 0
+620, 1967-07-13, 3, 8, India, c Pataudi, Prasanna, 10, 35, 33, 1, 0
+621, 1967-07-27, 1, 8, Pakistan, , Asif Iqbal, 4, 9, 9, 1, 0
+621, 1967-07-27, 3, 8, Pakistan,                c &, Nasim-ul-Ghani, 9, 16, 25, 1, 0
+639, 1968-07-11, 1, 8, Australia, lbw, Gleeson, 27, 89, 84, 2, 0
+640, 1968-07-25, 2, 8, Australia, c Gleeson, Connolly, 6, 20, 18, 0, 0
+641, 1968-08-22, 1, 8, Australia, lbw, Connolly, 8, 39, 44, 1, 0
+641, 1968-08-22, 3, 8, Australia, , Gleeson, 10, 23, 30, 1, 0
+653, 1969-06-12, 1, 7, West Indies,                c &, Gibbs, 21, 67, 75, 3, 0
+654, 1969-06-26, 2, 8, West Indies,                c &, Gibbs, 113, 213, 218, 12, 0
+654, 1969-06-26, 4, 7, West Indies, not out, , 9, 35, 25, 1, 0
+655, 1969-07-10, 1, 7, West Indies, , Shepherd, 1, 6, 9, 0, 0
+655, 1969-07-10, 3, 7, West Indies, c Lloyd, Holder, 19, 64, 68, 3, 0
+656, 1969-07-24, 1, 7, New Zealand, c Wadsworth, Howarth, 53, 135, 131, 7, 0
+656, 1969-07-24, 3, 7, New Zealand, c Wadsworth, Taylor, 0, 1, 1, 0, 0
+657, 1969-08-07, 2, 7, New Zealand, lbw, Collinge, 33, 72, 65, 4, 0
+658, 1969-08-21, 2, 7, New Zealand, c Wadsworth, Taylor, 4, 20, 19, 0, 0
+674, 1970-11-27, 2, 8, Australia, c Marsh, Thomson, 8, 52, 51, 0, 0
+675, 1970-12-11, 1, 8, Australia, , McKenzie, 34, 87, 85, 4, 0
+675, 1970-12-11, 3, 7, Australia, c Marsh, Stackpole, 29, 83, 68, 4, 0
+676, 1971-01-09, 1, 6, Australia, , Gleeson, 25, 93, 83, 3, 0
+676, 1971-01-09, 3, 6, Australia, st Marsh, Mallett, 53, 131, 145, 6, 0
+677, 1971-01-21, 2, 6, Australia, c Redpath, Gleeson, 41, 116, 136, 5, 0
+678, 1971-01-29, 1, 7, Australia, , Lillee, 24, 88, 74, 2, 0
+678, 1971-01-29, 3, 6, Australia, not out, , 48, 78, 88, 8, 0
+679, 1971-02-12, 1, 6, Australia, , Jenner, 42, 135, 128, 6, 0
+679, 1971-02-12, 3, 6, Australia, lbw, Lillee, 29, 106, 92, 2, 0
+681, 1971-02-25, 2, 6, New Zealand, , Shrimpton, 36, 110, 102, 4, 0
+682, 1971-03-05, 1, 6, New Zealand, c Wadsworth, Cunis, 0, 2, 4, 0, 0
+682, 1971-03-05, 3, 4, New Zealand, c Turner, Collinge, 22, 53, 38, 2, 0
+687, 1971-06-03, 2, 6, Pakistan, , Intikhab Alam, 1, 19, 22, 0, 0
+687, 1971-06-03, 3, 6, Pakistan, c Wasim Bari, Asif Masood, 1, 13, 9, 0, 0
+689, 1971-07-08, 1, 7, Pakistan, , Asif Iqbal, 20, 63, 42, 2, 0
+689, 1971-07-08, 3, 7, Pakistan, c Wasim Bari, Saleem Altaf, 45, 137, 132, 7, 0
+690, 1971-07-22, 1, 7, India, c Engineer, Bedi, 33, 127, 132, 4, 0
+690, 1971-07-22, 3, 7, India, c Wadekar, Venkataraghavan, 20, 81, 98, 3, 0
+691, 1971-08-05, 1, 7, India, c Gavaskar, Venkataraghavan, 107, 278, 298, 8, 1
+692, 1971-08-19, 1, 7, India, , Chandrasekhar, 11, 39, 35, 1, 0
+692, 1971-08-19, 3, 7, India,                c &, Chandrasekhar, 4, 15, 17, 0, 0
+698, 1972-06-08, 1, 8, Australia, not out, , 26, 125, 106, 2, 0
+698, 1972-06-08, 3, 8, Australia, c IM Chappell, Lillee, 14, 69, 50, 1, 0
+699, 1972-06-22, 1, 8, Australia, lbw, Massie, 30, 64, 47, 2, 0
+699, 1972-06-22, 3, 8, Australia, c Stackpole, Massie, 12, 45, 39, 2, 0
+700, 1972-07-13, 2, 9, Australia, not out, , 24, 78, 52, 2, 0
+701, 1972-07-27, 2, 8, Australia, lbw, Lillee, 57, 276, 252, 3, 2
+702, 1972-08-10, 1, 7, Australia, c GS Chappell, Lillee, 0, 1, 1, 0, 0
+702, 1972-08-10, 3, 7, Australia, lbw, Lillee, 31, 80, 54, 5, 0
+722, 1973-06-07, 1, 7, New Zealand, , DR Hadlee, 8, 8, 18, 0, 0
+722, 1973-06-07, 3, 7, New Zealand, c Parker, Pollard, 3, 18, 25, 0, 0
+723, 1973-06-21, 1, 6, New Zealand, c Collinge, Hadlee, 3, 11, 17, 0, 0
+723, 1973-06-21, 3, 6, New Zealand, c Turner, Howarth, 22, 112, 114, 1, 0
+724, 1973-07-05, 2, 6, New Zealand, lbw, Taylor, 65, 147, 138, 9, 0
+725, 1973-07-26, 2, 7, West Indies, lbw, Sobers, 27, 59, 64, 4, 0
+725, 1973-07-26, 4, 8, West Indies, , Boyce, 40, 118, 117, 2, 0
+726, 1973-08-09, 2, 8, West Indies, lbw, Holder, 27, 95, 77, 2, 0
+727, 1973-08-23, 2, 7, West Indies, c Sobers, Gibbs, 0, 1, 1, 0, 0
+727, 1973-08-23, 3, 8, West Indies, c Kanhai, Gibbs, 13, 35, 31, 2, 0

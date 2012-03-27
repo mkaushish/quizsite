@@ -1,0 +1,88 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+332, 1951-03-17, 2, 11, New Zealand, , Moir, 9, 17, na, 1, 0
+335, 1951-06-21, 1, 10, South Africa, , Chubb, 1, 4, na, 0, 0
+336, 1951-07-05, 2, 11, South Africa, c Cheetham, Chubb, 1, 7, na, 0, 0
+339, 1951-11-02, 1, 9, India, , Shinde, 4, na, na, na, 0
+342, 1951-12-14, 2, 9, India, c Mankad, Amarnath, 27, na, na, na, 0
+344, 1952-12-30, 1, 8, India, , Phadkar, 1, na, na, 0, 0
+346, 1952-01-12, 2, 9, India, not out, , 12, na, na, na, 0
+348, 1952-02-06, 1, 9, India, st Sen, Mankad, 6, na, na, na, 0
+348, 1952-02-06, 3, 9, India, c Gopinath, Mankad, 9, na, na, na, 0
+373, 1953-06-25, 2, 11, Australia, not out, , 17, 25, na, na, 0
+380, 1954-01-15, 2, 9, West Indies, , Ramadhin, 8, 25, na, na, 0
+380, 1954-01-15, 4, 9, West Indies, lbw, Ramadhin, 1, na, na, 0, 0
+383, 1954-02-06, 2, 11, West Indies, c Holt, Valentine, 3, na, na, 0, 0
+383, 1954-02-06, 4, 11, West Indies, , Gomez, 0, na, na, 0, 0
+384, 1954-02-24, 1, 11, West Indies, not out, , 10, na, na, na, 0
+385, 1954-03-17, 2, 11, West Indies, not out, , 6, na, na, na, 0
+387, 1954-06-10, 2, 10, Pakistan, , Fazal Mahmood, 0, na, na, 0, 0
+390, 1954-08-12, 2, 10, Pakistan, c Shujauddin, Mahmood Hussain, 1, 4, na, 0, 0
+390, 1954-08-12, 4, 11, Pakistan, not out, , 2, 14, na, 0, 0
+391, 1954-11-26, 2, 10, Australia, , Johnson, 11, 37, na, 2, 0
+391, 1954-11-26, 3, 11, Australia, c Harvey, Benaud, 14, 6, na, 2, 0
+392, 1954-12-17, 1, 11, Australia, not out, , 14, 23, 18, 0, 0
+392, 1954-12-17, 3, 11, Australia, c Langley, Johnston, 25, 53, 39, 3, 0
+393, 1955-12-31, 1, 10, Australia, , Archer, 3, 23, na, 0, 0
+393, 1955-12-31, 3, 10, Australia, c Favell, Johnston, 0, 8, na, 0, 0
+396, 1955-01-28, 2, 11, Australia, c Maddocks, Benaud, 0, 7, na, 0, 0
+402, 1955-03-25, 2, 11, New Zealand, c Reid, Moir, 13, 26, na, 0, 1
+407, 1955-06-09, 1, 10, South Africa, c Waite, Fuller, 20, 56, na, 0, 0
+409, 1955-06-23, 1, 10, South Africa, c McLean, Goddard, 0, na, na, 0, 0
+409, 1955-06-23, 3, 10, South Africa, , Tayfield, 11, na, na, na, 0
+411, 1955-07-21, 2, 10, South Africa, , Tayfield, 4, 8, na, 1, 0
+411, 1955-07-21, 4, 10, South Africa, hit wicket, Goddard, 3, 30, na, 0, 0
+412, 1955-08-13, 1, 11, South Africa, not out, , 4, 13, na, 0, 0
+412, 1955-08-13, 3, 11, South Africa, lbw, Tayfield, 0, 8, na, 0, 0
+426, 1956-06-21, 2, 11, Australia, not out, , 0, 2, na, 0, 0
+426, 1956-06-21, 4, 11, Australia, not out, , 0, 5, na, 0, 0
+428, 1956-07-26, 1, 11, Australia, c Maddocks, Lindwall, 0, 4, na, 0, 0
+429, 1956-08-23, 1, 11, Australia, , Archer, 0, 3, na, 0, 0
+434, 1956-12-24, 1, 11, South Africa, c Waite, Goddard, 0, 6, na, 0, 0
+434, 1956-12-24, 3, 11, South Africa, lbw, Tayfield, 2, 6, na, 0, 0
+435, 1957-01-01, 1, 11, South Africa, not out, , 2, 21, na, 0, 0
+436, 1957-01-25, 1, 11, South Africa, , Adcock, 6, 11, na, 1, 0
+436, 1957-01-25, 3, 11, South Africa, c van Ryneveld, Tayfield, 9, 20, na, 1, 0
+437, 1957-02-15, 2, 11, South Africa, not out, , 12, 50, na, 1, 0
+437, 1957-02-15, 4, 11, South Africa, not out, , 4, 9, na, 0, 0
+439, 1957-05-30, 1, 11, West Indies, , Atkinson, 13, 26, na, 1, 0
+440, 1957-06-20, 2, 11, West Indies, , Gilchrist, 7, 16, na, 1, 0
+460, 1958-12-05, 1, 10, Australia, c Grout, Mackay, 2, 9, 8, 0, 0
+460, 1958-12-05, 3, 10, Australia, c McDonald, Benaud, 3, 14, 13, 0, 0
+462, 1959-12-31, 1, 10, Australia, , Davidson, 13, 45, 34, 1, 0
+462, 1959-12-31, 3, 10, Australia, not out, , 8, 25, 19, 0, 0
+464, 1959-01-09, 1, 11, Australia, not out, , 0, 8, 2, 0, 0
+466, 1959-01-30, 2, 11, Australia, not out, , 36, 70, 68, 6, 0
+466, 1959-01-30, 3, 10, Australia, c O'Neill, Benaud, 2, 10, 6, 0, 0
+474, 1959-06-04, 1, 9, India, not out, , 29, 58, na, 2, 0
+475, 1959-06-18, 2, 9, India, c Surendranath, Gupte, 38, 80, na, na, 0
+478, 1959-08-20, 2, 10, India, not out, , 3, 17, na, 0, 0
+488, 1960-01-28, 1, 11, West Indies, , Worrell, 1, na, na, 0, 0
+489, 1960-02-17, 1, 11, West Indies, , Hall, 13, na, na, na, 1
+489, 1960-02-17, 3, 11, West Indies, lbw, Ramadhin, 12, 45, na, na, 0
+490, 1960-03-09, 1, 11, West Indies, not out, , 20, na, na, na, 0
+492, 1960-06-09, 1, 11, South Africa, not out, , 14, na, na, na, 0
+492, 1960-06-09, 3, 10, South Africa, c McLean, Griffin, 22, na, na, na, 0
+493, 1960-06-23, 1, 10, South Africa, not out, , 2, na, na, 0, 0
+494, 1960-07-07, 1, 10, South Africa, , Goddard, 2, 14, na, 0, 0
+495, 1960-07-21, 1, 11, South Africa, , Adcock, 0, na, na, 0, 0
+496, 1960-08-18, 1, 10, South Africa, not out, , 13, 47, na, 1, 0
+496, 1960-08-18, 3, 10, South Africa, c Pothecary, Goddard, 4, 2, na, 1, 0
+507, 1961-06-08, 1, 11, Australia, not out, , 7, na, na, na, 0
+508, 1961-06-22, 1, 11, Australia, not out, , 11, na, na, na, 0
+508, 1961-06-22, 3, 11, Australia, not out, , 2, na, na, 0, 0
+510, 1961-07-27, 2, 10, Australia, c Mackay, Simpson, 4, 19, na, 0, 0
+510, 1961-07-27, 4, 10, Australia, , Davidson, 8, 30, na, 2, 0
+511, 1961-08-17, 1, 10, Australia, , Davidson, 18, 47, na, 2, 0
+511, 1961-08-17, 3, 10, Australia, not out, , 9, 24, na, 2, 0
+532, 1962-07-05, 1, 11, Pakistan, not out, , 26, na, na, na, 2
+535, 1962-11-30, 2, 11, Australia, not out, , 8, 20, na, 1, 0
+536, 1963-12-29, 2, 10, Australia, , Davidson, 1, 12, 13, 0, 0
+537, 1963-01-11, 1, 10, Australia, c Benaud, Simpson, 0, 1, 1, 0, 0
+537, 1963-01-11, 3, 10, Australia, , Davidson, 2, 20, 23, 0, 0
+538, 1963-01-25, 2, 11, Australia, , Mackay, 1, 9, na, 0, 0
+539, 1963-02-15, 1, 11, Australia, not out, , 17, 35, na, 0, 0
+543, 1963-06-06, 2, 11, West Indies, , Gibbs, 0, na, na, 0, 0
+543, 1963-06-06, 3, 11, West Indies, , Griffith, 7, na, na, 0, 1
+547, 1963-08-22, 1, 10, West Indies, , Hall, 8, 23, na, 0, 0
+547, 1963-08-22, 3, 10, West Indies, , Hall, 14, 22, na, 3, 0
+596, 1965-08-26, 2, 11, South Africa, , PM Pollock, 0, 7, na, 0, 0

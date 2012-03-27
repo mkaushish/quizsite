@@ -1,0 +1,127 @@
+
+Test # 365
+South Africa in Australia, 1952/53, 5th Test
+Australia v South Africa
+Melbourne Cricket Ground
+6,7,9,10,11,12 February 1953 (6-day match)
+
+Result: South Africa won by 6 wickets
+Series: 5-match series drawn 2-2
+
+Toss: Australia
+Umpires: MJ McInnes and RJJ Wright
+Balls per over: 8
+Test debuts: RG Archer, ID Craig (Australia); HJ Keith (South Africa).
+
+Close of play:
+ Day 1: Australia 243/2 (Harvey 71*, Hassett 30*)
+ Day 2: Australia 520, South Africa 48/1 (Waite 29*, Watkins 3*)
+ Day 3: South Africa 325/6 (Cheetham 27*, Mansell 16*)
+ Day 4: South Africa 435, Australia 89/3 (Hassett 17*, Craig 7*)
+ Day 5: Australia 209, South Africa 94/1 (Endean 57*, Watkins 17*)
+
+Australia 1st innings                                           R   M   B  4 6
+CC McDonald           c McLean           b Mansell             41 134      1 0
+AR Morris             run out                                  99 163      7 0
+RN Harvey             c Cheetham         b Fuller             205 295     19 0
+*AL Hassett           run out                                  40 118      1 0
+ID Craig              c Keith            b Fuller              53 107      6 0
+RG Archer             c Waite            b Fuller              18  52      1 0
+R Benaud                             c & b Tayfield            20  59      2 0
+DT Ring                                  b Tayfield            14  32      2 0
++GRA Langley                             b Murray               2   4      0 0
+WA Johnston           c Endean           b Tayfield            12  21      2 0
+G Noblet              not out                                  13  17      2 0
+Extras                (lb 3)                                    3
+Total                 (all out, 133.4 overs)                  520
+
+FoW: 1-122 (McDonald), 2-166 (Morris), 3-269 (Hassett),
+     4-417 (Craig), 5-450 (Harvey), 6-459 (Archer), 7-490 (Ring),
+     8-493 (Langley), 9-495 (Benaud), 10-520 (Johnston).
+
+Bowling                      O      M      R      W
+Fuller                      19      4     74      3
+Watkins                     23      3     72      0
+Tayfield                    35.4    4    129      3
+Murray                      25      3     84      1
+Mansell                     22      0    114      1
+Keith                        9      0     44      0
+
+South Africa 1st innings                                        R   M   B  4 6
+WR Endean             c Langley          b Johnston            16  39      0 0
++JHB Waite            run out                                  64 154      4 0
+JC Watkins                               b Archer              92 193      8 1
+KJ Funston            lbw                b Johnston            16  74      1 0
+HJ Keith                                 b Johnston            10  61      0 0
+RA McLean             lbw                b Noblet              81  93     10 1
+*JE Cheetham          c McDonald         b Johnston            66 193      7 0
+PNF Mansell           lbw                b Johnston            52 151      4 0
+ARA Murray                           c & b Johnston            17  57      2 0
+HJ Tayfield           c Benaud           b Ring                17  57      0 0
+ERH Fuller            not out                                   0   2      0 0
+Extras                (b 1, lb 3)                               4
+Total                 (all out, 143.1 overs)                  435
+
+FoW: 1-31 (Endean), 2-129 (Waite), 3-189 (Funston),
+     4-189 (Watkins), 5-239 (Keith), 6-290 (McLean),
+     7-401 (Mansell), 8-402 (Cheetham), 9-435 (Murray),
+     10-435 (Tayfield).
+
+Bowling                      O      M      R      W
+Noblet                      30      6     65      1
+Archer                      33      4     97      1
+Johnston                    46      8    152      6
+Ring                        19.1    1     62      1
+Benaud                      15      3     55      0
+
+Australia 2nd innings                                           R   M   B  4 6
+CC McDonald           c Watkins          b Fuller              11  72      0 0
+AR Morris             lbw                b Tayfield            44 124      2 0
+RN Harvey                                b Fuller               7  14      1 0
+*AL Hassett           c Endean           b Mansell             30 120      2 0
+ID Craig              c Endean           b Tayfield            47 114      4 0
+RG Archer             c Watkins          b Tayfield             0   4      0 0
+R Benaud              c Watkins          b Fuller              30  68      2 0
+DT Ring               c Endean           b Mansell              0   3      0 0
++GRA Langley          not out                                  26  77      5 0
+WA Johnston           c Cheetham         b Fuller               5  16      1 0
+G Noblet                                 b Fuller               1  19      0 0
+Extras                (b 7, lb 1)                               8
+Total                 (all out, 84.2 overs)                   209
+
+FoW: 1-36 (McDonald), 2-44 (Harvey), 3-70 (Morris),
+     4-128 (Hassett), 5-129 (Archer), 6-152 (Craig),
+     7-152 (Ring), 8-187 (Benaud), 9-193 (Johnston),
+     10-209 (Noblet).
+
+Bowling                      O      M      R      W
+Fuller                      30.2    4     66      5
+Watkins                     14      4     33      0
+Tayfield                    32      8     73      3
+Mansell                      8      3     29      2
+
+South Africa 2nd innings (target: 295 runs)                     R   M   B  4 6
+WR Endean                                b Johnston            70 180      3 0
++JHB Waite            c Archer           b Noblet              18  77      1 0
+JC Watkins                               b Ring                50 162      4 0
+KJ Funston                               b Benaud              35  97      3 0
+HJ Keith              not out                                  40 118      4 0
+RA McLean             not out                                  76  80     14 0
+Extras                (b 2, lb 6)                               8
+Total                 (4 wickets, 95.5 overs)                 297
+
+DNB: *JE Cheetham, PNF Mansell, ARA Murray, HJ Tayfield,
+     ERH Fuller.
+
+FoW: 1-42 (Waite), 2-124 (Endean), 3-174 (Watkins),
+     4-191 (Funston).
+
+Bowling                      O      M      R      W
+Noblet                      24      9     44      1
+Archer                       5      0     23      0
+Johnston                    38      7    114      1
+Ring                        13      2     55      1
+Benaud                      15      4     41      1
+Hassett                      0.5    0     12      0
+
+<END>

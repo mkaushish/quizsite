@@ -1,0 +1,116 @@
+
+Test # 932
+Pakistan in England, 1982, 2nd Test
+England v Pakistan
+Lord's, London
+12,13,14,15,16 August 1982 (5-day match)
+
+Result: Pakistan won by 10 wickets
+Series: 3-match series level 1-1
+
+Toss: Pakistan
+Umpires: HD Bird and DJ Constant
+Player of the match: Mohsin Khan
+
+Close of play:
+ Day 1: Pakistan 295/3 (Mohsin Khan 159*, Zaheer Abbas 44*)
+ Day 2: Pakistan 428/8 (Wasim Bari 24*, Abdul Qadir 18*)
+ Day 3: Pakistan 428/8d, England 226/9 (Gatting 31*, Jackman 0*)
+ Day 4: England 227, England 95/3 (Tavare 24*, Botham 55*)
+
+Pakistan 1st innings                                            R   M   B  4 6
+Mohsin Khan           c Tavare           b Jackman            200 495 386 23 0
+Mudassar Nazar        c Taylor           b Jackman             20  53  42  1 0
+Mansoor Akhtar        c Lamb             b Botham              57 173 143  7 0
+Javed Miandad         run out                                   6  13  17  0 0
+Zaheer Abbas                             b Jackman             75 203 156  8 0
+Haroon Rasheed        lbw                b Botham               1   7   5  0 0
+*Imran Khan           c Taylor           b Botham              12  62  33  1 0
+Tahir Naqqash         c Gatting          b Jackman              2   3   3  0 0
++Wasim Bari           not out                                  24  45  28  2 0
+Abdul Qadir           not out                                  18  23  23  3 0
+Extras                (b 3, lb 8, nb 2)                        13
+Total                 (8 wickets dec, 139 overs)              428
+
+DNB: Sarfraz Nawaz.
+
+FoW: 1-53 (Mudassar Nazar), 2-197 (Mansoor Akhtar),
+     3-208 (Javed Miandad), 4-361 (Zaheer Abbas),
+     5-364 (Haroon Rasheed), 6-380 (Mohsin Khan),
+     7-382 (Tahir Naqqash), 8-401 (Imran Khan).
+
+Bowling                      O      M      R      W
+Botham                      44      8    148      3
+Jackman                     36      5    110      4
+Pringle                     26      9     62      0
+Greig                       13      2     42      0
+Hemmings                    20      3     53      0
+
+England 1st innings                                             R   M   B  4 6
+DW Randall                               b Sarfraz Nawaz       29  87  53  2 0
+CJ Tavare                                b Sarfraz Nawaz        8  18  15  1 0
+AJ Lamb               c Haroon Rasheed   b Tahir Naqqash       33 123  78  3 0
+*DI Gower             c Mansoor Akhtar   b Imran Khan          29 205 152  1 0
+IT Botham             c Mohsin Khan      b Abdul Qadir         31 124  75  4 0
+MW Gatting            not out                                  32 119  75  3 0
+DR Pringle            c Haroon Rasheed   b Abdul Qadir          5  32  29  0 0
+IA Greig              lbw                b Abdul Qadir          3  18  12  0 0
+EE Hemmings                              b Sarfraz Nawaz        6  21  19  1 0
++RW Taylor            lbw                b Abdul Qadir          5  13  15  0 0
+RD Jackman            lbw                b Imran Khan           0   8   5  0 0
+Extras                (b 11, lb 12, w 13, nb 10)               46
+Total                 (all out, 86 overs)                     227
+
+FoW: 1-16 (Tavare), 2-69 (Randall), 3-89 (Lamb), 4-157 (Botham),
+     5-173 (Gower), 6-187 (Pringle), 7-197 (Greig),
+     8-217 (Hemmings), 9-226 (Taylor), 10-227 (Jackman).
+
+Bowling                      O      M      R      W
+Imran Khan                  23      4     55      2
+Sarfraz Nawaz               23      4     56      3
+Tahir Naqqash               12      4     25      1
+Abdul Qadir                 24      9     39      4
+Mudassar Nazar               4      1      6      0
+
+England 2nd innings (following on)                              R   M   B  4 6
+DW Randall                               b Mudassar Nazar       9  46  33  1 0
+CJ Tavare             c Javed Miandad    b Imran Khan          82 406 277  6 0
+AJ Lamb               lbw                b Mudassar Nazar       0   1   2  0 0
+*DI Gower             c Wasim Bari       b Mudassar Nazar       0   5   3  0 0
+IT Botham             c Sarfraz Nawaz    b Mudassar Nazar      69 202 156  9 0
+MW Gatting            c Wasim Bari       b Mudassar Nazar       7  24  18  1 0
+DR Pringle            c Javed Miandad    b Abdul Qadir         14  72  62  1 0
+IA Greig              lbw                b Mudassar Nazar       2   7   8  0 0
+EE Hemmings           c Wasim Bari       b Imran Khan          14  57  38  0 0
++RW Taylor            not out                                  24  82  68  2 0
+RD Jackman            c Haroon Rasheed   b Abdul Qadir         17  61  58  1 0
+Extras                (b 10, lb 19, w 5, nb 4)                 38
+Total                 (all out, 119.5 overs)                  276
+
+FoW: 1-9 (Randall), 2-9 (Lamb), 3-9 (Gower), 4-121 (Botham),
+     5-132 (Gatting), 6-171 (Pringle), 7-180 (Greig),
+     8-224 (Tavare), 9-235 (Hemmings), 10-276 (Jackman).
+
+Bowling                      O      M      R      W
+Imran Khan                  42     13     84      2
+Sarfraz Nawaz               14      5     22      0
+Tahir Naqqash                7      5      6      0
+Abdul Qadir                 37.5   15     94      2
+Mudassar Nazar              19      7     32      6
+
+Pakistan 2nd innings (target: 76 runs)                          R   M   B  4 6
+Mohsin Khan           not out                                  39  59  43  3 0
+Javed Miandad         not out                                  26  59  36  3 0
+Extras                (b 1, lb 10, w 1)                        12
+Total                 (0 wickets, 13.1 overs)                  77
+
+DNB: Mudassar Nazar, Mansoor Akhtar, Zaheer Abbas,
+     Haroon Rasheed, *Imran Khan, Tahir Naqqash, +Wasim Bari,
+     Abdul Qadir, Sarfraz Nawaz.
+
+Bowling                      O      M      R      W
+Botham                       7      0     30      0
+Jackman                      4      0     22      0
+Hemmings                     2.1    0     13      0
+
+<END>

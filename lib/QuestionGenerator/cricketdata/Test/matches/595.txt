@@ -1,0 +1,124 @@
+
+Test # 595
+South Africa in England, 1965, 2nd Test
+England v South Africa
+Trent Bridge, Nottingham
+5,6,7,9 August 1965 (5-day match)
+
+Result: South Africa won by 94 runs
+Series: South Africa leads the 3-match series 1-0
+
+Toss: South Africa
+Umpires: JF Crapp and CS Elliott
+
+Close of play:
+ Day 1: South Africa 269, England 16/2 (Barber 8*, Titmus 4*)
+ Day 2: England 240, South Africa 27/1 (Lindsay 6*, Bacher 18*)
+ Day 3: South Africa 289, England 10/2 (Boycott 3*, Snow 0*)
+
+South Africa 1st innings                                        R   M   B  4 6
+EJ Barlow             c Cowdrey          b Cartwright          19  85      3 0
+HR Lance              lbw                b Cartwright           7  46      0 0
++DT Lindsay           c Parks            b Cartwright           0   1      0 0
+RG Pollock            c Cowdrey          b Cartwright         125 139 145 21 0
+KC Bland              st Parks           b Titmus               1   3      0 0
+A Bacher                                 b Snow                12  32      2 0
+*PL van der Merwe     run out                                  38 107      5 0
+R Dumbrill            c Parfitt          b Cartwright          30 106      2 0
+JT Botten             c Parks            b Larter              10  37      1 0
+PM Pollock            c Larter           b Cartwright          15  41      2 0
+AH McKinnon           not out                                   8  15      1 0
+Extras                (lb 4)                                    4
+Total                 (all out, 101.3 overs)                  269
+
+FoW: 1-16 (Lance), 2-16 (Lindsay), 3-42 (Barlow), 4-43 (Bland),
+     5-80 (Bacher), 6-178 (RG Pollock), 7-221 (van der Merwe),
+     8-242 (Botten), 9-252 (Dumbrill), 10-269 (PM Pollock).
+
+Bowling                      O      M      R      W
+Larter                      17      6     25      1
+Snow                        22      6     63      1
+Cartwright                  31.3    9     94      6
+Titmus                      22      8     44      1
+Barber                       9      3     39      0
+
+England 1st innings                                             R   M   B  4 6
+G Boycott             c Lance            b PM Pollock           0   1      0 0
+RW Barber             c Bacher           b Dumbrill            41 105      4 0
+KF Barrington                            b PM Pollock           1  12      0 0
+FJ Titmus             c RG Pollock       b McKinnon            20  92      2 0
+MC Cowdrey            c Lindsay          b Botten             105 188     11 0
+PH Parfitt            c Dumbrill         b PM Pollock          18  80      2 0
+*MJK Smith                               b PM Pollock          32 106      2 0
++JM Parks                            c & b Botten               6  15      0 0
+JA Snow               run out                                   3  19      0 0
+JDF Larter                               b PM Pollock           2  13      0 0
+TW Cartwright         not out                                   1   6      0 0
+Extras                (b 1, lb 3, w 1, nb 6)                   11
+Total                 (all out, 93.5 overs)                   240
+
+FoW: 1-0 (Boycott), 2-8 (Barrington), 3-63 (Barber),
+     4-67 (Titmus), 5-133 (Parfitt), 6-225 (Cowdrey),
+     7-229 (Smith), 8-236 (Parks), 9-238 (Snow), 10-240 (Larter).
+
+Bowling                      O      M      R      W
+PM Pollock                  23.5    8     53      5
+Botten                      23      5     60      2
+McKinnon                    28     11     54      1
+Dumbrill                    18      3     60      1
+RG Pollock                   1      0      2      0
+
+South Africa 2nd innings                                        R   M   B  4 6
++DT Lindsay           c Cowdrey          b Larter               9  68      0 0
+HR Lance              c Barber           b Snow                 0   3      0 0
+A Bacher              lbw                b Larter              67 197      6 0
+EJ Barlow                                b Titmus              76 192      8 0
+RG Pollock            c Titmus           b Larter              59  83      8 0
+KC Bland                                 b Snow                10  19      1 1
+*PL van der Merwe     c Parfitt          b Larter               4  17      0 0
+R Dumbrill                               b Snow                13  40      1 0
+JT Botten                                b Larter              18  23      2 0
+PM Pollock            not out                                  12  42      1 0
+AH McKinnon                              b Titmus               9  25      1 0
+Extras                (b 4, lb 5, nb 3)                        12
+Total                 (all out, 110.4 overs)                  289
+
+FoW: 1-2 (Lance), 2-35 (Lindsay), 3-134 (Bacher), 4-193 (Barlow),
+     5-228 (Bland), 6-232 (RG Pollock), 7-243 (van der Merwe),
+     8-265 (Dumbrill), 9-269 (Botten), 10-289 (McKinnon).
+
+Bowling                      O      M      R      W
+Larter                      29      7     68      5
+Snow                        33      6     83      3
+Titmus                      19.4    5     46      2
+Boycott                     26     10     60      0
+Barber                       3      0     20      0
+
+England 2nd innings (target: 319 runs)                          R   M   B  4 6
+G Boycott                                b McKinnon            16 110      1 0
+RW Barber             c Lindsay          b PM Pollock           1  11      0 0
+FJ Titmus             c Lindsay          b McKinnon             4  20      1 0
+JA Snow                                  b Botten               0  13      0 0
+KF Barrington         c Lindsay          b PM Pollock           1  11      0 0
+MC Cowdrey            st Lindsay         b McKinnon            20  35      3 0
+PH Parfitt                               b PM Pollock          86 255      9 0
+*MJK Smith            lbw                b RG Pollock          24  83      3 0
++JM Parks             not out                                  44 148      3 0
+TW Cartwright         lbw                b PM Pollock           0   1      0 0
+JDF Larter            c van der Merwe    b PM Pollock          10  15      1 0
+Extras                (lb 5, w 2, nb 11)                       18
+Total                 (all out, 98 overs)                     224
+
+FoW: 1-1 (Barber), 2-10 (Titmus), 3-10 (Snow), 4-13 (Barrington),
+     5-41 (Cowdrey), 6-59 (Boycott), 7-114 (Smith),
+     8-207 (Parfitt), 9-207 (Cartwright), 10-224 (Larter).
+
+Bowling                      O      M      R      W
+PM Pollock                  24     15     34      5
+Botten                      19      5     58      1
+McKinnon                    27     12     50      3
+Dumbrill                    16      4     40      0
+Barlow                       7      1     20      0
+RG Pollock                   5      2      4      1
+
+<END>

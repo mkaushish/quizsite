@@ -1,0 +1,115 @@
+
+Test # 155
+South Africa in England, 1924, 3rd Test
+England v South Africa
+Headingley, Leeds
+12,14,15 July 1924 (3-day match)
+
+Result: England won by 9 wickets
+Series: England leads the 5-match series 3-0
+
+Toss: England
+Umpires: W Reeves and AE Street
+
+Close of play:
+ Day 1: England 396, South Africa 15/2 (Ward 5*, Susskind 4*)
+ Day 2: South Africa 132, South Africa 232/4 (Taylor 54*, Catterall 54*)
+
+England 1st innings                                             R   M   B  4 6
+JB Hobbs              c Pegler           b Nourse              31            0
+H Sutcliffe           c Nupen            b Blanckenberg        83         12 0
+JW Hearne             lbw                b Pegler              20            0
+FE Woolley                               b Pegler               0          0 0
+EH Hendren            c Deane            b Nupen              132         20 0
+GE Tyldesley          run out                                  15            0
+MW Tate               c Taylor           b Carter              29            0
+*AER Gilligan         c Catterall        b Pegler              28            1
+RK Tyldesley          c Carter           b Pegler              29            0
++GEC Wood             run out                                   6            0
+GG Macaulay           not out                                   0          0 0
+Extras                (b 13, lb 8, w 1, nb 1)                  23
+Total                 (all out, 116 overs)                    396
+
+FoW: 1-72 (Hobbs), 2-130 (Hearne), 3-130 (Woolley),
+     4-201 (Sutcliffe), 5-248 (GE Tyldesley), 6-305 (Tate),
+     7-350 (Gilligan), 8-365 (Hendren), 9-386 (RK Tyldesley),
+     10-396 (Wood).
+
+Bowling                      O      M      R      W
+Nupen                       30      8     85      1
+Pegler                      35      6    116      4
+Nourse                      24      7     67      1
+Blanckenberg                12      0     58      1
+Carter                      15      2     47      1
+
+South Africa 1st innings                                        R   M   B  4 6
+JMM Commaille         run out                                   4            0
+HG Deane                             c & b Tate                 2          0 0
++TA Ward                                 b Tate                17            0
+MJ Susskind                              b Gilligan             4            0
+AW Nourse             run out                                   3          0 0
+*HW Taylor            not out                                  59            1
+RH Catterall          c Wood             b Tate                29            0
+EP Nupen              c Wood             b Tate                 0          0 0
+SJ Pegler             lbw                b Tate                 0          0 0
+JM Blanckenberg                          b Tate                 0          0 0
+CP Carter             c Hendren          b Macaulay            11            0
+Extras                (lb 1, nb 2)                              3
+Total                 (all out, 51.3 overs)                   132
+
+FoW: 1-6 (Deane), 2-10 (Commaille), 3-16 (Susskind), 4-30 (Ward),
+     5-34 (Nourse), 6-88 (Catterall), 7-88 (Nupen),
+     8-90 (Pegler), 9-90 (Blanckenberg), 10-132 (Carter).
+
+Bowling                      O      M      R      W
+Gilligan                    10      3     27      1
+Tate                        17      4     42      6
+Macaulay                    11.3    2     23      1
+RK Tyldesley                13      4     37      0
+
+South Africa 2nd innings (following on)                         R   M   B  4 6
+JMM Commaille         st Wood            b RK Tyldesley        31            0
++TA Ward              lbw                b Hearne              25            0
+MJ Susskind           lbw                b RK Tyldesley        23            0
+AW Nourse             c Wood             b RK Tyldesley        30            0
+*HW Taylor            run out                                  56            1
+RH Catterall                             b Tate                56            1
+HG Deane              not out                                  47            0
+JM Blanckenberg                          b Tate                 6            0
+EP Nupen                                 b Macaulay            11            0
+SJ Pegler             run out                                  14            0
+CP Carter                                b Tate                 0          0 0
+Extras                (b 14, lb 7, nb 3)                       24
+Total                 (all out, 127 overs)                    323
+
+FoW: 1-35 (Ward), 2-81 (Commaille), 3-82 (Susskind),
+     4-135 (Nourse), 5-234 (Taylor), 6-238 (Catterall),
+     7-244 (Blanckenberg), 8-276 (Nupen), 9-318 (Pegler),
+     10-323 (Carter, 127.0 ov).
+
+Bowling                      O      M      R      W
+Gilligan                    18      7     37      0
+Tate                        30      6     64      3
+Macaulay                    27      8     60      1
+RK Tyldesley                24      8     63      3
+Hearne                      19      3     54      1
+Woolley                      9      2     21      0
+
+England 2nd innings (target: 60 runs)                           R   M   B  4 6
+JB Hobbs                                 b Blanckenberg         7            0
+H Sutcliffe           not out                                  29            0
+JW Hearne             not out                                  23  30        0
+Extras                (lb 1)                                    1
+Total                 (1 wicket, 22.2 overs)                   60
+
+DNB: FE Woolley, EH Hendren, GE Tyldesley, MW Tate,
+     *AER Gilligan, RK Tyldesley, +GEC Wood, GG Macaulay.
+
+FoW: 1-17 (Hobbs).
+
+Bowling                      O      M      R      W
+Pegler                      11.2    3     30      0
+Blanckenberg                10      2     23      1
+Nupen                        1      0      6      0
+
+<END>

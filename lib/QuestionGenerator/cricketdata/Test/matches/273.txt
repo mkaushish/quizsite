@@ -1,0 +1,114 @@
+
+Test # 273
+West Indies in England, 1939, 2nd Test
+England v West Indies
+Old Trafford, Manchester
+22,24,25 July 1939 (3-day match)
+
+Result: Match drawn
+Series: England leads the 3-match series 1-0
+
+Toss: West Indies
+Umpires: F Chester and EJ Smith
+Balls per over: 8
+Test debuts: GE Gomez, EAV Williams (West Indies).
+
+Close of play:
+ Day 1: England 11/0 (Hutton 6*, Fagg 2*)
+ Day 2: England 164/7d, West Indies 85/3 (Headley 16*, Sealy 13*)
+
+England 1st innings                                             R   M   B  4 6
+L Hutton              c Martindale       b Grant               13            0
+AE Fagg                                  b Hylton               7            0
+E Paynter             c Sealy            b Clarke               9            0
+*WR Hammond           st Sealy           b Clarke              22            0
+DCS Compton           hit wicket         b Clarke               4            0
+J Hardstaff jnr       c Williams         b Grant               76 100      8 1
++A Wood                              c & b Constantine         26            0
+DVP Wright            not out                                   1          0 0
+Extras                (b 3, lb 2, nb 1)                         6
+Total                 (7 wickets dec, 55.2 overs)             164
+
+DNB: WE Bowes, WH Copson, TWJ Goddard.
+
+FoW: 1-21 (Fagg), 2-34 (Paynter), 3-34 (Hutton), 4-53 (Compton),
+     5-62 (Hammond), 6-150 (Wood), 7-164 (Hardstaff).
+
+Bowling                      O      M      R      W
+Martindale                   8      2     10      0
+Hylton                      11      3     15      1
+Clarke                      13      1     59      3
+Grant                       13.2    4     16      2
+Cameron                      3      0     22      0
+Constantine                  7      2     36      1
+
+West Indies 1st innings                                         R   M   B  4 6
+*RS Grant             c Fagg             b Goddard             47          4 3
+JB Stollmeyer                        c & b Goddard              5            0
+GA Headley            c Wood             b Bowes               51            0
+GE Gomez              c Wood             b Bowes                0          0 0
++JED Sealy            c Hammond          b Bowes               16            0
+JH Cameron            c Hutton           b Bowes                5            0
+EAV Williams                             b Copson               1          0 0
+LN Constantine                           b Bowes                0          0 0
+EA Martindale         c Hammond          b Copson               0          0 0
+LG Hylton             lbw                b Bowes                2          0 0
+CB Clarke             not out                                   0          0 0
+Extras                (lb 6)                                    6
+Total                 (all out, 35.4 overs)                   133
+
+FoW: 1-35 (Stollmeyer), 2-56 (Grant), 3-56 (Gomez), 4-96 (Sealy),
+     5-108 (Cameron), 6-113 (Williams), 7-124 (Constantine),
+     8-125 (Martindale), 9-132 (Hylton), 10-133 (Headley).
+
+Bowling                      O      M      R      W
+Bowes                       17.4    4     33      6
+Copson                       9      2     31      2
+Goddard                      4      0     43      2
+Wright                       5      1     20      0
+
+England 2nd innings                                             R   M   B  4 6
+L Hutton              c Sealy            b Martindale          17            0
+AE Fagg                                  b Constantine         32            0
+E Paynter             c Gomez            b Martindale           0          0 0
+*WR Hammond                              b Constantine         32            0
+DCS Compton           not out                                  34            0
+J Hardstaff jnr       c Grant            b Constantine          1          0 0
++A Wood                                  b Constantine          1          0 0
+DVP Wright            not out                                   0          0 0
+Extras                (b 8, lb 2, nb 1)                        11
+Total                 (6 wickets dec, 38 overs)               128
+
+DNB: WE Bowes, WH Copson, TWJ Goddard.
+
+FoW: 1-26 (Hutton), 2-30 (Paynter), 3-74 (Fagg), 4-89 (Hammond),
+     5-113 (Hardstaff), 6-126 (Wood).
+
+Bowling                      O      M      R      W
+Martindale                  12      2     34      2
+Hylton                       6      1     18      0
+Constantine                 11      1     42      4
+Williams                     9      1     23      0
+
+West Indies 2nd innings (target: 160 runs)                      R   M   B  4 6
+*RS Grant             c Hardstaff        b Bowes                0   1   1  0 0
+JB Stollmeyer         lbw                b Wright              10            0
+GA Headley            c Hammond          b Copson               5            0
+GE Gomez                                 b Goddard             11            0
++JED Sealy            not out                                  13            0
+Extras                (lb 3, nb 1)                              4
+Total                 (4 wickets, 15.6 overs)                  43
+
+DNB: JH Cameron, EAV Williams, LN Constantine, EA Martindale,
+     LG Hylton, CB Clarke.
+
+FoW: 1-0 (Grant), 2-11 (Headley), 3-27 (Stollmeyer),
+     4-43 (Gomez).
+
+Bowling                      O      M      R      W
+Bowes                        5      0     13      1
+Copson                       3      1      2      1
+Goddard                      4.6    1     15      1
+Wright                       3      0      9      1
+
+<END>

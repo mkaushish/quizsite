@@ -1,0 +1,50 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+1001, 1984-11-28, 1, 2, India, c Kirmani, Sivaramakrishnan, 22, 103, 82, 3, 0
+1001, 1984-11-28, 3, 2, India, lbw, Kapil Dev, 1, 18, 12, 0, 0
+1004, 1984-12-12, 2, 2, India, c Gavaskar, Kapil Dev, 160, 508, 390, 17, 0
+1004, 1984-12-12, 4, 2, India, run out, , 18, 49, 27, 1, 0
+1007, 1985-12-31, 2, 2, India, , Yadav, 36, 168, 108, 3, 0
+1008, 1985-01-13, 2, 2, India, c Kirmani, Sivaramakrishnan, 74, 231, 163, 10, 0
+1008, 1985-01-13, 4, 2, India, not out, , 21, 32, 26, 4, 0
+1011, 1985-01-31, 2, 2, India, lbw, Kapil Dev, 96, 363, 279, 13, 0
+1011, 1985-01-31, 4, 2, India, retired hurt, , 16, 68, 59, 1, 0
+1017, 1985-06-13, 2, 2, Australia, c Boon, Lawson, 175, 414, 272, 26, 0
+1017, 1985-06-13, 4, 2, Australia, , Lawson, 21, 48, 31, 4, 0
+1018, 1985-06-27, 1, 2, Australia, lbw, McDermott, 6, 38, 23, 0, 0
+1018, 1985-06-27, 3, 2, Australia, , Holland, 12, 43, 29, 0, 0
+1019, 1985-07-11, 1, 2, Australia, c Border, Lawson, 38, 65, 54, 6, 0
+1019, 1985-07-11, 3, 2, Australia, not out, , 77, 270, 197, 4, 0
+1020, 1985-08-01, 2, 2, Australia, c Border, McDermott, 10, 19, 12, 2, 0
+1021, 1985-08-15, 2, 2, Australia, , Lawson, 148, 393, 294, 18, 0
+1022, 1985-08-29, 1, 2, Australia, , McDermott, 3, 35, 21, 0, 0
+1036, 1986-02-21, 1, 2, West Indies, c Greenidge, Patterson, 6, 59, 32, 0, 0
+1036, 1986-02-21, 3, 2, West Indies, , Garner, 0, 8, 4, 0, 0
+1042, 1986-03-21, 2, 2, West Indies, c Dujon, Marshall, 3, 18, 13, 0, 0
+1042, 1986-03-21, 3, 2, West Indies, , Patterson, 43, 98, 71, 7, 0
+1044, 1986-04-03, 1, 2, West Indies, c Marshall, Garner, 0, 17, 3, 0, 0
+1044, 1986-04-03, 3, 2, West Indies, , Garner, 5, 48, 34, 0, 0
+1045, 1986-04-11, 2, 3, West Indies, , Marshall, 12, 49, 29, 1, 0
+1045, 1986-04-11, 4, 3, West Indies, run out, , 3, 22, 11, 0, 0
+1046, 1986-06-05, 1, 2, India, c Azharuddin, Maninder Singh, 35, 94, 70, 5, 0
+1046, 1986-06-05, 3, 2, India, c Amarnath, Kapil Dev, 11, 39, 28, 0, 0
+1075, 1987-06-04, 1, 2, Pakistan, c Saleem Yousuf, Mohsin Kamal, 166, 528, 365, 16, 0
+1076, 1987-06-18, 1, 2, Pakistan, c Saleem Yousuf, Mohsin Kamal, 7, 46, 39, 0, 0
+1077, 1987-07-02, 1, 2, Pakistan, lbw, Imran Khan, 0, 1, 1, 0, 0
+1077, 1987-07-02, 3, 2, Pakistan, c Saleem Malik, Imran Khan, 2, 10, 4, 0, 0
+1078, 1987-07-23, 2, 2, Pakistan, c Saleem Yousuf, Wasim Akram, 80, 270, 208, 11, 0
+1078, 1987-07-23, 4, 2, Pakistan, c Imran Khan, Wasim Akram, 4, 27, 10, 0, 0
+1079, 1987-08-06, 2, 3, Pakistan, , Abdul Qadir, 30, 78, 62, 5, 0
+1079, 1987-08-06, 3, 3, Pakistan, c Wasim Akram, Abdul Qadir, 10, 26, 24, 1, 0
+1081, 1987-11-25, 1, 3, Pakistan, c Ashraf Ali, Abdul Qadir, 6, 37, 33, 0, 0
+1081, 1987-11-25, 3, 3, Pakistan, lbw, Abdul Qadir, 1, 3, 2, 0, 0
+1083, 1987-12-07, 1, 5, Pakistan, c Ashraf Ali, Abdul Qadir, 2, 19, 12, 0, 0
+1083, 1987-12-07, 3, 8, Pakistan, not out, , 7, 30, 29, 0, 0
+1090, 1988-01-29, 1, 3, Australia, c Veletta, Dodemaide, 43, 142, 121, 4, 0
+1091, 1988-02-12, 1, 3, New Zealand, c Smith, Morrison, 70, 203, 182, 7, 0
+1091, 1988-02-12, 3, 3, New Zealand, c Wright, Chatfield, 2, 27, 19, 0, 0
+1093, 1988-02-25, 2, 3, New Zealand, c Morrison, Bracewell, 54, 182, 150, 7, 0
+1094, 1988-03-03, 2, 3, New Zealand, c Smith, Chatfield, 0, 9, 7, 0, 0
+1103, 1988-08-25, 2, 2, Sri Lanka, c Samarasekera, Ratnayeke, 19, 76, 58, 1, 0
+1103, 1988-08-25, 4, 2, Sri Lanka, not out, , 34, 134, 109, 4, 0
+1124, 1989-07-27, 1, 3, Australia, lbw, Lawson, 0, 15, 9, 0, 0
+1124, 1989-07-27, 3, 3, Australia, lbw, Lawson, 12, 32, 28, 1, 0

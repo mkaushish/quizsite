@@ -1,0 +1,52 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+1233, 1993-09-06, 1, 8, South Africa, c Richardson, Schultz, 5, 36, 18, 0, 0
+1233, 1993-09-06, 3, 9, South Africa, c Richardson, Schultz, 2, 21, 16, 0, 0
+1234, 1993-09-14, 2, 8, South Africa, c Richardson, Schultz, 5, 33, 27, 0, 0
+1265, 1994-08-09, 2, 8, Pakistan, c Aamer Sohail, Wasim Akram, 1, 14, 17, 0, 0
+1265, 1994-08-09, 4, 8, Pakistan, lbw, Wasim Akram, 30, 50, 49, 5, 0
+1267, 1994-08-26, 1, 9, Pakistan, lbw, Waqar Younis, 0, 4, 2, 0, 0
+1267, 1994-08-26, 3, 9, Pakistan, c sub (Zahid Fazal), Mushtaq Ahmed, 3, 19, 9, 0, 0
+1271, 1994-10-20, 2, 8, Zimbabwe, run out, , 54, 298, 223, 8, 0
+1271, 1994-10-20, 3, 4, Zimbabwe, c James, Whittall, 18, 98, 69, 2, 0
+1272, 1994-10-26, 1, 9, Zimbabwe, c A Flower, Strang, 21, 101, 85, 3, 0
+1305, 1995-09-15, 1, 7, Pakistan, run out, , 0, 4, 0, 0, 0
+1305, 1995-09-15, 3, 7, Pakistan, c Moin Khan, Mohammad Akram, 49, 172, 142, 6, 0
+1306, 1995-09-22, 1, 7, Pakistan, not out, , 62, 217, 133, 4, 0
+1306, 1995-09-22, 3, 8, Pakistan, c Inzamam-ul-Haq, Mohammad Akram, 7, 27, 28, 0, 0
+1317, 1995-12-08, 1, 8, Australia, , McDermott, 30, 92, 72, 4, 0
+1317, 1995-12-08, 3, 8, Australia, lbw, McDermott, 18, 87, 63, 3, 0
+1324, 1996-01-25, 2, 8, Australia, c Healy, McGrath, 0, 3, 3, 0, 0
+1324, 1996-01-25, 4, 8, Australia, c Taylor, SR Waugh, 2, 21, 16, 0, 0
+1333, 1996-09-11, 1, 8, Zimbabwe, not out, , 42, 99, 78, 4, 0
+1359, 1997-03-14, 2, 7, New Zealand, c Fleming, Davis, 27, 119, 86, 2, 1
+1359, 1997-03-14, 4, 8, New Zealand, not out, , 38, 69, 57, 3, 1
+1366, 1997-04-19, 1, 8, Pakistan, , Saqlain Mushtaq, 1, 27, 22, 0, 0
+1366, 1997-04-19, 3, 8, Pakistan, not out, , 11, 54, 52, 0, 0
+1369, 1997-06-13, 1, 8, West Indies, c Browne, Ambrose, 29, 90, 63, 3, 0
+1369, 1997-06-13, 3, 7, West Indies, c Walsh, Rose, 31, 68, 47, 4, 0
+1371, 1997-06-20, 2, 8, West Indies, , Hooper, 10, 13, 10, 1, 0
+1371, 1997-06-20, 4, 8, West Indies, c Browne, Ambrose, 7, 39, 20, 0, 0
+1385, 1997-11-19, 1, 8, India, not out, , 37, 89, 58, 5, 0
+1385, 1997-11-19, 3, 7, India, , Srinath, 25, 65, 116, 3, 0
+1390, 1997-12-03, 2, 3, India, c Kumble, Chauhan, 40, 212, 142, 3, 0
+1390, 1997-12-03, 4, 6, India, c Azharuddin, Kumble, 8, 71, 58, 0, 0
+1416, 1998-06-03, 2, 8, New Zealand, run out (Harris), , 12, 76, 65, 1, 0
+1418, 1998-06-10, 1, 8, New Zealand, c Parore, Cairns, 11, 60, 42, 2, 0
+1418, 1998-06-10, 3, 8, New Zealand, , McMillan, 11, 55, 54, 0, 0
+1423, 1998-08-27, 2, 8, England, lbw, Fraser, 13, 61, 39, 2, 0
+1502, 2000-06-28, 1, 7, Pakistan, not out, , 12, 30, 30, 1, 0
+1504, 2000-06-20, 1, 7, South Africa, c Klusener, Pollock, 4, 49, 43, 0, 0
+1505, 2000-07-30, 2, 7, South Africa, c Boucher, Pollock, 3, 22, 14, 0, 0
+1505, 2000-07-30, 4, 7, South Africa, c Rhodes, Klusener, 1, 10, 13, 0, 0
+1532, 2001-02-07, 1, 8, England, c Thorpe, Gough, 1, 10, 8, 0, 0
+1532, 2001-02-07, 3, 8, England, c Hick, Gough, 54, 226, 181, 8, 0
+1641, 2003-03-25, 2, 8, New Zealand, lbw, Vettori, 31, 158, 102, 3, 0
+1644, 2003-04-03, 2, 6, New Zealand, c Fleming, Wiseman, 5, 29, 23, 0, 0
+1649, 2003-05-27, 1, 7, West Indies, c Samuels, Collymore, 6, 29, 26, 0, 0
+1649, 2003-05-27, 3, 7, West Indies, c Lara, Collymore, 20, 60, 40, 3, 0
+1670, 2003-11-02, 1, 8, England, lbw, Batty, 27, 74, 69, 2, 0
+1670, 2003-11-02, 3, 9, England, lbw, Hoggard, 2, 40, 21, 0, 0
+1672, 2003-11-10, 1, 9, England, lbw, Giles, 29, 140, 91, 4, 0
+1672, 2003-11-10, 3, 9, England, not out, , 7, 4, 4, 1, 0
+1685, 2004-02-08, 2, 10, Australia, c Hayden, Warne, 6, 13, 13, 1, 0
+1685, 2004-02-08, 4, 10, Australia, c Hayden, Warne, 0, 4, 6, 0, 0

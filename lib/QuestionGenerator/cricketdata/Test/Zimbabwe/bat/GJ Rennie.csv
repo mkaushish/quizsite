@@ -1,0 +1,47 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+1378, 1997-09-18, 1, 1, New Zealand, c Fleming, Cairns, 23, 76, 70, 3, 0
+1378, 1997-09-18, 3, 1, New Zealand, c Harris, O'Connor, 57, 221, 166, 2, 0
+1379, 1997-09-25, 1, 1, New Zealand, c Harris, O'Connor, 57, 184, 122, 6, 0
+1379, 1997-09-25, 3, 1, New Zealand, lbw, Astle, 24, 81, 63, 3, 0
+1394, 1998-01-07, 2, 1, Sri Lanka, c de Silva, Silva, 53, 285, 219, 2, 0
+1394, 1998-01-07, 3, 1, Sri Lanka, lbw, Muralitharan, 24, 92, 73, 1, 0
+1395, 1998-01-14, 1, 1, Sri Lanka, c Kaluwitharana, Muralitharan, 50, 137, 103, 6, 0
+1395, 1998-01-14, 3, 1, Sri Lanka, c Kaluwitharana, de Silva, 12, 25, 20, 3, 0
+1401, 1998-02-19, 1, 1, New Zealand, , Doull, 13, 59, 43, 1, 0
+1401, 1998-02-19, 3, 1, New Zealand, lbw, Doull, 15, 34, 28, 2, 0
+1402, 1998-02-26, 1, 1, New Zealand, c Parore, Doull, 0, 3, 5, 0, 0
+1402, 1998-02-26, 3, 2, New Zealand, c Fleming, Cairns, 0, 13, 8, 0, 0
+1412, 1998-03-21, 1, 2, Pakistan, c Rashid Latif, Azhar Mahmood, 13, 80, 58, 0, 0
+1412, 1998-03-21, 3, 2, Pakistan, c Yousuf Youhana, Waqar Younis, 0, 23, 14, 0, 0
+1425, 1998-10-07, 1, 2, India, c sub (DS Mohanty), Agarkar, 47, 176, 123, 5, 0
+1425, 1998-10-07, 3, 1, India, c Singh, Harbhajan Singh, 84, 284, 232, 9, 1
+1430, 1998-11-27, 2, 1, Pakistan, lbw, Wasim Akram, 2, 12, 12, 0, 0
+1430, 1998-11-27, 4, 1, Pakistan, c Ijaz Ahmed, Wasim Akram, 6, 33, 25, 1, 0
+1432, 1998-12-10, 1, 1, Pakistan, c Ijaz Ahmed, Waqar Younis, 3, 14, 10, 0, 0
+1432, 1998-12-10, 3, 1, Pakistan, not out, , 16, 60, 49, 2, 0
+1463, 1999-10-14, 1, 1, Australia, c Ponting, McGrath, 18, 82, 58, 2, 0
+1463, 1999-10-14, 3, 4, Australia, c McGrath, Miller, 23, 74, 60, 3, 0
+1466, 1999-11-29, 1, 7, South Africa, c Cullinan, Kallis, 14, 67, 39, 1, 0
+1466, 1999-11-29, 3, 7, South Africa, c Boucher, Adams, 10, 93, 62, 0, 0
+1468, 1999-11-11, 1, 7, South Africa, c Cullinan, Klusener, 11, 61, 37, 1, 0
+1468, 1999-11-11, 3, 7, South Africa, c Donald, Adams, 34, 70, 59, 3, 1
+1470, 1999-11-18, 1, 2, Sri Lanka, lbw, Wickramasinghe, 16, 77, 49, 0, 0
+1470, 1999-11-18, 3, 2, Sri Lanka, c Kaluwitharana, Vaas, 2, 22, 9, 0, 0
+1510, 2000-08-12, 1, 2, New Zealand, c McMillan, Wiseman, 36, 206, 180, 1, 0
+1510, 2000-08-12, 3, 2, New Zealand, , Cairns, 2, 28, 23, 0, 0
+1511, 2000-08-19, 2, 2, New Zealand, c Spearman, Cairns, 4, 15, 6, 0, 0
+1511, 2000-08-19, 3, 2, New Zealand, c Spearman, O'Connor, 1, 23, 14, 0, 0
+1515, 2000-10-18, 1, 2, India, c Dahiya, Srinath, 13, 41, 28, 2, 0
+1515, 2000-10-18, 3, 2, India, c Ganguly, Srinath, 0, 24, 12, 0, 0
+1517, 2000-10-25, 2, 2, India, run out (Agarkar), , 19, 58, 27, 2, 0
+1517, 2000-10-25, 3, 2, India, c Ganguly, Sarandeep Singh, 37, 69, 55, 6, 0
+1524, 2000-11-26, 2, 2, New Zealand, c Parore, McMillan, 93, 403, 323, 10, 0
+1524, 2000-11-26, 4, 2, New Zealand, c Parore, Wiseman, 37, 94, 82, 5, 0
+1581, 2001-11-27, 2, 4, Sri Lanka, lbw, Muralitharan, 35, 105, 68, 5, 0
+1581, 2001-11-27, 3, 5, Sri Lanka, c Jayawardene, Fernando, 4, 9, 7, 0, 0
+1583, 2002-01-04, 1, 4, Sri Lanka, st Sangakkara, Muralitharan, 0, 15, 8, 0, 0
+1583, 2002-01-04, 3, 4, Sri Lanka, lbw, Fernando, 68, 180, 134, 11, 0
+1585, 2002-01-12, 2, 4, Sri Lanka, c Sangakkara, Jayasuriya, 7, 30, 33, 0, 0
+1585, 2002-01-12, 4, 4, Sri Lanka, c Arnold, Muralitharan, 6, 7, 6, 1, 0
+1589, 2002-01-21, 1, 5, India, c sub (V Sehwag), Srinath, 9, 30, 24, 1, 0
+1589, 2002-01-21, 3, 5, India, c sub (V Sehwag), Kumble, 25, 68, 60, 3, 0

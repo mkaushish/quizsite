@@ -1,0 +1,44 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+921, 1982-02-17, 1, 2, England, c Taylor, Botham, 6, 91, 46, 0, 0
+921, 1982-02-17, 3, 2, England, , Willis, 9, 65, 32, 1, 0
+923, 1982-03-05, 2, 2, Pakistan, c Mansoor Akhtar, Rashid Khan, 71, 151, 131, 13, 0
+923, 1982-03-05, 4, 2, Pakistan, c Saleem Yousuf, Rashid Khan, 14, 38, 28, 3, 0
+925, 1982-03-14, 1, 1, Pakistan, , Wasim Raja, 157, 372, 330, 21, 0
+925, 1982-03-14, 3, 1, Pakistan, c Ashraf Ali, Tahir Naqqash, 13, 30, 25, 2, 0
+927, 1982-03-22, 1, 2, Pakistan, c Iqbal Qasim, Imran Khan, 20, 113, 60, 2, 0
+927, 1982-03-22, 3, 2, Pakistan, c Majid Khan, Imran Khan, 41, 130, 98, 5, 0
+950, 1983-03-04, 2, 2, New Zealand, not out, , 63, 210, 139, 6, 0
+950, 1983-03-04, 3, 2, New Zealand, lbw, Cairns, 7, 71, 54, 0, 0
+951, 1983-03-11, 1, 1, New Zealand, c Cairns, Hadlee, 8, 19, 17, 1, 0
+951, 1983-03-11, 3, 1, New Zealand, c Coney, Hadlee, 9, 18, 20, 2, 0
+955, 1983-04-22, 2, 1, Australia, c Woolley, Lillee, 0, 2, 3, 0, 0
+955, 1983-04-22, 3, 1, Australia, , Hogan, 96, 180, 145, 13, 0
+980, 1984-03-09, 2, 1, New Zealand, c Coney, Hadlee, 0, 3, 4, 0, 0
+980, 1984-03-09, 4, 1, New Zealand, c Smith, Hadlee, 5, 22, 16, 1, 0
+982, 1984-03-16, 1, 1, New Zealand, c Coney, Chatfield, 26, 163, 119, 2, 0
+982, 1984-03-16, 3, 1, New Zealand, c Hadlee, Chatfield, 65, 319, 238, 5, 0
+985, 1984-03-24, 1, 1, New Zealand, , Hadlee, 4, 4, 6, 1, 0
+985, 1984-03-24, 3, 1, New Zealand, c Coney, Hadlee, 2, 10, 7, 0, 0
+994, 1984-08-23, 1, 1, England, c Downton, Allott, 190, 642, 471, 21, 0
+994, 1984-08-23, 3, 1, England, c Gower, Botham, 13, 22, 21, 2, 0
+1023, 1985-08-30, 2, 1, India, c Viswanath, C Sharma, 13, na, na, na, 0
+1024, 1985-09-06, 1, 1, India, run out, , 19, na, na, na, 0
+1024, 1985-09-06, 3, 1, India, c Rajput, Sharma, 32, na, na, na, 0
+1025, 1985-09-14, 2, 1, India, c Viswanath, Kapil Dev, 34, na, na, na, 0
+1025, 1985-09-14, 4, 1, India, c Vengsarkar, Sharma, 5, na, na, na, 0
+1026, 1985-10-16, 1, 1, Pakistan, lbw, Abdul Qadir, 52, na, na, na, 0
+1027, 1985-10-27, 1, 1, Pakistan, c Saleem Yousuf, Imran Khan, 45, na, na, na, 0
+1027, 1985-10-27, 3, 1, Pakistan, lbw, Imran Khan, 0, na, na, 0, 0
+1028, 1985-11-07, 1, 1, Pakistan, , Wasim Akram, 17, na, na, na, 0
+1028, 1985-11-07, 3, 1, Pakistan, c Saleem Yousuf, Imran Khan, 10, na, na, na, 0
+1037, 1986-02-23, 1, 1, Pakistan, lbw, Imran Khan, 0, na, na, 0, 0
+1037, 1986-02-23, 3, 1, Pakistan, c Rameez Raja, Wasim Akram, 8, na, na, na, 0
+1041, 1986-03-14, 2, 1, Pakistan, c Zulqarnain, Mudassar Nazar, 37, na, na, na, 0
+1041, 1986-03-14, 4, 1, Pakistan, c Saleem Malik, Imran Khan, 7, na, na, na, 0
+1043, 1986-03-22, 1, 1, Pakistan, c Rameez Raja, Wasim Akram, 0, na, na, 0, 0
+1043, 1986-03-22, 3, 1, Pakistan, c Rameez Raja, Wasim Akram, 14, na, na, na, 0
+1061, 1986-12-17, 1, 1, India, lbw, Sharma, 79, 229, na, 13, 0
+1063, 1986-12-27, 1, 1, India, c Amarnath, Sharma, 6, na, na, na, 0
+1063, 1986-12-27, 3, 1, India, c Srikkanth, Kapil Dev, 6, na, na, na, 0
+1064, 1987-01-04, 2, 1, India, c Kapil Dev, Maninder Singh, 6, na, na, na, 0
+1064, 1987-01-04, 3, 1, India, , Shastri, 12, na, na, na, 0

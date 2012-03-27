@@ -1,0 +1,126 @@
+
+Test # 444
+Australia in South Africa, 1957/58, 1st Test
+South Africa v Australia
+New Wanderers Stadium, Johannesburg
+23,24,26,27,28 December 1957 (5-day match)
+
+Result: Match drawn
+Series: 5-match series level 0-0
+
+Toss: South Africa
+Umpires: A Birkett and JH McMenamin
+Balls per over: 8
+Test debuts: ATW Grout, LF Kline, I Meckiff, RB Simpson (Australia).
+
+Close of play:
+ Day 1: South Africa 222/2 (McGlew 100*, Waite 19*)
+ Day 2: South Africa 470/9d, Australia 15/0 (McDonald 10*, Burke 5*)
+ Day 3: Australia 307/7 (Benaud 80*, Grout 21*)
+ Day 4: Australia 368, South Africa 176/5 (Endean 68*, Funston 18*)
+
+South Africa 1st innings                                        R   M   B  4 6
+*DJ McGlew            c Simpson          b Meckiff            108         12 1
+TL Goddard                               b Meckiff             90         10 1
+JD Nel                                   b Meckiff              4            0
++JHB Waite            c Burge            b Benaud             115            0
+WR Endean             lbw                b Meckiff             50            0
+RA McLean                                b Meckiff             50            0
+KJ Funston            lbw                b Mackay              12            0
+HJ Tayfield                              b Davidson            18            1
+PS Heine                                 b Mackay               7            0
+VI Smith              not out                                   2          0 0
+Extras                (b 8, lb 4, w 1, nb 1)                   14
+Total                 (9 wickets dec, 130.6 overs)            470
+
+DNB: NAT Adcock.
+
+FoW: 1-176 (Goddard), 2-182 (Nel), 3-237 (McGlew),
+     4-341 (Endean), 5-412 (Waite), 6-436 (McLean),
+     7-461 (Funston), 8-465 (Tayfield), 9-470 (Heine).
+
+Bowling                      O      M      R      W
+Davidson                    32      4    115      1
+Meckiff                     31      3    125      5
+Mackay                      20.6    3     54      2
+Benaud                      27      7    115      1
+Kline                       20      6     47      0
+
+Australia 1st innings                                           R   M   B  4 6
+CC McDonald           c Tayfield         b Smith               75 210        1
+JW Burke              c Waite            b Heine               16            0
+KD Mackay             c Waite            b Heine                3          0 0
+*ID Craig                                b Heine               14            0
+PJP Burge             c Waite            b Heine                0          0 0
+RB Simpson            lbw                b Tayfield            60            0
+R Benaud              c Heine            b Adcock             122         20 0
+AK Davidson           c sub              b Heine               24            0
++ATW Grout            c Endean           b Tayfield            21            0
+I Meckiff             c Smith            b Heine               11            0
+LF Kline              not out                                   6            0
+Extras                (b 4, lb 11, nb 1)                       16
+Total                 (all out, 91.2 overs)                   368
+
+FoW: 1-34 (Burke), 2-40 (Mackay), 3-56 (Craig), 4-62 (Burge),
+     5-151 (McDonald), 6-177 (Simpson), 7-244 (Davidson),
+     8-313 (Grout), 9-355 (Benaud), 10-368 (Meckiff).
+
+Bowling                      O      M      R      W
+Heine                       14.2    3     58      6
+Adcock                      23      3    106      1
+Goddard                     16      5     57      0
+Tayfield                    29      9    101      2
+Smith                        9      2     30      1
+
+South Africa 2nd innings                                        R   M   B  4 6
+*DJ McGlew            c Simpson          b Meckiff              6            0
+TL Goddard            c Grout            b Davidson             5            0
+JD Nel                c Grout            b Davidson             7            0
++JHB Waite            c Grout            b Burke               59            0
+RA McLean             c Grout            b Davidson             0          0 0
+WR Endean             c Meckiff          b Davidson            77            0
+KJ Funston                               b Meckiff             27            0
+HJ Tayfield           c Grout            b Meckiff              3          0 0
+PS Heine              c Grout            b Davidson             2          0 0
+VI Smith              not out                                   1          0 0
+NAT Adcock            c Simpson          b Davidson             0          0 0
+Extras                (b 5, lb 7, w 1, nb 1)                   14
+Total                 (all out, 78.4 overs)                   201
+
+FoW: 1-6 (Goddard), 2-19 (McGlew), 3-19 (Nel), 4-19 (McLean),
+     5-148 (Waite), 6-193 (Endean), 7-196 (Tayfield),
+     8-199 (Funston), 9-199 (Heine), 10-201 (Adcock).
+
+Bowling                      O      M      R      W
+Davidson                    17.4    4     34      6
+Meckiff                     26      3     52      3
+Mackay                      11      1     29      0
+Benaud                       2      0     15      0
+Kline                        8      2     18      0
+Burke                       14      3     39      1
+
+Australia 2nd innings (target: 304 runs)                        R   M   B  4 6
+CC McDonald           st Waite           b Smith               25            0
+JW Burke              retired hurt                             10            0
+KD Mackay             not out                                  65 225        0
+*ID Craig                                b Tayfield            17            0
+PJP Burge                                b Tayfield            14            0
+RB Simpson            not out                                  23  55        0
+Extras                (b 6, lb 2)                               8
+Total                 (3 wickets, 73 overs)                   162
+
+DNB: R Benaud, AK Davidson, +ATW Grout, I Meckiff, LF Kline.
+
+FoW: 1-44 (McDonald), 2-85 (Craig), 3-118 (Burge).
+
+Bowling                      O      M      R      W
+Heine                        8      2     17      0
+Adcock                       3      0     11      0
+Goddard                     12      6     24      0
+Tayfield                    33     12     70      2
+Smith                       16      8     25      1
+McGlew                       1      0      7      0
+
+*** JW Burke retired hurt at 17/0
+
+<END>

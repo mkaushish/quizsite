@@ -1,0 +1,76 @@
+
+Test # 127
+Australia v South Africa, 1912, 3rd Test
+Triangular Tournament, 1912, 7th match
+Australia v South Africa
+Trent Bridge, Nottingham
+5,6,7 August 1912 (3-day match)
+
+Result: Match drawn
+Triangular Tournament points: Australia 0, South Africa 0
+Australia v South Africa Test Series: Australia wins the 3-match series 2-0
+
+Toss: South Africa
+Umpires: G Webb and WAJ West
+
+Close of play:
+ Day 1: South Africa 266/8 (White 30*, Pegler 16*)
+ Day 2: South Africa 329, Australia 219
+
+South Africa 1st innings                                        R   M   B  4 6
+*LJ Tancred           c Kelleway         b Matthews            30          2 1
+HW Taylor                                b Whitty               2          0 0
+AW Nourse                                b Whitty              64 165      6 0
+GA Faulkner           c Kelleway         b Emery               15            0
+CB Llewellyn                             b Emery               12            0
+LA Stricker           lbw                b Macartney           37            0
+SJ Snooke                                b Kelleway            20            0
+GC White              not out                                  59          2 0
+R Beaumont                               b Hazlitt              2          0 0
+SJ Pegler                                b Hazlitt             26            0
++TA Ward              c Emery            b Matthews            24            0
+Extras                (b 30, lb 7, nb 1)                       38
+Total                 (all out, 128.5 overs)                  329
+
+FoW: 1-2 (Taylor), 2-79 (Tancred), 3-116 (Faulkner),
+     4-140 (Nourse), 5-154 (Llewellyn), 6-196 (Snooke),
+     7-225 (Stricker), 8-232 (Beaumont), 9-282 (Pegler),
+     10-329 (Ward).
+
+Bowling                      O      M      R      W
+Whitty                      30     10     64      2
+Minnett                      8      3     12      0
+Hazlitt                     28     10     48      2
+Matthews                    20.5    7     27      2
+Emery                       21      1     87      2
+Kelleway                     8      2     18      1
+Macartney                   13      2     35      1
+
+Australia 1st innings                                           R   M   B  4 6
+CB Jennings           run out                                   9            0
+C Kelleway            c Faulkner         b Pegler              37            0
+CG Macartney          c Faulkner         b Llewellyn           34            1
+W Bardsley            run out                                  56          0 0
+*SE Gregory                              b Pegler              18            0
+RB Minnett            c Nourse           b Faulkner            31            0
+TJ Matthews                              b Pegler              21            0
+SH Emery                                 b Faulkner             5            0
+GR Hazlitt            not out                                   2          0 0
+WJ Whitty                                b Pegler               0          0 0
++W Carkeek            st Ward            b Faulkner             1          0 0
+Extras                (b 2, lb 3)                               5
+Total                 (all out, 94.1 overs)                   219
+
+FoW: 1-19 (Jennings), 2-61 (Macartney), 3-101 (Kelleway),
+     4-127 (Gregory), 5-171 (Bardsley), 6-199 (Minnett),
+     7-212 (Emery), 8-216 (Matthews), 9-216 (Whitty),
+     10-219 (Carkeek).
+
+Bowling                      O      M      R      W
+Pegler                      36      6     80      4
+Faulkner                    20.1    2     43      3
+Taylor                      12      5     19      0
+Llewellyn                   22      3     60      1
+Nourse                       4      1     12      0
+
+<END>

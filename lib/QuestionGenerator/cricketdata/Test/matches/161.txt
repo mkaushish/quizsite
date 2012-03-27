@@ -1,0 +1,103 @@
+
+Test # 161
+The Ashes, 1924/25, 4th Test
+Australia v England
+Melbourne Cricket Ground
+13,14,16,17,18 February 1925 (timeless match)
+
+Result: England won by an innings and 29 runs
+Series: Australia leads the 5-match series 3-1
+
+Toss: England
+Umpires: RM Crockett and DA Elder
+Balls per over: 8
+
+Close of play:
+ Day 1: England 282/2 (Sutcliffe 141*, Woolley 26*)
+ Day 2: England 548
+ Day 3: Australia 168/5 (Taylor 42*, Andrews 33*)
+ Day 4: Australia 269, Australia 175/4 (Taylor 59*, Kelleway 23*)
+
+England 1st innings                                             R   M   B  4 6
+JB Hobbs              st Oldfield        b Ryder               66 128 147  5 0
+H Sutcliffe           lbw                b Mailey             143 295 339 14 0
+JW Hearne             c Bardsley         b Richardson          44 101 106  2 0
+FE Woolley            st Oldfield        b Mailey              40  79  64  4 0
+EH Hendren                               b Ryder               65 114 132  4 0
+APF Chapman           st Oldfield        b Mailey              12  31  39  1 0
+WW Whysall            st Oldfield        b Kelleway            76 203 212  6 0
+R Kilner              lbw                b Kelleway            74 149 154 11 0
+*AER Gilligan         c Oldfield         b Kelleway             0   1   1  0 0
+MW Tate               c Taylor           b Mailey               8  21  20  1 0
++H Strudwick          not out                                   7  12   8  0 0
+Extras                (b 6, lb 2, w 3, nb 2)                   13
+Total                 (all out, 151.6 overs)                  548
+
+FoW: 1-126 (Hobbs), 2-232 (Hearne), 3-284 (Sutcliffe),
+     4-307 (Woolley), 5-346 (Chapman), 6-394 (Hendren),
+     7-527 (Whysall), 8-527 (Gilligan), 9-529 (Kilner),
+     10-548 (Tate).
+
+Bowling                      O      M      R      W
+Gregory                     22      1    102      0
+Kelleway                    29      5     70      3
+Mailey                      43.6    2    186      4
+Ryder                       25      3     83      2
+Richardson                  26      8     76      1
+Collins                      6      1     18      0
+
+Australia 1st innings                                           R   M   B  4 6
+*HL Collins           c Kilner           b Tate                22  29      2 0
+AJ Richardson                            b Hearne              19  67      2 0
+J Ryder                                  b Tate                 0   1   2  0 0
+W Bardsley            run out                                  24  18      4 0
+WH Ponsford           c Strudwick        b Hearne              21  45      0 0
+JM Taylor             c Hendren          b Woolley             86 138      9 0
+TJE Andrews           c Hearne           b Kilner              35  44      2 0
+C Kelleway            lbw                b Kilner               1  14      0 0
+JM Gregory            c Woolley          b Hearne              38  74      3 1
++WAS Oldfield         c Chapman          b Kilner               3   8      0 0
+AA Mailey             not out                                   4  16      0 0
+Extras                (b 13, lb 2, nb 1)                       16
+Total                 (all out, 63.3 overs)                   269
+
+FoW: 1-38 (Collins), 2-38 (Ryder), 3-64 (Bardsley),
+     4-74 (Richardson), 5-109 (Ponsford), 6-170 (Andrews),
+     7-172 (Kelleway), 8-244 (Taylor), 9-257 (Oldfield),
+     10-269 (Gregory).
+
+Bowling                      O      M      R      W
+Tate                        16      2     70      2
+Gilligan                     6      1     24      0
+Hearne                      19.3    1     77      3
+Kilner                      13      1     29      3
+Woolley                      9      1     53      1
+
+Australia 2nd innings (following on)                            R   M   B  4 6
+*HL Collins           c Whysall          b Kilner               1   5   4  0 0
+W Bardsley                               b Tate                 0  11   6  0 0
+JM Gregory            c Sutcliffe        b Kilner              45  56      6 0
+JM Taylor             c Woolley          b Gilligan            68 184      3 0
+J Ryder               lbw                b Woolley             38  70      3 0
+C Kelleway            c Strudwick        b Tate                42  99      4 0
+TJE Andrews           c Strudwick        b Tate                 3   6      0 0
+WH Ponsford                              b Tate                19  39      0 0
+AJ Richardson         lbw                b Hearne               3  13      0 0
++WAS Oldfield                            b Tate                 8  20      2 0
+AA Mailey             not out                                   8  14      0 0
+Extras                (b 15)                                   15
+Total                 (all out, 74.5 overs)                   250
+
+FoW: 1-5 (Collins), 2-5 (Bardsley), 3-64 (Gregory),
+     4-133 (Ryder), 5-190 (Taylor), 6-195 (Andrews),
+     7-225 (Kelleway), 8-234 (Ponsford), 9-238 (Richardson),
+     10-250 (Oldfield).
+
+Bowling                      O      M      R      W
+Tate                        25.5    6     75      5
+Gilligan                     7      0     26      1
+Hearne                      20      0     76      1
+Kilner                      16      3     41      2
+Woolley                      6      0     17      1
+
+<END>

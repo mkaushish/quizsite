@@ -1,0 +1,134 @@
+
+Test # 676
+The Ashes, 1970/71, 4th Test
+Australia v England
+Sydney Cricket Ground
+9,10,11,13,14 January 1971 (5-day match)
+
+Result: England won by 299 runs
+Series: England leads the 7-match series 1-0 (1 abandoned)
+
+Toss: England
+Umpires: TF Brooks and LP Rowan
+Balls per over: 8
+Test debut: RGD Willis (England).
+
+Close of play:
+ Day 1: England 267/7 (Snow 25*, Lever 1*)
+ Day 2: England 332, Australia 189/4 (Redpath 64*, Stackpole 26*)
+ Day 3: Australia 236, England 178/3 (Boycott 84*, D'Oliveira 56*)
+ Day 4: England 319/5d, Australia 64/4 (Lawry 24*, Stackpole 28*)
+
+England 1st innings                                             R   M   B  4 6
+G Boycott             c Gleeson          b Connolly            77 140 147 11 0
+BW Luckhurst          lbw                b Gleeson             38 167 119  3 0
+JH Edrich             c Gleeson          b GS Chappell         55 121 105  8 0
+KWR Fletcher          c Walters          b Mallett             23  91 103  2 0
+BL D'Oliveira         c Connolly         b Mallett              0   7   6  0 0
+*R Illingworth                           b Gleeson             25  93  83  3 0
++APE Knott            st Marsh           b Mallett              6  27  35  0 0
+JA Snow               c Lawry            b Gleeson             37  87  79  5 0
+P Lever               c Connolly         b Mallett             36  74  61  5 0
+DL Underwood          c GS Chappell      b Gleeson              0   1   1  0 0
+RGD Willis            not out                                  15  38  33  1 0
+Extras                (b 5, lb 2, w 1, nb 12)                  20
+Total                 (all out, 94.7 overs)                   332
+
+FoW: 1-116 (Boycott), 2-130 (Luckhurst), 3-201 (Fletcher),
+     4-205 (Edrich), 5-208 (D'Oliveira), 6-219 (Knott),
+     7-262 (Illingworth), 8-291 (Snow), 9-291 (Underwood),
+     10-332 (Lever).
+
+Bowling                      O      M      R      W
+McKenzie                    15      3     74      0
+Connolly                    13      2     43      1
+Gleeson                     29      7     83      4
+GS Chappell                 11      4     30      1
+Mallett                     16.7    5     40      4
+Walters                      3      1     11      0
+Stackpole                    7      2     31      0
+
+Australia 1st innings                                           R   M   B  4 6
+*WM Lawry             c Edrich           b Lever                9  85  66  0 0
+IM Chappell           c Underwood        b Snow                12  44  27  1 0
+IR Redpath            c Fletcher         b D'Oliveira          64 241 195  6 0
+KD Walters            c Luckhurst        b Illingworth         55 114 110  8 0
+GS Chappell                          c & b Underwood           15  40  44  2 0
+KR Stackpole          c Boycott          b Underwood           33  58  46  7 0
++RW Marsh             c D'Oliveira       b Underwood            8  32  30  1 0
+AA Mallett                               b Underwood            4  22  21  0 0
+GD McKenzie           not out                                  11  42  28  1 0
+JW Gleeson            c Fletcher         b D'Oliveira           0   7  11  0 0
+AN Connolly                              b Lever               14  22  30  2 0
+Extras                (nb 11)                                  11
+Total                 (all out, 76.6 overs)                   236
+
+FoW: 1-14 (IM Chappell), 2-38 (Lawry), 3-137 (Walters),
+     4-160 (GS Chappell), 5-189 (Redpath), 6-199 (Stackpole),
+     7-208 (Marsh), 8-208 (Mallett), 9-219 (Gleeson),
+     10-236 (Connolly).
+
+Bowling                      O      M      R      W
+Snow                        14      6     23      1
+Willis                       9      2     26      0
+Lever                        8.6    1     31      2
+Underwood                   22      7     66      4
+Illingworth                 14      3     59      1
+D'Oliveira                   9      2     20      2
+
+England 2nd innings                                             R   M   B  4 6
+G Boycott             not out                                 142 412 360 12 0
+BW Luckhurst          c IM Chappell      b McKenzie             5  20  15  1 0
+JH Edrich             run out                                  12  50  51  0 0
+KWR Fletcher          c Stackpole        b Mallett              8  18  23  1 0
+BL D'Oliveira         c IM Chappell      b GS Chappell         56 156 148  6 0
+*R Illingworth        st Marsh           b Mallett             53 131 145  6 0
++APE Knott            not out                                  21  26  20  2 0
+Extras                (b 9, lb 4, nb 9)                        22
+Total                 (5 wickets dec, 94 overs)               319
+
+DNB: JA Snow, P Lever, DL Underwood, RGD Willis.
+
+FoW: 1-7 (Luckhurst), 2-35 (Edrich), 3-48 (Fletcher),
+     4-181 (D'Oliveira), 5-276 (Illingworth).
+
+Bowling                      O      M      R      W
+McKenzie                    15      0     65      1
+Connolly                    14      1     38      0
+Gleeson                     23      4     54      0
+GS Chappell                 15      5     24      1
+Mallett                     19      1     85      2
+Walters                      2      0     14      0
+Stackpole                    6      1     17      0
+
+Australia 2nd innings (target: 416 runs)                        R   M   B  4 6
+*WM Lawry             not out                                  60 267 229  8 0
+IM Chappell           c D'Oliveira       b Snow                 0   3   1  0 0
+IR Redpath            c Edrich           b Snow                 6  21  13  0 0
+KD Walters            c Knott            b Lever                3  12   9  0 0
+GS Chappell                              b Snow                 2  14   9  0 0
+KR Stackpole          c Lever            b Snow                30  96  92  4 0
++RW Marsh             c Willis           b Snow                 0   6   7  0 0
+AA Mallett            c Knott            b Willis               6  49  43  0 0
+GD McKenzie           retired hurt                              6  44  47  1 0
+JW Gleeson                               b Snow                 0   4   5  0 0
+AN Connolly           c Knott            b Snow                 0   1   3  0 0
+Extras                (b 2, nb 1)                               3
+Total                 (all out, 56.5 overs)                   116
+
+FoW: 1-1 (IM Chappell), 2-11 (Redpath), 3-14 (Walters),
+     4-21 (GS Chappell), 5-66 (Stackpole), 6-66 (Marsh),
+     7-86 (Mallett), 8-116 (Gleeson), 9-116 (Connolly).
+
+Bowling                      O      M      R      W
+Snow                        17.5    5     40      7
+Willis                       3      2      1      1
+Lever                       11      1     24      1
+Underwood                    8      2     17      0
+Illingworth                  9      5      9      0
+D'Oliveira                   7      3     16      0
+Fletcher                     1      0      6      0
+
+*** GD McKenzie retired hurt at 107/7
+
+<END>

@@ -1,0 +1,47 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+461, 1958-12-12, 1, 7, India, lbw, Gupte, 45, 92, na, na, 0
+461, 1958-12-12, 3, 7, India, run out, , 86, na, na, na, 0
+463, 1959-12-31, 1, 7, India, not out, , 69, 140, na, na, 0
+465, 1959-01-21, 1, 7, India, lbw, Borde, 43, na, na, na, na
+465, 1959-01-21, 3, 7, India, not out, , 8, na, na, na, na
+467, 1959-02-06, 2, 6, India, not out, , 100, na, na, na, 0
+469, 1959-02-20, 1, 7, Pakistan, c Hanif Mohammad, D'Souza, 14, na, na, na, 0
+469, 1959-02-20, 3, 7, Pakistan, run out, , 66, na, na, na, 0
+471, 1959-03-06, 2, 7, Pakistan, c Imtiaz Ahmed, Nasim-ul-Ghani, 0, na, na, 0, 0
+471, 1959-03-06, 4, 7, Pakistan, c Mahmood Hussain, Fazal Mahmood, 8, na, na, na, 0
+473, 1959-03-26, 1, 7, Pakistan, c Mathias, Mahmood Hussain, 56, 165, na, 5, 0
+488, 1960-01-28, 2, 2, England, run out, , 23, na, na, na, 0
+488, 1960-01-28, 4, 2, England, c Swetman, Allen, 9, na, na, na, 0
+489, 1960-02-17, 2, 6, England, c Swetman, Allen, 8, na, na, na, 0
+489, 1960-02-17, 4, 8, England, not out, , 10, na, na, na, 0
+498, 1960-12-09, 1, 6, Australia, hit wicket, Simpson, 65, 141, na, 8, 0
+498, 1960-12-09, 3, 6, Australia, lbw, Simpson, 47, 222, na, 2, 0
+500, 1961-12-30, 2, 2, Australia, c Grout, Davidson, 0, 5, 4, 0, 0
+500, 1961-12-30, 3, 2, Australia, hit wicket, Benaud, 4, 69, 51, 0, 0
+502, 1961-01-13, 1, 7, Australia, c Simpson, Benaud, 14, 50, 37, 3, 0
+502, 1961-01-13, 3, 7, Australia, c Harvey, Benaud, 1, 25, 25, 0, 0
+504, 1961-01-27, 1, 7, Australia,                c &, Benaud, 22, 61, na, 0, 0
+504, 1961-01-27, 3, 8, Australia, not out, , 16, 40, na, 1, 0
+506, 1961-02-10, 1, 8, Australia, run out, , 45, 141, 143, 3, 0
+506, 1961-02-10, 3, 4, Australia, run out, , 36, 162, 175, 3, 0
+525, 1962-02-16, 2, 6, India, c Engineer, Desai, 43, na, na, na, 0
+526, 1962-03-07, 2, 6, India, run out, , 9, na, na, na, 0
+527, 1962-03-23, 2, 5, India, c Desai, Durani, 96, na, na, 11, 0
+529, 1962-04-13, 1, 4, India, , Durani, 0, na, na, 0, 0
+529, 1962-04-13, 3, 3, India, , Surti, 0, 3, 5, 0, 0
+543, 1963-06-06, 1, 6, England, lbw, Titmus, 35, 140, na, na, 0
+544, 1963-06-20, 1, 6, England, lbw, Shackleton, 56, 195, na, na, 0
+544, 1963-06-20, 3, 6, England, c Stewart, Allen, 5, 40, na, na, 0
+545, 1963-07-04, 2, 5, England, lbw, Dexter, 0, na, na, 0, 0
+545, 1963-07-04, 4, 6, England, c Parks, Trueman, 14, na, na, na, 0
+546, 1963-07-25, 1, 6, England, c Stewart, Trueman, 62, na, na, na, 0
+546, 1963-07-25, 3, 6, England, c Titmus, Shackleton, 16, na, na, na, 0
+547, 1963-08-22, 2, 6, England, c Trueman, Statham, 16, 119, na, 0, 0
+580, 1965-03-03, 1, 6, Australia, c Grout, Mayne, 0, na, na, 0, 0
+580, 1965-03-03, 3, 7, Australia, c Grout, Mayne, 76, na, na, na, 1
+584, 1965-03-26, 1, 6, Australia, not out, , 31, na, na, na, 0
+584, 1965-03-26, 3, 6, Australia, c Booth, Simpson, 48, na, na, na, 0
+588, 1965-04-14, 1, 7, Australia, c Grout, Hawke, 0, na, na, 0, 0
+588, 1965-04-14, 3, 7, Australia, c Simpson, Philpott, 17, na, na, na, 0
+589, 1965-05-05, 2, 7, Australia, c McKenzie, Hawke, 1, na, na, 0, 0
+589, 1965-05-05, 4, 7, Australia, not out, , 6, na, na, na, 0

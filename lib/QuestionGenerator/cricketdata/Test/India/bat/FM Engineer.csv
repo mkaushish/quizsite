@@ -1,0 +1,89 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+514, 1961-12-01, 1, 9, England, st Murray, Lock, 33, 81, na, 5, 0
+516, 1961-12-13, 1, 8, England, lbw, Allen, 1, 9, na, 0, 0
+518, 1962-12-30, 1, 9, England, c Parfitt, Lock, 12, 37, na, 2, 0
+518, 1962-12-30, 3, 5, England, c Millman, Allen, 9, 13, na, 2, 0
+520, 1962-01-10, 1, 9, England, , Dexter, 65, 110, na, 11, 0
+520, 1962-01-10, 3, 10, England, not out, , 15, 37, na, 2, 0
+525, 1962-02-16, 1, 10, West Indies, c sub (WV Rodriguez), Gibbs, 3, na, na, 0, 0
+525, 1962-02-16, 3, 10, West Indies,                c &, Gibbs, 2, na, na, 0, 0
+526, 1962-03-07, 1, 9, West Indies, st Mendonca, Gibbs, 53, 92, na, na, 0
+526, 1962-03-07, 3, 9, West Indies, c Hunte, Hall, 40, na, na, na, 0
+527, 1962-03-23, 1, 9, West Indies, c Worrell, Sobers, 12, na, na, na, 0
+527, 1962-03-23, 3, 9, West Indies, st Allan, Gibbs, 0, na, na, 0, 0
+579, 1965-02-27, 1, 9, New Zealand, c Pollard, Yuile, 90, 115, na, 14, 0
+581, 1965-03-05, 2, 3, New Zealand, c Pollard, Taylor, 10, 14, na, 2, 0
+581, 1965-03-05, 4, 3, New Zealand, c Pollard, Dowling, 45, 25, na, 7, 1
+582, 1965-03-12, 2, 8, New Zealand, run out, , 17, 50, na, 3, 0
+582, 1965-03-12, 3, 2, New Zealand, c Reid, Taylor, 6, 13, na, 1, 0
+583, 1965-03-19, 2, 7, New Zealand, , Collinge, 5, 8, na, 1, 0
+583, 1965-03-19, 4, 2, New Zealand, , Taylor, 2, 5, na, 0, 0
+614, 1967-01-13, 1, 2, West Indies, c Kanhai, Sobers, 109, 155, na, 18, 0
+614, 1967-01-13, 3, 2, West Indies, c Butcher, Hall, 24, 53, na, 5, 0
+618, 1967-06-08, 2, 1, England,                c &, Illingworth, 42, 79, 62, 7, 0
+618, 1967-06-08, 3, 1, England,                c &, Close, 87, 165, 158, 14, 0
+619, 1967-06-22, 1, 2, England, c Murray, Brown, 8, 14, 9, 2, 0
+619, 1967-06-22, 3, 1, England, c Amiss, Snow, 8, 16, 13, 1, 0
+620, 1967-07-13, 2, 1, England, c Graveney, Brown, 23, 64, 45, 1, 0
+620, 1967-07-13, 4, 1, England, c Barrington, Hobbs, 28, 59, 31, 3, 0
+624, 1967-12-23, 2, 1, Australia, c Jarman, McKenzie, 89, 110, na, 14, 0
+624, 1967-12-23, 4, 1, Australia, run out, , 19, 53, na, 0, 0
+625, 1968-12-30, 1, 2, Australia, c Connolly, McKenzie, 9, 42, 14, 0, 0
+625, 1968-12-30, 3, 2, Australia, c Chappell, Renneberg, 42, 52, 37, 3, 0
+626, 1968-01-19, 2, 1, Australia, c Gleeson, Freeman, 2, 20, na, 0, 0
+626, 1968-01-19, 4, 1, Australia, c Jarman, Renneberg, 0, 12, na, 0, 0
+628, 1968-01-26, 2, 1, Australia, c Chappell, Walters, 17, 49, 44, 1, 0
+628, 1968-01-26, 4, 1, Australia, c Simpson, Gleeson, 37, 81, 72, 6, 0
+630, 1968-02-15, 2, 2, New Zealand, , Motz, 63, 135, na, 8, 0
+630, 1968-02-15, 4, 2, New Zealand,                c &, Alabaster, 29, na, na, na, 0
+631, 1968-02-22, 2, 2, New Zealand, c Congdon, Motz, 12, na, na, na, 0
+631, 1968-02-22, 3, 2, New Zealand, c Burgess, Bartlett, 63, 115, na, 7, 0
+632, 1968-02-29, 2, 2, New Zealand, run out, , 44, 77, na, 7, 0
+632, 1968-02-29, 4, 2, New Zealand, c Harford, Thomson, 18, na, na, na, 0
+634, 1968-03-07, 1, 1, New Zealand, c Bartlett, Motz, 44, 89, na, 8, 0
+634, 1968-03-07, 3, 1, New Zealand,                c &, Alabaster, 48, 150, na, 5, 0
+659, 1969-09-25, 1, 8, New Zealand, run out, , 20, 34, na, 2, 0
+659, 1969-09-25, 3, 7, New Zealand, , Taylor, 9, 40, na, 1, 0
+660, 1969-10-03, 2, 9, New Zealand, , Howarth, 40, 86, na, 5, 0
+660, 1969-10-03, 4, 9, New Zealand, st Wadsworth, Pollard, 19, 42, na, 2, 0
+664, 1969-11-04, 1, 2, Australia, c Redpath, McKenzie, 19, na, na, na, 0
+664, 1969-11-04, 3, 2, Australia, c McKenzie, Mallett, 28, na, na, na, 0
+666, 1969-11-15, 1, 1, Australia,                c &, Stackpole, 77, 110, na, 12, 0
+666, 1969-11-15, 3, 1, Australia, c Gleeson, Connolly, 21, na, na, na, 0
+667, 1969-11-28, 2, 1, Australia, , Connolly, 38, na, na, na, 0
+667, 1969-11-28, 4, 1, Australia, c McKenzie, Mallett, 6, na, na, na, 0
+668, 1969-12-12, 1, 1, Australia, c Stackpole, McKenzie, 0, na, na, 0, 0
+668, 1969-12-12, 3, 1, Australia, c Redpath, Freeman, 10, na, na, na, 0
+669, 1969-12-24, 2, 5, Australia, c Connolly, Mallett, 32, na, na, na, 0
+669, 1969-12-24, 4, 5, Australia,                c &, McKenzie, 3, na, na, 0, 0
+690, 1971-07-22, 2, 6, England, c Illingworth, Hutton, 28, 49, 54, 3, 0
+690, 1971-07-22, 4, 4, England, st Knott, Gifford, 35, 49, 40, 4, 0
+691, 1971-08-05, 2, 6, England, c Edrich, Lever, 22, 75, 41, 1, 0
+692, 1971-08-19, 2, 7, England, c Illingworth, Snow, 59, 124, 111, 0, 0
+692, 1971-08-19, 4, 7, England, not out, , 28, 50, 59, 3, 0
+703, 1972-12-20, 1, 7, England, , Cottam, 15, 28, 17, 3, 0
+703, 1972-12-20, 3, 7, England, c Knott, Underwood, 63, 170, 132, 9, 0
+706, 1973-12-30, 1, 7, England, , Underwood, 75, 215, 144, 10, 0
+706, 1973-12-30, 3, 5, England, c Knott, Underwood, 17, 86, 39, 2, 0
+708, 1973-01-12, 2, 7, England, c Wood, Gifford, 31, 95, 55, 2, 0
+708, 1973-01-12, 4, 2, England, lbw, Old, 10, 6, 7, 2, 0
+709, 1973-01-25, 1, 7, England, , Underwood, 15, 72, 45, 1, 0
+709, 1973-01-25, 3, 5, England, c Old, Birkenshaw, 2, 10, 14, 0, 0
+711, 1973-02-06, 1, 1, England, c Roope, Birkenshaw, 121, 283, 182, 14, 0
+711, 1973-02-06, 3, 1, England, , Underwood, 66, 165, 141, 9, 0
+739, 1974-06-06, 2, 7, England, , Willis, 0, 11, 5, 0, 0
+739, 1974-06-06, 4, 6, England, c Knott, Hendrick, 12, 53, 46, 1, 0
+740, 1974-06-20, 2, 2, England, c Denness, Old, 86, 155, 118, 11, 0
+740, 1974-06-20, 3, 2, England, lbw, Arnold, 0, 13, 9, 0, 0
+741, 1974-07-04, 1, 6, England, not out, , 64, 137, 111, 6, 0
+741, 1974-07-04, 3, 7, England, lbw, Hendrick, 33, 70, 46, 6, 0
+745, 1974-11-22, 2, 2, West Indies, c Richards, Roberts, 3, 32, na, 0, 0
+745, 1974-11-22, 4, 10, West Indies, absent hurt, , -, , , , 
+747, 1974-12-11, 1, 2, West Indies, , Julien, 17, 30, na, 4, 0
+747, 1974-12-11, 3, 2, West Indies, , Gibbs, 75, 121, na, 9, 1
+750, 1975-12-27, 1, 2, West Indies, c Lloyd, Roberts, 24, na, na, na, 0
+750, 1975-12-27, 3, 2, West Indies, c Lloyd, Willett, 61, 195, na, na, 0
+752, 1975-01-11, 1, 1, West Indies, c Greenidge, Julien, 14, 33, na, 2, 0
+752, 1975-01-11, 3, 1, West Indies, , Holder, 28, 82, na, 4, 0
+753, 1975-01-23, 2, 2, West Indies, c Richards, Julien, 0, 7, na, 0, 0
+753, 1975-01-23, 4, 2, West Indies, , Julien, 0, 5, na, 0, 0

@@ -1,0 +1,72 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+1707, 2004-06-22, 2, 6, England, c GO Jones, SP Jones, 44, 159, 105, 4, 0
+1707, 2004-06-22, 4, 6, England,                c &, Giles, 10, 24, 22, 1, 0
+1708, 2004-07-29, 2, 6, England, , Giles, 13, 39, 47, 1, 0
+1708, 2004-07-29, 4, 6, England, , Giles, 0, 1, 2, 0, 0
+1711, 2004-07-12, 1, 6, England, c Jones, Hoggard, 77, 151, 106, 10, 0
+1711, 2004-07-12, 3, 6, England, c Flintoff, Giles, 6, 18, 18, 1, 0
+1712, 2004-07-19, 2, 6, England, c Jones, Harmison, 16, 32, 18, 3, 0
+1712, 2004-07-19, 3, 5, England, lbw, Hoggard, 54, 154, 117, 11, 0
+1747, 2005-03-08, 1, 7, South Africa, , Nel, 5, 20, 17, 1, 0
+1747, 2005-03-08, 3, 7, South Africa, c Boucher, Ntini, 33, 128, 116, 3, 0
+1749, 2005-03-21, 1, 7, South Africa, c Smith, Zondeki, 26, 132, 95, 0, 0
+1749, 2005-03-21, 3, 6, South Africa, c Boucher, Kallis, 6, 31, 20, 1, 0
+1750, 2005-04-29, 2, 7, South Africa, c Prince, Boucher, 107, 272, 235, 13, 0
+1771, 2005-10-17, 1, 7, Australia, c Hodge, MacGill, 3, 17, 17, 0, 0
+1771, 2005-10-17, 3, 7, Australia, , Warne, 113, 281, 202, 15, 0
+1773, 2005-10-25, 1, 6, Australia, c Ponting, MacGill, 34, 95, 59, 2, 0
+1773, 2005-10-25, 3, 7, Australia, , Lee, 64, 175, 126, 10, 0
+1787, 2006-02-09, 2, 7, New Zealand, c Bond, Martin, 59, 174, 129, 8, 0
+1787, 2006-02-09, 4, 6, New Zealand, lbw, Bond, 17, 71, 53, 2, 0
+1790, 2006-02-17, 1, 6, New Zealand, lbw, Franklin, 9, 27, 23, 1, 0
+1790, 2006-02-17, 3, 6, New Zealand, c Astle, Martin, 7, 37, 33, 1, 0
+1793, 2006-02-25, 1, 6, New Zealand, not out, , 22, 90, 86, 1, 0
+1805, 2006-05-02, 2, 6, India, st Dhoni, Sehwag, 68, 107, 92, 11, 0
+1805, 2006-05-02, 4, 6, India, c Dhoni, Sehwag, 28, na, 41, 5, 0
+1806, 2006-05-10, 2, 6, India, c Dravid, Kumble, 25, na, 84, 3, 0
+1806, 2006-05-10, 3, 6, India, c Yuvraj Singh, Kumble, 47, na, 124, 3, 1
+1807, 2006-05-22, 1, 6, India, c Dhoni, Harbhajan Singh, 21, na, 33, 2, 0
+1807, 2006-05-22, 3, 6, India, c Sreesanth, Kumble, 9, na, 18, 1, 0
+1808, 2006-06-30, 2, 6, India, c Yuvraj Singh, Harbhajan Singh, 0, 12, 7, 0, 0
+1808, 2006-06-30, 4, 6, India, , Kumble, 33, 60, 45, 6, 0
+1815, 2006-10-11, 1, 6, Pakistan, c Shahid Nazir, Danish Kaneria, 32, 48, 42, 5, 0
+1815, 2006-10-11, 3, 7, Pakistan, lbw, Umar Gul, 2, 23, 19, 0, 0
+1816, 2006-10-19, 2, 6, Pakistan, c Younis Khan, Danish Kaneria, 89, 217, 177, 12, 0
+1818, 2006-11-27, 2, 7, Pakistan, c Kamran Akmal, Danish Kaneria, 8, na, 52, 1, 0
+1818, 2006-11-27, 4, 7, Pakistan, c Younis Khan, Shahid Nazir, 26, na, 56, 3, 0
+1831, 2007-04-17, 2, 7, England, c Cook, Collingwood, 56, 76, 59, 8, 1
+1834, 2007-04-25, 2, 6, England, , Sidebottom, 23, 69, 42, 4, 0
+1834, 2007-04-25, 3, 7, England, c Plunkett, Panesar, 52, 94, 74, 7, 1
+1835, 2007-05-07, 2, 6, England, c Prior, Sidebottom, 24, 55, 54, 3, 0
+1835, 2007-05-07, 4, 6, England, c Cook, Panesar, 49, 83, 71, 8, 0
+1836, 2007-05-15, 1, 6, England, , Hoggard, 44, 124, 97, 6, 0
+1836, 2007-05-15, 3, 6, England, c Sidebottom, Panesar, 43, 100, 74, 9, 0
+1856, 2007-11-26, 1, 6, South Africa,                c &, Ntini, 12, 47, 36, 2, 0
+1856, 2007-11-26, 3, 6, South Africa, c Gibbs, Harris, 10, 26, 17, 1, 0
+1858, 2008-01-02, 1, 6, South Africa, c Kallis, Ntini, 0, 10, 4, 0, 0
+1858, 2008-01-02, 3, 7, South Africa, c Smith, Nel, 12, 45, 28, 1, 0
+1860, 2008-01-10, 1, 6, South Africa, c Gibbs, Pollock, 13, 26, 20, 2, 0
+1860, 2008-01-10, 3, 5, South Africa, lbw, Steyn, 75, 173, 117, 13, 0
+1869, 2008-02-22, 2, 6, Sri Lanka, lbw, Muralitharan, 8, 13, 16, 1, 0
+1869, 2008-02-22, 4, 2, Sri Lanka,                c &, Muralitharan, 83, 189, 169, 10, 1
+1872, 2008-03-03, 2, 7, Sri Lanka, lbw, Amerasinghe, 26, na, 37, 2, 0
+1875, 2008-04-22, 2, 6, Australia, c Katich, Lee, 46, 81, 60, 4, 3
+1875, 2008-04-22, 4, 6, Australia, c Johnson, Clark, 0, 16, 11, 0, 0
+1877, 2008-05-30, 2, 6, Australia, c Haddin, Lee, 45, 191, 127, 2, 3
+1877, 2008-05-30, 4, 6, Australia, c sub (BJ Hodge), Lee, 1, 14, 14, 0, 0
+1879, 2008-05-12, 2, 6, Australia, c Haddin, Johnson, 29, 86, 57, 4, 1
+1879, 2008-05-12, 4, 5, Australia, c Jaques, Casson, 69, 163, 133, 5, 4
+1936, 2009-10-26, 2, 5, Australia, c Watson, Johnson, 0, 3, 2, 0, 0
+1936, 2009-10-26, 3, 5, Australia, c Hilfenhaus, Hussey, 23, 70, 42, 3, 0
+1939, 2009-11-04, 1, 6, Australia, , Hauritz, 104, 210, 156, 12, 1
+1939, 2009-11-04, 3, 6, Australia, c Hauritz, Johnson, 22, 74, 54, 2, 0
+1941, 2009-11-16, 2, 6, Australia, c Haddin, Bollinger, 26, 75, 49, 4, 0
+1941, 2009-11-16, 4, 6, Australia, c Hussey, Johnson, 1, 9, 9, 0, 0
+1960, 2010-05-10, 2, 6, South Africa, c Boucher, Morkel, 1, na, 4, 0, 0
+1960, 2010-05-10, 4, 6, South Africa, c Prince, Harris, 49, na, 74, 4, 2
+1961, 2010-05-18, 2, 6, South Africa, c Boucher, Harris, 53, na, 215, 4, 1
+1962, 2010-05-26, 1, 6, South Africa, c Smith, Steyn, 61, na, 104, 4, 1
+1962, 2010-05-26, 3, 6, South Africa, , Harris, 2, na, 12, 0, 0
+1977, 2010-10-15, 1, 6, Sri Lanka, lbw, Mendis, 5, 12, 10, 1, 0
+1980, 2010-10-23, 2, 6, Sri Lanka, st HAPW Jayawardene, Herath, 20, 66, 36, 2, 1
+1982, 2010-11-01, 1, 6, Sri Lanka, st HAPW Jayawardene, Herath, 0, 6, 7, 0, 0

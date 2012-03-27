@@ -1,0 +1,83 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+1237, 1993-12-01, 2, 6, Pakistan, run out, , 33, 122, 110, 4, 0
+1237, 1993-12-01, 4, 6, Pakistan, , Ata-ur-Rehman, 2, 2, 2, 0, 0
+1240, 1993-12-09, 2, 7, Pakistan, c Inzamam-ul-Haq, Ashfaq Ahmed, 29, 119, 110, 3, 0
+1240, 1993-12-09, 4, 6, Pakistan, lbw, Wasim Akram, 0, 11, 6, 0, 0
+1241, 1993-12-16, 2, 6, Pakistan, c Asif Mujtaba, Wasim Akram, 2, 6, 6, 0, 0
+1270, 1994-10-11, 2, 6, Sri Lanka, c Dassanayake, Pushpakumara, 4, 20, 17, 0, 0
+1271, 1994-10-20, 1, 6, Sri Lanka, c Tillakaratne, Wickramasinghe, 12, 67, 53, 2, 0
+1272, 1994-10-26, 2, 6, Sri Lanka, not out, , 61, 241, 187, 8, 0
+1285, 1995-01-31, 1, 6, Pakistan, not out, , 113, 243, 192, 9, 0
+1288, 1995-02-07, 1, 6, Pakistan, c Aamer Sohail, Manzoor Elahi, 7, 27, 18, 0, 0
+1288, 1995-02-07, 3, 6, Pakistan, c sub (Moin Khan), Aamer Nazir, 5, 52, 36, 1, 0
+1290, 1995-02-15, 2, 6, Pakistan, , Aaqib Javed, 34, 145, 88, 3, 0
+1290, 1995-02-15, 4, 5, Pakistan, c Shakeel Ahmed, Wasim Akram, 2, 57, 25, 0, 0
+1307, 1995-10-13, 1, 6, South Africa, c Richardson, Matthews, 29, 82, 80, 4, 0
+1307, 1995-10-13, 3, 6, South Africa, lbw, Donald, 38, 152, 125, 3, 0
+1322, 1996-01-13, 2, 6, New Zealand, c Germon, Kennedy, 54, 207, 163, 3, 0
+1322, 1996-01-13, 4, 3, New Zealand, c Kennedy, Twose, 20, 45, 40, 3, 0
+1323, 1996-01-20, 2, 3, New Zealand, c Germon, Cairns, 27, 53, 39, 5, 0
+1323, 1996-01-20, 4, 3, New Zealand, c Germon, Patel, 10, 50, 45, 0, 0
+1333, 1996-09-11, 2, 5, Sri Lanka, lbw, Silva, 39, 153, 125, 4, 0
+1333, 1996-09-11, 3, 6, Sri Lanka, c Mahanama, Silva, 13, 93, 86, 1, 0
+1334, 1996-09-18, 1, 7, Sri Lanka, c Silva, Muralitharan, 0, 6, 3, 0, 0
+1334, 1996-09-18, 3, 7, Sri Lanka, c Gurusinha, Jayasuriya, 3, 18, 10, 0, 0
+1336, 1996-10-17, 1, 7, Pakistan, c Shadab Kabir, Saqlain Mushtaq, 0, 4, 2, 0, 0
+1336, 1996-10-17, 3, 7, Pakistan, c sub (Shahid Afridi), Saqlain Mushtaq, 32, 146, 97, 5, 0
+1337, 1996-10-24, 1, 7, Pakistan, , Wasim Akram, 9, 65, 51, 1, 0
+1337, 1996-10-24, 3, 7, Pakistan, lbw, Shahid Nazir, 0, 9, 6, 0, 0
+1345, 1996-12-18, 1, 7, England, c Atherton, Silverwood, 7, 37, 30, 1, 0
+1345, 1996-12-18, 3, 8, England, c Croft, Tufnell, 56, 185, 184, 5, 1
+1348, 1996-12-26, 2, 7, England, , Gough, 1, 6, 9, 0, 0
+1378, 1997-09-18, 1, 4, New Zealand, c Fleming, O'Connor, 33, 79, 55, 2, 0
+1378, 1997-09-18, 3, 4, New Zealand, run out (O'Connor), , 4, 16, 16, 0, 0
+1379, 1997-09-25, 1, 4, New Zealand, not out, , 203, 453, 359, 22, 2
+1379, 1997-09-25, 3, 4, New Zealand, run out (Harris), , 45, 105, 84, 7, 1
+1395, 1998-01-14, 1, 4, Sri Lanka, run out (Muralitharan), , 11, 38, 32, 1, 0
+1395, 1998-01-14, 3, 5, Sri Lanka, c sub (DPMD Jayawardene), Muralitharan, 17, 42, 31, 2, 0
+1401, 1998-02-19, 1, 4, New Zealand, c Parore, O'Connor, 6, 17, 17, 1, 0
+1401, 1998-02-19, 3, 5, New Zealand, c Astle, Nash, 22, 107, 84, 3, 0
+1402, 1998-02-26, 1, 6, New Zealand, c Young, Nash, 1, 5, 4, 0, 0
+1402, 1998-02-26, 3, 6, New Zealand, lbw, Doull, 10, 33, 33, 2, 0
+1408, 1998-03-14, 1, 6, Pakistan, lbw, Waqar Younis, 1, 19, 15, 0, 0
+1412, 1998-03-21, 1, 6, Pakistan, c Inzamam-ul-Haq, Wasim Akram, 62, 151, 92, 13, 0
+1412, 1998-03-21, 3, 6, Pakistan, c Rashid Latif, Azhar Mahmood, 15, 35, 24, 1, 0
+1463, 1999-10-14, 1, 9, Australia, c Healy, Warne, 27, 41, 42, 5, 0
+1463, 1999-10-14, 3, 8, Australia, c ME Waugh, Warne, 2, 17, 15, 0, 0
+1466, 1999-11-29, 1, 8, South Africa, c Boucher, Kallis, 85, 148, 114, 14, 0
+1466, 1999-11-29, 3, 8, South Africa, , Adams, 51, 125, 91, 9, 0
+1468, 1999-11-11, 1, 8, South Africa, c Pollock, Klusener, 3, 11, 8, 0, 0
+1468, 1999-11-11, 3, 8, South Africa, c Dippenaar, Pollock, 17, 44, 36, 2, 0
+1470, 1999-11-18, 1, 7, Sri Lanka, run out (Kaluwitharana), , 11, 64, 55, 1, 0
+1473, 1999-11-26, 1, 7, Sri Lanka, , Muralitharan, 1, 6, 6, 0, 0
+1473, 1999-11-26, 3, 8, Sri Lanka, not out, , 53, 240, 191, 3, 0
+1474, 1999-12-04, 1, 7, Sri Lanka, c Arnold, Pushpakumara, 37, 161, 139, 4, 0
+1474, 1999-12-04, 3, 7, Sri Lanka, c Arnold, Muralitharan, 9, 59, 46, 1, 0
+1495, 2000-04-18, 1, 7, England, , Giddins, 15, 20, 18, 2, 0
+1495, 2000-04-18, 3, 8, England, c Hick, Caddick, 23, 75, 49, 2, 0
+1498, 2000-05-01, 2, 2, England, lbw, Giddins, 28, 33, 28, 4, 0
+1498, 2000-05-01, 4, 2, England, not out, , 12, 22, 18, 2, 0
+1511, 2000-08-19, 2, 6, New Zealand, c Parore, Astle, 9, 20, 15, 1, 0
+1511, 2000-08-19, 3, 6, New Zealand, not out, , 188, 506, 429, 27, 2
+1515, 2000-10-18, 1, 6, India, c Dravid, Joshi, 0, 6, 7, 0, 0
+1515, 2000-10-18, 3, 6, India, c Ramesh, Kartik, 29, 71, 50, 3, 0
+1517, 2000-10-25, 2, 1, India, c Dravid, Sarandeep Singh, 84, 250, 164, 12, 0
+1517, 2000-10-25, 3, 1, India, c Tendulkar, Sarandeep Singh, 11, 38, 31, 2, 0
+1524, 2000-11-26, 2, 1, New Zealand, , Martin, 9, 44, 31, 2, 0
+1524, 2000-11-26, 4, 1, New Zealand, c Parore, O'Connor, 6, 51, 37, 0, 0
+1543, 2001-03-19, 2, 1, Bangladesh, c Mohammad Sharif, Hasibul Hossain, 119, 258, 194, 16, 0
+1545, 2001-03-26, 2, 1, Bangladesh, run out (Mohammad Sharif/Mehrab Hossain), , 5, 11, 10, na, 4 
+1545, 2001-03-26, 4, 1, Bangladesh, , Enamul Haque, 60, 102, 75, 6, 1
+1548, 2001-05-07, 1, 1, India, , Nehra, 6, 22, 17, 1, 0
+1548, 2001-05-07, 3, 1, India, c Ramesh, Srinath, 20, 42, 26, 3, 0
+1549, 2001-05-15, 2, 1, India, c Dravid, Nehra, 0, 7, 7, 0, 0
+1549, 2001-05-15, 4, 1, India, c Dravid, Srinath, 10, 41, 35, 1, 0
+1551, 2001-06-19, 1, 5, West Indies, c Gayle, Stuart, 42, 168, 113, 3, 0
+1551, 2001-06-19, 3, 5, West Indies, not out, , 10, 104, 64, 0, 0
+1553, 2001-06-27, 1, 5, West Indies, c Ganga, Black, 43, 154, 128, 5, 0
+1553, 2001-06-27, 3, 5, West Indies, lbw, McGarrell, 12, 55, 37, 2, 0
+1562, 2001-08-07, 2, 8, South Africa, , Kallis, 16, 76, 67, 3, 0
+1562, 2001-08-07, 3, 7, South Africa, lbw, Henderson, 3, 42, 28, 0, 0
+1563, 2001-08-14, 1, 7, South Africa, c Pollock, Henderson, 16, 89, 39, 1, 0
+1625, 2002-10-09, 2, 6, Pakistan, , Shoaib Akhtar, 7, 24, 19, 1, 0
+1625, 2002-10-09, 4, 6, Pakistan, c Younis Khan, Saqlain Mushtaq, 2, 11, 10, 0, 0

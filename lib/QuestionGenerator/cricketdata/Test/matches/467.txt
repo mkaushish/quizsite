@@ -1,0 +1,107 @@
+
+Test # 467
+West Indies in India, 1958/59, 5th Test
+India v West Indies
+Feroz Shah Kotla, Delhi
+6,7,8,10,11 February 1959 (5-day match)
+
+Result: Match drawn
+Series: West Indies wins the 5-match series 3-0
+
+Toss: India
+Umpires: SK Ganguli and ND Nagarwala
+Test debut: RB Desai (India).
+
+Close of play:
+ Day 1: India 236/4 (Borde 34*, Gaekwad 6*)
+ Day 2: India 415, West Indies 64/0 (Hunte 44*, Holt 20*)
+ Day 3: West Indies 408/4 (Smith 70*, Solomon 4*)
+ Day 4: West Indies 644/8d, India 31/1 (Roy 9*, Gaekwad 16*)
+
+India 1st innings                                               R   M   B  4 6
+P Roy                 c Solomon          b Gilchrist            1          0 0
+NJ Contractor         lbw                b Hall                92            0
+PR Umrigar                               b Hall                76 185     10 0
+VL Manjrekar          c Alexander        b Hall                 6            0
+CG Borde              c Alexander        b Smith              109 240     16 0
+DK Gaekwad            c Holt             b Gilchrist            6            0
+*HR Adhikari          c Alexander        b Smith               63 203        0
+MH Mankad             c sub              b Gilchrist           21            0
++NS Tamhane           c Gilchrist        b Smith                3          0 0
+SP Gupte                                 b Hall                 5            0
+RB Desai              not out                                   2          0 0
+Extras                (b 6, lb 15, nb 10)                      31
+Total                 (all out, 141.3 overs)                  415
+
+FoW: 1-6 (Roy), 2-143 (Umrigar), 3-170 (Manjrekar),
+     4-208 (Contractor), 5-242 (Gaekwad), 6-376 (Borde),
+     7-399 (Adhikari), 8-407 (Tamhane), 9-413 (Gupte),
+     10-415 (Mankad).
+
+Bowling                      O      M      R      W
+Gilchrist                   30.3    8     90      3
+Hall                        26      4     66      4
+Atkinson                    14      4     44      0
+Smith                       40      7     94      3
+Sobers                      24      3     66      0
+Solomon                      7      2     24      0
+
+West Indies 1st innings                                         R   M   B  4 6
+CC Hunte              lbw                b Adhikari            92 177        1
+JKC Holt              c Roy              b Desai              123 255     21 0
+RB Kanhai             lbw                b Desai               40            0
+BF Butcher            lbw                b Adhikari            71            0
+OG Smith              c Tamhane          b Desai              100            2
+JS Solomon            not out                                 100            0
+GS Sobers             c Tamhane          b Desai               44            0
+*+FCM Alexander       run out                                  25            1
+ES Atkinson                          c & b Adhikari            37            0
+WW Hall               not out                                   0          0 0
+Extras                (b 2, lb 8, w 1, nb 1)                   12
+Total                 (8 wickets dec, 214 overs)              644
+
+DNB: R Gilchrist.
+
+FoW: 1-159 (Hunte), 2-244 (Kanhai), 3-263 (Holt),
+     4-390 (Butcher), 5-455 (Smith), 6-524 (Sobers),
+     7-565 (Alexander), 8-635 (Atkinson).
+
+Bowling                      O      M      R      W
+Desai                       49     10    169      4
+Roy                          2      0     12      0
+Mankad                      55     12    167      0
+Gupte                       60     16    144      0
+Adhikari                    26      2     68      3
+Gaekwad                      1      0      8      0
+Contractor                   4      1     11      0
+Borde                       17      3     53      0
+
+India 2nd innings                                               R   M   B  4 6
+P Roy                 c Holt             b Smith               58            0
+NJ Contractor         run out                                   4            0
+DK Gaekwad            c Hunte            b Smith               52            0
+CG Borde              hit wicket         b Gilchrist           96 195        0
+*HR Adhikari          c sub              b Smith               40            1
+MH Mankad                                b Smith                0          0 0
++NS Tamhane           hit wicket         b Smith                5            0
+SP Gupte                                 b Gilchrist            0          0 0
+RB Desai                                 b Gilchrist            5            0
+VL Manjrekar          not out                                   0          0 0
+PR Umrigar            absent hurt                               -
+Extras                (b 2, lb 6, nb 7)                        15
+Total                 (all out, 111.2 overs)                  275
+
+FoW: 1-5 (Contractor), 2-98 (Roy), 3-135 (Gaekwad),
+     4-243 (Adhikari), 5-247 (Mankad), 6-260 (Tamhane),
+     7-264 (Gupte), 8-274 (Desai), 9-275 (Borde).
+
+Bowling                      O      M      R      W
+Gilchrist                   24.2    6     62      3
+Hall                        13      5     39      0
+Atkinson                     1      0      4      0
+Smith                       42     19     90      5
+Solomon                     21      9     44      0
+Butcher                      6      1     17      0
+Hunte                        4      2      4      0
+
+<END>

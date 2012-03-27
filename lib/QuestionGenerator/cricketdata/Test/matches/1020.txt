@@ -1,0 +1,99 @@
+
+Test # 1020
+The Ashes, 1985, 4th Test
+England v Australia
+Old Trafford, Manchester
+1,2,3,5,6 August 1985 (5-day match)
+
+Result: Match drawn
+Series: 6-match series level 1-1
+
+Toss: England
+Umpires: HD Bird and DR Shepherd
+Player of the match: CJ McDermott
+
+Close of play:
+ Day 1: Australia 257
+ Day 2: England 233/3 (Gatting 45*, Lamb 38*)
+ Day 3: England 448/6 (Downton 23*, Emburey 12*)
+ Day 4: England 482/9d, Australia 192/4 (Border 49*, Ritchie 22*)
+
+Australia 1st innings                                           R   M   B  4 6
+KC Wessels            c Botham           b Emburey             34  83  61  2 0
+AMJ Hilditch          c Gower            b Edmonds             49 132  93  4 0
+DC Boon               c Lamb             b Botham              61 190 146  6 0
+*AR Border            st Downton         b Edmonds              8  35  17  1 0
+GM Ritchie                           c & b Edmonds              4   1   3  1 0
++WB Phillips          c Downton          b Botham              36  84  71  4 0
+GRJ Matthews                             b Botham               4  37  25  0 0
+SP O'Donnell                             b Edmonds             45  95  78  3 1
+GF Lawson             c Downton          b Botham               4  18  17  0 0
+CJ McDermott          lbw                b Emburey              0   1   1  0 0
+RG Holland            not out                                   5  49  27  0 0
+Extras                (lb 3, w 1, nb 3)                         7
+Total                 (all out, 89.1 overs)                   257
+
+FoW: 1-71 (Wessels), 2-97 (Hilditch), 3-118 (Border),
+     4-122 (Ritchie), 5-193 (Phillips), 6-198 (Boon),
+     7-211 (Matthews), 8-223 (Lawson), 9-224 (McDermott),
+     10-257 (O'Donnell).
+
+Bowling                      O      M      R      W
+Botham                      23      4     79      4
+Agnew                       14      0     65      0
+Allott                      13      1     29      0
+Emburey                     24      7     41      2
+Edmonds                     15.1    4     40      4
+
+England 1st innings                                             R   M   B  4 6
+GA Gooch              lbw                b McDermott           74 207 143  9 0
+RT Robinson           c Border           b McDermott           10  19  12  2 0
+*DI Gower             c Hilditch         b McDermott           47 195 141  5 0
+MW Gatting            c Phillips         b McDermott          160 355 266 21 0
+AJ Lamb               run out                                  67 195 137  8 0
+IT Botham             c O'Donnell        b McDermott           20  33  25  3 0
++PR Downton                              b McDermott           23 132  82  1 0
+JE Emburey            not out                                  31  60  37  3 0
+PH Edmonds                               b McDermott            1   5   7  0 0
+PJW Allott                               b McDermott            7  17  11  1 0
+JP Agnew              not out                                   2  16   8  0 0
+Extras                (b 7, lb 16, nb 17)                      40
+Total                 (9 wickets dec, 141 overs)              482
+
+FoW: 1-21 (Robinson), 2-142 (Gooch), 3-148 (Gower), 4-304 (Lamb),
+     5-339 (Botham), 6-430 (Gatting), 7-448 (Downton),
+     8-450 (Edmonds), 9-470 (Allott).
+
+Bowling                      O      M      R      W
+Lawson                      37      7    114      0
+McDermott                   36      3    141      8
+Holland                     38      7    101      0
+O'Donnell                   21      6     82      0
+Matthews                     9      2     21      0
+
+Australia 2nd innings                                           R   M   B  4 6
+AMJ Hilditch                             b Emburey             40 116  84  3 1
+GRJ Matthews                         c & b Edmonds             17  64  42  2 0
+KC Wessels                           c & b Emburey             50 115 115  8 0
+*AR Border            not out                                 146 343 334 13 0
+DC Boon                                  b Emburey              7  28  36  1 0
+GM Ritchie                               b Emburey             31 124 102  3 1
++WB Phillips          not out                                  39 123 130  6 0
+Extras                (b 1, lb 6, nb 3)                        10
+Total                 (5 wickets, 140 overs)                  340
+
+DNB: SP O'Donnell, GF Lawson, CJ McDermott, RG Holland.
+
+FoW: 1-38 (Matthews), 2-85 (Hilditch), 3-126 (Wessels),
+     4-138 (Boon), 5-213 (Ritchie).
+
+Bowling                      O      M      R      W
+Botham                      15      3     50      0
+Allott                       6      2      4      0
+Edmonds                     54     12    122      1
+Emburey                     51     17     99      4
+Agnew                        9      2     34      0
+Gatting                      4      0     14      0
+Lamb                         1      0     10      0
+
+<END>

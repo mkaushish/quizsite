@@ -1,0 +1,46 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+1288, 1995-02-07, 1, 11, Pakistan, not out, , 0, 2, 0, 0, 0
+1288, 1995-02-07, 3, 11, Pakistan, lbw, Wasim Akram, 0, 4, 2, 0, 0
+1290, 1995-02-15, 2, 11, Pakistan, c Inzamam-ul-Haq, Aaqib Javed, 6, 11, 7, 1, 0
+1290, 1995-02-15, 4, 11, Pakistan, c Shakeel Ahmed, Aaqib Javed, 0, 38, 24, 0, 0
+1307, 1995-10-13, 1, 10, South Africa, lbw, Schultz, 0, 4, 3, 0, 0
+1307, 1995-10-13, 3, 10, South Africa, not out, , 25, 52, 32, 2, 0
+1322, 1996-01-13, 2, 11, New Zealand, c Astle, Patel, 4, 3, 3, 1, 0
+1323, 1996-01-20, 2, 11, New Zealand, not out, , 14, 21, 23, 2, 0
+1334, 1996-09-18, 1, 10, Sri Lanka, c de Silva, Silva, 3, 6, 3, 0, 0
+1334, 1996-09-18, 3, 10, Sri Lanka, , Muralitharan, 2, 17, 16, 0, 0
+1336, 1996-10-17, 1, 10, Pakistan, , Saqlain Mushtaq, 42, 92, 67, 5, 0
+1337, 1996-10-24, 1, 9, Pakistan, , Wasim Akram, 1, 15, 14, 0, 0
+1337, 1996-10-24, 3, 9, Pakistan, not out, , 13, 45, 28, 3, 0
+1345, 1996-12-18, 1, 10, England, not out, , 4, 6, 2, 1, 0
+1345, 1996-12-18, 3, 7, England, c Mullally, Tufnell, 3, 10, 13, 0, 0
+1378, 1997-09-18, 1, 10, New Zealand, lbw, Cairns, 1, 12, 8, 0, 0
+1378, 1997-09-18, 3, 10, New Zealand, not out, , 4, 18, 7, 0, 0
+1379, 1997-09-25, 1, 9, New Zealand, c Fleming, Cairns, 0, 15, 16, 0, 0
+1379, 1997-09-25, 3, 9, New Zealand, , Cairns, 10, 14, 13, 2, 0
+1394, 1998-01-07, 2, 10, Sri Lanka, , Muralitharan, 2, 2, 3, 0, 0
+1394, 1998-01-07, 3, 10, Sri Lanka, not out, , 15, 41, 29, 0, 0
+1412, 1998-03-21, 1, 9, Pakistan,                c &, Waqar Younis, 53, 118, 90, 5, 1
+1412, 1998-03-21, 3, 9, Pakistan, c Yousuf Youhana, Mushtaq Ahmed, 21, 71, 58, 1, 0
+1463, 1999-10-14, 1, 10, Australia, run out (Blewett), , 17, 28, 21, 2, 0
+1463, 1999-10-14, 3, 10, Australia, c Langer, Miller, 0, 4, 4, 0, 0
+1466, 1999-11-29, 1, 9, South Africa, c Cronje, Pollock, 9, 27, 23, 2, 0
+1466, 1999-11-29, 3, 9, South Africa, lbw, Adams, 0, 8, 6, 0, 0
+1468, 1999-11-11, 1, 9, South Africa, lbw, Cronje, 11, 19, 18, 1, 0
+1468, 1999-11-11, 3, 9, South Africa, lbw, Pollock, 0, 3, 4, 0, 0
+1470, 1999-11-18, 1, 9, Sri Lanka, c Kaluwitharana, Wickramasinghe, 41, 92, 57, 6, 0
+1473, 1999-11-26, 1, 9, Sri Lanka, c Dilshan, Vaas, 4, 22, 6, 0, 0
+1473, 1999-11-26, 3, 10, Sri Lanka, c Jayawardene, Jayasuriya, 3, 11, 9, 0, 0
+1474, 1999-12-04, 1, 10, Sri Lanka, c Atapattu, Vaas, 28, 51, 40, 1, 1
+1492, 2000-03-24, 1, 10, West Indies, c Jacobs, King, 13, 22, 11, 2, 0
+1492, 2000-03-24, 3, 9, West Indies, c Ambrose, Rose, 3, 13, 9, 0, 0
+1495, 2000-04-18, 1, 9, England, c Ramprakash, Giddins, 0, 7, 4, 0, 0
+1495, 2000-04-18, 3, 10, England, not out, , 37, 49, 37, 7, 0
+1510, 2000-08-12, 1, 10, New Zealand, c Parore, O'Connor, 10, 22, 17, 1, 0
+1510, 2000-08-12, 3, 10, New Zealand, , Cairns, 5, 15, 12, 1, 0
+1515, 2000-10-18, 1, 10, India, lbw, Agarkar, 6, 14, 12, 1, 0
+1515, 2000-10-18, 3, 10, India, c Tendulkar, Joshi, 15, 56, 32, 2, 0
+1551, 2001-06-19, 1, 10, West Indies, not out, , 0, 7, 1, 0, 0
+1551, 2001-06-19, 3, 9, West Indies, c sub (LV Garrick), King, 7, 12, 7, 1, 0
+1553, 2001-06-27, 1, 10, West Indies, c Sarwan, Black, 20, 53, 39, 3, 0
+1553, 2001-06-27, 3, 10, West Indies, c Gayle, McGarrell, 13, 24, 19, 1, 0

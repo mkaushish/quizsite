@@ -1,0 +1,55 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+816, 1978-01-28, 1, 8, India,                c &, Ghavri, 22, 46, na, 1, 0
+816, 1978-01-28, 3, 8, India, c Vengsarkar, Ghavri, 26, 48, na, 4, 0
+819, 1978-03-03, 1, 8, West Indies, c Murray, Roberts, 2, 19, na, 0, 0
+819, 1978-03-03, 3, 7, West Indies, not out, , 7, 18, na, 1, 0
+821, 1978-03-17, 1, 8, West Indies, , Garner, 74, 73, na, 13, 2
+821, 1978-03-17, 3, 8, West Indies, , Garner, 43, 63, na, 7, 0
+822, 1978-03-31, 2, 9, West Indies, , Clarke, 33, 44, na, 5, 0
+822, 1978-03-31, 4, 9, West Indies, not out, , 15, 19, na, 3, 0
+823, 1978-04-15, 2, 8, West Indies, c Williams, Holder, 22, 38, na, 4, 0
+823, 1978-04-15, 4, 8, West Indies, , Parry, 3, 9, na, 0, 0
+824, 1978-04-28, 1, 9, West Indies, , Jumadeen, 7, 12, na, 0, 0
+834, 1978-12-01, 1, 8, England, c Taylor, Willis, 17, 40, 40, 2, 0
+834, 1978-12-01, 3, 8, England, c Brearley, Miller, 16, 79, 70, 1, 0
+836, 1978-12-15, 2, 8, England, c Taylor, Hendrick, 12, 43, 44, 0, 0
+836, 1978-12-15, 4, 8, England, c Botham, Lever, 7, 24, 19, 1, 0
+843, 1979-01-27, 2, 7, England, , Botham, 28, 79, 75, 4, 0
+843, 1979-01-27, 4, 7, England, c Brearley, Willis, 0, 1, 2, 0, 0
+846, 1979-02-10, 1, 7, England, , Emburey, 7, 14, 15, 1, 0
+846, 1979-02-10, 3, 7, England, not out, , 61, 160, 147, 3, 0
+850, 1979-03-24, 2, 8, Pakistan, , Sarfraz Nawaz, 19, 38, 29, 2, 0
+850, 1979-03-24, 4, 4, Pakistan, run out, , 1, 4, 2, 0, 0
+856, 1979-09-19, 1, 6, India,                c &, Ghavri, 47, 118, 107, 5, 0
+857, 1979-10-02, 2, 2, India, c Yashpal Sharma, Ghavri, 29, 98, na, 3, 0
+857, 1979-10-02, 4, 8, India, lbw, Kapil Dev, 5, 15, na, 0, 0
+859, 1979-10-26, 1, 7, India, not out, , 61, 96, 70, 9, 1
+859, 1979-10-26, 3, 7, India, c Narasimha Rao, Yadav, 12, 29, 28, 1, 1
+894, 1981-01-23, 1, 8, India, c Viswanath, Doshi, 12, 38, 40, 0, 0
+894, 1981-01-23, 3, 8, India, c Vengsarkar, Yadav, 2, 16, 6, 0, 0
+895, 1981-02-07, 2, 8, India, lbw, Doshi, 0, 2, 5, 0, 0
+895, 1981-02-07, 4, 5, India, , Kapil Dev, 7, 73, 58, 1, 0
+909, 1981-11-13, 1, 8, Pakistan, c Wasim Bari, Imran Khan, 9, 56, 32, 0, 0
+909, 1981-11-13, 3, 8, Pakistan, st Wasim Bari, Iqbal Qasim, 22, 82, 47, 4, 0
+910, 1981-11-27, 2, 8, Pakistan, , Sarfraz Nawaz, 2, 35, 23, 0, 0
+913, 1981-12-11, 2, 8, Pakistan, , Iqbal Qasim, 20, 70, 56, 2, 0
+913, 1981-12-11, 3, 8, Pakistan, , Imran Khan, 0, 10, 3, 0, 0
+915, 1981-12-26, 1, 8, West Indies, , Garner, 21, 35, 17, 2, 0
+915, 1981-12-26, 3, 8, West Indies, , Garner, 13, 15, 17, 0, 0
+917, 1982-01-02, 2, 9, West Indies, , Holding, 45, 58, 33, 7, 0
+919, 1982-01-30, 1, 8, West Indies, , Croft, 8, 29, 18, 1, 0
+919, 1982-01-30, 3, 8, West Indies, , Garner, 6, 31, 22, 1, 0
+924, 1982-03-12, 1, 8, New Zealand, , Hadlee, 25, 44, 33, 4, 0
+924, 1982-03-12, 3, 8, New Zealand, c Coney, Hadlee, 0, 2, 4, 0, 0
+926, 1982-03-19, 1, 8, New Zealand, c Cairns, Hadlee, 8, 19, 12, 2, 0
+935, 1982-09-22, 1, 8, Pakistan, c Javed Miandad, Tahir Naqqash, 0, 1, 1, 0, 0
+935, 1982-09-22, 3, 8, Pakistan, lbw, Abdul Qadir, 0, 10, 12, 0, 0
+937, 1982-10-14, 1, 8, Pakistan, c Haroon Rasheed, Jalal-ud-Din, 40, 55, 35, 4, 1
+937, 1982-10-14, 3, 8, Pakistan, , Imran Khan, 21, 70, 46, 2, 0
+938, 1982-11-12, 2, 9, England, c Lamb, Willis, 17, 75, 62, 1, 0
+939, 1982-11-26, 2, 8, England, c Tavare, Willis, 53, 136, 92, 6, 0
+940, 1982-12-10, 1, 9, England, c Gower, Botham, 38, 78, 66, 2, 0
+943, 1982-12-26, 2, 8, England, , Miller, 9, 19, 17, 2, 0
+943, 1982-12-26, 4, 8, England, , Cowans, 0, 4, 5, 0, 0
+944, 1983-01-02, 1, 8, England, , Cowans, 24, 57, 48, 3, 0
+944, 1983-01-02, 3, 8, England, c Botham, Hemmings, 0, 11, 11, 0, 0

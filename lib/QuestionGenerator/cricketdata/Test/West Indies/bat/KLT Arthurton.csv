@@ -1,0 +1,51 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+1101, 1988-07-21, 2, 6, England, c Richards, Pringle, 27, 89, 71, 4, 0
+1117, 1989-03-25, 1, 4, India, run out, , 9, 23, 20, 1, 0
+1118, 1989-04-07, 2, 4, India, , Hirwani, 0, 1, 1, 0, 0
+1118, 1989-04-07, 4, 4, India, not out, , 11, 52, 50, 1, 0
+1119, 1989-04-15, 1, 4, India, c sub, Arshad Ayub, 37, 207, 158, 4, 0
+1119, 1989-04-15, 3, 4, India, lbw, Kapil Dev, 1, 12, 13, 0, 0
+1120, 1989-04-28, 2, 4, India, c Azharuddin, Sharma, 20, 97, 71, 3, 0
+1120, 1989-04-28, 4, 4, India, not out, , 0, 6, 2, 0, 0
+1188, 1992-04-18, 1, 5, South Africa, c Kuiper, Pringle, 59, 124, 97, 10, 0
+1188, 1992-04-18, 3, 5, South Africa, , Donald, 22, 66, 55, 2, 0
+1202, 1992-11-27, 2, 5, Australia, not out, , 157, 447, 343, 16, 1
+1202, 1992-11-27, 4, 5, Australia, , McDermott, 0, 6, 5, 0, 0
+1205, 1992-12-26, 2, 5, Australia, c Healy, McDermott, 71, 251, 185, 3, 1
+1205, 1992-12-26, 4, 5, Australia, st Healy, Warne, 13, 20, 13, 0, 0
+1208, 1993-01-02, 2, 5, Australia, c Healy, Matthews, 47, 140, 134, 5, 0
+1210, 1993-01-23, 1, 5, Australia, c SR Waugh, May, 0, 8, 4, 0, 0
+1210, 1993-01-23, 3, 5, Australia, c Healy, McDermott, 0, 6, 8, 0, 0
+1212, 1993-01-30, 2, 5, Australia, c SR Waugh, McDermott, 77, 224, 154, 7, 0
+1220, 1993-04-16, 1, 5, Pakistan, run out, , 3, 28, 13, 0, 0
+1220, 1993-04-16, 3, 6, Pakistan, lbw, Wasim Akram, 1, 20, 13, 0, 0
+1221, 1993-04-23, 1, 5, Pakistan, , Wasim Akram, 56, 165, 114, 5, 0
+1222, 1993-05-01, 1, 5, Pakistan, lbw, Waqar Younis, 30, 81, 71, 2, 1
+1222, 1993-05-01, 3, 5, Pakistan, lbw, Waqar Younis, 0, 1, 1, 0, 0
+1239, 1993-12-08, 2, 5, Sri Lanka, c Jayasuriya, Anurasiri, 0, 15, 9, 0, 0
+1250, 1994-02-19, 2, 5, England, c Lewis, Malcolm, 126, 323, 232, 11, 2
+1254, 1994-03-17, 2, 4, England, c Thorpe, Salisbury, 5, 29, 16, 1, 0
+1257, 1994-03-25, 1, 4, England, lbw, Lewis, 1, 21, 17, 0, 0
+1257, 1994-03-25, 3, 4, England, c Stewart, Caddick, 42, 144, 88, 3, 1
+1258, 1994-04-08, 2, 4, England, c Russell, Fraser, 0, 3, 3, 0, 0
+1258, 1994-04-08, 4, 5, England, , Tufnell, 52, 155, 116, 9, 1
+1259, 1994-04-16, 1, 5, England, c Russell, Caddick, 47, 246, 184, 5, 0
+1274, 1994-11-18, 2, 5, India, c Tendulkar, Raju, 42, 90, 76, 6, 0
+1274, 1994-11-18, 4, 5, India, c Azharuddin, Raju, 20, 65, 48, 1, 1
+1277, 1994-12-01, 2, 7, India, c Azharuddin, Raju, 7, 38, 35, 1, 0
+1277, 1994-12-01, 4, 6, India, not out, , 7, 47, 43, 1, 0
+1278, 1994-12-10, 1, 6, India, c Kapoor, Raju, 18, 18, 16, 2, 1
+1278, 1994-12-10, 3, 5, India, not out, , 70, 106, 87, 4, 2
+1286, 1995-02-03, 2, 5, New Zealand, run out, , 1, 10, 4, 0, 0
+1289, 1995-02-10, 1, 5, New Zealand, run out, , 70, 204, 149, 7, 1
+1295, 1995-04-08, 2, 6, Australia, c Taylor, Warne, 26, 66, 52, 2, 2
+1296, 1995-04-21, 2, 6, Australia, c ME Waugh, McGrath, 5, 29, 27, 1, 0
+1297, 1995-04-29, 1, 6, Australia, c Healy, McGrath, 16, 43, 39, 1, 1
+1297, 1995-04-29, 3, 7, Australia, lbw, Warne, 14, 42, 26, 1, 1
+1298, 1995-06-08, 2, 5, England, c Stewart, DeFreitas, 42, 198, 153, 6, 0
+1299, 1995-06-22, 2, 6, England, c Gough, Fraser, 75, 223, 169, 10, 0
+1299, 1995-06-22, 4, 6, England, c sub, Cork, 0, 49, 40, 0, 0
+1300, 1995-07-06, 2, 6, England, lbw, Fraser, 8, 35, 21, 2, 0
+1301, 1995-07-27, 1, 6, England, c Cork, Watkinson, 17, 55, 48, 2, 1
+1301, 1995-07-27, 3, 2, England, run out, , 17, 86, 74, 3, 0
+1302, 1995-08-10, 2, 5, England, , Illingworth, 13, 52, 28, 3, 0

@@ -1,0 +1,112 @@
+
+Test # 668
+Australia in India, 1969/70, 4th Test
+India v Australia
+Eden Gardens, Calcutta
+12,13,14,16 December 1969 (6-day match)
+
+Result: Australia won by 10 wickets
+Series: Australia leads the 5-match series 2-1
+
+Toss: Australia
+Umpires: SP Pan and J Reuben
+
+Close of play:
+ Day 1: India 176/7 (Solkar 41*, Prasanna 5*)
+ Day 2: India 212, Australia 95/2 (Chappell 10*, Walters 5*)
+ Day 3: Australia 335, India 12/0 (Engineer 5*, Mankad 7*)
+
+India 1st innings                                               R   M   B  4 6
++FM Engineer          c Stackpole        b McKenzie             0          0 0
+AV Mankad             c Stackpole        b McKenzie             9            0
+AL Wadekar            c Freeman          b McKenzie             0          0 0
+GR Viswanath          c Taber            b Mallett             54 132      6 0
+*Nawab of Pataudi jnr c Chappell         b Mallett             15            0
+AK Roy                c Taber            b McKenzie            18            0
+ED Solkar             c Taber            b McKenzie            42            0
+S Venkataraghavan     c Stackpole        b Mallett             24            0
+EAS Prasanna          run out                                  26            0
+S Guha                                   b McKenzie             4            0
+BS Bedi               not out                                   9            0
+Extras                (b 5, lb 1, w 1, nb 4)                   11
+Total                 (all out, 96.4 overs)                   212
+
+FoW: 1-0 (Engineer), 2-0 (Wadekar), 3-22 (Mankad),
+     4-64 (Pataudi), 5-103 (Viswanath), 6-103 (Roy),
+     7-154 (Venkataraghavan), 8-178 (Solkar), 9-184 (Guha),
+     10-212 (Prasanna).
+
+Bowling                      O      M      R      W
+McKenzie                    33.4   12     67      6
+Freeman                     17      6     43      0
+Connolly                    17      5     27      0
+Mallett                     27      9     55      3
+Stackpole                    2      0      9      0
+
+Australia 1st innings                                           R   M   B  4 6
+*WM Lawry             c Solkar           b Bedi                35            1
+KR Stackpole          run out                                  41            1
+IM Chappell           c Wadekar          b Bedi                99 305     16 0
+KD Walters            st Engineer        b Bedi                56 118      3 1
+IR Redpath            c Wadekar          b Bedi                 0          0 0
+AP Sheahan            run out                                  32            0
+EW Freeman            c Prasanna         b Bedi                29            0
++HB Taber                                b Bedi                 2          0 0
+GD McKenzie           c Pataudi          b Bedi                 0          0 0
+AA Mallett            not out                                   2          0 0
+AN Connolly           c Guha             b Solkar              31            4
+Extras                (b 4, lb 2, nb 2)                         8
+Total                 (all out, 143.1 overs)                  335
+
+FoW: 1-65 (Stackpole), 2-84 (Lawry), 3-185 (Walters),
+     4-185 (Redpath), 5-257 (Sheahan), 6-279 (Chappell),
+     7-302 (Taber), 8-302 (Freeman), 9-302 (McKenzie),
+     10-335 (Connolly).
+
+Bowling                      O      M      R      W
+Guha                        19      5     55      0
+Solkar                       9.1    1     28      1
+Prasanna                    49     15    116      0
+Venkataraghavan             16      6     30      0
+Bedi                        50     19     98      7
+
+India 2nd innings                                               R   M   B  4 6
++FM Engineer          c Redpath          b Freeman             10            0
+AV Mankad             c Taber            b McKenzie            20            0
+AL Wadekar            lbw                b Freeman             62            0
+GR Viswanath                             b Freeman              5            0
+ED Solkar             lbw                b Connolly            21            0
+*Nawab of Pataudi jnr c Connolly         b Mallett              1          0 0
+AK Roy                c Sheahan          b Connolly            19            0
+S Venkataraghavan                        b Connolly             0          0 0
+EAS Prasanna          c Stackpole        b Freeman              0          0 0
+BS Bedi               c Chappell         b Connolly             7            0
+S Guha                not out                                   1          0 0
+Extras                (b 6, lb 4, nb 5)                        15
+Total                 (all out, 77.1 overs)                   161
+
+FoW: 1-29 (Engineer), 2-31 (Mankad), 3-40 (Viswanath),
+     4-90 (Solkar), 5-93 (Pataudi), 6-141 (Roy),
+     7-141 (Venkataraghavan), 8-142 (Prasanna), 9-159 (Wadekar),
+     10-161 (Bedi).
+
+Bowling                      O      M      R      W
+McKenzie                    18      4     34      1
+Freeman                     26      7     54      4
+Connolly                    16.1    3     31      4
+Mallett                     17      5     27      1
+
+Australia 2nd innings (target: 39 runs)                         R   M   B  4 6
+*WM Lawry             not out                                  17            0
+KR Stackpole          not out                                  25            0
+Extras                                                          0
+Total                 (0 wickets, 5 overs)                     42
+
+DNB: IM Chappell, KD Walters, IR Redpath, AP Sheahan, EW Freeman,
+     +HB Taber, GD McKenzie, AA Mallett, AN Connolly.
+
+Bowling                      O      M      R      W
+Guha                         3      1     25      0
+Wadekar                      2      0     17      0
+
+<END>

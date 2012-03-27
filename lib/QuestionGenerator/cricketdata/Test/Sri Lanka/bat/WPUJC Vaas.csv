@@ -1,0 +1,164 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+1267, 1994-08-26, 1, 10, Pakistan, c Wasim Akram, Waqar Younis, 0, 7, 9, 0, 0
+1267, 1994-08-26, 3, 10, Pakistan, lbw, Mushtaq Ahmed, 4, 11, 10, 1, 0
+1270, 1994-10-11, 1, 8, Zimbabwe, lbw, Streak, 3, 72, 68, 0, 0
+1271, 1994-10-20, 2, 9, Zimbabwe, c Dekker, Whittall, 14, 72, 51, 1, 0
+1272, 1994-10-26, 1, 10, Zimbabwe, not out, , 16, 69, 55, 2, 0
+1292, 1995-03-11, 1, 8, New Zealand, not out, , 33, 131, 95, 4, 0
+1292, 1995-03-11, 3, 8, New Zealand, , Walmsley, 36, 172, 124, 4, 0
+1293, 1995-03-18, 1, 8, New Zealand, c Fleming, Su'a, 51, 134, 107, 5, 0
+1293, 1995-03-18, 3, 8, New Zealand, c Parore, Walmsley, 3, 35, 20, 0, 0
+1304, 1995-09-08, 2, 8, Pakistan, , Wasim Akram, 4, 18, 13, 0, 0
+1304, 1995-09-08, 3, 8, Pakistan, c Rameez Raja, Saqlain Mushtaq, 4, 27, 24, 0, 0
+1305, 1995-09-15, 1, 9, Pakistan, c Ijaz Ahmed, Aaqib Javed, 21, 71, 56, 3, 0
+1305, 1995-09-15, 3, 9, Pakistan, , Aaqib Javed, 40, 51, 51, 7, 0
+1306, 1995-09-22, 1, 9, Pakistan, , Aaqib Javed, 16, 66, 56, 0, 0
+1306, 1995-09-22, 3, 9, Pakistan, run out, , 27, 71, 30, 3, 0
+1317, 1995-12-08, 1, 9, Australia, c Healy, Warne, 4, 12, 7, 0, 0
+1317, 1995-12-08, 3, 9, Australia, c Healy, Warne, 4, 20, 19, 1, 0
+1319, 1995-12-26, 2, 8, Australia, c Healy, Reiffel, 0, 7, 8, 0, 0
+1319, 1995-12-26, 3, 8, Australia, c Boon, McGrath, 6, 27, 28, 1, 0
+1324, 1996-01-25, 2, 9, Australia, c ME Waugh, Reiffel, 8, 12, 7, 1, 0
+1324, 1996-01-25, 4, 9, Australia, c Healy, McGrath, 26, 46, 32, 5, 0
+1333, 1996-09-11, 1, 9, Zimbabwe, , Strang, 34, 88, 48, 2, 1
+1334, 1996-09-18, 2, 8, Zimbabwe, st A Flower, PA Strang, 8, 12, 6, 0, 1
+1358, 1997-03-07, 2, 8, New Zealand, c Horne, Patel, 2, 18, 17, 0, 0
+1358, 1997-03-07, 3, 8, New Zealand,                c &, Davis, 57, 130, 97, 7, 1
+1359, 1997-03-14, 2, 8, New Zealand, c Pocock, Vettori, 28, 120, 98, 4, 0
+1359, 1997-03-14, 4, 4, New Zealand, c Patel, Vettori, 8, 51, 36, 1, 0
+1366, 1997-04-19, 1, 9, Pakistan, c Moin Khan, Mohammad Zahid, 17, 90, 59, 1, 0
+1366, 1997-04-19, 3, 9, Pakistan, c sub (Mohammad Hussain), Mushtaq Ahmed, na, 1, na, na, 0 
+1367, 1997-04-26, 1, 9, Pakistan, c Saleem Elahi, Saqlain Mushtaq, 17, 94, 81, 2, 0
+1374, 1997-08-02, 2, 8, India, not out, , 11, 36, 24, 0, 0
+1376, 1997-08-09, 1, 8, India, , Kuruvilla, 10, 53, 42, 2, 0
+1376, 1997-08-09, 3, 8, India, not out, , 5, 22, 15, 0, 0
+1385, 1997-11-19, 1, 9, India, , Kuruvilla, 2, 12, 15, 0, 0
+1390, 1997-12-03, 2, 9, India, c sub (NM Kulkarni), Kuruvilla, 4, 14, 7, 1, 0
+1390, 1997-12-03, 4, 9, India, not out, , 0, 2, 1, 0, 0
+1394, 1998-01-07, 1, 8, Zimbabwe, c Rennie, PA Strang, 26, 81, 56, 3, 0
+1395, 1998-01-14, 2, 11, Zimbabwe, absent ill, , -, , , , 
+1410, 1998-03-19, 2, 8, South Africa, c Boucher, Pollock, 30, 84, 60, 6, 0
+1410, 1998-03-19, 4, 8, South Africa, c Boucher, Donald, 0, 1, 1, 0, 0
+1445, 1999-02-24, 2, 9, India, c Laxman, Kumble, 23, 93, 64, 3, 0
+1450, 1999-03-12, 1, 9, Pakistan, not out, , 20, 90, 78, 0, 0
+1450, 1999-03-12, 3, 3, Pakistan, , Wasim Akram, 0, 1, 1, 0, 0
+1459, 1999-09-09, 2, 9, Australia, not out, , 2, 14, 6, 0, 0
+1460, 1999-09-22, 1, 8, Australia, c Ponting, Fleming, 41, 71, 58, 4, 1
+1470, 1999-11-18, 2, 8, Zimbabwe, c Campbell, Strang, 9, 50, 42, 1, 0
+1473, 1999-11-26, 2, 8, Zimbabwe, c Gripper, Matambanadzo, 5, 24, 17, 0, 0
+1474, 1999-12-04, 2, 8, Zimbabwe, c Campbell, Brandes, 0, 15, 12, 0, 0
+1485, 2000-03-26, 2, 8, Pakistan, not out, , 53, 141, 87, 8, 1
+1485, 2000-03-26, 4, 8, Pakistan, run out (Saqlain Mushtaq), , 0, 8, 5, 0, 0
+1487, 2000-03-05, 1, 8, Pakistan, not out, , 17, 104, 62, 1, 0
+1487, 2000-03-05, 3, 8, Pakistan, c Yousuf Youhana, Arshad Khan, 5, 32, 26, 0, 0
+1489, 2000-03-12, 2, 8, Pakistan, not out, , 25, 87, 59, 2, 0
+1489, 2000-03-12, 4, 8, Pakistan, c Shoaib Akhtar, Shahid Afridi, 28, 62, 49, 5, 0
+1499, 2000-05-14, 1, 8, Pakistan, , Mushtaq Ahmed, 3, 27, 21, 0, 0
+1499, 2000-05-14, 3, 8, Pakistan,                c &, Wasim Akram, 20, 74, 57, 0, 0
+1501, 2000-05-21, 1, 8, Pakistan, c Younis Khan, Azhar Mahmood, 5, 32, 18, 0, 0
+1501, 2000-05-21, 3, 8, Pakistan, c sub (Imran Nazir), Azhar Mahmood, 20, 58, 47, 3, 0
+1504, 2000-06-20, 1, 9, South Africa, , Pollock, 54, 170, 133, 7, 0
+1505, 2000-07-30, 2, 8, South Africa, c Rhodes, Pollock, 4, 16, 12, 0, 0
+1505, 2000-07-30, 4, 9, South Africa, run out (Kallis/Klusener), , 5, 23, 13, 0, 0
+1507, 2000-07-06, 2, 6, South Africa, lbw, Pollock, 5, 81, 63, 0, 0
+1526, 2000-11-26, 2, 8, South Africa, c Boucher, Pollock, 2, 24, 19, 0, 0
+1526, 2000-11-26, 4, 8, South Africa, not out, , 3, 27, 25, 0, 0
+1528, 2001-01-02, 1, 8, South Africa, c Pollock, Ngam, 7, 46, 29, 1, 0
+1528, 2001-01-02, 3, 8, South Africa,                c &, Boje, 38, 34, 26, 6, 2
+1530, 2001-01-22, 1, 6, England, c White, Giles, 8, 20, 14, 0, 0
+1532, 2001-02-07, 1, 9, England, c Thorpe, Caddick, 2, 7, 6, 0, 0
+1532, 2001-02-07, 3, 9, England, c Croft, White, 36, 112, 83, 5, 0
+1537, 2001-02-15, 1, 8, England, not out, , 19, 38, 49, 3, 0
+1537, 2001-02-15, 3, 8, England, c Atherton, Giles, 6, 10, 9, 0, 0
+1555, 2001-07-14, 2, 8, India, c Ramesh, Khan, 13, 30, 28, 2, 0
+1557, 2001-07-22, 1, 8, India, , Harvinder Singh, 42, 110, 64, 7, 0
+1557, 2001-07-22, 3, 8, India, lbw, Prasad, 4, 20, 14, 0, 0
+1567, 2001-10-13, 2, 8, West Indies, c Samuels, Dillon, 7, 28, 20, 1, 0
+1570, 2001-10-21, 1, 8, West Indies, c Hooper, Collins, 0, 21, 16, 0, 0
+1570, 2001-10-21, 3, 7, West Indies, c Ganga, Ramnarine, 0, 2, 5, 0, 0
+1572, 2001-11-29, 2, 8, West Indies, c Samuels, Collins, 23, 37, 31, 2, 0
+1581, 2001-11-27, 1, 8, Zimbabwe, not out, , 74, 117, 113, 9, 2
+1583, 2002-01-04, 2, 8, Zimbabwe, not out, , 72, 201, 143, 7, 0
+1585, 2002-01-12, 1, 8, Zimbabwe, lbw, Streak, 8, 46, 31, 1, 0
+1592, 2002-02-06, 2, 6, Pakistan, c Taufeeq Umar, Abdul Razzaq, 43, 116, 67, 5, 0
+1603, 2002-04-16, 1, 8, England, c Trescothick, Cork, 6, 24, 17, 1, 0
+1605, 2002-05-30, 1, 8, England, , Flintoff, 23, 84, 52, 4, 0
+1605, 2002-05-30, 3, 8, England, st Stewart, Giles, 28, 34, 28, 3, 1
+1606, 2002-05-13, 2, 8, England, lbw, Hoggard, 14, 47, 30, 2, 0
+1606, 2002-05-13, 3, 7, England, lbw, Hoggard, 1, 4, 4, 0, 0
+1624, 2002-10-08, 1, 8, South Africa, c Kallis, Hall, 1, 5, 5, 0, 0
+1624, 2002-10-08, 3, 8, South Africa, c Kirsten, Ntini, 32, 38, 30, 3, 0
+1626, 2002-10-15, 1, 8, South Africa, c Boucher, Ntini, 7, 46, 37, 0, 0
+1626, 2002-10-15, 3, 8, South Africa, lbw, Kallis, 17, 64, 38, 4, 0
+1641, 2003-03-25, 2, 3, New Zealand, c Fleming, Bond, 4, 24, 15, 0, 0
+1644, 2003-04-03, 2, 8, New Zealand, , Oram, 22, 45, 34, 4, 0
+1648, 2003-05-20, 1, 9, West Indies, c Jacobs, Gayle, 38, 161, 125, 4, 0
+1649, 2003-05-27, 1, 8, West Indies, not out, , 12, 114, 80, 1, 0
+1649, 2003-05-27, 3, 8, West Indies, c Lara, Collymore, 21, 30, 15, 4, 0
+1670, 2003-11-02, 1, 9, England, not out, , 22, 132, 80, 3, 0
+1670, 2003-11-02, 3, 7, England, c Collingwood, Giles, 19, 104, 72, 3, 0
+1672, 2003-11-10, 1, 8, England, lbw, Kirtley, 32, 84, 76, 6, 0
+1672, 2003-11-10, 3, 8, England, c Vaughan, Kirtley, 20, 23, 17, 2, 1
+1675, 2003-11-18, 2, 8, England, run out (Giles), , 9, 18, 11, 1, 0
+1685, 2004-02-08, 2, 9, Australia, c Hayden, MacGill, 0, 14, 9, 0, 0
+1685, 2004-02-08, 4, 9, Australia, not out, , 10, 28, 14, 2, 0
+1688, 2004-02-16, 2, 8, Australia, not out, , 68, 153, 126, 9, 1
+1688, 2004-02-16, 4, 8, Australia, c Langer, Warne, 45, 85, 53, 8, 0
+1691, 2004-02-24, 2, 8, Australia, , Warne, 24, 62, 31, 5, 0
+1691, 2004-02-24, 4, 8, Australia, lbw, Warne, 9, 75, 38, 1, 0
+1698, 2004-04-06, 2, 8, Zimbabwe, c Matsikenyeri, Mahwire, 28, na, 67, 5, 0
+1705, 2004-06-01, 2, 10, Australia, c Hayden, Warne, 5, 10, 12, 1, 0
+1705, 2004-06-01, 4, 9, Australia, not out, , 10, 23, 16, 1, 0
+1706, 2004-06-09, 2, 9, Australia, c Ponting, Gillespie, 2, 8, 6, 0, 0
+1706, 2004-06-09, 4, 9, Australia, not out, , 11, 57, 44, 0, 0
+1709, 2004-07-04, 1, 9, South Africa, c Hayward, Boje, 69, 193, 142, 10, 0
+1709, 2004-07-04, 3, 9, South Africa, not out, , 13, 46, 30, 1, 0
+1710, 2004-07-11, 1, 5, South Africa, c van Jaarsveld, Pollock, 10, 30, 21, 2, 0
+1716, 2004-09-20, 1, 8, Pakistan, c Yousuf Youhana, Shoaib Akhtar, 22, 40, 28, 5, 0
+1716, 2004-09-20, 3, 8, Pakistan, , Shoaib Malik, 4, 25, 14, 1, 0
+1719, 2004-10-28, 1, 8, Pakistan, c Imran Farhat, Abdul Razzaq, 7, 29, 22, 1, 0
+1719, 2004-10-28, 3, 8, Pakistan, not out, , 32, 149, 114, 5, 0
+1746, 2005-03-04, 2, 7, New Zealand, c Astle, Wiseman, 17, 74, 50, 2, 0
+1748, 2005-03-11, 1, 8, New Zealand, , Franklin, 5, 6, 9, 1, 0
+1748, 2005-03-11, 3, 9, New Zealand, , Franklin, 38, 94, 72, 4, 1
+1755, 2005-06-13, 2, 7, West Indies, , Smith, 49, 140, 99, 5, 0
+1757, 2005-06-22, 1, 7, West Indies, c Ramdass, Best, 6, 24, 19, 1, 0
+1757, 2005-06-22, 3, 8, West Indies, , Banks, 19, 37, 25, 3, 0
+1764, 2005-08-12, 2, 7, Bangladesh, lbw, Mohammad Rafique, 5, 16, 17, 0, 0
+1766, 2005-08-20, 1, 7, Bangladesh, , Syed Rasel, 65, 102, 66, 11, 1
+1776, 2005-11-10, 2, 8, India, c Harbhajan Singh, Kumble, 2, 7, 9, 0, 0
+1776, 2005-11-10, 4, 9, India, c Harbhajan Singh, Kumble, 17, 47, 36, 3, 0
+1802, 2006-04-11, 2, 9, England, c Trescothick, Hoggard, 31, 68, 36, 4, 0
+1802, 2006-04-11, 3, 9, England, not out, , 50, 253, 188, 7, 0
+1803, 2006-04-25, 1, 8, England, not out, , 30, 117, 78, 3, 0
+1803, 2006-04-25, 3, 8, England, c Collingwood, Plunkett, 1, 13, 10, 0, 0
+1804, 2006-05-02, 1, 9, England, not out, , 38, 120, 94, 5, 0
+1804, 2006-05-02, 3, 9, England, not out, , 34, 139, 100, 4, 0
+1812, 2006-07-04, 2, 9, South Africa, c Boucher, Steyn, 64, 161, 130, 10, 0
+1812, 2006-07-04, 4, 9, South Africa, c de Villiers, Hall, 4, 24, 20, 0, 0
+1820, 2006-11-07, 1, 8, New Zealand, c McCullum, Oram, 4, 19, 11, 0, 0
+1820, 2006-11-07, 3, 8, New Zealand, c McCullum, Oram, 0, 6, 3, 0, 0
+1822, 2006-11-15, 1, 8, New Zealand, c McCullum, Bond, 0, 3, 5, 0, 0
+1822, 2006-11-15, 3, 8, New Zealand, c McCullum, Vettori, 47, 92, 74, 4, 0
+1837, 2007-05-25, 2, 8, Bangladesh, not out, , 100, 213, 169, 7, 0
+1838, 2007-06-03, 2, 8, Bangladesh, not out, , 30, 61, 61, 4, 1
+1845, 2007-10-08, 2, 9, Australia, , MacGill, 8, 15, 15, 2, 0
+1845, 2007-10-08, 3, 9, Australia, not out, , 11, 46, 26, 2, 0
+1851, 2007-11-01, 1, 8, England, , Panesar, 12, 25, 22, 2, 0
+1851, 2007-11-01, 3, 8, England, not out, , 6, 32, 17, 0, 0
+1853, 2007-11-09, 2, 8, England, c Bell, Broad, 4, 14, 14, 0, 0
+1854, 2007-11-18, 1, 8, England, c Vaughan, Hoggard, 90, 197, 133, 11, 0
+1869, 2008-02-22, 1, 8, West Indies, not out, , 54, 162, 142, 4, 0
+1869, 2008-02-22, 3, 7, West Indies, c Ramdin, Benn, 13, 26, 21, 0, 0
+1872, 2008-03-03, 1, 8, West Indies, c Ramdin, Powell, 1, na, 3, 0, 0
+1872, 2008-03-03, 3, 8, West Indies, c Ramdin, Gayle, 45, na, 114, 2, 0
+1882, 2008-06-23, 1, 8, India, not out, , 22, 47, 32, 4, 0
+1884, 2008-07-31, 2, 8, India, c Harbhajan Singh, Kumble, 1, 5, 4, 0, 0
+1884, 2008-07-31, 4, 8, India, lbw, Harbhajan Singh, 0, 10, 7, 0, 0
+1886, 2008-07-08, 2, 3, India, c Sehwag, Harbhajan Singh, 47, 169, 111, 9, 0
+1903, 2008-11-26, 1, 8, Bangladesh, c Mushfiqur Rahim, Mashrafe Mortaza, 37, 107, 77, 6, 0
+1903, 2008-11-26, 3, 8, Bangladesh, not out, , 15, 11, 13, 0, 1
+1905, 2009-01-03, 1, 8, Bangladesh, lbw, Mashrafe Mortaza, 3, 27, 24, 0, 0
+1905, 2009-01-03, 3, 8, Bangladesh, not out, , 20, 37, 25, 3, 0
+1909, 2009-01-21, 1, 8, Pakistan, not out, , 12, 26, 22, 1, 0
+1927, 2009-06-20, 2, 7, Pakistan, lbw, Danish Kaneria, 4, 23, 15, 0, 0

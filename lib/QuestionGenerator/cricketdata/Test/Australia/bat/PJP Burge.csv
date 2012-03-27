@@ -1,0 +1,69 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+399, 1955-02-25, 2, 6, England, c Appleyard, Wardle, 17, 32, 31, 2, 0
+399, 1955-02-25, 3, 6, England, not out, , 18, 31, 36, 2, 0
+403, 1955-03-26, 1, 6, West Indies,                c &, Atkinson, 14, na, na, na, 0
+425, 1956-06-07, 2, 4, England, c sub, Lock, 7, 34, na, 1, 0
+425, 1956-06-07, 4, 5, England, not out, , 35, 128, na, 5, 0
+426, 1956-06-21, 1, 4, England, , Statham, 21, 93, na, 0, 0
+426, 1956-06-21, 3, 4, England, , Trueman, 14, 46, na, 1, 0
+427, 1956-07-12, 2, 4, England, lbw, Laker, 2, 27, na, 0, 0
+427, 1956-07-12, 3, 5, England, lbw, Laker, 5, 22, na, 1, 0
+431, 1956-10-19, 2, 5, India, lbw, Patel, 35, na, na, na, 0
+432, 1956-10-26, 2, 4, India, c Patel, Gupte, 83, na, na, na, 0
+433, 1956-11-02, 1, 5, India, c Ramchand, Ghulam Ahmed, 58, na, na, na, 0
+433, 1956-11-02, 3, 5, India, c Ramchand, Ghulam Ahmed, 22, na, na, na, 0
+444, 1957-12-23, 2, 5, South Africa, c Waite, Heine, 0, na, na, 0, 0
+444, 1957-12-23, 4, 5, South Africa, , Tayfield, 14, na, na, na, 0
+460, 1958-12-05, 2, 5, England, c Cowdrey, Bailey, 2, 19, 12, 0, 0
+479, 1959-11-13, 2, 5, Pakistan, c Imtiaz Ahmed, Nasim-ul-Ghani, 0, na, na, 0, 0
+481, 1959-12-04, 2, 8, Pakistan, c Sharpe, Mohammad Munaf, 12, na, na, na, 0
+486, 1960-01-13, 1, 5, India, , Desai, 35, na, na, na, 0
+487, 1960-01-23, 2, 5, India, , Desai, 60, na, na, na, 0
+504, 1961-01-27, 2, 5, West Indies, , Sobers, 45, 92, na, 5, 0
+504, 1961-01-27, 4, 5, West Indies, c Alexander, Valentine, 49, 99, na, 5, 0
+506, 1961-02-10, 2, 4, West Indies, c Sobers, Gibbs, 68, 194, 194, 7, 0
+506, 1961-02-10, 4, 5, West Indies, , Valentine, 53, 155, 195, 8, 0
+507, 1961-06-08, 2, 5, England, lbw, Allen, 25, na, na, na, 0
+508, 1961-06-22, 2, 6, England, c Murray, Statham, 46, 140, na, na, 0
+508, 1961-06-22, 4, 5, England, not out, , 37, na, na, na, 0
+509, 1961-07-06, 1, 5, England, c Cowdrey, Jackson, 5, na, na, na, 0
+509, 1961-07-06, 3, 5, England, lbw, Allen, 0, na, na, 0, 0
+510, 1961-07-27, 1, 5, England, , Flavell, 15, 22, na, 2, 0
+510, 1961-07-27, 3, 5, England, c Murray, Dexter, 23, 89, na, 2, 0
+511, 1961-08-17, 2, 5, England, , Allen, 181, 411, na, 22, 0
+535, 1962-11-30, 1, 5, England, c Dexter, Trueman, 6, 49, na, 1, 0
+535, 1962-11-30, 3, 5, England, not out, , 47, 105, na, 3, 0
+536, 1963-12-29, 1, 5, England, lbw, Titmus, 23, 70, 64, 2, 0
+536, 1963-12-29, 3, 5, England, , Statham, 14, 53, 45, 1, 0
+539, 1963-02-15, 2, 5, England, lbw, Titmus, 103, 332, 291, 9, 0
+539, 1963-02-15, 4, 6, England, not out, , 52, 127, na, 5, 0
+548, 1963-12-06, 1, 4, South Africa, run out, , 13, 22, na, 1, 0
+549, 1964-01-01, 2, 4, South Africa, c Bland, PM Pollock, 23, 43, 37, na, 3
+549, 1964-01-01, 4, 4, South Africa, not out, , 26, 76, 85, 4, 0
+550, 1964-01-10, 1, 4, South Africa, , Partridge, 36, 68, 56, 6, 0
+550, 1964-01-10, 3, 4, South Africa, c Waite, PM Pollock, 13, 26, 19, 1, 1
+553, 1964-01-24, 1, 4, South Africa, c Halse, PM Pollock, 91, 235, na, 3, 0
+553, 1964-01-24, 3, 4, South Africa, run out, , 20, 65, na, 0, 0
+555, 1964-02-07, 1, 4, South Africa, , Partridge, 56, 135, 137, 7, 0
+555, 1964-02-07, 3, 4, South Africa, c Partridge, Seymour, 39, 123, 129, 5, 0
+561, 1964-06-04, 2, 4, England, lbw, Trueman, 31, 75, na, 3, 0
+561, 1964-06-04, 4, 4, England, not out, , 4, 24, na, 0, 0
+562, 1964-06-18, 1, 4, England, lbw, Dexter, 1, na, na, 0, 0
+562, 1964-06-18, 3, 4, England, c Parfitt, Titmus, 59, 110, na, na, 1
+563, 1964-07-02, 2, 4, England, c sub, Trueman, 160, 314, na, 24, 0
+563, 1964-07-02, 4, 4, England, , Titmus, 8, na, na, na, 0
+564, 1964-07-23, 1, 5, England, c Price, Cartwright, 34, 80, na, 4, 0
+565, 1964-08-13, 2, 4, England, lbw, Titmus, 25, 60, na, 4, 0
+566, 1964-10-02, 1, 4, India, , Nadkarni, 20, 52, na, 4, 0
+566, 1964-10-02, 3, 4, India, lbw, Nadkarni, 60, 207, na, 5, 1
+567, 1964-10-10, 1, 4, India, c Chandrasekhar, Borde, 80, 115, na, 15, 0
+567, 1964-10-10, 3, 4, India, , Chandrasekhar, 0, 3, na, 0, 0
+568, 1964-10-17, 1, 4, India, c Hanumant Singh, Durani, 4, 3, na, 1, 0
+569, 1964-10-24, 2, 4, Pakistan, c Majid Khan, Pervez Sajjad, 54, na, na, na, 0
+569, 1964-10-24, 4, 4, Pakistan, not out, , 28, na, na, na, 0
+597, 1965-12-10, 1, 4, England, , Brown, 0, 3, 4, 0, 0
+598, 1966-12-30, 1, 3, England, , Jones, 5, 30, 50, 0, 0
+598, 1966-12-30, 3, 4, England, c Edrich, Boycott, 120, 255, 193, 12, 0
+599, 1966-01-07, 2, 4, England, c Parks, Brown, 6, 12, 10, 0, 0
+599, 1966-01-07, 3, 4, England, run out, , 1, 2, 2, 0, 0
+600, 1966-01-28, 2, 5, England, c Parks, Jones, 27, 59, 46, 3, 0

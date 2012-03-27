@@ -1,0 +1,62 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+1080, 1987-11-25, 1, 6, West Indies, c Harper, Patterson, 5, 42, 25, 0, 0
+1080, 1987-11-25, 3, 6, West Indies, retired hurt, , 10, 79, 63, 1, 0
+1118, 1989-04-07, 1, 6, West Indies, c Greenidge, Bishop, 108, 343, 221, 15, 0
+1118, 1989-04-07, 3, 6, West Indies, c Logie, Ambrose, 3, 21, 12, 0, 0
+1119, 1989-04-15, 2, 6, West Indies, lbw, Marshall, 0, 12, 12, 0, 0
+1119, 1989-04-15, 4, 6, West Indies, lbw, Marshall, 1, 5, 4, 0, 0
+1120, 1989-04-28, 1, 6, West Indies, c Logie, Walsh, 47, 187, 136, 3, 0
+1120, 1989-04-28, 3, 4, West Indies, c Haynes, Walsh, 41, 104, 63, 6, 0
+1127, 1989-11-15, 2, 3, Pakistan, c Saleem Yousuf, Waqar Younis, 3, 17, 14, 0, 0
+1127, 1989-11-15, 4, 3, Pakistan, not out, , 113, 350, 243, 13, 0
+1128, 1989-11-23, 1, 3, Pakistan, c Saleem Malik, Naved Anjum, 76, 325, 240, 7, 0
+1128, 1989-11-23, 3, 3, Pakistan, lbw, Naved Anjum, 83, 237, 189, 11, 0
+1130, 1989-12-01, 1, 3, Pakistan, run out, , 218, 534, 401, 28, 0
+1132, 1989-12-09, 1, 3, Pakistan, lbw, Waqar Younis, 72, 181, 127, 10, 0
+1132, 1989-12-09, 3, 3, Pakistan, lbw, Imran Khan, 4, 25, 9, 1, 0
+1136, 1990-02-02, 2, 3, New Zealand, c Jones, Hadlee, 5, 26, 15, 1, 0
+1136, 1990-02-02, 3, 3, New Zealand, , Hadlee, 4, 5, 4, 1, 0
+1138, 1990-02-09, 1, 3, New Zealand, c Smith, Morrison, 42, 181, 132, 4, 0
+1139, 1990-02-22, 2, 3, New Zealand, , Morrison, 16, 44, 31, 2, 0
+1148, 1990-07-26, 2, 3, England, c Russell, Gooch, 18, 74, 59, 1, 0
+1148, 1990-07-26, 4, 3, England, c Russell, Malcolm, 33, 57, 47, 6, 0
+1149, 1990-08-09, 2, 3, England, c Smith, Hemmings, 93, 229, 196, 12, 0
+1149, 1990-08-09, 4, 3, England, c sub (CJ Adams), Hemmings, 50, 101, 77, 8, 0
+1150, 1990-08-23, 1, 3, England, c Russell, Malcolm, 22, 50, 29, 3, 0
+1156, 1990-11-23, 1, 3, Sri Lanka, lbw, Madurasinghe, 39, na, 93, 5, 0
+1177, 1991-11-29, 1, 3, Australia,                c &, Hughes, 17, 62, 51, 2, 0
+1177, 1991-11-29, 3, 3, Australia, c Boon, Hughes, 5, 22, 14, 1, 0
+1180, 1991-12-26, 1, 4, Australia, c Waugh, Reid, 25, 99, 75, 1, 0
+1180, 1991-12-26, 3, 3, Australia, c MA Taylor, McDermott, 30, 121, 74, 1, 0
+1181, 1992-01-02, 2, 3, Australia, c Waugh, Hughes, 34, 161, 121, 2, 0
+1184, 1992-01-25, 2, 3, Australia, lbw, Hughes, 2, 4, 3, 0, 0
+1184, 1992-01-25, 4, 3, Australia, run out, , 45, 144, 107, 5, 0
+1186, 1992-02-01, 2, 3, Australia, c Jones, Hughes, 31, 118, 99, 2, 0
+1186, 1992-02-01, 4, 3, Australia, c Healy, Whitney, 8, 54, 28, 1, 0
+1197, 1992-10-18, 2, 3, Zimbabwe, c sub (SG Davies), Jarvis, 104, 529, 422, 7, 0
+1200, 1992-11-13, 2, 3, South Africa, lbw, McMillan, 0, 35, 25, 0, 0
+1201, 1992-11-26, 2, 3, South Africa, , McMillan, 7, 42, 28, 1, 0
+1201, 1992-11-26, 4, 5, South Africa, not out, , 32, 172, 116, 2, 0
+1206, 1992-12-26, 1, 3, South Africa, c Henry, McMillan, 23, 100, 71, 1, 0
+1206, 1992-12-26, 3, 3, South Africa, lbw, Donald, 6, 25, 15, 1, 0
+1209, 1993-01-02, 2, 3, South Africa, c Hudson, Donald, 46, 269, 209, 2, 0
+1209, 1993-01-02, 4, 3, South Africa, not out, , 2, 14, 11, 0, 0
+1244, 1994-01-18, 1, 6, Sri Lanka,                c &, Muralitharan, 61, 144, 117, 4, 0
+1245, 1994-01-26, 1, 6, Sri Lanka, c Mahanama, Muralitharan, 39, 148, 111, 1, 0
+1247, 1994-02-08, 2, 6, Sri Lanka, c Ranatunga, de Silva, 16, 76, 54, 1, 0
+1255, 1994-03-19, 2, 6, New Zealand, c Young, Morrison, 29, 132, 91, 1, 0
+1255, 1994-03-19, 4, 5, New Zealand, not out, , 8, 9, 11, 2, 0
+1274, 1994-11-18, 1, 6, West Indies, c Lara, Dhanraj, 51, 170, 139, 7, 0
+1274, 1994-11-18, 3, 7, West Indies, c Cuffy, Walsh, 66, 231, 165, 7, 0
+1277, 1994-12-01, 1, 7, West Indies, c Simmons, Hooper, 0, 8, 9, 0, 0
+1277, 1994-12-01, 3, 6, West Indies, c Murray, Benjamin, 5, 6, 4, 1, 0
+1278, 1994-12-10, 2, 3, West Indies, lbw, Benjamin, 40, 159, 122, 3, 0
+1278, 1994-12-10, 4, 3, West Indies, c Murray, Walsh, 17, 82, 52, 3, 0
+1308, 1995-10-18, 2, 3, New Zealand, lbw, Nash, 15, 61, 45, 2, 0
+1308, 1995-10-18, 4, 3, New Zealand, not out, , 29, 53, 49, 4, 0
+1327, 1996-06-06, 1, 3, England, c Atherton, Lewis, 23, 68, 47, 4, 0
+1327, 1996-06-06, 3, 7, England, c Knight, Lewis, 18, 48, 64, 2, 0
+1329, 1996-07-04, 1, 5, England, c Hick, Patel, 53, 217, 144, 5, 1
+1329, 1996-07-04, 3, 2, England, c Stewart, Lewis, 11, 35, 33, 2, 0
+1338, 1996-11-20, 1, 1, South Africa, , Adams, 34, 114, 94, 4, 0
+1338, 1996-11-20, 3, 1, South Africa, c Hudson, Donald, 5, 22, 20, 0, 0

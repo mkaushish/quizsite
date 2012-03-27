@@ -1,0 +1,124 @@
+
+Test # 79
+The Ashes, 1903/04, 2nd Test
+Australia v England
+Melbourne Cricket Ground
+1,2,4,5 January 1904 (timeless match)
+
+Result: England won by 185 runs
+Series: England leads the 5-match series 2-0
+
+Toss: England
+Umpires: P Argall and RM Crockett
+Test debuts: A Fielder, AE Knight (England).
+
+Close of play:
+ Day 1: England 221/2 (Tyldesley 46*, Foster 49*)
+ Day 2: England 306/6 (Tyldesley 97*)
+ Day 3: England 315, Australia 122, England 74/5 (Tyldesley 48*)
+
+England 1st innings                                             R   M   B  4 6
+*PF Warner            c Duff             b Trumble             68 170      8 0
+TW Hayward            c Gregory          b Hopkins             58 155      2 0
+JT Tyldesley          c Trumble          b Howell              97 225      8 0
+RE Foster             retired ill                              49 115      3 0
+LC Braund             c Howell           b Trumble             20  55      2 0
+AE Knight                                b Howell               2   2      0 0
+GH Hirst              c Noble            b Howell               7  18      0 0
+W Rhodes              lbw                b Trumble              2  11      0 0
++AFA Lilley           c Howell           b Trumble              4  24      0 0
+AE Relf               not out                                   3  25      0 0
+A Fielder                                b Howell               1   2      0 0
+Extras                (lb 3, w 1)                               4
+Total                 (all out, 152.5 overs)                  315
+
+FoW: 1-122 (Hayward), 2-132 (Warner), 3-277 (Braund),
+     4-279 (Knight), 5-297 (Hirst), 6-306 (Rhodes),
+     7-306 (Tyldesley), 8-314 (Lilley), 9-315 (Fielder).
+
+Bowling                      O      M      R      W
+Trumble                     50     10    107      4
+Noble                        6      3      4      0
+Saunders                    16      3     60      0
+Howell                      34.5   14     43      4
+Armstrong                   25      6     43      0
+Hopkins                     20      2     50      1
+Trumper                      1      0      4      0
+
+Australia 1st innings                                           R   M   B  4 6
+RA Duff               st Lilley          b Rhodes              10  10      1 0
+VT Trumper            c Tyldesley        b Rhodes              74 112      5 1
+C Hill                c Rhodes           b Hirst                5  10      1 0
+*MA Noble             c sub (H Strudwick) b Rhodes              0   6      0 0
+SE Gregory            c Hirst            b Rhodes               1  12      0 0
+AJY Hopkins           c sub (H Strudwick) b Relf               18  17      1 0
+H Trumble             c sub (H Strudwick) b Rhodes              2   6      0 0
+WW Armstrong          c Braund           b Rhodes               1   6      0 0
++JJ Kelly             run out                                   8  17      0 0
+WP Howell             c Fielder          b Rhodes               0   7      0 0
+JV Saunders           not out                                   2   7      0 0
+Extras                (lb 1)                                    1
+Total                 (all out, 30.2 overs)                   122
+
+FoW: 1-14 (Duff), 2-23 (Hill), 3-23 (Noble), 4-33 (Gregory),
+     5-67 (Hopkins), 6-73 (Trumble), 7-79 (Armstrong),
+     8-105 (Kelly), 9-116 (Howell), 10-122 (Trumper).
+
+Bowling                      O      M      R      W
+Rhodes                      15.2    3     56      7
+Hirst                        8      1     33      1
+Relf                         2      0     12      1
+Braund                       5      0     20      0
+
+England 2nd innings                                             R   M   B  4 6
+*PF Warner            c Trumper          b Saunders             3   4      0 0
+TW Hayward            c Trumper          b Trumble              0  10      0 0
+JT Tyldesley          c Trumble          b Howell              62  78      6 2
+LC Braund                                b Saunders             3  16      0 0
+GH Hirst              c Gregory          b Howell               4  17      1 0
+W Rhodes              lbw                b Trumble              9  21      1 0
+AE Knight             lbw                b Trumble              0   2      0 0
++AFA Lilley           st Kelly           b Trumble              0   5      0 0
+AE Relf               not out                                  10  12      1 0
+A Fielder             c Hill             b Trumble              4   6      0 0
+RE Foster             absent ill                                -
+Extras                (b 7, lb 1)                               8
+Total                 (all out, 28.5 overs)                   103
+
+FoW: 1-3 (Warner), 2-7 (Hayward), 3-27 (Braund), 4-40 (Hirst),
+     5-74 (Rhodes), 6-74 (Knight), 7-74 (Lilley),
+     8-90 (Tyldesley), 9-103 (Fielder).
+
+Bowling                      O      M      R      W
+Trumble                     10.5    2     34      5
+Saunders                     8      0     33      2
+Howell                       8      3     25      2
+Hopkins                      2      1      3      0
+
+Australia 2nd innings (target: 297 runs)                        R   M   B  4 6
+RA Duff               c Braund           b Rhodes               8   9      0 0
+VT Trumper            c Relf             b Rhodes              35  52      4 1
+C Hill                c Relf             b Rhodes              20  25      2 0
+*MA Noble             not out                                  31  75      5 1
+SE Gregory            c Rhodes           b Hirst                0   2      0 0
+AJY Hopkins                          c & b Rhodes               7  12      1 0
+H Trumble             c Braund           b Rhodes               0   6      0 0
+WW Armstrong          c Hayward          b Rhodes               0   1      0 0
++JJ Kelly             c Lilley           b Rhodes               7  10      0 0
+WP Howell             c Hirst            b Rhodes               3   5      0 0
+JV Saunders           c Fielder          b Hirst                0  10      0 0
+Extras                                                          0
+Total                 (all out, 29.4 overs)                   111
+
+FoW: 1-14 (Duff), 2-59 (Hill), 3-73 (Trumper), 4-77 (Gregory),
+     5-86 (Hopkins), 6-90 (Trumble), 7-90 (Armstrong),
+     8-102 (Kelly), 9-105 (Howell), 10-111 (Saunders).
+
+Bowling                      O      M      R      W
+Rhodes                      15      0     68      8
+Hirst                       13.4    4     38      2
+Relf                         1      0      5      0
+
+*** RE Foster retired hurt at 221/2 (severe chill caught after the 1st day)
+
+<END>

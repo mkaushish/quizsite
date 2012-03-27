@@ -1,0 +1,47 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+88, 1906-01-02, 2, 5, England, c Board, Blythe, 19, na, na, 1, 0
+88, 1906-01-02, 4, 5, England, lbw, Lees, 9, na, na, 1, 0
+89, 1906-03-06, 2, 8, England, , Haigh, 24, na, na, 2, 0
+90, 1906-03-10, 1, 8, England, , Lees, 29, na, na, 2, 0
+91, 1906-03-24, 1, 8, England, , Crawford, 44, na, na, 5, 0
+91, 1906-03-24, 3, 8, England, , Blythe, 5, na, na, 0, 0
+92, 1906-03-30, 2, 8, England, lbw, Relf, 60, na, na, 8, 0
+93, 1907-07-01, 2, 6, England, lbw, Blythe, 5, 50, na, na, 0
+94, 1907-07-29, 2, 8, England, c Lilley, Knox, 13, na, na, na, 0
+94, 1907-07-29, 4, 8, England, c Hirst, Blythe, 14, na, na, na, 0
+95, 1907-08-19, 2, 3, England, c Jessop, Hirst, 63, 235, na, 7, 0
+95, 1907-08-19, 4, 3, England, c Foster, Blythe, 36, na, na, na, 0
+106, 1910-01-01, 1, 5, England, c Strudwick, Buckenham, 12, na, na, na, 0
+106, 1910-01-01, 3, 7, England, c Rhodes, Buckenham, 47, na, na, na, 0
+107, 1910-01-21, 1, 7, England, , Woolley, 19, na, na, na, 0
+107, 1910-01-21, 3, 7, England, st sub (+NC Tufnell), Thompson, 53, na, na, na, 0
+108, 1910-02-26, 1, 7, England, c Rhodes, Buckenham, 13, na, na, na, 0
+108, 1910-02-26, 3, 8, England, , Thompson, 52, na, na, na, 0
+109, 1910-03-07, 2, 6, England, , Woolley, 9, na, na, na, 0
+109, 1910-03-07, 4, 6, England, lbw, Blythe, 7, na, na, na, 0
+110, 1910-03-11, 2, 3, England, , Blythe, 0, na, na, 0, 0
+110, 1910-03-11, 3, 3, England, , Woolley, 47, na, na, na, 0
+111, 1910-12-09, 2, 7, Australia, , Whitty, 3, 12, 12, 0, 0
+111, 1910-12-09, 3, 3, Australia, , Cotter, 4, 5, 6, 1, 0
+112, 1911-12-31, 2, 7, Australia, , Whitty, 77, 150, 150, 10, 0
+112, 1911-12-31, 4, 7, Australia, c Armstrong, Whitty, 9, 28, 31, 1, 0
+113, 1911-01-07, 1, 7, Australia, c Kelleway, Cotter, 103, 215, 245, 12, 0
+113, 1911-01-07, 3, 8, Australia, run out, , 25, 62, 70, 3, 0
+114, 1911-02-17, 2, 5, Australia, , Whitty, 1, 4, 7, 0, 0
+114, 1911-02-17, 4, 5, Australia, , Hordern, 7, 12, 12, 0, 0
+115, 1911-03-03, 2, 7, Australia, , Hordern, 18, 20, 33, 2, 0
+115, 1911-03-03, 3, 7, Australia, c Carter, Whitty, 12, 29, 34, 1, 0
+121, 1912-05-27, 2, 4, Australia, , Whitty, 7, na, na, na, 0
+121, 1912-05-27, 3, 4, Australia, , Whitty, 9, na, na, na, 0
+122, 1912-06-10, 1, 6, England, , Barnes, 2, na, na, 0, 0
+122, 1912-06-10, 3, 6, England, , Foster, 16, na, na, na, 0
+124, 1912-07-08, 2, 8, England, , Barnes, 23, na, na, na, 0
+124, 1912-07-08, 4, 8, England, , Dean, 8, na, na, na, 0
+127, 1912-08-05, 1, 7, Australia, , Kelleway, 20, na, na, na, 0
+128, 1912-08-12, 1, 8, England, c Foster, Woolley, 23, na, na, na, 0
+128, 1912-08-12, 3, 8, England, c Hearne, Barnes, 7, na, na, na, 0
+150, 1923-01-18, 2, 3, England, lbw, Kennedy, 8, na, na, na, 0
+151, 1923-02-09, 2, 6, England, lbw, Jupp, 2, na, na, 0, 0
+151, 1923-02-09, 4, 5, England, not out, , 39, na, na, na, 0
+152, 1923-02-16, 2, 5, England, c Woolley, Kennedy, 4, na, na, na, 0
+152, 1923-02-16, 4, 7, England, lbw, Kennedy, 1, na, na, 0, 0

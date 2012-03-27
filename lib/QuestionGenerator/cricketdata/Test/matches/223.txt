@@ -1,0 +1,126 @@
+
+Test # 223
+The Ashes, 1932/33, 4th Test
+Australia v England
+Brisbane Cricket Ground, Woolloongabba, Brisbane
+10,11,13,14,15,16 February 1933 (timeless match)
+
+Result: England won by 6 wickets
+Series: England leads the 5-match series 3-1
+
+Toss: Australia
+Umpires: GE Borwick and GA Hele
+Test debuts: EH Bromley, LS Darling, HSB Love (Australia);
+ TB Mitchell (England).
+
+Close of play:
+ Day 1: Australia 251/3 (Bradman 71*, Ponsford 8*)
+ Day 2: Australia 340, England 99/0 (Jardine 41*, Sutcliffe 51*)
+ Day 3: England 271/8 (Paynter 24*, Verity 1*)
+ Day 4: England 356, Australia 108/4 (McCabe 14*, Darling 8*)
+ Day 5: Australia 175, England 107/2 (Leyland 66*, Hammond 8*)
+
+Australia 1st innings                                           R   M   B  4 6
+VY Richardson         st Ames            b Hammond             83 159 146  6 0
+*WM Woodfull                             b Mitchell            67 244 232  7 0
+DG Bradman                               b Larwood             76 156 138 11 0
+SJ McCabe             c Jardine          b Allen               20  28  28  4 0
+WH Ponsford                              b Larwood             19  48  40  2 0
+LS Darling            c Ames             b Allen               17  29  21  2 0
+EH Bromley            c Verity           b Larwood             26  65  52  2 0
++HSB Love             lbw                b Mitchell             5  31  24  0 0
+TW Wall               not out                                   6  32  25  0 0
+WJ O'Reilly           c Hammond          b Larwood              6   7  11  1 0
+H Ironmonger          st Ames            b Hammond              8  11  13  1 0
+Extras                (b 5, lb 1, nb 1)                         7
+Total                 (all out, 121 overs)                    340
+
+FoW: 1-133 (Richardson), 2-200 (Woodfull), 3-233 (McCabe),
+     4-264 (Bradman), 5-267 (Ponsford), 6-292 (Darling),
+     7-315 (Bromley), 8-317 (Love), 9-329 (O'Reilly),
+     10-340 (Ironmonger).
+
+Bowling                      O      M      R      W
+Larwood                     31      7    101      4
+Allen                       24      4     83      2
+Hammond                     23      5     61      2
+Mitchell                    16      5     49      2
+Verity                      27     12     39      0
+
+England 1st innings                                             R   M   B  4 6
+*DR Jardine           c Love             b O'Reilly            46 190 191  3 0
+H Sutcliffe           lbw                b O'Reilly            86 266 244 10 0
+WR Hammond                               b McCabe              20  90  93  1 0
+RES Wyatt             c Love             b Ironmonger          12  47  44  1 0
+M Leyland             c Bradman          b O'Reilly            12  45  48  1 0
++LEG Ames             c Darling          b Ironmonger          17  82  65  1 0
+GOB Allen             c Love             b Wall                13  26  31  2 0
+E Paynter             c Richardson       b Ironmonger          83 238 218 10 0
+H Larwood                                b McCabe              23  33  27  3 0
+H Verity              not out                                  23 162 157  1 0
+TB Mitchell           lbw                b O'Reilly             0   1   4  0 0
+Extras                (b 6, lb 12, nb 3)                       21
+Total                 (all out, 185.4 overs)                  356
+
+FoW: 1-114 (Jardine), 2-157 (Sutcliffe), 3-165 (Hammond),
+     4-188 (Wyatt), 5-198 (Leyland), 6-216 (Allen), 7-225 (Ames),
+     8-264 (Larwood), 9-356 (Paynter), 10-356 (Mitchell).
+
+Bowling                      O      M      R      W
+Wall                        33      6     66      1
+O'Reilly                    67.4   27    120      4
+Ironmonger                  43     19     69      3
+McCabe                      23      7     40      2
+Bromley                     10      4     19      0
+Bradman                      7      1     17      0
+Darling                      2      0      4      0
+
+Australia 2nd innings                                           R   M   B  4 6
+VY Richardson         c Jardine          b Verity              32  64  64  2 0
+*WM Woodfull          c Hammond          b Mitchell            19 124 105  1 0
+DG Bradman            c Mitchell         b Larwood             24  32  31  3 0
+WH Ponsford           c Larwood          b Allen                0   4   4  0 0
+SJ McCabe                                b Verity              22  82  75  1 0
+LS Darling            run out                                  39 109  80  3 0
+EH Bromley            c Hammond          b Allen                7  34  30  0 0
++HSB Love             lbw                b Larwood              3  12  14  0 0
+TW Wall               c Jardine          b Allen                2   5   4  0 0
+WJ O'Reilly                              b Larwood              4   8   4  1 0
+H Ironmonger          not out                                   0   3   2  0 0
+Extras                (b 13, lb 9, nb 1)                       23
+Total                 (all out, 68.3 overs)                   175
+
+FoW: 1-46 (Richardson), 2-79 (Bradman), 3-81 (Ponsford),
+     4-91 (Woodfull), 5-136 (McCabe), 6-163 (Bromley),
+     7-169 (Darling), 8-169 (Love), 9-171 (Wall),
+     10-175 (O'Reilly).
+
+Bowling                      O      M      R      W
+Larwood                     17.3    3     49      3
+Allen                       17      3     44      3
+Hammond                     10      4     18      0
+Mitchell                     5      0     11      1
+Verity                      19      6     30      2
+
+England 2nd innings (target: 160 runs)                          R   M   B  4 6
+*DR Jardine           lbw                b Ironmonger          24 132 112  2 0
+H Sutcliffe           c Darling          b Wall                 2   9  11  0 0
+M Leyland             c McCabe           b O'Reilly            86 222 235 10 0
+WR Hammond            c Bromley          b Ironmonger          14  71  75  0 0
++LEG Ames             not out                                  14  40  36  0 1
+E Paynter             not out                                  14  12  11  2 1
+Extras                (b 2, lb 4, nb 2)                         8
+Total                 (4 wickets, 79.4 overs)                 162
+
+DNB: RES Wyatt, GOB Allen, H Larwood, H Verity, TB Mitchell.
+
+FoW: 1-5 (Sutcliffe), 2-78 (Jardine), 3-118 (Hammond),
+     4-138 (Leyland).
+
+Bowling                      O      M      R      W
+Wall                         7      1     17      1
+O'Reilly                    30     11     65      1
+Ironmonger                  35     13     47      2
+McCabe                       7.4    2     25      0
+
+<END>

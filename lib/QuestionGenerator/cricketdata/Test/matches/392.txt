@@ -1,0 +1,123 @@
+
+Test # 392
+The Ashes, 1954/55, 2nd Test
+Australia v England
+Sydney Cricket Ground
+17,18,20,21,22 December 1954 (6-day match)
+
+Result: England won by 38 runs
+Series: 5-match series level 1-1
+
+Toss: Australia
+Umpires: MJ McInnes and RJJ Wright
+Balls per over: 8
+
+Close of play:
+ Day 1: England 154, Australia 18/1 (Favell 6*)
+ Day 2: Australia 228
+ Day 3: England 204/4 (May 98*, Edrich 16*)
+ Day 4: England 296, Australia 72/2 (Burke 13*, Harvey 26*)
+
+England 1st innings                                             R   M   B  4 6
+*L Hutton             c Davidson         b Johnston            30 132 109  3 0
+TE Bailey                                b Lindwall             0  37  28  0 0
+PBH May               c Johnston         b Archer               5  12  18  0 0
+TW Graveney           c Favell           b Johnston            21  88  73  1 0
+MC Cowdrey            c Langley          b Davidson            23  78  72  1 0
+WJ Edrich             c Benaud           b Archer              10  21  23  1 0
+FH Tyson                                 b Lindwall             0  14  13  0 0
++TG Evans             c Langley          b Archer               3   3   3  0 0
+JH Wardle             c Burke            b Johnston            35  70  62  5 0
+R Appleyard           c Hole             b Davidson             8  18  17  0 0
+JB Statham            not out                                  14  23  18  0 0
+Extras                (lb 5)                                    5
+Total                 (all out, 54.3 overs)                   154
+
+FoW: 1-14 (Bailey), 2-19 (May), 3-58 (Hutton), 4-63 (Graveney),
+     5-84 (Edrich), 6-85 (Tyson), 7-88 (Evans), 8-99 (Cowdrey),
+     9-111 (Appleyard), 10-154 (Wardle).
+
+Bowling                      O      M      R      W
+Lindwall                    17      3     47      2
+Archer                      12      7     12      3
+Davidson                    12      3     34      2
+Johnston                    13.3    1     56      3
+
+Australia 1st innings                                           R   M   B  4 6
+LE Favell             c Graveney         b Bailey              26  58  44  2 0
+*AR Morris            c Hutton           b Bailey              12  18  15  2 0
+JW Burke              c Graveney         b Bailey              44 103  85  1 0
+RN Harvey             c Cowdrey          b Tyson               12  67  42  0 0
+GB Hole                                  b Tyson               12  30  26  1 0
+R Benaud              lbw                b Statham             20  65  51  2 0
+RG Archer             c Hutton           b Tyson               49 127  89  6 1
+AK Davidson                              b Statham             20  59  54  2 0
+RR Lindwall           c Evans            b Tyson               19  37  24  2 0
++GRA Langley                             b Bailey               5  31  12  1 0
+WA Johnston           not out                                   0   8   6  0 0
+Extras                (b 5, lb 2, nb 2)                         9
+Total                 (all out, 55.4 overs)                   228
+
+FoW: 1-18 (Morris), 2-65 (Favell), 3-100 (Burke), 4-104 (Harvey),
+     5-122 (Hole), 6-141 (Benaud), 7-193 (Davidson),
+     8-213 (Archer), 9-224 (Lindwall), 10-228 (Langley).
+
+Bowling                      O      M      R      W
+Statham                     18      1     83      2
+Bailey                      17.4    3     59      4
+Tyson                       13      2     45      4
+Appleyard                    7      1     32      0
+
+England 2nd innings                                             R   M   B  4 6
+*L Hutton             c Benaud           b Johnston            28  77  53  4 0
+TE Bailey             c Langley          b Archer               6  36  33  1 0
+PBH May                                  b Lindwall           104 298 280 10 0
+TW Graveney           c Langley          b Johnston             0   3   3  0 0
+MC Cowdrey            c Archer           b Benaud              54 193 189  6 0
+WJ Edrich                                b Archer              29  96 113  4 0
+FH Tyson                                 b Lindwall             9  43  39  1 0
++TG Evans             c Lindwall         b Archer               4  23  10  0 0
+JH Wardle             lbw                b Lindwall             8  25  17  0 0
+R Appleyard           not out                                  19  63  64  1 0
+JB Statham            c Langley          b Johnston            25  53  39  3 0
+Extras                (lb 6, nb 4)                             10
+Total                 (all out, 104.3 overs)                  296
+
+FoW: 1-18 (Bailey), 2-55 (Hutton), 3-55 (Graveney),
+     4-171 (Cowdrey), 5-222 (May), 6-232 (Edrich), 7-239 (Tyson),
+     8-249 (Evans), 9-250 (Wardle), 10-296 (Statham).
+
+Bowling                      O      M      R      W
+Lindwall                    31     10     69      3
+Archer                      22      9     53      3
+Davidson                    13      2     52      0
+Johnston                    19.3    2     70      3
+Benaud                      19      3     42      1
+
+Australia 2nd innings (target: 223 runs)                        R   M   B  4 6
+LE Favell             c Edrich           b Tyson               16  33  27  1 0
+*AR Morris            lbw                b Statham             10  26  17  1 0
+JW Burke                                 b Tyson               14 102  88  1 0
+RN Harvey             not out                                  92 259 191  9 0
+GB Hole                                  b Tyson                0   3   4  0 0
+R Benaud              c Tyson            b Appleyard           12  53  47  0 0
+RG Archer                                b Tyson                6  27  19  0 0
+AK Davidson           c Evans            b Statham              5   5   6  0 0
+RR Lindwall                              b Tyson                8   9   8  1 0
++GRA Langley                             b Statham              0  16   8  0 0
+WA Johnston           c Evans            b Tyson               11  40  16  2 0
+Extras                (lb 7, nb 3)                             10
+Total                 (all out, 53.4 overs)                   184
+
+FoW: 1-27 (Morris), 2-34 (Favell), 3-77 (Burke), 4-77 (Hole),
+     5-102 (Benaud), 6-122 (Archer), 7-127 (Davidson),
+     8-136 (Lindwall), 9-145 (Langley), 10-184 (Johnston).
+
+Bowling                      O      M      R      W
+Statham                     19      6     45      3
+Bailey                       6      0     21      0
+Tyson                       18.4    1     85      6
+Appleyard                    6      1     12      1
+Wardle                       4      2     11      0
+
+<END>

@@ -1,0 +1,64 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+1117, 1989-03-25, 1, 6, India, lbw, Kapil Dev, 0, 1, 1, 0, 0
+1118, 1989-04-07, 2, 10, India, lbw, Kapil Dev, 8, 29, 20, 2, 0
+1119, 1989-04-15, 1, 10, India, not out, , 11, 29, 27, 1, 0
+1119, 1989-04-15, 3, 10, India, not out, , 30, 72, 68, 3, 0
+1120, 1989-04-28, 2, 10, India, not out, , 6, 45, 34, 0, 0
+1140, 1990-02-24, 1, 9, England, c Larkins, Fraser, 0, 4, 1, 0, 0
+1140, 1990-02-24, 3, 9, England, c Larkins, Small, 3, 5, 5, 0, 0
+1142, 1990-03-23, 1, 10, England, , Malcolm, 16, 101, 65, 1, 0
+1142, 1990-03-23, 3, 10, England, not out, , 15, 65, 34, 0, 0
+1143, 1990-04-05, 1, 10, England, run out, , 10, 42, 31, 1, 0
+1143, 1990-04-05, 3, 10, England, not out, , 11, 37, 16, 0, 0
+1144, 1990-04-12, 2, 10, England, not out, , 14, 56, 36, 1, 0
+1154, 1990-11-15, 1, 10, Pakistan, c Saleem Yousuf, Wasim Akram, 22, 106, 68, 1, 0
+1154, 1990-11-15, 3, 10, Pakistan, , Waqar Younis, 0, 1, 1, 0, 0
+1157, 1990-11-23, 2, 10, Pakistan, lbw, Wasim Akram, 0, 1, 1, 0, 0
+1158, 1990-12-06, 1, 10, Pakistan, c Moin Khan, Wasim Akram, 9, 42, 24, 1, 0
+1158, 1990-12-06, 3, 10, Pakistan, not out, , 1, 4, 1, 0, 0
+1202, 1992-11-27, 2, 8, Australia, , McDermott, 5, 18, 14, 0, 0
+1202, 1992-11-27, 4, 8, Australia, not out, , 16, 107, 82, 0, 0
+1205, 1992-12-26, 2, 9, Australia, , McDermott, 9, 21, 17, 1, 0
+1205, 1992-12-26, 4, 9, Australia, c Taylor, Warne, 7, 20, 14, 0, 0
+1208, 1993-01-02, 2, 9, Australia, run out, , 1, 5, 1, 0, 0
+1210, 1993-01-23, 1, 8, Australia, c ME Waugh, Hughes, 13, 24, 19, 2, 0
+1210, 1993-01-23, 3, 8, Australia, c ME Waugh, May, 6, 26, 21, 0, 0
+1212, 1993-01-30, 2, 8, Australia, c Healy, ME Waugh, 0, 6, 8, 0, 0
+1220, 1993-04-16, 1, 8, Pakistan, c Inzamam-ul-Haq, Ata-ur-Rehman, 4, 14, 5, 1, 0
+1220, 1993-04-16, 3, 5, Pakistan, c Moin Khan, Wasim Akram, 3, 43, 26, 0, 0
+1221, 1993-04-23, 1, 8, Pakistan, c Moin Khan, Aamer Nazir, 11, 16, 19, 2, 0
+1298, 1995-06-08, 2, 8, England, run out, , 5, 33, 19, 1, 0
+1299, 1995-06-22, 2, 9, England, , Cork, 8, 27, 15, 0, 0
+1299, 1995-06-22, 4, 9, England, not out, , 10, 46, 19, 0, 0
+1300, 1995-07-06, 2, 8, England, c Martin, Illingworth, 16, 79, 59, 1, 0
+1301, 1995-07-27, 1, 8, England, c Russell, Cork, 9, 33, 18, 2, 0
+1301, 1995-07-27, 3, 8, England, c Crawley, Watkinson, 9, 37, 23, 2, 0
+1302, 1995-08-10, 2, 9, England, c Hick, Watkinson, 4, 14, 11, 0, 0
+1303, 1995-08-24, 2, 9, England, run out, , 10, 29, 18, 1, 0
+1325, 1996-04-19, 2, 8, New Zealand, c Germon, Harris, 31, 99, 61, 5, 0
+1326, 1996-04-27, 1, 8, New Zealand, c Fleming, Larsen, 14, 42, 32, 2, 0
+1326, 1996-04-27, 3, 8, New Zealand, c Germon, Morrison, 9, 29, 13, 2, 0
+1340, 1996-11-22, 2, 8, Australia, lbw, Warne, 0, 6, 6, 0, 0
+1340, 1996-11-22, 4, 8, Australia, c Ponting, Bevan, 24, 51, 46, 4, 0
+1343, 1996-11-29, 2, 8, Australia, c Elliott, Warne, 48, 95, 79, 6, 0
+1343, 1996-11-29, 4, 8, Australia, run out (Ponting), , 0, 1, 2, 0, 0
+1346, 1996-12-26, 2, 8, Australia, lbw, McGrath, 0, 8, 3, 0, 0
+1352, 1997-01-25, 1, 8, Australia, c Healy, Bevan, 1, 35, 21, 0, 0
+1352, 1997-01-25, 3, 7, Australia, c Bevan, Warne, 0, 6, 5, 0, 0
+1353, 1997-02-01, 2, 9, Australia, c Taylor, Reiffel, 13, 67, 44, 1, 0
+1357, 1997-03-06, 1, 6, India, c Joshi, Kumble, 24, 105, 71, 2, 0
+1363, 1997-03-27, 1, 8, India, , Prasad, 4, 13, 7, 0, 0
+1363, 1997-03-27, 3, 8, India, lbw, Kuruvilla, 6, 22, 12, 1, 0
+1364, 1997-04-04, 1, 8, India, c Dravid, Joshi, 17, 66, 64, 3, 0
+1369, 1997-06-13, 2, 8, Sri Lanka, , Muralitharan, 5, 36, 26, 0, 0
+1371, 1997-06-20, 1, 7, Sri Lanka, , Muralitharan, 11, 53, 43, 1, 0
+1371, 1997-06-20, 3, 7, Sri Lanka, lbw, Muralitharan, 0, 12, 10, 0, 0
+1384, 1997-11-17, 1, 9, Pakistan, , Azhar Mahmood, 20, 96, 69, 2, 0
+1384, 1997-11-17, 3, 9, Pakistan, lbw, Wasim Akram, 21, 56, 28, 2, 0
+1389, 1997-11-29, 1, 8, Pakistan, , Shoaib Akhtar, 10, 17, 9, 0, 1
+1389, 1997-11-29, 3, 8, Pakistan, run out (Ijaz Ahmed), , 2, 21, 16, 0, 0
+1391, 1997-12-06, 1, 8, Pakistan, st Moin Khan, Saqlain Mushtaq, 2, 14, 10, 0, 0
+1391, 1997-12-06, 3, 8, Pakistan, not out, , 6, 46, 29, 1, 0
+1404, 1998-03-27, 1, 8, England, c Butcher, Croft, 14, 81, 64, 2, 0
+1404, 1998-03-27, 3, 8, England, not out, , 44, 131, 94, 4, 1
+1407, 1998-03-12, 2, 3, England, c Russell, Tufnell, 4, 35, 38, 0, 0

@@ -1,0 +1,100 @@
+
+Test # 173
+West Indies in England, 1928, 1st Test
+England v West Indies
+Lord's, London
+23,25,26 June 1928 (3-day match)
+
+Result: England won by an innings and 58 runs
+Series: England leads the 3-match series 1-0
+
+Toss: England
+Umpires: LC Braund and F Chester
+Test debuts: DR Jardine, H Smith (England); CR Browne, G Challenor,
+ LN Constantine, MP Fernandes, GN Francis, HC Griffith, FR Martin, RK Nunes,
+ CA Roach, JA Small, WH St Hill (West Indies).
+
+Close of play:
+ Day 1: England 382/8 (Smith 7*, Larwood 2*)
+ Day 2: England 401, West Indies 177, West Indies 53/6 (Roach 3*, Small 8*)
+
+England 1st innings                                             R   M   B  4 6
+H Sutcliffe           c Constantine      b Francis             48            0
+C Hallows             c Griffith         b Constantine         26  80        0
+GE Tyldesley          c Constantine      b Francis            122         13 1
+WR Hammond                               b Constantine         45            0
+DR Jardine            lbw                b Griffith            22            0
+*APF Chapman          c Constantine      b Small               50            1
+VWC Jupp                                 b Small               14            0
+MW Tate               c Browne           b Griffith            22            0
++H Smith                                 b Constantine          7            0
+H Larwood             not out                                  17            0
+AP Freeman                               b Constantine          1          0 0
+Extras                (b 6, lb 19, nb 2)                       27
+Total                 (all out, 125.4 overs)                  401
+
+FoW: 1-51 (Hallows), 2-97 (Sutcliffe), 3-174 (Hammond),
+     4-231 (Jardine), 5-327 (Tyldesley), 6-339 (Chapman),
+     7-360 (Jupp), 8-380 (Tate), 9-389 (Smith), 10-401 (Freeman).
+
+Bowling                      O      M      R      W
+Francis                     25      4     72      2
+Constantine                 26.4    9     82      4
+Griffith                    29      9     78      2
+Browne                      22      5     53      0
+Small                       15      1     67      2
+Martin                       8      2     22      0
+
+West Indies 1st innings                                         R   M   B  4 6
+G Challenor           c Smith            b Larwood             29            0
+FR Martin             lbw                b Tate                44            0
+MP Fernandes                             b Tate                 0          0 0
+*+RK Nunes                               b Jupp                37  90        0
+WH St Hill            c Jardine          b Jupp                 4            0
+CA Roach              run out                                   0          0 0
+LN Constantine        c Larwood          b Freeman             13            0
+JA Small              lbw                b Jupp                 0          0 0
+CR Browne                                b Jupp                10            0
+GN Francis            not out                                  19            0
+HC Griffith           c Sutcliffe        b Freeman              2          0 0
+Extras                (b 13, lb 6)                             19
+Total                 (all out, 83.3 overs)                   177
+
+FoW: 1-86 (Martin), 2-86 (Challenor), 3-88 (Fernandes),
+     4-95 (St Hill), 5-96 (Roach), 6-112 (Constantine),
+     7-123 (Small), 8-151 (Browne), 9-156 (Nunes),
+     10-177 (Griffith).
+
+Bowling                      O      M      R      W
+Larwood                     15      4     27      1
+Tate                        27      8     54      2
+Freeman                     18.3    5     40      2
+Jupp                        23      9     37      4
+
+West Indies 2nd innings (following on)                          R   M   B  4 6
+G Challenor                              b Tate                 0          0 0
+FR Martin                                b Hammond             12            0
+MP Fernandes          c Hammond          b Freeman              8            0
+*+RK Nunes            lbw                b Jupp                10            0
+WH St Hill            lbw                b Freeman              9            0
+CA Roach              c Chapman          b Tate                16            0
+LN Constantine                           b Freeman              0       2  0 0
+JA Small              c Hammond          b Jupp                52  90        0
+CR Browne                                b Freeman             44            1
+GN Francis            c Jardine          b Jupp                 0          0 0
+HC Griffith           not out                                   0          0 0
+Extras                (b 10, lb 5)                             15
+Total                 (all out, 73.1 overs)                   166
+
+FoW: 1-0 (Challenor), 2-22 (Martin), 3-35 (Fernandes),
+     4-43 (Nunes), 5-44 (St Hill), 6-44 (Constantine),
+     7-100 (Roach), 8-147 (Small), 9-147 (Francis),
+     10-166 (Browne).
+
+Bowling                      O      M      R      W
+Tate                        22     10     28      2
+Freeman                     21.1   10     37      4
+Jupp                        15      4     66      3
+Hammond                     15      6     20      1
+
+<END>

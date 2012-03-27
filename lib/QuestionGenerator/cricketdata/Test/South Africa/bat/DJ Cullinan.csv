@@ -1,0 +1,115 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+1209, 1993-01-02, 1, 5, India, c Prabhakar, Raju, 46, 191, 139, 4, 0
+1209, 1993-01-02, 3, 5, India, c More, Srinath, 28, 148, 116, 2, 0
+1232, 1993-08-25, 2, 4, Sri Lanka, lbw, Hathurusingha, 33, 81, 61, 2, 1
+1232, 1993-08-25, 4, 4, Sri Lanka, lbw, Wickramasinghe, 46, 126, 100, 7, 0
+1233, 1993-09-06, 2, 4, Sri Lanka,                c &, Muralitharan, 52, 177, 138, 7, 0
+1234, 1993-09-14, 1, 4, Sri Lanka, c Ramanayake, Jayasuriya, 102, 356, 237, 17, 0
+1234, 1993-09-14, 3, 4, Sri Lanka, c sub (DP Samaraweera), Dharmasena, 4, 12, 7, 0, 0
+1242, 1993-12-26, 2, 4, Australia, c Border, McDermott, 0, 8, 1, 0, 0
+1243, 1994-01-02, 1, 4, Australia, , Warne, 9, 16, 11, 2, 0
+1243, 1994-01-02, 3, 5, Australia, lbw, Warne, 2, 16, 13, 0, 0
+1246, 1994-01-28, 2, 6, Australia, , SR Waugh, 10, 22, 24, 1, 0
+1246, 1994-01-28, 4, 7, Australia, c Healy, McDermott, 5, 43, 40, 1, 0
+1266, 1994-08-18, 1, 5, England, c Rhodes, DeFreitas, 7, 11, 11, 1, 0
+1266, 1994-08-18, 3, 5, England, c Thorpe, Gough, 94, 220, 134, 12, 0
+1276, 1994-11-25, 2, 5, New Zealand, c Parore, Doull, 58, 135, 119, 9, 1
+1276, 1994-11-25, 4, 5, New Zealand, c Crowe, Doull, 12, 28, 28, 2, 0
+1280, 1994-12-26, 2, 4, New Zealand, lbw, Doull, 34, 96, 75, 5, 0
+1280, 1994-12-26, 4, 4, New Zealand, not out, , 25, 31, 28, 1, 1
+1282, 1995-01-02, 2, 4, New Zealand, c Young, Thomson, 5, 13, 15, 0, 0
+1282, 1995-01-02, 4, 4, New Zealand, hit wicket, Hart, 28, 24, 24, 3, 0
+1283, 1995-01-19, 1, 4, Pakistan, c Moin Khan, Aaqib Javed, 0, 18, 16, 0, 0
+1283, 1995-01-19, 3, 4, Pakistan, not out, , 69, 238, 157, 3, 0
+1291, 1995-03-04, 1, 4, New Zealand, c Murray, Morrison, 96, 210, 164, 13, 1
+1291, 1995-03-04, 3, 4, New Zealand, c Parore, Hart, 12, 25, 20, 2, 0
+1307, 1995-10-13, 2, 4, Zimbabwe, c Whittall, Lock, 11, 45, 34, 1, 0
+1315, 1995-11-30, 1, 4, England, c Russell, Hick, 69, 160, 128, 10, 0
+1315, 1995-11-30, 3, 4, England, c Gough, Cork, 61, 99, 88, 11, 0
+1318, 1995-12-14, 1, 4, England, c Smith, Martin, 10, 61, 60, 2, 0
+1320, 1995-12-26, 1, 4, England, c Russell, Cork, 91, 244, 183, 14, 0
+1320, 1995-12-26, 3, 4, England, st Russell, Illingworth, 14, 80, 57, 1, 0
+1321, 1996-01-02, 2, 4, England, c Russell, Martin, 62, 204, 134, 7, 0
+1338, 1996-11-20, 2, 3, India, lbw, Joshi, 43, 97, 75, 4, 1
+1338, 1996-11-20, 4, 3, India, c Mongia, Srinath, 0, 1, 1, 0, 0
+1341, 1996-11-27, 1, 4, India, lbw, Prasad, 43, 130, 80, 7, 0
+1341, 1996-11-27, 3, 4, India, not out, , 153, 364, 261, 15, 1
+1344, 1996-12-08, 2, 4, India, c Azharuddin, Kumble, 29, 68, 52, 4, 0
+1344, 1996-12-08, 4, 4, India, run out (Tendulkar), , 2, 15, 18, 0, 0
+1347, 1996-12-26, 1, 4, India, c Mongia, Prasad, 1, 6, 6, 0, 0
+1347, 1996-12-26, 3, 4, India, c Mongia, Prasad, 3, 14, 8, 0, 0
+1349, 1997-01-02, 1, 4, India, c Mongia, Prasad, 77, 141, 141, 6, 1
+1349, 1997-01-02, 3, 5, India, , Kumble, 55, 115, 74, 7, 0
+1350, 1997-01-16, 2, 4, India, c sub (P Dharmani), Srinath, 33, 70, 46, 6, 0
+1350, 1997-01-16, 4, 4, India, not out, , 122, 261, 200, 15, 1
+1356, 1997-02-28, 1, 4, Australia, c Healy, McGrath, 27, 100, 73, 5, 0
+1356, 1997-02-28, 3, 4, Australia, c Healy, Warne, 0, 15, 10, 0, 0
+1360, 1997-03-14, 1, 4, Australia, c Warne, Gillespie, 34, 78, 59, 4, 0
+1360, 1997-03-14, 3, 4, Australia, lbw, Gillespie, 2, 15, 11, 0, 0
+1362, 1997-03-21, 2, 4, Australia, , McGrath, 47, 120, 103, 8, 0
+1362, 1997-03-21, 4, 4, Australia, not out, , 12, 11, 9, 3, 0
+1380, 1997-10-06, 2, 4, Pakistan, lbw, Saqlain Mushtaq, 16, 59, 45, 3, 0
+1381, 1997-10-17, 1, 4, Pakistan, c Mohammad Wasim, Saqlain Mushtaq, 1, 17, 17, 0, 0
+1382, 1997-10-24, 1, 4, Pakistan, lbw, Waqar Younis, 0, 5, 5, 0, 0
+1382, 1997-10-24, 3, 5, Pakistan, lbw, Mushtaq Ahmed, 15, 44, 30, 2, 0
+1392, 1997-12-26, 2, 4, Australia, run out (Ponting), , 5, 39, 29, 0, 0
+1392, 1997-12-26, 4, 4, Australia, , Warne, 0, 10, 8, 0, 0
+1400, 1998-02-14, 1, 4, Pakistan, , Waqar Younis, 16, 54, 42, 3, 0
+1410, 1998-03-19, 1, 4, Sri Lanka, , Wickramasinghe, 113, 222, 159, 13, 1
+1410, 1998-03-19, 3, 4, Sri Lanka, c Tillakaratne, Muralitharan, 68, 174, 123, 7, 1
+1414, 1998-03-27, 2, 4, Sri Lanka, c Wickramasinghe, Jayasuriya, 103, 307, 185, 13, 0
+1414, 1998-03-27, 4, 4, Sri Lanka, lbw, Muralitharan, 0, 6, 3, 0, 0
+1417, 1998-06-04, 2, 4, England, , Fraser, 78, 220, 193, 8, 0
+1419, 1998-06-18, 1, 4, England, c Stewart, Cork, 16, 49, 36, 3, 0
+1419, 1998-06-18, 4, 2, England, not out, , 5, 6, 4, 1, 0
+1420, 1998-07-02, 1, 4, England, , Giles, 75, 298, 234, 8, 0
+1421, 1998-07-23, 1, 4, England, c Ramprakash, Fraser, 30, 62, 53, 3, 0
+1421, 1998-07-23, 3, 4, England, c Ramprakash, Fraser, 56, 142, 105, 8, 0
+1422, 1998-08-06, 2, 4, England, c Stewart, Gough, 27, 54, 29, 4, 0
+1422, 1998-08-06, 4, 4, England, lbw, Gough, 0, 29, 13, 0, 0
+1429, 1998-11-26, 2, 4, West Indies, c Jacobs, Walsh, 8, 11, 8, 1, 0
+1429, 1998-11-26, 4, 4, West Indies, c Williams, McLean, 35, 71, 64, 4, 0
+1433, 1998-12-10, 1, 4, West Indies, , Dillon, 4, 25, 18, 0, 0
+1433, 1998-12-10, 3, 4, West Indies, c Lambert, Walsh, 10, 56, 34, 1, 0
+1437, 1998-12-26, 2, 4, West Indies, run out (Rose), , 40, 141, 103, 4, 0
+1440, 1999-01-02, 1, 4, West Indies, c Jacobs, McLean, 168, 425, 306, 20, 0
+1440, 1999-01-02, 3, 4, West Indies, lbw, McLean, 0, 2, 2, 0, 0
+1441, 1999-01-15, 1, 4, West Indies, c Wallace, McLean, 9, 14, 8, 2, 0
+1441, 1999-01-15, 3, 4, West Indies, c Ganga, Dillon, 4, 10, 7, 1, 0
+1446, 1999-03-27, 1, 4, New Zealand, not out, , 275, 658, 490, 27, 2
+1452, 1999-03-18, 2, 4, New Zealand,                c &, Astle, 152, 327, 272, 22, 1
+1452, 1999-03-18, 4, 4, New Zealand, not out, , 0, 2, 3, 0, 0
+1466, 1999-11-29, 2, 4, Zimbabwe, c GW Flower, Whittall, 27, 61, 54, 3, 0
+1468, 1999-11-11, 2, 4, Zimbabwe, c A Flower, Strang, 0, 4, 1, 0, 0
+1471, 1999-11-25, 2, 4, England, , Caddick, 108, 251, 170, 17, 0
+1475, 1999-12-09, 1, 4, England, st Stewart, Tufnell, 58, 141, 99, 8, 0
+1475, 1999-12-09, 3, 4, England, , Caddick, 18, 64, 45, 2, 0
+1480, 1999-12-26, 2, 4, England, , Gough, 20, 64, 45, 2, 0
+1480, 1999-12-26, 3, 4, England, c Stewart, Flintoff, 16, 99, 50, 2, 0
+1482, 2000-01-02, 2, 4, England, c Vaughan, Tufnell, 120, 351, 255, 10, 1
+1486, 2000-03-02, 2, 5, India, c Jaffer, Kumble, 53, 148, 86, 5, 1
+1504, 2000-06-20, 2, 4, Sri Lanka, not out, , 114, 274, 231, 12, 1
+1504, 2000-06-20, 3, 4, Sri Lanka, c Arnold, Muralitharan, 12, 33, 30, 1, 0
+1505, 2000-07-30, 1, 4, Sri Lanka, , Dharmasena, 2, 38, 32, 0, 0
+1505, 2000-07-30, 3, 4, Sri Lanka, , Muralitharan, 6, 13, 17, 0, 1
+1507, 2000-07-06, 1, 4, Sri Lanka, c Atapattu, Vaas, 38, 112, 84, 6, 0
+1507, 2000-07-06, 3, 4, Sri Lanka, c Arnold, Muralitharan, 3, 22, 23, 0, 0
+1514, 2000-10-17, 1, 4, New Zealand, , Walker, 29, 79, 70, 3, 0
+1514, 2000-10-17, 4, 4, New Zealand, lbw, Tuffey, 22, 56, 35, 4, 0
+1519, 2000-11-30, 2, 4, New Zealand, , Walker, 33, 95, 75, 5, 1
+1519, 2000-11-30, 4, 4, New Zealand, , Walmsley, 11, 22, 20, 2, 0
+1522, 2000-11-08, 2, 5, New Zealand, not out, , 31, 128, 112, 4, 0
+1526, 2000-11-26, 1, 4, Sri Lanka, c Atapattu, Muralitharan, 59, 139, 116, 7, 1
+1526, 2000-11-26, 3, 9, Sri Lanka, not out, , 2, 5, 4, 0, 0
+1528, 2001-01-02, 2, 4, Sri Lanka, run out (Vaas), , 112, 252, 232, 12, 3
+1529, 2001-01-20, 1, 4, Sri Lanka, c Kaluwitharana, Wickramasinghe, 48, 106, 64, 7, 1
+1534, 2001-02-09, 2, 4, West Indies, c Jacobs, Ramnarine, 7, 17, 11, 1, 0
+1534, 2001-02-09, 4, 4, West Indies, not out, , 4, 23, 11, 0, 0
+1538, 2001-02-17, 1, 4, West Indies, c Dillon, Ramnarine, 103, 215, 155, 14, 0
+1538, 2001-02-17, 3, 4, West Indies, c Lara, Ramnarine, 73, 243, 178, 6, 0
+1541, 2001-03-29, 1, 4, West Indies,                c &, Dillon, 134, 366, 272, 14, 0
+1541, 2001-03-29, 3, 4, West Indies, c Lara, Ramnarine, 82, 266, 238, 8, 2
+1542, 2001-03-06, 1, 4, West Indies, c Lara, Ramnarine, 4, 40, 34, 0, 0
+1542, 2001-03-06, 3, 5, West Indies, c Gayle, McGarrell, 28, 103, 86, 5, 0
+1544, 2001-03-19, 2, 4, West Indies, c Lara, Cuffy, 6, 16, 11, 1, 0
+1544, 2001-03-19, 4, 4, West Indies, lbw, Walsh, 18, 46, 46, 0, 0

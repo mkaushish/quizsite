@@ -1,0 +1,113 @@
+
+Test # 102
+The Ashes, 1909, 2nd Test
+England v Australia
+Lord's, London
+14,15,16 June 1909 (3-day match)
+
+Result: Australia won by 9 wickets
+Series: 5-match series level 1-1
+
+Toss: Australia
+Umpires: CE Dench and J Moss
+Test debut: JH King (England).
+
+Close of play:
+ Day 1: England 269, Australia 17/0 (McAlister 4*, Laver 13*)
+ Day 2: Australia 350, England 16/1 (Hayward 5*)
+
+England 1st innings                                             R   M   B  4 6
+TW Hayward            st Carter          b Laver               16            0
+JB Hobbs              c Carter           b Laver               19            0
+JT Tyldesley          lbw                b Laver               46            0
+G Gunn                lbw                b Cotter               1          0 0
+JH King               c Macartney        b Cotter              60            0
+*AC MacLaren          c Armstrong        b Noble                7            0
+GH Hirst                                 b Cotter              31            0
+AO Jones                                 b Cotter               8            0
+AE Relf               c Armstrong        b Noble               17            0
++AFA Lilley           c Bardsley         b Noble               47            0
+S Haigh               not out                                   1          0 0
+Extras                (b 8, lb 3, w 3, nb 2)                   16
+Total                 (all out, 107.2 overs)                  269
+
+FoW: 1-23 (Hobbs), 2-41 (Hayward), 3-44 (Gunn),
+     4-123 (Tyldesley), 5-149 (MacLaren), 6-175 (King),
+     7-199 (Jones), 8-205 (Hirst), 9-258 (Relf), 10-269 (Lilley).
+
+Bowling                      O      M      R      W
+Laver                       32      9     75      3
+Macartney                    8      3     10      0
+Cotter                      23      1     80      4
+Noble                       24.2    9     42      3
+Armstrong                   20      6     46      0
+
+Australia 1st innings                                           R   M   B  4 6
+PA McAlister          lbw                b King                22            0
+FJ Laver                                 b Hirst               14            0
+W Bardsley                               b Relf                46            0
+WW Armstrong          c Lilley           b Relf                12            0
+VS Ransford           not out                                 143 245     21 0
+VT Trumper            c MacLaren         b Relf                28            0
+*MA Noble             c Lilley           b Relf                32            0
+SE Gregory            c Lilley           b Relf                14            0
+A Cotter              run out                                   0          0 0
+CG Macartney                             b Hirst                5            0
++H Carter                                b Hirst                7            0
+Extras                (b 16, lb 8, w 1, nb 2)                  27
+Total                 (all out, 119.5 overs)                  350
+
+FoW: 1-18 (Laver), 2-84 (McAlister), 3-90 (Bardsley),
+     4-119 (Armstrong), 5-198 (Trumper), 6-269 (Noble),
+     7-317 (Gregory), 8-317 (Cotter), 9-342 (Macartney),
+     10-350 (Carter).
+
+Bowling                      O      M      R      W
+Hirst                       26.5    2     83      3
+King                        27      5     99      1
+Relf                        45     14     85      5
+Haigh                       19      5     41      0
+Jones                        2      0     15      0
+
+England 2nd innings                                             R   M   B  4 6
+TW Hayward            run out                                   6            0
+JB Hobbs                             c & b Armstrong            9            0
+JT Tyldesley          st Carter          b Armstrong            3          0 0
+G Gunn                                   b Armstrong            0          0 0
+JH King                                  b Armstrong            4            0
+AO Jones              lbw                b Laver               26            0
+GH Hirst                                 b Armstrong            1          0 0
+*AC MacLaren                             b Noble               24            0
++AFA Lilley           not out                                  25            0
+AE Relf                                  b Armstrong            3          0 0
+S Haigh               run out                                   5            0
+Extras                (b 2, lb 3, nb 10)                       15
+Total                 (all out, 60.5 overs)                   121
+
+FoW: 1-16 (Hobbs), 2-22 (Tyldesley), 3-22 (Gunn), 4-23 (Hayward),
+     5-34 (King), 6-41 (Hirst), 7-82 (MacLaren), 8-90 (Jones),
+     9-101 (Relf), 10-121 (Haigh).
+
+Bowling                      O      M      R      W
+Laver                       13      4     24      1
+Cotter                      18      3     35      0
+Noble                        5      1     12      1
+Armstrong                   24.5   11     35      6
+
+Australia 2nd innings (target: 41 runs)                         R   M   B  4 6
+PA McAlister          not out                                  19            0
+W Bardsley            c Lilley           b Relf                 0          0 0
+SE Gregory            not out                                  18            0
+Extras                (b 4)                                     4
+Total                 (1 wicket, 15.4 overs)                   41
+
+DNB: FJ Laver, WW Armstrong, VS Ransford, VT Trumper, *MA Noble,
+     A Cotter, CG Macartney, +H Carter.
+
+FoW: 1-4 (Bardsley).
+
+Bowling                      O      M      R      W
+Hirst                        8      1     28      0
+Relf                         7.4    4      9      1
+
+<END>

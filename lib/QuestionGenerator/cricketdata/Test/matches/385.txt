@@ -1,0 +1,124 @@
+
+Test # 385
+England in West Indies, 1953/54, 4th Test
+West Indies v England
+Queen's Park Oval, Port of Spain, Trinidad
+17,18,19,20,22,23 March 1954 (6-day match)
+
+Result: Match drawn
+Series: West Indies leads the 5-match series 2-1
+
+Toss: West Indies
+Umpires: EE Achong and K Woods
+
+Close of play:
+ Day 1: West Indies 294/2 (Weekes 130*, Worrell 76*)
+ Day 2: West Indies 546/5 (Walcott 70*, Atkinson 5*)
+ Day 3: West Indies 681/8d, England 130/1 (Bailey 46*, May 38*)
+ Day 4: England 332/4 (Compton 81*, Graveney 6*)
+ Day 5: England 537, West Indies 5/0 (Pairaudeau 1*, Ferguson 4*)
+
+West Indies 1st innings                                         R   M   B  4 6
+JKC Holt              c Compton          b Trueman             40            0
+*JB Stollmeyer                       c & b Compton             41            0
+ED Weekes             c Bailey           b Lock               206 360        0
+FMM Worrell                              b Lock               167 435        0
+CL Walcott                           c & b Laker              124            1
+BH Pairaudeau         run out                                   0          0 0
+DS Atkinson           c Graveney         b Compton             74            3
++CA McWatt                               b Laker                4            0
+W Ferguson            not out                                   8            0
+Extras                (b 6, lb 4, w 4, nb 3)                   17
+Total                 (8 wickets dec, 198.4 overs)            681
+
+DNB: S Ramadhin, FM King.
+
+FoW: 1-78 (Stollmeyer), 2-92 (Holt), 3-430 (Weekes),
+     4-517 (Worrell), 5-540 (Pairaudeau), 6-627 (Walcott),
+     7-641 (McWatt), 8-681 (Atkinson).
+
+Bowling                      O      M      R      W
+Statham                      9      0     31      0
+Trueman                     33      3    131      1
+Bailey                      32      7    104      0
+Laker                       50      8    154      2
+Lock                        63     14    178      2
+Compton                      8.4    1     40      2
+Graveney                     3      0     26      0
+
+England 1st innings                                             R   M   B  4 6
+*L Hutton             c Ferguson         b King                44            0
+TE Bailey             c Weekes           b Ferguson            46            0
+PBH May               c Pairaudeau       b King               135            0
+DCS Compton                          c & b Ramadhin           133 360        0
+W Watson              c Atkinson         b Walcott              4            0
+TW Graveney                          c & b Walcott             92            1
++RT Spooner                              b Walcott             19            0
+JC Laker              retired hurt                              7            0
+GAR Lock              lbw                b Worrell             10            0
+FS Trueman            lbw                b King                19            0
+JB Statham            not out                                   6            0
+Extras                (b 10, lb 5, w 7)                        22
+Total                 (all out, 221.2 overs)                  537
+
+FoW: 1-73 (Hutton), 2-135 (Bailey), 3-301 (May), 4-314 (Watson),
+     5-424 (Compton), 6-493 (Graveney), 7-496 (Spooner),
+     8-510 (Lock), 9-537 (Trueman).
+
+Bowling                      O      M      R      W
+King                        48.2   16     97      3
+Worrell                     20      2     58      1
+Ramadhin                    34     13     74      1
+Atkinson                    32     12     60      0
+Ferguson                    47      7    155      1
+Stollmeyer                   6      2     19      0
+Walcott                     34     18     52      3
+
+West Indies 2nd innings                                         R   M   B  4 6
+BH Pairaudeau         hit wicket         b Bailey               5            0
+W Ferguson                               b Bailey              44            0
+ED Weekes             c sub              b Trueman              1          0 0
+FMM Worrell           c sub              b Lock                56            1
+CL Walcott            not out                                  51            0
+DS Atkinson           not out                                  53            0
+Extras                (lb 2)                                    2
+Total                 (4 wickets dec, 55 overs)               212
+
+DNB: JKC Holt, *JB Stollmeyer, +CA McWatt, S Ramadhin, FM King.
+
+FoW: 1-19 (Pairaudeau), 2-20 (Weekes), 3-72 (Ferguson),
+     4-111 (Worrell).
+
+Bowling                      O      M      R      W
+Trueman                     15      5     23      1
+Bailey                      12      2     20      2
+Lock                        10      2     40      1
+Compton                      7      0     51      0
+Graveney                     5      0     33      0
+Hutton                       6      0     43      0
+
+England 2nd innings (target: 357 runs)                          R   M   B  4 6
+W Watson              c Ferguson         b Worrell             32            0
++RT Spooner           c Ferguson         b Ramadhin            16            0
+PBH May               c Worrell          b McWatt              16            0
+*L Hutton             not out                                  30            0
+TW Graveney           not out                                   0          0 0
+Extras                (lb 4)                                    4
+Total                 (3 wickets, 30 overs)                    98
+
+DNB: TE Bailey, DCS Compton, JC Laker, GAR Lock, FS Trueman,
+     JB Statham.
+
+FoW: 1-52 (Watson), 2-52 (Spooner), 3-83 (May).
+
+Bowling                      O      M      R      W
+Worrell                      9      1     29      1
+Ramadhin                     7      4      6      1
+Atkinson                     4      0     12      0
+Weekes                       5      1     28      0
+McWatt                       4      2     16      1
+Pairaudeau                   1      0      3      0
+
+*** JC Laker retired hurt at 515/8
+
+<END>

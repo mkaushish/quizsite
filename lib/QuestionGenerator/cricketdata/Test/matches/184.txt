@@ -1,0 +1,100 @@
+
+Test # 184
+South Africa in England, 1929, 4th Test
+England v South Africa
+Old Trafford, Manchester
+27,29,30 July 1929 (3-day match)
+
+Result: England won by an innings and 32 runs
+Series: England leads the 5-match series 2-0
+
+Toss: England
+Umpires: J Hardstaff snr and WR Parry
+Test debut: F Barratt (England).
+
+Close of play:
+ Day 1: England 427
+ Day 2: South Africa 130, South Africa 15/3 (Taylor 10*, Quinn 0*)
+
+England 1st innings                                             R   M   B  4 6
+H Sutcliffe                              b Morkel               9            0
+EH Bowley                                b Bell                13            0
+RES Wyatt             c Cameron          b Vincent            113            0
+FE Woolley                           c & b Vincent            154            0
+EH Hendren                               b Quinn               12            0
+M Leyland             c Cameron          b Mitchell            55            0
+*AW Carr              c Bell             b Quinn               10            0
+G Geary               not out                                  31            0
+F Barratt             not out                                   2          0 0
+Extras                (b 16, lb 10, nb 2)                      28
+Total                 (7 wickets dec, 128 overs)              427
+
+DNB: AP Freeman, +G Duckworth.
+
+FoW: 1-30 (Sutcliffe), 2-36 (Bowley), 3-281 (Woolley),
+     4-304 (Hendren), 5-342 (Wyatt), 6-365 (Carr),
+     7-424 (Leyland).
+
+Bowling                      O      M      R      W
+Morkel                      18      5     61      1
+Quinn                       31      3     95      2
+Bell                        32      3    113      1
+Vincent                     34      4     93      2
+Owen-Smith                   5      0     16      0
+Mitchell                     8      3     21      1
+
+South Africa 1st innings                                        R   M   B  4 6
+IJ Siedle             lbw                b Freeman              6            0
+RH Catterall          c Sutcliffe        b Barratt              3          0 0
+B Mitchell            c Geary            b Freeman              1          0 0
+HW Taylor                                b Freeman             28            0
+*HG Deane             st Duckworth       b Freeman              0          0 0
++HB Cameron           c Bowley           b Freeman             13            0
+DPB Morkel            lbw                b Geary               63            0
+HGO Owen-Smith        c Barratt          b Freeman              6            0
+CL Vincent            c Geary            b Freeman              6            0
+NA Quinn              not out                                   1          0 0
+AJ Bell               c Duckworth        b Geary                0          0 0
+Extras                (lb 2, nb 1)                              3
+Total                 (all out, 75.3 overs)                   130
+
+FoW: 1-4 (Catterall), 2-7 (Mitchell), 3-34 (Siedle),
+     4-34 (Deane), 5-39 (Taylor), 6-65 (Cameron),
+     7-84 (Owen-Smith), 8-98 (Vincent), 9-130 (Morkel),
+     10-130 (Bell).
+
+Bowling                      O      M      R      W
+Barratt                     10      4      8      1
+Geary                       22.3   13     18      2
+Freeman                     32     12     71      7
+Woolley                      9      3     22      0
+Wyatt                        2      1      8      0
+
+South Africa 2nd innings (following on)                         R   M   B  4 6
+IJ Siedle                                b Barratt              1          0 0
+RH Catterall                             b Geary                1          0 0
+B Mitchell                               b Geary                2          0 0
+HW Taylor             c Leyland          b Freeman             70            0
+NA Quinn                                 b Freeman             11            0
+DPB Morkel            st Duckworth       b Woolley             36            0
++HB Cameron           c Woolley          b Freeman             83            1
+HGO Owen-Smith        st Duckworth       b Freeman              7            0
+*HG Deane             c Duckworth        b Wyatt               29            0
+CL Vincent            c Duckworth        b Freeman              4            0
+AJ Bell               not out                                   0          0 0
+Extras                (b 13, lb 3, nb 5)                       21
+Total                 (all out, 118.4 overs)                  265
+
+FoW: 1-1 (Catterall), 2-3 (Siedle), 3-13 (Mitchell),
+     4-66 (Quinn), 5-113 (Taylor), 6-145 (Morkel),
+     7-180 (Owen-Smith), 8-245 (Deane), 9-256 (Vincent),
+     10-265 (Cameron).
+
+Bowling                      O      M      R      W
+Barratt                     20      7     30      1
+Geary                       37     18     50      2
+Freeman                     39.4   13    100      5
+Woolley                     18      5     51      1
+Wyatt                        4      0     13      1
+
+<END>

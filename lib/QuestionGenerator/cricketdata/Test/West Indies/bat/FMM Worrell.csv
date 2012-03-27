@@ -1,0 +1,88 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+296, 1948-02-11, 2, 4, England, c Evans, Cranston, 97, 195, na, 9, 1
+296, 1948-02-11, 4, 4, England, not out, , 28, na, na, na, 0
+297, 1948-03-03, 1, 5, England, not out, , 131, 215, na, 15, 0
+298, 1948-03-27, 2, 4, England, lbw, Allen, 38, na, na, na, 0
+323, 1950-06-08, 2, 3, England, st Evans, Berry, 15, 25, na, 2, 0
+323, 1950-06-08, 4, 3, England, st Evans, Hollies, 28, 51, na, 4, 0
+324, 1950-06-24, 1, 3, England, , Bedser, 52, na, na, na, 0
+324, 1950-06-24, 3, 3, England, c Doggart, Jenkins, 45, na, na, na, 0
+325, 1950-07-20, 2, 4, England, c Yardley, Bedser, 261, 335, na, 35, 2
+326, 1950-08-12, 1, 3, England, lbw, Wright, 138, 305, na, 17, 0
+340, 1951-11-09, 1, 3, Australia, , Johnston, 37, 77, na, 4, 0
+340, 1951-11-09, 3, 3, Australia, st Langley, Ring, 20, 71, na, 2, 0
+341, 1951-11-30, 1, 3, Australia, , Johnson, 64, 126, na, 6, 0
+341, 1951-11-30, 3, 3, Australia, c Langley, Lindwall, 20, 22, na, 3, 0
+343, 1951-12-22, 2, 4, Australia, , Miller, 6, 23, na, 0, 0
+343, 1951-12-22, 4, 3, Australia, c Noblet, Johnston, 28, 88, na, 2, 0
+345, 1952-12-31, 1, 3, Australia, , Lindwall, 108, 247, na, 7, 0
+345, 1952-12-31, 3, 8, Australia, , Johnston, 30, 83, na, 4, 0
+347, 1952-01-25, 2, 6, Australia, , Miller, 6, 31, na, 0, 0
+347, 1952-01-25, 4, 5, Australia, run out, , 18, 58, na, 1, 0
+349, 1952-02-08, 2, 3, New Zealand, , Hayes, 71, 155, na, 11, 0
+349, 1952-02-08, 4, 3, New Zealand, not out, , 62, 138, na, na, 0
+350, 1952-02-15, 1, 5, New Zealand, c Sutcliffe, Emery, 100, 152, na, 13, 0
+363, 1953-01-21, 2, 3, India, , Gupte, 18, na, na, na, 0
+366, 1953-02-07, 1, 3, India, lbw, Mankad, 24, na, na, na, 1
+366, 1953-02-07, 3, 3, India, , Phadkar, 7, na, na, na, 0
+367, 1953-02-19, 2, 5, India, , Gupte, 31, na, na, na, 0
+367, 1953-02-19, 4, 3, India, c +Manjrekar, Ramchand, 2, na, na, 0, 0
+369, 1953-03-11, 2, 3, India, , Mankad, 56, na, na, na, 0
+371, 1953-03-28, 2, 3, India, c Hazare, Mankad, 237, 570, na, 35, 0
+371, 1953-03-28, 4, 3, India, c Apte, Mankad, 23, na, na, na, 0
+383, 1954-02-06, 1, 3, England, , Statham, 0, na, 2, 0, 0
+383, 1954-02-06, 3, 3, England, not out, , 76, na, na, na, 0
+384, 1954-02-24, 2, 1, England, c Evans, Statham, 0, 2, 1, 0, 0
+384, 1954-02-24, 3, 3, England, c Evans, Statham, 2, na, na, 0, 0
+385, 1954-03-17, 1, 4, England, , Lock, 167, 435, na, na, 0
+385, 1954-03-17, 3, 4, England, c sub, Lock, 56, na, na, na, 1
+386, 1954-03-30, 1, 4, England, c Wardle, Trueman, 4, na, na, na, 0
+386, 1954-03-30, 3, 4, England, c Graveney, Trueman, 29, na, na, na, 0
+403, 1955-03-26, 2, 6, Australia, , Johnston, 9, 44, na, na, 0
+403, 1955-03-26, 3, 8, Australia, , Archer, 9, na, na, na, 0
+405, 1955-04-26, 1, 5, Australia, c Johnson, Archer, 9, na, na, na, 0
+405, 1955-04-26, 3, 5, Australia, hit wicket, Benaud, 56, na, na, na, 0
+406, 1955-05-14, 2, 5, Australia, run out, , 16, na, na, na, 0
+406, 1955-05-14, 4, 5, Australia, c Archer, Miller, 34, na, na, na, 0
+408, 1955-06-11, 1, 5, Australia, c Langley, Lindwall, 61, 110, na, na, 0
+408, 1955-06-11, 3, 7, Australia, , Johnson, 12, 77, na, na, 0
+439, 1957-05-30, 2, 7, England, , Statham, 81, 293, na, 8, 0
+439, 1957-05-30, 4, 5, England, c May, Lock, 0, 18, na, 0, 0
+440, 1957-06-20, 1, 6, England, c Close, Bailey, 12, 64, na, 1, 0
+440, 1957-06-20, 3, 7, England, c Evans, Trueman, 10, 23, na, 1, 0
+441, 1957-07-04, 2, 1, England, not out, , 191, 575, na, 26, 0
+441, 1957-07-04, 3, 1, England, , Statham, 16, 56, na, 2, 0
+442, 1957-07-25, 1, 1, England, , Loader, 29, 106, na, 3, 0
+442, 1957-07-25, 3, 1, England, c Cowdrey, Trueman, 7, 38, na, 1, 0
+443, 1957-08-22, 2, 1, England, c Lock, Loader, 4, 29, na, 0, 0
+443, 1957-08-22, 3, 4, England, c Cowdrey, Lock, 0, 13, na, 0, 0
+485, 1960-01-06, 2, 5, England, not out, , 197, 682, na, 17, 2
+488, 1960-01-28, 2, 5, England, c Swetman, Trueman, 9, na, na, na, 0
+488, 1960-01-28, 4, 5, England, lbw, Statham, 0, na, na, 0, 0
+490, 1960-03-09, 2, 6, England, , Allen, 38, na, na, na, 0
+491, 1960-03-25, 2, 6, England, , Trueman, 15, na, na, na, 0
+491, 1960-03-25, 4, 5, England, c Trueman, Pullar, 61, na, na, na, 1
+498, 1960-12-09, 1, 5, Australia, c Grout, Davidson, 65, 159, na, 8, 0
+498, 1960-12-09, 3, 5, Australia, c Grout, Davidson, 65, 151, na, 8, 0
+500, 1961-12-30, 2, 6, Australia, , Misson, 0, 14, 8, 0, 0
+500, 1961-12-30, 3, 6, Australia, c Simpson, Martin, 0, 2, 2, 0, 0
+502, 1961-01-13, 1, 5, Australia, c Davidson, Benaud, 22, 66, 81, 4, 0
+502, 1961-01-13, 3, 5, Australia, lbw, Benaud, 82, 198, 224, 11, 1
+504, 1961-01-27, 1, 5, Australia, c Misson, Hoare, 71, 174, na, 10, 0
+504, 1961-01-27, 3, 5, Australia, c Burge, Mackay, 53, 136, na, 8, 0
+506, 1961-02-10, 1, 5, Australia, c Grout, Martin, 10, 40, 27, 0, 0
+506, 1961-02-10, 3, 7, Australia, c Grout, Davidson, 7, 21, 27, 1, 0
+525, 1962-02-16, 2, 5, India, c Surti, Durani, 0, na, na, 0, 0
+526, 1962-03-07, 2, 7, India, , Durani, 58, na, na, na, 0
+527, 1962-03-23, 2, 7, India, , Umrigar, 77, 350, na, na, 0
+528, 1962-04-04, 1, 9, India, not out, , 73, na, na, na, 0
+529, 1962-04-13, 1, 6, India, lbw, Ranjane, 26, na, na, na, 0
+529, 1962-04-13, 3, 5, India, not out, , 98, 266, na, na, 2
+543, 1963-06-06, 1, 7, England, not out, , 74, 95, na, 15, 0
+544, 1963-06-20, 1, 7, England, , Trueman, 0, 6, na, 0, 0
+544, 1963-06-20, 3, 7, England, c Stewart, Trueman, 33, na, na, na, 0
+545, 1963-07-04, 2, 7, England, , Dexter, 1, na, na, 0, 0
+545, 1963-07-04, 4, 7, England, c Parks, Trueman, 0, na, na, 0, 0
+546, 1963-07-25, 1, 8, England, c Close, Lock, 25, na, na, na, 0
+546, 1963-07-25, 3, 7, England, c Parks, Titmus, 0, na, na, 0, 0
+547, 1963-08-22, 2, 7, England, , Statham, 9, 28, na, 1, 0

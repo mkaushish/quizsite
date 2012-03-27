@@ -1,0 +1,106 @@
+
+Test # 128
+South Africa in England, 1912, 3rd Test
+Triangular Tournament, 1912, 8th match
+England v South Africa
+Kennington Oval, London
+12,13 August 1912 (3-day match)
+
+Result: England won by 10 wickets
+Triangular Tournament points: England 1, South Africa 0
+South Africa in England Test Series: England wins the 3-match series 3-0
+
+Toss: South Africa
+Umpires: W Richards and A White
+
+Close of play:
+ Day 1: South Africa 95, England 176
+
+South Africa 1st innings                                        R   M   B  4 6
+HW Taylor             c Foster           b Woolley             23            0
+*LJ Tancred                              b Barnes               0          0 0
+AW Nourse             lbw                b Woolley              8            0
+GA Faulkner           c Hayes            b Barnes               9            0
+LA Stricker                              b Barnes               5            0
+CB Llewellyn          c Rhodes           b Woolley              0          0 0
+GC White                                 b Barnes               4            0
+SJ Snooke             c Foster           b Woolley             23            0
+R Beaumont            c Hearne           b Barnes               3          0 0
+SJ Pegler             c Hitch            b Woolley              3          0 0
++TA Ward              not out                                   6            0
+Extras                (b 8, lb 3)                              11
+Total                 (all out, 42.3 overs)                    95
+
+FoW: 1-2 (Tancred), 2-31 (Nourse), 3-38 (Taylor),
+     4-47 (Stricker), 5-50 (Llewellyn), 6-53 (Faulkner),
+     7-76 (White), 8-86 (Snooke), 9-86 (Beaumont),
+     10-95 (Pegler).
+
+Bowling                      O      M      R      W
+Foster                       6      2     15      0
+Barnes                      21     10     28      5
+Woolley                     15.3    1     41      5
+
+England 1st innings                                             R   M   B  4 6
+JB Hobbs                             c & b Faulkner            68 110      8 0
+W Rhodes                                 b Faulkner             0          0 0
+RH Spooner            c Nourse           b Llewellyn           26            0
+*CB Fry               c Snooke           b Faulkner             9            0
+EG Hayes                                 b Faulkner             4            0
+FE Woolley                               b Pegler              13            0
+JW Hearne             lbw                b Faulkner            20            0
+FR Foster             st Ward            b Faulkner             8            0
++EJ Smith                                b Faulkner             9            0
+SF Barnes             c Taylor           b Pegler               8            0
+JW Hitch              not out                                   0          0 0
+Extras                (b 10, lb 1)                             11
+Total                 (all out, 56.1 overs)                   176
+
+FoW: 1-4 (Rhodes), 2-65 (Spooner), 3-85 (Fry), 4-89 (Hayes),
+     5-111 (Woolley), 6-127 (Hobbs), 7-135 (Foster),
+     8-163 (Smith), 9-176 (Barnes), 10-176 (Hearne).
+
+Bowling                      O      M      R      W
+Pegler                      19      3     53      2
+Faulkner                    27.1    4     84      7
+Llewellyn                   10      1     28      1
+
+South Africa 2nd innings                                        R   M   B  4 6
+HW Taylor             lbw                b Barnes               6            0
+*LJ Tancred           st Smith           b Woolley              0          0 0
+AW Nourse                            c & b Foster              42            0
+LA Stricker           c Spooner          b Barnes               0          0 0
+GA Faulkner                              b Barnes              10            0
+CB Llewellyn          c Hitch            b Barnes               0          0 0
+GC White              c Smith            b Barnes               1          0 0
+SJ Snooke             c Hearne           b Barnes               7            0
+R Beaumont                               b Barnes               6            0
+SJ Pegler                                b Barnes               0          0 0
++TA Ward              not out                                   0          0 0
+Extras                (b 18, lb 3)                             21
+Total                 (all out, 32.4 overs)                    93
+
+FoW: 1-0 (Tancred), 2-10 (Taylor), 3-10 (Stricker),
+     4-54 (Faulkner), 5-54 (Llewellyn), 6-58 (White),
+     7-70 (Snooke), 8-89 (Beaumont), 9-93 (Nourse),
+     10-93 (Pegler).
+
+Bowling                      O      M      R      W
+Barnes                      16.4    4     29      8
+Woolley                      9      2     24      1
+Foster                       7      2     19      1
+
+England 2nd innings (target: 13 runs)                           R   M   B  4 6
+JB Hobbs              not out                                   9            0
+JW Hearne             not out                                   5            0
+Extras                                                          0
+Total                 (0 wickets, 4.3 overs)                   14
+
+DNB: W Rhodes, RH Spooner, *CB Fry, EG Hayes, FE Woolley,
+     FR Foster, +EJ Smith, SF Barnes, JW Hitch.
+
+Bowling                      O      M      R      W
+Nourse                       2.3    0     10      0
+Faulkner                     2      0      4      0
+
+<END>

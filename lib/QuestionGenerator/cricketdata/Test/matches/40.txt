@@ -1,0 +1,104 @@
+
+Test # 40
+The Ashes, 1893, 2nd Test
+England v Australia
+Kennington Oval, London
+14,15,16 August 1893 (3-day match)
+
+Result: England won by an innings and 43 runs
+Series: England leads the 3-match series 1-0
+
+Toss: England
+Umpires: H Draper and CK Pullin
+Balls per over: 5
+Test debut: A Ward (England).
+
+Close of play:
+ Day 1: England 378/5 (Read 21*, Jackson 49*)
+ Day 2: England 483, Australia 91, Australia 158/2 (Giffen 49*, Trott 21*)
+
+England 1st innings                                             R   M   B  4 6
+*WG Grace             c Giffen           b Trumble             68            0
+AE Stoddart                              b Turner              83 135        0
+A Shrewsbury snr      c Graham           b Giffen              66            0
+W Gunn                                   b Giffen              16            0
+A Ward                               c & b Giffen              55            0
+WW Read                                  b Giffen              52            0
+FS Jackson            run out                                 103 135     13 0
+J Briggs                                 b Giffen               0          0 0
+WH Lockwood                          c & b Giffen              10            0
++G MacGregor          lbw                b Giffen               5            0
+AW Mold               not out                                   0          0 0
+Extras                (b 19, lb 4, w 2)                        25
+Total                 (all out, 187 overs)                    483
+
+FoW: 1-151 (Stoddart), 2-151 (Grace), 3-200 (Gunn),
+     4-303 (Shrewsbury), 5-311 (Ward), 6-442 (Read),
+     7-442 (Briggs), 8-456 (Lockwood), 9-478 (MacGregor),
+     10-483 (Jackson).
+
+Bowling                      O      M      R      W
+Turner                      47     18     94      1
+Trumble                     47     16    101      1
+McLeod                      23      6     57      0
+Giffen                      54     17    128      7
+Trott                        6      1     33      0
+Bruce                        3      0     19      0
+Lyons                        7      1     26      0
+
+Australia 1st innings                                           R   M   B  4 6
+AC Bannerman          c MacGregor        b Lockwood            10            0
+JJ Lyons                                 b Briggs              19            0
+GHS Trott                                b Lockwood             0          0 0
+SE Gregory            lbw                b Briggs               9            0
+H Graham              c MacGregor        b Lockwood             0          0 0
+G Giffen              c MacGregor        b Lockwood             4            0
+W Bruce               not out                                  10            0
+H Trumble                                b Briggs               5            0
+RW McLeod             c Lockwood         b Briggs               2          0 0
+CTB Turner                               b Briggs               7            0
+*+JM Blackham         run out                                  17            0
+Extras                (b 5, lb 3)                               8
+Total                 (all out, 37.3 overs)                    91
+
+FoW: 1-30 (Lyons), 2-31 (Trott), 3-32 (Bannerman), 4-32 (Graham),
+     5-40 (Gregory), 6-48 (Giffen), 7-57 (Trumble),
+     8-59 (McLeod), 9-69 (Turner), 10-91 (Blackham).
+
+Bowling                      O      M      R      W
+Lockwood                    19      9     37      4
+Mold                         4      0     12      0
+Briggs                      14.3    5     34      5
+
+Australia 2nd innings (following on)                            R   M   B  4 6
+AC Bannerman          c Read             b Lockwood            55            0
+W Bruce               c Jackson          b Mold                22            0
+G Giffen                                 b Lockwood            53            0
+GHS Trott             c Read             b Lockwood            92 125     17 0
+SE Gregory            c Shrewsbury       b Briggs               6            0
+H Graham                                 b Briggs              42            0
+JJ Lyons              c Grace            b Lockwood            31            0
+H Trumble                                b Briggs               8            0
+RW McLeod             c Jackson          b Briggs               5            0
+CTB Turner                               b Briggs               0          0 0
+*+JM Blackham         not out                                   2          0 0
+Extras                (b 18, lb 15)                            33
+Total                 (all out, 98 overs)                     349
+
+FoW: 1-54 (Bruce), 2-126 (Bannerman), 3-165 (Giffen),
+     4-189 (Gregory), 5-295 (Graham), 6-311 (Trott),
+     7-340 (Lyons), 8-342 (Trumble), 9-342 (Turner),
+     10-349 (McLeod).
+
+Bowling                      O      M      R      W
+Lockwood                    29      7     96      4
+Mold                        23      8     73      1
+Briggs                      35      6    114      5
+Jackson                     11      3     33      0
+
+*** Bannerman became the first Australian to score 1,000 runs in Tests.
+*** Jackon's hundred, which took 135 minutes, was the first in a Test in
+    England to be completed with a hit over the boundery (then only worth
+    four runs).
+
+<END>

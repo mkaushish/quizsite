@@ -1,0 +1,77 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+284, 1947-03-21, 1, 2, England, c Evans, Bedser, 58, 133, na, 7, 0
+314, 1949-06-11, 2, 1, England, c Evans, Young, 32, na, na, na, 0
+314, 1949-06-11, 4, 1, England, c Bedser, Young, 82, na, na, na, 0
+315, 1949-06-25, 2, 1, England, c Compton, Gladwin, 57, 90, na, na, 0
+316, 1949-07-23, 1, 1, England, , Bailey, 9, 22, na, 2, 0
+316, 1949-07-23, 3, 1, England, lbw, Compton, 101, 170, na, 12, 0
+317, 1949-08-13, 1, 1, England, c Bedser, Hollies, 88, na, na, na, 0
+317, 1949-08-13, 3, 1, England, c Brown, Bedser, 54, na, na, na, 0
+332, 1951-03-17, 1, 1, England, , Statham, 116, 260, na, 12, 0
+333, 1951-03-24, 1, 1, England,                c &, Wright, 20, 100, na, 0, 0
+333, 1951-03-24, 3, 1, England, , Tattersall, 11, 74, na, 0, 0
+349, 1952-02-08, 1, 4, West Indies, c Stollmeyer, Ramadhin, 45, 86, na, 5, 0
+349, 1952-02-08, 3, 5, West Indies, , Ramadhin, 36, 87, na, na, 0
+350, 1952-02-15, 2, 4, West Indies, c Worrell, Ramadhin, 20, na, na, na, 0
+350, 1952-02-15, 3, 3, West Indies, not out, , 2, na, na, 0, 0
+368, 1953-03-06, 2, 1, South Africa, c McGlew, Watkins, 62, 175, na, na, 0
+368, 1953-03-06, 3, 1, South Africa, , Murray, 33, na, na, 6, 0
+370, 1953-03-13, 2, 1, South Africa, c Waite, Tayfield, 45, 120, na, 5, 1
+370, 1953-03-13, 4, 1, South Africa, run out, , 10, na, na, na, 0
+377, 1953-12-11, 2, 1, South Africa, c Waite, Tayfield, 20, na, na, na, 0
+377, 1953-12-11, 3, 1, South Africa, c Endean, Tayfield, 16, na, na, na, 0
+378, 1953-12-24, 2, 4, South Africa, not out, , 80, 112, na, 4, 7
+378, 1953-12-24, 4, 4, South Africa, c Endean, Murray, 10, na, na, na, 0
+379, 1954-01-01, 1, 4, South Africa, c Waite, Ironside, 66, 176, na, 5, 0
+381, 1954-01-29, 2, 4, South Africa, c McLean, Tayfield, 0, na, 3, 0, 0
+381, 1954-01-29, 3, 6, South Africa, , Adcock, 23, na, na, na, 0
+382, 1954-02-05, 1, 4, South Africa, c Waite, Watkins, 38, 142, na, na, 0
+382, 1954-02-05, 3, 4, South Africa,                c &, van Ryneveld, 52, 124, na, 4, 2
+401, 1955-03-11, 1, 3, England, c Statham, Bailey, 74, 267, na, 5, 3
+401, 1955-03-11, 3, 2, England, run out, , 35, 91, na, 4, 1
+402, 1955-03-25, 1, 1, England, c Bailey, Statham, 49, 90, na, 8, 0
+402, 1955-03-25, 3, 1, England, , Wardle, 11, 47, na, 0, 0
+413, 1955-10-13, 1, 2, Pakistan, c Kardar, Zulfiqar Ahmed, 15, na, na, na, 0
+413, 1955-10-13, 3, 2, Pakistan, , Shujauddin, 17, na, na, na, 0
+414, 1955-10-26, 1, 1, Pakistan, c Waqar Hasan, Khan Mohammad, 4, na, na, na, 0
+414, 1955-10-26, 3, 1, Pakistan, lbw, Shujauddin, 25, na, na, na, 0
+415, 1955-11-07, 1, 2, Pakistan, , Fazal Mahmood, 3, na, na, 0, 0
+415, 1955-11-07, 3, 2, Pakistan, c Imtiaz Ahmed, Khan Mohammad, 17, na, na, na, 0
+416, 1955-11-19, 2, 1, India, c Umrigar, Gupte, 17, na, na, na, 0
+416, 1955-11-19, 3, 1, India, not out, , 137, 300, na, 15, 0
+417, 1955-12-02, 2, 1, India, c Gupte, Ramchand, 73, 157, na, 10, 0
+417, 1955-12-02, 3, 1, India, c Mankad, Gupte, 37, na, na, na, 0
+418, 1955-12-16, 1, 2, India, not out, , 230, 540, na, 30, 0
+419, 1956-12-28, 2, 2, India, c Patankar, Ramchand, 25, na, na, na, 0
+419, 1956-12-28, 4, 2, India, lbw, Gupte, 5, na, na, na, 0
+420, 1956-01-06, 2, 2, India, c Umrigar, Patel, 47, 204, na, 4, 0
+420, 1956-01-06, 3, 2, India,                c &, Gupte, 40, na, na, na, 0
+421, 1956-02-03, 1, 2, West Indies, , Valentine, 9, 83, na, na, 0
+421, 1956-02-03, 3, 2, West Indies, c Binns, Valentine, 48, 95, na, 6, 1
+422, 1956-02-18, 2, 1, West Indies, st Depeiaza, Ramadhin, 26, na, na, na, 0
+422, 1956-02-18, 3, 1, West Indies, st Depeiaza, Smith, 10, na, na, na, 0
+455, 1958-06-19, 2, 6, England, , Lock, 18, 55, na, na, 0
+455, 1958-06-19, 3, 6, England, , Bailey, 0, na, na, 0, 0
+456, 1958-07-03, 1, 4, England, , Laker, 6, na, na, na, 0
+456, 1958-07-03, 3, 4, England, lbw, Lock, 0, 45, na, 0, 0
+457, 1958-07-24, 1, 1, England, , Statham, 41, 115, na, na, 0
+457, 1958-07-24, 3, 1, England, , Statham, 28, na, na, na, 0
+458, 1958-08-21, 1, 4, England, c Watson, Trueman, 11, 14, na, 2, 0
+458, 1958-08-21, 3, 4, England, not out, , 18, 107, na, 1, 0
+470, 1959-02-27, 2, 5, England, c Lock, Tyson, 0, 1, 2, 0, 0
+470, 1959-02-27, 3, 5, England, c Trueman, Lock, 12, 22, 26, 3, 0
+472, 1959-03-14, 1, 5, England, , Lock, 61, 163, 131, 7, 1
+579, 1965-02-27, 2, 6, India, , Surti, 56, 160, na, 9, 0
+581, 1965-03-05, 1, 5, India, not out, , 151, 355, na, 24, 0
+581, 1965-03-05, 3, 6, India, c Hanumant Singh, Venkataraghavan, 6, 32, na, 1, 0
+582, 1965-03-12, 1, 5, India, run out, , 4, 7, na, 1, 0
+582, 1965-03-12, 4, 6, India, c Durani, Chandrasekhar, 1, 14, na, 0, 0
+583, 1965-03-19, 1, 6, India, , Venkataraghavan, 2, 15, na, 0, 0
+583, 1965-03-19, 3, 6, India, c Engineer, Chandrasekhar, 54, 193, na, 10, 0
+585, 1965-03-27, 1, 6, Pakistan, , Pervez Sajjad, 7, na, na, 1, 0
+585, 1965-03-27, 3, 8, Pakistan, , Pervez Sajjad, 0, na, na, 0, 0
+586, 1965-04-02, 2, 6, Pakistan, , Asif Iqbal, 23, na, na, na, 0
+587, 1965-04-09, 1, 10, Pakistan, not out, , 13, 69, na, na, 0
+587, 1965-04-09, 3, 6, Pakistan, c Majid Khan, Intikhab Alam, 18, na, na, na, 0
+591, 1965-05-27, 2, 5, England, retired hurt, , 4, na, na, na, 0
+591, 1965-05-27, 3, 7, England, c Titmus, Dexter, 53, na, na, 4, 0

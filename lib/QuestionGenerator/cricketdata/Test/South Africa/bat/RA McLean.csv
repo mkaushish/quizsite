@@ -1,0 +1,74 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+336, 1951-07-05, 1, 7, England, , Laker, 20, 43, na, 2, 0
+336, 1951-07-05, 3, 7, England, c Ikin, Bedser, 19, 41, na, 2, 0
+337, 1951-07-26, 1, 6, England, run out, , 67, 108, na, 11, 1
+338, 1951-08-16, 1, 6, England, c May, Laker, 14, na, na, na, 0
+338, 1951-08-16, 3, 6, England, c Lowson, Laker, 18, na, na, na, 0
+359, 1952-12-05, 2, 5, Australia, c Miller, Johnson, 13, 16, na, 1, 0
+359, 1952-12-05, 4, 5, Australia, , Lindwall, 38, 96, na, 4, 0
+361, 1952-12-24, 1, 5, Australia, c Lindwall, Ring, 27, 40, na, 2, 0
+361, 1952-12-24, 3, 5, Australia, lbw, Miller, 42, 65, na, 6, 0
+362, 1953-01-09, 1, 5, Australia, , Lindwall, 0, 2, 2, 0, 0
+362, 1953-01-09, 3, 6, Australia, c Benaud, Lindwall, 65, 93, na, 7, 0
+364, 1953-01-24, 2, 3, Australia, c Hassett, Ring, 11, 37, na, 1, 0
+364, 1953-01-24, 4, 3, Australia, c Hole, Benaud, 17, 36, na, 3, 0
+365, 1953-02-06, 2, 6, Australia, lbw, Noblet, 81, 93, na, 10, 1
+365, 1953-02-06, 4, 6, Australia, not out, , 76, 80, na, 14, 0
+368, 1953-03-06, 1, 6, New Zealand, , Blair, 5, na, na, na, 0
+370, 1953-03-13, 1, 7, New Zealand, c Reid, Rabone, 0, 5, na, 0, 0
+370, 1953-03-13, 3, 4, New Zealand, c Rabone, MacGibbon, 20, na, na, na, 0
+377, 1953-12-11, 1, 5, New Zealand, c Chapple, Blair, 101, 138, na, 11, 0
+378, 1953-12-24, 1, 5, New Zealand, c Blair, Overton, 27, na, na, na, 1
+378, 1953-12-24, 3, 7, New Zealand, lbw, Reid, 36, na, na, na, 0
+379, 1954-01-01, 2, 5, New Zealand, c Mooney, Rabone, 9, na, na, na, 0
+379, 1954-01-01, 3, 5, New Zealand, not out, , 18, na, na, na, 0
+381, 1954-01-29, 1, 5, New Zealand, c Sutcliffe, Overton, 0, na, na, 0, 0
+407, 1955-06-09, 2, 5, England, , Tyson, 13, 35, na, 1, 0
+407, 1955-06-09, 3, 5, England, c Graveney, Tyson, 16, 36, na, 3, 0
+409, 1955-06-23, 2, 5, England, , Statham, 142, 213, na, 21, 1
+409, 1955-06-23, 4, 6, England, , Statham, 8, na, na, na, 0
+410, 1955-07-07, 2, 6, England, , Tyson, 3, 12, na, 0, 0
+410, 1955-07-07, 4, 4, England, run out, , 50, 71, na, 7, 1
+411, 1955-07-21, 1, 5, England, c May, Loader, 41, 105, na, na, 0
+411, 1955-07-21, 3, 4, England, c Lowson, Wardle, 3, na, na, 0, 0
+412, 1955-08-13, 2, 5, England, , Lock, 1, 5, na, 0, 0
+412, 1955-08-13, 4, 5, England, lbw, Laker, 0, 3, na, 0, 0
+434, 1956-12-24, 2, 5, England, lbw, Bailey, 0, 1, 2, 0, 0
+434, 1956-12-24, 4, 6, England, c Insole, Bailey, 6, 49, na, 0, 0
+435, 1957-01-01, 2, 6, England, c May, Statham, 42, 117, na, 5, 0
+435, 1957-01-01, 4, 5, England, lbw, Laker, 22, 51, na, 2, 0
+436, 1957-01-25, 2, 5, England, c Insole, Bailey, 100, 257, na, 14, 0
+436, 1957-01-25, 4, 5, England, , Wardle, 4, 7, na, 1, 0
+437, 1957-02-15, 1, 5, England, run out, , 93, 274, na, 13, 1
+437, 1957-02-15, 3, 4, England, c Cowdrey, Statham, 0, 7, 10, 0, 0
+438, 1957-03-01, 1, 6, England, c Evans, Lock, 23, 76, na, 3, 0
+438, 1957-03-01, 3, 6, England, , Bailey, 19, 54, na, 3, 0
+444, 1957-12-23, 1, 6, Australia, , Meckiff, 50, na, na, na, 0
+444, 1957-12-23, 3, 5, Australia, c Grout, Davidson, 0, na, na, 0, 0
+445, 1958-12-31, 2, 5, Australia, c Harvey, Kline, 38, na, na, na, 0
+445, 1958-12-31, 3, 5, Australia, c Burke, Benaud, 2, na, na, 0, 0
+447, 1958-01-24, 2, 8, Australia, c Grout, Benaud, 11, na, na, na, 0
+449, 1958-02-07, 2, 6, Australia, c Grout, Davidson, 9, na, na, na, 0
+449, 1958-02-07, 3, 5, Australia, c Grout, Davidson, 0, na, na, 0, 0
+492, 1960-06-09, 2, 4, England, c Statham, Trueman, 21, na, na, na, 0
+492, 1960-06-09, 4, 4, England, lbw, Trueman, 68, 150, na, 12, 0
+493, 1960-06-23, 2, 4, England, c Cowdrey, Statham, 15, na, na, na, 0
+493, 1960-06-23, 3, 4, England, c Parks, Trueman, 13, 60, na, na, 0
+494, 1960-07-07, 2, 4, England, , Statham, 11, 43, na, 0, 0
+494, 1960-07-07, 3, 4, England, c Parks, Trueman, 0, 1, na, 0, 0
+495, 1960-07-21, 2, 5, England, , Allen, 109, 160, 157, 14, 0
+496, 1960-08-18, 2, 4, England, lbw, Dexter, 0, 1, na, 0, 0
+496, 1960-08-18, 4, 5, England, not out, , 32, 66, na, 5, 0
+515, 1961-12-08, 1, 4, New Zealand, , Alabaster, 63, na, na, na, 1
+515, 1961-12-08, 3, 4, New Zealand, c Bartlett, Motz, 0, na, na, 0, 0
+517, 1961-12-26, 1, 4, New Zealand, c Bartlett, Cameron, 2, na, na, 0, 0
+517, 1961-12-26, 3, 4, New Zealand,                c &, Motz, 45, 72, na, 6, 1
+519, 1962-01-01, 2, 5, New Zealand, c Dick, Cameron, 20, na, na, na, 0
+519, 1962-01-01, 4, 5, New Zealand, c Harris, Bartlett, 113, 174, na, 18, 1
+523, 1962-02-02, 2, 4, New Zealand, lbw, Motz, 78, 86, na, 15, 0
+524, 1962-02-16, 2, 5, New Zealand, c McGregor, Bartlett, 25, 21, na, 4, 1
+524, 1962-02-16, 4, 5, New Zealand, , Alabaster, 10, na, na, na, 0
+571, 1964-12-04, 2, 7, England, c Smith, Allen, 30, 62, na, 1, 1
+571, 1964-12-04, 3, 7, England, c Smith, Allen, 9, 28, na, 0, 0
+572, 1964-12-23, 2, 6, England, lbw, Barber, 12, 33, na, 2, 0
+572, 1964-12-23, 3, 4, England, , Titmus, 24, 42, na, 1, 1

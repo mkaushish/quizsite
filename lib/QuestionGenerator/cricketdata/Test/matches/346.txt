@@ -1,0 +1,115 @@
+
+Test # 346
+England in India, 1951/52, 4th Test
+India v England
+Green Park, Kanpur
+12,13,14 January 1952 (5-day match)
+
+Result: England won by 8 wickets
+Series: England leads the 5-match series 1-0
+
+Toss: India
+Umpires: JR Patel and MG Vijayasarathi
+
+Close of play:
+ Day 1: India 121, England 63/3 (Robertson 4*, Watkins 0*)
+ Day 2: England 203, India 125/7 (Adhikari 37*, Shinde 7*)
+
+India 1st innings                                               R   M   B  4 6
+P Roy                                    b Tattersall          37 160        0
+MH Mankad                                b Tattersall          19            0
+PR Umrigar                               b Tattersall           0   2   4  0 0
+*VS Hazare            c Ridgway          b Tattersall           0   3   2  0 0
+DG Phadkar                               b Tattersall           8            0
+HR Adhikari                              b Hilton               6            0
+VL Manjrekar          c Graveney         b Hilton               6            0
+CS Nayudu             st Spooner         b Hilton              21            0
++PG Joshi                                b Tattersall           4            0
+SG Shinde             not out                                   5            0
+Ghulam Ahmed          c Poole            b Hilton               6            0
+Extras                (b 8, lb 1)                               9
+Total                 (all out, 61.5 overs)                   121
+
+FoW: 1-39 (Mankad), 2-39 (Umrigar), 3-39 (Hazare),
+     4-49 (Phadkar), 5-66 (Roy), 6-76 (Adhikari),
+     7-101 (Manjrekar), 8-106 (Joshi), 9-110 (Nayudu),
+     10-121 (Ghulam Ahmed).
+
+Bowling                      O      M      R      W
+Statham                      6      3     10      0
+Ridgway                      7      1     16      0
+Watkins                      5      3      6      0
+Hilton                      22.5   10     32      4
+Tattersall                  21      3     48      6
+
+England 1st innings                                             R   M   B  4 6
+FA Lowson             hit wicket         b Mankad              26            0
++RT Spooner                              b Shinde              21            0
+TW Graveney                              b Mankad               6            0
+JDB Robertson         lbw                b Mankad              21            0
+AJ Watkins            c Joshi            b Ghulam Ahmed        66            0
+MJ Hilton             st Joshi           b Ghulam Ahmed        10            0
+CJ Poole                                 b Ghulam Ahmed        19            0
+*ND Howard                               b Mankad               1          0 0
+JB Statham            not out                                  12            0
+F Ridgway                                b Ghulam Ahmed         5            0
+R Tattersall          st Joshi           b Ghulam Ahmed         2          0 0
+Extras                (b 13, lb 1)                             14
+Total                 (all out, 95.1 overs)                   203
+
+FoW: 1-46 (Spooner), 2-57 (Graveney), 3-60 (Lowson),
+     4-103 (Robertson), 5-114 (Hilton), 6-174 (Poole),
+     7-181 (Watkins), 8-181 (Howard), 9-197 (Ridgway),
+     10-203 (Tattersall).
+
+Bowling                      O      M      R      W
+Phadkar                      2      2      0      0
+Hazare                       2      0      5      0
+Ghulam Ahmed                37.1   14     70      5
+Mankad                      35     13     54      4
+Shinde                      17      4     46      1
+Nayudu                       2      0     14      0
+
+India 2nd innings                                               R   M   B  4 6
+P Roy                 c Ridgway          b Hilton              14            1
+MH Mankad             c Statham          b Hilton               7            0
+VL Manjrekar          c Ridgway          b Hilton              20            0
+*VS Hazare                               b Hilton               0          0 0
+PR Umrigar            c Spooner          b Robertson           36            1
+DG Phadkar            lbw                b Hilton               2          0 0
+HR Adhikari           c Lowson           b Tattersall          60            0
+CS Nayudu                                b Robertson            0          0 0
+SG Shinde             c Lowson           b Tattersall          14            0
++PG Joshi             run out                                   0          0 0
+Ghulam Ahmed          not out                                   2          0 0
+Extras                (b 2)                                     2
+Total                 (all out, 66.5 overs)                   157
+
+FoW: 1-7 (Mankad), 2-37 (Roy), 3-37 (Hazare), 4-42 (Manjrekar),
+     5-44 (Phadkar), 6-102 (Umrigar), 7-102 (Nayudu),
+     8-142 (Shinde), 9-143 (Joshi), 10-157 (Adhikari).
+
+Bowling                      O      M      R      W
+Hilton                      32     11     61      5
+Tattersall                  27.5    7     77      2
+Robertson                    7      1     17      2
+
+England 2nd innings (target: 76 runs)                           R   M   B  4 6
+FA Lowson             c Adhikari         b Ghulam Ahmed        12            0
++RT Spooner                              b Mankad               0          0 0
+TW Graveney           not out                                  48            0
+JDB Robertson         not out                                   5            0
+Extras                (b 11)                                   11
+Total                 (2 wickets, 19.2 overs)                  76
+
+DNB: AJ Watkins, MJ Hilton, CJ Poole, *ND Howard, JB Statham,
+     F Ridgway, R Tattersall.
+
+FoW: 1-1 (Spooner), 2-57 (Lowson).
+
+Bowling                      O      M      R      W
+Ghulam Ahmed                10      1     10      1
+Mankad                       7.2    0     44      1
+Phadkar                      2      0     11      0
+
+<END>

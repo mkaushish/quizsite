@@ -55,8 +55,9 @@ module Chapter12
 	end
 
 	class RatioStudent < QuestionBase
-		SUBS=[["girls","boys"], ["students who like cricket", "students who like football", "students who like hockey"], ["rupees saved by Babli", "rupees spent by Babli"], ["girls", "boys"]]
+		SUBS=[["girls","boys"], ["students who like cricket", "students who like football", "students who like hockey"], ["Babli saved", "Babli spent"], ["girls", "boys"]]
 	  MAX=[30, 30, 2000, 2000]
+    UNTS=["",""," rupees that ", ""]
 	  TOT=["students", "students", "rupees", "students"]	
 	  WHERE=["in the class", "in the class", "earned by Babli", "in the school"] 
 		def initialize
@@ -76,18 +77,23 @@ module Chapter12
 			blank=rand(SUBS[@ch].length+1)
 			str=""
 			if blank!=SUBS[@ch].length
-				str+="A total of "+@many.reduce(:+).to_s+" "+TOT[@ch]+" are " +WHERE[@ch] + ". This can be broken into: "
+				str+="A total of "+@many.reduce(:+).to_s+" "+TOT[@ch]+" are " +WHERE[@ch] + ". Out of this, "
 			else 
-				str+="The "+TOT[@ch]+" "+WHERE[@ch]+" can be broken into: "  
+				str+="The "+TOT[@ch]+" "+WHERE[@ch]+" includes "  
 			end
 			pre=[]
 			for i in 0...SUBS[@ch].length
 				if i!=blank
-					pre << @many[i].to_s+" "+SUBS[@ch][i]
+					pre << @many[i].to_s+UNTS[@ch]+" "+SUBS[@ch][i]
 				end
 			end
 			pre
-			str += pre.slice(0,pre.length-1).join(", ")+" and "+pre.last
+      if pre.length > 2
+        puts "here"
+			  str += pre.slice(0,pre.length-1).join(", ")+" and "+pre.last
+      else str+= pre[0]
+      end
+
 			if blank!=SUBS[@ch].length
 				str << ". The rest are " +SUBS[@ch][blank]
 			end

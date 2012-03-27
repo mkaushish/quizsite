@@ -1,0 +1,31 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+1874, 2008-04-15, 1, 6, England, , Anderson, 9, 36, 32, 2, 0
+1874, 2008-04-15, 3, 6, England, not out, , 29, 174, 118, 2, 0
+1876, 2008-04-23, 1, 6, England, retired hurt, , 4, 22, 13, 1, 0
+1876, 2008-04-23, 3, 11, England, absent hurt, , -, , , , 
+1878, 2008-05-05, 2, 5, England, lbw, Anderson, 0, 3, 3, 0, 0
+1878, 2008-05-05, 3, 5, England, c Ambrose, Sidebottom, 49, 153, 105, 6, 0
+1888, 2008-09-17, 2, 6, Bangladesh, c Mushfiqur Rahim, Naeem Islam, 19, 41, 42, 2, 1
+1888, 2008-09-17, 4, 7, Bangladesh, c Naeem Islam, Shakib Al Hasan, 49, 157, 126, 6, 0
+1890, 2008-09-25, 1, 6, Bangladesh, not out, , 35, 81, 81, 3, 0
+1894, 2008-10-20, 2, 6, Australia, not out, , 39, 133, 80, 7, 0
+1894, 2008-10-20, 4, 6, Australia, , Johnson, 29, 99, 69, 5, 0
+1896, 2008-11-28, 1, 6, Australia, , Lee, 11, 48, 42, 2, 0
+1896, 2008-11-28, 3, 6, Australia, lbw, Johnson, 9, 34, 27, 2, 0
+1897, 2008-11-11, 1, 3, West Indies, lbw, Gayle, 95, 232, 188, 12, 0
+1897, 2008-11-11, 3, 4, West Indies, not out, , 4, 11, 7, 1, 0
+1900, 2008-11-19, 2, 3, West Indies,                c &, Edwards, 57, 192, 161, 4, 2
+1900, 2008-11-19, 4, 3, West Indies, run out (Marshall/Ramdin), , 33, 70, 50, 6, 0
+1915, 2009-02-18, 1, 3, India, c Dhoni, Khan, 0, 7, 3, 0, 0
+1915, 2009-02-18, 3, 3, India, c Gambhir, Harbhajan Singh, 67, 289, 183, 10, 0
+1918, 2009-03-03, 2, 3, India, c Dhoni, Khan, 2, 14, 8, 0, 0
+1918, 2009-03-03, 4, 3, India, , Khan, 10, 43, 39, 1, 0
+1930, 2009-07-18, 2, 3, Sri Lanka, , Mendis, 14, 54, 44, 1, 0
+1930, 2009-07-18, 4, 2, Sri Lanka, c DPMD Jayawardene, Kulasekara, 0, 3, 3, 0, 0
+1932, 2009-07-26, 2, 3, Sri Lanka, c HAPW Jayawardene, Thushara, 13, 33, 24, 3, 0
+1932, 2009-07-26, 4, 3, Sri Lanka, lbw, Herath, 50, 113, 93, 6, 0
+1934, 2009-10-24, 1, 3, Pakistan, c Kamran Akmal, Mohammad Asif, 8, 22, 14, 2, 0
+1934, 2009-10-24, 3, 3, Pakistan, lbw, Mohammad Amir, 0, 8, 4, 0, 0
+1938, 2009-11-03, 2, 3, Pakistan, lbw, Mohammad Asif, 29, 140, 74, 3, 0
+1938, 2009-11-03, 4, 3, Pakistan, c Kamran Akmal, Mohammad Asif, 20, 88, 39, 2, 0
+1940, 2009-11-11, 2, 5, Pakistan, c Kamran Akmal, Danish Kaneria, 5, 51, 26, 0, 0

@@ -1,0 +1,94 @@
+
+Test # 1090
+Bicentenary Test, 1987/88, Only Test
+Australia v England
+Sydney Cricket Ground
+29,30,31 January, 1,2 February 1988 (5-day match)
+
+Result: Match drawn
+Series: 1987/88 Bicentenary Test drawn
+
+Toss: England
+Umpires: AR Crafter and PJ McConnell
+Player of the match: DC Boon
+
+Close of play:
+ Day 1: England 221/2 (Broad 116*, Gatting 3*)
+ Day 2: England 425, Australia 14/0 (Boon 12*, Marsh 1*)
+ Day 3: Australia 164/7 (Sleep 20*, Taylor 7*)
+ Day 4: Australia 214, Australia 101/0 (Boon 54*, Marsh 41*)
+
+England 1st innings                                             R   M   B  4 6
+BC Broad                                 b Waugh              139 434 361 13 0
+MD Moxon                                 b Sleep               40 154 119  3 0
+RT Robinson           c Veletta          b Dodemaide           43 142 121  4 0
+*MW Gatting           c Dyer             b Waugh               13 109  53  1 0
+CWJ Athey                            c & b Taylor              37 109  81  4 0
+DJ Capel              c Sleep            b Taylor              21  99  78  2 0
+JE Emburey            st Dyer            b Sleep               23  71  59  4 0
++BN French            st Dyer            b Taylor              47 116  94  3 0
+NA Foster             c Border           b Taylor              19  32  24  3 0
+EE Hemmings           not out                                   8  49  38  0 0
+GR Dilley                                b Waugh               13  20  15  1 0
+Extras                (b 4, lb 9, w 1, nb 8)                   22
+Total                 (all out, 172.5 overs)                  425
+
+FoW: 1-93 (Moxon), 2-192 (Robinson), 3-245 (Gatting),
+     4-262 (Broad), 5-313 (Athey), 6-314 (Capel),
+     7-346 (Emburey), 8-387 (Foster), 9-410 (French),
+     10-425 (Dilley).
+
+Bowling                      O      M      R      W
+McDermott                   35      8     65      0
+Dodemaide                   36     10     98      1
+Taylor                      34     10     84      4
+Waugh                       22.5    5     51      3
+Sleep                       45      8    114      2
+
+Australia 1st innings                                           R   M   B  4 6
+DC Boon               c French           b Foster              12  55  49  2 0
+GR Marsh              c French           b Capel                5  77  49  0 0
+DM Jones              c Emburey          b Hemmings            56 162 125  4 0
+*AR Border            c Broad            b Capel                2  22  15  0 0
+MRJ Veletta           c Emburey          b Hemmings            22  65  46  1 0
+SR Waugh              c French           b Dilley              27  90  85  2 0
+PR Sleep              c Athey            b Foster              41 150 114  2 0
++GC Dyer              lbw                b Dilley               0  10   7  0 0
+PL Taylor             c French           b Hemmings            20  49  49  2 0
+AIC Dodemaide         not out                                  12  63  42  1 0
+CJ McDermott          c Foster           b Dilley               1  11   3  0 0
+Extras                (lb 10, w 1, nb 5)                       16
+Total                 (all out, 96.1 overs)                   214
+
+FoW: 1-18 (Boon), 2-25 (Marsh), 3-34 (Border), 4-82 (Veletta),
+     5-116 (Jones), 6-147 (Waugh), 7-153 (Dyer), 8-183 (Taylor),
+     9-209 (Sleep), 10-214 (McDermott).
+
+Bowling                      O      M      R      W
+Dilley                      19.1    4     54      3
+Foster                      19      6     27      2
+Emburey                     30     10     57      0
+Capel                        6      3     13      2
+Hemmings                    22      3     53      3
+
+Australia 2nd innings (following on)                            R   M   B  4 6
+DC Boon               not out                                 184 492 431 14 0
+GR Marsh              c Athey            b Emburey             56 258 215  4 0
+DM Jones              c Moxon            b Capel               24  93  67  4 0
+*AR Border            not out                                  48 138 105  1 0
+Extras                (b 3, lb 7, nb 6)                        16
+Total                 (2 wickets, 135 overs)                  328
+
+DNB: MRJ Veletta, SR Waugh, PR Sleep, +GC Dyer, PL Taylor,
+     AIC Dodemaide, CJ McDermott.
+
+FoW: 1-162 (Marsh), 2-218 (Jones).
+
+Bowling                      O      M      R      W
+Dilley                      13      1     48      0
+Foster                      15      6     27      0
+Emburey                     38      5     98      1
+Capel                       17      4     38      1
+Hemmings                    52     15    107      0
+
+<END>

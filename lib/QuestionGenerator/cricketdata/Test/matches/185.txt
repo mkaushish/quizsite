@@ -1,0 +1,94 @@
+
+Test # 185
+South Africa in England, 1929, 5th Test
+England v South Africa
+Kennington Oval, London
+17,19,20 August 1929 (3-day match)
+
+Result: Match drawn
+Series: England wins the 5-match series 2-0
+
+Toss: South Africa
+Umpires: W Bestwick and TW Oates
+Test debuts: LEG Ames, EW Clark (England).
+
+Close of play:
+ Day 1: England 166/4 (Sutcliffe 84*, Leyland 0*)
+ Day 2: England 258, South Africa 283/5 (Cameron 31*, Morkel 9*)
+
+England 1st innings                                             R   M   B  4 6
+JB Hobbs              c Quinn            b McMillan            10            0
+H Sutcliffe           c Owen-Smith       b Vincent            104            0
+WR Hammond            st Cameron         b Vincent             17            0
+FE Woolley            hit wicket         b Vincent             46            1
+RES Wyatt             c Deane            b Vincent              6            0
+M Leyland                                b Vincent             16            0
+*AW Carr              c Morkel           b McMillan            15            0
++LEG Ames             c Mitchell         b McMillan             0          0 0
+G Geary               not out                                  12            0
+AP Freeman            c Cameron          b Quinn               15            0
+EW Clark                                 b Quinn                7            0
+Extras                (b 9, nb 1)                              10
+Total                 (all out, 101.3 overs)                  258
+
+FoW: 1-38 (Hobbs), 2-69 (Hammond), 3-140 (Woolley),
+     4-166 (Wyatt), 5-194 (Leyland), 6-217 (Sutcliffe),
+     7-221 (Ames), 8-222 (Carr), 9-239 (Freeman), 10-258 (Clark).
+
+Bowling                      O      M      R      W
+Morkel                       9      2     20      0
+Quinn                       15.3    4     30      2
+Vincent                     45     10    105      5
+McMillan                    28      7     78      3
+Owen-Smith                   4      0     15      0
+
+South Africa 1st innings                                        R   M   B  4 6
+RH Catterall          c Carr             b Clark                0       6  0 0
+IJ Siedle                                b Geary               14            0
+B Mitchell                               b Geary                2          0 0
+HW Taylor             c Ames             b Clark              121            0
+*HG Deane             c Woolley          b Wyatt               93            0
++HB Cameron           c Freeman          b Geary               62            0
+DPB Morkel            c Ames             b Clark               81            0
+HGO Owen-Smith                           b Woolley             26            0
+Q McMillan            not out                                  50            0
+CL Vincent            not out                                  24            0
+Extras                (b 4, lb 12, w 2, nb 1)                  19
+Total                 (8 wickets dec, 172 overs)              492
+
+DNB: NA Quinn.
+
+FoW: 1-0 (Catterall), 2-9 (Mitchell), 3-20 (Siedle),
+     4-234 (Deane), 5-246 (Taylor), 6-326 (Cameron),
+     7-397 (Owen-Smith), 8-439 (Morkel).
+
+Bowling                      O      M      R      W
+Clark                       36      8     79      3
+Geary                       49     15    121      3
+Freeman                     49      9    169      0
+Woolley                     13      4     25      1
+Leyland                      9      4     25      0
+Wyatt                       16      4     54      1
+
+England 2nd innings                                             R   M   B  4 6
+JB Hobbs              c Mitchell         b Vincent             52            0
+H Sutcliffe           not out                                 109            0
+WR Hammond            not out                                 101            0
+Extras                (b 1, lb 1)                               2
+Total                 (1 wicket, 80 overs)                    264
+
+DNB: FE Woolley, RES Wyatt, M Leyland, *AW Carr, +LEG Ames,
+     G Geary, AP Freeman, EW Clark.
+
+FoW: 1-77 (Hobbs).
+
+Bowling                      O      M      R      W
+Morkel                      16      6     43      0
+Quinn                       24      3     61      0
+Vincent                     15      3     42      1
+McMillan                    10      1     39      0
+Owen-Smith                   8      0     42      0
+Mitchell                     4      0     17      0
+Catterall                    3      0     18      0
+
+<END>

@@ -1,0 +1,103 @@
+
+Test # 1100
+The Wisden Trophy, 1988, 3rd Test
+England v West Indies
+Old Trafford, Manchester
+30 June, 1,2,4,5 July 1988 (5-day match)
+
+Result: West Indies won by an innings and 156 runs
+Series: West Indies leads the 5-match series 2-0
+
+Toss: England
+Umpires: DJ Constant and NT Plews
+Test debut: JH Childs (England).
+Player of the match: MD Marshall
+
+Close of play:
+ Day 1: England 135, West Indies 4/0 (Greenidge 4*, Richardson 0*)
+ Day 2: West Indies 242/5 (Dujon 35*, Harper 23*)
+ Day 3: West Indies 357/6 (Harper 61*, Marshall 37*)
+ Day 4: West Indies 384/7d, England 60/3 (Gower 24*, Lamb 6*)
+
+England 1st innings                                             R   M   B  4 6
+GA Gooch              c Dujon            b Benjamin            27 109  81  3 0
+MD Moxon                                 b Marshall             0  35  22  0 0
+MW Gatting            lbw                b Marshall             0   6   4  0 0
+DI Gower              c Harper           b Walsh                9  29  20  2 0
+AJ Lamb               c Greenidge        b Ambrose             33 113  82  2 0
+DJ Capel                                 b Benjamin             1  32  18  0 0
++PR Downton           c Greenidge        b Walsh               24  87  63  2 0
+*JE Emburey           c Dujon            b Walsh                1  18  17  0 0
+PAJ DeFreitas         c Greenidge        b Ambrose             15  31  28  1 0
+GR Dilley             c Harper           b Walsh               14  29  21  3 0
+JH Childs             not out                                   2  19  12  0 0
+Extras                (lb 4, nb 5)                              9
+Total                 (all out, 60.2 overs)                   135
+
+FoW: 1-12 (Moxon), 2-14 (Gatting), 3-33 (Gower), 4-55 (Gooch),
+     5-61 (Capel), 6-94 (Lamb), 7-98 (Emburey), 8-113 (Downton),
+     9-123 (DeFreitas), 10-135 (Dilley).
+
+Bowling                      O      M      R      W
+Marshall                    12      5     19      2
+Ambrose                     17      5     35      2
+Walsh                       18.2    4     46      4
+Benjamin                    13      4     31      2
+
+West Indies 1st innings                                         R   M   B  4 6
+CG Greenidge          lbw                b DeFreitas           45 155 129  6 0
+RB Richardson                            b Dilley              23  35  27  3 0
+CL Hooper             lbw                b Childs              15  82  47  0 0
+*IVA Richards                            b Capel               47 104  71  5 1
+AL Logie              lbw                b Dilley              39  83  59  4 0
++PJL Dujon            c Capel            b Dilley              67 180 159  4 0
+RA Harper                                b Dilley              74 307 244  3 0
+MD Marshall           not out                                  43 159 102  5 0
+CEL Ambrose           not out                                   7  17   8  1 0
+Extras                (lb 21, nb 3)                            24
+Total                 (7 wickets dec, 140.1 overs)            384
+
+DNB: WKM Benjamin, CA Walsh.
+
+FoW: 1-35 (Richardson), 2-77 (Hooper), 3-101 (Greenidge),
+     4-175 (Richards), 5-187 (Logie), 6-281 (Dujon),
+     7-373 (Harper).
+
+Bowling                      O      M      R      W
+Dilley                      28.1    4     99      4
+Emburey                     25      7     54      0
+DeFreitas                   35      5     81      1
+Capel                       12      2     38      1
+Childs                      40     12     91      1
+
+England 2nd innings                                             R   M   B  4 6
+GA Gooch              lbw                b Marshall             1  11   9  0 0
+MD Moxon              c Richards         b Benjamin            15  82  59  0 0
+MW Gatting            c Richardson       b Marshall             4  23  25  0 0
+DI Gower              c Richardson       b Marshall            34 101  60  3 0
+AJ Lamb               c Logie            b Ambrose              9  72  53  1 0
+DJ Capel              c sub (KLT Arthurton) b Marshall          0   9   7  0 0
++PR Downton           c Harper           b Marshall             6  16  13  0 0
+*JE Emburey           c Logie            b Ambrose              8  28  17  1 0
+PAJ DeFreitas         c Harper           b Marshall             0   1   2  0 0
+GR Dilley                                b Marshall             4  16  13  0 0
+JH Childs             not out                                   0   1   0  0 0
+Extras                (b 1, lb 10, nb 1)                       12
+Total                 (all out, 42.4 overs)                    93
+
+FoW: 1-6 (Gooch), 2-22 (Gatting), 3-36 (Moxon), 4-73 (Gower),
+     5-73 (Capel), 6-73 (Lamb), 7-87 (Downton), 8-87 (DeFreitas),
+     9-93 (Emburey), 10-93 (Dilley).
+
+Bowling                      O      M      R      W
+Marshall                    15.4    5     22      7
+Ambrose                     16      4     36      2
+Walsh                        4      1     10      0
+Benjamin                     4      1      6      1
+Harper                       2      1      4      0
+Hooper                       1      0      4      0
+
+*** Attendance: 45,854.
+*** sub # KLT Arthurton
+
+<END>

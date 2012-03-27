@@ -1,0 +1,117 @@
+
+Test # 3
+England in Australia, 1878/79, Only Test
+Australia v England
+Melbourne Cricket Ground
+2,3,4 January 1879 (timeless match)
+
+Result: Australia won by 10 wickets
+Series: Australia wins the one-off match
+
+Toss: England
+Umpires: P Coady and G Coulthard
+Balls per over: 4
+Test debuts: FE Allan, AC Bannerman, HF Boyle (Australia); CA Absolom,
+ Lord Harris, L Hone, AN Hornby, AP Lucas, FA MacKinnon, VPFA Royle,
+ SS Schultz, AJ Webbe (England).
+
+Close of play:
+ Day 1: England 113, Australia 95/3 (AC Bannerman 23*, Spofforth 35*)
+ Day 2: Australia 256, England 103/6 (MacKinnon 5*)
+
+England 1st innings                                             R   M   B  4 6
+G Ulyett                                 b Spofforth            0   1   2  0 0
+AP Lucas                                 b Allan                6            0
+AJ Webbe                                 b Allan                4            0
+AN Hornby                                b Spofforth            2          0 0
+*Lord Harris                             b Garrett             33          3 0
+VPFA Royle                               b Spofforth            3          0 0
+FA MacKinnon                             b Spofforth            0   1   1  0 0
+T Emmett              c Horan            b Spofforth            0   1   1  0 0
+CA Absolom            c AC Bannerman     b Boyle               52          5 0
++L Hone               c Blackham         b Spofforth            7            0
+SS Schultz            not out                                   0          0 0
+Extras                (b 4, lb 2)                               6
+Total                 (all out, 54 overs)                     113
+
+FoW: 1-0 (Ulyett), 2-7 (Webbe), 3-10 (Lucas), 4-14 (Hornby),
+     5-26 (Royle), 6-26 (MacKinnon), 7-26 (Emmett),
+     8-89 (Harris), 9-113 (Absolom), 10-113 (Hone).
+
+Bowling                      O      M      R      W
+Spofforth                   25      9     48      6
+Allan                       17      4     30      2
+Garrett                      5      0     18      1
+Boyle                        7      1     11      1
+
+Australia 1st innings                                           R   M   B  4 6
+C Bannerman                              b Emmett              15            0
+WL Murdoch            c Webbe            b Ulyett               4            0
+TP Horan              c Hone             b Emmett              10            0
+AC Bannerman                             b Schultz             73 235      7 0
+FR Spofforth          c Royle            b Emmett              39            0
+TW Garrett            c Hone             b Emmett              26            0
+FE Allan                                 b Hornby               5            0
+HF Boyle              c Royle            b Emmett              28          5 0
++JM Blackham                             b Emmett               6            0
+TJD Kelly             c Webbe            b Emmett              10            0
+*DW Gregory           not out                                  12            0
+Extras                (b 19, lb 2, w 7)                        28
+Total                 (all out, 159.3 overs)                  256
+
+FoW: 1-16 (Murdoch), 2-30 (C Bannerman), 3-37 (Horan),
+     4-101 (Spofforth), 5-131 (Garrett), 6-158 (Allan),
+     7-215 (Boyle), 8-224 (Blackham), 9-234 (Kelly),
+     10-256 (AC Bannerman).
+
+Bowling                      O      M      R      W
+Emmett                      59     31     68      7
+Ulyett                      62     24     93      1
+Lucas                       18      6     31      0
+Schultz                      6.3    3     16      1
+Hornby                       7      7      0      1
+Royle                        4      1      6      0
+Harris                       3      0     14      0
+
+England 2nd innings                                             R   M   B  4 6
+G Ulyett                                 b Spofforth           14            0
+AP Lucas              c Boyle            b Allan               13            0
+AJ Webbe              lbw                b Allan                0          0 0
+AN Hornby                                b Spofforth            4            0
+*Lord Harris          c Horan            b Spofforth           36          4 0
+VPFA Royle            c Spofforth        b Boyle               18            0
+FA MacKinnon                             b Spofforth            5            0
+CA Absolom                           c & b Spofforth            6            0
+T Emmett              not out                                  24            0
++L Hone                                  b Spofforth            6            0
+SS Schultz                           c & b Spofforth           20            0
+Extras                (b 10, lb 4)                             14
+Total                 (all out, 83 overs)                     160
+
+FoW: 1-26 (Lucas), 2-28 (Ulyett), 3-28 (Webbe), 4-34 (Hornby),
+     5-78 (Royle), 6-103 (Harris), 7-103 (MacKinnon),
+     8-118 (Absolom), 9-128 (Hone), 10-160 (Schultz).
+
+Bowling                      O      M      R      W
+Spofforth                   35     16     62      7
+Allan                       28     11     50      2
+Garrett                     10      6     18      0
+Boyle                       10      4     16      1
+
+Australia 2nd innings (target: 18 runs)                         R   M   B  4 6
+C Bannerman           not out                                  15  10        0
+WL Murdoch            not out                                   4  10        0
+Extras                                                          0
+Total                 (0 wickets, 2.3 overs)                   19
+
+DNB: TP Horan, AC Bannerman, FR Spofforth, TW Garrett, FE Allan,
+     HF Boyle, +JM Blackham, TJD Kelly, *DW Gregory.
+
+Bowling                      O      M      R      W
+Ulyett                       1      0      9      0
+Schultz                      1.3    0     10      0
+
+*** FR Spofforth achieved the first Test match hat-trick when he dismissed
+    Royle, Mackinnon and Emmett in the first innings.
+
+<END>

@@ -1,0 +1,43 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+403, 1955-03-26, 2, 7, Australia, lbw, Lindwall, 44, 153, na, na, 0
+403, 1955-03-26, 3, 3, Australia, c Harvey, Miller, 104, 220, na, 14, 0
+404, 1955-04-11, 1, 5, Australia, , Benaud, 0, na, 2, 0, 0
+404, 1955-04-11, 3, 5, Australia, c Langley, Archer, 0, na, 2, 0, 0
+406, 1955-05-14, 2, 6, Australia, c Langley, Miller, 2, na, na, 0, 0
+406, 1955-05-14, 4, 6, Australia, , Lindwall, 11, na, na, na, 0
+408, 1955-06-11, 1, 6, Australia, c Langley, Miller, 29, na, na, 5, 1
+408, 1955-06-11, 3, 6, Australia,                c &, Benaud, 16, na, na, na, 0
+421, 1956-02-03, 2, 5, New Zealand, , Blair, 64, 112, na, 9, 1
+422, 1956-02-18, 1, 5, New Zealand, c Reid, MacGibbon, 11, na, na, na, 1
+423, 1956-03-03, 1, 5, New Zealand, lbw, MacGibbon, 1, na, na, 0, 0
+424, 1956-03-09, 2, 5, New Zealand, , Beard, 2, na, na, 0, 0
+424, 1956-03-09, 4, 5, New Zealand, , Cave, 0, 2, 2, 0, 0
+439, 1957-05-30, 2, 6, England, lbw, Laker, 161, 341, na, 19, 1
+439, 1957-05-30, 4, 7, England, lbw, Laker, 5, 64, na, 0, 0
+440, 1957-06-20, 1, 7, England, c Graveney, Bailey, 25, 70, na, 2, 0
+440, 1957-06-20, 3, 2, England, lbw, Statham, 5, 46, na, 0, 0
+441, 1957-07-04, 2, 6, England, c Evans, Trueman, 2, 9, na, 0, 0
+441, 1957-07-04, 3, 6, England, , Trueman, 168, 416, na, 10, 3
+442, 1957-07-25, 1, 6, England, , Trueman, 15, 45, na, 3, 0
+442, 1957-07-25, 3, 6, England, c Evans, Smith, 8, 13, na, 2, 0
+443, 1957-08-22, 2, 6, England, c May, Laker, 7, 10, na, 1, 0
+443, 1957-08-22, 3, 7, England, c Sheppard, Lock, 0, 1, na, 0, 0
+446, 1958-01-17, 1, 6, Pakistan, c Mathias, Alimuddin, 78, na, na, na, 1
+448, 1958-02-05, 1, 6, Pakistan, c Kardar, Mahmood Hussain, 41, na, na, na, 0
+448, 1958-02-05, 3, 7, Pakistan, c Waqar Hasan, Fazal Mahmood, 51, na, na, na, 0
+452, 1958-03-13, 2, 5, Pakistan, c sub, Haseeb Ahsan, 27, na, na, na, 0
+453, 1958-03-26, 1, 6, Pakistan, lbw, Fazal Mahmood, 86, na, na, na, 1
+453, 1958-03-26, 3, 6, Pakistan, st Imtiaz Ahmed, Nasim-ul-Ghani, 0, na, na, 0, 0
+459, 1958-11-28, 1, 5, India, c Ramchand, Nadkarni, 63, 213, na, 6, 1
+459, 1958-11-28, 3, 5, India, c Roy, Gupte, 58, 139, na, 6, 0
+461, 1958-12-12, 1, 5, India,                c &, Gupte, 20, na, na, na, 0
+461, 1958-12-12, 3, 5, India, run out, , 7, na, na, na, 0
+463, 1959-12-31, 1, 4, India, , Umrigar, 34, na, na, na, 0
+465, 1959-01-21, 1, 5, India, , Mankad, 0, 2, na, 0, 0
+465, 1959-01-21, 3, 5, India, c Joshi, Gupte, 5, na, na, na, na
+467, 1959-02-06, 2, 5, India, c Tamhane, Desai, 100, na, na, na, 2
+469, 1959-02-20, 1, 5, Pakistan, st Imtiaz Ahmed, Nasim-ul-Ghani, 0, na, na, 0, 0
+469, 1959-02-20, 3, 5, Pakistan, lbw, Mahmood Hussain, 11, na, na, na, 0
+471, 1959-03-06, 2, 6, Pakistan, c Nasim-ul-Ghani, Fazal Mahmood, 0, na, na, 0, 0
+471, 1959-03-06, 4, 6, Pakistan, , Fazal Mahmood, 39, na, na, 2, 0
+473, 1959-03-26, 1, 5, Pakistan, c Waqar Hasan, Saeed Ahmed, 31, 100, na, na, 0

@@ -1,0 +1,116 @@
+
+Test # 930
+India in England, 1982, 3rd Test
+England v India
+Kennington Oval, London
+8,9,10,12,13 July 1982 (5-day match)
+
+Result: Match drawn
+Series: England wins the 3-match series 1-0
+
+Toss: England
+Umpires: HD Bird and AGT Whitehead
+Player of the match: IT Botham
+Player of the series: N Kapil Dev
+
+Close of play:
+ Day 1: England 329/3 (Lamb 96*, Botham 82*)
+ Day 2: England 594
+ Day 3: India 284/5 (Kirmani 12*, Kapil Dev 28*)
+ Day 4: India 410, England 30/1 (Tavare 5*, Lamb 16*)
+
+England 1st innings                                             R   M   B  4 6
+G Cook                c Shastri          b Patil               50 146  98  4 0
+CJ Tavare                                b Kapil Dev           39 151 123  4 0
+AJ Lamb               run out                                 107 260 202  8 1
+DI Gower              c Kirmani          b Shastri             47 108  90  3 0
+IT Botham             c Viswanath        b Doshi              208 276 226 19 4
+DW Randall            st Kirmani         b Shastri             95 247 212  5 0
+DR Pringle            st Kirmani         b Doshi                9  32  26  2 0
+PH Edmonds            c sub              b Doshi               14  34  25  1 0
++RW Taylor            lbw                b Shastri              3  22  31  0 0
+PJW Allott            c Yashpal Sharma   b Doshi                3  10  12  0 0
+*RGD Willis           not out                                   1   9   8  0 0
+Extras                (b 3, lb 5, nb 10)                       18
+Total                 (all out, 173.3 overs)                  594
+
+FoW: 1-96 (Cook), 2-96 (Tavare), 3-185 (Gower), 4-361 (Lamb),
+     5-512 (Botham), 6-534 (Pringle), 7-562 (Edmonds),
+     8-569 (Taylor), 9-582 (Allott), 10-594 (Randall).
+
+Bowling                      O      M      R      W
+Kapil Dev                   25      4    109      1
+Madan Lal                   26      8     69      0
+Nayak                       21      5     66      0
+Patil                       14      1     48      1
+Doshi                       46      6    175      4
+Shastri                     41.3    8    109      3
+
+India 1st innings                                               R   M   B  4 6
+RJ Shastri            c Botham           b Willis              66 197 175  4 0
+DB Vengsarkar         c Edmonds          b Botham               6  35  24  0 0
+GR Viswanath          lbw                b Willis              56 154 119  3 0
+Yashpal Sharma        c Gower            b Willis              38 149 118  3 0
+SM Patil              c sub              b Botham              62 122 102  9 0
++SMH Kirmani                             b Allott              43 158 113  5 0
+N Kapil Dev           c Allott           b Edmonds             97 105  93 14 2
+S Madan Lal           c Taylor           b Edmonds              5  22  18  0 0
+SV Nayak                                 b Edmonds             11  26  18  2 0
+DR Doshi              not out                                   5  18  13  0 0
+*SM Gavaskar          absent hurt                               -
+Extras                (b 3, lb 5, nb 13)                       21
+Total                 (all out, 129.2 overs)                  410
+
+FoW: 1-21 (Vengsarkar), 2-134 (Viswanath), 3-135 (Shastri),
+     4-232 (Patil), 5-248 (Yashpal Sharma), 6-378 (Kapil Dev),
+     7-394 (Madan Lal), 8-396 (Kirmani), 9-410 (Nayak).
+
+Bowling                      O      M      R      W
+Willis                      23      4     78      3
+Botham                      19      2     73      2
+Allott                      24      4     69      1
+Pringle                     28      5     80      0
+Edmonds                     35.2   11     89      3
+
+England 2nd innings                                             R   M   B  4 6
+G Cook                c Yashpal Sharma   b Kapil Dev            8  26  19  1 0
+CJ Tavare             not out                                  75 257 208  6 0
+AJ Lamb                                  b Doshi               45 119  93  5 0
+DI Gower                             c & b Nayak               45 107 107  4 0
+Extras                (b 6, lb 8, nb 4)                        18
+Total                 (3 wickets dec, 70.3 overs)             191
+
+DNB: IT Botham, DW Randall, DR Pringle, PH Edmonds, +RW Taylor,
+     PJW Allott, *RGD Willis.
+
+FoW: 1-12 (Cook), 2-94 (Lamb), 3-191 (Gower).
+
+Bowling                      O      M      R      W
+Kapil Dev                   19      3     53      1
+Madan Lal                   11      6     17      0
+Nayak                        5.3    0     16      1
+Doshi                       19      5     47      1
+Shastri                     16      3     40      0
+
+India 2nd innings (target: 376 runs)                            R   M   B  4 6
+RJ Shastri            c Taylor           b Willis               0   1   3  0 0
+SV Nayak              c Taylor           b Pringle              6  17  12  1 0
+DB Vengsarkar         c Taylor           b Pringle             16  38  29  1 0
+GR Viswanath          not out                                  75 108 116  9 0
+Yashpal Sharma        not out                                   9  84  59  0 0
+Extras                (lb 3, nb 2)                              5
+Total                 (3 wickets, 36 overs)                   111
+
+DNB: SM Patil, +SMH Kirmani, N Kapil Dev, S Madan Lal, DR Doshi,
+     *SM Gavaskar.
+
+FoW: 1-0 (Shastri), 2-18 (Nayak), 3-43 (Vengsarkar).
+
+Bowling                      O      M      R      W
+Willis                       4      0     16      1
+Botham                       4      0     12      0
+Allott                       4      1     12      0
+Pringle                     11      5     32      2
+Edmonds                     13      5     34      0
+
+<END>

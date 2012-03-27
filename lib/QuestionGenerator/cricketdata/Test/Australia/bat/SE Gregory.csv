@@ -1,0 +1,101 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+33, 1890-07-21, 1, 6, England, , Attewell, 0, na, na, 0, 0
+33, 1890-07-21, 3, 6, England, c Lohmann, Barnes, 9, na, na, na, 0
+34, 1890-08-11, 1, 10, England, , Lohmann, 2, na, na, 0, 0
+34, 1890-08-11, 3, 11, England, not out, , 4, na, na, na, 0
+38, 1892-03-24, 2, 6, England, c Abel, Briggs, 3, na, na, 0, 0
+38, 1892-03-24, 3, 6, England, c Peel, Briggs, 7, na, na, 1, 0
+39, 1893-07-17, 2, 6, England, c MacGregor, Lockwood, 57, na, na, na, 0
+40, 1893-08-14, 2, 4, England, lbw, Briggs, 9, na, na, na, 0
+40, 1893-08-14, 3, 5, England, c Shrewsbury, Briggs, 6, na, na, na, 0
+41, 1893-08-24, 1, 7, England, , Briggs, 0, na, na, 0, 0
+41, 1893-08-24, 3, 8, England, lbw, Richardson, 3, na, na, 0, 0
+42, 1894-12-14, 1, 6, England, c Peel, Stoddart, 201, 243, na, 28, 0
+42, 1894-12-14, 4, 5, England, c Gay, Peel, 16, 32, na, 2, 0
+43, 1895-12-29, 2, 4, England, c Ward, Richardson, 2, 2, na, 0, 0
+43, 1895-12-29, 4, 4, England, , Richardson, 12, 30, na, na, 0
+44, 1895-01-11, 1, 6, England, c Brown, Richardson, 6, 20, na, 0, 0
+44, 1895-01-11, 3, 6, England, , Richardson, 20, 55, na, na, 0
+45, 1895-02-01, 1, 6, England, st Philipson, Briggs, 5, 30, na, 0, 0
+46, 1895-03-01, 1, 5, England, c Philipson, Richardson, 70, 135, na, 8, 0
+46, 1895-03-01, 3, 5, England, , Richardson, 30, 75, na, na, 0
+50, 1896-06-22, 1, 5, England, , Richardson, 14, na, na, na, 0
+50, 1896-06-22, 3, 5, England, c Lohmann, Hearne, 103, 160, na, 17, 0
+51, 1896-07-16, 1, 5, England, c Stoddart, Briggs, 25, na, na, na, 0
+51, 1896-07-16, 4, 5, England, c Ranjitsinhji, Briggs, 33, na, na, na, 0
+52, 1896-08-10, 2, 5, England, , Hearne, 1, na, na, 0, 0
+52, 1896-08-10, 4, 5, England, c Richardson, Peel, 6, na, na, na, 0
+53, 1897-12-13, 2, 5, England, c Mason, Hearne, 46, 91, na, na, 0
+53, 1897-12-13, 3, 5, England, run out, , 31, 58, na, na, 0
+54, 1898-01-01, 1, 4, England, , Briggs, 71, 136, na, 3, 0
+55, 1898-01-14, 1, 4, England, c Storer, Hirst, 52, 145, na, 5, 0
+56, 1898-01-29, 1, 4, England, , Richardson, 0, 1, 1, 0, 0
+56, 1898-01-29, 4, 4, England, not out, , 21, 53, na, 2, 0
+57, 1898-02-26, 2, 5, England, c Storer, Richardson, 21, 22, na, na, 0
+57, 1898-02-26, 4, 5, England, not out, , 22, 45, na, na, 0
+60, 1899-06-01, 1, 4, England, , Hirst, 48, na, na, na, 0
+61, 1899-06-15, 2, 4, England, c Lilley, Jessop, 15, na, na, na, 0
+62, 1899-06-29, 1, 4, England, c Lilley, Hearne, 0, na, na, 0, 0
+62, 1899-06-29, 3, 4, England, c MacLaren, Hearne, 0, 1, 1, 0, 0
+63, 1899-07-17, 2, 6, England, lbw, Young, 5, na, na, na, 0
+63, 1899-07-17, 3, 5, England, c Ranjitsinhji, Hearne, 1, na, na, 0, 0
+64, 1899-08-14, 2, 6, England, c Jones, Lockwood, 117, 195, na, 15, 0
+64, 1899-08-14, 3, 5, England, , Rhodes, 2, na, na, 0, 0
+65, 1901-12-13, 2, 1, England, c Braund, Blythe, 48, 76, na, 6, 0
+65, 1901-12-13, 3, 5, England, c MacLaren, Braund, 43, 85, na, 4, 0
+66, 1902-01-01, 1, 6, England, st Lilley, Blythe, 0, 4, na, 0, 0
+66, 1902-01-01, 3, 6, England, c Jones, Barnes, 17, 53, na, na, na
+67, 1902-01-17, 2, 5, England, c Blythe, Braund, 55, 95, na, 10, 0
+67, 1902-01-17, 4, 4, England, c Braund, Gunn, 23, 38, na, 3, 0
+68, 1902-02-14, 2, 4, England, c Braund, Jessop, 5, 10, na, na, 0
+68, 1902-02-14, 4, 5, England, not out, , 12, 20, na, na, 0
+69, 1902-02-28, 1, 4, England, c Jones, Gunn, 25, 35, na, na, 0
+69, 1902-02-28, 3, 4, England, , Gunn, 41, 71, na, 3, 0
+70, 1902-05-29, 2, 4, England, lbw, Hirst, 0, na, na, 0, 0
+70, 1902-05-29, 3, 4, England, not out, , 1, na, na, 0, 0
+72, 1902-07-03, 1, 5, England, c Abel, Barnes, 11, na, na, na, 0
+72, 1902-07-03, 3, 5, England, run out, , 29, 67, na, na, 0
+73, 1902-07-24, 1, 5, England, c Lilley, Rhodes, 3, na, na, 0, 0
+73, 1902-07-24, 3, 5, England, lbw, Tate, 24, na, na, na, 0
+74, 1902-08-11, 1, 6, England, , Hirst, 23, na, na, na, 0
+74, 1902-08-11, 3, 6, England, , Braund, 9, na, na, na, 0
+75, 1902-10-11, 2, 7, South Africa, lbw, Llewellyn, 0, na, na, 0, 0
+75, 1902-10-11, 3, 7, South Africa, , Llewellyn, 4, na, na, na, 0
+76, 1902-10-18, 1, 7, South Africa, , Kotze, 1, na, na, 0, 0
+76, 1902-10-18, 3, 2, South Africa, c Llewellyn, Kotze, 13, na, na, na, 0
+77, 1902-11-08, 1, 7, South Africa, c Smith, Llewellyn, 11, na, na, na, 0
+78, 1903-12-11, 1, 8, England, , Bosanquet, 23, 50, na, 2, 0
+78, 1903-12-11, 3, 1, England, c Lilley, Rhodes, 43, 103, na, 5, 0
+79, 1904-01-01, 2, 5, England, c Hirst, Rhodes, 1, 12, na, 0, 0
+79, 1904-01-01, 4, 5, England, c Rhodes, Hirst, 0, 2, na, 0, 0
+80, 1904-01-15, 1, 5, England, c Tyldesley, Arnold, 8, 20, na, 1, 0
+80, 1904-01-15, 3, 5, England, c Rhodes, Braund, 112, 122, na, 17, 0
+81, 1904-02-26, 2, 9, England, c Foster, Rhodes, 2, 3, na, 0, 0
+81, 1904-02-26, 4, 6, England, lbw, Bosanquet, 0, 4, na, 0, 0
+83, 1905-05-29, 2, 8, England, c Jones, Jackson, 2, na, na, 0, 0
+83, 1905-05-29, 4, 6, England, c Arnold, Bosanquet, 51, 60, na, 8, 0
+84, 1905-06-15, 2, 7, England, c Jones, Rhodes, 5, na, na, na, 0
+85, 1905-07-03, 2, 8, England, run out, , 4, na, na, na, 0
+85, 1905-07-03, 4, 8, England, not out, , 32, na, na, na, 0
+99, 1908-02-07, 1, 5, England, c Fielder, Crawford, 10, 25, na, 1, 0
+99, 1908-02-07, 3, 5, England, lbw, Fielder, 29, 60, na, 3, 0
+100, 1908-02-21, 1, 4, England,                c &, Barnes, 44, 101, na, 5, 0
+100, 1908-02-21, 3, 4, England, , Crawford, 56, 85, na, 3, 0
+101, 1909-05-27, 1, 6, England, c Rhodes, Blythe, 0, na, na, 0, 0
+101, 1909-05-27, 3, 3, England, c Thompson, Blythe, 43, na, na, na, 0
+102, 1909-06-14, 2, 8, England, c Lilley, Relf, 14, na, na, na, 0
+102, 1909-06-14, 4, 3, England, not out, , 18, na, na, na, 0
+103, 1909-07-01, 1, 2, England, , Barnes, 46, na, na, na, 0
+103, 1909-07-01, 3, 2, England, , Hirst, 0, na, na, 0, 0
+104, 1909-07-26, 1, 1, England, , Blythe, 21, na, na, na, 0
+104, 1909-07-26, 3, 1, England, , Hirst, 5, na, na, na, 0
+105, 1909-08-09, 1, 1, England, , Carr, 1, na, na, 0, 0
+105, 1909-08-09, 3, 1, England, run out, , 74, 135, na, na, 0
+120, 1912-02-23, 2, 2, England, c Gunn, Douglas, 32, 85, 89, 1, 0
+120, 1912-02-23, 4, 2, England, c Smith, Barnes, 40, 76, 85, 4, 0
+121, 1912-05-27, 1, 5, South Africa, st Ward, Pegler, 37, na, na, na, 0
+123, 1912-06-24, 2, 5, England, c Foster, Dean, 10, na, na, na, 0
+125, 1912-07-15, 2, 5, South Africa, , Llewellyn, 5, na, na, na, 0
+127, 1912-08-05, 2, 5, South Africa, , Pegler, 18, na, na, na, 0
+129, 1912-08-19, 2, 1, England, c Rhodes, Barnes, 1, na, na, 0, 0
+129, 1912-08-19, 4, 5, England, c Douglas, Dean, 1, na, na, 0, 0

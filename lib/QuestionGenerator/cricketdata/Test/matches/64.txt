@@ -1,0 +1,102 @@
+
+Test # 64
+The Ashes, 1899, 5th Test
+England v Australia
+Kennington Oval, London
+14,15,16 August 1899 (3-day match)
+
+Result: Match drawn
+Series: Australia wins the 5-match series 1-0
+
+Toss: England
+Umpires: W Richards and A White
+Balls per over: 5
+Test debut: AO Jones (England).
+
+Close of play:
+ Day 1: England 435/4 (Fry 60*, Townsend 3*)
+ Day 2: England 576, Australia 220/5 (Gregory 37*)
+
+England 1st innings                                             R   M   B  4 6
+FS Jackson                               b Jones              118 173     18 0
+TW Hayward            c Iredale          b McLeod             137 270     20 0
+KS Ranjitsinhji       c Howell           b Jones               54  85        0
+CB Fry                c Worrall          b Jones               60            0
+*AC MacLaren          c Trumper          b Trumble             49            0
+CL Townsend                              b Jones               38            0
+WM Bradley            run out                                   0          0 0
+WH Lockwood                              b Trumble             24            0
+AO Jones                                 b Noble               31            0
++AFA Lilley           c Iredale          b Noble               37            0
+W Rhodes              not out                                   8            0
+Extras                (b 9, lb 6, w 4, nb 1)                   20
+Total                 (all out, 193.4 overs)                  576
+
+FoW: 1-185 (Jackson), 2-316 (Ranjitsinhji), 3-318 (Hayward),
+     4-428 (MacLaren), 5-436 (Fry), 6-436 (Bradley),
+     7-479 (Lockwood), 8-511 (Townsend), 9-551 (Jones),
+     10-576 (Lilley).
+
+Bowling                      O      M      R      W
+Jones                       53     12    164      4
+Noble                       35.4   12     96      2
+Trumble                     39     11    107      2
+McLeod                      48     15    131      1
+Howell                      15      3     43      0
+Worrall                      3      0     15      0
+
+Australia 1st innings                                           R   M   B  4 6
+J Worrall             c Hayward          b Lockwood            55            0
+H Trumble                            c & b Jones               24            0
+VT Trumper            c Lilley           b Jones                6            0
+MA Noble                                 b Lockwood             9            0
+*J Darling            c Fry              b Lockwood            71            0
+SE Gregory            c Jones            b Lockwood           117 195     15 0
+FA Iredale                               b Lockwood             9            0
++JJ Kelly             lbw                b Jones                4            0
+CE McLeod             not out                                  31            0
+E Jones                                  b Lockwood             0          0 0
+WP Howell                                b Lockwood             4            0
+Extras                (b 5, lb 10, w 1, nb 6)                  22
+Total                 (all out, 143.3 overs)                  352
+
+FoW: 1-38 (Trumble), 2-44 (Trumper), 3-85 (Noble),
+     4-120 (Worrall), 5-220 (Darling), 6-242 (Iredale),
+     7-257 (Kelly), 8-340 (Gregory), 9-340 (Jones),
+     10-352 (Howell).
+
+Bowling                      O      M      R      W
+Bradley                     29     12     52      0
+Rhodes                      25      2     79      0
+Lockwood                    40.3   17     71      7
+Jones                       30     12     73      3
+Townsend                     5      0     16      0
+Jackson                     14      7     39      0
+
+Australia 2nd innings (following on)                            R   M   B  4 6
+J Worrall             c Lilley           b Hayward             75         15 0
+CE McLeod                                b Rhodes              77            0
+MA Noble              not out                                  69            0
+VT Trumper                           c & b Rhodes               7            0
+SE Gregory                               b Rhodes               2          0 0
+*J Darling            run out                                   6            0
+H Trumble             not out                                   3          0 0
+Extras                (b 7, w 4, nb 4)                         15
+Total                 (5 wickets, 100 overs)                  254
+
+DNB: FA Iredale, +JJ Kelly, E Jones, WP Howell.
+
+FoW: 1-116 (Worrall), 2-208 (McLeod), 3-224 (Trumper),
+     4-228 (Gregory), 5-243 (Darling).
+
+Bowling                      O      M      R      W
+Bradley                     17      8     32      0
+Rhodes                      22      8     27      3
+Lockwood                    15      7     33      0
+Jones                       12      2     43      0
+Townsend                     8      4      9      0
+Jackson                     13      2     54      0
+Hayward                     11      3     38      1
+Fry                          2      1      3      0
+
+<END>

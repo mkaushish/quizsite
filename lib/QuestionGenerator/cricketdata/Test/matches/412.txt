@@ -1,0 +1,122 @@
+
+Test # 412
+South Africa in England, 1955, 5th Test
+England v South Africa
+Kennington Oval, London
+13,15,16,17 August 1955 (5-day match)
+
+Result: England won by 92 runs
+Series: England wins the 5-match series 3-2
+
+Toss: England
+Umpires: TJ Bartley and D Davies
+
+Close of play:
+ Day 1: England 70/3 (Compton 12*, Watson 1*)
+ Day 2: England 151, South Africa 112
+ Day 3: England 195/8 (May 81*, Lock 0*)
+
+England 1st innings                                             R   M   B  4 6
+JT Ikin               c Waite            b Heine               17 101      1 0
+DB Close              c Mansell          b Goddard             32 119      2 0
+*PBH May              c Goddard          b Fuller               3  25      0 0
+DCS Compton           c Waite            b Goddard             30 119      2 0
+W Watson              c Mansell          b Tayfield            25  95      3 0
+TW Graveney           c Fuller           b Goddard             13  52      1 0
+TE Bailey             c Heine            b Tayfield             0   5      0 0
++RT Spooner                              b Tayfield             0  10      0 0
+JC Laker                             c & b Goddard              2  14      0 0
+GAR Lock              c McLean           b Goddard             18  19      3 0
+JB Statham            not out                                   4  13      0 0
+Extras                (b 2, lb 5)                               7
+Total                 (all out, 89.4 overs)                   151
+
+FoW: 1-51 (Close), 2-59 (May), 3-69 (Ikin), 4-105 (Watson),
+     5-117 (Compton), 6-117 (Bailey), 7-118 (Spooner),
+     8-123 (Graveney), 9-130 (Laker), 10-151 (Lock, 89.4 ov).
+
+Bowling                      O      M      R      W
+Heine                       21      3     43      1
+Goddard                     22.4    9     31      5
+Fuller                      27     11     31      1
+Tayfield                    19      7     39      3
+
+South Africa 1st innings                                        R   M   B  4 6
+DJ McGlew             c Spooner          b Statham             30 154      1 0
+TL Goddard            lbw                b Bailey               8  39      0 0
+HJ Keith                                 b Lock                 5  16      0 0
+WR Endean             c Ikin             b Lock                 0  11      0 0
+RA McLean                                b Lock                 1   5      0 0
++JHB Waite            c Lock             b Laker               28  69      4 0
+*JE Cheetham          not out                                  12  55      1 0
+PNF Mansell           lbw                b Laker                6  16      0 0
+HJ Tayfield                              b Statham              4   7      0 0
+ERH Fuller            c Spooner          b Lock                 5   9      1 0
+PS Heine              run out (Lock)                            5  11      0 0
+Extras                (lb 7, nb 1)                              8
+Total                 (all out, 65 overs)                     112
+
+FoW: 1-22 (Goddard), 2-29 (Keith), 3-31 (Endean), 4-33 (McLean),
+     5-77 (Waite), 6-77 (McGlew), 7-86 (Mansell),
+     8-91 (Tayfield), 9-98 (Fuller), 10-112 (Heine, 65.0 ov).
+
+Bowling                      O      M      R      W
+Statham                     15      3     31      2
+Bailey                       5      1      6      1
+Lock                        22     11     39      4
+Laker                       23     13     28      2
+
+England 2nd innings                                             R   M   B  4 6
+JT Ikin               c Goddard          b Heine                0  14      0 0
+DB Close                                 b Goddard             15  71      1 0
+TW Graveney                              b Tayfield            42 144      3 0
+*PBH May              not out                                  89 299     10 0
+DCS Compton           c Waite            b Fuller              30 141      4 0
+W Watson                                 b Fuller               3  17      0 0
+TE Bailey             lbw                b Tayfield             1   3      0 0
++RT Spooner                              b Tayfield             0   1      0 0
+JC Laker                                 b Tayfield            12  20      1 0
+GAR Lock              lbw                b Heine                1   8      0 0
+JB Statham            lbw                b Tayfield             0   8      0 0
+Extras                (b 4, lb 6, nb 1)                        11
+Total                 (all out, 123.4 overs)                  204
+
+FoW: 1-5 (Ikin), 2-30 (Close), 3-95 (Graveney), 4-157 (Compton),
+     5-165 (Watson), 6-166 (Bailey), 7-170 (Spooner),
+     8-188 (Laker), 9-197 (Lock), 10-204 (Statham, 123.4 ov).
+
+Bowling                      O      M      R      W
+Heine                       25      6     44      2
+Fuller                      20      3     36      2
+Goddard                     19     10     29      1
+Tayfield                    53.4   29     60      5
+Mansell                      6      0     24      0
+
+South Africa 2nd innings (target: 244 runs)                     R   M   B  4 6
+DJ McGlew             lbw                b Lock                19 108      1 0
+TL Goddard            c Graveney         b Lock                20  56      2 0
+HJ Keith              c May              b Lock                 0   2      0 0
+WR Endean             lbw                b Laker                0   1      0 0
+RA McLean             lbw                b Laker                0   3      0 0
++JHB Waite                               b Laker               60 146      9 0
+*JE Cheetham          lbw                b Laker                9  23      1 0
+PNF Mansell           c Watson           b Lock                 9  77      0 0
+HJ Tayfield           not out                                  10  50      0 0
+ERH Fuller            run out                                  16  38      3 0
+PS Heine              c Graveney         b Laker                7   5      1 0
+Extras                (lb 1)                                    1
+Total                 (all out, 87.4 overs)                   151
+
+FoW: 1-28 (Goddard), 2-28 (Keith), 3-29 (Endean), 4-33 (McLean),
+     5-59 (McGlew), 6-88 (Cheetham), 7-118 (Mansell),
+     8-118 (Waite), 9-144 (Fuller), 10-151 (Heine, 87.4 ov).
+
+Bowling                      O      M      R      W
+Statham                     11      4     17      0
+Bailey                       6      1     15      0
+Laker                       37.4   18     56      5
+Lock                        33     14     62      4
+
+*** JT Ikin (1) retired hurt on 15* from 43/0 to 59/2
+
+<END>

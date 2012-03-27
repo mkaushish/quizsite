@@ -1,0 +1,164 @@
+
+Test # 1279
+The Ashes, 1994/95, 2nd Test
+Australia v England
+Melbourne Cricket Ground
+24,26,27,28,29 December 1994 (5-day match)
+
+Result: Australia won by 295 runs
+Series: Australia leads the 5-match series 2-0
+
+Toss: England
+Umpires: SA Bucknor (WI) and SG Randell
+TV umpire: WP Sheahan
+Match referee: JR Reid (NZ)
+Player of the match: CJ McDermott
+
+Close of play:
+ Day 1: Australia 220/7 (SR Waugh 61*, 89.5 ov)
+ Day 2: Australia 279, England 148/4 (Gooch 15*, Gough 1*, 68 ov)
+ Day 3: England 212, Australia 170/3 (Boon 64*, Bevan 3*, 69 ov)
+ Day 4: Australia 320/7d, England 79/4 (Gatting 23*, Rhodes 13*, 30 ov)
+
+Australia 1st innings                                           R   M   B  4 6
+MJ Slater             run out (DeFreitas/Gatting)               3  26  19  0 0
+*MA Taylor            lbw                b DeFreitas            9  73  41  1 0
+DC Boon               c Hick             b Tufnell             41 148 100  4 0
+ME Waugh              c Thorpe           b DeFreitas           71 221 155  3 0
+MG Bevan              c Atherton         b Gough                3  29  23  0 0
+SR Waugh              not out                                  94 265 191  5 0
++IA Healy             c Rhodes           b Tufnell             17  59  42  1 0
+SK Warne              c Hick             b Gough                6  27  25  0 0
+TBA May               lbw                b Gough                9  51  31  0 0
+CJ McDermott                             b Gough                0   2   3  0 0
+DW Fleming            c Hick             b Malcolm             16  33  19  2 0
+Extras                (lb 7, nb 3)                             10
+Total                 (all out, 107.3 overs, 471 mins)        279
+
+FoW: 1-10 (Slater), 2-39 (Taylor), 3-91 (Boon), 4-100 (Bevan),
+     5-171 (ME Waugh), 6-208 (Healy), 7-220 (Warne), 8-242 (May),
+     9-242 (McDermott), 10-279 (Fleming).
+
+Bowling                      O      M      R      W
+Malcolm                     28.3    4     78      1 (1nb)
+DeFreitas                   23      4     66      2 (1nb)
+Gough                       26      9     60      4
+Tufnell                     28      7     59      2 (1nb)
+Hick                         2      0      9      0
+
+England 1st innings                                             R   M   B  4 6
+*MA Atherton          lbw                b Warne               44 199 157  4 0
+AJ Stewart                           c & b Warne               16  51  26  3 0
+GA Hick               c Healy            b McDermott           23  44  33  3 0
+GP Thorpe             c ME Waugh         b Warne               51 149 116  5 0
+GA Gooch                             c & b McDermott           15  67  52  1 0
+MW Gatting            c SR Waugh         b Warne                9  23  24  0 0
+D Gough               c Healy            b McDermott           20  65  52  3 0
++SJ Rhodes            c ME Waugh         b Warne                0  13  11  0 0
+PAJ DeFreitas         st Healy           b Warne               14  24  19  2 0
+DE Malcolm            not out                                  11  26  13  2 0
+PCR Tufnell           run out (Taylor)                          0   6   4  0 0
+Extras                (lb 7, nb 2)                              9
+Total                 (all out, 83.4 overs, 339 mins)         212
+
+FoW: 1-40 (Hick), 2-119 (Atherton), 3-124 (Thorpe),
+     4-140 (Gatting), 5-148 (Gooch), 6-151 (Rhodes),
+     7-185 (Stewart), 8-189 (Gough), 9-207 (DeFreitas),
+     10-212 (Tufnell).
+
+Bowling                      O      M      R      W
+McDermott                   24      6     72      3 (2nb)
+Fleming                     11      5     30      0
+ME Waugh                     3      1     11      0
+Warne                       27.4    8     64      6
+May                         18      5     28      0
+
+Australia 2nd innings                                           R   M   B  4 6
+*MA Taylor            lbw                b Gough               19  81  64  1 0
+MJ Slater             st Rhodes          b Tufnell             44 121  74  5 0
+DC Boon               lbw                b DeFreitas          131 378 277 14 0
+ME Waugh                             c & b Gough               29 127  82  1 0
+MG Bevan              c sub (JP Crawley) b Tufnell             35 190 135  1 0
+SR Waugh              not out                                  26  92  73  0 0
++IA Healy             c Thorpe           b Tufnell             17  62  38  1 0
+SK Warne              c DeFreitas        b Gough                0   2   2  0 0
+CJ McDermott          not out                                   2   6   7  0 0
+Extras                (b 1, lb 9, w 1, nb 6)                   17
+Total                 (7 wickets dec, 124 overs, 533 mins)    320
+
+DNB: TBA May, DW Fleming.
+
+FoW: 1-61 (Taylor), 2-81 (Slater), 3-157 (ME Waugh),
+     4-269 (Bevan), 5-275 (Boon), 6-316 (Healy), 7-317 (Warne).
+
+Bowling                      O      M      R      W
+Malcolm                     22      3     86      0 (2nb, 1w)
+DeFreitas                   26      2     70      1 (2nb)
+Tufnell                     48      8     90      3 (2nb)
+Gough                       25      6     59      3
+Hick                         3      2      5      0
+
+England 2nd innings (target: 388 runs)                          R   M   B  4 6
+GA Gooch              c Healy            b Fleming              2   9   8  0 0
+*MA Atherton          c Healy            b McDermott           25  73  43  4 0
+GA Hick                                  b Fleming              2   9   6  0 0
+GP Thorpe             c Healy            b McDermott            9  22  20  1 0
+MW Gatting            c Taylor           b McDermott           25  86  72  2 0
++SJ Rhodes            c ME Waugh         b McDermott           16  94  72  0 0
+AJ Stewart            not out                                   8  54  29  0 0
+PAJ DeFreitas         lbw                b Warne                0   4   4  0 0
+D Gough               c Healy            b Warne                0   1   1  0 0
+DE Malcolm            c Boon             b Warne                0   1   1  0 0
+PCR Tufnell           c Healy            b McDermott            0   5   4  0 0
+Extras                (lb 2, nb 3)                              5
+Total                 (all out, 42.5 overs, 184 mins)          92
+
+FoW: 1-3 (Gooch), 2-10 (Hick), 3-23 (Thorpe), 4-43 (Atherton),
+     5-81 (Gatting), 6-88 (Rhodes), 7-91 (DeFreitas),
+     8-91 (Gough), 9-91 (Malcolm), 10-92 (Tufnell).
+
+Bowling                      O      M      R      W
+McDermott                   16.5    5     42      5 (3nb)
+Fleming                      9      1     24      2
+Warne                       13      6     16      3
+May                          4      1      8      0
+
+*** Hours of play: 11.00am - 1.00pm, 1.40pm - 3.40pm, 4.00pm - 6.00pm
+*** Scorers: MK Walsh and AE Davis
+*** 12th Men: GD McGrath (Aus) and SD Udal (Eng)
+
+*** Day 1
+*** ME Waugh had an all run four.
+*** Lunch: Australia 64/2 (Boon 34*, ME Waugh 12*)
+*** Tea: Australia 132/4 (ME Waugh 51*, SR Waugh 19*)
+*** New ball claimed after 86 overs at 214/6
+
+*** Day 2
+*** Fleming had an all run four.
+*** Lunch: England 100 (Atherton 8*, Stewart 1*)
+*** AJ Stewart (1) retired hurt on 1* from 10/0 to 151/6 (Broken finger,
+    struck on index finer from a delivery bowled by McDermott)
+*** Eng 200 (488b)
+*** Gooch was out off the first ball of Day 3 off a full toss.
+*** With Stewart's dismissal, Warne completed 150 wkts (@22.98).
+*** With Gough's dismissal, McDermott took his 249th wicket, passing Benaud
+    to become the 2nd alltime Aus wicket-taker.
+
+*** Aus 2nd innings
+*** Aus 50 (94b) 150 (344b)
+*** New ball taken at start of the 87th over.
+*** Boon 100 (301m 232b 10x4) Boon 131 (379m 277b 14x4) Boon's 20th century,
+    14th player to do so, 17th alltime rungetter past Barrington and
+    Vengsarkar.
+*** Boon has three all run fours.
+*** Bevan has an all run four.
+
+*** Eng 2nd innings
+*** Warne performed the hat-trick in his 13th over dismissing DeFreitas,
+    Gough, Malcolm off his 4th, 5th, 6th deliveries.
+*** Gatting was dismissed off the 2nd ball of Day 5.
+*** Atherton 1x4 all run.
+
+*** Attendance: 144,492
+
+<END>

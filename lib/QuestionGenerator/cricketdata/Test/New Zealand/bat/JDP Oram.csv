@@ -1,0 +1,60 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+1631, 2002-11-12, 2, 7, India, lbw, Harbhajan Singh, 0, 9, 5, 0, 0
+1633, 2002-11-19, 2, 7, India, c Tendulkar, Harbhajan Singh, 3, 13, 11, 0, 0
+1633, 2002-11-19, 4, 7, India, not out, , 26, 62, 40, 3, 0
+1641, 2003-03-25, 1, 6, Sri Lanka, c Lokuarachchi, Muralitharan, 33, 74, 56, 2, 0
+1641, 2003-03-25, 3, 5, Sri Lanka, c Kaluwitharana, Muralitharan, 19, 40, 33, 4, 0
+1644, 2003-04-03, 1, 6, Sri Lanka, c Kaluwitharana, Lokuarachchi, 74, 218, 179, 15, 0
+1644, 2003-04-03, 3, 6, Sri Lanka, lbw, Muralitharan, 16, 52, 48, 2, 0
+1660, 2003-09-08, 2, 7, India, c Dravid, Kumble, 5, 53, 50, 0, 0
+1660, 2003-09-08, 4, 7, India, c Dravid, Harbhajan Singh, 7, 35, 30, 1, 0
+1676, 2003-11-19, 1, 7, Pakistan, , Shabbir Ahmed, 6, 15, 16, 1, 0
+1676, 2003-11-19, 3, 7, Pakistan, not out, , 23, 81, 70, 2, 0
+1677, 2003-11-26, 1, 8, Pakistan, c Moin Khan, Shabbir Ahmed, 97, 197, 158, 12, 1
+1677, 2003-11-26, 3, 8, Pakistan, lbw, Shabbir Ahmed, 3, 20, 15, 0, 0
+1686, 2004-02-10, 2, 7, South Africa, not out, , 119, 301, 216, 19, 0
+1689, 2004-02-18, 2, 8, South Africa, , Ntini, 90, 201, 134, 9, 3
+1692, 2004-02-26, 1, 8, South Africa, st Boucher, Boje, 34, 64, 38, 3, 2
+1692, 2004-02-26, 3, 8, South Africa, lbw, Boje, 40, 101, 76, 4, 1
+1700, 2004-04-20, 1, 6, England, c GO Jones, Harmison, 67, 125, 82, 10, 0
+1700, 2004-04-20, 3, 6, England, run out (Hussain), , 4, 25, 19, 0, 0
+1702, 2004-05-03, 1, 6, England, c Thorpe, Flintoff, 39, 107, 74, 3, 1
+1702, 2004-05-03, 3, 7, England, not out, , 36, 56, 31, 3, 2
+1704, 2004-05-10, 1, 6, England, c Strauss, Saggers, 14, 62, 48, 1, 0
+1704, 2004-05-10, 3, 8, England, c Flintoff, Harmison, 0, 10, 10, 0, 0
+1715, 2004-09-19, 2, 6, Bangladesh, c Manjural Islam Rana, Mohammad Rafique, 2, 16, 12, na, 1 
+1717, 2004-09-26, 1, 7, Bangladesh, not out, , 38, 95, 78, 2, 1
+1721, 2004-10-18, 1, 7, Australia, not out, , 126, 258, 178, 12, 3
+1721, 2004-10-18, 3, 7, Australia, c Hayden, Warne, 8, 28, 23, 1, 0
+1723, 2004-10-26, 2, 6, Australia, c Gilchrist, Gillespie, 12, 46, 28, 0, 0
+1723, 2004-10-26, 4, 6, Australia, c Gilchrist, McGrath, 40, 135, 97, 3, 0
+1798, 2006-03-15, 2, 6, South Africa, c Pollock, Steyn, 133, 285, 169, 18, 2
+1798, 2006-03-15, 4, 7, South Africa, , Ntini, 2, 11, 8, 0, 0
+1800, 2006-04-27, 1, 6, South Africa, run out (Prince/Smith), , 13, 62, 44, 1, 0
+1800, 2006-04-27, 3, 5, South Africa, not out, , 8, 51, 39, 1, 0
+1801, 2006-04-05, 1, 6, South Africa, lbw, Pollock, 18, 97, 46, 2, 0
+1801, 2006-04-05, 3, 6, South Africa, c Dippenaar, Steyn, 27, 119, 80, 4, 0
+1820, 2006-11-07, 2, 6, Sri Lanka, c Silva, Vaas, 1, 11, 3, 0, 0
+1820, 2006-11-07, 4, 6, Sri Lanka, not out, , 12, 55, 46, 1, 0
+1822, 2006-11-15, 2, 8, Sri Lanka, lbw, Muralitharan, 1, 7, 8, 0, 0
+1822, 2006-11-15, 4, 7, Sri Lanka, lbw, Vaas, 4, 17, 15, 1, 0
+1846, 2007-10-08, 2, 7, South Africa, c Kallis, Steyn, 1, 8, 7, 0, 0
+1846, 2007-10-08, 4, 6, South Africa, c Nel, Harris, 40, 128, 83, 5, 0
+1859, 2008-01-04, 2, 6, Bangladesh, , Mashrafe Mortaza, 117, 189, 166, 17, 1
+1861, 2008-01-12, 2, 6, Bangladesh, c Mushfiqur Rahim, Shahadat Hossain, 1, 6, 8, 0, 0
+1866, 2008-02-05, 1, 6, England, c Cook, Hoggard, 10, 30, 29, 0, 0
+1866, 2008-02-05, 3, 7, England, lbw, Sidebottom, 0, 1, 1, 0, 0
+1867, 2008-02-13, 2, 6, England, lbw, Sidebottom, 8, 23, 22, 1, 0
+1867, 2008-02-13, 4, 6, England, c Pietersen, Sidebottom, 30, 119, 97, 3, 0
+1874, 2008-04-15, 1, 7, England, c Strauss, Sidebottom, 28, 139, 97, 3, 0
+1874, 2008-04-15, 3, 7, England, , Sidebottom, 101, 132, 121, 15, 2
+1876, 2008-04-23, 1, 7, England, run out (Cook), , 38, 107, 76, 5, 0
+1876, 2008-04-23, 3, 8, England, c Ambrose, Sidebottom, 7, 15, 17, 0, 0
+1878, 2008-05-05, 2, 7, England, c Ambrose, Anderson, 7, 26, 26, 1, 0
+1878, 2008-05-05, 3, 7, England, not out, , 50, 73, 39, 6, 2
+1888, 2008-09-17, 2, 7, Bangladesh, c Mashrafe Mortaza, Shakib Al Hasan, 0, 9, 4, 0, 0
+1888, 2008-09-17, 4, 8, Bangladesh, not out, , 8, 37, 35, 1, 0
+1930, 2009-07-18, 2, 8, Sri Lanka, c sub (SM Warnapura), Muralitharan, 12, 29, 26, 1, 0
+1930, 2009-07-18, 4, 5, Sri Lanka, lbw, Mendis, 21, 66, 57, 2, 0
+1932, 2009-07-26, 2, 8, Sri Lanka, c Kapugedera, Herath, 24, 68, 52, 3, 0
+1932, 2009-07-26, 4, 7, Sri Lanka, c Sangakkara, Dilshan, 56, 175, 148, 5, 0

@@ -1,0 +1,126 @@
+
+Test # 549
+South Africa in Australia, 1963/64, 2nd Test
+Australia v South Africa
+Melbourne Cricket Ground
+1,2,3,4,6 January 1964 (5-day match)
+
+Result: Australia won by 8 wickets
+Series: Australia leads the 5-match series 1-0
+
+Toss: Australia
+Umpires: CJ Egar and LP Rowan
+Balls per over: 8
+Test debut: IR Redpath (Australia).
+
+Close of play:
+ Day 1: South Africa 274, Australia 4/0 (Lawry 4*, Redpath 0*)
+ Day 2: Australia 308/5 (Shepherd 19*, Veivers 3*)
+ Day 3: Australia 447, South Africa 127/3 (AJ Pithey 42*, Waite 19*)
+ Day 4: South Africa 306, Australia 92/2 (Simpson 32*, Burge 7*)
+
+South Africa 1st innings                                        R   M   B  4 6
+*TL Goddard           c Grout            b McKenzie            17  21  18  2 0
+EJ Barlow             c Connolly         b McKenzie           109 273 252 11 0
+AJ Pithey             lbw                b Connolly            21  63  53  3 0
+RG Pollock            c Simpson          b McKenzie            16  42  38  0 0
++JHB Waite            c Grout            b Hawke               14  22  21  1 0
+PL van der Merwe      st Grout           b Martin              14  72  56  1 0
+KC Bland              run out                                  50  95 104  5 0
+DB Pithey             c Grout            b McKenzie             0   1   1  0 0
+PM Pollock            c Simpson          b Martin              14  47  28  0 0
+MA Seymour            not out                                   7  26  35  0 0
+JT Partridge          run out                                   9  24  18  1 0
+Extras                (lb 3)                                    3
+Total                 (all out, 78 overs)                     274
+
+FoW: 1-26 (Goddard), 2-74 (AJ Pithey), 3-100 (RG Pollock),
+     4-129 (Waite), 5-179 (van der Merwe), 6-201 (Barlow),
+     7-201 (DB Pithey), 8-256 (Bland), 9-256 (PM Pollock),
+     10-274 (Partridge).
+
+Bowling                      O      M      R      W
+McKenzie                    19      1     82      4
+Hawke                       20      2     77      1
+Connolly                    18      2     62      1
+Martin                      16      3     44      2
+Veivers                      5      1      6      0
+
+Australia 1st innings                                           R   M   B  4 6
+WM Lawry              c sub              b Partridge          157 329 255 19 0
+IR Redpath                               b Partridge           97 247 254 14 0
+*RB Simpson                              b PM Pollock           0   4   6  0 0
+PJP Burge             c Bland            b PM Pollock          23  43  37    3
+BK Shepherd           c DB Pithey        b Barlow              96 212 222 10 0
++ATW Grout            c Waite            b PM Pollock           3  19  17  0 0
+TR Veivers            c Waite            b Partridge           19  60  46  1 0
+GD McKenzie           c Partridge        b Seymour              2  24  17  0 0
+NJN Hawke                                b Barlow              24  99  86  3 0
+JW Martin             c DB Pithey        b Partridge           17  17  14  2 0
+AN Connolly           not out                                   0   5   1  0 0
+Extras                (b 1, lb 2, nb 6)                         9
+Total                 (all out, 118.3 overs)                  447
+
+FoW: 1-219 (Redpath), 2-222 (Simpson), 3-270 (Burge),
+     4-291 (Lawry), 5-301 (Grout), 6-340 (Veivers),
+     7-357 (McKenzie), 8-413 (Shepherd), 9-439 (Martin),
+     10-447 (Hawke).
+
+Bowling                      O      M      R      W
+PM Pollock                  20.5    1     98      3
+Partridge                   34      4    108      4
+Bland                       11      2     35      0
+Goddard                     21      2     70      0
+DB Pithey                    5      1     20      0
+Seymour                     19      2     56      1
+Barlow                       7.6    0     51      2
+
+South Africa 2nd innings                                        R   M   B  4 6
+*TL Goddard           lbw                b Hawke                8  42  35  0 0
+EJ Barlow             run out                                  54 108 104  5 0
+AJ Pithey             c Grout            b Connolly            76 249 271  7 0
+RG Pollock            c Martin           b Connolly             2   6   6  0 0
++JHB Waite                               b McKenzie            77 200 183  4 0
+PL van der Merwe      c Grout            b Martin              31  75  67  4 0
+KC Bland                             c & b Martin              22  65  65  1 0
+DB Pithey             c Martin           b Hawke                4  17  15  1 0
+PM Pollock                               b Hawke                0   2   2  0 0
+MA Seymour            not out                                  11  31  24  2 0
+JT Partridge                             b McKenzie            12  37  38  0 0
+Extras                (b 2, lb 3, w 2, nb 2)                    9
+Total                 (all out, 101 overs)                    306
+
+FoW: 1-35 (Goddard), 2-83 (Barlow), 3-85 (RG Pollock),
+     4-213 (AJ Pithey), 5-233 (Waite), 6-273 (van der Merwe),
+     7-282 (Bland), 8-282 (DB Pithey), 9-282 (PM Pollock),
+     10-306 (Partridge).
+
+Bowling                      O      M      R      W
+McKenzie                    25      1     81      2
+Hawke                       19      1     53      3
+Connolly                    18      2     49      2
+Martin                      27      4     83      2
+Simpson                     12      2     31      0
+
+Australia 2nd innings (target: 134 runs)                        R   M   B  4 6
+WM Lawry                                 b Partridge           20  49  39  3 0
+IR Redpath            c van der Merwe    b Barlow              25  86  71    0
+*RB Simpson           not out                                  55 114 104  5 0
+PJP Burge             not out                                  26  76  85  4 0
+Extras                (b 5, lb 2, w 1, nb 2)                   10
+Total                 (2 wickets, 37.1 overs)                 136
+
+DNB: BK Shepherd, +ATW Grout, TR Veivers, GD McKenzie, NJN Hawke,
+     JW Martin, AN Connolly.
+
+FoW: 1-33 (Lawry), 2-75 (Redpath).
+
+Bowling                      O      M      R      W
+Partridge                   17      1     49      1
+Bland                        2      0      6      0
+Goddard                      1      1      0      0
+DB Pithey                    6      0     18      0
+Barlow                      11      0     49      1
+van der Merwe                0.1    0      4      0
+
+<END>

@@ -1,0 +1,51 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+928, 1982-06-10, 1, 7, India, c Gavaskar, Doshi, 7, 24, 26, 0, 0
+929, 1982-06-24, 1, 8, India, st Kirmani, Doshi, 23, 82, 74, 1, 0
+930, 1982-07-08, 1, 7, India, st Kirmani, Doshi, 9, 32, 26, 2, 0
+932, 1982-08-12, 2, 7, Pakistan, c Haroon Rasheed, Abdul Qadir, 5, 32, 29, 0, 0
+932, 1982-08-12, 3, 7, Pakistan, c Javed Miandad, Abdul Qadir, 14, 72, 62, 1, 0
+938, 1982-11-12, 1, 8, Australia, , Lillee, 0, 30, 19, 0, 0
+938, 1982-11-12, 3, 9, Australia, not out, , 47, 131, 107, 6, 0
+940, 1982-12-10, 2, 9, Australia, not out, , 1, 32, 12, 0, 0
+940, 1982-12-10, 3, 8, Australia, c Marsh, Thomson, 9, 30, 15, 2, 0
+943, 1982-12-26, 1, 8, Australia, c Wessels, Hogg, 9, 59, 48, 1, 0
+943, 1982-12-26, 3, 8, Australia, c Marsh, Lawson, 42, 170, 118, 6, 0
+989, 1984-06-14, 1, 8, West Indies, c Dujon, Holding, 4, 11, 7, 1, 0
+989, 1984-06-14, 3, 8, West Indies, not out, , 46, 99, 88, 5, 0
+990, 1984-06-28, 1, 9, West Indies, lbw, Garner, 2, 18, 13, 0, 0
+990, 1984-06-28, 3, 9, West Indies, lbw, Garner, 8, 43, 27, 1, 0
+991, 1984-07-12, 1, 8, West Indies, c Haynes, Holding, 19, 79, 74, 3, 0
+991, 1984-07-12, 3, 9, West Indies, lbw, Marshall, 2, 3, 3, 0, 0
+1046, 1986-06-05, 1, 6, India, , Binny, 63, 277, 244, 7, 0
+1046, 1986-06-05, 3, 6, India, c More, Kapil Dev, 6, 28, 19, 0, 0
+1047, 1986-06-19, 2, 7, India, c Srikkanth, Binny, 8, 42, 35, 0, 0
+1047, 1986-06-19, 4, 8, India, lbw, Maninder Singh, 8, 28, 20, 0, 0
+1048, 1986-07-03, 1, 6, India, c Amarnath, Shastri, 44, 106, 95, 5, 1
+1048, 1986-07-03, 3, 6, India, c More, Maninder Singh, 7, 35, 31, 1, 0
+1050, 1986-08-07, 1, 6, New Zealand, c Watson, Stirling, 21, 74, 64, 3, 0
+1050, 1986-08-07, 3, 7, New Zealand, c Gray, Stirling, 9, 107, 92, 0, 0
+1098, 1988-06-02, 1, 6, West Indies, , Marshall, 39, 147, 143, 3, 0
+1099, 1988-06-16, 2, 6, West Indies, c Dujon, Walsh, 1, 20, 17, 0, 0
+1099, 1988-06-16, 4, 6, West Indies, lbw, Walsh, 0, 8, 5, 0, 0
+1101, 1988-07-21, 1, 9, West Indies, c Dujon, Marshall, 0, 5, 3, 0, 0
+1101, 1988-07-21, 3, 9, West Indies, , Benjamin, 3, 18, 13, 0, 0
+1102, 1988-08-04, 1, 8, West Indies, c Dujon, Marshall, 1, 17, 16, 0, 0
+1102, 1988-08-04, 3, 9, West Indies, , Harper, 8, 55, 43, 1, 0
+1103, 1988-08-25, 2, 7, Sri Lanka, c Silva, Labrooy, 14, 56, 38, 2, 0
+1121, 1989-06-08, 2, 7, Australia, lbw, Campbell, 6, 15, 15, 1, 0
+1121, 1989-06-08, 4, 7, Australia, c Border, Alderman, 0, 39, 27, 0, 0
+1126, 1989-08-24, 2, 8, Australia, c Taylor, Hohns, 27, 148, 90, 0, 0
+1171, 1991-06-06, 1, 8, West Indies, c Logie, Patterson, 16, 111, 73, 0, 0
+1171, 1991-06-06, 3, 8, West Indies, c Dujon, Marshall, 27, 144, 94, 2, 0
+1172, 1991-06-20, 2, 8, West Indies, c Simmons, Allen, 35, 109, 86, 4, 0
+1173, 1991-07-04, 1, 8, West Indies, c sub (CB Lambert), Allen, 0, 9, 6, 0, 0
+1173, 1991-07-04, 3, 8, West Indies, c Simmons, Walsh, 3, 44, 33, 0, 0
+1174, 1991-07-25, 1, 8, West Indies, , Ambrose, 2, 15, 12, 0, 0
+1174, 1991-07-25, 3, 8, West Indies, c Logie, Marshall, 45, 304, 237, 4, 0
+1183, 1992-01-18, 1, 9, New Zealand, c Greatbatch, Patel, 10, 21, 14, 0, 0
+1185, 1992-01-30, 1, 9, New Zealand, lbw, Cairns, 41, 124, 93, 4, 1
+1185, 1992-01-30, 3, 9, New Zealand, lbw, Cairns, 2, 10, 8, 0, 0
+1189, 1992-06-04, 2, 9, Pakistan, not out, , 0, 12, 7, 0, 0
+1192, 1992-07-23, 2, 9, Pakistan, , Waqar Younis, 0, 5, 5, 0, 0
+1193, 1992-08-06, 1, 8, Pakistan, , Wasim Akram, 1, 3, 3, 0, 0
+1193, 1992-08-06, 3, 8, Pakistan, , Wasim Akram, 1, 11, 10, 0, 0

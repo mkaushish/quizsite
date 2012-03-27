@@ -1,0 +1,125 @@
+
+Test # 582
+New Zealand in India, 1964/65, 3rd Test
+India v New Zealand
+Brabourne Stadium, Bombay
+12,13,14,15 March 1965 (4-day match)
+
+Result: Match drawn
+Series: 4-match series level 0-0
+
+Toss: New Zealand
+Umpires: MV Nagendra and S Roy
+
+Close of play:
+ Day 1: New Zealand 227/5 (Dowling 109*)
+ Day 2: New Zealand 297, India 88, India 18/1 (Sardesai 6*, Durani 6*)
+ Day 3: India 281/5 (Sardesai 97*, Hanumant Singh 3*)
+
+New Zealand 1st innings                                         R   M   B  4 6
+GT Dowling                               b Desai              129 377     17 0
+BE Congdon            c Engineer         b Desai                3  22      0 0
+BW Sinclair                              b Desai                9  31      2 0
+RW Morgan                                b Chandrasekhar       71 183     10 0
+B Sutcliffe           run out                                   4   7      1 0
+V Pollard             c Jaisimha         b Desai               26  81      5 0
+*JR Reid              lbw                b Desai               22  75      3 1
+BR Taylor             c Hanumant Singh   b Desai                8  37      1 0
+BW Yuile              lbw                b Durani               2  29      0 0
+RC Motz               not out                                   5  30      1 0
++JT Ward                                 b Durani               0  11      0 0
+Extras                (b 4, lb 13, nb 1)                       18
+Total                 (all out, 129.2 overs)                  297
+
+FoW: 1-13 (Congdon), 2-31 (Sinclair), 3-165 (Morgan),
+     4-170 (Sutcliffe), 5-227 (Pollard), 6-256 (Dowling),
+     7-276 (Reid), 8-281 (Taylor), 9-297 (Yuile), 10-297 (Ward).
+
+Bowling                      O      M      R      W
+Desai                       25      9     56      6
+Jaisimha                    17      6     53      0
+Chandrasekhar               23      6     76      1
+Durani                      20.2   10     26      2
+Venkataraghavan             32     13     46      0
+Nadkarni                    12      7     22      0
+
+India 1st innings                                               R   M   B  4 6
+DN Sardesai           c Ward             b Motz                 4  33      1 0
+ML Jaisimha           c Ward             b Taylor               4  15      1 0
+SA Durani             c Morgan           b Taylor               4  12      1 0
+CG Borde              c Ward             b Taylor              25 102      3 0
+Hanumant Singh        hit wicket         b Taylor               0  20      0 0
+*Nawab of Pataudi jnr c Ward             b Congdon              9  25      2 0
+RG Nadkarni           lbw                b Congdon              7  27      0 0
++FM Engineer          run out                                  17  50      3 0
+RB Desai              c Reid             b Motz                 0   5      0 0
+S Venkataraghavan     c Congdon          b Taylor               7  11      1 0
+BS Chandrasekhar      not out                                   4   7      1 0
+Extras                (lb 4, nb 3)                              7
+Total                 (all out, 33.3 overs)                    88
+
+FoW: 1-4 (Jaisimha), 2-8 (Durani), 3-13 (Sardesai),
+     4-23 (Hanumant Singh), 5-38 (Pataudi), 6-48 (Nadkarni),
+     7-71 (Borde), 8-76 (Desai), 9-77 (Engineer),
+     10-88 (Venkataraghavan).
+
+Bowling                      O      M      R      W
+Motz                        15      4     30      2
+Taylor                       7.3    2     26      5
+Congdon                      9      5     21      2
+Pollard                      2      1      4      0
+
+India 2nd innings (following on)                                R   M   B  4 6
+DN Sardesai           not out                                 200 548     25 0
++FM Engineer          c Reid             b Taylor               6  13      1 0
+SA Durani             c Ward             b Taylor               6  43      1 0
+ML Jaisimha           c Ward             b Pollard             47 123      7 0
+CG Borde              c Yuile            b Taylor             109 150     17 0
+*Nawab of Pataudi jnr                    b Motz                 3  11      0 0
+Hanumant Singh        not out                                  75 195     11 0
+Extras                (b 4, lb 5, w 1, nb 7)                   17
+Total                 (5 wickets dec, 154.4 overs)            463
+
+DNB: RG Nadkarni, RB Desai, S Venkataraghavan, BS Chandrasekhar.
+
+FoW: 1-8 (Engineer), 2-18 (Durani), 3-107 (Jaisimha),
+     4-261 (Borde), 5-270 (Pataudi).
+
+Bowling                      O      M      R      W
+Motz                        29.4   11     63      1
+Taylor                      29      5     76      3
+Congdon                     17      6     44      0
+Pollard                     29      6     95      1
+Yuile                       25      8     76      0
+Morgan                      18      3     54      0
+Reid                         3      1      8      0
+Sutcliffe                    4      0     30      0
+
+New Zealand 2nd innings (target: 255 runs)                      R   M   B  4 6
+GT Dowling            c Engineer         b Jaisimha             0  20      0 0
+BE Congdon            c Hanumant Singh   b Durani              14 113      2 0
+BW Sinclair           c Venkataraghavan  b Desai                0   5      0 0
+RW Morgan                                b Chandrasekhar       11  31      1 0
+*JR Reid              c Borde            b Chandrasekhar       10  27      1 0
+B Sutcliffe           c Durani           b Chandrasekhar        1  14      0 0
+V Pollard             c Borde            b Durani               4  13      1 0
+BR Taylor                                b Venkataraghavan     21  27      4 0
+BW Yuile              not out                                   8  33      1 0
++JT Ward              not out                                   4   7      1 0
+Extras                (b 5, nb 2)                               7
+Total                 (8 wickets, 43 overs)                    80
+
+DNB: RC Motz.
+
+FoW: 1-0 (Dowling), 2-0 (Sinclair), 3-18 (Morgan), 4-34 (Reid),
+     5-37 (Sutcliffe), 6-45 (Congdon), 7-46 (Pollard),
+     8-76 (Taylor).
+
+Bowling                      O      M      R      W
+Desai                        9      5     18      1
+Jaisimha                     6      5      4      1
+Chandrasekhar               14      7     25      3
+Durani                       7      2     16      2
+Venkataraghavan              7      3     10      1
+
+<END>

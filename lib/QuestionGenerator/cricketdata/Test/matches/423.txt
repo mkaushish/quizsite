@@ -1,0 +1,119 @@
+
+Test # 423
+West Indies in New Zealand, 1955/56, 3rd Test
+New Zealand v West Indies
+Basin Reserve, Wellington
+3,5,6,7 March 1956 (4-day match)
+
+Result: West Indies won by 9 wickets
+Series: West Indies leads the 4-match series 3-0
+
+Toss: West Indies
+Umpires: LG Clark and WJC Gwynne
+Test debut: RT Barber (New Zealand).
+
+Close of play:
+ Day 1: West Indies 361/6 (Weekes 145*, Ramadhin 5*)
+ Day 2: West Indies 404, New Zealand 140/6 (Beck 29*, Guillen 19*)
+ Day 3: New Zealand 208, New Zealand 141/5 (Taylor 38*, Barber 5*)
+
+West Indies 1st innings                                         R   M   B  4 6
+BH Pairaudeau         c MacGibbon        b Cave                68 173      7 0
+GS Sobers             c Barber           b Reid                27            0
+JDC Goddard           c Beard            b MacGibbon           16            0
+ED Weekes             c Guillen          b Cave               156 211     19 0
+OG Smith              lbw                b MacGibbon            1          0 0
+*DS Atkinson          run out                                  60  90      9 0
++AP Binns             lbw                b Beard               27            0
+S Ramadhin            c Beard            b Reid                15            0
+FM King               not out                                  13            0
+DT Dewdney            run out                                   2          0 0
+AL Valentine          c McGregor         b Reid                 2          0 0
+Extras                (b 9, lb 3, nb 5)                        17
+Total                 (all out, 135.5 overs)                  404
+
+FoW: 1-72 (Sobers), 2-117 (Pairaudeau), 3-117 (Goddard),
+     4-119 (Smith), 5-239 (Atkinson), 6-345 (Binns),
+     7-387 (Ramadhin), 8-387 (Weekes), 9-391 (Dewdney),
+     10-404 (Valentine).
+
+Bowling                      O      M      R      W
+MacGibbon                   24      4     75      2
+Cave                        37     10     96      2
+Beard                       34      9     90      1
+Reid                        32.5    8     85      3
+Sinclair                     8      0     41      0
+
+New Zealand 1st innings                                         R   M   B  4 6
+LSM Miller                           c & b King                16            0
+SN McGregor           c Weekes           b Smith                5            0
+AR MacGibbon          c Goddard          b Valentine            3          0 0
+DD Taylor             run out                                  43 149        0
+*JR Reid                                 b Ramadhin             1          0 0
+JEF Beck              lbw                b Sobers              55 279      4 0
+RT Barber                                b Ramadhin            12            0
++SC Guillen                              b Smith               36  83        0
+DD Beard              not out                                  17            0
+HB Cave                                  b Atkinson             0          0 0
+IM Sinclair           lbw                b Atkinson             0          0 0
+Extras                (b 11, lb 9)                             20
+Total                 (all out, 140 overs)                    208
+
+FoW: 1-23 (McGregor), 2-23 (Miller), 3-27 (MacGibbon),
+     4-28 (Reid), 5-104 (Taylor), 6-116 (Barber),
+     7-176 (Guillen), 8-205 (Beck), 9-208 (Cave),
+     10-208 (Sinclair).
+
+Bowling                      O      M      R      W
+Dewdney                     11      3     26      0
+King                         8.4    3     18      1
+Smith                       29     15     27      2
+Ramadhin                    30     11     63      2
+Valentine                   35     20     31      1
+Atkinson                    12.2    2     20      2
+Sobers                      14     11      3      1
+
+New Zealand 2nd innings (following on)                          R   M   B  4 6
+LSM Miller            c Binns            b Dewdney              7            0
+SN McGregor           c Binns            b Atkinson            41 128        0
+AR MacGibbon                             b Atkinson            36  96      4 0
+DD Taylor             c Pairaudeau       b Atkinson            77 155      9 1
+*JR Reid                                 b Atkinson             5            0
+JEF Beck                                 b Smith                6            0
+RT Barber             c Goddard          b Ramadhin             5            0
++SC Guillen           c Goddard          b Dewdney              0          0 0
+DD Beard              c Binns            b Atkinson             5            0
+HB Cave                              c & b Sobers               5            0
+IM Sinclair           not out                                  18          4 0
+Extras                (b 2, nb 1)                               3
+Total                 (all out, 106.5 overs)                  208
+
+FoW: 1-16 (Miller), 2-82 (MacGibbon), 3-93 (McGregor),
+     4-99 (Reid), 5-121 (Beck), 6-141 (Barber), 7-142 (Guillen),
+     8-180 (Beard), 9-185 (Taylor), 10-208 (Cave).
+
+Bowling                      O      M      R      W
+Dewdney                     17      3     54      2
+Smith                       14      7     23      1
+Ramadhin                    21     10     33      1
+Valentine                   15      9     18      0
+Atkinson                    31     12     66      5
+Sobers                       8.5    4     11      1
+
+West Indies 2nd innings (target: 13 runs)                       R   M   B  4 6
+BH Pairaudeau         c Sinclair         b MacGibbon            8            0
++AP Binns             not out                                   5            0
+JDC Goddard           not out                                   0          0 0
+Extras                                                          0
+Total                 (1 wicket, 5.2 overs)                    13
+
+DNB: GS Sobers, ED Weekes, OG Smith, *DS Atkinson, S Ramadhin,
+     FM King, DT Dewdney, AL Valentine.
+
+FoW: 1-12 (Pairaudeau).
+
+Bowling                      O      M      R      W
+MacGibbon                    3      1      6      1
+Beard                        2.2    0      7      0
+
+<END>

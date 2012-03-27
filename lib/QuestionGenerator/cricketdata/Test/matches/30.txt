@@ -1,0 +1,98 @@
+
+Test # 30
+The Ashes, 1888, 3rd Test
+England v Australia
+Old Trafford, Manchester
+30,31 August 1888 (3-day match)
+
+Result: England won by an innings and 21 runs
+Series: England wins the 3-match series 2-1
+
+Toss: England
+Umpires: FH Farrands and CK Pullin
+Balls per over: 4
+
+Close of play:
+ Day 1: England 172, Australia 32/2 (Trott 14*)
+
+England 1st innings                                             R   M   B  4 6
+*WG Grace             c Bonnor           b Turner              38            0
+R Abel                                   b Turner               0          0 0
+G Ulyett                                 b Turner               0          0 0
+WW Read                                  b Turner              19            0
+W Barnes                                 b Ferris              24            0
+FH Sugg                                  b Woods               24            0
+W Gunn                lbw                b Turner              15            0
+R Peel                lbw                b Ferris              11            0
+J Briggs              not out                                  22            0
+GA Lohmann            run out                                   0          0 0
++R Pilling            c Bonnor           b Woods               17            0
+Extras                (b 2)                                     2
+Total                 (all out, 113.1 overs)                  172
+
+FoW: 1-0 (Abel), 2-6 (Ulyett), 3-58 (Read), 4-59 (Grace),
+     5-96 (Sugg), 6-115 (Barnes), 7-127 (Gunn), 8-135 (Peel),
+     9-136 (Lohmann), 10-172 (Pilling).
+
+Bowling                      O      M      R      W
+Ferris                      40     20     49      2
+Turner                      55     21     86      5
+Woods                       18.1    6     35      2
+
+Australia 1st innings                                           R   M   B  4 6
+*PS McDonnell         c Grace            b Peel                15            0
+AC Bannerman                             b Peel                 1          0 0
+GHS Trott             st Pilling         b Peel                17            0
+GJ Bonnor             run out                                   5            0
+JD Edwards                               b Peel                 0          0 0
+CTB Turner                               b Peel                 0          0 0
+SMJ Woods             c Read             b Briggs               4            0
++JM Blackham          c Read             b Lohmann             15            0
+JJ Lyons              c Lohmann          b Peel                22            0
+J Worrall                                b Peel                 0          0 0
+JJ Ferris             not out                                   0          0 0
+Extras                (b 2)                                     2
+Total                 (all out, 52.2 overs)                    81
+
+FoW: 1-16 (McDonnell), 2-32 (Bannerman), 3-35 (Trott),
+     4-39 (Edwards), 5-39 (Turner), 6-43 (Bonnor), 7-45 (Woods),
+     8-81 (Lyons), 9-81 (Blackham), 10-81 (Worrall).
+
+Bowling                      O      M      R      W
+Peel                        26.2   17     31      7
+Lohmann                     17      9     31      1
+Briggs                       9      4     17      1
+
+Australia 2nd innings (following on)                            R   M   B  4 6
+AC Bannerman          c Grace            b Peel                 0   1   1  0 0
+*PS McDonnell                            b Lohmann              0          0 0
+GHS Trott             run out                                   0          0 0
+GJ Bonnor             c Grace            b Peel                 0          0 0
++JM Blackham                             b Lohmann              5            0
+JJ Lyons                                 b Briggs              32            0
+SMJ Woods                                b Lohmann              0   1   1  0 0
+CTB Turner                               b Briggs              26            0
+JD Edwards            c Grace            b Peel                 1          0 0
+JJ Ferris             c Abel             b Peel                 3          0 0
+J Worrall             not out                                   0          0 0
+Extras                (b 2, lb 1)                               3
+Total                 (all out, 31.1 overs, 69 mins)           70
+
+FoW: 1-0 (Bannerman), 2-0 (McDonnell), 3-1 (Bonnor), 4-7 (Trott),
+     5-7 (Blackham), 6-7 (Woods), 7-55 (Turner), 8-56 (Edwards),
+     9-70 (Ferris), 10-70 (Lyons).
+
+Bowling                      O      M      R      W
+Peel                        16      4     37      4
+Lohmann                      8      3     20      3
+Briggs                       7.1    2     10      2
+
+*** Australia were unable to to avoid following-on, the compulsory margin in
+    1888 being 80 runs.
+*** The match ended at 1.52pm (before lunch on the second day), after
+    Australia had been bowled out in 69 minutes.
+*** Heavy rain before the match produced a soft, wet pitch and gave the side
+    batting first an enormous advantage. A hot, drying sun on the second day
+    made the pitch a vicious "sticky"; 18 wickets fell before lunch.
+
+<END>

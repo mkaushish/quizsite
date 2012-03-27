@@ -1,0 +1,121 @@
+
+Test # 74
+The Ashes, 1902, 5th Test
+England v Australia
+Kennington Oval, London
+11,12,13 August 1902 (3-day match)
+
+Result: England won by 1 wicket
+Series: Australia wins the 5-match series 2-1
+
+Toss: Australia
+Umpires: CE Richardson and A White
+
+Close of play:
+ Day 1: Australia 324
+ Day 2: England 183, Australia 114/8 (Armstrong 21*)
+
+Australia 1st innings                                           R   M   B  4 6
+VT Trumper                               b Hirst               42            0
+RA Duff               c Lilley           b Hirst               23            0
+C Hill                                   b Hirst               11            0
+*J Darling            c Lilley           b Hirst                3          0 0
+MA Noble                             c & b Jackson             52            0
+SE Gregory                               b Hirst               23            0
+WW Armstrong                             b Jackson             17            0
+AJY Hopkins           c MacLaren         b Lockwood            40            0
+H Trumble             not out                                  64            0
++JJ Kelly             c Rhodes           b Braund              39            0
+JV Saunders           lbw                b Braund               0          0 0
+Extras                (b 5, lb 3, nb 2)                        10
+Total                 (all out, 123.5 overs)                  324
+
+FoW: 1-47 (Duff), 2-63 (Hill), 3-69 (Darling), 4-82 (Trumper),
+     5-126 (Gregory), 6-174 (Armstrong), 7-175 (Noble),
+     8-256 (Hopkins), 9-324 (Kelly), 10-324 (Saunders).
+
+Bowling                      O      M      R      W
+Lockwood                    24      2     85      1
+Rhodes                      28      9     46      0
+Hirst                       29      5     77      5
+Braund                      16.5    5     29      2
+Jackson                     20      4     66      2
+Jessop                       6      2     11      0
+
+England 1st innings                                             R   M   B  4 6
+*AC MacLaren          c Armstrong        b Trumble             10  45        0
+LCH Palairet                             b Trumble             20            0
+JT Tyldesley                             b Trumble             33            0
+TW Hayward                               b Trumble              0  20      0 0
+Hon.FS Jackson        c Armstrong        b Saunders             2          0 0
+LC Braund             c Hill             b Trumble             22            0
+GL Jessop                                b Trumble             13            0
+GH Hirst                             c & b Trumble             43  45      6 0
+WH Lockwood           c Noble            b Saunders            25            0
++AFA Lilley           c Trumper          b Trumble              0          0 0
+W Rhodes              not out                                   0          0 0
+Extras                (b 13, lb 2)                             15
+Total                 (all out, 61 overs)                     183
+
+FoW: 1-31 (Palairet), 2-36 (MacLaren), 3-62 (Hayward),
+     4-67 (Jackson), 5-67 (Tyldesley), 6-83 (Jessop),
+     7-137 (Hirst), 8-179 (Lockwood), 9-183 (Braund),
+     10-183 (Lilley).
+
+Bowling                      O      M      R      W
+Trumble                     31     13     65      8
+Saunders                    23      7     79      2
+Noble                        7      3     24      0
+
+Australia 2nd innings                                           R   M   B  4 6
+VT Trumper            run out                                   2          0 0
+RA Duff                                  b Lockwood             6            0
+C Hill                c MacLaren         b Hirst               34  95        0
+*J Darling            c MacLaren         b Lockwood            15            0
+MA Noble                                 b Braund              13            0
+SE Gregory                               b Braund               9            0
+WW Armstrong                             b Lockwood            21            0
+AJY Hopkins           c Lilley           b Lockwood             3          0 0
+JV Saunders           c Tyldesley        b Rhodes               2          0 0
+H Trumble             not out                                   7            0
++JJ Kelly             lbw                b Lockwood             0          0 0
+Extras                (b 7, lb 2)                               9
+Total                 (all out, 60 overs)                     121
+
+FoW: 1-6 (Trumper), 2-9 (Duff), 3-31 (Darling), 4-71 (Noble),
+     5-75 (Hill), 6-91 (Gregory), 7-99 (Hopkins),
+     8-114 (Saunders), 9-115 (Armstrong), 10-121 (Kelly).
+
+Bowling                      O      M      R      W
+Lockwood                    20      6     45      5
+Rhodes                      22      7     38      1
+Hirst                        5      1      7      1
+Braund                       9      1     15      2
+Jackson                      4      3      7      0
+
+England 2nd innings (target: 263 runs)                          R   M   B  4 6
+*AC MacLaren                             b Saunders             2          0 0
+LCH Palairet                             b Saunders             6            0
+JT Tyldesley                             b Saunders             0          0 0
+TW Hayward            c Kelly            b Saunders             7            0
+Hon.FS Jackson                       c & b Trumble             49 105        0
+LC Braund             c Kelly            b Trumble              2          0 0
+GL Jessop             c Noble            b Armstrong          104  77     17 0
+GH Hirst              not out                                  58            0
+WH Lockwood           lbw                b Trumble              2          0 0
++AFA Lilley           c Darling          b Trumble             16            0
+W Rhodes              not out                                   6          1 0
+Extras                (b 5, lb 6)                              11
+Total                 (9 wickets, 66.5 overs)                 263
+
+FoW: 1-5 (MacLaren), 2-5 (Tyldesley), 3-10 (Palairet),
+     4-31 (Hayward), 5-48 (Braund), 6-157 (Jackson),
+     7-187 (Jessop), 8-214 (Lockwood), 9-248 (Lilley).
+
+Bowling                      O      M      R      W
+Trumble                     33.5    4    108      4
+Saunders                    24      3    105      4
+Noble                        5      0     11      0
+Armstrong                    4      0     28      1
+
+<END>

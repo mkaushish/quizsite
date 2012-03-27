@@ -1,0 +1,95 @@
+
+Test # 268
+England in South Africa, 1938/39, 2nd Test
+South Africa v England
+Newlands, Cape Town
+31 December 1938, 2,3,4 January 1939 (4-day match)
+
+Result: Match drawn
+Series: 5-match series level 0-0
+
+Toss: England
+Umpires: RGA Ashman and GL Sickler
+Balls per over: 8
+
+Close of play:
+ Day 1: England 131/2 (Gibb 56*, Hammond 54*)
+ Day 2: England 553/8 (Wright 27*, Farnes 1*)
+ Day 3: England 559/9d, South Africa 213/6 (Nourse 74*, Balaskas 28*)
+
+England 1st innings                                             R   M   B  4 6
+L Hutton                                 b Gordon              17  30        1
+PA Gibb               c Wade             b Gordon              58 162        0
+E Paynter             lbw                b Langton              1  10      0 0
+*WR Hammond                              b Davies             181 336     16 0
++LEG Ames                                b Gordon             115 145     13 0
+WJ Edrich                                b Gordon               0   5      0 0
+BH Valentine          lbw                b Gordon             112 159     12 1
+H Verity                                 b Langton             29  78        0
+DVP Wright            c Nourse           b Langton             33            0
+K Farnes              not out                                   1          0 0
+Extras                (lb 9, nb 3)                             12
+Total                 (9 wickets dec, 130.7 overs)            559
+
+DNB: TWJ Goddard.
+
+FoW: 1-29 (Hutton), 2-30 (Paynter), 3-139 (Gibb), 4-336 (Ames),
+     5-338 (Edrich), 6-410 (Hammond), 7-504 (Verity),
+     8-537 (Valentine), 9-559 (Wright).
+
+Bowling                      O      M      R      W
+Davies                      16      1     77      1
+Langton                     30.7    3    117      3
+Gordon                      40      3    157      5
+Balaskas                    24      0    115      0
+Mitchell                    20      0     81      0
+
+South Africa 1st innings                                        R   M   B  4 6
+B Mitchell                               b Wright              42 220        0
+PGV van der Bijl      c Valentine        b Verity              37 112      3 0
+EAB Rowan                                b Wright               6  35        0
+AD Nourse             lbw                b Verity             120 268     12 1
+AW Briscoe            lbw                b Goddard              2          0 0
++WW Wade              c Edrich           b Verity              10            0
+ACB Langton           lbw                b Goddard              0          0 0
+XC Balaskas           c Paynter          b Verity              29            0
+*A Melville                              b Verity              23 104      2 0
+N Gordon              st Ames            b Goddard              0          0 0
+EQ Davies             not out                                   0          0 0
+Extras                (b 2, lb 7, nb 8)                        17
+Total                 (all out, 118.6 overs)                  286
+
+FoW: 1-66 (van der Bijl), 2-79 (Rowan), 3-151 (Mitchell),
+     4-160 (Briscoe), 5-176 (Wade), 6-177 (Langton),
+     7-214 (Balaskas), 8-283 (Nourse), 9-286 (Gordon),
+     10-286 (Melville).
+
+Bowling                      O      M      R      W
+Farnes                      13      3     37      0
+Edrich                       5      1     15      0
+Goddard                     38     15     64      3
+Wright                      26      3     83      2
+Verity                      36.6   13     70      5
+
+South Africa 2nd innings (following on)                         R   M   B  4 6
+B Mitchell            c Ames             b Farnes               1   9      0 0
+PGV van der Bijl      hit wicket         b Goddard             87 137      9 1
+EAB Rowan             not out                                  89            0
+AD Nourse             not out                                  19            0
+Extras                (b 1, lb 3, nb 1)                         5
+Total                 (2 wickets, 53 overs)                   201
+
+DNB: AW Briscoe, +WW Wade, ACB Langton, XC Balaskas, *A Melville,
+     N Gordon, EQ Davies.
+
+FoW: 1-2 (Mitchell), 2-149 (van der Bijl).
+
+Bowling                      O      M      R      W
+Farnes                       8      1     23      1
+Edrich                       3      1      5      0
+Goddard                     11      1     68      1
+Wright                      12      0     62      0
+Verity                      10      5     13      0
+Hammond                      9      0     25      0
+
+<END>

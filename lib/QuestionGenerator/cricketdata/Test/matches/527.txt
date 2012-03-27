@@ -1,0 +1,108 @@
+
+Test # 527
+India in West Indies, 1961/62, 3rd Test
+West Indies v India
+Kensington Oval, Bridgetown, Barbados
+23,24,26,27,28 March 1962 (6-day match)
+
+Result: West Indies won by an innings and 30 runs
+Series: West Indies leads the 5-match series 3-0
+
+Toss: West Indies
+Umpires: HBD Jordan and JHJ Roberts
+Test debut: DW Allan (West Indies).
+
+Close of play:
+ Day 1: India 258, West Indies 5/0 (Hunte 4*, McMorris 1*)
+ Day 2: West Indies 263/4 (Solomon 23*, Gibbs 1*)
+ Day 3: West Indies 427/8 (Worrell 64*, Allan 9*)
+ Day 4: West Indies 475, India 104/2 (Sardesai 41*, Manjrekar 14*)
+
+India 1st innings                                               R   M   B  4 6
+ML Jaisimha           c Allan            b Hall                41  53        0
+DN Sardesai           c McMorris         b Gibbs               31          7 0
+RF Surti              lbw                b Worrell              7            0
+VL Manjrekar          c Worrell          b Hall                 8            0
+PR Umrigar            c Allan            b Hall                 8            0
+*Nawab of Pataudi jnr                c & b Valentine           48            0
+CG Borde              c Allan            b Sobers              19            0
+RG Nadkarni                              b Stayers             22            0
++FM Engineer          c Worrell          b Sobers              12            0
+SA Durani             not out                                  48            0
+RB Desai                                 b Worrell             12            0
+Extras                (nb 2)                                    2
+Total                 (all out, 89.1 overs)                   258
+
+FoW: 1-56 (Sardesai), 2-76 (Surti), 3-82 (Jaisimha),
+     4-89 (Manjrekar), 5-112 (Umrigar), 6-153 (Borde),
+     7-171 (Pataudi), 8-188 (Engineer), 9-229 (Nadkarni),
+     10-258 (Desai).
+
+Bowling                      O      M      R      W
+Hall                        22      4     64      3
+Stayers                     11      0     81      1
+Worrell                      7.1    3     12      2
+Gibbs                       16      7     25      1
+Valentine                   17      7     28      1
+Sobers                      16      2     46      2
+
+West Indies 1st innings                                         R   M   B  4 6
+CC Hunte              c Engineer         b Surti               59            0
+EDAS McMorris         c Engineer         b Durani              39            0
+RB Kanhai             run out                                  89 120     13 3
+GS Sobers             c Engineer         b Nadkarni            42            0
+JS Solomon            c Desai            b Durani              96         11 0
+LR Gibbs                                 b Borde                7            0
+*FMM Worrell                             b Umrigar             77 350        0
+SC Stayers            c Umrigar          b Nadkarni             7            0
+WW Hall               lbw                b Umrigar              3          0 0
++DW Allan             not out                                  40            0
+AL Valentine                             b Borde                4            0
+Extras                (lb 5, nb 7)                             12
+Total                 (all out, 241.3 overs)                  475
+
+FoW: 1-67 (McMorris), 2-152 (Hunte), 3-226 (Kanhai),
+     4-255 (Sobers), 5-282 (Gibbs), 6-378 (Solomon),
+     7-394 (Stayers), 8-399 (Hall), 9-454 (Worrell),
+     10-475 (Valentine).
+
+Bowling                      O      M      R      W
+Desai                       19      7     25      0
+Surti                       29      6     80      1
+Durani                      45     13    123      2
+Nadkarni                    67     28     92      2
+Borde                       31.3    4     89      2
+Jaisimha                     1      0      6      0
+Umrigar                     49     27     48      2
+
+India 2nd innings                                               R   M   B  4 6
+ML Jaisimha           lbw                b Stayers              0          0 0
+DN Sardesai           c Sobers           b Gibbs               60            0
+RF Surti              lbw                b Stayers             36 135        0
+VL Manjrekar          c Worrell          b Gibbs               51            0
+PR Umrigar            c Allan            b Gibbs               10            0
+*Nawab of Pataudi jnr c Sobers           b Gibbs                0   1   2  0 0
+CG Borde              c Worrell          b Gibbs                8            0
+RG Nadkarni           not out                                   2          0 0
++FM Engineer          st Allan           b Gibbs                0          0 0
+SA Durani             c Hunte            b Gibbs                5            0
+RB Desai              c Sobers           b Gibbs                1          0 0
+Extras                (b 8, lb 3, w 2, nb 1)                   14
+Total                 (all out, 185.3 overs)                  187
+
+FoW: 1-0 (Jaisimha), 2-60 (Surti), 3-158 (Manjrekar),
+     4-159 (Sardesai), 5-159 (Pataudi), 6-174 (Umrigar),
+     7-177 (Borde), 8-177 (Engineer), 9-183 (Durani),
+     10-187 (Desai).
+
+Bowling                      O      M      R      W
+Hall                        10      3     17      0
+Stayers                     18      8     24      2
+Worrell                     27     18     16      0
+Gibbs                       53.3   37     38      8
+Valentine                   29     19     26      0
+Sobers                      17     10     14      0
+Solomon                     29     17     33      0
+Kanhai                       2      1      5      0
+
+<END>

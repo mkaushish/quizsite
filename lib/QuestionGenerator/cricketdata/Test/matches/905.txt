@@ -1,0 +1,126 @@
+
+Test # 905
+The Ashes, 1981, 3rd Test
+England v Australia
+Headingley, Leeds
+16,17,18,20,21 July 1981 (5-day match)
+
+Result: England won by 18 runs
+Series: 6-match series level 1-1
+
+Toss: Australia
+Umpires: DGL Evans and BJ Meyer
+Player of the match: IT Botham
+
+Close of play:
+ Day 1: Australia 203/3 (Hughes 24*, Bright 1*)
+ Day 2: Australia 401/9d, England 7/0 (Gooch 2*, Boycott 0*)
+ Day 3: England 174, England 6/1 (Boycott 0*, Brearley 4*)
+ Day 4: England 351/9 (Botham 145*, Willis 1*)
+
+Australia 1st innings                                           R   M   B  4 6
+J Dyson                                  b Dilley             102 294 234 14 0
+GM Wood               lbw                b Botham              34  71  55  4 0
+TM Chappell           c Taylor           b Willey              27 161 135  2 0
+*KJ Hughes                           c & b Botham              89 270 208  8 0
+RJ Bright                                b Dilley               7  48  36  1 0
+GN Yallop             c Taylor           b Botham              58 208 167  5 0
+AR Border             lbw                b Botham               8  35  20  1 0
++RW Marsh                                b Botham              28  65  50  5 0
+GF Lawson             c Taylor           b Botham              13  45  35  2 0
+DK Lillee             not out                                   3   8   6  0 0
+TM Alderman           not out                                   0   0   0  0 0
+Extras                (b 4, lb 13, w 3, nb 12)                 32
+Total                 (9 wickets dec, 155.2 overs)            401
+
+FoW: 1-55 (Wood), 2-149 (Chappell), 3-196 (Dyson),
+     4-220 (Bright), 5-332 (Hughes), 6-354 (Border),
+     7-357 (Yallop), 8-396 (Lawson), 9-401 (Marsh).
+
+Bowling                      O      M      R      W
+Willis                      30      8     72      0
+Old                         43     14     91      0
+Dilley                      27      4     78      2
+Botham                      39.2   11     95      6
+Willey                      13      2     31      1
+Boycott                      3      2      2      0
+
+England 1st innings                                             R   M   B  4 6
+GA Gooch              lbw                b Alderman             2  17   7  0 0
+G Boycott                                b Lawson              12  89  58  0 0
+*JM Brearley          c Marsh            b Alderman            10  64  53  0 0
+DI Gower              c Marsh            b Lawson              24  58  50  3 0
+MW Gatting            lbw                b Lillee              15  58  29  2 0
+P Willey                                 b Lawson               8  29  22  0 0
+IT Botham             c Marsh            b Lillee              50  80  54  8 0
++RW Taylor            c Marsh            b Lillee               5  36  23  1 0
+GR Dilley                            c & b Lillee              13  30  17  2 0
+CM Old                c Border           b Alderman             0   4   4  0 0
+RGD Willis            not out                                   1   5   4  0 0
+Extras                (b 6, lb 11, w 6, nb 11)                 34
+Total                 (all out, 50.5 overs)                   174
+
+FoW: 1-12 (Gooch), 2-40 (Brearley), 3-42 (Boycott), 4-84 (Gower),
+     5-87 (Gatting), 6-112 (Willey), 7-148 (Taylor),
+     8-166 (Botham), 9-167 (Old), 10-174 (Dilley).
+
+Bowling                      O      M      R      W
+Lillee                      18.5    7     49      4
+Alderman                    19      4     59      3
+Lawson                      13      3     32      3
+
+England 2nd innings (following on)                              R   M   B  4 6
+GA Gooch              c Alderman         b Lillee               0   2   3  0 0
+G Boycott             lbw                b Alderman            46 215 141  1 0
+*JM Brearley          c Alderman         b Lillee              14  33  29  3 0
+DI Gower              c Border           b Alderman             9  36  22  1 0
+MW Gatting            lbw                b Alderman             1  10  10  0 0
+P Willey              c Dyson            b Lillee              33  84  56  6 0
+IT Botham             not out                                 149 219 148 27 1
++RW Taylor            c Bright           b Alderman             1   9   9  0 0
+GR Dilley                                b Alderman            56  80  75  9 0
+CM Old                                   b Lawson              29  54  31  6 0
+RGD Willis            c Border           b Alderman             2  31   9  0 0
+Extras                (b 5, lb 3, w 3, nb 5)                   16
+Total                 (all out, 87.3 overs)                   356
+
+FoW: 1-0 (Gooch), 2-18 (Brearley), 3-37 (Gower), 4-41 (Gatting),
+     5-105 (Willey), 6-133 (Boycott), 7-135 (Taylor),
+     8-252 (Dilley), 9-319 (Old), 10-356 (Willis).
+
+Bowling                      O      M      R      W
+Lillee                      25      6     94      3
+Alderman                    35.3    6    135      6
+Lawson                      23      4     96      1
+Bright                       4      0     15      0
+
+Australia 2nd innings (target: 130 runs)                        R   M   B  4 6
+J Dyson               c Taylor           b Willis              34 119  83  3 0
+GM Wood               c Taylor           b Botham              10   9  10  2 0
+TM Chappell           c Taylor           b Willis               8  68  56  0 0
+*KJ Hughes            c Botham           b Willis               0  14   9  0 0
+GN Yallop             c Gatting          b Willis               0   2   3  0 0
+AR Border                                b Old                  0  13   8  0 0
++RW Marsh             c Dilley           b Willis               4  18   9  0 0
+RJ Bright                                b Willis              19  49  32  2 0
+GF Lawson             c Taylor           b Willis               1   2   2  0 0
+DK Lillee             c Gatting          b Willis              17  22  15  3 0
+TM Alderman           not out                                   0   6   5  0 0
+Extras                (lb 3, w 1, nb 14)                       18
+Total                 (all out, 36.1 overs)                   111
+
+FoW: 1-13 (Wood), 2-56 (Chappell), 3-58 (Hughes), 4-58 (Yallop),
+     5-65 (Border), 6-68 (Dyson), 7-74 (Marsh), 8-75 (Lawson),
+     9-110 (Lillee), 10-111 (Bright).
+
+Bowling                      O      M      R      W
+Botham                       7      3     14      1
+Dilley                       2      0     11      0
+Willis                      15.1    3     43      8
+Old                          9      1     21      1
+Willey                       3      1      4      0
+
+*** Only the second time in Test match history that the side following on has
+    won.
+
+<END>

@@ -1,0 +1,121 @@
+
+Test # 464
+The Ashes, 1958/59, 3rd Test
+Australia v England
+Sydney Cricket Ground
+9,10,12,13,14,15 January 1959 (6-day match)
+
+Result: Match drawn
+Series: Australia leads the 5-match series 2-0
+
+Toss: England
+Umpires: C Hoy and MJ McInnes
+Balls per over: 8
+Test debuts: KN Slater (Australia); R Swetman (England).
+
+Close of play:
+ Day 1: England 190/6 (Swetman 36*, Lock 17*)
+ Day 2: England 219, Australia 3/0 (McDonald 1*, Burke 2*)
+ Day 3: Australia 184/3 (O'Neill 66*, Favell 50*)
+ Day 4: Australia 357, England 1/0 (Bailey 1*, Milton 0*)
+ Day 5: England 178/3 (May 63*, Cowdrey 50*)
+
+England 1st innings                                             R   M   B  4 6
+TE Bailey             lbw                b Meckiff              8  27  24  1 0
+CA Milton             c Meckiff          b Davidson             8  35  23  1 0
+TW Graveney           c Harvey           b Benaud              33 133 114  3 0
+*PBH May              c Mackay           b Slater              42 114 117  3 0
+MC Cowdrey            c Harvey           b Benaud              34  97 104  5 0
+ER Dexter             lbw                b Slater               1   5   7  0 0
++R Swetman            c Mackay           b Benaud              41 168 180  1 0
+GAR Lock              lbw                b Mackay              21  62  58  3 0
+FS Trueman            c Burke            b Benaud              18  37  29  1 1
+JC Laker              c Harvey           b Benaud               2   2   4  0 0
+JB Statham            not out                                   0   8   2  0 0
+Extras                (b 4, lb 5, w 2)                         11
+Total                 (all out, 82.4 overs)                   219
+
+FoW: 1-19 (Bailey), 2-23 (Milton), 3-91 (May), 4-97 (Graveney),
+     5-98 (Dexter), 6-155 (Cowdrey), 7-194 (Lock),
+     8-200 (Swetman), 9-202 (Laker), 10-219 (Trueman).
+
+Bowling                      O      M      R      W
+Davidson                    12      3     21      1
+Meckiff                     15      2     45      1
+Benaud                      33.4   10     83      5
+Slater                      14      4     40      2
+Mackay                       8      3     19      1
+
+Australia 1st innings                                           R   M   B  4 6
+CC McDonald           c Graveney         b Lock                40 192 166  2 0
+JW Burke              c Lock             b Laker               12  74  54  0 0
+RN Harvey                                b Laker                7  47  46  1 0
+NC O'Neill            c Swetman          b Laker               77 222 194  7 0
+LE Favell             c Cowdrey          b Lock                54 147 169  4 0
+KD Mackay                                b Trueman             57 199 154  6 0
+*R Benaud                                b Laker                6   9  15  1 0
+AK Davidson           lbw                b Lock                71 232 173  8 0
++ATW Grout            c Statham          b Laker               14  53  50  0 0
+KN Slater             not out                                   1   7   4  0 0
+I Meckiff                                b Lock                 2   2   2  0 0
+Extras                (b 5, lb 10, nb 1)                       16
+Total                 (all out, 128.2 overs)                  357
+
+FoW: 1-26 (Burke), 2-52 (Harvey), 3-87 (McDonald),
+     4-197 (Favell), 5-199 (O'Neill), 6-208 (Benaud),
+     7-323 (Mackay), 8-353 (Davidson), 9-355 (Grout),
+     10-357 (Meckiff).
+
+Bowling                      O      M      R      W
+Statham                     16      2     48      0
+Trueman                     18      3     37      1
+Lock                        43.2    9    130      4
+Laker                       46      9    107      5
+Bailey                       5      0     19      0
+
+England 2nd innings                                             R   M   B  4 6
+TE Bailey             c sub              b Benaud              25  86  92  3 0
+CA Milton             c Davidson         b Benaud               8  71  56  1 0
+TW Graveney           lbw                b Davidson            22  53  56  2 0
+*PBH May                                 b Burke               92 318 269 10 0
+MC Cowdrey            not out                                 100 365 302  7 0
+ER Dexter             c Grout            b Benaud              11  32  33  2 0
++R Swetman            lbw                b Burke                5  23  30  0 0
+FS Trueman            st Grout           b Benaud               0   3   1  0 0
+GAR Lock              not out                                  11  22  31  2 0
+Extras                (b 11, lb 1, w 1)                        13
+Total                 (7 wickets dec, 109 overs)              287
+
+DNB: JC Laker, JB Statham.
+
+FoW: 1-30 (Milton), 2-37 (Bailey), 3-64 (Graveney), 4-246 (May),
+     5-262 (Dexter), 6-269 (Swetman), 7-270 (Trueman).
+
+Bowling                      O      M      R      W
+Davidson                    33     11     65      1
+Meckiff                      3      1      7      0
+Benaud                      33      7     94      4
+Slater                      18      5     61      0
+Mackay                      11      2     21      0
+Burke                       11      3     26      2
+
+Australia 2nd innings (target: 150 runs)                        R   M   B  4 6
+CC McDonald                              b Laker               16  73  83  1 0
+JW Burke                                 b Laker                7  53  41  1 0
+RN Harvey             not out                                  18  55  57  3 0
+NC O'Neill            not out                                   7  35  29  0 0
+Extras                (b 6)                                     6
+Total                 (2 wickets, 25 overs)                    54
+
+DNB: LE Favell, KD Mackay, *R Benaud, AK Davidson, +ATW Grout,
+     KN Slater, I Meckiff.
+
+FoW: 1-22 (Burke), 2-33 (McDonald).
+
+Bowling                      O      M      R      W
+Statham                      2      0      6      0
+Trueman                      4      1      9      0
+Lock                        11      4     23      0
+Laker                        8      3     10      2
+
+<END>

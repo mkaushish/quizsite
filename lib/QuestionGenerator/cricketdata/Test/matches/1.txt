@@ -1,0 +1,148 @@
+
+Test # 1
+England in Australia, 1876/77, 1st Test
+Australia v England
+Melbourne Cricket Ground
+15,16,17,19 March 1877 (timeless match)
+
+Result: Australia won by 45 runs
+Series: Australia leads the 2-match series 1-0
+
+Toss: Australia
+Umpires: CA Reid and RB Terry
+Balls per over: 4
+Test debuts: C Bannerman, JM Blackham, BB Cooper, TW Garrett, DW Gregory,
+ EJ Gregory, JR Hodges, TP Horan, TK Kendall, WE Midwinter,
+ NFD Thomson (Australia); T Armitage, HRJ Charlwood, T Emmett, A Greenwood,
+ A Hill, H Jupp, James Lillywhite jnr, J Selby, A Shaw, J Southerton,
+ G Ulyett (England).
+
+Close of play:
+ Day 1: Australia 166/6 (Bannerman 126*, Blackham 3*)
+ Day 2: Australia 245, England 109/4 (Jupp 54*)
+ Day 3: England 196, Australia 83/9 (Kendall 5*, Hodges 3*)
+
+Australia 1st innings                                           R   M   B  4 6
+C Bannerman           retired hurt                            165 285     18 0
+NFD Thomson                              b Hill                 1          0 0
+TP Horan              c Hill             b Shaw                12            0
+*DW Gregory           run out                                   1          0 0
+BB Cooper                                b Southerton          15            0
+WE Midwinter          c Ulyett           b Southerton           5            0
+EJ Gregory            c Greenwood        b Lillywhite           0          0 0
++JM Blackham                             b Southerton          17            0
+TW Garrett            not out                                  18            0
+TK Kendall            c Southerton       b Shaw                 3          0 0
+JR Hodges                                b Shaw                 0          0 0
+Extras                (b 4, lb 2, w 2)                          8
+Total                 (all out, 169.3 overs)                  245
+
+FoW: 1-2 (Thomson), 2-40 (Horan), 3-41 (DW Gregory),
+     4-118 (Cooper), 5-142 (Midwinter), 6-143 (EJ Gregory),
+     7-197 (Blackham), 8-243 (Kendall), 9-245 (Hodges).
+
+Bowling                      O      M      R      W
+Shaw                        55.3   34     51      3
+Hill                        23     10     42      1
+Ulyett                      25     12     36      0
+Southerton                  37     17     61      3
+Armitage                     3      0     15      0 (2w)
+Lillywhite                  14      5     19      1
+Emmett                      12      7     13      0
+
+England 1st innings                                             R   M   B  4 6
+H Jupp                lbw                b Garrett             63 191 241  2 0
++J Selby              c Cooper           b Hodges               7  18  18  1 0
+HRJ Charlwood         c Blackham         b Midwinter           36  59  62  2 0
+G Ulyett              lbw                b Thomson             10  14  21  2 0
+A Greenwood           c EJ Gregory       b Midwinter            1  22  26  0 0
+T Armitage            c Blackham         b Midwinter            9  24  31  1 0
+A Shaw                                   b Midwinter           10  22  28  0 0
+T Emmett                                 b Midwinter            8  25  32  0 0
+A Hill                not out                                  35  41  47  3 0
+*James Lillywhite jnr                c & b Kendall             10  14  15  1 0
+J Southerton          c Cooper           b Garrett              6  21  21  0 0
+Extras                (lb 1)                                    1
+Total                 (all out, 136.1 overs)                  196
+
+FoW: 1-23 (Selby), 2-79 (Charlwood), 3-98 (Ulyett),
+     4-109 (Greenwood), 5-121 (Armitage), 6-135 (Shaw),
+     7-145 (Jupp), 8-145 (Emmett), 9-168 (Lillywhite),
+     10-196 (Southerton).
+
+Bowling                      O      M      R      W
+Hodges                       9      0     27      1
+Garrett                     18.1   10     22      2
+Kendall                     38     16     54      1
+Midwinter                   54     23     78      5
+Thomson                     17     10     14      1
+
+Australia 2nd innings                                           R   M   B  4 6
+C Bannerman                              b Ulyett               4   8  10  1 0
+NFD Thomson           c Emmett           b Shaw                 7  26  26  0 0
+TP Horan              c Selby            b Hill                20  28  32  2 0
+TW Garrett            c Emmett           b Shaw                 0   7   8  0 0
+BB Cooper                                b Shaw                 3  14  16  0 0
+WE Midwinter          c Southerton       b Ulyett              17  68  73  1 0
+EJ Gregory            c Emmett           b Ulyett              11  26  31  1 0
++JM Blackham          lbw                b Shaw                 6  16  20  0 0
+*DW Gregory                              b Shaw                 3  14  15  0 0
+TK Kendall            not out                                  17  22  22  3 0
+JR Hodges                                b Lillywhite           8  18  18  1 0
+Extras                (b 5, lb 3)                               8
+Total                 (all out, 68 overs)                     104
+
+FoW: 1-7 (Bannerman), 2-27 (Thomson), 3-31 (Garrett),
+     4-31 (Horan), 5-35 (Cooper), 6-58 (EJ Gregory),
+     7-71 (Blackham), 8-75 (Midwinter), 9-75 (DW Gregory),
+     10-104 (Hodges).
+
+Bowling                      O      M      R      W
+Shaw                        34     16     38      5
+Ulyett                      19      7     39      3
+Hill                        14      6     18      1
+Lillywhite                   1      0      1      1
+
+England 2nd innings (target: 154 runs)                          R   M   B  4 6
+A Hill                c Thomson          b Kendall              0   1   2  0 0
+A Greenwood           c Midwinter        b Kendall              5   5   5  0 0
+H Jupp                lbw                b Midwinter            4  18  17  0 0
+HRJ Charlwood                            b Kendall             13  16  17  1 0
++J Selby              c Horan            b Hodges              38  81  81  4 0
+G Ulyett                                 b Kendall             24  47  62  1 0
+A Shaw                st Blackham        b Kendall              2   5   9  0 0
+T Armitage            c Blackham         b Kendall              3  31  32  0 0
+T Emmett                                 b Kendall              9  28  27  0 0
+*James Lillywhite jnr                    b Hodges               4   4   6  0 0
+J Southerton          not out                                   1  12   7  0 0
+Extras                (b 4, lb 1)                               5
+Total                 (all out, 66.1 overs)                   108
+
+FoW: 1-0 (Hill), 2-7 (Greenwood), 3-20 (Jupp), 4-22 (Charlwood),
+     5-62 (Ulyett), 6-68 (Shaw), 7-92 (Selby), 8-93 (Armitage),
+     9-100 (Lillywhite), 10-108 (Emmett).
+
+Bowling                      O      M      R      W
+Kendall                     33.1   12     55      7
+Midwinter                   19      7     23      1
+DW Gregory                   5      1      9      0
+Garrett                      2      0      9      0
+Hodges                       7      5      7      2
+
+*** Alfred Shaw bowled the first Test delivery to Charles Bannerman, who went
+    on to become the first Test centurion. Hill had both the first Test
+    wicket and the first catch. Midwinter picked up the first 5 wicket haul,
+    and Blackham had the first stumping.
+
+*** W.Newing fielded for Bannerman.
+
+*** Southerton is still the oldest Test debutant at 49 years 119 days.
+
+*** Bannerman scored 69.6% of his side's runs from the bat - still a record
+    in Test matches - his 165 took about 290 minutes and included 18 fours.
+*** C Bannerman retired hurt at 240/7 (split the index finger on his right
+    hand by a ball from Ulyett)
+
+*** Attendances on the four 4 days were approximately 4500, 4000 10000, 2000
+
+<END>

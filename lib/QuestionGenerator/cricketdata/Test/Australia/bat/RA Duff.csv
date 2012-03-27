@@ -1,0 +1,41 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+66, 1902-01-01, 1, 7, England, c Braund, Barnes, 32, 42, na, 5, 0
+66, 1902-01-01, 3, 10, England, , Braund, 104, 206, na, 11, na
+67, 1902-01-17, 2, 4, England, lbw, Braund, 43, 90, na, 8, 0
+67, 1902-01-17, 4, 1, England, hit wicket, Gunn, 4, 8, na, 1, 0
+68, 1902-02-14, 2, 6, England, c Lilley, Blythe, 39, 88, na, na, 0
+68, 1902-02-14, 4, 1, England, not out, , 51, 97, na, 6, 0
+69, 1902-02-28, 1, 2, England, , Braund, 10, 5, na, 2, 0
+69, 1902-02-28, 3, 2, England,                c &, Braund, 28, 39, na, 5, 0
+70, 1902-05-29, 2, 2, England, c Jessop, Rhodes, 2, na, na, 0, 0
+70, 1902-05-29, 3, 2, England, c Fry, Braund, 15, na, na, na, 0
+72, 1902-07-03, 1, 2, England, c Lilley, Barnes, 25, na, na, na, 0
+72, 1902-07-03, 3, 2, England, c Hirst, Rhodes, 1, na, na, 0, 0
+73, 1902-07-24, 1, 2, England, c Lilley, Lockwood, 54, 78, na, na, 0
+73, 1902-07-24, 3, 2, England, , Lockwood, 3, na, na, 0, 0
+74, 1902-08-11, 1, 2, England, c Lilley, Hirst, 23, na, na, na, 0
+74, 1902-08-11, 3, 2, England, , Lockwood, 6, na, na, na, 0
+75, 1902-10-11, 2, 4, South Africa, not out, , 82, na, na, na, 0
+75, 1902-10-11, 3, 2, South Africa, c Halliwell, Rowe, 15, na, na, na, 0
+76, 1902-10-18, 1, 2, South Africa, , Middleton, 43, na, na, na, 0
+76, 1902-10-18, 3, 4, South Africa, , Sinclair, 44, na, na, na, 0
+77, 1902-11-08, 1, 1, South Africa, c Tancred, Kotze, 34, na, na, na, 0
+77, 1902-11-08, 4, 1, South Africa, not out, , 20, na, na, na, 0
+78, 1903-12-11, 1, 1, England, c Lilley, Arnold, 3, 12, na, 0, 0
+78, 1903-12-11, 3, 3, England, c Relf, Rhodes, 84, 130, na, 7, 0
+79, 1904-01-01, 2, 1, England, st Lilley, Rhodes, 10, 10, na, 1, 0
+79, 1904-01-01, 4, 1, England, c Braund, Rhodes, 8, 9, na, 0, 0
+80, 1904-01-15, 1, 2, England, , Hirst, 79, 88, na, 13, 0
+80, 1904-01-15, 3, 2, England, c Braund, Hirst, 14, 35, na, 1, 0
+81, 1904-02-26, 2, 1, England, , Arnold, 47, 65, na, 4, 0
+81, 1904-02-26, 4, 1, England, , Arnold, 19, 61, na, na, 0
+82, 1904-03-05, 1, 1, England, , Braund, 9, 10, na, 0, 0
+82, 1904-03-05, 3, 7, England, c Warner, Rhodes, 31, 55, na, 5, 0
+83, 1905-05-29, 2, 1, England, c Hayward, Gunn, 1, na, na, 0, 0
+83, 1905-05-29, 4, 1, England,                c &, Bosanquet, 25, na, na, na, 0
+84, 1905-06-15, 2, 2, England, c Lilley, Rhodes, 27, na, na, na, 0
+85, 1905-07-03, 2, 2, England, c Lilley, Blythe, 48, na, na, na, 0
+85, 1905-07-03, 4, 2, England, , Hirst, 17, na, na, na, 0
+86, 1905-07-24, 2, 5, England, c MacLaren, Brearley, 11, na, na, na, 0
+86, 1905-07-24, 3, 1, England, c Spooner, Brearley, 60, 100, na, 5, 0
+87, 1905-08-14, 2, 2, England,                c &, Hirst, 146, 197, na, 21, 0

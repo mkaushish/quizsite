@@ -1,0 +1,98 @@
+
+Test # 427
+The Ashes, 1956, 3rd Test
+England v Australia
+Headingley, Leeds
+12,13,14,16,17 July 1956 (5-day match)
+
+Result: England won by an innings and 42 runs
+Series: 5-match series level 1-1
+
+Toss: England
+Umpires: JS Buller and D Davies
+Test debut: ASM Oakman (England).
+
+Close of play:
+ Day 1: England 204/4 (Washbrook 90*, Lock 0*)
+ Day 2: England 325, Australia 81/6 (Miller 8*, Benaud 8*)
+ Day 3: No play
+ Day 4: Australia 143, Australia 93/2 (Harvey 40*, Miller 24*)
+
+England 1st innings                                             R   M   B  4 6
+PE Richardson         c Maddocks         b Archer               5  65      0 0
+MC Cowdrey            c Maddocks         b Archer               0  14      0 0
+ASM Oakman                               b Archer               4  21      0 0
+*PBH May              c Lindwall         b Johnson            101 317     12 0
+C Washbrook           lbw                b Benaud              98 328     13 0
+GAR Lock              c Miller           b Benaud              21  62      3 0
+DJ Insole             c Mackay           b Benaud               5  43      1 0
+TE Bailey             not out                                  33 129      3 0
++TG Evans                                b Lindwall            40  67      5 0
+JC Laker                                 b Lindwall             5  29      0 0
+FS Trueman                           c & b Lindwall             0   8      0 0
+Extras                (b 4, lb 9)                              13
+Total                 (all out, 167.4 overs)                  325
+
+FoW: 1-2 (Cowdrey), 2-8 (Oakman), 3-17 (Richardson), 4-204 (May),
+     5-226 (Washbrook), 6-243 (Lock), 7-248 (Insole),
+     8-301 (Evans), 9-321 (Laker), 10-325 (Trueman).
+
+Bowling                      O      M      R      W
+Lindwall                    33.4   11     67      3
+Archer                      50     24     68      3
+Mackay                      13      3     29      0
+Benaud                      42      9     89      3
+Johnson                     29      8     59      1
+
+Australia 1st innings                                           R   M   B  4 6
+CC McDonald           c Evans            b Trueman              2   2      0 0
+JW Burke              lbw                b Lock                41 102      5 0
+RN Harvey             c Trueman          b Lock                11  59      1 0
+PJP Burge             lbw                b Laker                2  27      0 0
+KD Mackay             c Bailey           b Laker                2  27      0 0
+KR Miller                                b Laker               41 130      4 1
+RG Archer                                b Laker                4   6      1 0
+R Benaud              c Oakman           b Laker               30  91      6 0
++LV Maddocks          c Trueman          b Lock                 0   6      0 0
+*IWG Johnson          c Richardson       b Lock                 0   6      0 0
+RR Lindwall           not out                                   0   3      0 0
+Extras                (b 4, lb 6)                              10
+Total                 (all out, 71.1 overs)                   143
+
+FoW: 1-2 (McDonald), 2-40 (Harvey), 3-59 (Burge), 4-59 (Burke),
+     5-63 (Mackay), 6-69 (Archer), 7-142 (Benaud),
+     8-143 (Maddocks), 9-143 (Miller), 10-143 (Johnson).
+
+Bowling                      O      M      R      W
+Trueman                      8      2     19      1
+Bailey                       7      2     15      0
+Laker                       29     10     58      5
+Lock                        27.1   11     41      4
+
+Australia 2nd innings (following on)                            R   M   B  4 6
+CC McDonald                              b Trueman              6  20      0 0
+JW Burke                                 b Laker               16  79      1 0
+RN Harvey                            c & b Lock                69 270      4 0
+KR Miller             c Trueman          b Laker               26 146      1 2
+PJP Burge             lbw                b Laker                5  22      1 0
+R Benaud                                 b Laker                1  17      0 0
+*IWG Johnson          c Oakman           b Laker                3  13      0 0
+KD Mackay                                b Laker                2  21      0 0
+RG Archer             c Washbrook        b Lock                 1   7      0 0
++LV Maddocks          lbw                b Lock                 0   8      0 0
+RR Lindwall           not out                                   0   2      0 0
+Extras                (b 7, lb 4)                              11
+Total                 (all out, 99.3 overs)                   140
+
+FoW: 1-10 (McDonald), 2-45 (Burke), 3-108 (Miller),
+     4-120 (Burge), 5-128 (Benaud), 6-136 (Johnson),
+     7-138 (Harvey), 8-140 (Archer), 9-140 (Maddocks),
+     10-140 (Mackay).
+
+Bowling                      O      M      R      W
+Trueman                     11      3     21      1
+Bailey                       7      2     13      0
+Laker                       41.3   21     55      6
+Lock                        40     23     40      3
+
+<END>

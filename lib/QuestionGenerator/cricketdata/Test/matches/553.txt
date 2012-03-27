@@ -1,0 +1,119 @@
+
+Test # 553
+South Africa in Australia, 1963/64, 4th Test
+Australia v South Africa
+Adelaide Oval
+24,25,27,28,29 January 1964 (5-day match)
+
+Result: South Africa won by 10 wickets
+Series: 5-match series level 1-1
+
+Toss: Australia
+Umpires: CJ Egar and LP Rowan
+Balls per over: 8
+
+Close of play:
+ Day 1: Australia 281/5 (Shepherd 25*, Benaud 2*)
+ Day 2: Australia 345, South Africa 295/2 (Barlow 125*, RG Pollock 120*)
+ Day 3: South Africa 595, Australia 48/0 (Simpson 19*, Lawry 28*)
+ Day 4: Australia 317/9 (Grout 11*, Gaunt 0*)
+
+Australia 1st innings                                           R   M   B  4 6
+*RB Simpson                              b Goddard             78 200      5 0
+WM Lawry              c Partridge        b PM Pollock          14  43      1 0
+NC O'Neill            c Goddard          b PM Pollock           0   3      0 0
+PJP Burge             c Halse            b PM Pollock          91 235      3 0
+BC Booth              c Lindsay          b Goddard             58 153      6 0
+BK Shepherd           lbw                b Goddard             70 157      7 0
+R Benaud                                 b Partridge            7  16      0 0
+GD McKenzie           c Lindsay          b Goddard             12  47      1 0
++ATW Grout            c PM Pollock       b Goddard              0   2      0 0
+NJN Hawke             not out                                   0  23      0 0
+RA Gaunt              run out                                   1   3      0 0
+Extras                (b 1, lb 8, nb 5)                        14
+Total                 (all out, 93.6 overs)                   345
+
+FoW: 1-35 (Lawry), 2-37 (O'Neill), 3-141 (Simpson),
+     4-225 (Burge), 5-279 (Booth), 6-290 (Benaud),
+     7-333 (McKenzie), 8-333 (Grout), 9-344 (Shepherd),
+     10-345 (Gaunt).
+
+Bowling                      O      M      R      W
+PM Pollock                  21      1     96      3
+Partridge                   22      4     76      1
+Halse                       13      1     54      0
+Goddard                     24.6    4     60      5
+Seymour                     12      2     38      0
+Bland                        1      0      7      0
+
+South Africa 1st innings                                        R   M   B  4 6
+*TL Goddard                              b Hawke               34  72      2 0
+EJ Barlow             lbw                b Hawke              201 392     27 0
+AJ Pithey             c Grout            b Hawke                0   8      0 0
+RG Pollock                               b Hawke              175 283     18 3
+KC Bland              c Grout            b Gaunt               33  76      4 0
+PR Carlstein          c Benaud           b Gaunt               37  59      5 0
++DT Lindsay                              b Simpson             41  53      5 0
+PM Pollock            c Benaud           b Hawke               21  92      1 0
+MA Seymour            c Simpson          b Hawke                3  19      0 0
+JT Partridge                             b McKenzie             6  20      1 0
+CG Halse              not out                                  19  14      4 0
+Extras                (b 7, lb 8, w 3, nb 7)                   25
+Total                 (all out, 123.1 overs)                  595
+
+FoW: 1-70 (Goddard), 2-70 (Pithey), 3-411 (RG Pollock),
+     4-437 (Barlow), 5-500 (Bland), 6-501 (Carlstein),
+     7-559 (Lindsay), 8-568 (Seymour), 9-575 (PM Pollock),
+     10-595 (Partridge).
+
+Bowling                      O      M      R      W
+Gaunt                       24      2    115      2
+McKenzie                    30.1    2    156      1
+Hawke                       39      5    139      6
+Benaud                      20      1    101      0
+Simpson                     10      1     59      1
+
+Australia 2nd innings                                           R   M   B  4 6
+*RB Simpson           c Lindsay          b Halse               34  91      1 0
+WM Lawry              c Goddard          b PM Pollock          38  71      5 0
+NC O'Neill            c Partridge        b Halse               66 140      6 1
+PJP Burge             run out                                  20  65      0 0
+BC Booth              lbw                b PM Pollock          24  97      1 0
+BK Shepherd           c Lindsay          b Barlow              78 158      9 0
+R Benaud                                 b Barlow              34 128      4 0
+GD McKenzie                          c & b Barlow               4  18      0 0
+NJN Hawke             c Carlstein        b Seymour              0   2      0 0
++ATW Grout            c Pithey           b Halse               23  34      1 0
+RA Gaunt              not out                                   2  21      0 0
+Extras                (lb 4, w 1, nb 3)                         8
+Total                 (all out, 89.3 overs)                   331
+
+FoW: 1-72 (Lawry), 2-81 (Simpson), 3-125 (Burge),
+     4-178 (O'Neill), 5-210 (Booth), 6-301 (Shepherd),
+     7-301 (Benaud), 8-302 (Hawke), 9-310 (McKenzie),
+     10-331 (Grout).
+
+Bowling                      O      M      R      W
+PM Pollock                  14      1     73      2
+Partridge                   17      3     76      0
+Halse                       13.3    0     50      3
+Goddard                     21      3     64      0
+Seymour                     19      1     54      1
+Barlow                       5      2      6      3
+
+South Africa 2nd innings (target: 82 runs)                      R   M   B  4 6
+*TL Goddard           not out                                  34  81      3 0
+EJ Barlow             not out                                  47  81      6 0
+Extras                (w 1)                                     1
+Total                 (0 wickets, 17 overs)                    82
+
+DNB: AJ Pithey, RG Pollock, KC Bland, PR Carlstein, +DT Lindsay,
+     PM Pollock, MA Seymour, JT Partridge, CG Halse.
+
+Bowling                      O      M      R      W
+Gaunt                        4      0     22      0
+McKenzie                     4      0     22      0
+Hawke                        6      0     20      0
+Benaud                       3      1     17      0
+
+<END>

@@ -1,0 +1,101 @@
+
+Test # 303
+The Ashes, 1948, 5th Test
+England v Australia
+Kennington Oval, London
+14,16,17,18 August 1948 (5-day match)
+
+Result: Australia won by an innings and 149 runs
+Series: Australia wins the 5-match series 4-0
+
+Toss: England
+Umpires: HG Baldwin and D Davies
+Test debuts: JG Dewes, AJ Watkins (England).
+
+Close of play:
+ Day 1: England 52, Australia 153/2 (Morris 77*, Hassett 10*)
+ Day 2: Australia 389, England 54/1 (Hutton 19*, Edrich 23*)
+ Day 3: England 178/7 (Yardley 2*)
+
+England 1st innings                                             R   M   B  4 6
+L Hutton              c Tallon           b Lindwall            30 124 147  1 0
+JG Dewes                                 b Miller               1   6   5  0 0
+WJ Edrich             c Hassett          b Johnston             3  20  20  0 0
+DCS Compton           c Morris           b Lindwall             4   9  11  0 0
+JF Crapp              c Tallon           b Miller               0  19  23  0 0
+*NWD Yardley                             b Lindwall             7  31  33  0 0
+AJ Watkins            lbw                b Johnston             0  16  16  0 0
++TG Evans                                b Lindwall             1   9   4  0 0
+AV Bedser                                b Lindwall             0   3   5  0 0
+JA Young                                 b Lindwall             0   4   5  0 0
+WE Hollies            not out                                   0  12   8  0 0
+Extras                (b 6)                                     6
+Total                 (all out, 42.1 overs)                    52
+
+FoW: 1-2 (Dewes), 2-10 (Edrich), 3-17 (Compton), 4-23 (Crapp),
+     5-35 (Yardley), 6-42 (Watkins), 7-45 (Evans), 8-45 (Bedser),
+     9-47 (Young), 10-52 (Hutton).
+
+Bowling                      O      M      R      W
+Lindwall                    16.1    5     20      6
+Miller                       8      5      5      2
+Johnston                    16      4     20      2
+Loxton                       2      1      1      0
+
+Australia 1st innings                                           R   M   B  4 6
+SG Barnes             c Evans            b Hollies             61 126        0
+AR Morris             run out                                 196 406     16 0
+*DG Bradman                              b Hollies              0   1   2  0 0
+AL Hassett            lbw                b Young               37 134        0
+KR Miller             st Evans           b Hollies              5            0
+RN Harvey             c Young            b Hollies             17            0
+SJE Loxton            c Evans            b Edrich              15            0
+RR Lindwall           c Edrich           b Young                9            0
++D Tallon             c Crapp            b Hollies             31            0
+DT Ring               c Crapp            b Bedser               9            0
+WA Johnston           not out                                   0   1   2  0 0
+Extras                (b 4, lb 2, nb 3)                         9
+Total                 (all out, 158.2 overs)                  389
+
+FoW: 1-117 (Barnes), 2-117 (Bradman), 3-226 (Hassett),
+     4-243 (Miller), 5-265 (Harvey), 6-304 (Loxton),
+     7-332 (Lindwall), 8-359 (Morris), 9-389 (Tallon),
+     10-389 (Ring).
+
+Bowling                      O      M      R      W
+Bedser                      31.2    9     61      1
+Watkins                      4      1     19      0
+Young                       51     16    118      2
+Hollies                     56     14    131      5
+Compton                      2      0      6      0
+Edrich                       9      1     38      1
+Yardley                      5      1      7      0
+
+England 2nd innings                                             R   M   B  4 6
+L Hutton              c Tallon           b Miller              64            0
+JG Dewes                                 b Lindwall            10            0
+WJ Edrich                                b Lindwall            28            0
+DCS Compton           c Lindwall         b Johnston            39            0
+JF Crapp                                 b Miller               9            0
+*NWD Yardley          c Miller           b Johnston             9            0
+AJ Watkins            c Hassett          b Ring                 2          0 0
++TG Evans                                b Lindwall             8            0
+AV Bedser                                b Johnston             0   5   5  0 0
+JA Young              not out                                   3  10   7  0 0
+WE Hollies            c Morris           b Johnston             0   1   1  0 0
+Extras                (b 9, lb 4, nb 3)                        16
+Total                 (all out, 105.3 overs)                  188
+
+FoW: 1-20 (Dewes), 2-64 (Edrich), 3-125 (Compton),
+     4-153 (Hutton), 5-164 (Crapp), 6-167 (Watkins),
+     7-178 (Evans), 8-181 (Bedser), 9-188 (Yardley),
+     10-188 (Hollies).
+
+Bowling                      O      M      R      W
+Lindwall                    25      3     50      3
+Miller                      15      6     22      2
+Johnston                    27.3   12     40      4
+Loxton                      10      2     16      0
+Ring                        28     13     44      1
+
+<END>

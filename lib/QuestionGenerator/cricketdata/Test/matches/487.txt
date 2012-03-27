@@ -1,0 +1,123 @@
+
+Test # 487
+Australia in India, 1959/60, 5th Test
+India v Australia
+Eden Gardens, Calcutta
+23,24,25,27,28 January 1960 (5-day match)
+
+Result: Match drawn
+Series: Australia wins the 5-match series 2-1
+
+Toss: India
+Umpires: SK Ganguli and ND Sane
+
+Close of play:
+ Day 1: India 158/7 (Ramchand 12*, Jaisimha 2*)
+ Day 2: India 194, Australia 229/3 (O'Neill 93*, Burge 43*)
+ Day 3: Australia 331, India 67/2 (Roy 31*, Jaisimha 0*)
+ Day 4: India 243/6 (Jaisimha 59*, Kenny 26*)
+
+India 1st innings                                               R   M   B  4 6
++BK Kunderan                             b Mackay              12            0
+NJ Contractor                            b Benaud              36            0
+P Roy                 c Grout            b Davidson            33            0
+RG Nadkarni           c Burge            b Lindwall             2          0 0
+RB Kenny              c Grout            b Lindwall             7            0
+CD Gopinath                              b Benaud              39            0
+CG Borde                                 b Benaud               6            0
+*GS Ramchand                             b Davidson            12            0
+ML Jaisimha           not out                                  20            0
+RB Desai              c Grout            b Davidson            17            0
+JM Patel              run out                                   0          0 0
+Extras                (b 5, lb 1, w 1, nb 3)                   10
+Total                 (all out, 89.3 overs)                   194
+
+FoW: 1-30 (Kunderan), 2-59 (Contractor), 3-71 (Nadkarni),
+     4-83 (Kenny), 5-112 (Roy), 6-131 (Borde), 7-142 (Gopinath),
+     8-158 (Ramchand), 9-194 (Desai), 10-194 (Patel).
+
+Bowling                      O      M      R      W
+Davidson                    16      2     37      3
+Meckiff                     17      5     28      0
+Mackay                      11      5     16      1
+Lindwall                    16      6     44      2
+Benaud                      29.3   12     59      3
+
+Australia 1st innings                                           R   M   B  4 6
+LE Favell                                b Desai               26            0
++ATW Grout                               b Patel               50            0
+RN Harvey             c Jaisimha         b Patel               17            0
+NC O'Neill            c Kunderan         b Desai              113         15 0
+PJP Burge                                b Desai               60            0
+CC McDonald           lbw                b Borde               27            0
+KD Mackay                                b Patel               18            0
+RR Lindwall           c Kunderan         b Desai               10            0
+AK Davidson                              b Borde                4            0
+*R Benaud                            c & b Borde                3          0 0
+I Meckiff             not out                                   0          0 0
+Extras                (lb 3)                                    3
+Total                 (all out, 111.1 overs)                  331
+
+FoW: 1-76 (Grout), 2-76 (Favell), 3-116 (Harvey),
+     4-266 (O'Neill), 5-273 (Burge), 6-299 (Mackay),
+     7-323 (McDonald), 8-325 (Lindwall), 9-328 (Benaud),
+     10-331 (Davidson).
+
+Bowling                      O      M      R      W
+Desai                       36      4    111      4
+Ramchand                    10      1     37      0
+Patel                       26      2    104      3
+Nadkarni                    22     10     36      0
+Borde                       13.1    4     23      3
+Jaisimha                     4      0     17      0
+
+India 2nd innings                                               R   M   B  4 6
++BK Kunderan                             b Davidson             0          0 0
+NJ Contractor         c Davidson         b Benaud              30            0
+P Roy                 lbw                b Benaud              39            0
+ML Jaisimha                              b Mackay              74            0
+CD Gopinath           c Grout            b Benaud               0          0 0
+RG Nadkarni           c Grout            b Lindwall            29            0
+CG Borde                                 b Meckiff             50            0
+RB Kenny              c Grout            b Mackay              62            0
+*GS Ramchand                             b Benaud               9            0
+RB Desai              not out                                  17            0
+JM Patel              c Benaud           b Davidson            12            0
+Extras                (b 11, lb 4, nb 2)                       17
+Total                 (all out, 146.2 overs)                  339
+
+FoW: 1-0 (Kunderan), 2-67 (Contractor), 3-78 (Roy),
+     4-78 (Gopinath), 5-123 (Nadkarni), 6-206 (Borde),
+     7-289 (Jaisimha), 8-294 (Kenny), 9-316 (Ramchand),
+     10-339 (Patel).
+
+Bowling                      O      M      R      W
+Davidson                    36.2   13     76      2
+Meckiff                     21      2     41      1
+Mackay                      21      7     36      2
+Lindwall                    20      3     66      1
+Benaud                      48     23    103      4
+
+Australia 2nd innings (target: 203 runs)                        R   M   B  4 6
+LE Favell             not out                                  62            0
+CC McDonald           run out                                   6            0
+RN Harvey                            c & b Contractor          36            0
+*R Benaud             not out                                  10            0
+Extras                (b 1, lb 5, nb 1)                         7
+Total                 (2 wickets, 52 overs)                   121
+
+DNB: +ATW Grout, NC O'Neill, PJP Burge, KD Mackay, RR Lindwall,
+     AK Davidson, I Meckiff.
+
+FoW: 1-20 (McDonald), 2-104 (Harvey).
+
+Bowling                      O      M      R      W
+Desai                       11      4     18      0
+Ramchand                     3      2      4      0
+Patel                        7      1     15      0
+Nadkarni                     7      4     10      0
+Borde                       13      1     45      0
+Jaisimha                     6      2     13      0
+Contractor                   5      1      9      1
+
+<END>

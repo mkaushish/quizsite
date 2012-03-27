@@ -1,0 +1,58 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+515, 1961-12-08, 1, 2, New Zealand, , Motz, 15, na, na, na, 0
+515, 1961-12-08, 3, 2, New Zealand, c Dick, Motz, 10, na, na, na, 0
+517, 1961-12-26, 1, 2, New Zealand, c Reid, Motz, 47, 115, na, 9, 0
+517, 1961-12-26, 3, 2, New Zealand, c Dick, Motz, 45, 84, na, 7, 0
+519, 1962-01-01, 2, 2, New Zealand, c Harris, Alabaster, 51, 94, na, 10, 0
+519, 1962-01-01, 4, 2, New Zealand, c Reid, Alabaster, 16, na, na, na, 0
+523, 1962-02-02, 2, 2, New Zealand, c Dick, Reid, 67, 150, na, na, 2
+524, 1962-02-16, 2, 1, New Zealand, c Dowling, Motz, 20, na, na, na, 0
+524, 1962-02-16, 4, 1, New Zealand, , Reid, 59, 156, na, 9, 0
+548, 1963-12-06, 2, 2, Australia, , Benaud, 114, 354, na, 13, 0
+548, 1963-12-06, 4, 2, Australia, c Simpson, McKenzie, 0, 5, na, 0, 0
+549, 1964-01-01, 1, 2, Australia, c Connolly, McKenzie, 109, 273, 252, 11, 0
+549, 1964-01-01, 3, 2, Australia, run out, , 54, 108, 104, 5, 0
+550, 1964-01-10, 2, 2, Australia, c Grout, Connolly, 6, 11, 6, 0, 0
+550, 1964-01-10, 4, 2, Australia, c Simpson, Hawke, 35, 49, 48, 5, 0
+553, 1964-01-24, 2, 2, Australia, lbw, Hawke, 201, 392, na, 27, 0
+553, 1964-01-24, 4, 2, Australia, not out, , 47, 81, na, 6, 0
+555, 1964-02-07, 2, 2, Australia, c Benaud, O'Neill, 5, 27, 13, 0, 0
+555, 1964-02-07, 4, 2, Australia, not out, , 32, 85, 87, 3, 0
+558, 1964-02-21, 1, 2, New Zealand, , Cameron, 22, 68, na, 5, 0
+558, 1964-02-21, 3, 2, New Zealand, c Ward, Cameron, 92, 167, na, 14, 0
+559, 1964-02-28, 2, 2, New Zealand, , Reid, 49, 140, na, 1, 0
+559, 1964-02-28, 4, 2, New Zealand, hit wicket, Cameron, 13, na, 10, 3, 0
+560, 1964-03-13, 1, 2, New Zealand, c Shrimpton, Blair, 61, 157, na, 9, 0
+560, 1964-03-13, 3, 2, New Zealand, , Blair, 58, 106, na, 9, 0
+571, 1964-12-04, 2, 2, England, , Thomson, 2, 12, na, 0, 0
+571, 1964-12-04, 3, 2, England, c Barrington, Price, 0, 6, na, 0, 0
+572, 1964-12-23, 2, 2, England, c Price, Titmus, 71, 179, na, 11, 0
+572, 1964-12-23, 3, 2, England, c Smith, Allen, 15, 101, na, 0, 0
+573, 1965-01-01, 1, 2, England, c Parks, Thomson, 138, 344, na, 16, 0
+573, 1965-01-01, 3, 2, England, c Parks, Dexter, 78, 209, na, 10, 0
+575, 1965-01-22, 1, 2, England,                c &, Cartwright, 96, 231, 192, 11, 0
+575, 1965-01-22, 3, 2, England, c Barber, Titmus, 42, 75, 52, 5, 0
+578, 1965-02-12, 1, 2, England, c Parfitt, Boycott, 69, 237, na, 7, 0
+578, 1965-02-12, 3, 2, England, , Titmus, 47, 202, na, 2, 0
+594, 1965-07-22, 1, 1, England, c Barber, Rumsey, 1, na, na, 0, 0
+594, 1965-07-22, 3, 1, England, c Parks, Brown, 52, na, na, na, 0
+595, 1965-08-05, 1, 1, England, c Cowdrey, Cartwright, 19, 85, na, 3, 0
+595, 1965-08-05, 3, 4, England, , Titmus, 76, 192, na, 8, 0
+596, 1965-08-26, 1, 1, England, lbw, Statham, 18, 59, na, 0, 0
+596, 1965-08-26, 3, 1, England, , Statham, 18, 63, na, 3, 0
+611, 1966-12-23, 1, 2, Australia, c Taber, McKenzie, 13, na, na, 3, 0
+611, 1966-12-23, 3, 2, Australia, c Taber, Renneberg, 50, 142, 127, 7, 0
+613, 1967-12-31, 2, 2, Australia, c Redpath, McKenzie, 19, 74, na, na, 0
+613, 1967-12-31, 3, 2, Australia, run out, , 17, 97, na, na, 0
+615, 1967-01-20, 1, 1, Australia,                c &, McKenzie, 0, 1, 1, 0, 0
+615, 1967-01-20, 4, 1, Australia, c Redpath, McKenzie, 22, 95, na, 2, 0
+616, 1967-02-03, 2, 2, Australia, c Taber, Renneberg, 4, na, na, na, 0
+617, 1967-02-24, 2, 2, Australia, lbw, McKenzie, 46, 206, na, 4, 0
+617, 1967-02-24, 4, 2, Australia, c Chappell, McKenzie, 15, na, na, na, 0
+670, 1970-01-22, 1, 5, Australia, c Chappell, Gleeson, 127, 360, 322, 11, 1
+670, 1970-01-22, 3, 5, Australia, c Taber, Gleeson, 16, 51, 54, 2, 0
+671, 1970-02-05, 1, 5, Australia, lbw, Freeman, 1, 10, 13, 0, 0
+672, 1970-02-19, 1, 5, Australia, st Taber, Gleeson, 6, 44, 26, 0, 0
+672, 1970-02-19, 3, 2, Australia, c Lawry, Gleeson, 110, 323, 252, 13, 1
+673, 1970-03-05, 1, 2, Australia, c McKenzie, Connolly, 73, 205, 176, 9, 1
+673, 1970-03-05, 3, 2, Australia, c Stackpole, Walters, 27, 115, 87, 1, 0

@@ -1,0 +1,62 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+42, 1894-12-14, 2, 1, Australia, c Reedman, Turner, 4, 12, na, 0, 0
+42, 1894-12-14, 3, 1, Australia, , Giffen, 20, 53, na, 0, 0
+43, 1895-12-29, 1, 1, Australia, c Trott, Coningham, 0, 1, 1, 0, 0
+43, 1895-12-29, 3, 1, Australia, , Turner, 15, 20, na, na, 0
+44, 1895-01-11, 2, 1, Australia, , Callaway, 25, 80, na, na, 0
+44, 1895-01-11, 4, 1, Australia, c Iredale, AE Trott, 35, 60, na, na, 0
+45, 1895-02-01, 2, 1, Australia, st Jarvis, GHS Trott, 1, 5, na, 0, 0
+45, 1895-02-01, 3, 4, Australia, c Bruce, Giffen, 0, 3, na, 0, 0
+46, 1895-03-01, 2, 5, Australia, hit wicket, GHS Trott, 120, 220, na, 12, 0
+46, 1895-03-01, 4, 5, Australia, not out, , 20, 45, na, na, 0
+51, 1896-07-16, 2, 7, Australia, c Trumble, McKibbin, 0, na, na, 0, 0
+51, 1896-07-16, 3, 7, Australia, c Jones, Trumble, 15, na, na, na, 0
+52, 1896-08-10, 1, 5, Australia, , Trumble, 20, na, na, na, 0
+52, 1896-08-10, 3, 5, Australia, , Jones, 6, na, na, na, 0
+53, 1897-12-13, 1, 2, Australia, c Kelly, McLeod, 109, 189, na, 15, 0
+53, 1897-12-13, 4, 1, Australia, not out, , 50, 68, na, na, 0
+54, 1898-01-01, 2, 1, Australia, c Trumble, McKibbin, 35, 83, na, 2, 0
+54, 1898-01-01, 3, 1, Australia, c Trott, Trumble, 38, 70, na, 2, 0
+55, 1898-01-14, 2, 1, Australia, , Howell, 14, 54, na, 1, 0
+55, 1898-01-14, 3, 1, Australia, c Kelly, Noble, 124, 317, na, 10, 0
+56, 1898-01-29, 2, 1, Australia, , Howell, 8, 17, na, 0, 0
+56, 1898-01-29, 3, 3, Australia, c Iredale, Trumble, 45, 68, na, 6, 0
+57, 1898-02-26, 1, 1, Australia, , Trott, 65, 113, na, 8, 0
+57, 1898-02-26, 3, 1, Australia, c Darling, Jones, 0, 1, 1, 0, 0
+61, 1899-06-15, 1, 1, Australia, , Jones, 4, na, na, na, 0
+61, 1899-06-15, 3, 6, Australia, not out, , 88, na, na, na, 0
+62, 1899-06-29, 2, 2, Australia,                c &, Trumble, 9, na, na, na, 0
+63, 1899-07-17, 1, 4, Australia, , Noble, 8, na, na, na, 0
+63, 1899-07-17, 4, 4, Australia, c Iredale, Trumble, 6, na, na, na, 0
+64, 1899-08-14, 1, 5, Australia, c Trumper, Trumble, 49, na, na, na, 0
+65, 1901-12-13, 1, 1, Australia, lbw, McLeod, 116, 207, na, 20, 0
+66, 1902-01-01, 2, 1, Australia, c Jones, Trumble, 13, 19, na, na, 0
+66, 1902-01-01, 4, 1, Australia, c Trumble, Noble, 1, 5, na, 0, 0
+67, 1902-01-17, 1, 1, Australia, run out, , 67, 135, na, 7, 0
+67, 1902-01-17, 3, 1, Australia, , Trumble, 44, 80, na, 4, 0
+68, 1902-02-14, 1, 1, Australia, c Duff, Saunders, 92, 190, na, 15, 0
+68, 1902-02-14, 3, 1, Australia, c Kelly, Noble, 5, 8, na, na, 0
+69, 1902-02-28, 2, 1, Australia,                c &, Trumble, 25, 40, na, 2, 0
+69, 1902-02-28, 4, 1, Australia, run out, , 49, 99, na, 2, 0
+70, 1902-05-29, 1, 1, Australia, run out, , 9, na, na, na, 0
+71, 1902-06-12, 1, 1, Australia, not out, , 47, 105, na, na, 0
+72, 1902-07-03, 2, 1, Australia, , Noble, 31, na, na, na, 0
+72, 1902-07-03, 4, 4, Australia, c Trumper, Noble, 63, na, na, na, 0
+73, 1902-07-24, 2, 4, Australia, , Trumble, 1, na, na, 0, 0
+73, 1902-07-24, 4, 2, Australia, c Duff, Trumble, 35, na, na, na, 0
+74, 1902-08-11, 2, 1, Australia, c Armstrong, Trumble, 10, 45, na, na, 0
+74, 1902-08-11, 4, 1, Australia, , Saunders, 2, na, na, 0, 0
+83, 1905-05-29, 1, 4, Australia, c Kelly, Laver, 2, na, na, 0, 0
+83, 1905-05-29, 3, 2, Australia, c Duff, Laver, 140, 237, na, 21, 0
+84, 1905-06-15, 1, 1, Australia, , Hopkins, 56, 145, na, 8, 0
+84, 1905-06-15, 3, 1, Australia, , Armstrong, 79, 125, na, 13, 0
+86, 1905-07-24, 1, 1, Australia, c Hill, McLeod, 14, na, na, na, 0
+87, 1905-08-14, 1, 1, Australia, c Laver, Cotter, 6, na, na, na, 0
+87, 1905-08-14, 3, 3, Australia, c Kelly, Armstrong, 6, na, na, na, 0
+101, 1909-05-27, 2, 1, Australia, , Macartney, 5, na, na, na, 0
+102, 1909-06-14, 1, 6, Australia, c Armstrong, Noble, 7, na, na, na, 0
+102, 1909-06-14, 3, 8, Australia, , Noble, 24, na, na, na, 0
+103, 1909-07-01, 2, 5, Australia, , Macartney, 17, na, na, na, 0
+103, 1909-07-01, 4, 5, Australia, c Cotter, Macartney, 1, na, na, 0, 0
+104, 1909-07-26, 2, 7, Australia, lbw, Laver, 16, na, na, na, 0
+105, 1909-08-09, 2, 2, Australia, lbw, Cotter, 15, na, na, na, 0

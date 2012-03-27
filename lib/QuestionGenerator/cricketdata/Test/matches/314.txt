@@ -1,0 +1,118 @@
+
+Test # 314
+New Zealand in England, 1949, 1st Test
+England v New Zealand
+Headingley, Leeds
+11,13,14 June 1949 (3-day match)
+
+Result: Match drawn
+Series: 4-match series level 0-0
+
+Toss: England
+Umpires: WH Ashdown and D Davies
+Test debuts: TE Bailey, A Wharton (England); HB Cave, FLH Mooney,
+ GO Rabone (New Zealand).
+
+Close of play:
+ Day 1: England 307/5 (Compton 103*, Bailey 6*)
+ Day 2: England 372, New Zealand 312/9 (Mooney 41*, Cowie 6*)
+
+England 1st innings                                             R   M   B  4 6
+L Hutton              c Sutcliffe        b Cowie              101 245     14 0
+C Washbrook           c Sutcliffe        b Cowie               10  35        0
+WJ Edrich             c Donnelly         b Cowie               36  96        0
+DCS Compton           st Mooney          b Burtt              114 240     13 0
+A Wharton             lbw                b Cowie                7            0
+*FG Mann              c Scott            b Burtt               38  45      7 0
+TE Bailey             c Scott            b Cowie               12            0
++TG Evans             c Mooney           b Burtt               27            0
+AV Bedser             c Donnelly         b Burtt               20            0
+JA Young              st Mooney          b Burtt                0          0 0
+WE Hollies            not out                                   0          0 0
+Extras                (b 3, lb 4)                               7
+Total                 (all out, 127.3 overs)                  372
+
+FoW: 1-17 (Washbrook), 2-92 (Edrich), 3-194 (Hutton),
+     4-214 (Wharton), 5-273 (Mann), 6-322 (Compton),
+     7-330 (Bailey), 8-353 (Evans), 9-367 (Young),
+     10-372 (Bedser).
+
+Bowling                      O      M      R      W
+Cowie                       43      6    127      5
+Cave                        27      5     85      0
+Rabone                      18      7     56      0
+Burtt                       39.3   16     97      5
+
+New Zealand 1st innings                                         R   M   B  4 6
+B Sutcliffe           c Evans            b Young               32            0
+VJ Scott              c Washbrook        b Bailey               1          0 0
+*WA Hadlee            c Edrich           b Bailey              34            0
+WM Wallace            c Evans            b Bailey               3          0 0
+MP Donnelly           c Young            b Bailey              64            0
+FB Smith              c Compton          b Edrich              96 135      8 0
+GO Rabone             c Evans            b Edrich              13            0
++FLH Mooney           c Edrich           b Bailey              46            0
+TB Burtt              c Bedser           b Compton              7            0
+HB Cave               c Edrich           b Bailey               2          0 0
+J Cowie               not out                                  26  60        0
+Extras                (b 2, lb 8, nb 7)                        17
+Total                 (all out, 118.3 overs)                  341
+
+FoW: 1-4 (Scott), 2-64 (Sutcliffe), 3-69 (Wallace),
+     4-80 (Hadlee), 5-200 (Donnelly), 6-251 (Rabone),
+     7-254 (Smith), 8-273 (Burtt), 9-284 (Cave), 10-341 (Mooney).
+
+Bowling                      O      M      R      W
+Bailey                      32.3    6    118      6
+Bedser                      22      8     56      0
+Edrich                       9      2     18      2
+Young                       22      6     52      1
+Hollies                     25      6     57      0
+Compton                      8      2     23      1
+
+England 2nd innings                                             R   M   B  4 6
+L Hutton              c Mooney           b Cave                 0   1   2  0 0
+C Washbrook           not out                                 103 180     12 0
+WJ Edrich                                b Cave                70 105        1
+DCS Compton           c Mooney           b Cave                26  20        0
+A Wharton                                b Sutcliffe           13            0
+*FG Mann              not out                                  49  24      9 1
+Extras                (b 4, lb 2)                               6
+Total                 (4 wickets dec, 68 overs)               267
+
+DNB: TE Bailey, +TG Evans, AV Bedser, JA Young, WE Hollies.
+
+FoW: 1-0 (Hutton), 2-118 (Edrich), 3-162 (Compton),
+     4-201 (Wharton).
+
+Bowling                      O      M      R      W
+Cave                        26      3    103      3
+Rabone                      17      4     56      0
+Burtt                       15      2     56      0
+Donnelly                     5      0     20      0
+Sutcliffe                    4      1     17      1
+Scott                        1      0      9      0
+
+New Zealand 2nd innings (target: 299 runs)                      R   M   B  4 6
+B Sutcliffe           c Bedser           b Young               82            0
+VJ Scott              c Bedser           b Young               43 100        0
+FB Smith              not out                                  54  50        2
+*WA Hadlee            not out                                  13            0
+Extras                (b 1, lb 2)                               3
+Total                 (2 wickets, 49 overs)                   195
+
+DNB: WM Wallace, MP Donnelly, GO Rabone, +FLH Mooney, TB Burtt,
+     HB Cave, J Cowie.
+
+FoW: 1-112 (Scott), 2-147 (Sutcliffe).
+
+Bowling                      O      M      R      W
+Bailey                       9      0     51      0
+Bedser                       9      1     26      0
+Edrich                       2      0     13      0
+Young                       14      3     41      2
+Hollies                     11      3     33      0
+Compton                      1      0      5      0
+Hutton                       3      0     23      0
+
+<END>

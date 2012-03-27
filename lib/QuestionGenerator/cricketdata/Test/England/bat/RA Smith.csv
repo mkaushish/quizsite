@@ -1,0 +1,113 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+1101, 1988-07-21, 1, 6, West Indies, c Dujon, Ambrose, 38, 131, 91, 5, 0
+1101, 1988-07-21, 3, 5, West Indies, lbw, Marshall, 11, 42, 26, 1, 0
+1102, 1988-08-04, 1, 4, West Indies, c Harper, Marshall, 57, 210, 162, 8, 0
+1102, 1988-08-04, 3, 4, West Indies, lbw, Benjamin, 0, 3, 4, 0, 0
+1103, 1988-08-25, 2, 6, Sri Lanka, , Ranatunga, 31, 77, 70, 2, 0
+1103, 1988-08-25, 4, 5, Sri Lanka, not out, , 8, 17, 17, 1, 0
+1121, 1989-06-08, 2, 6, Australia, lbw, Alderman, 66, 193, 132, 8, 0
+1121, 1989-06-08, 4, 6, Australia, c Border, Lawson, 0, 6, 3, 0, 0
+1122, 1989-06-22, 1, 6, Australia, c Hohns, Lawson, 32, 53, 36, 6, 0
+1122, 1989-06-22, 3, 6, Australia, , Alderman, 96, 271, 206, 16, 0
+1124, 1989-07-27, 1, 4, Australia, c Hohns, Hughes, 143, 353, 285, 15, 0
+1124, 1989-07-27, 3, 4, Australia, c Healy, Alderman, 1, 6, 8, 0, 0
+1125, 1989-08-10, 2, 4, Australia, c Healy, Alderman, 101, 207, 150, 16, 0
+1125, 1989-08-10, 3, 4, Australia, , Hughes, 26, 61, 44, 4, 0
+1126, 1989-08-24, 2, 4, Australia, , Lawson, 11, 19, 19, 2, 0
+1126, 1989-08-24, 4, 4, Australia, not out, , 77, 146, 99, 11, 0
+1140, 1990-02-24, 2, 5, West Indies, c Best, Bishop, 57, 225, 161, 5, 0
+1142, 1990-03-23, 2, 5, West Indies, c Dujon, Moseley, 5, 54, 27, 0, 0
+1142, 1990-03-23, 4, 5, West Indies, lbw, Walsh, 2, 21, 7, 0, 0
+1143, 1990-04-05, 2, 5, West Indies, , Moseley, 62, 371, 246, 4, 0
+1143, 1990-04-05, 4, 7, West Indies, not out, , 40, 215, 150, 6, 0
+1144, 1990-04-12, 1, 5, West Indies, lbw, Walsh, 12, 66, 43, 2, 0
+1144, 1990-04-12, 3, 6, West Indies, retired hurt, , 8, 58, 31, 1, 0
+1145, 1990-06-07, 2, 5, New Zealand, c Smith, Bracewell, 55, 172, 134, 6, 0
+1146, 1990-06-21, 1, 5, New Zealand, c Bracewell, Morrison, 64, 147, 127, 9, 0
+1146, 1990-06-21, 3, 5, New Zealand, hit wicket, Bracewell, 0, 13, 13, 0, 0
+1147, 1990-07-05, 1, 5, New Zealand, c Jones, Bracewell, 19, 39, 34, 3, 0
+1147, 1990-07-05, 3, 5, New Zealand,                c &, Hadlee, 14, 32, 25, 2, 0
+1148, 1990-07-26, 1, 5, India, not out, , 100, 194, 155, 14, 0
+1148, 1990-07-26, 3, 5, India, , Prabhakar, 15, 18, 19, 1, 0
+1149, 1990-08-09, 1, 6, India, not out, , 121, 243, 197, 11, 0
+1149, 1990-08-09, 3, 5, India, not out, , 61, 149, 94, 5, 0
+1150, 1990-08-23, 2, 7, India, c Manjrekar, Shastri, 57, 158, 135, 7, 0
+1150, 1990-08-23, 3, 6, India, not out, , 7, 21, 17, 1, 0
+1155, 1990-11-23, 1, 5, Australia, , Reid, 7, 20, 13, 0, 0
+1155, 1990-11-23, 3, 6, Australia, c Taylor, Alderman, 1, 34, 14, 0, 0
+1159, 1990-12-26, 1, 4, Australia, c Healy, Hughes, 30, 121, 86, 3, 0
+1159, 1990-12-26, 3, 4, Australia, c Taylor, Reid, 8, 14, 15, 1, 0
+1160, 1991-01-04, 2, 4, Australia, c Healy, Reid, 18, 67, 50, 3, 0
+1160, 1991-01-04, 4, 5, Australia, not out, , 10, 31, 27, 1, 0
+1161, 1991-01-25, 2, 4, Australia,                c &, Hughes, 53, 200, 149, 4, 0
+1161, 1991-01-25, 4, 5, Australia, not out, , 10, 81, 37, 0, 0
+1163, 1991-02-01, 1, 4, Australia, c Taylor, McDermott, 58, 153, 121, 9, 1
+1163, 1991-02-01, 3, 4, Australia, lbw, Alderman, 43, 108, 70, 7, 0
+1171, 1991-06-06, 1, 6, West Indies, run out, , 54, 135, 88, 7, 0
+1171, 1991-06-06, 3, 6, West Indies, lbw, Ambrose, 0, 1, 1, 0, 0
+1172, 1991-06-20, 2, 6, West Indies, not out, , 148, 413, 271, 20, 0
+1173, 1991-07-04, 1, 6, West Indies, not out, , 64, 192, 150, 5, 0
+1173, 1991-07-04, 3, 6, West Indies, c Richards, Walsh, 15, 59, 37, 1, 0
+1175, 1991-08-08, 1, 4, West Indies, lbw, Marshall, 109, 353, 256, 13, 0
+1175, 1991-08-08, 4, 4, West Indies, c Patterson, Walsh, 26, 40, 32, 5, 0
+1176, 1991-08-22, 1, 4, Sri Lanka, c Tillakaratne, Ratnayake, 4, 8, 8, 1, 0
+1176, 1991-08-22, 3, 4, Sri Lanka, not out, , 63, 111, 90, 5, 0
+1183, 1992-01-18, 1, 4, New Zealand, c Greatbatch, Pringle, 96, 180, 153, 16, 1
+1185, 1992-01-30, 1, 4, New Zealand, c Parore, Cairns, 0, 1, 1, 0, 0
+1185, 1992-01-30, 3, 4, New Zealand, , Morrison, 35, 64, 45, 7, 0
+1187, 1992-02-06, 1, 4, New Zealand, c Rutherford, Patel, 6, 32, 31, 1, 0
+1187, 1992-02-06, 3, 4, New Zealand,                c &, Su'a, 76, 252, 203, 9, 2
+1189, 1992-06-04, 2, 4, Pakistan, lbw, Mushtaq Ahmed, 127, 326, 231, 18, 0
+1190, 1992-06-18, 1, 4, Pakistan, c sub (Rashid Latif), Wasim Akram, 9, 23, 19, 2, 0
+1190, 1992-06-18, 3, 5, Pakistan, , Mushtaq Ahmed, 8, 8, 5, 2, 0
+1191, 1992-07-02, 2, 4, Pakistan, lbw, Aaqib Javed, 11, 55, 24, 1, 0
+1192, 1992-07-23, 2, 3, Pakistan, c Javed Miandad, Aaqib Javed, 42, 138, 104, 7, 0
+1192, 1992-07-23, 4, 3, Pakistan, c sub, Waqar Younis, 0, 10, 8, 0, 0
+1193, 1992-08-06, 1, 4, Pakistan, , Mushtaq Ahmed, 33, 149, 122, 3, 0
+1193, 1992-08-06, 3, 4, Pakistan, not out, , 84, 239, 179, 8, 0
+1211, 1993-01-29, 2, 4, India, c Amre, Kumble, 1, 11, 15, 0, 0
+1211, 1993-01-29, 3, 4, India, c More, Chauhan, 8, 59, 74, 1, 0
+1213, 1993-02-11, 2, 1, India, lbw, Kumble, 17, 100, 84, 1, 0
+1213, 1993-02-11, 3, 1, India, c Amre, Kumble, 56, 103, 89, 10, 0
+1214, 1993-02-19, 1, 4, India, c More, Raju, 2, 9, 6, 0, 0
+1214, 1993-02-19, 3, 4, India, , Kumble, 62, 210, 166, 12, 0
+1219, 1993-03-13, 1, 1, Sri Lanka, , Muralitharan, 128, 448, 338, 20, 0
+1219, 1993-03-13, 3, 1, Sri Lanka, , Jayasuriya, 35, 96, 71, 4, 0
+1223, 1993-06-03, 2, 4, Australia, c Taylor, Warne, 4, 9, 6, 1, 0
+1223, 1993-06-03, 4, 4, Australia, , Warne, 18, 83, 65, 2, 0
+1224, 1993-06-17, 2, 4, Australia, st Healy, May, 22, 42, 43, 3, 0
+1224, 1993-06-17, 3, 4, Australia, c sub (ML Hayden), May, 5, 10, 14, 1, 0
+1225, 1993-07-01, 1, 3, Australia,                c &, Julian, 86, 135, 113, 15, 0
+1225, 1993-07-01, 3, 3, Australia, c Healy, Warne, 50, 80, 71, 9, 0
+1227, 1993-07-22, 2, 3, Australia,                c &, May, 23, 59, 58, 3, 0
+1227, 1993-07-22, 3, 3, Australia, lbw, Reiffel, 35, 136, 120, 5, 0
+1230, 1993-08-05, 1, 3, Australia, , ME Waugh, 21, 66, 59, 2, 0
+1230, 1993-08-05, 3, 3, Australia, lbw, Warne, 19, 69, 70, 2, 0
+1250, 1994-02-19, 1, 4, West Indies, , Walsh, 0, 5, 6, 0, 0
+1250, 1994-02-19, 3, 3, West Indies, c Adams, Walsh, 2, 18, 12, 0, 0
+1254, 1994-03-17, 1, 4, West Indies, c Lara, KCG Benjamin, 84, 217, 160, 11, 1
+1254, 1994-03-17, 3, 4, West Indies, c Richardson, Ambrose, 24, 83, 52, 2, 0
+1257, 1994-03-25, 2, 4, West Indies, lbw, Ambrose, 12, 59, 29, 1, 0
+1257, 1994-03-25, 4, 4, West Indies, , Ambrose, 0, 6, 2, 0, 0
+1258, 1994-04-08, 1, 4, West Indies, c Murray, WKM Benjamin, 10, 24, 17, 2, 0
+1258, 1994-04-08, 3, 4, West Indies, lbw, KCG Benjamin, 13, 45, 41, 1, 1
+1259, 1994-04-16, 2, 4, West Indies, lbw, KCG Benjamin, 175, 418, 315, 26, 3
+1260, 1994-06-02, 2, 5, New Zealand, run out, , 78, 222, 168, 10, 0
+1261, 1994-06-16, 2, 4, New Zealand,                c &, Nash, 6, 16, 10, 1, 0
+1261, 1994-06-16, 4, 4, New Zealand, c Parore, Nash, 23, 114, 79, 4, 0
+1262, 1994-06-30, 1, 4, New Zealand, , Owens, 13, 63, 40, 2, 0
+1298, 1995-06-08, 1, 1, West Indies, c Richardson, Benjamin, 16, 69, 48, 1, 0
+1298, 1995-06-08, 3, 1, West Indies, c Arthurton, Ambrose, 6, 10, 10, 0, 0
+1299, 1995-06-22, 1, 5, West Indies, , Hooper, 61, 126, 107, 6, 0
+1299, 1995-06-22, 3, 5, West Indies, lbw, Ambrose, 90, 364, 227, 11, 0
+1300, 1995-07-06, 1, 5, West Indies, c Arthurton, Bishop, 46, 144, 92, 8, 0
+1300, 1995-07-06, 3, 2, West Indies, , Bishop, 41, 156, 84, 8, 0
+1301, 1995-07-27, 2, 5, West Indies, c sub (SC Williams), Ambrose, 44, 146, 106, 5, 0
+1301, 1995-07-27, 4, 5, West Indies, retired hurt, , 1, 13, 8, 0, 0
+1312, 1995-11-16, 1, 6, South Africa, , McMillan, 43, 122, 81, 6, 1
+1315, 1995-11-30, 2, 6, South Africa,                c &, McMillan, 52, 141, 109, 8, 1
+1315, 1995-11-30, 4, 6, South Africa, c Pollock, Donald, 44, 130, 111, 8, 0
+1318, 1995-12-14, 2, 4, South Africa, c McMillan, Matthews, 34, 93, 72, 6, 0
+1320, 1995-12-26, 2, 6, South Africa, lbw, McMillan, 2, 6, 9, 0, 0
+1321, 1996-01-02, 1, 3, South Africa, , Adams, 66, 261, 179, 8, 0
+1321, 1996-01-02, 3, 4, South Africa, c Richardson, Adams, 13, 57, 36, 1, 0

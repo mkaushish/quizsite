@@ -1,0 +1,112 @@
+
+Test # 147
+Australia in South Africa, 1921/22, 3rd Test
+South Africa v Australia
+Newlands, Cape Town
+26,28,29 November 1921 (4-day match)
+
+Result: Australia won by 10 wickets
+Series: Australia wins the 3-match series 1-0
+
+Toss: South Africa
+Umpires: HV Adams and AG Laver
+Test debut: N Reid (South Africa).
+
+Close of play:
+ Day 1: South Africa 180, Australia 15/0 (Collins 7*, Bardsley 6*)
+ Day 2: Australia 396, South Africa 3/0 (Frank 0*, Ward 3*)
+
+South Africa 1st innings                                        R   M   B  4 6
+CN Frank                                 b Ryder               21 103      1 0
+JW Zulch              c Ryder            b Macartney           50 147      7 0
+PAM Hands             c Gregory          b Ryder                0   5      0 0
+*HW Taylor            c Andrews          b McDonald            26  86      0 0
+AW Nourse             c Mayne            b Mailey              11  35      0 0
+WVS Ling                                 b McDonald             0   2      0 0
+WFE Marx              st Carter          b Mailey              11  56      0 0
+JM Blanckenberg       st Carter          b Mailey              25  28      3 0
++TA Ward                                 b McDonald             2   4      0 0
+CP Carter             not out                                  19  32      1 0
+N Reid                c Mayne            b Mailey              11  24      1 0
+Extras                (lb 2, nb 2)                              4
+Total                 (all out, 88 overs)                     180
+
+FoW: 1-50 (Frank), 2-54 (Hands), 3-82 (Zulch), 4-106 (Nourse),
+     5-107 (Ling), 6-110 (Taylor), 7-143 (Blanckenberg),
+     8-146 (Ward), 9-151 (Marx), 10-180 (Reid).
+
+Bowling                      O      M      R      W
+Gregory                     15      9     11      0
+McDonald                    19      3     53      3
+Macartney                   24     10     47      1
+Ryder                       16      7     25      2
+Mailey                      14      1     40      4
+
+Australia 1st innings                                           R   M   B  4 6
+*HL Collins                              b Blanckenberg        54 120      4 0
+W Bardsley            lbw                b Blanckenberg        30  86      1 0
+CG Macartney          c Nourse           b Blanckenberg        44  62      4 0
+J Ryder               c Taylor           b Carter             142 181     12 0
+JM Gregory            c Hands            b Blanckenberg        29  29      4 0
+ER Mayne              lbw                b Reid                15  39      1 0
+TJE Andrews           c Hands            b Carter              10  38      1 0
+CE Pellew             c Nourse           b Reid                 6  25      0 0
++H Carter             not out                                  31  41      4 0
+EA McDonald           c Ward             b Carter               4   1      1 0
+AA Mailey             c Taylor           b Nourse              14  17      1 0
+Extras                (b 9, lb 5, nb 3)                        17
+Total                 (all out, 120 overs)                    396
+
+FoW: 1-71 (Bardsley), 2-108 (Collins), 3-153 (Macartney),
+     4-201 (Gregory), 5-242 (Mayne), 6-281 (Andrews),
+     7-320 (Pellew), 8-357 (Ryder), 9-361 (McDonald),
+     10-396 (Mailey).
+
+Bowling                      O      M      R      W
+Marx                         7      1     29      0
+Nourse                      30      5     89      1
+Blanckenberg                31      5     82      4
+Carter                      26      5    104      3
+Reid                        21      3     63      2
+Taylor                       5      2     12      0
+
+South Africa 2nd innings                                        R   M   B  4 6
+CN Frank                                 b Macartney           23  78      1 0
++TA Ward                                 b McDonald             4  35      0 0
+JW Zulch                             c & b Macartney           40  94      3 0
+*HW Taylor            run out                                  17  30      2 0
+AW Nourse             st Carter          b Mailey              31  60      3 0
+PAM Hands             c Andrews          b Macartney           19  33      2 0
+WVS Ling                                 b Macartney           35  56      4 0
+WFE Marx              run out                                  16  33      2 0
+JM Blanckenberg       c Carter           b Mailey              20  17      3 1
+CP Carter             not out                                   1  12      0 0
+N Reid                                   b Macartney            6   9      1 0
+Extras                (b 1, lb 2, nb 1)                         4
+Total                 (all out, 80.3 overs)                   216
+
+FoW: 1-10 (Ward), 2-58 (Frank), 3-84 (Taylor), 4-92 (Zulch),
+     5-122 (Hands), 6-162 (Nourse), 7-182 (Marx), 8-203 (Ling),
+     9-209 (Blanckenberg), 10-216 (Reid).
+
+Bowling                      O      M      R      W
+Gregory                      9      1     29      0
+McDonald                    13      2     35      1
+Macartney                   24.3   10     44      5
+Ryder                        7      0     15      0
+Mailey                      26      0     89      2
+Collins                      1      1      0      0
+
+Australia 2nd innings (target: 1 runs)                          R   M   B  4 6
+AA Mailey             not out                                   1   1   1  0 0
++H Carter             not out                                   0   1   0  0 0
+Extras                                                          0
+Total                 (0 wickets, 0.1 overs)                    1
+
+DNB: *HL Collins, W Bardsley, CG Macartney, J Ryder, JM Gregory,
+     ER Mayne, TJE Andrews, CE Pellew, EA McDonald.
+
+Bowling                      O      M      R      W
+Hands                        0.1    0      1      0
+
+<END>

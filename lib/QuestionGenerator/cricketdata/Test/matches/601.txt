@@ -1,0 +1,96 @@
+
+Test # 601
+The Ashes, 1965/66, 5th Test
+Australia v England
+Melbourne Cricket Ground
+11,12,14,15,16 February 1966 (5-day match)
+
+Result: Match drawn
+Series: 5-match series drawn 1-1
+
+Toss: England
+Umpires: CJ Egar and LP Rowan
+Balls per over: 8
+
+Close of play:
+ Day 1: England 312/5 (Cowdrey 43*, Parks 29*)
+ Day 2: England 485/9d, Australia 101/2 (Lawry 43*, Cowper 32*)
+ Day 3: Australia 333/3 (Cowper 159*, Walters 35*)
+ Day 4: No play
+
+England 1st innings                                             R   M   B  4 6
+G Boycott             c Stackpole        b McKenzie            17  75  87  0 0
+RW Barber             run out                                  17  55  24  0 0
+JH Edrich             c McKenzie         b Walters             85 239 226  7 0
+KF Barrington         c Grout            b Walters            115 178 153  8 2
+MC Cowdrey            c Grout            b Walters             79 190 143  7 0
+*MJK Smith            c Grout            b Walters              0   4   6  0 0
++JM Parks             run out                                  89 178 175  9 0
+FJ Titmus             not out                                  42 122 128  2 0
+BR Knight             c Grout            b Hawke               13  43  39  1 0
+DJ Brown                             c & b Chappell            12  28  25  2 0
+IJ Jones              not out                                   4  15  14  0 0
+Extras                (b 9, lb 2, nb 1)                        12
+Total                 (9 wickets dec, 127 overs)              485
+
+FoW: 1-36 (Barber), 2-41 (Boycott), 3-219 (Barrington),
+     4-254 (Edrich), 5-254 (Smith), 6-392 (Cowdrey),
+     7-419 (Parks), 8-449 (Knight), 9-474 (Brown).
+
+Bowling                      O      M      R      W
+McKenzie                    26      5    100      1
+Hawke                       35      5    109      1
+Walters                     19      3     53      4
+Simpson                      5      1     20      0
+Stackpole                   10      2     43      0
+Veivers                     15      3     78      0
+Chappell                    17      4     70      1
+
+Australia 1st innings                                           R   M   B  4 6
+WM Lawry              c Edrich           b Jones              108 369 256  7 0
+*RB Simpson                              b Brown                4  13   6  1 0
+G Thomas              c Titmus           b Jones               19  31  25  2 0
+RM Cowper                                b Knight             307 727 589 20 0
+KD Walters                           c & b Barber              60 236 201  3 0
+IM Chappell           c Parks            b Jones               19  81  80  1 0
+KR Stackpole                             b Knight               9  56  47  0 0
+TR Veivers                               b Titmus               4  22  29  1 0
+NJN Hawke             not out                                   0   4   3  0 0
+Extras                (b 6, lb 5, nb 2)                        13
+Total                 (8 wickets dec, 154.2 overs)            543
+
+DNB: +ATW Grout, GD McKenzie.
+
+FoW: 1-15 (Simpson), 2-36 (Thomas), 3-248 (Lawry),
+     4-420 (Walters), 5-481 (Chappell), 6-532 (Stackpole),
+     7-543 (Veivers), 8-543 (Cowper).
+
+Bowling                      O      M      R      W
+Brown                       31      3    134      1
+Jones                       29      1    145      3
+Knight                      36.2    4    105      2
+Titmus                      42     12     86      1
+Barber                      16      0     60      1
+
+England 2nd innings                                             R   M   B  4 6
+G Boycott             lbw                b McKenzie             1  12  10  0 0
+RW Barber                                b McKenzie            20  22  21  4 0
+JH Edrich                                b McKenzie             3  21  13  0 0
+KF Barrington         not out                                  32  52  50  3 0
+MC Cowdrey            not out                                  11  40  42  1 0
+Extras                (lb 2)                                    2
+Total                 (3 wickets, 17 overs)                    69
+
+DNB: *MJK Smith, +JM Parks, FJ Titmus, BR Knight, DJ Brown,
+     IJ Jones.
+
+FoW: 1-6 (Boycott), 2-21 (Barber), 3-34 (Edrich).
+
+Bowling                      O      M      R      W
+McKenzie                     6      2     17      3
+Hawke                        4      1     22      0
+Walters                      2      0     16      0
+Stackpole                    3      0     10      0
+Chappell                     2      0      2      0
+
+<END>

@@ -1,0 +1,119 @@
+
+Test # 691
+India in England, 1971, 2nd Test
+England v India
+Old Trafford, Manchester
+5,6,7,9,10 August 1971 (5-day match)
+
+Result: Match drawn
+Series: 3-match series level 0-0
+
+Toss: England
+Umpires: AE Fagg and TW Spencer
+Test debut: JA Jameson (England).
+
+Close of play:
+ Day 1: England 219/7 (Illingworth 27*, Lever 16*)
+ Day 2: England 386, India 8/0 (Mankad 4*, Gavaskar 4*)
+ Day 3: India 212
+ Day 4: England 245/3d, India 65/3 (Sardesai 13*, Viswanath 8*, 27 ov)
+ Day 5: No play
+
+England 1st innings                                             R   M   B  4 6
+BW Luckhurst          c Viswanath        b Bedi                78 255 215 11 0
+JA Jameson            c Gavaskar         b Abid Ali            15  39  26  1 0
+JH Edrich             c Engineer         b Abid Ali             0   2   4  0 0
+KWR Fletcher          lbw                b Abid Ali             1   6   4  0 0
+BL D'Oliveira         c Gavaskar         b Abid Ali            12  34  37  1 0
++APE Knott                               b Venkataraghavan     41 105 108  5 0
+*R Illingworth        c Gavaskar         b Venkataraghavan    107 278 298  8 1
+RA Hutton                            c & b Venkataraghavan     15  22  32  3 0
+P Lever               not out                                  88 227 214  7 0
+N Gifford             c Engineer         b Solkar               8  25  24  1 0
+JSE Price             run out                                   0   3   4  0 0
+Extras                (b 6, lb 12, w 1, nb 2)                  21
+Total                 (all out, 160.4 overs)                  386
+
+FoW: 1-21 (Jameson), 2-21 (Edrich), 3-25 (Fletcher),
+     4-41 (D'Oliveira), 5-116 (Knott), 6-168 (Luckhurst),
+     7-187 (Hutton), 8-355 (Illingworth), 9-384 (Gifford),
+     10-386 (Price).
+
+Bowling                      O      M      R      W
+Abid Ali                    32.4    5     64      4
+Solkar                      21      5     46      1
+Chandrasekhar               30      6     90      0
+Bedi                        40     10     72      1
+Venkataraghavan             35      9     89      3
+Gavaskar                     2      0      4      0
+
+India 1st innings                                               R   M   B  4 6
+AV Mankad             c Knott            b Lever                8  41  33  0 0
+SM Gavaskar           c Knott            b Price               57 163 129  5 0
+*AL Wadekar           c Knott            b Hutton              12  56  40  0 0
+DN Sardesai                              b Lever               14  94  79  1 0
+GR Viswanath                             b Lever               10  35  36  1 0
++FM Engineer          c Edrich           b Lever               22  75  41  1 0
+ED Solkar             c Hutton           b D'Oliveira          50 129 113  6 0
+S Abid Ali                               b D'Oliveira           0   5  10  0 0
+S Venkataraghavan     c Knott            b Lever               20  47  38  2 0
+BS Bedi                                  b Price                8  33  20  1 0
+BS Chandrasekhar      not out                                   4  27  22  0 0
+Extras                (b 1, lb 4, nb 2)                         7
+Total                 (all out, 93 overs)                     212
+
+FoW: 1-19 (Mankad), 2-52 (Wadekar), 3-90 (Gavaskar),
+     4-103 (Sardesai), 5-104 (Viswanath), 6-163 (Engineer),
+     7-164 (Abid Ali), 8-194 (Venkataraghavan), 9-200 (Solkar),
+     10-212 (Bedi).
+
+Bowling                      O      M      R      W
+Price                       22      7     44      2
+Lever                       26      4     70      5
+D'Oliveira                  24     11     40      2
+Hutton                      14      3     35      1
+Illingworth                  7      2     16      0
+
+England 2nd innings                                             R   M   B  4 6
+BW Luckhurst          st Engineer        b Solkar             101 230 173 10 1
+JA Jameson            run out                                  28  67  47  2 0
+JH Edrich                                b Bedi                59 120 108  7 0
+KWR Fletcher          not out                                  28  54  53  5 0
+BL D'Oliveira         not out                                  23  14  16  1 2
+Extras                (lb 5, nb 1)                              6
+Total                 (3 wickets dec, 66 overs)               245
+
+DNB: +APE Knott, *R Illingworth, RA Hutton, P Lever, N Gifford,
+     JSE Price.
+
+FoW: 1-44 (Jameson), 2-167 (Edrich), 3-212 (Luckhurst).
+
+Bowling                      O      M      R      W
+Abid Ali                    26      2     95      0
+Solkar                       5      0     23      1
+Chandrasekhar                2      0      5      0
+Bedi                         5      0     21      1
+Venkataraghavan             16      3     58      0
+Gavaskar                    12      3     37      0
+
+India 2nd innings (target: 420 runs)                            R   M   B  4 6
+AV Mankad                                b Price                7  12  13  0 0
+SM Gavaskar           c Knott            b Hutton              24  73  42  3 1
+*AL Wadekar                              b Price                9  31  23  2 0
+DN Sardesai           not out                                  13  70  55  1 0
+GR Viswanath          not out                                   8  42  31  1 0
+Extras                (lb 2, nb 2)                              4
+Total                 (3 wickets, 27 overs)                    65
+
+DNB: +FM Engineer, ED Solkar, S Abid Ali, S Venkataraghavan,
+     BS Bedi, BS Chandrasekhar.
+
+FoW: 1-9 (Mankad), 2-22 (Wadekar), 3-50 (Gavaskar).
+
+Bowling                      O      M      R      W
+Price                       10      3     30      2
+Lever                        7      3     14      0
+D'Oliveira                   3      2      1      0
+Hutton                       7      1     16      1
+
+<END>

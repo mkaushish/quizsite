@@ -1,0 +1,103 @@
+
+Test # 616
+Australia in South Africa, 1966/67, 4th Test
+South Africa v Australia
+New Wanderers Stadium, Johannesburg
+3,4,6,7,8 February 1967 (5-day match)
+
+Result: Match drawn
+Series: South Africa leads the 5-match series 2-1
+
+Toss: Australia
+Umpires: JG Draper and HC Kidson
+Test debut: JH du Preez (South Africa).
+
+Close of play:
+ Day 1: Australia 139/9 (Taber 0*, Renneberg 0*)
+ Day 2: Australia 143, South Africa 266/7 (Lindsay 111*, du Preez 0*)
+ Day 3: South Africa 332/9d, Australia 13/1 (Simpson 9*, Taber 2*)
+ Day 4: No play
+
+Australia 1st innings                                           R   M   B  4 6
+WM Lawry              c Bacher           b Trimborn            17            0
+*RB Simpson           c du Preez         b Goddard             24 112        0
+IR Redpath            c Lindsay          b Barlow              14            0
+RM Cowper             c Trimborn         b Procter             25  77        0
+IM Chappell           lbw                b Goddard              0   5      0 0
+KR Stackpole                             b Goddard              4  10      1 0
+TR Veivers            c Lindsay          b Procter             19  66        0
+GD Watson             c Lance            b Procter             17            0
+GD McKenzie           c RG Pollock       b Procter             11            0
++HB Taber             c Trimborn         b PM Pollock           4            0
+DA Renneberg          not out                                   0          0 0
+Extras                (lb 6, w 1, nb 1)                         8
+Total                 (all out, 70.1 overs)                   143
+
+FoW: 1-33 (Lawry), 2-59 (Redpath), 3-59 (Simpson),
+     4-59 (Chappell), 5-69 (Stackpole), 6-103 (Cowper),
+     7-108 (Veivers), 8-139 (McKenzie), 9-139 (Watson),
+     10-143 (Taber).
+
+Bowling                      O      M      R      W
+PM Pollock                  12.1    3     21      1
+Procter                     18      7     32      4
+Goddard                     19      6     36      3
+Trimborn                    10      3     21      1
+Barlow                      11      6     25      1
+
+South Africa 1st innings                                        R   M   B  4 6
+TL Goddard            c Stackpole        b Renneberg           47 195      4 0
+EJ Barlow             c Taber            b Renneberg            4            0
+A Bacher              c Taber            b Watson              22            0
+RG Pollock            c Taber            b Cowper              22            0
+HR Lance              lbw                b Watson              30            0
++DT Lindsay           c Simpson          b Renneberg          131 161     14 4
+MJ Procter            lbw                b Simpson             16  32        0
+*PL van der Merwe     c Taber            b Renneberg           12  41        0
+JH du Preez           c Simpson          b Renneberg            0          0 0
+PM Pollock            not out                                  34            0
+PHJ Trimborn          not out                                  11            0
+Extras                (lb 3)                                    3
+Total                 (9 wickets dec, 105 overs)              332
+
+FoW: 1-8 (Barlow), 2-39 (Bacher), 3-86 (RG Pollock),
+     4-120 (Goddard), 5-177 (Lance), 6-210 (Procter),
+     7-266 (van der Merwe), 8-272 (du Preez), 9-299 (Lindsay).
+
+Bowling                      O      M      R      W
+McKenzie                    39      7     96      0
+Renneberg                   25      3     97      5
+Watson                      20      4     67      2
+Cowper                      15      7     36      1
+Simpson                      6      0     33      1
+
+Australia 2nd innings                                           R   M   B  4 6
+WM Lawry                                 b Procter              2  30      0 0
+*RB Simpson           c Bacher           b Procter             28            0
++HB Taber             lbw                b Goddard             14  74        0
+IR Redpath            c Trimborn         b PM Pollock          46 125      7 0
+RM Cowper                                b du Preez            16  47        0
+IM Chappell           not out                                  13 104      1 0
+KR Stackpole          c Goddard          b du Preez             5            0
+TR Veivers            c Lindsay          b Goddard             21  46        0
+GD Watson                                b Goddard              0          0 0
+GD McKenzie           not out                                   0          0 0
+Extras                (lb 2, nb 1)                              3
+Total                 (8 wickets, 78.3 overs)                 148
+
+DNB: DA Renneberg.
+
+FoW: 1-11 (Lawry), 2-41 (Simpson), 3-58 (Taber), 4-94 (Cowper),
+     5-116 (Redpath), 6-125 (Stackpole), 7-148 (Veivers),
+     8-148 (Watson).
+
+Bowling                      O      M      R      W
+PM Pollock                  14      6     24      1
+Procter                     17      6     38      2
+Goddard                     16.3    9     23      3
+Trimborn                     7      3     14      0
+Barlow                       7      3     20      0
+du Preez                    14      6     22      2
+Lance                        3      1      4      0
+
+<END>

@@ -1,0 +1,124 @@
+
+Test # 76
+Australia in South Africa, 1902/03, 2nd Test
+South Africa v Australia
+Old Wanderers, Johannesburg
+18,20,21 October 1902 (3-day match)
+
+Result: Australia won by 159 runs
+Series: Australia leads the 3-match series 1-0
+
+Toss: Australia
+Umpires: F Hearne and FE Smith (Eng)
+Test debuts: JH Anderson, JJ Kotze (South Africa).
+
+Close of play:
+ Day 1: Australia 175, South Africa 136/3 (Sinclair 49*, Smith 12*)
+ Day 2: South Africa 240, Australia 201/5 (Armstrong 94*, Saunders 1*)
+
+Australia 1st innings                                           R   M   B  4 6
+VT Trumper                               b Kotze               18            0
+RA Duff                                  b Middleton           43            0
+C Hill                st Halliwell       b Kotze                6            0
+WW Armstrong          run out                                  49            1
+MA Noble              c Kotze            b Llewellyn            5            0
+*J Darling            c Anderson         b Llewellyn            6            0
+SE Gregory                               b Kotze                1          0 0
+AJY Hopkins           c Nourse           b Llewellyn           20            0
++JJ Kelly             c Halliwell        b Llewellyn           16            0
+WP Howell             c Nourse           b Llewellyn            0          0 0
+JV Saunders           not out                                   0          0 0
+Extras                (b 10, w 1)                              11
+Total                 (all out, 55.1 overs)                   175
+
+FoW: 1-29 (Trumper), 2-35 (Hill), 3-125 (Duff),
+     4-125 (Armstrong), 5-138 (Darling), 6-138 (Noble),
+     7-140 (Gregory), 8-172 (Hopkins), 9-172 (Howell),
+     10-175 (Kelly).
+
+Bowling                      O      M      R      W
+Kotze                       20      2     64      3
+Middleton                   13      3     27      1
+Llewellyn                   18.1    3     43      5
+Sinclair                     4      0     30      0
+
+South Africa 1st innings                                        R   M   B  4 6
+LJ Tancred            lbw                b Noble               19            0
+WA Shalders                              b Howell              42            0
+CMH Hathorn           c Armstrong        b Noble               12            0
+JH Sinclair                              b Howell             101            2
+CJE Smith             c Kelly            b Trumper             12            0
+CB Llewellyn                         c & b Trumper             10            0
+AW Nourse                            c & b Trumper              5            0
++EA Halliwell         c Kelly            b Noble                4            0
+*JH Anderson          c Howell           b Saunders            32            1
+JJ Kotze                                 b Saunders             0          0 0
+J Middleton           not out                                   0          0 0
+Extras                (b 3)                                     3
+Total                 (all out, 53 overs)                     240
+
+FoW: 1-58 (Tancred), 2-66 (Shalders), 3-91 (Hathorn),
+     4-136 (Smith), 5-154 (Llewellyn), 6-170 (Nourse),
+     7-179 (Halliwell), 8-231 (Sinclair), 9-240 (Anderson),
+     10-240 (Kotze).
+
+Bowling                      O      M      R      W
+Trumper                     12      1     60      3
+Saunders                     9      1     32      2
+Howell                      13      1     52      2
+Noble                       15      2     75      3
+Armstrong                    2      0     16      0
+Hopkins                      2      1      2      0
+
+Australia 2nd innings                                           R   M   B  4 6
+WW Armstrong          not out                                 159            0
+SE Gregory            c Llewellyn        b Kotze               13            0
+VT Trumper            c Shalders         b Sinclair            13            0
+RA Duff                                  b Sinclair            44            0
+MA Noble              lbw                b Llewellyn           24            0
+*J Darling                               b Llewellyn            4            0
+JV Saunders                              b Sinclair             1          0 0
+C Hill                c Kotze            b Llewellyn           12            0
+AJY Hopkins           c Llewellyn        b Nourse               8            0
++JJ Kelly             c Hathorn          b Llewellyn            9            0
+WP Howell                                b Llewellyn            9            0
+Extras                (b 8, lb 5)                              13
+Total                 (all out, 81.4 overs)                   309
+
+FoW: 1-40 (Gregory), 2-87 (Trumper), 3-143 (Duff), 4-180 (Noble),
+     5-188 (Darling), 6-201 (Saunders), 7-238 (Hill),
+     8-263 (Hopkins), 9-290 (Kelly), 10-309 (Howell).
+
+Bowling                      O      M      R      W
+Kotze                       17      2     71      1
+Middleton                    4      0     15      0
+Llewellyn                   31.4    9     73      5
+Sinclair                    26      0    118      3
+Nourse                       3      0     19      1
+
+South Africa 2nd innings (target: 245 runs)                     R   M   B  4 6
+LJ Tancred            c Kelly            b Howell              29            0
+CMH Hathorn                              b Saunders             1          0 0
+WA Shalders                              b Saunders             3          0 0
+JH Sinclair                              b Howell              18            0
+CB Llewellyn                             b Saunders             0          0 0
+CJE Smith                                b Howell               4            0
+*JH Anderson          c Darling          b Saunders            11            0
+AW Nourse             not out                                  18            0
++EA Halliwell                            b Saunders             0          0 0
+J Middleton                              b Saunders             0          0 0
+JJ Kotze              st Kelly           b Saunders             0          0 0
+Extras                (lb 1)                                    1
+Total                 (all out, 22 overs)                      85
+
+FoW: 1-4 (Hathorn), 2-20 (Shalders), 3-46 (Sinclair),
+     4-51 (Tancred), 5-51 (Llewellyn), 6-66 (Smith),
+     7-66 (Anderson), 8-77 (Halliwell), 9-77 (Middleton),
+     10-85 (Kotze).
+
+Bowling                      O      M      R      W
+Trumper                      3      0     27      0
+Saunders                    11      2     34      7
+Howell                       8      3     23      3
+
+<END>

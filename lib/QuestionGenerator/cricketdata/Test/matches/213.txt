@@ -1,0 +1,101 @@
+
+Test # 213
+South Africa in Australia, 1931/32, 2nd Test
+Australia v South Africa
+Sydney Cricket Ground
+18,19,21 December 1931 (timeless match)
+
+Result: Australia won by an innings and 155 runs
+Series: Australia leads the 5-match series 2-0
+
+Toss: South Africa
+Umpires: GE Borwick and GA Hele
+Test debuts: PK Lee (Australia); LS Brown (South Africa).
+
+Close of play:
+ Day 1: South Africa 153, Australia 78/1 (Woodfull 36*, Rigg 35*)
+ Day 2: Australia 444/7 (Oldfield 4*)
+
+South Africa 1st innings                                        R   M   B  4 6
+JAJ Christy           c Nitschke         b Grimmett            14  44      1 0
+B Mitchell                               b McCabe               1  10      0 0
+DPB Morkel            st Oldfield        b Grimmett            20  41      3 0
+*+HB Cameron                             b Wall                11  40      2 0
+HW Taylor             c Lee              b Grimmett             7  20      0 0
+KG Viljoen                               b Ironmonger          37  90      3 0
+EL Dalton                                b Grimmett            21  29      1 0
+CL Vincent            not out                                  31  84      5 0
+LS Brown                                 b McCabe               2  10      0 0
+NA Quinn              lbw                b McCabe               5  18      0 0
+AJ Bell                                  b McCabe               0   3      0 0
+Extras                (lb 3, w 1)                               4
+Total                 (all out, 73 overs)                     153
+
+FoW: 1-6 (Mitchell), 2-31 (Christy), 3-36 (Morkel),
+     4-54 (Taylor), 5-62 (Cameron), 6-91 (Dalton),
+     7-136 (Viljoen), 8-143 (Brown), 9-153 (Quinn),
+     10-153 (Bell).
+
+Bowling                      O      M      R      W
+Wall                        18      4     46      1
+McCabe                      12      5     13      4
+Grimmett                    24     12     28      4
+Ironmonger                  12      1     38      1
+Lee                          7      1     24      0
+
+Australia 1st innings                                           R   M   B  4 6
+*WM Woodfull          c Mitchell         b Vincent             58 152      5 0
+WH Ponsford                              b Quinn                5   7      0 0
+KE Rigg                                  b Bell               127 240     12 0
+DG Bradman            c Viljoen          b Morkel             112 155     10 0
+SJ McCabe             c Christy          b Vincent             79 122      7 0
+HC Nitschke                              b Bell                47  73      3 0
+PK Lee                c Cameron          b Brown                0   2      0 0
++WAS Oldfield         c Cameron          b Bell                 8  21      0 0
+CV Grimmett           not out                                   9  31      1 0
+TW Wall               c Morkel           b Bell                 6  13      1 0
+H Ironmonger          c Cameron          b Bell                 0   1      0 0
+Extras                (b 5, lb 12, w 1)                        18
+Total                 (all out, 154.5 overs)                  469
+
+FoW: 1-6 (Ponsford), 2-143 (Woodfull), 3-254 (Rigg),
+     4-347 (Bradman), 5-432 (McCabe), 6-433 (Lee),
+     7-444 (Nitschke), 8-457 (Oldfield), 9-469 (Wall),
+     10-469 (Ironmonger).
+
+Bowling                      O      M      R      W
+Bell                        46.5    6    140      5
+Quinn                       42     10     95      1
+Brown                       29      3    100      1
+Vincent                     24      5     75      2
+Morkel                      12      2     33      1
+Mitchell                     1      0      8      0
+
+South Africa 2nd innings                                        R   M   B  4 6
+JAJ Christy           c Woodfull         b Ironmonger          41  32      7 0
+B Mitchell            c Oldfield         b Wall                24  67      1 0
+DPB Morkel            lbw                b Grimmett            17  55      1 0
+*+HB Cameron                             b Wall                 0   1      0 0
+HW Taylor             c Grimmett         b Ironmonger           6  22      0 0
+KG Viljoen                               b Grimmett             0  10      0 0
+EL Dalton             c Bradman          b Ironmonger          14  38      1 0
+CL Vincent            c Ponsford         b Grimmett            35  95      3 0
+LS Brown              c Wall             b Lee                  8  36      0 0
+NA Quinn              st Oldfield        b Grimmett             1  32      0 0
+AJ Bell               not out                                   1   5      0 0
+Extras                (b 5, lb 8, nb 1)                        14
+Total                 (all out, 73.3 overs)                   161
+
+FoW: 1-70 (Christy), 2-89 (Mitchell), 3-89 (Cameron),
+     4-100 (Morkel), 5-100 (Taylor), 6-100 (Viljoen),
+     7-122 (Dalton), 8-144 (Brown), 9-160 (Vincent),
+     10-161 (Quinn).
+
+Bowling                      O      M      R      W
+Wall                        18      5     31      2
+McCabe                       3      0     25      0
+Grimmett                    20.3    7     44      4
+Ironmonger                  19     10     22      3
+Lee                         13      4     25      1
+
+<END>

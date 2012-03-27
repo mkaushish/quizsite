@@ -1,0 +1,126 @@
+
+Test # 243
+South Africa in England, 1935, 2nd Test
+England v South Africa
+Lord's, London
+29 June, 1,2 July 1935 (3-day match)
+
+Result: South Africa won by 157 runs
+Series: South Africa leads the 5-match series 1-0
+
+Toss: South Africa
+Umpires: EJ Smith and FI Walden
+
+Close of play:
+ Day 1: South Africa 228, England 75/2 (Wyatt 37*, Hammond 12*)
+ Day 2: England 198, South Africa 208/6 (Mitchell 129*, Langton 11*)
+
+South Africa 1st innings                                        R   M   B  4 6
+B Mitchell            lbw                b Nichols             30            0
+IJ Siedle                                b Mitchell             6            0
+EAB Rowan             c Farrimond        b Verity              40 105        0
+AD Nourse                                b Verity               3          0 0
+*HF Wade              c Hammond          b Langridge           23            0
++HB Cameron                              b Nichols             90 105      6 3
+EL Dalton                            c & b Langridge           19            0
+XC Balaskas                              b Verity               4            0
+ACB Langton           c Holmes           b Hammond              4            0
+RJ Crisp              not out                                   4            0
+AJ Bell                                  b Hammond              0          0 0
+Extras                (b 1, lb 1, w 1, nb 2)                    5
+Total                 (all out, 91.3 overs)                   228
+
+FoW: 1-27 (Siedle), 2-59 (Mitchell), 3-62 (Nourse), 4-98 (Rowan),
+     5-158 (Wade), 6-187 (Dalton), 7-196 (Balaskas),
+     8-224 (Cameron), 9-228 (Langton), 10-228 (Bell).
+
+Bowling                      O      M      R      W
+Nichols                     21      5     47      2
+Wyatt                        4      2      9      0
+Hammond                      5.3    3      8      2
+Mitchell                    20      3     71      1
+Verity                      28     10     61      3
+Langridge                   13      3     27      2
+
+England 1st innings                                             R   M   B  4 6
+*RES Wyatt            c Nourse           b Dalton              53 110        0
+H Sutcliffe           lbw                b Bell                 3          0 0
+M Leyland                                b Balaskas            18            0
+WR Hammond                               b Dalton              27            0
+LEG Ames                                 b Balaskas             5            0
+ERT Holmes            c Bell             b Balaskas            10            0
+James Langridge       c Mitchell         b Balaskas            27            0
++W Farrimond                             b Balaskas            13            0
+MS Nichols            c Cameron          b Langton             10            0
+H Verity              lbw                b Langton             17            0
+TB Mitchell           not out                                   5            0
+Extras                (b 4, lb 5, w 1)                         10
+Total                 (all out, 80.3 overs)                   198
+
+FoW: 1-5 (Sutcliffe), 2-46 (Leyland), 3-100 (Hammond),
+     4-109 (Wyatt), 5-116 (Ames), 6-121 (Holmes),
+     7-158 (Farrimond), 8-161 (Langridge), 9-177 (Nichols),
+     10-198 (Verity).
+
+Bowling                      O      M      R      W
+Crisp                        8      1     32      0
+Bell                         6      0     16      1
+Langton                     21.3    3     58      2
+Balaskas                    32      8     49      5
+Dalton                      13      1     33      2
+
+South Africa 2nd innings                                        R   M   B  4 6
+B Mitchell            not out                                 164 330        0
+IJ Siedle             c Farrimond        b Mitchell            13            0
+EAB Rowan             lbw                b Nichols             44 120        0
+AD Nourse                                b Verity               2          0 0
++HB Cameron           c Ames             b Mitchell             3          0 0
+EL Dalton             c Wyatt            b Verity               0          0 0
+*HF Wade                                 b Verity               0          0 0
+ACB Langton                          c & b Hammond             44 120        0
+Extras                (b 3, lb 5)                               8
+Total                 (7 wickets dec, 121.4 overs)            278
+
+DNB: XC Balaskas, RJ Crisp, AJ Bell.
+
+FoW: 1-32 (Siedle), 2-136 (Rowan), 3-158 (Nourse),
+     4-169 (Cameron), 5-169 (Dalton), 6-177 (Wade),
+     7-278 (Langton).
+
+Bowling                      O      M      R      W
+Nichols                     18      4     64      1
+Wyatt                        4      2      2      0
+Hammond                     14.4    4     26      1
+Mitchell                    33      5     93      2
+Verity                      38     16     56      3
+Langridge                   10      4     19      0
+Holmes                       4      2     10      0
+
+England 2nd innings (target: 309 runs)                          R   M   B  4 6
+*RES Wyatt                               b Balaskas            16            0
+H Sutcliffe           lbw                b Langton             38            0
+M Leyland                                b Crisp                4            0
+WR Hammond            c Cameron          b Langton             27            0
+LEG Ames              lbw                b Langton              8            0
+ERT Holmes                               b Langton              8            0
+James Langridge       lbw                b Balaskas            17            0
++W Farrimond                             b Crisp               13            0
+MS Nichols            not out                                   7            0
+H Verity              c Langton          b Balaskas             8            0
+TB Mitchell           st Cameron         b Balaskas             1          0 0
+Extras                (lb 4)                                    4
+Total                 (all out, 67 overs)                     151
+
+FoW: 1-24 (Wyatt), 2-45 (Leyland), 3-89 (Hammond),
+     4-90 (Sutcliffe), 5-102 (Holmes), 6-111 (Ames),
+     7-129 (Farrimond), 8-141 (Langridge), 9-149 (Verity),
+     10-151 (Mitchell).
+
+Bowling                      O      M      R      W
+Crisp                       15      4     30      2
+Bell                        12      3     21      0
+Langton                     11      3     31      4
+Balaskas                    27      8     54      4
+Mitchell                     2      0     11      0
+
+<END>

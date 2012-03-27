@@ -1,0 +1,74 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+185, 1929-08-17, 1, 8, South Africa, c Mitchell, McMillan, 0, na, na, 0, 0
+187, 1930-01-11, 2, 6, West Indies, , Constantine, 16, na, na, na, 0
+187, 1930-01-11, 4, 5, West Indies, not out, , 44, na, na, na, 0
+189, 1930-02-01, 1, 6, West Indies, c Achong, Constantine, 42, na, na, na, 0
+189, 1930-02-01, 3, 5, West Indies, c sub (JED Sealy), Small, 105, na, na, 17, 0
+192, 1930-02-21, 2, 5, West Indies, c Hunte, Francis, 31, na, na, na, 0
+192, 1930-02-21, 4, 5, West Indies, c Francis, Constantine, 3, na, na, 0, 0
+193, 1930-04-03, 1, 5, West Indies, , Griffith, 149, 130, 174, 17, 0
+193, 1930-04-03, 3, 5, West Indies, c Nunes, Scott, 27, 50, 59, 2, 0
+209, 1931-06-27, 2, 7, New Zealand, c James, Weir, 137, 205, na, 18, 2
+209, 1931-06-27, 4, 6, New Zealand, not out, , 17, na, na, 1, 0
+210, 1931-07-29, 1, 5, New Zealand, c James, Vivian, 41, na, na, na, 0
+219, 1932-06-25, 1, 7, India, , Nissar, 65, na, na, 9, 0
+219, 1932-06-25, 3, 7, India, , Amar Singh, 6, na, na, na, 0
+220, 1932-12-02, 2, 9, Australia, c McCabe, O'Reilly, 0, 5, 8, 0, 0
+221, 1933-12-30, 2, 7, Australia, , Wall, 4, 9, 10, 0, 0
+221, 1933-12-30, 4, 6, Australia, c Fingleton, O'Reilly, 2, 8, 10, 0, 0
+222, 1933-01-13, 1, 4, Australia, , Ironmonger, 3, 39, 38, 0, 0
+222, 1933-01-13, 3, 7, Australia, , O'Reilly, 69, 169, 173, 6, 0
+223, 1933-02-10, 2, 6, Australia, c Darling, Ironmonger, 17, 82, 65, 1, 0
+223, 1933-02-10, 4, 5, Australia, not out, , 14, 40, 36, 0, 1
+224, 1933-02-23, 2, 7, Australia, run out, , 4, 32, 27, 0, 0
+225, 1933-03-24, 1, 6, New Zealand, , Vivian, 103, 144, na, na, 0
+226, 1933-03-31, 2, 5, New Zealand, , Badcock, 26, 45, na, na, 1
+227, 1933-06-24, 1, 7, West Indies, not out, , 83, 150, na, na, 0
+228, 1933-07-22, 2, 6, West Indies, c Headley, Martindale, 47, 100, na, na, 0
+229, 1933-08-12, 1, 7, West Indies, c Headley, Martindale, 37, na, na, na, 0
+233, 1934-06-08, 2, 7, Australia, c Wall, O'Reilly, 7, na, 48, na, 0
+233, 1934-06-08, 4, 7, Australia, , O'Reilly, 12, 70, 86, na, 0
+234, 1934-06-22, 1, 7, Australia, c Oldfield, McCabe, 120, 262, 325, 14, 0
+235, 1934-07-06, 1, 7, Australia, c Ponsford, Grimmett, 72, 150, 181, na, 0
+236, 1934-07-20, 1, 7, Australia, c Oldfield, Grimmett, 9, na, 54, na, 0
+236, 1934-07-20, 3, 7, Australia, c Brown, Grimmett, 8, 35, 51, 1, 0
+237, 1934-08-18, 2, 7, Australia, retired hurt, , 33, na, 57, na, 0
+237, 1934-08-18, 4, 11, Australia, absent hurt, , -, , , , 
+238, 1935-01-08, 2, 5, West Indies, lbw, RS Grant, 8, na, na, na, 0
+239, 1935-01-24, 2, 4, West Indies, c RS Grant, Martindale, 2, na, na, 0, 0
+239, 1935-01-24, 4, 8, West Indies, c Achong, Hylton, 6, na, na, na, 0
+240, 1935-02-14, 1, 8, West Indies, c Christiani, Hylton, 0, na, na, 0, 0
+240, 1935-02-14, 3, 8, West Indies, not out, , 5, na, na, na, 0
+241, 1935-03-14, 2, 6, West Indies, c Constantine, Mudie, 126, 270, na, 16, 0
+241, 1935-03-14, 3, 5, West Indies, c RS Grant, Constantine, 17, na, na, na, 0
+242, 1935-06-15, 1, 6, South Africa, c Viljoen, Vincent, 17, na, na, na, 0
+243, 1935-06-29, 2, 5, South Africa, , Balaskas, 5, na, na, na, 0
+243, 1935-06-29, 4, 5, South Africa, lbw, Langton, 8, na, na, na, 0
+244, 1935-07-13, 1, 7, South Africa, , Vincent, 0, na, na, 0, 0
+244, 1935-07-13, 3, 7, South Africa, , Bell, 13, na, na, na, 0
+246, 1935-08-17, 2, 6, South Africa, not out, , 148, 210, na, 14, 2
+255, 1936-12-04, 1, 6, Australia, c Chipperfield, Ward, 24, 49, 66, 3, 0
+255, 1936-12-04, 3, 6, Australia, , Sievers, 9, 23, 21, 2, 0
+256, 1936-12-18, 1, 5, Australia, c sub, Ward, 29, 123, 143, 1, 0
+257, 1937-01-01, 2, 6, Australia, , Sievers, 3, 19, 23, 0, 0
+257, 1937-01-01, 4, 5, Australia, , Fleetwood-Smith, 19, 34, 44, 3, 0
+258, 1937-01-29, 2, 6, Australia, , McCormick, 52, 119, 134, 8, 0
+258, 1937-01-29, 4, 7, Australia, lbw, Fleetwood-Smith, 0, 1, 1, 0, 0
+259, 1937-02-26, 2, 7, Australia, , Nash, 19, 39, 43, 2, 0
+259, 1937-02-26, 3, 7, Australia, c McCabe, McCormick, 11, 41, 27, 0, 0
+260, 1937-06-26, 1, 7, New Zealand, , Vivian, 5, na, na, na, 0
+260, 1937-06-26, 3, 5, New Zealand, c sub, Roberts, 20, na, na, na, 0
+261, 1937-07-24, 1, 6, New Zealand, not out, , 16, na, na, na, 0
+261, 1937-07-24, 3, 6, New Zealand, lbw, Dunning, 39, na, na, na, 0
+262, 1937-08-14, 2, 7, New Zealand, not out, , 6, na, na, na, 0
+263, 1938-06-10, 1, 7, Australia, , Fleetwood-Smith, 46, 54, 70, 6, 0
+264, 1938-06-24, 1, 7, Australia, c McCormick, Fleetwood-Smith, 83, 190, 154, 10, 0
+264, 1938-06-24, 3, 8, Australia, c McCabe, O'Reilly, 6, 19, 11, 1, 0
+267, 1938-12-24, 1, 5, South Africa, c Wade, Gordon, 42, na, na, na, 0
+267, 1938-12-24, 3, 5, South Africa, not out, , 3, na, na, 0, 0
+268, 1939-12-31, 1, 5, South Africa, , Gordon, 115, 145, na, 13, 0
+269, 1939-01-20, 1, 5, South Africa, not out, , 27, 50, na, na, 0
+270, 1939-02-18, 1, 5, South Africa, , Langton, 34, 54, na, na, 0
+270, 1939-02-18, 3, 5, South Africa, , Gordon, 17, na, na, na, 0
+271, 1939-03-03, 2, 5, South Africa, c Dalton, Langton, 84, 172, na, 7, 0
+271, 1939-03-03, 4, 6, South Africa, not out, , 17, na, na, na, 0

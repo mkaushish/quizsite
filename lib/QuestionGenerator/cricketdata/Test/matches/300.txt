@@ -1,0 +1,128 @@
+
+Test # 300
+The Ashes, 1948, 2nd Test
+England v Australia
+Lord's, London
+24,25,26,28,29 June 1948 (5-day match)
+
+Result: Australia won by 409 runs
+Series: Australia leads the 5-match series 2-0
+
+Toss: Australia
+Umpires: D Davies and CN Woolley
+Test debut: A Coxon (England).
+
+Close of play:
+ Day 1: Australia 258/7 (Tallon 25*, Lindwall 3*)
+ Day 2: Australia 350, England 207/9 (Bedser 6*, Wright 8*)
+ Day 3: England 215, Australia 343/4 (Miller 22*, Brown 7*)
+ Day 4: Australia 460/7d, England 106/3 (Compton 29*, Dollery 21*)
+
+Australia 1st innings                                           R   M   B  4 6
+SG Barnes             c Hutton           b Coxon                0          0 0
+AR Morris             c Hutton           b Coxon              105 209     14 1
+*DG Bradman           c Hutton           b Bedser              38 115 104    0
+AL Hassett                               b Yardley             47 175        0
+KR Miller             lbw                b Bedser               4            0
+WA Brown              lbw                b Yardley             24  84        0
+IWG Johnson           c Evans            b Edrich               4            0
++D Tallon             c Yardley          b Bedser              53            0
+RR Lindwall                              b Bedser              15            0
+WA Johnston           st Evans           b Wright              29            0
+ERH Toshack           not out                                  20            0
+Extras                (b 3, lb 7, nb 1)                        11
+Total                 (all out, 129.3 overs)                  350
+
+FoW: 1-3 (Barnes), 2-87 (Bradman), 3-166 (Morris),
+     4-173 (Miller), 5-216 (Hassett), 6-225 (Brown),
+     7-246 (Johnson), 8-275 (Lindwall), 9-320 (Tallon),
+     10-350 (Johnston).
+
+Bowling                      O      M      R      W
+Bedser                      43     14    100      4
+Coxon                       35     10     90      2
+Edrich                       8      0     43      1
+Wright                      21.3    8     54      1
+Laker                        7      3     17      0
+Yardley                     15      4     35      2
+
+England 1st innings                                             R   M   B  4 6
+L Hutton                                 b Johnson             20            0
+C Washbrook           c Tallon           b Lindwall             8            0
+WJ Edrich                                b Lindwall             5  70        0
+DCS Compton           c Miller           b Johnston            53            0
+HE Dollery                               b Lindwall             0       2  0 0
+*NWD Yardley                             b Lindwall            44            0
+A Coxon                              c & b Johnson             19            0
++TG Evans             c Miller           b Johnston             9            0
+JC Laker              c Tallon           b Johnson             28            0
+AV Bedser                                b Lindwall             9            0
+DVP Wright            not out                                  13            0
+Extras                (lb 3, nb 4)                              7
+Total                 (all out, 102.4 overs)                  215
+
+FoW: 1-17 (Washbrook), 2-32 (Hutton), 3-46 (Edrich),
+     4-46 (Dollery), 5-133 (Compton), 6-134 (Yardley),
+     7-145 (Evans), 8-186 (Coxon), 9-197 (Laker),
+     10-215 (Bedser).
+
+Bowling                      O      M      R      W
+Lindwall                    27.4    7     70      5
+Johnston                    22      4     43      2
+Johnson                     35     13     72      3
+Toshack                     18     11     23      0
+
+Australia 2nd innings                                           R   M   B  4 6
+SG Barnes             c Washbrook        b Yardley            141 277     14 2
+AR Morris                                b Wright              62            1
+*DG Bradman           c Edrich           b Bedser              89 185 162 13 0
+AL Hassett                               b Yardley              0   1   1  0 0
+KR Miller             c Bedser           b Laker               74            1
+WA Brown              c Evans            b Coxon               32            0
+RR Lindwall           st Evans           b Laker               25            0
+IWG Johnson           not out                                   9            0
+Extras                (b 22, lb 5, nb 1)                       28
+Total                 (7 wickets dec, 130.2 overs)            460
+
+DNB: +D Tallon, WA Johnston, ERH Toshack.
+
+FoW: 1-122 (Morris), 2-296 (Barnes), 3-296 (Hassett),
+     4-329 (Bradman), 5-416 (Brown), 6-445 (Miller),
+     7-460 (Lindwall).
+
+Bowling                      O      M      R      W
+Bedser                      34      6    112      1
+Coxon                       28      3     82      1
+Edrich                       2      0     11      0
+Wright                      19      4     69      1
+Laker                       31.2    6    111      2
+Yardley                     13      4     36      2
+Compton                      3      0     11      0
+
+England 2nd innings (target: 596 runs)                          R   M   B  4 6
+L Hutton              c Johnson          b Lindwall            13            0
+C Washbrook           c Tallon           b Toshack             37            0
+WJ Edrich             c Johnson          b Toshack              2          0 0
+DCS Compton           c Miller           b Johnston            29            0
+HE Dollery                               b Lindwall            37            0
+*NWD Yardley                             b Toshack             11            0
+A Coxon               lbw                b Toshack              0       2  0 0
++TG Evans             not out                                  24            0
+JC Laker                                 b Lindwall             0          0 0
+AV Bedser             c Hassett          b Johnston             9            0
+DVP Wright            c Lindwall         b Toshack              4            0
+Extras                (b 16, lb 4)                             20
+Total                 (all out, 78.1 overs)                   186
+
+FoW: 1-42 (Hutton), 2-52 (Edrich), 3-65 (Washbrook),
+     4-106 (Compton), 5-133 (Yardley), 6-133 (Coxon),
+     7-141 (Dollery), 8-141 (Laker), 9-158 (Bedser),
+     10-186 (Wright).
+
+Bowling                      O      M      R      W
+Lindwall                    23      9     61      3
+Johnston                    33     15     62      2
+Johnson                      2      1      3      0
+Toshack                     20.1    6     40      5
+
+<END>

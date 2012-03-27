@@ -1,0 +1,110 @@
+
+Test # 39
+The Ashes, 1893, 1st Test
+England v Australia
+Lord's, London
+17,18,19 July 1893 (3-day match)
+
+Result: Match drawn
+Series: 3-match series level 0-0
+
+Toss: England
+Umpires: W Hearn and J Phillips (Aus)
+Balls per over: 5
+Test debuts: H Graham (Australia); FS Jackson, WH Lockwood, AW Mold,
+ E Wainwright (England).
+
+Close of play:
+ Day 1: England 334, Australia 33/2 (Bannerman 9*, Trott 4*)
+ Day 2: Australia 269, England 113/1 (Shrewsbury 45*, Gunn 43*)
+
+England 1st innings                                             R   M   B  4 6
+A Shrewsbury snr      c Blackham         b Turner             106 250      9 0
+*AE Stoddart                             b Turner              24            0
+W Gunn                c Lyons            b Turner               2          0 0
+FS Jackson            c Blackham         b Turner              91 105     13 0
+JM Read                                  b Bruce                6            0
+R Peel                c Bruce            b Trumble             12            0
+W Flowers                                b McLeod              35            0
+E Wainwright          c Giffen           b Turner               1          0 0
+WH Lockwood                              b Bruce               22            0
++G MacGregor          not out                                   5            0
+AW Mold                                  b Turner               0          0 0
+Extras                (b 19, lb 9, nb 2)                       30
+Total                 (all out, 125 overs)                    334
+
+FoW: 1-29 (Stoddart), 2-31 (Gunn), 3-168 (Jackson), 4-189 (Read),
+     5-213 (Peel), 6-293 (Flowers), 7-298 (Shrewsbury),
+     8-313 (Wainwright), 9-333 (Lockwood), 10-334 (Mold).
+
+Bowling                      O      M      R      W
+Turner                      36     16     67      6
+Bruce                       22      4     58      2
+Trumble                     19      7     42      1
+Trott                        9      2     38      0
+McLeod                      21      6     51      1
+Giffen                      18      3     48      0
+
+Australia 1st innings                                           R   M   B  4 6
+JJ Lyons                                 b Lockwood             7            0
+AC Bannerman          c Shrewsbury       b Lockwood            17            0
+G Giffen                                 b Lockwood             0          0 0
+GHS Trott             c MacGregor        b Lockwood            33            0
+RW McLeod                                b Lockwood             5            0
+SE Gregory            c MacGregor        b Lockwood            57            0
+H Graham              c MacGregor        b Mold               107 140     12 0
+W Bruce               c Peel             b Mold                23            0
+CTB Turner                               b Flowers              0          0 0
+H Trumble             not out                                   2          0 0
+*+JM Blackham         lbw                b Mold                 2          0 0
+Extras                (b 15, lb 1)                             16
+Total                 (all out, 114.1 overs)                  269
+
+FoW: 1-7 (Lyons), 2-7 (Giffen), 3-50 (Bannerman), 4-60 (McLeod),
+     5-75 (Trott), 6-217 (Gregory), 7-264 (Graham),
+     8-265 (Turner), 9-265 (Bruce), 10-269 (Blackham).
+
+Bowling                      O      M      R      W
+Peel                        22     12     36      0
+Lockwood                    45     11    101      6
+Mold                        20.1    7     44      3
+Jackson                      5      1     10      0
+Wainwright                  11      3     41      0
+Flowers                     11      3     21      1
+
+England 2nd innings                                             R   M   B  4 6
+A Shrewsbury snr                         b Giffen              81            0
+*AE Stoddart                             b Turner              13            0
+W Gunn                c Graham           b Giffen              77            0
+FS Jackson            c Bruce            b Giffen               5            0
+JM Read               c McLeod           b Bruce                1          0 0
+W Flowers                                b Turner               4            0
+WH Lockwood                              b Giffen               0          0 0
+E Wainwright                             b Giffen              26            0
+R Peel                not out                                   0          0 0
+Extras                (b 16, lb 9, w 1, nb 1)                  27
+Total                 (8 wickets dec, 116.4 overs)            234
+
+DNB: +G MacGregor, AW Mold.
+
+FoW: 1-27 (Stoddart), 2-179 (Gunn), 3-195 (Jackson),
+     4-198 (Read), 5-198 (Shrewsbury), 6-198 (Lockwood),
+     7-234 (Flowers), 8-234 (Wainwright).
+
+Bowling                      O      M      R      W
+Turner                      32     15     64      2
+Bruce                       20     10     34      1
+Trumble                     11      2     33      0
+Trott                        2      0      5      0
+McLeod                      25     11     28      0
+Giffen                      26.4    6     43      5
+
+*** Shrewsbury became the first to score three Test hundreds for England and
+    the first batsman from either country to score 1,000 runs in England v
+    Australia Tests.
+*** Graham became the second Australian after C Bannerman to score a hundred
+    in his first Test.
+*** Stoddart was the first captain to declare a Test innings closed.
+*** Rain prevented play after lunch on the third day.
+
+<END>

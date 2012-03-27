@@ -1,0 +1,123 @@
+
+Test # 405
+Australia in West Indies, 1955, 3rd Test
+West Indies v Australia
+Bourda, Georgetown, British Guiana
+26,27,28,29 April 1955 (6-day match)
+
+Result: Australia won by 8 wickets
+Series: Australia leads the 5-match series 2-0
+
+Toss: West Indies
+Umpires: ES Gillette and EN Lee Kow
+Test debuts: CC Depeiaza, NE Marshall (West Indies).
+
+Close of play:
+ Day 1: West Indies 182, Australia 83/1 (McDonald 32*, Harvey 6*)
+ Day 2: Australia 257, West Indies 17/0 (Holt 5*, Stollmeyer 11*)
+ Day 3: West Indies 207, Australia 40/0 (McDonald 20*, Morris 19*)
+
+West Indies 1st innings                                         R   M   B  4 6
+JKC Holt                             c & b Miller              12  25        0
+*JB Stollmeyer        c Archer           b Miller              16            0
+CL Walcott                           c & b Archer               8            0
+ED Weekes             c Archer           b Benaud              81 120     11 0
+FMM Worrell           c Johnson          b Archer               9            0
+GS Sobers             c Watson           b Johnson             12            0
+DS Atkinson                              b Lindwall            13            0
++CC Depeiaza          not out                                  16            0
+NE Marshall                              b Benaud               0       1  0 0
+S Ramadhin            c Archer           b Benaud               0       2  0 0
+FM King               c Langley          b Benaud              13            0
+Extras                (b 1, lb 1)                               2
+Total                 (all out, 43.5 overs)                   182
+
+FoW: 1-23 (Holt), 2-30 (Stollmeyer), 3-42 (Walcott),
+     4-52 (Worrell), 5-83 (Sobers), 6-124 (Atkinson),
+     7-156 (Weekes), 8-156 (Marshall), 9-160 (Ramadhin),
+     10-182 (King).
+
+Bowling                      O      M      R      W
+Lindwall                    12      0     44      1
+Miller                       9      1     33      2
+Archer                      10      0     46      2
+Johnson                      9      1     42      1
+Benaud                       3.5    1     15      4
+
+Australia 1st innings                                           R   M   B  4 6
+CC McDonald                              b Atkinson            61 230      8 0
+AR Morris             c Sobers           b Atkinson            44            0
+RN Harvey             c Holt             b Ramadhin            38            0
+WJ Watson                            c & b Ramadhin             6          1 0
+KR Miller             c Depeiaza         b Sobers              33            1
+R Benaud              c sub              b Marshall            68 132      8 2
+RG Archer             st Depeiaza        b Sobers               2          0 0
+*IWG Johnson          c Stollmeyer       b Sobers               0          0 0
+RR Lindwall                              b Atkinson             2          0 0
++GRA Langley          not out                                   1          0 0
+WA Johnston           absent hurt                               -
+Extras                (lb 2)                                    2
+Total                 (all out, 134.3 overs)                  257
+
+FoW: 1-71 (Morris), 2-135 (Harvey), 3-147 (Watson),
+     4-161 (McDonald), 5-215 (Miller), 6-231 (Archer),
+     7-231 (Johnson), 8-238 (Lindwall), 9-257 (Benaud).
+
+Bowling                      O      M      R      W
+King                        12      1     37      0
+Worrell                      9      2     17      0
+Ramadhin                    26      9     55      2
+Atkinson                    37     13     85      3
+Marshall                    33.3   16     40      1
+Stollmeyer                   1      0      1      0
+Sobers                      16     10     20      3
+
+West Indies 2nd innings                                         R   M   B  4 6
+JKC Holt              c Langley          b Miller               6            0
+*JB Stollmeyer                       c & b Johnson             17            0
+CL Walcott            hit wicket         b Lindwall            73            0
+ED Weekes             c Langley          b Johnson              0   1   1  0 0
+FMM Worrell           hit wicket         b Benaud              56            0
++CC Depeiaza          st Langley         b Johnson             13            0
+DS Atkinson           st Langley         b Johnson             16            0
+GS Sobers                                b Johnson             11            0
+NE Marshall           c sub              b Johnson              8            0
+S Ramadhin            st Langley         b Johnson              2          0 0
+FM King               not out                                   0          0 0
+Extras                (b 1, lb 2, nb 2)                         5
+Total                 (all out, 75.2 overs)                   207
+
+FoW: 1-25 (Holt), 2-25 (Stollmeyer), 3-25 (Weekes),
+     4-150 (Walcott), 5-162 (Worrell), 6-175 (Depeiaza),
+     7-186 (Atkinson), 8-204 (Marshall), 9-204 (Sobers),
+     10-207 (Ramadhin).
+
+Bowling                      O      M      R      W
+Lindwall                    18      1     54      1
+Miller                       9      3     18      1
+Archer                      12      3     43      0
+Johnson                     22.2   10     44      7
+Benaud                      14      3     43      1
+
+Australia 2nd innings (target: 133 runs)                        R   M   B  4 6
+CC McDonald                              b Atkinson            31  93        0
+AR Morris             c Walcott          b Marshall            38  96      3 0
+RN Harvey             not out                                  41            0
+WJ Watson             not out                                  22            0
+Extras                (nb 1)                                    1
+Total                 (2 wickets, 58.5 overs)                 133
+
+DNB: KR Miller, R Benaud, RG Archer, *IWG Johnson, RR Lindwall,
+     +GRA Langley, WA Johnston.
+
+FoW: 1-70 (McDonald), 2-70 (Morris).
+
+Bowling                      O      M      R      W
+King                         3      0     10      0
+Worrell                      7      2     20      0
+Ramadhin                     9      1     29      0
+Atkinson                    15.5    5     32      1
+Marshall                    13      6     22      1
+Sobers                      11      4     19      0
+
+<END>

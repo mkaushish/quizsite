@@ -1,0 +1,51 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+291, 1947-12-12, 2, 11, India, not out, , 0, 3, 2, 0, 0
+292, 1948-01-01, 1, 11, India, run out, , 5, 3, 4, 1, 0
+292, 1948-01-01, 3, 3, India, lbw, Amarnath, 3, 39, 39, 0, 0
+295, 1948-02-06, 1, 11, India, not out, , 23, 22, 15, 2, 0
+299, 1948-06-10, 2, 10, England, not out, , 17, 27, na, 2, 0
+300, 1948-06-24, 1, 10, England, st Evans, Wright, 29, na, na, na, 0
+301, 1948-07-08, 2, 10, England, c Crapp, Bedser, 3, 13, na, 0, 0
+302, 1948-07-22, 2, 10, England, c Edrich, Bedser, 13, na, na, na, 0
+303, 1948-08-14, 2, 11, England, not out, , 0, 1, 2, 0, 0
+318, 1949-12-24, 1, 11, South Africa, not out, , 1, na, na, 0, 0
+320, 1950-01-20, 2, 11, South Africa, not out, , 2, na, na, 0, 0
+327, 1950-12-01, 1, 10, England, c Hutton, Bedser, 1, 19, na, 0, 0
+328, 1950-12-22, 1, 10, England, c Hutton, Bedser, 0, 1, na, 0, 0
+328, 1950-12-22, 3, 10, England, , Bailey, 6, 24, na, 0, 0
+329, 1951-01-05, 2, 10, England, run out, , 0, 4, na, 0, 0
+330, 1951-02-02, 1, 10, England, c Hutton, Wright, 0, 5, na, 0, 0
+330, 1951-02-02, 3, 10, England, not out, , 9, 21, na, 1, 0
+331, 1951-02-23, 1, 10, England, not out, , 12, 43, na, 1, 0
+331, 1951-02-23, 3, 10, England, , Bedser, 1, 5, na, 0, 0
+340, 1951-11-09, 2, 11, West Indies, run out, , 2, 10, na, 0, 0
+341, 1951-11-30, 2, 11, West Indies, , Valentine, 28, 24, na, 4, 0
+343, 1951-12-22, 1, 11, West Indies, not out, , 7, 6, na, 1, 0
+343, 1951-12-22, 3, 11, West Indies, lbw, Valentine, 0, 1, na, 0, 0
+345, 1952-12-31, 2, 11, West Indies, , Gomez, 1, 4, na, 0, 0
+345, 1952-12-31, 4, 11, West Indies, not out, , 7, 35, na, 0, 0
+347, 1952-01-25, 1, 11, West Indies, not out, , 13, 19, na, 2, 0
+347, 1952-01-25, 3, 11, West Indies, not out, , 6, 9, na, 1, 0
+359, 1952-12-05, 1, 11, South Africa, not out, , 1, 15, na, 0, 0
+359, 1952-12-05, 3, 11, South Africa, c McGlew, Tayfield, 0, 4, na, 0, 0
+361, 1952-12-24, 2, 11, South Africa, lbw, Tayfield, 0, 2, na, 0, 0
+361, 1952-12-24, 4, 11, South Africa, not out, , 0, 8, 2, 0, 0
+362, 1953-01-09, 2, 11, South Africa, not out, , 7, 12, na, 1, 0
+364, 1953-01-24, 1, 11, South Africa, run out, , 11, 12, na, 2, 0
+365, 1953-02-06, 1, 10, South Africa, c Endean, Tayfield, 12, 21, na, 2, 0
+365, 1953-02-06, 3, 10, South Africa, c Cheetham, Fuller, 5, 16, na, 1, 0
+372, 1953-06-11, 1, 11, England, not out, , 0, na, na, 0, 0
+372, 1953-06-11, 3, 11, England, not out, , 4, na, na, na, 0
+373, 1953-06-25, 1, 11, England, not out, , 3, na, na, 0, 0
+373, 1953-06-25, 3, 11, England, not out, , 0, na, na, 0, 0
+376, 1953-08-15, 1, 11, England, not out, , 9, na, na, na, 0
+376, 1953-08-15, 3, 11, England, not out, , 6, 26, na, 0, 0
+392, 1954-12-17, 2, 11, England, not out, , 0, 8, 6, 0, 0
+392, 1954-12-17, 4, 11, England, c Evans, Tyson, 11, 40, 16, 2, 0
+393, 1955-12-31, 2, 11, England, , Statham, 11, 22, na, 1, 0
+393, 1955-12-31, 4, 11, England, c Evans, Tyson, 0, 4, na, 0, 0
+396, 1955-01-28, 1, 11, England, not out, , 0, 1, na, 0, 0
+396, 1955-01-28, 3, 10, England, c Appleyard, Tyson, 3, 35, na, 0, 0
+403, 1955-03-26, 1, 11, West Indies, not out, , 0, na, na, 0, 0
+404, 1955-04-11, 2, 11, West Indies, not out, , 1, na, na, 0, 0
+405, 1955-04-26, 2, 11, West Indies, absent hurt, , -, , , , 

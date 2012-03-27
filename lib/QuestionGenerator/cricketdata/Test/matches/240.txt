@@ -1,0 +1,125 @@
+
+Test # 240
+England in West Indies, 1934/35, 3rd Test
+West Indies v England
+Bourda, Georgetown, British Guiana
+14,15,16,18 February 1935 (4-day match)
+
+Result: Match drawn
+Series: 4-match series level 1-1
+
+Toss: England
+Umpires: JG Blackman and AJ Richardson (Aus)
+Test debuts: JM Neblett, KL Wishart (West Indies).
+
+Close of play:
+ Day 1: England 64/2 (Wyatt 17*, Paine 0*)
+ Day 2: England 226, West Indies 26/1 (Wishart 14*, GC Grant 6*)
+ Day 3: West Indies 184, England 5/1 (Wyatt 4*, Paine 0*)
+
+England 1st innings                                             R   M   B  4 6
+DCH Townsend          lbw                b RS Grant            16            0
+*RES Wyatt            c GC Grant         b Martindale          21            0
+CIJ Smith             c Headley          b Hylton              25  10        3
+GAE Paine             st Christiani      b Constantine         49 180        0
+WR Hammond            run out                                  47            0
+EH Hendren            c Martindale       b Hylton              38            0
+M Leyland             c Christiani       b Hylton              13            0
++LEG Ames             c Christiani       b Hylton               0          0 0
+J Iddon               lbw                b Martindale           0          0 0
+ERT Holmes                               b Martindale           2          0 0
+WE Hollies            not out                                   1          0 0
+Extras                (b 5, lb 5, nb 4)                        14
+Total                 (all out, 113.2 overs)                  226
+
+FoW: 1-38 (Townsend), 2-63 (Smith), 3-72 (Wyatt),
+     4-152 (Hammond), 5-172 (Paine), 6-209 (Leyland),
+     7-209 (Ames), 8-212 (Iddon), 9-215 (Holmes),
+     10-226 (Hendren).
+
+Bowling                      O      M      R      W
+Martindale                  20      7     47      3
+Hylton                      13.2    4     27      4
+Constantine                 22      4     45      1
+Neblett                     20      9     31      0
+RS Grant                    26      7     46      1
+Jones                        5      4      4      0
+Sealy                        6      2     12      0
+Headley                      1      1      0      0
+
+West Indies 1st innings                                         R   M   B  4 6
+CEL Jones             lbw                b Hollies              6            0
+KL Wishart            run out                                  52            0
+*GC Grant             c Paine            b Hollies             16  70        0
+GA Headley            lbw                b Paine               53  90      7 0
+JED Sealy             c Ames             b Hollies             19            1
+LN Constantine        lbw                b Hollies              7            0
+JM Neblett            not out                                  11            0
+RS Grant              lbw                b Hollies              2          0 0
++CM Christiani        lbw                b Hollies              0          0 0
+LG Hylton                                b Paine                6            1
+EA Martindale                            b Hollies              0          0 0
+Extras                (b 4, lb 7, nb 1)                        12
+Total                 (all out, 93 overs)                     184
+
+FoW: 1-18 (Jones), 2-43 (GC Grant), 3-122 (Headley),
+     4-153 (Wishart), 5-157 (Sealy), 6-170 (Constantine),
+     7-173 (RS Grant), 8-173 (Christiani), 9-183 (Hylton),
+     10-184 (Martindale).
+
+Bowling                      O      M      R      W
+Smith                       22      8     37      0
+Wyatt                       10      5     10      0
+Hollies                     26      7     50      7
+Paine                       33      7     63      2
+Leyland                      2      0     12      0
+
+England 2nd innings                                             R   M   B  4 6
+DCH Townsend          lbw                b Constantine          1          0 0
+*RES Wyatt                               b RS Grant            71            0
+GAE Paine             c GC Grant         b Neblett             18            1
+WR Hammond                               b Constantine          1          0 0
+CIJ Smith                                b Constantine          4            0
+EH Hendren            not out                                  38            0
+M Leyland                                b RS Grant             0          0 0
++LEG Ames             not out                                   5            0
+Extras                (b 18, lb 3, w 1)                        22
+Total                 (6 wickets dec, 80 overs)               160
+
+DNB: J Iddon, ERT Holmes, WE Hollies.
+
+FoW: 1-3 (Townsend), 2-39 (Paine), 3-54 (Hammond), 4-60 (Smith),
+     5-140 (Wyatt), 6-144 (Leyland).
+
+Bowling                      O      M      R      W
+Martindale                   8      3     16      0
+Hylton                       8      3     18      0
+Constantine                 26     11     32      3
+Neblett                     16      2     44      1
+RS Grant                    22      6     28      2
+
+West Indies 2nd innings (target: 203 runs)                      R   M   B  4 6
++CM Christiani        not out                                  32            0
+KL Wishart            lbw                b Wyatt                0          0 0
+CEL Jones                                b Paine                8            0
+JED Sealy             run out                                  33            1
+LN Constantine        st Ames            b Paine                7            0
+JM Neblett            c Hammond          b Holmes               5            0
+*GC Grant             not out                                   5            0
+Extras                (b 9, lb 1, w 4)                         14
+Total                 (5 wickets, 24 overs)                   104
+
+DNB: GA Headley, RS Grant, LG Hylton, EA Martindale.
+
+FoW: 1-4 (Wishart), 2-27 (Jones), 3-70 (Sealy),
+     4-80 (Constantine), 5-85 (Neblett).
+
+Bowling                      O      M      R      W
+Smith                        4      2     13      0
+Wyatt                        4      2      7      1
+Hollies                      5      2     17      0
+Paine                        7      0     28      2
+Townsend                     1      0      9      0
+Holmes                       3      1     16      1
+
+<END>

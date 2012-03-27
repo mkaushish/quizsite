@@ -1,0 +1,121 @@
+
+Test # 872
+England in Australia, 1979/80, 3rd Test
+Australia v England
+Melbourne Cricket Ground
+1,2,3,5,6 February 1980 (5-day match)
+
+Result: Australia won by 8 wickets
+Series: Australia wins the 3-match series 3-0
+
+Toss: England
+Umpires: RC Bailhache and PM Cronin
+Test debut: W Larkins (England).
+Player of the match: DK Lillee
+Player of the series: DK Lillee
+
+Close of play:
+ Day 1: England 231/6 (Brearley 19*, Taylor 21*)
+ Day 2: England 306, Australia 155/1 (Laird 63*, IM Chappell 53*)
+ Day 3: Australia 399/5 (GS Chappell 99*, Marsh 13*)
+ Day 4: Australia 477, England 157/6 (Botham 30*, Taylor 28*)
+
+England 1st innings                                             R   M   B  4 6
+GA Gooch              run out                                  99 238 193 10 0
+G Boycott             c Mallett          b Dymock              44 147 124  2 0
+W Larkins             c GS Chappell      b Pascoe              25  79  62  2 0
+DI Gower              lbw                b Lillee               0  19  18  0 0
+P Willey              lbw                b Pascoe               1  16   9  0 0
+IT Botham             c Marsh            b Lillee               8  29  21  1 0
+*JM Brearley          not out                                  60 233 186  2 0
++RW Taylor                               b Lillee              23  85  75  1 0
+DL Underwood          c IM Chappell      b Lillee               3  14  18  0 0
+JK Lever                                 b Lillee              22  90  68  1 0
+RGD Willis            c GS Chappell      b Lillee               4  13  10  0 0
+Extras                (b 1, lb 2, nb 14)                       17
+Total                 (all out, 128.1 overs)                  306
+
+FoW: 1-116 (Boycott), 2-170 (Larkins), 3-175 (Gooch),
+     4-177 (Gower), 5-177 (Willey), 6-192 (Botham),
+     7-238 (Taylor), 8-242 (Underwood), 9-296 (Lever),
+     10-306 (Willis).
+
+Bowling                      O      M      R      W
+Lillee                      33.1    9     60      6
+Dymock                      28      6     54      1
+Mallett                     35      9    104      0
+Pascoe                      32      7     71      2
+
+Australia 1st innings                                           R   M   B  4 6
+RB McCosker           c Botham           b Underwood           33  88  73  2 0
+BM Laird              c Gower            b Underwood           74 259 216  7 0
+IM Chappell                          c & b Underwood           75 194 151  6 0
+KJ Hughes             c Underwood        b Botham              15  68  49  2 0
+AR Border                            c & b Lever               63 208 153  6 0
+*GS Chappell          c Larkins          b Lever              114 288 212 14 0
++RW Marsh             c Botham           b Lever               17  92  75  2 0
+DK Lillee             c Willey           b Lever                8  55  29  1 0
+G Dymock                                 b Botham              19  91  74  0 0
+AA Mallett            lbw                b Botham              25  74  54  4 0
+LS Pascoe             not out                                   1   8   4  0 0
+Extras                (b 13, lb 12, w 1, nb 7)                 33
+Total                 (all out, 179.5 overs)                  477
+
+FoW: 1-52 (McCosker), 2-179 (Laird), 3-196 (IM Chappell),
+     4-219 (Hughes), 5-345 (Border), 6-411 (Marsh),
+     7-421 (GS Chappell), 8-432 (Lillee), 9-465 (Dymock),
+     10-477 (Mallett).
+
+Bowling                      O      M      R      W
+Lever                       53     15    111      4
+Botham                      39.5   15    105      3
+Willis                      21      4     61      0
+Underwood                   53     19    131      3
+Willey                      13      2     36      0
+
+England 2nd innings                                             R   M   B  4 6
+GA Gooch                                 b Mallett             51 126 113  6 0
+G Boycott                                b Lillee               7  37  35  0 0
+W Larkins             lbw                b Pascoe               3  24  14  0 0
+DI Gower                                 b Lillee              11  19  15  1 0
+P Willey              c Marsh            b Lillee               2   7   5  0 0
+*JM Brearley          c Border           b Pascoe              10  40  31  1 0
+IT Botham             not out                                 119 224 213 15 0
++RW Taylor            c Border           b Lillee              32  90  62  3 0
+DL Underwood                             b Pascoe               0   3   3  0 0
+JK Lever              c Marsh            b Lillee              12 105  65  1 0
+RGD Willis            c GS Chappell      b Pascoe               2  11   8  0 0
+Extras                (b 2, lb 12, nb 10)                      24
+Total                 (all out, 91.5 overs)                   273
+
+FoW: 1-25 (Boycott), 2-46 (Larkins), 3-64 (Gower), 4-67 (Willey),
+     5-88 (Gooch), 6-92 (Brearley), 7-178 (Taylor),
+     8-179 (Underwood), 9-268 (Lever), 10-273 (Willis).
+
+Bowling                      O      M      R      W
+Lillee                      33      6     78      5
+Dymock                      11      2     30      0
+Mallett                     14      1     45      1
+Pascoe                      29.5    3     80      4
+Border                       4      0     16      0
+
+Australia 2nd innings (target: 103 runs)                        R   M   B  4 6
+RB McCosker           lbw                b Botham               2  49  34  0 0
+BM Laird              c Boycott          b Underwood           25  96  95  1 0
+IM Chappell           not out                                  26  99  62  0 0
+*GS Chappell          not out                                  40  52  43  6 0
+Extras                (lb 8, nb 2)                             10
+Total                 (2 wickets, 38.4 overs)                 103
+
+DNB: KJ Hughes, AR Border, +RW Marsh, DK Lillee, G Dymock,
+     AA Mallett, LS Pascoe.
+
+FoW: 1-20 (McCosker), 2-42 (Laird).
+
+Bowling                      O      M      R      W
+Lever                        7.4    3     18      0
+Botham                      12      5     18      1
+Willis                       5      3      8      0
+Underwood                   14      2     49      1
+
+<END>

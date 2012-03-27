@@ -1,0 +1,37 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+1197, 1992-10-18, 1, 6, India, c More, Srinath, 121, 414, 322, 15, 0
+1197, 1992-10-18, 3, 5, India, not out, , 41, 83, 74, 3, 2
+1198, 1992-11-01, 2, 6, New Zealand, , Patel, 36, 84, 70, 4, 0
+1199, 1992-11-07, 2, 5, New Zealand, c Parore, Su'a, 21, 145, 112, 1, 0
+1199, 1992-11-07, 4, 5, New Zealand, c Nash, Patel, 2, 23, 17, 0, 0
+1218, 1993-03-13, 2, 4, India, lbw, Kumble, 18, 38, 43, 2, 0
+1218, 1993-03-13, 3, 4, India, c Amre, Kumble, 1, 35, 20, 0, 0
+1237, 1993-12-01, 2, 4, Pakistan, lbw, Waqar Younis, 46, 126, 108, 8, 0
+1237, 1993-12-01, 4, 4, Pakistan, lbw, Waqar Younis, 18, 69, 49, 3, 0
+1240, 1993-12-09, 2, 4, Pakistan, c Asif Mujtaba, Ashfaq Ahmed, 5, 18, 15, 0, 0
+1240, 1993-12-09, 4, 4, Pakistan, lbw, Waqar Younis, 4, 4, 2, 1, 0
+1241, 1993-12-16, 2, 4, Pakistan, c Rashid Latif, Waqar Younis, 50, 150, 107, 8, 0
+1270, 1994-10-11, 2, 4, Sri Lanka, c Dassanayake, Vaas, 58, 275, 181, 3, 0
+1271, 1994-10-20, 1, 4, Sri Lanka, lbw, Vaas, 266, 675, 541, 30, 3
+1272, 1994-10-26, 2, 4, Sri Lanka, , Vaas, 142, 394, 268, 17, 2
+1285, 1995-01-31, 1, 4, Pakistan, c Aamer Sohail, Aaqib Javed, 23, 40, 34, 4, 0
+1288, 1995-02-07, 1, 4, Pakistan, , Wasim Akram, 11, 16, 13, 1, 0
+1288, 1995-02-07, 3, 4, Pakistan, lbw, Wasim Akram, 25, 101, 63, 3, 0
+1290, 1995-02-15, 2, 4, Pakistan, c Rashid Latif, Wasim Akram, 19, 37, 30, 1, 1
+1290, 1995-02-15, 4, 6, Pakistan, c Rashid Latif, Aamer Nazir, 5, 44, 31, 0, 0
+1307, 1995-10-13, 1, 4, South Africa, c Richardson, Schultz, 5, 36, 26, 1, 0
+1307, 1995-10-13, 3, 4, South Africa, c Matthews, Donald, 30, 49, 39, 5, 0
+1322, 1996-01-13, 2, 4, New Zealand, lbw, Cairns, 31, 61, 43, 3, 0
+1322, 1996-01-13, 4, 4, New Zealand, lbw, Twose, 31, 56, 52, 3, 0
+1323, 1996-01-20, 2, 4, New Zealand, retired hurt, , 104, 306, 204, 12, 0
+1336, 1996-10-17, 1, 4, Pakistan, run out (Saeed Anwar), , 43, 88, 60, 3, 2
+1336, 1996-10-17, 3, 4, Pakistan, , Saqlain Mushtaq, 65, 156, 115, 11, 0
+1337, 1996-10-24, 1, 4, Pakistan, , Wasim Akram, 1, 6, 3, 0, 0
+1337, 1996-10-24, 3, 4, Pakistan, lbw, Wasim Akram, 73, 152, 102, 8, 1
+1345, 1996-12-18, 1, 4, England, c Stewart, Croft, 34, 99, 60, 3, 1
+1345, 1996-12-18, 3, 4, England, c Croft, Tufnell, 37, 158, 117, 5, 0
+1348, 1996-12-26, 2, 4, England, c Stewart, Gough, 29, 152, 124, 1, 0
+1378, 1997-09-18, 1, 6, New Zealand, lbw, Davis, 23, 103, 90, 1, 0
+1378, 1997-09-18, 3, 6, New Zealand, c Davis, Astle, 1, 7, 5, 0, 0
+1379, 1997-09-25, 1, 6, New Zealand, , Cairns, 32, 93, 59, 6, 0
+1379, 1997-09-25, 3, 6, New Zealand, c Harris, Vettori, 13, 31, 22, 2, 0

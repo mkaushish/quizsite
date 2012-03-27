@@ -1,0 +1,69 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+962, 1983-09-24, 1, 2, India, c Kirmani, Kapil Dev, 6, na, na, na, 0
+962, 1983-09-24, 3, 2, India, not out, , 6, na, na, na, 0
+963, 1983-10-05, 2, 2, India, c Yashpal Sharma, Kapil Dev, 9, na, na, na, 0
+984, 1984-03-19, 2, 2, England, lbw, Cowans, 7, 28, 10, 0, 0
+984, 1984-03-19, 4, 2, England, c Gatting, Cowans, 80, 217, 148, 11, 0
+1003, 1984-12-10, 1, 2, New Zealand, c Smith, Stirling, 31, 131, 79, 2, 0
+1003, 1984-12-10, 3, 2, New Zealand, c McEwan, Boock, 34, 105, 99, 3, 0
+1009, 1985-01-18, 2, 3, New Zealand, run out, , 7, 45, 43, 1, 0
+1026, 1985-10-16, 2, 2, Sri Lanka, c Silva, Ratnayake, 33, na, na, na, 0
+1066, 1987-02-03, 1, 2, India, lbw, Maninder Singh, 101, na, na, 10, 0
+1066, 1987-02-03, 3, 2, India, c Vengsarkar, Maninder Singh, 45, na, na, na, 0
+1067, 1987-02-11, 2, 1, India, run out, , 24, na, na, na, 0
+1067, 1987-02-11, 4, 1, India, lbw, Binny, 5, na, na, na, 0
+1069, 1987-02-21, 2, 2, India, c Gavaskar, Amarnath, 0, na, na, 0, 0
+1075, 1987-06-04, 2, 2, England, c French, Foster, 0, 16, 7, 0, 0
+1077, 1987-07-02, 2, 2, England, c Richards, Foster, 16, 42, 39, 1, 0
+1078, 1987-07-23, 1, 2, England, c Foster, Edmonds, 18, 65, 49, 2, 0
+1078, 1987-07-23, 3, 2, England, lbw, Foster, 50, 152, 136, 7, 0
+1083, 1987-12-07, 2, 6, England, , Emburey, 0, 2, 1, 0, 0
+1095, 1988-04-02, 2, 3, West Indies, c Greenidge, Walsh, 46, 126, 67, 3, 0
+1095, 1988-04-02, 4, 3, West Indies, not out, , 13, 21, 10, 3, 0
+1096, 1988-04-14, 2, 3, West Indies, c Richards, Ambrose, 12, 63, 32, 2, 0
+1096, 1988-04-14, 4, 3, West Indies, , Benjamin, 0, 26, 15, 0, 0
+1097, 1988-04-22, 1, 3, West Indies, c Greenidge, Ambrose, 54, 173, 107, 7, 0
+1097, 1988-04-22, 3, 3, West Indies,                c &, Richards, 64, 195, 141, 8, 0
+1104, 1988-09-15, 1, 3, Australia, , Waugh, 94, 319, 241, 15, 0
+1105, 1988-09-23, 1, 3, Australia, , Dodemaide, 11, 24, 18, 2, 0
+1105, 1988-09-23, 3, 3, Australia, st Healy, May, 74, 227, 155, 10, 2
+1106, 1988-10-07, 2, 3, Australia, run out, , 13, 62, 38, 1, 0
+1106, 1988-10-07, 4, 3, Australia, lbw, May, 3, 17, 25, 0, 0
+1115, 1989-02-10, 2, 3, New Zealand, , Hadlee, 163, 720, 516, 17, 1
+1116, 1989-02-24, 1, 3, New Zealand, run out, , 112, 350, 254, 17, 0
+1127, 1989-11-15, 1, 3, India, c Azharuddin, Kapil Dev, 67, 204, 144, 7, 0
+1127, 1989-11-15, 3, 3, India, lbw, Kapil Dev, 95, 371, 253, 10, 0
+1128, 1989-11-23, 2, 3, India, lbw, Kapil Dev, 24, 82, 47, 4, 0
+1130, 1989-12-01, 2, 5, India, not out, , 203, 484, 338, 20, 0
+1132, 1989-12-09, 2, 3, India, , Razdan, 23, 128, 87, 1, 0
+1134, 1990-01-12, 2, 2, Australia, c Healy, Alderman, 6, 20, 14, 0, 0
+1134, 1990-01-12, 4, 3, Australia, c Boon, Hughes, 10, 54, 39, 1, 0
+1135, 1990-01-19, 1, 1, Australia, lbw, Hughes, 43, 109, 85, 5, 0
+1135, 1990-01-19, 3, 1, Australia, c Healy, Hughes, 0, 3, 4, 0, 0
+1137, 1990-02-03, 1, 3, Australia, lbw, Alderman, 9, 21, 20, 1, 0
+1151, 1990-10-10, 2, 2, New Zealand, not out, , 203, 656, 411, 23, 0
+1152, 1990-10-18, 2, 2, New Zealand, , Morrison, 105, 351, 223, 15, 1
+1152, 1990-10-18, 4, 2, New Zealand, not out, , 42, 99, 59, 6, 1
+1153, 1990-10-26, 1, 2, New Zealand, c Crowe, Pringle, 15, 56, 35, 2, 0
+1153, 1990-10-26, 3, 2, New Zealand, c sub (+AC Parore), Pringle, 142, 527, 368, 20, 0
+1154, 1990-11-15, 2, 1, West Indies, c Richardson, Marshall, 86, 474, 314, 3, 0
+1154, 1990-11-15, 4, 2, West Indies, not out, , 32, 183, 105, 0, 0
+1157, 1990-11-23, 1, 2, West Indies, c Dujon, Bishop, 7, 25, 19, 1, 0
+1157, 1990-11-23, 3, 2, West Indies, , Ambrose, 15, 86, 46, 2, 0
+1158, 1990-12-06, 2, 2, West Indies, , Bishop, 0, 8, 1, 0, 0
+1158, 1990-12-06, 4, 3, West Indies, , Bishop, 49, 211, 148, 4, 0
+1178, 1991-12-12, 2, 2, Sri Lanka,                c &, Wickramasinghe, 43, 198, 149, 4, 0
+1179, 1991-12-20, 1, 2, Sri Lanka, c Tillakaratne, Ratnayake, 1, 11, 8, 0, 0
+1182, 1992-01-02, 2, 2, Sri Lanka, lbw, Wickramasinghe, 30, 208, 155, 4, 0
+1182, 1992-01-02, 4, 7, Sri Lanka, , Ratnayake, 7, 51, 36, 1, 0
+1193, 1992-08-06, 2, 3, England,                c &, Tufnell, 55, 200, 155, 5, 0
+1237, 1993-12-01, 1, 2, Zimbabwe, c A Flower, Rennie, 81, 341, 218, 9, 0
+1240, 1993-12-09, 1, 2, Zimbabwe, lbw, Brain, 18, 55, 39, 3, 0
+1240, 1993-12-09, 3, 2, Zimbabwe, c A Flower, Streak, 13, 81, 58, 1, 0
+1241, 1993-12-16, 1, 2, Zimbabwe, c Brandes, Rennie, 14, 86, 46, 1, 0
+1241, 1993-12-16, 3, 2, Zimbabwe, not out, , 53, 325, 236, 4, 0
+1304, 1995-09-08, 1, 5, Sri Lanka, c A Ranatunga, Vaas, 57, 166, 112, 6, 0
+1305, 1995-09-15, 2, 6, Sri Lanka, run out, , 12, 44, 38, 2, 0
+1305, 1995-09-15, 4, 5, Sri Lanka, lbw, Wickramasinghe, 5, 17, 9, 1, 0
+1306, 1995-09-22, 2, 2, Sri Lanka, lbw, Muralitharan, 8, 65, 43, 1, 0
+1306, 1995-09-22, 4, 2, Sri Lanka,                c &, Vaas, 1, 24, 18, 0, 0

@@ -1,0 +1,125 @@
+
+Test # 296
+England in West Indies, 1947/48, 2nd Test
+West Indies v England
+Queen's Park Oval, Port of Spain, Trinidad
+11,12,13,14,16 February 1948 (5-day match)
+
+Result: Match drawn
+Series: 4-match series level 0-0
+
+Toss: England
+Umpires: V Guillen and B Henderson
+Test debuts: SC Griffith, JH Wardle (England); AG Ganteaume,
+ FMM Worrell (West Indies).
+
+Close of play:
+ Day 1: England 230/6 (Griffith 110*, Smithson 7*)
+ Day 2: England 362, West Indies 160/0 (Carew 101*, Ganteaume 52*)
+ Day 3: West Indies 447/6 (Christiani 2*)
+ Day 4: West Indies 497, England 70/3 (Robertson 28*, Laker 4*)
+
+England 1st innings                                             R   M   B  4 6
+JDB Robertson         run out                                   2          0 0
+SC Griffith           lbw                b Worrell            140 354     15 0
+JT Ikin                                  b Ferguson            21            0
+K Cranston                           c & b Ferguson             7            0
+*GOB Allen            c Walcott          b Gaskin              36            0
+R Howorth                                b Ferguson            14            0
++TG Evans             c Walcott          b Williams            30          5 0
+GA Smithson           c Goddard          b Ferguson            35            0
+JC Laker              c Gaskin           b Goddard             55  70      7 0
+JH Wardle             c Worrell          b Ferguson             4            0
+HJ Butler             not out                                  15            0
+Extras                (lb 1, nb 2)                              3
+Total                 (all out, 143.3 overs)                  362
+
+FoW: 1-5 (Robertson), 2-42 (Ikin), 3-54 (Cranston),
+     4-126 (Allen), 5-158 (Howorth), 6-201 (Evans),
+     7-288 (Griffith), 8-296 (Smithson), 9-306 (Wardle),
+     10-362 (Laker).
+
+Bowling                      O      M      R      W
+Gaskin                      37     14     72      1
+Williams                    21      8     31      1
+Ferguson                    39      5    137      5
+Goddard                     23.3    6     64      1
+Worrell                     23      4     55      1
+
+West Indies 1st innings                                         R   M   B  4 6
+GM Carew              lbw                b Laker              107         16 0
+AG Ganteaume          c Ikin             b Howorth            112         13 0
+ED Weekes                                b Butler              36          6 0
+FMM Worrell           c Evans            b Cranston            97 195      9 1
++CL Walcott           c Butler           b Howorth             20            0
+*GE Gomez             lbw                b Laker               62  86        0
+RJ Christiani         c Robertson        b Allen                7            0
+JDC Goddard           not out                                   9            0
+EAV Williams                         c & b Allen               31  16      7 0
+W Ferguson                               b Butler               5            0
+BBM Gaskin                               b Butler               0          0 0
+Extras                (b 2, lb 4, w 1, nb 4)                   11
+Total                 (all out, 146 overs)                    497
+
+FoW: 1-173 (Carew), 2-226 (Weekes), 3-306 (Ganteaume),
+     4-341 (Walcott), 5-440 (Worrell), 6-447 (Gomez),
+     7-454 (Christiani), 8-488 (Williams), 9-497 (Ferguson),
+     10-497 (Gaskin).
+
+Bowling                      O      M      R      W
+Butler                      32      4    122      3
+Allen                       16      0     82      2
+Laker                       36     10    108      2
+Cranston                     7      1     29      1
+Ikin                        20      5     60      0
+Howorth                     32      3     76      2
+Wardle                       3      0      9      0
+
+England 2nd innings                                             R   M   B  4 6
+JDB Robertson         c Christiani       b Ferguson           133 315     15 0
+SC Griffith           c Ferguson         b Gomez                4            0
+JT Ikin               lbw                b Ferguson            19            0
+K Cranston            c Christiani       b Williams             6            0
+JC Laker              c Carew            b Williams            24            0
+*GOB Allen            c Walcott          b Williams             2          0 0
+R Howorth                                b Ferguson            14            0
++TG Evans             st Walcott         b Ferguson            21            0
+GA Smithson                              b Ferguson            35  75        0
+JH Wardle             not out                                   2          0 0
+HJ Butler                                b Ferguson             0          0 0
+Extras                (b 5, lb 3, nb 7)                        15
+Total                 (all out, 113.2 overs)                  275
+
+FoW: 1-18 (Griffith), 2-53 (Ikin), 3-62 (Cranston), 4-97 (Laker),
+     5-122 (Allen), 6-149 (Howorth), 7-196 (Evans),
+     8-270 (Robertson), 9-275 (Smithson), 10-275 (Butler).
+
+Bowling                      O      M      R      W
+Gaskin                      21      6     41      0
+Williams                    27      7     64      3
+Ferguson                    34.2    4     92      6
+Goddard                      9      4     11      0
+Worrell                     14      2     30      0
+Gomez                        8      2     22      1
+
+West Indies 2nd innings (target: 141 runs)                      R   M   B  4 6
+ED Weekes             c Evans            b Butler              20            0
++CL Walcott           lbw                b Allen                2          0 0
+EAV Williams                             b Butler               0          0 0
+FMM Worrell           not out                                  28            0
+GM Carew              not out                                  18            0
+Extras                (lb 2, w 1, nb 1)                         4
+Total                 (3 wickets, 16.2 overs)                  72
+
+DNB: AG Ganteaume, *GE Gomez, RJ Christiani, JDC Goddard,
+     W Ferguson, BBM Gaskin.
+
+FoW: 1-3 (Walcott), 2-8 (Williams), 3-41 (Weekes).
+
+Bowling                      O      M      R      W
+Butler                       8      2     27      2
+Allen                        4.2    0     21      1
+Cranston                     3      0     18      0
+Howorth                      1      0      2      0
+
+<END>

@@ -1,0 +1,110 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+643, 1968-12-26, 1, 2, Australia, c Redpath, McKenzie, 76, 281, 226, 4, 0
+643, 1968-12-26, 3, 2, Australia, c Freeman, Gleeson, 47, 156, 134, 3, 0
+644, 1969-01-03, 1, 1, Australia, c Chappell, McKenzie, 26, 76, 55, 2, 0
+644, 1969-01-03, 3, 1, Australia, c Redpath, Connolly, 43, 178, 138, 4, 0
+645, 1969-01-24, 1, 1, Australia, lbw, Connolly, 17, 25, na, 2, 0
+645, 1969-01-24, 3, 1, Australia, c Chappell, Connolly, 23, 48, na, 2, 0
+646, 1969-02-14, 2, 1, Australia, c Taber, Connolly, 39, 175, 146, 6, 0
+646, 1969-02-14, 4, 1, Australia, c Taber, McKenzie, 0, 3, 7, 0, 0
+648, 1969-02-27, 2, 1, New Zealand, , Motz, 6, na, na, na, 0
+648, 1969-02-27, 4, 1, New Zealand, c Turner, Pollard, 23, 66, na, na, 0
+651, 1969-03-07, 1, 1, New Zealand, c Milburn, Motz, 15, na, na, na, 0
+651, 1969-03-07, 3, 1, New Zealand, c Hastings, Motz, 2, na, na, 0, 0
+652, 1969-03-13, 1, 1, New Zealand, c Turner, Motz, 4, 26, na, na, 0
+653, 1969-06-12, 2, 1, England, c Graveney, Snow, 0, 1, 1, 0, 0
+653, 1969-06-12, 3, 1, England, c Illingworth, Underwood, 64, 171, 158, 8, 1
+654, 1969-06-26, 1, 1, England, c Hampshire, Knight, 63, 153, 128, 8, 0
+654, 1969-06-26, 3, 1, England, c Hampshire, Illingworth, 60, 184, 169, 7, 0
+655, 1969-07-10, 2, 1, England, lbw, Knight, 11, 90, 79, 1, 0
+655, 1969-07-10, 4, 1, England, c Sharpe, Snow, 6, 33, 25, 0, 0
+680, 1971-02-18, 2, 1, India, c Abid Ali, Prasanna, 45, 145, na, 5, 0
+680, 1971-02-18, 3, 1, India, c Krishnamurthy, Bedi, 16, 35, na, 2, 0
+683, 1971-03-06, 1, 1, India, , Abid Ali, 0, 1, 1, 0, 0
+683, 1971-03-06, 3, 1, India, run out, , 80, na, na, na, 1
+684, 1971-03-19, 1, 1, India, c Abid Ali, Venkataraghavan, 47, 192, na, na, 0
+684, 1971-03-19, 3, 1, India, lbw, Solkar, 5, na, na, na, 0
+685, 1971-04-01, 1, 1, India, , Abid Ali, 1, 15, na, 0, 0
+685, 1971-04-01, 3, 1, India, , Venkataraghavan, 48, na, na, na, 0
+693, 1972-02-16, 1, 1, New Zealand,                c &, Howarth, 163, 408, na, 20, 0
+693, 1972-02-16, 3, 1, New Zealand, , Congdon, 33, na, na, na, 0
+694, 1972-03-09, 2, 1, New Zealand, c Wadsworth, Howarth, 69, 204, na, 9, 0
+694, 1972-03-09, 4, 1, New Zealand, c Hastings, Taylor, 31, na, na, na, 0
+695, 1972-03-23, 1, 1, New Zealand, c Hastings, Cunis, 5, 26, na, na, 0
+695, 1972-03-23, 3, 1, New Zealand, lbw, Cunis, 28, 66, na, 4, 0
+696, 1972-04-06, 1, 1, New Zealand, c Turner, Cunis, 41, 138, na, na, 0
+696, 1972-04-06, 3, 1, New Zealand, not out, , 42, 130, na, 6, 0
+697, 1972-04-20, 1, 1, New Zealand, run out, , 60, 145, na, 4, 0
+697, 1972-04-20, 3, 1, New Zealand, c Turner, Taylor, 15, na, na, na, 0
+714, 1973-02-16, 2, 1, Australia, c O'Keeffe, Walker, 31, 80, na, 6, 0
+714, 1973-02-16, 4, 1, Australia, c Marsh, GS Chappell, 21, 70, na, 4, 0
+716, 1973-03-09, 2, 1, Australia, lbw, Hammond, 98, 232, na, 12, 1
+716, 1973-03-09, 4, 1, Australia, not out, , 22, 60, na, 3, 0
+718, 1973-03-23, 2, 1, Australia, c IM Chappell, Jenner, 16, 44, na, 2, 0
+718, 1973-03-23, 4, 1, Australia, c Redpath, Stackpole, 76, 144, na, 12, 0
+720, 1973-04-06, 1, 1, Australia, c IM Chappell, Walters, 30, 83, na, 3, 0
+720, 1973-04-06, 3, 1, Australia, c Marsh, Hammond, 6, 28, na, 0, 0
+721, 1973-04-21, 2, 1, Australia, c Edwards, Jenner, 73, 208, na, 10, 1
+721, 1973-04-21, 4, 1, Australia, c Marsh, Hammond, 8, 45, na, 0, 0
+725, 1973-07-26, 1, 1, England, lbw, Arnold, 35, 123, 106, 2, 0
+725, 1973-07-26, 3, 1, England, c Hayes, Arnold, 3, 15, 11, 0, 0
+726, 1973-08-09, 1, 1, England, c Amiss, Underwood, 150, 510, 443, 17, 0
+726, 1973-08-09, 3, 2, England, c Knott, Arnold, 12, 47, 33, 1, 0
+727, 1973-08-23, 1, 1, England, c Underwood, Willis, 51, 96, 77, 9, 0
+731, 1974-02-02, 2, 1, England, c Knott, Old, 5, 25, 17, 1, 0
+731, 1974-02-02, 4, 1, England, not out, , 65, 138, 98, 11, 0
+732, 1974-02-16, 2, 1, England, , Old, 94, 284, 246, 8, 0
+734, 1974-03-06, 2, 1, England, , Greig, 32, 140, 92, 4, 0
+737, 1974-03-22, 2, 1, England,                c &, Greig, 98, 293, 249, 13, 0
+738, 1974-03-30, 2, 1, England, c Fletcher, Pocock, 67, 143, 123, 8, 0
+738, 1974-03-30, 4, 1, England, run out, , 36, 115, 104, 4, 0
+745, 1974-11-22, 1, 1, India, c Patel, Venkataraghavan, 23, 75, na, 4, 0
+747, 1974-12-11, 2, 7, India, c Engineer, Venkataraghavan, 5, 5, na, 0, 0
+750, 1975-12-27, 2, 1, India, c Viswanath, Madan Lal, 100, 212, na, 13, 0
+750, 1975-12-27, 4, 1, India, , Bedi, 21, na, na, na, 0
+752, 1975-01-11, 2, 1, India, c Solkar, Ghavri, 14, 28, na, 1, 1
+752, 1975-01-11, 4, 1, India, c Solkar, Prasanna, 19, 40, na, 2, 0
+753, 1975-01-23, 1, 1, India, c Solkar, Bedi, 104, 215, na, 17, 0
+753, 1975-01-23, 3, 1, India, , Ghavri, 37, 85, na, 6, 0
+756, 1975-02-15, 2, 1, Pakistan, lbw, Sarfraz Nawaz, 44, na, na, na, 0
+756, 1975-02-15, 4, 1, Pakistan, lbw, Sarfraz Nawaz, 14, na, na, na, 0
+759, 1975-03-01, 2, 1, Pakistan, c Liaqat Ali, Intikhab Alam, 77, na, na, na, 0
+759, 1975-03-01, 4, 1, Pakistan, not out, , 0, na, na, 0, 0
+764, 1975-11-28, 1, 1, Australia, c Marsh, Gilmour, 46, 47, 30, 6, 1
+764, 1975-11-28, 3, 1, Australia, c Marsh, Gilmour, 7, 21, 19, 1, 0
+765, 1975-12-12, 2, 1, Australia, c GS Chappell, Lillee, 169, 212, 145, 27, 1
+766, 1975-12-26, 1, 1, Australia, c McCosker, Thomson, 59, 142, 115, 6, 0
+766, 1975-12-26, 3, 1, Australia, , GS Chappell, 26, 59, 44, 4, 0
+767, 1976-01-03, 1, 1, Australia, c IM Chappell, Thomson, 48, 150, 114, 5, 0
+767, 1976-01-03, 3, 1, Australia, c Turner, Gilmour, 24, 46, 32, 5, 0
+768, 1976-01-23, 2, 1, Australia, lbw, Gilmour, 0, 2, 5, 0, 0
+768, 1976-01-23, 4, 1, Australia, lbw, Lillee, 10, 32, 24, 1, 0
+770, 1976-01-31, 2, 1, Australia, c Thomson, Gilmour, 22, 45, 37, 3, 0
+770, 1976-01-31, 4, 1, Australia, , Thomson, 6, 2, 4, 1, 0
+773, 1976-03-10, 2, 1, India, c M Amarnath, Chandrasekhar, 54, na, na, na, 0
+774, 1976-03-24, 1, 1, India, , Madan Lal, 0, 1, 2, 0, 0
+774, 1976-03-24, 3, 1, India, lbw, Venkataraghavan, 8, na, na, na, 0
+775, 1976-04-07, 1, 1, India, c Amarnath, Chandrasekhar, 27, na, na, na, 0
+775, 1976-04-07, 3, 1, India, c Solkar, Chandrasekhar, 25, na, na, na, 0
+776, 1976-04-21, 2, 1, India, run out, , 82, 270, na, na, 0
+776, 1976-04-21, 4, 1, India, not out, , 6, na, na, na, 0
+777, 1976-06-03, 1, 1, England, c Hendrick, Greig, 42, 173, 131, 2, 0
+777, 1976-06-03, 3, 1, England, , Snow, 15, 46, 30, 3, 0
+778, 1976-06-17, 2, 1, England, c Snow, Old, 0, 1, 2, 0, 0
+778, 1976-06-17, 4, 1, England, c Greig, Old, 138, 282, 253, 14, 1
+779, 1976-07-08, 1, 1, England, c Underwood, Selvey, 0, 7, 9, 0, 0
+779, 1976-07-08, 3, 1, England, hit wicket, Hendrick, 50, 111, 98, 5, 0
+780, 1976-07-22, 1, 1, England, , Willis, 109, 156, 124, 18, 0
+780, 1976-07-22, 3, 1, England, , Snow, 6, 24, 16, 1, 0
+781, 1976-08-12, 1, 1, England, c Balderstone, Miller, 71, 157, 137, 7, 0
+781, 1976-08-12, 3, 1, England, not out, , 86, 137, 101, 9, 0
+797, 1977-02-18, 2, 1, Pakistan,                c &, Sarfraz Nawaz, 24, na, na, na, 0
+797, 1977-02-18, 4, 1, Pakistan, , Sarfraz Nawaz, 52, 205, na, na, 0
+799, 1977-03-04, 2, 1, Pakistan, c Sadiq Mohammad, Mushtaq Mohammad, 120, 380, na, 12, 0
+799, 1977-03-04, 4, 1, Pakistan, c Asif Iqbal, Wasim Raja, 57, na, na, 8, 0
+801, 1977-03-18, 2, 1, Pakistan, c Majid Khan, Sarfraz Nawaz, 5, na, na, na, 0
+801, 1977-03-18, 4, 1, Pakistan, not out, , 52, na, na, na, 0
+802, 1977-04-01, 2, 1, Pakistan, , Imran Khan, 41, 80, na, 5, 0
+802, 1977-04-01, 4, 1, Pakistan, c Majid Khan, Iqbal Qasim, 17, na, na, na, 0
+803, 1977-04-15, 1, 1, Pakistan,                c &, Imran Khan, 6, 3, 6, na, 0
+803, 1977-04-15, 3, 1, Pakistan, c +Majid Khan, Wasim Raja, 83, 225, na, 12, 0

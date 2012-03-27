@@ -1,0 +1,117 @@
+
+Test # 272
+West Indies in England, 1939, 1st Test
+England v West Indies
+Lord's, London
+24,26,27 June 1939 (3-day match)
+
+Result: England won by 8 wickets
+Series: England leads the 3-match series 1-0
+
+Toss: West Indies
+Umpires: EJ Smith and FI Walden
+Balls per over: 8
+Test debuts: WH Copson (England); JH Cameron, CB Clarke, JB Stollmeyer,
+ KH Weekes (West Indies).
+
+Close of play:
+ Day 1: West Indies 277, England 11/0 (Hutton 4*, Gimblett 5*)
+ Day 2: England 404/5 (Hardstaff 3*, Wood 0*)
+
+West Indies 1st innings                                         R   M   B  4 6
+*RS Grant             c Compton          b Copson              22            0
+JB Stollmeyer                            b Bowes               59          3 0
+GA Headley            c Wood             b Copson             106 250     13 0
+JED Sealy             c Wood             b Wright              13            0
+KH Weekes             c Gimblett         b Copson              20            0
+LN Constantine        lbw                b Copson              14            0
+JH Cameron            c Hutton           b Bowes                1          0 0
++IM Barrow            lbw                b Copson               2          0 0
+EA Martindale         lbw                b Wright              22            1
+LG Hylton             not out                                   2          0 0
+CB Clarke                                b Bowes                1          0 0
+Extras                (b 3, lb 9, nb 3)                        15
+Total                 (all out, 81.4 overs)                   277
+
+FoW: 1-29 (Grant), 2-147 (Stollmeyer), 3-180 (Sealy),
+     4-226 (Weekes), 5-245 (Constantine), 6-250 (Cameron),
+     7-250 (Headley), 8-261 (Barrow), 9-276 (Martindale),
+     10-277 (Clarke).
+
+Bowling                      O      M      R      W
+Bowes                       28.4    5     86      3
+Copson                      24      2     85      5
+Wright                      13      1     57      2
+Verity                      16      3     34      0
+
+England 1st innings                                             R   M   B  4 6
+L Hutton              c Grant            b Hylton             196 335     21 0
+H Gimblett                               b Cameron             22            0
+E Paynter             c Barrow           b Cameron             34            0
+*WR Hammond           c Grant            b Cameron             14            0
+DCS Compton           c Stollmeyer       b Clarke             120 140     16 0
+J Hardstaff jnr       not out                                   3          0 0
++A Wood               not out                                   0          0 0
+Extras                (b 8, lb 6, w 1)                         15
+Total                 (5 wickets dec, 95 overs)               404
+
+DNB: DVP Wright, H Verity, WH Copson, WE Bowes.
+
+FoW: 1-49 (Gimblett), 2-119 (Paynter), 3-147 (Hammond),
+     4-395 (Compton), 5-402 (Hutton).
+
+Bowling                      O      M      R      W
+Martindale                  20      2     86      0
+Hylton                      24      4     98      1
+Constantine                 13      0     67      0
+Cameron                     26      6     66      3
+Clarke                       6      0     28      1
+Sealy                        3      0     21      0
+Grant                        3      0     23      0
+
+West Indies 2nd innings                                         R   M   B  4 6
+*RS Grant                                b Bowes               23            0
+JB Stollmeyer         c Verity           b Copson               0          0 0
+GA Headley            c Hutton           b Wright             107 230      8 0
+JED Sealy             c Wood             b Copson              29            1
+KH Weekes             c Wood             b Verity              16            0
+LN Constantine        c Hammond          b Verity              17            0
+JH Cameron                           c & b Wright               0          0 0
++IM Barrow            not out                                   6            0
+EA Martindale         c Bowes            b Wright               3          0 0
+LG Hylton             c Hardstaff        b Copson              13            0
+CB Clarke                            c & b Copson               0          0 0
+Extras                (b 6, lb 4, w 1)                         11
+Total                 (all out, 69.4 overs)                   225
+
+FoW: 1-0 (Stollmeyer), 2-42 (Grant), 3-105 (Sealy),
+     4-154 (Weekes), 5-190 (Constantine), 6-199 (Cameron),
+     7-200 (Headley), 8-204 (Martindale), 9-225 (Hylton),
+     10-225 (Clarke).
+
+Bowling                      O      M      R      W
+Bowes                       19      7     44      1
+Copson                      16.4    2     67      4
+Wright                      17      0     75      3
+Verity                      14      4     20      2
+Compton                      3      0      8      0
+
+England 2nd innings (target: 99 runs)                           R   M   B  4 6
+L Hutton                                 b Hylton              16            0
+H Gimblett                               b Martindale          20            1
+E Paynter             not out                                  32            0
+*WR Hammond           not out                                  30            0
+Extras                (lb 2)                                    2
+Total                 (2 wickets, 17.7 overs)                 100
+
+DNB: DCS Compton, J Hardstaff jnr, +A Wood, DVP Wright, H Verity,
+     WH Copson, WE Bowes.
+
+FoW: 1-35 (Hutton), 2-39 (Gimblett).
+
+Bowling                      O      M      R      W
+Martindale                   7.7    0     51      1
+Hylton                       7      1     36      1
+Constantine                  3      0     11      0
+
+<END>

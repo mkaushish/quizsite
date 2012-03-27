@@ -1,0 +1,130 @@
+
+Test # 132
+England in South Africa, 1913/14, 3rd Test
+South Africa v England
+Old Wanderers, Johannesburg
+1,2,3,5 January 1914 (4-day match)
+
+Result: England won by 91 runs
+Series: England leads the 5-match series 3-0
+
+Toss: England
+Umpires: AJ Atfield (Eng) and FW Grey
+Test debuts: CD Dixon, LR Tuckett (South Africa).
+
+Close of play:
+ Day 1: England 238, South Africa 12/0 (Taylor 6*, Zulch 5*)
+ Day 2: South Africa 151, England 117/3 (Mead 54*, Douglas 14*)
+ Day 3: England 308, South Africa 132/0 (Taylor 53*, Zulch 66*)
+
+England 1st innings                                             R   M   B  4 6
+JB Hobbs              c Ward             b Dixon               92            0
+W Rhodes              lbw                b Taylor              35            0
+JW Hearne                            c & b Dixon               27            0
+CP Mead                                  b Blanckenberg         0          0 0
+Hon.LH Tennyson                          b Nourse              21            0
+*JWHT Douglas         c Ward             b Blanckenberg        30            0
+FE Woolley            lbw                b Taylor               7            0
+AE Relf               lbw                b Nourse               0          0 0
+MC Bird               st Ward            b Taylor               1          0 0
+SF Barnes                                b Blanckenberg         5            0
++H Strudwick          not out                                   9            0
+Extras                (b 4, lb 7)                              11
+Total                 (all out, 80.1 overs)                   238
+
+FoW: 1-100 (Rhodes), 2-158 (Hearne), 3-159 (Mead), 4-163 (Hobbs),
+     5-201 (Tennyson), 6-208 (Woolley), 7-209 (Relf),
+     8-210 (Bird), 9-219 (Barnes), 10-238 (Douglas).
+
+Bowling                      O      M      R      W
+Nourse                       9      1     22      2
+Dixon                       19      2     62      2
+Blanckenberg                22.1    4     54      3
+Tuckett                     10      1     45      0
+Newberry                    10      1     29      0
+Taylor                      10      5     15      3
+
+South Africa 1st innings                                        R   M   B  4 6
+*HW Taylor            c Woolley          b Relf                14            0
+JW Zulch                             c & b Hearne              38            0
++TA Ward                                 b Hearne              15            0
+R Beaumont            c Rhodes           b Hearne               6            0
+AW Nourse                                b Hearne               1          0 0
+PAM Hands             hit wicket         b Hearne              26            0
+GPD Hartigan                             b Barnes              18            0
+C Newberry            c Hearne           b Rhodes              15            0
+CD Dixon              c Rhodes           b Barnes               0          0 0
+LR Tuckett                               b Barnes               0          0 0
+JM Blanckenberg       not out                                   4            0
+Extras                (b 4, lb 9, nb 1)                        14
+Total                 (all out, 61.5 overs)                   151
+
+FoW: 1-24 (Taylor), 2-67 (Ward), 3-81 (Beaumont), 4-82 (Zulch),
+     5-91 (Nourse), 6-112 (Hands), 7-143 (Hartigan),
+     8-143 (Dixon), 9-147 (Tuckett), 10-151 (Newberry).
+
+Bowling                      O      M      R      W
+Barnes                      16      3     26      3
+Hearne                      16      4     49      5
+Relf                        14      7     24      1
+Douglas                      7      2     16      0
+Woolley                      5      1     13      0
+Rhodes                       3.5    1      9      1
+
+England 2nd innings                                             R   M   B  4 6
+JB Hobbs              c Nourse           b Dixon               41            0
+W Rhodes              c Ward             b Taylor               0          0 0
+CP Mead               c Tuckett          b Newberry            86            0
+JW Hearne             lbw                b Newberry             0          0 0
+*JWHT Douglas                            b Newberry            77            0
+Hon.LH Tennyson       c Beaumont         b Nourse               6            0
+FE Woolley            st Ward            b Newberry            37            0
+AE Relf                                  b Blanckenberg        25            0
+MC Bird               not out                                  20            0
+SF Barnes                                b Blanckenberg         0          0 0
++H Strudwick          c Tuckett          b Blanckenberg         0          0 0
+Extras                (b 10, lb 5, w 1)                        16
+Total                 (all out, 93.3 overs)                   308
+
+FoW: 1-4 (Rhodes), 2-83 (Hobbs), 3-84 (Hearne), 4-177 (Mead),
+     5-198 (Tennyson), 6-250 (Douglas), 7-262 (Woolley),
+     8-304 (Relf), 9-304 (Barnes), 10-308 (Strudwick).
+
+Bowling                      O      M      R      W
+Nourse                      13      4     36      1
+Taylor                       6      1     38      1
+Dixon                       21      4     56      1
+Blanckenberg                21.3    7     66      3
+Newberry                    22      2     72      4
+Tuckett                     10      3     24      0
+
+South Africa 2nd innings (target: 396 runs)                     R   M   B  4 6
+*HW Taylor            c Tennyson         b Relf                70            0
+JW Zulch                             c & b Relf                82            0
+PAM Hands             c Tennyson         b Barnes               7            0
+AW Nourse             c Strudwick        b Barnes               6            0
+R Beaumont                               b Barnes               0          0 0
++TA Ward              c Strudwick        b Douglas             40            0
+GPD Hartigan          c Douglas          b Barnes               0          0 0
+C Newberry                               b Barnes              13            0
+JM Blanckenberg                          b Douglas             59            0
+CD Dixon                                 b Hearne               0          0 0
+LR Tuckett            not out                                   0          0 0
+Extras                (b 17, lb 8, nb 2)                       27
+Total                 (all out, 109.4 overs)                  304
+
+FoW: 1-153 (Taylor), 2-162 (Hands), 3-167 (Zulch),
+     4-170 (Beaumont), 5-173 (Nourse), 6-173 (Hartigan),
+     7-217 (Newberry), 8-295 (Ward), 9-300 (Dixon),
+     10-304 (Blanckenberg).
+
+Bowling                      O      M      R      W
+Barnes                      38      8    102      5
+Hearne                      14      2     58      1
+Relf                        29     12     40      2
+Douglas                     13.4    2     34      2
+Woolley                      7      0     24      0
+Rhodes                       6      1     17      0
+Bird                         2      1      2      0
+
+<END>

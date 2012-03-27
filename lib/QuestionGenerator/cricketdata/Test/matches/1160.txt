@@ -1,0 +1,174 @@
+
+Test # 1160
+The Ashes, 1990/91, 3rd Test
+Australia v England
+Sydney Cricket Ground
+4,5,6,7,8 January 1991 (5-day match)
+
+Result: Match drawn
+Series: Australia leads the 5-match series 2-0
+
+Toss: Australia
+Umpires: AR Crafter and PJ McConnell
+Player of the match: MA Atherton
+
+Close of play:
+ Day 1: Australia 259/4 (Jones 27*, Waugh 22*)
+ Day 2: Australia 518, England 1/0 (Gooch 1*, Atherton 0*)
+ Day 3: England 227/3 (Atherton 94*, Gower 33*)
+ Day 4: England 469/8d, Australia 38/2 (Healy 9*, Boon 3*)
+
+Australia 1st innings                                           R   M   B  4 6
+GR Marsh              c Larkins          b Malcolm             13  55  41  2 0
+MA Taylor             c Russell          b Malcolm             11  79  47  2 0
+DC Boon               c Atherton         b Gooch               97 201 174 17 0
+*AR Border                               b Hemmings            78 251 184 10 0
+DM Jones              st Russell         b Small               60 200 120  7 0
+SR Waugh              c Stewart          b Malcolm             48  66  61  8 0
+GRJ Matthews          c Hemmings         b Tufnell            128 242 175 17 0
++IA Healy             c Small            b Hemmings            35  93  61  2 0
+CG Rackemann                             b Hemmings             1  15   8  0 0
+TM Alderman           not out                                  26  86  73  1 0
+BA Reid               c Smith            b Malcolm              0  15   7  0 0
+Extras                (b 5, lb 8, nb 8)                        21
+Total                 (all out, 157 overs, 657 mins)          518
+
+FoW: 1-21 (Marsh), 2-38 (Taylor), 3-185 (Boon), 4-226 (Border),
+     5-292 (Waugh), 6-347 (Jones), 7-442 (Healy),
+     8-457 (Rackemann), 9-512 (Matthews), 10-518 (Reid).
+
+Bowling                      O      M      R      W
+Malcolm                     45     12    128      4 (7nb)
+Small                       31      5    103      1 (1nb)
+Hemmings                    32      7    105      3
+Tufnell                     30      6     95      1
+Gooch                       14      3     46      1
+Atherton                     5      0     28      0
+
+England 1st innings                                             R   M   B  4 6
+*GA Gooch             c Healy            b Reid                59 148 127  5 0
+MA Atherton           c Boon             b Matthews           105 451 349  8 0
+W Larkins             run out (Border)                         11  44  33  2 0
+RA Smith              c Healy            b Reid                18  67  50  3 0
+DI Gower              c Marsh            b Reid               123 312 236 15 0
+AJ Stewart            lbw                b Alderman            91 157 146 12 0
++RC Russell           not out                                  30  90  64  3 0
+GC Small              lbw                b Alderman            10  28  21  1 0
+EE Hemmings                              b Alderman             0   2   3  0 0
+PCR Tufnell           not out                                   5  22  15  1 0
+Extras                (b 1, lb 8, nb 8)                        17
+Total                 (8 wickets dec, 172.1 overs, 665 mins)  469
+
+DNB: DE Malcolm.
+
+FoW: 1-95 (Gooch), 2-116 (Larkins), 3-156 (Smith),
+     4-295 (Atherton), 5-394 (Gower), 6-426 (Stewart),
+     7-444 (Small), 8-444 (Hemmings).
+
+Bowling                      O      M      R      W
+Alderman                    20.1    4     62      3 (2nb)
+Reid                        35.1    9     79      3 (4nb)
+Rackemann                   25.5    5     89      0
+Matthews                    58     16    145      1 (2nb)
+Border                      19      5     45      0
+Waugh                       14      3     40      0
+
+Australia 2nd innings                                           R   M   B  4 6
+MA Taylor             lbw                b Hemmings            19  39  31  2 0
+GR Marsh              c Stewart          b Malcolm              4  26  13  0 0
++IA Healy             c Smith            b Tufnell             69 165 160  6 0
+DC Boon               c Gooch            b Tufnell             29  73  72  3 0
+*AR Border            c Gooch            b Tufnell             20  34  29  3 0
+DM Jones                             c & b Tufnell              0   1   1  0 0
+SR Waugh              c Russell          b Hemmings            14  32  28  2 0
+GRJ Matthews                             b Hemmings            19  72  56  0 0
+CG Rackemann                             b Malcolm              9 107 102  0 0
+TM Alderman           c Gower            b Tufnell              1  10  10  0 0
+BA Reid               not out                                   5  28  32  0 0
+Extras                (lb 16)                                  16
+Total                 (all out, 89 overs, 300 mins)           205
+
+FoW: 1-21 (Marsh), 2-29 (Taylor), 3-81 (Boon), 4-129 (Border),
+     5-129 (Jones), 6-166 (Waugh), 7-166 (Healy),
+     8-189 (Matthews), 9-192 (Alderman), 10-205 (Rackemann).
+
+Bowling                      O      M      R      W
+Malcolm                      6      1     19      2
+Small                        2      1      6      0
+Hemmings                    41      9     94      3
+Tufnell                     37     18     61      5
+Atherton                     3      1      9      0
+
+England 2nd innings (target: 255 runs)                          R   M   B  4 6
+*GA Gooch             c Border           b Matthews            54  68  42  7 0
+DI Gower              c Taylor           b Matthews            36  53  38  3 0
+W Larkins             lbw                b Border               0   2   3  0 0
+AJ Stewart            run out (Alderman/Matthews)               7  10  10  0 0
+RA Smith              not out                                  10  31  27  1 0
+MA Atherton           not out                                   3  28  32  0 0
+Extras                (lb 1, nb 2)                              3
+Total                 (4 wickets, 25 overs)                   113
+
+DNB: +RC Russell, GC Small, EE Hemmings, PCR Tufnell, DE Malcolm.
+
+FoW: 1-84 (Gower), 2-84 (Larkins), 3-100 (Gooch),
+     4-100 (Stewart).
+
+Bowling                      O      M      R      W
+Alderman                     4      0     29      0 (2nb)
+Rackemann                    3      0     20      0
+Matthews                     9      2     26      2
+Border                       9      1     37      1
+
+*** Hours of play: 11.00am - 1.00pm, 1.40pm - 3.40pm, 4.00pm - 6.00pm
+*** Scorers: EW Cosgrove and CF Driver
+*** 12th men: MG Hughes (Australia) and PAJ DeFreitas (England)
+
+*** Day 1
+*** Lunch: Australia 68/2 (Boon 22*, Border 17*)
+*** Tea: Australia 158/2 (Boon 82*, Border 43*)
+*** Border became the first player to score 50 half centuries in Test cricket
+*** Boon/Border 3rd wicket partership 147 in 177 mins from 297 balls
+*** Attendance: 27,302
+
+*** Day 2
+*** Lunch: Australia 377/6 (Matthews 44*, Healy 9*)
+*** Matthews 100 in 185 mins form 137 balls, 13x4
+*** Tea: Australia 483/8 (Matthews 110*, Alderman 9*)
+*** Bad light ended play at 5.05pm (55 mins lost)
+*** Attendance: 26,529
+
+*** Day 3
+*** Gooch completed 6000 Test runs when he read 12 in the 1st innings
+*** Lunch: England 83/0 (Gooch 50*, Atheron 30*)
+*** Tea: England 150/2 (Atherton 58*, Smith 17*)
+*** Attendnace: 25,461
+
+*** Day 4
+*** Reid was unable to complete his 27th over (calloused right heel).
+    Rackemann completed the over. Reid later returned and bowled an addition
+    9 overs
+*** Atherton 100 in 424 mins from 326 balls, 8x4
+*** Atherton scored the slowest hundred in the history of Ashes Tests
+*** Atherton/Gower 4th wicket partership 139 in 190 mins from 284 balls
+*** Gower 100 in 222 mins from 171 balls, 15x4
+*** Lunch: England 323/4 (Gower 103*, Stewart 14*)
+*** Tea: England 426/5 (Stewart 91*, Russel 3*)
+*** Taylor completed 1000 Test runs agaist England when he reached 7 in the
+    2nd innings
+*** Attendnace: 18,010
+
+*** Day 5
+*** Border completed 3000 Test runs against England when he reached 17 in the
+    2nd innings
+*** Tufnell narrowly missed a hat-trick when Gower dropped Waugh at silly
+    point (difficult chance) after dismissing Border (caugh at square leg)
+    and Jones (simple pop back) with successive balls in his 17th over.
+*** Lunch: Australia 152/5 (Healy 64*, Waugh 7*)
+*** Tea: Australia 205 all out
+*** England were set a target of 255 runs from 28 overs
+*** Gower completed 8000 Test runs when he reached 15 in the 2nd innings
+*** Match called off at 5.45pm
+*** Attendance: 9,002 (Total: 106,304)
+
+<END>

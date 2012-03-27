@@ -1,0 +1,101 @@
+
+Test # 1156
+Sri Lanka in India, 1990/91, Only Test
+India v Sri Lanka
+Sector 16 Stadium, Chandigarh
+23,24,25,27 November 1990 (5-day match)
+
+Result: India won by an innings and 8 runs
+Series: India wins the one-off match
+
+Toss: India
+Umpires: SB Kulkarni and RS Rathore
+Test debut: MS Atapattu (Sri Lanka).
+Player of the match: SLV Raju
+
+Close of play:
+ Day 1: India 220/6 (Tendulkar 7*, More 0*)
+ Day 2: India 288, Sri Lanka 75/8 (Gurusinha 47*, Madurasinghe 0*)
+ Day 3: Sri Lanka 82, Sri Lanka 125/5 (Ranatunga 36*, Tillakaratne 11*)
+
+India 1st innings                                               R   M   B  4 6
+RJ Shastri            c de Silva         b Warnaweera          88 308 224  8 2
+M Prabhakar           lbw                b Warnaweera          31            0
+SV Manjrekar          lbw                b Madurasinghe        39      93  5 0
+DB Vengsarkar         lbw                b Ratnayake            7            0
+*M Azharuddin         c Labrooy          b Madurasinghe        23            0
+SR Tendulkar          lbw                b Madurasinghe        11  92        0
+N Kapil Dev           c de Silva         b Warnaweera           4            0
++KS More              not out                                  37            0
+SLV Raju              lbw                b Ratnayake           14            0
+G Sharma              lbw                b Ratnayake            0          0 0
+ND Hirwani            run out                                   0          0 0
+Extras                (b 5, lb 10, nb 19)                      34
+Total                 (all out, 110.5 overs)                  288
+
+FoW: 1-58 (Prabhakar), 2-134 (Manjrekar), 3-158 (Vengsarkar),
+     4-208 (Azharuddin), 5-210 (Shastri), 6-220 (Kapil Dev),
+     7-240 (Tendulkar), 8-276 (Raju), 9-276 (Sharma),
+     10-288 (Hirwani).
+
+Bowling                      O      M      R      W
+Ratnayake                   21.5    3     60      3
+Labrooy                     12      1     59      0
+Warnaweera                  46     17     90      3
+Ranatunga                    5      2      4      0
+Madurasinghe                26      6     60      3
+
+Sri Lanka 1st innings                                           R   M   B  4 6
+RS Mahanama           c More             b Kapil Dev            1          0 0
+MAR Samarasekera      lbw                b Prabhakar           13            0
+AP Gurusinha          not out                                  52 181 159  4 0
+PA de Silva                              b Raju                 5            0
+*A Ranatunga                             b Raju                 1          0 0
++HP Tillakaratne                         b Raju                 0          0 0
+MS Atapattu           c More             b Raju                 0          0 0
+RJ Ratnayake          lbw                b Raju                 0          0 0
+GF Labrooy                               b Sharma               0          0 0
+MAWR Madurasinghe     run out                                   2          0 0
+KPJ Warnaweera                           b Raju                 0          0 0
+Extras                (b 1, lb 2, nb 5)                         8
+Total                 (all out, 51.5 overs)                    82
+
+FoW: 1-4 (Mahanama), 2-34 (Samarasekera), 3-50 (de Silva),
+     4-54 (Ranatunga), 5-54 (Tillakaratne), 6-54 (Atapattu),
+     7-60 (Ratnayake), 8-65 (Labrooy), 9-77 (Madurasinghe),
+     10-82 (Warnaweera).
+
+Bowling                      O      M      R      W
+Kapil Dev                    8      3     14      1
+Prabhakar                    9      0     27      1
+Raju                        17.5   13     12      6
+Sharma                      17      5     26      1
+
+Sri Lanka 2nd innings (following on)                            R   M   B  4 6
+RS Mahanama           c More             b Kapil Dev           48     213    0
+MAR Samarasekera      c More             b Prabhakar            5            0
+AP Gurusinha          c Sharma           b Prabhakar            0       2  0 0
+PA de Silva           lbw                b Hirwani              7            0
+*A Ranatunga          c Azharuddin       b Raju                42            0
+MS Atapattu           lbw                b Kapil Dev            0          0 0
++HP Tillakaratne      c Shastri          b Kapil Dev           55          8 0
+RJ Ratnayake          lbw                b Raju                 0          0 0
+GF Labrooy                               b Kapil Dev            0          0 0
+MAWR Madurasinghe                        b Prabhakar           11            0
+KPJ Warnaweera        not out                                   0          0 0
+Extras                (b 5, lb 15, nb 10)                      30
+Total                 (all out, 120.4 overs)                  198
+
+FoW: 1-14 (Samarasekera), 2-14 (Gurusinha), 3-47 (de Silva),
+     4-110 (Mahanama), 5-110 (Atapattu), 6-135 (Ranatunga),
+     7-135 (Ratnayake), 8-136 (Labrooy), 9-196 (Madurasinghe),
+     10-198 (Tillakaratne).
+
+Bowling                      O      M      R      W
+Kapil Dev                   29.4   15     36      4
+Prabhakar                   15      4     44      3
+Raju                        36     25     25      2
+Sharma                      20      7     39      0
+Hirwani                     20      9     34      1
+
+<END>

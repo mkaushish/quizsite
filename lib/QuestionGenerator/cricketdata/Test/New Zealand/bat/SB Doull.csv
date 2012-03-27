@@ -1,0 +1,51 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+1198, 1992-11-01, 3, 6, Zimbabwe, , Traicos, 2, 4, 6, 0, 0
+1236, 1993-11-26, 2, 10, Australia, lbw, Warne, 0, 4, 3, 0, 0
+1236, 1993-11-26, 3, 10, Australia, c May, Warne, 1, 14, 6, 0, 0
+1238, 1993-12-03, 1, 10, Australia, c Healy, McDermott, 10, 17, 17, 2, 0
+1238, 1993-12-03, 3, 10, Australia, c Taylor, Warne, 24, 48, 42, 3, 0
+1248, 1994-02-10, 1, 9, Pakistan,                c &, Waqar Younis, 0, 1, 1, 0, 0
+1248, 1994-02-10, 3, 9, Pakistan, c Saleem Malik, Wasim Akram, 29, 33, 29, 4, 0
+1249, 1994-02-17, 1, 10, Pakistan, c Basit Ali, Waqar Younis, 17, 15, 12, 3, 0
+1249, 1994-02-17, 3, 9, Pakistan, c Saleem Malik, Wasim Akram, 15, 46, 40, 2, 0
+1251, 1994-02-24, 2, 9, Pakistan, lbw, Waqar Younis, 17, 37, 23, 2, 0
+1276, 1994-11-25, 1, 10, South Africa, not out, , 31, 44, 30, 4, 2
+1276, 1994-11-25, 3, 10, South Africa, not out, , 14, 31, 24, 2, 0
+1280, 1994-12-26, 1, 9, South Africa, c Richardson, McMillan, 0, 3, 5, 0, 0
+1280, 1994-12-26, 3, 9, South Africa, c Richardson, de Villiers, 19, 47, 30, 2, 0
+1282, 1995-01-02, 1, 9, South Africa, c Cronje, Jack, 6, 10, 10, 1, 0
+1282, 1995-01-02, 3, 9, South Africa, c Rhodes, de Villiers, 25, 50, 36, 2, 1
+1289, 1995-02-10, 2, 10, West Indies, , Walsh, 0, 10, 7, 0, 0
+1289, 1995-02-10, 3, 10, West Indies, lbw, Walsh, 0, 1, 2, 0, 0
+1339, 1996-11-21, 1, 11, Pakistan, not out, , 15, 44, 34, 2, 0
+1339, 1996-11-21, 3, 11, Pakistan, st Moin Khan, Saqlain Mushtaq, 26, 36, 17, 4, 1
+1342, 1996-11-28, 1, 11, Pakistan, not out, , 1, 7, 6, 0, 0
+1342, 1996-11-28, 3, 11, Pakistan, not out, , 4, 10, 6, 1, 0
+1351, 1997-01-24, 1, 10, England, c Knight, Gough, 5, 16, 10, 1, 0
+1351, 1997-01-24, 3, 10, England, , Gough, 26, 37, 40, 4, 0
+1354, 1997-02-06, 1, 9, England, c Stewart, Gough, 0, 2, 2, 0, 0
+1354, 1997-02-06, 3, 9, England, c Knight, Gough, 0, 2, 3, 0, 0
+1355, 1997-02-14, 1, 8, England, run out (Tufnell), , 1, 13, 5, 0, 0
+1355, 1997-02-14, 3, 7, England, c Knight, Croft, 5, 22, 19, 1, 0
+1359, 1997-03-14, 1, 10, Sri Lanka, c PA de Silva, Vaas, 20, 47, 30, 2, 0
+1359, 1997-03-14, 3, 10, Sri Lanka, c Mahanama, Zoysa, 25, 41, 30, 3, 0
+1383, 1997-11-07, 2, 10, Australia, not out, , 2, 20, 11, 0, 0
+1383, 1997-11-07, 4, 10, Australia, c Healy, McGrath, 2, 12, 11, 0, 0
+1386, 1997-11-20, 1, 9, Australia, c Taylor, Warne, 8, 7, 6, 2, 0
+1386, 1997-11-20, 3, 9, Australia, c SR Waugh, Cook, 17, 17, 17, 2, 1
+1388, 1997-11-27, 4, 10, Australia, not out, , 1, 44, 35, 0, 0
+1401, 1998-02-19, 2, 10, Zimbabwe, c Goodwin, Strang, 8, 12, 13, 1, 0
+1402, 1998-02-26, 2, 11, Zimbabwe, not out, , 6, 30, 21, 1, 0
+1415, 1998-05-27, 1, 11, Sri Lanka, not out, , 1, 10, 5, 0, 0
+1435, 1998-12-26, 2, 11, India, lbw, Kumble, 0, 9, 8, 0, 0
+1438, 1999-01-02, 1, 11, India, c Kumble, Srinath, 6, 8, 5, 1, 0
+1446, 1999-03-27, 2, 10, South Africa, c Gibbs, Adams, 17, 39, 26, 2, 1
+1449, 1999-03-11, 1, 10, South Africa, c Boucher, Pollock, 0, 1, 1, 0, 0
+1452, 1999-03-18, 1, 10, South Africa, c Boucher, Pollock, 0, 8, 3, 0, 0
+1452, 1999-03-18, 3, 10, South Africa, not out, , 38, 45, 33, 6, 1
+1455, 1999-07-01, 1, 10, England, c Butcher, Tufnell, 11, 16, 15, 1, 0
+1455, 1999-07-01, 3, 10, England, st Read, Tufnell, 46, 63, 50, 8, 0
+1488, 2000-03-11, 2, 11, Australia, c Lee, McGrath, 12, 8, 7, 0, 1
+1488, 2000-03-11, 4, 10, Australia, not out, , 5, 19, 14, 0, 0
+1491, 2000-03-24, 1, 10, Australia, c Slater, Warne, 12, 18, 12, 1, 0
+1491, 2000-03-24, 3, 10, Australia, c SR Waugh, Warne, 40, 43, 34, 6, 1

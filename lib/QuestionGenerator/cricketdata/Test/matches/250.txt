@@ -1,0 +1,95 @@
+
+Test # 250
+Australia in South Africa, 1935/36, 4th Test
+South Africa v Australia
+Old Wanderers, Johannesburg
+15,17 February 1936 (4-day match)
+
+Result: Australia won by an innings and 184 runs
+Series: Australia leads the 5-match series 3-0
+
+Toss: South Africa
+Umpires: RGA Ashman and JC Collings
+Test debuts: EQ Davies, RL Harvey (South Africa).
+
+Close of play:
+ Day 1: South Africa 157, Australia 185/3 (O'Brien 1*, Oldfield 0*)
+
+South Africa 1st innings                                        R   M   B  4 6
+IJ Siedle             lbw                b Grimmett            44            0
+*HF Wade                                 b McCormick           39            0
+AD Nourse             c Oldfield         b McCormick            3          0 0
+KG Viljoen                               b O'Reilly            33            0
+RL Harvey                                b O'Reilly             5            0
+B Mitchell            st Oldfield        b Grimmett            16            0
+ACB Langton           lbw                b O'Reilly             7            0
++F Nicholson                             b Grimmett             0          0 0
+EP Nupen                                 b O'Reilly             1          0 0
+XC Balaskas           lbw                b O'Reilly             0          0 0
+EQ Davies             not out                                   0          0 0
+Extras                (lb 5, w 4)                               9
+Total                 (all out, 63.4 overs)                   157
+
+FoW: 1-81 (Siedle), 2-91 (Wade), 3-96 (Nourse), 4-128 (Harvey),
+     5-137 (Viljoen), 6-153 (Langton), 7-154 (Nicholson),
+     8-155 (Nupen), 9-157 (Balaskas), 10-157 (Mitchell).
+
+Bowling                      O      M      R      W
+McCormick                   11      0     37      2
+McCabe                       5      2     21      0
+Grimmett                    26.4    6     70      3
+O'Reilly                    21     11     20      5
+
+Australia 1st innings                                           R   M   B  4 6
+JHW Fingleton         c Langton          b Davies             108          8 0
+WA Brown              lbw                b Langton             34            0
+SJ McCabe                                b Davies              40            0
+LPJ O'Brien                              b Balaskas            59            0
++WAS Oldfield         c Balaskas         b Nupen               44            0
+LS Darling            c Wade             b Balaskas            16            0
+AG Chipperfield       lbw                b Balaskas            39            0
+*VY Richardson                           b Davies              21            0
+CV Grimmett           lbw                b Balaskas             4            0
+WJ O'Reilly           not out                                  56            2
+EL McCormick          c Mitchell         b Davies              13            0
+Extras                (b 1, lb 4)                               5
+Total                 (all out, 127.4 overs)                  439
+
+FoW: 1-99 (Brown), 2-179 (McCabe), 3-184 (Fingleton),
+     4-260 (Oldfield), 5-282 (Darling), 6-333 (O'Brien),
+     7-352 (Chipperfield), 8-368 (Richardson), 9-370 (Grimmett),
+     10-439 (McCormick, 127.4 ov).
+
+Bowling                      O      M      R      W
+Davies                      24.4    4     75      4
+Langton                     30      5     88      1
+Balaskas                    44      4    165      4
+Nupen                       14      1     53      1
+Mitchell                    15      1     53      0
+
+South Africa 2nd innings                                        R   M   B  4 6
+IJ Siedle                                b McCormick            0   1   1  0 0
+*HF Wade                                 b McCormick            2          0 0
+KG Viljoen            st Oldfield        b Grimmett             7            0
+B Mitchell            not out                                  48            1
+AD Nourse                                b McCormick            3          0 0
+RL Harvey             c Darling          b Grimmett            17            1
++F Nicholson                             b Grimmett             0          0 0
+ACB Langton           lbw                b Grimmett             9            0
+EP Nupen                                 b Grimmett             6            1
+XC Balaskas           c O'Brien          b Grimmett             0          0 0
+EQ Davies             c Oldfield         b Grimmett             3          0 0
+Extras                (lb 3)                                    3
+Total                 (all out, 43.5 overs)                    98
+
+FoW: 1-0 (Siedle), 2-5 (Wade), 3-21 (Viljoen), 4-24 (Nourse),
+     5-49 (Harvey), 6-50 (Nicholson), 7-76 (Langton),
+     8-82 (Nupen), 9-82 (Balaskas), 10-98 (Davies).
+
+Bowling                      O      M      R      W
+McCormick                   12      2     28      3
+McCabe                       2      1      1      0
+Grimmett                    19.5    9     40      7
+O'Reilly                    10      3     26      0
+
+<END>

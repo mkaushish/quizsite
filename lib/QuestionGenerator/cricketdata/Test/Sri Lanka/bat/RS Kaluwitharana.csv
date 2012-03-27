@@ -1,0 +1,79 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+1194, 1992-08-17, 2, 7, Australia, not out, , 132, 203, 158, 26, 0
+1194, 1992-08-17, 4, 7, Australia, , Matthews, 4, 5, 5, 1, 0
+1195, 1992-08-28, 2, 7, Australia, c sub (DR Martyn), Border, 1, 15, 7, 0, 0
+1229, 1993-08-04, 1, 8, India, , Prabhakar, 40, 81, 78, 6, 0
+1317, 1995-12-08, 1, 7, Australia, c Taylor, Warne, 50, 90, 74, 7, 0
+1317, 1995-12-08, 3, 7, Australia, c Ponting, Julian, 40, 45, 42, 6, 0
+1319, 1995-12-26, 2, 7, Australia, c Boon, McDermott, 50, 95, 59, 7, 0
+1319, 1995-12-26, 3, 5, Australia, st Healy, Warne, 2, 15, 7, 0, 0
+1324, 1996-01-25, 2, 5, Australia, lbw, Reiffel, 31, 44, 35, 4, 1
+1324, 1996-01-25, 4, 5, Australia, , SR Waugh, 0, 7, 2, 0, 0
+1333, 1996-09-11, 1, 7, Zimbabwe,                c &, Streak, 71, 155, 123, 10, 1
+1334, 1996-09-18, 2, 7, Zimbabwe, c A Flower, GJ Whittall, 27, 82, 56, 2, 0
+1358, 1997-03-07, 2, 7, New Zealand, c Fleming, Patel, 43, 81, 50, 5, 0
+1358, 1997-03-07, 3, 7, New Zealand,                c &, Vettori, 103, 134, 103, 13, 2
+1359, 1997-03-14, 2, 6, New Zealand, c Parore, Davis, 11, 26, 24, 2, 0
+1359, 1997-03-14, 4, 7, New Zealand, lbw, Doull, 13, 23, 12, 2, 0
+1366, 1997-04-19, 1, 7, Pakistan, , Saqlain Mushtaq, 57, 106, 89, 8, 0
+1366, 1997-04-19, 3, 6, Pakistan, c Moin Khan, Shahid Nazir, 17, 78, 54, 0, 0
+1367, 1997-04-26, 1, 7, Pakistan, , Asif Mujtaba, 22, 67, 41, 3, 0
+1369, 1997-06-13, 1, 7, West Indies, hit wicket, Bishop, 23, 89, 78, 5, 0
+1369, 1997-06-13, 3, 6, West Indies, c Browne, Walsh, 16, 35, 22, 3, 0
+1371, 1997-06-20, 2, 7, West Indies, c Browne, Ambrose, 7, 15, 17, 1, 0
+1371, 1997-06-20, 4, 6, West Indies, hit wicket, Walsh, 2, 11, 8, 0, 0
+1374, 1997-08-02, 2, 7, India, not out, , 14, 42, 27, 1, 0
+1376, 1997-08-09, 1, 7, India, , Kuruvilla, 7, 29, 26, 1, 0
+1376, 1997-08-09, 3, 6, India, run out (Ganguly), , 2, 13, 6, 0, 0
+1394, 1998-01-07, 1, 7, Zimbabwe,                c &, Whittall, 29, 58, 44, 5, 0
+1395, 1998-01-14, 2, 7, Zimbabwe, c A Flower, Strang, 51, 71, 47, 12, 0
+1395, 1998-01-14, 4, 6, Zimbabwe, c Campbell, Streak, 4, 27, 11, 1, 0
+1410, 1998-03-19, 2, 7, South Africa, lbw, Pollock, 13, 54, 41, 2, 0
+1410, 1998-03-19, 4, 7, South Africa, , Pollock, 45, 72, 61, 8, 0
+1414, 1998-03-27, 1, 7, South Africa, c Boucher, Donald, 9, 20, 15, 1, 0
+1414, 1998-03-27, 3, 7, South Africa, run out (sub [DN Crookes]), , 0, 5, 3, 0, 0
+1415, 1998-05-27, 2, 6, New Zealand, , Vettori, 72, 166, 136, 13, 0
+1415, 1998-05-27, 4, 6, New Zealand, c Parore, McMillan, 39, 73, 58, 8, 0
+1416, 1998-06-03, 2, 7, New Zealand, run out (Harris), , 3, 12, 13, 0, 0
+1418, 1998-06-10, 1, 7, New Zealand, , McMillan, 28, 70, 78, 4, 0
+1418, 1998-06-10, 3, 7, New Zealand, lbw, Priest, 88, 170, 146, 8, 0
+1423, 1998-08-27, 2, 7, England, c Crawley, Cork, 25, 57, 50, 2, 0
+1445, 1999-02-24, 2, 8, India, , Harbhajan Singh, 23, 57, 45, 2, 0
+1447, 1999-03-04, 2, 6, Pakistan, c Moin Khan, Wasim Akram, 100, 178, 144, 16, 0
+1450, 1999-03-12, 1, 7, Pakistan, c Yousuf Youhana, Arshad Khan, 9, 29, 25, 1, 0
+1450, 1999-03-12, 3, 8, Pakistan,                c &, Saqlain Mushtaq, 0, 6, 3, 0, 0
+1459, 1999-09-09, 2, 7, Australia, , Miller, 9, 23, 18, 2, 0
+1459, 1999-09-09, 4, 3, Australia, , Miller, 5, 32, 17, 1, 0
+1460, 1999-09-22, 1, 7, Australia, , McGrath, 25, 74, 50, 4, 0
+1470, 1999-11-18, 2, 6, Zimbabwe, c A Flower, Olonga, 30, 92, 69, 5, 0
+1473, 1999-11-26, 2, 6, Zimbabwe, run out (Olonga), , 19, 49, 34, 4, 0
+1473, 1999-11-26, 4, 6, Zimbabwe, not out, , 14, 19, 20, 3, 0
+1474, 1999-12-04, 2, 6, Zimbabwe, c A Flower, Whittall, 7, 22, 19, 1, 0
+1485, 2000-03-26, 2, 7, Pakistan, lbw, Abdul Razzaq, 0, 3, 1, 0, 0
+1485, 2000-03-26, 4, 7, Pakistan, not out, , 36, 147, 75, 3, 0
+1487, 2000-03-05, 1, 7, Pakistan, c Atiq-uz-Zaman, Shoaib Akhtar, 4, 35, 11, 0, 0
+1487, 2000-03-05, 3, 6, Pakistan, lbw, Shoaib Akhtar, 0, 5, 3, 0, 0
+1489, 2000-03-12, 2, 6, Pakistan, run out (Naved Ashraf), , 42, 41, 29, 9, 0
+1489, 2000-03-12, 4, 6, Pakistan, , Shoaib Akhtar, 33, 55, 32, 6, 0
+1499, 2000-05-14, 1, 7, Pakistan, c Mohammad Wasim, Arshad Khan, 4, 7, 7, 0, 0
+1499, 2000-05-14, 3, 7, Pakistan, c Younis Khan, Arshad Khan, 6, 14, 9, 1, 0
+1501, 2000-05-21, 1, 7, Pakistan, c Moin Khan, Abdul Razzaq, 4, 27, 19, 0, 0
+1501, 2000-05-21, 3, 7, Pakistan, lbw, Waqar Younis, 9, 45, 33, 1, 0
+1526, 2000-11-26, 2, 7, South Africa, c Boucher, Ntini, 16, 31, 27, 2, 0
+1526, 2000-11-26, 4, 7, South Africa, c Boje, Pollock, 1, 9, 9, 0, 0
+1529, 2001-01-20, 2, 7, South Africa, c Boucher, Ntini, 32, 41, 30, 4, 1
+1529, 2001-01-20, 3, 7, South Africa, c Boucher, Kemp, 10, 56, 41, 1, 0
+1641, 2003-03-25, 2, 7, New Zealand, c Sinclair, Wiseman, 76, 117, 90, 14, 0
+1644, 2003-04-03, 2, 5, New Zealand, c Tuffey, Bond, 20, 60, 46, 2, 0
+1648, 2003-05-20, 1, 7, West Indies, lbw, Collymore, 2, 7, 4, 0, 0
+1649, 2003-05-27, 1, 6, West Indies, c Samuels, Banks, 10, 30, 23, 1, 0
+1649, 2003-05-27, 3, 5, West Indies, , Taylor, 23, 47, 27, 5, 0
+1706, 2004-06-09, 2, 7, Australia, c Warne, McGrath, 34, 93, 46, 3, 0
+1706, 2004-06-09, 4, 7, Australia, c Lehmann, Warne, 14, 46, 36, 1, 0
+1709, 2004-07-04, 1, 7, South Africa, , Pollock, 33, 121, 78, 4, 0
+1709, 2004-07-04, 3, 7, South Africa, c Pollock, Boje, 19, 40, 31, 4, 0
+1710, 2004-07-11, 1, 8, South Africa, c Boucher, Hayward, 7, 19, 15, 1, 0
+1716, 2004-09-20, 1, 7, Pakistan,                c &, Danish Kaneria, 4, 5, 5, 1, 0
+1716, 2004-09-20, 3, 7, Pakistan, c sub (Naved-ul-Hasan), Danish Kaneria, 1, 17, 9, 0, 0
+1719, 2004-10-28, 1, 7, Pakistan, c Kamran Akmal, Danish Kaneria, 54, 126, 104, 4, 1
+1719, 2004-10-28, 3, 7, Pakistan, , Danish Kaneria, 7, 22, 13, 1, 0

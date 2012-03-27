@@ -1,0 +1,51 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+641, 1968-08-22, 2, 9, England, not out, , 43, 180, 194, 6, 0
+641, 1968-08-22, 4, 8, England, c Brown, Underwood, 0, 3, 2, 0, 0
+642, 1968-12-06, 2, 9, West Indies, , Gibbs, 6, 24, na, 1, 0
+642, 1968-12-06, 4, 9, West Indies, lbw, Carew, 19, 50, na, 0, 0
+664, 1969-11-04, 2, 9, India, not out, , 10, na, na, na, 0
+666, 1969-11-15, 2, 7, India, , Venkataraghavan, 4, na, na, na, 0
+667, 1969-11-28, 1, 8, India, , Venkataraghavan, 2, na, na, 0, 0
+667, 1969-11-28, 3, 9, India, c Venkataraghavan, Prasanna, 0, na, na, 0, 0
+668, 1969-12-12, 2, 10, India, not out, , 2, na, na, 0, 0
+669, 1969-12-24, 1, 10, India, not out, , 2, na, na, 0, 0
+669, 1969-12-24, 3, 10, India, not out, , 11, na, na, na, 0
+670, 1970-01-22, 2, 9, South Africa, c Goddard, Chevalier, 19, 60, 42, 3, 0
+670, 1970-01-22, 4, 8, South Africa, c PM Pollock, Procter, 5, 17, 9, 1, 0
+676, 1971-01-09, 2, 8, England, , Underwood, 4, 22, 21, 0, 0
+676, 1971-01-09, 4, 8, England, c Knott, Willis, 6, 49, 43, 0, 0
+678, 1971-01-29, 2, 8, England, c Illingworth, Snow, 28, 78, 72, 4, 0
+701, 1972-07-27, 1, 9, England, lbw, Snow, 20, 78, 77, 3, 0
+701, 1972-07-27, 3, 9, England, , Illingworth, 9, 33, 30, 2, 0
+702, 1972-08-10, 2, 9, England, run out, , 5, 52, 39, 0, 0
+704, 1972-12-22, 2, 9, Pakistan, c sub (Sarfraz Nawaz), Majid Khan, 0, 3, na, 0, 0
+705, 1973-12-29, 3, 8, Pakistan, c Wasim Bari, Sarfraz Nawaz, 8, 16, 20, 0, 0
+729, 1974-01-05, 2, 10, New Zealand, lbw, RJ Hadlee, 0, 10, 5, 0, 0
+730, 1974-01-26, 1, 9, New Zealand, c Wadsworth, O'Sullivan, 11, 61, 62, 0, 0
+733, 1974-03-01, 3, 10, New Zealand, not out, , 4, 25, 23, 0, 0
+735, 1974-03-08, 1, 10, New Zealand, , Collinge, 1, 8, 6, 0, 0
+735, 1974-03-08, 3, 11, New Zealand, c Wadsworth, RJ Hadlee, 11, 24, 17, 1, 0
+736, 1974-03-22, 1, 11, New Zealand, c Turner, Congdon, 7, 24, 15, 0, 0
+736, 1974-03-22, 3, 11, New Zealand, c Parker, Collinge, 6, 20, 21, 0, 0
+748, 1974-12-13, 2, 10, England, c Knott, Old, 0, 1, 2, 0, 0
+749, 1974-12-26, 2, 10, England, run out, , 0, 5, 6, 0, 0
+749, 1974-12-26, 4, 10, England, not out, , 0, 4, 1, 0, 0
+751, 1975-01-04, 1, 10, England, lbw, Greig, 31, 73, 53, 4, 0
+754, 1975-01-25, 1, 10, England, not out, , 23, 54, 51, 1, 0
+755, 1975-02-08, 1, 10, England, , Lever, 7, 14, 12, 1, 0
+755, 1975-02-08, 3, 9, England, c Edrich, Greig, 0, 7, 1, 0, 0
+760, 1975-07-10, 1, 11, England, not out, , 3, 25, 19, 0, 0
+761, 1975-07-31, 2, 11, England, lbw, Steele, 14, 69, 57, 2, 0
+762, 1975-08-14, 2, 11, England, not out, , 1, 12, 11, 0, 0
+763, 1975-08-28, 1, 11, England, not out, , 5, 42, 42, 1, 0
+764, 1975-11-28, 2, 11, West Indies, c Fredericks, Gibbs, 0, 1, 2, 0, 0
+765, 1975-12-12, 1, 11, West Indies, , Holding, 0, 5, 5, 0, 0
+765, 1975-12-12, 3, 11, West Indies, not out, , 18, 20, 18, 1, 0
+766, 1975-12-26, 2, 11, West Indies, not out, , 3, 15, 13, 0, 0
+767, 1976-01-03, 2, 11, West Indies, lbw, Roberts, 13, 18, 18, 3, 0
+768, 1976-01-23, 1, 9, West Indies, c Fredericks, Holding, 5, 16, 10, 1, 0
+768, 1976-01-23, 3, 8, West Indies, c Murray, Gibbs, 11, 39, 44, 0, 0
+770, 1976-01-31, 1, 9, West Indies, lbw, Boyce, 16, 48, 34, 0, 0
+870, 1980-01-26, 2, 10, West Indies, c Rowe, Garner, 0, 10, 6, 0, 0
+870, 1980-01-26, 4, 10, West Indies, , Holding, 12, 17, 12, 1, 0
+872, 1980-02-01, 2, 10, England, lbw, Botham, 25, 74, 54, 4, 0

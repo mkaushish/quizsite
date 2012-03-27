@@ -1,0 +1,158 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+1700, 2004-04-20, 2, 2, New Zealand, c Richardson, Vettori, 112, 305, 215, 13, 0
+1700, 2004-04-20, 4, 2, New Zealand, run out (Cairns/McCullum), , 83, 217, 171, 13, 0
+1702, 2004-05-03, 2, 2, New Zealand, c Tuffey, Vettori, 62, 156, 114, 7, 0
+1702, 2004-05-03, 4, 2, New Zealand, c Astle, Tuffey, 10, 21, 12, 2, 0
+1704, 2004-05-10, 2, 2, New Zealand, c McCullum, Cairns, 0, 6, 3, 0, 0
+1704, 2004-05-10, 4, 2, New Zealand, lbw, Cairns, 6, 11, 12, 1, 0
+1707, 2004-06-22, 1, 2, West Indies, c Jacobs, Banks, 137, 298, 202, 20, 0
+1707, 2004-06-22, 3, 2, West Indies, c Sarwan, Collins, 35, 133, 103, 0, 0
+1708, 2004-07-29, 1, 2, West Indies, c Jacobs, Lawson, 24, 80, 40, 5, 0
+1708, 2004-07-29, 3, 2, West Indies, c Jacobs, Lawson, 5, 39, 22, 0, 0
+1711, 2004-07-12, 2, 2, West Indies, , Bravo, 90, 291, 227, 8, 0
+1711, 2004-07-12, 4, 2, West Indies, c Chanderpaul, Collins, 12, 43, 27, 2, 0
+1712, 2004-07-19, 1, 2, West Indies, c Edwards, Lawson, 14, 75, 44, 2, 0
+1712, 2004-07-19, 4, 2, West Indies, not out, , 0, 3, 0, 0, 0
+1728, 2004-11-17, 2, 2, South Africa, c de Villiers, Pollock, 126, 301, 228, 17, 0
+1728, 2004-11-17, 4, 2, South Africa, not out, , 94, 173, 134, 12, 1
+1730, 2004-11-26, 1, 2, South Africa, c Ntini, Boje, 25, 109, 69, 5, 0
+1730, 2004-11-26, 3, 2, South Africa, c van Jaarsveld, Ntini, 136, 383, 285, 16, 0
+1732, 2005-01-02, 2, 2, South Africa, , Ntini, 45, 144, 105, 4, 0
+1732, 2005-01-02, 4, 2, South Africa, lbw, Boje, 39, 136, 107, 3, 0
+1734, 2005-01-13, 1, 2, South Africa, c Kallis, Pollock, 147, 353, 250, 23, 1
+1734, 2005-01-13, 3, 2, South Africa, c de Villiers, Ntini, 0, 5, 4, 0, 0
+1736, 2005-01-21, 2, 2, South Africa, c Boucher, Nel, 44, 191, 124, 5, 1
+1736, 2005-01-21, 4, 2, South Africa, c Kallis, Ntini, 0, 6, 2, 0, 0
+1751, 2005-04-26, 2, 2, Bangladesh, lbw, Mashrafe Mortaza, 69, 143, 93, 10, 0
+1753, 2005-05-03, 2, 2, Bangladesh, lbw, Mashrafe Mortaza, 8, 34, 30, 1, 0
+1756, 2005-06-21, 2, 2, Australia, c Warne, McGrath, 2, 28, 21, 0, 0
+1756, 2005-06-21, 4, 2, Australia,                c &, Lee, 37, 115, 67, 6, 0
+1758, 2005-07-04, 1, 2, Australia, , Warne, 48, 113, 76, 10, 0
+1758, 2005-07-04, 3, 2, Australia, , Warne, 6, 28, 12, 1, 0
+1760, 2005-07-11, 1, 2, Australia, , Lee, 6, 43, 28, 0, 0
+1760, 2005-07-11, 3, 2, Australia, c Martyn, McGrath, 106, 246, 158, 9, 2
+1762, 2005-07-25, 1, 2, Australia, c Hayden, Warne, 35, 99, 64, 4, 0
+1762, 2005-07-25, 4, 2, Australia, c Clarke, Warne, 23, 68, 37, 3, 0
+1763, 2005-08-08, 1, 2, Australia, c Katich, Warne, 129, 351, 210, 17, 0
+1763, 2005-08-08, 3, 2, Australia, c Katich, Warne, 1, 16, 7, 0, 0
+1770, 2005-10-12, 2, 2, Pakistan, lbw, Mohammad Sami, 9, 18, 14, 2, 0
+1770, 2005-10-12, 4, 2, Pakistan, c Hasan Raza, Danish Kaneria, 23, 91, 61, 2, 0
+1772, 2005-10-20, 2, 2, Pakistan, , Naved-ul-Hasan, 12, 57, 36, 1, 0
+1772, 2005-10-20, 4, 2, Pakistan, , Naved-ul-Hasan, 0, 10, 6, 0, 0
+1785, 2006-02-01, 1, 1, India, c Laxman, Sreesanth, 28, 71, 64, 5, 0
+1785, 2006-02-01, 3, 1, India, c Dhoni, Pathan, 46, 129, 113, 6, 0
+1788, 2006-02-09, 1, 1, India, c Dhoni, Pathan, 18, 46, 38, 1, 0
+1788, 2006-02-09, 3, 1, India, c Dhoni, Kumble, 13, 102, 64, 0, 0
+1791, 2006-02-18, 1, 1, India, c Dhoni, Harbhajan Singh, 128, 329, 240, 17, 1
+1791, 2006-02-18, 3, 1, India, c Dhoni, Patel, 4, 26, 18, 0, 0
+1802, 2006-04-11, 1, 2, Sri Lanka, c Jayawardene, Muralitharan, 48, 119, 97, 8, 0
+1803, 2006-04-25, 2, 2, Sri Lanka, run out (Samaraweera), , 30, 95, 65, 5, 0
+1803, 2006-04-25, 4, 2, Sri Lanka, c Jayawardene, Muralitharan, 16, 49, 36, 2, 0
+1804, 2006-05-02, 2, 2, Sri Lanka, , Vaas, 7, 37, 28, 0, 0
+1804, 2006-05-02, 4, 2, Sri Lanka, c Jayawardene, Muralitharan, 55, 147, 115, 6, 0
+1809, 2006-06-13, 1, 2, Pakistan, lbw, Abdul Razzaq, 30, 60, 44, 5, 0
+1809, 2006-06-13, 3, 2, Pakistan, c Imran Farhat, Danish Kaneria, 128, 300, 214, 13, 0
+1811, 2006-06-27, 2, 2, Pakistan, c Kamran Akmal, Abdul Razzaq, 42, 120, 85, 6, 0
+1813, 2006-07-04, 1, 2, Pakistan, c Younis Khan, Shahid Nazir, 36, 75, 43, 5, 0
+1813, 2006-07-04, 3, 2, Pakistan, c Kamran Akmal, Mohammad Sami, 116, 250, 171, 16, 0
+1814, 2006-07-17, 1, 2, Pakistan, c Kamran Akmal, Mohammad Asif, 38, 86, 57, 7, 0
+1814, 2006-07-17, 3, 2, Pakistan, lbw, Danish Kaneria, 54, 122, 83, 9, 0
+1817, 2006-10-23, 2, 1, Australia, c Hussey, McGrath, 12, 25, 21, 2, 0
+1817, 2006-10-23, 4, 1, Australia, c sub (RA Broad), Clark, 11, 51, 31, 1, 0
+1819, 2006-11-01, 1, 1, Australia, c Martyn, Clark, 14, 63, 44, 0, 0
+1819, 2006-11-01, 3, 1, Australia, c Hussey, Warne, 34, 125, 79, 3, 0
+1821, 2006-11-14, 2, 1, Australia, c Gilchrist, Clark, 42, 101, 71, 6, 0
+1821, 2006-11-14, 4, 1, Australia, lbw, Lee, 0, 2, 4, 0, 0
+1824, 2006-11-26, 1, 1, Australia, , Warne, 50, 206, 132, 1, 0
+1824, 2006-11-26, 3, 1, Australia, c Gilchrist, Lee, 31, 173, 107, 2, 0
+1826, 2007-01-02, 1, 1, Australia, c Gilchrist, Lee, 29, 64, 52, 3, 0
+1826, 2007-01-02, 3, 1, Australia, lbw, Clark, 24, 68, 45, 3, 0
+1831, 2007-04-17, 1, 1, West Indies, c Smith, Powell, 33, 100, 70, 6, 0
+1831, 2007-04-17, 3, 1, West Indies, c Morton, Collymore, 24, 56, 55, 2, 0
+1834, 2007-04-25, 1, 1, West Indies, c Ramdin, Powell, 15, 35, 27, 2, 0
+1835, 2007-05-07, 1, 1, West Indies, lbw, Taylor, 6, 11, 6, 0, 0
+1835, 2007-05-07, 3, 1, West Indies, lbw, Edwards, 0, 2, 4, 0, 0
+1836, 2007-05-15, 2, 1, West Indies, c Ramdin, Edwards, 77, 169, 136, 11, 0
+1836, 2007-05-15, 4, 1, West Indies, , Powell, 13, 33, 25, 1, 0
+1840, 2007-06-19, 1, 1, India, c Dravid, Kumble, 96, 256, 186, 16, 0
+1840, 2007-06-19, 3, 1, India, c Tendulkar, Khan, 18, 47, 41, 3, 0
+1841, 2007-06-27, 1, 1, India, c Tendulkar, Khan, 4, 9, 9, 1, 0
+1841, 2007-06-27, 3, 1, India, c Dhoni, Khan, 55, 198, 133, 6, 0
+1842, 2007-07-09, 2, 1, India, c Sreesanth, Khan, 6, 18, 13, 1, 0
+1842, 2007-07-09, 4, 1, India, c Laxman, Singh, 32, 137, 113, 6, 0
+1866, 2008-02-05, 2, 4, New Zealand, , Vettori, 43, 130, 118, 5, 0
+1866, 2008-02-05, 4, 3, New Zealand, c McCullum, Mills, 2, 30, 16, 0, 0
+1867, 2008-02-13, 1, 3, New Zealand, c Sinclair, Mills, 8, 39, 33, 1, 0
+1867, 2008-02-13, 3, 3, New Zealand, lbw, Oram, 44, 137, 88, 3, 0
+1868, 2008-02-22, 1, 3, New Zealand, c How, Southee, 0, 8, 6, 0, 0
+1868, 2008-02-22, 3, 3, New Zealand, c Bell, Patel, 177, 481, 343, 25, 0
+1874, 2008-04-15, 2, 1, New Zealand, lbw, Oram, 63, 231, 174, 6, 0
+1876, 2008-04-23, 2, 1, New Zealand, c McCullum, O'Brien, 60, 174, 140, 5, 0
+1876, 2008-04-23, 4, 1, New Zealand, c Taylor, O'Brien, 106, 278, 186, 12, 0
+1878, 2008-05-05, 1, 1, New Zealand, c Taylor, Mills, 37, 122, 97, 5, 0
+1880, 2008-06-10, 1, 1, South Africa, lbw, Morkel, 44, 178, 131, 6, 0
+1881, 2008-06-18, 1, 1, South Africa, c Boucher, Morkel, 27, 101, 65, 4, 0
+1881, 2008-06-18, 3, 1, South Africa, c Boucher, Ntini, 0, 15, 13, 0, 0
+1883, 2008-07-30, 1, 1, South Africa, hit wicket, Nel, 20, 93, 67, 3, 0
+1883, 2008-07-30, 3, 1, South Africa, c Kallis, Morkel, 25, 99, 65, 2, 0
+1885, 2008-07-07, 2, 1, South Africa, c Smith, Ntini, 6, 16, 20, 1, 0
+1885, 2008-07-07, 4, 1, South Africa, c Smith, Harris, 58, 164, 107, 6, 0
+1898, 2008-11-11, 1, 1, India,                c &, Mishra, 123, 356, 233, 15, 0
+1898, 2008-11-11, 3, 1, India, c Laxman, Harbhajan Singh, 108, 397, 244, 8, 0
+1901, 2008-11-19, 2, 1, India, lbw, Khan, 0, 1, 3, 0, 0
+1901, 2008-11-19, 4, 1, India, not out, , 21, 103, 83, 1, 0
+1906, 2009-01-04, 1, 1, West Indies, c Ramdin, Taylor, 7, 20, 15, 1, 0
+1906, 2009-01-04, 3, 1, West Indies, c Ramdin, Taylor, 9, 69, 50, 0, 0
+1907, 2009-01-13, 1, 1, West Indies, not out, , 6, 34, 8, 0, 0
+1908, 2009-01-15, 1, 1, West Indies,                c &, Edwards, 169, 346, 278, 24, 1
+1908, 2009-01-15, 3, 1, West Indies, c Smith, Edwards, 14, 23, 21, 2, 0
+1911, 2009-02-26, 1, 1, West Indies, , Powell, 142, 249, 210, 18, 1
+1911, 2009-02-26, 3, 1, West Indies, , Gayle, 38, 101, 72, 5, 0
+1914, 2009-02-06, 1, 1, West Indies, , Edwards, 142, 368, 271, 11, 0
+1914, 2009-02-06, 3, 1, West Indies,                c &, Gayle, 14, 25, 18, 2, 0
+1919, 2009-04-06, 1, 1, West Indies, c Ramdin, Taylor, 16, 32, 24, 2, 0
+1919, 2009-04-06, 4, 1, West Indies, not out, , 14, 29, 24, 2, 0
+1920, 2009-04-14, 1, 1, West Indies, c Ramdin, Gayle, 26, 95, 66, 4, 0
+1922, 2009-06-08, 1, 1, Australia, c Clarke, Johnson, 30, 90, 60, 4, 0
+1922, 2009-06-08, 3, 1, Australia, c Haddin, Hauritz, 17, 78, 54, 1, 0
+1925, 2009-06-16, 1, 1, Australia, , Hilfenhaus, 161, 370, 268, 22, 0
+1925, 2009-06-16, 3, 1, Australia, c Clarke, Hauritz, 32, 64, 48, 4, 0
+1928, 2009-07-30, 2, 1, Australia, c Manou, Hilfenhaus, 69, 178, 134, 11, 0
+1929, 2009-07-07, 1, 1, Australia, c North, Siddle, 3, 16, 17, 0, 0
+1929, 2009-07-07, 3, 1, Australia, lbw, Hilfenhaus, 32, 97, 78, 4, 0
+1931, 2009-07-20, 1, 1, Australia, c Haddin, Hilfenhaus, 55, 128, 101, 11, 0
+1931, 2009-07-20, 3, 1, Australia, c Clarke, North, 75, 226, 191, 8, 0
+1942, 2009-11-16, 2, 1, South Africa, , Ntini, 46, 138, 87, 6, 0
+1942, 2009-11-16, 4, 1, South Africa, c Boucher, Morkel, 1, 5, 3, 0, 0
+1944, 2009-11-26, 2, 1, South Africa, , Morkel, 54, 80, 67, 9, 0
+1946, 2010-01-03, 2, 1, South Africa, c Boucher, Morkel, 2, 3, 6, 0, 0
+1946, 2010-01-03, 4, 1, South Africa, c Amla, Harris, 45, 167, 107, 7, 0
+1948, 2010-01-14, 1, 1, South Africa, c Amla, Steyn, 0, 1, 1, 0, 0
+1948, 2010-01-14, 3, 1, South Africa, lbw, Parnell, 22, 58, 45, 3, 0
+1958, 2010-04-27, 1, 1, Bangladesh, , Mahmudullah, 83, 192, 129, 8, 1
+1958, 2010-04-27, 4, 1, Bangladesh, c Mushfiqur Rahim, Shakib Al Hasan, 82, 112, 88, 6, 0
+1959, 2010-05-04, 1, 1, Bangladesh, c Imrul Kayes, Shafiul Islam, 21, 46, 45, 4, 0
+1967, 2010-07-29, 1, 1, Pakistan, c Kamran Akmal, Mohammad Amir, 45, 107, 75, 6, 0
+1967, 2010-07-29, 3, 1, Pakistan, c Kamran Akmal, Mohammad Amir, 0, 3, 3, 0, 0
+1969, 2010-07-06, 2, 1, Pakistan, c Zulqarnain Haider, Mohammad Amir, 25, 62, 40, 2, 0
+1969, 2010-07-06, 4, 1, Pakistan, not out, , 53, 152, 114, 4, 0
+1970, 2010-07-18, 1, 1, Pakistan, c Kamran Akmal, Wahab Riaz, 15, 50, 34, 3, 0
+1970, 2010-07-18, 3, 1, Pakistan, c Yasir Hameed, Mohammad Amir, 4, 3, 4, 1, 0
+1971, 2010-07-26, 1, 1, Pakistan, , Mohammad Asif, 13, 54, 37, 0, 0
+1981, 2010-10-25, 1, 1, Australia, c Hussey, Hilfenhaus, 0, 2, 3, 0, 0
+1981, 2010-10-25, 3, 1, Australia, st Haddin, North, 110, 267, 224, 15, 0
+1983, 2010-11-03, 2, 1, Australia, , Bollinger, 1, 4, 3, 0, 0
+1984, 2010-11-16, 2, 1, Australia, c Haddin, Harris, 52, 125, 102, 8, 0
+1984, 2010-11-16, 4, 1, Australia, c Ponting, Johnson, 15, 39, 35, 3, 0
+1986, 2010-11-26, 2, 1, Australia, c Hussey, Siddle, 69, 232, 167, 5, 0
+1989, 2011-01-03, 2, 1, Australia, , Hilfenhaus, 60, 92, 58, 8, 1
+1994, 2011-04-26, 2, 1, Sri Lanka, c DPMD Jayawardene, Lakmal, 20, 79, 47, 2, 0
+1995, 2011-05-03, 1, 1, Sri Lanka, lbw, Welegedara, 4, 14, 12, 1, 0
+1995, 2011-05-03, 3, 1, Sri Lanka, lbw, Welegedara, 0, 1, 2, 0, 0
+1996, 2011-05-16, 2, 1, Sri Lanka, c Paranavitana, Welegedara, 3, 10, 10, 0, 0
+2000, 2011-06-21, 1, 1, India, c Sharma, Khan, 22, 107, 83, 2, 0
+2000, 2011-06-21, 3, 1, India, lbw, Harbhajan Singh, 32, 98, 70, 4, 0
+2001, 2011-07-29, 1, 1, India, c Raina, Kumar, 32, 166, 98, 4, 0
+2001, 2011-07-29, 3, 1, India, c Dhoni, Sreesanth, 16, 84, 52, 1, 0
+2003, 2011-07-10, 2, 1, India, , Mishra, 87, 231, 176, 13, 0
+2004, 2011-07-18, 1, 1, India, c Dhoni, Sreesanth, 40, 183, 106, 5, 0

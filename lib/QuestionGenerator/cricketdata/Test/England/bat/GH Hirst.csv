@@ -1,0 +1,39 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+53, 1897-12-13, 1, 6, Australia, , Jones, 62, 100, na, 8, 1
+54, 1898-01-01, 2, 7, Australia, , Jones, 0, 3, na, 0, 0
+54, 1898-01-01, 3, 6, Australia, lbw, Trumble, 3, 7, na, 0, 0
+55, 1898-01-14, 2, 7, Australia, c Trumble, Noble, 85, 200, na, 11, 0
+55, 1898-01-14, 3, 7, Australia, lbw, McLeod, 6, 25, na, 0, 0
+57, 1898-02-26, 1, 7, Australia, , Jones, 44, 80, na, 3, 0
+57, 1898-02-26, 3, 7, Australia, c Trott, Jones, 7, 30, na, 0, 1
+60, 1899-06-01, 2, 9, Australia, , Howell, 6, na, na, na, 0
+70, 1902-05-29, 1, 7, Australia, c Armstrong, Trumper, 48, 75, na, na, 0
+72, 1902-07-03, 2, 8, Australia, c Trumble, Saunders, 8, na, na, na, 0
+72, 1902-07-03, 4, 9, Australia, , Noble, 0, na, na, 0, 0
+74, 1902-08-11, 2, 8, Australia,                c &, Trumble, 43, 45, na, 6, 0
+74, 1902-08-11, 4, 8, Australia, not out, , 58, na, na, na, 0
+78, 1903-12-11, 2, 7, Australia, , Howell, 0, 4, na, 0, 0
+78, 1903-12-11, 4, 6, Australia, not out, , 60, 135, na, 9, 0
+79, 1904-01-01, 1, 7, Australia, c Noble, Howell, 7, 18, na, 0, 0
+79, 1904-01-01, 3, 5, Australia, c Gregory, Howell, 4, 17, na, 1, 0
+80, 1904-01-15, 2, 6, Australia, c Trumper, Trumble, 58, 105, na, 8, 0
+80, 1904-01-15, 4, 7, Australia, , Trumble, 44, 65, na, 6, 0
+81, 1904-02-26, 1, 7, Australia, , Noble, 25, 51, na, 3, 0
+81, 1904-02-26, 3, 7, Australia, c Kelly, McLeod, 18, 46, na, 1, 1
+82, 1904-03-05, 2, 7, Australia, c Trumper, Cotter, 0, 5, na, 0, 0
+82, 1904-03-05, 4, 6, Australia, c McAlister, Trumble, 1, 7, na, 0, 0
+85, 1905-07-03, 1, 6, Australia, c Trumper, Laver, 35, na, na, na, 0
+85, 1905-07-03, 3, 6, Australia, not out, , 40, na, na, na, 0
+86, 1905-07-24, 1, 7, Australia, c Laver, McLeod, 25, na, na, na, 0
+87, 1905-08-14, 1, 7, Australia, c Noble, Laver, 5, na, na, na, 0
+93, 1907-07-01, 1, 6, South Africa, , Vogler, 7, na, na, 1, 0
+94, 1907-07-29, 1, 6, South Africa, c Hathorn, Sinclair, 17, 35, na, na, 0
+94, 1907-07-29, 3, 6, South Africa, , White, 2, na, na, 0, 0
+95, 1907-08-19, 1, 6, South Africa, c SJ Snooke, Schwarz, 4, na, na, 1, 0
+95, 1907-08-19, 3, 7, South Africa, hit wicket, Schwarz, 16, na, na, na, 0
+101, 1909-05-27, 2, 6, Australia, lbw, Armstrong, 15, na, na, na, 0
+102, 1909-06-14, 1, 7, Australia, , Cotter, 31, na, na, na, 0
+102, 1909-06-14, 3, 7, Australia, , Armstrong, 1, na, na, 0, 0
+103, 1909-07-01, 2, 7, Australia, , Macartney, 4, na, na, na, 0
+103, 1909-07-01, 4, 8, Australia, , Cotter, 0, na, na, 0, 0
+104, 1909-07-26, 2, 9, Australia, c Hopkins, Laver, 1, na, na, 0, 0

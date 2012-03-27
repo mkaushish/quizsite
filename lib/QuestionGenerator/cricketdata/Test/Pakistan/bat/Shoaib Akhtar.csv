@@ -1,0 +1,68 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+1389, 1997-11-29, 2, 11, West Indies, c Hooper, Walsh, 1, 8, 2, 0, 0
+1400, 1998-02-14, 2, 11, South Africa, not out, , 4, 36, 9, 0, 0
+1403, 1998-03-26, 1, 10, South Africa, c Boucher, Klusener, 6, 82, 21, 1, 0
+1403, 1998-03-26, 3, 10, South Africa, not out, , 1, 11, 1, 0, 0
+1406, 1998-03-06, 2, 10, South Africa, c Boucher, de Villiers, 0, 1, 1, 0, 0
+1406, 1998-03-06, 4, 10, South Africa, , de Villiers, 2, 24, 14, 0, 0
+1408, 1998-03-14, 2, 11, Zimbabwe, not out, , 7, 46, 25, 1, 0
+1427, 1998-10-22, 2, 11, Australia, not out, , 6, 11, 6, 1, 0
+1432, 1998-12-10, 2, 10, Zimbabwe, , Huckle, 11, 63, 41, 1, 0
+1444, 1999-02-16, 1, 10, India, lbw, Kumble, 4, 15, 14, 0, 0
+1444, 1999-02-16, 3, 11, India, , Srinath, 1, 14, 8, 0, 0
+1450, 1999-03-12, 2, 11, Sri Lanka, st +Tillakaratne, Chandana, 4, 31, 12, 1, 0
+1467, 1999-11-05, 1, 11, Australia, not out, , 0, 11, 8, 0, 0
+1467, 1999-11-05, 3, 11, Australia, , Fleming, 5, 5, 7, 0, 0
+1469, 1999-11-18, 1, 11, Australia, c Gilchrist, Fleming, 5, 4, 6, 1, 0
+1469, 1999-11-18, 3, 11, Australia, not out, , 5, 47, 16, 0, 0
+1472, 1999-11-26, 1, 10, Australia, , Kasprowicz, 0, 1, 2, 0, 0
+1472, 1999-11-26, 3, 10, Australia, c Warne, Fleming, 8, 16, 9, 0, 0
+1487, 2000-03-05, 2, 11, Sri Lanka, c Atapattu, Wickramasinghe, 5, 21, 13, 1, 0
+1487, 2000-03-05, 4, 11, Sri Lanka, not out, , 4, 4, 1, 1, 0
+1489, 2000-03-12, 1, 9, Sri Lanka, c Pushpakumara, Muralitharan, 26, 60, 57, 2, 2
+1489, 2000-03-12, 3, 5, Sri Lanka, lbw, Vaas, 0, 45, 42, 0, 0
+1546, 2001-04-17, 2, 11, England, , Gough, 0, 1, 1, 0, 0
+1546, 2001-04-17, 3, 11, England, not out, , 2, 19, 14, 0, 0
+1586, 2002-01-16, 2, 10, Bangladesh, c Sanwar Hossain, Manjural Islam, 2, 13, 10, 0, 0
+1587, 2002-01-31, 1, 10, West Indies, , Gayle, 20, 21, 20, 2, 1
+1588, 2002-01-07, 1, 10, West Indies,                c &, Cuffy, 4, 8, 10, 0, 0
+1592, 2002-02-06, 1, 10, Sri Lanka, lbw, Muralitharan, 15, 34, 31, 2, 0
+1592, 2002-02-06, 3, 10, Sri Lanka, not out, , 4, 41, 25, 0, 0
+1600, 2002-04-01, 1, 10, New Zealand, st Hart, Walker, 37, 63, 55, 4, 2
+1615, 2002-09-03, 2, 10, Australia, c McGrath, Warne, 5, 20, 16, 1, 0
+1615, 2002-09-03, 4, 10, Australia, lbw, McGrath, 6, 8, 7, 0, 0
+1617, 2002-09-11, 1, 9, Australia, c Gilchrist, Bichel, 1, 22, 17, 0, 0
+1617, 2002-09-11, 3, 9, Australia, c SR Waugh, Warne, 2, 9, 3, 0, 0
+1625, 2002-10-09, 1, 10, Zimbabwe, c GW Flower, Blignaut, 1, 10, 7, 0, 0
+1625, 2002-10-09, 3, 10, Zimbabwe, c Taibu, Olonga, 16, 17, 12, 2, 1
+1627, 2002-10-16, 2, 11, Zimbabwe, not out, , 9, 6, 6, 1, 0
+1655, 2003-07-20, 2, 8, Bangladesh, , Mohammad Rafique, 1, 16, 13, 0, 0
+1657, 2003-07-27, 2, 8, Bangladesh, , Khaled Mahmud, 15, 12, 13, 0, 2
+1664, 2003-09-17, 2, 8, South Africa, st Boucher, Adams, 1, 12, 11, 0, 0
+1677, 2003-11-26, 2, 9, New Zealand, , Butler, 0, 3, 3, 0, 0
+1693, 2004-03-28, 2, 10, India,                c &, Tendulkar, 0, 2, 2, 0, 0
+1693, 2004-03-28, 3, 10, India, c Laxman, Kumble, 4, 54, 42, 1, 0
+1695, 2004-03-05, 2, 9, India, c Yuvraj Singh, Kumble, 19, 89, 75, 1, 0
+1697, 2004-03-13, 1, 9, India, , Balaji, 0, 1, 2, 0, 0
+1697, 2004-03-13, 3, 9, India, c Nehra, Kumble, 28, 20, 14, 4, 2
+1716, 2004-09-20, 2, 10, Sri Lanka, lbw, Herath, 9, 33, 34, 0, 0
+1716, 2004-09-20, 4, 10, Sri Lanka, st Kaluwitharana, Herath, 12, 24, 12, 1, 1
+1726, 2004-11-16, 2, 10, Australia, c Warne, McGrath, 27, 105, 97, 3, 0
+1726, 2004-11-16, 4, 9, Australia, c Lehmann, McGrath, 1, 34, 21, 0, 0
+1729, 2004-11-26, 1, 10, Australia, st Gilchrist, Warne, 0, 3, 4, 0, 0
+1729, 2004-11-26, 3, 10, Australia, , McGrath, 14, 21, 18, 0, 2
+1731, 2005-01-02, 1, 9, Australia, , McGrath, 0, 4, 5, 0, 0
+1731, 2005-01-02, 3, 9, Australia, c Martyn, Warne, 0, 7, 4, 0, 0
+1770, 2005-10-12, 1, 9, England, not out, , 10, 45, 27, 1, 0
+1770, 2005-10-12, 3, 9, England, c Bell, Giles, 11, 58, 46, 1, 1
+1772, 2005-10-20, 1, 10, England, c Flintoff, Harmison, 12, 34, 29, 0, 2
+1772, 2005-10-20, 3, 9, England, c Jones, Hoggard, 14, 65, 60, 1, 0
+1774, 2005-11-29, 2, 7, England, c Udal, Plunkett, 38, 96, 81, 4, 2
+1782, 2006-01-21, 1, 9, India, c Harbhajan Singh, Khan, 47, 78, 54, 5, 3
+1782, 2006-01-21, 3, 8, India, not out, , 0, 4, 0, 0, 0
+1783, 2006-01-29, 1, 9, India, c Yuvraj Singh, Pathan, 45, 106, 60, 8, 1
+1829, 2007-01-19, 2, 9, South Africa, c Boucher, Kallis, 4, 31, 16, 1, 0
+1849, 2007-10-22, 1, 9, India, , Kumble, 2, 6, 7, 0, 0
+1849, 2007-10-22, 3, 10, India, not out, , 0, 5, 0, 0, 0
+1850, 2007-11-30, 2, 10, India, c Dravid, Harbhajan Singh, 0, 13, 9, 0, 0
+1852, 2007-11-08, 2, 10, India, c Gambhir, Sharma, 1, 9, 5, 0, 0

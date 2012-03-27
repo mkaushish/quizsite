@@ -1,0 +1,126 @@
+
+Test # 171
+England in South Africa, 1927/28, 4th Test
+South Africa v England
+Old Wanderers, Johannesburg
+28,30,31 January, 1 February 1928 (4-day match)
+
+Result: South Africa won by 4 wickets
+Series: England leads the 5-match series 2-1
+
+Toss: South Africa
+Umpires: ES Page and GA Verheyen
+
+Close of play:
+ Day 1: England 233/7 (Peebles 19*, Staples 24*)
+ Day 2: England 265, South Africa 328
+ Day 3: England 215, South Africa 55/1 (Nicolson 20*, Morkel 15*)
+
+England 1st innings                                             R   M   B  4 6
+P Holmes                                 b Bissett              1          0 0
+H Sutcliffe           lbw                b Hall                37            0
+GE Tyldesley          lbw                b Bissett             42            0
+WR Hammond            c Cameron          b Hall                28            0
+RES Wyatt             c Cameron          b Hall                58            0
+GTS Stevens           c Vincent          b Hall                14            0
+WE Astill             c Hall             b Bissett              3          0 0
+IAR Peebles           c Deane            b Hall                26            0
+SJ Staples                               b Bissett             39            0
+*+RT Stanyforth                          b Hall                 1          0 0
+AP Freeman            not out                                   9            0
+Extras                (lb 5, nb 2)                              7
+Total                 (all out, 125.4 overs)                  265
+
+FoW: 1-6 (Holmes), 2-83 (Tyldesley), 3-83 (Sutcliffe),
+     4-136 (Hammond), 5-167 (Stevens), 6-174 (Astill),
+     7-198 (Wyatt), 8-253 (Staples), 9-254 (Stanyforth),
+     10-265 (Peebles).
+
+Bowling                      O      M      R      W
+Bissett                     23      5     43      4
+Hall                        42.4    9    100      6
+Nupen                       38      8     52      0
+Vincent                     20      2     54      0
+Duminy                       2      0      9      0
+
+South Africa 1st innings                                        R   M   B  4 6
+HW Taylor                                b Hammond            101 145        0
+JP Duminy             c Stevens          b Hammond              7            0
+DPB Morkel                               b Hammond              0          0 0
+JFW Nicolson                             b Staples             13            0
+RH Catterall          c Stanyforth       b Astill              39            0
++HB Cameron                          c & b Astill              64            0
+*HG Deane                            c & b Wyatt               39            0
+EP Nupen              c Stanyforth       b Staples              0          0 0
+CL Vincent            not out                                  26            1
+GF Bissett            c Stevens          b Freeman             23            0
+AE Hall               c Stanyforth       b Staples              5            0
+Extras                (b 8, lb 3)                              11
+Total                 (all out, 92.3 overs)                   328
+
+FoW: 1-33 (Duminy), 2-33 (Morkel), 3-62 (Nicolson),
+     4-152 (Catterall), 5-170 (Taylor), 6-259 (Deane),
+     7-268 (Nupen), 8-268 (Cameron), 9-313 (Bissett),
+     10-328 (Hall).
+
+Bowling                      O      M      R      W
+Hammond                     22      4     62      3
+Wyatt                       11      0     44      1
+Staples                     32.3    7     81      3
+Peebles                     12      0     48      0
+Freeman                      3      0     18      1
+Astill                      11      0     55      2
+Stevens                      1      0      9      0
+
+England 2nd innings                                             R   M   B  4 6
+P Holmes                                 b Vincent             63            0
+H Sutcliffe           c Vincent          b Bissett              3          0 0
+GE Tyldesley          c Morkel           b Nupen                8            0
+WR Hammond            lbw                b Vincent             25            0
+RES Wyatt             lbw                b Bissett             39            0
+GTS Stevens           c Deane            b Bissett             20            0
+WE Astill             c Duminy           b Bissett             17            0
+IAR Peebles           lbw                b Hall                 7            0
+SJ Staples                               b Hall                 6            0
+*+RT Stanyforth       not out                                   6            0
+AP Freeman            lbw                b Hall                 4            0
+Extras                (b 16, lb 1)                             17
+Total                 (all out, 72 overs)                     215
+
+FoW: 1-21 (Sutcliffe), 2-83 (Holmes), 3-83 (Tyldesley),
+     4-141 (Hammond), 5-172 (Stevens), 6-185 (Wyatt),
+     7-192 (Astill), 8-198 (Peebles), 9-209 (Staples),
+     10-215 (Freeman).
+
+Bowling                      O      M      R      W
+Bissett                     17      1     70      4
+Hall                        26      6     67      3
+Nupen                       19      4     39      1
+Vincent                     10      5     22      2
+
+South Africa 2nd innings (target: 153 runs)                     R   M   B  4 6
+HW Taylor             c Stanyforth       b Hammond              6            0
+JFW Nicolson          c Hammond          b Staples             28            0
+DPB Morkel            lbw                b Staples             45            0
+JP Duminy                                b Freeman              5            0
+RH Catterall          lbw                b Staples             23            0
++HB Cameron           c Wyatt            b Astill              18            0
+*HG Deane             not out                                   8            0
+EP Nupen              not out                                   4            0
+Extras                (b 16, lb 3)                             19
+Total                 (6 wickets, 49.2 overs)                 156
+
+DNB: CL Vincent, GF Bissett, AE Hall.
+
+FoW: 1-14 (Taylor), 2-85 (Nicolson), 3-98 (Morkel),
+     4-124 (Catterall), 5-126 (Duminy), 6-151 (Cameron).
+
+Bowling                      O      M      R      W
+Hammond                      9      3     20      1
+Wyatt                        2      0      6      0
+Staples                     21      1     67      3
+Freeman                     13      2     34      1
+Astill                       3.2    1     10      1
+Stevens                      1      1      0      0
+
+<END>

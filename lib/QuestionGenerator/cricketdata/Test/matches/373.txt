@@ -1,0 +1,132 @@
+
+Test # 373
+The Ashes, 1953, 2nd Test
+England v Australia
+Lord's, London
+25,26,27,29,30 June 1953 (5-day match)
+
+Result: Match drawn
+Series: 5-match series level 0-0
+
+Toss: Australia
+Umpires: HG Baldwin and FS Lee
+
+Close of play:
+ Day 1: Australia 263/5 (Davidson 17*, Ring 10*)
+ Day 2: Australia 346, England 177/1 (Hutton 83*, Graveney 78*)
+ Day 3: England 372, Australia 96/1 (Morris 35*, Miller 58*)
+ Day 4: Australia 368, England 20/3 (Compton 5*, Watson 3*)
+
+Australia 1st innings                                           R   M   B  4 6
+*AL Hassett           c Bailey           b Bedser             104 296     11 0
+AR Morris             st Evans           b Bedser              30  80        0
+RN Harvey             lbw                b Bedser              59 179        0
+KR Miller                                b Wardle              25  60        1
+GB Hole               c Compton          b Wardle              13  45        0
+R Benaud              lbw                b Wardle               0   5      0 0
+AK Davidson           c Statham          b Bedser              76 161     13 1
+DT Ring               lbw                b Wardle              18            0
+RR Lindwall                              b Statham              9  50        0
++GRA Langley          c Watson           b Bedser               1   5      0 0
+WA Johnston           not out                                   3          0 0
+Extras                (b 4, lb 4)                               8
+Total                 (all out, 140.4 overs)                  346
+
+FoW: 1-65 (Morris), 2-190 (Harvey), 3-225 (Miller),
+     4-229 (Benaud), 5-240 (Hole), 6-280 (Ring), 7-291 (Hassett),
+     8-330 (Lindwall), 9-331 (Langley), 10-346 (Davidson).
+
+Bowling                      O      M      R      W
+Bedser                      42.4    8    105      5
+Statham                     28      7     48      1
+Brown                       25      7     53      0
+Bailey                      16      2     55      0
+Wardle                      29      8     77      4
+
+England 1st innings                                             R   M   B  4 6
+*L Hutton             c Hole             b Johnston           145 315     16 0
+D Kenyon              c Davidson         b Lindwall             3  10      0 0
+TW Graveney                              b Lindwall            78 208     12 0
+DCS Compton           c Hole             b Benaud              57 133      9 0
+W Watson              st Langley         b Johnston             4          1 0
+TE Bailey                            c & b Miller               2  50      0 0
+FR Brown              c Langley          b Lindwall            22  18      4 0
++TG Evans                                b Lindwall             0   1   1  0 0
+JH Wardle                                b Davidson            23            0
+AV Bedser                                b Lindwall             1          0 0
+JB Statham            not out                                  17  25        0
+Extras                (b 11, lb 1, w 1, nb 7)                  20
+Total                 (all out, 126.5 overs)                  372
+
+FoW: 1-9 (Kenyon), 2-177 (Graveney), 3-279 (Hutton),
+     4-291 (Watson), 5-301 (Compton), 6-328 (Brown),
+     7-328 (Evans), 8-332 (Bailey), 9-341 (Bedser),
+     10-372 (Wardle).
+
+Bowling                      O      M      R      W
+Lindwall                    23      4     66      5
+Miller                      25      6     57      1
+Johnston                    35     11     91      2
+Ring                        14      2     43      0
+Benaud                      19      4     70      1
+Davidson                    10.5    2     25      1
+
+Australia 2nd innings                                           R   M   B  4 6
+*AL Hassett           c Evans            b Statham              3          0 0
+AR Morris             c Statham          b Compton             89 210     13 0
+KR Miller                                b Wardle             109 292     14 1
+RN Harvey                                b Bedser              21  67        0
+GB Hole               lbw                b Brown               47 104        0
+R Benaud              c Graveney         b Bedser               5            0
+AK Davidson                          c & b Brown               15            0
+DT Ring               lbw                b Brown                7            0
+RR Lindwall                              b Bedser              50  45      8 2
++GRA Langley                             b Brown                9  30        0
+WA Johnston           not out                                   0          0 0
+Extras                (b 8, lb 5)                              13
+Total                 (all out, 132.5 overs)                  368
+
+FoW: 1-3 (Hassett), 2-168 (Morris), 3-227 (Harvey),
+     4-235 (Miller), 5-248 (Benaud), 6-296 (Davidson),
+     7-305 (Hole), 8-308 (Ring), 9-362 (Langley),
+     10-368 (Lindwall).
+
+Bowling                      O      M      R      W
+Bedser                      31.5    8     77      3
+Statham                     15      3     40      1
+Brown                       27      4     82      4
+Bailey                      10      4     24      0
+Wardle                      46     18    111      1
+Compton                      3      0     21      1
+
+England 2nd innings (target: 343 runs)                          R   M   B  4 6
+*L Hutton             c Hole             b Lindwall             5            0
+D Kenyon              c Hassett          b Lindwall             2  10      0 0
+TW Graveney           c Langley          b Johnston             2          0 0
+DCS Compton           lbw                b Johnston            33 100        0
+W Watson              c Hole             b Ring               109 346     16 0
+TE Bailey             c Benaud           b Ring                71 257     11 0
+FR Brown              c Hole             b Benaud              28  35      4 0
++TG Evans             not out                                  11            0
+JH Wardle             not out                                   0   2   4  0 0
+Extras                (b 7, lb 6, w 2, nb 6)                   21
+Total                 (7 wickets, 126 overs)                  282
+
+DNB: AV Bedser, JB Statham.
+
+FoW: 1-6 (Kenyon), 2-10 (Hutton), 3-12 (Graveney),
+     4-73 (Compton), 5-236 (Watson), 6-246 (Bailey),
+     7-282 (Brown).
+
+Bowling                      O      M      R      W
+Lindwall                    19      3     26      2
+Miller                      17      8     17      0
+Johnston                    29     10     70      2
+Ring                        29      5     84      2
+Benaud                      17      6     51      1
+Davidson                    14      5     13      0
+Hole                         1      1      0      0
+
+*** AL Hassett (1) retired hurt on 101* from 201/2 to 280/6
+
+<END>

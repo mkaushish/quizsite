@@ -1,0 +1,109 @@
+
+Test # 16
+The Ashes, 1884, 3rd Test
+England v Australia
+Kennington Oval, London
+11,12,13 August 1884 (3-day match)
+
+Result: Match drawn
+Series: England wins the 3-match series 1-0
+
+Toss: Australia
+Umpires: FH Farrands and CK Pullin
+Balls per over: 4
+
+Close of play:
+ Day 1: Australia 363/2 (Murdoch 145*, Scott 101*)
+ Day 2: Australia 551, England 71/2 (Scotton 21*, Shrewsbury 6*)
+
+Australia 1st innings                                           R   M   B  4 6
+AC Bannerman          c Read             b Peate                4       8  1 0
+PS McDonnell          c Ulyett           b Peate              103     168 14 0
+*WL Murdoch           c Peate            b Barnes             211 490 525 24 0
+HJH Scott             c Lyttelton        b Barnes             102 210 216 15 0
+G Giffen              c Steel            b Ulyett              32      94  2 0
+GJ Bonnor             c Read             b Grace                8      29  0 0
+WE Midwinter          c +Grace           b Lyttelton           30      94  4 0
++JM Blackham          lbw                b Lyttelton           31      65  3 0
+GE Palmer             not out                                   8      31  0 0
+FR Spofforth                             b Lyttelton            4       9  1 0
+HF Boyle              c Harris           b Lyttelton            1       5  0 0
+Extras                (b 7, lb 10)                             17
+Total                 (all out, 311 overs)                    551
+
+FoW: 1-15 (Bannerman), 2-158 (McDonnell), 3-365 (Scott),
+     4-432 (Giffen), 5-454 (Bonnor), 6-494 (Murdoch),
+     7-532 (Midwinter), 8-545 (Blackham), 9-549 (Spofforth),
+     10-551 (Boyle).
+
+Bowling                      O      M      R      W
+Peate                       63     25     99      2
+Ulyett                      56     24     96      1
+Steel                       34      7     71      0
+Barnes                      52     25     81      2
+Barlow                      50     22     72      0
+Grace                       24     14     23      1
+Read                         7      0     36      0
+Scotton                      5      1     20      0
+Harris                       5      1     15      0
+Lyttelton                   12      5     19      4
+Shrewsbury                   3      2      2      0
+
+England 1st innings                                             R   M   B  4 6
+WG Grace              run out                                  19      32  3 0
+WH Scotton            c Scott            b Giffen              90 340 375  9 0
+W Barnes              c Midwinter        b Spofforth           19      31  2 0
+A Shrewsbury snr      c Blackham         b Midwinter           10      33  2 0
+AG Steel              lbw                b Palmer              31      73  3 0
+G Ulyett              c Bannerman        b Palmer              10      31  0 0
+RG Barlow             c Murdoch          b Palmer               0       1  0 0
+*Lord Harris          lbw                b Palmer              14      35  1 0
++Hon.A Lyttelton                         b Spofforth            8      27  0 0
+WW Read                                  b Boyle              117 120 155 20 0
+E Peate               not out                                   4       2  1 0
+Extras                (b 8, lb 7, w 6, nb 3)                   24
+Total                 (all out, 198 overs)                    346
+
+FoW: 1-32 (Grace), 2-60 (Barnes), 3-75 (Shrewsbury),
+     4-120 (Steel), 5-136 (Ulyett), 6-136 (Barlow),
+     7-160 (Harris), 8-181 (Lyttelton), 9-332 (Scotton),
+     10-346 (Read).
+
+Bowling                      O      M      R      W
+Bonnor                      13      4     33      0
+Palmer                      54     19     90      4
+Spofforth                   58     31     81      2
+Boyle                       13      7     24      1
+Midwinter                   31     16     41      1
+Giffen                      26     13     36      1
+Scott                        3      0     17      0
+
+England 2nd innings (following on)                              R   M   B  4 6
+RG Barlow             not out                                  21      46  2 0
++Hon.A Lyttelton                         b Boyle               17      13  1 0
+A Shrewsbury snr      c Scott            b Giffen              37      33  8 0
+*Lord Harris          not out                                   6      12  0 0
+Extras                (b 3, lb 1)                               4
+Total                 (2 wickets, 26 overs)                    85
+
+DNB: WG Grace, WH Scotton, W Barnes, AG Steel, G Ulyett, WW Read,
+     E Peate.
+
+FoW: 1-22 (Lyttelton), 2-73 (Shrewsbury).
+
+Bowling                      O      M      R      W
+Palmer                       2      1      2      0
+Spofforth                    6      2     14      0
+Boyle                        8      1     32      1
+Midwinter                    3      0     15      0
+Giffen                       7      1     18      1
+
+*** WL Murdoch scored the first double-century in Test cricket. His stand
+    with Scott of 207 was a Test record for any wicket.
+*** WW Read reached his hundred in 113 minutes with 36 scoring strokes.
+*** For the first time in Test cricket all eleven players bowled during
+    Australia's innings, Grace keeping wicket while Lyttelton took four
+    wickets with lobs.
+*** Declarations were not permitted until 1889.
+
+<END>

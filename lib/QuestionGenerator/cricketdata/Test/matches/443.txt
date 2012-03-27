@@ -1,0 +1,96 @@
+
+Test # 443
+West Indies in England, 1957, 5th Test
+England v West Indies
+Kennington Oval, London
+22,23,24 August 1957 (5-day match)
+
+Result: England won by an innings and 237 runs
+Series: England wins the 5-match series 3-0
+
+Toss: England
+Umpires: DE Davies and FS Lee
+
+Close of play:
+ Day 1: England 283/5 (Graveney 113*, Evans 15*)
+ Day 2: England 412, West Indies 89
+
+England 1st innings                                             R   M   B  4 6
+PE Richardson                            b Smith              107 298     10 0
+Rev.DS Sheppard                      c & b Goddard             40 150      4 0
+TW Graveney                              b Ramadhin           164 325     17 0
+*PBH May              c Worrell          b Smith                1   7      0 0
+MC Cowdrey                               b Ramadhin             2  25      0 0
+TE Bailey             run out                                   0   4      0 0
++TG Evans             c Weekes           b Dewdney             40  55      5 0
+GAR Lock              c Alexander        b Sobers              17  43      4 0
+FS Trueman                               b Ramadhin            22  28      3 0
+JC Laker              not out                                  10  12      1 0
+PJ Loader             lbw                b Ramadhin             0   2      0 0
+Extras                (b 1, lb 8)                               9
+Total                 (all out, 176.3 overs)                  412
+
+FoW: 1-92 (Sheppard), 2-238 (Richardson), 3-242 (May),
+     4-255 (Cowdrey), 5-256 (Bailey), 6-322 (Evans),
+     7-366 (Lock), 8-399 (Trueman), 9-412 (Graveney),
+     10-412 (Loader).
+
+Bowling                      O      M      R      W
+Worrell                     11      3     26      0
+Dewdney                     15      2     43      1
+Ramadhin                    53.3   12    107      4
+Sobers                      44      6    111      1
+Goddard                     23     10     43      1
+Smith                       30      4     73      2
+
+West Indies 1st innings                                         R   M   B  4 6
+FMM Worrell           c Lock             b Loader               4  29      0 0
+NS Asgarali           c Cowdrey          b Lock                29 145      2 0
+GS Sobers                                b Lock                39 135      6 0
+CL Walcott                               b Laker                5   7      0 0
+ED Weekes             c Trueman          b Laker                0   1      0 0
+OG Smith              c May              b Laker                7  10      1 0
+RB Kanhai             not out                                   4  15      1 0
++FCM Alexander                           b Lock                 0   2      0 0
+DT Dewdney                               b Lock                 0   4      0 0
+S Ramadhin            c Trueman          b Lock                 0   2      0 0
+*JDC Goddard          absent hurt                               -
+Extras                (nb 1)                                    1
+Total                 (all out, 56.4 overs)                    89
+
+FoW: 1-7 (Worrell), 2-68 (Asgarali), 3-73 (Walcott),
+     4-73 (Weekes), 5-85 (Smith), 6-89 (Sobers),
+     7-89 (Alexander), 8-89 (Dewdney), 9-89 (Ramadhin).
+
+Bowling                      O      M      R      W
+Trueman                      5      1      9      0
+Loader                       7      4     12      1
+Laker                       23     12     39      3
+Lock                        21.4   12     28      5
+
+West Indies 2nd innings (following on)                          R   M   B  4 6
+RB Kanhai             c Evans            b Trueman              8  11      2 0
+NS Asgarali                              b Lock                 7  47      0 0
+GS Sobers                                b Lock                42  99      5 0
+FMM Worrell           c Cowdrey          b Lock                 0  13      0 0
+CL Walcott            not out                                  19  75      3 0
+ED Weekes                                b Lock                 0   7      0 0
+OG Smith              c Sheppard         b Lock                 0   1      0 0
++FCM Alexander                           b Laker                0   5      0 0
+DT Dewdney            st Evans           b Lock                 1   4      0 0
+S Ramadhin                               b Laker                2   6      0 0
+*JDC Goddard          absent hurt                               -
+Extras                (b 4, lb 2, nb 1)                         7
+Total                 (all out, 41 overs)                      86
+
+FoW: 1-10 (Kanhai), 2-39 (Asgarali), 3-43 (Worrell),
+     4-69 (Sobers), 5-69 (Weekes), 6-69 (Smith),
+     7-70 (Alexander), 8-75 (Dewdney), 9-86 (Ramadhin).
+
+Bowling                      O      M      R      W
+Trueman                      5      2     19      1
+Loader                       3      2      2      0
+Laker                       17      4     38      2
+Lock                        16      7     20      6
+
+<END>

@@ -1,0 +1,57 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+1478, 1999-12-26, 1, 3, West Indies, , King, 214, 534, 447, 22, 0
+1488, 2000-03-11, 2, 3, Australia, lbw, Warne, 8, 27, 24, 1, 0
+1488, 2000-03-11, 4, 3, Australia, lbw, Miller, 6, 12, 11, 1, 0
+1491, 2000-03-24, 1, 3, Australia, lbw, Miller, 4, 37, 25, 1, 0
+1491, 2000-03-24, 3, 3, Australia, , Lee, 0, 3, 3, 0, 0
+1493, 2000-03-31, 1, 3, Australia, c Warne, Lee, 19, 45, 32, 2, 0
+1493, 2000-03-31, 3, 3, Australia, lbw, Miller, 24, 83, 62, 2, 0
+1510, 2000-08-12, 2, 3, Zimbabwe, lbw, PA Strang, 12, 63, 43, 1, 0
+1510, 2000-08-12, 4, 2, Zimbabwe, not out, , 43, 170, 119, 2, 1
+1511, 2000-08-19, 1, 3, Zimbabwe, c Carlisle, Olonga, 44, 129, 78, 8, 0
+1511, 2000-08-19, 4, 3, Zimbabwe, not out, , 35, 53, 44, 4, 0
+1514, 2000-10-17, 2, 3, South Africa, c Cullinan, Pollock, 1, 13, 6, 0, 0
+1514, 2000-10-17, 3, 3, South Africa, c Klusener, Donald, 20, 102, 72, 2, 0
+1519, 2000-11-30, 1, 3, South Africa, c Kirsten, Donald, 150, 397, 321, 23, 1
+1519, 2000-11-30, 3, 3, South Africa, lbw, Boje, 17, 80, 44, 3, 0
+1522, 2000-11-08, 1, 3, South Africa, c Klusener, Pollock, 24, 65, 39, 5, 0
+1524, 2000-11-26, 1, 3, Zimbabwe, lbw, Strang, 9, 38, 29, 2, 0
+1524, 2000-11-26, 3, 2, Zimbabwe, c Flower, Murphy, 18, 56, 30, 3, 0
+1533, 2001-02-08, 2, 3, Pakistan, c Imran Farhat, Mohammad Sami, 34, 165, 115, 4, 0
+1533, 2001-02-08, 4, 4, Pakistan, c Yousuf Youhana, Mohammad Sami, 10, 65, 47, 1, 0
+1536, 2001-02-15, 1, 3, Pakistan, not out, , 204, 520, 348, 27, 2
+1536, 2001-02-15, 3, 3, Pakistan, not out, , 50, 169, 145, 4, 0
+1540, 2001-02-27, 2, 3, Pakistan, c Waqar Younis, Fazl-e-Akbar, 27, 104, 76, 1, 0
+1565, 2001-10-08, 2, 3, Australia, c Ponting, Lee, 3, 61, 43, 0, 0
+1565, 2001-10-08, 4, 3, Australia, st Gilchrist, Warne, 23, 75, 65, 0, 0
+1571, 2001-10-22, 2, 3, Australia, , Gillespie, 23, 50, 40, 2, 0
+1573, 2001-11-30, 1, 3, Australia, lbw, McGrath, 2, 6, 5, 0, 0
+1573, 2001-11-30, 3, 3, Australia, c Gilchrist, McGrath, 29, 73, 54, 2, 1
+1577, 2001-11-18, 1, 3, Bangladesh, c Khaled Mashud, Manjural Islam, 7, 25, 18, 0, 0
+1579, 2001-11-26, 2, 6, Bangladesh, not out, , 19, 40, 23, 2, 0
+1641, 2003-03-25, 1, 4, Sri Lanka, c Sangakkara, Dharmasena, 17, 82, 57, 1, 0
+1641, 2003-03-25, 3, 3, Sri Lanka, c sub (TM Dilshan), Muralitharan, 1, 10, 11, 0, 0
+1644, 2003-04-03, 1, 4, Sri Lanka, lbw, Vaas, 3, 15, 11, 0, 0
+1644, 2003-04-03, 3, 4, Sri Lanka, st Kaluwitharana, Muralitharan, 0, 6, 6, 0, 0
+1692, 2004-02-26, 1, 4, South Africa, lbw, Boje, 74, 223, 181, 8, 2
+1692, 2004-02-26, 3, 4, South Africa, lbw, Pollock, 21, 54, 41, 4, 0
+1715, 2004-09-19, 2, 2, Bangladesh, lbw, Mohammad Rafique, 76, 203, 173, 10, 0
+1717, 2004-09-26, 1, 2, Bangladesh, , Mohammad Rafique, 23, 54, 34, 4, 0
+1721, 2004-10-18, 1, 2, Australia, c Ponting, Gillespie, 69, 229, 163, 9, 0
+1721, 2004-10-18, 3, 2, Australia, lbw, McGrath, 0, 15, 10, 0, 0
+1723, 2004-10-26, 2, 2, Australia, c Warne, Gillespie, 0, 15, 10, 0, 0
+1723, 2004-10-26, 4, 2, Australia, lbw, Gillespie, 2, 17, 12, 0, 0
+1820, 2006-11-07, 2, 3, Sri Lanka, c HAPW Jayawardene, Vaas, 36, 100, 84, 5, 0
+1820, 2006-11-07, 4, 3, Sri Lanka, c Sangakkara, Muralitharan, 4, 22, 18, 0, 0
+1822, 2006-11-15, 2, 3, Sri Lanka, , Malinga, 6, 72, 43, 0, 0
+1822, 2006-11-15, 4, 3, Sri Lanka, c DPMD Jayawardene, Muralitharan, 37, 125, 87, 3, 0
+1859, 2008-01-04, 2, 5, Bangladesh, lbw, Mashrafe Mortaza, 29, 68, 41, 5, 0
+1861, 2008-01-12, 2, 5, Bangladesh, c Mushfiqur Rahim, Shahadat Hossain, 47, 121, 81, 7, 0
+1866, 2008-02-05, 1, 4, England,                c &, Collingwood, 8, 39, 37, 1, 0
+1866, 2008-02-05, 3, 4, England, c Cook, Sidebottom, 2, 21, 9, 0, 0
+1867, 2008-02-13, 2, 4, England, c Ambrose, Anderson, 9, 40, 25, 1, 0
+1867, 2008-02-13, 4, 4, England, c Bell, Anderson, 39, 75, 51, 7, 0
+1868, 2008-02-22, 2, 4, England, c Broad, Sidebottom, 7, 37, 31, 1, 0
+1868, 2008-02-22, 4, 4, England, c Ambrose, Broad, 6, 40, 36, 1, 0
+1957, 2010-02-27, 2, 3, Australia, , Johnson, 11, 70, 53, 1, 0
+1957, 2010-02-27, 4, 3, Australia, lbw, Clarke, 29, 103, 82, 4, 0

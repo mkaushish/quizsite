@@ -1,0 +1,131 @@
+
+Test # 670
+Australia in South Africa, 1969/70, 1st Test
+South Africa v Australia
+Newlands, Cape Town
+22,23,24,26,27 January 1970 (5-day match)
+
+Result: South Africa won by 170 runs
+Series: South Africa leads the 4-match series 1-0
+
+Toss: South Africa
+Umpires: G Goldman and WW Wade
+Test debuts: GA Chevalier, D Gamsy, BL Irvine, BA Richards (South Africa).
+
+Close of play:
+ Day 1: South Africa 254/4 (Barlow 66*, Irvine 31*)
+ Day 2: South Africa 382, Australia 108/6 (Walters 58*, McKenzie 0*)
+ Day 3: Australia 164, South Africa 179/6 (Procter 23*, Gamsy 0*)
+ Day 4: South Africa 232, Australia 181/5 (Redpath 19*, Taber 9*)
+
+South Africa 1st innings                                        R   M   B  4 6
+BA Richards                              b Connolly            29 129  87  4 0
+TL Goddard            c Taber            b Walters             16  37  43  2 0
+*A Bacher             lbw                b Connolly            57 114 116  8 0
+RG Pollock            c Chappell         b Walters             49 136 134  7 1
+EJ Barlow             c Chappell         b Gleeson            127 360 322 11 1
+BL Irvine             c Gleeson          b Mallett             42 122 111  3 0
+MJ Procter                               b Mallett             22  67  68  2 0
++D Gamsy              not out                                  30  89  96  2 0
+PM Pollock            lbw                b Mallett              1  13  20  0 0
+MA Seymour            c Lawry            b Mallett              0   6   3  0 0
+GA Chevalier          c Chappell         b Mallett              0   8   5  0 0
+Extras                (b 2, lb 5, nb 2)                         9
+Total                 (all out, 167.1 overs)                  382
+
+FoW: 1-21 (Goddard), 2-96 (Richards), 3-111 (Bacher),
+     4-187 (RG Pollock), 5-281 (Irvine), 6-323 (Procter),
+     7-363 (Barlow), 8-364 (PM Pollock), 9-374 (Seymour),
+     10-382 (Chevalier).
+
+Bowling                      O      M      R      W
+McKenzie                    30      8     74      0
+Connolly                    29     12     62      2
+Walters                      8      1     19      2
+Gleeson                     45     17     92      1
+Mallett                     55.1   16    126      5
+
+Australia 1st innings                                           R   M   B  4 6
+KR Stackpole          c Barlow           b Procter             19  71  53  1 0
+*WM Lawry                                b PM Pollock           2  16   8  0 0
+IM Chappell           c Chevalier        b PM Pollock           0   2   4  0 0
+KD Walters            c Irvine           b PM Pollock          73 187 148  4 1
+IR Redpath            c Barlow           b Procter              0   6   4  0 0
+AP Sheahan            c Barlow           b Chevalier            8  29  20  2 0
++HB Taber             lbw                b Seymour             11  41  43  2 0
+GD McKenzie           c RG Pollock       b PM Pollock           5  39  28  1 0
+AA Mallett            c Goddard          b Chevalier           19  60  42  3 0
+JW Gleeson                               b Goddard             17  47  49  2 0
+AN Connolly           not out                                   0   2   1  0 0
+Extras                (b 1, nb 9)                              10
+Total                 (all out, 66.4 overs)                   164
+
+FoW: 1-5 (Lawry), 2-5 (Chappell), 3-38 (Stackpole),
+     4-39 (Redpath), 5-58 (Sheahan), 6-92 (Taber),
+     7-123 (McKenzie), 8-134 (Walters), 9-164 (Mallett),
+     10-164 (Gleeson).
+
+Bowling                      O      M      R      W
+Procter                     12      4     30      2
+PM Pollock                  12      4     20      4
+Goddard                     19.4    9     29      1
+Chevalier                   11      2     32      2
+Seymour                     11      2     28      1
+Barlow                       1      0     15      0
+
+South Africa 2nd innings                                        R   M   B  4 6
+BA Richards           c Taber            b Connolly            32  60  44  5 0
+TL Goddard            c Lawry            b Mallett             17  58  57  1 0
+*A Bacher             lbw                b Gleeson             16  54  36  1 0
+RG Pollock            c Walters          b Connolly            50 131 130  8 0
+EJ Barlow             c Taber            b Gleeson             16  51  54  2 0
+BL Irvine             c Walters          b Connolly            19  71  70  3 0
+MJ Procter            c Taber            b Connolly            48 104  94  5 0
++D Gamsy              c Taber            b Gleeson              2  28  23  0 0
+PM Pollock                               b Gleeson             25  55  51  2 1
+MA Seymour            c Lawry            b Connolly             0   7  10  0 0
+GA Chevalier          not out                                   0   8   7  0 0
+Extras                (b 1, lb 4, nb 2)                         7
+Total                 (all out, 96 overs)                     232
+
+FoW: 1-52 (Goddard), 2-52 (Richards), 3-91 (Bacher),
+     4-121 (Barlow), 5-147 (RG Pollock), 6-171 (Irvine),
+     7-187 (Gamsy), 8-222 (Procter), 9-226 (PM Pollock),
+     10-232 (Seymour).
+
+Bowling                      O      M      R      W
+McKenzie                     8      0     29      0
+Connolly                    26     10     47      5
+Gleeson                     30     11     70      4
+Mallett                     32     10     79      1
+
+Australia 2nd innings (target: 451 runs)                        R   M   B  4 6
+KR Stackpole          c Barlow           b Goddard             29 115  95  3 0
+*WM Lawry             lbw                b Procter             83 183 175 12 1
+IM Chappell                              b Chevalier           13  72  63  2 0
+KD Walters            c Irvine           b Procter              4  15  15  1 0
+IR Redpath            not out                                  47 248 216  3 0
+AP Sheahan                               b Seymour             16  42  47  2 0
++HB Taber             lbw                b Procter             15  53  53  1 0
+AA Mallett            c PM Pollock       b Procter              5  17   9  1 0
+GD McKenzie           c RG Pollock       b Chevalier           19  49  30  4 0
+JW Gleeson                               b Richards            10  20  21  2 0
+AN Connolly                              b Chevalier           25  48  58  2 0
+Extras                (b 7, lb 2, nb 5)                        14
+Total                 (all out, 129.1 overs)                  280
+
+FoW: 1-75 (Stackpole), 2-130 (Lawry), 3-131 (Chappell),
+     4-136 (Walters), 5-161 (Sheahan), 6-188 (Taber),
+     7-198 (Mallett), 8-228 (McKenzie), 9-239 (Gleeson),
+     10-280 (Connolly).
+
+Bowling                      O      M      R      W
+Procter                     17      4     47      4
+PM Pollock                  18     12     19      0
+Goddard                     32     12     66      1
+Chevalier                   31.1    9     68      3
+Seymour                     19      6     40      1
+Barlow                       6      2     14      0
+Richards                     6      1     12      1
+
+<END>

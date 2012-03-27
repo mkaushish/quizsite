@@ -1,0 +1,97 @@
+
+Test # 1062
+The Ashes, 1986/87, 4th Test
+Australia v England
+Melbourne Cricket Ground
+26,27,28 December 1986 (5-day match)
+
+Result: England won by an innings and 14 runs
+Series: England leads the 5-match series 2-0
+
+Toss: England
+Umpires: AR Crafter and RA French
+Player of the match: GC Small
+
+Close of play:
+ Day 1: Australia 141, England 95/1 (Broad 56*, Gatting 8*)
+ Day 2: England 349
+
+Australia 1st innings                                           R   M   B  4 6
+GR Marsh              c Richards         b Botham              17  69  47  2 0
+DC Boon               c Botham           b Small                7  20  11  1 0
+DM Jones              c Gower            b Small               59 154 136  6 0
+*AR Border            c Richards         b Botham              15  43  26  2 0
+SR Waugh              c Botham           b Small               10  43  30  0 0
+GRJ Matthews          c Botham           b Small               14  76  50  1 0
+PR Sleep              c Richards         b Small                0  12   8  0 0
++TJ Zoehrer                              b Botham               5  12   7  1 0
+CJ McDermott          c Richards         b Botham               0   7   4  0 0
+MG Hughes             c Richards         b Botham               2  15  15  0 0
+BA Reid               not out                                   2   6   3  0 0
+Extras                (b 1, lb 1, w 1, nb 7)                   10
+Total                 (all out, 54.4 overs)                   141
+
+FoW: 1-16 (Boon), 2-44 (Marsh), 3-80 (Border), 4-108 (Waugh),
+     5-118 (Jones), 6-118 (Sleep), 7-129 (Zoehrer),
+     8-133 (McDermott), 9-137 (Hughes), 10-141 (Matthews).
+
+Bowling                      O      M      R      W
+Small                       22.4    7     48      5
+DeFreitas                   11      1     30      0
+Emburey                      4      0     16      0
+Botham                      16      4     41      5
+Gatting                      1      0      4      0
+
+England 1st innings                                             R   M   B  4 6
+BC Broad              c Zoehrer          b Hughes             112 329 255  9 0
+CWJ Athey             lbw                b Reid                21  74  58  1 0
+*MW Gatting           c Hughes           b Reid                40 173 118  2 0
+AJ Lamb               c Zoehrer          b Reid                43 140  92  5 0
+DI Gower              c Matthews         b Sleep                7  22  17  1 0
+IT Botham             c Zoehrer          b McDermott           29  66  54  4 0
++CJ Richards          c Marsh            b Reid                 3  32  14  0 0
+PAJ DeFreitas         c Matthews         b McDermott            7  21  14  1 0
+JE Emburey                           c & b McDermott           22  42  30  2 0
+PH Edmonds            lbw                b McDermott           19  67  49  1 0
+GC Small              not out                                  21  42  36  2 0
+Extras                (b 6, lb 7, w 1, nb 11)                  25
+Total                 (all out, 120.5 overs)                  349
+
+FoW: 1-58 (Athey), 2-163 (Gatting), 3-198 (Broad), 4-219 (Gower),
+     5-251 (Lamb), 6-273 (Botham), 7-277 (Richards),
+     8-289 (DeFreitas), 9-319 (Emburey), 10-349 (Edmonds).
+
+Bowling                      O      M      R      W
+McDermott                   26.5    4     83      4
+Hughes                      30      3     94      1
+Reid                        28      5     78      4
+Waugh                        8      4     16      0
+Sleep                       28      4     65      1
+
+Australia 2nd innings                                           R   M   B  4 6
+GR Marsh              run out                                  60 214 142 11 0
+DC Boon               c Gatting          b Small                8  21  21  0 0
+DM Jones              c Gatting          b DeFreitas           21  45  33  3 0
+*AR Border            c Emburey          b Small               34  85  82  4 0
+SR Waugh                                 b Edmonds             49 115 103  3 0
+GRJ Matthews                             b Emburey              0   8   7  0 0
+PR Sleep              run out                                   6  25  25  1 0
++TJ Zoehrer           c Athey            b Edmonds              1   9   8  0 0
+CJ McDermott                             b Emburey              1  16  14  0 0
+MG Hughes             c Small            b Edmonds              8  11   8  2 0
+BA Reid               not out                                   0   5   4  0 0
+Extras                (lb 3, w 1, nb 2)                         6
+Total                 (all out, 73.4 overs)                   194
+
+FoW: 1-13 (Boon), 2-48 (Jones), 3-113 (Border), 4-153 (Marsh),
+     5-153 (Matthews), 6-175 (Sleep), 7-180 (Zoehrer),
+     8-185 (Waugh), 9-189 (McDermott), 10-194 (Hughes).
+
+Bowling                      O      M      R      W
+DeFreitas                   12      1     44      1
+Small                       15      3     40      2
+Botham                       7      1     19      0
+Edmonds                     19.4    5     45      3
+Emburey                     20      5     43      2
+
+<END>

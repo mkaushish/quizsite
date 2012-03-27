@@ -1,0 +1,95 @@
+
+Test # 210
+New Zealand in England, 1931, 2nd Test
+England v New Zealand
+Kennington Oval, London
+29,30,31 July 1931 (3-day match)
+
+Result: England won by an innings and 26 runs
+Series: England leads the 3-match series 1-0
+
+Toss: England
+Umpires: F Chester and J Hardstaff snr
+Test debuts: FR Brown, H Verity (England); HG Vivian (New Zealand).
+
+Close of play:
+ Day 1: England 312/3 (Hammond 35*, Ames 9*)
+ Day 2: England 416/4d, New Zealand 193, New Zealand 22/1 (Mills 10*, Page 0*)
+
+England 1st innings                                             R   M   B  4 6
+H Sutcliffe           st James           b Vivian             117 220        0
+AH Bakewell           run out                                  40            0
+KS Duleepsinhji       c Weir             b Allcott            109 135     13 0
+WR Hammond            not out                                 100 104     13 0
++LEG Ames             c James            b Vivian              41            0
+*DR Jardine           not out                                   7            0
+Extras                (b 1, lb 1)                               2
+Total                 (4 wickets dec, 131.3 overs)            416
+
+DNB: FR Brown, GOB Allen, MW Tate, IAR Peebles, H Verity.
+
+FoW: 1-84 (Bakewell), 2-262 (Duleepsinhji), 3-271 (Sutcliffe),
+     4-401 (Ames).
+
+Bowling                      O      M      R      W
+Cromb                       30      5     97      0
+Allcott                     44      7    108      1
+Vivian                      34.3    8     96      2
+Weir                        10      1     36      0
+Merritt                     12      0     75      0
+Blunt                        1      0      2      0
+
+New Zealand 1st innings                                         R   M   B  4 6
+JE Mills                                 b Allen               27            0
+GL Weir                                  b Allen               13            0
+RC Blunt              c Ames             b Allen                2          0 0
+ML Page               c Peebles          b Tate                12            0
+HG Vivian             c Ames             b Allen                3          0 0
+*TC Lowry             c Jardine          b Brown               62 105        0
+JL Kerr               c Ames             b Allen               34            0
++KC James             lbw                b Brown                4            0
+IB Cromb              c Hammond          b Verity               8            0
+WE Merritt            c Hammond          b Verity               8            0
+CFW Allcott           not out                                   5            0
+Extras                (b 2, lb 9, nb 4)                        15
+Total                 (all out, 95.1 overs)                   193
+
+FoW: 1-42 (Mills), 2-44 (Blunt), 3-45 (Weir), 4-53 (Vivian),
+     5-92 (Page), 6-157 (Kerr), 7-167 (Lowry), 8-168 (James),
+     9-188 (Merritt), 10-193 (Cromb).
+
+Bowling                      O      M      R      W
+Tate                        18      9     15      1
+Brown                       29     12     52      2
+Verity                      22.1    8     52      2
+Peebles                     12      3     35      0
+Allen                       13      7     14      5
+Hammond                      1      0     10      0
+
+New Zealand 2nd innings (following on)                          R   M   B  4 6
+JE Mills                                 b Brown               30            0
+GL Weir                                  b Peebles              6            0
+ML Page                                  b Tate                 3          0 0
+RC Blunt                                 b Peebles             43 140        0
+HG Vivian             c Brown            b Peebles             51  95        1
+*TC Lowry             c Duleepsinhji     b Peebles              0          0 0
+JL Kerr                                  b Tate                28            0
++KC James             c Peebles          b Verity              10            0
+IB Cromb              not out                                   3          0 0
+WE Merritt            lbw                b Tate                 4            0
+CFW Allcott           c Allen            b Verity               1          0 0
+Extras                (b 6, lb 10, nb 2)                       18
+Total                 (all out, 84.3 overs)                   197
+
+FoW: 1-19 (Weir), 2-38 (Page), 3-51 (Mills), 4-139 (Vivian),
+     5-143 (Lowry), 6-162 (Blunt), 7-189 (Kerr), 8-189 (James),
+     9-196 (Merritt), 10-197 (Allcott).
+
+Bowling                      O      M      R      W
+Tate                        21      6     22      3
+Brown                       16      6     38      1
+Verity                      12.3    4     33      2
+Peebles                     22      4     63      4
+Allen                       13      4     23      0
+
+<END>

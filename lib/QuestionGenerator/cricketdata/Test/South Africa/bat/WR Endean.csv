@@ -1,0 +1,53 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+338, 1951-08-16, 1, 2, England, c Brown, Laker, 31, 115, na, na, 0
+338, 1951-08-16, 3, 2, England, lbw, Bedser, 7, na, na, na, 0
+359, 1952-12-05, 2, 3, Australia, c Langley, Ring, 14, 43, na, 0, 0
+359, 1952-12-05, 4, 3, Australia, lbw, Lindwall, 12, 54, na, 0, 0
+361, 1952-12-24, 1, 3, Australia, c Benaud, Lindwall, 2, 13, na, 0, 0
+361, 1952-12-24, 3, 3, Australia, not out, , 162, 452, na, 9, 0
+362, 1953-01-09, 1, 3, Australia, , Lindwall, 18, 39, na, 2, 0
+362, 1953-01-09, 3, 3, Australia, lbw, Miller, 71, 203, na, 3, 0
+364, 1953-01-24, 2, 2, Australia, c Langley, Benaud, 56, 176, na, 4, 0
+364, 1953-01-24, 4, 4, Australia, , Harvey, 17, 125, na, 1, 0
+365, 1953-02-06, 2, 1, Australia, c Langley, Johnston, 16, 39, na, 0, 0
+365, 1953-02-06, 4, 1, Australia, , Johnston, 70, 180, na, 3, 0
+368, 1953-03-06, 1, 5, New Zealand, c Mooney, Blair, 41, na, na, na, 0
+370, 1953-03-13, 1, 5, New Zealand, st Mooney, Rabone, 116, 275, na, 9, 0
+370, 1953-03-13, 3, 6, New Zealand, not out, , 47, na, na, 7, 0
+377, 1953-12-11, 1, 3, New Zealand, , MacGibbon, 6, na, na, na, 0
+378, 1953-12-24, 1, 3, New Zealand, c Sutcliffe, Reid, 93, 170, na, 13, 0
+378, 1953-12-24, 3, 3, New Zealand, c sub, Reid, 1, na, na, 0, 0
+379, 1954-01-01, 2, 4, New Zealand, c Sutcliffe, MacGibbon, 33, na, na, na, 0
+379, 1954-01-01, 3, 4, New Zealand, not out, , 34, na, na, na, 0
+381, 1954-01-29, 1, 4, New Zealand, c Sutcliffe, Overton, 7, na, na, na, 0
+382, 1954-02-05, 2, 5, New Zealand, c Reid, MacGibbon, 32, na, na, na, 1
+382, 1954-02-05, 4, 4, New Zealand,                c &, Bell, 87, 94, na, 14, 0
+407, 1955-06-09, 2, 4, England, lbw, Tyson, 0, 8, na, 0, 0
+407, 1955-06-09, 3, 4, England, c Graveney, Bailey, 6, 33, na, 0, 0
+409, 1955-06-23, 2, 4, England, lbw, Wardle, 48, 110, na, na, 0
+409, 1955-06-23, 4, 5, England, c Evans, Statham, 28, 90, na, na, 0
+410, 1955-07-07, 2, 5, England, c Evans, Lock, 5, 17, na, 0, 0
+410, 1955-07-07, 4, 8, England, c Titmus, Lock, 2, 8, na, 0, 0
+411, 1955-07-21, 1, 8, England, , Statham, 41, 110, na, na, 0
+411, 1955-07-21, 3, 6, England, not out, , 116, 245, na, 16, 0
+412, 1955-08-13, 2, 4, England, c Ikin, Lock, 0, 11, na, 0, 0
+412, 1955-08-13, 4, 4, England, lbw, Laker, 0, 1, na, 0, 0
+434, 1956-12-24, 2, 4, England, c Cowdrey, Laker, 18, 142, na, 1, 0
+434, 1956-12-24, 4, 5, England, , Statham, 3, 37, na, 0, 0
+435, 1957-01-01, 2, 8, England, , Wardle, 17, 107, na, 2, 0
+435, 1957-01-01, 4, 4, England, handled the ball, , 3, 66, na, 0, 0
+436, 1957-01-25, 2, 4, England, c sub, Wardle, 5, 9, na, 1, 0
+436, 1957-01-25, 4, 4, England,                c &, Laker, 26, 133, na, 0, 0
+437, 1957-02-15, 1, 7, England, , Statham, 13, 17, na, 1, 0
+437, 1957-02-15, 3, 5, England, c Insole, Bailey, 2, 15, na, 0, 0
+438, 1957-03-01, 1, 5, England, lbw, Tyson, 70, 288, na, 4, 0
+438, 1957-03-01, 3, 3, England, , Tyson, 1, 1, na, 0, 0
+444, 1957-12-23, 1, 5, Australia, lbw, Meckiff, 50, na, na, na, 0
+444, 1957-12-23, 3, 6, Australia, c Meckiff, Davidson, 77, na, na, na, 0
+445, 1958-12-31, 2, 6, Australia, c Davidson, Burke, 21, na, na, na, 0
+445, 1958-12-31, 3, 6, Australia, , Benaud, 5, na, na, na, 0
+447, 1958-01-24, 2, 3, Australia, c Simpson, Benaud, 15, na, na, na, 0
+449, 1958-02-07, 2, 2, Australia, lbw, Davidson, 22, na, na, na, 0
+449, 1958-02-07, 3, 2, Australia, c Simpson, Benaud, 38, na, na, na, 0
+451, 1958-02-28, 1, 3, Australia, c McDonald, Davidson, 2, na, na, 0, 0
+451, 1958-02-28, 3, 1, Australia, c Simpson, Davidson, 23, na, na, na, 0

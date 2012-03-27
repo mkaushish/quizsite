@@ -1,0 +1,119 @@
+
+Test # 267
+England in South Africa, 1938/39, 1st Test
+South Africa v England
+Old Wanderers, Johannesburg
+24,26,27,28 December 1938 (4-day match)
+
+Result: Match drawn
+Series: 5-match series level 0-0
+
+Toss: England
+Umpires: RGA Ashman and GL Sickler
+Balls per over: 8
+Test debuts: PA Gibb, LL Wilkinson, NWD Yardley (England); GE Bond, N Gordon,
+ A Melville, PGV van der Bijl, WW Wade (South Africa).
+
+Close of play:
+ Day 1: England 326/6 (Valentine 12*, Verity 19*)
+ Day 2: England 422, South Africa 166/5 (Mitchell 72*, Viljoen 0*)
+ Day 3: South Africa 390, England 103/1 (Gibb 53*, Paynter 32*)
+
+England 1st innings                                             R   M   B  4 6
+WJ Edrich             c Mitchell         b Davies               4       4  1 0
+PA Gibb               c Melville         b Mitchell            93 270      7 0
+E Paynter                                b Mitchell           117 176      8 1
+*WR Hammond           lbw                b Gordon              24            0
++LEG Ames             c Wade             b Gordon              42            0
+NWD Yardley                          c & b Mitchell             7            0
+BH Valentine          c Wade             b Gordon              97 138     11 0
+H Verity                                 b Dalton              26            0
+LL Wilkinson          lbw                b Gordon               2          0 0
+K Farnes                                 b Gordon               0          0 0
+TWJ Goddard           not out                                   0          0 0
+Extras                (b 3, lb 6, nb 1)                        10
+Total                 (all out, 113.4 overs)                  422
+
+FoW: 1-4 (Edrich), 2-188 (Paynter), 3-234 (Hammond),
+     4-278 (Gibb), 5-292 (Ames), 6-294 (Yardley), 7-378 (Verity),
+     8-389 (Wilkinson), 9-415 (Farnes), 10-422 (Valentine).
+
+Bowling                      O      M      R      W
+Davies                      19      0    102      1
+Langton                     27      5     74      0
+Gordon                      33.4    3    103      5
+Mitchell                    22      2     75      3
+Dalton                      10      1     42      1
+Bond                         2      0     16      0
+
+South Africa 1st innings                                        R   M   B  4 6
+B Mitchell                               b Farnes              73            0
+PGV van der Bijl      lbw                b Verity               4            0
+*A Melville                          c & b Verity               0          0 0
+AD Nourse                            c & b Goddard             73 163      6 1
+N Gordon              st Ames            b Goddard              0   1   1  0 0
++WW Wade                                 b Goddard              0   1   1  0 0
+KG Viljoen                               b Wilkinson           50 162        0
+EL Dalton             c Edrich           b Verity             102 145      9 0
+GE Bond               lbw                b Wilkinson            0   1   1  0 0
+ACB Langton           not out                                  64  95        2
+EQ Davies                                b Verity               0          0 0
+Extras                (b 5, lb 18, nb 1)                       24
+Total                 (all out, 135.1 overs)                  390
+
+FoW: 1-42 (van der Bijl), 2-44 (Melville), 3-160 (Nourse),
+     4-160 (Gordon), 5-160 (Wade), 6-173 (Mitchell),
+     7-281 (Viljoen), 8-281 (Bond), 9-378 (Dalton),
+     10-390 (Davies).
+
+Bowling                      O      M      R      W
+Farnes                      23      1     87      1
+Edrich                       9      0     44      0
+Verity                      44.1   16     61      4
+Hammond                     10      3     27      0
+Wilkinson                   22      0     93      2
+Goddard                     27      5     54      3
+
+England 2nd innings                                             R   M   B  4 6
+WJ Edrich             c Mitchell         b Gordon              10            0
+PA Gibb                                  b Dalton             106 192        0
+E Paynter             c Langton          b Gordon             100 189     10 0
+*WR Hammond           lbw                b Dalton              58  50        0
++LEG Ames             not out                                   3          0 0
+Extras                (b 7, lb 2, w 2, nb 3)                   14
+Total                 (4 wickets dec, 61.5 overs)             291
+
+DNB: NWD Yardley, BH Valentine, H Verity, LL Wilkinson, K Farnes,
+     TWJ Goddard.
+
+FoW: 1-38 (Edrich), 2-206 (Gibb), 3-281 (Paynter),
+     4-291 (Hammond).
+
+Bowling                      O      M      R      W
+Davies                      14      2     67      0
+Langton                     16      3     64      0
+Gordon                      14      0     59      2
+Mitchell                    11      1     58      0
+Dalton                       6.5    0     29      2
+
+South Africa 2nd innings (target: 324 runs)                     R   M   B  4 6
+B Mitchell            not out                                  48 165      5 0
+PGV van der Bijl                         b Hammond             38 130      3 1
+AD Nourse             not out                                  17  35        0
+Extras                (lb 5)                                    5
+Total                 (1 wicket, 51 overs)                    108
+
+DNB: *A Melville, N Gordon, +WW Wade, KG Viljoen, EL Dalton,
+     GE Bond, ACB Langton, EQ Davies.
+
+FoW: 1-67 (van der Bijl).
+
+Bowling                      O      M      R      W
+Farnes                       7      3     17      0
+Edrich                       3      0      7      0
+Verity                      16      8     17      0
+Hammond                      6      3     13      1
+Wilkinson                    8      3     18      0
+Goddard                     11      3     31      0
+
+<END>

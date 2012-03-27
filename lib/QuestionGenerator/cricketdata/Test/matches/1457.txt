@@ -1,0 +1,115 @@
+
+Test # 1457
+New Zealand in England, 1999, 3rd Test
+England v New Zealand
+Old Trafford, Manchester
+5,6,7,8,9 August 1999 (5-day match)
+
+Result: Match drawn
+Series: 4-match series level 1-1
+
+Toss: England
+Umpires: DR Shepherd and RB Tiffin (Zim)
+TV umpire: KE Palmer
+Match referee: PL van der Merwe (SA)
+Player of the match: CD McMillan
+
+Close of play:
+ Day 1: England 108/5 (Ramprakash 12*, Headley 1*, 61 ov)
+ Day 2: England 199, New Zealand 128/2 (Bell 31*, Astle 10*, 41 ov)
+ Day 3: New Zealand 399/6 (McMillan 58*, Cairns 29*, 131 ov)
+ Day 4: New Zealand 496/9d, England 118/2 (Stewart 47*, Thorpe 0*, 43.2 ov)
+
+England 1st innings                                             R   M   B  4 6
+*MA Butcher           c Fleming          b Cairns               5  20  16  1 0
+MA Atherton           c Parore           b Cairns              11 135  90  1 0
+AJ Stewart            c Parore           b Nash                23  83  54  3 0
+GP Thorpe             c Bell             b Vettori             27 122  98  2 0
+GA Hick               lbw                b Nash                12  32  21  3 0
+MR Ramprakash         not out                                  69 269 227  5 0
+DW Headley            c Fleming          b Harris              18  71  55  2 0
++CMW Read                                b Harris               0   2   3  0 0
+AR Caddick            run out (Twose/Harris/Parore)            12  25  21  1 1
+PM Such               c Bell             b Vettori              0  72  51  0 0
+PCR Tufnell           c Astle            b Nash                 1  31  19  0 0
+Extras                (b 6, lb 10, w 5)                        21
+Total                 (all out, 109.1 overs)                  199
+
+FoW: 1-13 (Butcher, 4.3 ov), 2-54 (Stewart, 23.1 ov),
+     3-60 (Atherton, 30.4 ov), 4-83 (Hick, 37.3 ov),
+     5-104 (Thorpe, 55.1 ov), 6-133 (Headley, 76.3 ov),
+     7-133 (Read, 76.6 ov), 8-152 (Caddick, 84.1 ov),
+     9-183 (Such, 101.4 ov), 10-199 (Tufnell, 109.1 ov).
+
+Bowling                      O      M      R      W
+Cairns                      34     12     72      2 (1w)
+Nash                        31.1   15     46      3
+Astle                       11      5     14      0
+Vettori                     25      7     35      2
+Harris                       8      4     16      2
+
+New Zealand 1st innings                                         R   M   B  4 6
+MJ Horne                                 b Caddick             39  57  58  7 0
+MD Bell               c Atherton         b Headley             83 341 224  7 0
+*SP Fleming           lbw                b Such                38  83  66  5 0
+NJ Astle              c Such             b Caddick            101 220 175  8 3
+RG Twose              lbw                b Such                20  82  57  2 1
+CD McMillan           not out                                 107 295 210  9 3
++AC Parore            c Butcher          b Such                10  10  10  2 0
+CL Cairns             c Caddick          b Tufnell             41 124  90  2 3
+DJ Nash               c Caddick          b Such                26  67  54  2 0
+CZ Harris                                b Tufnell              3  13   9  0 0
+DL Vettori            not out                                   2  16  10  0 0
+Extras                (b 6, lb 17, nb 3)                       26
+Total                 (9 wickets dec, 160 overs)              496
+
+FoW: 1-46 (Horne, 14.3 ov), 2-110 (Fleming, 34.4 ov),
+     3-263 (Bell, 83.4 ov), 4-280 (Astle, 88.5 ov),
+     5-321 (Twose, 102.2 ov), 6-331 (Parore, 104.3 ov),
+     7-425 (Cairns, 136.4 ov), 8-476 (Nash, 153.1 ov),
+     9-487 (Harris, 156.1 ov).
+
+Bowling                      O      M      R      W
+Caddick                     39     11    112      2 (2nb)
+Headley                     31      4    115      1 (1nb)
+Tufnell                     46     12    111      2
+Such                        41     11    114      4
+Hick                         1      0      8      0
+Butcher                      2      0     13      0
+
+England 2nd innings                                             R   M   B  4 6
+*MA Butcher           lbw                b Nash                 9  27  16  2 0
+MA Atherton           c Astle            b Vettori             48 155 122  7 0
+AJ Stewart            not out                                  83 203 198 12 0
+GP Thorpe             not out                                  25  75  72  4 0
+Extras                (b 9, lb 7)                              16
+Total                 (2 wickets, 68 overs)                   181
+
+DNB: GA Hick, MR Ramprakash, +CMW Read, AR Caddick, PM Such,
+     DW Headley, PCR Tufnell.
+
+FoW: 1-19 (Butcher, 5.6 ov), 2-118 (Atherton, 43.2 ov).
+
+Bowling                      O      M      R      W
+Cairns                      11      1     54      0
+Nash                        10      3     26      1
+Astle                        3      1      7      0
+Vettori                     26     12     48      1
+Harris                      18      6     30      0
+
+*** Day 1
+*** Late start due to overnight rain and wet outfield. Rain stopped the play
+    in the post-lunch session as well. A total of 29 overs were lost.
+
+*** Day 2
+*** MR Ramprakash 50 off 190 balls, 3x4
+
+*** Day 3
+*** Play started late due to poor light conditions.
+*** MD Bell 50 off 158 balls, 5x4
+
+*** Day 4
+*** Rain fell at the fall of Atherton's wicket at 4:36pm, and play was
+    abandoned at 6:23pm with 17.4 overs lost
+
+<END>

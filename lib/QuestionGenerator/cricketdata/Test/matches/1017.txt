@@ -1,0 +1,125 @@
+
+Test # 1017
+The Ashes, 1985, 1st Test
+England v Australia
+Headingley, Leeds
+13,14,15,17,18 June 1985 (5-day match)
+
+Result: England won by 5 wickets
+Series: England leads the 6-match series 1-0
+
+Toss: Australia
+Umpires: BJ Meyer and KE Palmer
+Test debut: SP O'Donnell (Australia).
+Player of the match: RT Robinson
+
+Close of play:
+ Day 1: Australia 284/6 (Ritchie 22*, McDermott 0*)
+ Day 2: Australia 331, England 134/2 (Robinson 66*, Gatting 31*)
+ Day 3: England 484/9 (Downton 28*, Cowans 0*)
+ Day 4: England 533, Australia 190/5 (Boon 20*, Phillips 11*)
+
+Australia 1st innings                                           R   M   B  4 6
+GM Wood               lbw                b Allott              14  26  22  3 0
+AMJ Hilditch          c Downton          b Gooch              119 246 183 17 2
+KC Wessels            c Botham           b Emburey             36 150 103  4 0
+*AR Border            c Botham           b Cowans              32 115  97  5 0
+DC Boon               lbw                b Gooch               14  43  45  1 0
+GM Ritchie                               b Botham              46  92  64  8 0
++WB Phillips          c Gower            b Emburey             30  44  35  6 0
+CJ McDermott                             b Botham              18  52  38  4 0
+SP O'Donnell          lbw                b Botham               0   1   1  0 0
+GF Lawson             c Downton          b Allott               0   2   3  0 0
+JR Thomson            not out                                   4   2   3  1 0
+Extras                (lb 13, w 4, nb 1)                       18
+Total                 (all out, 98.1 overs)                   331
+
+FoW: 1-23 (Wood), 2-155 (Wessels), 3-201 (Hilditch),
+     4-229 (Boon), 5-229 (Border), 6-284 (Phillips),
+     7-326 (Ritchie), 8-326 (O'Donnell), 9-327 (Lawson),
+     10-331 (McDermott).
+
+Bowling                      O      M      R      W
+Cowans                      20      4     78      1
+Allott                      22      3     74      2
+Botham                      29.1    8     86      3
+Gooch                       21      4     57      2
+Emburey                      6      1     23      2
+
+England 1st innings                                             R   M   B  4 6
+GA Gooch              lbw                b McDermott            5  15  12  1 0
+RT Robinson           c Boon             b Lawson             175 414 272 26 0
+*DI Gower             c Phillips         b McDermott           17  28  22  2 0
+MW Gatting            c Hilditch         b McDermott           53 142 108  7 0
+AJ Lamb                                  b O'Donnell           38  84  65  8 0
+IT Botham                                b Thomson             60  59  51 10 2
+P Willey              c Hilditch         b Lawson              36  88  68  5 0
++PR Downton           c Border           b McDermott           54 127  98  9 0
+JE Emburey                               b Lawson              21  33  22  4 0
+PJW Allott            c Boon             b Thomson             12  35  34  2 0
+NG Cowans             not out                                  22  43  28  5 0
+Extras                (b 5, lb 16, w 5, nb 14)                 40
+Total                 (all out, 125 overs)                    533
+
+FoW: 1-14 (Gooch), 2-50 (Gower), 3-186 (Gatting), 4-264 (Lamb),
+     5-344 (Botham), 6-417 (Robinson), 7-422 (Willey),
+     8-462 (Emburey), 9-484 (Allott), 10-533 (Downton).
+
+Bowling                      O      M      R      W
+Lawson                      26      4    117      3
+McDermott                   32      2    134      4
+Thomson                     34      3    166      2
+O'Donnell                   27      8     77      1
+Border                       3      0     16      0
+Wessels                      3      2      2      0
+
+Australia 2nd innings                                           R   M   B  4 6
+GM Wood               c Lamb             b Botham               3  11  12  0 0
+AMJ Hilditch          c Robinson         b Emburey             80 194 156 13 1
+KC Wessels                               b Emburey             64 152 128 10 0
+*AR Border            c Downton          b Botham               8  37  35  0 0
+DC Boon                                  b Cowans              22  78  69  2 0
+GM Ritchie                               b Emburey              1   3   6  0 0
++WB Phillips          c Lamb             b Botham              91 189 171 12 0
+SP O'Donnell          c Downton          b Botham              24  97  73  3 0
+GF Lawson             c Downton          b Emburey             15  39  20  3 0
+CJ McDermott          c Gooch            b Emburey              6  19  20  0 0
+JR Thomson            not out                                   2   6   5  0 0
+Extras                (b 4, lb 3, w 1)                          8
+Total                 (all out, 115.4 overs)                  324
+
+FoW: 1-5 (Wood), 2-144 (Wessels), 3-151 (Hilditch),
+     4-159 (Border), 5-160 (Ritchie), 6-192 (Boon),
+     7-272 (O'Donnell), 8-307 (Phillips), 9-318 (Lawson),
+     10-324 (McDermott).
+
+Bowling                      O      M      R      W
+Botham                      33      7    107      4
+Allott                      17      4     57      0
+Emburey                     43.4   14     82      5
+Cowans                      13      2     50      1
+Gooch                        9      3     21      0
+
+England 2nd innings (target: 123 runs)                          R   M   B  4 6
+GA Gooch              lbw                b O'Donnell           28  88  65  3 0
+RT Robinson                              b Lawson              21  48  31  4 0
+*DI Gower             c Border           b O'Donnell            5  22  18  1 0
+MW Gatting            c Phillips         b Lawson              12  30  20  2 0
+AJ Lamb               not out                                  31  81  63  5 0
+IT Botham                                b O'Donnell           12  39  23  1 0
+P Willey              not out                                   3  24  16  0 0
+Extras                (lb 7, w 1, nb 3)                        11
+Total                 (5 wickets, 38.4 overs)                 123
+
+DNB: +PR Downton, JE Emburey, PJW Allott, NG Cowans.
+
+FoW: 1-44 (Robinson), 2-59 (Gower), 3-71 (Gooch), 4-83 (Gatting),
+     5-110 (Botham).
+
+Bowling                      O      M      R      W
+McDermott                    4      0     20      0
+Lawson                      16      4     51      2
+O'Donnell                   15.4    5     37      3
+Thomson                      3      0      8      0
+
+<END>

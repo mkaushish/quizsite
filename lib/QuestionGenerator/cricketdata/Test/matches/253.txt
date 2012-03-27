@@ -1,0 +1,101 @@
+
+Test # 253
+India in England, 1936, 2nd Test
+England v India
+Old Trafford, Manchester
+25,27,28 July 1936 (3-day match)
+
+Result: Match drawn
+Series: England leads the 3-match series 1-0
+
+Toss: India
+Umpires: F Chester and FI Walden
+Test debuts: AE Fagg, LB Fishlock, AR Gover (England); KR Meherhomji,
+ C Ramaswami (India).
+
+Close of play:
+ Day 1: India 203, England 173/2 (Hammond 118*, Worthington 5*)
+ Day 2: England 571/8d, India 190/0 (Merchant 79*, Mushtaq Ali 105*)
+
+India 1st innings                                               R   M   B  4 6
+VM Merchant           c Hammond          b Verity              33            0
+S Mushtaq Ali         run out                                  13            0
+L Amar Singh          c Duckworth        b Worthington         27            0
+CK Nayudu             lbw                b Allen               16            0
+S Wazir Ali           c Worthington      b Verity              42 150        0
+C Ramaswami                              b Verity              40            0
+M Jahangir Khan       c Duckworth        b Allen                2          0 0
+CS Nayudu                                b Verity              10            0
+*Vizianagram                             b Robins               6            0
++KR Meherhomji        not out                                   0          0 0
+M Nissar              c Hardstaff        b Robins              13            0
+Extras                (b 1)                                     1
+Total                 (all out, 68.1 overs)                   203
+
+FoW: 1-18 (Mushtaq Ali), 2-67 (Merchant), 3-73 (Amar Singh),
+     4-100 (CK Nayudu), 5-161 (Ramaswami), 6-164 (Jahangir Khan),
+     7-181 (CS Nayudu), 8-188 (Vizianagram), 9-190 (Wazir Ali),
+     10-203 (Nissar).
+
+Bowling                      O      M      R      W
+Allen                       14      3     39      2
+Gover                       15      2     39      0
+Hammond                      9      1     34      0
+Robins                       9.1    1     34      2
+Verity                      17      5     41      4
+Worthington                  4      0     15      1
+
+England 1st innings                                             R   M   B  4 6
+H Gimblett                               b Nissar               9            0
+AE Fagg               lbw                b Mushtaq Ali         39            0
+WR Hammond                               b CK Nayudu          167 170     21 0
+TS Worthington        c CK Nayudu        b CS Nayudu           87 150        0
+LB Fishlock                              b CK Nayudu            6            0
+J Hardstaff jnr                      c & b Amar Singh          94  75     15 0
+*GOB Allen            c Meherhomji       b Amar Singh           1          0 0
+RWV Robins            c Merchant         b Nissar              76         14 0
+H Verity              not out                                  66            0
++G Duckworth          not out                                  10            0
+Extras                (b 5, lb 9, w 1, nb 1)                   16
+Total                 (8 wickets dec, 142 overs)              571
+
+DNB: AR Gover.
+
+FoW: 1-12 (Gimblett), 2-146 (Fagg), 3-273 (Hammond),
+     4-289 (Fishlock), 5-375 (Worthington), 6-376 (Allen),
+     7-409 (Hardstaff), 8-547 (Robins).
+
+Bowling                      O      M      R      W
+Nissar                      28      5    125      2
+Amar Singh                  41      8    121      2
+CS Nayudu                   17      1     87      1
+CK Nayudu                   22      1     84      2
+Jahangir Khan               18      5     57      0
+Mushtaq Ali                 13      1     64      1
+Merchant                     3      0     17      0
+
+India 2nd innings                                               R   M   B  4 6
+VM Merchant           lbw                b Hammond            114 255     13 0
+S Mushtaq Ali                        c & b Robins             112 150     17 0
+C Ramaswami                              b Robins              60 120        0
+CK Nayudu             st Duckworth       b Verity              34            0
+S Wazir Ali                              b Robins               4            0
+L Amar Singh          not out                                  48            1
+*Vizianagram          not out                                   0          0 0
+Extras                (b 9, lb 7, nb 2)                        18
+Total                 (5 wickets, 115 overs)                  390
+
+DNB: M Jahangir Khan, CS Nayudu, +KR Meherhomji, M Nissar.
+
+FoW: 1-203 (Mushtaq Ali), 2-279 (Merchant), 3-313 (Ramaswami),
+     4-317 (Wazir Ali), 5-390 (CK Nayudu).
+
+Bowling                      O      M      R      W
+Allen                       19      2     96      0
+Gover                       20      2     61      0
+Hammond                     12      2     19      1
+Robins                      29      2    103      3
+Verity                      22      8     66      1
+Worthington                 13      4     27      0
+
+<END>

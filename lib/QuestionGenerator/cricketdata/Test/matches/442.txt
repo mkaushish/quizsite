@@ -1,0 +1,99 @@
+
+Test # 442
+West Indies in England, 1957, 4th Test
+England v West Indies
+Headingley, Leeds
+25,26,27 July 1957 (5-day match)
+
+Result: England won by an innings and 5 runs
+Series: England leads the 5-match series 2-0
+
+Toss: West Indies
+Umpires: JS Buller and D Davies
+Test debut: FCM Alexander (West Indies).
+
+Close of play:
+ Day 1: West Indies 142, England 11/1 (Richardson 10*, Graveney 1*)
+ Day 2: England 279
+
+West Indies 1st innings                                         R   M   B  4 6
+FMM Worrell                              b Loader              29 106      3 0
+GS Sobers             c Lock             b Loader               4  37      0 0
+RB Kanhai             lbw                b Laker               47 236      7 0
+ED Weekes                                b Loader               0   2      0 0
+CL Walcott            c Cowdrey          b Laker               38 136      4 0
+OG Smith                                 b Trueman             15  45      3 0
+BH Pairaudeau                            b Trueman              6  15      0 0
+*JDC Goddard                             b Loader               1   5      0 0
++FCM Alexander        not out                                   0   5   0  0 0
+S Ramadhin            c Trueman          b Loader               0   1      0 0
+R Gilchrist                              b Loader               0   1      0 0
+Extras                (lb 2)                                    2
+Total                 (all out, 85.3 overs)                   142
+
+FoW: 1-16 (Sobers), 2-42 (Worrell), 3-42 (Weekes),
+     4-112 (Walcott), 5-125 (Kanhai), 6-139 (Smith),
+     7-142 (Pairaudeau), 8-142 (Goddard), 9-142 (Ramadhin),
+     10-142 (Gilchrist).
+
+Bowling                      O      M      R      W
+Trueman                     17      4     33      2
+Loader                      20.3    9     36      6
+Smith                       17      6     24      0
+Laker                       17      4     24      2
+Lock                        14      6     23      0
+
+England 1st innings                                             R   M   B  4 6
+PE Richardson         c Alexander        b Worrell             10  25      0 0
+DV Smith                                 b Worrell              0   2      0 0
+TW Graveney                              b Gilchrist           22  61      2 0
+*PBH May              c Alexander        b Sobers              69 157      9 0
+MC Cowdrey            c Weekes           b Worrell             68 220      4 0
+Rev.DS Sheppard       c Walcott          b Worrell             68 143     10 0
++TG Evans                                b Worrell             10  21      1 0
+GAR Lock                                 b Gilchrist           20  60      2 0
+JC Laker              c Alexander        b Worrell              1  13      0 0
+FS Trueman            not out                                   2  19      0 0
+PJ Loader             c Pairaudeau       b Worrell              1   3      0 0
+Extras                (b 2, lb 5, w 1)                          8
+Total                 (all out, 124.2 overs)                  279
+
+FoW: 1-1 (Smith), 2-12 (Richardson), 3-42 (Graveney),
+     4-136 (May), 5-227 (Cowdrey), 6-239 (Evans),
+     7-264 (Sheppard), 8-272 (Laker), 9-278 (Lock),
+     10-279 (Loader).
+
+Bowling                      O      M      R      W
+Worrell                     38.2    9     70      7
+Gilchrist                   27      3     71      2
+Sobers                      32      9     79      1
+Ramadhin                    19      5     34      0
+Smith                        8      1     17      0
+
+West Indies 2nd innings                                         R   M   B  4 6
+FMM Worrell           c Cowdrey          b Trueman              7  38      1 0
+GS Sobers             run out                                  29  42      5 0
+RB Kanhai             lbw                b Loader               0  12      0 0
+ED Weekes             c Cowdrey          b Trueman             14  16      3 0
+CL Walcott            c Sheppard         b Loader              35  74      4 0
+OG Smith              c Evans            b Smith                8  13      2 0
+BH Pairaudeau         c Trueman          b Loader               6  20      0 0
+*JDC Goddard          c Loader           b Lock                 4  18      1 0
++FCM Alexander                           b Laker               11  36      1 0
+S Ramadhin            run out                                   6  10      0 0
+R Gilchrist           not out                                   6  11      1 0
+Extras                (lb 5, nb 1)                              6
+Total                 (all out, 36.2 overs)                   132
+
+FoW: 1-40 (Worrell), 2-40 (Sobers), 3-49 (Kanhai), 4-56 (Weekes),
+     5-71 (Smith), 6-92 (Pairaudeau), 7-103 (Goddard),
+     8-113 (Walcott), 9-123 (Ramadhin), 10-132 (Alexander).
+
+Bowling                      O      M      R      W
+Trueman                     11      0     42      2
+Loader                      14      2     50      3
+Smith                        4      1     12      1
+Laker                        6.2    1     16      1
+Lock                         1      0      6      1
+
+<END>

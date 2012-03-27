@@ -1,0 +1,101 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+473, 1959-03-26, 2, 8, West Indies, lbw, Hall, 14, na, na, na, 0
+473, 1959-03-26, 3, 8, West Indies, , Ramadhin, 4, na, na, na, 0
+497, 1960-12-02, 1, 4, India, lbw, Gupte, 6, na, na, na, 0
+497, 1960-12-02, 3, 4, India, lbw, Nadkarni, 19, na, na, na, 0
+499, 1960-12-16, 1, 7, India, c Umrigar, Muddiah, 13, na, na, na, 0
+501, 1961-12-30, 1, 6, India, c Jaisimha, Borde, 61, 170, na, 6, 0
+503, 1961-01-13, 1, 6, India, not out, , 41, na, na, na, 0
+505, 1961-02-08, 2, 6, India, c Kumar, Desai, 101, 205, na, 19, 0
+505, 1961-02-08, 3, 6, India, lbw, Desai, 22, na, na, na, 0
+512, 1961-10-21, 1, 5, England, run out, , 76, na, na, 11, 0
+512, 1961-10-21, 3, 5, England, c Pullar, Allen, 23, na, na, 3, 0
+521, 1962-01-19, 1, 6, England, , Allen, 26, 36, na, 4, 0
+521, 1962-01-19, 3, 5, England,                c &, Allen, 6, 26, na, 0, 0
+522, 1962-02-02, 1, 5, England, lbw, Knight, 14, 22, na, 2, 0
+522, 1962-02-02, 3, 7, England, , Lock, 41, 102, na, 7, 0
+530, 1962-05-31, 2, 4, England, c Cowdrey, Lock, 63, na, na, na, 0
+530, 1962-05-31, 3, 4, England, c Millman, Allen, 8, na, na, na, 0
+531, 1962-06-21, 1, 5, England, c Cowdrey, Trueman, 7, na, na, na, 0
+531, 1962-06-21, 3, 4, England, c Millman, Trueman, 18, na, na, na, 0
+532, 1962-07-05, 2, 4, England, c Murray, Dexter, 27, na, na, na, 0
+532, 1962-07-05, 3, 4, England, c Trueman, Allen, 8, na, na, na, 0
+533, 1962-07-26, 2, 3, England, c Lock, Knight, 55, 91, na, 6, 0
+533, 1962-07-26, 3, 3, England, not out, , 100, 319, na, 9, 0
+534, 1962-08-16, 2, 3, England, lbw, Larter, 43, 108, na, 5, 0
+534, 1962-08-16, 3, 3, England, , Illingworth, 72, 150, na, 13, 0
+621, 1967-07-27, 2, 3, England, c Murray, Higgs, 4, 5, 6, 1, 0
+621, 1967-07-27, 4, 4, England, not out, , 30, 75, 100, 3, 1
+622, 1967-08-10, 1, 4, England, , Higgs, 29, 105, 93, 2, 0
+622, 1967-08-10, 3, 6, England, lbw, Underwood, 0, 10, 8, 0, 0
+623, 1967-08-24, 1, 5, England, lbw, Higgs, 66, 202, 200, 7, 1
+623, 1967-08-24, 3, 7, England, c D'Oliveira, Underwood, 17, 48, 41, 2, 0
+647, 1969-02-21, 2, 5, England, c Fletcher, Cottam, 4, na, na, na, 0
+647, 1969-02-21, 4, 5, England, not out, , 34, na, na, na, 0
+649, 1969-02-28, 1, 5, England, c Cottam, Snow, 52, na, na, na, 0
+649, 1969-02-28, 3, 4, England, c D'Oliveira, Underwood, 31, na, na, na, 0
+662, 1969-10-24, 1, 4, New Zealand, , Yuile, 14, 53, na, 1, 0
+662, 1969-10-24, 3, 4, New Zealand, c Murray, Howarth, 19, 118, na, 2, 0
+663, 1969-10-30, 1, 4, New Zealand, c Wadsworth, Pollard, 25, 137, na, 1, 0
+663, 1969-10-30, 3, 4, New Zealand, c Yuile, Howarth, 1, 44, na, 0, 0
+687, 1971-06-03, 1, 4, England, c Cowdrey, Illingworth, 100, 347, 283, 13, 0
+688, 1971-06-17, 2, 4, England, c Amiss, Hutton, 2, 30, 19, 0, 0
+689, 1971-07-08, 2, 4, England, c Knott, Hutton, 57, 217, 228, 7, 1
+689, 1971-07-08, 4, 4, England, c Edrich, Illingworth, 5, 48, 53, 1, 0
+704, 1972-12-22, 1, 5, Australia, c GS Chappell, Lillee, 3, 5, na, 0, 0
+704, 1972-12-22, 3, 5, Australia, lbw, Mallett, 32, 86, 81, 2, 0
+705, 1973-12-29, 2, 5, Australia, c Marsh, O'Keeffe, 60, 133, 157, 5, 0
+705, 1973-12-29, 4, 5, Australia, run out, , 13, 54, 38, 0, 0
+707, 1973-01-06, 2, 5, Australia, c Walker, GS Chappell, 121, 292, 276, 17, 0
+707, 1973-01-06, 4, 5, Australia, c Marsh, Lillee, 15, 72, 57, 1, 0
+712, 1973-02-07, 1, 4, New Zealand, c Wadsworth, Congdon, 201, 383, na, 20, 0
+713, 1973-02-16, 1, 4, New Zealand, c Hastings, Congdon, 61, 125, na, 9, 0
+713, 1973-02-16, 3, 4, New Zealand, , Howarth, 52, 174, na, 7, 0
+715, 1973-03-02, 2, 4, England, , Underwood, 66, 200, na, 7, 1
+715, 1973-03-02, 4, 4, England, not out, , 5, 30, na, 1, 0
+717, 1973-03-16, 2, 4, England, lbw, Gifford, 157, 469, na, 17, 0
+719, 1973-03-24, 1, 4, England, run out, , 99, 301, na, 10, 0
+719, 1973-03-24, 3, 5, England, c Denness, Birkenshaw, 0, 11, na, 0, 0
+742, 1974-07-25, 1, 4, England, c Fletcher, Underwood, 6, 35, 28, 0, 0
+742, 1974-07-25, 3, 4, England, c Greig, Hendrick, 43, 198, 142, 6, 0
+743, 1974-08-08, 1, 4, England, c Greig, Underwood, 0, 8, 7, 0, 0
+743, 1974-08-08, 3, 4, England, c Denness, Greig, 76, 254, 206, 9, 0
+744, 1974-08-22, 1, 4, England, , Arnold, 76, 202, 171, 9, 0
+744, 1974-08-22, 3, 4, England, , Underwood, 8, 51, 32, 0, 0
+756, 1975-02-15, 1, 4, West Indies, c Murray, Gibbs, 27, na, na, na, 0
+756, 1975-02-15, 3, 4, West Indies, , Holder, 123, na, na, na, 0
+759, 1975-03-01, 1, 4, West Indies, c Murray, Holder, 5, na, na, na, 0
+759, 1975-03-01, 3, 3, West Indies, c Kallicharran, Boyce, 1, na, na, 0, 0
+782, 1976-10-09, 1, 4, New Zealand, , Hadlee, 4, na, na, na, 0
+782, 1976-10-09, 4, 5, New Zealand, c Morrison, Petherick, 5, na, na, na, 0
+783, 1976-10-23, 1, 5, New Zealand, run out, , 101, 257, na, 9, 0
+784, 1976-10-30, 1, 5, New Zealand, c Lees, Hadlee, 107, 295, na, 11, 0
+784, 1976-10-30, 3, 6, New Zealand, not out, , 67, 96, na, 10, 0
+789, 1976-12-24, 1, 4, Australia, c McCosker, Thomson, 18, 53, 38, 2, 0
+789, 1976-12-24, 3, 4, Australia, c Marsh, Lillee, 37, 91, 102, 4, 0
+790, 1977-01-01, 2, 4, Australia, lbw, Lillee, 9, 40, 51, 0, 0
+790, 1977-01-01, 4, 4, Australia, c Chappell, Lillee, 4, 35, 26, 0, 0
+792, 1977-01-14, 2, 4, Australia, c Turner, Lillee, 9, 42, 40, 1, 0
+792, 1977-01-14, 4, 4, Australia, not out, , 0, 11, 7, 0, 0
+797, 1977-02-18, 1, 4, West Indies, c Murray, Croft, 0, na, na, 0, 0
+797, 1977-02-18, 3, 4, West Indies, c Murray, Roberts, 6, na, na, na, 0
+799, 1977-03-04, 1, 4, West Indies, c Richards, Croft, 9, na, na, na, 0
+799, 1977-03-04, 3, 4, West Indies, c Greenidge, Roberts, 21, na, na, na, 0
+801, 1977-03-18, 1, 5, West Indies, c Murray, Julien, 41, 125, na, na, 0
+801, 1977-03-18, 3, 4, West Indies, , Roberts, 19, na, na, na, 0
+802, 1977-04-01, 1, 5, West Indies, c Greenidge, Richards, 121, 371, na, 14, 0
+802, 1977-04-01, 3, 5, West Indies, c Fredericks, Roberts, 56, na, na, na, 0
+803, 1977-04-15, 2, 5, West Indies, c Lloyd, Garner, 24, na, na, na, 0
+803, 1977-04-15, 4, 5, West Indies, , Garner, 17, na, na, na, 0
+831, 1978-10-16, 1, 4, India, c Gavaskar, Chandrasekhar, 5, na, na, na, 0
+832, 1978-10-27, 2, 7, India, run out, , 67, na, na, na, 0
+833, 1978-11-14, 2, 7, India, c sub, Ghavri, 78, na, na, na, 0
+844, 1979-02-02, 1, 7, New Zealand, lbw, Hadlee, 10, 99, na, na, 0
+844, 1979-02-02, 3, 7, New Zealand, c Burgess, Hadlee, 12, na, na, na, 0
+847, 1979-02-16, 1, 6, New Zealand, c Lees, Hadlee, 24, 148, na, 2, 0
+847, 1979-02-16, 3, 4, New Zealand, c Cairns, Boock, 28, 94, na, 2, 0
+848, 1979-02-23, 2, 6, New Zealand, lbw, Hadlee, 48, 183, na, 7, 0
+849, 1979-03-10, 1, 6, Australia, c Wright, Hurst, 36, 152, 121, 2, 0
+849, 1979-03-10, 3, 6, Australia, c sub (JD Higgs), Sleep, 28, 93, 75, 4, 0
+850, 1979-03-24, 1, 7, Australia, run out, , 23, 140, 109, 3, 0
+850, 1979-03-24, 3, 7, Australia, lbw, Yardley, 1, 6, 7, 0, 0

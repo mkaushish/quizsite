@@ -1,0 +1,112 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+444, 1957-12-23, 2, 6, South Africa, lbw, Tayfield, 60, na, na, na, 0
+444, 1957-12-23, 4, 6, South Africa, not out, , 23, 55, na, na, 0
+445, 1958-12-31, 1, 8, South Africa, c Funston, Tayfield, 3, na, na, 0, 0
+447, 1958-01-24, 1, 5, South Africa, , Goddard, 17, na, na, na, 0
+447, 1958-01-24, 3, 8, South Africa, c Tayfield, van Ryneveld, 4, na, na, na, 0
+449, 1958-02-07, 1, 8, South Africa, c Waite, Adcock, 6, na, na, na, 0
+451, 1958-02-28, 2, 6, South Africa, c Carlstein, Tayfield, 23, na, na, na, 0
+462, 1959-12-31, 2, 6, England, lbw, Loader, 0, 14, 7, 0, 0
+498, 1960-12-09, 2, 2, West Indies, , Ramadhin, 92, 260, na, 7, 0
+498, 1960-12-09, 4, 2, West Indies, c sub (LR Gibbs), Hall, 0, 14, na, 0, 0
+500, 1961-12-30, 1, 2, West Indies, c Alexander, Hall, 49, 103, 68, 4, 0
+500, 1961-12-30, 4, 2, West Indies, not out, , 27, 112, 62, 1, 0
+502, 1961-01-13, 2, 2, West Indies, c Kanhai, Hall, 10, 23, 17, 0, 0
+502, 1961-01-13, 4, 2, West Indies, , Sobers, 12, 26, 27, 2, 0
+504, 1961-01-27, 2, 4, West Indies, c Alexander, Hall, 85, 208, na, 4, 0
+504, 1961-01-27, 4, 4, West Indies, c Alexander, Hall, 3, 18, na, 0, 0
+506, 1961-02-10, 2, 1, West Indies, c Gibbs, Sobers, 75, 200, 237, 5, 0
+506, 1961-02-10, 4, 1, West Indies, , Gibbs, 92, 194, 231, 10, 0
+507, 1961-06-08, 2, 6, England,                c &, Trueman, 76, 210, na, na, 0
+508, 1961-06-22, 2, 3, England, c Illingworth, Trueman, 0, na, na, 0, 0
+508, 1961-06-22, 4, 6, England, c Illingworth, Statham, 15, na, na, na, 0
+509, 1961-07-06, 1, 7, England, lbw, Trueman, 2, na, na, 0, 0
+509, 1961-07-06, 3, 6, England, , Trueman, 3, na, na, 0, 0
+510, 1961-07-27, 1, 2, England, c Murray, Statham, 4, 7, na, 1, 0
+510, 1961-07-27, 3, 2, England, c Murray, Flavell, 51, 141, na, 7, 0
+511, 1961-08-17, 2, 2, England, , Allen, 40, 107, na, 4, 0
+535, 1962-11-30, 1, 2, England, c Trueman, Dexter, 50, 117, na, 7, 0
+535, 1962-11-30, 3, 2, England, c Smith, Dexter, 71, 179, na, 7, 0
+536, 1963-12-29, 1, 2, England, c Smith, Coldwell, 38, 84, 69, 4, 0
+536, 1963-12-29, 3, 1, England, , Trueman, 14, 34, 37, 1, 0
+537, 1963-01-11, 2, 2, England, , Titmus, 91, 242, 228, 6, 0
+537, 1963-01-11, 4, 2, England, not out, , 34, 62, 43, 1, 0
+538, 1963-01-25, 1, 2, England, c Smith, Statham, 0, 8, 1, 0, 0
+538, 1963-01-25, 3, 2, England, c Smith, Dexter, 71, 237, na, 3, 0
+539, 1963-02-15, 2, 2, England, c Trueman, Titmus, 32, 115, na, 0, 0
+539, 1963-02-15, 4, 2, England, , Trueman, 0, 3, 5, 0, 0
+548, 1963-12-06, 1, 2, South Africa, c Waite, PM Pollock, 12, 40, na, 1, 0
+548, 1963-12-06, 3, 2, South Africa, c sub, Partridge, 34, 100, na, 2, 0
+549, 1964-01-01, 2, 3, South Africa, , PM Pollock, 0, 4, 6, 0, 0
+549, 1964-01-01, 4, 3, South Africa, not out, , 55, 114, 104, 5, 0
+550, 1964-01-10, 1, 1, South Africa, c Goddard, PM Pollock, 58, 123, 97, 3, 0
+550, 1964-01-10, 3, 1, South Africa, lbw, Halse, 31, 56, 47, 2, 0
+553, 1964-01-24, 1, 1, South Africa, , Goddard, 78, 200, na, 5, 0
+553, 1964-01-24, 3, 1, South Africa, c Lindsay, Halse, 34, 91, na, 1, 0
+555, 1964-02-07, 1, 2, South Africa, c Lindsay, Partridge, 28, 68, 55, 2, 0
+555, 1964-02-07, 3, 2, South Africa, lbw, Partridge, 31, 57, 53, 3, 0
+561, 1964-06-04, 2, 6, England, c Barrington, Titmus, 50, 139, na, 3, 0
+562, 1964-06-18, 1, 6, England, c Parfitt, Trueman, 0, na, na, 0, 0
+562, 1964-06-18, 3, 6, England, not out, , 15, na, na, na, 0
+563, 1964-07-02, 2, 2, England, , Gifford, 24, 60, na, 3, 0
+563, 1964-07-02, 4, 2, England, c Barrington, Titmus, 30, na, na, na, 0
+564, 1964-07-23, 1, 2, England, c Parks, Price, 311, 762, 740, 23, 1
+564, 1964-07-23, 3, 1, England, not out, , 4, 5, 6, 1, 0
+565, 1964-08-13, 2, 1, England, c Dexter, Cartwright, 24, 74, na, 2, 0
+566, 1964-10-02, 1, 2, India, st Indrajitsinhji, Durani, 30, 58, na, 4, 0
+566, 1964-10-02, 3, 2, India, run out, , 77, 276, na, 8, 0
+567, 1964-10-10, 1, 2, India, , Chandrasekhar, 27, 67, na, 3, 0
+567, 1964-10-10, 3, 2, India, c Hanumant Singh, Surti, 20, 72, na, 2, 0
+568, 1964-10-17, 1, 2, India, lbw, Surti, 67, 200, na, 13, 0
+568, 1964-10-17, 3, 2, India, c Hanumant Singh, Surti, 71, 111, na, 14, 0
+569, 1964-10-24, 2, 2, Pakistan, c Pervez Sajjad, Saeed Ahmed, 153, 405, na, 13, 0
+569, 1964-10-24, 4, 2, Pakistan, c Khalid Ibadulla, Nasim-ul-Ghani, 115, 200, na, 15, 0
+570, 1964-12-04, 2, 1, Pakistan, , Arif Butt, 47, 97, 64, 3, 0
+570, 1964-12-04, 4, 1, Pakistan, c Hanif Mohammad, Arif Butt, 1, 13, 4, 0, 0
+580, 1965-03-03, 2, 2, West Indies, c Kanhai, Hall, 11, na, na, na, 0
+580, 1965-03-03, 4, 2, West Indies, c Hendriks, Hall, 16, na, na, na, 0
+584, 1965-03-26, 2, 2, West Indies, , Griffith, 30, na, na, na, 0
+588, 1965-04-14, 2, 1, West Indies, , Sobers, 7, na, na, na, 0
+588, 1965-04-14, 4, 1, West Indies, , Griffith, 23, na, na, na, 0
+589, 1965-05-05, 1, 2, West Indies, , Hall, 201, na, na, na, 0
+589, 1965-05-05, 3, 2, West Indies, c +Nurse, Sobers, 5, na, na, na, 0
+590, 1965-05-14, 2, 2, West Indies, , Griffith, 72, na, na, na, 0
+590, 1965-05-14, 4, 2, West Indies, not out, , 34, na, na, na, 0
+598, 1966-12-30, 1, 1, England, c Edrich, Allen, 59, 145, 145, 7, 0
+598, 1966-12-30, 3, 1, England, c Barrington, Knight, 67, 147, 129, 7, 0
+600, 1966-01-28, 2, 1, England, c Titmus, Jones, 225, 545, 427, 18, 1
+601, 1966-02-11, 2, 2, England, , Brown, 4, 13, 6, 1, 0
+611, 1966-12-23, 2, 1, South Africa, c Goddard, PM Pollock, 65, 144, na, 6, 0
+611, 1966-12-23, 4, 1, South Africa, run out, , 48, na, na, na, 0
+613, 1967-12-31, 1, 1, South Africa, c Lance, Barlow, 153, 386, na, 12, 0
+613, 1967-12-31, 4, 1, South Africa, c Goddard, PM Pollock, 18, 49, na, 2, 0
+615, 1967-01-20, 2, 1, South Africa, c Lindsay, Procter, 6, na, na, na, 0
+615, 1967-01-20, 3, 1, South Africa, lbw, Trimborn, 94, 273, na, 6, 0
+616, 1967-02-03, 1, 2, South Africa, c du Preez, Goddard, 24, 112, na, na, 0
+616, 1967-02-03, 3, 2, South Africa, c Bacher, Procter, 28, na, na, na, 0
+617, 1967-02-24, 1, 1, South Africa, c Lindsay, PM Pollock, 12, 20, na, na, 0
+617, 1967-02-24, 3, 1, South Africa, lbw, Goddard, 35, 102, na, na, 0
+624, 1967-12-23, 1, 1, India,                c &, Abid Ali, 55, 144, na, 2, 0
+624, 1967-12-23, 3, 1, India, , Surti, 103, 232, na, 12, 0
+625, 1968-12-30, 2, 1, India, , Surti, 109, 220, 186, 8, 0
+628, 1968-01-26, 1, 6, India, , Bedi, 7, 14, 29, 1, 0
+628, 1968-01-26, 3, 3, India, run out, , 20, 75, 79, 0, 0
+809, 1977-12-02, 1, 5, India, c Gavaskar, Bedi, 7, 5, 6, 1, 0
+809, 1977-12-02, 3, 5, India, c Viswanath, Amarnath, 89, 311, 269, 7, 0
+811, 1977-12-16, 2, 5, India, c Vengsarkar, Venkataraghavan, 176, 388, 355, 17, 0
+811, 1977-12-16, 4, 6, India, run out, , 39, 95, 92, 3, 0
+812, 1978-12-30, 2, 5, India, c Mankad, Chandrasekhar, 2, 2, 3, 0, 0
+812, 1978-12-30, 4, 5, India, lbw, Chandrasekhar, 4, 7, 7, 0, 0
+814, 1978-01-07, 1, 5, India, c Kirmani, Chandrasekhar, 38, 113, 99, 2, 0
+814, 1978-01-07, 3, 5, India, lbw, Prasanna, 33, 131, 126, 2, 0
+816, 1978-01-28, 1, 5, India, c Viswanath, Ghavri, 100, 264, 200, 6, 0
+816, 1978-01-28, 3, 5, India, lbw, Ghavri, 51, 177, na, 1, 0
+819, 1978-03-03, 1, 5, West Indies, lbw, Garner, 0, 13, na, 0, 0
+819, 1978-03-03, 3, 5, West Indies, , Parry, 14, 68, na, 0, 0
+821, 1978-03-17, 1, 5, West Indies, c Murray, Croft, 9, 34, na, 1, 0
+821, 1978-03-17, 3, 7, West Indies, c Murray, Roberts, 17, 78, na, 0, 0
+822, 1978-03-31, 2, 6, West Indies, run out, , 67, 179, na, 5, 0
+822, 1978-03-31, 4, 4, West Indies, c Murray, Clarke, 4, 14, na, 0, 0
+823, 1978-04-15, 2, 6, West Indies, lbw, Holder, 36, 53, na, 6, 0
+823, 1978-04-15, 4, 6, West Indies, lbw, Jumadeen, 6, 15, na, 1, 0
+824, 1978-04-28, 1, 6, West Indies, c Murray, Foster, 46, 138, na, 3, 0

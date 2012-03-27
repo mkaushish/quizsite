@@ -1,0 +1,92 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+1157, 1990-11-23, 1, 1, West Indies, c Best, Ambrose, 0, 7, 5, 0, 0
+1157, 1990-11-23, 3, 1, West Indies, lbw, Bishop, 0, 4, 3, 0, 0
+1248, 1994-02-10, 2, 1, New Zealand, c Blain, Cairns, 16, 18, 15, 3, 0
+1248, 1994-02-10, 4, 1, New Zealand, c Young, de Groen, 7, 32, 22, 0, 0
+1249, 1994-02-17, 2, 1, New Zealand, run out, , 169, 307, 248, 27, 0
+1251, 1994-02-24, 1, 1, New Zealand, c Young, Doull, 69, 131, 94, 10, 1
+1251, 1994-02-24, 3, 1, New Zealand, c Blain, Morrison, 0, 2, 3, 0, 0
+1265, 1994-08-09, 1, 1, Sri Lanka, c Jayasuriya, Warnaweera, 94, 222, 163, 9, 0
+1265, 1994-08-09, 3, 1, Sri Lanka, c Dassanayake, Warnaweera, 136, 319, 218, 12, 0
+1267, 1994-08-26, 2, 1, Sri Lanka, lbw, Pushpakumara, 31, 108, 67, 2, 0
+1268, 1994-09-28, 2, 1, Australia, c ME Waugh, May, 85, 190, 124, 13, 1
+1268, 1994-09-28, 4, 1, Australia,                c &, Angel, 77, 290, 179, 9, 1
+1269, 1994-10-05, 2, 1, Australia, c SR Waugh, McDermott, 15, 18, 12, 3, 0
+1269, 1994-10-05, 3, 1, Australia, c Healy, ME Waugh, 75, 276, 188, 9, 0
+1273, 1994-11-01, 1, 1, Australia, , Warne, 30, 71, 45, 5, 0
+1273, 1994-11-01, 3, 2, Australia, c Emery, McGrath, 32, 64, 41, 6, 0
+1283, 1995-01-19, 2, 2, South Africa, c Cullinan, de Villiers, 2, 29, 22, 0, 0
+1283, 1995-01-19, 4, 2, South Africa, c de Villiers, Donald, 1, 24, 14, 0, 0
+1285, 1995-01-31, 2, 2, Zimbabwe, c A Flower, Olonga, 8, 36, 28, 0, 0
+1285, 1995-01-31, 3, 2, Zimbabwe, lbw, Whittall, 7, 31, 22, 1, 0
+1290, 1995-02-15, 1, 3, Zimbabwe, c Butchart, Streak, 4, 9, 10, 0, 0
+1290, 1995-02-15, 3, 1, Zimbabwe, c Carlisle, Streak, 26, 107, 83, 1, 0
+1304, 1995-09-08, 1, 1, Sri Lanka, c A Ranatunga, Muralitharan, 50, 123, 86, 7, 0
+1305, 1995-09-15, 2, 1, Sri Lanka, c de Silva, Muralitharan, 54, 174, 92, 8, 0
+1305, 1995-09-15, 4, 1, Sri Lanka, , Dharmasena, 50, 158, 121, 5, 0
+1330, 1996-07-25, 1, 2, England, c Russell, Hick, 74, 162, 120, 10, 0
+1330, 1996-07-25, 3, 1, England, c Russell, Mullally, 88, 198, 144, 8, 1
+1331, 1996-08-08, 1, 1, England, c Atherton, Mullally, 1, 12, 11, 0, 0
+1331, 1996-08-08, 3, 1, England, c Russell, Cork, 22, 56, 45, 3, 0
+1332, 1996-08-22, 2, 1, England, c Croft, Cork, 176, 378, 264, 26, 0
+1332, 1996-08-22, 4, 1, England, c Knight, Mullally, 1, 10, 8, 0, 0
+1336, 1996-10-17, 2, 1, Zimbabwe, st A Flower, PA Strang, 51, 101, 87, 6, 0
+1337, 1996-10-24, 2, 1, Zimbabwe, c A Flower, Matambanadzo, 81, 126, 97, 16, 0
+1337, 1996-10-24, 4, 1, Zimbabwe, not out, , 50, 85, 66, 9, 0
+1339, 1996-11-21, 2, 1, New Zealand, , Doull, 8, 17, 11, 2, 0
+1339, 1996-11-21, 4, 1, New Zealand, lbw, Doull, 0, 1, 2, 0, 0
+1342, 1996-11-28, 2, 1, New Zealand, c Doull, Cairns, 149, 311, 214, 20, 0
+1380, 1997-10-06, 1, 1, South Africa, c Richardson, Donald, 16, 38, 26, 2, 0
+1380, 1997-10-06, 3, 1, South Africa, c sub (JN Rhodes), Donald, 4, 12, 12, 1, 0
+1381, 1997-10-17, 2, 2, South Africa, , Symcox, 17, 75, 47, 3, 0
+1382, 1997-10-24, 2, 2, South Africa, lbw, Pollock, 3, 12, 5, 0, 0
+1382, 1997-10-24, 4, 3, South Africa, c Richardson, Pollock, 0, 12, 10, 0, 0
+1384, 1997-11-17, 2, 1, West Indies, c D Williams, Hooper, 65, 185, 117, 9, 0
+1389, 1997-11-29, 2, 1, West Indies, c D Williams, Ambrose, 16, 44, 31, 3, 0
+1391, 1997-12-06, 2, 3, West Indies, c D Williams, Dillon, 15, 53, 36, 1, 0
+1400, 1998-02-14, 2, 1, South Africa, c Cullinan, Donald, 2, 33, 25, 0, 0
+1403, 1998-03-26, 1, 1, South Africa, lbw, Donald, 43, 136, 84, 7, 0
+1403, 1998-03-26, 3, 1, South Africa, lbw, Pollock, 118, 312, 209, 18, 0
+1406, 1998-03-06, 2, 1, South Africa, c Boucher, Donald, 18, 31, 20, 3, 0
+1406, 1998-03-06, 4, 1, South Africa, c Kallis, Donald, 55, 137, 109, 8, 0
+1408, 1998-03-14, 2, 1, Zimbabwe, c A Flower, GJ Whittall, 33, 71, 53, 5, 0
+1408, 1998-03-14, 4, 1, Zimbabwe, c Goodwin, Strang, 37, 115, 80, 6, 0
+1412, 1998-03-21, 2, 1, Zimbabwe, lbw, Whittall, 15, 71, 44, 2, 0
+1412, 1998-03-21, 4, 1, Zimbabwe, c sub (AR Whittall), Whittall, 65, 121, 89, 8, 1
+1424, 1998-10-01, 1, 1, Australia, c Langer, MacGill, 145, 386, 275, 12, 0
+1424, 1998-10-01, 3, 1, Australia, lbw, Miller, 19, 79, 56, 2, 0
+1426, 1998-10-15, 2, 1, Australia, c Healy, Miller, 126, 289, 225, 18, 3
+1430, 1998-11-27, 1, 1, Zimbabwe, , Johnson, 36, 90, 62, 5, 0
+1430, 1998-11-27, 3, 7, Zimbabwe, c A Flower, Olonga, 31, 108, 76, 4, 0
+1432, 1998-12-10, 2, 1, Zimbabwe, c A Flower, Johnson, 75, 182, 114, 11, 0
+1442, 1999-01-28, 1, 1, India, lbw, Srinath, 24, 50, 30, 4, 0
+1442, 1999-01-28, 3, 1, India, lbw, Prasad, 7, 19, 15, 1, 0
+1443, 1999-02-04, 2, 1, India, c Mongia, Prasad, 1, 6, 5, 0, 0
+1443, 1999-02-04, 4, 1, India, c Laxman, Kumble, 69, 157, 128, 12, 0
+1444, 1999-02-16, 1, 1, India, , Prasad, 0, 16, 12, 0, 0
+1444, 1999-02-16, 3, 1, India, not out, , 188, 452, 259, 23, 1
+1447, 1999-03-04, 1, 1, Sri Lanka, , Wickramasinghe, 0, 2, 3, 0, 0
+1447, 1999-03-04, 3, 4, Sri Lanka, run out (de Silva), , 45, 104, 62, 6, 0
+1450, 1999-03-12, 2, 1, Sri Lanka,                c &, Arnold, 57, 171, 113, 7, 0
+1467, 1999-11-05, 1, 1, Australia, c ME Waugh, Warne, 61, 134, 99, 7, 0
+1467, 1999-11-05, 3, 1, Australia, c Gilchrist, McGrath, 119, 254, 174, 20, 0
+1469, 1999-11-18, 1, 1, Australia, c Warne, McGrath, 0, 8, 7, 0, 0
+1469, 1999-11-18, 3, 1, Australia, , Warne, 78, 190, 156, 9, 1
+1472, 1999-11-26, 1, 1, Australia, c Ponting, McGrath, 18, 48, 29, 2, 0
+1472, 1999-11-26, 3, 1, Australia, c Gilchrist, Fleming, 6, 22, 19, 0, 0
+1485, 2000-03-26, 1, 1, Sri Lanka, c Arnold, Vaas, 23, 68, 49, 2, 0
+1485, 2000-03-26, 3, 1, Sri Lanka, , Vaas, 84, 280, 219, 11, 0
+1487, 2000-03-05, 2, 1, Sri Lanka, c Muralitharan, Jayasuriya, 74, 241, 191, 9, 1
+1487, 2000-03-05, 4, 1, Sri Lanka, c Wickramasinghe, Vaas, 36, 174, 122, 3, 0
+1499, 2000-05-14, 2, 1, Sri Lanka, c Ranatunga, Muralitharan, 56, 200, 136, 8, 0
+1499, 2000-05-14, 4, 1, Sri Lanka, c Fernando, Zoysa, 6, 34, 23, 0, 0
+1501, 2000-05-21, 2, 1, Sri Lanka, c Kaluwitharana, Arnold, 123, 339, 237, 12, 2
+1513, 2000-10-15, 2, 1, England, lbw, Hick, 40, 87, 85, 4, 0
+1518, 2000-11-29, 1, 1, England, c Thorpe, Giles, 53, 109, 52, 7, 0
+1521, 2000-11-07, 1, 1, England, lbw, Gough, 8, 20, 17, 0, 0
+1521, 2000-11-07, 3, 1, England, c Thorpe, Caddick, 21, 43, 33, 3, 0
+1546, 2001-04-17, 2, 1, England, c Atherton, Gough, 12, 20, 15, 3, 0
+1546, 2001-04-17, 3, 1, England, c Thorpe, Caddick, 8, 40, 28, 0, 0
+1547, 2001-05-31, 1, 1, England, c Atherton, Caddick, 29, 81, 50, 4, 0
+1547, 2001-05-31, 3, 1, England, c Thorpe, Gough, 12, 11, 14, 3, 0
+1560, 2001-07-29, 2, 1, Bangladesh, c Hasibul Hossain, Mohammad Sharif, 101, 131, 104, 17, 1

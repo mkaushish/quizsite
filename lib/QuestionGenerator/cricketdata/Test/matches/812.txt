@@ -1,0 +1,130 @@
+
+Test # 812
+India in Australia, 1977/78, 3rd Test
+Australia v India
+Melbourne Cricket Ground
+30,31 December 1977, 2,3,4 January 1978 (5-day match)
+
+Result: India won by 222 runs
+Series: Australia leads the 5-match series 2-1
+
+Toss: India
+Umpires: RA French and MG O'Connell
+Balls per over: 8
+
+Close of play:
+ Day 1: India 234/6 (Mankad 30*)
+ Day 2: India 256, Australia 213, India 50/1 (Gavaskar 25*, Kirmani 5*)
+ Day 3: India 234/4 (Gavaskar 103*, Mankad 15*)
+ Day 4: India 343, Australia 123/8 (Clark 2*, Thomson 0*)
+
+India 1st innings                                               R   M   B  4 6
+SM Gavaskar           c Rixon            b Thomson              0  12   9  0 0
+CPS Chauhan           c Mann             b Clark                0   9   6  0 0
+M Amarnath            c Simpson          b Clark               72 269 178  3 0
+GR Viswanath          c Rixon            b Thomson             59 154  95  4 0
+DB Vengsarkar         c Simpson          b Thomson             37  94  88  2 0
+AV Mankad             c Clark            b Gannon              44 119 100  1 0
++SMH Kirmani          lbw                b Simpson             29  85  62  1 0
+KD Ghavri             c Rixon            b Gannon               6  26  20  0 0
+EAS Prasanna                             b Clark                0   6   1  0 0
+*BS Bedi              not out                                   2   4   1  0 0
+BS Chandrasekhar                         b Clark                0   2   1  0 0
+Extras                (lb 3, nb 4)                              7
+Total                 (all out, 69.2 overs)                   256
+
+FoW: 1-0 (Chauhan), 2-0 (Gavaskar), 3-105 (Viswanath),
+     4-174 (Vengsarkar), 5-180 (Amarnath), 6-234 (Kirmani),
+     7-254 (Ghavri), 8-254 (Mankad), 9-256 (Prasanna),
+     10-256 (Chandrasekhar).
+
+Bowling                      O      M      R      W
+Thomson                     16      2     78      3
+Clark                       19.2    2     73      4
+Gannon                      14      2     47      2
+Cosier                      12      3     25      0
+Simpson                      3      1     11      1
+Mann                         5      1     15      0
+
+Australia 1st innings                                           R   M   B  4 6
+J Dyson                                  b Ghavri               0   2   2  0 0
+GJ Cosier             c Chauhan          b Chandrasekhar       67 125 101  9 0
+AD Ogilvie            lbw                b Ghavri               6  23  10  0 0
+CS Serjeant                              b Chandrasekhar       85 216 170  8 0
+*RB Simpson           c Mankad           b Chandrasekhar        2   2   3  0 0
+PM Toohey             c Viswanath        b Bedi                14  43  36  1 0
+AL Mann               c Gavaskar         b Bedi                11   9  12  1 0
++SJ Rixon             lbw                b Chandrasekhar       11  45  49  1 0
+WM Clark              lbw                b Chandrasekhar        3  20  15  0 0
+JR Thomson            c Ghavri           b Chandrasekhar        0   2   2  0 0
+JB Gannon             not out                                   0   5   2  0 0
+Extras                (b 6, lb 7, nb 1)                        14
+Total                 (all out, 50.1 overs)                   213
+
+FoW: 1-0 (Dyson), 2-18 (Ogilvie), 3-122 (Cosier),
+     4-124 (Simpson), 5-166 (Toohey), 6-178 (Mann),
+     7-202 (Rixon), 8-211 (Serjeant), 9-211 (Clark),
+     10-213 (Thomson).
+
+Bowling                      O      M      R      W
+Ghavri                       9      0     37      2
+Gavaskar                     2      0      7      0
+Bedi                        15      2     71      2
+Chandrasekhar               14.1    2     52      6
+Prasanna                    10      1     32      0
+
+India 2nd innings                                               R   M   B  4 6
+SM Gavaskar           c Serjeant         b Gannon             118 351 285 12 0
+CPS Chauhan           run out                                  20  45  27  2 0
++SMH Kirmani          c Thomson          b Mann                29  82  62  2 0
+GR Viswanath          lbw                b Clark               54 114  94  4 0
+DB Vengsarkar         c Cosier           b Clark                6  18  20  0 0
+AV Mankad                                b Clark               38 130  84  2 0
+M Amarnath                               b Cosier              41 115 100  3 0
+KD Ghavri             c Simpson          b Clark                6  13  10  1 0
+EAS Prasanna          c Rixon            b Gannon              11  32  23  1 0
+*BS Bedi              not out                                  12  30  13  0 0
+BS Chandrasekhar      lbw                b Cosier               0   2   1  0 0
+Extras                (lb 1, nb 7)                              8
+Total                 (all out, 88.7 overs)                   343
+
+FoW: 1-40 (Chauhan), 2-89 (Kirmani), 3-187 (Viswanath),
+     4-198 (Vengsarkar), 5-265 (Gavaskar), 6-286 (Mankad),
+     7-294 (Ghavri), 8-315 (Prasanna), 9-343 (Amarnath),
+     10-343 (Chandrasekhar).
+
+Bowling                      O      M      R      W
+Thomson                     18      4     47      0
+Clark                       29      3     96      4
+Gannon                      22      4     88      2
+Cosier                      12.7    2     58      2
+Simpson                      3      0     22      0
+Mann                         4      0     24      1
+
+Australia 2nd innings (target: 387 runs)                        R   M   B  4 6
+J Dyson               lbw                b Bedi                12  48  31  1 0
+GJ Cosier                                b Chandrasekhar       34  63  55  0 0
+AD Ogilvie            c Chauhan          b Bedi                 0   2   4  0 0
+CS Serjeant                              b Chandrasekhar       17  43  41  1 0
+*RB Simpson           lbw                b Chandrasekhar        4   7   7  0 0
+PM Toohey             c Chauhan          b Chandrasekhar       14  52  53  0 0
+AL Mann               c Gavaskar         b Chandrasekhar       18  59  56  1 1
++SJ Rixon                            c & b Chandrasekhar       12  49  49  0 0
+WM Clark              c Ghavri           b Bedi                33  63  60  3 0
+JR Thomson                           c & b Bedi                 7  38  46  0 0
+JB Gannon             not out                                   3   8   8  0 0
+Extras                (b 6, lb 4)                              10
+Total                 (all out, 51.1 overs)                   164
+
+FoW: 1-42 (Dyson), 2-42 (Ogilvie), 3-52 (Cosier), 4-60 (Simpson),
+     5-77 (Serjeant), 6-98 (Toohey), 7-115 (Mann), 8-122 (Rixon),
+     9-151 (Thomson), 10-164 (Clark).
+
+Bowling                      O      M      R      W
+Ghavri                       4      0     29      0
+Bedi                        16.1    5     58      4
+Chandrasekhar               20      3     52      6
+Prasanna                     8      4      5      0
+Amarnath                     3      0     10      0
+
+<END>

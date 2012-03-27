@@ -1,0 +1,54 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+935, 1982-09-22, 1, 6, Pakistan, c Haroon Rasheed, Abdul Qadir, 4, 13, 15, 1, 0
+935, 1982-09-22, 3, 6, Pakistan, , Iqbal Qasim, 17, 45, 51, 0, 0
+936, 1982-09-30, 2, 6, Pakistan, run out, , 34, 194, 148, 1, 0
+936, 1982-09-30, 3, 5, Pakistan, not out, , 106, 293, 216, 9, 3
+937, 1982-10-14, 1, 6, Pakistan, lbw, Imran Khan, 26, 140, 85, 1, 0
+937, 1982-10-14, 3, 6, Pakistan, lbw, Imran Khan, 18, 96, 17, 1, 0
+979, 1984-03-02, 1, 3, West Indies, c Davis, Harper, 78, 207, 152, 10, 1
+979, 1984-03-02, 3, 3, West Indies, lbw, Garner, 3, 10, 6, 0, 0
+983, 1984-03-16, 1, 3, West Indies, , Garner, 1, 9, 5, 0, 0
+983, 1984-03-16, 3, 3, West Indies, , Small, 26, 36, 21, 5, 0
+986, 1984-03-30, 1, 3, West Indies,                c &, Harper, 57, 160, 109, 6, 1
+986, 1984-03-30, 3, 3, West Indies, c Haynes, Marshall, 0, 1, na, 0, 0
+987, 1984-04-07, 1, 2, West Indies, c Holding, Marshall, 6, 31, 22, 1, 0
+987, 1984-04-07, 3, 2, West Indies, c Dujon, Garner, 23, 37, 34, 3, 0
+988, 1984-04-28, 1, 4, West Indies, c Dujon, Marshall, 5, 12, 6, 1, 0
+988, 1984-04-28, 3, 4, West Indies, , Holding, 8, 19, 10, 0, 0
+1006, 1985-12-30, 1, 4, West Indies, run out, , 37, 102, 68, 3, 0
+1017, 1985-06-13, 1, 6, England, , Botham, 46, 92, 64, 8, 0
+1017, 1985-06-13, 3, 6, England, , Emburey, 1, 3, 6, 0, 0
+1018, 1985-06-27, 2, 6, England, lbw, Botham, 94, 266, 212, 10, 0
+1018, 1985-06-27, 4, 4, England, , Allott, 2, 33, 16, 0, 0
+1019, 1985-07-11, 2, 7, England, , Edmonds, 146, 356, 309, 16, 0
+1020, 1985-08-01, 1, 5, England,                c &, Edmonds, 4, 1, 3, 1, 0
+1020, 1985-08-01, 3, 6, England, , Emburey, 31, 124, 102, 3, 1
+1021, 1985-08-15, 1, 5, England, c Botham, Ellison, 8, 38, 22, 1, 0
+1021, 1985-08-15, 3, 6, England, c Lamb, Emburey, 20, 125, 102, 0, 0
+1022, 1985-08-29, 2, 6, England, not out, , 64, 195, 156, 5, 0
+1022, 1985-08-29, 3, 6, England, c Downton, Ellison, 6, 58, 42, 0, 0
+1029, 1985-11-08, 1, 5, New Zealand, c MD Crowe, Hadlee, 8, 17, 16, 1, 0
+1029, 1985-11-08, 3, 5, New Zealand, c Coney, Snedden, 20, 72, 60, 2, 0
+1030, 1985-11-22, 2, 5, New Zealand, c JJ Crowe, Hadlee, 89, 281, 254, 5, 1
+1030, 1985-11-22, 4, 5, New Zealand, c MD Crowe, Hadlee, 13, 31, 27, 0, 0
+1031, 1985-11-30, 1, 5, New Zealand, lbw, Coney, 6, 19, 20, 0, 0
+1031, 1985-11-30, 3, 5, New Zealand, c MD Crowe, Coney, 44, 180, 156, 3, 0
+1032, 1985-12-13, 1, 5, India, c Kirmani, Kapil Dev, 128, 389, 321, 11, 0
+1034, 1986-01-02, 2, 4, India, c Kapil Dev, Yadav, 14, 31, 37, 0, 0
+1034, 1986-01-02, 3, 3, India, not out, , 17, 166, 157, 1, 0
+1035, 1986-02-21, 1, 5, New Zealand, , Troup, 92, 268, 200, 12, 0
+1038, 1986-02-28, 1, 5, New Zealand, lbw, Hadlee, 4, 10, 19, 0, 0
+1038, 1986-02-28, 3, 5, New Zealand, c Smith, Bracewell, 11, 72, 71, 1, 0
+1040, 1986-03-13, 1, 6, New Zealand, c Smith, Chatfield, 56, 118, 107, 8, 0
+1040, 1986-03-13, 3, 6, New Zealand, lbw, Chatfield, 1, 14, 8, 0, 0
+1052, 1986-09-18, 1, 6, India, run out, , 13, 17, 18, 1, 1
+1052, 1986-09-18, 3, 5, India, c Pandit, Shastri, 28, 84, 29, 2, 1
+1054, 1986-10-15, 1, 5, India, run out, , 31, 123, 105, 4, 0
+1057, 1986-11-14, 2, 6, England, c Edmonds, Dilley, 41, 120, 115, 4, 1
+1057, 1986-11-14, 3, 5, England, lbw, DeFreitas, 45, 176, 164, 2, 1
+1059, 1986-11-28, 2, 6, England, c Botham, Edmonds, 33, 85, 65, 6, 0
+1059, 1986-11-28, 4, 5, England, not out, , 24, 134, 139, 3, 0
+1060, 1986-12-12, 1, 5, England, c Broad, DeFreitas, 36, 83, 56, 3, 0
+1060, 1986-12-12, 3, 5, England, not out, , 46, 207, 162, 2, 0
+1065, 1987-01-10, 1, 2, England, lbw, Dilley, 6, 20, 12, 1, 0
+1065, 1987-01-10, 3, 2, England, c Botham, Edmonds, 13, 67, 46, 0, 0

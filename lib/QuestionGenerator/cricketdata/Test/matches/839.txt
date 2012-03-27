@@ -1,0 +1,124 @@
+
+Test # 839
+West Indies in India, 1978/79, 3rd Test
+India v West Indies
+Eden Gardens, Calcutta
+29,30,31 December 1978, 2,3 January 1979 (5-day match)
+
+Result: Match drawn
+Series: 6-match series level 0-0
+
+Toss: India
+Umpires: SN Hanumantha Rao and PR Punjabi
+Test debut: MV Narasimha Rao (India).
+
+Close of play:
+ Day 1: India 225/8 (Kapil Dev 0*, Venkataraghavan 0*)
+ Day 2: India 300, West Indies 209/3 (Kallicharran 54*, Holder 1*)
+ Day 3: West Indies 327, India 70/1 (Gavaskar 34*, Vengsarkar 27*)
+ Day 4: India 361/1d, West Indies 15/0 (Bacchus 7*, Murray 7*)
+
+India 1st innings                                               R   M   B  4 6
+*SM Gavaskar          c Bacchus          b Phillip            107            0
+CPS Chauhan                              b Clarke              11            0
+AD Gaekwad            c Murray           b Marshall             7            0
+GR Viswanath                             b Phillip             32            0
+DB Vengsarkar         c Williams         b Parry               42            0
+MV Narasimha Rao      c Gomes            b Parry                1          0 0
+KD Ghavri             c Marshall         b Phillip              5            0
++SMH Kirmani          lbw                b Phillip              0          0 0
+N Kapil Dev                              b Parry               61      62  9 1
+S Venkataraghavan     lbw                b Holder               7            0
+BS Bedi               not out                                   4            0
+Extras                (b 3, lb 2, nb 18)                       23
+Total                 (all out, 104.3 overs)                  300
+
+FoW: 1-20 (Chauhan), 2-48 (Gaekwad), 3-110 (Viswanath),
+     4-199 (Vengsarkar), 5-209 (Narasimha Rao), 6-220 (Gavaskar),
+     7-220 (Kirmani), 8-225 (Ghavri), 9-283 (Venkataraghavan),
+     10-300 (Kapil Dev).
+
+Bowling                      O      M      R      W
+Clarke                      27      8     70      1
+Phillip                     22      6     64      4
+Marshall                    12      3     44      1
+Holder                      21      5     48      1
+Gomes                        1      1      0      0
+Parry                       20.3    7     51      3
+Shivnarine                   1      1      0      0
+
+West Indies 1st innings                                         R   M   B  4 6
+AB Williams                          c & b Ghavri             111 214        0
+SFAF Bacchus                             b Ghavri              26            0
+HA Gomes                                 b Venkataraghavan      8            0
+*AI Kallicharran      c Narasimha Rao    b Venkataraghavan     55            0
+VA Holder             c Narasimha Rao    b Venkataraghavan      3          0 0
++DA Murray            c Kapil Dev        b Venkataraghavan      2          0 0
+S Shivnarine          c sub              b Ghavri              48            0
+DR Parry                                 b Bedi                 4            0
+N Phillip             lbw                b Kapil Dev           47            1
+MD Marshall           c Kirmani          b Kapil Dev            1          0 0
+ST Clarke             not out                                   4            0
+Extras                (b 5, lb 9, nb 4)                        18
+Total                 (all out, 117.4 overs)                  327
+
+FoW: 1-58 (Bacchus), 2-95 (Gomes), 3-197 (Williams),
+     4-210 (Kallicharran), 5-213 (Holder), 6-218 (Murray),
+     7-230 (Parry), 8-313 (Shivnarine), 9-318 (Marshall),
+     10-327 (Phillip).
+
+Bowling                      O      M      R      W
+Kapil Dev                   20.4    3     88      2
+Ghavri                      29      5     74      3
+Bedi                        24      4     59      1
+Venkataraghavan             33     15     55      4
+Narasimha Rao               11      0     33      0
+
+India 2nd innings                                               R   M   B  4 6
+*SM Gavaskar          not out                                 182            0
+AD Gaekwad                               b Clarke               5            0
+DB Vengsarkar         not out                                 157 379        1
+Extras                (b 1, lb 4, nb 12)                       17
+Total                 (1 wicket dec, 93 overs)                361
+
+DNB: CPS Chauhan, GR Viswanath, MV Narasimha Rao, KD Ghavri,
+     +SMH Kirmani, N Kapil Dev, S Venkataraghavan, BS Bedi.
+
+FoW: 1-17 (Gaekwad).
+
+Bowling                      O      M      R      W
+Clarke                      28      4    104      1
+Phillip                     16      0     81      0
+Marshall                    14      3     45      0
+Holder                      20      3     59      0
+Gomes                        1      0      3      0
+Parry                       13      3     50      0
+Shivnarine                   1      0      2      0
+
+West Indies 2nd innings (target: 335 runs)                      R   M   B  4 6
+SFAF Bacchus                         c & b Ghavri              20            0
++DA Murray            st Kirmani         b Venkataraghavan     66            0
+HA Gomes                                 b Venkataraghavan      5            0
+*AI Kallicharran      c Viswanath        b Narasimha Rao       46            0
+S Shivnarine          not out                                  36 126        0
+DR Parry              c Gavaskar         b Venkataraghavan      0          0 0
+AB Williams                              b Ghavri              11            0
+N Phillip             lbw                b Ghavri               0   1   1  0 0
+VA Holder                                b Ghavri               4            0
+MD Marshall           lbw                b Bedi                 1          0 0
+ST Clarke             not out                                   0       8  0 0
+Extras                (b 2, lb 4, nb 2)                         8
+Total                 (9 wickets, 105.1 overs)                197
+
+FoW: 1-35 (Bacchus), 2-45 (Gomes), 3-133 (Kallicharran),
+     4-143 (Murray), 5-145 (Parry), 6-164 (Williams),
+     7-164 (Phillip), 8-183 (Holder), 9-197 (Marshall).
+
+Bowling                      O      M      R      W
+Kapil Dev                   13      6     21      0
+Ghavri                      23      8     46      4
+Bedi                        22     14     32      1
+Venkataraghavan             30     13     47      3
+Narasimha Rao               17.1    6     43      1
+
+<END>

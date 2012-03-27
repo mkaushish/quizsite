@@ -1,0 +1,129 @@
+
+Test # 1050
+New Zealand in England, 1986, 2nd Test
+England v New Zealand
+Trent Bridge, Nottingham
+7,8,9,11,12 August 1986 (5-day match)
+
+Result: New Zealand won by 8 wickets
+Series: New Zealand leads the 3-match series 1-0
+
+Toss: New Zealand
+Umpires: DJ Constant and KE Palmer
+Test debut: GC Small (England).
+Player of the match: RJ Hadlee
+
+Close of play:
+ Day 1: England 240/9 (French 7*, Small 0*)
+ Day 2: England 256, New Zealand 211/5 (Gray 14*, Hadlee 53*)
+ Day 3: New Zealand 413, England 31/1 (Moxon 14*, Edmonds 0*)
+ Day 4: England 64/3 (Edmonds 13*, Gower 0*)
+
+England 1st innings                                             R   M   B  4 6
+GA Gooch              lbw                b Hadlee              18  17  18  3 0
+MD Moxon                                 b Hadlee               9  43  28  1 0
+CWJ Athey             lbw                b Watson              55 133 107  8 0
+DI Gower              lbw                b Gray                71 185 143  9 0
+*MW Gatting                              b Hadlee              17  51  36  2 0
+DR Pringle            c Watson           b Stirling            21  74  64  3 0
+JE Emburey            c Smith            b Hadlee               8  18  17  1 0
+PH Edmonds            c Smith            b Hadlee               0   2   2  0 0
+JG Thomas                                b Hadlee              28  77  63  3 0
++BN French            c Coney            b Watson              21  69  49  2 0
+GC Small              not out                                   2  19  16  0 0
+Extras                (b 1, lb 3, nb 2)                         6
+Total                 (all out, 89.5 overs)                   256
+
+FoW: 1-18 (Gooch), 2-43 (Moxon), 3-126 (Athey), 4-170 (Gatting),
+     5-176 (Gower), 6-191 (Emburey), 7-191 (Edmonds),
+     8-205 (Pringle), 9-240 (Thomas), 10-256 (French).
+
+Bowling                      O      M      R      W
+Hadlee                      32      7     80      6
+Stirling                    17      3     62      1
+Gray                        13      4     30      1
+Watson                      16.5    6     51      2
+Coney                        7      1     18      0
+Bracewell                    4      1     11      0
+
+New Zealand 1st innings                                         R   M   B  4 6
+JG Wright             c Athey            b Small               58 134 106  7 1
+BA Edgar              lbw                b Thomas               8  65  45  0 0
+JJ Crowe              c French           b Small               23  75  66  3 0
+MD Crowe              c Edmonds          b Emburey             28  82  65  2 0
+*JV Coney             run out                                  24  69  52  3 0
+EJ Gray               c Athey            b Edmonds             50 299 234  3 0
+RJ Hadlee             c Gooch            b Thomas              68 167 132  8 0
+JG Bracewell          c Moxon            b Emburey            110 265 200 10 0
++IDS Smith            lbw                b Edmonds              2  11  14  0 0
+DA Stirling                              b Small               26  99  79  2 2
+W Watson              not out                                   8  30  23  1 0
+Extras                (lb 4, w 2, nb 2)                         8
+Total                 (all out, 169.5 overs)                  413
+
+FoW: 1-39 (Edgar), 2-85 (Wright), 3-92 (JJ Crowe), 4-142 (Coney),
+     5-144 (MD Crowe), 6-239 (Hadlee), 7-318 (Gray),
+     8-326 (Smith), 9-391 (Stirling), 10-413 (Bracewell).
+
+Bowling                      O      M      R      W
+Small                       38     12     88      3
+Thomas                      39      5    124      2
+Pringle                     20      1     58      0
+Edmonds                     28     11     52      2
+Emburey                     42.5   17     87      2
+Gooch                        2      2      0      0
+
+England 2nd innings                                             R   M   B  4 6
+GA Gooch              c Coney            b Bracewell           17  25  20  3 0
+MD Moxon              c Smith            b Hadlee              23  62  40  3 0
+PH Edmonds            lbw                b Hadlee              20 113  80  1 0
+CWJ Athey             c Smith            b Bracewell            6  39  34  0 0
+DI Gower              c JJ Crowe         b Bracewell           26  77  64  4 0
+*MW Gatting           c Smith            b Gray                 4  29  24  1 0
+DR Pringle            c Gray             b Stirling             9 107  92  0 0
+JE Emburey            c MD Crowe         b Hadlee              75 132 136  8 0
+JG Thomas             c Gray             b Stirling            10  39  30  0 1
++BN French            not out                                  12  38  30  2 0
+GC Small              lbw                b Hadlee              12  34  24  1 0
+Extras                (b 4, lb 9, w 1, nb 2)                   16
+Total                 (all out, 95.1 overs)                   230
+
+FoW: 1-23 (Gooch), 2-47 (Moxon), 3-63 (Athey), 4-87 (Edmonds),
+     5-98 (Gatting), 6-104 (Gower), 7-178 (Pringle),
+     8-203 (Emburey), 9-203 (Thomas), 10-230 (Small).
+
+Bowling                      O      M      R      W
+Hadlee                      33.1   15     60      4
+Stirling                    18      5     48      2
+Gray                        24      9     55      1
+Watson                       9      3     25      0
+Bracewell                   11      5     29      3
+
+New Zealand 2nd innings (target: 74 runs)                       R   M   B  4 6
+JG Wright                                b Emburey              7  44  32  1 0
+JJ Crowe              lbw                b Small                2  19  13  0 0
+MD Crowe              not out                                  48  79  52  8 0
+*JV Coney             not out                                  20  54  48  1 0
+Extras                                                          0
+Total                 (2 wickets, 24 overs)                    77
+
+DNB: BA Edgar, EJ Gray, RJ Hadlee, JG Bracewell, +IDS Smith,
+     DA Stirling, W Watson.
+
+FoW: 1-5 (JJ Crowe), 2-19 (Wright).
+
+Bowling                      O      M      R      W
+Small                        8      3     10      1
+Thomas                       4      0     16      0
+Pringle                      2      0     16      0
+Edmonds                      4      1     16      0
+Emburey                      6      1     15      1
+Gower                        0      0      4      0 (1nb)
+
+*** DI Gower deliberately threw the final ball of the match and was
+    no-balled. The Secretary of the TCCB, DB Carr, ruled that the MD Crowe's
+    boundary off this ball should be counted.
+*** DI Gower became the first England player to be called for throwing in a
+    Test in England
+
+<END>

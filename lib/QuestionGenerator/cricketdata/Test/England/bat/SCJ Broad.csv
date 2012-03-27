@@ -1,0 +1,54 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+1853, 2007-11-09, 1, 8, Sri Lanka, lbw, Malinga, 2, 12, 8, 0, 0
+1867, 2008-02-13, 1, 8, New Zealand, , Oram, 1, 13, 7, 0, 0
+1867, 2008-02-13, 3, 8, New Zealand, c McCullum, Martin, 16, 35, 39, 1, 0
+1868, 2008-02-22, 1, 8, New Zealand, c McCullum, Southee, 42, 126, 103, 5, 1
+1868, 2008-02-22, 3, 8, New Zealand, not out, , 31, 27, 26, 3, 1
+1874, 2008-04-15, 2, 8, New Zealand, , Oram, 25, 85, 65, 3, 0
+1876, 2008-04-23, 2, 9, New Zealand, c sub (JS Patel), Mills, 30, 53, 50, 4, 0
+1878, 2008-05-05, 1, 8, New Zealand, , Martin, 64, 177, 132, 10, 0
+1880, 2008-06-10, 1, 8, South Africa, , Harris, 76, 158, 124, 10, 0
+1881, 2008-06-18, 1, 8, South Africa, c de Villiers, Morkel, 17, 32, 20, 3, 0
+1881, 2008-06-18, 3, 9, South Africa, not out, , 67, 89, 60, 11, 0
+1885, 2008-07-07, 2, 8, South Africa, c McKenzie, Ntini, 1, 46, 36, 0, 0
+1901, 2008-11-19, 2, 9, India, , Harbhajan Singh, 1, 9, 9, 0, 0
+1906, 2009-01-04, 1, 8, West Indies, c Benn, Taylor, 4, 22, 18, 0, 0
+1906, 2009-01-04, 3, 8, West Indies, c Marshall, Benn, 0, 5, 2, 0, 0
+1908, 2009-01-15, 1, 9, West Indies, c Ramdin, Hinds, 44, 54, 55, 6, 1
+1908, 2009-01-15, 3, 8, West Indies, run out (Ramdin/Benn), , 1, 4, 3, 0, 0
+1911, 2009-02-26, 1, 8, West Indies, not out, , 13, 14, 10, 2, 0
+1914, 2009-02-06, 1, 7, West Indies, c Simmons, Baker, 19, 44, 28, 1, 0
+1914, 2009-02-06, 3, 7, West Indies, not out, , 13, 27, 15, 2, 0
+1919, 2009-04-06, 1, 7, West Indies, c Taylor, Benn, 38, 91, 71, 5, 0
+1920, 2009-04-14, 1, 8, West Indies, not out, , 28, 31, 25, 2, 1
+1922, 2009-06-08, 1, 9, Australia, , Johnson, 19, 22, 20, 4, 0
+1922, 2009-06-08, 3, 8, Australia, lbw, Hauritz, 14, 61, 47, 1, 0
+1925, 2009-06-16, 1, 8, Australia, , Hilfenhaus, 16, 50, 26, 2, 0
+1925, 2009-06-16, 3, 8, Australia, not out, , 0, 1, 0, 0, 0
+1928, 2009-07-30, 2, 8, Australia,                c &, Siddle, 55, 92, 64, 9, 0
+1929, 2009-07-07, 1, 7, Australia, c Katich, Clark, 3, 13, 12, 0, 0
+1929, 2009-07-07, 3, 8, Australia, c Watson, Siddle, 61, 95, 49, 10, 0
+1931, 2009-07-20, 1, 8, Australia, c Ponting, Hilfenhaus, 37, 89, 69, 5, 0
+1931, 2009-07-20, 3, 8, Australia, c Ponting, North, 29, 43, 35, 5, 0
+1942, 2009-11-16, 2, 8, South Africa, lbw, Duminy, 17, 34, 34, 2, 0
+1942, 2009-11-16, 4, 9, South Africa, c Boucher, Harris, 0, 7, 5, 0, 0
+1944, 2009-11-26, 2, 8, South Africa, c Kallis, Duminy, 20, 65, 59, 1, 1
+1946, 2010-01-03, 2, 8, South Africa, , Steyn, 25, 69, 39, 4, 0
+1946, 2010-01-03, 4, 9, South Africa, c de Villiers, Harris, 0, 33, 22, 0, 0
+1948, 2010-01-14, 1, 8, South Africa, c Morkel, Kallis, 13, 18, 13, 2, 0
+1948, 2010-01-14, 3, 8, South Africa, c Boucher, Morkel, 1, 11, 9, 0, 0
+1956, 2010-02-20, 2, 9, Bangladesh, lbw, Mahmudullah, 3, 17, 14, 0, 0
+1967, 2010-07-29, 1, 9, Pakistan, , Umar Gul, 3, 12, 2, 0, 0
+1967, 2010-07-29, 3, 9, Pakistan, c Imran Farhat, Shoaib Malik, 24, 48, 29, 2, 1
+1969, 2010-07-06, 2, 9, Pakistan, c sub (Yasir Hameed), Saeed Ajmal, 0, 2, 3, 0, 0
+1970, 2010-07-18, 1, 9, Pakistan, lbw, Wahab Riaz, 48, 124, 77, 7, 0
+1970, 2010-07-18, 3, 10, Pakistan, c Mohammad Asif, Mohammad Amir, 6, 22, 16, 1, 0
+1971, 2010-07-26, 1, 9, Pakistan, lbw, Saeed Ajmal, 169, 426, 297, 18, 1
+1981, 2010-10-25, 1, 8, Australia, lbw, Siddle, 0, 1, 1, 0, 0
+1995, 2011-05-03, 1, 8, Sri Lanka, lbw, Welegedara, 54, 73, 51, 9, 0
+1995, 2011-05-03, 3, 8, Sri Lanka, c HAPW Jayawardene, Fernando, 3, 11, 7, 0, 0
+1996, 2011-05-16, 2, 9, Sri Lanka, c sub (S Randiv), Lakmal, 0, 6, 6, 0, 0
+2000, 2011-06-21, 1, 8, India, lbw, Kumar, 0, 1, 1, 0, 0
+2000, 2011-06-21, 3, 8, India, not out, , 74, 124, 90, 9, 0
+2001, 2011-07-29, 1, 9, India, c Tendulkar, Harbhajan Singh, 64, 93, 66, 9, 0
+2001, 2011-07-29, 3, 9, India, run out (sub [WP Saha]), , 44, 59, 32, 5, 2

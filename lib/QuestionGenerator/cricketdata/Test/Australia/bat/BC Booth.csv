@@ -1,0 +1,49 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+510, 1961-07-27, 1, 6, England, c Close, Statham, 46, 85, na, 5, 0
+510, 1961-07-27, 3, 6, England, lbw, Dexter, 9, 24, na, 1, 0
+511, 1961-08-17, 2, 6, England, c Subba Row, Lock, 71, 199, na, 12, 0
+535, 1962-11-30, 1, 6, England, c Dexter, Titmus, 112, 215, na, 14, 0
+535, 1962-11-30, 3, 6, England, not out, , 19, 27, na, 1, 0
+536, 1963-12-29, 1, 6, England, c Barrington, Titmus, 27, 81, 76, 1, 0
+536, 1963-12-29, 3, 6, England, c Trueman, Statham, 103, 348, 274, 5, 0
+537, 1963-01-11, 2, 4, England, c Trueman, Titmus, 16, 68, 54, 1, 0
+537, 1963-01-11, 4, 4, England, not out, , 5, 11, 13, 1, 0
+538, 1963-01-25, 1, 4, England, c Cowdrey, Titmus, 34, 106, na, 2, 0
+538, 1963-01-25, 3, 4, England, c Smith, Dexter, 77, 167, na, 7, 1
+539, 1963-02-15, 2, 3, England, , Titmus, 11, 39, na, 0, 0
+539, 1963-02-15, 4, 5, England, , Allen, 0, 1, 3, 0, 0
+548, 1963-12-06, 1, 5, South Africa, c Barlow, PM Pollock, 169, 330, na, 19, 0
+550, 1964-01-10, 1, 5, South Africa, , Partridge, 75, 183, 152, 5, 0
+550, 1964-01-10, 3, 5, South Africa, , Partridge, 16, 47, 37, 1, 0
+553, 1964-01-24, 1, 5, South Africa, c Lindsay, Goddard, 58, 153, na, 6, 0
+553, 1964-01-24, 3, 5, South Africa, lbw, PM Pollock, 24, 97, na, 1, 0
+555, 1964-02-07, 1, 5, South Africa, not out, , 102, 306, 233, 5, 0
+555, 1964-02-07, 3, 3, South Africa, c sub, Seymour, 87, 294, 288, 8, 0
+561, 1964-06-04, 2, 5, England, run out, , 0, 5, na, 0, 0
+561, 1964-06-04, 4, 5, England, not out, , 6, 14, na, 1, 0
+562, 1964-06-18, 1, 5, England, lbw, Trueman, 14, na, na, na, 0
+562, 1964-06-18, 3, 5, England, not out, , 2, na, na, 0, 0
+563, 1964-07-02, 2, 5, England, st Parks, Titmus, 4, na, na, na, 0
+563, 1964-07-02, 4, 5, England, not out, , 12, na, na, na, 0
+564, 1964-07-23, 1, 6, England,                c &, Price, 98, 216, na, 10, 1
+565, 1964-08-13, 2, 5, England, c Trueman, Price, 74, 196, na, 4, 0
+566, 1964-10-02, 1, 5, India, lbw, Nadkarni, 8, 20, na, 0, 1
+566, 1964-10-02, 3, 5, India, c Indrajitsinhji, Durani, 29, 71, na, 4, 0
+567, 1964-10-10, 1, 3, India, , Chandrasekhar, 1, 3, na, 0, 0
+567, 1964-10-10, 3, 5, India, st Indrajitsinhji, Nadkarni, 74, 165, na, 8, 0
+568, 1964-10-17, 1, 5, India, , Durani, 0, 2, na, 0, 0
+569, 1964-10-24, 2, 5, Pakistan, c Asif Iqbal, Majid Khan, 15, na, na, na, 0
+570, 1964-12-04, 2, 5, Pakistan, c Hanif Mohammad, Arif Butt, 57, 140, 98, 3, 0
+580, 1965-03-03, 2, 5, West Indies, , Griffith, 2, na, na, 0, 0
+580, 1965-03-03, 4, 6, West Indies, , Griffith, 56, na, na, na, 0
+584, 1965-03-26, 2, 5, West Indies, c Hendriks, Griffith, 117, na, na, na, 0
+588, 1965-04-14, 2, 6, West Indies, c Sobers, Gibbs, 37, na, na, na, 0
+588, 1965-04-14, 4, 5, West Indies, c Hendriks, Gibbs, 0, na, na, 0, 0
+589, 1965-05-05, 1, 5, West Indies, , Gibbs, 5, na, na, na, 0
+589, 1965-05-05, 3, 5, West Indies, c Sobers, Gibbs, 17, na, na, na, 0
+590, 1965-05-14, 2, 4, West Indies, lbw, Griffith, 0, na, na, 0, 0
+597, 1965-12-10, 1, 5, England,                c &, Titmus, 16, 53, 65, 3, 0
+598, 1966-12-30, 1, 5, England, lbw, Jones, 23, 63, 42, 3, 0
+598, 1966-12-30, 3, 5, England, , Allen, 10, 29, 43, 0, 0
+599, 1966-01-07, 2, 5, England, c Cowdrey, Jones, 8, 26, 34, 0, 0
+599, 1966-01-07, 3, 5, England, , Allen, 27, 53, 64, 3, 0

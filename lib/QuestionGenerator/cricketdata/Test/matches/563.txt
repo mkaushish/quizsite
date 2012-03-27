@@ -1,0 +1,124 @@
+
+Test # 563
+The Ashes, 1964, 3rd Test
+England v Australia
+Headingley, Leeds
+2,3,4,6 July 1964 (5-day match)
+
+Result: Australia won by 7 wickets
+Series: Australia leads the 5-match series 1-0
+
+Toss: England
+Umpires: CS Elliott and WFF Price
+Test debut: RM Cowper (Australia).
+
+Close of play:
+ Day 1: England 268
+ Day 2: Australia 283/8 (Burge 100*)
+ Day 3: Australia 389, England 157/4 (Parks 8*, Gifford 0*)
+
+England 1st innings                                             R   M   B  4 6
+G Boycott             c Simpson          b Corling             38  81      8 0
+JH Edrich             c Veivers          b McKenzie             3          0 0
+*ER Dexter            c Grout            b McKenzie            66 152     12 0
+KF Barrington                            b McKenzie            29            0
+PH Parfitt                               b Hawke               32            0
+K Taylor              c Grout            b Hawke                9  44        0
++JM Parks             c Redpath          b Hawke               68 163      9 0
+FJ Titmus             c Burge            b McKenzie             3          0 0
+FS Trueman            c Cowper           b Hawke                4            0
+N Gifford             not out                                   1          0 0
+JA Flavell            c Redpath          b Hawke                5            0
+Extras                (lb 9, nb 1)                             10
+Total                 (all out, 103.3 overs)                  268
+
+FoW: 1-17 (Edrich), 2-74 (Boycott), 3-129 (Dexter),
+     4-138 (Barrington), 5-163 (Taylor), 6-215 (Parfitt),
+     7-232 (Titmus), 8-260 (Parks), 9-263 (Trueman),
+     10-268 (Flavell).
+
+Bowling                      O      M      R      W
+McKenzie                    26      7     74      4
+Hawke                       31.3   11     75      5
+Corling                     24      7     50      1
+Veivers                     17      3     35      0
+Simpson                      5      0     24      0
+
+Australia 1st innings                                           R   M   B  4 6
+WM Lawry              run out                                  78 175     10 0
+*RB Simpson                              b Gifford             24  60      3 0
+IR Redpath                               b Gifford             20 130      2 0
+PJP Burge             c sub              b Trueman            160 314     24 0
+BC Booth              st Parks           b Titmus               4            0
+RM Cowper                                b Trueman              2          0 0
+TR Veivers            c Parks            b Titmus               8            0
+GD McKenzie                              b Titmus               0          0 0
+NJN Hawke             c Parfitt          b Trueman             37  99      4 0
++ATW Grout            lbw                b Titmus              37  97        0
+GE Corling            not out                                   2          0 0
+Extras                (b 1, lb 8, w 2, nb 6)                   17
+Total                 (all out, 158.3 overs)                  389
+
+FoW: 1-50 (Simpson), 2-124 (Lawry), 3-129 (Redpath),
+     4-154 (Booth), 5-157 (Cowper), 6-178 (Veivers),
+     7-178 (McKenzie), 8-283 (Hawke), 9-372 (Grout),
+     10-389 (Burge).
+
+Bowling                      O      M      R      W
+Trueman                     24.3    2     98      3
+Flavell                     29      5     97      0
+Gifford                     34     15     62      2
+Dexter                      19      5     40      0
+Titmus                      50     24     69      4
+Taylor                       2      0      6      0
+
+England 2nd innings                                             R   M   B  4 6
+G Boycott             c Simpson          b Corling              4            0
+JH Edrich             c Grout            b McKenzie            32            0
+PH Parfitt            c Redpath          b Hawke                6            0
+KF Barrington         lbw                b Veivers             85 189      9 0
+*ER Dexter            c Redpath          b Veivers             17  74      1 0
++JM Parks             c Booth            b McKenzie            23  69      3 0
+N Gifford                                b McKenzie             1          0 0
+K Taylor                                 b Veivers             15            0
+FJ Titmus             c Cowper           b Corling             14            0
+FS Trueman            not out                                  12            0
+JA Flavell            c Simpson          b Corling              5            0
+Extras                (b 6, lb 6, w 1, nb 2)                   15
+Total                 (all out, 89.5 overs)                   229
+
+FoW: 1-13 (Boycott), 2-88 (Edrich), 3-145 (Dexter),
+     4-156 (Barrington), 5-169 (Gifford), 6-184 (Parks),
+     7-192 (Taylor), 8-199 (Parfitt), 9-212 (Titmus),
+     10-229 (Flavell).
+
+Bowling                      O      M      R      W
+McKenzie                    28      8     53      3
+Hawke                       13      1     28      1
+Corling                     17.5    6     52      3
+Veivers                     30     12     70      3
+Simpson                      1      0     11      0
+
+Australia 2nd innings (target: 109 runs)                        R   M   B  4 6
+WM Lawry              c Gifford          b Trueman              1          0 0
+*RB Simpson           c Barrington       b Titmus              30            0
+IR Redpath            not out                                  58 140     10 0
+PJP Burge                                b Titmus               8            0
+BC Booth              not out                                  12            0
+Extras                (b 1, lb 1)                               2
+Total                 (3 wickets, 57 overs)                   111
+
+DNB: RM Cowper, TR Veivers, GD McKenzie, NJN Hawke, +ATW Grout,
+     GE Corling.
+
+FoW: 1-3 (Lawry), 2-45 (Simpson), 3-64 (Burge).
+
+Bowling                      O      M      R      W
+Trueman                      7      0     28      1
+Gifford                     20      5     47      0
+Dexter                       3      0      9      0
+Titmus                      27     19     25      2
+
+*** PH Parfitt (2) retired hurt on 0* from 13/1 to 192/7
+
+<END>

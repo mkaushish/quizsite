@@ -1,0 +1,109 @@
+
+Test # 445
+Australia in South Africa, 1957/58, 2nd Test
+South Africa v Australia
+Newlands, Cape Town
+31 December 1957, 1,2,3 January 1958 (5-day match)
+
+Result: Australia won by an innings and 141 runs
+Series: Australia leads the 5-match series 1-0
+
+Toss: Australia
+Umpires: DV Collins and VJ Costello
+Balls per over: 8
+
+Close of play:
+ Day 1: Australia 234/3 (Burke 114*, Mackay 3*)
+ Day 2: Australia 449, South Africa 46/0 (McGlew 25*, Goddard 20*)
+ Day 3: South Africa 209, South Africa 17/1 (Goddard 12*, Westcott 5*)
+
+Australia 1st innings                                           R   M   B  4 6
+CC McDonald           c Waite            b Fuller              99 263        0
+JW Burke                                 b Tayfield           189 578     15 0
+RN Harvey             c Goddard          b Adcock              15            0
+*ID Craig                                b Goddard              0          0 0
+KD Mackay             lbw                b Tayfield            63            0
+R Benaud              c McGlew           b Tayfield            33            0
+AK Davidson                          c & b Tayfield            21            0
+RB Simpson            c Funston          b Tayfield             3          0 0
++ATW Grout            run out                                   0          0 0
+I Meckiff             not out                                  11            0
+LF Kline              lbw                b Fuller               5            0
+Extras                (b 1, lb 6, nb 3)                        10
+Total                 (all out, 152.2 overs)                  449
+
+FoW: 1-190 (McDonald), 2-215 (Harvey), 3-220 (Craig),
+     4-350 (Mackay), 5-399 (Burke), 6-408 (Benaud),
+     7-412 (Simpson), 8-412 (Grout), 9-434 (Davidson),
+     10-449 (Kline).
+
+Bowling                      O      M      R      W
+Adcock                      27      5     80      1
+Goddard                     29      9     57      1
+Fuller                      34.2    3    125      2
+Tayfield                    51     18    120      5
+Westcott                     4      0     22      0
+van Ryneveld                 7      0     35      0
+
+South Africa 1st innings                                        R   M   B  4 6
+DJ McGlew             c Mackay           b Davidson            30            0
+TL Goddard            lbw                b Benaud              29            0
+RJ Westcott           c Simpson          b Davidson             0          0 0
++JHB Waite            c Simpson          b Kline                7            0
+RA McLean             c Harvey           b Kline               38            0
+WR Endean             c Davidson         b Burke               21            0
+KJ Funston                           c & b Benaud               2          0 0
+*CB van Ryneveld                         b Benaud              43            0
+ERH Fuller            c Harvey           b Benaud               5            0
+HJ Tayfield           c Benaud           b Kline               21            0
+NAT Adcock            not out                                   0          0 0
+Extras                (b 6, lb 5, w 1, nb 1)                   13
+Total                 (all out, 86.5 overs)                   209
+
+FoW: 1-61 (Goddard), 2-61 (McGlew), 3-70 (Westcott),
+     4-103 (Waite), 5-118 (McLean), 6-121 (Funston),
+     7-146 (Endean), 8-164 (Fuller), 9-209 (van Ryneveld),
+     10-209 (Tayfield).
+
+Bowling                      O      M      R      W
+Meckiff                      5.4    1     18      0
+Davidson                    18      5     31      2
+Benaud                      35      6     95      4
+Kline                       19.1    5     29      3
+Burke                        9      2     23      1
+
+South Africa 2nd innings (following on)                         R   M   B  4 6
+DJ McGlew             c McDonald         b Davidson             0          0 0
+TL Goddard            not out                                  56            0
+RJ Westcott           c Davidson         b Benaud              18            0
++JHB Waite            c Benaud           b Davidson             8            0
+RA McLean             c Burke            b Benaud               2          0 0
+WR Endean                                b Benaud               5            0
+KJ Funston                               b Benaud               8            0
+*CB van Ryneveld      c Burke            b Benaud               1          0 0
+ERH Fuller            c Benaud           b Kline                0          0 0
+HJ Tayfield           lbw                b Kline                0   1   1  0 0
+NAT Adcock            c Simpson          b Kline                0   1   1  0 0
+Extras                (lb 1)                                    1
+Total                 (all out, 57.4 overs)                    99
+
+FoW: 1-0 (McGlew), 2-56 (Westcott), 3-69 (Waite), 4-74 (McLean),
+     5-80 (Endean), 6-88 (Funston), 7-98 (van Ryneveld),
+     8-99 (Fuller), 9-99 (Tayfield), 10-99 (Adcock).
+
+Bowling                      O      M      R      W
+Davidson                    15      6     18      2
+Benaud                      21      6     49      5
+Kline                       10.4    2     18      3
+Burke                        6      4      7      0
+Mackay                       5      3      6      0
+
+*** I Meckiff pulled a shoulder muscle and could not complete his sixth over
+*** JW Burke batted for 578 mins for his 189. It was his highest Test score
+*** LF Kline finished the South African 2nd innings with a Test Hat-trick
+    (Fuller, Tayfield, Adcock). This was the thirteenth hat-trick in Test
+    cricket (sixth for Australia).
+*** TL Goddard carried his bat through the South African 2nd innings. This
+    was the fifteenth occasion in Test cricket (third for South Africa).
+
+<END>

@@ -1,0 +1,123 @@
+
+Test # 862
+The Frank Worrell Trophy, 1979/80, 1st Test
+Australia v West Indies
+Brisbane Cricket Ground, Woolloongabba, Brisbane
+1,2,3,4,5 December 1979 (5-day match)
+
+Result: Match drawn
+Series: 3-match series level 0-0
+
+Toss: West Indies
+Umpires: RC Bailhache and AR Crafter
+Test debut: BM Laird (Australia).
+Player of the match: IVA Richards
+
+Close of play:
+ Day 1: Australia 229/5 (Hookes 33*, Marsh 1*)
+ Day 2: Australia 268, West Indies 233/3 (Richards 80*, Rowe 14*)
+ Day 3: West Indies 441, Australia 30/0 (McCosker 25*, Laird 5*)
+ Day 4: Australia 240/3 (Chappell 97*, Hughes 16*)
+
+Australia 1st innings                                           R   M   B  4 6
+BM Laird              c Murray           b Garner              92 303 185 10 0
+RB McCosker           c Kallicharran     b Croft               14  32  26  1 0
+AR Border             c Murray           b Garner               1  21  16  0 0
+*GS Chappell          c King             b Roberts             74 150 115 10 0
+KJ Hughes                                b Croft                3  28  23  0 0
+DW Hookes             c Holding          b Croft               43  85  67  4 0
++RW Marsh             c Murray           b Garner               3  35  24  0 0
+RJ Bright                                b Holding             13  64  42  2 0
+DK Lillee             lbw                b Garner               0   9   7  0 0
+RM Hogg                                  b Roberts              8  37  26  1 0
+JR Thomson            not out                                   0   1   1  0 0
+Extras                (b 1, lb 4, nb 12)                       17
+Total                 (all out, 86.1 overs)                   268
+
+FoW: 1-19 (McCosker), 2-26 (Border), 3-156 (Chappell),
+     4-174 (Hughes), 5-228 (Laird), 6-242 (Hookes),
+     7-246 (Marsh), 8-252 (Lillee), 9-268 (Bright),
+     10-268 (Hogg).
+
+Bowling                      O      M      R      W
+Roberts                     18.1    5     50      2
+Holding                     16      3     53      1
+Croft                       25      6     80      3
+Garner                      22      5     55      4
+King                         5      1     13      0
+
+West Indies 1st innings                                         R   M   B  4 6
+CG Greenidge          c Marsh            b Lillee              34  72  55  5 0
+DL Haynes             c Marsh            b Thomson             42  91  59  6 0
+IVA Richards          c Marsh            b Lillee             140 329 259 20 0
+AI Kallicharran       c Marsh            b Thomson             38 121  92  3 0
+LG Rowe                                  b Chappell            50 145 109  7 0
+CL King               c Marsh            b Lillee               0   6   4  0 0
+*+DL Murray           c McCosker         b Thomson             21  70  40  2 0
+AME Roberts           run out                                   7  41  22  1 0
+J Garner              lbw                b Lillee              60 113  83  3 4
+MA Holding                               b Bright              11  23  24  2 0
+CEH Croft             not out                                   2  80  73  0 0
+Extras                (b 5, lb 3, nb 28)                       36
+Total                 (all out, 132.1 overs)                  441
+
+FoW: 1-68 (Greenidge), 2-93 (Haynes), 3-198 (Kallicharran),
+     4-317 (Rowe), 5-317 (King), 6-341 (Richards),
+     7-365 (Murray), 8-366 (Roberts), 9-385 (Holding),
+     10-441 (Garner).
+
+Bowling                      O      M      R      W
+Lillee                      29.1    8    104      4
+Hogg                        25      6     55      0
+Thomson                     24      4     90      3
+Chappell                    12      2     25      1
+Bright                      32      9     97      1
+Border                       5      1     19      0
+Hookes                       5      2     15      0
+
+Australia 2nd innings                                           R   M   B  4 6
+RB McCosker                              b Holding             33  59  53  4 0
+BM Laird              c sub (MD Marshall) b Garner             75 302 218  8 0
+AR Border             c Richards         b Garner               7  33  28  0 0
+*GS Chappell                             b Croft              124 376 299 12 0
+KJ Hughes             not out                                 130 378 244 17 1
+DW Hookes                                b Roberts             37 104  75  3 0
++RW Marsh             c Kallicharran     b King                19  87  76  2 0
+RJ Bright             not out                                   2  10  11  0 0
+Extras                (b 2, lb 11, w 2, nb 6)                  21
+Total                 (6 wickets dec, 166 overs)              448
+
+DNB: DK Lillee, RM Hogg, JR Thomson.
+
+FoW: 1-40 (McCosker), 2-55 (Border), 3-179 (Laird),
+     4-297 (Chappell), 5-371 (Hookes), 6-442 (Marsh).
+
+Bowling                      O      M      R      W
+Roberts                     27      5     70      1
+Holding                     30      4     94      1
+Croft                       28      3    106      1
+Garner                      41     13     75      2
+King                        22      6     50      1
+Kallicharran                18      0     32      0
+
+West Indies 2nd innings (target: 276 runs)                      R   M   B  4 6
+CG Greenidge          c McCosker         b Thomson              0   5   7  0 0
+DL Haynes             lbw                b Hogg                 4  29  16  0 0
+LG Rowe                                  b Hogg                 3  19  18  0 0
+AI Kallicharran       not out                                  10  36  32  1 0
+CL King               not out                                   8  33  22  1 0
+Extras                (b 5, w 1, nb 9)                         15
+Total                 (3 wickets, 14 overs)                    40
+
+DNB: IVA Richards, *+DL Murray, AME Roberts, J Garner,
+     MA Holding, CEH Croft.
+
+FoW: 1-2 (Greenidge), 2-15 (Rowe), 3-16 (Haynes).
+
+Bowling                      O      M      R      W
+Lillee                       2      0      3      0
+Hogg                         5      2     11      2
+Thomson                      3      2      3      1
+Bright                       4      3      8      0
+
+<END>

@@ -1,0 +1,99 @@
+
+Test # 322
+Australia in South Africa, 1949/50, 5th Test
+South Africa v Australia
+Crusaders Ground, St George's Park, Port Elizabeth
+3,4,6 March 1950 (4-day match)
+
+Result: Australia won by an innings and 259 runs
+Series: Australia wins the 5-match series 4-0
+
+Toss: Australia
+Umpires: DV Collins and BV Malan
+Balls per over: 8
+Test debut: G Noblet (Australia).
+
+Close of play:
+ Day 1: Australia 380/4 (Hassett 68*, Loxton 9*)
+ Day 2: Australia 549/7d, South Africa 104/7 (Fullerton 9*, Melle 0*)
+
+Australia 1st innings                                           R   M   B  4 6
+AR Morris             c Winslow          b Melle              157         15 1
+J Moroney             c Nourse           b Melle                7            0
+KR Miller             c Nourse           b Tayfield            22            1
+RN Harvey                                b Begbie             116         14 0
+*AL Hassett           c McCarthy         b Mann               167         14 1
+SJE Loxton            c Rowan            b Mann                43            0
+CL McCool             c Fullerton        b Tayfield             6            0
+IWG Johnson           not out                                  26            0
++RA Saggers           not out                                   4            0
+Extras                (b 1)                                     1
+Total                 (7 wickets dec, 117 overs)              549
+
+DNB: G Noblet, WA Johnston.
+
+FoW: 1-16 (Moroney), 2-49 (Miller), 3-236 (Harvey),
+     4-350 (Morris), 5-449 (Loxton), 6-485 (McCool),
+     7-545 (Hassett).
+
+Bowling                      O      M      R      W
+McCarthy                    29      3    121      0
+Melle                       23      2    132      2
+Tayfield                    25      1    103      2
+Mann                        36      4    154      2
+Begbie                       4      0     38      1
+
+South Africa 1st innings                                        R   M   B  4 6
+EAB Rowan                                b Johnson             40            0
+JD Nel                                   b Miller               0          0 0
+RG Draper             c Johnston         b Miller               7            0
+*AD Nourse            c McCool           b Miller              37            0
+DW Begbie             c Saggers          b Noblet               1          0 0
+PL Winslow            lbw                b Noblet               0          0 0
++GM Fullerton         st Saggers         b McCool              18            0
+HJ Tayfield           st Saggers         b McCool               6            0
+MG Melle                                 b Miller               1          0 0
+NBF Mann                                 b Noblet              41            1
+CN McCarthy           not out                                   1          0 0
+Extras                (b 5, nb 1)                               6
+Total                 (all out, 50.1 overs)                   158
+
+FoW: 1-3 (Nel), 2-19 (Draper), 3-71 (Rowan), 4-84 (Begbie),
+     5-84 (Winslow), 6-95 (Nourse), 7-104 (Tayfield),
+     8-113 (Melle), 9-117 (Fullerton), 10-158 (Mann).
+
+Bowling                      O      M      R      W
+Miller                      14      3     42      4
+Johnston                     3      0     12      0
+Noblet                      17.1    7     21      3
+Johnson                     11      1     48      1
+McCool                       5      1     29      2
+
+South Africa 2nd innings (following on)                         R   M   B  4 6
+EAB Rowan             c McCool           b Miller               0          0 0
+JD Nel                lbw                b Johnston             5            0
+RG Draper                                b Johnston             3          0 0
+*AD Nourse                               b Johnson             55            0
+DW Begbie                                b Johnston             5            0
++GM Fullerton         c Saggers          b Loxton              24            0
+PL Winslow            st Saggers         b Johnson             11            0
+HJ Tayfield           st Saggers         b McCool               7            0
+NBF Mann              lbw                b Johnson              6            0
+MG Melle              c Harvey           b McCool               6            0
+CN McCarthy           not out                                   4            0
+Extras                (b 3, lb 3)                               6
+Total                 (all out, 48.2 overs)                   132
+
+FoW: 1-0 (Rowan), 2-3 (Draper), 3-12 (Nel), 4-24 (Begbie),
+     5-63 (Fullerton), 6-88 (Winslow), 7-113 (Tayfield),
+     8-115 (Nourse), 9-126 (Mann), 10-132 (Melle).
+
+Bowling                      O      M      R      W
+Miller                       8      0     24      1
+Johnston                     6      1     10      3
+Noblet                       9      2     16      0
+Johnson                      7      1     21      3
+McCool                      14.2    2     48      2
+Loxton                       4      2      7      1
+
+<END>

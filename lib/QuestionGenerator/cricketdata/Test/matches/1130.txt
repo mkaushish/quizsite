@@ -1,0 +1,77 @@
+
+Test # 1130
+India in Pakistan, 1989/90, 3rd Test
+Pakistan v India
+Gaddafi Stadium, Lahore
+1,2,3,5,6 December 1989 (5-day match)
+
+Result: Match drawn
+Series: 4-match series level 0-0
+
+Toss: India
+Umpires: JH Hampshire (Eng) and JW Holder (Eng)
+Test debuts: Akram Raza, Shahid Mahboob (Pakistan).
+Player of the match: SV Manjrekar
+
+Close of play:
+ Day 1: India 255/3 (Manjrekar 132*, Shastri 33*)
+ Day 2: India 458/5 (Prabhakar 44*, Tendulkar 34*)
+ Day 3: India 509, Pakistan 159/1 (Aamer Malik 60*, Saleem Malik 30*)
+ Day 4: Pakistan 416/3 (Javed Miandad 84*, Shoaib Mohammad 90*)
+
+India 1st innings                                               R   M   B  4 6
+*K Srikkanth                             b Wasim Akram          0   6   5  0 0
+NS Sidhu              lbw                b Imran Khan           4  12   4  1 0
+SV Manjrekar          run out                                 218 534 401 28 0
+M Azharuddin          c Nadeem Abbasi    b Shahid Mahboob      77 159 131 11 0
+RJ Shastri            c Javed Miandad    b Shahid Mahboob      61 307 219  6 0
+M Prabhakar           run out                                  45 181 117  4 1
+SR Tendulkar                             b Abdul Qadir         41 124  90  5 0
+N Kapil Dev                              b Abdul Qadir          1  12   2  0 0
++KS More              not out                                  26  84  62  1 0
+Arshad Ayub           c sub (Ijaz Ahmed) b Abdul Qadir         10  69  38  1 0
+Maninder Singh        c Akram Raza       b Imran Khan           0   5   5  0 0
+Extras                (b 4, lb 19, w 1, nb 2)                  26
+Total                 (all out, 178.2 overs)                  509
+
+FoW: 1-1 (Srikkanth), 2-5 (Sidhu), 3-154 (Azharuddin),
+     4-340 (Shastri), 5-375 (Manjrekar), 6-466 (Prabhakar),
+     7-466 (Tendulkar), 8-469 (Kapil Dev), 9-508 (Arshad Ayub),
+     10-509 (Maninder Singh).
+
+Bowling                      O      M      R      W
+Imran Khan                  50.2   13    130      2
+Wasim Akram                 24      6     65      1
+Shahid Mahboob              49     12    131      2
+Akram Raza                  18      3     58      0
+Abdul Qadir                 35      8     97      3
+Saleem Malik                 1      0      2      0
+Aamer Malik                  1      0      3      0
+
+Pakistan 1st innings                                            R   M   B  4 6
+Aamer Malik           c sub (WV Raman)   b Maninder Singh     113 346 273 11 0
+Rameez Raja           c More             b Prabhakar           63 152 110  9 0
+Saleem Malik          c Manjrekar        b Maninder Singh      55 162  94  4 0
+Javed Miandad                            b Shastri            145 365 289 10 0
+Shoaib Mohammad       not out                                 203 484 338 20 0
+*Imran Khan           c Manjrekar        b Shastri             66 101  94  4 2
+Abdul Qadir           not out                                  39  46  35  4 2
+Extras                (b 3, lb 4, nb 8)                        15
+Total                 (5 wickets, 203.4 overs)                699
+
+DNB: +Nadeem Abbasi, Wasim Akram, Akram Raza, Shahid Mahboob.
+
+FoW: 1-100 (Rameez Raja), 2-223 (Saleem Malik),
+     3-248 (Aamer Malik), 4-494 (Javed Miandad),
+     5-628 (Imran Khan).
+
+Bowling                      O      M      R      W
+Kapil Dev                   28      2     77      0
+Prabhakar                   34      2    107      1
+Maninder Singh              61      7    191      2
+Arshad Ayub                 49      4    182      0
+Srikkanth                    3      0     19      0
+Shastri                     26.4    2    104      2
+More                         2      0     12      0
+
+<END>

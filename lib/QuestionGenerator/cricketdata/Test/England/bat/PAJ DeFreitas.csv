@@ -1,0 +1,69 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+1057, 1986-11-14, 1, 9, Australia, c CD Matthews, Waugh, 40, 73, 71, 6, 0
+1059, 1986-11-28, 1, 8, Australia, lbw, CD Matthews, 11, 19, 14, 1, 0
+1059, 1986-11-28, 3, 8, Australia, , Waugh, 15, 9, 11, 3, 0
+1060, 1986-12-12, 2, 9, Australia, not out, , 4, 55, 36, 0, 0
+1062, 1986-12-26, 2, 8, Australia, c Matthews, McDermott, 7, 21, 14, 1, 0
+1075, 1987-06-04, 1, 9, Pakistan, , Wasim Akram, 11, 19, 19, 2, 0
+1081, 1987-11-25, 1, 7, Pakistan, lbw, Abdul Qadir, 5, 19, 32, 0, 0
+1081, 1987-11-25, 3, 8, Pakistan, c Tauseef Ahmed, Iqbal Qasim, 15, 56, 52, 0, 1
+1086, 1987-12-16, 1, 7, Pakistan, , Abdul Qadir, 12, 21, 24, 2, 0
+1086, 1987-12-16, 3, 9, Pakistan, lbw, Abdul Qadir, 6, 20, 10, 1, 0
+1091, 1988-02-12, 1, 9, New Zealand, c Morrison, Chatfield, 4, 11, 14, 0, 0
+1091, 1988-02-12, 3, 9, New Zealand, lbw, Snedden, 16, 31, 28, 0, 0
+1098, 1988-06-02, 1, 9, West Indies, , Ambrose, 3, 17, 10, 0, 0
+1100, 1988-06-30, 1, 9, West Indies, c Greenidge, Ambrose, 15, 31, 28, 1, 0
+1100, 1988-06-30, 3, 9, West Indies, c Harper, Marshall, 0, 1, 2, 0, 0
+1102, 1988-08-04, 1, 9, West Indies, c Haynes, Harper, 18, 31, 26, 2, 0
+1102, 1988-08-04, 3, 10, West Indies, c Haynes, Harper, 0, 7, 6, 0, 0
+1121, 1989-06-08, 2, 10, Australia, lbw, Alderman, 1, 12, 6, 0, 0
+1121, 1989-06-08, 4, 10, Australia, , Hughes, 21, 27, 18, 3, 0
+1143, 1990-04-05, 2, 9, West Indies,                c &, Ambrose, 24, 51, 30, 2, 1
+1143, 1990-04-05, 4, 10, West Indies, lbw, Ambrose, 0, 4, 1, 0, 0
+1144, 1990-04-12, 1, 9, West Indies, lbw, Bishop, 21, 28, 22, 3, 0
+1144, 1990-04-12, 3, 10, West Indies, c Greenidge, Ambrose, 0, 3, 3, 0, 0
+1145, 1990-06-07, 2, 8, New Zealand, lbw, Bracewell, 14, 46, 35, 2, 0
+1146, 1990-06-21, 1, 8, New Zealand, c Franklin, Morrison, 38, 92, 58, 4, 0
+1159, 1990-12-26, 1, 8, Australia, c Healy, Reid, 3, 5, 5, 0, 0
+1159, 1990-12-26, 3, 8, Australia, lbw, Reid, 0, 3, 4, 0, 0
+1161, 1991-01-25, 2, 7, Australia, c Matthews, McDermott, 45, 81, 56, 4, 0
+1161, 1991-01-25, 4, 7, Australia, not out, , 19, 66, 61, 2, 0
+1163, 1991-02-01, 1, 7, Australia, c Marsh, McDermott, 5, 7, 8, 0, 0
+1163, 1991-02-01, 3, 7, Australia, c Healy, Alderman, 5, 14, 9, 0, 0
+1171, 1991-06-06, 1, 9, West Indies, c Simmons, Ambrose, 15, 43, 34, 2, 0
+1171, 1991-06-06, 3, 9, West Indies, lbw, Walsh, 3, 41, 27, 0, 0
+1172, 1991-06-20, 2, 9, West Indies, c Dujon, Marshall, 29, 50, 48, 5, 0
+1173, 1991-07-04, 1, 9, West Indies, , Walsh, 8, 12, 12, 1, 0
+1173, 1991-07-04, 3, 9, West Indies, not out, , 55, 130, 86, 4, 0
+1174, 1991-07-25, 1, 9, West Indies, c Richardson, Marshall, 10, 47, 32, 1, 0
+1174, 1991-07-25, 3, 9, West Indies, , Patterson, 7, 26, 20, 1, 0
+1175, 1991-08-08, 1, 9, West Indies, c Dujon, Walsh, 7, 40, 29, 0, 0
+1176, 1991-08-22, 1, 9, Sri Lanka, , Ratnayake, 1, 33, 33, 0, 0
+1183, 1992-01-18, 1, 10, New Zealand, not out, , 7, 6, 5, 0, 1
+1185, 1992-01-30, 1, 10, New Zealand, c Crowe, Cairns, 1, 19, 17, 0, 0
+1185, 1992-01-30, 3, 10, New Zealand, c Wright, Morrison, 0, 12, 5, 0, 0
+1187, 1992-02-06, 1, 10, New Zealand, lbw, Morrison, 3, 33, 23, 0, 0
+1190, 1992-06-18, 1, 9, Pakistan, c Inzamam-ul-Haq, Waqar Younis, 3, 28, 22, 0, 0
+1190, 1992-06-18, 3, 10, Pakistan, c Inzamam-ul-Haq, Wasim Akram, 0, 2, 2, 0, 0
+1214, 1993-02-19, 1, 10, India, lbw, Kapil Dev, 11, 17, 19, 2, 0
+1214, 1993-02-19, 3, 10, India, st More, Raju, 12, 19, 14, 1, 1
+1223, 1993-06-03, 2, 8, Australia, lbw, Julian, 5, 18, 17, 0, 0
+1223, 1993-06-03, 4, 8, Australia, lbw, Julian, 7, 39, 26, 1, 0
+1260, 1994-06-02, 2, 8, New Zealand, not out, , 51, 89, 59, 7, 0
+1261, 1994-06-16, 2, 8, New Zealand, c Parore, Thomson, 11, 23, 26, 1, 0
+1261, 1994-06-16, 4, 8, New Zealand, lbw, Owens, 3, 16, 8, 0, 0
+1262, 1994-06-30, 1, 8, New Zealand, , Owens, 69, 151, 107, 8, 0
+1263, 1994-07-21, 2, 9, South Africa, c Wessels, Donald, 20, 9, 10, 4, 0
+1263, 1994-07-21, 4, 8, South Africa, c G Kirsten, Matthews, 1, 5, 6, 0, 0
+1264, 1994-08-04, 1, 8, South Africa, , Donald, 15, 49, 34, 2, 0
+1266, 1994-08-18, 2, 8, South Africa, run out, , 37, 55, 31, 4, 1
+1275, 1994-11-25, 2, 9, Australia, c Healy, Warne, 7, 8, 7, 1, 0
+1275, 1994-11-25, 4, 8, Australia, , Warne, 11, 39, 26, 2, 0
+1279, 1994-12-24, 2, 9, Australia, st Healy, Warne, 14, 24, 19, 2, 0
+1279, 1994-12-24, 4, 8, Australia, lbw, Warne, 0, 4, 4, 0, 0
+1284, 1995-01-26, 1, 8, Australia, c Blewett, McIntyre, 21, 29, 32, 2, 1
+1284, 1995-01-26, 3, 8, Australia, c Healy, ME Waugh, 88, 120, 95, 9, 2
+1287, 1995-02-03, 2, 9, Australia, , Angel, 0, 6, 6, 0, 0
+1287, 1995-02-03, 4, 10, Australia, c Taylor, McDermott, 0, 8, 5, 0, 0
+1298, 1995-06-08, 1, 7, West Indies, c Murray, Benjamin, 23, 55, 27, 4, 0
+1298, 1995-06-08, 3, 7, West Indies, c sub, Walsh, 1, 9, 5, 0, 0

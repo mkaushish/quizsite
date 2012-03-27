@@ -1,0 +1,100 @@
+
+Test # 657
+New Zealand in England, 1969, 2nd Test
+England v New Zealand
+Trent Bridge, Nottingham
+7,8,9,11,12 August 1969 (5-day match)
+
+Result: Match drawn
+Series: England leads the 3-match series 1-0
+
+Toss: New Zealand
+Umpires: CS Elliott and AEG Rhodes
+Batsmen of the match: JH Edrich and PJ Sharpe
+Bowlers of the match: JA Snow and A Ward
+Fielders of the match: MG Burgess, RO Collinge, BE Congdon, GT Dowling, DR Hadlee, BF Hastings, HJ Howarth, RC Motz, BAG Murray, V Pollard and KJ Wadsworth
+
+Close of play:
+ Day 1: New Zealand 231/6 (Wadsworth 16*, Hadlee 0*)
+ Day 2: New Zealand 294, England 227/1 (Edrich 117*, Sharpe 103*)
+ Day 3: England 241/1 (Edrich 128*, Sharpe 106*)
+ Day 4: England 451/8d, New Zealand 37/0 (Murray 24*, Dowling 10*)
+
+New Zealand 1st innings                                         R   M   B  4 6
+*GT Dowling                              b Ward                18  84  68  0 0
+BAG Murray            c Knight           b D'Oliveira          23  64  41  1 0
+BE Congdon            c Knott            b Illingworth         66 222 194  6 0
+BF Hastings           c Sharpe           b Illingworth         83 209 215  6 0
+V Pollard             c Fletcher         b Underwood            8  24  23  0 0
+MG Burgess            c Knight           b Ward                 2  47  46  0 0
++KJ Wadsworth         c D'Oliveira       b Ward                21  53  44  0 0
+DR Hadlee             not out                                  35 103  89  2 0
+RO Collinge           c Knott            b Knight              19  45  29  3 0
+RC Motz                                  b Ward                 1  12   9  0 0
+HJ Howarth                               b Knight               3  18  12  0 0
+Extras                (b 1, lb 12, nb 2)                       15
+Total                 (all out, 127.5 overs)                  294
+
+FoW: 1-47 (Murray), 2-53 (Dowling), 3-203 (Congdon),
+     4-206 (Hastings), 5-212 (Pollard), 6-229 (Burgess),
+     7-244 (Wadsworth), 8-280 (Collinge), 9-285 (Motz),
+     10-294 (Howarth).
+
+Bowling                      O      M      R      W
+Snow                        24      4     61      0
+Ward                        23      3     61      4
+Knight                      18.5    4     44      2
+D'Oliveira                  25      9     40      1
+Underwood                   22      8     44      1
+Illingworth                 12      4     15      2
+Fletcher                     3      1     14      0
+
+England 1st innings                                             R   M   B  4 6
+G Boycott                                b Motz                 0  12  12  0 0
+JH Edrich                                b Hadlee             155 346 330 19 0
+PJ Sharpe                            c & b Howarth            111 267 241 14 0
+KWR Fletcher                             b Hadlee              31  86  77  4 0
+BL D'Oliveira                        c & b Hadlee              45 127 104  3 0
++APE Knott            c Burgess          b Motz                15  37  33  3 0
+*R Illingworth        lbw                b Collinge            33  72  65  4 0
+BR Knight             not out                                  18  47  40  1 0
+DL Underwood          c Collinge         b Hadlee              16  31  31  2 0
+JA Snow               not out                                   4  10   4  0 0
+Extras                (b 6, lb 12, w 1, nb 4)                  23
+Total                 (8 wickets dec, 155 overs)              451
+
+DNB: A Ward.
+
+FoW: 1-2 (Boycott), 2-251 (Sharpe), 3-301 (Edrich),
+     4-314 (Fletcher), 5-344 (Knott), 6-408 (D'Oliveira),
+     7-408 (Illingworth), 8-441 (Underwood).
+
+Bowling                      O      M      R      W
+Motz                        36      5     97      2
+Collinge                    29      6     88      1
+Hadlee                      25      3     88      4
+Howarth                     41     14     89      1
+Pollard                     10      2     26      0
+Burgess                     14      4     40      0
+
+New Zealand 2nd innings                                         R   M   B  4 6
+BAG Murray            not out                                  40  86  68  6 0
+*GT Dowling                              b Illingworth         22  78  66  3 0
+BE Congdon            not out                                   1   6   7  0 0
+Extras                (lb 1, nb 2)                              3
+Total                 (1 wicket, 23 overs)                     66
+
+DNB: BF Hastings, V Pollard, MG Burgess, +KJ Wadsworth,
+     DR Hadlee, RO Collinge, RC Motz, HJ Howarth.
+
+FoW: 1-61 (Dowling).
+
+Bowling                      O      M      R      W
+Snow                         6      2     19      0
+Ward                         3      0     14      0
+Knight                       4      0     14      0
+D'Oliveira                   5      0      8      0
+Underwood                    3      1      5      0
+Illingworth                  2      0      3      1
+
+<END>

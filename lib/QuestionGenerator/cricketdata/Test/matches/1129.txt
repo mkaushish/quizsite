@@ -1,0 +1,106 @@
+
+Test # 1129
+Trans-Tasman Trophy, 1989/90, Only Test
+Australia v New Zealand
+Western Australia Cricket Association Ground, Perth
+24,25,26,27,28 November 1989 (5-day match)
+
+Result: Match drawn
+Series: One-off match drawn
+
+Toss: New Zealand
+Umpires: RJ Evans and PJ McConnell
+Test debuts: TM Moody (Australia); CL Cairns (New Zealand).
+Player of the match: MJ Greatbatch
+
+Close of play:
+ Day 1: Australia 296/2 (Boon 169*, Border 45*)
+ Day 2: Australia 521/9d, New Zealand 25/0 (Wright 12*, Vance 4*)
+ Day 3: New Zealand 218/8 (Snedden 7*, Morrison 0*)
+ Day 4: New Zealand 231, New Zealand 168/4 (Greatbatch 69*, JJ Crowe 42*)
+
+Australia 1st innings                                           R   M   B  4 6
+MA Taylor             c Wright           b Morrison             9  39  29  0 0
+DC Boon               c Wright           b Snedden            200 451 326 28 0
+TM Moody              c Smith            b Snedden             61 192 135  8 0
+*AR Border                               b Morrison            50 154 118  5 0
+DM Jones              lbw                b Morrison            99 279 192 13 0
+SR Waugh              c Greatbatch       b Snedden             17  62  48  1 0
++IA Healy             c JJ Crowe         b Patel               28  56  45  3 0
+MG Hughes             c Wright           b Snedden             16  41  32  3 0
+GF Lawson                                b Morrison             1   5   6  0 0
+CG Rackemann          not out                                  15  45  35  1 0
+Extras                (b 1, lb 9, w 2, nb 13)                  25
+Total                 (9 wickets dec, 158.1 overs)            521
+
+DNB: TM Alderman.
+
+FoW: 1-28 (Taylor), 2-177 (Moody), 3-316 (Border), 4-361 (Boon),
+     5-395 (Waugh), 6-449 (Healy), 7-489 (Hughes),
+     8-490 (Lawson), 9-521 (Jones).
+
+Bowling                      O      M      R      W
+Morrison                    39.1    8    145      4
+Cairns                      12      2     60      0
+Snedden                     42     10    108      4
+Watson                      37      7    118      0
+Patel                       28      5     80      1
+
+New Zealand 1st innings                                         R   M   B  4 6
+*JG Wright                               b Rackemann           34 136 110  4 0
+RH Vance                                 b Alderman             4  47  22  0 0
+MJ Greatbatch         c Healy            b Hughes              76 221 139 13 0
+MD Crowe              lbw                b Alderman            62 181 139 10 0
+DN Patel              c Boon             b Hughes               0   5   4  0 0
+JJ Crowe              c Healy            b Rackemann            7  90  58  1 0
++IDS Smith            c Lawson           b Hughes              11  33  17  2 0
+CL Cairns             c Healy            b Hughes               1   7   9  0 0
+MC Snedden            not out                                  13  50  35  1 0
+DK Morrison           c Border           b Lawson               3  37  22  0 0
+W Watson              lbw                b Alderman             4   5   7  1 0
+Extras                (b 1, lb 6, w 4, nb 5)                   16
+Total                 (all out, 92.4 overs)                   231
+
+FoW: 1-28 (Vance), 2-84 (Wright), 3-173 (Greatbatch),
+     4-178 (Patel), 5-191 (MD Crowe), 6-204 (Smith),
+     7-206 (Cairns), 8-212 (JJ Crowe), 9-226 (Morrison),
+     10-231 (Watson).
+
+Bowling                      O      M      R      W
+Alderman                    25.4    7     73      3
+Lawson                      22      5     54      1
+Rackemann                   20      4     39      2
+Hughes                      20      7     51      4
+Moody                        4      1      6      0
+Border                       1      0      1      0
+
+New Zealand 2nd innings (following on)                          R   M   B  4 6
+*JG Wright            c Border           b Lawson               3  23  16  0 0
+RH Vance              c Alderman         b Rackemann            8  51  34  0 0
+MJ Greatbatch         not out                                 146 655 485 17 0
+MD Crowe              c Taylor           b Moody               30 118  89  4 0
+DN Patel              lbw                b Alderman             7  48  26  0 0
+JJ Crowe              lbw                b Hughes              49 155 115  8 0
++IDS Smith            c Border           b Hughes               0   1   1  0 0
+CL Cairns             lbw                b Hughes              28  93  67  5 0
+MC Snedden            not out                                  33 202 142  3 0
+Extras                (lb 14, nb 4)                            18
+Total                 (7 wickets, 162 overs)                  322
+
+DNB: DK Morrison, W Watson.
+
+FoW: 1-11 (Wright), 2-11 (Vance), 3-79 (MD Crowe), 4-107 (Patel),
+     5-189 (JJ Crowe), 6-189 (Smith), 7-234 (Cairns).
+
+Bowling                      O      M      R      W
+Alderman                    32     14     59      1
+Lawson                      38     12     88      1
+Rackemann                   31     21     23      1
+Hughes                      36      8     92      3
+Moody                       17      6     23      1
+Border                       5      2     17      0
+Jones                        3      2      6      0
+
+*** Attendance: 29,607
+
+<END>

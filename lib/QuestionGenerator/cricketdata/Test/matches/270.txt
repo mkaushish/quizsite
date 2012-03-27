@@ -1,0 +1,95 @@
+
+Test # 270
+England in South Africa, 1938/39, 4th Test
+South Africa v England
+Old Wanderers, Johannesburg
+18,20,21,22 February 1939 (4-day match)
+
+Result: Match drawn
+Series: England leads the 5-match series 1-0
+
+Toss: England
+Umpires: RGA Ashman and GL Sickler
+Balls per over: 8
+Test debut: RE Grieveson (South Africa).
+
+Close of play:
+ Day 1: England 215, South Africa 11/0 (van der Bijl 2*, Melville 9*)
+ Day 2: South Africa 249/3 (Rowan 53*, Nourse 20*)
+ Day 3: No play
+
+England 1st innings                                             R   M   B  4 6
+L Hutton                                 b Mitchell            92 202      7 0
+PA Gibb               c Mitchell         b Langton              9            0
+E Paynter             c Newson           b Langton             40  79      2 0
+*WR Hammond           c Newson           b Gordon               1          0 0
++LEG Ames                                b Langton             34  54        0
+BH Valentine          c Grieveson        b Gordon              11            0
+WJ Edrich             lbw                b Langton              6            0
+H Verity              c Rowan            b Mitchell             8            0
+K Farnes              c Grieveson        b Newson               4          1 0
+TWJ Goddard           c van der Bijl     b Langton              8            0
+LL Wilkinson          not out                                   1          0 0
+Extras                (w 1)                                     1
+Total                 (all out, 64.2 overs)                   215
+
+FoW: 1-18 (Gibb), 2-96 (Paynter), 3-99 (Hammond), 4-159 (Ames),
+     5-187 (Valentine), 6-187 (Hutton), 7-197 (Verity),
+     8-201 (Edrich), 9-205 (Farnes), 10-215 (Goddard).
+
+Bowling                      O      M      R      W
+Newson                      13      0     53      1
+Langton                     19.2    1     58      5
+Gordon                      15      1     47      2
+Mitchell                    12      3     37      2
+Dalton                       5      0     19      0
+
+South Africa 1st innings                                        R   M   B  4 6
+PGV van der Bijl      lbw                b Goddard             31            0
+*A Melville           c Verity           b Wilkinson           67  99     10 0
+EAB Rowan                                b Farnes              85 218        0
+B Mitchell            c Ames             b Farnes              63 112      7 0
+AD Nourse             hit wicket         b Verity              38          4 0
+ACB Langton           c Hutton           b Verity               6            0
+EL Dalton             not out                                  20            0
+ES Newson                                b Hammond             16            0
+KG Viljoen            lbw                b Verity               5            0
+Extras                (b 5, lb 12, nb 1)                       18
+Total                 (8 wickets dec, 101.5 overs)            349
+
+DNB: +RE Grieveson, N Gordon.
+
+FoW: 1-108 (Melville), 2-108 (van der Bijl), 3-224 (Mitchell),
+     4-280 (Nourse), 5-294 (Langton), 6-311 (Rowan),
+     7-340 (Newson), 8-349 (Viljoen).
+
+Bowling                      O      M      R      W
+Farnes                      26      7     64      2
+Edrich                       4      0     11      0
+Verity                      37.5   10    127      3
+Goddard                     18      2     65      1
+Wilkinson                    9      0     45      1
+Hammond                      7      1     19      1
+
+England 2nd innings                                             R   M   B  4 6
+L Hutton              c Grieveson        b Gordon              32 100        0
+PA Gibb               c Grieveson        b Gordon              45 140        0
+E Paynter             c Grieveson        b Newson              15            0
+*WR Hammond           not out                                  61            0
++LEG Ames                                b Gordon              17            0
+BH Valentine          not out                                  25            0
+Extras                (b 2, lb 6)                               8
+Total                 (4 wickets, 60 overs)                   203
+
+DNB: WJ Edrich, H Verity, K Farnes, TWJ Goddard, LL Wilkinson.
+
+FoW: 1-64 (Hutton), 2-91 (Paynter), 3-103 (Gibb), 4-145 (Ames).
+
+Bowling                      O      M      R      W
+Newson                      11      2     22      1
+Langton                     12      1     49      0
+Gordon                      22      4     58      3
+Mitchell                    12      1     42      0
+Dalton                       3      0     24      0
+
+<END>

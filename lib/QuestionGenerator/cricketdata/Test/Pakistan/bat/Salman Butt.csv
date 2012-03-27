@@ -1,0 +1,63 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+1658, 2003-08-03, 2, 2, Bangladesh, c Khaled Mashud, Khaled Mahmud, 12, 38, 14, 2, 0
+1658, 2003-08-03, 4, 1, Bangladesh, c sub (Mashrafe Mortaza), Manjural Islam, na, na, na, 34 , 7
+1726, 2004-11-16, 2, 1, Australia, c Gilchrist, Kasprowicz, 17, 71, 55, 2, 0
+1726, 2004-11-16, 4, 1, Australia, c Hayden, McGrath, 9, 45, 25, 1, 0
+1729, 2004-11-26, 1, 1, Australia, run out (Clarke/Gilchrist), , 70, 130, 99, 10, 0
+1729, 2004-11-26, 3, 1, Australia, c Kasprowicz, McGrath, 0, 2, 4, 0, 0
+1731, 2005-01-02, 1, 1, Australia, c Gilchrist, McGrath, 108, 276, 185, 16, 0
+1731, 2005-01-02, 3, 1, Australia, c Warne, MacGill, 21, 40, 27, 3, 0
+1738, 2005-02-08, 1, 1, India, , Pathan, 5, 29, 19, 0, 0
+1738, 2005-02-08, 3, 1, India, c Karthik, Pathan, 5, 23, 12, 0, 0
+1752, 2005-04-26, 2, 1, West Indies, c Browne, Collymore, 27, 103, 56, 6, 0
+1752, 2005-04-26, 4, 1, West Indies, c Gayle, Edwards, 0, 4, 3, 0, 0
+1770, 2005-10-12, 1, 2, England, c Jones, Udal, 74, 234, 183, 11, 0
+1770, 2005-10-12, 3, 2, England, c Jones, Hoggard, 122, 403, 256, 12, 0
+1772, 2005-10-20, 1, 2, England, c Jones, Harmison, 26, 63, 50, 3, 1
+1772, 2005-10-20, 3, 2, England, lbw, Udal, 50, 188, 141, 4, 0
+1774, 2005-11-29, 2, 2, England, c Jones, Plunkett, 28, 93, 64, 3, 0
+1781, 2006-01-13, 1, 2, India, run out (Yuvraj Singh), , 6, 10, 6, 1, 0
+1782, 2006-01-21, 1, 2, India, c Dhoni, Khan, 37, 85, 57, 7, 0
+1782, 2006-01-21, 3, 1, India, c Tendulkar, Kumble, 24, 48, 37, 5, 0
+1783, 2006-01-29, 1, 1, India, c Dravid, Pathan, 0, 3, 4, 0, 0
+1783, 2006-01-29, 3, 1, India, lbw, Ganguly, 53, 102, 74, 10, 0
+1809, 2006-06-13, 2, 1, England, c Strauss, Harmison, 10, 40, 28, 1, 0
+1809, 2006-06-13, 4, 1, England, lbw, Hoggard, 0, 1, 1, 0, 0
+1813, 2006-07-04, 2, 1, England, run out (Pietersen), , 20, 66, 49, 1, 0
+1813, 2006-07-04, 4, 1, England, c Trescothick, Hoggard, 16, 38, 28, 4, 0
+1843, 2007-09-01, 2, 8, South Africa, lbw, Harris, 24, 123, 76, 4, 0
+1843, 2007-09-01, 4, 2, South Africa, c Amla, Steyn, 3, 26, 15, 0, 0
+1844, 2007-09-08, 2, 1, South Africa, c Smith, Harris, 40, 85, 68, 7, 0
+1844, 2007-09-08, 4, 1, South Africa, c sub (SM Pollock), Ntini, 6, 22, 16, 1, 0
+1849, 2007-10-22, 1, 1, India, , Khan, 1, 20, 20, 0, 0
+1849, 2007-10-22, 3, 1, India, c Dravid, Kumble, 67, 216, 140, 11, 0
+1850, 2007-11-30, 2, 1, India, c Dravid, Harbhajan Singh, 42, 104, 86, 6, 0
+1850, 2007-11-30, 4, 3, India, lbw, Kumble, 11, 94, 91, 1, 0
+1852, 2007-11-08, 2, 1, India, c Karthik, Ganguly, 68, 205, 149, 13, 0
+1852, 2007-11-08, 4, 1, India, c Karthik, Kumble, 8, 85, 58, 1, 0
+1909, 2009-01-21, 2, 2, Sri Lanka, c DPMD Jayawardene, Muralitharan, 23, 85, 70, 3, 0
+1912, 2009-02-01, 2, 2, Sri Lanka, run out (DPMD Jayawardene), , 48, 98, 74, 8, 0
+1921, 2009-06-04, 2, 2, Sri Lanka, , Kulasekara, 0, 1, 1, 0, 0
+1921, 2009-06-04, 4, 2, Sri Lanka, c Paranavitana, Herath, 28, 99, 53, 4, 0
+1938, 2009-11-03, 1, 2, New Zealand, c Tuffey, O'Brien, 29, 133, 103, 4, 0
+1938, 2009-11-03, 3, 2, New Zealand, c Taylor, O'Brien, 18, 68, 48, 2, 0
+1940, 2009-11-11, 1, 2, New Zealand, , Southee, 9, 17, 8, 2, 0
+1940, 2009-11-11, 3, 2, New Zealand,                c &, Guptill, 66, 220, 171, 8, 0
+1943, 2009-11-26, 2, 2, Australia, lbw, Watson, 45, 172, 113, 1, 0
+1943, 2009-11-26, 4, 2, Australia, lbw, Johnson, 33, 101, 71, 4, 0
+1945, 2010-01-03, 2, 2, Australia, c Haddin, Johnson, 71, 246, 164, 9, 0
+1945, 2010-01-03, 4, 2, Australia, c Haddin, Johnson, 21, 52, 31, 4, 0
+1947, 2010-01-14, 2, 2, Australia, c Clarke, Katich, 102, 312, 234, 17, 0
+1947, 2010-01-14, 4, 2, Australia, , Bollinger, 8, 21, 16, 1, 0
+1963, 2010-06-13, 2, 2, Australia, , Watson, 63, 169, 94, 12, 0
+1963, 2010-06-13, 4, 2, Australia, st Paine, North, 92, 233, 173, 15, 0
+1965, 2010-06-21, 2, 2, Australia, , Hilfenhaus, 45, 79, 68, 8, 0
+1965, 2010-06-21, 4, 2, Australia, c Clarke, Hilfenhaus, 13, 22, 16, 2, 0
+1967, 2010-07-29, 2, 2, England, c Prior, Anderson, 1, 18, 13, 0, 0
+1967, 2010-07-29, 4, 2, England, c Collingwood, Broad, 8, 14, 10, 2, 0
+1969, 2010-07-06, 1, 2, England, c Swann, Finn, 7, 55, 40, 1, 0
+1969, 2010-07-06, 3, 2, England, c Strauss, Anderson, 0, 11, 10, 0, 0
+1970, 2010-07-18, 2, 4, England, c Prior, Swann, 17, 35, 24, 3, 0
+1970, 2010-07-18, 4, 3, England, c Collingwood, Swann, 48, 90, 64, 6, 0
+1971, 2010-07-26, 2, 3, England, , Swann, 26, 85, 58, 4, 0
+1971, 2010-07-26, 3, 3, England, lbw, Swann, 21, 54, 45, 3, 0

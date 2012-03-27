@@ -1,0 +1,57 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+515, 1961-12-08, 2, 8, South Africa, c McGlew, Walter, 0, na, na, 0, 0
+515, 1961-12-08, 4, 9, South Africa, , Bromfield, 10, na, na, na, 0
+517, 1961-12-26, 2, 9, South Africa, c Waite, Lawrence, 3, na, na, 0, 0
+519, 1962-01-01, 1, 9, South Africa, , Burke, 0, na, na, 0, 0
+519, 1962-01-01, 3, 9, South Africa, c Barlow, Bromfield, 0, na, na, 0, 0
+523, 1962-02-02, 1, 10, South Africa, not out, , 10, na, na, na, 0
+523, 1962-02-02, 3, 10, South Africa, lbw, Adcock, 0, na, na, 0, 0
+524, 1962-02-16, 1, 10, South Africa, c McLean, Lawrence, 2, na, na, 0, 0
+524, 1962-02-16, 3, 10, South Africa, c Waite, Pollock, 0, na, 1, 0, 0
+540, 1963-02-23, 2, 9, England, c Murray, Knight, 60, 114, na, 7, 1
+540, 1963-02-23, 3, 9, England,                c &, Illingworth, 20, 20, na, 2, 1
+542, 1963-03-15, 1, 8, England, c Parfitt, Trueman, 7, 31, na, 1, 0
+542, 1963-03-15, 3, 8, England, , Larter, 3, 17, na, 0, 0
+558, 1964-02-21, 2, 8, South Africa, c DB Pithey, Pollock, 2, na, na, 0, 0
+558, 1964-02-21, 4, 8, South Africa, not out, , 0, na, na, 0, 0
+559, 1964-02-28, 1, 9, South Africa, c DB Pithey, Partridge, 3, na, na, 0, 0
+559, 1964-02-28, 3, 9, South Africa, lbw, Pollock, 0, na, na, 0, 0
+574, 1965-01-22, 1, 9, Pakistan, , Asif Iqbal, 0, na, na, 0, 0
+574, 1965-01-22, 3, 7, Pakistan, , Arif Butt, 13, na, na, na, 0
+576, 1965-01-29, 2, 9, Pakistan, c Naushad Ali, Asif Iqbal, 31, na, na, 4, 1
+576, 1965-01-29, 4, 7, Pakistan, c Intikhab Alam, Pervez Sajjad, 0, na, na, 0, 0
+577, 1965-02-12, 2, 8, Pakistan, c Naushad Ali, Pervez Sajjad, 21, na, na, na, 0
+579, 1965-02-27, 2, 9, India, , Nadkarni, 11, 60, na, 2, 0
+581, 1965-03-05, 1, 10, India, lbw, Venkataraghavan, 21, 30, na, 4, 0
+581, 1965-03-05, 3, 8, India, c Nadkarni, Durani, 0, 9, na, 0, 0
+582, 1965-03-12, 1, 10, India, not out, , 5, 30, na, 1, 0
+587, 1965-04-09, 1, 9, Pakistan, , Intikhab Alam, 0, na, na, 0, 0
+587, 1965-04-09, 3, 10, Pakistan, lbw, Intikhab Alam, 2, na, na, 0, 0
+591, 1965-05-27, 2, 9, England, c Trueman, Cartwright, 0, na, na, 0, 0
+591, 1965-05-27, 3, 9, England,                c &, Barber, 21, 33, na, 4, 0
+592, 1965-06-17, 1, 9, England, c Parks, Titmus, 11, na, na, na, 0
+592, 1965-06-17, 3, 10, England, c Snow, Barber, 8, 14, na, na, 0
+593, 1965-07-08, 2, 9, England, c Barber, Illingworth, 3, na, na, 0, 0
+593, 1965-07-08, 3, 9, England, c Barrington, Titmus, 0, 1, 1, 0, 0
+602, 1966-02-25, 2, 9, England, c Parks, Jones, 58, 105, na, 6, 2
+602, 1966-02-25, 4, 9, England, c Russell, Parfitt, 2, 26, na, 0, 0
+603, 1966-03-04, 1, 9, England, c Higgs, Knight, 57, 117, na, 5, 3
+603, 1966-03-04, 3, 9, England, , Jones, 1, 17, na, 0, 0
+604, 1966-03-11, 1, 8, England, c Jones, Allen, 16, 45, 44, 2, 0
+604, 1966-03-11, 3, 7, England, c Smith, Jones, 14, 50, 34, 2, 0
+630, 1968-02-15, 1, 9, India, c Surti, Desai, 10, na, na, na, 0
+630, 1968-02-15, 3, 8, India, c sub, Prasanna, 22, na, na, na, 2
+631, 1968-02-22, 1, 8, India, c sub, Bedi, 1, 6, 7, 0, 0
+632, 1968-02-29, 1, 8, India, c Surti, Prasanna, 5, na, na, na, 0
+632, 1968-02-29, 3, 8, India, c Subramanya, Prasanna, 9, na, na, na, 0
+634, 1968-03-07, 2, 9, India,                c &, Prasanna, 18, na, na, na, 1
+634, 1968-03-07, 4, 10, India, c Engineer, Bedi, 6, na, na, na, 1
+648, 1969-02-27, 1, 9, West Indies, c Hall, Edwards, 13, 33, na, na, 0
+648, 1969-02-27, 3, 9, West Indies, lbw, Sobers, 23, 34, na, 5, 0
+651, 1969-03-07, 2, 9, West Indies, c Gibbs, Edwards, 18, 45, na, na, 0
+652, 1969-03-13, 2, 9, West Indies, c Fredericks, Holford, 6, na, na, 0, 1
+656, 1969-07-24, 2, 9, England, , Underwood, 15, 28, 25, 1, 1
+656, 1969-07-24, 4, 9, England, c Knott, Underwood, 23, 50, 41, 4, 0
+657, 1969-08-07, 1, 10, England, , Ward, 1, 12, 9, 0, 0
+658, 1969-08-21, 1, 9, England, c Arnold, Underwood, 16, 22, 27, 2, 0
+658, 1969-08-21, 3, 9, England, c Denness, Underwood, 11, 74, 58, 1, 0

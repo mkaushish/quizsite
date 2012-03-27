@@ -1,0 +1,126 @@
+
+Test # 364
+South Africa in Australia, 1952/53, 4th Test
+Australia v South Africa
+Adelaide Oval
+24,26,27,28,29 January 1953 (5-day match)
+
+Result: Match drawn
+Series: Australia leads the 5-match series 2-1
+
+Toss: Australia
+Umpires: MJ McInnes and RJJ Wright
+Balls per over: 8
+Test debut: ERH Fuller (South Africa).
+
+Close of play:
+ Day 1: Australia 182/1 (McDonald 107*, Hassett 71*)
+ Day 2: Australia 530, South Africa 4/0 (McGlew 4*, Endean 0*)
+ Day 3: South Africa 224/4 (Funston 71*, Watkins 4*)
+ Day 4: South Africa 387, Australia 144/1 (Morris 58*, Harvey 70*)
+
+Australia 1st innings                                           R   M   B  4 6
+CC McDonald           st Waite           b Tayfield           154 315     16 1
+AR Morris             c Endean           b Fuller               1  18      0 0
+*AL Hassett           c McGlew           b Mansell            163 359     15 0
+RN Harvey             c Tayfield         b Fuller              84 144     10 0
+KR Miller             c Waite            b Tayfield             9  35      0 0
+GB Hole                              c & b Mansell             59 107      5 0
+R Benaud                                 b Melle                6  10      1 0
+DT Ring               c McLean           b Tayfield            28  22      4 0
+RR Lindwall           lbw                b Tayfield             2  15      0 0
++GRA Langley          not out                                   5  24      0 0
+WA Johnston           run out                                  11  12      2 0
+Extras                (b 1, lb 7)                               8
+Total                 (all out, 135 overs)                    530
+
+FoW: 1-2 (Morris), 2-277 (McDonald), 3-356 (Hassett),
+     4-387 (Miller), 5-439 (Harvey), 6-448 (Benaud),
+     7-494 (Ring), 8-505 (Lindwall), 9-517 (Hole),
+     10-530 (Johnston).
+
+Bowling                      O      M      R      W
+Melle                       26      1    105      1
+Fuller                      25      2    119      2
+Tayfield                    44      6    142      4
+Mansell                     32      1    113      2
+McGlew                       2      0      9      0
+Watkins                      6      1     34      0
+
+South Africa 1st innings                                        R   M   B  4 6
+DJ McGlew             c Hole             b Johnston            26 113      4 0
+WR Endean             c Langley          b Benaud              56 176      4 0
+RA McLean             c Hassett          b Ring                11  37      1 0
++JHB Waite            c Hole             b Benaud              44 151      2 0
+KJ Funston                           c & b Benaud              92 218      7 0
+JC Watkins                               b Benaud              76 199     10 0
+*JE Cheetham                             b Johnston             6  27      1 0
+PNF Mansell           c Hole             b Johnston            33  56      7 0
+HJ Tayfield                              b Johnston            16  34      1 0
+ERH Fuller                           c & b Johnston             0  17      0 0
+MG Melle              not out                                   9   7      1 0
+Extras                (b 12, lb 4, nb 2)                       18
+Total                 (all out, 141.4 overs)                  387
+
+FoW: 1-62 (McGlew), 2-79 (McLean), 3-100 (Endean), 4-208 (Waite),
+     5-270 (Funston), 6-296 (Cheetham), 7-350 (Mansell),
+     8-374 (Watkins), 9-378 (Tayfield), 10-387 (Fuller).
+
+Bowling                      O      M      R      W
+Lindwall                    13      0     47      0
+Johnston                    49.3   17    110      5
+Miller                       2.1    1      1      0
+Ring                        30      8     88      1
+Benaud                      44      9    118      4
+Hole                         3      1      5      0
+
+Australia 2nd innings                                           R   M   B  4 6
+CC McDonald                              b Mansell             15  45      2 0
+AR Morris             c Endean           b Melle               77 164      8 0
+RN Harvey             c Endean           b Watkins            116 125     13 0
+GB Hole               not out                                   6  23      1 0
+R Benaud              not out                                  18  15      2 0
+Extras                (b 1)                                     1
+Total                 (3 wickets dec, 47 overs)               233
+
+DNB: *AL Hassett, KR Miller, DT Ring, RR Lindwall, +GRA Langley,
+     WA Johnston.
+
+FoW: 1-42 (McDonald), 2-199 (Morris), 3-209 (Harvey).
+
+Bowling                      O      M      R      W
+Melle                       10      1     50      1
+Fuller                       3      0     12      0
+Tayfield                    14      1     65      0
+Mansell                      7      0     40      1
+McGlew                       1      0      7      0
+Watkins                     12      1     58      1
+
+South Africa 2nd innings (target: 377 runs)                     R   M   B  4 6
+DJ McGlew             c Langley          b Johnston            54 114      6 0
++JHB Waite                               b Hole                20 100      0 0
+RA McLean             c Hole             b Benaud              17  36      3 0
+WR Endean                                b Harvey              17 125      1 0
+KJ Funston            lbw                b Johnston            17  43      0 0
+JC Watkins                               b Morris              21  42      3 0
+*JE Cheetham          not out                                  13  29      1 0
+PNF Mansell           not out                                   2  13      0 0
+Extras                (b 16)                                   16
+Total                 (6 wickets, 72 overs)                   177
+
+DNB: HJ Tayfield, ERH Fuller, MG Melle.
+
+FoW: 1-81 (Waite), 2-95 (McGlew), 3-109 (McLean),
+     4-127 (Funston), 5-158 (Watkins), 6-166 (Endean).
+
+Bowling                      O      M      R      W
+Johnston                    24      4     67      2
+Ring                        11      3     25      0
+Benaud                      14      5     28      1
+Hole                         9      4     17      1
+Harvey                       7      2      9      1
+Morris                       5      0     11      1
+Hassett                      1      0      1      0
+McDonald                     1      0      3      0
+
+<END>

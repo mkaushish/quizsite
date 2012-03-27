@@ -1,0 +1,102 @@
+
+Test # 755
+The Ashes, 1974/75, 6th Test
+Australia v England
+Melbourne Cricket Ground
+8,9,10,12,13 February 1975 (5-day match)
+
+Result: England won by an innings and 4 runs
+Series: Australia wins the 6-match series 4-1
+
+Toss: Australia
+Umpires: RC Bailhache and TF Brooks
+Balls per over: 8
+
+Close of play:
+ Day 1: Australia 152, England 15/1 (Cowdrey 5*, Edrich 6*)
+ Day 2: England 273/3 (Denness 133*, Fletcher 56*)
+ Day 3: England 529, Australia 32/0 (Redpath 10*, McCosker 22*)
+ Day 4: Australia 274/3 (GS Chappell 39*, Edwards 9*)
+
+Australia 1st innings                                           R   M   B  4 6
+IR Redpath            c Greig            b Lever                1  35  23  0 0
+RB McCosker           c Greig            b Lever                0   9   4  0 0
+*IM Chappell          c Knott            b Old                 65 149 105  7 0
+GS Chappell           c Denness          b Lever                1  24  14  0 0
+R Edwards             c Amiss            b Lever                0  11   5  0 0
+KD Walters            c Edrich           b Old                 12  30  17  2 0
++RW Marsh                                b Old                 29  65  45  5 0
+MHN Walker            not out                                  20  72  45  1 0
+DK Lillee             c Knott            b Lever               12  38  17  2 0
+AA Mallett                               b Lever                7  14  12  1 0
+G Dymock              c Knott            b Greig                0  10  10  0 0
+Extras                (b 2, lb 1, nb 2)                         5
+Total                 (all out, 36.7 overs)                   152
+
+FoW: 1-0 (McCosker), 2-5 (Redpath), 3-19 (GS Chappell),
+     4-23 (Edwards), 5-50 (Walters), 6-104 (IM Chappell),
+     7-115 (Marsh), 8-141 (Lillee), 9-149 (Mallett),
+     10-152 (Dymock).
+
+Bowling                      O      M      R      W
+Arnold                       6      2     24      0
+Lever                       11      2     38      6
+Old                         11      0     50      3
+Greig                        8.7    1     35      1
+
+England 1st innings                                             R   M   B  4 6
+DL Amiss              lbw                b Lillee               0   3   4  0 0
+MC Cowdrey            c Marsh            b Walker               7  43  35  1 0
+JH Edrich             c IM Chappell      b Walker              70 212 164  3 0
+*MH Denness                          c & b Walker             188 492 448 17 0
+KWR Fletcher          c Redpath          b Walker             146 446 424 11 0
+AW Greig              c sub (TJ Jenner)  b Walker              89 122  94 13 0
++APE Knott            c Marsh            b Walker               5  14   6  1 0
+CM Old                                   b Dymock               0   5   3  0 0
+DL Underwood                             b Walker              11  26  18  1 0
+GG Arnold             c Marsh            b Walker               0   2   2  0 0
+P Lever               not out                                   6  18  14  0 0
+Extras                (b 4, lb 2, nb 1)                         7
+Total                 (all out, 151.2 overs)                  529
+
+FoW: 1-4 (Amiss), 2-18 (Cowdrey), 3-167 (Edrich),
+     4-359 (Denness), 5-507 (Greig), 6-507 (Fletcher),
+     7-508 (Old), 8-514 (Knott), 9-514 (Arnold),
+     10-529 (Underwood).
+
+Bowling                      O      M      R      W
+Lillee                       6      2     17      1
+Walker                      42.2    7    143      8
+Dymock                      39      6    130      1
+Walters                     23      3     86      0
+Mallett                     29      8     96      0
+IM Chappell                 12      1     50      0
+
+Australia 2nd innings                                           R   M   B  4 6
+IR Redpath            c Amiss            b Greig               83 335 272 10 0
+RB McCosker           c Cowdrey          b Arnold              76 155 108  7 0
+*IM Chappell          c Knott            b Greig               50 150 152  6 0
+GS Chappell                              b Lever              102 229 177 11 0
+R Edwards             c Knott            b Arnold              18  77  60  0 0
+KD Walters                               b Arnold               3  13  13  0 0
++RW Marsh             c Denness          b Lever                1  15  11  0 0
+MHN Walker                           c & b Greig               17  75  52  1 0
+AA Mallett            c Edrich           b Greig                0   7   1  0 0
+G Dymock              c Knott            b Lever                0  26  10  0 0
+DK Lillee             not out                                   0   4   6  0 0
+Extras                (b 9, lb 5, w 4, nb 5)                   23
+Total                 (all out, 106.7 overs)                  373
+
+FoW: 1-111 (McCosker), 2-215 (IM Chappell), 3-248 (Redpath),
+     4-289 (Edwards), 5-297 (Walters), 6-306 (Marsh),
+     7-367 (Walker), 8-373 (GS Chappell), 9-373 (Dymock),
+     10-373 (Mallett).
+
+Bowling                      O      M      R      W
+Arnold                      23      6     83      3
+Lever                       16      1     65      3
+Old                         18      1     75      0
+Greig                       31.7    7     88      4
+Underwood                   18      5     39      0
+
+<END>

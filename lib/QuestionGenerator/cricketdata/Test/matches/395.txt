@@ -1,0 +1,95 @@
+
+Test # 395
+India in Pakistan, 1954/55, 2nd Test
+Pakistan v India
+Dring Stadium, Bahawalpur
+15,16,17,18 January 1955 (4-day match)
+
+Result: Match drawn
+Series: 5-match series level 0-0
+
+Toss: India
+Umpires: Idrees Baig and Shujauddin
+
+Close of play:
+ Day 1: India 157/7 (Ramchand 36*, Tamhane 17*)
+ Day 2: India 235, Pakistan 90/0 (Hanif Mohammad 40*, Alimuddin 45*)
+ Day 3: Pakistan 312/9 (Wazir Mohammad 4*, Khan Mohammad 1*)
+
+India 1st innings                                               R   M   B  4 6
+P Roy                                    b Fazal Mahmood        0          0 0
+PH Punjabi                               b Khan Mohammad       18            0
+*MH Mankad            c Imtiaz Ahmed     b Fazal Mahmood        6            0
+VL Manjrekar          c Mahmood Hussain  b Khan Mohammad       50            0
+PR Umrigar                               b Khan Mohammad       20            0
+GS Ramchand                              b Mahmood Hussain     53            0
+CV Gadkari            lbw                b Khan Mohammad        2          0 0
+CD Gopinath           c Waqar Hasan      b Fazal Mahmood        0          0 0
++NS Tamhane           not out                                  54            0
+SP Gupte                                 b Khan Mohammad       15            0
+Ghulam Ahmed                             b Fazal Mahmood        8            0
+Extras                (lb 4, nb 5)                              9
+Total                 (all out, 119.5 overs)                  235
+
+FoW: 1-0 (Roy), 2-16 (Mankad), 3-61 (Punjabi), 4-93 (Manjrekar),
+     5-95 (Umrigar), 6-100 (Gadkari), 7-107 (Gopinath),
+     8-189 (Ramchand), 9-205 (Gupte), 10-235 (Ghulam Ahmed).
+
+Bowling                      O      M      R      W
+Fazal Mahmood               52.5   23     86      4
+Mahmood Hussain             25      6     56      1
+Khan Mohammad               33      7     74      5
+Shujauddin                   9      4     10      0
+
+Pakistan 1st innings                                            R   M   B  4 6
+Hanif Mohammad        c Gadkari          b Umrigar            142         17 1
+Alimuddin                                b Ghulam Ahmed        64            0
+Waqar Hasan           c Gupte            b Umrigar             48            0
+Maqsood Ahmed         c Gadkari          b Umrigar             10            0
++Imtiaz Ahmed         st Tamhane         b Gupte                3          0 0
+*AH Kardar            c Punjabi          b Umrigar             13            0
+Fazal Mahmood                            b Umrigar              9            0
+Mahmood Hussain       c Gadkari          b Umrigar              0          0 0
+Shujauddin            run out                                   7            0
+Wazir Mohammad        not out                                   4            0
+Khan Mohammad         not out                                   1          0 0
+Extras                (b 6, lb 5)                              11
+Total                 (9 wickets dec, 164 overs)              312
+
+FoW: 1-127 (Alimuddin), 2-210 (Waqar Hasan),
+     3-226 (Maqsood Ahmed), 4-229 (Imtiaz Ahmed), 5-250 (Kardar),
+     6-286 (Fazal Mahmood), 7-286 (Mahmood Hussain),
+     8-301 (Shujauddin), 9-307 (Hanif Mohammad).
+
+Bowling                      O      M      R      W
+Ramchand                    13      5     26      0
+Umrigar                     58     25     74      6
+Gupte                       17      8     49      1
+Ghulam Ahmed                36      4     63      1
+Mankad                      40     19     89      0
+
+India 2nd innings                                               R   M   B  4 6
+P Roy                 c Kardar           b Khan Mohammad       78            0
+PH Punjabi            c Maqsood Ahmed    b Mahmood Hussain     33            0
+*MH Mankad            c Imtiaz Ahmed     b Fazal Mahmood        1          0 0
+VL Manjrekar          c Imtiaz Ahmed     b Fazal Mahmood       59            0
+CD Gopinath           c Maqsood Ahmed    b Khan Mohammad        8            0
+CV Gadkari            not out                                   4            0
++NS Tamhane           not out                                  12            0
+Extras                (b 12, lb 1, nb 1)                       14
+Total                 (5 wickets, 89 overs)                   209
+
+DNB: PR Umrigar, GS Ramchand, SP Gupte, Ghulam Ahmed.
+
+FoW: 1-58 (Punjabi), 2-62 (Mankad), 3-185 (Roy),
+     4-189 (Manjrekar), 5-193 (Gopinath).
+
+Bowling                      O      M      R      W
+Fazal Mahmood               28      6     58      2
+Mahmood Hussain             17      3     47      1
+Khan Mohammad               22      6     50      2
+Shujauddin                   8      6      2      0
+Maqsood Ahmed                7      3     19      0
+Kardar                       7      0     19      0
+
+<END>

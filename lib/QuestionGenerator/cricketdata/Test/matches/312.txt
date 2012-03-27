@@ -1,0 +1,125 @@
+
+Test # 312
+England in South Africa, 1948/49, 4th Test
+South Africa v England
+Ellis Park, Johannesburg
+12,14,15,16 February 1949 (4-day match)
+
+Result: Match drawn
+Series: England leads the 5-match series 1-0
+
+Toss: England
+Umpires: RGA Ashman and JV Hart-Davis
+Balls per over: 8
+Test debut: LA Markham (South Africa).
+
+Close of play:
+ Day 1: England 290/7 (Watkins 64*, Gladwin 1*)
+ Day 2: England 379, South Africa 161/7 (Nourse 75*)
+ Day 3: South Africa 257/9d, England 196/3 (Hutton 111*, Crapp 1*)
+
+England 1st innings                                             R   M   B  4 6
+L Hutton                                 b Tuckett              2          0 0
+C Washbrook           c EAB Rowan        b McCarthy            97            1
+JF Crapp                                 b AMB Rowan           51            0
+DCS Compton           c AMB Rowan        b Tuckett             24            0
+AJ Watkins            hit wicket         b McCarthy           111         15 0
+*FG Mann              c Wade             b McCarthy            17            0
+RO Jenkins            lbw                b Mitchell            25            0
+AV Bedser             lbw                b Tuckett              1          0 0
+C Gladwin                                b McCarthy            19            0
++SC Griffith          c Mitchell         b McCarthy             8            0
+JA Young              not out                                  10            0
+Extras                (b 2, lb 12)                             14
+Total                 (all out, 105.7 overs)                  379
+
+FoW: 1-3 (Hutton), 2-123 (Crapp), 3-172 (Compton),
+     4-180 (Washbrook), 5-213 (Mann), 6-282 (Jenkins),
+     7-287 (Bedser), 8-316 (Gladwin), 9-346 (Griffith),
+     10-379 (Watkins).
+
+Bowling                      O      M      R      W
+McCarthy                    35.7    3    114      5
+Tuckett                     29      2    109      3
+AMB Rowan                   23      1     70      1
+Markham                      5      1     38      0
+Mann                        10      3     26      0
+Mitchell                     3      0      8      1
+
+South Africa 1st innings                                        R   M   B  4 6
+B Mitchell            c Griffith         b Bedser               2          0 0
+EAB Rowan             run out                                   6            0
+KG Viljoen            run out                                   0          0 0
+*AD Nourse            not out                                 129            0
++WW Wade              lbw                b Young               54            0
+TA Harris                                b Bedser               6            0
+AMB Rowan                                b Gladwin             12            0
+L Tuckett                                b Young                0          0 0
+LA Markham            c Griffith         b Jenkins             20            0
+NBF Mann              c Griffith         b Gladwin             14            0
+CN McCarthy           not out                                   0          0 0
+Extras                (b 4, lb 10)                             14
+Total                 (9 wickets dec, 85 overs)               257
+
+FoW: 1-4 (Mitchell), 2-4 (Viljoen), 3-19 (EAB Rowan),
+     4-125 (Wade), 5-137 (Harris), 6-156 (AMB Rowan),
+     7-161 (Tuckett), 8-192 (Markham), 9-236 (Mann).
+
+Bowling                      O      M      R      W
+Bedser                      24      3     81      2
+Gladwin                     24      7     43      2
+Jenkins                      8      1     39      1
+Young                       23      6     52      2
+Watkins                      2      0      9      0
+Compton                      4      0     19      0
+
+England 2nd innings                                             R   M   B  4 6
+L Hutton                                 b AMB Rowan          123            0
+C Washbrook           lbw                b AMB Rowan           31            0
+DCS Compton                              b Markham             25            0
+*FG Mann              lbw                b AMB Rowan           16            0
+JF Crapp              hit wicket         b McCarthy             5            0
+AJ Watkins                               b AMB Rowan           10            0
+AV Bedser                                b McCarthy            19            0
+C Gladwin             not out                                   7            0
+Extras                (b 5, lb 11, nb 1)                       17
+Total                 (7 wickets dec, 78.2 overs)             253
+
+DNB: RO Jenkins, +SC Griffith, JA Young.
+
+FoW: 1-77 (Washbrook), 2-151 (Compton), 3-186 (Mann),
+     4-204 (Crapp), 5-222 (Hutton), 6-237 (Watkins),
+     7-253 (Bedser).
+
+Bowling                      O      M      R      W
+McCarthy                    12.2    2     50      2
+Tuckett                     10      0     43      0
+AMB Rowan                   34     10     69      4
+Markham                      8      0     34      1
+Mann                         7      0     20      0
+Mitchell                     7      1     20      0
+
+South Africa 2nd innings (target: 376 runs)                     R   M   B  4 6
+B Mitchell            c Compton          b Gladwin              6            0
+EAB Rowan             not out                                  86            0
+KG Viljoen                               b Watkins             63            0
+*AD Nourse                               b Watkins              1          0 0
++WW Wade              lbw                b Bedser              27            0
+TA Harris             not out                                   1          0 0
+Extras                (b 7, lb 1, nb 2)                        10
+Total                 (4 wickets, 65 overs)                   194
+
+DNB: AMB Rowan, L Tuckett, LA Markham, NBF Mann, CN McCarthy.
+
+FoW: 1-23 (Mitchell), 2-136 (Viljoen), 3-140 (Nourse),
+     4-182 (Wade).
+
+Bowling                      O      M      R      W
+Bedser                      17      0     54      1
+Gladwin                     16      6     39      1
+Jenkins                      9      2     26      0
+Young                       11      6     14      0
+Watkins                      3      0     16      2
+Compton                      9      2     35      0
+
+<END>

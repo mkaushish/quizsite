@@ -1,0 +1,100 @@
+
+Test # 23
+The Ashes, 1886, 2nd Test
+England v Australia
+Lord's, London
+19,20,21 July 1886 (3-day match)
+
+Result: England won by an innings and 106 runs
+Series: England leads the 3-match series 2-0
+
+Toss: England
+Umpires: FH Farrands and CK Pullin
+Balls per over: 4
+
+Close of play:
+ Day 1: England 202/4 (Shrewsbury 91*, Barnes 28*)
+ Day 2: England 353, Australia 121, Australia 12/1 (Palmer 2*, Trumble 6*)
+
+England 1st innings                                             R   M   B  4 6
+WG Grace              c Jarvis           b Palmer              18            0
+WH Scotton                               b Garrett             19            0
+A Shrewsbury snr      c Bonnor           b Trumble            164 411     16 0
+WW Read               c Spofforth        b Giffen              22            0
+*AG Steel             lbw                b Spofforth            5            0
+W Barnes              c Palmer           b Garrett             58 171        0
+RG Barlow             c Palmer           b Spofforth           12            0
+G Ulyett                                 b Spofforth           19            0
++EFS Tylecote                            b Spofforth            0          0 0
+J Briggs              c Jones            b Trumble              0          0 0
+GA Lohmann            not out                                   7            0
+Extras                (b 24, lb 4, nb 1)                       29
+Total                 (all out, 259 overs)                    353
+
+FoW: 1-27 (Grace), 2-77 (Scotton), 3-112 (Read), 4-119 (Steel),
+     5-280 (Barnes), 6-303 (Barlow), 7-333 (Ulyett),
+     8-333 (Tylecote), 9-340 (Briggs), 10-353 (Shrewsbury).
+
+Bowling                      O      M      R      W
+Garrett                     72     40     77      2
+Evans                       36     20     37      0
+Palmer                      38     15     45      1
+Spofforth                   56     26     73      4
+Trumble                     14      4     27      2
+Giffen                      40     18     63      1
+Jones                        3      1      2      0
+
+Australia 1st innings                                           R   M   B  4 6
+SP Jones              c Grace            b Briggs              25            0
+*HJH Scott            lbw                b Briggs              30            0
+G Giffen                                 b Steel                3          0 0
++AH Jarvis                               b Briggs               3          0 0
+GJ Bonnor             c Grace            b Steel                0          0 0
+JW Trumble            c Tylecote         b Briggs               0          0 0
+GE Palmer             c Shrewsbury       b Barnes              20            0
+JM Blackham                              b Briggs              23            0
+TW Garrett            not out                                   7            0
+FR Spofforth                             b Barnes               5            0
+E Evans               c Ulyett           b Barnes               0          0 0
+Extras                (b 4, lb 1)                               5
+Total                 (all out, 82.3 overs)                   121
+
+FoW: 1-45 (Scott), 2-52 (Giffen), 3-59 (Jarvis), 4-60 (Bonnor),
+     5-62 (Trumble), 6-67 (Jones), 7-99 (Blackham),
+     8-109 (Palmer), 9-121 (Spofforth), 10-121 (Evans).
+
+Bowling                      O      M      R      W
+Barnes                      14.3    7     25      3
+Lohmann                      7      3     21      0
+Briggs                      34     22     29      5
+Steel                       21      8     34      2
+Barlow                       6      3      7      0
+
+Australia 2nd innings (following on)                            R   M   B  4 6
+GE Palmer             c Lohmann          b Barlow              48            0
+TW Garrett                               b Briggs               4            0
+JW Trumble            c Tylecote         b Barnes              20            0
+SP Jones                                 b Briggs              17            0
+*HJH Scott                               b Briggs               2          0 0
+G Giffen                                 b Barlow               1          0 0
++AH Jarvis            not out                                  13            0
+GJ Bonnor                                b Briggs               3          0 0
+JM Blackham                              b Briggs               5            0
+E Evans               run out                                   0          0 0
+FR Spofforth                         c & b Briggs               0          0 0
+Extras                (b 13)                                   13
+Total                 (all out, 111.1 overs)                  126
+
+FoW: 1-6 (Garrett), 2-56 (Trumble), 3-91 (Jones), 4-95 (Scott),
+     5-98 (Giffen), 6-105 (Palmer), 7-120 (Bonnor),
+     8-126 (Blackham), 9-126 (Evans), 10-126 (Spofforth).
+
+Bowling                      O      M      R      W
+Barnes                      10      5     18      1
+Lohmann                     14      9     11      0
+Briggs                      38.1   17     45      6
+Steel                       16      9     14      0
+Barlow                      25     20     12      2
+Ulyett                       8      3     13      0
+
+<END>

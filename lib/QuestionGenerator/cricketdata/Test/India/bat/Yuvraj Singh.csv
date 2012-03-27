@@ -1,0 +1,58 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+1662, 2003-09-16, 2, 6, New Zealand, c Hart, Tuffey, 20, 84, 76, 2, 1
+1662, 2003-09-16, 3, 6, New Zealand, not out, , 5, 33, 30, 1, 0
+1693, 2004-03-28, 1, 6, Pakistan,                c &, Imran Farhat, 59, 71, 66, 8, 0
+1695, 2004-03-05, 1, 6, Pakistan, c Imran Farhat, Danish Kaneria, 112, 197, 129, 15, 2
+1695, 2004-03-05, 3, 6, Pakistan, c Kamran Akmal, Mohammad Sami, 12, 24, 19, 2, 0
+1697, 2004-03-13, 2, 7, Pakistan, lbw, Mohammad Sami, 47, 121, 119, 7, 0
+1713, 2004-09-06, 2, 6, Australia, c Gilchrist, McGrath, 5, 35, 22, 0, 0
+1713, 2004-09-06, 4, 6, Australia, c Gilchrist, McGrath, 27, 87, 67, 4, 0
+1714, 2004-09-14, 2, 1, Australia, c Gilchrist, Warne, 8, 53, 40, 1, 0
+1714, 2004-09-14, 4, 1, Australia, not out, , 7, 12, 8, 1, 0
+1765, 2005-08-13, 2, 6, Zimbabwe, , Dabengwa, 12, na, 20, 2, 0
+1767, 2005-08-20, 2, 6, Zimbabwe, , Streak, 25, na, 70, 3, 0
+1776, 2005-11-10, 1, 6, Sri Lanka, c Mubarak, Bandara, 0, 5, 5, 0, 0
+1776, 2005-11-10, 3, 7, Sri Lanka, not out, , 77, 225, 168, 10, 0
+1778, 2005-11-18, 1, 5, Sri Lanka, c Samaraweera, Muralitharan, 0, 2, 2, 0, 0
+1778, 2005-11-18, 3, 5, Sri Lanka, c Sangakkara, Bandara, 75, 119, 83, 13, 1
+1782, 2006-01-21, 2, 5, Pakistan, c Danish Kaneria, Mohammad Asif, 4, 28, 21, 0, 0
+1783, 2006-01-29, 2, 6, Pakistan, lbw, Mohammad Asif, 45, 120, 74, 8, 0
+1783, 2006-01-29, 4, 6, Pakistan, c Kamran Akmal, Abdul Razzaq, 122, 183, 144, 19, 1
+1788, 2006-02-09, 2, 5, England, c Bell, Hoggard, 15, 46, 30, 1, 0
+1791, 2006-02-18, 2, 5, England, c Jones, Flintoff, 37, 88, 55, 6, 0
+1791, 2006-02-18, 4, 6, England, c Collingwood, Flintoff, 12, 67, 45, 2, 0
+1805, 2006-05-02, 1, 5, West Indies, , Mohammed, 23, 84, 67, 3, 0
+1805, 2006-05-02, 3, 5, West Indies, c Chanderpaul, Gayle, 39, 105, 84, 5, 0
+1806, 2006-05-10, 1, 5, West Indies, , Collins, 2, na, 16, 0, 0
+1807, 2006-05-22, 2, 5, West Indies, c Ramdin, Taylor, 0, na, 4, 0, 0
+1807, 2006-05-22, 4, 6, West Indies, not out, , 8, na, 50, 1, 0
+1808, 2006-06-30, 1, 5, West Indies, lbw, Taylor, 19, 47, 34, 3, 0
+1808, 2006-06-30, 3, 5, West Indies, c Lara, Collymore, 13, 20, 20, 1, 0
+1852, 2007-11-08, 1, 6, Pakistan, c Faisal Iqbal, Mohammad Sami, 169, 250, 203, 28, 1
+1852, 2007-11-08, 3, 6, Pakistan, c Kamran Akmal, Mohammad Sami, 2, 14, 12, 0, 0
+1855, 2007-11-26, 2, 6, Australia, c Gilchrist, Clark, 0, 10, 11, 0, 0
+1855, 2007-11-26, 4, 6, Australia, lbw, Hogg, 5, 16, 10, 1, 0
+1857, 2008-01-02, 2, 6, Australia, lbw, Lee, 12, 36, 24, 2, 0
+1857, 2008-01-02, 4, 6, Australia, c Gilchrist, Symonds, 0, 2, 3, 0, 0
+1873, 2008-03-11, 2, 6, South Africa, c de Villiers, Harris, 32, 75, 57, 6, 0
+1898, 2008-11-11, 2, 6, England, c Flintoff, Harmison, 14, 58, 41, 2, 0
+1898, 2008-11-11, 4, 6, England, not out, , 85, 196, 131, 8, 1
+1901, 2008-11-19, 1, 6, England, c Prior, Panesar, 27, 82, 66, 3, 1
+1901, 2008-11-19, 3, 6, England, run out (Bell), , 86, 134, 93, 6, 4
+1915, 2009-02-18, 2, 6, New Zealand, , Martin, 22, 72, 50, 4, 0
+1917, 2009-02-26, 2, 7, New Zealand, c McIntosh, Martin, 0, 17, 11, 0, 0
+1917, 2009-02-26, 3, 6, New Zealand, not out, , 54, 79, 63, 10, 0
+1918, 2009-03-03, 1, 6, New Zealand, lbw, Ryder, 9, 11, 12, 2, 0
+1918, 2009-03-03, 3, 6, New Zealand, c Taylor, Martin, 40, 75, 46, 6, 1
+1933, 2009-10-16, 1, 6, Sri Lanka, c Dilshan, Muralitharan, 68, 129, 93, 13, 0
+1935, 2009-10-24, 1, 6, Sri Lanka, c Sangakkara, Mendis, 67, 151, 105, 4, 2
+1937, 2009-11-02, 2, 6, Sri Lanka, c Mathews, Herath, 23, 61, 42, 2, 0
+1949, 2010-01-17, 1, 6, Bangladesh, c Rubel Hossain, Shakib Al Hasan, 12, 41, 31, 0, 1
+1949, 2010-01-17, 3, 7, Bangladesh, c Mohammad Ashraful, Shahadat Hossain, 25, 52, 32, 3, 0
+1964, 2010-06-18, 2, 6, Sri Lanka, c DPMD Jayawardene, Muralitharan, 52, 91, 64, 8, 1
+1964, 2010-06-18, 3, 6, Sri Lanka, c DPMD Jayawardene, Muralitharan, 5, 23, 14, 1, 0
+2001, 2011-07-29, 2, 6, England, c Prior, Broad, 62, 141, 115, 10, 0
+2001, 2011-07-29, 4, 6, England, c Cook, Bresnan, 8, 50, 32, 1, 0
+2015, 2011-10-06, 2, 6, West Indies, c KA Edwards, Sammy, 23, 35, 39, 2, 2
+2015, 2011-10-06, 4, 6, West Indies, , Sammy, 18, 62, 40, 2, 0
+2017, 2011-10-14, 1, 7, West Indies, lbw, Sammy, 25, 52, 35, 5, 0

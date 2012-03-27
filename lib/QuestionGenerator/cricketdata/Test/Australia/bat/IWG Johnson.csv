@@ -1,0 +1,67 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+275, 1946-03-29, 2, 7, New Zealand, not out, , 7, na, na, na, 0
+279, 1946-11-29, 1, 7, England, lbw, Wright, 47, 110, 109, 3, 0
+280, 1946-12-13, 2, 3, England, c Washbrook, Edrich, 7, 35, 27, 0, 0
+281, 1947-01-01, 1, 6, England, lbw, Yardley, 0, 1, 1, 0, 0
+281, 1947-01-01, 3, 7, England, run out, , 0, 6, 4, 0, 0
+282, 1947-01-31, 2, 6, England, lbw, Wright, 52, 119, 127, 5, 0
+290, 1947-11-28, 1, 9, India, c Rangnekar, Mankad, 6, 4, 10, 1, 0
+291, 1947-12-12, 2, 7, India, lbw, Phadkar, 1, 9, 9, 0, 0
+292, 1948-01-01, 1, 10, India, lbw, Mankad, 16, 45, 51, 0, 0
+292, 1948-01-01, 3, 1, India, c Hazare, Amarnath, 0, 6, 9, 0, 0
+294, 1948-01-23, 1, 8, India, , Rangachari, 22, 46, 62, 0, 0
+299, 1948-06-10, 2, 7, England, , Laker, 21, 38, na, 3, 0
+300, 1948-06-24, 1, 7, England, c Evans, Edrich, 4, na, na, na, 0
+300, 1948-06-24, 3, 8, England, not out, , 9, na, na, na, 0
+301, 1948-07-08, 2, 2, England, c Evans, Bedser, 1, 7, na, 0, 0
+301, 1948-07-08, 4, 2, England, c Crapp, Young, 6, 32, na, 1, 0
+302, 1948-07-22, 2, 7, England, c Cranston, Laker, 10, na, na, na, 0
+318, 1949-12-24, 1, 8, South Africa, c Cheetham, Mann, 66, na, na, na, 0
+319, 1950-12-31, 1, 8, South Africa, c Watkins, Mann, 0, na, na, 0, 0
+320, 1950-01-20, 2, 3, South Africa, lbw, Tayfield, 2, na, na, 0, 0
+321, 1950-02-10, 1, 9, South Africa, c sub (JB Roothman), Melle, 3, na, na, 0, 0
+322, 1950-03-03, 1, 8, South Africa, not out, , 26, na, na, na, 0
+327, 1950-12-01, 1, 9, England, c Simpson, Bailey, 23, 52, na, 2, 0
+327, 1950-12-01, 3, 3, England, lbw, Bailey, 8, 42, na, 1, 0
+328, 1950-12-22, 1, 9, England, c Parkhouse, Bedser, 0, 6, na, 0, 0
+328, 1950-12-22, 3, 9, England, c Close, Bedser, 23, 40, na, 3, 0
+329, 1951-01-05, 2, 8, England, , Brown, 77, 161, na, 7, 0
+330, 1951-02-02, 1, 7, England, c Evans, Bedser, 16, 57, na, 2, 0
+330, 1951-02-02, 3, 7, England, c Evans, Warr, 3, 40, na, 0, 0
+331, 1951-02-23, 1, 7, England, lbw, Bedser, 1, 9, na, 0, 0
+331, 1951-02-23, 3, 7, England, c Brown, Wright, 0, 3, na, 0, 0
+340, 1951-11-09, 2, 8, West Indies, not out, , 16, 41, na, 1, 1
+340, 1951-11-09, 4, 8, West Indies, , Ramadhin, 8, 29, na, 1, 0
+341, 1951-11-30, 2, 8, West Indies, c Walcott, Jones, 5, 26, na, 0, 0
+343, 1951-12-22, 1, 7, West Indies, c Stollmeyer, Worrell, 11, 40, na, 2, 0
+343, 1951-12-22, 3, 1, West Indies, c Marshall, Valentine, 16, 24, na, 2, 0
+345, 1952-12-31, 2, 8, West Indies, c Guillen, Trim, 1, 21, na, 0, 0
+345, 1952-12-31, 4, 8, West Indies, c Guillen, Ramadhin, 6, 33, na, 0, 0
+359, 1952-12-05, 1, 10, South Africa, lbw, Melle, 7, 22, na, 0, 0
+359, 1952-12-05, 3, 10, South Africa, lbw, Watkins, 13, 45, na, 2, 0
+391, 1954-11-26, 1, 10, England, not out, , 24, 20, na, 2, 1
+393, 1955-12-31, 2, 10, England, not out, , 33, 119, na, 3, 0
+393, 1955-12-31, 4, 10, England, not out, , 4, 21, na, 0, 0
+396, 1955-01-28, 1, 10, England, c Statham, Bailey, 41, 94, na, 5, 0
+396, 1955-01-28, 3, 11, England, not out, , 3, 31, na, 0, 0
+399, 1955-02-25, 2, 10, England, run out, , 11, 32, 30, 1, 0
+403, 1955-03-26, 1, 10, West Indies, not out, , 18, na, na, na, 0
+404, 1955-04-11, 2, 8, West Indies, c McWatt, Butler, 66, na, na, na, 0
+405, 1955-04-26, 2, 8, West Indies, c Stollmeyer, Sobers, 0, na, na, 0, 0
+406, 1955-05-14, 1, 9, West Indies, , Dewdney, 23, na, na, na, 0
+406, 1955-05-14, 3, 8, West Indies, c Holt, Smith, 57, 129, na, na, 0
+408, 1955-06-11, 2, 9, West Indies, not out, , 27, 70, na, na, 0
+425, 1956-06-07, 2, 8, England, c Bailey, Laker, 12, 56, na, 2, 0
+426, 1956-06-21, 1, 9, England, c Evans, Trueman, 6, 65, na, 0, 0
+426, 1956-06-21, 3, 9, England, lbw, Bailey, 17, 45, na, 2, 0
+427, 1956-07-12, 2, 10, England, c Richardson, Lock, 0, 6, na, 0, 0
+427, 1956-07-12, 3, 7, England, c Oakman, Laker, 3, 13, na, 0, 0
+428, 1956-07-26, 2, 11, England, , Laker, 0, 2, na, 0, 0
+428, 1956-07-26, 3, 10, England, not out, , 1, 25, na, 0, 0
+429, 1956-08-23, 2, 5, England, , Laker, 12, 42, na, 1, 0
+429, 1956-08-23, 4, 6, England, c Lock, Laker, 10, 43, na, 1, 0
+430, 1956-10-11, 1, 10, Pakistan, not out, , 13, na, na, na, 0
+430, 1956-10-11, 3, 10, Pakistan, , Fazal Mahmood, 0, na, na, 0, 0
+431, 1956-10-19, 2, 9, India, c Roy, Gupte, 73, na, na, na, 0
+433, 1956-11-02, 1, 9, India, c Ghulam Ahmed, Mankad, 1, na, na, 0, 0
+433, 1956-11-02, 3, 9, India, st Tamhane, Mankad, 5, na, na, na, 0

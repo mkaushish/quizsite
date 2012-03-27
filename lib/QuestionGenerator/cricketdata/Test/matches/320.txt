@@ -1,0 +1,121 @@
+
+Test # 320
+Australia in South Africa, 1949/50, 3rd Test
+South Africa v Australia
+Kingsmead, Durban
+20,21,23,24 January 1950 (4-day match)
+
+Result: Australia won by 5 wickets
+Series: Australia leads the 5-match series 3-0
+
+Toss: South Africa
+Umpires: JV Hart-Davis and BV Malan
+Balls per over: 8
+
+Close of play:
+ Day 1: South Africa 240/2 (Rowan 133*, Nourse 64*)
+ Day 2: South Africa 311, Australia 75
+ Day 3: South Africa 99, Australia 80/3 (Morris 35*, Harvey 12*)
+
+South Africa 1st innings                                        R   M   B  4 6
+EAB Rowan             c Johnston         b Miller             143            0
+OE Wynne                                 b Johnston            18            0
+JD Nel                               c & b Johnson             14            0
+*AD Nourse            c Saggers          b Johnston            66            0
++WW Wade                                 b Lindwall            24            0
+NBF Mann                                 b Johnston             9            0
+JE Cheetham           c Hassett          b Johnston             4            0
+JC Watkins                               b Lindwall             5            0
+HJ Tayfield           run out                                  15            0
+VI Smith                                 b Lindwall             1          0 0
+CN McCarthy           not out                                   0          0 0
+Extras                (b 3, lb 7, nb 2)                        12
+Total                 (all out, 109.2 overs)                  311
+
+FoW: 1-32 (Wynne), 2-75 (Nel), 3-242 (Nourse), 4-264 (Rowan),
+     5-283 (Mann), 6-289 (Cheetham), 7-293 (Wade),
+     8-304 (Watkins), 9-308 (Smith), 10-311 (Tayfield).
+
+Bowling                      O      M      R      W
+Lindwall                    19      3     47      3
+Miller                      24      5     73      1
+McCool                      13      3     35      0
+Johnston                    31.2    5     75      4
+Loxton                       6      1     31      0
+Johnson                     16      5     38      1
+
+Australia 1st innings                                           R   M   B  4 6
+AR Morris             c Smith            b Tayfield            25            0
+J Moroney                                b Tayfield            10            0
+IWG Johnson           lbw                b Tayfield             2          0 0
+KR Miller                                b Tayfield             2          0 0
+*AL Hassett           lbw                b Tayfield             2          0 0
++RA Saggers           c Cheetham         b Mann                 2          0 0
+CL McCool             lbw                b Mann                 1          0 0
+RR Lindwall                              b Mann                 7            0
+RN Harvey                            c & b Tayfield             2          0 0
+SJE Loxton            c Cheetham         b Tayfield            16            0
+WA Johnston           not out                                   2          0 0
+Extras                (b 3, lb 1)                               4
+Total                 (all out, 28.4 overs)                    75
+
+FoW: 1-31 (Moroney), 2-35 (Johnson), 3-37 (Miller),
+     4-39 (Hassett), 5-42 (Morris), 6-45 (McCool),
+     7-46 (Saggers), 8-53 (Harvey), 9-63 (Lindwall),
+     10-75 (Loxton).
+
+Bowling                      O      M      R      W
+McCarthy                     6      2      8      0
+Watkins                      4      1      9      0
+Mann                        10      1     31      3
+Tayfield                     8.4    1     23      7
+
+South Africa 2nd innings                                        R   M   B  4 6
+EAB Rowan             c Saggers          b Lindwall             4            0
+OE Wynne                                 b Johnson             29            0
+JD Nel                lbw                b Johnston            20            0
+*AD Nourse            c McCool           b Johnson             27            0
++WW Wade                                 b Johnston             0          0 0
+JE Cheetham           c Hassett          b Johnson              1          0 0
+JC Watkins            st Saggers         b Johnson              2          0 0
+HJ Tayfield                              b Johnston             3          0 0
+NBF Mann              lbw                b Johnson              0          0 0
+VI Smith                                 b Johnston             4            0
+CN McCarthy           not out                                   2          0 0
+Extras                (b 5, lb 1, nb 1)                         7
+Total                 (all out, 46.2 overs)                    99
+
+FoW: 1-9 (Rowan), 2-51 (Wynne), 3-85 (Nel), 4-85 (Wade),
+     5-88 (Cheetham), 6-90 (Watkins), 7-93 (Nourse),
+     8-93 (Tayfield), 9-93 (Mann), 10-99 (Smith).
+
+Bowling                      O      M      R      W
+Lindwall                     4      1      7      1
+Miller                       7      0     12      0
+Johnston                    18.2    6     39      4
+Johnson                     17      2     34      5
+
+Australia 2nd innings (target: 336 runs)                        R   M   B  4 6
+AR Morris             hit wicket         b Tayfield            44            0
+J Moroney             lbw                b Tayfield            10            0
+KR Miller             lbw                b Mann                10            0
+*AL Hassett           lbw                b Mann                11            0
+RN Harvey             not out                                 151 328        0
+SJE Loxton                               b Mann                54            0
+CL McCool             not out                                  39            0
+Extras                (b 7, lb 9, nb 1)                        17
+Total                 (5 wickets, 123.6 overs)                336
+
+DNB: IWG Johnson, +RA Saggers, RR Lindwall, WA Johnston.
+
+FoW: 1-14 (Moroney), 2-33 (Miller), 3-59 (Hassett),
+     4-95 (Morris), 5-230 (Loxton).
+
+Bowling                      O      M      R      W
+McCarthy                    12      3     32      0
+Watkins                      6      2     10      0
+Mann                        51.6   13    101      3
+Tayfield                    49      5    144      2
+Smith                        5      0     32      0
+
+<END>

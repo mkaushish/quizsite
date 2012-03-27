@@ -1,0 +1,117 @@
+
+Test # 252
+India in England, 1936, 1st Test
+England v India
+Lord's, London
+27,29,30 June 1936 (3-day match)
+
+Result: England won by 9 wickets
+Series: England leads the 3-match series 1-0
+
+Toss: England
+Umpires: A Dolphin and FI Walden
+Test debuts: H Gimblett (England); DD Hindlekar, Vizianagram (India).
+
+Close of play:
+ Day 1: India 147, England 132/7 (Allen 13*, Duckworth 2*)
+ Day 2: England 134, India 80/7 (Palia 15*, Vizianagram 6*)
+
+India 1st innings                                               R   M   B  4 6
+VM Merchant                              b Allen               35            0
++DD Hindlekar                            b Robins              26            0
+S Mushtaq Ali         c Langridge        b Allen                0          0 0
+CK Nayudu             lbw                b Allen                1          0 0
+S Wazir Ali                              b Allen               11            0
+L Amar Singh          c Langridge        b Robins              12            0
+PE Palia              c Mitchell         b Verity              11            0
+M Jahangir Khan                          b Allen               13            0
+*Vizianagram          not out                                  19            0
+CS Nayudu             c Wyatt            b Robins               6            0
+M Nissar              st Duckworth       b Verity               9            0
+Extras                (b 4)                                     4
+Total                 (all out, 55.1 overs)                   147
+
+FoW: 1-62 (Merchant), 2-62 (Mushtaq Ali), 3-64 (Hindlekar),
+     4-66 (CK Nayudu), 5-85 (Amar Singh), 6-97 (Wazir Ali),
+     7-107 (Palia), 8-119 (Jahangir Khan), 9-137 (CS Nayudu),
+     10-147 (Nissar).
+
+Bowling                      O      M      R      W
+Allen                       17      7     35      5
+Wyatt                        3      2      7      0
+Verity                      18.1    5     42      2
+Langridge                    4      1      9      0
+Robins                      13      4     50      3
+
+England 1st innings                                             R   M   B  4 6
+A Mitchell                               b Amar Singh          14            0
+H Gimblett            c Mushtaq Ali      b Amar Singh          11            0
+MJL Turnbull                             b Amar Singh           0          0 0
+M Leyland             lbw                b Amar Singh          60 110        0
+RES Wyatt             c Jahangir Khan    b Amar Singh           0          0 0
+J Hardstaff jnr                          b Nissar               2          0 0
+James Langridge       c Jahangir Khan    b CK Nayudu           19            0
+*GOB Allen            c Jahangir Khan    b Amar Singh          13            0
++G Duckworth          c Vizianagram      b Nissar               2          0 0
+RWV Robins            c CK Nayudu        b Nissar               0          0 0
+H Verity              not out                                   2          0 0
+Extras                (b 4, lb 4, nb 3)                        11
+Total                 (all out, 61.1 overs)                   134
+
+FoW: 1-16 (Gimblett), 2-16 (Turnbull), 3-30 (Mitchell),
+     4-34 (Wyatt), 5-41 (Hardstaff), 6-96 (Langridge),
+     7-129 (Leyland), 8-132 (Duckworth), 9-132 (Robins),
+     10-134 (Allen).
+
+Bowling                      O      M      R      W
+Nissar                      17      5     36      3
+Amar Singh                  25.1   11     35      6
+Jahangir Khan                9      0     27      0
+CK Nayudu                    7      2     17      1
+CS Nayudu                    3      0      8      0
+
+India 2nd innings                                               R   M   B  4 6
+VM Merchant           c Duckworth        b Allen                0          0 0
++DD Hindlekar         lbw                b Robins              17  90        0
+S Mushtaq Ali         lbw                b Allen                8            0
+CK Nayudu             c Robins           b Allen                3          0 0
+S Wazir Ali           c Verity           b Allen                4            0
+L Amar Singh          lbw                b Verity               7            0
+PE Palia              c Leyland          b Verity              16            0
+M Jahangir Khan       c Duckworth        b Verity              13            0
+*Vizianagram          c Mitchell         b Verity               6            0
+CS Nayudu             c Hardstaff        b Allen                9            0
+M Nissar              not out                                   2          0 0
+Extras                (b 4, lb 3, nb 1)                         8
+Total                 (all out, 46 overs)                      93
+
+FoW: 1-0 (Merchant), 2-18 (Mushtaq Ali), 3-22 (CK Nayudu),
+     4-28 (Wazir Ali), 5-39 (Amar Singh), 6-45 (Hindlekar),
+     7-64 (Jahangir Khan), 8-80 (Vizianagram), 9-90 (CS Nayudu),
+     10-93 (Palia).
+
+Bowling                      O      M      R      W
+Allen                       18      1     43      5
+Wyatt                        7      4      8      0
+Verity                      16      8     17      4
+Robins                       5      1     17      1
+
+England 2nd innings (target: 107 runs)                          R   M   B  4 6
+A Mitchell            c Merchant         b Nissar               0          0 0
+H Gimblett            not out                                  67 100     11 0
+MJL Turnbull          not out                                  37            0
+Extras                (b 4)                                     4
+Total                 (1 wicket, 39.3 overs)                  108
+
+DNB: M Leyland, RES Wyatt, J Hardstaff jnr, James Langridge,
+     *GOB Allen, +G Duckworth, RWV Robins, H Verity.
+
+FoW: 1-0 (Mitchell).
+
+Bowling                      O      M      R      W
+Nissar                       6      3     26      1
+Amar Singh                  16.3    6     36      0
+Jahangir Khan               10      3     20      0
+CK Nayudu                    7      2     22      0
+
+<END>

@@ -1,0 +1,102 @@
+
+Test # 24
+The Ashes, 1886, 3rd Test
+England v Australia
+Kennington Oval, London
+12,13,14 August 1886 (3-day match)
+
+Result: England won by an innings and 217 runs
+Series: England wins the 3-match series 3-0
+
+Toss: England
+Umpires: RP Carpenter and FH Farrands
+Balls per over: 4
+Test debut: J McIlwraith (Australia).
+
+Close of play:
+ Day 1: England 279/2 (Shrewsbury 42*, Read 30*)
+ Day 2: England 434, Australia 68, Australia 8/0 (McIlwraith 3*, Evans 1*)
+
+England 1st innings                                             R   M   B  4 6
+WG Grace              c Blackham         b Spofforth          170 270     24 0
+WH Scotton                               b Garrett             34 225        0
+A Shrewsbury snr      c Jones            b Trumble             44            0
+WW Read               c Jones            b Spofforth           94 210      8 0
+W Barnes              c Evans            b Trumble              3          0 0
+*AG Steel             st Blackham        b Trumble              9            0
+RG Barlow             c Trumble          b Garrett              3          0 0
+G Ulyett              c McIlwraith       b Garrett              0          0 0
+J Briggs              c Trumble          b Spofforth           53          3 0
++EFS Tylecote         not out                                  10            0
+GA Lohmann                               b Spofforth            7            0
+Extras                (b 3, lb 2, nb 2)                         7
+Total                 (all out, 304.1 overs)                  434
+
+FoW: 1-170 (Scotton), 2-216 (Grace), 3-287 (Shrewsbury),
+     4-293 (Barnes), 5-305 (Steel), 6-314 (Barlow),
+     7-320 (Ulyett), 8-410 (Briggs), 9-418 (Read),
+     10-434 (Lohmann).
+
+Bowling                      O      M      R      W
+Giffen                      62     32     96      0
+Garrett                     99     55     88      3
+Palmer                      47     21     80      0
+Bruce                        6      2      9      0
+Spofforth                   30.1   12     65      4 (2nb)
+Evans                       13     10      6      0
+Trumble                     47     14     83      3
+
+Australia 1st innings                                           R   M   B  4 6
+SP Jones              c Grace            b Lohmann              2          0 0
+GE Palmer             c Barlow           b Briggs              15            0
+G Giffen              c Shrewsbury       b Briggs               5            0
+*HJH Scott            c Tylecote         b Lohmann              6            0
+JW Trumble            c Read             b Lohmann             13            0
+J McIlwraith                             b Lohmann              2          0 0
++JM Blackham                         c & b Briggs               0          0 0
+TW Garrett            c Grace            b Lohmann              2          0 0
+W Bruce               c Ulyett           b Lohmann              9            0
+E Evans               not out                                   9            0
+FR Spofforth                             b Lohmann              1          0 0
+Extras                (b 4)                                     4
+Total                 (all out, 60.2 overs)                    68
+
+FoW: 1-2 (Jones), 2-11 (Giffen), 3-22 (Palmer), 4-34 (Scott),
+     5-36 (McIlwraith), 6-37 (Blackham), 7-44 (Garrett),
+     8-49 (Trumble), 9-67 (Bruce), 10-68 (Spofforth).
+
+Bowling                      O      M      R      W
+Lohmann                     30.2   17     36      7
+Briggs                      30     17     28      3
+
+Australia 2nd innings (following on)                            R   M   B  4 6
+J McIlwraith          c Tylecote         b Briggs               7            0
+E Evans               run out                                   3          0 0
+SP Jones              c Read             b Lohmann              2          0 0
+G Giffen                             c & b Lohmann             47            0
+*HJH Scott            c Grace            b Lohmann              4            0
+GE Palmer             st Tylecote        b Steel               35            0
+JW Trumble            c Read             b Briggs              18            0
++JM Blackham          c Grace            b Briggs               5            0
+W Bruce                                  b Lohmann             11            0
+TW Garrett            c Shrewsbury       b Lohmann              4            0
+FR Spofforth          not out                                   5            0
+Extras                (b 7, lb 1)                               8
+Total                 (all out, 97 overs)                     149
+
+FoW: 1-11 (Evans), 2-14 (McIlwraith), 3-26 (Jones), 4-30 (Scott),
+     5-84 (Palmer), 6-120 (Trumble), 7-129 (Blackham),
+     8-131 (Giffen), 9-137 (Garrett), 10-149 (Bruce).
+
+Bowling                      O      M      R      W
+Lohmann                     37     14     68      5
+Briggs                      32     19     30      3
+Barlow                      14      8     13      0
+Barnes                       7      4     10      0
+Steel                        7      1     20      1
+
+*** WG Grace (170) recaptured the record England Test score which A
+    Shrewsbury snr had claimed in the previous match, he batted for 270
+    minutes, hit 24 fours and made his 170 out of 216.
+
+<END>

@@ -1,0 +1,77 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+121, 1912-05-27, 2, 2, Australia, c Carkeek, Whitty, 0, na, na, 0, 0
+121, 1912-05-27, 3, 5, Australia, , Matthews, 21, na, na, na, 0
+122, 1912-06-10, 1, 2, England, lbw, Barnes, 1, na, na, 0, 0
+122, 1912-06-10, 3, 2, England, , Barnes, 5, na, na, na, 0
+124, 1912-07-08, 2, 2, England, c Hobbs, Dean, 31, na, na, na, 0
+124, 1912-07-08, 4, 2, England, c Smith, Foster, 2, na, na, 0, 0
+125, 1912-07-15, 1, 6, Australia, c Kelleway, Hazlitt, 93, 170, na, 12, 0
+125, 1912-07-15, 3, 7, Australia, not out, , 10, na, na, na, 0
+127, 1912-08-05, 1, 2, Australia, , Whitty, 2, na, na, 0, 0
+128, 1912-08-12, 1, 1, England, c Foster, Woolley, 23, na, na, na, 0
+128, 1912-08-12, 3, 1, England, lbw, Barnes, 6, na, na, na, 0
+130, 1913-12-13, 1, 1, England, c Strudwick, Douglas, 109, na, na, na, 1
+130, 1913-12-13, 3, 1, England, lbw, Barnes, 8, na, na, na, 0
+131, 1913-12-26, 1, 2, England, , Barnes, 29, na, na, na, 0
+131, 1913-12-26, 3, 2, England, c Rhodes, Barnes, 40, na, na, na, 0
+132, 1914-01-01, 2, 1, England, c Woolley, Relf, 14, na, na, na, 0
+132, 1914-01-01, 4, 1, England, c Tennyson, Relf, 70, na, na, na, 0
+133, 1914-02-14, 1, 1, England, c Strudwick, Barnes, 16, na, na, na, 0
+133, 1914-02-14, 3, 1, England, lbw, Barnes, 93, na, na, na, 0
+134, 1914-02-27, 1, 1, England, c Strudwick, Woolley, 42, na, na, na, 0
+134, 1914-02-27, 3, 1, England, c Rhodes, Bird, 87, na, na, na, 0
+145, 1921-11-05, 2, 1, Australia, c Hendry, Gregory, 1, 7, na, 0, 0
+145, 1921-11-05, 4, 4, Australia,                c &, McDonald, 29, 105, na, 1, 0
+146, 1921-11-12, 2, 4, Australia, c Mailey, Gregory, 47, 85, na, 6, 0
+146, 1921-11-12, 3, 4, Australia, c Hendry, Gregory, 80, 99, na, 12, 0
+147, 1921-11-26, 1, 4, Australia, c Andrews, McDonald, 26, 86, na, 0, 0
+147, 1921-11-26, 3, 4, Australia, run out, , 17, 30, na, 2, 0
+148, 1922-12-23, 1, 3, England, c Brown, Fender, 21, na, na, na, 0
+148, 1922-12-23, 3, 3, England, c Gilligan, Kennedy, 176, 310, na, 25, 0
+149, 1923-01-01, 1, 3, England, , Fender, 9, na, na, na, 0
+149, 1923-01-01, 3, 3, England, c Jupp, Macaulay, 68, na, na, na, 0
+150, 1923-01-18, 2, 2, England, c Woolley, Macaulay, 91, na, na, 9, 0
+151, 1923-02-09, 2, 4, England, c Russell, Fender, 11, na, na, na, 0
+151, 1923-02-09, 4, 2, England, c Russell, Kennedy, 101, na, na, na, 1
+152, 1923-02-16, 2, 2, England, c Russell, Gilligan, 3, na, na, 0, 0
+152, 1923-02-16, 4, 4, England, c Fender, Kennedy, 102, 270, na, na, 1
+153, 1924-06-14, 2, 1, England, , Tate, 7, na, na, na, 0
+153, 1924-06-14, 3, 1, England,                c &, Tate, 34, na, na, na, 0
+154, 1924-06-28, 1, 1, England, c Wood, Gilligan, 4, 3, 6, na, 0
+154, 1924-06-28, 3, 5, England, , Gilligan, 8, na, na, na, 0
+155, 1924-07-12, 2, 6, England, not out, , 59, na, na, na, 1
+155, 1924-07-12, 3, 5, England, run out, , 56, na, na, na, 1
+156, 1924-07-26, 1, 5, England, not out, , 18, na, na, na, 0
+157, 1924-08-16, 1, 5, England,                c &, Tyldesley, 11, 45, na, na, 0
+168, 1927-12-24, 1, 1, England,                c &, Stevens, 31, na, na, na, 0
+168, 1927-12-24, 3, 3, England, , Hammond, 3, na, na, 0, 0
+169, 1928-12-31, 2, 1, England, hit wicket, Freeman, 68, na, na, na, 0
+169, 1928-12-31, 4, 1, England, run out, , 71, na, na, na, 0
+170, 1928-01-21, 1, 1, England, , Wyatt, 7, na, na, na, 0
+170, 1928-01-21, 3, 1, England, c Astill, Peebles, 60, na, na, na, 0
+171, 1928-01-28, 2, 1, England, , Hammond, 101, 145, na, na, 0
+171, 1928-01-28, 4, 1, England, c Stanyforth, Hammond, 6, na, na, na, 0
+172, 1928-02-04, 2, 1, England, lbw, Staples, 36, na, na, na, 0
+172, 1928-02-04, 4, 1, England, c Wyatt, Staples, 29, na, na, na, 0
+181, 1929-06-15, 2, 4, England, , Larwood, 2, na, na, 0, 0
+184, 1929-07-27, 2, 4, England, , Freeman, 28, na, na, na, 0
+184, 1929-07-27, 3, 4, England, c Leyland, Freeman, 70, na, na, na, 0
+185, 1929-08-17, 2, 4, England, c Ames, Clark, 121, na, na, na, 0
+202, 1931-01-01, 1, 4, England, c White, Leyland, 117, na, na, na, 0
+204, 1931-01-16, 1, 4, England, c Duckworth, Voce, 3, na, na, 0, 0
+204, 1931-01-16, 3, 4, England, not out, , 64, 120, na, na, 0
+206, 1931-02-13, 2, 4, England, hit wicket, Peebles, 72, 210, na, na, 0
+206, 1931-02-13, 4, 4, England, , Voce, 13, na, na, na, 0
+207, 1931-02-21, 1, 4, England,                c &, Peebles, 16, 34, na, 2, 0
+207, 1931-02-21, 3, 4, England, lbw, Peebles, 14, 39, na, 0, 0
+212, 1931-11-27, 2, 5, Australia, , Wall, 41, 100, na, 5, 0
+212, 1931-11-27, 3, 5, Australia, c Oxenham, Ironmonger, 47, 83, na, 7, 0
+213, 1931-12-18, 1, 5, Australia, c Lee, Grimmett, 7, 20, na, 0, 0
+213, 1931-12-18, 3, 5, Australia, c Grimmett, Ironmonger, 6, 22, na, 0, 0
+214, 1932-12-31, 2, 4, Australia, lbw, Grimmett, 11, 46, na, 0, 0
+214, 1932-12-31, 4, 4, Australia, , Grimmett, 38, 108, na, 1, 0
+215, 1932-01-29, 1, 4, Australia, c Rigg, Grimmett, 78, 129, na, 8, 1
+215, 1932-01-29, 3, 4, Australia, , O'Reilly, 84, 122, na, 8, 1
+216, 1932-02-12, 1, 4, Australia, c Kippax, Nash, 0, 7, na, 0, 0
+216, 1932-02-12, 3, 7, Australia, c Bradman, Ironmonger, 2, 5, na, 0, 0
+217, 1932-02-27, 2, 3, New Zealand, , Badcock, 9, na, na, na, 0

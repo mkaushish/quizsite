@@ -1,0 +1,127 @@
+
+Test # 167
+The Ashes, 1926, 5th Test
+England v Australia
+Kennington Oval, London
+14,16,17,18 August 1926 (timeless match)
+
+Result: England won by 289 runs
+Series: England wins the 5-match series 1-0
+
+Toss: England
+Umpires: F Chester and HI Young
+
+Close of play:
+ Day 1: England 280, Australia 60/4 (Woodfull 22*, Collins 1*)
+ Day 2: Australia 302, England 49/0 (Hobbs 28*, Sutcliffe 20*)
+ Day 3: England 375/6 (Rhodes 0*)
+
+England 1st innings                                             R   M   B  4 6
+JB Hobbs                                 b Mailey              37  55        0
+H Sutcliffe                              b Mailey              76 210      6 0
+FE Woolley                               b Mailey              18            0
+EH Hendren                               b Gregory              8            0
+*APF Chapman          st Oldfield        b Mailey              49  75        0
+GTS Stevens           c Andrews          b Mailey              17          2 1
+W Rhodes              c Oldfield         b Mailey              28  45        0
+G Geary               run out                                   9            0
+MW Tate                                  b Grimmett            23  15        1
+H Larwood             c Andrews          b Grimmett             0          0 0
++H Strudwick          not out                                   4          1 0
+Extras                (b 6, lb 5)                              11
+Total                 (all out, 95.5 overs)                   280
+
+FoW: 1-53 (Hobbs), 2-91 (Woolley), 3-108 (Hendren),
+     4-189 (Chapman), 5-213 (Stevens), 6-214 (Sutcliffe),
+     7-231 (Geary), 8-266 (Tate), 9-266 (Larwood),
+     10-280 (Rhodes).
+
+Bowling                      O      M      R      W
+Gregory                     15      4     31      1
+Grimmett                    33     12     74      2
+Mailey                      33.5    3    138      6
+Macartney                    7      4     16      0
+Richardson                   7      2     10      0
+
+Australia 1st innings                                           R   M   B  4 6
+WM Woodfull                              b Rhodes              35 120        0
+W Bardsley            c Strudwick        b Larwood              2          0 0
+CG Macartney                             b Stevens             25  30        0
+WH Ponsford           run out                                   2          0 0
+TJE Andrews                              b Larwood              3          0 0
+*HL Collins           c Stevens          b Larwood             61 230      2 0
+AJ Richardson         c Geary            b Rhodes              16            0
+JM Gregory            c Stevens          b Tate                73 100     10 0
++WAS Oldfield         not out                                  33            0
+CV Grimmett                              b Tate                35  75        0
+AA Mailey             c Strudwick        b Tate                 0          0 0
+Extras                (b 5, lb 12)                             17
+Total                 (all out, 152.1 overs)                  302
+
+FoW: 1-9 (Bardsley), 2-44 (Macartney), 3-51 (Ponsford),
+     4-59 (Andrews), 5-90 (Woodfull), 6-122 (Richardson),
+     7-229 (Gregory), 8-231 (Collins), 9-298 (Grimmett),
+     10-302 (Mailey).
+
+Bowling                      O      M      R      W
+Tate                        37.1   17     40      3
+Larwood                     34     11     82      3
+Geary                       27      8     43      0
+Stevens                     29      3     85      1
+Rhodes                      25     15     35      2
+
+England 2nd innings                                             R   M   B  4 6
+JB Hobbs                                 b Gregory            100 221     10 0
+H Sutcliffe                              b Mailey             161 428     16 0
+FE Woolley            lbw                b Richardson          27            0
+EH Hendren            c Oldfield         b Grimmett            15            0
+*APF Chapman                             b Richardson          19            0
+GTS Stevens           c Mailey           b Grimmett            22            0
+W Rhodes              lbw                b Grimmett            14            0
+G Geary               c Oldfield         b Gregory              1          0 0
+MW Tate               not out                                  33  50        0
+H Larwood                                b Mailey               5  10        0
++H Strudwick          c Andrews          b Mailey               2   5      0 0
+Extras                (b 19, lb 18)                            37
+Total                 (all out, 182.5 overs)                  436
+
+FoW: 1-172 (Hobbs), 2-220 (Woolley), 3-277 (Hendren),
+     4-316 (Chapman), 5-373 (Stevens), 6-375 (Sutcliffe),
+     7-382 (Geary), 8-425 (Rhodes), 9-430 (Larwood),
+     10-436 (Strudwick).
+
+Bowling                      O      M      R      W
+Gregory                     18      1     58      2
+Grimmett                    55     17    108      3
+Mailey                      42.5    6    128      3
+Macartney                   26     16     24      0
+Richardson                  41     21     81      2
+
+Australia 2nd innings (target: 415 runs)                        R   M   B  4 6
+WM Woodfull           c Geary            b Larwood              0          0 0
+WH Ponsford           c Larwood          b Rhodes              12            0
+CG Macartney          c Geary            b Larwood             16            0
+W Bardsley            c Woolley          b Rhodes              21  65        0
+*HL Collins           c Woolley          b Rhodes               4            0
+TJE Andrews           c Tate             b Larwood             15            0
+JM Gregory            c Sutcliffe        b Tate                 9            0
+AJ Richardson                            b Rhodes               4            0
++WAS Oldfield                            b Stevens             23            0
+CV Grimmett           not out                                   8            0
+AA Mailey                                b Geary                6            0
+Extras                (lb 7)                                    7
+Total                 (all out, 52.3 overs)                   125
+
+FoW: 1-1 (Woodfull), 2-31 (Macartney), 3-31 (Ponsford),
+     4-35 (Collins), 5-63 (Andrews), 6-83 (Bardsley),
+     7-83 (Gregory), 8-87 (Richardson), 9-114 (Oldfield),
+     10-125 (Mailey).
+
+Bowling                      O      M      R      W
+Tate                         9      4     12      1
+Larwood                     14      3     34      3
+Geary                        6.3    2     15      1
+Stevens                      3      1     13      1
+Rhodes                      20      9     44      4
+
+<END>

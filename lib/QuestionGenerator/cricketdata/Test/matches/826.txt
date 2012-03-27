@@ -1,0 +1,101 @@
+
+Test # 826
+Pakistan in England, 1978, 2nd Test
+England v Pakistan
+Lord's, London
+15,16,17,19 June 1978 (5-day match)
+
+Result: England won by an innings and 120 runs
+Series: England leads the 3-match series 2-0
+
+Toss: England
+Umpires: WL Budd and DJ Constant
+Player of the match: IT Botham
+
+Close of play:
+ Day 1: No play
+ Day 2: England 309/8 (Botham 102*, Edmonds 6*)
+ Day 3: England 364, Pakistan 105, Pakistan 96/2 (Mohsin Khan 45*, Talat Ali 36*)
+
+England 1st innings                                             R   M   B  4 6
+*JM Brearley          lbw                b Liaqat Ali           2  14  11  0 0
+GA Gooch              lbw                b Wasim Raja          54 131  91  5 0
+CT Radley             c Mohsin Khan      b Liaqat Ali           8  16  16  1 0
+DI Gower                                 b Iqbal Qasim         56 102  76  9 0
+GRJ Roope             c Mohsin Khan      b Iqbal Qasim         69 130 124  7 1
+G Miller              c Javed Miandad    b Iqbal Qasim          0  19  18  0 0
+IT Botham                                b Liaqat Ali         108 166 110 12 1
++RW Taylor            c Mudassar Nazar   b Sikander Bakht      10  36  29  0 0
+CM Old                c Mohsin Khan      b Sikander Bakht       0   1   1  0 0
+PH Edmonds            not out                                  36  62  47  3 1
+RGD Willis                               b Mudassar Nazar      18  39  29  1 0
+Extras                (lb 2, nb 1)                              3
+Total                 (all out, 91.2 overs)                   364
+
+FoW: 1-5 (Brearley), 2-19 (Radley), 3-120 (Gooch), 4-120 (Gower),
+     5-134 (Miller), 6-252 (Roope), 7-290 (Taylor), 8-290 (Old),
+     9-324 (Botham), 10-364 (Willis).
+
+Bowling                      O      M      R      W
+Sikander Bakht              27      3    115      2
+Liaqat Ali                  18      1     80      3
+Mudassar Nazar               4.2    0     16      1
+Iqbal Qasim                 30      5    101      3
+Wasim Raja                  12      3     49      1
+
+Pakistan 1st innings                                            R   M   B  4 6
+Mudassar Nazar        c Edmonds          b Willis               1  11   7  0 0
+Sadiq Mohammad        c Botham           b Willis              11  31  20  1 0
+Mohsin Khan           c Willis           b Edmonds             31 119  91  2 0
+Haroon Rasheed                           b Old                 15  14  13  1 1
+Javed Miandad         c Taylor           b Willis               0   4   4  0 0
+Wasim Raja                               b Edmonds             28  43  38  4 0
+Talat Ali             c Radley           b Edmonds              2  45  33  0 0
+*+Wasim Bari          c Brearley         b Willis               0   4   8  0 0
+Iqbal Qasim                              b Willis               0   9   7  0 0
+Sikander Bakht        c Brearley         b Edmonds              4   9   7  1 0
+Liaqat Ali            not out                                   4   3   1  1 0
+Extras                (nb 9)                                    9
+Total                 (all out, 36 overs)                     105
+
+FoW: 1-11 (Mudassar Nazar), 2-22 (Sadiq Mohammad),
+     3-40 (Haroon Rasheed), 4-41 (Javed Miandad),
+     5-84 (Wasim Raja), 6-96 (Mohsin Khan), 7-97 (Wasim Bari),
+     8-97 (Talat Ali), 9-97 (Iqbal Qasim),
+     10-105 (Sikander Bakht).
+
+Bowling                      O      M      R      W
+Willis                      13      1     47      5
+Old                         10      3     26      1
+Botham                       5      2     17      0
+Edmonds                      8      6      6      4
+
+Pakistan 2nd innings (following on)                             R   M   B  4 6
+Mudassar Nazar        c Taylor           b Botham              10  50  34  1 0
+Sadiq Mohammad        c Taylor           b Willis               0   2   2  0 0
+Mohsin Khan           c Roope            b Willis              46 138 117  6 1
+Talat Ali             c Roope            b Botham              40 111 113  5 0
+Haroon Rasheed                           b Botham               4  29  28  0 0
+Javed Miandad         c Gooch            b Botham              22  77  71  3 0
+Wasim Raja                           c & b Botham               1   6   5  0 0
+*+Wasim Bari          c Taylor           b Botham               2   6   6  0 0
+Sikander Bakht        c Roope            b Botham               1  33  20  0 0
+Iqbal Qasim                              b Botham               0   1   3  0 0
+Liaqat Ali            not out                                   0  13   7  0 0
+Extras                (b 1, lb 3, w 5, nb 4)                   13
+Total                 (all out, 66.5 overs)                   139
+
+FoW: 1-1 (Sadiq Mohammad), 2-45 (Mudassar Nazar),
+     3-100 (Mohsin Khan), 4-108 (Talat Ali),
+     5-114 (Haroon Rasheed), 6-119 (Wasim Raja),
+     7-121 (Wasim Bari), 8-130 (Sikander Bakht),
+     9-130 (Iqbal Qasim), 10-139 (Javed Miandad).
+
+Bowling                      O      M      R      W
+Willis                      10      2     26      2
+Old                         15      4     36      0
+Botham                      20.5    8     34      8
+Edmonds                     12      4     21      0
+Miller                       9      3      9      0
+
+<END>

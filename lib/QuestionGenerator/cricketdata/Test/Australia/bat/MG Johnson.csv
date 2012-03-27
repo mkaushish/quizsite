@@ -1,0 +1,70 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+1855, 2007-11-26, 1, 10, India, not out, , 15, 58, 35, 1, 1
+1857, 2008-01-02, 1, 10, India, c Ganguly, Kumble, 28, 29, 30, 5, 0
+1862, 2008-01-16, 2, 9, India, not out, , 6, 31, 14, 1, 0
+1862, 2008-01-16, 4, 9, India, not out, , 50, 101, 80, 5, 2
+1863, 2008-01-24, 2, 10, India, c Sharma, Harbhajan Singh, 13, 32, 28, 2, 0
+1875, 2008-04-22, 1, 6, West Indies, c Powell, Sammy, 22, 113, 53, 3, 0
+1875, 2008-04-22, 3, 5, West Indies, c Ramdin, Powell, 4, na, 13, 1, 0
+1877, 2008-05-30, 1, 9, West Indies, not out, , 29, 26, 26, 3, 0
+1879, 2008-05-12, 1, 10, West Indies, c Benn, Taylor, 0, 8, 8, 0, 0
+1887, 2008-09-09, 1, 10, India, , Khan, 1, 7, 4, 0, 0
+1889, 2008-09-17, 2, 10, India, not out, , 9, 40, 32, 0, 1
+1889, 2008-09-17, 4, 10, India,                c &, Mishra, 26, 69, 44, 4, 0
+1891, 2008-10-29, 2, 10, India,                c &, Kumble, 15, 22, 12, 2, 0
+1892, 2008-10-06, 2, 10, India, c Khan, Mishra, 5, 41, 25, 0, 0
+1892, 2008-10-06, 4, 11, India, lbw, Harbhajan Singh, 11, 22, 16, 1, 0
+1894, 2008-10-20, 1, 10, New Zealand, c Taylor, Vettori, 5, 30, 15, 1, 0
+1894, 2008-10-20, 3, 10, New Zealand, c Vettori, Elliott, 31, 68, 59, 3, 1
+1896, 2008-11-28, 2, 9, New Zealand, c McCullum, Redmond, 23, 45, 38, 4, 0
+1899, 2008-11-17, 1, 10, South Africa, lbw, Morkel, 18, 32, 24, 1, 0
+1899, 2008-11-17, 3, 10, South Africa, c Kallis, Morkel, 21, 44, 35, 3, 0
+1902, 2008-11-26, 1, 9, South Africa, , Steyn, 0, 3, 3, 0, 0
+1902, 2008-11-26, 3, 9, South Africa, not out, , 43, 111, 85, 5, 0
+1904, 2009-01-03, 1, 8, South Africa, c Smith, Steyn, 64, 170, 124, 11, 0
+1910, 2009-02-26, 1, 9, South Africa, not out, , 96, 189, 131, 10, 5
+1910, 2009-02-26, 3, 9, South Africa, c Kallis, Ntini, 1, 12, 12, 0, 0
+1913, 2009-02-06, 1, 9, South Africa, lbw, Ntini, 0, 1, 1, 0, 0
+1916, 2009-02-19, 1, 8, South Africa, c Prince, Steyn, 35, 73, 54, 6, 0
+1916, 2009-02-19, 3, 8, South Africa, not out, , 123, 154, 103, 11, 5
+1925, 2009-06-16, 2, 8, England, c Cook, Broad, 4, 13, 11, 1, 0
+1925, 2009-06-16, 4, 8, England, , Swann, 63, 94, 75, 9, 0
+1928, 2009-07-30, 1, 8, England, lbw, Anderson, 0, 1, 1, 0, 0
+1929, 2009-07-07, 2, 8, England, c Bopara, Broad, 27, 70, 53, 5, 0
+1931, 2009-07-20, 2, 8, England, c Prior, Swann, 11, 27, 24, 2, 0
+1931, 2009-07-20, 4, 8, England, c Collingwood, Harmison, 0, 5, 5, 0, 0
+1936, 2009-10-26, 1, 8, West Indies, c Ramdin, Benn, 7, 27, 28, 0, 0
+1939, 2009-11-04, 2, 8, West Indies, c Gayle, Sammy, 7, 12, 13, 1, 0
+1941, 2009-11-16, 1, 8, West Indies, c Benn, Bravo, 35, 70, 45, 3, 1
+1941, 2009-11-16, 3, 7, West Indies, c Nash, Bravo, 5, 34, 27, 1, 0
+1943, 2009-11-26, 3, 8, Pakistan, run out (Mohammad Asif/Saeed Ajmal), , 22, 81, 58, 4, 0
+1945, 2010-01-03, 1, 8, Pakistan, c Imran Farhat, Mohammad Asif, 38, 81, 57, 5, 1
+1945, 2010-01-03, 3, 8, Pakistan, , Danish Kaneria, 3, 8, 6, 0, 0
+1947, 2010-01-14, 1, 8, Pakistan, c Sarfraz Ahmed, Danish Kaneria, 8, 16, 8, 0, 1
+1947, 2010-01-14, 3, 6, Pakistan, c Imran Farhat, Shoaib Malik, 0, 4, 2, 0, 0
+1957, 2010-02-27, 1, 8, New Zealand, c McIntosh, Vettori, 0, 3, 3, 0, 0
+1957, 2010-02-27, 3, 8, New Zealand, c Patel, Vettori, 0, 1, 1, 0, 0
+1963, 2010-06-13, 1, 9, Pakistan, , Danish Kaneria, 3, 12, 9, 0, 0
+1963, 2010-06-13, 3, 6, Pakistan, , Umar Gul, 30, 104, 54, 5, 0
+1965, 2010-06-21, 1, 9, Pakistan, , Mohammad Amir, 0, 1, 1, 0, 0
+1965, 2010-06-21, 3, 9, Pakistan, lbw, Mohammad Asif, 12, 39, 25, 1, 0
+1972, 2010-09-01, 1, 8, India, c Dhoni, Khan, 47, 91, 66, 5, 3
+1972, 2010-09-01, 3, 8, India, c Dhoni, Khan, 3, 12, 7, 0, 0
+1973, 2010-09-09, 1, 8, India, lbw, Ojha, 0, 7, 7, 0, 0
+1973, 2010-09-09, 3, 8, India, , Khan, 11, 56, 30, 2, 0
+1981, 2010-10-25, 2, 8, England, , Finn, 0, 32, 19, 0, 0
+1984, 2010-11-16, 1, 8, England, c Anderson, Finn, 62, 117, 93, 8, 1
+1984, 2010-11-16, 3, 8, England, c Bell, Collingwood, 1, 5, 4, 0, 0
+1986, 2010-11-26, 1, 8, England, c Prior, Anderson, 0, 8, 4, 0, 0
+1986, 2010-11-26, 3, 8, England, , Tremlett, 6, 23, 22, 0, 0
+1989, 2011-01-03, 1, 8, England, , Bresnan, 53, 89, 66, 5, 1
+1989, 2011-01-03, 3, 8, England, , Tremlett, 0, 1, 1, 0, 0
+2005, 2011-08-31, 1, 8, Sri Lanka, c HAPW Jayawardene, Lakmal, 14, 36, 33, 1, 0
+2005, 2011-08-31, 3, 8, Sri Lanka, c HAPW Jayawardene, Herath, 8, 20, 19, 1, 0
+2007, 2011-08-08, 2, 8, Sri Lanka, , Randiv, 0, 1, 1, 0, 0
+2008, 2011-08-16, 1, 8, Sri Lanka, c Herath, Welegedara, 8, 42, 29, 1, 0
+2008, 2011-08-16, 3, 8, Sri Lanka, c Eranga, Welegedara, 4, 5, 6, 1, 0
+2016, 2011-10-09, 1, 8, South Africa, c Morkel, Philander, 20, 32, 22, 2, 0
+2016, 2011-10-09, 3, 7, South Africa, c Amla, Philander, 3, 20, 12, 0, 0
+2018, 2011-10-17, 2, 8, South Africa, not out, , 38, 74, 49, 6, 0
+2018, 2011-10-17, 4, 8, South Africa, not out, , 40, 86, 47, 6, 0

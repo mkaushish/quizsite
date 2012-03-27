@@ -1,0 +1,103 @@
+
+Test # 724
+New Zealand in England, 1973, 3rd Test
+England v New Zealand
+Headingley, Leeds
+5,6,7,9,10 July 1973 (5-day match)
+
+Result: England won by an innings and 1 runs
+Series: England wins the 3-match series 2-0
+
+Toss: New Zealand
+Umpires: HD Bird and CS Elliott
+
+Close of play:
+ Day 1: New Zealand 262/9 (Hadlee 25*, Howarth 8*)
+ Day 2: New Zealand 276, England 70/1 (Boycott 45*, Roope 17*)
+ Day 3: England 337/6 (Knott 20*, Old 16*)
+ Day 4: England 419, New Zealand 138/9 (Turner 80*, Howarth 13*)
+
+New Zealand 1st innings                                         R   M   B  4 6
+GM Turner             lbw                b Old                 11  65  44  0 0
+JM Parker             c Knott            b Arnold               8  60  52  0 0
+*BE Congdon           c Knott            b Arnold               0   1   2  0 0
+BF Hastings           lbw                b Arnold              18  77  59  1 0
+MG Burgess            c Roope            b Old                 87 238 171 11 0
+V Pollard             c Boycott          b Old                 62 124 130 10 0
++KJ Wadsworth                            b Old                  8  20  14  2 0
+BR Taylor             c Fletcher         b Greig               20  29  23  4 0
+DR Hadlee                                b Snow                34  75  54  5 0
+RO Collinge                              b Snow                 5  11  11  0 0
+HJ Howarth            not out                                   8  47  35  1 0
+Extras                (b 5, lb 7, w 1, nb 2)                   15
+Total                 (all out, 98.4 overs)                   276
+
+FoW: 1-24 (Parker), 2-24 (Congdon), 3-24 (Turner),
+     4-78 (Hastings), 5-184 (Pollard), 6-202 (Wadsworth),
+     7-215 (Burgess), 8-227 (Taylor), 9-233 (Collinge),
+     10-276 (Hadlee).
+
+Bowling                      O      M      R      W
+Snow                        21.4    4     52      2
+Arnold                      27      8     62      3
+Old                         20      4     71      4
+Underwood                   11      4     27      0
+Greig                       13      4     29      1
+Illingworth                  6      0     20      0
+
+England 1st innings                                             R   M   B  4 6
+G Boycott             c Parker           b Congdon            115 221 181 20 0
+DL Amiss              lbw                b Collinge             8  34  26  1 0
+GRJ Roope             c Turner           b Collinge            18  57  42  3 0
+KWR Fletcher          c Howarth          b Collinge            81 246 246 10 0
+AW Greig              c Howarth          b Congdon              0   1   2  0 0
+*R Illingworth        lbw                b Taylor              65 147 138  9 0
++APE Knott            c Wadsworth        b Taylor              21  86  70  2 0
+CM Old                lbw                b Collinge            34  93  73  5 0
+JA Snow               c Howarth          b Collinge             6   6   5  1 0
+GG Arnold             c Wadsworth        b Hadlee              26  77  54  3 0
+DL Underwood          not out                                  20  42  38  2 0
+Extras                (b 5, lb 16, w 1, nb 3)                  25
+Total                 (all out, 145.1 overs)                  419
+
+FoW: 1-23 (Amiss), 2-71 (Roope), 3-190 (Boycott), 4-190 (Greig),
+     5-280 (Fletcher), 6-300 (Illingworth), 7-339 (Knott),
+     8-346 (Snow), 9-365 (Old), 10-419 (Arnold).
+
+Bowling                      O      M      R      W
+Collinge                    34      7     74      5
+Taylor                      31      3    111      2
+Hadlee                      23.1    2     98      1
+Congdon                     32     10     54      2
+Howarth                     18      6     44      0
+Pollard                      7      4     13      0
+
+New Zealand 2nd innings                                         R   M   B  4 6
+GM Turner             lbw                b Snow                81 274 207  9 0
+JM Parker             c Knott            b Arnold               4  41  39  0 0
+*BE Congdon           c Knott            b Arnold               2  15   9  0 0
+BF Hastings                              b Old                 10  38  35  1 0
+MG Burgess            lbw                b Old                 18  33  23  2 0
+V Pollard             c Roope            b Arnold               3  19  20  0 0
++KJ Wadsworth                            b Arnold               5   7   9  1 0
+BR Taylor             c Roope            b Snow                 1  11  12  0 0
+DR Hadlee             lbw                b Snow                 0   6   5  0 0
+RO Collinge                              b Arnold               0   3   2  0 0
+HJ Howarth            not out                                  15  83  62  2 0
+Extras                (b 1, lb 2)                               3
+Total                 (all out, 70.3 overs)                   142
+
+FoW: 1-16 (Parker), 2-20 (Congdon), 3-39 (Hastings),
+     4-85 (Burgess), 5-88 (Pollard), 6-94 (Wadsworth),
+     7-95 (Taylor), 8-97 (Hadlee), 9-106 (Collinge),
+     10-142 (Turner).
+
+Bowling                      O      M      R      W
+Snow                        19.3    4     34      3
+Arnold                      22     11     27      5
+Old                         14      1     41      2
+Underwood                    7      2     14      0
+Greig                        6      1     22      0
+Illingworth                  2      1      1      0
+
+<END>

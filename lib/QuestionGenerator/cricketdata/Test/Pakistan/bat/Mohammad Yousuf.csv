@@ -1,0 +1,59 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+1770, 2005-10-12, 1, 4, England, , Flintoff, 5, 10, 7, 1, 0
+1770, 2005-10-12, 3, 6, England, c Bell, Flintoff, 16, 19, 13, 4, 0
+1772, 2005-10-20, 1, 4, England,                c &, Bell, 78, 192, 143, 8, 2
+1772, 2005-10-20, 3, 4, England, , Flintoff, 20, 88, 69, 0, 0
+1774, 2005-11-29, 2, 4, England, c Pietersen, Udal, 223, 602, 373, 26, 2
+1781, 2006-01-13, 1, 4, India, st Dhoni, Kumble, 173, 270, 199, 22, 2
+1782, 2006-01-21, 1, 4, India, c Dhoni, Singh, 65, 161, 119, 8, 1
+1782, 2006-01-21, 3, 4, India, run out (sub [G Gambhir]), , 126, 232, 179, 11, 4
+1783, 2006-01-29, 1, 4, India, , Pathan, 0, 2, 1, 0, 0
+1783, 2006-01-29, 3, 4, India, lbw, Kumble, 97, 232, 161, 12, 0
+1796, 2006-03-03, 2, 4, Sri Lanka, , Muralitharan, 17, 47, 34, 3, 0
+1796, 2006-03-03, 4, 4, Sri Lanka, not out, , 14, 41, 31, 1, 0
+1809, 2006-06-13, 2, 4, England, c Jones, Harmison, 202, 468, 330, 26, 1
+1809, 2006-06-13, 4, 4, England, lbw, Panesar, 48, 92, 62, 8, 0
+1811, 2006-06-27, 1, 4, England, c Jones, Panesar, 38, 84, 58, 6, 0
+1811, 2006-06-27, 3, 4, England, st Jones, Panesar, 15, 42, 32, 2, 0
+1813, 2006-07-04, 2, 4, England, c Read, Harmison, 192, 343, 261, 25, 2
+1813, 2006-07-04, 4, 4, England, run out (Collingwood), , 8, 13, 7, 1, 0
+1814, 2006-07-17, 2, 4, England, c Read, Hoggard, 128, 349, 236, 18, 0
+1815, 2006-10-11, 2, 4, West Indies, st Ramdin, Gayle, 192, 501, 330, 24, 1
+1816, 2006-10-19, 1, 4, West Indies, c Lara, Gayle, 56, 179, 117, 3, 1
+1816, 2006-10-19, 3, 4, West Indies, c Chanderpaul, Mohammed, 191, 420, 344, 22, 0
+1818, 2006-11-27, 1, 4, West Indies, lbw, Collymore, 102, na, 158, 15, 0
+1818, 2006-11-27, 3, 4, West Indies, , Sarwan, 124, na, 195, 15, 0
+1829, 2007-01-19, 2, 5, South Africa, lbw, Pollock, 32, 77, 55, 5, 0
+1829, 2007-01-19, 4, 5, South Africa, c Gibbs, Pollock, 18, 73, 50, 2, 0
+1830, 2007-01-26, 1, 5, South Africa, c Prince, Ntini, 83, 131, 90, 10, 1
+1830, 2007-01-26, 3, 5, South Africa, , Hall, 18, 44, 29, 2, 0
+1844, 2007-09-08, 2, 4, South Africa, lbw, Steyn, 25, 46, 39, 3, 0
+1844, 2007-09-08, 4, 4, South Africa, not out, , 63, 228, 156, 6, 0
+1849, 2007-10-22, 1, 4, India, lbw, Ganguly, 27, 64, 43, 5, 0
+1849, 2007-10-22, 3, 4, India,                c &, Harbhajan Singh, 18, 30, 21, 3, 0
+1850, 2007-11-30, 2, 4, India, , Harbhajan Singh, 6, 10, 12, 1, 0
+1850, 2007-11-30, 4, 6, India, not out, , 44, 140, 110, 6, 0
+1852, 2007-11-08, 2, 4, India, c Yuvraj Singh, Pathan, 24, 102, 76, 3, 0
+1852, 2007-11-08, 4, 7, India, not out, , 10, 21, 13, 1, 0
+1921, 2009-06-04, 2, 5, Sri Lanka, run out (Dilshan), , 112, 275, 186, 10, 0
+1921, 2009-06-04, 4, 4, Sri Lanka, lbw, Herath, 12, 37, 25, 1, 0
+1924, 2009-06-12, 1, 4, Sri Lanka, c Herath, Kulasekara, 10, 8, 6, 2, 0
+1924, 2009-06-12, 3, 4, Sri Lanka, lbw, Herath, 6, 11, 12, 0, 0
+1927, 2009-06-20, 1, 4, Sri Lanka, run out (Vaas/Dilshan), , 90, 218, 146, 7, 1
+1927, 2009-06-20, 3, 4, Sri Lanka, c +Sangakkara, Herath, 23, 79, 55, 3, 0
+1934, 2009-10-24, 2, 4, New Zealand,                c &, Bond, 17, 55, 48, 3, 0
+1934, 2009-10-24, 4, 4, New Zealand, c McCullum, Martin, 41, 125, 70, 7, 1
+1938, 2009-11-03, 1, 4, New Zealand, lbw, Vettori, 0, 2, 2, 0, 0
+1938, 2009-11-03, 3, 3, New Zealand, lbw, Martin, 83, 283, 200, 7, 0
+1940, 2009-11-11, 1, 4, New Zealand, c McIntosh, O'Brien, 0, 21, 13, 0, 0
+1940, 2009-11-11, 3, 4, New Zealand, c McCullum, O'Brien, 89, 276, 212, 8, 1
+1943, 2009-11-26, 2, 4, Australia, c Haddin, Siddle, 22, 84, 59, 2, 1
+1943, 2009-11-26, 4, 4, Australia, c Katich, Hauritz, 61, 222, 140, 7, 0
+1945, 2010-01-03, 2, 4, Australia, c Haddin, Johnson, 46, 80, 56, 8, 0
+1945, 2010-01-03, 4, 4, Australia,                c &, Hauritz, 19, 40, 28, 4, 0
+1947, 2010-01-14, 2, 4, Australia, run out (Johnson/Haddin), , 7, 24, 24, 0, 0
+1947, 2010-01-14, 4, 4, Australia, lbw, Watson, 23, 38, 28, 5, 0
+1970, 2010-07-18, 2, 5, England,                c &, Swann, 56, 155, 108, 8, 0
+1970, 2010-07-18, 4, 4, England, , Anderson, 33, 89, 56, 5, 0
+1971, 2010-07-26, 2, 4, England, , Broad, 0, 5, 4, 0, 0
+1971, 2010-07-26, 3, 4, England, c Trott, Finn, 10, 47, 19, 1, 0

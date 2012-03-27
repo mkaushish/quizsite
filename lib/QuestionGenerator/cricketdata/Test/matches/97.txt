@@ -1,0 +1,130 @@
+
+Test # 97
+The Ashes, 1907/08, 2nd Test
+Australia v England
+Melbourne Cricket Ground
+1,2,3,4,6,7 January 1908 (timeless match)
+
+Result: England won by 1 wicket
+Series: 5-match series level 1-1
+
+Toss: Australia
+Umpires: P Argall and RM Crockett
+Test debuts: JB Hobbs, J Humphries (England).
+
+Close of play:
+ Day 1: Australia 255/7 (Ransford 22*, Carter 10*)
+ Day 2: Australia 266, England 246/3 (Hutchings 117*, Braund 15*)
+ Day 3: England 382, Australia 96/0 (Noble 50*, Trumper 46*)
+ Day 4: Australia 360/7 (Carter 22*, Cotter 27*)
+ Day 5: Australia 397, England 159/4 (Braund 17*, Hardstaff 17*)
+
+Australia 1st innings                                           R   M   B  4 6
+VT Trumper            c Humphries        b Crawford            49  81      5 0
+CG Macartney                             b Crawford            37  96      1 0
+C Hill                                   b Fielder             16  35        0
+*MA Noble             c Braund           b Rhodes              61 153      5 0
+WW Armstrong          c Hutchings        b Crawford            31  64      3 0
+PA McAlister          run out                                  10  35        0
+VS Ransford           run out                                  27  77        0
+A Cotter                                 b Crawford            17  15        0
++H Carter             not out                                  15  40        0
+GR Hazlitt                               b Crawford             1   4      0 0
+JV Saunders                              b Fielder              0   3      0 0
+Extras                (lb 1, w 1)                               2
+Total                 (all out, 100.5 overs)                  266
+
+FoW: 1-84 (Trumper), 2-93 (Macartney), 3-111 (Hill),
+     4-168 (Armstrong), 5-197 (McAlister), 6-214 (Noble),
+     7-240 (Cotter), 8-261 (Ransford), 9-265 (Hazlitt),
+     10-266 (Saunders).
+
+Bowling                      O      M      R      W
+Fielder                     27.5    4     77      2
+Barnes                      17      7     30      0
+Rhodes                      11      0     37      1
+Braund                      16      5     41      0
+Crawford                    29      1     79      5
+
+England 1st innings                                             R   M   B  4 6
+*FL Fane                                 b Armstrong           13  35        0
+JB Hobbs                                 b Cotter              83 192      8 0
+G Gunn                lbw                b Cotter              15  52        0
+KL Hutchings                             b Cotter             126 163     21 1
+LC Braund                                b Cotter              49 144      5 0
+J Hardstaff snr                          b Saunders            12  37        0
+W Rhodes                                 b Saunders            32  98      4 0
+JN Crawford           c Ransford         b Saunders            16  35        0
+SF Barnes             c Hill             b Armstrong           14  45        0
++J Humphries                             b Cotter               6            0
+A Fielder             not out                                   6            0
+Extras                (b 3, lb 3, w 1, nb 3)                   10
+Total                 (all out, 135.2 overs)                  382
+
+FoW: 1-27 (Fane), 2-61 (Gunn), 3-160 (Hobbs), 4-268 (Hutchings),
+     5-287 (Hardstaff), 6-325 (Braund), 7-353 (Crawford),
+     8-360 (Rhodes), 9-369 (Humphries), 10-382 (Barnes).
+
+Bowling                      O      M      R      W
+Cotter                      33      4    142      5
+Saunders                    34      7    100      3
+Noble                        9      3     26      0
+Armstrong                   34.2   15     36      2
+Hazlitt                     13      1     34      0
+Macartney                   12      2     34      0
+
+Australia 2nd innings                                           R   M   B  4 6
+*MA Noble                                b Crawford            64 122      6 0
+VT Trumper            lbw                b Crawford            63 110      7 0
+C Hill                                   b Fielder              3  15      0 0
+PA McAlister          run out                                  15  40        0
+WW Armstrong                             b Barnes              77 155      7 0
+CG Macartney          c Humphries        b Barnes              54 147      5 0
+VS Ransford           c Hutchings        b Barnes              18  40        0
++H Carter             c Fane             b Barnes              53  83      7 0
+A Cotter              lbw                b Crawford            27  40        0
+GR Hazlitt                               b Barnes               3  25      0 0
+JV Saunders           not out                                   0   3      0 0
+Extras                (b 12, lb 8)                             20
+Total                 (all out, 121.4 overs)                  397
+
+FoW: 1-126 (Trumper), 2-131 (Noble), 3-135 (Hill),
+     4-162 (McAlister), 5-268 (Armstrong), 6-303 (Macartney),
+     7-312 (Ransford), 8-361 (Cotter), 9-392 (Hazlitt),
+     10-397 (Carter).
+
+Bowling                      O      M      R      W
+Fielder                     27      6     74      1
+Barnes                      27.4    4     72      5
+Rhodes                      16      6     38      0
+Braund                      18      2     68      0
+Crawford                    33      6    125      3
+
+England 2nd innings (target: 282 runs)                          R   M   B  4 6
+*FL Fane                                 b Armstrong           50 160      2 0
+JB Hobbs                                 b Noble               28  69        0
+G Gunn                lbw                b Noble                0   1   2  0 0
+KL Hutchings          c Cotter           b Macartney           39 106        0
+LC Braund                                b Armstrong           30 110        0
+J Hardstaff snr       c Ransford         b Cotter              19  73        0
+W Rhodes              run out                                  15  22        0
+JN Crawford           c Armstrong        b Saunders            10  15      0 1
+SF Barnes             not out                                  38  83        0
++J Humphries          lbw                b Armstrong           16  45      2 0
+A Fielder             not out                                  18  25        0
+Extras                (b 9, lb 7, w 1, nb 2)                   19
+Total                 (9 wickets, 121.4 overs)                282
+
+FoW: 1-54 (Hobbs), 2-54 (Gunn), 3-121 (Fane), 4-131 (Hutchings),
+     5-162 (Hardstaff), 6-196 (Braund), 7-198 (Rhodes),
+     8-209 (Crawford), 9-243 (Humphries).
+
+Bowling                      O      M      R      W
+Cotter                      28      3     82      1
+Saunders                    30      9     58      1
+Noble                       22      7     41      2
+Armstrong                   30.4   10     53      3
+Hazlitt                      2      1      8      0
+Macartney                    9      3     21      1
+
+<END>

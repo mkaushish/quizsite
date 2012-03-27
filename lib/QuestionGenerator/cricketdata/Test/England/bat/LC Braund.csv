@@ -1,0 +1,42 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+65, 1901-12-13, 1, 8, Australia, c Jones, McLeod, 58, 128, na, 10, 1
+66, 1902-01-01, 2, 9, Australia, not out, , 2, 14, na, 0, 0
+66, 1902-01-01, 4, 7, Australia, c Darling, Noble, 25, 55, na, na, 0
+67, 1902-01-17, 1, 7, Australia, not out, , 103, 222, na, 12, 1
+67, 1902-01-17, 3, 6, Australia, , Howell, 17, 15, na, 3, 0
+68, 1902-02-14, 1, 6, Australia, lbw, Trumble, 17, 40, na, na, 0
+68, 1902-02-14, 3, 6, Australia, , Saunders, 0, na, na, 0, 0
+69, 1902-02-28, 2, 6, Australia, c Hopkins, Trumble, 32, 80, na, 5, 0
+69, 1902-02-28, 4, 6, Australia, c Hill, Noble, 2, na, na, 0, 0
+70, 1902-05-29, 1, 9, Australia, , Jones, 14, na, na, na, 0
+72, 1902-07-03, 2, 7, Australia, st Kelly, Saunders, 0, na, na, 0, 0
+72, 1902-07-03, 4, 8, Australia, c Armstrong, Noble, 9, na, na, na, 0
+73, 1902-07-24, 2, 7, Australia, , Noble, 65, 165, na, na, 0
+73, 1902-07-24, 4, 7, Australia, st Kelly, Trumble, 3, na, na, 0, 0
+74, 1902-08-11, 2, 6, Australia, c Hill, Trumble, 22, na, na, na, 0
+74, 1902-08-11, 4, 6, Australia, c Kelly, Trumble, 2, na, na, 0, 0
+78, 1903-12-11, 2, 6, Australia, , Howell, 102, 171, na, 15, 0
+78, 1903-12-11, 4, 5, Australia, c Noble, Howell, 0, 5, na, 0, 0
+79, 1904-01-01, 1, 5, Australia, c Howell, Trumble, 20, 55, na, 2, 0
+79, 1904-01-01, 3, 4, Australia, , Saunders, 3, 16, na, 0, 0
+80, 1904-01-15, 2, 5, Australia, c Duff, Hopkins, 13, 45, na, 1, 0
+80, 1904-01-15, 4, 6, Australia, , Howell, 25, 60, na, 2, 0
+81, 1904-02-26, 1, 6, Australia, c Trumble, Noble, 39, 85, na, 5, 0
+81, 1904-02-26, 3, 6, Australia, c McLeod, Hopkins, 19, 56, na, 4, 0
+82, 1904-03-05, 2, 8, Australia, c Hopkins, Noble, 5, 35, na, 0, 0
+82, 1904-03-05, 4, 1, Australia, c McAlister, Cotter, 0, 1, 1, 0, 0
+93, 1907-07-01, 1, 5, South Africa, c Kotze, Faulkner, 104, 240, na, 12, 0
+94, 1907-07-29, 1, 5, South Africa, lbw, Faulkner, 1, na, na, 0, 0
+94, 1907-07-29, 3, 5, South Africa, c Schwarz, White, 0, na, na, 0, 0
+95, 1907-08-19, 1, 5, South Africa, , Schwarz, 18, na, na, na, 0
+95, 1907-08-19, 3, 5, South Africa, c Schwarz, Vogler, 34, 85, na, na, 0
+96, 1907-12-13, 1, 5, Australia, , Cotter, 30, 144, na, 2, 0
+96, 1907-12-13, 3, 6, Australia, not out, , 32, 85, na, 3, 0
+97, 1908-01-01, 2, 5, Australia, , Cotter, 49, 144, na, 5, 0
+97, 1908-01-01, 4, 5, Australia, , Armstrong, 30, 110, na, na, 0
+98, 1908-01-10, 2, 5, Australia, , Macartney, 0, 1, 1, 0, 0
+98, 1908-01-10, 4, 5, Australia, c Hartigan, O'Connor, 47, 160, na, 7, 0
+99, 1908-02-07, 2, 5, Australia, run out, , 4, 15, na, 0, 0
+99, 1908-02-07, 4, 5, Australia, , Macartney, 10, 15, na, na, 0
+100, 1908-02-21, 2, 7, Australia, st Carter, Macartney, 31, 46, na, 5, 0
+100, 1908-02-21, 4, 6, Australia, c Noble, Saunders, 0, 15, na, 0, 0

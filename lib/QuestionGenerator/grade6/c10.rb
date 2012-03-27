@@ -47,7 +47,17 @@ module Chapter10
 		def initialize
 			@width=rand(MAXSIDE)+5
 			@length=rand(MAXSIDE)+width
-
+    end
+    def solve
+      {"ans" => ((@width+@length)*2).to_s}
+    end
+    def explain
+      
+    end
+    def text
+      [TextLabel.new("Find the perimeter of a rectangle of width #{@width} and length #{@length}"), TextField.new("ans")]
+    end
+  end
 end
 
 

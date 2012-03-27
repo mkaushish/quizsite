@@ -1,0 +1,116 @@
+
+Test # 215
+South Africa in Australia, 1931/32, 4th Test
+Australia v South Africa
+Adelaide Oval
+29,30 January, 1,2 February 1932 (timeless match)
+
+Result: Australia won by 10 wickets
+Series: Australia leads the 5-match series 4-0
+
+Toss: South Africa
+Umpires: GE Borwick and GA Hele
+Test debuts: WA Hunt, WJ O'Reilly, HM Thurlow (Australia).
+
+Close of play:
+ Day 1: South Africa 265/7 (Vincent 18*, McMillan 10*)
+ Day 2: South Africa 308, Australia 302/4 (Bradman 170*, Rigg 32*)
+ Day 3: Australia 513, South Africa 124/2 (Mitchell 54*, Taylor 11*)
+
+South Africa 1st innings                                        R   M   B  4 6
+SH Curnow             c Ponsford         b Grimmett            20  55      0 0
+B Mitchell                           c & b McCabe              75 175      7 0
+JAJ Christy                              b O'Reilly             7  21      0 0
+HW Taylor             c Rigg             b Grimmett            78 129      8 1
+*+HB Cameron          lbw                b Grimmett            52  89      7 0
+DPB Morkel                           c & b Grimmett             0   5      0 0
+KG Viljoen                           c & b Grimmett             0   3      0 0
+CL Vincent            not out                                  48 126      4 0
+Q McMillan                               b Grimmett            19  47      1 0
+NA Quinn              c Ponsford         b Grimmett             1  15      0 0
+AJ Bell               lbw                b O'Reilly             2  10      0 0
+Extras                (lb 2, nb 4)                              6
+Total                 (all out, 140.4 overs)                  308
+
+FoW: 1-27 (Curnow), 2-45 (Christy), 3-165 (Mitchell),
+     4-202 (Taylor), 5-204 (Morkel), 6-204 (Viljoen),
+     7-243 (Cameron), 8-286 (McMillan), 9-300 (Quinn),
+     10-308 (Bell).
+
+Bowling                      O      M      R      W
+Thurlow                     27      6     53      0
+McCabe                      17      6     34      1
+O'Reilly                    39.4   10     74      2
+Grimmett                    47     11    116      7
+Hunt                        10      1     25      0
+
+Australia 1st innings                                           R   M   B  4 6
+*WM Woodfull          c Morkel           b Bell                82 140      6 0
+WH Ponsford                              b Quinn                5  15      0 0
+DG Bradman            not out                                 299 396     23 0
+AF Kippax             run out                                   0   3   0  0 0
+SJ McCabe             c Vincent          b Bell                 2   4      0 0
+KE Rigg               c Taylor           b Bell                35  88        0
++WAS Oldfield         lbw                b Vincent             23  54      2 0
+CV Grimmett                              b Bell                21  44        0
+WA Hunt               c Vincent          b Quinn                0   2   1  0 0
+WJ O'Reilly                              b Bell                23  51        0
+HM Thurlow            run out                                   0  14      0 0
+Extras                (b 18, lb 3, w 1, nb 1)                  23
+Total                 (all out, 138 overs)                    513
+
+FoW: 1-9 (Ponsford), 2-185 (Woodfull), 3-191 (Kippax),
+     4-194 (McCabe), 5-308 (Rigg), 6-357 (Oldfield),
+     7-418 (Grimmett), 8-421 (Hunt), 9-499 (O'Reilly),
+     10-513 (Thurlow).
+
+Bowling                      O      M      R      W
+Bell                        40      2    142      5
+Quinn                       37      5    114      2
+Vincent                     34      5    110      1
+McMillan                     9      0     53      0
+Morkel                      18      1     71      0
+
+South Africa 2nd innings                                        R   M   B  4 6
+SH Curnow                                b McCabe               3  17      0 0
+B Mitchell            c O'Reilly         b Grimmett            95 293      5 0
+JAJ Christy                              b Grimmett            51  78      4 0
+HW Taylor                                b O'Reilly            84 122      8 1
+*+HB Cameron                             b O'Reilly             4   6      1 0
+CL Vincent                               b Grimmett             5          0 0
+KG Viljoen                               b Grimmett             1          0 0
+DPB Morkel                               b Grimmett            15          1 1
+Q McMillan            c Hunt             b Grimmett             3          0 0
+NA Quinn                                 b Grimmett             1          0 0
+AJ Bell               not out                                   0   1      0 0
+Extras                (b 4, lb 3, nb 5)                        12
+Total                 (all out, 123.2 overs)                  274
+
+FoW: 1-22 (Curnow), 2-103 (Christy), 3-224 (Taylor),
+     4-232 (Cameron), 5-240 (Vincent), 6-246 (Viljoen),
+     7-262 (Morkel), 8-268 (McMillan), 9-274 (Mitchell),
+     10-274 (Quinn).
+
+Bowling                      O      M      R      W
+Thurlow                     12      1     33      0
+McCabe                      14      1     51      1
+O'Reilly                    42     13     81      2
+Grimmett                    49.2   17     83      7
+Hunt                         6      1     14      0
+
+Australia 2nd innings (target: 70 runs)                         R   M   B  4 6
+*WM Woodfull          not out                                  37  45        0
+WH Ponsford           not out                                  27  45        0
+Extras                (b 4, lb 5)                               9
+Total                 (0 wickets, 19.2 overs)                  73
+
+DNB: DG Bradman, AF Kippax, SJ McCabe, KE Rigg, +WAS Oldfield,
+     CV Grimmett, WA Hunt, WJ O'Reilly, HM Thurlow.
+
+Bowling                      O      M      R      W
+Quinn                        3      0      5      0
+Vincent                      7      0     31      0
+McMillan                     7.2    0     23      0
+Morkel                       2      0      5      0
+
+<END>

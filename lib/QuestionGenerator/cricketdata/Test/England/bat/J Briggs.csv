@@ -1,0 +1,53 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+17, 1884-12-12, 2, 8, Australia, c Blackham, Palmer, 1, na, na, 0, 0
+18, 1885-01-01, 1, 7, Australia, c Horan, Jones, 121, 150, na, 15, 0
+19, 1885-02-20, 2, 6, Australia, c Scott, Horan, 3, na, na, 0, 0
+19, 1885-02-20, 4, 6, Australia, , Spofforth, 1, na, na, 0, 0
+20, 1885-03-14, 1, 8, Australia, c Palmer, Spofforth, 3, na, 2, 0, 0
+20, 1885-03-14, 3, 8, Australia, run out, , 5, na, na, 0, 0
+21, 1885-03-21, 2, 8, Australia, c Walters, Trumble, 43, na, na, 8, 0
+22, 1886-07-05, 2, 8, Australia, c Garrett, Spofforth, 1, na, na, 0, 0
+22, 1886-07-05, 4, 8, Australia, not out, , 2, na, na, 0, 0
+23, 1886-07-19, 1, 10, Australia, c Jones, Trumble, 0, na, na, 0, 0
+24, 1886-08-12, 1, 9, Australia, c Trumble, Spofforth, 53, na, na, 3, 0
+25, 1887-01-28, 1, 8, Australia, c Midwinter, Turner, 5, 14, 12, 0, 0
+25, 1887-01-28, 3, 8, Australia, , Spofforth, 33, 65, na, 4, 0
+26, 1887-02-25, 1, 8, Australia, , Ferris, 17, 29, na, 3, 0
+26, 1887-02-25, 3, 8, Australia, , Garrett, 16, 43, na, 0, 0
+27, 1888-02-10, 1, 9, Australia, , Turner, 0, 7, 11, 0, 0
+27, 1888-02-10, 3, 9, Australia, c Worrall, McShane, 14, 30, 39, 2, 0
+28, 1888-07-16, 2, 10, Australia, , Woods, 17, na, na, na, 0
+28, 1888-07-16, 4, 8, Australia, , Turner, 0, na, na, 0, 0
+29, 1888-08-13, 2, 9, Australia, , Woods, 0, na, na, 0, 0
+30, 1888-08-30, 1, 9, Australia, not out, , 22, na, na, na, 0
+31, 1889-03-12, 2, 7, South Africa, c Smith, Rose-Innes, 0, na, na, 0, 0
+32, 1889-03-25, 1, 3, South Africa, , Vintcent, 6, 17, 17, 0, 0
+35, 1892-01-01, 2, 8, Australia, c Bruce, Turner, 41, na, na, 4, 0
+35, 1892-01-01, 4, 8, Australia, c Trott, McLeod, 4, na, na, 1, 0
+36, 1892-01-29, 2, 9, Australia, lbw, Trott, 28, na, na, na, 0
+36, 1892-01-29, 4, 9, Australia, c Trott, Turner, 12, na, na, na, 0
+38, 1892-03-24, 1, 8, Australia, , Turner, 39, na, na, 5, 0
+40, 1893-08-14, 1, 8, Australia, , Giffen, 0, na, na, 0, 0
+41, 1893-08-24, 2, 8, Australia, , Giffen, 2, na, na, 0, 0
+42, 1894-12-14, 2, 8, Australia, , Giffen, 57, 118, na, 3, 0
+42, 1894-12-14, 3, 8, Australia, , McLeod, 42, 76, na, 6, 0
+43, 1895-12-29, 1, 9, Australia, c Bruce, Turner, 5, na, na, na, 0
+43, 1895-12-29, 3, 8, Australia, lbw, Giffen, 31, 40, na, na, 0
+44, 1895-01-11, 2, 2, Australia, , Callaway, 12, na, na, na, 0
+44, 1895-01-11, 4, 9, Australia, , AE Trott, 0, 2, na, 0, 0
+45, 1895-02-01, 2, 3, Australia, , GHS Trott, 11, 25, na, 1, 0
+45, 1895-02-01, 3, 8, Australia, c Bruce, Giffen, 6, 35, na, 0, 0
+46, 1895-03-01, 2, 9, Australia, c GHS Trott, Giffen, 0, na, na, 0, 0
+51, 1896-07-16, 2, 9, Australia, , Trumble, 0, na, na, 0, 0
+51, 1896-07-16, 3, 9, Australia, st Kelly, McKibbin, 16, na, na, na, 0
+53, 1897-12-13, 1, 10, Australia, run out, , 1, 5, na, 0, 0
+54, 1898-01-01, 2, 10, Australia, not out, , 46, 71, na, 5, 0
+54, 1898-01-01, 3, 9, Australia, c Trott, Trumble, 12, 33, na, 2, 0
+55, 1898-01-14, 2, 9, Australia, c Kelly, Noble, 14, 20, na, 3, 0
+55, 1898-01-14, 3, 9, Australia, not out, , 0, 28, na, 0, 0
+56, 1898-01-29, 2, 9, Australia, not out, , 21, 43, na, 2, 0
+56, 1898-01-29, 3, 1, Australia, c Darling, Howell, 23, 52, na, 1, 0
+57, 1898-02-26, 1, 9, Australia, , Jones, 0, 10, na, 0, 0
+57, 1898-02-26, 3, 9, Australia, , Howell, 29, 45, na, na, 0
+62, 1899-06-29, 2, 11, Australia, absent hurt, , -, , , , 
+32, 1889-02-25, 1, 3, South Africa, , Vintcent, 6, 17, 17, 0, 0

@@ -1,0 +1,128 @@
+
+Test # 162
+The Ashes, 1924/25, 5th Test
+Australia v England
+Sydney Cricket Ground
+27,28 February, 2,3,4 March 1925 (timeless match)
+
+Result: Australia won by 307 runs
+Series: Australia wins the 5-match series 4-1
+
+Toss: Australia
+Umpires: RM Crockett and DA Elder
+Balls per over: 8
+Test debuts: CV Grimmett, AF Kippax (Australia).
+
+Close of play:
+ Day 1: Australia 239/7 (Kelleway 9*, Oldfield 0*)
+ Day 2: Australia 295, England 167
+ Day 3: Australia 203/6 (Collins 27*, Kelleway 22*)
+ Day 4: Australia 325, England 88/5 (Hearne 18*, Whysall 1*)
+
+Australia 1st innings                                           R   M   B  4 6
+*HL Collins           c Strudwick        b Gilligan             1   6      0 0
+J Ryder                                  b Kilner              29  71      3 0
+JM Gregory            run out                                  29  54      1 0
+TJE Andrews           c Whysall          b Kilner              26  49      1 0
+JM Taylor             c Whysall          b Tate                15  46      0 0
+WH Ponsford           c Woolley          b Kilner              80 140      6 0
+AF Kippax                                b Kilner              42 101      1 0
+C Kelleway            lbw                b Tate                 9  39      1 0
++WAS Oldfield         c Strudwick        b Tate                29  88      0 0
+AA Mailey                                b Tate                14  42      0 0
+CV Grimmett           not out                                  12  38      1 0
+Extras                (b 2, lb 5, nb 2)                         9
+Total                 (all out, 102.5 overs)                  295
+
+FoW: 1-3 (Collins), 2-55 (Gregory), 3-64 (Ryder), 4-99 (Andrews),
+     5-103 (Taylor), 6-208 (Kippax), 7-239 (Ponsford),
+     8-239 (Kelleway), 9-264 (Mailey), 10-295 (Oldfield).
+
+Bowling                      O      M      R      W
+Tate                        39.5    6     92      4
+Gilligan                    13      1     46      1
+Kilner                      38      4     97      4
+Hearne                       7      0     33      0
+Woolley                      5      0     18      0
+
+England 1st innings                                             R   M   B  4 6
+JB Hobbs              c Oldfield         b Gregory              0   2   7  0 0
+H Sutcliffe           c Mailey           b Kelleway            22  35  26  4 0
+A Sandham             run out                                   4  21  25  0 0
+FE Woolley                               b Grimmett            47  93      5 0
+EH Hendren            c Ponsford         b Gregory             10  27      0 0
+JW Hearne             lbw                b Grimmett            16  79      1 0
+WW Whysall            lbw                b Grimmett             8  38      0 0
+R Kilner              st Oldfield        b Grimmett            24  32      2 0
+MW Tate                                  b Ryder               25  24      3 0
+*AER Gilligan         st Oldfield        b Grimmett             5  11      0 0
++H Strudwick          not out                                   1   4      0 0
+Extras                (lb 4, nb 1)                              5
+Total                 (all out, 47.7 overs)                   167
+
+FoW: 1-0 (Hobbs), 2-15 (Sandham), 3-28 (Sutcliffe),
+     4-58 (Hendren), 5-96 (Woolley), 6-109 (Hearne),
+     7-122 (Whysall), 8-157 (Kilner), 9-163 (Tate),
+     10-167 (Gilligan).
+
+Bowling                      O      M      R      W
+Gregory                      9      1     42      2
+Kelleway                    15      1     38      1
+Mailey                       5      0     13      0
+Ryder                        7      0     24      1
+Grimmett                    11.7    2     45      5
+
+Australia 2nd innings                                           R   M   B  4 6
+JM Gregory            lbw                b Hearne              22  47      3 0
+J Ryder                                  b Gilligan             7   6      1 0
+TJE Andrews           c Woolley          b Hearne              80 170      6 0
+JM Taylor             st Strudwick       b Tate                25  62      1 0
+WH Ponsford           run out                                   5  36      0 0
+AF Kippax             c Whysall          b Woolley              8  32      1 0
+*HL Collins           lbw                b Tate                28  94      1 0
+C Kelleway            c Whysall          b Tate                73 202      5 0
++WAS Oldfield         not out                                  65 117      3 0
+AA Mailey                                b Tate                 0   2   2  0 0
+CV Grimmett                              b Tate                 0   5   5  0 0
+Extras                (b 6, lb 4, w 1, nb 1)                   12
+Total                 (all out, 118.3 overs)                  325
+
+FoW: 1-7 (Ryder), 2-43 (Gregory), 3-110 (Taylor),
+     4-130 (Ponsford), 5-152 (Andrews), 6-156 (Kippax),
+     7-209 (Collins), 8-325 (Kelleway), 9-325 (Mailey),
+     10-325 (Grimmett).
+
+Bowling                      O      M      R      W
+Tate                        39.3    6    115      5
+Gilligan                    15      2     46      1
+Kilner                      34     13     54      0
+Hearne                      22      0     84      2
+Woolley                      8      1     14      1
+
+England 2nd innings (target: 454 runs)                          R   M   B  4 6
+JB Hobbs              st Oldfield        b Grimmett            13  36      1 0
+H Sutcliffe                              b Gregory              0  10   9  0 0
+A Sandham             lbw                b Grimmett            15  27      1 0
+FE Woolley            c Andrews          b Kelleway            28  55      2 0
+EH Hendren            c Oldfield         b Grimmett            10  20      1 0
+JW Hearne             lbw                b Grimmett            24  55      1 0
+WW Whysall            st Oldfield        b Grimmett            18  74      1 1
+R Kilner              c Ponsford         b Collins              1   2      0 0
+MW Tate               c Mailey           b Kelleway            33  38      4 1
+*AER Gilligan         not out                                   0   6      0 0
++H Strudwick          c Mailey           b Grimmett             0   1   2  0 0
+Extras                (b 1, lb 3)                               4
+Total                 (all out, 44.4 overs)                   146
+
+FoW: 1-3 (Sutcliffe), 2-31 (Hobbs), 3-32 (Sandham),
+     4-60 (Hendren), 5-84 (Woolley), 6-99 (Hearne),
+     7-100 (Kilner), 8-146 (Tate), 9-146 (Whysall),
+     10-146 (Strudwick).
+
+Bowling                      O      M      R      W
+Gregory                     10      0     53      1
+Kelleway                     7      1     16      2
+Grimmett                    19.4    3     37      6
+Collins                      8      2     36      1
+
+<END>

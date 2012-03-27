@@ -1,0 +1,64 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+263, 1938-06-10, 1, 3, Australia, , O'Reilly, 5, 31, 30, 1, 0
+264, 1938-06-24, 1, 3, Australia, , McCormick, 0, 7, 5, 0, 0
+264, 1938-06-24, 3, 4, Australia, c McCabe, McCormick, 10, 20, 24, 1, 0
+265, 1938-07-22, 1, 1, Australia, , O'Reilly, 12, 57, 67, 1, 0
+265, 1938-07-22, 3, 1, Australia, st Barnett, Fleetwood-Smith, 28, 111, 110, 3, 0
+266, 1938-08-20, 1, 2, Australia, lbw, O'Reilly, 12, 45, 59, 0, 0
+267, 1938-12-24, 1, 1, South Africa, c Mitchell, Davies, 4, na, 4, 1, 0
+267, 1938-12-24, 3, 1, South Africa, c Mitchell, Gordon, 10, na, na, na, 0
+268, 1939-12-31, 1, 6, South Africa, , Gordon, 0, 5, na, 0, 0
+270, 1939-02-18, 1, 7, South Africa, lbw, Langton, 6, na, na, na, 0
+271, 1939-03-03, 2, 6, South Africa, c Rowan, Langton, 1, na, na, 0, 0
+271, 1939-03-03, 4, 3, South Africa, c Gordon, Langton, 219, 460, na, 25, 0
+279, 1946-11-29, 2, 3, Australia, c McCool, Miller, 16, 98, 117, 1, 0
+279, 1946-11-29, 3, 3, Australia, lbw, Toshack, 7, 14, 17, 1, 0
+280, 1946-12-13, 1, 3, Australia, lbw, McCool, 71, 202, 236, 6, 0
+280, 1946-12-13, 3, 3, Australia, , McCool, 119, 314, 379, 7, 0
+281, 1947-01-01, 2, 3, Australia, lbw, Lindwall, 89, 173, 237, 10, 0
+281, 1947-01-01, 4, 3, Australia, lbw, McCool, 13, 22, 34, 1, 0
+282, 1947-01-31, 1, 3, Australia,                c &, Dooland, 17, 32, 38, 1, 0
+282, 1947-01-31, 3, 3, Australia, c Bradman, Toshack, 46, 92, 98, 6, 0
+283, 1947-02-28, 1, 3, Australia, c Tallon, Lindwall, 60, 179, 174, 8, 0
+283, 1947-02-28, 3, 3, Australia, st Tallon, McCool, 24, 71, 65, 2, 0
+284, 1947-03-21, 2, 3, New Zealand, c Taylor, RH Scott, 42, 95, na, 3, 0
+285, 1947-06-07, 2, 3, South Africa, , Smith, 57, 205, na, 1, 0
+285, 1947-06-07, 3, 3, South Africa, , Smith, 50, 109, na, 7, 0
+286, 1947-06-21, 1, 3, South Africa, , Mann, 189, 361, na, 26, 1
+287, 1947-07-05, 2, 3, South Africa, , Tuckett, 191, 317, na, 22, 3
+287, 1947-07-05, 4, 3, South Africa, not out, , 22, 50, na, na, 0
+288, 1947-07-26, 2, 3, South Africa, c Melville, Mann, 43, 107, na, na, 0
+299, 1948-06-10, 1, 3, Australia, , Johnston, 18, 74, na, 1, 0
+299, 1948-06-10, 3, 3, Australia, c Tallon, Johnson, 13, 43, na, 2, 0
+300, 1948-06-24, 2, 3, Australia, , Lindwall, 5, 70, na, na, 0
+300, 1948-06-24, 4, 3, Australia, c Johnson, Toshack, 2, na, na, 0, 0
+301, 1948-07-08, 1, 3, Australia, c Tallon, Lindwall, 32, 170, na, 5, 0
+301, 1948-07-08, 3, 3, Australia, run out, , 53, 138, na, 8, 1
+302, 1948-07-22, 1, 3, Australia, c Morris, Johnson, 111, 314, na, 13, 1
+302, 1948-07-22, 3, 3, Australia, lbw, Lindwall, 54, na, na, na, 1
+303, 1948-08-14, 1, 3, Australia, c Hassett, Johnston, 3, 20, 20, 0, 0
+303, 1948-08-14, 3, 3, Australia, , Lindwall, 28, na, na, na, 0
+314, 1949-06-11, 1, 3, New Zealand, c Donnelly, Cowie, 36, 96, na, na, 0
+314, 1949-06-11, 3, 3, New Zealand, , Cave, 70, 105, na, na, 1
+315, 1949-06-25, 1, 3, New Zealand, c Donnelly, Cowie, 9, na, na, na, 0
+315, 1949-06-25, 3, 3, New Zealand, c Hadlee, Burtt, 31, na, na, na, 0
+316, 1949-07-23, 2, 3, New Zealand, c Rabone, Burtt, 78, 158, na, 10, 0
+317, 1949-08-13, 2, 3, New Zealand, c Cave, Cresswell, 100, 185, na, 14, 0
+323, 1950-06-08, 1, 3, West Indies, c Gomez, Valentine, 7, 19, na, 1, 0
+323, 1950-06-08, 3, 2, West Indies, c Weekes, Ramadhin, 71, 169, na, 10, 0
+324, 1950-06-24, 2, 3, West Indies, c Walcott, Ramadhin, 8, 90, na, na, 0
+324, 1950-06-24, 4, 3, West Indies, c Jones, Ramadhin, 8, na, na, na, 0
+374, 1953-07-09, 2, 2, Australia, c Hole, Hill, 6, 23, na, 1, 0
+375, 1953-07-23, 1, 2, Australia, lbw, Miller, 10, 79, na, 1, 0
+375, 1953-07-23, 3, 2, Australia, c de Courcy, Lindwall, 64, 245, na, 10, 0
+376, 1953-08-15, 2, 2, Australia, lbw, Lindwall, 21, na, na, 3, 0
+376, 1953-08-15, 4, 2, Australia, not out, , 55, 210, na, 6, 0
+387, 1954-06-10, 2, 5, Pakistan, , Khan Mohammad, 4, na, na, na, 0
+391, 1954-11-26, 2, 3, Australia, c Langley, Archer, 15, 42, na, 3, 0
+391, 1954-11-26, 3, 3, Australia, , Johnston, 88, 191, na, 13, 1
+392, 1954-12-17, 1, 6, Australia, c Benaud, Archer, 10, 21, 23, 1, 0
+392, 1954-12-17, 3, 6, Australia, , Archer, 29, 96, 113, 4, 0
+393, 1955-12-31, 1, 2, Australia, c Lindwall, Miller, 4, 17, na, 1, 0
+393, 1955-12-31, 3, 2, Australia, , Johnston, 13, 65, na, 1, 0
+396, 1955-01-28, 2, 2, Australia, , Johnson, 21, 92, na, 2, 0
+396, 1955-01-28, 4, 2, Australia, , Miller, 0, 2, na, 0, 0

@@ -1,0 +1,93 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+1625, 2002-10-09, 1, 7, Zimbabwe, , Price, 0, 14, 10, 0, 0
+1625, 2002-10-09, 3, 7, Zimbabwe, , Price, 38, 51, 49, 8, 0
+1627, 2002-10-16, 2, 7, Zimbabwe, lbw, Nkala, 56, 108, 83, 9, 0
+1635, 2002-11-26, 2, 8, South Africa, c Pollock, Hayward, 12, 37, 22, 3, 0
+1635, 2002-11-26, 3, 8, South Africa, c Boucher, Ntini, 29, 51, 30, 6, 0
+1637, 2003-01-02, 2, 7, South Africa, lbw, Pollock, 0, 13, 9, 0, 0
+1637, 2003-01-02, 3, 7, South Africa, lbw, Ntini, 4, 6, 9, 1, 0
+1695, 2004-03-05, 2, 7, India, lbw, Pathan, 5, 21, 12, 1, 0
+1697, 2004-03-13, 1, 7, India, c Laxman, Balaji, 17, 42, 28, 4, 0
+1697, 2004-03-13, 3, 4, India, , Balaji, 23, 31, 29, 5, 0
+1719, 2004-10-28, 2, 9, Sri Lanka, c Jayawardene, Herath, 15, 41, 33, 2, 0
+1726, 2004-11-16, 2, 7, Australia, , Kasprowicz, 2, 21, 15, 0, 0
+1726, 2004-11-16, 4, 7, Australia, c Clarke, McGrath, 0, 20, 13, 0, 0
+1729, 2004-11-26, 1, 8, Australia, c Gilchrist, McGrath, 24, 37, 33, 4, 0
+1729, 2004-11-26, 3, 9, Australia, lbw, Warne, 0, 10, 3, 0, 0
+1731, 2005-01-02, 1, 7, Australia, c Warne, McGrath, 47, 83, 68, 8, 0
+1731, 2005-01-02, 3, 7, Australia, c Hayden, Warne, 4, 8, 8, 1, 0
+1738, 2005-02-08, 1, 8, India, c Dravid, Kumble, 15, 61, 54, 3, 0
+1738, 2005-02-08, 3, 8, India, c sub (Harbhajan Singh), Balaji, 109, 238, 154, 16, 0
+1741, 2005-02-16, 2, 8, India, c Tendulkar, Harbhajan Singh, 0, 17, 13, 0, 0
+1741, 2005-02-16, 4, 8, India, , Harbhajan Singh, 7, 18, 22, 1, 0
+1743, 2005-02-24, 1, 8, India, , Harbhajan Singh, 28, 60, 41, 4, 0
+1752, 2005-04-26, 2, 8, West Indies, c Hinds, King, 4, 16, 9, 0, 0
+1752, 2005-04-26, 4, 8, West Indies, , Gayle, 21, 49, 34, 3, 0
+1754, 2005-05-03, 1, 8, West Indies, lbw, Powell, 49, 100, 55, 10, 0
+1754, 2005-05-03, 3, 8, West Indies, c Browne, Best, 1, 16, 9, 0, 0
+1770, 2005-10-12, 1, 7, England, c Trescothick, Hoggard, 28, 81, 76, 2, 0
+1770, 2005-10-12, 3, 8, England, c Pietersen, Harmison, 33, 79, 54, 5, 0
+1772, 2005-10-20, 1, 7, England, c Jones, Giles, 41, 122, 78, 5, 0
+1772, 2005-10-20, 3, 7, England, c Jones, Harmison, 9, 35, 15, 1, 0
+1774, 2005-11-29, 2, 8, England, c Vaughan, Flintoff, 154, 326, 242, 14, 0
+1781, 2006-01-13, 1, 7, India, not out, , 102, 108, 81, 11, 2
+1782, 2006-01-21, 1, 8, India, c Sehwag, Kumble, 0, 9, 2, 0, 0
+1782, 2006-01-21, 3, 2, India, c Kumble, Pathan, 78, 211, 152, 13, 0
+1783, 2006-01-29, 1, 8, India, c Dhoni, Pathan, 113, 203, 148, 18, 0
+1783, 2006-01-29, 3, 8, India, not out, , 0, 5, 1, 0, 0
+1794, 2006-02-26, 2, 8, Sri Lanka, c Tharanga, Muralitharan, 27, 79, 55, 3, 0
+1796, 2006-03-03, 2, 2, Sri Lanka, c Jayawardene, Muralitharan, 33, 92, 53, 4, 0
+1796, 2006-03-03, 4, 2, Sri Lanka, c Sangakkara, Malinga, 24, 36, 26, 5, 0
+1809, 2006-06-13, 2, 8, England, c Jones, Pietersen, 58, 102, 82, 8, 0
+1811, 2006-06-27, 1, 1, England, c Trescothick, Harmison, 4, 27, 18, 1, 0
+1811, 2006-06-27, 3, 1, England, c Jones, Harmison, 4, 35, 28, 0, 0
+1813, 2006-07-04, 2, 7, England, c Trescothick, Mahmood, 20, 42, 38, 4, 0
+1813, 2006-07-04, 4, 6, England, c Read, Mahmood, 0, 2, 2, 0, 0
+1814, 2006-07-17, 2, 7, England, c Collingwood, Harmison, 15, 18, 13, 3, 0
+1815, 2006-10-11, 2, 8, West Indies, c Lara, Gayle, 78, 159, 121, 13, 0
+1816, 2006-10-19, 1, 8, West Indies, c Bravo, Collymore, 17, 21, 13, 3, 0
+1816, 2006-10-19, 3, 8, West Indies, not out, , 2, 8, 10, 0, 0
+1818, 2006-11-27, 1, 8, West Indies, , Collymore, 31, na, 57, 4, 0
+1828, 2007-01-11, 1, 7, South Africa, c Pollock, Nel, 29, 85, 55, 4, 0
+1828, 2007-01-11, 3, 7, South Africa, c Gibbs, Harris, 15, 50, 42, 2, 0
+1829, 2007-01-19, 2, 6, South Africa, c Prince, Nel, 33, 67, 54, 5, 0
+1829, 2007-01-19, 4, 7, South Africa, not out, , 57, 83, 64, 9, 0
+1830, 2007-01-26, 1, 7, South Africa, c de Villiers, Steyn, 0, 16, 9, 0, 0
+1830, 2007-01-26, 3, 7, South Africa, st Boucher, Harris, 6, 23, 10, 1, 0
+1843, 2007-09-01, 2, 2, South Africa, lbw, Harris, 42, 62, 37, 5, 0
+1843, 2007-09-01, 4, 8, South Africa, c Boucher, Harris, 9, 18, 11, 1, 0
+1844, 2007-09-08, 2, 2, South Africa, c Smith, Harris, 52, 108, 64, 7, 0
+1844, 2007-09-08, 4, 2, South Africa, , Harris, 71, 225, 166, 8, 0
+1849, 2007-10-22, 1, 7, India, , Kumble, 30, 67, 50, 5, 0
+1849, 2007-10-22, 3, 6, India, c sub (Yuvraj Singh), Khan, 21, 63, 56, 3, 0
+1850, 2007-11-30, 2, 7, India, , Harbhajan Singh, 119, 259, 210, 20, 0
+1850, 2007-11-30, 4, 2, India, , Kumble, 14, 73, 42, 2, 0
+1852, 2007-11-08, 2, 7, India, st Karthik, Harbhajan Singh, 65, 173, 114, 12, 0
+1852, 2007-11-08, 4, 6, India, , Kumble, 0, 1, 1, 0, 0
+1909, 2009-01-21, 2, 7, Sri Lanka, not out, , 158, 247, 184, 8, 5
+1921, 2009-06-04, 2, 8, Sri Lanka, run out (Mathews), , 31, 44, 35, 6, 0
+1921, 2009-06-04, 4, 7, Sri Lanka, lbw, Thushara, 6, 16, 12, 1, 0
+1924, 2009-06-12, 1, 7, Sri Lanka, c Dilshan, Thushara, 9, 14, 10, 2, 0
+1924, 2009-06-12, 3, 7, Sri Lanka, lbw, Kulasekara, 3, 5, 4, 0, 0
+1927, 2009-06-20, 1, 7, Sri Lanka, , Thushara, 1, 17, 4, 0, 0
+1927, 2009-06-20, 3, 7, Sri Lanka, c Jayawardene, Kulasekara, 74, 128, 80, 7, 1
+1934, 2009-10-24, 2, 7, New Zealand, c Taylor, Vettori, 82, 186, 136, 11, 1
+1934, 2009-10-24, 4, 7, New Zealand, lbw, O'Brien, 27, 45, 32, 4, 0
+1938, 2009-11-03, 1, 7, New Zealand, c Vettori, Tuffey, 70, 153, 85, 8, 0
+1938, 2009-11-03, 3, 7, New Zealand, c McCullum, Elliott, 0, 1, 1, 0, 0
+1940, 2009-11-11, 1, 7, New Zealand, c Guptill, Martin, 22, 36, 28, 3, 1
+1940, 2009-11-11, 3, 7, New Zealand, not out, , 56, 155, 121, 6, 2
+1943, 2009-11-26, 2, 8, Australia, c Haddin, Bollinger, 12, 12, 8, 3, 0
+1943, 2009-11-26, 4, 7, Australia, st Haddin, Hauritz, 30, 73, 48, 4, 1
+1945, 2010-01-03, 2, 7, Australia, c Watson, Bollinger, 14, 16, 13, 3, 0
+1945, 2010-01-03, 4, 7, Australia, c Haddin, Johnson, 11, 28, 15, 1, 0
+1963, 2010-06-13, 2, 6, Australia, lbw, Watson, 0, 6, 3, 0, 0
+1963, 2010-06-13, 4, 6, Australia, , Smith, 46, 83, 82, 6, 1
+1965, 2010-06-21, 2, 7, Australia, c North, Watson, 15, 28, 22, 3, 0
+1965, 2010-06-21, 4, 7, Australia, c Hussey, Johnson, 13, 31, 26, 3, 0
+1967, 2010-07-29, 2, 7, England, c Collingwood, Finn, 0, 6, 2, 0, 0
+1967, 2010-07-29, 4, 8, England, lbw, Finn, 0, 6, 3, 0, 0
+1970, 2010-07-18, 2, 8, England, c Morgan, Broad, 10, 19, 16, 1, 0
+1970, 2010-07-18, 4, 7, England, lbw, Swann, 0, 6, 6, 0, 0
+1971, 2010-07-26, 2, 7, England, c Prior, Finn, 13, 33, 21, 2, 0
+1971, 2010-07-26, 3, 7, England, c Prior, Anderson, 1, 2, 4, 0, 0

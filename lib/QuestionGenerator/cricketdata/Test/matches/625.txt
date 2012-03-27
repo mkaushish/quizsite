@@ -1,0 +1,107 @@
+
+Test # 625
+India in Australia, 1967/68, 2nd Test
+Australia v India
+Melbourne Cricket Ground
+30 December 1967, 1,2,3 January 1968 (5-day match)
+
+Result: Australia won by an innings and 4 runs
+Series: Australia leads the 4-match series 2-0
+
+Toss: India
+Umpires: CJ Egar and LP Rowan
+Balls per over: 8
+
+Close of play:
+ Day 1: India 156/8 (Pataudi 70*, Desai 3*)
+ Day 2: India 173, Australia 329/5 (Chappell 45*, Jarman 0*)
+ Day 3: Australia 529, India 190/3 (Wadekar 97*, Prasanna 0*)
+
+India 1st innings                                               R   M   B  4 6
+DN Sardesai                              b McKenzie             1   3   4  0 0
++FM Engineer          c Connolly         b McKenzie             9  42  14  0 0
+S Abid Ali            c Jarman           b McKenzie             4  11  11  0 0
+AL Wadekar            c Connolly         b McKenzie             6  12  14  1 0
+RF Surti              lbw                b Simpson             30 135 110  2 0
+CG Borde              c Redpath          b McKenzie             0  11   5  0 0
+*Nawab of Pataudi jnr c Jarman           b Renneberg           75 228 194  8 0
+V Subramanya                             b McKenzie             5  41  35  0 0
+EAS Prasanna          c Chappell         b Renneberg           14  38  37  3 0
+RB Desai              not out                                  13  37  35  2 0
+BS Chandrasekhar      c Jarman           b McKenzie             0  14  10  0 0
+Extras                (b 8, lb 2, nb 6)                        16
+Total                 (all out, 57.4 overs)                   173
+
+FoW: 1-2 (Sardesai), 2-10 (Abid Ali), 3-18 (Wadekar),
+     4-25 (Engineer), 5-25 (Borde), 6-47 (Subramanya),
+     7-72 (Prasanna), 8-146 (Surti), 9-162 (Pataudi),
+     10-173 (Chandrasekhar).
+
+Bowling                      O      M      R      W
+McKenzie                    21.4    2     66      7
+Renneberg                   15      4     37      2
+Connolly                    13      3     33      0
+Gleeson                      5      0      9      0
+Chappell                     1      0      7      0
+Simpson                      2      0      5      1
+
+Australia 1st innings                                           R   M   B  4 6
+*RB Simpson                              b Surti              109 220 186  8 0
+WM Lawry              st Engineer        b Prasanna           100 178 148  8 0
+AP Sheahan            c Engineer         b Surti               24  97  80  3 0
+RM Cowper                                b Prasanna            12  19  33  1 0
+IM Chappell           c Wadekar          b Surti              151 252 224 21 0
+IR Redpath            run out                                  26  42  38  4 0
++BN Jarman                               b Prasanna            65 118  94  7 0
+GD McKenzie           c sub              b Prasanna             0   2   4  0 0
+JW Gleeson            c Borde            b Prasanna            13  26  27  1 0
+AN Connolly           c sub              b Prasanna             5   7   7  1 0
+DA Renneberg          not out                                   8  15   8  1 0
+Extras                (b 3, lb 10, nb 3)                       16
+Total                 (all out, 105.3 overs)                  529
+
+FoW: 1-191 (Lawry), 2-233 (Simpson), 3-246 (Cowper),
+     4-274 (Sheahan), 5-329 (Redpath), 6-463 (Jarman),
+     7-463 (McKenzie), 8-500 (Gleeson), 9-508 (Connolly),
+     10-529 (Chappell).
+
+Bowling                      O      M      R      W
+Desai                       12      0     63      0
+Surti                       29.3    4    150      3
+Abid Ali                    20      0    106      0
+Chandrasekhar                7      0     35      0
+Prasanna                    34      6    141      6
+Subramanya                   3      0     18      0
+
+India 2nd innings                                               R   M   B  4 6
+DN Sardesai                              b McKenzie             5  13  16  1 0
++FM Engineer          c Chappell         b Renneberg           42  52  37  3 0
+AL Wadekar            c Sheahan          b Simpson             99 169 146 12 0
+RF Surti              c Jarman           b McKenzie            43 108 121  4 0
+EAS Prasanna          c Chappell         b Simpson             21  38  45  2 0
+CG Borde              c Redpath          b Renneberg            6  36  24  0 0
+*Nawab of Pataudi jnr c Redpath          b Simpson             85 155 157 12 0
+S Abid Ali            lbw                b Cowper              21  38  45  2 0
+V Subramanya          lbw                b McKenzie            10  26  31  0 0
+RB Desai              c Simpson          b Connolly            14  62  43  2 0
+BS Chandrasekhar      not out                                   0   7   4  0 0
+Extras                (b 1, lb 4, nb 1)                         6
+Total                 (all out, 84.7 overs)                   352
+
+FoW: 1-11 (Sardesai), 2-66 (Engineer), 3-182 (Surti),
+     4-194 (Wadekar), 5-217 (Prasanna), 6-227 (Borde),
+     7-276 (Abid Ali), 8-292 (Subramanya), 9-346 (Pataudi),
+     10-352 (Desai).
+
+Bowling                      O      M      R      W
+McKenzie                    19      2     85      3
+Renneberg                   14      1     98      2
+Connolly                    11.7    2     48      1
+Gleeson                     14      5     37      0
+Chappell                     4      0     14      0
+Simpson                     14      3     44      3
+Cowper                       8      2     20      1
+
+*** RF Surti (1) retired hurt on 4* from 25/3 to 72/7
+
+<END>

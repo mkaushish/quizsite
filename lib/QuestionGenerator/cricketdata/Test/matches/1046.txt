@@ -1,0 +1,125 @@
+
+Test # 1046
+India in England, 1986, 1st Test
+England v India
+Lord's, London
+5,6,7,9,10 June 1986 (5-day match)
+
+Result: India won by 5 wickets
+Series: India leads the 3-match series 1-0
+
+Toss: India
+Umpires: KE Palmer and DR Shepherd
+Test debut: KS More (India).
+Player of the match: N Kapil Dev
+
+Close of play:
+ Day 1: England 245/5 (Pringle 51*, Emburey 0*)
+ Day 2: England 294, India 83/1 (Gavaskar 30*, Amarnath 27*)
+ Day 3: India 341, England 8/0 (Gooch 5*, Robinson 3*)
+ Day 4: England 180
+
+England 1st innings                                             R   M   B  4 6
+GA Gooch                                 b Sharma             114 355 280 12 1
+RT Robinson           c Azharuddin       b Maninder Singh      35  94  70  5 0
+*DI Gower             c More             b Sharma              18  41  38  2 0
+MW Gatting                               b Sharma               0   2   2  0 0
+AJ Lamb               c Srikkanth        b Sharma               6   8   8  1 0
+DR Pringle                               b Binny               63 277 244  7 0
+JE Emburey            c Amarnath         b Kapil Dev            7  55  42  0 0
++PR Downton           lbw                b Sharma               5  38  33  0 0
+RM Ellison            c Kapil Dev        b Binny               12  46  34  2 0
+GR Dilley             c More             b Binny                4  37  20  1 0
+PH Edmonds            not out                                   7   9   8  1 0
+Extras                (lb 15, w 1, nb 7)                       23
+Total                 (all out, 128.2 overs)                  294
+
+FoW: 1-66 (Robinson), 2-92 (Gower), 3-92 (Gatting), 4-98 (Lamb),
+     5-245 (Gooch), 6-264 (Emburey), 7-269 (Pringle),
+     8-271 (Downton), 9-287 (Ellison), 10-294 (Dilley).
+
+Bowling                      O      M      R      W
+Kapil Dev                   31      8     67      1
+Binny                       18.2    4     55      3
+Sharma                      32     10     64      5
+Maninder Singh              30     15     45      1
+Amarnath                     7      1     18      0
+Shastri                     10      3     30      0
+
+India 1st innings                                               R   M   B  4 6
+SM Gavaskar           c Emburey          b Dilley              34 198 133  2 0
+K Srikkanth           c Gatting          b Dilley              20  37  36  4 0
+M Amarnath            c Pringle          b Edmonds             69 250 241 10 0
+DB Vengsarkar         not out                                 126 326 213 16 0
+M Azharuddin                         c & b Dilley              33  80  76  6 0
+RJ Shastri            c Edmonds          b Dilley               1  10   8  0 0
+RMH Binny             lbw                b Pringle              9  24  19  2 0
+*N Kapil Dev          c Lamb             b Ellison              1   4   3  0 0
+C Sharma                                 b Pringle              2  12  12  0 0
++KS More              lbw                b Pringle             25  29  31  4 0
+Maninder Singh        c Lamb             b Emburey              6  66  59  1 0
+Extras                (lb 5, w 1, nb 9)                        15
+Total                 (all out, 137 overs)                    341
+
+FoW: 1-31 (Srikkanth), 2-90 (Gavaskar), 3-161 (Amarnath),
+     4-232 (Azharuddin), 5-238 (Shastri), 6-252 (Binny),
+     7-253 (Kapil Dev), 8-264 (Sharma), 9-303 (More),
+     10-341 (Maninder Singh).
+
+Bowling                      O      M      R      W
+Dilley                      34      7    146      4
+Ellison                     29     11     63      1
+Emburey                     27     13     28      1
+Edmonds                     22      7     41      1
+Pringle                     25      7     58      3
+
+England 2nd innings                                             R   M   B  4 6
+GA Gooch              lbw                b Kapil Dev            8  49  35  0 0
+RT Robinson           c Amarnath         b Kapil Dev           11  39  28  0 0
+*DI Gower             lbw                b Kapil Dev            8  28  19  2 0
+MW Gatting                               b Sharma              40 121  83  6 0
+AJ Lamb               c More             b Shastri             39  89  83  7 0
+DR Pringle            c More             b Kapil Dev            6  28  19  0 0
++PR Downton           c Shastri          b Maninder Singh      29 125 109  4 0
+RM Ellison            c More             b Binny               19 120 104  1 0
+JE Emburey                           c & b Maninder Singh       1  22  10  0 0
+GR Dilley             not out                                   2  57  57  0 0
+PH Edmonds            c Binny            b Maninder Singh       7  46  37  0 0
+Extras                (lb 6, w 1, nb 3)                        10
+Total                 (all out, 96.4 overs)                   180
+
+FoW: 1-18 (Robinson), 2-23 (Gooch), 3-35 (Gower), 4-108 (Lamb),
+     5-113 (Gatting), 6-121 (Pringle), 7-164 (Downton),
+     8-170 (Ellison), 9-170 (Emburey), 10-180 (Edmonds).
+
+Bowling                      O      M      R      W
+Kapil Dev                   22      7     52      4
+Binny                       15      3     44      1
+Sharma                      17      4     48      1
+Maninder Singh              20.4   12      9      3
+Amarnath                     2      2      0      0
+Shastri                     20      8     21      1
+
+India 2nd innings (target: 134 runs)                            R   M   B  4 6
+SM Gavaskar           c Downton          b Dilley              22  63  58  4 0
+K Srikkanth           c Gooch            b Dilley               0  20  10  0 0
+M Amarnath            lbw                b Pringle              8  93  50  1 0
+DB Vengsarkar                            b Edmonds             33  60  56  2 0
+M Azharuddin          run out                                  14  40  30  2 0
+RJ Shastri            not out                                  20  50  44  3 0
+*N Kapil Dev          not out                                  23  18  10  4 1
+Extras                (b 1, lb 9, w 1, nb 5)                   16
+Total                 (5 wickets, 42 overs)                   136
+
+DNB: RMH Binny, C Sharma, +KS More, Maninder Singh.
+
+FoW: 1-10 (Srikkanth), 2-31 (Gavaskar), 3-76 (Amarnath),
+     4-78 (Vengsarkar), 5-110 (Azharuddin).
+
+Bowling                      O      M      R      W
+Dilley                      10      3     28      2
+Ellison                      6      0     17      0
+Edmonds                     11      2     51      1
+Pringle                     15      5     30      1
+
+<END>

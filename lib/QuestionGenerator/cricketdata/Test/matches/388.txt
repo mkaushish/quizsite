@@ -1,0 +1,99 @@
+
+Test # 388
+Pakistan in England, 1954, 2nd Test
+England v Pakistan
+Trent Bridge, Nottingham
+1,2,3,5 July 1954 (5-day match)
+
+Result: England won by an innings and 129 runs
+Series: England leads the 4-match series 1-0
+
+Toss: Pakistan
+Umpires: F Chester and TW Spencer
+Test debuts: R Appleyard (England); MEZ Ghazali, Khalid Hasan,
+ Mohammad Aslam (Pakistan).
+
+Close of play:
+ Day 1: Pakistan 157, England 121/2 (Simpson 79*, Compton 5*)
+ Day 2: England 558/6d, Pakistan 59/0 (Hanif Mohammad 46*, Alimuddin 13*)
+ Day 3: Pakistan 189/6 (Fazal Mahmood 5*, Ghazali 0*)
+
+Pakistan 1st innings                                            R   M   B  4 6
+Hanif Mohammad        lbw                b Appleyard           19  75      2 0
+Alimuddin                                b Statham              4  36      0 0
+Waqar Hasan                              b Appleyard            7  49      0 0
+Maqsood Ahmed         c Evans            b Appleyard            6  10      1 0
++Imtiaz Ahmed                            b Appleyard           11  16      2 0
+*AH Kardar            c Compton          b Bedser              28  84      3 0
+Fazal Mahmood         c Sheppard         b Bedser              14  38      2 0
+MEZ Ghazali                              b Statham             18  57      2 0
+Mohammad Aslam                           b Wardle              16  51      1 0
+Khalid Hasan          c May              b Appleyard           10  16      2 0
+Khan Mohammad         not out                                  13  12      2 0
+Extras                (b 9, lb 1, nb 1)                        11
+Total                 (all out, 65 overs)                     157
+
+FoW: 1-26 (Alimuddin), 2-37 (Hanif Mohammad),
+     3-43 (Maqsood Ahmed), 4-50 (Waqar Hasan),
+     5-55 (Imtiaz Ahmed), 6-86 (Fazal Mahmood), 7-111 (Kardar),
+     8-121 (Ghazali), 9-138 (Khalid Hasan),
+     10-157 (Mohammad Aslam).
+
+Bowling                      O      M      R      W
+Bedser                      21      8     30      2
+Statham                     18      3     38      2
+Appleyard                   17      5     51      5
+Bailey                       3      0     18      0
+Wardle                       6      3      9      1
+
+England 1st innings                                             R   M   B  4 6
+*DS Sheppard          c Imtiaz Ahmed     b Khan Mohammad       37 105      2 0
+RT Simpson                               b Khalid Hasan       101 203      9 0
+PBH May                                  b Khan Mohammad        0   3      0 0
+DCS Compton                              b Khalid Hasan       278 287     34 1
+TW Graveney           c Maqsood Ahmed    b Kardar              84  87     11 0
+TE Bailey             not out                                  36 130      3 0
++TG Evans                                b Khan Mohammad        4   4      0 0
+JH Wardle             not out                                  14  18      1 1
+Extras                (b 2, lb 1, nb 1)                         4
+Total                 (6 wickets dec, 139 overs)              558
+
+DNB: AV Bedser, JB Statham, R Appleyard.
+
+FoW: 1-98 (Sheppard), 2-102 (May), 3-185 (Simpson),
+     4-339 (Graveney), 5-531 (Compton), 6-536 (Evans).
+
+Bowling                      O      M      R      W
+Fazal Mahmood               47      7    148      0
+Khan Mohammad               40      3    155      3
+Kardar                      28      4    110      1
+Khalid Hasan                21      1    116      2
+Maqsood Ahmed                3      0     25      0
+
+Pakistan 2nd innings                                            R   M   B  4 6
+Hanif Mohammad        c Evans            b Bedser              51  75     10 0
+Alimuddin                                b Statham             18  89      2 0
+Waqar Hasan           c Evans            b Statham              7  42      0 0
+Maqsood Ahmed         c Statham          b Appleyard           69 109      8 2
++Imtiaz Ahmed         lbw                b Wardle              33 123      3 0
+*AH Kardar            c Graveney         b Wardle               4  12      0 0
+Fazal Mahmood                            b Statham             36 100      3 0
+MEZ Ghazali           c Statham          b Bedser              14  39      1 0
+Mohammad Aslam        c Sheppard         b Appleyard           18  67      3 0
+Khan Mohammad         c Compton          b Wardle               8  15      1 0
+Khalid Hasan          not out                                   7  19      1 0
+Extras                (b 4, lb 3)                               7
+Total                 (all out, 112.4 overs)                  272
+
+FoW: 1-69 (Hanif Mohammad), 2-70 (Alimuddin), 3-95 (Waqar Hasan),
+     4-164 (Maqsood Ahmed), 5-168 (Kardar), 6-189 (Imtiaz Ahmed),
+     7-216 (Ghazali), 8-242 (Fazal Mahmood),
+     9-254 (Khan Mohammad), 10-272 (Mohammad Aslam).
+
+Bowling                      O      M      R      W
+Bedser                      30     11     83      2
+Statham                     20      3     66      3
+Appleyard                   30.4    8     72      2
+Wardle                      32     17     44      3
+
+<END>

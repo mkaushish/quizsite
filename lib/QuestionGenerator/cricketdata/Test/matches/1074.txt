@@ -1,0 +1,74 @@
+
+Test # 1074
+New Zealand in Sri Lanka, 1987, 1st Test
+Sri Lanka v New Zealand
+Colombo Cricket Club Ground
+16,18,19,20,21 April 1987 (5-day match)
+
+Result: Match drawn
+Series: 3-match series level 0-0
+
+Toss: New Zealand
+Umpires: PW Vidanagamage and WAU Wickramasinghe
+Test debuts: AH Jones (New Zealand); DSBP Kuruppu (Sri Lanka).
+
+Close of play:
+ Day 1: Sri Lanka 141/3 (Kuruppu 66*, Ranatunga 3*)
+ Day 2: Sri Lanka 317/5 (Kuruppu 153*, Madugalle 59*)
+ Day 3: Sri Lanka 397/9d, New Zealand 51/2 (Jones 19*, MD Crowe 0*)
+ Day 4: New Zealand 214/5 (JJ Crowe 42*, Hadlee 40*)
+
+Sri Lanka 1st innings                                           R   M   B  4 6
+RS Mahanama           c Smith            b Chatfield           16  58  42  2 0
++DSBP Kuruppu         not out                                 201 777 548 24 0
+AP Gurusinha          lbw                b Hadlee              22  73  50  2 0
+RL Dias               c Bracewell        b Hadlee              25  87  46  3 0
+A Ranatunga           c Smith            b Bracewell           15  83  58  0 0
+*LRD Mendis           c Bracewell        b Hadlee              12  71  45  1 0
+RS Madugalle          c Hadlee           b Gray                60 236 157  6 1
+JR Ratnayeke          c MD Crowe         b Bracewell           12  51  47  2 0
+RJ Ratnayake          c Bracewell        b Hadlee              17  54  38  1 1
+SD Anurasiri          c Smith            b Chatfield            1   7   4  0 0
+AK Kuruppuarachchi    not out                                   0  35  20  0 0
+Extras                (lb 4, w 1, nb 11)                       16
+Total                 (9 wickets dec, 173.5 overs)            397
+
+FoW: 1-29 (Mahanama), 2-70 (Gurusinha), 3-129 (Dias),
+     4-166 (Ranatunga), 5-210 (Mendis), 6-319 (Madugalle),
+     7-342 (Ratnayeke), 8-382 (Ratnayake), 9-383 (Anurasiri).
+
+Bowling                      O      M      R      W
+Hadlee                      38.5   10    102      4
+Chatfield                   38     11    104      2
+MD Crowe                     7      4     13      0
+Snedden                     16      4     41      0
+Bracewell                   47     14     98      2
+Gray                        27     12     35      1
+
+New Zealand 1st innings                                         R   M   B  4 6
+KR Rutherford         c Madugalle        b Ratnayake           11  56  22  1 0
+PA Horne              c Kuruppu          b Anurasiri           16 131  92  1 0
+AH Jones              lbw                b Ratnayeke           38 142  88  4 0
+MD Crowe              c Mendis           b Ratnayeke           27  48  30  5 0
+*JJ Crowe             not out                                 120 609 398 13 0
+EJ Gray               c Ranatunga        b Kuruppuarachchi     31 170 105  2 0
+RJ Hadlee             not out                                 151 406 240 14 2
+Extras                (lb 2, w 4, nb 6)                        12
+Total                 (5 wickets, 163 overs)                  406
+
+DNB: JG Bracewell, +IDS Smith, MC Snedden, EJ Chatfield.
+
+FoW: 1-20 (Rutherford), 2-51 (Horne), 3-90 (MD Crowe),
+     4-99 (Jones), 5-160 (Gray).
+
+Bowling                      O      M      R      W
+Ratnayake                   32      7     79      1
+Kuruppuarachchi             20      3     64      1
+Ranatunga                   23     10     43      0
+Ratnayeke                   37      6    111      2
+Anurasiri                   36     13     67      1
+Gurusinha                    9      1     17      0
+Madugalle                    2      0      6      0
+Dias                         4      0     17      0
+
+<END>

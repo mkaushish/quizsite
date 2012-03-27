@@ -1,0 +1,124 @@
+
+Test # 592
+New Zealand in England, 1965, 2nd Test
+England v New Zealand
+Lord's, London
+17,18,19,21,22 June 1965 (5-day match)
+
+Result: England won by 7 wickets
+Series: England leads the 3-match series 2-0
+
+Toss: New Zealand
+Umpires: JS Buller and WE Phillipson
+Test debut: JA Snow (England).
+
+Close of play:
+ Day 1: New Zealand 175, England 72/2 (Dexter 30*, Cowdrey 10*)
+ Day 2: England 307
+ Day 3: New Zealand 261/7 (Pollard 14*, Collinge 0*)
+ Day 4: New Zealand 347, England 64/1 (Boycott 28*, Titmus 0*)
+
+New Zealand 1st innings                                         R   M   B  4 6
+BE Congdon            lbw                b Rumsey               0       2  0 0
+GT Dowling            lbw                b Rumsey              12            0
+BW Sinclair                              b Rumsey               1          0 0
+*JR Reid              c Parks            b Snow                21  69        1
+RW Morgan             c Parfitt          b Rumsey               0          0 0
+V Pollard                            c & b Titmus              55 188      5 0
++AE Dick                                 b Snow                 7            0
+BR Taylor                                b Trueman             51 118      6 0
+RC Motz               c Parks            b Titmus              11            0
+RO Collinge                              b Trueman              7            0
+FJ Cameron            not out                                   3          0 0
+Extras                (b 3, lb 2, nb 2)                         7
+Total                 (all out, 74.5 overs)                   175
+
+FoW: 1-0 (Congdon), 2-4 (Sinclair), 3-24 (Dowling),
+     4-28 (Morgan), 5-49 (Reid), 6-62 (Dick), 7-154 (Taylor),
+     8-160 (Pollard), 9-171 (Motz), 10-175 (Collinge).
+
+Bowling                      O      M      R      W
+Rumsey                      13      4     25      4
+Trueman                     19.5    8     40      2
+Dexter                       8      2     27      0
+Snow                        11      2     27      2
+Titmus                      15      7     25      2
+Barber                       8      2     24      0
+
+England 1st innings                                             R   M   B  4 6
+G Boycott             c Dick             b Motz                14            0
+RW Barber             c Dick             b Motz                13            0
+ER Dexter             c Dick             b Taylor              62         12 0
+MC Cowdrey            c sub              b Collinge           119 298     13 0
+PH Parfitt            c Dick             b Cameron             11            0
+*MJK Smith            c sub              b Taylor              44            0
++JM Parks                                b Collinge             2  40      0 0
+FJ Titmus             run out                                  13            0
+FS Trueman                               b Collinge             3          0 0
+FE Rumsey                                b Collinge             3          0 0
+JA Snow               not out                                   2          0 0
+Extras                (b 1, lb 7, w 1, nb 12)                  21
+Total                 (all out, 100.2 overs)                  307
+
+FoW: 1-18 (Barber), 2-38 (Boycott), 3-131 (Dexter),
+     4-166 (Parfitt), 5-271 (Smith), 6-285 (Cowdrey),
+     7-292 (Parks), 8-300 (Titmus), 9-302 (Trueman),
+     10-307 (Rumsey).
+
+Bowling                      O      M      R      W
+Collinge                    28.2    4     85      4
+Motz                        20      1     62      2
+Taylor                      25      4     66      2
+Cameron                     19      6     40      1
+Morgan                       8      1     33      0
+
+New Zealand 2nd innings                                         R   M   B  4 6
+BE Congdon            lbw                b Titmus              26            0
+GT Dowling                               b Parfitt             66 186      8 0
+BW Sinclair           c Parks            b Barber              72 145      6 0
+*JR Reid                                 b Titmus              22            0
+RW Morgan             lbw                b Rumsey              35            0
+V Pollard             run out                                  55 258      3 0
++AE Dick              c Parks            b Snow                 3          0 0
+BR Taylor             c Smith            b Snow                 0          0 0
+RO Collinge           c Parks            b Barber              21            0
+RC Motz               c Snow             b Barber               8  14        0
+FJ Cameron            not out                                   9  74        0
+Extras                (b 8, lb 12, nb 10)                      30
+Total                 (all out, 149 overs)                    347
+
+FoW: 1-59 (Congdon), 2-149 (Dowling), 3-196 (Sinclair),
+     4-206 (Reid), 5-253 (Morgan), 6-258 (Dick), 7-259 (Taylor),
+     8-293 (Collinge), 9-303 (Motz), 10-347 (Pollard).
+
+Bowling                      O      M      R      W
+Rumsey                      26     10     42      1
+Trueman                     26      4     69      0
+Snow                        24      4     53      2
+Titmus                      39     12     71      2
+Barber                      28     10     57      3
+Parfitt                      6      2     25      1
+
+England 2nd innings (target: 216 runs)                          R   M   B  4 6
+G Boycott             lbw                b Motz                76          6 0
+RW Barber                                b Motz                34  72        0
+FJ Titmus             c Dick             b Motz                 1          0 0
+ER Dexter             not out                                  80 150     10 0
+MC Cowdrey            not out                                   4            0
+Extras                (b 9, lb 5, nb 9)                        23
+Total                 (3 wickets, 60.5 overs)                 218
+
+DNB: PH Parfitt, *MJK Smith, +JM Parks, FS Trueman, FE Rumsey,
+     JA Snow.
+
+FoW: 1-64 (Barber), 2-70 (Titmus), 3-196 (Boycott).
+
+Bowling                      O      M      R      W
+Collinge                    15      1     43      0
+Motz                        19      5     45      3
+Taylor                      10      0     53      0
+Cameron                     13      0     39      0
+Morgan                       3      0     11      0
+Reid                         0.5    0      4      0
+
+<END>

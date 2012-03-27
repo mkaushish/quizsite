@@ -1,0 +1,98 @@
+
+Test # 332
+England in New Zealand, 1950/51, 1st Test
+New Zealand v England
+Lancaster Park, Christchurch
+17,19,20,21 March 1951 (4-day match)
+
+Result: Match drawn
+Series: 2-match series level 0-0
+
+Toss: New Zealand
+Umpires: EG Brook and SB Tomkinson
+Test debuts: JB Statham (England); JA Hayes, AR MacGibbon,
+ AM Moir (New Zealand).
+
+Close of play:
+ Day 1: New Zealand 247/3 (Wallace 32*, Hadlee 20*)
+ Day 2: New Zealand 417/8d, England 67/1 (Washbrook 31*, Simpson 0*)
+ Day 3: England 317/4 (Bailey 19*, Brown 39*)
+
+New Zealand 1st innings                                         R   M   B  4 6
+B Sutcliffe                              b Statham            116 260     12 0
+VJ Scott                                 b Bailey              16  71      0 0
+JR Reid                                  b Wright              50 131      6 0
+WM Wallace            c Brown            b Bedser              66 252      4 0
+*WA Hadlee            c Brown            b Bailey              50 140      5 0
+AR MacGibbon          lbw                b Wright               4  13      0 0
++FLH Mooney           st Evans           b Tattersall          39 125      0 0
+TB Burtt                                 b Brown               42  88      2 0
+AM Moir               not out                                   0   2      0 0
+Extras                (b 16, lb 16, w 1, nb 1)                 34
+Total                 (8 wickets dec, 157.2 overs)            417
+
+DNB: JA Hayes, GF Cresswell.
+
+FoW: 1-37 (Scott), 2-168 (Reid), 3-203 (Sutcliffe),
+     4-297 (Hadlee), 5-307 (MacGibbon), 6-335 (Wallace),
+     7-415 (Mooney), 8-417 (Burtt).
+
+Bowling                      O      M      R      W
+Bedser                      41     10     83      1
+Bailey                      30      9     51      2
+Statham                     24      6     47      1
+Tattersall                  16      3     48      1
+Wright                      27      2     99      2
+Brown                       15.2    3     34      1
+Compton                      4      0     21      0
+
+England 1st innings                                             R   M   B  4 6
+L Hutton                                 b Moir                28  88      1 0
+C Washbrook           c Mooney           b Hayes               58 171      5 0
+RT Simpson            c Wallace          b Moir                81 271      6 0
+DCS Compton                              b Burtt               79 144      8 0
+TE Bailey             not out                                 134 379     13 0
+*FR Brown             c Scott            b Cresswell           62 114      7 0
++TG Evans             c Hayes            b Moir                19  34      1 0
+AV Bedser             c Hayes            b Moir                 5  36      0 0
+R Tattersall                             b Moir                 2  21      0 0
+DVP Wright            c MacGibbon        b Cresswell           45 103      7 0
+JB Statham                               b Moir                 9  17      1 0
+Extras                (b 20, lb 8)                             28
+Total                 (all out, 221.3 overs)                  550
+
+FoW: 1-57 (Hutton), 2-108 (Washbrook), 3-237 (Compton),
+     4-264 (Simpson), 5-356 (Brown), 6-388 (Evans),
+     7-398 (Bedser), 8-406 (Tattersall), 9-523 (Wright),
+     10-550 (Statham).
+
+Bowling                      O      M      R      W
+Hayes                       43     11     85      1
+Reid                        10      2     29      0
+MacGibbon                   27      6     74      0
+Cresswell                   34     10     75      2
+Moir                        56.3   16    155      6
+Burtt                       49     23     99      1
+Scott                        2      0      5      0
+
+New Zealand 2nd innings                                         R   M   B  4 6
+AR MacGibbon          c Evans            b Simpson              8   5      1 0
+JA Hayes              lbw                b Washbrook           19  17      3 0
+GF Cresswell          c Evans            b Simpson              2  13      0 0
+AM Moir               not out                                   7  14      1 0
+VJ Scott              not out                                  10  11      2 0
+Extras                                                          0
+Total                 (3 wickets, 13 overs)                    46
+
+DNB: B Sutcliffe, JR Reid, WM Wallace, *WA Hadlee, +FLH Mooney,
+     TB Burtt.
+
+FoW: 1-9 (MacGibbon), 2-29 (Cresswell), 3-29 (Hayes).
+
+Bowling                      O      M      R      W
+Compton                      2      0     10      0
+Washbrook                    4      0     25      1
+Simpson                      4      1      4      2
+Hutton                       3      0      7      0
+
+<END>

@@ -1,0 +1,35 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+484, 1960-01-01, 1, 8, Australia, lbw, Lindwall, 19, na, na, na, 0
+484, 1960-01-01, 3, 3, Australia, hit wicket, Meckiff, 2, na, na, 0, 0
+486, 1960-01-13, 2, 2, Australia, , Benaud, 71, na, na, 12, 0
+486, 1960-01-13, 3, 4, Australia, , Benaud, 33, na, na, 6, 0
+487, 1960-01-23, 1, 1, Australia, , Mackay, 12, na, na, na, 0
+487, 1960-01-23, 3, 1, Australia, , Davidson, 0, na, na, 0, 0
+503, 1961-01-13, 2, 8, Pakistan, , Haseeb Ahsan, 12, na, na, na, 0
+505, 1961-02-08, 1, 9, Pakistan, not out, , 12, na, na, na, 0
+505, 1961-02-08, 4, 2, Pakistan, not out, , 1, na, na, 0, 0
+513, 1961-11-11, 2, 8, England, lbw, Lock, 5, na, na, na, 0
+528, 1962-04-04, 2, 11, West Indies, not out, , 4, na, na, na, 0
+528, 1962-04-04, 3, 11, West Indies, c Rodriguez, Gibbs, 4, na, na, na, 0
+529, 1962-04-13, 2, 10, West Indies, c McMorris, Valentine, 2, na, na, 0, 0
+529, 1962-04-13, 4, 10, West Indies, , Hall, 1, na, na, 0, 0
+551, 1964-01-10, 1, 2, England, , Titmus, 192, 415, na, 31, 0
+551, 1964-01-10, 3, 2, England, lbw, Titmus, 38, 71, na, 8, 0
+552, 1964-01-21, 1, 2, England, c Wilson, Price, 29, 78, na, 2, 0
+552, 1964-01-21, 3, 2, England, c Titmus, Price, 16, 28, na, 0, 1
+554, 1964-01-29, 1, 2, England, c Binks, Price, 23, 30, na, 3, 0
+554, 1964-01-29, 3, 2, England, lbw, Wilson, 27, 80, na, 5, 0
+556, 1964-02-08, 1, 2, England, , Titmus, 40, 110, na, 7, 0
+556, 1964-02-08, 3, 2, England, lbw, Price, 100, 285, na, 15, 0
+557, 1964-02-15, 2, 2, England, , Price, 5, 34, na, 1, 0
+557, 1964-02-15, 3, 2, England, lbw, Parfitt, 55, 165, na, 7, 0
+581, 1965-03-05, 2, 2, New Zealand, , Congdon, 36, 113, na, 6, 0
+581, 1965-03-05, 4, 2, New Zealand, not out, , 12, 58, na, 2, 0
+610, 1966-12-13, 1, 9, West Indies, lbw, Griffith, 6, 14, na, 1, 0
+610, 1966-12-13, 3, 9, West Indies, , Griffith, 79, 92, na, 15, 0
+612, 1967-12-31, 2, 1, West Indies, , Hall, 39, 85, na, 4, 1
+612, 1967-12-31, 3, 1, West Indies, lbw, Hall, 4, 3, na, 1, 0
+619, 1967-06-22, 1, 8, England, c Murray, Snow, 20, 40, 37, 3, 0
+619, 1967-06-22, 3, 2, England, lbw, Illingworth, 47, 163, 164, 6, 0
+620, 1967-07-13, 2, 2, England, , Brown, 2, 20, 17, 0, 0
+620, 1967-07-13, 4, 2, England, c Murray, Close, 33, 128, 117, 4, 0

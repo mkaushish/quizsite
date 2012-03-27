@@ -1,0 +1,52 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+1785, 2006-02-01, 1, 11, India, lbw, Sreesanth, 9, 66, 43, 1, 0
+1788, 2006-02-09, 1, 11, India, c Dravid, Kumble, 0, 1, 2, 0, 0
+1788, 2006-02-09, 3, 11, India, not out, , 0, 3, 4, 0, 0
+1791, 2006-02-18, 1, 11, India, not out, , 3, 26, 15, 0, 0
+1791, 2006-02-18, 3, 11, India, not out, , 0, 10, 9, 0, 0
+1803, 2006-04-25, 2, 11, Sri Lanka, lbw, Malinga, 0, 7, 7, 0, 0
+1804, 2006-05-02, 2, 11, Sri Lanka, not out, , 0, 3, 3, 0, 0
+1804, 2006-05-02, 4, 11, Sri Lanka, lbw, Jayasuriya, 26, 27, 28, 3, 1
+1809, 2006-06-13, 1, 11, Pakistan, not out, , 0, 10, 6, 0, 0
+1811, 2006-06-27, 2, 11, Pakistan, not out, , 3, 7, 7, 0, 0
+1813, 2006-07-04, 1, 11, Pakistan, not out, , 5, 13, 12, 1, 0
+1813, 2006-07-04, 3, 11, Pakistan, not out, , 5, 24, 16, 1, 0
+1814, 2006-07-17, 1, 11, Pakistan, , Umar Gul, 0, 1, 1, 0, 0
+1821, 2006-11-14, 2, 11, Australia, not out, , 16, 41, 26, 3, 0
+1821, 2006-11-14, 4, 11, Australia, , Warne, 1, 8, 9, 0, 0
+1824, 2006-11-26, 1, 10, Australia, c Symonds, Warne, 4, 27, 19, 0, 0
+1824, 2006-11-26, 3, 10, Australia, c Clarke, Lee, 14, 20, 19, 2, 0
+1826, 2007-01-02, 1, 10, Australia, lbw, Warne, 0, 20, 14, 0, 0
+1826, 2007-01-02, 3, 7, Australia, run out (Symonds), , 0, 27, 19, 0, 0
+1831, 2007-04-17, 3, 10, West Indies, not out, , 3, 12, 2, 0, 0
+1835, 2007-05-07, 1, 11, West Indies, not out, , 14, 22, 18, 2, 0
+1835, 2007-05-07, 3, 11, West Indies, c Gayle, Sammy, 0, 2, 2, 0, 0
+1836, 2007-05-15, 2, 11, West Indies, , Powell, 4, 25, 16, 0, 0
+1840, 2007-06-19, 1, 10, India, lbw, Sreesanth, 0, 18, 8, 0, 0
+1840, 2007-06-19, 3, 10, India, lbw, Singh, 3, 28, 17, 0, 0
+1841, 2007-06-27, 1, 10, India, c Laxman, Khan, 1, 12, 10, 0, 0
+1841, 2007-06-27, 3, 10, India, c Karthik, Kumble, 4, 8, 8, 1, 0
+1842, 2007-07-09, 2, 11, India, lbw, Kumble, 9, 55, 42, 2, 0
+1851, 2007-11-01, 2, 11, Sri Lanka, not out, , 2, 11, 6, 0, 0
+1851, 2007-11-01, 4, 11, Sri Lanka, not out, , 2, 13, 9, 0, 0
+1853, 2007-11-09, 1, 11, Sri Lanka, not out, , 0, 9, 7, 0, 0
+1854, 2007-11-18, 2, 11, Sri Lanka, run out (Welegedara/HAPW Jayawardene), , 0, 9, 2, 0, 0
+1866, 2008-02-05, 2, 11, New Zealand, lbw, Mills, 0, 21, 16, 0, 0
+1866, 2008-02-05, 4, 11, New Zealand, c McCullum, Oram, 8, 45, 36, 2, 0
+1867, 2008-02-13, 1, 10, New Zealand, c McCullum, Gillespie, 6, 14, 10, 0, 0
+1867, 2008-02-13, 3, 10, New Zealand, c Taylor, Martin, 10, 33, 21, 0, 0
+1868, 2008-02-22, 1, 10, New Zealand, , Martin, 1, 14, 13, 0, 0
+1874, 2008-04-15, 2, 10, New Zealand, c Flynn, Vettori, 0, 3, 2, 0, 0
+1876, 2008-04-23, 2, 10, New Zealand, c McCullum, Mills, 1, 4, 3, 0, 0
+1878, 2008-05-05, 1, 11, New Zealand, c McCullum, Vettori, 0, 3, 2, 0, 0
+1881, 2008-06-18, 1, 10, South Africa, c de Villiers, Morkel, 0, 12, 11, 0, 0
+1881, 2008-06-18, 3, 10, South Africa, , Steyn, 10, 24, 14, 1, 0
+1883, 2008-07-30, 1, 11, South Africa, run out (Amla/Boucher), , 1, 2, 1, 0, 0
+1883, 2008-07-30, 3, 11, South Africa, not out, , 0, 2, 0, 0, 0
+1885, 2008-07-07, 2, 11, South Africa, run out (Harris), , 0, 2, 0, 0, 0
+1898, 2008-11-11, 1, 11, India, lbw, Sharma, 6, 23, 26, 0, 0
+1901, 2008-11-19, 2, 11, India, c Gambhir, Harbhajan Singh, 5, 13, 16, 0, 0
+1906, 2009-01-04, 1, 11, West Indies, lbw, Benn, 0, 5, 3, 0, 0
+1906, 2009-01-04, 3, 11, West Indies, not out, , 0, 3, 3, 0, 0
+1922, 2009-06-08, 1, 11, Australia, c Ponting, Hauritz, 4, 15, 17, 0, 0
+1922, 2009-06-08, 3, 11, Australia, not out, , 7, 37, 35, 1, 0

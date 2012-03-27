@@ -1,0 +1,99 @@
+
+Test # 236
+The Ashes, 1934, 4th Test
+England v Australia
+Headingley, Leeds
+20,21,23,24 July 1934 (4-day match)
+
+Result: Match drawn
+Series: 5-match series level 1-1
+
+Toss: England
+Umpires: A Dolphin and J Hardstaff snr
+Test debut: WW Keeton (England).
+
+Close of play:
+ Day 1: England 200, Australia 39/3 (Ponsford 22*)
+ Day 2: Australia 494/4 (Bradman 271*, McCabe 18*)
+ Day 3: Australia 584, England 188/4 (Hendren 42*, Leyland 22*)
+
+England 1st innings                                             R   M   B  4 6
+CF Walters                           c & b Chipperfield        44 100 114    0
+WW Keeton             c Oldfield         b O'Reilly            25  55  62    0
+WR Hammond                               b Wall                37     109    0
+EH Hendren                               b Chipperfield        29      88    0
+*RES Wyatt            st Oldfield        b Grimmett            19      66    0
+M Leyland             lbw                b O'Reilly            16  45  55  1 0
++LEG Ames             c Oldfield         b Grimmett             9      54    0
+JL Hopwood            lbw                b O'Reilly             8      50    0
+H Verity              not out                                   2      13  0 0
+TB Mitchell           st Oldfield        b Grimmett             9      20  2 0
+WE Bowes              c Ponsford         b Grimmett             0       3  0 0
+Extras                (lb 2)                                    2
+Total                 (all out, 105.4 overs)                  200
+
+FoW: 1-43 (Keeton), 2-85 (Walters), 3-135 (Hammond),
+     4-135 (Hendren), 5-168 (Leyland), 6-170 (Wyatt),
+     7-189 (Ames), 8-189 (Hopwood), 9-200 (Mitchell),
+     10-200 (Bowes).
+
+Bowling                      O      M      R      W
+Wall                        18      1     57      1
+McCabe                       4      2      3      0
+Grimmett                    30.4   11     57      4
+O'Reilly                    35     16     46      3
+Chipperfield                18      6     35      2
+
+Australia 1st innings                                           R   M   B  4 6
+WA Brown                                 b Bowes               15  40  43    0
+WH Ponsford           hit wicket         b Verity             181 387 413 19 0
++WAS Oldfield         c Ames             b Bowes                0   5   4  0 0
+*WM Woodfull                             b Bowes                0   1   2  0 0
+DG Bradman                               b Bowes              304 430 473 43 2
+SJ McCabe                                b Bowes               27      63    0
+LS Darling                               b Bowes               12      34    0
+AG Chipperfield       c Wyatt            b Verity               1      14  0 0
+CV Grimmett           run out                                  15      26    0
+WJ O'Reilly           not out                                  11      19    1
+TW Wall               lbw                b Verity               1      12  0 0
+Extras                (b 8, lb 9)                              17
+Total                 (all out, 183.5 overs)                  584
+
+FoW: 1-37 (Brown), 2-39 (Oldfield), 3-39 (Woodfull),
+     4-427 (Ponsford), 5-517 (McCabe), 6-550 (Bradman),
+     7-551 (Darling), 8-557 (Chipperfield), 9-574 (Grimmett),
+     10-584 (Wall).
+
+Bowling                      O      M      R      W
+Bowes                       50     13    142      6
+Hammond                     29      5     82      0
+Mitchell                    23      1    117      0
+Verity                      46.5   15    113      3
+Hopwood                     30      7     93      0
+Leyland                      5      0     20      0
+
+England 2nd innings                                             R   M   B  4 6
+CF Walters                               b O'Reilly            45      98    0
+WW Keeton                                b Grimmett            12  25  34    0
+WR Hammond            run out                                  20  45  42    0
+EH Hendren            lbw                b O'Reilly            42 200 221    0
+*RES Wyatt                               b Grimmett            44 105 144    0
+M Leyland             not out                                  49     186    0
++LEG Ames             c Brown            b Grimmett             8  35  51  1 0
+JL Hopwood            not out                                   2      39  0 0
+Extras                (b 1, lb 6)                               7
+Total                 (6 wickets, 135.5 overs)                229
+
+DNB: H Verity, TB Mitchell, WE Bowes.
+
+FoW: 1-28 (Keeton), 2-70 (Hammond), 3-87 (Walters),
+     4-152 (Wyatt), 5-190 (Hendren), 6-213 (Ames).
+
+Bowling                      O      M      R      W
+Wall                        14      5     36      0
+McCabe                       5      4      5      0
+Grimmett                    56.5   24     72      3
+O'Reilly                    51     25     88      2
+Chipperfield                 9      2     21      0
+
+<END>

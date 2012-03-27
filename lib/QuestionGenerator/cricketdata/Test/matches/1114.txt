@@ -1,0 +1,123 @@
+
+Test # 1114
+The Frank Worrell Trophy, 1988/89, 5th Test
+Australia v West Indies
+Adelaide Oval
+3,4,5,6,7 February 1989 (5-day match)
+
+Result: Match drawn
+Series: West Indies wins the 5-match series 3-1
+
+Toss: Australia
+Umpires: RJ Evans and PJ McConnell
+Player of the match: DM Jones
+Player of the series: CEL Ambrose
+
+Close of play:
+ Day 1: Australia 283/3 (Jones 131*, Border 61*)
+ Day 2: Australia 515, West Indies 74/1 (Haynes 22*, Richardson 39*)
+ Day 3: West Indies 338/8 (Dujon 12*, Walsh 2*)
+ Day 4: West Indies 369, Australia 224/4 (Boon 55*, Border 6*)
+
+Australia 1st innings                                           R   M   B  4 6
+GR Marsh              c Dujon            b Ambrose             21 110  74  1 0
+MA Taylor             run out                                   3  17  12  0 0
+DC Boon               c Richardson       b Ambrose             34  73  51  5 0
+DM Jones              run out                                 216 538 347 16 0
+*AR Border                               b Marshall            64 266 195  5 0
+SR Waugh              c Dujon            b Walsh               12  42  31  2 0
++IA Healy             lbw                b Walsh                0   3   1  0 0
+TV Hohns              c Hooper           b Walsh                9  22  15  2 0
+TBA May               c Richardson       b Ambrose             24  57  48  1 0
+MG Hughes             not out                                  72 142 118  6 1
+MR Whitney            c Dujon            b Patterson            2  16   5  0 0
+Extras                (lb 18, nb 40)                           58
+Total                 (all out, 140.5 overs)                  515
+
+FoW: 1-7 (Taylor), 2-64 (Boon), 3-75 (Marsh), 4-289 (Border),
+     5-311 (Waugh), 6-311 (Healy), 7-333 (Hohns), 8-383 (May),
+     9-497 (Jones), 10-515 (Whitney).
+
+Bowling                      O      M      R      W
+Marshall                    23      3     67      1
+Patterson                   30.5    1    130      1
+Ambrose                     26      4     93      3
+Walsh                       33      5    120      3
+Hooper                       3      0     14      0
+Richards                    25      1     73      0
+
+West Indies 1st innings                                         R   M   B  4 6
+CG Greenidge                             b Whitney             12  17  15  2 0
+DL Haynes             run out                                  83 276 212  7 0
+RB Richardson         c Jones            b Whitney            106 194 160 16 0
+CL Hooper             c Healy            b Whitney              2  10   9  0 0
+*IVA Richards         c Boon             b Whitney             69 160 120  6 0
+AL Logie              c Healy            b Hohns               21  69  61  1 0
++PJL Dujon                               b Hohns               28 129  84  1 0
+MD Marshall           c Marsh            b Whitney              0   2   2  0 0
+CEL Ambrose           c Boon             b Whitney              9  23  25  1 0
+CA Walsh              c Healy            b Whitney              4  40  27  0 0
+BP Patterson          not out                                   9  28  25  1 0
+Extras                (b 6, lb 10, nb 10)                      26
+Total                 (all out, 121.4 overs)                  369
+
+FoW: 1-19 (Greenidge), 2-186 (Richardson), 3-190 (Hooper),
+     4-231 (Haynes), 5-293 (Logie), 6-315 (Richards),
+     7-315 (Marshall), 8-331 (Ambrose), 9-346 (Walsh),
+     10-369 (Dujon).
+
+Bowling                      O      M      R      W
+Hughes                      15      0     86      0
+Whitney                     30      6     89      7
+May                         16      6     42      0
+Waugh                        3      0     17      0
+Hohns                       47.4    9    106      2
+Border                      10      2     13      0
+
+Australia 2nd innings                                           R   M   B  4 6
+GR Marsh              c Dujon            b Ambrose             79 237 172  4 1
+MA Taylor             run out                                  36 164 128  2 0
+DC Boon               not out                                  55 138 115  4 0
+DM Jones              lbw                b Richards             6  15  14  0 0
+SR Waugh              run out                                   8  35  28  0 0
+*AR Border            not out                                   6  13   6  0 0
+Extras                (b 11, lb 13, nb 10)                     34
+Total                 (4 wickets dec, 75 overs)               224
+
+DNB: +IA Healy, TV Hohns, TBA May, MG Hughes, MR Whitney.
+
+FoW: 1-98 (Taylor), 2-176 (Marsh), 3-187 (Jones), 4-213 (Waugh).
+
+Bowling                      O      M      R      W
+Marshall                    12      2     30      0
+Ambrose                     15      2     44      1
+Walsh                       13      2     26      0
+Patterson                    8      1     29      0
+Richards                    24      3     64      1
+Hooper                       3      1      7      0
+
+West Indies 2nd innings (target: 371 runs)                      R   M   B  4 6
+CG Greenidge          c Boon             b May                104 294 249  8 0
+DL Haynes             c Healy            b Whitney             15  34  28  3 0
+RB Richardson         c Border           b Whitney             22  86  58  3 0
+CL Hooper                                b May                  0  15  14  0 0
+*IVA Richards         not out                                  68 193 144  6 0
+AL Logie              not out                                   2  36   8  0 0
+Extras                (b 3, lb 7, w 1, nb 11)                  22
+Total                 (4 wickets, 81 overs)                   233
+
+DNB: +PJL Dujon, MD Marshall, CEL Ambrose, CA Walsh,
+     BP Patterson.
+
+FoW: 1-21 (Haynes), 2-87 (Richardson), 3-89 (Hooper),
+     4-212 (Greenidge).
+
+Bowling                      O      M      R      W
+Hughes                       9      5     20      0
+Whitney                     20      4     60      2
+Waugh                        9      3     23      0
+Hohns                       15      3     56      0
+May                         23      2     60      2
+Border                       5      3      4      0
+
+<END>

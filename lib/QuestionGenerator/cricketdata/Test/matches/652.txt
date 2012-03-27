@@ -1,0 +1,100 @@
+
+Test # 652
+West Indies in New Zealand, 1968/69, 3rd Test
+New Zealand v West Indies
+Lancaster Park, Christchurch
+13,14,15,17 March 1969 (4-day match)
+
+Result: Match drawn
+Series: 3-match series drawn 1-1
+
+Toss: West Indies
+Umpires: ECA MacKintosh and WT Martin
+Balls per over: 8
+
+Close of play:
+ Day 1: West Indies 212/1 (Carew 81*, Nurse 122*)
+ Day 2: West Indies 417, New Zealand 63/2 (Yuile 5*)
+ Day 3: New Zealand 217, New Zealand 115/0 (Dowling 73*, Turner 38*)
+
+West Indies 1st innings                                         R   M   B  4 6
+RC Fredericks         c Turner           b Motz                 4  26        0
+MC Carew              c Turner           b Pollard             91 304     11 0
+SM Nurse              st Milburn         b Yuile              258 476     34 1
+BF Butcher            lbw                b Motz                29  94        0
+CH Lloyd              c Yuile            b Motz                 3          0 0
+*GS Sobers                               b Motz                 0          0 0
+DAJ Holford                              b Motz                 0       2  0 0
++JL Hendriks          c Milburn          b Taylor              10            0
+CC Griffith           c Pollard          b Taylor               8            0
+RM Edwards            st Milburn         b Yuile                0          0 0
+LR Gibbs              not out                                   0          0 0
+Extras                (b 4, lb 9, nb 1)                        14
+Total                 (all out, 101.4 overs)                  417
+
+FoW: 1-16 (Fredericks), 2-247 (Carew), 3-326 (Butcher),
+     4-340 (Lloyd), 5-350 (Sobers), 6-350 (Holford),
+     7-382 (Hendriks), 8-413 (Nurse), 9-417 (Edwards),
+     10-417 (Griffith).
+
+Bowling                      O      M      R      W
+Motz                        27      3    113      5
+Cunis                       22      2     93      0
+Taylor                      14.4    0     63      2
+Pollard                     18      6     64      1
+Yuile                       20      5     70      2
+
+New Zealand 1st innings                                         R   M   B  4 6
+*GT Dowling           lbw                b Edwards             23  96        0
+GM Turner                                b Gibbs               30  80        0
+BW Yuile              lbw                b Carew               17  44        0
+BE Congdon                               b Gibbs               42            0
+BF Hastings                              b Holford              0          0 0
+MG Burgess                               b Edwards             26            0
+V Pollard                                b Holford             21            0
+BR Taylor             not out                                  43  56      7 1
+RC Motz               c Fredericks       b Holford              6          0 1
+RS Cunis              c Carew            b Holford              0          0 0
++BD Milburn           c Holford          b Gibbs                0          0 0
+Extras                (b 5, lb 3, w 1)                          9
+Total                 (all out, 80.3 overs)                   217
+
+FoW: 1-55 (Turner), 2-63 (Dowling), 3-95 (Yuile),
+     4-117 (Hastings), 5-119 (Congdon), 6-160 (Burgess),
+     7-182 (Pollard), 8-200 (Motz), 9-216 (Cunis),
+     10-217 (Milburn).
+
+Bowling                      O      M      R      W
+Sobers                       8      3     21      0
+Griffith                     5      2     15      0
+Edwards                     15      4     30      2
+Gibbs                       24.3    6     64      3
+Holford                     20      5     66      4
+Carew                        8      2     12      1
+
+New Zealand 2nd innings (following on)                          R   M   B  4 6
+*GT Dowling           lbw                b Sobers              76 171      7 0
+GM Turner             c Holford          b Sobers              38 152        0
+BE Congdon                               b Sobers              43  93      6 0
+BF Hastings           not out                                 117 278     12 2
+MG Burgess            c Sobers           b Holford              2          0 0
+V Pollard                                b Carew               44 116      4 0
+BW Yuile                                 b Griffith            20            0
+BR Taylor             not out                                   0          0 0
+Extras                (b 10, lb 14, nb 3)                      27
+Total                 (6 wickets, 118.4 overs)                367
+
+DNB: RC Motz, RS Cunis, +BD Milburn.
+
+FoW: 1-115 (Turner), 2-128 (Dowling), 3-203 (Congdon),
+     4-210 (Burgess), 5-320 (Pollard), 6-363 (Yuile).
+
+Bowling                      O      M      R      W
+Sobers                      31      8     70      3
+Griffith                    13.4    1     55      1
+Edwards                     21      6     67      0
+Gibbs                       19      4     42      0
+Holford                     25      5     82      1
+Carew                        9      4     24      1
+
+<END>

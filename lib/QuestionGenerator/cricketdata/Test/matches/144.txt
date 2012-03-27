@@ -1,0 +1,94 @@
+
+Test # 144
+The Ashes, 1921, 5th Test
+England v Australia
+Kennington Oval, London
+13,15,16 August 1921 (3-day match)
+
+Result: Match drawn
+Series: Australia wins the 5-match series 3-0
+
+Toss: England
+Umpires: J Moss and W Phillips
+Test debut: A Sandham (England).
+
+Close of play:
+ Day 1: England 129/4 (Mead 19*, Sandham 1*)
+ Day 2: England 403/8d, Australia 162/3 (Andrews 59*)
+
+England 1st innings                                             R   M   B  4 6
+CAG Russell           c Oldfield         b McDonald            13  29      0 0
++G Brown                                 b Mailey              32  66      2 0
+GE Tyldesley          c Macartney        b Gregory             39 101      4 0
+FE Woolley            run out                                  23  21      3 0
+CP Mead               not out                                 182 309     21 0
+A Sandham                                b McDonald            21  81      2 0
+*Hon.LH Tennyson                         b McDonald            51  96      8 0
+PGH Fender            c Armstrong        b McDonald             0   2      0 0
+JW Hitch                                 b McDonald            18  21      3 0
+JWHT Douglas          not out                                  21  52        0
+Extras                (lb 3)                                    3
+Total                 (8 wickets dec, 127 overs)              403
+
+DNB: CH Parkin.
+
+FoW: 1-27 (Russell), 2-54 (Brown), 3-84 (Woolley),
+     4-121 (Tyldesley), 5-191 (Sandham), 6-312 (Tennyson),
+     7-312 (Fender), 8-339 (Hitch).
+
+Bowling                      O      M      R      W
+Gregory                     38      5    128      1
+McDonald                    47      9    143      5
+Mailey                      30      4     85      1
+Armstrong                   12      2     44      0
+
+Australia 1st innings                                           R   M   B  4 6
+HL Collins            hit wicket         b Hitch               14  58      1 0
+W Bardsley                               b Hitch               22  36      3 0
+CG Macartney                             b Douglas             61  95      9 0
+TJE Andrews           lbw                b Parkin              94 119     11 0
+JM Taylor             c Woolley          b Douglas             75 118     10 0
+CE Pellew             c Woolley          b Parkin               1   5      0 0
+*WW Armstrong         c Brown            b Douglas             19  43      3 0
+JM Gregory            st Brown           b Parkin              27  54      4 0
++WAS Oldfield         not out                                  28  76      3 0
+EA McDonald           st Brown           b Woolley             36  39      5 0
+AA Mailey                                b Woolley              0   1      0 0
+Extras                (b 6, lb 3, w 2, nb 1)                   12
+Total                 (all out, 102 overs)                    389
+
+FoW: 1-33 (Bardsley), 2-54 (Collins), 3-162 (Macartney),
+     4-233 (Andrews), 5-239 (Pellew), 6-288 (Armstrong),
+     7-311 (Taylor), 8-338 (Gregory), 9-389 (McDonald),
+     10-389 (Mailey).
+
+Bowling                      O      M      R      W
+Hitch                       19      3     65      2
+Douglas                     30      2    117      3
+Fender                      19      3     82      0
+Parkin                      23      4     82      3
+Woolley                     11      2     31      2
+
+England 2nd innings                                             R   M   B  4 6
+CAG Russell           not out                                 102 163     11 0
++G Brown              c Mailey           b Taylor              84 111      7 0
+PGH Fender            c Armstrong        b Mailey               6  13      0 0
+JW Hitch              not out                                  51  37      7 1
+Extras                (b 1)                                     1
+Total                 (2 wickets, 58 overs)                   244
+
+DNB: GE Tyldesley, FE Woolley, CP Mead, A Sandham,
+     *Hon.LH Tennyson, JWHT Douglas, CH Parkin.
+
+FoW: 1-158 (Brown), 2-173 (Fender).
+
+Bowling                      O      M      R      W
+Gregory                      3      0     13      0
+McDonald                     6      0     20      0
+Mailey                      18      2     77      1
+Pellew                       9      3     25      0
+Andrews                      8      0     44      0
+Taylor                       7      1     25      1
+Collins                      7      0     39      0
+
+<END>

@@ -1,0 +1,136 @@
+
+Test # 1299
+The Wisden Trophy, 1995, 2nd Test
+England v West Indies
+Lord's, London
+22,23,24,25,26 June 1995 (5-day match)
+
+Result: England won by 72 runs
+Series: 6-match series level 1-1
+
+Toss: England
+Umpires: DR Shepherd and S Venkataraghavan (India)
+TV umpire: AGT Whitehead
+Match referee: JR Reid (NZ)
+Test debuts: DG Cork (England); OD Gibson (West Indies).
+Player of the match: DG Cork
+
+Close of play:
+ Day 1: England 255/8 (Martin 22*)
+ Day 2: England 283, West Indies 209/6 (Arthurton 14*, Gibson 12*)
+ Day 3: West Indies 324, England 155/3 (Smith 31*, Ramprakash 0*)
+ Day 4: England 336, West Indies 68/1 (Campbell 14*, Lara 38*)
+
+England 1st innings                                             R   M   B  4 6
+*MA Atherton                             b Ambrose             21  54  41  1 0
++AJ Stewart           c Arthurton        b Gibson              34 125  85  6 0
+GA Hick               c Lara             b Bishop              13  65  44  1 0
+GP Thorpe             c Lara             b Ambrose             52 154 108  7 0
+RA Smith                                 b Hooper              61 126 107  6 0
+MR Ramprakash         c Campbell         b Hooper               0  12  14  0 0
+DG Cork                                  b Walsh               30 106  77  4 0
+D Gough               c Campbell         b Gibson              11  29  19  1 0
+PJ Martin                                b Walsh               29 100  63  3 0
+RK Illingworth        not out                                  16  43  39  2 0
+ARC Fraser            lbw                b Walsh                1   8   6  0 0
+Extras                (b 1, lb 10, nb 4)                       15
+Total                 (all out, 99.4 overs)                   283
+
+FoW: 1-29 (Atherton), 2-70 (Hick), 3-74 (Stewart), 4-185 (Smith),
+     5-187 (Ramprakash), 6-191 (Thorpe), 7-205 (Gough),
+     8-255 (Cork), 9-281 (Martin), 10-283 (Fraser).
+
+Bowling                      O      M      R      W
+Ambrose                     26      6     72      2
+Walsh                       22.4    6     50      3
+Gibson                      20      2     81      2
+Bishop                      17      4     33      1
+Hooper                      14      3     36      2
+
+West Indies 1st innings                                         R   M   B  4 6
+SL Campbell           c Stewart          b Gough                5   3   4  1 0
+CL Hooper                                b Martin              40 150 107  3 0
+BC Lara               lbw                b Fraser               6  47  31  1 0
+JC Adams              lbw                b Fraser              54 219 165  5 0
+*RB Richardson        c Stewart          b Fraser              49 109  71  9 0
+KLT Arthurton         c Gough            b Fraser              75 223 169 10 0
++JR Murray                           c & b Martin              16  42  22  3 0
+OD Gibson             lbw                b Gough               29  55  40  6 0
+IR Bishop                                b Cork                 8  27  15  0 0
+CEL Ambrose           c Ramprakash       b Fraser              12  58  38  1 0
+CA Walsh              not out                                  11  24  10  2 0
+Extras                (b 8, lb 11)                             19
+Total                 (all out, 112 overs)                    324
+
+FoW: 1-6 (Campbell), 2-23 (Lara), 3-88 (Hooper),
+     4-166 (Richardson), 5-169 (Adams), 6-197 (Murray),
+     7-246 (Gibson), 8-272 (Bishop), 9-305 (Ambrose),
+     10-324 (Arthurton).
+
+Bowling                      O      M      R      W
+Gough                       27      2     84      2
+Fraser                      33     13     66      5
+Cork                        22      4     72      1
+Martin                      23      5     65      2
+Illingworth                  7      2     18      0
+
+England 2nd innings                                             R   M   B  4 6
+*MA Atherton          c Murray           b Walsh                9  33  26  1 0
++AJ Stewart           c Murray           b Walsh               36  51  37  3 0
+GA Hick                                  b Bishop              67 124  92 10 1
+GP Thorpe             c Richardson       b Ambrose             42 142  99  4 0
+RA Smith              lbw                b Ambrose             90 364 227 11 0
+MR Ramprakash         c sub (SC Williams) b Bishop              0  12  10  0 0
+DG Cork               c Murray           b Bishop              23  67  50  3 0
+D Gough                                  b Ambrose             20  48  44  3 0
+PJ Martin             c Arthurton        b Ambrose              1  18   6  0 0
+RK Illingworth        lbw                b Walsh                4  15  10  1 0
+ARC Fraser            not out                                   2   4   4  0 0
+Extras                (b 6, lb 27, w 2, nb 7)                  42
+Total                 (all out, 99.1 overs)                   336
+
+FoW: 1-32 (Atherton), 2-51 (Stewart), 3-150 (Hick),
+     4-155 (Ramprakash), 5-240 (Thorpe), 6-290 (Cork),
+     7-320 (Smith), 8-329 (Gough), 9-334 (Martin),
+     10-336 (Illingworth).
+
+Bowling                      O      M      R      W
+Ambrose                     24      5     70      4
+Walsh                       28.1   10     91      3
+Gibson                      14      1     51      0
+Bishop                      22      5     56      3
+Hooper                       9      1     31      0
+Adams                        2      0      4      0
+
+West Indies 2nd innings (target: 296 runs)                      R   M   B  4 6
+CL Hooper             c Martin           b Gough               14  23  18  3 0
+SL Campbell           c Stewart          b Cork                93 309 222  8 0
+BC Lara               c Stewart          b Gough               54  87  62 10 0
+JC Adams              c Hick             b Cork                13  39  21  2 0
+*RB Richardson        lbw                b Cork                 0  11   9  0 0
+KLT Arthurton         c sub              b Cork                 0  49  40  0 0
++JR Murray            c sub              b Gough                9  38  26  2 0
+OD Gibson             lbw                b Cork                14  46  22  2 0
+IR Bishop             not out                                  10  46  19  0 0
+CEL Ambrose           c Illingworth      b Cork                11  31  30  1 0
+CA Walsh              c Stewart          b Cork                 0   2   2  0 0
+Extras                (lb 5)                                    5
+Total                 (all out, 78.3 overs)                   223
+
+FoW: 1-15 (Hooper), 2-99 (Lara), 3-124 (Adams),
+     4-130 (Richardson), 5-138 (Arthurton), 6-177 (Murray),
+     7-198 (Gibson), 8-201 (Campbell), 9-223 (Ambrose),
+     10-223 (Walsh).
+
+Bowling                      O      M      R      W
+Gough                       20      0     79      3
+Fraser                      25      9     57      0
+Cork                        19.3    5     43      7
+Martin                       7      0     30      0
+Illingworth                  7      4      9      0
+
+*** Eng 2nd innings
+*** GP Thorpe (2) retired hurt on 0* from 52/2 to 155/4
+*** Smith 90: 364 mins, 227 balls, 11x4
+
+<END>

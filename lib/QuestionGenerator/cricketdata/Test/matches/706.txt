@@ -1,0 +1,128 @@
+
+Test # 706
+England in India, 1972/73, 2nd Test
+India v England
+Eden Gardens, Calcutta
+30,31 December 1972, 1,3,4 January 1973 (5-day match)
+
+Result: India won by 28 runs
+Series: 5-match series level 1-1
+
+Toss: India
+Umpires: AM Mamsa and J Reuben
+Test debut: CM Old (England).
+
+Close of play:
+ Day 1: India 148/5 (Solkar 19*, Engineer 26*)
+ Day 2: India 210, England 126/6 (Knott 23*, Old 4*)
+ Day 3: England 174, India 121/4 (Engineer 10*, Solkar 2*)
+ Day 4: India 155, England 105/4 (Denness 28*, Greig 60*)
+
+India 1st innings                                               R   M   B  4 6
+SM Gavaskar           c Old              b Underwood           18  89  71  3 0
+RD Parkar             c Knott            b Old                 26 138 109  3 0
+*AL Wadekar           run out                                  44 118  84  8 0
+GR Viswanath          c Wood             b Cottam               3  38  31  0 0
+SA Durani                                b Greig                4  36  25  1 0
+ED Solkar                                b Old                 19 139  90  1 0
++FM Engineer                             b Underwood           75 215 144 10 0
+S Abid Ali                               b Cottam               3  12  10  0 0
+EAS Prasanna          lbw                b Cottam               6  14   9  1 0
+BS Bedi               run out                                   0   5   0  0 0
+BS Chandrasekhar      not out                                   1  47  24  0 0
+Extras                (lb 3, nb 8)                             11
+Total                 (all out, 97.4 overs)                   210
+
+FoW: 1-29 (Gavaskar), 2-68 (Parkar), 3-78 (Viswanath),
+     4-99 (Wadekar), 5-100 (Durani), 6-163 (Solkar),
+     7-176 (Abid Ali), 8-192 (Prasanna), 9-192 (Bedi),
+     10-210 (Engineer).
+
+Bowling                      O      M      R      W
+Old                         26      7     72      2
+Cottam                      23      6     45      3
+Underwood                   20.4   11     43      2
+Pocock                      19     10     26      0
+Greig                        9      1     13      1
+
+England 1st innings                                             R   M   B  4 6
+B Wood                                   b Bedi                11  50  44  1 0
+DL Amiss              c Solkar           b Chandrasekhar       11  85  54  1 0
+KWR Fletcher          c Gavaskar         b Prasanna            16  46  33  2 0
+MH Denness            c Solkar           b Chandrasekhar       21  69  54  3 0
+*AR Lewis             lbw                b Bedi                 4   9  11  1 0
+AW Greig              c sub              b Prasanna            29  85  78  4 0
++APE Knott            st Engineer        b Chandrasekhar       35  76  50  3 0
+CM Old                not out                                  33 106  90  3 1
+PI Pocock                                b Prasanna             3  15  13  0 0
+DL Underwood          c Solkar           b Chandrasekhar        0   4   5  0 0
+RMH Cottam            lbw                b Chandrasekhar        3  46  25  0 0
+Extras                (lb 4, nb 4)                              8
+Total                 (all out, 75.2 overs)                   174
+
+FoW: 1-18 (Wood), 2-37 (Amiss), 3-47 (Fletcher), 4-56 (Lewis),
+     5-84 (Denness), 6-117 (Greig), 7-144 (Knott),
+     8-153 (Pocock), 9-154 (Underwood), 10-174 (Cottam).
+
+Bowling                      O      M      R      W
+Abid Ali                     4      1      4      0
+Solkar                       3      1      5      0
+Bedi                        26      7     59      2
+Chandrasekhar               26.2    5     65      5
+Prasanna                    16      4     33      3
+
+India 2nd innings                                               R   M   B  4 6
+SM Gavaskar           lbw                b Old                  2   3   4  0 0
+RD Parkar             c Fletcher         b Old                 15  47  32  2 0
+SA Durani             c Fletcher         b Greig               53 199 139  7 1
+GR Viswanath          c Fletcher         b Old                 34 126  82  5 0
++FM Engineer          c Knott            b Underwood           17  86  39  2 0
+ED Solkar             c Knott            b Greig                6  64  48  0 0
+*AL Wadekar           lbw                b Greig                0  17  13  0 0
+S Abid Ali            c Amiss            b Old                  3  38  17  0 0
+EAS Prasanna                             b Greig                0   1   1  0 0
+BS Bedi               not out                                   9  44  30  0 0
+BS Chandrasekhar                         b Greig                1  15   9  0 0
+Extras                (b 8, lb 2, nb 5)                        15
+Total                 (all out, 67.5 overs)                   155
+
+FoW: 1-2 (Gavaskar), 2-33 (Parkar), 3-104 (Viswanath),
+     4-112 (Durani), 5-133 (Engineer), 6-133 (Solkar),
+     7-135 (Wadekar), 8-135 (Prasanna), 9-147 (Abid Ali),
+     10-155 (Chandrasekhar).
+
+Bowling                      O      M      R      W
+Old                         21      6     43      4
+Cottam                       5      0     18      0
+Underwood                   14      4     36      1
+Pocock                       8      1     19      0
+Greig                       19.5    9     24      5
+
+England 2nd innings (target: 192 runs)                          R   M   B  4 6
+B Wood                                   b Abid Ali             1  12  10  0 0
+DL Amiss              c Engineer         b Bedi                 1  42  29  0 0
+KWR Fletcher          lbw                b Bedi                 5  18  14  1 0
+MH Denness            lbw                b Chandrasekhar       32 234 186  2 0
+*AR Lewis             c Solkar           b Bedi                 3  29  23  0 0
+AW Greig              lbw                b Chandrasekhar       67 164 135  7 0
++APE Knott            c Durani           b Chandrasekhar        2  16  11  0 0
+CM Old                not out                                  17  92  78  1 0
+PI Pocock                            c & b Bedi                 5  27  15  1 0
+DL Underwood          c Wadekar          b Bedi                 4   7   5  1 0
+RMH Cottam            lbw                b Chandrasekhar       13  47  42  1 0
+Extras                (b 6, lb 5, nb 2)                        13
+Total                 (all out, 91 overs)                     163
+
+FoW: 1-3 (Wood), 2-8 (Fletcher), 3-11 (Amiss), 4-17 (Lewis),
+     5-114 (Greig), 6-119 (Knott), 7-123 (Denness),
+     8-130 (Pocock), 9-138 (Underwood), 10-163 (Cottam).
+
+Bowling                      O      M      R      W
+Abid Ali                     8      2     12      1
+Solkar                       1      1      0      0
+Bedi                        40     12     63      5
+Chandrasekhar               29     14     42      4
+Prasanna                     9      0     19      0
+Durani                       4      1     14      0
+
+<END>

@@ -1,0 +1,137 @@
+
+Test # 43
+The Ashes, 1894/95, 2nd Test
+Australia v England
+Melbourne Cricket Ground
+29,31 December 1894, 1,2,3 January 1895 (timeless match)
+
+Result: England won by 94 runs
+Series: England leads the 5-match series 2-0
+
+Toss: Australia
+Umpires: T Flynn and J Phillips
+Test debut: A Coningham (Australia).
+
+Close of play:
+ Day 1: England 75, Australia 123
+ Day 2: England 287/4 (Stoddart 151*, Peel 18*)
+ Day 3: England 475, Australia 86/0 (Trott 43*, Bruce 43*)
+ Day 4: Australia 328/9 (Iredale 63*, Turner 26*)
+
+England 1st innings                                             R   M   B  4 6
+AC MacLaren           c Trott            b Coningham            0   1   1  0 0
+A Ward                c Darling          b Trumble             30  65        0
+*AE Stoddart                             b Turner              10            0
+JT Brown              c Trumble          b Turner               0          0 0
+W Brockwell           c Iredale          b Coningham            0          0 0
+R Peel                c Trumble          b Turner               6          1 0
+FGJ Ford              c Giffen           b Trumble              9            0
+WH Lockwood           not out                                   3          0 0
+J Briggs              c Bruce            b Turner               5            0
++H Philipson          c Darling          b Turner               1          0 0
+T Richardson          c Iredale          b Trumble              0          0 0
+Extras                (lb 9, nb 2)                             11
+Total                 (all out, 40.1 overs)                    75
+
+FoW: 1-0 (MacLaren), 2-19 (Stoddart), 3-23 (Brown),
+     4-26 (Brockwell), 5-44 (Ward), 6-58 (Peel), 7-60 (Ford),
+     8-70 (Briggs), 9-71 (Philipson), 10-75 (Richardson).
+
+Bowling                      O      M      R      W
+Coningham                   11      5     17      2
+Turner                      20      9     32      5
+Trumble                      9.1    4     15      3
+
+Australia 1st innings                                           R   M   B  4 6
+JJ Lyons                                 b Richardson           2   8      0 0
+W Bruce               c Ford             b Peel                 4  24        0
+*G Giffen             c Philipson        b Briggs              32 105        0
+SE Gregory            c Ward             b Richardson           2   2      0 0
+J Darling                                b Lockwood            32  30        1
+FA Iredale                               b Richardson          10  30        0
+GHS Trott             run out                                  16  52        0
+A Coningham           c Philipson        b Richardson          10  15        0
+H Trumble                                b Richardson           1   3      0 0
++AH Jarvis            c Brown            b Briggs              11  15        0
+CTB Turner            not out                                   1   7      0 0
+Extras                (w 2)                                     2
+Total                 (all out, 55.5 overs)                   123
+
+FoW: 1-4 (Lyons), 2-12 (Bruce), 3-14 (Gregory), 4-53 (Darling),
+     5-80 (Iredale), 6-96 (Giffen), 7-108 (Coningham),
+     8-110 (Trumble), 9-116 (Trott), 10-123 (Jarvis).
+
+Bowling                      O      M      R      W
+Richardson                  23      6     57      5
+Peel                        14      4     21      1
+Lockwood                     5      0     17      1
+Briggs                      13.5    2     26      2
+
+England 2nd innings                                             R   M   B  4 6
+AC MacLaren                              b Turner              15  20        0
+A Ward                                   b Turner              41 115        0
+*AE Stoddart                             b Giffen             173 320     15 1
+JT Brown              c Jarvis           b Bruce               37  65        0
+W Brockwell                              b Turner              21  27      3 0
+R Peel                st Jarvis          b Giffen              53 168      0 0
+FGJ Ford              c Trott            b Giffen              24  25        0
+J Briggs              lbw                b Giffen              31  40        0
+WH Lockwood           not out                                  33  92        0
++H Philipson                             b Giffen              30  36        0
+T Richardson          c Gregory          b Giffen              11  20        0
+Extras                (b 1, lb 2, nb 3)                         6
+Total                 (all out, 202.2 overs)                  475
+
+FoW: 1-24 (MacLaren), 2-101 (Ward), 3-191 (Brown),
+     4-222 (Brockwell), 5-320 (Stoddart), 6-362 (Ford),
+     7-385 (Peel), 8-402 (Briggs), 9-455 (Philipson),
+     10-475 (Richardson).
+
+Bowling                      O      M      R      W
+Coningham                   20      4     59      0
+Turner                      55     21     99      3
+Trumble                     26      6     72      0
+Giffen                      78.2   21    155      6
+Lyons                        2      1      3      0
+Trott                       17      0     60      0
+Bruce                        4      0     21      1
+
+Australia 2nd innings (target: 428 runs)                        R   M   B  4 6
+GHS Trott                            c & b Brockwell           95 220      6 0
+W Bruce               c Stoddart         b Peel                54  85        0
+*G Giffen             c Brown            b Brockwell           43 120        0
+SE Gregory                               b Richardson          12  30        0
+J Darling                                b Brockwell            5   5        0
+FA Iredale                               b Peel                68 140        0
+JJ Lyons                                 b Peel                14            0
++AH Jarvis                               b Richardson           4            0
+A Coningham                              b Peel                 3          0 0
+H Trumble             run out                                   2          0 0
+CTB Turner            not out                                  26            0
+Extras                (b 5, lb 1, nb 1)                         7
+Total                 (all out, 136.1 overs)                  333
+
+FoW: 1-98 (Bruce), 2-191 (Giffen), 3-206 (Trott),
+     4-214 (Darling), 5-216 (Gregory), 6-241 (Lyons),
+     7-254 (Jarvis), 8-263 (Coningham), 9-268 (Trumble),
+     10-333 (Iredale).
+
+Bowling                      O      M      R      W
+Richardson                  40     10    100      2
+Peel                        40.1    9     77      4
+Lockwood                    25      5     60      0
+Briggs                      12      0     49      0
+Ford                         5      2      7      0
+Brockwell                   14      3     33      3
+
+*** Giffen was the first captain to give his opponents first innings on
+    winning the toss.
+*** Stoddart's innings was the highest in Test for England and the highest by
+    an England captain until 1974-75 when MH Denness scored 188.
+*** Coningham took Mclaren's wicket with his first ball in his only Test to
+    claim the first instances of a wicket falling to the first ball of a Test
+    match.
+*** In England's second innings all eleven batsmen reached double figures for
+    the first time in a Test match innings. Thanks Vishal, Travis
+
+<END>

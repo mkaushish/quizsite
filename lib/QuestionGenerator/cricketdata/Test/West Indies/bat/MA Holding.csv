@@ -1,0 +1,77 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+764, 1975-11-28, 1, 8, Australia, c GS Chappell, Gilmour, 34, 58, 54, 7, 0
+764, 1975-11-28, 3, 3, Australia, c Turner, Lillee, 19, 57, 45, 4, 0
+765, 1975-12-12, 2, 8, Australia, c Marsh, Thomson, 0, 1, 2, 0, 0
+767, 1976-01-03, 1, 9, Australia, hit wicket, Thomson, 2, 35, 29, 0, 0
+767, 1976-01-03, 3, 5, Australia, , Thomson, 9, 30, 20, 0, 0
+768, 1976-01-23, 2, 8, Australia, c Mallett, Thomson, 8, 20, 17, 1, 0
+768, 1976-01-23, 4, 8, Australia, c IM Chappell, Gilmour, 10, 46, 37, 2, 0
+770, 1976-01-31, 2, 9, Australia, , Lillee, 9, 48, 39, 1, 0
+770, 1976-01-31, 4, 9, Australia, c Gilmour, Mallett, 4, 7, 5, 1, 0
+773, 1976-03-10, 2, 9, India, lbw, Chandrasekhar, 0, na, na, 0, 0
+774, 1976-03-24, 1, 9, India, c Viswanath, Bedi, 1, na, na, 0, 0
+774, 1976-03-24, 3, 3, India, , Chandrasekhar, 3, na, na, 0, 0
+775, 1976-04-07, 1, 8, India, lbw, Bedi, 1, na, na, 0, 0
+775, 1976-04-07, 3, 8, India, not out, , 17, na, na, na, 2
+776, 1976-04-21, 2, 8, India, c sub, Bedi, 55, na, na, 8, 2
+778, 1976-06-17, 2, 8, England, , Underwood, 0, 3, 5, 0, 0
+779, 1976-07-08, 1, 8, England, , Selvey, 3, 20, 17, 0, 0
+780, 1976-07-22, 1, 8, England, , Snow, 2, 23, 16, 0, 0
+780, 1976-07-22, 3, 9, England, lbw, Willis, 4, 7, 8, 0, 0
+781, 1976-08-12, 1, 9, England, , Underwood, 32, 21, 15, 5, 1
+862, 1979-12-01, 2, 10, Australia, , Bright, 11, 23, 24, 2, 0
+867, 1980-12-29, 2, 10, Australia, not out, , 1, 18, 7, 0, 0
+870, 1980-01-26, 1, 10, Australia, , Pascoe, 9, 19, 15, 1, 0
+870, 1980-01-26, 3, 11, Australia, lbw, Dymock, 1, 2, 2, 0, 0
+873, 1980-02-08, 1, 10, New Zealand, lbw, Hadlee, 4, 13, 11, 1, 0
+873, 1980-02-08, 3, 10, New Zealand, c Cairns, Troup, 3, 48, 20, 0, 0
+875, 1980-02-22, 1, 10, New Zealand, lbw, Hadlee, 0, 8, 5, 0, 0
+877, 1980-02-29, 1, 10, New Zealand, lbw, Hadlee, 5, 27, 22, 1, 0
+877, 1980-02-29, 3, 10, New Zealand, not out, , 16, 23, 17, 3, 0
+880, 1980-06-05, 2, 11, England, not out, , 0, 1, 0, 0, 0
+880, 1980-06-05, 4, 10, England, not out, , 0, 1, 0, 0, 0
+881, 1980-06-19, 2, 11, England, not out, , 0, 4, 5, 0, 0
+882, 1980-07-10, 2, 11, England, not out, , 4, 13, 15, 0, 0
+883, 1980-07-24, 2, 9, England, lbw, Dilley, 22, 64, 60, 3, 1
+884, 1980-08-07, 2, 9, England, , Old, 35, 53, 44, 4, 0
+896, 1981-02-13, 1, 9, England, lbw, Botham, 26, 44, 38, 0, 2
+900, 1981-03-13, 1, 10, England, c Gatting, Botham, 0, 1, 2, 0, 0
+901, 1981-03-27, 2, 10, England, not out, , 58, 104, 78, 5, 3
+902, 1981-04-10, 2, 10, England, c Downton, Botham, 0, 5, 3, 0, 0
+915, 1981-12-26, 2, 10, Australia,                c &, Alderman, 2, 14, 7, 0, 0
+915, 1981-12-26, 4, 9, Australia, lbw, Lillee, 7, 15, 11, 1, 0
+917, 1982-01-02, 1, 8, Australia, lbw, Lillee, 9, 19, 14, 1, 0
+917, 1982-01-02, 3, 8, Australia, c Dyson, Yardley, 5, 12, 9, 0, 0
+919, 1982-01-30, 2, 10, Australia, , Yardley, 3, 8, 8, 0, 0
+949, 1983-02-23, 2, 10, India, c Kirmani, Kapil Dev, 1, na, na, 0, 0
+952, 1983-03-11, 2, 10, India, c Vengsarkar, Maninder Singh, 24, na, na, na, 1
+953, 1983-03-31, 1, 5, India, run out, , 0, na, na, 0, 0
+954, 1983-04-15, 2, 10, India, c Kirmani, Kapil Dev, 2, na, na, 0, 0
+956, 1983-04-28, 2, 11, India, run out, , 0, na, na, 0, 0
+964, 1983-10-21, 1, 10, India, lbw, Kapil Dev, 0, na, na, 0, 0
+965, 1983-10-29, 2, 10, India, , Shastri, 14, na, na, na, 1
+967, 1983-11-12, 1, 10, India, , Kapil Dev, 16, na, na, na, 0
+967, 1983-11-12, 3, 9, India, lbw, Kapil Dev, 58, na, na, na, 1
+968, 1983-11-24, 2, 9, India,                c &, Yadav, 2, na, na, 0, 0
+971, 1983-12-10, 2, 8, India, c Shastri, Maninder Singh, 17, 40, na, na, 1
+972, 1983-12-24, 1, 9, India, lbw, Kapil Dev, 34, na, 58, 1, 4
+986, 1984-03-30, 2, 11, Australia, c Smith, Hogg, 0, 1, 1, 0, 0
+987, 1984-04-07, 2, 11, Australia, not out, , 3, 12, 11, 0, 0
+988, 1984-04-28, 2, 11, Australia, not out, , 0, 5, 1, 0, 0
+989, 1984-06-14, 2, 10, England, c Willis, Pringle, 69, 114, 80, 8, 4
+991, 1984-07-12, 2, 9, England, c Allott, Willis, 59, 73, 55, 3, 5
+992, 1984-07-26, 1, 10, England, , Cook, 0, 5, 8, 0, 0
+993, 1984-08-09, 1, 10, England, lbw, Botham, 0, 2, 2, 0, 0
+993, 1984-08-09, 3, 10, England, lbw, Botham, 30, 58, 36, 3, 1
+997, 1984-11-09, 1, 9, Australia, c Wood, Alderman, 1, 11, 7, 0, 0
+999, 1984-11-23, 2, 9, Australia, , Lawson, 1, 5, 4, 0, 0
+1006, 1985-12-30, 2, 9, Australia, c McDermott, Bennett, 0, 15, 10, 0, 0
+1006, 1985-12-30, 3, 9, Australia, c Wessels, Holland, 0, 7, 4, 0, 0
+1013, 1985-03-29, 1, 10, New Zealand, lbw, Hadlee, 12, 38, 26, 1, 0
+1013, 1985-03-29, 3, 9, New Zealand, c JJ Crowe, Chatfield, 8, 11, 7, 0, 1
+1015, 1985-04-26, 2, 11, New Zealand, c Smith, Stirling, 1, 18, 7, 0, 0
+1036, 1986-02-21, 2, 10, England, lbw, Ellison, 3, 13, 9, 0, 0
+1042, 1986-03-21, 1, 8, England, , Thomas, 23, 50, 25, 2, 1
+1044, 1986-04-03, 2, 9, England, , Botham, 25, 54, 34, 3, 1
+1045, 1986-04-11, 1, 9, England, c Gower, Ellison, 73, 103, 63, 6, 4
+1068, 1987-02-20, 2, 9, New Zealand, c sub, Chatfield, 0, 11, 11, 0, 0

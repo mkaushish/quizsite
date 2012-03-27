@@ -1,0 +1,128 @@
+
+Test # 1087
+Trans-Tasman Trophy, 1987/88, 3rd Test
+Australia v New Zealand
+Melbourne Cricket Ground
+26,27,28,29,30 December 1987 (5-day match)
+
+Result: Match drawn
+Series: Australia wins the 3-match series 1-0
+
+Toss: Australia
+Umpires: AR Crafter and RA French
+Test debut: AIC Dodemaide (Australia).
+Player of the match: RJ Hadlee
+Player of the series: RJ Hadlee
+
+Close of play:
+ Day 1: New Zealand 242/5 (MD Crowe 76*, Bracewell 4*)
+ Day 2: New Zealand 317, Australia 170/5 (Waugh 55*, Sleep 16*)
+ Day 3: Australia 357, New Zealand 0/0 (Horne 0*, Wright 0*)
+ Day 4: New Zealand 285/9 (Smith 12*, Chatfield 0*)
+
+New Zealand 1st innings                                         R   M   B  4 6
+PA Horne              c Dyer             b Dodemaide            7  81  58  1 0
+JG Wright             c Dyer             b McDermott           99 310 223 10 0
+AH Jones              c Dyer             b McDermott           40 128  89  1 0
+MD Crowe              c Veletta          b McDermott           82 195 147  9 0
+*JJ Crowe             lbw                b McDermott            6  29  22  1 0
+DN Patel                                 b McDermott            0   7   2  0 0
+JG Bracewell          c Dyer             b Whitney              9  60  39  1 0
+RJ Hadlee             c Dodemaide        b Whitney             11  31  20  1 0
++IDS Smith            c Jones            b Whitney             44  82  45  7 0
+DK Morrison           c Border           b Whitney              0  23  13  0 0
+EJ Chatfield          not out                                   6  29  22  1 0
+Extras                (b 1, lb 4, nb 8)                        13
+Total                 (all out, 110.3 overs)                  317
+
+FoW: 1-32 (Horne), 2-119 (Jones), 3-187 (Wright),
+     4-221 (JJ Crowe), 5-223 (Patel), 6-254 (MD Crowe),
+     7-254 (Bracewell), 8-280 (Hadlee), 9-294 (Morrison),
+     10-317 (Smith).
+
+Bowling                      O      M      R      W
+McDermott                   35      8     97      5
+Whitney                     33.3    6     92      4
+Dodemaide                   20      4     48      1
+Waugh                       10      1     44      0
+Sleep                       12      1     31      0
+
+Australia 1st innings                                           R   M   B  4 6
+DC Boon               lbw                b Hadlee              10  21  17  1 0
+GR Marsh              c sub (KR Rutherford) b Hadlee           13  46  36  3 0
+DM Jones              c Smith            b Hadlee               4  29  15  0 0
+*AR Border            c JJ Crowe         b Bracewell           31  77  54  4 0
+MRJ Veletta           lbw                b Hadlee              31 119  95  2 0
+SR Waugh              c Jones            b Bracewell           55 130  92  7 0
+PR Sleep              lbw                b Hadlee              90 311 256  5 0
++GC Dyer              run out (Bracewell/Smith)                21  76  61  1 0
+AIC Dodemaide         c Smith            b Morrison            50 243 191  4 0
+CJ McDermott                             b Morrison            33  81  67  5 0
+MR Whitney            not out                                   0  10   2  0 0
+Extras                (lb 8, nb 11)                            19
+Total                 (all out, 145.4 overs)                  357
+
+FoW: 1-24 (Boon), 2-30 (Marsh), 3-31 (Jones), 4-78 (Border),
+     5-121 (Veletta), 6-170 (Waugh), 7-213 (Dyer), 8-293 (Sleep),
+     9-354 (McDermott), 10-357 (Dodemaide).
+
+Bowling                      O      M      R      W
+Hadlee                      44     11    109      5
+Morrison                    27.4    5     93      2
+Chatfield                   30     10     55      0
+Bracewell                   32      8     69      2
+Patel                       12      6     23      0
+
+New Zealand 2nd innings                                         R   M   B  4 6
+PA Horne              c Boon             b Dodemaide           27 102  79  3 0
+JG Wright                                b Sleep               43 119  71  5 0
+AH Jones              run out (Dodemaide/Jones)                20 109  79  3 0
+MD Crowe              c Border           b Dodemaide           79 116 111 12 0
+*JJ Crowe             c Boon             b Sleep               25  70  62  1 0
+DN Patel              c Dyer             b Dodemaide           38  98  60  3 1
+RJ Hadlee             lbw                b Sleep               29  48  44  1 1
+JG Bracewell          c Veletta          b Dodemaide            1  19  12  0 0
++IDS Smith            c Dyer             b Dodemaide           12  34  28  3 0
+DK Morrison                              b Dodemaide            0  11   9  0 0
+EJ Chatfield          not out                                   1   5   1  0 0
+Extras                (b 2, lb 8, nb 1)                        11
+Total                 (all out, 92.3 overs)                   286
+
+FoW: 1-73 (Horne), 2-76 (Wright), 3-158 (Jones),
+     4-178 (MD Crowe), 5-220 (JJ Crowe), 6-272 (Hadlee),
+     7-272 (Patel), 8-281 (Bracewell), 9-285 (Morrison),
+     10-286 (Smith).
+
+Bowling                      O      M      R      W
+McDermott                   10      3     43      0
+Whitney                     20      5     45      0
+Dodemaide                   28.3   10     58      6
+Sleep                       26      5    107      3
+Jones                        8      3     23      0
+
+Australia 2nd innings (target: 247 runs)                        R   M   B  4 6
+DC Boon               c MD Crowe         b Morrison            54 184 121  7 0
+GR Marsh              c Bracewell        b Hadlee              23  98  85  2 0
+DM Jones              c MD Crowe         b Chatfield            8  22  18  1 0
+*AR Border            lbw                b Hadlee              43 119  97  5 0
+MRJ Veletta           c Patel            b Bracewell           39 137  88  4 0
+SR Waugh              c Patel            b Chatfield           10  36  30  2 0
+PR Sleep              lbw                b Hadlee              20  38  30  2 0
++GC Dyer              c Smith            b Hadlee               4  31  33  0 0
+AIC Dodemaide         lbw                b Hadlee               3  52  25  0 0
+CJ McDermott          not out                                  10  49  32  0 0
+MR Whitney            not out                                   2  23  18  0 0
+Extras                (b 1, lb 9, nb 4)                        14
+Total                 (9 wickets, 92 overs)                   230
+
+FoW: 1-45 (Marsh), 2-59 (Jones), 3-103 (Boon), 4-147 (Border),
+     5-176 (Waugh), 6-209 (Sleep), 7-209 (Veletta), 8-216 (Dyer),
+     9-227 (Dodemaide).
+
+Bowling                      O      M      R      W
+Hadlee                      31      9     67      5
+Morrison                    16      2     54      1
+Chatfield                   21      6     41      2
+Bracewell                   24      5     58      1
+
+<END>

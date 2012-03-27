@@ -1,0 +1,72 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+276, 1946-06-22, 2, 9, India, , Hazare, 30, na, na, na, 0
+277, 1946-07-20, 1, 10, India, lbw, Amarnath, 8, na, na, na, 0
+279, 1946-11-29, 2, 10, Australia, lbw, Miller, 0, 1, 1, 0, 0
+279, 1946-11-29, 3, 10, Australia,                c &, Toshack, 18, 29, 33, 2, 0
+280, 1946-12-13, 1, 10, Australia, , Johnson, 14, 46, 51, 0, 0
+280, 1946-12-13, 3, 10, Australia, not out, , 3, 10, 7, 0, 0
+281, 1947-01-01, 2, 10, Australia, not out, , 27, 54, 52, 2, 0
+281, 1947-01-01, 4, 8, Australia, lbw, Miller, 25, 49, 50, 3, 0
+282, 1947-01-31, 1, 9, Australia, , Lindwall, 2, 12, 16, 0, 0
+282, 1947-01-31, 3, 9, Australia, c Tallon, Miller, 3, 19, 19, 0, 0
+283, 1947-02-28, 1, 10, Australia, not out, , 10, 38, 37, 0, 0
+283, 1947-02-28, 3, 9, Australia, st Tallon, McCool, 4, 25, 13, 0, 0
+284, 1947-03-21, 2, 9, New Zealand, not out, , 8, 14, na, 2, 0
+285, 1947-06-07, 2, 8, South Africa, c Melville, Smith, 7, 8, na, na, 1
+285, 1947-06-07, 3, 8, South Africa, c Harris, Smith, 2, 31, na, 0, 0
+286, 1947-06-21, 1, 9, South Africa, , Tuckett, 0, 1, na, 0, 0
+299, 1948-06-10, 1, 10, Australia, c Brown, Johnston, 22, 89, na, 2, 0
+299, 1948-06-10, 3, 10, Australia, not out, , 3, 20, na, 0, 0
+300, 1948-06-24, 2, 10, Australia, , Lindwall, 9, na, na, na, 0
+300, 1948-06-24, 4, 10, Australia, c Hassett, Johnston, 9, na, na, na, 0
+301, 1948-07-08, 1, 9, Australia, run out, , 37, 145, na, 7, 0
+302, 1948-07-22, 1, 4, Australia,                c &, Johnson, 79, 177, na, 8, 2
+302, 1948-07-22, 3, 9, Australia, c Hassett, Miller, 17, na, na, 4, 0
+303, 1948-08-14, 1, 9, Australia, , Lindwall, 0, 3, 5, 0, 0
+303, 1948-08-14, 3, 9, Australia, , Johnston, 0, 5, 5, 0, 0
+306, 1948-12-16, 2, 9, South Africa, c Tuckett, Mann, 11, na, na, na, 0
+306, 1948-12-16, 4, 9, South Africa, not out, , 1, 18, na, 0, 0
+307, 1948-12-27, 1, 9, South Africa, , McCarthy, 12, na, na, na, 0
+309, 1949-01-01, 1, 9, South Africa, , McCarthy, 16, na, na, na, 0
+312, 1949-02-12, 1, 8, South Africa, lbw, Tuckett, 1, na, na, 0, 0
+312, 1949-02-12, 3, 7, South Africa, , McCarthy, 19, na, na, na, 0
+313, 1949-03-05, 2, 8, South Africa, c Mitchell, AMB Rowan, 33, na, na, na, 0
+313, 1949-03-05, 4, 5, South Africa, c Nourse, AMB Rowan, 1, na, na, 0, 0
+314, 1949-06-11, 1, 9, New Zealand, c Donnelly, Burtt, 20, na, na, na, 0
+317, 1949-08-13, 2, 9, New Zealand, c Reid, Cowie, 0, na, na, 0, 0
+324, 1950-06-24, 2, 10, West Indies, , Ramadhin, 5, na, na, 1, 0
+324, 1950-06-24, 4, 10, West Indies, , Ramadhin, 0, na, na, 0, 0
+325, 1950-07-20, 1, 10, West Indies, c Stollmeyer, Valentine, 13, na, na, na, 0
+325, 1950-07-20, 3, 10, West Indies, , Ramadhin, 2, na, na, 0, 0
+326, 1950-08-12, 2, 9, West Indies, lbw, Goddard, 0, na, na, 0, 0
+326, 1950-08-12, 3, 9, West Indies, c Weekes, Valentine, 0, na, na, 0, 0
+327, 1950-12-01, 4, 5, Australia, c Harvey, Iverson, 0, 8, na, 0, 0
+328, 1950-12-22, 2, 10, Australia, not out, , 4, 50, na, 0, 0
+328, 1950-12-22, 4, 10, Australia, not out, , 14, 34, na, 1, 0
+329, 1951-01-05, 1, 9, Australia, , Lindwall, 3, 4, na, 0, 0
+329, 1951-01-05, 3, 9, Australia, , Iverson, 4, 8, na, 0, 0
+330, 1951-02-02, 2, 8, Australia, lbw, Iverson, 7, 5, na, 1, 0
+330, 1951-02-02, 4, 7, Australia, c Morris, Miller, 0, 1, na, 0, 0
+331, 1951-02-23, 2, 8, Australia, , Lindwall, 11, 21, na, 1, 0
+332, 1951-03-17, 2, 8, New Zealand, c Hayes, Moir, 5, 36, na, 0, 0
+333, 1951-03-24, 2, 9, New Zealand, , Cresswell, 28, 49, na, 2, 0
+334, 1951-06-07, 2, 10, South Africa, not out, , 0, na, na, 0, 0
+334, 1951-06-07, 4, 10, South Africa, , McCarthy, 0, na, na, 0, 0
+335, 1951-06-21, 1, 9, South Africa, not out, , 26, 68, na, 3, 0
+336, 1951-07-05, 2, 9, South Africa, not out, , 30, 74, na, 3, 0
+337, 1951-07-26, 2, 8, South Africa, , Mann, 8, na, na, na, 0
+338, 1951-08-16, 2, 9, South Africa, c Endean, Melle, 2, na, na, 0, 0
+351, 1952-06-05, 2, 10, India, , Ramchand, 7, na, na, na, 0
+352, 1952-06-19, 2, 10, India, c Ramchand, Mankad, 3, na, na, 0, 0
+353, 1952-07-17, 1, 9, India, c Phadkar, Ghulam Ahmed, 17, 45, na, 2, 1
+372, 1953-06-11, 2, 10, Australia, lbw, Lindwall, 2, na, na, 0, 0
+373, 1953-06-25, 2, 10, Australia, , Lindwall, 1, na, na, 0, 0
+374, 1953-07-09, 2, 11, Australia, , Morris, 10, 14, na, 1, 1
+375, 1953-07-23, 1, 11, Australia, not out, , 0, na, na, 0, 0
+375, 1953-07-23, 3, 11, Australia, not out, , 3, 45, na, 0, 0
+376, 1953-08-15, 2, 11, Australia, not out, , 22, 70, na, na, 0
+389, 1954-07-22, 1, 9, Pakistan, not out, , 22, 52, na, 2, 1
+391, 1954-11-26, 2, 8, Australia, , Johnson, 5, 8, na, 1, 0
+391, 1954-11-26, 3, 8, Australia, c Archer, Johnson, 5, 19, na, 0, 0
+410, 1955-07-07, 1, 11, South Africa, lbw, Goddard, 1, 7, na, 0, 0
+410, 1955-07-07, 3, 10, South Africa, c Waite, Heine, 3, 25, na, 0, 0

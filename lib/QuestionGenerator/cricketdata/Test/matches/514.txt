@@ -1,0 +1,102 @@
+
+Test # 514
+England in India, 1961/62, 2nd Test
+India v England
+Green Park, Kanpur
+1,2,3,5,6 December 1961 (5-day match)
+
+Result: Match drawn
+Series: 5-match series level 0-0
+
+Toss: India
+Umpires: Mohammad Yunus and S Roy
+Test debuts: BR Knight (England); FM Engineer, DN Sardesai (India).
+
+Close of play:
+ Day 1: India 209/3 (Durani 9*, Umrigar 12*)
+ Day 2: India 437/7 (Umrigar 132*, Engineer 18*)
+ Day 3: India 467/8d, England 165/8 (Barber 41*, Lock 0*)
+ Day 4: England 244, England 200/1 (Pullar 101*, Barrington 47*)
+
+India 1st innings                                               R   M   B  4 6
+ML Jaisimha           c Richardson       b Lock                70 230      8 1
+*NJ Contractor                           b Knight              17  70      1 0
+VL Manjrekar          c Knight           b Allen               96 225     10 0
+SA Durani             c Lock             b Dexter              37 168      5 0
+PR Umrigar            not out                                 147 400     16 0
+CG Borde                                 b Dexter              21  54      3 0
+DN Sardesai           hit wicket         b Lock                28 107      4 0
+AG Kripal Singh                          b Knight               7  50      0 0
++FM Engineer          st Murray          b Lock                33  81      5 0
+Extras                (b 2, lb 7, nb 2)                        11
+Total                 (8 wickets dec, 198 overs)              467
+
+DNB: VB Ranjane, SP Gupte.
+
+FoW: 1-41 (Contractor), 2-150 (Jaisimha), 3-193 (Manjrekar),
+     4-261 (Durani), 5-293 (Borde), 6-368 (Sardesai),
+     7-414 (Kripal Singh), 8-467 (Engineer).
+
+Bowling                      O      M      R      W
+DR Smith                    44     11    111      0
+Knight                      36     11     80      2
+Dexter                      31      5     84      2
+Lock                        44     15     93      3
+Allen                       43     17     88      1
+
+England 1st innings                                             R   M   B  4 6
+PE Richardson         c Engineer         b Gupte               22  44      2 0
+G Pullar              c Sardesai         b Gupte               46 159      6 0
+KF Barrington                            b Gupte               21  90      3 0
+MJK Smith                            c & b Gupte                0   1      0 0
+*ER Dexter            c Kripal Singh     b Gupte                2  10      0 0
+RW Barber             not out                                  69 181      7 0
++JT Murray                               b Borde                2  19      0 0
+BR Knight                            c & b Borde               12  28      1 0
+DA Allen              c Engineer         b Borde               12  38      1 0
+GAR Lock                             c & b Durani              49  80      8 0
+DR Smith              lbw                b Ranjane              0   2      0 0
+Extras                (b 6, lb 2, nb 1)                         9
+Total                 (all out, 106.3 overs)                  244
+
+FoW: 1-29 (Richardson), 2-87 (Barrington), 3-87 (MJK Smith),
+     4-95 (Dexter), 5-100 (Pullar), 6-104 (Murray),
+     7-128 (Knight), 8-162 (Allen), 9-243 (Lock),
+     10-244 (DR Smith).
+
+Bowling                      O      M      R      W
+Ranjane                     21.3    9     38      1
+Umrigar                      6      1     11      0
+Gupte                       40     12     90      5
+Kripal Singh                 1      0      5      0
+Durani                      16      6     36      1
+Borde                       22      6     55      3
+
+England 2nd innings (following on)                              R   M   B  4 6
+PE Richardson         c Umrigar          b Borde               48 103      7 0
+G Pullar              c Contractor       b Durani             119 313     14 0
+KF Barrington         run out                                 172 406     26 0
+MJK Smith             lbw                b Gupte                0   1      0 0
+*ER Dexter            not out                                 126 256     15 0
+RW Barber             run out                                  10  23      1 0
++JT Murray            not out                                   9  31      1 0
+Extras                (b 4, lb 7, nb 2)                        13
+Total                 (5 wickets, 184 overs)                  497
+
+DNB: BR Knight, DA Allen, GAR Lock, DR Smith.
+
+FoW: 1-94 (Richardson), 2-233 (Pullar), 3-234 (MJK Smith),
+     4-440 (Barrington), 5-459 (Barber).
+
+Bowling                      O      M      R      W
+Ranjane                     18      1     61      0
+Umrigar                     19      6     53      0
+Gupte                       33      8     89      1
+Kripal Singh                36      7     78      0
+Durani                      53     15    139      1
+Borde                       16      4     44      1
+Jaisimha                     6      1      8      0
+Contractor                   2      0      9      0
+Sardesai                     1      0      3      0
+
+<END>

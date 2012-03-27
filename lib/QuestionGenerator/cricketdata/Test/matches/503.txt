@@ -1,0 +1,93 @@
+
+Test # 503
+Pakistan in India, 1960/61, 4th Test
+India v Pakistan
+Corporation Stadium, Madras
+13,14,15,17,18 January 1961 (5-day match)
+
+Result: Match drawn
+Series: 5-match series level 0-0
+
+Toss: Pakistan
+Umpires: SP Pan and SK Raghunatha Rao
+Test debut: BP Gupte (India).
+
+Close of play:
+ Day 1: Pakistan 235/1 (Imtiaz Ahmed 123*, Saeed Ahmed 40*)
+ Day 2: Pakistan 448/8 (Mushtaq Mohammad 41*)
+ Day 3: Pakistan 448/8d, India 177/4 (Umrigar 11*, Borde 4*)
+ Day 4: India 345/5 (Borde 58*, Milkha Singh 3*)
+
+Pakistan 1st innings                                            R   M   B  4 6
+Hanif Mohammad        c Kunderan         b Surendranath        62 220      7 0
++Imtiaz Ahmed                            b Desai              135            0
+Saeed Ahmed           c Kunderan         b Desai              103 218     10 0
+Javed Burki           c Contractor       b Borde               19            0
+W Mathias             lbw                b Umrigar             49          6 0
+Mushtaq Mohammad      not out                                  41            0
+Nasim-ul-Ghani        c Kunderan         b Umrigar              5            0
+Intikhab Alam         c Kunderan         b Desai               13            0
+*Fazal Mahmood        lbw                b Desai                4            0
+Extras                (b 12, lb 3, nb 2)                       17
+Total                 (8 wickets dec, 182.5 overs)            448
+
+DNB: Mahmood Hussain, Haseeb Ahsan.
+
+FoW: 1-162 (Hanif Mohammad), 2-252 (Imtiaz Ahmed),
+     3-322 (Javed Burki), 4-338 (Saeed Ahmed), 5-408 (Mathias),
+     6-420 (Nasim-ul-Ghani), 7-444 (Intikhab Alam),
+     8-448 (Fazal Mahmood).
+
+Bowling                      O      M      R      W
+Desai                       28.5    4     66      4
+Surendranath                38     10     99      1
+Gupte                       30      9     97      0
+Umrigar                     53     24     64      2
+Borde                       33      4    105      1
+
+India 1st innings                                               R   M   B  4 6
+ML Jaisimha           c Intikhab Alam    b Mahmood Hussain     32          3 0
+*NJ Contractor        c Intikhab Alam    b Haseeb Ahsan        81 241      9 0
+DK Gaekwad                           c & b Haseeb Ahsan         9            0
+VL Manjrekar                             b Haseeb Ahsan        30            0
+PR Umrigar                               b Haseeb Ahsan       117         14 0
+CG Borde              not out                                 177 540     13 0
+AG Milkha Singh       c Fazal Mahmood    b Haseeb Ahsan        18  90        0
++BK Kunderan                             b Haseeb Ahsan        12            0
+RB Desai              st Imtiaz Ahmed    b Nasim-ul-Ghani      18            0
+Surendranath          st Imtiaz Ahmed    b Nasim-ul-Ghani       6            0
+BP Gupte              not out                                  17            0
+Extras                (b 10, lb 7, nb 5)                       22
+Total                 (9 wickets dec, 227 overs)              539
+
+FoW: 1-84 (Jaisimha), 2-102 (Gaekwad), 3-146 (Contractor),
+     4-164 (Manjrekar), 5-341 (Umrigar), 6-396 (Milkha Singh),
+     7-416 (Kunderan), 8-447 (Desai), 9-476 (Surendranath).
+
+Bowling                      O      M      R      W
+Mahmood Hussain             37     12     86      1
+Fazal Mahmood               43     22     66      0
+Haseeb Ahsan                84     19    202      6
+Intikhab Alam               17      5     40      0
+Nasim-ul-Ghani              46     12    123      2
+
+Pakistan 2nd innings                                            R   M   B  4 6
+Saeed Ahmed           not out                                  38            0
++Imtiaz Ahmed         not out                                  20            0
+Extras                (nb 1)                                    1
+Total                 (0 wickets, 18 overs)                    59
+
+DNB: Hanif Mohammad, Javed Burki, W Mathias, Mushtaq Mohammad,
+     Nasim-ul-Ghani, Intikhab Alam, *Fazal Mahmood,
+     Mahmood Hussain, Haseeb Ahsan.
+
+Bowling                      O      M      R      W
+Desai                        3      0     14      0
+Surendranath                 3      2      8      0
+Gupte                        5      0     19      0
+Jaisimha                     3      0      8      0
+Manjrekar                    2      0      6      0
+Contractor                   1      0      1      0
+Milkha Singh                 1      0      2      0
+
+<END>

@@ -1,0 +1,64 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+1188, 1992-04-18, 2, 2, West Indies, , Benjamin, 163, 519, 384, 20, 0
+1188, 1992-04-18, 4, 1, West Indies, c Lara, Ambrose, 0, 2, 2, 0, 0
+1200, 1992-11-13, 1, 2, India, , Kapil Dev, 14, 43, 34, 3, 0
+1200, 1992-11-13, 3, 2, India, c More, Srinath, 55, 231, 171, 5, 1
+1201, 1992-11-26, 1, 2, India, c Azharuddin, Prabhakar, 8, 21, 16, 1, 0
+1201, 1992-11-26, 3, 2, India, , Kumble, 53, 203, 157, 6, 0
+1206, 1992-12-26, 2, 1, India, , Raju, 52, 206, 182, 7, 0
+1206, 1992-12-26, 4, 2, India, c Azharuddin, Tendulkar, 33, 116, 98, 6, 0
+1209, 1993-01-02, 1, 1, India,                c &, Srinath, 19, 88, 78, 2, 0
+1209, 1993-01-02, 3, 2, India, c More, Srinath, 11, 48, 30, 2, 0
+1232, 1993-08-25, 2, 2, Sri Lanka, c Gurusinha, Wijetunge, 90, 296, 274, 10, 1
+1232, 1993-08-25, 4, 1, Sri Lanka, c Dassanayake, Hathurusingha, 4, 15, 12, 0, 0
+1233, 1993-09-06, 2, 2, Sri Lanka, lbw, Wickramasinghe, 58, 247, 177, 9, 0
+1234, 1993-09-14, 1, 1, Sri Lanka, c Tillakaratne, Dharmasena, 22, 99, 71, 2, 0
+1234, 1993-09-14, 3, 2, Sri Lanka, , Ramanayake, 28, 107, 75, 3, 0
+1242, 1993-12-26, 2, 1, Australia, retired hurt, , 64, 245, 201, 3, 0
+1243, 1994-01-02, 1, 1, Australia, lbw, McGrath, 0, 7, 7, 0, 0
+1243, 1994-01-02, 3, 1, Australia, c Healy, McDermott, 1, 12, 13, 0, 0
+1246, 1994-01-28, 2, 1, Australia, lbw, SR Waugh, 90, 297, 233, 6, 0
+1246, 1994-01-28, 4, 1, Australia, c SR Waugh, McDermott, 2, 31, 25, 0, 0
+1252, 1994-03-04, 1, 1, Australia, c Healy, McDermott, 17, 31, 27, 3, 0
+1252, 1994-03-04, 3, 1, Australia, , Warne, 60, 178, 145, 5, 0
+1253, 1994-03-17, 1, 1, Australia, run out, , 102, 250, 174, 13, 0
+1253, 1994-03-17, 3, 1, Australia, lbw, SR Waugh, 49, 168, 146, 6, 0
+1256, 1994-03-25, 2, 1, Australia, lbw, Reiffel, 65, 174, 133, 11, 0
+1263, 1994-07-21, 1, 1, England, c Gooch, Gough, 6, 42, 32, 1, 0
+1263, 1994-07-21, 3, 2, England, lbw, Fraser, 3, 11, 4, 0, 0
+1264, 1994-08-04, 2, 1, England, c Atherton, Gough, 9, 19, 19, 1, 0
+1264, 1994-08-04, 4, 1, England,                c &, Tufnell, 12, 82, 66, 0, 0
+1276, 1994-11-25, 2, 1, New Zealand, c Parore, Nash, 10, 26, 28, 2, 0
+1276, 1994-11-25, 4, 1, New Zealand, lbw, Doull, 2, 15, 10, 0, 0
+1280, 1994-12-26, 2, 1, New Zealand, c Young, Morrison, 8, 15, 14, 2, 0
+1280, 1994-12-26, 4, 1, New Zealand, c Parore, Doull, 6, 35, 23, 0, 0
+1291, 1995-03-04, 1, 3, New Zealand, c Parore, Nash, 1, 8, 8, 0, 0
+1291, 1995-03-04, 3, 3, New Zealand, c Young, Patel, 64, 214, 166, 8, 0
+1307, 1995-10-13, 2, 1, Zimbabwe, , BC Strang, 135, 311, 236, 18, 2
+1307, 1995-10-13, 4, 2, Zimbabwe, c BC Strang, Lock, 4, 16, 6, 0, 0
+1315, 1995-11-30, 1, 1, England, c Stewart, Cork, 0, 27, 27, 0, 0
+1315, 1995-11-30, 3, 1, England, c Russell, Fraser, 17, 53, 35, 3, 0
+1318, 1995-12-14, 1, 2, England, c Crawley, Illingworth, 45, 86, 63, 9, 0
+1320, 1995-12-26, 1, 1, England, c Russell, Cork, 31, 103, 79, 3, 0
+1320, 1995-12-26, 3, 1, England, c Russell, Martin, 4, 7, 12, 0, 0
+1321, 1996-01-02, 2, 2, England, lbw, Cork, 0, 10, 5, 0, 0
+1321, 1996-01-02, 4, 2, England, not out, , 27, 63, 44, 5, 0
+1338, 1996-11-20, 2, 2, India, lbw, Kumble, 23, 93, 80, 3, 0
+1338, 1996-11-20, 4, 1, India, lbw, Srinath, 0, 3, 5, 0, 0
+1341, 1996-11-27, 1, 1, India, , Prasad, 146, 317, 244, 24, 0
+1341, 1996-11-27, 3, 1, India, retired hurt, , 6, 44, 27, 1, 0
+1344, 1996-12-08, 2, 1, India, lbw, Kumble, 15, 65, 45, 3, 0
+1344, 1996-12-08, 4, 1, India, c sub (VVS Laxman), Kumble, 31, 206, 141, 3, 0
+1347, 1996-12-26, 1, 1, India, c Mongia, Ganguly, 80, 288, 191, 12, 0
+1347, 1996-12-26, 3, 1, India, c Tendulkar, Kumble, 52, 166, 97, 8, 0
+1349, 1997-01-02, 1, 1, India, c Mongia, Prasad, 16, 71, 52, 1, 0
+1349, 1997-01-02, 3, 1, India, , Srinath, 55, 197, 134, 7, 0
+1350, 1997-01-16, 2, 1, India, c Azharuddin, Kumble, 18, 41, 27, 1, 1
+1350, 1997-01-16, 4, 1, India, , Kumble, 3, 19, 23, 0, 0
+1356, 1997-02-28, 1, 1, Australia, c Healy, McGrath, 0, 2, 4, 0, 0
+1356, 1997-02-28, 3, 2, Australia, run out (SR Waugh), , 31, 80, 62, 5, 0
+1400, 1998-02-14, 1, 5, Pakistan, , Mushtaq Ahmed, 33, 105, 64, 5, 0
+1403, 1998-03-26, 2, 5, Pakistan, lbw, Shoaib Akhtar, 0, 1, 1, 0, 0
+1403, 1998-03-26, 4, 5, Pakistan, c Fazl-e-Akbar, Mushtaq Ahmed, 8, 67, 43, 1, 0
+1406, 1998-03-06, 1, 5, Pakistan, c Moin Khan, Mushtaq Ahmed, 42, 161, 121, 5, 0
+1406, 1998-03-06, 3, 5, Pakistan, , Waqar Younis, 4, 31, 26, 0, 0

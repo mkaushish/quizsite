@@ -1,0 +1,60 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+1159, 1990-12-26, 1, 11, Australia, not out, , 0, 13, 9, 0, 0
+1159, 1990-12-26, 3, 11, Australia, not out, , 0, 1, 0, 0, 0
+1160, 1991-01-04, 2, 10, Australia, not out, , 5, 22, 15, 1, 0
+1161, 1991-01-25, 2, 11, Australia, not out, , 0, 12, 3, 0, 0
+1163, 1991-02-01, 1, 10, Australia, c Healy, Hughes, 0, 5, 3, 0, 0
+1163, 1991-02-01, 3, 10, Australia, c Healy, Hughes, 8, 10, 11, 1, 0
+1175, 1991-08-08, 1, 11, West Indies, c Haynes, Patterson, 2, 12, 5, 0, 0
+1176, 1991-08-22, 1, 11, Sri Lanka, lbw, Ratnayake, 0, 7, 4, 0, 0
+1185, 1992-01-30, 1, 11, New Zealand, not out, , 6, 28, 10, 0, 0
+1185, 1992-01-30, 3, 11, New Zealand, not out, , 0, 8, 5, 0, 0
+1187, 1992-02-06, 1, 11, New Zealand, not out, , 2, 10, 6, 0, 0
+1193, 1992-08-06, 1, 10, Pakistan, not out, , 0, 13, 8, 0, 0
+1193, 1992-08-06, 3, 10, Pakistan, , Wasim Akram, 0, 1, 1, 0, 0
+1213, 1993-02-11, 2, 10, India, c Azharuddin, Chauhan, 2, 25, 14, 0, 0
+1213, 1993-02-11, 3, 10, India, not out, , 22, 62, 61, 3, 0
+1214, 1993-02-19, 1, 11, India, not out, , 2, 81, 40, 0, 0
+1214, 1993-02-19, 3, 11, India, not out, , 2, 12, 11, 0, 0
+1219, 1993-03-13, 1, 10, Sri Lanka, lbw, Muralitharan, 1, 5, 5, 0, 0
+1219, 1993-03-13, 3, 10, Sri Lanka, c AM de Silva, Warnaweera, 1, 22, 15, 0, 0
+1223, 1993-06-03, 2, 11, Australia, c Healy, Hughes, 1, 19, 22, 0, 0
+1223, 1993-06-03, 4, 11, Australia, not out, , 0, 6, 0, 0, 0
+1224, 1993-06-17, 2, 11, Australia, not out, , 2, 33, 32, 0, 0
+1224, 1993-06-17, 3, 11, Australia, , Warne, 0, 1, 1, 0, 0
+1258, 1994-04-08, 1, 11, West Indies, not out, , 0, 2, 0, 0, 0
+1259, 1994-04-16, 2, 11, West Indies, lbw, WKM Benjamin, 0, 16, 9, 0, 0
+1275, 1994-11-25, 2, 11, Australia, c Taylor, Warne, 0, 18, 11, 0, 0
+1275, 1994-11-25, 4, 11, Australia, not out, , 2, 25, 25, 0, 0
+1279, 1994-12-24, 2, 11, Australia, run out (Taylor), , 0, 6, 4, 0, 0
+1279, 1994-12-24, 4, 11, Australia, c Healy, McDermott, 0, 5, 4, 0, 0
+1281, 1995-01-01, 1, 11, Australia, not out, , 4, 25, 17, 0, 0
+1284, 1995-01-26, 1, 11, Australia, not out, , 0, 6, 5, 0, 0
+1284, 1995-01-26, 3, 11, Australia, lbw, Warne, 0, 5, 3, 0, 0
+1345, 1996-12-18, 2, 11, Zimbabwe, not out, , 2, 44, 23, 0, 0
+1348, 1996-12-26, 1, 11, Zimbabwe, , Streak, 9, 57, 37, 1, 0
+1351, 1997-01-24, 2, 11, New Zealand, not out, , 19, 55, 49, 2, 0
+1354, 1997-02-06, 2, 11, New Zealand, not out, , 6, 21, 14, 0, 0
+1355, 1997-02-14, 2, 11, New Zealand, c Young, Doull, 13, 16, 15, 2, 0
+1377, 1997-08-21, 1, 10, Australia, c Blewett, Warne, 1, 20, 20, 0, 0
+1377, 1997-08-21, 3, 10, Australia, c Healy, Kasprowicz, 0, 2, 2, 0, 0
+1398, 1998-02-05, 1, 11, West Indies, c Lara, Benjamin, 0, 1, 1, 0, 0
+1398, 1998-02-05, 3, 11, West Indies, c D Williams, Ambrose, 6, 12, 12, 0, 0
+1399, 1998-02-13, 2, 11, West Indies, lbw, Ambrose, 0, 1, 1, 0, 0
+1404, 1998-03-27, 2, 11, West Indies, c Bishop, Ambrose, 2, 63, 31, 0, 0
+1404, 1998-03-27, 4, 11, West Indies, not out, , 0, 12, 9, 0, 0
+1407, 1998-03-12, 1, 11, West Indies, not out, , 1, 1, 1, 0, 0
+1411, 1998-03-20, 1, 11, West Indies, not out, , 2, 13, 11, 0, 0
+1411, 1998-03-20, 3, 11, West Indies, c Lambert, Walsh, 0, 10, 4, 0, 0
+1455, 1999-07-01, 2, 11, New Zealand, c Fleming, Cairns, 6, 12, 13, 1, 0
+1456, 1999-07-22, 1, 11, New Zealand, not out, , 1, 17, 7, 0, 0
+1456, 1999-07-22, 3, 10, New Zealand, not out, , 5, 24, 13, 0, 0
+1457, 1999-08-05, 1, 11, New Zealand, c Astle, Nash, 1, 31, 19, 0, 0
+1458, 1999-08-19, 2, 10, New Zealand, not out, , 0, 8, 1, 0, 0
+1458, 1999-08-19, 4, 10, New Zealand, run out (Nash), , 1, 3, 1, 0, 0
+1475, 1999-12-09, 2, 11, South Africa, not out, , 7, 14, 13, 1, 0
+1480, 1999-12-26, 1, 11, South Africa, not out, , 0, 15, 5, 0, 0
+1482, 2000-01-02, 1, 11, South Africa, , Kallis, 2, 7, 6, 0, 0
+1482, 2000-01-02, 3, 10, South Africa, c Cullinan, Adams, 0, 4, 6, 0, 0
+1558, 2001-07-23, 2, 11, Australia, not out, , 7, 23, 15, 1, 0
+1558, 2001-07-23, 3, 11, Australia, c Warne, McGrath, 0, 2, 2, 0, 0

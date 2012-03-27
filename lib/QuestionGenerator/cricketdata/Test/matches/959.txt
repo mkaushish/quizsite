@@ -1,0 +1,126 @@
+
+Test # 959
+New Zealand in England, 1983, 3rd Test
+England v New Zealand
+Lord's, London
+11,12,13,15 August 1983 (5-day match)
+
+Result: England won by 127 runs
+Series: England leads the 4-match series 2-1
+
+Toss: New Zealand
+Umpires: DJ Constant and DGL Evans
+Test debuts: NGB Cook, NA Foster, CL Smith (England); EJ Gray (New Zealand).
+Player of the match: DI Gower
+
+Close of play:
+ Day 1: England 279/5 (Gatting 74*, Taylor 12*)
+ Day 2: England 326, New Zealand 176/6 (Gray 10*, Hadlee 0*)
+ Day 3: New Zealand 191, England 206/7 (Foster 2*, Cook 5*)
+
+England 1st innings                                             R   M   B  4 6
+CJ Tavare                                b Crowe               51 205 171  1 0
+CL Smith              lbw                b Hadlee               0   4   1  0 0
+DI Gower              lbw                b Crowe              108 222 200 16 0
+AJ Lamb               c sub              b Chatfield           17  50  44  2 0
+MW Gatting            c Wright           b Hadlee              81 139 128 13 0
+IT Botham             lbw                b Cairns               8  40  29  1 0
++RW Taylor                               b Hadlee              16  83  58  1 0
+NA Foster             c Smith            b Hadlee              10  30  25  1 0
+NGB Cook                                 b Chatfield           16  55  50  1 0
+*RGD Willis           c Smith            b Hadlee               7  19  13  1 0
+NG Cowans             not out                                   1  12   7  0 0
+Extras                (b 3, lb 3, w 2, nb 3)                   11
+Total                 (all out, 120.3 overs)                  326
+
+FoW: 1-3 (Smith), 2-152 (Tavare), 3-174 (Gower), 4-191 (Lamb),
+     5-218 (Botham), 6-288 (Gatting), 7-290 (Taylor),
+     8-303 (Foster), 9-318 (Willis), 10-326 (Cook).
+
+Bowling                      O      M      R      W
+Hadlee                      40     15     93      5
+Cairns                      23      8     65      1
+Chatfield                   36.3    8    116      2
+Crowe                       13      1     35      2
+Coney                        8      7      6      0
+
+New Zealand 1st innings                                         R   M   B  4 6
+JG Wright             c Lamb             b Willis              11  54  43  2 0
+BA Edgar              c Willis           b Cook                70 238 190  7 0
+*GP Howarth                              b Cook                25  52  39  1 0
+MD Crowe                                 b Botham              46 116  98  3 0
+JV Coney                                 b Cook                 7  50  36  1 0
+EJ Gray               c Lamb             b Botham              11  76  59  2 0
+JG Bracewell          c Gower            b Cook                 0   2   2  0 0
+RJ Hadlee             c Botham           b Cook                 0   9   6  0 0
+BL Cairns             c Lamb             b Botham               5  15  11  0 0
++IDS Smith            c Lamb             b Botham               3  23  18  0 0
+EJ Chatfield          not out                                   5  12  13  1 0
+Extras                (lb 5, nb 3)                              8
+Total                 (all out, 84.4 overs)                   191
+
+FoW: 1-18 (Wright), 2-49 (Howarth), 3-147 (Crowe), 4-159 (Edgar),
+     5-176 (Coney), 6-176 (Bracewell), 7-176 (Hadlee),
+     8-183 (Cairns), 9-184 (Gray), 10-191 (Smith).
+
+Bowling                      O      M      R      W
+Willis                      13      6     28      1
+Foster                      16      5     40      0
+Cowans                       9      1     30      0
+Botham                      20.4    6     50      4
+Cook                        26     11     35      5
+
+England 2nd innings                                             R   M   B  4 6
+CJ Tavare             c Crowe            b Hadlee              16  32  28  2 0
+CL Smith              c Coney            b Hadlee              43 202 176  5 0
+DI Gower              c Crowe            b Gray                34  66  67  5 0
+AJ Lamb               c Hadlee           b Gray                 4  14  15  1 0
+MW Gatting                               b Gray                15  47  50  2 0
+IT Botham             c Coney            b Chatfield           61 125 101  7 0
++RW Taylor                           c & b Coney                7  66  41  1 0
+NA Foster             c Wright           b Hadlee               3  44  34  0 0
+NGB Cook              c Bracewell        b Chatfield            5  20  15  1 0
+*RGD Willis           not out                                   2   9   5  0 0
+NG Cowans             c Smith            b Chatfield            1   4   5  0 0
+Extras                (b 5, lb 6, nb 9)                        20
+Total                 (all out, 89.3 overs)                   211
+
+FoW: 1-26 (Tavare), 2-79 (Gower), 3-87 (Lamb), 4-119 (Gatting),
+     5-147 (Smith), 6-195 (Taylor), 7-199 (Botham), 8-208 (Cook),
+     9-210 (Foster), 10-211 (Cowans).
+
+Bowling                      O      M      R      W
+Hadlee                      26      7     42      3
+Cairns                       3      0      9      0
+Chatfield                   13.3    4     29      3
+Coney                        6      4      9      1
+Bracewell                   11      4     29      0
+Gray                        30      8     73      3
+
+New Zealand 2nd innings (target: 347 runs)                      R   M   B  4 6
+JG Wright             c Taylor           b Botham              12  17  15  3 0
+BA Edgar              c Lamb             b Cowans              27 125  95  3 0
+*GP Howarth           c Taylor           b Willis               0  13   7  0 0
+MD Crowe              c Foster           b Cowans              12  80  55  1 0
+JV Coney              c Gatting          b Foster              68 152 118  8 0
+EJ Gray               c Lamb             b Cook                17  42  33  1 0
+RJ Hadlee                                b Willis              30  38  35  5 0
+JG Bracewell          lbw                b Willis               4   7   6  1 0
+BL Cairns                                b Cook                16  31  20  0 2
++IDS Smith            not out                                  17  36  30  2 0
+EJ Chatfield                         c & b Cook                 2  16  11  0 0
+Extras                (b 3, lb 4, nb 7)                        14
+Total                 (all out, 69.2 overs)                   219
+
+FoW: 1-15 (Wright), 2-17 (Howarth), 3-57 (Crowe), 4-61 (Edgar),
+     5-108 (Gray), 6-154 (Hadlee), 7-158 (Bracewell),
+     8-190 (Cairns), 9-206 (Coney), 10-219 (Chatfield).
+
+Bowling                      O      M      R      W
+Willis                      12      5     24      3
+Foster                      12      0     35      1
+Cowans                      11      1     36      2
+Botham                       7      2     20      1
+Cook                        27.2    9     90      3
+
+<END>

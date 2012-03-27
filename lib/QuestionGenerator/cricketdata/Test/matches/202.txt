@@ -1,0 +1,104 @@
+
+Test # 202
+England in South Africa, 1930/31, 2nd Test
+South Africa v England
+Newlands, Cape Town
+1,2,3,5 January 1931 (4-day match)
+
+Result: Match drawn
+Series: South Africa leads the 5-match series 1-0
+
+Toss: South Africa
+Umpires: JC Collings and WB Ryan
+
+Close of play:
+ Day 1: South Africa 280/1 (Mitchell 119*, Nupen 12*)
+ Day 2: South Africa 513/8d, England 98/1 (Hammond 43*, Leyland 12*)
+ Day 3: England 350, England 28/0 (Wyatt 16*, Hammond 7*)
+
+South Africa 1st innings                                        R   M   B  4 6
+B Mitchell                               b Tate               123            0
+IJ Siedle             c Chapman          b White              141 300     13 0
+EP Nupen                                 b Tate                12            0
+HW Taylor             c White            b Leyland            117            0
+RH Catterall                             b Tate                56            0
++HB Cameron           c Peebles          b White               26            1
+XC Balaskas           c Turnbull         b Leyland              0          0 0
+*HG Deane                                b Leyland              7            0
+Q McMillan            not out                                   7            0
+CL Vincent            not out                                   3          0 0
+Extras                (b 8, lb 12, nb 1)                       21
+Total                 (8 wickets dec, 192 overs)              513
+
+DNB: AJ Bell.
+
+FoW: 1-260 (Siedle), 2-280 (Nupen), 3-299 (Mitchell),
+     4-447 (Catterall), 5-473 (Taylor), 6-479 (Balaskas),
+     7-502 (Deane), 8-506 (Cameron).
+
+Bowling                      O      M      R      W
+Tate                        43     13     79      3
+Hammond                     10      2     27      0
+Voce                        33     11     95      0
+Peebles                     28      2     95      0
+White                       46     15    101      2
+Leyland                     30      6     91      3
+Wyatt                        2      0      4      0
+
+England 1st innings                                             R   M   B  4 6
+RES Wyatt                                b McMillan            40            0
+WR Hammond                           c & b McMillan            57            0
+M Leyland                                b Bell                52            0
+EH Hendren                               b Balaskas            93          6 0
+MJL Turnbull                             b Bell                 7            0
+*APF Chapman                             b Bell                 0          0 0
+JC White              lbw                b Balaskas            23            0
+MW Tate               c Taylor           b McMillan            15            0
+W Voce                               c & b Vincent             30            2
+IAR Peebles           not out                                   7            0
++G Duckworth          lbw                b Vincent              0       2  0 0
+Extras                (b 9, lb 16, nb 1)                       26
+Total                 (all out, 120.4 overs)                  350
+
+FoW: 1-75 (Wyatt), 2-120 (Hammond), 3-202 (Leyland),
+     4-214 (Turnbull), 5-214 (Chapman), 6-288 (Hendren),
+     7-293 (White), 8-312 (Tate), 9-350 (Voce),
+     10-350 (Duckworth).
+
+Bowling                      O      M      R      W
+Bell                        27      9     53      3
+Catterall                    5      3      2      0
+Nupen                       22      7     43      0
+Balaskas                    16      0     75      2
+Vincent                     17.4    4     40      2
+McMillan                    33      6    111      3
+
+England 2nd innings (following on)                              R   M   B  4 6
+RES Wyatt                                b Bell                29            0
+WR Hammond            c Deane            b Vincent             65 210        0
+M Leyland             c Mitchell         b McMillan            28            0
+EH Hendren                               b Vincent             86            0
+MJL Turnbull                             b McMillan            14            0
+JC White              lbw                b Catterall            8            0
+IAR Peebles                              b Catterall            0          0 0
+*APF Chapman                             b Catterall            4            0
+MW Tate               lbw                b Nupen                3          0 0
+W Voce                not out                                   1          0 0
++G Duckworth          absent hurt                               -
+Extras                (b 9, lb 4, nb 1)                        14
+Total                 (all out, 124 overs)                    252
+
+FoW: 1-58 (Wyatt), 2-105 (Leyland), 3-152 (Hammond),
+     4-184 (Turnbull), 5-225 (White), 6-225 (Peebles),
+     7-235 (Chapman), 8-250 (Tate), 9-252 (Hendren).
+
+Bowling                      O      M      R      W
+Bell                        29      8     58      1
+Catterall                   12      2     15      3
+Nupen                       17      2     26      1
+Balaskas                     9      1     29      0
+Vincent                     17      6     26      2
+McMillan                    32      7     64      2
+Mitchell                     8      0     20      0
+
+<END>

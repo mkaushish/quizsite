@@ -1,0 +1,122 @@
+
+Test # 352
+India in England, 1952, 2nd Test
+England v India
+Lord's, London
+19,20,21,23,24 June 1952 (5-day match)
+
+Result: England won by 8 wickets
+Series: England leads the 4-match series 2-0
+
+Toss: India
+Umpires: F Chester and FS Lee
+
+Close of play:
+ Day 1: India 235, England 8/0 (Hutton 6*, Simpson 2*)
+ Day 2: England 292/5 (Graveney 8*)
+ Day 3: England 537, India 137/2 (Mankad 86*, Hazare 24*)
+ Day 4: India 378, England 40/1 (Hutton 27*, May 8*)
+
+India 1st innings                                               R   M   B  4 6
+MH Mankad             c Watkins          b Trueman             72 138        1
+P Roy                                c & b Bedser              35            0
+PR Umrigar                               b Trueman              5            0
+*VS Hazare            not out                                  69 170      9 0
+VL Manjrekar          lbw                b Bedser               5            0
+DG Phadkar                               b Watkins              8            0
+HR Adhikari           lbw                b Watkins              0          0 0
+GS Ramchand                              b Trueman             18            0
++MK Mantri                               b Trueman              1          0 0
+SG Shinde             st Evans           b Watkins              5            0
+Ghulam Ahmed                             b Jenkins              0          0 0
+Extras                (b 7, nb 10)                             17
+Total                 (all out, 94.3 overs)                   235
+
+FoW: 1-106 (Mankad), 2-116 (Umrigar), 3-118 (Roy),
+     4-126 (Manjrekar), 5-135 (Phadkar), 6-139 (Adhikari),
+     7-167 (Ramchand), 8-180 (Mantri), 9-221 (Shinde),
+     10-235 (Ghulam Ahmed).
+
+Bowling                      O      M      R      W
+Bedser                      33      8     62      2
+Trueman                     25      3     72      4
+Jenkins                      7.3    1     26      1
+Laker                       12      5     21      0
+Watkins                     17      7     37      3
+
+England 1st innings                                             R   M   B  4 6
+*L Hutton             c Mantri           b Hazare             150 317     20 0
+RT Simpson                               b Mankad              53 165        0
+PBH May               c Mantri           b Mankad              74 195        0
+DCS Compton           lbw                b Hazare               6  10        0
+TW Graveney           c Mantri           b Ghulam Ahmed        73 195        0
+AJ Watkins                               b Mankad               0          0 0
++TG Evans                            c & b Ghulam Ahmed       104 135     16 0
+RO Jenkins            st Mantri          b Mankad              21            0
+JC Laker              not out                                  23            0
+AV Bedser             c Ramchand         b Mankad               3          0 0
+FS Trueman                               b Ghulam Ahmed        17            1
+Extras                (b 8, lb 5)                              13
+Total                 (all out, 206.4 overs)                  537
+
+FoW: 1-106 (Simpson), 2-264 (Hutton), 3-272 (Compton),
+     4-292 (May), 5-292 (Watkins), 6-451 (Evans),
+     7-468 (Graveney), 8-506 (Jenkins), 9-514 (Bedser),
+     10-537 (Trueman).
+
+Bowling                      O      M      R      W
+Phadkar                     27      8     44      0
+Ramchand                    29      8     67      0
+Hazare                      24      4     53      2
+Mankad                      73     24    196      5
+Ghulam Ahmed                43.4   12    106      3
+Shinde                       6      0     43      0
+Umrigar                      4      0     15      0
+
+India 2nd innings                                               R   M   B  4 6
+MH Mankad                                b Laker              184 270     19 1
+P Roy                                    b Bedser               0          0 0
+HR Adhikari                              b Trueman             16            0
+*VS Hazare            c Laker            b Bedser              49 225        0
+VL Manjrekar                             b Laker                1          0 0
+DG Phadkar                               b Laker               16            0
+PR Umrigar                               b Trueman             14            0
++MK Mantri            c Compton          b Laker                5            0
+GS Ramchand                              b Trueman             42  42        0
+SG Shinde             c Hutton           b Trueman             14            0
+Ghulam Ahmed          not out                                   1          0 0
+Extras                (b 29, lb 3, nb 4)                       36
+Total                 (all out, 122 overs)                    378
+
+FoW: 1-7 (Roy), 2-59 (Adhikari), 3-270 (Mankad), 4-272 (Hazare),
+     5-289 (Manjrekar), 6-312 (Phadkar), 7-314 (Umrigar),
+     8-323 (Mantri), 9-377 (Ramchand), 10-378 (Shinde).
+
+Bowling                      O      M      R      W
+Bedser                      36     13     60      2
+Trueman                     27      4    110      4
+Jenkins                     10      1     40      0
+Laker                       39     15    102      4
+Watkins                      8      0     20      0
+Compton                      2      0     10      0
+
+England 2nd innings (target: 77 runs)                           R   M   B  4 6
+*L Hutton             not out                                  39 125        0
+RT Simpson            run out                                   2          0 0
+PBH May               c Roy              b Ghulam Ahmed        26            0
+DCS Compton           not out                                   4            0
+Extras                (b 4, lb 4)                               8
+Total                 (2 wickets, 49.2 overs)                  79
+
+DNB: TW Graveney, AJ Watkins, +TG Evans, RO Jenkins, JC Laker,
+     AV Bedser, FS Trueman.
+
+FoW: 1-8 (Simpson), 2-71 (May).
+
+Bowling                      O      M      R      W
+Ramchand                     1      0      5      0
+Hazare                       1      1      0      0
+Mankad                      24     12     35      0
+Ghulam Ahmed                23.2    9     31      1
+
+<END>

@@ -1,0 +1,175 @@
+
+Test # 1030
+Trans-Tasman Trophy, 1985/86, 2nd Test
+Australia v New Zealand
+Sydney Cricket Ground
+22,23,24,25,26 November 1985 (5-day match)
+
+Result: Australia won by 4 wickets
+Series: 3-match series level 1-1
+
+Toss: Australia
+Umpires: MW Johnson and BE Martin
+Test debut: RB Kerr (Australia).
+Player of the match: JG Bracewell
+
+Close of play:
+ Day 1: New Zealand 217/9 (Bracewell 35*, Boock 11*)
+ Day 2: New Zealand 293, Australia 175/5 (Ritchie 60*, Matthews 48*)
+ Day 3: Australia 227, New Zealand 119/3 (Reid 10*, Coney 7*)
+ Day 4: New Zealand 193, Australia 36/1 (Phillips 17*, Boon 6*)
+
+New Zealand 1st innings                                         R   M   B  4 6
+JG Wright             c O'Donnell        b Bright              38 165 148  3 0
+BA Edgar              c Border           b Holland             50 214 163  3 0
+JF Reid               c Kerr             b Holland              7  18  18  0 0
+MD Crowe              run out                                   8  42  44  1 0
+*JV Coney             c Border           b Holland              8 101  86  1 0
+JJ Crowe                                 b Holland             13  30  38  2 0
+VR Brown              lbw                b Holland              0   1   1  0 0
++IDS Smith            c Hookes           b Bright              28  28  24  4 0
+RJ Hadlee             lbw                b Holland              5  19  13  1 0
+JG Bracewell          not out                                  83 146 120  8 0
+SL Boock              lbw                b Gilbert             37 137  94  3 0
+Extras                (b 6, lb 8, nb 2)                        16
+Total                 (all out, 124.3 overs, 456 mins)        293
+
+FoW: 1-79 (Wright), 2-92 (Reid), 3-109 (Edgar), 4-112 (MD Crowe),
+     5-128 (JJ Crowe), 6-128 (Brown), 7-161 (Smith),
+     8-166 (Hadlee), 9-169 (Coney), 10-293 (Boock, 124.3 ov).
+
+Bowling                      O      M      R      W
+Gilbert                     20.3    6     41      1 (1nb)
+O'Donnell                    6      2     13      0
+Bright                      34     12     87      2
+Matthews                    17      3     32      0 (1nb)
+Holland                     47     19    106      6
+
+Australia 1st innings                                           R   M   B  4 6
++WB Phillips                             b Bracewell           31 107  70  5 0
+RB Kerr               lbw                b Hadlee               7  11   7  0 0
+DC Boon               lbw                b Hadlee               0  12   3  0 0
+*AR Border                               b Bracewell           20  34  30  2 0
+GM Ritchie            c JJ Crowe         b Hadlee              89 281 254  5 1
+DW Hookes             run out                                   0   4   5  0 0
+GRJ Matthews          c Smith            b Hadlee              50 158 138  3 0
+SP O'Donnell          not out                                  20  93  63  0 0
+RJ Bright             lbw                b Boock                1   6   7  0 0
+DR Gilbert            c Smith            b Hadlee               0   2   1  0 0
+RG Holland            st Smith           b Boock                0  14  11  0 0
+Extras                (b 5, lb 2, nb 2)                         9
+Total                 (all out, 97.5 overs, 367 mins)         227
+
+FoW: 1-19 (Kerr), 2-22 (Boon), 3-48 (Border), 4-71 (Phillips),
+     5-71 (Hookes), 6-186 (Matthews), 7-224 (Ritchie),
+     8-225 (Bright), 9-226 (Gilbert), 10-227 (Holland, 97.5 ov).
+
+Bowling                      O      M      R      W
+Hadlee                      24      2     65      5 (1nb)
+MD Crowe                     5      2     15      0 (1nb)
+Bracewell                   25      9     51      2
+Boock                       29.5   14     53      2
+Brown                       13      3     35      0
+Coney                        1      0      1      0
+
+New Zealand 2nd innings                                         R   M   B  4 6
+JG Wright                            c & b Matthews            43 195 164  3 0
+BA Edgar                             c & b Holland             52 174 144  5 0
+JF Reid                                  b Matthews            19  86  82  1 0
+MD Crowe                                 b Holland              0  10   4  0 0
+*JV Coney                                b Holland              7  37  39  1 0
+JJ Crowe                             c & b Holland              6  33  27  0 0
+VR Brown                                 b Bright              15  56  50  1 0
++IDS Smith                           c & b Bright              12  34  25  1 0
+RJ Hadlee             lbw                b Gilbert             26  50  37  2 1
+JG Bracewell          not out                                   2  41  32  0 0
+SL Boock              c Boon             b Bright               3   6   9  0 0
+Extras                (b 1, lb 4, nb 3)                         8
+Total                 (all out, 102.5 overs, 372 mins)        193
+
+FoW: 1-100 (Edgar), 2-106 (Wright), 3-107 (MD Crowe),
+     4-119 (Coney), 5-131 (Reid), 6-137 (JJ Crowe),
+     7-162 (Smith), 8-163 (Brown), 9-190 (Hadlee),
+     10-193 (Boock, 102.5 ov).
+
+Bowling                      O      M      R      W
+Gilbert                      9      2     22      1 (2nb)
+O'Donnell                    5      4      4      0
+Bright                      17.5    3     39      3
+Matthews                    30     11     55      2 (1nb)
+Holland                     41     16     68      4
+
+Australia 2nd innings (target: 260 runs)                        R   M   B  4 6
++WB Phillips          c Bracewell        b Boock               63 229 187  2 0
+RB Kerr               c Wright           b Bracewell            7  64  55  0 0
+DC Boon               c Reid             b Bracewell           81 267 198  6 0
+*AR Border            st Smith           b Bracewell           11  29  28  1 0
+GM Ritchie            c MD Crowe         b Hadlee              13  31  27  0 0
+DW Hookes             not out                                  38  87  55  4 0
+GRJ Matthews          lbw                b Hadlee              32  40  28  4 0
+SP O'Donnell          not out                                   2   7   5  0 0
+Extras                (b 3, lb 9, nb 1)                        13
+Total                 (6 wickets, 97.1 overs, 381 mins)       260
+
+DNB: RJ Bright, DR Gilbert, RG Holland.
+
+FoW: 1-27 (Kerr), 2-132 (Phillips), 3-144 (Border),
+     4-163 (Ritchie), 5-192 (Boon), 6-258 (Matthews).
+
+Bowling                      O      M      R      W
+Hadlee                      27.1   10     58      2
+MD Crowe                     2      1      7      0 (1nb)
+Bracewell                   30      7     91      3
+Boock                       22      4     49      1
+Brown                        7      0     28      0
+Coney                        9      1     15      0
+
+*** Scorers: DJ Evans and EW Cosgrove
+
+*** Day 1
+*** New Zealand 50 in 106 mins off 28.6 overs
+*** New Zealand 100 in 193 mins off 53.1 overs
+*** New Zealand 150 in 279 mins off 78.6 overs
+*** New Zealand 200 in 338 mins off 94.1 overs
+*** Edgar 50 in 208 mins off 160 balls 3x4
+*** Bracewell 50 in 88 mins off 76 balls 4x4
+*** 5 byes awarded for ball hitting helmet
+*** New ball after 95.6 overs
+*** Attendance: 6550
+
+*** Day 2
+*** New Zealand 250 in 399 mins off 110.4 overs
+*** Australia 50 in 63 mins off 14.1 overs
+*** Australia 100 in 158 mins off 42.2 overs
+*** Australia 150 in 216 mins off 57.6 overs
+*** Ritchie 50 in 158 mins off 152 balls 2x4
+*** Attendance: 9957
+
+*** Day 3
+*** Australia 200 in 307 mins off 83.2 overs
+*** Matthews 50 in 155 mins off 134 balls 3x4
+*** New ball after 85.6 overs
+*** New Zealand 50 in 89 mins off 23.1 overs
+*** New Zealand 100 in 174 mins off 48.1 overs
+*** Edgar 50 in 161 mins off 131 balls 5x4
+*** Attendance: 12871
+
+*** Day 4
+*** New Zealand 150 in 303 mins off 85.4 overs
+*** Attendance: 6141
+*** Rain forced players from the field at 3:43pm on day 4 (play officially
+    abandoned at 4:55pm)
+
+*** Day 5
+*** Australia 50 in 118 mins off 32.2 overs
+*** Australia 100 in 180 mins off 48.6 overs
+*** Australia 150 in 270 mins off 72.4 overs
+*** Australia 200 in 331 mins off 87.1 overs
+*** Australia 250 in 370 mins off 94.2 overs
+*** Phillips 50 in 168 mins off 145 balls 2x4
+*** Boon 50 in 155 mins off 121 balls 5x4
+*** Phillips/Boon 100 in 155 mins
+*** Attendance: 3021
+*** Match completed at 6:14pm
+
+<END>

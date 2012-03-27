@@ -1,0 +1,126 @@
+
+Test # 1047
+India in England, 1986, 2nd Test
+England v India
+Headingley, Leeds
+19,20,21,23 June 1986 (5-day match)
+
+Result: India won by 279 runs
+Series: India leads the 3-match series 2-0
+
+Toss: India
+Umpires: J Birkenshaw and DJ Constant
+Test debuts: BN French (England); CS Pandit (India).
+Player of the match: DB Vengsarkar
+
+Close of play:
+ Day 1: India 235/8 (Madan Lal 12*, More 11*)
+ Day 2: India 272, England 102, India 70/5 (Vengsarkar 33*, More 0*)
+ Day 3: India 237, England 90/6 (Gatting 10*)
+
+India 1st innings                                               R   M   B  4 6
+SM Gavaskar           c French           b Pringle             35  96  71  4 0
+K Srikkanth           c Emburey          b Pringle             31  79  62  3 0
+RJ Shastri            c Pringle          b Dilley              32  80  66  2 1
+DB Vengsarkar         c French           b Lever               61 187 153  6 1
+M Azharuddin          lbw                b Gooch               15  55  43  2 0
+CS Pandit             c Emburey          b Pringle             23  87  67  2 0
+*N Kapil Dev          lbw                b Lever                0   1   1  0 0
+RMH Binny             c Slack            b Emburey              6  33  27  1 0
+S Madan Lal           c Gooch            b Dilley              20  89  62  2 0
++KS More              not out                                  36  82  72  6 0
+Maninder Singh        c Gooch            b Dilley               3   7  10  0 0
+Extras                (lb 5, nb 5)                             10
+Total                 (all out, 104.2 overs)                  272
+
+FoW: 1-64 (Srikkanth), 2-75 (Gavaskar), 3-128 (Shastri),
+     4-163 (Azharuddin), 5-203 (Vengsarkar), 6-203 (Kapil Dev),
+     7-211 (Pandit), 8-213 (Binny), 9-267 (Madan Lal),
+     10-272 (Maninder Singh).
+
+Bowling                      O      M      R      W
+Dilley                      24.2    7     54      3
+Lever                       30      4    102      2
+Pringle                     27      6     47      3
+Emburey                     17      4     45      1
+Gooch                        6      0     19      1
+
+England 1st innings                                             R   M   B  4 6
+GA Gooch              c Binny            b Kapil Dev            8  26  22  2 0
+WN Slack                                 b Madan Lal            0   4   2  0 0
+CL Smith                                 b Madan Lal            6  25  18  1 0
+AJ Lamb               c Pandit           b Binny               10  35  21  2 0
+*MW Gatting           c More             b Binny               13  23  22  1 0
+CWJ Athey             c More             b Madan Lal           32 134  72  4 0
+DR Pringle            c Srikkanth        b Binny                8  42  35  0 0
+JE Emburey            c Kapil Dev        b Binny                0   1   1  0 0
++BN French                               b Binny                8   6  10  1 0
+GR Dilley                                b Shastri             10  61  60  0 0
+JK Lever              not out                                   0   9  12  0 0
+Extras                (b 1, lb 2, nb 4)                         7
+Total                 (all out, 45.1 overs)                   102
+
+FoW: 1-4 (Slack), 2-14 (Gooch), 3-14 (Smith), 4-38 (Gatting),
+     5-41 (Lamb), 6-63 (Pringle), 7-63 (Emburey), 8-71 (French),
+     9-100 (Dilley), 10-102 (Athey).
+
+Bowling                      O      M      R      W
+Kapil Dev                   18      7     36      1
+Madan Lal                   11.1    3     18      3
+Binny                       13      1     40      5
+Shastri                      3      1      5      1
+
+India 2nd innings                                               R   M   B  4 6
+SM Gavaskar           c French           b Lever                1  22  19  0 0
+K Srikkanth                              b Dilley               8  29  18  1 0
+RJ Shastri            lbw                b Lever                3  23  13  0 0
+DB Vengsarkar         not out                                 102 282 216 10 0
+M Azharuddin          lbw                b Lever                2  13   9  0 0
+CS Pandit                                b Pringle             17  56  42  3 0
++KS More              c Slack            b Pringle             16  39  27  1 0
+*N Kapil Dev          c Gatting          b Lever               31  31  23  4 1
+S Madan Lal           run out                                  22  54  48  4 0
+RMH Binny             lbw                b Pringle             26  53  35  3 1
+Maninder Singh        c Gatting          b Pringle              1   9   9  0 0
+Extras                (b 4, lb 4)                               8
+Total                 (all out, 76.3 overs)                   237
+
+FoW: 1-9 (Gavaskar), 2-9 (Srikkanth), 3-29 (Shastri),
+     4-35 (Azharuddin), 5-70 (Pandit), 6-102 (More),
+     7-137 (Kapil Dev), 8-173 (Madan Lal), 9-233 (Binny),
+     10-237 (Maninder Singh).
+
+Bowling                      O      M      R      W
+Dilley                      17      2     71      1
+Lever                       23      5     64      4
+Pringle                     22.3    6     73      4
+Emburey                      7      3      9      0
+Gooch                        7      2     12      0
+
+England 2nd innings (target: 408 runs)                          R   M   B  4 6
+GA Gooch              c Srikkanth        b Kapil Dev            5  19  19  1 0
+WN Slack              c Gavaskar         b Binny               19  62  51  2 0
+CL Smith              c More             b Shastri             28 105  69  4 0
+AJ Lamb               c More             b Binny               10  27  26  1 0
+*MW Gatting           not out                                  31 145 124  4 0
+CWJ Athey             c More             b Maninder Singh       8  27  35  0 0
+JK Lever              c More             b Maninder Singh       0   4   1  0 0
+DR Pringle            lbw                b Maninder Singh       8  28  20  0 0
+JE Emburey            c Azharuddin       b Kapil Dev            1  10  11  0 0
++BN French            c Vengsarkar       b Maninder Singh       5  17  16  1 0
+GR Dilley             run out                                   2  16  11  0 0
+Extras                (lb 9, nb 2)                             11
+Total                 (all out, 63.3 overs)                   128
+
+FoW: 1-12 (Gooch), 2-46 (Slack), 3-63 (Lamb), 4-77 (Smith),
+     5-90 (Athey), 6-90 (Lever), 7-101 (Pringle),
+     8-104 (Emburey), 9-109 (French), 10-128 (Dilley).
+
+Bowling                      O      M      R      W
+Kapil Dev                   19.2    7     24      2
+Madan Lal                    9.4    2     30      0
+Binny                        8      1     18      2
+Shastri                     10      3     21      1
+Maninder Singh              16.3    6     26      4
+
+<END>

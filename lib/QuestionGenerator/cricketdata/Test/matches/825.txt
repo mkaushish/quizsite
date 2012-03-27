@@ -1,0 +1,105 @@
+
+Test # 825
+Pakistan in England, 1978, 1st Test
+England v Pakistan
+Edgbaston, Birmingham
+1,2,3,5 June 1978 (5-day match)
+
+Result: England won by an innings and 57 runs
+Series: England leads the 3-match series 1-0
+
+Toss: Pakistan
+Umpires: HD Bird and KE Palmer
+Test debut: DI Gower (England).
+Player of the match: CM Old
+
+Close of play:
+ Day 1: Pakistan 162/9 (Sarfraz Nawaz 32*, Liaqat Ali 9*)
+ Day 2: Pakistan 164, England 256/3 (Radley 97*, Roope 22*)
+ Day 3: England 452/8d, Pakistan 95/1 (Sadiq Mohammad 62*, Iqbal Qasim 0*)
+
+Pakistan 1st innings                                            R   M   B  4 6
+Mudassar Nazar                       c & b Botham              14  34  30  0 0
+Sadiq Mohammad        c Radley           b Old                 23  75  49  3 0
+Mohsin Khan                              b Willis              35 125 100  4 0
+Javed Miandad         c Taylor           b Old                 15  69  58  2 0
+Haroon Rasheed        c Roope            b Willis               3   3   5  0 0
+Wasim Raja            c Taylor           b Old                 17  42  22  2 0
+Sarfraz Nawaz         not out                                  32  87  55  5 0
+*+Wasim Bari                             b Old                  0   1   1  0 0
+Iqbal Qasim           c Taylor           b Old                  0   1   2  0 0
+Sikander Bakht        c Roope            b Old                  0   1   1  0 0
+Liaqat Ali            c Brearley         b Old                  9  49  56  1 0
+Extras                (lb 3, nb 13)                            16
+Total                 (all out, 60.4 overs)                   164
+
+FoW: 1-20 (Mudassar Nazar), 2-56 (Sadiq Mohammad),
+     3-91 (Javed Miandad), 4-94 (Haroon Rasheed),
+     5-103 (Mohsin Khan), 6-125 (Wasim Raja), 7-125 (Wasim Bari),
+     8-126 (Iqbal Qasim), 9-126 (Sikander Bakht),
+     10-164 (Liaqat Ali).
+
+Bowling                      O      M      R      W
+Willis                      16      2     42      2
+Old                         22.4    6     50      7
+Botham                      15      4     52      1
+Wood                         3      2      2      0
+Edmonds                      4      2      2      0
+
+England 1st innings                                             R   M   B  4 6
+*JM Brearley          run out                                  38 164 121  2 0
+B Wood                lbw                b Sikander Bakht      14  64  52  1 0
+CT Radley             lbw                b Sikander Bakht     106 310 234 11 0
+DI Gower              c Javed Miandad    b Sikander Bakht      58 103 102  9 0
+GRJ Roope                                b Sikander Bakht      32 120  83  3 0
+G Miller              c Wasim Bari       b Mudassar Nazar      48 160 124  5 0
+IT Botham             c Iqbal Qasim      b Liaqat Ali         100 195 140 11 0
+CM Old                c Mudassar Nazar   b Iqbal Qasim          5  40  22  0 0
+PH Edmonds            not out                                   4   5   4  0 0
+Extras                (lb 26, w 5, nb 16)                      47
+Total                 (8 wickets dec, 144 overs)              452
+
+DNB: +RW Taylor, RGD Willis.
+
+FoW: 1-36 (Wood), 2-101 (Brearley), 3-190 (Gower),
+     4-275 (Radley), 5-276 (Roope), 6-399 (Miller), 7-448 (Old),
+     8-452 (Botham).
+
+Bowling                      O      M      R      W
+Sarfraz Nawaz                6      1     12      0
+Liaqat Ali                  42      9    114      1
+Mudassar Nazar              27      7     59      1
+Iqbal Qasim                 14      2     56      1
+Sikander Bakht              45     13    132      4
+Wasim Raja                  10      1     32      0
+
+Pakistan 2nd innings                                            R   M   B  4 6
+Mudassar Nazar                           b Edmonds             30 110 112  3 0
+Sadiq Mohammad                           b Old                 79 164 123  9 0
+Iqbal Qasim           retired hurt                              5  49  32  0 0
+Mohsin Khan           c Old              b Miller              38 157 115  3 0
+Javed Miandad         c Brearley         b Edmonds             39  64  65  4 0
+Haroon Rasheed                           b Willis               4  41  35  0 0
+Wasim Raja                               b Edmonds              9  25  23  1 0
+Sarfraz Nawaz         not out                                   6  66  62  0 0
+*+Wasim Bari          c Miller           b Edmonds              3  10  17  0 0
+Sikander Bakht        c Roope            b Miller               2  15  25  0 0
+Liaqat Ali                               b Willis               3  17  19  0 0
+Extras                (b 4, lb 4, w 1, nb 4)                   13
+Total                 (all out, 103.4 overs)                  231
+
+FoW: 1-94 (Mudassar Nazar), 2-123 (Sadiq Mohammad),
+     3-176 (Javed Miandad), 4-193 (Haroon Rasheed),
+     5-214 (Wasim Raja), 6-220 (Mohsin Khan), 7-224 (Wasim Bari),
+     8-227 (Sikander Bakht), 9-231 (Liaqat Ali).
+
+Bowling                      O      M      R      W
+Willis                      23.4    3     70      2
+Old                         25     12     38      1
+Botham                      17      3     47      0
+Edmonds                     26     10     44      4
+Miller                      12      4     19      2
+
+*** Iqbal Qasim retired hurt at 123/1
+
+<END>

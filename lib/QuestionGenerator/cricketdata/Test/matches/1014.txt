@@ -1,0 +1,101 @@
+
+Test # 1014
+New Zealand in West Indies, 1984/85, 2nd Test
+West Indies v New Zealand
+Bourda, Georgetown, Guyana
+6,7,8,10,11 April 1985 (5-day match)
+
+Result: Match drawn
+Series: 4-match series level 0-0
+
+Toss: West Indies
+Umpires: LH Barker and DJ Narine
+Test debut: CG Butts (West Indies).
+Player of the match: MD Crowe
+
+Close of play:
+ Day 1: West Indies 271/2 (Richardson 140*, Gomes 18*)
+ Day 2: West Indies 511
+ Day 3: New Zealand 230/4 (MD Crowe 72*, Coney 65*)
+ Day 4: New Zealand 440, West Indies 41/1 (Greenidge 21*, Butts 5*)
+
+West Indies 1st innings                                         R   M   B  4 6
+CG Greenidge                             b Chatfield           10  74  55  2 0
+DL Haynes                                b Hadlee              90 290 201 11 0
+RB Richardson         run out                                 185 455 346 26 0
+HA Gomes              lbw                b Cairns              53 158 109  5 0
+*IVA Richards         st Smith           b Coney               40  58  46  7 0
+AL Logie              c Howarth          b Hadlee              52 117  86  6 0
++PJL Dujon            not out                                  60  95  79  7 0
+Extras                (b 1, lb 16, w 1, nb 3)                  21
+Total                 (6 wickets dec, 152.5 overs)            511
+
+DNB: CG Butts, MD Marshall, MA Holding, J Garner.
+
+FoW: 1-30 (Greenidge), 2-221 (Haynes), 3-327 (Gomes),
+     4-394 (Richards), 5-407 (Richardson), 6-511 (Logie).
+
+Bowling                      O      M      R      W
+Hadlee                      25.5    5     83      2
+Chatfield                   30      3    122      1
+Cairns                      32      5    105      1
+Boock                       43     11    107      0
+Coney                       18      2     62      1
+Howarth                      4      1     15      0
+
+New Zealand 1st innings                                         R   M   B  4 6
+JG Wright             run out                                  27  55  32  4 0
+KR Rutherford         c Dujon            b Garner               4  10   5  1 0
+JJ Crowe                                 b Marshall            22 125  89  3 0
+MD Crowe              lbw                b Garner             188 571 462 22 1
+*GP Howarth           c Haynes           b Marshall             4  22   8  1 0
+JV Coney              c Richards         b Holding             73 192 158  8 0
+RJ Hadlee             c Dujon            b Marshall            16  40  33  2 0
++IDS Smith            lbw                b Marshall            53 173 131  5 0
+BL Cairns                                b Holding              3  22   9  0 0
+SL Boock                                 b Holding              0   1   1  0 0
+EJ Chatfield          not out                                   3  35  18  0 0
+Extras                (b 12, lb 2, w 6, nb 27)                 47
+Total                 (all out, 151.5 overs)                  440
+
+FoW: 1-8 (Rutherford), 2-45 (Wright), 3-81 (JJ Crowe),
+     4-98 (Howarth), 5-240 (Coney), 6-261 (Hadlee),
+     7-404 (Smith), 8-415 (Cairns), 9-415 (Boock),
+     10-440 (MD Crowe).
+
+Bowling                      O      M      R      W
+Marshall                    33      3    110      4
+Garner                      27.5    5     72      2
+Holding                     28      6     89      3
+Butts                       47     12    113      0
+Richards                     8      1     22      0
+Gomes                        8      2     20      0
+
+West Indies 2nd innings                                         R   M   B  4 6
+CG Greenidge                         c & b Coney               69 203 167  8 0
+DL Haynes             c Smith            b Hadlee               9  35  27  1 0
+CG Butts              c Smith            b Hadlee               9  22  16  2 0
+RB Richardson         c JJ Crowe         b Cairns              60 217 157  9 0
+HA Gomes              c sub              b Rutherford          35  96  70  3 1
+AL Logie              not out                                  41  93  66  7 0
++PJL Dujon                               b Cairns               3  20  20  0 0
+*IVA Richards         not out                                   7  48  50  0 0
+Extras                (b 7, lb 25, w 1, nb 2)                  35
+Total                 (6 wickets dec, 95 overs)               268
+
+DNB: MD Marshall, MA Holding, J Garner.
+
+FoW: 1-22 (Haynes), 2-46 (Butts), 3-150 (Greenidge),
+     4-191 (Richardson), 5-207 (Gomes), 6-225 (Dujon).
+
+Bowling                      O      M      R      W
+Hadlee                      16      3     32      2
+Chatfield                   16      3     43      0
+Cairns                      18      4     47      2
+Boock                       18      3     52      0
+Coney                       10      3     20      1
+Howarth                      5      4      2      0
+Rutherford                   9      1     38      1
+Wright                       3      1      2      0
+
+<END>

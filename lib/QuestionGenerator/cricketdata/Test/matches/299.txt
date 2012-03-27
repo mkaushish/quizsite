@@ -1,0 +1,122 @@
+
+Test # 299
+The Ashes, 1948, 1st Test
+England v Australia
+Trent Bridge, Nottingham
+10,11,12,14,15 June 1948 (5-day match)
+
+Result: Australia won by 8 wickets
+Series: Australia leads the 5-match series 1-0
+
+Toss: England
+Umpires: F Chester and E Cooke
+
+Close of play:
+ Day 1: England 165, Australia 17/0 (Barnes 6*, Morris 10*)
+ Day 2: Australia 293/4 (Bradman 130*, Hassett 41*)
+ Day 3: Australia 509, England 121/2 (Hutton 63*, Compton 36*)
+ Day 4: England 345/6 (Compton 154*, Evans 10*)
+
+England 1st innings                                             R   M   B  4 6
+L Hutton                                 b Miller               3  12      0 0
+C Washbrook           c Brown            b Lindwall             6  41      0 0
+WJ Edrich                                b Johnston            18  74      1 0
+DCS Compton                              b Miller              19  60      2 0
+J Hardstaff jnr       c Miller           b Johnston             0   2   2  0 0
+CJ Barnett                               b Johnston             8  16      1 0
+*NWD Yardley          lbw                b Toshack              3  26      0 0
++TG Evans             c Morris           b Johnston            12  18      2 0
+JC Laker              c Tallon           b Miller              63 101      6 0
+AV Bedser             c Brown            b Johnston            22  89      2 0
+JA Young              not out                                   1   8      0 0
+Extras                (b 5, lb 5)                              10
+Total                 (all out, 79 overs)                     165
+
+FoW: 1-9 (Hutton), 2-15 (Washbrook), 3-46 (Edrich),
+     4-46 (Hardstaff), 5-48 (Compton), 6-60 (Barnett),
+     7-74 (Evans), 8-74 (Yardley), 9-163 (Bedser),
+     10-165 (Laker).
+
+Bowling                      O      M      R      W
+Lindwall                    13      5     30      1
+Miller                      19      8     38      3
+Johnston                    25     11     36      5
+Toshack                     14      8     28      1
+Johnson                      5      1     19      0
+Morris                       3      1      4      0
+
+Australia 1st innings                                           R   M   B  4 6
+SG Barnes             c Evans            b Laker               62 153      6 0
+AR Morris                                b Laker               31 121      3 0
+*DG Bradman           c Hutton           b Bedser             138 290 321 10 0
+KR Miller             c Edrich           b Laker                0   6      0 0
+WA Brown              lbw                b Yardley             17  58      1 0
+AL Hassett                               b Bedser             137 354     20 1
+IWG Johnson                              b Laker               21  38      3 0
++D Tallon                            c & b Young               10  39      1 0
+RR Lindwall           c Evans            b Yardley             42 121      7 0
+WA Johnston           not out                                  17  27      2 0
+ERH Toshack           lbw                b Bedser              19  18      3 0
+Extras                (b 9, lb 4, w 1, nb 1)                   15
+Total                 (all out, 216.2 overs)                  509
+
+FoW: 1-73 (Morris), 2-121 (Barnes), 3-121 (Miller),
+     4-185 (Brown), 5-305 (Bradman), 6-338 (Johnson),
+     7-365 (Tallon), 8-472 (Hassett), 9-476 (Lindwall),
+     10-509 (Toshack).
+
+Bowling                      O      M      R      W
+Edrich                      18      1     72      0
+Bedser                      44.2   12    113      3
+Barnett                     17      5     36      0
+Young                       60     28     79      1
+Laker                       55     14    138      4
+Compton                      5      0     24      0
+Yardley                     17      6     32      2
+
+England 2nd innings                                             R   M   B  4 6
+L Hutton                                 b Miller              74 168     11 0
+C Washbrook           c Tallon           b Miller               1  10      0 0
+WJ Edrich             c Tallon           b Johnson             13  43      2 0
+DCS Compton           hit wicket         b Miller             184 413     19 0
+J Hardstaff jnr       c Hassett          b Toshack             43 101      6 0
+CJ Barnett            c Miller           b Johnston             6  33      0 0
+*NWD Yardley                         c & b Johnston            22  66      4 0
++TG Evans             c Tallon           b Johnston            50 124      8 0
+JC Laker                                 b Miller               4  16      0 0
+AV Bedser             not out                                   3  20      0 0
+JA Young                                 b Johnston             9   8      2 0
+Extras                (b 12, lb 17, nb 3)                      32
+Total                 (all out, 183 overs)                    441
+
+FoW: 1-5 (Washbrook), 2-39 (Edrich), 3-150 (Hutton),
+     4-243 (Hardstaff), 5-264 (Barnett), 6-321 (Yardley),
+     7-405 (Compton), 8-413 (Laker), 9-423 (Evans),
+     10-441 (Young).
+
+Bowling                      O      M      R      W
+Miller                      44     10    125      4
+Johnston                    59     12    147      4
+Toshack                     33     14     60      1
+Johnson                     42     15     66      1
+Barnes                       5      2     11      0
+
+Australia 2nd innings (target: 98 runs)                         R   M   B  4 6
+SG Barnes             not out                                  64  87     11 0
+AR Morris                                b Bedser               9  32      1 0
+*DG Bradman           c Hutton           b Bedser               0  12  10  0 0
+AL Hassett            not out                                  21  39      2 0
+Extras                (lb 2, w 1, nb 1)                         4
+Total                 (2 wickets, 28.3 overs)                  98
+
+DNB: KR Miller, WA Brown, IWG Johnson, +D Tallon, RR Lindwall,
+     WA Johnston, ERH Toshack.
+
+FoW: 1-38 (Morris), 2-48 (Bradman).
+
+Bowling                      O      M      R      W
+Bedser                      14.3    4     46      2
+Young                       10      3     28      0
+Edrich                       4      0     20      0
+
+<END>

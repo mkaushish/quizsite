@@ -1,0 +1,80 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+1720, 2004-10-03, 1, 1, Australia, lbw, Gillespie, 3, 16, 8, 0, 0
+1720, 2004-10-03, 3, 1, Australia, c Clarke, McGrath, 1, 13, 13, 0, 0
+1722, 2004-10-20, 2, 2, South Africa, c Tsolekile, Pollock, 96, 249, 151, 11, 1
+1724, 2004-11-28, 2, 2, South Africa, lbw, Pollock, 7, 31, 22, 1, 0
+1724, 2004-11-28, 4, 2, South Africa, lbw, Rudolph, 26, 73, 56, 5, 0
+1725, 2004-11-10, 2, 1, Bangladesh, run out (Rajin Saleh/Mushfiqur Rahman), , 35, 86, 50, 6, 0
+1727, 2004-11-17, 1, 2, Bangladesh, , Nazmul Hossain, 139, 286, 196, 19, 0
+1738, 2005-02-08, 2, 1, Pakistan, c Naved-ul-Hasan, Danish Kaneria, 41, 78, 46, 7, 0
+1738, 2005-02-08, 4, 1, Pakistan, not out, , 32, 70, 50, 4, 0
+1741, 2005-02-16, 1, 2, Pakistan, lbw, Danish Kaneria, 29, 76, 48, 4, 0
+1741, 2005-02-16, 3, 2, Pakistan, , Mohammad Sami, 1, 6, 2, 0, 0
+1743, 2005-02-24, 2, 1, Pakistan, c Younis Khan, Mohammad Sami, 24, 98, 68, 3, 0
+1743, 2005-02-24, 4, 1, Pakistan, lbw, Mohammad Sami, 52, 152, 124, 7, 0
+1765, 2005-08-13, 2, 1, Zimbabwe, c Taylor, Mahwire, 46, na, 59, 6, 0
+1767, 2005-08-20, 2, 1, Zimbabwe, c Taibu, Mahwire, 97, na, 121, 17, 0
+1767, 2005-08-20, 4, 1, Zimbabwe, not out, , 1, na, 3, 0, 0
+1775, 2005-11-02, 1, 1, Sri Lanka, , Vaas, 0, 11, 7, 0, 0
+1776, 2005-11-10, 1, 1, Sri Lanka, lbw, Vaas, 2, 2, 3, 0, 0
+1776, 2005-11-10, 3, 1, Sri Lanka, lbw, Vaas, 3, 9, 5, 0, 0
+1778, 2005-11-18, 1, 1, Sri Lanka, c Tharanga, Malinga, 19, 41, 33, 3, 0
+1778, 2005-11-18, 3, 2, Sri Lanka, c Sangakkara, Muralitharan, 30, 107, 71, 4, 0
+1852, 2007-11-08, 1, 2, Pakistan, c Kamran Akmal, Mohammad Sami, 5, 40, 19, 1, 0
+1852, 2007-11-08, 3, 2, Pakistan, , Shoaib Akhtar, 3, 35, 17, 0, 0
+1882, 2008-06-23, 2, 1, Sri Lanka, c Samaraweera, Muralitharan, 39, 74, 55, 5, 0
+1882, 2008-06-23, 3, 1, Sri Lanka, st HAPW Jayawardene, Muralitharan, 43, 126, 90, 4, 0
+1884, 2008-07-31, 1, 1, Sri Lanka, lbw, Mendis, 56, 134, 103, 8, 0
+1884, 2008-07-31, 3, 1, Sri Lanka, , Mendis, 74, 155, 149, 10, 0
+1886, 2008-07-08, 1, 1, Sri Lanka, lbw, Mendis, 72, 196, 128, 10, 0
+1886, 2008-07-08, 3, 1, Sri Lanka, , Prasad, 26, 55, 43, 3, 0
+1887, 2008-09-09, 2, 1, Australia, lbw, Lee, 21, 96, 61, 3, 0
+1887, 2008-09-09, 4, 1, Australia, , Johnson, 29, 117, 81, 4, 0
+1889, 2008-09-17, 1, 1, Australia, c Haddin, Johnson, 67, 192, 140, 9, 0
+1889, 2008-09-17, 3, 1, Australia, c Hussey, White, 104, 219, 138, 7, 1
+1891, 2008-10-29, 1, 1, Australia, , Watson, 206, 550, 380, 26, 1
+1891, 2008-10-29, 3, 1, Australia, lbw, Johnson, 36, 170, 107, 5, 0
+1898, 2008-11-11, 2, 1, England, lbw, Swann, 19, 65, 43, 3, 0
+1898, 2008-11-11, 4, 1, England, c Collingwood, Anderson, 66, 201, 139, 7, 0
+1901, 2008-11-19, 1, 1, England, c Cook, Swann, 179, 466, 348, 25, 1
+1901, 2008-11-19, 3, 1, England, c Bell, Swann, 97, 330, 229, 6, 0
+1915, 2009-02-18, 2, 1, New Zealand, c McCullum, Martin, 72, 173, 135, 11, 0
+1915, 2009-02-18, 4, 1, New Zealand, not out, , 30, na, 18, 6, 0
+1917, 2009-02-26, 2, 1, New Zealand, c Vettori, Patel, 16, 77, 53, 1, 0
+1917, 2009-02-26, 3, 1, New Zealand, lbw, Patel, 137, 643, 436, 18, 0
+1918, 2009-03-03, 1, 1, New Zealand, lbw, Franklin, 23, 78, 47, 2, 0
+1918, 2009-03-03, 3, 1, New Zealand, lbw, O'Brien, 167, 352, 257, 16, 2
+1933, 2009-10-16, 1, 1, Sri Lanka, , Welegedara, 1, 13, 10, 0, 0
+1933, 2009-10-16, 3, 1, Sri Lanka, c Prasad, Herath, 114, 337, 230, 13, 0
+1935, 2009-10-24, 1, 1, Sri Lanka,                c &, Muralitharan, 167, 298, 215, 15, 0
+1949, 2010-01-17, 1, 1, Bangladesh, c Mushfiqur Rahim, Shahadat Hossain, 23, 74, 44, 3, 0
+1949, 2010-01-17, 3, 1, Bangladesh, c Shahriar Nafees, Shafiul Islam, 116, 200, 129, 10, 1
+1950, 2010-01-24, 2, 1, Bangladesh, c Mushfiqur Rahim, Shafiul Islam, 68, 141, 83, 9, 0
+1950, 2010-01-24, 4, 2, Bangladesh, not out, , 0, 2, 0, 0, 0
+1951, 2010-01-06, 2, 1, South Africa, c Boucher, Morkel, 12, 22, 15, 2, 0
+1951, 2010-01-06, 3, 1, South Africa, , Morkel, 1, 6, 3, 0, 0
+1952, 2010-01-14, 2, 1, South Africa, run out (Petersen/de Villiers), , 25, 46, 38, 3, 0
+1964, 2010-06-18, 2, 1, Sri Lanka, lbw, Malinga, 2, 2, 2, 0, 0
+1964, 2010-06-18, 3, 1, Sri Lanka, c HAPW Jayawardene, Malinga, 0, 2, 3, 0, 0
+1972, 2010-09-01, 2, 1, Australia, lbw, Johnson, 25, 64, 41, 2, 0
+1972, 2010-09-01, 4, 1, Australia, lbw, Hilfenhaus, 0, 3, 4, 0, 0
+1974, 2010-10-04, 1, 1, New Zealand, , Ryder, 21, 54, 41, 3, 0
+1974, 2010-10-04, 3, 1, New Zealand, c Hopkins, Martin, 0, 2, 3, 0, 0
+1975, 2010-10-12, 2, 1, New Zealand, c Hopkins, Southee, 54, 206, 129, 7, 0
+1975, 2010-10-12, 4, 1, New Zealand, not out, , 14, 57, 48, 0, 0
+1978, 2010-10-20, 2, 1, New Zealand, c Taylor, Southee, 78, 191, 127, 12, 0
+1985, 2010-11-16, 1, 1, South Africa, c Harris, Morkel, 5, 62, 43, 0, 0
+1985, 2010-11-16, 3, 1, South Africa, lbw, Steyn, 80, 187, 124, 10, 0
+1988, 2011-01-02, 2, 1, South Africa, c Boucher, Harris, 93, 318, 222, 13, 0
+1988, 2011-01-02, 4, 1, South Africa, c Boucher, Steyn, 64, 271, 184, 9, 0
+2000, 2011-06-21, 2, 2, England, , Broad, 15, 87, 46, 1, 0
+2000, 2011-06-21, 4, 4, England, lbw, Swann, 22, 70, 56, 2, 0
+2003, 2011-07-10, 1, 1, England, , Bresnan, 38, 89, 64, 7, 0
+2003, 2011-07-10, 3, 1, England, c Swann, Anderson, 14, 52, 42, 2, 0
+2004, 2011-07-18, 2, 9, England, c Pietersen, Broad, 10, 67, 62, 1, 0
+2004, 2011-07-18, 3, 8, England, c Morgan, Swann, 3, 46, 27, 0, 0
+2015, 2011-10-06, 2, 1, West Indies, run out (Sammy), , 41, 64, 41, 7, 0
+2015, 2011-10-06, 4, 1, West Indies, lbw, Samuels, 22, 47, 32, 3, 0
+2017, 2011-10-14, 1, 1, West Indies, c Barath, FH Edwards, 65, 147, 103, 8, 0
+2019, 2011-10-22, 2, 1, West Indies, c Baugh, Rampaul, 55, 165, 99, 8, 0
+2019, 2011-10-22, 4, 1, West Indies, c Sammy, FH Edwards, 12, 24, 11, 1, 0

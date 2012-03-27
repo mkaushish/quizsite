@@ -1,0 +1,59 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+834, 1978-12-01, 1, 9, England, c Taylor, Botham, 36, 78, 67, 5, 0
+834, 1978-12-01, 3, 9, England, , Botham, 16, 41, 35, 1, 0
+836, 1978-12-15, 2, 9, England, c Taylor, Willis, 18, 68, 67, 2, 0
+836, 1978-12-15, 4, 9, England, , Miller, 0, 8, 8, 0, 0
+838, 1979-12-29, 1, 8, England, c Randall, Miller, 0, 2, 5, 0, 0
+838, 1979-12-29, 3, 8, England, , Botham, 1, 20, 21, 0, 0
+840, 1979-01-06, 2, 8, England, run out, , 6, 13, 17, 1, 0
+840, 1979-01-06, 4, 9, England, c Botham, Emburey, 0, 5, 4, 0, 0
+843, 1979-01-27, 2, 9, England, , Willis, 0, 2, 1, 0, 0
+843, 1979-01-27, 4, 9, England, , Miller, 2, 10, 7, 0, 0
+846, 1979-02-10, 1, 9, England, c Emburey, Miller, 9, 47, 46, 1, 0
+846, 1979-02-10, 3, 9, England, , Miller, 7, 24, 25, 0, 0
+849, 1979-03-10, 2, 10, Pakistan, run out, , 9, 19, 13, 1, 0
+849, 1979-03-10, 4, 10, Pakistan, lbw, Sarfraz Nawaz, 0, 22, 14, 0, 0
+850, 1979-03-24, 2, 10, Pakistan, , Imran Khan, 3, 18, 15, 0, 0
+855, 1979-09-11, 1, 9, India, c Kapil Dev, Doshi, 3, 6, 4, 0, 0
+855, 1979-09-11, 3, 9, India, not out, , 8, 60, 58, 1, 0
+856, 1979-09-19, 1, 9, India, lbw, Venkataraghavan, 19, 63, 52, 3, 0
+857, 1979-10-02, 2, 10, India, , Yadav, 10, 79, na, 0, 0
+857, 1979-10-02, 4, 10, India, lbw, Kapil Dev, 6, 18, na, 1, 0
+858, 1979-10-13, 2, 10, India, , Kapil Dev, 0, 15, 10, 0, 0
+858, 1979-10-13, 3, 10, India, run out, , 0, 4, 1, 0, 0
+859, 1979-10-26, 1, 10, India, c Yashpal Sharma, Doshi, 0, 7, 8, 0, 0
+860, 1979-11-03, 2, 10, India, c Amarnath, Doshi, 5, 30, 24, 0, 0
+860, 1979-11-03, 3, 10, India, not out, , 3, 30, 22, 0, 0
+862, 1979-12-01, 1, 10, West Indies, , Roberts, 8, 37, 26, 1, 0
+867, 1980-12-29, 1, 10, West Indies, c Greenidge, Croft, 14, 27, 25, 2, 0
+867, 1980-12-29, 3, 10, West Indies, c Holding, Garner, 11, 42, 38, 0, 0
+889, 1980-12-12, 2, 9, New Zealand, , Cairns, 3, 10, 8, 0, 0
+891, 1980-12-26, 1, 9, New Zealand, run out, , 0, 3, 4, 0, 0
+891, 1980-12-26, 3, 9, New Zealand, , Hadlee, 12, 53, 44, 2, 0
+893, 1981-01-02, 2, 9, India, not out, , 26, 74, 56, 3, 0
+894, 1981-01-23, 1, 10, India,                c &, Yadav, 11, 45, 35, 1, 0
+903, 1981-06-18, 2, 10, England, c Boycott, Dilley, 0, 10, 7, 0, 0
+906, 1981-07-30, 2, 10, England, run out, , 0, 1, 0, 0, 0
+906, 1981-07-30, 4, 10, England, not out, , 0, 11, 6, 0, 0
+940, 1982-12-10, 1, 10, England, not out, , 14, 66, 45, 0, 0
+943, 1982-12-26, 2, 10, England, not out, , 8, 16, 12, 1, 0
+943, 1982-12-26, 4, 10, England, lbw, Cowans, 4, 18, 8, 1, 0
+944, 1983-01-02, 1, 11, England, not out, , 0, 23, 11, 0, 0
+944, 1983-01-02, 3, 11, England, run out, , 0, 5, 6, 0, 0
+966, 1983-11-11, 1, 10, Pakistan, not out, , 7, 8, 7, 0, 0
+970, 1983-12-09, 1, 11, Pakistan, c Javed Miandad, Azeem Hafeez, 5, 24, 17, 0, 0
+979, 1984-03-02, 1, 11, West Indies, lbw, Garner, 52, 149, 160, 6, 1
+979, 1984-03-02, 3, 10, West Indies, , Davis, 6, 29, 22, 0, 0
+983, 1984-03-16, 1, 10, West Indies, c Marshall, Daniel, 11, 45, 32, 2, 0
+983, 1984-03-16, 3, 10, West Indies, c Garner, Richards, 9, 53, 34, 1, 0
+986, 1984-03-30, 1, 10, West Indies, c Garner, Harper, 3, 49, na, 0, 0
+986, 1984-03-30, 3, 10, West Indies, not out, , 5, 27, na, 0, 0
+988, 1984-04-28, 1, 10, West Indies, not out, , 1, 42, 29, 0, 0
+988, 1984-04-28, 3, 9, West Indies, , Marshall, 14, 35, 26, 3, 0
+997, 1984-11-09, 2, 9, West Indies, , Holding, 0, 5, 4, 0, 0
+997, 1984-11-09, 3, 9, West Indies, , Marshall, 0, 1, 2, 0, 0
+999, 1984-11-23, 1, 11, West Indies, not out, , 0, 3, 0, 0, 0
+999, 1984-11-23, 3, 11, West Indies, not out, , 21, 59, 43, 3, 0
+1002, 1984-12-07, 2, 10, West Indies, not out, , 7, 79, 40, 1, 0
+1002, 1984-12-07, 4, 10, West Indies, , Harper, 7, 13, 6, 1, 0
+1005, 1984-12-22, 2, 11, West Indies, lbw, Marshall, 19, 63, 49, 1, 0

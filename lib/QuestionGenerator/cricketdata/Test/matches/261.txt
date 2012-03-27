@@ -1,0 +1,123 @@
+
+Test # 261
+New Zealand in England, 1937, 2nd Test
+England v New Zealand
+Old Trafford, Manchester
+24,26,27 July 1937 (3-day match)
+
+Result: England won by 130 runs
+Series: England leads the 3-match series 1-0
+
+Toss: England
+Umpires: W Reeves and EJ Smith
+Test debuts: AW Wellard (England); N Gallichan (New Zealand).
+
+Close of play:
+ Day 1: England 358/9 (Ames 16*, Goddard 4*)
+ Day 2: England 358/9d, New Zealand 281, England 37/3 (Hardstaff 6*, Paynter 3*)
+
+England 1st innings                                             R   M   B  4 6
+CJ Barnett            c Kerr             b Cowie               62  90        0
+L Hutton              c Dunning          b Vivian             100 210      8 0
+J Hardstaff jnr       st Tindill         b Vivian              58            1
+WR Hammond                               b Gallichan           33            0
+E Paynter             lbw                b Cowie               33            0
++LEG Ames             not out                                  16            0
+AW Wellard                               b Cowie                5            0
+*RWV Robins                              b Cowie               14            0
+FR Brown                                 b Gallichan            1          0 0
+CIJ Smith             c Kerr             b Gallichan           21            1
+TWJ Goddard           not out                                   4            0
+Extras                (b 4, lb 7)                              11
+Total                 (9 wickets dec, 129 overs)              358
+
+FoW: 1-100 (Barnett), 2-228 (Hutton), 3-231 (Hardstaff),
+     4-296 (Paynter), 5-302 (Hammond), 6-307 (Wellard),
+     7-327 (Robins), 8-328 (Brown), 9-352 (Smith).
+
+Bowling                      O      M      R      W
+Cowie                       32      6     73      4
+Dunning                     28      5     84      0
+Gallichan                   36      7     99      3
+Vivian                      28      7     75      2
+Page                         5      0     16      0
+
+New Zealand 1st innings                                         R   M   B  4 6
+HG Vivian                                b Wellard             58 120        0
+DAR Moloney           lbw                b Smith               11            0
+WM Wallace            st Ames            b Brown               23            0
+JL Kerr                                  b Wellard              4            0
+MP Donnelly           lbw                b Wellard              4            0
+WA Hadlee             hit wicket         b Wellard             93 137     10 0
+*ML Page              c Smith            b Hammond             33 115        0
++EWT Tindill                             b Brown                6            0
+N Gallichan           c Brown            b Smith               30            0
+JA Dunning            not out                                   4            0
+J Cowie               st Ames            b Brown                0          0 0
+Extras                (b 4, lb 11)                             15
+Total                 (all out, 107.4 overs)                  281
+
+FoW: 1-19 (Moloney), 2-65 (Wallace), 3-91 (Kerr),
+     4-105 (Donnelly), 5-119 (Vivian), 6-218 (Page),
+     7-242 (Hadlee), 8-268 (Tindill), 9-280 (Gallichan),
+     10-281 (Cowie).
+
+Bowling                      O      M      R      W
+Smith                       22      7     29      2
+Wellard                     30      4     81      4
+Hammond                     15      5     27      1
+Goddard                     18      5     48      0
+Brown                       22.4    4     81      3
+
+England 2nd innings                                             R   M   B  4 6
+CJ Barnett            lbw                b Dunning             12            0
+L Hutton              c Vivian           b Cowie               14            0
+J Hardstaff jnr       c Tindill          b Cowie               11            0
+WR Hammond            c Moloney          b Cowie                0          0 0
+E Paynter             c Cowie            b Vivian               7            0
++LEG Ames             lbw                b Dunning             39            0
+*RWV Robins           c Moloney          b Cowie               12            0
+AW Wellard            c Wallace          b Vivian               0          0 0
+FR Brown                                 b Cowie               57  70      8 1
+CIJ Smith                            c & b Cowie               27            1
+TWJ Goddard           not out                                   1          0 0
+Extras                (lb 7)                                    7
+Total                 (all out, 60.5 overs)                   187
+
+FoW: 1-17 (Barnett), 2-29 (Hutton), 3-29 (Hammond),
+     4-46 (Paynter), 5-46 (Hardstaff), 6-68 (Robins),
+     7-75 (Wellard), 8-147 (Ames), 9-186 (Brown), 10-187 (Smith).
+
+Bowling                      O      M      R      W
+Cowie                       23.5    6     67      6
+Dunning                     12      2     35      2
+Gallichan                    8      4     14      0
+Vivian                      17      5     64      2
+
+New Zealand 2nd innings (target: 265 runs)                      R   M   B  4 6
+HG Vivian             c Ames             b Smith               50  90        1
+DAR Moloney           run out                                  20            0
+WM Wallace                               b Goddard              5            0
+JL Kerr                                  b Smith                3          0 0
+MP Donnelly           not out                                  37            1
+WA Hadlee                                b Goddard              3          0 0
+*ML Page                                 b Goddard              2          0 0
++EWT Tindill          lbw                b Brown                0          0 0
+N Gallichan           c Wellard          b Goddard              2          0 0
+JA Dunning                               b Goddard              3          0 0
+J Cowie               c Wellard          b Goddard              0          0 0
+Extras                (b 7, lb 1, nb 1)                         9
+Total                 (all out, 53.4 overs)                   134
+
+FoW: 1-50 (Moloney), 2-68 (Wallace), 3-73 (Kerr), 4-94 (Vivian),
+     5-102 (Hadlee), 6-104 (Page), 7-109 (Tindill),
+     8-116 (Gallichan), 9-134 (Dunning), 10-134 (Cowie).
+
+Bowling                      O      M      R      W
+Smith                       14      2     34      2
+Wellard                     14      2     30      0
+Hammond                      6      1     18      0
+Goddard                     14.4    5     29      6
+Brown                        5      0     14      1
+
+<END>

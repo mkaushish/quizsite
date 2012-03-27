@@ -1,0 +1,138 @@
+
+Test # 498
+The Frank Worrell Trophy, 1960/61, 1st Test
+Australia v West Indies
+Brisbane Cricket Ground, Woolloongabba, Brisbane
+9,10,12,13,14 December 1960 (5-day match)
+
+Result: Match tied
+Series: 5-match series level 0-0
+
+Toss: West Indies
+Umpires: CJ Egar and C Hoy
+Balls per over: 8
+Test debuts: PD Lashley, CW Smith (West Indies).
+
+Close of play:
+ Day 1: West Indies 359/7 (Alexander 21*, Ramadhin 9*)
+ Day 2: West Indies 453, Australia 196/3 (O'Neill 28*, Favell 1*)
+ Day 3: Australia 505, West Indies 0/0 (Hunte 0*, Smith 0*)
+ Day 4: West Indies 259/9 (Hall 0*, Valentine 0*)
+
+West Indies 1st innings                                         R   M   B  4 6
+CC Hunte              c Benaud           b Davidson            24  37      4 0
+CW Smith              c Grout            b Davidson             7  26      0 0
+RB Kanhai             c Grout            b Davidson            15  32      3 0
+GS Sobers             c Kline            b Meckiff            132 174     21 0
+*FMM Worrell          c Grout            b Davidson            65 159      8 0
+JS Solomon            hit wicket         b Simpson             65 141      8 0
+PD Lashley            c Grout            b Kline               19  36      2 1
++FCM Alexander        c Davidson         b Kline               60 190      5 0
+S Ramadhin            c Harvey           b Davidson            12  12      2 0
+WW Hall               st Grout           b Kline               50  69      8 0
+AL Valentine          not out                                   0   2      0 0
+Extras                (lb 3, w 1)                               4
+Total                 (all out, 100.6 overs)                  453
+
+FoW: 1-23 (Smith), 2-42 (Hunte), 3-65 (Kanhai), 4-239 (Sobers),
+     5-243 (Worrell), 6-283 (Lashley), 7-347 (Solomon),
+     8-366 (Ramadhin), 9-452 (Hall), 10-453 (Alexander).
+
+Bowling                      O      M      R      W
+Davidson                    30      2    135      5
+Meckiff                     18      0    129      1
+Mackay                       3      0     15      0
+Benaud                      24      3     93      0
+Simpson                      8      0     25      1
+Kline                       17.6    6     52      3
+
+Australia 1st innings                                           R   M   B  4 6
+CC McDonald           c Hunte            b Sobers              57 111      6 0
+RB Simpson                               b Ramadhin            92 260      7 0
+RN Harvey                                b Valentine           15  63      0 0
+NC O'Neill            c Valentine        b Hall               181 401     22 0
+LE Favell             run out                                  45  93      1 2
+KD Mackay                                b Sobers              35 104      4 0
+AK Davidson           c Alexander        b Hall                44  81      4 0
+*R Benaud             lbw                b Hall                10  17      0 0
++ATW Grout            lbw                b Hall                 4   4      1 0
+I Meckiff             run out                                   4   6      0 0
+LF Kline              not out                                   3   5      0 0
+Extras                (b 2, lb 8, w 1, nb 4)                   15
+Total                 (all out, 130.3 overs)                  505
+
+FoW: 1-84 (McDonald), 2-138 (Harvey), 3-194 (Simpson),
+     4-278 (Favell), 5-381 (Mackay), 6-469 (Davidson),
+     7-484 (Benaud), 8-489 (Grout), 9-496 (Meckiff),
+     10-505 (O'Neill).
+
+Bowling                      O      M      R      W
+Hall                        29.3    1    140      4
+Worrell                     30      0     93      0
+Sobers                      32      0    115      2
+Valentine                   24      6     82      1
+Ramadhin                    15      1     60      1
+
+West Indies 2nd innings                                         R   M   B  4 6
+CC Hunte              c Simpson          b Mackay              39  88      5 0
+CW Smith              c O'Neill          b Davidson             6  22      0 0
+RB Kanhai             c Grout            b Davidson            54 112      7 0
+GS Sobers                                b Davidson            14  28      2 0
+*FMM Worrell          c Grout            b Davidson            65 151      8 0
+JS Solomon            lbw                b Simpson             47 222      2 0
+PD Lashley                               b Davidson             0   2      0 0
++FCM Alexander                           b Benaud               5  67      0 0
+S Ramadhin            c Harvey           b Simpson              6  11      1 0
+WW Hall                                  b Davidson            18  45      1 0
+AL Valentine          not out                                   7  41      0 0
+Extras                (b 14, lb 7, w 2)                        23
+Total                 (all out, 92.6 overs)                   284
+
+FoW: 1-13 (Smith), 2-88 (Hunte), 3-114 (Sobers), 4-127 (Kanhai),
+     5-210 (Worrell), 6-210 (Lashley), 7-241 (Alexander),
+     8-250 (Ramadhin), 9-253 (Solomon), 10-284 (Hall).
+
+Bowling                      O      M      R      W
+Davidson                    24.6    4     87      6
+Meckiff                      4      1     19      0
+Mackay                      21      7     52      1
+Benaud                      31      6     69      1
+Simpson                      7      2     18      2
+Kline                        4      0     14      0
+O'Neill                      1      0      2      0
+
+Australia 2nd innings (target: 233 runs)                        R   M   B  4 6
+CC McDonald                              b Worrell             16  91      0 0
+RB Simpson            c sub (LR Gibbs)   b Hall                 0  14      0 0
+RN Harvey             c Sobers           b Hall                 5  10      1 0
+NC O'Neill            c Alexander        b Hall                26  61      4 0
+LE Favell             c Solomon          b Hall                 7  20      1 0
+KD Mackay                                b Ramadhin            28  78      2 0
+AK Davidson           run out                                  80 194      8 0
+*R Benaud             c Alexander        b Hall                52 136      6 0
++ATW Grout            run out                                   2   8   3  0 0
+I Meckiff             run out                                   2   7   3  0 0
+LF Kline              not out                                   0   1   1  0 0
+Extras                (b 2, lb 9, nb 3)                        14
+Total                 (all out, 68.7 overs)                   232
+
+FoW: 1-1 (Simpson), 2-7 (Harvey), 3-49 (O'Neill),
+     4-49 (McDonald), 5-57 (Favell), 6-92 (Mackay),
+     7-226 (Davidson), 8-228 (Benaud), 9-232 (Grout),
+     10-232 (Meckiff).
+
+Bowling                      O      M      R      W
+Hall                        17.7    3     63      5
+Worrell                     16      3     41      1
+Sobers                       8      0     30      0
+Valentine                   10      4     27      0
+Ramadhin                    17      3     57      1
+
+*** 12th Men: JW Martin (Australia) and LR Gibbs (West Indies)
+*** Davidson was the first man to complete the match double of 100 runs and
+    10 wickets in a Test match.
+
+*** The partnership of 134 for the seventh wicket, in the second innings, was
+    a record for Australia against the West Indies for that wicket.
+
+<END>

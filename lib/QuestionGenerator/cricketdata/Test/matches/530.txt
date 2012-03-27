@@ -1,0 +1,101 @@
+
+Test # 530
+Pakistan in England, 1962, 1st Test
+England v Pakistan
+Edgbaston, Birmingham
+31 May, 1,2,4 June 1962 (5-day match)
+
+Result: England won by an innings and 24 runs
+Series: England leads the 5-match series 1-0
+
+Toss: England
+Umpires: JS Buller and CS Elliott
+
+Close of play:
+ Day 1: England 386/4 (Graveney 96*, Parfitt 23*)
+ Day 2: England 544/5d, Pakistan 149/5 (Imtiaz Ahmed 1*, Mathias 2*)
+ Day 3: Pakistan 246, Pakistan 158/4 (Saeed Ahmed 30*, Javed Burki 9*)
+
+England 1st innings                                             R   M   B  4 6
+G Pullar                                 b D'Souza             22            0
+MC Cowdrey            c Imtiaz Ahmed     b Intikhab Alam      159 263     21 0
+*ER Dexter            c Javed Burki      b Intikhab Alam       72 135      7 2
+TW Graveney           c Ijaz Butt        b Mahmood Hussain     97 185     13 0
+KF Barrington         lbw                b Mahmood Hussain      9            0
+PH Parfitt            not out                                 101 195      9 2
+DA Allen              not out                                  79 112     11 0
+Extras                (lb 5)                                    5
+Total                 (5 wickets dec, 146 overs)              544
+
+DNB: +G Millman, GAR Lock, FS Trueman, JB Statham.
+
+FoW: 1-31 (Pullar), 2-197 (Dexter), 3-304 (Cowdrey),
+     4-330 (Barrington), 5-391 (Graveney).
+
+Bowling                      O      M      R      W
+Mahmood Hussain             43     14    130      2
+D'Souza                     46      9    161      1
+Intikhab Alam               25      2    117      2
+Nasim-ul-Ghani              30      7    109      0
+Saeed Ahmed                  2      0     22      0
+
+Pakistan 1st innings                                            R   M   B  4 6
+Hanif Mohammad        c Millman          b Allen               47            0
+Ijaz Butt             c Lock             b Statham             10            0
+Saeed Ahmed           c Graveney         b Trueman              5            0
+Mushtaq Mohammad      c Cowdrey          b Lock                63            0
+*Javed Burki          c Barrington       b Allen               13            0
++Imtiaz Ahmed                            b Trueman             39            0
+W Mathias                                b Statham             21            0
+Nasim-ul-Ghani                           b Statham              0          0 0
+Intikhab Alam                            b Lock                16            0
+Mahmood Hussain                          b Statham              0   1   1  0 0
+A D'Souza             not out                                  23            0
+Extras                (b 8, lb 1)                               9
+Total                 (all out, 101 overs)                    246
+
+FoW: 1-11 (Ijaz Butt), 2-30 (Saeed Ahmed),
+     3-108 (Hanif Mohammad), 4-144 (Javed Burki),
+     5-146 (Mushtaq Mohammad), 6-202 (Mathias),
+     7-206 (Imtiaz Ahmed), 8-206 (Nasim-ul-Ghani),
+     9-206 (Mahmood Hussain), 10-246 (Intikhab Alam).
+
+Bowling                      O      M      R      W
+Statham                     21      9     54      4
+Trueman                     13      3     59      2
+Dexter                      12      6     23      0
+Allen                       32     16     62      2
+Lock                        19      8     37      2
+Parfitt                      2      1      2      0
+Barrington                   2      2      0      0
+
+Pakistan 2nd innings (following on)                             R   M   B  4 6
+Hanif Mohammad        c Cowdrey          b Allen               31 115        0
+Ijaz Butt             c Trueman          b Allen               33  85        0
++Imtiaz Ahmed         c Graveney         b Lock                46  74      5 1
+Mushtaq Mohammad      c Millman          b Allen                8            0
+Saeed Ahmed           c Parfitt          b Lock                65 135        0
+*Javed Burki                             b Statham             19            0
+W Mathias                                b Statham              4            0
+Nasim-ul-Ghani        c Parfitt          b Trueman             35            0
+Intikhab Alam         c Cowdrey          b Lock                 0          0 0
+Mahmood Hussain       c Graveney         b Trueman             22            0
+A D'Souza             not out                                   9            0
+Extras                (b 1, lb 1)                               2
+Total                 (all out, 123 overs)                    274
+
+FoW: 1-60 (Ijaz Butt), 2-77 (Hanif Mohammad),
+     3-119 (Imtiaz Ahmed), 4-127 (Mushtaq Mohammad),
+     5-187 (Javed Burki), 6-199 (Mathias), 7-207 (Saeed Ahmed),
+     8-207 (Intikhab Alam), 9-257 (Mahmood Hussain),
+     10-274 (Nasim-ul-Ghani).
+
+Bowling                      O      M      R      W
+Trueman                     24      5     70      2
+Statham                     19      6     32      2
+Dexter                       7      2     16      0
+Lock                        36     14     80      3
+Allen                       36     16     73      3
+Cowdrey                      1      0      1      0
+
+<END>

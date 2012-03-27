@@ -1,0 +1,104 @@
+
+Test # 1009
+Pakistan in New Zealand, 1984/85, 1st Test
+New Zealand v Pakistan
+Basin Reserve, Wellington
+18,19,20,21,22 January 1985 (5-day match)
+
+Result: Match drawn
+Series: 3-match series level 0-0
+
+Toss: New Zealand
+Umpires: GC Morris and SJ Woodward
+
+Close of play:
+ Day 1: New Zealand 220/4 (Reid 86*, Coney 42*)
+ Day 2: New Zealand 485/7 (Smith 63*, Cairns 34*)
+ Day 3: New Zealand 492, Pakistan 236/7 (Abdul Qadir 23*, Anil Dalpat 0*)
+ Day 4: Pakistan 322, New Zealand 103/4 (JJ Crowe 19*, Coney 18*, 45 ov)
+ Day 5: No play
+
+New Zealand 1st innings                                         R   M   B  4 6
+*GP Howarth           run out                                  33 106  71  5 0
+JG Wright             c Shoaib Mohammad  b Azeem Hafeez        11  59  45  1 0
+JF Reid                                  b Azeem Hafeez       148 572 427 15 0
+MD Crowe              c Anil Dalpat      b Iqbal Qasim         37  94  66  8 0
+JJ Crowe              c Shoaib Mohammad  b Iqbal Qasim          4  27  20  0 0
+JV Coney                                 b Abdul Qadir         48 174 114  7 0
+RJ Hadlee             c Javed Miandad    b Azeem Hafeez        89 190 144  9 0
++IDS Smith                           c & b Mudassar Nazar      65 142  95  7 0
+BL Cairns                                b Azeem Hafeez        36  94  62  1 1
+SL Boock              c Anil Dalpat      b Azeem Hafeez         0   3   4  0 0
+EJ Chatfield          not out                                   3   6   5  0 0
+Extras                (b 5, lb 12, nb 1)                       18
+Total                 (all out, 175 overs)                    492
+
+FoW: 1-24 (Wright), 2-61 (Howarth), 3-126 (MD Crowe),
+     4-138 (JJ Crowe), 5-230 (Coney), 6-375 (Hadlee),
+     7-414 (Reid), 8-488 (Cairns), 9-488 (Boock), 10-492 (Smith).
+
+Bowling                      O      M      R      W
+Mudassar Nazar              29      5     80      1
+Azeem Hafeez                48     12    127      5
+Abdul Qadir                 51     13    142      1
+Iqbal Qasim                 41      5    105      2
+Wasim Raja                   2      0     10      0
+Shoaib Mohammad              1      0      4      0
+Javed Miandad                3      1      7      0
+
+Pakistan 1st innings                                            R   M   B  4 6
+Mudassar Nazar                       c & b Boock               38 179 139  2 0
+Mohsin Khan           c Wright           b Boock               40  88  68  4 0
+Shoaib Mohammad       run out                                   7  45  43  1 0
+Qasim Umar                               b Boock                8  15  19  1 0
+*Javed Miandad        c Smith            b Boock               30 101  93  4 0
+Saleem Malik          c Cairns           b Hadlee              66 140 114 12 0
+Wasim Raja            c MD Crowe         b Boock               14  33  28  2 0
+Abdul Qadir           c Smith            b Hadlee              54  98  90  5 1
++Anil Dalpat          c Smith            b Chatfield           15 118  97  2 0
+Iqbal Qasim           not out                                  27  79  63  3 0
+Azeem Hafeez          c Boock            b Cairns               3  25  25  0 0
+Extras                (b 9, lb 9, nb 2)                        20
+Total                 (all out, 129.4 overs)                  322
+
+FoW: 1-62 (Mohsin Khan), 2-85 (Shoaib Mohammad),
+     3-95 (Qasim Umar), 4-102 (Mudassar Nazar),
+     5-161 (Javed Miandad), 6-187 (Wasim Raja),
+     7-223 (Saleem Malik), 8-288 (Abdul Qadir),
+     9-309 (Anil Dalpat), 10-322 (Azeem Hafeez).
+
+Bowling                      O      M      R      W
+Hadlee                      32     11     70      2
+Cairns                      27.4    5     65      1
+Chatfield                   25     10     52      1
+Boock                       45     18    117      5
+
+New Zealand 2nd innings                                         R   M   B  4 6
+*GP Howarth           c Anil Dalpat      b Azeem Hafeez        17  30  17  1 0
+JG Wright             lbw                b Mudassar Nazar      11  25  20  2 0
+JF Reid               c Abdul Qadir      b Iqbal Qasim          3  36  14  0 0
+MD Crowe              c Abdul Qadir      b Iqbal Qasim         33  86  74  5 0
+JJ Crowe              not out                                  19 122 101  1 0
+JV Coney              not out                                  18  86  45  1 0
+Extras                (lb 2)                                    2
+Total                 (4 wickets, 45 overs)                   103
+
+DNB: RJ Hadlee, +IDS Smith, BL Cairns, SL Boock, EJ Chatfield.
+
+FoW: 1-24 (Wright), 2-30 (Howarth), 3-42 (Reid), 4-73 (MD Crowe).
+
+Bowling                      O      M      R      W
+Mudassar Nazar               6      3     13      1
+Azeem Hafeez                15      3     51      1
+Abdul Qadir                  8      1     18      0
+Iqbal Qasim                 16      8     19      2
+
+*** NZ 1st innings
+*** JF Reid 148 runs, 427b, 572m
+*** Reid/Hadlee 6th wicket partnership record against Pakistan (145 runs in
+    190 min.)
+
+*** Pak 1st innings
+*** Boock the first NZ slow bowler to take 5 wickets in a Wellington Test.
+
+<END>

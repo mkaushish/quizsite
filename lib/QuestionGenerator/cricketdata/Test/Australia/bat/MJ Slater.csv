@@ -1,0 +1,132 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+1223, 1993-06-03, 1, 2, England, c Stewart, DeFreitas, 58, 165, 131, 7, 0
+1223, 1993-06-03, 3, 2, England, c Caddick, Such, 27, 65, 48, 2, 0
+1224, 1993-06-17, 1, 2, England, c sub (BF Smith), Lewis, 152, 295, 263, 18, 0
+1225, 1993-07-01, 2, 1, England, lbw, Caddick, 40, 101, 76, 5, 0
+1225, 1993-07-01, 4, 1, England, , Such, 26, 57, 36, 5, 0
+1227, 1993-07-22, 1, 1, England, , Ilott, 67, 136, 103, 8, 0
+1230, 1993-08-05, 2, 2, England, c Smith, Such, 22, 73, 60, 4, 0
+1230, 1993-08-05, 4, 1, England, c Thorpe, Emburey, 8, 43, 41, 0, 0
+1231, 1993-08-19, 2, 2, England, c Gooch, Malcolm, 4, 11, 7, 0, 0
+1231, 1993-08-19, 4, 1, England, c Stewart, Watkin, 12, 32, 25, 2, 0
+1235, 1993-11-12, 1, 2, New Zealand, c Patel, Cairns, 10, 47, 35, 2, 0
+1235, 1993-11-12, 3, 1, New Zealand, c Blain, Patel, 99, 243, 181, 13, 0
+1236, 1993-11-26, 1, 2, New Zealand, c Morrison, Patel, 168, 328, 235, 17, 0
+1238, 1993-12-03, 2, 1, New Zealand, c Blain, Patel, 28, 118, 91, 1, 0
+1242, 1993-12-26, 1, 2, South Africa, c Kirsten, Donald, 32, 104, 89, 1, 0
+1243, 1994-01-02, 2, 1, South Africa, , Donald, 92, 380, 262, 5, 0
+1243, 1994-01-02, 4, 2, South Africa, , de Villiers, 1, 15, 7, 0, 0
+1246, 1994-01-28, 1, 2, South Africa, c Rhodes, Donald, 53, 115, 82, 6, 0
+1246, 1994-01-28, 3, 2, South Africa, lbw, Donald, 7, 29, 17, 0, 0
+1252, 1994-03-04, 2, 1, South Africa, c Hudson, de Villiers, 26, 31, 32, 3, 0
+1252, 1994-03-04, 4, 1, South Africa, , de Villiers, 41, 130, 96, 6, 0
+1253, 1994-03-17, 2, 1, South Africa, c PN Kirsten, de Villiers, 26, 56, 41, 3, 0
+1253, 1994-03-17, 4, 2, South Africa, not out, , 43, 147, 85, 5, 0
+1256, 1994-03-25, 1, 1, South Africa, c Rhodes, Matthews, 20, 78, 56, 2, 0
+1256, 1994-03-25, 3, 1, South Africa, lbw, Donald, 95, 276, 202, 11, 0
+1268, 1994-09-28, 1, 1, Pakistan, lbw, Wasim Akram, 36, 103, 63, 3, 0
+1268, 1994-09-28, 3, 2, Pakistan, lbw, Mushtaq Ahmed, 23, 66, 51, 3, 0
+1269, 1994-10-05, 1, 2, Pakistan, c Inzamam-ul-Haq, Mohsin Kamal, 110, 250, 155, 14, 0
+1269, 1994-10-05, 4, 1, Pakistan, , Waqar Younis, 1, 1, 2, 0, 0
+1273, 1994-11-01, 2, 1, Pakistan, c Moin Khan, Mohsin Kamal, 74, 197, 135, 10, 0
+1275, 1994-11-25, 1, 1, England, c Gatting, Gooch, 176, 324, 244, 25, 0
+1275, 1994-11-25, 3, 2, England, lbw, Gough, 45, 110, 79, 5, 0
+1279, 1994-12-24, 1, 1, England, run out (DeFreitas/Gatting), , 3, 26, 19, 0, 0
+1279, 1994-12-24, 3, 2, England, st Rhodes, Tufnell, 44, 121, 74, 5, 0
+1281, 1995-01-01, 2, 1, England, , Malcolm, 11, 36, 24, 1, 0
+1281, 1995-01-01, 4, 2, England, c Tufnell, Fraser, 103, 283, 236, 10, 0
+1284, 1995-01-26, 2, 1, England, c Atherton, DeFreitas, 67, 152, 114, 6, 0
+1284, 1995-01-26, 4, 2, England, c Tufnell, Malcolm, 5, 51, 29, 0, 0
+1287, 1995-02-03, 1, 1, England, c Lewis, DeFreitas, 124, 296, 231, 13, 0
+1287, 1995-02-03, 3, 2, England, c Atherton, Fraser, 45, 82, 55, 8, 0
+1294, 1995-03-31, 2, 1, West Indies, c Williams, WKM Benjamin, 18, 51, 33, 2, 0
+1294, 1995-03-31, 4, 2, West Indies, not out, , 20, 29, 19, 4, 0
+1295, 1995-04-08, 1, 1, West Indies, c Adams, Walsh, 41, 130, 85, 6, 1
+1295, 1995-04-08, 3, 2, West Indies, c Richardson, Walsh, 18, 79, 55, 1, 0
+1296, 1995-04-21, 1, 2, West Indies, c Murray, Walsh, 0, 5, 3, 0, 0
+1296, 1995-04-21, 3, 1, West Indies, c Richardson, Walsh, 15, 46, 38, 1, 0
+1297, 1995-04-29, 2, 2, West Indies, c Lara, Walsh, 27, 103, 65, 2, 0
+1311, 1995-11-09, 1, 2, Pakistan, c Mohammad Akram, Wasim Akram, 42, 178, 113, 3, 0
+1313, 1995-11-17, 1, 1, Pakistan, lbw, Wasim Akram, 0, 3, 6, 0, 0
+1313, 1995-11-17, 3, 2, Pakistan, lbw, Mushtaq Ahmed, 73, 120, 89, 8, 1
+1314, 1995-11-30, 2, 1, Pakistan, , Wasim Akram, 1, 1, 2, 0, 0
+1314, 1995-11-30, 4, 2, Pakistan, lbw, Mushtaq Ahmed, 23, 59, 46, 3, 0
+1317, 1995-12-08, 2, 1, Sri Lanka,                c &, Muralitharan, 219, 460, 321, 15, 5
+1319, 1995-12-26, 1, 1, Sri Lanka, c Wickramasinghe, Vaas, 62, 196, 132, 8, 0
+1319, 1995-12-26, 4, 2, Sri Lanka, not out, , 13, 31, 26, 2, 0
+1324, 1996-01-25, 1, 2, Sri Lanka, c Kaluwitharana, Vaas, 0, 1, 1, 0, 0
+1324, 1996-01-25, 3, 1, Sri Lanka, , Wickramasinghe, 15, 60, 34, 1, 0
+1335, 1996-10-10, 1, 1, India,                c &, Kumble, 44, 130, 96, 6, 0
+1335, 1996-10-10, 3, 2, India, c Azharuddin, Johnson, 0, 7, 2, 0, 0
+1405, 1998-03-06, 2, 2, India, c Dravid, Kumble, 11, 43, 34, 2, 0
+1405, 1998-03-06, 4, 1, India, , Srinath, 13, 37, 23, 2, 0
+1409, 1998-03-18, 1, 1, India, c Dravid, Srinath, 0, 3, 6, 0, 0
+1409, 1998-03-18, 3, 2, India, , Srinath, 5, 22, 14, 0, 0
+1413, 1998-03-25, 2, 1, India, c Mongia, Harvinder Singh, 91, 140, 117, 14, 2
+1413, 1998-03-25, 4, 2, India, c Azharuddin, Tendulkar, 42, 108, 73, 3, 1
+1424, 1998-10-01, 2, 1, Pakistan, c Mohammad Wasim, Mohammad Hussain, 108, 298, 238, 12, 1
+1426, 1998-10-15, 1, 2, Pakistan, c Azhar Mahmood, Shoaib Akhtar, 2, 50, 27, 0, 0
+1426, 1998-10-15, 3, 1, Pakistan, lbw, Mushtaq Ahmed, 21, 41, 24, 3, 0
+1427, 1998-10-22, 1, 2, Pakistan, st Moin Khan, Arshad Khan, 96, 330, 257, 9, 2
+1427, 1998-10-22, 3, 2, Pakistan, c Yousuf Youhana, Arshad Khan, 11, 25, 23, 1, 0
+1428, 1998-11-20, 1, 2, England, c Butcher, Mullally, 16, 67, 40, 2, 0
+1428, 1998-11-20, 3, 1, England,                c &, Fraser, 113, 190, 139, 13, 1
+1431, 1998-11-28, 2, 2, England, c Butcher, Gough, 34, 102, 70, 6, 0
+1431, 1998-11-28, 4, 1, England,                c &, Gough, 17, 40, 38, 1, 0
+1434, 1998-12-11, 1, 1, England, c Stewart, Headley, 17, 52, 37, 1, 0
+1434, 1998-12-11, 3, 2, England, lbw, Gough, 103, 276, 191, 8, 1
+1436, 1998-12-26, 2, 2, England, lbw, Gough, 1, 18, 14, 0, 0
+1436, 1998-12-26, 4, 1, England, lbw, Headley, 18, 26, 23, 3, 0
+1439, 1999-01-02, 1, 2, England, c Hegg, Headley, 18, 63, 35, 2, 0
+1439, 1999-01-02, 3, 1, England, c Hegg, Headley, 123, 271, 189, 11, 3
+1448, 1999-03-05, 1, 1, West Indies, c Dillon, Collins, 23, 60, 48, 1, 0
+1448, 1999-03-05, 3, 2, West Indies, st Jacobs, Adams, 106, 285, 205, 12, 0
+1451, 1999-03-13, 1, 1, West Indies, c Jacobs, Walsh, 22, 80, 49, 3, 0
+1451, 1999-03-13, 3, 2, West Indies, , Walsh, 0, 7, 4, 0, 0
+1453, 1999-03-26, 1, 1, West Indies, c Lara, Ambrose, 23, 61, 43, 2, 1
+1453, 1999-03-26, 3, 2, West Indies, run out (Campbell), , 26, 73, 49, 4, 0
+1454, 1999-04-03, 1, 1, West Indies, c Joseph, Perry, 33, 119, 84, 2, 1
+1454, 1999-04-03, 3, 2, West Indies, , Walsh, 44, 156, 103, 1, 2
+1459, 1999-09-09, 1, 1, Sri Lanka, lbw, Vaas, 0, 2, 2, 0, 0
+1459, 1999-09-09, 3, 2, Sri Lanka, lbw, Muralitharan, 27, 61, 50, 3, 0
+1460, 1999-09-22, 2, 1, Sri Lanka, st Kaluwitharana, Muralitharan, 96, 273, 220, 5, 2
+1461, 1999-10-30, 1, 2, Sri Lanka, st Kaluwitharana, Arnold, 59, 191, 144, 6, 0
+1463, 1999-10-14, 2, 1, Zimbabwe, c A Flower, Strang, 4, 22, 19, 1, 0
+1463, 1999-10-14, 4, 2, Zimbabwe, not out, , 0, 2, 0, 0, 0
+1467, 1999-11-05, 2, 1, Pakistan, c Yousuf Youhana, Azhar Mahmood, 169, 351, 271, 25, 1
+1467, 1999-11-05, 4, 2, Pakistan, not out, , 32, 56, 38, 5, 0
+1469, 1999-11-18, 2, 1, Pakistan, c Ijaz Ahmed, Saqlain Mushtaq, 97, 254, 195, 10, 0
+1469, 1999-11-18, 4, 2, Pakistan, c Azhar Mahmood, Shoaib Akhtar, 27, 74, 48, 3, 0
+1472, 1999-11-26, 2, 1, Pakistan, lbw, Wasim Akram, 0, 1, 2, 0, 0
+1476, 1999-12-10, 1, 2, India, c Ramesh, Ganguly, 28, 69, 47, 4, 1
+1476, 1999-12-10, 3, 1, India, c Ganguly, Srinath, 0, 10, 9, 0, 0
+1479, 1999-12-26, 1, 2, India, c Srinath, BKV Prasad, 91, 269, 179, 10, 0
+1479, 1999-12-26, 3, 1, India, lbw, Agarkar, 3, 15, 7, 0, 0
+1481, 2000-01-02, 2, 2, India, c MSK Prasad, Srinath, 1, 18, 11, 0, 0
+1488, 2000-03-11, 1, 1, New Zealand, , Cairns, 5, 18, 19, 1, 0
+1488, 2000-03-11, 3, 2, New Zealand, c Horne, Cairns, 6, 11, 14, 1, 0
+1491, 2000-03-24, 2, 1, New Zealand, c Parore, McMillan, 143, 277, 214, 22, 1
+1491, 2000-03-24, 4, 1, New Zealand, st Parore, Vettori, 12, 37, 23, 2, 0
+1493, 2000-03-31, 2, 2, New Zealand, lbw, O'Connor, 2, 38, 29, 0, 0
+1493, 2000-03-31, 4, 1, New Zealand, lbw, O'Connor, 9, 13, 12, 2, 0
+1516, 2000-10-23, 2, 1, West Indies, c Campbell, Black, 54, 175, 137, 6, 0
+1520, 2000-11-01, 2, 2, West Indies, c Campbell, Dillon, 19, 73, 47, 3, 0
+1523, 2000-11-15, 2, 1, West Indies, c sub (RR Sarwan), Samuels, 83, 182, 123, 8, 0
+1523, 2000-11-15, 4, 2, West Indies, c Jacobs, Dillon, 1, 6, 5, 0, 0
+1525, 2000-11-26, 1, 1, West Indies, c Jacobs, McLean, 30, 84, 65, 1, 0
+1525, 2000-11-26, 3, 2, West Indies, c Lara, Dillon, 4, 8, 5, 1, 0
+1527, 2001-01-02, 2, 1, West Indies, c Samuels, Nagamootoo, 96, 174, 142, 13, 0
+1527, 2001-01-02, 4, 2, West Indies, not out, , 86, 189, 129, 10, 0
+1531, 2001-02-27, 2, 1, India, , Agarkar, 10, 36, 24, 1, 0
+1531, 2001-02-27, 4, 2, India, not out, , 19, 25, 21, 4, 0
+1535, 2001-02-11, 1, 1, India, c Mongia, Khan, 42, 134, 99, 7, 1
+1535, 2001-02-11, 4, 2, India, c Ganguly, Harbhajan Singh, 43, 92, 79, 7, 0
+1539, 2001-02-18, 1, 1, India, c Laxman, Khan, 4, 2, 3, 1, 0
+1539, 2001-02-18, 3, 2, India, c Laxman, Harbhajan Singh, 48, 98, 82, 4, 2
+1550, 2001-06-05, 2, 1, England, , Gough, 77, 111, 82, 13, 0
+1552, 2001-06-19, 2, 1, England, c Stewart, Caddick, 25, 111, 62, 2, 0
+1552, 2001-06-19, 4, 2, England, c Butcher, Caddick, 4, 6, 5, 1, 0
+1554, 2001-07-02, 2, 1, England, , Gough, 15, 75, 49, 1, 0
+1554, 2001-07-02, 4, 2, England, c Trescothick, Caddick, 12, 25, 17, 2, 0
+1556, 2001-07-16, 1, 1, England, lbw, Caddick, 21, 49, 40, 2, 0
+1556, 2001-07-16, 3, 2, England, , Gough, 16, 36, 23, 2, 0

@@ -1,0 +1,55 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+489, 1960-02-17, 2, 5, England, c Smith, Illingworth, 70, na, na, na, 0
+489, 1960-02-17, 4, 5, England, , Trueman, 11, na, na, na, 0
+500, 1961-12-30, 2, 3, Australia, c Grout, Davidson, 70, 305, 259, 1, 0
+500, 1961-12-30, 3, 3, Australia, run out, , 3, 15, 17, 0, 0
+502, 1961-01-13, 1, 6, Australia, c Simpson, Benaud, 43, 112, 118, 5, 0
+502, 1961-01-13, 3, 6, Australia,                c &, Mackay, 11, 58, 57, 0, 0
+504, 1961-01-27, 1, 6, Australia,                c &, Misson, 49, 121, na, 3, 0
+504, 1961-01-27, 3, 6, Australia, c Simpson, Benaud, 5, 13, na, 1, 0
+528, 1962-04-04, 1, 4, India,                c &, Durani, 1, 10, na, 0, 0
+528, 1962-04-04, 4, 4, India, not out, , 46, na, na, na, 0
+580, 1965-03-03, 1, 2, Australia, c Grout, Hawke, 15, na, na, na, 0
+580, 1965-03-03, 3, 2, Australia, run out, , 17, na, na, na, 0
+588, 1965-04-14, 1, 5, Australia,                c &, Hawke, 42, na, na, na, 0
+588, 1965-04-14, 3, 5, Australia, st Grout, Philpott, 6, na, na, na, 0
+589, 1965-05-05, 2, 5, Australia, c Simpson, Hawke, 201, na, na, na, 0
+589, 1965-05-05, 4, 6, Australia, lbw, Hawke, 0, na, na, 0, 0
+590, 1965-05-14, 1, 5, Australia, , McKenzie, 9, na, na, na, 0
+590, 1965-05-14, 3, 5, Australia, lbw, Hawke, 1, na, na, 0, 0
+605, 1966-06-02, 1, 5, England, , Titmus, 49, 85, 72, 5, 0
+606, 1966-06-16, 1, 5, England, , D'Oliveira, 64, 158, 130, 6, 0
+606, 1966-06-16, 3, 5, England, c Parks, D'Oliveira, 35, 48, 39, 3, 0
+607, 1966-06-30, 1, 5, England, c Illingworth, Snow, 93, 169, 142, 11, 0
+607, 1966-06-30, 3, 5, England, lbw, Higgs, 53, 106, 91, 4, 1
+608, 1966-08-04, 1, 5, England, c Titmus, Snow, 137, 341, 323, 14, 2
+609, 1966-08-18, 1, 5, England, c Graveney, D'Oliveira, 0, 2, 4, 0, 0
+609, 1966-08-18, 3, 5, England, c Edrich, Barber, 70, 129, 121, 14, 0
+612, 1967-12-31, 1, 6, India, c Surti, Jaisimha, 56, 148, na, 3, 1
+614, 1967-01-13, 2, 6, India, , Chandrasekhar, 26, 34, na, 5, 1
+614, 1967-01-13, 4, 6, India, lbw, Bedi, 0, 2, na, 0, 0
+627, 1968-01-19, 2, 1, England, c Graveney, Titmus, 41, 175, na, 6, 0
+627, 1968-01-19, 3, 1, England, , Titmus, 42, 85, na, 6, 0
+629, 1968-02-08, 2, 4, England, , Jones, 22, 88, na, 2, 0
+629, 1968-02-08, 3, 2, England, , Snow, 73, 159, na, 12, 0
+633, 1968-02-29, 1, 1, England, c Cowdrey, Brown, 26, 150, na, 3, 0
+633, 1968-02-29, 3, 1, England, c Parks, Snow, 19, 27, na, 2, 0
+635, 1968-03-14, 1, 3, England, c Edrich, Barrington, 136, 331, na, 12, 0
+635, 1968-03-14, 3, 3, England, run out, , 9, 28, na, 0, 0
+636, 1968-03-28, 1, 1, England, c Knott, Snow, 17, 57, 35, 1, 0
+636, 1968-03-28, 3, 1, England, lbw, Snow, 49, 84, 54, 5, 1
+642, 1968-12-06, 1, 4, Australia, c Jarman, McKenzie, 25, 69, na, 4, 0
+642, 1968-12-06, 3, 2, Australia, c Mallett, Gleeson, 16, 44, na, 1, 0
+643, 1968-12-26, 1, 4, Australia, c Jarman, Freeman, 22, 32, 30, 2, 0
+643, 1968-12-26, 3, 5, Australia, c Stackpole, Gleeson, 74, 196, 192, 7, 0
+644, 1969-01-03, 1, 5, Australia, c Redpath, Connolly, 3, 20, 19, 0, 0
+644, 1969-01-03, 3, 5, Australia, c Stackpole, McKenzie, 17, 42, 35, 3, 0
+645, 1969-01-24, 1, 5, Australia,                c &, McKenzie, 5, 22, na, 0, 0
+645, 1969-01-24, 3, 6, Australia, lbw, Gleeson, 40, 45, na, 4, 0
+646, 1969-02-14, 2, 7, Australia, c Stackpole, Connolly, 9, 14, 16, 0, 0
+646, 1969-02-14, 4, 7, Australia, , Gleeson, 137, 200, 204, 18, 1
+648, 1969-02-27, 2, 3, New Zealand, c Turner, Pollard, 95, 216, na, 11, 1
+648, 1969-02-27, 4, 3, New Zealand, c Yuile, Motz, 168, 215, na, 22, 2
+651, 1969-03-07, 1, 3, New Zealand, , Motz, 21, na, na, na, 0
+651, 1969-03-07, 3, 3, New Zealand, c Congdon, Cunis, 16, na, na, na, 0
+652, 1969-03-13, 1, 3, New Zealand, st Milburn, Yuile, 258, 476, na, 34, 1

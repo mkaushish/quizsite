@@ -1,0 +1,100 @@
+
+Test # 175
+West Indies in England, 1928, 3rd Test
+England v West Indies
+Kennington Oval, London
+11,13,14 August 1928 (3-day match)
+
+Result: England won by an innings and 71 runs
+Series: England wins the 3-match series 3-0
+
+Toss: West Indies
+Umpires: J Hardstaff snr and TW Oates
+Test debuts: M Leyland (England); EL Bartlett, CV Wight (West Indies).
+
+Close of play:
+ Day 1: West Indies 238, England 155/1 (Hobbs 89*, Tyldesley 0*)
+ Day 2: England 438, West Indies 61/4 (Martin 21*, Scott 1*)
+
+West Indies 1st innings                                         R   M   B  4 6
+G Challenor           c Hammond          b Leyland             46            0
+CA Roach                                 b Larwood             53  70        0
+FR Martin             c Chapman          b Freeman             25  90        0
+*+RK Nunes                               b Tate                 0          0 0
+EL Bartlett                              b Larwood             13            0
+OC Scott              c Duckworth        b Tate                35            0
+LN Constantine        c Chapman          b Hammond             37  45        0
+CV Wight              c Chapman          b Tate                23            0
+JA Small              lbw                b Freeman              0          0 0
+HC Griffith           not out                                   0          0 0
+GN Francis            c Chapman          b Tate                 4            0
+Extras                (b 2)                                     2
+Total                 (all out, 80 overs)                     238
+
+FoW: 1-91 (Roach), 2-112 (Challenor), 3-113 (Nunes),
+     4-132 (Bartlett), 5-160 (Martin), 6-177 (Scott),
+     7-231 (Constantine), 8-234 (Small), 9-234 (Wight),
+     10-238 (Francis).
+
+Bowling                      O      M      R      W
+Larwood                     21      6     46      2
+Tate                        21      4     59      4
+Freeman                     27      8     85      2
+Hammond                      8      0     40      1
+Leyland                      3      0      6      1
+
+England 1st innings                                             R   M   B  4 6
+JB Hobbs              c Small            b Francis            159 240     20 0
+H Sutcliffe                              b Francis             63            0
+GE Tyldesley          c Constantine      b Griffith            73            0
+WR Hammond            c Small            b Griffith             3          0 0
+M Leyland                                b Griffith             0          0 0
+EH Hendren            c Roach            b Griffith            14            0
+*APF Chapman          c Constantine      b Griffith             5            0
+MW Tate               c Griffith         b Francis             54          7 1
+H Larwood                            c & b Francis             32            0
++G Duckworth          not out                                   7            0
+AP Freeman            c Francis          b Griffith            19            0
+Extras                (b 1, lb 2, nb 6)                         9
+Total                 (all out, 103.5 overs)                  438
+
+FoW: 1-155 (Sutcliffe), 2-284 (Hobbs), 3-305 (Tyldesley),
+     4-305 (Leyland), 5-310 (Hammond), 6-322 (Chapman),
+     7-333 (Hendren), 8-394 (Larwood), 9-413 (Tate),
+     10-438 (Freeman).
+
+Bowling                      O      M      R      W
+Francis                     27      4    112      4
+Constantine                 20      3     91      0
+Griffith                    25.5    4    103      6
+Scott                       14      1     75      0
+Small                       15      2     39      0
+Martin                       2      1      9      0
+
+West Indies 2nd innings                                         R   M   B  4 6
+G Challenor           c Hammond          b Freeman              2          0 0
+CA Roach                                 b Larwood             12            0
+FR Martin                                b Tate                41 110        0
+*+RK Nunes            c Hendren          b Larwood             12            0
+EL Bartlett           c Larwood          b Freeman              8            0
+OC Scott              c Duckworth        b Larwood              4            0
+LN Constantine        c Larwood          b Tate                17            1
+CV Wight              not out                                  12            0
+JA Small              c Freeman          b Tate                 2          0 0
+HC Griffith           c Hammond          b Freeman              5            0
+GN Francis            c Hammond          b Freeman              4            0
+Extras                (b 6, lb 4)                              10
+Total                 (all out, 52.4 overs)                   129
+
+FoW: 1-12 (Roach), 2-26 (Challenor), 3-46 (Nunes),
+     4-59 (Bartlett), 5-70 (Scott), 6-102 (Constantine),
+     7-102 (Martin), 8-110 (Small), 9-123 (Griffith),
+     10-129 (Francis).
+
+Bowling                      O      M      R      W
+Larwood                     14      3     41      3
+Tate                        13      4     27      3
+Freeman                     21.4    4     47      4
+Hammond                      4      2      4      0
+
+<END>

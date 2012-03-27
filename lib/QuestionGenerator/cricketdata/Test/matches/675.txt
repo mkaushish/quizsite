@@ -1,0 +1,127 @@
+
+Test # 675
+The Ashes, 1970/71, 2nd Test
+Australia v England
+Western Australia Cricket Association Ground, Perth
+11,12,13,15,16 December 1970 (5-day match)
+
+Result: Match drawn
+Series: 6-match series level 0-0
+
+Toss: Australia
+Umpires: TF Brooks and LP Rowan
+Balls per over: 8
+Test debuts: GS Chappell (Australia); P Lever (England).
+
+Close of play:
+ Day 1: England 257/2 (Edrich 39*, Knott 6*)
+ Day 2: England 397, Australia 84/3 (IM Chappell 43*, Redpath 24*)
+ Day 3: Australia 355/6 (Redpath 159*, Marsh 6*)
+ Day 4: Australia 440, England 137/4 (Edrich 38*, D'Oliveira 22*)
+
+England 1st innings                                             R   M   B  4 6
+G Boycott             c McKenzie         b Gleeson             70 255 243  3 0
+BW Luckhurst                             b McKenzie           131 340 301 13 0
+JH Edrich             run out                                  47 165 139  1 0
++APE Knott            c Stackpole        b Thomson             24  56  52  0 0
+KWR Fletcher                             b Walters             22  65  61  3 0
+MC Cowdrey                           c & b GS Chappell         40 155 132  2 0
+BL D'Oliveira         c Stackpole        b Thomson              8  28  24  0 0
+*R Illingworth                           b McKenzie            34  87  85  4 0
+JA Snow               not out                                   4  23  13  0 0
+K Shuttleworth                           b McKenzie             2  11  15  0 0
+P Lever                                  b McKenzie             2   8   9  0 0
+Extras                (lb 8, w 1, nb 4)                        13
+Total                 (all out, 133.4 overs)                  397
+
+FoW: 1-171 (Boycott), 2-243 (Luckhurst), 3-281 (Knott),
+     4-291 (Edrich), 5-310 (Fletcher), 6-327 (D'Oliveira),
+     7-389 (Cowdrey), 8-389 (Illingworth), 9-393 (Shuttleworth),
+     10-397 (Lever).
+
+Bowling                      O      M      R      W
+McKenzie                    31.4    4     66      4
+Thomson                     24      4    118      2
+GS Chappell                 24      4     54      1
+Gleeson                     32     10     78      1
+Walters                     11      1     35      1
+Stackpole                   11      2     33      0
+
+Australia 1st innings                                           R   M   B  4 6
+*WM Lawry             c Illingworth      b Snow                 0  23  17  0 0
+KR Stackpole          c Lever            b Snow                 5  12   7  1 0
+IM Chappell           c Knott            b Snow                50 137 103  4 0
+KD Walters            c Knott            b Lever                7  24  20  1 0
+IR Redpath                           c & b Illingworth        171 484 372 14 0
+AP Sheahan            run out                                   2   6   6  0 0
+GS Chappell           c Luckhurst        b Shuttleworth       108 272 218 10 0
++RW Marsh             c D'Oliveira       b Shuttleworth        44 137 126  4 0
+GD McKenzie           c Lever            b D'Oliveira           7  14  12  0 1
+JW Gleeson            c Knott            b Snow                15  38  35  3 0
+AL Thomson            not out                                  12  18  12  1 0
+Extras                (b 5, lb 4, nb 10)                       19
+Total                 (all out, 114.5 overs)                  440
+
+FoW: 1-5 (Stackpole), 2-8 (Lawry), 3-17 (Walters),
+     4-105 (IM Chappell), 5-107 (Sheahan), 6-326 (GS Chappell),
+     7-393 (Redpath), 8-408 (McKenzie), 9-426 (Marsh),
+     10-440 (Gleeson).
+
+Bowling                      O      M      R      W
+Snow                        33.5    3    143      4
+Shuttleworth                28      4    105      2
+Lever                       21      3     78      1
+D'Oliveira                  17      1     41      1
+Illingworth                 13      2     43      1
+Boycott                      1      0      7      0
+Fletcher                     1      0      4      0
+
+England 2nd innings                                             R   M   B  4 6
+G Boycott             st Marsh           b Gleeson             50 157 131  4 0
+BW Luckhurst          c Stackpole        b Walters             19 107  89  1 0
+JH Edrich             not out                                 115 346 332 16 0
+KWR Fletcher          lbw                b Gleeson              0   2   5  0 0
+MC Cowdrey            c Marsh            b Thomson              1  13  13  0 0
+BL D'Oliveira                            b Gleeson             31  94  76  2 0
+*R Illingworth        c Marsh            b Stackpole           29  83  68  4 0
++APE Knott            not out                                  30  97 101  4 0
+Extras                (b 2, lb 3, nb 7)                        12
+Total                 (6 wickets dec, 101 overs)              287
+
+DNB: JA Snow, K Shuttleworth, P Lever.
+
+FoW: 1-60 (Luckhurst), 2-98 (Boycott), 3-98 (Fletcher),
+     4-101 (Cowdrey), 5-152 (D'Oliveira), 6-209 (Illingworth).
+
+Bowling                      O      M      R      W
+McKenzie                    18      2     50      0
+Thomson                     25      3     71      1
+GS Chappell                  4      1     17      0
+Gleeson                     32     11     68      3
+Walters                      7      1     26      1
+Stackpole                   15      3     43      1
+
+Australia 2nd innings (target: 245 runs)                        R   M   B  4 6
+*WM Lawry             not out                                  38 145 111  5 0
+KR Stackpole          c sub (JH Hampshire) b Snow               0   3   4  0 0
+IM Chappell           c sub (JH Hampshire) b Snow              17  23  29  3 0
+KD Walters                               b Lever                8  35  28  1 0
+IR Redpath            not out                                  26  78  87  5 0
+Extras                (b 4, lb 4, nb 3)                        11
+Total                 (3 wickets, 32 overs)                   100
+
+DNB: AP Sheahan, GS Chappell, +RW Marsh, GD McKenzie, JW Gleeson,
+     AL Thomson.
+
+FoW: 1-0 (Stackpole), 2-20 (IM Chappell), 3-40 (Walters).
+
+Bowling                      O      M      R      W
+Snow                         9      4     17      2
+Shuttleworth                 3      1      9      0
+Lever                        5      2     10      1
+D'Oliveira                   4      2      5      0
+Illingworth                  4      2     12      0
+Fletcher                     4      0     18      0
+Cowdrey                      3      0     18      0
+
+<END>

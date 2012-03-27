@@ -1,0 +1,122 @@
+
+Test # 441
+West Indies in England, 1957, 3rd Test
+England v West Indies
+Trent Bridge, Nottingham
+4,5,6,8,9 July 1957 (5-day match)
+
+Result: Match drawn
+Series: England leads the 5-match series 1-0
+
+Toss: England
+Umpires: JS Buller and FS Lee
+Test debut: DW Richardson (England).
+
+Close of play:
+ Day 1: England 360/2 (Graveney 188*, May 40*)
+ Day 2: England 619/6d, West Indies 59/0 (Worrell 29*, Sobers 24*)
+ Day 3: West Indies 295/3 (Worrell 145*, Weekes 33*)
+ Day 4: West Indies 372, West Indies 175/5 (Smith 67*, Atkinson 36*)
+
+England 1st innings                                             R   M   B  4 6
+PE Richardson         c Walcott          b Atkinson           126 278     10 0
+DV Smith              c Kanhai           b Worrell              1  13      0 0
+TW Graveney                              b Smith              258 471     30 0
+*PBH May              lbw                b Smith              104 183     14 0
+MC Cowdrey            run out                                  55 129      6 0
+DW Richardson                            b Sobers              33  69      3 0
++TG Evans             not out                                  26  45      2 0
+TE Bailey             not out                                   3  10      0 0
+Extras                (b 1, lb 10, w 1, nb 1)                  13
+Total                 (6 wickets dec, 212 overs)              619
+
+DNB: JC Laker, FS Trueman, JB Statham.
+
+FoW: 1-14 (Smith), 2-280 (PE Richardson), 3-487 (May),
+     4-510 (Graveney), 5-573 (DW Richardson), 6-609 (Cowdrey).
+
+Bowling                      O      M      R      W
+Worrell                     21      4     79      1
+Gilchrist                   29      3    118      0
+Atkinson                    40      7     99      1
+Ramadhin                    38      5     95      0
+Valentine                   23      4     68      0
+Sobers                      21      6     60      1
+Goddard                     15      5     26      0
+Smith                       25      5     61      2
+
+West Indies 1st innings                                         R   M   B  4 6
+FMM Worrell           not out                                 191 575     26 0
+GS Sobers                                b Laker               47 163      6 0
+CL Walcott                           c & b Laker               17  56      2 0
++RB Kanhai            c Evans            b Bailey              42 183      3 0
+ED Weekes                                b Trueman             33  71      4 0
+OG Smith              c Evans            b Trueman              2   9      0 0
+DS Atkinson           c Evans            b Trueman              4  11      1 0
+*JDC Goddard          c May              b Trueman              0   2      0 0
+R Gilchrist           c DW Richardson    b Laker                1  15      0 0
+AL Valentine                             b Trueman              1   5      0 0
+S Ramadhin                               b Statham             19  46      3 0
+Extras                (b 5, lb 10)                             15
+Total                 (all out, 160.4 overs)                  372
+
+FoW: 1-87 (Sobers), 2-120 (Walcott), 3-229 (Kanhai),
+     4-295 (Weekes), 5-297 (Smith), 6-305 (Atkinson),
+     7-305 (Goddard), 8-314 (Gilchrist), 9-317 (Valentine),
+     10-372 (Ramadhin).
+
+Bowling                      O      M      R      W
+Statham                     28.4    9     78      1
+Trueman                     30      8     63      5
+Laker                       62     27    101      3
+Bailey                      28      9     77      1
+Smith                       12      1     38      0
+
+West Indies 2nd innings (following on)                          R   M   B  4 6
+FMM Worrell                              b Statham             16  56      2 0
+GS Sobers             lbw                b Trueman              9  39      1 0
+CL Walcott            c Evans            b Laker                7  34      0 0
++RB Kanhai            c Evans            b Trueman             28  78      4 0
+ED Weekes                                b Statham              3  28      0 0
+OG Smith                                 b Trueman            168 416     10 3
+DS Atkinson           c Evans            b Statham             46 149      2 0
+*JDC Goddard          c Evans            b Statham             61 215      7 0
+S Ramadhin                               b Trueman             15  24      2 0
+R Gilchrist                              b Statham              0  12      0 0
+AL Valentine          not out                                   2   4      0 0
+Extras                (b 2, lb 10)                             12
+Total                 (all out, 148.2 overs)                  367
+
+FoW: 1-22 (Sobers), 2-30 (Worrell), 3-39 (Walcott),
+     4-56 (Weekes), 5-89 (Kanhai), 6-194 (Atkinson),
+     7-348 (Goddard), 8-352 (Smith), 9-365 (Ramadhin),
+     10-367 (Gilchrist).
+
+Bowling                      O      M      R      W
+Statham                     41.2   12    118      5
+Trueman                     35      5     80      4
+Laker                       43     14     98      1
+Bailey                      12      3     22      0
+Smith                       12      5     23      0
+Graveney                     5      2     14      0
+
+England 2nd innings (target: 121 runs)                          R   M   B  4 6
+PE Richardson         c Kanhai           b Gilchrist           11  12      0 0
+DV Smith              not out                                  16  60      1 0
+TW Graveney           not out                                  28  47      4 0
+Extras                (b 7, lb 2)                               9
+Total                 (1 wicket, 17 overs)                     64
+
+DNB: *PBH May, MC Cowdrey, DW Richardson, +TG Evans, TE Bailey,
+     JC Laker, FS Trueman, JB Statham.
+
+FoW: 1-13 (PE Richardson).
+
+Bowling                      O      M      R      W
+Worrell                      7      1     27      0
+Gilchrist                    7      0     21      1
+Atkinson                     1      0      1      0
+Goddard                      1      0      2      0
+Walcott                      1      0      4      0
+
+<END>

@@ -1,0 +1,73 @@
+
+Test # 853
+India in England, 1979, 3rd Test
+England v India
+Headingley, Leeds
+16,17,18,20,21 August 1979 (5-day match)
+
+Result: Match drawn
+Series: England leads the 4-match series 1-0
+
+Toss: England
+Umpires: HD Bird and BJ Meyer
+Player of the match: IT Botham
+
+Close of play:
+ Day 1: England 80/4 (Randall 11*, Botham 9*)
+ Day 2: No play
+ Day 3: No play
+ Day 4: England 270, India 10/2 (Gavaskar 10*, Viswanath 0*)
+
+England 1st innings                                             R   M   B  4 6
+G Boycott             c Viswanath        b Kapil Dev           31  86  65  4 0
+*JM Brearley          c Viswanath        b Amarnath            15 102  70  1 0
+GA Gooch              c Vengsarkar       b Kapil Dev            4   9  10  0 0
+DI Gower              lbw                b Kapil Dev            0   9   6  0 0
+DW Randall                               b Ghavri              11  68  57  0 0
+IT Botham             c Ghavri           b Venkataraghavan    137 201 152 10 5
+G Miller              c Reddy            b Amarnath            27  79  53  3 0
+PH Edmonds            run out                                  18  54  49  2 0
++RW Taylor            c Chauhan          b Bedi                 1  10  15  0 0
+RGD Willis            not out                                   4  13  11  0 0
+M Hendrick            c sub              b Bedi                 0   5   8  0 0
+Extras                (b 4, lb 6, w 4, nb 8)                   22
+Total                 (all out, 80.5 overs)                   270
+
+FoW: 1-53 (Boycott), 2-57 (Gooch), 3-57 (Brearley), 4-58 (Gower),
+     5-89 (Randall), 6-176 (Miller), 7-264 (Edmonds),
+     8-264 (Botham), 9-266 (Taylor), 10-270 (Hendrick).
+
+Bowling                      O      M      R      W
+Kapil Dev                   27      7     84      3
+Ghavri                      18      4     60      1
+Amarnath                    20      7     53      2
+Venkataraghavan              7      2     25      1
+Bedi                         8.5    2     26      2
+
+India 1st innings                                               R   M   B  4 6
+SM Gavaskar                              b Edmonds             78 240 209  9 0
+CPS Chauhan           c Botham           b Willis               0   1   1  0 0
+M Amarnath            c Taylor           b Willis               0  14  18  0 0
+GR Viswanath          c Brearley         b Hendrick             1  26  18  0 0
+Yashpal Sharma        c Botham           b Miller              40 133 125  2 0
+DB Vengsarkar         not out                                  65 178 183  6 0
+N Kapil Dev           c Gooch            b Miller               3  14  10  0 0
+KD Ghavri             not out                                  20  99  97  1 0
+Extras                (b 11, lb 4, w 1)                        16
+Total                 (6 wickets, 110 overs)                  223
+
+DNB: *S Venkataraghavan, +B Reddy, BS Bedi.
+
+FoW: 1-1 (Chauhan), 2-9 (Amarnath), 3-12 (Viswanath),
+     4-106 (Yashpal Sharma), 5-156 (Gavaskar), 6-160 (Kapil Dev).
+
+Bowling                      O      M      R      W
+Willis                      18      5     42      2
+Hendrick                    14      6     13      1
+Botham                      13      3     39      0
+Edmonds                     28      8     59      1
+Miller                      32     13     52      2
+Gooch                        3      1      2      0
+Boycott                      2      2      0      0
+
+<END>

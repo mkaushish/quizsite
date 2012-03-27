@@ -1,0 +1,124 @@
+
+Test # 545
+The Wisden Trophy, 1963, 3rd Test
+England v West Indies
+Edgbaston, Birmingham
+4,5,6,8,9 July 1963 (5-day match)
+
+Result: England won by 217 runs
+Series: 5-match series level 1-1
+
+Toss: England
+Umpires: CS Elliott and LH Gray
+Test debut: PJ Sharpe (England).
+
+Close of play:
+ Day 1: England 157/5 (Close 41*, Parks 7*)
+ Day 2: England 216
+ Day 3: West Indies 110/4 (Butcher 14*, Sobers 1*)
+ Day 4: West Indies 186, England 226/8 (Sharpe 69*, Lock 23*)
+
+England 1st innings                                             R   M   B  4 6
+PE Richardson                            b Hall                 2          0 0
+MJ Stewart            lbw                b Sobers              39            1
+*ER Dexter                               b Sobers              29            0
+KF Barrington                            b Sobers               9            0
+DB Close              lbw                b Sobers              55 173      5 0
+PJ Sharpe             c Kanhai           b Gibbs               23            0
++JM Parks             c Murray           b Sobers              12            0
+FJ Titmus             c Griffith         b Hall                27            0
+FS Trueman                               b Griffith             4          0 0
+GAR Lock                                 b Griffith             1          0 0
+D Shackleton          not out                                   6          1 0
+Extras                (lb 6, nb 3)                              9
+Total                 (all out, 98.4 overs)                   216
+
+FoW: 1-2 (Richardson), 2-50 (Dexter), 3-72 (Barrington),
+     4-89 (Stewart), 5-129 (Sharpe), 6-172 (Parks),
+     7-187 (Close), 8-194 (Trueman), 9-200 (Lock),
+     10-216 (Titmus).
+
+Bowling                      O      M      R      W
+Hall                        16.4    2     56      2
+Griffith                    21      5     48      2
+Sobers                      31     10     60      5
+Worrell                     14      5     15      0
+Gibbs                       16      7     28      1
+
+West Indies 1st innings                                         R   M   B  4 6
+CC Hunte                                 b Trueman             18  60        0
+MC Carew                             c & b Trueman             40            1
+RB Kanhai             c Lock             b Shackleton          32  85        0
+BF Butcher            lbw                b Dexter              15            0
+JS Solomon            lbw                b Dexter               0          0 0
+GS Sobers                                b Trueman             19            0
+*FMM Worrell                             b Dexter               1          0 0
++DL Murray            not out                                  20            0
+WW Hall               c Sharpe           b Dexter              28            0
+CC Griffith           lbw                b Trueman              5            0
+LR Gibbs                                 b Trueman              0          0 0
+Extras                (lb 7, w 1)                               8
+Total                 (all out, 69 overs)                     186
+
+FoW: 1-42 (Hunte), 2-79 (Carew), 3-108 (Kanhai), 4-109 (Solomon),
+     5-128 (Butcher), 6-130 (Sobers), 7-130 (Worrell),
+     8-178 (Hall), 9-186 (Griffith), 10-186 (Gibbs).
+
+Bowling                      O      M      R      W
+Trueman                     26      5     75      5
+Shackleton                  21      9     60      1
+Lock                         2      1      5      0
+Dexter                      20      5     38      4
+
+England 2nd innings                                             R   M   B  4 6
+PE Richardson         c Murray           b Griffith            14            0
+MJ Stewart            c Murray           b Griffith            27 110        0
+KF Barrington                            b Sobers               1          0 0
+DB Close              c Sobers           b Griffith            13  47        0
+*ER Dexter            st Murray          b Gibbs               57            0
+PJ Sharpe             not out                                  85 230        0
++JM Parks             c Sobers           b Gibbs                5            0
+FJ Titmus                                b Gibbs                0          0 0
+FS Trueman            c Gibbs            b Sobers               1          0 0
+GAR Lock                                 b Gibbs               56          7 0
+Extras                (b 9, lb 9, nb 1)                        19
+Total                 (9 wickets dec, 105.2 overs)            278
+
+DNB: D Shackleton.
+
+FoW: 1-30 (Richardson), 2-31 (Barrington), 3-60 (Close),
+     4-69 (Stewart), 5-170 (Dexter), 6-184 (Parks),
+     7-184 (Titmus), 8-189 (Trueman), 9-278 (Lock).
+
+Bowling                      O      M      R      W
+Hall                        16      1     47      0
+Griffith                    28      7     55      3
+Sobers                      27      4     80      2
+Worrell                      8      3     28      0
+Gibbs                       26.2    4     49      4
+
+West Indies 2nd innings (target: 309 runs)                      R   M   B  4 6
+CC Hunte              c Barrington       b Trueman              5          1 0
+MC Carew              lbw                b Shackleton           1          0 0
+RB Kanhai             c Lock             b Trueman             38            0
+BF Butcher                               b Dexter              14            0
+GS Sobers             c Sharpe           b Shackleton           9            0
+JS Solomon            c Parks            b Trueman             14            0
+*FMM Worrell          c Parks            b Trueman              0          0 0
++DL Murray            c Parks            b Trueman              3          0 0
+WW Hall                                  b Trueman              0          0 0
+CC Griffith           lbw                b Trueman              0          0 0
+LR Gibbs              not out                                   4          1 0
+Extras                (lb 2, w 1)                               3
+Total                 (all out, 34.3 overs)                    91
+
+FoW: 1-2 (Carew), 2-10 (Hunte), 3-38 (Butcher), 4-64 (Sobers),
+     5-78 (Kanhai), 6-80 (Worrell), 7-86 (Murray), 8-86 (Hall),
+     9-86 (Griffith), 10-91 (Solomon).
+
+Bowling                      O      M      R      W
+Trueman                     14.3    2     44      7
+Shackleton                  17      4     37      2
+Dexter                       3      1      7      1
+
+<END>

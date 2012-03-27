@@ -1,0 +1,101 @@
+
+Test # 486
+Australia in India, 1959/60, 4th Test
+India v Australia
+Corporation Stadium, Madras
+13,14,15,17 January 1960 (5-day match)
+
+Result: Australia won by an innings and 55 runs
+Series: Australia leads the 5-match series 2-1
+
+Toss: Australia
+Umpires: ND Sane and MG Vijayasarathi
+Test debuts: AG Milkha Singh, MM Sood (India).
+
+Close of play:
+ Day 1: Australia 183/3 (Favell 100*, Burge 13*)
+ Day 2: Australia 342, India 46/1 (Kunderan 33*, Kenny 11*)
+ Day 3: India 149, India 26/2 (Contractor 11*, Kunderan 10*)
+
+Australia 1st innings                                           R   M   B  4 6
+CC McDonald                              b Patel               16            0
+LE Favell             st Kunderan        b Nadkarni           101            0
+RN Harvey                                b Desai               11            0
+NC O'Neill                               b Desai               40            0
+PJP Burge                                b Desai               35            0
+KD Mackay             st Kunderan        b Patel               89 210        0
+AK Davidson           lbw                b Nadkarni             6            0
++ATW Grout            c Milkha Singh     b Nadkarni             2          0 0
+*R Benaud                                b Borde               25            0
+I Meckiff             c Roy              b Desai                8            0
+LF Kline              not out                                   0          0 0
+Extras                (b 3, lb 5, nb 1)                         9
+Total                 (all out, 153 overs)                    342
+
+FoW: 1-58 (McDonald), 2-77 (Harvey), 3-147 (O'Neill),
+     4-197 (Favell), 5-216 (Burge), 6-239 (Davidson),
+     7-249 (Grout), 8-308 (Benaud), 9-329 (Meckiff),
+     10-342 (Mackay).
+
+Bowling                      O      M      R      W
+Desai                       41     10     93      4
+Ramchand                    15      6     26      0
+Nadkarni                    44     15     75      3
+Patel                       37     12     84      2
+Borde                       16      1     55      1
+
+India 1st innings                                               R   M   B  4 6
+P Roy                 c Grout            b Davidson             1          0 0
++BK Kunderan                             b Benaud              71         12 0
+RB Kenny                                 b Mackay              33            0
+NJ Contractor         c Kline            b Benaud               7            0
+CG Borde              c Grout            b Kline                3          0 0
+*GS Ramchand          c Harvey           b Benaud              13            0
+AG Milkha Singh                          b Davidson            16            0
+RG Nadkarni           c Kline            b Benaud               3          0 0
+MM Sood               st Grout           b Davidson             0          0 0
+RB Desai              c McDonald         b Benaud               0          0 0
+JM Patel              not out                                   0          0 0
+Extras                (b 1, nb 1)                               2
+Total                 (all out, 77.1 overs)                   149
+
+FoW: 1-20 (Roy), 2-95 (Kenny), 3-111 (Kunderan), 4-114 (Borde),
+     5-130 (Contractor), 6-130 (Ramchand), 7-145 (Nadkarni),
+     8-148 (Sood), 9-149 (Milkha Singh), 10-149 (Desai).
+
+Bowling                      O      M      R      W
+Davidson                    19      6     36      3
+Meckiff                      7      4     21      0
+Benaud                      32.1   14     43      5
+Kline                       15      8     21      1
+Harvey                       1      0      9      0
+Mackay                       3      0     17      1
+
+India 2nd innings (following on)                                R   M   B  4 6
+P Roy                 c O'Neill          b Meckiff              3          0 0
+NJ Contractor         c Meckiff          b Kline               41 240        0
+RB Kenny              c Grout            b Meckiff              1          0 0
++BK Kunderan                             b Benaud              33          6 0
+CG Borde              c Davidson         b Benaud               1          0 0
+AG Milkha Singh                          b Harvey               9            0
+RG Nadkarni           run out                                  18            0
+*GS Ramchand          st Grout           b Benaud              22            0
+MM Sood                                  b Davidson             3          0 0
+RB Desai              not out                                   0          0 0
+JM Patel              c Kline            b Davidson             0          0 0
+Extras                (b 4, lb 2, nb 1)                         7
+Total                 (all out, 105 overs)                    138
+
+FoW: 1-7 (Roy), 2-11 (Kenny), 3-54 (Kunderan), 4-62 (Borde),
+     5-78 (Milkha Singh), 6-100 (Contractor), 7-127 (Nadkarni),
+     8-138 (Ramchand), 9-138 (Sood), 10-138 (Patel).
+
+Bowling                      O      M      R      W
+Davidson                    19      7     33      2
+Meckiff                     22     10     33      2
+Benaud                      35     19     43      3
+Kline                       12      5     13      1
+Harvey                      13      7      8      1
+Mackay                       4      3      1      0
+
+<END>

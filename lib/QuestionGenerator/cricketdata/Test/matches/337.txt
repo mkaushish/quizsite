@@ -1,0 +1,95 @@
+
+Test # 337
+South Africa in England, 1951, 4th Test
+England v South Africa
+Headingley, Leeds
+26,27,28,30,31 July 1951 (5-day match)
+
+Result: Match drawn
+Series: England leads the 5-match series 2-1
+
+Toss: South Africa
+Umpires: D Davies and H Elliott
+Test debuts: DV Brennan, FA Lowson, PBH May (England);
+ PNF Mansell (South Africa).
+
+Close of play:
+ Day 1: South Africa 282/3 (EAB Rowan 160*, Cheetham 7*)
+ Day 2: South Africa 538, England 37/0 (Hutton 9*, Lowson 27*)
+ Day 3: England 325/3 (May 110*, Watson 21*)
+ Day 4: England 505, South Africa 87/0 (EAB Rowan 60*, Waite 25*, 49 ov)
+ Day 5: No play
+
+South Africa 1st innings                                        R   M   B  4 6
+EAB Rowan             c Bedser           b Brown              236 550     28 0
++JHB Waite            lbw                b Bedser              13            0
+CB van Ryneveld                      c & b Hilton              83            0
+*AD Nourse            lbw                b Brown               13            0
+JE Cheetham                              b Bedser               7            0
+RA McLean             run out                                  67 108     11 1
+PNF Mansell           c Tattersall       b Hilton              90         19 0
+AMB Rowan                                b Brown                9            0
+NBF Mann                                 b Tattersall           2          0 0
+GWA Chubb             c Lowson           b Hilton              11            0
+CN McCarthy           not out                                   0          0 0
+Extras                (b 1, lb 6)                               7
+Total                 (all out, 235.3 overs)                  538
+
+FoW: 1-40 (Waite), 2-238 (van Ryneveld), 3-267 (Nourse),
+     4-286 (Cheetham), 5-394 (McLean), 6-480 (EAB Rowan),
+     7-498 (AMB Rowan), 8-505 (Mann), 9-538 (Chubb),
+     10-538 (Mansell).
+
+Bowling                      O      M      R      W
+Bedser                      58     14    113      2
+Bailey                      17      4     48      0
+Brown                       38     10    107      3
+Tattersall                  60     23     83      1
+Hilton                      61.3   18    176      3
+Compton                      1      0      4      0
+
+England 1st innings                                             R   M   B  4 6
+L Hutton                                 b van Ryneveld       100 300        0
+FA Lowson             c Mansell          b AMB Rowan           58            0
+PBH May                                  b AMB Rowan          138 380        0
+DCS Compton           lbw                b AMB Rowan           25            0
+W Watson                                 b Chubb               32            0
+TE Bailey                                b Mann                95            0
+*FR Brown             c EAB Rowan        b AMB Rowan            2          0 0
+AV Bedser                                b Mann                 8            0
++DV Brennan                              b Mann                16            0
+R Tattersall          c EAB Rowan        b AMB Rowan            4            0
+MJ Hilton             not out                                   9            1
+Extras                (b 10, lb 7, nb 1)                       18
+Total                 (all out, 224.5 overs)                  505
+
+FoW: 1-99 (Lowson), 2-228 (Hutton), 3-266 (Compton),
+     4-345 (Watson), 5-387 (May), 6-391 (Brown), 7-400 (Bedser),
+     8-432 (Brennan), 9-445 (Tattersall), 10-505 (Bailey).
+
+Bowling                      O      M      R      W
+McCarthy                    41     10     81      0
+Chubb                       43     12     99      1
+AMB Rowan                   68     17    174      5
+Mann                        60.5   23     96      3
+Mansell                      4      0     11      0
+van Ryneveld                 8      0     26      1
+
+South Africa 2nd innings                                        R   M   B  4 6
+EAB Rowan             not out                                  60 120        0
++JHB Waite            not out                                  25 120        0
+Extras                (lb 2)                                    2
+Total                 (0 wickets, 49 overs)                    87
+
+DNB: CB van Ryneveld, *AD Nourse, JE Cheetham, RA McLean,
+     PNF Mansell, AMB Rowan, NBF Mann, GWA Chubb, CN McCarthy.
+
+Bowling                      O      M      R      W
+Bedser                       4      1      5      0
+Bailey                       1      0      8      0
+Brown                       11      2     26      0
+Tattersall                  16      9     13      0
+Hilton                      10      5     17      0
+Compton                      7      1     16      0
+
+<END>

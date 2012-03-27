@@ -1,0 +1,126 @@
+
+Test # 145
+Australia in South Africa, 1921/22, 1st Test
+South Africa v Australia
+Lord's, Durban
+5,7,8,9 November 1921 (4-day match)
+
+Result: Match drawn
+Series: 3-match series level 0-0
+
+Toss: Australia
+Umpires: FW Grey and AG Laver
+Test debuts: CN Frank, WVS Ling, WFE Marx, EP Nupen (South Africa).
+
+Close of play:
+ Day 1: Australia 299, South Africa 8/1 (Zulch 7*, Frank 0*)
+ Day 2: South Africa 232, Australia 13/0 (Collins 8*, Bardsley 5*)
+ Day 3: Australia 324/7d, South Africa 6/1 (Frank 1*, Marx 0*, 5.1 ov)
+
+Australia 1st innings                                           R   M   B  4 6
+*HL Collins                              b Carter              31  87      0 0
+JM Gregory                               b Blanckenberg        51  69      5 0
+CG Macartney          c Nourse           b Nupen               59  67      8 0
+W Bardsley                               b Blanckenberg         5  13      0 0
+TJE Andrews                              b Blanckenberg         3   8      0 0
+J Ryder               not out                                  78 115      8 0
+JM Taylor                                b Carter              18  25      1 0
+HSTL Hendry           c Nourse           b Chapman             23  39      1 0
++H Carter             c Nourse           b Blanckenberg         9   8      1 0
+EA McDonald                              b Carter               2   7      0 0
+AA Mailey                                b Blanckenberg         2   4      0 0
+Extras                (b 16, lb 2)                             18
+Total                 (all out, 84.4 overs)                   299
+
+FoW: 1-85 (Gregory), 2-95 (Collins), 3-116 (Bardsley),
+     4-128 (Andrews), 5-175 (Macartney), 6-214 (Taylor),
+     7-276 (Hendry), 8-291 (Carter), 9-296 (McDonald),
+     10-299 (Mailey).
+
+Bowling                      O      M      R      W
+Marx                         3      0      6      0
+Nourse                      11      1     36      0
+Nupen                       15      2     42      1
+Chapman                     11      0     51      1
+Blanckenberg                24.4    6     78      5
+Carter                      20      1     68      3
+
+South Africa 1st innings                                        R   M   B  4 6
+*HW Taylor            c Hendry           b Gregory              1   7      0 0
+JW Zulch              c Gregory          b Macartney           80 204      8 0
+CN Frank              c Gregory          b McDonald             1  24      0 0
+AW Nourse             c Hendry           b Gregory             32  66      2 0
+WVS Ling                                 b Gregory             33  52      3 0
+WFE Marx              c Macartney        b Gregory              0   4      0 0
+HW Chapman            c Gregory          b Hendry               4  35      0 0
+EP Nupen                             c & b Hendry               6  20      0 0
++TA Ward              not out                                  22  61      2 0
+JM Blanckenberg       c Ryder            b Gregory             28  38      3 1
+CP Carter             c Mailey           b Gregory             14  16      2 0
+Extras                (b 4, lb 3, nb 4)                        11
+Total                 (all out, 80.1 overs)                   232
+
+FoW: 1-2 (Taylor), 2-9 (Frank), 3-62 (Nourse), 4-136 (Ling),
+     5-136 (Marx), 6-154 (Chapman), 7-154 (Zulch), 8-163 (Nupen),
+     9-214 (Blanckenberg), 10-232 (Carter).
+
+Bowling                      O      M      R      W
+Gregory                     25.1    4     77      6
+McDonald                    20      5     55      1
+Mailey                      17      2     55      0
+Macartney                   11      6     13      1
+Hendry                       7      0     21      2
+
+Australia 2nd innings                                           R   M   B  4 6
+*HL Collins           c Chapman          b Nupen               47  81      7 0
+W Bardsley            lbw                b Carter              23  40      3 0
+CG Macartney          c Ward             b Marx               116 114     17 1
+JM Gregory                               b Blanckenberg         6  18      0 0
+J Ryder                                  b Blanckenberg        58  73      8 0
+TJE Andrews           not out                                  35  72      3 0
+JM Taylor                                b Carter              11  10      2 0
+HSTL Hendry                              b Carter              13  30      2 0
++H Carter             not out                                   1  11      0 0
+Extras                (b 12, lb 1, nb 1)                       14
+Total                 (7 wickets dec, 87 overs)               324
+
+DNB: EA McDonald, AA Mailey.
+
+FoW: 1-44 (Bardsley), 2-118 (Collins), 3-144 (Gregory),
+     4-250 (Macartney), 5-270 (Ryder), 6-283 (Taylor),
+     7-314 (Hendry).
+
+Bowling                      O      M      R      W
+Marx                         6      0     20      1
+Nourse                       8      1     32      0
+Nupen                       16      3     59      1
+Chapman                      6      1     33      0
+Blanckenberg                30      3    100      2
+Carter                      21      3     66      3
+
+South Africa 2nd innings (target: 392 runs)                     R   M   B  4 6
+CN Frank              c Gregory          b Mailey              38 137      1 0
++TA Ward                                 b Gregory              0  15      0 0
+WFE Marx              c Carter           b Mailey              28  53      4 0
+*HW Taylor                           c & b McDonald            29 105      1 0
+JW Zulch              c Taylor           b McDonald            17  53      2 0
+AW Nourse             not out                                  31  78      5 0
+WVS Ling              c Gregory          b McDonald            28  37      4 0
+HW Chapman                               b Gregory              2  13      0 0
+EP Nupen              not out                                   0   7      0 0
+Extras                (lb 8, nb 3)                             11
+Total                 (7 wickets, 96 overs)                   184
+
+DNB: JM Blanckenberg, CP Carter.
+
+FoW: 1-1 (Ward), 2-43 (Marx), 3-82 (Frank), 4-112 (Taylor),
+     5-131 (Zulch), 6-179 (Ling), 7-182 (Chapman).
+
+Bowling                      O      M      R      W
+Gregory                     19      7     28      2
+McDonald                    34     17     64      3
+Mailey                      31     10     54      2
+Hendry                       4      0     20      0
+Ryder                        8      3      7      0
+
+<END>

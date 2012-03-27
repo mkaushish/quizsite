@@ -1,0 +1,131 @@
+
+Test # 192
+England in West Indies, 1929/30, 3rd Test
+West Indies v England
+Bourda, Georgetown, British Guiana
+21,22,24,25,26 February 1930 (5-day match)
+
+Result: West Indies won by 289 runs
+Series: 4-match series level 1-1
+
+Toss: West Indies
+Umpires: J Hardstaff snr (Eng) and RDR Hill
+Test debuts: LF Townsend (England); CEL Jones (West Indies).
+
+Close of play:
+ Day 1: West Indies 336/2 (Headley 60*)
+ Day 2: West Indies 471, England 120/7 (Haig 1*, Calthorpe 0*)
+ Day 3: England 145, West Indies 150/5 (Headley 70*, Sealy 9*)
+ Day 4: West Indies 290, England 102/3 (Hendren 17*, Ames 3*)
+
+West Indies 1st innings                                         R   M   B  4 6
+CA Roach              c Haig             b Townsend           209 295     22 3
++EAC Hunte            c Townsend         b Wyatt               53            0
+GA Headley            run out                                 114            0
+*MP Fernandes         c Ames             b Rhodes              22            0
+JED Sealy                            c & b Rhodes               0          0 0
+CV Wight                                 b Townsend            10            0
+LN Constantine        st Ames            b Wyatt               13            0
+CR Browne                                b Voce                22            0
+CEL Jones             c Ames             b Voce                 6            0
+GN Francis            not out                                   5            0
+EL St Hill            st Ames            b Haig                 3          0 0
+Extras                (b 3, lb 11)                             14
+Total                 (all out, 148 overs)                    471
+
+FoW: 1-144 (Hunte), 2-336 (Roach), 3-400 (Fernandes),
+     4-406 (Sealy), 5-417 (Wight), 6-427 (Headley),
+     7-446 (Constantine), 8-459 (Jones), 9-464 (Browne),
+     10-471 (St Hill).
+
+Bowling                      O      M      R      W
+Voce                        26      4     81      2
+Haig                        23      7     61      1
+Townsend                    16      6     48      2
+Rhodes                      40      8     96      2
+Astill                      28      3     92      0
+Calthorpe                    6      0     23      0
+Wyatt                        9      0     56      2
+
+England 1st innings                                             R   M   B  4 6
+G Gunn                hit wicket         b Francis             11            0
+A Sandham             c Hunte            b Browne               9            0
+RES Wyatt             c Francis          b Constantine          0          0 0
+EH Hendren                               b Constantine         56            0
++LEG Ames             c Hunte            b Francis             31            0
+LF Townsend           c Hunte            b Francis              3          0 0
+NE Haig                                  b Constantine          4            0
+WE Astill             run out                                   0          0 0
+*Hon.FSG Calthorpe    c Headley          b Constantine         15            0
+W Rhodes                                 b Francis              0          0 0
+W Voce                not out                                   1          0 0
+Extras                (b 11, lb 2, nb 2)                       15
+Total                 (all out, 61.3 overs)                   145
+
+FoW: 1-19 (Gunn), 2-20 (Wyatt), 3-33 (Sandham), 4-103 (Ames),
+     5-107 (Townsend), 6-117 (Hendren), 7-120 (Astill),
+     8-126 (Haig), 9-141 (Rhodes), 10-145 (Calthorpe).
+
+Bowling                      O      M      R      W
+Francis                     21      5     40      4
+Constantine                 16.3    6     35      4
+Browne                      10      2     29      1
+St Hill                     14      4     26      0
+
+West Indies 2nd innings                                         R   M   B  4 6
+CA Roach              st Ames            b Astill              22            0
++EAC Hunte            hit wicket         b Townsend            14            0
+GA Headley            c Townsend         b Haig               112            1
+*MP Fernandes         c Calthorpe        b Rhodes              19            0
+EL St Hill                               b Astill               3          0 0
+LN Constantine                           b Astill               0          0 0
+JED Sealy             c Hendren          b Rhodes              10            0
+CV Wight                                 b Haig                22            0
+CR Browne             not out                                  70            1
+GN Francis            lbw                b Astill               2          0 0
+CEL Jones                                b Townsend             2          0 0
+Extras                (b 9, lb 5)                              14
+Total                 (all out, 127.3 overs)                  290
+
+FoW: 1-23 (Hunte), 2-76 (Roach), 3-135 (Fernandes),
+     4-138 (St Hill), 5-138 (Constantine), 6-155 (Sealy),
+     7-209 (Wight), 8-248 (Headley), 9-281 (Francis),
+     10-290 (Jones).
+
+Bowling                      O      M      R      W
+Voce                        16      4     44      0
+Haig                        10      1     44      2
+Townsend                     7.3    2     25      2
+Rhodes                      51     23     93      2
+Astill                      43     17     70      4
+
+England 2nd innings (target: 617 runs)                          R   M   B  4 6
+G Gunn                c Hunte            b Francis             45            0
+A Sandham                            c & b Constantine          0          0 0
+RES Wyatt             c Jones            b Constantine         28            1
+EH Hendren            lbw                b St Hill            123         21 0
++LEG Ames             c Francis          b Constantine          3          0 0
+LF Townsend                              b Constantine         21            0
+NE Haig                                  b Browne               0          0 0
+WE Astill             hit wicket         b Constantine          5            0
+*Hon.FSG Calthorpe    c Jones            b Roach               49            0
+W Rhodes              not out                                  10            0
+W Voce                lbw                b Francis              2          0 0
+Extras                (b 30, lb 5, w 3, nb 3)                  41
+Total                 (all out, 158.5 overs)                  327
+
+FoW: 1-0 (Sandham), 2-82 (Gunn), 3-82 (Wyatt), 4-106 (Ames),
+     5-162 (Townsend), 6-168 (Haig), 7-181 (Astill),
+     8-269 (Calthorpe), 9-320 (Hendren), 10-327 (Voce).
+
+Bowling                      O      M      R      W
+Francis                     26.5   11     69      2
+Constantine                 40     17     87      5
+Browne                      33     15     32      1
+St Hill                     33     15     61      1
+Roach                        9      2     18      1
+Headley                      2      0      8      0
+Jones                       10      7      5      0
+Wight                        5      1      6      0
+
+<END>

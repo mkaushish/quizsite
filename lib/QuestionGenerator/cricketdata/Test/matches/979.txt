@@ -1,0 +1,115 @@
+
+Test # 979
+The Frank Worrell Trophy, 1983/84, 1st Test
+West Indies v Australia
+Bourda, Georgetown, Guyana
+2,3,4,6,7 March 1984 (5-day match)
+
+Result: Match drawn
+Series: 5-match series level 0-0
+
+Toss: Australia
+Umpires: DM Archer and DJ Narine
+Test debut: SB Smith (Australia).
+
+Close of play:
+ Day 1: Australia 55/3 (Ritchie 23*)
+ Day 2: Australia 279, West Indies 20/0 (Greenidge 8*, Haynes 10*)
+ Day 3: West Indies 230, Australia 23/0 (Wessels 11*, Smith 5*)
+ Day 4: Australia 202/6 (Phillips 71*, Lawson 7*)
+
+Australia 1st innings                                           R   M   B  4 6
+SB Smith              c Dujon            b Garner               3  21  22  0 0
+KC Wessels            c Lloyd            b Garner               4  41  23  0 0
+GM Ritchie            c Davis            b Harper              78 207 152 10 1
+*KJ Hughes                               b Garner              18  32  22  4 0
+AR Border                                b Garner               5  17  15  1 0
+DW Hookes             c Dujon            b Harper              32  85  55  3 1
++WB Phillips          c Greenidge        b Harper              16  31  38  2 0
+GF Lawson             c Richards         b Harper              11  23  27  1 0
+TG Hogan              not out                                  42 163 106  4 0
+TM Alderman           lbw                b Garner               1   5   9  0 0
+RM Hogg               lbw                b Garner              52 149 160  6 1
+Extras                (b 2, lb 3, w 1, nb 11)                  17
+Total                 (all out, 102.2 overs)                  279
+
+FoW: 1-6 (Smith), 2-23 (Wessels), 3-55 (Hughes), 4-63 (Border),
+     5-139 (Hookes), 6-166 (Phillips), 7-180 (Ritchie),
+     8-181 (Lawson), 9-182 (Alderman), 10-279 (Hogg).
+
+Bowling                      O      M      R      W
+Garner                      27.2   10     75      6
+Daniel                      12      3     60      0
+Davis                       19      2     45      0
+Harper                      24      7     56      4
+Gomes                       15      1     35      0
+Richards                     5      2      3      0
+
+West Indies 1st innings                                         R   M   B  4 6
+CG Greenidge          c Wessels          b Lawson              16  37  34  2 0
+DL Haynes             lbw                b Hogg                60 256 174  7 0
+RB Richardson         lbw                b Lawson              19  55  35  3 0
+IVA Richards          c Phillips         b Hogg                 8  47  22  0 0
+HA Gomes              c Border           b Hogan               10  28  33  0 0
+*CH Lloyd             c Phillips         b Alderman            36 110  70  7 0
++PJL Dujon                               b Hogan               21  48  42  3 0
+RA Harper                                b Hogan               10  36  28  2 0
+J Garner              not out                                  16  49  21  1 0
+WW Davis              c Ritchie          b Hogan               11  25  24  0 1
+WW Daniel             lbw                b Lawson               4   5   6  0 0
+Extras                (lb 3, nb 16)                            19
+Total                 (all out, 78.4 overs)                   230
+
+FoW: 1-29 (Greenidge), 2-72 (Richardson), 3-93 (Richards),
+     4-110 (Gomes), 5-154 (Haynes), 6-181 (Lloyd), 7-191 (Dujon),
+     8-203 (Harper), 9-225 (Davis), 10-230 (Daniel).
+
+Bowling                      O      M      R      W
+Lawson                      20.4    4     59      3
+Alderman                    21      3     64      1
+Hogg                        12      0     48      2
+Hogan                       25      9     56      4
+
+Australia 2nd innings                                           R   M   B  4 6
+KC Wessels            c Lloyd            b Daniel              20  40  56  0 0
+SB Smith              c Dujon            b Garner              12  84  31  3 0
+GM Ritchie            lbw                b Garner               3  10   6  0 0
+*KJ Hughes            c Haynes           b Daniel               0   4   8  0 0
+AR Border             run out                                  54 204 163  5 0
+DW Hookes                                b Garner              10   9  12  2 0
++WB Phillips                             b Daniel              76 213 202 10 0
+GF Lawson             not out                                  35 121  66  4 0
+TG Hogan              lbw                b Davis               18  32  26  2 0
+RM Hogg                                  b Davis                6  29  22  0 0
+TM Alderman           not out                                   3  10   7  0 0
+Extras                (b 10, lb 15, nb 11)                     36
+Total                 (9 wickets dec, 97 overs)               273
+
+FoW: 1-37 (Wessels), 2-41 (Ritchie), 3-42 (Hughes), 4-50 (Smith),
+     5-60 (Hookes), 6-185 (Border), 7-209 (Phillips),
+     8-249 (Hogan), 9-263 (Hogg).
+
+Bowling                      O      M      R      W
+Garner                      24      5     67      3
+Daniel                      27      4     86      3
+Davis                       14      3     35      2
+Harper                      15      4     27      0
+Gomes                       11      2     25      0
+Richards                     6      2      8      0
+
+West Indies 2nd innings (target: 323 runs)                      R   M   B  4 6
+CG Greenidge          not out                                 120 270 189 10 3
+DL Haynes             not out                                 103 270 184  9 0
+Extras                (b 10, lb 13, nb 4)                      27
+Total                 (0 wickets, 61 overs)                   250
+
+DNB: RB Richardson, IVA Richards, HA Gomes, *CH Lloyd,
+     +PJL Dujon, RA Harper, J Garner, WW Davis, WW Daniel.
+
+Bowling                      O      M      R      W
+Hogg                        13      0     56      0
+Alderman                    11      0     43      0
+Lawson                      18      0     54      0
+Hogan                       19      2     74      0
+
+<END>

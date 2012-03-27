@@ -1,0 +1,97 @@
+
+Test # 93
+South Africa in England, 1907, 1st Test
+England v South Africa
+Lord's, London
+1,2,3 July 1907 (3-day match)
+
+Result: Match drawn
+Series: 3-match series level 0-0
+
+Toss: England
+Umpires: A Millward and A White
+
+Close of play:
+ Day 1: England 428
+ Day 2: South Africa 140, South Africa 185/3 (Nourse 11*, Faulkner 12*, 58 ov)
+ Day 3: No play
+
+England 1st innings                                             R   M   B  4 6
+CB Fry                                   b Vogler              33  60        0
+TW Hayward            st Sherwell        b Vogler              21  65        0
+JT Tyldesley                             b Vogler              52  80      5 0
+*RE Foster            st Sherwell        b Vogler               8  20        0
+LC Braund             c Kotze            b Faulkner           104 240     12 0
+GH Hirst                                 b Vogler               7          1 0
+GL Jessop             c Faulkner         b Vogler              93  75     14 0
+JN Crawford           c Sherwell         b Schwarz             22            0
+EG Arnold                                b Schwarz              4            0
++AFA Lilley           c Nourse           b Vogler              48            0
+C Blythe              not out                                   4            0
+Extras                (b 24, lb 6, w 2)                        32
+Total                 (all out, 127.2 overs)                  428
+
+FoW: 1-54 (Fry), 2-55 (Hayward), 3-79 (Foster),
+     4-140 (Tyldesley), 5-158 (Hirst), 6-303 (Jessop),
+     7-335 (Crawford), 8-347 (Arnold), 9-401 (Braund),
+     10-428 (Lilley).
+
+Bowling                      O      M      R      W
+Kotze                       12      2     43      0
+Schwarz                     34      7     90      2
+Vogler                      47.2   12    128      7
+White                       15      2     52      0
+Nourse                       1      0      2      0
+Faulkner                    12      1     59      1
+Sinclair                     6      1     22      0
+
+South Africa 1st innings                                        R   M   B  4 6
+WA Shalders           c Lilley           b Arnold               2          0 0
+*+PW Sherwell         run out                                   6          1 0
+CMH Hathorn           c Foster           b Hirst                6            0
+AW Nourse                                b Blythe              62 165      4 0
+GA Faulkner           c Jessop           b Braund              44  95      3 0
+SJ Snooke             lbw                b Blythe               5  50        0
+GC White                                 b Arnold               0          0 0
+JH Sinclair                              b Arnold               0   1   1  0 0
+RO Schwarz            not out                                   0       0  0 0
+AEE Vogler            c Lilley           b Arnold               3          0 0
+JJ Kotze                                 b Arnold               0       2  0 0
+Extras                (b 9, lb 2, w 1)                         12
+Total                 (all out, 65 overs)                     140
+
+FoW: 1-8 (Shalders), 2-8 (Sherwell), 3-18 (Hathorn),
+     4-116 (Faulkner), 5-134 (Snooke), 6-135 (White),
+     7-135 (Sinclair), 8-137 (Nourse), 9-140 (Vogler),
+     10-140 (Kotze).
+
+Bowling                      O      M      R      W
+Hirst                       18      7     35      1
+Arnold                      22      7     37      5
+Jessop                       2      0      8      0
+Crawford                     8      1     20      0
+Blythe                       8      3     18      2
+Braund                       7      4     10      1
+
+South Africa 2nd innings (following on)                         R   M   B  4 6
+WA Shalders                              b Hirst                0          0 0
+*+PW Sherwell                            b Blythe             115         18 0
+CMH Hathorn           c Fry              b Blythe              30            0
+AW Nourse             not out                                  11            0
+GA Faulkner           not out                                  12            0
+Extras                (b 15, lb 2)                             17
+Total                 (3 wickets, 58 overs)                   185
+
+DNB: SJ Snooke, GC White, JH Sinclair, RO Schwarz, AEE Vogler,
+     JJ Kotze.
+
+FoW: 1-1 (Shalders), 2-140 (Hathorn), 3-153 (Sherwell).
+
+Bowling                      O      M      R      W
+Hirst                       16      8     26      1
+Arnold                      13      2     41      0
+Crawford                     4      0     19      0
+Blythe                      21      5     56      2
+Braund                       4      0     26      0
+
+<END>

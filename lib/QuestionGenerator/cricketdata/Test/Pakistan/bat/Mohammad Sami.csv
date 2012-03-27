@@ -1,0 +1,55 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+1533, 2001-02-08, 1, 11, New Zealand, not out, , 0, 5, 1, 0, 0
+1592, 2002-02-06, 1, 11, Sri Lanka, not out, , 0, 18, 7, 0, 0
+1592, 2002-02-06, 3, 11, Sri Lanka, c Sangakkara, Vaas, 0, 12, 9, 0, 0
+1615, 2002-09-03, 2, 11, Australia, not out, , 0, 8, 2, 0, 0
+1615, 2002-09-03, 4, 11, Australia, not out, , 6, 28, 14, 1, 0
+1620, 2002-09-19, 2, 10, Australia, lbw, Warne, 0, 20, 16, 0, 0
+1620, 2002-09-19, 3, 10, Australia, c Martyn, Bichel, 22, 74, 44, 3, 0
+1625, 2002-10-09, 1, 11, Zimbabwe, not out, , 0, 14, 5, 0, 0
+1625, 2002-10-09, 3, 11, Zimbabwe, c GW Flower, Olonga, 17, 23, 13, 3, 0
+1627, 2002-10-16, 2, 9, Zimbabwe, c Campbell, Blignaut, 1, 18, 7, 0, 0
+1635, 2002-11-26, 2, 11, South Africa, not out, , 0, 8, 2, 0, 0
+1635, 2002-11-26, 3, 11, South Africa, not out, , 11, 34, 16, 0, 1
+1637, 2003-01-02, 2, 10, South Africa, not out, , 0, 7, 1, 0, 0
+1637, 2003-01-02, 3, 10, South Africa, not out, , 9, 17, 14, 1, 0
+1664, 2003-09-17, 2, 9, South Africa, , Adams, 0, 2, 2, 0, 0
+1676, 2003-11-19, 2, 8, New Zealand, c Hart, Vettori, 25, 173, 116, 4, 0
+1677, 2003-11-26, 2, 8, New Zealand, c Hart, Butler, 4, 30, 16, 0, 0
+1693, 2004-03-28, 2, 9, India, , Kumble, 15, 78, 60, 1, 0
+1693, 2004-03-28, 3, 8, India, lbw, Kumble, 0, 27, 17, 0, 0
+1695, 2004-03-05, 2, 8, India, , Pathan, 2, 9, 5, 0, 0
+1697, 2004-03-13, 1, 8, India, run out (Pathan), , 49, 154, 122, 7, 0
+1697, 2004-03-13, 3, 8, India, c Dravid, Kumble, 0, 10, 1, 0, 0
+1716, 2004-09-20, 2, 9, Sri Lanka, not out, , 5, 52, 37, 0, 0
+1716, 2004-09-20, 4, 9, Sri Lanka, run out (Atapattu/Kaluwitharana), , 6, 53, 39, 1, 0
+1726, 2004-11-16, 2, 8, Australia, c Clarke, Kasprowicz, 29, 130, 94, 3, 1
+1726, 2004-11-16, 4, 8, Australia, , Kasprowicz, 2, 24, 19, 0, 0
+1729, 2004-11-26, 1, 9, Australia, lbw, Warne, 12, 53, 37, 1, 0
+1729, 2004-11-26, 3, 7, Australia, lbw, Gillespie, 11, 57, 48, 1, 0
+1738, 2005-02-08, 1, 9, India, , Balaji, 20, 50, 34, 3, 0
+1738, 2005-02-08, 3, 9, India,                c &, Kumble, 10, 58, 49, 0, 0
+1741, 2005-02-16, 2, 9, India, c Ganguly, Harbhajan Singh, 7, 29, 26, 1, 0
+1741, 2005-02-16, 4, 9, India, lbw, Kumble, 9, 60, 51, 2, 0
+1743, 2005-02-24, 1, 9, India, run out (Gambhir/Karthik), , 17, 84, 64, 0, 0
+1770, 2005-10-12, 1, 8, England, c Jones, Hoggard, 1, 16, 13, 0, 0
+1770, 2005-10-12, 3, 4, England, c Jones, Flintoff, 3, 17, 10, 0, 0
+1772, 2005-10-20, 1, 9, England,                c &, Giles, 18, 24, 16, 3, 0
+1772, 2005-10-20, 3, 10, England, lbw, Hoggard, 5, 27, 33, 0, 0
+1781, 2006-01-13, 1, 9, India, not out, , 1, 4, 2, 0, 0
+1809, 2006-06-13, 2, 5, England, c Jones, Hoggard, 0, 13, 12, 0, 0
+1811, 2006-06-27, 1, 9, England, c Strauss, Harmison, 1, 5, 7, 0, 0
+1811, 2006-06-27, 3, 9, England, c Jones, Harmison, 0, 3, 2, 0, 0
+1813, 2006-07-04, 2, 8, England, c Harmison, Panesar, 19, 50, 38, 3, 0
+1813, 2006-07-04, 4, 8, England, run out (Pietersen/Mahmood), , 0, 6, 6, 0, 0
+1829, 2007-01-19, 2, 7, South Africa, c Boucher, Ntini, 10, 39, 24, 2, 0
+1830, 2007-01-26, 1, 8, South Africa, c Boucher, Kallis, 4, 47, 22, 0, 0
+1830, 2007-01-26, 3, 8, South Africa, c Amla, Kallis, 31, 94, 58, 3, 0
+1849, 2007-10-22, 1, 10, India, not out, , 28, 179, 101, 3, 1
+1849, 2007-10-22, 3, 9, India, c Jaffer, Ganguly, 5, 54, 25, 1, 0
+1850, 2007-11-30, 2, 8, India, c Jaffer, Laxman, 38, 177, 123, 2, 1
+1852, 2007-11-08, 2, 9, India, , Sharma, 1, 12, 11, 0, 0
+1852, 2007-11-08, 4, 9, India, not out, , 4, 8, 4, 1, 0
+1945, 2010-01-03, 2, 8, Australia, c Haddin, Watson, 13, 47, 24, 2, 0
+1945, 2010-01-03, 4, 8, Australia, c Haddin, Hauritz, 2, 30, 18, 0, 0
+1979, 2010-10-20, 2, 11, South Africa, not out, , 2, 32, 19, 0, 0

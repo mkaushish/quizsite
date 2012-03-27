@@ -1,0 +1,101 @@
+
+Test # 317
+New Zealand in England, 1949, 4th Test
+England v New Zealand
+Kennington Oval, London
+13,15,16 August 1949 (3-day match)
+
+Result: Match drawn
+Series: 4-match series drawn 0-0
+
+Toss: New Zealand
+Umpires: D Davies and FS Lee
+Test debut: GF Cresswell (New Zealand).
+
+Close of play:
+ Day 1: New Zealand 320/8 (Burtt 24*, Cowie 1*)
+ Day 2: New Zealand 345, England 432/4 (Bailey 10*, Brown 21*)
+
+New Zealand 1st innings                                         R   M   B  4 6
+B Sutcliffe           c Bedser           b Hollies             88            0
+VJ Scott              c Edrich           b Bedser              60 110        0
++JR Reid              lbw                b Wright               5            0
+WM Wallace            c Edrich           b Bedser              55            0
+MP Donnelly           c Edrich           b Bailey              27            0
+*WA Hadlee            c Evans            b Bedser              25            0
+GO Rabone             c Evans            b Bailey              18            0
+TB Burtt              c Evans            b Bailey              36  95        0
+HB Cave                                  b Compton             10            0
+J Cowie               c Hutton           b Bedser               1          0 0
+GF Cresswell          not out                                  12            0
+Extras                (lb 1, w 1, nb 6)                         8
+Total                 (all out, 112.1 overs)                  345
+
+FoW: 1-121 (Scott), 2-134 (Reid), 3-170 (Sutcliffe),
+     4-239 (Wallace), 5-239 (Donnelly), 6-272 (Rabone),
+     7-287 (Hadlee), 8-311 (Cave), 9-320 (Cowie), 10-345 (Burtt).
+
+Bowling                      O      M      R      W
+Bailey                      26.1    7     72      3
+Bedser                      31      6     74      4
+Edrich                       3      0     16      0
+Wright                      22      1     93      1
+Laker                        3      0     11      0
+Hollies                     20      7     51      1
+Brown                        5      1     14      0
+Compton                      2      0      6      1
+
+England 1st innings                                             R   M   B  4 6
+L Hutton              c Rabone           b Cresswell          206 300     25 0
+RT Simpson            c Donnelly         b Cresswell           68 140        0
+WJ Edrich             c Cave             b Cresswell          100 185     14 0
+DCS Compton           c Scott            b Cresswell           13            0
+TE Bailey             c Reid             b Cowie               36            0
+*FR Brown             c Hadlee           b Cresswell           21            0
++TG Evans             c Donnelly         b Cowie               17            0
+JC Laker              c Scott            b Cowie                0          0 0
+AV Bedser             c Reid             b Cowie                0          0 0
+WE Hollies            not out                                   1          0 0
+DVP Wright            lbw                b Cresswell            0          0 0
+Extras                (b 6, lb 11, nb 3)                       20
+Total                 (all out, 117.2 overs)                  482
+
+FoW: 1-147 (Simpson), 2-365 (Hutton), 3-396 (Compton),
+     4-401 (Edrich), 5-436 (Brown), 6-469 (Evans), 7-470 (Laker),
+     8-472 (Bedser), 9-481 (Bailey), 10-482 (Wright).
+
+Bowling                      O      M      R      W
+Cowie                       28      1    123      4
+Cresswell                   41.2    6    168      6
+Cave                        24      4     78      0
+Burtt                       24      2     93      0
+
+New Zealand 2nd innings                                         R   M   B  4 6
+B Sutcliffe           c Brown            b Bedser              54            0
+VJ Scott              c Evans            b Bedser               6  12        0
+*WA Hadlee            c Edrich           b Hollies             22            0
+WM Wallace            st Evans           b Hollies             58            0
+MP Donnelly           c Brown            b Bedser              10            0
++JR Reid              c Wright           b Laker               93 130        0
+GO Rabone             lbw                b Laker               20  75        0
+TB Burtt              c Compton          b Laker                6            0
+HB Cave               not out                                  14            0
+J Cowie               c Wright           b Laker                4            0
+GF Cresswell          not out                                   0          0 0
+Extras                (b 10, lb 5, nb 6)                       21
+Total                 (9 wickets dec, 97 overs)               308
+
+FoW: 1-24 (Scott), 2-68 (Hadlee), 3-115 (Sutcliffe),
+     4-131 (Donnelly), 5-188 (Wallace), 6-276 (Reid),
+     7-283 (Rabone), 8-299 (Burtt), 9-308 (Cowie).
+
+Bowling                      O      M      R      W
+Bailey                      11      1     67      0
+Bedser                      23      4     59      3
+Wright                       6      0     21      0
+Laker                       29      6     78      4
+Hollies                     17      6     30      2
+Brown                       10      0     29      0
+Compton                      1      0      3      0
+
+<END>

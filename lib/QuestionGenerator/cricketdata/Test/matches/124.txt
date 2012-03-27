@@ -1,0 +1,123 @@
+
+Test # 124
+South Africa in England, 1912, 2nd Test
+Triangular Tournament, 1912, 4th match
+England v South Africa
+Headingley, Leeds
+8,9,10 July 1912 (3-day match)
+
+Result: England won by 174 runs
+Triangular Tournament points: England 1, South Africa 0
+South Africa in England Test Series: England leads the 3-match series 2-0
+
+Toss: England
+Umpires: W Richards and A White
+
+Close of play:
+ Day 1: England 242, South Africa 141/8 (Pegler 33*, Carter 2*)
+ Day 2: South Africa 147, England 238, South Africa 105/7 (Tancred 38*, Pegler 12*)
+
+England 1st innings                                             R   M   B  4 6
+JB Hobbs              c Ward             b Nourse              27            0
+W Rhodes                             c & b Pegler               7            0
+RH Spooner            c Stricker         b Nourse              21            0
+*CB Fry               lbw                b Pegler              10            0
+JW Hearne                                b Pegler              45            0
+FE Woolley                               b Nourse              57            0
+GL Jessop                                b Faulkner            16            0
+FR Foster             c Pegler           b Nourse              30            0
++EJ Smith             run out                                  13            0
+SF Barnes                                b Faulkner             0          0 0
+H Dean                not out                                   2          0 0
+Extras                (b 12, lb 2)                             14
+Total                 (all out, 78.1 overs)                   242
+
+FoW: 1-20 (Rhodes), 2-44 (Hobbs), 3-67 (Spooner), 4-68 (Fry),
+     5-179 (Hearne), 6-181 (Woolley), 7-198 (Jessop),
+     8-226 (Smith), 9-227 (Barnes), 10-242 (Foster).
+
+Bowling                      O      M      R      W
+Nourse                      26.1    8     52      4
+Pegler                      35      6    112      3
+Faulkner                    13      2     50      2
+Carter                       4      0     14      0
+
+South Africa 1st innings                                        R   M   B  4 6
+*LJ Tancred           c Spooner          b Barnes              15            0
+HW Taylor             c Hobbs            b Dean                31            0
+AW Nourse                                b Barnes               5            0
+CB Llewellyn          c Smith            b Barnes               0          0 0
+GA Faulkner                          c & b Barnes               5            0
+LA Stricker                              b Dean                10            0
+GC White              c Barnes           b Woolley              6            0
+SJ Snooke                                b Barnes              23            0
+SJ Pegler             not out                                  35            0
+CP Carter             c Dean             b Barnes               5            0
++TA Ward                                 b Dean                 0          0 0
+Extras                (b 4, lb 3, nb 5)                        12
+Total                 (all out, 56.3 overs)                   147
+
+FoW: 1-18 (Tancred), 2-25 (Nourse), 3-25 (Llewellyn),
+     4-43 (Faulkner), 5-69 (Stricker), 6-76 (White),
+     7-80 (Taylor), 8-130 (Snooke), 9-146 (Carter),
+     10-147 (Ward).
+
+Bowling                      O      M      R      W
+Foster                      16      7     29      0
+Barnes                      22      7     52      6
+Dean                        12.3    1     41      3
+Woolley                      6      2     13      1
+
+England 2nd innings                                             R   M   B  4 6
+JB Hobbs              c Nourse           b Faulkner            55  65        0
+W Rhodes                                 b Pegler              10            0
+RH Spooner                               b Faulkner            82 150      6 0
+*CB Fry               c Nourse           b Pegler               7            0
+JW Hearne                                b Nourse              35            0
+FE Woolley            c Nourse           b Pegler               4            0
+GL Jessop                                b Nourse               1          0 0
+FR Foster                                b Nourse               0          0 0
++EJ Smith             c Ward             b Faulkner            11            0
+SF Barnes             not out                                  15            0
+H Dean                                   b Faulkner             8            0
+Extras                (b 5, lb 5)                              10
+Total                 (all out, 90.2 overs)                   238
+
+FoW: 1-46 (Rhodes), 2-78 (Hobbs), 3-95 (Fry), 4-165 (Hearne),
+     5-180 (Woolley), 6-181 (Jessop), 7-181 (Foster),
+     8-207 (Spooner), 9-224 (Smith), 10-238 (Dean).
+
+Bowling                      O      M      R      W
+Nourse                      30     11     52      3
+Pegler                      31      0    110      3
+Faulkner                    24.2    2     50      4
+Carter                       5      1     16      0
+
+South Africa 2nd innings (target: 334 runs)                     R   M   B  4 6
+*LJ Tancred           st Smith           b Barnes              39            0
+HW Taylor             c Smith            b Foster               2          0 0
+GC White                             c & b Foster              17            0
+CB Llewellyn                             b Barnes               4            0
+GA Faulkner                              b Barnes               0          0 0
+AW Nourse             c Foster           b Dean                15            0
+LA Stricker           run out                                   0          0 0
+SJ Snooke                                b Dean                 8            0
+SJ Pegler                                b Hearne              32            0
+CP Carter                                b Barnes              31            0
++TA Ward              not out                                   0          0 0
+Extras                (b 5, lb 3, nb 3)                        11
+Total                 (all out, 58.2 overs)                   159
+
+FoW: 1-18 (Taylor), 2-38 (White), 3-44 (Llewellyn),
+     4-49 (Faulkner), 5-67 (Nourse), 6-69 (Stricker),
+     7-85 (Snooke), 8-110 (Tancred), 9-159 (Pegler),
+     10-159 (Carter).
+
+Bowling                      O      M      R      W
+Foster                      23      4     51      2
+Barnes                      21.2    5     63      4
+Dean                         8      3     15      2
+Rhodes                       4      1     14      0
+Hearne                       2      0      5      1
+
+<END>

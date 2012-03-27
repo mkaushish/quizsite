@@ -1,0 +1,79 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+454, 1958-06-05, 1, 2, New Zealand, lbw, MacGibbon, 0, na, 3, 0, 0
+454, 1958-06-05, 3, 2, New Zealand, c Petrie, MacGibbon, 7, 55, na, na, 0
+455, 1958-06-19, 1, 2, New Zealand, c Petrie, Hayes, 47, 230, na, na, 0
+456, 1958-07-03, 2, 1, New Zealand, c Reid, MacGibbon, 3, na, na, 0, 0
+477, 1959-07-23, 1, 4, India, c Desai, Borde, 100, 210, na, 12, 0
+477, 1959-07-23, 3, 4, India, c Desai, Gupte, 9, na, na, na, 0
+478, 1959-08-20, 2, 4, India, , Desai, 98, 197, na, 14, 0
+485, 1960-01-06, 1, 5, West Indies, c Alexander, Scarlett, 39, na, na, na, 1
+488, 1960-01-28, 1, 6, West Indies, c Worrell, Ramadhin, 108, 295, na, na, 3
+488, 1960-01-28, 3, 6, West Indies, lbw, Watson, 12, na, na, na, 0
+489, 1960-02-17, 1, 6, West Indies, , Hall, 0, na, 1, 0, 0
+489, 1960-02-17, 3, 6, West Indies, lbw, Watson, 10, na, na, na, 0
+490, 1960-03-09, 1, 6, West Indies, , Hall, 0, na, 2, 0, 0
+490, 1960-03-09, 3, 5, West Indies, c Scarlett, Sobers, 23, na, na, na, 0
+491, 1960-03-25, 1, 6, West Indies, , Ramadhin, 20, na, na, na, 0
+491, 1960-03-25, 3, 7, West Indies, c Alexander, Hunte, 96, na, na, na, 1
+492, 1960-06-09, 1, 5, South Africa, c Waite, Adcock, 54, 155, 144, 5, 0
+492, 1960-06-09, 3, 4, South Africa, c O'Linn, Tayfield, 28, 150, na, na, 0
+493, 1960-06-23, 1, 5, South Africa, c Waite, Griffin, 99, 243, na, 10, 1
+494, 1960-07-07, 1, 5, South Africa, lbw, Goddard, 0, 1, 2, 0, 0
+496, 1960-08-18, 1, 5, South Africa, , Adcock, 0, 5, na, 0, 0
+496, 1960-08-18, 3, 6, South Africa, c Goddard, Tayfield, 11, 83, na, 0, 0
+507, 1961-06-08, 1, 6, Australia, c Lawry, Mackay, 0, na, 2, 0, 0
+507, 1961-06-08, 3, 6, Australia, not out, , 1, na, na, 0, 0
+512, 1961-10-21, 2, 4, Pakistan, run out, , 99, na, na, 13, 0
+512, 1961-10-21, 4, 4, Pakistan, c Afaq Hussain, Haseeb Ahsan, 34, na, na, 4, 0
+513, 1961-11-11, 1, 4, India, c Kunderan, Ranjane, 36, na, na, na, 0
+513, 1961-11-11, 3, 4, India, , Durani, 0, na, na, 0, 0
+514, 1961-12-01, 2, 4, India,                c &, Gupte, 0, 1, na, 0, 0
+514, 1961-12-01, 3, 4, India, lbw, Gupte, 0, 1, na, 0, 0
+516, 1961-12-13, 2, 4, India, , Gupte, 2, 34, na, 0, 0
+520, 1962-01-10, 2, 5, India, c Umrigar, Durani, 73, 200, na, 8, 1
+520, 1962-01-10, 4, 5, India, c Borde, Durani, 15, 42, na, 2, 0
+521, 1962-01-19, 2, 4, Pakistan, lbw, D'Souza, 10, 52, na, 1, 0
+522, 1962-02-02, 2, 4, Pakistan, c Imtiaz Ahmed, Nasim-ul-Ghani, 56, 232, na, 3, 0
+551, 1964-01-10, 2, 2, India, c Kunderan, Ranjane, 3, 12, na, 0, 0
+551, 1964-01-10, 4, 2, India, c Kunderan, Nadkarni, 57, 110, na, 6, 0
+552, 1964-01-21, 2, 2, India, c Borde, Chandrasekhar, 46, 120, na, 6, 0
+552, 1964-01-21, 4, 4, India, not out, , 31, 134, na, 4, 0
+554, 1964-01-29, 2, 3, India, c Jaisimha, Borde, 19, 60, na, 2, 0
+554, 1964-01-29, 4, 3, India, not out, , 75, 113, na, 8, 2
+556, 1964-02-08, 2, 3, India, c Pataudi, Kripal Singh, 37, 77, na, 4, 0
+557, 1964-02-15, 1, 3, India, c Borde, Gupte, 38, 77, na, 6, 0
+571, 1964-12-04, 1, 6, South Africa, c Lindsay, Partridge, 35, 142, na, 2, 0
+572, 1964-12-23, 1, 6, South Africa, c McLean, Goddard, 25, 64, na, 3, 0
+573, 1965-01-01, 2, 6, South Africa, c Goddard, Bromfield, 121, 320, na, 12, 1
+575, 1965-01-22, 2, 6, South Africa, c RG Pollock, McKinnon, 42, 121, na, 6, 0
+575, 1965-01-22, 4, 6, South Africa, , Bromfield, 8, 33, na, 1, 0
+578, 1965-02-12, 2, 7, South Africa, c Waite, Barlow, 26, 106, na, 2, 0
+591, 1965-05-27, 1, 6, New Zealand, lbw, Collinge, 0, na, na, 0, 0
+592, 1965-06-17, 2, 6, New Zealand, c sub, Taylor, 44, na, na, na, 0
+593, 1965-07-08, 1, 6, New Zealand, not out, , 2, 34, na, 0, 0
+594, 1965-07-22, 2, 6, South Africa, c Lindsay, Botten, 26, na, na, na, 0
+594, 1965-07-22, 4, 6, South Africa, c Lindsay, Dumbrill, 13, na, na, na, 0
+595, 1965-08-05, 2, 7, South Africa, , PM Pollock, 32, 106, na, 2, 0
+595, 1965-08-05, 4, 8, South Africa, lbw, RG Pollock, 24, 83, na, 3, 0
+596, 1965-08-26, 2, 6, South Africa, lbw, PM Pollock, 7, 38, na, 1, 0
+596, 1965-08-26, 4, 6, South Africa, not out, , 10, 33, na, 0, 0
+597, 1965-12-10, 2, 5, Australia, , Allan, 16, 38, 54, 3, 0
+597, 1965-12-10, 3, 5, Australia, not out, , 10, 36, 29, 0, 0
+598, 1966-12-30, 2, 6, Australia, c Grout, McKenzie, 41, 103, 92, 4, 0
+599, 1966-01-07, 1, 6, Australia, c Grout, Hawke, 6, 25, 18, 0, 0
+600, 1966-01-28, 1, 6, Australia, , Veivers, 29, 118, 111, 2, 0
+600, 1966-01-28, 3, 6, Australia, c McKenzie, Stackpole, 5, 19, 28, 1, 0
+601, 1966-02-11, 1, 6, Australia, c Grout, Walters, 0, 4, 6, 0, 0
+602, 1966-02-25, 1, 5, New Zealand, c Puna, Pollard, 54, 166, na, 3, 0
+602, 1966-02-25, 3, 5, New Zealand, c Bilby, Puna, 87, 173, na, 12, 0
+603, 1966-03-04, 2, 5, New Zealand, c Pollard, Bartlett, 20, 45, na, 2, 0
+604, 1966-03-11, 2, 4, New Zealand, , Taylor, 18, 114, 84, 1, 0
+604, 1966-03-11, 4, 4, New Zealand, lbw, Cunis, 30, 119, 91, 1, 0
+605, 1966-06-02, 2, 5, West Indies, c Butcher, Gibbs, 5, 91, 27, 1, 0
+605, 1966-06-02, 3, 5, West Indies, , Gibbs, 6, 26, 35, 1, 0
+698, 1972-06-08, 1, 4, Australia, lbw, Lillee, 10, 54, 40, 1, 0
+698, 1972-06-08, 3, 4, Australia, c Marsh, Lillee, 34, 147, 99, 2, 0
+699, 1972-06-22, 1, 4, Australia, , Massie, 34, 112, 107, 3, 0
+699, 1972-06-22, 3, 4, Australia, c Edwards, Massie, 30, 157, 99, 2, 0
+700, 1972-07-13, 2, 4, Australia, , Lillee, 17, 88, 70, 0, 0
+700, 1972-07-13, 4, 4, Australia, lbw, Lillee, 15, 36, 37, 3, 0

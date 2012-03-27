@@ -1,0 +1,64 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+242, 1935-06-15, 2, 4, England, c Hammond, Verity, 4, na, na, na, 0
+243, 1935-06-29, 1, 4, England, , Verity, 3, na, na, 0, 0
+243, 1935-06-29, 3, 4, England, , Verity, 2, na, na, 0, 0
+245, 1935-07-27, 2, 4, England, lbw, Verity, 29, na, na, na, 0
+245, 1935-07-27, 4, 4, England, not out, , 53, na, na, na, 0
+246, 1935-08-17, 1, 4, England, c Wyatt, Bowes, 32, na, na, na, 0
+246, 1935-08-17, 3, 4, England, , Read, 34, na, na, na, 0
+247, 1935-12-14, 1, 5, Australia, , McCormick, 30, 33, na, 4, 0
+247, 1935-12-14, 3, 5, Australia, c Fingleton, O'Reilly, 91, 144, na, 11, 0
+248, 1935-12-24, 1, 4, Australia, , McCormick, 0, na, na, 0, 0
+248, 1935-12-24, 3, 5, Australia, c McCormick, McCabe, 231, 289, na, 36, 0
+249, 1936-01-01, 2, 6, Australia, not out, , 44, na, na, na, 0
+249, 1936-01-01, 3, 4, Australia,                c &, Grimmett, 25, na, na, na, 0
+250, 1936-02-15, 1, 3, Australia, c Oldfield, McCormick, 3, na, na, 0, 0
+250, 1936-02-15, 3, 5, Australia, , McCormick, 3, na, na, 0, 0
+251, 1936-02-28, 1, 4, Australia, lbw, Grimmett, 50, na, na, na, 0
+251, 1936-02-28, 3, 4, Australia, , O'Reilly, 41, na, na, na, 0
+267, 1938-12-24, 2, 4, England,                c &, Goddard, 73, 163, na, 6, 1
+267, 1938-12-24, 4, 3, England, not out, , 17, 35, na, na, 0
+268, 1939-12-31, 2, 4, England, lbw, Verity, 120, 268, na, 12, 1
+268, 1939-12-31, 3, 4, England, not out, , 19, na, na, na, 0
+269, 1939-01-20, 2, 4, England, c Hammond, Farnes, 0, na, na, 0, 0
+269, 1939-01-20, 3, 4, England, c Ames, Edrich, 27, na, na, na, 0
+270, 1939-02-18, 2, 5, England, hit wicket, Verity, 38, na, na, 4, 0
+271, 1939-03-03, 1, 5, England, , Perks, 103, 364, na, 6, 0
+271, 1939-03-03, 3, 4, England, c Hutton, Farnes, 25, na, na, 3, 0
+285, 1947-06-07, 1, 4, England, , Hollies, 149, 244, na, 15, 1
+286, 1947-06-21, 2, 4, England, lbw, Wright, 61, 159, na, na, 0
+286, 1947-06-21, 3, 4, England, , Edrich, 58, 102, na, na, 0
+287, 1947-07-05, 1, 4, England, c Yardley, Cranston, 23, 36, na, na, 0
+287, 1947-07-05, 3, 4, England, , Edrich, 115, 144, na, 13, 2
+288, 1947-07-26, 1, 4, England, , Butler, 51, 156, na, na, 0
+288, 1947-07-26, 3, 4, England, lbw, Butler, 57, 139, na, na, 0
+289, 1947-08-16, 2, 4, England, c Yardley, Howorth, 10, 13, na, na, 0
+289, 1947-08-16, 4, 4, England, , Howorth, 97, 150, na, 12, 0
+306, 1948-12-16, 1, 4, England, c Watkins, Wright, 37, na, na, na, 1
+306, 1948-12-16, 3, 4, England,                c &, Bedser, 32, na, na, na, 0
+307, 1948-12-27, 2, 4, England, lbw, Wright, 32, na, na, na, 0
+307, 1948-12-27, 3, 4, England, not out, , 56, na, na, na, 0
+309, 1949-01-01, 2, 4, England,                c &, Compton, 112, na, na, na, 0
+309, 1949-01-01, 4, 4, England, st Evans, Jenkins, 34, na, na, na, 0
+312, 1949-02-12, 2, 4, England, not out, , 129, na, na, na, 0
+312, 1949-02-12, 4, 4, England, , Watkins, 1, na, na, 0, 0
+313, 1949-03-05, 1, 4, England, , Bedser, 73, na, na, na, 0
+313, 1949-03-05, 3, 4, England, not out, , 30, na, na, na, 0
+318, 1949-12-24, 2, 4, Australia, c Hassett, Johnson, 0, na, na, 0, 0
+318, 1949-12-24, 3, 4, Australia, c Saggers, Johnson, 36, na, na, na, 0
+319, 1950-12-31, 2, 4, Australia, c Johnston, Miller, 65, na, na, na, 0
+319, 1950-12-31, 3, 4, Australia, lbw, McCool, 114, 270, na, na, 0
+320, 1950-01-20, 1, 4, Australia, c Saggers, Johnston, 66, na, na, na, 0
+320, 1950-01-20, 3, 4, Australia, c McCool, Johnson, 27, na, na, na, 0
+321, 1950-02-10, 2, 4, Australia, c Saggers, Lindwall, 5, na, na, na, 0
+322, 1950-03-03, 2, 4, Australia, c McCool, Miller, 37, na, na, na, 0
+322, 1950-03-03, 3, 4, Australia, , Johnson, 55, na, na, na, 0
+334, 1951-06-07, 1, 4, England, run out, , 208, 555, na, 25, 0
+334, 1951-06-07, 3, 11, England, absent hurt, , -, , , , 
+335, 1951-06-21, 2, 4, England, c Watson, Tattersall, 20, na, na, na, 0
+335, 1951-06-21, 3, 4, England, lbw, Wardle, 3, na, na, 0, 0
+336, 1951-07-05, 1, 4, England, c Ikin, Bedser, 29, 69, na, 2, 0
+336, 1951-07-05, 3, 4, England, c Evans, Tattersall, 20, 48, na, 3, 0
+337, 1951-07-26, 1, 4, England, lbw, Brown, 13, na, na, na, 0
+338, 1951-08-16, 1, 4, England, lbw, Brown, 4, na, na, na, 0
+338, 1951-08-16, 3, 4, England, , Laker, 4, na, na, na, 0

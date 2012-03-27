@@ -1,0 +1,65 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+1188, 1992-04-18, 2, 7, West Indies, c Ambrose, Adams, 8, 31, 27, 1, 0
+1188, 1992-04-18, 4, 7, West Indies, c Williams, Ambrose, 2, 50, 25, 0, 0
+1200, 1992-11-13, 1, 7, India, lbw, Prabhakar, 15, 79, 67, 1, 0
+1201, 1992-11-26, 1, 8, India, lbw, Kumble, 9, 34, 31, 1, 0
+1201, 1992-11-26, 3, 3, India, , Kumble, 50, 150, 124, 7, 0
+1206, 1992-12-26, 2, 7, India, run out (sub [J Srinath]/Kumble), , 1, 27, 24, 0, 0
+1209, 1993-01-02, 1, 8, India, c Tendulkar, Kumble, 21, 61, 54, 1, 0
+1209, 1993-01-02, 3, 8, India, not out, , 10, 73, 48, 0, 0
+1232, 1993-08-25, 2, 7, Sri Lanka,                c &, Wickramasinghe, 2, 5, 6, 0, 0
+1232, 1993-08-25, 4, 7, Sri Lanka, c Tillakaratne, de Silva, 4, 17, 19, 1, 0
+1233, 1993-09-06, 2, 7, Sri Lanka, c Jayasuriya, Muralitharan, 11, 57, 49, 1, 0
+1234, 1993-09-14, 1, 7, Sri Lanka, c de Silva, Muralitharan, 62, 190, 155, 6, 0
+1243, 1994-01-02, 1, 7, Australia, c Taylor, Warne, 4, 9, 8, 1, 0
+1243, 1994-01-02, 3, 7, Australia, lbw, McGrath, 24, 96, 70, 3, 0
+1246, 1994-01-28, 2, 8, Australia, lbw, McDermott, 6, 39, 38, 0, 0
+1246, 1994-01-28, 4, 9, Australia, c Taylor, May, 10, 29, 31, 0, 0
+1252, 1994-03-04, 1, 8, Australia, lbw, Warne, 31, 59, 47, 4, 0
+1252, 1994-03-04, 3, 9, Australia, c Border, Warne, 20, 40, 48, 3, 0
+1253, 1994-03-17, 1, 8, Australia, lbw, McDermott, 34, 109, 85, 3, 0
+1253, 1994-03-17, 3, 9, Australia, c Healy, McGrath, 31, 127, 112, 3, 0
+1256, 1994-03-25, 2, 8, Australia, c Reiffel, Warne, 59, 255, 205, 7, 0
+1263, 1994-07-21, 1, 8, England, lbw, Gough, 26, 37, 35, 3, 0
+1263, 1994-07-21, 3, 8, England, c Rhodes, Fraser, 3, 34, 24, 0, 0
+1264, 1994-08-04, 2, 3, England, , Fraser, 48, 102, 73, 7, 0
+1266, 1994-08-18, 1, 8, England, c Rhodes, Benjamin, 58, 126, 89, 6, 0
+1266, 1994-08-18, 3, 7, England, lbw, Malcolm, 3, 7, 7, 0, 0
+1276, 1994-11-25, 2, 7, New Zealand, lbw, Nash, 93, 173, 137, 15, 0
+1276, 1994-11-25, 4, 7, New Zealand,                c &, Hart, 6, 27, 17, 0, 0
+1280, 1994-12-26, 2, 8, New Zealand, not out, , 39, 152, 94, 3, 0
+1282, 1995-01-02, 2, 8, New Zealand, c Crowe, Doull, 109, 303, 206, 7, 0
+1283, 1995-01-19, 1, 8, Pakistan, , Aamer Nazir, 0, 1, 1, 0, 0
+1283, 1995-01-19, 3, 8, Pakistan, lbw, Aaqib Javed, 0, 3, 1, 0, 0
+1291, 1995-03-04, 1, 8, New Zealand, c Parore, Nash, 18, 59, 39, 3, 0
+1291, 1995-03-04, 3, 7, New Zealand, not out, , 8, 33, 24, 1, 0
+1307, 1995-10-13, 2, 8, Zimbabwe, c BC Strang, Lock, 13, 21, 26, 2, 0
+1315, 1995-11-30, 1, 7, England, c Russell, Malcolm, 0, 1, 3, 0, 0
+1315, 1995-11-30, 3, 7, England, c Ramprakash, Malcolm, 23, 42, 28, 3, 0
+1318, 1995-12-14, 1, 8, England, c Russell, Ilott, 7, 31, 16, 1, 0
+1320, 1995-12-26, 1, 7, England, c Russell, Illingworth, 84, 223, 189, 6, 0
+1320, 1995-12-26, 3, 7, England, c Russell, Cork, 0, 7, 5, 0, 0
+1321, 1996-01-02, 2, 8, England, not out, , 54, 172, 98, 5, 0
+1338, 1996-11-20, 2, 7, India, , Hirwani, 4, 23, 29, 0, 0
+1338, 1996-11-20, 4, 6, India, c Mongia, Srinath, 7, 38, 26, 1, 0
+1341, 1996-11-27, 1, 7, India, not out, , 36, 85, 60, 4, 0
+1344, 1996-12-08, 2, 7, India, , Srinath, 4, 11, 6, 0, 0
+1344, 1996-12-08, 4, 7, India, lbw, Srinath, 5, 50, 34, 1, 0
+1347, 1996-12-26, 1, 9, India, , Prasad, 24, 40, 31, 4, 0
+1347, 1996-12-26, 3, 9, India, , Srinath, 4, 13, 4, 0, 0
+1349, 1997-01-02, 1, 8, India, c Dravid, Srinath, 39, 123, 106, 5, 0
+1350, 1997-01-16, 2, 8, India, c Azharuddin, Ganguly, 13, 51, 46, 1, 0
+1350, 1997-01-16, 4, 8, India, c Azharuddin, Kumble, 7, 24, 28, 1, 0
+1356, 1997-02-28, 1, 9, Australia, not out, , 72, 112, 87, 10, 1
+1356, 1997-02-28, 3, 9, Australia, c Hayden, Bevan, 2, 4, 5, 0, 0
+1360, 1997-03-14, 1, 9, Australia, c McGrath, Warne, 47, 116, 105, 4, 1
+1360, 1997-03-14, 3, 9, Australia, not out, , 3, 32, 21, 0, 0
+1362, 1997-03-21, 2, 8, Australia, , McGrath, 0, 2, 2, 0, 0
+1380, 1997-10-06, 2, 8, Pakistan, not out, , 45, 168, 124, 5, 0
+1382, 1997-10-24, 1, 7, Pakistan, c Saqlain Mushtaq, Mushtaq Ahmed, 8, 32, 19, 1, 0
+1382, 1997-10-24, 3, 8, Pakistan, lbw, Waqar Younis, 0, 1, 1, 0, 0
+1392, 1997-12-26, 2, 8, Australia, lbw, ME Waugh, 1, 10, 9, 0, 0
+1392, 1997-12-26, 4, 8, Australia, lbw, McGrath, 11, 47, 39, 0, 0
+1393, 1998-01-02, 1, 8, Australia, , Warne, 6, 14, 15, 0, 0
+1393, 1998-01-02, 3, 8, Australia,                c &, Warne, 0, 2, 3, 0, 0
+1397, 1998-01-30, 1, 6, Australia, c Taylor, Warne, 15, 77, 56, 2, 0

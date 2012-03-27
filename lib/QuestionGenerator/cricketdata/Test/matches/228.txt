@@ -1,0 +1,101 @@
+
+Test # 228
+West Indies in England, 1933, 2nd Test
+England v West Indies
+Old Trafford, Manchester
+22,24,25 July 1933 (3-day match)
+
+Result: Match drawn
+Series: England leads the 3-match series 1-0
+
+Toss: West Indies
+Umpires: J Hardstaff snr and EJ Smith
+Test debuts: James Langridge (England); VA Valentine, CA Wiles (West Indies).
+
+Close of play:
+ Day 1: West Indies 333/6 (Headley 145*, Da Costa 16*)
+ Day 2: West Indies 375, England 263/6 (Jardine 68*, Robins 6*)
+
+West Indies 1st innings                                         R   M   B  4 6
+CA Roach                                 b Clark               13            0
++IM Barrow                               b Wyatt              105            0
+GA Headley            not out                                 169 375     18 0
+ELG Hoad                                 b Clark                1          0 0
+*GC Grant             c Ames             b Robins              16            0
+LN Constantine        c Robins           b Clark               31            0
+CA Wiles              c Hammond          b Verity               0          0 0
+OC Da Costa                              b Clark               20            0
+EE Achong                                b Verity               6            0
+VA Valentine                             b Robins               6            0
+EA Martindale                            b Robins               2          0 0
+Extras                (lb 6)                                    6
+Total                 (all out, 135.4 overs)                  375
+
+FoW: 1-26 (Roach), 2-226 (Barrow), 3-227 (Hoad), 4-266 (Grant),
+     5-302 (Constantine), 6-306 (Wiles), 7-341 (Da Costa),
+     8-354 (Achong), 9-363 (Valentine), 10-375 (Martindale).
+
+Bowling                      O      M      R      W
+Clark                       40      8     99      4
+Macaulay                    14      2     48      0
+Robins                      28.4    2    111      3
+Verity                      32     14     47      2
+Hammond                      5      0     27      0
+Langridge                    9      1     23      0
+Wyatt                        7      1     14      1
+
+England 1st innings                                             R   M   B  4 6
+CF Walters            lbw                b Martindale          46            0
+H Sutcliffe           run out                                  20            0
+WR Hammond            c Martindale       b Constantine         34            2
+RES Wyatt             c Constantine      b Martindale          18            0
+*DR Jardine           c Constantine      b Martindale         127 300      5 0
++LEG Ames             c Headley          b Martindale          47 100        0
+James Langridge       c Grant            b Achong               9            0
+RWV Robins            st Barrow          b Achong              55 120        0
+H Verity              not out                                   0          0 0
+EW Clark                                 b Martindale           0          0 0
+GG Macaulay           absent hurt                               -
+Extras                (b 7, lb 6, w 1, nb 4)                   18
+Total                 (all out, 140.4 overs)                  374
+
+FoW: 1-63 (Sutcliffe), 2-83 (Walters), 3-118 (Hammond),
+     4-134 (Wyatt), 5-217 (Ames), 6-234 (Langridge),
+     7-374 (Robins), 8-374 (Jardine), 9-374 (Clark).
+
+Bowling                      O      M      R      W
+Martindale                  23.4    4     73      5
+Constantine                 25      5     55      1
+Valentine                   28      8     49      0
+Achong                      37      9     90      2
+Headley                     15      1     65      0
+Grant                        2      0     12      0
+Da Costa                    10      6     12      0
+
+West Indies 2nd innings                                         R   M   B  4 6
+CA Roach              lbw                b Langridge           64            0
++IM Barrow            c Langridge        b Clark                0          0 0
+GA Headley                           c & b Langridge           24  85        0
+ELG Hoad              c Hammond          b Langridge           14            0
+*GC Grant             c Hammond          b Langridge           14            0
+CA Wiles              st Ames            b Langridge            2          0 0
+LN Constantine                           b Langridge           64            0
+OC Da Costa           c Sutcliffe        b Clark                0          0 0
+EE Achong             c Ames             b Langridge           10            0
+VA Valentine          not out                                  19            0
+EA Martindale         c Verity           b Robins               1          0 0
+Extras                (b 8, lb 4, nb 1)                        13
+Total                 (all out, 60.1 overs)                   225
+
+FoW: 1-5 (Barrow), 2-86 (Roach), 3-95 (Headley), 4-112 (Hoad),
+     5-118 (Wiles), 6-131 (Grant), 7-132 (Da Costa),
+     8-191 (Achong), 9-214 (Constantine), 10-225 (Martindale).
+
+Bowling                      O      M      R      W
+Clark                       15      1     64      2
+Robins                      11.1    0     41      1
+Verity                      13      2     40      0
+Langridge                   17      4     56      7
+Wyatt                        4      1     11      0
+
+<END>

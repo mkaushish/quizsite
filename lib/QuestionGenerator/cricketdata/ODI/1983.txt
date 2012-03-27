@@ -1,0 +1,2510 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- hostname: stats4, country: unknown, cluster: www, created: 2011-12-16 10:19:31 -->
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://developers.facebook.com/schema/" >
+<head>
+ <script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
+ <meta name="google-site-verification" content="ZxdgH3XglRg0Bsy-Ho2RnO3EE4nRs53FloLS6fkt_nc" />
+ <title>Cricket Records | Records | 1983 | One-Day Internationals | Match results | ESPN Cricinfo</title> 
+ <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+ <meta name="keywords" content="Cricket records,  Records, 1983, One-Day Internationals, Match results" />
+ <meta name="description" content="Cricinfo Cricket Records - Records, 1983, One-Day Internationals, Match results" />
+<!--[if IE 9]>
+<script language="javascript" type="text/javascript">
+function fnCreateJumpList(iScenario) {
+fnClearJumpList();
+window.external.msSiteModeCreateJumpList("Quick Links")
+window.external.msSiteModeAddJumpListItem('Shopping', 'http://www.espncricinfo.com/ci/content/current/url/292874.html', '/favicon.ico');window.external.msSiteModeAddJumpListItem('ICC Rankings', 'http://www.espncricinfo.com/ci/content/current/page/211270.html', '/favicon.ico');window.external.msSiteModeAddJumpListItem('Statsguru', 'http://www.espncricinfo.com/ci/content/current/url/543822.html', '/favicon.ico');window.external.msSiteModeAddJumpListItem('SPECIAL: Greatest Partnerships', 'http://www.espncricinfo.com/ci/content/current/url/545630.html', '/favicon.ico');window.external.msSiteModeAddJumpListItem('SA v SL', 'http://www.espncricinfo.com/south-africa-v-sri-lanka-2011/content/current/series/514014.html', '/favicon.ico');window.external.msSiteModeAddJumpListItem('Bang v Pak', 'http://www.espncricinfo.com/bangladesh-v-pakistan-2011/content/current/series/538064.html', '/favicon.ico');window.external.msSiteModeAddJumpListItem('Aus v Ind', 'http://www.espncricinfo.com/australia-v-india-2011/content/current/series/518944.html', '/favicon.ico');window.external.msSiteModeShowJumpList();
+}
+function fnClearJumpList() {
+window.external.msSiteModeClearJumplist();
+}
+</script>
+
+<meta name="msapplication-task" content="name=Live Scores;action-uri=http://www.espncricinfo.com/ci/engine/current/match/scores/live.html;icon-uri=/favicon.ico"/>
+<meta name="msapplication-task" content="name=Latest News;action-uri=http://www.espncricinfo.com/ci/content/current/story/news.html;icon-uri=/favicon.ico"/>
+<meta name="msapplication-task" content="name=Fixtures;action-uri=http://www.espncricinfo.com/ci/content/current/match/fixtures/index.html;icon-uri=/favicon.ico"/>
+<meta name="msapplication-task" content="name=Results;action-uri=http://www.espncricinfo.com/ci/engine/current/match/scores/recent.html;icon-uri=/favicon.ico"/>
+<meta name="msapplication-task" content="name=Photos;action-uri=http://www.espncricinfo.com/ci/content/current/image/index.html;icon-uri=/favicon.ico"/>
+<meta name="msapplication-task" content="name=Audio/Video;action-uri=http://www.espncricinfo.com/ci/content/video_audio/index.html;icon-uri=/favicon.ico"/>
+<script language="javascript" type="text/javascript">
+        fnCreateJumpList(2);
+</script>
+<![endif]-->
+
+ <meta name="robots" content="index, follow" />
+ <meta name="googlebot" content="index, follow" />
+ <meta property="og:type" content="article"/>
+ <meta property="og:title" content=""/>
+ 
+ <link rel="shortcut icon" href="/favicon.ie9new.ico" />
+ <link rel="icon" type="image/png" href="/favicon.png" />
+ <link rel="icon" type="image/gif" href="/favicon.gif" />
+ <link rel="apple-touch-icon" href="http://i.imgci.com/espncricinfo/ci_apple_webclip.png"/>
+ <meta property="fb:app_id" content="260890547115" />
+ <meta property="og:site_name" content="Cricinfo" />
+ <meta property="og:title" content=""/>
+<!-- Cricinfo Global News RSS feed link -->
+<link href="/rss/content/story/feeds/0.xml" rel="alternate" type="application/rss+xml" title="Global News RSS Feed" />
+<link href="/rss/livescores.xml" rel="alternate" type="application/rss+xml" title="Cricinfo live scores RSS feed" />
+
+<link rel="stylesheet" type="text/css" href="/navigation/cricinfo/ci/global.css?1323180878"/>
+
+<script language="javascript" type="text/javascript">
+	if(navigator.userAgent.indexOf('Linux') != -1) { 
+		var linux = '/navigation/cricinfo/ci/global_linux.css?1308663914';
+		var linuxcss=document.createElement("link");
+		linuxcss.setAttribute("rel", "stylesheet");
+		linuxcss.setAttribute("type", "text/css");
+		linuxcss.setAttribute("href", linux);
+		document.getElementsByTagName("head")[0].appendChild(linuxcss);
+	}
+</script>
+
+ <script language="javascript" type="text/javascript" src="/navigation/cricinfo/ci/jquery-1.4.2.min.js"></script>
+ 
+ <script language="javascript" type="text/javascript" src="/navigation/cricinfo/ci/default.js?1298264289"></script>
+
+
+<script language="javascript"  type="text/javascript">
+	ord=Math.random()*10000000000000000;
+
+	cqanswer = '99';
+	location_country = 'unknown';
+	location_cluster = 'www';
+</script>
+
+</head>
+<body>
+
+<div id="ciMainContainer">
+ <div id="ciHomeMastContainer">
+
+
+ <div id="ciHomeLeaderboard">
+<div class="bnrHldr" >
+    
+<!-- Cricinfo Records espncricinfo_stats/records;kvcluster=www;kvpt=statistics;kvsite=global;kvobject=1983;kvteams=;kvbrand=ci;tile=1;sz=728x90 -->
+<script language="JavaScript" type="text/javascript">
+document.write('<script language="JavaScript" src="http://ad.doubleclick.net/adj/espncricinfo_stats/records;kvcluster=www;kvpt=statistics;kvsite=global;kvobject=1983;kvteams=;kvbrand=ci;tile=1;sz=728x90;ord=' + ord + '?" type="text/javascript"><\/script>');
+</script><noscript><a href="http://ad.doubleclick.net/jump/espncricinfo_stats/records;kvcluster=www;kvpt=statistics;kvsite=global;kvobject=1983;kvteams=;kvbrand=ci;tile=1;sz=728x90;ord=123456789?" target="_blank"><img src="http://ad.doubleclick.net/ad/espncricinfo_stats/records;kvcluster=www;kvpt=statistics;kvsite=global;kvobject=1983;kvteams=;kvbrand=ci;tile=1;sz=728x90;ord=123456789?" width="728" height="90" border="0" alt=""></a></noscript>
+<!-- End ad tag --> 
+    
+   </div>
+
+   <div class="slot210Hldr">
+    </div>
+
+  </div>
+<style type="text/css">
+a.FB_Link:hover {
+	color:#1B7BDD!Important;
+}
+</style>
+<!--facebook connect-->
+<script src="http://connect.facebook.net/en_US/all.js" type="text/javascript"></script>
+	<div id="fb-root"></div>
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({appId: '260890547115', status: true, cookie: true,
+                 xfbml: true, oauth: true});
+      };
+		FB.Event.subscribe('auth.logout', function(){
+			removeCookie('fbid','/','.espncricinfo.com');
+		});
+		FB.Event.subscribe('auth.login', function(a){ 
+			setCookie('fbid',a.authResponse.userID || FB._userID,null,'/','.espncricinfo.com');
+		});
+      (function() {
+        var e = document.createElement('script');
+        e.type = 'text/javascript';
+        e.src = document.location.protocol +
+          '//connect.facebook.net/en_US/all.js';
+        e.async = true;
+        document.getElementById('fb-root').appendChild(e);
+      }());
+    </script>
+
+<script type="text/javascript">
+var globalFBConnect = false;
+$(document).ready(function(){
+	FB.getLoginStatus(function(response) {
+		if(response.status === 'connected'){
+			globalFBConnect = true;
+		}
+		else{
+			globalFBConnect = false;
+		}
+	});
+	var fb_cookies = getCookie("fbsr_260890547115");
+	var authcookie = getCookie("CI_Pub_data");
+	if((fb_cookies || globalFBConnect) && !authcookie){
+		updateMasthead();
+	}
+	
+});		
+var server = "submit.espncricinfo.com";
+    
+/* Login Valdation */
+
+//----------------------------------------------------------
+//      create cookie
+//----------------------------------------------------------
+function setCookie( name, value, expires, path, domain, secure ) {
+
+var today = new Date();
+
+    today.setTime( today.getTime() );
+    if ( expires ) {
+        expires = expires * 1000 * 60 * 60 * 24;
+     }
+
+     var expires_date = new Date( today.getTime() + (expires) );
+
+     document.cookie = name+'='+escape( value ) + 
+                       ( ( expires ) ? ';expires='+expires_date.toGMTString() : '' ) + 
+                       ( ( path ) ? ';path=' + path : '' ) +
+                       ( ( domain ) ? ';domain=' + domain : '' ) +
+                       ( ( secure ) ? ';secure' : '' );
+
+}
+
+//----------------------------------------------------------
+//      check if cookie defined 
+//----------------------------------------------------------
+function getCookie(name) {
+
+    var start = document.cookie.indexOf( name + "=" );
+    var len = start + name.length + 1;
+
+    if ( ( !start ) && ( name != document.cookie.substring( 0, name.length ) ) ) {
+       return null;
+    }
+
+    if ( start == -1 ) return null;
+    var end = document.cookie.indexOf( ';', len );
+    if ( end == -1 ) end = document.cookie.length;
+    return unescape( document.cookie.substring( len, end ) );
+}
+
+//------------------------------------------------------------
+//      Remove cookie
+//------------------------------------------------------------
+function removeCookie(  name, path, domain) {
+    if ( getCookie( name ) )
+	{
+        document.cookie = name + '=' + ( ( path ) ? ';path=' + path : '') + ( ( domain ) ? ';domain=' + domain : '' ) + ';expires=Thu, 01-Jan-1970 00:00:01 GMT';
+	}
+}
+//------------------------------------------------------------
+//      Get the domain name
+//------------------------------------------------------------
+function getDomainname () {
+    var hostname = window.location.hostname.split('.');
+    if ( hostname.length >= 2 ) {
+        var len = hostname.length;
+        var domainname = '.' +  hostname[len - 2] + '.' + hostname[len - 1];
+    } else {
+        var domainname = '.' + window.location.hostname;
+    }
+    return domainname;
+}
+
+//------------------------------------------------------------
+//      Logout
+//------------------------------------------------------------
+function logoutUser () {
+    var domainname = getDomainname();
+    removeCookie("un" , '/', domainname );
+    removeCookie("CI_Pub_data" , '/' , domainname);
+    removeCookie("uid" , '/', domainname );
+
+	window.location.reload(true);
+
+
+	return false;
+    $('#ciMemebermgmt').html(welcome_content);
+
+
+	
+}
+
+//-------------------------------------------------------------
+//      Validate search filed
+//-------------------------------------------------------------
+function validateData() {
+	if ( txt_data == "") {
+		window.location.href = "/ci/content/site/search.html";
+		return false;
+	}
+	if ( txt_data == "Search Cricinfo") {
+		window.location.href = "/ci/content/site/search.html";
+		return false;
+	}
+	return true;
+}
+//----------------------------------------------------------
+//  Login validate
+//----------------------------------------------------------
+function ciLoginvalidate(){
+
+  if(document.ciloginfm.email.value=="") {
+    alert("Please enter your email id.");
+    document.ciloginfm.email.focus();
+    document.ciloginfm.email.select();
+    return false;
+  }
+  var emailexp = /^([a-zA-Z0-9])([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3})|([a-zA-Z0-9\-\.]+))\.([a-zA-Z]{2,6}|[0-9]{1,6})(\]?)$/;
+  if (emailexp.test(document.ciloginfm.email.value.replace(/\s/g,""))== false) {
+    alert("Please enter your email id.");
+    window.document.ciloginfm.email.focus();
+    document.ciloginfm.email.select();
+    return false;
+  }
+  if(document.ciloginfm.password.value=="") {
+    alert("Please enter Password.");
+    document.ciloginfm.password.focus();
+    document.ciloginfm.password.select();
+    return false;
+  }
+
+  if(document.ciloginfm.remember.checked) {
+    var rem = 'Y';
+  } else {
+    var rem = 'N';
+  }
+
+
+
+  var un = document.ciloginfm.email.value;
+  var pass =document.ciloginfm.password.value;
+  var url = 'http://' + server + '/member_mgmt/content/submit/member_mgmt/login_validate.html?callback=?';
+  $.getJSON( url , { email: un, password: pass, remember: rem },
+        function(msg){
+            if ( msg.status == 1 ) {
+                if ( msg.username == "" ) {
+                    var href = 'http://' + server + '/member_mgmt/content/submit/member_mgmt/user_screenname.html?remember=' + rem + ';thanks=' + "http://stats.espncricinfo.com/ci/engine/records/team/match_results.html"
+		            window.location.href = href;
+                    return false;
+                }
+                hideTooltip('divLoginpopup');
+                var welcome_user = '<ul><li>Welcome <b>' + msg.username + '</b></li><li class="signin"><a href="/member_mgmt/content/submit/member_mgmt/user_registration.html" class="signintxt">Edit Profile</a></li> | <li class="signin"> <a href="#" class="signintxt"> <span onClick="logoutUser();">Sign Out</span> </a> </li> </ul>';
+
+    		$('#ciMemebermgmt').html(welcome_user);
+    
+
+           } else {
+                alert (msg.message);
+                return false;
+           }
+          });
+   return false;
+}
+
+
+</script>
+
+<div id="ciHomeLogoholder">
+	<a id="link" href="/" title="ESPN Cricinfo"></a>
+<div class="ciMemebermgmt" id="ciMemebermgmt" >
+<ul>
+
+<script type="text/javascript">
+var fb_cookies = getCookie("fbsr_260890547115");
+
+var welcome_content =  '<div style="color:#0D82E9; font-size:11px; padding-bottom:5px; padding-bottom:5px; margin:0;">Welcome Guest </div><li class="signin"><a href="#" class="signintxt" onclick="javascript:return showTooltip(this,\'divLoginpopup\');">Sign In&nbsp;<blockquote class="signArrow">&nbsp;&nbsp;&nbsp;</blockquote></a></li>| <li class="signin" style="margin:0;"><a href="/member_mgmt/content/submit/member_mgmt/user_registration.html?sc=masthead" class="signintxt">Register</a></li>';
+
+welcome_content = welcome_content + '&nbsp;|&nbsp;<fb:login-button onlogin=window.location.reload(true); autologoutlink="false" size="small" style="margin-left:2px;" show-faces="false"></fb:login-button>';
+	
+
+var authcookie = getCookie("CI_Pub_data");
+
+if ( authcookie != null ) 
+{
+    var user_name = getCookie('un');
+    if ( user_name == null ) 
+	{
+        var domainname = getDomainname();
+        removeCookie("CI_Pub_data" , '/' , domainname);
+        document.write(welcome_content);
+    } 
+	else 
+	{
+        var login_content = '<li>Welcome <b>' + user_name + '</b></li>';
+        document.write(login_content);
+        document.write('<li class="signin"><a href="/member_mgmt/content/submit/member_mgmt/user_registration.html" class="signintxt">Edit Profile</a></li> | <li class="signin"><a href="#" class="signintxt"><span onClick="logoutUser();">Sign Out</span></a></li>');
+    }
+} 
+else if (fb_cookies != null || globalFBConnect != false)
+{
+	
+	var login_content = '<span style="color:#0D82E9; font-size:11px; padding-bottom:5px; padding-bottom:5px; margin:0;">Welcome <img src="http://i.imgci.com/espncricinfo/connect_fb_icon.png" src="Facebook Connect" style="position:relative; top:3px;"/> <b><fb:name id="fbname" uid="loggedinuser" useyou="false"></fb:name><br /><a href="javascript:void(0)" id="fbLogout" onclick="FB.logout(function(response){ globalFBConnect = false; removeCookie(\'fbsr_260890547115\',\'/\',getDomainname()); if($(\'#comment_frame\').length==1){ window.location.reload(true); return false; } $(\'#ciMemebermgmt\').html(welcome_content); FB.XFBML.parse(); });" style="top: 5px; position:relative; font-weight:normal; cursor:pointer;">Sign Out</a></b></span>';
+
+	document.write(login_content);
+}
+else  
+{
+    document.write(welcome_content);
+}
+
+function updateMasthead(){
+	var fb_cookies = getCookie("fbsr_260890547115");
+	var authcookie = getCookie("CI_Pub_data");		
+	
+	updateUserInfo();
+}
+function updateUserInfo(){
+	var fbNameCheck = $('#fbname').text();
+	var txt = $('#newfb').text();
+	FB.getLoginStatus(function(response) {
+		if (response.status === 'connected'){
+			if(fb_cookies || globalFBConnect){
+				if(!authcookie && fbNameCheck.length==0){
+					var welcome_content = '&nbsp;|&nbsp;<fb:login-button onlogin="window.location.reload(true);" autologoutlink="false" size="small" style="margin-left:2px;"></fb:login-button>';
+					if($('#fbname').children('a').text() == ''){
+						$('#ciMemebermgmt').html('<span style="color:#0D82E9; font-size:11px; padding-bottom:5px;">Welcome <img src="http://i.imgci.com/espncricinfo/connect_fb_icon.png" src="Facebook Connect" style="position:relative; top:3px;"/> <b><fb:name id="fbname" uid="loggedinuser" useyou="false"></fb:name><br /><a href="javascript:void(0)" id="fbLogout2" onclick="FB.logout(function(response){ globalFBConnect = false; removeCookie(\'fbsr_260890547115\',\'/\',getDomainname()); if($(\'#comment_frame\').length==1){ window.location.reload(true); } $(\'#ciMemebermgmt\').html(welcome_content); FB.XFBML.parse(); });" style="top: 5px; position:relative; font-weight:normal; cursor:pointer;">Sign Out</a></b></span>');
+						FB.XFBML.parse()
+					}
+					if(txt.indexOf('Post')<0){
+						$('#newfb').html('<span id="newfb"><a href="#comment_frame"><span style="color:#035BAC; margin-left:2px;">Post yours as</span></a> <img src="http://i.imgci.com/espncricinfo/connect_fb_icon.png" style="margin-right: 2px; vertical-align: bottom; border: medium none;"> <b><fb:name id="fbname" uid="loggedinuser" useyou="false"></fb:name></b> <span class="seprator">|</span> </span>');
+					}		
+					FB.XFBML.parse();
+				}
+			}
+		}
+		else{
+			if(!fb_cookies && !authcookie && !globalFBConnect){
+				$('#ciMemebermgmt').html('<div style="color:#0D82E9; font-size:11px; padding-bottom:5px; padding-bottom:5px; margin:0;">Welcome Guest </div><li class="signin"><a href="#" class="signintxt" onclick="javascript:return showTooltip(this,\'divLoginpopup\');">Sign In&nbsp;<blockquote class="signArrow">&nbsp;&nbsp;&nbsp;</blockquote></a></li>| <li class="signin" style="margin:0;"><a href="/member_mgmt/content/submit/member_mgmt/user_registration.html?sc=masthead" class="signintxt">Register</a></li>&nbsp;|&nbsp;<fb:login-button onlogin="window.location.reload(true);" autologoutlink="false" size="small" style="margin-left:2px;" show-faces="false"></fb:login-button>');
+				FB.XFBML.parse();
+			}
+		}
+	});
+	if($('#fbname').children('a').text() == ''){	//Retry
+		window.setTimeout(updateUserInfo,700);
+	}
+	else{
+		if((navigator.userAgent).indexOf('MSIE')>0){	//IE hack to pouplate username
+			var fb_un = $('#fbname').children('a').text();
+			var fb_url = $('#fbname').children('a').attr('href'); 
+			$('#newfb').html('<span id="newfb"><a href="#comment_frame"><span style="color:#035BAC; margin-left:2px;">Post yours as</span></a> <img src="http://i.imgci.com/espncricinfo/connect_fb_icon.png" style="margin-right: 2px; vertical-align: bottom; border: medium none;"> <b><a href="' + fb_url + '">' + fb_un + '</a></b> <span class="seprator">|</span> </span>');		
+			$('.fbUserName').html('<b style="color: rgb(51, 51, 51); font-size:11px; margin-left:4px;">Logged in as <b><a href="' + fb_url + '">' + fb_un + '</a></b> <img style="margin-right:2px; margin-left:1px; position:relative; top:3px;" src="http://i.imgci.com/espncricinfo/connect_fb_icon.png" /> <a onclick="FB.logout(function(response){ globalFBConnect = false; removeCookie(\'fbsr_260890547115\',\'/\',getDomainname());  window.location.reload(true);});" style="font-weight:normal; cursor:pointer; color:#035BAC;">Sign Out</a></b>');
+		}
+		
+	}
+
+}
+</script>
+
+</ul>
+</div>
+
+ <div class="ciGlobalSearch">
+  <form method="get" enctype="application/x-www-form-urlencoded" action="/ci/content/site/search.html" onSubmit="return  validateData()";>
+   <div class="ciGblSearchhldr">
+    <input class="glbSearchBox" name="search" id="cricinfoSearch" type="text" value="Search" onfocus="return searchClrTxt('cricinfoSearch');" onblur="if ($(this).val()=='' ){$(this).attr('value','Search');}" /> <input type="submit" name="gblsearch" class="gblSearchBtn" value="" />
+   </div>
+  </form>
+  <div class="ciGblHotSearch">
+   <span class="HotsearchHead">Popular:</span>
+<a href="http://www.espncricinfo.com/big-bash-league-2011/content/series/509666.html">Big Bash 2011-12</a>
+
+| 
+
+<a href="http://www.espncricinfo.com/rankings/content/page/211270.html">ICC Rankings</a>
+
+| 
+
+<a href="http://www.espncricinfo.com/ci/content/player/7133.html">Ricky Ponting</a>
+  </div>
+<!-- Search box ends -->
+</div>
+<!-- Logo and Search ends -->
+ <!-- login div -->
+  <div class="ciloginpopup" id="divLoginpopup" style="display:none;">
+   <span class="signintxt"><b>Sign In </b><blockquote class="signArrow">&nbsp;&nbsp;&nbsp;</blockquote></span><br/>
+   <div id="loginClose"><b title="Close" alt="Close" onclick="hideTooltip('divLoginpopup');">x</b></div>
+   <form onSubmit="return ciLoginvalidate();" method="post" name="ciloginfm" id="ciloginfm" style="margin:0px; margin-top:4px; padding:0px;">
+    <ul id="cilogintxt" style="margin:0px;padding:0px">
+     <li>Email</li>
+     <li><input name="email" class="citextbox" id="email" type="text"></li>
+     <li>Password</li>
+     <li><input name="password" id="password" class="citextbox" type="password"></li>
+     <li><input name="remember" id="remember" type="checkbox" value="Y" style="margin:2px 0px 2px 1px;_margin:0px;#margin:0px"> <span style="font-size:10px; color:#666666; font-weight:normal;">Remember me</span></li>
+     <li class="button" style="#margin-top:0px;#padding-top:0px;_margin-top:0px;_padding-top:0px;"><input type="submit" class="ciHPLoginBtn" value="" name="logio_submit" id="logio_submit" / ></li>
+     <li id="ciforgotpwdtxt"><a href="javascript:void(0)" class="forgotpwdtxt" onclick="javascript:window.open('/ci/content/submit/member_mgmt/forgot_password.html','plyr_pop','width=600,height=390,toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=no');">Forgot Password?</a></li>
+    </ul>
+   </form>
+  </div>
+ </div>
+
+ </div>
+
+<div id="mainNavRow">
+<div id="mainNav">
+ <table cellpadding="0" cellspacing="0" border="0" class="Nav"><tr>
+	<td width="28" height="25" class="navHomeBtn"><a href="/" alt="Home" title="Home" style="width:28px; height:25px; display:block;"></a></td>
+     <td class="navLinks" onmouseover="mopen('m0')" onmouseout="mclosetime()">
+      <a href="/ci/content/current/match/fixtures_futures.html" class="NavLink">Series</a>
+      <div id="m0">
+       <table border="0" align="left" cellpadding="0" cellspacing="0">
+        <tr>
+         <td colspan="2" id="mgDd">
+          <table cellpadding="0" cellspacing="0" border="0" align="left">
+           <tr>
+            <td width="4" height="27" class="ddTabLeft"></td>
+           <td class="PopupTabs">
+
+	<a href="/ci/content/current/match/fixtures_futures.html" class="popNavLink" name="&lpos=cricinfo_mainnav&lid=series">Series</a>
+
+</td>
+
+            <td width="4" height="27" class="ddTabRight"></td>
+           </tr>
+           <tr>
+            <td height="5" colspan="3" class="mgDdLftTop"></td>
+           </tr>
+          </table>
+         </td>
+        </tr>
+        <tr>
+         <td width="5" id="mgPopup">&nbsp;</td>
+         <td>
+          <table width="270" border="0" cellspacing="0" cellpadding="0" id="mgDdRht">
+           <tr>
+            <td colspan="1" height="10"></td>
+           </tr>
+           <tr>
+            <td width="270"><a href="/bangladesh-v-pakistan-2011/content/current/series/538064.html" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=series_bangladeshvpakistan">Bangladesh v Pakistan</a></td>
+           </tr>
+           <tr>
+            <td><a href="/south-africa-v-sri-lanka-2011/content/current/series/514014.html" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=series_southafricavsrilanka">South Africa v Sri Lanka</a></td>
+           </tr>
+           <tr>
+            <td><a href="/australia-v-india-2011/content/current/series/518944.html" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=series_australiavindia">Australia v India</a></td>
+           </tr>
+           <tr>
+            <td><a href="/pakistan-v-england-2012/content/current/series/531615.html" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=series_pakistanvengland">Pakistan v England</a></td>
+           </tr>
+           <tr>
+            <td><a href="/big-bash-league-2011/content/current/series/509666.html" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=series_bigbashleague">Big Bash League</a></td>
+           </tr>
+           <tr>
+            <td><a href="/ci/content/current/match/fixtures_futures.html" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=series_morecurrentandfutureseries">More current and future series</a></td>
+           </tr>
+           <tr>
+            <td colspan="5" height="10"></td>
+           </tr>
+          </table>
+         </td>
+        </tr>
+       </table>
+      </div>
+     </td>
+     <td class="navLinks" onmouseover="mopen('m1')" onmouseout="mclosetime()">
+      <a href="/ci/content/site/cricket_squads_teams/index.html" class="NavLink">Countries</a>
+      <div id="m1">
+       <table border="0" align="left" cellpadding="0" cellspacing="0">
+        <tr>
+         <td colspan="2" id="mgDd">
+          <table cellpadding="0" cellspacing="0" border="0" align="left">
+           <tr>
+            <td width="4" height="27" class="ddTabLeft"></td>
+           <td class="PopupTabs">
+
+	<a href="/ci/content/site/cricket_squads_teams/index.html" class="popNavLink" name="&lpos=cricinfo_mainnav&lid=countries">Countries</a>
+
+</td>
+
+            <td width="4" height="27" class="ddTabRight"></td>
+           </tr>
+           <tr>
+            <td height="5" colspan="3" class="mgDdLftTop"></td>
+           </tr>
+          </table>
+         </td>
+        </tr>
+        <tr>
+         <td width="5" id="mgPopup">&nbsp;</td>
+         <td>
+          <table width="345" border="0" cellspacing="0" cellpadding="0" id="mgDdRht">
+           <tr>
+            <td colspan="5" height="10"></td>
+           </tr>
+           <tr>
+            <td width="90"><a href="/australia/content/current/team/2.html" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=countries_australia">Australia</a></td>
+            <td rowspan="10" width="10" class="Dotts"></td>
+            <td width="90"><a href="/afghanistan/content/current/team/40.html" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=countries_afghanistan">Afghanistan</a></td>
+            <td rowspan="10" width="10" class="Dotts"></td>
+            <td width="145"><a href="/other/content/current/site/207463.html" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=countries_othercountries">Other Countries</a></td>
+           </tr>
+           <tr>
+            <td><a href="/bangladesh/content/current/team/25.html" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=countries_bangladesh">Bangladesh</a></td>
+            <td><a href="/canada/content/current/team/17.html" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=countries_canada">Canada</a></td>
+            <td><a href="/women/content/current/site/207455.html" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=countries_women'scricket">Women's Cricket</a></td>
+           </tr>
+           <tr>
+            <td><a href="/england/content/current/team/1.html" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=countries_england">England</a></td>
+            <td><a href="/ireland/content/current/team/29.html" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=countries_ireland">Ireland</a></td>
+            <td><a href="/ci-icc/content/current/site/297120.html" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=countries_icc">ICC</a></td>
+           </tr>
+           <tr>
+            <td><a href="/india/content/current/team/6.html" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=countries_india">India</a></td>
+            <td><a href="/kenya/content/current/team/26.html" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=countries_kenya">Kenya</a></td>
+            <td><a href="http://blogs.espncricinfo.com/btw/" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=countries_beyondthetestworld">Beyond the Test World</a></td>
+           </tr>
+           <tr>
+            <td><a href="/newzealand/content/current/team/5.html" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=countries_newzealand">New Zealand</a></td>
+            <td><a href="/netherlands/content/current/team/15.html" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=countries_netherlands">Netherlands</a></td>
+            <td><a href="" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=countries_"></a></td>
+           </tr>
+           <tr>
+            <td><a href="/pakistan/content/current/team/7.html" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=countries_pakistan">Pakistan</a></td>
+            <td><a href="/scotland/content/current/team/30.html" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=countries_scotland">Scotland</a></td>
+            <td><a href="" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=countries_"></a></td>
+           </tr>
+           <tr>
+            <td><a href="/southafrica/content/current/team/3.html" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=countries_southafrica">South Africa</a></td>
+            <td><a href="/usa/content/current/team/11.html" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=countries_usa">USA</a></td>
+            <td><a href="" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=countries_"></a></td>
+           </tr>
+           <tr>
+            <td><a href="/srilanka/content/current/team/8.html" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=countries_srilanka">Sri Lanka</a></td>
+            <td><a href="" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=countries_"></a></td>
+            <td><a href="" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=countries_"></a></td>
+           </tr>
+           <tr>
+            <td><a href="/westindies/content/current/team/4.html" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=countries_westindies">West Indies</a></td>
+            <td><a href="" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=countries_"></a></td>
+            <td><a href="" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=countries_"></a></td>
+           </tr>
+           <tr>
+            <td><a href="/zimbabwe/content/current/team/9.html" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=countries_zimbabwe">Zimbabwe</a></td>
+            <td><a href="" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=countries_"></a></td>
+            <td><a href="" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=countries_"></a></td>
+           </tr>
+           <tr>
+            <td colspan="5" height="10"></td>
+           </tr>
+          </table>
+         </td>
+        </tr>
+       </table>
+      </div>
+     </td>
+  <td class="navLinksSep"></td>
+     <td class="navLinks" onmouseover="mopen('m2')" onmouseout="mclosetime()">
+      <a href="/ci/engine/current/match/scores/live.html" class="NavLink">Live Scores</a>
+      <div id="m2">
+       <table border="0" align="left" cellpadding="0" cellspacing="0">
+        <tr>
+         <td colspan="2" id="mgDd">
+          <table cellpadding="0" cellspacing="0" border="0" align="left">
+           <tr>
+            <td width="4" height="27" class="ddTabLeft"></td>
+           <td class="PopupTabs">
+
+	<a href="/ci/engine/current/match/scores/live.html" class="popNavLink" name="&lpos=cricinfo_mainnav&lid=livescores">Live Scores</a>
+
+</td>
+
+            <td width="4" height="27" class="ddTabRight"></td>
+           </tr>
+           <tr>
+            <td height="5" colspan="3" class="mgDdLftTop"></td>
+           </tr>
+          </table>
+         </td>
+        </tr>
+        <tr>
+         <td width="5" id="mgPopup">&nbsp;</td>
+         <td>
+          <table width="135" border="0" cellspacing="0" cellpadding="0" id="mgDdRht">
+           <tr>
+            <td height="10"></td>
+           </tr>
+           <tr>
+	    
+            <td><a href="/ci/engine/current/match/scores/live.html" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=livescores_livescoreshome">Live Scores Home</a></td>
+	    
+           </tr>
+           <tr>
+	    
+            <td><a href="javascript:openS('/ci/engine/current/match/scores/desktop.html','dsktpScrBrd')" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=livescores_desktopscoreboard">Desktop Scoreboard</a></td>
+	    
+           </tr>
+           <tr>
+	    
+            <td><a href="/ci/content/current/site/product/widgets/scores_sizes.html" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=livescores_scoreswidget">Scores Widget</a></td>
+	    
+           </tr>
+           <tr>
+	    
+            <td><a href="/mobile/content/current/site/mobile/mobicast.html" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=livescores_mobilescores">Mobile Scores</a></td>
+	    
+           </tr>
+           <tr>
+            <td height="10"></td>
+           </tr>
+          </table>
+         </td>
+        </tr>
+       </table>
+      </div>
+     </td>
+     <td class="navLinks" onmouseover="mopen('m3')" onmouseout="mclosetime()">
+      <a href="/ci/content/current/match/fixtures/index.html" class="NavLink">Fixtures</a>
+      <div id="m3">
+       <table border="0" align="left" cellpadding="0" cellspacing="0">
+        <tr>
+         <td colspan="2" id="mgDd">
+          <table cellpadding="0" cellspacing="0" border="0" align="left">
+           <tr>
+            <td width="4" height="27" class="ddTabLeft"></td>
+           <td class="PopupTabs">
+
+	<a href="/ci/content/current/match/fixtures/index.html" class="popNavLink" name="&lpos=cricinfo_mainnav&lid=fixtures">Fixtures</a>
+
+</td>
+
+            <td width="4" height="27" class="ddTabRight"></td>
+           </tr>
+           <tr>
+            <td height="5" colspan="3" class="mgDdLftTop"></td>
+           </tr>
+          </table>
+         </td>
+        </tr>
+        <tr>
+         <td width="5" id="mgPopup">&nbsp;</td>
+         <td>
+          <table width="170" border="0" cellspacing="0" cellpadding="0" id="mgDdRht">
+           <tr>
+            <td height="10"></td>
+           </tr>
+           <tr>
+	    
+            <td><a href="/ci/content/current/match/fixtures/index.html" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=fixtures_fixtureshome">Fixtures Home</a></td>
+	    
+           </tr>
+           <tr>
+	    
+            <td><a href="/ci/content/current/match/fixtures/live.html" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=fixtures_livecoverage">Live Coverage</a></td>
+	    
+           </tr>
+           <tr>
+	    
+            <td><a href="/ci/content/current/match/fixtures_futures.html" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=fixtures_currentandfuturetours">Current and Future Tours</a></td>
+	    
+           </tr>
+           <tr>
+	    
+            <td><a href="/ci/content/match/fixtures/calendar.html" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=fixtures_internationalcalendar">International Calendar</a></td>
+	    
+           </tr>
+           <tr>
+            <td height="10"></td>
+           </tr>
+          </table>
+         </td>
+        </tr>
+       </table>
+      </div>
+     </td>
+     <td class="navLinks" onmouseover="mopen('m4')" onmouseout="mclosetime()">
+      <a href="/ci/engine/current/match/scores/recent.html" class="NavLink">Results</a>
+      <div id="m4">
+       <table border="0" align="left" cellpadding="0" cellspacing="0">
+        <tr>
+         <td colspan="2" id="mgDd">
+          <table cellpadding="0" cellspacing="0" border="0" align="left">
+           <tr>
+            <td width="4" height="27" class="ddTabLeft"></td>
+           <td class="PopupTabs">
+
+	<a href="/ci/engine/current/match/scores/recent.html" class="popNavLink" name="&lpos=cricinfo_mainnav&lid=results">Results</a>
+
+</td>
+
+            <td width="4" height="27" class="ddTabRight"></td>
+           </tr>
+           <tr>
+            <td height="5" colspan="3" class="mgDdLftTop"></td>
+           </tr>
+          </table>
+         </td>
+        </tr>
+        <tr>
+         <td width="5" id="mgPopup">&nbsp;</td>
+         <td>
+          <table width="160" border="0" cellspacing="0" cellpadding="0" id="mgDdRht">
+           <tr>
+            <td height="10"></td>
+           </tr>
+           <tr>
+	    
+            <td><a href="/ci/engine/current/match/scores/recent.html" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=results_recentresults">Recent Results</a></td>
+	    
+           </tr>
+           <tr>
+	    
+            <td><a href="/ci/engine/current/series/index.html?season=2011/12" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=results_current2011/12season">Current 2011/12 Season</a></td>
+	    
+           </tr>
+           <tr>
+	    
+            <td><a href="/ci/engine/current/series/index.html?season=2011" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=results_2011season">2011 Season</a></td>
+	    
+           </tr>
+           <tr>
+	    
+            <td><a href="/ci/engine/current/series/index.html?season=2010/11" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=results_2010/11season">2010/11 Season</a></td>
+	    
+           </tr>
+           <tr>
+	    
+            <td><a href="/ci/engine/current/series/index.html" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=results_matchandseriesarchive">Match and Series Archive</a></td>
+	    
+           </tr>
+           <tr>
+            <td height="10"></td>
+           </tr>
+          </table>
+         </td>
+        </tr>
+       </table>
+      </div>
+     </td>
+  <td class="navLinksSep"></td>
+     <td class="navLinks" onmouseover="mopen('m5')" onmouseout="mclosetime()">
+      <a href="/ci/content/current/story/news.html" class="NavLink">News</a>
+      <div id="m5">
+       <table border="0" align="left" cellpadding="0" cellspacing="0">
+        <tr>
+         <td colspan="2" id="mgDd">
+          <table cellpadding="0" cellspacing="0" border="0" align="left">
+           <tr>
+            <td width="4" height="27" class="ddTabLeft"></td>
+           <td class="PopupTabs">
+
+	<a href="/ci/content/current/story/news.html" class="popNavLink" name="&lpos=cricinfo_mainnav&lid=news">News</a>
+
+</td>
+
+            <td width="4" height="27" class="ddTabRight"></td>
+           </tr>
+           <tr>
+            <td height="5" colspan="3" class="mgDdLftTop"></td>
+           </tr>
+          </table>
+         </td>
+        </tr>
+        <tr>
+         <td width="5" id="mgPopup">&nbsp;</td>
+         <td>
+          <table width="95" border="0" cellspacing="0" cellpadding="0" id="mgDdRht">
+           <tr>
+            <td height="10"></td>
+           </tr>
+           <tr>
+	    
+            <td><a href="/ci/content/current/story/news.html" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=news_newshome">News Home</a></td>
+	    
+           </tr>
+           <tr>
+	    
+            <td><a href="/infocus/content/current/story/infocus.html" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=news_infocus">In Focus</a></td>
+	    
+           </tr>
+           <tr>
+	    
+            <td><a href="/ci/content/rss/feeds_rss_cricket.html" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=news_rssindex">RSS Index</a></td>
+	    
+           </tr>
+           <tr>
+	    
+            <td><a href="http://blogs.espncricinfo.com/surfer/" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=news_thesurfer">The Surfer</a></td>
+	    
+           </tr>
+           <tr>
+	    
+            <td><a href="/ci/content/current/site/product/widgets/news_sizes.html" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=news_newswidget">News Widget</a></td>
+	    
+           </tr>
+           <tr>
+            <td height="10"></td>
+           </tr>
+          </table>
+         </td>
+        </tr>
+       </table>
+      </div>
+     </td>
+     <td class="navLinks" onmouseover="mopen('m6')" onmouseout="mclosetime()">
+      <a href="/magazine/content/current/story/magazine/index.html" class="NavLink">Features</a>
+      <div id="m6">
+       <table border="0" align="left" cellpadding="0" cellspacing="0">
+        <tr>
+         <td colspan="2" id="mgDd">
+          <table cellpadding="0" cellspacing="0" border="0" align="left">
+           <tr>
+            <td width="4" height="27" class="ddTabLeft"></td>
+           <td class="PopupTabs">
+
+	<a href="/magazine/content/current/story/magazine/index.html" class="popNavLink" name="&lpos=cricinfo_mainnav&lid=features">Features</a>
+
+</td>
+
+            <td width="4" height="27" class="ddTabRight"></td>
+           </tr>
+           <tr>
+            <td height="5" colspan="3" class="mgDdLftTop"></td>
+           </tr>
+          </table>
+         </td>
+        </tr>
+        <tr>
+         <td width="5" id="mgPopup">&nbsp;</td>
+         <td>
+          <table width="130" border="0" cellspacing="0" cellpadding="0" id="mgDdRht">
+           <tr>
+            <td height="10"></td>
+           </tr>
+           <tr>
+	    
+            <td><a href="/magazine/content/current/story/magazine/index.html" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=features_magazinehome">Magazine Home</a></td>
+	    
+           </tr>
+           <tr>
+            <td class="subMenu" onmouseover="subPopup1('m6_1')" onmouseout="subPopup0('m6_1')" style="padding:0 0 0 7px">
+     
+		<span class="PopupLinks" style="cursor:default;" >Regulars</span>
+
+             <div id="m6_1" class="subpopup">
+              <table cellspacing="0" cellpadding="0" border="0"  width="160">
+               <tr>
+                <td width="4" height="4" class="popLT"></td>
+                <td class="popTbg"></td>
+                <td width="4" height="4" class="popRT"></td>
+               </tr>
+               <tr>
+                <td width="4" height="4" class="popLB"></td>
+                <td class="popBbg">
+                 <table cellspacing="0" cellpadding="0" border="0" width="140">
+                  <tr>
+                   <td class="ciDpdnli" ><a href="/magazine/content/story/magazine/author.html?author=34;genre=6" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=features_asksteven">Ask Steven</a></td>
+                  </tr>
+                  </tr>
+                  <tr>
+                   <td class="ciDpdnli" ><a href="/magazine/content/story/magazine/otd.html" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=features_onthisday">On This Day</a></td>
+                  </tr>
+                  </tr>
+                  <tr>
+                   <td class="ciDpdnli" ><a href="/magazine/content/story/magazine/author.html?genre=193" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=features_espncricinfoxi">ESPNcricinfo XI</a></td>
+                  </tr>
+                  </tr>
+                  <tr>
+                   <td class="ciDpdnli" ><a href="/magazine/content/story/magazine/author.html?author=29;genre=12" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=features_numbersgame">Numbers Game</a></td>
+                  </tr>
+                  </tr>
+                  <tr>
+                   <td class="ciDpdnli" ><a href="/magazine/content/current/quote/index.html" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=features_quoteunquote">Quote Unquote</a></td>
+                  </tr>
+                  </tr>
+                  <tr>
+                   <td class="ciDpdnli" ><a href="/magazine/content/story/magazine/author.html?genre=14" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=features_rewindto">Rewind to</a></td>
+                  </tr>
+                  </tr>
+                  <tr>
+                   <td class="ciDpdnli" ><a href="/magazine/content/story/magazine/author.html?genre=126" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=features_thelist">The List</a></td>
+                  </tr>
+                  </tr>
+                 	<tr><td height="10"></td></tr>
+                 </table>
+                </td>
+                <td width="4" height="4" class="popRB"></td>
+               </tr>
+              </table>
+             </div>
+            </td>
+           </tr>
+           <tr>
+            <td class="subMenu" onmouseover="subPopup1('m6_2')" onmouseout="subPopup0('m6_2')"  style="padding:0 0 0 7px">
+     
+		<span class="PopupLinks" style="cursor:default;">Highlights</span>
+
+
+             <div id="m6_2" class="subpopup">
+              <table cellspacing="0" cellpadding="0" border="0" width="310">
+               <tr>
+                <td width="4" height="4" class="popLT"></td>
+                <td class="popTbg"></td>
+                <td width="4" height="4" class="popRT"></td>
+               </tr>
+               <tr>
+                <td width="4" height="4" class="popLB"></td>
+                <td class="popBbg">
+                 <table cellspacing="0" cellpadding="0" border="0" width="290">
+                  <tr>
+                   <td class="ciDpdnli" width="140"><a href="/magazine/content/story/magazine/author.html?genre=268" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=features_diaries">Diaries</a></td>
+                   <td class="subPopRt" rowspan="6">&nbsp;&nbsp;</td>
+                   <td class="ciDpdnli" width="140"><a href="/magazine/content/story/magazine/author.html?genre=184" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=features_myfavouritecricketer">My Favourite Cricketer</a></td>
+                  </tr>
+                  <tr>
+                   <td class="ciDpdnli" width=><a href="/magazine/content/story/magazine/author.html?genre=169" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=features_features">Features</a></td>
+                   <td class="ciDpdnli" width=><a href="/magazine/content/story/magazine/author.html?genre=176" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=features_profiles">Profiles</a></td>
+                  </tr>
+                  <tr>
+                   <td class="ciDpdnli" width=><a href="/magazine/content/story/magazine/author.html?genre=174" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=features_gleanings">Gleanings</a></td>
+                   <td class="ciDpdnli" width=><a href="/magazine/content/story/magazine/author.html?genre=391" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=features_postcardsfromcanada">Postcards From Canada</a></td>
+                  </tr>
+                  <tr>
+                   <td class="ciDpdnli" width=><a href="/magazine/content/story/magazine/author.html?genre=188" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=features_iwasthere">I Was There</a></td>
+                   <td class="ciDpdnli" width=><a href="/magazine/content/story/magazine/author.html?genre=397" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=features_statsfromthepast">Stats from the Past</a></td>
+                  </tr>
+                  <tr>
+                   <td class="ciDpdnli" width=><a href="/magazine/content/story/magazine/author.html?genre=175" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=features_interviews">Interviews</a></td>
+                   <td class="ciDpdnli" width=><a href="/magazine/content/story/magazine/author.html?genre=173" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=features_talkingcricket">Talking Cricket</a></td>
+                  </tr>
+                  <tr>
+                   <td class="ciDpdnli" width=><a href="/magazine/content/story/magazine/author.html?genre=168" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=features_thelongroom">The Long Room</a></td>
+                   <td class="ciDpdnli" width=><a href="/magazine/content/story/magazine/author.html?genre=234" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=features_tributes">Tributes</a></td>
+                  </tr>
+                 	<tr><td colspan="3" height="10"></td></tr>
+                 </table>
+                </td>
+                <td width="4" height="4" class="popRB"></td>
+               </tr>
+              </table>
+             </div>
+            </td>
+           </tr>
+           <tr>
+            <td class="subMenu" onmouseover="subPopup1('m6_3')" onmouseout="subPopup0('m6_3')"  style="padding:0 0 0 7px">
+     
+		<span class="PopupLinks" style="cursor:default;">Opinion</span>
+
+
+             <div id="m6_3" class="subpopup">
+              <table cellspacing="0" cellpadding="0" border="0" width="300">
+               <tr>
+                <td width="4" height="4" class="popLT"></td>
+                <td class="popTbg"></td>
+                <td width="4" height="4" class="popRT"></td>
+               </tr>
+               <tr>
+                <td width="4" height="4" class="popLB"></td>
+                <td class="popBbg">
+                 <table cellspacing="0" cellpadding="0" border="0" width="280">
+                  <tr>
+                   <td class="ciDpdnli" width="130"><a href="/magazine/content/story/magazine/author.html?author=31;genre=119" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=features_sambitbal">Sambit Bal</a></td>
+                   <td class="subPopRt" rowspan="9">&nbsp;&nbsp;</td>
+                   <td class="ciDpdnli" width="140"><a href="/magazine/content/story/magazine/author.html?author=9;genre=114" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=features_andrewmiller">Andrew Miller</a></td>
+                  </tr>
+                  <tr>
+                   <td class="ciDpdnli" width=><a href="/magazine/content/story/magazine/author.html?author=334;genre=357" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=features_harshabhogle">Harsha Bhogle</a></td>
+                   <td class="ciDpdnli" width=><a href="/magazine/content/story/magazine/author.html?author=272;genre=389" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=features_sidharthmonga">Sidharth Monga</a></td>
+                  </tr>
+                  <tr>
+                   <td class="ciDpdnli" width=><a href="/magazine/content/story/magazine/author.html?author=367;genre=395" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=features_danielbrettig">Daniel Brettig</a></td>
+                   <td class="ciDpdnli" width=><a href="/magazine/content/story/magazine/author.html?genre=115;author=16" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=features_dileeppremachandaran">Dileep Premachandaran</a></td>
+                  </tr>
+                  <tr>
+                   <td class="ciDpdnli" width=><a href="/magazine/content/story/magazine/author.html?author=261;genre=244" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=features_ianchappell">Ian Chappell</a></td>
+                   <td class="ciDpdnli" width=><a href="/magazine/content/story/magazine/author.html?author=293;genre=399" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=features_saadshafqat">Saad Shafqat</a></td>
+                  </tr>
+                  <tr>
+                   <td class="ciDpdnli" width=><a href="/magazine/content/story/magazine/author.html?author=373;genre=396" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=features_edcowan">Ed Cowan</a></td>
+                   <td class="ciDpdnli" width=><a href="/magazine/content/story/magazine/author.html?author=380;genre=400" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=features_edsmith">Ed Smith</a></td>
+                  </tr>
+                  <tr>
+                   <td class="ciDpdnli" width=><a href="/magazine/content/story/magazine/author.html?author=268;genre=393" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=features_brydoncoverdale">Brydon Coverdale</a></td>
+                   <td class="ciDpdnli" width=><a href="/magazine/content/story/magazine/author.html?author=291;genre=275" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=features_robsteen">Rob Steen</a></td>
+                  </tr>
+                  <tr>
+                   <td class="ciDpdnli" width=><a href="/magazine/content/story/magazine/author.html?author=227;genre=260" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=features_gideonhaigh">Gideon Haigh</a></td>
+                   <td class="ciDpdnli" width=><a href="/magazine/content/story/magazine/author.html?author=364;genre=388" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=features_shashitharoor">Shashi Tharoor</a></td>
+                  </tr>
+                  <tr>
+                   <td class="ciDpdnli" width=><a href="/magazine/content/story/magazine/author.html?author=324;genre=332" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=features_mahelajayawardene">Mahela Jayawardene</a></td>
+                   <td class="ciDpdnli" width=><a href="/magazine/content/story/magazine/author.html?genre=375;author=355" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=features_shardaugra">Sharda Ugra</a></td>
+                  </tr>
+                  <tr>
+                   <td class="ciDpdnli" width=><a href="/magazine/content/story/magazine/author.html?author=238;genre=167" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=features_sanjaymanjrekar">Sanjay Manjrekar</a></td>
+                   <td class="ciDpdnli" width=><a href="/magazine/content/story/magazine/author.html?genre=256" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=features_guestcolumn">Guest Column</a></td>
+                  </tr>
+                 	<tr><td colspan="3" height="10"></td></tr>
+                 </table>
+                </td>
+                <td width="4" height="4" class="popRB"></td>
+               </tr>
+              </table>
+             </div>
+            </td>
+           </tr>
+           <tr>
+	    
+            <td><a href="/magazine/content/story/magazine/author.html?genre=21" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=features_reviews">Reviews</a></td>
+	    
+           </tr>
+           <tr>
+	    
+            <td><a href="/page2/content/site/" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=features_page2">Page 2</a></td>
+	    
+           </tr>
+           <tr>
+            <td height="10"></td>
+           </tr>
+          </table>
+         </td>
+        </tr>
+       </table>
+      </div>
+     </td>
+     <td class="navLinks" onmouseover="mopen('m7')" onmouseout="mclosetime()">
+      <a href="/ci/content/current/image/index.html" class="NavLink">Photos</a>
+      <div id="m7">
+       <table border="0" align="left" cellpadding="0" cellspacing="0">
+        <tr>
+         <td colspan="2" id="mgDd">
+          <table cellpadding="0" cellspacing="0" border="0" align="left">
+           <tr>
+            <td width="4" height="27" class="ddTabLeft"></td>
+           <td class="PopupTabs">
+
+	<a href="/ci/content/current/image/index.html" class="popNavLink" name="&lpos=cricinfo_mainnav&lid=photos">Photos</a>
+
+</td>
+
+            <td width="4" height="27" class="ddTabRight"></td>
+           </tr>
+           <tr>
+            <td height="5" colspan="3" class="mgDdLftTop"></td>
+           </tr>
+          </table>
+         </td>
+        </tr>
+        <tr>
+         <td width="5" id="mgPopup">&nbsp;</td>
+         <td>
+          <table width="100" border="0" cellspacing="0" cellpadding="0" id="mgDdRht">
+           <tr>
+            <td height="10"></td>
+           </tr>
+           <tr>
+	    
+            <td><a href="/ci/content/current/image/index.html" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=photos_photoshome">Photos Home</a></td>
+	    
+           </tr>
+           <tr>
+	    
+            <td><a href="/ci/content/current/gallery/index.html" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=photos_galleries">Galleries</a></td>
+	    
+           </tr>
+           <tr>
+	    
+            <td><a href="/ci/content/current/image/wallpapers.html" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=photos_wallpapers">Wallpapers</a></td>
+	    
+           </tr>
+           <tr>
+	    
+            <td><a href="/ci/content/current/download/screensaver.html" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=photos_screensavers">Screensavers</a></td>
+	    
+           </tr>
+           <tr>
+	    
+            <td><a href="/ci/content/current/site/product/widgets/photos_sizes.html" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=photos_photoswidget">Photos Widget</a></td>
+	    
+           </tr>
+           <tr>
+            <td height="10"></td>
+           </tr>
+          </table>
+         </td>
+        </tr>
+       </table>
+      </div>
+     </td>
+     <td class="navLinks" onmouseover="mopen('m8')" onmouseout="mclosetime()">
+      <a href="http://blogs.espncricinfo.com/" class="NavLink">Blogs</a>
+      <div id="m8">
+       <table border="0" align="left" cellpadding="0" cellspacing="0">
+        <tr>
+         <td colspan="2" id="mgDd">
+          <table cellpadding="0" cellspacing="0" border="0" align="left">
+           <tr>
+            <td width="4" height="27" class="ddTabLeft"></td>
+           <td class="PopupTabs">
+
+	<a href="http://blogs.espncricinfo.com/" class="popNavLink" name="&lpos=cricinfo_mainnav&lid=blogs">Blogs</a>
+
+</td>
+
+            <td width="4" height="27" class="ddTabRight"></td>
+           </tr>
+           <tr>
+            <td height="5" colspan="3" class="mgDdLftTop"></td>
+           </tr>
+          </table>
+         </td>
+        </tr>
+        <tr>
+         <td width="5" id="mgPopup">&nbsp;</td>
+         <td>
+          <table width="340" border="0" cellspacing="0" cellpadding="0" id="mgDdRht">
+           <tr>
+            <td colspan="3" height="10"></td>
+           </tr>
+           <tr>
+            <td width="155"><a href="http://blogs.espncricinfo.com/" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=blogs_blogshome">Blogs Home</a></td>
+            <td rowspan="8" width="10" class="Dotts"></td>
+            <td width="175"><a href="http://blogs.espncricinfo.com/inbox/" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=blogs_inbox">Inbox</a></td>
+           </tr>
+           <tr>
+            <td><a href="http://blogs.espncricinfo.com/beyondtheblues/" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=blogs_beyondtheblues">Beyond The Blues</a></td>
+            <td><a href="http://blogs.espncricinfo.com/itfigures/" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=blogs_itfigures">It Figures</a></td>
+           </tr>
+           <tr>
+            <td><a href="http://blogs.espncricinfo.com/btw/" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=blogs_beyondthetestworld">Beyond the Test World</a></td>
+            <td><a href="http://blogs.espncricinfo.com/thelonghandle/" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=blogs_thelonghandle">The Long Handle</a></td>
+           </tr>
+           <tr>
+            <td><a href="http://blogs.espncricinfo.com/thebuzz/" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=blogs_thebuzz">The Buzz</a></td>
+            <td><a href="http://blogs.espncricinfo.com/pakspin/" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=blogs_pakspin">Pak Spin</a></td>
+           </tr>
+           <tr>
+            <td><a href="http://blogs.espncricinfo.com/andyzaltzman/" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=blogs_theconfectionerystall">The Confectionery Stall</a></td>
+            <td><a href="http://blogs.espncricinfo.com/thepitch/" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=blogs_thepitch">The Pitch</a></td>
+           </tr>
+           <tr>
+            <td><a href="http://blogs.espncricinfo.com/sadisthour/" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=blogs_thecricketsadisthour">The Cricket Sadist Hour</a></td>
+            <td><a href="http://blogs.espncricinfo.com/surfer/" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=blogs_thesurfer">The Surfer</a></td>
+           </tr>
+           <tr>
+            <td><a href="http://blogs.espncricinfo.com/diffstrokes/" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=blogs_differentstrokes">Different Strokes</a></td>
+            <td><a href="http://blogs.espncricinfo.com/stripesandstumps/" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=blogs_stars,stripesandstumps">Stars, Stripes and Stumps</a></td>
+           </tr>
+           <tr>
+            <td><a href="http://blogs.espncricinfo.com/fromeditor/" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=blogs_fromtheeditor">From the Editor</a></td>
+            <td><a href="http://blogs.espncricinfo.com/tourdiaries/" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=blogs_tourdiaries">Tour Diaries</a></td>
+           </tr>
+           <tr>
+            <td colspan="5" height="10"></td>
+           </tr>
+          </table>
+         </td>
+        </tr>
+       </table>
+      </div>
+     </td>
+     <td class="navLinks" onmouseover="mopen('m9')" onmouseout="mclosetime()">
+      <a href="/ci/content/current/stats/index.html" class="NavLink">Statistics</a>
+      <div id="m9">
+       <table border="0" align="left" cellpadding="0" cellspacing="0">
+        <tr>
+         <td colspan="2" id="mgDd">
+          <table cellpadding="0" cellspacing="0" border="0" align="left">
+           <tr>
+            <td width="4" height="27" class="ddTabLeft"></td>
+           <td class="PopupTabs">
+
+	<a href="/ci/content/current/stats/index.html" class="popNavLink" name="&lpos=cricinfo_mainnav&lid=statistics">Statistics</a>
+
+</td>
+
+            <td width="4" height="27" class="ddTabRight"></td>
+           </tr>
+           <tr>
+            <td height="5" colspan="3" class="mgDdLftTop"></td>
+           </tr>
+          </table>
+         </td>
+        </tr>
+        <tr>
+         <td width="5" id="mgPopup">&nbsp;</td>
+         <td>
+          <table width="130" border="0" cellspacing="0" cellpadding="0" id="mgDdRht">
+           <tr>
+            <td height="10"></td>
+           </tr>
+           <tr>
+	    
+            <td><a href="/ci/content/current/stats/index.html" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=statistics_statisticshome">Statistics Home</a></td>
+	    
+           </tr>
+           <tr>
+	    
+            <td><a href="/ci/engine/current/stats/index.html" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=statistics_statsguru">Statsguru</a></td>
+	    
+           </tr>
+           <tr>
+	    
+            <td><a href="/ci/engine/current/records/index.html?id=2011;type=year" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=statistics_2011records">2011 Records</a></td>
+	    
+           </tr>
+           <tr>
+	    
+            <td><a href="/ci/engine/current/records/index.html" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=statistics_allrecords">All Records</a></td>
+	    
+           </tr>
+           <tr>
+	    
+            <td><a href="/ci/content/current/player/index.html" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=statistics_players">Players</a></td>
+	    
+           </tr>
+           <tr>
+	    
+            <td><a href="/ci/content/current/ground/index.html" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=statistics_grounds">Grounds</a></td>
+	    
+           </tr>
+           <tr>
+	    
+            <td><a href="/magazine/content/story/magazine/author.html?author=34;genre=6" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=statistics_asksteven">Ask Steven</a></td>
+	    
+           </tr>
+           <tr>
+	    
+            <td><a href="/magazine/content/current/story/magazine/author.html?author=29;genre=12" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=statistics_numbersgame">Numbers Game</a></td>
+	    
+           </tr>
+           <tr>
+	    
+            <td><a href="/magazine/content/current/story/magazine/author.html?genre=126" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=statistics_thelist">The List</a></td>
+	    
+           </tr>
+           <tr>
+	    
+            <td><a href="http://blogs.espncricinfo.com/itfigures/" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=statistics_itfigures">It Figures</a></td>
+	    
+           </tr>
+           <tr>
+	    
+            <td><a href="/magazine/content/story/magazine/author.html?genre=397" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=statistics_statsfromthepast">Stats from the Past</a></td>
+	    
+           </tr>
+           <tr>
+            <td height="10"></td>
+           </tr>
+          </table>
+         </td>
+        </tr>
+       </table>
+      </div>
+     </td>
+     <td class="navLinks" onmouseover="mopen('m10')" onmouseout="mclosetime()">
+      <a href="/ci/engine/series/index.html" class="NavLink">Archive</a>
+      <div id="m10">
+       <table border="0" align="left" cellpadding="0" cellspacing="0">
+        <tr>
+         <td colspan="2" id="mgDd">
+          <table cellpadding="0" cellspacing="0" border="0" align="left">
+           <tr>
+            <td width="4" height="27" class="ddTabLeft"></td>
+           <td class="PopupTabs">
+
+	<a href="/ci/engine/series/index.html" class="popNavLink" name="&lpos=cricinfo_mainnav&lid=archive">Archive</a>
+
+</td>
+
+            <td width="4" height="27" class="ddTabRight"></td>
+           </tr>
+           <tr>
+            <td height="5" colspan="3" class="mgDdLftTop"></td>
+           </tr>
+          </table>
+         </td>
+        </tr>
+        <tr>
+         <td width="5" id="mgPopup">&nbsp;</td>
+         <td>
+          <table width="165" border="0" cellspacing="0" cellpadding="0" id="mgDdRht">
+           <tr>
+            <td height="10"></td>
+           </tr>
+           <tr>
+	    
+            <td><a href="/ci/engine/series/index.html" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=archive_matchandseriesarchive">Match and Series Archive</a></td>
+	    
+           </tr>
+           <tr>
+	    
+            <td><a href="/ci/content/current/player/index.html" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=archive_players">Players</a></td>
+	    
+           </tr>
+           <tr>
+	    
+            <td><a href="/ci/content/current/ground/index.html" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=archive_grounds">Grounds</a></td>
+	    
+           </tr>
+           <tr>
+	    
+            <td><a href="/ci/engine/current/records/index.html" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=archive_records">Records</a></td>
+	    
+           </tr>
+           <tr>
+	    
+            <td><a href="/rankings/content/current/page/211271.html" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=archive_rankings/ratings">Rankings / Ratings</a></td>
+	    
+           </tr>
+           <tr>
+	    
+            <td><a href="/wisdenalmanack/content/current/story/almanack" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=archive_wisdenalmanack">Wisden Almanack</a></td>
+	    
+           </tr>
+           <tr>
+            <td height="10"></td>
+           </tr>
+          </table>
+         </td>
+        </tr>
+       </table>
+      </div>
+     </td>
+     <td class="navLinks" onmouseover="mopen('m11')" onmouseout="mclosetime()">
+      <a href="/ci/content/video_audio/index.html" class="NavLink">Video & Audio</a>
+      <div id="m11" class="mobileDd" style="left:12px;">
+       <table border="0" align="right" cellpadding="0" cellspacing="0">
+        <tr>
+         <td colspan="2" id="mgDdLft">
+          <table cellpadding="0" cellspacing="0" border="0" align="right">
+           <tr>
+            <td width="4" height="27" class="ddTabLeft"></td>
+           <td class="PopupTabs">
+
+	<a href="/ci/content/video_audio/index.html" class="popNavLink" name="&lpos=cricinfo_mainnav&lid=videoaudio">Video & Audio</a>
+
+</td>
+
+            <td width="4" height="27" class="ddTabRight"></td>
+           </tr>
+           <tr>
+            <td height="5" colspan="3" class="mgDdRghtTop"></td>
+           </tr>
+          </table>
+         </td>
+        </tr>
+        <tr>
+         <td width="5" id="mgPopup">&nbsp;</td>
+         <td>
+          <table width="340" border="0" cellspacing="0" cellpadding="0" id="mgDdRht">
+           <tr>
+            <td colspan="3" height="10"></td>
+           </tr>
+           <tr>
+            <td width="155"><a href="/ci/content/video_audio/index.html" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=videoaudio_videoaudiohome">Video & Audio Home</a></td>
+            <td rowspan="9" width="10" class="Dotts"></td>
+            <td width="175"><a href="/ci/content/video_audio/index.html?genre=35" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=videoaudio_openingup">Opening Up</a></td>
+           </tr>
+           <tr>
+            <td><a href="/ci/content/video_audio/index.html?genre=21" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=videoaudio_bowlatboycs">Bowl at Boycs</a></td>
+            <td><a href="/ci/content/video_audio/index.html?genre=2" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=videoaudio_pressconference">Press Conference</a></td>
+           </tr>
+           <tr>
+            <td><a href="/ci/content/video_audio/index.html?genre=10" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=videoaudio_comments">Comments</a></td>
+            <td><a href="/ci/content/video_audio/index.html?genre=52" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=videoaudio_shortstuff">Short Stuff</a></td>
+           </tr>
+           <tr>
+            <td><a href="/ci/content/video_audio/index.html?genre=51" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=videoaudio_cricketsadisthour">Cricket Sadist Hour</a></td>
+            <td><a href="/ci/content/video_audio/index.html?genre=27" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=videoaudio_switchhit">Switch Hit</a></td>
+           </tr>
+           <tr>
+            <td><a href="/ci/content/video_audio/index.html?genre=41" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=videoaudio_espncricinfoweekly">ESPNcricinfo Weekly</a></td>
+            <td><a href="/ci/content/video_audio/index.html?genre=49" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=videoaudio_thetwochucks">The Two Chucks</a></td>
+           </tr>
+           <tr>
+            <td><a href="/ci/content/video_audio/index.html?genre=46" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=videoaudio_features">Features</a></td>
+            <td><a href="/ci/content/video_audio/index.html?genre=33" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=videoaudio_timeout">Time Out</a></td>
+           </tr>
+           <tr>
+            <td><a href="/ci/content/video_audio/index.html?genre=9" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=videoaudio_interviews">Interviews</a></td>
+            <td><a href="/ci/content/video_audio/index.html?genre=32" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=videoaudio_worldcricketpodcast">World Cricket Podcast</a></td>
+           </tr>
+           <tr>
+            <td><a href="/ci/content/video_audio/index.html?genre=1" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=videoaudio_matchanalysis">Match Analysis</a></td>
+            <td><a href="http://www.youtube.com/ESPNCricinfo" class="PopupLinks" target="_blank" name="&lpos=cricinfo_mainnav&lid=videoaudio_youtube">YouTube</a></td>
+           </tr>
+           <tr>
+            <td><a href="/ci/content/video_audio/index.html?genre=34" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=videoaudio_newsandanalysis">News and Analysis</a></td>
+            <td><a href="http://itunes.apple.com/WebObjects/DZR.woa/wa/viewTagged?id=419587186&tag=ESPNcricinfo" class="PopupLinks" target="_blank" name="&lpos=cricinfo_mainnav&lid=videoaudio_itunes">iTunes</a></td>
+           </tr>
+           <tr>
+            <td colspan="5" height="10"></td>
+           </tr>
+          </table>
+         </td>
+        </tr>
+       </table>
+      </div>
+     </td>
+     <td class="navLinks" onmouseover="mopen('m12')" onmouseout="mclosetime()">
+      <a href="/games/content/current/site/games/" class="NavLink">Games</a>
+      <div id="m12">
+       <table border="0" align="left" cellpadding="0" cellspacing="0">
+        <tr>
+         <td colspan="2" id="mgDd">
+          <table cellpadding="0" cellspacing="0" border="0" align="left">
+           <tr>
+            <td width="4" height="27" class="ddTabLeft"></td>
+           <td class="PopupTabs">
+
+	<a href="/games/content/current/site/games/" class="popNavLink" name="&lpos=cricinfo_mainnav&lid=games">Games</a>
+
+</td>
+
+            <td width="4" height="27" class="ddTabRight"></td>
+           </tr>
+           <tr>
+            <td height="5" colspan="3" class="mgDdLftTop"></td>
+           </tr>
+          </table>
+         </td>
+        </tr>
+        <tr>
+         <td width="5" id="mgPopup">&nbsp;</td>
+         <td>
+          <table width="93" border="0" cellspacing="0" cellpadding="0" id="mgDdRht">
+           <tr>
+            <td height="10"></td>
+           </tr>
+           <tr>
+	    
+            <td><a href="/games/content/current/site/games/" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=games_gameshome">Games Home</a></td>
+	    
+           </tr>
+           <tr>
+	    
+            <td><a href="/games/content/site/games/howzat.html" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=games_howzat">Howzat</a></td>
+	    
+           </tr>
+           <tr>
+	    
+	    <td><a href="http://www.espn.co.uk/games/sport/games/games.html?game=cricketconcentration;CMP=ci" class="PopupLinks" target="_blank" name="&lpos=cricinfo_mainnav&lid=games_concentration">Concentration</a></td>
+	    
+           </tr>
+           <tr>
+	    
+	    <td><a href="http://www.espn.co.uk/games/sport/games/games.html?game=jigsaw;CMP=ci" class="PopupLinks" target="_blank" name="&lpos=cricinfo_mainnav&lid=games_jigsaw">Jigsaw</a></td>
+	    
+           </tr>
+           <tr>
+            <td height="10"></td>
+           </tr>
+          </table>
+         </td>
+        </tr>
+       </table>
+      </div>
+     </td>
+     <td class="navMobileTab" onmouseover="mopen('m13');" onmouseout="mclosetime();" align="center">
+     <a href="/mobile/content/current/site/mobile/mobilehome.html" class="NavLink" style="color:#FFFFFF;">Mobile</a>
+      <div id="m13" class="mobileDd" style="left:-93px;">
+       <table border="0" align="left" cellpadding="0" cellspacing="0">
+        <tr>
+         <td colspan="2" id="mgDdLft">
+          <table cellpadding="0" cellspacing="0" border="0" align="right">
+           <tr>
+            <td width="4" height="27" class="ddTabLeft"></td>
+            <td class="PopupTabs">&nbsp;<a href="/mobile/content/current/site/mobile/mobilehome.html" class="popNavLink" name="&lpos=cricinfo_mainnav&lid=mobile">Mobile</a>&nbsp;</td>
+            <td width="4" height="27" class="ddTabRight"></td>
+           </tr>
+           <tr>
+            <td height="5" colspan="3" class="mgDdRghtTop"></td>
+           </tr>
+          </table>
+         </td>
+        </tr>
+        <tr>
+         <td width="5" id="mgPopup">&nbsp;</td>
+         <td>
+          <table width="155" border="0" cellspacing="0" cellpadding="0" id="mgDdRht">
+           <tr>
+            <td height="10"></td>
+           </tr>
+           <tr>
+	    
+            <td><a href="/mobile/content/site/mobile/wap.html" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=mobile_mobilesite">Mobile Site</a></td>
+	    
+           </tr>
+           <tr>
+	    
+            <td><a href="/mobile/content/current/site/mobile/mobicast.html" class="PopupLinks" name="&lpos=cricinfo_mainnav&lid=mobile_iphoneandandroidapps">iPhone and Android Apps</a></td>
+	    
+           </tr>
+           <tr>
+            <td height="10"></td>
+           </tr>
+          </table>
+         </td>
+        </tr>
+       </table>
+      </div>
+     </td>
+     </tr></table>
+</div>
+</div> <div id="ciHomeContent">
+
+
+<div class="pnlHdr980Tp" style="_margin-bottom:-9px;_margin-top:5px;"></div>
+
+<div id="ciGblSubnav" style="background:none;margin-top:0px;margin-bottom:0px;width:978px;border-left:1px solid #cdcdcd;border-right:1px solid #cdcdcd;height:auto;">
+ <div class="ciGblSubnavbody" style="width:978px;background:url(http://i.imgci.com/espncricinfo/img_grypnlCtrbg.gif) repeat-x;height:auto;">
+
+<h1 class="SubnavSitesection" style="margin-top:4px;line-height:95%;min-width:22%;width:auto;float:left;">
+Records  <span class="SubnavSitesectionSep">/</span>
+1983  <span class="SubnavSitesectionSep">/</span>
+One-Day Internationals  <span class="SubnavSitesectionSep">/</span>
+  <span class="SubnavSubsection">Match results</span>
+ </h1>
+
+
+<span style="float:right;">
+
+
+
+
+</span>
+
+
+  <div class="divSubnavSeparator" style="clear:both; "></div>
+
+  <div id="ciSubnav">
+   <ul>
+			    <li class="pad"><a href="/ci/content/stats/index.html" >Statistics Home</a></li>
+		    <li class="pad">|</li>
+			    <li class="pad"><a href="/ci/engine/stats/index.html" >Statsguru</a></li>
+		    <li class="pad">|</li>
+			    <li class="pad"><a href="/ci/engine/current/records/index.html?id=2011;type=year" >2011 Records</a></li>
+		    <li class="pad">|</li>
+			    <li class="pad"><a href="/ci/engine/current/records/index.html?id=2010;type=year" >2010 Records</a></li>
+		    <li class="pad">|</li>
+			    <li class="pad"><a href="/ci/engine/current/records/index.html"><strong>All Records</strong></a></li>
+		    <li class="pad">|</li>
+			    <li class="pad"><a href="/magazine/content/story/magazine/author.html?author=34;genre=6" >Ask Steven</a></li>
+		    <li class="pad">|</li>
+			    <li class="pad"><a href="/magazine/content/story/magazine/author.html?author=29;genre=12" >Numbers Game</a></li>
+		    <li class="pad">|</li>
+			    <li class="pad"><a href="/magazine/content/story/magazine/author.html?genre=126" >The List</a></li>
+		    <li class="pad">|</li>
+			    <li class="pad"><a href="http://blogs.cricinfo.com/itfigures/" >It Figures</a></li>
+   </ul>
+  </div>
+ </div>
+</div>
+<div class="pnlHdr980Btm" style="_overflow:hidden; _height:15px;"></div>  <div id="ciHomeContentlhs">
+
+<div class="seriesSpncr" style="float:none;">
+<script language="JavaScript" type="text/javascript">
+document.write('<script language="JavaScript" src="http://ad.doubleclick.net/adj/espncricinfo_stats/records;kvcluster=www;tile=5;sz=650x40;ord=' + ord + '?" type="text/javascript"><\/script>');
+</script><noscript><a href="http://ad.doubleclick.net/jump/espncricinfo_stats/records;kvcluster=www;tile=5;sz=650x40;ord=123456789?" target="_blank"><img src="http://ad.doubleclick.net/ad/espncricinfo_stats/records;kvcluster=www;tile=5;sz=650x40;ord=123456789?" width="650" height="40" border="0" alt=""></a></noscript>
+</div>
+
+
+   <!-- START 650 AREA --><div class="pnl650T"></div>
+<div class="pnl650M">
+ <div class="div630Pad" style="padding-top:10px; padding-bottom:10px;">
+
+       
+<table class="engineTable">
+<caption>Match results</caption>
+<thead>
+ <tr class="head">
+  <th title="team" class="left" nowrap="nowrap">Team 1</th>
+  <th title="team" class="left" nowrap="nowrap">Team 2</th>
+  <th title="winner/result" class="left" nowrap="nowrap">Winner</th>
+  <th title="result margin" class="left" nowrap="nowrap">Margin</th>
+  <th title="ground played on" class="left" nowrap="nowrap">Ground</th>
+  <th title="match date span" nowrap="nowrap">Match Date</th>
+  <th title="match scorecard" nowrap="nowrap">Scorecard</th>
+ </tr>
+</thead>
+<tbody>
+ <tr class="data1">
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/2.html" class="data-link">Australia</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/5.html" class="data-link">New Zealand</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/2.html" class="data-link">Australia</a></td>
+  <td class="left" nowrap="nowrap">8 wickets</td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/ground/56441.html" class="data-link">Melbourne</a></td>
+  <td nowrap="nowrap">Jan 9, 1983</td>
+  <td nowrap="nowrap"><a href="/ci/engine/match/65338.html" class="data-link">ODI # 165</a></td>
+ </tr>
+ <tr class="data1">
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/2.html" class="data-link">Australia</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/1.html" class="data-link">England</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/2.html" class="data-link">Australia</a></td>
+  <td class="left" nowrap="nowrap">31 runs</td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/ground/56544.html" class="data-link">Sydney</a></td>
+  <td nowrap="nowrap">Jan 11, 1983</td>
+  <td nowrap="nowrap"><a href="/ci/engine/match/65339.html" class="data-link">ODI # 166</a></td>
+ </tr>
+ <tr class="data1">
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/1.html" class="data-link">England</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/5.html" class="data-link">New Zealand</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/5.html" class="data-link">New Zealand</a></td>
+  <td class="left" nowrap="nowrap">2 runs</td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/ground/56441.html" class="data-link">Melbourne</a></td>
+  <td nowrap="nowrap">Jan 13, 1983</td>
+  <td nowrap="nowrap"><a href="/ci/engine/match/65340.html" class="data-link">ODI # 167</a></td>
+ </tr>
+ <tr class="data1">
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/1.html" class="data-link">England</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/5.html" class="data-link">New Zealand</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/1.html" class="data-link">England</a></td>
+  <td class="left" nowrap="nowrap">54 runs</td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/ground/56336.html" class="data-link">Brisbane</a></td>
+  <td nowrap="nowrap">Jan 15, 1983</td>
+  <td nowrap="nowrap"><a href="/ci/engine/match/65341.html" class="data-link">ODI # 168</a></td>
+ </tr>
+ <tr class="data1">
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/2.html" class="data-link">Australia</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/1.html" class="data-link">England</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/2.html" class="data-link">Australia</a></td>
+  <td class="left" nowrap="nowrap">7 wickets</td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/ground/56336.html" class="data-link">Brisbane</a></td>
+  <td nowrap="nowrap">Jan 16, 1983</td>
+  <td nowrap="nowrap"><a href="/ci/engine/match/65342.html" class="data-link">ODI # 169</a></td>
+ </tr>
+ <tr class="data1">
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/2.html" class="data-link">Australia</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/5.html" class="data-link">New Zealand</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/5.html" class="data-link">New Zealand</a></td>
+  <td class="left" nowrap="nowrap">47 runs</td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/ground/56544.html" class="data-link">Sydney</a></td>
+  <td nowrap="nowrap">Jan 18, 1983</td>
+  <td nowrap="nowrap"><a href="/ci/engine/match/65343.html" class="data-link">ODI # 170</a></td>
+ </tr>
+ <tr class="data1">
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/1.html" class="data-link">England</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/5.html" class="data-link">New Zealand</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/1.html" class="data-link">England</a></td>
+  <td class="left" nowrap="nowrap">8 wickets</td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/ground/56544.html" class="data-link">Sydney</a></td>
+  <td nowrap="nowrap">Jan 20, 1983</td>
+  <td nowrap="nowrap"><a href="/ci/engine/match/65344.html" class="data-link">ODI # 171</a></td>
+ </tr>
+ <tr class="data1">
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/7.html" class="data-link">Pakistan</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/6.html" class="data-link">India</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/7.html" class="data-link">Pakistan</a></td>
+  <td class="left" nowrap="nowrap">8 wickets</td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/ground/58956.html" class="data-link">Karachi</a></td>
+  <td nowrap="nowrap">Jan 21, 1983</td>
+  <td nowrap="nowrap"><a href="/ci/engine/match/64200.html" class="data-link">ODI # 172</a></td>
+ </tr>
+ <tr class="data1">
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/2.html" class="data-link">Australia</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/5.html" class="data-link">New Zealand</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/5.html" class="data-link">New Zealand</a></td>
+  <td class="left" nowrap="nowrap">58 runs</td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/ground/56441.html" class="data-link">Melbourne</a></td>
+  <td nowrap="nowrap">Jan 22, 1983</td>
+  <td nowrap="nowrap"><a href="/ci/engine/match/65345.html" class="data-link">ODI # 173</a></td>
+ </tr>
+ <tr class="data1">
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/2.html" class="data-link">Australia</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/1.html" class="data-link">England</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/2.html" class="data-link">Australia</a></td>
+  <td class="left" nowrap="nowrap">5 wickets</td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/ground/56441.html" class="data-link">Melbourne</a></td>
+  <td nowrap="nowrap">Jan 23, 1983</td>
+  <td nowrap="nowrap"><a href="/ci/engine/match/65346.html" class="data-link">ODI # 174</a></td>
+ </tr>
+ <tr class="data1">
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/2.html" class="data-link">Australia</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/1.html" class="data-link">England</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/1.html" class="data-link">England</a></td>
+  <td class="left" nowrap="nowrap">98 runs</td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/ground/56544.html" class="data-link">Sydney</a></td>
+  <td nowrap="nowrap">Jan 26, 1983</td>
+  <td nowrap="nowrap"><a href="/ci/engine/match/65347.html" class="data-link">ODI # 175</a></td>
+ </tr>
+ <tr class="data1">
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/1.html" class="data-link">England</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/5.html" class="data-link">New Zealand</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/5.html" class="data-link">New Zealand</a></td>
+  <td class="left" nowrap="nowrap">4 wickets</td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/ground/56293.html" class="data-link">Adelaide</a></td>
+  <td nowrap="nowrap">Jan 29, 1983</td>
+  <td nowrap="nowrap"><a href="/ci/engine/match/65348.html" class="data-link">ODI # 176</a></td>
+ </tr>
+ <tr class="data1">
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/2.html" class="data-link">Australia</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/1.html" class="data-link">England</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/1.html" class="data-link">England</a></td>
+  <td class="left" nowrap="nowrap">14 runs</td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/ground/56293.html" class="data-link">Adelaide</a></td>
+  <td nowrap="nowrap">Jan 30, 1983</td>
+  <td nowrap="nowrap"><a href="/ci/engine/match/65349.html" class="data-link">ODI # 177</a></td>
+ </tr>
+ <tr class="data1">
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/2.html" class="data-link">Australia</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/5.html" class="data-link">New Zealand</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/5.html" class="data-link">New Zealand</a></td>
+  <td class="left" nowrap="nowrap">47 runs</td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/ground/56293.html" class="data-link">Adelaide</a></td>
+  <td nowrap="nowrap">Jan 31, 1983</td>
+  <td nowrap="nowrap"><a href="/ci/engine/match/65350.html" class="data-link">ODI # 178</a></td>
+ </tr>
+ <tr class="data1">
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/1.html" class="data-link">England</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/5.html" class="data-link">New Zealand</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/5.html" class="data-link">New Zealand</a></td>
+  <td class="left" nowrap="nowrap">7 wickets</td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/ground/56490.html" class="data-link">Perth</a></td>
+  <td nowrap="nowrap">Feb 5, 1983</td>
+  <td nowrap="nowrap"><a href="/ci/engine/match/65351.html" class="data-link">ODI # 179</a></td>
+ </tr>
+ <tr class="data1">
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/2.html" class="data-link">Australia</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/5.html" class="data-link">New Zealand</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/2.html" class="data-link">Australia</a></td>
+  <td class="left" nowrap="nowrap">27 runs</td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/ground/56490.html" class="data-link">Perth</a></td>
+  <td nowrap="nowrap">Feb 6, 1983</td>
+  <td nowrap="nowrap"><a href="/ci/engine/match/65352.html" class="data-link">ODI # 180</a></td>
+ </tr>
+ <tr class="data1">
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/2.html" class="data-link">Australia</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/5.html" class="data-link">New Zealand</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/2.html" class="data-link">Australia</a></td>
+  <td class="left" nowrap="nowrap">6 wickets</td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/ground/56544.html" class="data-link">Sydney</a></td>
+  <td nowrap="nowrap">Feb 9, 1983</td>
+  <td nowrap="nowrap"><a href="/ci/engine/match/65353.html" class="data-link">ODI # 181</a></td>
+ </tr>
+ <tr class="data1">
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/2.html" class="data-link">Australia</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/5.html" class="data-link">New Zealand</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/2.html" class="data-link">Australia</a></td>
+  <td class="left" nowrap="nowrap">149 runs</td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/ground/56441.html" class="data-link">Melbourne</a></td>
+  <td nowrap="nowrap">Feb 13, 1983</td>
+  <td nowrap="nowrap"><a href="/ci/engine/match/65354.html" class="data-link">ODI # 182</a></td>
+ </tr>
+ <tr class="data1">
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/5.html" class="data-link">New Zealand</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/1.html" class="data-link">England</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/5.html" class="data-link">New Zealand</a></td>
+  <td class="left" nowrap="nowrap">6 wickets</td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/ground/58792.html" class="data-link">Auckland</a></td>
+  <td nowrap="nowrap">Feb 19, 1983</td>
+  <td nowrap="nowrap"><a href="/ci/engine/match/64201.html" class="data-link">ODI # 183</a></td>
+ </tr>
+ <tr class="data1">
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/5.html" class="data-link">New Zealand</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/1.html" class="data-link">England</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/5.html" class="data-link">New Zealand</a></td>
+  <td class="left" nowrap="nowrap">103 runs</td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/ground/58895.html" class="data-link">Wellington</a></td>
+  <td nowrap="nowrap">Feb 23, 1983</td>
+  <td nowrap="nowrap"><a href="/ci/engine/match/64202.html" class="data-link">ODI # 184</a></td>
+ </tr>
+ <tr class="data1">
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/5.html" class="data-link">New Zealand</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/1.html" class="data-link">England</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/5.html" class="data-link">New Zealand</a></td>
+  <td class="left" nowrap="nowrap">84 runs</td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/ground/58812.html" class="data-link">Christchurch</a></td>
+  <td nowrap="nowrap">Feb 26, 1983</td>
+  <td nowrap="nowrap"><a href="/ci/engine/match/64203.html" class="data-link">ODI # 185</a></td>
+ </tr>
+ <tr class="data1">
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/5.html" class="data-link">New Zealand</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/8.html" class="data-link">Sri Lanka</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/5.html" class="data-link">New Zealand</a></td>
+  <td class="left" nowrap="nowrap">65 runs</td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/ground/58822.html" class="data-link">Dunedin</a></td>
+  <td nowrap="nowrap">Mar 2, 1983</td>
+  <td nowrap="nowrap"><a href="/ci/engine/match/64204.html" class="data-link">ODI # 186</a></td>
+ </tr>
+ <tr class="data1">
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/4.html" class="data-link">West Indies</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/6.html" class="data-link">India</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/4.html" class="data-link">West Indies</a></td>
+  <td class="left" nowrap="nowrap">52 runs</td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/ground/59475.html" class="data-link">Port of Spain</a></td>
+  <td nowrap="nowrap">Mar 9, 1983</td>
+  <td nowrap="nowrap"><a href="/ci/engine/match/64205.html" class="data-link">ODI # 187</a></td>
+ </tr>
+ <tr class="data1">
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/2.html" class="data-link">Australia</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/5.html" class="data-link">New Zealand</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/5.html" class="data-link">New Zealand</a></td>
+  <td class="left" nowrap="nowrap">14 runs</td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/ground/56544.html" class="data-link">Sydney</a></td>
+  <td nowrap="nowrap">Mar 17, 1983</td>
+  <td nowrap="nowrap"><a href="/ci/engine/match/64206.html" class="data-link">ODI # 188</a></td>
+ </tr>
+ <tr class="data1">
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/5.html" class="data-link">New Zealand</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/8.html" class="data-link">Sri Lanka</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/5.html" class="data-link">New Zealand</a></td>
+  <td class="left" nowrap="nowrap">7 wickets</td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/ground/58857.html" class="data-link">Napier</a></td>
+  <td nowrap="nowrap">Mar 19, 1983</td>
+  <td nowrap="nowrap"><a href="/ci/engine/match/64207.html" class="data-link">ODI # 189</a></td>
+ </tr>
+ <tr class="data1">
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/5.html" class="data-link">New Zealand</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/8.html" class="data-link">Sri Lanka</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/5.html" class="data-link">New Zealand</a></td>
+  <td class="left" nowrap="nowrap">116 runs</td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/ground/58792.html" class="data-link">Auckland</a></td>
+  <td nowrap="nowrap">Mar 20, 1983</td>
+  <td nowrap="nowrap"><a href="/ci/engine/match/64208.html" class="data-link">ODI # 190</a></td>
+ </tr>
+ <tr class="data1">
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/4.html" class="data-link">West Indies</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/6.html" class="data-link">India</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/6.html" class="data-link">India</a></td>
+  <td class="left" nowrap="nowrap">27 runs</td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/ground/59417.html" class="data-link">Albion</a></td>
+  <td nowrap="nowrap">Mar 29, 1983</td>
+  <td nowrap="nowrap"><a href="/ci/engine/match/64209.html" class="data-link">ODI # 191</a></td>
+ </tr>
+ <tr class="data1">
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/4.html" class="data-link">West Indies</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/6.html" class="data-link">India</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/4.html" class="data-link">West Indies</a></td>
+  <td class="left" nowrap="nowrap">7 wickets</td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/ground/59492.html" class="data-link">St George's</a></td>
+  <td nowrap="nowrap">Apr 7, 1983</td>
+  <td nowrap="nowrap"><a href="/ci/engine/match/64210.html" class="data-link">ODI # 192</a></td>
+ </tr>
+ <tr class="data1">
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/8.html" class="data-link">Sri Lanka</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/2.html" class="data-link">Australia</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/8.html" class="data-link">Sri Lanka</a></td>
+  <td class="left" nowrap="nowrap">2 wickets</td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/ground/59303.html" class="data-link">Colombo (PSS)</a></td>
+  <td nowrap="nowrap">Apr 13, 1983</td>
+  <td nowrap="nowrap"><a href="/ci/engine/match/64211.html" class="data-link">ODI # 193</a></td>
+ </tr>
+ <tr class="data1">
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/8.html" class="data-link">Sri Lanka</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/2.html" class="data-link">Australia</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/8.html" class="data-link">Sri Lanka</a></td>
+  <td class="left" nowrap="nowrap">4 wickets</td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/ground/59303.html" class="data-link">Colombo (PSS)</a></td>
+  <td nowrap="nowrap">Apr 16, 1983</td>
+  <td nowrap="nowrap"><a href="/ci/engine/match/64212.html" class="data-link">ODI # 194</a></td>
+ </tr>
+ <tr class="data1">
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/8.html" class="data-link">Sri Lanka</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/2.html" class="data-link">Australia</a></td>
+  <td class="left" nowrap="nowrap">no result</td>
+  <td class="left" nowrap="nowrap"></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/ground/59308.html" class="data-link">Colombo (SSC)</a></td>
+  <td nowrap="nowrap">Apr 29, 1983</td>
+  <td nowrap="nowrap"><a href="/ci/engine/match/64213.html" class="data-link">ODI # 195</a></td>
+ </tr>
+ <tr class="data1">
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/8.html" class="data-link">Sri Lanka</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/2.html" class="data-link">Australia</a></td>
+  <td class="left" nowrap="nowrap">no result</td>
+  <td class="left" nowrap="nowrap"></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/ground/59308.html" class="data-link">Colombo (SSC)</a></td>
+  <td nowrap="nowrap">Apr 30, 1983</td>
+  <td nowrap="nowrap"><a href="/ci/engine/match/64214.html" class="data-link">ODI # 196</a></td>
+ </tr>
+ <tr class="data1">
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/1.html" class="data-link">England</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/5.html" class="data-link">New Zealand</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/1.html" class="data-link">England</a></td>
+  <td class="left" nowrap="nowrap">106 runs</td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/ground/57127.html" class="data-link">The Oval</a></td>
+  <td nowrap="nowrap">Jun 9, 1983</td>
+  <td nowrap="nowrap"><a href="/ci/engine/match/65064.html" class="data-link">ODI # 197</a></td>
+ </tr>
+ <tr class="data1">
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/7.html" class="data-link">Pakistan</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/8.html" class="data-link">Sri Lanka</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/7.html" class="data-link">Pakistan</a></td>
+  <td class="left" nowrap="nowrap">50 runs</td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/ground/57347.html" class="data-link">Swansea</a></td>
+  <td nowrap="nowrap">Jun 9, 1983</td>
+  <td nowrap="nowrap"><a href="/ci/engine/match/65065.html" class="data-link">ODI # 198</a></td>
+ </tr>
+ <tr class="data1">
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/2.html" class="data-link">Australia</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/9.html" class="data-link">Zimbabwe</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/9.html" class="data-link">Zimbabwe</a></td>
+  <td class="left" nowrap="nowrap">13 runs</td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/ground/57219.html" class="data-link">Nottingham</a></td>
+  <td nowrap="nowrap">Jun 9, 1983</td>
+  <td nowrap="nowrap"><a href="/ci/engine/match/65066.html" class="data-link">ODI # 199</a></td>
+ </tr>
+ <tr class="data1">
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/6.html" class="data-link">India</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/4.html" class="data-link">West Indies</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/6.html" class="data-link">India</a></td>
+  <td class="left" nowrap="nowrap">34 runs</td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/ground/57160.html" class="data-link">Manchester</a></td>
+  <td nowrap="nowrap">Jun 9-10, 1983</td>
+  <td nowrap="nowrap"><a href="/ci/engine/match/65067.html" class="data-link">ODI # 200</a></td>
+ </tr>
+ <tr class="data1">
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/1.html" class="data-link">England</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/8.html" class="data-link">Sri Lanka</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/1.html" class="data-link">England</a></td>
+  <td class="left" nowrap="nowrap">47 runs</td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/ground/57351.html" class="data-link">Taunton</a></td>
+  <td nowrap="nowrap">Jun 11, 1983</td>
+  <td nowrap="nowrap"><a href="/ci/engine/match/65068.html" class="data-link">ODI # 201</a></td>
+ </tr>
+ <tr class="data1">
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/5.html" class="data-link">New Zealand</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/7.html" class="data-link">Pakistan</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/5.html" class="data-link">New Zealand</a></td>
+  <td class="left" nowrap="nowrap">52 runs</td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/ground/56788.html" class="data-link">Birmingham</a></td>
+  <td nowrap="nowrap">Jun 11-12, 1983</td>
+  <td nowrap="nowrap"><a href="/ci/engine/match/65069.html" class="data-link">ODI # 202</a></td>
+ </tr>
+ <tr class="data1">
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/2.html" class="data-link">Australia</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/4.html" class="data-link">West Indies</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/4.html" class="data-link">West Indies</a></td>
+  <td class="left" nowrap="nowrap">101 runs</td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/ground/57092.html" class="data-link">Leeds</a></td>
+  <td nowrap="nowrap">Jun 11-12, 1983</td>
+  <td nowrap="nowrap"><a href="/ci/engine/match/65070.html" class="data-link">ODI # 203</a></td>
+ </tr>
+ <tr class="data1">
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/6.html" class="data-link">India</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/9.html" class="data-link">Zimbabwe</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/6.html" class="data-link">India</a></td>
+  <td class="left" nowrap="nowrap">5 wickets</td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/ground/57100.html" class="data-link">Leicester</a></td>
+  <td nowrap="nowrap">Jun 11, 1983</td>
+  <td nowrap="nowrap"><a href="/ci/engine/match/65071.html" class="data-link">ODI # 204</a></td>
+ </tr>
+ <tr class="data1">
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/1.html" class="data-link">England</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/7.html" class="data-link">Pakistan</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/1.html" class="data-link">England</a></td>
+  <td class="left" nowrap="nowrap">8 wickets</td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/ground/57129.html" class="data-link">Lord's</a></td>
+  <td nowrap="nowrap">Jun 13, 1983</td>
+  <td nowrap="nowrap"><a href="/ci/engine/match/65072.html" class="data-link">ODI # 205</a></td>
+ </tr>
+ <tr class="data1">
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/5.html" class="data-link">New Zealand</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/8.html" class="data-link">Sri Lanka</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/5.html" class="data-link">New Zealand</a></td>
+  <td class="left" nowrap="nowrap">5 wickets</td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/ground/56831.html" class="data-link">Bristol</a></td>
+  <td nowrap="nowrap">Jun 13, 1983</td>
+  <td nowrap="nowrap"><a href="/ci/engine/match/65073.html" class="data-link">ODI # 206</a></td>
+ </tr>
+ <tr class="data1">
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/2.html" class="data-link">Australia</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/6.html" class="data-link">India</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/2.html" class="data-link">Australia</a></td>
+  <td class="left" nowrap="nowrap">162 runs</td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/ground/57219.html" class="data-link">Nottingham</a></td>
+  <td nowrap="nowrap">Jun 13, 1983</td>
+  <td nowrap="nowrap"><a href="/ci/engine/match/65074.html" class="data-link">ODI # 207</a></td>
+ </tr>
+ <tr class="data1">
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/4.html" class="data-link">West Indies</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/9.html" class="data-link">Zimbabwe</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/4.html" class="data-link">West Indies</a></td>
+  <td class="left" nowrap="nowrap">8 wickets</td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/ground/57424.html" class="data-link">Worcester</a></td>
+  <td nowrap="nowrap">Jun 13, 1983</td>
+  <td nowrap="nowrap"><a href="/ci/engine/match/65075.html" class="data-link">ODI # 208</a></td>
+ </tr>
+ <tr class="data1">
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/1.html" class="data-link">England</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/5.html" class="data-link">New Zealand</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/5.html" class="data-link">New Zealand</a></td>
+  <td class="left" nowrap="nowrap">2 wickets</td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/ground/56788.html" class="data-link">Birmingham</a></td>
+  <td nowrap="nowrap">Jun 15, 1983</td>
+  <td nowrap="nowrap"><a href="/ci/engine/match/65076.html" class="data-link">ODI # 209</a></td>
+ </tr>
+ <tr class="data1">
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/6.html" class="data-link">India</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/4.html" class="data-link">West Indies</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/4.html" class="data-link">West Indies</a></td>
+  <td class="left" nowrap="nowrap">66 runs</td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/ground/57127.html" class="data-link">The Oval</a></td>
+  <td nowrap="nowrap">Jun 15, 1983</td>
+  <td nowrap="nowrap"><a href="/ci/engine/match/65077.html" class="data-link">ODI # 210</a></td>
+ </tr>
+ <tr class="data1">
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/7.html" class="data-link">Pakistan</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/8.html" class="data-link">Sri Lanka</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/7.html" class="data-link">Pakistan</a></td>
+  <td class="left" nowrap="nowrap">11 runs</td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/ground/57092.html" class="data-link">Leeds</a></td>
+  <td nowrap="nowrap">Jun 16, 1983</td>
+  <td nowrap="nowrap"><a href="/ci/engine/match/65078.html" class="data-link">ODI # 211</a></td>
+ </tr>
+ <tr class="data1">
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/2.html" class="data-link">Australia</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/9.html" class="data-link">Zimbabwe</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/2.html" class="data-link">Australia</a></td>
+  <td class="left" nowrap="nowrap">32 runs</td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/ground/57309.html" class="data-link">Southampton</a></td>
+  <td nowrap="nowrap">Jun 16, 1983</td>
+  <td nowrap="nowrap"><a href="/ci/engine/match/65079.html" class="data-link">ODI # 212</a></td>
+ </tr>
+ <tr class="data1">
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/1.html" class="data-link">England</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/7.html" class="data-link">Pakistan</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/1.html" class="data-link">England</a></td>
+  <td class="left" nowrap="nowrap">7 wickets</td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/ground/57160.html" class="data-link">Manchester</a></td>
+  <td nowrap="nowrap">Jun 18, 1983</td>
+  <td nowrap="nowrap"><a href="/ci/engine/match/65080.html" class="data-link">ODI # 213</a></td>
+ </tr>
+ <tr class="data1">
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/5.html" class="data-link">New Zealand</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/8.html" class="data-link">Sri Lanka</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/8.html" class="data-link">Sri Lanka</a></td>
+  <td class="left" nowrap="nowrap">3 wickets</td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/ground/56953.html" class="data-link">Derby</a></td>
+  <td nowrap="nowrap">Jun 18, 1983</td>
+  <td nowrap="nowrap"><a href="/ci/engine/match/65081.html" class="data-link">ODI # 214</a></td>
+ </tr>
+ <tr class="data1">
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/2.html" class="data-link">Australia</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/4.html" class="data-link">West Indies</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/4.html" class="data-link">West Indies</a></td>
+  <td class="left" nowrap="nowrap">7 wickets</td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/ground/57129.html" class="data-link">Lord's</a></td>
+  <td nowrap="nowrap">Jun 18, 1983</td>
+  <td nowrap="nowrap"><a href="/ci/engine/match/65082.html" class="data-link">ODI # 215</a></td>
+ </tr>
+ <tr class="data1">
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/6.html" class="data-link">India</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/9.html" class="data-link">Zimbabwe</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/6.html" class="data-link">India</a></td>
+  <td class="left" nowrap="nowrap">31 runs</td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/ground/57367.html" class="data-link">Tunbridge Wells</a></td>
+  <td nowrap="nowrap">Jun 18, 1983</td>
+  <td nowrap="nowrap"><a href="/ci/engine/match/65083.html" class="data-link">ODI # 216</a></td>
+ </tr>
+ <tr class="data1">
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/1.html" class="data-link">England</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/8.html" class="data-link">Sri Lanka</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/1.html" class="data-link">England</a></td>
+  <td class="left" nowrap="nowrap">9 wickets</td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/ground/57092.html" class="data-link">Leeds</a></td>
+  <td nowrap="nowrap">Jun 20, 1983</td>
+  <td nowrap="nowrap"><a href="/ci/engine/match/65084.html" class="data-link">ODI # 217</a></td>
+ </tr>
+ <tr class="data1">
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/5.html" class="data-link">New Zealand</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/7.html" class="data-link">Pakistan</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/7.html" class="data-link">Pakistan</a></td>
+  <td class="left" nowrap="nowrap">11 runs</td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/ground/57219.html" class="data-link">Nottingham</a></td>
+  <td nowrap="nowrap">Jun 20, 1983</td>
+  <td nowrap="nowrap"><a href="/ci/engine/match/65085.html" class="data-link">ODI # 218</a></td>
+ </tr>
+ <tr class="data1">
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/2.html" class="data-link">Australia</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/6.html" class="data-link">India</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/6.html" class="data-link">India</a></td>
+  <td class="left" nowrap="nowrap">118 runs</td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/ground/56887.html" class="data-link">Chelmsford</a></td>
+  <td nowrap="nowrap">Jun 20, 1983</td>
+  <td nowrap="nowrap"><a href="/ci/engine/match/65086.html" class="data-link">ODI # 219</a></td>
+ </tr>
+ <tr class="data1">
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/4.html" class="data-link">West Indies</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/9.html" class="data-link">Zimbabwe</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/4.html" class="data-link">West Indies</a></td>
+  <td class="left" nowrap="nowrap">10 wickets</td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/ground/56788.html" class="data-link">Birmingham</a></td>
+  <td nowrap="nowrap">Jun 20, 1983</td>
+  <td nowrap="nowrap"><a href="/ci/engine/match/65087.html" class="data-link">ODI # 220</a></td>
+ </tr>
+ <tr class="data1">
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/1.html" class="data-link">England</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/6.html" class="data-link">India</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/6.html" class="data-link">India</a></td>
+  <td class="left" nowrap="nowrap">6 wickets</td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/ground/57160.html" class="data-link">Manchester</a></td>
+  <td nowrap="nowrap">Jun 22, 1983</td>
+  <td nowrap="nowrap"><a href="/ci/engine/match/65088.html" class="data-link">ODI # 221</a></td>
+ </tr>
+ <tr class="data1">
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/7.html" class="data-link">Pakistan</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/4.html" class="data-link">West Indies</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/4.html" class="data-link">West Indies</a></td>
+  <td class="left" nowrap="nowrap">8 wickets</td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/ground/57127.html" class="data-link">The Oval</a></td>
+  <td nowrap="nowrap">Jun 22, 1983</td>
+  <td nowrap="nowrap"><a href="/ci/engine/match/65089.html" class="data-link">ODI # 222</a></td>
+ </tr>
+ <tr class="data1">
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/6.html" class="data-link">India</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/4.html" class="data-link">West Indies</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/6.html" class="data-link">India</a></td>
+  <td class="left" nowrap="nowrap">43 runs</td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/ground/57129.html" class="data-link">Lord's</a></td>
+  <td nowrap="nowrap">Jun 25, 1983</td>
+  <td nowrap="nowrap"><a href="/ci/engine/match/65090.html" class="data-link">ODI # 223</a></td>
+ </tr>
+ <tr class="data1">
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/6.html" class="data-link">India</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/7.html" class="data-link">Pakistan</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/6.html" class="data-link">India</a></td>
+  <td class="left" nowrap="nowrap">4 wickets</td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/ground/58136.html" class="data-link">Hyderabad (Deccan)</a></td>
+  <td nowrap="nowrap">Sep 10, 1983</td>
+  <td nowrap="nowrap"><a href="/ci/engine/match/64215.html" class="data-link">ODI # 224</a></td>
+ </tr>
+ <tr class="data1">
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/6.html" class="data-link">India</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/7.html" class="data-link">Pakistan</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/6.html" class="data-link">India</a></td>
+  <td class="left" nowrap="nowrap">4 wickets</td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/ground/58162.html" class="data-link">Jaipur</a></td>
+  <td nowrap="nowrap">Oct 2, 1983</td>
+  <td nowrap="nowrap"><a href="/ci/engine/match/64216.html" class="data-link">ODI # 225</a></td>
+ </tr>
+ <tr class="data1">
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/6.html" class="data-link">India</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/4.html" class="data-link">West Indies</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/4.html" class="data-link">West Indies</a></td>
+  <td class="left" nowrap="nowrap">28 runs</td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/ground/58456.html" class="data-link">Srinagar</a></td>
+  <td nowrap="nowrap">Oct 13, 1983</td>
+  <td nowrap="nowrap"><a href="/ci/engine/match/64217.html" class="data-link">ODI # 226</a></td>
+ </tr>
+ <tr class="data1">
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/6.html" class="data-link">India</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/4.html" class="data-link">West Indies</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/4.html" class="data-link">West Indies</a></td>
+  <td class="left" nowrap="nowrap">4 wickets</td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/ground/58519.html" class="data-link">Vadodara</a></td>
+  <td nowrap="nowrap">Nov 9, 1983</td>
+  <td nowrap="nowrap"><a href="/ci/engine/match/64218.html" class="data-link">ODI # 227</a></td>
+ </tr>
+ <tr class="data1">
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/6.html" class="data-link">India</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/4.html" class="data-link">West Indies</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/4.html" class="data-link">West Indies</a></td>
+  <td class="left" nowrap="nowrap">8 wickets</td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/ground/58151.html" class="data-link">Indore</a></td>
+  <td nowrap="nowrap">Dec 1, 1983</td>
+  <td nowrap="nowrap"><a href="/ci/engine/match/64219.html" class="data-link">ODI # 228</a></td>
+ </tr>
+ <tr class="data1">
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/6.html" class="data-link">India</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/4.html" class="data-link">West Indies</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/4.html" class="data-link">West Indies</a></td>
+  <td class="left" nowrap="nowrap">104 runs</td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/ground/58180.html" class="data-link">Jamshedpur</a></td>
+  <td nowrap="nowrap">Dec 7, 1983</td>
+  <td nowrap="nowrap"><a href="/ci/engine/match/64220.html" class="data-link">ODI # 229</a></td>
+ </tr>
+ <tr class="data1">
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/6.html" class="data-link">India</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/4.html" class="data-link">West Indies</a></td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/team/4.html" class="data-link">West Indies</a></td>
+  <td class="left" nowrap="nowrap">6 wickets</td>
+  <td class="left" nowrap="nowrap"><a href="/ci/content/ground/58114.html" class="data-link">Guwahati</a></td>
+  <td nowrap="nowrap">Dec 17, 1983</td>
+  <td nowrap="nowrap"><a href="/ci/engine/match/64221.html" class="data-link">ODI # 230</a></td>
+ </tr>
+</tbody>
+</table>
+
+<p>
+<a class="QuoteSummary" href="/ci/engine/records/team/match_results.html?class=2;id=1982;type=year">year 1982</a>
+&laquo;
+<b>year 1983</b>
+&raquo;
+<a class="QuoteSummary" href="/ci/engine/records/team/match_results.html?class=2;id=1984;type=year">year 1984</a>
+</p>
+
+<p class="news-body">Matches are credited to the year they start in and no special account is taken of matches that overlap years</p>
+<table class="engineTable" style="margin:0px;">
+ <tr class="data2">
+  <td class="left">
+   <b>Records includes the following current or recent matches:</b>
+  </td>
+ </tr>
+ <tr class="data2">
+  <td class="left">
+India v West Indies at Guwahati, 5th ODI, Dec 17, 1983
+[<a href="/ci/engine/match/64221.html">ODI # 230</a>]<br>
+  </td>
+ </tr>
+ <tr class="data2">
+  <td class="left">
+India v West Indies at Jamshedpur, 4th ODI, Dec 7, 1983
+[<a href="/ci/engine/match/64220.html">ODI # 229</a>]<br>
+  </td>
+ </tr>
+ <tr class="data2">
+  <td class="left">
+India v West Indies at Indore, 3rd ODI, Dec 1, 1983
+[<a href="/ci/engine/match/64219.html">ODI # 228</a>]<br>
+  </td>
+ </tr>
+</table>
+ </div>
+</div>
+<div class="pnl650B"></div>
+
+<script type="text/javascript" language="javascript">
+
+	var omniPageName = "country records";
+	var omniSiteSection1 = "1983 site";
+
+	var omniSiteSection2 = "records";
+
+	var omniCt = "records"; // Content type
+</script>
+   <!-- END 650 AREA -->
+  </div>
+
+
+
+
+
+<div id="ciHomeContentrhs">
+    <div class="pnl320T"></div>
+    <div class="pnl320M">
+        <div class="div300Pad">
+    
+<!-- Cricinfo Records espncricinfo_stats/records;kvcluster=www;kvpt=statistics;kvsite=global;kvobject=1983;kvteams=;kvbrand=ci;tile=3;sz=300x250 -->
+<script language="JavaScript" type="text/javascript">
+document.write('<script language="JavaScript" src="http://ad.doubleclick.net/adj/espncricinfo_stats/records;pos=top;records;kvcluster=www;kvpt=statistics;kvsite=global;kvobject=1983;kvteams=;kvbrand=ci;tile=3;sz=300x250;ord=' + ord + '?" type="text/javascript"><\/script>');
+</script><noscript><a href="http://ad.doubleclick.net/jump/espncricinfo_stats/records;pos=top;kvcluster=www;kvpt=statistics;kvsite=global;kvobject=1983;kvteams=;kvbrand=ci;tile=3;sz=300x250;ord=123456789?" target="_blank"><img src="http://ad.doubleclick.net/ad/espncricinfo_stats/records;pos=top;kvcluster=www;kvpt=statistics;kvsite=global;kvobject=1983;kvteams=;kvbrand=ci;tile=3;sz=300x250;ord=123456789?" width="300" height="250" border="0" alt=""></a></noscript>
+<!-- End ad tag --> 
+            </div>
+    </div>
+<div class="pnl320B"></div><div class="pnl320T"></div>
+<div class="pnl320M">
+ 
+ <div class="div300Pad">
+ 
+  <div class="hpSpncrHead">Sponsored Links</div>
+  <p class="ciHomeSponcerLink"><a href="/ci/content/url/541086.html" class="ciHomeSponcerLink" target="_blank"><b>NEW Cricshop's online Xmas catalogue</b></a></p>
+  <p class="spncrSmry">Get all your cricket gifts - official kit, DVDs & more</p>
+  <div class="divSeparator"></div>
+  <p class="ciHomeSponcerLink"><a href="/ci/content/url/297193.html" class="ciHomeSponcerLink" target="_blank"><b>BET NOW on all current cricket</b></a></p>
+  <p class="spncrSmry">Tournament, match & LIVE fixed odds at bet365</p>
+  <div class="divSeparator"></div>
+ </div>
+
+</div>
+<div class="pnl320B"></div>
+    <div class="pnl320T"></div>
+    <div class="pnl320M">
+        <div class="div300Pad">
+    
+<!-- Cricinfo Records espncricinfo_stats/records;kvcluster=www;kvpt=statistics;kvsite=global;kvobject=1983;kvteams=;kvbrand=ci;tile=4;sz=300x250 -->
+<script language="JavaScript" type="text/javascript">
+document.write('<script language="JavaScript" src="http://ad.doubleclick.net/adj/espncricinfo_stats/records;pos=bottom;records;kvcluster=www;kvpt=statistics;kvsite=global;kvobject=1983;kvteams=;kvbrand=ci;tile=4;sz=300x250;ord=' + ord + '?" type="text/javascript"><\/script>');
+</script><noscript><a href="http://ad.doubleclick.net/jump/espncricinfo_stats/records;pos=bottom;kvcluster=www;kvpt=statistics;kvsite=global;kvobject=1983;kvteams=;kvbrand=ci;tile=4;sz=300x250;ord=123456789?" target="_blank"><img src="http://ad.doubleclick.net/ad/espncricinfo_stats/records;pos=bottom;kvcluster=www;kvpt=statistics;kvsite=global;kvobject=1983;kvteams=;kvbrand=ci;tile=4;sz=300x250;ord=123456789?" width="300" height="250" border="0" alt=""></a></noscript>
+<!-- End ad tag --> 
+            </div>
+    </div>
+<div class="pnl320B"></div>
+</div>
+
+
+ </div>
+<div id="footer2Container">
+  <div class="footercurveleft"></div>
+  <div class="footerContentHolder">
+   <div id="cifooternav">
+    <ul>
+     <li>
+      <a href="/ci/content/site/company/site_map.html" class="maintabs">Sitemap</a><span class="maintabseperator">|</span>
+      <a href="/ci/content/submit/forms/feedback.html" class="maintabs">Feedback</a><span class="maintabseperator">|</span>      
+      <a href="/ci/content/rss/feeds_rss_cricket.html" class="maintabs">RSS</a><span class="maintabseperator">|</span>
+      <!--<a href="/ci/content/page/156050.html" class="maintabs">Contact us</a><span class="maintabseperator">|</span>-->
+      <a href="/ci/content/page/156066.html" class="maintabs">About Us</a><span class="maintabseperator">|</span>
+
+      <a href="http://corporate.disney.go.com/corporate/pp.html" class="maintabs" target="_blank">Privacy Policy</a><span class="maintabseperator">|</span>
+      <a href="/ci/content/site/company/terms_use.html" class="maintabs">Terms of Use</a>
+     </li>
+    </ul>
+    <div class="copyright">
+    &copy; ESPN EMEA Ltd.
+    </div>
+   </div>
+   <div id="ciHomefooterlogos">
+    <ul>
+     <li class="ciespnlogoft"><a href="http://espn.co.uk/" target="_blank" title="ESPN">ESPN</a></li>
+     <li class="ciseplogoft"></li>
+     <li class="cif1logoft"><a href="http://www.espnf1.com/" target="_blank" title="ESPNF1">ESPNF1</a></li>
+     <li class="ciseplogoft"></li>
+     <li class="ciscrumlogoft"><a href="http://www.espnscrum.com" target="_blank" title="ESPN Scrum">Espn Scrum</a></li>
+     <li class="ciseplogoft"></li>
+     <li class="cisoccernetlogoft"><a href="http://soccernet.espn.go.com" target="_blank" title="Soccernet">Soccernet</a></li>
+	 <li class="ciseplogoft"></li>
+     <li class="footytips"><a href="http://footytips.com.au" target="_blank" title="Footytips">Footytips</a></li>
+    </ul>
+   </div>
+  </div>
+  <div class="footercurveright"></div>
+ </div>
+</div>
+<!-- Main page Holder ends-->
+
+
+<script type="text/javascript" language="JavaScript">
+
+	var s_account="wdgespcricinfo";	//(Excludes Wireless)
+
+	//alert(window.location.hostname);
+	//alert(s_account);
+</script>
+
+<script language="JavaScript" type="text/javascript" src="http://www.espncricinfo.com/navigation/cricinfo/omniture/omniture_global.js?1298302153"></script>
+
+<script type="text/javascript" language="JavaScript">
+<!--
+
+//Clearing variable values for link tracking call
+function clrLnkTrckVar(){	
+	//Clear variables
+	s_omni.pageName = "";
+	s_omni.server = "";
+	s_omni.prop1 = "";
+	s_omni.prop3 = "";
+	s_omni.eVar2 = "";
+}
+
+//Link tracking like Video Tab, Video headlines, audio downloads etc.
+function lnkTrackVals(name){
+
+	//alert("Video Tab");
+	clrLnkTrckVar(); //Clear variables
+	
+	var lnkTrck = name;
+	s_omni.prop3 = s_omni.eVar2 = lnkTrck;
+	s_omni.t();
+	//alert(lnkTrck);
+	
+}
+
+/* You may give each page an identifying name, server, and channel on the next lines. */
+s_omni.server = window.location.host; // Server from the Host
+s_omni.prop1 = "cricinfo";
+
+//s_omni.pageName = omniPageName.toLowerCase(); //Omniture Page Name(S)
+
+if(typeof omniSiteSection2 != 'undefined' && typeof omniSiteSubSection3 != 'undefined'){
+	s_omni.pageName = omniSiteSection1.toLowerCase() + ":" + omniSiteSection2.toLowerCase() + ":" + omniSiteSection3.toLowerCase() + ":" + omniPageName.toLowerCase(); 	//Page name
+}else if(typeof omniSiteSection2 != 'undefined'){
+	s_omni.pageName = omniSiteSection1.toLowerCase() + ":" + omniSiteSection2.toLowerCase() + ":" + omniPageName.toLowerCase(); 												//Page name
+}else{
+	s_omni.pageName = omniSiteSection1.toLowerCase() + ":" + omniPageName.toLowerCase(); 																									//Page name
+}
+
+var omniPath = location.pathname;
+//alert(omniPath);
+if(typeof omniSiteSection1 != 'undefined'){
+	s_omni.channel = omniSiteSection1.toLowerCase();
+}
+
+//Error page variables
+if(typeof omniPageType == 'undefined'){
+	s_omni.pageType = "";
+}
+else{
+	s_omni.pageType = "errorPage";
+	s_omni.pageName = "";
+	s_omni.server = "";
+	s_omni.prop1 = "";	
+}
+
+if(typeof omniCt != 'undefined'){
+	s_omni.prop4 = omniCt.toLowerCase();	//Content type
+}
+
+if(typeof omniSiteSection2 != 'undefined' && typeof omniSiteSubSection3 != 'undefined'){
+	s_omni.prop5 = s_omni.channel + ":" +  omniSiteSection2.toLowerCase() + ":"+  omniSiteSubSection3.toLowerCase();
+}else if(typeof omniSiteSection2 != 'undefined'){
+	s_omni.prop5 = s_omni.channel + ":" +  omniSiteSection2.toLowerCase();
+}
+
+if(typeof omniStoryId != 'undefined'){
+	s_omni.prop15 = s_omni.eVar20 = omniStoryId; //Story Object id		
+}
+s_omni.prop16 = s_omni.eVar12 = cqanswer //Country where the page is viewed
+s_omni.prop17 = s_omni.eVar9 = "en" // Language Code
+
+if(typeof omniAuthId != 'undefined'){
+	s_omni.prop23 = s_omni.eVar10 = omniAuthId; //Columnist id		
+}
+
+s_omni.prop25 = s_omni.eVar19 = "cricket"; // Sport
+
+//Prop29 for capturing the Registered users
+var user_name = getCookie('un');
+if (user_name != "");
+{
+	if (user_name == null || undefined)
+	{
+		s_omni.prop29 = "anonymous";
+}
+	else
+	{
+	s_omni.prop29 = "Registered:Logged in Active";
+	}
+}
+
+//Prop32 for capturing Player and Grounds ID for the Most viewed objects
+if(typeof omniMVO != 'undefined'){
+	s_omni.prop32 = omniMVO; //Most viewed objects for Plyers and Grounds		
+}
+
+//Prop42 for capturing Hawkeye tabs
+if(typeof omniHawk != 'undefined'){
+	s_omni.prop33 = omniHawk; //capturing Hawkeye tabs	
+}
+
+s_omni.hier1 = s_omni.pageName;																	//Content Hierarchy
+if(typeof omniSrhType != 'undefined'){
+	s_omni.eVar11 = omniSrhType;
+}
+s_omni.eVar13 = s_omni.prop1 + ":" + s_omni.pageName; 						//Page name
+
+//s_omni.prop42 = omniHawk;
+
+/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+var s_code=s_omni.t();if(s_code)document.write(s_code)//-->
+
+</script>
+<!-- End SiteCatalyst code version: H.14. -->
+
+<script type="text/javascript" src="http://content.dl-rms.com/rms/mother/30883/nodetag.js"></script>
+
+
+
+    
+<script type='text/javascript'>
+    var _sf_async_config={};
+    /** CONFIGURATION START **/
+    _sf_async_config.uid = 26455;
+    _sf_async_config.domain = 'espncricinfo.com';
+    _sf_async_config.useCanonical = true;
+    _sf_async_config.sections = 'Others';
+    /** CONFIGURATION END **/
+    (function(){
+      function loadChartbeat() {
+        window._sf_endpt=(new Date()).getTime();
+        var e = document.createElement('script');
+        e.setAttribute('language', 'javascript');
+        e.setAttribute('type', 'text/javascript');
+        e.setAttribute('src',
+           (('https:' == document.location.protocol) ? 'https://a248.e.akamai.net/chartbeat.download.akamai.com/102508/' : 'http://static.chartbeat.com/') +
+           'js/chartbeat.js');
+        document.body.appendChild(e);
+      }
+      var oldonload = window.onload;
+      window.onload = (typeof window.onload != 'function') ?
+      loadChartbeat : function() { oldonload(); loadChartbeat(); };
+    })();
+</script></body>
+</html>

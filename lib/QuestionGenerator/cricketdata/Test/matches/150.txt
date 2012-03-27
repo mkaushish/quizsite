@@ -1,0 +1,89 @@
+
+Test # 150
+England in South Africa, 1922/23, 3rd Test
+South Africa v England
+Kingsmead, Durban
+18,19,20,22 January 1923 (4-day match)
+
+Result: Match drawn
+Series: 5-match series level 1-1
+
+Toss: England
+Umpires: GJ Thompson (Eng) and W Wainwright (Eng)
+Test debut: GB Street (England).
+
+Close of play:
+ Day 1: England 256/5 (Mead 128*, Mann 11*)
+ Day 2: England 428, South Africa 70/0 (Catterall 33*, Taylor 25*)
+ Day 3: No play
+
+England 1st innings                                             R   M   B  4 6
+CAG Russell           c Ward             b Nupen               34            0
+A Sandham             c Nourse           b Snooke               0          0 0
+FE Woolley            c Nourse           b Hall                 0          0 0
+CP Mead               c Nourse           b Blanckenberg       181 454        0
+AW Carr               c Snooke           b Nupen                7            0
+PGH Fender            c Ling             b Hall                60            0
+*FT Mann              c Snooke           b Hall                84         11 2
+VWC Jupp              st Ward            b Blanckenberg        16            0
+AS Kennedy            c Catterall        b Blanckenberg         8            0
++GB Street            c Nourse           b Hall                 4            0
+GG Macaulay           not out                                   3          0 0
+Extras                (b 16, lb 6, nb 9)                       31
+Total                 (all out, 185.5 overs)                  428
+
+FoW: 1-1 (Sandham), 2-2 (Woolley), 3-63 (Russell), 4-71 (Carr),
+     5-225 (Fender), 6-381 (Mann), 7-397 (Mead), 8-418 (Kennedy),
+     9-421 (Jupp), 10-428 (Street).
+
+Bowling                      O      M      R      W
+Snooke                       9      1     20      1
+Hall                        53.5   23    105      4
+Blanckenberg                48     12    122      3
+Francois                    30     13     55      0
+Nupen                       41      9     86      2
+Nourse                       4      0      9      0
+
+South Africa 1st innings                                        R   M   B  4 6
+RH Catterall          c Woolley          b Kennedy             52            0
+*HW Taylor            c Woolley          b Macaulay            91          9 0
+SJ Snooke             lbw                b Kennedy              8            0
+AW Nourse             c Woolley          b Kennedy             52            0
+WH Brann              c Kennedy          b Fender              16            0
+CM Francois           c Jupp             b Kennedy             72            0
++TA Ward                                 b Jupp                26            0
+JM Blanckenberg                          b Kennedy              8            0
+EP Nupen              st Street          b Jupp                 6            0
+AE Hall               not out                                   1          0 0
+WVS Ling              absent hurt                               -
+Extras                (b 15, lb 8, nb 13)                      36
+Total                 (all out, 134.4 overs)                  368
+
+FoW: 1-110 (Catterall), 2-120 (Snooke), 3-220 (Taylor),
+     4-228 (Nourse), 5-263 (Brann), 6-338 (Ward),
+     7-360 (Francois), 8-362 (Blanckenberg), 9-368 (Nupen).
+
+Bowling                      O      M      R      W
+Kennedy                     39     14     88      5
+Macaulay                    29      8     55      1
+Fender                      29      7     72      1
+Jupp                        22.4    6     70      2
+Woolley                     15      3     47      0
+
+England 2nd innings                                             R   M   B  4 6
++GB Street            not out                                   7            0
+GG Macaulay           c Blanckenberg     b Hall                 2          0 0
+AW Carr               not out                                   2          0 0
+Extras                                                          0
+Total                 (1 wicket, 4 overs)                      11
+
+DNB: CAG Russell, A Sandham, FE Woolley, CP Mead, PGH Fender,
+     *FT Mann, VWC Jupp, AS Kennedy.
+
+FoW: 1-8 (Macaulay).
+
+Bowling                      O      M      R      W
+Snooke                       2      0      9      0
+Hall                         2      1      2      1
+
+<END>

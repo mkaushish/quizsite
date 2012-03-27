@@ -1,0 +1,123 @@
+
+Test # 1033
+India in Australia, 1985/86, 2nd Test
+Australia v India
+Melbourne Cricket Ground
+26,27,28,29,30 December 1985 (5-day match)
+
+Result: Match drawn
+Series: 3-match series level 0-0
+
+Toss: India
+Umpires: RA French and RC Isherwood
+Test debut: SR Waugh (Australia).
+Player of the match: AR Border
+
+Close of play:
+ Day 1: Australia 210/8 (Matthews 54*, Reid 0*)
+ Day 2: Australia 262, India 187/3 (Vengsarkar 38*, Azharuddin 5*)
+ Day 3: India 431/9 (Sivaramakrishnan 6*, Yadav 2*)
+ Day 4: India 445, Australia 228/8 (Border 98*, Reid 11*)
+
+Australia 1st innings                                           R   M   B  4 6
++WB Phillips                             b Yadav                7  77  65  0 0
+DC Boon               lbw                b Shastri             14  57  46  1 0
+GR Marsh              c Sivaramakrishnan b Yadav               30 163 131  3 0
+*AR Border                           c & b Sivaramakrishnan    11  17  12  1 1
+DW Hookes                                b Shastri             42  66  67  6 0
+SR Waugh              c Kapil Dev        b Sivaramakrishnan    13  32  32  2 0
+GRJ Matthews          not out                                 100 195 152  9 2
+RJ Bright                                b Shastri             28  86  76  2 0
+CJ McDermott          c Kapil Dev        b Shastri              1   4   2  0 0
+BA Reid               c Srikkanth        b Kapil Dev            1  29  21  0 0
+DR Gilbert            c Kirmani          b Yadav                4  49  19  0 0
+Extras                (b 5, lb 6)                              11
+Total                 (all out, 103.5 overs)                  262
+
+FoW: 1-22 (Boon), 2-26 (Phillips), 3-41 (Border), 4-90 (Hookes),
+     5-109 (Waugh), 6-127 (Marsh), 7-193 (Bright),
+     8-195 (McDermott), 9-216 (Reid), 10-262 (Gilbert).
+
+Bowling                      O      M      R      W
+Kapil Dev                   23      6     38      1
+Binny                        3      0     11      0
+Shastri                     37     13     87      4
+Yadav                       27.5   10     64      3
+Sivaramakrishnan            13      2     51      2
+
+India 1st innings                                               R   M   B  4 6
+SM Gavaskar                              b Gilbert              6  17   5  0 0
+K Srikkanth           lbw                b Gilbert             86 105  89 16 0
+M Amarnath            c Phillips         b Reid                45 163 128  5 0
+DB Vengsarkar                        c & b Matthews            75 320 239  6 0
+M Azharuddin                             b Matthews            37 145 111  2 0
+RJ Shastri            c Phillips         b Waugh               49 230 173  1 0
+*N Kapil Dev          c Hookes           b Reid                55  78  76  6 0
+RMH Binny             c Matthews         b Reid                 0   9   8  0 0
++SMH Kirmani          c Phillips         b Waugh               35  59  45  4 0
+L Sivaramakrishnan    c Phillips         b Reid                15  38  28  2 0
+NS Yadav              not out                                   6  30  27  1 0
+Extras                (b 4, lb 15, nb 17)                      36
+Total                 (all out, 148.2 overs)                  445
+
+FoW: 1-15 (Gavaskar), 2-116 (Srikkanth), 3-172 (Amarnath),
+     4-246 (Azharuddin), 5-291 (Vengsarkar), 6-370 (Kapil Dev),
+     7-372 (Binny), 8-420 (Shastri), 9-425 (Kirmani),
+     10-445 (Sivaramakrishnan).
+
+Bowling                      O      M      R      W
+McDermott                   15      5     52      0
+Gilbert                     22      1     81      2
+Reid                        38.2   11    100      4
+Bright                      31      8     76      0
+Matthews                    31      7     81      2
+Waugh                       11      5     36      2
+
+Australia 2nd innings                                           R   M   B  4 6
+GR Marsh              c Sivaramakrishnan b Shastri             19  66  40  3 0
+DC Boon                              c & b Kapil Dev           19  43  43  2 0
+*AR Border            st Kirmani         b Yadav              163 410 358 16 0
+DW Hookes             c Srikkanth        b Shastri              0   1   1  0 0
+SR Waugh                                 b Shastri              5  31  20  1 0
+GRJ Matthews          c Azharuddin       b Sivaramakrishnan    16  71  65  1 0
++WB Phillips          c Srikkanth        b Yadav               13  48  42  2 0
+RJ Bright             lbw                b Kapil Dev           20  71  78  3 0
+CJ McDermott                         c & b Shastri              2   7   9  0 0
+BA Reid               c Sivaramakrishnan b Yadav               13  36  24  0 0
+DR Gilbert            not out                                  10 113  65  1 0
+Extras                (b 11, lb 16, nb 1)                      28
+Total                 (all out, 123.5 overs)                  308
+
+FoW: 1-32 (Boon), 2-54 (Marsh), 3-54 (Hookes), 4-84 (Waugh),
+     5-126 (Matthews), 6-161 (Phillips), 7-202 (Bright),
+     8-205 (McDermott), 9-231 (Reid), 10-308 (Border).
+
+Bowling                      O      M      R      W
+Kapil Dev                   22      7     53      2
+Amarnath                     3      0      9      0
+Shastri                     47     13     92      4
+Yadav                       38.5   15     84      3
+Sivaramakrishnan            13      1     43      1
+
+India 2nd innings (target: 126 runs)                            R   M   B  4 6
+SM Gavaskar                              b Reid                 8  68  54  0 0
+K Srikkanth           c Bright           b Reid                38  94  61  3 0
+M Amarnath            not out                                   3  40  27  0 0
+DB Vengsarkar         not out                                   1  14  12  0 0
+Extras                (b 4, lb 1, nb 4)                         9
+Total                 (2 wickets, 25 overs)                    59
+
+DNB: M Azharuddin, RJ Shastri, *N Kapil Dev, RMH Binny,
+     +SMH Kirmani, L Sivaramakrishnan, NS Yadav.
+
+FoW: 1-39 (Gavaskar), 2-57 (Srikkanth).
+
+Bowling                      O      M      R      W
+McDermott                    6      1     17      0
+Gilbert                      4      0      9      0
+Reid                         8      1     23      2
+Bright                       7      4      5      0
+
+*** 12th Men: MG Hughes (Australia).
+
+<END>

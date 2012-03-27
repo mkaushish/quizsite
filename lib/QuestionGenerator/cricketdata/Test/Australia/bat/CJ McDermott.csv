@@ -1,0 +1,91 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+1005, 1984-12-22, 2, 10, West Indies, , Marshall, 0, 3, 2, 0, 0
+1006, 1985-12-30, 1, 10, West Indies, c Greenidge, Walsh, 4, 9, 8, 0, 0
+1017, 1985-06-13, 1, 8, England, , Botham, 18, 52, 38, 4, 0
+1017, 1985-06-13, 3, 10, England, c Gooch, Emburey, 6, 19, 20, 0, 0
+1018, 1985-06-27, 2, 10, England, run out, , 9, 12, 11, 0, 0
+1019, 1985-07-11, 2, 11, England, not out, , 0, 1, 1, 0, 0
+1020, 1985-08-01, 1, 10, England, lbw, Emburey, 0, 1, 1, 0, 0
+1021, 1985-08-15, 1, 9, England, c Gower, Ellison, 35, 69, 51, 4, 0
+1021, 1985-08-15, 3, 10, England, c Edmonds, Botham, 8, 23, 22, 1, 0
+1022, 1985-08-29, 2, 10, England, run out, , 25, 34, 23, 2, 1
+1022, 1985-08-29, 3, 10, England, c Botham, Ellison, 2, 3, 4, 0, 0
+1029, 1985-11-08, 1, 9, New Zealand, c Coney, Hadlee, 9, 21, 21, 1, 0
+1029, 1985-11-08, 3, 8, New Zealand,                c &, Hadlee, 5, 33, 22, 0, 0
+1031, 1985-11-30, 1, 9, New Zealand, , Chatfield, 36, 66, 56, 1, 0
+1031, 1985-11-30, 3, 9, New Zealand, lbw, Bracewell, 11, 39, 21, 1, 0
+1032, 1985-12-13, 1, 9, India, lbw, Kapil Dev, 0, 4, 1, 0, 0
+1033, 1985-12-26, 1, 9, India, c Kapil Dev, Shastri, 1, 4, 2, 0, 0
+1033, 1985-12-26, 3, 9, India,                c &, Shastri, 2, 7, 9, 0, 0
+1035, 1986-02-21, 1, 9, New Zealand, , Hadlee, 2, 24, 18, 0, 0
+1040, 1986-03-13, 1, 10, New Zealand, lbw, Bracewell, 9, 18, 19, 2, 0
+1040, 1986-03-13, 3, 10, New Zealand, , Bracewell, 6, 29, 25, 1, 0
+1062, 1986-12-26, 1, 9, England, c Richards, Botham, 0, 7, 4, 0, 0
+1062, 1986-12-26, 3, 9, England, , Emburey, 1, 16, 14, 0, 0
+1082, 1987-12-04, 2, 9, New Zealand, c Wright, Morrison, 22, 63, 43, 3, 0
+1084, 1987-12-11, 2, 9, New Zealand, lbw, Hadlee, 18, 42, 40, 1, 0
+1087, 1987-12-26, 2, 10, New Zealand, , Morrison, 33, 81, 67, 5, 0
+1087, 1987-12-26, 4, 10, New Zealand, not out, , 10, 49, 32, 0, 0
+1090, 1988-01-29, 2, 11, England, c Foster, Dilley, 1, 11, 3, 0, 0
+1092, 1988-02-12, 1, 10, Sri Lanka, c de Alwis, Amalean, 4, 17, 5, 0, 0
+1108, 1988-11-18, 1, 9, West Indies, c Logie, Walsh, 2, 6, 10, 0, 0
+1108, 1988-11-18, 3, 9, West Indies, not out, , 32, 90, 49, 4, 0
+1112, 1988-12-24, 2, 9, West Indies, c Marshall, Patterson, 28, 67, 44, 1, 0
+1112, 1988-12-24, 4, 9, West Indies, c sub (KLT Arthurton), Patterson, 0, 2, 2, 0, 0
+1161, 1991-01-25, 1, 9, England, not out, , 42, 165, 99, 0, 0
+1163, 1991-02-01, 2, 9, England, , Tufnell, 25, 73, 46, 3, 0
+1166, 1991-03-01, 2, 9, West Indies, , Patterson, 1, 17, 15, 0, 0
+1167, 1991-03-23, 1, 9, West Indies, lbw, Patterson, 1, 10, 7, 0, 0
+1167, 1991-03-23, 3, 9, West Indies, c Dujon, Patterson, 4, 40, 22, 0, 0
+1168, 1991-04-05, 1, 9, West Indies, c Richardson, Patterson, 0, 3, 3, 0, 0
+1169, 1991-04-19, 2, 10, West Indies, , Walsh, 2, 11, 10, 0, 0
+1169, 1991-04-19, 4, 10, West Indies, c sub (RIC Holder), Walsh, 2, 10, 9, 0, 0
+1170, 1991-04-27, 1, 10, West Indies, c Dujon, Walsh, 7, 31, 28, 0, 0
+1170, 1991-04-27, 3, 10, West Indies, c Dujon, Marshall, 1, 13, 11, 0, 0
+1177, 1991-11-29, 2, 10, India, c Azharuddin, Kapil Dev, 8, 14, 11, 0, 0
+1180, 1991-12-26, 2, 10, India, not out, , 16, 41, 29, 2, 0
+1181, 1992-01-02, 1, 9, India, , Prabhakar, 1, 14, 7, 0, 0
+1181, 1992-01-02, 3, 9, India, c Vengsarkar, Shastri, 0, 10, 5, 0, 0
+1184, 1992-01-25, 1, 10, India, , Raju, 0, 14, 10, 0, 0
+1184, 1992-01-25, 3, 10, India, , Raju, 21, 40, 39, 3, 0
+1186, 1992-02-01, 1, 10, India, c Srikkanth, Prabhakar, 31, 37, 31, 4, 1
+1194, 1992-08-17, 1, 9, Sri Lanka, c Ranatunga, Ramanayake, 22, 39, 28, 3, 1
+1194, 1992-08-17, 3, 9, Sri Lanka, lbw, Ramanayake, 40, 63, 48, 5, 0
+1195, 1992-08-28, 1, 9, Sri Lanka, lbw, Muralitharan, 9, 25, 25, 1, 0
+1196, 1992-09-08, 1, 9, Sri Lanka, c Tillakaratne, Hathurusingha, 10, 37, 27, 0, 0
+1202, 1992-11-27, 1, 10, West Indies, c Hooper, Patterson, 3, 5, 6, 0, 0
+1202, 1992-11-27, 3, 10, West Indies, not out, , 16, 38, 25, 0, 0
+1205, 1992-12-26, 1, 10, West Indies, , Walsh, 17, 27, 18, 0, 0
+1205, 1992-12-26, 3, 10, West Indies, c Arthurton, Simmons, 4, 13, 10, 0, 0
+1210, 1993-01-23, 2, 11, West Indies, , Ambrose, 14, 15, 18, 1, 0
+1210, 1993-01-23, 4, 11, West Indies, c Murray, Walsh, 18, 88, 57, 0, 0
+1212, 1993-01-30, 1, 11, West Indies, not out, , 2, 11, 7, 0, 0
+1212, 1993-01-30, 3, 11, West Indies, c Lara, Bishop, 8, 8, 7, 2, 0
+1215, 1993-02-25, 1, 11, New Zealand, c Jones, Cairns, 4, 4, 4, 1, 0
+1216, 1993-03-04, 2, 11, New Zealand, not out, , 7, 16, 4, 0, 1
+1217, 1993-03-12, 1, 11, New Zealand, , Morrison, 6, 9, 8, 1, 0
+1217, 1993-03-12, 3, 11, New Zealand, c Wright, Watson, 10, 8, 7, 2, 0
+1223, 1993-06-03, 1, 11, England, run out, , 8, 30, 17, 0, 0
+1235, 1993-11-12, 1, 10, New Zealand, , Su'a, 35, 58, 33, 4, 1
+1243, 1994-01-02, 2, 9, South Africa, c Cronje, de Villiers, 6, 20, 11, 1, 0
+1243, 1994-01-02, 4, 10, South Africa, not out, , 29, 62, 38, 4, 0
+1252, 1994-03-04, 2, 10, South Africa, lbw, Donald, 31, 25, 23, 4, 1
+1252, 1994-03-04, 4, 10, South Africa, , McMillan, 10, 2, 4, 2, 0
+1253, 1994-03-17, 2, 10, South Africa, c PN Kirsten, Matthews, 1, 9, 10, 0, 0
+1256, 1994-03-25, 1, 10, South Africa, c Donald, de Villiers, 6, 22, 12, 1, 0
+1269, 1994-10-05, 1, 10, Pakistan, not out, , 9, 7, 5, 2, 0
+1273, 1994-11-01, 2, 9, Pakistan,                c &, Mushtaq Ahmed, 29, 43, 31, 6, 0
+1275, 1994-11-25, 1, 9, England, c Gough, McCague, 2, 20, 7, 0, 0
+1275, 1994-11-25, 3, 9, England, c Rhodes, Gough, 6, 20, 19, 0, 0
+1279, 1994-12-24, 1, 10, England, , Gough, 0, 2, 3, 0, 0
+1279, 1994-12-24, 3, 9, England, not out, , 2, 6, 7, 0, 0
+1281, 1995-01-01, 2, 10, England, not out, , 21, 61, 30, 2, 0
+1284, 1995-01-26, 2, 11, England, c Crawley, Fraser, 5, 6, 7, 1, 0
+1284, 1995-01-26, 4, 9, England, c Rhodes, Lewis, 0, 2, 4, 0, 0
+1287, 1995-02-03, 1, 11, England, run out (Lewis/Gooch), , 6, 25, 15, 0, 0
+1311, 1995-11-09, 1, 10, Pakistan, , Waqar Younis, 8, 13, 8, 1, 0
+1313, 1995-11-17, 1, 10, Pakistan, , Waqar Younis, 0, 6, 3, 0, 0
+1313, 1995-11-17, 3, 9, Pakistan, c Wasim Akram, Mushtaq Ahmed, 20, 60, 40, 2, 0
+1314, 1995-11-30, 2, 10, Pakistan, , Wasim Akram, 0, 1, 2, 0, 0
+1314, 1995-11-30, 4, 9, Pakistan, , Waqar Younis, 0, 2, 2, 0, 0
+1324, 1996-01-25, 1, 10, Sri Lanka, not out, , 15, 27, 16, 1, 0

@@ -1,0 +1,106 @@
+
+Test # 490
+England in West Indies, 1959/60, 4th Test
+West Indies v England
+Bourda, Georgetown, British Guiana
+9,10,11,12,14,15 March 1960 (6-day match)
+
+Result: Match drawn
+Series: England leads the 5-match series 1-0
+
+Toss: England
+Umpires: FCP Kippins and EN Lee Kow
+
+Close of play:
+ Day 1: England 152/2 (Cowdrey 65*, Barrington 22*)
+ Day 2: England 295, West Indies 32/0 (Hunte 22*, McMorris 9*)
+ Day 3: West Indies 139/2 (Kanhai 31*, Sobers 33*)
+ Day 4: West Indies 332/4 (Sobers 142*, Worrell 38*)
+ Day 5: West Indies 402/8d, England 110/2 (Dexter 30*)
+
+England 1st innings                                             R   M   B  4 6
+G Pullar              c Alexander        b Hall                33            0
+*MC Cowdrey           c Alexander        b Hall                65            0
+R Subba Row           c Alexander        b Sobers              27            0
+KF Barrington         c Walcott          b Sobers              27            0
+ER Dexter             c Hunte            b Hall                39            0
+MJK Smith                                b Hall                 0       2  0 0
+R Illingworth                            b Sobers               4            0
++R Swetman            lbw                b Watson               4            0
+DA Allen              c Alexander        b Hall                55            0
+FS Trueman                               b Hall                 6            0
+JB Statham            not out                                  20            0
+Extras                (b 5, lb 2, w 2, nb 6)                   15
+Total                 (all out, 119.2 overs)                  295
+
+FoW: 1-73 (Pullar), 2-121 (Subba Row), 3-152 (Cowdrey),
+     4-161 (Smith), 5-169 (Illingworth), 6-175 (Swetman),
+     7-219 (Dexter), 8-258 (Barrington), 9-268 (Trueman),
+     10-295 (Allen).
+
+Bowling                      O      M      R      W
+Hall                        30.2    8     90      6
+Watson                      20      2     56      1
+Worrell                     16      9     22      0
+Scarlett                    22     11     24      0
+Singh                       12      4     29      0
+Sobers                      19      1     59      3
+
+West Indies 1st innings                                         R   M   B  4 6
+CC Hunte              c Trueman          b Allen               39 120        0
+EDAS McMorris         c Swetman          b Statham             35            0
+RB Kanhai             c Dexter           b Trueman             55            0
+GS Sobers             st Swetman         b Allen              145 420     18 1
+CL Walcott                               b Trueman              9            0
+FMM Worrell                              b Allen               38            0
+*+FCM Alexander       run out                                  33            0
+RO Scarlett           not out                                  29            0
+CK Singh                                 b Trueman              0          0 0
+WW Hall               not out                                   1          0 0
+Extras                (b 4, lb 12, nb 2)                       18
+Total                 (8 wickets dec, 172 overs)              402
+
+DNB: CD Watson.
+
+FoW: 1-67 (Hunte), 2-77 (McMorris), 3-192 (Kanhai),
+     4-212 (Walcott), 5-333 (Worrell), 6-338 (Sobers),
+     7-393 (Alexander), 8-398 (Singh).
+
+Bowling                      O      M      R      W
+Trueman                     40      6    116      3
+Statham                     36      8     79      1
+Illingworth                 43     11     72      0
+Barrington                   6      2     22      0
+Allen                       42     11     75      3
+Dexter                       5      0     20      0
+
+England 2nd innings                                             R   M   B  4 6
+G Pullar              lbw                b Worrell             47            0
+*MC Cowdrey           st Alexander       b Singh               27            0
+ER Dexter             c Worrell          b Walcott            110            0
+R Subba Row           lbw                b Worrell            100            0
+MJK Smith             c Scarlett         b Sobers              23            0
+R Illingworth         c Kanhai           b Worrell              9            0
+KF Barrington         c Walcott          b Worrell              0          0 0
+DA Allen              not out                                   1          0 0
++R Swetman            c Hall             b Singh                3          0 0
+Extras                (b 6, lb 4, nb 4)                        14
+Total                 (8 wickets, 149.2 overs)                334
+
+DNB: FS Trueman, JB Statham.
+
+FoW: 1-40 (Cowdrey), 2-110 (Pullar), 3-258 (Dexter),
+     4-320 (Smith), 5-322 (Subba Row), 6-322 (Barrington),
+     7-331 (Illingworth), 8-334 (Swetman).
+
+Bowling                      O      M      R      W
+Hall                        18      1     79      0
+Worrell                     31     12     49      4
+Scarlett                    38     13     63      0
+Singh                       41.2   22     50      2
+Sobers                      12      1     36      1
+Walcott                      9      0     43      1
+
+*** KF Barrington (1) retired hurt on 22* from 161/3 to 219/7
+
+<END>

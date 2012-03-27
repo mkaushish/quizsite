@@ -1,0 +1,139 @@
+
+Test # 679
+The Ashes, 1970/71, 7th Test
+Australia v England
+Sydney Cricket Ground
+12,13,14,16,17 February 1971 (6-day match)
+
+Result: England won by 62 runs
+Series: England wins the 7-match series 2-0 (1 abandoned)
+
+Toss: Australia
+Umpires: TF Brooks and LP Rowan
+Balls per over: 8
+Test debuts: AR Dell, KH Eastwood (Australia).
+
+Close of play:
+ Day 1: England 184, Australia 13/2 (Marsh 2*, IM Chappell 0*)
+ Day 2: Australia 235/7 (GS Chappell 62*, Lillee 6*)
+ Day 3: Australia 264, England 229/4 (D'Oliveira 37*, Illingworth 25*)
+ Day 4: England 302, Australia 123/5 (GS Chappell 19*, Marsh 12*)
+
+England 1st innings                                             R   M   B  4 6
+JH Edrich             c GS Chappell      b Dell                30 150 130  1 0
+BW Luckhurst          c Redpath          b Walters              0  37  29  0 0
+KWR Fletcher          c Stackpole        b O'Keeffe            33 121 122  3 0
+JH Hampshire          c Marsh            b Lillee              10  51  40  1 0
+BL D'Oliveira                            b Dell                 1   5   9  0 0
+*R Illingworth                           b Jenner              42 135 128  6 0
++APE Knott            c Stackpole        b O'Keeffe            27  70  83  1 0
+JA Snow                                  b Jenner               7  17  22  0 0
+P Lever               c Jenner           b O'Keeffe             4  13  15  1 0
+DL Underwood          not out                                   8  17  12  1 0
+RGD Willis                               b Jenner              11  12  21  1 0
+Extras                (b 4, lb 4, w 1, nb 2)                   11
+Total                 (all out, 76 overs)                     184
+
+FoW: 1-5 (Luckhurst), 2-60 (Edrich), 3-68 (Fletcher),
+     4-69 (D'Oliveira), 5-98 (Hampshire), 6-145 (Knott),
+     7-156 (Snow), 8-165 (Illingworth), 9-165 (Lever),
+     10-184 (Willis).
+
+Bowling                      O      M      R      W
+Lillee                      13      5     32      1
+Dell                        16      8     32      2
+Walters                      4      0     10      1
+GS Chappell                  3      0      9      0
+Jenner                      16      3     42      3
+O'Keeffe                    24      8     48      3
+
+Australia 1st innings                                           R   M   B  4 6
+KH Eastwood           c Knott            b Lever                5  17  19  0 0
+KR Stackpole                             b Snow                 6  26  16  1 0
++RW Marsh             c Willis           b Lever                4  38  36  0 0
+*IM Chappell                             b Willis              25  88  62  1 0
+IR Redpath                           c & b Underwood           59 198 155  2 0
+KD Walters            st Knott           b Underwood           42 103  82  1 0
+GS Chappell                              b Willis              65 183 186  6 0
+KJ O'Keeffe           c Knott            b Illingworth          3  37  28  0 0
+TJ Jenner                                b Lever               30  75  62  3 0
+DK Lillee             c Knott            b Willis               6  54  24  0 0
+AR Dell               not out                                   3  22  12  0 0
+Extras                (lb 5, w 1, nb 10)                       16
+Total                 (all out, 83.6 overs)                   264
+
+FoW: 1-11 (Eastwood), 2-13 (Stackpole), 3-32 (Marsh),
+     4-66 (IM Chappell), 5-147 (Walters), 6-162 (Redpath),
+     7-178 (O'Keeffe), 8-235 (Lillee), 9-239 (GS Chappell),
+     10-264 (Jenner).
+
+Bowling                      O      M      R      W
+Snow                        18      2     68      1
+Lever                       14.6    3     43      3
+D'Oliveira                  12      2     24      0
+Willis                      12      1     58      3
+Underwood                   16      3     39      2
+Illingworth                 11      3     16      1
+
+England 2nd innings                                             R   M   B  4 6
+JH Edrich             c IM Chappell      b O'Keeffe            57 210 142  3 0
+BW Luckhurst          c Lillee           b O'Keeffe            59 119 129  7 0
+KWR Fletcher          c Stackpole        b Eastwood            20  69  82  1 0
+JH Hampshire          c IM Chappell      b O'Keeffe            24  28  41  4 0
+BL D'Oliveira         c IM Chappell      b Lillee              47 145 133  4 0
+*R Illingworth        lbw                b Lillee              29 106  92  2 0
++APE Knott                               b Dell                15  70  59  2 0
+JA Snow               c Stackpole        b Dell                20  94  86  1 0
+P Lever               c Redpath          b Jenner              17  39  35  2 0
+DL Underwood          c Marsh            b Dell                 0   4   5  0 0
+RGD Willis            not out                                   2   8  10  0 0
+Extras                (b 3, lb 3, nb 6)                        12
+Total                 (all out, 100.7 overs)                  302
+
+FoW: 1-94 (Luckhurst), 2-130 (Fletcher), 3-158 (Edrich),
+     4-165 (Hampshire), 5-234 (Illingworth), 6-251 (D'Oliveira),
+     7-276 (Knott), 8-298 (Lever), 9-299 (Underwood),
+     10-302 (Snow).
+
+Bowling                      O      M      R      W
+Lillee                      14      0     43      2
+Dell                        26.7    3     65      3
+Walters                      5      0     18      0
+Jenner                      21      5     39      1
+O'Keeffe                    26      8     96      3
+Eastwood                     5      0     21      1
+Stackpole                    3      1      8      0
+
+Australia 2nd innings (target: 223 runs)                        R   M   B  4 6
+KH Eastwood                              b Snow                 0   4   6  0 0
+KR Stackpole                             b Illingworth         67 159 112  6 2
+*IM Chappell          c Knott            b Lever                6  28  15  1 0
+IR Redpath            c Hampshire        b Illingworth         14  79  66  0 0
+KD Walters            c D'Oliveira       b Willis               1  15  15  0 0
+GS Chappell           st Knott           b Illingworth         30 135 127  3 0
++RW Marsh                                b Underwood           16  79  63  0 0
+KJ O'Keeffe           c sub (K Shuttleworth) b D'Oliveira      12  52  46  2 0
+TJ Jenner             c Fletcher         b Underwood            4  46  43  0 0
+DK Lillee             c Hampshire        b D'Oliveira           0   1   1  0 0
+AR Dell               not out                                   3  12  14  0 0
+Extras                (b 2, nb 5)                               7
+Total                 (all out, 62.6 overs)                   160
+
+FoW: 1-0 (Eastwood), 2-22 (IM Chappell), 3-71 (Redpath),
+     4-82 (Walters), 5-96 (Stackpole), 6-131 (Marsh),
+     7-142 (GS Chappell), 8-154 (O'Keeffe), 9-154 (Lillee),
+     10-160 (Jenner).
+
+Bowling                      O      M      R      W
+Snow                         2      1      7      1
+Lever                       12      2     23      1
+D'Oliveira                   5      1     15      2
+Willis                       9      1     32      1
+Underwood                   13.6    5     28      2
+Illingworth                 20      7     39      3
+Fletcher                     1      0      9      0
+
+*** TJ Jenner (1) retired hurt on 8* from 195/7 to 235/8 (hit on head by a
+    short ball from Snow)
+
+<END>

@@ -1,0 +1,124 @@
+
+Test # 260
+New Zealand in England, 1937, 1st Test
+England v New Zealand
+Lord's, London
+26,28,29 June 1937 (3-day match)
+
+Result: Match drawn
+Series: 3-match series level 0-0
+
+Toss: England
+Umpires: F Chester and FI Walden
+Test debuts: L Hutton, JH Parks (England); J Cowie, MP Donnelly, WA Hadlee,
+ DAR Moloney, EWT Tindill, WM Wallace (New Zealand).
+
+Close of play:
+ Day 1: England 370/7 (Paynter 42*, Voce 12*)
+ Day 2: England 424, New Zealand 282/9 (Roberts 58*, Cowie 1*)
+
+England 1st innings                                             R   M   B  4 6
+JH Parks                                 b Cowie               22            0
+L Hutton                                 b Cowie                0  30      0 0
+J Hardstaff jnr       c Moloney          b Roberts            114            0
+WR Hammond            c Roberts          b Vivian             140 210     14 1
+E Paynter             c Dunning          b Roberts             74            0
+CJ Barnett                               b Cowie                5            0
++LEG Ames                                b Vivian               5            0
+*RWV Robins           c Tindill          b Roberts             18            0
+W Voce                c Tindill          b Cowie               27            0
+H Verity              c Cowie            b Roberts              3          0 0
+AR Gover              not out                                   2          0 0
+Extras                (b 4, lb 9, w 1)                         14
+Total                 (all out, 155.3 overs)                  424
+
+FoW: 1-13 (Hutton), 2-31 (Parks), 3-276 (Hammond),
+     4-284 (Hardstaff), 5-302 (Barnett), 6-307 (Ames),
+     7-339 (Robins), 8-402 (Voce), 9-415 (Verity),
+     10-424 (Paynter).
+
+Bowling                      O      M      R      W
+Cowie                       41     10    118      4
+Roberts                     43.3   11    101      4
+Dunning                     20      3     64      0
+Vivian                      46     10    106      2
+Moloney                      2      1      9      0
+Page                         3      0     12      0
+
+New Zealand 1st innings                                         R   M   B  4 6
+JL Kerr               c Ames             b Robins              31 135        0
+HG Vivian             lbw                b Gover                5            0
+WA Hadlee             c Verity           b Voce                34            0
+*ML Page              c Paynter          b Robins               9            0
+WM Wallace            lbw                b Parks               52          7 2
+MP Donnelly           lbw                b Parks                0          0 0
+DAR Moloney                          c & b Verity              64            0
++EWT Tindill          c Hammond          b Robins               8            0
+AW Roberts            not out                                  66            0
+JA Dunning                               b Gover                0          0 0
+J Cowie               lbw                b Voce                 2          0 0
+Extras                (b 4, lb 18, nb 2)                       24
+Total                 (all out, 111.2 overs)                  295
+
+FoW: 1-9 (Vivian), 2-46 (Hadlee), 3-66 (Page), 4-131 (Kerr),
+     5-131 (Donnelly), 6-147 (Wallace), 7-176 (Tindill),
+     8-280 (Moloney), 9-281 (Dunning), 10-295 (Cowie).
+
+Bowling                      O      M      R      W
+Gover                       22      8     49      2
+Voce                        24.2    2     74      2
+Hammond                      6      2     12      0
+Robins                      21      5     58      3
+Verity                      25     13     48      1
+Parks                       11      3     26      2
+Hutton                       2      1      4      0
+
+England 2nd innings                                             R   M   B  4 6
+JH Parks                                 b Cowie                7            0
+L Hutton              c Vivian           b Cowie                1          0 0
+J Hardstaff jnr       c Tindill          b Roberts             64            0
+CJ Barnett            not out                                  83 100     14 0
++LEG Ames             c sub              b Roberts             20            0
+*RWV Robins           not out                                  38            0
+Extras                (b 5, lb 8)                              13
+Total                 (4 wickets dec, 42 overs)               226
+
+DNB: WR Hammond, E Paynter, W Voce, H Verity, AR Gover.
+
+FoW: 1-8 (Hutton), 2-19 (Parks), 3-123 (Hardstaff), 4-163 (Ames).
+
+Bowling                      O      M      R      W
+Cowie                       15      2     49      2
+Roberts                     14      3     73      2
+Dunning                      9      0     60      0
+Vivian                       4      0     31      0
+
+New Zealand 2nd innings (target: 356 runs)                      R   M   B  4 6
+HG Vivian             c Verity           b Voce                11            0
+WA Hadlee                                b Voce                 3          0 0
+DAR Moloney           run out                                   0          0 0
+*ML Page                             c & b Robins              13            0
+WM Wallace            lbw                b Parks               56  90      9 0
+AW Roberts            c sub              b Gover               17            0
+JL Kerr               not out                                  38 105      8 0
++EWT Tindill          lbw                b Verity               3          0 0
+MP Donnelly           c Ames             b Voce                21            0
+Extras                (b 4, lb 8, w 1)                         13
+Total                 (8 wickets, 76.5 overs)                 175
+
+DNB: JA Dunning, J Cowie.
+
+FoW: 1-15 (Vivian), 2-15 (Moloney), 3-15 (Hadlee), 4-85 (Page),
+     5-87 (Wallace), 6-143 (Roberts), 7-146 (Tindill),
+     8-175 (Donnelly).
+
+Bowling                      O      M      R      W
+Gover                       18      7     27      1
+Voce                        18.5    8     41      3
+Robins                      16      3     51      1
+Verity                      14      7     33      1
+Parks                       10      6     10      1
+
+*** JL Kerr (1) retired hurt on 6* from 20/1 to 66/3
+
+<END>

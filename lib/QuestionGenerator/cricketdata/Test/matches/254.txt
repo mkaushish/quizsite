@@ -1,0 +1,121 @@
+
+Test # 254
+India in England, 1936, 3rd Test
+England v India
+Kennington Oval, London
+15,17,18 August 1936 (3-day match)
+
+Result: England won by 9 wickets
+Series: England wins the 3-match series 2-0
+
+Toss: England
+Umpires: F Chester and FI Walden
+Test debut: M Baqa Jilani (India).
+
+Close of play:
+ Day 1: England 471/8 (Fishlock 19*, Voce 1*)
+ Day 2: England 471/8d, India 222, India 156/3 (Dilawar Hussain 30*, Baqa Jilani 12*)
+
+England 1st innings                                             R   M   B  4 6
+CJ Barnett            lbw                b Nayudu              43            0
+AE Fagg               c Dilawar Hussain  b Amar Singh           8            0
+WR Hammond                               b Nissar             217 290     30 0
+M Leyland                                b Nissar              26            0
+TS Worthington                           b Nissar             128         19 0
+LB Fishlock           not out                                  19            0
+*GOB Allen            c Dilawar Hussain  b Nissar              13            0
+H Verity              c Dilawar Hussain  b Nissar               4            0
+JM Sims               lbw                b Amar Singh           1          0 0
+W Voce                not out                                   1          0 0
+Extras                (lb 10, nb 1)                            11
+Total                 (8 wickets dec, 129 overs)              471
+
+DNB: +G Duckworth.
+
+FoW: 1-19 (Fagg), 2-93 (Barnett), 3-156 (Leyland),
+     4-422 (Hammond), 5-437 (Worthington), 6-455 (Allen),
+     7-463 (Verity), 8-468 (Sims).
+
+Bowling                      O      M      R      W
+Nissar                      26      2    120      5
+Amar Singh                  39      8    102      2
+Baqa Jilani                 15      4     55      0
+Nayudu                      24      1     82      1
+Jahangir Khan               17      1     65      0
+Mushtaq Ali                  2      0     13      0
+Merchant                     6      0     23      0
+
+India 1st innings                                               R   M   B  4 6
+VM Merchant                              b Allen               52 150      5 0
+S Mushtaq Ali         st Duckworth       b Verity              52            0
++Dilawar Hussain      st Duckworth       b Verity              35 135        0
+CK Nayudu             c Allen            b Voce                 5            0
+C Ramaswami                              b Sims                29            0
+S Wazir Ali           lbw                b Sims                 2          0 0
+L Amar Singh                             b Verity               5            0
+M Jahangir Khan       c Fagg             b Sims                 9            0
+*Vizianagram                             b Sims                 1          0 0
+M Baqa Jilani         not out                                   4            0
+M Nissar              c Worthington      b Sims                14            0
+Extras                (b 8, lb 6)                              14
+Total                 (all out, 85.5 overs)                   222
+
+FoW: 1-81 (Mushtaq Ali), 2-125 (Merchant), 3-130 (Nayudu),
+     4-185 (Ramaswami), 5-187 (Dilawar Hussain),
+     6-192 (Wazir Ali), 7-195 (Amar Singh),
+     8-203 (Jahangir Khan), 9-206 (Vizianagram), 10-222 (Nissar).
+
+Bowling                      O      M      R      W
+Voce                        20      5     46      1
+Allen                       12      3     37      1
+Hammond                      8      2     17      0
+Verity                      25     12     30      3
+Sims                        18.5    1     73      5
+Leyland                      2      0      5      0
+
+India 2nd innings (following on)                                R   M   B  4 6
+VM Merchant           c Worthington      b Allen               48            0
+S Mushtaq Ali         c Hammond          b Allen               17            0
++Dilawar Hussain      lbw                b Sims                54 150        0
+L Amar Singh          c Sims             b Verity              44  30      7 0
+M Baqa Jilani         c Fagg             b Allen               12            0
+CK Nayudu                                b Allen               81 150        0
+S Wazir Ali           c Duckworth        b Allen                1          0 0
+C Ramaswami           not out                                  41            1
+*Vizianagram                             b Allen                1          0 0
+M Jahangir Khan       c Voce             b Allen                1          0 0
+M Nissar              c Voce             b Sims                 0          0 0
+Extras                (b 3, lb 7, nb 2)                        12
+Total                 (all out, 93 overs)                     312
+
+FoW: 1-64 (Mushtaq Ali), 2-71 (Merchant), 3-122 (Amar Singh),
+     4-159 (Baqa Jilani), 5-212 (Dilawar Hussain),
+     6-222 (Wazir Ali), 7-295 (Nayudu), 8-307 (Vizianagram),
+     9-309 (Jahangir Khan), 10-312 (Nissar).
+
+Bowling                      O      M      R      W
+Voce                        20      5     40      0
+Allen                       20      3     80      7
+Hammond                      7      0     24      0
+Verity                      16      6     32      1
+Sims                        25      1     95      2
+Leyland                      3      0     19      0
+Worthington                  2      0     10      0
+
+England 2nd innings (target: 64 runs)                           R   M   B  4 6
+CJ Barnett            not out                                  32  40        0
+AE Fagg               c Amar Singh       b Nissar              22            0
+WR Hammond            not out                                   5            0
+Extras                (b 4, nb 1)                               5
+Total                 (1 wicket, 13 overs)                     64
+
+DNB: M Leyland, TS Worthington, LB Fishlock, *GOB Allen,
+     H Verity, JM Sims, W Voce, +G Duckworth.
+
+FoW: 1-48 (Fagg).
+
+Bowling                      O      M      R      W
+Nissar                       7      0     36      1
+Amar Singh                   6      0     23      0
+
+<END>

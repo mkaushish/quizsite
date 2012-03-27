@@ -1,0 +1,94 @@
+
+Test # 456
+New Zealand in England, 1958, 3rd Test
+England v New Zealand
+Headingley, Leeds
+3,4,5,7,8 July 1958 (5-day match)
+
+Result: England won by an innings and 71 runs
+Series: England leads the 5-match series 3-0
+
+Toss: New Zealand
+Umpires: JS Buller and FS Lee
+Test debuts: CA Milton (England); JT Sparling (New Zealand).
+
+Close of play:
+ Day 1: No play
+ Day 2: No play
+ Day 3: New Zealand 67, England 14/1 (Milton 5*, Graveney 4*)
+ Day 4: England 267/2d, New Zealand 32/3 (Sutcliffe 0*, Reid 4*)
+
+New Zealand 1st innings                                         R   M   B  4 6
+LSM Miller            c Smith            b Laker               26            0
+JW D'Arcy             c Smith            b Trueman             11  75        0
+NS Harford            c Cowdrey          b Laker                0          0 0
+B Sutcliffe                              b Laker                6            0
+*JR Reid                                 b Lock                 3          0 0
+WR Playle             c Milton           b Lock                 0          0 0
+AR MacGibbon                             b Laker                3          0 0
+JT Sparling           not out                                   9            0
++EC Petrie            c Cowdrey          b Lock                 5            0
+HB Cave               c Milton           b Laker                2          0 0
+JA Hayes              c Evans            b Lock                 1          0 0
+Extras                (lb 1)                                    1
+Total                 (all out, 59.1 overs)                    67
+
+FoW: 1-37 (D'Arcy), 2-37 (Miller), 3-37 (Harford), 4-40 (Reid),
+     5-46 (Sutcliffe), 6-46 (Playle), 7-49 (MacGibbon),
+     8-59 (Petrie), 9-66 (Cave), 10-67 (Hayes).
+
+Bowling                      O      M      R      W
+Trueman                     11      5     18      1
+Loader                       5      2     10      0
+Bailey                       3      0      7      0
+Laker                       22     11     17      5
+Lock                        18.1   13     14      4
+
+England 1st innings                                             R   M   B  4 6
+MJK Smith             c Reid             b MacGibbon            3          0 0
+CA Milton             not out                                 104 295     11 0
+TW Graveney                          c & b Sparling            31 115        0
+*PBH May              not out                                 113 174     17 2
+Extras                (b 5, lb 8, w 1, nb 2)                   16
+Total                 (2 wickets dec, 102 overs)              267
+
+DNB: MC Cowdrey, TE Bailey, +TG Evans, GAR Lock, FS Trueman,
+     JC Laker, PJ Loader.
+
+FoW: 1-7 (Smith), 2-73 (Graveney).
+
+Bowling                      O      M      R      W
+Hayes                       13      4     30      0
+MacGibbon                   27      8     47      1
+Reid                        26      7     54      0
+Sparling                    23      2     78      1
+Cave                        13      4     42      0
+
+New Zealand 2nd innings                                         R   M   B  4 6
+LSM Miller            lbw                b Lock                18            0
+JW D'Arcy                                b Lock                 6            0
+NS Harford            lbw                b Lock                 0          0 0
+B Sutcliffe           lbw                b Lock                 0  45      0 0
+*JR Reid              c Trueman          b Laker               13            0
+WR Playle                                b Laker               18 194        0
+AR MacGibbon          lbw                b Lock                39  80      6 0
+JT Sparling           c May              b Lock                18 110        0
++EC Petrie                               b Lock                 3          0 0
+HB Cave               c Cowdrey          b Laker                2          0 0
+JA Hayes              not out                                   0          0 0
+Extras                (b 6, lb 6)                              12
+Total                 (all out, 101.2 overs)                  129
+
+FoW: 1-23 (D'Arcy), 2-23 (Harford), 3-24 (Miller),
+     4-32 (Sutcliffe), 5-42 (Reid), 6-88 (MacGibbon),
+     7-121 (Playle), 8-124 (Petrie), 9-129 (Cave),
+     10-129 (Sparling).
+
+Bowling                      O      M      R      W
+Trueman                     14      6     22      0
+Loader                      13      7     14      0
+Bailey                       3      2      3      0
+Laker                       36     23     27      3
+Lock                        35.2   20     51      7
+
+<END>

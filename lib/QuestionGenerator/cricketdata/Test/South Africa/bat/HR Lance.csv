@@ -1,0 +1,23 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+523, 1962-02-02, 2, 7, New Zealand, c Dick, Reid, 7, na, na, na, 0
+524, 1962-02-16, 2, 7, New Zealand, st Dick, Reid, 9, na, na, na, 0
+524, 1962-02-16, 4, 7, New Zealand, c Dick, Reid, 9, na, na, na, 0
+594, 1965-07-22, 1, 2, England,                c &, Brown, 28, na, na, na, 0
+594, 1965-07-22, 3, 2, England, c Titmus, Brown, 9, na, na, na, 0
+595, 1965-08-05, 1, 2, England, lbw, Cartwright, 7, 46, na, 0, 0
+595, 1965-08-05, 3, 2, England, c Barber, Snow, 0, 3, na, 0, 0
+596, 1965-08-26, 1, 6, England, lbw, Statham, 69, 200, na, 8, 0
+596, 1965-08-26, 3, 6, England, , Higgs, 53, 123, na, 4, 0
+611, 1966-12-23, 1, 6, Australia, hit wicket, McKenzie, 44, 137, 124, 4, 0
+611, 1966-12-23, 3, 6, Australia, c Simpson, McKenzie, 70, na, na, 10, 1
+613, 1967-12-31, 2, 5, Australia, c Simpson, Chappell, 2, na, na, 0, 0
+613, 1967-12-31, 3, 5, Australia, run out, , 53, 115, na, 3, 3
+615, 1967-01-20, 1, 5, Australia, c Taber, Cowper, 13, na, na, na, 0
+616, 1967-02-03, 2, 5, Australia, lbw, Watson, 30, na, na, na, 0
+617, 1967-02-24, 2, 5, Australia, c Renneberg, Simpson, 21, na, na, na, 0
+617, 1967-02-24, 4, 5, Australia, not out, , 28, na, na, na, 1
+671, 1970-02-05, 1, 7, Australia, st Taber, Gleeson, 61, 200, 144, 7, 0
+672, 1970-02-19, 1, 7, Australia, run out, , 8, 42, 53, 0, 0
+672, 1970-02-19, 3, 7, Australia, lbw, Gleeson, 30, 65, 54, 2, 1
+673, 1970-03-05, 1, 7, Australia, , Mayne, 21, 91, 79, 2, 0
+673, 1970-03-05, 3, 7, Australia, run out, , 19, 30, 35, 2, 0

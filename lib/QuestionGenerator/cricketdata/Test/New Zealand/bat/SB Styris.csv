@@ -1,0 +1,49 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+1608, 2002-06-28, 1, 8, West Indies, , Sanford, 107, 232, 178, 8, 1
+1608, 2002-06-28, 3, 6, West Indies, not out, , 69, 158, 145, 7, 1
+1631, 2002-11-12, 2, 6, India, st Patel, Harbhajan Singh, 0, 6, 5, 0, 0
+1633, 2002-11-19, 2, 6, India, lbw, Harbhajan Singh, 13, 58, 38, 2, 0
+1633, 2002-11-19, 4, 6, India, c Patel, Harbhajan Singh, 17, 61, 37, 2, 0
+1641, 2003-03-25, 1, 5, Sri Lanka, c Vaas, Dharmasena, 63, 172, 140, 5, 2
+1641, 2003-03-25, 3, 4, Sri Lanka, lbw, Lokuarachchi, 16, 53, 49, 1, 0
+1644, 2003-04-03, 1, 5, Sri Lanka, c Tillakaratne, Muralitharan, 32, 96, 62, 5, 0
+1644, 2003-04-03, 3, 5, Sri Lanka, c Muralitharan, Vaas, 1, 44, 29, 0, 0
+1660, 2003-09-08, 2, 4, India, c Chopra, Harbhajan Singh, 34, 140, 98, 5, 0
+1660, 2003-09-08, 4, 5, India, lbw, Kumble, 0, 4, 3, 0, 0
+1662, 2003-09-16, 1, 3, India, lbw, Kumble, 119, 296, 231, 10, 2
+1676, 2003-11-19, 1, 4, Pakistan, c Taufeeq Umar, Danish Kaneria, 33, 107, 83, 6, 0
+1676, 2003-11-19, 3, 4, Pakistan, c Taufeeq Umar, Mohammad Sami, 20, 36, 31, 3, 0
+1677, 2003-11-26, 1, 5, Pakistan, c Moin Khan, Shoaib Akhtar, 36, 65, 63, 4, 0
+1677, 2003-11-26, 3, 6, Pakistan, , Shoaib Akhtar, 0, 1, 1, 0, 0
+1686, 2004-02-10, 2, 4, South Africa, , Pollock, 74, 251, 190, 10, 0
+1686, 2004-02-10, 4, 3, South Africa, not out, , 3, 16, 17, 0, 0
+1689, 2004-02-18, 2, 4, South Africa, c Pollock, Boje, 170, 312, 220, 24, 2
+1692, 2004-02-26, 1, 5, South Africa, , Boje, 1, 22, 17, 0, 0
+1692, 2004-02-26, 3, 5, South Africa,                c &, Nel, 73, 150, 131, 11, 0
+1700, 2004-04-20, 1, 4, England, c GO Jones, SP Jones, 0, 4, 3, 0, 0
+1700, 2004-04-20, 3, 4, England, c Hussain, Giles, 4, 18, 20, 0, 0
+1702, 2004-05-03, 1, 5, England, c Jones, Harmison, 21, 77, 52, 2, 1
+1702, 2004-05-03, 3, 5, England, c Jones, Hoggard, 19, 38, 25, 4, 0
+1704, 2004-05-10, 1, 3, England, c sub (BM Shafayat), Giles, 108, 258, 174, 16, 0
+1704, 2004-05-10, 3, 4, England, c Jones, Harmison, 39, 99, 80, 6, 0
+1715, 2004-09-19, 2, 4, Bangladesh, c Rajin Saleh, Manjural Islam Rana, na, na, na, na, 0 
+1717, 2004-09-26, 1, 4, Bangladesh,                c &, Mohammad Rafique, 89, 190, 192, 10, 1
+1721, 2004-10-18, 1, 4, Australia, c Gilchrist, Kasprowicz, 27, 84, 61, 4, 0
+1721, 2004-10-18, 3, 4, Australia, lbw, Warne, 7, 63, 41, 1, 0
+1723, 2004-10-26, 2, 10, Australia, c Clarke, McGrath, 28, 55, 40, 4, 1
+1723, 2004-10-26, 4, 4, Australia, c Clarke, Warne, 8, 48, 34, 2, 0
+1759, 2005-07-07, 1, 6, Zimbabwe, run out (Masakadza), , 7, na, 9, 1, 0
+1761, 2005-07-15, 2, 6, Zimbabwe, c Taibu, Mahwire, 45, 88, 71, 6, 0
+1787, 2006-02-09, 1, 6, West Indies, not out, , 103, 192, 122, 15, 2
+1787, 2006-02-09, 3, 5, West Indies, c Bradshaw, Edwards, 5, 20, 7, 1, 0
+1790, 2006-02-17, 2, 6, West Indies, c Morton, Powell, 8, 11, 10, 2, 0
+1798, 2006-03-15, 2, 4, South Africa, c Gibbs, Ntini, 17, 22, 18, 3, 0
+1798, 2006-03-15, 4, 5, South Africa, c Boucher, Steyn, 2, 11, 6, 0, 0
+1800, 2006-04-27, 1, 4, South Africa, c Dippenaar, Ntini, 11, 37, 21, 1, 0
+1800, 2006-04-27, 3, 3, South Africa, not out, , 54, 129, 75, 9, 0
+1801, 2006-04-05, 1, 4, South Africa, c de Villiers, Ntini, 0, 9, 6, 0, 0
+1801, 2006-04-05, 3, 4, South Africa,                c &, Steyn, 42, 152, 104, 6, 0
+1846, 2007-10-08, 2, 5, South Africa, c Smith, Kallis, 11, 67, 49, 0, 0
+1846, 2007-10-08, 4, 3, South Africa, c Boucher, Steyn, 16, 64, 28, 3, 0
+1848, 2007-10-16, 1, 5, South Africa, lbw, Steyn, 3, 11, 8, 0, 0
+1848, 2007-10-16, 3, 4, South Africa, c de Villiers, Kallis, 29, 78, 58, 6, 0

@@ -1,0 +1,48 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+1089, 1988-01-11, 2, 2, India,                c &, Kapil Dev, 8, 26, 18, 1, 0
+1089, 1988-01-11, 4, 2, India, c Amarnath, Hirwani, 14, 46, 41, 3, 0
+1095, 1988-04-02, 1, 2, Pakistan, , Ijaz Faqih, 16, 44, 23, 3, 0
+1095, 1988-04-02, 3, 2, Pakistan, , Abdul Qadir, 11, 70, 46, 2, 0
+1171, 1991-06-06, 2, 1, England, c Ramprakash, DeFreitas, 38, 77, 62, 6, 0
+1171, 1991-06-06, 4, 1, England, , DeFreitas, 0, 2, 1, 0, 0
+1172, 1991-06-20, 1, 1, England, c Lamb, Hick, 33, 118, 88, 5, 0
+1172, 1991-06-20, 3, 1, England, lbw, DeFreitas, 2, 20, 11, 0, 0
+1173, 1991-07-04, 2, 1, England, , Illingworth, 12, 41, 25, 2, 0
+1173, 1991-07-04, 4, 1, England, c Russell, Lawrence, 1, 7, 3, 0, 0
+1174, 1991-07-25, 2, 1, England, c Hick, Lewis, 28, 86, 62, 5, 0
+1174, 1991-07-25, 4, 1, England, lbw, DeFreitas, 16, 37, 23, 3, 0
+1175, 1991-08-08, 2, 1, England, lbw, Lawrence, 15, 67, 36, 2, 0
+1175, 1991-08-08, 3, 1, England, c Lewis, Botham, 36, 89, 83, 6, 1
+1188, 1992-04-18, 1, 2, South Africa, c Kirsten, Snell, 35, 93, 65, 4, 0
+1188, 1992-04-18, 3, 2, South Africa, c Kirsten, Bosch, 3, 13, 12, 0, 0
+1202, 1992-11-27, 2, 2, Australia, , Reid, 27, 59, 42, 3, 0
+1202, 1992-11-27, 4, 2, Australia, c Healy, Reid, 1, 6, 5, 0, 0
+1205, 1992-12-26, 2, 2, Australia, c Boon, Hughes, 6, 32, 22, 0, 0
+1205, 1992-12-26, 4, 2, Australia, c Boon, Warne, 110, 253, 178, 8, 2
+1208, 1993-01-02, 2, 2, Australia, c Taylor, McDermott, 3, 12, 9, 0, 0
+1210, 1993-01-23, 1, 2, Australia, c Hughes, SR Waugh, 46, 98, 90, 8, 0
+1210, 1993-01-23, 3, 2, Australia, , McDermott, 10, 42, 20, 0, 0
+1212, 1993-01-30, 2, 2, Australia, c SR Waugh, Angel, 80, 186, 147, 11, 1
+1220, 1993-04-16, 1, 2, Pakistan, c Moin Khan, Ata-ur-Rehman, 27, 83, 32, na, 0
+1220, 1993-04-16, 3, 2, Pakistan, c Asif Mujtaba, Aamer Sohail, 22, 80, 33, na, 0
+1221, 1993-04-23, 1, 2, Pakistan, c Moin Khan, Ata-ur-Rehman, 87, 125, 91, 14, 0
+1221, 1993-04-23, 4, 2, Pakistan, not out, , 8, 19, 9, 1, 0
+1222, 1993-05-01, 1, 2, Pakistan, c Wasim Akram, Ata-ur-Rehman, 28, 45, 27, 4, 0
+1222, 1993-05-01, 3, 2, Pakistan, , Waqar Younis, 17, 53, 45, 2, 0
+1239, 1993-12-08, 2, 2, Sri Lanka, c Dassanayake, Kalpage, 17, 53, 31, 4, 0
+1250, 1994-02-19, 2, 2, England, c Russell, Caddick, 8, 18, 10, 1, 0
+1250, 1994-02-19, 4, 2, England, lbw, Igglesden, 12, 55, 27, 1, 0
+1259, 1994-04-16, 1, 1, England, lbw, Caddick, 8, 35, 27, 0, 0
+1259, 1994-04-16, 3, 1, England, not out, , 22, 61, 71, 3, 0
+1274, 1994-11-18, 2, 1, India, c Manjrekar, Srinath, 19, 36, 33, 4, 0
+1274, 1994-11-18, 4, 1, India, c Mongia, Prabhakar, 0, 2, 2, 0, 0
+1277, 1994-12-01, 2, 1, India, c Manjrekar, Kumble, 50, 156, 126, 7, 0
+1277, 1994-12-01, 4, 1, India, c Sidhu, Kumble, 8, 32, 25, 1, 0
+1278, 1994-12-10, 1, 1, India, c Mongia, Srinath, 10, 55, 37, 1, 0
+1278, 1994-12-10, 3, 1, India, run out, , 25, 85, 46, 1, 0
+1325, 1996-04-19, 2, 4, New Zealand, lbw, Larsen, 22, 39, 27, 5, 0
+1326, 1996-04-27, 1, 4, New Zealand, , Harris, 59, 116, 97, 9, 0
+1326, 1996-04-27, 3, 4, New Zealand, c Vaughan, Harris, 0, 10, 6, 0, 0
+1353, 1997-02-01, 2, 7, Australia, c ME Waugh, Reiffel, 0, 3, 5, 0, 0
+1384, 1997-11-17, 1, 6, Pakistan, , Mushtaq Ahmed, 1, 13, 10, 0, 0
+1384, 1997-11-17, 3, 6, Pakistan, c Wasim Akram, Mushtaq Ahmed, 1, 8, 4, 0, 0

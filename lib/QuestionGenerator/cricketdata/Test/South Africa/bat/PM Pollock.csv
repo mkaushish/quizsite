@@ -1,0 +1,42 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+515, 1961-12-08, 1, 8, New Zealand, c Dick, Cameron, 0, na, na, 0, 0
+515, 1961-12-08, 3, 8, New Zealand, c Dick, Cameron, 15, na, na, na, 0
+517, 1961-12-26, 1, 8, New Zealand, run out, , 37, na, na, na, 0
+517, 1961-12-26, 3, 8, New Zealand, not out, , 1, na, na, 0, 0
+524, 1962-02-16, 2, 9, New Zealand, lbw, Motz, 8, na, na, na, 0
+524, 1962-02-16, 4, 9, New Zealand, not out, , 54, 103, na, 10, 0
+548, 1963-12-06, 2, 9, Australia, lbw, Benaud, 8, 37, na, 0, 0
+549, 1964-01-01, 1, 9, Australia, c Simpson, Martin, 14, 47, 28, 0, 0
+549, 1964-01-01, 3, 9, Australia, , Hawke, 0, 2, 2, 0, 0
+550, 1964-01-10, 2, 9, Australia, c Grout, Hawke, 1, 4, 9, 0, 0
+553, 1964-01-24, 2, 8, Australia, c Benaud, Hawke, 21, 92, na, 1, 0
+555, 1964-02-07, 2, 8, Australia, c Lawry, Benaud, 6, 40, 37, 0, 0
+558, 1964-02-21, 1, 10, New Zealand, c Dowling, Reid, 24, na, na, na, 0
+559, 1964-02-28, 2, 10, New Zealand, , Cameron, 6, na, na, na, 0
+560, 1964-03-13, 1, 10, New Zealand,                c &, Reid, 2, na, na, 0, 0
+571, 1964-12-04, 2, 10, England, c Dexter, Barber, 3, 14, na, 0, 0
+571, 1964-12-04, 3, 10, England, not out, , 18, 58, na, 2, 0
+572, 1964-12-23, 2, 10, England, c Smith, Titmus, 20, 78, na, 1, 0
+573, 1965-01-01, 3, 9, England, lbw, Barrington, 7, 37, na, 0, 0
+575, 1965-01-22, 1, 8, England, not out, , 0, 4, na, 0, 0
+578, 1965-02-12, 1, 8, England, c Titmus, Thomson, 18, 89, 93, 1, 0
+594, 1965-07-22, 1, 10, England, st Parks, Barber, 34, na, na, na, 0
+594, 1965-07-22, 3, 10, England, not out, , 14, na, na, na, 0
+595, 1965-08-05, 1, 10, England, c Larter, Cartwright, 15, 41, na, 2, 0
+595, 1965-08-05, 3, 10, England, not out, , 12, 42, na, 1, 0
+596, 1965-08-26, 1, 10, England, , Statham, 3, 15, na, 0, 0
+596, 1965-08-26, 3, 10, England, not out, , 9, 26, na, 1, 0
+611, 1966-12-23, 1, 10, Australia, c Taber, McKenzie, 6, na, na, na, 0
+611, 1966-12-23, 3, 10, Australia, st Taber, Simpson, 2, na, na, 0, 0
+613, 1967-12-31, 2, 10, Australia, c Stackpole, Veivers, 41, na, na, na, 0
+613, 1967-12-31, 3, 9, Australia, not out, , 75, 184, na, na, 0
+615, 1967-01-20, 1, 10, Australia, not out, , 12, na, na, na, 0
+616, 1967-02-03, 2, 10, Australia, not out, , 34, na, na, na, 0
+617, 1967-02-24, 2, 9, Australia, c Lawry, Cowper, 13, na, na, na, 0
+670, 1970-01-22, 1, 9, Australia, lbw, Mallett, 1, 13, 20, 0, 0
+670, 1970-01-22, 3, 9, Australia, , Gleeson, 25, 55, 51, 2, 1
+671, 1970-02-05, 1, 10, Australia, not out, , 36, 66, 71, 4, 0
+672, 1970-02-19, 1, 10, Australia, c Taber, Walters, 0, 9, 9, 0, 0
+672, 1970-02-19, 3, 10, Australia, c Taber, Gleeson, 1, 10, 7, 0, 0
+673, 1970-03-05, 1, 9, Australia, not out, , 4, 31, 17, 1, 0
+673, 1970-03-05, 3, 9, Australia, not out, , 7, 24, 17, 1, 0

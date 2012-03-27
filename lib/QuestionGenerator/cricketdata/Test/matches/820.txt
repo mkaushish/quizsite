@@ -1,0 +1,110 @@
+
+Test # 820
+England in New Zealand, 1977/78, 3rd Test
+New Zealand v England
+Eden Park, Auckland
+4,5,6,8,9,10 March 1978 (6-day match)
+
+Result: Match drawn
+Series: 3-match series drawn 1-1
+
+Toss: New Zealand
+Umpires: WRC Gardiner and JBR Hastie
+Balls per over: 8
+
+Close of play:
+ Day 1: New Zealand 162/4 (Howarth 64*, Parker 7*)
+ Day 2: New Zealand 315, England 30/0 (Boycott 6*, Randall 21*)
+ Day 3: England 172/2 (Radley 49*, Roope 28*)
+ Day 4: England 390/5 (Radley 154*, Taylor 6*)
+ Day 5: England 429, New Zealand 112/2 (Howarth 20*, Burgess 7*)
+
+New Zealand 1st innings                                         R   M   B  4 6
+JG Wright             c Taylor           b Lever                4  42  32  0 0
+RW Anderson           c Gatting          b Botham              17  94  60  1 0
+GP Howarth            c Roope            b Willis             122 515 356 12 0
+*MG Burgess           c Randall          b Botham              50 140 133  5 0
+BE Congdon            c Miller           b Botham               5  41  29  0 0
+JM Parker             lbw                b Botham              14  97  82  0 0
++GN Edwards           lbw                b Lever               55 137 105  7 1
+RJ Hadlee             c Roope            b Botham               1  23  13  0 0
+BL Cairns                                b Lever               11  41  29  2 0
+RO Collinge           not out                                   5  30  15  1 0
+SL Boock              c Edmonds          b Willis               1   9   8  0 0
+Extras                (b 5, lb 10, nb 15)                      30
+Total                 (all out, 105.6 overs)                  315
+
+FoW: 1-12 (Wright), 2-32 (Anderson), 3-113 (Burgess),
+     4-129 (Congdon), 5-182 (Parker), 6-278 (Edwards),
+     7-285 (Hadlee), 8-302 (Howarth), 9-314 (Cairns),
+     10-315 (Boock).
+
+Bowling                      O      M      R      W
+Willis                      26.6    8     57      2
+Lever                       34      5     96      3
+Botham                      34      4    109      5
+Edmonds                     10      2     23      0
+Miller                       1      1      0      0
+
+England 1st innings                                             R   M   B  4 6
+*G Boycott            c Burgess          b Collinge            54 232 177  4 0
+DW Randall            lbw                b Hadlee              30  76  59  2 0
+CT Radley             c Wright           b Collinge           158 648 524 15 0
+GRJ Roope             c Burgess          b Boock               68 257 210 10 0
+MW Gatting                               b Boock                0   7   6  0 0
+IT Botham             c Edwards          b Collinge            53 132 114  9 0
++RW Taylor                               b Boock               16 166 111  0 0
+G Miller              lbw                b Collinge            15  24  14  3 0
+PH Edmonds                               b Boock                8  38  33  1 0
+JK Lever                             c & b Boock                1  15  13  0 0
+RGD Willis            not out                                   0   6   4  0 0
+Extras                (b 6, lb 6, w 4, nb 10)                  26
+Total                 (all out, 156.3 overs)                  429
+
+FoW: 1-52 (Randall), 2-115 (Boycott), 3-254 (Roope),
+     4-258 (Gatting), 5-355 (Botham), 6-396 (Radley),
+     7-418 (Miller), 8-427 (Edmonds), 9-428 (Taylor),
+     10-429 (Lever).
+
+Bowling                      O      M      R      W
+Hadlee                      31      6    107      1
+Collinge                    38      9     98      4
+Cairns                      33      9     63      0
+Congdon                     26      8     68      0
+Boock                       28.3    4     67      5
+
+New Zealand 2nd innings                                         R   M   B  4 6
+JG Wright             c Taylor           b Edmonds             25 106  75  3 0
+RW Anderson           c Botham           b Miller              55 163 120  8 0
+GP Howarth                               b Miller             102 320 301 13 0
+*MG Burgess           c Taylor           b Edmonds             17  71  82  2 0
+BE Congdon            c Roope            b Lever               20  78  67  2 0
++GN Edwards           c Randall          b Lever               54  89  67  9 1
+JM Parker             not out                                  47 136 138  5 0
+RJ Hadlee                                b Miller              10  30  35  2 0
+BL Cairns             lbw                b Edmonds             20  35  26  3 0
+RO Collinge           not out                                  12  46  45  0 1
+Extras                (b 6, lb 4, nb 10)                       20
+Total                 (8 wickets, 118 overs)                  382
+
+DNB: SL Boock.
+
+FoW: 1-69 (Wright), 2-98 (Anderson), 3-125 (Burgess),
+     4-185 (Congdon), 5-272 (Edwards), 6-287 (Howarth),
+     7-305 (Hadlee), 8-350 (Cairns).
+
+Bowling                      O      M      R      W
+Willis                      10      3     42      0
+Lever                       17      4     59      2
+Botham                      13      1     51      0
+Edmonds                     45     15    107      3
+Miller                      30     10     99      3
+Gatting                      1      0      1      0
+Roope                        1      0      2      0
+Randall                      1      0      1      0
+
+*** Geoff Howarth was only the 2nd New Zealander (after Glenn Turner) to
+    score a century in each innings of a test. That in the 1st innings was
+    his maiden test century.
+
+<END>

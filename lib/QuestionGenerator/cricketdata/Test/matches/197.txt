@@ -1,0 +1,76 @@
+
+Test # 197
+The Ashes, 1930, 4th Test
+England v Australia
+Old Trafford, Manchester
+25,26,28,29 July 1930 (4-day match)
+
+Result: Match drawn
+Series: 5-match series level 1-1
+
+Toss: Australia
+Umpires: F Chester and J Hardstaff snr
+Test debut: TWJ Goddard (England).
+
+Close of play:
+ Day 1: Australia 275/7 (Fairfax 21*, Grimmett 21*)
+ Day 2: Australia 345, England 221/5 (Leyland 35*, Tate 5*)
+ Day 3: England 251/8 (Nichols 7*, Duckworth 0*, 108 ov)
+ Day 4: No play
+
+Australia 1st innings                                           R   M   B  4 6
+*WM Woodfull          c Duckworth        b Tate                54 180 189  3 0
+WH Ponsford                              b Hammond             83 230 267  5 0
+DG Bradman            c Duleepsinhji     b Peebles             14  30  27  1 0
+AF Kippax             c Chapman          b Nichols             51 120 136  8 0
+SJ McCabe             lbw                b Peebles              4       9  1 0
+VY Richardson                            b Hammond              1       2  0 0
+AG Fairfax            lbw                b Goddard             49 190 208  3 0
++WAS Oldfield                            b Nichols              2      11  0 0
+CV Grimmett           c Sutcliffe        b Peebles             50     138  6 0
+PM Hornibrook         c Duleepsinhji     b Goddard              3      19  0 0
+TW Wall               not out                                   1       9  0 0
+Extras                (b 23, lb 3, nb 7)                       33
+Total                 (all out, 167.1 overs)                  345
+
+FoW: 1-106 (Woodfull), 2-138 (Bradman), 3-184 (Ponsford),
+     4-189 (McCabe), 5-190 (Richardson), 6-239 (Kippax),
+     7-243 (Oldfield), 8-330 (Fairfax), 9-338 (Grimmett),
+     10-345 (Hornibrook).
+
+Bowling                      O      M      R      W
+Nichols                     21      5     33      2
+Tate                        30     11     39      1
+Goddard                     32.1   14     49      2
+Peebles                     55      9    150      3
+Leyland                      8      2     17      0
+Hammond                     21      6     24      2
+
+England 1st innings                                             R   M   B  4 6
+JB Hobbs              c Oldfield         b Wall                31 120 107  1 0
+H Sutcliffe           c Bradman          b Wall                74 135 172 10 1
+WR Hammond                               b Wall                 3      24  0 0
+KS Duleepsinhji       c Hornibrook       b McCabe              54     110  7 0
+M Leyland                                b McCabe              35     113  2 0
+*APF Chapman          c Grimmett         b Hornibrook           1      22  0 0
+MW Tate               c Ponsford         b McCabe              15      48  2 0
+MS Nichols            not out                                   7      24  0 0
+IAR Peebles           c Richardson       b McCabe               6      25  0 0
++G Duckworth          not out                                   0       3  0 0
+Extras                (b 13, lb 12)                            25
+Total                 (8 wickets, 108 overs)                  251
+
+DNB: TWJ Goddard.
+
+FoW: 1-108 (Hobbs), 2-115 (Sutcliffe), 3-119 (Hammond),
+     4-192 (Duleepsinhji), 5-199 (Chapman), 6-222 (Leyland),
+     7-237 (Tate), 8-247 (Peebles).
+
+Bowling                      O      M      R      W
+Wall                        33      9     70      3
+Fairfax                     13      5     15      0
+Grimmett                    19      2     59      0
+Hornibrook                  26      9     41      1
+McCabe                      17      3     41      4
+
+<END>

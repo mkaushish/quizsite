@@ -1,0 +1,100 @@
+
+Test # 1042
+The Wisden Trophy, 1985/86, 3rd Test
+West Indies v England
+Kensington Oval, Bridgetown, Barbados
+21,22,23,25 March 1986 (5-day match)
+
+Result: West Indies won by an innings and 30 runs
+Series: West Indies leads the 5-match series 3-0
+
+Toss: England
+Umpires: DM Archer and LH Barker
+Player of the match: RB Richardson
+
+Close of play:
+ Day 1: West Indies 269/2 (Richardson 50*, Gomes 6*)
+ Day 2: West Indies 418, England 110/1 (Gooch 46*, Gower 51*)
+ Day 3: England 189, England 132/6 (Edmonds 3*)
+
+West Indies 1st innings                                         R   M   B  4 6
+CG Greenidge          c Botham           b Foster              21  37  24  5 0
+DL Haynes             c Botham           b Foster              84 299 179 13 0
+RB Richardson         lbw                b Emburey            160 348 278 18 0
+HA Gomes              c Gower            b Thomas              33 172 111  3 0
+*IVA Richards         c Downton          b Thomas              51  94  71  4 2
+CA Best               lbw                b Foster              21  89  56  3 0
++PJL Dujon            c sub (WN Slack)   b Botham               5   7   7  1 0
+MA Holding                               b Thomas              23  50  25  2 1
+MD Marshall           run out                                   4   8   3  1 0
+J Garner              c Gooch            b Thomas               0  14   5  0 0
+BP Patterson          not out                                   0   1   0  0 0
+Extras                (b 2, lb 9, w 3, nb 2)                   16
+Total                 (all out, 126.1 overs)                  418
+
+FoW: 1-34 (Greenidge), 2-228 (Haynes), 3-286 (Richardson),
+     4-361 (Gomes), 5-362 (Richards), 6-367 (Dujon),
+     7-406 (Holding), 8-413 (Marshall), 9-418 (Best),
+     10-418 (Garner).
+
+Bowling                      O      M      R      W
+Botham                      24      3     80      1
+Thomas                      16.1    2     70      4
+Foster                      19      0     76      3
+Edmonds                     29      2     85      0
+Emburey                     38      7     96      1
+
+England 1st innings                                             R   M   B  4 6
+GA Gooch              c Dujon            b Garner              53 178 121  6 0
+RT Robinson           c Dujon            b Marshall             3  18  13  0 0
+*DI Gower             c Dujon            b Marshall            66 144  73  8 0
+P Willey              c Dujon            b Marshall             5  29  10  0 0
+AJ Lamb               c Richardson       b Marshall             5  40  22  1 0
+IT Botham             c Dujon            b Patterson           14  59  32  2 0
++PR Downton           lbw                b Holding             11  68  41  1 0
+JE Emburey            c Best             b Patterson            0   9   5  0 0
+PH Edmonds            c Richardson       b Patterson            4  53  27  1 0
+NA Foster             lbw                b Holding              0  18  19  0 0
+JG Thomas             not out                                   4   9   4  1 0
+Extras                (b 4, lb 8, w 2, nb 10)                  24
+Total                 (all out, 59 overs)                     189
+
+FoW: 1-6 (Robinson), 2-126 (Gower), 3-134 (Gooch),
+     4-141 (Willey), 5-151 (Lamb), 6-168 (Botham),
+     7-172 (Emburey), 8-181 (Downton), 9-185 (Foster),
+     10-189 (Edmonds).
+
+Bowling                      O      M      R      W
+Marshall                    14      1     42      4
+Garner                      14      4     35      1
+Patterson                   15      5     54      3
+Holding                     13      4     37      2
+Richards                     3      0      9      0
+
+England 2nd innings (following on)                              R   M   B  4 6
+GA Gooch                                 b Patterson           11  67  29  1 0
+RT Robinson                              b Patterson           43  98  71  7 0
+*DI Gower             c Marshall         b Garner              23  63  40  4 0
+P Willey              lbw                b Garner              17  53  35  3 0
+AJ Lamb                              c & b Holding              6  16  14  0 0
+PH Edmonds            lbw                b Garner               4  36  19  0 0
+IT Botham             c Dujon            b Garner              21  18  13  4 0
++PR Downton           c Dujon            b Holding             26  91  56  2 0
+JE Emburey            not out                                  35  70  40  6 0
+NA Foster             c Richardson       b Holding              0   3   2  0 0
+JG Thomas                                b Patterson            0  15   9  0 0
+Extras                (lb 1, nb 12)                            13
+Total                 (all out, 52.4 overs)                   199
+
+FoW: 1-48 (Gooch), 2-71 (Robinson), 3-94 (Gower), 4-108 (Lamb),
+     5-108 (Willey), 6-132 (Botham), 7-138 (Edmonds),
+     8-188 (Downton), 9-188 (Foster), 10-199 (Thomas).
+
+Bowling                      O      M      R      W
+Marshall                    13      1     47      0
+Garner                      17      2     69      4
+Patterson                    8.4    2     28      3
+Holding                     10      1     47      3
+Richards                     4      1      7      0
+
+<END>

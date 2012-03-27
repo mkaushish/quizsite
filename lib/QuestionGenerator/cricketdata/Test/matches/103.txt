@@ -1,0 +1,123 @@
+
+Test # 103
+The Ashes, 1909, 3rd Test
+England v Australia
+Headingley, Leeds
+1,2,3 July 1909 (3-day match)
+
+Result: Australia won by 126 runs
+Series: Australia leads the 5-match series 2-1
+
+Toss: Australia
+Umpires: W Richards and WAJ West
+Test debut: J Sharp (England).
+
+Close of play:
+ Day 1: Australia 188, England 88/2 (Tyldesley 38*, Sharp 30*)
+ Day 2: England 182, Australia 175/8 (Macartney 7*, Carter 22*)
+
+Australia 1st innings                                           R   M   B  4 6
+PA McAlister          lbw                b Hirst                3          0 0
+SE Gregory                               b Barnes              46            0
+VS Ransford           run out                                  45            0
+*MA Noble                                b Hirst                3          0 0
+W Bardsley            hit wicket         b Rhodes              30            0
+WW Armstrong          c Lilley           b Brearley            21            0
+VT Trumper            not out                                  27            0
+CG Macartney          c Fry              b Rhodes               4            0
+A Cotter                                 b Rhodes               2          0 0
++H Carter             lbw                b Rhodes               1          0 0
+FJ Laver              c Lilley           b Brearley             0          0 0
+Extras                (lb 4, w 1, nb 1)                         6
+Total                 (all out, 73.1 overs)                   188
+
+FoW: 1-6 (McAlister), 2-86 (Ransford), 3-100 (Noble),
+     4-104 (Gregory), 5-140 (Armstrong), 6-154 (Bardsley),
+     7-167 (Macartney), 8-169 (Cotter), 9-171 (Carter),
+     10-188 (Laver).
+
+Bowling                      O      M      R      W
+Hirst                       26      6     65      2
+Barnes                      25     12     37      1
+Brearley                    14.1    1     42      2
+Rhodes                       8      2     38      4
+
+England 1st innings                                             R   M   B  4 6
+CB Fry                lbw                b Cotter               1          0 0
+JB Hobbs                                 b Macartney           12            0
+JT Tyldesley          c Armstrong        b Macartney           55            0
+J Sharp               st Carter          b Macartney           61            0
+*AC MacLaren                             b Macartney           17            0
+W Rhodes              c Carter           b Laver               12            0
+GH Hirst                                 b Macartney            4            0
++AFA Lilley           not out                                   4            0
+SF Barnes                                b Macartney            1          0 0
+W Brearley                               b Macartney            6            0
+GL Jessop             absent hurt                               -
+Extras                (b 1, lb 4, nb 4)                         9
+Total                 (all out, 84.3 overs)                   182
+
+FoW: 1-8 (Fry), 2-31 (Hobbs), 3-137 (Tyldesley), 4-146 (Sharp),
+     5-157 (MacLaren), 6-169 (Hirst), 7-171 (Rhodes),
+     8-174 (Barnes), 9-182 (Brearley).
+
+Bowling                      O      M      R      W
+Cotter                      17      1     45      1
+Macartney                   25.3    6     58      7
+Armstrong                   16      5     33      0
+Laver                       13      4     15      1
+Noble                       13      5     22      0
+
+Australia 2nd innings                                           R   M   B  4 6
+PA McAlister          c Sharp            b Barnes               5            0
+SE Gregory                               b Hirst                0          0 0
+VS Ransford           lbw                b Barnes              24            0
+WW Armstrong                             b Rhodes              45            0
+*MA Noble             c Rhodes           b Barnes              31            0
+VT Trumper                               b Barnes               2          0 0
+W Bardsley            c Lilley           b Barnes               2          0 0
+CG Macartney                             b Brearley            18            0
+A Cotter              c MacLaren         b Rhodes              19            0
++H Carter             c Lilley           b Barnes              30            0
+FJ Laver              not out                                  13            0
+Extras                (b 15, lb 2, nb 1)                       18
+Total                 (all out, 96.1 overs)                   207
+
+FoW: 1-0 (Gregory), 2-14 (McAlister), 3-52 (Ransford),
+     4-118 (Noble), 5-122 (Armstrong), 6-126 (Trumper),
+     7-127 (Bardsley), 8-150 (Cotter), 9-183 (Carter),
+     10-207 (Macartney).
+
+Bowling                      O      M      R      W
+Hirst                       17      3     39      1
+Barnes                      35     16     63      6
+Brearley                    24.1    6     36      1
+Rhodes                      19      3     44      2
+Sharp                        1      0      7      0
+
+England 2nd innings (target: 214 runs)                          R   M   B  4 6
+CB Fry                                   b Cotter               7            0
+JB Hobbs                                 b Cotter              30            0
+JT Tyldesley                         c & b Macartney            7            0
+J Sharp                                  b Cotter              11            0
+*AC MacLaren          c Cotter           b Macartney            1          0 0
+W Rhodes              c Armstrong        b Macartney           16            0
++AFA Lilley           lbw                b Cotter               2          0 0
+GH Hirst                                 b Cotter               0          0 0
+SF Barnes                                b Macartney            1          0 0
+W Brearley            not out                                   4            0
+GL Jessop             absent hurt                               -
+Extras                (b 1, lb 1, w 1, nb 5)                    8
+Total                 (all out, 37.5 overs)                    87
+
+FoW: 1-17 (Fry), 2-26 (Tyldesley), 3-60 (Hobbs), 4-61 (Sharp),
+     5-61 (MacLaren), 6-82 (Lilley), 7-82 (Hirst), 8-82 (Rhodes),
+     9-87 (Barnes).
+
+Bowling                      O      M      R      W
+Cotter                      16      2     38      5
+Macartney                   16.5    5     27      4
+Armstrong                    3      1      8      0
+Laver                        2      0      6      0
+
+<END>

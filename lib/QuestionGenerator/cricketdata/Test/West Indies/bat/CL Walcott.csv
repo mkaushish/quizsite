@@ -1,0 +1,75 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+293, 1948-01-21, 1, 2, England, , Laker, 8, na, na, na, 0
+293, 1948-01-21, 3, 2, England, c Ikin, Howorth, 16, na, na, na, 0
+296, 1948-02-11, 2, 5, England, c Butler, Howorth, 20, na, na, na, 0
+296, 1948-02-11, 4, 2, England, lbw, Allen, 2, na, na, 0, 0
+297, 1948-03-03, 1, 3, England, lbw, Cranston, 11, na, na, na, 0
+297, 1948-03-03, 4, 3, England, not out, , 31, na, na, na, 0
+298, 1948-03-27, 2, 8, England, c Hutton, Tremlett, 45, na, na, na, 0
+304, 1948-11-10, 1, 4, India, run out, , 152, 245, na, 12, 0
+305, 1948-12-09, 1, 3, India, run out, , 68, na, na, na, 1
+308, 1949-12-31, 1, 3, India, c Banerjee, Ghulam Ahmed, 54, na, na, na, 0
+308, 1949-12-31, 3, 6, India, c Amarnath, Mankad, 108, 164, na, 11, 2
+310, 1949-01-27, 1, 3, India, lbw, Phadkar, 43, na, na, na, 0
+311, 1949-02-04, 1, 3, India, , Phadkar, 11, na, na, na, 0
+311, 1949-02-04, 3, 3, India, , Phadkar, 16, na, na, na, 0
+323, 1950-06-08, 2, 5, England, c Evans, Berry, 13, 23, na, 2, 0
+323, 1950-06-08, 4, 5, England, , Berry, 9, 28, na, 1, 0
+324, 1950-06-24, 1, 5, England, st Evans, Jenkins, 14, na, na, na, 0
+324, 1950-06-24, 3, 6, England, not out, , 168, na, na, 24, 0
+325, 1950-07-20, 2, 6, England, , Bedser, 8, na, na, na, 0
+326, 1950-08-12, 1, 5, England, , Wright, 17, na, na, na, 0
+340, 1951-11-09, 1, 6, Australia, lbw, Lindwall, 0, 5, 1, 0, 0
+340, 1951-11-09, 3, 8, Australia, st Langley, Ring, 4, 26, na, 0, 0
+341, 1951-11-30, 1, 5, Australia, c Langley, Ring, 60, 114, na, 6, 0
+341, 1951-11-30, 3, 5, Australia, st Langley, Johnson, 10, 32, na, 0, 0
+347, 1952-01-25, 2, 3, Australia, , Lindwall, 1, 8, na, 0, 0
+347, 1952-01-25, 4, 3, Australia, c Langley, Miller, 12, 28, na, 0, 0
+349, 1952-02-08, 2, 5, New Zealand, , Hayes, 65, 129, na, 6, 0
+349, 1952-02-08, 4, 4, New Zealand, lbw, Burtt, 19, na, na, na, 0
+350, 1952-02-15, 1, 6, New Zealand, lbw, Emery, 115, 168, na, 13, 0
+363, 1953-01-21, 2, 5, India, c Ramchand, Mankad, 47, na, na, na, 0
+366, 1953-02-07, 1, 5, India, lbw, Phadkar, 98, na, na, na, 2
+366, 1953-02-07, 3, 6, India, , Phadkar, 34, na, na, na, 0
+367, 1953-02-19, 2, 3, India, st +Manjrekar, Gupte, 30, na, na, na, 0
+369, 1953-03-11, 2, 5, India, lbw, Hazare, 125, 260, na, 15, 1
+371, 1953-03-28, 2, 5, India, c Gadkari, Mankad, 118, 240, na, na, 0
+371, 1953-03-28, 4, 5, India, not out, , 5, na, na, na, 0
+380, 1954-01-15, 1, 5, England, , Lock, 65, na, na, na, 0
+380, 1954-01-15, 3, 5, England, c Bailey, Lock, 25, na, na, na, 0
+383, 1954-02-06, 1, 4, England, st Evans, Laker, 220, 390, na, 28, 1
+383, 1954-02-06, 3, 4, England, not out, , 17, na, na, na, 0
+384, 1954-02-24, 2, 4, England, , Statham, 4, na, na, na, 0
+384, 1954-02-24, 3, 5, England, lbw, Laker, 26, na, na, na, 0
+385, 1954-03-17, 1, 5, England,                c &, Laker, 124, na, na, na, 1
+385, 1954-03-17, 3, 5, England, not out, , 51, na, na, na, 0
+386, 1954-03-30, 1, 5, England, c Laker, Lock, 50, 130, na, na, 0
+386, 1954-03-30, 3, 5, England, c Graveney, Laker, 116, na, na, 20, 0
+403, 1955-03-26, 2, 5, Australia, c Benaud, Miller, 108, na, na, 12, 0
+403, 1955-03-26, 3, 5, Australia, c Archer, Lindwall, 39, na, na, na, 0
+404, 1955-04-11, 1, 3, Australia, st Langley, Benaud, 126, na, na, 17, 0
+404, 1955-04-11, 3, 3, Australia, c Watson, Archer, 110, na, na, 13, 0
+405, 1955-04-26, 1, 3, Australia,                c &, Archer, 8, na, na, na, 0
+405, 1955-04-26, 3, 3, Australia, hit wicket, Lindwall, 73, na, na, na, 0
+406, 1955-05-14, 2, 3, Australia, c Langley, Benaud, 15, na, na, na, 0
+406, 1955-05-14, 4, 3, Australia, , Benaud, 83, 161, na, 16, 0
+408, 1955-06-11, 1, 3, Australia, c Langley, Miller, 155, 294, na, 23, 0
+408, 1955-06-11, 3, 4, Australia, c Langley, Lindwall, 110, na, na, na, 0
+439, 1957-05-30, 2, 3, England, c Evans, Laker, 90, 262, na, 11, 0
+439, 1957-05-30, 4, 6, England, c Lock, Laker, 1, 28, na, 0, 0
+440, 1957-06-20, 1, 3, England, lbw, Bailey, 14, 31, na, 1, 0
+440, 1957-06-20, 3, 3, England, c Trueman, Bailey, 21, 90, na, 3, 0
+441, 1957-07-04, 2, 3, England,                c &, Laker, 17, 56, na, 2, 0
+441, 1957-07-04, 3, 3, England, c Evans, Laker, 7, 34, na, 0, 0
+442, 1957-07-25, 1, 5, England, c Cowdrey, Laker, 38, 136, na, 4, 0
+442, 1957-07-25, 3, 5, England, c Sheppard, Loader, 35, 74, na, 4, 0
+443, 1957-08-22, 2, 4, England, , Laker, 5, 7, na, 0, 0
+443, 1957-08-22, 3, 5, England, not out, , 19, 75, na, 3, 0
+446, 1958-01-17, 1, 5, Pakistan, c Mathias, Kardar, 43, na, na, na, 0
+450, 1958-02-26, 2, 5, Pakistan, not out, , 88, na, na, na, 3
+452, 1958-03-13, 2, 3, Pakistan, run out, , 145, na, na, na, 0
+453, 1958-03-26, 1, 5, Pakistan, st Imtiaz Ahmed, Nasim-ul-Ghani, 47, na, na, na, 0
+453, 1958-03-26, 3, 5, Pakistan, c Wazir Mohammad, Nasim-ul-Ghani, 62, na, na, na, 0
+490, 1960-03-09, 2, 5, England, , Trueman, 9, na, na, na, 0
+491, 1960-03-25, 2, 5, England, st Parks, Allen, 53, na, na, na, 0
+491, 1960-03-25, 4, 4, England, c Parks, Barrington, 22, na, na, na, 0

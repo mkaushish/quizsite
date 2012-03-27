@@ -1,0 +1,128 @@
+
+Test # 1147
+New Zealand in England, 1990, 3rd Test
+England v New Zealand
+Edgbaston, Birmingham
+5,6,7,9,10 July 1990 (5-day match)
+
+Result: England won by 114 runs
+Series: England wins the 3-match series 1-0
+
+Toss: New Zealand
+Umpires: JW Holder and BJ Meyer
+Test debuts: CC Lewis (England); AC Parore (New Zealand).
+Player of the match: DE Malcolm
+Players of the series: MA Atherton and Sir RJ Hadlee
+
+Close of play:
+ Day 1: England 191/1 (Gooch 95*, Stewart 8*)
+ Day 2: England 435, New Zealand 9/0 (Franklin 8*, Wright 1*)
+ Day 3: New Zealand 249
+ Day 4: England 158, New Zealand 101/2 (Jones 37*, Crowe 10*)
+
+England 1st innings                                             R   M   B  4 6
+*GA Gooch             c Hadlee           b Morrison           154 396 281 19 1
+MA Atherton           lbw                b Snedden             82 205 176 12 0
+AJ Stewart            c Parore           b Morrison             9  48  39  1 0
+AJ Lamb               c Parore           b Hadlee               2  26  17  0 0
+RA Smith              c Jones            b Bracewell           19  39  34  3 0
+NH Fairbrother        lbw                b Snedden              2  11   8  0 0
++RC Russell                              b Snedden             43 116  99  7 0
+CC Lewis              c Rutherford       b Bracewell           32  97  76  4 0
+GC Small              not out                                  44 107  89  7 0
+EE Hemmings           c Parore           b Hadlee              20  64  42  2 1
+DE Malcolm                               b Hadlee               0   2   3  0 0
+Extras                (b 4, lb 15, nb 9)                       28
+Total                 (all out, 141.5 overs)                  435
+
+FoW: 1-170 (Atherton), 2-193 (Stewart), 3-198 (Lamb),
+     4-245 (Smith), 5-254 (Fairbrother), 6-316 (Gooch),
+     7-351 (Russell), 8-381 (Lewis), 9-435 (Hemmings),
+     10-435 (Malcolm).
+
+Bowling                      O      M      R      W
+Hadlee                      37.5    8     97      3
+Morrison                    26      7     81      2
+Snedden                     35      9    106      3
+Bracewell                   42     12    130      2
+Jones                        1      0      2      0
+
+New Zealand 1st innings                                         R   M   B  4 6
+TJ Franklin           c Smith            b Hemmings            66 278 207  8 0
+*JG Wright            c Russell          b Malcolm             24  96  74  4 0
+AH Jones              c Russell          b Malcolm              2  31  14  0 0
+MD Crowe              lbw                b Lewis               11  47  35  1 0
+MJ Greatbatch                            b Malcolm             45  94  82  8 0
+KR Rutherford         c Stewart          b Hemmings            29  77  59  4 0
+Sir RJ Hadlee         c Atherton         b Hemmings             8  28  19  0 0
+JG Bracewell                             b Hemmings            25  28  22  4 0
++AC Parore            not out                                  12  53  38  2 0
+MC Snedden            lbw                b Hemmings             2  27  33  0 0
+DK Morrison                              b Hemmings             1  11  10  0 0
+Extras                (b 9, lb 11, w 2, nb 2)                  24
+Total                 (all out, 98.3 overs)                   249
+
+FoW: 1-45 (Wright), 2-67 (Jones), 3-90 (Crowe),
+     4-161 (Greatbatch), 5-163 (Franklin), 6-185 (Hadlee),
+     7-223 (Bracewell), 8-230 (Rutherford), 9-243 (Snedden),
+     10-249 (Morrison).
+
+Bowling                      O      M      R      W
+Small                       18      7     44      0
+Malcolm                     25      7     59      3
+Lewis                       19      5     51      1
+Hemmings                    27.3   10     58      6
+Atherton                     9      5     17      0
+
+England 2nd innings                                             R   M   B  4 6
+*GA Gooch                                b Snedden             30  48  32  4 0
+MA Atherton           c Rutherford       b Bracewell           70 192 132  5 0
+AJ Stewart            lbw                b Bracewell           15  40  30  2 0
+AJ Lamb               st Parore          b Bracewell            4  11   9  1 0
+RA Smith                             c & b Hadlee              14  32  25  2 0
+NH Fairbrother        lbw                b Bracewell            3   6   8  0 0
++RC Russell           c sub (JJ Crowe)   b Hadlee               0  11   8  0 0
+CC Lewis              c Parore           b Hadlee               1  16  23  0 0
+GC Small              not out                                  11  32  22  2 0
+EE Hemmings                              b Hadlee               0   6   6  0 0
+DE Malcolm            lbw                b Hadlee               0   3   3  0 0
+Extras                (lb 6, nb 4)                             10
+Total                 (all out, 49 overs)                     158
+
+FoW: 1-50 (Gooch), 2-87 (Stewart), 3-99 (Lamb), 4-129 (Smith),
+     5-136 (Fairbrother), 6-141 (Russell), 7-146 (Lewis),
+     8-157 (Atherton), 9-158 (Hemmings), 10-158 (Malcolm).
+
+Bowling                      O      M      R      W
+Hadlee                      21      3     53      5
+Morrison                     3      1     29      0
+Snedden                      9      0     32      1
+Bracewell                   16      5     38      4
+
+New Zealand 2nd innings (target: 345 runs)                      R   M   B  4 6
+TJ Franklin           lbw                b Malcolm              5  34  21  1 0
+*JG Wright            c Smith            b Lewis               46 124  93  7 0
+AH Jones              c Gooch            b Small               40 135  99  1 1
+MD Crowe              lbw                b Malcolm             25  78  70  3 0
+MJ Greatbatch         c Atherton         b Hemmings            22  64  45  4 0
+KR Rutherford         c Lamb             b Lewis               18  51  29  2 0
+Sir RJ Hadlee                            b Malcolm             13  52  51  1 0
++AC Parore            c Lamb             b Lewis               20  82  72  2 0
+JG Bracewell          c Atherton         b Malcolm              0   3   3  0 0
+MC Snedden            not out                                  21  72  51  3 0
+DK Morrison                              b Malcolm              6  26  20  1 0
+Extras                (lb 9, w 1, nb 4)                        14
+Total                 (all out, 91.4 overs)                   230
+
+FoW: 1-25 (Franklin), 2-85 (Wright), 3-111 (Jones),
+     4-125 (Crowe), 5-155 (Greatbatch), 6-163 (Rutherford),
+     7-180 (Hadlee), 8-180 (Bracewell), 9-203 (Parore),
+     10-230 (Morrison).
+
+Bowling                      O      M      R      W
+Small                       16      5     56      1
+Malcolm                     24.4    8     46      5
+Lewis                       22      3     76      3
+Hemmings                    29     13     43      1
+
+<END>

@@ -1,0 +1,98 @@
+
+Test # 246
+South Africa in England, 1935, 5th Test
+England v South Africa
+Kennington Oval, London
+17,19,20 August 1935 (3-day match)
+
+Result: Match drawn
+Series: South Africa wins the 5-match series 1-0
+
+Toss: England
+Umpires: F Chester and J Hardstaff snr
+Test debuts: JC Clay, HD Read (England).
+
+Close of play:
+ Day 1: South Africa 297/6 (Viljoen 60*, Dalton 21*)
+ Day 2: South Africa 476, England 313/4 (Leyland 119*, Ames 25*)
+
+South Africa 1st innings                                        R   M   B  4 6
+IJ Siedle             c Ames             b Robins              35            0
+B Mitchell            c Ames             b Read               128 280     11 0
+EAB Rowan             lbw                b Robins               0          0 0
+AD Nourse             c Wyatt            b Bowes               32            0
+KG Viljoen            c Clay             b Read                60 170        0
++HB Cameron           c Mitchell         b Read                 8            0
+*HF Wade              c Hammond          b Bowes                0          0 0
+EL Dalton             c Robins           b Read               117 140     18 0
+CL Vincent                               b Robins               5            0
+ACB Langton           not out                                  73            0
+RJ Crisp              c Ames             b Bowes                0          0 0
+Extras                (b 6, lb 10, nb 2)                       18
+Total                 (all out, 145.4 overs)                  476
+
+FoW: 1-116 (Siedle), 2-116 (Rowan), 3-164 (Nourse),
+     4-234 (Mitchell), 5-248 (Cameron), 6-254 (Wade),
+     7-312 (Viljoen), 8-333 (Vincent), 9-470 (Dalton),
+     10-476 (Crisp).
+
+Bowling                      O      M      R      W
+Read                        35     13    136      4
+Nichols                     23      3     79      0
+Bowes                       40.4    7    112      3
+Hammond                      9      2     25      0
+Clay                        14      1     30      0
+Robins                      22      3     73      3
+Wyatt                        2      0      3      0
+
+England 1st innings                                             R   M   B  4 6
+AH Bakewell           c Cameron          b Langton             20            0
+A Mitchell                               b Crisp               40  90        0
+*RES Wyatt            c Cameron          b Vincent             37            0
+WR Hammond            st Cameron         b Vincent             65            0
+M Leyland             st Cameron         b Mitchell           161 250     17 1
++LEG Ames             not out                                 148 210     14 2
+MS Nichols            c Siedle           b Langton             30            0
+RWV Robins            not out                                  10            0
+Extras                (b 5, lb 16, nb 2)                       23
+Total                 (6 wickets dec, 132 overs)              534
+
+DNB: JC Clay, WE Bowes, HD Read.
+
+FoW: 1-34 (Bakewell), 2-98 (Wyatt), 3-98 (Mitchell),
+     4-249 (Hammond), 5-428 (Leyland), 6-506 (Nichols).
+
+Bowling                      O      M      R      W
+Crisp                       28      0    113      1
+Langton                     38      5    124      2
+Dalton                      16      1     50      0
+Vincent                     42      5    188      2
+Mitchell                     8      0     36      1
+
+South Africa 2nd innings                                        R   M   B  4 6
+IJ Siedle                                b Bowes               36            0
+B Mitchell                               b Read                 9            0
+EAB Rowan                                b Bowes                7            0
+AD Nourse                                b Read                34            0
+KG Viljoen            st Ames            b Robins              45            0
++HB Cameron           st Ames            b Robins              42            0
+*HF Wade              not out                                  40            0
+EL Dalton             not out                                  57            0
+Extras                (b 6, lb 9, nb 2)                        17
+Total                 (6 wickets, 73 overs)                   287
+
+DNB: CL Vincent, ACB Langton, RJ Crisp.
+
+FoW: 1-16 (Mitchell), 2-23 (Rowan), 3-67 (Siedle),
+     4-112 (Nourse), 5-178 (Cameron), 6-193 (Viljoen).
+
+Bowling                      O      M      R      W
+Read                        10      1     64      2
+Nichols                      5      1     20      0
+Bowes                       13      2     40      2
+Clay                        18      6     45      0
+Robins                      17      1     61      2
+Wyatt                        3      0     25      0
+Leyland                      7      2     15      0
+
+<END>

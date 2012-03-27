@@ -1,0 +1,101 @@
+
+Test # 259
+The Ashes, 1936/37, 5th Test
+Australia v England
+Melbourne Cricket Ground
+26,27 February, 1,2,3 March 1937 (timeless match)
+
+Result: Australia won by an innings and 200 runs
+Series: Australia wins the 5-match series 3-2
+
+Toss: Australia
+Umpires: GE Borwick and JD Scott
+Balls per over: 8
+
+Close of play:
+ Day 1: Australia 342/3 (Bradman 165*, Badcock 12*)
+ Day 2: Australia 593/9 (McCormick 9*, Fleetwood-Smith 11*)
+ Day 3: Australia 604, England 184/4 (Hardstaff 73*, Wyatt 20*)
+ Day 4: England 239, England 165/8 (Verity 2*, Voce 1*)
+
+Australia 1st innings                                           R   M   B  4 6
+JHW Fingleton         c Voce             b Farnes              17  89  68  1 0
+KE Rigg               c Ames             b Farnes              28  78  87  2 0
+*DG Bradman                              b Farnes             169 223 191 15 0
+SJ McCabe             c Farnes           b Verity             112 163 155 16 0
+CL Badcock            c Worthington      b Voce               118 205 223 15 0
+RG Gregory            c Verity           b Farnes              80 195 181  5 0
++WAS Oldfield         c Ames             b Voce                21  76  88  1 0
+LJ Nash               c Ames             b Farnes              17  75  59  0 0
+WJ O'Reilly                              b Voce                 1  15   8  0 0
+EL McCormick          not out                                  17  47  51  2 0
+LO Fleetwood-Smith                       b Farnes              13  27  17  1 1
+Extras                (b 1, lb 5, w 1, nb 4)                   11
+Total                 (all out, 140.5 overs)                  604
+
+FoW: 1-42 (Rigg), 2-54 (Fingleton), 3-303 (McCabe),
+     4-346 (Bradman), 5-507 (Badcock), 6-544 (Gregory),
+     7-563 (Oldfield), 8-571 (O'Reilly), 9-576 (Nash),
+     10-604 (Fleetwood-Smith).
+
+Bowling                      O      M      R      W
+Allen                       17      0     99      0
+Farnes                      28.5    5     96      6
+Voce                        29      3    123      3
+Hammond                     16      1     62      0
+Verity                      41      5    127      1
+Worthington                  6      0     60      0
+Leyland                      3      0     26      0
+
+England 1st innings                                             R   M   B  4 6
+CJ Barnett            c Oldfield         b Nash                18  17  14  3 0
+TS Worthington        hit wicket         b Fleetwood-Smith     44  98  87  7 0
+J Hardstaff jnr       c McCormick        b O'Reilly            83 240 234  8 0
+WR Hammond            c Nash             b O'Reilly            14  62  54  1 0
+M Leyland                                b O'Reilly             7  13  16  0 0
+RES Wyatt             c Bradman          b O'Reilly            38 127  97  1 0
++LEG Ames                                b Nash                19  39  43  2 0
+*GOB Allen            c Oldfield         b Nash                 0   9   3  0 0
+H Verity              c Rigg             b Nash                 0  17  14  0 0
+W Voce                st Oldfield        b O'Reilly             3   6   9  0 0
+K Farnes              not out                                   0   3   2  0 0
+Extras                (lb 12, nb 1)                            13
+Total                 (all out, 71.5 overs)                   239
+
+FoW: 1-33 (Barnett), 2-96 (Worthington), 3-130 (Hammond),
+     4-140 (Leyland), 5-202 (Hardstaff), 6-236 (Ames),
+     7-236 (Wyatt), 8-236 (Allen), 9-239 (Voce), 10-239 (Verity).
+
+Bowling                      O      M      R      W
+McCormick                   13      1     54      0
+Nash                        17.5    1     70      4
+O'Reilly                    23      7     51      5
+Fleetwood-Smith             18      3     51      1
+
+England 2nd innings (following on)                              R   M   B  4 6
+CJ Barnett            lbw                b O'Reilly            41  61  55  4 1
+TS Worthington        c Bradman          b McCormick            6  18  16  1 0
+J Hardstaff jnr                          b Nash                 1   4   4  0 0
+WR Hammond            c Bradman          b O'Reilly            56  95 106  9 0
+M Leyland             c McCormick        b Fleetwood-Smith     28  95  69  2 0
+RES Wyatt             run out                                   9  31  47  1 0
++LEG Ames             c McCabe           b McCormick           11  41  27  0 0
+*GOB Allen            c Nash             b O'Reilly             7  18  26  1 0
+H Verity              not out                                   2  29  35  0 0
+W Voce                c Badcock          b Fleetwood-Smith      1   8   9  0 0
+K Farnes              c Nash             b Fleetwood-Smith      0   1   1  0 0
+Extras                (lb 3)                                    3
+Total                 (all out, 49.2 overs)                   165
+
+FoW: 1-9 (Worthington), 2-10 (Hardstaff), 3-70 (Barnett),
+     4-121 (Hammond), 5-142 (Wyatt), 6-142 (Leyland),
+     7-153 (Allen), 8-162 (Ames), 9-165 (Voce), 10-165 (Farnes).
+
+Bowling                      O      M      R      W
+McCormick                    9      0     33      2
+Nash                         7      1     34      1
+O'Reilly                    19      6     58      3
+Fleetwood-Smith             13.2    3     36      3
+McCabe                       1      0      1      0
+
+<END>

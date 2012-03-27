@@ -1,0 +1,100 @@
+
+Test # 1007
+England in India, 1984/85, 3rd Test
+India v England
+Eden Gardens, Calcutta
+31 December 1984, 1,3,4,5 January 1985 (5-day match)
+
+Result: Match drawn
+Series: 5-match series level 1-1
+
+Toss: India
+Umpires: B Ganguli and V Vikramraju
+Test debut: M Azharuddin (India).
+
+Close of play:
+ Day 1: India 168/4 (Azharuddin 13*, Shastri 26*)
+ Day 2: India 176/4 (Azharuddin 21*, Shastri 26*)
+ Day 3: India 348/5 (Shastri 108*, Kirmani 0*)
+ Day 4: India 437/7d, England 99/2 (Robinson 25*, Pocock 0*)
+
+India 1st innings                                               R   M   B  4 6
+*SM Gavaskar          c Gatting          b Edmonds             13  89  56  1 0
+AD Gaekwad            c Downton          b Cowans              18  68  38  1 0
+DB Vengsarkar                            b Edmonds             48 176 157  6 0
+M Amarnath            c Cowdrey          b Edmonds             42 140 107  7 0
+M Azharuddin          c Gower            b Cowans             110 443 322 10 0
+RJ Shastri                               b Cowans             111 455 357 13 0
++SMH Kirmani          c Fowler           b Pocock              35 114  59  1 1
+M Prabhakar           not out                                  35 122  86  2 0
+C Sharma              not out                                  13  34  23  0 0
+Extras                (lb 8, w 1, nb 3)                        12
+Total                 (7 wickets dec, 200 overs)              437
+
+DNB: NS Yadav, L Sivaramakrishnan.
+
+FoW: 1-28 (Gaekwad), 2-35 (Gavaskar), 3-126 (Amarnath),
+     4-127 (Vengsarkar), 5-341 (Azharuddin), 6-356 (Shastri),
+     7-407 (Kirmani).
+
+Bowling                      O      M      R      W
+Cowans                      41     12    103      3
+Ellison                     53     14    117      0
+Edmonds                     47     22     72      3
+Pocock                      52     14    108      1
+Gatting                      2      1      1      0
+Cowdrey                      2      0     15      0
+Gower                        3      0     13      0
+
+England 1st innings                                             R   M   B  4 6
+G Fowler              c Vengsarkar       b Sivaramakrishnan    49 165 133  5 0
+RT Robinson                              b Yadav               36 168 108  3 0
+*DI Gower             c Shastri          b Yadav               19  54  44  2 0
+PI Pocock             c Azharuddin       b Sivaramakrishnan     5  24  30  1 0
+MW Gatting                               b Yadav               48  46  48  6 1
+AJ Lamb               c Kirmani          b Sharma              67 136 102  7 2
+CS Cowdrey            lbw                b Yadav               27  77  61  3 0
++PR Downton           not out                                   6  89  51  0 0
+PH Edmonds            c Gavaskar         b Sharma               8  15  14  1 0
+RM Ellison                           c & b Sharma               1  18  15  0 0
+NG Cowans                                b Sharma               1   8   6  0 0
+Extras                (lb 2, nb 7)                              9
+Total                 (all out, 100.3 overs)                  276
+
+FoW: 1-71 (Gower), 2-98 (Fowler), 3-110 (Pocock),
+     4-152 (Robinson), 5-163 (Gatting), 6-229 (Cowdrey),
+     7-261 (Lamb), 8-270 (Edmonds), 9-273 (Ellison),
+     10-276 (Cowans).
+
+Bowling                      O      M      R      W
+Sharma                      12.3    0     38      4
+Prabhakar                    5      1     16      0
+Sivaramakrishnan            28      7     90      2
+Yadav                       32     10     86      4
+Shastri                     23      6     44      0
+
+India 2nd innings                                               R   M   B  4 6
+RJ Shastri            not out                                   7  68  50  1 0
+M Prabhakar           lbw                b Lamb                21  63  56  3 0
+NS Yadav              not out                                   0   4   4  0 0
+Extras                (nb 1)                                    1
+Total                 (1 wicket, 18 overs)                     29
+
+DNB: *SM Gavaskar, AD Gaekwad, DB Vengsarkar, M Amarnath,
+     M Azharuddin, +SMH Kirmani, C Sharma, L Sivaramakrishnan.
+
+FoW: 1-29 (Prabhakar).
+
+Bowling                      O      M      R      W
+Cowans                       4      1      6      0
+Ellison                      1      0      1      0
+Edmonds                      4      3      2      0
+Pocock                       2      1      4      0
+Cowdrey                      4      0     10      0
+Lamb                         1      0      6      1
+Robinson                     1      1      0      0
+Fowler                       1      1      0      0
+
+*** RT Robinson (1) retired hurt on 17* from 31/0 to 71/1
+
+<END>

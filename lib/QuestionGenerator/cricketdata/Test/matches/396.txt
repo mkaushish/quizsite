@@ -1,0 +1,124 @@
+
+Test # 396
+The Ashes, 1954/55, 4th Test
+Australia v England
+Adelaide Oval
+28,29,31 January, 1,2 February 1955 (6-day match)
+
+Result: England won by 5 wickets
+Series: England leads the 5-match series 3-1
+
+Toss: Australia
+Umpires: MJ McInnes and RJJ Wright
+Balls per over: 8
+
+Close of play:
+ Day 1: Australia 161/4 (Miller 26*, Benaud 11*)
+ Day 2: Australia 323, England 57/0 (Hutton 34*, Edrich 21*)
+ Day 3: England 230/3 (Cowdrey 77*, Compton 44*)
+ Day 4: England 341, Australia 69/3 (McDonald 29*, Miller 12*)
+
+Australia 1st innings                                           R   M   B  4 6
+CC McDonald           c May              b Appleyard           48 168      5 0
+AR Morris             c Evans            b Tyson               25 110      1 0
+JW Burke              c May              b Tyson               18  81      1 0
+RN Harvey             c Edrich           b Bailey              25  62      3 0
+KR Miller             c Bailey           b Appleyard           44 149      4 0
+R Benaud              c May              b Appleyard           15 104      2 0
++LV Maddocks          run out                                  69 169      7 0
+RG Archer             c May              b Tyson               21  37      3 1
+AK Davidson           c Evans            b Bailey               5  17      0 0
+*IWG Johnson          c Statham          b Bailey              41  94      5 0
+WA Johnston           not out                                   0   1      0 0
+Extras                (b 3, lb 7, nb 2)                        12
+Total                 (all out, 99.1 overs)                   323
+
+FoW: 1-59 (Morris), 2-86 (McDonald), 3-115 (Burke),
+     4-129 (Harvey), 5-175 (Benaud), 6-182 (Miller),
+     7-212 (Archer), 8-229 (Davidson), 9-321 (Johnson),
+     10-323 (Maddocks).
+
+Bowling                      O      M      R      W
+Tyson                       26.1    4     85      3
+Statham                     19      4     70      0
+Bailey                      12      3     39      3
+Appleyard                   23      7     58      3
+Wardle                      19      5     59      0
+
+England 1st innings                                             R   M   B  4 6
+*L Hutton             c Davidson         b Johnston            80 270      5 0
+WJ Edrich                                b Johnson             21  92      2 0
+PBH May               c Archer           b Benaud               1   9      0 0
+MC Cowdrey            c Maddocks         b Davidson            79 296      9 0
+DCS Compton           lbw                b Miller              44 124      5 0
+TE Bailey             c Davidson         b Johnston            38 145      2 0
++TG Evans             c Maddocks         b Benaud              37  36      5 0
+JH Wardle                            c & b Johnson             23  67      2 1
+FH Tyson              c Burke            b Benaud               1  22      0 0
+R Appleyard           not out                                  10  18      2 0
+JB Statham            c Maddocks         b Benaud               0   7      0 0
+Extras                (b 1, lb 2, nb 4)                         7
+Total                 (all out, 140.6 overs)                  341
+
+FoW: 1-60 (Edrich), 2-63 (May), 3-162 (Hutton), 4-232 (Compton),
+     5-232 (Cowdrey), 6-283 (Evans), 7-321 (Wardle),
+     8-323 (Tyson), 9-336 (Bailey), 10-341 (Statham).
+
+Bowling                      O      M      R      W
+Miller                      11      4     34      1
+Archer                       3      0     12      0
+Johnson                     36     17     46      2
+Davidson                    25      8     55      1
+Johnston                    27     11     60      2
+Benaud                      36.6    6    120      4
+Burke                        2      0      7      0
+
+Australia 2nd innings                                           R   M   B  4 6
+CC McDonald                              b Statham             29 126      1 0
+AR Morris                            c & b Appleyard           16  29      1 0
+JW Burke                                 b Appleyard            5  27      1 0
+RN Harvey                                b Appleyard            7  21      0 0
+KR Miller                                b Statham             14  47      1 0
++LV Maddocks          lbw                b Statham              2  28      0 0
+R Benaud              lbw                b Tyson                1   5      0 0
+RG Archer             c Evans            b Tyson                3  17      0 0
+AK Davidson           lbw                b Wardle              23  76      1 0
+WA Johnston           c Appleyard        b Tyson                3  35      0 0
+*IWG Johnson          not out                                   3  31      0 0
+Extras                (b 4, lb 1)                               5
+Total                 (all out, 43.2 overs)                   111
+
+FoW: 1-24 (Morris), 2-40 (Burke), 3-54 (Harvey), 4-69 (McDonald),
+     5-76 (Miller), 6-77 (Benaud), 7-79 (Maddocks),
+     8-83 (Archer), 9-101 (Johnston), 10-111 (Davidson).
+
+Bowling                      O      M      R      W
+Tyson                       15      2     47      3
+Statham                     12      1     38      3
+Appleyard                   12      7     13      3
+Wardle                       4.2    1      8      1
+
+England 2nd innings (target: 94 runs)                           R   M   B  4 6
+*L Hutton             c Davidson         b Miller               5  11      0 0
+WJ Edrich                                b Miller               0   2      0 0
+PBH May               c Miller           b Johnston            26  71      2 0
+MC Cowdrey            c Archer           b Miller               4   9      1 0
+DCS Compton           not out                                  34 115      1 0
+TE Bailey             lbw                b Johnston            15  57      2 0
++TG Evans             not out                                   6   3      1 0
+Extras                (b 3, lb 4)                               7
+Total                 (5 wickets, 30.4 overs)                  97
+
+DNB: JH Wardle, FH Tyson, R Appleyard, JB Statham.
+
+FoW: 1-3 (Edrich), 2-10 (Hutton), 3-18 (Cowdrey), 4-49 (May),
+     5-90 (Bailey).
+
+Bowling                      O      M      R      W
+Miller                      10.4    2     40      3
+Archer                       4      0     13      0
+Davidson                     2      0      7      0
+Johnston                     8      2     20      2
+Benaud                       6      2     10      0
+
+<END>

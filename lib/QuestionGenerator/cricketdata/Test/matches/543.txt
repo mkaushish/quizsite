@@ -1,0 +1,111 @@
+
+Test # 543
+The Wisden Trophy, 1963, 1st Test
+England v West Indies
+Old Trafford, Manchester
+6,7,8,10 June 1963 (5-day match)
+
+Result: West Indies won by 10 wickets
+Series: West Indies leads the 5-match series 1-0
+
+Toss: West Indies
+Umpires: CS Elliott and JG Langridge
+Test debuts: JH Edrich (England); MC Carew, DL Murray (West Indies).
+
+Close of play:
+ Day 1: West Indies 244/3 (Hunte 104*, Sobers 3*)
+ Day 2: West Indies 501/6d, England 31/0 (Stewart 7*, Edrich 20*)
+ Day 3: England 205, England 97/1 (Stewart 44*, Andrew 4*)
+
+West Indies 1st innings                                         R   M   B  4 6
+CC Hunte              c Titmus           b Allen              182 503     27 0
+MC Carew              c Andrew           b Trueman             16  60        0
+RB Kanhai             run out                                  90 160     10 0
+BF Butcher            lbw                b Trueman             22  60        0
+GS Sobers             c Edrich           b Allen               64 150        2
+JS Solomon            lbw                b Titmus              35 140        0
+*FMM Worrell          not out                                  74  95     15 0
++DL Murray            not out                                   7            0
+Extras                (b 3, lb 7, nb 1)                        11
+Total                 (6 wickets dec, 196 overs)              501
+
+DNB: WW Hall, CC Griffith, LR Gibbs.
+
+FoW: 1-37 (Carew), 2-188 (Kanhai), 3-239 (Butcher),
+     4-359 (Sobers), 5-398 (Hunte), 6-479 (Solomon).
+
+Bowling                      O      M      R      W
+Trueman                     40      7     95      2
+Statham                     37      6    121      0
+Titmus                      40     13    105      1
+Close                       10      2     31      0
+Allen                       57     22    122      2
+Dexter                      12      4     16      0
+
+England 1st innings                                             R   M   B  4 6
+MJ Stewart            c Murray           b Gibbs               37 160        0
+JH Edrich             c Murray           b Hall                20          4 0
+KF Barrington         c Murray           b Hall                16          2 0
+MC Cowdrey                               b Hall                 4          0 0
+*ER Dexter            c Worrell          b Sobers              73 195      7 2
+DB Close              c Hunte            b Gibbs               30            0
+FJ Titmus             c Sobers           b Gibbs                0  22      0 0
+DA Allen              c Sobers           b Gibbs                5            0
+FS Trueman            c Worrell          b Sobers               5          1 0
++KV Andrew            not out                                   3          0 0
+JB Statham                               b Gibbs                0          0 0
+Extras                (b 2, lb 7, nb 3)                        12
+Total                 (all out, 90.3 overs)                   205
+
+FoW: 1-34 (Edrich), 2-61 (Barrington), 3-67 (Cowdrey),
+     4-108 (Stewart), 5-181 (Close), 6-190 (Titmus),
+     7-192 (Dexter), 8-202 (Allen), 9-202 (Trueman),
+     10-205 (Statham).
+
+Bowling                      O      M      R      W
+Hall                        17      4     51      3
+Griffith                    21      4     37      0
+Gibbs                       29.3    9     59      5
+Sobers                      22     11     34      2
+Worrell                      1      0     12      0
+
+England 2nd innings (following on)                              R   M   B  4 6
+MJ Stewart            c Murray           b Gibbs               87 210     11 0
+JH Edrich             c Hunte            b Worrell             38            0
++KV Andrew            c Murray           b Sobers              15  55        0
+KF Barrington                            b Gibbs                8          1 0
+MC Cowdrey            c Hunte            b Gibbs               12          2 0
+*ER Dexter            c Murray           b Gibbs               35            0
+DB Close              c Sobers           b Gibbs               32            0
+FJ Titmus                                b Sobers              17            0
+DA Allen                                 b Gibbs                1          0 0
+FS Trueman            not out                                  29            2
+JB Statham                               b Griffith             7          0 1
+Extras                (b 10, lb 4, nb 1)                       15
+Total                 (all out, 109.5 overs)                  296
+
+FoW: 1-93 (Edrich), 2-131 (Andrew), 3-160 (Barrington),
+     4-165 (Stewart), 5-186 (Cowdrey), 6-231 (Dexter),
+     7-254 (Close), 8-256 (Allen), 9-268 (Titmus),
+     10-296 (Statham).
+
+Bowling                      O      M      R      W
+Hall                        14      0     39      0
+Griffith                     8.5    4     11      1
+Gibbs                       46     16     98      6
+Sobers                      37      4    122      2
+Worrell                      4      2     11      1
+
+West Indies 2nd innings (target: 1 runs)                        R   M   B  4 6
+CC Hunte              not out                                   1   1   1  0 0
+MC Carew              not out                                   0   1   0  0 0
+Extras                                                          0
+Total                 (0 wickets, 0.1 overs)                    1
+
+DNB: RB Kanhai, BF Butcher, GS Sobers, JS Solomon, *FMM Worrell,
+     +DL Murray, WW Hall, CC Griffith, LR Gibbs.
+
+Bowling                      O      M      R      W
+Allen                        0.1    0      1      0
+
+<END>

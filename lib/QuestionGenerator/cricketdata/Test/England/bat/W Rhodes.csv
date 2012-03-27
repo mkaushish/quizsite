@@ -1,0 +1,99 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+60, 1899-06-01, 2, 10, Australia, c Kelly, Jones, 6, na, na, na, 0
+61, 1899-06-15, 1, 11, Australia, , Jones, 2, na, na, 0, 0
+61, 1899-06-15, 3, 10, Australia,                c &, Noble, 2, na, na, 0, 0
+64, 1899-08-14, 1, 11, Australia, not out, , 8, na, na, na, 0
+70, 1902-05-29, 1, 11, Australia, not out, , 38, na, na, na, 0
+72, 1902-07-03, 2, 10, Australia, not out, , 7, na, na, na, 0
+72, 1902-07-03, 4, 10, Australia, not out, , 7, na, na, na, 0
+73, 1902-07-24, 2, 10, Australia,                c &, Trumble, 5, na, na, na, 0
+73, 1902-07-24, 4, 10, Australia, not out, , 4, na, na, na, 0
+74, 1902-08-11, 2, 11, Australia, not out, , 0, na, na, 0, 0
+74, 1902-08-11, 4, 11, Australia, not out, , 6, na, na, 1, 0
+78, 1903-12-11, 2, 11, Australia, not out, , 40, 66, na, 5, 0
+79, 1904-01-01, 1, 8, Australia, lbw, Trumble, 2, 11, na, 0, 0
+79, 1904-01-01, 3, 6, Australia, lbw, Trumble, 9, 21, na, 1, 0
+80, 1904-01-15, 2, 8, Australia, c Armstrong, McLeod, 9, 30, na, 1, 0
+80, 1904-01-15, 4, 10, Australia, run out, , 8, 15, na, 2, 0
+81, 1904-02-26, 1, 11, Australia, st Kelly, Noble, 10, 18, na, 0, 0
+81, 1904-02-26, 3, 11, Australia, c McAlister, Cotter, 29, 59, na, 4, 0
+82, 1904-03-05, 2, 2, Australia, c Gehrs, Cotter, 3, 15, na, 0, 0
+82, 1904-03-05, 4, 8, Australia, not out, , 16, 19, na, 2, 0
+83, 1905-05-29, 1, 10, Australia, c Noble, Laver, 29, na, na, na, 0
+83, 1905-05-29, 3, 7, Australia, not out, , 39, na, na, na, 0
+84, 1905-06-15, 1, 8, Australia, , Hopkins, 15, na, na, na, 0
+86, 1905-07-24, 1, 9, Australia, not out, , 27, na, na, na, 0
+87, 1905-08-14, 1, 9, Australia, , Cotter, 36, na, na, na, 0
+96, 1907-12-13, 1, 7, Australia, run out, , 1, 2, na, 0, 0
+96, 1907-12-13, 3, 1, Australia, c McAlister, Macartney, 29, 59, na, 2, 0
+97, 1908-01-01, 2, 7, Australia, , Saunders, 32, 98, na, 4, 0
+97, 1908-01-01, 4, 7, Australia, run out, , 15, 22, na, na, 0
+98, 1908-01-10, 2, 7, Australia, c Carter, O'Connor, 38, 87, na, 3, 1
+98, 1908-01-10, 4, 7, Australia, c Armstrong, O'Connor, 9, 20, na, 1, 0
+99, 1908-02-07, 2, 6, Australia, c McAlister, Saunders, 0, 2, 3, 0, 0
+99, 1908-02-07, 4, 6, Australia, c Carter, O'Connor, 2, 10, na, 0, 0
+100, 1908-02-21, 2, 8, Australia, c Noble, Armstrong, 10, 19, na, 1, 0
+100, 1908-02-21, 4, 7, Australia, , Noble, 69, 160, na, 4, 0
+101, 1909-05-27, 2, 8, Australia, not out, , 15, na, na, na, 0
+103, 1909-07-01, 2, 6, Australia, c Carter, Laver, 12, na, na, na, 0
+103, 1909-07-01, 4, 6, Australia, c Armstrong, Macartney, 16, na, na, na, 0
+104, 1909-07-26, 2, 5, Australia, c Carter, Laver, 5, na, na, na, 0
+104, 1909-07-26, 4, 5, Australia, not out, , 0, na, na, 0, 0
+105, 1909-08-09, 2, 3, Australia, c Carter, Cotter, 66, na, na, na, 0
+105, 1909-08-09, 4, 2, Australia, st Carter, Armstrong, 54, na, na, na, 0
+106, 1910-01-01, 2, 2, South Africa, , Vogler, 66, na, na, na, 0
+106, 1910-01-01, 4, 2, South Africa, c Nourse, Vogler, 2, na, na, 0, 0
+107, 1910-01-21, 2, 2, South Africa, c Schwarz, Vogler, 44, na, na, na, 0
+107, 1910-01-21, 4, 2, South Africa, c White, Sinclair, 17, na, na, na, 0
+108, 1910-02-26, 2, 1, South Africa, c Faulkner, Vogler, 14, na, na, na, 0
+108, 1910-02-26, 4, 4, South Africa, c Snooke, Faulkner, 1, na, na, 0, 0
+109, 1910-03-07, 1, 2, South Africa, c Faulkner, Snooke, 0, na, na, 0, 0
+109, 1910-03-07, 3, 2, South Africa, , Snooke, 5, na, na, na, 0
+110, 1910-03-11, 1, 2, South Africa, , Nourse, 77, na, na, na, 0
+110, 1910-03-11, 4, 2, South Africa, not out, , 0, na, na, 0, 0
+116, 1911-12-15, 2, 4, Australia, c Hill, Hordern, 41, 59, 71, 4, 0
+116, 1911-12-15, 4, 5, Australia, c Trumper, Hordern, 0, 5, 5, 0, 0
+117, 1912-12-30, 2, 1, Australia, c Trumper, Cotter, 61, 134, 144, 6, 0
+117, 1912-12-30, 4, 1, Australia, c Carter, Cotter, 28, 55, 50, 1, 0
+118, 1912-01-12, 2, 2, Australia, lbw, Cotter, 59, 159, 173, 5, 0
+118, 1912-01-12, 4, 2, Australia, not out, , 57, 120, 108, 6, 0
+119, 1912-02-09, 2, 2, Australia, c Carter, Minnett, 179, 397, 405, 15, 0
+120, 1912-02-23, 1, 2, Australia, , Macartney, 8, 15, 15, 2, 0
+120, 1912-02-23, 3, 2, Australia, lbw, Armstrong, 30, 61, 61, 2, 0
+122, 1912-06-10, 2, 2, South Africa, , Nourse, 36, na, na, na, 0
+123, 1912-06-24, 1, 2, Australia, c Carkeek, Kelleway, 59, 95, na, 8, 0
+124, 1912-07-08, 1, 2, South Africa,                c &, Pegler, 7, na, na, na, 0
+124, 1912-07-08, 3, 2, South Africa, , Pegler, 10, na, na, na, 0
+126, 1912-07-29, 1, 2, Australia, , Whitty, 92, na, na, 8, 0
+128, 1912-08-12, 2, 2, South Africa, , Faulkner, 0, na, na, 0, 0
+129, 1912-08-19, 1, 2, Australia, , Minnett, 49, 180, na, 3, 0
+129, 1912-08-19, 3, 2, Australia, , Whitty, 4, na, na, na, 0
+130, 1913-12-13, 2, 2, South Africa, c Tapscott, Cox, 18, na, na, na, 0
+131, 1913-12-26, 2, 1, South Africa,                c &, Blanckenberg, 152, na, na, na, 0
+132, 1914-01-01, 1, 2, South Africa, lbw, Taylor, 35, na, na, na, 0
+132, 1914-01-01, 3, 2, South Africa, c Ward, Taylor, 0, na, na, 0, 0
+133, 1914-02-14, 2, 2, South Africa, lbw, Carter, 22, na, na, na, 0
+133, 1914-02-14, 4, 2, South Africa, lbw, Carter, 35, na, na, na, 0
+134, 1914-02-27, 2, 2, South Africa, , Carter, 27, na, na, na, 0
+134, 1914-02-27, 4, 2, South Africa, not out, , 0, na, na, 0, 0
+135, 1920-12-17, 2, 7, Australia, c Gregory, Mailey, 3, 21, 27, 0, 0
+135, 1920-12-17, 4, 7, Australia, c Ryder, Mailey, 45, 98, 100, 4, 0
+136, 1921-12-31, 2, 2, Australia, , Gregory, 7, 15, 15, 0, 0
+136, 1921-12-31, 3, 2, Australia, c Collins, Armstrong, 28, 83, 90, 0, 0
+137, 1921-01-14, 2, 2, Australia, run out, , 16, 27, 26, 1, 0
+137, 1921-01-14, 4, 2, Australia, lbw, McDonald, 4, 25, 27, 0, 0
+138, 1921-02-11, 1, 2, Australia, c Carter, Gregory, 11, 16, 23, 0, 0
+138, 1921-02-11, 3, 2, Australia, c Gregory, Mailey, 73, 184, 225, 4, 0
+139, 1921-02-25, 1, 2, Australia, c Carter, Kelleway, 26, 63, 58, 0, 0
+139, 1921-02-25, 3, 2, Australia, run out, , 25, 96, 91, 3, 0
+140, 1921-05-28, 1, 8, Australia, c Carter, Gregory, 19, 28, na, 4, 0
+140, 1921-05-28, 3, 8, Australia, c Carter, McDonald, 10, 42, na, 1, 0
+167, 1926-08-14, 1, 7, Australia, c Oldfield, Mailey, 28, 45, na, na, 0
+167, 1926-08-14, 3, 7, Australia, lbw, Grimmett, 14, na, na, na, 0
+187, 1930-01-11, 2, 10, West Indies, not out, , 14, na, na, na, 0
+189, 1930-02-01, 1, 10, West Indies, lbw, Griffith, 2, na, na, 0, 0
+189, 1930-02-01, 3, 10, West Indies, not out, , 6, na, na, na, 0
+192, 1930-02-21, 2, 10, West Indies, , Francis, 0, na, na, 0, 0
+192, 1930-02-21, 4, 10, West Indies, not out, , 10, na, na, na, 0
+193, 1930-04-03, 1, 10, West Indies, not out, , 8, 25, 33, 0, 0
+193, 1930-04-03, 3, 10, West Indies, not out, , 11, 25, 26, 1, 0

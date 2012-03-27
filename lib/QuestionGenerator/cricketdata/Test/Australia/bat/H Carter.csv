@@ -1,0 +1,48 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+96, 1907-12-13, 2, 8, England, , Braund, 25, 58, na, 2, 0
+96, 1907-12-13, 4, 8, England, c Young, Fielder, 61, 77, na, 8, 0
+97, 1908-01-01, 1, 9, England, not out, , 15, 40, na, na, 0
+97, 1908-01-01, 3, 8, England, c Fane, Barnes, 53, 83, na, 7, 0
+98, 1908-01-10, 1, 9, England, lbw, Hutchings, 24, 47, na, 3, 0
+98, 1908-01-10, 3, 10, England, not out, , 31, 80, na, 3, 0
+99, 1908-02-07, 1, 9, England,                c &, Crawford, 2, 20, na, 0, 0
+99, 1908-02-07, 3, 9, England, c Braund, Fielder, 66, 82, na, 11, 0
+100, 1908-02-21, 1, 10, England, not out, , 1, 17, na, 0, 0
+100, 1908-02-21, 3, 10, England, c Hobbs, Rhodes, 22, 14, na, 4, 0
+101, 1909-05-27, 1, 9, England, lbw, Hirst, 0, na, na, 0, 0
+101, 1909-05-27, 3, 8, England, c Hobbs, Hirst, 1, na, na, 0, 0
+102, 1909-06-14, 2, 11, England, , Hirst, 7, na, na, na, 0
+103, 1909-07-01, 1, 10, England, lbw, Rhodes, 1, na, na, 0, 0
+103, 1909-07-01, 3, 10, England, c Lilley, Barnes, 30, na, na, na, 0
+104, 1909-07-26, 1, 10, England, lbw, Barnes, 13, na, na, na, 0
+104, 1909-07-26, 3, 10, England, lbw, Barnes, 12, na, na, na, 0
+105, 1909-08-09, 1, 10, England, lbw, Carr, 4, na, na, na, 0
+111, 1910-12-09, 1, 9, South Africa, st Sherwell, Schwarz, 5, 8, 14, 1, 0
+112, 1911-12-31, 1, 9, South Africa, not out, , 15, 30, 20, 1, 0
+112, 1911-12-31, 3, 9, South Africa, c Sherwell, Llewellyn, 0, 1, 1, 0, 0
+113, 1911-01-07, 2, 9, South Africa, lbw, Schwarz, 17, 25, 14, 3, 0
+113, 1911-01-07, 4, 6, South Africa, c Llewellyn, Faulkner, 11, 24, 31, 1, 0
+114, 1911-02-17, 1, 10, South Africa, run out, , 5, 10, 8, 0, 0
+114, 1911-02-17, 3, 10, South Africa, c Snooke, Faulkner, 2, 6, 10, 0, 0
+115, 1911-03-03, 1, 11, South Africa, not out, , 1, 6, 10, 0, 0
+116, 1911-12-15, 1, 10, England, , Foster, 13, 18, 21, 2, 0
+116, 1911-12-15, 3, 10, England, c Gunn, Foster, 15, 22, 26, 2, 0
+117, 1912-12-30, 1, 10, England, c Smith, Douglas, 29, 41, 36, 2, 0
+117, 1912-12-30, 3, 10, England, , Barnes, 16, 41, 36, 1, 0
+118, 1912-01-12, 1, 11, England, c Gunn, Douglas, 8, 45, 43, 0, 0
+118, 1912-01-12, 3, 3, England, c Smith, Woolley, 72, 176, 148, 8, 0
+119, 1912-02-09, 1, 11, England, not out, , 6, 16, 18, 1, 0
+119, 1912-02-09, 3, 2, England, c Hearne, Douglas, 38, 103, 120, 2, 0
+120, 1912-02-23, 2, 7, England, c sub, Barnes, 11, 26, 25, 1, 0
+120, 1912-02-23, 4, 8, England, c Woolley, Foster, 23, 45, 46, 3, 0
+138, 1921-02-11, 2, 9, England, , Fender, 0, 4, 4, 0, 0
+139, 1921-02-25, 2, 9, England, c Woolley, Fender, 17, 23, 21, 3, 0
+140, 1921-05-28, 2, 8, England, c Strudwick, Woolley, 33, 64, na, 3, 0
+141, 1921-06-11, 2, 9, England, , Durston, 46, 53, na, 7, 0
+142, 1921-07-02, 1, 9, England, , Jupp, 34, 38, na, 7, 0
+142, 1921-07-02, 3, 4, England, lbw, Parkin, 47, 104, na, 7, 0
+143, 1921-07-23, 2, 9, England, , Parkin, 0, 1, na, 0, 0
+145, 1921-11-05, 1, 9, South Africa, c Nourse, Blanckenberg, 9, 8, na, 1, 0
+145, 1921-11-05, 3, 9, South Africa, not out, , 1, 11, na, 0, 0
+147, 1921-11-26, 2, 9, South Africa, not out, , 31, 41, na, 4, 0
+147, 1921-11-26, 4, 2, South Africa, not out, , 0, 1, 0, 0, 0

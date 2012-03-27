@@ -1,0 +1,70 @@
+
+Test # 354
+India in England, 1952, 4th Test
+England v India
+Kennington Oval, London
+14,15,16,18,19 August 1952 (5-day match)
+
+Result: Match drawn
+Series: England wins the 4-match series 3-0
+
+Toss: England
+Umpires: F Chester and H Elliott
+
+Close of play:
+ Day 1: England 264/2 (Ikin 53*, May 0*)
+ Day 2: England 326/6d, India 49/5 (Hazare 27*, Phadkar 12*)
+ Day 3: No play
+ Day 4: India 98
+
+England 1st innings                                             R   M   B  4 6
+*L Hutton             c Phadkar          b Ramchand            86 240        0
+DS Sheppard           lbw                b Divecha            119 353     19 0
+JT Ikin               c Sen              b Phadkar             53            0
+PBH May               c Manjrekar        b Mankad              17            0
+TW Graveney           c Divecha          b Ghulam Ahmed        13            0
+W Watson              not out                                  18            0
++TG Evans             c Phadkar          b Mankad               1          0 0
+JC Laker              not out                                   6            0
+Extras                (b 10, lb 2, nb 1)                       13
+Total                 (6 wickets dec, 154 overs)              326
+
+DNB: AV Bedser, GAR Lock, FS Trueman.
+
+FoW: 1-143 (Hutton), 2-261 (Sheppard), 3-273 (Ikin), 4-293 (May),
+     5-304 (Graveney), 6-307 (Evans).
+
+Bowling                      O      M      R      W
+Divecha                     33      9     60      1
+Phadkar                     32      8     61      1
+Ramchand                    14      2     50      1
+Mankad                      48     23     88      2
+Ghulam Ahmed                24      1     54      1
+Hazare                       3      3      0      0
+
+India 1st innings                                               R   M   B  4 6
+MH Mankad             c Evans            b Trueman              5            0
+P Roy                 c Lock             b Trueman              0   5   1  0 0
+HR Adhikari           c Trueman          b Bedser               0          0 0
+*VS Hazare            c May              b Trueman             38            0
+VL Manjrekar          c Ikin             b Bedser               1          0 0
+PR Umrigar                               b Bedser               0   1   1  0 0
+DG Phadkar                               b Trueman             17            0
+RV Divecha                               b Bedser              16            0
+GS Ramchand           c Hutton           b Bedser               5            0
++PK Sen                                  b Trueman              9            0
+Ghulam Ahmed          not out                                   2          0 0
+Extras                (lb 3, nb 2)                              5
+Total                 (all out, 38.5 overs)                    98
+
+FoW: 1-0 (Roy), 2-5 (Adhikari), 3-5 (Mankad), 4-6 (Manjrekar),
+     5-6 (Umrigar), 6-64 (Phadkar), 7-71 (Hazare),
+     8-78 (Ramchand), 9-94 (Sen), 10-98 (Divecha).
+
+Bowling                      O      M      R      W
+Bedser                      14.5    4     41      5
+Trueman                     16      4     48      5
+Lock                         6      5      1      0
+Laker                        2      0      3      0
+
+<END>

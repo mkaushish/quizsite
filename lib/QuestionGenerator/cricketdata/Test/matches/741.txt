@@ -1,0 +1,95 @@
+
+Test # 741
+India in England, 1974, 3rd Test
+England v India
+Edgbaston, Birmingham
+4,5,6,8 July 1974 (5-day match)
+
+Result: England won by an innings and 78 runs
+Series: England wins the 3-match series 3-0
+
+Toss: India
+Umpires: WE Alley and CS Elliott
+Test debut: SS Naik (India).
+
+Close of play:
+ Day 1: No play
+ Day 2: India 165, England 117/0 (Amiss 57*, Lloyd 53*)
+ Day 3: England 459/2d, India 12/2 (Naik 3*)
+
+India 1st innings                                               R   M   B  4 6
+SM Gavaskar           c Knott            b Arnold               0   1   1  0 0
+SS Naik                                  b Arnold               4  28  19  0 0
+*AL Wadekar           c Knott            b Hendrick            36  72  62  3 0
+GR Viswanath                             b Hendrick            28  68  55  1 0
+AV Mankad             c Knott            b Arnold              14  73  56  0 0
++FM Engineer          not out                                  64 137 111  6 0
+ED Solkar             lbw                b Old                  3  21  14  0 0
+S Abid Ali            run out                                   6  29  25  1 0
+S Venkataraghavan                        b Underwood            0  13  14  0 0
+EAS Prasanna          c Greig            b Hendrick             0  15   9  0 0
+BS Bedi               c Old              b Hendrick             0   1   1  0 0
+Extras                (b 1, lb 1, nb 8)                        10
+Total                 (all out, 59.2 overs)                   165
+
+FoW: 1-0 (Gavaskar), 2-17 (Naik), 3-62 (Wadekar),
+     4-81 (Viswanath), 5-115 (Mankad), 6-129 (Solkar),
+     7-153 (Abid Ali), 8-156 (Venkataraghavan), 9-165 (Prasanna),
+     10-165 (Bedi).
+
+Bowling                      O      M      R      W
+Arnold                      14      3     43      3
+Old                         13      0     43      1
+Hendrick                    14.2    1     28      4
+Greig                        3      0     11      0
+Underwood                   15      3     30      1
+
+England 1st innings                                             R   M   B  4 6
+DL Amiss              c Mankad           b Prasanna            79 165 180  6 0
+D Lloyd               not out                                 214 448 396 17 0
+*MH Denness                          c & b Bedi               100 213 189 10 0
+KWR Fletcher          not out                                  51  68  80  5 0
+Extras                (b 4, lb 5, w 1, nb 5)                   15
+Total                 (2 wickets dec, 140 overs)              459
+
+DNB: JH Edrich, AW Greig, +APE Knott, CM Old, GG Arnold,
+     DL Underwood, M Hendrick.
+
+FoW: 1-157 (Amiss), 2-368 (Denness).
+
+Bowling                      O      M      R      W
+Abid Ali                    18      2     63      0
+Solkar                      18      5     52      0
+Bedi                        45      4    152      1
+Venkataraghavan             23      1     71      0
+Prasanna                    35      4    101      1
+Gavaskar                     1      0      5      0
+
+India 2nd innings                                               R   M   B  4 6
+SM Gavaskar           c Knott            b Old                  4   7   8  0 0
+SS Naik               lbw                b Greig               77 207 165  9 0
+S Abid Ali                               b Arnold               3  11   6  0 0
+*AL Wadekar           lbw                b Old                  5  10   9  1 0
+GR Viswanath          c Greig            b Hendrick            25  58  51  2 0
+AV Mankad             hit wicket         b Old                 43  97  83  4 0
++FM Engineer          lbw                b Hendrick            33  70  46  6 0
+ED Solkar             c Edrich           b Arnold               8  19  18  1 0
+S Venkataraghavan     c Lloyd            b Greig                5  16  20  0 0
+EAS Prasanna                             b Hendrick             4   8   5  1 0
+BS Bedi               not out                                   1   1   1  0 0
+Extras                (lb 3, nb 5)                              8
+Total                 (all out, 67.4 overs)                   216
+
+FoW: 1-6 (Gavaskar), 2-12 (Abid Ali), 3-21 (Wadekar),
+     4-59 (Viswanath), 5-146 (Mankad), 6-172 (Naik),
+     7-183 (Solkar), 8-196 (Venkataraghavan), 9-211 (Prasanna),
+     10-216 (Engineer).
+
+Bowling                      O      M      R      W
+Arnold                      19      3     61      2
+Hendrick                    14.4    4     43      3
+Underwood                    3      1      3      0
+Old                         15      3     52      3
+Greig                       16      3     49      2
+
+<END>

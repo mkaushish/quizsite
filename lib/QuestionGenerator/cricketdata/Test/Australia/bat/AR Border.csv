@@ -1,0 +1,266 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+838, 1979-12-29, 1, 6, England, c Brearley, Hendrick, 29, 105, 115, 4, 0
+838, 1979-12-29, 3, 6, England, run out, , 0, 9, 12, 0, 0
+840, 1979-01-06, 2, 6, England, not out, , 60, 245, 203, 4, 0
+840, 1979-01-06, 4, 6, England, not out, , 45, 101, 115, 9, 0
+843, 1979-01-27, 2, 5, England, c Taylor, Botham, 11, 20, 18, 1, 0
+843, 1979-01-27, 4, 5, England, , Willis, 1, 30, 19, 0, 0
+849, 1979-03-10, 2, 3, Pakistan, , Imran Khan, 20, 110, 85, 3, 0
+849, 1979-03-10, 4, 3, Pakistan, , Sarfraz Nawaz, 105, 378, 275, 7, 0
+850, 1979-03-24, 2, 3, Pakistan, c Majid Khan, Javed Miandad, 85, 347, 250, 7, 0
+850, 1979-03-24, 4, 3, Pakistan, not out, , 66, 155, 115, 4, 0
+855, 1979-09-11, 1, 3, India, run out, , 162, 416, 360, 24, 1
+855, 1979-09-11, 3, 3, India, , Venkataraghavan, 50, 174, 138, 8, 0
+856, 1979-09-19, 1, 3, India, c Yadav, Doshi, 44, 97, 68, 4, 0
+856, 1979-09-19, 3, 3, India, , Yadav, 19, 47, 55, 1, 0
+857, 1979-10-02, 2, 3, India, c Viswanath, Venkataraghavan, 24, 128, na, 3, 0
+857, 1979-10-02, 4, 6, India, , Yadav, 8, 68, na, 1, 0
+858, 1979-10-13, 2, 3, India, c Narasimha Rao, Kapil Dev, 24, 131, 119, 2, 0
+858, 1979-10-13, 3, 3, India, c Narasimha Rao, Ghavri, 46, 168, 120, 5, 0
+859, 1979-10-26, 1, 3, India, lbw, Kapil Dev, 54, 133, 101, 8, 0
+859, 1979-10-26, 3, 3, India, st Kirmani, Doshi, 6, 26, 28, 0, 0
+860, 1979-11-03, 2, 3, India, c Vengsarkar, Yadav, 23, 78, 48, 2, 1
+860, 1979-11-03, 3, 3, India, , Doshi, 61, 257, 182, 7, 0
+862, 1979-12-01, 1, 3, West Indies, c Murray, Garner, 1, 21, 16, 0, 0
+862, 1979-12-01, 3, 3, West Indies, c Richards, Garner, 7, 33, 28, 0, 0
+864, 1979-12-14, 1, 3, England, lbw, Botham, 4, 33, 24, 0, 0
+864, 1979-12-14, 3, 3, England, c Taylor, Willis, 115, 383, 296, 13, 0
+867, 1980-12-29, 1, 3, West Indies, c Richards, Garner, 17, 99, 64, 1, 0
+867, 1980-12-29, 3, 3, West Indies, lbw, Holding, 15, 72, 51, 2, 0
+868, 1980-01-04, 2, 6, England, c Gooch, Botham, 15, 79, 60, 0, 0
+868, 1980-01-04, 4, 6, England, not out, , 2, 10, 8, 0, 0
+870, 1980-01-26, 2, 6, West Indies, , Roberts, 54, 202, 154, 6, 0
+870, 1980-01-26, 4, 6, West Indies, c Greenidge, Roberts, 24, 70, 47, 3, 0
+872, 1980-02-01, 2, 5, England,                c &, Lever, 63, 208, 153, 6, 0
+876, 1980-02-27, 1, 6, Pakistan, lbw, Iqbal Qasim, 30, 111, 91, 2, 0
+876, 1980-02-27, 3, 6, Pakistan, not out, , 58, 184, 202, 5, 0
+878, 1980-03-06, 1, 6, Pakistan, run out, , 4, 38, 28, 0, 0
+879, 1980-03-18, 1, 6, Pakistan, not out, , 150, 393, 281, 15, 2
+879, 1980-03-18, 3, 6, Pakistan, st +Javed Miandad, Azhar Khan, 153, 209, 184, 16, 5
+885, 1980-08-28, 1, 6, England, not out, , 56, 96, 80, 7, 1
+885, 1980-08-28, 3, 5, England, not out, , 21, 34, 29, 1, 1
+887, 1980-11-28, 2, 5, New Zealand, run out, , 36, 88, 78, 6, 0
+889, 1980-12-12, 2, 5, New Zealand, , Cairns, 10, 64, 35, 2, 0
+891, 1980-12-26, 1, 5, New Zealand, c Cairns, Coney, 45, 156, 178, 5, 0
+891, 1980-12-26, 3, 5, New Zealand, c Lees, Hadlee, 9, 39, 35, 0, 0
+893, 1981-01-02, 2, 5, India, c Kirmani, Kapil Dev, 31, 97, 65, 5, 0
+894, 1981-01-23, 1, 5, India, c Gavaskar, Kapil Dev, 57, 123, 78, 6, 0
+894, 1981-01-23, 3, 5, India, , Doshi, 7, 49, 49, 1, 0
+895, 1981-02-07, 2, 5, India, , Yadav, 124, 303, 265, 12, 0
+895, 1981-02-07, 4, 6, India, c Kirmani, Kapil Dev, 9, 51, 24, 1, 0
+903, 1981-06-18, 2, 6, England,                c &, Botham, 63, 266, 204, 7, 0
+903, 1981-06-18, 4, 6, England, , Dilley, 20, 65, 49, 2, 0
+904, 1981-07-02, 2, 6, England, c Gatting, Botham, 64, 208, 164, 8, 1
+904, 1981-07-02, 4, 6, England, not out, , 12, 42, 46, 1, 0
+905, 1981-07-16, 1, 7, England, lbw, Botham, 8, 35, 20, 1, 0
+905, 1981-07-16, 4, 6, England, , Old, 0, 13, 8, 0, 0
+906, 1981-07-30, 2, 3, England, c Taylor, Old, 2, 25, 24, 0, 0
+906, 1981-07-30, 4, 3, England, c Gatting, Emburey, 40, 213, 175, 4, 0
+907, 1981-08-13, 2, 6, England, c Gower, Botham, 11, 30, 23, 1, 0
+907, 1981-08-13, 4, 5, England, not out, , 123, 420, 356, 17, 0
+908, 1981-08-27, 1, 5, England, not out, , 106, 290, 230, 13, 0
+908, 1981-08-27, 3, 5, England, c Tavare, Emburey, 84, 192, 152, 8, 0
+909, 1981-11-13, 1, 6, Pakistan, c Wasim Bari, Sarfraz Nawaz, 3, 25, 21, 0, 0
+909, 1981-11-13, 3, 6, Pakistan, c Mudassar Nazar, Sikander Bakht, 37, 117, 75, 3, 0
+910, 1981-11-27, 2, 4, Pakistan, , Imran Khan, 36, 73, 63, 3, 0
+913, 1981-12-11, 2, 4, Pakistan, run out, , 7, 12, 18, 1, 0
+913, 1981-12-11, 3, 4, Pakistan, run out, , 1, 12, 8, 0, 0
+915, 1981-12-26, 1, 4, West Indies, c Murray, Holding, 4, 61, 43, 0, 0
+915, 1981-12-26, 3, 4, West Indies, , Holding, 66, 190, 136, 2, 0
+917, 1982-01-02, 2, 7, West Indies, not out, , 53, 200, 138, 5, 0
+917, 1982-01-02, 4, 5, West Indies, , Gomes, 9, 52, 47, 0, 0
+919, 1982-01-30, 1, 6, West Indies, c Dujon, Roberts, 78, 307, 227, 5, 0
+919, 1982-01-30, 3, 4, West Indies, c Dujon, Roberts, 126, 336, 278, 9, 0
+924, 1982-03-12, 1, 6, New Zealand, run out, , 0, 1, 1, 0, 0
+924, 1982-03-12, 3, 6, New Zealand, c Howarth, Morrison, 38, 128, 123, 7, 0
+926, 1982-03-19, 1, 6, New Zealand, , Snedden, 6, 17, 16, 1, 0
+935, 1982-09-22, 1, 5, Pakistan, not out, , 55, 170, 113, 7, 0
+935, 1982-09-22, 3, 4, Pakistan, c sub (Saleem Malik), Abdul Qadir, 8, 20, 15, 1, 0
+936, 1982-09-30, 2, 5, Pakistan, c Javed Miandad, Imran Khan, 9, 30, 24, 1, 0
+936, 1982-09-30, 3, 3, Pakistan, c Haroon Rasheed, Abdul Qadir, 31, 150, 106, 3, 0
+937, 1982-10-14, 1, 4, Pakistan, lbw, Imran Khan, 9, 47, 27, 1, 0
+937, 1982-10-14, 3, 4, Pakistan, st Wasim Bari, Abdul Qadir, 6, 25, 19, 0, 0
+938, 1982-11-12, 2, 3, England, c Taylor, Botham, 8, 34, 20, 1, 0
+938, 1982-11-12, 4, 3, England, not out, , 32, 88, 65, 4, 0
+939, 1982-11-26, 2, 3, England, c Randall, Willis, 0, 15, 7, 0, 0
+939, 1982-11-26, 4, 3, England, c Botham, Hemmings, 15, 40, 29, 2, 0
+940, 1982-12-10, 1, 6, England, c Taylor, Pringle, 26, 135, 95, 1, 1
+943, 1982-12-26, 2, 5, England, , Botham, 2, 15, 10, 0, 0
+943, 1982-12-26, 4, 6, England, not out, , 62, 230, 165, 7, 0
+944, 1983-01-02, 1, 6, England, c Miller, Hemmings, 89, 211, 198, 12, 0
+944, 1983-01-02, 3, 6, England, c Botham, Cowans, 83, 163, 148, 9, 0
+955, 1983-04-22, 1, 6, Sri Lanka, not out, , 47, 145, 88, 2, 0
+966, 1983-11-11, 1, 5, Pakistan, c Wasim Raja, Azeem Hafeez, 32, 60, 60, 5, 0
+969, 1983-11-25, 2, 5, Pakistan, c Wasim Bari, Rashid Khan, 118, 347, 254, 10, 0
+970, 1983-12-09, 1, 5, Pakistan, not out, , 117, 310, 208, 11, 0
+970, 1983-12-09, 3, 5, Pakistan, lbw, Azeem Hafeez, 66, 227, 183, 10, 0
+973, 1983-12-26, 2, 5, Pakistan, lbw, Abdul Qadir, 32, 89, 59, 6, 0
+974, 1984-01-02, 2, 6, Pakistan, c Wasim Bari, Mudassar Nazar, 64, 178, 120, 7, 0
+979, 1984-03-02, 1, 5, West Indies, , Garner, 5, 17, 15, 1, 0
+979, 1984-03-02, 3, 5, West Indies, run out, , 54, 204, 163, 5, 0
+983, 1984-03-16, 1, 5, West Indies, not out, , 98, 360, 314, 11, 0
+983, 1984-03-16, 3, 6, West Indies, not out, , 100, 279, 269, 3, 0
+986, 1984-03-30, 1, 5, West Indies, c Richardson, Marshall, 38, 138, na, 5, 0
+986, 1984-03-30, 3, 6, West Indies, c Dujon, Holding, 8, 25, na, 1, 0
+987, 1984-04-07, 1, 3, West Indies, c Dujon, Baptiste, 98, 280, 202, 13, 0
+987, 1984-04-07, 3, 3, West Indies, c Greenidge, Baptiste, 19, 84, 67, 1, 0
+988, 1984-04-28, 1, 3, West Indies, c Dujon, Marshall, 41, 130, 104, 5, 0
+988, 1984-04-28, 3, 3, West Indies, not out, , 60, 258, 191, 5, 1
+997, 1984-11-09, 2, 4, West Indies, c Dujon, Holding, 15, 98, 68, 0, 0
+997, 1984-11-09, 3, 4, West Indies, c Haynes, Marshall, 6, 38, 36, 0, 0
+999, 1984-11-23, 1, 4, West Indies, c Lloyd, Marshall, 17, 100, 60, 1, 0
+999, 1984-11-23, 3, 4, West Indies, c sub (RA Harper), Holding, 24, 114, 73, 4, 0
+1002, 1984-12-07, 2, 6, West Indies, c Garner, Marshall, 21, 125, 85, 1, 0
+1002, 1984-12-07, 4, 3, West Indies, , Marshall, 18, 45, 25, 2, 0
+1005, 1984-12-22, 2, 5, West Indies, c Richards, Walsh, 35, 128, 82, 4, 0
+1005, 1984-12-22, 4, 5, West Indies, c Dujon, Richards, 41, 164, 121, 4, 0
+1006, 1985-12-30, 1, 5, West Indies, c Greenidge, Walsh, 69, 210, 149, 4, 0
+1017, 1985-06-13, 1, 4, England, c Botham, Cowans, 32, 115, 97, 5, 0
+1017, 1985-06-13, 3, 4, England, c Downton, Botham, 8, 37, 35, 0, 0
+1018, 1985-06-27, 2, 4, England, c Gooch, Botham, 196, 448, 318, 22, 0
+1018, 1985-06-27, 4, 5, England, not out, , 41, 135, 89, 6, 0
+1019, 1985-07-11, 2, 5, England, c Botham, Edmonds, 23, 16, 17, 2, 1
+1020, 1985-08-01, 1, 4, England, st Downton, Edmonds, 8, 35, 17, 1, 0
+1020, 1985-08-01, 3, 4, England, not out, , 146, 343, 334, 13, 0
+1021, 1985-08-15, 1, 4, England, c Edmonds, Ellison, 45, 157, 111, 5, 0
+1021, 1985-08-15, 3, 5, England, , Ellison, 2, 18, 17, 0, 0
+1022, 1985-08-29, 2, 4, England, , Edmonds, 38, 105, 67, 4, 0
+1022, 1985-08-29, 3, 4, England, c Botham, Ellison, 58, 157, 92, 7, 0
+1029, 1985-11-08, 1, 4, New Zealand, c Edgar, Hadlee, 1, 7, 7, 0, 0
+1029, 1985-11-08, 3, 4, New Zealand, not out, , 152, 468, 301, 20, 2
+1030, 1985-11-22, 2, 4, New Zealand, , Bracewell, 20, 34, 30, 2, 0
+1030, 1985-11-22, 4, 4, New Zealand, st Smith, Bracewell, 11, 29, 28, 1, 0
+1031, 1985-11-30, 1, 4, New Zealand, c Smith, Hadlee, 12, 49, 45, 0, 0
+1031, 1985-11-30, 3, 4, New Zealand, , Hadlee, 83, 299, 244, 4, 1
+1032, 1985-12-13, 1, 4, India, , Kapil Dev, 49, 118, 91, 7, 0
+1033, 1985-12-26, 1, 4, India,                c &, Sivaramakrishnan, 11, 17, 12, 1, 1
+1033, 1985-12-26, 3, 3, India, st Kirmani, Yadav, 163, 410, 358, 16, 0
+1034, 1986-01-02, 2, 3, India, c Sharma, Shastri, 71, 239, 172, 5, 0
+1034, 1986-01-02, 3, 7, India, c Sivaramakrishnan, Yadav, 4, 19, 20, 0, 0
+1035, 1986-02-21, 1, 4, New Zealand, lbw, Hadlee, 13, 43, 35, 0, 0
+1038, 1986-02-28, 1, 4, New Zealand, , Chatfield, 140, 386, 338, 15, 1
+1038, 1986-02-28, 3, 4, New Zealand, not out, , 114, 280, 201, 10, 0
+1040, 1986-03-13, 1, 4, New Zealand, c Smith, Chatfield, 17, 68, 53, 2, 0
+1040, 1986-03-13, 3, 5, New Zealand, , Bracewell, 6, 49, 37, 1, 0
+1052, 1986-09-18, 1, 5, India, c Gavaskar, Shastri, 106, 255, 172, 14, 1
+1052, 1986-09-18, 3, 4, India, , Maninder Singh, 27, 67, 41, 4, 0
+1054, 1986-10-15, 1, 4, India, st More, Maninder Singh, 46, 143, 109, 6, 0
+1054, 1986-10-15, 3, 4, India, not out, , 66, 199, 172, 8, 0
+1057, 1986-11-14, 2, 5, England, c DeFreitas, Edmonds, 7, 67, 47, 0, 0
+1057, 1986-11-14, 3, 4, England, c Lamb, Emburey, 23, 70, 78, 2, 0
+1059, 1986-11-28, 2, 5, England, c Richards, Dilley, 125, 372, 282, 17, 0
+1059, 1986-11-28, 4, 4, England, c Lamb, Edmonds, 16, 70, 72, 3, 0
+1060, 1986-12-12, 1, 4, England, c Richards, Edmonds, 70, 151, 130, 7, 0
+1060, 1986-12-12, 3, 4, England, not out, , 100, 303, 253, 11, 0
+1062, 1986-12-26, 1, 4, England, c Richards, Botham, 15, 43, 26, 2, 0
+1062, 1986-12-26, 3, 4, England, c Emburey, Small, 34, 85, 82, 4, 0
+1065, 1987-01-10, 1, 4, England, c Botham, Edmonds, 34, 137, 112, 3, 0
+1065, 1987-01-10, 3, 4, England, , Edmonds, 49, 113, 95, 8, 0
+1082, 1987-12-04, 2, 4, New Zealand, lbw, Morrison, 9, 63, 43, 1, 0
+1084, 1987-12-11, 2, 4, New Zealand, st Smith, Bracewell, 205, 599, 485, 20, 0
+1087, 1987-12-26, 2, 4, New Zealand, c JJ Crowe, Bracewell, 31, 77, 54, 4, 0
+1087, 1987-12-26, 4, 4, New Zealand, lbw, Hadlee, 43, 119, 97, 5, 0
+1090, 1988-01-29, 2, 4, England, c Broad, Capel, 2, 22, 15, 0, 0
+1090, 1988-01-29, 3, 4, England, not out, , 48, 138, 105, 1, 0
+1092, 1988-02-12, 1, 4, Sri Lanka, , Ratnayeke, 88, 151, 147, 7, 0
+1104, 1988-09-15, 2, 5, Pakistan, c Aamer Malik, Iqbal Qasim, 4, 17, 13, 1, 0
+1104, 1988-09-15, 3, 6, Pakistan, , Iqbal Qasim, 18, 81, 74, 2, 0
+1105, 1988-09-23, 2, 6, Pakistan, not out, , 113, 354, 237, 13, 0
+1106, 1988-10-07, 1, 4, Pakistan, c Saleem Yousuf, Tauseef Ahmed, 75, 277, 193, 10, 0
+1106, 1988-10-07, 3, 4, Pakistan, c Saleem Yousuf, Tauseef Ahmed, 20, 53, 26, 2, 0
+1108, 1988-11-18, 1, 5, West Indies, c Dujon, Ambrose, 4, 29, 26, 0, 0
+1108, 1988-11-18, 3, 6, West Indies, c Haynes, Ambrose, 41, 114, 94, 6, 0
+1110, 1988-12-02, 2, 5, West Indies, c Dujon, Ambrose, 6, 13, 6, 1, 0
+1110, 1988-12-02, 4, 5, West Indies, , Hooper, 26, 131, 88, 2, 0
+1112, 1988-12-24, 2, 5, West Indies, , Ambrose, 0, 8, 5, 0, 0
+1112, 1988-12-24, 4, 5, West Indies, c Haynes, Patterson, 20, 157, 111, 0, 0
+1113, 1989-01-26, 2, 5, West Indies, , Marshall, 75, 386, 330, 5, 0
+1113, 1989-01-26, 4, 5, West Indies, not out, , 16, 35, 35, 2, 0
+1114, 1989-02-03, 1, 5, West Indies, , Marshall, 64, 266, 195, 5, 0
+1114, 1989-02-03, 3, 6, West Indies, not out, , 6, 13, 6, 0, 0
+1121, 1989-06-08, 1, 4, England, c Foster, DeFreitas, 66, 141, 118, 9, 1
+1121, 1989-06-08, 3, 4, England, not out, , 60, 99, 76, 8, 0
+1122, 1989-06-22, 2, 4, England, c Smith, Emburey, 35, 81, 62, 5, 0
+1122, 1989-06-22, 4, 4, England, c sub (RJ Sims), Foster, 1, 17, 9, 0, 0
+1123, 1989-07-06, 1, 4, England, , Emburey, 8, 18, 21, 1, 0
+1124, 1989-07-27, 2, 4, England, c Russell, Foster, 80, 313, 266, 10, 0
+1125, 1989-08-10, 1, 4, England, not out, , 65, 225, 143, 7, 0
+1126, 1989-08-24, 1, 4, England, c Russell, Capel, 76, 251, 156, 11, 0
+1126, 1989-08-24, 3, 4, England, not out, , 51, 109, 74, 5, 0
+1129, 1989-11-24, 1, 4, New Zealand, , Morrison, 50, 154, 118, 5, 0
+1131, 1989-12-08, 1, 4, Sri Lanka, c A Ranatunga, Labrooy, 56, 166, 109, 5, 0
+1133, 1989-12-16, 1, 4, Sri Lanka, c EAR de Silva, Ratnayeke, 24, 58, 34, 1, 0
+1133, 1989-12-16, 3, 5, Sri Lanka, , PA de Silva, 85, 202, 151, 6, 0
+1134, 1990-01-12, 1, 4, Pakistan, c Javed Miandad, Wasim Akram, 24, 112, 76, 2, 0
+1134, 1990-01-12, 3, 4, Pakistan, not out, , 62, 262, 184, 4, 0
+1135, 1990-01-19, 2, 4, Pakistan, , Waqar Younis, 13, 61, 37, 0, 0
+1135, 1990-01-19, 4, 3, Pakistan, c Saleem Yousuf, Waqar Younis, 8, 32, 24, 1, 0
+1137, 1990-02-03, 2, 4, Pakistan, not out, , 27, 102, 65, 2, 1
+1141, 1990-03-15, 1, 4, New Zealand, lbw, Morrison, 1, 15, 11, 0, 0
+1141, 1990-03-15, 3, 5, New Zealand, not out, , 78, 310, 239, 7, 0
+1155, 1990-11-23, 2, 4, England, c Atherton, Small, 9, 33, 30, 1, 0
+1159, 1990-12-26, 2, 4, England, c Russell, Fraser, 62, 239, 164, 5, 0
+1160, 1991-01-04, 1, 4, England, , Hemmings, 78, 251, 184, 10, 0
+1160, 1991-01-04, 3, 5, England, c Gooch, Tufnell, 20, 34, 29, 3, 0
+1161, 1991-01-25, 1, 4, England, , DeFreitas, 12, 75, 33, 0, 0
+1161, 1991-01-25, 3, 7, England, not out, , 83, 224, 148, 6, 0
+1163, 1991-02-01, 2, 4, England, lbw, DeFreitas, 17, 48, 22, 3, 0
+1166, 1991-03-01, 2, 4, West Indies, c Dujon, Ambrose, 31, 98, 72, 4, 0
+1167, 1991-03-23, 1, 4, West Indies, , Marshall, 47, 148, 88, 4, 0
+1167, 1991-03-23, 3, 4, West Indies, c Dujon, Marshall, 34, 207, 140, 3, 0
+1168, 1991-04-05, 1, 4, West Indies, run out, , 43, 222, 146, 0, 0
+1168, 1991-04-05, 3, 5, West Indies, not out, , 27, 125, 78, 3, 0
+1169, 1991-04-19, 2, 4, West Indies, , Marshall, 29, 119, 68, 4, 0
+1169, 1991-04-19, 4, 4, West Indies, c Dujon, Ambrose, 0, 5, 8, 0, 0
+1170, 1991-04-27, 1, 4, West Indies, c Dujon, Hooper, 59, 192, 112, 8, 0
+1170, 1991-04-27, 3, 5, West Indies, , Walsh, 5, 50, 36, 0, 0
+1177, 1991-11-29, 2, 4, India, , Kapil Dev, 28, 82, 53, 0, 2
+1180, 1991-12-26, 2, 4, India, , Kapil Dev, 0, 3, 5, 0, 0
+1180, 1991-12-26, 4, 4, India, not out, , 5, 7, 5, 0, 0
+1181, 1992-01-02, 1, 6, India, c Pandit, Kapil Dev, 19, 67, 51, 2, 0
+1181, 1992-01-02, 3, 6, India, not out, , 53, 158, 157, 2, 0
+1184, 1992-01-25, 1, 4, India, c Pandit, Tendulkar, 0, 8, 4, 0, 0
+1184, 1992-01-25, 3, 4, India, not out, , 91, 343, 247, 4, 1
+1186, 1992-02-01, 1, 4, India, c Srikkanth, Kapil Dev, 59, 192, 138, 9, 0
+1186, 1992-02-01, 3, 8, India, not out, , 20, 41, 30, 3, 0
+1194, 1992-08-17, 1, 6, Sri Lanka, , Hathurusingha, 3, 20, 15, 0, 0
+1194, 1992-08-17, 3, 6, Sri Lanka, c Gurusinha, Anurasiri, 15, 35, 42, 1, 0
+1195, 1992-08-28, 1, 6, Sri Lanka, , Liyanage, 13, 61, 50, 0, 0
+1195, 1992-08-28, 3, 6, Sri Lanka, lbw, Anurasiri, 28, 88, 86, 1, 1
+1196, 1992-09-08, 1, 6, Sri Lanka, , Ramanayake, 106, 217, 169, 16, 0
+1196, 1992-09-08, 3, 6, Sri Lanka, lbw, Ramanayake, 78, 175, 140, 10, 0
+1202, 1992-11-27, 1, 6, West Indies, run out, , 73, 173, 163, 10, 0
+1202, 1992-11-27, 3, 6, West Indies, c Williams, Walsh, 17, 105, 74, 3, 0
+1205, 1992-12-26, 1, 6, West Indies, c Williams, Bishop, 110, 350, 274, 5, 1
+1205, 1992-12-26, 3, 7, West Indies, , Bishop, 4, 27, 13, 0, 0
+1208, 1993-01-02, 1, 6, West Indies, c Murray, Hooper, 74, 243, 180, 5, 0
+1210, 1993-01-23, 2, 6, West Indies, c Hooper, Ambrose, 19, 76, 52, 2, 0
+1210, 1993-01-23, 4, 6, West Indies, c Haynes, Ambrose, 1, 20, 17, 0, 0
+1212, 1993-01-30, 1, 6, West Indies, c Murray, Ambrose, 0, 1, 1, 0, 0
+1212, 1993-01-30, 3, 7, West Indies, , Bishop, 0, 2, 3, 0, 0
+1215, 1993-02-25, 1, 6, New Zealand, c Parore, Morrison, 88, 236, 182, 13, 0
+1216, 1993-03-04, 2, 6, New Zealand, lbw, Morrison, 30, 99, 68, 5, 0
+1217, 1993-03-12, 1, 6, New Zealand, c Blain, Morrison, 0, 13, 11, 0, 0
+1217, 1993-03-12, 3, 6, New Zealand, c Harris, Watson, 71, 237, 184, 9, 0
+1223, 1993-06-03, 1, 5, England, st Stewart, Such, 17, 70, 54, 1, 0
+1223, 1993-06-03, 3, 5, England,                c &, Caddick, 31, 131, 87, 1, 0
+1224, 1993-06-17, 1, 5, England, , Lewis, 77, 161, 121, 12, 0
+1225, 1993-07-01, 2, 8, England, c Smith, Such, 38, 176, 129, 7, 0
+1225, 1993-07-01, 4, 5, England, c Thorpe, Caddick, 2, 13, 10, 0, 0
+1227, 1993-07-22, 1, 5, England, not out, , 200, 569, 399, 26, 0
+1230, 1993-08-05, 2, 5, England, c Hussain, Such, 3, 9, 9, 0, 0
+1231, 1993-08-19, 2, 5, England, c Stewart, Fraser, 48, 162, 107, 6, 0
+1231, 1993-08-19, 4, 5, England, c Stewart, Malcolm, 17, 91, 73, 1, 0
+1235, 1993-11-12, 1, 5, New Zealand, c Rutherford, Morrison, 16, 48, 40, 1, 0
+1236, 1993-11-26, 1, 5, New Zealand,                c &, Morrison, 60, 155, 107, 9, 0
+1238, 1993-12-03, 2, 5, New Zealand, c Patel, de Groen, 105, 275, 193, 15, 0
+1242, 1993-12-26, 1, 6, South Africa, c Richardson, Matthews, 2, 18, 12, 0, 0
+1243, 1994-01-02, 2, 5, South Africa, c Richardson, de Villiers, 49, 242, 190, 3, 0
+1243, 1994-01-02, 4, 6, South Africa, , Donald, 7, 13, 13, 1, 0
+1246, 1994-01-28, 1, 5, South Africa, c Richardson, McMillan, 84, 328, 255, 3, 0
+1246, 1994-01-28, 3, 5, South Africa, run out, , 4, 15, 13, 0, 0
+1252, 1994-03-04, 2, 5, South Africa, run out, , 34, 89, 64, 4, 0
+1252, 1994-03-04, 4, 5, South Africa, c G Kirsten, McMillan, 14, 45, 32, 3, 0
+1253, 1994-03-17, 2, 5, South Africa, c Richardson, Matthews, 45, 273, 204, 5, 0
+1256, 1994-03-25, 1, 5, South Africa, c Rhodes, McMillan, 17, 71, 46, 3, 0
+1256, 1994-03-25, 3, 6, South Africa, not out, , 42, 225, 166, 5, 0

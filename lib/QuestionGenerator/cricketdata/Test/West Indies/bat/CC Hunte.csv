@@ -1,0 +1,79 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+446, 1958-01-17, 1, 1, Pakistan, c Imtiaz Ahmed, Fazal Mahmood, 142, 300, na, 17, 0
+446, 1958-01-17, 4, 1, Pakistan, not out, , 11, na, na, na, 0
+448, 1958-02-05, 1, 1, Pakistan, c Imtiaz Ahmed, Fazal Mahmood, 8, na, na, na, 0
+448, 1958-02-05, 3, 1, Pakistan, c Kardar, Nasim-ul-Ghani, 37, na, na, na, 0
+450, 1958-02-26, 2, 1, Pakistan, run out, , 260, na, na, 28, 1
+452, 1958-03-13, 2, 1, Pakistan, , Fazal Mahmood, 5, na, na, na, 0
+452, 1958-03-13, 4, 1, Pakistan, , Rehman, 114, na, na, na, 0
+453, 1958-03-26, 1, 1, Pakistan, c Hanif Mohammad, Fazal Mahmood, 0, 1, 1, 0, 0
+453, 1958-03-26, 3, 1, Pakistan, c Fazal Mahmood, Nasim-ul-Ghani, 45, na, na, na, 0
+459, 1958-11-28, 1, 2, India, c Guard, Ramchand, 0, na, na, 0, 0
+459, 1958-11-28, 3, 2, India, c Nadkarni, Guard, 10, na, na, na, 0
+461, 1958-12-12, 1, 2, India, c Borde, Gupte, 29, na, na, na, 0
+461, 1958-12-12, 3, 2, India,                c &, Umrigar, 0, na, na, 0, 0
+463, 1959-12-31, 1, 2, India, c Surendranath, Gupte, 23, na, na, na, 0
+465, 1959-01-21, 1, 1, India, , Mankad, 32, na, na, na, na
+465, 1959-01-21, 3, 1, India, c Surendranath, Gupte, 30, na, na, na, na
+467, 1959-02-06, 2, 1, India, lbw, Adhikari, 92, 177, na, na, 1
+469, 1959-02-20, 1, 1, Pakistan, c Imtiaz Ahmed, Fazal Mahmood, 0, 2, 4, 0, 0
+469, 1959-02-20, 3, 1, Pakistan, lbw, Fazal Mahmood, 21, na, na, na, 0
+485, 1960-01-06, 2, 1, England, c Swetman, Barrington, 42, na, na, na, 0
+488, 1960-01-28, 2, 1, England, c Trueman, Statham, 8, na, na, na, 0
+488, 1960-01-28, 4, 1, England, c Swetman, Allen, 47, na, na, na, 0
+489, 1960-02-17, 2, 1, England, c Illingworth, Statham, 7, na, na, na, 0
+489, 1960-02-17, 4, 1, England, , Trueman, 40, 60, na, 4, 0
+490, 1960-03-09, 2, 1, England, c Trueman, Allen, 39, 120, na, na, 0
+491, 1960-03-25, 2, 1, England, not out, , 72, na, na, na, 0
+491, 1960-03-25, 4, 1, England, st Parks, Illingworth, 36, na, na, na, 0
+498, 1960-12-09, 1, 1, Australia, c Benaud, Davidson, 24, 37, na, 4, 0
+498, 1960-12-09, 3, 1, Australia, c Simpson, Mackay, 39, 88, na, 5, 0
+500, 1961-12-30, 2, 1, Australia, c Simpson, Misson, 1, 8, 5, 0, 0
+500, 1961-12-30, 3, 1, Australia, c Grout, O'Neill, 110, 270, 249, 9, 0
+502, 1961-01-13, 1, 1, Australia, c Simpson, Meckiff, 34, 73, 68, 3, 0
+502, 1961-01-13, 3, 1, Australia, c O'Neill, Davidson, 1, 20, 16, 0, 0
+504, 1961-01-27, 1, 1, Australia, lbw, Hoare, 6, 14, na, 1, 0
+504, 1961-01-27, 3, 1, Australia, run out, , 79, 220, na, 6, 0
+506, 1961-02-10, 1, 2, Australia, c Simpson, Davidson, 31, 136, 84, 4, 0
+506, 1961-02-10, 3, 2, Australia, c Grout, Davidson, 52, 179, 166, 4, 0
+525, 1962-02-16, 2, 1, India,                c &, Durani, 58, na, na, na, 0
+525, 1962-02-16, 4, 1, India, not out, , 10, na, na, na, 0
+526, 1962-03-07, 2, 1, India, c Contractor, Desai, 9, na, na, na, 0
+527, 1962-03-23, 2, 1, India, c Engineer, Surti, 59, na, na, na, 0
+528, 1962-04-04, 1, 1, India, , Umrigar, 28, na, na, na, 0
+528, 1962-04-04, 4, 1, India, c Kunderan, Durani, 30, na, na, na, 0
+529, 1962-04-13, 1, 1, India, c Kunderan, Ranjane, 1, na, na, 0, 0
+529, 1962-04-13, 3, 1, India, c Kunderan, Surti, 0, na, na, 0, 0
+543, 1963-06-06, 1, 1, England, c Titmus, Allen, 182, 503, na, 27, 0
+543, 1963-06-06, 4, 1, England, not out, , 1, 1, 1, 0, 0
+544, 1963-06-20, 1, 1, England, c Close, Trueman, 44, 130, na, 9, 0
+544, 1963-06-20, 3, 1, England, c Cowdrey, Shackleton, 7, na, na, 0, 1
+545, 1963-07-04, 2, 1, England, , Trueman, 18, 60, na, na, 0
+545, 1963-07-04, 4, 1, England, c Barrington, Trueman, 5, na, na, 1, 0
+546, 1963-07-25, 1, 1, England, c Parks, Trueman, 22, na, na, na, 0
+546, 1963-07-25, 3, 1, England, , Trueman, 4, na, na, na, 0
+547, 1963-08-22, 2, 1, England, c Parks, Shackleton, 80, 195, na, 7, 0
+547, 1963-08-22, 4, 1, England, not out, , 108, 306, na, 9, 0
+580, 1965-03-03, 1, 1, Australia, c Grout, Philpott, 41, na, na, na, 0
+580, 1965-03-03, 3, 1, Australia, c Simpson, Mayne, 81, 300, na, na, 0
+584, 1965-03-26, 1, 1, Australia, c Simpson, McKenzie, 89, na, na, na, 0
+584, 1965-03-26, 3, 1, Australia, , Philpott, 53, na, na, na, 0
+588, 1965-04-14, 1, 1, Australia, c McKenzie, Philpott, 31, na, na, na, 0
+588, 1965-04-14, 3, 1, Australia, c Grout, Hawke, 38, na, na, na, 0
+589, 1965-05-05, 2, 1, Australia, c Simpson, McKenzie, 75, na, na, na, 0
+589, 1965-05-05, 4, 1, Australia, c Grout, McKenzie, 81, na, na, na, 0
+590, 1965-05-14, 1, 1, Australia, c Grout, Hawke, 1, na, na, 0, 0
+590, 1965-05-14, 3, 1, Australia, not out, , 60, na, na, na, 0
+605, 1966-06-02, 1, 1, England, c Smith, Higgs, 135, 297, 279, 19, 0
+606, 1966-06-16, 1, 1, England, c Parks, Higgs, 18, 69, 50, 2, 0
+606, 1966-06-16, 3, 1, England, c Milburn, Knight, 13, 44, 45, 2, 0
+607, 1966-06-30, 1, 1, England, lbw, Higgs, 9, 21, 17, 0, 0
+607, 1966-06-30, 3, 1, England, c Graveney, D'Oliveira, 12, 46, 45, 1, 0
+608, 1966-08-04, 1, 1, England, lbw, Snow, 48, 159, 130, 7, 0
+609, 1966-08-18, 1, 1, England, , Higgs, 1, 5, 5, 0, 0
+609, 1966-08-18, 3, 1, England, c Murray, Snow, 7, 24, 25, 1, 0
+610, 1966-12-13, 2, 1, India, , Durani, 101, 283, na, 16, 0
+610, 1966-12-13, 4, 1, India, c sub, Chandrasekhar, 40, 126, na, 6, 0
+612, 1967-12-31, 1, 1, India, run out, , 43, 115, na, 7, 0
+614, 1967-01-13, 2, 1, India, c Subramanya, Chandrasekhar, 49, 124, na, 8, 0
+614, 1967-01-13, 4, 1, India, c Surti, Prasanna, 26, 65, na, 3, 0

@@ -1,0 +1,59 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+1609, 2002-06-21, 2, 7, Bangladesh, c Al Sahariar, Manjural Islam, 5, 16, 16, 0, 0
+1611, 2002-06-28, 1, 7, Bangladesh, c Khaled Mashud, Manjural Islam, 0, 4, 5, 0, 0
+1698, 2004-04-06, 2, 7, Zimbabwe, , Panyangara, 4, 4, 4, 0, 0
+1812, 2006-07-04, 2, 7, South Africa, , Steyn, 42, 91, 49, 6, 1
+1812, 2006-07-04, 4, 7, South Africa, lbw, Hall, 30, 110, 79, 3, 0
+1820, 2006-11-07, 1, 7, New Zealand, c How, Martin, 7, 61, 39, 1, 0
+1820, 2006-11-07, 3, 7, New Zealand, run out (Bond), , 11, 49, 35, 2, 0
+1822, 2006-11-15, 1, 7, New Zealand, lbw, Vettori, 25, 47, 52, 3, 1
+1822, 2006-11-15, 3, 7, New Zealand, c sub (SM Mills), Martin, 37, 119, 104, 4, 0
+1837, 2007-05-25, 2, 7, Bangladesh, not out, , 120, 247, 191, 11, 0
+1838, 2007-06-03, 2, 7, Bangladesh, c Javed Omar, Mashrafe Mortaza, 14, 31, 26, 1, 0
+1845, 2007-10-08, 2, 7, Australia, lbw, Lee, 37, 165, 104, 5, 0
+1845, 2007-10-08, 3, 7, Australia, lbw, Clark, 1, 36, 21, 0, 0
+1847, 2007-10-16, 2, 7, Australia, c Gilchrist, Clark, 0, 14, 5, 0, 0
+1847, 2007-10-16, 4, 7, Australia, lbw, Johnson, 0, 1, 1, 0, 0
+1851, 2007-11-01, 1, 7, England, c Cook, Panesar, 51, 132, 102, 9, 0
+1851, 2007-11-01, 3, 7, England, , Collingwood, 20, 50, 46, 2, 0
+1853, 2007-11-09, 2, 7, England, c Prior, Harmison, 79, 217, 161, 6, 0
+1854, 2007-11-18, 1, 7, England, c Prior, Bopara, 0, 1, 3, 0, 0
+1869, 2008-02-22, 1, 7, West Indies, , Powell, 21, 107, 83, 2, 0
+1869, 2008-02-22, 3, 9, West Indies, not out, , 5, 9, 10, 1, 0
+1882, 2008-06-23, 1, 7, India, c Sharma, Harbhajan Singh, 30, 95, 70, 1, 0
+1884, 2008-07-31, 2, 7, India, c Laxman, Harbhajan Singh, 24, 85, 67, 1, 0
+1884, 2008-07-31, 4, 7, India, c Ganguly, Harbhajan Singh, 4, 37, 20, 0, 0
+1886, 2008-07-08, 2, 8, India, c Harbhajan Singh, Khan, 49, 163, 116, 5, 0
+1903, 2008-11-26, 1, 7, Bangladesh, c Tamim Iqbal, Shahadat Hossain, 6, 21, 10, 0, 0
+1903, 2008-11-26, 3, 7, Bangladesh, not out, , 3, 16, 24, 0, 0
+1905, 2009-01-03, 1, 2, Bangladesh, lbw, Mashrafe Mortaza, 0, 2, 1, 0, 0
+1905, 2009-01-03, 3, 2, Bangladesh, c Shakib Al Hasan, Mohammad Ashraful, 28, 80, 47, 2, 0
+1909, 2009-01-21, 1, 7, Pakistan, , Danish Kaneria, 18, 29, 22, 2, 0
+1909, 2009-01-21, 3, 7, Pakistan, not out, , 7, 38, 29, 1, 0
+1912, 2009-02-01, 1, 7, Pakistan, c Kamran Akmal, Umar Gul, 15, 43, 34, 2, 0
+1930, 2009-07-18, 1, 7, New Zealand, c Flynn, Vettori, 7, 16, 15, 1, 0
+1930, 2009-07-18, 3, 6, New Zealand, not out, , 30, 31, 26, 5, 0
+1932, 2009-07-26, 1, 7, New Zealand, c O'Brien, Martin, 17, 22, 18, 3, 0
+1933, 2009-10-16, 2, 7, India, not out, , 154, 415, 314, 11, 0
+1935, 2009-10-24, 2, 7, India, c Dhoni, Sreesanth, 39, 90, 75, 4, 1
+1935, 2009-10-24, 3, 7, India, , Harbhajan Singh, 29, 62, 45, 5, 0
+1937, 2009-11-02, 1, 7, India, c Harbhajan Singh, Ojha, 43, 61, 47, 6, 1
+1937, 2009-11-02, 3, 7, India, lbw, Ojha, 32, 58, 42, 3, 1
+1964, 2010-06-18, 1, 7, India, lbw, Mithun, 27, 48, 26, 2, 1
+1968, 2010-07-03, 1, 7, India, lbw, Ojha, 9, 38, 41, 1, 0
+1968, 2010-07-03, 3, 8, India, lbw, Mishra, 0, 1, 1, 0, 0
+1977, 2010-10-15, 2, 7, West Indies, c Roach, Shillingford, 58, 155, 88, 4, 1
+1980, 2010-10-23, 1, 7, West Indies, , Benn, 34, 89, 57, 5, 0
+1994, 2011-04-26, 1, 6, England, c Prior, Broad, 112, 252, 168, 12, 0
+1994, 2011-04-26, 3, 6, England, c Prior, Tremlett, 3, 12, 6, 0, 0
+1995, 2011-05-03, 2, 6, England, c Swann, Finn, 40, 89, 64, 5, 1
+1995, 2011-05-03, 4, 5, England, not out, , 12, 38, 31, 2, 0
+1996, 2011-05-16, 1, 6, England, c Morgan, Swann, 43, 162, 104, 5, 0
+1996, 2011-05-16, 3, 7, England, not out, , 6, 10, 6, 1, 0
+2005, 2011-08-31, 2, 6, Australia, lbw, Watson, 0, 3, 4, 0, 0
+2005, 2011-08-31, 4, 6, Australia, , Harris, 0, 22, 10, 0, 0
+2007, 2011-08-08, 1, 6, Australia, c Harris, Lyon, 18, 16, 15, 2, 1
+2007, 2011-08-08, 3, 6, Australia, c Haddin, Harris, 21, 41, 35, 5, 0
+2008, 2011-08-16, 2, 7, Australia, c Clarke, Copeland, 47, 115, 86, 3, 2
+2009, 2011-09-18, 1, 7, Pakistan, , Junaid Khan, 0, 2, 3, 0, 0
+2009, 2011-09-18, 3, 7, Pakistan, c Adnan Akmal, Aizaz Cheema, 120, 362, 273, 12, 0

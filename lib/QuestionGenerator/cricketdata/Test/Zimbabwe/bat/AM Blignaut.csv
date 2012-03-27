@@ -1,0 +1,37 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+1543, 2001-03-19, 2, 8, Bangladesh,                c &, Manjural Islam, 0, 1, 1, 0, 0
+1545, 2001-03-26, 2, 8, Bangladesh, run out (Mohammad Sharif/Mehrab Hossain), , 1, 2, 2, na, 1 
+1548, 2001-05-07, 1, 8, India, lbw, Nehra, 0, 7, 4, 0, 0
+1548, 2001-05-07, 3, 9, India, not out, , 32, 135, 97, 3, 1
+1549, 2001-05-15, 2, 8, India, st Dighe, Harbhajan Singh, 35, 53, 39, 4, 2
+1549, 2001-05-15, 4, 7, India, , Nehra, 16, 31, 25, 3, 0
+1551, 2001-06-19, 1, 8, West Indies, c Gayle, King, 21, 77, 60, 3, 0
+1551, 2001-06-19, 3, 8, West Indies,                c &, McGarrell, 9, 20, 19, 1, 0
+1553, 2001-06-27, 1, 8, West Indies, c Browne, McGarrell, 0, 10, 10, 0, 0
+1553, 2001-06-27, 3, 8, West Indies, , Stuart, 92, 158, 118, 12, 3
+1625, 2002-10-09, 2, 8, Pakistan, c Hasan Raza, Mohammad Sami, 50, 52, 38, 7, 2
+1625, 2002-10-09, 4, 8, Pakistan, c Younis Khan, Saqlain Mushtaq, 12, 17, 10, 1, 0
+1627, 2002-10-16, 1, 8, Pakistan, c Taufeeq Umar, Saqlain Mushtaq, 0, 9, 4, 0, 0
+1627, 2002-10-16, 3, 8, Pakistan, st Kamran Akmal, Saqlain Mushtaq, 41, 49, 32, 4, 2
+1646, 2003-04-22, 2, 8, England, c Butcher, Anderson, 3, 23, 13, 0, 0
+1646, 2003-04-22, 3, 8, England, , Butcher, 6, 18, 8, 1, 0
+1647, 2003-05-05, 2, 9, England, c Anderson, Harmison, 13, 11, 10, 3, 0
+1647, 2003-05-05, 3, 9, England, c Hussain, Anderson, 12, 29, 31, 2, 0
+1661, 2003-09-09, 2, 10, Australia, lbw, Lee, 0, 1, 1, 0, 0
+1661, 2003-09-09, 3, 10, Australia, st Gilchrist, Lehmann, 22, 40, 29, 5, 0
+1663, 2003-09-17, 1, 9, Australia, not out, , 38, 109, 72, 7, 0
+1663, 2003-09-17, 3, 9, Australia, c Williams, Katich, 44, 69, 63, 7, 1
+1668, 2003-10-04, 1, 9, West Indies, c Gayle, Drakes, 91, 190, 126, 8, 0
+1668, 2003-10-04, 3, 8, West Indies, c Jacobs, Collymore, 13, 21, 16, 1, 0
+1669, 2003-10-12, 2, 9, West Indies, lbw, Collymore, 31, 84, 57, 4, 0
+1669, 2003-10-12, 4, 6, West Indies, lbw, Banks, 3, 26, 13, 0, 0
+1683, 2004-01-19, 1, 8, Bangladesh, st Khaled Mashud, Mohammad Rafique, 7, 20, 18, 1, 0
+1683, 2004-01-19, 3, 7, Bangladesh, , Manjural Islam Rana, 3, 4, 2, na, 2 
+1737, 2005-02-04, 1, 9, South Africa, c Boje, Kallis, 8, 23, 14, 2, 0
+1737, 2005-02-04, 3, 9, South Africa, st Boucher, Boje, 61, 82, 58, 3, 6
+1740, 2005-02-11, 1, 9, South Africa, c Smith, Zondeki, 52, 81, 54, 4, 1
+1740, 2005-02-11, 3, 9, South Africa, c Boucher, Kallis, 0, 7, 5, 0, 0
+1765, 2005-08-13, 1, 8, India, lbw, Khan, 4, na, 33, 0, 0
+1765, 2005-08-13, 3, 8, India, , Harbhajan Singh, 26, na, 40, 4, 0
+1767, 2005-08-20, 1, 8, India, c Karthik, Pathan, 13, na, 28, 1, 0
+1767, 2005-08-20, 3, 8, India, not out, , 84, na, 93, 8, 4

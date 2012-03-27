@@ -1,0 +1,96 @@
+
+Test # 597
+The Ashes, 1965/66, 1st Test
+Australia v England
+Brisbane Cricket Ground, Woolloongabba, Brisbane
+10,11,13,14,15 December 1965 (5-day match)
+
+Result: Match drawn
+Series: 5-match series level 0-0
+
+Toss: Australia
+Umpires: CJ Egar and LP Rowan
+Balls per over: 8
+Test debuts: PJ Allan, KD Walters (Australia).
+
+Close of play:
+ Day 1: Australia 79/1 (Lawry 40*, Cowper 20*)
+ Day 2: No play
+ Day 3: Australia 384/5 (Walters 119*, Veivers 39*)
+ Day 4: Australia 443/6d, England 197/5 (Barrington 44*, Titmus 0*)
+
+Australia 1st innings                                           R   M   B  4 6
+WM Lawry              c Parks            b Higgs              166 398 406 23 0
+IR Redpath                               b Brown               17  85  73  1 0
+RM Cowper             c Barrington       b Brown               22  83  99  3 0
+PJP Burge                                b Brown                0   3   4  0 0
+*BC Booth                            c & b Titmus              16  53  65  3 0
+KD Walters            c Parks            b Higgs              155 322 315 11 2
+TR Veivers            not out                                  56 145 129  6 0
+NJN Hawke             not out                                   6  14  15  0 0
+Extras                (lb 2, nb 3)                              5
+Total                 (6 wickets dec, 137 overs)              443
+
+DNB: PI Philpott, +ATW Grout, PJ Allan.
+
+FoW: 1-51 (Redpath), 2-90 (Cowper), 3-90 (Burge), 4-125 (Booth),
+     5-312 (Lawry), 6-431 (Walters).
+
+Bowling                      O      M      R      W
+Brown                       21      4     71      3
+Higgs                       30      6    102      2
+Titmus                      38      9     99      1
+Allen                       39     12    108      0
+Barber                       5      0     42      0
+Boycott                      4      0     16      0
+
+England 1st innings                                             R   M   B  4 6
+RW Barber             c Walters          b Hawke                5  10  10  1 0
+G Boycott                                b Philpott            45 136 122  6 0
+JH Edrich             c Lawry            b Philpott            32 108  98  3 0
+KF Barrington                            b Hawke               53 187 173  2 0
+*MJK Smith                               b Allan               16  38  54  3 0
++JM Parks             c Redpath          b Philpott            52  68  66  4 3
+FJ Titmus             st Grout           b Philpott            60 160 146  6 0
+DA Allen              c Cowper           b Walters              3  24  15  0 0
+DJ Brown                                 b Philpott             3  24  22  0 0
+K Higgs               lbw                b Allan                4  29  29  1 0
+WE Russell            not out                                   0  17  10  0 0
+Extras                (b 4, nb 3)                               7
+Total                 (all out, 93.1 overs)                   280
+
+FoW: 1-5 (Barber), 2-75 (Edrich), 3-86 (Boycott), 4-115 (Smith),
+     5-191 (Parks), 6-221 (Barrington), 7-232 (Allen),
+     8-253 (Brown), 9-272 (Higgs), 10-280 (Titmus).
+
+Bowling                      O      M      R      W
+Allan                       21      6     58      2
+Hawke                       16      7     44      2
+Walters                     10      1     25      1
+Philpott                    28.1    3     90      5
+Cowper                       7      4      7      0
+Veivers                     11      1     49      0
+
+England 2nd innings (following on)                              R   M   B  4 6
+RW Barber             c Veivers          b Walters             34  45  37  3 1
+G Boycott             not out                                  63 205 212  3 0
+JH Edrich             c Veivers          b Philpott            37  67  71  3 1
+KF Barrington         c Booth            b Cowper              38  54  43  1 1
+*MJK Smith            not out                                  10  36  29  0 0
+Extras                (b 2, lb 2)                               4
+Total                 (3 wickets, 50 overs)                   186
+
+DNB: +JM Parks, FJ Titmus, DA Allen, DJ Brown, K Higgs,
+     WE Russell.
+
+FoW: 1-46 (Barber), 2-114 (Edrich), 3-168 (Barrington).
+
+Bowling                      O      M      R      W
+Allan                        3      0     25      0
+Hawke                       10      2     16      0
+Walters                      5      1     22      1
+Philpott                    14      1     62      1
+Cowper                       6      0     20      1
+Veivers                     12      0     37      0
+
+<END>

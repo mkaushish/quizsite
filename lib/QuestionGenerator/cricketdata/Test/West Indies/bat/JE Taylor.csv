@@ -1,0 +1,47 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+1648, 2003-05-20, 2, 11, Sri Lanka, not out, , 9, 28, 15, 1, 0
+1649, 2003-05-27, 2, 9, Sri Lanka, c Muralitharan, Dharmasena, 1, 1, 2, 0, 0
+1668, 2003-10-04, 2, 9, Zimbabwe, c Wishart, Price, 9, 41, 26, 2, 0
+1668, 2003-10-04, 4, 9, Zimbabwe, c Matsikenyeri, Blignaut, 3, 21, 13, 0, 0
+1787, 2006-02-09, 2, 11, New Zealand, not out, , 4, 8, 5, 1, 0
+1787, 2006-02-09, 4, 10, New Zealand, , Bond, 13, 37, 24, 1, 0
+1806, 2006-05-10, 2, 9, India, c Kaif, Sehwag, 23, na, 36, 2, 1
+1806, 2006-05-10, 3, 9, India, not out, , 0, na, 3, 0, 0
+1807, 2006-05-22, 1, 9, India, c Yuvraj Singh, Harbhajan Singh, 2, na, 5, 0, 0
+1808, 2006-06-30, 2, 9, India, run out (Sehwag/Dhoni), , 6, 24, 17, 1, 0
+1808, 2006-06-30, 4, 9, India, lbw, Kumble, 20, 32, 24, 4, 0
+1815, 2006-10-11, 1, 9, Pakistan, lbw, Umar Gul, 8, 37, 24, 1, 0
+1815, 2006-10-11, 3, 10, Pakistan, c Kamran Akmal, Umar Gul, 8, 25, 16, 0, 0
+1816, 2006-10-19, 2, 10, Pakistan, lbw, Abdul Razzaq, 1, 11, 9, 0, 0
+1818, 2006-11-27, 2, 10, Pakistan, c Kamran Akmal, Shahid Nazir, 1, na, 7, 0, 0
+1818, 2006-11-27, 4, 10, Pakistan, lbw, Abdul Razzaq, 1, na, 8, 0, 0
+1831, 2007-04-17, 2, 10, England, c sub (LJ Hodgson), Harmison, 21, 36, 19, 3, 0
+1834, 2007-04-25, 2, 9, England, not out, , 23, 42, 23, 4, 0
+1834, 2007-04-25, 3, 9, England, , Harmison, 0, 6, 2, 0, 0
+1835, 2007-05-07, 2, 9, England, c Strauss, Panesar, 0, 2, 2, 0, 0
+1835, 2007-05-07, 4, 9, England, c Cook, Harmison, 11, 58, 47, 1, 0
+1856, 2007-11-26, 1, 9, South Africa, , Steyn, 9, 46, 37, 1, 0
+1856, 2007-11-26, 3, 9, South Africa, c Nel, Harris, 22, 37, 28, 2, 1
+1858, 2008-01-02, 1, 9, South Africa,                c &, Steyn, 8, 22, 14, 1, 0
+1858, 2008-01-02, 3, 9, South Africa, c Kallis, Steyn, 21, 60, 58, 2, 1
+1860, 2008-01-10, 1, 9, South Africa, c Steyn, Pollock, 25, 34, 27, 4, 0
+1860, 2008-01-10, 3, 8, South Africa, not out, , 17, 25, 12, 4, 0
+1869, 2008-02-22, 2, 10, Sri Lanka, not out, , 27, 73, 61, 2, 1
+1869, 2008-02-22, 4, 10, Sri Lanka, c Dilshan, Vaas, 12, 58, 42, 3, 0
+1872, 2008-03-03, 2, 9, Sri Lanka, lbw, Vaas, 13, na, 31, 0, 1
+1877, 2008-05-30, 2, 9, Australia, , Lee, 20, 23, 26, 2, 1
+1879, 2008-05-12, 2, 8, Australia, c Katich, Clarke, 0, 7, 9, 0, 0
+1879, 2008-05-12, 4, 7, Australia, c Haddin, Johnson, 31, 53, 36, 6, 0
+1897, 2008-11-11, 2, 8, New Zealand, c McCullum, Vettori, 106, 138, 107, 17, 3
+1900, 2008-11-19, 1, 8, New Zealand, c McCullum, O'Brien, 17, 35, 24, 3, 0
+1900, 2008-11-19, 3, 8, New Zealand, lbw, O'Brien, 8, 45, 39, 2, 0
+1906, 2009-01-04, 2, 8, England, lbw, Harmison, 8, 34, 28, 1, 0
+1908, 2009-01-15, 2, 9, England,                c &, Flintoff, 19, 69, 37, 3, 0
+1908, 2009-01-15, 4, 8, England, c sub (IR Bell), Anderson, 11, 41, 28, 1, 0
+1911, 2009-02-26, 2, 8, England, , Swann, 53, 72, 62, 6, 3
+1919, 2009-04-06, 2, 8, England, c Prior, Onions, 0, 2, 2, 0, 0
+1919, 2009-04-06, 3, 8, England, lbw, Swann, 15, 19, 13, 2, 0
+1920, 2009-04-14, 2, 8, England, lbw, Onions, 10, 14, 11, 2, 0
+1920, 2009-04-14, 3, 8, England, , Anderson, 5, 14, 12, 1, 0
+1936, 2009-10-26, 2, 9, Australia, c Katich, Hauritz, 8, 12, 11, 2, 0
+1936, 2009-10-26, 3, 8, Australia, c Hilfenhaus, Watson, 0, 3, 1, 0, 0

@@ -1,0 +1,105 @@
+
+Test # 572
+England in South Africa, 1964/65, 2nd Test
+South Africa v England
+New Wanderers Stadium, Johannesburg
+23,24,26,28,29 December 1964 (5-day match)
+
+Result: Match drawn
+Series: England leads the 5-match series 1-0
+
+Toss: England
+Umpires: LM Baxter and HC Kidson
+
+Close of play:
+ Day 1: England 329/2 (Dexter 167*, Barrington 59*)
+ Day 2: England 531, South Africa 9/0 (Goddard 0*, Barlow 9*)
+ Day 3: South Africa 261/5 (Pithey 80*, Varnals 16*)
+ Day 4: South Africa 317, South Africa 146/4 (RG Pollock 37*, Bland 10*)
+
+England 1st innings                                             R   M   B  4 6
+G Boycott             c Lindsay          b PM Pollock           4  11      1 0
+RW Barber                                b Seymour             97 147 111 10 0
+ER Dexter             c Lindsay          b RG Pollock         172 339     28 0
+KF Barrington         c RG Pollock       b PM Pollock         121 329     16 1
+PH Parfitt            c Goddard          b Partridge           52 198      7 0
+*MJK Smith            c McLean           b Goddard             25  64      3 0
++JM Parks             lbw                b RG Pollock          26  72      2 0
+FJ Titmus                                b PM Pollock           2  17      0 0
+DA Allen              lbw                b PM Pollock           2   8      0 0
+NI Thomson            not out                                  27  37      4 0
+JSE Price                                b PM Pollock           0   4      0 0
+Extras                (lb 3)                                    3
+Total                 (all out, 166.3 overs)                  531
+
+FoW: 1-10 (Boycott), 2-146 (Barber), 3-337 (Dexter),
+     4-419 (Barrington), 5-467 (Smith), 6-477 (Parfitt),
+     7-484 (Titmus), 8-490 (Allen), 9-526 (Parks),
+     10-531 (Price).
+
+Bowling                      O      M      R      W
+PM Pollock                  38.3   10    129      5
+Partridge                   40     10    106      1
+Goddard                     31      8     90      1
+Seymour                     35     10    109      1
+Barlow                       8      2     33      0
+RG Pollock                  11      1     50      2
+Bland                        3      0     11      0
+
+South Africa 1st innings                                        R   M   B  4 6
+*TL Goddard                              b Titmus              40 130      6 0
+EJ Barlow             c Price            b Titmus              71 179     11 0
+AJ Pithey                                b Allen               85 272     10 0
+RG Pollock            c Smith            b Titmus              12  20      3 0
+KC Bland              c Thomson          b Price               29  99      4 0
+RA McLean             lbw                b Barber              12  33      2 0
+GD Varnals                               b Price               21  71      3 0
++DT Lindsay                              b Thomson             10  36      1 0
+MA Seymour            run out                                   2  46      0 0
+PM Pollock            c Smith            b Titmus              20  78      1 0
+JT Partridge          not out                                  13  65      1 0
+Extras                (lb 2)                                    2
+Total                 (all out, 159.5 overs)                  317
+
+FoW: 1-78 (Goddard), 2-139 (Barlow), 3-153 (RG Pollock),
+     4-211 (Bland), 5-231 (McLean), 6-271 (Pithey),
+     7-271 (Varnals), 8-282 (Lindsay), 9-285 (Seymour),
+     10-317 (PM Pollock).
+
+Bowling                      O      M      R      W
+Price                       32     11     66      2
+Thomson                     23      8     47      1
+Titmus                      39.5   15     73      4
+Dexter                       4      0     16      0
+Allen                       39     19     45      1
+Barrington                   4      0     29      0
+Barber                      14      1     33      1
+Parfitt                      4      2      6      0
+
+South Africa 2nd innings (following on)                         R   M   B  4 6
+*TL Goddard           c Smith            b Allen               50 156      5 0
+EJ Barlow             c Smith            b Allen               15 101      0 0
+AJ Pithey             c Dexter           b Allen                6  47      0 0
+RA McLean                                b Titmus              24  42      1 1
+RG Pollock                               b Allen               55 143      8 1
+KC Bland              not out                                 144 248     17 2
+GD Varnals            c Parks            b Dexter              23 120      2 0
++DT Lindsay           not out                                   4  19      0 0
+Extras                (b 4, lb 8, nb 3)                        15
+Total                 (6 wickets, 140 overs)                  336
+
+DNB: MA Seymour, PM Pollock, JT Partridge.
+
+FoW: 1-50 (Barlow), 2-74 (Pithey), 3-75 (Goddard),
+     4-109 (McLean), 5-196 (RG Pollock), 6-320 (Varnals).
+
+Bowling                      O      M      R      W
+Price                       15      3     49      0
+Thomson                     16      5     36      0
+Titmus                      45     18    101      1
+Allen                       49     17     87      4
+Barber                       2      0     12      0
+Dexter                       8      0     33      1
+Boycott                      5      3      3      0
+
+<END>

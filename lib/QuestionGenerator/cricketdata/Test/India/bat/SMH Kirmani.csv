@@ -1,0 +1,125 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+769, 1976-01-24, 2, 9, New Zealand, , Congdon, 14, na, na, na, 0
+771, 1976-02-05, 1, 8, New Zealand, lbw, Collinge, 27, na, na, na, 0
+771, 1976-02-05, 3, 8, New Zealand, not out, , 1, na, na, 0, 0
+772, 1976-02-13, 1, 8, New Zealand, c Wadsworth, RJ Hadlee, 49, 148, na, 4, 0
+772, 1976-02-13, 3, 6, New Zealand, c Burgess, RJ Hadlee, 1, na, na, 0, 0
+773, 1976-03-10, 1, 8, West Indies, , Roberts, 8, na, na, na, 0
+773, 1976-03-10, 3, 8, West Indies, lbw, Holford, 15, na, na, na, 0
+775, 1976-04-07, 2, 9, West Indies, lbw, Holding, 12, na, na, na, 0
+776, 1976-04-21, 1, 9, West Indies, not out, , 0, na, na, 0, 0
+776, 1976-04-21, 3, 6, West Indies, not out, , 0, na, na, 0, 0
+785, 1976-11-10, 1, 8, New Zealand, c JM Parker, Petherick, 88, 188, na, 12, 0
+786, 1976-11-18, 1, 7, New Zealand, c Turner, O'Sullivan, 64, 177, na, 9, 0
+787, 1976-11-26, 1, 7, New Zealand, lbw, Petherick, 44, 170, na, 3, 0
+788, 1976-12-17, 2, 8, England, , Lever, 13, 36, 23, 3, 0
+788, 1976-12-17, 3, 7, England, c Lever, Greig, 10, 15, 13, 2, 0
+791, 1977-01-01, 1, 8, England, not out, , 25, 110, 60, 3, 0
+791, 1977-01-01, 3, 8, England, , Old, 0, 2, 2, 0, 0
+793, 1977-01-14, 2, 8, England, c Brearley, Lever, 27, 108, 75, 2, 0
+793, 1977-01-14, 4, 8, England, c Brearley, Willis, 1, 11, 8, 0, 0
+794, 1977-01-28, 1, 7, England, , Willis, 52, 151, 103, 8, 0
+794, 1977-01-28, 3, 8, England, c Randall, Underwood, 21, 24, 17, 4, 0
+795, 1977-02-11, 1, 7, England, c Knott, Underwood, 8, 68, 45, 1, 0
+795, 1977-02-11, 3, 7, England, c Greig, Underwood, 10, 48, 33, 1, 0
+809, 1977-12-02, 2, 8, Australia, c Ogilvie, Thomson, 11, 72, 53, 0, 0
+809, 1977-12-02, 4, 7, Australia, c Serjeant, Hurst, 55, 137, 133, 4, 0
+811, 1977-12-16, 1, 7, Australia, c Rixon, Thomson, 38, 76, 64, 5, 0
+811, 1977-12-16, 3, 7, Australia, lbw, Gannon, 2, 1, 2, 0, 0
+812, 1978-12-30, 1, 7, Australia, lbw, Simpson, 29, 85, 62, 1, 0
+812, 1978-12-30, 3, 3, Australia, c Thomson, Mann, 29, 82, 62, 2, 0
+814, 1978-01-07, 2, 7, Australia, , Cosier, 42, 95, 61, 3, 0
+816, 1978-01-28, 2, 7, Australia, run out, , 48, 117, 95, 6, 0
+816, 1978-01-28, 4, 7, Australia, , Clark, 51, 146, 124, 7, 0
+831, 1978-10-16, 2, 7, Pakistan, c Iqbal Qasim, Mushtaq Mohammad, 1, na, na, 0, 0
+832, 1978-10-27, 1, 7, Pakistan, lbw, Mudassar Nazar, 12, na, na, na, 0
+832, 1978-10-27, 3, 8, Pakistan, not out, , 39, na, na, na, 0
+833, 1978-11-14, 1, 7, Pakistan, c Mushtaq Mohammad, Sikander Bakht, 14, na, na, na, 0
+833, 1978-11-14, 3, 4, Pakistan, c Iqbal Qasim, Imran Khan, 4, na, na, na, 0
+835, 1978-12-01, 1, 6, West Indies, , Clarke, 17, 25, 13, 0, 0
+837, 1978-12-15, 2, 6, West Indies, c Kallicharran, Phillip, 15, na, na, na, 0
+839, 1979-12-29, 1, 8, West Indies, lbw, Phillip, 0, na, na, 0, 0
+841, 1979-01-12, 2, 9, West Indies, c Shivnarine, Phillip, 33, na, na, na, 0
+841, 1979-01-12, 4, 9, West Indies, not out, , 4, na, na, na, 0
+842, 1979-01-24, 1, 7, West Indies, run out, , 30, na, na, na, 0
+845, 1979-02-02, 1, 8, West Indies, c Phillip, Jumadeen, 2, na, na, 0, 0
+855, 1979-09-11, 2, 3, Australia, c Border, Hogg, 57, 235, 206, 6, 0
+856, 1979-09-19, 2, 4, Australia, st Wright, Higgs, 30, 96, 81, 3, 0
+857, 1979-10-02, 1, 7, Australia, c Whatmore, Hogg, 4, na, na, na, 0
+857, 1979-10-02, 3, 7, Australia, , Dymock, 45, 90, na, 8, 0
+858, 1979-10-13, 1, 8, Australia, , Dymock, 35, 46, 39, 5, 1
+859, 1979-10-26, 2, 8, Australia, not out, , 13, 51, 31, 2, 0
+860, 1979-11-03, 1, 5, Australia, not out, , 101, 306, 206, 17, 0
+861, 1979-11-21, 2, 7, Pakistan, c Iqbal Qasim, Ehteshamuddin, 37, 136, 86, 4, 0
+863, 1979-12-04, 2, 7, Pakistan, , Sikander Bakht, 5, 27, 7, 0, 0
+863, 1979-12-04, 4, 8, Pakistan, not out, , 11, 21, 20, 0, 0
+865, 1979-12-16, 1, 7, Pakistan, c Asif Iqbal, Sikander Bakht, 41, 140, 110, 8, 0
+865, 1979-12-16, 3, 6, Pakistan, c Asif Iqbal, Iqbal Qasim, 15, 49, 31, 1, 0
+866, 1979-12-25, 1, 7, Pakistan, , Ehteshamuddin, 0, 16, 9, 0, 0
+869, 1980-01-15, 2, 7, Pakistan, , Imran Khan, 2, 27, 15, 0, 0
+871, 1980-01-29, 1, 8, Pakistan, c Iqbal Qasim, Ehteshamuddin, 37, 116, 72, 3, 0
+871, 1980-01-29, 3, 3, Pakistan, c Sadiq Mohammad, Imran Khan, 0, 12, 6, 0, 0
+874, 1980-02-15, 1, 8, England, not out, , 40, 134, 99, 5, 0
+874, 1980-02-15, 3, 7, England, c Gooch, Botham, 0, 8, 7, 0, 0
+893, 1981-01-02, 1, 8, Australia, c Walters, Lillee, 27, 55, 48, 3, 0
+893, 1981-01-02, 3, 7, Australia, not out, , 43, 71, 39, 4, 0
+894, 1981-01-23, 2, 9, Australia, , Pascoe, 6, 30, 18, 0, 0
+894, 1981-01-23, 4, 8, Australia, c Marsh, Chappell, 14, 79, 81, 0, 0
+895, 1981-02-07, 1, 8, Australia, c Marsh, Lillee, 25, 58, 44, 1, 0
+895, 1981-02-07, 3, 7, Australia, run out, , 9, 42, 17, 0, 0
+897, 1981-02-21, 2, 8, New Zealand, run out, , 13, na, 21, 1, 0
+897, 1981-02-21, 4, 7, New Zealand, , Cairns, 11, 50, 36, 1, 0
+898, 1981-03-06, 1, 7, New Zealand, retired hurt, , 9, 35, 29, 0, 0
+899, 1981-03-13, 1, 8, New Zealand, , Bracewell, 78, 278, 230, 5, 0
+899, 1981-03-13, 3, 8, New Zealand, , Bracewell, 1, 3, 5, 0, 0
+911, 1981-11-27, 1, 8, England, lbw, Dilley, 12, 26, 20, 2, 0
+911, 1981-11-27, 3, 9, England, c Taylor, Emburey, 0, 4, 7, 0, 0
+912, 1981-12-09, 2, 9, England, lbw, Botham, 9, 72, 32, 0, 0
+914, 1981-12-23, 2, 9, England, lbw, Lever, 67, 215, 142, 9, 0
+916, 1982-01-01, 2, 8, England, , Botham, 10, 85, 51, 0, 0
+920, 1982-01-30, 2, 9, England, not out, , 1, 5, 11, 0, 0
+928, 1982-06-10, 2, 9, England, not out, , 6, 22, 14, 0, 0
+928, 1982-06-10, 3, 9, England, c Gower, Willis, 3, 20, 14, 0, 0
+929, 1982-06-24, 2, 5, England, , Edmonds, 58, 161, 134, 8, 0
+930, 1982-07-08, 2, 6, England, , Allott, 43, 158, 113, 5, 0
+934, 1982-09-17, 4, 8, Sri Lanka, , de Mel, 5, na, na, na, 0
+941, 1982-12-10, 2, 9, Pakistan, c Wasim Bari, Jalal-ud-Din, 10, 43, 32, 1, 0
+942, 1982-12-23, 1, 8, Pakistan, c Mohsin Khan, Abdul Qadir, 11, 45, 40, 2, 0
+942, 1982-12-23, 3, 7, Pakistan, c Saleem Malik, Abdul Qadir, 1, 6, 6, 0, 0
+945, 1983-01-03, 1, 8, Pakistan, , Imran Khan, 66, 141, 106, 9, 0
+945, 1983-01-03, 3, 8, Pakistan, c Wasim Bari, Sikander Bakht, 6, 24, 23, 0, 0
+946, 1983-01-14, 2, 7, Pakistan, , Imran Khan, 1, 4, 4, 0, 0
+946, 1983-01-14, 3, 7, Pakistan, lbw, Sarfraz Nawaz, 0, 8, 5, 0, 0
+948, 1983-01-30, 1, 7, Pakistan, c Zaheer Abbas, Sarfraz Nawaz, 18, 98, 72, 1, 0
+949, 1983-02-23, 1, 8, West Indies, c Dujon, Marshall, 5, na, na, na, 0
+949, 1983-02-23, 3, 8, West Indies, c Haynes, Roberts, 10, na, na, na, 0
+952, 1983-03-11, 1, 8, West Indies, , Roberts, 7, na, na, na, 0
+952, 1983-03-11, 3, 8, West Indies, run out, , 30, na, na, na, 0
+954, 1983-04-15, 1, 8, West Indies, c Haynes, Roberts, 11, na, na, na, 0
+954, 1983-04-15, 3, 9, West Indies, run out, , 33, na, na, na, 0
+956, 1983-04-28, 1, 8, West Indies, c Greenidge, Davis, 2, na, na, 0, 0
+961, 1983-09-14, 1, 9, Pakistan, c Wasim Bari, Tahir Naqqash, 14, na, na, na, 0
+962, 1983-09-24, 2, 10, Pakistan, not out, , 8, na, na, na, 0
+963, 1983-10-05, 1, 10, Pakistan, run out, , 30, 30, 28, 5, 0
+963, 1983-10-05, 3, 10, Pakistan, not out, , 31, na, na, na, 0
+964, 1983-10-21, 2, 7, West Indies, , Holding, 20, na, na, na, 0
+964, 1983-10-21, 3, 9, West Indies, , Holding, 14, 28, na, na, 0
+965, 1983-10-29, 1, 11, West Indies, not out, , 1, na, na, 0, 0
+965, 1983-10-29, 3, 11, West Indies, c Logie, Gomes, 3, na, na, 0, 0
+967, 1983-11-12, 2, 9, West Indies, c Haynes, Daniel, 5, na, na, na, 0
+967, 1983-11-12, 4, 9, West Indies, not out, , 24, 122, na, na, 0
+968, 1983-11-24, 1, 9, West Indies, not out, , 43, na, na, na, 0
+971, 1983-12-10, 1, 9, West Indies, , Roberts, 49, 137, 118, 6, 0
+971, 1983-12-10, 3, 10, West Indies, , Roberts, 13, na, na, na, 0
+972, 1983-12-24, 2, 10, West Indies, not out, , 63, 181, 156, 6, 0
+995, 1984-10-17, 2, 9, Pakistan, c sub, Mudassar Nazar, 2, na, na, 0, 0
+996, 1984-10-24, 1, 9, Pakistan, c sub, Azeem Hafeez, 6, na, na, na, 0
+1001, 1984-11-28, 2, 8, England, c Lamb, Pocock, 102, 319, 230, 10, 0
+1004, 1984-12-12, 1, 8, England, c Gatting, Ellison, 27, 136, 89, 3, 1
+1004, 1984-12-12, 3, 9, England, , Pocock, 6, 12, 8, 1, 0
+1007, 1985-12-31, 1, 7, England, c Fowler, Pocock, 35, 114, 59, 1, 1
+1008, 1985-01-13, 1, 8, England, not out, , 30, 125, 68, 4, 0
+1008, 1985-01-13, 3, 8, England, c Lamb, Edmonds, 75, 180, 115, 12, 0
+1011, 1985-01-31, 1, 9, England, not out, , 16, 40, 20, 0, 0
+1032, 1985-12-13, 2, 10, Australia, c Boon, Reid, 7, 26, 19, 0, 0
+1033, 1985-12-26, 2, 9, Australia, c Phillips, Waugh, 35, 59, 45, 4, 0

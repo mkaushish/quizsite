@@ -1,0 +1,62 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+318, 1949-12-24, 2, 8, Australia, lbw, Miller, 6, na, na, na, 0
+318, 1949-12-24, 3, 8, Australia, c Miller, Johnson, 0, na, na, 0, 0
+319, 1950-12-31, 2, 8, Australia, st Saggers, McCool, 15, na, na, na, 0
+319, 1950-12-31, 3, 8, Australia, , Lindwall, 75, 158, na, na, 0
+320, 1950-01-20, 1, 9, Australia, run out, , 15, na, na, na, 0
+320, 1950-01-20, 3, 8, Australia, , Johnston, 3, na, na, 0, 0
+321, 1950-02-10, 2, 8, Australia, c Johnson, Miller, 40, na, na, na, 0
+322, 1950-03-03, 2, 8, Australia, st Saggers, McCool, 6, na, na, na, 0
+322, 1950-03-03, 3, 8, Australia, st Saggers, McCool, 7, na, na, na, 0
+359, 1952-12-05, 2, 10, Australia, lbw, Ring, 3, 20, na, 0, 0
+359, 1952-12-05, 4, 10, Australia, c Langley, Johnson, 1, 5, na, 0, 0
+361, 1952-12-24, 1, 10, Australia, c Langley, Miller, 23, 59, na, 1, 0
+361, 1952-12-24, 3, 10, Australia, lbw, Lindwall, 22, 29, na, 5, 0
+362, 1953-01-09, 1, 10, Australia, not out, , 3, 24, na, 0, 0
+362, 1953-01-09, 3, 11, Australia, absent hurt, , -, , , , 
+364, 1953-01-24, 2, 9, Australia, , Johnston, 16, 34, na, 1, 0
+365, 1953-02-06, 2, 10, Australia, c Benaud, Ring, 17, 57, na, 0, 0
+368, 1953-03-06, 1, 10, New Zealand, not out, , 27, na, na, na, 2
+370, 1953-03-13, 1, 10, New Zealand, , Rabone, 9, na, na, na, 0
+377, 1953-12-11, 1, 9, New Zealand, , Overton, 28, na, na, na, 1
+378, 1953-12-24, 1, 8, New Zealand, not out, , 20, na, na, na, 0
+378, 1953-12-24, 3, 5, New Zealand, , Reid, 34, na, na, na, 0
+379, 1954-01-01, 2, 9, New Zealand, c Leggat, Rabone, 34, 106, na, na, 0
+381, 1954-01-29, 1, 9, New Zealand, c Reid, Blair, 19, na, na, na, 0
+382, 1954-02-05, 2, 9, New Zealand, c Sutcliffe, Blair, 2, na, na, 0, 0
+407, 1955-06-09, 2, 8, England, c Bailey, Appleyard, 11, 50, na, 1, 0
+407, 1955-06-09, 3, 8, England, , Tyson, 0, 8, na, 0, 0
+409, 1955-06-23, 2, 9, England, , Titmus, 21, na, na, na, 0
+409, 1955-06-23, 4, 4, England, c Evans, Statham, 3, 55, na, 0, 0
+410, 1955-07-07, 2, 9, England, , Tyson, 28, 110, na, 3, 0
+410, 1955-07-07, 4, 9, England, not out, , 1, 12, na, 0, 0
+411, 1955-07-21, 1, 9, England, not out, , 25, na, na, na, 0
+411, 1955-07-21, 3, 9, England, lbw, Statham, 14, 34, na, na, 0
+412, 1955-08-13, 2, 9, England, , Statham, 4, 7, na, 0, 0
+412, 1955-08-13, 4, 9, England, not out, , 10, 50, na, 0, 0
+434, 1956-12-24, 2, 9, England, , Wardle, 24, 82, na, 3, 0
+434, 1956-12-24, 4, 9, England, c Evans, Bailey, 2, 17, na, 0, 0
+435, 1957-01-01, 2, 5, England, run out, , 5, 45, na, 0, 0
+435, 1957-01-01, 4, 10, England, c Evans, Wardle, 4, 6, na, 1, 0
+436, 1957-01-25, 2, 9, England, not out, , 20, 57, na, 1, 0
+437, 1957-02-15, 1, 9, England, c Bailey, Wardle, 10, 20, na, 0, 0
+437, 1957-02-15, 3, 9, England, not out, , 12, 16, na, 2, 0
+438, 1957-03-01, 1, 9, England, , Loader, 4, 18, na, 0, 0
+438, 1957-03-01, 3, 8, England, c Evans, Tyson, 10, 66, na, 0, 0
+444, 1957-12-23, 1, 8, Australia, , Davidson, 18, na, na, na, 1
+444, 1957-12-23, 3, 8, Australia, c Grout, Meckiff, 3, na, na, 0, 0
+445, 1958-12-31, 2, 10, Australia, c Benaud, Kline, 21, na, na, na, 0
+445, 1958-12-31, 3, 10, Australia, lbw, Kline, 0, 1, 1, 0, 0
+447, 1958-01-24, 2, 9, Australia, st Grout, Benaud, 0, na, na, 0, 0
+449, 1958-02-07, 2, 3, Australia, lbw, Benaud, 27, 180, na, na, 0
+449, 1958-02-07, 3, 9, Australia, st Grout, Kline, 0, na, na, 0, 0
+451, 1958-02-28, 1, 9, Australia, c Burke, Kline, 66, na, na, na, 0
+451, 1958-02-28, 3, 5, Australia, c Grout, Davidson, 2, na, na, 0, 0
+492, 1960-06-09, 2, 10, England, run out, , 6, na, na, na, 0
+492, 1960-06-09, 4, 9, England, , Illingworth, 3, na, na, 0, 0
+493, 1960-06-23, 2, 9, England, c Smith, Moss, 12, na, na, na, 0
+493, 1960-06-23, 3, 9, England, , Dexter, 4, na, na, na, 0
+494, 1960-07-07, 2, 9, England, , Trueman, 11, 19, na, 1, 0
+494, 1960-07-07, 3, 9, England, c Parks, Moss, 6, 36, na, 1, 0
+495, 1960-07-21, 2, 9, England, c Trueman, Allen, 4, na, na, na, 0
+496, 1960-08-18, 2, 9, England, not out, , 46, 79, na, 6, 1

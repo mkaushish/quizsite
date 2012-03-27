@@ -1,0 +1,127 @@
+
+Test # 838
+The Ashes, 1978/79, 3rd Test
+Australia v England
+Melbourne Cricket Ground
+29,30 December 1978, 1,2,3 January 1979 (5-day match)
+
+Result: Australia won by 103 runs
+Series: England leads the 6-match series 2-1
+
+Toss: Australia
+Umpires: RA French and MG O'Connell
+Balls per over: 8
+Test debut: AR Border (Australia).
+Player of the match: GM Wood
+
+Close of play:
+ Day 1: Australia 243/4 (Wood 100*, Border 25*)
+ Day 2: Australia 258, England 107/8 (Miller 3*, Willis 3*)
+ Day 3: England 143, Australia 163/7 (Maclean 10*, Dymock 3*)
+ Day 4: Australia 167, England 171/8 (Emburey 2*)
+
+Australia 1st innings                                           R   M   B  4 6
+GM Wood               c Emburey          b Miller             100 392 283  6 0
+WM Darling            run out                                  33  93  71  2 0
+KJ Hughes             c Taylor           b Botham               0   2   1  0 0
+*GN Yallop            c Hendrick         b Botham              41  83  98  4 0
+PM Toohey             c Randall          b Miller              32  79  70  1 0
+AR Border             c Brearley         b Hendrick            29 105 115  4 0
++JA Maclean                              b Botham               8  68  47  0 0
+RM Hogg               c Randall          b Miller               0   2   5  0 0
+G Dymock                                 b Hendrick             0  13  14  0 0
+AG Hurst                                 b Hendrick             0   1   2  0 0
+JD Higgs              not out                                   1  24  15  0 0
+Extras                (lb 8, nb 6)                             14
+Total                 (all out, 89.1 overs)                   258
+
+FoW: 1-65 (Darling), 2-65 (Hughes), 3-126 (Yallop),
+     4-189 (Toohey), 5-247 (Border), 6-250 (Wood), 7-250 (Hogg),
+     8-251 (Dymock), 9-252 (Hurst), 10-258 (Maclean).
+
+Bowling                      O      M      R      W
+Willis                      13      2     47      0
+Botham                      20.1    4     68      3
+Hendrick                    23      3     50      3
+Emburey                     14      1     44      0
+Miller                      19      6     35      3
+
+England 1st innings                                             R   M   B  4 6
+G Boycott                                b Hogg                 1  12  13  0 0
+*JM Brearley          lbw                b Hogg                 1  16   8  0 0
+DW Randall            lbw                b Hurst               13  88  53  1 0
+GA Gooch              c Border           b Dymock              25 110  91  1 0
+DI Gower              lbw                b Dymock              29  59  48  4 0
+IT Botham             c Darling          b Higgs               22  83  80  3 0
+G Miller                                 b Hogg                 7 123 101  0 0
++RW Taylor                               b Hogg                 1   3   4  0 0
+JE Emburey                               b Hogg                 0  12  14  0 0
+RGD Willis            c Darling          b Dymock              19  87  76  0 0
+M Hendrick            not out                                   6  31  33  1 0
+Extras                (b 6, lb 4, nb 9)                        19
+Total                 (all out, 63.6 overs)                   143
+
+FoW: 1-2 (Boycott), 2-3 (Brearley), 3-40 (Randall), 4-52 (Gooch),
+     5-81 (Gower), 6-100 (Botham), 7-101 (Taylor),
+     8-101 (Emburey), 9-120 (Miller), 10-143 (Willis).
+
+Bowling                      O      M      R      W
+Hogg                        17      7     30      5
+Hurst                       12      2     24      1
+Dymock                      15.6    4     38      3
+Higgs                       19      9     32      1
+
+Australia 2nd innings                                           R   M   B  4 6
+GM Wood                                  b Botham              34 136 107  0 0
+WM Darling            c Randall          b Miller              21 100  86  0 0
+KJ Hughes             c Gower            b Botham              48 153 142  4 1
+*GN Yallop            c Taylor           b Miller              16  41  46  1 0
+PM Toohey             c Botham           b Emburey             20  33  30  1 0
+AR Border             run out                                   0   9  12  0 0
++JA Maclean           c Hendrick         b Emburey             10  91  77  1 0
+RM Hogg                                  b Botham               1  20  21  0 0
+G Dymock              c Brearley         b Hendrick             6  41  39  0 0
+JD Higgs              st Taylor          b Emburey              0  10   7  0 0
+AG Hurst              not out                                   0   4   4  0 0
+Extras                (b 4, lb 6, nb 1)                        11
+Total                 (all out, 71.2 overs)                   167
+
+FoW: 1-55 (Darling), 2-81 (Wood), 3-101 (Yallop), 4-136 (Toohey),
+     5-136 (Border), 6-152 (Hughes), 7-157 (Hogg),
+     8-167 (Maclean), 9-167 (Dymock), 10-167 (Higgs).
+
+Bowling                      O      M      R      W
+Willis                       7      0     21      0
+Botham                      15      4     41      3
+Hendrick                    14      4     25      1
+Miller                      14      5     39      2
+Emburey                     21.2   12     30      3
+
+England 2nd innings (target: 283 runs)                          R   M   B  4 6
+G Boycott             lbw                b Hurst               38 197 155  1 0
+*JM Brearley          c Maclean          b Dymock               0   7   3  0 0
+DW Randall            lbw                b Hogg                 2   5   8  0 0
+GA Gooch              lbw                b Hogg                40  95  87  5 0
+DI Gower              lbw                b Dymock              49 167 128  3 0
+IT Botham             c Maclean          b Higgs               10  76  62  0 0
+G Miller              c Hughes           b Higgs                1  17  12  0 0
++RW Taylor            c Maclean          b Hogg                 5  34  40  0 0
+JE Emburey            not out                                   7  44  33  0 0
+RGD Willis            c Yallop           b Hogg                 3  20  12  0 0
+M Hendrick                               b Hogg                 0   1   2  0 0
+Extras                (b 10, lb 7, w 1, nb 6)                  24
+Total                 (all out, 67 overs)                     179
+
+FoW: 1-1 (Brearley), 2-6 (Randall), 3-71 (Gooch),
+     4-122 (Boycott), 5-163 (Botham), 6-163 (Gower),
+     7-167 (Miller), 8-171 (Taylor), 9-179 (Willis),
+     10-179 (Hendrick).
+
+Bowling                      O      M      R      W
+Hogg                        17      5     36      5
+Dymock                      18      4     37      2
+Hurst                       11      1     39      1
+Higgs                       16      2     29      2
+Border                       5      0     14      0
+
+<END>

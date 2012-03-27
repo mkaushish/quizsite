@@ -1,0 +1,104 @@
+
+Test # 428
+The Ashes, 1956, 4th Test
+England v Australia
+Old Trafford, Manchester
+26,27,28,30,31 July 1956 (5-day match)
+
+Result: England won by an innings and 170 runs
+Series: England leads the 5-match series 2-1
+
+Toss: England
+Umpires: DE Davies and FS Lee
+
+Close of play:
+ Day 1: England 307/3 (Sheppard 59*, Bailey 14*)
+ Day 2: England 459, Australia 84, Australia 53/1 (Burke 33*, Craig 8*)
+ Day 3: Australia 59/2 (McDonald 15*, Craig 10*)
+ Day 4: Australia 84/2 (McDonald 25*, Craig 24*)
+
+England 1st innings                                             R   M   B  4 6
+PE Richardson         c Maddocks         b Benaud             104 222     11 0
+MC Cowdrey            c Maddocks         b Lindwall            80 190     11 0
+Rev.DS Sheppard                          b Archer             113 295     14 1
+*PBH May              c Archer           b Benaud              43 111      6 0
+TE Bailey                                b Johnson             20  43      2 0
+C Washbrook           lbw                b Johnson              6   8      1 0
+ASM Oakman            c Archer           b Johnson             10  11      1 0
++TG Evans             st Maddocks        b Johnson             47  29      5 2
+JC Laker              run out                                   3  10      0 0
+GAR Lock              not out                                  25  44      1 0
+JB Statham            c Maddocks         b Lindwall             0   4      0 0
+Extras                (b 2, lb 5, w 1)                          8
+Total                 (all out, 158.3 overs)                  459
+
+FoW: 1-174 (Cowdrey), 2-195 (Richardson), 3-288 (May),
+     4-321 (Bailey), 5-327 (Washbrook), 6-339 (Oakman),
+     7-401 (Evans), 8-417 (Laker), 9-458 (Sheppard),
+     10-459 (Statham).
+
+Bowling                      O      M      R      W
+Lindwall                    21.3    6     63      2
+Miller                      21      6     41      0
+Archer                      22      6     73      1
+Johnson                     47     10    151      4
+Benaud                      47     17    123      2
+
+Australia 1st innings                                           R   M   B  4 6
+CC McDonald           c Lock             b Laker               32  80      5 0
+JW Burke              c Cowdrey          b Lock                22 102      2 0
+RN Harvey                                b Laker                0   2      0 0
+ID Craig              lbw                b Laker                8  22      1 0
+KR Miller             c Oakman           b Laker                6  15      0 1
+KD Mackay             c Oakman           b Laker                0   2      0 0
+RG Archer             st Evans           b Laker                6  12      1 0
+R Benaud              c Statham          b Laker                0   2      0 0
+RR Lindwall           not out                                   6  14      1 0
++LV Maddocks                             b Laker                4   7      0 0
+*IWG Johnson                             b Laker                0   2      0 0
+Extras                                                          0
+Total                 (all out, 40.4 overs)                    84
+
+FoW: 1-48 (McDonald), 2-48 (Harvey), 3-62 (Burke), 4-62 (Craig),
+     5-62 (Mackay), 6-73 (Miller), 7-73 (Benaud), 8-78 (Archer),
+     9-84 (Maddocks), 10-84 (Johnson).
+
+Bowling                      O      M      R      W
+Statham                      6      3      6      0
+Bailey                       4      3      4      0
+Laker                       16.4    4     37      9
+Lock                        14      3     37      1
+
+Australia 2nd innings (following on)                            R   M   B  4 6
+CC McDonald           c Oakman           b Laker               89 337     10 0
+JW Burke              c Lock             b Laker               33 105      4 0
+RN Harvey             c Cowdrey          b Laker                0   1      0 0
+ID Craig              lbw                b Laker               38 259      5 0
+KD Mackay             c Oakman           b Laker                0   6      0 0
+KR Miller                                b Laker                0  15      0 0
+RG Archer             c Oakman           b Laker                0  10      0 0
+R Benaud                                 b Laker               18 105      3 0
+RR Lindwall           c Lock             b Laker                8  41      1 0
+*IWG Johnson          not out                                   1  25      0 0
++LV Maddocks          lbw                b Laker                2   6      0 0
+Extras                (b 12, lb 4)                             16
+Total                 (all out, 150.2 overs)                  205
+
+FoW: 1-28 (Harvey), 2-55 (Burke), 3-114 (Craig), 4-124 (Mackay),
+     5-130 (Miller), 6-130 (Archer), 7-181 (McDonald),
+     8-198 (Benaud), 9-203 (Lindwall), 10-205 (Maddocks).
+
+Bowling                      O      M      R      W
+Statham                     16     10     15      0
+Bailey                      20      8     31      0
+Laker                       51.2   23     53     10
+Lock                        55     30     69      0
+Oakman                       8      3     21      0
+
+*** Laker ended the Australian first innings with 7 wickets for 8 runs in 22
+    balls
+
+*** CC McDonald (2) retired hurt on 11* from 28/0 to 55/2. (injured with a
+    jarred knee)
+
+<END>

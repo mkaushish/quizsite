@@ -1,0 +1,101 @@
+
+Test # 835
+West Indies in India, 1978/79, 1st Test
+India v West Indies
+Wankhede Stadium, Bombay
+1,2,3,5,6 December 1978 (5-day match)
+
+Result: Match drawn
+Series: 6-match series level 0-0
+
+Toss: West Indies
+Umpires: SN Hanumantha Rao and B Satyaji Rao
+
+Close of play:
+ Day 1: India 57/1 (Gavaskar 28*, Viswanath 9*)
+ Day 2: India 351/5 (Kirmani 2*, Kapil Dev 4*)
+ Day 3: India 424, West Indies 184/4 (Kallicharran 103*, Murray 1*)
+ Day 4: West Indies 452/7 (Parry 45*, Holder 5*)
+
+India 1st innings                                               R   M   B  4 6
+*SM Gavaskar                             b Clarke             205 397 342 29 2
+CPS Chauhan           c Greenidge        b Holder              52 219 167  0 0
+M Amarnath                               b Clarke               4  18  17  0 0
+GR Viswanath          c Bacchus          b Parry               52 150 125  7 0
+DB Vengsarkar         lbw                b Phillip             11  26  24  0 0
++SMH Kirmani                             b Clarke              17  25  13  0 0
+N Kapil Dev           c Bacchus          b Holder              42  77  68  0 0
+KD Ghavri             not out                                  15  59  36  0 1
+S Venkataraghavan     c Murray           b Clarke               0   4   4  0 0
+BS Bedi                              c & b Holder               2  19   8  0 0
+BS Chandrasekhar                         b Holder               1  13   8  0 0
+Extras                (b 6, lb 4, nb 13)                       23
+Total                 (all out, 137 overs)                    424
+
+FoW: 1-35 (Amarnath), 2-190 (Viswanath), 3-217 (Vengsarkar),
+     4-334 (Gavaskar), 5-344 (Chauhan), 6-390 (Kirmani),
+     7-408 (Kapil Dev), 8-411 (Venkataraghavan), 9-414 (Bedi),
+     10-424 (Chandrasekhar).
+
+Bowling                      O      M      R      W
+Phillip                     22      4     67      1
+Clarke                      42      9     98      4
+Holder                      27      3     94      4
+Parry                       28      4    100      1
+Jumadeen                    17      3     39      0
+Kallicharran                 1      0      3      0
+
+West Indies 1st innings                                         R   M   B  4 6
+AE Greenidge          c Venkataraghavan  b Ghavri               0  17   8  0 0
+AB Williams                              b Ghavri               0   3   1  0 0
+HA Gomes                                 b Chandrasekhar       63 133 117  8 0
+*AI Kallicharran      lbw                b Kapil Dev          187 367 315 25 0
+SFAF Bacchus                             b Chandrasekhar       11  31  15  2 0
++DA Murray            lbw                b Chandrasekhar       84 295 258  8 0
+DR Parry              c Kirmani          b Chandrasekhar       55 164 114  4 0
+N Phillip             c Vengsarkar       b Venkataraghavan     26  47  47  3 0
+VA Holder             c Vengsarkar       b Chandrasekhar       14  36  21  1 0
+RR Jumadeen           not out                                   2  23  20  0 0
+ST Clarke             c Venkataraghavan  b Bedi                 8   9  12  0 1
+Extras                (b 22, lb 13, nb 8)                      43
+Total                 (all out, 161 overs)                    493
+
+FoW: 1-0 (Williams), 2-13 (Greenidge), 3-122 (Gomes),
+     4-150 (Bacchus), 5-317 (Kallicharran), 6-387 (Murray),
+     7-430 (Phillip), 8-474 (Holder), 9-480 (Parry),
+     10-493 (Clarke).
+
+Bowling                      O      M      R      W
+Kapil Dev                   19      3     70      1
+Ghavri                      25      3     71      2
+Venkataraghavan             34     12     77      1
+Bedi                        36      7    102      1
+Chandrasekhar               43      7    116      5
+Chauhan                      1      0      2      0
+Amarnath                     3      0     12      0
+
+India 2nd innings                                               R   M   B  4 6
+*SM Gavaskar          c Murray           b Clarke              73 155 133 13 0
+CPS Chauhan           c Murray           b Parry               84 215 188 13 0
+M Amarnath            not out                                  37 119 126  5 0
+DB Vengsarkar         not out                                  10  59  69  1 0
+Extras                (b 4, lb 7, nb 9)                        20
+Total                 (2 wickets, 84.5 overs)                 224
+
+DNB: GR Viswanath, +SMH Kirmani, N Kapil Dev, KD Ghavri,
+     S Venkataraghavan, BS Bedi, BS Chandrasekhar.
+
+FoW: 1-153 (Gavaskar), 2-194 (Chauhan).
+
+Bowling                      O      M      R      W
+Phillip                      6      2     19      0
+Clarke                      16      2     53      1
+Holder                       7      2     15      0
+Parry                       27      7     77      1
+Jumadeen                    21      6     32      0
+Kallicharran                 4.5    2      6      0
+Gomes                        3      2      2      0
+
+*** CPS Chauhan (1) retired hurt on 10* from 23/0 to 217/3
+
+<END>

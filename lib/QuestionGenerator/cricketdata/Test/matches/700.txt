@@ -1,0 +1,119 @@
+
+Test # 700
+The Ashes, 1972, 3rd Test
+England v Australia
+Trent Bridge, Nottingham
+13,14,15,17,18 July 1972 (5-day match)
+
+Result: Match drawn
+Series: 5-match series level 1-1
+
+Toss: England
+Umpires: AEG Rhodes and TW Spencer
+
+Close of play:
+ Day 1: Australia 249/6 (Marsh 17*, Colley 18*)
+ Day 2: Australia 315, England 117/4 (D'Oliveira 25*, Gifford 0*)
+ Day 3: England 189, Australia 157/2 (Edwards 90*, GS Chappell 0*)
+ Day 4: Australia 324/4d, England 111/1 (Luckhurst 60*, Parfitt 14*)
+
+Australia 1st innings                                           R   M   B  4 6
+KR Stackpole          c Parfitt          b Greig              114 335 255 10 0
+BC Francis            c Smith            b Lever               10  30  29  2 0
+*IM Chappell          c Knott            b Snow                34 109  91  5 0
+GS Chappell           c Parfitt          b Snow                26  85  75  3 0
+KD Walters            c Parfitt          b Snow                 2   9   7  0 0
+R Edwards             c Knott            b Snow                13  28  27  2 0
++RW Marsh             c D'Oliveira       b Gifford             41 137  97  6 0
+DJ Colley             c Greig            b D'Oliveira          54 119  91  5 0
+RAL Massie            c Parfitt          b Snow                 0  17  13  0 0
+JW Gleeson            not out                                   6  31  28  0 0
+DK Lillee             c Knott            b Greig                0   4   4  0 0
+Extras                (b 4, lb 6, nb 5)                        15
+Total                 (all out, 118.4 overs)                  315
+
+FoW: 1-16 (Francis), 2-98 (IM Chappell), 3-157 (GS Chappell),
+     4-165 (Walters), 5-189 (Edwards), 6-227 (Stackpole),
+     7-289 (Marsh), 8-298 (Massie), 9-315 (Colley),
+     10-315 (Lillee).
+
+Bowling                      O      M      R      W
+Snow                        31      8     92      5
+Lever                       26      8     61      1
+Greig                       38.4    9     88      2
+D'Oliveira                  18      5     41      1
+Gifford                      5      1     18      1
+
+England 1st innings                                             R   M   B  4 6
+BW Luckhurst          lbw                b Lillee              23 134  94  2 0
+JH Edrich             c Marsh            b Colley              37 176 122  3 0
+PH Parfitt                               b Massie               0  12   5  0 0
+MJK Smith                                b Lillee              17  88  70  0 0
+BL D'Oliveira         lbw                b Lillee              29 104  72  4 0
+N Gifford             c Marsh            b Massie              16  72  52  3 0
+AW Greig              c Marsh            b Massie               7  45  23  0 0
++APE Knott            c Marsh            b Massie               0   1   3  0 0
+*R Illingworth        not out                                  24  78  52  2 0
+JA Snow               c Marsh            b Lillee               6  14   8  1 0
+P Lever               c Walters          b Colley               9  47  45  0 0
+Extras                (b 5, lb 2, w 1, nb 13)                  21
+Total                 (all out, 88.3 overs)                   189
+
+FoW: 1-55 (Luckhurst), 2-60 (Parfitt), 3-74 (Edrich),
+     4-111 (Smith), 5-133 (D'Oliveira), 6-145 (Gifford),
+     7-145 (Knott), 8-155 (Greig), 9-166 (Snow), 10-189 (Lever).
+
+Bowling                      O      M      R      W
+Lillee                      29     15     35      4
+Massie                      30     10     43      4
+Colley                      23.3    5     68      2
+Gleeson                      6      1     22      0
+
+Australia 2nd innings                                           R   M   B  4 6
+KR Stackpole          c Luckhurst        b Snow                12  11   7  2 0
+R Edwards             not out                                 170 324 290 13 0
+*IM Chappell          lbw                b Illingworth         50 158 130  5 0
+GS Chappell                              b Snow                72 128 110  8 0
+KD Walters            c Gifford          b Snow                 7   6   5  0 0
++RW Marsh             not out                                   7  26  13  0 0
+Extras                (lb 4, w 1, nb 1)                         6
+Total                 (4 wickets dec, 92 overs)               324
+
+DNB: BC Francis, DJ Colley, RAL Massie, JW Gleeson, DK Lillee.
+
+FoW: 1-15 (Stackpole), 2-139 (IM Chappell), 3-285 (GS Chappell),
+     4-295 (Walters).
+
+Bowling                      O      M      R      W
+Snow                        24      1     94      3
+Lever                       19      3     76      0
+Greig                       12      1     46      0
+D'Oliveira                   7      0     12      0
+Gifford                     15      1     49      0
+Illingworth                 15      4     41      1
+
+England 2nd innings (target: 451 runs)                          R   M   B  4 6
+BW Luckhurst          c GS Chappell      b IM Chappell         96 325 268  7 0
+JH Edrich                                b Massie              15 100  63  0 0
+PH Parfitt                               b Lillee              46 276 217  3 0
+MJK Smith             lbw                b Lillee              15  36  37  3 0
+BL D'Oliveira         not out                                  50 170 162  8 0
+AW Greig              not out                                  36 154 144  3 0
+Extras                (b 17, lb 9, w 4, nb 2)                  32
+Total                 (4 wickets, 148 overs)                  290
+
+DNB: N Gifford, +APE Knott, *R Illingworth, JA Snow, P Lever.
+
+FoW: 1-50 (Edrich), 2-167 (Luckhurst), 3-200 (Smith),
+     4-201 (Parfitt).
+
+Bowling                      O      M      R      W
+Lillee                      25     10     40      2
+Massie                      36     13     49      1
+Colley                      19      6     43      0
+Gleeson                     30     13     49      0
+IM Chappell                 12      5     26      1
+GS Chappell                  9      4     16      0
+Stackpole                   17      7     35      0
+
+<END>

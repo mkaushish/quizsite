@@ -1,0 +1,63 @@
+Match, Date, Innings, Batting Order, Against, How out 1, How out 2, Runs, Minutes, Balls, Fours, Sixes
+1, 1877-03-15, 1, 8, England, , Southerton, 17, na, na, na, 0
+1, 1877-03-15, 3, 8, England, lbw, Shaw, 6, 16, 20, 0, 0
+2, 1877-03-31, 1, 3, England, c Lillywhite, Hill, 5, na, na, na, 0
+2, 1877-03-31, 3, 10, England, lbw, Southerton, 26, na, na, na, 0
+3, 1879-01-02, 2, 9, England, , Emmett, 6, na, na, na, 0
+4, 1880-09-06, 2, 6, England,                c &, Morley, 0, 1, 2, 0, 0
+4, 1880-09-06, 3, 7, England, c EM Grace, Morley, 19, 49, 54, 2, 0
+5, 1882-12-31, 2, 7, England, , Emmett, 2, na, na, 0, 0
+5, 1882-12-31, 4, 1, England, , Bates, 25, na, na, 2, 0
+6, 1882-02-17, 2, 2, England, c Shaw, Midwinter, 40, na, na, 3, 0
+6, 1882-02-17, 4, 1, England,                c &, Bates, 4, na, na, 1, 0
+7, 1882-03-03, 2, 7, England, , Peate, 4, na, na, 0, 0
+8, 1882-03-10, 2, 7, England, c Pilling, Midwinter, 6, na, na, 0, 0
+9, 1882-08-28, 1, 7, England, c Grace, Barlow, 17, 40, 54, 2, 0
+9, 1882-08-28, 3, 7, England, c Lyttelton, Peate, 7, 13, 12, 1, 0
+10, 1883-12-30, 1, 8, England, c Tylecote, CT Studd, 25, na, na, 2, 0
+11, 1883-01-19, 2, 8, England, , Barnes, 5, na, na, 0, 0
+11, 1883-01-19, 3, 3, England, , Barlow, 6, na, na, 0, 0
+12, 1883-01-26, 2, 8, England, , Barlow, 27, na, na, 2, 0
+12, 1883-01-26, 4, 8, England, , Barlow, 26, na, na, 2, 0
+13, 1883-02-17, 2, 7, England, , Bates, 57, 110, na, 6, 0
+13, 1883-02-17, 4, 6, England, not out, , 58, 115, na, 4, 0
+14, 1884-07-10, 2, 7, England, lbw, Steel, 8, na, na, na, 0
+15, 1884-07-21, 1, 7, England, run out, , 0, na, na, 0, 0
+15, 1884-07-21, 3, 8, England, retired hurt, , 0, na, na, 0, 0
+16, 1884-08-11, 1, 8, England, lbw, Lyttelton, 31, na, 65, 3, 0
+17, 1884-12-12, 1, 5, England, c Attewell, Bates, 66, na, na, 5, 0
+17, 1884-12-12, 3, 1, England, , Peel, 11, na, na, na, 0
+20, 1885-03-14, 2, 10, England, not out, , 11, na, na, 1, 0
+22, 1886-07-05, 1, 9, England, not out, , 7, na, na, na, 0
+22, 1886-07-05, 3, 7, England, lbw, Barlow, 2, na, na, 0, 0
+23, 1886-07-19, 2, 8, England, , Briggs, 23, na, na, na, 0
+23, 1886-07-19, 3, 9, England, , Briggs, 5, na, na, na, 0
+24, 1886-08-12, 2, 7, England,                c &, Briggs, 0, na, na, 0, 0
+24, 1886-08-12, 3, 8, England, c Grace, Briggs, 5, na, na, na, 0
+25, 1887-01-28, 2, 1, England, c Sherwin, Lohmann, 4, 6, na, 1, 0
+25, 1887-01-28, 4, 1, England, , Barnes, 5, 9, na, 0, 0
+27, 1888-02-10, 2, 8, England, c Shrewsbury, Peel, 2, 6, 4, 0, 0
+27, 1888-02-10, 4, 8, England, not out, , 25, 50, 54, 1, 0
+28, 1888-07-16, 1, 5, England, , Briggs, 22, na, na, na, 0
+28, 1888-07-16, 3, 5, England, run out, , 1, na, na, 0, 0
+29, 1888-08-13, 1, 9, England, , Briggs, 0, na, na, 0, 0
+29, 1888-08-13, 3, 10, England, c Lohmann, Barnes, 4, na, na, na, 0
+30, 1888-08-30, 2, 8, England, c Read, Lohmann, 15, na, na, na, 0
+30, 1888-08-30, 3, 5, England, , Lohmann, 5, na, na, na, 0
+33, 1890-07-21, 1, 8, England, , Peel, 5, na, na, na, 0
+33, 1890-07-21, 3, 8, England, c Barnes, Grace, 10, na, na, na, 0
+34, 1890-08-11, 1, 7, England, , Martin, 1, na, na, 0, 0
+34, 1890-08-11, 3, 8, England, , Lohmann, 1, na, na, 0, 0
+35, 1892-01-01, 1, 11, England, not out, , 4, na, na, 1, 0
+35, 1892-01-01, 3, 11, England, c MacGregor, Peel, 0, na, na, 0, 0
+36, 1892-01-29, 1, 11, England, not out, , 3, na, na, 0, 0
+36, 1892-01-29, 3, 9, England, lbw, Briggs, 0, 1, 1, 0, 0
+38, 1892-03-24, 2, 11, England, not out, , 7, na, na, 0, 0
+38, 1892-03-24, 3, 11, England, , Attewell, 9, na, na, 1, 0
+39, 1893-07-17, 2, 11, England, lbw, Mold, 2, na, na, 0, 0
+40, 1893-08-14, 2, 11, England, run out, , 17, na, na, na, 0
+40, 1893-08-14, 3, 11, England, not out, , 2, na, na, 0, 0
+41, 1893-08-24, 1, 11, England, not out, , 0, na, na, 0, 0
+41, 1893-08-24, 3, 11, England, not out, , 23, na, na, na, 0
+42, 1894-12-14, 1, 10, England, , Richardson, 74, 86, na, 8, 0
+42, 1894-12-14, 4, 11, England,                c &, Peel, 2, 11, na, 0, 0

@@ -1,0 +1,107 @@
+
+Test # 15
+The Ashes, 1884, 2nd Test
+England v Australia
+Lord's, London
+21,22,23 July 1884 (3-day match)
+
+Result: England won by an innings and 5 runs
+Series: England leads the 3-match series 1-0
+
+Toss: Australia
+Umpires: FH Farrands and CK Pullin
+Balls per over: 4
+Test debut: S Christopherson (England).
+
+Close of play:
+ Day 1: Australia 229, England 90/3 (Ulyett 18*)
+ Day 2: England 379, Australia 73/4 (Giffen 4*)
+
+Australia 1st innings                                           R   M   B  4 6
+PS McDonnell                             b Peate                0          0 0
+AC Bannerman                             b Peate               12            0
+*WL Murdoch           lbw                b Peate               10            0
+G Giffen                                 b Peate               63          4 0
+WE Midwinter                             b Peate                3          0 0
+GJ Bonnor             c Grace            b Christopherson      25            0
++JM Blackham          run out                                   0          0 0
+HJH Scott             c sub (WL Murdoch) b Steel               75         10 0
+GE Palmer             c Grace            b Peate                7            0
+FR Spofforth          c Barlow           b Grace                0          0 0
+HF Boyle              not out                                  26            0
+Extras                (b 5, lb 3)                               8
+Total                 (all out, 105.2 overs)                  229
+
+FoW: 1-0 (McDonnell), 2-25 (Bannerman), 3-32 (Murdoch),
+     4-46 (Midwinter), 5-88 (Bonnor), 6-93 (Blackham),
+     7-132 (Giffen), 8-155 (Palmer), 9-160 (Spofforth),
+     10-229 (Scott).
+
+Bowling                      O      M      R      W
+Peate                       40     14     85      6
+Barlow                      20      6     44      0
+Ulyett                      11      3     21      0
+Christopherson              26     10     52      1
+Grace                        7      4     13      1
+Steel                        1.2    0      6      1
+
+England 1st innings                                             R   M   B  4 6
+WG Grace              c Bonnor           b Palmer              14            0
+AP Lucas              c Bonnor           b Palmer              28            0
+A Shrewsbury snr      st Blackham        b Giffen              27            0
+G Ulyett                                 b Palmer              32            0
+AG Steel                                 b Palmer             148 230     13 0
+*Lord Harris                             b Spofforth            4            0
+RG Barlow             c Palmer           b Bonnor              38  90        0
+WW Read                                  b Palmer              12            0
++Hon.A Lyttelton                         b Palmer              31            0
+E Peate               not out                                   8            0
+S Christopherson      c Bonnor           b Spofforth           17            0
+Extras                (b 15, lb 5)                             20
+Total                 (all out, 184.1 overs)                  379
+
+FoW: 1-37 (Grace), 2-56 (Lucas), 3-90 (Shrewsbury),
+     4-120 (Ulyett), 5-135 (Harris), 6-233 (Barlow),
+     7-272 (Read), 8-348 (Lyttelton), 9-351 (Steel),
+     10-379 (Christopherson).
+
+Bowling                      O      M      R      W
+Spofforth                   55.1   19    112      2
+Palmer                      75     26    111      6
+Giffen                      22      4     68      1
+Boyle                       11      3     16      0
+Bonnor                       8      1     23      1
+Midwinter                   13      2     29      0
+
+Australia 2nd innings                                           R   M   B  4 6
+PS McDonnell                             b Steel               20            0
+AC Bannerman                         c & b Ulyett              27            0
+*WL Murdoch           c Shrewsbury       b Ulyett              17            0
+G Giffen              c Peate            b Ulyett               5            0
+GJ Bonnor                            c & b Ulyett               4            0
+HJH Scott             not out                                  31            0
+WE Midwinter                             b Ulyett               6            0
++JM Blackham          retired hurt                              0          0 0
+GE Palmer                                b Ulyett              13            0
+FR Spofforth          c Shrewsbury       b Barlow              11            0
+HF Boyle                                 b Ulyett              10            0
+Extras                (b 1)                                     1
+Total                 (all out, 94.1 overs)                   145
+
+FoW: 1-33 (McDonnell), 2-60 (Murdoch), 3-65 (Bannerman),
+     4-73 (Giffen), 5-84 (Bonnor), 6-90 (Midwinter),
+     7-118 (Palmer), 8-133 (Spofforth), 9-145 (Boyle).
+
+Bowling                      O      M      R      W
+Peate                       16      4     34      0
+Barlow                      21      8     31      1
+Ulyett                      39.1   23     36      7
+Christopherson               8      3     17      0
+Steel                       10      2     26      1
+
+*** Murdoch fielded as a substitute for the opposition and claimed the first
+    sub catch in Test cricket
+
+*** JM Blackham retired hurt at 94/6
+
+<END>

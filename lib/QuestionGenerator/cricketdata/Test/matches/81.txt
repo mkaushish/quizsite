@@ -1,0 +1,128 @@
+
+Test # 81
+The Ashes, 1903/04, 4th Test
+Australia v England
+Sydney Cricket Ground
+26,27,29 February, 1,2,3 March 1904 (timeless match)
+
+Result: England won by 157 runs
+Series: England leads the 5-match series 3-1
+
+Toss: England
+Umpires: P Argall and RM Crockett
+Test debuts: A Cotter, PA McAlister (Australia).
+
+Close of play:
+ Day 1: England 207/7 (Knight 64*)
+ Day 2: England 249, Australia 114/5 (McLeod 12*, Kelly 3*)
+ Day 3: No play
+ Day 4: Australia 131, England 50/1 (Hayward 23*, Arnold 0*)
+ Day 5: England 155/9 (Warner 6*)
+
+England 1st innings                                             R   M   B  4 6
+TW Hayward            c McAlister        b Trumble             18  61      2 0
+*PF Warner                               b Noble                0   7      0 0
+JT Tyldesley          c Gregory          b Noble               16  40      2 0
+RE Foster             c McAlister        b Noble               19  50      3 0
+AE Knight             not out                                  70 255      6 0
+LC Braund             c Trumble          b Noble               39  85      5 0
+GH Hirst                                 b Noble               25  51      3 0
+BJT Bosanquet                            b Hopkins             12  20      1 0
+EG Arnold             lbw                b Noble                0   2      0 0
++AFA Lilley           c Hopkins          b Trumble             24  29      4 0
+W Rhodes              st Kelly           b Noble               10  18      0 0
+Extras                (b 6, lb 7, w 2, nb 1)                   16
+Total                 (all out, 114.1 overs)                  249
+
+FoW: 1-4 (Warner), 2-34 (Tyldesley), 3-42 (Hayward),
+     4-66 (Foster), 5-155 (Braund), 6-185 (Hirst),
+     7-207 (Bosanquet), 8-208 (Arnold), 9-237 (Lilley),
+     10-249 (Rhodes).
+
+Bowling                      O      M      R      W
+Cotter                      14      1     44      0
+Noble                       41.1   10    100      7
+Trumble                     43     20     58      2
+Hopkins                      8      3     22      1
+McLeod                       8      5      9      0
+
+Australia 1st innings                                           R   M   B  4 6
+RA Duff                                  b Arnold              47  65      4 0
+VT Trumper                               b Braund               7  20      0 0
+C Hill                c Braund           b Arnold              33  88      3 0
+PA McAlister          c Arnold           b Rhodes               2  21      0 0
+AJY Hopkins                              b Braund               9  21      0 0
+CE McLeod                                b Rhodes              18  20      1 0
++JJ Kelly             c Foster           b Arnold               5  15      1 0
+*MA Noble             not out                                   6  25      1 0
+SE Gregory            c Foster           b Rhodes               2   3      0 0
+H Trumble             c Lilley           b Rhodes               0   4      0 0
+A Cotter              c Tyldesley        b Arnold               0   4      0 0
+Extras                (b 1, w 1)                                2
+Total                 (all out, 51.3 overs)                   131
+
+FoW: 1-28 (Trumper), 2-61 (Duff), 3-72 (McAlister),
+     4-97 (Hopkins), 5-101 (Hill), 6-116 (Kelly), 7-124 (McLeod),
+     8-126 (Gregory), 9-130 (Trumble), 10-131 (Cotter).
+
+Bowling                      O      M      R      W
+Hirst                       13      1     36      0
+Braund                      11      2     27      2
+Rhodes                      11      3     33      4
+Arnold                      14.3    5     28      4
+Bosanquet                    2      1      5      0
+
+England 2nd innings                                             R   M   B  4 6
+TW Hayward            lbw                b Trumble             52 157      4 0
+RE Foster             c Noble            b Hopkins             27  59      3 0
+EG Arnold             c Kelly            b Noble                0  12      0 0
+JT Tyldesley                             b Cotter               5   9      1 0
+AE Knight             c McAlister        b Cotter               9  46      1 0
+LC Braund             c McLeod           b Hopkins             19  56      4 0
+GH Hirst              c Kelly            b McLeod              18  46      1 1
+BJT Bosanquet         c Hill             b McLeod               7  24      0 0
+*PF Warner            not out                                  31  84      2 0
++AFA Lilley                              b McLeod               6  14      0 0
+W Rhodes              c McAlister        b Cotter              29  59      4 0
+Extras                (b 1, lb 6)                               7
+Total                 (all out, 99.3 overs)                   210
+
+FoW: 1-49 (Foster), 2-50 (Arnold), 3-57 (Tyldesley),
+     4-73 (Knight), 5-106 (Hayward), 6-120 (Braund),
+     7-138 (Hirst), 8-141 (Bosanquet), 9-155 (Lilley),
+     10-210 (Rhodes).
+
+Bowling                      O      M      R      W
+Cotter                      18.3    3     41      3
+Noble                       19      8     40      1
+Trumble                     28     10     49      1
+Hopkins                     14      5     31      2
+McLeod                      20      5     42      3
+
+Australia 2nd innings (target: 329 runs)                        R   M   B  4 6
+RA Duff                                  b Arnold              19  61        0
+PA McAlister                             b Hirst                1  25      0 0
+C Hill                st Lilley          b Bosanquet           26  88      1 0
+VT Trumper            lbw                b Arnold              12  21      1 0
+*MA Noble             not out                                  53 128      5 0
+SE Gregory            lbw                b Bosanquet            0   4      0 0
+AJY Hopkins           st Lilley          b Bosanquet            0   4      0 0
+CE McLeod             c Lilley           b Bosanquet            6   9      0 0
+H Trumble             st Lilley          b Bosanquet            0   5      0 0
++JJ Kelly             c Foster           b Bosanquet           10  27      0 0
+A Cotter                                 b Hirst               34  34      5 0
+Extras                (b 10)                                   10
+Total                 (all out, 72.5 overs)                   171
+
+FoW: 1-7 (McAlister), 2-35 (Duff), 3-59 (Trumper), 4-76 (Hill),
+     5-76 (Gregory), 6-76 (Hopkins), 7-86 (McLeod),
+     8-90 (Trumble), 9-114 (Kelly), 10-171 (Cotter).
+
+Bowling                      O      M      R      W
+Hirst                       18.5    2     32      2
+Braund                      16      3     24      0
+Rhodes                      11      7     12      0
+Arnold                      12      3     42      2
+Bosanquet                   15      1     51      6
+
+<END>

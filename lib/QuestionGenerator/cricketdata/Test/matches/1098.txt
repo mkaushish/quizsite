@@ -1,0 +1,99 @@
+
+Test # 1098
+The Wisden Trophy, 1988, 1st Test
+England v West Indies
+Trent Bridge, Nottingham
+2,3,4,6,7 June 1988 (5-day match)
+
+Result: Match drawn
+Series: 5-match series level 0-0
+
+Toss: England
+Umpires: HD Bird and J Birkenshaw
+Player of the match: MD Marshall
+
+Close of play:
+ Day 1: England 220/5 (Pringle 39*, Downton 9*)
+ Day 2: England 245, West Indies 126/2 (Haynes 53*, Richards 22*)
+ Day 3: West Indies 264/4 (Hooper 47*, Logie 18*)
+ Day 4: West Indies 448/9d, England 67/1 (Gooch 38*, Gatting 8*)
+
+England 1st innings                                             R   M   B  4 6
+GA Gooch                                 b Marshall            73 174 131  8 0
+BC Broad                                 b Marshall            54 240 167  3 0
+*MW Gatting           c Logie            b Marshall             5  30  15  0 0
+DI Gower              c Dujon            b Ambrose             18  99  56  2 0
+AJ Lamb               lbw                b Marshall             0   2   2  0 0
+DR Pringle                               b Marshall            39 147 143  3 0
++PR Downton           not out                                  16 135  75  1 0
+JE Emburey            c Dujon            b Marshall             0   3   4  0 0
+PAJ DeFreitas                            b Ambrose              3  17  10  0 0
+PW Jarvis                                b Ambrose              6  18  15  1 0
+GR Dilley                                b Ambrose              2   2   2  0 0
+Extras                (lb 13, w 5, nb 11)                      29
+Total                 (all out, 101 overs)                    245
+
+FoW: 1-125 (Gooch), 2-141 (Gatting), 3-161 (Broad), 4-161 (Lamb),
+     5-186 (Gower), 6-223 (Pringle), 7-223 (Emburey),
+     8-235 (DeFreitas), 9-243 (Jarvis), 10-245 (Dilley).
+
+Bowling                      O      M      R      W
+Marshall                    30      4     69      6
+Patterson                   16      2     49      0
+Ambrose                     26     10     53      4
+Walsh                       20      4     39      0
+Hooper                       8      1     20      0
+Richards                     1      0      2      0
+
+West Indies 1st innings                                         R   M   B  4 6
+CG Greenidge          c Downton          b Jarvis              25 107  86  0 0
+DL Haynes             c Downton          b Jarvis              60 216 133  5 0
+RB Richardson         c Gatting          b Emburey             17  46  40  1 0
+*IVA Richards         c Gooch            b DeFreitas           80 135  98 12 1
+CL Hooper             c Downton          b DeFreitas           84 228 147  7 0
+AL Logie              c Gooch            b Pringle             20  42  34  4 0
++PJL Dujon                           c & b Dilley              16  69  60  0 0
+MD Marshall                              b Emburey             72 137  88  6 3
+CEL Ambrose           run out                                  43 116  98  4 1
+CA Walsh              not out                                   3  18   7  0 0
+Extras                (b 6, lb 8, nb 14)                       28
+Total                 (9 wickets dec, 129.1 overs)            448
+
+DNB: BP Patterson.
+
+FoW: 1-54 (Greenidge), 2-84 (Richardson), 3-159 (Haynes),
+     4-231 (Richards), 5-271 (Logie), 6-309 (Dujon),
+     7-334 (Hooper), 8-425 (Marshall), 9-448 (Ambrose).
+
+Bowling                      O      M      R      W
+Dilley                      34      5    101      1
+DeFreitas                   27      5     93      2
+Jarvis                      18.1    1     63      2
+Pringle                     34     11     82      1
+Emburey                     16      4     95      2
+
+England 2nd innings                                             R   M   B  4 6
+GA Gooch              c Dujon            b Patterson          146 416 303 15 0
+BC Broad              c Dujon            b Ambrose             16  81  55  2 0
+*MW Gatting                              b Marshall            29 140 101  2 0
+DI Gower              not out                                  88 235 164 10 0
+AJ Lamb               not out                                   6  45  32  0 0
+Extras                (lb 10, nb 6)                            16
+Total                 (3 wickets, 108 overs)                  301
+
+DNB: DR Pringle, +PR Downton, JE Emburey, PAJ DeFreitas,
+     PW Jarvis, GR Dilley.
+
+FoW: 1-39 (Broad), 2-116 (Gatting), 3-277 (Gooch).
+
+Bowling                      O      M      R      W
+Marshall                    13      4     23      1
+Patterson                   24      6     69      1
+Ambrose                     23      4     56      1
+Walsh                       25      5     84      0
+Richards                     9      1     26      0
+Hooper                      14      1     33      0
+
+*** Attendance: 24,608
+
+<END>
