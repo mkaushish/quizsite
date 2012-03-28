@@ -9,6 +9,7 @@
 #  updated_at :datetime
 #  response   :string
 #  user_id    :integer
+#  type       :string
 #
 
 class Problemanswer < ActiveRecord::Base
