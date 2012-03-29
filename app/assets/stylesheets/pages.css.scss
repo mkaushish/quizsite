@@ -44,21 +44,17 @@
     text-indent:20px;
   }
   .imageright {
-  img {
-   float:right;
-   padding:0 10px;
-  } 
-}
-.imageleft {
-  img {
+    float:right;
+    padding:0 10px;
+  }
+  .imageleft {
     float:left;
     padding:0 10px;
   }
-}
   p {
+    text-align:justify;
     margin:0px;
     font-size:1.1em;
-    padding:30px 10px;
   }
 }
 .b_green {

@@ -14,7 +14,7 @@ class ApplicationController < ActionController::Base
   include SessionsHelper
   include ApplicationHelper
 
-  @@all_chapters = [Chapter1, Chapter2, Chapter3, Chapter6, Chapter7, Chapter8, CricketQuestions]
+  @@all_chapters = [CricketQuestions, Chapter1, Chapter2, Chapter3, Chapter6, Chapter7, Chapter8]
   @@all_probs = @@all_chapters.map { |chap| chap::PROBLEMS }.flatten
 
   def get_probs
