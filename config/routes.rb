@@ -20,7 +20,7 @@ Quizsite::Application.routes.draw do
 
   match '/profile' => 'users#show'
   # match '/signup',  :to => 'users#new'
-  match '/signin',      :to => 'sessions#new'
+  match '/signin',      :to => 'pages#signinpage'
   match '/signout',     :to => 'sessions#destroy'
   match '/history',     :to => 'problemanswers#index'
   match '/quiz',        :to => 'problemanswers#new'
@@ -28,6 +28,7 @@ Quizsite::Application.routes.draw do
   match '/home',        :to => 'pages#fasthome'
   match '/features',    :to => 'pages#features'
   match '/about',       :to => 'pages#about'
+  # TODO remove signinpage, just call it signin
   match '/signinpage',  :to => 'pages#signinpage'
   match '/draw',        :to => 'pages#draw'
   match '/numberline',  :to => 'pages#numberline'
