@@ -1,6 +1,7 @@
 class CreateQuizzes < ActiveRecord::Migration
   def change
     create_table :quizzes do |t|
+      t.string :name
       t.binary :problemtypes
       t.integer :user_id
 
@@ -8,5 +9,7 @@ class CreateQuizzes < ActiveRecord::Migration
     end
     add_column :problemanswers, :type, :string
     add_index  :problemanswers, [:user_id, :type, :created_at]
+
+    add_column :users, :pscores, :binary
   end
 end
