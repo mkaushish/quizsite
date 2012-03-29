@@ -1,13 +1,16 @@
 <div id=about class=staticpage style="display:none;">
   <div class="logo team">Team Smarter Grades</div>
   <div class="logo contact" style="display:none;">Contact Us</div>
+  <div class="logo acknowledge" style="display:none;">Acknowledgements</div>
 
-  <p class="desc team">SmarterGrades was started by pair of Oberlin College alumni who enjoy math and want others to as well.  Read on to find out who they are, and be sure to check out our <%= link_to "blog!", "http://blog.smartergrades.com" %></p> 
+  <p class="desc team"> Smarter Grades was started in 2011 by a group of Oberlin Alumni who love maths and want others to do so as well. Be sure to check out our <%= link_to "blog!", "http://blog.smartergrades.com" %></p> 
   <p class="desc contact" id="contactblurb" style="display:none">We at Smarter Grades value your input and ideas.  Please contact us with any questions, comments, or suggestions you might have, and we'll be sure to get back to you</p>
+  <p class="desc acknowledge" id="contactblurb" style="display:none">This is a list of just a few of the people we have to thank for our progress so far. I'm sure this list will get bigger by the day.</p>
 
   <div id=aboutnav>
     <div class=selected id=team>Team</div>
     <div id=contact>Contact</div>
+    <div id=acknowledge>Thanks</div>
     <div><%= link_to "Blog", "http://blog.smartergrades.com" %></div>
   </div>
   <div id=aboutcontent>
@@ -38,6 +41,17 @@
           </div>
         </div>
       </div>
+      <div class="teammember">
+        <div class="name">
+          Haider Ali Khan, Marketing and Strategy
+        </div>
+        <div class="info">
+        </div>
+        <div class="text">
+          <div class=blurb>
+          </div>
+        </div>
+      </div>
       <div style="clear:left;"></div>
     </div>
     <div class=contact style="display:none;">
@@ -56,15 +70,36 @@
             .
           </div>
           <div><%= mail_to "tramfjord@smartergrades.com" %></div>
+          <div class=lcol style="color:transparent;">
+            .
+          </div>
+          <div><%= mail_to "hkhan@smartergrades.com" %></div>
         </div>
       </div>
       <div id=mailinfo>
         <div class=contactinfo>
           <h2>Mail</h2>
-          <div>Smarter Grades</div>
-          <div>K24A Hauzkhas Enclave</div>
+          <div>Madhav Kaushish</div>
+          <div>K-24A Hauz Khas Enclave</div>
           <div>New Delhi, India</div>
         </div>
+      </div>
+    </div>
+    <div class=acknowledge style="display:none;">
+      <div class=ack>
+        <h2>Oberlin College Creativity and Leadership</h2>
+        <p>In April 2011, Madhav and Haider won a $15,000 "Creativity & Leadership: Entrepreneurship at Oberlin" Fellowship, part of the Northeast Ohio Collegiate Entrepreneurship Program (NEOCEP), a Kauffman Campuses (SM) Initiative funded by the Burton D. Morgan Foundation and the Ewing Marion Kauffman Foundation. This gave them the perfect excuse to start their own venture rather than search for jobs. Special thanks to Andrea Kalyn and Mary Kay Gray for mentoring us whenever we've required it.
+        </p>
+      </div>
+      <div class=ack>
+        <h2>Alok Nanda Company</h2>
+        <p>For helping us find a name and working with us on our branding.
+        </p>
+      </div>
+      <div class=ack>
+        <h2>The Indus Entrepreneurs (TIE)</h2>
+        <p>Ever since we won the Bizbuzz business plan competition and reached the final 30 of the All-Asia business plan cometition, both hosted by TIE, we have received tremendous support from this organization.
+        </p>
       </div>
     </div>
   </div>

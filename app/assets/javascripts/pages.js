@@ -67,15 +67,23 @@ $(document).ready(function() {
     $('#aboutnav div').removeClass("selected");
     $("#team").addClass("selected");
     $('.contact').hide();
+    $('.acknowledge').hide();
     $('.team').show();
   });
   $('#contact').mouseenter(function() {
     $('#aboutnav div').removeClass("selected");
     $("#contact").addClass("selected");
     $('.team').hide();
+    $('.acknowledge').hide();
     $('.contact').show();
   });
-
+  $('#acknowledge').mouseenter(function() {
+    $('#aboutnav div').removeClass("selected");
+    $("#acknowledge").addClass("selected");
+    $('.team').hide();
+    $('.contact').hide();
+    $('.acknowledge').show();
+  });
   $('.features').collapse();
 
   $('#homelink').click(goHome);
