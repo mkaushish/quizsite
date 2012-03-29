@@ -53,8 +53,13 @@ class PagesController < ApplicationController
     @fastnav = true
     @title = "About Us"
     @nav_selected = "about"
+<<<<<<< HEAD
+    @container_height = 950
+    @jsonload = 'onload=homeOnLoad("about");'
+=======
     @container_height = 475
     @jsonload = 'homeOnLoad("about");'
+>>>>>>> 33717ee2d85a06eaf59431b2c8722af5e96b23d2
     render 'fasthome'
   end
 

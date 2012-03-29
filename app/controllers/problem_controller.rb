@@ -14,6 +14,7 @@ class ProblemController < ApplicationController
     @chosen_probs = get_probs
     @all_chapters = all_chapters
     @chapter = Chapter3
+    @jsonload = "onload=setCurQuiz();"
   end
 
   def explain
@@ -61,8 +62,7 @@ class ProblemController < ApplicationController
     end
 
     set_probs(session_problems)
-    flash[:notice] = "you just set your problems"
-
-    redirect_to :action => :index
+    #flash[:notice] = "you just set your problems"
+    redirect_to quiz_path
   end
 end

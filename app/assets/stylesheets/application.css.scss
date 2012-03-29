@@ -124,11 +124,11 @@ nav {
     font-family: "SketchRockwell";
     font-size: 1.75em;
     padding: 9px 4px;
-    //&:hover {
-    //  color: $navlink;
-    //  //font-weight: bold;
-    //  font-size: 1.9em;
-    //}
+    &:hover {
+      color: white;
+      text-decoration:none;
+      font-size:1.9em;
+    }
     &:visited {
       color: $navlink;
     }
@@ -222,6 +222,7 @@ nav {
 
 /*}}}*/
 
+/*
 a {
   color: $graphite;
   border-color: transparent;
@@ -232,6 +233,7 @@ a {
     color: $graphite;
   }
 }
+*/
 
 p.desc {
   font-size:1em;
