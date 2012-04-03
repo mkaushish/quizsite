@@ -476,6 +476,9 @@ $(function() {
 
     this.mouseDist = function() {
       if(state == protState){
+        if(!protState.mouse_is_down) {
+          return 1024; // hopefully a bigger distance than we'll ever be testing for
+        }
         return distance(this.x, this.y, mousex - protractor.offx, mousey - protractor.offy);
       }
       else {
