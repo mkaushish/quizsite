@@ -5,7 +5,7 @@ Quizsite::Application.routes.draw do
 
   resources :users
   resources :sessions, :only => [:new, :create, :destroy]
-  # resources :problems, :only => [:index, 
+  resource :quiz, :except => [:show] # see them in profile
   scope(:path_names => { :new => "quiz" }) do
     resources :problemanswers, :except => [:edit, :destroy]
   end
