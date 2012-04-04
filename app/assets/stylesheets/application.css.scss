@@ -61,9 +61,6 @@ p {
 }
 */
 
-.container {
-  background-color:yellow;
-}
 #container {
   position:relative;
   bottom:7px;
@@ -93,16 +90,16 @@ p {
   margin-bottom: 12px;
 }
 
-$navlink: #c1c1d8;
 #nav {
-  @include gradient(#262632, #74748e);
-  border-bottom:2px solid black;
+  @include gradient($navG1, $navG2);
+  border-bottom:1px solid black;
+  margin-bottom:20px;
 }
 nav {
   margin-left: auto;
   margin-right: auto;
   width:802px;
-  height:42px;
+  //height:42px;
   ul {
     text-align: center;
     margin: 0;
@@ -141,7 +138,7 @@ nav {
     //@include gradient(#262632, #74748e);
     //@include gradient(#1b1b32, #58588e);
     //@include gradient(#1b1b32, #74748e);
-    @include gradient(#262632, #58588e);
+    @include gradient($navG1, $navGH);
   }
   
 }
@@ -150,14 +147,21 @@ nav {
 
 /* Homepage stuff {{{ */
 #homedescription {
+  float:right;
   font-family:Latine;
   font-size: 1.15em;
-  float:left;
   width:440px;
   margin:10px;
   text-indent:20px;
-  text-align:justify;
+  //text-align:justify;
   padding:5px;
+  ul {
+    // TODO make this an image
+    list-style-type: circle;
+  }
+  li {
+    margin-bottom:30px;
+  }
 }
 
 #slideshow {
@@ -166,11 +170,11 @@ nav {
   float:left;
   width:450px;
   margin:10px 10px 0px 10px;
-  border: 2px solid black;
+  border: 8px solid $navG1;
   padding:0px;
-  position:absolute;
-  left:500px;
-  top:115px;
+  position:relative;
+  //left:500px;
+  //top:115px;
   img {
     width:450px;
     height:260px;
@@ -196,7 +200,8 @@ nav {
     margin:0px;
     width:440px;
     height:66px; // just so we can add up to 80
-    background-color:white;
+    background-color:$navG1;
+    color:$navlink;
   }
   li {
     font-size:1.25em;
@@ -261,7 +266,7 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow: hidden;
+  //overflow: hidden;
 }
 
 input[type="text"] {
@@ -359,26 +364,26 @@ input[type="submit"] {
 }
 /* }}} */
 
-/* PScore colors {{{ */
-.pscore_95 {
+/* SmartScore colors {{{ */
+.smartscore_95 {
   background-color:#04e504;
 }
-.pscore_90 {
+.smartscore_90 {
   background-color:#0a5f0a;
 }
-.pscore_80 {
+.smartscore_80 {
   background-color:#325f0a;
 }
-.pscore_70 {
+.smartscore_70 {
   background-color:#676818;
 }
-.pscore_60 {
+.smartscore_60 {
   background-color:#685018;
 }
-.pscore_35 {
+.smartscore_35 {
   background-color:#883004;
 }
-.pscore_0 {
+.smartscore_0 {
   background-color:#880420;
 }
 /* }}} */

@@ -73,14 +73,14 @@ module ApplicationHelper
     Marshal.load(ActiveSupport::Base64.decode64(marshobj))
   end
 
-  def pscore_class(pscore)
-    p = pscore.to_i
-    return "pscore_95" if p >= 95
-    return "pscore_90" if p >= 90
-    return "pscore_80" if p >= 80
-    return "pscore_70" if p >= 70
-    return "pscore_60" if p >= 60
-    return "pscore_35" if p >= 35
-    return "pscore_0"
+  def smartscore_class(smartscore)
+    p = smartscore.to_i
+    return "smartscore_95" if p >= 95
+    return "smartscore_90" if p >= 90
+    return "smartscore_80" if p >= 80
+    return "smartscore_70" if p >= 70
+    return "smartscore_60" if p >= 60
+    return "smartscore_35" if p >= 35
+    return "smartscore_0"
   end
 end

@@ -6,8 +6,8 @@
   </ul>
 </div>
 <div id="problemscores">
-  <div id=pscore style="background-color:#4545cf;">
-    Your PScore for this quiz is 86
+  <div id=smartscore style="background-color:#4545cf;">
+    Your SmartScore for this quiz is 86
   </div>
   <ul>
     <% ptypes = [
@@ -20,7 +20,7 @@
     <% ptypes.each do |ptype| %>
       <li>
       <%= ptype.first %>
-      <div class="pscore <%=pscore_class(ptype.last)%>"><%= ptype.last %></div>
+      <div class="smartscore <%=smartscore_class(ptype.last)%>"><%= ptype.last %></div>
       </li>
     <% end %>
   </ul>
