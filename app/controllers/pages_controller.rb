@@ -9,7 +9,6 @@ class PagesController < ApplicationController
       render 'users/show'
     else
       @fastnav = true
-      @container_height = 500
       @nav_selected = "home"
       @jsonload = 'homeOnLoad("home");'
     end
@@ -22,14 +21,12 @@ class PagesController < ApplicationController
       render 'users/show'
     else
       @fastnav = true
-      @container_height = 500
       @nav_selected = "home"
       @jsonload = 'homeOnLoad("home");'
     end
   end
 
   def home
-    @container_height = 500
     if signed_in?
       @user = current_user;
       @title = @user.name
@@ -44,7 +41,6 @@ class PagesController < ApplicationController
     @fastnav = true
     @title = "Features"
     @nav_selected = "features"
-    @container_height = 950
     @jsonload = 'homeOnLoad("features");'
     render 'fasthome'
   end
@@ -53,7 +49,6 @@ class PagesController < ApplicationController
     @fastnav = true
     @title = "About Us"
     @nav_selected = "about"
-    @container_height = 475
     @jsonload = 'homeOnLoad("about");'
     render 'fasthome'
   end
@@ -61,7 +56,6 @@ class PagesController < ApplicationController
   def signinpage
     @title = "Sign In"
     @nav_selected = "signinpage"
-    @container_height = 475
   end
 
   def exampleprobs
@@ -77,24 +71,20 @@ class PagesController < ApplicationController
     @problem = Problem.new
     @problem.my_initialize(Chapter1::EstimateArithmetic);
     @problem.save
-    @container_height = 475
   end
 
   def numberline
     @title = "Number Line"
-    @container_height = 650
     @nav_selected = "features"
   end
 
   def graph
     @title = "Graph"
-    @container_height = 750 
     @nav_selected = "features"
   end
 
   def draw
     @title = "Draw"
-    @container_height = 525
     @nav_selected = "features"
     # center at 275,200
     x = 0

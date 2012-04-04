@@ -13,7 +13,7 @@ class ProblemController < ApplicationController
     @nav_selected = "makequiz"
     @chosen_probs = get_probs
     @all_chapters = all_chapters
-    @chapter = Chapter3
+    @chapter = CricketQuestions
     @jsonload = "onload=setCurQuiz();"
   end
 

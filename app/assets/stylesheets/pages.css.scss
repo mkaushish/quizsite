@@ -43,9 +43,18 @@
   h2 {
     text-indent:20px;
   }
+  .imageright {
+    float:right;
+    padding:0 10px;
+  }
+  .imageleft {
+    float:left;
+    padding:0 10px;
+  }
   p {
+    text-align:justify;
     margin:0px;
-    //float:left;
+    font-size:1.1em;
   }
 }
 .b_green {

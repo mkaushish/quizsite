@@ -30,10 +30,10 @@
   </div>
 <% elsif multihtmlobj.is_a? TableField %>
   <div class="multifield">
-    <table>
-      <%= multihtmlobj.nrows.times do |row| %>
+    <table class="table table-striped" style="background-color:white">
+      <% multihtmlobj.nrows.times do |row| %>
         <tr>
-          <%= multihtmlobj.each_col(row) do |htmlobj| %>
+          <% multihtmlobj.each_column(row) do |htmlobj| %>
             <td><%= render :partial => partial, :object => htmlobj, :locals => locals%></td>
           <% end %>
         </tr>

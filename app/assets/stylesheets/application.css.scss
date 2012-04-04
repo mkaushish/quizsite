@@ -74,7 +74,7 @@ p {
   //background-image: url('lightgraphpapertile.png');
   background-image: url('mkgraph.png');
   background-repeat: repeat;
-  padding: 25px 25px 0;
+  padding: 25px;
 }
 
 #logo {
@@ -101,42 +101,47 @@ $navlink: #c1c1d8;
 nav {
   margin-left: auto;
   margin-right: auto;
-  width:800px;
+  width:802px;
   height:42px;
   ul {
     text-align: center;
     margin: 0;
     padding:0;
     overflow: hidden;
+    border-left:1px solid black;
+    border-right:1px solid black;
   }
   li {
     float: left;
   }
 
   a {
-    color:$navlink;
     text-decoration: none;
     display: block;
-    //width: 152px; // for 4 nav links
-    width: 184px;
-    border-left:2px solid black;
-    border-right:2px solid black;
-    font-family: "SketchRockwell";
-    font-size: 1.75em;
-    padding: 9px 4px;
-    &:hover {
-      color: white;
-      text-decoration:none;
-      font-size:1.9em;
+    //width: 152px; // for 5 nav links
+    width: 184px;   // for 4 nav links
+    border-left:1px solid black;
+    border-right:1px solid black;
+    //font-family: "SketchRockwell";
+    font-size: 1.35em;
+    padding: 9px 7px;
+    &:link {
+      color:$navlink;
     }
     &:visited {
       color: $navlink;
     }
+    &:hover {
+      color: white;
+      text-decoration:none;
+    }
   }
   a.selected {
-    font-size:1.9em;
+    color:white;
     //@include gradient(#262632, #74748e);
-    @include gradient(#1b1b32, #58588e);
+    //@include gradient(#1b1b32, #58588e);
+    //@include gradient(#1b1b32, #74748e);
+    @include gradient(#262632, #58588e);
   }
   
 }
@@ -222,6 +227,7 @@ nav {
 
 /*}}}*/
 
+// standard html stuff {{{
 /*
 a {
   color: $graphite;
@@ -236,7 +242,7 @@ a {
 */
 
 p.desc {
-  font-size:1.25em;
+  font-size:1em;
   padding-bottom:4px;
   text-align:justify;
 }
@@ -393,3 +399,4 @@ input[type="submit"] {
   height: 400;
 }
 /* }}} */
+
