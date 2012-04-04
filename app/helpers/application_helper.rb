@@ -5,9 +5,10 @@ require 'c6'
 require 'c7'
 
 module ApplicationHelper
+
   def title
-    return "Smarter Grades" if @title.nil?
-    return "#{@title} | Smarter Grades"
+    return "SmarterGrades" if @title.nil?
+    return "#{@title} | SmarterGrades"
   end
   def jsonload
     return "" if @jsonload.nil?
@@ -82,5 +83,15 @@ module ApplicationHelper
     return "pscore_60" if p >= 60
     return "pscore_35" if p >= 35
     return "pscore_0"
+  end
+
+  # Chapter stuff
+  @@all_chapters = [CricketQuestions, Chapter1, Chapter2, Chapter3, Chapter6, Chapter7, Chapter8]
+  @@all_probs = @@all_chapters.map { |chap| chap::PROBLEMS }.flatten
+  def all_probs
+    @@all_probs
+  end
+  def all_chapters
+    @@all_chapters
   end
 end

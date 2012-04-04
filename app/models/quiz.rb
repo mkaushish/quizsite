@@ -10,26 +10,22 @@
 #
 
 class Quiz < ActiveRecord::Base
-  before_save :dump_problemtypes
+  belongs_to :user
+
+  #before_save :dump_problemtypes
 
   validates :problemtypes, :presence => true;
+  validates :user_id,      :presence => true;
 
   # need to call me if problemtypes has been altered
-  def dump_problemtypes
-    unless @problemtypes.nil?
-      self.problemtypes = Marshal.dump(@problemtypes) 
-      @problemtypes = nil
-    end
-  end
+  #def dump_problemtypes
+  #  unless @ptypes.nil? || self.response != nil
+  #    self.problemtypes = Marshal.dump(@ptypes) 
+  #    @ptypes = nil
+  #  end
+  #end
 
-  def problemtypes
-    load_problemtypes if @problemtypes.nil?
-    @problemtypes
-  end
-
-  private
-
-  def load_problemtypes
-    @problemtypes = Marshal.load(self.problemtypes)
+  def ptypes
+    @ptypes ||= Marshal.load(self.problemtypes)
   end
 end

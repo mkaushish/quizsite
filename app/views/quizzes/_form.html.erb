@@ -2,7 +2,7 @@
   <div class="span3">
     <ul class=vnav>
       <li><h3>Grade 6</h3></li>
-      <% @all_chapters.each do |chapter| %>
+      <% all_chapters.each do |chapter| %>
         <li class="<%= (chapter == @chapter) ? "active":""%>">
         <a href="#<%= chapter.to_s %>" data-toggle="tab"><%= chapter.to_s %></a>
         </li>
@@ -12,7 +12,7 @@
     </ul>
   </div>
   <div class="span5 tab-content" id="problemtabs">
-    <% @all_chapters.each do |chapter| %>
+    <% all_chapters.each do |chapter| %>
       <ul class="tab-pane<%= (chapter == @chapter) ? " active":"" %>" id="<%= chapter.to_s %>" >
         <% chapter::PROBLEMS.each do |problem| %>
           <li>

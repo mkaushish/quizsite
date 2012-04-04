@@ -52,8 +52,8 @@ class User < ActiveRecord::Base
   attr_accessor :password
   attr_accessible :email, :name, :password, :password_confirmation
 
-  has_many :problemanswers
-  has_many :quizzes
+  has_many :problemanswers, :dependent => :destroy
+  has_many :quizzes,        :dependent => :destroy
 
   validates :name, :presence => true,
                    :length => { :maximum => 50 }

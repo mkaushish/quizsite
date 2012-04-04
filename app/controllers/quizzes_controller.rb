@@ -1,10 +1,13 @@
-class QuizController < ApplicationController
+class QuizzesController < ApplicationController
   # display PScores for the problem types / quiz ?
   def show
   end
 
   # choose the problems for a quiz
   def new
+    @nav_selected = "makequiz"
+    @chosen_probs = get_probs
+    @chapter = CricketQuestions
   end
 
   # change the problem types in a quiz
@@ -23,12 +26,16 @@ class QuizController < ApplicationController
     end
 
     @quiz = current_user.quizzes.new(
-      :problemtypes = Marshal.dump(quiz_problems)
+      :problemtypes => Marshal.dump(quiz_problems)
     )
 
     set_probs(quiz_problems)
-    #flash[:notice] = "you just set your problems"
-    redirect_to quiz_path
+    if @quiz.save
+      redirect_to quiz_path
+    else
+      adderror("couldn't save the last quiz...")
+      redirect_to profile_path
+    end
   end
 
   # PUT /quiz/:id

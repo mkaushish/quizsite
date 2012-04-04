@@ -14,9 +14,6 @@ class ApplicationController < ActionController::Base
   include SessionsHelper
   include ApplicationHelper
 
-  @@all_chapters = [CricketQuestions, Chapter1, Chapter2, Chapter3, Chapter6, Chapter7, Chapter8]
-  @@all_probs = @@all_chapters.map { |chap| chap::PROBLEMS }.flatten
-
   def get_probs
     return [] if session[:problems].nil?
     session[:problems].map { |p| dec_prob(p) }
@@ -28,14 +25,6 @@ class ApplicationController < ActionController::Base
   end
 
   private
-
-  def all_probs
-    @@all_probs
-  end
-
-  def all_chapters
-    @@all_chapters
-  end
 
   # TODO make a global hash instead of using Marshal for every request...
   def enc_prob(p)
