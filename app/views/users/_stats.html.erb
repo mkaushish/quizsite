@@ -1,8 +1,9 @@
 <div id="quizzes"> 
   <ul> 
-    <li class="selected">Fractions</li>
-    <li class="unselected">Chapter 2</li>
-    <li class="unselected">Chapter 1</li>
+    <li class="selected newquizbtn">+ New Quiz</li>
+    <% @user.quizzes.each do |quiz| %>
+      <li class=unselected><%= link_to quiz.name, "#" %></li>
+    <% end %>
   </ul>
 </div>
 <div id="problemscores">

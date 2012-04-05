@@ -26,7 +26,8 @@ class QuizzesController < ApplicationController
     end
 
     @quiz = current_user.quizzes.new(
-      :problemtypes => Marshal.dump(quiz_problems)
+      :problemtypes => Marshal.dump(quiz_problems),
+      :name => params["quiz_name"]
     )
 
     set_probs(quiz_problems)

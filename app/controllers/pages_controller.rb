@@ -6,6 +6,7 @@ class PagesController < ApplicationController
       @user = current_user;
       @title = @user.name
       @problemanswers = @user.problemanswers
+      @nav_selected = "profile"
       render 'users/show'
     else
       @fastnav = true
@@ -18,6 +19,7 @@ class PagesController < ApplicationController
       @user = current_user;
       @title = @user.name
       @problemanswers = @user.problemanswers
+      @nav_selected = "profile"
       render 'users/show'
     else
       @fastnav = true

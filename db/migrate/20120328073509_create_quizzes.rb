@@ -1,7 +1,6 @@
 class CreateQuizzes < ActiveRecord::Migration
   def change
     create_table :quizzes do |t|
-      t.string :name
       t.binary :problemtypes
       t.integer :user_id
 

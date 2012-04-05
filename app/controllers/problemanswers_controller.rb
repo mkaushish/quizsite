@@ -43,6 +43,8 @@ class ProblemanswersController < ApplicationController
     @problem.my_initialize(ptype)
     @problem.save
 
+    @nav_selected = "quiz"
+
     #$stderr.puts "#"*30 + "\n" + @problem.prob.text.inspect
 
     unless flash[:last_correct] || flash[:last_id].nil?

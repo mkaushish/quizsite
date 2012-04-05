@@ -7,23 +7,19 @@
 #  user_id      :integer
 #  created_at   :datetime
 #  updated_at   :datetime
+#  name         :string
 #
 
 class Quiz < ActiveRecord::Base
   belongs_to :user
 
-  #before_save :dump_problemtypes
+  attr_accessible :name
+  attr_accessible :problemtypes
 
-  validates :problemtypes, :presence => true;
-  validates :user_id,      :presence => true;
-
-  # need to call me if problemtypes has been altered
-  #def dump_problemtypes
-  #  unless @ptypes.nil? || self.response != nil
-  #    self.problemtypes = Marshal.dump(@ptypes) 
-  #    @ptypes = nil
-  #  end
-  #end
+  validates :problemtypes, :presence => true
+  validates :user_id,      :presence => true
+  validates :name,         :presence => true,
+                           :length => { :maximum => 20 }
 
   def ptypes
     @ptypes ||= Marshal.load(self.problemtypes)
