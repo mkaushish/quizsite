@@ -11,10 +11,23 @@ module Geo
   class BisectLine < QuestionBase
     attr_accessor :x1, :y1, :x2, :y2
     def initialize()
-      @x1 = 100 + rand(200);
-      @y1 = 100 + rand(200);
-      @x2 = 400 - rand(200);
-      @y2 = 400 - rand(200);
+      # It took some playing around to generate these values
+      # NOTE: One potentially useful thing I realized is that you might as well center
+      # the main object in the middle of the canvas
+      x = 0
+      y = 0
+      if(rand(2) == 1)
+        x = rand(125)
+        y = rand(20)  + 50
+      else
+        x = rand(75) + 50
+        y = rand(75)
+      end
+      y = -y if(rand(2) == 1)
+      @x1 = 275 - x
+      @y1 = 200 - y
+      @x2 = 275 + x
+      @y2 = 200 + y
     end
 
     def text
@@ -22,6 +35,19 @@ module Geo
         TextLabel.new("Draw a line that bisects the line on the screen"),
         GeometryField.new(Line.new(@x1,@y1,@x2,@y2))
       ]
+    end
+
+    # in a geometry problem this is still necessary in order to display the correct result
+    # it should never be used in correct? though, unlike in other QuestionBases
+    # NOTE: The ONLY name for a GeometryField is "geometry"
+    def solve
+      r = Geometry::distance(@x1, @y1, @x2, @y2) * 3 / 4
+      c1 = Circle.new(@x1, @y1, r)
+      c2 = Circle.new(@x2, @y2, r)
+      intpoints = Geometry::intCircleCircle(c1, c2)
+      l =  Line.new(*intpoints).round!
+
+      { "geometry" => Shape.encode_a([ c1, c2, l ]) }
     end
 
     # locates and returns all pairs of circles a, b such that
@@ -70,4 +96,6 @@ module Geo
       return false
     end
   end
+
+  PROBLEMS = [ Geo::BisectLine ]
 end

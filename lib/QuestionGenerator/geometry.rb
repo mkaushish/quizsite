@@ -103,6 +103,14 @@ module Geometry
       return (@x1 == other.x1 && @x2 == other.x2 && @y1 == other.y1 && @y2 == other.y2) ||
              (@x1 == other.x2 && @x2 == other.x1 && @y1 == other.y2 && @y2 == other.y1)
     end
+
+    def round!(deg = 0)
+      @x1 = @x1.round(deg)
+      @y1 = @y1.round(deg)
+      @x2 = @x2.round(deg)
+      @y2 = @y2.round(deg)
+      self
+    end
   end
 
   class Point

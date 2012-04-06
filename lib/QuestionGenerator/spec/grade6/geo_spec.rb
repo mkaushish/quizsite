@@ -72,5 +72,10 @@ describe "Geometry: " do
         @blQuestion.correct?({@param_key => Shape.encode_a( [ @c1, @c2, l ] ) }).should be_true
       end
     end
+
+    it "solve should return a correct? answer" do
+      bl = Geo::BisectLine.new()
+      bl.correct?(bl.prefix_solve).should be_true
+    end
   end
 end
