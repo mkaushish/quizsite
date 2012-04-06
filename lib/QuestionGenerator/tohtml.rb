@@ -250,7 +250,13 @@ module ToHTML
     end
 
     def fromhash(response)
-      response[@name]
+      # the second part of the || is mostly for testing
+      # Hopefully we shouldn't be getting many misses anyway
+      response[@name] || response[ToHTML::rm_prefix @name]
+    end
+
+    def self.fromhash(name, response)
+      response[ToHTML::add_prefix name] || response[name]
     end
 
     def correct?(solution, response)
