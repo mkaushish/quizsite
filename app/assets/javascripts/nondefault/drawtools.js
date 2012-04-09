@@ -23,7 +23,7 @@
 //      -specific shape definitions (eg. protractor)
 //
 //  section 4:
-//      -state definitions (eg. compassState, rulerState, etc)
+//      -state definitions (eg. compState, rulerState, etc)
 //
 //  section 5:
 //      -essentially the main method type code - If you want to draw things on load do it here.
@@ -113,7 +113,7 @@ $(function() {
     //  s += "<p>" + pointsOfInterest[i] + "</p>\n";
     //}
     shapesDisp.html(s);
-    $('#geometry').attr('value', hidden_s.substr(1));
+    $('#qbans_geometry').attr('value', hidden_s.substr(1));
 
     // add callbacks for colors
     for(var i = 0; i < shapes.length; i++) {
@@ -126,6 +126,15 @@ $(function() {
           shapes[e.data.i].unhilight();
           redraw();
         });
+
+        if(shapes[i] instanceof Circle) {
+          // add click to set radius when in compass mode
+          $('#s_'+i).click({i:i}, function(e) {
+            if(state == compState) {
+              $('#circlesize').attr("value", ''+shapes[e.data.i].r);
+            }
+          });
+        }
       }
     }
     
