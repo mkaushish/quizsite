@@ -4,6 +4,7 @@ require 'c3'
 require 'c6'
 require 'c7'
 require 'c8'
+require 'geo'
 # require 'c10'
 # require 'c12'
 require 'crqu'
@@ -14,7 +15,7 @@ class ApplicationController < ActionController::Base
   include SessionsHelper
   include ApplicationHelper
 
-  @@all_chapters = [CricketQuestions, Chapter1, Chapter2, Chapter3, Chapter6, Chapter7, Chapter8]
+  @@all_chapters = [CricketQuestions, Chapter1, Chapter2, Chapter3, Chapter6, Chapter7, Chapter8, Geo]
   @@all_probs = @@all_chapters.map { |chap| chap::PROBLEMS }.flatten
 
   def get_probs

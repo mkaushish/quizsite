@@ -141,6 +141,14 @@ $(function() {
   }
   function getStartShapes(){
     startShapes = [];
+
+    // clear and setting start/next Nos is necessary for this to be called multiple times
+    clear();
+    nextLineNo = 1;   // lines and circles will be given names like l1, l2 - these indicat the number
+    nextCircleNo = 1;
+    startLineNo = 1;  // starting number - set by getStartShapes
+    startCircleNo = 1;
+
     var s = $('#startshapes').attr('value');
     var a = s.split(',');
     for(var i = 0; i < a.length; i++) {
@@ -951,7 +959,8 @@ $(function() {
   });
 
   $('#clear').click(function(){
-    clear();
+    getStartShapes();
+    //clear();
   });
 
   function a_to_s(arr) {

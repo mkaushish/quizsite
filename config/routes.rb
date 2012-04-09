@@ -14,6 +14,7 @@ Quizsite::Application.routes.draw do
   post "problem/makequiz"
   get "problem/index"
   post "problem/next_subproblem"
+  post "pages/check_drawing"
   match "/explain/:id" => 'problem#explain', :as => :explain
 
   post "pages/exampleprobs"
@@ -30,7 +31,7 @@ Quizsite::Application.routes.draw do
   match '/about',       :to => 'pages#about'
   # TODO remove signinpage, just call it signin
   match '/signinpage',  :to => 'pages#signinpage'
-  match '/draw',        :to => 'pages#draw'
+  match '/draw',        :to => 'pages#draw', :via => [:get, :post]
   match '/numberline',  :to => 'pages#numberline'
   match '/graph',       :to => 'pages#graph'
   match '/estimate',    :to => 'pages#exampleprobs', :via => [:get, :post]

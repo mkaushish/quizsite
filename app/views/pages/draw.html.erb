@@ -2,22 +2,9 @@
   <%= javascript_include_tag "nondefault/drawtools" %>
 <% end %>
 <div class="logo">Drawing Tools for Geometry</div>
-<p class=desc>The following app has a compass and straightedge which students use for geometry problems.  See if you can bisect the line on the screen using these tools!<p>
-<div id="tools">
-  <div id="protractor" >Protractor</div>
-  <div id="line" >Line</div>
-  <div id = "compass" class=selected>
-    <span>Compass</span>
-    <input type="checkbox" id="usecirclesize">
-    <input type="text" id="circlesize">
-  </div>
-  <!-- button id="ruler">Ruler</button -->
-  <div id="clear" >Clear</div>
-</div>
-<canvas id="canvas" height="400" width="550"> 
-Your browser does not support the HTML5 Canvas feature. This app uses new HTML5 features and will only work on the latest versions of Firefox, Safari or Chrome (and maybe Internet Explorer 9).         
-</canvas>   
-<div id="shapes"></div>
-<% shapes = ["circle:200:200:50", "line:40:50:300:325"] %>
-<%= hidden_field_tag('startshapes', "line:#{@x1}:#{@y1}:#{@x2}:#{@y2}")   %>
-<%= hidden_field_tag 'geometry', "" %>
+<%= form_tag({:action => 'check_drawing'}, :remote => true, :autocomplete => "off") do %>
+  <p class=desc>The following app has a compass and straightedge which students use to solve geometry problems like the example below</p>  
+  <div class=lastprobinfo><div><%= submit_tag "Check your answer", :class=>"btn-primary" %> when you think you've got it!</div></div>
+  <%= hidden_field_tag 'problem_id', @problem.id %>
+  <%= render :partial => 'problem/problem', :object => @problem, :locals => {:partialdir => 'problem'} %>
+<% end %>
