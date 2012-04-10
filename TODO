@@ -1,6 +1,6 @@
 Short Term
 ----------
-[ ] figure out how to get rounded-corners/graphite only defined in 1 place
+[/] figure out how to get rounded-corners/graphite only defined in 1 place
 [ ] _next_problem.js.erb now sets some things to "green" - work some global green
 [ ] add cricket questions to website (from QuestionGenerator)
 [ ] add some differentiation questions

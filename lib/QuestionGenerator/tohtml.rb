@@ -125,10 +125,10 @@ module ToHTML
     end
 
     # iterates over all the possible field names for this mutlitextfield
-    # NOTE this can be an infinite loop, so you HAVE to break out of it
+    # NOTE this WILL be an infinite loop, so you HAVE to break out of it
     def each_poss_field
       each_poss_name do |fieldname|
-        yield SubTextField.new(fieldname)
+        yield SubText.new(fieldname)
       end
     end
 
@@ -312,6 +312,11 @@ module ToHTML
     end
   end
   
+  # As you can see, this is just a textfield, with an overwritten fromhash method
+  # the point is that in the solve hash you can do
+  # { "mtfield" => [1,2,3] }
+  # and Subtextfield.new("mtfield_0").fromhash(blah.solve) => 1
+  # and TODO this logic could probably be moved into MultiTextField itself...
   class SubTextField < TextField
     def fromhash(hash)
       return hash[@name] unless hash[@name].nil?

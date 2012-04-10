@@ -1,17 +1,26 @@
 $(document).ready(function () {
-  $('.add_mt_field').click(function() {
-    var num = $(this).siblings(".mt_field").length + 1;
-    var new_field = $(this).attr('template').replace(/_num_/g, num);
+  $('.add_mt_field').unbind('click');
+  $('.add_mt_field').bind('click', function() {
+    var fields = $(this).siblings("div").children("input");
+    var num = fields.length;
 
-    $(this).siblings(".del_mt_field").attr("disabled","");
-    $(this).before(new_field);
+    var new_field = fields.first().clone()
+    var new_id_name = new_field.attr("id").replace(/0/g, (num+""));
+
+    new_field.attr("id",   new_id_name);
+    new_field.attr("name", new_id_name);
+    new_field.attr("value", "");
+
+    fields.last().after(new_field);
   });
 
-  $('.del_mt_field').click(function() {
-    var num = $(this).siblings(".mt_field").length;
+  $('.del_mt_field').unbind('click');
+  $('.del_mt_field').bind('click', function() {
+    var fields = $(this).siblings("div").children("input");
+    var num = fields.length;
 
-    if(num > 0) {
-      $(this).siblings(".mt_field").last().remove();
+    if(num > 1) {
+      fields.last().remove();
     }
   });
 
