@@ -13,32 +13,17 @@ module Chapter3
 
 
   class PrimeFactors < QuestionWithExplanation
+    attr_accessor :nums
     def initialize
-      @nums = Array.new
-      @len = rand(3)+4
-      k = 0
-      while k<@len do
-        @nums[k] = PRIMES[rand(7)]
-        k = k+1
-      end
-      @nums=@nums.sort
-    end
-    def solve
-      {"ans" => @nums.sort}
-    end
-    def correct?(params)
-      sol=solve()["ans"]
-      so=[]
-      for i in 0...sol.length do
-        so[i]=HTMLObj::get_result("ans"+i.to_s, params).to_i
-      end
-      so.sort
-      if sol==so
-        return true
-      end
-      return false
-    end  
+      len             = rand(3)+3
+      highest_prime_i = 6
 
+      @nums = Array.new(len) { |i| PRIMES[rand(highest_prime_i+1)] }
+    end
+
+    def solve
+      {"ans" => @nums}
+    end
 
     def explain  
       num=@nums.reduce(:*)
@@ -71,48 +56,26 @@ module Chapter3
     end
 
     def text
-      n = 0
-      pro = 1
-      while n<@len do
-        pro = pro*@nums[n]
-        n = n+1
-      end
+      pro = @nums.reduce(:*)
       [TextLabel.new("Give the Prime Factorization of #{pro}"), MultiTextField.new("ans")]
     end
   end
 
   class Factors < QuestionBase
+    attr_accessor :nums
     def initialize
-      @nums = Array.new
-      @len = rand(2)+3
-      k = 0
-      while k<@len do
-        @nums[k] = PRIMES[rand(4)]
-        k = k+1
-      end
+      len             = rand(2)+2
+      highest_prime_i = 3
+
+      @nums = Array.new(len) { |i| PRIMES[rand(highest_prime_i+1)] }
     end
+
     def solve
       {"ans" => Grade6ops::factors(@nums)}
     end
-    def correct?(params)
-      sol=solve()["ans"]
-      so=[]
-      for i in 0...sol.length do
-        so[i]=HTMLObj::get_result("ans"+i.to_s, params).to_i
-      end
-      so.sort
-      if sol==so
-        return true
-      end
-      return false
-    end  
+
     def text
-      n = 0
-      pro = 1
-      while n<@len do
-        pro = pro*@nums[n]
-        n = n+1
-      end
+      pro = @nums.reduce(:*)
       [TextLabel.new("Give the Factors of #{pro}"), MultiTextField.new("ans")]
     end
   end
