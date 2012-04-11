@@ -71,7 +71,7 @@ class PagesController < ApplicationController
     end
 
     @problem = Problem.new
-    @problem.my_initialize(Chapter1::EstimateArithmetic);
+    @problem.my_initialize(Chapter1::EstimateArithmetic)
     @problem.save
   end
 
@@ -88,21 +88,23 @@ class PagesController < ApplicationController
   def draw
     @title = "Draw"
     @nav_selected = "features"
-    # center at 275,200
-    x = 0
-    y = 0
-    if(rand(2) == 1)
-      x = rand(125)
-      y = rand(20)  + 50
-    else
-      x = rand(75) + 50
-      y = rand(75)
-    end
-    y = -y if(rand(2) == 1)
 
-    @x1 = 275 - x
-    @y1 = 200 - y
-    @x2 = 275 + x
-    @y2 = 200 + y
+    @problem = Problem.new
+    @problem.my_initialize(Geo::BisectLine)
+    @problem.save
+  end
+
+  def check_drawing
+    @lastproblem = Problem.find(params["problem_id"])
+    @lastproblem.load_problem
+    @correct = @lastproblem.correct?(params);
+    if @correct
+      @problem = Problem.new
+      @problem.my_initialize(Geo::BisectLine)
+      @problem.save
+      @problem.text.each { |p| @newstartshapes = p.encodedStartShapes if p.is_a?(GeometryField) }
+      $stderr.puts "NEWSTARTSHAPES SET TO #{@newstartshapes}"
+    end
+    respond_to { |format| format.js }
   end
 end

@@ -1,15 +1,18 @@
 Short Term
 ----------
 [ ] improve the sense of design of the website
-  [ ] get a better name than PSCORE
-  [ ] decide what we want people to see when they first visit
+  [X] get a better name than PSCORE
+  [X] decide what we want people to see when they first visit
   [ ] come up with 1 or 2 themed colors which we use consistently
     [ ] apply these colors to highlight our apps and the things that make us better than competition
   [ ] add a logo and decide where we think it should go
 [ ] add quizzes to website
-  [ ] create quiz display partial
+  [X] create quiz display partial
   [X] add quiz model to database
-  [ ] get a PSCORE calculation going
+  [ ] implement destroy in quizzes controller
+  [ ] implement edit/update in quizzes controller
+  [ ] add splash page for people who don't yet have any quizzes
+  [ ] get a PSCORE calculation going (implement get_pscore in app helper)
     [ ] base it on % history on that problem type
     [ ] base it on time since a user has done those problems + number + weighted percentages
 [ ] _next_problem.js.erb now sets some things to "green" - work some global green
@@ -20,11 +23,11 @@ Short Term
 [ ] prime factors question removes first element from solve
 [ ] multitextfied should allow answers in any order unless stated
 [/] make drawtools nice
-  [ ] click on circle shape on right, and set radius in the box
+  [X] click on circle shape on right, and set radius in the box
   [ ] if no shapes are passed in we get several errors neither shapes nore state seems to get set
   [ ] add "undo last" button
-  [ ] add question API
-    [ ] add hidden form variable that gets set to the shapes variable
+  [X] add question API
+    [X] add hidden form variable that gets set to the shapes variable
   [ ] give me some style baby
     [ ] image buttons that look like compass ruler etc
     [ ] improve ruler/line interface

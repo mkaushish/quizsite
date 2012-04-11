@@ -30,10 +30,10 @@ class QuestionBase
   # You don't actually need to override this method: you can also just set the @type variable
   # removed, so you MUST override this method
   def self.type
-    if @type.nil? 
+    if @@type.nil? 
       return to_s.split("::")[1] 
     else
-      return @type
+      return @@type
     end
   end
 
@@ -53,7 +53,9 @@ class QuestionBase
   # end 
   #
   def preprocess(name, response)
-    return response.strip.downcase.gsub(/,/, "").gsub(/\s+/, " ") if response.is_a? String
+    # remove commas (they are annoying in numbers) and spaces
+    return response.strip.downcase.gsub(/,/, "").gsub(/\s+/, " ") if response.is_a?(String) && 
+                                                                     (ToHTML::rm_prefix(name) != "geometry")
     return response.to_s
   end
 
@@ -82,6 +84,10 @@ class QuestionBase
     ret = {}
     response.each do |key, value|
       name = ToHTML::prefix_for_questionbase key
+
+      # this is just for convenience in writing solve methods:
+      # instead of num_1 => blah, num_2 => blah, num_3 => blah
+      # just write num => [blah, blah, blah]
       if value.is_a? Array
         value.length.times do |i|
           ret["#{key}_#{i}"] = preprocess("#{name}_#{i}", value[i])

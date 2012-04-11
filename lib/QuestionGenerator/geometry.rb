@@ -4,11 +4,6 @@ require_relative 'tohtml'
 include ToHTML
 
 module Geometry
-
-  def distance(x1, y1, x2, y2)
-    return Math.hypot(x2-x1, y2-y1)
-  end
-
   # GeometryField is special in many ways:
   #  -When there is a geometry field in the text hash, you *MUST OVERRIDE THE correct? METHOD* on your problem
   #  -The geometry field will be represented by our geometry/drawing javascript app
@@ -17,6 +12,8 @@ module Geometry
   #  -I have provided the shapesFromResponse class method to get the ruby shapes in an array from the response hash
   #  -for example usage of the GeometryField, see the BisectLine question currently located in grade6/geo.rb
   class GeometryField < InputField
+
+    # Pass me the start shapes in an array, or as a list of seperate arguments
     def initialize(*args)
       if(args[0].is_a? Array)
         @shapes = args[0]
@@ -31,16 +28,17 @@ module Geometry
     end
 
     # returns an array of the shapes the student drew, in order of creation, given the response hash
-    def shapesFromResponse(response)
-      fromhash(response).split(",").map { |shape| Shape.decode(shape) }
+    def self.shapesFromResponse(response)
+      Shape.decode_a(InputField.fromhash("geometry", response))
     end
 
     def encodedStartShapes
-      @shapes.map { |shape| shape.encode }.join(",");
+      Shape.encode_a(@shapes)
     end
   end
 
   class Shape
+    # Decodes a SINGLE shape
     def self.decode(s)
       a = s.split(":")
       type = a.shift
@@ -50,6 +48,16 @@ module Geometry
       elsif type == "line"
         return Line.new(*a)
       end
+    end
+
+    # takes a string, and decodes all the shapes in it, returning an array of shapes
+    def self.decode_a(shape_s)
+      shape_s.split(",").map { |s| Shape.decode(s) }
+    end
+
+    # takes an array of shapes, and encodes them all to a string
+    def self.encode_a(shape_a)
+      shape_a.map { |s| s.encode }.join(",")
     end
   end
 
@@ -72,11 +80,19 @@ module Geometry
 
   class Line < Shape
     attr_accessor :x1, :y1, :x2, :y2
-    def initialize(x1, y1, x2, y2)
-      @x1 = x1.to_i
-      @y1 = y1.to_i
-      @x2 = x2.to_i
-      @y2 = y2.to_i
+
+    def initialize(x1, y1, x2=nil, y2=nil)
+      if(x1.is_a?(Point)) 
+        @x1 = x1.x
+        @y1 = x1.y
+        @x2 = y1.x
+        @y2 = y1.y
+      else
+        @x1 = x1.to_f
+        @y1 = y1.to_f
+        @x2 = x2.to_f
+        @y2 = y2.to_f
+      end
     end
 
     def encode
@@ -84,7 +100,16 @@ module Geometry
     end
 
     def ==(other)
-      return @x1 == other.x1 && @x2 == other.x2 && @y1 == other.y1 && @y2 == other.y2 
+      return (@x1 == other.x1 && @x2 == other.x2 && @y1 == other.y1 && @y2 == other.y2) ||
+             (@x1 == other.x2 && @x2 == other.x1 && @y1 == other.y2 && @y2 == other.y1)
+    end
+
+    def round!(deg = 0)
+      @x1 = @x1.round(deg)
+      @y1 = @y1.round(deg)
+      @x2 = @x2.round(deg)
+      @y2 = @y2.round(deg)
+      self
     end
   end
 
@@ -96,15 +121,31 @@ module Geometry
     end
 
     def distance(a1, a2=nil)
-      if a1.is_a? Point
+      if a1.is_a?(Point)
         return Geometry::distance(@x, @y, a1.x, a1.y)
-      elsif a1.is_a? Numeric && a2.is_a? Numeric
+      elsif ( a1.is_a?(Numeric) && a2.is_a?(Numeric))
         return Geometry::distance(@x, @y, a1, a2)
       end
-      nil
+      return -1
+    end
+
+    # destructively rounds the point off
+    #  deg = number of decimals to round it to
+    def round(deg = 0)
+      @x = @x.round(deg)
+      @y = @y.round(deg)
+      self
+    end
+
+    def ==(other)
+      return @x == other.x && @y == other.y
     end
   end
 
+
+  def distance(x1, y1, x2, y2)
+    return Math.hypot(x2-x1, y2-y1)
+  end
 
   def intCircleCircle(c1, c2)
     dist = Geometry::distance(c1.x, c1.y, c2.x, c2.y)
@@ -131,5 +172,5 @@ module Geometry
     y1 = y + (h/dist)*(c2.x - c1.x)
     y2 = y - (h/dist)*(c2.x - c1.x)
     return [Point.new(x1, y1), Point.new(x2, y2)]
-  }
+  end
 end

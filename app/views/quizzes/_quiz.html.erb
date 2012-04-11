@@ -1,20 +1,37 @@
 <%# remember "quiz" is passed in by :object => (quiz) %>
-<div class="problemscores">
-  <div class=quizSmartScore style="background-color:#4545cf;">
-    Your PScore for this quiz is 86
+<div class="problemscores tab-pane" id=<%= quiz.idname %>>
+  <div class=section-header>
+    <div>Quiz: </div>
+    <div class="btn-group"> 
+      <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+        <%= quiz.name  %>
+        <span class="caret"></span>
+      </button>
+      <ul class="dropdown-menu">
+        <li><%= link_to "Start Practicing!", quiz_path %></li>
+        <li><%= link_to "Change this quiz's problems", edit_quiz_path(quiz.id) %></li>
+        <li><%= link_to "Delete this quiz", 
+            { :controller => "quizzes", :action => "destroy", :id => quiz.id},
+            :confirm => "Are you sure you want to delete the quiz \"#{quiz.name}?\"",
+            :method => :delete %>
+        </li>
+      </ul>
+    </div>
+    <br style="clear:both;">
   </div>
-    <% ptypes = [
-      ["Convert to Improper Fractions", "84"],
-      ["Convert to Mixed Fractions", "90"],
-      ["Reduce Fractions", "57"],
-      ["Fill Fractions",   "76"],
-      ["Compare Like Fractions", "89"],
-      ["Compare Unlike Fractions", "96"]] %>
-    <% ptypes.each do |ptype| %>
+  <div class=quizSmartscore>
+    <% if quiz.hasSmartScore? %>
+      Your SmartScore for this quiz is <%= quiz.smartScore %>
+    <% else %>
+      You need to do more problems to get your SmartScore
+    <% end %>
+  </div>
+  <ul>
+    <% quiz.ptypes.each do |ptype| %>
       <li>
-      <%= ptype.first %>
-      <div class="pscore <%=pscore_class(ptype.last)%>"><%= ptype.last %></div>
+        <%= ptype.type %>
+        <%= get_smartscore(ptype) %>
       </li>
     <% end %>
-  </ul>
+  </table>
 </div>

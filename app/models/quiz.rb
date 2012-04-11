@@ -24,4 +24,17 @@ class Quiz < ActiveRecord::Base
   def ptypes
     @ptypes ||= Marshal.load(self.problemtypes)
   end
+
+  def idname
+    return "quiz_#{self.id}"
+  end
+
+  # TODO implement thse two
+  def hasSmartScore?
+    return false
+  end
+
+  def smartScore
+    return 0
+  end
 end
