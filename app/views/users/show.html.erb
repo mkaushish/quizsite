@@ -33,9 +33,8 @@
       </div>
     <% else %>
       <div class=tab-content>
-        <% @quizzes.each do |quiz| %>
-          <%= render :partial => 'quizzes/quiz', :object => quiz,
-            :locals => { :shown => (@shownquiz == quiz) } %>
+        <% @quizzes.reverse_each do |quiz| %>
+          <%= render :partial => 'quizzes/quiz', :object => quiz %>
         <% end %>
       </div>
     <% end %>

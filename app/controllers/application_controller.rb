@@ -26,6 +26,18 @@ class ApplicationController < ActionController::Base
     session[:problems] = myprobs.map { |p| enc_prob(p) }
   end
 
+  def set_quiz(quiz)
+    session[:quizid] = quiz.id
+    set_probs(quiz.ptypes)
+  end
+
+  def get_next_ptype
+    plist = get_probs
+    plist = all_probs if plist.empty?
+    ptype = plist.sample
+  end
+
+
   private
 
   # TODO make a global hash instead of using Marshal for every request...

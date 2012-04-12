@@ -9,8 +9,8 @@ Short Term
 [ ] add quizzes to website
   [X] create quiz display partial
   [X] add quiz model to database
-  [ ] when you click startquiz it should use your current quiz
-  [ ] add validations for quiz name
+  [X] when you click startquiz it should use your current quiz
+  [X] add validations for quiz name
   [X] implement destroy in quizzes controller
   [ ] implement edit/update in quizzes controller
   [X] add splash page for people who don't yet have any quizzes
