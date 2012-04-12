@@ -11,15 +11,19 @@
 #
 
 class Quiz < ActiveRecord::Base
+  @@name_regex = /[a-zA-Z0-9 ]+/
   belongs_to :user
 
   attr_accessible :name
   attr_accessible :problemtypes
 
   validates :problemtypes, :presence => true
+
   validates :user_id,      :presence => true
+
   validates :name,         :presence => true,
-                           :length => { :maximum => 20 }
+                           :length => { :within => 3..20 },
+                           :format => { :with => @@name_regex }
 
   def ptypes
     @ptypes ||= Marshal.load(self.problemtypes)

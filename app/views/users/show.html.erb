@@ -3,14 +3,14 @@
 
   <div class=span2>
     <div class='well sidebar-nav'>
-      <ul class='nav nav-list'> 
+      <ul class='nav nav-list quizlist'> 
         <li class='nav-header'>Your Quizzes</li>
-        <li class="<%= (@shownquiz.nil?) ? "":"un" %>selected newquizbtn">
+        <li>
         <%= link_to "+ New Quiz", new_quiz_path %>
         </li>
 
         <% @quizzes.each do |quiz| %>
-          <li class="<%= (@shownquiz == quiz) ? "":"un" %>selected">
+          <li class="fordelete_<%= quiz.idname %>">
           <%= link_to quiz.name, "##{quiz.idname}", 
                       "data-toggle" => "tab" %>
           </li>

@@ -1,5 +1,5 @@
 <%# remember "quiz" is passed in by :object => (quiz) %>
-<div class="problemscores tab-pane" id=<%= quiz.idname %>>
+<div class="problemscores tab-pane fordelete_<%= quiz.idname %>" id=<%= quiz.idname %>>
   <div class=section-header>
     <div>Quiz: </div>
     <div class="btn-group"> 
@@ -13,7 +13,13 @@
         <li><%= link_to "Delete this quiz", 
             { :controller => "quizzes", :action => "destroy", :id => quiz.id},
             :confirm => "Are you sure you want to delete the quiz \"#{quiz.name}?\"",
+            :remote => true,
             :method => :delete %>
+            <%# link_to_remote "Delete this quiz",
+              :url => quiz_path(quiz),
+              :method => :delete,
+              :confirm => "Are you sure you want to delete the quiz \"#{quiz.name}?\"",
+            %>
         </li>
       </ul>
     </div>

@@ -12,6 +12,7 @@ class QuizzesController < ApplicationController
 
   # change the problem types in a quiz
   def edit
+    @quiz = Quiz.find(params[:id])
   end
 
   # POST /quiz
@@ -45,5 +46,12 @@ class QuizzesController < ApplicationController
 
   # DELETE /quizzes/1
   def destroy
+    @quiz = Quiz.find(params[:id])
+    @quiz_id = @quiz.idname
+
+    @quiz.destroy
+    respond_to { |format| format.js }
+    #render :text => "$('.fordelete_#{quiz_id}').hide(); alert('I'm being run');",
+    #       :content_type => "text/javascript"
   end
 end
