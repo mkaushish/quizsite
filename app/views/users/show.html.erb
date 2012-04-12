@@ -19,14 +19,25 @@
     </div>
   </div>
 
-  <div class="span6 tab-content">
+  <div class="span6">
     <% if @quizzes.empty? %>
-      <div class=""></div>
+      <div id=noquiz-explanation>
+        <div class="section-header">Welcome to SmarterGrades!</div>
+        <p> This is your Profile page </p>
+        <p>On your left are your quizzes.  When you're preparing for an exam, all you need to do is make a quiz for it that has the same types of questions that will be on the exam.  Then we will give you problems to do, and tell you how prepared we think you are with our SmartScore algorithm!
+        </p>
+        <p> Once you make a quiz, this is where you'll see your SmartScore for the quiz and it's problems.
+        </p>
+        <p>On you right is your problem history - it will get filled out as you do problems.  Click on any of these problems if you want us to explain how to do them.
+        </p>
+      </div>
     <% else %>
-      <% @quizzes.each do |quiz| %>
-        <%= render :partial => 'quizzes/quiz', :object => quiz,
-          :locals => { :shown => (@shownquiz == quiz) } %>
-      <% end %>
+      <div class=tab-content>
+        <% @quizzes.each do |quiz| %>
+          <%= render :partial => 'quizzes/quiz', :object => quiz,
+            :locals => { :shown => (@shownquiz == quiz) } %>
+        <% end %>
+      </div>
     <% end %>
   </div>
 

@@ -11,9 +11,9 @@ Short Term
   [X] add quiz model to database
   [ ] when you click startquiz it should use your current quiz
   [ ] add validations for quiz name
-  [ ] implement destroy in quizzes controller
+  [X] implement destroy in quizzes controller
   [ ] implement edit/update in quizzes controller
-  [ ] add splash page for people who don't yet have any quizzes
+  [X] add splash page for people who don't yet have any quizzes
   [ ] get a PSCORE calculation going (implement get_pscore in app helper)
     [ ] base it on % history on that problem type
     [ ] base it on time since a user has done those problems + number + weighted percentages
