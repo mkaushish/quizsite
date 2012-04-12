@@ -50,8 +50,10 @@ class QuizzesController < ApplicationController
     @quiz_id = @quiz.idname
 
     @quiz.destroy
-    respond_to { |format| format.js }
-    #render :text => "$('.fordelete_#{quiz_id}').hide(); alert('I'm being run');",
-    #       :content_type => "text/javascript"
+    if current_user.quizzes.empty?
+      render :js => "window.location = '/profile'"
+    else
+      respond_to { |format| format.js }
+    end
   end
 end
