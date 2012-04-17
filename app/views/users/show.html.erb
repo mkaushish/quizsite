@@ -1,7 +1,7 @@
 <div id=logo><%= current_user.name %></div>
 <div class=row-fluid>
 
-  <div class=span2>
+  <div class=span3>
     <div class='well sidebar-nav'>
       <ul class='nav nav-list quizlist'> 
         <li class='nav-header'>Your Quizzes</li>
@@ -11,8 +11,10 @@
 
         <% @quizzes.each do |quiz| %>
           <li class="fordelete_<%= quiz.idname %>">
+          <%= link_to raw('<i class="icon-arrow-right"></i>'), startquiz_path(:quizid => quiz.id), :style=>"float:right; padding-bottom:0px;" %>
           <%= link_to quiz.name, "##{quiz.idname}", 
                       "data-toggle" => "tab" %>
+          <div style="clear:both;"></div>
           </li>
         <% end %>
       </ul>
@@ -40,10 +42,8 @@
     <% end %>
   </div>
 
-  <div class=span4>
-    <div id=problemhist>
-      <%= render :partial => 'problemanswers/history', :locals => {:problemanswers => @problemanswers} %>
-    </div>
+  <div class=span3>
+    <%= render :partial => 'problemanswers/history', :locals => {:problemanswers => @problemanswers} %>
   </div>
 
 </div>

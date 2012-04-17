@@ -1,8 +1,15 @@
-<h3>Problem History</h3>
-<% @problemanswers.each do |problemanswer| %>
-  <div>
-    <% corr = correct_class(problemanswer) %>
-    <%= link_to "#{problemanswer.problem.to_s}", problemanswer %>
-    <%= image_tag "#{correct_class(problemanswer)}_circ_small.png" %>
-  </div>
-<% end %>
+<div class='well sidebar-nav'>
+  <ul class='nav nav-list'>
+    <li class='nav-header'>Problem History</li>
+    <% @problemanswers.each do |problemanswer| %>
+      <li>
+        <% if problemanswer.correct %>
+          <%= link_to raw("<i class='icon-ok'></i> #{problemanswer.problem.to_s}"), problemanswer %>
+        <% else %>
+          <%= link_to raw("<i class='icon-remove'></i> #{problemanswer.problem.to_s}"), problemanswer %>
+        <% end %>
+
+      </li>
+    <% end %>
+  </ul>
+</div>

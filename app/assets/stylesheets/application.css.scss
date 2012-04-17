@@ -45,11 +45,11 @@
 
 /* Layout ID's {{{ */
 body {
-  line-height: 18px;
+  //line-height: 18px;
   color: #333333;
   background-color: #ffffff;
   font-family: "Latine";
-  font-size: 14px;
+  //font-size: 14px;
   margin:0;
 }
 
@@ -317,12 +317,9 @@ input[type="submit"] {
 .section-header {
   border-bottom:2px solid black;
   //height: 20px;
-  font-size:1.20em;
-  padding:3px;
-  div {
-    float:left;
-    padding:4px;
-  }
+  font-size:1.25em;
+  padding:5px 2px;
+  margin-bottom:5px;
 }
 
 .explanation {

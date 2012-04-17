@@ -6,6 +6,8 @@ Short Term
   [ ] come up with 1 or 2 themed colors which we use consistently
     [ ] apply these colors to highlight our apps and the things that make us better than competition
   [ ] add a logo and decide where we think it should go
+[ ] allow user creation from the site
+  [ ] get some sort of unique access code system going...?
 [ ] add useful error messages to all forms with ajax:
   [ ] quiz creation
   [ ] problemanswer creation...?

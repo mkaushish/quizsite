@@ -27,9 +27,9 @@
 
 .problemscores {
   li {
-    font-size:1.25em;
-    padding:5px;
-    height:25px;
+    padding:2px 0;
+    //height:25px;
+    //border-bottom:1px solid black;
     div { 
       float:right;
     }
@@ -41,7 +41,7 @@
   //background-color:#4545cf;
 
   margin:10px 0px;
-  font-size:1.35em;
+  font-size:1.2em;
   padding:5px;
   text-align:center;
   @include rounded-corners(5px);

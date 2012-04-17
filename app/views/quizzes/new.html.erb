@@ -1,8 +1,4 @@
-<div class="logo">Make a new quiz</div>
+<div class="logo">Make a New Quiz</div>
 <%= form_tag :action => 'create' do %>
-  <div class=quizname>
-    <%= text_field_tag "quiz_name", nil, :placeholder=>"Name your Quiz!" %>
-  </div>
-
-  <%= render :partial => 'form' %>
+  <%= render :partial => 'form', :locals => {:quizname => nil} %>
 <% end %>

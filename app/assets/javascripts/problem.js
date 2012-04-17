@@ -25,10 +25,10 @@ $(document).ready(function () {
   });
 
   function setCurQuiz() {
-    var quiz_s = "<li><h3>Current Quiz</h3></li>";
+    var quiz_s = "<li class='nav-header'>Current Quiz</li>";
     $(':checkbox:checked').each(function() {
       var problemname = $(this).attr("name").split("::")[1];
-      quiz_s = quiz_s + "<li class=quizelt>"+problemname+"</li>";
+      quiz_s = quiz_s + "<li>"+problemname+"</li>";
     });
     $('#curquiz').html(quiz_s);
   }
