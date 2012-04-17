@@ -6,18 +6,16 @@ Short Term
   [ ] come up with 1 or 2 themed colors which we use consistently
     [ ] apply these colors to highlight our apps and the things that make us better than competition
   [ ] add a logo and decide where we think it should go
-[ ] add quizzes to website
-  [X] create quiz display partial
-  [X] add quiz model to database
-  [X] when you click startquiz it should use your current quiz
-  [X] add validations for quiz name
-  [X] implement destroy in quizzes controller
-  [ ] implement edit/update in quizzes controller
-  [X] add splash page for people who don't yet have any quizzes
+[ ] add useful error messages to all forms with ajax:
+  [ ] quiz creation
+  [ ] problemanswer creation...?
+  [ ] signin
+[/] add quizzes to website
   [ ] get a PSCORE calculation going (implement get_pscore in app helper)
     [ ] base it on % history on that problem type
     [ ] base it on time since a user has done those problems + number + weighted percentages
 [ ] _next_problem.js.erb now sets some things to "green" - work some global green
+[ ] remove problem/index... it is no longer used for anything I think
 [ ] add a few basic stats to the profile page
 [ ] assessing whether fractions are equal in the correct method should use the rational class unless stated
 [ ] when you get problems like div_39 wrong, the "see explanation" and "more problems" links show up at the bottom of the page rather than right under the question
@@ -108,3 +106,12 @@ Completed
     [ ] make it so text doesn't block stuff if it doesn't need to 
 [X] add team description page
 [X] MultiTextField: add 2 fields and remove 2 doesn't seem to work
+[/] add quizzes to website
+  [X] change startquiz nav thing to a dropdown
+  [X] create quiz display partial
+  [X] add quiz model to database
+  [X] when you click startquiz it should use your current quiz
+  [X] add validations for quiz name
+  [X] implement destroy in quizzes controller
+  [X] implement edit/update in quizzes controller
+  [X] add splash page for people who don't yet have any quizzes

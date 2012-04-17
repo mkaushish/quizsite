@@ -1,10 +1,17 @@
 <div id="nav">
 <nav>
-  <ul>
+  <ul class=mynav>
   <% if signed_in? %>
     <li><%= link_to "My Profile", user_path(current_user), :class => selected?("profile") %></li>
     <li><%= link_to "Make Quiz",  new_quiz_path,           :class => selected?("makequiz") %></li>
-    <li><%= link_to "Start Quiz", quiz_path,               :class => selected?("quiz"); %></li>
+    <li class="dropdown <%= selected?("quiz") %>">
+      <%= link_to "Start Quiz", "#", :class => "dropdown-toggle", "data-toggle" => "dropdown" %>
+      <ul class="dropdown-menu nav-dropdown">
+      <% user_quizzes.each do |quiz| %>
+        <li><%= link_to(quiz.name, startquiz_path(:quizid => quiz.id)) %></li>
+      <% end %>
+      </ul>
+    </li>
     <li><%= link_to "Sign Out",   signout_path, :method => :delete %></li>
   <% elsif fastnav? %>
     <li><%= link_to "Home",     "#", :id=>'homelink',     :class => selected?("home") %></li>

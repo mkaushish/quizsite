@@ -22,7 +22,7 @@ class Quiz < ActiveRecord::Base
   validates :user_id,      :presence => true
 
   validates :name,         :presence => true,
-                           :length => { :within => 3..20 },
+                           :length => { :within => 1..20 },
                            :format => { :with => @@name_regex }
 
   def ptypes

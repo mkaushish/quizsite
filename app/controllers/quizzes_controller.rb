@@ -12,13 +12,15 @@ class QuizzesController < ApplicationController
 
   # change the problem types in a quiz
   def edit
+    @nav_selected = "makequiz"
     @quiz = Quiz.find(params[:id])
+    set_quiz @quiz
+    @chosen_probs = get_probs
+    @chapter = CricketQuestions
   end
 
   # POST /quiz
   def create
-    $stderr.puts params.inspect
-
     quiz_problems = []
     all_probs.each do |prob|
       if params[prob.to_s] == "1"
@@ -33,15 +35,37 @@ class QuizzesController < ApplicationController
 
     set_probs(quiz_problems)
     if @quiz.save
-      redirect_to quiz_path
+      redirect_to profile_path
     else
-      adderror("couldn't save the last quiz...")
+      $stderr.puts "#"*60
+      $stderr.puts "COULDN'T SAVE: #{@quiz.errors}"
+      adderror("couldn't save the last quiz: #{@quiz.errors.inspect}")
       redirect_to profile_path
     end
   end
 
   # PUT /quiz/:id
   def update
+    @quiz = Quiz.find(params[:id])
+    unless @quiz.user == current_user
+      adderror "You can only edit your own quizzes!"
+      redirect_to profile_path
+    end
+    
+    quiz_problems = []
+    all_probs.each do |prob|
+      if params[prob.to_s] == "1"
+        quiz_problems << prob
+      end
+    end
+
+    @quiz.problemtypes = Marshal.dump(quiz_problems)
+    if @quiz.save
+      redirect_to profile_path
+    else
+      adderror("couldn't save the quiz for some reason... need to get better error messages")
+      redirect_to profile_path
+    end
   end
 
   # DELETE /quizzes/1

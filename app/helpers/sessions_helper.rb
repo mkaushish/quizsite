@@ -61,6 +61,10 @@ module SessionsHelper
     session[:quiz] = quiz.id
   end
 
+  def user_quizzes
+    current_user.quizzes
+  end
+
   private
   
   def user_from_remember_token

@@ -4,6 +4,7 @@ require_relative 'tohtml'
 #TODO Ignore commas for all numbers (unless required)
 
 class QuestionBase
+  @@type = nil
   ######################################################
   # METHODS YOU MUST OVERRIDE WHEN DEFINING A SUBCLASS #
   ######################################################

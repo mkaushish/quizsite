@@ -1,4 +1,4 @@
-<div class="logo">Update <%= quiz.name %> Quiz</div>
-<%= form_tag :action => 'update' do %>
+<div class="logo">Update Quiz: <%= @quiz.name %></div>
+<%= form_tag(quiz_path(@quiz), :method => :put) do %>
   <%= render :partial => 'form' %>
 <% end %>

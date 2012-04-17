@@ -92,6 +92,7 @@ p {
 
 #nav {
   @include gradient($navG1, $navG2);
+  height:36px;
   border-bottom:1px solid black;
   margin-bottom:20px;
 }
@@ -99,26 +100,10 @@ nav {
   margin-left: auto;
   margin-right: auto;
   width:802px;
-  //height:42px;
-  ul {
-    text-align: center;
-    margin: 0;
-    padding:0;
-    overflow: hidden;
-    border-left:1px solid black;
-    border-right:1px solid black;
-  }
-  li {
-    float: left;
-  }
-
   a {
     text-decoration: none;
     display: block;
     //width: 152px; // for 5 nav links
-    width: 184px;   // for 4 nav links
-    border-left:1px solid black;
-    border-right:1px solid black;
     //font-family: "SketchRockwell";
     font-size: 1.35em;
     padding: 9px 7px;
@@ -142,6 +127,38 @@ nav {
   }
   
 }
+
+ul.mynav {
+  text-align: center;
+  margin: 0;
+  padding:0;
+  //overflow: hidden;
+  border-left:1px solid black;
+  border-right:1px solid black;
+  li {
+    float: left;
+    width: 198px;   // for 4 nav links
+    border-left:1px solid black;
+    border-right:1px solid black;
+  }
+}
+
+ul.nav-dropdown {
+  font-size:1em;
+  a {
+    &:link {
+      color: black;
+    }
+    &:visited {
+      color: black;
+    }
+    &:hover {
+      color: black;
+      text-decoration:none;
+    }
+  }
+}
+
 
 /* }}} */
 
