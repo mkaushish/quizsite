@@ -16,18 +16,12 @@ Short Term
     [ ] base it on time since a user has done those problems + number + weighted percentages
 [ ] _next_problem.js.erb now sets some things to "green" - work some global green
 [ ] remove problem/index... it is no longer used for anything I think
-[ ] add a few basic stats to the profile page
 [ ] assessing whether fractions are equal in the correct method should use the rational class unless stated
 [ ] when you get problems like div_39 wrong, the "see explanation" and "more problems" links show up at the bottom of the page rather than right under the question
 [ ] add float equals method to allow similar answers rather than exact answers 
-[ ] prime factors question removes first element from solve
-[ ] multitextfied should allow answers in any order unless stated
 [/] make drawtools nice
-  [X] click on circle shape on right, and set radius in the box
   [ ] if no shapes are passed in we get several errors neither shapes nore state seems to get set
   [ ] add "undo last" button
-  [X] add question API
-    [X] add hidden form variable that gets set to the shapes variable
   [ ] give me some style baby
     [ ] image buttons that look like compass ruler etc
     [ ] improve ruler/line interface
@@ -91,6 +85,9 @@ Completed
   [X] Sandhya Saini: sandhyas@vasantvalley.org
   [X] Karan Bedi (no email)
 [/] make drawtools nice
+  [X] click on circle shape on right, and set radius in the box
+  [X] add question API
+    [X] add hidden form variable that gets set to the shapes variable
   [X] poiLineCircle doesn't check for bounds properly
   [X] poiLineCircle can't handle vertical lines, and has trouble on those that are close
   [/] cycle through nearby points of interest when both are nearby (currently selects first one added)
@@ -115,3 +112,6 @@ Completed
   [X] implement destroy in quizzes controller
   [X] implement edit/update in quizzes controller
   [X] add splash page for people who don't yet have any quizzes
+[X] prime factors question removes first element from solve
+[X] multitextfied should allow answers in any order unless stated
+[x] add a few basic stats to the profile page
