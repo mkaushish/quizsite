@@ -22,7 +22,7 @@ module ApplicationHelper
     !@fastnav.nil?
   end
   def selected?(s)
-    return "selected" if @nav_selected == s
+    return "active" if @nav_selected == s
     return ""
   end
 

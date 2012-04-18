@@ -1,108 +1,38 @@
 <div id=about class=staticpage style="display:none;">
-  <div class="logo team">Team Smarter Grades</div>
-  <div class="logo contact" style="display:none;">Contact Us</div>
-  <div class="logo acknowledge" style="display:none;">Acknowledgements</div>
-
-  <p class="desc team"> Smarter Grades was started in 2011 by a group of Oberlin Alumni who love maths and want others to do so as well. Be sure to check out our <%= link_to "blog!", "http://blog.smartergrades.com" %></p> 
-  <p class="desc contact" id="contactblurb" style="display:none">We at Smarter Grades value your input and ideas.  Please contact us with any questions, comments, or suggestions you might have, and we'll be sure to get back to you</p>
-  <p class="desc acknowledge" id="contactblurb" style="display:none">This is a list of just a few of the people we have to thank for our progress so far. I'm sure this list will get bigger by the day.</p>
-
-  <div id=aboutnav>
-    <div class=selected id=team>Team</div>
-    <div id=contact>Contact</div>
-    <div id=acknowledge>Thanks</div>
-    <div><%= link_to "Blog", "http://blog.smartergrades.com" %></div>
-  </div>
-  <div id=aboutcontent>
-    <div class=team>
-      <div class="teammember">
-        <div class="name">
-          Madhav Kaushish, CEO
-        </div>
-        <div class="info">
-          <%= image_tag "madhav_125.jpg" %>
-        </div>
-        <div class="text">
-          <div class=blurb>
-            Madhav majored in Maths at Oberlin College. His teachers in school played a huge role in Madhav loving maths from a young age. They pushed him to experiment with new concepts and go beyond the prescribed textbook. Madhav's aim is to make Smarter Grades available to the largest possible audience. For Madhav, the possibility of translating Smarter Grades into other languages, while ensuring low bandwidth requirements, is the most exciting aspect of the product.
-          </div>
-        </div>
-      </div>
-      <div class=teammember>
-        <div class=name>
-          Thomas Ramfjord, CTO
-        </div>
-        <div class=info>
-          <%= image_tag "thomas_125.jpg" %>
-        </div>
-        <div class=text>
-          <div class=blurb>
-            Thomas studied Computer Science at Oberlin. He loves math puzzles and problems, but this was not always the case.  It took years of college courses for him to disassociate math from tedious problem sets and repetition.  He joined Smarter Grades to make math accessible and enjoyable to high school students by giving each student personalized attention and problem sets that focus on learning, not repetition.
-          </div>
-        </div>
-      </div>
-      <div class="teammember">
-        <div class="name">
-          Haider Ali Khan, Marketing and Strategy
-        </div>
-        <div class="info">
-          <%= image_tag "haider_125.png" %>
-        </div>
-        <div class="text">
-          <div class=blurb>
-            Haider studied Economics at Oberlin and, unlike Madhav, he wasn't a fan of Mathematics from a young age. Haider's motivation for smartergrades derives from his conviction that there is a better way to teach mathematics. He believes that the pervasive influence of the internet is changing the way children absorb information. Giving children agency over their learning process will allow them to get a really solid grounding on the fundamentals of the subject.
-          </div>
-        </div>
-      </div>
-      <div style="clear:left;"></div>
-    </div>
-    <div class=contact style="display:none;">
-      <div id=emailinfo>
-        <div class=contactinfo>
-          <h2>Email</h2>
-          <div class=lcol>
-            Support:
-          </div>
-          <div><%= mail_to "support@smartergrades.com" %></div>
-          <div class=lcol>
-            Other:
-          </div>
-          <div><%= mail_to "mkaushish@smartergrades.com" %></div>
-          <div class=lcol style="color:transparent;">
-            .
-          </div>
-          <div><%= mail_to "tramfjord@smartergrades.com" %></div>
-          <div class=lcol style="color:transparent;">
-            .
-          </div>
-          <div><%= mail_to "hkhan@smartergrades.com" %></div>
-        </div>
-      </div>
-      <div id=mailinfo>
-        <div class=contactinfo>
-          <h2>Mail</h2>
-          <div>Madhav Kaushish</div>
-          <div>K-24A Hauz Khas Enclave</div>
-          <div>New Delhi, India</div>
-        </div>
+  <div class=row-fluid>
+    <div class=span3>
+      <div class='well sidebar-nav'>
+        <ul class='nav nav-list'>
+          <li class=nav-header>About</li>
+          <li><%= link_to "Team",    "#team",        "data-toggle" => "tab" %></li>
+          <li><%= link_to "Contact", "#contact",     "data-toggle" => "tab" %></li>
+          <li><%= link_to "Thanks",  "#acknowledge", "data-toggle" => "tab" %></li>
+          <li><%= link_to "Blog",    "http://blog.smartergrades.com" %></li>
+        </ul>
       </div>
     </div>
-    <div class=acknowledge style="display:none;">
-      <div class=ack>
-        <h2>Oberlin College Creativity and Leadership</h2>
-        <p>In April 2011, Madhav and Haider won a $15,000 "Creativity & Leadership: Entrepreneurship at Oberlin" Fellowship, part of the Northeast Ohio Collegiate Entrepreneurship Program (NEOCEP), a Kauffman Campuses (SM) Initiative funded by the Burton D. Morgan Foundation and the Ewing Marion Kauffman Foundation. This gave them the perfect excuse to start their own venture rather than search for jobs. Special thanks to Andrea Kalyn and Mary Kay Gray for mentoring us whenever we've required it.
-        </p>
-      </div>
-      <div class=ack>
-        <h2>Alok Nanda Company</h2>
-        <p>For helping us find a name and working with us on our branding.
-        </p>
-      </div>
-      <div class=ack>
-        <h2>The Indus Entrepreneurs (TIE)</h2>
-        <p>Ever since we won the Bizbuzz business plan competition and reached the final 30 of the All-Asia business plan cometition, both hosted by TIE, we have received tremendous support from this organization.
-        </p>
+
+    <div class=span9>
+      <div class='tab-content'>
+
+        <div class=tab-pane id=team>
+          <%= render :partial => 'pages/team' %>
+        </div>
+
+        <div class=tab-pane id=contact>
+          <%= render :partial => 'pages/contact' %>
+        </div>
+
+        <div class=tab-pane id=acknowledge>
+          <%= render :partial => 'pages/acknowledge' %>
+        </div>
+
       </div>
     </div>
   </div>
 </div>
+<script>
+  $(function () {
+    $('a[href="#team"]').tab('show');
+  })
+</script>

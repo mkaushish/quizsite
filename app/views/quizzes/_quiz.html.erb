@@ -10,10 +10,10 @@
         <li><%= link_to raw("<i class='icon-arrow-right'></i> Start Practicing!"), startquiz_path(:quizid => quiz.id) %></li>
         <li><%= link_to raw("<i class='icon-pencil'></i> Change Quiz Problems"), edit_quiz_path(quiz) %></li>
         <li><%= link_to raw("<i class='icon-remove-circle'></i> Delete This Quiz"), 
-            quiz_path(quiz),
-            :confirm => "Are you sure you want to delete the quiz \"#{quiz.name}?\"",
-            :remote => true,
-            :method => :delete %>
+          quiz_path(quiz),
+          :confirm => "Are you sure you want to delete the quiz \"#{quiz.name}?\"",
+          :remote => true,
+          :method => :delete %>
         </li>
       </ul>
     </div>
@@ -28,9 +28,9 @@
   <ul>
     <% quiz.ptypes.each do |ptype| %>
       <li>
-        <%= ptype.type %>
-        <%= get_smartscore(ptype) %>
-        <br style="clear:both;">
+      <%= ptype.type %>
+      <%= get_smartscore(ptype) %>
+      <br style="clear:both;">
       </li>
     <% end %>
   </table>

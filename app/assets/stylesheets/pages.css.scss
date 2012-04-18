@@ -4,29 +4,14 @@
 @import 'mixins_n_colors';
 
 .teammember { 
-  clear:left;
-  .info {
-    padding:10px 20px 10px 0;
-    float: left;
-    img {
-      width:125px;
-      height:125px;
-    }
+  img {
+    float:left;
+    margin-right:15px;
   }
 
-  .name {
-    border-bottom:2px solid black;
-    height: 20px;
-    margin-right:20px;
-    font-size:1.20em;
-    padding:3px;
-  }
-  
-  .text {
-    font-size:1em;
-    width:525px;
-    padding:10px 0;
-    float:left;
+  .spacer {
+    clear:both;
+    height:5px;
   }
 }
 
@@ -120,17 +105,6 @@
   float:left;
   width:670px;
 }
-.logo {
-  color:$graphite;
-  text-align:center;
-  text-decoration: none;
-  display: block;
-  font-family: "SketchRockwell";
-  border: 0;
-  padding: 4px;
-  margin-bottom:12px;
-  font-size: 3em;
-}
 
 .lastprobinfo {
   height:40px;
@@ -165,3 +139,22 @@
 .correctex {
   border:1px solid $green;
 }
+
+// HOMEPAGE {{{
+#slideshow {
+  position:relative;
+  .slide {
+    position:absolute;
+    width:
+    div {
+      // description:
+      height:100px;
+    }
+    img {
+      width:450px;
+      height:260px;
+      margin:0px;
+    }
+  }
+}
+// }}}

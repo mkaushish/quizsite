@@ -45,49 +45,17 @@
 
 /* Layout ID's {{{ */
 body {
-  //line-height: 18px;
+  overflow:scroll;
   color: #333333;
   background-color: #ffffff;
   font-family: "Latine";
-  //font-size: 14px;
+  padding-top:80px;
+  position:relative;
   margin:0;
 }
 
-/*
-p {
-  margin: 0 0 9px;
-  font-size: 20px;
-  line-height: 25px;
-}
-*/
-
-#container {
-  position:relative;
-  bottom:7px;
-  @include shadow(5px, -2px, 5px, 0px, black);
-  width: 800px;
-  margin-left: auto;
-  margin-right: auto;
-  //background-image: url('lightgraphpapertile.png');
-  background-image: url('mkgraph.png');
-  background-repeat: repeat;
-  padding: 25px;
-}
-
-#logo {
-  color:$graphite;
-  text-align:center;
-  text-decoration: none;
-  display: block;
-  font-family: "SketchRockwell";
-  border: 0;
-  padding: 4px;
-  margin-bottom:12px;
-  font-size: 3em;
-}
-#sitetitle {
-  width: 800px;
-  margin-bottom: 12px;
+.navbar .nav > li > a {
+  padding:13px 10px 14px 10px;
 }
 
 #nav {
@@ -180,73 +148,6 @@ ul.nav-dropdown {
     margin-bottom:30px;
   }
 }
-
-#slideshow {
-  background-color:white;
-  line-height:0;
-  float:left;
-  width:450px;
-  margin:10px 10px 0px 10px;
-  border: 8px solid $navG1;
-  padding:0px;
-  position:relative;
-  //left:500px;
-  //top:115px;
-  img {
-    width:450px;
-    height:260px;
-    margin:0px;
-  }
-
-  #slides div {
-    position:absolute;
-  }
-
-  #slideshownav {
-    position:absolute;
-    top:340px;
-    margin:0; padding:0; width:450px;
-  }
-  
-  .slide_description {
-    top:260px;
-    padding:5px;
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
-    line-height:160%;
-    margin:0px;
-    width:440px;
-    height:66px; // just so we can add up to 80
-    background-color:$navG1;
-    color:$navlink;
-  }
-  li {
-    font-size:1.25em;
-    height:20px;
-    width:142px;
-    padding:3px;
-    border-right: 2px solid black;
-    text-align: center;
-    line-height:100%;
-    float:left;
-    margin:0;
-  }
-  height:366px;
-  #slideshownav1.selected{
-    background-color: #b8daec;
-  }
-  #slideshownav2.selected{
-    background-color: #f19e49;
-  }
-  #slideshownav3.selected{
-    background-color: #7e65cf;
-  }
-  /*.selected {
-    
-    background-color:green;
-  }*/
-}
-
 /*}}}*/
 
 // standard html stuff {{{
@@ -281,8 +182,8 @@ h1 {
 
 ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+  //margin: 0;
+  //padding: 0;
   //overflow: hidden;
 }
 
@@ -314,9 +215,30 @@ input[type="submit"] {
 
 /* Common Classes {{{ */
 
+.logo {
+  text-decoration: none;
+  display: block;
+  //font-family: "SketchRockwell";
+  font-family: "MySans";
+  border: 0;
+  padding: 4px;
+  margin-bottom:12px;
+  font-size: 2.5em;
+}
+
+.small_logo {
+  padding:3px;
+}
+
+.after-400-logo {
+  float:left;
+  margin-left:20px;
+  padding-top:14px;
+  font-size:22px;
+}
+
 .section-header {
   border-bottom:2px solid black;
-  //height: 20px;
   font-size:1.25em;
   padding:5px 2px;
   margin-bottom:5px;

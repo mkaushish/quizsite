@@ -1,7 +1,11 @@
 <div id=home class=staticpage>
   <div class=row-fluid>
-    <div class=logo>Smarter Grades</div>
-    <%= render :partial => 'shared/signin' %>
+    <div class=section-header>
+      <%= image_tag "Logo_400_42.jpg", :style=>"float:left;" %>
+      <div class=after-400-logo> - The smartest way to learn maths</div>
+      <div style="clear:both;"></div>
+    </div>
+    <%# render :partial => 'shared/signin' %>
   </div>
 
   <div class=row-fluid>
@@ -9,9 +13,9 @@
       <div id="homedescription">
         <ul>
           <li>We don't just test, we help you identify your weaknesses and master them</li>
-          <li>Automatically schedules your studying so you learn more in less time/effort</li>
+          <li>Automatically schedules your studying so you learn more in less time</li>
           <li>Unlimited questions on every topic</li>
-          <li>Online geometry kit lets you learn with the same tools you use in class</li>
+          <li>Online geometry kit teaches you with the same tools you use in class</li>
           <li>Regular feedback for parents</li>
           <li>Classroom discussion with your peers</li>
         </ul>
@@ -20,34 +24,33 @@
 
     <div class="span6">
       <div id=slideshow>
-        <div id=slides >
-          <div id=slide1>
-            <%= image_tag "smartscore_450_260.png" %>
-            <div class=slide_description>
-              The SmartScore is how well we predict you will do on a question/quiz.  We use it to figure out the best problems for you to practice.
-            </div>
-          </div>
-          <div id=slide2 style="display:none">
-            <%= image_tag "drawtoolsexnew_450_260.png" %>
-            <div class=slide_description>
-              Smarter Grades teaches students to solve problems with online versions of the same tools they have available in class.  It's not just multiple choice!
-            </div>
-          </div>
-          <div id=slide3 style="display:none">
-            <%= image_tag "explaination_cricket.png" %>
-            <div class=slide_description>
-              If students are having trouble with a problem, we teach them how to break down each problem into simple steps.  Then we help them understand each step.
-            </div>
-          </div>
-        </div>
         <div id="slideshownav">
           <div id="slideNo" style="display:none">1</div>
           <div id="slideTimer" style="display:none">6</div>
-          <ul>
-            <li id="slideshownav1" onclick="setSlide(1,this);" class=selected>SmartScore</li>
-            <li id="slideshownav2" onclick="setSlide(2,this);">Tools</li>
-            <li id="slideshownav3" onclick="setSlide(3,this);" style="border:0; width:144px; float:right;">Explanations</li>
-          </ul>
+        </div>
+
+        <div id=slides >
+          <div class=slide>
+            <div>
+              <h2>SmartScore:</h2>
+              Our SmartScore tells you how well you will do on your exams.  Never worry again, and study exactly what you need!
+            </div>
+            <%= image_tag "smartscore_450_260.png" %>
+          </div>
+          <div class=slide style="display:none">
+            <div>
+              <h2>Expansive Tool Kits:</h2>
+              Our questions teach students with online versions of the same tools they have available in class.  It's not just multiple choice!
+            </div>
+            <%= image_tag "drawtoolsexnew_450_260.png" %>
+          </div>
+          <div class=slide style="display:none">
+            <div>
+              <h2>Interactive Explanations</h2>
+              If students are having trouble with a problem, we teach them how to break down each problem into simple steps.  Then we help them understand each step.
+            </div>
+            <%= image_tag "explaination_cricket.png" %>
+          </div>
         </div>
       </div>
     </div>

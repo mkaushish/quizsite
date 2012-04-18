@@ -36,8 +36,8 @@ function setPageFunc(name, height) {
     $('.staticpage').hide();
     $('#'+name).show();
     //$('#container').attr('style', 'height:'+height+'px;');
-    $('nav a').removeClass("selected");
-    $('#'+name+'link').addClass("selected");
+    $('.navbar-fixed-top li').removeClass("active");
+    $('#'+name+'link').parent().addClass("active");
   };
 }
 
@@ -63,27 +63,6 @@ var homeOnLoad = function(pagename) {
 }
 
 $(document).ready(function() {
-  $('#team').click(function() {
-    $('#aboutnav div').removeClass("selected");
-    $("#team").addClass("selected");
-    $('.contact').hide();
-    $('.acknowledge').hide();
-    $('.team').show();
-  });
-  $('#contact').click(function() {
-    $('#aboutnav div').removeClass("selected");
-    $("#contact").addClass("selected");
-    $('.team').hide();
-    $('.acknowledge').hide();
-    $('.contact').show();
-  });
-  $('#acknowledge').click(function() {
-    $('#aboutnav div').removeClass("selected");
-    $("#acknowledge").addClass("selected");
-    $('.team').hide();
-    $('.contact').hide();
-    $('.acknowledge').show();
-  });
   $('.features').collapse();
 
   $('#homelink').click(goHome);
