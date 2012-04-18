@@ -10,9 +10,10 @@
 </head>
 <body <%= jsonload %>>
   <%= render 'shared/nav' %>
-  <div id="container" <%= container_height_style %>>
+  <div class="container" <%= container_height_style %>>
     <%= render 'shared/errors' %>
     <%= yield %>
+    <p style="clear:both;">
   </div>
 
   <%# debug(params) if Rails.env.development? %>

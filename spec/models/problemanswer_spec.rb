@@ -9,6 +9,7 @@
 #  updated_at :datetime
 #  response   :string
 #  user_id    :integer
+#  type       :string
 #
 
 require 'spec_helper'

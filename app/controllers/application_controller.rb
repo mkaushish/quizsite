@@ -4,6 +4,7 @@ require 'c3'
 require 'c6'
 require 'c7'
 require 'c8'
+require 'geo'
 # require 'c10'
 # require 'c12'
 require 'crqu'
@@ -14,9 +15,7 @@ class ApplicationController < ActionController::Base
   include SessionsHelper
   include ApplicationHelper
 
-  @@all_chapters = [Chapter1, Chapter2, Chapter3, Chapter6, Chapter7, Chapter8, CricketQuestions]
-  @@all_probs = @@all_chapters.map { |chap| chap::PROBLEMS }.flatten
-
+  @@all_chapters = [CricketQuestions, Chapter1, Chapter2, Chapter3, Chapter6, Chapter7, Chapter8, Geo]
   def get_probs
     return [] if session[:problems].nil?
     session[:problems].map { |p| dec_prob(p) }
@@ -27,15 +26,19 @@ class ApplicationController < ActionController::Base
     session[:problems] = myprobs.map { |p| enc_prob(p) }
   end
 
+  def set_quiz(quiz)
+    session[:quizid] = quiz.id
+    set_probs(quiz.ptypes)
+  end
+
+  def get_next_ptype
+    plist = get_probs
+    plist = all_probs if plist.empty?
+    ptype = plist.sample
+  end
+
+
   private
-
-  def all_probs
-    @@all_probs
-  end
-
-  def all_chapters
-    @@all_chapters
-  end
 
   # TODO make a global hash instead of using Marshal for every request...
   def enc_prob(p)

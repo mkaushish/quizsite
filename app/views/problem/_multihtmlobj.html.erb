@@ -20,12 +20,16 @@
   </div>
 <% elsif multihtmlobj.is_a? MultiTextField %>
   <div class="multifield">
-    <% multihtmlobj.each_field do |field| %>
-      <%= render :partial => partial, :object => field, :locals => locals %>
-    <% end %>
+    <div>
+      <% multihtmlobj.each_field do |field| %>
+        <%= render :partial => partial, :object => field, :locals => locals %>
+      <% end %>
+    </div>
     <% if partial == 'problem/htmlobj' %>
-      <%= add_multitext_field_link(multihtmlobj.name) %>
-      <%= del_multitext_field_link() %>
+      <a href="#" class="add_mt_field btn">+</a>
+      <a href="#" class="del_mt_field btn">-</a>
+      <%# add_multitext_field_link(multihtmlobj.name) %>
+      <%# del_multitext_field_link() %>
     <% end %>
   </div>
 <% elsif multihtmlobj.is_a? TableField %>

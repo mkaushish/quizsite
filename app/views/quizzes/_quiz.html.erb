@@ -1,0 +1,38 @@
+<%# remember "quiz" is passed in by :object => (quiz) %>
+<div class="problemscores tab-pane fordelete_<%= quiz.idname %>" id=<%= quiz.idname %>>
+  <div class=section-header>
+    <div>Quiz: </div>
+    <div class="btn-group"> 
+      <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+        <%= quiz.name  %>
+        <span class="caret"></span>
+      </button>
+      <ul class="dropdown-menu">
+        <li><%= link_to "Start Practicing!", startquiz_path(:quizid => quiz.id) %></li>
+        <li><%= link_to "Change this quiz's problems", edit_quiz_path(quiz) %></li>
+        <li><%= link_to "Delete this quiz", 
+            quiz_path(quiz),
+            :confirm => "Are you sure you want to delete the quiz \"#{quiz.name}?\"",
+            :remote => true,
+            :method => :delete %>
+        </li>
+      </ul>
+    </div>
+    <br style="clear:both;">
+  </div>
+  <div class=quizSmartscore>
+    <% if quiz.hasSmartScore? %>
+      Your SmartScore for this quiz is <%= quiz.smartScore %>
+    <% else %>
+      You need to do more problems to get your SmartScore
+    <% end %>
+  </div>
+  <ul>
+    <% quiz.ptypes.each do |ptype| %>
+      <li>
+        <%= ptype.type %>
+        <%= get_smartscore(ptype) %>
+      </li>
+    <% end %>
+  </table>
+</div>

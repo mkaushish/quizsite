@@ -23,7 +23,7 @@
 //      -specific shape definitions (eg. protractor)
 //
 //  section 4:
-//      -state definitions (eg. compassState, rulerState, etc)
+//      -state definitions (eg. compState, rulerState, etc)
 //
 //  section 5:
 //      -essentially the main method type code - If you want to draw things on load do it here.
@@ -113,7 +113,7 @@ $(function() {
     //  s += "<p>" + pointsOfInterest[i] + "</p>\n";
     //}
     shapesDisp.html(s);
-    $('#geometry').attr('value', hidden_s.substr(1));
+    $('#qbans_geometry').attr('value', hidden_s.substr(1));
 
     // add callbacks for colors
     for(var i = 0; i < shapes.length; i++) {
@@ -126,12 +126,29 @@ $(function() {
           shapes[e.data.i].unhilight();
           redraw();
         });
+
+        if(shapes[i] instanceof Circle) {
+          // add click to set radius when in compass mode
+          $('#s_'+i).click({i:i}, function(e) {
+            if(state == compState) {
+              $('#circlesize').attr("value", ''+shapes[e.data.i].r);
+            }
+          });
+        }
       }
     }
     
   }
   function getStartShapes(){
     startShapes = [];
+
+    // clear and setting start/next Nos is necessary for this to be called multiple times
+    clear();
+    nextLineNo = 1;   // lines and circles will be given names like l1, l2 - these indicat the number
+    nextCircleNo = 1;
+    startLineNo = 1;  // starting number - set by getStartShapes
+    startCircleNo = 1;
+
     var s = $('#startshapes').attr('value');
     var a = s.split(',');
     for(var i = 0; i < a.length; i++) {
@@ -145,11 +162,14 @@ $(function() {
   }
 
   function getActivePOIs() {
+    // NOTE I do not redraw - you must call redraw afterwards if you want my effects to be visible
     // if there is an active POI, check if we're still within range
     if(activePOI_i >= 0) {
       if(pointsOfInterest[activePOI_i].mouseDist() > 10) {
         activePOI_i = -1;
-        redraw();
+        if(state == protState) {
+          protractor.toOffset();
+        }
       }
     }
 
@@ -158,7 +178,6 @@ $(function() {
       for (var i = 0; i < pointsOfInterest.length; i++) {
         if(pointsOfInterest[i].mouseDist() < 7) {
           activePOI_i = i;
-          redraw();
         }
       }
     }
@@ -474,7 +493,10 @@ $(function() {
 
     this.mouseDist = function() {
       if(state == protState){
-        return distance(this.x, this.y, protractor.x, protractor.y);
+        if(!protState.mouse_is_down) {
+          return 1024; // hopefully a bigger distance than we'll ever be testing for
+        }
+        return distance(this.x, this.y, mousex - protractor.offx, mousey - protractor.offy);
       }
       else {
         return distance(this.x,this.y,mousex,mousey);
@@ -502,6 +524,8 @@ $(function() {
   var protractor = {
     x : canvas.width / 2,
     y : canvas.height / 2,
+    offx : 0,
+    offy : 0,
     theta : 0.0,
     shapes_i : -1,
 
@@ -595,6 +619,14 @@ $(function() {
     underMouse : function() {
       // TODO calculate for real
       return insideCircle(this.x, this.y, 100);
+    },
+    setOffset : function () {
+      this.offx = mousex - this.x;
+      this.offy = mousey - this.y;
+    },
+    toOffset : function () {
+      this.x = mousex - this.offx;
+      this.y = mousey - this.offy;
     }
   }
 
@@ -643,6 +675,9 @@ $(function() {
       if(!this.on_protractor) {
         protractor.setLasttheta();
       }
+      else {
+        protractor.setOffset();
+      }
     },
     mouseup : function() {
       this.mouse_is_down = false;
@@ -651,12 +686,9 @@ $(function() {
       if(this.mouse_is_down){
         if(this.on_protractor){
           protractor.move();
-          redraw(); 
         }
         else {
-          // TODO add rotation
           protractor.rotate()
-          redraw();
         }
       }
     }
@@ -726,7 +758,6 @@ $(function() {
         var radius = distance(mousex, mousey, downx, downy);
         //message = "center: ("+downx+", "+downy+"), radius:"+radius;
         tracingLine.follow();
-        redraw();
       }
       else {
         //message = "center: ("+mousex+", "+mousey+")";
@@ -765,8 +796,6 @@ $(function() {
       else {
         message = "(" + mousex + ", " + mousey + "), just measured: " + this.last_dist;
       }
-      redraw();
-      //writeMessage(message);
     },
     mouseup : function() {
       this.mouse_is_down = false;
@@ -864,6 +893,8 @@ $(function() {
 
   $('#canvas').mouseup(function (e) { 
     state.mouseup();
+    activePOI_i = -1;
+    redraw();
   });
 
   $('#canvas').mousemove(function (e) { 
@@ -884,6 +915,7 @@ $(function() {
       }
     }
     state.mousemove();
+    redraw();
   });
 
   $('#compass').click(function(){
@@ -927,7 +959,8 @@ $(function() {
   });
 
   $('#clear').click(function(){
-    clear();
+    getStartShapes();
+    //clear();
   });
 
   function a_to_s(arr) {

@@ -5,18 +5,6 @@ require 'c6'
 require 'c7'
 
 class ProblemController < ApplicationController
-  def index
-    @problems = get_probs
-  end
-    
-  def choose
-    @nav_selected = "makequiz"
-    @chosen_probs = get_probs
-    @all_chapters = all_chapters
-    @chapter = Chapter3
-    @jsonload = "onload=setCurQuiz();"
-  end
-
   def explain
     @problem = Problem.find(params[:id])
     @explain = @problem.unpack.explanation
@@ -49,20 +37,5 @@ class ProblemController < ApplicationController
       $stderr.puts "you missed the last subproblem, try again!" 
       render :nothing => true
     end
-  end
-
-  def makequiz
-    $stderr.puts params.inspect
-
-    session_problems = []
-    all_probs.each do |prob|
-      if params[prob.to_s] == "1"
-        session_problems << prob
-      end
-    end
-
-    set_probs(session_problems)
-    #flash[:notice] = "you just set your problems"
-    redirect_to quiz_path
   end
 end

@@ -25,64 +25,29 @@
   }
 }
 
-#stats {
-  @include rounded-corners(5px);
-  border: 2px solid $graphite;
-  width:500px;
-  #quizzes {
-    margin-top:10px;
+.problemscores {
+  li {
     font-size:1.25em;
-    li.unselected {
-      background-color:$graphite;
-      color:white;
-      margin: 0px 10px;
-      padding:2px 10px;
-      width:100px;
-      float:left;
-      text-align:center;
-      @include rounded-top-corners(8px);
-    }
-    li.selected {
-      background-color:#222222;
-      color:white;
-      margin: 0px 10px;
-      padding:2px 10px;
-      width:100px;
-      float:left;
-      text-align:center;
-      @include rounded-top-corners(8px);
-    }
-  }
-
-  #problemscores {
-    border-top:2px solid black;
-    margin:0px 10px;
-    ul {
-      margin: 10px;
-    }
-    li {
-      font-size:1.25em;
-      padding:5px;
-      height:25px;
-      div { 
-        float:right;
-      }
+    padding:5px;
+    height:25px;
+    div { 
+      float:right;
     }
   }
 }
 
-#pscore {
-  color:white;
-  margin-top:5px;
+.quizSmartscore {
+  //color:white;
+  //background-color:#4545cf;
+
+  margin:10px 0px;
   font-size:1.35em;
   padding:5px;
   text-align:center;
-  height:25px;
-  width:460px;
   @include rounded-corners(5px);
 }
 
-.pscore {
+.smartscore {
   text-align:center;
   padding:5px;
   width:50px;

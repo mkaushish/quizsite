@@ -13,7 +13,6 @@
     <% end %>
   <% end %>
 </div>
-<%# shouldn't need this floating div... %>
 <div class="exampleprob" >
 <%= form_tag({:action => 'exampleprobs'}, :autocomplete => "off") do %>
   <%= hidden_field_tag 'problem_id', @problem.id %>

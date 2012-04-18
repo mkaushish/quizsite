@@ -9,6 +9,7 @@
 #  updated_at :datetime
 #  response   :string
 #  user_id    :integer
+#  type       :string
 #
 
 class Problemanswer < ActiveRecord::Base
@@ -21,7 +22,8 @@ class Problemanswer < ActiveRecord::Base
   before_save :dump_response
 
   validates :problem_id, :presence => true
-  validates :response, :presence => true
+  validates :user_id,    :presence => true
+  validates :response,   :presence => true
   
   def dump_response
     unless @response_hash.nil? || self.response != nil

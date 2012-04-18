@@ -5,9 +5,10 @@ require 'c6'
 require 'c7'
 
 module ApplicationHelper
+
   def title
-    return "Smarter Grades" if @title.nil?
-    return "#{@title} | Smarter Grades"
+    return "SmarterGrades" if @title.nil?
+    return "#{@title} | SmarterGrades"
   end
   def jsonload
     return "" if @jsonload.nil?
@@ -73,14 +74,32 @@ module ApplicationHelper
     Marshal.load(ActiveSupport::Base64.decode64(marshobj))
   end
 
-  def pscore_class(pscore)
-    p = pscore.to_i
-    return "pscore_95" if p >= 95
-    return "pscore_90" if p >= 90
-    return "pscore_80" if p >= 80
-    return "pscore_70" if p >= 70
-    return "pscore_60" if p >= 60
-    return "pscore_35" if p >= 35
-    return "pscore_0"
+  def smartscore_class(smartscore)
+    p = smartscore.to_i
+    return "smartscore_95" if p >= 95
+    return "smartscore_90" if p >= 90
+    return "smartscore_80" if p >= 80
+    return "smartscore_70" if p >= 70
+    return "smartscore_60" if p >= 60
+    return "smartscore_35" if p >= 35
+    return "smartscore_0"
+  end
+
+  def get_smartscore(ptype)
+    # TODO add this shit in for realz
+    smartscore = rand(30) + 70
+    color_class = smartscore_class(smartscore)
+
+    return "<div class=\"smartscore #{color_class}\">#{smartscore}</div>".html_safe
+  end
+
+  # Chapter stuff
+  @@all_chapters = [CricketQuestions, Chapter1, Chapter2, Chapter3, Chapter6, Chapter7, Chapter8]
+  @@all_probs = @@all_chapters.map { |chap| chap::PROBLEMS }.flatten
+  def all_probs
+    @@all_probs
+  end
+  def all_chapters
+    @@all_chapters
   end
 end

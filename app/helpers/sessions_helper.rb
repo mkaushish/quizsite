@@ -57,6 +57,14 @@ module SessionsHelper
     redirect_to signin_path, :notice => "Please sign in to access this page"
   end
 
+  def set_quiz(quiz)
+    session[:quiz] = quiz.id
+  end
+
+  def user_quizzes
+    current_user.quizzes
+  end
+
   private
   
   def user_from_remember_token

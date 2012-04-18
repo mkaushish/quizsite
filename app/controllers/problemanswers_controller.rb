@@ -35,13 +35,20 @@ class ProblemanswersController < ApplicationController
   # GET /problemanswers/new
   # GET /problemanswers/new.json
   def new
-    plist = get_probs
-    plist = all_probs if plist.empty?
-    ptype = plist.sample
+    if !params[:quizid].nil?
+      quiz = Quiz.find(params[:quizid])
+      unless quiz.nil?
+        set_quiz quiz
+      end
+    end
+
+    ptype = get_next_ptype
 
     @problem = Problem.new
     @problem.my_initialize(ptype)
     @problem.save
+
+    @nav_selected = "quiz"
 
     #$stderr.puts "#"*30 + "\n" + @problem.prob.text.inspect
 

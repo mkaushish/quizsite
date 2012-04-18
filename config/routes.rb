@@ -1,35 +1,30 @@
 Quizsite::Application.routes.draw do
-  #get "pages/fasthome"
-  #get "pages/contact"
-  #get "pages/team" # TODO ADD THIS PAGE
-
   resources :users
   resources :sessions, :only => [:new, :create, :destroy]
-  # resources :problems, :only => [:index, 
+  resources :quizzes, :except => [:show] # see them in profile
   scope(:path_names => { :new => "quiz" }) do
     resources :problemanswers, :except => [:edit, :destroy]
   end
 
-  get "problem/choose"
-  post "problem/makequiz"
-  get "problem/index"
+  post "pages/check_drawing"
+  post "pages/exampleprobs"
+
   post "problem/next_subproblem"
   match "/explain/:id" => 'problem#explain', :as => :explain
 
-  post "pages/exampleprobs"
-
   match '/profile' => 'users#show'
   # match '/signup',  :to => 'users#new'
-  match '/signin',      :to => 'sessions#new'
+  match '/signin',      :to => 'pages#signinpage'
   match '/signout',     :to => 'sessions#destroy'
   match '/history',     :to => 'problemanswers#index'
-  match '/quiz',        :to => 'problemanswers#new'
+  match '/startquiz',   :to => 'problemanswers#new'
   match '/makequiz',    :to => 'probleman#choose'
   match '/home',        :to => 'pages#fasthome'
   match '/features',    :to => 'pages#features'
   match '/about',       :to => 'pages#about'
+  # TODO remove signinpage, just call it signin
   match '/signinpage',  :to => 'pages#signinpage'
-  match '/draw',        :to => 'pages#draw'
+  match '/draw',        :to => 'pages#draw', :via => [:get, :post]
   match '/numberline',  :to => 'pages#numberline'
   match '/graph',       :to => 'pages#graph'
   match '/notepad',     :to => 'pages#notepad'

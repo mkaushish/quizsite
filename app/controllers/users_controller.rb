@@ -5,10 +5,12 @@ class UsersController < ApplicationController
   end
 
   def show
-    @user = User.find(params[:id])
     @title = "Profile"
     @nav_selected = "profile"
-    @problemanswers = @user.problemanswers
+
+    @quizzes = current_user.quizzes
+    @shownquiz = @quizzes.first unless @quizzes.empty?
+    @problemanswers = current_user.problemanswers
   end
 
   private

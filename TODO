@@ -1,43 +1,34 @@
 Short Term
 ----------
-[ ] figure out how to get rounded-corners/graphite only defined in 1 place
+[ ] improve the sense of design of the website
+  [X] get a better name than PSCORE
+  [X] decide what we want people to see when they first visit
+  [ ] come up with 1 or 2 themed colors which we use consistently
+    [ ] apply these colors to highlight our apps and the things that make us better than competition
+  [ ] add a logo and decide where we think it should go
+[ ] add useful error messages to all forms with ajax:
+  [ ] quiz creation
+  [ ] problemanswer creation...?
+  [ ] signin
+[/] add quizzes to website
+  [ ] get a PSCORE calculation going (implement get_pscore in app helper)
+    [ ] base it on % history on that problem type
+    [ ] base it on time since a user has done those problems + number + weighted percentages
 [ ] _next_problem.js.erb now sets some things to "green" - work some global green
-[ ] add cricket questions to website (from QuestionGenerator)
-[ ] add some differentiation questions
-[ ] add a few basic stats to the profile page
+[ ] remove problem/index... it is no longer used for anything I think
 [ ] assessing whether fractions are equal in the correct method should use the rational class unless stated
 [ ] when you get problems like div_39 wrong, the "see explanation" and "more problems" links show up at the bottom of the page rather than right under the question
 [ ] add float equals method to allow similar answers rather than exact answers 
-[ ] prime factors question removes first element from solve
-[ ] multitextfied should allow answers in any order unless stated
-[ ] make drawtools nice
-  [ ] click on circle shape on right, and set radius in the box
+[/] make drawtools nice
   [ ] if no shapes are passed in we get several errors neither shapes nore state seems to get set
-  [X] poiLineCircle doesn't check for bounds properly
-  [X] poiLineCircle can't handle vertical lines, and has trouble on those that are close
-  [/] cycle through nearby points of interest when both are nearby (currently selects first one added)
-  [X] allow users to input circle radius before drawing
   [ ] add "undo last" button
-  [ ] use some sort of units besides pixels
-  [X] allow protractor to rotate
-  [/] put js somewhere useful
-  [x] put html into a partial
-  [x] add points of interest that the mouse automatically moves to
-  [x] put outline around app
-  [ ] improve text stuff
-    [ ] add coordinates into a standard place
-    [ ] make it so text doesn't block stuff if it doesn't need to 
-  [ ] add question API
-    [ ] add hidden form variable that gets set to the shapes variable
   [ ] give me some style baby
     [ ] image buttons that look like compass ruler etc
     [ ] improve ruler/line interface
-[ ] add default size for text field
+[ ] add default size option for text field
 [ ] make nicer button for add/remove multitext fields
-[ ] add team description page
 [ ] if an the correct answer is the response in one part of a multipart question, it should have class=correct
 [ ] fillfractions in C7 doesn't have the correct name in soln hash
-[ ] MultiTextField: add 2 fields and remove 2 doesn't seem to work
 [ ] view thinks all fractions are inputfields - only if they are text fields don't make them correct
 [ ] make explanations only keep showing once you get the right answer on the previous one
 [ ] display problems in reverse chronological order in profile
@@ -48,7 +39,7 @@ Short Term
 [ ] commas seem to not be preprocessed out, see writinginternational
 [ ] 7186110.to_international returns something and 17???
 [ ] disallow going back and redoing problems
-[ ] what should our starting page be for non-signed in? signed in?
+[ ] add some differentiation questions
 
 
 Long Term
@@ -56,12 +47,15 @@ Long Term
 [ ] select problems from prestocked group
 [ ] make the quiz store better (not marshal dump/load every request)
 [ ] add quiz model - track stats over each quiz, view past quizzes, etc
-[ ] track user statistics, and do stuff with them
+[ ] track user statistics, and do stuff with them ?
 [ ] Allow partial credit on problems
 [ ] remove require statements in rails - use autoload
 
 Completed
 ---------
+[X] what should our starting page be for non-signed in? signed in?
+[X] add cricket questions to website (from QuestionGenerator)
+[X] figure out how to get rounded-corners/graphite only defined in 1 place
 [X] research ajax for calculator/multiform input fields
 [X] remove the first few questions which are not working (writing numbers)
 [x] Get commits to heroku to work
@@ -90,3 +84,34 @@ Completed
   [X] Rajshree Sood: rajyashreesood@yahoo.com
   [X] Sandhya Saini: sandhyas@vasantvalley.org
   [X] Karan Bedi (no email)
+[/] make drawtools nice
+  [X] click on circle shape on right, and set radius in the box
+  [X] add question API
+    [X] add hidden form variable that gets set to the shapes variable
+  [X] poiLineCircle doesn't check for bounds properly
+  [X] poiLineCircle can't handle vertical lines, and has trouble on those that are close
+  [/] cycle through nearby points of interest when both are nearby (currently selects first one added)
+  [X] allow users to input circle radius before drawing
+  [X] allow protractor to rotate
+  [/] put js somewhere useful
+  [x] put html into a partial
+  [x] add points of interest that the mouse automatically moves to
+  [x] put outline around app
+  [/] use some sort of units besides pixels
+  [ ] improve text stuff
+    [ ] add coordinates into a standard place
+    [ ] make it so text doesn't block stuff if it doesn't need to 
+[X] add team description page
+[X] MultiTextField: add 2 fields and remove 2 doesn't seem to work
+[/] add quizzes to website
+  [X] change startquiz nav thing to a dropdown
+  [X] create quiz display partial
+  [X] add quiz model to database
+  [X] when you click startquiz it should use your current quiz
+  [X] add validations for quiz name
+  [X] implement destroy in quizzes controller
+  [X] implement edit/update in quizzes controller
+  [X] add splash page for people who don't yet have any quizzes
+[X] prime factors question removes first element from solve
+[X] multitextfied should allow answers in any order unless stated
+[x] add a few basic stats to the profile page
