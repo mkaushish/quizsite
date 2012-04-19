@@ -1,0 +1,45 @@
+#binding {
+  position:relative;
+  height:580px;
+  width:390px; 
+  #bind {
+    position:absolute;
+    left:20px;
+    width:350px;
+    height:55px;
+    background:url("binding.png") repeat-x;
+  }
+  #note {
+    border-style:solid;
+    border-width:1px;
+    //border-color:#0083ad;
+    border-color:gray;
+    position:absolute;
+    top:30px;
+    left:20px;
+    height:550px;
+    width:350px;
+    box-shadow: 3px 3px 3px #888888;
+    #notes {
+      border-color:#D3D3D3;
+      font:"Courier";
+    }
+    #notepad {
+      background-color:#FAFAD2;
+    }
+  }
+  #toolbar {
+    position:absolute;
+    height:550px;
+    border-style:solid;
+    border-color:gray;
+    border-width:1px;
+    width:20px;
+    top:30px;
+    left:0px;
+    .plug {
+      border-style:solid;
+      border-width:1px;
+    }
+  }
+}
