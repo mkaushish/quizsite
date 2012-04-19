@@ -141,20 +141,37 @@
 }
 
 // HOMEPAGE {{{
+
+ul.home { 
+  list-style-type: square;
+  font-size:1.2em;
+  padding:10px 0;
+  li {
+    padding:7px 0;
+  }
+}
+
+$slidecol: #444;
 #slideshow {
   position:relative;
   .slide {
+    display:none;
     position:absolute;
-    width:
     div {
       // description:
       height:100px;
+      //background-color:$slidecol;
     }
     img {
-      width:450px;
-      height:260px;
-      margin:0px;
+      //width:450px;
+      //height:260px;
+      display:block;
+      margin-left:auto;
+      margin-right:auto;
     }
+  }
+  .selected {
+    display:block;
   }
 }
 // }}}

@@ -35,10 +35,6 @@
   <div class="span3">
     <div class='well sidebar-nav'>
       <ul id='curquiz' class='nav nav-list'>
-        <li class='nav-header'>Selected Problems</li>
-        <% @chosen_probs.each do |problem| %>
-          <li class=quizelt><%= problem.to_s.split("::")[1] %></li>
-        <% end %>
       </ul>
     </div>
   </div>
@@ -46,5 +42,6 @@
 <script>
   $(function () {
     $('a[href="#<%= @chapter.to_s %>"]').tab('show');
-  })
+    setCurQuiz();
+  });
 </script>

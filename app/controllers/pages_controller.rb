@@ -7,7 +7,6 @@ class PagesController < ApplicationController
     else
       @fastnav = true
       @nav_selected = "home"
-      @jsonload = 'homeOnLoad("home");'
     end
   end
   def nologinhome
@@ -20,18 +19,6 @@ class PagesController < ApplicationController
     else
       @fastnav = true
       @nav_selected = "home"
-      @jsonload = 'homeOnLoad("home");'
-    end
-  end
-
-  def home
-    if signed_in?
-      @user = current_user;
-      @title = @user.name
-      @problemanswers = @user.problemanswers
-      render 'users/show'
-    else
-      @jsonload = 'startShow();'
     end
   end
 
@@ -39,7 +26,6 @@ class PagesController < ApplicationController
     @fastnav = true
     @title = "Features"
     @nav_selected = "features"
-    @jsonload = 'homeOnLoad("features");'
     render 'fasthome'
   end
 
@@ -47,7 +33,6 @@ class PagesController < ApplicationController
     @fastnav = true
     @title = "About Us"
     @nav_selected = "about"
-    @jsonload = 'homeOnLoad("about");'
     render 'fasthome'
   end
 
