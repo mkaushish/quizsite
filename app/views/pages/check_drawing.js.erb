@@ -1,10 +1,10 @@
 <% if @correct %>
-  $('.lastprobinfo div').addClass('correctex');
-  $('.lastprobinfo div').html("<%= escape_javascript(submit_tag("Check new problem", :class=>"btn-primary")) %> Good Job - you got it right!");
+  $('.lastgeoprob').addClass('correctex');
+  $('.lastgeoprob').html("<%= escape_javascript(submit_tag("Check new problem", :class=>"btn-primary")) %> Good Job - you got it right!");
   $('#problem_id').attr('value', '<%= @problem.id %>');
   $('#startshapes').attr('value', '<%= @newstartshapes %>');
   $('#clear').trigger('click');
 <% else %>
-  $('.lastprobinfo div').addClass('incorrectex');
-  $('.lastprobinfo div').html("<%= escape_javascript(submit_tag("Try again", :class=>"btn-primary")) %> Sorry, looks like you missed the last one" );
+  $('.lastgeoprob').addClass('incorrectex');
+  $('.lastgeoprob').html("<%= escape_javascript(submit_tag("Try again", :class=>"btn-primary")) %> Sorry, looks like you missed the last one" );
 <% end %>

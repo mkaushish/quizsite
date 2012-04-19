@@ -1,26 +1,24 @@
 <%= content_for :head do %>
   <%= javascript_include_tag "nondefault/drawtools" %>
 <% end %>
-<div class="row">
-  <div class="span8 offset2" id="tools">
-    <div id="protractor" >Protractor</div>
-    <div id="line" >Line</div>
-    <div id = "compass" class=selected>
-      <span>Compass</span>
-      <input type="checkbox" id="usecirclesize">
-      <input type="text" id="circlesize" placeholder="<- Click to use this radius">
-    </div>
-    <!-- button id="ruler">Ruler</button -->
-    <div id="clear" >Clear</div>
+<div class="row-fluid" id=tools>
+  <div id="protractor" >Protractor</div>
+  <div id="line" >Line</div>
+  <div id = "compass" class=selected>
+    <span>Compass</span>
+    <input type="checkbox" id="usecirclesize">
+    <input type="text" id="circlesize" placeholder="<- Click to use this radius">
   </div>
+  <!-- button id="ruler">Ruler</button -->
+  <div id="clear" >Clear</div>
 </div>
-<div class=row>
-  <div class=span7>
-    <canvas id="canvas" height="400" width="550" style="float:right;"> 
+<div class=row-fluid>
+  <div class=span10>
+    <canvas id="canvas" height="400" width="550"> 
     Your browser does not support the HTML5 Canvas feature. This app uses new HTML5 features and will only work on the latest versions of Firefox, Safari or Chrome (and maybe Internet Explorer 9).         
     </canvas>   
   </div>
-  <div class=span5 id="shapes"></div>
+  <div class=span2 id="shapes"></div>
 </div>
 <% shapes = geometryfield.encodedStartShapes %>
 <%= hidden_field_tag('startshapes', shapes)   %>

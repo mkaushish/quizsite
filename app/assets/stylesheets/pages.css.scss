@@ -106,6 +106,14 @@
   width:670px;
 }
 
+.lastgeoprob {
+  padding:10px;
+  @include rounded-corners(5px);
+  input {
+    display:block;
+    margin-bottom:10px;
+  }
+}
 .lastprobinfo {
   height:40px;
   width:450px;
@@ -173,5 +181,25 @@ $slidecol: #444;
   .selected {
     display:block;
   }
+}
+.slidebutton {
+  position:relative;
+  height:260px;
+  width:30px;
+  top:118px;
+  &:hover {
+    background-color:#eeefef;
+  }
+  img {
+    margin-top:100px;
+  }
+}
+
+#prevslide {
+  float:left;
+}
+
+#nextslide {
+  float:right;
 }
 // }}}

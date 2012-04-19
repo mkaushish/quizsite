@@ -47,7 +47,7 @@
 body {
   overflow:scroll;
   //color: #333333;
-  color: #678;
+  color: #567;
   background-color: #ffffff;
   //font-family: "Latine";
   font-family: "Sans";
@@ -241,6 +241,12 @@ input[type="submit"] {
 
 /* Common Classes {{{ */
 
+.center-image {
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+
 .small_logo {
   padding:3px;
 }
@@ -381,19 +387,5 @@ input.btn-blue {
 /* }}} */
 
 /* Less common ID's {{{ */
-
-#canvas {
-  border: 2px solid black;
-  float: left;
-  width: 550; 
-  height: 400;
-}
-
-#shapes {
-  margin-left: 10px;
-  float: left;
-  width: 240;
-  height: 400;
-}
 /* }}} */
 

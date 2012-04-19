@@ -1,10 +1,12 @@
-@mixin rounded-corners($radius) {
-	-moz-border-radius: $radius;
-	-webkit-border-radius: $radius;
-	border-radius: $radius; /* future proofing */
-	-khtml-border-radius: $radius; /* for old Konqueror browsers */
+@import 'mixins_n_colors';
+
+#canvas {
+  border: 2px solid black;
+  float: left;
+  width: 550; 
+  height: 400;
 }
-$graphite: #503214;
+
 #shapes {
   div {
     width:100px;
@@ -37,4 +39,3 @@ $graphite: #503214;
     color:white;
   }
 }
-

@@ -21,11 +21,9 @@
 
     <div class="span6">
       <div id=slideshow>
-        <div id="slideshownav">
-          <div id="slideNo" style="display:none">0</div>
-          <div id="slideTimer" style="display:none">6</div>
-          <div id="intervalID" style="display:none"></div>
-        </div>
+        <div id="slideNo" style="display:none">0</div>
+        <div id="slideTimer" style="display:none">6</div>
+        <div id="intervalID" style="display:none"></div>
 
         <div id=slides >
           <div class="slide well selected">
@@ -49,6 +47,13 @@
             </div>
             <%= image_tag "explaination_cricket.png" %>
           </div>
+        </div>
+
+        <div id=nextslide class=slidebutton>
+          <%= image_tag "nextarrow.png" %>
+        </div>
+        <div id=prevslide class=slidebutton>
+          <%= image_tag "prevarrow.png" %>
         </div>
       </div>
     </div>
