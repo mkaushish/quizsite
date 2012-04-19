@@ -187,6 +187,7 @@ $slidecol: #444;
   height:260px;
   width:30px;
   top:118px;
+  @include rounded-corners(4px);
   &:hover {
     background-color:#eeefef;
   }
