@@ -1,6 +1,7 @@
 Short Term
 ----------
 [ ] improve the sense of design of the website
+  [ ] seriously improve problemanswer/show css...
   [X] get a better name than PSCORE
   [X] decide what we want people to see when they first visit
   [ ] come up with 1 or 2 themed colors which we use consistently
@@ -11,11 +12,10 @@ Short Term
 [ ] add useful error messages to all forms with ajax:
   [ ] quiz creation
   [ ] problemanswer creation...?
-  [ ] signin
-[/] add quizzes to website
-  [ ] get a PSCORE calculation going (implement get_pscore in app helper)
-    [ ] base it on % history on that problem type
-    [ ] base it on time since a user has done those problems + number + weighted percentages
+  [X] signin
+[ ] get a PSCORE calculation going (implement get_pscore in app helper)
+  [ ] base it on % history on that problem type
+  [ ] base it on time since a user has done those problems + number + weighted percentages
 [ ] _next_problem.js.erb now sets some things to "green" - work some global green
 [ ] remove problem/index... it is no longer used for anything I think
 [ ] assessing whether fractions are equal in the correct method should use the rational class unless stated
