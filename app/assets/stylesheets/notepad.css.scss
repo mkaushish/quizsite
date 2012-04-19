@@ -22,24 +22,47 @@
     box-shadow: 3px 3px 3px #888888;
     #notes {
       border-color:#D3D3D3;
-      font:"Courier";
+      font-family:"Courier";
     }
     #notepad {
       background-color:#FAFAD2;
     }
   }
-  #toolbar {
+  #comt {
     position:absolute;
-    height:550px;
-    border-style:solid;
-    border-color:gray;
-    border-width:1px;
-    width:20px;
+    width:15px;
+    left:30px;
     top:30px;
+  }
+  #ltoolbar {
+    position:absolute;
+    top:80px;
     left:0px;
-    .plug {
+  }
+  #rtoolbar {
+    position:absolute;
+    top:160px;
+    left:370px;
+  }
+
+  .toolbar {
+    width:20px;
+    .tbicons {
+      height:18px;
+      i {
+        margin:2px 2px;
+      }
       border-style:solid;
       border-width:1px;
+    }
+    .tbreak {
+      width:20px;
+      height:20px;
+      background:black;
+    }
+    .placeholder {
+      width:20px;
+      height:20px;
     }
   }
 }
