@@ -1,7 +1,10 @@
 <div class="navbar navbar-fixed-top">
   <div class='navbar-inner'>
     <div class=container>
-      <%= image_tag "Logo_260_26.png", :class=>"brand" %>
+      <div class=brand>
+        <%= image_tag "Logo_260_26.png" %>
+      </div>
+
       <ul class=nav>
         <% if signed_in? %>
           <% if in_quiz? %>

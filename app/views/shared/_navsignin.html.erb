@@ -4,14 +4,19 @@
     <li><%= link_to "Sign Out", signout_path, :method => :delete %></li>
   </ul>
 <% else %>
-  <%= form_for(:session, {:url => sessions_path, :html => {:class => "mynavbar-form"}, :remote => true}) do |f| %>
-    <ul class="nav pull-right">
-      <li class=divider-vertical></li>
-      <li class=text id=userfield> <%= f.text_field :email, :placeholder=>"Email" %> </li>
-      <li class=text id=psswfield> <%= f.password_field :password, :placeholder => "Password" %> </li>
-      <li class=button ><%= f.submit "Sign in",  :class=>"btn-success" %>
-                        <%= f.submit "Register", :class=>"btn-primary", :disabled=>"true" %></li>
-    </ul>
-  <% end %>
+  <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+    <i class=icon-user></i> Sign In
+  </a>
+  <div class=nav-collapse>
+    <%= form_for(:session, {:url => sessions_path, :html => {:class => "mynavbar-form"}, :remote => true}) do |f| %>
+      <ul class="nav pull-right">
+        <li class=divider-vertical></li>
+        <li class=text id=userfield> <%= f.text_field :email, :placeholder=>"Email" %> </li>
+        <li class=text id=psswfield> <%= f.password_field :password, :placeholder => "Password" %> </li>
+        <li class=button ><%= f.submit "Sign in",  :class=>"btn-success" %>
+                          <%= f.submit "Register", :class=>"btn-primary", :disabled=>"true" %></li>
+      </ul>
+    <% end %>
+  </div>
   <% # TODO add signup link here? %>
 <% end %>
