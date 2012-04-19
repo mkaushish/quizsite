@@ -65,6 +65,11 @@ class PagesController < ApplicationController
     @title = "Graph"
     @nav_selected = "features"
   end
+  def notepad
+    @title = "Notepad"
+    @container_height = 750 
+    @nav_selected = "features"
+  end
 
   def draw
     @title = "Draw"
