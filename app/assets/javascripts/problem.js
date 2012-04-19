@@ -1,3 +1,12 @@
+function setCurQuiz() {
+  var quiz_s = "<li class='nav-header'>Current Quiz</li>";
+  $(':checkbox:checked').each(function() {
+    var problemname = $(this).attr("name").split("::")[1];
+    quiz_s = quiz_s + "<li>"+problemname+"</li>";
+  });
+  $('#curquiz').html(quiz_s);
+}
+
 $(document).ready(function () {
   $('.add_mt_field').unbind('click');
   $('.add_mt_field').bind('click', function() {
@@ -23,15 +32,6 @@ $(document).ready(function () {
       fields.last().remove();
     }
   });
-
-  function setCurQuiz() {
-    var quiz_s = "<li class='nav-header'>Current Quiz</li>";
-    $(':checkbox:checked').each(function() {
-      var problemname = $(this).attr("name").split("::")[1];
-      quiz_s = quiz_s + "<li>"+problemname+"</li>";
-    });
-    $('#curquiz').html(quiz_s);
-  }
 
   $('#clear-quiz').click(function() {
     $(':checkbox:checked').attr('checked', false);

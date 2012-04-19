@@ -1,12 +1,15 @@
-<div id=quizname>Quizname Quiz</div>
-<div id="quiz">
-  <div id="quizheader"><%= @problem.to_s %></div>
-  <% unless flash[:last_correct].nil? %>
-    <% if flash[:last_correct] %>
-      <div class="correct">You got the last one right!</div>
-    <% else %>
-      <div class="incorrect">You missed the last question. <%= link_to "See why", @last_prob %></div>
-    <% end %>
-  <% end %>
-  <%= render 'form' %>
+<div class=row-fluid>
+  <div class=span6>
+    <div class=well>
+      <div id="quizheader"><%= @problem.to_s %></div>
+      <% unless flash[:last_correct].nil? %>
+        <% if flash[:last_correct] %>
+          <div class="correct">You got the last one right!</div>
+        <% else %>
+          <div class="incorrect">You missed the last question. <%= link_to "See why", @last_prob %></div>
+        <% end %>
+      <% end %>
+      <%= render 'form' %>
+    </div>
+  </div>
 </div>

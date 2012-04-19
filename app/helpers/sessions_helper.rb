@@ -31,6 +31,7 @@
 # */
 
 module SessionsHelper
+  # USER RELATED
   def sign_in(user)
     cookies.permanent.signed[:remember_token] = [user.id, user.salt]
     self.current_user = user
@@ -57,12 +58,37 @@ module SessionsHelper
     redirect_to signin_path, :notice => "Please sign in to access this page"
   end
 
+  # USER QUIZ RELATED
+  def get_probs
+    return [] if session[:problems].nil?
+    session[:problems].map { |p| dec_prob(p) }
+  end
+
+  def set_probs(*probs)
+    myprobs = (probs[0].is_a? Array) ? probs[0] : probs
+    session[:problems] = myprobs.map { |p| enc_prob(p) }
+  end
+
   def set_quiz(quiz)
-    session[:quiz] = quiz.id
+    session[:quizid] = quiz.id
+    set_probs quiz.ptypes
+  end
+
+  def stop_quiz
+    session[:quizid] = nil
+    session[:problems] = []
+  end
+
+  def quiz_name
+    Quiz.find(session[:quizid]).name
   end
 
   def user_quizzes
     current_user.quizzes
+  end
+
+  def in_quiz?
+    return !session[:quizid].nil?
   end
 
   private

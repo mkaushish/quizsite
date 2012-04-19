@@ -1,32 +1,38 @@
 <div class="navbar navbar-fixed-top">
   <div class='navbar-inner'>
     <div class=container>
-      <%= link_to image_tag("Logo_260_26.png"), "#", :class=>"brand" %>
+      <%= image_tag "Logo_260_26.png", :class=>"brand" %>
       <ul class=nav>
         <% if signed_in? %>
-          <li><%= link_to "My Profile", user_path(current_user), :class => selected?("profile") %></li>
-          <li><%= link_to "Make Quiz",  new_quiz_path,           :class => selected?("makequiz") %></li>
-          <li class="dropdown <%= selected?("quiz") %>">
-          <%= link_to "Start Quiz", "#", :class => "dropdown-toggle", "data-toggle" => "dropdown" %>
-          <ul class="dropdown-menu nav-dropdown">
-            <% user_quizzes.each do |quiz| %>
-              <li><%= link_to(quiz.name, startquiz_path(:quizid => quiz.id)) %></li>
-            <% end %>
-          </ul>
-          </li>
-          <li><%= link_to "Sign Out",   signout_path, :method => :delete %></li>
+          <% if in_quiz? %>
+            <li><%= link_to "Stop Quiz", profile_path %></li>
+            <li class=active><%= link_to quiz_name, "#" %></li>
+          <% else %>
+            <li class=<%= selected?("profile")  %>><%= link_to "My Profile", profile_path  %></li>
+            <li class=<%= selected?("makequiz") %>><%= link_to "Make Quiz",  new_quiz_path %></li>
+            <li class="dropdown <%= selected?("quiz") %>">
+            <%= link_to "Start Quiz", "#", :class => "dropdown-toggle", "data-toggle" => "dropdown" %>
+            <ul class="dropdown-menu nav-dropdown">
+              <% user_quizzes.each do |quiz| %>
+                <li><%= link_to(quiz.name, startquiz_path(:quizid => quiz.id)) %></li>
+              <% end %>
+            </ul>
+            </li>
+          <% end %>
+
         <% elsif fastnav? %>
-          <li class=<%= selected?("home") %>><%= link_to "Home",     "#", :id=>'homelink'     %></li>
+          <li class=<%= selected?("home")     %>><%= link_to "Home",     "#", :id=>'homelink'     %></li>
           <li class=<%= selected?("features") %>><%= link_to "Features", "#", :id=>'featureslink' %></li>
-          <li class=<%= selected?("about") %>><%= link_to "About Us", "#", :id=>'aboutlink'    %></li>
-          <li class=<%= selected?("sigin") %>><%= link_to "Sign In",  "#", :id=>'signinlink'   %></li>
+          <li class=<%= selected?("about")    %>><%= link_to "About Us", "#", :id=>'aboutlink'    %></li>
+
         <% else %>
-          <li><%= link_to "Home",     home_path, :class => selected?("home") %></li>
-          <li><%= link_to "Features", features_path, :class => selected?("features") %></li>
-          <li><%= link_to "About Us", about_path, :class => selected?("about") %></li>
-          <li><%= link_to "Sign In",  signinpage_path, :class => selected?("signinpage") %></li>
+          <li class=<%= selected?("home")     %>><%= link_to "Home",     home_path,     %></li>
+          <li class=<%= selected?("features") %>><%= link_to "Features", features_path, %></li>
+          <li class=<%= selected?("about")    %>><%= link_to "About Us", about_path,    %></li>
         <% end %>
       </ul>
+
+      <%= render :partial=>'shared/navsignin' %>
     </div>
   </div>
 </div>

@@ -46,9 +46,14 @@
 /* Layout ID's {{{ */
 body {
   overflow:scroll;
-  color: #333333;
+  //color: #333333;
+  color: #678;
   background-color: #ffffff;
-  font-family: "Latine";
+  //font-family: "Latine";
+  font-family: "Sans";
+  //font-family: "Times New Roman";
+  font-size:16px;
+
   padding-top:80px;
   position:relative;
   margin:0;
@@ -56,6 +61,27 @@ body {
 
 .navbar .nav > li > a {
   padding:13px 10px 14px 10px;
+}
+
+.navbar .divider-vertical {
+  height:46px;
+}
+
+.mynavbar-form {
+  margin:0;
+  li {
+    margin: 9px 0 0 6px;
+  }
+  .text input {
+    width:170px;
+  }
+  .button input {
+    margin:1px 0 0 0;
+    width:60px;
+  }
+  input.invalid {
+    background-color:#f2dede;
+  }
 }
 
 #nav {
@@ -215,17 +241,6 @@ input[type="submit"] {
 
 /* Common Classes {{{ */
 
-.logo {
-  text-decoration: none;
-  display: block;
-  //font-family: "SketchRockwell";
-  font-family: "MySans";
-  border: 0;
-  padding: 4px;
-  margin-bottom:12px;
-  font-size: 2.5em;
-}
-
 .small_logo {
   padding:3px;
 }
@@ -238,10 +253,40 @@ input[type="submit"] {
 }
 
 .section-header {
-  border-bottom:2px solid black;
+  border-bottom:2px solid;
   font-size:1.25em;
   padding:5px 2px;
   margin-bottom:5px;
+}
+
+b.green {
+  font-weight:none;
+  color: $sgGreen;
+}
+
+input.btn-green {
+  background-color: $sgGreen;
+  background-image:none;
+}
+
+b.blue {
+  font-weight:none;
+  color: $sgBlue;
+}
+
+input.btn-blue {
+  background-color: $sgBlue;
+  background-image:none;
+}
+
+.logo {
+  text-decoration: none;
+  display: block;
+  //font-weight:bold;
+  //font-style:italic;
+  padding: 4px;
+  margin-bottom:12px;
+  font-size: 2em;
 }
 
 .explanation {

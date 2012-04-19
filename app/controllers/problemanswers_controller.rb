@@ -35,6 +35,10 @@ class ProblemanswersController < ApplicationController
   # GET /problemanswers/new
   # GET /problemanswers/new.json
   def new
+
+    $stderr.puts ":"*100
+    $stderr.puts session.inspect
+
     if !params[:quizid].nil?
       quiz = Quiz.find(params[:quizid])
       unless quiz.nil?
@@ -88,9 +92,9 @@ class ProblemanswersController < ApplicationController
     flash[:last_correct] = @problemanswer.correct
     flash[:last_id] = @problemanswer.id
 
-    $stderr.puts "\n\n#{"#"*30}\n#{@problem.text}"
-    $stderr.puts "#{@problem.prob.solve}"
-    $stderr.puts "params = #{params.inspect}\n#{"#"*30}\n"
+    #$stderr.puts "\n\n#{"#"*30}\n#{@problem.text}"
+    #$stderr.puts "#{@problem.prob.solve}"
+    #$stderr.puts "params = #{params.inspect}\n#{"#"*30}\n"
 
     if @problemanswer.save
       if @problemanswer.correct

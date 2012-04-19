@@ -5,6 +5,7 @@ class UsersController < ApplicationController
   end
 
   def show
+    stop_quiz
     @title = "Profile"
     @nav_selected = "profile"
 

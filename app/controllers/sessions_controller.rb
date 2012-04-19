@@ -7,21 +7,26 @@ class SessionsController < ApplicationController
     $stderr.puts("#{"FARTS"*10}\n#{params[:session][:email]}, #{params[:session][:password]}")
 
     user = nil
+    pssw = ""
     unless params[:email].nil?
-      user = User.authenticate(params[:email],
-                               params[:password])
+      user = User.find_by_email params[:email]
+      pssw = params[:password]
     else
-      user = User.authenticate(params[:session][:email],
-                               params[:session][:password])
+      user = User.find_by_email params[:session][:email]
+      pssw = params[:session][:password]
     end
 
     if user.nil?
-      flash.now[:error] = "Invalid email/password combination."
-      @title = "Sign in"
-      redirect_to signinpage_path
+      render :js => "$('#userfield input').addClass('invalid');" +
+                    "$('#psswfield input').addClass('invalid');" +
+                    "$('#userfield input').select()"
+    elsif !user.has_password? pssw
+      render :js => "$('#userfield input').removeClass('invalid');" +
+                    "$('#psswfield input').addClass('invalid');" +
+                    "$('#psswfield input').select()"
     else
       sign_in user
-      redirect_to user
+      render :js => "window.location = '/profile'"
     end
   end
 

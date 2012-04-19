@@ -14,14 +14,3 @@
   padding:10px;
   font-size: 1.3em;
 }
-
-#quiz {
-  background-color:white;
-  padding:10px;
-  width:450px;
-  border: 2px solid $graphite;
-  @include rounded-corners(5px);
-  form {
-    padding:10px;
-  }
-}
