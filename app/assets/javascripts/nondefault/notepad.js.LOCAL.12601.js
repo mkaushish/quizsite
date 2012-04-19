@@ -39,7 +39,7 @@ $(function() {
              this.createpage();
            },
     drawlines : function(){
-                  context.strokeStyle="#0083ad";
+                  context.strokeStyle="blue";
                   drawLine(this.margin-2, 0, this.margin-2, canvas.height);
                   drawLine(this.margin, 0, this.margin, canvas.height);
                   for(i=this.upper; i<canvas.height; i+=this.lheight){
@@ -51,7 +51,6 @@ $(function() {
                     $('#prev').hide();
                   }
                   else { $('#prev').show();}
-                  var binding=new Image();
                   context.fillText(""+(this.curpage+1), canvas.width-10, canvas.height-5);
                 },
     createpage : function(){
@@ -126,18 +125,17 @@ $(function() {
                for(i=0; i<lt-n1.length; i++){
                  space+=" ";
                }
-             notepad.addline(" "+space+n1);
+             notepad.addline("  "+space+n1);
              space=""
                for(i=0; i<lt-n2.length; i++){
                  space+=" ";
                }
-             notepad.addline(sign+""+space+n2);
+             notepad.addline(sign+" "+space+n2);
              space=""
                for(i=0; i<lt-tot.length; i++){
                  space+=" ";
                }
-             drawLine(notepad.margin+2, notepad.upper+notepad.notes[notepad.curpage].length*notepad.lheight, notepad.margin+2+10*(1+tot.length+space.length),notepad.upper+ notepad.notes[notepad.curpage].length*notepad.lheight);
-             notepad.addline(" "+space+tot);
+             notepad.addline("= "+space+tot);
              $('#addtable').remove();
              $('#notes').show();
              $('#notes').attr("style", "background-color:transparent; position:absolute; left:"+(notepad.margin+5)+"px; top:"+(notepad.upper+notepad.lheight*(notepad.notes[notepad.curpage].length))+"px; width:"+(canvas.width-notepad.margin-10)+"px");
@@ -237,7 +235,6 @@ $(function() {
                     tot+=" ";
                   }
                 notepad.addline("x "+tot+n2);
-                drawLine(notepad.margin+2, notepad.upper+notepad.notes[notepad.curpage].length*notepad.lheight, notepad.margin+2+10*(2+tot.length),notepad.upper+ notepad.notes[notepad.curpage].length*notepad.lheight);
                 tot=""
                   for(var i=0; i<lt-1; i++){
                     tot+=$("#in_0_"+i).attr("value");
@@ -265,13 +262,12 @@ $(function() {
                     for(i=0; i<lt-n1.length; i++){
                       tot+=" ";
                     }
-                    notepad.addline(" "+tot+n1);
+                    notepad.addline("  "+tot+n1);
                     tot=""
                   for(i=0; i<lt-n2.length; i++){
                     tot+=" ";
                   }
-                notepad.addline("x"+tot+n2);
-                drawLine(notepad.margin+2, notepad.upper+notepad.notes[notepad.curpage].length*notepad.lheight, notepad.margin+2+10*(tot.length+n2.length+1),notepad.upper+ notepad.notes[notepad.curpage].length*notepad.lheight);
+                notepad.addline("x "+tot+n2);
                 tot=""
                   for(var j=0; j<n2.length; j++){
                     tot="";
@@ -282,11 +278,10 @@ $(function() {
                     for (i=0; i<lt-tot.length; i++){
                       space+=" ";
                     }
-                    if (j==0) {tot=" "+space+tot;}
-                    else {tot="+"+space+tot;}
+                    if (j==0) {tot="= "+space+tot;}
+                    else {tot="+ "+space+tot;}
                     notepad.addline(tot);
                   }
-                drawLine(notepad.margin+2, notepad.upper+notepad.notes[notepad.curpage].length*notepad.lheight, notepad.margin+2+10*(tot.length),notepad.upper+ notepad.notes[notepad.curpage].length*notepad.lheight);
                 tot="";
                 for(var i=0; i<lt; i++){
                   tot+=$("#in"+i).attr("value");
@@ -295,7 +290,7 @@ $(function() {
                 for(var i=0; i<lt-tot.length; i++){
                   space+=" ";
                 }
-                notepad.addline(" "+space+tot);
+                notepad.addline("= "+space+tot);
                 $('#addtable').remove();
                 $('#notes').show();
                 $('#notes').attr("style", "background-color:transparent; position:absolute; left:"+(notepad.margin+5)+"px; top:"+(notepad.upper+notepad.lheight*(notepad.notes[notepad.curpage].length))+"px; width:"+(canvas.width-notepad.margin-10)+"px");
@@ -392,7 +387,40 @@ $(function() {
   }
   notepad.npad();
   $('#notes').focus();
+  $('#notes').keypress(function(e){
+    if (e.keyCode==13){
+      notepad.addline($('#notes').attr("value"));
+      $('#notes').attr("style", "background-color:transparent; position:absolute; left:"+(notepad.margin+5)+"px; top:"+(notepad.upper+notepad.lheight*(notepad.notes[notepad.curpage].length))+"px; width:"+(canvas.width-notepad.margin-10)+"px");
+      $('#notes').attr("value","");
+      //alert($('#notes').attr("style"));
+    }
+  });
+  function drawLine(x1,y1, x2, y2) {
+    context.beginPath();
+    context.moveTo(x1,y1);
+    context.lineTo(x2, y2);
+    context.stroke();
+    context.closePath();
+  }
+  $('#prev').click(function(e){
+    notepad.nppage(-1);
+  });
 
+  $('.turn').mouseover(function(e){
+    $(this).css("background-color", "yellow");
+  });
+  $('.turn').mouseleave(function(e){
+    $(this).css("background-color", "transparent");
+  });
+  $('.plug').mouseover(function(e){
+    $(this).css("background-color", "red");
+  });
+  $('.plug').mouseleave(function(e){
+    $(this).css("background-color", "transparent");
+  });
+  $('#next').click(function(e){
+    notepad.nppage(1);
+  });
 
   $('#notepad').mousedown(function (e) { 
     // downx and y have many uses
@@ -415,48 +443,6 @@ $(function() {
       curdraw=true;
     }
     mousedown=true;
-  });
-  $('#notepad').mouseup(function (e) { 
-    mousedown=false;
-    drawing=false;
-    curdraw=false;
-    $('#note').css('cursor','default'); 
-    $('#notes').focus();
-  });
-  $('#notepad').scroll(function (e) { 
-
-  });
-  $('#notepad').mousemove(function (e) { 
-    // mousex and mousey are used for many things, and therefore need to be in the
-    // global scope.
-    var offset = $('#notepad').offset();
-    var offsetx = Math.round(offset.left);
-    var offsety = Math.round(offset.top);
-
-    mousex = e.pageX - offsetx; // - offset.left;
-    mousey = e.pageY - offsety; // - offset.top;
-    if(curdraw && mousey < canvas.height-20 && mousex > 50 && mousey > 50){
-      drawing=true;
-      context.lineWidth=2;
-      cpa=notepad.pixarr[notepad.curpage];
-      drawLine(cpa[cpa.length-1][cpa[cpa.length-1].length-1][0], cpa[cpa.length-1][cpa[cpa.length-1].length-1][1], mousex,mousey);
-      notepad.pixarr[notepad.curpage][notepad.pixarr[notepad.curpage].length-1].push([mousex, mousey]);
-      context.lineWidth=1;
-    }
-  });
-  $('#notepad').dblclick(function(e){
-    if(notepad.notes.length-1!=notepad.curpage && downy > notepad.upper && !drawing && downx<notepad.margin){
-      var cline=Math.floor((downy-notepad.upper)/notepad.lheight);
-      notepad.comm(cline);
-    }
-  });
-  $('#notes').keypress(function(e){
-    if (e.keyCode==13){
-      notepad.addline($('#notes').attr("value"));
-      $('#notes').attr("style", "background-color:transparent; position:absolute; left:"+(notepad.margin+5)+"px; top:"+(notepad.upper+notepad.lheight*(notepad.notes[notepad.curpage].length))+"px; width:"+(canvas.width-notepad.margin-10)+"px");
-      $('#notes').attr("value","");
-      //alert($('#notes').attr("style"));
-    }
   });
 
   $('#add').click(function(){
@@ -527,30 +513,38 @@ $(function() {
       $("#num2lab").remove();
     }
   });
-  $('#prev').click(function(e){
-    notepad.nppage(-1);
+  $('#notepad').dblclick(function(e){
+    if(notepad.notes.length-1!=notepad.curpage && downy > notepad.upper && !drawing && downx<notepad.margin){
+      var cline=Math.floor((downy-notepad.upper)/notepad.lheight);
+      notepad.comm(cline);
+    }
   });
+  $('#notepad').mouseup(function (e) { 
+    mousedown=false;
+    drawing=false;
+    curdraw=false;
+    $('#note').css('cursor','default'); 
+    $('#notes').focus();
+  });
+  $('#notepad').scroll(function (e) { 
 
-  $('#next').click(function(e){
-    notepad.nppage(1);
   });
-  $('.plug').mouseenter(function(e){
-    $(this).addClass("plughl");
+  $('#notepad').mousemove(function (e) { 
+    // mousex and mousey are used for many things, and therefore need to be in the
+    // global scope.
+    var offset = $('#notepad').offset();
+    var offsetx = Math.round(offset.left);
+    var offsety = Math.round(offset.top);
+
+    mousex = e.pageX - offsetx; // - offset.left;
+    mousey = e.pageY - offsety; // - offset.top;
+    if(curdraw && mousey < canvas.height-20 && mousex > 50 && mousey > 50){
+      drawing=true;
+      context.lineWidth=2;
+      cpa=notepad.pixarr[notepad.curpage];
+      drawLine(cpa[cpa.length-1][cpa[cpa.length-1].length-1][0], cpa[cpa.length-1][cpa[cpa.length-1].length-1][1], mousex,mousey);
+      notepad.pixarr[notepad.curpage][notepad.pixarr[notepad.curpage].length-1].push([mousex, mousey]);
+      context.lineWidth=1;
+    }
   });
-  $('.plug').mouseenter(function(e){
-    $(this).removeClass("plughl");
-  });
-  $('.turn').mouseenter(function(e){
-    $(this).addClass("turnhl");
-  });
-  $('.turn').mouseenter(function(e){
-    $(this).removeClass("turnhl");
-  });
-  function drawLine(x1,y1, x2, y2) {
-    context.beginPath();
-    context.moveTo(x1,y1);
-    context.lineTo(x2, y2);
-    context.stroke();
-    context.closePath();
-  }
 });

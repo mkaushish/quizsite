@@ -393,7 +393,6 @@ $(function() {
   notepad.npad();
   $('#notes').focus();
 
-
   $('#notepad').mousedown(function (e) { 
     // downx and y have many uses
     downx = mousex;

@@ -67,6 +67,10 @@ class PagesController < ApplicationController
   end
   def notepad
     @title = "Notepad"
+<<<<<<< HEAD
+    @container_height = 750 
+=======
+>>>>>>> updating-look
     @nav_selected = "features"
   end
 
