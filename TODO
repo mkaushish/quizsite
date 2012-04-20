@@ -16,6 +16,13 @@ Short Term
 [ ] get a PSCORE calculation going (implement get_pscore in app helper)
   [ ] base it on % history on that problem type
   [ ] base it on time since a user has done those problems + number + weighted percentages
+[ ] Improve problem displays
+  [ ] instead of just type, I envision 3 descriptions:
+    [ ] short - should be restricted in length to fint in problem history
+    [ ] med   - for the pscore display and choosing questions - when we have a little more space
+    [ ] long  - somewhat in depth explanation that you get if you hover over the question
+  [ ] decide on limits for above
+  [ ] add tests ensuring each question class conforms to the limits
 [ ] _next_problem.js.erb now sets some things to "green" - work some global green
 [ ] remove problem/index... it is no longer used for anything I think
 [ ] assessing whether fractions are equal in the correct method should use the rational class unless stated
