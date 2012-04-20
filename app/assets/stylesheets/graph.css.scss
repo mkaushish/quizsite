@@ -5,15 +5,44 @@
 	border-radius: $radius; /* future proofing */
 	-khtml-border-radius: $radius; /* for old Konqueror browsers */
 }
-#curves {
-  float:left;
-  div {
-    width:100px;
-    padding:2px;
-    margin:5px;
-    text-align:center;
-    font-style:italic;
-    @include rounded-corners(10px);
+#cont {
+  width:720px;
+  height:550px;
+  #inp {
+    width:150px;
+    float:left;
+    label {
+      margin-top:4px;
+      padding-left:10px;
+      float:left;
+    }
+    #circlesize {
+      margin-left:10px;
+      float:left;
+      width:100px;
+    }
+  } 
+  #curves {
+    width:168px;
+    height:515px;
+    float:left;
+    .shape {
+      float:left;
+      width:130px;
+      padding:2px;
+      margin:5px;
+      margin-left:8px;
+      text-align:center;
+      color:white;
+      font-family:Courier;
+      font-size:12px;
+      @include rounded-corners(10px);
+
+      i {
+        float:right;
+        //  margin-top:2px;
+      }
+    }
   }
 }
 #commands {
