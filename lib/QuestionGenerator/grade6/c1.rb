@@ -10,7 +10,9 @@ include ToHTML
 module Chapter1
   class FindMaxNumber < QuestionBase
     attr_accessor :nums
-    @type = "Maximum Number"
+    def self.type
+      "Maximum Num"
+    end
 
     def initialize()
       num_nums = rand(3) + 3 # between 3 and 5
@@ -31,7 +33,9 @@ module Chapter1
 
   class FindMinNumber < QuestionBase
     attr_accessor :nums
-    @type = "Minimum Number"
+    def self.type
+      "Minimum Num"
+    end
 
     def initialize()
       num_nums = rand(3) + 3 # between 3 and 5
@@ -52,7 +56,9 @@ module Chapter1
 
   class ArrangeAscending < QuestionBase
     attr_accessor :nums
-    @type = "Order Numbers"
+    def self.type
+      "Order Nums"
+    end
 
     def initialize()
       num_nums = rand(3) + 3 # between 3 and 5
@@ -68,10 +74,12 @@ module Chapter1
       "Put the numbers in descending order:\n#{@nums.join("\t")}"
     end
   end
-    
+
   class ArrangeDescending < QuestionBase
     attr_accessor :nums
-    @type = "Order Numbers"
+    def self.type
+      "Order Nums"
+    end
 
     def initialize()
       num_nums = rand(3) + 3 # between 3 and 5
@@ -90,14 +98,16 @@ module Chapter1
 
   class WritingIndian < QuestionBase
     attr_accessor :num
-    @type = "Writing Numbers (Indian)"
+    def self.type
+      "Writing Nums (I)"
+    end
 
     def initialize
       @num = Grade6ops::rand_num
     end
 
     def preprocess(name, response)
-        super(name, response.gsub(/\s+and\s+/, " "))
+      super(name, response.gsub(/\s+and\s+/, " "))
     end
 
     def solve
@@ -113,7 +123,9 @@ module Chapter1
 
   class WritingInternational < QuestionBase
     attr_accessor :num
-    @type = "Writing Numbers (International)"
+    def self.type
+      "Writing Nums"
+    end
 
     def initialize
       @num = Grade6ops::rand_num
@@ -129,14 +141,16 @@ module Chapter1
 
     def text
       [ TextLabel.new("Suitably write the name of this number according to the International System of Numeration:"),
-         TextField.new("ans", @num)
+        TextField.new("ans", @num)
       ]
     end
   end
 
   class AddCommasIndian < QuestionBase
     attr_accessor :num
-    @type = "Adding Commas (Indian)"
+    def self.type
+      "Adding Commas (I)"
+    end
 
     def initialize
       @num = Grade6ops::rand_num
@@ -155,7 +169,9 @@ module Chapter1
 
   class AddCommasInternational < QuestionBase
     attr_accessor :num
-    @type = "Adding Commas (International)"
+    def self.type
+      "Adding Commas"
+    end
 
     def initialize
       @num = Grade6ops::rand_num
@@ -174,7 +190,9 @@ module Chapter1
 
   class ReadingInternational < QuestionBase
     attr_accessor :num
-    @type = "Reading Numbers (International)"
+    def self.type
+      "Reading Nums"
+    end
 
     def initialize
       @num = Grade6ops::rand_num
@@ -193,7 +211,9 @@ module Chapter1
 
   class ReadingIndian < QuestionBase
     attr_accessor :num
-    @type = "Reading Numbers (Indian)"
+    def self.type
+      "Reading Nums (I)"
+    end
 
     def initialize
       @num = Grade6ops::rand_num
@@ -212,7 +232,9 @@ module Chapter1
 
   class EstimateArithmetic < QuestionWithExplanation
     attr_accessor :op, :n1, :n2
-    @type = "Estimating with the General Rule"
+    def self.type
+      "Gen Rule Est"
+    end
 
     def bigger
       (@n1 > @n2) ? n1 : n2
@@ -258,18 +280,18 @@ module Chapter1
       return [ 
         Subproblem.new( [ TextLabel.new("First pick the smallest number, because we need to round off to the most significant digit of " + 
                                         "the smaller number"),
-                          RadioButton.new("small", @n1, @n2)
-                        ], {"small" => smaller}),
+                                        RadioButton.new("small", @n1, @n2)
+      ], {"small" => smaller}),
         Subproblem.new(  [ TextLabel.new("Now round off #{small} according to the general rule for rounding"),
-                          TextField.new("small_round")
-                        ], {"small_round" => smaller.gen_rule}),
+                       TextField.new("small_round")
+      ], {"small_round" => smaller.gen_rule}),
         Subproblem.new( [ TextLabel.new("Because #{small} is #{small.to_s.length} digits long, we need to round off the last " +
                                         "#{small.to_s.length - 1} digits of #{big}.  This gives us"),
-                          TextField.new("big_round")
-                        ], {"big_round" => bigger.round(small.to_s.length - 1)} ),
+                                        TextField.new("big_round")
+      ], {"big_round" => bigger.round(small.to_s.length - 1)} ),
         Subproblem.new( [ TextLabel.new("Finally, we can calculate the answer:"),
-                          TextField.new("solution", "#{big_round} #{@op} #{small_round} = ")
-                        ], {"solution" => solution} )
+                       TextField.new("solution", "#{big_round} #{@op} #{small_round} = ")
+      ], {"solution" => solution} )
       ]
     end
 
@@ -284,7 +306,9 @@ module Chapter1
 
   class ToRoman < QuestionBase
     attr_accessor :num
-    @type = "Converting To Roman Numerals"
+    def self.type
+      "To Roman Nums"
+    end
 
     def initialize
       @num=rand(Grade6ops::MAX_ROMANNUM - Grade6ops::MIN_ROMANNUM) + Grade6ops::MIN_ROMANNUM
@@ -301,7 +325,9 @@ module Chapter1
 
   class ToArabic < QuestionBase
     attr_accessor :num
-    @type = "Converting To Arabic Numerals"
+    def self.type
+      "To Arabic Nums"
+    end
 
     def initialize
       @num=rand(Grade6ops::MAX_ROMANNUM - Grade6ops::MIN_ROMANNUM) + Grade6ops::MIN_ROMANNUM

@@ -1,7 +1,7 @@
 <div class='well sidebar-nav'>
   <ul class='nav nav-list'>
     <li class='nav-header'>Problem History</li>
-    <% @problemanswers.each do |problemanswer| %>
+    <% @problemanswers.reverse_each do |problemanswer| %>
       <li>
         <% if problemanswer.correct %>
           <%= link_to raw("<i class='icon-ok'></i> #{problemanswer.problem.to_s}"), problemanswer %>

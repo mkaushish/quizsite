@@ -27,15 +27,10 @@ class QuestionBase
     raise "text must be defined in any class that extends QuestionBase"
   end
 
-  # Returns a string which will be displayed as the problem type.
-  # You don't actually need to override this method: you can also just set the @type variable
-  # removed, so you MUST override this method
+  # Returns the shortest description of the problem type, which will be displayed in areas such as
+  # the problem history.  PLEASE override this
   def self.type
-    if @@type.nil? 
-      return to_s.split("::")[1] 
-    else
-      return @@type
-    end
+    return to_s.split("::")[1] 
   end
 
   #############################################################
