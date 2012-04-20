@@ -39,7 +39,11 @@ $(function() {
              this.createpage();
            },
     drawlines : function(){
+<<<<<<< HEAD
+                  context.strokeStyle="blue";
+=======
                   context.strokeStyle="#0083ad";
+>>>>>>> updating-look
                   drawLine(this.margin-2, 0, this.margin-2, canvas.height);
                   drawLine(this.margin, 0, this.margin, canvas.height);
                   for(i=this.upper; i<canvas.height; i+=this.lheight){
@@ -48,9 +52,13 @@ $(function() {
                   context.strokeStyle="black";
                   context.font="9pt Calibri";
                   if(this.curpage==0){
-                    $('.prev').hide();
+                    $('#prev').hide();
                   }
-                  else { $('.prev').show();}
+                  else { $('#prev').show();}
+<<<<<<< HEAD
+=======
+                  var binding=new Image();
+>>>>>>> updating-look
                   context.fillText(""+(this.curpage+1), canvas.width-10, canvas.height-5);
                 },
     createpage : function(){
@@ -65,7 +73,7 @@ $(function() {
                    this.notes[this.curpage]=new Array();
                    this.com[this.curpage]=new Array();
                    this.pixarr[this.curpage]=new Array();
-                   $('#notes').attr("style", "background-color:transparent; position:absolute; left:"+(this.margin+5)+"px; top:"+(this.upper)+"px; width:"+(canvas.width-this.margin-20)+"px");
+                   $('#notes').attr("style", "background-color:transparent; position:absolute; left:"+(this.margin+5)+"px; top:"+(this.upper)+"px; width:"+(canvas.width-this.margin-10)+"px");
                    $('#notes').focus();
                  },
     addline : function(line){
@@ -125,21 +133,33 @@ $(function() {
                for(i=0; i<lt-n1.length; i++){
                  space+=" ";
                }
+<<<<<<< HEAD
+             notepad.addline("  "+space+n1);
+=======
              notepad.addline(" "+space+n1);
+>>>>>>> updating-look
              space=""
                for(i=0; i<lt-n2.length; i++){
                  space+=" ";
                }
+<<<<<<< HEAD
+             notepad.addline(sign+" "+space+n2);
+=======
              notepad.addline(sign+""+space+n2);
+>>>>>>> updating-look
              space=""
                for(i=0; i<lt-tot.length; i++){
                  space+=" ";
                }
+<<<<<<< HEAD
+             notepad.addline("= "+space+tot);
+=======
              drawLine(notepad.margin+2, notepad.upper+notepad.notes[notepad.curpage].length*notepad.lheight, notepad.margin+2+10*(1+tot.length+space.length),notepad.upper+ notepad.notes[notepad.curpage].length*notepad.lheight);
              notepad.addline(" "+space+tot);
+>>>>>>> updating-look
              $('#addtable').remove();
              $('#notes').show();
-             $('#notes').attr("style", "background-color:transparent; position:absolute; left:"+(notepad.margin+5)+"px; top:"+(notepad.upper+notepad.lheight*(notepad.notes[notepad.curpage].length))+"px; width:"+(canvas.width-notepad.margin-20)+"px");
+             $('#notes').attr("style", "background-color:transparent; position:absolute; left:"+(notepad.margin+5)+"px; top:"+(notepad.upper+notepad.lheight*(notepad.notes[notepad.curpage].length))+"px; width:"+(canvas.width-notepad.margin-10)+"px");
              $('#notes').attr("value","");
              $('#notes').focus();
              if (sign=="+"){
@@ -236,7 +256,10 @@ $(function() {
                     tot+=" ";
                   }
                 notepad.addline("x "+tot+n2);
+<<<<<<< HEAD
+=======
                 drawLine(notepad.margin+2, notepad.upper+notepad.notes[notepad.curpage].length*notepad.lheight, notepad.margin+2+10*(2+tot.length),notepad.upper+ notepad.notes[notepad.curpage].length*notepad.lheight);
+>>>>>>> updating-look
                 tot=""
                   for(var i=0; i<lt-1; i++){
                     tot+=$("#in_0_"+i).attr("value");
@@ -248,7 +271,7 @@ $(function() {
                 notepad.addline("= "+space+tot);
                 $('#addtable').remove();
                 $('#notes').show();
-                $('#notes').attr("style", "background-color:transparent; position:absolute; left:"+(notepad.margin+5)+"px; top:"+(notepad.upper+notepad.lheight*(notepad.notes[notepad.curpage].length))+"px; width:"+(canvas.width-notepad.margin-20)+"px");
+                $('#notes').attr("style", "background-color:transparent; position:absolute; left:"+(notepad.margin+5)+"px; top:"+(notepad.upper+notepad.lheight*(notepad.notes[notepad.curpage].length))+"px; width:"+(canvas.width-notepad.margin-10)+"px");
                 $('#notes').attr("value","");
                 $('#notes').focus();
                 multiplying=false;
@@ -264,13 +287,21 @@ $(function() {
                     for(i=0; i<lt-n1.length; i++){
                       tot+=" ";
                     }
+<<<<<<< HEAD
+                    notepad.addline("  "+tot+n1);
+=======
                     notepad.addline(" "+tot+n1);
+>>>>>>> updating-look
                     tot=""
                   for(i=0; i<lt-n2.length; i++){
                     tot+=" ";
                   }
+<<<<<<< HEAD
+                notepad.addline("x "+tot+n2);
+=======
                 notepad.addline("x"+tot+n2);
                 drawLine(notepad.margin+2, notepad.upper+notepad.notes[notepad.curpage].length*notepad.lheight, notepad.margin+2+10*(tot.length+n2.length+1),notepad.upper+ notepad.notes[notepad.curpage].length*notepad.lheight);
+>>>>>>> updating-look
                 tot=""
                   for(var j=0; j<n2.length; j++){
                     tot="";
@@ -281,11 +312,18 @@ $(function() {
                     for (i=0; i<lt-tot.length; i++){
                       space+=" ";
                     }
+<<<<<<< HEAD
+                    if (j==0) {tot="= "+space+tot;}
+                    else {tot="+ "+space+tot;}
+                    notepad.addline(tot);
+                  }
+=======
                     if (j==0) {tot=" "+space+tot;}
                     else {tot="+"+space+tot;}
                     notepad.addline(tot);
                   }
                 drawLine(notepad.margin+2, notepad.upper+notepad.notes[notepad.curpage].length*notepad.lheight, notepad.margin+2+10*(tot.length),notepad.upper+ notepad.notes[notepad.curpage].length*notepad.lheight);
+>>>>>>> updating-look
                 tot="";
                 for(var i=0; i<lt; i++){
                   tot+=$("#in"+i).attr("value");
@@ -294,10 +332,14 @@ $(function() {
                 for(var i=0; i<lt-tot.length; i++){
                   space+=" ";
                 }
+<<<<<<< HEAD
+                notepad.addline("= "+space+tot);
+=======
                 notepad.addline(" "+space+tot);
+>>>>>>> updating-look
                 $('#addtable').remove();
                 $('#notes').show();
-                $('#notes').attr("style", "background-color:transparent; position:absolute; left:"+(notepad.margin+5)+"px; top:"+(notepad.upper+notepad.lheight*(notepad.notes[notepad.curpage].length))+"px; width:"+(canvas.width-notepad.margin-20)+"px");
+                $('#notes').attr("style", "background-color:transparent; position:absolute; left:"+(notepad.margin+5)+"px; top:"+(notepad.upper+notepad.lheight*(notepad.notes[notepad.curpage].length))+"px; width:"+(canvas.width-notepad.margin-10)+"px");
                 $('#notes').attr("value","");
                 $('#notes').focus();
                 multiplying=false;
@@ -337,17 +379,13 @@ $(function() {
                if(this.notes[this.curpage+next]!=null && this.curpage+next!=this.notes.length-1){
                  $('#notes').hide();
                  $('.plug').hide();
-                 $('.tbreak').hide();
-                 $('.placeholder').show();
                }
                else if(this.curpage+next==this.notes.length-1){
                  $('#notes').show(); 
                  $('.plug').show(); 
-                 $('.tbreak').show();
-                 $('.placeholder').hide();
+
                }
                if(this.curpage+next >0){
-                 $(".cmt"+this.curpage).hide();
                  if(asmd){
                    $('#num1').attr("value", "");
                    $('#num2').attr("value", "");
@@ -383,7 +421,11 @@ $(function() {
                      drawLine(this.pixarr[this.curpage][i][j-1][0], this.pixarr[this.curpage][i][j-1][1], this.pixarr[this.curpage][i][j][0], this.pixarr[this.curpage][i][j][1]);   
                    }
                  } 
-                 $(".cmt"+this.curpage).show();
+                 for(var i=0; i<this.com[this.curpage].length; i++){
+                   if(this.com[this.curpage][i]!=null && this.com[this.curpage][i]!=""){
+                     context.fillRect(this.margin-10,i*this.lheight+this.upper+8,5,5);
+                   }
+                 }
                  context.lineWidth=1;
                  $('#notes').focus();
                }
@@ -391,23 +433,53 @@ $(function() {
   }
   notepad.npad();
   $('#notes').focus();
+<<<<<<< HEAD
+  $('#notes').keypress(function(e){
+    if (e.keyCode==13){
+      notepad.addline($('#notes').attr("value"));
+      $('#notes').attr("style", "background-color:transparent; position:absolute; left:"+(notepad.margin+5)+"px; top:"+(notepad.upper+notepad.lheight*(notepad.notes[notepad.curpage].length))+"px; width:"+(canvas.width-notepad.margin-10)+"px");
+      $('#notes').attr("value","");
+      //alert($('#notes').attr("style"));
+    }
+  });
+  function drawLine(x1,y1, x2, y2) {
+    context.beginPath();
+    context.moveTo(x1,y1);
+    context.lineTo(x2, y2);
+    context.stroke();
+    context.closePath();
+  }
+  $('#prev').click(function(e){
+    notepad.nppage(-1);
+  });
 
+  $('.turn').mouseover(function(e){
+    $(this).css("background-color", "yellow");
+  });
+  $('.turn').mouseleave(function(e){
+    $(this).css("background-color", "transparent");
+  });
+  $('.plug').mouseover(function(e){
+    $(this).css("background-color", "red");
+  });
+  $('.plug').mouseleave(function(e){
+    $(this).css("background-color", "transparent");
+  });
+  $('#next').click(function(e){
+    notepad.nppage(1);
+  });
+=======
+>>>>>>> updating-look
 
   $('#notepad').mousedown(function (e) { 
     // downx and y have many uses
     downx = mousex;
     downy = mousey;
     if(commenting){
-      $("#cmt_"+notepad.curpage+"_"+notepad.cline).remove();
+      context.clearRect(notepad.margin-10,notepad.cline*notepad.lheight+notepad.upper+8,5,5);
       notepad.com[notepad.curpage][notepad.cline]=$('#comment').attr("value");
       if($('#comment').attr("value")!=""){
-        var htm="<div class=cmt"+notepad.curpage+" id=cmt_"+notepad.curpage+"_"+notepad.cline+" style=\"position:absolute; left:"+(notepad.margin-20)+"px; top:"+(notepad.cline*notepad.lheight+notepad.upper+4)+"px;\">\n";
-        htm+="<i class=\"icon-comment\"></i>"
-        htm+="</div>";
-        $('#note').append(htm);
-        $("#cmt_"+notepad.curpage+"_"+notepad.cline).click({cline:notepad.cline}, function(e){
-          notepad.comm(e.data.cline);
-        });
+        context.fillRect(notepad.margin-10,notepad.cline*notepad.lheight+notepad.upper+8,5,5);
       }
       $('#comment').attr("value","");
       $('#comment').attr("style","display:none;");
@@ -421,13 +493,8 @@ $(function() {
     }
     mousedown=true;
   });
-  $('.prev').mousedown(function(e){
-    notepad.nppage(-1);
-  });
-
-  $('.next').mousedown(function(e){
-    notepad.nppage(1);
-  });
+<<<<<<< HEAD
+=======
   $('#notepad').mouseup(function (e) { 
     mousedown=false;
     drawing=false;
@@ -435,7 +502,6 @@ $(function() {
     $('#note').css('cursor','default'); 
     $('#notes').focus();
   });
-
   $('#notepad').scroll(function (e) { 
 
   });
@@ -466,11 +532,12 @@ $(function() {
   $('#notes').keypress(function(e){
     if (e.keyCode==13){
       notepad.addline($('#notes').attr("value"));
-      $('#notes').attr("style", "background-color:transparent; position:absolute; left:"+(notepad.margin+5)+"px; top:"+(notepad.upper+notepad.lheight*(notepad.notes[notepad.curpage].length))+"px; width:"+(canvas.width-notepad.margin-20)+"px");
+      $('#notes').attr("style", "background-color:transparent; position:absolute; left:"+(notepad.margin+5)+"px; top:"+(notepad.upper+notepad.lheight*(notepad.notes[notepad.curpage].length))+"px; width:"+(canvas.width-notepad.margin-10)+"px");
       $('#notes').attr("value","");
       //alert($('#notes').attr("style"));
     }
   });
+>>>>>>> updating-look
 
   $('#add').click(function(){
     if(!asmd){
@@ -481,8 +548,8 @@ $(function() {
       $("#num1").show();
       $("#num2").show();
       $('#num1').attr("style", "background-color:transparent; position:absolute; left:"+(notepad.margin+105)+"px; top:"+(notepad.upper+notepad.lheight*(notepad.notes[notepad.curpage].length))+"px; width:150px");
-      $('#num2').attr("style", "background-color:transparent; position:absolute; left:"+(notepad.margin+105)+"px; top:"+(notepad.upper+notepad.lheight*(2+notepad.notes[notepad.curpage].length))+"px; width:150px");
-      $("#note").append("<label id=num1lab for=num1 style=\"background-color:transparent; font:10pt Courier; position:absolute; left:"+(notepad.margin+5)+"px; top:"+(3+notepad.upper+notepad.lheight*(notepad.notes[notepad.curpage].length))+"px; width:150px\">1st Number =</label>\n<label id=num2lab for=num2 style=\"background-color:transparent; font:10pt Courier; position:absolute; left:"+(notepad.margin+5)+"px; top:"+(3+notepad.upper+notepad.lheight*(2+notepad.notes[notepad.curpage].length))+"px; width:150px\">2nd Number =</label>");
+      $('#num2').attr("style", "background-color:transparent; position:absolute; left:"+(notepad.margin+105)+"px; top:"+(notepad.upper+notepad.lheight*(1+notepad.notes[notepad.curpage].length))+"px; width:150px");
+      $("#note").append("<label id=num1lab for=num1 style=\"background-color:transparent; font:10pt Courier; position:absolute; left:"+(notepad.margin+5)+"px; top:"+(3+notepad.upper+notepad.lheight*(notepad.notes[notepad.curpage].length))+"px; width:150px\">1st Number =</label>\n<label id=num2lab for=num2 style=\"background-color:transparent; font:10pt Courier; position:absolute; left:"+(notepad.margin+5)+"px; top:"+(3+notepad.upper+notepad.lheight*(1+notepad.notes[notepad.curpage].length))+"px; width:150px\">2nd Number =</label>");
       $("#num1").focus();
       asmd=true;
       adding=true;
@@ -497,8 +564,8 @@ $(function() {
       $("#num1").show();
       $("#num2").show();
       $('#num1').attr("style", "background-color:transparent; position:absolute; left:"+(notepad.margin+105)+"px; top:"+(notepad.upper+notepad.lheight*(notepad.notes[notepad.curpage].length))+"px; width:150px");
-      $('#num2').attr("style", "background-color:transparent; position:absolute; left:"+(notepad.margin+105)+"px; top:"+(notepad.upper+notepad.lheight*(2+notepad.notes[notepad.curpage].length))+"px; width:150px");
-      $("#note").append("<label id=num1lab for=num1 style=\"background-color:transparent; font:10pt Courier; position:absolute; left:"+(notepad.margin+5)+"px; top:"+(3+notepad.upper+notepad.lheight*(notepad.notes[notepad.curpage].length))+"px; width:150px\">1st Number =</label>\n<label id=num2lab for=num2 style=\"background-color:transparent; font:10pt Courier; position:absolute; left:"+(notepad.margin+5)+"px; top:"+(3+notepad.upper+notepad.lheight*(2+notepad.notes[notepad.curpage].length))+"px; width:150px\">2nd Number =</label>");
+      $('#num2').attr("style", "background-color:transparent; position:absolute; left:"+(notepad.margin+105)+"px; top:"+(notepad.upper+notepad.lheight*(1+notepad.notes[notepad.curpage].length))+"px; width:150px");
+      $("#note").append("<label id=num1lab for=num1 style=\"background-color:transparent; font:10pt Courier; position:absolute; left:"+(notepad.margin+5)+"px; top:"+(3+notepad.upper+notepad.lheight*(notepad.notes[notepad.curpage].length))+"px; width:150px\">1st Number =</label>\n<label id=num2lab for=num2 style=\"background-color:transparent; font:10pt Courier; position:absolute; left:"+(notepad.margin+5)+"px; top:"+(3+notepad.upper+notepad.lheight*(1+notepad.notes[notepad.curpage].length))+"px; width:150px\">2nd Number =</label>");
       $("#num1").focus();
       asmd=true;
       subtracting=true;
@@ -513,8 +580,8 @@ $(function() {
       $("#num1").show();
       $("#num2").show();
       $('#num1').attr("style", "background-color:transparent; position:absolute; left:"+(notepad.margin+105)+"px; top:"+(notepad.upper+notepad.lheight*(notepad.notes[notepad.curpage].length))+"px; width:150px");
-      $('#num2').attr("style", "background-color:transparent; position:absolute; left:"+(notepad.margin+105)+"px; top:"+(notepad.upper+notepad.lheight*(2+notepad.notes[notepad.curpage].length))+"px; width:150px");
-      $("#note").append("<label id=num1lab for=num1 style=\"background-color:transparent; font:10pt Courier; position:absolute; left:"+(notepad.margin+5)+"px; top:"+(notepad.upper+notepad.lheight*(notepad.notes[notepad.curpage].length)+3)+"px; width:150px\">1st Number =</label>\n<label id=num2lab for=num2 style=\"background-color:transparent; font:10pt Courier; position:absolute; left:"+(notepad.margin+5)+"px; top:"+(3+notepad.upper+notepad.lheight*(2+notepad.notes[notepad.curpage].length))+"px; width:150px\">2nd Number =</label>");
+      $('#num2').attr("style", "background-color:transparent; position:absolute; left:"+(notepad.margin+105)+"px; top:"+(notepad.upper+notepad.lheight*(1+notepad.notes[notepad.curpage].length))+"px; width:150px");
+      $("#note").append("<label id=num1lab for=num1 style=\"background-color:transparent; font:10pt Courier; position:absolute; left:"+(notepad.margin+5)+"px; top:"+(notepad.upper+notepad.lheight*(notepad.notes[notepad.curpage].length)+3)+"px; width:150px\">1st Number =</label>\n<label id=num2lab for=num2 style=\"background-color:transparent; font:10pt Courier; position:absolute; left:"+(notepad.margin+5)+"px; top:"+(3+notepad.upper+notepad.lheight*(1+notepad.notes[notepad.curpage].length))+"px; width:150px\">2nd Number =</label>");
       $("#num1").focus();
       asmd=true;
       multiplying=true;
@@ -540,7 +607,61 @@ $(function() {
       $("#num2lab").remove();
     }
   });
+<<<<<<< HEAD
+  $('#notepad').dblclick(function(e){
+    if(notepad.notes.length-1!=notepad.curpage && downy > notepad.upper && !drawing && downx<notepad.margin){
+      var cline=Math.floor((downy-notepad.upper)/notepad.lheight);
+      notepad.comm(cline);
+    }
+  });
+  $('#notepad').mouseup(function (e) { 
+    mousedown=false;
+    drawing=false;
+    curdraw=false;
+    $('#note').css('cursor','default'); 
+    $('#notes').focus();
+  });
+  $('#notepad').scroll(function (e) { 
 
+  });
+  $('#notepad').mousemove(function (e) { 
+    // mousex and mousey are used for many things, and therefore need to be in the
+    // global scope.
+    var offset = $('#notepad').offset();
+    var offsetx = Math.round(offset.left);
+    var offsety = Math.round(offset.top);
+
+    mousex = e.pageX - offsetx; // - offset.left;
+    mousey = e.pageY - offsety; // - offset.top;
+    if(curdraw && mousey < canvas.height-20 && mousex > 50 && mousey > 50){
+      drawing=true;
+      context.lineWidth=2;
+      cpa=notepad.pixarr[notepad.curpage];
+      drawLine(cpa[cpa.length-1][cpa[cpa.length-1].length-1][0], cpa[cpa.length-1][cpa[cpa.length-1].length-1][1], mousex,mousey);
+      notepad.pixarr[notepad.curpage][notepad.pixarr[notepad.curpage].length-1].push([mousex, mousey]);
+      context.lineWidth=1;
+    }
+  });
+=======
+  $('#prev').click(function(e){
+    notepad.nppage(-1);
+  });
+
+  $('#next').click(function(e){
+    notepad.nppage(1);
+  });
+  $('.plug').mouseenter(function(e){
+    $(this).addClass("plughl");
+  });
+  $('.plug').mouseenter(function(e){
+    $(this).removeClass("plughl");
+  });
+  $('.turn').mouseenter(function(e){
+    $(this).addClass("turnhl");
+  });
+  $('.turn').mouseenter(function(e){
+    $(this).removeClass("turnhl");
+  });
   function drawLine(x1,y1, x2, y2) {
     context.beginPath();
     context.moveTo(x1,y1);
@@ -548,4 +669,5 @@ $(function() {
     context.stroke();
     context.closePath();
   }
+>>>>>>> updating-look
 });

@@ -1,0 +1,68 @@
+#binding {
+  position:relative;
+  height:580px;
+  width:390px; 
+  #bind {
+    position:absolute;
+    left:20px;
+    width:350px;
+    height:55px;
+    background:url("binding.png") repeat-x;
+  }
+  #note {
+    border-style:solid;
+    border-width:1px;
+    //border-color:#0083ad;
+    border-color:gray;
+    position:absolute;
+    top:30px;
+    left:20px;
+    height:550px;
+    width:350px;
+    box-shadow: 3px 3px 3px #888888;
+    #notes {
+      border-color:#D3D3D3;
+      font-family:"Courier";
+    }
+    #notepad {
+      background-color:#FAFAD2;
+    }
+  }
+  #comt {
+    position:absolute;
+    width:15px;
+    left:30px;
+    top:30px;
+  }
+  #ltoolbar {
+    position:absolute;
+    top:80px;
+    left:0px;
+  }
+  #rtoolbar {
+    position:absolute;
+    top:160px;
+    left:370px;
+  }
+
+  .toolbar {
+    width:20px;
+    .tbicons {
+      height:18px;
+      i {
+        margin:2px 2px;
+      }
+      border-style:solid;
+      border-width:1px;
+    }
+    .tbreak {
+      width:20px;
+      height:20px;
+      background:black;
+    }
+    .placeholder {
+      width:20px;
+      height:20px;
+    }
+  }
+}
