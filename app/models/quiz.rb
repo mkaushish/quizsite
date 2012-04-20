@@ -39,6 +39,6 @@ class Quiz < ActiveRecord::Base
   end
 
   def smartScore
-    return 0
+    return "?"
   end
 end

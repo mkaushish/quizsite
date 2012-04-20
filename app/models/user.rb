@@ -84,6 +84,11 @@ class User < ActiveRecord::Base
     self.encrypted_password == encrypt(submitted_password)
   end
 
+  def smartScore(ptype)
+    # TODO implement smartscore + calculations for real
+    return 70 + rand(30)
+  end
+
   private
 
   def encrypt_password

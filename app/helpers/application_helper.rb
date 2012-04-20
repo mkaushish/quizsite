@@ -75,6 +75,7 @@ module ApplicationHelper
   end
 
   def smartscore_class(smartscore)
+    return "smartscore_unknown" if smartscore == "?"
     p = smartscore.to_i
     return "smartscore_95" if p >= 95
     return "smartscore_90" if p >= 90
@@ -82,12 +83,20 @@ module ApplicationHelper
     return "smartscore_70" if p >= 70
     return "smartscore_60" if p >= 60
     return "smartscore_35" if p >= 35
-    return "smartscore_0"
+    return "smartscore_0"  if p >= 0
+    return "smartscore_unknown"
   end
 
+  # Gets the html for a smartscore
+  # ptype can be a Quiz object or a subclass of QuestionBase
   def get_smartscore(ptype)
-    # TODO add this shit in for realz
-    smartscore = rand(30) + 70
+    smartscore = "?"
+    if ptype.is_a?(Quiz)
+      smartscore = ptype.smartScore
+    elsif ptype < QuestionBase
+      smartscore = current_user.smartScore(ptype)
+    end
+
     color_class = smartscore_class(smartscore)
 
     return "<div class=\"smartscore #{color_class}\">#{smartscore}</div>".html_safe

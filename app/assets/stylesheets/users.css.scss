@@ -25,6 +25,10 @@
   }
 }
 
+.quizlist {
+  min-height:377px;
+}
+
 .problemscores {
   li {
     padding:2px 0;
@@ -41,10 +45,10 @@
   //background-color:#4545cf;
 
   margin:10px 0px;
-  font-size:1.2em;
-  padding:5px;
-  text-align:center;
+  font-size:19px;
+  //padding:5px;
   @include rounded-corners(5px);
+  div { float:right; }
 }
 
 .smartscore {

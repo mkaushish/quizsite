@@ -4,10 +4,9 @@
   <div class=span3>
     <div class='well sidebar-nav'>
       <ul class='nav nav-list quizlist'> 
+        <li> <%= link_to "+ New Quiz", new_quiz_path %> </li>
+        <li class=divider></li>
         <li class='nav-header'>Your Quizzes</li>
-        <li>
-        <%= link_to "+ New Quiz", new_quiz_path %>
-        </li>
 
         <% @quizzes.each do |quiz| %>
           <li class="fordelete_<%= quiz.idname %>">

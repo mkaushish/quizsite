@@ -166,7 +166,7 @@ $slidecol: #444;
   .slide {
     display:none;
     position:absolute;
-    padding:0px;
+    padding:0;
     div {
       padding:10px 10px 0px 10px;
       // description:
@@ -179,6 +179,7 @@ $slidecol: #444;
       display:block;
       margin-left:auto;
       margin-right:auto;
+      margin-bottom:10px;
     }
   }
   .selected {

@@ -27,6 +27,7 @@ PRECOMPILING ASSETS
   * RAILS_ENV=prodcution be rake assets:precompile
   * assets are compiled to /public/assets, so make sure you git add and commit that
   * ensure that shit changes when pushed to heruok (try pushing both production and master branches?)
+  * MIGRATE THE DATABASE if you have added any new migrateions: heroku rake db:migrate
 
 UPDATING QG ON RAILS
   * add any necessary new folders to config.autoload_paths in config/application.rb
