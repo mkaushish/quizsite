@@ -16,7 +16,8 @@
   <div class="span6 tab-content" id="problemtabs">
     <div class='section-header'>
       <% if quizname.nil? %>
-        <%= text_field_tag "quiz_name", nil, :placeholder=>"Name your Quiz!", :style => "float:none;" %>
+        <%= text_field_tag "quiz_name", nil, :placeholder=>"Name your Quiz!", :style => "float:none;display:inline;", :class=>"quiznamefield" %>
+        <span id=nameerrors></span>
       <% else %>
         <%= quizname.to_s %>
       <% end %>

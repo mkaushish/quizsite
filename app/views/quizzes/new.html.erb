@@ -1,4 +1,4 @@
 <div class="logo">Make a New Quiz</div>
-<%= form_tag :action => 'create' do %>
+<%= form_tag({:action => 'create'}, :remote => true) do %>
   <%= render :partial => 'form', :locals => {:quizname => nil} %>
 <% end %>

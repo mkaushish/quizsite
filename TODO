@@ -1,6 +1,8 @@
 Short Term
 ----------
+[ ] add account details, ability to change password, etc
 [ ] make navbar more accessible in smaller window sizes
+[ ] fix bug in quiz name validation : currently allows non alpha-numeric characters
 [ ] improve the sense of design of the website
   [ ] seriously improve problemanswer/show css...
   [X] get a better name than PSCORE
@@ -11,7 +13,7 @@ Short Term
 [ ] allow user creation from the site
   [ ] get some sort of unique access code system going...?
 [ ] add useful error messages to all forms with ajax:
-  [ ] quiz creation
+  [X] quiz creation
   [ ] problemanswer creation...?
   [X] signin
 [ ] get a PSCORE calculation going (implement get_pscore in app helper)

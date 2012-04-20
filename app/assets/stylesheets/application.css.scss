@@ -94,10 +94,6 @@ body {
   }
 }
 
-input.invalid {
-  background-color:#f2dede;
-}
-
 #nav {
   @include gradient($navG1, $navG2);
   height:36px;
@@ -251,6 +247,9 @@ input[type="submit"] {
   padding:3px;
 }
 
+input.invalid {
+  background-color:#f2dede;
+}
 /* }}} */
 
 /* Common Classes {{{ */

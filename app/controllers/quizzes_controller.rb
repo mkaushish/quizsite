@@ -21,26 +21,20 @@ class QuizzesController < ApplicationController
 
   # POST /quiz
   def create
-    quiz_problems = []
-    all_probs.each do |prob|
-      if params[prob.to_s] == "1"
-        quiz_problems << prob
-      end
-    end
-
     @quiz = current_user.quizzes.new(
-      :problemtypes => Marshal.dump(quiz_problems),
+      :problemtypes => get_quizprobs_from_params(params),
       :name => params["quiz_name"]
     )
 
-    set_probs(quiz_problems)
     if @quiz.save
-      redirect_to profile_path
+      set_quiz(@quiz)
+      render :js => "window.location = '/profile'"
     else
       $stderr.puts "#"*60
-      $stderr.puts "COULDN'T SAVE: #{@quiz.errors}"
-      adderror("couldn't save the last quiz: #{@quiz.errors.inspect}")
-      redirect_to profile_path
+      $stderr.puts "COULDN'T SAVE: #{@quiz.errors.full_messages}"
+
+      @errors = @quiz.errors
+      respond_to { |format| format.js }
     end
   end
 
@@ -51,15 +45,10 @@ class QuizzesController < ApplicationController
       adderror "You can only edit your own quizzes!"
       redirect_to profile_path
     end
-    
-    quiz_problems = []
-    all_probs.each do |prob|
-      if params[prob.to_s] == "1"
-        quiz_problems << prob
-      end
-    end
 
-    @quiz.problemtypes = Marshal.dump(quiz_problems)
+    dumped_quiz_problems = get_quizprobs_from_params(params)
+
+    @quiz.problemtypes = dumped_quiz_problems
     if @quiz.save
       redirect_to profile_path
     else
@@ -79,5 +68,18 @@ class QuizzesController < ApplicationController
     else
       respond_to { |format| format.js }
     end
+  end
+
+  private
+
+  def get_quizprobs_from_params(params)
+    quiz_problems = []
+    all_probs.each do |prob|
+      if params[prob.to_s] == "1"
+        quiz_problems << prob
+      end
+    end
+    return nil if quiz_problems.empty? # so validation fails
+    return Marshal.dump(quiz_problems)
   end
 end

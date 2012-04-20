@@ -1,0 +1,11 @@
+<% if !@errors[:name].empty? %>
+  $('#nameerrors').text("<%= @errors[:name].first %>");
+  $('input.quiznamefield').addClass('invalid');
+<% else %>
+  $('input.quiznamefield').removeClass('invalid');
+  $('#nameerrors').text("");
+<% end %>
+
+<% if !@errors[:problemtypes].empty? %>
+  $('#curquiz').html("<li class='nav-header'>Current Quiz</li><li id=ptypeserrors>This quiz needs some problems</li>");
+<% end %>

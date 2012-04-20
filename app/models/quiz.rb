@@ -23,7 +23,7 @@ class Quiz < ActiveRecord::Base
 
   validates :name,         :presence => true,
                            :length => { :within => 1..20 },
-                           :format => { :with => @@name_regex }
+                           :format => { :with => @@name_regex, :message => "Only letters and numbers allowed" }
 
   def ptypes
     @ptypes ||= Marshal.load(self.problemtypes)
