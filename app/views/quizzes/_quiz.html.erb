@@ -1,8 +1,8 @@
 <%# remember "quiz" is passed in by :object => (quiz) %>
 <div class="problemscores tab-pane fordelete_<%= quiz.idname %>" id=<%= quiz.idname %>>
-  <div style="border-bottom:2px solid black; margin:0px;">
-    <div class="btn-group" style="margin:2px;"> 
-      <button class="btn btn-primary btn-large dropdown-toggle" data-toggle="dropdown">
+  <div style="border-bottom:2px solid; margin:0; padding:15px 0 7px 3px;">
+    <div class="btn-group"> 
+      <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
         <%= quiz.name  %>
         <span class="caret"></span>
       </button>
@@ -19,11 +19,8 @@
     </div>
   </div>
   <div class=quizSmartscore>
-    <% if quiz.hasSmartScore? %>
-      Your SmartScore for this quiz is <%= quiz.smartScore %>
-    <% else %>
-      You need to do more problems to get your SmartScore
-    <% end %>
+    Overall SmartScore: <%= get_smartscore(quiz) %>
+    <br style="clear:both;">
   </div>
   <ul>
     <% quiz.ptypes.each do |ptype| %>

@@ -152,7 +152,7 @@
 
 ul.home { 
   list-style-type: square;
-  font-size:1.2em;
+  font-size:16px;
   padding:10px 0;
   li {
     padding:7px 0;
@@ -161,11 +161,14 @@ ul.home {
 
 $slidecol: #444;
 #slideshow {
+  min-width:450px;
   position:relative;
   .slide {
     display:none;
     position:absolute;
+    padding:0;
     div {
+      padding:10px 10px 0px 10px;
       // description:
       height:100px;
       //background-color:$slidecol;
@@ -176,6 +179,7 @@ $slidecol: #444;
       display:block;
       margin-left:auto;
       margin-right:auto;
+      margin-bottom:10px;
     }
   }
   .selected {
@@ -186,13 +190,17 @@ $slidecol: #444;
   position:relative;
   height:260px;
   width:30px;
-  top:118px;
+  top:110px;
   @include rounded-corners(4px);
   &:hover {
-    background-color:#eeefef;
+    img {
+      display:block;
+    }
+    //background-color:#eeefef;
   }
   img {
     margin-top:100px;
+    display:none;
   }
 }
 

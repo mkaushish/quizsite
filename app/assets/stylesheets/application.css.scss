@@ -3,7 +3,6 @@
  * and any sub-directories. You're free to add application-wide styles to this file and they'll appear at
  * the top of the compiled file, but it's generally better to create a new file per style scope.
  *= require bootstrap
- *= require bootstrap-responsive
  *= require_self
  *= require_tree . 
 */
@@ -63,6 +62,14 @@ body {
   padding:13px 10px 14px 10px;
 }
 
+.navbar .nav {
+  margin:0;
+}
+
+.navbar .nav.pull-right {
+  margin:0;
+}
+
 .navbar .divider-vertical {
   height:46px;
 }
@@ -72,15 +79,18 @@ body {
   li {
     margin: 9px 0 0 6px;
   }
-  .text input {
-    width:170px;
+  input {
+    font-size:12px;
+  }
+  .text input[type="text"] {
+    width:157px;
+  }
+  .text input[type="password"] {
+    width:90px;
   }
   .button input {
     margin:1px 0 0 0;
-    width:60px;
-  }
-  input.invalid {
-    background-color:#f2dede;
+    width:57px;
   }
 }
 
@@ -237,6 +247,9 @@ input[type="submit"] {
   padding:3px;
 }
 
+input.invalid {
+  background-color:#f2dede;
+}
 /* }}} */
 
 /* Common Classes {{{ */
@@ -292,7 +305,7 @@ input.btn-blue {
   //font-style:italic;
   padding: 4px;
   margin-bottom:12px;
-  font-size: 2em;
+  font-size: 27px;
 }
 
 .explanation {
@@ -383,6 +396,10 @@ input.btn-blue {
 }
 .smartscore_0 {
   background-color:#880420;
+}
+
+.smartscore_unknown {
+  background-color:#999;
 }
 /* }}} */
 
