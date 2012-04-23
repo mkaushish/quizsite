@@ -19,6 +19,7 @@ class ProblemanswersController < ApplicationController
   # GET /problemanswers/1
   # GET /problemanswers/1.json
   def show
+    stop_quiz if params[:quizid] == "-1"
     @problemanswer = Problemanswer.find(params[:id])
     @problem = @problemanswer.problem.unpack
     @solution = @problem.prefix_solve
@@ -29,7 +30,7 @@ class ProblemanswersController < ApplicationController
     respond_to do |format|
       format.html # show.html.erb
       format.json { render json: @problemanswer }
-    end
+  end
   end
 
   # GET /problemanswers/new

@@ -7,7 +7,7 @@ require 'set'
 include ToHTML
 
 module Chapter3
-  PRIMES = [2,3,5,7,11,13,17]
+  PRIMES = [2,2,2,2,2,3,3,3,3,5,5,5,7,7,11,13,17]
   ODDPRIMES = [3,5,7,11,13,17,19,23,29,31,37,41,43,47,53,59,61,67,71,73, 79, 83, 89, 97, 101, 103, 107,109,113,127,131,137,139,149,151,157,163,167,173,179,181,191,193,197,199,211,223,227,229,233,239,241]
   #first 20 odd primes
 
@@ -16,9 +16,11 @@ module Chapter3
     attr_accessor :nums
     def initialize
       len             = rand(3)+3
-      highest_prime_i = 6
-
-      @nums = Array.new(len) { |i| PRIMES[rand(highest_prime_i+1)] }
+       
+      @nums = [17,17,17,17,17,17]
+      while @nums.reduce(:*) > 600 
+        @nums = Array.new(len) { |i| PRIMES[rand(PRIMES.length)] }
+      end
     end
 
     def solve
@@ -65,7 +67,7 @@ module Chapter3
     attr_accessor :nums
     def initialize
       len             = rand(2)+2
-      highest_prime_i = 3
+      highest_prime_i = 13
 
       @nums = Array.new(len) { |i| PRIMES[rand(highest_prime_i+1)] }
     end
@@ -83,15 +85,18 @@ module Chapter3
 
   class CommonFactors < QuestionBase
     def initialize
-      @nums1 = []
-      @nums2 = []
-      @len1 = rand(2)+3
-      @len2 = rand(2)+3
-      for i in 0...@len1 do
-        @nums1[i] = PRIMES[rand(4)]
+      len             = rand(2)
+      highest_prime_i = 13
+      nums = Array.new(len) { |i| PRIMES[rand(highest_prime_i+1)] }
+      len1             = rand(2)+1
+      @nums1 = nums
+      for i in 0...len1 
+        @nums1[@nums1.length]=PRIMES[rand(highest_prime_i+1)]
       end
-      for i in 0...@len2 do
-        @nums2[i] = PRIMES[rand(4)]
+      len2             = rand(2)+1
+      @nums2 = nums
+      for i in 0...len2 
+        @nums2[@nums2.length]=PRIMES[rand(highest_prime_i+1)]
       end
     end
     def solve
@@ -99,29 +104,9 @@ module Chapter3
       fac2 = Set.new(Grade6ops::factors(@nums2))
       {"ans" => fac1.intersection(fac2)}
     end
-    def correct?(params)
-      sol=solve()["ans"]
-      so=[]
-      for i in 0...sol.length do
-        so[i]=HTMLObj::get_result("ans"+i.to_s, params).to_i
-      end
-      so.sort
-      if sol==so
-        return true
-      end
-      return false
-    end  
 
     def text
-      num1 = 1
-      for i in 0...@len1  
-        num1 = num1*@nums1[i]
-      end
-      num2 = 1
-      for i in 0...@len2  
-        num2 = num2*@nums2[i]
-      end
-      [TextLabel.new("Give the common factors of #{num1} and #{num2}"), MultiTextField.new("ans")]
+      [TextLabel.new("Give the common factors of #{@nums1.reduce(:*)} and #{@nums2.reduce(:*)}"), MultiTextField.new("ans")]
     end
   end
 
