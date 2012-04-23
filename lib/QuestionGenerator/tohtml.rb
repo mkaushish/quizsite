@@ -282,7 +282,7 @@ module ToHTML
 
     def initialize(name, label)
       super(name)
-      @label = label
+      @label = label.to_s
     end
 
     def correct?(solution, response)
