@@ -23,8 +23,12 @@ class ProblemController < ApplicationController
         # TODO redirect somewhere else... 
         #render :js => "window.location = '/'"
         if signed_in?
-          #redirect_to quiz_path
-          render :js => "window.location = '/quiz'"
+          if in_quiz?
+            #redirect_to quiz_path
+            render :js => "window.location = '/startquiz'"
+          else
+            render :js => "window.location = '/profile'"
+          end
         else
           #redirect_to estimate_path
           render :js => "window.location = '/estimate'"

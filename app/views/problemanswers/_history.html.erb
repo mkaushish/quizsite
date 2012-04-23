@@ -4,9 +4,9 @@
     <% @problemanswers.reverse_each do |problemanswer| %>
       <li>
         <% if problemanswer.correct %>
-          <%= link_to raw("<i class='icon-ok'></i> #{problemanswer.problem.to_s}"), problemanswer %>
+          <%= link_to raw("<i class='icon-ok'></i> #{problemanswer.problem.to_s}"), problemanswer_path(:id => problemanswer.id, :quizid => -1) %>
         <% else %>
-          <%= link_to raw("<i class='icon-remove'></i> #{problemanswer.problem.to_s}"), problemanswer %>
+          <%= link_to raw("<i class='icon-remove'></i> #{problemanswer.problem.to_s}"), problemanswer_path(:id => problemanswer.id, :quizid => -1) %>
         <% end %>
 
       </li>

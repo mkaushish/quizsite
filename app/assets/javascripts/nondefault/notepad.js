@@ -107,12 +107,12 @@ $(function() {
              ht+="</tr>\n"
                ht+="<tr>\n"
                for(i=0; i<lt; i++){
-                 ht+="<td><input type=text class=inps id=in"+i+" style=\"width:15px; height:15px\"></td>\n";
+                 ht+="<td><input type=text class=inps id=in"+i+" style=\"width:15px; height:10px\"></td>\n";
                }
              ht+="</tr>\n"
                ht+="</table>";
              $('#note').append(ht);
-             $('#addtable').attr("style", "background-color:transparent; font:10pt Courier; position:absolute; left:"+(this.margin+5)+"px; top:"+(this.upper+this.lheight*(this.notes[this.curpage].length))+"px;");
+             $('#addtable').attr("style", "background-color:transparent; font:10pt Courier; position:absolute; left:"+(this.margin+5)+"px; top:"+(this.upper+this.lheight*(this.notes[this.curpage].length)+5)+"px;");
              //alert($('#addtable').attr("style"));
              $("#in"+(lt-1)).select();
              $(".inps").keypress(function(e){
@@ -190,19 +190,19 @@ $(function() {
                   else {ht+="<td> </td>\n";}
                 }
                 for(i=0; i<(n1.length+j+1); i++){
-                  ht+="<td><input type=text class=inps"+j+" id=in_"+j+"_"+i+" style=\"width:15px; height:15px\"></td>\n";
+                  ht+="<td><input type=text class=inps"+j+" id=in_"+j+"_"+i+" style=\"width:15px; height:10px\"></td>\n";
                 }
                 ht+="</tr>\n";
               }
               if(n2.length>1){
                 for(i=0; i<lt; i++){
-                  ht+="<td><input type=text class=inps id=in"+i+" style=\"width:15px; height:15px\"></td>\n";
+                  ht+="<td><input type=text class=inps id=in"+i+" style=\"width:15px; height:10px\"></td>\n";
                 }
               }
               ht+="</tr>\n";
               ht+="</table>";
               $('#note').append(ht);
-              $('#addtable').attr("style", "background-color:transparent; font:10pt Courier; position:absolute; left:"+(this.margin+5)+"px; top:"+(this.upper+this.lheight*(this.notes[this.curpage].length))+"px;");
+              $('#addtable').attr("style", "background-color:transparent; font:10pt Courier; position:absolute; left:"+(this.margin+5)+"px; top:"+(this.upper+this.lheight*(this.notes[this.curpage].length)+5)+"px;");
               $("#in_0_"+(n1.length)).select();
               for(j=0; j<n2.length; j++){
                 if(j==n2.length-1){
