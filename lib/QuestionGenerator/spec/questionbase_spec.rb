@@ -29,4 +29,3 @@ describe "QuestionBase" do
     end
   end
 end
-
