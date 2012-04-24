@@ -10,6 +10,9 @@ include ToHTML
 module Chapter6
   MAXCOMINT=30
   class CompareIntegers < QuestionBase
+    def self.type
+      "Compare Integers"
+    end
     def initialize()
       @num1=-1*rand(MAXCOMINT)
       whi=rand(3)
@@ -33,6 +36,9 @@ module Chapter6
   end
   MAXADDINT=250
   class AddIntegers < QuestionBase
+    def self.type
+      "Add Integers"
+    end
     def initialize(amt=2)
       @nums=[]
       @nums[0]=-1*rand(MAXADDINT)
@@ -55,9 +61,9 @@ module Chapter6
     def text
       str=""
       if @wh==0
-        str = "Find" + @nums[0].to_s
+        str = "Find:  " + @nums[0].to_s
         for i in 1...@nums.length
-          str += '+'
+          str += ' + '
           str +="("+ @nums[i].to_s+")"
         end
         
@@ -76,6 +82,9 @@ module Chapter6
   end
   MAXSUBINT=100
   class SubtractIntegers < QuestionBase
+    def self.type
+      "Subtract Integers"
+    end
     def initialize
       sign=rand(2)
       if sign==0
@@ -98,12 +107,15 @@ module Chapter6
       if @wh==0
         return [TextLabel.new("Subtract #{@num2} from #{@num1}"), TextField.new("ans")]
       else
-        return [TextLabel.new("Find (#{@num1})-(#{@num2})"), TextField.new("ans")]
+        return [TextLabel.new("Find:  (#{@num1}) - (#{@num2})"), TextField.new("ans")]
       end
     end
   end
   MAXCOMAS=50
   class CompareAddSub < QuestionBase
+    def self.type
+      "Compare Integer Operations"
+    end
     def initialize
       amt1=rand(3)+2
       amt2=rand(3)+2
@@ -150,14 +162,14 @@ module Chapter6
       end
     end
     def text
-      pr="Choose the appropriate symbol:"
+      pr="Choose the appropriate symbol:  "
       str="(#{@nums1[0]})"
       for i in 1...@nums1.length
         if @signs1[i-1]==0
-          str += '+'
+          str += ' + '
           str += "(#{@nums1[i]})"
         else 
-          str += '-'
+          str += ' - '
           str += "(#{-1*@nums1[i]})"
         end
       end
@@ -165,10 +177,10 @@ module Chapter6
       str2 = "(#{@nums2[0]})"
       for i in 1...@nums2.length
         if @signs2[i-1]==0
-          str2 += '+'
+          str2 += ' + '
           str2 += "(#{@nums2[i]})"
         else 
-          str2 += '-'
+          str2 += ' - '
           str2 += "(#{-1*@nums2[i]})"
         end
       end
@@ -178,6 +190,9 @@ module Chapter6
 
   MAXASINT=100
   class AddSubIntegers < QuestionBase
+    def self.type
+      "Operations on Integers"
+    end
     def initialize(amt=rand(3)+2)
       @nums=[]
       for i in 0...amt
@@ -197,13 +212,13 @@ module Chapter6
       {"ans" => @nums.reduce(:+).to_s}
     end
     def text
-      str="Find (#{@nums[0]})"
+      str="Find:  (#{@nums[0]})"
       for i in 1...@nums.length do
         if @signs[i-1]==0
-          str += '+'
+          str += ' + '
           str += "(#{@nums[i]})"
         else 
-          str += '-'
+          str += ' - '
           str += "(#{-1*@nums[i]})"
         end
       end

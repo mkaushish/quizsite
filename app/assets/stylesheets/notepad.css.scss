@@ -1,11 +1,11 @@
 #binding {
   position:relative;
   height:480px;
-  width:390px; 
+  width:440px; 
   #bind {
     position:absolute;
     left:20px;
-    width:350px;
+    width:400px;
     height:55px;
     background:url("binding.png") repeat-x;
   }
@@ -18,7 +18,7 @@
     top:30px;
     left:20px;
     height:450px;
-    width:350px;
+    width:400px;
     box-shadow: 3px 3px 3px #888888;
     #notes {
       border-color:#D3D3D3;
@@ -42,7 +42,7 @@
   #rtoolbar {
     position:absolute;
     top:160px;
-    left:370px;
+    left:420px;
   }
 
   .toolbar {

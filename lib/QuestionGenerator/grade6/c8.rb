@@ -92,11 +92,12 @@ module Chapter8
     end
     def explain
       rat=Rational(@num,10**@div).to_f
-      orat=Rational(@num-solve["intpart"].to_i*(10**@div), 10**@div).to_f
+      rem=(@num-(@num/(10**@div))*(10**@div))
+      orat=rem.to_f/(10**@div)
         [Subproblem.new([TextLabel.new("What is the integer part of #{rat}"), TextField.new("intpart")], {"intpart" => solve["intpart"]}),  
         Subproblem.new([TextLabel.new("How many digits are there after the decimal point in #{rat}"), TextField.new("numd")], {"numd" => @div}),
-        Subproblem.new([TextLabel.new("The decimal part of the number is #{orat}. Multiply it by 1 followed by #{@div} zeroes. This is the numerator. 1 followed by #{@div} zeros is the denominator"), Fraction.new(TextField.new("num", "Numerator"), TextField.new("den" , "Denominator"), solve["intpart"])], {"num" => (orat)*(10**@div), "den" => 10**@div}),
-        Subproblem.new([TextLabel.new("Reduce the fraction to its lowest terms"), Fraction.new((orat*(10**@div)).to_i, 10**@div, solve["intpart"]), Fraction.new("num", "den", solve["intpart"])], {"num" => solve["num"], "den" => solve["den"]} )]
+        Subproblem.new([TextLabel.new("The decimal part of the number is #{orat}. Multiply it by 1 followed by #{@div} zeroes. This is the numerator. 1 followed by #{@div} zeros is the denominator"), Fraction.new("num", "den", TextLabel.new(solve["intpart"]))], {"num" => rem, "den" => 10**@div}),
+        Subproblem.new([TextLabel.new("Reduce the fraction to its lowest terms"), Fraction.new(rem, 10**@div, TextLabel.new(solve["intpart"])), Fraction.new("num", "den", TextLabel.new(solve["intpart"]))], {"num" => solve["num"], "den" => solve["den"]} )]
     end
     def text
       ret=[TextLabel.new("Convert the following Decimal into a Mixed Fraction in its lowest form:"), TextLabel.new(Rational(@num, 10**@div).to_f.to_s), Fraction.new("num", "den", "intpart")]
@@ -143,11 +144,11 @@ module Chapter8
       {"ans" => (@num.to_f)/(UCON[SUNIT[@wh]])}
     end
     def explain
-      [Subproblem.new([TextLabel.new("How many #{SUNIT[@wh]} are there in a #{LUNIT[@wh]}?"), TextField.new("mul")], {"mul" => UCON[SUNIT[@wh]]}), 
-        Subproblem.new([TextLabel.new("Divide #{@num} #{SUNIT[@wh]} by #{UCON[SUNIT[@wh]]} to get the answer."), TextField.new("lun"), TextLabel.new(LUNIT[@wh])], {"lun" => solve["ans"]})]
+      [Subproblem.new([TextLabel.new("How many #{SUNIT[@wh]} are there in a #{LUNIT[@wh]}?"), TextField.new("mul", SUNIT[@wh])], {"mul" => UCON[SUNIT[@wh]]}), 
+        Subproblem.new([TextLabel.new("Divide #{@num} #{SUNIT[@wh]} by #{UCON[SUNIT[@wh]]} to get the answer."), TextField.new("lun", LUNIT[@wh])], {"lun" => solve["ans"]})]
     end
     def text
-      [TextLabel.new("Convert #{@num}#{SUNIT[@wh]} to #{LUNIT[@wh]}"), TextField.new("ans", LUNIT[@wh]), TextLabel.new(LUNIT[@wh])]
+      [TextLabel.new("Convert #{@num} #{SUNIT[@wh]} to #{LUNIT[@wh]}"), TextField.new("ans", LUNIT[@wh])]
     end
   end
   class UnitsDecDecrease < QuestionWithExplanation
@@ -163,35 +164,46 @@ module Chapter8
       {"ans" => ans}
     end
     def explain
-      [Subproblem.new([TextLabel.new("How many #{SUNIT[@wh]} are there in a #{LUNIT[@wh]}?"), TextField.new("mul")], {"mul" => UCON[SUNIT[@wh]]}),
-        Subproblem.new([TextLabel.new("Multiply #{@num} #{LUNIT[@wh]} by #{UCON[SUNIT[@wh]]} to get the answer."), TextField.new("sun"), TextLabel.new(SUNIT[@wh])], {"sun" => solve["ans"]})]
+      [Subproblem.new([TextLabel.new("How many #{SUNIT[@wh]} are there in a #{LUNIT[@wh]}?"), TextField.new("mul",SUNIT[@wh] )], {"mul" => UCON[SUNIT[@wh]]}),
+        Subproblem.new([TextLabel.new("Multiply #{@num} #{LUNIT[@wh]} by #{UCON[SUNIT[@wh]]} to get the answer."), TextField.new("sun", SUNIT[@wh])], {"sun" => solve["ans"]})]
     end
     def text
-      [TextLabel.new("Convert #{@num} #{LUNIT[@wh]} to #{SUNIT[@wh]}"), TextField.new("ans", LUNIT[@wh]), TextLabel.new(SUNIT[@wh])]
+      [TextLabel.new("Convert #{@num} #{LUNIT[@wh]} to #{SUNIT[@wh]}"), TextField.new("ans", SUNIT[@wh])]
     end
   end
   class AddDecimals < QuestionBase
-    def initialize(amt=rand(4)+1)
+    def initialize(amt=rand(4)+2)
       @nums=[]
-      @divs=[]
       for i in 0...amt
-        @divs[i]=rand[3]+1
+        div=rand(3)+1
         @nums[i]=rand(10000)
         while @nums[i] % 10==0
           @nums[i]=rand(10000)
         end
-        @nums[i]=@nums[i]/@divs[i]
+        @nums[i]=Rational(@nums[i], (10**div))
       end
       @wh=rand(2)
     end
     def solve
-      {"ans" => @nums.reduce(:+)}
+      sum=Rational(0,1)
+      for i in 0...@nums.length
+        sum+=@nums[i]
+      end
+      {"ans" => sum.to_f.to_s}
     end
     def text
       if @wh==0
-        [TextLabel.new("Get the sum of #{@nums.join(",")}"), TextField.new("ans")]
+        sm="#{@nums[0].to_f}"
+        for i in 1...@nums.length
+          sm+=" , #{@nums[i].to_f}"
+        end
+        [TextLabel.new("Get the sum of: #{sm}"), TextField.new("ans")]
       else
-        [TextLabel.new("Find: #{@nums.join("+")}"), TextField.new("ans")]
+        sm="#{@nums[0].to_f}"
+        for i in 1...@nums.length
+          sm+=" + #{@nums[i].to_f}"
+        end
+        [TextLabel.new("Find: #{sm}"), TextField.new("ans")]
       end
     end
   end    
@@ -199,58 +211,61 @@ module Chapter8
   class SubDecimals < QuestionBase
     def initialize()
       @nums=[]
-      @divs=[]
-      for i in 0...1
-        @divs[i]=rand[3]+1
+      for i in 0...2
+        div=rand(3)+1
         @nums[i]=rand(10000)
         while @nums[i] % 10==0
           @nums[i]=rand(10000)
         end
-        @nums[i]=@nums[i]/@divs[i]
+        @nums[i]=Rational(@nums[i], (10**div))
       end
       @wh=rand(2)
-      if @nums[0]<@nums[1]
+      if @nums[0].to_f<@nums[1].to_f
         k=@nums[0]
         @nums[0]=@nums[1]
         @nums[1]=k
       end
     end
     def solve
-      {"ans" => @nums[0]-@nums[1]}
+      {"ans" => (@nums[0]-@nums[1]).to_f}
     end
     def text
       if @wh==0
-        [TextLabel.new("Subtract #{@nums[1]} from #{@nums[0]}"), TextField.new("ans")]
+        [TextLabel.new("Subtract #{@nums[1].to_f} from #{@nums[0].to_f}"), TextField.new("ans")]
       else
-        [TextLabel.new("Find: #{@nums.join("-")}"), TextField.new("ans")]
+        [TextLabel.new("Find: #{@nums[0].to_f} - #{@nums[1].to_f}"), TextField.new("ans")]
       end
     end
   end
   class AddSubDecimals < QuestionBase
-    def initialize(amt=rand(5))
+    def initialize(amt=rand(4)+2)
       @nums=[]
-      @divs=[]
       @sigs=[]
       for i in 0...amt
         @sigs[i]=rand(2)
         @sigs[i]=-1 if @sigs[i]==0
-        @divs[i]=rand[3]+1
+        div=rand(3)+1
         @nums[i]=rand(10000)
         while @nums[i] % 10==0
           @nums[i]=rand(10000)
         end
-        @nums[i]=@nums[i]/@divs[i]
+        @nums[i]=Rational(@nums[i],(10**div))
         @nums[i]*=@sigs[i-1] if i>0
       end
     end
     def solve
-      {"ans" => @nums.reduce(:+).to_s}
+      sum=Rational(0,1)
+      for i in 0...@nums.length
+        sum+=@nums[i]
+      end
+      {"ans" => sum.to_f.to_s}
     end
     def text
-      str=@nums[0].to_s
+      str=@nums[0].to_f.to_s
       for i in 1...@nums.length
-        str+='+' if @nums[i]>0
-        str+=@nums[i].to_s
+        str+=' + ' if @nums[i].to_f>0
+        str+=" - " if @nums[i].to_f<0
+        str+= (@nums[i].to_f).abs.to_s
       end
       [TextLabel.new("Find: " + str), TextField.new("ans")] 
     end

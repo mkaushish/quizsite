@@ -10,6 +10,9 @@ module Chapter7
 #TODO Fraction Formatting
 
   class ToMixedFractions < QuestionBase
+    def self.type
+      "To Mixed Fractions"
+    end
     def initialize
       @den=rand(8)+1
       @num=rand(60)+10
@@ -44,6 +47,9 @@ module Chapter7
   end
   
   class ToImproperFractions < QuestionBase
+    def self.type
+      "To Improper Fractions"
+    end
     def initialize
       @den=rand(8)+1
       @num=rand(60)+10
@@ -77,6 +83,9 @@ module Chapter7
   
   MAXEQFRAC=60
   class EquivalentFractions < QuestionBase
+    def self.type
+      "Equivalent Fractions"
+    end
     def initialize
       @den1=rand(MAXEQFRAC)+3
       @num1=rand(@den1)+1
@@ -118,6 +127,9 @@ module Chapter7
   end
 
   class ReduceFractions < QuestionBase
+    def self.type
+      "Reduce Fractions"
+    end
     def initialize
       com=(rand(9)+2)*(10**(rand(3)))
       @den=rand(30)+2
@@ -141,6 +153,9 @@ module Chapter7
   end
   
   class FillFractions < QuestionBase
+    def self.type
+      "Fill in Fractions"
+    end
     def initialize
       com=(rand(9)+2)
       @den=[]
@@ -195,6 +210,9 @@ module Chapter7
   end
                 
   class CompareLikeFrac < QuestionBase
+    def self.type
+      "Compare Like Fractions"
+    end
     def initialize
       @den=rand(25)+2
       @num1=rand(@den-1)+1
@@ -215,6 +233,9 @@ module Chapter7
   end
   
   class CompareUnlikeFrac < QuestionBase
+    def self.type
+      "Compare Unlike Fractions"
+    end
     def initialize
       @den1=rand(25)+2
       @den2=rand(25)+2
@@ -239,6 +260,9 @@ module Chapter7
   end
   
   class ASUnlikeFractions < QuestionBase
+    def self.type
+      "Operations on Unlike Fractions"
+    end
     def initialize(amt=2)
       @den=[]
       @num=[]
@@ -273,6 +297,9 @@ module Chapter7
   end
 
   class ASLikeFractions < QuestionBase
+    def self.type
+      "Operations on Like Fractions"
+    end
     def initialize(amt=rand(3)+2)
       de=rand(25)+3
       @den=[]
@@ -317,6 +344,9 @@ module Chapter7
   end
   
   class ASMixedFractions < QuestionBase
+    def self.type
+      "Operations on Mixed Fractions"
+    end
     def initialize(amt=2)
       @intpart=[]
       @den=[]

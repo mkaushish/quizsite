@@ -3,6 +3,8 @@ myInputs.attr("disabled", true);
 
 var checkboxes = myInputs.filter(':checked');
 checkboxes.replaceWith("<%= escape_javascript(image_tag "correct_circ_small.png", :style => "position:relative; top:7px;") %>");
+$('.add_mt_field').remove();
+$('.del_mt_field').remove();
 
 var texts = myInputs.filter(':text');
 texts.css("border","2px solid green");
@@ -14,3 +16,6 @@ texts.css("border","2px solid green");
   
 $('#next_subproblem').before("<%= escape_javascript(render(:partial => 'problem/problem', :object => @explain[@i], :locals => {:partialdir => 'problem'})) %>");
 $('#subproblem_index').html("<%= escape_javascript(hidden_field_tag('subproblem_index', @i)) %>");
+
+// To ensure mt_field buttons get bound correctly
+bind_mt_fields();

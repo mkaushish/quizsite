@@ -7,6 +7,9 @@ include ToHTML
 #TODO take pre/successors in any order (Not very important)
 module Chapter2
   class WriteSuccessors < QuestionBase
+    def self.type
+      "Successors"
+    end
     def initialize
       
       # TODO change this to better numbers that need successors
@@ -35,6 +38,9 @@ module Chapter2
   end
 
   class WritePredecessors < QuestionBase
+    def self.type
+      "Predecessors"
+    end
     def initialize
       # TODO change this to better numbers that need successors
       @num = Grade6ops::rand_num(0.4, 2, 4) * 10**(rand(3) + 1) + 1
@@ -132,6 +138,10 @@ module Chapter2
   end
 
   class SuitableRearrangementSum < RearrangementHelper
+    def self.type
+      "Rearrange Sum"
+    end
+
     def initialize
       sums = Array.new(2).map { rand(90) * 10**2 + 1000 }
       init_nums(sums)
@@ -150,6 +160,9 @@ module Chapter2
   end
 
   class SuitableRearrangementProduct < RearrangementHelper
+    def self.type
+      "Rearrange Product"
+    end
     def initialize
       nums = [10**(rand(3) + 2), Grade6ops::rand_num(0.01, 3, 4)]
       init_nums(nums, 0)
@@ -177,7 +190,10 @@ module Chapter2
     end
   end
 
-  class AddLargeNumbers
+  class AddLargeNumbers < QuestionBase
+    def self.type
+      "Add Large Numbers"
+    end
     def initialize
       @num1=rand(100000)+10000
       @num2=rand(100000)+10000
@@ -271,7 +287,7 @@ module Chapter2
   end
 
   PROBLEMS = [  Chapter2::WriteSuccessors,            Chapter2::WritePredecessors,
-    Chapter2::SuitableRearrangementSum,    Chapter2::SuitableRearrangementProduct 
+    Chapter2::SuitableRearrangementSum,    Chapter2::SuitableRearrangementProduct, Chapter2::AddLargeNumbers 
   ]
 
 end

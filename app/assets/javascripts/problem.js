@@ -7,7 +7,7 @@ function setCurQuiz() {
   $('#curquiz').html(quiz_s);
 }
 
-$(document).ready(function () {
+function bind_mt_fields() {
   $('.add_mt_field').unbind('click');
   $('.add_mt_field').bind('click', function() {
     var fields = $(this).siblings("div").children("input");
@@ -32,7 +32,9 @@ $(document).ready(function () {
       fields.last().remove();
     }
   });
+}
 
+$(document).ready(function () {
   $('#clear-quiz').click(function() {
     $(':checkbox:checked').attr('checked', false);
     setCurQuiz();
@@ -41,4 +43,6 @@ $(document).ready(function () {
   $('#problemtabs :checkbox').click(function() {
     setCurQuiz();
   });
+
+  bind_mt_fields();
 });

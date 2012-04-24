@@ -314,7 +314,7 @@ input.btn-blue {
 
 .fraction {
   height: 70px;
-  margin: 7px 15px;
+  margin: 0px 15px;
   input {
     width: 50px;
   }
@@ -323,13 +323,13 @@ input.btn-blue {
     text-align: right;
     padding-right: 5px;
     height: 45px;
-    padding: 25px 5px 0;
+    padding: 10px 5px 0;
     float: left;
   }
   .intpartInput { 
     text-align: right;
     height: 52px;
-    padding: 18px 5px 0;
+    padding: 10px 5px 0;
     float: left;
   }
 
@@ -342,7 +342,10 @@ input.btn-blue {
       text-align: center;
       height:24px;
       border-bottom: 2px solid black;
-      padding: 9px 5px 0px; /* 0 top, 5 left and right, 5 bottom */
+      //padding: 9px 5px 0px; /* 0 top, 5 left and right, 5 bottom */
+      p {
+        margin-top:10px;
+      }
     }
     .numeratorInput {
       text-align: center;
@@ -354,7 +357,10 @@ input.btn-blue {
     .denominator {
       text-align: center;
       height:30px;
-      padding: 5px 5px 0px; /* 5 top, 5 left and right, 0 bottom */
+      //padding: 5px 5px 0px; /* 5 top, 5 left and right, 0 bottom */
+      p {
+        margin:4px;
+      }
     }
     .denominatorInput {
       text-align: center;

@@ -8,12 +8,16 @@ include ToHTML
 
 module Chapter3
   PRIMES = [2,2,2,2,2,3,3,3,3,5,5,5,7,7,11,13,17]
+
   ODDPRIMES = [3,5,7,11,13,17,19,23,29,31,37,41,43,47,53,59,61,67,71,73, 79, 83, 89, 97, 101, 103, 107,109,113,127,131,137,139,149,151,157,163,167,173,179,181,191,193,197,199,211,223,227,229,233,239,241]
   #first 20 odd primes
 
 
   class PrimeFactors < QuestionWithExplanation
     attr_accessor :nums
+    def self.type
+      "Prime Factorization"
+    end
     def initialize
       len             = rand(3)+3
        
@@ -64,6 +68,9 @@ module Chapter3
   end
 
   class Factors < QuestionBase
+    def self.type
+      "Factorization"
+    end
     attr_accessor :nums
     def initialize
       len             = rand(2)+2
@@ -84,25 +91,36 @@ module Chapter3
 
 
   class CommonFactors < QuestionBase
+    def self.type
+      "Common Factors"
+    end
     def initialize
-      len             = rand(2)
-      highest_prime_i = 13
-      nums = Array.new(len) { |i| PRIMES[rand(highest_prime_i+1)] }
+      op=[2]+ODDPRIMES
+      len             = rand(2)+1
+      highest_prime_i = 3
+      nums = Array.new(len) { |i| op[rand(highest_prime_i+1)] }
       len1             = rand(2)+1
-      @nums1 = nums
+      @nums1 = Array.new(nums)
       for i in 0...len1 
-        @nums1[@nums1.length]=PRIMES[rand(highest_prime_i+1)]
+        tmp=rand(highest_prime_i+1)
+        puts tmp
+        @nums1.push(op[tmp])
       end
       len2             = rand(2)+1
-      @nums2 = nums
-      for i in 0...len2 
-        @nums2[@nums2.length]=PRIMES[rand(highest_prime_i+1)]
+      @nums2 = Array.new(@nums1)
+      while @nums2 == @nums1
+        @nums2=Array.new(nums)
+        for i in 0...len2
+          tmp=rand(highest_prime_i+1)
+          puts tmp
+          @nums2.push(op[tmp])
+        end
       end
     end
     def solve
       fac1 = Set.new(Grade6ops::factors(@nums1))
       fac2 = Set.new(Grade6ops::factors(@nums2))
-      {"ans" => fac1.intersection(fac2)}
+      {"ans" => fac1.intersection(fac2).to_a}
     end
 
     def text
@@ -111,6 +129,9 @@ module Chapter3
   end
 
   class Div_39 < QuestionWithExplanation
+    def self.type
+      "Divisibility by 3 and 9"
+    end
 
     def initialize(div=(rand(2)+1))
       #div is the power of three. Choices are 1,2.
@@ -140,6 +161,9 @@ module Chapter3
   end
 
   class Div_248 < QuestionWithExplanation
+    def self.type
+      "Divisibility by 2, 4 and 8"
+    end
     def initialize(div=(rand(3)+1))
       #div is the power of 2. Choices are 1,2,3  
       @sdiv = div
@@ -168,6 +192,9 @@ module Chapter3
   end  
 
   class Div_5 < QuestionWithExplanation
+    def self.type
+      "Divisibility by 5"
+    end
     def initialize
       @num =Grade6ops::divgen(5)
     end
@@ -194,6 +221,9 @@ module Chapter3
   end
 
   class Div_10 < QuestionWithExplanation
+    def self.type
+      "Divisibility by 10"
+    end
     def initialize
       @num =Grade6ops::divgen(10)
     end
@@ -220,6 +250,9 @@ module Chapter3
   end
 
   class Div_11 < QuestionWithExplanation
+    def self.type
+      "Divisibility by 11"
+    end
 
     def initialize
       @num =Grade6ops::divgen(11)
@@ -251,6 +284,10 @@ module Chapter3
   end
 
   class SumPrimes < QuestionBase
+    def self.type
+      "Sum of Primes"
+    end
+
     def initialize(amt = rand(2) + 2)
       #amt is the number of primes to be added (2 or 3)
 
@@ -265,7 +302,7 @@ module Chapter3
 
     def solve
       ret = {}
-      @nums.each_with_index { |num,i| ret["ans_#{i}"] = num }
+      @nums.each_with_index { |num,i| ret["ans#{i}"] = num }
       ret
     end
 
@@ -293,6 +330,9 @@ module Chapter3
 
   MAXHL=500
   class HCFLCM < QuestionWithExplanation
+    def self.type
+      "HCF and LCM"
+    end
     @@primes=[2,2,2,2,2,3,3,3,3,5,5,5,7,11]
 
     def initialize()
@@ -342,13 +382,13 @@ module Chapter3
       h2={}
       co={}
       for i in 0...@nums1.length
-        h1["pro1"+i.to_s]=@nums1[i]
+        h1["pro1_"+i.to_s]=@nums1[i]
       end
       for i in 0...@nums2.length
-        h2["pro2"+i.to_s]=@nums2[i]
+        h2["pro2_"+i.to_s]=@nums2[i]
       end
       for i in 0...@comm.length
-        co["comm"+i.to_s]=@comm[i]
+        co["comm_"+i.to_s]=@comm[i]
       end
       ret=[Subproblem.new([TextLabel.new("Write out the prime factorization of #{@pro1}"), MultiTextField.new("pro1")], h1),
         Subproblem.new([TextLabel.new("Write out the prime factorization of #{@pro2}"), MultiTextField.new("pro2")], h2),
