@@ -282,7 +282,7 @@ module ToHTML
 
     def initialize(name, label)
       super(name)
-      @label = label
+      @label = label.to_s
     end
 
     def correct?(solution, response)
@@ -308,7 +308,7 @@ module ToHTML
     attr_reader :label
     def initialize(name, text = "")
       super(name)
-      @label = text
+      @label = text.to_s
     end
   end
   
