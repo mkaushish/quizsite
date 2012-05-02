@@ -1,6 +1,0 @@
-<div id=logo>Your quiz will select from the following problems</div>
-<% @problems.each do |problem| %>
-	<div><%= problem.to_s %></div>
-<% end %>
-<%= link_to "Choose other problems", :action => :choose %> <br>
-<%= link_to "Start Quiz!", quiz_path %>
