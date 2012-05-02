@@ -54,6 +54,7 @@ Logo_400_42.jpg: Logo_400_42-f7cb1d92357a77bb83fb9fc6ad6e7c2c.jpg
 Logo_Large.jpg: Logo_Large-bc82d3fb1c071343bdaab295bef731e1.jpg
 SmartScore_107_14.png: SmartScore_107_14-2efb09e8ec8200c161f77fd6861251cd.png
 SmartScore_986_129.png: SmartScore_986_129-385453a89bcc6476e9c654dcacc52ff3.png
+alltools.png: alltools-8b0e230ee86ac1a045e7c1634592ee74.png
 bggrad.png: bggrad-cd2b638ef5b7498aec33fd6cf57ca63b.png
 binding.jpg: binding-c0551ac71b257eec7659b25123530547.jpg
 binding.png: binding-19c9e452e13bdbc3cce3b516666cc4dd.png
@@ -65,6 +66,10 @@ drawtoolsex.png: drawtoolsex-e61c608415f36768cce7d9e044b23633.png
 drawtoolsex_450_260.png: drawtoolsex_450_260-58c125546200357efdaa72b836d3d86b.png
 drawtoolsexnew_450_260.png: drawtoolsexnew_450_260-8f1d377aba863836efe302fbfef2cc04.png
 drawtoolstext.png: drawtoolstext-7bc1e0726c16a8b7863db01652453bcb.png
+dtools_all.png: dtools_all-e2244f6055724e80524b16ffc7e9075e.png
+dtools_compass.png: dtools_compass-01ddb14efc75ef01761270225f44a159.png
+dtools_prot.png: dtools_prot-6662df927d51588fc3da13cd49ca46d7.png
+dtools_stedge.png: dtools_stedge-8945185b470a691632e184c7ea52477c.png
 explain_450_260.png: explain_450_260-d74fc5331a8633dbbe7fa8c9b928fa5c.png
 explaination_cricket.png: explaination_cricket-ce70038caefe674290d595e9db02e7e8.png
 explanation.png: explanation-6513a62233afd7b99dcc428945dc2eda.png
@@ -99,8 +104,8 @@ zoombar.png: zoombar-9a9e502345ab917084e849d52bd930fa.png
 jquery-ui.min.js: jquery-ui.min-0424e108178defa1cc794ee24fc92d24.js
 jquery.min.js: jquery.min-460459a37590253002f65e6137a90b87.js
 application.js: application-371e4b5466e2643be44dfef999351850.js
-application.css: application-35c8ea960a1465171047c3d51fe9f678.css
-nondefault/drawtools.js: nondefault/drawtools-0558e1cf77509e4e4a86df2f672562da.js
+application.css: application-ea8f62d6c789daa898fd0550a493767a.css
+nondefault/drawtools.js: nondefault/drawtools-3e1d33414f65382702a764af4bade285.js
 nondefault/numberline.js: nondefault/numberline-e1509d4d2dfe96906d9460c4c8fb4a2c.js
 nondefault/graph.js: nondefault/graph-13a4ba99846042822ecc324e6356bd92.js
 nondefault/notepad.js: nondefault/notepad-953662e43b28911cfe53ff0352adc7c6.js
