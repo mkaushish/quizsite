@@ -2,13 +2,13 @@
 <p class=desc>This is our online version of a compass and straight edge! Students use it to solve geometry problems like the example below</p>  
 <%= form_tag({:action => 'check_drawing'}, :remote => true, :autocomplete => "off") do %>
   <div class=row-fluid>
-    <div class=span8>
+    <div class=span6>
       <div class=well>
         <%= hidden_field_tag 'problem_id', @problem.id %>
         <%= render :partial => 'problem/problem', :object => @problem, :locals => {:partialdir => 'problem'} %>
       </div>
     </div>
-    <div class=span4>
+    <div class=span5>
       <div class=lastgeoprob>
         <%= submit_tag "Check your answer", :class=>"btn-primary" %> 
         Explanations are pending for our geometry questions.  For now, if you need help, check out this <%= link_to "visual explanation", "#", :id=>"explain_bl" %> for a hint

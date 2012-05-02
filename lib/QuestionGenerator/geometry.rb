@@ -12,7 +12,6 @@ module Geometry
   #  -I have provided the shapesFromResponse class method to get the ruby shapes in an array from the response hash
   #  -for example usage of the GeometryField, see the BisectLine question currently located in grade6/geo.rb
   class GeometryField < InputField
-
     # Pass me the start shapes in an array, or as a list of seperate arguments
     def initialize(*args)
       if(args[0].is_a? Array)
@@ -34,6 +33,21 @@ module Geometry
 
     def encodedStartShapes
       Shape.encode_a(@shapes)
+    end
+
+    #
+    # Characteristics of the GeometryField that might be useful in geometry questions
+    #
+    def self.height
+      400
+    end
+
+    def self.width
+      400
+    end
+
+    def self.center
+      [ (self.width / 2), (self.height / 2) ]
     end
   end
 

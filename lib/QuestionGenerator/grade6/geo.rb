@@ -11,23 +11,16 @@ module Geo
   class BisectLine < QuestionBase
     attr_accessor :x1, :y1, :x2, :y2
     def initialize()
-      # It took some playing around to generate these values
-      # NOTE: One potentially useful thing I realized is that you might as well center
-      # the main object in the middle of the canvas
-      x = 0
-      y = 0
-      if(rand(2) == 1)
-        x = rand(125)
-        y = rand(20)  + 50
-      else
-        x = rand(75) + 50
-        y = rand(75)
-      end
-      y = -y if(rand(2) == 1)
-      @x1 = 275 - x
-      @y1 = 200 - y
-      @x2 = 275 + x
-      @y2 = 200 + y
+      length = rand(50) + 50        # really just half the length
+      theta  = rand() * Math::PI
+      center = GeometryField.center
+      x = (length * Math.cos(theta)).to_i
+      y = (length * Math.sin(theta)).to_i
+
+      @x1 = center[0] + x
+      @y1 = center[1] + y
+      @x2 = center[0] - x
+      @y2 = center[1] - y
     end
 
     def text
