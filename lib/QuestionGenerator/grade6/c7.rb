@@ -3,6 +3,8 @@
 require_relative './grade6ops.rb'
 require_relative '../questionbase'
 require_relative '../tohtml.rb' 
+require_relative './preg6'
+include PreG6
 include ToHTML
 
 module Chapter7

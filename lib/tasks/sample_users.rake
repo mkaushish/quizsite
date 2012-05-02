@@ -14,6 +14,7 @@ namespace :db do
       { :name => "Akhil Dhawan",         :email => "akhildhawan@gmail.com" },
       { :name => "Rajshree Sood",        :email => "rajyashreesood@yahoo.com" },
       { :name => "Sandhya Saini",        :email => "sandhyas@vasantvalley.org" },
+      { :name => "Anirudh Bhatnagar",    :email => "smita.bhatnagar@gmail.com" },
       { :name => "Karan Bedi",           :email => "karan.bedi@nowhere.com" }
     ]
 

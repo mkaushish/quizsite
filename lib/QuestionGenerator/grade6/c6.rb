@@ -5,6 +5,8 @@ require_relative './grade6ops.rb'
 require_relative '../questionbase'
 
 require_relative '../tohtml'
+require_relative './preg6'
+include PreG6
 include ToHTML
 
 module Chapter6
@@ -36,6 +38,10 @@ module Chapter6
   end
   MAXADDINT=250
   class AddIntegers < QuestionBase
+    def prereq
+      [[PreG6::Addition, 1.0], [PreG6::Addition, 1.0]]
+    end
+
     def self.type
       "Add Integers"
     end
@@ -85,6 +91,9 @@ module Chapter6
     def self.type
       "Subtract Integers"
     end
+    def prereq
+      [[PreG6::Addition, 1.0], [PreG6::Addition, 1.0]]
+    end
     def initialize
       sign=rand(2)
       if sign==0
@@ -115,6 +124,9 @@ module Chapter6
   class CompareAddSub < QuestionBase
     def self.type
       "Compare Integer Operations"
+    end
+    def prereq
+      [[Chapter6::CompareIntegers, 0.5], [Chapter6::AddIntegers, 0.25], [Chapter6::SubtractIntegers, 0.25]]
     end
     def initialize
       amt1=rand(3)+2
@@ -192,6 +204,9 @@ module Chapter6
   class AddSubIntegers < QuestionBase
     def self.type
       "Operations on Integers"
+    end
+    def prereq
+      [[Chapter6::AddIntegers, 0.5], [Chapter6::SubtractIntegers, 0.5]]
     end
     def initialize(amt=rand(3)+2)
       @nums=[]

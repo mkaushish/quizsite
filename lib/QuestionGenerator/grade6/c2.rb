@@ -1,6 +1,8 @@
 #!/usr/bin/env ruby
 require_relative './grade6ops.rb'
 require_relative '../questionbase'
+require_relative './preg6'
+include PreG6
 
 include ToHTML
 #TODO for predecessors and successors it should say first prdecessor/successsor rather than first 1 pre/successor
@@ -141,6 +143,10 @@ module Chapter2
     def self.type
       "Rearrange Sum"
     end
+    def prereq
+      [[PreG6::Addition,1.0]]
+    end
+
 
     def initialize
       sums = Array.new(2).map { rand(90) * 10**2 + 1000 }
@@ -162,6 +168,9 @@ module Chapter2
   class SuitableRearrangementProduct < RearrangementHelper
     def self.type
       "Rearrange Product"
+    end
+    def prereq
+      [[PreG6::Multiplication,1.0]]
     end
     def initialize
       nums = [10**(rand(3) + 2), Grade6ops::rand_num(0.01, 3, 4)]
@@ -197,6 +206,9 @@ module Chapter2
     def initialize
       @num1=rand(100000)+10000
       @num2=rand(100000)+10000
+    end
+    def prereq
+      [[PreG6::Addition,1.0]]
     end
     def solve
       return {"ans" => (@num1+@num2).to_s}
