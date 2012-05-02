@@ -2,10 +2,13 @@
 require_relative './grade6ops.rb'
 require_relative '../questionbase'
 require_relative '../tohtml'
+require_relative './preg6'
+
 
 
 # TODO override preprocess for the add commas question ( default is now to remove commas )
 include ToHTML
+include PreG6
 
 module Chapter1
   class FindMaxNumber < QuestionBase
@@ -59,6 +62,9 @@ module Chapter1
     def self.type
       "Order Nums"
     end
+    def prereq
+      [[Chapter1::FindMinNumber, 1.0]]
+    end
 
     def initialize()
       num_nums = rand(3) + 3 # between 3 and 5
@@ -79,6 +85,9 @@ module Chapter1
     attr_accessor :nums
     def self.type
       "Order Nums"
+    end
+    def prereq
+      [[Chapter1::FindMaxNumber, 1.0]]
     end
 
     def initialize()
@@ -230,6 +239,19 @@ module Chapter1
     end
   end
 
+  class GeneralRule < QuestionBase
+    def initialize
+      @num=rand(10000+10)
+    end
+    def solve
+      {"ans" => @num.gen_rule}
+    end
+    def text
+      [TextLabel.new("Round #{@num} using the General Rule"), TextField.new("ans")]
+    end
+  end
+
+
   class EstimateArithmetic < QuestionWithExplanation
     attr_accessor :op, :n1, :n2
     def self.type
@@ -253,6 +275,15 @@ module Chapter1
 
       swap if (@op == :-) && @n2 > @n1
     end
+    def prereq
+      gen=[[Chapter1::GeneralRule, 1.0]]
+      
+      return gen + [[PreG6::Multiplication, 0.0]] if (@op==:*) 
+      return gen + [[PreG6::Addition, 0.0]] if (@op==:+)
+      return gen + [[PreG6::Subtraction, 0.0]]
+      
+    end
+
 
     def solve
       big = bigger
@@ -344,11 +375,12 @@ module Chapter1
 
   # note that I have to be at the end to compile :(
   PROBLEMS = [  Chapter1::FindMaxNumber,      Chapter1::FindMinNumber,        
-                #Chapter1::ArrangeAscending,    Chapter1::ArrangeDescending,  
-                Chapter1::WritingIndian,      Chapter1::WritingInternational, 
-                Chapter1::ReadingIndian,      Chapter1::ReadingInternational, 
-                Chapter1::AddCommasIndian,    Chapter1::AddCommasInternational,    
-                Chapter1::EstimateArithmetic, 
-                Chapter1::ToRoman,            Chapter1::ToArabic
-             ]
+    #Chapter1::ArrangeAscending,    Chapter1::ArrangeDescending,  
+    Chapter1::WritingIndian,      Chapter1::WritingInternational, 
+    Chapter1::ReadingIndian,      Chapter1::ReadingInternational, 
+    Chapter1::AddCommasIndian,    Chapter1::AddCommasInternational,    
+    Chapter1::EstimateArithmetic, 
+    Chapter1::ToRoman,            Chapter1::ToArabic, Chapter1::GeneralRule
+  ]
 end
+

@@ -3,6 +3,7 @@ require 'c2'
 require 'c3'
 require 'c6'
 require 'c7'
+require 'physics'
 
 class ProblemanswersController < ApplicationController
   # GET /problemanswers

@@ -3,20 +3,38 @@ require_relative './grade6ops.rb'
 require_relative '../questionbase'
 
 require_relative '../tohtml.rb'
+require_relative './preg6'
+include PreG6
 require 'set'
 include ToHTML
-
 module Chapter3
   PRIMES = [2,2,2,2,2,3,3,3,3,5,5,5,7,7,11,13,17]
 
   ODDPRIMES = [3,5,7,11,13,17,19,23,29,31,37,41,43,47,53,59,61,67,71,73, 79, 83, 89, 97, 101, 103, 107,109,113,127,131,137,139,149,151,157,163,167,173,179,181,191,193,197,199,211,223,227,229,233,239,241]
   #first 20 odd primes
 
+  class IdentifyPrimes < QuestionBase
+    def initialize
+      @wh=rand(2)
+      @num=([2]+ODDPRIMES.slice(0,24)).sample if @wh==0
+      @num=rand(100+2) if @wh==1
+    end
+    def solve
+      return {"ans" => "True"} if ODDPRIMES.index(@num)!=nil
+      return {"ans" => "False"}
+    end
+    def text
+      [TextLabel.new("#{@num} is a prime: "), RadioButton.new("ans", ["True", "False"])]
+    end
+  end
 
   class PrimeFactors < QuestionWithExplanation
     attr_accessor :nums
     def self.type
       "Prime Factorization"
+    end
+    def prereq
+      [[Chapter3::IdentifyPrimes, 1.0]]
     end
     def initialize
       len             = rand(3)+3
@@ -67,9 +85,13 @@ module Chapter3
     end
   end
 
+
   class Factors < QuestionBase
     def self.type
       "Factorization"
+    end
+    def prereq
+      [[Chapter3::PrimeFactors, 1.0]]
     end
     attr_accessor :nums
     def initialize
@@ -93,6 +115,9 @@ module Chapter3
   class CommonFactors < QuestionBase
     def self.type
       "Common Factors"
+    end
+    def prereq
+      [[Chapter3::Factors, 1.0]]
     end
     def initialize
       op=[2]+ODDPRIMES
@@ -287,6 +312,9 @@ module Chapter3
     def self.type
       "Sum of Primes"
     end
+    def prereq
+      [[Chapter3::IdentifyPrimes, 1.0], [PreG6::Addition, 0.0]]
+    end
 
     def initialize(amt = rand(2) + 2)
       #amt is the number of primes to be added (2 or 3)
@@ -334,9 +362,11 @@ module Chapter3
       "HCF and LCM"
     end
     @@primes=[2,2,2,2,2,3,3,3,3,5,5,5,7,11]
+    def prereq
+      [[Chapter3::PrimeFactors, 1.0], [PreG6::Multiplication, 0.0]]
+    end
 
     def initialize()
-
       @nums1=Array.new
       @pro1=MAXHL+1
       while @pro1 > MAXHL
@@ -401,7 +431,7 @@ module Chapter3
   end
 
 
-  PROBLEMS = [  Chapter3::PrimeFactors,    Chapter3::Factors,  Chapter3::CommonFactors,
+  PROBLEMS = [ Chapter3::IdentifyPrimes,  Chapter3::PrimeFactors,    Chapter3::Factors,  Chapter3::CommonFactors,
     Chapter3::Div_39, Chapter3::Div_248, Chapter3::Div_5, Chapter3::Div_10, Chapter3::Div_11,
     Chapter3::SumPrimes, Chapter3::HCFLCM
   ]

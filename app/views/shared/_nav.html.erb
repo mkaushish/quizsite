@@ -12,7 +12,7 @@
             <li class=active><%= link_to quiz_name, "#" %></li>
           <% else %>
             <li class=<%= selected?("profile")  %>><%= link_to "My Profile", profile_path  %></li>
-            <li class=<%= selected?("makequiz") %>><%= link_to "Make Quiz",  new_quiz_path %></li>
+            <li class=<%= selected?("makequiz") %>><%= link_to "New Quiz",  new_quiz_path %></li>
             <li class="dropdown <%= selected?("quiz") %>">
             <%= link_to "Start Quiz", "#", :class => "dropdown-toggle", "data-toggle" => "dropdown" %>
             <ul class="dropdown-menu nav-dropdown">
