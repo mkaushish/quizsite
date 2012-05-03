@@ -8,25 +8,29 @@ include ToHTML
 
 module PreG6
   class Addition
-    def initialize
-      ln=rand(3)+2
-      @nums=[]
-      for i in 0...ln
-        @nums.push(rand(100)+2)
+
+    def initialize(nums = nil)
+      if nums.nil?
+        num_nums = rand(3)+2
+        @nums = Array.new(num_nums) { rand(100) + 2 }
+      else
+        @nums = nums
       end
     end
+
     def solve
-      return {"ans" => @nums.reduce(:*)}
+      return {"ans" => @nums.reduce(:+)}
     end
+
     def text
       [TextLabel.new(@nums.join(" + ")+" = "), TextField.new("ans")]
     end
   end
 
   class Subtraction
-    def initialize
-      @num1=rand(100)+2
-      @num2=rand(@num1-2)+2
+    def initialize(num1 = nil, num2 = nil)
+      @num1 = num1.nil? ? rand(100)+2 : num1
+      @num2 = num2.nil? ? rand(@num1-2)+2 : num2
     end
     def solve
       return {"ans" => @num1-@num2}
@@ -38,9 +42,9 @@ module PreG6
 
 
   class Multiplication
-    def initialize
-      @num1=rand(20)+2
-      @num2=rand(@num1-2)+2
+    def initialize(num1 = nil, num2 = nil)
+      @num1 = num1.nil? ? rand(20)+2 : num1
+      @num2 = num2.nil? ? rand(@num1-2)+2 : num2
     end
     def solve
       return {"ans" => @num1*@num2}
@@ -53,9 +57,9 @@ module PreG6
 
   
   class Division
-    def initialize
-      @num1=rand(20)+2
-      @num2=@num1*rand(8+2)
+    def initialize(num1 = nil, num2 = nil)
+      @num1 = num1.nil? ? rand(20)+2 : num1
+      @num2 = num2.nil? ? @num1*rand(8+2) : num2
     end
     def solve
       return {"ans" => @num2/@num1}

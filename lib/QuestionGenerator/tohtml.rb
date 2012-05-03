@@ -224,6 +224,14 @@ module ToHTML
     end
   end
 
+  class TextTable < TableField
+    def initialize(table)
+      @table = table.map { |row| row.map { |elt| TextLabel.new(elt) } }
+      @nrows = table.length
+      @ncols = table[0].length
+    end
+  end
+
   class TextLabel < HTMLObj
     def initialize(string)
       @string = string.to_s

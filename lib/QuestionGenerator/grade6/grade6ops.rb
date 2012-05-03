@@ -281,8 +281,7 @@ class Fixnum
   def to_roman
     number = to_i     
     rom=""
-    @@roman.keys.sort{ |a,b| b <=> a }.each do
-      |n|
+    @@roman.keys.sort{ |a,b| b <=> a }.each do |n|
       while number >= n
         number = number-n
         rom= rom +@@roman[n]

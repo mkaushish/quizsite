@@ -11,15 +11,35 @@ include ToHTML
 include PreG6
 
 module Chapter1
+  ROMAN_TABLE = TextTable.new( [
+     [ 1 , "I" ],
+     [ 4 , "IV" ],
+     [ 5 , "V" ],
+     [ 9 , "IX" ],
+     [ 10 , "X" ],
+     [ 40 , "XL" ],
+     [ 50 , "L" ],
+     [ 90 , "XC" ],
+     [ 100 , "C" ],
+     [ 400 , "CD" ],
+     [ 500 , "D" ],
+     [ 900 , "CM" ],
+     [ 1000 , "M" ]
+  ])
+
   class FindMaxNumber < QuestionBase
     attr_accessor :nums
     def self.type
       "Maximum Num"
     end
 
-    def initialize()
-      num_nums = rand(3) + 3 # between 3 and 5
-      @nums = Array.new(num_nums).map { Grade6ops::rand_num }
+    def initialize(nums = nil)
+      if nums.nil?
+        num_nums = rand(3) + 3 # between 3 and 5
+        @nums = Array.new(num_nums).map { Grade6ops::rand_num }
+      else
+        @nums = nums
+      end
     end
 
     def solve
@@ -40,9 +60,13 @@ module Chapter1
       "Minimum Num"
     end
 
-    def initialize()
-      num_nums = rand(3) + 3 # between 3 and 5
-      @nums = Array.new(num_nums).map { Grade6ops::rand_num }
+    def initialize(nums = nil)
+      if nums.nil?
+        num_nums = rand(3) + 3 # between 3 and 5
+        @nums = Array.new(num_nums).map { Grade6ops::rand_num }
+      else
+        @nums = nums
+      end
     end
 
     def solve
@@ -239,15 +263,31 @@ module Chapter1
     end
   end
 
-  class GeneralRule < QuestionBase
-    def initialize
-      @num=rand(10000+10)
+  class RoundingNumbers < QuestionWithExplanation
+    attr_accessor :num
+
+    def self.type
+      "Rounding Nums"
     end
+
+    def initialize(num = nil)
+      @num = num.nil? ? Grade6ops::rand_num(0.1, 4, 8) : num
+    end
+
     def solve
       {"ans" => @num.gen_rule}
     end
+
     def text
-      [TextLabel.new("Round #{@num} using the General Rule"), TextField.new("ans")]
+      [ TextLabel.new("Round #{@num} using the General Rule"), 
+        TextField.new("ans")
+      ]
+    end
+
+    def explain
+      [ Subproblem.new( [
+          TextLabel.new("A \"round number\" has all 0's after the first digit.  To round off #{@num}, we pick the closest round number, which is #{@num.gen_rule}") ], {} )
+      ]
     end
   end
 
@@ -266,14 +306,20 @@ module Chapter1
       (@n1 > @n2) ? n2 : n1
     end
 
-    def initialize
-      @op = Grade6ops::random_elt(:+, :-, :*)
-      min = (@op == :*) ? 2 : 3
-      max = (@op == :*) ? 4 : 5
-      @n1 = Grade6ops::rand_num(0.01, min, max)
-      @n2 = Grade6ops::rand_num(0.01, min, max)
+    def initialize(op = nil, nums = nil)
+      @op = op.nil? ? Grade6ops::random_elt(:+, :-, :*) : op
 
-      swap if (@op == :-) && @n2 > @n1
+      if nums.nil?
+        min = (@op == :*) ? 2 : 3
+        max = (@op == :*) ? 4 : 5
+        @n1 = Grade6ops::rand_num(0.01, min, max)
+        @n2 = Grade6ops::rand_num(0.01, min, max)
+
+        swap if (@op == :-) && @n2 > @n1
+      else
+        @n1 = nums[0]
+        @n2 = nums[1]
+      end
     end
     def prereq
       gen=[[Chapter1::GeneralRule, 1.0]]
@@ -281,16 +327,12 @@ module Chapter1
       return gen + [[PreG6::Multiplication, 0.0]] if (@op==:*) 
       return gen + [[PreG6::Addition, 0.0]] if (@op==:+)
       return gen + [[PreG6::Subtraction, 0.0]]
-      
     end
 
 
     def solve
-      big = bigger
-      small = smaller
-
-      small = small.gen_rule
-      big = big.round(small.to_s.length - 1)
+      small = smaller.gen_rule
+      big = bigger.round(small.to_s.length - 1)
 
       {"ans" => big.send(@op, small)}
     end
@@ -301,7 +343,7 @@ module Chapter1
       ]
     end
 
-    def explain
+    def explain_part
       small = smaller
       big = bigger
       small_round = small.gen_rule
@@ -309,29 +351,73 @@ module Chapter1
       solution = big_round.send(@op, small_round)
 
       return [ 
-        Subproblem.new( [ TextLabel.new("First pick the smallest number, because we need to round off to the most significant digit of " + 
-                                        "the smaller number"),
-                                        RadioButton.new("small", @n1, @n2)
-      ], {"small" => smaller}),
-        Subproblem.new(  [ TextLabel.new("Now round off #{small} according to the general rule for rounding"),
-                       TextField.new("small_round")
-      ], {"small_round" => smaller.gen_rule}),
-        Subproblem.new( [ TextLabel.new("Because #{small} is #{small.to_s.length} digits long, we need to round off the last " +
-                                        "#{small.to_s.length - 1} digits of #{big}.  This gives us"),
-                                        TextField.new("big_round")
-      ], {"big_round" => bigger.round(small.to_s.length - 1)} ),
-        Subproblem.new( [ TextLabel.new("Finally, we can calculate the answer:"),
-                       TextField.new("solution", "#{big_round} #{@op} #{small_round} = ")
-      ], {"solution" => solution} )
+        FindMinNumber.new([small, big]),
+        RoundingNumbers.new(small),
+        Subproblem.new( [ 
+            TextLabel.new("Because #{small} is #{small.to_s.length} digits long, we need to round off the last #{small.to_s.length - 1} digits of #{big}.  This gives us"),
+            TextField.new("big_round")
+          ], 
+          {"big_round" => bigger.round(small.to_s.length - 1)} 
+        )
       ]
     end
 
-    private
+    protected
+
+    def big_round
+      bigger.round(smaller.to_s.length - 1)
+    end
+
+    def small_round
+      smaller.gen_rule
+    end
 
     def swap
       tmp = @n1
       @n1 = @n2
       @n2 = tmp
+    end
+  end
+
+  class EstimateAddition < EstimateArithmetic
+    def self.type
+      "Est Addition"
+    end
+
+    def initialize(nums = nil)
+      super(:+, nums)
+    end
+
+    def explain
+      explain_part << PreG6::Addition.new([big_round, small_round])
+    end
+  end
+
+  class EstimateSubtraction < EstimateArithmetic
+    def self.type
+      "Est Subtraction"
+    end
+
+    def initialize(nums = nil)
+      super(:-, nums)
+    end
+
+    def explain
+      explain_part << PreG6::Subtraction.new(big_round, small_round)
+    end
+  end
+
+  class EstimateProduct < EstimateArithmetic
+    def self.type
+      "Est Product"
+    end
+
+    def initialize(nums = nil)
+      super(:*, nums)
+    end
+
+    def explain
+      explain_part << PreG6::Multiplication.new(big_round, small_round)
     end
   end
 
@@ -354,7 +440,7 @@ module Chapter1
     end
   end
 
-  class ToArabic < QuestionBase
+  class ToArabic < QuestionWithExplanation
     attr_accessor :num
     def self.type
       "To Arabic Nums"
@@ -363,24 +449,54 @@ module Chapter1
     def initialize
       @num=rand(Grade6ops::MAX_ROMANNUM - Grade6ops::MIN_ROMANNUM) + Grade6ops::MIN_ROMANNUM
     end
+
     def solve 
       {"ans" => @num} 
     end
-    def  text
+
+    def text
       [ TextLabel.new("Convert #{@num.to_roman} to Hindu-Arabic Numerals"),
         TextField.new("ans")
       ]
     end
+
+    def explain
+      roman = @num.to_roman
+      romans = Fixnum.class_variable_get :@@roman
+      tally = 0
+      tally_table = [ [ "Roman Numerals", "Tally" ], [ roman.clone, tally ] ]
+      romans.keys.reverse.each do |k|
+        v = romans[k]
+        while roman =~ /^\s*#{v}/i do
+          roman.sub!(/^\s*#{v}/i, "")
+          tally += k
+          tally_table << [ roman.clone, tally ]
+        end
+      end
+
+      [
+        Subproblem.new( [
+          TextLabel.new("Remember the values of the roman numerals below"),
+          ROMAN_TABLE,
+          TextLabel.new( "Now just go through the number #{@num.to_roman}, adding up the values from the table"),
+          TextTable.new(tally_table)
+        ])
+      ]
+
+    end
   end
 
   # note that I have to be at the end to compile :(
-  PROBLEMS = [  Chapter1::FindMaxNumber,      Chapter1::FindMinNumber,        
+  PROBLEMS = [  
+    Chapter1::FindMaxNumber,      Chapter1::FindMinNumber,        
     #Chapter1::ArrangeAscending,    Chapter1::ArrangeDescending,  
     Chapter1::WritingIndian,      Chapter1::WritingInternational, 
     Chapter1::ReadingIndian,      Chapter1::ReadingInternational, 
     Chapter1::AddCommasIndian,    Chapter1::AddCommasInternational,    
-    Chapter1::EstimateArithmetic, 
-    Chapter1::ToRoman,            Chapter1::ToArabic, Chapter1::GeneralRule
+    Chapter1::RoundingNumbers,
+    Chapter1::EstimateAddition,   Chapter1::EstimateSubtraction,
+    Chapter1::EstimateProduct,
+    Chapter1::ToRoman,            Chapter1::ToArabic
   ]
 end
 
