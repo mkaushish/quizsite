@@ -1,7 +1,7 @@
 <% unless @problem.prob.is_a? QuestionWithExplanation %>
   <p>We're sorry, this problem doesn't seem to have an explanation.</p>
 <% else %>
-  <div id=quiz>
+  <div class="well span6" id=quiz>
     
   <div id=quizheader>How to use the general rule to estimate.</div>
   <%= render :partial => 'explanation' %>
