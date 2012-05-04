@@ -9,6 +9,7 @@ class PagesController < ApplicationController
       @nav_selected = "home"
     end
   end
+
   def nologinhome
     if signed_in?
       @user = current_user;
@@ -36,11 +37,6 @@ class PagesController < ApplicationController
     render 'fasthome'
   end
 
-  def signinpage
-    @title = "Sign In"
-    @nav_selected = "signinpage"
-  end
-
   def exampleprobs
     @title = "Examples"
     @nav_selected = "features"
@@ -65,6 +61,7 @@ class PagesController < ApplicationController
     @title = "Graph"
     @nav_selected = "features"
   end
+
   def notepad
     @title = "Notepad"
     @nav_selected = "features"
