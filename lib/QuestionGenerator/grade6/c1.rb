@@ -12,19 +12,13 @@ include PreG6
 
 module Chapter1
   ROMAN_TABLE = TextTable.new( [
-     [ 1 , "I" ],
-     [ 4 , "IV" ],
-     [ 5 , "V" ],
-     [ 9 , "IX" ],
-     [ 10 , "X" ],
-     [ 40 , "XL" ],
-     [ 50 , "L" ],
-     [ 90 , "XC" ],
-     [ 100 , "C" ],
-     [ 400 , "CD" ],
-     [ 500 , "D" ],
-     [ 900 , "CM" ],
-     [ 1000 , "M" ]
+     [ 1 , "=", "I" , "", 90  , "=", "XC"],
+     [ 4 , "=", "IV", "", 100 , "=", "C" ],
+     [ 5 , "=", "V" , "", 400 , "=", "CD"],
+     [ 9 , "=", "IX", "", 500 , "=", "D" ],
+     [ 10, "=", "X" , "", 900 , "=", "CM"],
+     [ 40, "=", "XL", "", 1000, "=", "M" ],
+     [ 50, "=", "L" , "", "",   "",  ""  ]
   ])
 
   class FindMaxNumber < QuestionBase
@@ -421,7 +415,7 @@ module Chapter1
     end
   end
 
-  class ToRoman < QuestionBase
+  class ToRoman < QuestionWithExplanation
     attr_accessor :num
     def self.type
       "To Roman Nums"
@@ -433,9 +427,36 @@ module Chapter1
     def solve
       {"ans" => @num.to_roman}
     end
+
     def text
       [ TextLabel.new("Convert #{@num} to Roman Numerals"),
         TextField.new("ans")
+      ]
+    end
+
+    def explain
+      romans = Fixnum.class_variable_get :@@roman
+      num_remaining = @num
+      tally = 0
+      roman_tally = ""
+      tally_table = [ [ "Number", "", "", "Tally" ], [ @num, "", "", "" ] ]
+      romans.keys.reverse.each do |k|
+        v = romans[k]
+        while num_remaining >= k
+          tally += k
+          num_remaining -= k
+          roman_tally = roman_tally + v
+          tally_table << [ num_remaining, tally, "=", roman_tally ]
+        end
+      end
+
+      [
+        Subproblem.new( [
+          TextLabel.new("To convert from roman numerals, you need to memorize the table below"),
+          ROMAN_TABLE,
+          TextLabel.new( "Now go through the table from the biggest numeral to the smallest.  Each time you're on a numeral that's smaller than what's left of your number, take it away from your number, and add it to the roman numeral you're making.  Follow the example below for the number #{@num}:"),
+          TextTable.new(tally_table)
+        ])
       ]
     end
   end
@@ -464,19 +485,21 @@ module Chapter1
       roman = @num.to_roman
       romans = Fixnum.class_variable_get :@@roman
       tally = 0
-      tally_table = [ [ "Roman Numerals", "Tally" ], [ roman.clone, tally ] ]
+      roman_tally = ""
+      tally_table = [ [ "Roman Numerals", "", "", "Tally" ], [ roman.clone, "", "", tally ] ]
       romans.keys.reverse.each do |k|
         v = romans[k]
         while roman =~ /^\s*#{v}/i do
           roman.sub!(/^\s*#{v}/i, "")
           tally += k
-          tally_table << [ roman.clone, tally ]
+          roman_tally = roman_tally + v
+          tally_table << [ roman.clone, roman_tally, "=", tally ]
         end
       end
 
       [
         Subproblem.new( [
-          TextLabel.new("Remember the values of the roman numerals below"),
+          TextLabel.new("To convert to roman numerals, you need to memorize the table below"),
           ROMAN_TABLE,
           TextLabel.new( "Now just go through the number #{@num.to_roman}, adding up the values from the table"),
           TextTable.new(tally_table)
