@@ -173,7 +173,7 @@ module Chapter1
     end
   end
 
-  class AddCommasIndian < QuestionBase
+  class AddCommasIndian < QuestionWithExplanation
     attr_accessor :num
     def self.type
       "Adding Commas (I)"
@@ -192,9 +192,18 @@ module Chapter1
         TextField.new("ans", @num)
       ]
     end
+
+    def explain
+      [
+        Subproblem.new( [
+            TextLabel.new("To add commas to to a number, always start from the right side (The side with the \"least significant digit\").  Count 3 digits over, and add a comma there.  After that one, add a comma every two digits.  This way #{@num} becomes #{@num.ind_commas}")
+          ], {} 
+        )
+      ]
+    end
   end
 
-  class AddCommasInternational < QuestionBase
+  class AddCommasInternational < QuestionWithExplanation
     attr_accessor :num
     def self.type
       "Adding Commas"
@@ -211,6 +220,14 @@ module Chapter1
     def text
       [ TextLabel.new("Add commas to this number according to the International System of Numeration"),
         TextField.new("ans", @num)
+      ]
+    end
+
+    def explain
+      [ Subproblem.new( [
+            TextLabel.new("To add commas to to a number, always start from the right side (The side with the \"least significant digit\").  Then keep moving 3 digits left and adding a comma, until you hit the end of the number.  This way #{@num} becomes #{@num.int_commas}")
+          ], {} 
+        )
       ]
     end
   end
