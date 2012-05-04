@@ -12,14 +12,11 @@ class PagesController < ApplicationController
 
   def nologinhome
     if signed_in?
-      @user = current_user;
-      @title = @user.name
-      @problemanswers = @user.problemanswers
-      @nav_selected = "profile"
-      render 'users/show'
+      redirect_to profile_path
     else
       @fastnav = true
       @nav_selected = "home"
+      @fakesignin = true
     end
   end
 

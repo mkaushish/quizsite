@@ -1,5 +1,8 @@
-<%= render :partial => 'nologinhome' %>
+<%= render :partial => 'home' %>
 <%= render :partial => 'features' %>
 <%= render :partial => 'about' %>
-<%= render :partial => 'nosignin' %>
-<br class="ending">
+<script>
+  $(function () {
+    $('#<%= @nav_selected %>link').trigger('click');
+  });
+</script>
