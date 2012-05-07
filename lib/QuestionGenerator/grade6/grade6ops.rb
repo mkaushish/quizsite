@@ -22,12 +22,13 @@ module Grade6ops
     factors.uniq.sort
   end
 
-  # gen a random digit with a greater than average weighted chance to be 0
-  def Grade6ops.w_rand_dig(p_zero = 0.33)
+  # gen a random number with a greater than average weighted chance to be 0
+  # default is a random digit: 0 - 9
+  def Grade6ops.w_rand_dig(p_zero = 0.33, max = 9)
     p_nonzero = 1.0 - p_zero
-    int_range = (9.0/p_nonzero).to_i
+    int_range = (max.to_f / p_nonzero).to_i
     ret = rand(int_range) + 1
-    ret = 0 if ret >= 10
+    ret = 0 if ret > max
     ret
   end
 

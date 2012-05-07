@@ -8,7 +8,8 @@ include PreG6
 require 'set'
 include ToHTML
 module Chapter3
-  PRIMES = [2,2,2,2,2,3,3,3,3,5,5,5,7,7,11,13,17]
+  SMALL_PRIMES    = [2, 3, 5, 7, 11, 13, 17]
+  WEIGHTED_PRIMES = [2,2,2,2,2,3,3,3,3,5,5,5,7,7,11,13,17]
 
   ODDPRIMES = [3,5,7,11,13,17,19,23,29,31,37,41,43,47,53,59,61,67,71,73, 79, 83, 89, 97, 101, 103, 107,109,113,127,131,137,139,149,151,157,163,167,173,179,181,191,193,197,199,211,223,227,229,233,239,241]
   #first 20 odd primes
@@ -33,16 +34,16 @@ module Chapter3
     def self.type
       "Prime Factorization"
     end
+
     def prereq
       [[Chapter3::IdentifyPrimes, 1.0]]
     end
+
     def initialize
       len             = rand(3)+3
-       
-      @nums = [17,17,17,17,17,17]
-      while @nums.reduce(:*) > 600 
-        @nums = Array.new(len) { |i| PRIMES[rand(PRIMES.length)] }
-      end
+      begin
+        @nums = Array.new(len) { |i| WEIGHTED_PRIMES.sample }
+      end while @nums.reduce(:*) > 600 
     end
 
     def solve
@@ -50,31 +51,29 @@ module Chapter3
     end
 
     def explain  
-      num=@nums.reduce(:*)
-      ret=[]
-      trac=[]
-      for i in 0...PRIMES.length
-        trac[i]=0
-      end
-      i=0
-      while i<PRIMES.length
-        if num==1
-          break
+      num  = @nums.reduce(:*)
+      i    = 0
+      p_no = 0 # for the soln indices
+
+      ret  = [ Subproblem.new( [ TextLabel.new("To get the prime factors of a number, you have to go through the list of prime numbers.  On each prime number you check if your number is divisible by that prime.  If it is, you divide out the prime as many times as possible, and keep adding that prime to your list of factors.  Then you move on to the next prime.  We'll walk through these steps for the prime factors of #{num}") ], {} )
+      ]
+
+      SMALL_PRIMES.each do |curprime|
+        break if num==1
+
+        ret << PreG6::IsDivisible.new(curprime, num) unless curprime > num/2
+        while num % curprime == 0 do
+          if num == curprime
+            ret << Subproblem.new( [ TextLabel.new("Since #{curprime} is prime, we know we've reached the end, and #{curprime} is the last prime factor.  Hence, the prime factors of #{num} are { #{@nums.join(", ")} }") ], {})
+            return ret
+          end
+
+          ret << PreG6::Division.new(curprime, num)
+          num      = num/curprime
+
+          ret << PreG6::IsDivisible.new(curprime, num) unless (curprime > num/2)
         end
-        curprime=PRIMES[i]
-        if num % curprime==0
-          ret << Subproblem.new([TextLabel.new("Does #{curprime} divide #{num} with no remainder?"), RadioButton.new("iprime"+curprime.to_s+"no"+trac[i].to_s, an=TextField.new("prime"+curprime.to_s+"no"+trac[i].to_s,"Yes. Divide #{num} by #{curprime}"), "No")], {"iprime"+curprime.to_s+"no"+trac[i].to_s => an, "prime"+curprime.to_s+"no"+trac[i].to_s => num/curprime})   
-          num=num/curprime
-
-          trac[i]+=1
-
-        else
-          ret << Subproblem.new([TextLabel.new("Does #{curprime} divide #{num} with no remainder?"), RadioButton.new("iprime"+curprime.to_s+"no"+trac[i].to_s, TextField.new("prime"+curprime.to_s+"no"+trac[i].to_s,"Yes. Divide #{num} by #{curprime}"), "No")], {"iprime"+curprime.to_s+"no"+trac[i].to_s => "No"})   
-          i+=1
-
-        end
       end
-      ret << Subproblem.new(TextLabel.new("Since we have reached 1, the process of Prime Factorization is complete. Hence, the prime factors of #{@nums.reduce(:*)} are #{@nums.join(", ")}"))
 
       ret
     end
@@ -98,7 +97,7 @@ module Chapter3
       len             = rand(2)+2
       highest_prime_i = 13
 
-      @nums = Array.new(len) { |i| PRIMES[rand(highest_prime_i+1)] }
+      @nums = Array.new(len) { |i| WEIGHTED_PRIMES.sample }
     end
 
     def solve
