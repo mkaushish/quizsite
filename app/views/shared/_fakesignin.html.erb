@@ -1,13 +1,13 @@
-<%= form_for(:session, {:url => sessions_path, :html => {:class => "signin"}}) do |f| %>
-  <div class = "field">
-    <%= f.text_field :text1, :placeholder=>"I'm Not Real" %>
-    <%= f.text_field :text2, :placeholder => "Click Sign In ->" %>
+<div class=nav-collapse>
+  <%= form_for(:session, {:url => sessions_path, :html => {:class => "mynavbar-form"}, :remote => true}) do |f| %>
     <%= hidden_field_tag 'email', "exampleuser@gmail.com" %>
     <%= hidden_field_tag 'password', "examplepassword" %>
-  </div>
-  <div class = "actions">
-    <%= f.submit "Sign in", :class=>"btn-primary" %>
-    <%= f.submit "Register", :class=>"btn-primary", :disabled=>"true" %>
-  </div>
-  <div class = "break"></div>
-<% end %>
+    <ul class="nav pull-right">
+      <li class=divider-vertical></li>
+      <li class=text id=userfield> <%= f.text_field :notemail, :placeholder=>"I'm Not Real" %> </li>
+      <li class=text id=psswfield> <%= f.password_field :notpassword, :placeholder => "Click Sign In" %> </li>
+      <li class=button ><%= f.submit "Sign in",  :class=>"btn-success" %>
+      <%= f.submit "Register", :class=>"btn-primary", :disabled=>"true" %></li>
+    </ul>
+  <% end %>
+</div>

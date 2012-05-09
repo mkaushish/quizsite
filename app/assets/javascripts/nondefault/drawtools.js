@@ -439,7 +439,7 @@ $(function() {
     }
     this.toString = function() {
       //return "(Line from " + x1 + ", " + y1 + " to " + x2 + ", " + y2 + ")";
-      return "L<sub>" + this.num + "</sub>"
+      return "l<sub>" + this.num + "</sub>"
     }
     this.encode = function() {
       return "line:"+this.x1+":"+this.y1+":"+this.x2+":"+this.y2;
@@ -472,7 +472,7 @@ $(function() {
     }
     this.toString = function() {
       //return "(Circle " + x + ", " + y + ", " + r.toFixed(3) + ")"; //round of radius to 3 digs
-      return "C<sub>"+this.num+"</sub>";
+      return "c<sub>"+this.num+"</sub>";
     }
     this.encode = function() {
       return "circle:"+this.x+":"+this.y+":"+this.r;

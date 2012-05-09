@@ -9,16 +9,14 @@ class PagesController < ApplicationController
       @nav_selected = "home"
     end
   end
+
   def nologinhome
     if signed_in?
-      @user = current_user;
-      @title = @user.name
-      @problemanswers = @user.problemanswers
-      @nav_selected = "profile"
-      render 'users/show'
+      redirect_to profile_path
     else
       @fastnav = true
       @nav_selected = "home"
+      @fakesignin = true
     end
   end
 
@@ -34,11 +32,6 @@ class PagesController < ApplicationController
     @title = "About Us"
     @nav_selected = "about"
     render 'fasthome'
-  end
-
-  def signinpage
-    @title = "Sign In"
-    @nav_selected = "signinpage"
   end
 
   def exampleprobs
@@ -65,6 +58,7 @@ class PagesController < ApplicationController
     @title = "Graph"
     @nav_selected = "features"
   end
+
   def notepad
     @title = "Notepad"
     @nav_selected = "features"

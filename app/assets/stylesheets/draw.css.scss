@@ -1,41 +1,61 @@
 @import 'mixins_n_colors';
 
 #canvas {
-  border: 2px solid black;
+  border: 1px solid black;
   float: left;
-  width: 550; 
-  height: 400;
+  background-color:white;
 }
 
 #shapes {
+  float:left;
   div {
-    width:100px;
+    color:white;
+    width:16px;
     padding:2px;
-    margin:5px;
+    margin-bottom:5px;
     text-align:center;
     font-style:italic;
-    @include rounded-corners(10px);
+    // @include rounded-corners(10px);
   }
 }
-#tools  {
-  div {
-    @include rounded-corners(10px);
-    float:left;
-    margin:5px;
-    padding:7px;
-    border: 2px solid $graphite;
-    height:30px;
-    span {
-      padding:4px 7px 4px 7px;
-    }
-    input[type="checkbox"] {
-      position:relative;
-      top:3px;
-    }
-  }
 
-  .selected {
-    background-color:$graphite;
-    color:white;
+#tools  {
+  height:70px;
+  div {
+    margin-top:20px;
+    height:50px;
+    width:50px;
+    float:left;
+    &:hover {
+      margin-top:10px;
+      height:60px;
+    }
   }
+  .selected {
+    margin-top:0px;
+    height:70px;
+    &:hover {
+      margin-top:0px;
+      height:70px;
+    }
+  }
+  input[type="checkbox"] {
+    position:relative;
+    top:3px;
+  }
+  input[type="text"] {
+    width:100px;
+  }
+}
+
+#compass {
+  background: transparent url('dtools_all.png') -100px 0 no-repeat;
+}
+
+#protractor {
+  background: transparent url('dtools_all.png') 0 0 no-repeat;
+}
+
+#line {
+  background: transparent url('dtools_all.png') -50px 0 no-repeat;
 }

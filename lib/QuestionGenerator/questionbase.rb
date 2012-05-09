@@ -147,3 +147,9 @@ class Subproblem < QuestionBase
     @mysoln
   end
 end
+
+class SubLabel < Subproblem
+  def initialize(labeltext)
+    super( [ ToHTML::TextLabel.new(labeltext) ], {} )
+  end
+end
