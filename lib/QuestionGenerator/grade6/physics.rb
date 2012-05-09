@@ -51,6 +51,9 @@ module Physics
       [Subproblem.new([TextLabel.new("The speed of sound in air is #{SOUNDSPEED} m/s. The distance to the wall is #{@dist} meters. What is the total distance the sound has travelled? Hint: The sound travels to the wall and then returns back, so the distance will be double the distance to the wall"), TextField.new("totd", "Total Distance")], {"totd" => @dist*2}),
         Subproblem.new([TextLabel.new("Now, find the number of seconds required for the sound to travel this distance. Hint: Time = Distance / Speed"), TextField.new("time", "Seconds")], {"time" => solve["ans"]})]
     end  
+    def correct?(params)
+      HTMLObj::get_result("ans", params).to_f==solve["ans"]
+    end  
    
     def text
       str=""

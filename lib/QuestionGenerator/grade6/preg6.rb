@@ -55,14 +55,13 @@ module PreG6
   class Division
     def initialize
       @num1=rand(20)+2
-      @num2=@num1*rand(8+2)
+      @num2=rand(500)+30
     end
     def solve
-      return {"ans" => @num2/@num1}
+      return {"quo" => @num2/@num1, "rem" => @num2-(@num2/@num1)*@num1}
     end
     def text
-      uni='\U000F7'
-      [TextLabel.new("#{@num2} / #{@num1} = "), TextField.new("ans")]
+      [TextLabel.new("#{@num2} / #{@num1} = "), TextField.new("quo", "Quotient"), TextField.new("rem", "Remainder")]
     end
   end
 end
