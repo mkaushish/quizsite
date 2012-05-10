@@ -26,7 +26,7 @@ class ProblemController < ApplicationController
         if signed_in?
           if in_quiz?
             #redirect_to quiz_path
-            render :js => "window.location = '/startquiz'"
+            render :js => "window.location.href = '/startquiz'"
           else
             render :js => "window.location = '/profile'"
           end
