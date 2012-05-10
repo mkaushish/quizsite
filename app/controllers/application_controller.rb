@@ -1,22 +1,11 @@
-require 'c1'
-require 'c2'
-require 'c3'
-require 'c6'
-require 'c7'
-require 'c8'
-require 'geo'
-# require 'c10'
-# require 'c12'
-require 'crqu'
-require 'physics'
-
+require 'grade6'
 
 class ApplicationController < ActionController::Base
   protect_from_forgery
   include SessionsHelper
   include ApplicationHelper
 
-  @@all_chapters = [CricketQuestions, Chapter1, Chapter2, Chapter3, Chapter6, Chapter7, Chapter8, Geo, Physics]
+  @@all_chapters = [CricketQuestions, Chapter1, Chapter2, Chapter3, Chapter4, Chapter6, Chapter7, Chapter8, Geo, Physics]
   def get_next_ptype
     plist = get_probs
     plist = all_probs if plist.empty?

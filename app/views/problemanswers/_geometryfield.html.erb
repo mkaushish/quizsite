@@ -1,17 +1,20 @@
 <%= content_for :head do %>
   <%= javascript_include_tag "nondefault/drawtools" %>
 <% end %>
-<div id=tools>
-  <div id="clear" >Clear</div>
-  <div id="protractor" ></div>
-  <div id="line" ></div>
-  <div id = "compass" class=selected></div>
-  <input type="checkbox" id="usecirclesize">
-  <input type="text" id="circlesize" placeholder="<- lock radius">
-  <!-- button id="ruler">Ruler</button -->
-</div>
+
+<% if geometryfield.is_a?(GeometryField) %>
+  <div id=tools>
+    <div id="clear" >Clear</div>
+    <div id="protractor" ></div>
+    <div id="line" ></div>
+    <div id = "compass" class=selected></div>
+    <input type="checkbox" id="usecirclesize">
+    <input type="text" id="circlesize" placeholder="<- lock radius">
+    <!-- button id="ruler">Ruler</button -->
+  </div>
+<% end %>
 <div>
-    <canvas id="canvas" height="400" width="400"> 
+  <canvas id="canvas" height="<%= geometryfield.class.height %>" width="<%= geometryfield.class.width %>"> 
     Your browser does not support the HTML5 Canvas feature. This app uses new HTML5 features and will only work on the latest versions of Firefox, Safari or Chrome (and maybe Internet Explorer 9).         
     </canvas>   
   <div id="shapes"></div>
@@ -19,4 +22,6 @@
 </div>
 <% shapes = geometryfield.encodedStartShapes %>
 <%= hidden_field_tag('startshapes', shapes)   %>
-<%= hidden_field_tag geometryfield.name, "" %>
+<% if geometryfield.is_a?(GeometryField) %>
+  <%= hidden_field_tag geometryfield.name, "" %>
+<% end %>

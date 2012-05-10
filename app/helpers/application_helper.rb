@@ -1,15 +1,4 @@
-require 'c1'
-require 'c2'
-require 'c3'
-require 'c6'
-require 'c7'
-require 'c8'
-require 'physics'
-require 'geo'
-# require 'c10'
-# require 'c12'
-require 'crqu'
-
+require 'grade6'
 
 module ApplicationHelper
 
@@ -110,7 +99,7 @@ module ApplicationHelper
   end
 
   # Chapter stuff
-  @@all_chapters = [CricketQuestions, Chapter1, Chapter2, Chapter3, Chapter6, Chapter7, Chapter8, Geo, Physics]
+  @@all_chapters = [CricketQuestions, Chapter1, Chapter2, Chapter3, Chapter4, Chapter6, Chapter7, Chapter8, Geo, Physics]
   @@all_probs = @@all_chapters.map { |chap| chap::PROBLEMS }.flatten
   def all_probs
     @@all_probs

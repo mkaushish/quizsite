@@ -4,15 +4,11 @@ require_relative 'tohtml'
 include ToHTML
 
 module Geometry
-  # GeometryField is special in many ways:
-  #  -When there is a geometry field in the text hash, you *MUST OVERRIDE THE correct? METHOD* on your problem
-  #  -The geometry field will be represented by our geometry/drawing javascript app
-  #  -when the student submits and answer to a geometry question the app will add hidden fields for all
-  #   of the shapes the student has drawn.  These will be labelled in order of creation as geometry1, geometry2,
-  #  -I have provided the shapesFromResponse class method to get the ruby shapes in an array from the response hash
-  #  -for example usage of the GeometryField, see the BisectLine question currently located in grade6/geo.rb
-  class GeometryField < InputField
-    # Pass me the start shapes in an array, or as a list of seperate arguments
+  class GeometryBase < InputField
+
+    # Ways to maek a geo field:
+    #   new( [ start shapes in array form ]
+    #   new( startshape1, startshape2, ... )
     def initialize(*args)
       if(args[0].is_a? Array)
         @shapes = args[0]
@@ -20,10 +16,6 @@ module Geometry
         @shapes = args
       end
       super("geometry")
-    end
-
-    def correct?(solution, response)
-      raise "I should NEVER be called - you forgot to override QuestionBase's correct method didn't you"
     end
 
     # returns an array of the shapes the student drew, in order of creation, given the response hash
@@ -49,6 +41,46 @@ module Geometry
     def self.center
       [ (self.width / 2), (self.height / 2) ]
     end
+
+    # returns the coords for a line segment which crosses the center of the screen
+    def self.randCenterLine(length)
+      l = length / 2
+      theta  = rand() * Math::PI
+      center = self.center
+      x = (l * Math.sin(theta)).to_i # using sin here ensures that x1 will always be lower than x2
+      y = (l * Math.cos(theta)).to_i
+
+      [ center[0] - x, center[1] - y, center[0] + x, center[1] + y ]
+    end
+  end
+
+  # GeometryField is special in many ways:
+  #  -When there is a geometry field in the text hash, you *MUST OVERRIDE THE correct? METHOD* on your problem
+  #  -The geometry field will be represented by our geometry/drawing javascript app
+  #  -when the student submits and answer to a geometry question the app will add hidden fields for all
+  #   of the shapes the student has drawn.  These will be labelled in order of creation as geometry1, geometry2,
+  #  -I have provided the shapesFromResponse class method to get the ruby shapes in an array from the response hash
+  #  -for example usage of the GeometryField, see the BisectLine question currently located in grade6/geo.rb
+  class GeometryField < GeometryBase
+    def correct?(solution, response)
+      raise "I should NEVER be called - you forgot to override QuestionBase's correct method didn't you"
+    end
+  end
+
+  # NOTE this will taxonomically be extended from input field... but it shouldn't be.  Input field etc should be a mixin
+  class GeometryDisplay < GeometryBase
+    def correct?(solution, response)
+      true
+    end
+  end
+
+  class SmallGeoDisplay < GeometryDisplay
+    def self.width
+      200
+    end
+    def self.height
+      200
+    end
   end
 
   class Shape
@@ -61,6 +93,8 @@ module Geometry
         return Circle.new(*a)
       elsif type == "line"
         return Line.new(*a)
+      elsif type == "point"
+        return Point.new(*a)
       end
     end
 
@@ -125,13 +159,42 @@ module Geometry
       @y2 = @y2.round(deg)
       self
     end
+
+    def toSlopeInt
+      m = (y2 - y1) / (x2 - x1)
+      b = y1 - (m * x1)
+      return [ m, b ]
+    end
   end
 
-  class Point
-    attr_accessor :x, :y
-    def initialize(x,y)
+  class Ray < Line
+    def encode
+      "ray:#{x1}:#{y1}:#{x2}:#{y2}"
+    end
+
+    def ==(other)
+      return (@x1 == other.x1 && @x2 == other.x2 && @y1 == other.y1 && @y2 == other.y2)
+    end
+  end
+
+  class InfLine < Line
+    def encode
+      "infline:#{x1}:#{y1}:#{x2}:#{y2}"
+    end
+
+    def ==(other)
+      me  = toSlopeInt
+      you = other.toSlopeInt
+      me[0].closeTo(you[0]) && me[1].closeTo(you[1])
+    end
+  end
+
+  class Point < Shape
+    attr_accessor :x, :y, :name
+    def initialize(x,y, name = "")
       @x = x
       @y = y
+      @name = name
     end
 
     def distance(a1, a2=nil)
@@ -153,6 +216,10 @@ module Geometry
 
     def ==(other)
       return @x == other.x && @y == other.y
+    end
+
+    def encode
+      "point:#{x}:#{y}:#{name}"
     end
   end
 
