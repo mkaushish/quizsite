@@ -52,6 +52,31 @@ module Geometry
 
       [ center[0] - x, center[1] - y, center[0] + x, center[1] + y ]
     end
+
+    def self.polygonAtCenter(dists)
+    end
+
+    def self.polygonAtCenterWithPoints(name, dists)
+      name = "A"
+      numpoints = dists.length
+      cx, cy = *(self.center)
+
+      points = Array.new(numpoints) do |i|
+        dist = (SmallGeoDisplay.width/6) + rand(SmallGeoDisplay.width / 6)
+        theta = (2 * Math::PI * (i.to_f / numpoints))
+        x = cx + dist * Math.cos(theta)
+        y = cy + dist * Math.sin(theta)
+        name.next! unless i == 0
+
+        NPoint.new(x, y, name.dup, theta)
+      end
+
+      lines = Array.new(numpoints) do |i|
+        j = (i+1) % numpoints
+        Line.new(points[i], points[j])
+      end
+      [ lines, points ]
+    end
   end
 
   # GeometryField is special in many ways:

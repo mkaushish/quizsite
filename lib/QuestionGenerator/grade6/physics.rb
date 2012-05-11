@@ -52,7 +52,7 @@ module Physics
         Subproblem.new([TextLabel.new("Now, find the number of seconds required for the sound to travel this distance. Hint: Time = Distance / Speed"), TextField.new("time", "Seconds")], {"time" => solve["ans"]})]
     end  
     def correct?(params)
-      HTMLObj::get_result("ans", params).to_f==solve["ans"]
+      QuestionBase.vars_from_response("ans", params).to_f==solve["ans"]
     end  
    
     def text
