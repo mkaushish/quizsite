@@ -13,16 +13,14 @@ class ProblemController < ApplicationController
   end
 
   def next_subproblem
-    $stderr.puts "HEY I'M GETTING CALLED GUYS!"
+    #$stderr.puts "HEY I'M GETTING CALLED GUYS!"
     @problem = Problem.find(params[:problem_id])
     @explain = @problem.unpack.explanation
     @i = params[:subproblem_index].to_i
     if @explain[@i].correct?(params)
       @i += 1
       if @explain.length == @i
-        $stderr.puts "Good job, you're done!"
-        # TODO redirect somewhere else... 
-        #render :js => "window.location = '/'"
+        # $stderr.puts "Good job, you're done!"
         if signed_in?
           if in_quiz?
             #redirect_to quiz_path
