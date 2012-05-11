@@ -142,9 +142,6 @@ module Chapter4
     end
   end
 
-  class DefAcuteAngle
-  end
-
   #
   # Chapter 4.4 exercises
   #
