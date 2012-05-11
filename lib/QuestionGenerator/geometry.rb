@@ -191,10 +191,9 @@ module Geometry
 
   class Point < Shape
     attr_accessor :x, :y, :name
-    def initialize(x,y, name = "")
+    def initialize(x,y)
       @x = x
       @y = y
-      @name = name
     end
 
     def distance(a1, a2=nil)
@@ -219,7 +218,21 @@ module Geometry
     end
 
     def encode
-      "point:#{x}:#{y}:#{name}"
+      "" # we really don't need these to be written to the canvas
+    end
+  end
+
+  # Just a point with a name
+  class NPoint < Point
+    attr_accessor :name, :angle
+    def initialize(x, y, name, angle = 45.0)
+      @name = name
+      @angle = angle
+      super(x,y)
+    end
+
+    def encode
+      "point:#{x}:#{y}:#{name}:#{angle}"
     end
   end
 

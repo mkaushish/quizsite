@@ -375,7 +375,18 @@ $(function() {
   function Shape(hidden) {
     hidden = typeof hidden !== 'undefined' ? hidden : false;
     this.hidden = hidden;
-    this.color = "Black";
+    this.color = "black";
+    this.thickness = 1;
+
+    this.highlight = function(color) {
+      this.color = color;
+      this.thickness = 3;
+    }
+
+    this.unhilight = function() {
+      this.color = "black";
+      this.thickness = 1;
+    }
   }
   function decodeShape(s) {
     var a = s.split(":");
@@ -384,16 +395,20 @@ $(function() {
       for(var i = 0; i < a.length; i++) { a[i] = parseInt(a[i]); }
       return new Line(a[0], a[1], a[2], a[3]);
     }
+
     else if(type == "circle"){
       return new Circle(parseInt(a[0]), parseInt(a[1]), parseFloat(a[2]));
     }
+
     else if(type == "point"){
-      return new Point(parseInt(a[0]), parseInt(a[1]), a[2]);
+      return new Point(parseInt(a[0]), parseInt(a[1]), a[2], parseFloat(a[3]));
     }
+
     else if(type == "infline"){
       for(var i = 0; i < a.length; i++) { a[i] = parseInt(a[i]); }
       return new Line(a[0], a[1], a[2], a[3]);
     }
+
     else if(type == "ray"){
       for(var i = 0; i < a.length; i++) { a[i] = parseInt(a[i]); }
       return new Line(a[0], a[1], a[2], a[3]);
@@ -438,14 +453,9 @@ $(function() {
     this.num = nextLineNo;
 
     this.draw = function() {
-      drawLine(x1, y1, x2, y2, "black");
+      drawLine(this.x1, this.y1, this.x2, this.y2, this.color, this.thickness);
     }
-    this.highlight = function(color) { 
-      this.draw = function() { drawLine(x1, y1, x2, y2, color, 3); }
-    }
-    this.unhilight = function() { 
-      this.draw = function() { drawLine(x1, y1, x2, y2, "black"); }
-    }
+
     // TODO remove this - it is kind of a hack to make tracingLine work
     this.set_p2 = function(x, y){
       this.x2 = x;
@@ -479,14 +489,9 @@ $(function() {
     this.num = nextCircleNo;
 
     this.draw = function() {
-      drawCircle(this.x, this.y, this.r, "black");
+      drawCircle(this.x, this.y, this.r, this.color, this.thickness);
     }
-    this.highlight = function(color) {
-      this.draw = function() { drawCircle(this.x, this.y, this.r, color, 3); }
-    }
-    this.unhilight = function() {
-      this.draw = function() { drawCircle(this.x, this.y, this.r, "black", 1); }
-    }
+
     this.underMouse = function() { 
       return insideCircle(this.x, this.y, this.r);
     }
@@ -501,20 +506,24 @@ $(function() {
 
   // creates a new circle, adds it to shapes, returns new index
   function addCircle(x,y,r) {
-    tmp = new Circle(x,y,r);
+    var tmp = new Circle(x,y,r);
     return addShape(tmp);
   }
 
 
   // name should be a single capital letter according to CBSE convention
-  function Point(x,y,name) {
+  function Point(x,y,name, angle) {
     Shape.call(this, true);
     this.x = x;
     this.y = y;
     this.name = name;
+    this.angle = (angle == undefined) ? 45.0 : angle;
 
     this.draw = function() {
-      context.fillText(this.name, this.x + 10, this.y + 10);
+      var dist = 17.0 - Math.abs(this.angle - 2.2) * 3.7; // yeah I just got these values from playing around
+      var tx = this.x + (dist * Math.cos(this.angle));
+      var ty = this.y + (dist * Math.sin(this.angle));
+      context.fillText(this.name, tx, ty);
       drawSolidCircle(this.x, this.y, 2);
     }
 
@@ -526,7 +535,7 @@ $(function() {
   }
 
   function addPoint(x,y,name) {
-    tmp = new Point(x,y,name);
+    var tmp = new Point(x,y,name);
     return addShape(tmp);
   }
 
