@@ -374,7 +374,7 @@ class Fixnum
   end
   PRIMESCOMM=[2,2,2,2,2,3,3,3,3,5,5,5,7,11]
   MAXHL=500
-  def chCommPF
+  def Grade6ops.chCommPF
     nums1=[]
     nums2=[]
     comm=[]

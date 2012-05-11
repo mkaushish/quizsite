@@ -491,7 +491,7 @@ module Chapter3
       [[Chapter3::PrimeFactors, 1.0], [PreG6::Multiplication, 0.0]]
     end
 
-    def initialize(nums1, nums2, comm)
+    def initialize(nums1=nil, nums2=nil, comm=nil)
       if(nums1!=nil && nums2!=nil && comm!=nil)
         @nums1=nums1
         @nums2=nums2
@@ -502,40 +502,8 @@ module Chapter3
         @nums2=nms[1]
         @comm=nms[2]
       end
-      /*@nums1=Array.new
-      @pro1=MAXHL+1
-      while @pro1 > MAXHL
-        @len1=rand(3)+2
-        for i in 0...@len1 do
-          @nums1[i]=@@primes[rand(@@primes.length)]
-        end
-        @pro1=@nums1.reduce(:*)
-      end
-      @nums2=Array.new
-      @pro2=MAXHL+1
-      while @pro2 >MAXHL
-        @len2=rand(3)+2
-        for i in 0...@len2 do
-          @nums2[i]=@@primes[rand(@@primes.length)]
-        end
-        @pro2=@nums2.reduce(:*)
-      end
-      @nums1=@nums1.sort
-      @nums2=@nums2.sort*/
     end
     def solve
-      /*@comm=[]
-      js=0
-      for i in 0...@nums1.length
-        for j in js...@nums2.length
-          if @nums1[i]==@nums2[j]
-            @comm << @nums1[i]
-            js+=1
-            break
-          end
-        end
-      end*/
-
       hcf=@comm.reduce(:*)
       return {"hcf" => hcf}
     end
@@ -560,7 +528,7 @@ module Chapter3
     end
 
     def text
-      [TextLabel.new("Give the HCF of #{@pro1} and #{@pro2}"), TextField.new("hcf", "HCF")] 
+      [TextLabel.new("Give the HCF of #{@nums1.reduce(:*)} and #{@nums2.reduce(:*)}"), TextField.new("hcf", "HCF")] 
     end
   end
 
