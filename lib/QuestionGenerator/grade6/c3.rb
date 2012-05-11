@@ -52,11 +52,15 @@ module Chapter3
       [[Chapter3::IdentifyPrimes, 1.0]]
     end
 
-    def initialize
-      len             = rand(3)+3
-      begin
-        @nums = Array.new(len) { |i| WEIGHTED_PRIMES.sample }
-      end while @nums.reduce(:*) > 600 
+    def initialize(nums=nil)
+      if nums!=nil
+        @nums=nums
+      else
+        len             = rand(3)+3
+        begin
+          @nums = Array.new(len) { |i| WEIGHTED_PRIMES.sample }
+        end while @nums.reduce(:*) > 600 
+      end
     end
 
     def solve
@@ -81,7 +85,7 @@ module Chapter3
             return ret
           end
 
-          ret << PreG6::Division.new(curprime, num)
+          ret << PreG6::Division.new(curprime, num, true)
           num      = num/curprime
 
           ret << PreG6::IsDivisible.new(curprime, num) unless (curprime > num/2)
@@ -478,54 +482,30 @@ module Chapter3
 
 
   MAXHL=500
-  class HCFLCM < QuestionWithExplanation
+  class HCF < QuestionWithExplanation
     def self.type
-      "HCF and LCM"
+      "HCF"
     end
     @@primes=[2,2,2,2,2,3,3,3,3,5,5,5,7,11]
     def prereq
       [[Chapter3::PrimeFactors, 1.0], [PreG6::Multiplication, 0.0]]
     end
 
-    def initialize()
-      @nums1=Array.new
-      @pro1=MAXHL+1
-      while @pro1 > MAXHL
-        @len1=rand(3)+2
-        for i in 0...@len1 do
-          @nums1[i]=@@primes[rand(@@primes.length)]
-        end
-        @pro1=@nums1.reduce(:*)
+    def initialize(nums1=nil, nums2=nil, comm=nil)
+      if(nums1!=nil && nums2!=nil && comm!=nil)
+        @nums1=nums1
+        @nums2=nums2
+        @comm=comm
+      else
+        nms=Grade6ops.chCommPF
+        @nums1=nms[0]
+        @nums2=nms[1]
+        @comm=nms[2]
       end
-      @nums2=Array.new
-      @pro2=MAXHL+1
-      while @pro2 >MAXHL
-        @len2=rand(3)+2
-        for i in 0...@len2 do
-          @nums2[i]=@@primes[rand(@@primes.length)]
-        end
-        @pro2=@nums2.reduce(:*)
-      end
-      @nums1=@nums1.sort
-      @nums2=@nums2.sort
     end
     def solve
-      @comm=[]
-      js=0
-      for i in 0...@nums1.length
-        for j in js...@nums2.length
-          if @nums1[i]==@nums2[j]
-            @comm << @nums1[i]
-            js+=1
-            break
-          end
-        end
-      end
-
       hcf=@comm.reduce(:*)
-      lcm=(@pro1*@pro2)/hcf
-      return {"hcf" => hcf,
-        "lcm" => lcm}
+      return {"hcf" => hcf}
     end
 
     def explain
@@ -542,14 +522,13 @@ module Chapter3
       for i in 0...@comm.length
         co["comm_"+i.to_s]=@comm[i]
       end
-      ret=[Subproblem.new([TextLabel.new("Write out the prime factorization of #{@pro1}"), MultiTextField.new("pro1")], h1),
-        Subproblem.new([TextLabel.new("Write out the prime factorization of #{@pro2}"), MultiTextField.new("pro2")], h2),
-        Subproblem.new([TextLabel.new("Find the common prime factors of #{@pro1}=#{@nums1.join("*")} and #{@pro2}=#{@nums2.join("*")}"), MultiTextField.new("comm")], co),  
-      Subproblem.new([TextLabel.new("The common Factors are #{@comm.join(", ")}. The HCF is the product of all the common factors. Hence HCF=#{@comm.join("*")}=#{solve["hcf"]}. The LCM is the product of the two original numbers, #{@pro1} and #{@pro2} divided by the HCF. Hence LCM=#{solve["lcm"]}")])]
+      ret=[Chapter3::PrimeFactors.new(@nums1), Chapter3::PrimeFactors.new(@nums2),
+        Subproblem.new([TextLabel.new("What are the prime factors in common?"), MultiTextField.new("comm")], co),  
+      Subproblem.new([TextLabel.new("The common prime factors are #{@comm.join(", ")}. The HCF is the product of all the common prime factors. What is the HCF?"), TextField.new("hcf")], {"hcf" => solve["hcf"]})]
     end
 
     def text
-      [TextLabel.new("Give the HCF and LCM of #{@pro1} and #{@pro2}"), TextField.new("hcf", "HCF"), TextField.new("lcm", "LCM")] 
+      [TextLabel.new("Give the HCF of #{@nums1.reduce(:*)} and #{@nums2.reduce(:*)}"), TextField.new("hcf", "HCF")] 
     end
   end
 
@@ -565,6 +544,6 @@ module Chapter3
     Chapter3::Div_10, 
     Chapter3::Div_11,
     Chapter3::SumPrimes, 
-    Chapter3::HCFLCM
+    Chapter3::HCF
   ]
 end

@@ -53,15 +53,22 @@ module PreG6
   end
   
   class Division < QuestionBase
-    def initialize(num1 = nil, num2 = nil)
+    def initialize(num1 = nil, num2 = nil, norem=false)
+      @norem=norem
       @num1 = num1.nil? ? rand(20)+2 : num1
       @num2 = num2.nil? ? @num2=rand(500)+30 : num2
     end
     def solve
-      return {"quo" => @num2/@num1, "rem" => @num2-(@num2/@num1)*@num1}
+      if !@norem 
+        return {"quo" => @num2/@num1, "rem" => @num2-(@num2/@num1)*@num1}
+      end
+      return {"quo" => @num2/@num1}
     end
     def text
-      [TextLabel.new("#{@num2} / #{@num1} = "), TextField.new("quo", "Quotient"), TextField.new("rem", "Remainder")]
+      if !@norem
+        return [TextLabel.new("#{@num2} / #{@num1} = "), TextField.new("quo", "Quotient"), TextField.new("rem", "Remainder")]
+      end
+      return [TextLabel.new("#{@num2} / #{@num1} = "), TextField.new("quo")]
     end
   end
 

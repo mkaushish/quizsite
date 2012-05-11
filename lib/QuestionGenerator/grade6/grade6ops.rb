@@ -372,6 +372,30 @@ class Fixnum
   def self.ind_hund?(digit_count)
     digit_count == 2 || digit_count == 9
   end
+  PRIMESCOMM=[2,2,2,2,2,3,3,3,3,5,5,5,7,11]
+  MAXHL=500
+  def Grade6ops.chCommPF
+    nums1=[]
+    nums2=[]
+    comm=[]
+    clen=rand(3)+1
+    for i in 0...clen
+      comm << PRIMESCOMM.sample
+    end
+    nums1=Array.new(comm)
+    nums2=Array.new(comm)
+    len1=rand(3)
+    len2=rand(3)
+    for i in 0...len1
+      nums1 << PRIMESCOMM.sample
+    end
+    nums1=nums1.sort
+    for i in 0...len2
+      nums2 << PRIMESCOMM.sample
+    end
+    nums2=nums2.sort
+    return [nums1, nums2, comm]
+  end
 end
 
 class String

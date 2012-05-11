@@ -331,7 +331,7 @@ module Chapter1
       end
     end
     def prereq
-      gen=[[Chapter1::GeneralRule, 1.0]]
+      gen=[[Chapter1::RoundingNumbers, 1.0]]
       
       return gen + [[PreG6::Multiplication, 0.0]] if (@op==:*) 
       return gen + [[PreG6::Addition, 0.0]] if (@op==:+)

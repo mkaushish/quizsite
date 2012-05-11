@@ -1,10 +1,16 @@
 <% unless @problem.prob.is_a? QuestionWithExplanation %>
   <p>We're sorry, this problem doesn't seem to have an explanation.</p>
 <% else %>
-  <div class="well span6" id=quiz>
-    
-  <!-- div id=quizheader>TODO quiz header?</div -->
-  <%= render :partial => 'explanation' %>
+  <div class=row-fluid>
+    <div class=span6 id=probex>
+      <div class=well>
+        <!-- div id=quizheader>TODO quiz header?</div -->
+        <%= render :partial => 'explanation' %>
+      </div>
+    </div>
+    <div class=span6>
+      <%= render :partial => "shared/notepad" %> 
+    </div>
   </div>
 <% end %>
 

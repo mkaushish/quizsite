@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120405094249) do
+ActiveRecord::Schema.define(:version => 20120424051639) do
 
   create_table "problemanswers", :force => true do |t|
     t.boolean  "correct"
@@ -20,11 +20,11 @@ ActiveRecord::Schema.define(:version => 20120405094249) do
     t.datetime "updated_at"
     t.string   "response"
     t.integer  "user_id"
-    t.string   "type"
+    t.string   "pclass"
   end
 
   add_index "problemanswers", ["user_id", "created_at"], :name => "index_problemanswers_on_user_id_and_created_at"
-  add_index "problemanswers", ["user_id", "type", "created_at"], :name => "index_problemanswers_on_user_id_and_type_and_created_at"
+  add_index "problemanswers", ["user_id", "pclass", "created_at"], :name => "index_problemanswers_on_user_id_and_type_and_created_at"
   add_index "problemanswers", ["user_id"], :name => "index_problemanswers_on_user_id"
 
   create_table "problems", :force => true do |t|
@@ -50,6 +50,7 @@ ActiveRecord::Schema.define(:version => 20120405094249) do
     t.string   "encrypted_password"
     t.string   "salt"
     t.binary   "pscores"
+    t.binary   "smartscores"
   end
 
   add_index "users", ["email"], :name => "index_users_on_email", :unique => true

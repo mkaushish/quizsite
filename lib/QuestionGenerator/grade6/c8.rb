@@ -171,11 +171,13 @@ module Chapter8
       [TextLabel.new("Convert #{@num} #{LUNIT[@wh]} to #{SUNIT[@wh]}"), TextField.new("ans", SUNIT[@wh])]
     end
   end
-  class AddDecimals < QuestionBase
+  class AddDecimals < QuestionWithExplanation
     def initialize(amt=rand(4)+2)
       @nums=[]
+      @maxdiv=0
       for i in 0...amt
         div=rand(3)+1
+        @maxdiv=div if div > @maxdiv
         @nums[i]=rand(10000)
         while @nums[i] % 10==0
           @nums[i]=rand(10000)
@@ -189,7 +191,19 @@ module Chapter8
       for i in 0...@nums.length
         sum+=@nums[i]
       end
-      {"ans" => sum.to_f.to_s}
+      {"ans" => sum.to_f}
+    end
+    def explain
+      hsh={}
+      tf=[]
+      for i in 0...@nums.length
+        hsh["num_#{i}"]=(@nums[i]*(10**@maxdiv)).to_i
+        tf[i]=TextField.new("num_#{i}", "#{@nums[i].to_f}")
+      end
+      [Subproblem.new([text[0], TextLabel.new("Out of all the components of this sum, what is the most number of digits after the decimal point?"), TextField.new("digs")], {"digs" => @maxdiv}),
+        Subproblem.new([TextLabel.new("Now multiply each of the numbers by 1 followed by #{@maxdiv} zeros")]+tf, hsh),
+        Subproblem.new([TextLabel.new("You will now notice that there are no decimals left. Now add all these numbers like you would any whole numbers"), TextField.new("sum")], {"sum" => (solve["ans"]*(10**@maxdiv)).to_i}),
+        Subproblem.new([TextLabel.new("Now, divide the previous answer by 1 followed by #{@maxdiv} zeros, which is the same as the number you divided each of the components by, and thus obtain the answer"), TextField.new("answ")], {"answ" => solve["ans"]})]
     end
     def text
       if @wh==0
