@@ -140,6 +140,16 @@ module Grade6ops
       
 end
 
+class Float
+  def within(dist, other)
+    (to_f - other).abs < dist
+  end
+
+  def closeTo(other)
+    within(0.001, other)
+  end
+end
+
 class Fixnum
   @@intNumeralNames = 
     { 1 => "one",

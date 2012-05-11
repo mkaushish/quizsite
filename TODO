@@ -1,6 +1,6 @@
 Short Term
 ----------
-[ ] All explanation start with "How to use the general rule..."
+[ ] make a QG require file for each grade - too many file to require whenever needed
 [ ] HCFLCM produces intermittent error
 [ ] add account details, ability to change password, etc
 [ ] make navbar more accessible in smaller window sizes
@@ -27,10 +27,10 @@ Short Term
     [ ] short - should be restricted in length to fint in problem history
     [ ] med   - for the pscore display and choosing questions - when we have a little more space
     [ ] long  - somewhat in depth explanation that you get if you hover over the question
+  [ ] type should really be a class constant, not a method
   [ ] decide on limits for above
   [ ] add tests ensuring each question class conforms to the limits
 [ ] _next_problem.js.erb now sets some things to "green" - work some global green
-[ ] remove problem/index... it is no longer used for anything I think
 [ ] assessing whether fractions are equal in the correct method should use the rational class unless stated
 [ ] when you get problems like div_39 wrong, the "see explanation" and "more problems" links show up at the bottom of the page rather than right under the question
 [ ] add float equals method to allow similar answers rather than exact answers 
@@ -68,6 +68,8 @@ Long Term
 
 Completed
 ---------
+[X] remove problem/index... it is no longer used for anything I think
+[X] All explanation start with "How to use the general rule..."
 [X] what should our starting page be for non-signed in? signed in?
 [X] add cricket questions to website (from QuestionGenerator)
 [X] figure out how to get rounded-corners/graphite only defined in 1 place

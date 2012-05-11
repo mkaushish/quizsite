@@ -4,8 +4,6 @@ require_relative '../questionbase'
 require_relative '../tohtml'
 require_relative './preg6'
 
-
-
 # TODO override preprocess for the add commas question ( default is now to remove commas )
 include ToHTML
 include PreG6

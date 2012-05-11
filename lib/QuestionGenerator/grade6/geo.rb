@@ -11,16 +11,9 @@ module Geo
   class BisectLine < QuestionBase
     attr_accessor :x1, :y1, :x2, :y2
     def initialize()
-      length = rand(50) + 50        # really just half the length
-      theta  = rand() * Math::PI
-      center = GeometryField.center
-      x = (length * Math.cos(theta)).to_i
-      y = (length * Math.sin(theta)).to_i
-
-      @x1 = center[0] + x
-      @y1 = center[1] + y
-      @x2 = center[0] - x
-      @y2 = center[1] - y
+      length = rand(100) + 100
+      endpoints = GeometryField.randCenterLine(length)
+      @x1, @y1, @x2, @y2 = *endpoints
     end
 
     def text

@@ -337,6 +337,15 @@ $(function() {
     context.stroke();
   }
 
+  function drawSolidCircle(x, y, r, color) {
+    if(color == undefined) { color = "black" }
+    context.beginPath();
+    context.arc(x, y, r, 0, (2.0 * Math.PI), false);
+    context.closePath();
+    context.fillStyle = color
+    context.fill();
+  }
+
   function drawLine(x1,y1, x2, y2, color, width) {
     if(color != undefined) { context.strokeStyle = color; }
     if(width != undefined) { context.lineWidth = width }
@@ -377,6 +386,17 @@ $(function() {
     }
     else if(type == "circle"){
       return new Circle(parseInt(a[0]), parseInt(a[1]), parseFloat(a[2]));
+    }
+    else if(type == "point"){
+      return new Point(parseInt(a[0]), parseInt(a[1]), a[2]);
+    }
+    else if(type == "infline"){
+      for(var i = 0; i < a.length; i++) { a[i] = parseInt(a[i]); }
+      return new Line(a[0], a[1], a[2], a[3]);
+    }
+    else if(type == "ray"){
+      for(var i = 0; i < a.length; i++) { a[i] = parseInt(a[i]); }
+      return new Line(a[0], a[1], a[2], a[3]);
     }
   }
 
@@ -485,6 +505,31 @@ $(function() {
     return addShape(tmp);
   }
 
+
+  // name should be a single capital letter according to CBSE convention
+  function Point(x,y,name) {
+    Shape.call(this, true);
+    this.x = x;
+    this.y = y;
+    this.name = name;
+
+    this.draw = function() {
+      context.fillText(this.name, this.x + 10, this.y + 10);
+      drawSolidCircle(this.x, this.y, 2);
+    }
+
+    this.toString = function() { return name; }
+
+    this.encode = function() {
+      return "point:"+this.x+":"+this.y+":"+this.name;
+    }
+  }
+
+  function addPoint(x,y,name) {
+    tmp = new Point(x,y,name);
+    return addShape(tmp);
+  }
+
   // Interest Point stuff
   function POI(x, y) {
     this.x = x;
@@ -509,11 +554,7 @@ $(function() {
     }
 
     this.draw = function() { 
-      context.beginPath();
-      context.arc(this.x, this.y, 10, 0, (2.0 * Math.PI), false);
-      context.closePath();
-      context.fillStyle = "green";
-      context.fill();
+      drawSolidCircle(this.x, this.y, 10, "green");
     }
   }
   function addPOI(x, y) {
