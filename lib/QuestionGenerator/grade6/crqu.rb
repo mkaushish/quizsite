@@ -99,19 +99,8 @@ module CricketQuestions
       {"ans" => av}
     end
     def explain
-      tab=TableField.new("tab", @mat.length+1, 4)
-      tab.set_field(0,0,"#{@mtype} No.")
-      tab.set_field(0,1,"Innings")
-      tab.set_field(0,2,"Opponent")
-      tab.set_field(0,3,"Runs Scored")
-      for i in 0...@mat.length
-        dt=CricketQuestions::to_date(@mat[i][@names.index("Date")])
-        tab.set_field(i+1,0,@mat[i][@names.index("Match")])
-        tab.set_field(i+1,1,@mat[i][@names.index("Innings")])
-        tab.set_field(i+1,2,@mat[i][@names.index("Against")])
-        tab.set_field(i+1,3,@mat[i][@names.index("Runs")])
-      end 
-      [Subproblem.new([TextLabel.new("What was the total number of runs scored by #{@pname[1]} in the given #{@mat.length} innings?"), TextField.new("runs", "Total Runs Scored")], {"runs" => @totruns}),
+      [Subproblem.new([TextLabel.new("Study the table and the click next"), text[1]]),
+        Subproblem.new([TextLabel.new("What was the total number of runs scored by #{@pname[1]} in the given #{@mat.length} innings?"), TextField.new("runs", "Total Runs Scored")], {"runs" => @totruns}),
        CricketSubproblem.new([TextLabel.new("Now, the average will be given by dividing the total runs scored by the number of innings. What is the average?"), TextField.new("av", "Average")], {"av" => solve["ans"]})]
     end 
     def text
@@ -185,7 +174,8 @@ module CricketQuestions
     end
     def explain
       solve
-      [Subproblem.new([TextLabel.new("What was the total number of runs conceded by #{@pname[1]} in the given #{@mat.length} innings?"), TextField.new("runs", "Total Runs Conceded")], {"runs" => @sum}),
+      [Subproblem.new([TextLabel.new("Study the table and the click next"), text[1]]),
+      Subproblem.new([TextLabel.new("What was the total number of runs conceded by #{@pname[1]} in the given #{@mat.length} innings?"), TextField.new("runs", "Total Runs Conceded")], {"runs" => @sum}),
       Subproblem.new([TextLabel.new("What was the total number of wickets taken by #{@pname[1]} in the given #{@mat.length} innings?"), TextField.new("wickets", "Total Wickets Taken")], {"wickets" => @wi}),
        CricketSubproblem.new([TextLabel.new("Now, the average will be given by dividing the total runs conceded by the number of wickets taken. What is the average?"), TextField.new("av", "Average")], {"av" => @sum.to_f/@wi})]
     end 
@@ -240,7 +230,8 @@ module CricketQuestions
     end
     def explain
       solve
-      [Subproblem.new([TextLabel.new("What was the total number of runs scored by #{@pname[1]} in the given #{@mat.length} innings?"), TextField.new("runs", "Total Runs Scored")], {"runs" => @sum}),
+      [Subproblem.new([TextLabel.new("Study the table and the click next"), text[1]]),
+      Subproblem.new([TextLabel.new("What was the total number of runs scored by #{@pname[1]} in the given #{@mat.length} innings?"), TextField.new("runs", "Total Runs Scored")], {"runs" => @sum}),
       Subproblem.new([TextLabel.new("What was the total number of balls used by #{@pname[1]} in the given #{@mat.length} innings?"), TextField.new("balls", "Total Balls Bowled")], {"balls" => @balls}),
        CricketSubproblem.new([TextLabel.new("Now, the strike rate will be given by dividing the total runs scored by the number of balls taken and multiplying that by 100. What is his strike rate over this period?"), TextField.new("av", "Strike Rate")], {"str" => (@sum.to_f/@balls)*100})]
     end 
@@ -322,7 +313,8 @@ module CricketQuestions
     end
     def explain
       solve
-      [Subproblem.new([TextLabel.new("What was the total number of balls bowled by #{@pname[1]} in the given #{@mat.length} innings?"), TextField.new("balls", "Total Balls Bowled")], {"balls" => @sum}),
+      [Subproblem.new([TextLabel.new("Study the table and the click next"), text[1]]),
+      Subproblem.new([TextLabel.new("What was the total number of balls bowled by #{@pname[1]} in the given #{@mat.length} innings?"), TextField.new("balls", "Total Balls Bowled")], {"balls" => @sum}),
       Subproblem.new([TextLabel.new("What was the total number of wickets taken by #{@pname[1]} in the given #{@mat.length} innings?"), TextField.new("wickets", "Total Wickets Taken")], {"wickets" => @wi}),
        CricketSubproblem.new([TextLabel.new("Now, the strike rate will be given by dividing the total balls bowled by the number of wickets taken. What is the strike rate?"), TextField.new("av", "Strike Rate")], {"av" => (@sum.to_f/@wi)})]
     end 

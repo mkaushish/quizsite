@@ -11,7 +11,7 @@ module Chapter7
   
 #TODO Fraction Formatting
 
-  class ToMixedFractions < QuestionBase
+  class ToMixedFractions < QuestionWithExplanation
     def self.type
       "To Mixed Fractions"
     end
@@ -40,15 +40,15 @@ module Chapter7
     end
     def explain
       sol=solve
-      [Subproblem.new([TextLabel.new("Divide the Numerator by the Denominator. What is the Quotient and what is the Remainder?"), TextField.new("quo", "Quotient"), TextField.new("rem", "Remainder")], {"quo" => @num/@den, "rem" => (@num-(@num/@den)*@den)}),
-        Subproblem.new([TextLabel.new("Since the quotient is #{@num/@den} and the remainder is #{@num-(@num/@den)*@den}, the fraction in mixed form is"), Fraction.new(sol["num"], sol["den"], sol["intpart"])])]  
+      [SubLabel.new("To convert a fraction to a mixed fraction, first divide the numerator by the denominator and get the Quotient and Remainder. The quotient is the integer part, the remainder is the denominator and the denominator remains the same"), PreG6::Division.new(@den, @num),
+        Subproblem.new([TextLabel.new("Since the quotient is #{@num/@den} and the remainder is #{@num-(@num/@den)*@den}, the fraction in mixed form is:"), Fraction.new("num", "den", "intpart")], {"num" => sol["num"], "den" => sol["den"], "intpart" => sol["intpart"]})]  
     end
     def  text
       [TextLabel.new("Convert the following into a mixed fraction"), Fraction.new(@num,@den), Fraction.new("num", "den", "intpart")]
     end
   end
   
-  class ToImproperFractions < QuestionBase
+  class ToImproperFractions < QuestionWithExplanation
     def self.type
       "To Improper Fractions"
     end
@@ -68,12 +68,14 @@ module Chapter7
       end
     end
     def solve
-      sol={"num" => @num.to_s,
-           "den" => @den.to_s}
+      sol={"num" => @num,
+           "den" => @den}
     end
     def explain
-      [Subproblem.new([TextLabel.new("Multiply the denominator, #{@den}, by the integer part, #{@num/@den}, and add the numerator, #{@num-(@num/@den)*@den}."), Fraction.new("numer", "deno")], {"numer" => @num.to_s, "deno" => @den.to_s}),
-        Subproblem.new([TextLabel.new("Hence, the Fraction in improper form is"), Fraction.new(@num, @den)])]
+      [SubLabel.new("To convert a mixed fraction into an improper fraction, multiply the integer part by the denominator. Then add the numerator of the mixed fraction to the product. This gives the numerator of the improper fraction. The denominator remains the same. The integer part in this case is #{@num/@den}. The denominator is #{@den} and the numerator is #{@num-@num/@den}"), 
+        PreG6::Multiplication.new(@num/@den , @den),
+        PreG6::Addition.new([(@num/@den)*@den, solve["num"]-(@num/@den)*@den]), 
+        Subproblem.new([TextLabel.new("The denominator of the mixed fraction is #{@den}. Hence, the Fraction in improper form is:"), Fraction.new("num", "den")], {"num" => solve["num"], "den" => solve["den"]})]
 
     end
     def  text
@@ -82,6 +84,34 @@ module Chapter7
       [TextLabel.new("Convert the following into an improper fraction"), Fraction.new(remainder, @den, intpart), Fraction.new("num", "den")]
     end
   end
+  class ReduceFractions < QuestionWithExplanation
+    def initialize(nums1=nil, nums2=nil, comm=nil)
+      if (nums1!=nil && nums2!=nil && comm!=nil)
+        @nums1=nums1
+        @nums2=nums2
+        @comm=comm
+      else
+        nms=Grade6ops.chCommPF
+        @nums1=nms[0]
+        @nums2=nms[1]
+        @comm=comm
+      end
+    end
+    def solve
+      {"num" => @nums1.reduce(:*)/@comm.reduce(:*),
+        "den" => @nums2.reduce(:*)/@comm.reduce(:*)}
+    end
+    def explain
+      [Sublabel.new("To reduce a fraction to its lowest form, you have to divide the numerator and denominator by their HCF"),
+        Chapter3::HCF.new(@nums1, @nums2, @comm),
+        PreG6::Division.new(@comm.reduce(:*), @nums1.reduce(:*), true),
+        PreG6::Division.new(@comm.reduce(:*), @nums2.reduce(:*), true),
+        Subproblem.new([TextLabel.new("Hence, the fraction in its lowest form is:"), Fraction.new("num", "den")], solve)]
+    end
+    def text
+      [TextLabel.new("Reduce the following fraction to its lowest form"), Fraction.new(@nums1.reduce(:*), @nums2.reduce(:*)), Fraction.new("num", "den")]
+  end
+
   
   MAXEQFRAC=60
   class EquivalentFractions < QuestionBase
