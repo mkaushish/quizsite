@@ -53,11 +53,12 @@ module Geometry
       [ center[0] - x, center[1] - y, center[0] + x, center[1] + y ]
     end
 
+    # yeah... not exactly the paragon of efficiency I admit, but premature optimization...
     def self.polygonAtCenter(dists)
+      self.polygonAtCenterWithPoints("A", dists)[1]
     end
 
     def self.polygonAtCenterWithPoints(name, dists)
-      name = "A"
       numpoints = dists.length
       cx, cy = *(self.center)
 
@@ -68,7 +69,7 @@ module Geometry
         y = cy + dist * Math.sin(theta)
         name.next! unless i == 0
 
-        NPoint.new(x, y, name.dup, theta)
+        NPoint.new(x, y, name.dup, theta).round
       end
 
       lines = Array.new(numpoints) do |i|
@@ -189,6 +190,14 @@ module Geometry
       m = (y2 - y1) / (x2 - x1)
       b = y1 - (m * x1)
       return [ m, b ]
+    end
+
+    def p1
+      return Point.new(@x1, @y1)
+    end
+
+    def p2
+      return Point.new(@x2, @y2)
     end
   end
 

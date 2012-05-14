@@ -199,12 +199,54 @@ module Chapter4
   class DefAdjacentVertices
   end
 
-  class DefDiagonal
+  class DefDiagonal < QuestionWithExplanation
+    def initialize
+      num_sides = 4 + rand(3)
+      dists = Array.new(num_sides) { (GeometryField.width/6) + rand(GeometryField.width / 6) }
+      @lines, @points = *(GeometryField::polygonAtCenterWithPoints("A", dists))
+    end
+
+    def solve 
+      point_i = rand(@points.length)
+      { "geometry" => Line.new(@points[point_i], @points[ (point_i + 2) % @points.length ] ).encode }
+    end
+
+    def text
+      [
+        TextLabel.new("Draw a diagonal on the following polygon"),
+        GeometryField.new(@lines)
+      ]
+    end
+
+    def correct?(response)
+      shapes = GeometryField.shapesFromResponse(response)
+      lines = shapes.select { |s| s.is_a?(Line) }
+      lines.each do |line|
+        p1i = @points.index(line.p1)
+        next if p1i.nil?
+
+        p2i = @points.index(line.p2)
+        next if p2i.nil?
+
+        return true if (p2i - p1i) % @points.length > 1 && (p1i - p2i) % @points.length > 1
+      end
+      false
+    end
+
+    def explain
+      [
+        Subproblem.new([
+          TextLabel.new("A diagonal is a line between 2 non-adjacent vertices on a polygon.  Remember that a vertex (plural vertices) is just a corner, and non-adjacent just means they're not next to each other. See an example below"),
+          GeometryDisplay.new(*@lines, Shape.decode(solve["geometry"]))
+        ], {} )
+      ]
+    end
   end
 
   PROBLEMS = [
     Chapter4::NameLine,
     Chapter4::NameAngles,
-    Chapter4::NameTriangles
+    Chapter4::NameTriangles,
+    Chapter4::DefDiagonal
   ]
 end
