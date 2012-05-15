@@ -190,7 +190,44 @@ module Chapter4
   #
   # Just taken from the end
   #
-  class DefVertices
+  class DefVertices < QuestionBase
+    attr_accessor :points, :lines, :num_verts
+    def initialize
+      num_sides = 3 + rand(4);
+      dists = Array.new(num_sides) { (SmallGeoDisplay.width/6) + rand(SmallGeoDisplay.width / 6) }
+      @lines, @points = *(SmallGeoDisplay::polygonAtCenterWithPoints("A", dists))
+      @num_verts = 1 + rand(num_sides - 2)
+    end
+
+    def text
+      verts = @num_verts > 1 ? "vertices" : "vertex"
+      geodisp = SmallGeoDisplay.new(@lines)
+      geodisp.startTool("select")
+      [
+        TextLabel.new("Click on #{@num_verts} #{verts} on the following diagram"),
+        geodisp
+      ]
+    end
+
+    def solve
+      {
+        "ans" => @points.sample(@num_verts).map { |s| s.encode }
+      }
+    end
+
+    def correct?(params)
+      selected = SmallGeoDisplay::selectedShapes(params)
+      return false if selected.length != @num_verts
+
+      points = @points.clone
+      selected.each do |point|
+        i = points.index point
+        return false if i.nil?
+        points[i] = nil # make sure they don't click the same one twice, though
+                        # technically they shouldn't be able to
+      end
+      true
+    end
   end
 
   class DefAdjacentSides
@@ -247,6 +284,7 @@ module Chapter4
     Chapter4::NameLine,
     Chapter4::NameAngles,
     Chapter4::NameTriangles,
+    Chapter4::DefVertices,
     Chapter4::DefDiagonal
   ]
 end

@@ -32,7 +32,7 @@ module Geometry
     end
 
     def self.selectedShapes(response)
-      Shape.decode_a(InputField.fromhash("selectedshapes"))
+      Shape.decode_a(InputField.fromhash("selectedshapes", response))
     end
 
     #
@@ -156,6 +156,7 @@ module Geometry
     end
 
     def ==(other)
+      return false unless other.is_a?(Circle)
       return @x == other.x && @y == other.y && @r == other.r 
     end
   end
@@ -182,6 +183,7 @@ module Geometry
     end
 
     def ==(other)
+      return false unless other.is_a?(Line)
       return (@x1 == other.x1 && @x2 == other.x2 && @y1 == other.y1 && @y2 == other.y2) ||
              (@x1 == other.x2 && @x2 == other.x1 && @y1 == other.y2 && @y2 == other.y1)
     end
@@ -215,6 +217,7 @@ module Geometry
     end
 
     def ==(other)
+      return false unless other.is_a?(Ray)
       return (@x1 == other.x1 && @x2 == other.x2 && @y1 == other.y1 && @y2 == other.y2)
     end
   end
@@ -225,6 +228,7 @@ module Geometry
     end
 
     def ==(other)
+      return false unless other.is_a?(InfLine)
       me  = toSlopeInt
       you = other.toSlopeInt
       me[0].closeTo(you[0]) && me[1].closeTo(you[1])
@@ -234,8 +238,8 @@ module Geometry
   class Point < Shape
     attr_accessor :x, :y, :name
     def initialize(x,y)
-      @x = x
-      @y = y
+      @x = x.to_i
+      @y = y.to_i
     end
 
     def distance(a1, a2=nil)
@@ -256,6 +260,7 @@ module Geometry
     end
 
     def ==(other)
+      return false unless other.is_a?(Point)
       return @x == other.x && @y == other.y
     end
 
