@@ -190,7 +190,7 @@ module Chapter4
   #
   # Just taken from the end
   #
-  class DefVertices < QuestionBase
+  class DefVertices < QuestionWithExplanation
     attr_accessor :points, :lines, :num_verts
     def initialize
       num_sides = 3 + rand(4);
@@ -211,7 +211,7 @@ module Chapter4
 
     def solve
       {
-        "ans" => @points.sample(@num_verts).map { |s| s.encode }
+        "selectedshapes" => Shape.encode_a(@points.sample(@num_verts))
       }
     end
 
@@ -228,12 +228,97 @@ module Chapter4
       end
       true
     end
+
+    def explain
+      [
+        SubLabel.new("A vertex is defined as the meeting point of a pair of sides.  On a polygon like you see below, it's basically a corner.  Try the problem again with this definition in mind!"),
+        self
+      ]
+    end
   end
 
-  class DefAdjacentSides
+  class DefAdjacentSides < QuestionWithExplanation
+    def initialize
+      num_sides = 3 + rand(4);
+      dists = Array.new(num_sides) { (SmallGeoDisplay.width/6) + rand(SmallGeoDisplay.width / 6) }
+      @lines, @points = *(SmallGeoDisplay::polygonAtCenterWithPoints("A", dists))
+    end
+
+    def text
+      geodisp = SmallGeoDisplay.new(@lines)
+      geodisp.startTool("select")
+      [
+        TextLabel.new("Click on two adjacent sides on the following polygon"),
+        geodisp
+      ]
+    end
+
+    def solve
+      i = rand(@lines.length)
+      j = (i + 1) % @lines.length
+      {
+        "selectedshapes" => Shape.encode_a([@lines[i], @lines[j]])
+      }
+    end
+
+    def correct?(params)
+      selected = SmallGeoDisplay::selectedShapes(params)
+      return false if selected.length != 2
+      i = @lines.index(selected[0])
+      j = @lines.index(selected[1])
+      return false if i.nil? || j.nil?
+      return ((i - j) % @lines.length == 1) || ((j - i) % @lines.length == 1)
+    end
+
+    def explain
+      [
+        SubLabel.new("Remember that adjacent edges are ones that are next to each other.  The real definition is that they \"share a common end point.\"  With this in mind, try the problem again:"),
+        self
+      ]
+    end
   end
 
-  class DefAdjacentVertices
+  class DefAdjacentVertices < QuestionWithExplanation
+    def initialize
+      num_sides = 3 + rand(4);
+      dists = Array.new(num_sides) { (SmallGeoDisplay.width/6) + rand(SmallGeoDisplay.width / 6) }
+      @lines, @points = *(SmallGeoDisplay::polygonAtCenterWithPoints("A", dists))
+    end
+
+    def text
+      geodisp = SmallGeoDisplay.new(@lines)
+      geodisp.startTool("select")
+      [
+        TextLabel.new("Click on two adjacent vertices on the following polygon"),
+        geodisp
+      ]
+    end
+
+    def solve
+      i = rand(@lines.length)
+      j = (i + 1) % @lines.length
+      # TODO figure out what this does, take labels off points
+      {
+        "selectedshapes" => Shape.encode_a([@points[i], @points[j]])
+      }
+    end
+
+    def correct?(params)
+      selected = SmallGeoDisplay::selectedShapes(params)
+      puts selected.inspect
+      return false if selected.length != 2
+      i = @points.index(selected[0])
+      j = @points.index(selected[1])
+      return false if i.nil? || j.nil?
+      return ((i - j) % @lines.length == 1) || ((j - i) % @lines.length == 1)
+    end
+
+    def explain
+      [
+        SubLabel.new("Remember that adjacent vertices are end points to the same line segment.  With this in mind, try the problem again:"),
+        self
+      ]
+    end
   end
 
   class DefDiagonal < QuestionWithExplanation
@@ -285,6 +370,8 @@ module Chapter4
     Chapter4::NameAngles,
     Chapter4::NameTriangles,
     Chapter4::DefVertices,
+    Chapter4::DefAdjacentSides,
+    Chapter4::DefAdjacentVertices,
     Chapter4::DefDiagonal
   ]
 end
