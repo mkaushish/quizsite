@@ -5,7 +5,6 @@ include ToHTML
 
 module Geometry
   class GeometryBase < InputField
-
     # Ways to maek a geo field:
     #   new( [ start shapes in array form ]
     #   new( startshape1, startshape2, ... )
@@ -25,6 +24,15 @@ module Geometry
 
     def encodedStartShapes
       Shape.encode_a(@shapes)
+    end
+
+    def startTool(tool = nil)
+      @tool = tool unless tool.nil?
+      @tool || "notool"
+    end
+
+    def self.selectedShapes(response)
+      Shape.decode_a(InputField.fromhash("selectedshapes"))
     end
 
     #
