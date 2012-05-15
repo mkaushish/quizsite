@@ -470,8 +470,10 @@ $(function() {
   }
 
   function Line(x1, y1, x2, y2) {
+    if(x1 > x2) { return new Line(x2, y2, x1, y1); }
+
     Shape.call(this);
-    this.x1 = x1;
+    this.x1 = (x1 <= x2) ? x1 : x2;
     this.y1 = y1;
     this.x2 = x2;
     this.y2 = y2;
@@ -491,10 +493,12 @@ $(function() {
     }
 
     this.underMouse = function(px_dist) { 
-      if(px_dist == undefined) { px_dist = 3; }
-      var l = this.toSlopeInt();
+      if(px_dist == undefined) { px_dist = 5; }
+      var l1 = this.toSlopeInt();
+      var l2 = this.toRevSlopeInt(); // give vertical lines a fighting chance for selection
 
-      return Math.abs(mousex * l.m + l.b - mousey) < px_dist && this.x1 < mousex && mousex < this.x2
+      return Math.abs(mousex * l1.m + l1.b - mousey) < px_dist && this.x1 < mousex && mousex < this.x2
+         ||  Math.abs(mousey * l2.m + l2.b - mousex) < px_dist && this.y1 < mousey && mousey < this.xy
     }
 
     this.toString = function() {
@@ -509,6 +513,15 @@ $(function() {
     this.toSlopeInt = function() {
       var m = (this.y2 - this.y1) / (this.x2 - this.x1);
       var b = this.y1 - (m * this.x1);
+      return {
+        m : m,
+        b : b,
+      }
+    }
+
+    this.toRevSlopeInt = function() {
+      var m = (this.x2 - this.x1) / (this.y2 - this.y1);
+      var b = this.x1 - (m * this.y1);
       return {
         m : m,
         b : b,
@@ -1039,7 +1052,7 @@ $(function() {
     writeSelection : function() {
       var s = "";
       for(i in this.selShapes) { if(this.selShapes[i]) { s = s+i + "," } }
-      $('#selectedshapes').html(s.replace(/,$/, ""));
+      $('#selectedshapes').attr("value", s.replace(/,$/, ""));
     }
   }
 
@@ -1160,7 +1173,7 @@ $(function() {
 
   $('#clear').click(function(){
     getStartShapes();
-    //clear();
+    setState(BLANK);
   });
 
   function a_to_s(arr) {
