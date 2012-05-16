@@ -84,17 +84,21 @@ module Chapter7
       [TextLabel.new("Convert the following into an improper fraction"), Fraction.new(remainder, @den, intpart), Fraction.new("num", "den")]
     end
   end
-  class ReduceFractions < QuestionBase
+  class ReduceFractions < QuestionWithExplanation
     def initialize(nums1=nil, nums2=nil, comm=nil)
       if (nums1!=nil && nums2!=nil && comm!=nil)
         @nums1=nums1
         @nums2=nums2
         @comm=comm
       else
-        nms=Grade6ops.chCommPF
-        @nums1=nms[0]
-        @nums2=nms[1]
-        @comm=comm
+        @nums1=[1]
+        @nums2=[1]
+        while @nums1.reduce(:*).to_f/@nums2.reduce(:*)==1
+          nms=Grade6ops.chCommPF
+          @nums1=nms[0]
+          @nums2=nms[1]
+          @comm=nms[2]
+        end
       end
     end
     def solve
@@ -102,7 +106,7 @@ module Chapter7
         "den" => @nums2.reduce(:*)/@comm.reduce(:*)}
     end
     def explain
-      [Sublabel.new("To reduce a fraction to its lowest form, you have to divide the numerator and denominator by their HCF"),
+      [SubLabel.new("To reduce a fraction to its lowest form, you have to divide the numerator and denominator by their HCF"),
         Chapter3::HCF.new(@nums1, @nums2, @comm),
         PreG6::Division.new(@comm.reduce(:*), @nums1.reduce(:*), true),
         PreG6::Division.new(@comm.reduce(:*), @nums2.reduce(:*), true),
@@ -114,57 +118,62 @@ module Chapter7
   end
 
 
-    MAXEQFRAC=60
-    class EquivalentFractions < QuestionBase
-      def self.type
-        "Equivalent Fractions"
-      end
-      def initialize
-        @den1=rand(MAXEQFRAC)+3
-        @num1=rand(@den1)+1
-        sig=rand(2)
-        if sig==0
-          mult=rand(10)+2
-          @num2=@num1*mult
-          @den2=@den1*mult
-        else
-          @den2=rand(MAXEQFRAC)+3
-          @num2=rand(@den2)+1
+  MAXEQFRAC=60
+  class EquivalentFractions < QuestionWithExplanation
+    def self.type
+      "Equivalent Fractions"
+    end
+    def initialize
+      nm1=Grade6ops.chCommPF
+      @den1=nm1[1]
+      @num1=nm1[0]
+      @comm1=nm1[2]
+      sig=rand(2)
+      if sig==0
+        mult=rand(2)+1
+        for i in 0...mult
+          pr=[2,2,2,3,3,5,7].sample
+          @num2=Array.new(@num1)
+          @den2=Array.new(@den1)
+          @num2 << pr
+          @den2 << pr
         end
+      else
+        nm2=Grade6ops.chCommPF
+        @den2=nm2[1]
+        @num2=nm2[0]
+        @comm2=nm2[2]
       end
-      def explain
-        fr1=Rational(@num1,@den1)
-        fr2=Rational(@num2,@den2)
-        ter=[Subproblem.new([TextLabel.new("Reduce the first Fraction to its lowest form"), Fraction.new(@num1, @den1), Fraction.new("num1", "den1")], {"num1" => fr1.numerator.to_s, "den1" => fr1.numertor.to_s}),
-          Subproblem.new([TextLabel.new("Reduce the second Fraction to its lowest form"), Fraction.new(@num2, @den2), Fraction.new("num2", "den2")], {"num2" => fr2.numerator.to_s, "den2" => fr2.numertor.to_s})]
-        ret=[TextLabel.new("If the numerator of the reduced first fraction, #{fr1.numerator}, equals the numerator of the reduced second fraction, #{fr2.numerator}, and the denominator of the reduced first fraction, #{fr1.denominator}, equals the denominator of the reduced second fraction, #{fr2.denominator}, then the fractions are equivalent.")]
-        if solve["ans"]=='='
-          ret << TextLabel.new("Hence, the Fractions are equivalent.")
-        else
-          ret << TextLabel.new("Hence, the Fractions are not equivalent")
-        end
-        ter << Subproblem.new(ret)
-        ter
-      end
+    end
+    def explain
+      [Chapter7::ReduceFractions.new(@num1, @den1, @comm1),
+        Chapter7::ReduceFractions.new(@num2, @den2, @comm2),
+        Subproblem.new([TextLabel.new("If the numerator of the reduced first fraction, #{@num1.reduce(:*)}, equals the numerator of the reduced second fraction, #{@num2.reduce(:*)}, and the denominator of the reduced first fraction, #{@den1.reduce(:*)}, equals the denominator of the reduced second fraction, #{@den2.reduce(:*)}, then the fractions are equivalent. Are the fractions equivalent?"), Dropdown.new("tr", "=", SYMBOL[:notequals])], {"tr" => solve["ans"]})]
+    end
 
-      def solve
-
-        return {"ans" => '='} if Rational(@num1,@den1)==Rational(@num2,@den2)
-        return {"ans" => SYMBOL[:notequals]}
-      end
-
-
-      def text
-        [TextLabel.new("Are the following equivalent?"), Fraction.new(@num1, @den1), Dropdown.new("ans", '=', SYMBOL[:notequals]) , Fraction.new(@num2,@den2)] 
-      end
+    def solve
+      return {"ans" => '='} if Rational(@num1.reduce(:*),@den1.reduce(:*))==Rational(@num2.reduce(:*),@den2.reduce(:*))
+      {"ans" => SYMBOL[:notequals]}
     end
 
 
-    class FillFractions < QuestionBase
-      def self.type
-        "Fill in Fractions"
-      end
-      def initialize
+    def text
+      [TextLabel.new("Are the following equivalent?"), Fraction.new(@num1.reduce(:*), @den1.reduce(:*)), Dropdown.new("ans", '=', SYMBOL[:notequals]) , Fraction.new(@num2.reduce(:*),@den2.reduce(:*))] 
+    end
+  end
+
+
+  class FillNumerator < QuestionBase
+    def self.type
+      "Fill in Numerators"
+    end
+    def initialize(den=nil, num=nil, sig=nil, wh=nil)
+      if(den!=nil)
+        @den=den
+        @num=num
+        @sig=sig
+        @wh=wh
+      else
         com=(rand(9)+2)
         @den=[]
         @num=[]
@@ -173,142 +182,242 @@ module Chapter7
         @num[0]=rand(@den[0]-1)+1
         @den[1]=@den[0]*com
         @num[1]=@num[0]*com
-        @sig[0]=rand(2)
-        @sig[1]=rand(2)
+        @sig=rand(2)
+        @wh=rand(2)
       end
-      def solve
-        if @sig[1]==0
-          return {"ans" => @den[@sig[0]].to_s}
-        end
-        return {"ans" => @num[@sig[0]].to_s}
-      end
-      def text
-        str=[]
-        str << TextLabel.new("Fill in the blank:")
-        str1 = []
-        str2 = []
-
-        if @sig[0]==0
-          str2 << Fraction.new(@num[1], @den[1])
-          if @sig[1]==0
-            str1 << Fraction.new(@num[0],"den")
-          else
-            str1 << Fraction.new("num", @den[0])
-          end
-        else
-          str1 << Fraction.new(@num[0], @den[0])
-          if @sig[1]==0
-            str2 << Fraction.new(@num[1], "den")
-          else
-            str2 << Fraction.new("num", @den[1])
-          end
-        end
-        wh=rand(2)
-        if wh==0
-          str+=str1
-          str << TextLabel.new('=')
-          str += str2
-        else
-          str+=str2
-          str << TextLabel.new('=')
-          str+=str1
-        end
-        str
-      end  
     end
+    def solve
+      return {"ans" => @num[@sig]}
+    end
+    def text
+      str=[]
+      str << TextLabel.new("Fill in the Numerator:")
+      str1 = []
+      str2 = []
 
-    class CompareLikeFrac < QuestionBase
-      def self.type
-        "Compare Like Fractions"
+      if @sig==0
+        str2 << Fraction.new(@num[1], @den[1])
+        str1 << Fraction.new("ans", @den[0])
+      else
+        str1 << Fraction.new(@num[0], @den[0])
+        str2 << Fraction.new("ans", @den[1])
       end
-      def initialize
+      if @wh==0
+        str+=str1
+        str << TextLabel.new('=')
+        str += str2
+      else
+        str+=str2
+        str << TextLabel.new('=')
+        str+=str1
+      end
+      str
+    end  
+  end
+
+  class FillDenominator < QuestionBase
+    def self.type
+      "Fill in Denominators"
+    end
+    def initialize(den=nil, num=nil, sig=nil, wh=nil)
+      if(den!=nil)
+        @den=den
+        @num=num
+        @sig=sig
+        @wh=wh
+      else
+        com=(rand(9)+2)
+        @den=[]
+        @num=[]
+        @sig=[]
+        @den[0]=rand(10)+2
+        @num[0]=rand(@den[0]-1)+1
+        @den[1]=@den[0]*com
+        @num[1]=@num[0]*com
+        @sig=rand(2)
+        @wh=rand(2)
+      end
+    end
+    def solve
+      return {"ans" => @den[@sig]}
+    end
+    def text
+      str=[]
+      str << TextLabel.new("Fill in the Denominator:")
+      str1 = []
+      str2 = []
+
+      if @sig==0
+        str2 << Fraction.new(@num[1], @den[1])
+        str1 << Fraction.new(@num[0], "ans")
+      else
+        str1 << Fraction.new(@num[0], @den[0])
+        str2 << Fraction.new(@num[1], "ans")
+      end
+      if @wh==0
+        str+=str1
+        str << TextLabel.new('=')
+        str += str2
+      else
+        str+=str2
+        str << TextLabel.new('=')
+        str+=str1
+      end
+      str
+    end  
+  end
+
+  class CompareLikeFrac < QuestionBase
+    def self.type
+      "Compare Like Fractions"
+    end
+    def initialize(den=nil, num1=nil, num2=nil)
+      if(den!=nil && num1!=nil && num2!=nil)
+        @den=den
+        @num1=num1
+        @num2=num2
+      else
         @den=rand(25)+2
         @num1=rand(@den-1)+1
         @num2=rand(@den-1)+1
       end
-      def solve
-        return {"ans" => '='} if @num1==@num2
-        return {"ans" => '<'} if @num1<@num2
-        return {"ans" => '>'} if @num1>@num2
-      end
-      def explain
-        [Subproblem.new([TextLabel.new("To Compare like fractions, all that has to be done is the compare the numerators. Choose the correct symbol"), TextLabel.new(@num1.to_s), Dropdown.new("ans", '=', '<', '>'), TextLabel.new(@num2.to_s)], solve),
-          Subproblem.new([TextLabel.new("Since the First numerator, #{@num1}, #{solve["ans"]} Second numerator, #{@num2},"), Fraction.new(@num1,@den), TextLabel.new(solve["ans"]), Fraction.new(@num2, @den)])]  
-      end
-      def text
-        [TextLabel.new("Place the appropriate symbol:"), Fraction.new(@num1, @den), Dropdown.new("ans", '=', '<', '>'), Fraction.new(@num2, @den)]
-      end
     end
-
-    class CompareUnlikeFrac < QuestionBase
-      def self.type
-        "Compare Unlike Fractions"
-      end
-      def initialize
-        @den1=rand(25)+2
-        @den2=rand(25)+2
-        @num1=rand(@den1-1)+1
-        @num2=rand(@den2-1)+1
-      end
-      def solve
-        return {"ans" => '='} if Rational(@num1, @den1)==Rational(@num2, @den2)
-        return {"ans" => '<'} if Rational(@num1, @den1)<Rational(@num2, @den2)  
-        return {"ans" => '>'} if Rational(@num1, @den1)>Rational(@num2, @den2)  
-      end
-      def explain
-        hcf=Grade6ops::euclideanalg(@den1,@den2)
-        lcm=(@den1*@den2)/hcf
-        [Subproblem.new([TextLabel.new("Find the LCM of the tewo denominators, #{@den1} and #{@den2}. Divide the LCM by the two denominators"), TextField.new("lcm", "LCM"), TextField.new("den1h", "LCM divided by denominator 1"), TextField.new("den2h", "LCM divided by denominator 2")], {"lcm" => lcm, "den1h" => lcm/@den1,  "den2h" => lcm/@den2}),
-          Subproblem.new([TextLabel.new("Multiply the first Numerator, #{@num1}, by #{lcm/@den2}. Multiply the second Numerator,  #{@num2}, by #{lcm/@den1}."),  TextField.new("num11", "Numerator 1 multiplied by #{lcm/@den2}"), TextField.new("num22", "Numerator 2 multiplied by #{lcm/@den1}")], {"num11" => @num1*(lcm/@den2), "num22" => @num2*(lcm/@den1)}),
-          Subproblem.new([TextLabel.new("Hence,"), Fraction.new(@num1,@den1), TextLabel.new(solve["ans"]), Fraction.new(@num2, @den2)])] 
-      end
-      def text
-        [TextLabel.new("Place the appropriate symbol:"), Fraction.new(@num1,@den1), Dropdown.new("ans",'=','<','>'), Fraction.new(@num2, @den2)]
-      end
+    def solve
+      return {"ans" => '='} if @num1==@num2
+      return {"ans" => '<'} if @num1<@num2
+      return {"ans" => '>'} if @num1>@num2
     end
+    def explain
+      [SubLabel.new("To Compare like fractions, all that has to be done is to compare the numerators."), PreG6::CompareNumbers.new(@num1, @num2),
+        Subproblem.new([TextLabel.new("Since the First numerator, #{@num1}, #{solve["ans"]} Second numerator, #{@num2}, place the appropriate symbol:"), Fraction.new(@num1,@den), Dropdown.new("ans", "=", "<", ">"), Fraction.new(@num2, @den)], {"ans" => solve["ans"]})]  
+    end
+    def text
+      [TextLabel.new("Place the appropriate symbol:"), Fraction.new(@num1, @den), Dropdown.new("ans", '=', '<', '>'), Fraction.new(@num2, @den)]
+    end
+  end
 
-    class ASUnlikeFractions < QuestionBase
-      def self.type
-        "Operations on Unlike Fractions"
-      end
-      def initialize(amt=2)
+  class CompareUnlikeFrac < QuestionWithExplanation
+    def self.type
+      "Compare Unlike Fractions"
+    end
+    def initialize
+      dens=Grade6ops.chCommPF
+      @dens1=dens[0]
+      @den1=@dens1.reduce(:*)
+      @dens2=dens[1]
+      @den2=@dens2.reduce(:*)
+      @comm=dens[2]
+      @num1=rand(@den1-1)+1
+      @num2=rand(@den2-1)+1
+    end
+    def solve
+      return {"ans" => '='} if Rational(@num1, @den1)==Rational(@num2, @den2)
+      return {"ans" => '<'} if Rational(@num1, @den1)<Rational(@num2, @den2)  
+      return {"ans" => '>'} if Rational(@num1, @den1)>Rational(@num2, @den2)  
+    end
+    def explain
+      hcf=Grade6ops::euclideanalg(@den1,@den2)
+      lcm=(@den1*@den2)/hcf
+      [SubLabel.new("To compare two unlike fractions, we have to make them into like fractions. We do this by finding the LCM of the two denominators and making that the new denominator. Then, we have to appropriately scale up the numerators"),
+        Chapter3::LCM.new(@dens1, @dens2, @comm),
+        Chapter7::FillNumerator.new([@den1, lcm], [@num1, @num1*(lcm/@den1)], 1, 0),
+        Chapter7::FillNumerator.new([@den2, lcm], [@num2, @num2*(lcm/@den2)], 1, 0),
+        SubLabel.new("Now they are like fractions, which we can easily compare"),
+        Chapter7::CompareLikeFrac.new(lcm, @num1*(lcm/@den1), @num2*(lcm/@den2))]
+    end
+    def text
+      [TextLabel.new("Place the appropriate symbol:"), Fraction.new(@num1,@den1), Dropdown.new("ans",'=','<','>'), Fraction.new(@num2, @den2)]
+    end
+  end
+
+  class ASUnlikeFractions < QuestionWithExplanation
+    def self.type
+      "Operations on Unlike Fractions"
+    end
+    def initialize(nums=nil, dens=nil, comm=nil, sig=nil)
+      if nums!=nil
+        @num=nums
+        @dens=dens
+        @comm=comm
         @den=[]
+        for i in 0...@dens.length
+          @den[i]=@dens[i].reduce(:*)
+        end
+        @sig=sig
+      else
         @num=[]
         @sig=[]
-        for i in 0...amt
-          @den[i]=rand(25)+2
-          @num[i]=(rand(@den[i]/amt)+1).to_i
+        @dens=[]
+        @den=[]
+        @comm=[]
+        ln=rand(2)+2
+        nms=Grade6ops.chCommPF(250)
+        @dens[0]=nms[0]
+        @dens[1]=nms[1]
+        @comm[0]=nms[2]
+        @tmp=Chapter3::LCM.new(@dens[0], @dens[1], @comm[0])
+        for i in 2...ln
+          @tmp=Chapter3::LCM.new(@tmp.lcm, @dens[i-1], @comm[i-2])
+          nms=Grade6ops.chCommPF(250, @tmp.lcm)
+          @dens[i]=nms[1]
+          @comm[i-1]=nms[2]
+        end
+        @tmp=Chapter3::LCM.new(@tmp.lcm, @dens[@dens.length-1], @comm[@dens.length-2])
+        for i in 0...ln
+          @den[i]=@dens[i].reduce(:*)
+          @num[i]=(rand((@den[i]/ln).to_i)+1)
           if i>0
             @sig[i-1]=rand(2)
             @sig[i-1]=-1 if @sig[i-1]==0
           end
         end
       end
-      def solve
-        sol=Grade6ops::asfractions(@num,@den,@sig)
-        {"num" => sol.num.to_s,
-          "den" => sol.den.to_s}
-      end
-      def text
-        str= [TextLabel.new("Compute the following and reduce to its lowest form:") , Fraction.new(@num[0], @den[0])]
-        for i in 0...@sig.length
-          if @sig[i]==1
-            str << TextLabel.new('+')
-            str << Fraction.new(@num[i+1], @den[i+1])
-          else
-            str << TextLabel.new('-')
-            str << Fraction.new(@num[i+1], @den[i+1])
-          end
-        end
-        str << Fraction.new("num", "den")
-      end
     end
-
-    class ASLikeFractions < QuestionBase
-      def self.type
-        "Operations on Like Fractions"
+    def solve
+      sol=Grade6ops::asfractions(@num,@den,@sig)
+      {"num" => sol[:num],
+        "den" => sol[:den]}
+    end
+    def explain
+      ret=[SubLabel.new("First, we find the LCM of all the denominators. Then, we scale up the numerators to have the LCM as their denominator. Then, we perform operations on these new fractions as we would on like fractions.")]
+      lcm = Chapter3::MultLCM.new(@dens, @comm)
+      ret << lcm
+      nums=[]
+      for i in 0...@num.length
+        nums[i] = @num[i]*(lcm.solve["lcm"]/@den[i])
+        ret << Chapter7::FillNumerator.new([@den[i], lcm.solve["lcm"]], [@num[i], nums[i]], 1, 0)
       end
-      def initialize(amt=rand(3)+2)
+      ret << Chapter7::ASLikeFractions.new(lcm.solve["lcm"], nums, @sig)
+    end
+    def text
+      str= [TextLabel.new("Compute the following and reduce to its lowest form:") , Fraction.new(@num[0], @den[0])]
+      for i in 0...@sig.length
+        if @sig[i]==1
+          str << TextLabel.new('+')
+          str << Fraction.new(@num[i+1], @den[i+1])
+        else
+          str << TextLabel.new('-')
+          str << Fraction.new(@num[i+1], @den[i+1])
+        end
+      end
+      str << Fraction.new("num", "den")
+    end
+  end
+
+  class ASLikeFractions < QuestionWithExplanation
+    def self.type
+      "Operations on Like Fractions"
+    end
+    def initialize(den=nil, nums=nil, sig=nil)
+      if den!=nil
+        @den=[]
+        for i in 0...nums.length
+          @den[i]=den
+        end
+        @num=nums
+        @sig=sig
+      else
+        amt=rand(3)+2
         de=rand(25)+3
         @den=[]
         @num=[]
@@ -331,67 +440,73 @@ module Chapter7
           @sig << 1
         end
       end
-      def solve
-        sol=Grade6ops::asfractions(@num,@den,@sig)
-        {"num" => sol[:num].to_s,
-          "den" => sol[:den].to_s}
-      end
-      def text
-        str= [TextLabel.new("Compute the following and reduce to its lowest form:") , Fraction.new(@num[0], @den[0])]
-        for i in 0...@sig.length
-          if @sig[i]==1
-            str << TextLabel.new('+')
-            str << Fraction.new(@num[i+1], @den[i+1])
-          else
-            str << TextLabel.new('-')
-            str << Fraction.new(@num[i+1], @den[i+1])
-          end
-        end
-        str << Fraction.new("num","den")
-      end
     end
-
-    class ASMixedFractions < QuestionBase
-      def self.type
-        "Operations on Mixed Fractions"
-      end
-      def initialize(amt=2)
-        @intpart=[]
-        @den=[]
-        @num=[]
-        @sig=[]
-        for i in 0...amt
-          @intpart[i]=rand(6)+1
-          @den[i]=rand(25)+2
-          @num[i]=(rand(@den[i]/amt)+1).to_i
-          if i>0
-            @sig[i-1]=rand(2)
-            @sig[i-1]=-1 if @sig[i-1]==0
-          end
-        end
-      end
-      def solve
-        frac=Grade6ops::asfractions(@num,@den,@sig)
-        frac["intpart"]=@intpart.reduce(:+)
-        frac
-      end
-      def text
-        str = [TextLabel.new("Compute the following and give the answer in its lowest form:"), Fraction.new(@num[0],@den[0], @intpart[0])]
-        for i in 0...@sig.length
-          if @sig[i]==1
-            str << TextLabel.new('+')
-            str << Fraction.new(@num[i+1], @den[i+1], @intpart[i+1])
-          else
-            str << TextLabel.new('-')
-            str << Fraction.new(@num[i+1], @den[i+1], @intpart[i+1])
-          end
-        end
-        str << Fraction.new("num", "den", "intpart")
-      end
+    def solve
+      sol=Grade6ops::asfractions(@num,@den,@sig)
+      {"num" => sol[:num],
+        "den" => sol[:den]}
     end
-
-    PROBLEMS=[Chapter7::ToMixedFractions, Chapter7::ToImproperFractions, Chapter7::EquivalentFractions, Chapter7::ReduceFractions, Chapter7::FillFractions, Chapter7::CompareLikeFrac, Chapter7::CompareUnlikeFrac, Chapter7::ASLikeFractions, Chapter7::ASUnlikeFractions, Chapter7::ASMixedFractions]
-
+    def explain
+      [SubLabel.new("To perform addition and subtraction on like fractions, ignore the denominators and perform the given operations on the numerators"),
+        Chapter6::AddSubIntegers.new(@num, [1] + @sig),
+        Subproblem.new([TextLabel.new("Now add back in the denominator, #{@den}"), Fraction.new(@num.reduce(:+), "den")], {"den" => @den[0]}),
+        Subproblem.new([TextLabel.new("Now, reduce the fraction to its lowest form if it isn't already in that form"), Fraction.new("num", "den")], solve)]
+    end
+    def text
+      str= [TextLabel.new("Compute the following and reduce to its lowest form:") , Fraction.new(@num[0], @den[0])]
+      for i in 0...@sig.length
+        if @sig[i]==1
+          str << TextLabel.new('+')
+          str << Fraction.new(@num[i+1], @den[i+1])
+        else
+          str << TextLabel.new('-')
+          str << Fraction.new(@num[i+1], @den[i+1])
+        end
+      end
+      str << Fraction.new("num","den")
+    end
   end
+
+  class ASMixedFractions < ASUnlikeFractions
+    def self.type
+      "Operations on Mixed Fractions"
+    end
+    def initialize(amt=2)
+      super()
+      @intpart=[]
+      for i in 0...@num.length
+        @intpart[i]=rand(6)+1
+      end
+    end
+    def solve
+      frac=Grade6ops::asfractions(@num,@den,@sig)
+      {"intpart" => @intpart.reduce(:+),
+        "num" => frac[:num],
+        "den" => frac[:den]}
+    end
+    def explain
+      [SubLabel.new("First we perform the operations on the integer parts and then on the fraction parts."),
+      Chapter6::AddSubIntegers.new(@intpart, @sig),
+      ASUnlikeFractions.new(@nums, @dens, @comm, @sig),
+      Subproblem.new([TextLabel.new("Hence the result is: "), Fraction.new("num", "den", "intpart")], solve)]
+    end 
+    def text
+      str = [TextLabel.new("Compute the following and give the answer in its lowest form:"), Fraction.new(@num[0],@den[0], @intpart[0])]
+      for i in 0...@sig.length
+        if @sig[i]==1
+          str << TextLabel.new('+')
+          str << Fraction.new(@num[i+1], @den[i+1], @intpart[i+1])
+        else
+          str << TextLabel.new('-')
+          str << Fraction.new(@num[i+1], @den[i+1], @intpart[i+1])
+        end
+      end
+      str << Fraction.new("num", "den", "intpart")
+    end
+  end
+
+  PROBLEMS=[Chapter7::ToMixedFractions, Chapter7::ToImproperFractions, Chapter7::EquivalentFractions, Chapter7::ReduceFractions, Chapter7::FillNumerator, Chapter7::FillDenominator, Chapter7::CompareLikeFrac, Chapter7::CompareUnlikeFrac, Chapter7::ASLikeFractions, Chapter7::ASUnlikeFractions]
+
+end
 
 

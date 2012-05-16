@@ -39,6 +39,7 @@ module PreG6
     end
   end
 
+
   class Multiplication < QuestionBase
     def initialize(num1 = nil, num2 = nil)
       @num1 = num1.nil? ? rand(20)+2 : num1
@@ -69,6 +70,24 @@ module PreG6
         return [TextLabel.new("#{@num2} / #{@num1} = "), TextField.new("quo", "Quotient"), TextField.new("rem", "Remainder")]
       end
       return [TextLabel.new("#{@num2} / #{@num1} = "), TextField.new("quo")]
+    end
+  end
+  class CompareNumbers < QuestionBase
+    def initialize(num1=nil, num2=nil)
+      num1 == nil ? @num1=num1 : @num1=rand(1000)
+      num2 == nil ? @num2=num2 : @num2=rand(1000)
+    end
+    def solve
+      if @num1 == @num2
+        return {"ans" => "="}
+      elsif @num1 < @num2
+        return {"ans" => "<"}
+      else
+        return {"ans" => ">"}
+      end
+    end
+    def text
+      [TextLabel.new("Compare the two numbers and place the appropriate symbol:"), TextLabel.new("#{@num1}"), Dropdown.new("ans", "=", "<", ">"), TextLabel.new("#{@num2}")]
     end
   end
 

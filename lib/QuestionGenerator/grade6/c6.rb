@@ -208,19 +208,28 @@ module Chapter6
     def prereq
       [[Chapter6::AddIntegers, 0.5], [Chapter6::SubtractIntegers, 0.5]]
     end
-    def initialize(amt=rand(3)+2)
-      @nums=[]
-      for i in 0...amt
-        wh=rand(2)
-        if wh==0
-          @nums[i]=-1*rand(MAXASINT)
-        else
-          @nums[i]=rand(MAXASINT)
+    def initialize(nums=nil, signs=nil)
+      if nums!=nil
+        @nums= nums
+        @signs=signs
+      else
+        amt=rand(3)+2
+        @nums=[]
+        for i in 0...amt
+          wh=rand(2)
+          if wh==0
+            @nums[i]=-1*rand(MAXASINT)
+          else
+            @nums[i]=rand(MAXASINT)
+          end
         end
-      end
-      @signs=[]
-      for i in 0...@nums.length-1
-        @signs[i]=rand(2)
+        @signs=[]
+        for i in 0...@nums.length-1
+          @signs[i]=rand(2)
+          if @signs[i]==0
+            @signs[i]=-1
+          end
+        end
       end
     end
     def solve
@@ -229,7 +238,7 @@ module Chapter6
     def text
       str="Find:  (#{@nums[0]})"
       for i in 1...@nums.length do
-        if @signs[i-1]==0
+        if @signs[i-1]==1
           str += ' + '
           str += "(#{@nums[i]})"
         else 

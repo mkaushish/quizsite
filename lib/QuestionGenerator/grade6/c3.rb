@@ -486,7 +486,6 @@ module Chapter3
     def self.type
       "HCF"
     end
-    @@primes=[2,2,2,2,2,3,3,3,3,5,5,5,7,11]
     def prereq
       [[Chapter3::PrimeFactors, 1.0], [PreG6::Multiplication, 0.0]]
     end
@@ -532,6 +531,177 @@ module Chapter3
     end
   end
 
+  class MultHCF < QuestionWithExplanation
+    def initialize(nums=nil, comm=nil)
+      if nums!=nil
+        @nums=nums
+        @comm=comm
+      else
+        @nums=[]
+        @comm=[]
+        ln=rand(3)+3
+        nms=Grade6ops.chCommPF
+        @nums[0]=nms[0]
+        @nums[1]=nms[1]
+        @comm[0]=nms[2]
+        for i in 2...ln
+          nms=Grade6ops.chCommPF(750, @comm[i-2])
+          @nums[i]=nms[1]
+          @comm[i-1]=nms[2]
+        end
+      end
+    end
+    def solve
+      return {"hcf" => 1} if @comm[@comm.length-1].length==0
+      {"hcf" => @comm[@comm.length-1].reduce(:*)}
+    end
+    def explain
+      ret=[SubLabel.new("To find the HCF of multiple numbers, we find the HCF of the first 2 numbers. Now we take the HCF of the result we just got with the next number and so on."), Chapter3::HCF.new(@nums[0], @nums[1], @comm[0])]
+      for i in 2...@nums.length
+        ret << Chapter3::HCF.new(@comm[i-2], @nums[i], @comm[i-1])
+      end
+      ret
+    end
+    def text
+      num=[]
+      for i in 0...@nums.length
+        num[i]=@nums[i].reduce(:*)
+      end
+      [TextLabel.new("Give the HCF of the following numbers: #{num.join(", ")}"), TextField.new("hcf", "HCF")]
+    end
+  end
+
+
+
+
+  class LCM < QuestionWithExplanation
+    attr_accessor :lcm
+    def self.type
+      "LCM"
+    end
+    def prereq
+      [[Chapter3::PrimeFactors, 1.0], [PreG6::Multiplication, 0.0]]
+    end
+
+    def initialize(nums1=nil, nums2=nil, comm=nil)
+      if(nums1!=nil && nums2!=nil && comm!=nil)
+        @nums1=nums1
+        @nums2=nums2
+        @comm=comm
+      else
+        nms=Grade6ops.chCommPF
+        @nums1=nms[0]
+        @nums2=nms[1]
+        @comm=nms[2]
+      end
+      puts @comm
+      @lnums1=Array.new(@nums1)
+      com=Array.new(@comm)
+      for j in 0...com.length
+        for i in 0...@lnums1.length
+          if com[j] == @lnums1[i]
+            @lnums1.slice!(i)
+            break
+          end
+        end
+      end
+      @lnums2=Array.new(@nums2)
+      com=Array.new(@comm)
+      for j in 0...com.length
+        for i in 0...@lnums2.length
+          if com[j] == @lnums2[i]
+            @lnums2.slice!(i)
+            break
+          end
+        end
+      end
+      @lcm=@lnums1+@comm+@lnums2
+    end
+    def solve
+      lcm=@comm.reduce(:*)
+      lcm=1 if @comm.length == 0
+      if @lnums1.length == 0
+        lcm*=1
+      else lcm*=@lnums1.reduce(:*)
+      end
+      if @lnums2.length == 0
+        lcm*=1
+      else lcm*=@lnums2.reduce(:*)
+      end
+      return {"lcm" => lcm}
+    end
+
+    def explain
+      solve
+      h1={}
+      h2={}
+      co={}
+      for i in 0...@lnums1.length
+        h1["pro1_"+i.to_s]=@lnums1[i]
+      end
+      for i in 0...@lnums2.length
+        h2["pro2_"+i.to_s]=@lnums2[i]
+      end
+      for i in 0...@comm.length
+        co["comm_"+i.to_s]=@comm[i]
+      end
+      ret=[Chapter3::PrimeFactors.new(@nums1), Chapter3::PrimeFactors.new(@nums2),
+        Subproblem.new([TextLabel.new("What are the prime factors in common?"), MultiTextField.new("comm")], co),
+        Subproblem.new([TextLabel.new("What are the prime factors remaining in #{@nums1.reduce(:*)} once the common factors are removed (Do not count the common factors)."), MultiTextField.new("pro1")], h1),  
+        Subproblem.new([TextLabel.new("What are the prime factors remaining in #{@nums2.reduce(:*)} once the common factors are removed (Do not count the common factors)."), MultiTextField.new("pro2")], h2),  
+      Subproblem.new([TextLabel.new("The common prime factors are #{@comm.join(", ")}, the prime factors that make up #{@nums1.reduce(:*)} not including the common factors are #{@lnums1.join(", ")}, and the prime factors that make up #{@nums2.reduce(:*)} not including the common factors are #{@lnums2.join(", ")}. The LCM is the product of all of these prime factors. What is the LCM?"), TextField.new("lcm")], {"lcm" => solve["lcm"]})]
+    end
+
+    def text
+      [TextLabel.new("Give the LCM of #{@nums1.reduce(:*)} and #{@nums2.reduce(:*)}, #{@comm}"), TextField.new("lcm", "LCM")] 
+    end
+  end
+  
+  class MultLCM < QuestionWithExplanation
+    def initialize(nums=nil, comm=nil)
+      if nums!=nil
+        @nums=nums
+        @comm=comm
+      else
+        @nums=[]
+        @comm=[]
+        ln=rand(2)+3
+        nms=Grade6ops.chCommPF(250)
+        @nums[0]=nms[0]
+        @nums[1]=nms[1]
+        @comm[0]=nms[2]
+        @tmp=Chapter3::LCM.new(@nums[0], @nums[1], @comm[0])
+        for i in 2...ln
+          @tmp=Chapter3::LCM.new(@tmp.lcm, @nums[i-1], @comm[i-2])
+          nms=Grade6ops.chCommPF(250, @tmp.lcm)
+          @nums[i]=nms[1]
+          @comm[i-1]=nms[2]
+        end
+        @tmp=Chapter3::LCM.new(@tmp.lcm, @nums[@nums.length-1], @comm[@nums.length-2])
+      end
+    end
+    def solve
+      explain
+      return {"lcm" => @lcm.solve["lcm"]} 
+    end
+    def explain
+      ret=[SubLabel.new("To find the LCM of multiple numbers, we find the LCM of the first 2 numbers. Now we take the LCM of the result we just got with the next number and so on.") ]
+      @lcm=Chapter3::LCM.new(@nums[0], @nums[1], @comm[0])
+      ret << @lcm
+      for i in 2...@nums.length
+        @lcm=Chapter3::LCM.new(@lcm.lcm, @nums[i], @comm[i-1])
+        ret << @lcm
+      end
+      ret
+    end
+    def text
+      num=[]
+      for i in 0...@nums.length
+        num[i]=@nums[i].reduce(:*)
+      end
+      [TextLabel.new("Give the LCM of the following numbers: #{num.join(", ")}"), TextField.new("lcm", "LCM")]
+    end
+  end
 
   PROBLEMS = [ Chapter3::IdentifyPrimes,  Chapter3::PrimeFactors,    Chapter3::Factors,  Chapter3::CommonFactors,
     Chapter3::Div_2, 
@@ -544,6 +714,9 @@ module Chapter3
     Chapter3::Div_10, 
     Chapter3::Div_11,
     Chapter3::SumPrimes, 
-    Chapter3::HCF
+    Chapter3::HCF,
+    Chapter3::MultHCF,
+    Chapter3::LCM, 
+    Chapter3::MultLCM
   ]
 end

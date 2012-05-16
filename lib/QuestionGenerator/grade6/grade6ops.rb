@@ -372,29 +372,82 @@ class Fixnum
   def self.ind_hund?(digit_count)
     digit_count == 2 || digit_count == 9
   end
-  PRIMESCOMM=[2,2,2,2,2,3,3,3,3,5,5,5,7,11]
-  MAXHL=500
-  def Grade6ops.chCommPF
-    nums1=[]
-    nums2=[]
-    comm=[]
-    clen=rand(3)+1
-    for i in 0...clen
-      comm << PRIMESCOMM.sample
+  PRIMESCOMM=[2,2,2,3,3,5,5,7,11]
+  MAXHL=750
+  def Grade6ops.chCommPF(max=1000, num1=nil)
+    if num1==nil
+      nums1=[11,11,11,11,11,11]
+      nums2=[11,11,11,11,11,11]
+      while nums1.reduce(:*) > max || nums2.reduce(:*) > max
+        nums1=[]
+        nums2=[]
+        comm=[]
+        clen=1
+        for i in 0...clen
+          comm << PRIMESCOMM.sample
+        end
+        nums1=Array.new(comm)
+        nums2=Array.new(comm)
+        len1=rand(4)+2
+        len2=rand(4)+2
+        for i in 0...len1
+          nums1 << PRIMESCOMM.sample
+        end
+        nums1=nums1.sort
+        for i in 0...len2
+          nums2 << PRIMESCOMM.sample
+        end
+        nums2=nums2.sort
+      end
+      comm=[]
+      js=0
+      for i in 0...nums1.length
+        for j in js...nums2.length
+          if nums1[i]==nums2[j]
+            js=j+1
+            comm << nums1[i]
+            break
+          end
+        end
+      end
+      return [nums1, nums2, comm]
+    else
+      nums1=num1
+      n1=Array.new(nums1)
+      comm=[max, max]
+      while comm.reduce(:*) > max/2
+        comm=[]
+        ln=rand(n1.length-2)+1
+        for i in 0...ln
+          comm[i]=n1.slice!(rand(n1.length))
+        end
+      end
+      puts "[#{comm.join(", ")}]"
+      nums2=[max,max]
+      while nums2.reduce(:*) > max
+        nums2=Array.new(comm)
+        ln=rand(3)
+        for i in 0...ln
+          nums2 << PRIMESCOMM.sample
+        end
+        nums1=nums1.sort
+        nums2=nums2.sort
+      end
+      puts "[#{nums2.join(", ")}]"
+      comm=[]
+      js=0
+      for i in 0...nums1.length
+        for j in js...nums2.length
+          if nums1[i]==nums2[j]
+            js=j+1
+            comm << nums1[i]
+            break
+          end
+        end
+      end
+      comm.sort
+      return [nums1, nums2, comm]
     end
-    nums1=Array.new(comm)
-    nums2=Array.new(comm)
-    len1=rand(3)
-    len2=rand(3)
-    for i in 0...len1
-      nums1 << PRIMESCOMM.sample
-    end
-    nums1=nums1.sort
-    for i in 0...len2
-      nums2 << PRIMESCOMM.sample
-    end
-    nums2=nums2.sort
-    return [nums1, nums2, comm]
   end
 end
 
