@@ -8,14 +8,14 @@ $('.del_mt_field').remove();
 
 var texts = myInputs.filter(':text');
 texts.css("border","2px solid green");
-//checkboxes.hide();
-//checkboxes.insertBefore('<div class="correct">');
-//checkboxes.insertAfter('</div>');
-//checkboxes.next('label').after('</div>');
-//checkboxes.next('label').before('<div class="correct">');
   
 $('#next_subproblem').before("<%= escape_javascript(render(:partial => 'problem/problem', :object => @explain[@i], :locals => {:partialdir => 'problem'})) %>");
 $('#subproblem_index').html("<%= escape_javascript(hidden_field_tag('subproblem_index', @i)) %>");
+
+// handle canvas changes - TODO move shapes to startshapes?
+if($('#geocanvas').length == 1) {
+  setUpGeo();
+}
 
 // To ensure mt_field buttons get bound correctly
 bind_mt_fields();

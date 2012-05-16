@@ -18,7 +18,7 @@ end
 module CricketQuestions
   class CricketSubproblem < Subproblem
     def correct?(params)
-      HTMLObj::get_result("av", params).to_f==@mysoln["av"]
+      QuestionBase.vars_from_response("av", params).to_f==@mysoln["av"]
     end  
   end
   TEAMS=["Australia", "Bangladesh", "England", "India", "New Zealand", "Pakistan", "South Africa", "Sri Lanka", "Zimbabwe"]  
@@ -85,7 +85,7 @@ module CricketQuestions
       end
     end
     def correct?(params)
-      HTMLObj::get_result("ans", params).to_f==solve["ans"]
+      QuestionBase.vars_from_response("ans", params).to_f==solve["ans"]
     end  
     def image
       return @pname[0]+".png"
@@ -155,7 +155,7 @@ module CricketQuestions
       end
     end
     def correct?(params)
-      HTMLObj::get_result("ans", params).to_f==solve["ans"]
+      QuestionBase.vars_from_response("ans", params).to_f==solve["ans"]
     end  
     def image
       return @pname[0]+".png"
@@ -211,7 +211,7 @@ module CricketQuestions
       @names=@mat.slice!(0)   
     end
     def correct?(params)
-      HTMLObj::get_result("ans", params).to_f==solve["ans"]
+      QuestionBase.vars_from_response("ans", params).to_f==solve["ans"]
     end  
     def solve
       sum=0
@@ -288,7 +288,7 @@ module CricketQuestions
       end
     end
     def correct?(params)
-      HTMLObj::get_result("ans", params).to_f==solve["ans"]
+      QuestionBase.vars_from_response("ans", params).to_f==solve["ans"]
     end  
     def image
       return @pname[0]+".png"

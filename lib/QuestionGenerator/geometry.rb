@@ -5,7 +5,6 @@ include ToHTML
 
 module Geometry
   class GeometryBase < InputField
-
     # Ways to maek a geo field:
     #   new( [ start shapes in array form ]
     #   new( startshape1, startshape2, ... )
@@ -25,6 +24,15 @@ module Geometry
 
     def encodedStartShapes
       Shape.encode_a(@shapes)
+    end
+
+    def startTool(tool = nil)
+      @tool = tool unless tool.nil?
+      @tool || "notool"
+    end
+
+    def self.selectedShapes(response)
+      Shape.decode_a(InputField.fromhash("selectedshapes", response))
     end
 
     #
@@ -51,6 +59,36 @@ module Geometry
       y = (l * Math.cos(theta)).to_i
 
       [ center[0] - x, center[1] - y, center[0] + x, center[1] + y ]
+    end
+
+    # yeah... not exactly the paragon of efficiency I admit, but premature optimization...
+    def self.polygonAtCenter(dists)
+      self.polygonAtCenterWithPoints("A", dists)[0]
+    end
+
+    def self.polygonAtCenterWithPoints(name, dists)
+      if dists.is_a?(Fixnum)
+        dists = Array.new(dists) { (self.width/6) + rand(self.width / 6) }
+      end
+
+      numpoints = dists.length
+      cx, cy = *(self.center)
+
+      points = Array.new(numpoints) do |i|
+        dist = (SmallGeoDisplay.width/6) + rand(SmallGeoDisplay.width / 6)
+        theta = (2 * Math::PI * (i.to_f / numpoints))
+        x = cx + dist * Math.cos(theta)
+        y = cy + dist * Math.sin(theta)
+        name.next! unless i == 0
+
+        NPoint.new(x, y, name.dup, theta).round
+      end
+
+      lines = Array.new(numpoints) do |i|
+        j = (i+1) % numpoints
+        Line.new(points[i], points[j])
+      end
+      [ lines, points ]
     end
   end
 
@@ -122,6 +160,7 @@ module Geometry
     end
 
     def ==(other)
+      return false unless other.is_a?(Circle)
       return @x == other.x && @y == other.y && @r == other.r 
     end
   end
@@ -148,6 +187,7 @@ module Geometry
     end
 
     def ==(other)
+      return false unless other.is_a?(Line)
       return (@x1 == other.x1 && @x2 == other.x2 && @y1 == other.y1 && @y2 == other.y2) ||
              (@x1 == other.x2 && @x2 == other.x1 && @y1 == other.y2 && @y2 == other.y1)
     end
@@ -165,6 +205,14 @@ module Geometry
       b = y1 - (m * x1)
       return [ m, b ]
     end
+
+    def p1
+      return Point.new(@x1, @y1)
+    end
+
+    def p2
+      return Point.new(@x2, @y2)
+    end
   end
 
   class Ray < Line
@@ -173,6 +221,7 @@ module Geometry
     end
 
     def ==(other)
+      return false unless other.is_a?(Ray)
       return (@x1 == other.x1 && @x2 == other.x2 && @y1 == other.y1 && @y2 == other.y2)
     end
   end
@@ -183,6 +232,7 @@ module Geometry
     end
 
     def ==(other)
+      return false unless other.is_a?(InfLine)
       me  = toSlopeInt
       you = other.toSlopeInt
       me[0].closeTo(you[0]) && me[1].closeTo(you[1])
@@ -191,10 +241,9 @@ module Geometry
 
   class Point < Shape
     attr_accessor :x, :y, :name
-    def initialize(x,y, name = "")
-      @x = x
-      @y = y
-      @name = name
+    def initialize(x,y)
+      @x = x.to_i
+      @y = y.to_i
     end
 
     def distance(a1, a2=nil)
@@ -215,11 +264,30 @@ module Geometry
     end
 
     def ==(other)
+      return false unless other.is_a?(Point)
       return @x == other.x && @y == other.y
     end
 
     def encode
-      "point:#{x}:#{y}:#{name}"
+      "" # we really don't need these to be written to the canvas
+    end
+
+    def to_s
+      "(#{x}, #{y})"
+    end
+  end
+
+  # Just a point with a name
+  class NPoint < Point
+    attr_accessor :name, :angle
+    def initialize(x, y, name, angle = 45.0)
+      @name = name
+      @angle = angle
+      super(x,y)
+    end
+
+    def encode
+      "point:#{x}:#{y}:#{name}:#{angle}"
     end
   end
 
@@ -253,5 +321,39 @@ module Geometry
     y1 = y + (h/dist)*(c2.x - c1.x)
     y2 = y - (h/dist)*(c2.x - c1.x)
     return [Point.new(x1, y1), Point.new(x2, y2)]
+  end
+
+  # returns true if the lines form a single polygon
+  # false otherwise
+  def formPolygon?(lines)
+    endpoints = {}
+
+    lines.each do |l|
+      [l.p1, l.p2].each do |p|
+        endpoints[p.to_s] ||= []
+        endpoints[p.to_s] << l
+      end
+    end
+
+    # the algorithm is to follow the points until you end up at one that 
+    # you've already seen
+    l  = lines.first
+    p  = l.p1
+    op = p
+    begin
+      ls = endpoints[p.to_s]
+      return false if ls.nil?
+      endpoints.delete p.to_s
+
+      # get the line that we weren't on before
+      ls.delete(l)
+      l = ls[0]
+      return false if l.nil? # this means that there weren't 2 lines with endpoint p
+
+      # get the other point on that line
+      p = (l.p1 == p) ? l.p2 : l.p1
+    end until p == op
+
+    return endpoints.length == 0
   end
 end

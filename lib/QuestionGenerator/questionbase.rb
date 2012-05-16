@@ -114,6 +114,20 @@ class QuestionBase
     @vars ||= soln.keys
     @vars
   end
+
+  # Usage
+  #   QuestionBase.vars_from_response(vname1, vname2, ..., params)
+  #     => [ value1, value2, ... ]
+  # unless there's only one vname, then it will just return
+  #     => value
+  # For an example, see chapter4 / NameTriangles
+  def self.vars_from_response(*args)
+    return nil unless args.length >= 2
+    params = args.slice!(-1)
+
+    return params[ToHTML::add_prefix args[0]] if args.length == 1
+    args.map { |name| params[ToHTML::add_prefix name] }
+  end
 end
 
 class QuestionWithExplanation < QuestionBase

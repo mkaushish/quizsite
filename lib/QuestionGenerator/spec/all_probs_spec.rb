@@ -1,9 +1,6 @@
-require_relative '../grade6/c1.rb'
-require_relative '../grade6/c2.rb'
-require_relative '../grade6/c3.rb'
-require_relative '../grade6/preg6.rb'
+require_relative '../grade6'
 
-mods = [ PreG6, Chapter1, Chapter2, Chapter3 ]
+mods = [ PreG6, Chapter1, Chapter2, Chapter3, Chapter4 ]
 
 describe "All Problems:" do
   mods.each do |mod|

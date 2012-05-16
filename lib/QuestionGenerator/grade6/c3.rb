@@ -463,8 +463,8 @@ module Chapter3
       solsum = 0
       bool = true
       for i in 0...@nums.length do
-        bool = false if !ODDPRIMES.member?(HTMLObj::get_result("ans"+i.to_s, params).to_i)
-        solsum+=HTMLObj::get_result("ans"+i.to_s, params).to_i
+        bool = false if !ODDPRIMES.member?(QuestionBase.vars_from_response("ans"+i.to_s, params).to_i)
+        solsum+=QuestionBase.vars_from_response("ans"+i.to_s, params).to_i
       end
       return true if bool && solsum==@sum
       return false

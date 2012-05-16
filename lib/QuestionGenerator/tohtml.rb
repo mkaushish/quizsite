@@ -246,10 +246,6 @@ module ToHTML
     end
   end
 
-  def HTMLObj.get_result(name, params)
-    params[ToHTML::add_prefix name]
-  end
-
   class InputField < HTMLObj
     attr_reader :name
 

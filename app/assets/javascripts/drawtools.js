@@ -28,9 +28,11 @@
 //  section 5:
 //      -essentially the main method type code - If you want to draw things on load do it here.
 
-$(function() {
+function setUpGeo() {
   // global drawing variables
-  var canvas = $('#canvas')[0];
+  var canvas = $('#geocanvas')[0];
+  if(canvas == undefined) { return undefined; }
+
   var shapesDisp = $('#shapes');
   var messageDisp = $('#message');
   var context = canvas.getContext('2d');
@@ -50,7 +52,8 @@ $(function() {
   var COMPASS    = 1;
   var RULER      = 2;
   var LINE       = 3;
-  var BLANK      = 4;
+  var SELECT     = 4;
+  var BLANK      = 5;
   var state;          // determines mousedown/up/move effects of canvas - currently represents either
   //  protractor, compass, ruler, or line drawing
 
@@ -83,7 +86,7 @@ $(function() {
   }
 
   function setMouseXY(e) {
-    var offset = $('#canvas').offset();
+    var offset = $('#geocanvas').offset();
     var offsetx = Math.round(offset.left);
     var offsety = Math.round(offset.top);
       
@@ -96,7 +99,8 @@ $(function() {
     context.fillStyle = "black";
     context.fillText(message, 10, 25);
   }
-  function writeShapes(){
+
+  function writeShapeHTML() {
     var s = "";
     var hidden_s = "";
     var color_i = 0;
@@ -114,8 +118,9 @@ $(function() {
     //}
     shapesDisp.html(s);
     $('#qbans_geometry').attr('value', hidden_s.substr(1));
+  }
 
-    // add callbacks for colors
+  function addShapeCallbacks() {
     for(var i = 0; i < shapes.length; i++) {
       if(!shapes[i].hidden) {
         $('#s_'+i).mouseenter({i:i, color:COLORS[i]}, function(e) {
@@ -137,8 +142,30 @@ $(function() {
         }
       }
     }
-    
   }
+
+  // this gets changed when we're in select state... probably bad practice
+  var writeShapes = function(){
+    writeShapeHTML();
+    addShapeCallbacks();
+  }
+
+  // ugh...
+  function getStartState() {
+    tool = $('#starttool').attr('value');
+    if(tool == "select") {
+      setState(SELECT);
+    } else if(tool == "compass") {
+      setState(COMPASS);
+    } else if(tool == "line") {
+      setState(LINE);
+    } else if(tool == "protractor") {
+      setState(PROTRACTOR);
+    } else {
+      setState(BLANK);
+    }
+  }
+
   function getStartShapes(){
     startShapes = [];
 
@@ -150,9 +177,11 @@ $(function() {
     startCircleNo = 1;
 
     var s = $('#startshapes').attr('value');
-    var a = s.split(',');
-    for(var i = 0; i < a.length; i++) {
-      addShape(decodeShape(a[i]));
+    if(s != "") {
+      var a = s.split(',');
+      for(var i = 0; i < a.length; i++) {
+        addShape(decodeShape(a[i]));
+      }
     }
 
     startLineNo = nextLineNo;
@@ -375,7 +404,18 @@ $(function() {
   function Shape(hidden) {
     hidden = typeof hidden !== 'undefined' ? hidden : false;
     this.hidden = hidden;
-    this.color = "Black";
+    this.color = "black";
+    this.thickness = 1;
+
+    this.highlight = function(color) {
+      this.color = color;
+      this.thickness = 3;
+    }
+
+    this.unhilight = function() {
+      this.color = "black";
+      this.thickness = 1;
+    }
   }
   function decodeShape(s) {
     var a = s.split(":");
@@ -384,16 +424,20 @@ $(function() {
       for(var i = 0; i < a.length; i++) { a[i] = parseInt(a[i]); }
       return new Line(a[0], a[1], a[2], a[3]);
     }
+
     else if(type == "circle"){
       return new Circle(parseInt(a[0]), parseInt(a[1]), parseFloat(a[2]));
     }
+
     else if(type == "point"){
-      return new Point(parseInt(a[0]), parseInt(a[1]), a[2]);
+      return new Point(parseInt(a[0]), parseInt(a[1]), a[2], parseFloat(a[3]));
     }
+
     else if(type == "infline"){
       for(var i = 0; i < a.length; i++) { a[i] = parseInt(a[i]); }
       return new Line(a[0], a[1], a[2], a[3]);
     }
+
     else if(type == "ray"){
       for(var i = 0; i < a.length; i++) { a[i] = parseInt(a[i]); }
       return new Line(a[0], a[1], a[2], a[3]);
@@ -415,7 +459,7 @@ $(function() {
 
     shapes.push(shape);
     updateShapePeriphery();
-    return shapes.length;
+    return shapes.length - 1; // index of shape
   }
   function delShape(shape_i) {
     shapes.splice(shape_i,1);
@@ -430,22 +474,19 @@ $(function() {
   }
 
   function Line(x1, y1, x2, y2) {
+    if(x1 > x2) { return new Line(x2, y2, x1, y1); }
+
     Shape.call(this);
-    this.x1 = x1;
+    this.x1 = (x1 <= x2) ? x1 : x2;
     this.y1 = y1;
     this.x2 = x2;
     this.y2 = y2;
     this.num = nextLineNo;
 
     this.draw = function() {
-      drawLine(x1, y1, x2, y2, "black");
+      drawLine(this.x1, this.y1, this.x2, this.y2, this.color, this.thickness);
     }
-    this.highlight = function(color) { 
-      this.draw = function() { drawLine(x1, y1, x2, y2, color, 3); }
-    }
-    this.unhilight = function() { 
-      this.draw = function() { drawLine(x1, y1, x2, y2, "black"); }
-    }
+
     // TODO remove this - it is kind of a hack to make tracingLine work
     this.set_p2 = function(x, y){
       this.x2 = x;
@@ -454,15 +495,41 @@ $(function() {
         drawLine(this.x1, this.y1, x, y, "black");
       }
     }
-    this.underMouse = function() { 
-      return false; 
+
+    this.underMouse = function(px_dist) { 
+      if(px_dist == undefined) { px_dist = 5; }
+      var l1 = this.toSlopeInt();
+      var l2 = this.toRevSlopeInt(); // give vertical lines a fighting chance for selection
+
+      return Math.abs(mousex * l1.m + l1.b - mousey) < px_dist && this.x1 < mousex && mousex < this.x2
+         ||  Math.abs(mousey * l2.m + l2.b - mousex) < px_dist && this.y1 < mousey && mousey < this.xy
     }
+
     this.toString = function() {
       //return "(Line from " + x1 + ", " + y1 + " to " + x2 + ", " + y2 + ")";
       return "l<sub>" + this.num + "</sub>"
     }
+
     this.encode = function() {
       return "line:"+this.x1+":"+this.y1+":"+this.x2+":"+this.y2;
+    }
+
+    this.toSlopeInt = function() {
+      var m = (this.y2 - this.y1) / (this.x2 - this.x1);
+      var b = this.y1 - (m * this.x1);
+      return {
+        m : m,
+        b : b,
+      }
+    }
+
+    this.toRevSlopeInt = function() {
+      var m = (this.x2 - this.x1) / (this.y2 - this.y1);
+      var b = this.x1 - (m * this.y1);
+      return {
+        m : m,
+        b : b,
+      }
     }
   }
 
@@ -479,21 +546,19 @@ $(function() {
     this.num = nextCircleNo;
 
     this.draw = function() {
-      drawCircle(this.x, this.y, this.r, "black");
+      drawCircle(this.x, this.y, this.r, this.color, this.thickness);
     }
-    this.highlight = function(color) {
-      this.draw = function() { drawCircle(this.x, this.y, this.r, color, 3); }
+
+    this.underMouse = function(px_dist) { 
+      if(px_dist == undefined) { px_dist = 3; }
+      return insideCircle(this.x, this.y, (this.r + px_dist)) && !insideCircle(this.x, this.y, this.r - px_dist);
     }
-    this.unhilight = function() {
-      this.draw = function() { drawCircle(this.x, this.y, this.r, "black", 1); }
-    }
-    this.underMouse = function() { 
-      return insideCircle(this.x, this.y, this.r);
-    }
+
     this.toString = function() {
       //return "(Circle " + x + ", " + y + ", " + r.toFixed(3) + ")"; //round of radius to 3 digs
       return "c<sub>"+this.num+"</sub>";
     }
+
     this.encode = function() {
       return "circle:"+this.x+":"+this.y+":"+this.r;
     }
@@ -501,32 +566,49 @@ $(function() {
 
   // creates a new circle, adds it to shapes, returns new index
   function addCircle(x,y,r) {
-    tmp = new Circle(x,y,r);
+    var tmp = new Circle(x,y,r);
     return addShape(tmp);
   }
 
 
   // name should be a single capital letter according to CBSE convention
-  function Point(x,y,name) {
+  function Point(x,y,name, angle) {
     Shape.call(this, true);
     this.x = x;
     this.y = y;
     this.name = name;
+    this.angle = (angle == undefined) ? 45.0 : angle;
+    this.color = "black";
+    this.r = 2;
 
     this.draw = function() {
-      context.fillText(this.name, this.x + 10, this.y + 10);
-      drawSolidCircle(this.x, this.y, 2);
+      var dist = 17.0 - Math.abs(this.angle - 2.2) * 3.7; // yeah I just got these values from playing around
+      var tx = this.x + (dist * Math.cos(this.angle));
+      var ty = this.y + (dist * Math.sin(this.angle));
+      context.fillText(this.name, tx, ty);
+      drawSolidCircle(this.x, this.y, this.r, this.col);
+    }
+
+    this.highlight = function(color) {
+      if(color == undefined) { color = "green"; }
+      this.color = color;
+      this.r = 7;
+    }
+    this.unhilight = function() {
+      this.color = "black";
+      this.r = 2;
     }
 
     this.toString = function() { return name; }
 
     this.encode = function() {
       return "point:"+this.x+":"+this.y+":"+this.name;
-    }
+    },
+    this.underMouse = function() { return false }
   }
 
   function addPoint(x,y,name) {
-    tmp = new Point(x,y,name);
+    var tmp = new Point(x,y,name);
     return addShape(tmp);
   }
 
@@ -550,11 +632,15 @@ $(function() {
 
     this.toString = function() {
       //TODO remove mousedist
-      return "(POI " + this.x+", " + this.y + ", " + this.mouseDist();
+      return "(POI " + this.x+", " + this.y + ")";
     }
 
     this.draw = function() { 
       drawSolidCircle(this.x, this.y, 10, "green");
+    }
+
+    this.encode = function() {
+      return "point:"+this.x+":"+this.y + ":";
     }
   }
   function addPOI(x, y) {
@@ -884,6 +970,96 @@ $(function() {
     }
   }
 
+  var selectState = {
+    s_i : -1,
+    n_points_added : 0,
+    selShapes : {},
+    old_writeShapes : undefined, 
+
+    activate : function() {
+      // I <3 JAVASCRIPT
+      this.old_writeShapes = writeShapes;
+      writeShapes = function() { writeShapeHTML(); }
+      writeShapes();
+    },
+    deactivate : function() {
+      writeShapes = this.old_writeShapes();
+      writeShapes();
+    },
+
+    mousedown : function() {
+      if(activePOI_i >= 0) { // we're on a point
+        var poi = pointsOfInterest[activePOI_i];
+        var p_e = poi.encode();
+        if(!this.selShapes[p_e]) {
+          // highlight a new point and add it to this.selShapes
+          var p_i = addPoint(poi.x, poi.y, "");
+          shapes[p_i].highlight();
+          this.selShapes[p_e] = shapes[p_i]; // this should never be 0 unless the canvas was empty, 
+                                        // which is impossible because there'd be no POIs
+        }
+        else {
+          // remove the point we added from shapes and this.selShapes
+          // TODO improve delShape and use that
+          var i = shapes.lastIndexOf(this.selShapes[p_e]);
+          shapes.splice(i, 1);
+          this.selShapes[p_e] = undefined;
+        }
+      }
+      else if(this.s_i >= 0) { // we're on a shape
+        var s = shapes[this.s_i];
+        var s_e = s.encode();
+        if(!this.selShapes[s_e]) {
+          // highlight shape and add it to this.selShapes
+          s.highlight();
+          this.selShapes[s_e] = true;
+        }
+        else {
+          s.unhilight();
+          this.selShapes[s_e] = undefined;
+        }
+      }
+      this.writeSelection();
+    },
+
+    mousemove : function() {
+      if(this.s_i >= 0) { // on shape
+        var s = shapes[this.s_i];
+        var s_e = s.encode();
+        if(!s.underMouse() || activePOI_i >= 0) { // leaving shape
+          // unhilight it unless the user has clicked on/selected it
+          if(!this.selShapes[s_e]) { 
+            s.unhilight(); 
+          }
+          this.s_i = -1;
+        }
+      }
+      else { // locate nearby shapes/pois
+        if(activePOI_i < 0) { //no active pois, check for shapes
+          this.s_i = this.onWhichShape();
+          if(this.s_i >= 0) { shapes[this.s_i].highlight(); }
+        }
+      }
+    },
+
+    mouseup : nullfunc,
+
+    onWhichShape : function() {
+      for(var i = 0; i < shapes.length; i++) {
+        if(shapes[i].underMouse()) { 
+          return i
+        }
+      }
+      return -1;
+    },
+
+    writeSelection : function() {
+      var s = "";
+      for(i in this.selShapes) { if(this.selShapes[i]) { s = s+i + "," } }
+      $('#selectedshapes').attr("value", s.replace(/,$/, ""));
+    }
+  }
+
   // state we start in
   var blankState = {
     activate : nullfunc,
@@ -894,8 +1070,8 @@ $(function() {
   }
 
   // array of state objects - each has at least 5 methods: activate, deactivate, mouseup, mousedown, mousemove 
-  var STATES = [protState, compState, rulerState, lineState, blankState];
-  var STATEIDS = ["#protractor", "#compass", "#ruler", "#line", "#blank"]
+  var STATES = [protState, compState, rulerState, lineState, selectState, blankState];
+  var STATEIDS = ["#protractor", "#compass", "#ruler", "#line", "#selectState", "#blank"];
 
   // a helper state for those which want a tracing line on mouse pushdown
   var tracingLine = {
@@ -925,20 +1101,20 @@ $(function() {
   //
   // Callbacks for mouse gestures
   //
-  $('#canvas').mousedown(function (e) { 
+  $('#geocanvas').mousedown(function (e) { 
     // downx and y have many uses
     downx = mousex;
     downy = mousey;
     state.mousedown();
   });
 
-  $('#canvas').mouseup(function (e) { 
+  $('#geocanvas').mouseup(function (e) { 
     state.mouseup();
     activePOI_i = -1;
     redraw();
   });
 
-  $('#canvas').mousemove(function (e) { 
+  $('#geocanvas').mousemove(function (e) { 
     // mousex and mousey are used for many things, and therefore need to be in the
     // global scope.
     setMouseXY(e);
@@ -1001,7 +1177,7 @@ $(function() {
 
   $('#clear').click(function(){
     getStartShapes();
-    //clear();
+    setState(BLANK);
   });
 
   function a_to_s(arr) {
@@ -1018,5 +1194,8 @@ $(function() {
   //addLine(600, 0, 600, canvas.height);
   //alert(STATES[0].tool + ", " + STATES[1].tool);
   getStartShapes();
-  setState(COMPASS);
-});
+  getStartState();
+  //setState(SELECT);
+}
+
+$(setUpGeo);

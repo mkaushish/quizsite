@@ -40,6 +40,7 @@ Short Term
   [ ] give me some style baby
     [ ] image buttons that look like compass ruler etc
     [ ] improve ruler/line interface
+[ ] make text field default size smaller
 [ ] add default size option for text field
 [ ] make nicer button for add/remove multitext fields
 [ ] if an the correct answer is the response in one part of a multipart question, it should have class=correct

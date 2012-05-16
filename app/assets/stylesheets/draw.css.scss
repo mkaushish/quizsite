@@ -1,9 +1,10 @@
 @import 'mixins_n_colors';
 
-#canvas {
+#geocanvas {
   border: 1px solid black;
   float: left;
   background-color:white;
+  margin-bottom:7px;
 }
 
 #shapes {

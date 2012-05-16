@@ -100,4 +100,22 @@ describe "Geometry: " do
       end
     end
   end
+
+  describe "formPolygon?" do
+    it "should return true when lines form a polygon" do
+      lines = GeometryField.polygonAtCenter([12,13,15,17])
+      Geometry::formPolygon?(lines).should be_true
+    end
+
+    it "should return false when lines don't form a polygon" do
+      lines = [Line.new(1,2,3,4), Line.new(3,4,5,6), Line.new(5,6,7,8) ]
+      Geometry::formPolygon?(lines).should_not be_true
+    end
+
+    it "shouldn't matter which order the lines are in" do
+      lines = GeometryField.polygonAtCenter([12,13,15,17])
+      lines.shuffle!
+      Geometry::formPolygon?(lines).should be_true
+    end
+  end
 end
