@@ -63,10 +63,14 @@ module Geometry
 
     # yeah... not exactly the paragon of efficiency I admit, but premature optimization...
     def self.polygonAtCenter(dists)
-      self.polygonAtCenterWithPoints("A", dists)[1]
+      self.polygonAtCenterWithPoints("A", dists)[0]
     end
 
     def self.polygonAtCenterWithPoints(name, dists)
+      if dists.is_a?(Fixnum)
+        dists = Array.new(dists) { (self.width/6) + rand(self.width / 6) }
+      end
+
       numpoints = dists.length
       cx, cy = *(self.center)
 
@@ -267,6 +271,10 @@ module Geometry
     def encode
       "" # we really don't need these to be written to the canvas
     end
+
+    def to_s
+      "(#{x}, #{y})"
+    end
   end
 
   # Just a point with a name
@@ -313,5 +321,39 @@ module Geometry
     y1 = y + (h/dist)*(c2.x - c1.x)
     y2 = y - (h/dist)*(c2.x - c1.x)
     return [Point.new(x1, y1), Point.new(x2, y2)]
+  end
+
+  # returns true if the lines form a single polygon
+  # false otherwise
+  def formPolygon?(lines)
+    endpoints = {}
+
+    lines.each do |l|
+      [l.p1, l.p2].each do |p|
+        endpoints[p.to_s] ||= []
+        endpoints[p.to_s] << l
+      end
+    end
+
+    # the algorithm is to follow the points until you end up at one that 
+    # you've already seen
+    l  = lines.first
+    p  = l.p1
+    op = p
+    begin
+      ls = endpoints[p.to_s]
+      return false if ls.nil?
+      endpoints.delete p.to_s
+
+      # get the line that we weren't on before
+      ls.delete(l)
+      l = ls[0]
+      return false if l.nil? # this means that there weren't 2 lines with endpoint p
+
+      # get the other point on that line
+      p = (l.p1 == p) ? l.p2 : l.p1
+    end until p == op
+
+    return endpoints.length == 0
   end
 end

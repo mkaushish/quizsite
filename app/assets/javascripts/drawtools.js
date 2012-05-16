@@ -177,9 +177,11 @@ function setUpGeo() {
     startCircleNo = 1;
 
     var s = $('#startshapes').attr('value');
-    var a = s.split(',');
-    for(var i = 0; i < a.length; i++) {
-      addShape(decodeShape(a[i]));
+    if(s != "") {
+      var a = s.split(',');
+      for(var i = 0; i < a.length; i++) {
+        addShape(decodeShape(a[i]));
+      }
     }
 
     startLineNo = nextLineNo;

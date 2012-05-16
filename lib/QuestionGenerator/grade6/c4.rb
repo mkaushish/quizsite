@@ -365,6 +365,54 @@ module Chapter4
     end
   end
 
+  class DefPolygon < QuestionWithExplanation
+    def initialize(numpoints, name)
+      @numpoints = numpoints
+      @name = name
+    end
+
+    def text
+      [
+        TextLabel.new("Draw a #{@name} on the canvas below"),
+        GeometryField.new()
+      ]
+    end
+
+    def solve
+      lines = GeometryField::polygonAtCenter(@numpoints)
+      { "geometry" => Shape.encode_a(lines) }
+    end
+
+    def correct?(response)
+      lines = GeometryField::shapesFromResponse(response).uniq
+      lines.each { |l| return false unless l.is_a?(Line) }
+      return false if lines.length != @numpoints
+      return Geometry::formPolygon?(lines)
+    end
+
+    def explain
+      [
+        Subproblem.new([
+          TextLabel.new("A #{@name} is a polygon with #{@numpoints} sides.  Here's an example below!"),
+          SmallGeoDisplay.new(SmallGeoDisplay::polygonAtCenter(@numpoints))
+        ], {} )
+        # TODO add in example problem - this will require modifying next_subproblem.js.erb
+      ]
+    end
+  end
+
+  class DefQuadrilateral < DefPolygon
+    def initialize
+      super(4, "quadrilateral")
+    end
+  end
+
+  class DefTriangle < DefPolygon
+    def initialize
+      super(3, "triangle")
+    end
+  end
+
   PROBLEMS = [
     Chapter4::NameLine,
     Chapter4::NameAngles,
@@ -372,6 +420,8 @@ module Chapter4
     Chapter4::DefVertices,
     Chapter4::DefAdjacentSides,
     Chapter4::DefAdjacentVertices,
-    Chapter4::DefDiagonal
+    Chapter4::DefDiagonal,
+    Chapter4::DefTriangle,
+    Chapter4::DefQuadrilateral
   ]
 end
