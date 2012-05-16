@@ -12,6 +12,11 @@ texts.css("border","2px solid green");
 $('#next_subproblem').before("<%= escape_javascript(render(:partial => 'problem/problem', :object => @explain[@i], :locals => {:partialdir => 'problem'})) %>");
 $('#subproblem_index').html("<%= escape_javascript(hidden_field_tag('subproblem_index', @i)) %>");
 
+// handle canvas changes - TODO move shapes to startshapes?
+if($('#geocanvas').length == 1) {
+  setUpGeo();
+}
+
 // To ensure mt_field buttons get bound correctly
 bind_mt_fields();
 window.scrollBy(0, 1000);

@@ -1,7 +1,3 @@
-<%= content_for :head do %>
-  <%= javascript_include_tag "nondefault/drawtools" %>
-<% end %>
-
 <% if geometryfield.is_a?(GeometryField) %>
   <div id=tools>
     <div id="clear" >Clear</div>
@@ -14,7 +10,7 @@
   </div>
 <% end %>
 <div>
-  <canvas id="canvas" height="<%= geometryfield.class.height %>" width="<%= geometryfield.class.width %>"> 
+  <canvas id="geocanvas" height="<%= geometryfield.class.height %>" width="<%= geometryfield.class.width %>"> 
     Your browser does not support the HTML5 Canvas feature. This app uses new HTML5 features and will only work on the latest versions of Firefox, Safari or Chrome (and maybe Internet Explorer 9).         
     </canvas>   
   <div id="shapes"></div>

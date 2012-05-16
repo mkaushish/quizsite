@@ -28,9 +28,11 @@
 //  section 5:
 //      -essentially the main method type code - If you want to draw things on load do it here.
 
-$(function() {
+function setUpGeo() {
   // global drawing variables
-  var canvas = $('#canvas')[0];
+  var canvas = $('#geocanvas')[0];
+  if(canvas == undefined) { return undefined; }
+
   var shapesDisp = $('#shapes');
   var messageDisp = $('#message');
   var context = canvas.getContext('2d');
@@ -84,7 +86,7 @@ $(function() {
   }
 
   function setMouseXY(e) {
-    var offset = $('#canvas').offset();
+    var offset = $('#geocanvas').offset();
     var offsetx = Math.round(offset.left);
     var offsety = Math.round(offset.top);
       
@@ -1097,20 +1099,20 @@ $(function() {
   //
   // Callbacks for mouse gestures
   //
-  $('#canvas').mousedown(function (e) { 
+  $('#geocanvas').mousedown(function (e) { 
     // downx and y have many uses
     downx = mousex;
     downy = mousey;
     state.mousedown();
   });
 
-  $('#canvas').mouseup(function (e) { 
+  $('#geocanvas').mouseup(function (e) { 
     state.mouseup();
     activePOI_i = -1;
     redraw();
   });
 
-  $('#canvas').mousemove(function (e) { 
+  $('#geocanvas').mousemove(function (e) { 
     // mousex and mousey are used for many things, and therefore need to be in the
     // global scope.
     setMouseXY(e);
@@ -1192,4 +1194,6 @@ $(function() {
   getStartShapes();
   getStartState();
   //setState(SELECT);
-});
+}
+
+$(setUpGeo);
