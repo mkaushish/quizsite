@@ -6,8 +6,8 @@ class CreateQuizzes < ActiveRecord::Migration
 
       t.timestamps
     end
-    add_column :problemanswers, :type, :string
-    add_index  :problemanswers, [:user_id, :type, :created_at]
+    add_column :problemanswers, :pclass, :string
+    add_index  :problemanswers, [:user_id, :pclass, :created_at]
 
     add_column :users, :pscores, :binary
   end
