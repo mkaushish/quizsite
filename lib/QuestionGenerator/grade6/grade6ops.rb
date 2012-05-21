@@ -303,51 +303,64 @@ class Fixnum
 
   private
 
+  # numerals  is the hash of int to string translations: eg 100 => "hundred", 1000 => "thousand"
+  # ten       is a method to determine if you're in the tens digit (twenty, forty, etc)
+  # hund      is a method to determine if you're in the hundreds (only happens in indian sytem once)
   def to_numeral(numerals, ten, hund)
     number = to_s
-    wordrep_acc = [numerals[(number[-1]).to_i]]
-    digit_count = 1
-    number_digits_reversed = number.chop.reverse
+    wordrep_acc = [] # an array of the words we have
+    # wordrep_acc << numerals[(number[-1]).to_i] unless number[-1] == "0"
 
+    # We go through the digits in reverse order
+    # number_digits_reversed = number.chop.reverse
+    number_digits_reversed = number.reverse
     number_digits_reversed.chars.each_with_index do |digit, index|
-      # if we're in the thousands, lakh, crore, etc, add that in, UNLESS there are 2-3 0's up next
-      if digit_count >= 3 && numerals[(10**(digit_count.to_i))] != nil
-        if has_big_numeral(digit_count, numerals)
-          wordrep_acc << numerals[(10**(digit_count.to_i))]
+
+      # if we're in the thousands, lakh, crore, etc, add that word in, UNLESS there are 2-3 0's up next
+      if index >= 3 && numerals[ 10**index ]
+        if has_big_numeral(index, numerals) # makes sure there aren't too many 0's up next
+          wordrep_acc << numerals[(10**(index.to_i))]
         end
       end
 
       # now process the actual digit's name
+      # note that we don't usually mention 0's directly when naming a number
+      # you would never say two hundred and zero or fifty zero or " and zero hundred"
       unless digit == "0"
         digit_as_number = Integer(digit)
-        prev_digit = number_digits_reversed[index - 1]
+        prev_digit = number[-index]
 
-        # elsif we are in one of the 10's slots in the indian system of numeration
-        if Fixnum.send(ten, digit_count)
+        # if our digit is in one of the 10's slots (twenty, twenty thousand, twenty lahk)
+        if Fixnum.send(ten, index)
+          # DEBUG $stderr.puts("10 slot: #{digit}")
+
           if digit_as_number == 1 # we are going to do a teen
-            lookup_num = Integer("#{digit}#{prev_digit}")
+            # if it's a 10, we didn't already give the previous 0 a name
             if prev_digit == "0"
-              wordrep_acc << numerals[lookup_num]
+              wordrep_acc << numerals[10] # yes this is just 10 in both cases
             else
+              lookup_num = Integer("#{digit}#{prev_digit}")
               wordrep_acc[-1] = numerals[lookup_num]
             end
           else # we are going to do a twenty something or thirtysomething or whatever
             wordrep_acc << numerals[digit_as_number*10]
           end
 
-          # elsif we are in one of the 100's slots
-        elsif Fixnum.send(hund, digit_count)
+        # elsif it's in one of the 100's slots (hundred, hundred thousand, hundred million)
+        elsif Fixnum.send(hund, index)
+          # DEBUG $stderr.puts("100 slot: #{digit}")
+
           wordrep = "#{numerals[digit_as_number]} #{numerals[100]}"
           wordrep += " and" if prev_digit != "0" || number_digits_reversed[index - 2] != "0"
           wordrep_acc << wordrep
 
           # else we are essentially in a one's slot
         else 
+          # DEBUG $stderr.puts("1 slot: #{digit}")
+
           wordrep_acc << numerals[digit_as_number]
         end
-
       end
-      digit_count += 1
     end
     ret = wordrep_acc.reverse.join(" ")
 

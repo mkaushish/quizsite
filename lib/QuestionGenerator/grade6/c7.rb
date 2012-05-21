@@ -547,7 +547,18 @@ module Chapter7
     end
   end
 
-  PROBLEMS=[Chapter7::ToMixedFractions, Chapter7::ToImproperFractions, Chapter7::EquivalentFractions, Chapter7::ReduceFractions, Chapter7::FillNumerator, Chapter7::FillDenominator, Chapter7::CompareLikeFrac, Chapter7::CompareUnlikeFrac, Chapter7::ASLikeFractions, Chapter7::ASUnlikeFractions, Chapter7::ASMixedFractions]
+  PROBLEMS=[
+    #Chapter7::ToMixedFractions, 
+    #Chapter7::ToImproperFractions,
+    Chapter7::EquivalentFractions,
+    Chapter7::ReduceFractions,
+    Chapter7::FillNumerator,
+    Chapter7::FillDenominator,
+    Chapter7::CompareLikeFrac,
+    Chapter7::CompareUnlikeFrac,
+    Chapter7::ASLikeFractions,
+    Chapter7::ASUnlikeFractions,
+    Chapter7::ASMixedFractions]
 
 end
 
