@@ -1,9 +1,14 @@
 Short Term
 ----------
+<<<<<<< HEAD
+[ ] HCFLCM produces intermittent error
+=======
 [ ] explanations for subproblems
 [ ] nested explantions
 [ ] make sublabel appear with next subproblem unless its last
+[ ] make a QG require file for each grade - too many file to require whenever needed
 [X] HCFLCM produces intermittent error
+>>>>>>> daa7c3c3a0f4ebcb61e032254d4f6e117b530f52
 [ ] add account details, ability to change password, etc
 [ ] fix bug in quiz name validation : currently allows non alpha-numeric characters
 [ ] disable ALL links while students are going through explanations
