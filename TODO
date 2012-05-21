@@ -34,10 +34,9 @@ Short Term
 [ ] assessing whether fractions are equal in the correct method should use the rational class unless stated
 [ ] when you get problems like div_39 wrong, the "see explanation" and "more problems" links show up at the bottom of the page rather than right under the question
 [/] make drawtools nice
-  [ ] fix protractor
-    [ ] When rotating it sometimes just moves when it hits a POI
-    [ ] When highlighting the last shape it also highlights the protractor
-  [ ] if no shapes are passed in we get several errors neither shapes nore state seems to get set
+  [ ] fix colors - we don't want any more transparent shape labels
+  [X] if no shapes are passed in we get several errors neither shapes nore state seems to get set
+  [ ] add individual shape removal buttons
   [ ] add "undo last" button
   [ ] give me some style baby
     [ ] image buttons that look like compass ruler etc
@@ -105,6 +104,9 @@ Completed
   [X] Sandhya Saini: sandhyas@vasantvalley.org
   [X] Karan Bedi (no email)
 [/] make drawtools nice
+  [X] fix protractor
+    [X] When rotating it sometimes just moves when it hits a POI
+    [X] When highlighting the last shape it also highlights the protractor
   [X] click on circle shape on right, and set radius in the box
   [X] add question API
     [X] add hidden form variable that gets set to the shapes variable
