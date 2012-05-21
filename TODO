@@ -52,7 +52,6 @@ Short Term
   [ ] add Arrangement HTMLObj
 [ ] writingIndian/int seems to be broken - always wrong answer.
 [ ] commas seem to not be preprocessed out, see writinginternational
-[ ] 7186110.to_international returns something and 17???
 [ ] disallow going back and redoing problems
 [ ] add some differentiation questions
 
@@ -138,3 +137,4 @@ Completed
 [X] add float equals method to allow similar answers rather than exact answers 
 [X] make a QG require file for each grade - too many file to require whenever needed
 [/] make navbar more accessible in smaller window sizes
+[X] 7186110.to_international returns something and 17???
