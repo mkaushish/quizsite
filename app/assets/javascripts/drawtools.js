@@ -620,7 +620,8 @@ function setUpGeo() {
 
     this.mouseDist = function() {
       if(state == protState){
-        if(!protState.mouse_is_down) {
+        // if we're not moving the protractor
+        if(!(protState.mouse_is_down && protState.on_protractor)) {
           return 1024; // hopefully a bigger distance than we'll ever be testing for
         }
         return distance(this.x, this.y, mousex - protractor.offx, mousey - protractor.offy);
