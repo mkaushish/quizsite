@@ -1,9 +1,7 @@
 Short Term
 ----------
-[ ] make a QG require file for each grade - too many file to require whenever needed
 [ ] HCFLCM produces intermittent error
 [ ] add account details, ability to change password, etc
-[/] make navbar more accessible in smaller window sizes
 [ ] fix bug in quiz name validation : currently allows non alpha-numeric characters
 [ ] disable ALL links while students are going through explanations
 [ ] improve the sense of design of the website
@@ -138,3 +136,5 @@ Completed
 [X] multitextfied should allow answers in any order unless stated
 [x] add a few basic stats to the profile page
 [X] add float equals method to allow similar answers rather than exact answers 
+[X] make a QG require file for each grade - too many file to require whenever needed
+[/] make navbar more accessible in smaller window sizes
