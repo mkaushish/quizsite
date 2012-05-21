@@ -3,9 +3,9 @@ Short Term
 [ ] make a QG require file for each grade - too many file to require whenever needed
 [ ] HCFLCM produces intermittent error
 [ ] add account details, ability to change password, etc
-[ ] make navbar more accessible in smaller window sizes
+[/] make navbar more accessible in smaller window sizes
 [ ] fix bug in quiz name validation : currently allows non alpha-numeric characters
-[ ] disable links while students are going through explanations
+[ ] disable ALL links while students are going through explanations
 [ ] improve the sense of design of the website
   [ ] seriously improve problemanswer/show css...
   [X] get a better name than PSCORE
@@ -33,8 +33,10 @@ Short Term
 [ ] _next_problem.js.erb now sets some things to "green" - work some global green
 [ ] assessing whether fractions are equal in the correct method should use the rational class unless stated
 [ ] when you get problems like div_39 wrong, the "see explanation" and "more problems" links show up at the bottom of the page rather than right under the question
-[ ] add float equals method to allow similar answers rather than exact answers 
 [/] make drawtools nice
+  [ ] fix protractor
+    [ ] When rotating it sometimes just moves when it hits a POI
+    [ ] When highlighting the last shape it also highlights the protractor
   [ ] if no shapes are passed in we get several errors neither shapes nore state seems to get set
   [ ] add "undo last" button
   [ ] give me some style baby
@@ -133,3 +135,4 @@ Completed
 [X] prime factors question removes first element from solve
 [X] multitextfied should allow answers in any order unless stated
 [x] add a few basic stats to the profile page
+[X] add float equals method to allow similar answers rather than exact answers 
