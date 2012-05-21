@@ -13,6 +13,63 @@ module Chapter8
   POS={"Tenths" => PPVALUE.length, "Hundredths" => PPVALUE.length+1, "Thousandths" => PPVALUE.length+2, "Ten Thousandths" => PPVALUE.length+3, "Thousands" => PPVALUE.length-PPVALUE.index("Thousands")-1, "Hundreds" => PPVALUE.length-PPVALUE.index("Hundreds")-1, "Tens" => PPVALUE.length-PPVALUE.index("Tens")-1,"Ones" => PPVALUE.length-PPVALUE.index("Ones")-1}
 
 
+  class DecSigDigits < QuestionBase
+    def initialize(num=nil, sig=nil)
+      if num!=nil
+        @num=num
+        @sig=sig
+      else
+        @num=10
+        while @num % 10 == 0
+          @num=rand(10000)
+        end
+        @sig=rand(5)
+      end
+    end
+    def solve 
+      {"ans" => @sig}
+    end
+    def text
+      [TextLabel.new("How many significant digits are there after the decimal point in #{@num.to_f/10**@sig}"), TextField.new("ans")]
+    end
+  end
+
+  class MaxDecSigDigits < QuestionWithExplanation
+    def initialize(nums=nil, sigs=nil)
+      if nums!=nil
+        @nums=nums
+        @sigs=sigs
+      else
+        @nums=[]
+        @sigs=[]
+        for i in 0...5
+          @nums[i]=10
+          @sigs[i]=rand(5)+1
+          while @nums[i] % 10 == 0
+            @nums[i]=rand(10000)
+          end
+        end
+      end
+    end
+    def solve
+      {"ans" => @sigs.max}
+    end
+    def explain
+      ret=[SubLabel.new("First, find the number of digits after the decimal point for each of the numbers")]
+      for i in 0...@nums.length
+        ret << Chapter8::DecSigDigits.new(@nums[i], @sigs[i])
+      end
+      ret << SubLabel.new("Now, find the largest of these numbers")
+      ret << Chapter1::FindMaxNumber.new(@sigs)
+    end
+    def text
+      nms=[]
+      for i in 0...@nums.length
+        nms[i]=Rational(@nums[i], 10**@sigs[i]).to_f
+      end
+      [TextLabel.new("What is the largest number of digits after the decimal point in the following list of numbers: #{nms.join(", ")}"), TextField.new("ans")]
+    end
+  end
 
   class PlaceValueTable < QuestionBase
     def initialize
@@ -54,21 +111,24 @@ module Chapter8
     def text
       solve
       ret=[TextLabel.new("Write the following in the place value table"), TextLabel.new(@num.to_s)]
-      tab=TableField.new("ans", 2, PPVALUE.length+NPVALUE.length)
+      tab=TableField.new("ans", 2, PPVALUE.length)
+      tab2=TableField.new("ans", 2, NPVALUE.length)
       for i in 0...PPVALUE.length
         tab.set_field(0, i, TextLabel.new(PPVALUE[PPVALUE.length-i-1]))
       end
 
       for i in 0...NPVALUE.length
-        tab.set_field(0, PPVALUE.length+i, TextLabel.new(NPVALUE[i]))
+        tab2.set_field(0, i, TextLabel.new(NPVALUE[i]))
       end
       for i in 0...(PPVALUE.length)
         tab.set_field(1, PPVALUE.length-1-i, TextField.new("ans_"+PPVALUE[i]))
       end
       for i in 0...NPVALUE.length
-        tab.set_field(1, PPVALUE.length+i, TextField.new("ans_"+NPVALUE[i]))
+        tab2.set_field(1, i, TextField.new("ans_"+NPVALUE[i]))
       end
       ret << tab
+      ret << tab2
+      ret
     end
 
   end
@@ -94,10 +154,11 @@ module Chapter8
       rat=Rational(@num,10**@div).to_f
       rem=(@num-(@num/(10**@div))*(10**@div))
       orat=rem.to_f/(10**@div)
-        [Subproblem.new([TextLabel.new("What is the integer part of #{rat}"), TextField.new("intpart")], {"intpart" => solve["intpart"]}),  
-        Subproblem.new([TextLabel.new("How many digits are there after the decimal point in #{rat}"), TextField.new("numd")], {"numd" => @div}),
-        Subproblem.new([TextLabel.new("The decimal part of the number is #{orat}. Multiply it by 1 followed by #{@div} zeroes. This is the numerator. 1 followed by #{@div} zeros is the denominator"), Fraction.new("num", "den", TextLabel.new(solve["intpart"]))], {"num" => rem, "den" => 10**@div}),
-        Subproblem.new([TextLabel.new("Reduce the fraction to its lowest terms"), Fraction.new(rem, 10**@div, TextLabel.new(solve["intpart"])), Fraction.new("num", "den", TextLabel.new(solve["intpart"]))], {"num" => solve["num"], "den" => solve["den"]} )]
+        [Subproblem.new([TextLabel.new("The integer part of the fraction is the part to the left of the decimal point."), TextField.new("intpart", "Integer Part")], {"intpart" => solve["intpart"]}),
+          Chapter8::DecSigDigits.new(@num, @div),
+        Subproblem.new([TextLabel.new("Now multiply the decimal part of the number, #{orat} by 1 followed #{@div} zeroes. This is the numerator. 1 followed by #{@div} zeros is the denominator. Fill this in"), Fraction.new("num", "den")], {"num" => rem, "den" => 10**@div}),
+        Chapter7::ReduceFractionsEA.new(@num, 10**@div),
+        Subproblem.new([TextLabel.new("Hence the decimal in the form of a mixed fraction is:"), Fraction.new("num", "den", "intpart")], solve)]
     end
     def text
       ret=[TextLabel.new("Convert the following Decimal into a Mixed Fraction in its lowest form:"), TextLabel.new(Rational(@num, 10**@div).to_f.to_s), Fraction.new("num", "den", "intpart")]
@@ -116,8 +177,6 @@ module Chapter8
     def solve
       {"ans" => @num.to_s}
     end
-
-
     def text
       nu=(@num*(10**@div)).to_i
       intpart=((nu/(10**@div))*(10**@div))
@@ -171,120 +230,81 @@ module Chapter8
       [TextLabel.new("Convert #{@num} #{LUNIT[@wh]} to #{SUNIT[@wh]}"), TextField.new("ans", SUNIT[@wh])]
     end
   end
-  class AddDecimals < QuestionWithExplanation
+  
+  class AddSubDecimals < QuestionWithExplanation
     def initialize(amt=rand(4)+2)
       @nums=[]
-      @maxdiv=0
+      @sigs=[]
+      @signif=[]
       for i in 0...amt
         div=rand(3)+1
-        @maxdiv=div if div > @maxdiv
+        @signif[i]=div
         @nums[i]=rand(10000)
         while @nums[i] % 10==0
           @nums[i]=rand(10000)
         end
-        @nums[i]=Rational(@nums[i], (10**div))
       end
-      @wh=rand(2)
+      for i in 0...@nums.length-1
+        @sigs[i]=rand(2)
+        if @sigs[i]==0
+          @sigs[i]=-1
+        end
+      end
     end
     def solve
       sum=Rational(0,1)
       for i in 0...@nums.length
-        sum+=@nums[i]
+        tm=Rational(@nums[i], 10**@signif[i])
+        tm*=@sigs[i-1] if i > 0
+        sum+=tm
       end
       {"ans" => sum.to_f}
     end
     def explain
-      hsh={}
-      tf=[]
+      ret=[Chapter8::MaxDecSigDigits.new(@nums, @signif)]
+      ret << SubLabel.new("Multiply each of the components of the sum by 1 followed by #{@signif.max} zeroes")
       for i in 0...@nums.length
-        hsh["num_#{i}"]=(@nums[i]*(10**@maxdiv)).to_i
-        tf[i]=TextField.new("num_#{i}", "#{@nums[i].to_f}")
+        ret << Subproblem.new([TextLabel.new("Multiply #{Rational(@nums[i], 10**@signif[i]).to_f} and #{10**@signif.max}"), TextField.new("mul")], {"mul" => (Rational(@nums[i], 10**@signif[i])*(10**@signif.max)).to_i})
       end
-      [Subproblem.new([text[0], TextLabel.new("Out of all the components of this sum, what is the most number of digits after the decimal point?"), TextField.new("digs")], {"digs" => @maxdiv}),
-        Subproblem.new([TextLabel.new("Now multiply each of the numbers by 1 followed by #{@maxdiv} zeros")]+tf, hsh),
-        Subproblem.new([TextLabel.new("You will now notice that there are no decimals left. Now add all these numbers like you would any whole numbers"), TextField.new("sum")], {"sum" => (solve["ans"]*(10**@maxdiv)).to_i}),
-        Subproblem.new([TextLabel.new("Now, divide the previous answer by 1 followed by #{@maxdiv} zeros, which is the same as the number you divided each of the components by, and thus obtain the answer"), TextField.new("answ")], {"answ" => solve["ans"]})]
-    end
-    def text
-      if @wh==0
-        sm="#{@nums[0].to_f}"
-        for i in 1...@nums.length
-          sm+=" , #{@nums[i].to_f}"
-        end
-        [TextLabel.new("Get the sum of: #{sm}"), TextField.new("ans")]
-      else
-        sm="#{@nums[0].to_f}"
-        for i in 1...@nums.length
-          sm+=" + #{@nums[i].to_f}"
-        end
-        [TextLabel.new("Find: #{sm}"), TextField.new("ans")]
-      end
-    end
-  end    
-  
-  class SubDecimals < QuestionBase
-    def initialize()
-      @nums=[]
-      for i in 0...2
-        div=rand(3)+1
-        @nums[i]=rand(10000)
-        while @nums[i] % 10==0
-          @nums[i]=rand(10000)
-        end
-        @nums[i]=Rational(@nums[i], (10**div))
-      end
-      @wh=rand(2)
-      if @nums[0].to_f<@nums[1].to_f
-        k=@nums[0]
-        @nums[0]=@nums[1]
-        @nums[1]=k
-      end
-    end
-    def solve
-      {"ans" => (@nums[0]-@nums[1]).to_f}
-    end
-    def text
-      if @wh==0
-        [TextLabel.new("Subtract #{@nums[1].to_f} from #{@nums[0].to_f}"), TextField.new("ans")]
-      else
-        [TextLabel.new("Find: #{@nums[0].to_f} - #{@nums[1].to_f}"), TextField.new("ans")]
-      end
-    end
-  end
-  class AddSubDecimals < QuestionBase
-    def initialize(amt=rand(4)+2)
-      @nums=[]
-      @sigs=[]
-      for i in 0...amt
-        @sigs[i]=rand(2)
-        @sigs[i]=-1 if @sigs[i]==0
-        div=rand(3)+1
-        @nums[i]=rand(10000)
-        while @nums[i] % 10==0
-          @nums[i]=rand(10000)
-        end
-        @nums[i]=Rational(@nums[i],(10**div))
-        @nums[i]*=@sigs[i-1] if i>0
-      end
-    end
-    def solve
-      sum=Rational(0,1)
+      ret << SubLabel.new("You will now notice that there are no decimals left. Now add all these numbers like you would any whole numbers")
+      signs=[]
+      fnum=[]
       for i in 0...@nums.length
-        sum+=@nums[i]
+        fnum[i]=(Rational(@nums[i], 10**@signif[i])*(10**@signif.max)).to_i
+        signs[i]=1
       end
-      {"ans" => sum.to_f.to_s}
+      ret << Chapter6::AddSubIntegers.new(fnum, signs, @sigs) 
+      ret << Subproblem.new([TextLabel.new("Now, divide the previous answer by 1 followed by #{@signif.max} zeros, which is the same as the number you divided each of the components by, and thus obtain the answer"), TextField.new("answ")], {"answ" => solve["ans"]})
+      ret
     end
     def text
-      str=@nums[0].to_f.to_s
+      str=Rational(@nums[0], 10**@signif[0]).to_f.to_s
       for i in 1...@nums.length
-        str+=' + ' if @nums[i].to_f>0
-        str+=" - " if @nums[i].to_f<0
-        str+= (@nums[i].to_f).abs.to_s
+        str+=' + ' if @sigs[i-1] > 0
+        str+=" - " if @sigs[i-1] < 0
+        str+= Rational(@nums[i], 10**@signif[i]).to_f.to_s
       end
       [TextLabel.new("Find: " + str), TextField.new("ans")] 
     end
   end
   
+  class SubDecimals < AddSubDecimals
+    def initialize()
+      super(2)
+      @sigs=[-1]
+    end
+  end
+
+  class AddDecimals < AddSubDecimals
+    def initialize()
+      super()
+      @sigs=[]
+      for i in 0...@nums.length-1
+        @sigs[i]=1
+      end
+    end
+  end
+
   
 
   

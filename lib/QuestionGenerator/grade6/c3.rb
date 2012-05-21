@@ -133,13 +133,13 @@ module Chapter3
       halffacs = facs[1,facs.length/2]
 
       ret << Subproblem.new([ TextLabel.new("The smallest number that divides #{num} is obviously 1"),  
-                              TextLabel.new("1 x #{num} = #{num}"),
-                              TextLabel.new("Therefore 1 and #{num} are factors of #{num}") ], {} )
+                            TextLabel.new("1 x #{num} = #{num}"),
+      TextLabel.new("Therefore 1 and #{num} are factors of #{num}") ], {} )
 
       halffacs.each do |fac|
         ret << Subproblem.new( [ TextLabel.new("What is the next smallest number that divides #{num}?"),
-                                 TextField.new("ans")
-                               ], {"ans" => fac } )
+                              TextField.new("ans")
+        ], {"ans" => fac } )
         ret << Subproblem.new( [ TextField.new("ans", "#{num} = #{fac} x ") ], {"ans" => num / fac } )
       end
 
@@ -417,8 +417,8 @@ module Chapter3
 
     def explain
       ret = [ SubLabel.new("To check if a number is divisible by 6, you just have to check if it's divisible by 2 and 3"),
-              Div_2.new(@num)
-            ]
+        Div_2.new(@num)
+      ]
       if @num % 2 == 0 
         ret << Div_3.new(@num) 
         if @num % 3 == 0
@@ -463,8 +463,8 @@ module Chapter3
       solsum = 0
       bool = true
       for i in 0...@nums.length do
-        bool = false if !ODDPRIMES.member?(QuestionBase.vars_from_response("ans"+i.to_s, params).to_i)
-        solsum+=QuestionBase.vars_from_response("ans"+i.to_s, params).to_i
+        bool = false if !ODDPRIMES.member?(HTMLObj::get_result("ans"+i.to_s, params).to_i)
+        solsum+=HTMLObj::get_result("ans"+i.to_s, params).to_i
       end
       return true if bool && solsum==@sum
       return false
@@ -523,11 +523,43 @@ module Chapter3
       end
       ret=[Chapter3::PrimeFactors.new(@nums1), Chapter3::PrimeFactors.new(@nums2),
         Subproblem.new([TextLabel.new("What are the prime factors in common?"), MultiTextField.new("comm")], co),  
-      Subproblem.new([TextLabel.new("The common prime factors are #{@comm.join(", ")}. The HCF is the product of all the common prime factors. What is the HCF?"), TextField.new("hcf")], {"hcf" => solve["hcf"]})]
+        Subproblem.new([TextLabel.new("The common prime factors are #{@comm.join(", ")}. The HCF is the product of all the common prime factors. What is the HCF?"), TextField.new("hcf")], {"hcf" => solve["hcf"]})]
     end
 
     def text
       [TextLabel.new("Give the HCF of #{@nums1.reduce(:*)} and #{@nums2.reduce(:*)}"), TextField.new("hcf", "HCF")] 
+    end
+  end
+
+  class HCFEA < QuestionWithExplanation
+    def initialize(num1=nil, num2=nil)
+      if num1!=nil
+        @num1=num1
+        @num2=num2
+      else
+        comm=rand(10)+1
+        @num1=comm*(rand(30)+1)
+        @num2=comm*(rand(30)+1)
+      end
+    end
+    def solve
+      {"ans" => Grade6ops.euclideanalg(@num1, @num2)}
+    end
+    def explain
+      max=[@num1, @num2].max
+      min=[@num1, @num2].min
+      ret=[Chapter1::FindMaxNumber.new([@num1, @num2])]
+      while min!=0
+        tm=PreG6::Division.new(min, max, false)
+        ret << tm
+        max=min
+        min=tm.solve["rem"]
+      end
+      ret << Subproblem.new([TextLabel.new("The HCF is the divisor in the last step. Hence, the HCF is:"), TextField.new("ans")], solve)
+      ret
+    end
+    def text
+      [TextLabel.new("Give the HCF of #{@num1} and #{@num2} using the Euclidean Algorithm."), TextField.new("ans", "HCF")]
     end
   end
 
@@ -571,6 +603,40 @@ module Chapter3
     end
   end
 
+  class MultHCFEA < QuestionWithExplanation
+    def initialize(nums=nil)
+      if nums!=nil
+        @nums=nums
+      else
+        @nums=[]
+        len=rand(2)+3
+        comm=rand(10)+1
+        for i in 0...len
+          @nums[i]=(rand(15)+1)*comm
+        end
+      end
+    end
+    def solve
+      hcf=Grade6ops.euclideanalg(@nums[0], @nums[1])
+      for i in 2...@nums.length
+        hcf=Grade6ops.euclideanalg(hcf, @nums[i])
+      end
+      {"ans" => hcf}
+    end
+    def explain
+      ret=[]
+      tm=Chapter3::HCFEA.new(@nums[0], @nums[1])
+      ret << tm
+      for i in 2...@nums.length
+        tm= Chapter3::HCFEA.new(tm.solve["ans"], @nums[i])
+        ret << tm
+      end
+      ret
+    end
+    def text
+      [TextLabel.new("What is the HCF of the following: #{@nums.join(", ")}"), TextField.new("ans")]
+    end
+  end
 
 
 
@@ -649,14 +715,39 @@ module Chapter3
         Subproblem.new([TextLabel.new("What are the prime factors in common?"), MultiTextField.new("comm")], co),
         Subproblem.new([TextLabel.new("What are the prime factors remaining in #{@nums1.reduce(:*)} once the common factors are removed (Do not count the common factors)."), MultiTextField.new("pro1")], h1),  
         Subproblem.new([TextLabel.new("What are the prime factors remaining in #{@nums2.reduce(:*)} once the common factors are removed (Do not count the common factors)."), MultiTextField.new("pro2")], h2),  
-      Subproblem.new([TextLabel.new("The common prime factors are #{@comm.join(", ")}, the prime factors that make up #{@nums1.reduce(:*)} not including the common factors are #{@lnums1.join(", ")}, and the prime factors that make up #{@nums2.reduce(:*)} not including the common factors are #{@lnums2.join(", ")}. The LCM is the product of all of these prime factors. What is the LCM?"), TextField.new("lcm")], {"lcm" => solve["lcm"]})]
+        Subproblem.new([TextLabel.new("The common prime factors are #{@comm.join(", ")}, the prime factors that make up #{@nums1.reduce(:*)} not including the common factors are #{@lnums1.join(", ")}, and the prime factors that make up #{@nums2.reduce(:*)} not including the common factors are #{@lnums2.join(", ")}. The LCM is the product of all of these prime factors. What is the LCM?"), TextField.new("lcm")], {"lcm" => solve["lcm"]})]
     end
 
     def text
       [TextLabel.new("Give the LCM of #{@nums1.reduce(:*)} and #{@nums2.reduce(:*)}, #{@comm}"), TextField.new("lcm", "LCM")] 
     end
   end
-  
+
+  class LCMEA < QuestionWithExplanation
+    def initialize(num1=nil, num2=nil)
+      if num1!=nil
+        @num1=num1
+        @num2=num2
+      else
+        comm=rand(10)+1
+        @num1=comm*(rand(20)+1)
+        @num2=comm*(rand(20)+1)
+      end
+    end
+    def solve
+      {"ans" => (@num1*@num2)/Grade6ops.euclideanalg(@num1, @num2)}
+    end
+    def explain
+      [Chapter3::HCFEA.new(@num1, @num2),
+        SubLabel.new("Now you have to multiply the two numbers, #{@num1} and #{@num2}, and then divide the product by their HCF to get the LCM"),
+      PreG6::Multiplication.new(@num1, @num2),
+        PreG6::Division.new(Grade6ops.euclideanalg(@num1, @num2), (@num1*@num2), true)]
+    end
+    def text
+      [TextLabel.new("Give the LCM of #{@num1} and #{@num2} using the Euclidean Algorithm to find the HCF."), TextField.new("ans", "LCM")]
+    end
+  end
+
   class MultLCM < QuestionWithExplanation
     def initialize(nums=nil, comm=nil)
       if nums!=nil
@@ -703,6 +794,43 @@ module Chapter3
     end
   end
 
+
+  class MultLCMEA < QuestionWithExplanation
+    def initialize(nums=nil)
+      if nums!=nil
+        @nums=nums
+      else
+        @nums=[]
+        len=rand(2)+3
+        comm=rand(10)+1
+        for i in 0...len
+          @nums[i]=(rand(15)+1)*comm
+        end
+      end
+    end
+    def solve
+      hcf=Grade6ops.euclideanalg(@nums[0], @nums[1])
+      for i in 2...@nums.length
+        hcf=Grade6ops.euclideanalg(hcf, @nums[i])
+      end
+      {"ans" => @nums.reduce(:*)/(hcf**(@nums.length-1))}
+    end
+    def explain
+      ret=[]
+      tm=Chapter3::LCMEA.new(@nums[0], @nums[1])
+      ret << tm
+      for i in 2...@nums.length
+        tm= Chapter3::LCMEA.new(tm.solve["ans"], @nums[i])
+        ret << tm
+      end
+      ret
+    end
+    def text
+      [TextLabel.new("What is the LCM of the following: #{@nums.join(", ")}"), TextField.new("ans")]
+    end
+  end
+
+
   PROBLEMS = [ Chapter3::IdentifyPrimes,  Chapter3::PrimeFactors,    Chapter3::Factors,  Chapter3::CommonFactors,
     Chapter3::Div_2, 
     Chapter3::Div_3, 
@@ -715,8 +843,12 @@ module Chapter3
     Chapter3::Div_11,
     Chapter3::SumPrimes, 
     Chapter3::HCF,
+    Chapter3::HCFEA,
     Chapter3::MultHCF,
+    Chapter3::MultHCFEA,
     Chapter3::LCM, 
-    Chapter3::MultLCM
+    Chapter3::LCMEA,
+    Chapter3::MultLCM,
+    Chapter3::MultLCMEA
   ]
 end

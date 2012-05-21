@@ -37,55 +37,6 @@ module Chapter6
     end
   end
   MAXADDINT=250
-  class AddIntegers < QuestionBase
-    def prereq
-      [[PreG6::Addition, 1.0], [PreG6::Addition, 1.0]]
-    end
-
-    def self.type
-      "Add Integers"
-    end
-    def initialize(amt=2)
-      @nums=[]
-      @nums[0]=-1*rand(MAXADDINT)
-      for i in 1...amt
-        sign=rand(2)
-        if sign==0
-          @nums[i]=rand(MAXADDINT)
-        else @nums[i]=-1*rand(MAXADDINT)
-        end
-      end
-      @wh=rand(2)
-    end
-    def solve
-      sum=0
-      for i in 0...@nums.length
-        sum+=@nums[i]
-      end
-      {"ans" => sum.to_s}
-    end
-    def text
-      str=""
-      if @wh==0
-        str = "Find:  " + @nums[0].to_s
-        for i in 1...@nums.length
-          str += ' + '
-          str +="("+ @nums[i].to_s+")"
-        end
-        
-      else
-        str += "Find the sum of "
-        str += @nums[0].to_s
-        for i in 1...(@nums.length-1)
-          str += ','
-          str += @nums[i].to_s
-        end
-        str += " and " 
-        str += @nums[@nums.length-1].to_s
-      end
-      [TextLabel.new(str), TextField.new("ans")]
-    end
-  end
   MAXSUBINT=100
   class SubtractIntegers < QuestionBase
     def self.type
@@ -208,45 +159,58 @@ module Chapter6
     def prereq
       [[Chapter6::AddIntegers, 0.5], [Chapter6::SubtractIntegers, 0.5]]
     end
-    def initialize(nums=nil, signs=nil)
+    def initialize(nums=nil, signs=nil, ops=nil)
       if nums!=nil
         @nums= nums
         @signs=signs
+        @ops=ops
       else
         amt=rand(3)+2
         @nums=[]
-        for i in 0...amt
-          wh=rand(2)
-          if wh==0
-            @nums[i]=-1*rand(MAXASINT)
-          else
-            @nums[i]=rand(MAXASINT)
-          end
-        end
         @signs=[]
-        for i in 0...@nums.length-1
+        for i in 0...amt
+          @nums[i]=rand(100)+1
           @signs[i]=rand(2)
-          if @signs[i]==0
-            @signs[i]=-1
+          @signs[i]=-1 if @signs[i]==0
+        end
+        @ops=[]
+        for i in 0...@nums.length-1
+          @ops[i]=rand(2)
+          if @ops[i]==0
+            @ops[i]=-1
           end
         end
       end
     end
     def solve
-      {"ans" => @nums.reduce(:+).to_s}
+      sum=@signs[0]*@nums[0]
+      for i in 1...@nums.length
+        sum+=@ops[i-1]*@signs[i]*@nums[i]
+      end
+      {"ans" => sum}
     end
     def text
-      str="Find:  (#{@nums[0]})"
+      str="Find:  (#{@signs[0]*@nums[0]})"
       for i in 1...@nums.length do
-        if @signs[i-1]==1
+        if @ops[i-1]==1
           str += ' + '
-          str += "(#{@nums[i]})"
+          str += "(#{@nums[i]*@signs[i]})"
         else 
           str += ' - '
-          str += "(#{-1*@nums[i]})"
+          str += "(#{@nums[i]*@signs[i]})"
         end
       end
       [TextLabel.new(str), TextField.new("ans")]
+    end
+  end
+
+  class AddIntegers < AddSubIntegers
+    def initialize
+      super()
+      @ops=[]
+      for i in 0...@nums.length-1
+        @ops[i]=1
+      end
     end
   end
 

@@ -1,7 +1,10 @@
 Short Term
 ----------
+[ ] explanations for subproblems
+[ ] nested explantions
+[ ] make sublabel appear with next subproblem unless its last
 [ ] make a QG require file for each grade - too many file to require whenever needed
-[ ] HCFLCM produces intermittent error
+[X] HCFLCM produces intermittent error
 [ ] add account details, ability to change password, etc
 [ ] make navbar more accessible in smaller window sizes
 [ ] fix bug in quiz name validation : currently allows non alpha-numeric characters
@@ -19,9 +22,6 @@ Short Term
   [X] quiz creation
   [ ] problemanswer creation...?
   [X] signin
-[ ] get a PSCORE calculation going (implement get_pscore in app helper)
-  [ ] base it on % history on that problem type
-  [ ] base it on time since a user has done those problems + number + weighted percentages
 [ ] Improve problem displays
   [ ] instead of just type, I envision 3 descriptions:
     [ ] short - should be restricted in length to fint in problem history
@@ -48,7 +48,7 @@ Short Term
 [ ] view thinks all fractions are inputfields - only if they are text fields don't make them correct
 [ ] make explanations only keep showing once you get the right answer on the previous one
 [ ] display problems in reverse chronological order in profile
-[ ] radio button text field
+[X] radio button text field
 [ ] fix suitable arrangement stuff in chapter 2
   [ ] add Arrangement HTMLObj
 [ ] writingIndian/int seems to be broken - always wrong answer.
@@ -66,6 +66,7 @@ Long Term
 [ ] track user statistics, and do stuff with them ?
 [ ] Allow partial credit on problems
 [ ] remove require statements in rails - use autoload
+[ ] Add cricket statistics to database
 
 Completed
 ---------

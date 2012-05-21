@@ -84,6 +84,33 @@ module Chapter7
       [TextLabel.new("Convert the following into an improper fraction"), Fraction.new(remainder, @den, intpart), Fraction.new("num", "den")]
     end
   end
+
+  class ReduceFractionsEA < QuestionBase
+    def initialize(num=nil, den=nil)
+      if num!=nil
+        @num=num
+        @den=den
+      else
+        @den=rand(200)+10
+        @num=rand(@den)+2
+      end
+    end
+    def solve
+      hcf=Grade6ops.euclideanalg(@num, @den)
+      {"num" => @num/hcf,
+        "den" => @den/hcf}
+    end
+    def explain
+      hcf=Grade6ops.euclideanalg(@num, @den)
+      [Chapter3::HCFEA.new(@num, @den),
+        PreG6::Division.new(hcf, @num, true),
+        PreG6::Division.new(hcf, @den, true)]
+    end
+    def text
+      [TextLabel.new("Reduce the following fraction to its lowest form:"), Fraction.new(@num, @den), Fraction.new("num", "den")]
+    end
+  end
+
   class ReduceFractions < QuestionWithExplanation
     def initialize(nums1=nil, nums2=nil, comm=nil)
       if (nums1!=nil && nums2!=nil && comm!=nil)
@@ -447,10 +474,14 @@ module Chapter7
         "den" => sol[:den]}
     end
     def explain
+      signs=[]
+      for i in 0...@num.length
+        signs[i]=1
+      end
       [SubLabel.new("To perform addition and subtraction on like fractions, ignore the denominators and perform the given operations on the numerators"),
-        Chapter6::AddSubIntegers.new(@num, [1] + @sig),
+        Chapter6::AddSubIntegers.new(@num, signs, [1] + @sig),
         Subproblem.new([TextLabel.new("Now add back in the denominator, #{@den}"), Fraction.new(@num.reduce(:+), "den")], {"den" => @den[0]}),
-        Subproblem.new([TextLabel.new("Now, reduce the fraction to its lowest form if it isn't already in that form"), Fraction.new("num", "den")], solve)]
+        Chapter7::ReduceFractionsEA.new(@num.reduce(:+), @den)]
     end
     def text
       str= [TextLabel.new("Compute the following and reduce to its lowest form:") , Fraction.new(@num[0], @den[0])]
@@ -477,17 +508,39 @@ module Chapter7
       for i in 0...@num.length
         @intpart[i]=rand(6)+1
       end
+      tm=solve["num"]
+      tm2=solve["intpart"]
+      while tm < 0 || tm2 < 0
+        super()
+        @intpart=[]
+        for i in 0...@num.length
+          @intpart[i]=rand(6)+1
+        end
+        tm=solve["num"]
+        tm2=solve["intpart"]
+      end
+        
     end
     def solve
+      ints=[@intpart[0]]
+      for i in 1...@intpart.length
+        ints[i]=@intpart[i]*@sig[i-1]
+      end
       frac=Grade6ops::asfractions(@num,@den,@sig)
-      {"intpart" => @intpart.reduce(:+),
+      {"intpart" => ints.reduce(:+),
         "num" => frac[:num],
         "den" => frac[:den]}
     end
     def explain
-      [SubLabel.new("First we perform the operations on the integer parts and then on the fraction parts."),
-      Chapter6::AddSubIntegers.new(@intpart, @sig),
-      ASUnlikeFractions.new(@nums, @dens, @comm, @sig),
+      ret=[SubLabel.new("First we perform the operations on the integer parts and then on the fraction parts.")]
+      ints=[@intpart[0]]
+      sig=[1]
+      for i in 1...@intpart.length
+        ints[i]=@intpart[i]*@sig[i-1]
+        sig[i]=1
+      end
+      ret+=[Chapter6::AddSubIntegers.new(ints, sig, sig),
+      ASUnlikeFractions.new(@num, @dens, @comm, @sig),
       Subproblem.new([TextLabel.new("Hence the result is: "), Fraction.new("num", "den", "intpart")], solve)]
     end 
     def text
@@ -505,7 +558,7 @@ module Chapter7
     end
   end
 
-  PROBLEMS=[Chapter7::ToMixedFractions, Chapter7::ToImproperFractions, Chapter7::EquivalentFractions, Chapter7::ReduceFractions, Chapter7::FillNumerator, Chapter7::FillDenominator, Chapter7::CompareLikeFrac, Chapter7::CompareUnlikeFrac, Chapter7::ASLikeFractions, Chapter7::ASUnlikeFractions]
+  PROBLEMS=[Chapter7::ToMixedFractions, Chapter7::ToImproperFractions, Chapter7::EquivalentFractions, Chapter7::ReduceFractions, Chapter7::FillNumerator, Chapter7::FillDenominator, Chapter7::CompareLikeFrac, Chapter7::CompareUnlikeFrac, Chapter7::ASLikeFractions, Chapter7::ASUnlikeFractions, Chapter7::ASMixedFractions]
 
 end
 
