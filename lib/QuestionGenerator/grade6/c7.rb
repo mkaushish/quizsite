@@ -16,20 +16,14 @@ module Chapter7
       "To Mixed Fractions"
     end
     def initialize
-      @den=rand(8)+1
+      @den=rand(8)+2
       @num=rand(60)+10
       while @num/@den==(@num.to_f)/@den
         @num=rand(60)+10
       end
-      i=@den
-      while i>1
-        while (@num/i==(@num.to_f)/i && @den/i==(@den.to_f)/i)
-          @num=@num/i
-          @den=@den/i
-
-        end
-        i-=1
-      end
+      hcf=Grade6ops.euclideanalg(@num, @den)
+      @num /= hcf
+      @den /= hcf
     end
     def solve
       intpart=@num/@den
@@ -53,19 +47,14 @@ module Chapter7
       "To Improper Fractions"
     end
     def initialize
-      @den=rand(8)+1
+      @den=rand(8)+2
       @num=rand(60)+10
       while @num/@den==(@num.to_f)/@den
         @num=rand(60)+10
       end
-      i=@den
-      while i>1
-        while (@num/i==(@num.to_f)/i && @den/i==(@den.to_f)/i)
-          @num=@num/i
-          @den=@den/i
-        end
-        i-=1
-      end
+      hcf=Grade6ops.euclideanalg(@num, @den)
+      @num /= hcf
+      @den /= hcf
     end
     def solve
       sol={"num" => @num,
