@@ -1,5 +1,6 @@
 Short Term
 ----------
+[ ] in small drawtools, when a line is pointing up-down, it cannot be selected
 [ ] explanations for subproblems
 [ ] nested explantions
 [ ] make sublabel appear with next subproblem unless its last
