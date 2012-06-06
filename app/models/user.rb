@@ -86,7 +86,8 @@ class User < ActiveRecord::Base
 
   def smartScore(ptype)
     # TODO implement smartscore + calculations for real
-    return 70 + rand(30)
+    return "?" if problemanswers.where(:pclass => ptype.to_s).length == 0
+    return (problemanswers.where(:correct => true, :pclass => ptype.to_s).length*100)/problemanswers.where(:pclass => ptype.to_s).length
   end
 
   private

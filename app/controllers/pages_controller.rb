@@ -58,6 +58,10 @@ class PagesController < ApplicationController
     @title = "Graph"
     @nav_selected = "features"
   end
+  def datagr
+    @title = "Data Graph"
+    @nav_selected = "features"
+  end
 
   def notepad
     @title = "Notepad"
