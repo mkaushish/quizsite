@@ -26,4 +26,13 @@ else {
   /**/
 }
 
+//
+// REBIND EVENTS THAT GOT ADDED IN ON THE NEW SUBPROBLEM
+// TODO merge this code with the copied version in next_subproblem somehow
 
+// GeometryField
+if($('#geocanvas').length == 1) {
+  setUpGeo();
+}
+// MultiTextField
+bind_mt_buttons();

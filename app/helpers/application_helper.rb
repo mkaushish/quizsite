@@ -99,12 +99,10 @@ module ApplicationHelper
   end
 
   # Chapter stuff
-  @@all_chapters = [CricketQuestions, Chapter1, Chapter2, Chapter3, Chapter4, Chapter6, Chapter7, Chapter8, Chapter9, Geo, Physics]
-  @@all_probs = @@all_chapters.map { |chap| chap::PROBLEMS }.flatten
   def all_probs
-    @@all_probs
+    CHAPTERS.map { |chap| chap::PROBLEMS }.flatten
   end
   def all_chapters
-    @@all_chapters
+    CHAPTERS
   end
 end
