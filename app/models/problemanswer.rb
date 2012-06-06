@@ -19,11 +19,17 @@ class Problemanswer < ActiveRecord::Base
 
   attr_accessible :problem, :problem_id, :response,  :correct
 
-  before_save :dump_response
-
   validates :problem_id, :presence => true
   validates :user_id,    :presence => true
   validates :response,   :presence => true
+
+  before_save :bef_save
+  
+  def bef_save
+    $stderr.puts "hwqlkhewkqh"*100
+    dump_response
+    self.pclass=self.problem.prob.class.to_s
+  end
   
   def dump_response
     unless @response_hash.nil? || self.response != nil

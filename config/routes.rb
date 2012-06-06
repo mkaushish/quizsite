@@ -27,6 +27,7 @@ Quizsite::Application.routes.draw do
   match '/draw',        :to => 'pages#draw', :via => [:get, :post]
   match '/numberline',  :to => 'pages#numberline'
   match '/graph',       :to => 'pages#graph'
+  match '/datagr',       :to => 'pages#datagr'
   match '/notepad',       :to => 'pages#notepad'
   match '/estimate',    :to => 'pages#exampleprobs', :via => [:get, :post]
   match '/nologinhome_3dbfabcacc12868a282be76f5d59a19813', :to => 'pages#nologinhome'

@@ -221,6 +221,62 @@ module ToHTML
       each_field do |field|
         return false unless field.correct?(solution, response)
       end
+      true
+    end
+  end
+  class TallyMarksField < MultiHTMLObj
+    attr_reader :name, :obs, :init, :edit
+    def initialize(name, obs, init)
+      @name=ToHTML::add_prefix name
+      @obs=obs
+      @init=init
+      @edit="edit"
+    end
+    def correct?(solution, response)
+      obs.length.times do |i|
+        curn=@name+"_#{i}"
+        return false unless solution[curn]==response[curn]
+      end
+      return true
+    end
+  end
+
+  class TallyMarksLabel < TallyMarksField
+    def initialize(name, obs, init)
+      super(name, obs, init)
+      @edit="noedit"
+    end
+    def correct?(solution, response)
+      return true
+    end
+  end
+
+  class BarGraphField < MultiHTMLObj
+    attr_reader :name, :obs, :init, :edit, :divs, :editdivs
+    def initialize(name, obs, init, varhsh)
+      @name=ToHTML::add_prefix name
+      @obs=obs
+      @init=init
+      @edit="edit"
+      @editdivs=varhsh["editdivs"]
+      @divs=varhsh["divs"]
+    end
+    def correct?(solution, response)
+      obs.length.times do |i|
+        curn=@name+"_#{i}"
+        return false unless solution[curn]==response[curn]
+      end
+      return true
+    end
+  end
+
+  class BarGraphLabel < BarGraphField
+    def initialize(name, obs, init, varhsh)
+      super(name, obs, init, varhsh)
+      @edit="noedit"
+    end
+    def correct?(solution, response)
+      return true
     end
   end
 

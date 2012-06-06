@@ -113,8 +113,10 @@ module Chapter3
     def initialize
       len             = rand(2)+2
       highest_prime_i = 13
-
-      @nums = Array.new(len) { |i| WEIGHTED_PRIMES.sample }
+      @nums=[13, 13, 13, 13, 13]
+      while @nums.reduce(:*) > 200
+        @nums = Array.new(len) { |i| WEIGHTED_PRIMES.sample }
+      end
     end
 
     def solve
@@ -149,7 +151,7 @@ module Chapter3
   end
 
 
-  class CommonFactors < QuestionBase
+  class CommonFactors < QuestionWithExplanation
     def self.type
       "Common Factors"
     end
@@ -157,36 +159,23 @@ module Chapter3
       [[Chapter3::Factors, 1.0]]
     end
     def initialize
-      op=[2]+ODDPRIMES
-      len             = rand(2)+1
-      highest_prime_i = 3
-      nums = Array.new(len) { |i| op[rand(highest_prime_i+1)] }
-      len1             = rand(2)+1
-      @nums1 = Array.new(nums)
-      for i in 0...len1 
-        tmp=rand(highest_prime_i+1)
-        #puts tmp
-        @nums1.push(op[tmp])
-      end
-      len2             = rand(2)+1
-      @nums2 = Array.new(@nums1)
-      while @nums2 == @nums1
-        @nums2=Array.new(nums)
-        for i in 0...len2
-          tmp=rand(highest_prime_i+1)
-          #puts tmp
-          @nums2.push(op[tmp])
-        end
+      @f1=Chapter3::Factors.new()
+      @f2=Chapter3::Factors.new()
+      while @f1.nums.reduce(:*)==@f2.nums.reduce(:*)
+        @f2=Chapter3::Factors.new()
       end
     end
+    def explain
+      [@f1, @f2, Subproblem.new([TextLabel.new("What are the factors in common between these two?"), TextField.new("ans")], solve)]
+    end
     def solve
-      fac1 = Set.new(Grade6ops::factors(@nums1))
-      fac2 = Set.new(Grade6ops::factors(@nums2))
+      fac1 = Set.new(Grade6ops::factors(@f1.nums))
+      fac2 = Set.new(Grade6ops::factors(@f2.nums))
       {"ans" => fac1.intersection(fac2).to_a}
     end
 
     def text
-      [TextLabel.new("Give the common factors of #{@nums1.reduce(:*)} and #{@nums2.reduce(:*)}"), MultiTextField.new("ans")]
+      [TextLabel.new("Give the common factors of #{@f1.nums.reduce(:*)} and #{@f2.nums.reduce(:*)}"), MultiTextField.new("ans")]
     end
   end
 
@@ -845,10 +834,7 @@ module Chapter3
     Chapter3::HCF,
     Chapter3::HCFEA,
     Chapter3::MultHCF,
-    Chapter3::MultHCFEA,
     Chapter3::LCM, 
-    Chapter3::LCMEA,
-    Chapter3::MultLCM,
-    Chapter3::MultLCMEA
+    Chapter3::MultLCM
   ]
 end
