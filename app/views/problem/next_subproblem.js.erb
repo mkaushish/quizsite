@@ -15,13 +15,27 @@ $('.del_mt_field').remove();
 var texts = myInputs.filter(':text');
 texts.css("border","2px solid green");
   
-// add the next subproblem in 
-$('#next_subproblem').before("<%= escape_javascript(render(:partial => 'problem/problem', :object => @explain[@i], :locals => {:partialdir => 'problem'})) %>");
+//
+// ADD THE NEXT SUBPROBLEM IN
+$('#next_subproblem').before("<%= escape_javascript( render_subprob(@subprob, @index) ) %>");
 
-// increment our index
-$('#subproblem_index').html("<%= escape_javascript(hidden_field_tag('subproblem_index', @i)) %>");
+//
+// INCREMENT OUR SUBPROBLEM INDEX IN HTML FORM
+// NOTE: index is stored in a "stack" separated by colons
+//  eg: "1:4"
+//  means we're in the first nested subproblem of subproblem 4
+//  "2" just means we're on the second subproblem, and no nesting is going on
+function set_subproblem_index(i) {
+  var full_index = $('#subproblem_index').attr("value").split(":");
+  full_index[0] = i;
+  $('#subproblem_index').attr("value", full_index.join(":"));
+}
+set_subproblem_index(<%= @i %>)
 
-// handle HTMLObj's with javascript bindings
+
+//
+// REBIND EVENTS THAT GOT ADDED IN ON THE NEW SUBPROBLEM
+
 // GeometryField
 if($('#geocanvas').length == 1) {
   setUpGeo();

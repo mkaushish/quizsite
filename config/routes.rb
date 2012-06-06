@@ -10,6 +10,7 @@ Quizsite::Application.routes.draw do
   post "pages/exampleprobs"
 
   post "problem/next_subproblem"
+  post "problem/expand"
   match "/explain/:id" => 'problem#explain', :as => :explain
 
   match '/profile' => 'users#show'

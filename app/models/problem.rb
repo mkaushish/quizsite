@@ -42,10 +42,7 @@ class Problem < ActiveRecord::Base
   end
 
   def get_response(params)
-    soln = solve
-    @response = {}
-    soln.each_key { |key| @response[key] = params[key] }
-    @response
+    @response ||= @prob.get_useful_response(params)
   end
 
   def get_packed_response(params)

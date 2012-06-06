@@ -791,7 +791,9 @@ module Chapter3
       for i in 0...@nums.length
         num[i]=@nums[i].reduce(:*)
       end
-      [TextLabel.new("Give the LCM of the following numbers: #{num.join(", ")}"), TextField.new("lcm", "LCM")]
+      [ TextLabel.new("Give the LCM of the following numbers: #{num.join(", ")}"), 
+        TextField.new("lcm", "LCM") 
+      ]
     end
   end
 

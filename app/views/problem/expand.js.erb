@@ -1,0 +1,29 @@
+var id = '<%= exp_id(@index) %>'
+  , pdiv = $('#'+id);
+
+//alert("expand called MOFOS, type = <%= @subprob.type %>");
+//alert("expand called MOFOS, exp_id = " + id);
+
+// check if we've already expanded this
+if(pdiv.find('div.explanation').length > 0) {
+  pdiv.find('div.explanation').show();
+  pdiv.find('div.problem').hide();
+}
+
+else {
+  pdiv.find('div.problem').hide();
+  pdiv.append("<div class=explanation><%= escape_javascript(render_subprob(@subprob, '0:'+@index)) %></div>");
+
+// if( not done with problem 
+// (we don't want to do this stuff if they're just looking back at a previous explanation they've already done
+  // push the new subproblem index on the stack
+  $('#subproblem_index').attr('value', '0:' + '<%= @index %>');
+
+  /**/
+  // move the "next_subproblem" marker div into our new expanded subproblem
+  $('#next_subproblem').remove();
+  pdiv.find('div.explanation').append("<%= escape_javascript( hidden_field_tag('next_subproblem', "")) %>");
+  /**/
+}
+
+

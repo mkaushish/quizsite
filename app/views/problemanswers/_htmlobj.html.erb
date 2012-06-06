@@ -2,11 +2,11 @@
   <%= htmlobj.to_s %>
 <% elsif htmlobj.is_a?(TextField) || htmlobj.is_a?(Checkbox) %>
   <div class="correct">
-    <%= render :partial => 'responsefield', :locals => {:response => @solution}, :object => htmlobj %>
+    <%= render :partial => 'problemanswers/responsefield', :locals => {:response => @solution}, :object => htmlobj %>
   </div>
   <% unless htmlobj.correct? @solution, @response %>
     <div class="incorrect">
-      <%= render :partial => 'responsefield', :locals => {:response => @response}, :object => htmlobj %>
+      <%= render :partial => 'problemanswers/responsefield', :locals => {:response => @response}, :object => htmlobj %>
     </div>
   <% end %>
 <% elsif htmlobj.is_a?(RadioButton) || htmlobj.is_a?(Dropdown) %>
