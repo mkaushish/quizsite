@@ -45,6 +45,7 @@
 # */
 
 require 'digest'
+require 'grade6'
 
 class User < ActiveRecord::Base
   @@email_regex = /^[\w0-9+.!#\$%&'*+\-\/=?^_`{|}~]+@[a-z0-9\-]+(:?\.[0-9a-z\-]+)+$/i
@@ -67,6 +68,7 @@ class User < ActiveRecord::Base
                        :length => { :within => 6..40 }
   
   before_save :encrypt_password
+  after_create :add_default_quizzes
 
   def self.authenticate(email, submitted_password)
     user = find_by_email(email)
@@ -107,5 +109,12 @@ class User < ActiveRecord::Base
 
   def secure_hash(string)
     Digest::SHA2.hexdigest(string)
+  end
+
+  def add_default_quizzes
+    # Add a default quiz for each chapter
+    CHAPTERS.each do |chapter|
+      quizzes.create!(:problemtypes => Marshal.dump(chapter::PROBLEMS), :name => chapter.to_s)
+    end
   end
 end
