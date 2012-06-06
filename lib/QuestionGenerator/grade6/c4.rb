@@ -162,8 +162,8 @@ module Chapter4
       a1.upcase!
       a2.upcase!
       return false if a1 == a2
-      return false unless a1.split("").sort == soln["ans1"].split("")
-      return false unless a2.split("").sort == soln["ans1"].split("")
+      return false unless a1.split("").sort == soln["ans1"].upcase.split("")
+      return false unless a2.split("").sort == soln["ans1"].upcase.split("")
       return true
     end
 

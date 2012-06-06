@@ -44,4 +44,44 @@
       <% end %>
     </table>
   </div>
+<% elsif multihtmlobj.is_a? BarGraphField %>
+  <div class="multifield">
+    <canvas id=datacanvas height=350 width=400>
+    </canvas>
+    <%= hidden_field_tag('edit', multihtmlobj.edit) %>
+    <%= hidden_field_tag('type', "basicbar") %>
+    <%= hidden_field_tag('editdivs', multihtmlobj.editdivs) %>
+    <%= hidden_field_tag('divs', multihtmlobj.divs) %>
+    <table id=table style="display:none">
+      <% multihtmlobj.obs.length.times do |row| %>
+        <tr>
+          <td><%= hidden_field_tag("#{multihtmlobj.name}_#{row}_name", multihtmlobj.obs[row]) %></td>
+          <td><%= hidden_field_tag("#{multihtmlobj.name}_#{row}", multihtmlobj.init[row]) %></td>
+        </tr>
+      <% end %>
+    </table>
+    <script>
+      setUpDataGr("datacanvas", "table");
+    </script>
+  </div>
+<% elsif multihtmlobj.is_a? TallyMarksField %>
+  <div class="multifield">
+    <div id=tally style="position:relative">
+      <canvas id=datacanvas height=400 width=400 style="border-style:solid; border-width:2px;">
+      </canvas>
+      <%= hidden_field_tag('type', "tally") %>
+      <%= hidden_field_tag('edit', multihtmlobj.edit) %>
+      <table id=table style="display:none">
+        <% multihtmlobj.obs.length.times do |row| %>
+          <tr>
+            <td><%= hidden_field_tag("#{multihtmlobj.name}_#{row}_name", multihtmlobj.obs[row]) %></td>
+            <td><%= hidden_field_tag("#{multihtmlobj.name}_#{row}", multihtmlobj.init[row]) %></td>
+          </tr>
+        <% end %>
+      </table>
+      <script>
+        setUpDataGr("datacanvas", "table");
+      </script>
+    </div>
+  </div>
 <% end %>
