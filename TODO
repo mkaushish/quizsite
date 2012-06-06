@@ -1,6 +1,7 @@
 Short Term
 ----------
 [ ] when two multitextfields on a page, the second one's add, remove buttons are not working
+[ ] add mouse changes to indicate actions on GeometryFields
 [ ] in small drawtools, when a line is pointing up-down, it cannot be selected
 [ ] explanations for subproblems
 [ ] nested explantions
@@ -38,9 +39,6 @@ Short Term
   [X] if no shapes are passed in we get several errors neither shapes nore state seems to get set
   [ ] add individual shape removal buttons
   [ ] add "undo last" button
-  [ ] give me some style baby
-    [ ] image buttons that look like compass ruler etc
-    [ ] improve ruler/line interface
 [ ] make text field default size smaller
 [ ] add default size option for text field
 [ ] make nicer button for add/remove multitext fields
@@ -123,6 +121,9 @@ Completed
   [ ] improve text stuff
     [ ] add coordinates into a standard place
     [ ] make it so text doesn't block stuff if it doesn't need to 
+  [X] give me some style baby
+    [X] image buttons that look like compass ruler etc
+    [X] improve ruler/line interface
 [X] add team description page
 [X] MultiTextField: add 2 fields and remove 2 doesn't seem to work
 [/] add quizzes to website
@@ -141,3 +142,4 @@ Completed
 [X] make a QG require file for each grade - too many file to require whenever needed
 [/] make navbar more accessible in smaller window sizes
 [X] 7186110.to_international returns something and 17???
+[X] NameTriangles correct method is super broken

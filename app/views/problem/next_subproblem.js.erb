@@ -1,22 +1,34 @@
+// first disable previous input fields and label them correct
 var myInputs = $('#probex input:not(:submit)').filter('[type!="hidden"]')
 myInputs.attr("disabled", true);
 
 var checkboxes = myInputs.filter(':checked');
 checkboxes.replaceWith("<%= escape_javascript(image_tag "correct_circ_small.png", :style => "position:relative; top:7px;") %>");
+
+// remove buttons / interactive things on previous input fields
+// TODO GeometryField
+// MultiTextField
 $('.add_mt_field').remove();
 $('.del_mt_field').remove();
 
+// " labelling them correct " ...
 var texts = myInputs.filter(':text');
 texts.css("border","2px solid green");
   
+// add the next subproblem in 
 $('#next_subproblem').before("<%= escape_javascript(render(:partial => 'problem/problem', :object => @explain[@i], :locals => {:partialdir => 'problem'})) %>");
+
+// increment our index
 $('#subproblem_index').html("<%= escape_javascript(hidden_field_tag('subproblem_index', @i)) %>");
 
-// handle canvas changes - TODO move shapes to startshapes?
+// handle HTMLObj's with javascript bindings
+// GeometryField
 if($('#geocanvas').length == 1) {
   setUpGeo();
 }
-
-// To ensure mt_field buttons get bound correctly
+// MultiTextField
 bind_mt_fields();
+
+// go to the next question and select it
+// TODO select it...
 window.scrollBy(0, 1000);

@@ -477,7 +477,7 @@ function setUpGeo() {
     if(x1 > x2) { return new Line(x2, y2, x1, y1); }
 
     Shape.call(this);
-    this.x1 = (x1 <= x2) ? x1 : x2;
+    this.x1 = x1;
     this.y1 = y1;
     this.x2 = x2;
     this.y2 = y2;
@@ -498,11 +498,12 @@ function setUpGeo() {
 
     this.underMouse = function(px_dist) { 
       if(px_dist == undefined) { px_dist = 5; }
+     
       var l1 = this.toSlopeInt();
       var l2 = this.toRevSlopeInt(); // give vertical lines a fighting chance for selection
 
-      return Math.abs(mousex * l1.m + l1.b - mousey) < px_dist && this.x1 < mousex && mousex < this.x2
-         ||  Math.abs(mousey * l2.m + l2.b - mousex) < px_dist && this.y1 < mousey && mousey < this.xy
+      return (Math.abs(mousex * l1.m + l1.b - mousey) < px_dist && this.x1 < mousex && mousex < this.x2)
+          || (Math.abs(mousey * l2.m + l2.b - mousex) < px_dist && this.y1 < mousey && mousey < this.y2)
     }
 
     this.toString = function() {

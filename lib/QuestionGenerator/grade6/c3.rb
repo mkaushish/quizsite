@@ -451,9 +451,10 @@ module Chapter3
     def correct?(params)
       solsum = 0
       bool = true
+      resps = QuestionBase.vars_from_response( *( (0...@nums.length).map { |i| "ans#{i}" }), params)
       for i in 0...@nums.length do
-        bool = false if !ODDPRIMES.member?(HTMLObj::get_result("ans"+i.to_s, params).to_i)
-        solsum+=HTMLObj::get_result("ans"+i.to_s, params).to_i
+        bool   &&= ODDPRIMES.member?(resps[i].to_i)
+        solsum +=  resps[i].to_i
       end
       return true if bool && solsum==@sum
       return false

@@ -283,7 +283,7 @@ module Chapter7
     end  
   end
 
-  class CompareLikeFrac < QuestionBase
+  class CompareLikeFrac < QuestionWithExplanation
     def self.type
       "Compare Like Fractions"
     end
