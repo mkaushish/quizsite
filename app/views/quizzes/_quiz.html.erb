@@ -18,37 +18,15 @@
       </ul>
     </div>
   </div>
-  <br style="clear:both;">
   <% ct = 1 %>
   <ul>
     <% quiz.ptypes.each do |ptype| %>
       <li>
-      <%= "#{ct}. #{ptype.type}" %>
+      <%= ptype.type %>
       <%= get_smartscore(ptype) %>
-      <br style="clear:both;">
+      <div class="<%= smartscore_class(current_user.smartScore(ptype)) %>" style="width:<%=current_user.smartScore(ptype).to_i%>%; height:4px"></div>
       </li>
       <% ct+=1 %>
     <% end %>
   </ul>
-  <% cname=quiz.idname+"_canvas" %>
-  <% tname=quiz.idname+"_table" %>
-  <canvas id=<%= cname %> height=350 width=450>
-  </canvas>
-  <%= hidden_field_tag('edit', "noedit") %>
-  <%= hidden_field_tag('type', "basicbar") %>
-  <%= hidden_field_tag('editdivs', "noedit") %>
-  <%= hidden_field_tag('divs', 10) %>
-  <table id=<%= tname %> style="display:none;">
-    <% ct = 1 %>
-    <% quiz.ptypes.each do |ptype| %>
-      <tr>
-        <td><%= hidden_field_tag(ptype.type, "#{ct}") %></td>
-        <td><%= hidden_field_tag("#{ptype.type}_score", current_user.smartScore(ptype)) %></td>
-      </tr>
-      <% ct+=1 %>
-    <% end %>
-  </table>
-  <script>
-    setUpDataGr("<%= cname %>", "<%= tname %>");
-  </script>
 </div>
