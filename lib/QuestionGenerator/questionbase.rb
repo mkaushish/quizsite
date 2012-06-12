@@ -68,9 +68,9 @@ class QuestionBase
     text.map { |elt| elt.correct?(postsolution, postresponse) }.inject(:&)
   end
 
-  #######################################################################################################
-  # METHODS THAT YOU SHOULD HAVE NO REASON TO OVERRIDE WHEN DEFINING A SUBCLASS, SO DON'T OVERRIDE THEM #
-  #######################################################################################################
+  ##############################################################################################
+  # METHODS THAT YOU SHOULD HAVE NO REASON TO OVERRIDE WHEN DEFINING A SUBCLASS, SO JUST DON'T #
+  ##############################################################################################
   def type
     return self.class.type # all instances of a class have the same type
   end
@@ -113,6 +113,12 @@ class QuestionBase
   def vars
     @vars ||= soln.keys
     @vars
+  end
+
+  def get_useful_response(params)
+    response = {}
+    prefix_solve.each_key { |key| response[key] = params[key] }
+    response
   end
 
   # Usage
@@ -165,5 +171,9 @@ end
 class SubLabel < Subproblem
   def initialize(labeltext)
     super( [ ToHTML::TextLabel.new(labeltext) ], {} )
+  end
+
+  def self.type
+    "Explanation"
   end
 end

@@ -1,11 +1,6 @@
-require 'c1'
-require 'c2'
-require 'c3'
-require 'c6'
-require 'c7'
-require 'physics'
-
 class ProblemController < ApplicationController
+  include ProblemHelper
+
   def explain
     @problem = Problem.find(params[:id])
     @explain = @problem.unpack.explanation
@@ -14,31 +9,95 @@ class ProblemController < ApplicationController
 
   def next_subproblem
     #$stderr.puts "HEY I'M GETTING CALLED GUYS!"
-    @problem = Problem.find(params[:problem_id])
-    @explain = @problem.unpack.explanation
-    @i = params[:subproblem_index].to_i
-    if @explain[@i].correct?(params)
-      @i += 1
-      if @explain.length == @i
+    set_vars_from params
+    
+    @nested = @index.count(":") > 0
+    @solution = @last_prob.prefix_solve
+    @response = @last_prob.get_useful_response(params)
+
+    if @last_prob.correct?(params)
+
+      # if we're at the end of a subproblem or the real problem
+      if @explain.length == (@i + 1)
         # $stderr.puts "Good job, you're done!"
+
         if signed_in?
-          if in_quiz?
-            #redirect_to quiz_path
-            render :js => "window.location.href = '/startquiz'"
+
+          # end of subproblem
+          if @nested
+            render 'contract'
+
+          # end of main problem
           else
-            render :js => "window.location = '/profile'"
+            if in_quiz?
+              #redirect_to quiz_path
+              render :js => "window.location.href = '/startquiz'"
+            else
+              render :js => "window.location = '/profile'"
+            end
           end
+
+        # doing the estimate example problem
         else
-          #redirect_to estimate_path
           render :js => "window.location = '/estimate'"
         end
+
+      # still in the middle of an explanation, so increment counters and move on
       else
+        @i += 1
+        @subprob = @explain[@i]
+        @index   = "#{@i}#{@index.sub(/[^:]*/, "")}"
         $stderr.puts "you got the last subproblem right!, moving on to #{@i}"
-        respond_to { |format| format.js }
+        render 'next_subproblem'
       end
+
+    # missed the last subproblem
     else
       $stderr.puts "you missed the last subproblem, try again!" 
       render :nothing => true
     end
+  end
+
+  def expand
+    @orig_prob = Problem.find(params[:id])
+    @index     = params[:index]
+    @explain   = explain_from_index(@orig_prob, "0:#{@index}")
+    @subprob   = @explain[0]
+
+    # TODO handle failure
+
+    $stderr.puts "EXPAAAAAANDING: #{params.inspect}"
+  end
+
+  def contract
+    set_vars_from params
+
+    @solution  = @last_prob.prefix_solve
+    @response  = @solution
+  end
+
+  private
+
+  # This sets several variables that are used in contract, expand, and next_subproblem
+  # - note that all of these controller actions are passed the same form from the view
+  def set_vars_from(params)
+    @index  = params[:subproblem_index]
+    @i      = @index.split(":")[0].to_i
+
+    @orig_prob = Problem.find(params[:problem_id])
+    @explain   = explain_from_index @orig_prob, @index
+    @last_prob = @explain[@i]
+  end
+
+  # USED BY expand and next_subproblem
+  # returns the (possibly nested) EXPLANATION for a problem and an index string
+  # orig = the problem whose explanation we're going through
+  # index = string of indices separated by semicolons
+  def explain_from_index(orig, index)
+    ret = orig.prob
+    index.split(":").drop(1).reverse_each do |i|
+      ret = ret.explain[i.to_i]
+    end
+    ret.explain
   end
 end

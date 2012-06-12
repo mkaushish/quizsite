@@ -1,0 +1,22 @@
+// This shuould only be called when the student is DONE with the explanation -
+// once you've gone down the rabbit hole, you have to see where it takes you
+
+<% index = @index.sub(/[^:]*:/, "") %>
+var id = '<%= exp_id(index) %>'
+  , pdiv = $('#'+id);
+
+// hide the explanation
+pdiv.children('div.explanation').hide();
+
+// replace the problem with the correct answer, and show it
+pdiv.children('div.problem').html( '<%= escape_javascript( render :partial => 'problem/problem', :object => @last_prob, :locals => {:partialdir => 'problemanswers'} ) %>');
+pdiv.children('div.problem').show();
+
+// pop the subproblem off the index stack
+$('#subproblem_index').attr('value', '<%= index %>');
+
+// put the next_subproblem marker up the stack
+// which means it should be at the END of our next index level
+// eg index was 3:2:3, now is 2:3, should be at the end of this inside of sp_3 div.explanation (after sp_2_3)
+$('#next_subproblem').remove();
+pdiv.parent().append('<%= escape_javascript( hidden_field_tag('next_subproblem', "")) %>');

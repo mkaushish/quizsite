@@ -81,7 +81,7 @@ module Chapter3
         ret << PreG6::IsDivisible.new(curprime, num) unless curprime > num/2
         while num % curprime == 0 do
           if num == curprime
-            ret << Subproblem.new( [ TextLabel.new("Since #{curprime} is prime, we know we've reached the end, and #{curprime} is the last prime factor.  Hence, the prime factors of #{num} are { #{@nums.join(", ")} }") ], {})
+            ret << Subproblem.new( [ TextLabel.new("Since #{curprime} is prime, we know we've reached the end, and #{curprime} is the last prime factor.  Hence, the prime factors of #{@nums.reduce(:*)} are { #{@nums.join(", ")} }") ], {})
             return ret
           end
 
@@ -780,7 +780,9 @@ module Chapter3
       for i in 0...@nums.length
         num[i]=@nums[i].reduce(:*)
       end
-      [TextLabel.new("Give the LCM of the following numbers: #{num.join(", ")}"), TextField.new("lcm", "LCM")]
+      [ TextLabel.new("Give the LCM of the following numbers: #{num.join(", ")}"), 
+        TextField.new("lcm", "LCM") 
+      ]
     end
   end
 
