@@ -26,6 +26,9 @@ $('#subproblem_index').html("<%= escape_javascript(hidden_field_tag('subproblem_
 if($('#geocanvas').length == 1) {
   setUpGeo();
 }
+if($('#nlcanvas').length == 1) {
+  setUpNL();
+}
 // MultiTextField
 bind_mt_fields();
 

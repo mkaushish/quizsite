@@ -40,7 +40,7 @@ module ApplicationHelper
     link_to link_name, '#',
       :template => text_field_tag("#{qb_name}__num_", nil, :class => 'mt_field').gsub(/"/,"'").html_safe,
       :class => "add_mt_field"
-      #, "data-partial" => text_field_tag("#{qb_name}__num_", nil, :class => 'mt_field'),
+    #, "data-partial" => text_field_tag("#{qb_name}__num_", nil, :class => 'mt_field'),
   end
 
   def del_multitext_field_link(link_name = "-")
@@ -99,7 +99,7 @@ module ApplicationHelper
   end
 
   # Chapter stuff
-  @@all_chapters = [CricketQuestions, Chapter1, Chapter2, Chapter3, Chapter4, Chapter6, Chapter7, Chapter8, Chapter9, Geo, Physics]
+  @@all_chapters = [CricketQuestions, Chapter1, Chapter2, Chapter3, Chapter4, Chapter6, Chapter7, Chapter8, Chapter9, Chapter10, Geo, Physics]
   @@all_probs = @@all_chapters.map { |chap| chap::PROBLEMS }.flatten
   def all_probs
     @@all_probs
