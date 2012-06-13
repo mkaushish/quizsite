@@ -36,6 +36,21 @@ module Chapter6
 
     end
   end
+  class IntNumberLine < QuestionBase
+    def initialize
+      @val=rand(50)
+      if rand(2)==1
+        @val*=1
+      else @val*=-1
+      end
+    end
+    def solve
+      {"ans" => @val}
+    end
+    def text
+      [TextLabel.new("Write in the integer being pointed to on the number line"), InpNumberLine.new("ans", @val, 10)]
+    end
+  end  
   MAXADDINT=250
   MAXSUBINT=100
   class SubtractIntegers < QuestionBase
@@ -71,6 +86,50 @@ module Chapter6
       end
     end
   end
+  class AddNumberLine < QuestionBase
+    def initialize
+      @num1=100
+      @num2=0
+      while(@num1+@num2 >= 50 || @num1+@num2 <= -50)
+        @num1=rand(50)
+        @num2=rand(50)
+        if(rand(2)==0)
+          @num1*=-1
+        end
+        if(rand(2)==0)
+          @num2*=-1
+        end
+      end
+    end
+    def solve
+      {"ans" => (@num1+@num2)}
+    end
+    def text
+      [TextLabel.new("Add #{@num2} to the number pointed to on the number line"), MovNumberLine.new("ans", @num1, 10)]
+    end
+  end  
+  class SubNumberLine < QuestionBase
+    def initialize
+      @num1=100
+      @num2=0
+      while(@num1-@num2 >= 50 || @num1-@num2 <= -50)
+        @num1=rand(50)
+        @num2=rand(50)
+        if(rand(2)==0)
+          @num1*=-1
+        end
+        if(rand(2)==0)
+          @num2*=-1
+        end
+      end
+    end
+    def solve
+      {"ans" => (@num1-@num2)}
+    end
+    def text
+      [TextLabel.new("Subrtact #{@num2} from the number pointed to on the number line"), MovNumberLine.new("ans", @num1, 10)]
+    end
+  end  
   MAXCOMAS=50
   class CompareAddSub < QuestionBase
     def self.type
@@ -214,7 +273,7 @@ module Chapter6
     end
   end
 
-PROBLEMS = [ Chapter6::AddIntegers,  Chapter6::SubtractIntegers,  Chapter6::CompareIntegers, Chapter6::CompareAddSub,  Chapter6::AddSubIntegers]
+PROBLEMS = [ Chapter6::IntNumberLine, Chapter6::AddNumberLine, Chapter6::SubNumberLine, Chapter6::AddIntegers,  Chapter6::SubtractIntegers,  Chapter6::CompareIntegers, Chapter6::CompareAddSub,  Chapter6::AddSubIntegers]
 end
 
 

@@ -84,29 +84,30 @@
       </script>
     </div>
   </div>
-<% elsif multihtmlobj.is_a? NumberLine %>
+<% elsif multihtmlobj.is_a? InpNumberLine %>
   <div class="multifield">
-    <div id=tally style="position:relative">
-      <canvas id=nlcanvas height=150 width=400 style="border-style:solid; border-width:2px;">
-      </canvas>
-      <%= hidden_field_tag('edit', multihtmlobj.azoom) %>
-      <%= hidden_field_tag('zoom', multihtmlobj.zoom) %>
-      <table id=points style="display:none">
-        <% multihtmlobj.points.length.times do |row| %>
-          <tr>
-            <td><%= hidden_field_tag("#{multihtmlobj.name}_#{row}", multihtmlobj.points[row]) %></td>
-          </tr>
-        <% end %>
-      </table>
-      <table id=lines style="display:none">
-        <% multihtmlobj.lines.length.times do |row| %>
-          <tr>
-            <td><%= hidden_field_tag("#{multihtmlobj.name}_#{row+multihtmlobj.points.length}", multihtmlobj.lines[row].join(",")) %></td>
-          </tr>
-        <% end %>
-      </table>
+    <div id=nline style="position:relative; width:450px; height:200px">
+      <canvas id="nlcanvas" height="100" width="450"> 
+      Your browser does not support the HTML5 Canvas feature. This app uses new HTML5 features and will only work on the latest versions of Firefox, Safari or Chrome (and maybe Internet Explorer 9).         
+      </canvas>   
+      <%=hidden_field_tag("inp", "#{multihtmlobj.val}")%>
+      <%=hidden_field_tag("bigdiv", multihtmlobj.bigdiv)%>
+      <%=hidden_field_tag(multihtmlobj.name, "")%>
       <script>
-        setUpNL();
+        setUpNL("<%=multihtmlobj.name%>", false, false, "inpval");
+      </script>
+    </div>
+  </div>
+<% elsif multihtmlobj.is_a? MovNumberLine %>
+  <div class="multifield">
+    <div id=nline style="position:relative; width:450px; height:200px">
+      <canvas id="nlcanvas" height="100" width="450"> 
+      Your browser does not support the HTML5 Canvas feature. This app uses new HTML5 features and will only work on the latest versions of Firefox, Safari or Chrome (and maybe Internet Explorer 9).         
+      </canvas>   
+      <%=hidden_field_tag("bigdiv", multihtmlobj.bigdiv)%>
+      <%=hidden_field_tag(multihtmlobj.name, "#{multihtmlobj.val}")%>
+      <script>
+        setUpNL("<%=multihtmlobj.name%>", false, false, "movinp");
       </script>
     </div>
   </div>

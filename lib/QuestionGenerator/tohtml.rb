@@ -280,15 +280,32 @@ module ToHTML
     end
   end
 
-  class NumberLine < HTMLObj
-    attr_reader :name, :lines, :points, :azoom, :zoom, :mid
-    def initialize(name, lines=[], points=[], zoom=1, mid=0)
+  class InpNumberLine < MultiHTMLObj
+    attr_reader :name, :val, :bigdiv
+    def initialize(name, val, bigdiv)
       @name=ToHTML::add_prefix name
-      @lines=lines
-      @points=points
-      @zoom=zoom
-      @mid=mid
-      @azoom="edit"
+      @val=val
+      @bigdiv=bigdiv
+    end
+    def correct?(solution, response)
+      $stderr.puts solution[@name]
+      $stderr.puts "*"*100
+      $stderr.puts response[@name]
+      solution[@name]==response[@name] 
+    end
+  end
+  class MovNumberLine < MultiHTMLObj
+    attr_reader :name, :val, :bigdiv
+    def initialize(name, val, bigdiv)
+      @name=ToHTML::add_prefix name
+      @val=val
+      @bigdiv=bigdiv
+    end
+    def correct?(solution, response)
+      $stderr.puts solution[@name]
+      $stderr.puts "*"*100
+      $stderr.puts response[@name]
+      solution[@name]==response[@name] 
     end
   end
 
