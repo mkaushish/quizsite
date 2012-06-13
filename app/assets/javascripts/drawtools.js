@@ -1202,5 +1202,3 @@ function setUpGeo() {
   getStartState();
   //setState(SELECT);
 }
-
-$(setUpGeo);

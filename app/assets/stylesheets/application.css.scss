@@ -248,7 +248,7 @@ input[type="submit"] {
 }
 
 input.invalid {
-  background-color:#f2dede;
+  background-color:$invalid_red;
 }
 /* }}} */
 
@@ -368,16 +368,6 @@ input.btn-blue {
       padding: 2px 5px 3px; /* 2 top, 5 left and right, 3 bottom */
     }
   }
-}
-
-.correct {
-  @include rounded-corners(5px);
-  padding:3px;
-	border: 2px solid green;
-}
-
-.incorrect {
-	border: 2px solid red;
 }
 /* }}} */
 

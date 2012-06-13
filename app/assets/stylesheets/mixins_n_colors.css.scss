@@ -1,9 +1,9 @@
-$blue:  #049cdb;
-$green: #46a546;
-$red: #9d261d;
+$blue:    #049cdb;
+$green:   #46a546;
+$red:     #9d261d;
 $yellow:  #ffc40d;
 $orange:  #f89406;
-$pink:  #c3325f;
+$pink:    #c3325f;
 $purple:  #7a43b6;
 $navlink: #c1c1d8;
 $navG1:   #262632; 
@@ -11,6 +11,8 @@ $navG2:   #74748e;
 $navGH:   #58588e;
 $sgGreen: #6bad4b;
 $sgBlue:  #0083ad;
+$light_green: #9fe37f;
+$invalid_red: #f2dede;
 
 $graphite: #503214;
 @mixin rounded-corners($radius) {

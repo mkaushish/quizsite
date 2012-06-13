@@ -31,7 +31,7 @@ CHAPTERS = [
   Chapter7,
   Chapter8,
   Chapter9,
-#  Chapter10,
+  Chapter10,
 #  Chapter11,
 #  Chapter12,
   Geo,

@@ -2,7 +2,7 @@
   <%= responsefield.to_s %>
 <% elsif responsefield.is_a? TextField %>
   <%= label_tag(responsefield.name, responsefield.label) unless responsefield.label.nil? %>
-  <%= label_tag responsefield.fromhash(response) %>
+  <%= text_field_tag responsefield.name, responsefield.fromhash(response), :disabled => "disabled" %>
 <% elsif responsefield.is_a? Checkbox %>
   <%= check_box_tag responsefield.name, "1", responsefield.fromhash(response).nil?, :disabled => true %>
   <%= label_tag(responsefield.name, responsefield.label) unless responsefield.label.nil? %>

@@ -1,8 +1,10 @@
-<% if flash[:last_correct] == false %>
-	<p>It seems you got the last problem incorrect :(</p>
-<% end %>
-<%= render :partial => 'problem/problem', :object => @problem, :locals => {:partialdir => 'problemanswers'} %>
-<% if @problem.is_a? QuestionWithExplanation %>
-  <%= link_to "See Explanation", explain_path(@problemanswer.problem) %>
-<% end %>
-<%= link_to "More Problems", startquiz_path %>
+<div class=span6>
+  <% if flash[:last_correct] == false %>
+    <p>It seems you got the last problem incorrect :(</p>
+  <% end %>
+  <%= render :partial => 'problem/problem', :object => @problem, :locals => {:partialdir => 'problemanswers'} %>
+  <% if @problem.is_a? QuestionWithExplanation %>
+    <%= link_to "See Explanation", explain_path(@problemanswer.problem), :class => "btn btn-large btn-success" %>
+  <% end %>
+  <%= link_to "More Problems", startquiz_path, :class => "btn btn-large btn-primary" %>
+</div>

@@ -3,8 +3,8 @@ namespace :db do
   task :useradd => :environment do
     #User.create!(:name => "Per Ramfjord", :email => "PARAMFJORD@stoel.com",
     #             :password => "newpass", :password_confirmation => "newpass")
-    #User.create!(:name => "Nigel Morris", :email => "NMorris@311cameron.com",
-    #             :password => "newpass", :password_confirmation => "newpass")
+    User.create!(:name => "Sample User", :email => "blah@blah.com",
+                 :password => "newpass", :password_confirmation => "newpass")
     userinfo = [
       { :name => "Thomas Ramfjord",      :email => "thomas.ramfjord@gmail.com"},
       { :name => "Madhav Kaushish",      :email => "madhav.kaushish@gmail.com"},

@@ -12,11 +12,36 @@
   }
 }
 
-.multifield {
-  div {
-    float:left;
+.problem {
+  input[type="text"] {
+    width:50px;
+    //margin:0 7px 7px 0;
+    margin-right:7px;
   }
-  a {
-    float:left;
+
+  .multifield {
+    div {
+      padding:3px 0 3px 7px;
+      label, input {
+        display: inline;
+      }
+    }
   }
+}
+
+.problem-elt {
+  margin-bottom:5px;
+}
+
+.correct, .incorrect {
+  display:inline-block;
+  padding:3px;
+  @include rounded-corners(2px);
+}
+
+.correct {
+  background-color: $light_green;
+}
+.incorrect {
+  background-color: $invalid_red;
 }
