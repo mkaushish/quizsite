@@ -2,9 +2,13 @@
 <div id="description">
   <p> This Number Line app will allow students to visualize rational numbers both in fraction and decimal form. It will be used in explaining concepts like integers, decimals and fractions to the student. The bar on the left is used to zoom in and out and will soon be replaced by scroll to zoom functionality. You can also hold and drag the number line. </p>
 </div>
-<canvas id="nlcanvas" height="150" width="450"> 
-Your browser does not support the HTML5 Canvas feature. This app uses new HTML5 features and will only work on the latest versions of Firefox, Safari or Chrome (and maybe Internet Explorer 9).         
-</canvas>   
-<script>
-  setUpNL(false, true);
-</script>
+<div id=nline style="position:relative; width:450px; height:150px">
+  <canvas id="nlcanvas" height="150" width="450"> 
+  Your browser does not support the HTML5 Canvas feature. This app uses new HTML5 features and will only work on the latest versions of Firefox, Safari or Chrome (and maybe Internet Explorer 9).         
+  </canvas>   
+  <%=hidden_field_tag("inp", "-25")%>
+  <%=hidden_field_tag("bigdiv", 10)%>
+  <script>
+    setUpNL("ans", false, false, "movinp");
+  </script>
+</div>

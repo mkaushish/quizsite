@@ -1,5 +1,5 @@
 
-function setUpNL(editable, movable, type) {
+function setUpNL(name, editable, movable, which) {
   // global drawing variables
   var canvas = $('#nlcanvas')[0];
   var context = canvas.getContext('2d');
@@ -17,7 +17,7 @@ function setUpNL(editable, movable, type) {
     center : (canvas.width)/2, 
     snum : 10,
     mid : 0,
-    diff : 1,
+    diff : 10,
     bdivs : 1000,
     zbarc : zoompos,
     initz : zoompos,
@@ -34,6 +34,8 @@ function setUpNL(editable, movable, type) {
     upper : 320,
     ldiv : 20,
     edit : editable,
+    curnum : 0,
+    curpos : 0,
     fdiff : 1,
     movemid : function() {
       var mmov=mousex-downx;
@@ -43,6 +45,84 @@ function setUpNL(editable, movable, type) {
     zoom : function() {
 
            },
+    addsub : function(){
+               num=parseInt($("#"+name).attr("value"));
+               this.curnum=num;
+               leftpos=0;
+               if(num >= this.mid && num <= this.mid+this.diff*(canvas.width-2*off)/(2*this.ewid*this.snum)){
+                 var add=this.mid;
+                 ct=0;
+                 while (add <= this.mid+this.diff*(canvas.width-2*off)/(2*this.ewid*this.snum)){
+                   if(add==num){
+                     leftpos=(canvas.width)/2+ct*this.ewid;
+                     break;
+                   }
+                   add+=((this.diff/10));
+                   ct+=1;
+                 }
+               }
+               if(num < this.mid && num >= this.mid-this.diff*(canvas.width-2*off)/(2*this.ewid*this.snum)){
+                 var add=this.mid;
+                 ct=0;
+                 while (add >= this.mid-this.diff*(canvas.width-2*off)/(2*this.ewid*this.snum)){
+                   if(add==num){
+                     leftpos=(canvas.width)/2-ct*this.ewid;
+                     break;
+                   }
+                   add-=this.diff/10;
+                   ct+=1;
+                 }
+               }
+               if(leftpos!=0){
+                 this.curpos=leftpos;
+                 fwth=16;
+                 drawLine(leftpos, canvas.height-off, leftpos-fwth/2, canvas.height-off+7);
+                 drawLine(leftpos, canvas.height-off, leftpos+fwth/2, canvas.height-off+7);
+                 context.save();
+                 context.fillStyle="black";
+                 context.fillRect(leftpos-fwth/2, canvas.height-off+7, fwth, 15);
+                 context.fillStyle="white";
+                 context.textAlign="center";
+                 context.fillText(""+num, leftpos, canvas.height-off+17); 
+                 context.restore();
+               }
+             },
+
+    inputfield : function(num){
+                   leftpos=0;
+                   if(num > this.mid && num <= this.mid+this.diff*(canvas.width-2*off)/(2*this.ewid*this.snum)){
+                     var add=this.mid;
+                     ct=0;
+                     while (add <= this.mid+this.diff*(canvas.width-2*off)/(2*this.ewid*this.snum)){
+                       if(add==num){
+                         leftpos=(canvas.width)/2+ct*this.ewid;
+                         break;
+                       }
+                       add+=((this.diff/10));
+                       ct+=1;
+                     }
+                   }
+                   if(num < this.mid && num >= this.mid-this.diff*(canvas.width-2*off)/(2*this.ewid*this.snum)){
+                     var add=this.mid;
+                     ct=0;
+                     while (add >= this.mid-this.diff*(canvas.width-2*off)/(2*this.ewid*this.snum)){
+                       if(add==num){
+                         leftpos=(canvas.width)/2-ct*this.ewid;
+                         break;
+                       }
+                       add-=this.diff/10;
+                       ct+=1;
+                     }
+                   }
+                   if(leftpos!=0){
+                     fwth=(""+num).length*8;
+                     drawLine(leftpos, canvas.height-off, leftpos-fwth/2, canvas.height-off+15);
+                     drawLine(leftpos, canvas.height-off, leftpos+fwth/2, canvas.height-off+15);
+
+                     html="<input type=text id="+name+" name="+name+" maxlength="+((""+num).length)+" style=\"width:"+fwth+"px; padding:0px; position:absolute; top:"+(canvas.height-off+15)+"px; left:"+(leftpos-fwth/2-1)+"px;\">";
+                     $("#nline").append(html);
+                   }
+                 },
     moveZBar : function() {
                  var mmov=mousey-downy;
                  downy=mousey;
@@ -181,8 +261,12 @@ function setUpNL(editable, movable, type) {
            }
   }
   malNumLine.draw("frac");
-  if(type=="inpval"){
-    malNumLine.inp=$("inp").attr("value");
+  malNumLine.diff=parseInt($("#bigdiv").attr("value"));
+  if(which=="inpval"){
+    malNumLine.inputfield(parseInt($("#inp").attr("value")));
+  }
+  if(which=="movinp"){
+    malNumLine.addsub();
   }
   if( malNumLine.edit ){
     malNumLine.drawZBar();
@@ -210,6 +294,13 @@ function setUpNL(editable, movable, type) {
     // mousex and mousey are used for many things, and therefore need to be in the
     // global scope.
     setMouseXY(e);
+    if(mousedown && downx < malNumLine.curpos+8 && downx > malNumLine.curpos-8 && downy > canvas.height-off+7 && Math.abs(mousex-downx)> malNumLine.ewid && mousex > off+2 && mousex < canvas.width-off-2){
+      $("#"+name).attr("value", malNumLine.curnum+Math.floor((mousex-downx)/malNumLine.ewid));
+      context.clearRect(0,0,canvas.width, canvas.height);
+      malNumLine.draw("dec");
+      malNumLine.addsub();
+      downx=mousex;
+    }
     if(mousedown && malNumLine.movable){
       if (downy > canvas.height-75){
         malNumLine.movemid();
