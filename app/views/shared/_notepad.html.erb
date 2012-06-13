@@ -17,13 +17,13 @@
   </div>
   <div id=ltoolbar class=toolbar>
     <div class="tbicons plug" id=add>
-      <i class="icon-plus"></i>
+      <i class="icon-plus" id=addt data-original-title="Opens up an addition form. Alternately, if you want to add 54 and 45, type in 54 + 45 into the notepad and press Shift-Enter"></i>
     </div>
     <div class="tbicons plug" id=sub> 
-      <i class="icon-minus"></i>
+      <i class="icon-minus" id=subt data-original-title="Opens up a subtraction form. Alternately, if you want to subtract 45 from 54, type in 54 - 45 into the notepad and press Shift-Enter"></i>
     </div>
     <div class="tbicons plug" id=mult> 
-      <i class="icon-remove"></i>
+      <i class="icon-remove" id=multi data-original-title="Opens up a multiplication form. Alternately, if you want to multiply 54 and 45, type in 54 * 45 into the notepad and press Shift-Enter"></i>
     </div>
     <div class=tbreak> 
     </div>
@@ -36,12 +36,20 @@
     <div class=placeholder style="display:none">
     </div>
     <div class="prev tbicons turn" > 
-      <i class="icon-chevron-left"></i>
+      <i class="icon-chevron-left" id=prev data-original-title="Previous Page"></i>
     </div>
   </div>
   <div id=rtoolbar class=toolbar>
     <div class="next tbicons turn"> 
-      <i class="icon-chevron-right"></i>
+      <i class="icon-chevron-right" id=next data-original-title="Next Page"></i>
     </div>
   </div>
 </div>
+<script>
+  $('#addt').tooltip();
+  $('#subt').tooltip();
+  $('#multi').tooltip();
+  $('#next').tooltip();
+  $('#prev').tooltip();
+</script>
+

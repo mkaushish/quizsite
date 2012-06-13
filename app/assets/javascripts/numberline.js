@@ -119,7 +119,7 @@ function setUpNL(name, editable, movable, which) {
                      drawLine(leftpos, canvas.height-off, leftpos-fwth/2, canvas.height-off+15);
                      drawLine(leftpos, canvas.height-off, leftpos+fwth/2, canvas.height-off+15);
 
-                     html="<input type=text id="+name+" name="+name+" maxlength="+((""+num).length)+" style=\"width:"+fwth+"px; padding:0px; position:absolute; top:"+(canvas.height-off+15)+"px; left:"+(leftpos-fwth/2-1)+"px;\">";
+                     html="<input type=text id="+name+" name="+name+" maxlength="+((""+num).length)+" style=\"width:"+fwth+"px; padding:0px; position:absolute; top:"+(canvas.height-off+15)+"px; margin-right:0px; margin-left:7px; left:"+(leftpos-fwth/2-1)+"px;\">";
                      $("#nline").append(html);
                    }
                  },
