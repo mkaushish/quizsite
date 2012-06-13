@@ -1,11 +1,11 @@
 <% if geometryfield.is_a?(GeometryField) %>
   <div id=tools>
-    <div id="clear" >Clear</div>
-    <div id="protractor" ></div>
-    <div id="line" ></div>
-    <div id = "compass" class=selected></div>
-    <input type="checkbox" id="usecirclesize">
-    <input type="text" id="circlesize" placeholder="<- lock radius">
+    <div id="clear" data-original-title="Erase all the shapes you've drawn" ></div>
+    <div id="protractor" data-original-title="Use the protractor" ></div>
+    <div id="line" data-original-title="Draw a line segment"></div>
+    <div id = "compass" data-original-title="Draw a circle"></div>
+    <input type="checkbox" id="usecirclesize" style="display:none">
+    <input type="text" id="circlesize" style="display:none" placeholder="<- lock radius">
     <!-- button id="ruler">Ruler</button -->
   </div>
 <% end %>
@@ -25,4 +25,8 @@
 <% end %>
 <script>
   setUpGeo();
+  $('#line').tooltip();
+  $('#compass').tooltip();
+  $('#protractor').tooltip();
+  $('#clear').tooltip();
 </script>

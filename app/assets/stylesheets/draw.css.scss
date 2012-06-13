@@ -2,7 +2,8 @@
 
 #geocanvas {
   border: 1px solid black;
-  float: left;
+  //float: left;
+  clear:all;
   background-color:white;
   margin-bottom:7px;
 }
@@ -27,11 +28,17 @@
     height:50px;
     width:50px;
     float:left;
+    //display:inline-block;
     &:hover {
       margin-top:10px;
       height:60px;
     }
   }
+  
+  input {
+    margin-top:30px;
+  }
+
   .selected {
     margin-top:0px;
     height:70px;
@@ -49,14 +56,18 @@
   }
 }
 
-#compass {
-  background: transparent url('dtools_all.png') -100px 0 no-repeat;
-}
-
 #protractor {
   background: transparent url('dtools_all.png') 0 0 no-repeat;
 }
 
 #line {
   background: transparent url('dtools_all.png') -50px 0 no-repeat;
+}
+
+#compass {
+  background: transparent url('dtools_all.png') -100px 0 no-repeat;
+}
+
+#clear {
+  background: transparent url('dtools_all.png') -150px 0 no-repeat;
 }
