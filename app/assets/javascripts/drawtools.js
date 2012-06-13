@@ -793,9 +793,11 @@ function setUpGeo() {
     // methods
     activate : function() {
       protractor.addToShapes();
+      $(canvas).css('cursor', 'move');
     },
     deactivate : function() {
       protractor.delFromShapes();
+      $(canvas).css('cursor', 'default');
     },
 
     // mouse actions
@@ -851,12 +853,14 @@ function setUpGeo() {
       $('#circlesize').attr("value", "");
       $('#usecirclesize').show();
       this.useMakeSize();
+      $(canvas).css('cursor', 'crosshair');
     },
     deactivate : function() {
       $(STATEIDS[COMPASS]+" span").attr("style","");
       $("#compass span").text("Compass");
       $('#circlesize').hide();
       $('#usecirclesize').hide();
+      $(canvas).css('cursor', 'default');
     },
     mousedown : function() {
       if(!this.usingSetRadius()) {
@@ -945,8 +949,12 @@ function setUpGeo() {
     y1 : mousey,
     mouse_is_down : false,
 
-    activate : nullfunc,
-    deactivate : nullfunc,
+    activate : function() {
+      $(canvas).css('cursor', 'crosshair');
+    },
+    deactivate : function() {
+      $(canvas).css('cursor', 'default');
+    },
     mousedown : function() {
       this.mouse_is_down = true;
       this.x1 = mousex;
