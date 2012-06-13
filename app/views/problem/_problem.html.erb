@@ -6,14 +6,16 @@
     %>
 
 <% partialdir ||= 'problem' %>
-<div class=problem>
+<div class="problem">
   <% problem.text.each do |elt| %>
-    <% if elt.is_a? MultiHTMLObj %>
-      <%= render :partial => "#{partialdir}/multihtmlobj", :object => elt %>
-    <% elsif elt.is_a? GeometryBase %>
-    <%= render :partial => "#{partialdir}/geometryfield", :object => elt %>
-    <% else %>
-      <%= render :partial => "#{partialdir}/htmlobj", :object => elt %>
-    <% end %>
+    <div class="problem-elt">
+      <% if elt.is_a? MultiHTMLObj %>
+        <%= render :partial => "#{partialdir}/multihtmlobj", :object => elt %>
+      <% elsif elt.is_a? GeometryBase %>
+        <%= render :partial => "#{partialdir}/geometryfield", :object => elt %>
+      <% else %>
+        <%= render :partial => "#{partialdir}/htmlobj", :object => elt %>
+      <% end %>
+    </div>
   <% end %>
 </div>

@@ -6,13 +6,16 @@
     <%= render :partial => 'problem/multihtmlobj', :object => multihtmlobj, 
       :locals => {:partial => 'problemanswers/responsefield', :locals => {:response => @solution}} %>
   </div>
+
   <% unless multihtmlobj.correct?(@solution, @response) then %>
+    <br>
     <div class="incorrect">
-    <% multihtmlobj.length_from_hash(@response) if multihtmlobj.is_a?(MultiTextField) %>
-    <%= render :partial => 'problem/multihtmlobj', :object => multihtmlobj, 
-      :locals => {:partial => 'problemanswers/responsefield', :locals => {:response => @response}} %>
+      <% multihtmlobj.length_from_hash(@response) if multihtmlobj.is_a?(MultiTextField) %>
+      <%= render :partial => 'problem/multihtmlobj', :object => multihtmlobj, 
+                 :locals => {:partial => 'problemanswers/responsefield', :locals => {:response => @response}} %>
     </div>
   <% end %>
+
 <% elsif multihtmlobj.is_a? TableField %>
   <% htmlobj_partial = 'problemanswers/htmlobj' %>
   <%= render :partial => 'problem/multihtmlobj', :object => multihtmlobj %>
