@@ -25,12 +25,16 @@ module Chapter8
         end
         @sig=rand(5)
       end
+      @ze=rand(2)
+    end
+    def explain
+      [SubLabel.new("The digits in a number are called significant digits apart from leading zeroes before the number or trailing 0s after the decimal point. Hence both 0234.0450, 234532 and 0456.5040 have 6 significant digits. To count the significant digits after the decimal point, start from the decimal point and count towards the end. However, remember to exclude any trailing 0s.")]
     end
     def solve 
       {"ans" => @sig}
     end
     def text
-      [TextLabel.new("How many significant digits are there after the decimal point in #{@num.to_f/10**@sig}"), TextField.new("ans")]
+      [TextLabel.new("How many significant digits are there after the decimal point in #{@num.to_f/10**@sig}#{"0"*@ze}"), TextField.new("ans")]
     end
   end
 

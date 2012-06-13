@@ -301,5 +301,6 @@ module Chapter12
       [TextLabel.new(@txt1.str_first + " in " + @c1 + ". "+@txt2.str_first + " in " + @c2 + ". Where is it more expensive per unit?"), RadioButton.new("ans", @c1, @c2)]
     end
   end
+  PROBLEMS=[Chapter12::RatioStudent, Chapter12::Proportion, Chapter12::UnitaryMethod, Chapter12::RatioCompCostWord]
   
 end

@@ -280,6 +280,18 @@ module ToHTML
     end
   end
 
+  class NumberLine < HTMLObj
+    attr_reader :name, :lines, :points, :azoom, :zoom, :mid
+    def initialize(name, lines=[], points=[], zoom=1, mid=0)
+      @name=ToHTML::add_prefix name
+      @lines=lines
+      @points=points
+      @zoom=zoom
+      @mid=mid
+      @azoom="edit"
+    end
+  end
+
   class TextTable < TableField
     def initialize(table)
       @table = table.map { |row| row.map { |elt| TextLabel.new(elt) } }

@@ -126,7 +126,7 @@ module Chapter7
         Chapter3::HCF.new(@nums1, @nums2, @comm),
         PreG6::Division.new(@comm.reduce(:*), @nums1.reduce(:*), true),
         PreG6::Division.new(@comm.reduce(:*), @nums2.reduce(:*), true),
-        Subproblem.new([TextLabel.new("Hence, the fraction in its lowest form is:"), Fraction.new("num", "den")], solve)]
+        Subproblem.new([TextLabel.new("Hence, the fraction in its lowest form is:"), Fraction.new(TextLabel.new(solve["num"]), TextLabel.new(solve["den"]))])]
     end
     def text
       [TextLabel.new("Reduce the following fraction to its lowest form"), Fraction.new(@nums1.reduce(:*), @nums2.reduce(:*)), Fraction.new("num", "den")]

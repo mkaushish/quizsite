@@ -40,7 +40,7 @@ module ApplicationHelper
     link_to link_name, '#',
       :template => text_field_tag("#{qb_name}__num_", nil, :class => 'mt_field').gsub(/"/,"'").html_safe,
       :class => "add_mt_field"
-      #, "data-partial" => text_field_tag("#{qb_name}__num_", nil, :class => 'mt_field'),
+    #, "data-partial" => text_field_tag("#{qb_name}__num_", nil, :class => 'mt_field'),
   end
 
   def del_multitext_field_link(link_name = "-")
@@ -95,7 +95,7 @@ module ApplicationHelper
 
     color_class = smartscore_class(smartscore)
 
-    return "<div class=\"smartscore #{color_class}\">#{smartscore}</div>".html_safe
+    return "<div class=\"smartscore\">#{smartscore}</div>".html_safe
   end
 
   # Chapter stuff

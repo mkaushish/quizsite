@@ -84,4 +84,30 @@
       </script>
     </div>
   </div>
+<% elsif multihtmlobj.is_a? NumberLine %>
+  <div class="multifield">
+    <div id=tally style="position:relative">
+      <canvas id=nlcanvas height=150 width=400 style="border-style:solid; border-width:2px;">
+      </canvas>
+      <%= hidden_field_tag('edit', multihtmlobj.azoom) %>
+      <%= hidden_field_tag('zoom', multihtmlobj.zoom) %>
+      <table id=points style="display:none">
+        <% multihtmlobj.points.length.times do |row| %>
+          <tr>
+            <td><%= hidden_field_tag("#{multihtmlobj.name}_#{row}", multihtmlobj.points[row]) %></td>
+          </tr>
+        <% end %>
+      </table>
+      <table id=lines style="display:none">
+        <% multihtmlobj.lines.length.times do |row| %>
+          <tr>
+            <td><%= hidden_field_tag("#{multihtmlobj.name}_#{row+multihtmlobj.points.length}", multihtmlobj.lines[row].join(",")) %></td>
+          </tr>
+        <% end %>
+      </table>
+      <script>
+        setUpNL();
+      </script>
+    </div>
+  </div>
 <% end %>

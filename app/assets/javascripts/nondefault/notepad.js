@@ -7,6 +7,7 @@ $(function() {
   var mousey;         // global mouse position y coord
   var downx;          // x coord where the click started
   var downy;          // y coord where the click started
+  var preshift=false;
   var mousedown=false;
   var curdraw=false;
   var asmd=false;
@@ -107,7 +108,7 @@ $(function() {
              ht+="</tr>\n"
                ht+="<tr>\n"
                for(i=0; i<lt; i++){
-                 ht+="<td><input type=text class=inps id=in"+i+" style=\"width:15px; height:10px\"></td>\n";
+                 ht+="<td><input type=text class=inps id=in"+i+" maxlength=1 style=\"width:15px; height:10px\"></td>\n";
                }
              ht+="</tr>\n"
                ht+="</table>";
@@ -190,17 +191,18 @@ $(function() {
                   else {ht+="<td> </td>\n";}
                 }
                 for(i=0; i<(n1.length+j+1); i++){
-                  ht+="<td><input type=text class=inps"+j+" id=in_"+j+"_"+i+" style=\"width:15px; height:10px\"></td>\n";
+                  ht+="<td><input type=text class=inps"+j+" id=in_"+j+"_"+i+" maxlength=1 style=\"width:15px; height:10px\"></td>\n";
                 }
                 ht+="</tr>\n";
               }
               if(n2.length>1){
                 for(i=0; i<lt; i++){
-                  ht+="<td><input type=text class=inps id=in"+i+" style=\"width:15px; height:10px\"></td>\n";
+                  ht+="<td><input type=text class=inps id=in"+i+" maxlength=1 style=\"width:15px; height:10px\"></td>\n";
                 }
               }
               ht+="</tr>\n";
               ht+="</table>";
+              //alert(ht);
               $('#note').append(ht);
               $('#addtable').attr("style", "background-color:transparent; font:10pt Courier; position:absolute; left:"+(this.margin+5)+"px; top:"+(this.upper+this.lheight*(this.notes[this.curpage].length)+5)+"px;");
               $("#in_0_"+(n1.length)).select();
@@ -333,6 +335,45 @@ $(function() {
              commenting=true;
              $('#comment').focus();
            },
+    doop : function(cline){
+             ops=["+", "-", "*"];
+             exp=[];
+             op="";
+             for(i=0; i < ops.length; i++){
+               if(cline.split(ops[i]).length==2){
+                 if( exp.length!=0) {return false;}
+                 else {
+                   exp=cline.split(ops[i]);
+                   op=ops[i];
+                 }
+               }
+             }
+             exp[0]=exp[0].replace(/^\s+|\s+$/g, '');
+             exp[1]=exp[1].replace(/^\s+|\s+$/g, '');
+             if(exp.length==0) {return false;}
+             if(isNaN(Number(exp[0])) || isNaN(Number(exp[1]))){
+               return false;
+             }
+             asmd=true;
+             $("#notes").attr("value", "");
+             $("#notes").hide();
+             if(op=="+"){
+               adding=true;
+               this.addf(exp[0], exp[1], "+");
+             } 
+             if(op=="-"){
+               subtracting=true;
+               this.addf(exp[0], exp[1], "-");
+             }
+             if(op=="*"){
+               multiplying=true;
+               this.multf(exp[0], exp[1]);
+             }
+           },
+
+
+
+               
     nppage : function(next){
                if(this.notes[this.curpage+next]!=null && this.curpage+next!=this.notes.length-1){
                  $('#notes').hide();
@@ -463,12 +504,27 @@ $(function() {
       notepad.comm(cline);
     }
   });
+  $('#notes').keydown(function(e){
+    if (e.keyCode==16){
+      preshift=true;
+    }
+  });
   $('#notes').keypress(function(e){
     if (e.keyCode==13){
-      notepad.addline($('#notes').attr("value"));
-      $('#notes').attr("style", "background-color:transparent; position:absolute; left:"+(notepad.margin+5)+"px; top:"+(notepad.upper+notepad.lheight*(notepad.notes[notepad.curpage].length))+"px; width:"+(canvas.width-notepad.margin-20)+"px");
-      $('#notes').attr("value","");
+      if(preshift){
+        notepad.doop($('#notes').attr("value"));
+      }
+      else{
+        notepad.addline($('#notes').attr("value"));
+        $('#notes').attr("style", "background-color:transparent; position:absolute; left:"+(notepad.margin+5)+"px; top:"+(notepad.upper+notepad.lheight*(notepad.notes[notepad.curpage].length))+"px; width:"+(canvas.width-notepad.margin-20)+"px");
+        $('#notes').attr("value","");
+      }
       //alert($('#notes').attr("style"));
+    }
+  });
+  $('#notes').keyup(function(e){
+    if (e.keyCode==16){
+      preshift=false;
     }
   });
 
