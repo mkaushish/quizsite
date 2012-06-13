@@ -992,7 +992,7 @@ function setUpGeo() {
       $(canvas).css('cursor', 'pointer');
     },
     deactivate : function() {
-      updatePOIs();
+      updateShapePeriphery();
       $(canvas).css('cursor', 'default');
     },
 
@@ -1000,7 +1000,7 @@ function setUpGeo() {
 
     mouseup : function() {
       if(this.s_i >= 0) { 
-        delShape(this.s_i);
+        shapes.splice(this.s_i, 1);
         this.s_i = -1;
       }
     },
