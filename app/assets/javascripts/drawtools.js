@@ -53,7 +53,8 @@ function setUpGeo() {
   var RULER      = 2;
   var LINE       = 3;
   var SELECT     = 4;
-  var BLANK      = 5;
+  var ERASOR     = 5;
+  var BLANK      = 6;
   var state;          // determines mousedown/up/move effects of canvas - currently represents either
   //  protractor, compass, ruler, or line drawing
 
@@ -983,6 +984,51 @@ function setUpGeo() {
     }
   }
 
+  var eraseState = {
+    s_i : -1,
+
+    activate : function() {
+      pointsOfInterest = [] // kind of hackish - don't want to be able to see POIs in this state
+      $(canvas).css('cursor', 'pointer');
+    },
+    deactivate : function() {
+      updatePOIs();
+      $(canvas).css('cursor', 'default');
+    },
+
+    mousedown : nullfunc,    
+
+    mouseup : function() {
+      if(this.s_i >= 0) { 
+        delShape(this.s_i);
+        this.s_i = -1;
+      }
+    },
+
+    mousemove : function() {
+      if(this.s_i >= 0) { // on shape
+        var s = shapes[this.s_i];
+
+        if(s.underMouse()) return;
+
+        s.unhilight(); 
+        this.s_i = -1;
+      }
+
+     // locate nearby shapes/pois
+      this.s_i = selectState.onWhichShape(); // too lazy to move this somewhere more general
+
+      // if we're not on a shape or on a startShape
+      // note that shapes always places the startShapes before the user drawn shapes
+      if(this.s_i < startShapes.length) {
+        this.s_i = -1;
+      }
+      else { 
+        shapes[this.s_i].highlight(); 
+      }
+    }
+  }
+
   var selectState = {
     s_i : -1,
     n_points_added : 0,
@@ -994,10 +1040,12 @@ function setUpGeo() {
       this.old_writeShapes = writeShapes;
       writeShapes = function() { writeShapeHTML(); }
       writeShapes();
+      $(canvas).css('cursor', 'pointer');
     },
     deactivate : function() {
       writeShapes = this.old_writeShapes();
       writeShapes();
+      $(canvas).css('cursor', 'default');
     },
 
     mousedown : function() {
@@ -1083,8 +1131,8 @@ function setUpGeo() {
   }
 
   // array of state objects - each has at least 5 methods: activate, deactivate, mouseup, mousedown, mousemove 
-  var STATES = [protState, compState, rulerState, lineState, selectState, blankState];
-  var STATEIDS = ["#protractor", "#compass", "#ruler", "#line", "#selectState", "#blank"];
+  var STATES = [protState, compState, rulerState, lineState, selectState, eraseState, blankState];
+  var STATEIDS = ["#protractor", "#compass", "#ruler", "#line", "#selectState", "#eraseState", "#blank"];
 
   // a helper state for those which want a tracing line on mouse pushdown
   var tracingLine = {
@@ -1191,6 +1239,10 @@ function setUpGeo() {
   $('#clear').click(function(){
     getStartShapes();
     setState(BLANK);
+  });
+
+  $('#erase').click(function(){
+    setState(ERASOR);
   });
 
   function a_to_s(arr) {
