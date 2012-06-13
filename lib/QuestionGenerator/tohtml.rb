@@ -224,6 +224,22 @@ module ToHTML
       true
     end
   end
+
+  class InlineBlock < MultiHTMLObj
+    attr_reader :text
+    def initialize(*args)
+      if args[0].is_a?(Array)
+        @text = args[0]
+      else
+        @text = args
+      end
+    end
+
+    def correct?(solution, response)
+      @text.map { |t| t.correct?(solution,response) }.reduce(:&)
+    end
+  end
+
   class TallyMarksField < MultiHTMLObj
     attr_reader :name, :obs, :init, :edit
     def initialize(name, obs, init)
