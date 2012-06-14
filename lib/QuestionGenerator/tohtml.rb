@@ -419,6 +419,20 @@ module ToHTML
       super(name)
       @label = text.to_s
     end
+
+    def char_length(arg)
+      len = 20
+      if arg.is_a? QuestionBase
+        len = arg.prefix_solve[@name].length
+      elsif arg.is_a? Hash
+        len = arg[@name].length
+      elsif arg.respond_to? :prob
+        len = arg.prob.prefix_solve[@name].length
+      end
+
+      return 6 if len < 6
+      (len / 3 + 1) * 3
+    end
   end
   
   # As you can see, this is just a textfield, with an overwritten fromhash method

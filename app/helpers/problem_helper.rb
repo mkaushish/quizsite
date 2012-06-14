@@ -31,4 +31,8 @@ module ProblemHelper
       return (div_h + divider + ptext + div_e).html_safe
     end
   end
+
+  def len_to_css_width(len)
+    return "width:#{len * 8}px;"
+  end
 end
