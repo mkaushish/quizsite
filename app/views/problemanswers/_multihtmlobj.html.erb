@@ -6,17 +6,82 @@
     <%= render :partial => 'problem/multihtmlobj', :object => multihtmlobj, 
       :locals => {:partial => 'problemanswers/responsefield', :locals => {:response => @solution}} %>
   </div>
-
   <% unless multihtmlobj.correct?(@solution, @response) then %>
-    <br>
     <div class="incorrect">
-      <% multihtmlobj.length_from_hash(@response) if multihtmlobj.is_a?(MultiTextField) %>
-      <%= render :partial => 'problem/multihtmlobj', :object => multihtmlobj, 
-                 :locals => {:partial => 'problemanswers/responsefield', :locals => {:response => @response}} %>
+    <% multihtmlobj.length_from_hash(@response) if multihtmlobj.is_a?(MultiTextField) %>
+    <%= render :partial => 'problem/multihtmlobj', :object => multihtmlobj, 
+      :locals => {:partial => 'problemanswers/responsefield', :locals => {:response => @response}} %>
     </div>
   <% end %>
-
 <% elsif multihtmlobj.is_a? TableField %>
   <% htmlobj_partial = 'problemanswers/htmlobj' %>
   <%= render :partial => 'problem/multihtmlobj', :object => multihtmlobj %>
+<% elsif multihtmlobj.is_a? BarGraphField %>
+  <div class="incorrect">
+    <canvas id=datacanvas height=350 width=400>
+    </canvas>
+    <%= hidden_field_tag('edit', "noedit") %>
+    <%= hidden_field_tag('type', "basicbar") %>
+    <%= hidden_field_tag('editdivs', multihtmlobj.editdivs) %>
+    <%= hidden_field_tag('divs', multihtmlobj.divs) %>
+    <table id=table style="display:none">
+      <% multihtmlobj.obs.length.times do |row| %>
+        <tr>
+          <td><%= hidden_field_tag("#{multihtmlobj.name}_#{row}_name", multihtmlobj.obs[row]) %></td>
+          <td><%= hidden_field_tag("#{multihtmlobj.name}_#{row}", @solution["#{multihtmlobj.name}_#{row}"]) %></td>
+        </tr>
+      <% end %>
+    </table>
+    <script>
+      setUpDataGr("datacanvas", "table");
+    </script>
+  </div>
+<% elsif multihtmlobj.is_a? TallyMarksField %>
+  <div class="incorrect">
+    <canvas id=datacanvas height=350 width=400>
+    </canvas>
+    <%= hidden_field_tag('edit', "noedit") %>
+    <%= hidden_field_tag('type', "tally") %>
+    <table id=table style="display:none">
+      <% multihtmlobj.obs.length.times do |row| %>
+        <tr>
+          <td><%= hidden_field_tag("#{multihtmlobj.name}_#{row}_name", multihtmlobj.obs[row]) %></td>
+          <td><%= hidden_field_tag("#{multihtmlobj.name}_#{row}", @solution["#{multihtmlobj.name}_#{row}"]) %></td>
+        </tr>
+      <% end %>
+    </table>
+    <script>
+      setUpDataGr("datacanvas", "table");
+    </script>
+  </div>
+<% elsif multihtmlobj.is_a? InpNumberLine %>
+  <div class="incorrect">
+    <div id=nline style="position:relative; width:450px; height:200px">
+      <canvas id="nlcanvas" height="100" width="450"> 
+      Your browser does not support the HTML5 Canvas feature. This app uses new HTML5 features and will only work on the latest versions of Firefox, Safari or Chrome (and maybe Internet Explorer 9).         
+      </canvas>   
+      <%=hidden_field_tag("inp", "#{multihtmlobj.val}")%>
+      <%=hidden_field_tag("bigdiv", multihtmlobj.bigdiv)%>
+      <%=hidden_field_tag(multihtmlobj.name, @solution["#{multihtmlobj.name}"])%>
+      <script>
+        setUpNL("<%=multihtmlobj.name%>", false, false, "movinp");
+        $("#nlcanvas").unbind("mousemove");
+      </script>
+    </div>
+  </div>
+<% elsif multihtmlobj.is_a? MovNumberLine %>
+  <div class="incorrect">
+    <div id=nline style="position:relative; width:450px; height:200px">
+      <canvas id="nlcanvas" height="100" width="450"> 
+      Your browser does not support the HTML5 Canvas feature. This app uses new HTML5 features and will only work on the latest versions of Firefox, Safari or Chrome (and maybe Internet Explorer 9).         
+      </canvas>   
+      <%=hidden_field_tag("inp", "#{multihtmlobj.val}")%>
+      <%=hidden_field_tag("bigdiv", multihtmlobj.bigdiv)%>
+      <%=hidden_field_tag(multihtmlobj.name, @solution["#{multihtmlobj.name}"])%>
+      <script>
+        setUpNL("<%=multihtmlobj.name%>", false, false, "movinp");
+        $("#nlcanvas").unbind("mousemove");
+      </script>
+    </div>
+  </div>
 <% end %>

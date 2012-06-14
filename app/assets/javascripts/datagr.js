@@ -275,11 +275,13 @@ function setUpDataGr(cname, tname) {
     editingBB : function(tr, wh){
                   if(tr > 0){
                     if(parseInt(this.table[wh][1]) > 0){
-                      this.table[wh][1]=""+((parseInt(this.table[wh][1])-Math.floor(tr/this.scale)*this.divs));
+                      st=((parseInt(this.table[wh][1])-Math.floor(tr/this.scale)*this.divs));
+                      if (st >= 0) {this.table[wh][1]=""+st;}
                     }
                   }
                   else{
-                    this.table[wh][1]=""+((parseInt(this.table[wh][1])-Math.ceil(tr/this.scale)*this.divs));
+                    st=((parseInt(this.table[wh][1])-Math.ceil(tr/this.scale)*this.divs));
+                    if (st >= 0) {this.table[wh][1]=""+st;}
                   }
                   this.redraw();
                 },
@@ -370,20 +372,22 @@ function setUpDataGr(cname, tname) {
     mousex = e.pageX - offsetx; // - offset.left;
     mousey = e.pageY - offsety; // - offset.top;
     // global scope.
-    /*if(mousedown){
+    if(mousedown){
       if(grph.edit){
         if(grph.type=="basicbar"){
           for(i =0; i<grph.table.length; i++){
             if(downx > grph.mg+grph.sp*i+grph.sp/4 && downx < grph.mg+grph.sp*i+3*grph.sp/4) {
-              if(downy < ht-grph.mg-(parseInt(grph.table[i][1])/grph.divs)*grph.scale + 15 && downy > ht-grph.mg-(parseInt(grph.table[i][1])/grph.divs)*grph.scale -5){
-              grph.editingBB(mousey-downy, i);
-              downy=mousey;
-            }
+              if(downy < ht-grph.mg-(parseInt(grph.table[i][1])/grph.divs)*grph.scale + 45 && downy > ht-grph.mg-(parseInt(grph.table[i][1])/grph.divs)*grph.scale -45){
+                if(Math.abs(mousey-downy) > grph.scale){
+                  grph.editingBB(mousey-downy, i);
+                  downy=mousey;
+                }
+              }
             }
           }
         }
       }
-    }*/
+    }
 
   });
 
