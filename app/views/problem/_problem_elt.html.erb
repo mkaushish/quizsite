@@ -1,0 +1,7 @@
+<% if problem_elt.is_a? MultiHTMLObj %>
+  <%= render :partial => "#{partialdir}/multihtmlobj", :object => problem_elt %>
+<% elsif problem_elt.is_a? GeometryBase %>
+  <%= render :partial => "#{partialdir}/geometryfield", :object => problem_elt %>
+<% else %>
+  <%= render :partial => "#{partialdir}/htmlobj", :object => problem_elt %>
+<% end %>
