@@ -380,6 +380,10 @@ module ToHTML
         @fields = args
       end
     end
+
+    def char_length
+      @fields.inject(0) { |max, s| (s.length > max) ? s.length : max }
+    end
   end
 
   class Checkbox < InputField

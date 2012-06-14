@@ -9,7 +9,7 @@
         <br>
       <% end %>
     <% elsif htmlobj.is_a? Dropdown %>
-      <%= select_tag(htmlobj.name, options_from_collection_for_select(htmlobj.fields, 'to_s', 'to_s' )) %>
+      <%= select_tag(htmlobj.name, options_from_collection_for_select(htmlobj.fields, 'to_s', 'to_s' ), :style=>"width:#{(htmlobj.char_length+3) * 10}px;") %>
     <% elsif htmlobj.is_a? Checkbox %>
       <%= label_tag(htmlobj.name, htmlobj.label) unless htmlobj.label.nil? %>
       <%= check_box_tag htmlobj.name %>
