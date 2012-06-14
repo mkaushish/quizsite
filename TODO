@@ -1,5 +1,6 @@
 Short Term
 ----------
+[ ] when you add too many fields in a multitextfield, not all of them get saved.
 [ ] when two multitextfields on a page, the second one's add, remove buttons are not working
 [ ] add mouse changes to indicate actions on GeometryFields
 [ ] in small drawtools, when a line is pointing up-down, it cannot be selected
