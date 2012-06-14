@@ -308,7 +308,11 @@ module Chapter7
         Subproblem.new([TextLabel.new("Since the First numerator, #{@num1}, #{solve["ans"]} Second numerator, #{@num2}, place the appropriate symbol:"), Fraction.new(@num1,@den), Dropdown.new("ans", "=", "<", ">"), Fraction.new(@num2, @den)], {"ans" => solve["ans"]})]  
     end
     def text
-      [TextLabel.new("Place the appropriate symbol:"), Fraction.new(@num1, @den), Dropdown.new("ans", '=', '<', '>'), Fraction.new(@num2, @den)]
+      [ TextLabel.new("Place the appropriate symbol:"), 
+        InlineBlock.new( Fraction.new(@num1, @den), 
+                         Dropdown.new("ans", '=', '<', '>'), 
+                         Fraction.new(@num2, @den)
+        ) ]
     end
   end
 

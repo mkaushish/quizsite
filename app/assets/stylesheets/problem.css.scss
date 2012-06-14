@@ -18,6 +18,9 @@
     //margin:0 7px 7px 0;
     margin-right:7px;
   }
+  select {
+    width:70px;
+  }
 
   .multifield {
     div {
@@ -26,6 +29,11 @@
         display: inline;
       }
     }
+  }
+
+  .inline-block {
+    // TODO all 1st gen children - * is for all children
+    div.fraction, select { display:inline-block; }
   }
 }
 

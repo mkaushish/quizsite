@@ -55,6 +55,14 @@ revert a single file:
 revert working directory
   $ git reset --hard  # CAREFUL this completely overwrites all diffs b/n the working copy and HEAD
 
+A NICE GIT REFERENCE:
+  http://git-scm.com/book
+
+RAILS CONSOLE NOTES
+-------------------
+get access to helper methods (eg link_to)
+  - according to docs, link_to is in ActionView::Helpers::UrlHelper
+  - just "include ActionView::Helpers::UrlHelper" and link_to will be available in the global namespace
 
 Instructions for setting up posgresql on ubuntu:
 ------------------------------------------------
