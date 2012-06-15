@@ -1,0 +1,9 @@
+<div class=row-fluid>
+  <ul>
+<%= form_for @user, :remote => true do |f| %>
+    <li id=userfield> <%= f.text_field :email, :placeholder=>"Email" %> </li>
+    <li id=psswfield> <%= f.password_field :password, :placeholder => "Password" %> </li>
+    <li id=namefield> <%= f.text_field :name, :placeholder => "Name" %> </li>
+<% end %>
+  </ul>
+</div>
