@@ -1,3 +1,115 @@
+<div class="modal hide" id="infoModal">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal">×</button>
+    <h2>Help</h2>
+  </div>
+  <div class="modal-body" style="font-family:SansSerif">
+    <% if !in_quiz? %>
+      <div class=accordion id=featuresaccordion>
+        <div class="accordion-group"> 
+          <h3 class=accordion-heading data-toggle="collapse" data-parent="#featuresaccordion" data-target="#collapseOne">
+            Profile Page
+          </h3>
+          <div class="collapse" id=collapseOne>
+            <div class="accordion-inner">
+              <h4>1. Quizzes</h4>
+              <p>On the left are a bunch of pre-made quizzes based on the chapters in the class 6 NCERT textbook. As you add more quizzes, they will appear in the same column. You can add more custom quizzes by clicking on the "New Quiz" button.</p>
+              <h4>2. Performance Panel</h4>
+              <p>The center panel indicates how well you have performed on the questions in the current quiz. Currently, this just provides a percentage for each question, but we will soon replace this with our <b class=blue>Smart</b><b class=green>Grade</b>.</p>
+              <h4>3. Problem History</h4>
+              <p>The far right column shows your problem history. You can click on any of the problems to see what they were. You can also go through explanations for all the problems.</p>
+              <br style="clear:both;">
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-group"> 
+          <h3 data-toggle="collapse" data-parent="#featuresaccordion" data-target="#collapseTwo">
+            Create a Custom Quiz
+          </h3>
+          <div class="collapse" id=collapseTwo>
+            <div class="accordion-inner">
+              <p>To create a custom quiz click on the "New Quiz" button either on the nav-bar or on the left of the Profile page. This will take you to a new page with the chapter names on the left, the questions in the center and the selected problems on the right. You can select a mixture of problems from any combination of chapters. Click the "Save Quiz" button when you're done. Remember to name your quiz before you do so. This will take you back to your Profile page. You can start the quiz from there.</p>
+              <br style="clear:both;">
+            </div> 
+          </div>
+        </div>
+      </div>
+    <%else%>
+      <div class=accordion id=featuresaccordion>
+        <div class="accordion-group"> 
+          <h3 class=accordion-heading data-toggle="collapse" data-parent="#featuresaccordion" data-target="#collapseOne">
+            Scratch Pad
+          </h3>
+          <div class="collapse" id=collapseOne>
+            <div class="accordion-inner">
+              <h4>1. Notes</h4>
+              <p>Type your notes in the highlighted field. Press enter to commit the notes onto the scratch pad. To make this more like a classroom or exam situation, we don't allow students to edit the notes once they have entered them.</p>
+              <h4>2. Operations</h4>
+              <p>To allow you to add, subtract or multiply like you do in your notes in class, we have created online forms for you. To access these forms either click on the corresponding button on the top left of the notepad or write in the operation in the notes field followed by Shift-Enter (For example, to multiply 123 and 12, write 123*12 followed by Shift-Enter).</p>
+              <h4>3. Scratch Work</h4>
+              <p>You can also draw on the pad by clicking and dragging.</p>
+              <h4>4. Next or Provious Page</h4>
+              <p>To go to the next page, click on the arrow to the right of the pad. To go to the previous page, click on the arrow to the left of the page. Remember, you can only add new notes onto the last page.</p>
+              <h4>5. Comments</h4>
+              <p>You can add comments onto currently non-active pages by double clicking in the margin on the line you wish to comment on. Click on the notepad to save the comment. To access a comment for a particular line, click on the icon in the margin for that particular line.</p>
+              <br style="clear:both;">
+            </div>
+          </div>
+        </div>
+        <div class="accordion-group"> 
+          <h3 data-toggle="collapse" data-parent="#featuresaccordion" data-target="#collapseTwo">
+            Geometry Problems
+          </h3>
+          <div class="collapse" id=collapseTwo>
+            <div class="accordion-inner">
+              <h4>Geometry Problems with Tools</h4>
+              <h4>Other Geometry Problems</h4>
+              <br style="clear:both;">
+            </div> 
+          </div>
+        </div>
+        <div class="accordion-group"> 
+          <h3 data-toggle="collapse" data-parent="#featuresaccordion" data-target="#collapseThree">
+            Bar Graph Problems
+          </h3>
+          <div class="collapse" id=collapseThree>
+            <div class="accordion-inner">
+              <p>Bar Graph problems are of 2 types. Withe you have to read from the bar graph like you would any other or you have to edit it. To any one bar, click on the top of the bar and pull either up or down. If the bar is on 0, click on the lower axis and pull up.</p>
+              <br style="clear:both;">
+            </div> 
+          </div>
+        </div>
+        <div class="accordion-group"> 
+          <h3 data-toggle="collapse" data-parent="#featuresaccordion" data-target="#collapseFour">
+            Tally Marks Problems
+          </h3>
+          <div class="collapse" id=collapseFour>
+            <div class="accordion-inner">
+              <p>There are 2 types of tally marks problems. The first involves just reading from the table of tally marks. The other involves making a tally marks table. To do this, click on the "|" button to add a vertical mark and click on the "/" button to make the slash mark. To remove the last mark, click the third button.</p>
+              <br style="clear:both;">
+            </div> 
+          </div>
+        </div>
+        <div class="accordion-group"> 
+          <h3 data-toggle="collapse" data-parent="#featuresaccordion" data-target="#collapseFive">
+            Number Line Problems
+          </h3>
+          <div class="collapse" id=collapseFive>
+            <div class="accordion-inner">
+              <p>The Number Line is very intuitive. Some problems will allow you to move the number line. You do this by clicking on it and dragging. Other problems will allow you to zoom in or out, which you can do with the bar on the left.You might have to name the number being pointed to on the number line or you may have to add or subtract numbers by dragging the pointer.</p>
+              <br style="clear:both;">
+            </div> 
+          </div>
+        </div>
+      </div>
+    <%end%>
+  </div>
+  <div class="modal-footer">
+    <a href="#" class="btn" data-dismiss="modal">Close</a>
+  </div>
+</div>
+
 <div class="navbar navbar-fixed-top">
   <div class='navbar-inner'>
     <div class=container>
@@ -10,6 +122,7 @@
           <% if in_quiz? %>
             <li><%= link_to "Stop Quiz", profile_path %></li>
             <li class=active><%= link_to quiz_name, "#" %></li>
+            <li <%= selected?("help") %> data-toggle="modal" href="#infoModal"><%= link_to "Help" %></li>
           <% else %>
             <li class=<%= selected?("profile")  %>><%= link_to "My Profile", profile_path  %></li>
             <li class=<%= selected?("makequiz") %>><%= link_to "New Quiz",  new_quiz_path %></li>
@@ -21,6 +134,7 @@
               <% end %>
             </ul>
             </li>
+            <li <%= selected?("help") %> data-toggle="modal" href="#infoModal"><%= link_to "Help" %></li>
           <% end %>
 
         <% elsif fastnav? %>
