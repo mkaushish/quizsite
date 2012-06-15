@@ -65,9 +65,7 @@ module ToHTML
     end
 
     def correct?(solution, response)
-      [ @intpart, @num, @den ].each do |elt|
-        return false unless elt.nil? || elt.correct?(solution, response)
-      end
+      [ @intpart, @num, @den ].map { |elt| elt.nil? || elt.correct?(solution, response) }.reduce(:&)
     end
 
     private

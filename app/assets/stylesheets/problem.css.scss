@@ -32,8 +32,13 @@
   }
 
   .inline-block {
-    // TODO all 1st gen children - * is for all children
-    div.fraction, select { display:inline-block; }
+    display:table-cell;
+    vertical-align:middle;
+    position:relative
+  }
+
+  .inline-block > div {
+    display:inline-block;
   }
 }
 
@@ -42,7 +47,7 @@
 }
 
 .correct, .incorrect {
-  display:inline-block;
+  //display:inline-block;
   padding:3px;
   @include rounded-corners(2px);
 }
