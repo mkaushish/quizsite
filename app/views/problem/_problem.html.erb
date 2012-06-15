@@ -1,6 +1,6 @@
 <%# I will display a QuestionBase type object, either with or without the answer %>
 <%# IMPORTANT LOCAL VARIABLES (PASS THESE BABIES IN THROUGH :locals => {hash})
-      problem: I better be a QuestionBase derivative
+      problem says: I better be a QuestionBase derivative!
       partialdir (optional): I will display each HTMLObj individually with the templates in partialdir. If none
          is provided, I will use the templates in the 'problem' view directory. Basically see the code
     %>
@@ -9,13 +9,7 @@
 <div class="problem">
   <% problem.text.each do |elt| %>
     <div class="problem-elt">
-      <% if elt.is_a? MultiHTMLObj %>
-        <%= render :partial => "#{partialdir}/multihtmlobj", :object => elt %>
-      <% elsif elt.is_a? GeometryBase %>
-        <%= render :partial => "#{partialdir}/geometryfield", :object => elt %>
-      <% else %>
-        <%= render :partial => "#{partialdir}/htmlobj", :object => elt %>
-      <% end %>
+      <%= render :partial => 'problem/problem_elt', :object => elt, :locals => {:partialdir => partialdir} %>
     </div>
   <% end %>
 </div>

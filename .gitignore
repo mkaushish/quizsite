@@ -10,3 +10,4 @@ ctags
 allfiles.txt
 TODO
 config/database.yml
+doc/*

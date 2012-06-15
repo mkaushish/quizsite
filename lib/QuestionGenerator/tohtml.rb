@@ -65,9 +65,7 @@ module ToHTML
     end
 
     def correct?(solution, response)
-      [ @intpart, @num, @den ].each do |elt|
-        return false unless elt.nil? || elt.correct?(solution, response)
-      end
+      [ @intpart, @num, @den ].map { |elt| elt.nil? || elt.correct?(solution, response) }.reduce(:&)
     end
 
     private
@@ -224,6 +222,22 @@ module ToHTML
       true
     end
   end
+
+  class InlineBlock < MultiHTMLObj
+    attr_reader :text
+    def initialize(*args)
+      if args[0].is_a?(Array)
+        @text = args[0]
+      else
+        @text = args
+      end
+    end
+
+    def correct?(solution, response)
+      @text.map { |t| t.correct?(solution,response) }.reduce(:&)
+    end
+  end
+
   class TallyMarksField < MultiHTMLObj
     attr_reader :name, :obs, :init, :edit
     def initialize(name, obs, init)
@@ -364,6 +378,10 @@ module ToHTML
         @fields = args
       end
     end
+
+    def char_length
+      @fields.inject(0) { |max, s| (s.length > max) ? s.length : max }
+    end
   end
 
   class Checkbox < InputField
@@ -398,6 +416,20 @@ module ToHTML
     def initialize(name, text = "")
       super(name)
       @label = text.to_s
+    end
+
+    def char_length(arg)
+      len = 20
+      if arg.is_a? QuestionBase
+        len = arg.prefix_solve[@name].length
+      elsif arg.is_a? Hash
+        len = arg[@name].length
+      elsif arg.respond_to? :prob
+        len = arg.prob.prefix_solve[@name].length
+      end
+
+      return 6 if len < 6
+      (len / 3 + 1) * 3
     end
   end
   
