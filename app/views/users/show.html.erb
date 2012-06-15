@@ -10,49 +10,49 @@
           <li class="fordelete_<%= quiz.idname %>">
           <%= link_to raw('<i class="icon-arrow-right"></i>'), startquiz_path(:quizid => quiz.id), :style=>"float:right; padding-bottom:0px;" %>
           <%= link_to quiz.name, "##{quiz.idname}", 
-                      "data-toggle" => "tab" %>
-          <div style="clear:both;"></div>
-          </li>
-        <% end %>
-        <li class=divider></li>
-        <li> <%= link_to "+ New Quiz", new_quiz_path %> </li>
-      </ul>
+            "data-toggle" => "tab" %>
+            <div style="clear:both;"></div>
+            </li>
+          <% end %>
+          <li class=divider></li>
+          <li> <%= link_to "+ New Quiz", new_quiz_path %> </li>
+        </ul>
+      </div>
     </div>
+
+    <div class="span6">
+      <% if @quizzes.empty? %>
+        <div id=noquiz-explanation>
+          <div class="section-header">Welcome to SmarterGrades!</div>
+          <p> This is your Profile page </p>
+          <p>On your left are your quizzes.  When you're preparing for an exam, all you need to do is make a quiz for it that has the same types of questions that will be on the exam.  Then we will give you problems to do, and tell you how prepared we think you are with our SmartScore algorithm!
+          </p>
+          <p> Once you make a quiz, this is where you'll see your SmartScore for the quiz and it's problems.
+          </p>
+          <p>On you right is your problem history - it will get filled out as you do problems.  Click on any of these problems if you want us to explain how to do them.
+          </p>
+          <p>NOTE: SmartScores aren't real yet, and the occasional question might not work or not have explanations yet.  The questions will be working or removed by May 14.  The SmartScores will be a while longer.  We recommend trying the questions in chapter 1 for examples of what we're shooting for, cricket questions to demonstrate usage of real world stats, and the geometry questions to see how the geometry app works.
+          </p>
+        </div>
+      <% else %>
+        <div class=tab-content>
+          <% @quizzes.reverse_each do |quiz| %>
+            <%= render :partial => 'quizzes/quiz', :object => quiz %>
+          <% end %>
+        </div>
+      <% end %>
+    </div>
+
+    <div class="span3 probh">
+      <%= render :partial => 'problemanswers/history', :locals => {:problemanswers => @problemanswers} %>
+    </div>
+
   </div>
 
-  <div class="span6">
-    <% if @quizzes.empty? %>
-      <div id=noquiz-explanation>
-        <div class="section-header">Welcome to SmarterGrades!</div>
-        <p> This is your Profile page </p>
-        <p>On your left are your quizzes.  When you're preparing for an exam, all you need to do is make a quiz for it that has the same types of questions that will be on the exam.  Then we will give you problems to do, and tell you how prepared we think you are with our SmartScore algorithm!
-        </p>
-        <p> Once you make a quiz, this is where you'll see your SmartScore for the quiz and it's problems.
-        </p>
-        <p>On you right is your problem history - it will get filled out as you do problems.  Click on any of these problems if you want us to explain how to do them.
-        </p>
-        <p>NOTE: SmartScores aren't real yet, and the occasional question might not work or not have explanations yet.  The questions will be working or removed by May 14.  The SmartScores will be a while longer.  We recommend trying the questions in chapter 1 for examples of what we're shooting for, cricket questions to demonstrate usage of real world stats, and the geometry questions to see how the geometry app works.
-        </p>
-      </div>
-    <% else %>
-      <div class=tab-content>
-        <% @quizzes.reverse_each do |quiz| %>
-          <%= render :partial => 'quizzes/quiz', :object => quiz %>
-        <% end %>
-      </div>
-    <% end %>
-  </div>
-
-  <div class="span3 probh">
-    <%= render :partial => 'problemanswers/history', :locals => {:problemanswers => @problemanswers} %>
-  </div>
-
-</div>
-
-<% unless @quizzes.empty? %>
-  <script>
-    $(function () {
+  <% unless @quizzes.empty? %>
+    <script>
+      $(function () {
       $('a[href="#<%= @shownquiz.idname %>"]').tab('show');
-    })
-  </script>
-<% end %>
+      })
+    </script>
+  <% end %>

@@ -349,19 +349,6 @@ function setUpDataGr(cname, tname) {
     mousedown=true;
   });
   $('#datacanvas').mouseup(function (e) { 
-    if(mousedown){
-      if(grph.edit){
-        if(grph.type=="basicbar"){
-          for(i =0; i<grph.table.length; i++){
-            if(downx > grph.mg+grph.sp*i+grph.sp/4 && downx < grph.mg+grph.sp*i+3*grph.sp/4) {
-              if(downy < ht-grph.mg-(parseInt(grph.table[i][1])/grph.divs)*grph.scale + 15 && downy > ht-grph.mg-(parseInt(grph.table[i][1])/grph.divs)*grph.scale -5){
-              grph.editingBB(mousey-initdowny, i);
-            }
-            }
-          }
-        }
-      }
-    }
     mousedown=false;
   });
   $('#datacanvas').mousemove(function (e) { 
@@ -378,7 +365,7 @@ function setUpDataGr(cname, tname) {
           for(i =0; i<grph.table.length; i++){
             if(downx > grph.mg+grph.sp*i+grph.sp/4 && downx < grph.mg+grph.sp*i+3*grph.sp/4) {
               if(downy < ht-grph.mg-(parseInt(grph.table[i][1])/grph.divs)*grph.scale + 45 && downy > ht-grph.mg-(parseInt(grph.table[i][1])/grph.divs)*grph.scale -45){
-                if(Math.abs(mousey-downy) > grph.scale){
+                if(Math.abs(mousey-downy) >= grph.scale){
                   grph.editingBB(mousey-downy, i);
                   downy=mousey;
                 }

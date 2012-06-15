@@ -1,75 +1,72 @@
 <div id=features class=staticpage style="display:none;">
   <div class=logo>Features</div>
   <div class=accordion id=featuresaccordion>
-    <div class="accordion-group b_green"> 
+    <div class="accordion-group"> 
       <h2 class=accordion-heading data-toggle="collapse" data-parent="#featuresaccordion" data-target="#collapseOne">
         Many Question Types and Tools
       </h2>
       <div class="collapse in" id=collapseOne>
-        <div class="accordion-inner b_green">
-          <%= image_tag "many.png", :class=>"imageright" %>
+        <div class="accordion-inner">
           <p>
-          Unlike most other testing websites, Smarter Grades doesn't just have multiple choice questions. Maths exams don't give students options to choose from, so multiple choice question are neither good at explaining concepts, nor at preparing students for exams.  Instead ask the student to come up with the answer themselves, and where possible we use web technology to come up with novel ways for students to answer questions.  Try playing with our <%= link_to "compass and straight edge", draw_path %> and <%= link_to "graphing calculator", graph_path %> apps, with which students will answer questions and get explanations. We are also creating questions using data from real life situations. We already have cricket statistics based questions ready.
+          Our bank of questions will not be restricted to multiple choice, unlike most of our competitors. This is because maths exams usually require students to come up with the answer themselves. We also feel that multiple choice questions are not the best way for a student to truly understand a topic.
+          To engage students better, we are trying to use data from real life situations wherever possible. Currently, we have created statistics questions based on real historical cricket statistics.
+          To supplement regular form-based questions, we are also creating HTML5/Javascript apps which will allow for novel question types and give students an experience with the tools they use in class. We have already created a drawing app which will give students access to a <%= link_to "compass and straight edge", draw_path %> in order for them to answer geometry based questions such as bisecting a line segment. 
           </p>
           <br style="clear:both;">
         </div>
       </div>
     </div>
 
-    <div class="accordion-group b_yellow"> 
+    <div class="accordion-group"> 
       <h2 data-toggle="collapse" data-parent="#featuresaccordion" data-target="#collapseTwo">
         Individual Explanations
       </h2>
       <div class="collapse" id=collapseTwo>
-        <div class="accordion-inner b_yellow">
-          <%= image_tag "explanation_450_260.png", :class=>"imageleft" %>
+        <div class="accordion-inner">
           <p>
-          Our questions also come with step by step explanations available to students when they get the question wrong. These explanations are not just a few lines of text, but prompt students at every step for pieces of vital information.  Try getting our <%= link_to "example questions", estimate_path %> wrong to see how we guide students through the method for solving problems
+          As we mentioned above, when a student is continuously getting a problem wrong, we don’t feel repeating the same question type again and again is necessarily the best way forward. Instead, we offer the student a step-by-step explanation of the problem. If a student is still not understanding the problem, we go through the steps of its prerequisite problems since maths learning is shaped like an upside-down pyramid, and in order to understand a concept the student must understand all the concepts which go into deriving it. For, example, if a student doesn’t understand how to take the HCF (GCD) of 2 numbers, we first guide him through each step. If the student is still facing issues, we ask him to go through the prerequisite questions, which in this case are Prime Factorization and Multiplication.
           </p> 
           <br style="clear:both;">
         </div> 
       </div>
     </div>
 
-    <div class="accordion-group b_blue"> 
+    <div class="accordion-group"> 
       <div data-toggle="collapse" data-parent="#featuresaccordion" data-target="#collapseThree">
         <h2>
-          SmartScore and Analytics 
+          SmartGrade and Analytics 
         </h2>
       </div>
       <div class="collapse" id=collapseThree>
-        <div class="accordion-inner b_blue">
-          <%= image_tag "smartscore_features.png", :class=>"imageright" %>
+        <div class="accordion-inner">
           <p>
-          The first thing we do to prepare a student for a test is have them try a few of problems to get a feel for their strengths and weaknesses.  For example, if a student gets a question right 3 times in a row, we can guess that he/she understands that question fairly well. Using these initial results we give the student a "SmartScore" for each question, which represents how well we think he/she understands that question.  After that, while the student practices the test, we use our <%= link_to "spaced repetition", "http://en.wikipedia.org/wiki/Spaced_repetition" %> algorithm to give them dynamic problem sets which focus on problems that students don't yet fully understand.
+          We are planning to use some of the latest research into how people learn in order for our product to adapt to individuals. We are planning to use the work of people like Pavlik and Anderson, who have backed up their theories with a lot of research. Their work is based on the ACT-R model, developed a few decades ago, but which has seen a revival in the last few years. Using their model, we will calculate the “activation” of the individual student or how well they would do on a problem if it was given to them right now. We will represent this to students in the form of a "SmartGrade," which will be a percentage.
           </p> 
           <br style="clear:both;">
         </div> 
       </div> 
     </div>
 
-    <div class="accordion-group b_red"> 
+    <div class="accordion-group"> 
       <h2 data-toggle="collapse" data-parent="#featuresaccordion" data-target="#collapseFour">
-        Zeroes in on Deeper Weaknesses 
+        Other Apps 
       </h2>
       <div class="collapse" id=collapseFour>
-        <div class="accordion-inner b_red">
-          <%= image_tag "dag.png", :class=>"imageleft" %>
+        <div class="accordion-inner">
           <p>
-          If you don't know how adding works, you can never learn to multiply.  Other websites will superficially give students the formula for multiplication without making them work out the deeper issues they have. We understand that beneath every maths question there is a breadth of concepts one must understand.  In fact, for each of our questions, we have identified those concepts.  If a student repeatedly has trouble on a problem, instead of giving them the same problem over and over again, we zero in on their deeper weaknesses. 
+          We are also creating other apps to help students learn and engage better with the environment. We have created a basic graphing calculator onto which we plan to add a lot more features. We have also created a notepad, which will be present on the side in every question and could be used by the student as a scratchpad or to take notes which will be accessible to them later. In this notepad, we have also created forms for addition, multiplication and subtraction, which will allow students to perform these operations as they would on a piece of paper.
           </p> 
           <br style="clear:both;">
         </div> 
       </div> 
     </div>
 
-    <div class="accordion-group b_orange"> 
+    <div class="accordion-group"> 
       <h2 data-toggle="collapse" data-parent="#featuresaccordion" data-target="#collapseFive">
         Unlimited Questions
       </h2>
       <div class="collapse" id=collapseFive> 
-        <div class="accordion-inner b_orange">
-          <%= image_tag "infinity.png", :class=>"imageright" %>
+        <div class="accordion-inner">
           <p>
           Our questions are generated by a computer in order to ensure that you never get the same exact question twice.  We have worked closely with teachers to ensure that we only give questions like those a student will see on an exam.
           </p> 
