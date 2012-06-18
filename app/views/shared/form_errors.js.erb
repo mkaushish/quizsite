@@ -1,0 +1,11 @@
+alert("working...?");
+<% @fields.each do |key| %>
+  <% pref_key = "#{@prefix}#{key}" %>
+  <% if !@errors[key].empty? %>
+    $('#<%= pref_key %>').addClass('invalid');
+    $('#<%= pref_key %>_e').text("<%= @errors[key].first %>");
+  <% else %>
+    $('#<%= pref_key %>').removeClass('invalid');
+    $('#<%= pref_key %>_e').text("");
+  <% end %>
+<% end %>

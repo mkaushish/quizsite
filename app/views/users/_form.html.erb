@@ -1,9 +1,11 @@
 <div class=row-fluid>
   <ul>
 <%= form_for @user, :remote => true do |f| %>
-    <li id=userfield> <%= f.text_field :email, :placeholder=>"Email" %> </li>
-    <li id=psswfield> <%= f.password_field :password, :placeholder => "Password" %> </li>
-    <li id=namefield> <%= f.text_field :name, :placeholder => "Name" %> </li>
+    <li> <%= f.text_field :email, :placeholder=>"Email" %> <span id="user_email_e"></span> </li>
+    <li> <%= f.password_field :password, :placeholder => "Password" %> <span id="user_password_e"></span> </li>
+    <li> <%= f.password_field :password_confirmation, :placeholder => "Confirmation" %> </li>
+    <li> <%= f.text_field :name, :placeholder => "Name" %> <span id="user_name_e"></span> </li>
+    <li> <%= f.submit "Sign Up!" %> </li>
 <% end %>
   </ul>
 </div>

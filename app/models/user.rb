@@ -67,8 +67,14 @@ class User < ActiveRecord::Base
                        :confirmation => true,
                        :length => { :within => 6..40 }
   
-  before_save :encrypt_password
+  before_save  :my_before_save
   after_create :add_default_quizzes
+
+  def my_before_save
+    encrypt_password
+    default_values
+    return true # for some reason this method needs to return true for save to be successful
+  end
 
   def self.authenticate(email, submitted_password)
     user = find_by_email(email)
@@ -90,6 +96,23 @@ class User < ActiveRecord::Base
     # TODO implement smartscore + calculations for real
     return "?" if problemanswers.where(:pclass => ptype.to_s).length == 0
     return (problemanswers.where(:correct => true, :pclass => ptype.to_s).length*100)/problemanswers.where(:pclass => ptype.to_s).length
+  end
+
+  def new_code
+    # TODO generate confirmation code in a more secure way? necessary?
+    self.confirmation_code = rand(10000).to_s
+  end
+
+  def confirm(code)
+    self.confirmation_code == code
+  end
+
+  def confirmation_url
+    'www.fukcit.com'
+  end
+
+  def confirmed?
+    return self.confirmed
   end
 
   private
@@ -116,5 +139,9 @@ class User < ActiveRecord::Base
     CHAPTERS.each do |chapter|
       quizzes.create!(:problemtypes => Marshal.dump(chapter::PROBLEMS), :name => chapter.to_s)
     end
+  end
+
+  def default_values
+    self.confirmed ||= false
   end
 end

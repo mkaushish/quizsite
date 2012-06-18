@@ -16,15 +16,29 @@ class UsersController < ApplicationController
   end
 
   def create
-    @user = User.new(params[:id])
+    uparams = params["user"]
+    @user = User.new uparams
+
+
+    $stderr.puts "UPARAMS: #{uparams.inspect}"
     
-    # soon we'll need  to differentiate here
     if @user.save
-      redirect_to root_path
+      UserMailer.confirmation_email(@user).deliver
+      @user.save
+      $stderr.puts("I JUST SENT THE FRICKIN EMAIL GUYS")
+      render :js => "window.location = '/'"
     else
-      redirect_to root_path
+      @prefix = "user_"
+      @errors = @user.errors
+      @fields = [:name, :password, :email]
+
+      $stderr.puts "#"*60
+      $stderr.puts "COULDN'T SAVE: #{@errors.full_messages}"
+
+      render 'shared/form_errors'
     end
   end
+
   private
 
   def authenticate

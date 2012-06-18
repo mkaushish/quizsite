@@ -38,8 +38,8 @@ class ProblemanswersController < ApplicationController
   # GET /problemanswers/new.json
   def new
 
-    $stderr.puts ":"*100
-    $stderr.puts session.inspect
+    #$stderr.puts ":"*100
+    #$stderr.puts session.inspect
 
     if !params[:quizid].nil?
       quiz = Quiz.find(params[:quizid])

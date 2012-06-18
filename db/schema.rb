@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120424051639) do
+ActiveRecord::Schema.define(:version => 20120616112718) do
 
   create_table "problemanswers", :force => true do |t|
     t.boolean  "correct"
@@ -51,6 +51,8 @@ ActiveRecord::Schema.define(:version => 20120424051639) do
     t.string   "salt"
     t.binary   "pscores"
     t.binary   "smartscores"
+    t.string   "confirmation_code"
+    t.boolean  "confirmed"
   end
 
   add_index "users", ["email"], :name => "index_users_on_email", :unique => true
