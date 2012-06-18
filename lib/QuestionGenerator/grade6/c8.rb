@@ -138,6 +138,10 @@ module Chapter8
   end
 
   class DecimalsToFractions < QuestionWithExplanation
+    def self.type
+      "Convert Decimal to Fraction"
+    end
+
     def initialize
       @num=10
       while @num % 10==0
@@ -170,6 +174,9 @@ module Chapter8
   end  
 
   class FractionsToDecimals < QuestionBase
+    def self.type
+      "Convert Fraction to Decimal"
+    end
     def initialize
       @num=10
       while@num % 10 == 0
@@ -199,6 +206,9 @@ module Chapter8
     "paise" => 100}
 
   class UnitsDecIncrease < QuestionWithExplanation
+    def self.type
+      "Convert Units 1"
+    end
     def initialize
       @wh=rand(SUNIT.length-1)+1
       @num=rand(UCON[SUNIT[@wh]]*100)
@@ -215,6 +225,9 @@ module Chapter8
     end
   end
   class UnitsDecDecrease < QuestionWithExplanation
+    def self.type
+      "Convert Units 2"
+    end
     def initialize
       @wh=rand(LUNIT.length-1)+1
       @num=rand(UCON[SUNIT[@wh]] * 100)
@@ -236,6 +249,9 @@ module Chapter8
   end
   
   class AddSubDecimals < QuestionWithExplanation
+    def self.type
+      "Operations with Decimals"
+    end
     def initialize(amt=rand(4)+2)
       @nums=[]
       @sigs=[]
@@ -293,6 +309,9 @@ module Chapter8
   end
   
   class SubDecimals < AddSubDecimals
+    def self.type
+      "Subtract Decimals"
+    end
     def initialize()
       super(2)
       @sigs=[-1]
@@ -300,6 +319,9 @@ module Chapter8
   end
 
   class AddDecimals < AddSubDecimals
+    def self.type
+      "Add Decimals"
+    end
     def initialize()
       super()
       @sigs=[]
@@ -313,5 +335,5 @@ module Chapter8
 
   
 
-  PROBLEMS=[Chapter8::PlaceValueTable, Chapter8::FractionsToDecimals, Chapter8::DecimalsToFractions, Chapter8::UnitsDecIncrease, Chapter8::UnitsDecDecrease, Chapter8::AddDecimals, Chapter8::SubDecimals, Chapter8::AddSubDecimals]
+  PROBLEMS=[Chapter8::FractionsToDecimals, Chapter8::DecimalsToFractions, Chapter8::UnitsDecIncrease, Chapter8::UnitsDecDecrease, Chapter8::AddDecimals, Chapter8::SubDecimals, Chapter8::AddSubDecimals]
 end  

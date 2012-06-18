@@ -21,6 +21,9 @@ module Chapter4
   # Chapter 4.1 exercises
   # 
   class NameLine < QuestionWithExplanation
+    def self.type
+      "Indentify Lines"
+    end
     attr_accessor :l, :points
     def initialize
       length = rand(50) + 100
@@ -94,6 +97,9 @@ module Chapter4
   #
   class NameAngles < QuestionWithExplanation
     attr_accessor :points, :lines
+    def self.type
+      "Identify Angles"
+    end
 
     def initialize
       cx, cy = *(SmallGeoDisplay.center)
@@ -145,6 +151,9 @@ module Chapter4
   # Chapter 4.4 exercises
   #
   class NameTriangles < QuestionWithExplanation
+    def self.type
+      "Identify Triangles"
+    end
     attr_accessor :lines
     def initialize
       start_letter = ["A", "C", "U", "X"].sample
@@ -191,6 +200,9 @@ module Chapter4
   # Just taken from the end
   #
   class DefVertices < QuestionWithExplanation
+    def self.type
+      "Identify Vertices"
+    end
     attr_accessor :points, :lines, :num_verts
     def initialize
       num_sides = 3 + rand(4);
@@ -238,6 +250,9 @@ module Chapter4
   end
 
   class DefAdjacentSides < QuestionWithExplanation
+    def self.type
+      "Identify Adjacent Sides"
+    end
     def initialize
       num_sides = 3 + rand(4);
       dists = Array.new(num_sides) { (SmallGeoDisplay.width/6) + rand(SmallGeoDisplay.width / 6) }
@@ -279,6 +294,9 @@ module Chapter4
   end
 
   class DefAdjacentVertices < QuestionWithExplanation
+    def self.type
+      "Identify Adjacent Vertices"
+    end
     def initialize
       num_sides = 3 + rand(4);
       dists = Array.new(num_sides) { (SmallGeoDisplay.width/6) + rand(SmallGeoDisplay.width / 6) }
@@ -322,6 +340,9 @@ module Chapter4
   end
 
   class DefDiagonal < QuestionWithExplanation
+    def self.type
+      "Identify Diagonals"
+    end
     def initialize
       num_sides = 4 + rand(3)
       dists = Array.new(num_sides) { (GeometryField.width/6) + rand(GeometryField.width / 6) }
@@ -366,6 +387,9 @@ module Chapter4
   end
 
   class DefPolygon < QuestionWithExplanation
+    def self.type
+      "Draw Polygon"
+    end
     def initialize(numpoints, name)
       @numpoints = numpoints
       @name = name
@@ -402,12 +426,18 @@ module Chapter4
   end
 
   class DefQuadrilateral < DefPolygon
+    def self.type
+      "Draw Quadrilateral"
+    end
     def initialize
       super(4, "quadrilateral")
     end
   end
 
   class DefTriangle < DefPolygon
+    def self.type
+      "Draw Triangle"
+    end
     def initialize
       super(3, "triangle")
     end
