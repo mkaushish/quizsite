@@ -1,19 +1,22 @@
-<div class="modal hide" id="infoModal">
-  <div class="modal-header">
-    <button type="button" class="close" data-dismiss="modal">×</button>
-    <h2>Help</h2>
+
+<% if signed_in? %>
+  <div class="modal hide" id="infoModal">
+    <div class="modal-header">
+      <button type="button" class="close" data-dismiss="modal">×</button>
+      <h2>Help</h2>
+    </div>
+    <div class="modal-body" style="font-family:SansSerif">
+      <% if in_quiz? %>
+        <%= render :partial => 'pages/inquiz_help' %>
+      <%else%>
+        <%= render :partial => 'pages/profile_help' %>
+      <%end%>
+    </div>
+    <div class="modal-footer">
+      <a href="#" class="btn" data-dismiss="modal">Close</a>
+    </div>
   </div>
-  <div class="modal-body" style="font-family:SansSerif">
-    <% if in_quiz? %>
-      <%= render :partial => 'pages/inquiz_help' %>
-    <%else%>
-      <%= render :partial => 'pages/profile_help' %>
-    <%end%>
-  </div>
-  <div class="modal-footer">
-    <a href="#" class="btn" data-dismiss="modal">Close</a>
-  </div>
-</div>
+<%end%>
 
 <div class="navbar navbar-fixed-top">
   <div class='navbar-inner'>
