@@ -5,6 +5,7 @@ class QuizzesController < ApplicationController
 
   # choose the problems for a quiz
   def new
+    stop_quiz
     @nav_selected = "makequiz"
     @chosen_probs = get_probs
     @chapter = CricketQuestions
