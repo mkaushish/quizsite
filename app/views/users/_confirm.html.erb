@@ -2,4 +2,3 @@ Hey <%= @user.name %>, your registration is almost done.  Just enter the code we
 <%= form_for @user do |f| %>
   <%= f.text_field :confirmation_code, :placeholder=>"Confirmation Code" %> <span id="user_confirmation_code_e"></span>
 <% end %>
-

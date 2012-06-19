@@ -107,10 +107,6 @@ class User < ActiveRecord::Base
     self.confirmation_code == code
   end
 
-  def confirmation_url
-    'www.fukcit.com'
-  end
-
   def confirmed?
     return self.confirmed
   end
