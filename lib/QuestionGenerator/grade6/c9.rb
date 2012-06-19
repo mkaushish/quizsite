@@ -93,7 +93,7 @@ module Chapter9
     end
   end
       
-  PROBLEMS=[Chapter9::BarQues, Chapter9::CreateBar,
-  Chapter9::TallyQues, Chapter9::CreateTally]
+  PROBLEMS=[Chapter9::CreateBar,
+  Chapter9::CreateTally]
 end 
 
