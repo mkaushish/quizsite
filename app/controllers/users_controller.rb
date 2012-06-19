@@ -26,7 +26,7 @@ class UsersController < ApplicationController
       UserMailer.confirmation_email(@user).deliver
       @user.save
       $stderr.puts("I JUST SENT THE FRICKIN EMAIL GUYS")
-      render :js => "window.location = '/'"
+      render 'users/confirmjs'
     else
       @prefix = "user_"
       @errors = @user.errors
