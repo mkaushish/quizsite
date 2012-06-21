@@ -38,7 +38,7 @@ module Chapter7
         Subproblem.new([TextLabel.new("Since the quotient is #{@num/@den} and the remainder is #{@num-(@num/@den)*@den}, the fraction in mixed form is:"), Fraction.new("num", "den", "intpart")], {"num" => sol["num"], "den" => sol["den"], "intpart" => sol["intpart"]})]  
     end
     def  text
-      [TextLabel.new("Convert the following into a mixed fraction"), Fraction.new(@num,@den), Fraction.new("num", "den", "intpart")]
+      [TextLabel.new("Convert the following into a mixed fraction"), InlineBlock.new(Fraction.new(@num,@den), TextLabel.new(" = "), Fraction.new("num", "den", "intpart"))]
     end
   end
 
@@ -70,7 +70,7 @@ module Chapter7
     def  text
       intpart=@num/@den
       remainder=@num-(intpart*@den)
-      [TextLabel.new("Convert the following into an improper fraction"), Fraction.new(remainder, @den, intpart), Fraction.new("num", "den")]
+      [TextLabel.new("Convert the following into an improper fraction"), InlineBlock.new(Fraction.new(remainder, @den, intpart), TextLabel.new(" = "), Fraction.new("num", "den"))]
     end
   end
 
@@ -96,7 +96,7 @@ module Chapter7
         PreG6::Division.new(hcf, @den, true)]
     end
     def text
-      [TextLabel.new("Reduce the following fraction to its lowest form:"), Fraction.new(@num, @den), Fraction.new("num", "den")]
+      [TextLabel.new("Reduce the following fraction to its lowest form:"), InlineBlock.new(Fraction.new(@num, @den), TextLabel.new(" = "), Fraction.new("num", "den"))]
     end
   end
 
@@ -129,7 +129,7 @@ module Chapter7
         Subproblem.new([TextLabel.new("Hence, the fraction in its lowest form is:"), Fraction.new(TextLabel.new(solve["num"]), TextLabel.new(solve["den"]))])]
     end
     def text
-      [TextLabel.new("Reduce the following fraction to its lowest form"), Fraction.new(@nums1.reduce(:*), @nums2.reduce(:*)), Fraction.new("num", "den")]
+      [TextLabel.new("Reduce the following fraction to its lowest form"), InlineBlock.new(Fraction.new(@nums1.reduce(:*), @nums2.reduce(:*)), TextLabel.new(" = "), Fraction.new("num", "den"))]
     end
   end
 
@@ -174,7 +174,7 @@ module Chapter7
 
 
     def text
-      [TextLabel.new("Are the following equivalent?"), Fraction.new(@num1.reduce(:*), @den1.reduce(:*)), Dropdown.new("ans", '=', SYMBOL[:notequals]) , Fraction.new(@num2.reduce(:*),@den2.reduce(:*))] 
+      [TextLabel.new("Are the following equivalent?"), InlineBlock.new(Fraction.new(@num1.reduce(:*), @den1.reduce(:*)), Dropdown.new("ans", '=', SYMBOL[:notequals]) , Fraction.new(@num2.reduce(:*),@den2.reduce(:*)))] 
     end
   end
 
@@ -346,7 +346,7 @@ module Chapter7
         Chapter7::CompareLikeFrac.new(lcm, @num1*(lcm/@den1), @num2*(lcm/@den2))]
     end
     def text
-      [TextLabel.new("Place the appropriate symbol:"), Fraction.new(@num1,@den1), Dropdown.new("ans",'=','<','>'), Fraction.new(@num2, @den2)]
+      [TextLabel.new("Place the appropriate symbol:"), InlineBlock.new(Fraction.new(@num1,@den1), Dropdown.new("ans",'=','<','>'), Fraction.new(@num2, @den2))]
     end
   end
 
@@ -552,8 +552,8 @@ module Chapter7
   end
 
   PROBLEMS=[
-    #Chapter7::ToMixedFractions, 
-    #Chapter7::ToImproperFractions,
+    Chapter7::ToMixedFractions, 
+    Chapter7::ToImproperFractions,
     Chapter7::EquivalentFractions,
     Chapter7::ReduceFractions,
     Chapter7::FillNumerator,
