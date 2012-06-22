@@ -88,9 +88,12 @@ body {
   .text input[type="password"] {
     width:90px;
   }
-  .button input,a {
-    margin:1px 0 0 0;
-    width:57px;
+  .button {
+    input, button, a {
+      margin:1px 0 0 0;
+      width:57px;
+      padding:3px;
+    }
   }
 }
 
@@ -243,8 +246,8 @@ input[type="password"] {
 
 input[type="submit"] {
   // the classes text and submit get added automatically for all input fields in application.js
-  margin:2px;
-  padding:3px;
+  //margin:2px;
+  //padding:3px;
 }
 
 input.invalid {

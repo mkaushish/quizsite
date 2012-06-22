@@ -4,6 +4,24 @@ class UsersController < ApplicationController
   def new
     @user = User.new
   end
+  
+  # POST confirm
+  def confirm
+    @user = User.find params['id']
+
+    if @user.confirmed?
+      # were confirmed before this shit...
+      redirect_to root_path
+
+    elsif @user.confirm(params['code'])
+      @user.save( :validate => false )
+      sign_in @user
+      redirect_to profile_path
+
+    else
+      render 'confirmation_error'
+    end
+  end
 
   def show
     stop_quiz

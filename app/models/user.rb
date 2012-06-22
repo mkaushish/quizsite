@@ -100,11 +100,15 @@ class User < ActiveRecord::Base
 
   def new_code
     # TODO generate confirmation code in a more secure way? necessary?
-    self.confirmation_code = rand(10000).to_s
+    # rand is prob like 10 digits, + Time.now gives us a fair amount of security... I hope
+    self.confirmation_code = secure_hash "#{Time.now.utc}--#{rand}"
   end
 
   def confirm(code)
-    self.confirmation_code == code
+    if self.confirmation_code == code
+      return self.confirmed = true
+    end
+    false
   end
 
   def confirmed?

@@ -1,11 +1,19 @@
-<div class=row-fluid>
-  <ul>
 <%= form_for @user, :remote => true do |f| %>
-    <li> <%= f.text_field :email, :placeholder=>"Email" %> <span id="user_email_e"></span> </li>
-    <li> <%= f.password_field :password, :placeholder => "Password" %> <span id="user_password_e"></span> </li>
-    <li> <%= f.password_field :password_confirmation, :placeholder => "Confirmation" %> </li>
-    <li> <%= f.text_field :name, :placeholder => "Name" %> <span id="user_name_e"></span> </li>
-    <li> <%= f.submit "Sign Up!" %> </li>
-<% end %>
-  </ul>
+<div class=row-fluid>
+  <div class=span6>
+    <ul>
+      <li> <%= f.text_field :name, :placeholder => "Name" %> <span id="user_name_e"></span> </li>
+      <li> <%= f.text_field :email, :placeholder=>"Email" %> <span id="user_email_e"></span> </li>
+    </ul>
+  </div>
+  <div class=span6>
+    <ul>
+      <li> <%= f.password_field :password, :placeholder => "Password" %> <span id="user_password_e"></span> </li>
+      <li> <%= f.password_field :password_confirmation, :placeholder => "Confirmation" %> </li>
+    </ul>
+  </div>
 </div>
+<div class=row-fluid>
+  <%= f.submit "Sign Up!", :class => "btn btn-large btn-success", :id => "register-email" %>
+</div>
+<% end %>

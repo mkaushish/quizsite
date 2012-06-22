@@ -46,7 +46,7 @@ module SessionsHelper
   end
 
   def signed_in?
-    !current_user.nil?
+    !current_user.nil? && current_user.confirmed?
   end
 
   def sign_out
@@ -55,7 +55,7 @@ module SessionsHelper
   end
 
   def deny_access
-    redirect_to signin_path, :notice => "Please sign in to access this page"
+    redirect_to root_path, :notice => "Please sign in to access this page"
   end
 
   # USER QUIZ RELATED

@@ -1,0 +1,5 @@
+if( $('#registerModal').length == 0 ) {
+  $('html').append('<%= escape_javascript( render :partial => 'users/modal_new' ) %>');
+}
+
+$('#registerModal').modal('show');

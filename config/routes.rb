@@ -1,7 +1,12 @@
 Quizsite::Application.routes.draw do
-  resources :users
+  resources :users do
+    get 'confirm', :on => :member
+  end
+
   resources :sessions, :only => [:new, :create, :destroy]
+
   resources :quizzes, :except => [:show] # see them in profile
+
   scope(:path_names => { :new => "quiz" }) do
     resources :problemanswers, :except => [:edit, :destroy]
   end
@@ -19,7 +24,6 @@ Quizsite::Application.routes.draw do
   match '/signout',     :to => 'sessions#destroy'
   match '/history',     :to => 'problemanswers#index'
   match '/startquiz',   :to => 'problemanswers#new'
-  match '/makequiz',    :to => 'probleman#choose'
   match '/home',        :to => 'pages#fasthome'
   match '/features',    :to => 'pages#features'
   match '/about',       :to => 'pages#about'

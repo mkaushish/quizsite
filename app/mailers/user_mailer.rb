@@ -1,5 +1,5 @@
 class UserMailer < ActionMailer::Base
-  default :from => "support@smartergrades.com"
+  default :from => "noreply@smartergrades.com"
 
   def confirmation_email(user)
     @user = user
