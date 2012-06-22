@@ -12,8 +12,12 @@
         <li class=divider-vertical></li>
         <li class=text id=userfield> <%= f.text_field :email, :placeholder=>"Email" %> </li>
         <li class=text id=psswfield> <%= f.password_field :password, :placeholder => "Password" %> </li>
-        <li class=button ><%= f.submit "Sign in",  :class=>"btn-success" %>
-                          <%= f.submit "Register", :class=>"btn-primary", :disabled=>"true" %></li>
+        <li class=button>
+          <%= f.submit "Sign in",  :class=>"btn btn-success" %>
+          <%# link_to "Register", new_user_path, :method =>:get, :class=>"btn btn-primary"  %>
+          <%= f.submit "Register", :class=>"btn btn-primary" %>
+          <%# <button class="btn btn-primary" id=register>Register</button> %>
+        </li>
       </ul>
     <% end %>
   </div>

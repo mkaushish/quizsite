@@ -1,19 +1,21 @@
-<div class="modal hide" id="infoModal">
-  <div class="modal-header">
-    <button type="button" class="close" data-dismiss="modal">×</button>
-    <h2>Help</h2>
+<% if signed_in? %>
+  <div class="modal hide" id="infoModal">
+    <div class="modal-header">
+      <button type="button" class="close" data-dismiss="modal">×</button>
+      <h2>Help</h2>
+    </div>
+    <div class="modal-body" style="font-family:SansSerif">
+      <% if in_quiz? %>
+        <%= render :partial => 'pages/inquiz_help' %>
+      <%else%>
+        <%= render :partial => 'pages/profile_help' %>
+      <%end%>
+    </div>
+    <div class="modal-footer">
+      <a href="#" class="btn" data-dismiss="modal">Close</a>
+    </div>
   </div>
-  <div class="modal-body" style="font-family:SansSerif">
-    <% if in_quiz? %>
-      <%= render :partial => 'pages/inquiz_help' %>
-    <%else%>
-      <%= render :partial => 'pages/profile_help' %>
-    <%end%>
-  </div>
-  <div class="modal-footer">
-    <a href="#" class="btn" data-dismiss="modal">Close</a>
-  </div>
-</div>
+<% end %>
 
 <div class="navbar navbar-fixed-top">
   <div class='navbar-inner'>
@@ -27,30 +29,30 @@
           <% if in_quiz? %>
             <li><%= link_to "Stop Quiz", profile_path %></li>
             <li class=active><%= link_to quiz_name, "#" %></li>
-            <li <%= selected?("help") %> data-toggle="modal" href="#infoModal"><%= link_to "Help" %></li>
+            <li><%= link_to "Help", "#infoModal", "data-toggle"=>"modal" %></li>
           <% else %>
-            <li class=<%= selected?("profile")  %>><%= link_to "My Profile", profile_path  %></li>
-            <li class=<%= selected?("makequiz") %>><%= link_to "New Quiz",  new_quiz_path %></li>
+            <li class="<%= selected?("profile")  %>"><%= link_to "My Profile", profile_path  %></li>
+            <li class="<%= selected?("makequiz") %>"><%= link_to "New Quiz",  new_quiz_path %></li>
             <li class="dropdown <%= selected?("quiz") %>">
-            <%= link_to "Start Quiz", "#", :class => "dropdown-toggle", "data-toggle" => "dropdown" %>
-            <ul class="dropdown-menu nav-dropdown">
-              <% user_quizzes.each do |quiz| %>
-                <li><%= link_to(quiz.name, startquiz_path(:quizid => quiz.id)) %></li>
-              <% end %>
-            </ul>
+              <%= link_to "Start Quiz", "#", :class => "dropdown-toggle", "data-toggle" => "dropdown" %>
+              <ul class="dropdown-menu nav-dropdown">
+                <% user_quizzes.each do |quiz| %>
+                  <li><%= link_to(quiz.name, startquiz_path(:quizid => quiz.id)) %></li>
+                <% end %>
+              </ul>
             </li>
-            <li <%= selected?("help") %> data-toggle="modal" href="#infoModal"><%= link_to "Help" %></li>
+            <li><%= link_to "Help", "#infoModal", "data-toggle"=>"modal" %></li>
           <% end %>
 
         <% elsif fastnav? %>
-          <li class=<%= selected?("home")     %>><%= link_to "Home",     "#", :id=>'homelink'     %></li>
-          <li class=<%= selected?("features") %>><%= link_to "Features", "#", :id=>'featureslink' %></li>
-          <li class=<%= selected?("about")    %>><%= link_to "About Us", "#", :id=>'aboutlink'    %></li>
+          <li class="<%= selected?("home")     %>"><%= link_to "Home",     "#", :id=>'homelink'     %></li>
+          <li class="<%= selected?("features") %>"><%= link_to "Features", "#", :id=>'featureslink' %></li>
+          <li class="<%= selected?("about")    %>"><%= link_to "About Us", "#", :id=>'aboutlink'    %></li>
 
         <% else %>
-          <li class=<%= selected?("home")     %>><%= link_to "Home",     home_path,     %></li>
-          <li class=<%= selected?("features") %>><%= link_to "Features", features_path, %></li>
-          <li class=<%= selected?("about")    %>><%= link_to "About Us", about_path,    %></li>
+          <li class="<%= selected?("home")     %>"><%= link_to "Home",     home_path,     %></li>
+          <li class="<%= selected?("features") %>"><%= link_to "Features", features_path, %></li>
+          <li class="<%= selected?("about")    %>"><%= link_to "About Us", about_path,    %></li>
         <% end %>
       </ul>
 
