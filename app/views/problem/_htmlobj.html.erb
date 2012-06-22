@@ -14,6 +14,21 @@
     <% elsif htmlobj.is_a? Checkbox %>
       <%= label_tag(htmlobj.name, htmlobj.label) unless htmlobj.label.nil? %>
       <%= check_box_tag htmlobj.name %>
+    <% elsif htmlobj.is_a? Commabox %>
+      <div id=<%=htmlobj.name%> name=<%=htmlobj.name%> class=commabox value="0"></div>
+      <script>
+        name="<%=htmlobj.name%>";
+        $("#"+name).click({name:name}, function(e){
+          if($("#"+e.data.name).attr("value")=="0"){
+            $("#"+e.data.name).attr("value", "1");
+            $("#"+e.data.name).addClass("commachecked");
+          }
+          else{
+            $("#"+e.data.name).attr("value", "0");
+            $("#"+e.data.name).removeClass("commachecked");
+          }
+        });
+      </script>
     <% else %>
       <% flash[:error] = "It seems the inputfield you passed in here didn't have a view implemented yet" %>
     <% end %>

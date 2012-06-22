@@ -15,6 +15,9 @@ module Chapter3
   #first 20 odd primes
 
   class IdentifyPrimes < QuestionWithExplanation
+    def self.type
+      "Identify Primes"
+    end
     def initialize(num = nil)
       if num.nil?
         if rand() < 0.4
@@ -554,6 +557,9 @@ module Chapter3
   end
 
   class MultHCF < QuestionWithExplanation
+    def self.type
+      "HCF of 3+ numbers"
+    end
     def initialize(nums=nil, comm=nil)
       if nums!=nil
         @nums=nums
@@ -739,6 +745,9 @@ module Chapter3
   end
 
   class MultLCM < QuestionWithExplanation
+    def self.type
+      "LCM of 3+ numbers"
+    end
     def initialize(nums=nil, comm=nil)
       if nums!=nil
         @nums=nums
@@ -835,7 +844,6 @@ module Chapter3
     Chapter3::Div_11,
     Chapter3::SumPrimes, 
     Chapter3::HCF,
-    Chapter3::HCFEA,
     Chapter3::MultHCF,
     Chapter3::LCM, 
     Chapter3::MultLCM

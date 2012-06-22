@@ -397,6 +397,17 @@ module ToHTML
       solution[@name].nil? && response[@name].nil?
     end
   end
+  class Commabox < InputField
+
+    def initialize(name)
+      super(name)
+    end
+
+    def correct?(solution, response)
+      return true unless solution[@name].nil? || response[@name].nil?
+      solution[@name].nil? && response[@name].nil?
+    end
+  end
 
   class RadioButton < InputField
     attr_accessor :fields

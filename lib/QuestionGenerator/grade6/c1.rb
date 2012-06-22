@@ -182,12 +182,25 @@ module Chapter1
     end
 
     def solve
-      {"ans" => @num.ind_commas}
+      ret={}
+      ct=0
+      for i in 0...@num.to_s.length
+        if((ct-1) % 2 == 0 && ct!=1)
+          ret["ans#{@num.to_s.length-1-ct}"] = "1"
+        end
+        ct+=1
+      end
+      ret
     end
 
     def text
-      [ TextLabel.new("Add commas to this number according to the Indian System of Numeration:"),
-        TextField.new("ans", @num)
+      inl=[]
+      for i in 0...@num.to_s.length
+        inl << TextLabel.new(@num.to_s[i])
+        inl << Checkbox.new("ans#{i}", "")
+      end
+      [ TextLabel.new("According to the Indian System of Numeration, click where the commas should be:"),
+        InlineBlock.new(inl)   
       ]
     end
 

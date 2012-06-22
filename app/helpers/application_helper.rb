@@ -3,8 +3,8 @@ require 'grade6'
 module ApplicationHelper
 
   def title
-    return "SmarterGrades" if @title.nil?
-    return "#{@title} | SmarterGrades"
+    return "SmarterGrades - The Smartest Way to Learn Maths" if @title.nil?
+    return "SmarterGrades | #{@title}"
   end
   def jsonload
     return "" if @jsonload.nil?

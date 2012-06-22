@@ -3,6 +3,18 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 @import 'mixins_n_colors';
 
+.commabox {
+  vertical-align:text-top;
+  width:13px;
+  height:13px;
+  background-color:white;
+  border-style:solid;
+  border-width:1px;
+}
+.commachecked {
+  background: url("../assets/comma.png") 0 0 no-repeat;
+}
+
 #problemtabs {
   input {
     float:left;
@@ -39,6 +51,7 @@
 
   .inline-block > div {
     display:inline-block;
+    vertical-align:middle;
   }
 }
 
