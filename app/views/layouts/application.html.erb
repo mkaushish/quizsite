@@ -11,6 +11,8 @@
 </head>
 <body <%= jsonload %>>
   <%= render 'shared/nav' %>
+  <%=render :partial => "shared/feedback"%>
+
   <div class="container" <%= container_height_style %>>
     <%= render 'shared/errors' %>
     <%= yield %>
