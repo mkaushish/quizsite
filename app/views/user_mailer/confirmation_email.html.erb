@@ -7,7 +7,7 @@
       Thanks for signing up for SmarterGrades
     </h1>
     <p>
-    <%= link_to "Click here", confirm_user_url(@user, :code => @user.new_code), :method => :post %> to complete your registration!
+    <%= link_to "Click here", confirm_user_url(@user, :code => @user.confirmation_code), :method => :post %> to complete your registration!
     </p>
   </body>
 </html>

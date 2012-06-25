@@ -1,5 +1,5 @@
 <%= form_for @user, :remote => true do |f| %>
-  <div class=row-fluid>
+  <div class=row-fluid id="register-disable">
     <div class=formfield>
       <%= f.label :name %>
       <%= f.text_field :name, :placeholder => "Name" %> <span id="user_name_e"></span>
@@ -21,6 +21,6 @@
     </div>
   </div>
   <div class=row-fluid>
-    <%= f.submit "Sign Up!", :class => "btn btn-large btn-success", :id => "register-email" %>
+    <%= f.submit "Sign Up!", :class => "btn btn-large btn-success disable-on-click", "data-target" => "register-disable", :id => "register-email" %>
   </div>
 <% end %>

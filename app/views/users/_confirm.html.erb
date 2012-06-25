@@ -1,1 +1,7 @@
-Hey <%= @user.name %>, we just sent you an email!  Click the link inside it to complete your registration.
+<p>
+  Hey <%= @user.name %>, we just sent you an email!  Click the link inside it to complete your registration.
+<p>
+
+<p>
+  Didn't get our email? It can take a few minutes to go through.  If it's been a while and you still haven't received it, make sure your email address was correct<%# link_to "email address is correct", edit_user_path(@user) %> and check your spam filter.  Email us if you still haven't received it.
+</p>

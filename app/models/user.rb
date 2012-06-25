@@ -67,13 +67,14 @@ class User < ActiveRecord::Base
                        :confirmation => true,
                        :length => { :within => 6..40 }
   
-  before_save  :my_before_save
-  after_create :add_default_quizzes
+  before_save  :encrypt_password
+  after_create :set_defaults
 
-  def my_before_save
-    encrypt_password
+  def set_defaults
     default_values
-    return true # for some reason this method needs to return true for save to be successful
+    add_default_quizzes
+    new_code
+    true
   end
 
   def self.authenticate(email, submitted_password)
@@ -103,6 +104,11 @@ class User < ActiveRecord::Base
     # rand is prob like 10 digits, + Time.now gives us a fair amount of security... I hope
     self.confirmation_code = secure_hash "#{Time.now.utc}--#{rand}"
   end
+
+  def confiramtion_code()
+    self.confiramtion_code ||= new_code
+  end
+
 
   def confirm(code)
     if self.confirmation_code == code

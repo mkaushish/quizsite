@@ -72,3 +72,9 @@ $ createuser -d <username> # where user name is your user name
 $ # answer yes at superuser prompt
 $ bundle install # Gemfile should include a line saying "gem 'pg'"
 $ rake db:create:all
+
+Instructions for DelayedJob setup
+---------------------------------
+I assume it's already in the Gemfile, and installed
+$ rails generate delayed_job:active_record
+$ rake db:migrate

@@ -41,14 +41,15 @@ class UsersController < ApplicationController
     $stderr.puts "UPARAMS: #{uparams.inspect}"
     
     if @user.save
-      UserMailer.confirmation_email(@user).deliver
+      UserMailer.delay.confirmation_email(@user) # normally this would be .deliver at the end
+      # but not with the DelayedJob delay in there
       @user.save
       $stderr.puts("I JUST SENT THE FRICKIN EMAIL GUYS")
       render 'users/confirmjs'
     else
       @prefix = "user_"
       @errors = @user.errors
-      @fields = [:name, :password, :email]
+      @fields = [:name, :password, :password_confirmation, :email]
 
       $stderr.puts "#"*60
       $stderr.puts "COULDN'T SAVE: #{@errors.full_messages}"
