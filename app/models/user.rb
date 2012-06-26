@@ -74,6 +74,7 @@ class User < ActiveRecord::Base
     default_values
     add_default_quizzes
     new_code
+    save
     true
   end
 
@@ -145,9 +146,5 @@ class User < ActiveRecord::Base
     CHAPTERS.each do |chapter|
       quizzes.create!(:problemtypes => Marshal.dump(chapter::PROBLEMS), :name => chapter.to_s)
     end
-  end
-
-  def default_values
-    self.confirmed ||= false
   end
 end
