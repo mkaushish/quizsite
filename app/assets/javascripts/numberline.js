@@ -268,6 +268,9 @@ function setUpNL(name, editable, movable, which) {
   if(which=="movinp"){
     malNumLine.addsub();
   }
+  if(which=="label"){
+    labs=$("#label").attr("value").split(",");
+  }
   if( malNumLine.edit ){
     malNumLine.drawZBar();
   }
@@ -294,12 +297,13 @@ function setUpNL(name, editable, movable, which) {
     // mousex and mousey are used for many things, and therefore need to be in the
     // global scope.
     setMouseXY(e);
-    if(mousedown && downx < malNumLine.curpos+8 && downx > malNumLine.curpos-8 && downy > canvas.height-off+7 && Math.abs(mousex-downx)> malNumLine.ewid && mousex > off+2 && mousex < canvas.width-off-2){
+    if(mousedown && downx < malNumLine.curpos+8 && downx > malNumLine.curpos-8 && downy > canvas.height-off+7 && Math.abs(mousex-downx) >= malNumLine.ewid && mousex > off+2 && mousex < canvas.width-off-2){
       $("#"+name).attr("value", malNumLine.curnum+Math.floor((mousex-downx)/malNumLine.ewid));
       context.clearRect(0,0,canvas.width, canvas.height);
-      malNumLine.draw("dec");
       malNumLine.addsub();
+      malNumLine.draw("dec");
       downx=mousex;
+      downy=mousey;
     }
     if(mousedown && malNumLine.movable){
       if (downy > canvas.height-75){

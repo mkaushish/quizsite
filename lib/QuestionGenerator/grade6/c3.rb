@@ -715,7 +715,7 @@ module Chapter3
     end
 
     def text
-      [TextLabel.new("Give the LCM of #{@nums1.reduce(:*)} and #{@nums2.reduce(:*)}, #{@comm}"), TextField.new("lcm", "LCM")] 
+      [TextLabel.new("Give the LCM of #{@nums1.reduce(:*)} and #{@nums2.reduce(:*)}"), TextField.new("lcm", "LCM")] 
     end
   end
 

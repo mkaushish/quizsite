@@ -108,7 +108,7 @@ module Chapter8
       if response =~ /^[0-9, ]+$/
         return response.to_i.to_s
       end
-      return "invalid"
+     # return "invalid"
     end
 
 
