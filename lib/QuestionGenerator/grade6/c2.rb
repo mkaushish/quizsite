@@ -28,10 +28,27 @@ module Chapter2
       end
       ret
     end
+    def explain
+      str="Hence, the first "
+      str+="#{@nsuccs} " if @nsuccs > 1
+      str+="successor"
+      str+="s" if @nsuccs > 1
+      str+=" of #{@num} "
+      str+="is" if @nsuccs==1
+      str+="are" if @nsuccs > 1
+      for i in 1..@nsuccs
+        str+=" #{@num+i}"
+      end
+      str+="."
+      [SubLabel.new("The successor of a number is the number which follows it. For example the successor of 1 is 2 and the first three successors of 1 are 2, 3 and 4. #{str}")]
+    end
 
     def text
-      plur = (@nsuccs > 1) ? "s" : ""
-      ret = [ TextLabel.new("Write the first #{@nsuccs} successor#{plur} to #{@num}") ]
+      if(@nsuccs > 1)
+        ret = [ TextLabel.new("Write the first #{@nsuccs} successors to #{@num}") ]
+      else 
+        ret = [ TextLabel.new("Write the first successor to #{@num}") ]
+      end
       for i in 1..@nsuccs
         ret << TextField.new("ans_#{i}", i.to_s + ".")
       end
@@ -58,10 +75,27 @@ module Chapter2
       end
       ret
     end
+    def explain
+      str="Hence, the first "
+      str+="#{@nsuccs} " if @nsuccs > 1
+      str+="predecessor"
+      str+="s" if @nsuccs > 1
+      str+=" of #{@num} "
+      str+="is" if @nsuccs==1
+      str+="are" if @nsuccs > 1
+      for i in 1..@nsuccs
+        str+=" #{@num-i}"
+      end
+      str+="."
+      [SubLabel.new("The predecessor of a number is the number which comes before it. For example the predecessor of 4 is 3 and the first three predecessors of 4 are 3, 2 and 1. #{str}")]
+    end
 
     def text
-      plur = (@nsuccs > 1) ? "s" : ""
-      ret = [ TextLabel.new("Write the first #{@nsuccs} predecessor#{plur} to #{@num}") ]
+      if(@nsuccs > 1)
+        ret = [ TextLabel.new("Write the first #{@nsuccs} predecessors to #{@num}") ]
+      else 
+        ret = [ TextLabel.new("Write the first predecessor to #{@num}") ]
+      end
       for i in 1..@nsuccs
         ret << TextField.new("ans_#{i}", i.to_s + ".")
       end

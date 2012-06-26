@@ -25,6 +25,13 @@ module Chapter1
       "Maximum Num"
     end
 
+    def desc
+      [TextLabel.new("In this question, we have to find the maximum of the given whole numbers. To understand this question, lets go through a simple example - 123, 223, 32, 323, 333, 94, 43, 334, 9, 2."),
+      TextLabel.new("First we count the number of digits of each number and only keep those with the maximum number of digits, which in this case is 3. We are left with 123, 223, 333, 334 and 323."),
+      TextLabel.new("Now we look at the left most digit and only keep those numbers with the highest left most digit. We are left with 333, 334, 323."),
+      TextLabel.new("Now we look at the next digit from the left and only keep those with the largest. We are left with 333 and 334."),
+      TextLabel.new("Then, we look at the next digit from the left and do the same. We are left with 334. Since this is the only number left, it is also the maximum number.")]
+    end
     def initialize(nums = nil)
       if nums.nil?
         num_nums = rand(3) + 3 # between 3 and 5
@@ -124,7 +131,7 @@ module Chapter1
   class WritingIndian < QuestionBase
     attr_accessor :num
     def self.type
-      "Writing Nums (I)"
+      "Writing Numbers"
     end
 
     def initialize
@@ -149,7 +156,7 @@ module Chapter1
   class WritingInternational < QuestionBase
     attr_accessor :num
     def self.type
-      "Writing Nums"
+      "Writing Numbers International"
     end
 
     def initialize
@@ -174,7 +181,7 @@ module Chapter1
   class AddCommasIndian < QuestionWithExplanation
     attr_accessor :num
     def self.type
-      "Adding Commas (I)"
+      "Adding Commas"
     end
 
     def initialize
@@ -217,7 +224,7 @@ module Chapter1
   class AddCommasInternational < QuestionWithExplanation
     attr_accessor :num
     def self.type
-      "Adding Commas"
+      "Adding Commas International"
     end
 
     def initialize
@@ -246,7 +253,7 @@ module Chapter1
   class ReadingInternational < QuestionBase
     attr_accessor :num
     def self.type
-      "Reading Nums"
+      "Reading Numbers International"
     end
 
     def initialize
@@ -267,7 +274,7 @@ module Chapter1
   class ReadingIndian < QuestionBase
     attr_accessor :num
     def self.type
-      "Reading Nums (I)"
+      "Reading Numbers"
     end
 
     def initialize
@@ -317,7 +324,7 @@ module Chapter1
   class EstimateArithmetic < QuestionWithExplanation
     attr_accessor :op, :n1, :n2
     def self.type
-      "Gen Rule Est"
+      "Estimation by General Rule"
     end
 
     def bigger
@@ -403,7 +410,7 @@ module Chapter1
 
   class EstimateAddition < EstimateArithmetic
     def self.type
-      "Est Addition"
+      "Estimate Sums"
     end
 
     def initialize(nums = nil)
@@ -417,7 +424,7 @@ module Chapter1
 
   class EstimateSubtraction < EstimateArithmetic
     def self.type
-      "Est Subtraction"
+      "Estimate Subtraction"
     end
 
     def initialize(nums = nil)
@@ -431,7 +438,7 @@ module Chapter1
 
   class EstimateProduct < EstimateArithmetic
     def self.type
-      "Est Product"
+      "Estimate Product"
     end
 
     def initialize(nums = nil)
@@ -446,7 +453,7 @@ module Chapter1
   class ToRoman < QuestionWithExplanation
     attr_accessor :num
     def self.type
-      "To Roman Nums"
+      "To Roman Numerals"
     end
 
     def initialize
@@ -492,7 +499,7 @@ module Chapter1
   class ToArabic < QuestionWithExplanation
     attr_accessor :num
     def self.type
-      "To Arabic Nums"
+      "To Arabic Numerals"
     end
 
     def initialize
