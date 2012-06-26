@@ -67,8 +67,15 @@ class User < ActiveRecord::Base
                        :confirmation => true,
                        :length => { :within => 6..40 }
   
-  before_save :encrypt_password
-  after_create :add_default_quizzes
+  before_save  :encrypt_password
+  after_create :set_defaults
+
+  def set_defaults
+    default_values
+    add_default_quizzes
+    new_code
+    true
+  end
 
   def self.authenticate(email, submitted_password)
     user = find_by_email(email)
@@ -90,6 +97,28 @@ class User < ActiveRecord::Base
     # TODO implement smartscore + calculations for real
     return "?" if problemanswers.where(:pclass => ptype.to_s).length == 0
     return (problemanswers.where(:correct => true, :pclass => ptype.to_s).length*100)/problemanswers.where(:pclass => ptype.to_s).length
+  end
+
+  def new_code
+    # TODO generate confirmation code in a more secure way? necessary?
+    # rand is prob like 10 digits, + Time.now gives us a fair amount of security... I hope
+    self.confirmation_code = secure_hash "#{Time.now.utc}--#{rand}"
+  end
+
+  def confiramtion_code()
+    self.confiramtion_code ||= new_code
+  end
+
+
+  def confirm(code)
+    if self.confirmation_code == code
+      return self.confirmed = true
+    end
+    false
+  end
+
+  def confirmed?
+    return self.confirmed
   end
 
   private
@@ -116,5 +145,9 @@ class User < ActiveRecord::Base
     CHAPTERS.each do |chapter|
       quizzes.create!(:problemtypes => Marshal.dump(chapter::PROBLEMS), :name => chapter.to_s)
     end
+  end
+
+  def default_values
+    self.confirmed ||= false
   end
 end

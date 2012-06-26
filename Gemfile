@@ -18,6 +18,11 @@ group :development do
 	gem 'annotate', :git => 'git://github.com/ctran/annotate_models.git'
 end
 
+group :development, :production do
+  gem 'delayed_job_active_record'
+  gem 'foreman'
+end
+
 # heroku uses postgresssql
 group :production do
   gem 'pg'

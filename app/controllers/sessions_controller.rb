@@ -4,7 +4,12 @@ class SessionsController < ApplicationController
   end
 
   def create
-    $stderr.puts("#{"FARTS"*10}\n#{params[:session][:email]}, #{params[:session][:password]}")
+    if params[:commit] == "Register"
+      $stderr.puts "REGISTERING NEW USER"
+      @user = User.new
+      render 'users/new_user_modal'
+      return
+    end
 
     user = nil
     pssw = ""
