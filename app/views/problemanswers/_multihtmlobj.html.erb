@@ -16,6 +16,20 @@
 <% elsif multihtmlobj.is_a? TableField %>
   <% htmlobj_partial = 'problemanswers/htmlobj' %>
   <%= render :partial => 'problem/multihtmlobj', :object => multihtmlobj %>
+<% elsif multihtmlobj.is_a? PermutationDrag %>
+  <div class='permutationDragAnswer correct'>
+    <% multihtmlobj.items_from(@solution).each do |item| %>
+      <div> <%= item %> </div>
+    <% end %>
+  </div>
+  <% unless multihtmlobj.correct?(@solution, @response) %>
+    <div class='permutationDragAnswer incorrect'>
+      <% multihtmlobj.items_from(@response).each do |item| %>
+        <div> <%= item %> </div>
+      <% end %>
+    </div>
+  <% end %>
+
 <% elsif multihtmlobj.is_a? BarGraphField %>
   <div class="incorrect">
     <canvas id=datacanvas height=350 width=400>

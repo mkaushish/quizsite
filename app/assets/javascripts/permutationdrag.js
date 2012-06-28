@@ -9,7 +9,6 @@
     this.padding = parseInt(this.$element.css('padding-right').replace(/px/, ''));
     this.box = undefined;
     this.read_elts();
-    console.log(this.padding);
     
     $(element).css('height', this.height);
     $(element).css('width', this.width);
@@ -19,13 +18,16 @@
 
   PermutationDrag.prototype = {
     read_elts : function() {
-    console.log(this.padding);
-      elts = []
+      var elts = []
+        , vals = []
         , l_off = this.padding 
         , max_height = 0
 
+
       this.$element.children('div').each( function(i) {
         elts.push( new PermBox( $(this), i, l_off ) );
+        vals.push( $(this).children('input') );
+
         l_off += $(this).outerWidth(); // pass true here if we want to include margins
         max_height = Math.max(max_height, $(this).outerHeight());
       });
@@ -33,17 +35,21 @@
       this.width = l_off - this.padding;
       this.height = max_height;
       this.elts = elts;
+      this.vals = vals;
     }
 
     , swap_elts : function(i, j) {
-      console.log ( "swapping " + i + " and " + j);
-      var tmp = this.elts[i];
+      var tmp = this.elts[i]
+        , tvl = this.vals[i].attr('value');
 
-      this.elts[i]   = this.elts[j];
+      this.elts[i]  = this.elts[j];
       this.elts[i].set_i(i);
+      this.vals[i].attr('value', this.vals[j].attr('value'));
+
 
       this.elts[j] = tmp;
       this.elts[j].set_i(j);
+      this.vals[j].attr('value', tvl);
     }
 
     , slide_left : function(box) {
@@ -59,7 +65,6 @@
       if(box.i + 1 >= this.elts.length) return; 
 
       this.swap_elts(box.i, box.i + 1);
-      console.log(this.elts[box.i - 1].width);
       box.slide_to(box.l_off + this.elts[box.i - 1].width());
     }
 
@@ -158,7 +163,6 @@
 
     , set_i : function(i) {
       this.i = i;
-      this.$element.children('input').attr('value', i);
     }
 
     //, toString : function() {

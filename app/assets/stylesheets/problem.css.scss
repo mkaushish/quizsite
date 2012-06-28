@@ -88,3 +88,15 @@ div.permutationDrag > div {
   position:absolute;
   @include unselectable();
 }
+
+div.permutationDragAnswer {
+  padding: 5px;
+  @include rounded-corners(2px);
+}
+
+div.permutationDragAnswer > div {
+  padding:20px 10px 20px 10px;
+  border: 1px solid black;
+  display:inline-block;
+  @include unselectable();
+}

@@ -239,10 +239,13 @@ module ToHTML
     end
 
     def correct?(solution, response)
-      @items.length.times do |i|
-        return false unless solution["#{name}_i"] == response["#{name}_i"]
+      items_from(solution) == items_from(response)
+    end
+
+    def items_from(response)
+      Array.new(@items.length) do |i|
+        response["#{name}_#{i}"]
       end
-       true
     end
   end
 
