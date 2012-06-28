@@ -90,17 +90,19 @@ module Chapter1
     end
 
     def initialize()
-      num_nums = rand(3) + 3 # between 3 and 5
+      num_nums = rand(2) + 3 # between 3 and 5
       @nums = Array.new(num_nums).map { Grade6ops::rand_num }
     end
 
     def solve
-      @nums.sort
+      { "ans" => @nums.sort }
     end
 
     def text
-      raise "ArrangeAscending not fully implemented"
-      "Put the numbers in descending order:\n#{@nums.join("\t")}"
+      # raise "ArrangeAscending not fully implemented":\n#{@nums.join("\t")}"
+      [ TextLabel.new("Put the numbers in ascending order"),
+        PermutationDrag.new("ans", @nums)
+      ]
     end
   end
 
@@ -114,7 +116,7 @@ module Chapter1
     end
 
     def initialize()
-      num_nums = rand(3) + 3 # between 3 and 5
+      num_nums = rand(2) + 3 # between 3 and 5
       @nums = Array.new(num_nums).map { Grade6ops::rand_num }
     end
 
@@ -124,7 +126,7 @@ module Chapter1
 
     def text
       raise "ArrangeDescending not fully implemented"
-      "Put the numbers in descending order:\n#{@nums.join("\t")}"
+      "Drag the numbers in descending order:\n#{@nums.join("\t")}"
     end
   end
 
@@ -547,7 +549,7 @@ module Chapter1
   # note that I have to be at the end to compile :(
   PROBLEMS = [  
     Chapter1::FindMaxNumber,      Chapter1::FindMinNumber,        
-    #Chapter1::ArrangeAscending,    Chapter1::ArrangeDescending,  
+    Chapter1::ArrangeAscending,    #Chapter1::ArrangeDescending,  
     Chapter1::WritingIndian,      Chapter1::WritingInternational, 
     Chapter1::ReadingIndian,      Chapter1::ReadingInternational, 
     Chapter1::AddCommasIndian,    Chapter1::AddCommasInternational,    

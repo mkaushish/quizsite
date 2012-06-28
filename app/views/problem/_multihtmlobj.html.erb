@@ -46,14 +46,17 @@
   </div>
 
 <% elsif multihtmlobj.is_a? PermutationDrag %>
-  <div class=permuationDrag>
-    <div style="display:none;">
-      <% multihtmlobj.items.times do |i| %>
+  <div class=permutationDrag>
+    <% multihtmlobj.items.each_index do |i| %>
+      <div> <%= multihtmlobj.items[i] %>
         <%= hidden_field_tag "#{multihtmlobj.name}_#{i}", multihtmlobj.items[i] %>
-      <% end %>
-    </div>
-    <canvas id=<%= multihtmlobj.name %>></canvas>
+      </div>
+    <% end %>
   </div>
+  <script>
+    $('.permutationDrag').permutationDrag();
+  </script>
+
 <% elsif multihtmlobj.is_a? BarGraphField %>
   <div class="multifield">
     <canvas id=datacanvas height=350 width=400>

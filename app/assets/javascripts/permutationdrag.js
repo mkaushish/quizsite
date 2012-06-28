@@ -6,26 +6,33 @@
 
   var PermutationDrag = function(element) {
     this.$element = $(element);
+    this.padding = parseInt(this.$element.css('padding-right').replace(/px/, ''));
     this.box = undefined;
-    this.elts = this.read_elts();
+    this.read_elts();
+    console.log(this.padding);
     
+    $(element).css('height', this.height);
+    $(element).css('width', this.width);
     var offset   = this.$element.offset();
     this.offsetx = Math.round(offset.left);
   }
 
   PermutationDrag.prototype = {
     read_elts : function() {
-      var elts = []
-        , l_off = 0;
+    console.log(this.padding);
+      elts = []
+        , l_off = this.padding 
+        , max_height = 0
 
       this.$element.children('div').each( function(i) {
         elts.push( new PermBox( $(this), i, l_off ) );
         l_off += $(this).outerWidth(); // pass true here if we want to include margins
-        var tmp = elts[elts.length - 1];
-        console.log("(" + tmp.l_off + ", " + tmp.middle() + ", " + tmp.r_off + ")");
+        max_height = Math.max(max_height, $(this).outerHeight());
       });
 
-      return elts;
+      this.width = l_off - this.padding;
+      this.height = max_height;
+      this.elts = elts;
     }
 
     , swap_elts : function(i, j) {
@@ -45,15 +52,15 @@
       this.swap_elts(box.i, (box.i - 1));
 
       var prev_box = this.elts[box.i - 1];
-      box.slide_to((prev_box == undefined) ? 0 : prev_box.r_off);
+      box.slide_to((prev_box == undefined) ? this.padding : prev_box.r_off);
     }
 
     , slide_right : function(box) {
       if(box.i + 1 >= this.elts.length) return; 
 
       this.swap_elts(box.i, box.i + 1);
-
-      box.slide_to(box.r_off);
+      console.log(this.elts[box.i - 1].width);
+      box.slide_to(box.l_off + this.elts[box.i - 1].width());
     }
 
     , mouse_is_down : function() {
@@ -73,8 +80,10 @@
     }
 
     , mouseup : function(e) {
+      if(this.box == undefined) return;
+
       if(this.box.i == 0) {
-        this.box.slide_to(0);
+        this.box.slide_to(this.padding);
       }
       else {
         this.box.slide_to( this.elts[this.box.i - 1].r_off );
@@ -97,7 +106,7 @@
           else box.set_l_off(l_off);
         }
         else if(prev_b == undefined) {
-          var edge = 0;
+          var edge = this.padding;
           if(l_off < edge) {
             box.set_l_off(edge - (4 * Math.log(edge - l_off)));
           }

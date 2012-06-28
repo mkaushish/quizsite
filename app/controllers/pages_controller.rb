@@ -1,10 +1,6 @@
 require 'c1'
 class PagesController < ApplicationController
 
-  #TODO REMOVE
-  def testdragndrop
-  end
-
   def fasthome
     if signed_in?
       redirect_to profile_path
