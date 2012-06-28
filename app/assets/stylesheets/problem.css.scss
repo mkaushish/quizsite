@@ -71,3 +71,16 @@
 .incorrect {
   background-color: $invalid_red;
 }
+
+div.permutationDrag {
+  position:relative;
+}
+
+div.permutationDrag > div {
+  padding:20px;
+  border: 1px solid $sgGreen;
+  //background-color:$light_green;
+  display:inline-block;
+  position:absolute;
+  @include unselectable();
+}
