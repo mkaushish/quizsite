@@ -68,7 +68,7 @@ ActiveRecord::Schema.define(:version => 20120625075101) do
     t.binary   "pscores"
     t.binary   "smartscores"
     t.string   "confirmation_code"
-    t.boolean  "confirmed"
+    t.boolean  "confirmed",          :default => false
   end
 
   add_index "users", ["email"], :name => "index_users_on_email", :unique => true

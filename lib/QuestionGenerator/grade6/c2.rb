@@ -247,88 +247,8 @@ module Chapter2
     def solve
       return {"ans" => (@num1+@num2).to_s}
     end
-    def explain
-      st1=@num1.to_s
-      st2=@num2.to_s
-      len1=st1.length
-      len2=st2.length 
-      if @num2 < @num1
-        slen=len2
-        blen=len1
-      else 
-        slen=len1
-        blen=len2
-      end
-      st=(@num1+@num2).to_s
-      ret=[]
-      for i in 0...slen
-        tab=TableField.new("tab_#{st.length-i-1}", 5, blen+2)
-        for j in 0...len1
-          tab.set_field(1, blen+1-j, st1[len1-1-j])
-        end
-        for j in 0...len2
-          tab.set_field(2, blen+1-j, st2[len2-1-j])
-        end
-        for j in 0...blen+2
-          tab.set_field(3, j, "_")
-        end
-        for j in 0...i
-          tab.set_field(4, blen+1-j, st[st.length-1-j])
-        end
-        if i > 0
-          puts ((st1[len1-i].to_i+st2[len2-i].to_i)/10).to_s
-          tab.set_field(0, blen+1-i, ((st1[len1-i].to_i+st2[len2-i].to_i)/10).to_s)
-        end 
-        tab.set_field(4, blen+1-i, TextField.new("sum_#{st.length-i-1}"))
-        tab.set_field(0, blen-i, TextField.new("rem_#{st.length-i-1}"))
-        tab.set_field(2, 0, "+")
-        puts tab
-        ret << Subproblem.new([tab], {"sum_#{st.length-1-i}" => st[st.length-i-1], "rem_#{st.length-1-i}" => ((st1[len1-1-i].to_i+st2[len2-1-i].to_i)/10).to_s})
-      end
-      for i in slen...blen
-        tab=TableField.new("tab_#{st.length-i-1}", 5, blen+2)
-        for j in 0...len1
-          tab.set_field(1, blen+1-j, st1[len1-1-j])
-        end
-        for j in 0...len2
-          tab.set_field(2, blen+1-j, st2[len2-1-j])
-        end
-        for j in 0...blen+2
-          tab.set_field(3, j, "_")
-        end
-        for j in 0...i
-          tab.set_field(4, blen+1-j, st[st.length-1-j])
-        end
-        if i == slen
-          tab.set_field(0, blen+1-i, ((st1[len1-i].to_i+st2[len2-i].to_i) % 10).to_s)
-        end 
-        tab.set_field(4, blen+1-i, TextField.new("sum_#{st.length-i-1}"))
-        tab.set_field(2, 0, "+")
-        ret << Subproblem.new([tab], {"sum_#{st.length-1-i}" => st[st.length-i-1]})
-      end
-      if st.length > blen
-       tab=TableField.new("tab_#{0}", 5, blen+2)
-        for j in 0...len1
-          tab.set_field(1, blen+1-j, st1[len1-1-j])
-        end
-        for j in 0...len2
-          tab.set_field(2, blen+1-j, st2[len2-1-j])
-        end
-        for j in 0...blen+2
-          tab.set_field(3, j, "_")
-        end
-        for j in 0...st.length-1
-          tab.set_field(4, blen+1-j, st[st.length-1-j])
-        end
-        tab.set_field(0, blen-st.length+2, st[0])
-        tab.set_field(4, blen+2-st.length, TextField.new("sum_#{0}"))
-        tab.set_field(2, 0, "+")
-        ret << Subproblem.new([tab], {"sum_#{0}" => st[0]}) 
-      end
-      ret
-    end
     def text
-      [TextLabel.new("Add #{@num1} and #{@num2}"), TextField.new("ans", "Sum")]
+      [TextLabel.new("Find:"), AddingField.new("ans", @num1, @num2, "+")]
     end
   end
 

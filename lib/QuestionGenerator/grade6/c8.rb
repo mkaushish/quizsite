@@ -91,47 +91,47 @@ module Chapter8
       pp={}
       np={}
       while i>=0
-        pp["ans_"+PPVALUE[posdot-i-1].to_s] = @num.to_s[i]
+        pp["ans_"+PPVALUE[posdot-i-1].to_s] = @num.to_s[i].to_s
         i-=1
       end
       i=posdot
       for j in i...(@num.to_s.length-1)
-        np["ans_"+ NPVALUE[j-i].to_s ] = @num.to_s[j+1]
+        np["ans_"+ NPVALUE[j-i].to_s ] = @num.to_s[j+1].to_s
       end
       @pp=pp
       @np=np
       ret=pp.merge(np)
+      for i in 0...PPVALUE.length
+        ret["ans_"+PPVALUE[i]]="0" if(ret["ans_"+PPVALUE[i]]==nil)
+      end
+      for i in 0...NPVALUE.length
+        ret["ans_"+NPVALUE[i]]="0" if(ret["ans_"+NPVALUE[i]]==nil)
+      end
+      $stderr.puts ret
       ret
     end   
-    
     def preprocess(name, response)
-      if response =~ /^[0-9, ]+$/
-        return response.to_i.to_s
-      end
-     # return "invalid"
+      $stderr.puts "*****"+response
+      str=response.strip.downcase.gsub(/,/, "").gsub(/\s+/, " ") if response.is_a?(String)  
+      str="0" if str.strip==""
+      str
     end
+
 
 
     def text
       solve
       ret=[TextLabel.new("Write the following in the place value table"), TextLabel.new(@num.to_s)]
-      tab=TableField.new("ans", 2, PPVALUE.length)
-      tab2=TableField.new("ans", 2, NPVALUE.length)
+      tmp=[]
       for i in 0...PPVALUE.length
-        tab.set_field(0, i, TextLabel.new(PPVALUE[PPVALUE.length-i-1]))
+        tmp << TextField.new("ans_"+PPVALUE[PPVALUE.length-i-1], PPVALUE[PPVALUE.length-i-1])
       end
-
+      ret << InlineBlock.new(tmp)
+      tmp=[]
       for i in 0...NPVALUE.length
-        tab2.set_field(0, i, TextLabel.new(NPVALUE[i]))
+        tmp << TextField.new("ans_"+NPVALUE[i], NPVALUE[i])
       end
-      for i in 0...(PPVALUE.length)
-        tab.set_field(1, PPVALUE.length-1-i, TextField.new("ans_"+PPVALUE[i]))
-      end
-      for i in 0...NPVALUE.length
-        tab2.set_field(1, i, TextField.new("ans_"+NPVALUE[i]))
-      end
-      ret << tab
-      ret << tab2
+      ret << InlineBlock.new(tmp)
       ret
     end
 

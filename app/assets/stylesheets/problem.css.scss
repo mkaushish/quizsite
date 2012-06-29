@@ -4,15 +4,16 @@
 @import 'mixins_n_colors';
 
 .commabox {
-  vertical-align:text-top;
-  width:13px;
-  height:13px;
+  width:7px;
+  height:7px;
   background-color:white;
   border-style:solid;
   border-width:1px;
 }
 .commachecked {
   background: url("../assets/comma.png") 0 0 no-repeat;
+  border-width:0px;
+  margin-top:8px;
 }
 
 #problemtabs {

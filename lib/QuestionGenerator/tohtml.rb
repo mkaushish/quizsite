@@ -223,6 +223,20 @@ module ToHTML
     end
   end
 
+  class AddingField < MultiHTMLObj
+    attr_reader :name, :num1, :num2, :sign
+    def initialize(name, num1, num2, sign)
+      @name = ToHTML::add_prefix name
+      @num1=num1
+      @num2=num2
+      @sign=sign
+    end
+    def correct?(solution, response)
+      return solution[@name]==response[@name]
+    end
+  end 
+
+
   class InlineBlock < MultiHTMLObj
     attr_reader :text
     def initialize(*args)
@@ -330,8 +344,28 @@ module ToHTML
       @ncols = table[0].length
     end
   end
+  class RomanTable < TableField
+    def initialize(table)
+      @table = table.map { |row| row.map { |elt| RomanLabel.new(elt) } }
+      @nrows = table.length
+      @ncols = table[0].length
+    end
+  end
 
   class TextLabel < HTMLObj
+    def initialize(string)
+      @string = string.to_s
+    end
+
+    def to_s
+      @string
+    end
+
+    def correct?(solution, response)
+      true
+    end
+  end
+  class RomanLabel < HTMLObj
     def initialize(string)
       @string = string.to_s
     end
@@ -404,8 +438,7 @@ module ToHTML
     end
 
     def correct?(solution, response)
-      return true unless solution[@name].nil? || response[@name].nil?
-      solution[@name].nil? && response[@name].nil?
+      solution[name]==response[name]
     end
   end
 
@@ -423,10 +456,11 @@ module ToHTML
   end
 
   class TextField < InputField
-    attr_reader :label
-    def initialize(name, text = "")
+    attr_reader :label, :maxlen
+    def initialize(name, text = "", maxlen=1000)
       super(name)
       @label = text.to_s
+      @maxlen=maxlen
     end
 
     def char_length(arg)
@@ -439,10 +473,11 @@ module ToHTML
         len = arg.prob.prefix_solve[@name].length
       end
 
-      return 6 if len < 6
+      return [6, @maxlen+1].min if len < 6
       (len / 3 + 1) * 3
     end
   end
+  
   
   # As you can see, this is just a textfield, with an overwritten fromhash method
   # the point is that in the solve hash you can do

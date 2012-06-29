@@ -9,7 +9,7 @@ include ToHTML
 include PreG6
 
 module Chapter1
-  ROMAN_TABLE = TextTable.new( [
+  ROMAN_TABLE = RomanTable.new( [
      [ 1 , "=", "I" , "", 90  , "=", "XC"],
      [ 4 , "=", "IV", "", 100 , "=", "C" ],
      [ 5 , "=", "V" , "", 400 , "=", "CD"],
@@ -18,20 +18,63 @@ module Chapter1
      [ 40, "=", "XL", "", 1000, "=", "M" ],
      [ 50, "=", "L" , "", "",   "",  ""  ]
   ])
+  PPVALUE=["Ones", "Tens", "Hundreds", "Thousands", "Ten Thousands", "Lakhs", "Ten Lakhs", "Crores", "Ten Crores"]
+  class PlaceValueTable < QuestionBase
+    def initialize(num=nil)
+      if num!=nil
+        @num=num
+      else
+        @num=10
+        while @num % 10==0
+          @num=(rand(900000000) + 100)
+        end
+      end
+    end
 
-  class FindMaxNumber < QuestionBase
+    def solve
+      pp={}
+      i=@num.to_s.length-1
+      while i >= 0
+        pp["ans_"+PPVALUE[(@num.to_s.length-1-i)]]=@num.to_s[i]
+        i-=1;
+      end
+      @pp=pp
+      ret=pp
+      for i in 0...PPVALUE.length
+        ret["ans_"+PPVALUE[i]]="0" if(ret["ans_"+PPVALUE[i]]==nil)
+      end
+      $stderr.puts ret
+      ret
+    end   
+    def preprocess(name, response)
+      $stderr.puts "*****"+response
+      str=response.strip.downcase.gsub(/,/, "").gsub(/\s+/, " ") if response.is_a?(String)  
+      str="0" if str.strip==""
+      str
+    end
+
+
+
+    def text
+      solve
+      tab=TableField.new("ans",PPVALUE.length, 2)
+      ret=[TextLabel.new("Write the following in the place value table"), TextLabel.new(@num.to_s)]
+      for i in 0...PPVALUE.length
+        tab.set_field(i, 0, TextLabel.new(PPVALUE[i]))
+        tab.set_field( i, 1, TextField.new("ans_"+PPVALUE[i], "", 1))
+      end
+      ret << tab 
+      ret
+    end
+
+  end
+
+  class FindMaxNumber < QuestionWithExplanation
     attr_accessor :nums
     def self.type
       "Maximum Num"
     end
 
-    def desc
-      [TextLabel.new("In this question, we have to find the maximum of the given whole numbers. To understand this question, lets go through a simple example - 123, 223, 32, 323, 333, 94, 43, 334, 9, 2."),
-      TextLabel.new("First we count the number of digits of each number and only keep those with the maximum number of digits, which in this case is 3. We are left with 123, 223, 333, 334 and 323."),
-      TextLabel.new("Now we look at the left most digit and only keep those numbers with the highest left most digit. We are left with 333, 334, 323."),
-      TextLabel.new("Now we look at the next digit from the left and only keep those with the largest. We are left with 333 and 334."),
-      TextLabel.new("Then, we look at the next digit from the left and do the same. We are left with 334. Since this is the only number left, it is also the maximum number.")]
-    end
     def initialize(nums = nil)
       if nums.nil?
         num_nums = rand(3) + 3 # between 3 and 5
@@ -44,6 +87,63 @@ module Chapter1
     def solve
       {"ans" => @nums.max.to_s}
     end
+    def explain
+      ret=[SubLabel.new("The numbers we have to compare are #{@nums.join(", ")}. We will find the largest number by eliminting from the list.")]
+      ret << Subproblem.new([TextLabel.new("Look at all the numbers. What is the largest place that in any of them?"), Dropdown.new("cro", PPVALUE)], {"cro" => PPVALUE[@nums.max.to_s.length-1]})
+      tm=[]
+      rem=[]
+      chb=[]
+      hsh={}
+      for i in 0...@nums.length
+        if @nums[i].to_s.length < @nums.max.to_s.length
+          tm << @nums[i] 
+          hsh["pk1_#{i}"] = 1
+        end
+        chb << Checkbox.new("pk1_#{i}", @nums[i])
+        rem << @nums[i] if @nums[i].to_s.length == @nums.max.to_s.length
+      end
+      ret << Subproblem.new([TextLabel.new("Pick all the numbers which do not have the #{PPVALUE[@nums.max.to_s.length-1]} digit. We can eliminate these in our search for the largest number")] + chb, hsh)
+      if rem.length==1
+        ret << SubLabel.new("The only remaining number is #{@nums.max} and hence, it is the largest number")
+        return ret
+      end
+      ret << SubLabel.new("Now, we will go through the remaining numbers from left to right, comparing digits")
+
+      ret << Subproblem.new([TextLabel.new("The remaining numbers are: #{rem.join(", ")}. First, we compare their left-most digits. What is the largest left-most digit?"), Dropdown.new("dig", ("1".."9").to_a)], {"dig" => @nums.max.to_s[0]})
+      tm=[]
+      chb=[]
+      hsh={}
+      for i in 0...rem.length
+        if rem[i].to_s[0]!=@nums.max.to_s[0]
+          tm << rem[i] 
+          hsh["pk2_#{i}"] = 1
+        end
+        chb << Checkbox.new("pk2_#{i}", rem[i])
+      end
+      ret << Subproblem.new([TextLabel.new("Now pick those numbers which do not have this digit as their left-most digit")]+chb, hsh)
+      for j in 1...@nums.max.to_s.length
+        for i in 0...rem.length
+          if rem[i].to_s[j-1]!=@nums.max.to_s[j-1]
+            rem.slice!(i)
+            i-=1
+          end
+        end
+        break if(rem.length==1) 
+        tm=[]
+        chb=[]
+        hsh={}
+        for i in 0...rem.length
+          if rem[i].to_s[j]!=@nums.max.to_s[j]
+            tm << rem[i] 
+            hsh["pk2_#{i}"] = 1
+          end
+          chb << Checkbox.new("pk2_#{i}", rem[i])
+        end
+        ret << Subproblem.new([TextLabel.new("The remaining numbers are: #{rem.join(", ")}. Now, we compare the next digit from the left. What is the largest such digit?"), Dropdown.new("dig", ("1".."9").to_a)], {"dig" => @nums.max.to_s[j]})
+      ret << Subproblem.new([TextLabel.new("Now pick those numbers which do not have this digit")]+chb, hsh)
+      end
+      ret << SubLabel.new("The only remaining number is #{@nums.max} and hence, it is the largest number")
+    end
 
     def text
       [
@@ -53,7 +153,7 @@ module Chapter1
     end
   end
 
-  class FindMinNumber < QuestionBase
+  class FindMinNumber < QuestionWithExplanation
     attr_accessor :nums
     def self.type
       "Minimum Num"
@@ -70,6 +170,63 @@ module Chapter1
 
     def solve
       {"ans" => @nums.min.to_s}
+    end
+    def explain
+      ret=[SubLabel.new("The numbers we have to compare are #{@nums.join(", ")}. We will find the smallest number by eliminating from the list.")]
+      ret << Subproblem.new([TextLabel.new("Look at all the numbers. What is the smallest left-most place that in any of them?"), Dropdown.new("cro", PPVALUE)], {"cro" => PPVALUE[@nums.min.to_s.length-1]})
+      tm=[]
+      rem=[]
+      chb=[]
+      hsh={}
+      for i in 0...@nums.length
+        if @nums[i].to_s.length > @nums.min.to_s.length
+          tm << @nums[i] 
+          hsh["pk1_#{i}"] = 1
+        end
+        chb << Checkbox.new("pk1_#{i}", @nums[i])
+        rem << @nums[i] if @nums[i].to_s.length == @nums.min.to_s.length
+      end
+      ret << Subproblem.new([TextLabel.new("Pick all the numbers which have more than the #{PPVALUE[@nums.max.to_s.length-1]} place. We can eliminate these in our search for the smallest number")] + chb, hsh)
+      if rem.length==1
+        ret << SubLabel.new("The only remaining number is #{@nums.min} and hence, it is the largest number")
+        return ret
+      end
+      ret << SubLabel.new("Now, we will go through the remaining numbers from left to right, comparing digits")
+
+      ret << Subproblem.new([TextLabel.new("The remaining numbers are: #{rem.join(", ")} First, we compare their left-most digits. What is the smallest left-most digit?"), Dropdown.new("dig", ("1".."9").to_a)], {"dig" => @nums.min.to_s[0]})
+      tm=[]
+      chb=[]
+      hsh={}
+      for i in 0...rem.length
+        if rem[i].to_s[0]!=@nums.min.to_s[0]
+          tm << rem[i] 
+          hsh["pk2_#{i}"] = 1
+        end
+        chb << Checkbox.new("pk2_#{i}", rem[i])
+      end
+      ret << Subproblem.new([TextLabel.new("Now pick those numbers which do not have this digit as their left-most digit")]+chb, hsh)
+      for j in 1...@nums.min.to_s.length
+        for i in 0...rem.length
+          if rem[i].to_s[j-1]!=@nums.min.to_s[j-1]
+            rem.slice!(i)
+            i-=1
+          end
+        end
+        break if(rem.length==1) 
+        tm=[]
+        chb=[]
+        hsh={}
+        for i in 0...rem.length
+          if rem[i].to_s[j]!=@nums.min.to_s[j]
+            tm << rem[i] 
+            hsh["pk2_#{i}"] = 1
+          end
+          chb << Checkbox.new("pk2_#{i}", rem[i])
+        end
+        ret << Subproblem.new([TextLabel.new("The remaining numbers are: #{rem.join(", ")} Now, we compare the next digit from the left. What is the smallest such digit?"), Dropdown.new("dig", ("1".."9").to_a)], {"dig" => @nums.min.to_s[j]})
+      ret << Subproblem.new([TextLabel.new("Now pick those numbers which do not have this digit")]+chb, hsh)
+      end
+      ret << SubLabel.new("The only remaining number is #{@nums.min} and hence, it is the smallest number")
     end
 
     def text
@@ -194,6 +351,7 @@ module Chapter1
       for i in 0...@num.to_s.length
         if((ct-1) % 2 == 0 && ct!=1)
           ret["ans#{@num.to_s.length-1-ct}"] = "1"
+        else ret["ans#{@num.to_s.length-1-ct}"] = "0"
         end
         ct+=1
       end
@@ -204,7 +362,7 @@ module Chapter1
       inl=[]
       for i in 0...@num.to_s.length
         inl << TextLabel.new(@num.to_s[i])
-        inl << Checkbox.new("ans#{i}", "")
+        inl << Commabox.new("ans#{i}")
       end
       [ TextLabel.new("According to the Indian System of Numeration, click where the commas should be:"),
         InlineBlock.new(inl)   
@@ -232,12 +390,26 @@ module Chapter1
     end
 
     def solve
-      {"ans" => @num.int_commas}
+      ret={}
+      ct=0
+      for i in 0...@num.to_s.length
+        if((ct) % 3 == 0 && ct!=0)
+          ret["ans#{@num.to_s.length-1-ct}"] = "1"
+        else ret["ans#{@num.to_s.length-1-ct}"] = "0"
+        end
+        ct+=1
+      end
+      ret
     end
 
     def text
-      [ TextLabel.new("Add commas to this number according to the International System of Numeration"),
-        TextField.new("ans", @num)
+      inl=[]
+      for i in 0...@num.to_s.length
+        inl << TextLabel.new(@num.to_s[i])
+        inl << Commabox.new("ans#{i}")
+      end
+      [ TextLabel.new("According to the International System of Numeration, click where the commas should be:"),
+        InlineBlock.new(inl)   
       ]
     end
 
@@ -511,7 +683,8 @@ module Chapter1
     end
 
     def text
-      [ TextLabel.new("Convert #{@num.to_roman} to Hindu-Arabic Numerals"),
+      [ TextLabel.new("Convert the following to Hindu-Arabic Numerals:"),
+        RomanLabel.new(@num.to_roman), 
         TextField.new("ans")
       ]
     end
@@ -546,6 +719,7 @@ module Chapter1
 
   # note that I have to be at the end to compile :(
   PROBLEMS = [  
+    Chapter1::PlaceValueTable,
     Chapter1::FindMaxNumber,      Chapter1::FindMinNumber,        
     #Chapter1::ArrangeAscending,    Chapter1::ArrangeDescending,  
     Chapter1::WritingIndian,      Chapter1::WritingInternational, 
