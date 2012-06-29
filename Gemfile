@@ -20,7 +20,11 @@ end
 
 group :development, :production do
   gem 'delayed_job_active_record'
-  gem 'foreman'
+
+  # Foreman is used on the cedar stack to run the web server and worker threads
+  # we are still on bamboo, so we don't need it right now
+  #
+  # gem 'foreman'
 end
 
 # heroku uses postgresssql

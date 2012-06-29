@@ -53,3 +53,9 @@ $graphite: #503214;
   background: -webkit-gradient(linear, left top, left bottom, from($first), to($second));
   background: -moz-linear-gradient(top, $first, $second);
 }
+
+@mixin unselectable() {
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  user-select: none;
+}

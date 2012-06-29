@@ -1,0 +1,25 @@
+* Look into expand button,
+  take it off initially?
+
+TELL YOU WHEN YOU're WRONG on the explanations, fill in after 2
+
+Chapter 1
+
+  Add explanation for find largest/smallest numbers... with bargraphs?
+  Writing Numbers interface shouldn't just be typing
+  number line on genere rule rounding explanation
+  Adding commas change to real commas (madhav)
+  Roman Numerals need to be prettier (font change)
+  implement drag and drop toHtml for arrangeAscending and descending
+  Make numbers out of digits question/exercise
+  Expansion of large numbers
+  Expansion of brackets (distributive property)
+  
+Chapter 2
+  numberline on successors/predecessors explanation
+  explanation for adding big numbers
+  add notepad form for adding big numbers
+  do drag and drop
+  fix rearrangement to use drag and drop
+  write number as a rectangle
+  word problems...?

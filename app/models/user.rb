@@ -71,9 +71,10 @@ class User < ActiveRecord::Base
   after_create :set_defaults
 
   def set_defaults
-    default_values
+    # default_values
     add_default_quizzes
     new_code
+    save
     true
   end
 

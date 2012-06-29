@@ -29,17 +29,14 @@ module Chapter2
       ret
     end
     def explain
-      str="Hence, the first "
-      str+="#{@nsuccs} " if @nsuccs > 1
-      str+="successor"
-      str+="s" if @nsuccs > 1
-      str+=" of #{@num} "
-      str+="is" if @nsuccs==1
-      str+="are" if @nsuccs > 1
-      for i in 1..@nsuccs
-        str+=" #{@num+i}"
+      str = ""
+      if @nsuccs == 1
+        str = "Hence, the first successor of #{@num} is #{@num + 1}."
+      else
+        succs = ((@num+1)..(@num+@nsuccs)).to_a.join(", ")
+        str = "Hence, the first #{@nsuccs} successors of #{@num} are #{succs}."
       end
-      str+="."
+       
       [SubLabel.new("The successor of a number is the number which follows it. For example the successor of 1 is 2 and the first three successors of 1 are 2, 3 and 4. #{str}")]
     end
 

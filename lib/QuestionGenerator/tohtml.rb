@@ -236,6 +236,31 @@ module ToHTML
     end
   end 
 
+  class PermutationDrag < MultiHTMLObj
+    attr_reader :name, :items
+    # Either:
+    #   PermutationDrag.new(name, item1, item2, ...)
+    #   PermutationDrag.new(name, [item1, item2, ...])
+    def initialize(*args)
+      @name = ToHTML::add_prefix args.shift
+
+      if args[0].is_a?(Array)
+        @items = args[0]
+      else
+        @items = args
+      end
+    end
+
+    def correct?(solution, response)
+      items_from(solution) == items_from(response)
+    end
+
+    def items_from(response)
+      Array.new(@items.length) do |i|
+        response["#{name}_#{i}"]
+      end
+    end
+  end
 
   class InlineBlock < MultiHTMLObj
     attr_reader :text

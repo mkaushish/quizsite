@@ -893,13 +893,8 @@ function setUpGeo() {
     mousemove : function() {
       if(this.mouse_is_down && (!this.usingsetradius)) {
         var radius = distance(mousex, mousey, downx, downy);
-        //message = "center: ("+downx+", "+downy+"), radius:"+radius;
         tracingLine.follow();
       }
-      else {
-        //message = "center: ("+mousex+", "+mousey+")";
-      }
-      //writeMessage(message);
     },
     usingSetRadius : function() {
       this.usingsetradius = $('#usecirclesize:checked').length == 1;
@@ -969,18 +964,9 @@ function setUpGeo() {
       redraw();
     },
     mousemove : function() {
-      var message;
-      // TODO this is copypasted from rulerState, so I should extrapolate this somehow if I return here
       if(this.mouse_is_down) {
-        message =  "distance from ("+this.x1+", "+this.y1+") to (";
-        message += mousex+", "+mousey+") = " + distance(this.x1,this.y1,mousex,mousey);
         tracingLine.follow();
       }
-      else {
-        message = "center: ("+mousex+", "+mousey+")";
-      }
-      // TODO somehow need to write this message on mouseup as well
-      //writeMessage(message);
     }
   }
 
@@ -1018,7 +1004,7 @@ function setUpGeo() {
      // locate nearby shapes/pois
       this.s_i = selectState.onWhichShape(); // too lazy to move this somewhere more general
 
-      // if we're not on a shape or on a startShape
+      // if we're not on a shape (s_i is already -1) or on a startShape
       // note that shapes always places the startShapes before the user drawn shapes
       if(this.s_i < startShapes.length) {
         this.s_i = -1;

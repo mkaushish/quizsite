@@ -240,48 +240,50 @@ module Chapter1
   class ArrangeAscending < QuestionBase
     attr_accessor :nums
     def self.type
-      "Order Nums"
+      "Order Nums +"
     end
     def prereq
       [[Chapter1::FindMinNumber, 1.0]]
     end
 
     def initialize()
-      num_nums = rand(3) + 3 # between 3 and 5
+      num_nums = rand(2) + 3 # between 3 and 5
       @nums = Array.new(num_nums).map { Grade6ops::rand_num }
     end
 
     def solve
-      @nums.sort
+      { "ans" => @nums.sort }
     end
 
     def text
-      raise "ArrangeAscending not fully implemented"
-      "Put the numbers in descending order:\n#{@nums.join("\t")}"
+      [ TextLabel.new("Drag the numbers in ascending order"),
+        PermutationDrag.new("ans", @nums)
+      ]
     end
   end
 
   class ArrangeDescending < QuestionBase
     attr_accessor :nums
     def self.type
-      "Order Nums"
+      "Order Nums -"
     end
     def prereq
       [[Chapter1::FindMaxNumber, 1.0]]
     end
 
     def initialize()
-      num_nums = rand(3) + 3 # between 3 and 5
+      num_nums = rand(2) + 3 # between 3 and 5
       @nums = Array.new(num_nums).map { Grade6ops::rand_num }
     end
 
     def solve
-      @nums.sort
+      { "ans" => @nums.sort.reverse }
     end
 
     def text
-      raise "ArrangeDescending not fully implemented"
-      "Put the numbers in descending order:\n#{@nums.join("\t")}"
+      [ TextLabel.new("Drag the numbers in descending order"),
+        PermutationDrag.new("ans", @nums)
+      ]
     end
   end
 
@@ -721,7 +723,7 @@ module Chapter1
   PROBLEMS = [  
     Chapter1::PlaceValueTable,
     Chapter1::FindMaxNumber,      Chapter1::FindMinNumber,        
-    #Chapter1::ArrangeAscending,    Chapter1::ArrangeDescending,  
+    Chapter1::ArrangeAscending,   Chapter1::ArrangeDescending,  
     Chapter1::WritingIndian,      Chapter1::WritingInternational, 
     Chapter1::ReadingIndian,      Chapter1::ReadingInternational, 
     Chapter1::AddCommasIndian,    Chapter1::AddCommasInternational,    

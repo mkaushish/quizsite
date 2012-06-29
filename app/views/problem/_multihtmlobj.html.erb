@@ -18,6 +18,7 @@
       </div>
     </div>
   </div>
+
 <% elsif multihtmlobj.is_a? MultiTextField %>
   <div class="multifield">
     <div>
@@ -28,10 +29,9 @@
     <% if partial == 'problem/htmlobj' %>
       <a href="#" class="add_mt_field btn">+</a>
       <a href="#" class="del_mt_field btn">-</a>
-      <%# add_multitext_field_link(multihtmlobj.name) %>
-      <%# del_multitext_field_link() %>
     <% end %>
   </div>
+
 <% elsif multihtmlobj.is_a? TableField %>
   <div class="multifield">
     <table class="table table-striped" style="background-color:white">
@@ -44,6 +44,19 @@
       <% end %>
     </table>
   </div>
+
+<% elsif multihtmlobj.is_a? PermutationDrag %>
+  <div class=permutationDrag>
+    <% multihtmlobj.items.each_index do |i| %>
+      <div> <%= multihtmlobj.items[i] %>
+        <%= hidden_field_tag "#{multihtmlobj.name}_#{i}", multihtmlobj.items[i] %>
+      </div>
+    <% end %>
+  </div>
+  <script>
+    $('.permutationDrag').permutationDrag();
+  </script>
+
 <% elsif multihtmlobj.is_a? BarGraphField %>
   <div class="multifield">
     <canvas id=datacanvas height=350 width=400>
