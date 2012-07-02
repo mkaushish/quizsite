@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120625075101) do
+ActiveRecord::Schema.define(:version => 20120702082906) do
 
   create_table "delayed_jobs", :force => true do |t|
     t.integer  "priority",   :default => 0
@@ -51,10 +51,15 @@ ActiveRecord::Schema.define(:version => 20120625075101) do
 
   create_table "quizzes", :force => true do |t|
     t.binary   "problemtypes"
-    t.integer  "user_id"
+    t.integer  "student_id"
     t.datetime "created_at"
     t.datetime "updated_at"
     t.string   "name"
+  end
+
+  create_table "students", :force => true do |t|
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
   create_table "users", :force => true do |t|
@@ -69,6 +74,7 @@ ActiveRecord::Schema.define(:version => 20120625075101) do
     t.binary   "smartscores"
     t.string   "confirmation_code"
     t.boolean  "confirmed"
+    t.integer  "identifiable_id"
   end
 
   add_index "users", ["email"], :name => "index_users_on_email", :unique => true

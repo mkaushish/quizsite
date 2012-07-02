@@ -12,7 +12,7 @@
 
 class Quiz < ActiveRecord::Base
   @@name_regex = /[a-zA-Z0-9 ]+/
-  belongs_to :user
+  belongs_to :student
 
   attr_accessible :name
   attr_accessible :problemtypes

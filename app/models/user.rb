@@ -53,6 +53,7 @@ class User < ActiveRecord::Base
   attr_accessor :password
   attr_accessible :email, :name, :password, :password_confirmation
 
+  belongs_to :identifiable, :polymorphic => true;
   has_many :problemanswers, :dependent => :destroy
   has_many :quizzes,        :dependent => :destroy
 
