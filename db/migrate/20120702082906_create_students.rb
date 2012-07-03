@@ -8,8 +8,8 @@ class CreateStudents < ActiveRecord::Migration
       t.references :identifiable
     end
 
-    change_table :quizzes do 
-      |t| t.rename "user_id", "student_id"
+    change_table :quizzes do |t| 
+      t.rename "user_id", "student_id"
     end
   end
 end

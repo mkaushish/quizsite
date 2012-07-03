@@ -11,7 +11,18 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120702082906) do
+ActiveRecord::Schema.define(:version => 20120702100552) do
+
+  create_table "classrooms", :force => true do |t|
+    t.integer  "teacher_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "classrooms_students", :id => false, :force => true do |t|
+    t.integer "classroom_id"
+    t.integer "student_id"
+  end
 
   create_table "delayed_jobs", :force => true do |t|
     t.integer  "priority",   :default => 0
@@ -58,6 +69,11 @@ ActiveRecord::Schema.define(:version => 20120702082906) do
   end
 
   create_table "students", :force => true do |t|
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "teachers", :force => true do |t|
     t.datetime "created_at"
     t.datetime "updated_at"
   end
