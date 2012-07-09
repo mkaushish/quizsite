@@ -1,4 +1,5 @@
 class QuizzesController < ApplicationController
+  before_filter :authenticate, :except => [:show]
   # display PScores for the problem types / quiz ?
   def show
   end
@@ -15,6 +16,9 @@ class QuizzesController < ApplicationController
   def edit
     @nav_selected = "makequiz"
     @quiz = Quiz.find(params[:id])
+
+    unless @quiz.identifiable == current_user.identifiable
+      deny_access
     set_quiz @quiz
     @chosen_probs = get_probs
     @chapter = CricketQuestions
@@ -22,7 +26,8 @@ class QuizzesController < ApplicationController
 
   # POST /quiz
   def create
-    @quiz = current_user.quizzes.new(
+    @quiz = current_user.quiz_type.new(
+      :identifiable => current_user.identifiable,
       :problemtypes => get_quizprobs_from_params(params),
       :name => params["quiz_name"]
     )
@@ -72,6 +77,10 @@ class QuizzesController < ApplicationController
   end
 
   private
+
+  def verify_user(quiz)
+    quiz.identifiable == current_user.identifiable
+  end
 
   def get_quizprobs_from_params(params)
     quiz_problems = []

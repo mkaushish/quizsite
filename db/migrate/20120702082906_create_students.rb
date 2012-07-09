@@ -5,7 +5,7 @@ class CreateStudents < ActiveRecord::Migration
     end
 
     change_table :users do |t|
-      t.references :identifiable
+      t.references :identifiable, :polymorphic => true
     end
 
     change_table :quizzes do |t| 

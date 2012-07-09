@@ -11,12 +11,17 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120702100552) do
+ActiveRecord::Schema.define(:version => 20120706175301) do
 
   create_table "classrooms", :force => true do |t|
     t.integer  "teacher_id"
     t.datetime "created_at"
     t.datetime "updated_at"
+  end
+
+  create_table "classrooms_quizzes", :id => false, :force => true do |t|
+    t.integer "classroom_id"
+    t.integer "quiz_id"
   end
 
   create_table "classrooms_students", :id => false, :force => true do |t|
@@ -43,29 +48,30 @@ ActiveRecord::Schema.define(:version => 20120702100552) do
   create_table "problemanswers", :force => true do |t|
     t.boolean  "correct"
     t.integer  "problem_id"
+    t.binary   "response"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.string   "response"
     t.integer  "user_id"
     t.string   "pclass"
   end
 
   add_index "problemanswers", ["user_id", "created_at"], :name => "index_problemanswers_on_user_id_and_created_at"
-  add_index "problemanswers", ["user_id", "pclass", "created_at"], :name => "index_problemanswers_on_user_id_and_type_and_created_at"
+  add_index "problemanswers", ["user_id", "pclass", "created_at"], :name => "index_problemanswers_on_user_id_and_pclass_and_created_at"
   add_index "problemanswers", ["user_id"], :name => "index_problemanswers_on_user_id"
 
   create_table "problems", :force => true do |t|
-    t.string   "problem"
+    t.binary   "problem"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
   create_table "quizzes", :force => true do |t|
     t.binary   "problemtypes"
-    t.integer  "student_id"
+    t.integer  "identifiable_id"
     t.datetime "created_at"
     t.datetime "updated_at"
     t.string   "name"
+    t.string   "identifiable_type", :limit => 15
   end
 
   create_table "students", :force => true do |t|
@@ -89,8 +95,9 @@ ActiveRecord::Schema.define(:version => 20120702100552) do
     t.binary   "pscores"
     t.binary   "smartscores"
     t.string   "confirmation_code"
-    t.boolean  "confirmed"
+    t.boolean  "confirmed",          :default => false
     t.integer  "identifiable_id"
+    t.string   "identifiable_type"
   end
 
   add_index "users", ["email"], :name => "index_users_on_email", :unique => true

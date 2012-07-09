@@ -12,14 +12,15 @@
 
 class Quiz < ActiveRecord::Base
   @@name_regex = /[a-zA-Z0-9 ]+/
-  belongs_to :student
 
+  belongs_to  :identifiable, :polymorphic => true;
   attr_accessible :name
   attr_accessible :problemtypes
+  attr_accessible :identifiable
 
   validates :problemtypes, :presence => true
 
-  validates :user_id,      :presence => true
+  validates :student_id,   :presence => true
 
   validates :name,         :presence => true,
                            :length => { :within => 1..20 },
@@ -41,4 +42,13 @@ class Quiz < ActiveRecord::Base
   def smartScore
     return "?"
   end
+end
+
+# From teachers
+class Homework < Quiz
+  has_and_belongs_to_many :classes
+end
+
+# Owned by students
+class PracticeSet < Quiz
 end

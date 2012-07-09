@@ -23,23 +23,31 @@ class UsersController < ApplicationController
     end
   end
 
-  def show
-    stop_quiz
+  # PROFILE PAGE FOR STUDENTS/TEACHERS/PARENTS
+  def profile
     @title = "Profile"
     @nav_selected = "profile"
 
-    @quizzes = current_user.quizzes
-    @shownquiz = @quizzes.first unless @quizzes.empty?
-    @problemanswers = current_user.problemanswers
+
+    if role.is_a? Student
+      stop_quiz
+      render 'students/profile'
+
+    elsif role.is_a? Teacher
+      render 'teachers/profile'
+    end
   end
 
   def create
-    uparams = params["user"]
-    @user = User.new uparams
+    role = params["role"]
+    @user = User.new params['user']
 
+    if role == "Student"
+      @user.identifiable = Student.new
+    elsif role == "Teacher"
+      @user.identifiable = Teacher.new
+    end
 
-    $stderr.puts "UPARAMS: #{uparams.inspect}"
-    
     if @user.save
       UserMailer.delay.confirmation_email(@user) # normally this would be .deliver at the end
       # but not with the DelayedJob delay in there
@@ -57,11 +65,4 @@ class UsersController < ApplicationController
       render 'shared/form_errors'
     end
   end
-
-  private
-
-  def authenticate
-    deny_access unless signed_in?
-  end
-
 end

@@ -18,7 +18,7 @@ Quizsite::Application.routes.draw do
   post "problem/expand"
   match "/explain/:id" => 'problem#explain', :as => :explain
 
-  match '/profile' => 'users#show'
+  match '/profile' => 'users#profile'
   # match '/signup',  :to => 'users#new'
   match '/signin',      :to => 'pages#signinpage'
   match '/signout',     :to => 'sessions#destroy'

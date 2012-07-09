@@ -23,4 +23,8 @@ class ApplicationController < ActionController::Base
   def dec_prob(p)
     Marshal.load(p)
   end
+
+  def authenticate
+    deny_access unless signed_in?
+  end
 end

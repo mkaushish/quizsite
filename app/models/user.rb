@@ -51,11 +51,10 @@ class User < ActiveRecord::Base
   @@email_regex = /^[\w0-9+.!#\$%&'*+\-\/=?^_`{|}~]+@[a-z0-9\-]+(:?\.[0-9a-z\-]+)+$/i
 
   attr_accessor :password
-  attr_accessible :email, :name, :password, :password_confirmation
+  attr_accessible :email, :name, :password, :password_confirmation, :identifiable
 
   belongs_to :identifiable, :polymorphic => true;
   has_many :problemanswers, :dependent => :destroy
-  has_many :quizzes,        :dependent => :destroy
 
   validates :name, :presence => true,
                    :length => { :maximum => 50 }
@@ -67,16 +66,20 @@ class User < ActiveRecord::Base
   validates :password, :presence => true,
                        :confirmation => true,
                        :length => { :within => 6..40 }
-  
+
+  validates :identifiable, :presence => true
+
   before_save  :encrypt_password
   after_create :set_defaults
 
   def set_defaults
-    # default_values
-    add_default_quizzes
     new_code
     save
     true
+  end
+
+  def quiz_type
+    self.identifiable_type.capitalize.constantize.quiz_type
   end
 
   def self.authenticate(email, submitted_password)
@@ -140,13 +143,6 @@ class User < ActiveRecord::Base
 
   def secure_hash(string)
     Digest::SHA2.hexdigest(string)
-  end
-
-  def add_default_quizzes
-    # Add a default quiz for each chapter
-    CHAPTERS.each do |chapter|
-      quizzes.create!(:problemtypes => Marshal.dump(chapter::PROBLEMS), :name => chapter.to_s)
-    end
   end
 
   def default_values
