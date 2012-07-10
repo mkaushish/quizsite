@@ -1,5 +1,6 @@
 class QuizzesController < ApplicationController
   before_filter :authenticate, :except => [:show]
+
   # display PScores for the problem types / quiz ?
   def show
   end
@@ -19,6 +20,7 @@ class QuizzesController < ApplicationController
 
     unless @quiz.identifiable == current_user.identifiable
       deny_access
+    end
     set_quiz @quiz
     @chosen_probs = get_probs
     @chapter = CricketQuestions
@@ -47,7 +49,7 @@ class QuizzesController < ApplicationController
   # PUT /quiz/:id
   def update
     @quiz = Quiz.find(params[:id])
-    unless @quiz.user == current_user
+    unless @quiz.identifiable == current_user.identifiable
       adderror "You can only edit your own quizzes!"
       redirect_to profile_path
     end

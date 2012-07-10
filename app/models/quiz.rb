@@ -20,7 +20,7 @@ class Quiz < ActiveRecord::Base
 
   validates :problemtypes, :presence => true
 
-  validates :student_id,   :presence => true
+  validates :identifiable_id,   :presence => true
 
   validates :name,         :presence => true,
                            :length => { :within => 1..20 },
@@ -42,13 +42,4 @@ class Quiz < ActiveRecord::Base
   def smartScore
     return "?"
   end
-end
-
-# From teachers
-class Homework < Quiz
-  has_and_belongs_to_many :classes
-end
-
-# Owned by students
-class PracticeSet < Quiz
 end

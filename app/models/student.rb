@@ -1,6 +1,6 @@
 class Student < ActiveRecord::Base
   has_one :user,     :as => :identifiable, :dependent => :destroy
-  has_many :quizzes, :dependent => :destroy
+  has_many :quizzes, :as => :identifiable, :dependent => :destroy
 
   after_create :add_default_quizzes
 

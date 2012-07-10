@@ -5,9 +5,9 @@ class TeacherQuizzes < ActiveRecord::Migration
       t.string 'identifiable_type', :limit => 15
     end
 
-    create_table :classrooms_quizzes, :id => false do |t|
+    create_table :classrooms_homeworks, :id => false do |t|
       t.integer :classroom_id
-      t.integer :quiz_id
+      t.integer :homework_id
     end
   end
 end
