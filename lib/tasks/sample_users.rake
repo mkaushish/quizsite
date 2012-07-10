@@ -3,7 +3,9 @@ namespace :db do
   task :useradd => :environment do
     userinfo = [
       { :name => "Thomas Ramfjord",      :email => "thomas.ramfjord@gmail.com", :password => "blah123" },
-      { :name => "Madhav Kaushish",      :email => "madhav.kaushish@gmail.com"} #,
+      { :name => "Madhav Kaushish",      :email => "madhav.kaushish@gmail.com" },
+      { :name => "Thomas Ramfjord",      :email => "t.homasramfjord@gmail.com", :password => "blah123", :idtype => Teacher },
+      { :name => "Madhav Kaushish",      :email => "m.adhavkaushish@gmail.com", :idtype => Teacher } #,
       # { :name => "Sanjeev Bikhchandani", :email => "sanjeev@naukri.com" },
       # { :name => "Andrea Kalyn",         :email => "akalyn@oberlin.edu" },
       # { :name => "Mary Kay Gray",        :email => "mary.gray@oberlin.edu" },
@@ -22,7 +24,7 @@ namespace :db do
           :email => userhash[:email],
           :password => userhash[:password] || "newpass",
           :password_confirmation => userhash[:password] || "newpass",
-          :identifiable => Student.create
+          :identifiable => userhash[:idtype].nil? ? Student.create : userhash[:idtype].create
         } )
         user.confirmed = true
 
