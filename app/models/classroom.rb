@@ -5,6 +5,6 @@ class Classroom < ActiveRecord::Base
   belongs_to :teacher
 
   def assign!(hw)
-    homeworks.create!(hw.id)
+    homeworks.create!(hw)
   end
 end

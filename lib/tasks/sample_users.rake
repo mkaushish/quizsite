@@ -1,6 +1,6 @@
-namespace :db do
+namespace :generate do
   desc "Make starting users thomas and madhav"
-  task :useradd => :environment do
+  task :users => :environment do
     userinfo = [
       { :name => "Thomas Ramfjord",      :email => "thomas.ramfjord@gmail.com", :password => "blah123" },
       { :name => "Madhav Kaushish",      :email => "madhav.kaushish@gmail.com" },
