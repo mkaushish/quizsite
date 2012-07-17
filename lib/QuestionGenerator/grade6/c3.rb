@@ -656,7 +656,7 @@ module Chapter3
         @nums2=nms[1]
         @comm=nms[2]
       end
-      puts @comm
+#      puts @comm
       @lnums1=Array.new(@nums1)
       com=Array.new(@comm)
       for j in 0...com.length

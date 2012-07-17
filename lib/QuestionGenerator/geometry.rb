@@ -51,14 +51,16 @@ module Geometry
     end
 
     # returns the coords for a line segment which crosses the center of the screen
-    def self.randCenterLine(length)
+    def self.randCenterLine(length, allow_vertical = false)
       l = length / 2
       theta  = rand() * Math::PI
       center = self.center
       x = (l * Math.sin(theta)).to_i # using sin here ensures that x1 will always be lower than x2
       y = (l * Math.cos(theta)).to_i
 
-      [ center[0] - x, center[1] - y, center[0] + x, center[1] + y ]
+      return [ center[0] - x, center[1] - y, center[0] + x, center[1] + y ] if allow_vertical
+      # NOTE: center - x - 1 can never equal center + x, because x is an integer
+      [ center[0] - x - 1, center[1] - y, center[0] + x, center[1] + y ]
     end
 
     # yeah... not exactly the paragon of efficiency I admit, but premature optimization...

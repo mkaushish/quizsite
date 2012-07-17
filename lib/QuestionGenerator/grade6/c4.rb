@@ -323,7 +323,7 @@ module Chapter4
 
     def correct?(params)
       selected = SmallGeoDisplay::selectedShapes(params)
-      puts selected.inspect
+#      puts selected.inspect
       return false if selected.length != 2
       i = @points.index(selected[0])
       j = @points.index(selected[1])

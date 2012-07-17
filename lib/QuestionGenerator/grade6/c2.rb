@@ -172,7 +172,7 @@ module Chapter2
       pow2 = rand(pow + 1)
       pow5 = ((3 * pow / 2 + 1) - pow2) / 2
 
-      #puts "pow5 = #{pow5}, pow2 = #{pow2}"
+#      #puts "pow5 = #{pow5}, pow2 = #{pow2}"
       [(2**pow2) * (5**pow5), (2**(pow - pow2)) * (5**(pow - pow5))]
     end
   end
@@ -220,13 +220,13 @@ module Chapter2
           tab.set_field(4, blen+1-j, st[st.length-1-j])
         end
         if i > 0
-          puts ((st1[len1-i].to_i+st2[len2-i].to_i)/10).to_s
+#          puts ((st1[len1-i].to_i+st2[len2-i].to_i)/10).to_s
           tab.set_field(0, blen+1-i, ((st1[len1-i].to_i+st2[len2-i].to_i)/10).to_s)
         end 
         tab.set_field(4, blen+1-i, TextField.new("sum_#{st.length-i-1}"))
         tab.set_field(0, blen-i, TextField.new("rem_#{st.length-i-1}"))
         tab.set_field(2, 0, "+")
-        puts tab
+#        puts tab
         ret << Subproblem.new([tab], {"sum_#{st.length-1-i}" => st[st.length-i-1], "rem_#{st.length-1-i}" => ((st1[len1-1-i].to_i+st2[len2-1-i].to_i)/10).to_s})
       end
       for i in slen...blen

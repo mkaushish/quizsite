@@ -10,8 +10,8 @@ require "date"
 
 class Float
   def ==(fl)
-    puts "here"
-    puts ((to_f*100).round).to_s + ", " +((fl*100).round).to_s
+#    puts "here"
+#    puts ((to_f*100).round).to_s + ", " +((fl*100).round).to_s
     (to_f*100).round==(fl*100).round
   end
 end
@@ -56,7 +56,7 @@ module CricketQuestions
     names=file.gets.split(", ")
     names[names.length-1].slice!(names[names.length-1].length-1)
     ar=[]
-    puts names
+#    puts names
     while (line=file.gets)
       line.slice!(line.length-1)
       ar << line.split(", ")
@@ -75,7 +75,7 @@ module CricketQuestions
         @mtype="Test"
         pname=CricketQuestions::pick_player(@mtype, "bat", nomat)
         @pname=pname
-        puts @pname
+#        puts @pname
         @mat=CricketQuestions::pick_matches(@mtype, pname[0], "bat", pname[1], nomat)
         @names=@mat.slice!(0)
         @totruns=0
@@ -128,12 +128,12 @@ module CricketQuestions
       @mtype="Test"
       pname=CricketQuestions::pick_player(@mtype, "bowl", nomat)
       @pname=pname
-      puts @pname
+#      puts @pname
       @mat=CricketQuestions::pick_matches(@mtype, pname[0], "bowl", pname[1], nomat)
       @names=@mat.slice!(0)
       tr=false
       for i in 0...@mat.length
-        puts @mat[i]
+#        puts @mat[i]
         if @mat[i][@names.index("Wickets")]!="0"
           tr=true
           break
@@ -142,7 +142,7 @@ module CricketQuestions
       while tr==false
         pname=CricketQuestions::pick_player(@mtype, "bowl", nomat)
         @pname=pname
-        puts @pname
+#        puts @pname
         @mat=CricketQuestions::pick_matches(@mtype, pname[0], "bowl", pname[1], nomat)
         @names=@mat.slice!(0)
         tr=false
@@ -206,7 +206,7 @@ module CricketQuestions
       @mtype="Test"
       pname=CricketQuestions::pick_player(@mtype, "bat", nomat, EARLIEST)
       @pname=pname
-      puts @pname
+#      puts @pname
       @mat=CricketQuestions::pick_matches(@mtype, pname[0], "bat", pname[1], nomat)
       @names=@mat.slice!(0)   
     end
@@ -261,12 +261,12 @@ module CricketQuestions
       @mtype="Test"
       pname=CricketQuestions::pick_player(@mtype, "bowl", nomat, EARLIEST)
       @pname=pname
-      puts @pname
+#      puts @pname
       @mat=CricketQuestions::pick_matches(@mtype, pname[0], "bowl", pname[1], nomat)
       @names=@mat.slice!(0)
       tr=false
       for i in 0...@mat.length
-        puts @mat[i]
+#        puts @mat[i]
         if @mat[i][@names.index("Wickets")]!="0"
           tr=true
           break
@@ -275,7 +275,7 @@ module CricketQuestions
       while tr==false
         pname=CricketQuestions::pick_player(@mtype, "bowl", nomat)
         @pname=pname
-        puts @pname
+#        puts @pname
         @mat=CricketQuestions::pick_matches(@mtype, pname[0], "bowl", pname[1], nomat)
         @names=@mat.slice!(0)
         tr=false
@@ -304,7 +304,7 @@ module CricketQuestions
         else sum+=ov.to_i*6
         end
         wi += @mat[i][@names.index("Wickets")].to_i
-        puts sum
+#        puts sum
       end
       av=sum.to_f/wi
       @wi=wi
