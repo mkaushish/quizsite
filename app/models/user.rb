@@ -51,9 +51,8 @@ class User < ActiveRecord::Base
   @@email_regex = /^[\w0-9+.!#\$%&'*+\-\/=?^_`{|}~]+@[a-z0-9\-]+(:?\.[0-9a-z\-]+)+$/i
 
   attr_accessor :password
-  attr_accessible :email, :name, :password, :password_confirmation, :identifiable
+  attr_accessible :email, :name, :password, :password_confirmation
 
-  belongs_to :identifiable, :polymorphic => true;
   has_many :problemanswers, :dependent => :destroy
 
   validates :name, :presence => true,
@@ -67,8 +66,6 @@ class User < ActiveRecord::Base
                        :confirmation => true,
                        :length => { :within => 6..40 }
 
-  validates :identifiable, :presence => true
-
   before_save  :encrypt_password
   after_create :set_defaults
 
@@ -76,10 +73,6 @@ class User < ActiveRecord::Base
     new_code
     save
     true
-  end
-
-  def quiz_type
-    self.identifiable_type.capitalize.constantize.quiz_type
   end
 
   def self.authenticate(email, submitted_password)

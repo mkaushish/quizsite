@@ -19,12 +19,12 @@ namespace :generate do
 
     userinfo.each do |userhash|
       unless User.find_by_email(userhash[:email])
-        user = User.new( {
+        klass = userhash[:idtype] || Student
+        user = klass.new( {
           :name => userhash[:name],
           :email => userhash[:email],
           :password => userhash[:password] || "newpass",
           :password_confirmation => userhash[:password] || "newpass",
-          :identifiable => userhash[:idtype].nil? ? Student.create : userhash[:idtype].create
         } )
         user.confirmed = true
 

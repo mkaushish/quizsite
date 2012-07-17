@@ -1,15 +1,14 @@
 class TeacherQuizzes < ActiveRecord::Migration
   def change
-    change_table :quizzes do |t|
-      t.rename 'student_id', 'identifiable_id'
-      t.string 'identifiable_type', :limit => 15
-    end
-
-    add_index :quizzes, [:identifiable_id, :name], :unique => true
-
-    create_table :classrooms_homeworks, :id => false do |t|
+    create_table :hw_assignments do |t|
       t.integer :classroom_id
       t.integer :homework_id
     end
+
+    change_table :quizzes do |t| 
+      t.string :type
+    end
+
+    add_index :quizzes, [:user_id, :name], :unique => true
   end
 end

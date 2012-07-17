@@ -6,7 +6,7 @@ class CreateClassrooms < ActiveRecord::Migration
       t.timestamps
     end
 
-    create_table :classrooms_students, :id => false do |t|
+    create_table :class_assignments do |t|
       t.integer :classroom_id
       t.integer :student_id
     end

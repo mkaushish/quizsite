@@ -26,7 +26,6 @@ class Problemanswer < ActiveRecord::Base
   before_save :bef_save
   
   def bef_save
-    $stderr.puts "hwqlkhewkqh"*100
     dump_response
     self.pclass=self.problem.prob.class.to_s
   end

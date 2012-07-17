@@ -13,16 +13,12 @@
 class Quiz < ActiveRecord::Base
   @@name_regex = /[a-zA-Z0-9 ]+/
 
-  belongs_to  :identifiable, :polymorphic => true;
-  attr_accessible :name
-  attr_accessible :problemtypes
-  attr_accessible :identifiable
+  attr_accessible :name, :problemtypes
 
   validates :problemtypes, :presence => true
 
-  validates :identifiable_id,   :presence => true
-
   validates :name,         :presence => true,
+                           :uniqueness => { :scope => :user_id, :message => "You can't name two homeworks the same thing" },
                            :length => { :within => 1..20 },
                            :format => { :with => @@name_regex, :message => "Only letters and numbers allowed" }
 

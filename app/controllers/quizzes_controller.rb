@@ -18,7 +18,7 @@ class QuizzesController < ApplicationController
     @nav_selected = "makequiz"
     @quiz = Quiz.find(params[:id])
 
-    unless @quiz.identifiable == current_user.identifiable
+    unless @quiz.user_id == current_user.id
       deny_access
     end
     set_quiz @quiz
