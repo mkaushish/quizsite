@@ -29,23 +29,21 @@ class UsersController < ApplicationController
     @nav_selected = "profile"
 
 
-    if role.is_a? Student
+    if current_user.is_a?(Student)
       stop_quiz
       render 'students/profile'
 
-    elsif role.is_a? Teacher
+    elsif current_user.is_a?(Teacher)
       render 'teachers/profile'
     end
   end
 
   def create
     role = params["role"]
-    @user = User.new params['user']
-
     if role == "Student"
-      @user.identifiable = Student.new
+      @user = Student.new params['user']
     elsif role == "Teacher"
-      @user.identifiable = Teacher.new
+      @user = Teacher.new params['user']
     end
 
     if @user.save

@@ -28,11 +28,19 @@ class QuizzesController < ApplicationController
 
   # POST /quiz
   def create
-    @quiz = current_user.quiz_type.new(
-      :identifiable => current_user.identifiable,
-      :problemtypes => get_quizprobs_from_params(params),
-      :name => params["quiz_name"]
-    )
+    if current_user.is_a?(Teacher)
+      @quiz = current_user.homeworks.new(
+        :problemtypes => get_quizprobs_from_params(params),
+        :name => params["quiz_name"]
+      )
+    elsif current_user.is_a?(Student)
+      @quiz = current_user.practice_sets.new(
+        :problemtypes => get_quizprobs_from_params(params),
+        :name => params["quiz_name"]
+      )
+    else
+      render :js => "window.location = '/'"
+    end
 
     if @quiz.save
       set_quiz(@quiz)
@@ -49,7 +57,7 @@ class QuizzesController < ApplicationController
   # PUT /quiz/:id
   def update
     @quiz = Quiz.find(params[:id])
-    unless @quiz.identifiable == current_user.identifiable
+    unless verify_user
       adderror "You can only edit your own quizzes!"
       redirect_to profile_path
     end
@@ -67,8 +75,12 @@ class QuizzesController < ApplicationController
 
   # DELETE /quizzes/1
   def destroy
+    unless verify_user
+      adderror "You can only edit your own quizzes!"
+      redirect_to profile_path
+    end
+
     @quiz = Quiz.find(params[:id])
-    @quiz_id = @quiz.idname
 
     @quiz.destroy
     if current_user.quizzes.empty?
@@ -81,7 +93,7 @@ class QuizzesController < ApplicationController
   private
 
   def verify_user(quiz)
-    quiz.identifiable == current_user.identifiable
+    quiz.user_id == current_user.id
   end
 
   def get_quizprobs_from_params(params)

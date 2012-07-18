@@ -45,18 +45,6 @@ module SessionsHelper
     @current_user ||= user_from_remember_token
   end
 
-  def role
-    current_user.nil? ? nil : current_user.identifiable
-  end
-
-  def student
-    role.is_a?(Student) ? role : nil
-  end
-
-  def teacher
-    role.is_a?(Teacher) ? role : nil
-  end
-
   def signed_in?
     !current_user.nil? && current_user.confirmed?
   end

@@ -5,7 +5,7 @@ class ClassroomsController < ApplicationController
   end
 
   def new
-    @classroom = teacher.classrooms.new
+    @classroom = current_user.classrooms.new
   end
 
   def create
@@ -17,6 +17,6 @@ class ClassroomsController < ApplicationController
   private
   
   def teacher?
-    deny_access unless teacher
+    deny_access unless current_user.is_a?(Teacher)
   end
 end
