@@ -36,6 +36,7 @@ function setUpNL(name, editable, movable, which) {
     edit : editable,
     curnum : 0,
     curpos : 0,
+    initpos : 0,
     fdiff : 1,
     movemid : function() {
       var mmov=mousex-downx;
@@ -76,17 +77,30 @@ function setUpNL(name, editable, movable, which) {
                if(leftpos!=0){
                  this.curpos=leftpos;
                  fwth=16;
-                 drawLine(leftpos, canvas.height-off, leftpos-fwth/2, canvas.height-off+7);
-                 drawLine(leftpos, canvas.height-off, leftpos+fwth/2, canvas.height-off+7);
+                 this.drawPointer(leftpos);
                  context.save();
-                 context.fillStyle="black";
-                 context.fillRect(leftpos-fwth/2, canvas.height-off+7, fwth, 15);
                  context.fillStyle="white";
                  context.textAlign="center";
                  context.fillText(""+num, leftpos, canvas.height-off+17); 
                  context.restore();
                }
              },
+    drawPointer : function(pos){
+                 fwth=16;
+                 this.curpos=pos;
+                 drawLine(pos, canvas.height-off, pos-fwth/2, canvas.height-off+7);
+                 drawLine(pos, canvas.height-off, pos+fwth/2, canvas.height-off+7);
+                 context.save();
+                 context.fillStyle="black";
+                 context.fillRect(pos-fwth/2, canvas.height-off+7, fwth, 15);
+                 context.fillStyle="white";
+                 context.strokeStyle="red";
+                 if(this.initpos!=0){
+                 drawLine(pos, canvas.height-off, this.initpos, canvas.height-off); 
+                 }
+                 context.restore();
+                  },
+
 
     inputfield : function(num){
                    leftpos=0;
@@ -267,6 +281,7 @@ function setUpNL(name, editable, movable, which) {
   }
   if(which=="movinp"){
     malNumLine.addsub();
+    malNumLine.initpos=malNumLine.curpos;
   }
   if(which=="label"){
     labs=$("#label").attr("value").split(",");
@@ -276,12 +291,25 @@ function setUpNL(name, editable, movable, which) {
   }
   $('#nlcanvas').mousedown(function (e) { 
     // downx and y have many uses
+    initdownx=mousex;
     downx = mousex;
     downy = mousey;
     mousedown=true;
   });
 
   $('#nlcanvas').mouseup(function (e) { 
+    if(which=="movinp"){
+      if(malNumLine.initpos > mousex){
+      $("#"+name).attr("value", malNumLine.curnum+Math.floor((downx-initdownx)/malNumLine.ewid));
+      }
+      else{
+      $("#"+name).attr("value", malNumLine.curnum+Math.ceil((downx-initdownx)/malNumLine.ewid));
+      }
+      context.clearRect(0,0,canvas.width, canvas.height);
+      malNumLine.draw("dec");
+      
+      malNumLine.addsub();
+    }
     mousedown=false;
   });
 
@@ -297,13 +325,13 @@ function setUpNL(name, editable, movable, which) {
     // mousex and mousey are used for many things, and therefore need to be in the
     // global scope.
     setMouseXY(e);
-    if(mousedown && downx < malNumLine.curpos+8 && downx > malNumLine.curpos-8 && downy > canvas.height-off+7 && Math.abs(mousex-downx) >= malNumLine.ewid && mousex > off+2 && mousex < canvas.width-off-2){
-      $("#"+name).attr("value", malNumLine.curnum+Math.floor((mousex-downx)/malNumLine.ewid));
+    if(which=="movinp"){
+    if(mousedown && downx < malNumLine.curpos+8 && downx > malNumLine.curpos-8 && downy > canvas.height-off+7 && mousex > off+2 && mousex < canvas.width-off-2){
       context.clearRect(0,0,canvas.width, canvas.height);
-      malNumLine.addsub();
       malNumLine.draw("dec");
+      malNumLine.drawPointer(mousex);
       downx=mousex;
-      downy=mousey;
+    }
     }
     if(mousedown && malNumLine.movable){
       if (downy > canvas.height-75){

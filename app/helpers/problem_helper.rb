@@ -13,7 +13,6 @@ module ProblemHelper
   # TODO fix this issue
   def render_subprob(subprob, index)
     div_h   = "<div id=\"#{ exp_id(index) }\"><div class=problem>"
-    divider = '<hr>'
     ptext   = render( :partial => 'problem/problem', 
                       :object => subprob, 
                       :locals => {:partialdir => 'problem'}
@@ -21,14 +20,15 @@ module ProblemHelper
     div_e   = "</div></div>";
 
     if subprob.is_a?(QuestionWithExplanation)
-      expand = link_to( "expand", 
+      expand = link_to( "Wait, how do I do that?", 
                         problem_expand_path(:id => @orig_prob.id, :index => index), 
                         :method => :post, 
-                        :remote => true
+                        :remote => true,
+                        :class => "btn btn-success"
                       )
-      return (div_h + divider + expand + ptext + div_e).html_safe
+      return (div_h + ptext + div_e + expand).html_safe
     else
-      return (div_h + divider + ptext + div_e).html_safe
+      return (div_h + ptext + div_e).html_safe
     end
   end
 

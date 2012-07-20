@@ -57,7 +57,7 @@ class QuizzesController < ApplicationController
   # PUT /quiz/:id
   def update
     @quiz = Quiz.find(params[:id])
-    unless verify_user
+    unless is_owner(@quiz)
       adderror "You can only edit your own quizzes!"
       redirect_to profile_path
     end
@@ -75,12 +75,11 @@ class QuizzesController < ApplicationController
 
   # DELETE /quizzes/1
   def destroy
-    unless verify_user
+    @quiz = Quiz.find(params[:id])
+    unless is_owner(@quiz)
       adderror "You can only edit your own quizzes!"
       redirect_to profile_path
     end
-
-    @quiz = Quiz.find(params[:id])
 
     @quiz.destroy
     if current_user.quizzes.empty?
@@ -92,7 +91,7 @@ class QuizzesController < ApplicationController
 
   private
 
-  def verify_user(quiz)
+  def is_owner(quiz)
     quiz.user_id == current_user.id
   end
 

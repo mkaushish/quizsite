@@ -100,77 +100,7 @@ module Chapter2
     end
   end
 
-  class RearrangementHelper < QuestionBase
-    # create nums - the array of summands (following examples will assume sum question, but can be
-    #                                        generalized to pruduct question)
-    # each elt is either an array of size 2, or a fixnum
-    #      Fixnum: this element can't be part of the answer
-    #
-    #     Array:  [ summand, group num ] : if the two numbers chosen are arrays of the same group num,
-    #                                       the answer is correct
-    def init_nums(sums, which = -1)
-      # determine the number of summands each sum will be broken into
-      sizes = Array.new(2)
-      @nums = []
-
-      if which == 0 || which == 1
-        sizes[which] = 2
-        sizes[1 - which] = 1
-      else
-        tmp = rand(2)
-        sizes[tmp] = 2
-        sizes[1-tmp] = rand(2)+1
-      end
-
-      sums.each_index do |i|
-        if sizes[i] == 2
-          get_elts(sums[i]).each { |elt| @nums << [elt, i] }
-        else
-          @nums << sums[i]
-        end
-      end
-
-      @nums.shuffle!
-    end
-
-    # produces a hash where the possible answers point to their group numbers (see init_nums)
-    def solve
-      ans = {}
-      @nums.each_with_index do |n, i|
-        if n.is_a? Array
-          ans[n[0]] = n[1]
-        end
-      end
-      ans
-    end
-
-    def num_array
-      if @num_array.nil?
-        @num_array = ""
-        @nums.each_with_index do |n, i|
-          @num_array += ", " unless i == 0
-          @num_array += "#{n}" if n.is_a? Fixnum
-          @num_array += "#{n[0]}" if n.is_a? Array
-        end
-      end
-      @num_array
-    end
-
-    # TODO currently takes an answer in the form of an array... need to change this when I
-    # get some rails basics working
-    def correct?(ans)
-      return false unless ans.is_a?(Array) && ans.length == 2
-      soln = solve
-      soln[ans[0]] == soln[ans[1]]
-
-    end
-
-    def ans_format
-      "Array 2"
-    end
-  end
-
-  class SuitableRearrangementSum < RearrangementHelper
+  class SuitableRearrangementSum < QuestionBase
     def self.type
       "Rearrange Sum"
     end
@@ -200,9 +130,8 @@ module Chapter2
       ]
     end
 
-    def get_elts(sum)
-      tmp = rand((sum * 0.75).to_i  - 11) + 11
-      [tmp, sum - tmp]
+    def correct?(response)
+      response[ToHTML::add_prefix 'ans_0'].to_i + response[ToHTML::add_prefix 'ans_1'].to_i == @nice_summand
     end
   end
 
@@ -262,6 +191,7 @@ module Chapter2
     def solve
       return {"ans" => (@num1+@num2).to_s}
     end
+<<<<<<< HEAD
     def explain
       st1=@num1.to_s
       st2=@num2.to_s
@@ -342,6 +272,8 @@ module Chapter2
       end
       ret
     end
+=======
+>>>>>>> ff28611171bbe690b4caa07b4f877a9286299695
     def text
       [TextLabel.new("Find:"), AddingField.new("ans", @num1, @num2, "+")]
     end

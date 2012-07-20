@@ -17,6 +17,7 @@ else {
 // if( not done with problem 
 // (we don't want to do this stuff if they're just looking back at a previous explanation they've already done
   // push the new subproblem index on the stack
+  //alert("pushing on new index: 0:<%= @index %>");
   $('#subproblem_index').attr('value', '0:' + '<%= @index %>');
 
   /**/
@@ -24,6 +25,9 @@ else {
   $('#next_subproblem').remove();
   pdiv.find('div.explanation').append("<%= escape_javascript( hidden_field_tag('next_subproblem', "")) %>");
   /**/
+
+  // delete the expand button
+  $('[href^="/problem/expand"]').hide();
 }
 
 //

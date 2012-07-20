@@ -1,6 +1,7 @@
 <%= form_tag({:controller => 'problem', :action => 'next_subproblem'}, :remote => true, :autocomplete => "off") do %>
   <%= hidden_field_tag 'subproblem_index', @i %>
   <%= hidden_field_tag 'problem_id', @problem.id %>
+  <%= hidden_field_tag 'times_attempted', 0 %>
   <div>
     <div id=sp_0>
     <%= render :partial => 'problem/problem', :object => @explain[@i], :locals => {:partialdir => 'problem'} %>

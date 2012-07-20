@@ -20,3 +20,6 @@ $('#subproblem_index').attr('value', '<%= index %>');
 // eg index was 3:2:3, now is 2:3, should be at the end of this inside of sp_3 div.explanation (after sp_2_3)
 $('#next_subproblem').remove();
 pdiv.parent().append('<%= escape_javascript( hidden_field_tag('next_subproblem', "")) %>');
+
+// ensure we think the last problem was correct by pretending we've filled in the answer after doing it
+$('#times_attempted').attr('value', 2);

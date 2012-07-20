@@ -124,4 +124,13 @@
       </script>
     </div>
   </div>
+<% elsif multihtmlobj.is_a? AddingField %>
+  <div class="multifield">
+    <%=hidden_field_tag(multihtmlobj.name, "")%>
+    <div id="adding">
+    </div>
+    <script>
+      addingForm("<%=multihtmlobj.name%>", "<%=multihtmlobj.num1%>", "<%=multihtmlobj.num2%>", "<%=multihtmlobj.sign%>");
+    </script>
+  </div>
 <% end %>

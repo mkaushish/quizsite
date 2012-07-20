@@ -15,7 +15,7 @@ class ProblemController < ApplicationController
     @solution = @last_prob.prefix_solve
     @response = @last_prob.get_useful_response(params)
 
-    if @last_prob.correct?(params)
+    if @last_prob.correct?(params) || params["times_attempted"].to_i > 1
 
       # if we're at the end of a subproblem or the real problem
       if @explain.length == (@i + 1)
@@ -25,6 +25,13 @@ class ProblemController < ApplicationController
 
           # end of subproblem
           if @nested
+            @index.gsub! /[^:]:/, ""
+            @explain = explain_from_index(@orig_prob, @index)
+            @i = @index.split(":")[0].to_i
+            @last_prob = @explain[@i]
+            @solution = @last_prob.prefix_solve
+            @response = @solution
+
             render 'contract'
 
           # end of main problem
@@ -53,8 +60,8 @@ class ProblemController < ApplicationController
 
     # missed the last subproblem
     else
-      $stderr.puts "you missed the last subproblem, try again!" 
-      render :nothing => true
+      $stderr.puts "you missed the last subproblem, rendering wrong_subproblem" 
+      render 'wrong_subproblem'
     end
   end
 

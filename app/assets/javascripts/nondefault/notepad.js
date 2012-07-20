@@ -18,6 +18,9 @@ $(function() {
   var comment=false;
   var commenting=false;
   var drawing=false;
+  var pencil=false;
+  var mkline=false;
+  var lndrawing=false;
   var num1="";
   var num2="";
   var notepad={
@@ -370,6 +373,23 @@ $(function() {
                this.multf(exp[0], exp[1]);
              }
            },
+    redraw : function(){
+                 context.clearRect(0,0,canvas.width, canvas.height);
+                 this.drawlines();
+                 for(var i=0; i < this.notes[this.curpage].length; i++){
+                   context.font="10pt Courier";
+                   context.fillText(this.notes[this.curpage][i], this.margin+5, this.upper+(i+1)*this.lheight-2);  
+                 } 
+                 context.lineWidth=2;
+                 for(var i=0; i < this.pixarr[this.curpage].length; i++){
+                   for(var j=1; j< this.pixarr[this.curpage][i].length; j++){
+                     drawLine(this.pixarr[this.curpage][i][j-1][0], this.pixarr[this.curpage][i][j-1][1], this.pixarr[this.curpage][i][j][0], this.pixarr[this.curpage][i][j][1]);   
+                   }
+                 } 
+                 $(".cmt"+this.curpage).show();
+                 context.lineWidth=1;
+                 $('#notes').focus();
+             },
 
 
 
@@ -383,6 +403,7 @@ $(function() {
                }
                else if(this.curpage+next==this.notes.length-1){
                  $('#notes').show(); 
+                 $('#notes').select(); 
                  $('.plug').show(); 
                  $('.tbreak').show();
                  $('.placeholder').hide();
@@ -408,6 +429,7 @@ $(function() {
                }
                if(this.notes[this.curpage+next]==null && this.curpage+next >= 0){
                  this.createpage();
+                 $("#notes").select();
                }
                else if(this.curpage+next < 0) {alert("already at first page");}
                else {
@@ -431,8 +453,9 @@ $(function() {
              }
   }
   notepad.npad();
-  $('#notes').focus();
+  //$('#notes').focus();
 
+  line=[];
 
   $('#notepad').mousedown(function (e) { 
     // downx and y have many uses
@@ -455,10 +478,18 @@ $(function() {
       commenting=false;
     }
     if(downy < canvas.height-20 && downx > 50 && downy > 50 && !commenting){
-      $('#note').css('cursor','pointer'); 
-      notepad.pixarr[notepad.curpage].push(new Array());
-      notepad.pixarr[notepad.curpage][notepad.pixarr[notepad.curpage].length-1].push([downx, downy]);
-      curdraw=true;
+      if(pencil){
+        $('#note').css('cursor','pointer'); 
+        notepad.pixarr[notepad.curpage].push(new Array());
+        notepad.pixarr[notepad.curpage][notepad.pixarr[notepad.curpage].length-1].push([downx, downy]);
+        curdraw=true;
+      }
+      else if(mkline){
+        lndrawing=true;
+        line=[];
+        line[0]=[downx, downy];
+      }
+
     }
     mousedown=true;
   });
@@ -470,9 +501,16 @@ $(function() {
     notepad.nppage(1);
   });
   $('#notepad').mouseup(function (e) { 
+    if(mkline){
+      notepad.pixarr[notepad.curpage].push(new Array());
+      notepad.pixarr[notepad.curpage][notepad.pixarr[notepad.curpage].length-1]=line;
+    }
     mousedown=false;
     drawing=false;
+    lndrawing=false;
     curdraw=false;
+    lndrawing=false;
+    line=[];
     $('#note').css('cursor','default'); 
     $('#notes').focus();
   });
@@ -489,13 +527,22 @@ $(function() {
 
     mousex = e.pageX - offsetx; // - offset.left;
     mousey = e.pageY - offsety; // - offset.top;
-    if(curdraw && mousey < canvas.height-20 && mousex > 50 && mousey > 50){
+    if(mousey < canvas.height-20 && mousex > 50 && mousey > 50){
+      if(curdraw){
       drawing=true;
       context.lineWidth=2;
       cpa=notepad.pixarr[notepad.curpage];
       drawLine(cpa[cpa.length-1][cpa[cpa.length-1].length-1][0], cpa[cpa.length-1][cpa[cpa.length-1].length-1][1], mousex,mousey);
       notepad.pixarr[notepad.curpage][notepad.pixarr[notepad.curpage].length-1].push([mousex, mousey]);
       context.lineWidth=1;
+      }
+      else if (lndrawing){
+        notepad.redraw();
+        context.lineWidth=2;
+        drawLine(line[0][0], line[0][1], mousex,mousey);
+        line[1]=[mousex, mousey];
+        context.lineWidth=1;
+      }
     }
   });
   $('#notepad').dblclick(function(e){
@@ -527,6 +574,36 @@ $(function() {
       preshift=false;
     }
   });
+  $("#pencil").click(function(){
+    if(pencil ){
+      if(notepad.curpage==notepad.notes.length-1){
+        $("#notes").show();
+        $("#notes").select();
+      }
+      pencil=false;
+    }
+    else {
+      $("#notes").hide();
+      pencil=true;
+      mkline=false;
+    }
+  });
+  $("#line").click(function(){
+    if(mkline){
+      if(notepad.curpage==notepad.notes.length-1){
+        $("#notes").show();
+        $("#notes").select();
+      }
+      mkline=false;
+    }
+    else {
+      $("#notes").hide();
+      mkline=!mkline;
+      pencil=false;
+    }
+  });
+
+
 
   $('#add').click(function(){
     if(!asmd){
