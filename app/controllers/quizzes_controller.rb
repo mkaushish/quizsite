@@ -10,7 +10,7 @@ class QuizzesController < ApplicationController
     stop_quiz
     @nav_selected = "makequiz"
     @chosen_probs = get_probs
-    @chapter = CricketQuestions
+    @chapter = Chapter1
   end
 
   # change the problem types in a quiz
@@ -23,7 +23,7 @@ class QuizzesController < ApplicationController
     end
     set_quiz @quiz
     @chosen_probs = get_probs
-    @chapter = CricketQuestions
+    @chapter = Chapter1
   end
 
   # POST /quiz

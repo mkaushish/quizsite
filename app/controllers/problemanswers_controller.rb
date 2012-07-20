@@ -85,9 +85,12 @@ class ProblemanswersController < ApplicationController
   def create
     @problem = Problem.find(params["problem_id"])
     @problem.load_problem
+    time = params["time_taken"].to_f
+    $stderr.puts "#{params["time_taken"]}, #{time}"
 
     @problemanswer = current_user.problemanswers.new(
-                        :problem  => @problem, 
+                        :problem  => @problem,
+                        :time_taken => time,
                         :correct  => @problem.correct?(params),
                         :response => @problem.get_packed_response(params))
 

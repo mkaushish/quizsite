@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120717070721) do
+ActiveRecord::Schema.define(:version => 20120720122318) do
 
   create_table "class_assignments", :force => true do |t|
     t.integer "classroom_id"
@@ -62,6 +62,7 @@ ActiveRecord::Schema.define(:version => 20120717070721) do
     t.datetime "updated_at"
     t.integer  "user_id"
     t.string   "pclass"
+    t.float    "time_taken"
   end
 
   add_index "problemanswers", ["user_id", "created_at"], :name => "index_problemanswers_on_user_id_and_created_at"
