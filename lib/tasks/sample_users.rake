@@ -4,7 +4,6 @@ namespace :generate do
     userinfo = [
       { :name => "Thomas Ramfjord",      :email => "thomas.ramfjord@gmail.com", :password => "blah123" },
       { :name => "Madhav Kaushish",      :email => "madhav.kaushish@gmail.com" },
-      { :name => "Thomas Ramfjord",      :email => "t.homasramfjord@gmail.com", :password => "blah123", :idtype => Teacher },
       { :name => "Madhav Kaushish",      :email => "m.adhavkaushish@gmail.com", :idtype => Teacher } #,
       # { :name => "Sanjeev Bikhchandani", :email => "sanjeev@naukri.com" },
       # { :name => "Andrea Kalyn",         :email => "akalyn@oberlin.edu" },
@@ -16,6 +15,11 @@ namespace :generate do
       # { :name => "Sample User",          :email => "sample.user@gmail.com" },
       # { :name => "Karan Bedi",           :email => "karan.bedi@nowhere.com" }
     ]
+
+    unless User.find_by_email("t.homasramfjord@gmail.com")
+      t = Teacher.create!(:name => "Thomas Ramfjord", :email => "t.homasramfjord@gmail.com", :password => "blah123", :password_confirmation => "blah123")
+      t.classrooms.create(:name => "Alpha1")
+    end
 
     userinfo.each do |userhash|
       unless User.find_by_email(userhash[:email])
