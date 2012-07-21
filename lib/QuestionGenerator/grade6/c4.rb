@@ -54,7 +54,7 @@ module Chapter4
     def explain
       [
         Subproblem.new([
-          TextLabel.new("A line is named after 2 points on it, and the order doesn't matter.  Therefore you can call the following line any of these names: { #{soln["ans"].join(", ")} }"),
+          TextLabel.new("A line is named after 2 points on it, and the order doesn't matter.  Therefore you can call the following line any of these names: { #{solve["ans"].join(", ")} }"),
           SmallGeoDisplay.new(@l1, *@points)
           ], {} )
       ]

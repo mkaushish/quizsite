@@ -6,11 +6,6 @@ class Student < User
 
   after_create :add_default_quizzes
 
-  def assign_classroom(c)
-    # TODO improve me a little...
-    classrooms << c # unless classrooms.find(c.id)
-  end
-
   private
 
   # Add a default quiz for each chapter

@@ -1,4 +1,4 @@
-<% quizzes = current_user.practice_sets # note that current_user should always be a student here... %>
+<% quizzes = current_user.quizzes # note that current_user should always be a student here... %>
 <% shownquiz = @shownquiz || quizzes.first unless quizzes.empty? %>
 <% problemanswers = current_user.problemanswers %>
 

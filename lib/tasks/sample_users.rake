@@ -20,7 +20,9 @@ namespace :generate do
       t = Teacher.new(:name => "Thomas Ramfjord", :email => "t.homasramfjord@gmail.com", :password => "blah123", :password_confirmation => "blah123")
       t.confirmed = true
       t.save!
-      t.classrooms.create(:name => "Alpha1")
+      t.classrooms.create!(:name => "Alpha1")
+      t.homeworks.create!(:name => "Chapter1", :problemtypes => Marshal.dump(Chapter1::PROBLEMS))
+      t.classrooms.first.assign!(t.homeworks.first)
     end
 
     userinfo.each do |userhash|

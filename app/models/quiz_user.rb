@@ -1,8 +1,11 @@
 class QuizUser < ActiveRecord::Base
   attr_writer :problem_order
-  attr_accessible :quiz_id, :user_id, :problem_order
+  attr_accessible :quiz_id, :user_id, :quiz, :user, :problem_order
   belongs_to :quiz
   belongs_to :user
+
+  validates :quiz_id, :presence => true
+  validates :user_id, :presence => true
 
   before_save :dump_problem_order
 

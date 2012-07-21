@@ -8,18 +8,17 @@ class Classroom < ActiveRecord::Base
   has_many :homeworks, :through => :hw_assignments
 
   def assign!(tmp)
-    if tmp.is_a?(Homework)
+    if tmp.is_a?(Quiz)
+      $stderr.puts "Assigning Homework"
       hw_assignments.create(:homework => tmp)
-      students.each do |student|
-        # ptypes should be in order to begin with
-        QuizUser.create(:student => student, :quiz => tmp, :problem_order => tmp.ptypes)
-      end
+      students.each { |student| tmp.allow_access(student) }
 
-    elsif tmp.is_a?(Student)
+    elsif tmp.is_a?(User)
+      $stderr.puts "Assigning Student"
       class_assignments.create(:student => tmp)
-      homeworks.each do |hw|
-        QuizUser.create(:student => tmp, :quiz => hw, :problem_order => hw.ptypes)
-      end
+      homeworks.each { |hw| hw.allow_access(tmp) }
+    else
+      $stderr.puts "WTF THIS ISN'T SUPPOSE TO HAPPEN"
     end
   end
 end
