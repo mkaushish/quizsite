@@ -25,6 +25,7 @@ class Quiz < ActiveRecord::Base
                            :format => { :with => @@name_regex, :message => "Only letters and numbers allowed" }
 
   after_create { allow_access(self.user_id) }
+  after_save :reset_problem_orders
 
   def ptypes
     @ptypes ||= Marshal.load(self.problemtypes)
@@ -50,6 +51,12 @@ class Quiz < ActiveRecord::Base
       quiz_users.create!(:user_id => user, :problem_order => ptypes)
     else
       $stderr.puts "can only allow access to users, obv"
+    end
+  end
+
+  def reset_problem_orders
+    quiz_users.each do |qu|
+      qu.reset_problem_order
     end
   end
 end

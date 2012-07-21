@@ -23,6 +23,8 @@ class QuizUser < ActiveRecord::Base
 
   def reset_problem_order
     @problem_order = quiz.ptypes.shuffle
+    dump_problem_order
+    save
   end
 
   def dump_problem_order
@@ -39,6 +41,8 @@ class QuizUser < ActiveRecord::Base
       p.save
       self.problem_id = p.id
 
+      # TODO, is this really necessary?
+      dump_problem_order
       save
       p
     else
