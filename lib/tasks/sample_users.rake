@@ -17,7 +17,9 @@ namespace :generate do
     ]
 
     unless User.find_by_email("t.homasramfjord@gmail.com")
-      t = Teacher.create!(:name => "Thomas Ramfjord", :email => "t.homasramfjord@gmail.com", :password => "blah123", :password_confirmation => "blah123")
+      t = Teacher.new(:name => "Thomas Ramfjord", :email => "t.homasramfjord@gmail.com", :password => "blah123", :password_confirmation => "blah123")
+      t.confirmed = true
+      t.save!
       t.classrooms.create(:name => "Alpha1")
     end
 
