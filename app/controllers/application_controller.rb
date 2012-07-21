@@ -6,11 +6,6 @@ class ApplicationController < ActionController::Base
   include ApplicationHelper
 
   @@all_chapters = CHAPTERS
-  def get_next_ptype
-    plist = get_probs
-    plist = all_probs if plist.empty?
-    ptype = plist.sample
-  end
 
   private
 

@@ -12,6 +12,8 @@
 
 class Quiz < ActiveRecord::Base
   @@name_regex = /[a-zA-Z0-9 ]+/
+  has_many :quiz_users
+  has_many :users, :through => :quiz_users
 
   attr_accessible :name, :problemtypes
 
@@ -21,6 +23,8 @@ class Quiz < ActiveRecord::Base
                            :uniqueness => { :scope => :user_id, :message => "You can't name two homeworks the same thing" },
                            :length => { :within => 1..20 },
                            :format => { :with => @@name_regex, :message => "Only letters and numbers allowed" }
+
+  after_create { allow_access(self.user_id) }
 
   def ptypes
     @ptypes ||= Marshal.load(self.problemtypes)
@@ -37,5 +41,15 @@ class Quiz < ActiveRecord::Base
 
   def smartScore
     return "?"
+  end
+
+  def allow_access(user)
+    if user.is_a?(User)
+      quiz_users.create!(:user_id => user.id, :problem_order => ptypes)
+    elsif user.is_a?(Fixnum)
+      quiz_users.create!(:user_id => user, :problem_order => ptypes)
+    else
+      $stderr.puts "can only allow access to users, obv"
+    end
   end
 end

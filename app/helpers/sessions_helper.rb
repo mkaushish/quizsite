@@ -87,6 +87,16 @@ module SessionsHelper
     return !session[:quizid].nil?
   end
 
+  # NOTE for now this can only be called when (signed_in? && in_quiz?)
+  def next_problem
+    return quiz_user.next_problem
+  end
+
+  # increments the user's progress through the quiz based on whether they got the last problem right
+  def increment_problem(last_correct)
+    quiz_user.increment_problem(last_correct)
+  end
+
   private
   
   def user_from_remember_token
@@ -95,5 +105,9 @@ module SessionsHelper
 
   def remember_token
     cookies.signed[:remember_token] || [nil, nil]
+  end
+
+  def quiz_user
+    current_user.quiz_users.where(:quiz_id => session[:quizid].to_i)[0]
   end
 end

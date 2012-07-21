@@ -54,8 +54,6 @@ class User < ActiveRecord::Base
   attr_accessible :email, :name, :password, :password_confirmation
 
   has_many :problemanswers, :dependent => :destroy
-  has_many :quiz_users
-  has_many :quizzes, :through => :quiz_users
 
   validates :name, :presence => true,
                    :length => { :maximum => 50 }
@@ -69,7 +67,7 @@ class User < ActiveRecord::Base
                        :length => { :within => 6..40 }
 
   before_save  :encrypt_password
-  before_create :generate_confirmation_code
+  after_create :generate_confirmation_code
 
   def self.authenticate(email, submitted_password)
     user = find_by_email(email)
@@ -93,10 +91,12 @@ class User < ActiveRecord::Base
     return (problemanswers.where(:correct => true, :pclass => ptype.to_s).length*100)/problemanswers.where(:pclass => ptype.to_s).length
   end
 
-  def generate_confirmation_code
+  def new_code
     # TODO generate confirmation code in a more secure way? necessary?
     # rand is prob like 10 digits, + Time.now gives us a fair amount of security... I hope
     self.confirmation_code = secure_hash "#{Time.now.utc}--#{rand}"
+    save
+    true
   end
 
   def confiramtion_code()

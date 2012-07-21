@@ -1,5 +1,6 @@
 class Student < User
   has_many :practice_sets, :foreign_key => 'user_id'
+
   has_many :class_assignments
   has_many :classrooms, :through => :class_assignments
 

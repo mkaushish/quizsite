@@ -37,7 +37,7 @@ class ProblemController < ApplicationController
           # end of main problem
           else
             if in_quiz?
-              #redirect_to quiz_path
+              increment_problem(true) # count correct if they go through the explanation
               render :js => "window.location.href = '/startquiz'"
             else
               render :js => "window.location = '/profile'"

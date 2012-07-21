@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120720122318) do
+ActiveRecord::Schema.define(:version => 20120720213034) do
 
   create_table "class_assignments", :force => true do |t|
     t.integer "classroom_id"
@@ -74,6 +74,18 @@ ActiveRecord::Schema.define(:version => 20120720122318) do
     t.datetime "created_at"
     t.datetime "updated_at"
   end
+
+  create_table "quiz_users", :force => true do |t|
+    t.integer "quiz_id"
+    t.integer "user_id"
+    t.string  "s_problem_order"
+    t.integer "problem_id",      :default => -1
+    t.integer "num_attempts",    :default => 0
+  end
+
+  add_index "quiz_users", ["quiz_id", "user_id"], :name => "index_quiz_users_on_quiz_id_and_user_id", :unique => true
+  add_index "quiz_users", ["quiz_id"], :name => "index_quiz_users_on_quiz_id"
+  add_index "quiz_users", ["user_id"], :name => "index_quiz_users_on_user_id"
 
   create_table "quizzes", :force => true do |t|
     t.binary   "problemtypes"
