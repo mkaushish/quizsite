@@ -10,7 +10,15 @@ class QuizUser < ActiveRecord::Base
   before_save :dump_problem_order
 
   def problem_order
-    @problem_order ||= Marshal.load(self.s_problem_order)
+    begin
+      @problem_order ||= Marshal.load(self.s_problem_order)
+      reset_problem_order if @problem_order.nil?
+      @problem_order
+    rescue
+      reset_problem_order
+      $stderr.puts "PROBLEM ORDER HAD TO BE RESCUED AGAIN???"
+      @problem_order
+    end
   end
 
   def reset_problem_order
@@ -18,7 +26,7 @@ class QuizUser < ActiveRecord::Base
   end
 
   def dump_problem_order
-    self.s_problem_order = Marshal.dump(@problem_order) if @problem_order.is_a? Array
+    self.s_problem_order = Marshal.dump(@problem_order) # if @problem_order.is_a? Array
   end
 
   def next_problem
