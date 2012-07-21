@@ -33,6 +33,6 @@ module ProblemHelper
   end
 
   def len_to_css_width(len)
-    return "width:#{len * 8}px;"
+    return "width:#{len * 7 + 3}px;"
   end
 end
