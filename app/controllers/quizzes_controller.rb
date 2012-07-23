@@ -62,9 +62,8 @@ class QuizzesController < ApplicationController
       redirect_to profile_path
     end
 
-    dumped_quiz_problems = get_quizprobs_from_params(params)
+    @quiz.problemtypes = get_quizprobs_from_params(params)
 
-    @quiz.problemtypes = dumped_quiz_problems
     if @quiz.save
       redirect_to profile_path
     else

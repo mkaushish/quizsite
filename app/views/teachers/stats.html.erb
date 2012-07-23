@@ -1,0 +1,8 @@
+<div class=logo>
+  Class <%= @classroom.name %>
+</div>
+<% @students.each do |student| %>
+  <div>
+    <%= student.name %>
+  </div>
+<% end %>

@@ -31,7 +31,7 @@ class ProblemanswersController < ApplicationController
     respond_to do |format|
       format.html # show.html.erb
       format.json { render json: @problemanswer }
-  end
+    end
   end
 
   # GET /problemanswers/new

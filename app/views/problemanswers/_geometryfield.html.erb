@@ -6,8 +6,9 @@
   <br style="clear:both">
 </div>
 <% shapes = geometryfield.encodedStartShapes %>
-<%= hidden_field_tag('startshapes', InputField.fromhash("geometry", @response))  %>
-<%= hidden_field_tag('selectedshapes')   %>
+<% shapes += "," unless shapes.empty? %>
+<%= hidden_field_tag('startshapes', "#{shapes}#{InputField.fromhash("geometry", @response)}") %>
+<%= hidden_field_tag('selectedshapes', InputField.fromhash("selectedshapes", @response)) %>
 <%= hidden_field_tag('starttool', "notool") %>
 <% if geometryfield.is_a?(GeometryField) %>
   <%= hidden_field_tag geometryfield.name, "" %>

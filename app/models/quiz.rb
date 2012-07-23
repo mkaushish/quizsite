@@ -25,7 +25,7 @@ class Quiz < ActiveRecord::Base
                            :format => { :with => @@name_regex, :message => "Only letters and numbers allowed" }
 
   after_create { allow_access(self.user_id) }
-  after_save :reset_problem_orders
+  after_save :set_problem_orders
 
   def ptypes
     @ptypes ||= Marshal.load(self.problemtypes)
@@ -44,19 +44,29 @@ class Quiz < ActiveRecord::Base
     return "?"
   end
 
-  def allow_access(user)
-    if user.is_a?(User)
-      quiz_users.create!(:user_id => user.id, :problem_order => ptypes)
-    elsif user.is_a?(Fixnum)
-      quiz_users.create!(:user_id => user, :problem_order => ptypes)
+  def allow_access(my_user)
+    # $stderr.puts "\n" + "#"*100
+    my_user_id = -1
+    if my_user.kind_of?(User) || my_user.kind_of?(Student)
+      my_user_id = my_user.id
+    elsif my_user.is_a?(Fixnum)
+      my_user_id = my_user
     else
-      $stderr.puts "can only allow access to users, obv"
+      $stderr.puts "can only allow access to my_users, not #{my_user.inspect}"
+      return
+    end
+
+    # $stderr.puts "checking user_id => #{my_user_id}"
+
+    if quiz_users.where(:user_id => my_user_id).empty?
+     # $stderr.puts "creating quiz user with user_id => #{my_user_id}, order => #{ptypes}"
+      quiz_users.create!(:user_id => my_user_id, :problem_order => ptypes)
     end
   end
 
-  def reset_problem_orders
+  def set_problem_orders
     quiz_users.each do |qu|
-      qu.reset_problem_order
+      qu.set_problem_order ptypes
     end
   end
 end

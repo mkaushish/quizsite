@@ -15,6 +15,7 @@ module Chapter3
   #first 20 odd primes
 
   class IdentifyPrimes < QuestionWithExplanation
+    attr_accessor :num
     def self.type
       "Identify Primes"
     end

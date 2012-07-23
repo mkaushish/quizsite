@@ -34,7 +34,20 @@ class UsersController < ApplicationController
       render 'students/profile'
 
     elsif current_user.is_a?(Teacher)
-      render 'teachers/profile'
+      redirect_to :stats
+    end
+  end
+
+  def stats
+    @title = "Stats"
+    @nav_selected = "stats"
+
+    if current_user.is_a?(Teacher)
+      @classroom = Classroom.find params[:id]
+      @students  = @classroom.students
+      render 'teachers/stats'
+    else
+      redirect_to :profile
     end
   end
 
