@@ -24,6 +24,8 @@ class QuizUser < ActiveRecord::Base
   def reset_problem_order
     @problem_order = quiz.ptypes.shuffle
     dump_problem_order
+    self.problem_id = -1
+    self.num_attempts = 0
     save
   end
 
