@@ -15,7 +15,6 @@ module Chapter3
   #first 20 odd primes
 
   class IdentifyPrimes < QuestionWithExplanation
-    attr_accessor :num
     def self.type
       "Identify Primes"
     end
@@ -24,7 +23,7 @@ module Chapter3
         if rand() < 0.4
           @num = ODDPRIMES.slice(0,24).sample
         else
-          @num=rand(100+2) if @wh==1
+          @num=rand(100+2)
         end
       else
         @num = num
