@@ -2,9 +2,11 @@ class ProblemController < ApplicationController
   include ProblemHelper
 
   def explain
-    @problem = Problem.find(params[:id])
-    @explain = @problem.unpack.explanation
+    @orig_prob = Problem.find(params[:id])
+    @explain = @orig_prob.unpack.explanation
     @i = 0 # starting subproblem
+
+    @problem = @explain[@i]
   end
 
   def next_subproblem
