@@ -16,7 +16,7 @@ class QuizUser < ActiveRecord::Base
   def problem_order
     begin
       @problem_order ||= Marshal.load(self.s_problem_order)
-      reset_problem_order unless @problem_order.is_a? Array && !@problem_order.empty!
+      reset_problem_order unless (@problem_order.is_a?(Array) && (!@problem_order.empty?))
     rescue
       reset_problem_order
     end
