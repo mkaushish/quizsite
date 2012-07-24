@@ -27,9 +27,11 @@ class ProblemController < ApplicationController
 
           # end of subproblem
           if @nested
-            @index.gsub! /[^:]:/, ""
+            @index.gsub! /[^:]+:/, ""
             @explain = explain_from_index(@orig_prob, @index)
             @i = @index.split(":")[0].to_i
+            $stderr.puts @explain.inspect
+            $stderr.puts @i.to_s + ": " +@explain[@i].inspect
             @last_prob = @explain[@i]
             @solution = @last_prob.prefix_solve
             @response = @solution

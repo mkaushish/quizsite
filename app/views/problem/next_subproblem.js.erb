@@ -13,6 +13,9 @@ checkboxes.replaceWith("<%= escape_javascript(image_tag "correct_circ_small.png"
 $('.add_mt_field').remove();
 $('.del_mt_field').remove();
 
+// delete previous expand button if it exists
+$('[href^="/problem/expand"]').hide();
+
 // " labelling them correct " ...
 var texts = myInputs.filter(':text');
 texts.css("border","2px solid green");
