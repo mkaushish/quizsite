@@ -254,7 +254,7 @@ module Chapter4
       "Identify Adjacent Sides"
     end
     def initialize
-      num_sides = 3 + rand(4);
+      num_sides = 5 + rand(3);
       dists = Array.new(num_sides) { (SmallGeoDisplay.width/6) + rand(SmallGeoDisplay.width / 6) }
       @lines, @points = *(SmallGeoDisplay::polygonAtCenterWithPoints("A", dists))
     end
@@ -298,7 +298,7 @@ module Chapter4
       "Identify Adjacent Vertices"
     end
     def initialize
-      num_sides = 3 + rand(4);
+      num_sides = 5 + rand(3);
       dists = Array.new(num_sides) { (SmallGeoDisplay.width/6) + rand(SmallGeoDisplay.width / 6) }
       @lines, @points = *(SmallGeoDisplay::polygonAtCenterWithPoints("A", dists))
     end
@@ -344,7 +344,7 @@ module Chapter4
       "Identify Diagonals"
     end
     def initialize
-      num_sides = 4 + rand(3)
+      num_sides = 5 + rand(3)
       dists = Array.new(num_sides) { (GeometryField.width/6) + rand(GeometryField.width / 6) }
       @lines, @points = *(GeometryField::polygonAtCenterWithPoints("A", dists))
     end
