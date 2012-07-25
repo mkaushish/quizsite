@@ -87,7 +87,12 @@ module SessionsHelper
     return !session[:quizid].nil?
   end
 
-  # NOTE for now this can only be called when (signed_in? && in_quiz?)
+  # NOTE below 3 methods can ONLY be called when (signed_in? && in_quiz?)
+  # otherwise an uncaught exception WILL BE THROWN
+  def quiz_user
+    @quiz_user ||= current_user.quiz_users.where(:quiz_id => session[:quizid].to_i)[0]
+  end
+
   def next_problem
     return quiz_user.next_problem
   end
@@ -105,9 +110,5 @@ module SessionsHelper
 
   def remember_token
     cookies.signed[:remember_token] || [nil, nil]
-  end
-
-  def quiz_user
-    current_user.quiz_users.where(:quiz_id => session[:quizid].to_i)[0]
   end
 end

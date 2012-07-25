@@ -46,6 +46,11 @@ class ProblemanswersController < ApplicationController
 
     redirect_to root_path && return unless signed_in? && in_quiz?
 
+    if quiz_user.force_explanation?
+      redirect_to(:controller => :problem, :action => :explain, :id => quiz_user.problem_id)
+      return
+    end
+
     @problem = next_problem
     @nav_selected = "quiz"
 
@@ -100,7 +105,11 @@ class ProblemanswersController < ApplicationController
       if last_correct
         redirect_to :action => 'new'
       else
-        redirect_to @problemanswer
+        if signed_in? && in_quiz? && quiz_user.force_explanation?
+          redirect_to explain_path(quiz_user.problem_id)
+        else
+          redirect_to @problemanswer
+        end
       end
     else
       adderror("Had some trouble saving the last response")

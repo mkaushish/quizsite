@@ -49,17 +49,22 @@ class QuizUser < ActiveRecord::Base
   end
 
   def increment_problem(last_correct)
-    # either way gen a new problem
-    self.problem_id = -1
     self.num_attempts += 1
 
-    # increment if we've had over 2 attempts, or if we get it right
-    if last_correct || self.num_attempts >= 2
+    # either way gen a new problem
+    self.problem_id = -1 unless force_explanation? && !last_correct
+
+    # increment if we get it right, or if we just went through the explanation
+    if last_correct
       self.num_attempts = 0
       problem_order.shift
       @problem_order = quiz.ptypes.shuffle if problem_order.empty?
     end
 
     save
+  end
+
+  def force_explanation?
+    self.num_attempts >= 2 && self.problem_id > 0
   end
 end
