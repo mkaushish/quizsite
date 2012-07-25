@@ -103,11 +103,11 @@
       <canvas id="nlcanvas" height="100" width="450"> 
       Your browser does not support the HTML5 Canvas feature. This app uses new HTML5 features and will only work on the latest versions of Firefox, Safari or Chrome (and maybe Internet Explorer 9).         
       </canvas>   
-      <%=hidden_field_tag("inp", "#{multihtmlobj.val}")%>
-      <%=hidden_field_tag("bigdiv", multihtmlobj.bigdiv)%>
-      <%=hidden_field_tag(multihtmlobj.name, "")%>
+      <%=hidden_field_tag("nlcanvas_inp", "#{multihtmlobj.val}")%>
+      <%=hidden_field_tag("nlcanvas_bigdiv", multihtmlobj.bigdiv)%>
+      <%=hidden_field_tag("nlcanvas_"+multihtmlobj.name, "")%>
       <script>
-        setUpNL("<%=multihtmlobj.name%>", false, false, "inpval");
+        setUpNL("nlcanvas", "<%=multihtmlobj.name%>", false, false, "inpval");
       </script>
     </div>
   </div>
@@ -117,10 +117,11 @@
       <canvas id="nlcanvas" height="100" width="450"> 
       Your browser does not support the HTML5 Canvas feature. This app uses new HTML5 features and will only work on the latest versions of Firefox, Safari or Chrome (and maybe Internet Explorer 9).         
       </canvas>   
-      <%=hidden_field_tag("bigdiv", multihtmlobj.bigdiv)%>
+      <%=hidden_field_tag("nlcanvas_bigdiv", multihtmlobj.bigdiv)%>
+      <%=hidden_field_tag("nlcanvas_"+multihtmlobj.name, "#{multihtmlobj.val}")%>
       <%=hidden_field_tag(multihtmlobj.name, "#{multihtmlobj.val}")%>
       <script>
-        setUpNL("<%=multihtmlobj.name%>", false, false, "movinp");
+        setUpNL("nlcanvas", "<%=multihtmlobj.name%>", false, false, "movinp");
       </script>
     </div>
   </div>

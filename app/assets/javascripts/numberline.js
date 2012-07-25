@@ -1,7 +1,7 @@
 
-function setUpNL(name, editable, movable, which) {
+function setUpNL(canname, name, editable, movable, which) {
   // global drawing variables
-  var canvas = $('#nlcanvas')[0];
+  var canvas = $('#'+canname)[0];
   var context = canvas.getContext('2d');
   context.clearRect(0,0,canvas.width, canvas.height);
   var mousex;         // global mouse position x coord
@@ -47,7 +47,7 @@ function setUpNL(name, editable, movable, which) {
 
            },
     addsub : function(){
-               num=parseInt($("#"+name).attr("value"));
+               num=parseInt($("#"+canname+"_"+name).attr("value"));
                this.curnum=num;
                leftpos=0;
                if(num >= this.mid && num <= this.mid+this.diff*(canvas.width-2*off)/(2*this.ewid*this.snum)){
@@ -275,9 +275,9 @@ function setUpNL(name, editable, movable, which) {
            }
   }
   malNumLine.draw("frac");
-  malNumLine.diff=parseInt($("#bigdiv").attr("value"));
+  malNumLine.diff=parseInt($("#"+canname+"_bigdiv").attr("value"));
   if(which=="inpval"){
-    malNumLine.inputfield(parseInt($("#inp").attr("value")));
+    malNumLine.inputfield(parseInt($("#"+canname+"_inp").attr("value")));
   }
   if(which=="movinp"){
     malNumLine.addsub();
@@ -289,7 +289,7 @@ function setUpNL(name, editable, movable, which) {
   if( malNumLine.edit ){
     malNumLine.drawZBar();
   }
-  $('#nlcanvas').mousedown(function (e) { 
+  $('#'+canname).mousedown(function (e) { 
     // downx and y have many uses
     initdownx=mousex;
     downx = mousex;
@@ -297,13 +297,15 @@ function setUpNL(name, editable, movable, which) {
     mousedown=true;
   });
 
-  $('#nlcanvas').mouseup(function (e) { 
+  $('#'+canname).mouseup(function (e) { 
     if(which=="movinp"){
       if(malNumLine.initpos > mousex){
-      $("#"+name).attr("value", malNumLine.curnum+Math.floor((downx-initdownx)/malNumLine.ewid));
+      $("#"+canname+"_"+name).attr("value", malNumLine.curnum+Math.round((downx-initdownx)/malNumLine.ewid));
+      $("#"+name).attr("value", malNumLine.curnum+Math.round((downx-initdownx)/malNumLine.ewid));
       }
       else{
-      $("#"+name).attr("value", malNumLine.curnum+Math.ceil((downx-initdownx)/malNumLine.ewid));
+      $("#"+canname+"_"+name).attr("value", malNumLine.curnum+Math.round((downx-initdownx)/malNumLine.ewid));
+      $("#"+name).attr("value", malNumLine.curnum+Math.round((downx-initdownx)/malNumLine.ewid));
       }
       context.clearRect(0,0,canvas.width, canvas.height);
       malNumLine.draw("dec");
@@ -321,7 +323,7 @@ function setUpNL(name, editable, movable, which) {
     mousex = e.pageX - offsetx; // - offset.left;
     mousey = e.pageY - offsety; // - offset.top;
   }
-  $('#nlcanvas').mousemove(function (e) { 
+  $('#'+canname).mousemove(function (e) { 
     // mousex and mousey are used for many things, and therefore need to be in the
     // global scope.
     setMouseXY(e);

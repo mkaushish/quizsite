@@ -32,9 +32,12 @@ function addingForm(name, n1, n2, sign){
   $("#in"+(lt-1)).select();
   tot=[];
   $(".inps").keypress(function(e){
-    tot[$(this).attr("id")[$(this).attr("id").length-1]]=String.fromCharCode(e.keyCode);
-    $(this).attr("value", String.fromCharCode(e.keyCode));
-    $("#"+name).attr("value", tot.join(""));
+    String.fromCharCode(e.keyCode)
+    if(e.keyCode > 47 && e.keyCode < 58) {
+      tot[$(this).attr("id")[$(this).attr("id").length-1]]=String.fromCharCode(e.keyCode);
+      $(this).attr("value", String.fromCharCode(e.keyCode));
+      $("#"+name).attr("value", tot.join(""));
+    }
   });
   for (var j=1; j<lt; j++)
   {

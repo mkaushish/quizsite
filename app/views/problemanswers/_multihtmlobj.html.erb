@@ -31,7 +31,7 @@
   <% end %>
 
 <% elsif multihtmlobj.is_a? BarGraphField %>
-  <div class="incorrect">
+  <div class="correct">
     <canvas id=datacanvas height=350 width=400>
     </canvas>
     <%= hidden_field_tag('edit', "noedit") %>
@@ -50,6 +50,27 @@
       setUpDataGr("datacanvas", "table");
     </script>
   </div>
+  <% unless multihtmlobj.correct?(@solution, @response) then %>
+    <div class="incorrect">
+      <canvas id=datacanvasin height=350 width=400>
+      </canvas>
+      <%= hidden_field_tag('edit', "noedit") %>
+      <%= hidden_field_tag('type', "basicbar") %>
+      <%= hidden_field_tag('editdivs', multihtmlobj.editdivs) %>
+      <%= hidden_field_tag('divs', multihtmlobj.divs) %>
+      <table id=tablein style="display:none">
+        <% multihtmlobj.obs.length.times do |row| %>
+          <tr>
+            <td><%= hidden_field_tag("#{multihtmlobj.name}_#{row}_name", multihtmlobj.obs[row]) %></td>
+            <td><%= hidden_field_tag("#{multihtmlobj.name}_#{row}", @response["#{multihtmlobj.name}_#{row}"]) %></td>
+          </tr>
+        <% end %>
+      </table>
+      <script>
+        setUpDataGr("datacanvasin", "tablein");
+      </script>
+    </div>
+  <% end%>
 <% elsif multihtmlobj.is_a? TallyMarksField %>
   <div class="incorrect">
     <canvas id=datacanvas height=350 width=400>
@@ -68,34 +89,91 @@
       setUpDataGr("datacanvas", "table");
     </script>
   </div>
+  <% unless multihtmlobj.correct?(@solution, @response) then %>
+    <div class="correct">
+      <canvas id=datacanvasin height=350 width=400>
+      </canvas>
+      <%= hidden_field_tag('edit', "noedit") %>
+      <%= hidden_field_tag('type', "tally") %>
+      <table id=tablein style="display:none">
+        <% multihtmlobj.obs.length.times do |row| %>
+          <tr>
+            <td><%= hidden_field_tag("#{multihtmlobj.name}_#{row}_name", multihtmlobj.obs[row]) %></td>
+            <td><%= hidden_field_tag("#{multihtmlobj.name}_#{row}", @response["#{multihtmlobj.name}_#{row}"]) %></td>
+          </tr>
+        <% end %>
+      </table>
+      <script>
+        setUpDataGr("datacanvasin", "tablein");
+      </script>
+    </div>
+  <% end%>
 <% elsif multihtmlobj.is_a? InpNumberLine %>
-  <div class="incorrect">
+  <div class="correct">
     <div id=nline style="position:relative; width:450px; height:200px">
       <canvas id="nlcanvas" height="100" width="450"> 
       Your browser does not support the HTML5 Canvas feature. This app uses new HTML5 features and will only work on the latest versions of Firefox, Safari or Chrome (and maybe Internet Explorer 9).         
       </canvas>   
-      <%=hidden_field_tag("inp", "#{multihtmlobj.val}")%>
-      <%=hidden_field_tag("bigdiv", multihtmlobj.bigdiv)%>
-      <%=hidden_field_tag(multihtmlobj.name, @solution["#{multihtmlobj.name}"])%>
+      <%=hidden_field_tag("nlcanvas_bigdiv", multihtmlobj.bigdiv)%>
+      <%=hidden_field_tag("nlcanvas_"+multihtmlobj.name, @solution["#{multihtmlobj.name}"])%>
       <script>
-        setUpNL("<%=multihtmlobj.name%>", false, false, "movinp");
+        setUpNL("nlcanvas", "<%=multihtmlobj.name%>", false, false, "movinp");
         $("#nlcanvas").unbind("mousemove");
       </script>
     </div>
   </div>
+  <% unless multihtmlobj.correct?(@solution, @response) then %>
+    <div class="incorrect">
+      <div id=nline style="position:relative; width:450px; height:200px">
+        <canvas id="nlcanvasin" height="100" width="450"> 
+        Your browser does not support the HTML5 Canvas feature. This app uses new HTML5 features and will only work on the latest versions of Firefox, Safari or Chrome (and maybe Internet Explorer 9).         
+        </canvas>   
+        <%=hidden_field_tag("nlcanvasin_bigdiv", multihtmlobj.bigdiv)%>
+        <%=hidden_field_tag("nlcanvasin_"+multihtmlobj.name, @response["#{multihtmlobj.name}"])%>
+        <script>
+          setUpNL("nlcanvasin", "<%=multihtmlobj.name%>", false, false, "movinp");
+          $("#nlcanvasin").unbind("mousemove");
+        </script>
+      </div>
+    </div>
+  <% end%>
 <% elsif multihtmlobj.is_a? MovNumberLine %>
-  <div class="incorrect">
+  <div class="correct">
     <div id=nline style="position:relative; width:450px; height:200px">
       <canvas id="nlcanvas" height="100" width="450"> 
       Your browser does not support the HTML5 Canvas feature. This app uses new HTML5 features and will only work on the latest versions of Firefox, Safari or Chrome (and maybe Internet Explorer 9).         
       </canvas>   
-      <%=hidden_field_tag("inp", "#{multihtmlobj.val}")%>
-      <%=hidden_field_tag("bigdiv", multihtmlobj.bigdiv)%>
-      <%=hidden_field_tag(multihtmlobj.name, @solution["#{multihtmlobj.name}"])%>
+      <%=hidden_field_tag("nlcanvas_bigdiv", multihtmlobj.bigdiv)%>
+      <%=hidden_field_tag("nlcanvas_"+multihtmlobj.name, @solution["#{multihtmlobj.name}"])%>
       <script>
-        setUpNL("<%=multihtmlobj.name%>", false, false, "movinp");
+        setUpNL("nlcanvas","<%=multihtmlobj.name%>", false, false, "movinp");
         $("#nlcanvas").unbind("mousemove");
       </script>
     </div>
   </div>
+  <% unless multihtmlobj.correct?(@solution, @response) then %>
+  <div class="incorrect">
+    <div id=nline style="position:relative; width:450px; height:200px">
+      <canvas id="nlcanvasin" height="100" width="450"> 
+      Your browser does not support the HTML5 Canvas feature. This app uses new HTML5 features and will only work on the latest versions of Firefox, Safari or Chrome (and maybe Internet Explorer 9).         
+      </canvas>   
+      <%=hidden_field_tag("nlcanvasin_bigdiv", multihtmlobj.bigdiv)%>
+      <%=hidden_field_tag("nlcanvasin_"+multihtmlobj.name, @response["#{multihtmlobj.name}"])%>
+      <script>
+        setUpNL("nlcanvasin","<%=multihtmlobj.name%>", false, false, "movinp");
+        $("#nlcanvasin").unbind("mousemove");
+      </script>
+    </div>
+  </div>
+<%end%>
+<% elsif multihtmlobj.is_a? AddingField %>
+  <div class="correct">
+    <p>  <%=multihtmlobj.num1%></p>
+    <p>+ <%=multihtmlobj.num2%></p>
+    <p>= <%=@solution[multihtmlobj.name]%></p>
+  <% unless multihtmlobj.correct?(@solution, @response) then %>
+    <div class="incorrect">
+      <p>Your Answer = <%=@response[multihtmlobj.name]%></p>
+    </div>
+  <% end%>
 <% end %>

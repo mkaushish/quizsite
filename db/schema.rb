@@ -23,22 +23,22 @@ ActiveRecord::Schema.define(:version => 20120720213034) do
   add_index "class_assignments", ["student_id"], :name => "index_class_assignments_on_student_id"
 
   create_table "classrooms", :force => true do |t|
-    t.string   "name",       :limit => nil
+    t.string   "name"
     t.integer  "teacher_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
   create_table "delayed_jobs", :force => true do |t|
-    t.integer  "priority",                  :default => 0
-    t.integer  "attempts",                  :default => 0
+    t.integer  "priority",   :default => 0
+    t.integer  "attempts",   :default => 0
     t.text     "handler"
     t.text     "last_error"
     t.datetime "run_at"
     t.datetime "locked_at"
     t.datetime "failed_at"
-    t.string   "locked_by",  :limit => nil
-    t.string   "queue",      :limit => nil
+    t.string   "locked_by"
+    t.string   "queue"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -61,7 +61,7 @@ ActiveRecord::Schema.define(:version => 20120720213034) do
     t.datetime "created_at"
     t.datetime "updated_at"
     t.integer  "user_id"
-    t.string   "pclass",     :limit => nil
+    t.string   "pclass"
     t.float    "time_taken"
   end
 
@@ -78,9 +78,9 @@ ActiveRecord::Schema.define(:version => 20120720213034) do
   create_table "quiz_users", :force => true do |t|
     t.integer "quiz_id"
     t.integer "user_id"
-    t.string  "s_problem_order", :limit => nil
-    t.integer "problem_id",                     :default => -1
-    t.integer "num_attempts",                   :default => 0
+    t.string  "s_problem_order"
+    t.integer "problem_id",      :default => -1
+    t.integer "num_attempts",    :default => 0
   end
 
   add_index "quiz_users", ["quiz_id", "user_id"], :name => "index_quiz_users_on_quiz_id_and_user_id", :unique => true
@@ -92,25 +92,25 @@ ActiveRecord::Schema.define(:version => 20120720213034) do
     t.integer  "user_id"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.string   "name",         :limit => nil
-    t.string   "type",         :limit => nil
+    t.string   "name"
+    t.string   "type"
   end
 
   add_index "quizzes", ["user_id", "name"], :name => "index_quizzes_on_user_id_and_name", :unique => true
 
   create_table "users", :force => true do |t|
-    t.string   "name",               :limit => nil
-    t.string   "email",              :limit => nil
-    t.string   "perms",              :limit => nil
+    t.string   "name"
+    t.string   "email"
+    t.string   "perms"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.string   "encrypted_password", :limit => nil
-    t.string   "salt",               :limit => nil
+    t.string   "encrypted_password"
+    t.string   "salt"
     t.binary   "pscores"
     t.binary   "smartscores"
-    t.string   "confirmation_code",  :limit => nil
-    t.boolean  "confirmed",                         :default => false
-    t.string   "type",               :limit => nil
+    t.string   "confirmation_code"
+    t.boolean  "confirmed",          :default => false
+    t.string   "type"
   end
 
   add_index "users", ["email"], :name => "index_users_on_email", :unique => true
