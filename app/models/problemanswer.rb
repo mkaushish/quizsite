@@ -17,7 +17,7 @@ class Problemanswer < ActiveRecord::Base
   belongs_to :problem
   belongs_to :user
 
-  attr_accessible :problem, :problem_id, :response,  :correct
+  attr_accessible :problem, :problem_id, :response,  :correct, :time_taken
 
   validates :problem_id, :presence => true
   validates :user_id,    :presence => true
@@ -26,7 +26,6 @@ class Problemanswer < ActiveRecord::Base
   before_save :bef_save
   
   def bef_save
-    $stderr.puts "hwqlkhewkqh"*100
     dump_response
     self.pclass=self.problem.prob.class.to_s
   end

@@ -147,12 +147,12 @@ module Chapter8
       while @num % 10==0
         @num=(rand(10000) + 100)
       end
-      puts @num
+#      puts @num
       @div=rand(3)+1
     end
     def solve
       intpart=@num/(10**@div)
-      puts rem=(@num-intpart*(10**@div))
+#      puts rem=(@num-intpart*(10**@div))
       hcf=Grade6ops::euclideanalg(rem , 10**@div)
       { "intpart" => intpart.to_s,
         "num" => (rem/hcf).to_s,

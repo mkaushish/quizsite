@@ -1,8 +1,20 @@
 <%# I am a form for displaying a quiz page - I will create a NEW problemanswer %>
 <%= form_tag({:action => 'create'}, :autocomplete => "off") do %>
 	<%= hidden_field_tag 'problem_id', @problem.id %>
+  <%= hidden_field_tag 'time_taken', 0.0 %>
   <%= render :partial => 'problem/problem', :object => @problem, :locals => {:partialdir => 'problem'} %>
 	<div class="actions">
     <%= submit_tag "Submit Answer", :class=>"btn-primary" %>
 	</div>
 <% end %>
+<script>
+  function updateClock(s) {
+    return function() {
+      t = parseFloat($('#time_taken').attr('value'))
+      t += s
+      $('#time_taken').attr('value', t);
+    }
+  }
+  decisecondTimer = updateClock(0.1);
+  setInterval("decisecondTimer()", 100);
+</script>

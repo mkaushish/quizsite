@@ -5,12 +5,7 @@ class ApplicationController < ActionController::Base
   include SessionsHelper
   include ApplicationHelper
 
-  @@all_chapters = [CricketQuestions, Chapter1, Chapter2, Chapter3, Chapter4, Chapter6, Chapter7, Chapter8, Chapter9, Chapter10, Geo, Physics]
-  def get_next_ptype
-    plist = get_probs
-    plist = all_probs if plist.empty?
-    ptype = plist.sample
-  end
+  @@all_chapters = CHAPTERS
 
   private
 
@@ -22,5 +17,9 @@ class ApplicationController < ActionController::Base
 
   def dec_prob(p)
     Marshal.load(p)
+  end
+
+  def authenticate
+    deny_access unless signed_in?
   end
 end

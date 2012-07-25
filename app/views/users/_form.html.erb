@@ -1,5 +1,17 @@
 <%= form_for @user, :remote => true do |f| %>
   <div class=row-fluid id="register-disable">
+    <!--
+    <div class=formfield>
+      <lable for=role> I am a: </lable>
+      <% ['Student', 'Teacher'].each do |role| %>
+        <div style="display:inline-block; margin-left:10px;">
+          <%= radio_button_tag :role, role %>
+          <%= role %>
+        </div>
+      <% end %>
+    </div>
+    -->
+    <%= hidden_field_tag :role, "Student" %>
     <div class=formfield>
       <%= f.label :name %>
       <%= f.text_field :name, :placeholder => "Name" %> <span id="user_name_e"></span>

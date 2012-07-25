@@ -450,9 +450,9 @@ module Chapter7
             @sig[i-1]=-1 if @sig[i-1]==0
           end
         end
-        puts @num.to_s
-        puts @den.to_s
-        puts @sig.to_s
+#        puts @num.to_s
+#        puts @den.to_s
+#        puts @sig.to_s
         sol=Grade6ops::asfractions(@num,@den,@sig)
         if sol[:num]<0
           @num << -1*sol[:num]+rand(de-2)+1

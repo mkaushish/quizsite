@@ -1,4 +1,6 @@
 class QuizzesController < ApplicationController
+  before_filter :authenticate, :except => [:show]
+
   # display PScores for the problem types / quiz ?
   def show
   end
@@ -8,24 +10,37 @@ class QuizzesController < ApplicationController
     stop_quiz
     @nav_selected = "makequiz"
     @chosen_probs = get_probs
-    @chapter = CricketQuestions
+    @chapter = Chapter1
   end
 
   # change the problem types in a quiz
   def edit
     @nav_selected = "makequiz"
     @quiz = Quiz.find(params[:id])
+
+    unless @quiz.user_id == current_user.id
+      deny_access
+    end
     set_quiz @quiz
     @chosen_probs = get_probs
-    @chapter = CricketQuestions
+    @chapter = Chapter1
   end
 
   # POST /quiz
   def create
-    @quiz = current_user.quizzes.new(
-      :problemtypes => get_quizprobs_from_params(params),
-      :name => params["quiz_name"]
-    )
+    if current_user.is_a?(Teacher)
+      @quiz = current_user.homeworks.new(
+        :problemtypes => get_quizprobs_from_params(params),
+        :name => params["quiz_name"]
+      )
+    elsif current_user.is_a?(Student)
+      @quiz = current_user.practice_sets.new(
+        :problemtypes => get_quizprobs_from_params(params),
+        :name => params["quiz_name"]
+      )
+    else
+      render :js => "window.location = '/'"
+    end
 
     if @quiz.save
       set_quiz(@quiz)
@@ -42,14 +57,13 @@ class QuizzesController < ApplicationController
   # PUT /quiz/:id
   def update
     @quiz = Quiz.find(params[:id])
-    unless @quiz.user == current_user
+    unless is_owner(@quiz)
       adderror "You can only edit your own quizzes!"
       redirect_to profile_path
     end
 
-    dumped_quiz_problems = get_quizprobs_from_params(params)
+    @quiz.problemtypes = get_quizprobs_from_params(params)
 
-    @quiz.problemtypes = dumped_quiz_problems
     if @quiz.save
       redirect_to profile_path
     else
@@ -61,7 +75,10 @@ class QuizzesController < ApplicationController
   # DELETE /quizzes/1
   def destroy
     @quiz = Quiz.find(params[:id])
-    @quiz_id = @quiz.idname
+    unless is_owner(@quiz)
+      adderror "You can only edit your own quizzes!"
+      redirect_to profile_path
+    end
 
     @quiz.destroy
     if current_user.quizzes.empty?
@@ -72,6 +89,10 @@ class QuizzesController < ApplicationController
   end
 
   private
+
+  def is_owner(quiz)
+    quiz.user_id == current_user.id
+  end
 
   def get_quizprobs_from_params(params)
     quiz_problems = []

@@ -31,16 +31,12 @@ class ProblemanswersController < ApplicationController
     respond_to do |format|
       format.html # show.html.erb
       format.json { render json: @problemanswer }
-  end
+    end
   end
 
   # GET /problemanswers/new
   # GET /problemanswers/new.json
   def new
-
-    #$stderr.puts ":"*100
-    #$stderr.puts session.inspect
-
     if !params[:quizid].nil?
       quiz = Quiz.find(params[:quizid])
       unless quiz.nil?
@@ -48,12 +44,9 @@ class ProblemanswersController < ApplicationController
       end
     end
 
-    ptype = get_next_ptype
+    redirect_to root_path && return unless signed_in? && in_quiz?
 
-    @problem = Problem.new
-    @problem.my_initialize(ptype)
-    @problem.save
-
+    @problem = next_problem
     @nav_selected = "quiz"
 
     #$stderr.puts "#"*30 + "\n" + @problem.prob.text.inspect
@@ -85,13 +78,16 @@ class ProblemanswersController < ApplicationController
   def create
     @problem = Problem.find(params["problem_id"])
     @problem.load_problem
+    time = params["time_taken"].to_f
+    last_correct = @problem.correct?(params)
 
     @problemanswer = current_user.problemanswers.new(
-                        :problem  => @problem, 
-                        :correct  => @problem.correct?(params),
+                        :problem  => @problem,
+                        :time_taken => time,
+                        :correct  => last_correct,
                         :response => @problem.get_packed_response(params))
 
-    flash[:last_correct] = @problemanswer.correct
+    flash[:last_correct] = last_correct
     flash[:last_id] = @problemanswer.id
 
     #$stderr.puts "\n\n#{"#"*30}\n#{@problem.text}"
@@ -99,7 +95,9 @@ class ProblemanswersController < ApplicationController
     #$stderr.puts "params = #{params.inspect}\n#{"#"*30}\n"
 
     if @problemanswer.save
-      if @problemanswer.correct
+      increment_problem(last_correct)
+
+      if last_correct
         redirect_to :action => 'new'
       else
         redirect_to @problemanswer

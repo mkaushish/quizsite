@@ -5,7 +5,7 @@ require_relative 'grade6/grade6ops'
 require_relative 'grade6/preg6'
 
 require_relative 'grade6/geo'
-require_relative 'grade6/crqu'
+#require_relative 'grade6/crqu'
 require_relative 'grade6/physics'
 require_relative 'grade6/c1'
 require_relative 'grade6/c2'
@@ -36,6 +36,6 @@ CHAPTERS = [
 #  Chapter12,
   Geo,
   Physics,
-  CricketQuestions
+#  CricketQuestions
 ]
 

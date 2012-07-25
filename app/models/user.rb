@@ -54,7 +54,8 @@ class User < ActiveRecord::Base
   attr_accessible :email, :name, :password, :password_confirmation
 
   has_many :problemanswers, :dependent => :destroy
-  has_many :quizzes,        :dependent => :destroy
+  has_many :quiz_users
+  has_many :quizzes, :through => :quiz_users
 
   validates :name, :presence => true,
                    :length => { :maximum => 50 }
@@ -66,17 +67,9 @@ class User < ActiveRecord::Base
   validates :password, :presence => true,
                        :confirmation => true,
                        :length => { :within => 6..40 }
-  
-  before_save  :encrypt_password
-  after_create :set_defaults
 
-  def set_defaults
-    # default_values
-    add_default_quizzes
-    new_code
-    save
-    true
-  end
+  before_save  :encrypt_password
+  before_create :generate_confirmation_code
 
   def self.authenticate(email, submitted_password)
     user = find_by_email(email)
@@ -100,7 +93,7 @@ class User < ActiveRecord::Base
     return (problemanswers.where(:correct => true, :pclass => ptype.to_s).length*100)/problemanswers.where(:pclass => ptype.to_s).length
   end
 
-  def new_code
+  def generate_confirmation_code
     # TODO generate confirmation code in a more secure way? necessary?
     # rand is prob like 10 digits, + Time.now gives us a fair amount of security... I hope
     self.confirmation_code = secure_hash "#{Time.now.utc}--#{rand}"
@@ -139,13 +132,6 @@ class User < ActiveRecord::Base
 
   def secure_hash(string)
     Digest::SHA2.hexdigest(string)
-  end
-
-  def add_default_quizzes
-    # Add a default quiz for each chapter
-    CHAPTERS.each do |chapter|
-      quizzes.create!(:problemtypes => Marshal.dump(chapter::PROBLEMS), :name => chapter.to_s)
-    end
   end
 
   def default_values

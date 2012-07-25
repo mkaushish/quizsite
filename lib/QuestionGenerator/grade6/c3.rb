@@ -23,7 +23,7 @@ module Chapter3
         if rand() < 0.4
           @num = ODDPRIMES.slice(0,24).sample
         else
-          @num=rand(100+2) if @wh==1
+          @num=rand(100+2)
         end
       else
         @num = num
@@ -169,7 +169,10 @@ module Chapter3
       end
     end
     def explain
-      [@f1, @f2, Subproblem.new([TextLabel.new("What are the factors in common between these two?"), TextField.new("ans")], solve)]
+      [ @f1, @f2, 
+        Subproblem.new([TextLabel.new("Which numbers are in both of the above lists?"), MultiTextField.new("ans")], soln),
+        SubLabel.new("These are the common factors of #{@f1.nums.reduce(:*)} and #{@f2.nums.reduce(:*)}!")
+      ]
     end
     def solve
       fac1 = Set.new(Grade6ops::factors(@f1.nums))
@@ -260,11 +263,11 @@ module Chapter3
     end
     def explain
       if @sdiv!=1
-        ret=[Subproblem.new(["What are the last #{@sdiv} digits of  #{@num}", TextField.new("lastdig", "Last #{@sdiv} digit(s)")], {"lastdig" => solve["lastdigit"]})]
+        ret=[Subproblem.new([TextLabel.new("What are the last #{@sdiv} digits of  #{@num}"), TextField.new("lastdig", "Last #{@sdiv} digit(s)")], {"lastdig" => solve["lastdigit"]})]
       else
-        ret=[Subproblem.new(["What is the last digit of  #{@num}", TextField.new("lastdig", "Last #{@sdiv} digit(s)")], {"lastdig" => solve["lastdigit"]})]
+        ret=[Subproblem.new([TextLabel.new("What is the last digit of  #{@num}"), TextField.new("lastdig", "Last #{@sdiv} digit(s)")], {"lastdig" => solve["lastdigit"]})]
       end
-      ret << Subproblem.new(["Does #{2**@sdiv} divide #{solve["lastdigit"]}", RadioButton.new("div", "Divisible", "Not Divisible")],{"div" =>solve["divisible"]})
+      ret << Subproblem.new([TextLabel.new("Does #{2**@sdiv} divide #{solve["lastdigit"]}"), RadioButton.new("div", "Divisible", "Not Divisible")],{"div" =>solve["divisible"]})
       ret << Subproblem.new([TextLabel.new("Since #{solve["lastdigit"]} is #{solve["divisible"]} by #{2**@sdiv}, #{@num} is #{solve["divisible"]} by #{2**@sdiv}")])
       ret  
     end
@@ -306,24 +309,24 @@ module Chapter3
     def initialize
       @num =Grade6ops::divgen(5)
     end
+
     def solve 
-      lastd = @num-(@num/(10))*(10)
-      k = "Not Divisible" 
-      k = "Divisible" if lastd == 5 || lastd == 0
-      return {"lastdigit" => lastd.to_s,
-        "divisible" => k}
+      { "lastdigit" => @num.to_s.last,
+        "divisible" => (@num % 5 == 0) ? "Divisible" : "Not Divisible"
+      }
     end
+
     def text
       [TextLabel.new("Test if #{@num} is divisible by 5"), TextField.new("lastdigit", "Important Information"), Dropdown.new("divisible", "Divisible", "Not Divisible")]
     end
 
     def explain
-      ret=[Subproblem.new(["What is the last digit of  #{@num}", TextField.new("lastdig", "Last digit")], {"lastdig" => solve["lastdigit"]})]
-      if solve["divisible"]=="Divisible"
-        ret << Subproblem.new([TextLabel.new("Since the last digit is #{solve["lastdigit"]}, #{@num} is divisible by 5")])
-      else
-        ret << Subproblem.new([TextLabel.new("Since the last digit is #{solve["lastdigit"]} and not 0 or 5, #{@num} is not divisible by 5")])
-      end  
+      final_ans = (@num % 5 == 0) ? "is" : "isn't"
+      ret = [ Subproblem.new( [ TextLabel.new("A number is divisible by 5 if it's last digit is divisible by 5.  Theferore the last digit is the important piece of information.  Is #{@num.to_s.last} divisible by 5?"), 
+                                Dropdown.new("ans", "Yes", "No")], {"ans" => (@num % 5 == 0) ? "Yes" : "No" }),
+
+              SubLabel.new("Therefore #{@num} #{final_ans} divisible by 5")
+      ]
     end
   end
 
@@ -364,6 +367,7 @@ module Chapter3
     def initialize
       @num =Grade6ops::divgen(11)
     end
+
     def solve 
       @odddig = 0
       @evendig = 0
@@ -380,10 +384,37 @@ module Chapter3
       return {"difference" => dif.to_s,
         "divisible" => k}
     end
+
     def explain
       solve
-      [Subproblem.new([TextLabel.new("Give the sum of the odd numbered digits of #{@num} from the right"), TextField.new("odd")],{"odd" => @odddig.to_s}),
-        Subproblem.new([TextLabel.new("Give the sum of the even numbered digits of #{@num} from the right"), TextField.new("even")],{"even" => @evendig.to_s})]
+      evens = []
+      odds = []
+      @num.to_s.split("").each_with_index { |n,i| (i % 2 == 0) ? odds << n : evens << n }
+      
+      final_ans = nil
+
+      if((@odddig - @evendig) % 11 == 0 )
+        final_ans = "Therefore #{@num} is divisible by 11. Remeber that 0 is divisible by everything!"
+      else
+        final_ans = "Therefore #{@num} is not divisible by 11"
+      end
+
+      [ SubLabel.new("To figure out if a number is divisible by 11, add up the even numbered digits counting from the right (#{evens.join(", ")}), and the odd numbered digits (#{odds.join(", ")})"),
+
+        Subproblem.new([TextLabel.new("What is the sum of the odd numbered digits of #{@num} from the right?"),  TextField.new("odd") ], {"odd"  => @odddig.to_s }),
+
+        Subproblem.new([TextLabel.new("Now give the sum of the even numbered digits of #{@num} from the right"), TextField.new("even")], {"even" => @evendig.to_s}),
+
+        Subproblem.new( [ TextLabel.new("If the sum of the odds minus the sum of the evens is divisible by 11, then the number is divisible by 11."), 
+                          TextField.new("n", "#{@odddig} - #{@evendig} = ")
+                        ], { "n" => @odddig - @evendig } ),
+
+        Subproblem.new( [ TextLabel.new("Is #{@odddig - @evendig} divisible by 11?"), RadioButton.new("ans", "yes", "no")
+                        ], { "ans" => ((@odddig - @evendig) % 11 == 0) ? "yes" : "no" } ), 
+
+        SubLabel.new(final_ans)
+
+      ]
     end
     def text
       [TextLabel.new("Test if #{@num} is divisible by 11"), TextField.new("difference", "Important Information"), Dropdown.new("divisible", "Divisible", "Not Divisible")]
@@ -656,7 +687,7 @@ module Chapter3
         @nums2=nms[1]
         @comm=nms[2]
       end
-      puts @comm
+#      puts @comm
       @lnums1=Array.new(@nums1)
       com=Array.new(@comm)
       for j in 0...com.length

@@ -89,7 +89,7 @@ module Chapter12
 			end
 			pre
       if pre.length > 2
-        puts "here"
+#        puts "here"
 			  str += pre.slice(0,pre.length-1).join(", ")+" and "+pre.last
       else str+= pre[0]
       end

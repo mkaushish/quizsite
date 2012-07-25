@@ -1,0 +1,12 @@
+<% if in_quiz? %>
+  <li><%= link_to "Stop Quiz", profile_path %></li>
+  <li class=active><%= link_to quiz_name, "#" %></li>
+  <li><%= link_to "Help", "#infoModal", "data-toggle"=>"modal" %></li>
+<% else %>
+  <li class="dropdown <%= selected?("stats") %>>"><%= link_to "Stats", "#" %></li>
+    <%= current_user.classrooms.each do |classroom| %>
+      <li><%= link_to(classroom.name, "##{classroom.name}" %></li>
+    <% end %>
+  <li class="<%= selected?("assign_homework") %>>"><%= link_to "Assign Homework", "#" %></li>
+  <li class="<%= selected?("homework_results") %>>"><%= link_to "Homework Results", "#" %></li>
+<% end %>

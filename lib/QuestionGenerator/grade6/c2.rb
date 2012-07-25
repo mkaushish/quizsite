@@ -174,20 +174,30 @@ module Chapter2
     def self.type
       "Rearrange Sum"
     end
+
     def prereq
       [[PreG6::Addition,1.0]]
     end
 
-
     def initialize
-      sums = Array.new(2).map { rand(90) * 10**2 + 1000 }
-      init_nums(sums)
+      odd_summand  = (rand(70) + 20) * 10 + 1 + rand(9)
+
+      @nice_summand = (rand(7) + 6) * 100 # 600-1200
+
+      @part = rand(@nice_summand / 3) + (@nice_summand / 6)
+      @part += 1 + rand(9) if @part % 10 == 0
+
+      @summands = [ odd_summand, @nice_summand - @part, @part ].shuffle
     end
 
-    # solve defined in RearrangementHelper
+    def solve
+      { 'ans' => [ @nice_summand - @part, @part, @summands.reduce(:+) - @nice_summand ] }
+    end
 
     def text
-      "Write out the numbers that you would add together first out of the following: #{num_array}"
+      [ TextLabel.new("Drag the numbers you would add first to the first two places below"), 
+        PermutationDrag.new('ans', @summands)
+      ]
     end
 
     def get_elts(sum)
@@ -196,37 +206,45 @@ module Chapter2
     end
   end
 
-  class SuitableRearrangementProduct < RearrangementHelper
+  class SuitableRearrangementProduct < QuestionBase
     def self.type
       "Rearrange Product"
     end
+
     def prereq
       [[PreG6::Multiplication,1.0]]
     end
+
     def initialize
-      nums = [10**(rand(3) + 2), Grade6ops::rand_num(0.01, 3, 4)]
-      init_nums(nums, 0)
+      @nice_product = 10**(rand(2) + 3)
+      @product_elts = get_elts(@nice_product)
+      @random_elt   = Grade6ops::rand_num(0.01, 2, 3)
+      @nums = (@product_elts + [@random_elt]).shuffle
     end
 
-    # solve defined in RearrangementHelper
+    def solve 
+      { 'ans' => @product_elts + [@random_elt] }
+    end
 
     def text
-      "Write out the numbers that you would multiply together first out of the following: #{num_array}"
+      [ TextLabel.new("Drag the numbers you should multiply first to the first two places below"), 
+        PermutationDrag.new('ans', @nums)
+      ]
+    end
+
+    def correct?(response)
+      r1 = response[ToHTML::add_prefix 'ans_0'].to_i
+      r2 = response[ToHTML::add_prefix 'ans_1'].to_i
+      r1 * r2 == @nice_product
     end
 
     def get_elts(prod)
       pow = prod.to_s.length - 1
-      tpow = rand(pow/2)
-      fpow = pow - rand(tpow / 2 + 1)
+      pow2 = rand(pow + 1)
+      pow5 = ((3 * pow / 2 + 1) - pow2) / 2
 
-      if rand(2) == 0
-        tmp = tpow
-        tpow = fpow
-        fpow = tmp
-      end
-
-      puts "fpow = #{fpow}, tpow = #{tpow}"
-      [(2**tpow) * (5**fpow), (2**(pow - tpow)) * (5**(5 - fpow))]
+#      #puts "pow5 = #{pow5}, pow2 = #{pow2}"
+      [(2**pow2) * (5**pow5), (2**(pow - pow2)) * (5**(pow - pow5))]
     end
   end
 
@@ -244,6 +262,86 @@ module Chapter2
     def solve
       return {"ans" => (@num1+@num2).to_s}
     end
+    def explain
+      st1=@num1.to_s
+      st2=@num2.to_s
+      len1=st1.length
+      len2=st2.length 
+      if @num2 < @num1
+        slen=len2
+        blen=len1
+      else 
+        slen=len1
+        blen=len2
+      end
+      st=(@num1+@num2).to_s
+      ret=[]
+      for i in 0...slen
+        tab=TableField.new("tab_#{st.length-i-1}", 5, blen+2)
+        for j in 0...len1
+          tab.set_field(1, blen+1-j, st1[len1-1-j])
+        end
+        for j in 0...len2
+          tab.set_field(2, blen+1-j, st2[len2-1-j])
+        end
+        for j in 0...blen+2
+          tab.set_field(3, j, "_")
+        end
+        for j in 0...i
+          tab.set_field(4, blen+1-j, st[st.length-1-j])
+        end
+        if i > 0
+#          puts ((st1[len1-i].to_i+st2[len2-i].to_i)/10).to_s
+          tab.set_field(0, blen+1-i, ((st1[len1-i].to_i+st2[len2-i].to_i)/10).to_s)
+        end 
+        tab.set_field(4, blen+1-i, TextField.new("sum_#{st.length-i-1}"))
+        tab.set_field(0, blen-i, TextField.new("rem_#{st.length-i-1}"))
+        tab.set_field(2, 0, "+")
+#        puts tab
+        ret << Subproblem.new([tab], {"sum_#{st.length-1-i}" => st[st.length-i-1], "rem_#{st.length-1-i}" => ((st1[len1-1-i].to_i+st2[len2-1-i].to_i)/10).to_s})
+      end
+      for i in slen...blen
+        tab=TableField.new("tab_#{st.length-i-1}", 5, blen+2)
+        for j in 0...len1
+          tab.set_field(1, blen+1-j, st1[len1-1-j])
+        end
+        for j in 0...len2
+          tab.set_field(2, blen+1-j, st2[len2-1-j])
+        end
+        for j in 0...blen+2
+          tab.set_field(3, j, "_")
+        end
+        for j in 0...i
+          tab.set_field(4, blen+1-j, st[st.length-1-j])
+        end
+        if i == slen
+          tab.set_field(0, blen+1-i, ((st1[len1-i].to_i+st2[len2-i].to_i) % 10).to_s)
+        end 
+        tab.set_field(4, blen+1-i, TextField.new("sum_#{st.length-i-1}"))
+        tab.set_field(2, 0, "+")
+        ret << Subproblem.new([tab], {"sum_#{st.length-1-i}" => st[st.length-i-1]})
+      end
+      if st.length > blen
+       tab=TableField.new("tab_#{0}", 5, blen+2)
+        for j in 0...len1
+          tab.set_field(1, blen+1-j, st1[len1-1-j])
+        end
+        for j in 0...len2
+          tab.set_field(2, blen+1-j, st2[len2-1-j])
+        end
+        for j in 0...blen+2
+          tab.set_field(3, j, "_")
+        end
+        for j in 0...st.length-1
+          tab.set_field(4, blen+1-j, st[st.length-1-j])
+        end
+        tab.set_field(0, blen-st.length+2, st[0])
+        tab.set_field(4, blen+2-st.length, TextField.new("sum_#{0}"))
+        tab.set_field(2, 0, "+")
+        ret << Subproblem.new([tab], {"sum_#{0}" => st[0]}) 
+      end
+      ret
+    end
     def text
       [TextLabel.new("Find:"), AddingField.new("ans", @num1, @num2, "+")]
     end
@@ -251,7 +349,7 @@ module Chapter2
 
   PROBLEMS = [  
     Chapter2::WriteSuccessors,            Chapter2::WritePredecessors,
-    #Chapter2::SuitableRearrangementSum,   Chapter2::SuitableRearrangementProduct, 
+    Chapter2::SuitableRearrangementSum,   Chapter2::SuitableRearrangementProduct, 
     Chapter2::AddLargeNumbers 
   ]
 

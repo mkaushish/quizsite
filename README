@@ -78,3 +78,9 @@ Instructions for DelayedJob setup
 I assume it's already in the Gemfile, and installed
 $ rails generate delayed_job:active_record
 $ rake db:migrate
+
+Instructions for generating sample data
+---------------------------------------
+- the rake tasks for sample data are in lib/tasks
+$ rake generate:users      # adds whichever users are in the hash at the beginning of lib/tasks/sample_users
+$ rake generate:classrooms # generates classroom data for the teachers added in users, generates 2 classes of students, and sample answers for them

@@ -332,7 +332,7 @@ class Fixnum
 
         # if our digit is in one of the 10's slots (twenty, twenty thousand, twenty lahk)
         if Fixnum.send(ten, index)
-          # DEBUG $stderr.puts("10 slot: #{digit}")
+#          # DEBUG $stderr.puts("10 slot: #{digit}")
 
           if digit_as_number == 1 # we are going to do a teen
             # if it's a 10, we didn't already give the previous 0 a name
@@ -348,7 +348,7 @@ class Fixnum
 
         # elsif it's in one of the 100's slots (hundred, hundred thousand, hundred million)
         elsif Fixnum.send(hund, index)
-          # DEBUG $stderr.puts("100 slot: #{digit}")
+#          # DEBUG $stderr.puts("100 slot: #{digit}")
 
           wordrep = "#{numerals[digit_as_number]} #{numerals[100]}"
           wordrep += " and" if prev_digit != "0" || number_digits_reversed[index - 2] != "0"
@@ -356,7 +356,7 @@ class Fixnum
 
           # else we are essentially in a one's slot
         else 
-          # DEBUG $stderr.puts("1 slot: #{digit}")
+#          # DEBUG $stderr.puts("1 slot: #{digit}")
 
           wordrep_acc << numerals[digit_as_number]
         end
@@ -435,7 +435,7 @@ class Fixnum
           comm[i]=n1.slice!(rand(n1.length))
         end
       end
-      puts "[#{comm.join(", ")}]"
+#      puts "[#{comm.join(", ")}]"
       nums2=[max,max]
       while nums2.reduce(:*) > max
         nums2=Array.new(comm)
@@ -446,7 +446,7 @@ class Fixnum
         nums1=nums1.sort
         nums2=nums2.sort
       end
-      puts "[#{nums2.join(", ")}]"
+#      puts "[#{nums2.join(", ")}]"
       comm=[]
       js=0
       for i in 0...nums1.length

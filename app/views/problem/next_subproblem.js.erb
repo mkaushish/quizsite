@@ -1,4 +1,6 @@
-// first disable previous input fields and label them correct
+//
+// disable previous input fields and label them correct
+//
 var myInputs = $('#probex input:not(:submit)').filter('[type!="hidden"]')
 myInputs.attr("disabled", true);
 
@@ -11,13 +13,17 @@ checkboxes.replaceWith("<%= escape_javascript(image_tag "correct_circ_small.png"
 $('.add_mt_field').remove();
 $('.del_mt_field').remove();
 
+// delete previous expand button if it exists
+$('[href^="/problem/expand"]').hide();
+
 // " labelling them correct " ...
 var texts = myInputs.filter(':text');
 texts.css("border","2px solid green");
   
 //
 // ADD THE NEXT SUBPROBLEM IN
-$('#next_subproblem').before("<%= escape_javascript( render_subprob(@subprob, @index) ) %>");
+//
+$('#next_subproblem').before("<hr><%= escape_javascript( render_subprob(@subprob, @index) ) %>");
 
 //
 // INCREMENT OUR SUBPROBLEM INDEX IN HTML FORM
@@ -30,7 +36,10 @@ function set_subproblem_index(i) {
   full_index[0] = i;
   $('#subproblem_index').attr("value", full_index.join(":"));
 }
-set_subproblem_index(<%= @i %>)
+set_subproblem_index(<%= @i %>);
+
+// we've now had 0 attempts on this new subproblem
+$('#times_attempted').attr('value', 0);
 
 
 //

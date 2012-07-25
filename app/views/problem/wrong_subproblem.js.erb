@@ -1,0 +1,13 @@
+// Check to see if the last subproblem has already been attempted
+// if not, outline in red, and mark that it's been attempted
+//alert('wrong_subproblem: <%= exp_id @index %>');
+if( $('#times_attempted').attr('value') == '0' ) {
+  $('#times_attempted').attr('value', 1);
+  $('#<%= exp_id @index %> .problem').addClass('incorrect');
+} 
+// if so, just fill in the solution, and fill in the next subproblem...
+else {
+  //alert('filling in answer');
+  $('#times_attempted').attr('value', 2);
+  $('#<%= exp_id @index %>').html( '<%= escape_javascript( render :partial => 'problem/problem', :object => @last_prob, :locals => {:partialdir => 'problemanswers'} ) %>');
+}

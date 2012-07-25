@@ -11,64 +11,106 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120625075101) do
+ActiveRecord::Schema.define(:version => 20120720213034) do
+
+  create_table "class_assignments", :force => true do |t|
+    t.integer "classroom_id"
+    t.integer "student_id"
+  end
+
+  add_index "class_assignments", ["classroom_id", "student_id"], :name => "index_class_assignments_on_classroom_id_and_student_id", :unique => true
+  add_index "class_assignments", ["classroom_id"], :name => "index_class_assignments_on_classroom_id"
+  add_index "class_assignments", ["student_id"], :name => "index_class_assignments_on_student_id"
+
+  create_table "classrooms", :force => true do |t|
+    t.string   "name",       :limit => nil
+    t.integer  "teacher_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "delayed_jobs", :force => true do |t|
-    t.integer  "priority",   :default => 0
-    t.integer  "attempts",   :default => 0
+    t.integer  "priority",                  :default => 0
+    t.integer  "attempts",                  :default => 0
     t.text     "handler"
     t.text     "last_error"
     t.datetime "run_at"
     t.datetime "locked_at"
     t.datetime "failed_at"
-    t.string   "locked_by"
-    t.string   "queue"
+    t.string   "locked_by",  :limit => nil
+    t.string   "queue",      :limit => nil
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
   add_index "delayed_jobs", ["priority", "run_at"], :name => "delayed_jobs_priority"
 
+  create_table "hw_assignments", :force => true do |t|
+    t.integer "classroom_id"
+    t.integer "homework_id"
+  end
+
+  add_index "hw_assignments", ["classroom_id", "homework_id"], :name => "index_hw_assignments_on_classroom_id_and_homework_id", :unique => true
+  add_index "hw_assignments", ["classroom_id"], :name => "index_hw_assignments_on_classroom_id"
+  add_index "hw_assignments", ["homework_id"], :name => "index_hw_assignments_on_homework_id"
+
   create_table "problemanswers", :force => true do |t|
     t.boolean  "correct"
     t.integer  "problem_id"
+    t.binary   "response"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.string   "response"
     t.integer  "user_id"
-    t.string   "pclass"
+    t.string   "pclass",     :limit => nil
+    t.float    "time_taken"
   end
 
   add_index "problemanswers", ["user_id", "created_at"], :name => "index_problemanswers_on_user_id_and_created_at"
-  add_index "problemanswers", ["user_id", "pclass", "created_at"], :name => "index_problemanswers_on_user_id_and_type_and_created_at"
+  add_index "problemanswers", ["user_id", "pclass", "created_at"], :name => "index_problemanswers_on_user_id_and_pclass_and_created_at"
   add_index "problemanswers", ["user_id"], :name => "index_problemanswers_on_user_id"
 
   create_table "problems", :force => true do |t|
-    t.string   "problem"
+    t.binary   "problem"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
+
+  create_table "quiz_users", :force => true do |t|
+    t.integer "quiz_id"
+    t.integer "user_id"
+    t.string  "s_problem_order", :limit => nil
+    t.integer "problem_id",                     :default => -1
+    t.integer "num_attempts",                   :default => 0
+  end
+
+  add_index "quiz_users", ["quiz_id", "user_id"], :name => "index_quiz_users_on_quiz_id_and_user_id", :unique => true
+  add_index "quiz_users", ["quiz_id"], :name => "index_quiz_users_on_quiz_id"
+  add_index "quiz_users", ["user_id"], :name => "index_quiz_users_on_user_id"
 
   create_table "quizzes", :force => true do |t|
     t.binary   "problemtypes"
     t.integer  "user_id"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.string   "name"
+    t.string   "name",         :limit => nil
+    t.string   "type",         :limit => nil
   end
 
+  add_index "quizzes", ["user_id", "name"], :name => "index_quizzes_on_user_id_and_name", :unique => true
+
   create_table "users", :force => true do |t|
-    t.string   "name"
-    t.string   "email"
-    t.string   "perms"
+    t.string   "name",               :limit => nil
+    t.string   "email",              :limit => nil
+    t.string   "perms",              :limit => nil
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.string   "encrypted_password"
-    t.string   "salt"
+    t.string   "encrypted_password", :limit => nil
+    t.string   "salt",               :limit => nil
     t.binary   "pscores"
     t.binary   "smartscores"
-    t.string   "confirmation_code"
-    t.boolean  "confirmed",          :default => false
+    t.string   "confirmation_code",  :limit => nil
+    t.boolean  "confirmed",                         :default => false
+    t.string   "type",               :limit => nil
   end
 
   add_index "users", ["email"], :name => "index_users_on_email", :unique => true
