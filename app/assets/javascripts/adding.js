@@ -30,12 +30,11 @@ function addingForm(name, n1, n2, sign){
   $('#adding').append(ht);
   $('#addtable').attr("style", "background-color:transparent; font:10pt Courier;");
   $("#in"+(lt-1)).select();
+  tot=[];
   $(".inps").keypress(function(e){
-    var tot=""
-    for(var i=0; i<lt; i++){
-      tot+=$("#in"+i).attr("value");
-    }
-  $("#"+name).attr("value", tot);
+    tot[$(this).attr("id")[$(this).attr("id").length-1]]=String.fromCharCode(e.keyCode);
+    $(this).attr("value", String.fromCharCode(e.keyCode));
+    $("#"+name).attr("value", tot.join(""));
   });
   for (var j=1; j<lt; j++)
   {
