@@ -36,8 +36,9 @@ $(function() {
       this.notes=nt;
       this.com=cm;
       this.pixarr=pix;
-      this.curpage=this.notes.length-1;
-      this.createpage();
+      this.curpage=0;
+      this.nppage(1);
+      this.nppage(-1);
     },
     npad : function(){
              this.createpage();
@@ -75,11 +76,13 @@ $(function() {
     addline : function(line){
                 if(this.notes[this.curpage].length < (canvas.height-this.upper)/(this.lheight)-2){
                   this.notes[this.curpage].push(line);
+                  $("#npstr").attr("value",JSON.stringify(notepad));
                   this.displaylastline(line)
                 }
                 else {
                   this.createpage();
                   this.notes[this.curpage].push(line);
+                  $("#npstr").attr("value",JSON.stringify(notepad));
                   this.displaylastline(line);
                 }
               },
@@ -452,7 +455,12 @@ $(function() {
                }
              }
   }
-  notepad.npad();
+
+  npstr=$("#npstr").attr("value");
+  if(npstr!=null){
+    notepad=JSON.parse(npstr);
+  }
+  else{notepad.npad();}
   //$('#notes').focus();
 
   line=[];
@@ -476,6 +484,7 @@ $(function() {
       $('#comment').attr("value","");
       $('#comment').attr("style","display:none;");
       commenting=false;
+      $("#npstr").attr("value",JSON.stringify(notepad));
     }
     if(downy < canvas.height-20 && downx > 50 && downy > 50 && !commenting){
       if(pencil){
@@ -501,9 +510,13 @@ $(function() {
     notepad.nppage(1);
   });
   $('#notepad').mouseup(function (e) { 
+    if(pencil){
+      $("#npstr").attr("value",JSON.stringify(notepad));
+    }
     if(mkline){
       notepad.pixarr[notepad.curpage].push(new Array());
       notepad.pixarr[notepad.curpage][notepad.pixarr[notepad.curpage].length-1]=line;
+      $("#npstr").attr("value",JSON.stringify(notepad));
     }
     mousedown=false;
     drawing=false;
@@ -577,13 +590,13 @@ $(function() {
   $("#pencil").click(function(){
     if(pencil ){
       if(notepad.curpage==notepad.notes.length-1){
-        $("#notes").show();
+        //$("#notes").show();
         $("#notes").select();
       }
       pencil=false;
     }
     else {
-      $("#notes").hide();
+      //$("#notes").hide();
       pencil=true;
       mkline=false;
     }
@@ -591,13 +604,13 @@ $(function() {
   $("#line").click(function(){
     if(mkline){
       if(notepad.curpage==notepad.notes.length-1){
-        $("#notes").show();
+        //$("#notes").show();
         $("#notes").select();
       }
       mkline=false;
     }
     else {
-      $("#notes").hide();
+      //$("#notes").hide();
       mkline=!mkline;
       pencil=false;
     }
