@@ -9,6 +9,18 @@ class QuizUser < ActiveRecord::Base
 
   before_save   :dump_problem_order
 
+  def score(problem_counts = {})
+    ptypes = quiz.ptypes
+    count = 0
+    ptypes.each do |ptype|
+      n = problem_counts[ptype] || user.problemanswers.where(:pclass => ptype.to_s).count
+      n = 10 if n > 10
+      count += n
+    end
+
+    { :count => count, :total => (ptypes.length * 10), :percent => (count * 10) / ptypes.length }
+  end
+
   def dump_problem_order
     self.s_problem_order = Marshal.dump(@problem_order) unless @problem_order.nil?
   end

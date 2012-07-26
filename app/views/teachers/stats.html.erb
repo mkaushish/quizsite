@@ -1,8 +1,17 @@
-<div class=logo>
-  Class <%= @classroom.name %>
-</div>
-<% @students.each do |student| %>
-  <div>
-    <%= student.name %>
+<div class=row-fluid>
+  <div class=logo>
+    Class <%= @classroom.name %>
   </div>
-<% end %>
+</div>
+<div class=row-fluid>
+  <ul>
+  <% @students.each do |student| %>
+    <li>
+    <% score = @homework_assignments[student.id].last.score %>
+      <%= link_to student.name, user_path(student), :style => 'display:block' %>
+      <div style="float:right; display:inline-block;"><%= score[:count] %> / <%= score[:total] %></div>
+      <div class="<%= smartscore_class(score[:percent]) %>" style="width:<%=score[:percent]%>%; height:4px"></div>
+    </li>
+  <% end %>
+  </ul>
+</div>

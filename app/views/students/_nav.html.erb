@@ -6,12 +6,12 @@
   <li class="<%= selected?("profile")  %>"><%= link_to "My Profile", profile_path  %></li>
   <li class="<%= selected?("makequiz") %>"><%= link_to "New Quiz",  new_quiz_path %></li>
   <li class="dropdown <%= selected?("quiz") %>">
-  <%= link_to "Start Quiz", "#", :class => "dropdown-toggle", "data-toggle" => "dropdown" %>
-  <ul class="dropdown-menu nav-dropdown">
-    <% current_user.quizzes.each do |quiz| %>
-      <li><%= link_to(quiz.name, startquiz_path(:quizid => quiz.id)) %></li>
-    <% end %>
-  </ul>
+    <%= link_to "Start Quiz", "#", :class => "dropdown-toggle", "data-toggle" => "dropdown" %>
+    <ul class="dropdown-menu nav-dropdown">
+      <% current_user.quizzes.each do |quiz| %>
+        <li><%= link_to(quiz.name, startquiz_path(:quizid => quiz.id)) %></li>
+      <% end %>
+    </ul>
   </li>
   <li><%= link_to "Help", "#infoModal", "data-toggle"=>"modal" %></li>
 <% end %>

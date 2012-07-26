@@ -6,6 +6,10 @@ class Student < User
 
   after_create :add_default_quizzes
 
+  def homework_assignments
+    quiz_users.all.keep_if { |qu| Quiz.find(qu.id).is_a?(Homework) }
+  end
+
   private
 
   # Add a default quiz for each chapter

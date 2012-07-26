@@ -1,8 +1,17 @@
 class UsersController < ApplicationController
-  before_filter :authenticate, :only => [:show]
-
   def new
     @user = User.new
+  end
+
+  def show
+    @user = params[:id].nil? ? current_user : User.find(params[:id])
+
+    if @user.is_a? Teacher
+      redirect_to :stats
+    else
+      stop_quiz
+      render 'students/show'
+    end
   end
   
   # POST confirm
@@ -30,11 +39,13 @@ class UsersController < ApplicationController
 
 
     if current_user.is_a?(Student)
+      @user = current_user
       stop_quiz
-      render 'students/profile'
+      render 'students/show'
+      #show && return
 
     elsif current_user.is_a?(Teacher)
-      redirect_to :stats
+      redirect_to :action => :stats
     end
   end
 
@@ -43,8 +54,13 @@ class UsersController < ApplicationController
     @nav_selected = "stats"
 
     if current_user.is_a?(Teacher)
-      @classroom = Classroom.find params[:id]
+      @classroom = Classroom.find params[:classroom_id] || current_user.classrooms.last
       @students  = @classroom.students
+      @homework_assignments = {}
+      @classroom.homeworks.map { |hw| hw.quiz_users }.flatten.each do |qu|
+        qus = @homework_assignments[qu.user_id] ||= []
+        qus << qu
+      end
       render 'teachers/stats'
     else
       redirect_to :profile

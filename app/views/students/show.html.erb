@@ -1,8 +1,8 @@
-<% quizzes = current_user.quizzes # note that current_user should always be a student here... %>
+<% quizzes = @user.quizzes # note that @user should always be a student here... %>
 <% shownquiz = @shownquiz || quizzes.first unless quizzes.empty? %>
-<% problemanswers = current_user.problemanswers %>
+<% problemanswers = @user.problemanswers %>
 
-<div class=logo><%= current_user.name %></div>
+<div class=logo><%= @user.name %></div>
 <div class=row-fluid>
 
   <div class=span3>

@@ -8,7 +8,7 @@
       </button>
       <ul class="dropdown-menu">
         <li><%= link_to raw("<i class='icon-arrow-right'></i> Start Practicing!"), startquiz_path(:quizid => quiz.id) %></li>
-        <% if quiz.user_id == current_user.id %>
+        <% if quiz.user_id == @user.id %>
           <li><%= link_to raw("<i class='icon-pencil'></i> Change Quiz Problems"), edit_quiz_path(quiz) %></li>
           <li><%= link_to raw("<i class='icon-remove-circle'></i> Delete This Quiz"), 
             quiz_path(quiz),
@@ -26,7 +26,7 @@
       <li>
       <%= ptype.type %>
       <%= get_smartscore(ptype) %>
-      <div class="<%= smartscore_class(current_user.smartScore(ptype)) %>" style="width:<%=current_user.smartScore(ptype).to_i%>%; height:4px"></div>
+      <div class="<%= smartscore_class(@user.smartScore(ptype)) %>" style="width:<%=@user.smartScore(ptype).to_i%>%; height:4px"></div>
       </li>
       <% ct+=1 %>
     <% end %>

@@ -90,7 +90,7 @@ module ApplicationHelper
     if ptype.is_a?(Quiz)
       smartscore = ptype.smartScore
     elsif ptype < QuestionBase
-      smartscore = current_user.smartScore(ptype)
+      smartscore = (@user || current_user).smartScore(ptype)
     end
 
     color_class = smartscore_class(smartscore)
