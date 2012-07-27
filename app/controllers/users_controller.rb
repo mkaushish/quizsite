@@ -56,11 +56,15 @@ class UsersController < ApplicationController
     if current_user.is_a?(Teacher)
       @classroom = Classroom.find params[:classroom_id] || current_user.classrooms.last
       @students  = @classroom.students
+      @homeworks = @classroom.homeworks
       @homework_assignments = {}
       @classroom.homeworks.map { |hw| hw.quiz_users }.flatten.each do |qu|
-        qus = @homework_assignments[qu.user_id] ||= []
-        qus << qu
+        qus = @homework_assignments[qu.user_id] ||= {}
+        qus[qu.quiz_id] = qu
       end
+
+      # TODO this is just for the display... come up with a real value both here and in student/show
+      @shownquiz = @homeworks.where(:name => 'Chapter3')[0]
       render 'teachers/stats'
     else
       redirect_to :profile

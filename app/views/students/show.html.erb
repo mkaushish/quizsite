@@ -8,7 +8,7 @@
   <div class=span3>
     <div class='well sidebar-nav'>
       <ul class='nav nav-list quizlist'> 
-        <li class='nav-header'>Your Quizzes</li>
+        <li class='nav-header'>Your Problem Sets</li>
 
         <% quizzes.each do |quiz| %>
           <li class="fordelete_<%= quiz.idname %>">
@@ -19,7 +19,7 @@
             </li>
           <% end %>
           <li class=divider></li>
-          <li> <%= link_to "+ New Quiz", new_quiz_path %> </li>
+          <li> <%= link_to "+ New Homework", new_quiz_path %> </li>
         </ul>
       </div>
     </div>
