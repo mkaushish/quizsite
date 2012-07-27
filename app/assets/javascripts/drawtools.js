@@ -503,8 +503,9 @@ function setUpGeo() {
       var l1 = this.toSlopeInt();
       var l2 = this.toRevSlopeInt(); // give vertical lines a fighting chance for selection
 
+      // Remember! x1 and y1 are guaranteed to be in sorted order.  Not so with y1 and y2!!!
       return (Math.abs(mousex * l1.m + l1.b - mousey) < px_dist && this.x1 < mousex && mousex < this.x2)
-          || (Math.abs(mousey * l2.m + l2.b - mousex) < px_dist && this.y1 < mousey && mousey < this.y2)
+          || (Math.abs(mousey * l2.m + l2.b - mousex) < px_dist && Math.abs((this.y1 + this.y2)/2 - mousey < px_dist))
     }
 
     this.toString = function() {
