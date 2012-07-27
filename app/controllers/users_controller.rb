@@ -55,7 +55,7 @@ class UsersController < ApplicationController
 
     if current_user.is_a?(Teacher)
       @classroom = Classroom.find params[:classroom_id] || current_user.classrooms.last
-      @students  = @classroom.students
+      @students  = @classroom.students.sort { |a,b| a.name <=> b.name }
       @homeworks = @classroom.homeworks
       @homework_assignments = {}
       @classroom.homeworks.map { |hw| hw.quiz_users }.flatten.each do |qu|
