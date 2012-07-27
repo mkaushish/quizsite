@@ -1,6 +1,22 @@
 class ProblemController < ApplicationController
   include ProblemHelper
 
+  def index
+  end
+
+  def example
+    @ptype = params[:type].constantize
+
+    if @ptype < QuestionBase
+      @problem = Problem.new
+      @problem.my_initialize @ptype
+      @problem.save
+      render 'problemanswers/new'
+    else
+      redirect_to :index
+    end
+  end
+
   def explain
     @orig_prob = Problem.find(params[:id])
     @explain = @orig_prob.unpack.explanation

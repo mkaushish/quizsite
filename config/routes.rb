@@ -14,9 +14,11 @@ Quizsite::Application.routes.draw do
   post "pages/check_drawing"
   post "pages/exampleprobs"
 
+  get  "problem/index"
   post "problem/next_subproblem"
   post "problem/expand"
   match "/explain/:id" => 'problem#explain', :as => :explain
+  match "problem/example/:type" => 'problem#example', :as => :problem_example
 
   match '/profile' => 'users#profile'
   match '/stats' => 'users#stats'

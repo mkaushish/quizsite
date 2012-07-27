@@ -20,7 +20,7 @@ class Problemanswer < ActiveRecord::Base
   attr_accessible :problem, :problem_id, :response,  :correct, :time_taken
 
   validates :problem_id, :presence => true
-  validates :user_id,    :presence => true
+  #validates :user_id,    :presence => true
   validates :response,   :presence => true
 
   before_save :bef_save
