@@ -1,13 +1,14 @@
 <% if geometryfield.is_a?(GeometryField) %>
-  <div id=tools>
-    <div id="clear" data-original-title="Erase ALL the shapes you've drawn!" ></div>
-    <div id="erase" data-original-title="Erase single shapes you've drawn" ></div>
-    <div id="protractor" data-original-title="Use the protractor" ></div>
+  <div class=tools style='float:left;width:250px;'>
+    <!-- <div id="protractor" data-original-title="Use the protractor" ></div> -->
     <div id="line" data-original-title="Draw a line segment"></div>
     <div id = "compass" data-original-title="Draw a circle"></div>
-    <input type="checkbox" id="usecirclesize" style="display:none">
+    <input type="checkbox" id="usecirclesize" style="display:none" data-original-title="Save the last radius you used">
     <input type="text" id="circlesize" style="display:none" placeholder="<- lock radius">
-    <!-- button id="ruler">Ruler</button -->
+  </div>
+  <div class=tools style='float:right;width:100px;margin-right:30px;'>
+    <div id="erase" data-original-title="Erase single shapes you've drawn" ></div>
+    <div id="clear" data-original-title="Erase ALL the shapes you've drawn!" ></div>
   </div>
 <% end %>
 <div>
@@ -31,4 +32,5 @@
   $('#protractor').tooltip();
   $('#erase').tooltip();
   $('#clear').tooltip();
+  $('#usecirclesize').tooltip();
 </script>

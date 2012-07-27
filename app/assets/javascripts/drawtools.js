@@ -503,7 +503,7 @@ function setUpGeo() {
       var l1 = this.toSlopeInt();
       var l2 = this.toRevSlopeInt(); // give vertical lines a fighting chance for selection
 
-      // Remember! x1 and y1 are guaranteed to be in sorted order.  Not so with y1 and y2!!!
+      // Remember! x1 and x2 are guaranteed to be in sorted order.  Not so with y1 and y2!!!
       return (Math.abs(mousex * l1.m + l1.b - mousey) < px_dist && this.x1 < mousex && mousex < this.x2)
           || (Math.abs(mousey * l2.m + l2.b - mousex) < px_dist && Math.abs((this.y1 + this.y2)/2 - mousey < px_dist))
     }
@@ -769,7 +769,7 @@ function setUpGeo() {
   //
   function setState(newstate) {
     if(state == STATES[newstate]) { return; }
-    $('#tools div').removeClass("selected");
+    $('.tools div').removeClass("selected");
     $(STATEIDS[newstate]).addClass("selected");
     if(!(typeof state === "undefined")){
       state.deactivate();
@@ -842,17 +842,16 @@ function setUpGeo() {
     useWrittenSize : function() {
       $("#compass span").attr("style","");
       $('#compass span').text("Compass R = " + Math.round(parseFloat($("#circlesize").attr("value")),2));
-      $('#circlesize').hide();
+      $('#circlesize').attr("disabled", true);
     },
     useMakeSize : function() {
       $("#compass span").attr("style","border-right:2px solid black;");
       $('#compass span').text("Compass");
-      $('#circlesize').show();
+      $('#circlesize').attr("disabled", false);
     },
 
     activate : function() {
-      $('#usecirclesize').prop("checked", false);
-      $('#circlesize').attr("value", "");
+      $('#circlesize').show();
       $('#usecirclesize').show();
       this.useMakeSize();
       $(canvas).css('cursor', 'crosshair');
