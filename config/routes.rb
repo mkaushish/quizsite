@@ -36,7 +36,7 @@ Quizsite::Application.routes.draw do
   match '/datagr',       :to => 'pages#datagr'
   match '/notepad',       :to => 'pages#notepad'
   match '/estimate',    :to => 'pages#exampleprobs', :via => [:get, :post]
-  match '/nologinhome_3dbfabcacc12868a282be76f5d59a19813', :to => 'pages#nologinhome'
+  # match '/nologinhome_3dbfabcacc12868a282be76f5d59a19813', :to => 'pages#nologinhome'
   root                  :to => 'pages#fasthome'
 
   # The priority is based upon order of creation:
