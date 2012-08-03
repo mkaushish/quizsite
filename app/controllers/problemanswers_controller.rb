@@ -44,6 +44,12 @@ class ProblemanswersController < ApplicationController
       end
     end
 
+    if in_examples?
+      @problem = Problem.new
+      @problem.my_initialize example_type
+      @problem.save
+    end
+
     redirect_to root_path && return unless signed_in? && in_quiz?
 
     if quiz_user.force_explanation?

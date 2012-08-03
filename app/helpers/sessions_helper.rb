@@ -69,7 +69,20 @@ module SessionsHelper
     session[:problems] = myprobs.map { |p| enc_prob(p) }
   end
 
+  def set_examples(ptype)
+    session[:ptype] = ptype.to_s
+  end
+
+  def in_examples?
+    !session[:ptype].nil?
+  end
+
+  def example_type
+    session[:ptype].constantize
+  end
+
   def set_quiz(quiz)
+    session[:ptype] = nil
     session[:quizid] = quiz.id
     set_probs quiz.ptypes
   end
@@ -99,7 +112,9 @@ module SessionsHelper
 
   # increments the user's progress through the quiz based on whether they got the last problem right
   def increment_problem(last_correct)
-    quiz_user.increment_problem(last_correct)
+    if in_quiz?
+      quiz_user.increment_problem(last_correct)
+    end
   end
 
   private

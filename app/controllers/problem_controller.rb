@@ -8,11 +8,11 @@ class ProblemController < ApplicationController
     @ptype = params[:type].constantize
 
     if @ptype < QuestionBase
-      @problem = Problem.new
-      @problem.my_initialize @ptype
-      @problem.save
-      render 'problemanswers/new'
+      set_examples(@ptype)
+
+      redirect_to new_problemanswer_path
     else
+      flash[:error] = "That's not a valid problem type!"
       redirect_to :index
     end
   end

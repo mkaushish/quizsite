@@ -19,7 +19,7 @@
       <ul class="tab-pane<%= (chapter == @chapter) ? " active":"" %>" id="<%= chapter.to_s %>" >
         <% chapter::PROBLEMS.each do |problem| %>
           <li>
-          <%= link_to problem.to_s, problem_example_path(:type => problem) %>
+          <%= link_to problem.type, problem_example_path(:type => problem) %>
           </li>
         <% end %>
       </ul>

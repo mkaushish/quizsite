@@ -24,7 +24,7 @@
   <ul>
     <% quiz.ptypes.each do |ptype| %>
       <li>
-      <%= ptype.type %>
+      <%= link_to ptype.type, problem_example_path(:type => ptype), :style => 'display:block;' %>
       <%= get_smartscore(ptype) %>
       <div class="<%= smartscore_class(@user.smartScore(ptype)) %>" style="width:<%=@user.smartScore(ptype).to_i%>%; height:4px"></div>
       </li>
