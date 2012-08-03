@@ -20,7 +20,6 @@ class UsersController < ApplicationController
     @user = User.find params['id']
 
     if @user.confirmed?
-      # were confirmed before this shit...
       redirect_to root_path
 
     elsif @user.confirm(params['code'])
@@ -81,11 +80,15 @@ class UsersController < ApplicationController
     end
 
     if @user.save
-      UserMailer.delay.confirmation_email(@user) # normally this would be .deliver at the end
+      @user.confirmed = true
+      #UserMailer.delay.confirmation_email(@user) # normally this would be .deliver at the end
       # but not with the DelayedJob delay in there
       @user.save
+      sign_in @user
       $stderr.puts("I JUST SENT THE FRICKIN EMAIL GUYS")
-      render 'users/confirmjs'
+      # TODO render confirm instead after we start doing confirmations again
+      render :js => "window.location.href = '/'"
+      # render 'users/confirmjs'
     else
       @prefix = "user_"
       @errors = @user.errors

@@ -77,6 +77,6 @@ class QuizUser < ActiveRecord::Base
   end
 
   def force_explanation?
-    self.num_attempts >= 2 && self.problem_id > 0
+    self.num_attempts >= 2 && self.problem_id > 0 && Problem.find(self.problem_id).unpack.is_a?(QuestionWithExplanation)
   end
 end

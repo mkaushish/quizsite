@@ -31,7 +31,7 @@ class SessionsController < ApplicationController
                     "$('#psswfield input').select()"
     else
       sign_in user
-      render :js => "window.location = '/profile'"
+      render :js => "window.location = '/'"
     end
   end
 
