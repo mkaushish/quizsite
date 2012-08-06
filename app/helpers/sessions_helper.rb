@@ -33,6 +33,12 @@
 module SessionsHelper
   # USER RELATED
   def sign_in(user)
+    # TODO remove when/if we put confirmation back in
+    # temporarily, to confirm all users
+    unless user.confirmed
+      user.confirmed = true
+      user.save :validate => false
+    end
     cookies.permanent.signed[:remember_token] = [user.id, user.salt]
     self.current_user = user
   end
