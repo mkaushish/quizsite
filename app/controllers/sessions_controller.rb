@@ -14,10 +14,10 @@ class SessionsController < ApplicationController
     user = nil
     pssw = ""
     unless params[:email].nil?
-      user = User.find_by_email params[:email]
+      user = User.find_by_email params[:email].downcase
       pssw = params[:password]
     else
-      user = User.find_by_email params[:session][:email]
+      user = User.find_by_email params[:session][:email].downcase
       pssw = params[:session][:password]
     end
 

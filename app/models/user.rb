@@ -69,7 +69,7 @@ class User < ActiveRecord::Base
                        :length => { :within => 6..40 }
 
   before_save  :encrypt_password
-  before_create :generate_confirmation_code
+  before_create { self.email.downcase! }
 
   def self.authenticate(email, submitted_password)
     user = find_by_email(email)
@@ -93,6 +93,7 @@ class User < ActiveRecord::Base
     return (problemanswers.where(:correct => true, :pclass => ptype.to_s).length*100)/problemanswers.where(:pclass => ptype.to_s).length
   end
 
+  # TODO this is currently not being run before create
   def generate_confirmation_code
     # TODO generate confirmation code in a more secure way? necessary?
     # rand is prob like 10 digits, + Time.now gives us a fair amount of security... I hope
