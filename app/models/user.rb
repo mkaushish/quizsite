@@ -118,8 +118,10 @@ class User < ActiveRecord::Base
   private
 
   def encrypt_password
-    self.salt = make_salt unless has_password?(password)
-    self.encrypted_password = encrypt(password)
+    if self.encrypted_password.nil? || !password.nil?
+      self.salt = make_salt unless has_password?(password)
+      self.encrypted_password = encrypt(password)
+    end
   end
 
   def encrypt(string)
