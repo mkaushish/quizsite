@@ -24,9 +24,9 @@
   <ul>
     <% quiz.ptypes.each do |ptype| %>
       <li>
-      <%= link_to ptype.type, problem_example_path(:type => ptype), :style => 'display:block;' %>
+      <%= link_to ptype.type, problem_example_path(:type => ptype), :style => 'display:block;width:400px;margin:0px;float:left;' %>
       <%= get_smartscore(ptype) %>
-      <div class="<%= smartscore_class(@user.smartScore(ptype)) %>" style="width:<%=@user.smartScore(ptype).to_i%>%; height:4px"></div>
+      <div class="<%= smartscore_class(@user.smartScore(ptype)) %>" style="clear:both; width:<%=@user.smartScore(ptype).to_i%>%; height:4px"></div>
       </li>
       <% ct+=1 %>
     <% end %>

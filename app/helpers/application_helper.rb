@@ -95,7 +95,7 @@ module ApplicationHelper
 
     color_class = smartscore_class(smartscore)
 
-    return "<div class=\"smartscore\">#{smartscore}</div>".html_safe
+    return "<div class=\"smartscore\" style='float:left;'>#{smartscore}</div>".html_safe
   end
 
   # Chapter stuff
