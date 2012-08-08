@@ -130,7 +130,11 @@ class ProblemanswersController < ApplicationController
                         :response => @problem.get_packed_response(params))
       # seems this line must be repeated
       flash[:last_id] = @problemanswer.id
-      redirect_to @problemanswer
+      if @problemanswer.save
+        redirect_to @problemanswer
+      else
+        redirect_to problems_path
+      end
     end
     #respond_to do |format|
     #  if @problemanswer.save
