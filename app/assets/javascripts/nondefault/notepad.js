@@ -456,8 +456,7 @@ $(function() {
              }
   }
 
-  npstr=$("#npstr").attr("value");
-  alert(npstr);
+  npstr=$("#shownp").attr("value");
   if(npstr!=null && npstr != "" && npstr != "false" ){
     npadsv=JSON.parse(npstr);
     notepad.curpage=npadsv.curpage;

@@ -2,7 +2,6 @@
   <div class=span6>
     <div class="well">
       <!-- div id="quizheader"><%= @problem.to_s %></div -->
-      <%= hidden_field_tag "npstr", (!@problemanswer.nil? && @problemanswer.notepad) %>
       <% unless flash[:last_correct].nil? %>
         <% if flash[:last_correct] %>
           <div class="correct">You got the last one right!</div>
