@@ -69,10 +69,10 @@ drawtoolsex.png: drawtoolsex-e61c608415f36768cce7d9e044b23633.png
 drawtoolsex_450_260.png: drawtoolsex_450_260-58c125546200357efdaa72b836d3d86b.png
 drawtoolsexnew_450_260.png: drawtoolsexnew_450_260-8f1d377aba863836efe302fbfef2cc04.png
 drawtoolstext.png: drawtoolstext-7bc1e0726c16a8b7863db01652453bcb.png
-dtools_all.png: dtools_all-af464cdabdceab639f2c971b63e80879.png
+dtools_all.png: dtools_all-468e45ba82400a7ffbcf93a3ef127e79.png
 dtools_compass.png: dtools_compass-01ddb14efc75ef01761270225f44a159.png
 dtools_prot.png: dtools_prot-6662df927d51588fc3da13cd49ca46d7.png
-dtools_stedge.png: dtools_stedge-8945185b470a691632e184c7ea52477c.png
+dtools_stedge.png: dtools_stedge-c4a93a64781d47c39b4aac68ff804de6.png
 erasor.xcf: erasor-65f3ab140f6945211a315d7dafac042a.xcf
 erasor_50_90.xcf: erasor_50_90-cc01d51d947d1d9250d1eb53f1903c82.xcf
 explain_450_260.png: explain_450_260-d74fc5331a8633dbbe7fa8c9b928fa5c.png
@@ -98,6 +98,7 @@ mkgraph.xcf: mkgraph-381b9dcac6cc21dcfcf5e7181010016b.xcf
 nextarrow.png: nextarrow-b4339ede1ea80fcea45b8653d9f7c97b.png
 notepad-125-140.png: notepad-125-140-a38ce4d048f22253dbf8da771da0e05f.png
 notepad.png: notepad-dbc21e953084c1a310326549dfa1fd39.png
+pencil_tip.xcf: pencil_tip-53935c9fdd7a81e88a44f890b4140ae6.xcf
 plus.png: plus-138dcc655bc1ae87b0e5b072cb027a43.png
 prevarrow.png: prevarrow-41ad202cfe5b340560498473325fda18.png
 profilepage-450-260.png: profilepage-450-260-bf563629342a434d603d392ca47abdb5.png
@@ -113,7 +114,7 @@ woodtile.jpeg: woodtile-e6b426620a3f67e614ede94740674747.jpeg
 zoombar.png: zoombar-9a9e502345ab917084e849d52bd930fa.png
 jquery-ui.min.js: jquery-ui.min-0424e108178defa1cc794ee24fc92d24.js
 jquery.min.js: jquery.min-460459a37590253002f65e6137a90b87.js
-application.js: application-c78b91d99efb47a4afdc06622437da35.js
-application.css: application-af7d11ef92c820f78cc9d6ceffaa8c58.css
+application.js: application-35cd5ed9852ec0cf5907542e9770696e.js
+application.css: application-e2c51a4bc8ccc9b014a65f523258495f.css
 nondefault/graph.js: nondefault/graph-13a4ba99846042822ecc324e6356bd92.js
-nondefault/notepad.js: nondefault/notepad-c3e77aac8f54926ec6c050bbc1739eeb.js
+nondefault/notepad.js: nondefault/notepad-329c1de7742fde253c89013a7db2f396.js

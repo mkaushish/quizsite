@@ -17,7 +17,7 @@ class Problemanswer < ActiveRecord::Base
   belongs_to :problem
   belongs_to :user
 
-  attr_accessible :problem, :problem_id, :response,  :correct, :time_taken
+  attr_accessible :problem, :problem_id, :response,  :correct, :time_taken, :notepad
 
   validates :problem_id, :presence => true
   #validates :user_id,    :presence => true

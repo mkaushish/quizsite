@@ -457,17 +457,12 @@ $(function() {
   }
 
   npstr=$("#npstr").attr("value");
-  alert(npstr);
+<<<<<<< HEAD
+  if(npstr!=null && npstr!=""){
+=======
   if(npstr!=null && npstr != "" && npstr != "false" ){
-    npadsv=JSON.parse(npstr);
-    notepad.curpage=npadsv.curpage;
-    notepad.notes=npadsv.notes;
-    notepad.pixarr=npadsv.pixarr;
-    notepad.com=npadsv.com;
-    notepad.cline=npadsv.cline;
-    notepad.redraw();
-    notepad.addline("");
-    $('#notes').attr("style", "background-color:transparent; position:absolute; left:"+(notepad.margin+5)+"px; top:"+(notepad.upper+notepad.lheight*(notepad.notes[notepad.curpage].length))+"px; width:"+(canvas.width-notepad.margin-20)+"px");
+>>>>>>> 4821f8ad0e8592660b157b46363a688bebb3feb4
+    notepad=JSON.parse(npstr);
   }
   else{ notepad.npad();}
   //$('#notes').focus();
