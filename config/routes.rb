@@ -14,11 +14,15 @@ Quizsite::Application.routes.draw do
   post "pages/check_drawing"
   post "pages/exampleprobs"
 
+  get  "problem/index"
   post "problem/next_subproblem"
   post "problem/expand"
   match "/explain/:id" => 'problem#explain', :as => :explain
+  match "problem/example/:type" => 'problem#example', :as => :problem_example
+  match '/problems' => 'problem#index'
 
   match '/profile' => 'users#profile'
+  match '/stats' => 'users#stats'
   # match '/signup',  :to => 'users#new'
   match '/signin',      :to => 'pages#signinpage'
   match '/signout',     :to => 'sessions#destroy'
@@ -36,7 +40,7 @@ Quizsite::Application.routes.draw do
   match '/notepad',       :to => 'pages#notepad'
   match '/measure',       :to => 'pages#measure'
   match '/estimate',    :to => 'pages#exampleprobs', :via => [:get, :post]
-  match '/nologinhome_3dbfabcacc12868a282be76f5d59a19813', :to => 'pages#nologinhome'
+  # match '/nologinhome_3dbfabcacc12868a282be76f5d59a19813', :to => 'pages#nologinhome'
   root                  :to => 'pages#fasthome'
 
   # The priority is based upon order of creation:

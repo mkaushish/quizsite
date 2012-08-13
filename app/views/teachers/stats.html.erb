@@ -1,8 +1,39 @@
-<div class=logo>
-  Class <%= @classroom.name %>
-</div>
-<% @students.each do |student| %>
-  <div>
-    <%= student.name %>
+<div class=row-fluid>
+  <div class=logo>
+    Class <%= @classroom.name %>
   </div>
-<% end %>
+</div>
+<div class=row-fluid>
+  <div class=span4>
+    <div class="well sidebar-nav">
+      <ul class="nav nav-list">
+      <% @homeworks.each do |hw| %>
+        <li><%= link_to hw.name, "##{hw.idname}", 'data-toggle' => 'tab', :style => 'display:block;' %></li>
+      <% end %>
+      </ul>
+    </div>
+  </div>
+  <div class=span8>
+    <div class="tab-content">
+      <% @homeworks.each do |hw| %>
+      <div class=tab-pane id=<%= hw.idname %>>
+        <ul>
+        <% @students.each do |student| %>
+          <li>
+          <% score = @homework_assignments[student.id][hw.id].score %>
+            <%= link_to student.name, user_path(student), :style => 'display:block' %>
+            <div style="float:right; display:inline-block;"><%= score[:count] %> / <%= score[:total] %></div>
+            <div class="<%= smartscore_class(score[:percent]) %>" style="width:<%=score[:percent]%>%; height:4px"></div>
+          </li>
+        <% end %>
+        </ul>
+      </div>
+      <% end %>
+    </div>
+  </div>
+</div>
+<script>
+  $(function () {
+  $('a[href="#<%= @shownquiz.idname %>"]').tab('show');
+  })
+</script>

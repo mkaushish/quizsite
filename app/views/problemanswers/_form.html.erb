@@ -1,5 +1,5 @@
 <%# I am a form for displaying a quiz page - I will create a NEW problemanswer %>
-<%= form_tag({:action => 'create'}, :autocomplete => "off") do %>
+<%= form_tag({:controller => 'problemanswers', :action => 'create'}, :autocomplete => "off") do %>
 	<%= hidden_field_tag 'problem_id', @problem.id %>
   <%= hidden_field_tag 'time_taken', 0.0 %>
   <%= render :partial => 'problem/problem', :object => @problem, :locals => {:partialdir => 'problem'} %>

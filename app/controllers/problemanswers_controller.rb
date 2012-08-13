@@ -44,7 +44,18 @@ class ProblemanswersController < ApplicationController
       end
     end
 
+    if in_examples?
+      @problem = Problem.new
+      @problem.my_initialize example_type
+      @problem.save
+    end
+
     redirect_to root_path && return unless signed_in? && in_quiz?
+
+    if quiz_user.force_explanation?
+      redirect_to(:controller => :problem, :action => :explain, :id => quiz_user.problem_id)
+      return
+    end
 
     @problem = next_problem
     @nav_selected = "quiz"
@@ -81,30 +92,45 @@ class ProblemanswersController < ApplicationController
     time = params["time_taken"].to_f
     last_correct = @problem.correct?(params)
 
-    @problemanswer = current_user.problemanswers.new(
+    flash[:last_correct] = last_correct
+
+    if signed_in?
+      @problemanswer = current_user.problemanswers.new(
+                          :problem  => @problem,
+                          :time_taken => time,
+                          :correct  => last_correct,
+                          :response => @problem.get_packed_response(params))
+
+      #$stderr.puts "\n\n#{"#"*30}\n#{@problem.text}"
+      #$stderr.puts "#{@problem.prob.solve}"
+      #$stderr.puts "params = #{params.inspect}\n#{"#"*30}\n"
+
+      if @problemanswer.save
+        flash[:last_id] = @problemanswer.id
+        increment_problem(last_correct)
+
+        if last_correct
+          redirect_to :action => 'new'
+        else
+          if in_quiz? && quiz_user.force_explanation?
+            redirect_to explain_path(quiz_user.problem_id)
+          else
+            redirect_to @problemanswer
+          end
+        end
+      else
+        adderror("Had some trouble saving the last response")
+        redirect_to :action => 'new'
+      end
+    else
+      @problemanswer = Problemanswer.new(
                         :problem  => @problem,
                         :time_taken => time,
                         :correct  => last_correct,
                         :response => @problem.get_packed_response(params))
-
-    flash[:last_correct] = last_correct
-    flash[:last_id] = @problemanswer.id
-
-    #$stderr.puts "\n\n#{"#"*30}\n#{@problem.text}"
-    #$stderr.puts "#{@problem.prob.solve}"
-    #$stderr.puts "params = #{params.inspect}\n#{"#"*30}\n"
-
-    if @problemanswer.save
-      increment_problem(last_correct)
-
-      if last_correct
-        redirect_to :action => 'new'
-      else
-        redirect_to @problemanswer
-      end
-    else
-      adderror("Had some trouble saving the last response")
-      redirect_to :action => 'new'
+      # seems this line must be repeated
+      flash[:last_id] = @problemanswer.id
+      redirect_to @problemanswer
     end
     #respond_to do |format|
     #  if @problemanswer.save

@@ -1,6 +1,22 @@
 class ProblemController < ApplicationController
   include ProblemHelper
 
+  def index
+  end
+
+  def example
+    @ptype = params[:type].constantize
+
+    if @ptype < QuestionBase
+      set_examples(@ptype)
+
+      redirect_to new_problemanswer_path
+    else
+      flash[:error] = "That's not a valid problem type!"
+      redirect_to :index
+    end
+  end
+
   def explain
     @orig_prob = Problem.find(params[:id])
     @explain = @orig_prob.unpack.explanation

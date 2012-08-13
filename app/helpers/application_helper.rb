@@ -90,12 +90,12 @@ module ApplicationHelper
     if ptype.is_a?(Quiz)
       smartscore = ptype.smartScore
     elsif ptype < QuestionBase
-      smartscore = current_user.smartScore(ptype)
+      smartscore = (@user || current_user).smartScore(ptype)
     end
 
     color_class = smartscore_class(smartscore)
 
-    return "<div class=\"smartscore\">#{smartscore}</div>".html_safe
+    return "<div class=\"smartscore\" style='float:left;'>#{smartscore}</div>".html_safe
   end
 
   # Chapter stuff

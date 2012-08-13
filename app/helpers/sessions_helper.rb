@@ -33,6 +33,12 @@
 module SessionsHelper
   # USER RELATED
   def sign_in(user)
+    # TODO remove when/if we put confirmation back in
+    # temporarily, to confirm all users
+    unless user.confirmed
+      user.confirmed = true
+      user.save :validate => false
+    end
     cookies.permanent.signed[:remember_token] = [user.id, user.salt]
     self.current_user = user
   end
@@ -69,7 +75,20 @@ module SessionsHelper
     session[:problems] = myprobs.map { |p| enc_prob(p) }
   end
 
+  def set_examples(ptype)
+    session[:ptype] = ptype.to_s
+  end
+
+  def in_examples?
+    !session[:ptype].nil?
+  end
+
+  def example_type
+    session[:ptype].constantize
+  end
+
   def set_quiz(quiz)
+    session[:ptype] = nil
     session[:quizid] = quiz.id
     set_probs quiz.ptypes
   end
@@ -87,14 +106,21 @@ module SessionsHelper
     return !session[:quizid].nil?
   end
 
-  # NOTE for now this can only be called when (signed_in? && in_quiz?)
+  # NOTE below 3 methods can ONLY be called when (signed_in? && in_quiz?)
+  # otherwise an uncaught exception WILL BE THROWN
+  def quiz_user
+    @quiz_user ||= current_user.quiz_users.where(:quiz_id => session[:quizid].to_i)[0]
+  end
+
   def next_problem
     return quiz_user.next_problem
   end
 
   # increments the user's progress through the quiz based on whether they got the last problem right
   def increment_problem(last_correct)
-    quiz_user.increment_problem(last_correct)
+    if in_quiz?
+      quiz_user.increment_problem(last_correct)
+    end
   end
 
   private
@@ -105,9 +131,5 @@ module SessionsHelper
 
   def remember_token
     cookies.signed[:remember_token] || [nil, nil]
-  end
-
-  def quiz_user
-    current_user.quiz_users.where(:quiz_id => session[:quizid].to_i)[0]
   end
 end

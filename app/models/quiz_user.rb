@@ -9,6 +9,18 @@ class QuizUser < ActiveRecord::Base
 
   before_save   :dump_problem_order
 
+  def score(problem_counts = {})
+    ptypes = quiz.ptypes
+    count = 0
+    ptypes.each do |ptype|
+      n = problem_counts[ptype] || user.problemanswers.where(:pclass => ptype.to_s).count
+      n = 10 if n > 10
+      count += n
+    end
+
+    { :count => count, :total => (ptypes.length * 10), :percent => (count * 10) / ptypes.length }
+  end
+
   def dump_problem_order
     self.s_problem_order = Marshal.dump(@problem_order) unless @problem_order.nil?
   end
@@ -49,17 +61,22 @@ class QuizUser < ActiveRecord::Base
   end
 
   def increment_problem(last_correct)
-    # either way gen a new problem
-    self.problem_id = -1
     self.num_attempts += 1
 
-    # increment if we've had over 2 attempts, or if we get it right
-    if last_correct || self.num_attempts >= 2
+    # either way gen a new problem
+    self.problem_id = -1 unless force_explanation? && !last_correct
+
+    # increment if we get it right, or if we just went through the explanation
+    if last_correct
       self.num_attempts = 0
       problem_order.shift
       @problem_order = quiz.ptypes.shuffle if problem_order.empty?
     end
 
     save
+  end
+
+  def force_explanation?
+    self.num_attempts >= 2 && self.problem_id > 0 && Problem.find(self.problem_id).unpack.is_a?(QuestionWithExplanation)
   end
 end

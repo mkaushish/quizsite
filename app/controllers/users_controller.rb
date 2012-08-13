@@ -1,8 +1,18 @@
 class UsersController < ApplicationController
-  before_filter :authenticate, :only => [:show]
-
   def new
     @user = User.new
+  end
+
+  def show
+    @user = params[:id].nil? ? current_user : User.find(params[:id])
+
+    if @user.is_a? Teacher
+      redirect_to :stats
+    else
+      stop_quiz
+      @problemanswers = @user.problemanswers
+      render 'students/show'
+    end
   end
   
   # POST confirm
@@ -10,7 +20,6 @@ class UsersController < ApplicationController
     @user = User.find params['id']
 
     if @user.confirmed?
-      # were confirmed before this shit...
       redirect_to root_path
 
     elsif @user.confirm(params['code'])
@@ -30,11 +39,13 @@ class UsersController < ApplicationController
 
 
     if current_user.is_a?(Student)
+      @user = current_user
       stop_quiz
-      render 'students/profile'
+      render 'students/show'
+      #show && return
 
     elsif current_user.is_a?(Teacher)
-      redirect_to :stats
+      redirect_to :action => :stats
     end
   end
 
@@ -43,8 +54,17 @@ class UsersController < ApplicationController
     @nav_selected = "stats"
 
     if current_user.is_a?(Teacher)
-      @classroom = Classroom.find params[:id]
-      @students  = @classroom.students
+      @classroom = Classroom.find params[:classroom_id] || current_user.classrooms.last
+      @students  = @classroom.students.sort { |a,b| a.name <=> b.name }
+      @homeworks = @classroom.homeworks
+      @homework_assignments = {}
+      @classroom.homeworks.map { |hw| hw.quiz_users }.flatten.each do |qu|
+        qus = @homework_assignments[qu.user_id] ||= {}
+        qus[qu.quiz_id] = qu
+      end
+
+      # TODO this is just for the display... come up with a real value both here and in student/show
+      @shownquiz = @homeworks.where(:name => 'Chapter3')[0]
       render 'teachers/stats'
     else
       redirect_to :profile
@@ -60,11 +80,15 @@ class UsersController < ApplicationController
     end
 
     if @user.save
-      UserMailer.delay.confirmation_email(@user) # normally this would be .deliver at the end
+      @user.confirmed = true
+      #UserMailer.delay.confirmation_email(@user) # normally this would be .deliver at the end
       # but not with the DelayedJob delay in there
       @user.save
+      sign_in @user
       $stderr.puts("I JUST SENT THE FRICKIN EMAIL GUYS")
-      render 'users/confirmjs'
+      # TODO render confirm instead after we start doing confirmations again
+      render :js => "window.location.href = '/'"
+      # render 'users/confirmjs'
     else
       @prefix = "user_"
       @errors = @user.errors
