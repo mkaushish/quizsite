@@ -55,7 +55,7 @@ function setUpDataGr(cname, tname) {
                   drawLine(this.mg, ht-this.mg, this.mg, 0);
                   drawLine(wt, ht-this.mg, this.mg, ht-this.mg);
                   for (i = 0; i <= ((ht-this.mg) / this.scale) ; i++) {
-                    drawLine(this.mg, ht-this.mg-i*this.scale,wt, ht-this.mg-i*this.scale);
+                    drawLine(this.mg, ht-this.mg-i*this.scale,this.mg+5, ht-this.mg-i*this.scale);
                     context.textAlign="right";
                     context.fillText(this.divs*i, this.mg-1, ht-this.mg-i*this.scale+8); 
                   }

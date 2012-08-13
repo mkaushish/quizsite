@@ -354,9 +354,9 @@ $(function() {
                  }
                }
              }
+             if(exp.length==0) {return false;}
              exp[0]=exp[0].replace(/^\s+|\s+$/g, '');
              exp[1]=exp[1].replace(/^\s+|\s+$/g, '');
-             if(exp.length==0) {return false;}
              if(isNaN(Number(exp[0])) || isNaN(Number(exp[1]))){
                return false;
              }
@@ -457,7 +457,7 @@ $(function() {
   }
 
   npstr=$("#npstr").attr("value");
-  if(npstr!=null){
+  if(npstr!=null && npstr!=""){
     notepad=JSON.parse(npstr);
   }
   else{notepad.npad();}

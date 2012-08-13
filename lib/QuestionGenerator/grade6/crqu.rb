@@ -85,7 +85,7 @@ module CricketQuestions
       end
     end
     def correct?(params)
-      QuestionBase.vars_from_response("ans", params).to_fi.eq(solve["ans"])
+      QuestionBase.vars_from_response("ans", params).to_f.eq(solve["ans"])
     end  
     def image
       return @pname[0]+".png"
