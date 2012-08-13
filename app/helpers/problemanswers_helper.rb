@@ -17,4 +17,12 @@ module ProblemanswersHelper
   def correct_class(problemanswer)
     (problemanswer.correct) ? "correct" : "incorrect"
   end
+  
+  def problemanswers(user = nil)
+    user ||= current_user
+    return [] if user.nil?
+    tmp = user.problemanswers.limit(15).order('created_at DESC')
+    $stderr.puts "FISHY AFOOT" * 100 + "\n#{tmp}"
+    return tmp
+  end
 end

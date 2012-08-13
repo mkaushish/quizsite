@@ -1,6 +1,5 @@
 <% quizzes = @user.quizzes # note that @user should always be a student here... %>
 <% shownquiz = @shownquiz || quizzes.first unless quizzes.empty? %>
-<% problemanswers = @user.problemanswers %>
 
 <div class=logo><%= @user.name %></div>
 <div class=row-fluid>
@@ -48,7 +47,7 @@
     </div>
 
     <div class="span3 probh">
-      <%= render :partial => 'problemanswers/history', :locals => {:problemanswers => problemanswers} %>
+      <%= render :partial => 'problemanswers/history' %>
     </div>
 
   </div>

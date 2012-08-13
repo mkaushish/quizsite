@@ -10,7 +10,6 @@ class UsersController < ApplicationController
       redirect_to :stats
     else
       stop_quiz
-      @problemanswers = @user.problemanswers
       render 'students/show'
     end
   end
