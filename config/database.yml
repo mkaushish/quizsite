@@ -1,6 +1,6 @@
 login: &login
   adapter: postgresql
-  username: madhav
+  username: thomas
   password:
   database: smartergrades
   encoding: UTF8
