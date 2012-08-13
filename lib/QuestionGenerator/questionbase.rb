@@ -176,4 +176,6 @@ class SubLabel < Subproblem
   def self.type
     "Explanation"
   end
+
+  def solve ; {} ; end
 end

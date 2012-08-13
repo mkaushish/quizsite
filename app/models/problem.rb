@@ -11,17 +11,14 @@
 class Problem < ActiveRecord::Base
   include ApplicationHelper
   has_many :problemanswers
+  attr_writer :prob
 
-  attr_accessible :problem
+  attr_accessible :problem, :prob
 
   before_save :dump_problem
 
-  def after_find
-    load_problem
-  end
-
   def dump_problem
-    self.problem = m_pack(@prob)
+    self.problem ||= m_pack(@prob)
   end
 
   def load_problem
@@ -42,7 +39,7 @@ class Problem < ActiveRecord::Base
   end
 
   def get_response(params)
-    @response ||= @prob.get_useful_response(params)
+    @response ||= prob.get_useful_response(params)
   end
 
   def get_packed_response(params)
