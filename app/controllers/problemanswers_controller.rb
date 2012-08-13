@@ -91,6 +91,7 @@ class ProblemanswersController < ApplicationController
     @problem.load_problem
     time = params["time_taken"].to_f
     last_correct = @problem.correct?(params)
+    notepad = (params["npstr"].empty?) ? nil : params["npstr"] # in case it's the empty string 
 
     flash[:last_correct] = last_correct
 
@@ -99,7 +100,8 @@ class ProblemanswersController < ApplicationController
                           :problem  => @problem,
                           :time_taken => time,
                           :correct  => last_correct,
-                          :response => @problem.get_packed_response(params))
+                          :response => @problem.get_packed_response(params),
+                          :notepad => notepad )
 
       #$stderr.puts "\n\n#{"#"*30}\n#{@problem.text}"
       #$stderr.puts "#{@problem.prob.solve}"

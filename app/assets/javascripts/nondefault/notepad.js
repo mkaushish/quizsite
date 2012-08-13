@@ -457,10 +457,10 @@ $(function() {
   }
 
   npstr=$("#npstr").attr("value");
-  if(npstr!=null){
+  if(npstr!=null && npstr != "" && npstr != "false" ){
     notepad=JSON.parse(npstr);
   }
-  else{notepad.npad();}
+  else{ notepad.npad();}
   //$('#notes').focus();
 
   line=[];
