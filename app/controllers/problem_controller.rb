@@ -98,7 +98,7 @@ class ProblemController < ApplicationController
     $stderr.puts "PROBLEM WAS NOT SAVED BITCHES!!!!"*10 unless prob.save
     answer = current_user.problemanswers.new(
       :problem  => prob,
-      :correct  => true,
+      :correct  => @last_prob.correct?(params),
       :response => prob.get_packed_response(params))
     unless answer.save
       $stderr.puts "ANSWER WAS NOT SAVE MOFOS!!!!"*10
