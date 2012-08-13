@@ -9,7 +9,7 @@ require "date"
 
 
 class Float
-  def ==(fl)
+  def eq(fl)
 #    puts "here"
 #    puts ((to_f*100).round).to_s + ", " +((fl*100).round).to_s
     (to_f*100).round==(fl*100).round
@@ -85,7 +85,7 @@ module CricketQuestions
       end
     end
     def correct?(params)
-      QuestionBase.vars_from_response("ans", params).to_f==solve["ans"]
+      QuestionBase.vars_from_response("ans", params).to_fi.eq(solve["ans"])
     end  
     def image
       return @pname[0]+".png"
@@ -155,7 +155,7 @@ module CricketQuestions
       end
     end
     def correct?(params)
-      QuestionBase.vars_from_response("ans", params).to_f==solve["ans"]
+      QuestionBase.vars_from_response("ans", params).to_f.eq(solve["ans"])
     end  
     def image
       return @pname[0]+".png"
@@ -211,7 +211,7 @@ module CricketQuestions
       @names=@mat.slice!(0)   
     end
     def correct?(params)
-      QuestionBase.vars_from_response("ans", params).to_f==solve["ans"]
+      QuestionBase.vars_from_response("ans", params).to_f.eq(solve["ans"])
     end  
     def solve
       sum=0
@@ -288,7 +288,7 @@ module CricketQuestions
       end
     end
     def correct?(params)
-      QuestionBase.vars_from_response("ans", params).to_f==solve["ans"]
+      QuestionBase.vars_from_response("ans", params).to_f.eq(solve["ans"])
     end  
     def image
       return @pname[0]+".png"
