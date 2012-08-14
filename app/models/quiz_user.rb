@@ -14,11 +14,11 @@ class QuizUser < ActiveRecord::Base
     count = 0
     ptypes.each do |ptype|
       n = problem_counts[ptype] || user.problemanswers.where(:pclass => ptype.to_s).count
-      n = 10 if n > 10
+      n = 4 if n > 4
       count += n
     end
 
-    { :count => count, :total => (ptypes.length * 10), :percent => (count * 10) / ptypes.length }
+    { :count => count, :total => (ptypes.length * 4), :percent => (count * 100 / (ptypes.length * 4)) }
   end
 
   def dump_problem_order

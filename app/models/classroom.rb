@@ -14,7 +14,7 @@ class Classroom < ActiveRecord::Base
       #students.each { |student| tmp.allow_access(student) }
       students.each do |student| 
         blah = student.id
-        $stderr.puts "ALLOWING ACCESS FOR #{blah}" # #{student.name}, #{student.id}"
+        #$stderr.puts "ALLOWING ACCESS FOR #{blah}" # #{student.name}, #{student.id}"
         tmp.allow_access(blah) 
       end
 
@@ -23,7 +23,7 @@ class Classroom < ActiveRecord::Base
       class_assignments.create(:student => tmp)
       homeworks.each { |hw| hw.allow_access(tmp) }
     else
-      $stderr.puts "WTF THIS ISN'T SUPPOSE TO HAPPEN"
+      raise "You can assign either a Homework or a Student to a class, not a #{tmp.class}"
     end
   end
 end
