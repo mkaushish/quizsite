@@ -444,7 +444,7 @@ module Chapter4
   end
 
   PROBLEMS = [
-    Chapter4::NameLine,
+    # Chapter4::NameLine,
     Chapter4::NameAngles,
     Chapter4::NameTriangles,
     Chapter4::DefVertices,
