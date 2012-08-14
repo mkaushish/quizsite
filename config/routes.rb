@@ -1,6 +1,9 @@
 Quizsite::Application.routes.draw do
   resources :users do
-    get 'confirm', :on => :member
+    member do
+      get  'confirm'
+      post 'change_password'
+    end
   end
 
   resources :sessions, :only => [:new, :create, :destroy]
@@ -23,6 +26,7 @@ Quizsite::Application.routes.draw do
 
   match '/profile' => 'users#profile'
   match '/stats' => 'users#stats'
+  match '/change_password' => 'users#password_form'
   # match '/signup',  :to => 'users#new'
   match '/signin',      :to => 'pages#signinpage'
   match '/signout',     :to => 'sessions#destroy'
