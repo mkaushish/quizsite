@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120813140213) do
+ActiveRecord::Schema.define(:version => 20120815103043) do
 
   create_table "class_assignments", :force => true do |t|
     t.integer "classroom_id"
@@ -107,8 +107,7 @@ ActiveRecord::Schema.define(:version => 20120813140213) do
     t.datetime "updated_at"
     t.string   "encrypted_password"
     t.string   "salt"
-    t.binary   "pscores"
-    t.binary   "smartscores"
+    t.binary   "problem_stats"
     t.string   "confirmation_code"
     t.boolean  "confirmed",          :default => false
     t.string   "type"

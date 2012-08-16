@@ -1,0 +1,37 @@
+<!--
+<div class=row-fluid style='overflow:scroll'>
+  <% homework.ptypes.each do |ptype| %>
+    <div style="width:100px; float:left;">
+      <%= ptype.type %>
+    </div>
+  <% end %>
+</div>
+-->
+
+<div id='<%= homework.idname %>_stats'>
+<% @students.each do |student| %>
+  <ul id='<%=homework.idname%>_stats' style="height:14px;">
+    <li style="width:185px; height:14px; float:left;">
+      <%= student.name %>
+    </li>
+    <% homework.ptypes.each do |ptype| %>
+      <li style="float:left;width:10px;border:1px solid gray;" rel="popover" style="display:block" data-original-title="<%= student.smartScore(ptype) %>% : <%= ptype.type %>" data-content="<%= student.name %> has answered <%= student.stats(ptype)[:correct] %> / <%= student.stats(ptype)[:count] %> of these correctly">
+        <div class="<%= smartscore_class(student.smartScore(ptype)) %>" style="width:<%=student.smartScore(ptype).to_i%>%; height:14px"></div>
+      </li>
+    <% end %>
+  </ul>
+<% end %>
+</div>
+<script> 
+  stats = $('#<%= homework.idname %>_stats'); 
+  set_stat_widths(stats);
+  stats.children('ul').each( function(i) {
+    var s_stats = $(this).children('li:gt(0)'); 
+    s_stats.each( function(j) {
+      var dir = 'right'
+      if(j > (s_stats.length / 2)) { dir = 'left'; }
+      if(i < 2){ dir = 'bottom'; }
+      $(this).popover( { placement : dir } );
+    });
+  });
+</script>

@@ -52,6 +52,7 @@ class User < ActiveRecord::Base
 
   attr_accessor :password, :password_confirmation
   attr_accessible :email, :name, :password, :password_confirmation
+  serialize :problem_stats, Hash
 
   has_many :problemanswers, :dependent => :destroy
   has_many :quiz_users
@@ -69,7 +70,8 @@ class User < ActiveRecord::Base
                        :length => { :within => 6..40 }
 
   before_save  :encrypt_password
-  before_create { self.email.downcase! }
+
+  before_create lambda { self.email.downcase! ; self.problem_stats = {} }
 
   def self.authenticate(email, submitted_password)
     user = find_by_email(email)
@@ -88,9 +90,21 @@ class User < ActiveRecord::Base
   end
 
   def smartScore(ptype)
-    # TODO implement smartscore + calculations for real
-    return "?" if problemanswers.where(:pclass => ptype.to_s).length == 0
-    return (problemanswers.where(:correct => true, :pclass => ptype.to_s).length*100)/problemanswers.where(:pclass => ptype.to_s).length
+    # TODO implement smartscore + calculations for real, right now just percent
+    stats = self.stats(ptype)
+
+    return "?" if stats[:count] == 0
+    return stats[:correct] * 100 / stats[:count]
+  end
+
+  def quiz_score(quiz) 
+    sum_student = 0
+    sum_total = 0
+    quiz.ptypes.each do |ptype|
+      sum_student += smartScore(ptype).to_i # note that "?".to_i => 0
+      sum_total += 100
+    end
+    sum_student * 100 / sum_total
   end
 
   # TODO this is currently not being run before create
@@ -116,7 +130,25 @@ class User < ActiveRecord::Base
     return self.confirmed
   end
 
+  def stats(ptype)
+    self.problem_stats[ptype.to_s] || empty_stats
+  end
+
+  def update_stats(ptype, correct)
+    stats = self.stats(ptype)
+
+    stats[:count] += 1
+    stats[:correct] += 1 if correct
+    self.problem_stats[ptype] = stats
+
+    save(:validate => false)
+  end
+
   private
+
+  def empty_stats
+    { :count => 0, :correct => 0 }
+  end
 
   def encrypt_password
     if self.encrypted_password.nil? || !password.nil?

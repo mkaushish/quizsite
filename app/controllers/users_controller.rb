@@ -56,11 +56,12 @@ class UsersController < ApplicationController
       @classroom = Classroom.find params[:classroom_id] || current_user.classrooms.last
       @students  = @classroom.students.sort { |a,b| a.name <=> b.name }
       @homeworks = @classroom.homeworks
-      @homework_assignments = {}
-      @classroom.homeworks.map { |hw| hw.quiz_users }.flatten.each do |qu|
-        qus = @homework_assignments[qu.user_id] ||= {}
-        qus[qu.quiz_id] = qu
-      end
+
+      # get best/worst kids and problem types respectively for each homework
+      # @homeworks.each do |hw|
+      #   homework_scores = Hash[ @students.map { |s| [s, s.quiz_score(hw)] } ]
+      #   smartest_kids = @students.sort { |a, b| homework_scores[a] <=> homework_scores[b] }
+      # end
 
       # TODO this is just for the display... come up with a real value both here and in student/show
       @shownquiz = @homeworks.where(:name => 'Chapter3')[0]

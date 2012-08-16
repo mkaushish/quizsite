@@ -23,20 +23,23 @@ class Problemanswer < ActiveRecord::Base
   #validates :user_id,    :presence => true
   validates :response,   :presence => true
 
-  before_save :bef_save
-  
-  def bef_save
-    dump_response
-    self.pclass=self.problem.prob.class.to_s
-  end
+  before_create :dump_response
+  after_create :update_userstats
   
   def dump_response
     unless @response_hash.nil? || self.response != nil
       self.response = m_pack(@response_hash)
     end
+    self.pclass=self.problem.prob.class.to_s
   end
 
   def response_hash
     @response_hash ||= m_unpack(self.response)
+  end
+
+  private
+
+  def update_userstats
+    self.user.update_stats(self.pclass, self.correct) unless self.user.nil?
   end
 end
