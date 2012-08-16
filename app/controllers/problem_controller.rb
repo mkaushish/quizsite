@@ -40,9 +40,13 @@ class ProblemController < ApplicationController
         # $stderr.puts "Good job, you're done!"
 
         if signed_in?
-
           # end of subproblem
           if @nested
+
+            # TODO save that shit if it's a real problem type
+            save_last_problem
+
+            # increment the index
             @index.gsub! /[^:]+:/, ""
             @explain = explain_from_index(@orig_prob, @index)
             @i = @index.split(":")[0].to_i
@@ -71,6 +75,8 @@ class ProblemController < ApplicationController
 
       # still in the middle of an explanation, so increment counters and move on
       else
+        save_last_problem
+
         @i += 1
         @subprob = @explain[@i]
         @index   = "#{@i}#{@index.sub(/[^:]*/, "")}"
@@ -82,6 +88,20 @@ class ProblemController < ApplicationController
     else
       $stderr.puts "you missed the last subproblem, rendering wrong_subproblem" 
       render 'wrong_subproblem'
+    end
+  end
+
+  def save_last_problem
+    return if @last_prob.class <= Subproblem
+
+    prob = Problem.new( :prob => @last_prob )
+    $stderr.puts "PROBLEM WAS NOT SAVED BITCHES!!!!"*10 unless prob.save
+    answer = current_user.problemanswers.new(
+      :problem  => prob,
+      :correct  => @last_prob.correct?(params),
+      :response => prob.get_packed_response(params))
+    unless answer.save
+      $stderr.puts "ANSWER WAS NOT SAVE MOFOS!!!!"*10
     end
   end
 

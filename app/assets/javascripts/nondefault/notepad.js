@@ -456,11 +456,19 @@ $(function() {
              }
   }
 
-  npstr=$("#npstr").attr("value");
-  if(npstr!=null && npstr!=""){
-    notepad=JSON.parse(npstr);
+  npstr=$("#shownp").attr("value");
+  if(npstr!=null && npstr != "" && npstr != "false" ){
+    npadsv=JSON.parse(npstr);
+    notepad.curpage=npadsv.curpage;
+    notepad.notes=npadsv.notes;
+    notepad.pixarr=npadsv.pixarr;
+    notepad.com=npadsv.com;
+    notepad.cline=npadsv.cline;
+    notepad.redraw();
+    notepad.addline("");
+    $('#notes').attr("style", "background-color:transparent; position:absolute; left:"+(notepad.margin+5)+"px; top:"+(notepad.upper+notepad.lheight*(notepad.notes[notepad.curpage].length))+"px; width:"+(canvas.width-notepad.margin-20)+"px");
   }
-  else{notepad.npad();}
+  else{ notepad.npad();}
   //$('#notes').focus();
 
   line=[];

@@ -1,14 +1,21 @@
-<div class=span6>
-  <% if flash[:last_correct] == false %>
-    <p>It seems you got the last problem incorrect :(</p>
-  <% end %>
-  <%= render :partial => 'problem/problem', :object => @problem, :locals => {:partialdir => 'problemanswers'} %>
-  <% if @problem.is_a? QuestionWithExplanation %>
-    <%= link_to "See Explanation", explain_path(@problemanswer.problem), :class => "btn btn-large btn-success" %>
-  <% end %>
-  <% if in_quiz? %>
-    <%= link_to "More Problems", startquiz_path, :class => "btn btn-large btn-primary" %>
-  <% else %>
-    <%= link_to "Back", profile_path, :class => "btn btn-large btn-primary" %>
-  <% end %>
+<div class=row-fluid>
+  <div class=span6>
+    <% if flash[:last_correct] == false %>
+      <p>It seems you got the last problem incorrect :(</p>
+    <% end %>
+    <%= hidden_field_tag "shownp", (!@problemanswer.nil? && @problemanswer.notepad) %>
+    <%= render :partial => 'problem/problem', :object => @problem, :locals => {:partialdir => 'problemanswers'} %>
+    <% if @problem.is_a? QuestionWithExplanation %>
+      <%= link_to "See Explanation", explain_path(@problemanswer.problem), :class => "btn btn-large btn-success" %>
+    <% end %>
+      <%= link_to "More Problems", startquiz_path, :class => "btn btn-large btn-primary" %>
+    <% if signed_in? %>
+      <%= link_to "Back", profile_path, :class => "btn btn-large btn-primary" %>
+    <% else %>
+      <%= link_to "Back", problems_path, :class => "btn btn-large btn-primary" %>
+    <% end %>
+  </div>
+  <div class=span6>
+    <%= render :partial => "shared/notepad" %> 
+  </div>
 </div>

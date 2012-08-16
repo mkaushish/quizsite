@@ -10,7 +10,6 @@ class UsersController < ApplicationController
       redirect_to :stats
     else
       stop_quiz
-      @problemanswers = @user.problemanswers
       render 'students/show'
     end
   end
@@ -99,5 +98,31 @@ class UsersController < ApplicationController
 
       render 'shared/form_errors'
     end
+  end
+
+  def password_form
+    redirect_to root_path unless signed_in?
+  end
+
+  def change_password
+    if !(current_user.has_password? params[:old_pass])
+      flash[:error] = "Wrong old password!"
+    elsif params[:password] != params[:password_confirmation]
+      flash[:error] = "Hey, your password doesn't match it's confirmation!"
+    else
+      current_user.password = params[:password]
+      current_user.password_confirmation = params[:password_confirmation]
+
+      unless current_user.save
+        flash[:error] = "Sorry, we couldn't change your password: #{current_user.errors.full_messages}"
+      else
+        sign_in current_user
+        redirect_to profile_path
+        return
+      end
+    end
+
+    # on success we get redirected anyway
+    render 'password_form'
   end
 end
