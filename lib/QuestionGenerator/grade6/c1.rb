@@ -33,7 +33,7 @@ module Chapter1
   end
   class ExpandNumbers2 < QuestionBase
     def initialize
-      @prod1=rand(6)
+      @prod1=rand(6)+2
       @prod2=rand(@prod1)
       @num1=rand(99)+1
       @num2=rand(9)+1
@@ -43,8 +43,8 @@ module Chapter1
     end
     def text
       [TextLabel.new("Expand #{@num1*(10**@prod1)+@num2*(10**@prod2)}:"), 
-        InlineBlock.new(TextField.new("ans"), TextLabel.new(" X #{10**@prod1}")),
-        InlineBlock.new(TextField.new("ans"), TextLabel.new(" X #{10**@prod2}")),
+        InlineBlock.new(TextField.new("ans1"), TextLabel.new(" X #{10**@prod1}")),
+        InlineBlock.new(TextField.new("ans2"), TextLabel.new(" X #{10**@prod2}")),
       ]
     end
   end
@@ -83,7 +83,12 @@ module Chapter1
       {"ans" => @nums.reduce(:+)}
     end
     def text
-      [TextLabel.new("Over the course of #{@nums.length} days, a #{@ob1[@wh1]} sold the following number of #{@no1[@wh1]} each day: "), TextLabel.new("#{@nums.join(", ")}. Find the total number of #{@no1[@wh1]} sold by the #{@ob1[@wh1]}"), TextField.new("ans")]
+      day=[]
+      for i in 0...@nums.length
+        day[i]="Day #{i+1}"
+      end
+      re=[day, @nums]
+      [TextLabel.new("Over the course of #{@nums.length} days, a #{@ob1[@wh1]} sold the following number of #{@no1[@wh1]} each day: "), TextTable.new(re), TextLabel.new("Find the total number of #{@no1[@wh1]} sold by the #{@ob1[@wh1]}"), TextField.new("ans")]
     end
   end
 
@@ -104,7 +109,12 @@ module Chapter1
       {"ans" => @num-@nums.reduce(:+)}
     end
     def text
-      [TextLabel.new("Over the course of #{@nums.length} days, a #{@ob1[@wh1]} sold the following number of #{@no1[@wh1]} each day: "), TextLabel.new("#{@nums.join(", ")}. Their target for #{@nums.length+1} days was to sell #{@num} #{@no1[@wh1]}. Find the total number of #{@no1[@wh1]} required to be sold by the #{@ob1[@wh1]} on the final day"), TextField.new("ans")]
+      day=[]
+      for i in 0...@nums.length
+        day[i]="Day #{i+1}"
+      end
+      re=[day, @nums]
+      [TextLabel.new("Over the course of #{@nums.length} days, a #{@ob1[@wh1]} sold the following number of #{@no1[@wh1]} each day: "), TextTable.new(re), TextLabel.new("Their target for #{@nums.length+1} days was to sell #{@num} #{@no1[@wh1]}. Find the total number of #{@no1[@wh1]} required to be sold by the #{@ob1[@wh1]} on the final day"), TextField.new("ans")]
     end
   end
 
