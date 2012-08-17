@@ -75,6 +75,8 @@ class UsersController < ApplicationController
     role = params["role"]
     if role == "Student"
       @user = Student.new params['user']
+      @classroom = Classroom.find(params['class'])
+      @classroom.assign!(@user)
     elsif role == "Teacher"
       @user = Teacher.new params['user']
     end
