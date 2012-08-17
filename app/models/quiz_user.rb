@@ -22,16 +22,16 @@ class QuizUser < ActiveRecord::Base
   end
 
   def dump_problem_order
-    self.s_problem_order = Marshal.dump(@problem_order) unless @problem_order.nil?
+    self.s_problem_order = Marshal.dump(@problem_order) if @problem_order.is_a?(Array)
   end
 
   def problem_order
-    begin
-      @problem_order ||= Marshal.load(self.s_problem_order)
-    rescue
-    end
-    reset_problem_order unless (@problem_order.is_a?(Array) && (!@problem_order.empty?))
-    @problem_order
+    # begin
+    @problem_order ||= Marshal.load(self.s_problem_order)
+    #rescue
+    #end
+    #reset_problem_order unless (@problem_order.is_a?(Array) && (!@problem_order.empty?))
+    #@problem_order
   end
 
   def set_problem_order(problem_order)
