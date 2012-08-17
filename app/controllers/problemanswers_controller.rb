@@ -100,8 +100,8 @@ class ProblemanswersController < ApplicationController
                           :problem  => @problem,
                           :time_taken => time,
                           :correct  => last_correct,
-                          :response => @problem.get_packed_response(params))
-                          #:notepad => notepad )
+                          :response => @problem.get_packed_response(params),
+                          :notepad => notepad )
 
       #$stderr.puts "\n\n#{"#"*30}\n#{@problem.text}"
       #$stderr.puts "#{@problem.prob.solve}"
