@@ -19,6 +19,106 @@ module Chapter1
      [ 50, "=", "L" , "", "",   "",  ""  ]
   ])
   PPVALUE=["Ones", "Tens", "Hundreds", "Thousands", "Ten Thousands", "Lakhs", "Ten Lakhs", "Crores", "Ten Crores"]
+  class ExpandNumbers1 < QuestionBase
+    def initialize
+      @prod=rand(6)
+      @num=rand(99)+1
+    end
+    def solve
+      {"ans" => @num}
+    end
+    def text
+      [TextLabel.new("Fill in the blanks:"), InlineBlock.new(TextLabel.new("#{@num*(10**@prod)} = "), TextField.new("ans"), TextLabel.new(" X #{10**@prod}"))]
+    end
+  end
+  class ExpandNumbers2 < QuestionBase
+    def initialize
+      @prod1=rand(6)+2
+      @prod2=rand(@prod1)
+      @num1=rand(99)+1
+      @num2=rand(9)+1
+    end
+    def solve
+      {"ans1" => @num1, "ans2" => @num2}
+    end
+    def text
+      [TextLabel.new("Expand #{@num1*(10**@prod1)+@num2*(10**@prod2)}:"), 
+        InlineBlock.new(TextField.new("ans1"), TextLabel.new(" X #{10**@prod1}")),
+        InlineBlock.new(TextField.new("ans2"), TextLabel.new(" X #{10**@prod2}")),
+      ]
+    end
+  end
+  class ExpandNumbers < QuestionBase
+    def initialize
+      @num=rand(100000)+5000
+    end
+    def solve
+      sol={}
+      for i in 0...("#{@num}").length
+        sol["ans_#{i}"]=("#{@num}")[i]
+      end
+      sol
+    end
+    def text
+      ret=[TextLabel.new("Expand #{@num}:")]
+      for i in 0...("#{@num}").length
+        ret << InlineBlock.new(TextField.new("ans_#{i}"), TextLabel.new(" X #{10**(("#{@num}").length-i-1)}"))
+      end
+      ret
+    end
+  end
+  class WordProbSum < QuestionBase
+    def initialize
+      n=rand(3)+2
+      @nums=[]
+      pow=rand(5)
+      for i in 0...n
+        @nums[i]=rand(10**(pow+1))
+      end
+      @ob1=["movie theater", "shop", "bakery", "fruit stall", "grocery store"]
+      @no1=["tickets", "bottles of churan", "loaves of bread", "apples", "heads of lettuce"]
+      @wh1=rand(@ob1.length)
+    end
+    def solve
+      {"ans" => @nums.reduce(:+)}
+    end
+    def text
+      day=[]
+      for i in 0...@nums.length
+        day[i]="Day #{i+1}"
+      end
+      re=[day, @nums]
+      [TextLabel.new("Over the course of #{@nums.length} days, a #{@ob1[@wh1]} sold the following number of #{@no1[@wh1]} each day: "), TextTable.new(re), TextLabel.new("Find the total number of #{@no1[@wh1]} sold by the #{@ob1[@wh1]}"), TextField.new("ans")]
+    end
+  end
+
+  class WordProbDiff < QuestionBase
+    def initialize
+      n=rand(3)+2
+      @nums=[]
+      pow=rand(5)
+      for i in 0...n
+        @nums[i]=rand(10**(pow+1))
+      end
+      @num=@nums.reduce(:+)+rand(10**pow)+1
+      @ob1=["movie theater", "shop", "bakery", "fruit stall", "grocery store"]
+      @no1=["tickets", "bottles of churan", "loaves of bread", "apples", "heads of lettuce"]
+      @wh1=rand(@ob1.length)
+    end
+    def solve
+      {"ans" => @num-@nums.reduce(:+)}
+    end
+    def text
+      day=[]
+      for i in 0...@nums.length
+        day[i]="Day #{i+1}"
+      end
+      re=[day, @nums]
+      [TextLabel.new("Over the course of #{@nums.length} days, a #{@ob1[@wh1]} sold the following number of #{@no1[@wh1]} each day: "), TextTable.new(re), TextLabel.new("Their target for #{@nums.length+1} days was to sell #{@num} #{@no1[@wh1]}. Find the total number of #{@no1[@wh1]} required to be sold by the #{@ob1[@wh1]} on the final day"), TextField.new("ans")]
+    end
+  end
+
+
   class PlaceValueTable < QuestionBase
     def initialize(num=nil)
       if num!=nil
@@ -261,6 +361,64 @@ module Chapter1
       ]
     end
   end
+  class ShiftingDigitsGr < QuestionBase
+    attr_accessor :nums
+
+    def initialize(digs=(1..9).to_a.sample(rand(3)+3))
+      @digs=digs
+    end
+
+    def solve
+      {"ans1" => @digs.sort.reverse }
+    end
+
+    def text
+      [ TextLabel.new("Drag the digits to create the largest number possible"),
+        TextLabel.new("Largest number:"),
+        PermutationDrag.new("ans1", @digs),
+      ]
+    end
+  end
+  class ShiftingDigitsLs < QuestionBase
+    attr_accessor :nums
+
+    def initialize(digs=(1..9).to_a.sample(rand(3)+3))
+      @digs=digs
+    end
+
+    def solve
+      { "ans1" => @digs.sort }
+    end
+
+    def text
+      [ TextLabel.new("Drag the digits to create the smallest number possible"),
+        TextLabel.new("Smallest number:"),
+        PermutationDrag.new("ans1", @digs),
+      ]
+    end
+  end
+  class ShiftingDigits < QuestionWithExplanation
+    def initialize
+      @digs=(1..9).to_a.sample(rand(3)+3)
+    end
+    def solve
+      {"diff" => @digs.sort.reverse.join("").to_i - @digs.sort.join("").to_i
+      }
+    end
+    def explain
+      [SubLabel.new("To do this, we first find the largest and smallest numbers that can be made using these digits. Then, we find their difference."),
+        Chapter1::ShiftingDigitsGr.new(@digs),
+        Chapter1::ShiftingDigitsLs.new(@digs),
+        PreG6::Subtraction.new(@digs.sort.reverse.join("").to_i, @digs.sort.join("").to_i)]
+    end
+    def text
+      [ TextLabel.new("Find the difference between the largest and smallest numbers that can be formed using the following digits"),
+        PermutationDisplay.new("ans1", @digs),
+        TextField.new("diff")
+      ]
+    end
+  end
+
 
   class ArrangeDescending < QuestionBase
     attr_accessor :nums
@@ -493,6 +651,51 @@ module Chapter1
       ]
     end
   end
+  SUNIT=["mm", "grams", "ml", "cm", "meters", "paise"]
+  LUNIT=["cm", "kg", "liter", "meters", "km", "rupees"]
+  UCON={"mm" => 10,
+    "grams" => 1000,
+    "ml" => 1000,
+    "cm" => 100,
+    "meters" => 1000,
+    "paise" => 100}
+
+  class ConvertUnitsSimple < QuestionBase
+    def initialize(sunit=SUNIT.sample)
+      @pos=SUNIT.index(sunit)
+    end
+    def solve
+      {"ans" => UCON[SUNIT[@pos]]}
+    end
+    def text 
+      [TextLabel.new("How many #{SUNIT[@pos]} make up 1 #{LUNIT[@pos]}?"), TextField.new("ans")]
+    end
+  end
+
+  class ConvertUnits < QuestionWithExplanation
+    def initialize
+      @pos=rand(SUNIT.length)
+      @num=rand(100*(UCON[SUNIT[@pos]]))+UCON[SUNIT[@pos]]
+    end
+    def solve
+      {"ans" => @num}
+    end
+    def explain
+      nm=@num/UCON[SUNIT[@pos]]
+      de=@num-nm*UCON[SUNIT[@pos]]
+      [Chapter1::ConvertUnitsSimple.new(SUNIT[@pos]),
+        SubLabel.new("Now we find how many #{SUNIT[@pos]} make up #{nm} #{LUNIT[@pos]}"),
+        PreG6::Multiplication.new(nm, UCON[SUNIT[@pos]]),
+        SubLabel.new("Now, we add #{de} #{SUNIT[@pos]}"),
+        PreG6::Addition([nm*UCON[SUNIT[@pos]], de])]
+    end
+    def text 
+      nm=@num/UCON[SUNIT[@pos]]
+      de=@num-nm*UCON[SUNIT[@pos]]
+      [TextLabel.new("Convert #{nm} #{LUNIT[@pos]} #{de} #{SUNIT[@pos]} to #{SUNIT[@pos]}"), TextField.new("ans")]
+    end
+  end
+
 
 
   class EstimateArithmetic < QuestionWithExplanation
@@ -721,6 +924,11 @@ module Chapter1
 
   # note that I have to be at the end to compile :(
   PROBLEMS = [  
+    Chapter1::ExpandNumbers1,
+    Chapter1::ExpandNumbers2,
+    Chapter1::ExpandNumbers,
+    Chapter1::WordProbSum,
+    Chapter1::WordProbDiff,
     Chapter1::PlaceValueTable,
     Chapter1::FindMaxNumber,      Chapter1::FindMinNumber,        
     Chapter1::ArrangeAscending,   Chapter1::ArrangeDescending,  
@@ -730,6 +938,9 @@ module Chapter1
     Chapter1::RoundingNumbers,
     Chapter1::EstimateAddition,   Chapter1::EstimateSubtraction,
     Chapter1::EstimateProduct,
+    Chapter1::ShiftingDigitsGr,
+    Chapter1::ShiftingDigitsLs,
+    Chapter1::ShiftingDigits,
     Chapter1::ToRoman,            Chapter1::ToArabic
   ]
 end

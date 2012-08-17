@@ -211,7 +211,7 @@ module Chapter3
     end
 
     def text
-      [TextLabel.new("Test if #{@num} is divisible by #{3**@sdiv}"), TextField.new("sum", "Important Information"), Dropdown.new("divisible", "Divisible", "Not Divisible")]
+      [TextLabel.new("Test if #{@num} is divisible by #{3**@sdiv}"), TextField.new("sum", "Sum of Digits"), Dropdown.new("divisible", "Divisible", "Not Divisible")]
     end
 
     def explain
@@ -259,7 +259,7 @@ module Chapter3
         "divisible" => k}
     end
     def text
-      [TextLabel.new("Test if #{@num} is divisible by #{2**@sdiv}"), TextField.new("lastdigit", "Important Information"), Dropdown.new("divisible", "Divisible", "Not Divisible")]
+      [TextLabel.new("Test if #{@num} is divisible by #{2**@sdiv}"), TextField.new("lastdigit", "Last Digit"), Dropdown.new("divisible", "Divisible", "Not Divisible")]
     end
     def explain
       if @sdiv!=1
@@ -317,7 +317,7 @@ module Chapter3
     end
 
     def text
-      [TextLabel.new("Test if #{@num} is divisible by 5"), TextField.new("lastdigit", "Important Information"), Dropdown.new("divisible", "Divisible", "Not Divisible")]
+      [TextLabel.new("Test if #{@num} is divisible by 5"), TextField.new("lastdigit", "Last Digit"), Dropdown.new("divisible", "Divisible", "Not Divisible")]
     end
 
     def explain
@@ -345,7 +345,7 @@ module Chapter3
         "divisible" => k}
     end
     def text
-      [TextLabel.new("Test if #{@num} is divisible by 10"), TextField.new("lastdigit", "Important Information"), Dropdown.new("divisible", "Divisible", "Not Divisible")]
+      [TextLabel.new("Test if #{@num} is divisible by 10"), TextField.new("lastdigit", "Last Digit"), Dropdown.new("divisible", "Divisible", "Not Divisible")]
     end
     def explain
       ret=[Subproblem.new(["What is the last digit of  #{@num}", TextField.new("lastdig", "Last digit")], {"lastdig" => solve["lastdigit"]})]
@@ -417,7 +417,7 @@ module Chapter3
       ]
     end
     def text
-      [TextLabel.new("Test if #{@num} is divisible by 11"), TextField.new("difference", "Important Information"), Dropdown.new("divisible", "Divisible", "Not Divisible")]
+      [TextLabel.new("Test if #{@num} is divisible by 11"), TextField.new("difference", "Difference of odd and even Digits"), Dropdown.new("divisible", "Divisible", "Not Divisible")]
     end
   end
 

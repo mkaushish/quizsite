@@ -261,6 +261,14 @@ module ToHTML
       end
     end
   end
+  class PermutationDisplay < PermutationDrag
+    def initialize(*args)
+      super(*args)
+    end
+    def correct?(solution, response)
+      true
+    end
+  end
 
   class InlineBlock < MultiHTMLObj
     attr_reader :text
