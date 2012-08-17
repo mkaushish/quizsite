@@ -23,6 +23,10 @@ namespace :generate do
       name = line.split(",").map { |n| n.strip.downcase.capitalize }
       userinfo << { :name => "#{name[0]} #{name[1]}", :email => "#{name[0]}.#{name[1]}@smartergrades.com" }
     end
+    IO.foreach 'lib/tasks/VV_names.csv' do |line|
+      name = line.split(",").last.split(" ")
+      userinfo << { :name => "#{name[0]} #{name[1]}", :email => "#{name[0]}.#{name[1]}" }
+    end
 
     unless User.find_by_email("t.homasramfjord@gmail.com")
       t = Teacher.new(:name => "Thomas Ramfjord", :email => "t.homasramfjord@gmail.com", :password => "blah123", :password_confirmation => "blah123")
