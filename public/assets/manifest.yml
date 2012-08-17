@@ -73,6 +73,7 @@ dtools_all.png: dtools_all-468e45ba82400a7ffbcf93a3ef127e79.png
 dtools_compass.png: dtools_compass-01ddb14efc75ef01761270225f44a159.png
 dtools_prot.png: dtools_prot-6662df927d51588fc3da13cd49ca46d7.png
 dtools_stedge.png: dtools_stedge-c4a93a64781d47c39b4aac68ff804de6.png
+elephant.png: elephant-69223f636ad878b3c954bd2cace9a5fc.png
 erasor.xcf: erasor-65f3ab140f6945211a315d7dafac042a.xcf
 erasor_50_90.xcf: erasor_50_90-cc01d51d947d1d9250d1eb53f1903c82.xcf
 explain_450_260.png: explain_450_260-d74fc5331a8633dbbe7fa8c9b928fa5c.png
@@ -114,7 +115,7 @@ woodtile.jpeg: woodtile-e6b426620a3f67e614ede94740674747.jpeg
 zoombar.png: zoombar-9a9e502345ab917084e849d52bd930fa.png
 jquery-ui.min.js: jquery-ui.min-0424e108178defa1cc794ee24fc92d24.js
 jquery.min.js: jquery.min-460459a37590253002f65e6137a90b87.js
-application.js: application-35cd5ed9852ec0cf5907542e9770696e.js
-application.css: application-e2c51a4bc8ccc9b014a65f523258495f.css
+application.js: application-3b6b748c97fe376d32c339e1e5439b16.js
+application.css: application-2dff8a3ae6cb77e565ed093354f0ae8e.css
 nondefault/graph.js: nondefault/graph-13a4ba99846042822ecc324e6356bd92.js
-nondefault/notepad.js: nondefault/notepad-329c1de7742fde253c89013a7db2f396.js
+nondefault/notepad.js: nondefault/notepad-1c7dc5172837def3c47792ca070a7087.js
