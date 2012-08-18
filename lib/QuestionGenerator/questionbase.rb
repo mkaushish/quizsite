@@ -50,8 +50,10 @@ class QuestionBase
   #
   def preprocess(name, response)
     # remove commas (they are annoying in numbers) and spaces
-    return response.strip.downcase.gsub(/,/, "").gsub(/\s+/, " ") if response.is_a?(String) && 
-                                                                     (ToHTML::rm_prefix(name) != "geometry")
+    if response.is_a?(String) && (ToHTML::rm_prefix(name) != "geometry")
+      return response.strip.downcase.gsub(/,/, "").gsub(/\s+/, " ").gsub(/^\+/, "")
+    end
+                             
     return response.to_s
   end
 
