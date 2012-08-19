@@ -1,13 +1,13 @@
 namespace :db do
-  desc "Reset the problem_stats for vidya questions"
+  desc "Reset the problem_stats field for the vidya users"
   task :reset_vidya_stats => :environment do
-    vasant_trial_time = Time.local(2012, 8, 17, 10)
-
-    puts "\nCalling problemanswer create callbacks"
-    Problemanswer.find_each(:conditions => ["created_at < ?", vasant_trial_time]) do |answer|
-      print answer.run_callbacks(:create) ? "+":"-"
-      # puts answer.created_at 
+    User.find_each(:conditions => "class = Alpha1") do |user|
+      puts "Recreating stats for #{user.name}"
+      user.run_callbacks(:create)
+      user.problemanswers.each do |answer|
+        # puts "\r#{user.name}: #{answer.pclass}"
+        user.update_stats(answer.pclass, answer.correct)
+      end
     end
-    puts "\nDone!"
   end
 end
