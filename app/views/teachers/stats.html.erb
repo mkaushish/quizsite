@@ -4,7 +4,7 @@
       Class <%= @classroom.name %>
     </button>
     <ul class="dropdown-menu">
-      <% current_user.classrooms.each do |classroom| %>
+      <% @classrooms.each do |classroom| %>
         <% next if classroom.name == select_class_text %>
         <li><%= link_to classroom.name, stats_path(:classroom_id => classroom.id) %></li>
       <% end %>
@@ -30,6 +30,6 @@
 
 <script>
   $(function () {
-  $('a[href="#<%= @shownquiz.idname %>"]').tab('show');
+  $('a[href="#<%= @shownquiz && @shownquiz.idname %>"]').tab('show');
   })
 </script>
