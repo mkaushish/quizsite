@@ -70,6 +70,7 @@ function setUpGeo() {
   //
   function redraw(){
     context.clearRect(0,0,canvas.width, canvas.height);
+    getActivePOIs();
 
     if(activePOI_i >= 0) { 
       pointsOfInterest[activePOI_i].draw(); 
