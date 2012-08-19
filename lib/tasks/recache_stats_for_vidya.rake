@@ -1,7 +1,7 @@
 namespace :db do
   desc "Reset the problem_stats field for the vidya users"
   task :reset_vidya_stats => :environment do
-    User.find_each(:conditions => "class = Alpha1") do |user|
+    Classroom.where(:name => "Alpha1").first.students.each do |user|
       puts "Recreating stats for #{user.name}"
       user.run_callbacks(:create)
       user.problemanswers.each do |answer|
