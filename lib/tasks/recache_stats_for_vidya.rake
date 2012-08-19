@@ -5,7 +5,7 @@ namespace :db do
 
     puts "\nCalling problemanswer create callbacks"
     Problemanswer.find_each(:conditions => ["created_at < ?", vasant_trial_time]) do |answer|
-      answer.run_callbacks(:create)
+      print answer.run_callbacks(:create) ? "+":"-"
       # puts answer.created_at 
     end
     puts "\nDone!"

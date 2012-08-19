@@ -37,8 +37,6 @@ class Problemanswer < ActiveRecord::Base
     @response_hash ||= m_unpack(self.response)
   end
 
-  private
-
   def update_userstats
     self.user.update_stats(self.pclass, self.correct) unless self.user.nil?
   end
