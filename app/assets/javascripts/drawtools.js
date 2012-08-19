@@ -885,8 +885,10 @@ function setUpGeo() {
         shapes.pop(); // minicircle
         var radius = tracingLine.clear();
       }
-      addCircle(downx, downy, radius);
-      redraw();
+      if(radius > 4) {
+        addCircle(downx, downy, radius);
+        redraw();
+      }
       this.mouse_is_down = false;
       $('#circlesize').attr("value", ''+radius);
     },
@@ -960,8 +962,10 @@ function setUpGeo() {
     mouseup : function() {
       this.mouse_is_down = false;
       tracingLine.clear();
-      addLine(this.x1, this.y1, mousex, mousey);
-      redraw();
+      if(distance(this.x1, this.y1, mousex, mousey) > 5) {
+        addLine(this.x1, this.y1, mousex, mousey);
+        redraw();
+      }
     },
     mousemove : function() {
       if(this.mouse_is_down) {
