@@ -6,16 +6,15 @@
   <li class="dropdown <%= selected?("stats") %>>">
     <%= link_to select_class_text, "#", :class => "dropdown-toggle", "data-toggle" => "dropdown" %>
     <ul class="dropdown-menu nav-dropdown">
-    <% @classrooms.each do |classroom| %>
+    <% classrooms.each do |classroom| %>
       <% next if classroom.name == select_class_text %>
       <li><%= link_to classroom.name, stats_path(:classroom_id => classroom.id) %></li>
     <% end %>
 
-    <% if current_user.classrooms.empty? || (current_user.classrooms.length <= 101 )#  && !@classroom.nil?) %>
+    <% if classrooms.empty? || (classrooms.length <= 101 )#  && !@classroom.nil?) %>
       <li><%= link_to "Add a new class!", "#" %></li>
     <% end %>
     </ul>
   </li>
   <li class="<%= selected?("assign_homework") %>>"><%= link_to "Assign Homework", new_quiz_path %></li>
-  <li class="<%= selected?("homework_results") %>>"><%= link_to "Homework Results", "#" %></li>
 <% end %>
