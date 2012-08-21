@@ -10,7 +10,7 @@ function set_stat_widths(elt, total) {
       var percent = parseInt( $(this).attr('data-width') )
         , kid = $(this).children('div').first()
 
-      console.log(percent + '');
+      //console.log(percent + '');
 
       if(total) {
         $(this).width(width * percent / 100.0);
