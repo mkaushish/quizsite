@@ -1,4 +1,5 @@
 class QuizzesController < ApplicationController
+  include TeachersHelper
   before_filter :authenticate, :except => [:show]
 
   # display PScores for the problem types / quiz ?
@@ -43,7 +44,14 @@ class QuizzesController < ApplicationController
     end
 
     if @quiz.save
-      set_quiz(@quiz)
+      if current_user.is_a? Teacher
+        classrooms.each do |classroom|
+          classroom.assign!(@quiz) if(params["class_#{classroom.id}"])
+        end
+      else
+        set_quiz(@quiz)
+      end
+
       render :js => "window.location = '/profile'"
     else
       $stderr.puts "#"*60

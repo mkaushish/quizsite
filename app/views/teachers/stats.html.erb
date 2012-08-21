@@ -4,7 +4,7 @@
       Class <%= @classroom.name %>
     </button>
     <ul class="dropdown-menu">
-      <% @classrooms.each do |classroom| %>
+      <% classrooms.each do |classroom| %>
         <% next if classroom.name == select_class_text %>
         <li><%= link_to classroom.name, stats_path(:classroom_id => classroom.id) %></li>
       <% end %>

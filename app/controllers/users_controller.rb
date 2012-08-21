@@ -1,4 +1,6 @@
 class UsersController < ApplicationController
+  include TeachersHelper
+
   def new
     @user = User.new
   end
@@ -53,15 +55,7 @@ class UsersController < ApplicationController
     @nav_selected = "stats"
 
     if current_user.is_a?(Teacher)
-      # Right now since thomas and madhav are the only admin accounts, test for them
-      if current_user.email == "t.homasramfjord@gmail.com" ||
-         current_user.email == "m.adhavkaushish@gmail.com"
-        @classrooms = Classroom.all
-      else
-        @classrooms = current_user.classrooms
-      end
-
-      @classroom = Classroom.find params[:classroom_id] || current_user.classrooms.first
+      @classroom = params[:classroom_id].nil? ? classrooms.first : Classroom.find(params[:classroom_id])
       @students  = @classroom.students.sort { |a,b| a.name <=> b.name }
       @homeworks = @classroom.homeworks
 

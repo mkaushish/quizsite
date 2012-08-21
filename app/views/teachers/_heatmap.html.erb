@@ -6,6 +6,29 @@
     </div>
   <% end %>
 </div>
+<div class=row-fluid>
+  <ul>
+    <li style='float:left;'>
+    <%= link_to "Individual", "#", :id => "ind_prob_#{homework.idname}", :class => 'btn btn-info' %>
+    </li>
+    <li style='float:left;'>
+    <%= link_to "Total", "#", :id => "tot_prob_#{homework.idname}", :class => 'btn btn-info' %>
+    </li>
+
+    <li style='float:left; width:100px; height:10px;'></li>
+
+    <li style='float:left;'>
+      <%= link_to "Past Week", "#", :id => 'past_week', :class => 'btn btn-info' %>
+    </li>
+    <li style='float:left;'>
+      <%= link_to "Past Day", "#", :id => 'past_day', :class => 'btn btn-info' %>
+    </li>
+    <li style='float:left;'>
+      <%= link_to "Total", "#", :id => 'forever', :class => 'btn btn-info' %>
+    </li>
+  </ul>
+  <hl>
+</div>
 -->
 
 <div id='<%= homework.idname %>_stats'>
@@ -15,8 +38,8 @@
       <%= link_to student.name, user_path(student), :style=>"display:block;" %>
     </li>
     <% homework.ptypes.each do |ptype| %>
-      <li style="float:left;width:10px;border:1px solid gray;" rel="popover" style="display:block" data-original-title="<%= student.smartScore(ptype) %>% : <%= ptype.type %>" data-content="<%= student.name %> has answered <%= student.stats(ptype)[:correct] %> / <%= student.stats(ptype)[:count] %> of these correctly">
-        <div class="<%= smartscore_class(student.smartScore(ptype)) %>" style="width:<%=student.smartScore(ptype).to_i%>%; height:14px"></div>
+      <li style="float:left;width:10px;border:1px solid gray;" rel="popover" style="display:block" data-width='<%= student.smartScore(ptype) %>' data-original-title="<%= student.smartScore(ptype) %>% : <%= ptype.type %>" data-content="<%= student.name %> has answered <%= student.stats(ptype)[:correct] %> / <%= student.stats(ptype)[:count] %> of these correctly">
+        <div class="<%= smartscore_class(student.smartScore(ptype)) %>" style="height:14px"></div>
       </li>
     <% end %>
   </ul>
@@ -25,6 +48,11 @@
 <script> 
   stats = $('#<%= homework.idname %>_stats'); 
   set_stat_widths(stats);
+  //$('#ind_prob_<%= homework.idname %>').click( function() { set_stat_widths(stats, false); }); // set_stat_widths(stats, false); });
+  //$('#tot_prob_<%= homework.idname %>').click( function() { set_stat_widths(stats, true); });
+  //set_stat_widths(stats, true);
+
+  // bind popovers
   stats.children('ul').each( function(i) {
     var s_stats = $(this).children('li:gt(0)'); 
     s_stats.each( function(j) {
