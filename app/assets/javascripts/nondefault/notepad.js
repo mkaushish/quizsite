@@ -93,7 +93,7 @@ $(function() {
     addf : function(n1, n2, sign){
              lt=1+Math.max(n1.length, n2.length);
              var ht="<table id=addtable border=0>\n";
-             ht+="<tr>\n"
+             ht+="<tbody>\n<tr>\n"
                for(i=0; i<lt-n1.length; i++){
                  ht+="<td> </td>\n";
                }
@@ -116,7 +116,7 @@ $(function() {
                for(i=0; i<lt; i++){
                  ht+="<td><input type=text class=inps id=in"+i+" maxlength=1 style=\"width:15px; height:10px\"></td>\n";
                }
-             ht+="</tr>\n"
+             ht+="</tr>\n</tbody>\n"
                ht+="</table>";
              $('#note').append(ht);
              $('#addtable').attr("style", "background-color:transparent; font:10pt Courier; position:absolute; left:"+(this.margin+5)+"px; top:"+(this.upper+this.lheight*(this.notes[this.curpage].length)+5)+"px;");
@@ -160,6 +160,7 @@ $(function() {
              {
                $("#in"+j).keypress({j:j}, function(e){
                  if (e.keyCode!=13){
+                   alert("in"+(e.data.j-1));
                    $("#in"+(e.data.j-1)).select();
                  }
                });
