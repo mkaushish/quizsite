@@ -159,8 +159,8 @@ $(function() {
              for (var j=1; j<lt; j++)
              {
                $("#in"+j).keypress({j:j}, function(e){
-                 e.preventDefault();
                  if (e.keyCode!=13){
+                  e.preventDefault();
                    $("#in"+(e.data.j)).attr("value", String.fromCharCode(e.keyCode));
                    $("#in"+(e.data.j-1)).select();
                  }
@@ -224,6 +224,7 @@ $(function() {
                 else{
                   $(".inps"+j).keypress({j:j}, function(e){
                     if (e.keyCode==13){
+
                       $("#in_"+(e.data.j+1)+"_"+(n1.length)).select();
                       for(i=0; i<j; i++){
                         $("#in_"+(e.data.j+1)+"_"+(n1.length+1+i)).attr("value","0");
@@ -316,7 +317,9 @@ $(function() {
               }
               for (var j=1; j<lt; j++){
                 $("#in"+j).keypress({j:j}, function(e){
-                  if (e.keyCode!=13){
+                 if (e.keyCode!=13){
+                    e.preventDefault();
+                   $("#in"+(e.data.j)).attr("value", String.fromCharCode(e.keyCode));
                     $("#in"+(e.data.j-1)).select();
                   }
                 });
@@ -325,6 +328,8 @@ $(function() {
                 for(var i=1; i<n1.length+j+1; i++){
                   $("#in_"+j+"_"+i).keypress({j:j, i:i}, function(e){
                     if (e.keyCode!=13){
+                    e.preventDefault();
+                      $("#in_"+(e.data.j)+"_"+(e.data.i)).attr("value", String.fromCharCode(e.keyCode));
                       $("#in_"+(e.data.j)+"_"+(e.data.i-1)).select();
                     }
                   });
