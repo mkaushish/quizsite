@@ -159,13 +159,13 @@ $(function() {
              for (var j=1; j<lt; j++)
              {
                $("#in"+j).keypress({j:j}, function(e){
+                 e.preventDefault();
                  if (e.keyCode!=13){
-                   alert("in"+(e.data.j-1));
+                   $("#in"+(e.data.j)).attr("value", String.fromCharCode(e.keyCode));
                    $("#in"+(e.data.j-1)).select();
                  }
                });
              }
-
            },
     multf : function(n1, n2){
               lt=1+n1.length+n2.length;
