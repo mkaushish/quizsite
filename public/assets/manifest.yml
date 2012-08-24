@@ -61,6 +61,7 @@ bggrad.png: bggrad-cd2b638ef5b7498aec33fd6cf57ca63b.png
 binding.jpg: binding-c0551ac71b257eec7659b25123530547.jpg
 binding.png: binding-19c9e452e13bdbc3cce3b516666cc4dd.png
 bisect_line_exp.gif: bisect_line_exp-d99d4322dfe449d842db1f153adc0f48.gif
+chrome.png: chrome-417784fdcdaccd34d9231a9b51d0051c.png
 comma.png: comma-c19f267afe642aff7bc05ddf3f03538a.png
 comment.png: comment-ae525f453ac5f39f6a30ecaae9d9f58a.png
 correct_circ_small.png: correct_circ_small-d4d0d1c216567983a3aa1bffa8cc8242.png
@@ -118,4 +119,4 @@ jquery.min.js: jquery.min-460459a37590253002f65e6137a90b87.js
 application.js: application-d5446365f77e24edb03cc46778b3f89a.js
 application.css: application-2dff8a3ae6cb77e565ed093354f0ae8e.css
 nondefault/graph.js: nondefault/graph-13a4ba99846042822ecc324e6356bd92.js
-nondefault/notepad.js: nondefault/notepad-1c7dc5172837def3c47792ca070a7087.js
+nondefault/notepad.js: nondefault/notepad-b5d55d3d8d287b64e952ba5340376be3.js
