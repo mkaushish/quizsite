@@ -12,12 +12,13 @@ module Chapter9
   class BarQues < QuestionBase
     def initialize
       yr=rand(1900)+106
-      @yrs=Array.new()
-      @amts=Array.new()
-      for i in 0...(rand(4)+2)
-        @yrs[i]=yr+i
-        @amts[i]=(rand(5)+1)*10
+      nyrs=rand(4)+2
+      @yrs=(yr..(yrs+nyrs)).to_a
+      @amts=Set.new()
+      while (@amts.length <= nyrs)
+        @amts << (rand(5)+1)*10
       end
+      @amts=@amts.to_a
     end
     def solve
       {"ans1" => @yrs[@amts.index(@amts.max)],
@@ -54,12 +55,13 @@ module Chapter9
   class TallyQues < QuestionBase
     def initialize
       yr=rand(1900)+106
-      @yrs=Array.new()
-      @amts=Array.new()
-      for i in 0...(rand(4)+2)
-        @yrs[i]=yr+i
-        @amts[i]=(rand(20)+1)
+      nyrs=rand(4)+2
+      @yrs=(yr..(yrs+nyrs)).to_a
+      @amts=Set.new()
+      while (@amts.length <= nyrs)
+        @amts << (rand(20)+1)
       end
+      @amts=@amts.to_a
     end
     def solve
       {"ans1" => @yrs[@amts.index(@amts.max)],
@@ -94,6 +96,8 @@ module Chapter9
   end
       
   PROBLEMS=[Chapter9::CreateBar,
+  Chapter9::BarQues,
+  Chapter9::TallyQues,
   Chapter9::CreateTally]
 end 
 
