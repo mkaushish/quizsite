@@ -1,0 +1,64 @@
+
+<%= hidden_field_tag('edit', "noedit") %>
+<%= hidden_field_tag('type', "basicbar") %>
+<%= hidden_field_tag('divs', 10) %>
+<table id=usertable >
+  <tr>
+    <td>Object</td>
+    <td>Amount</td>
+  </tr>
+  <tr>
+    <td><input type=text id=ob0></td>
+    <td><input type=text id=am0></td>
+  </tr>
+</table>
+<button id=arow>+</button>
+<button id=mrow>-</button>
+<label for=div>Size of Intervals</label>
+<input type=text id=div>
+<button id=crgr>Create Graph</button>
+<table id=hidtable style="display:none">
+</table>
+<canvas id=datacanvas height=350 width=400>
+</canvas>
+<script>
+  nrows=1;
+  var tbl = document.getElementById("usertable");
+  $("#arow").click(function(e){
+    var newrow = tbl.insertRow(nrows+1);
+    var obcell = newrow.insertCell(0);
+    var amcell = newrow.insertCell(1);
+    obcell.innerHTML="<input type=text id=ob"+nrows+">";
+    amcell.innerHTML="<input type=text id=am"+nrows+">";
+    nrows+=1;
+  });
+  $("#mrow").click(function(e){
+    if(nrows > 1){
+      tbl.deleteRow(nrows);
+      nrows-=1;
+    }
+  });
+  $("#crgr").click(function(e){
+    context=document.getElementById("datacanvas").getContext("2d");
+    context.clearRect(0,0,400, 350);
+    var htable=document.getElementById("hidtable");
+    for(i=htable.rows.length-1; i >= 0; i-=1){
+      htable.deleteRow(i);
+    }
+    for(i=0; i < tbl.rows.length-1; i=i+1){
+      k=i;
+      var nrow=htable.insertRow(k);
+      var ocell=nrow.insertCell(0);
+      var acell=nrow.insertCell(1);
+      o1=$("#ob"+k).attr("value");
+      a1=$("#am"+k).attr("value");
+      ocell.innerHTML="<input type=hidden id=hob"+k+" name=hob"+k+" value="+o1+">";
+      acell.innerHTML="<input type=hidden id=ham"+k+" name=ham"+k+" value="+a1+">";
+    }
+    if($("#div").attr("value") != ""){
+      $("#divs").attr("value", $("#div").attr("value"));
+    }
+    setUpDataGr("datacanvas", "hidtable");
+
+  });
+</script>

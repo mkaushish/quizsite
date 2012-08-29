@@ -13,7 +13,7 @@ module Chapter9
     def initialize
       yr=rand(1900)+106
       nyrs=rand(4)+2
-      @yrs=(yr..(yrs+nyrs)).to_a
+      @yrs=(yr..(yr+nyrs)).to_a
       @amts=Set.new()
       while (@amts.length <= nyrs)
         @amts << (rand(5)+1)*10
@@ -56,7 +56,7 @@ module Chapter9
     def initialize
       yr=rand(1900)+106
       nyrs=rand(4)+2
-      @yrs=(yr..(yrs+nyrs)).to_a
+      @yrs=(yr..(yr+nyrs)).to_a
       @amts=Set.new()
       while (@amts.length <= nyrs)
         @amts << (rand(20)+1)
