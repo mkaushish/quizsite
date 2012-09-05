@@ -10,6 +10,10 @@ class ProblemController < ApplicationController
     if @ptype < QuestionBase
       set_examples(@ptype)
 
+      # we need to handle this in new problemanswer so that when they click more problems (after viewing the 
+      # problem result while not signed in
+      # they keep on getting the same example problem...
+      # maybe this is convoluted and there's a better way
       redirect_to new_problemanswer_path
     else
       flash[:error] = "That's not a valid problem type!"

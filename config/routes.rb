@@ -1,4 +1,6 @@
 Quizsite::Application.routes.draw do
+  resources :custom_problems
+
   resources :users do
     member do
       get  'confirm'

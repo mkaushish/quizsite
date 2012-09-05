@@ -1,0 +1,27 @@
+<h1>Listing custom_problems</h1>
+
+<table>
+  <tr>
+    <th>Problem</th>
+    <th>Owner</th>
+    <th>Chapter</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @custom_problems.each do |custom_problem| %>
+  <tr>
+    <td><%= custom_problem.problem %></td>
+    <td><%= custom_problem.owner_id %></td>
+    <td><%= custom_problem.chapter %></td>
+    <td><%= link_to 'Show', custom_problem %></td>
+    <td><%= link_to 'Edit', edit_custom_problem_path(custom_problem) %></td>
+    <td><%= link_to 'Destroy', custom_problem, confirm: 'Are you sure?', method: :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Custom problem', new_custom_problem_path %>

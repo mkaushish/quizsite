@@ -57,6 +57,7 @@ class User < ActiveRecord::Base
   has_many :problemanswers, :dependent => :destroy
   has_many :quiz_users
   has_many :quizzes, :through => :quiz_users
+  has_many :custom_problems
 
   validates :name, :presence => true,
                    :length => { :maximum => 50 }

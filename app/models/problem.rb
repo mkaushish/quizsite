@@ -64,6 +64,7 @@ class Problem < ActiveRecord::Base
       raise "Problem's initialize must be passed a class which extends QuestionBase"
     end
   end
+
   def text
     @prob.text
   end

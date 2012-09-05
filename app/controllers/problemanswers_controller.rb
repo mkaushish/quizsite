@@ -48,9 +48,14 @@ class ProblemanswersController < ApplicationController
       @problem = Problem.new
       @problem.my_initialize example_type
       @problem.save
+      $stderr.puts "in examples: #{@problem.inspect}"
+      render 'new' && return
     end
 
-    redirect_to root_path && return unless signed_in? && in_quiz?
+    unless signed_in? && in_quiz?
+      $stderr.puts "#{'!'*100} redirecting to root_path"
+      redirect_to root_path && return 
+    end
 
     if quiz_user.force_explanation?
       redirect_to(:controller => :problem, :action => :explain, :id => quiz_user.problem_id)
@@ -66,6 +71,7 @@ class ProblemanswersController < ApplicationController
       @last_prob = Problemanswer.find(flash[:last_id])
     end
 
+    $stderr.puts "rendering: #{@problem.inspect}"
     respond_to do |format|
       format.html # new.html.erb
       format.json { render json: @problemanswer }
