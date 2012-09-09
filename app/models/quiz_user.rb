@@ -48,9 +48,7 @@ class QuizUser < ActiveRecord::Base
   def next_problem
     if self.problem_id == -1
       ptype = problem_order[0]
-      p = Problem.new
-      p.my_initialize ptype
-      p.save
+      p = Problem.create(:ptype => ptype)
 
       self.problem_id = p.id
       save
@@ -77,6 +75,6 @@ class QuizUser < ActiveRecord::Base
   end
 
   def force_explanation?
-    self.num_attempts >= 2 && self.problem_id > 0 && Problem.find(self.problem_id).unpack.is_a?(QuestionWithExplanation)
+    self.num_attempts >= 2 && self.problem_id > 0 && Problem.find(self.problem_id).problem.is_a?(QuestionWithExplanation)
   end
 end

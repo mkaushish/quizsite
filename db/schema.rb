@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120827202751) do
+ActiveRecord::Schema.define(:version => 20120905172408) do
 
   create_table "class_assignments", :force => true do |t|
     t.integer "classroom_id"
@@ -25,15 +25,6 @@ ActiveRecord::Schema.define(:version => 20120827202751) do
   create_table "classrooms", :force => true do |t|
     t.string   "name"
     t.integer  "teacher_id"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
-  create_table "custom_problems", :force => true do |t|
-    t.text     "problem"
-    t.integer  "user_id"
-    t.string   "chapter"
-    t.string   "name"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -80,9 +71,10 @@ ActiveRecord::Schema.define(:version => 20120827202751) do
   add_index "problemanswers", ["user_id"], :name => "index_problemanswers_on_user_id"
 
   create_table "problems", :force => true do |t|
-    t.binary   "problem"
+    t.binary   "serialized_problem"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "user_id"
   end
 
   create_table "quiz_users", :force => true do |t|

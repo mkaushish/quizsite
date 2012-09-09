@@ -22,7 +22,7 @@ class ProblemanswersController < ApplicationController
   def show
     stop_quiz if params[:quizid] == "-1"
     @problemanswer = Problemanswer.find(params[:id])
-    @problem = @problemanswer.problem.unpack
+    @problem = @problemanswer.problem.problem
     @solution = @problem.prefix_solve
     puts "^"*60
     puts @solution.inspect
@@ -45,9 +45,7 @@ class ProblemanswersController < ApplicationController
     end
 
     if in_examples?
-      @problem = Problem.new
-      @problem.my_initialize example_type
-      @problem.save
+      @problem = Problem.create(:ptype => example_type)
       $stderr.puts "in examples: #{@problem.inspect}"
       render 'new' && return
     end
@@ -65,7 +63,7 @@ class ProblemanswersController < ApplicationController
     @problem = next_problem
     @nav_selected = "quiz"
 
-    #$stderr.puts "#"*30 + "\n" + @problem.prob.text.inspect
+    #$stderr.puts "#"*30 + "\n" + @problem.problem.text.inspect
 
     unless flash[:last_correct] || flash[:last_id].nil?
       @last_prob = Problemanswer.find(flash[:last_id])
@@ -94,7 +92,7 @@ class ProblemanswersController < ApplicationController
   # POST /problemanswers.json
   def create
     @problem = Problem.find(params["problem_id"])
-    @problem.load_problem
+
     time = params["time_taken"].to_f
     last_correct = @problem.correct?(params)
     notepad = (params["npstr"].empty?) ? nil : params["npstr"] # in case it's the empty string 
@@ -110,7 +108,7 @@ class ProblemanswersController < ApplicationController
                           :notepad => notepad )
 
       #$stderr.puts "\n\n#{"#"*30}\n#{@problem.text}"
-      #$stderr.puts "#{@problem.prob.solve}"
+      #$stderr.puts "#{@problem.problem.solve}"
       #$stderr.puts "params = #{params.inspect}\n#{"#"*30}\n"
 
       if @problemanswer.save

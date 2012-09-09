@@ -502,8 +502,8 @@ module ToHTML
         len = arg.prefix_solve[@name].length
       elsif arg.is_a? Hash
         len = arg[@name].length
-      elsif arg.respond_to? :prob
-        len = arg.prob.prefix_solve[@name].length
+      elsif arg.respond_to? :problem
+        len = arg.problem.prefix_solve[@name].length
       end
 
       return [6, @maxlen+1].min if len < 6

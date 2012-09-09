@@ -30,7 +30,7 @@ class Problemanswer < ActiveRecord::Base
     unless @response_hash.nil? || self.response != nil
       self.response = m_pack(@response_hash)
     end
-    self.pclass=self.problem.prob.class.to_s
+    self.pclass = self.problem.problem.class.to_s
   end
 
   def response_hash

@@ -23,7 +23,7 @@ class ProblemController < ApplicationController
 
   def explain
     @orig_prob = Problem.find(params[:id])
-    @explain = @orig_prob.unpack.explanation
+    @explain = @orig_prob.problem.explanation
     @i = 0 # starting subproblem
 
     @problem = @explain[@i]
@@ -145,7 +145,7 @@ class ProblemController < ApplicationController
   # orig = the problem whose explanation we're going through
   # index = string of indices separated by semicolons
   def explain_from_index(orig, index)
-    ret = orig.prob
+    ret = orig.problem
     index.split(":").drop(1).reverse_each do |i|
       ret = ret.explain[i.to_i]
     end

@@ -66,6 +66,7 @@ module ApplicationHelper
   def m_pack(obj)
     ActiveSupport::Base64.encode64(Marshal.dump(obj))
   end
+
   def m_unpack(marshobj)
     Marshal.load(ActiveSupport::Base64.decode64(marshobj))
   end

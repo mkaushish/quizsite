@@ -40,13 +40,10 @@ class PagesController < ApplicationController
 
     unless params["problem_id"].nil?
       @lastproblem = Problem.find(params["problem_id"])
-      @lastproblem.load_problem
       @correct = @lastproblem.correct?(params);
     end
 
-    @problem = Problem.new
-    @problem.my_initialize(Chapter1::EstimateArithmetic)
-    @problem.save
+    @problem = Problem.create(:ptype => Chapter1::EstimateArithmetic)
   end
 
   def numberline
@@ -72,18 +69,15 @@ class PagesController < ApplicationController
     @title = "Draw"
     @nav_selected = "features"
 
-    @problem = Problem.new
-    @problem.my_initialize(Geo::BisectLine)
+    @problem = Problem.new(:ptype => Geo::BisectLine)
     @problem.save
   end
 
   def check_drawing
     @lastproblem = Problem.find(params["problem_id"])
-    @lastproblem.load_problem
     @correct = @lastproblem.correct?(params);
     if @correct
-      @problem = Problem.new
-      @problem.my_initialize(Geo::BisectLine)
+      @problem = Problem.new(:ptype => Geo::BisectLine)
       @problem.save
       @problem.text.each { |p| @newstartshapes = p.encodedStartShapes if p.is_a?(GeometryField) }
       $stderr.puts "NEWSTARTSHAPES SET TO #{@newstartshapes}"

@@ -1,5 +1,21 @@
 Quizsite::Application.routes.draw do
-  resources :custom_problems
+  # 
+  # resources :problems do
+  #   post 'next_subproblem', :on => :collection
+  #   post 'expand', :on => :collection
+  #   get 'example', :on => :member
+  # end
+
+  get  "problem/index"
+  post "problem/next_subproblem"
+  post "problem/expand"
+  match "/explain/:id" => 'problem#explain', :as => :explain
+  match "problem/example/:type" => 'problem#example', :as => :problem_example
+  match '/problems' => 'problem#index'
+
+  scope(:path_names => { :new => "quiz" }) do
+    resources :problemanswers, :except => [:edit, :destroy]
+  end
 
   resources :users do
     member do
@@ -12,19 +28,8 @@ Quizsite::Application.routes.draw do
 
   resources :quizzes, :except => [:show] # see them in profile
 
-  scope(:path_names => { :new => "quiz" }) do
-    resources :problemanswers, :except => [:edit, :destroy]
-  end
-
   post "pages/check_drawing"
   post "pages/exampleprobs"
-
-  get  "problem/index"
-  post "problem/next_subproblem"
-  post "problem/expand"
-  match "/explain/:id" => 'problem#explain', :as => :explain
-  match "problem/example/:type" => 'problem#example', :as => :problem_example
-  match '/problems' => 'problem#index'
 
   match '/profile' => 'users#profile'
   match '/stats' => 'users#stats'
