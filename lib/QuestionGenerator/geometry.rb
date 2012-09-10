@@ -68,6 +68,26 @@ module Geometry
       self.polygonAtCenterWithPoints("A", dists)[0]
     end
 
+    def self.regularPolygonAtCenter(name, numpoints, length="")
+      cx, cy = *(self.center)
+      dist = (SmallGeoDisplay.width/6) + rand(SmallGeoDisplay.width / 6)
+      points = Array.new(numpoints) do |i|
+        theta = (2 * Math::PI * (i.to_f / numpoints))
+        x = cx + dist * Math.cos(theta)
+        y = cy + dist * Math.sin(theta)
+        name.next! unless i == 0
+        NPoint.new(x, y, name.dup, theta).round
+      end
+      lines = Array.new(numpoints) do |i|
+        j = (i+1) % numpoints
+        points << NPoint.new((points[i].x + points[j].x)/2, (points[i].y+points[j].y)/2, length.to_s, 2*Math::PI*(i.to_f/numpoints)) if i==0
+        Line.new(points[i], points[j])
+      end
+      [ lines, points ]
+    end
+
+
+
     def self.polygonAtCenterWithPoints(name, dists)
       if dists.is_a?(Fixnum)
         dists = Array.new(dists) { (self.width/6) + rand(self.width / 6) }

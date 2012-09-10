@@ -41,6 +41,7 @@ Quizsite::Application.routes.draw do
   match '/numberline',  :to => 'pages#numberline'
   match '/graph',       :to => 'pages#graph'
   match '/datagr',       :to => 'pages#datagr'
+  match '/bhutan',       :to => 'pages#bhutan'
   match '/notepad',       :to => 'pages#notepad'
   match '/measure',       :to => 'pages#measure'
   match '/dgraph',       :to => 'problem#dgraph'

@@ -2,13 +2,19 @@ require_relative '../questionbase'
 
 require_relative '../tohtml.rb'
 include ToHTML
+include Geometry
 
 module Chapter10
+
+
 	REGULARSHAPES= ["point", "line", "equilateral triangle", "square", "regular pentagon", "regular hexagon"]
 	MAXSIDE=40
 	class FindPerimeterRegular < QuestionWithExplanation
 		def initialize(nsides=rand(REGULARSHAPES.length-2)+3, side=rand(MAXSIDE)+5)
 			@shape=Grade6ops::RegShapes.new(nsides, side)
+      start_letter = ["A", "C", "U", "W"].sample
+      dists=[rand(SmallGeoDisplay.width/6)+SmallGeoDisplay.width/6]*nsides
+      @lines, @points = *(SmallGeoDisplay::regularPolygonAtCenter(start_letter, nsides, side))
 		end
 
 		def solve
@@ -20,7 +26,7 @@ module Chapter10
 				Subproblem.new([TextLabel.new("Since all "+@shape.numsides.to_s+" sides of a " + REGULARSHAPES[@shape.numsides-1]+ " are equal, the perimeter is " + @shape.numsides.to_s + " multiplied by the length of the side, "+@shape.side.to_s), TextField.new("perimeter", "Perimeter")], {"perimeter" => @shape.perimeter.to_s})]
 		end
 		def text
-			[TextLabel.new("Find the perimeter of a "+REGULARSHAPES[@shape.numsides-1] + " of side " + @shape.side.to_s), TextField.new("ans")]
+			[SmallGeoDisplay.new(*@lines, *@points), TextLabel.new("Find the perimeter of a "+REGULARSHAPES[@shape.numsides-1] + " of side " + @shape.side.to_s), TextField.new("ans")]
 		end
 	end
 

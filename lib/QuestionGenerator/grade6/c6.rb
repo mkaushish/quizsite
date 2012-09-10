@@ -38,7 +38,7 @@ module Chapter6
   end
   class IntNumberLine < QuestionBase
     def initialize
-      @val=rand(50)
+      @val=rand(50)+1
       if rand(2)==1
         @val*=1
       else @val*=-1
