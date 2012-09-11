@@ -3,19 +3,19 @@
   <% htmlobj_locals = {:response => @solution} %>
   <div class="correct">
     <% multihtmlobj.length_from_hash(@solution) if multihtmlobj.is_a?(MultiTextField) %>
-    <%= render :partial => 'problem/multihtmlobj', :object => multihtmlobj, 
+    <%= render :partial => 'problems/multihtmlobj', :object => multihtmlobj, 
       :locals => {:partial => 'problemanswers/responsefield', :locals => {:response => @solution}} %>
   </div>
   <% unless multihtmlobj.correct?(@solution, @response) then %>
     <div class="incorrect">
     <% multihtmlobj.length_from_hash(@response) if multihtmlobj.is_a?(MultiTextField) %>
-    <%= render :partial => 'problem/multihtmlobj', :object => multihtmlobj, 
+    <%= render :partial => 'problems/multihtmlobj', :object => multihtmlobj, 
       :locals => {:partial => 'problemanswers/responsefield', :locals => {:response => @response}} %>
     </div>
   <% end %>
 <% elsif multihtmlobj.is_a? TableField %>
   <% htmlobj_partial = 'problemanswers/htmlobj' %>
-  <%= render :partial => 'problem/multihtmlobj', :object => multihtmlobj %>
+  <%= render :partial => 'problems/multihtmlobj', :object => multihtmlobj %>
 <% elsif multihtmlobj.is_a? PermutationDrag %>
   <div class='permutationDragAnswer correct'>
     <% multihtmlobj.items_from(@solution).each do |item| %>

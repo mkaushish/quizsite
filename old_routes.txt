@@ -1,0 +1,50 @@
+          problem_index GET      /problem/index(.:format)             {:controller=>"problem", :action=>"index"}
+problem_next_subproblem POST     /problem/next_subproblem(.:format)   {:controller=>"problem", :action=>"next_subproblem"}
+         problem_expand POST     /problem/expand(.:format)            {:controller=>"problem", :action=>"expand"}
+                explain          /explain/:id(.:format)               {:controller=>"problem", :action=>"explain"}
+        problem_example          /problem/example/:type(.:format)     {:controller=>"problem", :action=>"example"}
+               problems          /problems(.:format)                  {:controller=>"problem", :action=>"index"}
+         problemanswers GET      /problemanswers(.:format)            {:action=>"index", :controller=>"problemanswers"}
+                        POST     /problemanswers(.:format)            {:action=>"create", :controller=>"problemanswers"}
+      new_problemanswer GET      /problemanswers/quiz(.:format)       {:action=>"new", :controller=>"problemanswers"}
+          problemanswer GET      /problemanswers/:id(.:format)        {:action=>"show", :controller=>"problemanswers"}
+                        PUT      /problemanswers/:id(.:format)        {:action=>"update", :controller=>"problemanswers"}
+           confirm_user GET      /users/:id/confirm(.:format)         {:action=>"confirm", :controller=>"users"}
+   change_password_user POST     /users/:id/change_password(.:format) {:action=>"change_password", :controller=>"users"}
+                  users GET      /users(.:format)                     {:action=>"index", :controller=>"users"}
+                        POST     /users(.:format)                     {:action=>"create", :controller=>"users"}
+               new_user GET      /users/new(.:format)                 {:action=>"new", :controller=>"users"}
+              edit_user GET      /users/:id/edit(.:format)            {:action=>"edit", :controller=>"users"}
+                   user GET      /users/:id(.:format)                 {:action=>"show", :controller=>"users"}
+                        PUT      /users/:id(.:format)                 {:action=>"update", :controller=>"users"}
+                        DELETE   /users/:id(.:format)                 {:action=>"destroy", :controller=>"users"}
+               sessions POST     /sessions(.:format)                  {:action=>"create", :controller=>"sessions"}
+            new_session GET      /sessions/new(.:format)              {:action=>"new", :controller=>"sessions"}
+                session DELETE   /sessions/:id(.:format)              {:action=>"destroy", :controller=>"sessions"}
+                quizzes GET      /quizzes(.:format)                   {:action=>"index", :controller=>"quizzes"}
+                        POST     /quizzes(.:format)                   {:action=>"create", :controller=>"quizzes"}
+               new_quiz GET      /quizzes/new(.:format)               {:action=>"new", :controller=>"quizzes"}
+              edit_quiz GET      /quizzes/:id/edit(.:format)          {:action=>"edit", :controller=>"quizzes"}
+                   quiz PUT      /quizzes/:id(.:format)               {:action=>"update", :controller=>"quizzes"}
+                        DELETE   /quizzes/:id(.:format)               {:action=>"destroy", :controller=>"quizzes"}
+    pages_check_drawing POST     /pages/check_drawing(.:format)       {:controller=>"pages", :action=>"check_drawing"}
+     pages_exampleprobs POST     /pages/exampleprobs(.:format)        {:controller=>"pages", :action=>"exampleprobs"}
+                profile          /profile(.:format)                   {:controller=>"users", :action=>"profile"}
+                  stats          /stats(.:format)                     {:controller=>"users", :action=>"stats"}
+        change_password          /change_password(.:format)           {:controller=>"users", :action=>"password_form"}
+                 signin          /signin(.:format)                    {:controller=>"pages", :action=>"signinpage"}
+                signout          /signout(.:format)                   {:controller=>"sessions", :action=>"destroy"}
+                history          /history(.:format)                   {:controller=>"problemanswers", :action=>"index"}
+              startquiz          /startquiz(.:format)                 {:controller=>"problemanswers", :action=>"new"}
+                   home          /home(.:format)                      {:controller=>"pages", :action=>"fasthome"}
+               features          /features(.:format)                  {:controller=>"pages", :action=>"features"}
+                  about          /about(.:format)                     {:controller=>"pages", :action=>"about"}
+             signinpage          /signinpage(.:format)                {:controller=>"pages", :action=>"signinpage"}
+                   draw GET|POST /draw(.:format)                      {:controller=>"pages", :action=>"draw"}
+             numberline          /numberline(.:format)                {:controller=>"pages", :action=>"numberline"}
+                  graph          /graph(.:format)                     {:controller=>"pages", :action=>"graph"}
+                 datagr          /datagr(.:format)                    {:controller=>"pages", :action=>"datagr"}
+                notepad          /notepad(.:format)                   {:controller=>"pages", :action=>"notepad"}
+                measure          /measure(.:format)                   {:controller=>"pages", :action=>"measure"}
+               estimate GET|POST /estimate(.:format)                  {:controller=>"pages", :action=>"exampleprobs"}
+                   root          /                                    {:controller=>"pages", :action=>"fasthome"}

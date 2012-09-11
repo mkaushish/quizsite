@@ -1,17 +1,18 @@
 Quizsite::Application.routes.draw do
-  # 
-  # resources :problems do
-  #   post 'next_subproblem', :on => :collection
-  #   post 'expand', :on => :collection
-  #   get 'example', :on => :member
-  # end
+  
+  resources :problems do
+    post 'next_subproblem', :on => :collection
+    post 'expand', :on => :collection
+    get 'example', :on => :collection
+    get 'explain', :on => :member
+  end
 
-  get  "problem/index"
-  post "problem/next_subproblem"
-  post "problem/expand"
-  match "/explain/:id" => 'problem#explain', :as => :explain
-  match "problem/example/:type" => 'problem#example', :as => :problem_example
-  match '/problems' => 'problem#index'
+  # get  "problem/index"
+  # post "problem/next_subproblem"
+  # post "problem/expand"
+  # match "/explain/:id" => 'problem#explain', :as => :explain
+  # match "problem/example/:type" => 'problem#example', :as => :problem_example
+  # match '/problems' => 'problem#index'
 
   scope(:path_names => { :new => "quiz" }) do
     resources :problemanswers, :except => [:edit, :destroy]

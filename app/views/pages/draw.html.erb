@@ -5,7 +5,7 @@
     <div class=span6>
       <div class=well>
         <%= hidden_field_tag 'problem_id', @problem.id %>
-        <%= render :partial => 'problem/problem', :object => @problem, :locals => {:partialdir => 'problem'} %>
+        <%= render :partial => 'problems/problem', :object => @problem, :locals => {:partialdir => 'problems'} %>
       </div>
     </div>
     <div class=span6>

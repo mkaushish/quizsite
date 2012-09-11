@@ -16,7 +16,7 @@
 <div class="exampleprob" >
 <%= form_tag({:action => 'exampleprobs'}, :autocomplete => "off") do %>
   <%= hidden_field_tag 'problem_id', @problem.id %>
-  <%= render :partial => 'problem/problem', :object => @problem, :locals => {:partialdir => 'problem'} %>
+  <%= render :partial => 'problems/problem', :object => @problem, :locals => {:partialdir => 'problems'} %>
   <div class="actions">
     <%= submit_tag "Submit Answer", :class=>"btn-primary" %>
   </div>

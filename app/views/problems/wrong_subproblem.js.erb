@@ -9,5 +9,5 @@ if( $('#times_attempted').attr('value') == '0' ) {
 else {
   //alert('filling in answer');
   $('#times_attempted').attr('value', 2);
-  $('#<%= exp_id @index %>').html( '<%= escape_javascript( render :partial => 'problem/problem', :object => @last_prob, :locals => {:partialdir => 'problemanswers'} ) %>');
+  $('#<%= exp_id @index %>').html( '<%= escape_javascript( render :partial => 'problems/problem', :object => @last_prob, :locals => {:partialdir => 'problemanswers'} ) %>');
 }

@@ -2,7 +2,7 @@
   <div class=inline-block>
     <% problem_elt.text.each do |elt| %>
       <div>
-        <%= render :partial => 'problem/problem_elt', :object => elt, :locals => {:partialdir => partialdir} %>
+        <%= render :partial => 'problems/problem_elt', :object => elt, :locals => {:partialdir => partialdir} %>
       </div>
     <% end %>
   </div>

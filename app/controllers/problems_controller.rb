@@ -1,4 +1,4 @@
-class ProblemController < ApplicationController
+class ProblemsController < ApplicationController
   include ProblemHelper
 
   def index

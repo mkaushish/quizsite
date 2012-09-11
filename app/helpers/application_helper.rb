@@ -48,7 +48,7 @@ module ApplicationHelper
   end
 
   def htmlobj_partial
-    @htmlobj_partial ||= 'problem/htmlobj'
+    @htmlobj_partial ||= 'problems/htmlobj'
   end
 
   def htmlobj_partial=(partial)

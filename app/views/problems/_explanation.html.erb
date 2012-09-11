@@ -4,7 +4,7 @@
   <%= hidden_field_tag 'times_attempted', 0 %>
   <div>
     <div id=sp_0>
-    <%= render :partial => 'problem/problem', :object => @problem, :locals => {:partialdir => 'problem'} %>
+    <%= render :partial => 'problems/problem', :object => @problem, :locals => {:partialdir => 'problems'} %>
     </div>
     <%= hidden_field_tag 'next_subproblem', "" %>
   </div>

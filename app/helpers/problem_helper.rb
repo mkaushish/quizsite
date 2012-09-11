@@ -13,9 +13,9 @@ module ProblemHelper
   # TODO fix this issue
   def render_subprob(subprob, index)
     div_h   = "<div id=\"#{ exp_id(index) }\"><div class=problem>"
-    ptext   = render( :partial => 'problem/problem', 
+    ptext   = render( :partial => 'problems/problem', 
                       :object => subprob, 
-                      :locals => {:partialdir => 'problem'}
+                      :locals => {:partialdir => 'problems'}
                     ) 
     div_e   = "</div></div>";
 

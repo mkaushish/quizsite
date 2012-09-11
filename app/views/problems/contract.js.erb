@@ -9,7 +9,7 @@ var id = '<%= exp_id(index) %>'
 pdiv.children('div.explanation').hide();
 
 // replace the problem with the correct answer, and show it
-pdiv.children('div.problem').html( '<%= escape_javascript( render :partial => 'problem/problem', :object => @last_prob, :locals => {:partialdir => 'problemanswers'} ) %>');
+pdiv.children('div.problem').html( '<%= escape_javascript( render :partial => 'problems/problem', :object => @last_prob, :locals => {:partialdir => 'problemanswers'} ) %>');
 pdiv.children('div.problem').show();
 
 // pop the subproblem off the index stack
