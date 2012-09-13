@@ -19,13 +19,17 @@ class Problem < ActiveRecord::Base
   before_save :dump_problem
   before_create :generate_problem
 
+  # Generates a random problem from ptype, if ptype is defined and problem isn't
+  # raises an exception if ptype and problem are nil
   def generate_problem
     if @problem.nil? && @ptype.is_a?(Class) && @ptype < QuestionBase
       @problem = @ptype.new
       dump_problem
       $stderr.puts "PROBLEM SET TO #{@problem.inspect}"
-    else
-      $stderr.puts "PROBLEM COULDN'T BE INITIALIZED!!!\nproblem = #{@problem.inspect}\nptype = #{@ptype.inspect} , #{@ptype.class}"
+
+    elsif @problem.nil?
+      $stderr.puts "GENERATING PROBLEM: COULDN'T BE INITIALIZED!!!\nproblem = #{@problem.inspect}\nptype = #{@ptype.inspect} , #{@ptype.class}"
+      raise 'Problem.new must be given either the problem itself of the problem class'
     end
   end
 
@@ -41,32 +45,6 @@ class Problem < ActiveRecord::Base
   def ptype
     @ptype ||= problem.class
   end
-
-  # DEPRACATE THESE 2!!
-  def load_problem
-    @problem = m_unpack(self.serialized_problem)
-  end
-
-  def unpack
-    load_problem
-  end
-
-  def prob
-    @prob ||= load_problem
-  end
-
-  def my_initialize(type)
-    unless type.is_a? Class
-      raise "Problem's initialize must be passed a class"
-    end
-
-    @prob = type.new
-    unless @prob.is_a? QuestionBase
-      raise "Problem's initialize must be passed a class which extends QuestionBase"
-    end
-  end
-
-  # END DEPRACATED
 
   # should be passed the params variable returned by the HTML form
   def correct?(params)

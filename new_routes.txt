@@ -1,5 +1,5 @@
 next_subproblem_problems POST     /problems/next_subproblem(.:format)  {:action=>"next_subproblem", :controller=>"problems"}
-         expand_problems POST     /problems/expand(.:format)           {:action=>"expand", :controller=>"problems"}
+          expand_problem POST     /problems/:id/expand(.:format)       {:action=>"expand", :controller=>"problems"}
         example_problems GET      /problems/example(.:format)          {:action=>"example", :controller=>"problems"}
          explain_problem GET      /problems/:id/explain(.:format)      {:action=>"explain", :controller=>"problems"}
                 problems GET      /problems(.:format)                  {:action=>"index", :controller=>"problems"}

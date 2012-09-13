@@ -6,7 +6,7 @@
     <%= hidden_field_tag "shownp", (!@problemanswer.nil? && @problemanswer.notepad) %>
     <%= render :partial => 'problems/problem', :object => @problem, :locals => {:partialdir => 'problemanswers'} %>
     <% if @problem.is_a? QuestionWithExplanation %>
-      <%= link_to "See Explanation", explain_path(@problemanswer.problem), :class => "btn btn-large btn-success" %>
+      <%= link_to "See Explanation", explain_problem_path(@problemanswer.problem), :class => "btn btn-large btn-success" %>
     <% end %>
       <%= link_to "More Problems", startquiz_path, :class => "btn btn-large btn-primary" %>
     <% if signed_in? %>

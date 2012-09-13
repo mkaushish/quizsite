@@ -8,7 +8,7 @@
       </div>
     <% else %>
       <div class=incorrectex>
-        You got the last problem wrong... <%= link_to "See how to do it.", explain_path(@lastproblem) %>
+        You got the last problem wrong... <%= link_to "See how to do it.", explain_problem_path(@lastproblem) %>
       </div>
     <% end %>
   <% end %>

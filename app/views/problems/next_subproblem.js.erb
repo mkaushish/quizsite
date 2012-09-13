@@ -14,7 +14,7 @@ $('.add_mt_field').remove();
 $('.del_mt_field').remove();
 
 // delete previous expand button if it exists
-$('[href^="/problems/expand"]').hide();
+$('[href^="<%= expand_problem_path(@orig_prob) %>"]').hide();
 
 // " labelling them correct " ...
 var texts = myInputs.filter(':text');

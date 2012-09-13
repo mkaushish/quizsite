@@ -2,7 +2,7 @@ Quizsite::Application.routes.draw do
   
   resources :problems do
     post 'next_subproblem', :on => :collection
-    post 'expand', :on => :collection
+    post 'expand', :on => :member
     get 'example', :on => :collection
     get 'explain', :on => :member
   end

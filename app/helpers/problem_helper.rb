@@ -21,7 +21,7 @@ module ProblemHelper
 
     if subprob.is_a?(QuestionWithExplanation)
       expand = link_to( "Wait, how do I do that?", 
-                        problem_expand_path(:id => @orig_prob.id, :index => index), 
+                        expand_problem_path(:id => @orig_prob.id, :index => index), 
                         :method => :post, 
                         :remote => true,
                         :class => "btn btn-success"

@@ -27,7 +27,7 @@ else {
   /**/
 
   // delete the expand button
-  $('[href^="/problems/expand"]').hide();
+  $('[href^="<%= expand_problem_path(@orig_prob) %>"]').hide();
 }
 
 //

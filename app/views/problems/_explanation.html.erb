@@ -1,4 +1,4 @@
-<%= form_tag({:controller => 'problem', :action => 'next_subproblem'}, :remote => true, :autocomplete => "off") do %>
+<%= form_tag({:controller => 'problems', :action => 'next_subproblem'}, :remote => true, :autocomplete => "off") do %>
   <%= hidden_field_tag 'subproblem_index', @i %>
   <%= hidden_field_tag 'problem_id', @orig_prob.id %>
   <%= hidden_field_tag 'times_attempted', 0 %>

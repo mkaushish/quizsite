@@ -119,7 +119,7 @@ class ProblemanswersController < ApplicationController
           redirect_to :action => 'new'
         else
           if in_quiz? && quiz_user.force_explanation?
-            redirect_to explain_path(quiz_user.problem_id)
+            redirect_to explain_problem_path(quiz_user.problem_id)
           else
             redirect_to @problemanswer
           end

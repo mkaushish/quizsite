@@ -96,14 +96,14 @@ class ProblemsController < ApplicationController
   end
 
   def save_last_problem
-    return if @last_prob.class <= Subproblem
+    return if @last_prob.class <= Subproblem # we don't save any explicit subproblems
 
-    prob = Problem.new( :prob => @last_prob )
-    $stderr.puts "PROBLEM WAS NOT SAVED BITCHES!!!!"*10 unless prob.save
+    problem = Problem.new(:problem => @last_prob)
+    $stderr.puts "PROBLEM WAS NOT SAVED BITCHES!!!!"*10 unless problem.save
     answer = current_user.problemanswers.new(
-      :problem  => prob,
+      :problem  => problem,
       :correct  => @last_prob.correct?(params),
-      :response => prob.get_packed_response(params))
+      :response => problem.get_packed_response(params))
     unless answer.save
       $stderr.puts "ANSWER WAS NOT SAVE MOFOS!!!!"*10
     end

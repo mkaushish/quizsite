@@ -499,12 +499,14 @@ module ToHTML
     def char_length(arg)
       len = 20
       if arg.is_a? QuestionBase
-        len = arg.prefix_solve[@name].length
+        ans = arg.prefix_solve[@name]
       elsif arg.is_a? Hash
-        len = arg[@name].length
+        ans = arg[@name]
       elsif arg.respond_to? :problem
-        len = arg.problem.prefix_solve[@name].length
+        ans = arg.problem.prefix_solve[@name]
       end
+
+      len = ans.length unless ans.nil?
 
       return [6, @maxlen+1].min if len < 6
       (len / 3 + 1) * 3
