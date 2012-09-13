@@ -11,7 +11,7 @@ class QuizzesController < ApplicationController
     stop_quiz
     @nav_selected = "makequiz"
     @chosen_probs = get_probs
-    @custom_probs = current_user.custom_probs
+    # @custom_probs = current_user.custom_probs
     @chapter = Chapter1
   end
 
