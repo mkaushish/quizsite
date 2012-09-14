@@ -49,8 +49,10 @@ Quizsite::Application.routes.draw do
   match '/numberline',  :to => 'pages#numberline'
   match '/graph',       :to => 'pages#graph'
   match '/datagr',       :to => 'pages#datagr'
+  match '/bhutan',       :to => 'pages#bhutan'
   match '/notepad',       :to => 'pages#notepad'
   match '/measure',       :to => 'pages#measure'
+  match '/dgraph',       :to => 'problem#dgraph'
   match '/estimate',    :to => 'pages#exampleprobs', :via => [:get, :post]
   # match '/nologinhome_3dbfabcacc12868a282be76f5d59a19813', :to => 'pages#nologinhome'
   root                  :to => 'pages#fasthome'

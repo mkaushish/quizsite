@@ -4,6 +4,79 @@ require_relative '../tohtml.rb'
 include ToHTML
 
 module Chapter12
+
+  SUNIT=["mm", "grams", "ml", "cm", "meters", "paise"]
+  LUNIT=["cm", "kg", "liter", "meters", "km", "rupees"]
+  UCON={"mm" => 10,
+    "grams" => 1000,
+    "ml" => 1000,
+    "cm" => 100,
+    "meters" => 1000,
+    "paise" => 100}
+
+  class FindRatioSame < QuestionWithExplanation
+    def initialize
+      units=Set.new(SUNIT+LUNIT)
+      tm1=rand(2)
+      if(tm1==0)
+        @unit=" "
+      else @unit=" #{units.to_a.sample} "
+      end
+      rat=Grade6ops::chCommPF
+      if(rand(2)==0)
+        tm=rat[0]
+        rat[0]=rat[1]
+        rat[1]=tm
+      end
+      @rat=rat
+      @n1=rat[0].reduce(:*)
+      @n2=rat[1].reduce(:*)
+      @co=rat[2].reduce(:*)
+    end
+    def explain
+      [SubLabel.new("This is essentially the same as reducing the fraction #{@n1}/#{@n2} to its lowest form"), Chapter7::ReduceFractions.new(@rat[0], @rat[1], @rat[2])]
+      def solve
+        {"ans1" => @n1/@co, "ans2" => @n2/@co}
+      end
+      def text
+        [TextLabel.new("Find the ratio of #{@n1}#{@unit}to #{@n2}#{@unit}in its lowest form"), InlineBlock.new(TextField.new("ans1"), TextLabel.new(" : "), TextField.new("ans2"))]
+      end
+    end 
+  end
+
+
+  class FindRatioDiff < QuestionWithExplanation
+    def initialize
+      @lunit=LUNIT.sample
+      @sunit=SUNIT[LUNIT.index(@lunit)]
+      rat=Grade6ops::chCommPF
+      if(rand(2)==0)
+        tm=rat[0]
+        rat[0]=rat[1]
+        rat[1]=tm
+      end
+      @n1=rat[0].reduce(:*)
+      @n2=rat[1].reduce(:*)
+      @co=rat[2].reduce(:*)
+      @rat=rat
+      @wh=rand(2)
+    end
+    def explain
+      [SubLabel.new("First convert to the same units. Try converting #{@n1*UCON[@sunit]} #{@sunit} to #{@lunit}"), Chapter8::UnitsDecIncrease.new(@sunit, @n1*UCON[@sunit]), Chapter12::FindRatioSame.new(@rat[0],@rat[1],@rat[2])]
+      def solve
+        {"ans1" => @n1/@co, "ans2" => @n2/@co}
+      end
+      def text
+        str="#{@n1} #{@lunit} to #{@n2*UCON[@sunit]} #{@sunit}" if @wh==0
+        str="#{@n1} #{@sunit} to #{@n2*UCON[@sunit]} #{@lunit}" if @wh==1
+        [TextLabel.new("Find the ratio of #{str} in its lowest form"), InlineBlock.new(TextField.new("ans1"), TextLabel.new(" : "), TextField.new("ans2"))]
+      end
+    end
+  end
+
+
+
+
 	class SumRat
 		def initialize(subs, nums, tot)
 			@subs=subs
@@ -301,6 +374,6 @@ module Chapter12
       [TextLabel.new(@txt1.str_first + " in " + @c1 + ". "+@txt2.str_first + " in " + @c2 + ". Where is it more expensive per unit?"), RadioButton.new("ans", @c1, @c2)]
     end
   end
-  PROBLEMS=[Chapter12::RatioStudent, Chapter12::Proportion, Chapter12::UnitaryMethod, Chapter12::RatioCompCostWord]
+  PROBLEMS=[Chapter12::FindRatioSame, Chapter12::RatioStudent, Chapter12::Proportion, Chapter12::UnitaryMethod, Chapter12::RatioCompCostWord]
   
 end

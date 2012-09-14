@@ -209,9 +209,14 @@ module Chapter8
     def self.type
       "Convert Units 1"
     end
-    def initialize
+    def initialize(sunit=nil, num=nil)
+      if(sunit==nil)
       @wh=rand(SUNIT.length-1)+1
       @num=rand(UCON[SUNIT[@wh]]*100)
+      else
+        @wh=SUNIT.index(sunit)
+        @num=num
+      end
     end
     def solve
       {"ans" => (@num.to_f)/(UCON[SUNIT[@wh]])}

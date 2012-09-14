@@ -283,6 +283,7 @@ module Chapter2
     end
   end
 
+
   PROBLEMS = [  
     Chapter2::WriteSuccessors,            Chapter2::WritePredecessors,
     Chapter2::SuitableRearrangementSum,   Chapter2::SuitableRearrangementProduct, 
