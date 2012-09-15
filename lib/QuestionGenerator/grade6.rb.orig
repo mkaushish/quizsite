@@ -17,7 +17,12 @@ require_relative 'grade6/c7'
 require_relative 'grade6/c8'
 require_relative 'grade6/c9'
 require_relative 'grade6/c10'
+<<<<<<< HEAD
+=======
+require_relative 'grade6/c12'
 require_relative 'grade6/myc12'
+#require_relative 'grade6/c5'
+>>>>>>> c12
 #require_relative 'grade6/c11'
 require_relative 'grade6/c12'
 
@@ -34,7 +39,10 @@ CHAPTERS = [
   Chapter10,
 #  Chapter11,
   Chapter12,
+<<<<<<< HEAD
+=======
   MyChapter12,
+>>>>>>> c12
   Geo,
   Physics,
   CricketQuestions

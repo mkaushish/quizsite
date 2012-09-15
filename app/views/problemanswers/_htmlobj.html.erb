@@ -1,7 +1,7 @@
 <% if htmlobj.is_a? TextLabel %>
   <%= htmlobj.to_s %>
 
-<% elsif htmlobj.is_a?(TextField) || htmlobj.is_a?(Checkbox) || htmlobj.is_a?(Commabox) %>
+<% elsif htmlobj.is_a?(TextField) || htmlobj.is_a?(Commabox) %>
   <div class="correct">
     <%= render :partial => 'problemanswers/responsefield', :locals => {:response => @solution}, :object => htmlobj %>
   </div>
@@ -12,6 +12,32 @@
       <%= render :partial => 'problemanswers/responsefield', :locals => {:response => @response}, :object => htmlobj %>
     </div>
   <% end %>
+
+<% elsif htmlobj.is_a?(Checkbox) %>
+  <% r_checked = !@response[htmlobj.name].nil? %>
+  <% s_checked = !@solution[htmlobj.name].nil? %>
+  <% checked = r_checked || s_checked %>
+  <% corr_class = htmlobj.correct?(@solution, @response) ? "correct" : "incorrect" %>
+  <% corr_class = "" unless checked %>
+
+  <% tooltip = '' %>
+
+  <% if r_checked && !s_checked %>
+    <% tooltip = "This was correct, but you didn't click it." %>
+  <% elsif !r_checked && s_checked %>
+    <% tooltip = "You clicked this and it was incorrect." %>
+  <% end %>
+
+  <div class='<%= corr_class %> checkbox-item' data-original-title="<%= tooltip %>">
+    <% if r_checked != s_checked %>
+      <%= check_box_tag htmlobj.name, "1", s_checked, { :disabled => true } %>
+      <%= check_box_tag htmlobj.name, "1", r_checked, { :disabled => true } %>
+    <% else %>
+      <%= check_box_tag htmlobj.name, "1", checked, { :disabled => true } %>
+    <% end %>
+    <%= label_tag(htmlobj.name, htmlobj.label) unless htmlobj.label.nil? %>
+  </div>
+
 <% elsif htmlobj.is_a?(Commabox) %>
   <br>
   <div class="incorrect">

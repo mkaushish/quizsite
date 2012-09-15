@@ -93,4 +93,6 @@ $(document).ready(function () {
   });
 
   bind_mt_buttons();
+
+  $('.checkbox-item.incorrect').tooltip();
 });

@@ -56,7 +56,7 @@ class Problem < ActiveRecord::Base
   end
 
   def get_response(params)
-    @response ||= problem.get_useful_response(params)
+    @response ||= params.select { |k, v| k =~ /^qbans_/ }
   end
 
   def get_packed_response(params)

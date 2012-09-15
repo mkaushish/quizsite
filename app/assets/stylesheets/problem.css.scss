@@ -101,3 +101,7 @@ div.permutationDragAnswer > div {
   display:inline-block;
   @include unselectable();
 }
+
+.checkbox-item label, .checkbox-item input {
+  display:inline-block;
+}
