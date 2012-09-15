@@ -1,7 +1,7 @@
 <% if htmlobj.is_a? TextLabel %>
   <%= htmlobj.to_s %>
 
-<% elsif htmlobj.is_a?(TextField) || htmlobj.is_a?(Checkbox) || htmlobj.is_a?(Commabox) %>
+<% elsif htmlobj.is_a?(TextField) || htmlobj.is_a?(Commabox) %>
   <div class="correct">
     <%= render :partial => 'problemanswers/responsefield', :locals => {:response => @solution}, :object => htmlobj %>
   </div>
@@ -12,6 +12,16 @@
       <%= render :partial => 'problemanswers/responsefield', :locals => {:response => @response}, :object => htmlobj %>
     </div>
   <% end %>
+
+<% elsif htmlobj.is_a?(Checkbox) %>
+  <% checked = @solution[htmlobj.name] || @response[htmlobj.name] %>
+  <% corr_class = htmlobj.correct?(@solution, @response) ? "correct" : "incorrect" %>
+  <% corr_class = "" unless checked %>
+  <div class='<%= corr_class %> checkbox-item'>
+    <%= check_box_tag htmlobj.name, "1", checked %>
+    <%= label_tag(htmlobj.name, htmlobj.label) unless htmlobj.label.nil? %>
+  </div>
+
 <% elsif htmlobj.is_a?(Commabox) %>
   <br>
   <div class="incorrect">

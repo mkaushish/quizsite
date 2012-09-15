@@ -12,8 +12,10 @@
   <% elsif htmlobj.is_a? Dropdown %>
     <%= select_tag(htmlobj.name, options_from_collection_for_select(htmlobj.fields, 'to_s', 'to_s' ), :style=> len_to_css_width(htmlobj.char_length + 4)) %>
   <% elsif htmlobj.is_a? Checkbox %>
-    <%= label_tag(htmlobj.name, htmlobj.label) unless htmlobj.label.nil? %>
-    <%= check_box_tag htmlobj.name %>
+    <div class='checkbox-item'>
+      <%= check_box_tag htmlobj.name %>
+      <%= label_tag(htmlobj.name, htmlobj.label) unless htmlobj.label.nil? %>
+    </div>
   <% elsif htmlobj.is_a? Commabox %>
     <div id=<%="#{htmlobj.name}_box"%> class=commabox></div>
     <%= hidden_field_tag htmlobj.name, "0"%>

@@ -51,6 +51,7 @@ module Items
   ]
 
   def self.generate(n = 1)
-    return ITEMS.sample(n)
+    return ITEMS.sample if n == 1
+    ITEMS.sample(n)
   end
 end

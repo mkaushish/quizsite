@@ -460,8 +460,8 @@ module ToHTML
     end
 
     def correct?(solution, response)
-      return true unless solution[@name].nil? || response[@name].nil?
-      solution[@name].nil? && response[@name].nil?
+      $stderr.puts "#{name}, #{solution[@name]}, #{response[@name]}"
+      (solution[@name].nil? == response[@name].nil?)
     end
   end
   class Commabox < InputField

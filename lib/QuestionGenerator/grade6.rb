@@ -17,6 +17,7 @@ require_relative 'grade6/c8'
 require_relative 'grade6/c9'
 require_relative 'grade6/c10'
 require_relative 'grade6/c12'
+require_relative 'grade6/myc12'
 #require_relative 'grade6/c5'
 #require_relative 'grade6/c11'
 #require_relative 'grade6/c12'
@@ -34,6 +35,7 @@ CHAPTERS = [
   Chapter10,
 #  Chapter11,
   Chapter12,
+  MyChapter12,
   Geo,
   Physics,
   CricketQuestions
