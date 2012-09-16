@@ -20,7 +20,7 @@
 </div>
 <% shapes = geometryfield.encodedStartShapes %>
 <%= hidden_field_tag('startshapes', shapes)   %>
-<%= hidden_field_tag('selectedshapes')   %>
+<%= hidden_field_tag('qbans_selected')   %>
 <%= hidden_field_tag('starttool', geometryfield.startTool) %>
 <% if geometryfield.is_a?(GeometryField) %>
   <%= hidden_field_tag geometryfield.name, "" %>

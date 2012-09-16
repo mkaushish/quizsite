@@ -32,7 +32,7 @@ module Geometry
     end
 
     def self.selectedShapes(response)
-      Shape.decode_a(InputField.fromhash("selectedshapes", response))
+      Shape.decode_a(InputField.fromhash("selected", response))
     end
 
     #

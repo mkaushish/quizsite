@@ -47,7 +47,7 @@ class ProblemsController < ApplicationController
           # end of subproblem
           if @nested
 
-            # TODO save that shit if it's a real problem type
+            # save that shit if it's a real problem type
             save_last_problem
 
             # increment the index
@@ -74,7 +74,7 @@ class ProblemsController < ApplicationController
 
         # doing the estimate example problem
         else
-          render :js => "window.location = '/estimate'"
+          render :js => "window.location = '/problems'"
         end
 
       # still in the middle of an explanation, so increment counters and move on

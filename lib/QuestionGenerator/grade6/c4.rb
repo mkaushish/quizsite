@@ -199,16 +199,11 @@ module Chapter4
   #
   # Just taken from the end
   #
-  class DefVertices < QuestionWithExplanation
+  module DefVerticesMethods
+    attr_accessor :points, :lines, :num_verts
+
     def self.type
       "Identify Vertices"
-    end
-    attr_accessor :points, :lines, :num_verts
-    def initialize
-      num_sides = 3 + rand(4);
-      dists = Array.new(num_sides) { (SmallGeoDisplay.width/6) + rand(SmallGeoDisplay.width / 6) }
-      @lines, @points = *(SmallGeoDisplay::polygonAtCenterWithPoints("A", dists))
-      @num_verts = 1 + rand(num_sides - 2)
     end
 
     def text
@@ -240,23 +235,41 @@ module Chapter4
       end
       true
     end
+  end
 
-    def explain
-      [
-        SubLabel.new("A vertex is defined as the meeting point of a pair of sides.  On a polygon like you see below, it's basically a corner.  Try the problem again with this definition in mind!"),
-        self
-      ]
+  class DefVerticesHelper < QuestionBase
+    include DefVerticesMethods
+
+    def initialize(*args)
+      @lines, @points, @num_verts = *args
     end
   end
 
-  class DefAdjacentSides < QuestionWithExplanation
-    def self.type
-      "Identify Adjacent Sides"
-    end
+  class DefVertices < QuestionWithExplanation
+    include DefVerticesMethods
+
     def initialize
-      num_sides = 5 + rand(3);
+      num_sides = 3 + rand(4);
       dists = Array.new(num_sides) { (SmallGeoDisplay.width/6) + rand(SmallGeoDisplay.width / 6) }
       @lines, @points = *(SmallGeoDisplay::polygonAtCenterWithPoints("A", dists))
+      @num_verts = 1 + rand(num_sides - 2)
+    end
+    
+    def explain
+      [
+        SubLabel.new("A vertex is defined as the meeting point of a pair of sides.  On a polygon like you see below, it's basically a corner.  Try the problem again with this definition in mind!"),
+        getQuestionBase
+      ]
+    end
+
+    def getQuestionBase
+      DefVerticesHelper.new(@lines, @points, @num_verts)
+    end
+  end
+
+  module AdjacentSides
+    def self.type
+      "Identify Adjacent Sides"
     end
 
     def text
@@ -284,23 +297,44 @@ module Chapter4
       return false if i.nil? || j.nil?
       return ((i - j) % @lines.length == 1) || ((j - i) % @lines.length == 1)
     end
+  end
 
-    def explain
-      [
-        SubLabel.new("Remember that adjacent edges are ones that are next to each other.  The real definition is that they \"share a common end point.\"  With this in mind, try the problem again:"),
-        self
-      ]
+  # This class is used in the explanation for DefAdjacentSides, so a duplicate version of the
+  # question without an explanation can be performed in the explanation of the original problem
+  class DefAdjacentSidesHelper < QuestionBase
+    include AdjacentSides
+
+    def initialize(lines, points)
+      @lines = lines
+      @points = points
     end
   end
 
-  class DefAdjacentVertices < QuestionWithExplanation
-    def self.type
-      "Identify Adjacent Vertices"
-    end
+  class DefAdjacentSides < QuestionWithExplanation
+    include AdjacentSides
+
     def initialize
       num_sides = 5 + rand(3);
       dists = Array.new(num_sides) { (SmallGeoDisplay.width/6) + rand(SmallGeoDisplay.width / 6) }
       @lines, @points = *(SmallGeoDisplay::polygonAtCenterWithPoints("A", dists))
+    end
+
+    def explain
+      [
+        SubLabel.new("Remember that adjacent edges are ones that are next to each other.  The real definition is that they \"share a common end point.\"  With this in mind, try the problem again:"),
+        getQuestionBase # get's an identical version of this problem which inherits from QuestionBase
+                        # to avoid an infinite loop in explanations that arose from using self here
+      ]
+    end
+
+    def getQuestionBase
+      DefAdjacentSidesHelper.new(@lines, @points)
+    end
+  end
+
+  module AdjacentVertices
+    def self.type
+      "Identify Adjacent Vertices"
     end
 
     def text
@@ -330,12 +364,32 @@ module Chapter4
       return false if i.nil? || j.nil?
       return ((i - j) % @lines.length == 1) || ((j - i) % @lines.length == 1)
     end
+  end
+
+  class DefAdjacentVerticesHelper < QuestionBase
+    include AdjacentVertices
+    def initialize(*args)
+      @lines, @points = *args
+    end
+  end
+
+  class DefAdjacentVertices < QuestionWithExplanation
+    include AdjacentVertices
+    def initialize
+      num_sides = 5 + rand(3);
+      dists = Array.new(num_sides) { (SmallGeoDisplay.width/6) + rand(SmallGeoDisplay.width / 6) }
+      @lines, @points = *(SmallGeoDisplay::polygonAtCenterWithPoints("A", dists))
+    end
 
     def explain
       [
         SubLabel.new("Remember that adjacent vertices are end points to the same line segment.  With this in mind, try the problem again:"),
-        self
+        getQuestionBase
       ]
+    end
+
+    def getQuestionBase
+      DefAdjacentVerticesHelper.new(@lines, @points)
     end
   end
 

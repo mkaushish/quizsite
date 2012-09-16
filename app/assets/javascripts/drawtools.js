@@ -103,6 +103,7 @@ function setUpGeo() {
   }
 
   function writeShapeHTML() {
+    console.log(shapes);
     var s = "";
     var hidden_s = "";
     var color_i = 0;
@@ -190,6 +191,30 @@ function setUpGeo() {
     startCircleNo = nextCircleNo;
     startShapes = shapes.slice(0);
     clear();
+  }
+
+  function getSelectedShapes() {
+    var selectedShapes = [];
+
+    var s = $('#qbans_selected').attr('value')
+      , a = s.split(',');
+
+    for(var i = 0; i < a.length; i++) {
+      var shape = decodeShape(a[i]);
+
+      if(shape == undefined) {
+        continue;
+      }
+
+      j = findShape(shape);
+      if(j > 0) {
+        shapes[j].highlight();
+      } 
+      else {
+        shape.highlight();
+        addShape(shape);
+      }
+    }
   }
 
   function getActivePOIs() {
@@ -421,6 +446,9 @@ function setUpGeo() {
   }
   function decodeShape(s) {
     var a = s.split(":");
+
+    if(a.length < 2) { return undefined; }
+
     var type = a.shift();
     if(type == "line"){
       for(var i = 0; i < a.length; i++) { a[i] = parseInt(a[i]); }
@@ -451,12 +479,23 @@ function setUpGeo() {
     updatePOIs();
     redraw();
   }
+
+  function findShape(shape) {
+    for(var i = 0; i < shapes.length; i++) {
+      if(shapes[i].to_s == shape.to_s) { return i; }
+    }
+    return -1;
+  }
+
   function addShape(shape) {
     if(shape instanceof Line){
       nextLineNo++;
     }
-    if(shape instanceof Circle){
+    else if(shape instanceof Circle){
       nextCircleNo++;
+    }
+    else if(shape == undefined) {
+      return -1;
     }
 
     shapes.push(shape);
@@ -1108,7 +1147,7 @@ function setUpGeo() {
     writeSelection : function() {
       var s = "";
       for(i in this.selShapes) { if(this.selShapes[i]) { s = s+i + "," } }
-      $('#selectedshapes').attr("value", s.replace(/,$/, ""));
+      $('#qbans_selected').attr("value", s.replace(/,$/, ""));
     }
   }
 
@@ -1251,5 +1290,6 @@ function setUpGeo() {
   //alert(STATES[0].tool + ", " + STATES[1].tool);
   getStartShapes();
   getStartState();
+  getSelectedShapes();
   //setState(SELECT);
 }
