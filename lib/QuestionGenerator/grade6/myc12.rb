@@ -7,7 +7,9 @@ require_relative '../modules/items'
 include ToHTML
 
 module MyChapter12
-  def self.gen_irreducibly_ratio
+  COEFFICIENTS = [2,3,4,5,6,7,8,9,10,12,15,20,25,50,100, 200, 500, 1000]
+
+  def self.gen_irreducible_ratio
     n = rand(12) + 1
     m = rand(12) + 1
     r = Rational(n,m)
@@ -18,8 +20,8 @@ module MyChapter12
   def self.gen_ratio
     # generate the irreducible ratio, and multiply both nums by a coefficient
     # this way we get variety, while guaranteeing it's not too weird a number
-    c = [2,3,4,5,6,7,8,9,10,12,15,20,25,50,100, 200, 500, 1000].sample
-    MyChapter12.gen_irreducibly_ratio.map { |x| x * c }
+    c = COEFFICIENTS.sample
+    MyChapter12.gen_irreducible_ratio.map { |x| x * c }
   end
   
   class DefRatio < QuestionWithExplanation # {{{
@@ -124,8 +126,116 @@ module MyChapter12
   def self.type() "Ratios and unit conversions" end
   end
 
+  def self.ratio_field(name)
+    InlineBlock.new(TextField.new("#{name}_a"), 
+                    TextLabel.new(" : "),
+                    TextField.new("#{name}_b")
+                   )
+  end
+
+  class EquivalentRatios < QuestionBase
+    def initialize
+      @a, @b = MyChapter12.gen_ratio
+      @num_ratios = 2 + rand(2)
+    end
+
+    def text
+      txt = [
+        TextLabel.new("Name #{@num_ratios} ratios equivalent to #{@a} : #{@b}")
+      ] + Array.new(@num_ratios) { |i| MyChapter12.ratio_field(i.to_s) }
+    end
+
+    def solve
+      r = Rational(@a, @b)
+      r_a = r.numerator
+      r_b = r.denominator
+
+      # set the solution coefficients to be the first available ones, which are easiest
+      # the students to calculate
+      coeffs = (1..@num_ratios).to_a
+
+      # make sure our coefficient isn't in the list of solution coefficients, 
+      # and swap it out if it is
+      c = @a / r_a
+      if c <= @num_ratios
+        coeffs[c] = @num_ratios
+        coeffs.sort!
+      end
+
+      ret = {}
+      @num_ratios.times do |i|
+        ret["#{i}_a"] = r_a * coeffs[i]
+        ret["#{i}_b"] = r_b * coeffs[i]
+      end
+      ret
+    end
+
+    def correct?(response)
+      r = Rational(@a, @b)
+
+      resps = Array.new(@num_ratios) { |i| QuestionBase.vars_from_response("#{i}_a", "#{i}_b", response).map { |s| s.to_i } }
+      correct = true
+
+      # for each response
+      @num_ratios.times do |i|
+        a, b = resps[i]
+        # make sure it's not the number listed
+        correct &= (a != @a) && (b != @b)
+
+        # make sure it's right
+        correct &= Rational(a,b) == r
+
+        # make sure they don't repeat themselves on other answers
+        # this works because - indices work like you'd expect them to in ruby
+        (1...@num_ratios).each { |j| correct &= (a != resps[i-j][0]) && (b != resps[i-j][1]) }
+        return false unless correct
+      end
+      true
+    end
+
+    def self.type
+      "Name equivalent ratios"
+    end
+  end
+
+  class FillInEquivRatios < QuestionBase
+    def self.type
+      "Complete the equivalent ratio"
+    end
+
+    def initialize(rat = nil, c1 = nil, c2 = nil)
+      if rat && c1 && c2
+        a, b = rat.numerator, rat.denominator
+        c1, c2 = c1, c2
+      else
+        a, b = MyChapter12.gen_irreducible_ratio
+        c1, c2 = COEFFICIENTS.sample(2)
+      end
+      @p = [ a * c1, b * c1, a * c2, b * c2 ]
+      @missing_i = rand(4)
+    end
+
+    def solve
+      {"ans" => @p[@missing_i]}
+    end
+
+    def text
+      final_ratio = [ TextLabel.new(@p[0].to_s), TextLabel.new(" : "), TextLabel.new(@p[1].to_s), 
+                      TextLabel.new(" :: "),
+                      TextLabel.new(@p[2].to_s), TextLabel.new(" : "), TextLabel.new(@p[3].to_s) ]
+      final_ratio[@missing_i * 2] = TextField.new("ans")
+
+      [ 
+        TextLabel.new("Fill in the blank to make the ratios equivalent and the statement true:"),
+        InlineBlock.new(final_ratio)
+      ] 
+    end
+  end
+
   PROBLEMS = [
     DefRatio,
-    RatiosAndUnits
+    RatiosAndUnits,
+    EquivalentRatios,
+    FillInEquivRatios
   ]
 end
