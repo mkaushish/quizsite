@@ -4,6 +4,8 @@ require_relative './grade6ops.rb'
 require_relative '../questionbase'
 require_relative '../tohtml.rb' 
 require_relative './preg6'
+require 'prime'
+
 include PreG6
 include ToHTML
 
@@ -101,8 +103,24 @@ module Chapter7
   end
 
   class ReduceFractions < QuestionWithExplanation
+    # 
+    # The variables here:
+    #   nums1 is an array of prime factors
+    #   nums2 is an array of prime factors
+    #   comm is just the prime factors they have in common
+    #
+    # not sure why we used this bizarre system instead of just using two numbers 
+    # to represent the numerator and denominator
+    #
+    # ReduceFractions.new(num, denom) will work, where num is the numerator and denom 
+    # denominator, both are Fixnums
     def initialize(nums1=nil, nums2=nil, comm=nil)
-      if (nums1!=nil && nums2!=nil && comm!=nil)
+      if !nums1.nil? && !nums2.nil? && comm.nil?
+        @nums1 = nums1.prime_division.map { |p| [p[0]] * p[1] }.flatten
+        @nums2 = nums2.prime_division.map { |p| [p[0]] * p[1] }.flatten
+        @comm  = nums1.gcd(nums2).prime_division.map { |p| [p[0]] * p[1] }.flatten
+
+      elsif (nums1!=nil && nums2!=nil && comm!=nil)
         @nums1=nums1
         @nums2=nums2
         @comm=comm
@@ -116,6 +134,8 @@ module Chapter7
           @comm=nms[2]
         end
       end
+
+      puts "#{@nums1}, #{@nums2}, #{@comm}"
     end
     def solve
       {"num" => @nums1.reduce(:*)/@comm.reduce(:*),
