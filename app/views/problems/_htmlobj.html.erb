@@ -5,9 +5,10 @@
     <%= text_field_tag htmlobj.name, "", :maxlength => htmlobj.maxlen, :style => len_to_css_width(length) %>
   <% elsif htmlobj.is_a? RadioButton %>
     <% htmlobj.fields.each do |field| %>
-      <%= radio_button_tag(htmlobj.name, field) %>
-      <%= label_tag(htmlobj.name, field) %>
-      <br>
+      <div class=checkbox-item>
+        <%= radio_button_tag(htmlobj.name, field) %>
+        <%= label_tag("#{htmlobj.name}_#{field}", field) %>
+      </div>
     <% end %>
   <% elsif htmlobj.is_a? Dropdown %>
     <%= select_tag(htmlobj.name, options_from_collection_for_select(htmlobj.fields, 'to_s', 'to_s' ), :style=> len_to_css_width(htmlobj.char_length + 4)) %>

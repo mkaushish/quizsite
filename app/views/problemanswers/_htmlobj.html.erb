@@ -7,7 +7,6 @@
   </div>
 
   <% unless htmlobj.correct? @solution, @response %>
-    <br>
     <div class="incorrect">
       <%= render :partial => 'problemanswers/responsefield', :locals => {:response => @response}, :object => htmlobj %>
     </div>

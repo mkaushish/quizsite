@@ -278,6 +278,8 @@ module ToHTML
       else
         @text = args
       end
+
+      @text.map! { |e| e.is_a?(String) ? TextLabel.new(e) : e }
     end
 
     def correct?(solution, response)
