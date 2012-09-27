@@ -17,7 +17,6 @@ require_relative 'grade6/c7'
 require_relative 'grade6/c8'
 require_relative 'grade6/c9'
 require_relative 'grade6/c10'
-require_relative 'grade6/myc12'
 #require_relative 'grade6/c11'
 require_relative 'grade6/c12'
 
