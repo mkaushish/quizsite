@@ -34,7 +34,7 @@ CHAPTERS = [
   Chapter10,
 #  Chapter11,
   Chapter12,
-  MyChapter12,
+#  MyChapter12,
   Geo,
   Physics,
   CricketQuestions
