@@ -116,7 +116,11 @@ class ProblemanswersController < ApplicationController
         increment_problem(last_correct)
 
         if last_correct
-          redirect_to :action => 'new'
+          if in_examples?
+            redirect_to profile_path
+          else
+            redirect_to new_problemanswer_path
+          end
         else
           if in_quiz? && quiz_user.force_explanation?
             redirect_to explain_problem_path(quiz_user.problem_id)
