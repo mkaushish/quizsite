@@ -57,7 +57,7 @@ class User < ActiveRecord::Base
   has_many :problemanswers, :dependent => :destroy
   has_many :quiz_users
   has_many :quizzes, :through => :quiz_users
-  has_many :custom_problems
+  has_many :problems
 
   validates :name, :presence => true,
                    :length => { :maximum => 50 }
@@ -143,6 +143,10 @@ class User < ActiveRecord::Base
     self.problem_stats[ptype] = stats
 
     save(:validate => false)
+  end
+
+  def self.find_by_email(s)
+    s.kind_of?(String) && super(s.downcase) 
   end
 
   private

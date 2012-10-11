@@ -2,7 +2,12 @@
   <div class="span3">
     <div class='well sidebar-nav'>
       <ul class='nav nav-list'>
-        <li class='nav-header'>Grade 6</li>
+        <% if current_user.is_a?(Teacher) %>
+        <li class='nav-header'>
+          <a href="#custom_problems" data-toggle="tab">Your Problems</a>
+        </li>
+        <% end %>
+        <li class='nav-header'>SmarterGrades Grade 6</li>
         <% all_chapters.each do |chapter| %>
           <li class="<%= (chapter == @chapter) ? "active":""%>">
           <a href="#<%= chapter.to_s %>" data-toggle="tab"><%= chapter.to_s %></a>
@@ -12,17 +17,25 @@
     </div>
   </div>
   <div class="span6 tab-content" id="problemtabs">
-    <div class='section-header'>
-      Try an example problem!
-    </div>
+    <% if current_user.is_a?(Teacher) %>
+      <div class="tab-pane active" id="custom_problems">
+        <%= render :partial => 'teachers/custom_problems' %>
+      </div>
+    <% end %>
+
     <% all_chapters.each do |chapter| %>
-      <ul class="tab-pane<%= (chapter == @chapter) ? " active":"" %>" id="<%= chapter.to_s %>" >
-        <% chapter::PROBLEMS.each do |problem| %>
-          <li>
-          <%= link_to problem.type, example_problems_path(:type => problem) %>
-          </li>
-        <% end %>
-      </ul>
+      <div class="tab-pane<%= (chapter == @chapter) ? " active":"" %>" id="<%= chapter.to_s %>">
+        <div class='section-header'>
+          Try a problem from NCERT <%= chapter.to_s %>
+        </div>
+        <ul>
+          <% chapter::PROBLEMS.each do |problem| %>
+            <li>
+            <%= link_to problem.type, example_problems_path(:type => problem) %>
+            </li>
+          <% end %>
+        </ul>
+      </div>
     <% end %>
   </div>
 </div>

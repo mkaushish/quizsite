@@ -2,9 +2,46 @@ class ProblemsController < ApplicationController
   include ProblemHelper
 
   def index
+    @custom_problems = signed_in? && current_user.problems
   end
 
-  def example
+  def show
+    @problem = Problem.find(params[:id])
+
+    @solution = @problem.solve
+    @response = @solution
+    @problemanswer = Problemanswer.new(:problem => @problem)
+    
+    render 'problemanswers/show'
+  end
+
+  def new # CREATES A NEW CUSTOM PROBLEM
+    @custom_problem = Problem.new
+
+    respond_to do |format|
+      format.html # new.html.erb
+      format.json { render json: @custom_problem }
+    end
+  end
+
+  def create
+    puts params
+    @qb_problem = make_custom_prob_from_params
+    puts @qb_problem.inspect
+    @custom_problem = current_user.problems.new( :problem => @qb_problem )
+
+    respond_to do |format|
+      if @custom_problem.save
+        format.html { redirect_to @custom_problem, notice: 'Custom problem was successfully created.' }
+        format.json { render json: @custom_problem, status: :created, location: @custom_problem }
+      else
+        format.html { render action: "new" }
+        format.json { render json: @custom_problem.errors, status: :unprocessable_entity }
+      end
+    end
+  end
+
+  def example # GIVES YOU AN EXAMPLE PROBLEM OF PTYPE
     @ptype = params[:type].constantize
 
     if @ptype < QuestionBase
@@ -150,5 +187,26 @@ class ProblemsController < ApplicationController
       ret = ret.explain[i.to_i]
     end
     ret.explain
+  end
+
+  def make_custom_prob_from_params
+    if params[:response] == 'number'
+      return CustomProblemNum.new(params[:name], params[:problem_text], params[:answer_number])
+
+    elsif params[:response] == 'text'
+      return CustomProblemText.new(params[:name], params[:problem_text], params[:answer_text])
+
+    elsif params[:response] == 'multiplechoice'
+      resps = [ params[:answer_mcq] ]
+
+      params.each_key do |key|
+        resps << params[key] if key =~ /answer_choice/
+      end
+
+      return CustomProblemMCQ.new(params[:name], params[:problem_text], resps)
+
+    else 
+      return nil
+    end
   end
 end

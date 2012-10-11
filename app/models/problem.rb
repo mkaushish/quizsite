@@ -6,12 +6,16 @@
 #  problem    :string
 #  created_at :datetime
 #  updated_at :datetime
+#  user_id    :integer
 #
+
+require 'questionbase'
 
 class Problem < ActiveRecord::Base
   include ApplicationHelper
   has_many :problemanswers
-  attr_writer :problem
+  has_one :user
+  attr_writer :problem # so these can be accessible variables in the constructor
   attr_writer :ptype
 
   attr_accessible :problem, :ptype
@@ -69,5 +73,9 @@ class Problem < ActiveRecord::Base
 
   def text
     problem.text
+  end
+
+  def custom?
+    (problem.class < CustomProblem) && true # for some reason that was giving nil for a while
   end
 end

@@ -182,28 +182,41 @@ class SubLabel < Subproblem
   def solve ; {} ; end
 end
 
-class CustomQuestionNum < Subproblem
-  def initialize(text, soln)
-    @text = [ ToHTML::TextLabel.new(text),
+class CustomProblem < Subproblem
+  def initialize(name, text, soln)
+    @name = name
+    super(text, soln)
+  end
+
+  def self.type ; "Custom Problem" ; end
+  def type ; @name ; end
+end
+
+class CustomProblemNum < CustomProblem
+  def initialize(name, text, soln)
+    mytext = [ ToHTML::TextLabel.new(text),
               ToHTML::TextField.new('ans') ]
-    @mysoln = {'ans' => soln}
+    mysoln = {'ans' => soln}
+    super(name, mytext, mysoln)
   end
 end
 
-class CustomQuestionText < Subproblem
-  def initialize(text, soln)
-    @text = [ ToHTML::TextLabel.new(text),
+class CustomProblemText < CustomProblem
+  def initialize(name, text, soln)
+    mytext = [ ToHTML::TextLabel.new(text),
               ToHTML::TextField.new('ans') ]
-    @mysoln = {'ans' => soln}
+    mysoln = {'ans' => soln}
+    super(name, mytext, mysoln)
   end
 end
 
-class CustomQuestionMCQ < Subproblem
+class CustomProblemMCQ < CustomProblem
   # resps should be an array of the choices in the answer
   # the 0th element of resps should be the correct answer!
-  def initialize(text, resps)
-    @text = [ ToHTML::TextLabel.new(text),
+  def initialize(name, text, resps)
+    mytext = [ ToHTML::TextLabel.new(text),
               ToHTML::RadioButton.new('ans', resps.shuffle.shuffle) ]
-    @mysoln = {'ans' => resps[0]}
+    mysoln = {'ans' => resps[0]}
+    super(name, mytext, mysoln)
   end
 end

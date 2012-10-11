@@ -32,7 +32,11 @@ class CustomProblemsController < ApplicationController
 
   # GET /custom_problems/1/edit
   def edit
-    @custom_problem = CustomProblem.find(params[:id])
+    @problem = Problem.find(params[:id])
+
+    unless @problem.custom? && @problem.user == current_user
+      redirect_to root_path && return 
+    end
   end
 
   # POST /custom_problems
@@ -88,10 +92,10 @@ class CustomProblemsController < ApplicationController
 
   def make_custom_prob_from_params
     if params[:response] == 'number'
-      return CustomQuestionNum.new(params[:problem_text], params[:answer_number])
+      return CustomProblemNum.new(params[:problem_text], params[:answer_number])
 
     elsif params[:response] == 'text'
-      return CustomQuestionText.new(params[:problem_text], params[:answer_text])
+      return CustomProblemText.new(params[:problem_text], params[:answer_text])
 
     elsif params[:response] == 'multiplechoice'
       resps = [ params[:answer_mcq] ]
@@ -100,7 +104,7 @@ class CustomProblemsController < ApplicationController
         resps << params[key] if key =~ /answer_choice/
       end
 
-      return CustomQuestionMCQ.new(params[:problem_text], resps)
+      return CustomProblemMCQ.new(params[:problem_text], resps)
 
     else 
       return nil

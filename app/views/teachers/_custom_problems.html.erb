@@ -1,0 +1,15 @@
+<div class='section-header'>
+  Your custom problems
+</div>
+
+<% if @custom_problems == [] %>
+  <p>You don't currently have amy custom problems, but you can make them in the <%= link_to new_problem_path, '\'Make Problems\'' %> link in the nav bar</p>
+<% else %>
+  <ul>
+    <% @custom_problems.each do |problem| %>
+      <li>
+        <%= link_to problem.to_s, problem_path(problem) %>
+      </li>
+    <% end %>
+  </ul>
+<% end %>
