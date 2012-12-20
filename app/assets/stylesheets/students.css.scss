@@ -1,3 +1,99 @@
 // Place all the styles related to the students controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+@import 'mixins_n_colors';
+$blackboard_w: 188px;
+
+.list-box-table {
+  margin-top: 34px;
+  margin-left: 2px;
+  td {
+    padding-right: 25px;
+    padding-bottom: 25px;
+    &:last-child {
+      padding-right: 0;
+    }
+  }
+  & td>div {
+    position: relative;
+    display: inline-block;
+    background: transparent url('blackboard_bg.jpg') no-repeat left top;
+
+    // image size: 188 * 140 px
+    width: $blackboard_w;
+    height: 180px;
+  }
+}
+
+div.problem_list_box {
+  p {
+    width: $blackboard_w - 30px;
+    padding: 0 15px;
+    margin-top: 40px;
+    text-align: center;
+    color: white;
+  }
+
+  a {
+    position: absolute;
+    top: 90px;
+    left: 30px;
+    display: block;
+    padding: 5px;
+
+    width:117px;
+    height: 17px;
+
+    text-align: center;
+    color: white;
+    background-color: $sg_blue;
+
+    box-shadow: 4px 4px 2px black;
+  }
+
+  h5 {
+  }
+}
+
+div.pset_list_box {
+  p {
+    width: $blackboard_w - 30px;
+    padding: 0 15px;
+    margin-top: 40px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+  }
+
+  div.start {
+    position: absolute;
+    left: 94px;
+    top: 150px;
+    float:right;
+    display: inline-block;
+
+    width:75px;
+    height: 28px;
+    background-color: $sg_blue;
+
+    a {
+      position:absolute;
+      display:block;
+      width: 75px - 14px + 14px; // - padding + triangle
+      height:14px;
+      padding:7px;
+      color: white;
+      font-size: 11px;
+      background-color: transparent;
+    }
+
+    &>div.right_triangle {
+      position:relative;
+      left:75px;
+      top:0;
+      @include right-triangle(14px, $sg_blue);
+      margin:0;
+    }
+  }
+}

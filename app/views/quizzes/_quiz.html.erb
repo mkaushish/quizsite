@@ -1,5 +1,6 @@
 <%# remember "quiz" is passed in by :object => (quiz) %>
 <div class="problemscores tab-pane fordelete_<%= quiz.idname %>" id=<%= quiz.idname %>>
+  <!--
   <div style="border-bottom:2px solid; margin:0; padding:15px 0 7px 3px;">
     <div class="btn-group"> 
       <button class="btn btn-success dropdown-toggle" data-toggle="dropdown">
@@ -20,15 +21,17 @@
       </ul>
     </div>
   </div>
-  <% ct = 1 %>
-  <ul>
-    <% quiz.ptypes.each do |ptype| %>
+  -->
+  <ul class=problem-list-big>
+    <% quiz.stats.each do |stat| %>
+      <% ptype = stat.problem_type %>
       <li>
-      <%= link_to ptype.type, example_problems_path(:type => ptype), :style => 'display:block;width:400px;margin:0px;float:left;' %>
-      <%= get_smartscore(ptype) %>
-      <div class="<%= smartscore_class(@user.smartScore(ptype)) %>" style="clear:both; width:<%=@user.smartScore(ptype).to_i%>%; height:4px"></div>
+      <p><%= ptype.to_s %></p>
+      <%= link_to "Let me try" %>
+      <%= image_tag "blackboard_bg.jpg" %>
+      <%= get_smartscore(stat) %>
+      <div class="<%= smartscore_class(stat.smart_score) %>" style="clear:both; width:<%= stat.smart_score.to_i %>%; height:4px"></div>
       </li>
-      <% ct+=1 %>
     <% end %>
   </ul>
 </div>

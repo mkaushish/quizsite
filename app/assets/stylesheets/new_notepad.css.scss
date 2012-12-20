@@ -1,0 +1,15 @@
+@import 'mixins_n_colors';
+
+.side-notes {
+  &> div {
+    border: 1px solid $sg_grey;
+  }
+
+  &>.calculations {
+    height:200px;
+  }
+
+  &>.results {
+    height:150px;
+  }
+}

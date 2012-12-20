@@ -1,17 +1,15 @@
-<%= form_tag({:action => 'create'}, :remote => true) do %>
-  <div class="logo">
-    <% if current_user.is_a? Teacher %>
-      Assign homework for class: 
-      <% classrooms.each do |classroom| %>
-        <label class="checkbox inline">
-          <%= check_box_tag "class_#{classroom.id}" %>
-          <%= classroom.name %>
-        </label>
-      <% end %>
-      <%# select_tag "classrooms", options_from_collection_for_select(classrooms, 'id', 'name'), :multiple => true %>
-    <% else %>
-      Make a new practice set
+<div class="logo">
+  <% if current_user.is_a? Teacher %>
+    Assign homework for class: 
+    <% classrooms.each do |classroom| %>
+      <label class="checkbox inline">
+        <%= check_box_tag "class_#{classroom.id}" %>
+        <%= classroom.name %>
+      </label>
     <% end %>
-  </div>
-  <%= render :partial => 'form', :locals => {:quizname => nil} %>
-<% end %>
+    <%# select_tag "classrooms", options_from_collection_for_select(classrooms, 'id', 'name'), :multiple => true %>
+  <% else %>
+    Make a personal Practice Set
+  <% end %>
+</div>
+<%= render :partial => 'form', :locals => {:quizname => nil} %>

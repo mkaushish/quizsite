@@ -91,6 +91,7 @@ class ProblemanswersController < ApplicationController
   # POST /problemanswers
   # POST /problemanswers.json
   def create
+    $stderr.puts "_" * 100 + "\n" + session[:return_to]
     @problem = Problem.find(params["problem_id"])
 
     time = params["time_taken"].to_f
@@ -106,46 +107,20 @@ class ProblemanswersController < ApplicationController
                           :correct  => last_correct,
                           :response => @problem.get_packed_response(params),
                           :notepad => notepad )
-
-      #$stderr.puts "\n\n#{"#"*30}\n#{@problem.text}"
-      #$stderr.puts "#{@problem.problem.solve}"
-      #$stderr.puts "params = #{params.inspect}\n#{"#"*30}\n"
-
-      if @problemanswer.save
-        flash[:last_id] = @problemanswer.id
-        increment_problem(last_correct)
-
-        if last_correct
-          if in_examples?
-            redirect_to profile_path
-          else
-            redirect_to new_problemanswer_path
-          end
-        else
-          if in_quiz? && quiz_user.force_explanation?
-            redirect_to explain_problem_path(quiz_user.problem_id)
-          else
-            redirect_to @problemanswer
-          end
-        end
-      else
-        adderror("Had some trouble saving the last response")
-        redirect_to :action => 'new'
-      end
     else
-      # not signed in, no user
       @problemanswer = Problemanswer.new(
                         :problem  => @problem,
                         :time_taken => time,
                         :correct  => last_correct,
                         :response => @problem.get_packed_response(params))
-      # seems this line must be repeated
+    end
+
+    if @problemanswer.save
       flash[:last_id] = @problemanswer.id
-      if @problemanswer.save
-        redirect_to @problemanswer
-      else
-        redirect_to problems_path
-      end
+      redirect_to session[:return_to]
+    else
+      adderror("Had some trouble saving the last response")
+      redirect_to root_path
     end
   end
 

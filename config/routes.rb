@@ -3,7 +3,7 @@ Quizsite::Application.routes.draw do
   resources :problems do
     post 'next_subproblem', :on => :collection
     post 'expand', :on => :member
-    get 'example', :on => :collection
+    get 'example', :on => :member # although id points to a problem_type
     get 'explain', :on => :member
   end
 
@@ -27,12 +27,18 @@ Quizsite::Application.routes.draw do
 
   resources :sessions, :only => [:new, :create, :destroy]
 
-  resources :quizzes, :except => [:show] # see them in profile
+  resources :quizzes, do # see them in profile
+    get 'do', :on => :member # but really on QuizUsers
+    post 'complete_problem', :on => :member # also on QuizUsers
+  end
 
   post "pages/check_drawing"
   post "pages/exampleprobs"
 
-  match '/profile' => 'users#profile'
+  #
+  # shortcut pages - so the URLs make more sense
+  #
+  match '/profile' => 'students#home'
   match '/stats' => 'users#stats'
   match '/change_password' => 'users#password_form'
   # match '/signup',  :to => 'users#new'
@@ -40,11 +46,23 @@ Quizsite::Application.routes.draw do
   match '/signout',     :to => 'sessions#destroy'
   match '/history',     :to => 'problemanswers#index'
   match '/startquiz',   :to => 'problemanswers#new'
+  match '/problem_sets/:name', :to => 'problem_sets#show', :as => :problem_sets
+  match '/problem_sets/:name/generate/:ptype' => 'problem_sets#generate', :as => :gen_problem_set_problem
+  match '/problem_sets/:name/do/:pid', :to => 'problem_sets#do', :as => :problem_set_do
+  match '/problem_sets/:name/:pid', :to => 'problem_sets#do', :as => :problem_set_do
+  match '/studenthome', :to => 'students#home'
+
+  #
+  # general static pages
+  #
   match '/home',        :to => 'pages#fasthome'
   match '/features',    :to => 'pages#features'
   match '/about',       :to => 'pages#about'
-  # TODO remove signinpage, just call it signin
-  match '/signinpage',  :to => 'pages#signinpage'
+  match '/access_denied', :to => 'pages#access_denied'
+
+  #
+  # static example pages
+  #
   match '/draw',        :to => 'pages#draw', :via => [:get, :post]
   match '/numberline',  :to => 'pages#numberline'
   match '/graph',       :to => 'pages#graph'
@@ -54,6 +72,7 @@ Quizsite::Application.routes.draw do
   match '/measure',       :to => 'pages#measure'
   match '/dgraph',       :to => 'problem#dgraph'
   match '/estimate',    :to => 'pages#exampleprobs', :via => [:get, :post]
+
   # match '/nologinhome_3dbfabcacc12868a282be76f5d59a19813', :to => 'pages#nologinhome'
   root                  :to => 'pages#fasthome'
 

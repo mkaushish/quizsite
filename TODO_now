@@ -1,0 +1,31 @@
+Quiz Actions
+  - show quiz - list problems in the quiz
+  - quizzes/id/do - do a quiz problem - form-completion goes to quizzes/id/complete_problem
+  - quizzes/id/complete_problem
+  - all these should deny access unless there's a valid quiz_user / it's for the right problem_type
+
+Problem Sets
+- in model: verify that the name contains ONLY URLABLE CHARACTERS AND SPACES (NO UNDERSCORES)
+  - spaces will be converted to underscores, url will be /problem_sets/<name>
+
+Problems
+  - problems/:id/mastery = new example
+    - id is the id of the problem type
+    - selects a generator at random (the first one for now)
+
+Problem Generators
+  - rake task to add generators and add generators to
+
+HEROKU MAINTENANCE
+rake generate:problem_types
+  - generates problem_types and problem_generators
+  - generates our chapter problem sets
+
+TODO: rake problems:assign_generators - our existing problems are all created through our problem generators (not custom), assing all these
+
+INSURE THESE RAKE TASKS CAN BE RUN MULTIPLE TIMES AS PROBLEMS ARE ADDED
+
+if we can make difficulty simple enough to understand, as an integer, then students might be able to understand it themselves
+difficulty : could be number of questions till a kid get's it
+  - need more data to know what getting it is
+  - number of questions might be a bad metric, but something to do with getting it might be good

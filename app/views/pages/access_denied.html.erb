@@ -1,0 +1,8 @@
+<div>
+<% if flash[:error] %>
+  <%= flash[:error] %>
+<% else %>
+  We're sorry, you don't have access to that page!
+<% end %>
+</div>
+<%= link_to "Home", root_path %>

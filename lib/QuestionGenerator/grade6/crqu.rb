@@ -16,6 +16,8 @@ class Float
   end
 end
 module CricketQuestions
+  TITLE = "Cricket Questions"
+
   class CricketSubproblem < Subproblem
     def correct?(params)
       QuestionBase.vars_from_response("av", params).to_f==@mysoln["av"]

@@ -7,6 +7,7 @@ include ToHTML
 include Grade6ops
 
 module Chapter8
+  TITLE = "8: Decimals"
 
   NPVALUE=["Tenths", "Hundredths", "Thousandths", "Ten Thousandths"]
   PPVALUE=["Ones", "Tens", "Hundreds", "Thousands"]

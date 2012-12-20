@@ -1,5 +1,6 @@
 Short Term
 ----------
+[ ] go through relations and figure out all the dependent => destroys!
 [ ] classroom list for admin doesn't work with duplicate names, but not a prob for normal users
 [ ] fix email validations...
 [ ] when you add too many fields in a multitextfield, not all of them get saved.

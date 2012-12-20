@@ -1,6 +1,18 @@
-Factory.define :user do |user|
-  user.name                   "Thomas Ramfjord"
-  user.email                  "myfakeemail@blah.com"
-  user.password               "blah123"
-  user.password_confirmation  "blah123"
+module User
+  def init(user)
+  end
+end
+
+Factory.define :teacher do |user|
+  User::init(user)
+end
+
+Factory.define :student do |user|
+  User::init(user)
+end
+
+Factory.define :problem do |p|
+end
+
+Factory.define :problemanswer do |pa|
 end

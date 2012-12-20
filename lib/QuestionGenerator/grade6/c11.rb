@@ -9,6 +9,8 @@ include PreG6
 require 'set'
 include ToHTML
 module Chapter11
+  TITLE = "11: Algebra"
+
   VARNAMES=["x", "b", "y", "n", "k", "z", "c", "m"] 
   CONT=["row", "box", "row of Rangoli"]
   PLCONT=["rows", "boxes", "rows of Rangoli"]

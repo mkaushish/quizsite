@@ -1,0 +1,85 @@
+@import 'mixins_n_colors';
+
+$bar_to_top: 36px;
+
+.sg-nav {
+  height:90px;
+
+  div { 
+    float:left;
+    display: inline-block
+  }
+
+  ul {
+    padding-left: 40px;
+    float:left;
+
+    height: $bar_to_top;
+    //height: 36px;
+
+    font-size: 13px;
+    font-weight: bold;
+
+    li {
+      margin-left: 10px;
+      padding:10px;
+      float: left;
+
+      a {
+        color: black;
+        &:hover {
+          color: black;
+          text-decoration: none;
+        }
+      }
+    }
+    li.switch-to {
+      background-color: white;
+      border-top: 2px solid $sg_green;
+      border-right: 2px solid $sg_green;
+      border-left: 2px solid $sg_green;
+      padding: 8px 16px 9px 16px;
+    }
+    li.switch-to-header {
+      font-size: 11px;
+      color: $sg_green;
+      padding: 12px 7px 5px 7px;
+    }
+  }
+}
+
+.nav-blue-side {
+  height: 80px;
+  width:4px;
+  border-top: 2px solid $sg_blue;
+  border-left: 2px solid $sg_green;
+  border-bottom: 2px solid $sg_blue;
+}
+
+.nav-line {
+  width:100%;
+  position:absolute;
+  top:0;
+  z-index:-1;
+
+  div {
+    height:16px;
+    position: absolute;
+    top: 28px;
+    @include gradient(white, #eef4f4);
+    &:first-child {
+      border-bottom: 2px solid $sg_blue;
+    }
+
+    &:last-child {
+      border-bottom: 2px solid $sg_green;
+    }
+  }
+}
+
+.nav-blue-line {
+}
+
+.nav-green-line {
+  border-bottom: 2px solid $sg_green;
+}

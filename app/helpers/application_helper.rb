@@ -6,17 +6,11 @@ module ApplicationHelper
     return "SmarterGrades - The Smartest Way to Learn Maths" if @title.nil?
     return "SmarterGrades | #{@title}"
   end
-  def jsonload
-    return "" if @jsonload.nil?
-    return "onload=#{@jsonload}"
-  end
-  def container_height_style
-    return "" if @container_height.nil?
-    return "style=height:#{@container_height}px;"
-  end
+
   def fastnav?
     !@fastnav.nil?
   end
+
   def selected?(s)
     return "active" if @nav_selected == s
     return ""
@@ -86,14 +80,8 @@ module ApplicationHelper
 
   # Gets the html for a smartscore
   # ptype can be a Quiz object or a subclass of QuestionBase
-  def get_smartscore(ptype)
-    smartscore = "?"
-    if ptype.is_a?(Quiz)
-      smartscore = ptype.smartScore
-    elsif ptype < QuestionBase
-      smartscore = (@user || current_user).smartScore(ptype)
-    end
-
+  def get_smartscore(stat)
+    smartscore = stat.smart_score
     color_class = smartscore_class(smartscore)
 
     return "<div class=\"smartscore\" style='float:left;'>#{smartscore}</div>".html_safe
@@ -103,7 +91,13 @@ module ApplicationHelper
   def all_probs
     CHAPTERS.map { |chap| chap::PROBLEMS }.flatten
   end
+
   def all_chapters
     CHAPTERS
+  end
+
+  def nav_elts_path
+    return "students/nav_elts" if current_user.is_a? Student
+    "shared/default_nav_elts"
   end
 end

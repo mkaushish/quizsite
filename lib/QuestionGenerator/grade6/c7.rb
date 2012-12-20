@@ -10,6 +10,7 @@ include PreG6
 include ToHTML
 
 module Chapter7
+  TITLE = "7: Fractions"
 
   #TODO Fraction Formatting
 

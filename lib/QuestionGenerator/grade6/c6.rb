@@ -10,6 +10,7 @@ include PreG6
 include ToHTML
 
 module Chapter6
+  TITLE = "6: Integers"
   MAXCOMINT=30
   class CompareIntegers < QuestionBase
     def self.type

@@ -38,7 +38,7 @@
       <%= link_to student.name, user_path(student), :style=>"display:block;" %>
     </li>
     <% homework.ptypes.each do |ptype| %>
-      <li style="float:left;width:10px;border:1px solid gray;" rel="popover" style="display:block" data-width='<%= student.smartScore(ptype) %>' data-original-title="<%= student.smartScore(ptype) %>% : <%= ptype.type %>" data-content="<%= student.name %> has answered <%= student.stats(ptype)[:correct] %> / <%= student.stats(ptype)[:count] %> of these correctly">
+      <li style="float:left;width:10px;border:1px solid gray;" rel="popover" style="display:block" data-width='<%= student.smart_score(ptype) %>' data-original-title="<%= student.smartScore(ptype) %>% : <%= ptype.type %>" data-content="<%= student.name %> has answered <%= student.stats(ptype)[:correct] %> / <%= student.stats(ptype)[:count] %> of these correctly">
         <div class="<%= smartscore_class(student.smartScore(ptype)) %>" style="height:14px"></div>
       </li>
     <% end %>

@@ -84,4 +84,8 @@ class PagesController < ApplicationController
     end
     respond_to { |format| format.js }
   end
+
+  # GET access_denied
+  def access_denied
+  end
 end

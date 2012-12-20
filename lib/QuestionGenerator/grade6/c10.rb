@@ -5,7 +5,7 @@ include ToHTML
 include Geometry
 
 module Chapter10
-
+  TITLE = "Mensuration"
 
 	REGULARSHAPES= ["point", "line", "equilateral triangle", "square", "regular pentagon", "regular hexagon"]
 	MAXSIDE=40

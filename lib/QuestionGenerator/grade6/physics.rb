@@ -13,6 +13,8 @@ include PreG6
 
 SOUNDSPEED=340
 module Physics
+  TITLE = "Physics Questions"
+
   class SingleEchoDist < QuestionWithExplanation
     def initialize
       @dist=(rand(20)+1)*17

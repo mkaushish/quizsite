@@ -1,0 +1,27 @@
+<div class=nav-line data-target=site_logo>
+  <div></div>
+  <div></div>
+</div>
+
+<div class='container sg-nav'>
+  <div class='row-fluid sg-nav'>
+    <div id=site_logo><%= image_tag "logo_with_sides.jpg" %></div>
+    <!--
+    <div class='nav-blue-side'>
+    </div>
+
+    <div class='sg_logo'>
+    </div>
+
+    <div class='nav-green-side'>
+    </div>
+    -->
+
+    <%= render :partial => nav_elts_path %>
+
+    <ul style="float:right;">
+      <li class=switch-to-header>Switch To</li>
+      <li class=switch-to>Coach</li>
+      <li class=switch-to>Teacher</li>
+  </div>
+</div>

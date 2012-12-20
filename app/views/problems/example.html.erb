@@ -1,1 +1,11 @@
-Hey, you had the problem type <%= @chapter %>::<%= @ptype %>
+<div class=row-fluid>
+  <div class=span6>
+    <div class="well">
+      <!-- div id="quizheader"><%= @problem.to_s %></div -->
+      <%= render 'problemanswers/form' %>
+    </div>
+  </div>
+  <div class=span6>
+    <%= render :partial => "shared/notepad" %> 
+  </div>
+</div>

@@ -1,0 +1,9 @@
+<% stat = pset_list_box %>
+<% pset = stat.problem_set %>
+<div class=pset_list_box>
+  <p><%= pset.name %></p>
+  <div class=start>
+    <%= link_to "Start Now", problem_sets_path(:name => pset.id) %>
+    <div class=right_triangle></div>
+  </div>
+</div>

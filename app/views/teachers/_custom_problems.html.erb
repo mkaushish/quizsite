@@ -6,9 +6,9 @@
   <p>You don't currently have amy custom problems, but you can make them in the <%= link_to new_problem_path, '\'Make Problems\'' %> link in the nav bar</p>
 <% else %>
   <ul>
-    <% @custom_problems.each do |problem| %>
+    <% @custom_problems.each do |problem_type| %>
       <li>
-        <%= link_to problem.to_s, problem_path(problem) %>
+        <%= link_to problem_type.to_s, example_problem_path(:id => problem_type.id) %>
       </li>
     <% end %>
   </ul>

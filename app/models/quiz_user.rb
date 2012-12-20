@@ -4,10 +4,23 @@ class QuizUser < ActiveRecord::Base
   belongs_to :quiz
   belongs_to :user
 
-  validates :quiz_id, :presence => true
-  validates :user_id, :presence => true
+  has_many :quiz_problems, :through => :quiz
+  has_many :problem_types, :through => :quiz_problem_types
+
+  validates :quiz, :presence => true
+  validates :user, :presence => true
 
   before_save   :dump_problem_order
+
+  def user_stats
+    ptypes = self.problem_types
+
+    unless ptypes.empty?
+      return @user_stats ||= self.user.user_stats.where(:problem_type => ptypes)
+    else
+      return []
+    end
+  end
 
   def score(problem_counts = {})
     ptypes = quiz.ptypes

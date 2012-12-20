@@ -9,6 +9,7 @@ include PreG6
 require 'set'
 include ToHTML
 module Chapter9
+  TITLE = "9: Data Handling"
   class BarQues < QuestionBase
     def initialize
       yr=rand(1900)+106

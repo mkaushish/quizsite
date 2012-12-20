@@ -2,7 +2,8 @@ class ProblemsController < ApplicationController
   include ProblemHelper
 
   def index
-    @custom_problems = signed_in? && current_user.problems
+    @chapters = ProblemSet
+    @custom_problems = signed_in? && current_user.problem_types
   end
 
   def show
@@ -25,13 +26,18 @@ class ProblemsController < ApplicationController
   end
 
   def create
-    puts params
     @qb_problem = make_custom_prob_from_params
     puts @qb_problem.inspect
-    @custom_problem = current_user.problems.new( :problem => @qb_problem )
+
+    @problem_type = current_user.problem_types.new(:klass => @qb_problem.class, 
+                                                   :name => params[:name] )
+    pt_save = @problem_type.save
+
+    @custom_problem = @problem_type.problems.new(:problem => @qb_problem)
+    cp_save = @custom_problem.save
 
     respond_to do |format|
-      if @custom_problem.save
+      if cp_save && pt_save 
         format.html { redirect_to @custom_problem, notice: 'Custom problem was successfully created.' }
         format.json { render json: @custom_problem, status: :created, location: @custom_problem }
       else
@@ -41,21 +47,26 @@ class ProblemsController < ApplicationController
     end
   end
 
+  # GET /problems/:ID/example
+  # where :ID is the ProblemType index
   def example # GIVES YOU AN EXAMPLE PROBLEM OF PTYPE
-    @ptype = params[:type].constantize
+    @problem_type = ProblemType.find(params[:id])
 
-    if @ptype < QuestionBase
-      set_examples(@ptype)
+    @problem = @problem_type.spawn
+    session[:return_to] = request.referer
 
-      # we need to handle this in new problemanswer so that when they click more problems (after viewing the 
-      # problem result while not signed in
-      # they keep on getting the same example problem...
-      # maybe this is convoluted and there's a better way
-      redirect_to new_problemanswer_path
-    else
-      flash[:error] = "That's not a valid problem type!"
-      redirect_to :index
-    end
+    # if @ptype < QuestionBase
+    #   set_examples(@ptype)
+
+    #   # we need to handle this in new problemanswer so that when they click more problems (after viewing the 
+    #   # problem result while not signed in
+    #   # they keep on getting the same example problem...
+    #   # maybe this is convoluted and there's a better way
+    #   redirect_to new_problemanswer_path
+    # else
+    #   flash[:error] = "That's not a valid problem type!"
+    #   redirect_to :index
+    # end
   end
 
   def explain

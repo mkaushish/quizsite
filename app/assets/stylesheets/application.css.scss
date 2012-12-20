@@ -45,17 +45,11 @@
 /* Layout ID's {{{ */
 body {
   overflow:scroll;
-  //color: #333333;
   color: #567;
   background-color: #ffffff;
   //font-family: "Latine";
   font-family: "Sans";
-  //font-family: "Times New Roman";
   font-size:16px;
-
-  padding-top:80px;
-  position:relative;
-  margin:0;
 }
 
 .navbar .nav > li > a {
@@ -366,6 +360,7 @@ input.btn-blue {
 .formfield {
   margin:10px 0 10px 0;
 }
+
 /* }}} */
 
 /* SmartScore colors {{{ */

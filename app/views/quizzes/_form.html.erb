@@ -1,45 +1,47 @@
-<div class=row-fluid>
-  <div class="span3">
-    <div class='well sidebar-nav'>
-      <ul class='nav nav-list'>
-        <li class='nav-header'>Grade 6</li>
-        <% all_chapters.each do |chapter| %>
-          <li class="<%= (chapter == @chapter) ? "active":""%>">
-          <a href="#<%= chapter.to_s %>" data-toggle="tab"><%= chapter.to_s %></a>
-          </li>
-        <% end %>
-        <li><button type="button" class="btn" id=clear-quiz>Clear Quiz</button></li>
-        <li><%= submit_tag "Save Quiz", :class=>"btn-primary" %></li>
-      </ul>
+<%= form_for(@quiz) do |f| %>
+  <div class=row-fluid>
+    <div class="span3">
+      <div class='well sidebar-nav'>
+        <ul class='nav nav-list'>
+          <li class='nav-header'>Grade 6</li>
+          <% all_chapters.each do |chapter| %>
+            <li class="<%= (chapter == @chapter) ? "active":""%>">
+            <a href="#<%= chapter.to_s %>" data-toggle="tab"><%= chapter.to_s %></a>
+            </li>
+          <% end %>
+          <li><button type="button" class="btn" id=clear-quiz>Clear Quiz</button></li>
+          <li><%= f.submit "Save", :class=>"btn-primary" %></li>
+        </ul>
+      </div>
     </div>
-  </div>
-  <div class="span6 tab-content" id="problemtabs">
-    <div class='section-header'>
-      <% if quizname.nil? %>
-        <%= text_field_tag "quiz_name", nil, :placeholder=>"Name your Quiz!", :style => "float:none;display:inline;", :class=>"quiznamefield" %>
-        <span id=nameerrors></span>
-      <% else %>
-        <%= quizname.to_s %>
+    <div class="span6 tab-content" id="problemtabs">
+      <div class='section-header'>
+        <% if quizname.nil? %>
+          <%= f.text_field :name, :placeholder=>"Name", :style => "float:none;display:inline;", :class=>"quiznamefield" %>
+          <span id=nameerrors></span>
+        <% else %>
+          <%= quizname.to_s %>
+        <% end %>
+      </div>
+      <% all_chapters.each do |chapter| %>
+        <ul class="tab-pane<%= (chapter == @chapter) ? " active":"" %>" id="<%= chapter.to_s %>" >
+          <% ProblemType.where(:klass => chapter::PROBLEMS.map { |e| e.to_s }).each do |problem_type| %>
+            <li>
+            <%= check_box_tag "problem_types[#{problem_type.id}]", problem_type.id.to_s, (@problem_types && @problem_types.include?(problem_type)) %>
+            <%= label_tag "problem_types[#{problem_type.id}]", problem_type.to_s %>
+            </li>
+          <% end %>
+        </ul>
       <% end %>
     </div>
-    <% all_chapters.each do |chapter| %>
-      <ul class="tab-pane<%= (chapter == @chapter) ? " active":"" %>" id="<%= chapter.to_s %>" >
-        <% chapter::PROBLEMS.each do |problem| %>
-          <li>
-            <%= check_box_tag problem.to_s, "1", (@chosen_probs.include? problem) %>
-            <%= label_tag problem.to_s, problem.type %>
-          </li>
-        <% end %>
-      </ul>
-    <% end %>
-  </div>
-  <div class="span3">
-    <div class='well sidebar-nav'>
-      <ul id='curquiz' class='nav nav-list'>
-      </ul>
+    <div class="span3">
+      <div class='well sidebar-nav'>
+        <ul id='curquiz' class='nav nav-list'>
+        </ul>
+      </div>
     </div>
   </div>
-</div>
+<% end %>
 <script>
   $(function () {
     $('a[href="#<%= @chapter.to_s %>"]').tab('show');

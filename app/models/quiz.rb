@@ -11,21 +11,33 @@
 #
 
 class Quiz < ActiveRecord::Base
-  @@name_regex = /[a-zA-Z0-9 ]+/
   has_many :quiz_users
   has_many :users, :through => :quiz_users
 
+  has_many :quiz_problems
+  has_many :problem_types, :through => :quiz_problems
+
+  # just do this when things are working a little better eh?
+  # accepts_nested_attributes_for :problem_types
+
   attr_accessible :name, :problemtypes
 
-  validates :problemtypes, :presence => true
+  # validates :problemtypes, :presence => true
 
-  validates :name,         :presence => true,
-                           :uniqueness => { :scope => :user_id, :message => "You can't name two homeworks the same thing" },
-                           :length => { :within => 1..20 },
-                           :format => { :with => @@name_regex, :message => "Only letters and numbers allowed" }
+  validates :name, :presence => true,
+                   :uniqueness => { :scope => :user_id, :message => "You can't name two quizzes the same thing" },
+                   :length => { :within => 1..20 }
 
   after_create { allow_access(self.user_id) }
   after_save :set_problem_orders
+
+  def add_problem_type(problem_type, count)
+    !problem_type.nil? && quiz_problem_types.create(:problem_type => problem_type)
+  end
+
+  def remove_problem_type(problem_type)
+    !problem_type.nil? && quiz_problem_types.where(:problem_type => problem_type).first.delete
+  end
 
   def ptypes
     @ptypes ||= Marshal.load(self.problemtypes)
@@ -40,28 +52,12 @@ class Quiz < ActiveRecord::Base
     return false
   end
 
-  def smartScore
+  def smart_score
     return "?"
   end
 
-  def allow_access(my_user)
-    # $stderr.puts "\n" + "#"*100
-    my_user_id = -1
-    if my_user.kind_of?(User) || my_user.kind_of?(Student)
-      my_user_id = my_user.id
-    elsif my_user.is_a?(Fixnum)
-      my_user_id = my_user
-    else
-      $stderr.puts "can only allow access to my_users, not #{my_user.inspect}"
-      return
-    end
-
-    # $stderr.puts "checking user_id => #{my_user_id}"
-
-    if quiz_users.where(:user_id => my_user_id).empty?
-     # $stderr.puts "creating quiz user with user_id => #{my_user_id}, order => #{ptypes}"
-      quiz_users.create!(:user_id => my_user_id, :problem_order => ptypes)
-    end
+  def allow_access(user)
+    quiz_users.create!(:user => user)
   end
 
   def set_problem_orders

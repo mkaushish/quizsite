@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120905172408) do
+ActiveRecord::Schema.define(:version => 20121220113111) do
 
   create_table "class_assignments", :force => true do |t|
     t.integer "classroom_id"
@@ -54,6 +54,54 @@ ActiveRecord::Schema.define(:version => 20120905172408) do
   add_index "hw_assignments", ["classroom_id"], :name => "index_hw_assignments_on_classroom_id"
   add_index "hw_assignments", ["homework_id"], :name => "index_hw_assignments_on_homework_id"
 
+  create_table "problem_generators", :force => true do |t|
+    t.string  "klass"
+    t.integer "problem_type_id"
+  end
+
+  create_table "problem_set_instances", :force => true do |t|
+    t.integer  "user_id"
+    t.integer  "problem_set_id"
+    t.datetime "last_attempted"
+  end
+
+  add_index "problem_set_instances", ["user_id", "problem_set_id"], :name => "problem_set_instances_by_user", :unique => true
+
+  create_table "problem_set_problems", :force => true do |t|
+    t.integer "problem_set_id"
+    t.integer "problem_type_id"
+  end
+
+  add_index "problem_set_problems", ["problem_set_id", "problem_type_id"], :name => "problem_set_problem_types_index", :unique => true
+
+  create_table "problem_set_stats", :force => true do |t|
+    t.integer "problem_set_instance_id"
+    t.integer "problem_type_id"
+    t.integer "points"
+    t.integer "problem_stat_id"
+    t.integer "current_problem"
+  end
+
+  create_table "problem_sets", :force => true do |t|
+    t.string  "name"
+    t.integer "user_id"
+  end
+
+  create_table "problem_stats", :force => true do |t|
+    t.integer "user_id"
+    t.integer "problem_type_id"
+    t.integer "count",           :default => 0
+    t.integer "correct",         :default => 0
+  end
+
+  add_index "problem_stats", ["user_id", "problem_type_id"], :name => "index_problem_stats_on_user_id_and_problem_type_id", :unique => true
+
+  create_table "problem_types", :force => true do |t|
+    t.string "name"
+  end
+
+  add_index "problem_types", ["name"], :name => "index_problem_types_on_name", :unique => true
+
   create_table "problemanswers", :force => true do |t|
     t.boolean  "correct"
     t.integer  "problem_id"
@@ -64,6 +112,7 @@ ActiveRecord::Schema.define(:version => 20120905172408) do
     t.string   "pclass"
     t.float    "time_taken"
     t.string   "notepad"
+    t.integer  "problem_generator_id"
   end
 
   add_index "problemanswers", ["user_id", "created_at"], :name => "index_problemanswers_on_user_id_and_created_at"
@@ -74,20 +123,36 @@ ActiveRecord::Schema.define(:version => 20120905172408) do
     t.binary   "serialized_problem"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "problem_generator_id"
+  end
+
+  create_table "quiz_instances", :force => true do |t|
+    t.integer  "quiz_id"
     t.integer  "user_id"
+    t.string   "s_problem_order"
+    t.integer  "problem_id",      :default => -1
+    t.integer  "num_attempts",    :default => 0
+    t.datetime "last_attempted"
   end
 
-  create_table "quiz_users", :force => true do |t|
+  add_index "quiz_instances", ["quiz_id", "user_id"], :name => "index_quiz_users_on_quiz_id_and_user_id", :unique => true
+  add_index "quiz_instances", ["quiz_id"], :name => "index_quiz_users_on_quiz_id"
+  add_index "quiz_instances", ["user_id"], :name => "index_quiz_users_on_user_id"
+
+  create_table "quiz_problems", :force => true do |t|
     t.integer "quiz_id"
-    t.integer "user_id"
-    t.string  "s_problem_order"
-    t.integer "problem_id",      :default => -1
-    t.integer "num_attempts",    :default => 0
+    t.integer "problem_type_id"
+    t.integer "count",           :default => 2
   end
 
-  add_index "quiz_users", ["quiz_id", "user_id"], :name => "index_quiz_users_on_quiz_id_and_user_id", :unique => true
-  add_index "quiz_users", ["quiz_id"], :name => "index_quiz_users_on_quiz_id"
-  add_index "quiz_users", ["user_id"], :name => "index_quiz_users_on_user_id"
+  add_index "quiz_problems", ["quiz_id", "problem_type_id"], :name => "index_quiz_problems_on_quiz_id_and_problem_type_id", :unique => true
+
+  create_table "quiz_stats", :force => true do |t|
+    t.integer "quiz_instance_id"
+    t.integer "problem_type_id"
+    t.integer "completed",        :default => 0
+    t.integer "total"
+  end
 
   create_table "quizzes", :force => true do |t|
     t.binary   "problemtypes"
@@ -95,7 +160,6 @@ ActiveRecord::Schema.define(:version => 20120905172408) do
     t.datetime "created_at"
     t.datetime "updated_at"
     t.string   "name"
-    t.string   "type"
   end
 
   add_index "quizzes", ["user_id", "name"], :name => "index_quizzes_on_user_id_and_name", :unique => true
@@ -103,7 +167,6 @@ ActiveRecord::Schema.define(:version => 20120905172408) do
   create_table "users", :force => true do |t|
     t.string   "name"
     t.string   "email"
-    t.string   "perms"
     t.datetime "created_at"
     t.datetime "updated_at"
     t.string   "encrypted_password"
@@ -112,6 +175,7 @@ ActiveRecord::Schema.define(:version => 20120905172408) do
     t.string   "confirmation_code"
     t.boolean  "confirmed",          :default => false
     t.string   "type"
+    t.integer  "points",             :default => 0
   end
 
   add_index "users", ["email"], :name => "index_users_on_email", :unique => true

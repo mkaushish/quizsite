@@ -55,9 +55,14 @@ class User < ActiveRecord::Base
   serialize :problem_stats, Hash
 
   has_many :problemanswers, :dependent => :destroy
-  has_many :quiz_users
-  has_many :quizzes, :through => :quiz_users
-  has_many :problems
+  has_many :quiz_instances, :dependent => :destroy
+  has_many :quizzes, :through => :quiz_instances
+
+  has_many :problem_set_instances, :dependent => :destroy
+  has_many :problem_sets, :through => :problem_set_instances
+
+  # has_many :problem_types # custom problems created by user
+  has_many :problem_stats, :dependent => :destroy # mastery stats
 
   validates :name, :presence => true,
                    :length => { :maximum => 50 }
@@ -73,6 +78,7 @@ class User < ActiveRecord::Base
   before_save  :encrypt_password
 
   before_create lambda { self.email.downcase! ; self.problem_stats = {} }
+  after_create :add_default_problem_sets
 
   def self.authenticate(email, submitted_password)
     user = find_by_email(email)
@@ -90,12 +96,12 @@ class User < ActiveRecord::Base
     self.encrypted_password == encrypt(submitted_password)
   end
 
-  def smartScore(ptype)
+  def smart_score(ptype)
     # TODO implement smartscore + calculations for real, right now just percent
-    stats = self.stats(ptype)
+    my_stat = self.stat(ptype)
 
-    return "?" if stats[:count] == 0
-    return stats[:correct] * 100 / stats[:count]
+    return "?" if my_stat.count == 0
+    return my_stat.correct * 100 / my_stat.count
   end
 
   def quiz_score(quiz) 
@@ -135,14 +141,20 @@ class User < ActiveRecord::Base
     self.problem_stats[ptype.to_s] || empty_stats
   end
 
-  def update_stats(ptype, correct)
-    stats = self.stats(ptype)
+  def stat(problem_type)
+    puts "NOW PROBLEMTYPE = #{problem_type}"
+    stats = problem_stats.where(:problem_type_id => problem_type.id)
 
-    stats[:count] += 1
-    stats[:correct] += 1 if correct
-    self.problem_stats[ptype] = stats
+    if stats.empty?
+      return problem_stats.new(:problem_type_id => problem_type.id)
+    else
+      return stats.first
+    end
+  end
 
-    save(:validate => false)
+  def update_stats(problem_type, correct)
+    my_stat = stat(problem_type)
+    my_stat.update!(correct)
   end
 
   def self.find_by_email(s)
@@ -150,6 +162,13 @@ class User < ActiveRecord::Base
   end
 
   private
+
+  # THIS WILL FAIL IF ONE OF THE PROBLEM SETS HAS ALREADY BEEN ASSIGNED
+  def add_default_problem_sets
+    ProblemSet.where(:user_id => nil).each do |problem_set|
+      problem_set.assign(self)
+    end
+  end
 
   def empty_stats
     { :count => 0, :correct => 0 }

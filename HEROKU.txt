@@ -1,0 +1,96 @@
+Getting heroku db:pull to work
+  1) ensure that your heroku remote account is set up correctly
+    * see this link: https://devcenter.heroku.com/articles/quickstart
+    * basically commands like `heroku logs` should definitely be working
+
+  2) ensure that your postgres db account has a password
+    * It will always give an authentication error if there's no password on the pg_user
+    * see below for setting this up
+
+  3) `gem install taps` unless `gem list` shows taps is already installed
+    * this went through without a hitch for me
+
+  4) heroku db:pull
+    * this also worked once the other stuff was done
+
+
+# 2...................................
+#    POSTGRES DB ACCOUNT PASSWORD
+# ....................................
+
+What I did
+
+  thomas:quizsite$ psql smartergrades_dev
+  psql (9.1.4)
+  Type "help" for help.
+
+  smartergrades_dev=# select * from pg_shadow
+  smartergrades_dev-# \du
+                                 List of roles
+     Role name   |                   Attributes                   | Member of 
+  ---------------+------------------------------------------------+-----------
+   postgres      | Superuser, Create role, Create DB, Replication | {}
+   smartergrades | Superuser, Create role, Create DB, Replication | {}
+   testpg        | Superuser, Create role, Create DB, Replication | {}
+   thomas        | Superuser, Create role, Create DB, Replication | {}
+
+  # NOTE: I think I've got a couple of extra unnecessary users up there, but the important one
+  # is whichever one you have specified in your database.yml file!
+  # ALSO NOTE: don't forget the semicolon
+
+  smartergrades_dev-# ALTER USER thomas WITH PASSWORD '<my_password>';
+  smartergrades_dev-# \q
+
+  # NOTE: I had read here that pg_ctl reload was necessary
+  # http://stackoverflow.com/questions/7667193/heroku-dbpull-failing-due-to-lack-of-password-when-i-havent-specified-a-passwo
+
+  Lastly insure your database.yml has your password in it as well!
+
+search terms I used to figure this out
+  * the mailing list archives are a great resource of quick answers here, if they show up on google
+  postgres change user password
+  postgres list users
+
+If this doesn't work, try the following which is NOT SECURE!
+  sudo vim /etc/postgresql/9.1/main/pg_hba.conf
+    - change the following
+      local   all             all                                     peer
+      host    all             all             127.0.0.1/32            md5
+    + to the following
+      local   all             all                                     trust
+      host    all             all             127.0.0.1/32            trust
+
+  reload the postgres servers' configs
+
+    thomas:quizsite$ sudo su postgres
+    [sudo] password for thomas: 
+  
+    # NOTE: I had to find the pg_ctl command with `locate pg_ctl` - it wasn't in the default path
+    # NOTE: I found the db's location (/var/lib/...) through the command `ps aux | grep postgresql | grep '\-D'`
+    # it should be after the -D
+
+    postgres@thomas-kub-X220:/home/thomas/Workspace/smartergrades/quizsite$ /usr/lib/postgresql/9.1/bin/pg_ctl -D /var/lib/postgresql/9.1/main reload
+    could not change directory to "/home/thomas/Workspace/smartergrades/quizsite"
+    server signaled
+    postgres@thomas-kub-X220:/home/thomas/Workspace/smartergrades/quizsite$ exit
+
+UNDO THE CHANGES TO PG_HBA AND RELOAD THE SERVER AGAIN AFTER YOU"RE DONE!!!
+
+
+PGBACKUPS: https://devcenter.heroku.com/articles/pgbackups
+
+INSTALLING:
+  heroku addons:add pgbackups
+
+GENERATING (copying the current database)
+  heroku pgbackups:capture
+
+IF YOU WANT TO PULL THAT BACKUP ONTO YOUR MACHINE
+  curl -o latest.dump `heroku pgbackups:url`
+  => saves the last-dumped backup into latest.dump,
+
+RESTORING FROM A .dump FILE: (eg. latest.dump)
+  pg_restore --verbose --clean --no-acl --no-owner -d smartergrades_dev latest.dump
+
+All other stuff, just readthe article https://devcenter.heroku.com/articles/pgbackups - it's a good one.
+

@@ -1,6 +1,6 @@
 class QuizzesController < ApplicationController
   include TeachersHelper
-  before_filter :authenticate, :except => [:show]
+  before_filter :authenticate, :except => [:show, :do]
 
   # display PScores for the problem types / quiz ?
   def show
@@ -8,10 +8,9 @@ class QuizzesController < ApplicationController
 
   # choose the problems for a quiz
   def new
-    stop_quiz
     @nav_selected = "makequiz"
-    @chosen_probs = get_probs
-    # @custom_probs = current_user.custom_probs
+    @quiz = Quiz.new
+    @custom_probs = current_user.problem_types
     @chapter = Chapter1
   end
 
@@ -30,18 +29,17 @@ class QuizzesController < ApplicationController
 
   # POST /quiz
   def create
+    @problem_types = ProblemType.find params_to_problemtype_ids
+
     if current_user.is_a?(Teacher)
-      @quiz = current_user.homeworks.new(
-        :problemtypes => get_quizprobs_from_params(params),
-        :name => params["quiz_name"]
-      )
+      @quiz = current_user.homeworks.new(params[:quiz])
+
     elsif current_user.is_a?(Student)
-      @quiz = current_user.practice_sets.new(
-        :problemtypes => get_quizprobs_from_params(params),
-        :name => params["quiz_name"]
-      )
+      @quiz = current_user.quizzes.new(params[:quiz])
+
     else
       render :js => "window.location = '/'"
+      return
     end
 
     if @quiz.save
@@ -59,7 +57,7 @@ class QuizzesController < ApplicationController
       $stderr.puts "COULDN'T SAVE: #{@quiz.errors.full_messages}"
 
       @errors = @quiz.errors
-      respond_to { |format| format.js }
+      render 'shared/form_errors'
     end
   end
 
@@ -97,10 +95,37 @@ class QuizzesController < ApplicationController
     end
   end
 
+  # GET /quizzes/id/do
+  def do
+    @quiz, @quiz_user = get_quiz_quiz_user(params[:id])
+
+    if @quiz_user.nil?
+      flash[:error] = "You don't have permission to do this quiz!"
+      redirect_to access_denied_path
+    end
+
+    if @quiz.has_problem(params[:ptype)
+      redirect_to explain_problem_path(quiz_user.problem_id)
+      return
+    end
+
+    @problem = @quiz_user.next_problem
+    session[:return_to] = do_quiz_path(@quiz_user)
+  end
+
+  def complete_problem
+
+  end
+
   private
 
   def is_owner(quiz)
     quiz.user_id == current_user.id
+  end
+
+  def params_to_problemtype_ids
+    p_ptypes = params[:problem_types]
+    p_ptypes.nil? ? [] : p_ptypes.keys.map { |e| e.to_i }
   end
 
   def get_quizprobs_from_params(params)
