@@ -51,6 +51,15 @@ module SessionsHelper
     @current_user ||= user_from_remember_token
   end
 
+  def students_teacher
+    $stderr.puts "BLAH"*30 + "\n#{current_user.inspect}"
+    if current_user.is_a? Student
+      @students_seacher || current_user.teachers.first
+    else
+      nil
+    end
+  end
+
   def signed_in?
     !current_user.nil? && current_user.confirmed?
   end

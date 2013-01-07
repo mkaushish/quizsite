@@ -1,0 +1,12 @@
+<%= form_tag(details_problem_set_path, :remote => true, :id => 'pset-form') do %>
+  <%= hidden_field_tag 'classroom_id', @classroom.id.to_s %> 
+  <%= label_tag "Problem Set" %>
+  <% if @problem_sets.empty? %>
+    <%= select_tag :name, "", :disabled => true %>
+  <% else %>
+    <%= select_tag :name, 
+      options_from_collection_for_select(@problem_sets, 'id', 'name')# ,
+      # { :include_blank => true } 
+    %>
+  <% end %>
+<% end %>

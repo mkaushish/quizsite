@@ -1,13 +1,11 @@
 <%# I am a form for displaying a quiz page - I will create a NEW problemanswer %>
-<%= form_tag({:controller => 'problemanswers', :action => 'create'}, :autocomplete => "off") do %>
-	<%= hidden_field_tag 'problem_id', @problem.id %>
-  <%= hidden_field_tag 'time_taken', 0.0 %>
-  <%= hidden_field_tag "npstr", (!@problemanswer.nil? && @problemanswer.notepad) %>
-  <%= render :partial => 'problems/problem', :object => @problem, :locals => {:partialdir => 'problems'} %>
-	<div class="actions problem">
-    <%= submit_tag "Submit Answer", :class=>"btn-primary" %>
-	</div>
-<% end %>
+<%= hidden_field_tag 'problem_id', @problem.id %>
+<%= hidden_field_tag 'time_taken', 0.0 %>
+<%= hidden_field_tag "npstr", (!@problemanswer.nil? && @problemanswer.notepad) %>
+<%= render :partial => 'problems/problem', :object => @problem, :locals => {:partialdir => 'problems'} %>
+<div class="actions" style="margin: 8px 45px;">
+  <%= submit_tag "Submit Answer", :class=>"btn-primary" %>
+</div>
 <script>
   function updateClock(s) {
     return function() {

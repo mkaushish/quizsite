@@ -6,7 +6,6 @@ class ProblemSetStat < ActiveRecord::Base
   belongs_to :problem_set_instance
   delegate   :user, :to => :problem_set_instance
 
-  validates :problem_stat,         :presence => true
   validates :problem_set_instance, :presence => true
 
   before_create :assign_problem_stat
@@ -23,10 +22,11 @@ class ProblemSetStat < ActiveRecord::Base
   end
 
   def spawn_problem
-    return self.problem if self.problem
+    return self.current_problem if self.current_problem
 
     self.current_problem = problem_type.spawn
-    save
+    save!
+    self.current_problem
   end
 
   def update!(params)
@@ -37,8 +37,11 @@ class ProblemSetStat < ActiveRecord::Base
                          :correct => @last_correct,
                          :response => current_problem.get_packed_response(params),
                          :notepad => (params["npstr"].empty?) ? nil : params["npstr"]) # in case it's the empty string )
-    problem_stat.update!(@last_correct)
+    stat.update!(@last_correct)
+
     self.current_problem = nil
+    self.problem_stat = stat
+
     save ? self : nil
   end
 
@@ -51,5 +54,13 @@ class ProblemSetStat < ActiveRecord::Base
     #TODO actually do this
     # new_record? return true if the record for the object doesn't exist yet
     self.points = 10
+  end
+
+  private
+
+  def stat
+    self.problem_stat || 
+      user.problem_stats.where(:problem_type_id => problem_type_id).first ||
+      user.problem_stats.new(:problem_type => problem_type)
   end
 end

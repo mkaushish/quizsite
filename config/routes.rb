@@ -47,10 +47,14 @@ Quizsite::Application.routes.draw do
   match '/history',     :to => 'problemanswers#index'
   match '/startquiz',   :to => 'problemanswers#new'
   match '/problem_sets/:name', :to => 'problem_sets#show', :as => :problem_sets
-  match '/problem_sets/:name/generate/:ptype' => 'problem_sets#generate', :as => :gen_problem_set_problem
   match '/problem_sets/:name/do/:pid', :to => 'problem_sets#do', :as => :problem_set_do
-  match '/problem_sets/:name/:pid', :to => 'problem_sets#do', :as => :problem_set_do
+  match '/problem_sets/:name/finish_problem', :to => 'problem_sets#finish_problem', :as => :ps_finish_problem, :via => [:post]
   match '/studenthome', :to => 'students#home'
+
+  match '/teacherhome', :to => 'teachers#home', :as => :teacherhome
+  match '/details/:id', :to => 'teachers#details', :as => :details
+  match '/details_classroom', :to => 'teachers#details_classroom', :as => :details_classroom, :via => [:post]
+  match '/details_problem_set', :to => 'teachers#details_problem_set', :as => :details_problem_set, :via => [:post]
 
   #
   # general static pages

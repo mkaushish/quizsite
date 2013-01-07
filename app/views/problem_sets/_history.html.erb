@@ -1,0 +1,11 @@
+<div class='dotted-border-header'>
+  <h4>History</h4>
+</div>
+
+<div class='dotted-border' style='min-height:400px;'>
+  <ul class=column-list>
+    <% @history.each do |answer| %>
+      <li><%= link_to (answer.problem_type.to_s + " : " + answer.correct.to_s), "#" %></li>
+    <% end %>
+  </ul>
+</div>

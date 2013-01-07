@@ -1,0 +1,47 @@
+<div class=row-fluid>
+  <h3 style="display:inline-block;">My Classes</h3>
+</div>
+
+<% @classrooms.each do |classroom| %>
+  <div class=row-fluid>
+    <div class=dotted-border-header>
+      Class <%= classroom.name %> 
+      <%= link_to "Details", details_path(classroom.id) %> 
+      <%= link_to "Grades", "#" %>
+    </div>
+    <div class='dotted-border teacher-class-box' style="height:200px;">
+      <div class=row-fluid>
+        <div class=span4>
+          <ul class='column-list teacher-class-col'>
+            <li class=list-header>Students</li>
+            <% classroom.students.each do |student| %>
+              <li><%= link_to student.name, "#" %></li>
+            <% end %>
+          </ul>
+        </div>
+
+        <div class=span4>
+          <ul class='column-list teacher-class-col'>
+            <li class=list-header>Problem Sets</li>
+            <% classroom.problem_sets.each do |problem_set| %>
+              <li><%= link_to problem_set.name, "#" %></li>
+            <% end %>
+          </ul>
+        </div>
+        <div class=span4>
+          <ul class='column-list teacher-class-col'>
+            <li class=list-header>Quizzes</li>
+            <% classroom.quizzes.each do |quiz| %>
+              <li><%= link_to quiz.name, "#" %></li>
+            <% end %>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+<% end %>
+<script>
+  $(function () {
+    $('.teacher-class-col').jScrollPane();
+  })
+</script>

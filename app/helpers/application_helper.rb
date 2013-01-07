@@ -98,6 +98,7 @@ module ApplicationHelper
 
   def nav_elts_path
     return "students/nav_elts" if current_user.is_a? Student
+    return "teachers/nav_elts" if current_user.is_a? Teacher
     "shared/default_nav_elts"
   end
 end

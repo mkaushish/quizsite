@@ -24,6 +24,6 @@ class ProblemStat < ActiveRecord::Base
 
   def smart_score
     return "?" if count == 0
-    return count / correct
+    return correct.to_f / count
   end
 end

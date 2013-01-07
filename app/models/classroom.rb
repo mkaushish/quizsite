@@ -1,11 +1,14 @@
 class Classroom < ActiveRecord::Base
   attr_accessible :name
   belongs_to :teacher
-  has_many :class_assignments
-  has_many :students, :through => :class_assignments
+  has_many :classroom_assignments
+  has_many :students, :through => :classroom_assignments
 
-  has_many :hw_assignments
-  has_many :homeworks, :through => :hw_assignments
+  has_many :classroom_problem_sets
+  has_many :problem_sets, :through => :classroom_problem_sets
+
+  has_many :classroom_quizzes
+  has_many :quizzes, :through => :classroom_quizzes
 
   def assign!(tmp)
     if tmp.is_a?(Quiz)

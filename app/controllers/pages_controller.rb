@@ -2,9 +2,13 @@ require 'c1'
 class PagesController < ApplicationController
 
   def fasthome
-    if signed_in?
+    $stderr.puts "!@#" * 30 + "\n#{current_user.class}"
+    case current_user.class.to_s
+    when "Student"
       redirect_to profile_path
-    else
+    when "Teacher"
+      redirect_to teacherhome_path
+    else 
       @fastnav = true
       @nav_selected = "home"
     end

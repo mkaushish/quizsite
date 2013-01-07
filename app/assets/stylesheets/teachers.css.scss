@@ -1,3 +1,29 @@
 // Place all the styles related to the teachers controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.teacher-class-box {
+  height: 200px;
+}
+
+ul.teacher-class-col {
+  height: 170px;
+  width: 250px;
+  margin: 20px;
+  overflow: scroll;
+}
+
+.teacher-details-column {
+  height: 200px;
+}
+
+.teacher-details-header {
+  form {
+    margin-left:20px;
+    display: inline-block;
+    label {
+      display: inline-block;
+      font-size:15px;
+    }
+  }
+}

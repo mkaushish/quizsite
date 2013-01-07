@@ -2,7 +2,7 @@ class ProblemSetInstance < ActiveRecord::Base
   belongs_to :problem_set
   belongs_to :user
 
-  has_many :problem_set_stats
+  has_many :problem_set_stats, :dependent => :destroy
   has_many :problem_types, :through => :problem_set
 
   validates :user, :presence => true

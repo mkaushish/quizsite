@@ -8,6 +8,9 @@ class ProblemSet < ActiveRecord::Base
   has_many :problem_set_instances
   has_many :users, :through => :problem_set_instances
 
+  has_many :classrooms_problem_sets
+  has_many :classrooms, :through => :classrooms_problem_sets
+
   accepts_nested_attributes_for :problem_set_problems
 
   def assign(user)

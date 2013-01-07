@@ -3,6 +3,17 @@ class SessionsController < ApplicationController
     @title = "Sign in"
   end
 
+  def switch_to
+    # TODO
+    session[:current_student] = current_user
+    # session[:return_to_path] = 
+
+    user = User.find_by_email session[:email]
+    sign_in user if user.has_password? session[:password]
+
+    redirect_to teacherhome_path
+  end
+
   def create
     if params[:commit] == "Register"
       $stderr.puts "REGISTERING NEW USER"

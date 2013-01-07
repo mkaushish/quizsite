@@ -11,16 +11,36 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20121220113111) do
+ActiveRecord::Schema.define(:version => 20130101130048) do
 
-  create_table "class_assignments", :force => true do |t|
+  create_table "classroom_assignments", :force => true do |t|
     t.integer "classroom_id"
     t.integer "student_id"
   end
 
-  add_index "class_assignments", ["classroom_id", "student_id"], :name => "index_class_assignments_on_classroom_id_and_student_id", :unique => true
-  add_index "class_assignments", ["classroom_id"], :name => "index_class_assignments_on_classroom_id"
-  add_index "class_assignments", ["student_id"], :name => "index_class_assignments_on_student_id"
+  add_index "classroom_assignments", ["classroom_id", "student_id"], :name => "index_class_assignments_on_classroom_id_and_student_id", :unique => true
+  add_index "classroom_assignments", ["classroom_id"], :name => "index_class_assignments_on_classroom_id"
+  add_index "classroom_assignments", ["student_id"], :name => "index_class_assignments_on_student_id"
+
+  create_table "classroom_problem_sets", :force => true do |t|
+    t.integer  "classroom_id"
+    t.integer  "problem_set_id"
+    t.datetime "starts_at"
+    t.datetime "ends_at"
+  end
+
+  add_index "classroom_problem_sets", ["classroom_id", "problem_set_id"], :name => "index_hw_assignments_on_classroom_id_and_homework_id", :unique => true
+  add_index "classroom_problem_sets", ["classroom_id"], :name => "index_hw_assignments_on_classroom_id"
+  add_index "classroom_problem_sets", ["problem_set_id"], :name => "index_hw_assignments_on_homework_id"
+
+  create_table "classroom_quizzes", :force => true do |t|
+    t.integer  "classroom_id"
+    t.integer  "quiz_id"
+    t.datetime "starts_at"
+    t.datetime "ends_at"
+  end
+
+  add_index "classroom_quizzes", ["classroom_id", "quiz_id"], :name => "classroom_quizzes_dual_index", :unique => true
 
   create_table "classrooms", :force => true do |t|
     t.string   "name"
@@ -44,15 +64,6 @@ ActiveRecord::Schema.define(:version => 20121220113111) do
   end
 
   add_index "delayed_jobs", ["priority", "run_at"], :name => "delayed_jobs_priority"
-
-  create_table "hw_assignments", :force => true do |t|
-    t.integer "classroom_id"
-    t.integer "homework_id"
-  end
-
-  add_index "hw_assignments", ["classroom_id", "homework_id"], :name => "index_hw_assignments_on_classroom_id_and_homework_id", :unique => true
-  add_index "hw_assignments", ["classroom_id"], :name => "index_hw_assignments_on_classroom_id"
-  add_index "hw_assignments", ["homework_id"], :name => "index_hw_assignments_on_homework_id"
 
   create_table "problem_generators", :force => true do |t|
     t.string  "klass"
@@ -79,7 +90,7 @@ ActiveRecord::Schema.define(:version => 20121220113111) do
     t.integer "problem_type_id"
     t.integer "points"
     t.integer "problem_stat_id"
-    t.integer "current_problem"
+    t.integer "current_problem_id"
   end
 
   create_table "problem_sets", :force => true do |t|

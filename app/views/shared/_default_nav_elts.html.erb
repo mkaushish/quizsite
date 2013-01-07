@@ -1,7 +1,13 @@
 <ul>
   <li><%= link_to "Home", root_path %></li>
   <li><%= link_to "K-12 Schools", "#" %></li>
-  <li><%= link_to "How It Works", "#" %></li>
+  <!-- <li><%= link_to "How It Works", "#" %></li> -->
   <li><%= link_to "About Us", "#" %></li>
   <li><%= link_to "Contact Us", "#" %></li>
 </ul>
+
+<ul style="float:right;">
+  <li class=switch-to><%= link_to "SIGN UP NOW!", "#" %></li>
+  <li class=switch-to><%= link_to "LOG IN", "#logIn", "data-toggle"=>"modal" %></li>
+</ul>
+<%= render :partial => 'shared/log_in' %>

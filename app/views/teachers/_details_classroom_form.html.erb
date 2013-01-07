@@ -1,0 +1,7 @@
+<%= form_tag(details_classroom_path, {:remote => true, :id => 'classroom-form'}) do %>
+  <%= label_tag "Class" %>
+  <%= select_tag :classroom_id, 
+    options_from_collection_for_select(@classrooms, 'id', 'name'),
+    { :include_blank => true }  
+  %>
+<% end %>
