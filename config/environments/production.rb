@@ -20,6 +20,10 @@ Quizsite::Application.configure do
   # Generate digests for assets URLs
   config.assets.digest = true
 
+  # preface all log lines with request variables
+  # options: unqiue request id, foreign IP
+  config.log_tags = [:uuid, :remote_ip]
+
   # Defaults to Rails.root.join("public/assets")
   # config.assets.manifest = YOUR_PATH
 
