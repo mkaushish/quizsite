@@ -97,20 +97,20 @@ class QuizzesController < ApplicationController
 
   # GET /quizzes/id/do
   def do
-    @quiz, @quiz_user = get_quiz_quiz_user(params[:id])
+    # @quiz, @quiz_user = get_quiz_quiz_user(params[:id])
 
-    if @quiz_user.nil?
-      flash[:error] = "You don't have permission to do this quiz!"
-      redirect_to access_denied_path
-    end
+    # if @quiz_user.nil?
+    #   flash[:error] = "You don't have permission to do this quiz!"
+    #   redirect_to access_denied_path
+    # end
 
-    if @quiz.has_problem(params[:ptype)
-      redirect_to explain_problem_path(quiz_user.problem_id)
-      return
-    end
+    # if @quiz.has_problem params[:ptype)
+    #   redirect_to explain_problem_path(quiz_user.problem_id)
+    #   return
+    # end
 
-    @problem = @quiz_user.next_problem
-    session[:return_to] = do_quiz_path(@quiz_user)
+    # @problem = @quiz_user.next_problem
+    # session[:return_to] = do_quiz_path(@quiz_user)
   end
 
   def complete_problem

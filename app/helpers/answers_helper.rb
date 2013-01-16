@@ -1,7 +1,7 @@
 #require 'tohtml'
 include ToHTML
 
-module ProblemanswersHelper
+module AnswersHelper
   attr_accessor :solution, :response
 
   def correct?(htmlobj)
@@ -14,14 +14,7 @@ module ProblemanswersHelper
     solnhash[ToHTML::rm_prefix(field.name)].to_s
   end
 
-  def correct_class(problemanswer)
-    (problemanswer.correct) ? "correct" : "incorrect"
-  end
-  
-  def problemanswers(user = nil)
-    user ||= current_user
-    return [] if user.nil?
-    tmp = user.problemanswers.limit(15).order('created_at DESC')
-    return tmp
+  def correct_class(answer)
+    (answer.correct) ? "correct" : "incorrect"
   end
 end

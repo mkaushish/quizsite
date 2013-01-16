@@ -39,6 +39,9 @@ RSpec.configure do |config|
     DatabaseCleaner.clean
   end
 
+  # easier access to factory girl methods
+  config.include FactoryGirl::Syntax::Methods
+
   # NOT SUREWHERE THIS IS FROM
   def test_sign_in(user)
     controller.sign_in(user)

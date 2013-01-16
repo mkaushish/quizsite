@@ -2,6 +2,29 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+
+form { position:relative }
+span.select {
+  border:1px solid gray;
+  position:absolute;
+  bottom:0;
+  float:left;
+  left:0;
+
+  text-indent:10px;
+  background:url(select_arrow.jpg) no-repeat right center;
+  cursor:default;
+  z-index:1;
+  font-size: 13px;
+  padding:3px;
+}
+select.select {
+  position:relative;
+  padding:3px;
+  margin:0;
+}
+
+
 .teacher-class-box {
   height: 200px;
 }
@@ -14,16 +37,54 @@ ul.teacher-class-col {
 }
 
 .teacher-details-column {
+}
+
+form.inline-form {
+  margin-left:20px;
+  display: inline-block;
+  label {
+    display: inline-block;
+    font-size:15px;
+    margin-right:5px;
+  }
+}
+
+
+.class_stat_list {
+  @include line-border();
+  overflow:scroll;
   height: 200px;
 }
 
-.teacher-details-header {
-  form {
-    margin-left:20px;
-    display: inline-block;
-    label {
-      display: inline-block;
-      font-size:15px;
+.class_stat {
+  display: inline-block;
+  header {
+    font-size: 13px;
+    line-height:14px;
+    width: 3 * 37px + 4;
+    text-align: center;
+  }
+  ul {
+    height: 30px;
+    padding:0;
+  }
+  ul>li {
+    padding:0 2px 2px 0;
+    width: 33px;
+    margin:1px;
+
+    div {
+      width: 33px;
+      height:20px;
+      padding-top: 4px;
+      font-size:16px;
+      line-height:16px;
     }
+
+    font-size:6px;
+    line-height:7px;
+    text-align: center;
+    display:inline-block;
+    float:left;
   }
 }

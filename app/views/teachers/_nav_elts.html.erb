@@ -1,11 +1,15 @@
 <ul>
-  <li><%= link_to "Home", profile_path %></li>
-  <li><%= link_to "Me", "#" %></li>
-  <li><%= link_to "Help", "#" %></li>
+  <li><%= link_to "Overview", profile_path %></li>
+
 </ul>
 
-<ul style="float:right;">
-  <li class=switch-to-header>Switch To</li>
-  <li class=switch-to><%= link_to "Coach", "#" %></li>
-  <li class=switch-to><%= link_to "Teacher", "#switchToTeacher", "data-toggle"=>"modal" %></li>
+<% if @teacher_nav_elts == 'details' && false %>
+  <%= render :partial => 'teachers/forms/details_classroom_form' %>
+  <%= render :partial => 'teachers/forms/details_problem_set_form' %>
+<% end %>
+
+<ul class=pull-right>
+  <li class=switch-to>
+    <%= link_to "Log Out", signout_path, :method => :delete %>
+  </li>
 </ul>

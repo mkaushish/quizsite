@@ -20,6 +20,7 @@ end
 group :development do
 	gem 'annotate', :git => 'git://github.com/ctran/annotate_models.git'
   gem 'guard-livereload'
+  gem 'rails-dev-tweaks', '~> 0.6.1'
 end
 
 group :development, :production do
@@ -45,7 +46,7 @@ group :assets do
   gem 'uglifier', ">= 1.0.3"
 end
 
-gem 'jquery-rails'
+gem 'jquery-rails', '~> 2.0.2'
 
 # Use unicorn as the web server
 # gem 'unicorn'
@@ -59,6 +60,6 @@ gem 'jquery-rails'
 group :test do
   # Pretty printed test output
   gem 'turn', :require => false
-  gem 'factory_girl_rails', :git => 'https://github.com/thoughtbot/factory_girl_rails.git'
+  gem 'factory_girl_rails', '~> 4.0'
 end
 

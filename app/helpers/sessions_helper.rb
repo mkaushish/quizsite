@@ -52,7 +52,6 @@ module SessionsHelper
   end
 
   def students_teacher
-    $stderr.puts "BLAH"*30 + "\n#{current_user.inspect}"
     if current_user.is_a? Student
       @students_seacher || current_user.teachers.first
     else

@@ -20,10 +20,15 @@ class ProblemStat < ActiveRecord::Base
     self.count += 1
     self.correct += 1 if was_correct
     save
+    self
   end
 
   def smart_score
     return "?" if count == 0
     return correct.to_f / count
+  end
+
+  def calculate_points(answer)
+    return 5
   end
 end

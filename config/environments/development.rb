@@ -26,7 +26,9 @@ Quizsite::Application.configure do
   config.assets.compress = false
 
   # Expands the lines which load the assets
+  # set to false to speed up requests?
   config.assets.debug = true
+  # config.assets.debug = false
 
   # Raise exception on mass assignment protection for Active Record models
   config.active_record.mass_assignment_sanitizer = :strict
@@ -34,6 +36,9 @@ Quizsite::Application.configure do
   # Log the query plan for queries taking more than this (works
   # with SQLite, MySQL, and PostgreSQL)
   config.active_record.auto_explain_threshold_in_seconds = 0.5
+
+  # disable console output of all of the assets (css/js)
+  config.assets.logger = false
 
   # SET UP MAILER
   config.action_mailer.raise_delivery_errors = true

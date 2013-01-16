@@ -42,7 +42,6 @@
 }
 /* }}} */
 
-/* Layout ID's {{{ */
 body {
   overflow:scroll;
   color: #567;
@@ -51,117 +50,6 @@ body {
   font-family: "Sans";
   font-size:16px;
 }
-
-.navbar .nav > li > a {
-  padding:13px 10px 14px 10px;
-}
-
-.navbar .nav {
-  margin:0;
-}
-
-.navbar .nav.pull-right {
-  margin:0;
-}
-
-.navbar .divider-vertical {
-  height:46px;
-}
-
-.mynavbar-form {
-  margin:0;
-  li {
-    margin: 9px 0 0 6px;
-  }
-  input {
-    font-size:12px;
-  }
-  .text input[type="text"] {
-    width:157px;
-  }
-  .text input[type="password"] {
-    width:90px;
-  }
-  .button {
-    input, button, a {
-      margin:1px 0 0 0;
-      width:57px;
-      padding:3px;
-    }
-  }
-}
-
-#nav {
-  @include gradient($navG1, $navG2);
-  height:36px;
-  border-bottom:1px solid black;
-  margin-bottom:20px;
-}
-nav {
-  margin-left: auto;
-  margin-right: auto;
-  width:802px;
-  a {
-    text-decoration: none;
-    display: block;
-    //width: 152px; // for 5 nav links
-    //font-family: "SketchRockwell";
-    font-size: 1.35em;
-    padding: 9px 7px;
-    &:link {
-      color:$navlink;
-    }
-    &:visited {
-      color: $navlink;
-    }
-    &:hover {
-      color: white;
-      text-decoration:none;
-    }
-  }
-  a.selected {
-    color:white;
-    //@include gradient(#262632, #74748e);
-    //@include gradient(#1b1b32, #58588e);
-    //@include gradient(#1b1b32, #74748e);
-    @include gradient($navG1, $navGH);
-  }
-  
-}
-
-ul.mynav {
-  text-align: center;
-  margin: 0;
-  padding:0;
-  //overflow: hidden;
-  border-left:1px solid black;
-  border-right:1px solid black;
-  li {
-    float: left;
-    width: 198px;   // for 4 nav links
-    border-left:1px solid black;
-    border-right:1px solid black;
-  }
-}
-
-ul.nav-dropdown {
-  font-size:1em;
-  a {
-    &:link {
-      color: black;
-    }
-    &:visited {
-      color: black;
-    }
-    &:hover {
-      color: black;
-      text-decoration:none;
-    }
-  }
-}
-
-
-/* }}} */
 
 /* Homepage stuff {{{ */
 #homedescription {
@@ -181,21 +69,6 @@ ul.nav-dropdown {
     margin-bottom:30px;
   }
 }
-/*}}}*/
-
-// standard html stuff {{{
-/*
-a {
-  color: $graphite;
-  border-color: transparent;
-  &:hover {
-    color: black;
-  }
-  &:visited {
-    color: $graphite;
-  }
-}
-*/
 
 p.desc {
   font-size:1em;
@@ -240,23 +113,6 @@ input.invalid {
 /* }}} */
 
 /* Common Classes {{{ */
-
-.center-image {
-  display:block;
-  margin-left:auto;
-  margin-right:auto;
-}
-
-.small_logo {
-  padding:3px;
-}
-
-.after-400-logo {
-  float:left;
-  margin-left:20px;
-  padding-top:14px;
-  font-size:22px;
-}
 
 .section-header {
   border-bottom:2px solid;
@@ -361,37 +217,6 @@ input.btn-blue {
   margin:10px 0 10px 0;
 }
 
-/* }}} */
-
-/* SmartScore colors {{{ */
-.smartscore_95 {
-  background-color:#04e504;
-}
-.smartscore_90 {
-  background-color:#0a5f0a;
-}
-.smartscore_80 {
-  background-color:#325f0a;
-}
-.smartscore_70 {
-  background-color:#676818;
-}
-.smartscore_60 {
-  background-color:#685018;
-}
-.smartscore_35 {
-  background-color:#883004;
-}
-.smartscore_0 {
-  background-color:#880420;
-}
-
-.smartscore_unknown {
-  background-color:#999;
-}
-/* }}} */
-
-/* Less common ID's {{{ */
 /* }}} */
 
 @import 'classrooms.css.scss';

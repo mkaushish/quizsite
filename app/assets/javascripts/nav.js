@@ -17,7 +17,7 @@ function setNavLineWidths() {
   });
 }
 
-$(document).ready(function() {
+$(function() {
   setNavLineWidths();
   $(window).resize(setNavLineWidths);
 });

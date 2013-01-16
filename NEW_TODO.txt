@@ -1,0 +1,26 @@
+new student problem page
+
+add in quizzes for real this time
+
+add teachers ability to add/choose problem sets
+
+add teachers student view (can require a different authorization)
+
+link students on details to this
+
+link clicking on problem sets to it's desired behaviour
+
+make some ability for teachers to add classes
+
+points per question
+          Right | Wrong
+  red       5       1
+  yellow    4       3
+  green     1       0
+
+  incentivize them to make judgements on whether or not they will be able to complete a problem
+
+still need to figure out what a question starts as...
+  at some point we need this dependency thing - why not start simple.  Reorganize the problems from easiest to hardest in a chapter and make each problem depend on the one before it in the db level.  that way we could have a basic calculation of initial success based on the last problem.
+
+move tohtml to actual views...

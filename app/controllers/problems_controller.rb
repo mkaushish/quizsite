@@ -11,9 +11,9 @@ class ProblemsController < ApplicationController
 
     @solution = @problem.solve
     @response = @solution
-    @problemanswer = Problemanswer.new(:problem => @problem)
+    @answer = Answer.new(:problem => @problem)
     
-    render 'problemanswers/show'
+    render 'answers/show'
   end
 
   def new # CREATES A NEW CUSTOM PROBLEM
@@ -58,11 +58,11 @@ class ProblemsController < ApplicationController
     # if @ptype < QuestionBase
     #   set_examples(@ptype)
 
-    #   # we need to handle this in new problemanswer so that when they click more problems (after viewing the 
+    #   # we need to handle this in new answer so that when they click more problems (after viewing the 
     #   # problem result while not signed in
     #   # they keep on getting the same example problem...
     #   # maybe this is convoluted and there's a better way
-    #   redirect_to new_problemanswer_path
+    #   redirect_to new_answer_path
     # else
     #   flash[:error] = "That's not a valid problem type!"
     #   redirect_to :index
@@ -148,7 +148,7 @@ class ProblemsController < ApplicationController
 
     problem = Problem.new(:problem => @last_prob)
     $stderr.puts "PROBLEM WAS NOT SAVED BITCHES!!!!"*10 unless problem.save
-    answer = current_user.problemanswers.new(
+    answer = current_user.answers.new(
       :problem  => problem,
       :correct  => @last_prob.correct?(params),
       :response => problem.get_packed_response(params))

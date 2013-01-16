@@ -18,6 +18,13 @@ $light_green: #9fe37f;
 $invalid_red: #f2dede;
 
 $graphite: #503214;
+
+@mixin line-border() {
+  border: 1px solid $sg_grey;
+}
+@mixin dotted-border() {
+  border: 2px dashed $sg_blue;
+}
 @mixin rounded-corners($radius) {
 	-moz-border-radius: $radius;
 	-webkit-border-radius: $radius;

@@ -5,18 +5,7 @@
 
 <div class='container sg-nav'>
   <div class='row-fluid sg-nav'>
-    <div id=site_logo><%= image_tag "logo_with_sides.jpg" %></div>
-    <!--
-    <div class='nav-blue-side'>
-    </div>
-
-    <div class='sg_logo'>
-    </div>
-
-    <div class='nav-green-side'>
-    </div>
-    -->
-
+    <div id=site_logo><%= link_to (image_tag "logo_with_sides.jpg"), root_path %></div>
     <%= render :partial => nav_elts_path %>
   </div>
 </div>

@@ -33,13 +33,12 @@ class SessionsController < ApplicationController
     end
 
     if user.nil?
-      render :js => "$('#userfield input').addClass('invalid');" +
-                    "$('#psswfield input').addClass('invalid');" +
-                    "$('#userfield input').select()"
+      render :js => "$('#session_email').addClass('invalid');" +
+                    "$('#session_password').removeClass('invalid');" +
+                    "$('#session_password').select()",
+                    :status => 422
     elsif !user.has_password? pssw
-      render :js => "$('#userfield input').removeClass('invalid');" +
-                    "$('#psswfield input').addClass('invalid');" +
-                    "$('#psswfield input').select()"
+      render 'wrong_password', :formats => [:js], :status => 422
     else
       sign_in user
       render :js => "window.location = '/'"

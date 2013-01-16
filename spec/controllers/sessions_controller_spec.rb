@@ -43,21 +43,31 @@ describe SessionsController do
   describe "POST 'create'" do
 
     describe "invalid signin" do
-
-      before(:each) do
-        @attr = { :email => "email@example.com", :password => "invalid" }
+      it "should return an http status 422" do
+        post :create, :session => { :email => generate(:email), :password => "password12345" }
+        response.response_code.should == 422
       end
 
-      it "should re-render the new page" do
-        post :create, :session => @attr
-        response.should render_template('new')
+      describe "where user exists" do
+        it "should tell them their password is wrong" do
+          user = create(:student)
+          post :create, :session => { email: user.email, password: "wrong_password1" }
+          response.should render_template(:js => 'wrong_password')
+        end
+      end
+
+      describe "where email's not taken" do
+        it "should ask them if they want to register" do
+          post :create, :session => { :email => "hello@yourmom.com", :password => "password12345" } 
+          response.should render_template('register')
+        end
       end
     end
 
     describe "with valid email and password" do
 
        before(:each) do
-         @user = Factory(:user)
+         @user = create(:student)
          @attr = { :email => @user.email, :password => @user.password }
        end
 
@@ -67,16 +77,24 @@ describe SessionsController do
          controller.should be_signed_in
        end
 
-       it "should redirect to the user show page" do
-         post :create, :session => @attr
-         response.should redirect_to(user_path(@user))
+       # these two won't work without more high level testing since we ajaxed.
+       # capybara could help
+       it "should redirect Students to their home page" do
+         user = create :student
+         post :create, :session => { email: user.email, password: user.password }
+         # response.should redirect_to(profile_path(student))
+       end
+
+       it "should redirect Teachers correctly" do
+         # post :create, :session => @attr
+         # response.should redirect_to(user_path(@user))
        end
      end 
   end
 
   describe "DELETE 'destroy'" do
     it "should sign a user out" do
-      test_sign_in(Factory(:user))
+      test_sign_in(FactoryGirl.create(:student))
       delete :destroy
       controller.should_not be_signed_in
       response.should redirect_to(root_path)

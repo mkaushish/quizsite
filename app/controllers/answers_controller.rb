@@ -5,37 +5,37 @@ require 'c6'
 require 'c7'
 require 'physics'
 
-class ProblemanswersController < ApplicationController
-  # GET /problemanswers
-  # GET /problemanswers.json
+class AnswersController < ApplicationController
+  # GET /answers
+  # GET /answers.json
   def index
-    @problemanswers = current_user.problemanswers
+    @answers = current_user.answers
 
     respond_to do |format|
       format.html # index.html.erb
-      format.json { render json: @problemanswers }
+      format.json { render json: @answers }
     end
   end
 
-  # GET /problemanswers/1
-  # GET /problemanswers/1.json
+  # GET /answers/1
+  # GET /answers/1.json
   def show
     stop_quiz if params[:quizid] == "-1"
-    @problemanswer = Problemanswer.find(params[:id])
-    @problem = @problemanswer.problem.problem
+    @answer = Answer.find(params[:id])
+    @problem = @answer.problem.problem
     @solution = @problem.prefix_solve
     puts "^"*60
     puts @solution.inspect
-    @response = @problemanswer.response_hash
+    @response = @answer.response_hash
 
     respond_to do |format|
       format.html # show.html.erb
-      format.json { render json: @problemanswer }
+      format.json { render json: @answer }
     end
   end
 
-  # GET /problemanswers/new
-  # GET /problemanswers/new.json
+  # GET /answers/new
+  # GET /answers/new.json
   def new
     if !params[:quizid].nil?
       quiz = Quiz.find(params[:quizid])
@@ -66,19 +66,19 @@ class ProblemanswersController < ApplicationController
     #$stderr.puts "#"*30 + "\n" + @problem.problem.text.inspect
 
     unless flash[:last_correct] || flash[:last_id].nil?
-      @last_prob = Problemanswer.find(flash[:last_id])
+      @last_prob = Answer.find(flash[:last_id])
     end
 
     $stderr.puts "rendering: #{@problem.inspect}"
     respond_to do |format|
       format.html # new.html.erb
-      format.json { render json: @problemanswer }
+      format.json { render json: @answer }
     end
   end
 
-  # GET /problemanswers/1/edit
+  # GET /answers/1/edit
   def edit
-    @problemanswer = Problemanswer.find(params[:id])
+    @answer = Answer.find(params[:id])
   end
 
   def explain
@@ -88,8 +88,8 @@ class ProblemanswersController < ApplicationController
     end
   end
 
-  # POST /problemanswers
-  # POST /problemanswers.json
+  # POST /answers
+  # POST /answers.json
   def create
     $stderr.puts "_" * 100 + "\n" + session[:return_to]
     @problem = Problem.find(params["problem_id"])
@@ -101,22 +101,22 @@ class ProblemanswersController < ApplicationController
     flash[:last_correct] = last_correct
 
     if signed_in?
-      @problemanswer = current_user.problemanswers.new(
+      @answer = current_user.answers.new(
                           :problem  => @problem,
                           :time_taken => time,
                           :correct  => last_correct,
                           :response => @problem.get_packed_response(params),
                           :notepad => notepad )
     else
-      @problemanswer = Problemanswer.new(
+      @answer = Answer.new(
                         :problem  => @problem,
                         :time_taken => time,
                         :correct  => last_correct,
                         :response => @problem.get_packed_response(params))
     end
 
-    if @problemanswer.save
-      flash[:last_id] = @problemanswer.id
+    if @answer.save
+      flash[:last_id] = @answer.id
       redirect_to session[:return_to]
     else
       adderror("Had some trouble saving the last response")
@@ -124,30 +124,30 @@ class ProblemanswersController < ApplicationController
     end
   end
 
-  # PUT /problemanswers/1
-  # PUT /problemanswers/1.json
+  # PUT /answers/1
+  # PUT /answers/1.json
   def update
-    @problemanswer = Problemanswer.find(params[:id])
+    @answer = Answer.find(params[:id])
 
     respond_to do |format|
-      if @problemanswer.update_attributes(params[:problemanswer])
-        format.html { redirect_to @problemanswer, notice: 'Problemanswer was successfully updated.' }
+      if @answer.update_attributes(params[:answer])
+        format.html { redirect_to @answer, notice: 'Answer was successfully updated.' }
         format.json { head :ok }
       else
         format.html { render action: "edit" }
-        format.json { render json: @problemanswer.errors, status: :unprocessable_entity }
+        format.json { render json: @answer.errors, status: :unprocessable_entity }
       end
     end
   end
 
-  # DELETE /problemanswers/1
-  # DELETE /problemanswers/1.json
+  # DELETE /answers/1
+  # DELETE /answers/1.json
   def destroy
-    @problemanswer = Problemanswer.find(params[:id])
-    @problemanswer.destroy
+    @answer = Answer.find(params[:id])
+    @answer.destroy
 
     respond_to do |format|
-      format.html { redirect_to problemanswers_url }
+      format.html { redirect_to answers_url }
       format.json { head :ok }
     end
   end

@@ -1,0 +1,19 @@
+<%# NOTE THAT THIS VIOLATES CONVENTION - you need the <ul> in the view rendering this partial %>
+<% quizh_title ||= nil %>
+<% if !quizh_title.nil? %>
+  <li class=list-header><%= quizh_title %></li>
+<% end %>
+
+<% if @quiz_history.nil? %> 
+  <li>Select a problem set to see its quiz history</li>
+<% elsif @quiz_history.empty? && !@problem_set.nil? %>
+  <li>You haven't assigned any quizzes on this problem set yet</li>
+<% elsif @quiz_history.empty? %>
+  <li>You haven't assigned any quizzes yet</li>
+<% else %>
+  <% @quiz_history.each do |quiz| %>
+    <li>
+      <%= quiz.name %>
+    </li>
+  <% end %>
+<% end %>

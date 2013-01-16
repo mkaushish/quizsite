@@ -1,0 +1,29 @@
+NEW STRUCTURE:
+  
+###############
+# ProblemType #
+###############
+  - has the name and description of a problem type
+
+  ProblemGenerator
+    - has the code to actually generate the problem
+    - a problem_type could have generators of various difficulty/point value
+
+    Problem
+      - returned by ptype.spawn, or pgenerator.spawn
+
+      Answer
+        - am I dreaming?
+
+    ProblemStat
+      - records a users stats on a problemtype
+  
+
+##############
+# ProblemSet #
+##############
+  - a list of ProblemTypes
+
+  ProblemSetInstance
+    - join table between Students and ProblemSets
+    - saves a Students progress through a problem set, chiefly by filling in empty ProblemStats

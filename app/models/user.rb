@@ -54,7 +54,7 @@ class User < ActiveRecord::Base
   attr_accessible :email, :name, :password, :password_confirmation, :notepad
   serialize :problem_stats, Hash
 
-  has_many :problemanswers, :dependent => :destroy
+  has_many :answers, :dependent => :destroy
   has_many :quiz_instances, :dependent => :destroy
   has_many :quizzes, :through => :quiz_instances
 
@@ -77,7 +77,7 @@ class User < ActiveRecord::Base
 
   before_save  :encrypt_password
 
-  before_create lambda { self.email.downcase! ; self.problem_stats = {} }
+  before_create lambda { self.email.downcase! }
   after_create :add_default_problem_sets
 
   def self.authenticate(email, submitted_password)
@@ -165,7 +165,7 @@ class User < ActiveRecord::Base
 
   # THIS WILL FAIL IF ONE OF THE PROBLEM SETS HAS ALREADY BEEN ASSIGNED
   def add_default_problem_sets
-    ProblemSet.where(:user_id => nil).each do |problem_set|
+    problem_sets.each do |problem_set|
       problem_set.assign(self)
     end
   end

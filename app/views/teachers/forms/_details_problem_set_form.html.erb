@@ -1,12 +1,18 @@
-<%= form_tag(details_problem_set_path, :remote => true, :id => 'pset-form') do %>
+<%= form_tag(details_problem_set_path, :remote => true, :id => 'pset-form', :class => 'inline-form') do %>
   <%= hidden_field_tag 'classroom_id', @classroom.id.to_s %> 
   <%= label_tag "Problem Set" %>
   <% if @problem_sets.empty? %>
-    <%= select_tag :name, "", :disabled => true %>
+    <%= select_tag :problem_set_id, "", :disabled => true %>
   <% else %>
-    <%= select_tag :name, 
-      options_from_collection_for_select(@problem_sets, 'id', 'name')# ,
-      # { :include_blank => true } 
+    <%= select_tag :problem_set_id, 
+      options_from_collection_for_select(@problem_sets, 'id', 'name'),
+      { class: 'select' }
     %>
   <% end %>
 <% end %>
+
+<script>
+  $('#problem_set_id').change(function() {
+    $(this).parents('form').submit();
+  });
+</script>

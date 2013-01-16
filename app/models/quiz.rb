@@ -11,8 +11,8 @@
 #
 
 class Quiz < ActiveRecord::Base
-  has_many :quiz_users
-  has_many :users, :through => :quiz_users
+  has_many :quiz_instances
+  has_many :users, :through => :quiz_instances
 
   has_many :quiz_problems
   has_many :problem_types, :through => :quiz_problems

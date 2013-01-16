@@ -1,7 +1,13 @@
-<%= form_tag(details_classroom_path, {:remote => true, :id => 'classroom-form'}) do %>
+<%= form_tag(details_classroom_path, {:remote => true, :id => 'classroom-form', :class => 'inline-form'}) do %>
   <%= label_tag "Class" %>
   <%= select_tag :classroom_id, 
-    options_from_collection_for_select(@classrooms, 'id', 'name'),
-    { :include_blank => true }  
+    options_from_collection_for_select(@classrooms, 'id', 'name', @classrooms.index(@classroom) + 1),
+    { class: 'select', style:"width:100px" }
   %>
 <% end %>
+
+<script>
+  $('#classroom_id').change(function() {
+    $(this).parents('form').submit();
+  });
+</script>

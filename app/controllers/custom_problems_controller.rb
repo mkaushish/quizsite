@@ -12,13 +12,6 @@ class CustomProblemsController < ApplicationController
     end
   end
 
-  # GET /custom_problems/1
-  # GET /custom_problems/1.json
-  def show
-    @problem = CustomProblem.find(params[:id])
-    render 'problemanswers/new'
-  end
-
   # GET /custom_problems/new
   # GET /custom_problems/new.json
   def new

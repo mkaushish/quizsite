@@ -229,7 +229,7 @@ module Chapter12
 
   class RatiosAndTotals < QuestionWithExplanation # {{{
     attr_accessor :bob, :jen, :item
-    def self.type() "Find the quantities from a ratio and a total" end
+    def self.type() "Quantities from a ratio and a total" end
 
     # t is the total quanty (Fixnum)
     # r is the ratio        (Rational)
@@ -425,7 +425,7 @@ module Chapter12
   end # }}}
 
   class FillInEquivRatios < QuestionWithExplanation # {{{
-    include C12Initializers
+   include C12Initializers
     def self.type
       "Complete the equivalent ratio"
     end

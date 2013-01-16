@@ -34,19 +34,14 @@ class ProblemSetsController < ApplicationController
   # POST /problem_sets/:name/finish_problem
   # ps_finish_problem_path(:name)
   def finish_problem
-    @problem_set = ProblemSet.find(params[:name])
-    @instance = ProblemSetInstance.where(:problem_set_id => @problem_set.id,
-                                         :user_id => current_user.id).first
-    redirect_to access_denied_path && return if @instance.nil?
+    @stat =     ProblemSetStat.includes(:problem_set_instance).find(params[:stat_id])
+    redirect_to access_denied_path && return if @stat.user != current_user
 
-    @problem_type = @problem_set.problem_types.where(:id => params[:problem_type_id]).first
-    
-    # redirect_to TODO path && return if @problem_type.nil?
+    @instance = @stat.problem_set_instance
+    @answer = current_user.answers.create params: params, session: @instance
+    @stat.update!(@answer)
 
-    @stat = @instance.stat(@problem_type)
-    @stat.update!(params)
-
-    redirect_to problem_sets_path(@problem_set.id)
+    redirect_to problem_sets_path(@instance.problem_set_id)
   end
 
   private
@@ -62,7 +57,7 @@ class ProblemSetsController < ApplicationController
     #                                                 :user_id => current_user.id).first
     #stats = (@stats || @instance.stats).map(&:id)
     generators = ProblemGenerator.where(:problem_type_id => problem_set.problem_types.map(&:id)).map(&:id)
-    @history = current_user.problemanswers.where(:problem_generator_id => generators)
+    @history = current_user.answers.where(:problem_generator_id => generators)
                             .order("created_at DESC")
                             .includes(:problem)
                             .limit(n)

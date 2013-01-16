@@ -11,7 +11,26 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130101130048) do
+ActiveRecord::Schema.define(:version => 20130115131412) do
+
+  create_table "answers", :force => true do |t|
+    t.boolean  "correct"
+    t.integer  "problem_id"
+    t.binary   "response"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.integer  "user_id"
+    t.string   "pclass"
+    t.float    "time_taken"
+    t.string   "notepad"
+    t.integer  "problem_generator_id"
+    t.integer  "session_id"
+    t.string   "session_type"
+  end
+
+  add_index "answers", ["user_id", "created_at"], :name => "index_problemanswers_on_user_id_and_created_at"
+  add_index "answers", ["user_id", "pclass", "created_at"], :name => "index_problemanswers_on_user_id_and_pclass_and_created_at"
+  add_index "answers", ["user_id"], :name => "index_problemanswers_on_user_id"
 
   create_table "classroom_assignments", :force => true do |t|
     t.integer "classroom_id"
@@ -36,6 +55,7 @@ ActiveRecord::Schema.define(:version => 20130101130048) do
   create_table "classroom_quizzes", :force => true do |t|
     t.integer  "classroom_id"
     t.integer  "quiz_id"
+    t.integer  "teacher_id"
     t.datetime "starts_at"
     t.datetime "ends_at"
   end
@@ -113,23 +133,6 @@ ActiveRecord::Schema.define(:version => 20130101130048) do
 
   add_index "problem_types", ["name"], :name => "index_problem_types_on_name", :unique => true
 
-  create_table "problemanswers", :force => true do |t|
-    t.boolean  "correct"
-    t.integer  "problem_id"
-    t.binary   "response"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-    t.integer  "user_id"
-    t.string   "pclass"
-    t.float    "time_taken"
-    t.string   "notepad"
-    t.integer  "problem_generator_id"
-  end
-
-  add_index "problemanswers", ["user_id", "created_at"], :name => "index_problemanswers_on_user_id_and_created_at"
-  add_index "problemanswers", ["user_id", "pclass", "created_at"], :name => "index_problemanswers_on_user_id_and_pclass_and_created_at"
-  add_index "problemanswers", ["user_id"], :name => "index_problemanswers_on_user_id"
-
   create_table "problems", :force => true do |t|
     t.binary   "serialized_problem"
     t.datetime "created_at"
@@ -140,9 +143,6 @@ ActiveRecord::Schema.define(:version => 20130101130048) do
   create_table "quiz_instances", :force => true do |t|
     t.integer  "quiz_id"
     t.integer  "user_id"
-    t.string   "s_problem_order"
-    t.integer  "problem_id",      :default => -1
-    t.integer  "num_attempts",    :default => 0
     t.datetime "last_attempted"
   end
 
@@ -161,7 +161,7 @@ ActiveRecord::Schema.define(:version => 20130101130048) do
   create_table "quiz_stats", :force => true do |t|
     t.integer "quiz_instance_id"
     t.integer "problem_type_id"
-    t.integer "completed",        :default => 0
+    t.integer "remaining",        :default => 0
     t.integer "total"
   end
 

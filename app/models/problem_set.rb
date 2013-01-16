@@ -11,11 +11,12 @@ class ProblemSet < ActiveRecord::Base
   has_many :classrooms_problem_sets
   has_many :classrooms, :through => :classrooms_problem_sets
 
+  has_many :quizzes
   accepts_nested_attributes_for :problem_set_problems
 
   def assign(user)
     instance = problem_set_instances.build(:user_id => user.id)
-    return false unless instance.save # if they already have an instance of this problem set it won't work
+    return nil unless instance.save # if they already have an instance of this problem set it won't work
   end
 
   def idname

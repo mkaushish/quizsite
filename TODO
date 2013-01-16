@@ -92,10 +92,10 @@ Completed
 [X] add support for multitextfields - dynamic number of text fields
 		or perhaps just generic, and specify which ones you can add?
 [x] allow multitextfields to be ordered or not
-[X] move view logic from problemanswersHelper into partials!
+[X] move view logic from answersHelper into partials!
 [X] fraction input not working => test with problem ToImproperFraction
 	[X] allow fraction input fields
-	[X] fix fraction display in problemanswers/show
+	[X] fix fraction display in answers/show
 [x] add some css for fractions
 [X] names to add:
   [X] Sanjeev Bikhchandani: sanjeev@naukri.com

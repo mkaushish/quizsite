@@ -5,6 +5,8 @@ class ProblemSetInstance < ActiveRecord::Base
   has_many :problem_set_stats, :dependent => :destroy
   has_many :problem_types, :through => :problem_set
 
+  has_many :problems, :as => :session
+
   validates :user, :presence => true
   validates :problem_set, :presence => true
 

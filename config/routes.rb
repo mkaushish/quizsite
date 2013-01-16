@@ -14,10 +14,6 @@ Quizsite::Application.routes.draw do
   # match "problem/example/:type" => 'problem#example', :as => :problem_example
   # match '/problems' => 'problem#index'
 
-  scope(:path_names => { :new => "quiz" }) do
-    resources :problemanswers, :except => [:edit, :destroy]
-  end
-
   resources :users do
     member do
       get  'confirm'

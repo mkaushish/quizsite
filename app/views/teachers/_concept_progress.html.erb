@@ -1,0 +1,18 @@
+<ul class=class_stat_list>
+  <% @stat_calc.concept_progress.each do |stat| %>
+    <li class=class_stat>
+    <header><%= stat.type %></header>
+    <ul>
+      <li><div><%= stat.attempted %></div>PROBLEMS DONE</li>
+      <li><div><%= stat.percent %></div>PERCENT CORRECT</li>
+      <li><div><%= stat.user_count %></div>STUDENTS ATTEMPTED</li>
+    </ul>
+    </li>
+  <% end %>
+</ul>
+
+<script>
+  $(function () {
+    $('.class_stat_list').jScrollPane({ contentWidth: '0px' });
+  })
+</script>
