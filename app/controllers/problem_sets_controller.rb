@@ -8,8 +8,8 @@ class ProblemSetsController < ApplicationController
     @instance ||= current_user.problem_set_instances.new(:problem_set => @problem_set)
     @stats = @instance.stats
     @sessions = []
-
-    include_history
+    include_history @problem_set
+    
   end
 
   def do
@@ -48,9 +48,7 @@ class ProblemSetsController < ApplicationController
   # 
   # Sets the @history variable, which allows the partial 'problem_sets/_history' to be rendered
   #
-  def include_history(n = 11)
-    problem_set = ProblemSet.find(params[:name])
-
+  def include_history(problem_set, n = 11)
     return nil if current_user.nil?
 
     #instance = @instance || ProblemSetInstance.where(:problem_set_id => @problem_set.id,

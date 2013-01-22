@@ -23,11 +23,6 @@ Quizsite::Application.routes.draw do
 
   resources :sessions, :only => [:new, :create, :destroy]
 
-  resources :quizzes, do # see them in profile
-    get 'do', :on => :member # but really on QuizUsers
-    post 'complete_problem', :on => :member # also on QuizUsers
-  end
-
   post "pages/check_drawing"
   post "pages/exampleprobs"
 
@@ -47,30 +42,35 @@ Quizsite::Application.routes.draw do
   match '/problem_sets/:name/finish_problem', :to => 'problem_sets#finish_problem', :as => :ps_finish_problem, :via => [:post]
   match '/studenthome', :to => 'students#home'
 
-  match '/teacherhome', :to => 'teachers#home', :as => :teacherhome
-  match '/details/:id', :to => 'teachers#details', :as => :details
-  match '/details_classroom', :to => 'teachers#details_classroom', :as => :details_classroom, :via => [:post]
-  match '/details_problem_set', :to => 'teachers#details_problem_set', :as => :details_problem_set, :via => [:post]
+  get '/teacherhome',               to: 'teachers#home', as: :teacherhome
+  get '/details/:id',               to: 'teachers#details', as: :details
+  post '/details_classroom',        to: 'teachers#details_classroom', as: :details_classroom
+  post '/details_problem_set',      to: 'teachers#details_problem_set', as: :details_problem_set
+  get '/:classroom/:pset/new_quiz', to: 'quizzes#new', as: :new_quiz
+  post '/quizzes/create',           to: 'quizzes#create', as: :create_quiz
+  get '/:classroom/:pset/show',     to: 'quizzes#show', as: :quiz
+
+  post '/:classroom/:quiz/assign'
 
   #
   # general static pages
   #
-  match '/home',        :to => 'pages#fasthome'
-  match '/features',    :to => 'pages#features'
-  match '/about',       :to => 'pages#about'
-  match '/access_denied', :to => 'pages#access_denied'
+  get '/home',        :to => 'pages#fasthome'
+  get '/features',    :to => 'pages#features'
+  get '/about',       :to => 'pages#about'
+  get '/access_denied', :to => 'pages#access_denied'
 
   #
   # static example pages
   #
   match '/draw',        :to => 'pages#draw', :via => [:get, :post]
-  match '/numberline',  :to => 'pages#numberline'
-  match '/graph',       :to => 'pages#graph'
-  match '/datagr',       :to => 'pages#datagr'
-  match '/bhutan',       :to => 'pages#bhutan'
-  match '/notepad',       :to => 'pages#notepad'
-  match '/measure',       :to => 'pages#measure'
-  match '/dgraph',       :to => 'problem#dgraph'
+  get '/numberline',  :to => 'pages#numberline'
+  get '/graph',       :to => 'pages#graph'
+  get '/datagr',       :to => 'pages#datagr'
+  get '/bhutan',       :to => 'pages#bhutan'
+  get '/notepad',       :to => 'pages#notepad'
+  get '/measure',       :to => 'pages#measure'
+  get '/dgraph',       :to => 'problem#dgraph'
   match '/estimate',    :to => 'pages#exampleprobs', :via => [:get, :post]
 
   # match '/nologinhome_3dbfabcacc12868a282be76f5d59a19813', :to => 'pages#nologinhome'

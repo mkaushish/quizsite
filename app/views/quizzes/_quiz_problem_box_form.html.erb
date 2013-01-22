@@ -1,0 +1,8 @@
+<% quiz_problem = quiz_problem_box_form %>
+<% ptype = quiz_problem.problem_type %>
+<div class="quiz_problem_box_form">
+	<p><% ptype.to_s</p>
+	<%= form_for(quiz_problem, id:ptype.id.to_s) do |f| %>
+		<%= f.number_field, :count %>
+	<% end %>
+</div>

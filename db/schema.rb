@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130115131412) do
+ActiveRecord::Schema.define(:version => 20130122105905) do
 
   create_table "answers", :force => true do |t|
     t.boolean  "correct"
@@ -143,7 +143,11 @@ ActiveRecord::Schema.define(:version => 20130115131412) do
   create_table "quiz_instances", :force => true do |t|
     t.integer  "quiz_id"
     t.integer  "user_id"
+    t.string   "s_problem_order"
+    t.integer  "problem_id",      :default => -1
+    t.integer  "num_attempts",    :default => 0
     t.datetime "last_attempted"
+    t.datetime "started_at"
   end
 
   add_index "quiz_instances", ["quiz_id", "user_id"], :name => "index_quiz_users_on_quiz_id_and_user_id", :unique => true
@@ -171,6 +175,7 @@ ActiveRecord::Schema.define(:version => 20130115131412) do
     t.datetime "created_at"
     t.datetime "updated_at"
     t.string   "name"
+    t.integer  "classroom_id"
   end
 
   add_index "quizzes", ["user_id", "name"], :name => "index_quizzes_on_user_id_and_name", :unique => true

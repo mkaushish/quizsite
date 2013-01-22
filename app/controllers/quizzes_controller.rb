@@ -8,10 +8,10 @@ class QuizzesController < ApplicationController
 
   # choose the problems for a quiz
   def new
-    @nav_selected = "makequiz"
-    @quiz = Quiz.new
-    @custom_probs = current_user.problem_types
-    @chapter = Chapter1
+    @classroom = current_user.classrooms.find_by_name params[:classroom]
+    @problem_set = ProblemSet.find(params[:pset])
+    @quiz = ProblemSet.quizzes.new()
+    @quiz_problems = @quiz.default_problems
   end
 
   # change the problem types in a quiz

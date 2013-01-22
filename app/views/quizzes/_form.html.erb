@@ -1,50 +1,16 @@
+<% ncols = 5 %>
 <%= form_for(@quiz) do |f| %>
-  <div class=row-fluid>
-    <div class="span3">
-      <div class='well sidebar-nav'>
-        <ul class='nav nav-list'>
-          <li class='nav-header'>Grade 6</li>
-          <% all_chapters.each do |chapter| %>
-            <li class="<%= (chapter == @chapter) ? "active":""%>">
-            <a href="#<%= chapter.to_s %>" data-toggle="tab"><%= chapter.to_s %></a>
-            </li>
-          <% end %>
-          <li><button type="button" class="btn" id=clear-quiz>Clear Quiz</button></li>
-          <li><%= f.submit "Save", :class=>"btn-primary" %></li>
-        </ul>
-      </div>
-    </div>
-    <div class="span6 tab-content" id="problemtabs">
-      <div class='section-header'>
-        <% if quizname.nil? %>
-          <%= f.text_field :name, :placeholder=>"Name", :style => "float:none;display:inline;", :class=>"quiznamefield" %>
-          <span id=nameerrors></span>
-        <% else %>
-          <%= quizname.to_s %>
+  <table class="quiz_form_table">
+    <% @quiz_problems.each_slice(ncols) do |next_n| %>
+      <tr>
+        <% ncols.times do |i| %>
+          <td>
+            <%= render partial: 'quiz_problem_box_form',
+            object: next_n[i] %>
+            <% end %>
+          </td>
         <% end %>
-      </div>
-      <% all_chapters.each do |chapter| %>
-        <ul class="tab-pane<%= (chapter == @chapter) ? " active":"" %>" id="<%= chapter.to_s %>" >
-          <% ProblemType.where(:klass => chapter::PROBLEMS.map { |e| e.to_s }).each do |problem_type| %>
-            <li>
-            <%= check_box_tag "problem_types[#{problem_type.id}]", problem_type.id.to_s, (@problem_types && @problem_types.include?(problem_type)) %>
-            <%= label_tag "problem_types[#{problem_type.id}]", problem_type.to_s %>
-            </li>
-          <% end %>
-        </ul>
-      <% end %>
-    </div>
-    <div class="span3">
-      <div class='well sidebar-nav'>
-        <ul id='curquiz' class='nav nav-list'>
-        </ul>
-      </div>
-    </div>
-  </div>
+      </tr>
+    <% end %>
+  </table>
 <% end %>
-<script>
-  $(function () {
-    $('a[href="#<%= @chapter.to_s %>"]').tab('show');
-    setCurQuiz();
-  });
-</script>
