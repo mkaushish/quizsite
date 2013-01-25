@@ -1,7 +1,5 @@
 class QuizProblem < ActiveRecord::Base
-  attr_accessible :problem_type, :count
-
-  belongs_to :quiz
+  belongs_to :quiz, inverse_of: :quiz_problems
   belongs_to :problem_type
 
   validates :quiz, :presence => true

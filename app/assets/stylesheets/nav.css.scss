@@ -1,9 +1,10 @@
 @import 'mixins_n_colors';
 
-$bar_to_top: 36px;
-
+$image_height: 72px;
+$bar_to_top: ($image_height / 2) + 5px;
 .sg-nav {
-  height:90px;
+  height:$image_height;
+  margin-bottom:20px;
 
   div { 
     float:left;
@@ -12,17 +13,18 @@ $bar_to_top: 36px;
 
   ul {
     padding-left: 20px;
+    margin:0;
     float:left;
 
     height: $bar_to_top;
-    //height: 36px;
 
     font-size: 13px;
     font-weight: bold;
 
     li {
-      margin-left: 10px;
-      padding:10px;
+      height:20px;
+      padding:5px 10px;
+      margin: ($bar_to_top - 30px) 0 0 10px;
       float: left;
 
       a {
@@ -34,11 +36,14 @@ $bar_to_top: 36px;
       }
     }
     li.switch-to {
+      height:15px;
+      padding: 8px 16px 9px 16px;
+      margin-top: $bar_to_top - 8 - 9 - 15 - 2px;
+
       background-color: white;
       border-top: 2px solid $sg_green;
       border-right: 2px solid $sg_green;
       border-left: 2px solid $sg_green;
-      padding: 8px 16px 9px 16px;
     }
     li.switch-to-header {
       font-size: 11px;
@@ -53,6 +58,13 @@ $bar_to_top: 36px;
   }
 }
 
+#site_logo {
+  height:$image_height;
+  width:185px;
+  margin:5px 0 0 0;
+  padding:0;
+}
+
 .nav-blue-side {
   height: 80px;
   width:4px;
@@ -64,13 +76,14 @@ $bar_to_top: 36px;
 .nav-line {
   width:100%;
   position:absolute;
-  top:0;
   z-index:-1;
 
   div {
     height:16px;
+    margin:0;
+    padding:0;
     position: absolute;
-    top: 28px;
+    //top: 28px;
     @include gradient(white, #eef4f4);
     &:first-child {
       border-bottom: 2px solid $sg_blue;
@@ -80,11 +93,4 @@ $bar_to_top: 36px;
       border-bottom: 2px solid $sg_green;
     }
   }
-}
-
-.nav-blue-line {
-}
-
-.nav-green-line {
-  border-bottom: 2px solid $sg_green;
 }

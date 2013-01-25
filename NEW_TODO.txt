@@ -1,4 +1,5 @@
 new student problem page
+  - problem is a a popup via ajax, like covering part of the screen with a piece of paper
 
 add in quizzes for real this time
 
@@ -11,6 +12,22 @@ link students on details to this
 link clicking on problem sets to it's desired behaviour
 
 make some ability for teachers to add classes
+
+"You have unlocked a challenge problem"
+
+use nested resources to handle multiple user types:
+	namespace :student do 
+		resources :problem_sets
+		resources :quizzes
+	end
+
+story mode problems
+inspire kids to want to learn math on the splash page
+  - math is what you know is true
+  = pythagoreans ancient math cult - because math was truth about the universe
+    <pic of ancient cult drawing geometry in the sand before a gate>
+  - <cartoonish/cool brain inside our avatar>"We are a way for the cosmos to know itself" - Carl Sagan
+      - the cosmos runs on math, get the basics down
 
 points per question
           Right | Wrong

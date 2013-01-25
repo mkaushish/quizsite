@@ -1,6 +1,10 @@
 .dotted-border {
   @include dotted-border();
   padding:5px;
+  p {
+    padding:5px;
+    margin:5px;
+  }
 }
 
 .dotted-border-header {

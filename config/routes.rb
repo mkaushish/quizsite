@@ -7,13 +7,6 @@ Quizsite::Application.routes.draw do
     get 'explain', :on => :member
   end
 
-  # get  "problem/index"
-  # post "problem/next_subproblem"
-  # post "problem/expand"
-  # match "/explain/:id" => 'problem#explain', :as => :explain
-  # match "problem/example/:type" => 'problem#example', :as => :problem_example
-  # match '/problems' => 'problem#index'
-
   resources :users do
     member do
       get  'confirm'
@@ -21,31 +14,32 @@ Quizsite::Application.routes.draw do
     end
   end
 
-  resources :sessions, :only => [:new, :create, :destroy]
+  # resources :sessions, :only => [:new, :create, :destroy]
 
   post "pages/check_drawing"
   post "pages/exampleprobs"
 
-  #
-  # shortcut pages - so the URLs make more sense
-  #
-  match '/profile' => 'students#home'
-  match '/stats' => 'users#stats'
+  # session pages - so the URLs make more sense
   match '/change_password' => 'users#password_form'
   # match '/signup',  :to => 'users#new'
   match '/signin',      :to => 'pages#signinpage'
   match '/signout',     :to => 'sessions#destroy'
-  match '/history',     :to => 'problemanswers#index'
-  match '/startquiz',   :to => 'problemanswers#new'
-  match '/problem_sets/:name', :to => 'problem_sets#show', :as => :problem_sets
-  match '/problem_sets/:name/do/:pid', :to => 'problem_sets#do', :as => :problem_set_do
-  match '/problem_sets/:name/finish_problem', :to => 'problem_sets#finish_problem', :as => :ps_finish_problem, :via => [:post]
-  match '/studenthome', :to => 'students#home'
 
+  # student views
+  get '/studenthome', :to => 'students#home'
+
+  get '/problem_sets/:name', :to => 'problem_sets#show', :as => :problem_sets
+  get '/problem_sets/:name/do/:pid', :to => 'problem_sets#do', :as => :problem_set_do
+  post '/problem_sets/:name/finish_problem', :to => 'problem_sets#finish_problem', :as => :ps_finish_problem
+
+  # teacher views:
   get '/teacherhome',               to: 'teachers#home', as: :teacherhome
-  get '/details/:id',               to: 'teachers#details', as: :details
-  post '/details_classroom',        to: 'teachers#details_classroom', as: :details_classroom
-  post '/details_problem_set',      to: 'teachers#details_problem_set', as: :details_problem_set
+
+  get '/details/:id',               to: 'details#details', as: :details
+  post '/details_classroom',        to: 'details#select_classroom', as: :details_classroom
+  post '/details_problem_set',      to: 'details#select_problem_set', as: :details_problem_set
+  post '/details_concept',          to: 'details#click_concept', as: :details_concept
+
   get '/:classroom/:pset/new_quiz', to: 'quizzes#new', as: :new_quiz
   post '/quizzes/create',           to: 'quizzes#create', as: :create_quiz
   get '/:classroom/:pset/show',     to: 'quizzes#show', as: :quiz

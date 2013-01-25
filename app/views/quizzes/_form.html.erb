@@ -1,16 +1,14 @@
-<% ncols = 5 %>
-<%= form_for(@quiz) do |f| %>
-  <table class="quiz_form_table">
-    <% @quiz_problems.each_slice(ncols) do |next_n| %>
-      <tr>
-        <% ncols.times do |i| %>
-          <td>
-            <%= render partial: 'quiz_problem_box_form',
-            object: next_n[i] %>
-            <% end %>
-          </td>
-        <% end %>
-      </tr>
-    <% end %>
-  </table>
-<% end %>
+<% h = 7 %>
+<div class="row-fluid">
+  <% [first_half(@quiz_problems, h), second_half(@quiz_problems, h)].each do |qp_column| %>
+  <div class="span6">
+    <ul class="quiz_problem_list_form">
+      <% qp_column.each do |qp| %>
+      <li>
+        <%= render partial: 'quiz_problem_box_form', object: qp %>
+      </li>
+      <% end %>
+    </ul>
+  </div>
+  <% end %>
+</div>

@@ -1,0 +1,7 @@
+<p>
+	<%= link_to "Assign Quiz", new_quiz_path(classroom: @classroom.id, pset: @problem_set.id) %> 
+	on <%= @problem_set.name %>
+</p>
+<ul class=column-list>
+	<%= render :partial => 'teachers/quiz_history' %>
+</ul>

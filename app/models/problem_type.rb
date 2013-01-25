@@ -21,5 +21,5 @@ class ProblemType < ActiveRecord::Base
     self.problem_generators.first.spawn(*args)
   end
 
-  def to_s() self.name ; end
+  def to_s() self.name.truncate(43) ; end
 end

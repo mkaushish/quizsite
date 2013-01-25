@@ -229,7 +229,7 @@ module Chapter12
 
   class RatiosAndTotals < QuestionWithExplanation # {{{
     attr_accessor :bob, :jen, :item
-    def self.type() "Quantities from a ratio and a total" end
+    def self.type() "Quantities from a ratio and total" end
 
     # t is the total quanty (Fixnum)
     # r is the ratio        (Rational)

@@ -9,11 +9,8 @@
     <div class=dotted-border-header>
       Quiz History
     </div>
-    <div class='dotted-border teacher-details-column'>
-      <%= link_to "+ Assign Quiz", "#" %>
-      <ul class=column-list>
-        <%= render :partial => 'teachers/quiz_history' %>
-      </ul>
+    <div id='quiz_history' class='dotted-border teacher-details-column'>
+      <%= render partial: 'teachers/quiz_history_assign_quiz' %>
     </div>
   </div>
 
@@ -27,9 +24,17 @@
   </div>
 </div>
 
-<div class=row=fluid>
+<div class=row-fluid>
   <div class=dotted-border-header>
     Individual Student Progress
   </div>
   <div class=dotted-border>
+    <ul class="column-list">
+      <% @students.sort { |a,b| a.name <=> b.name }.each do |student| %>
+      <li>
+        <%= student.name %>
+      </li>
+      <% end %>
+    </ul>
+  </div>
 </div>

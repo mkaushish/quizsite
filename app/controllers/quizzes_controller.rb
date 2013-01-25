@@ -8,113 +8,59 @@ class QuizzesController < ApplicationController
 
   # choose the problems for a quiz
   def new
-    @classroom = current_user.classrooms.find_by_name params[:classroom]
+    @classroom = Classroom.find(params[:classroom])
     @problem_set = ProblemSet.find(params[:pset])
-    @quiz = ProblemSet.quizzes.new()
+    @quiz = @classroom.quizzes.new(problem_set: @problem_set)
+    $stderr.puts "QUIZ: #{@quiz.inspect}"
     @quiz_problems = @quiz.default_problems
+    $stderr.puts "QUIZPROBS: #{@quiz_problems.inspect}"
   end
 
   # change the problem types in a quiz
   def edit
-    @nav_selected = "makequiz"
-    @quiz = Quiz.find(params[:id])
-
-    unless @quiz.user_id == current_user.id
-      deny_access
-    end
-    set_quiz @quiz
-    @chosen_probs = get_probs
-    @chapter = Chapter1
+    @classroom = current_user.classrooms.find_by_name params[:classroom]
+    @problem_set = ProblemSet.find(params[:pset])
+    @quiz = Classroom.quizzes.where(problem_set_id: @problem_set.id)
+    @quiz_problems = @quiz.quiz_problems.includes(:problem_type)
   end
 
   # POST /quiz
+  # quiz problems come in in theformat of 
   def create
-    @problem_types = ProblemType.find params_to_problemtype_ids
+    @classroom = Classroom.find params[:classroom_id]
 
-    if current_user.is_a?(Teacher)
-      @quiz = current_user.homeworks.new(params[:quiz])
-
-    elsif current_user.is_a?(Student)
-      @quiz = current_user.quizzes.new(params[:quiz])
-
-    else
-      render :js => "window.location = '/'"
-      return
+    quiz_problems_attributes = []
+    params[:quiz_problems].each_pair do |k, v| 
+      quiz_problems_attributes << {problem_type_id: k, count:v} 
     end
 
-    if @quiz.save
-      if current_user.is_a? Teacher
-        classrooms.each do |classroom|
-          classroom.assign!(@quiz) if(params["class_#{classroom.id}"])
-        end
-      else
-        set_quiz(@quiz)
-      end
+    @quiz = @classroom.quizzes.create problem_set_id: params[:problem_set_id],
+                                      quiz_problems_attributes: quiz_problems_attributes
 
-      render :js => "window.location = '/profile'"
+    $stderr.puts "ERRORS "*10
+    $stderr.puts @classroom.id
+    $stderr.puts params[:problem_set_id]
+    $stderr.puts quiz_problems_attributes.to_s
+    $stderr.puts @quiz.errors.full_messages
+
+    if params[:students]
+      @students = User.where(:id => params[:students].keys)
     else
-      $stderr.puts "#"*60
-      $stderr.puts "COULDN'T SAVE: #{@quiz.errors.full_messages}"
-
-      @errors = @quiz.errors
-      render 'shared/form_errors'
+      @students = @classroom.students
     end
+
+    redirect_to details_path(id: @classroom.id, problem_set: params[:problem_set_id])
+  else
+
+
   end
 
   # PUT /quiz/:id
   def update
-    @quiz = Quiz.find(params[:id])
-    unless is_owner(@quiz)
-      adderror "You can only edit your own quizzes!"
-      redirect_to profile_path
-    end
-
-    @quiz.problemtypes = get_quizprobs_from_params(params)
-
-    if @quiz.save
-      redirect_to profile_path
-    else
-      adderror("couldn't save the quiz for some reason... need to get better error messages")
-      redirect_to profile_path
-    end
   end
 
   # DELETE /quizzes/1
   def destroy
-    @quiz = Quiz.find(params[:id])
-    unless is_owner(@quiz)
-      adderror "You can only edit your own quizzes!"
-      redirect_to profile_path
-    end
-
-    @quiz.destroy
-    if current_user.quizzes.empty?
-      render :js => "window.location = '/profile'"
-    else
-      respond_to { |format| format.js }
-    end
-  end
-
-  # GET /quizzes/id/do
-  def do
-    # @quiz, @quiz_user = get_quiz_quiz_user(params[:id])
-
-    # if @quiz_user.nil?
-    #   flash[:error] = "You don't have permission to do this quiz!"
-    #   redirect_to access_denied_path
-    # end
-
-    # if @quiz.has_problem params[:ptype)
-    #   redirect_to explain_problem_path(quiz_user.problem_id)
-    #   return
-    # end
-
-    # @problem = @quiz_user.next_problem
-    # session[:return_to] = do_quiz_path(@quiz_user)
-  end
-
-  def complete_problem
-
   end
 
   private

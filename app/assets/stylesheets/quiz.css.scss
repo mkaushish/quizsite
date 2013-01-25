@@ -14,3 +14,28 @@ span#nameerrors {
 #ptypeserrors {
   color:red;
 }
+
+$qb_form_height: 35px;
+$qpbf_col_width: $qb_form_height * 1.618033988749;
+
+.quiz_problem_box_form {
+	height:$qb_form_height;
+	margin-bottom:10px;
+	display:block;
+
+	div {
+		display:inline-block;
+		height:$qb_form_height - 16px;
+		padding:8px;
+		margin:0;
+		font-size:18px;
+	}
+
+	input {
+		width:$qpbf_col_width - 6;
+		height:$qb_form_height - 6;
+		padding:3px;
+		font-size:24px;
+		text-align: center;
+	}
+}

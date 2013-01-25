@@ -176,6 +176,7 @@ ActiveRecord::Schema.define(:version => 20130122105905) do
     t.datetime "updated_at"
     t.string   "name"
     t.integer  "classroom_id"
+    t.integer  "problem_set_id"
   end
 
   add_index "quizzes", ["user_id", "name"], :name => "index_quizzes_on_user_id_and_name", :unique => true

@@ -101,4 +101,28 @@ module ApplicationHelper
     return "teachers/nav_elts" if current_user.is_a? Teacher
     "shared/default_nav_elts"
   end
+
+  #
+  # gets the first half of an array for a double column interface
+  # n is the number of column elements that fit the screen
+  #
+  def first_half(arr, n)
+    if arr.length >= n * 2
+      arr[0..(arr.length / 2)]
+    elsif arr.length >= n + 3
+      arr[0...n]
+    elsif arr.length >= n
+      arr[0...(arr.length - 3)]
+    else
+      arr 
+    end
+  end
+
+  def second_half(arr, n)
+    arr - first_half(arr, n)
+  end
+
+  def putd(date)
+    date.strftime "%e %b %Y"
+  end
 end

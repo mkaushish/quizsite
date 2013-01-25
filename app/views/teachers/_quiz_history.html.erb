@@ -13,7 +13,7 @@
 <% else %>
   <% @quiz_history.each do |quiz| %>
     <li>
-      <%= quiz.name %>
+      <%= quiz.problem_set.name %> > <%= putd quiz.created_at %>
     </li>
   <% end %>
 <% end %>
