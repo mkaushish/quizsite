@@ -1,7 +1,7 @@
 <ul class=class_stat_list>
   <% @stat_calc.concept_progress.each do |stat| %>
     <% stat_id = "concept_stat_#{stat.type.id}" %>
-  <li id="<%= stat_id %>" class="class_stat">
+  <li id="<%= stat_id %>" class="stat">
     <header><%= stat.type %></header>
     <ul>
       <li><div><%= stat.attempted %></div>PROBLEMS DONE</li>

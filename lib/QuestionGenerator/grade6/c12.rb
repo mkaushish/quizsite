@@ -33,6 +33,24 @@ module Chapter12
                    )
   end
 
+  def self.rat_eq(*args)
+    ratios = []
+    begin
+      while(ratios.length < 2) do
+        r = args.shift
+        if r.is_a?(Rational)
+          ratios << r
+        else
+          r2 = args.shift
+          ratios << Rational(r, r2)
+        end
+      end
+      return ratios[0] == ratios[1]
+    rescue
+      return false
+    end
+  end
+
   module C12Initializers # {{{
     # these are static methods, because I think it will make their use more clear.
     def init_bob_and_jen(options)
@@ -78,7 +96,7 @@ module Chapter12
     def correct?(response)
       a, b = QuestionBase.vars_from_response("a", "b", response).map { |s| s.to_i }
       return false if b == 0
-      Rational(a.to_i, b.to_i) == Rational(@a, @b)
+      Chapter12::rat_eq(a.to_i, b.to_i, @a, @b)
     end
 
     def explain
@@ -147,7 +165,7 @@ module Chapter12
 
     def correct?(response)
       n, m = QuestionBase.vars_from_response("n", "m", response)
-      Rational(n, m) == Rational(@n, @m)
+      return Chapter12::rat_eq(n, m, @n, @m)
     end
   end
   # }}}
@@ -344,7 +362,7 @@ module Chapter12
         correct &= (a != @a) && (b != @b)
 
         # make sure it's right
-        correct &= Rational(a,b) == r
+        correct &= Chapter12::rat_eq(a, b, r)
 
         # make sure they don't repeat themselves on other answers
         # this works because negative indices work like you'd expect them to in ruby
@@ -851,7 +869,7 @@ module Chapter12
 			@wh=rand(4)
 		end
 		def solve
-			return {"ans" => "True"} if  Rational(@nums1[0],@nums1[1])==Rational(@nums2[0],@nums2[1])
+			return {"ans" => "True"} if  Chapter12::rat_eq(@nums1[0],@nums1[1], @nums2[0],@nums2[1])
 			return {"ans" => "False"}
 		end
 		def text

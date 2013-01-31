@@ -22,9 +22,9 @@ class Quiz < ActiveRecord::Base
 
   accepts_nested_attributes_for :quiz_problems
 
-  def assign(user)
-    instance = quiz_instances.build(:user_id => user.id)
-    return nil unless instance.save # if they already have an instance of this problem set it won't work
+  def assign(start_time, end_time)
+    self.starts_at = start_time
+    self.ends_at = start_time
   end
 
   def default_problems

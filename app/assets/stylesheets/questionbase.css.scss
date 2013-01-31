@@ -1,0 +1,37 @@
+#problem_overlay {
+	z-index:20;
+	position: fixed;
+	left:50%;
+	margin-left:-400px;
+	height:100%;
+	width:720px;
+	padding:10px 40px;
+	background-color:white;
+	border-left:1px solid gray;
+	border-right:1px solid gray;
+}
+
+.problem_view_stats {
+	height:70px;
+}
+
+.button-blue {
+	background-color:$button_blue;
+	color:white;
+	font-size:13px;
+	padding:4px;
+	font-weight:bold;
+	border-radius:0;
+	border:1px solid $button_blue;
+}
+
+.problem_body {
+	h2 {
+		display:inline-block;
+	}
+
+	input[type="text"] {
+		border-radius:0;
+		border:1px solid gray;
+	}
+}

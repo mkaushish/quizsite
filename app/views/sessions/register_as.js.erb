@@ -1,0 +1,6 @@
+$('#logIn div.modal-header').text("Register");
+form = $('#logIn div.modal-body form');
+form.children(':submit').hide();
+form.append('<p>Register as a');
+form.append('<%= link_to "Student", new_student_path, remote: true %>');
+form.append('or <%= link_to "Teacher", new_teacher_path, remote: true %></p>');

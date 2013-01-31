@@ -1,8 +1,4 @@
 class SessionsController < ApplicationController
-  def new
-    @title = "Sign in"
-  end
-
   def switch_to
     # TODO
     session[:current_student] = current_user
@@ -16,32 +12,20 @@ class SessionsController < ApplicationController
 
   def create
     if params[:commit] == "Register"
-      $stderr.puts "REGISTERING NEW USER"
       @user = User.new
-      render 'users/new_user_modal'
+      render 'register_as'
       return
     end
 
-    user = nil
-    pssw = ""
-    unless params[:email].nil?
-      user = User.find_by_email params[:email].downcase
-      pssw = params[:password]
-    else
-      user = User.find_by_email params[:session][:email].downcase
-      pssw = params[:session][:password]
-    end
+    @email = params[:session][:email].downcase
+    @user = User.find_by_email @email
+    @pssw = params[:session][:password]
 
-    if user.nil?
-      render :js => "$('#session_email').addClass('invalid');" +
-                    "$('#session_password').removeClass('invalid');" +
-                    "$('#session_password').select()",
-                    :status => 422
-    elsif !user.has_password? pssw
-      render 'wrong_password', :formats => [:js], :status => 422
-    else
-      sign_in user
+    if @user && @user.has_password?(@pssw)
+      sign_in @user
       render :js => "window.location = '/'"
+    else
+      render 'errors'
     end
   end
 

@@ -9,7 +9,7 @@ class DetailsController < ApplicationController
     @problem_sets = @classroom.problem_sets
     @problem_set = params[:problem_set].nil? ? @problem_sets.first : ProblemSet.find(params[:problem_set])
 
-    @quiz_history = @classroom.quizzes
+    @quiz_history = @classroom.quizzes.where problem_set_id: @problem_set.id
 
     @stat_calc = TeacherStatCalc.new(@students, @problem_set.problem_types)
   end

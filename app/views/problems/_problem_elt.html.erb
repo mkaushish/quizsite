@@ -1,9 +1,7 @@
 <% if problem_elt.is_a? InlineBlock %>
   <div class=inline-block>
     <% problem_elt.text.each do |elt| %>
-      <div>
         <%= render :partial => 'problems/problem_elt', :object => elt, :locals => {:partialdir => partialdir} %>
-      </div>
     <% end %>
   </div>
 <% elsif problem_elt.is_a? MultiHTMLObj %>

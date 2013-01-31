@@ -1,7 +1,7 @@
 <% if signed_in? %>
   <%= link_to "Sign Out", signout_path, :method => :delete %>
 <% else %>
-  <%= form_for(:session, {:url => sessions_path, :html => {:class => "signin"}}) do |f| %>
+  <%= form_for(:session, {:url => signin_path, :html => {:class => "signin"}}) do |f| %>
     <div class = "field">
       <%= f.text_field :email, :placeholder=>"Email" %>
       <%= f.password_field :password, :placeholder => "Password" %>

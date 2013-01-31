@@ -1,0 +1,1629 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+$.fn.permutationDrag	app/assets/javascripts/permutationdrag.js	/^  }$/;"	f
+==	lib/QuestionGenerator/geometry.rb	/^    def ==(other)$/;"	f	class:Geometry.Circle
+==	lib/QuestionGenerator/geometry.rb	/^    def ==(other)$/;"	f	class:Geometry.InfLine
+==	lib/QuestionGenerator/geometry.rb	/^    def ==(other)$/;"	f	class:Geometry.Line
+==	lib/QuestionGenerator/geometry.rb	/^    def ==(other)$/;"	f	class:Geometry.Point
+==	lib/QuestionGenerator/geometry.rb	/^    def ==(other)$/;"	f	class:Geometry.Ray
+ASLikeFractions	lib/QuestionGenerator/grade6/c7.rb	/^  class ASLikeFractions < QuestionWithExplanation$/;"	c	class:Chapter7
+ASMixedFractions	lib/QuestionGenerator/grade6/c7.rb	/^  class ASMixedFractions < ASUnlikeFractions$/;"	c	class:Chapter7
+ASUnlikeFractions	lib/QuestionGenerator/grade6/c7.rb	/^  class ASUnlikeFractions < QuestionWithExplanation$/;"	c	class:Chapter7
+AddCommasIndian	lib/QuestionGenerator/grade6/c1.rb	/^  class AddCommasIndian < QuestionWithExplanation$/;"	c	class:Chapter1
+AddCommasInternational	lib/QuestionGenerator/grade6/c1.rb	/^  class AddCommasInternational < QuestionWithExplanation$/;"	c	class:Chapter1
+AddDecimals	lib/QuestionGenerator/grade6/c8.rb	/^  class AddDecimals < AddSubDecimals$/;"	c
+AddIntegers	lib/QuestionGenerator/grade6/c6.rb	/^  class AddIntegers < AddSubIntegers$/;"	c	class:Chapter6.AddSubIntegers
+AddLargeNumbers	lib/QuestionGenerator/grade6/c2.rb	/^  class AddLargeNumbers < QuestionBase$/;"	c	class:Chapter2
+AddNumberLine	lib/QuestionGenerator/grade6/c6.rb	/^  class AddNumberLine < QuestionBase$/;"	c	class:Chapter6
+AddSubDecimals	lib/QuestionGenerator/grade6/c8.rb	/^  class AddSubDecimals < QuestionWithExplanation$/;"	c
+AddSubIntegers	lib/QuestionGenerator/grade6/c6.rb	/^  class AddSubIntegers < QuestionBase$/;"	c	class:Chapter6
+AddingField	lib/QuestionGenerator/tohtml.rb	/^  class AddingField < MultiHTMLObj$/;"	c	class:ToHTML
+Addition	lib/QuestionGenerator/grade6/preg6.rb	/^  class Addition < QuestionBase$/;"	c	class:PreG6
+AdjacentSides	lib/QuestionGenerator/grade6/c4.rb	/^  module AdjacentSides$/;"	m	class:Chapter4
+AdjacentVertices	lib/QuestionGenerator/grade6/c4.rb	/^  module AdjacentVertices$/;"	m	class:Chapter4
+Answer	app/models/answer.rb	/^class Answer < ActiveRecord::Base$/;"	c
+AnswersController	app/controllers/answers_controller.rb	/^class AnswersController < ApplicationController$/;"	c
+AnswersHelper	app/helpers/answers_helper.rb	/^module AnswersHelper$/;"	m
+ApplicationController	app/controllers/application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	c
+ApplicationHelper	app/helpers/application_helper.rb	/^module ApplicationHelper$/;"	m
+AreaRectWord	lib/QuestionGenerator/grade6/c10.rb	/^  class AreaRectWord < FindAreaRectangle$/;"	c	class:Chapter10
+ArrangeAscending	lib/QuestionGenerator/grade6/c1.rb	/^  class ArrangeAscending < QuestionBase$/;"	c	class:Chapter1
+ArrangeDescending	lib/QuestionGenerator/grade6/c1.rb	/^  class ArrangeDescending < QuestionBase$/;"	c	class:Chapter1
+BarGraphField	lib/QuestionGenerator/tohtml.rb	/^  class BarGraphField < MultiHTMLObj$/;"	c	class:ToHTML
+BarGraphLabel	lib/QuestionGenerator/tohtml.rb	/^  class BarGraphLabel < BarGraphField$/;"	c	class:ToHTML
+BarQues	lib/QuestionGenerator/grade6/c9.rb	/^  class BarQues < QuestionBase$/;"	c	class:Chapter9
+BisectLine	lib/QuestionGenerator/grade6/geo.rb	/^  class BisectLine < QuestionBase$/;"	c	class:Geo
+C12Initializers	lib/QuestionGenerator/grade6/c12.rb	/^  module C12Initializers # {{{$/;"	m	class:Chapter12
+Chapter1	lib/QuestionGenerator/grade6/c1.rb	/^module Chapter1$/;"	m
+Chapter1	lib/QuestionGenerator/grade7/c1.rb	/^module Chapter1$/;"	m
+Chapter10	lib/QuestionGenerator/grade6/c10.rb	/^module Chapter10$/;"	m
+Chapter11	lib/QuestionGenerator/grade6/c11.rb	/^module Chapter11$/;"	m
+Chapter12	lib/QuestionGenerator/grade6/c12.rb	/^module Chapter12$/;"	m
+Chapter2	lib/QuestionGenerator/grade6/c2.rb	/^module Chapter2$/;"	m
+Chapter3	lib/QuestionGenerator/grade6/c3.rb	/^module Chapter3$/;"	m
+Chapter4	lib/QuestionGenerator/grade6/c4.rb	/^module Chapter4$/;"	m
+Chapter6	lib/QuestionGenerator/grade6/c6.rb	/^module Chapter6$/;"	m
+Chapter7	lib/QuestionGenerator/grade6/c7.rb	/^module Chapter7$/;"	m
+Chapter8	lib/QuestionGenerator/grade6/c8.rb	/^module Chapter8$/;"	m
+Chapter9	lib/QuestionGenerator/grade6/c9.rb	/^module Chapter9$/;"	m
+Checkbox	lib/QuestionGenerator/tohtml.rb	/^  class Checkbox < InputField$/;"	c	class:ToHTML
+Circle	lib/QuestionGenerator/geometry.rb	/^  class Circle < Shape$/;"	c	class:Geometry
+Circle.draw	app/assets/javascripts/drawtools.js	/^    this.draw = function() {$/;"	m
+Circle.encode	app/assets/javascripts/drawtools.js	/^    this.encode = function() {$/;"	m
+Circle.toString	app/assets/javascripts/drawtools.js	/^    this.toString = function() {$/;"	m
+Circle.underMouse	app/assets/javascripts/drawtools.js	/^    this.underMouse = function(px_dist) { $/;"	m
+Classroom	app/models/classroom.rb	/^class Classroom < ActiveRecord::Base$/;"	c
+ClassroomAssignment	app/models/classroom_assignment.rb	/^class ClassroomAssignment < ActiveRecord::Base$/;"	c
+ClassroomProblemSet	app/models/classroom_problem_set.rb	/^class ClassroomProblemSet < ActiveRecord::Base$/;"	c
+ClassroomQuiz	app/models/classroom_quiz.rb	/^class ClassroomQuiz < ActiveRecord::Base$/;"	c
+ClassroomsController	app/controllers/classrooms_controller.rb	/^class ClassroomsController < ApplicationController$/;"	c
+ClassroomsHelper	app/helpers/classrooms_helper.rb	/^module ClassroomsHelper$/;"	m
+Commabox	lib/QuestionGenerator/tohtml.rb	/^  class Commabox < InputField$/;"	c	class:ToHTML
+CommonFactors	lib/QuestionGenerator/grade6/c3.rb	/^  class CommonFactors < QuestionWithExplanation$/;"	c	class:Chapter3.PrimeFactors
+CompareAddSub	lib/QuestionGenerator/grade6/c6.rb	/^  class CompareAddSub < QuestionBase$/;"	c	class:Chapter6
+CompareIntegers	lib/QuestionGenerator/grade6/c6.rb	/^  class CompareIntegers < QuestionBase$/;"	c	class:Chapter6
+CompareLikeFrac	lib/QuestionGenerator/grade6/c7.rb	/^  class CompareLikeFrac < QuestionWithExplanation$/;"	c	class:Chapter7
+CompareNumbers	lib/QuestionGenerator/grade6/preg6.rb	/^  class CompareNumbers < QuestionBase$/;"	c	class:PreG6
+CompareUnlikeFrac	lib/QuestionGenerator/grade6/c7.rb	/^  class CompareUnlikeFrac < QuestionWithExplanation$/;"	c	class:Chapter7
+CompleteTheProportion	lib/QuestionGenerator/grade6/c12.rb	/^  class CompleteTheProportion < QuestionWithExplanation # {{{$/;"	c	class:Chapter12.GetEquivalentFraction.RatioToFractionOfTotal.ReduceRatio.RatiosAndTotals.RatiosAndUnits.RatiosAndUnitConversions.EquivalentRatiosHelper.EquivalentRatios
+ConvSco	lib/QuestionGenerator/cricketdata/conv_sco.rb	/^class ConvSco$/;"	c
+ConvertUnits	lib/QuestionGenerator/grade6/c1.rb	/^  class ConvertUnits < QuestionWithExplanation$/;"	c	class:Chapter1
+ConvertUnitsSimple	lib/QuestionGenerator/grade6/c1.rb	/^  class ConvertUnitsSimple < QuestionBase$/;"	c	class:Chapter1
+CrBatAverage	lib/QuestionGenerator/cricketdata/crqu.rb	/^  class CrBatAverage < QuestionWithExplanation $/;"	c	class:CricketQuestions
+CrBatAverage	lib/QuestionGenerator/grade6/crqu.rb	/^  class CrBatAverage < QuestionWithExplanation $/;"	c	class:CricketQuestions
+CrBowlAverage	lib/QuestionGenerator/cricketdata/crqu.rb	/^  class CrBowlAverage < QuestionWithExplanation $/;"	c	class:CricketQuestions
+CrBowlAverage	lib/QuestionGenerator/grade6/crqu.rb	/^  class CrBowlAverage < QuestionWithExplanation $/;"	c	class:CricketQuestions
+CrStrikeRate	lib/QuestionGenerator/cricketdata/crqu.rb	/^  class CrStrikeRate$/;"	c	class:CricketQuestions
+CrStrikeRate	lib/QuestionGenerator/grade6/crqu.rb	/^  class CrStrikeRate < QuestionWithExplanation$/;"	c	class:CricketQuestions
+CrStrikeRateBowling	lib/QuestionGenerator/cricketdata/crqu.rb	/^  class CrStrikeRateBowling$/;"	c	class:CricketQuestions
+CrStrikeRateBowling	lib/QuestionGenerator/grade6/crqu.rb	/^  class CrStrikeRateBowling < QuestionWithExplanation$/;"	c	class:CricketQuestions
+CreateBar	lib/QuestionGenerator/grade6/c9.rb	/^  class CreateBar < QuestionBase$/;"	c	class:Chapter9
+CreateTally	lib/QuestionGenerator/grade6/c9.rb	/^  class CreateTally < QuestionBase$/;"	c	class:Chapter9
+CricketQuestions	lib/QuestionGenerator/cricketdata/crqu.rb	/^module CricketQuestions$/;"	m
+CricketQuestions	lib/QuestionGenerator/grade6/crqu.rb	/^module CricketQuestions$/;"	m
+CricketSubproblem	lib/QuestionGenerator/grade6/crqu.rb	/^  class CricketSubproblem < Subproblem$/;"	c	class:CricketQuestions
+CurrentProblem	app/models/concerns/current_problem.rb	/^module CurrentProblem$/;"	m
+CustomProblem	lib/QuestionGenerator/questionbase.rb	/^class CustomProblem < Subproblem$/;"	c
+CustomProblemMCQ	lib/QuestionGenerator/questionbase.rb	/^class CustomProblemMCQ < CustomProblem$/;"	c	class:CustomProblem
+CustomProblemNum	lib/QuestionGenerator/questionbase.rb	/^class CustomProblemNum < CustomProblem$/;"	c	class:CustomProblem
+CustomProblemText	lib/QuestionGenerator/questionbase.rb	/^class CustomProblemText < CustomProblem$/;"	c	class:CustomProblem
+CustomProblemsController	app/controllers/custom_problems_controller.rb	/^class CustomProblemsController < ApplicationController$/;"	c
+CustomProblemsHelper	app/helpers/custom_problems_helper.rb	/^module CustomProblemsHelper$/;"	m
+DecSigDigits	lib/QuestionGenerator/grade6/c8.rb	/^  class DecSigDigits < QuestionBase$/;"	c	class:Chapter8
+DecimalsToFractions	lib/QuestionGenerator/grade6/c8.rb	/^  class DecimalsToFractions < QuestionWithExplanation$/;"	c	class:Chapter8
+DefAdjacentSides	lib/QuestionGenerator/grade6/c4.rb	/^  class DefAdjacentSides < QuestionWithExplanation$/;"	c	class:Chapter4
+DefAdjacentSidesHelper	lib/QuestionGenerator/grade6/c4.rb	/^  class DefAdjacentSidesHelper < QuestionBase$/;"	c	class:Chapter4
+DefAdjacentVertices	lib/QuestionGenerator/grade6/c4.rb	/^  class DefAdjacentVertices < QuestionWithExplanation$/;"	c	class:Chapter4
+DefAdjacentVerticesHelper	lib/QuestionGenerator/grade6/c4.rb	/^  class DefAdjacentVerticesHelper < QuestionBase$/;"	c	class:Chapter4
+DefDiagonal	lib/QuestionGenerator/grade6/c4.rb	/^  class DefDiagonal < QuestionWithExplanation$/;"	c	class:Chapter4
+DefPolygon	lib/QuestionGenerator/grade6/c4.rb	/^  class DefPolygon < QuestionWithExplanation$/;"	c	class:Chapter4
+DefQuadrilateral	lib/QuestionGenerator/grade6/c4.rb	/^  class DefQuadrilateral < DefPolygon$/;"	c	class:Chapter4
+DefRatio	lib/QuestionGenerator/grade6/c12.rb	/^  class DefRatio < QuestionWithExplanation # {{{$/;"	c	class:Chapter12.GetEquivalentFraction
+DefTriangle	lib/QuestionGenerator/grade6/c4.rb	/^  class DefTriangle < DefPolygon$/;"	c	class:Chapter4
+DefVertices	lib/QuestionGenerator/grade6/c4.rb	/^  class DefVertices < QuestionWithExplanation$/;"	c	class:Chapter4
+DefVerticesHelper	lib/QuestionGenerator/grade6/c4.rb	/^  class DefVerticesHelper < QuestionBase$/;"	c	class:Chapter4
+DefVerticesMethods	lib/QuestionGenerator/grade6/c4.rb	/^  module DefVerticesMethods$/;"	m	class:Chapter4
+DetailsController	app/controllers/details_controller.rb	/^class DetailsController < ApplicationController$/;"	c
+Div_10	lib/QuestionGenerator/grade6/c3.rb	/^  class Div_10 < QuestionWithExplanation$/;"	c	class:Chapter3.PrimeFactors.Div_39
+Div_11	lib/QuestionGenerator/grade6/c3.rb	/^  class Div_11 < QuestionWithExplanation$/;"	c	class:Chapter3.PrimeFactors.Div_39
+Div_2	lib/QuestionGenerator/grade6/c3.rb	/^  class Div_2 < Div_248$/;"	c	class:Chapter3.PrimeFactors.Div_39
+Div_248	lib/QuestionGenerator/grade6/c3.rb	/^  class Div_248 < QuestionWithExplanation$/;"	c	class:Chapter3.PrimeFactors.Div_39
+Div_3	lib/QuestionGenerator/grade6/c3.rb	/^  class Div_3 < Div_39$/;"	c	class:Chapter3.PrimeFactors.Div_39
+Div_39	lib/QuestionGenerator/grade6/c3.rb	/^  class Div_39 < QuestionWithExplanation$/;"	c	class:Chapter3.PrimeFactors
+Div_4	lib/QuestionGenerator/grade6/c3.rb	/^  class Div_4 < Div_248$/;"	c	class:Chapter3.PrimeFactors.Div_39
+Div_5	lib/QuestionGenerator/grade6/c3.rb	/^  class Div_5 < QuestionWithExplanation$/;"	c	class:Chapter3.PrimeFactors.Div_39
+Div_6	lib/QuestionGenerator/grade6/c3.rb	/^  class Div_6 < QuestionWithExplanation$/;"	c	class:Chapter3.PrimeFactors.Div_39.Div_11
+Div_8	lib/QuestionGenerator/grade6/c3.rb	/^  class Div_8 < Div_248$/;"	c	class:Chapter3.PrimeFactors.Div_39
+Div_9	lib/QuestionGenerator/grade6/c3.rb	/^  class Div_9 < Div_39$/;"	c	class:Chapter3.PrimeFactors.Div_39
+Division	lib/QuestionGenerator/grade6/preg6.rb	/^  class Division < QuestionBase$/;"	c	class:PreG6
+DoubleEchoDist	lib/QuestionGenerator/grade6/physics.rb	/^  class DoubleEchoDist < QuestionWithExplanation$/;"	c	class:Physics
+Dropdown	lib/QuestionGenerator/tohtml.rb	/^  class Dropdown < InputField$/;"	c	class:ToHTML
+EquivalentFractions	lib/QuestionGenerator/grade6/c7.rb	/^  class EquivalentFractions < QuestionWithExplanation$/;"	c	class:Chapter7
+EquivalentRatios	lib/QuestionGenerator/grade6/c12.rb	/^  class EquivalentRatios < QuestionWithExplanation # {{{$/;"	c	class:Chapter12.GetEquivalentFraction.RatioToFractionOfTotal.ReduceRatio.RatiosAndTotals.RatiosAndUnits.RatiosAndUnitConversions.EquivalentRatiosHelper
+EquivalentRatiosHelper	lib/QuestionGenerator/grade6/c12.rb	/^  class EquivalentRatiosHelper < QuestionBase # {{{$/;"	c	class:Chapter12.GetEquivalentFraction.RatioToFractionOfTotal.ReduceRatio.RatiosAndTotals.RatiosAndUnits.RatiosAndUnitConversions
+EquivalentRatiosMethods	lib/QuestionGenerator/grade6/c12.rb	/^  module EquivalentRatiosMethods # {{{$/;"	m	class:Chapter12.GetEquivalentFraction.RatioToFractionOfTotal.ReduceRatio.RatiosAndTotals.RatiosAndUnits.RatiosAndUnitConversions
+EstimateAddition	lib/QuestionGenerator/grade6/c1.rb	/^  class EstimateAddition < EstimateArithmetic$/;"	c	class:Chapter1
+EstimateArithmetic	lib/QuestionGenerator/grade6/c1.rb	/^  class EstimateArithmetic < QuestionWithExplanation$/;"	c	class:Chapter1
+EstimateProduct	lib/QuestionGenerator/grade6/c1.rb	/^  class EstimateProduct < EstimateArithmetic$/;"	c	class:Chapter1
+EstimateSubtraction	lib/QuestionGenerator/grade6/c1.rb	/^  class EstimateSubtraction < EstimateArithmetic$/;"	c	class:Chapter1
+ExpandNumbers	lib/QuestionGenerator/grade6/c1.rb	/^  class ExpandNumbers < QuestionBase$/;"	c	class:Chapter1
+ExpandNumbers1	lib/QuestionGenerator/grade6/c1.rb	/^  class ExpandNumbers1 < QuestionBase$/;"	c	class:Chapter1
+ExpandNumbers2	lib/QuestionGenerator/grade6/c1.rb	/^  class ExpandNumbers2 < QuestionBase$/;"	c	class:Chapter1
+Factors	lib/QuestionGenerator/grade6/c3.rb	/^  class Factors < QuestionWithExplanation$/;"	c	class:Chapter3.PrimeFactors
+FillDenominator	lib/QuestionGenerator/grade6/c7.rb	/^  class FillDenominator < QuestionBase$/;"	c	class:Chapter7
+FillInEquivRatios	lib/QuestionGenerator/grade6/c12.rb	/^  class FillInEquivRatios < QuestionWithExplanation # {{{$/;"	c	class:Chapter12.GetEquivalentFraction.RatioToFractionOfTotal.ReduceRatio.RatiosAndTotals.RatiosAndUnits.RatiosAndUnitConversions.EquivalentRatiosHelper.EquivalentRatios
+FillNumerator	lib/QuestionGenerator/grade6/c7.rb	/^  class FillNumerator < QuestionBase$/;"	c	class:Chapter7
+FindAreaRectangle	lib/QuestionGenerator/grade6/c10.rb	/^	class FindAreaRectangle < QuestionWithExplanation$/;"	c	class:Chapter10
+FindIntegers	lib/QuestionGenerator/grade7/c1.rb	/^  class FindIntegers$/;"	c	class:Chapter1
+FindMaxNumber	lib/QuestionGenerator/grade6/c1.rb	/^  class FindMaxNumber < QuestionWithExplanation$/;"	c	class:Chapter1
+FindMinNumber	lib/QuestionGenerator/grade6/c1.rb	/^  class FindMinNumber < QuestionWithExplanation$/;"	c	class:Chapter1
+FindPerimeterRectangle	lib/QuestionGenerator/grade6/c10.rb	/^	class FindPerimeterRectangle < QuestionWithExplanation  $/;"	c	class:Chapter10
+FindPerimeterRegular	lib/QuestionGenerator/grade6/c10.rb	/^	class FindPerimeterRegular < QuestionWithExplanation$/;"	c	class:Chapter10
+FindRatioDiff	lib/QuestionGenerator/grade6/c12.rb	/^  class FindRatioDiff < QuestionWithExplanation$/;"	c	class:Chapter12.GetEquivalentFraction.RatioToFractionOfTotal.ReduceRatio.RatiosAndTotals.RatiosAndUnits.RatiosAndUnitConversions.EquivalentRatiosHelper.EquivalentRatios.CompleteTheProportion.PriceProportions.PricePerUnit.UnitaryCompareSize
+FindRatioSame	lib/QuestionGenerator/grade6/c12.rb	/^  class FindRatioSame < QuestionWithExplanation$/;"	c	class:Chapter12.GetEquivalentFraction.RatioToFractionOfTotal.ReduceRatio.RatiosAndTotals.RatiosAndUnits.RatiosAndUnitConversions.EquivalentRatiosHelper.EquivalentRatios.CompleteTheProportion.PriceProportions.PricePerUnit.UnitaryCompareSize
+FindSideRegular	lib/QuestionGenerator/grade6/c10.rb	/^	class FindSideRegular < QuestionWithExplanation$/;"	c	class:Chapter10
+Fixnum	lib/QuestionGenerator/grade6/grade6ops.rb	/^class Fixnum$/;"	c	class:Grade6ops.factors
+Float	lib/QuestionGenerator/grade6/crqu.rb	/^class Float$/;"	c
+Float	lib/QuestionGenerator/grade6/grade6ops.rb	/^class Float$/;"	c	class:Grade6ops.factors
+FollowsProblemStat	app/models/concerns/follows_problem_stat.rb	/^module FollowsProblemStat$/;"	m
+Fraction	lib/QuestionGenerator/tohtml.rb	/^  class Fraction < MultiHTMLObj$/;"	c	class:ToHTML
+FractionsToDecimals	lib/QuestionGenerator/grade6/c8.rb	/^  class FractionsToDecimals < QuestionBase$/;"	c	class:Chapter8
+Geo	lib/QuestionGenerator/grade6/geo.rb	/^module Geo$/;"	m
+Geometry	lib/QuestionGenerator/geometry.rb	/^module Geometry$/;"	m
+GeometryBase	lib/QuestionGenerator/geometry.rb	/^  class GeometryBase < InputField$/;"	c	class:Geometry
+GeometryDisplay	lib/QuestionGenerator/geometry.rb	/^  class GeometryDisplay < GeometryBase$/;"	c	class:Geometry
+GeometryField	lib/QuestionGenerator/geometry.rb	/^  class GeometryField < GeometryBase$/;"	c	class:Geometry
+GetCrData	lib/QuestionGenerator/cricketdata/get_crdata.rb	/^class GetCrData$/;"	c
+GetEquivalentFraction	lib/QuestionGenerator/grade6/c12.rb	/^  class GetEquivalentFraction < QuestionWithExplanation # {{{$/;"	c	class:Chapter12
+GetScore	lib/QuestionGenerator/cricketdata/get_scorecards.rb	/^class GetScore$/;"	c
+Grade6ops	lib/QuestionGenerator/grade6/grade6ops.rb	/^  def Grade6ops::asfractions(num, den, sig)$/;"	f	class:Grade6ops.factors
+Grade6ops	lib/QuestionGenerator/grade6/grade6ops.rb	/^module Grade6ops$/;"	m
+HCF	lib/QuestionGenerator/grade6/c3.rb	/^  class HCF < QuestionWithExplanation$/;"	c	class:Chapter3.PrimeFactors.Div_39.Div_11.SumPrimes.initialize
+HCFEA	lib/QuestionGenerator/grade6/c3.rb	/^  class HCFEA < QuestionWithExplanation$/;"	c	class:Chapter3.PrimeFactors.Div_39.Div_11.SumPrimes.initialize
+HTMLObj	lib/QuestionGenerator/tohtml.rb	/^  class HTMLObj$/;"	c	class:ToHTML
+IdentifyPrimes	lib/QuestionGenerator/grade6/c3.rb	/^  class IdentifyPrimes < QuestionWithExplanation$/;"	c	class:Chapter3
+InfLine	lib/QuestionGenerator/geometry.rb	/^  class InfLine < Line$/;"	c	class:Geometry
+InlineBlock	lib/QuestionGenerator/tohtml.rb	/^  class InlineBlock < MultiHTMLObj$/;"	c	class:ToHTML
+InpNumberLine	lib/QuestionGenerator/tohtml.rb	/^  class InpNumberLine < MultiHTMLObj$/;"	c	class:ToHTML
+InputField	lib/QuestionGenerator/tohtml.rb	/^  class InputField < HTMLObj$/;"	c	class:ToHTML
+IntNumberLine	lib/QuestionGenerator/grade6/c6.rb	/^  class IntNumberLine < QuestionBase$/;"	c	class:Chapter6
+IsDivisible	lib/QuestionGenerator/grade6/preg6.rb	/^  class IsDivisible < QuestionBase$/;"	c	class:PreG6
+Isoceles	lib/QuestionGenerator/grade6/grade6ops.rb	/^  class Isoceles$/;"	c	class:Grade6ops.factors
+Item	lib/QuestionGenerator/modules/items.rb	/^  class Item$/;"	c	class:Items
+Items	lib/QuestionGenerator/modules/items.rb	/^module Items$/;"	m
+LCM	lib/QuestionGenerator/grade6/c3.rb	/^  class LCM < QuestionWithExplanation$/;"	c	class:Chapter3.PrimeFactors.Div_39.Div_11.SumPrimes.initialize
+LCMEA	lib/QuestionGenerator/grade6/c3.rb	/^  class LCMEA < QuestionWithExplanation$/;"	c	class:Chapter3.PrimeFactors.Div_39.Div_11.SumPrimes.initialize
+Line	lib/QuestionGenerator/geometry.rb	/^  class Line < Shape$/;"	c	class:Geometry
+Line.Line.set_p2.draw	app/assets/javascripts/drawtools.js	/^      this.draw = function() {$/;"	m
+Line.Line.set_p2.draw	app/assets/javascripts/numberline.js	/^      this.draw = function() {$/;"	m
+Line.draw	app/assets/javascripts/drawtools.js	/^    this.draw = function() {$/;"	m
+Line.draw	app/assets/javascripts/numberline.js	/^    this.draw = function() {$/;"	m
+Line.encode	app/assets/javascripts/drawtools.js	/^    this.encode = function() {$/;"	m
+Line.set_p2	app/assets/javascripts/drawtools.js	/^    this.set_p2 = function(x, y){$/;"	m
+Line.set_p2	app/assets/javascripts/numberline.js	/^    this.set_p2 = function(x, y){$/;"	m
+Line.toSlopeInt	app/assets/javascripts/drawtools.js	/^    this.toSlopeInt = function() {$/;"	m
+Line.toString	app/assets/javascripts/drawtools.js	/^    this.toString = function() {$/;"	m
+Line.toString	app/assets/javascripts/numberline.js	/^    this.toString = function() {$/;"	m
+Line.underMouse	app/assets/javascripts/drawtools.js	/^    this.underMouse = function(px_dist) { $/;"	m
+Line.underMouse	app/assets/javascripts/numberline.js	/^    this.underMouse = function() { $/;"	m
+MatchNo	lib/QuestionGenerator/cricketdata/matchno.rb	/^class MatchNo$/;"	c
+MaxDecSigDigits	lib/QuestionGenerator/grade6/c8.rb	/^  class MaxDecSigDigits < QuestionWithExplanation$/;"	c	class:Chapter8
+MovNumberLine	lib/QuestionGenerator/tohtml.rb	/^  class MovNumberLine < MultiHTMLObj$/;"	c	class:ToHTML
+MultHCF	lib/QuestionGenerator/grade6/c3.rb	/^  class MultHCF < QuestionWithExplanation$/;"	c	class:Chapter3.PrimeFactors.Div_39.Div_11.SumPrimes.initialize
+MultHCFEA	lib/QuestionGenerator/grade6/c3.rb	/^  class MultHCFEA < QuestionWithExplanation$/;"	c	class:Chapter3.PrimeFactors.Div_39.Div_11.SumPrimes.initialize
+MultLCM	lib/QuestionGenerator/grade6/c3.rb	/^  class MultLCM < QuestionWithExplanation$/;"	c	class:Chapter3.PrimeFactors.Div_39.Div_11.SumPrimes.initialize
+MultLCMEA	lib/QuestionGenerator/grade6/c3.rb	/^  class MultLCMEA < QuestionWithExplanation$/;"	c	class:Chapter3.PrimeFactors.Div_39.Div_11.SumPrimes.initialize
+MultiHTMLObj	lib/QuestionGenerator/tohtml.rb	/^  class MultiHTMLObj$/;"	c	class:ToHTML
+MultiTextField	lib/QuestionGenerator/tohtml.rb	/^  class MultiTextField < MultiHTMLObj$/;"	c	class:ToHTML
+Multiplication	lib/QuestionGenerator/grade6/preg6.rb	/^  class Multiplication < QuestionBase$/;"	c	class:PreG6
+NPoint	lib/QuestionGenerator/geometry.rb	/^  class NPoint < Point$/;"	c	class:Geometry
+NameAngles	lib/QuestionGenerator/grade6/c4.rb	/^  class NameAngles < QuestionWithExplanation$/;"	c	class:Chapter4
+NameIntPoints	lib/QuestionGenerator/grade6/c4.rb	/^  class NameIntPoints$/;"	c	class:Chapter4
+NameLine	lib/QuestionGenerator/grade6/c4.rb	/^  class NameLine < QuestionWithExplanation$/;"	c	class:Chapter4
+NameRay	lib/QuestionGenerator/grade6/c4.rb	/^  class NameRay$/;"	c	class:Chapter4
+NameTriangles	lib/QuestionGenerator/grade6/c4.rb	/^  class NameTriangles < QuestionWithExplanation$/;"	c	class:Chapter4
+Names	lib/QuestionGenerator/modules/names.rb	/^module Names$/;"	m
+OpenClosedCurves	lib/QuestionGenerator/grade6/c4.rb	/^  class OpenClosedCurves$/;"	c	class:Chapter4
+PagesController	app/controllers/pages_controller.rb	/^class PagesController < ApplicationController$/;"	c
+PagesHelper	app/helpers/pages_helper.rb	/^module PagesHelper$/;"	m
+Pen	lib/QuestionGenerator/modules/items.rb	/^  class Pen < Item$/;"	c	class:Items.Tomato.pluralize.singular.Pencil.singular
+Pencil	lib/QuestionGenerator/modules/items.rb	/^  class Pencil < Item$/;"	c	class:Items.Tomato.pluralize.singular
+PeriRectWord	lib/QuestionGenerator/grade6/c10.rb	/^  class PeriRectWord < FindPerimeterRectangle$/;"	c	class:Chapter10
+PermBox	app/assets/javascripts/permutationdrag.js	/^  }$/;"	c
+PermBox.middle	app/assets/javascripts/permutationdrag.js	/^    , middle : function() {$/;"	m
+PermBox.set_i	app/assets/javascripts/permutationdrag.js	/^    , set_i : function(i) {$/;"	m
+PermBox.set_l_off	app/assets/javascripts/permutationdrag.js	/^    , set_l_off : function(l_off) {$/;"	m
+PermBox.slide_to	app/assets/javascripts/permutationdrag.js	/^    , slide_to : function(l_off) {$/;"	m
+PermBox.width	app/assets/javascripts/permutationdrag.js	/^  PermBox.prototype = {$/;"	m
+PermutationDisplay	lib/QuestionGenerator/tohtml.rb	/^  class PermutationDisplay < PermutationDrag$/;"	c	class:ToHTML
+PermutationDrag	app/assets/javascripts/permutationdrag.js	/^  var PermutationDrag = function(element) {$/;"	c
+PermutationDrag	lib/QuestionGenerator/tohtml.rb	/^  class PermutationDrag < MultiHTMLObj$/;"	c	class:ToHTML
+PermutationDrag.mouse_is_down	app/assets/javascripts/permutationdrag.js	/^    , mouse_is_down : function() {$/;"	m
+PermutationDrag.mousedown	app/assets/javascripts/permutationdrag.js	/^    , mousedown : function(e) {$/;"	m
+PermutationDrag.mousemove	app/assets/javascripts/permutationdrag.js	/^    , mousemove : function (e) {$/;"	m
+PermutationDrag.mousemove.PermBox	app/assets/javascripts/permutationdrag.js	/^  var PermBox = function(element, i, l_off) {$/;"	c
+PermutationDrag.mouseup	app/assets/javascripts/permutationdrag.js	/^    , mouseup : function(e) {$/;"	m
+PermutationDrag.read_elts	app/assets/javascripts/permutationdrag.js	/^  PermutationDrag.prototype = {$/;"	m
+PermutationDrag.slide_left	app/assets/javascripts/permutationdrag.js	/^    , slide_left : function(box) {$/;"	m
+PermutationDrag.slide_right	app/assets/javascripts/permutationdrag.js	/^    , slide_right : function(box) {$/;"	m
+PermutationDrag.swap_elts	app/assets/javascripts/permutationdrag.js	/^    , swap_elts : function(i, j) {$/;"	m
+Physics	lib/QuestionGenerator/grade6/physics.rb	/^module Physics$/;"	m
+PickPlayer	lib/QuestionGenerator/cricketdata/pick_pl.rb	/^class PickPlayer$/;"	c
+PlaceValueTable	lib/QuestionGenerator/grade6/c1.rb	/^  class PlaceValueTable < QuestionBase$/;"	c	class:Chapter1
+PlaceValueTable	lib/QuestionGenerator/grade6/c8.rb	/^  class PlaceValueTable < QuestionBase$/;"	c	class:Chapter8
+Point	lib/QuestionGenerator/geometry.rb	/^  class Point < Shape$/;"	c	class:Geometry
+Point.draw	app/assets/javascripts/drawtools.js	/^    this.draw = function() {$/;"	m
+Point.encode	app/assets/javascripts/drawtools.js	/^    this.encode = function() {$/;"	m
+Point.highlight	app/assets/javascripts/drawtools.js	/^    this.highlight = function(color) {$/;"	m
+Point.toString	app/assets/javascripts/drawtools.js	/^    this.toString = function() { return name; }$/;"	m
+Point.unhilight	app/assets/javascripts/drawtools.js	/^    this.unhilight = function() {$/;"	m
+PointOnLine	lib/QuestionGenerator/grade6/c4.rb	/^  class PointOnLine$/;"	c	class:Chapter4
+PreG6	lib/QuestionGenerator/grade6/preg6.rb	/^module PreG6$/;"	m
+PricePerUnit	lib/QuestionGenerator/grade6/c12.rb	/^  class PricePerUnit < QuestionWithExplanation # {{{$/;"	c	class:Chapter12.GetEquivalentFraction.RatioToFractionOfTotal.ReduceRatio.RatiosAndTotals.RatiosAndUnits.RatiosAndUnitConversions.EquivalentRatiosHelper.EquivalentRatios.CompleteTheProportion.PriceProportions
+PriceProportions	lib/QuestionGenerator/grade6/c12.rb	/^  class PriceProportions < QuestionWithExplanation # {{{$/;"	c	class:Chapter12.GetEquivalentFraction.RatioToFractionOfTotal.ReduceRatio.RatiosAndTotals.RatiosAndUnits.RatiosAndUnitConversions.EquivalentRatiosHelper.EquivalentRatios.CompleteTheProportion
+PrimeFactors	lib/QuestionGenerator/grade6/c3.rb	/^  class PrimeFactors < QuestionWithExplanation$/;"	c	class:Chapter3
+Problem	app/models/problem.rb	/^class Problem < ActiveRecord::Base$/;"	c
+ProblemGenerator	app/models/problem_generator.rb	/^class ProblemGenerator < ActiveRecord::Base$/;"	c
+ProblemHelper	app/helpers/problem_helper.rb	/^module ProblemHelper$/;"	m
+ProblemSet	app/models/problem_set.rb	/^class ProblemSet < ActiveRecord::Base$/;"	c
+ProblemSetInstance	app/models/problem_set_instance.rb	/^class ProblemSetInstance < ActiveRecord::Base$/;"	c
+ProblemSetProblem	app/models/problem_set_problem.rb	/^class ProblemSetProblem < ActiveRecord::Base$/;"	c
+ProblemSetStat	app/models/problem_set_stat.rb	/^class ProblemSetStat < ActiveRecord::Base$/;"	c
+ProblemSetsController	app/controllers/problem_sets_controller.rb	/^class ProblemSetsController < ApplicationController$/;"	c
+ProblemStat	app/models/problem_stat.rb	/^class ProblemStat < ActiveRecord::Base$/;"	c
+ProblemType	app/models/problem_type.rb	/^class ProblemType < ActiveRecord::Base$/;"	c
+ProblemsController	app/controllers/problems_controller.rb	/^class ProblemsController < ApplicationController$/;"	c
+Proportion	lib/QuestionGenerator/grade6/c12.rb	/^	class Proportion < QuestionBase$/;"	c	class:Chapter12.GetEquivalentFraction.RatioToFractionOfTotal.ReduceRatio.RatiosAndTotals.RatiosAndUnits.RatiosAndUnitConversions.EquivalentRatiosHelper.EquivalentRatios.CompleteTheProportion.PriceProportions.PricePerUnit.UnitaryCompareSize
+QuestionBase	lib/QuestionGenerator/questionbase.rb	/^class QuestionBase$/;"	c
+QuestionWithExplanation	lib/QuestionGenerator/questionbase.rb	/^class QuestionWithExplanation < QuestionBase$/;"	c
+Quiz	app/models/quiz.rb	/^class Quiz < ActiveRecord::Base$/;"	c
+QuizHelper	app/helpers/quiz_helper.rb	/^module QuizHelper$/;"	m
+QuizInstance	app/models/quiz_instance.rb	/^class QuizInstance < ActiveRecord::Base$/;"	c
+QuizInstanceController	app/controllers/quiz_instances_controller.rb	/^class QuizInstanceController < ApplicationController$/;"	c
+QuizProblem	app/models/quiz_problem.rb	/^class QuizProblem < ActiveRecord::Base$/;"	c
+QuizStat	app/models/quiz_stat.rb	/^class QuizStat < ActiveRecord::Base$/;"	c
+QuizzesController	app/controllers/quizzes_controller.rb	/^class QuizzesController < ApplicationController$/;"	c
+RadioButton	lib/QuestionGenerator/tohtml.rb	/^  class RadioButton < InputField$/;"	c	class:ToHTML
+RatioCompCostWord	lib/QuestionGenerator/grade6/c12.rb	/^  class RatioCompCostWord < QuestionBase$/;"	c	class:Chapter12.GetEquivalentFraction.RatioToFractionOfTotal.ReduceRatio.RatiosAndTotals.RatiosAndUnits.RatiosAndUnitConversions.EquivalentRatiosHelper.EquivalentRatios.CompleteTheProportion.PriceProportions.PricePerUnit.UnitaryCompareSize
+RatioGivenOther	lib/QuestionGenerator/trig.rb	/^  class RatioGivenOther$/;"	c	class:Trig
+RatioStudent	lib/QuestionGenerator/grade6/c12.rb	/^	class RatioStudent < QuestionBase$/;"	c	class:Chapter12.GetEquivalentFraction.RatioToFractionOfTotal.ReduceRatio.RatiosAndTotals.RatiosAndUnits.RatiosAndUnitConversions.EquivalentRatiosHelper.EquivalentRatios.CompleteTheProportion.PriceProportions.PricePerUnit.UnitaryCompareSize
+RatioToFractionOfTotal	lib/QuestionGenerator/grade6/c12.rb	/^  class RatioToFractionOfTotal < QuestionWithExplanation # {{{$/;"	c	class:Chapter12.GetEquivalentFraction
+RatiosAndTotals	lib/QuestionGenerator/grade6/c12.rb	/^  class RatiosAndTotals < QuestionWithExplanation # {{{$/;"	c	class:Chapter12.GetEquivalentFraction.RatioToFractionOfTotal.ReduceRatio
+RatiosAndUnitConversions	lib/QuestionGenerator/grade6/c12.rb	/^  class RatiosAndUnitConversions < QuestionBase$/;"	c	class:Chapter12.GetEquivalentFraction.RatioToFractionOfTotal.ReduceRatio.RatiosAndTotals.RatiosAndUnits
+RatiosAndUnits	lib/QuestionGenerator/grade6/c12.rb	/^  class RatiosAndUnits < QuestionWithExplanation # {{{$/;"	c	class:Chapter12.GetEquivalentFraction.RatioToFractionOfTotal.ReduceRatio.RatiosAndTotals
+RatiosMissingSide	lib/QuestionGenerator/trig.rb	/^  class RatiosMissingSide$/;"	c	class:Trig
+RatiosUsingId	lib/QuestionGenerator/trig.rb	/^  class RatiosUsingId$/;"	c	class:Trig
+Ray	lib/QuestionGenerator/geometry.rb	/^  class Ray < Line$/;"	c	class:Geometry
+ReadingIndian	lib/QuestionGenerator/grade6/c1.rb	/^  class ReadingIndian < QuestionBase$/;"	c	class:Chapter1
+ReadingInternational	lib/QuestionGenerator/grade6/c1.rb	/^  class ReadingInternational < QuestionBase$/;"	c	class:Chapter1
+Rectangle	lib/QuestionGenerator/grade6/grade6ops.rb	/^  class Rectangle$/;"	c	class:Grade6ops.factors
+ReduceFractions	lib/QuestionGenerator/grade6/c7.rb	/^  class ReduceFractions < QuestionWithExplanation$/;"	c	class:Chapter7
+ReduceFractionsEA	lib/QuestionGenerator/grade6/c7.rb	/^  class ReduceFractionsEA < QuestionBase$/;"	c	class:Chapter7
+ReduceRatio	lib/QuestionGenerator/grade6/c12.rb	/^  class ReduceRatio < QuestionWithExplanation # {{{$/;"	c	class:Chapter12.GetEquivalentFraction.RatioToFractionOfTotal
+RegShapes	lib/QuestionGenerator/grade6/grade6ops.rb	/^  class RegShapes$/;"	c	class:Grade6ops.factors
+RomanLabel	lib/QuestionGenerator/tohtml.rb	/^  class RomanLabel < HTMLObj$/;"	c	class:ToHTML
+RomanTable	lib/QuestionGenerator/tohtml.rb	/^  class RomanTable < TableField$/;"	c	class:ToHTML
+RoundingNumbers	lib/QuestionGenerator/grade6/c1.rb	/^  class RoundingNumbers < QuestionWithExplanation$/;"	c	class:Chapter1
+STATEIDS	app/assets/javascripts/drawtools.js	/^  var STATEIDS = ["#protractor", "#compass", "#ruler", "#line", "#selectState", "#eraseState", "#blank"];$/;"	v
+STATES	app/assets/javascripts/drawtools.js	/^  var STATES = [protState, compState, rulerState, lineState, selectState, eraseState, blankState];$/;"	v
+SessionsController	app/controllers/sessions_controller.rb	/^class SessionsController < ApplicationController$/;"	c
+SessionsHelper	app/helpers/sessions_helper.rb	/^module SessionsHelper$/;"	m
+Shape	lib/QuestionGenerator/geometry.rb	/^  class Shape$/;"	c	class:Geometry
+Shape.highlight	app/assets/javascripts/drawtools.js	/^    this.highlight = function(color) {$/;"	m
+Shape.unhilight	app/assets/javascripts/drawtools.js	/^    this.unhilight = function() {$/;"	m
+ShiftingDigits	lib/QuestionGenerator/grade6/c1.rb	/^  class ShiftingDigits < QuestionWithExplanation$/;"	c	class:Chapter1
+ShiftingDigitsGr	lib/QuestionGenerator/grade6/c1.rb	/^  class ShiftingDigitsGr < QuestionBase$/;"	c	class:Chapter1
+ShiftingDigitsLs	lib/QuestionGenerator/grade6/c1.rb	/^  class ShiftingDigitsLs < QuestionBase$/;"	c	class:Chapter1
+SimpleVariableAddSub	lib/QuestionGenerator/grade6/c11.rb	/^  class SimpleVariableAddSub < QuestionBase$/;"	c	class:Chapter11
+SimpleVariableMult	lib/QuestionGenerator/grade6/c11.rb	/^  class SimpleVariableMult < QuestionBase$/;"	c	class:Chapter11
+SingleEchoDist	lib/QuestionGenerator/grade6/physics.rb	/^  class SingleEchoDist < QuestionWithExplanation$/;"	c	class:Physics
+SingleEchoTime	lib/QuestionGenerator/grade6/physics.rb	/^  class SingleEchoTime < QuestionWithExplanation$/;"	c	class:Physics
+SingleMatch	lib/QuestionGenerator/cricketdata/cricket.rb	/^class SingleMatch$/;"	c
+SmallGeoDisplay	lib/QuestionGenerator/geometry.rb	/^  class SmallGeoDisplay < GeometryDisplay$/;"	c	class:Geometry
+Stat	app/services/teacher_stat_calc.rb	/^  class Stat$/;"	c	class:TeacherStatCalc
+String	lib/QuestionGenerator/grade6/grade6ops.rb	/^class String$/;"	c	class:Grade6ops.factors
+Student	app/models/student.rb	/^class Student < User$/;"	c
+StudentsController	app/controllers/students_controller.rb	/^class StudentsController < ApplicationController$/;"	c
+StudentsHelper	app/helpers/students_helper.rb	/^module StudentsHelper$/;"	m
+SubDecimals	lib/QuestionGenerator/grade6/c8.rb	/^  class SubDecimals < AddSubDecimals$/;"	c
+SubLabel	lib/QuestionGenerator/questionbase.rb	/^class SubLabel < Subproblem$/;"	c
+SubNumberLine	lib/QuestionGenerator/grade6/c6.rb	/^  class SubNumberLine < QuestionBase$/;"	c	class:Chapter6
+SubTextField	lib/QuestionGenerator/tohtml.rb	/^  class SubTextField < TextField$/;"	c	class:ToHTML
+Subproblem	lib/QuestionGenerator/questionbase.rb	/^class Subproblem < QuestionBase$/;"	c
+SubtractIntegers	lib/QuestionGenerator/grade6/c6.rb	/^  class SubtractIntegers < QuestionBase$/;"	c	class:Chapter6
+Subtraction	lib/QuestionGenerator/grade6/preg6.rb	/^  class Subtraction < QuestionBase$/;"	c	class:PreG6
+SuitableRearrangementProduct	lib/QuestionGenerator/grade6/c2.rb	/^  class SuitableRearrangementProduct < QuestionBase$/;"	c	class:Chapter2
+SuitableRearrangementSum	lib/QuestionGenerator/grade6/c2.rb	/^  class SuitableRearrangementSum < QuestionBase$/;"	c	class:Chapter2
+SumPrimes	lib/QuestionGenerator/grade6/c3.rb	/^  class SumPrimes < QuestionBase$/;"	c	class:Chapter3.PrimeFactors.Div_39.Div_11
+SumRat	lib/QuestionGenerator/grade6/c12.rb	/^	class SumRat$/;"	c	class:Chapter12.GetEquivalentFraction.RatioToFractionOfTotal.ReduceRatio.RatiosAndTotals.RatiosAndUnits.RatiosAndUnitConversions.EquivalentRatiosHelper.EquivalentRatios.CompleteTheProportion.PriceProportions.PricePerUnit.UnitaryCompareSize
+TableField	lib/QuestionGenerator/tohtml.rb	/^  class TableField < MultiHTMLObj$/;"	c	class:ToHTML
+TallyMarksField	lib/QuestionGenerator/tohtml.rb	/^  class TallyMarksField < MultiHTMLObj$/;"	c	class:ToHTML
+TallyMarksLabel	lib/QuestionGenerator/tohtml.rb	/^  class TallyMarksLabel < TallyMarksField$/;"	c	class:ToHTML
+TallyQues	lib/QuestionGenerator/grade6/c9.rb	/^  class TallyQues < QuestionBase$/;"	c	class:Chapter9
+Teacher	app/models/teacher.rb	/^class Teacher < User$/;"	c
+TeacherStatCalc	app/services/teacher_stat_calc.rb	/^class TeacherStatCalc$/;"	c
+TeachersController	app/controllers/teachers_controller.rb	/^class TeachersController < ApplicationController$/;"	c
+TeachersHelper	app/helpers/teachers_helper.rb	/^module TeachersHelper$/;"	m
+TextField	lib/QuestionGenerator/tohtml.rb	/^  class TextField < InputField$/;"	c	class:ToHTML
+TextLabel	lib/QuestionGenerator/tohtml.rb	/^  class TextLabel < HTMLObj$/;"	c	class:ToHTML
+TextTable	lib/QuestionGenerator/tohtml.rb	/^  class TextTable < TableField$/;"	c	class:ToHTML
+ToArabic	lib/QuestionGenerator/grade6/c1.rb	/^  class ToArabic < QuestionWithExplanation$/;"	c	class:Chapter1
+ToHTML	lib/QuestionGenerator/tohtml.rb	/^module ToHTML$/;"	m
+ToImproperFractions	lib/QuestionGenerator/grade6/c7.rb	/^  class ToImproperFractions < QuestionWithExplanation$/;"	c	class:Chapter7
+ToMixedFractions	lib/QuestionGenerator/grade6/c7.rb	/^  class ToMixedFractions < QuestionWithExplanation$/;"	c	class:Chapter7
+ToRoman	lib/QuestionGenerator/grade6/c1.rb	/^  class ToRoman < QuestionWithExplanation$/;"	c	class:Chapter1
+Tomato	lib/QuestionGenerator/modules/items.rb	/^  class Tomato < Item$/;"	c	class:Items
+Triangle	lib/QuestionGenerator/grade6/grade6ops.rb	/^  class Triangle$/;"	c	class:Grade6ops.factors
+Trig	lib/QuestionGenerator/trig.rb	/^module Trig$/;"	m
+Unit	lib/QuestionGenerator/modules/units.rb	/^  class Unit$/;"	c	class:Units
+UnitType	lib/QuestionGenerator/modules/units.rb	/^  class UnitType$/;"	c	class:Units
+UnitaryCompareSize	lib/QuestionGenerator/grade6/c12.rb	/^  class UnitaryCompareSize < QuestionWithExplanation # {{{$/;"	c	class:Chapter12.GetEquivalentFraction.RatioToFractionOfTotal.ReduceRatio.RatiosAndTotals.RatiosAndUnits.RatiosAndUnitConversions.EquivalentRatiosHelper.EquivalentRatios.CompleteTheProportion.PriceProportions.PricePerUnit
+UnitaryMethod	lib/QuestionGenerator/grade6/c12.rb	/^  class UnitaryMethod < QuestionBase$/;"	c	class:Chapter12.GetEquivalentFraction.RatioToFractionOfTotal.ReduceRatio.RatiosAndTotals.RatiosAndUnits.RatiosAndUnitConversions.EquivalentRatiosHelper.EquivalentRatios.CompleteTheProportion.PriceProportions.PricePerUnit.UnitaryCompareSize
+UnitaryWord	lib/QuestionGenerator/grade6/c12.rb	/^  class UnitaryWord$/;"	c	class:Chapter12.GetEquivalentFraction.RatioToFractionOfTotal.ReduceRatio.RatiosAndTotals.RatiosAndUnits.RatiosAndUnitConversions.EquivalentRatiosHelper.EquivalentRatios.CompleteTheProportion.PriceProportions.PricePerUnit.UnitaryCompareSize
+Units	lib/QuestionGenerator/modules/units.rb	/^module Units$/;"	m
+UnitsDecDecrease	lib/QuestionGenerator/grade6/c8.rb	/^  class UnitsDecDecrease < QuestionWithExplanation$/;"	c
+UnitsDecIncrease	lib/QuestionGenerator/grade6/c8.rb	/^  class UnitsDecIncrease < QuestionWithExplanation$/;"	c
+User	app/models/user.rb	/^class User < ActiveRecord::Base$/;"	c
+UserMailer	app/mailers/user_mailer.rb	/^class UserMailer < ActionMailer::Base$/;"	c
+UsersController	app/controllers/users_controller.rb	/^class UsersController < ApplicationController$/;"	c
+UsersHelper	app/helpers/users_helper.rb	/^module UsersHelper$/;"	m
+WordProbDiff	lib/QuestionGenerator/grade6/c1.rb	/^  class WordProbDiff < QuestionBase$/;"	c	class:Chapter1
+WordProbSum	lib/QuestionGenerator/grade6/c1.rb	/^  class WordProbSum < QuestionBase$/;"	c	class:Chapter1
+WritePredecessors	lib/QuestionGenerator/grade6/c2.rb	/^  class WritePredecessors < QuestionBase$/;"	c	class:Chapter2
+WriteSuccessors	lib/QuestionGenerator/grade6/c2.rb	/^  class WriteSuccessors < QuestionBase$/;"	c	class:Chapter2
+WritingIndian	lib/QuestionGenerator/grade6/c1.rb	/^  class WritingIndian < QuestionBase$/;"	c	class:Chapter1
+WritingInternational	lib/QuestionGenerator/grade6/c1.rb	/^  class WritingInternational < QuestionBase$/;"	c	class:Chapter1
+a_to_s	app/assets/javascripts/drawtools.js	/^  function a_to_s(arr) {$/;"	f
+about	app/controllers/pages_controller.rb	/^  def about$/;"	f	class:PagesController
+access_denied	app/controllers/pages_controller.rb	/^  def access_denied$/;"	f	class:PagesController
+add_default_problem_sets	app/models/user.rb	/^  def add_default_problem_sets$/;"	f	class:User
+add_multitext_field_link	app/helpers/application_helper.rb	/^  def add_multitext_field_link(qb_name, link_name = "+")$/;"	f	class:ApplicationHelper
+add_prefix	lib/QuestionGenerator/tohtml.rb	/^  def ToHTML.add_prefix(s)$/;"	F	class:ToHTML
+add_problem_type	app/models/quiz.rb	/^  def add_problem_type(problem_type, count)$/;"	f	class:Quiz
+add_unit	lib/QuestionGenerator/modules/units.rb	/^    def add_unit(name, modifier)$/;"	f	class:Units.UnitType
+adderror	app/helpers/application_helper.rb	/^  def adderror(string)$/;"	f	class:ApplicationHelper
+addingForm	app/assets/javascripts/adding.js	/^function addingForm(name, n1, n2, sign){$/;"	f
+addintpart	lib/QuestionGenerator/tohtml.rb	/^    def addintpart(intpart)$/;"	f	class:ToHTML.Fraction
+all_chapters	app/helpers/application_helper.rb	/^  def all_chapters$/;"	f	class:ApplicationHelper
+all_probs	app/helpers/application_helper.rb	/^  def all_probs$/;"	f	class:ApplicationHelper
+allow_access	app/models/quiz.rb	/^  def allow_access(user)$/;"	f	class:Quiz
+area	lib/QuestionGenerator/grade6/grade6ops.rb	/^    def area()$/;"	f	class:Grade6ops.factors.Rectangle
+area	lib/QuestionGenerator/grade6/grade6ops.rb	/^    def area()$/;"	f	class:Grade6ops.factors.RegShapes
+assign	app/controllers/quizzes_controller.rb	/^  def assign$/;"	f	class:QuizzesController
+assign	app/models/problem_set.rb	/^  def assign(user)$/;"	f	class:ProblemSet
+assign	app/models/quiz.rb	/^  def assign(start_time, end_time)$/;"	f	class:Quiz
+assign!	app/models/classroom.rb	/^  def assign!(tmp)$/;"	f	class:Classroom
+assign_problem_stat	app/models/concerns/follows_problem_stat.rb	/^  def assign_problem_stat$/;"	f	class:FollowsProblemStat
+authenticate	app/controllers/application_controller.rb	/^  def authenticate$/;"	f	class:ApplicationController
+authenticate	app/models/user.rb	/^  def self.authenticate(email, submitted_password)$/;"	F	class:User
+authenticate_with_salt	app/models/user.rb	/^  def self.authenticate_with_salt(id, cookie_salt)$/;"	F	class:User
+basicinfo	lib/QuestionGenerator/cricketdata/cricket.rb	/^  def basicinfo()$/;"	f	class:SingleMatch
+bat_file	lib/QuestionGenerator/cricketdata/cricket.rb	/^  def bat_file(innings, order, wh, matplay)$/;"	f	class:SingleMatch
+bat_matches_template	lib/QuestionGenerator/cricketdata/cricket.rb	/^  def bat_matches_template$/;"	f	class:SingleMatch
+bat_template	lib/QuestionGenerator/cricketdata/cricket.rb	/^  def bat_template(innings, order, nm)$/;"	f	class:SingleMatch
+batbowl_out	lib/QuestionGenerator/cricketdata/cricket.rb	/^  def batbowl_out$/;"	f	class:SingleMatch
+bhutan	app/assets/javascripts/bhutan.js	/^function bhutan(){$/;"	f
+bhutan.addRowLo	app/assets/javascripts/bhutan.js	/^  function addRowLo(){$/;"	f
+bhutan.addRowTs	app/assets/javascripts/bhutan.js	/^  function addRowTs(){$/;"	f
+bhutan.lo	app/assets/javascripts/bhutan.js	/^  function lo(type, desc, dgoal){$/;"	c
+bhutan.ts	app/assets/javascripts/bhutan.js	/^  function ts(desc, mi, lo){$/;"	c
+big_round	lib/QuestionGenerator/grade6/c1.rb	/^    def big_round$/;"	f	class:Chapter1.EstimateArithmetic
+bigger	lib/QuestionGenerator/grade6/c1.rb	/^    def bigger$/;"	f	class:Chapter1.EstimateArithmetic
+bind_mt_buttons	app/assets/javascripts/problem.js	/^function bind_mt_buttons() {$/;"	f
+bind_mt_fields	app/assets/javascripts/problem.js	/^function bind_mt_fields() {$/;"	f
+blankState.activate	app/assets/javascripts/drawtools.js	/^  var blankState = {$/;"	p
+blankState.deactivate	app/assets/javascripts/drawtools.js	/^    activate : nullfunc,$/;"	p
+blankState.mousedown	app/assets/javascripts/drawtools.js	/^    deactivate : nullfunc,$/;"	p
+blankState.mousemove	app/assets/javascripts/drawtools.js	/^    mouseup : nullfunc,$/;"	p
+blankState.mouseup	app/assets/javascripts/drawtools.js	/^    mousedown : nullfunc,$/;"	p
+bob_p	lib/QuestionGenerator/grade6/c12.rb	/^    def bob_p() @item.price(@bob_n) end$/;"	f	class:Chapter12.GetEquivalentFraction.RatioToFractionOfTotal.ReduceRatio.RatiosAndTotals.RatiosAndUnits.RatiosAndUnitConversions.EquivalentRatiosHelper.EquivalentRatios.CompleteTheProportion.PriceProportions.type
+bowl_file	lib/QuestionGenerator/cricketdata/cricket.rb	/^  def bowl_file(innings, order, wh, matplay)$/;"	f	class:SingleMatch
+bowl_matches_template	lib/QuestionGenerator/cricketdata/cricket.rb	/^  def bowl_matches_template$/;"	f	class:SingleMatch
+bowl_template	lib/QuestionGenerator/cricketdata/cricket.rb	/^  def bowl_template(innings, order, nm)$/;"	f	class:SingleMatch
+calculate_points	app/models/problem_set_stat.rb	/^  def calculate_points(answer)$/;"	f	class:ProblemSetStat
+calculate_points	app/models/problem_stat.rb	/^  def calculate_points(answer)$/;"	f	class:ProblemStat
+calculate_points	app/models/quiz_stat.rb	/^  def calculate_points(answer)$/;"	f	class:QuizStat
+center	lib/QuestionGenerator/geometry.rb	/^    def self.center$/;"	F	class:Geometry.GeometryBase
+chCommPF	lib/QuestionGenerator/grade6/grade6ops.rb	/^  def Grade6ops.chCommPF(max=1000, num1=nil)$/;"	F	class:Grade6ops.factors.Fixnum
+change_password	app/controllers/users_controller.rb	/^  def change_password$/;"	f	class:UsersController
+change_problem	app/models/concerns/current_problem.rb	/^  def change_problem$/;"	f	class:CurrentProblem
+char_length	lib/QuestionGenerator/tohtml.rb	/^    def char_length$/;"	f	class:ToHTML.Dropdown
+char_length	lib/QuestionGenerator/tohtml.rb	/^    def char_length(arg)$/;"	f	class:ToHTML.TextField
+check_drawing	app/controllers/pages_controller.rb	/^  def check_drawing$/;"	f	class:PagesController
+classrooms	app/helpers/teachers_helper.rb	/^  def classrooms$/;"	f	class:TeachersHelper
+click_concept	app/controllers/details_controller.rb	/^  def click_concept$/;"	f	class:DetailsController
+closeTo	lib/QuestionGenerator/grade6/grade6ops.rb	/^  def closeTo(other)$/;"	f	class:Grade6ops.factors.Float
+coeff	lib/QuestionGenerator/grade6/c12.rb	/^    def coeff() @t \/ (num + den) end$/;"	f	class:Chapter12.GetEquivalentFraction.RatioToFractionOfTotal.ReduceRatio.RatiosAndTotals.type
+cols.cerebral	app/assets/javascripts/bhutan.js	/^  cols={"social":"red", "physical":"green", "emotional":"yellow", "cerebral":"blue", "spiritual":"orange"}$/;"	p
+cols.emotional	app/assets/javascripts/bhutan.js	/^  cols={"social":"red", "physical":"green", "emotional":"yellow", "cerebral":"blue", "spiritual":"orange"}$/;"	p
+cols.physical	app/assets/javascripts/bhutan.js	/^  cols={"social":"red", "physical":"green", "emotional":"yellow", "cerebral":"blue", "spiritual":"orange"}$/;"	p
+cols.social	app/assets/javascripts/bhutan.js	/^  cols={"social":"red", "physical":"green", "emotional":"yellow", "cerebral":"blue", "spiritual":"orange"}$/;"	p
+cols.spiritual	app/assets/javascripts/bhutan.js	/^  cols={"social":"red", "physical":"green", "emotional":"yellow", "cerebral":"blue", "spiritual":"orange"}$/;"	p
+commaBox	app/assets/javascripts/commabox.js	/^function commaBox(name){$/;"	f
+compState.minicircle_i	app/assets/javascripts/drawtools.js	/^    usingsetradius : false,$/;"	p
+compState.mouse_is_down	app/assets/javascripts/drawtools.js	/^    tool : "compass",$/;"	p
+compState.tool	app/assets/javascripts/drawtools.js	/^  var compState = {$/;"	p
+compState.usingsetradius	app/assets/javascripts/drawtools.js	/^    mouse_is_down : false,$/;"	p
+concept_progress	app/services/teacher_stat_calc.rb	/^  def concept_progress$/;"	f	class:TeacherStatCalc
+confiramtion_code	app/models/user.rb	/^  def confiramtion_code()$/;"	f	class:User
+confirm	app/controllers/users_controller.rb	/^  def confirm$/;"	f	class:UsersController
+confirm	app/models/user.rb	/^  def confirm(code)$/;"	f	class:User
+confirmation_email	app/mailers/user_mailer.rb	/^  def confirmation_email(user)$/;"	f	class:UserMailer
+confirmed?	app/models/user.rb	/^  def confirmed?$/;"	f	class:User
+construct_from_TYPES	lib/QuestionGenerator/modules/units.rb	/^    def self.construct_from_TYPES$/;"	F	class:Units.UnitType
+contract	app/controllers/problems_controller.rb	/^  def contract$/;"	f	class:ProblemsController
+convert	lib/QuestionGenerator/modules/units.rb	/^    def convert(n, other)$/;"	f	class:Units.Unit
+correct?	app/helpers/answers_helper.rb	/^  def correct?(htmlobj)$/;"	f	class:AnswersHelper
+correct?	app/models/problem.rb	/^  def correct?(params)$/;"	f	class:Problem
+correct?	lib/QuestionGenerator/geometry.rb	/^    def correct?(solution, response)$/;"	f	class:Geometry.GeometryDisplay
+correct?	lib/QuestionGenerator/geometry.rb	/^    def correct?(solution, response)$/;"	f	class:Geometry.GeometryField
+correct?	lib/QuestionGenerator/grade6/c12.rb	/^    def correct?(response)$/;"	f	class:Chapter12.GetEquivalentFraction.DefRatio
+correct?	lib/QuestionGenerator/grade6/c12.rb	/^    def correct?(response)$/;"	f	class:Chapter12.GetEquivalentFraction.RatioToFractionOfTotal.ReduceRatio.RatiosAndTotals.RatiosAndUnits.RatiosAndUnitConversions.EquivalentRatiosMethods
+correct?	lib/QuestionGenerator/grade6/c12.rb	/^    def correct?(response)$/;"	f	class:Chapter12.GetEquivalentFraction.type
+correct?	lib/QuestionGenerator/grade6/c2.rb	/^    def correct?(response)$/;"	f	class:Chapter2.SuitableRearrangementProduct
+correct?	lib/QuestionGenerator/grade6/c2.rb	/^    def correct?(response)$/;"	f	class:Chapter2.SuitableRearrangementSum
+correct?	lib/QuestionGenerator/grade6/c3.rb	/^    def correct?(params)$/;"	f	class:Chapter3.PrimeFactors.Div_39.Div_11.SumPrimes.initialize
+correct?	lib/QuestionGenerator/grade6/c4.rb	/^    def correct?(params)$/;"	f	class:Chapter4.AdjacentSides
+correct?	lib/QuestionGenerator/grade6/c4.rb	/^    def correct?(params)$/;"	f	class:Chapter4.AdjacentVertices
+correct?	lib/QuestionGenerator/grade6/c4.rb	/^    def correct?(params)$/;"	f	class:Chapter4.DefVerticesMethods
+correct?	lib/QuestionGenerator/grade6/c4.rb	/^    def correct?(params)$/;"	f	class:Chapter4.NameTriangles
+correct?	lib/QuestionGenerator/grade6/c4.rb	/^    def correct?(response)$/;"	f	class:Chapter4.DefDiagonal
+correct?	lib/QuestionGenerator/grade6/c4.rb	/^    def correct?(response)$/;"	f	class:Chapter4.DefPolygon
+correct?	lib/QuestionGenerator/grade6/crqu.rb	/^    def correct?(params)$/;"	f	class:CricketQuestions.CrBatAverage
+correct?	lib/QuestionGenerator/grade6/crqu.rb	/^    def correct?(params)$/;"	f	class:CricketQuestions.CrBowlAverage
+correct?	lib/QuestionGenerator/grade6/crqu.rb	/^    def correct?(params)$/;"	f	class:CricketQuestions.CrStrikeRate
+correct?	lib/QuestionGenerator/grade6/crqu.rb	/^    def correct?(params)$/;"	f	class:CricketQuestions.CrStrikeRateBowling
+correct?	lib/QuestionGenerator/grade6/crqu.rb	/^    def correct?(params)$/;"	f	class:CricketQuestions.CricketSubproblem
+correct?	lib/QuestionGenerator/grade6/geo.rb	/^    def correct?(response)$/;"	f	class:Geo.BisectLine
+correct?	lib/QuestionGenerator/grade6/physics.rb	/^    def correct?(params)$/;"	f	class:Physics.SingleEchoTime
+correct?	lib/QuestionGenerator/grade7/c1.rb	/^    def correct?(params)$/;"	f	class:Chapter1.FindIntegers
+correct?	lib/QuestionGenerator/questionbase.rb	/^  def correct?(response)$/;"	f	class:QuestionBase
+correct?	lib/QuestionGenerator/tohtml.rb	/^    def correct?(solution, response)$/;"	f	class:ToHTML.AddingField
+correct?	lib/QuestionGenerator/tohtml.rb	/^    def correct?(solution, response)$/;"	f	class:ToHTML.BarGraphField
+correct?	lib/QuestionGenerator/tohtml.rb	/^    def correct?(solution, response)$/;"	f	class:ToHTML.BarGraphLabel
+correct?	lib/QuestionGenerator/tohtml.rb	/^    def correct?(solution, response)$/;"	f	class:ToHTML.Checkbox
+correct?	lib/QuestionGenerator/tohtml.rb	/^    def correct?(solution, response)$/;"	f	class:ToHTML.Commabox
+correct?	lib/QuestionGenerator/tohtml.rb	/^    def correct?(solution, response)$/;"	f	class:ToHTML.Fraction
+correct?	lib/QuestionGenerator/tohtml.rb	/^    def correct?(solution, response)$/;"	f	class:ToHTML.HTMLObj
+correct?	lib/QuestionGenerator/tohtml.rb	/^    def correct?(solution, response)$/;"	f	class:ToHTML.InlineBlock
+correct?	lib/QuestionGenerator/tohtml.rb	/^    def correct?(solution, response)$/;"	f	class:ToHTML.InpNumberLine
+correct?	lib/QuestionGenerator/tohtml.rb	/^    def correct?(solution, response)$/;"	f	class:ToHTML.InputField
+correct?	lib/QuestionGenerator/tohtml.rb	/^    def correct?(solution, response)$/;"	f	class:ToHTML.MovNumberLine
+correct?	lib/QuestionGenerator/tohtml.rb	/^    def correct?(solution, response)$/;"	f	class:ToHTML.MultiHTMLObj
+correct?	lib/QuestionGenerator/tohtml.rb	/^    def correct?(solution, response)$/;"	f	class:ToHTML.MultiTextField
+correct?	lib/QuestionGenerator/tohtml.rb	/^    def correct?(solution, response)$/;"	f	class:ToHTML.PermutationDisplay
+correct?	lib/QuestionGenerator/tohtml.rb	/^    def correct?(solution, response)$/;"	f	class:ToHTML.PermutationDrag
+correct?	lib/QuestionGenerator/tohtml.rb	/^    def correct?(solution, response)$/;"	f	class:ToHTML.RomanLabel
+correct?	lib/QuestionGenerator/tohtml.rb	/^    def correct?(solution, response)$/;"	f	class:ToHTML.TableField
+correct?	lib/QuestionGenerator/tohtml.rb	/^    def correct?(solution, response)$/;"	f	class:ToHTML.TallyMarksField
+correct?	lib/QuestionGenerator/tohtml.rb	/^    def correct?(solution, response)$/;"	f	class:ToHTML.TallyMarksLabel
+correct?	lib/QuestionGenerator/tohtml.rb	/^    def correct?(solution, response)$/;"	f	class:ToHTML.TextLabel
+correct_class	app/helpers/answers_helper.rb	/^  def correct_class(answer)$/;"	f	class:AnswersHelper
+create	app/controllers/answers_controller.rb	/^  def create$/;"	f	class:AnswersController
+create	app/controllers/classrooms_controller.rb	/^  def create$/;"	f	class:ClassroomsController
+create	app/controllers/custom_problems_controller.rb	/^  def create$/;"	f	class:CustomProblemsController
+create	app/controllers/problems_controller.rb	/^  def create$/;"	f	class:ProblemsController
+create	app/controllers/quizzes_controller.rb	/^  def create$/;"	f	class:QuizzesController
+create	app/controllers/sessions_controller.rb	/^  def create$/;"	f	class:SessionsController
+create	app/controllers/users_controller.rb	/^  def create$/;"	f	class:UsersController
+ct	app/assets/javascripts/numberline.js	/^             var ct=0;$/;"	v
+current_user	app/helpers/sessions_helper.rb	/^  def current_user$/;"	f	class:SessionsHelper
+current_user=	app/helpers/sessions_helper.rb	/^  def current_user=(user)$/;"	f	class:SessionsHelper
+custom?	app/models/problem.rb	/^  def custom?$/;"	f	class:Problem
+custom?	app/models/problem_generator.rb	/^  def custom?$/;"	f	class:ProblemGenerator
+datagr	app/controllers/pages_controller.rb	/^  def datagr$/;"	f	class:PagesController
+decSlideTimer	app/assets/javascripts/pages.js	/^function decSlideTimer() {$/;"	f
+dec_prob	app/controllers/application_controller.rb	/^  def dec_prob(p)$/;"	f	class:ApplicationController
+decode	lib/QuestionGenerator/geometry.rb	/^    def self.decode(s)$/;"	F	class:Geometry.Shape
+decode_a	lib/QuestionGenerator/geometry.rb	/^    def self.decode_a(shape_s)$/;"	F	class:Geometry.Shape
+default_problems	app/models/quiz.rb	/^  def default_problems$/;"	f	class:Quiz
+default_values	app/models/user.rb	/^  def default_values$/;"	f	class:User
+del_multitext_field_link	app/helpers/application_helper.rb	/^  def del_multitext_field_link(link_name = "-")$/;"	f	class:ApplicationHelper
+den	lib/QuestionGenerator/grade6/c12.rb	/^    def den() @r.denominator end$/;"	f	class:Chapter12.GetEquivalentFraction.RatioToFractionOfTotal.ReduceRatio.RatiosAndTotals.type
+deny_access	app/helpers/sessions_helper.rb	/^  def deny_access$/;"	f	class:SessionsHelper
+destroy	app/controllers/answers_controller.rb	/^  def destroy$/;"	f	class:AnswersController
+destroy	app/controllers/custom_problems_controller.rb	/^  def destroy$/;"	f	class:CustomProblemsController
+destroy	app/controllers/quizzes_controller.rb	/^  def destroy$/;"	f	class:QuizzesController
+destroy	app/controllers/sessions_controller.rb	/^  def destroy$/;"	f	class:SessionsController
+details	app/controllers/details_controller.rb	/^  def details$/;"	f	class:DetailsController
+dist	app/assets/javascripts/drawtools.js	/^      var dist = distance(line.x1, line.y1,line.x2, line.y2);$/;"	v
+distance	lib/QuestionGenerator/geometry.rb	/^    def distance(a1, a2=nil)$/;"	f	class:Geometry.Point
+distance	lib/QuestionGenerator/geometry.rb	/^  def distance(x1, y1, x2, y2)$/;"	f	class:Geometry
+divgen	lib/QuestionGenerator/grade6/grade6ops.rb	/^  def Grade6ops.divgen(div)$/;"	F	class:Grade6ops
+divisors	app/assets/javascripts/drawtools.js	/^      var divisors = [2,9,2];$/;"	v
+do	app/controllers/problem_sets_controller.rb	/^  def do$/;"	f	class:ProblemSetsController
+do	app/controllers/quiz_instances_controller.rb	/^  def do$/;"	f	class:QuizInstanceController
+draw	app/controllers/pages_controller.rb	/^  def draw$/;"	f	class:PagesController
+drawLine	app/assets/javascripts/datagr.js	/^  function drawLine(x1,y1, x2, y2) {$/;"	f
+drawLine.Line	app/assets/javascripts/drawtools.js	/^  function Line(x1, y1, x2, y2) {$/;"	c
+drawLine.Shape	app/assets/javascripts/drawtools.js	/^  function Shape(hidden) {$/;"	c
+drawLine.addShape	app/assets/javascripts/drawtools.js	/^  function addShape(shape) {$/;"	f
+drawLine.clear	app/assets/javascripts/drawtools.js	/^  function clear() {$/;"	f
+drawLine.decodeShape	app/assets/javascripts/drawtools.js	/^  function decodeShape(s) {$/;"	f
+drawLine.delShape	app/assets/javascripts/drawtools.js	/^  function delShape(shape_i) {$/;"	f
+drawLine.distance	app/assets/javascripts/drawtools.js	/^  function distance(x1, y1, x2, y2) {$/;"	f
+drawLine.findShape	app/assets/javascripts/drawtools.js	/^  function findShape(shape) {$/;"	f
+drawLine.insideCircle	app/assets/javascripts/drawtools.js	/^  function insideCircle(x, y, r) {$/;"	f
+drawLine.toRevSlopeInt	app/assets/javascripts/drawtools.js	/^    this.toRevSlopeInt = function() {$/;"	m
+drawLine.updateShapePeriphery	app/assets/javascripts/drawtools.js	/^  function updateShapePeriphery() {$/;"	f
+drawMotionGraph	app/assets/javascripts/googlevis.js	/^function drawMotionGraph(names, nmtype, values) {$/;"	f
+drawNumLine	app/assets/javascripts/numberline.js	/^  function drawNumLine(num, snum, diff, mid){$/;"	f
+drawNumLine.Line	app/assets/javascripts/numberline.js	/^  function Line(x1, y1, x2, y2) {$/;"	c
+drawNumLine.addLine	app/assets/javascripts/numberline.js	/^  function addLine(x1,y1,x2,y2) {$/;"	f
+drawNumLine.distance	app/assets/javascripts/numberline.js	/^  function distance(x1, y1, x2, y2) {$/;"	f
+drawNumLine.drawCircle	app/assets/javascripts/numberline.js	/^  function drawCircle(x, y, r) {$/;"	f
+drawNumLine.drawLine	app/assets/javascripts/numberline.js	/^  function drawLine(x1,y1, x2, y2) {$/;"	f
+drawNumLine.writeNums	app/assets/javascripts/numberline.js	/^  function writeNums(num, x, y){$/;"	f
+drawSolidCircle.drawLine	app/assets/javascripts/drawtools.js	/^  function drawLine(x1,y1, x2, y2, color, width) {$/;"	c
+dump_problem	app/models/problem.rb	/^  def dump_problem$/;"	f	class:Problem
+dump_response	app/models/answer.rb	/^  def dump_response$/;"	f	class:Answer
+each_column	lib/QuestionGenerator/tohtml.rb	/^    def each_column(row)$/;"	f	class:ToHTML.TableField
+each_field	lib/QuestionGenerator/tohtml.rb	/^    def each_field$/;"	f	class:ToHTML.MultiTextField
+each_field	lib/QuestionGenerator/tohtml.rb	/^    def each_field$/;"	f	class:ToHTML.TableField
+each_name	lib/QuestionGenerator/tohtml.rb	/^    def each_name$/;"	f	class:ToHTML.MultiTextField
+each_orig_field	lib/QuestionGenerator/tohtml.rb	/^    def each_orig_field$/;"	f	class:ToHTML.MultiTextField
+each_poss_field	lib/QuestionGenerator/tohtml.rb	/^    def each_poss_field$/;"	f	class:ToHTML.MultiTextField
+each_poss_name	lib/QuestionGenerator/tohtml.rb	/^    def each_poss_name(hash = nil)$/;"	f	class:ToHTML.MultiTextField
+edit	app/controllers/answers_controller.rb	/^  def edit$/;"	f	class:AnswersController
+edit	app/controllers/classrooms_controller.rb	/^  def edit$/;"	f	class:ClassroomsController
+edit	app/controllers/custom_problems_controller.rb	/^  def edit$/;"	f	class:CustomProblemsController
+edit	app/controllers/quizzes_controller.rb	/^  def edit$/;"	f	class:QuizzesController
+empty_stats	app/models/user.rb	/^  def empty_stats$/;"	f	class:User
+enc_prob	app/controllers/application_controller.rb	/^  def enc_prob(p)$/;"	f	class:ApplicationController
+encode	lib/QuestionGenerator/geometry.rb	/^    def encode$/;"	f	class:Geometry.Circle
+encode	lib/QuestionGenerator/geometry.rb	/^    def encode$/;"	f	class:Geometry.InfLine
+encode	lib/QuestionGenerator/geometry.rb	/^    def encode$/;"	f	class:Geometry.Line
+encode	lib/QuestionGenerator/geometry.rb	/^    def encode$/;"	f	class:Geometry.NPoint
+encode	lib/QuestionGenerator/geometry.rb	/^    def encode$/;"	f	class:Geometry.Point
+encode	lib/QuestionGenerator/geometry.rb	/^    def encode$/;"	f	class:Geometry.Ray
+encode_a	lib/QuestionGenerator/geometry.rb	/^    def self.encode_a(shape_a)$/;"	F	class:Geometry.Shape
+encodedStartShapes	lib/QuestionGenerator/geometry.rb	/^    def encodedStartShapes$/;"	f	class:Geometry.GeometryBase
+encrypt	app/models/user.rb	/^  def encrypt(string)$/;"	f	class:User
+encrypt_password	app/models/user.rb	/^  def encrypt_password$/;"	f	class:User
+eq	lib/QuestionGenerator/grade6/crqu.rb	/^  def eq(fl)$/;"	f	class:Float
+eraseState.s_i	app/assets/javascripts/drawtools.js	/^  var eraseState = {$/;"	p
+euclideanalg	lib/QuestionGenerator/grade6/grade6ops.rb	/^  def Grade6ops.euclideanalg(a,b)$/;"	F	class:Grade6ops.factors
+example	app/controllers/problems_controller.rb	/^  def example # GIVES YOU AN EXAMPLE PROBLEM OF PTYPE$/;"	f	class:ProblemsController
+example_type	app/helpers/sessions_helper.rb	/^  def example_type$/;"	f	class:SessionsHelper
+exampleprobs	app/controllers/pages_controller.rb	/^  def exampleprobs$/;"	f	class:PagesController
+exp_id	app/helpers/problem_helper.rb	/^  def exp_id(index_s)$/;"	f	class:ProblemHelper
+expand	app/controllers/problems_controller.rb	/^  def expand$/;"	f	class:ProblemsController
+explain	app/controllers/answers_controller.rb	/^  def explain$/;"	f	class:AnswersController
+explain	app/controllers/problems_controller.rb	/^  def explain$/;"	f	class:ProblemsController
+explain	lib/QuestionGenerator/cricketdata/crqu.rb	/^    def explain$/;"	f	class:CricketQuestions.CrBatAverage
+explain	lib/QuestionGenerator/cricketdata/crqu.rb	/^    def explain$/;"	f	class:CricketQuestions.CrBowlAverage
+explain	lib/QuestionGenerator/cricketdata/crqu.rb	/^    def explain$/;"	f	class:CricketQuestions.CrStrikeRate
+explain	lib/QuestionGenerator/cricketdata/crqu.rb	/^    def explain$/;"	f	class:CricketQuestions.CrStrikeRateBowling
+explain	lib/QuestionGenerator/grade6/c1.rb	/^    def explain$/;"	f	class:Chapter1.AddCommasIndian
+explain	lib/QuestionGenerator/grade6/c1.rb	/^    def explain$/;"	f	class:Chapter1.AddCommasInternational
+explain	lib/QuestionGenerator/grade6/c1.rb	/^    def explain$/;"	f	class:Chapter1.ConvertUnits
+explain	lib/QuestionGenerator/grade6/c1.rb	/^    def explain$/;"	f	class:Chapter1.EstimateAddition
+explain	lib/QuestionGenerator/grade6/c1.rb	/^    def explain$/;"	f	class:Chapter1.EstimateProduct
+explain	lib/QuestionGenerator/grade6/c1.rb	/^    def explain$/;"	f	class:Chapter1.EstimateSubtraction
+explain	lib/QuestionGenerator/grade6/c1.rb	/^    def explain$/;"	f	class:Chapter1.FindMaxNumber
+explain	lib/QuestionGenerator/grade6/c1.rb	/^    def explain$/;"	f	class:Chapter1.FindMinNumber
+explain	lib/QuestionGenerator/grade6/c1.rb	/^    def explain$/;"	f	class:Chapter1.RoundingNumbers
+explain	lib/QuestionGenerator/grade6/c1.rb	/^    def explain$/;"	f	class:Chapter1.ShiftingDigits
+explain	lib/QuestionGenerator/grade6/c1.rb	/^    def explain$/;"	f	class:Chapter1.ToArabic
+explain	lib/QuestionGenerator/grade6/c1.rb	/^    def explain$/;"	f	class:Chapter1.ToRoman
+explain	lib/QuestionGenerator/grade6/c10.rb	/^		def explain$/;"	f	class:Chapter10.FindPerimeterRegular
+explain	lib/QuestionGenerator/grade6/c10.rb	/^		def explain$/;"	f	class:Chapter10.FindSideRegular
+explain	lib/QuestionGenerator/grade6/c10.rb	/^    def explain$/;"	f	class:Chapter10.FindAreaRectangle
+explain	lib/QuestionGenerator/grade6/c10.rb	/^    def explain$/;"	f	class:Chapter10.FindPerimeterRectangle
+explain	lib/QuestionGenerator/grade6/c12.rb	/^    def explain$/;"	f	class:Chapter12.GetEquivalentFraction.DefRatio
+explain	lib/QuestionGenerator/grade6/c12.rb	/^    def explain$/;"	f	class:Chapter12.GetEquivalentFraction.RatioToFractionOfTotal.ReduceRatio.RatiosAndTotals.RatiosAndUnits.RatiosAndUnitConversions.EquivalentRatiosHelper.EquivalentRatios.CompleteTheProportion.PriceProportions.PricePerUnit.UnitaryCompareSize.FindRatioDiff
+explain	lib/QuestionGenerator/grade6/c12.rb	/^    def explain$/;"	f	class:Chapter12.GetEquivalentFraction.RatioToFractionOfTotal.ReduceRatio.RatiosAndTotals.RatiosAndUnits.RatiosAndUnitConversions.EquivalentRatiosHelper.EquivalentRatios.CompleteTheProportion.PriceProportions.PricePerUnit.UnitaryCompareSize.FindRatioSame
+explain	lib/QuestionGenerator/grade6/c12.rb	/^    def explain$/;"	f	class:Chapter12.GetEquivalentFraction.RatioToFractionOfTotal.ReduceRatio.RatiosAndTotals.RatiosAndUnits.RatiosAndUnitConversions.EquivalentRatiosHelper.EquivalentRatios.CompleteTheProportion.PriceProportions.PricePerUnit.UnitaryCompareSize.type
+explain	lib/QuestionGenerator/grade6/c12.rb	/^    def explain$/;"	f	class:Chapter12.GetEquivalentFraction.RatioToFractionOfTotal.ReduceRatio.RatiosAndTotals.RatiosAndUnits.RatiosAndUnitConversions.EquivalentRatiosHelper.EquivalentRatios.CompleteTheProportion.PriceProportions.PricePerUnit.type
+explain	lib/QuestionGenerator/grade6/c12.rb	/^    def explain$/;"	f	class:Chapter12.GetEquivalentFraction.RatioToFractionOfTotal.ReduceRatio.RatiosAndTotals.RatiosAndUnits.RatiosAndUnitConversions.EquivalentRatiosHelper.EquivalentRatios.CompleteTheProportion.PriceProportions.type
+explain	lib/QuestionGenerator/grade6/c12.rb	/^    def explain$/;"	f	class:Chapter12.GetEquivalentFraction.RatioToFractionOfTotal.ReduceRatio.RatiosAndTotals.RatiosAndUnits.RatiosAndUnitConversions.EquivalentRatiosHelper.EquivalentRatios.CompleteTheProportion.type
+explain	lib/QuestionGenerator/grade6/c12.rb	/^    def explain$/;"	f	class:Chapter12.GetEquivalentFraction.RatioToFractionOfTotal.ReduceRatio.RatiosAndTotals.RatiosAndUnits.RatiosAndUnitConversions.EquivalentRatiosHelper.EquivalentRatios.FillInEquivRatios
+explain	lib/QuestionGenerator/grade6/c12.rb	/^    def explain$/;"	f	class:Chapter12.GetEquivalentFraction.RatioToFractionOfTotal.ReduceRatio.RatiosAndTotals.RatiosAndUnits.RatiosAndUnitConversions.EquivalentRatiosHelper.EquivalentRatios.type
+explain	lib/QuestionGenerator/grade6/c12.rb	/^    def explain$/;"	f	class:Chapter12.GetEquivalentFraction.RatioToFractionOfTotal.ReduceRatio.RatiosAndTotals.RatiosAndUnits.type
+explain	lib/QuestionGenerator/grade6/c12.rb	/^    def explain$/;"	f	class:Chapter12.GetEquivalentFraction.RatioToFractionOfTotal.ReduceRatio.RatiosAndTotals.type
+explain	lib/QuestionGenerator/grade6/c12.rb	/^    def explain$/;"	f	class:Chapter12.GetEquivalentFraction.RatioToFractionOfTotal.ReduceRatio.type
+explain	lib/QuestionGenerator/grade6/c12.rb	/^    def explain$/;"	f	class:Chapter12.GetEquivalentFraction.RatioToFractionOfTotal.type
+explain	lib/QuestionGenerator/grade6/c12.rb	/^    def explain$/;"	f	class:Chapter12.GetEquivalentFraction.type
+explain	lib/QuestionGenerator/grade6/c2.rb	/^    def explain$/;"	f	class:Chapter2.AddLargeNumbers
+explain	lib/QuestionGenerator/grade6/c2.rb	/^    def explain$/;"	f	class:Chapter2.WritePredecessors
+explain	lib/QuestionGenerator/grade6/c2.rb	/^    def explain$/;"	f	class:Chapter2.WriteSuccessors
+explain	lib/QuestionGenerator/grade6/c3.rb	/^    def explain  $/;"	f	class:Chapter3.PrimeFactors
+explain	lib/QuestionGenerator/grade6/c3.rb	/^    def explain$/;"	f	class:Chapter3.IdentifyPrimes
+explain	lib/QuestionGenerator/grade6/c3.rb	/^    def explain$/;"	f	class:Chapter3.PrimeFactors.CommonFactors
+explain	lib/QuestionGenerator/grade6/c3.rb	/^    def explain$/;"	f	class:Chapter3.PrimeFactors.Div_39.Div_10
+explain	lib/QuestionGenerator/grade6/c3.rb	/^    def explain$/;"	f	class:Chapter3.PrimeFactors.Div_39.Div_11.Div_6
+explain	lib/QuestionGenerator/grade6/c3.rb	/^    def explain$/;"	f	class:Chapter3.PrimeFactors.Div_39.Div_11.SumPrimes.initialize.HCF
+explain	lib/QuestionGenerator/grade6/c3.rb	/^    def explain$/;"	f	class:Chapter3.PrimeFactors.Div_39.Div_11.SumPrimes.initialize.HCFEA
+explain	lib/QuestionGenerator/grade6/c3.rb	/^    def explain$/;"	f	class:Chapter3.PrimeFactors.Div_39.Div_11.SumPrimes.initialize.LCM
+explain	lib/QuestionGenerator/grade6/c3.rb	/^    def explain$/;"	f	class:Chapter3.PrimeFactors.Div_39.Div_11.SumPrimes.initialize.LCMEA
+explain	lib/QuestionGenerator/grade6/c3.rb	/^    def explain$/;"	f	class:Chapter3.PrimeFactors.Div_39.Div_11.SumPrimes.initialize.MultHCF
+explain	lib/QuestionGenerator/grade6/c3.rb	/^    def explain$/;"	f	class:Chapter3.PrimeFactors.Div_39.Div_11.SumPrimes.initialize.MultHCFEA
+explain	lib/QuestionGenerator/grade6/c3.rb	/^    def explain$/;"	f	class:Chapter3.PrimeFactors.Div_39.Div_11.SumPrimes.initialize.MultLCM
+explain	lib/QuestionGenerator/grade6/c3.rb	/^    def explain$/;"	f	class:Chapter3.PrimeFactors.Div_39.Div_11.SumPrimes.initialize.MultLCMEA
+explain	lib/QuestionGenerator/grade6/c3.rb	/^    def explain$/;"	f	class:Chapter3.PrimeFactors.Div_39.Div_11.solve
+explain	lib/QuestionGenerator/grade6/c3.rb	/^    def explain$/;"	f	class:Chapter3.PrimeFactors.Div_39.Div_248
+explain	lib/QuestionGenerator/grade6/c3.rb	/^    def explain$/;"	f	class:Chapter3.PrimeFactors.Div_39.Div_5
+explain	lib/QuestionGenerator/grade6/c3.rb	/^    def explain$/;"	f	class:Chapter3.PrimeFactors.Div_39.solve
+explain	lib/QuestionGenerator/grade6/c3.rb	/^    def explain$/;"	f	class:Chapter3.PrimeFactors.Factors
+explain	lib/QuestionGenerator/grade6/c4.rb	/^    def explain$/;"	f	class:Chapter4.DefAdjacentSides
+explain	lib/QuestionGenerator/grade6/c4.rb	/^    def explain$/;"	f	class:Chapter4.DefAdjacentVertices
+explain	lib/QuestionGenerator/grade6/c4.rb	/^    def explain$/;"	f	class:Chapter4.DefDiagonal
+explain	lib/QuestionGenerator/grade6/c4.rb	/^    def explain$/;"	f	class:Chapter4.DefPolygon
+explain	lib/QuestionGenerator/grade6/c4.rb	/^    def explain$/;"	f	class:Chapter4.DefVertices
+explain	lib/QuestionGenerator/grade6/c4.rb	/^    def explain$/;"	f	class:Chapter4.NameAngles
+explain	lib/QuestionGenerator/grade6/c4.rb	/^    def explain$/;"	f	class:Chapter4.NameLine
+explain	lib/QuestionGenerator/grade6/c4.rb	/^    def explain$/;"	f	class:Chapter4.NameTriangles
+explain	lib/QuestionGenerator/grade6/c7.rb	/^    def explain$/;"	f	class:Chapter7.ASLikeFractions
+explain	lib/QuestionGenerator/grade6/c7.rb	/^    def explain$/;"	f	class:Chapter7.ASMixedFractions
+explain	lib/QuestionGenerator/grade6/c7.rb	/^    def explain$/;"	f	class:Chapter7.ASUnlikeFractions
+explain	lib/QuestionGenerator/grade6/c7.rb	/^    def explain$/;"	f	class:Chapter7.CompareLikeFrac
+explain	lib/QuestionGenerator/grade6/c7.rb	/^    def explain$/;"	f	class:Chapter7.CompareUnlikeFrac
+explain	lib/QuestionGenerator/grade6/c7.rb	/^    def explain$/;"	f	class:Chapter7.EquivalentFractions
+explain	lib/QuestionGenerator/grade6/c7.rb	/^    def explain$/;"	f	class:Chapter7.ReduceFractions
+explain	lib/QuestionGenerator/grade6/c7.rb	/^    def explain$/;"	f	class:Chapter7.ReduceFractionsEA
+explain	lib/QuestionGenerator/grade6/c7.rb	/^    def explain$/;"	f	class:Chapter7.ToImproperFractions
+explain	lib/QuestionGenerator/grade6/c7.rb	/^    def explain$/;"	f	class:Chapter7.ToMixedFractions
+explain	lib/QuestionGenerator/grade6/c8.rb	/^    def explain$/;"	f	class:AddSubDecimals
+explain	lib/QuestionGenerator/grade6/c8.rb	/^    def explain$/;"	f	class:Chapter8.DecSigDigits
+explain	lib/QuestionGenerator/grade6/c8.rb	/^    def explain$/;"	f	class:Chapter8.DecimalsToFractions
+explain	lib/QuestionGenerator/grade6/c8.rb	/^    def explain$/;"	f	class:Chapter8.MaxDecSigDigits
+explain	lib/QuestionGenerator/grade6/c8.rb	/^    def explain$/;"	f	class:UnitsDecDecrease
+explain	lib/QuestionGenerator/grade6/c8.rb	/^    def explain$/;"	f	class:UnitsDecIncrease
+explain	lib/QuestionGenerator/grade6/crqu.rb	/^    def explain$/;"	f	class:CricketQuestions.CrBatAverage
+explain	lib/QuestionGenerator/grade6/crqu.rb	/^    def explain$/;"	f	class:CricketQuestions.CrBowlAverage
+explain	lib/QuestionGenerator/grade6/crqu.rb	/^    def explain$/;"	f	class:CricketQuestions.CrStrikeRate
+explain	lib/QuestionGenerator/grade6/crqu.rb	/^    def explain$/;"	f	class:CricketQuestions.CrStrikeRateBowling
+explain	lib/QuestionGenerator/grade6/physics.rb	/^    def explain$/;"	f	class:Physics.DoubleEchoDist
+explain	lib/QuestionGenerator/grade6/physics.rb	/^    def explain$/;"	f	class:Physics.SingleEchoDist
+explain	lib/QuestionGenerator/grade6/physics.rb	/^    def explain$/;"	f	class:Physics.SingleEchoTime
+explain	lib/QuestionGenerator/questionbase.rb	/^  def explain  $/;"	f	class:QuestionWithExplanation
+explain_from_index	app/controllers/problems_controller.rb	/^  def explain_from_index(orig, index)$/;"	f	class:ProblemsController
+explain_part	lib/QuestionGenerator/grade6/c1.rb	/^    def explain_part$/;"	f	class:Chapter1.EstimateArithmetic
+explanation	lib/QuestionGenerator/questionbase.rb	/^  def explanation$/;"	f	class:QuestionWithExplanation
+factors	lib/QuestionGenerator/grade6/grade6ops.rb	/^  def Grade6ops.factors(primes)$/;"	F	class:Grade6ops
+fasthome	app/controllers/pages_controller.rb	/^  def fasthome$/;"	f	class:PagesController
+fastnav?	app/helpers/application_helper.rb	/^  def fastnav?$/;"	f	class:ApplicationHelper
+features	app/controllers/pages_controller.rb	/^  def features$/;"	f	class:PagesController
+field_soln	app/helpers/answers_helper.rb	/^  def field_soln(solnhash, field)$/;"	f	class:AnswersHelper
+find_by_email	app/models/user.rb	/^  def self.find_by_email(s)$/;"	F	class:User
+finish_problem	app/controllers/problem_sets_controller.rb	/^  def finish_problem$/;"	f	class:ProblemSetsController
+finish_problem	app/controllers/quiz_instances_controller.rb	/^  def finish_problem$/;"	f	class:QuizInstanceController
+first_half	app/helpers/application_helper.rb	/^  def first_half(arr, n)$/;"	f	class:ApplicationHelper
+fixbowl	lib/QuestionGenerator/cricketdata/cricket.rb	/^  def fixbowl$/;"	f	class:SingleMatch
+formPolygon?	lib/QuestionGenerator/geometry.rb	/^  def formPolygon?(lines)$/;"	f	class:Geometry
+format_select_arrow	app/assets/javascripts/select.js	/^function format_select_arrow() {$/;"	f
+fromhash	lib/QuestionGenerator/tohtml.rb	/^    def fromhash(hash)$/;"	f	class:ToHTML.SubTextField
+fromhash	lib/QuestionGenerator/tohtml.rb	/^    def fromhash(response)$/;"	f	class:ToHTML.InputField
+fromhash	lib/QuestionGenerator/tohtml.rb	/^    def self.fromhash(name, response)$/;"	F	class:ToHTML.InputField
+function.Circle	app/assets/javascripts/drawtools.js	/^  function Circle(x,y,r) {$/;"	c
+function.POI	app/assets/javascripts/drawtools.js	/^  function POI(x, y) {$/;"	c
+function.POI.draw	app/assets/javascripts/drawtools.js	/^    this.draw = function() { $/;"	m
+function.POI.encode	app/assets/javascripts/drawtools.js	/^    this.encode = function() {$/;"	m
+function.POI.mouseDist	app/assets/javascripts/drawtools.js	/^    this.mouseDist = function() {$/;"	m
+function.POI.toString	app/assets/javascripts/drawtools.js	/^    this.toString = function() {$/;"	m
+function.Point	app/assets/javascripts/drawtools.js	/^  function Point(x,y,name, angle) {$/;"	c
+function.addCircle	app/assets/javascripts/drawtools.js	/^  function addCircle(x,y,r) {$/;"	f
+function.addLine	app/assets/javascripts/drawtools.js	/^  function addLine(x1,y1,x2,y2) {$/;"	f
+function.addPOI	app/assets/javascripts/drawtools.js	/^  function addPOI(x, y) {$/;"	f
+function.addPoint	app/assets/javascripts/drawtools.js	/^  function addPoint(x,y,name) {$/;"	f
+function.drawSolidCircle	app/assets/javascripts/drawtools.js	/^  function drawSolidCircle(x, y, r, color) {$/;"	f
+gcd	app/assets/javascripts/numberline.js	/^  function gcd(num1,num2){$/;"	f
+gen_irreducible_ratio	lib/QuestionGenerator/grade6/c12.rb	/^  def self.gen_irreducible_ratio$/;"	F	class:Chapter12
+gen_ratio	lib/QuestionGenerator/grade6/c12.rb	/^  def self.gen_ratio$/;"	F	class:Chapter12
+gen_rule	lib/QuestionGenerator/grade6/grade6ops.rb	/^  def gen_rule$/;"	f	class:Grade6ops.factors.Fixnum
+generate	lib/QuestionGenerator/modules/items.rb	/^  def self.generate(n = 1)$/;"	F	class:Items.Tomato.pluralize.singular.Pencil.singular.Pen.singular
+generate	lib/QuestionGenerator/modules/names.rb	/^  def Names.generate(n = 1)$/;"	F	class:Names
+generate	lib/QuestionGenerator/modules/units.rb	/^  def self.generate(n = 1)$/;"	F	class:Units
+generate_confirmation_code	app/models/user.rb	/^  def generate_confirmation_code$/;"	f	class:User
+generate_types	lib/QuestionGenerator/modules/units.rb	/^  def self.generate_types(n = 1)$/;"	F	class:Units
+generate_units	lib/QuestionGenerator/modules/units.rb	/^  def self.generate_units(n = 1)$/;"	F	class:Units
+getMatchingCircles	lib/QuestionGenerator/grade6/geo.rb	/^    def getMatchingCircles(shapes)$/;"	f	class:Geo.BisectLine
+getQuestionBase	lib/QuestionGenerator/grade6/c4.rb	/^    def getQuestionBase$/;"	f	class:Chapter4.DefAdjacentSides
+getQuestionBase	lib/QuestionGenerator/grade6/c4.rb	/^    def getQuestionBase$/;"	f	class:Chapter4.DefAdjacentVertices
+getQuestionBase	lib/QuestionGenerator/grade6/c4.rb	/^    def getQuestionBase$/;"	f	class:Chapter4.DefVertices
+get_data	lib/QuestionGenerator/cricketdata/get_crdata.rb	/^  def get_data$/;"	f	class:GetCrData
+get_elts	lib/QuestionGenerator/grade6/c2.rb	/^    def get_elts(prod)$/;"	f	class:Chapter2.SuitableRearrangementProduct
+get_elts	lib/QuestionGenerator/grade6/c2.rb	/^    def get_elts(sum)$/;"	f	class:Chapter2.SuitableRearrangementSum
+get_field	lib/QuestionGenerator/tohtml.rb	/^    def get_field(row, col)$/;"	f	class:ToHTML.TableField
+get_packed_response	app/models/problem.rb	/^  def get_packed_response(params)$/;"	f	class:Problem
+get_probs	app/helpers/sessions_helper.rb	/^  def get_probs$/;"	f	class:SessionsHelper
+get_quiz_quiz_user	app/helpers/quiz_helper.rb	/^  def get_quiz_quiz_user(id)$/;"	f	class:QuizHelper
+get_quizprobs_from_params	app/controllers/quizzes_controller.rb	/^  def get_quizprobs_from_params(params)$/;"	f	class:QuizzesController
+get_response	app/models/problem.rb	/^  def get_response(params)$/;"	f	class:Problem
+get_smartscore	app/helpers/application_helper.rb	/^  def get_smartscore(stat)$/;"	f	class:ApplicationHelper
+get_urls	lib/QuestionGenerator/cricketdata/get_scorecards.rb	/^  def get_urls$/;"	f	class:GetScore
+get_useful_response	lib/QuestionGenerator/questionbase.rb	/^  def get_useful_response(params)$/;"	f	class:QuestionBase
+geterrors	app/helpers/application_helper.rb	/^  def geterrors$/;"	f	class:ApplicationHelper
+graph	app/controllers/pages_controller.rb	/^  def graph$/;"	f	class:PagesController
+hasSmartScore?	app/models/quiz.rb	/^  def hasSmartScore?$/;"	f	class:Quiz
+has_big_numeral	lib/QuestionGenerator/grade6/grade6ops.rb	/^  def has_big_numeral(digit_count, numerals)$/;"	f	class:Grade6ops.factors.Fixnum
+has_password?	app/models/user.rb	/^  def has_password?(submitted_password)$/;"	f	class:User
+hash_to_arr	lib/QuestionGenerator/tohtml.rb	/^    def hash_to_arr(hash)$/;"	f	class:ToHTML.MultiTextField
+hasinput?	lib/QuestionGenerator/tohtml.rb	/^    def hasinput?$/;"	f	class:ToHTML.Fraction
+height	lib/QuestionGenerator/geometry.rb	/^    def self.height$/;"	F	class:Geometry.GeometryBase
+height	lib/QuestionGenerator/geometry.rb	/^    def self.height$/;"	F	class:Geometry.SmallGeoDisplay
+home	app/controllers/students_controller.rb	/^  def home$/;"	f	class:StudentsController
+home	app/controllers/teachers_controller.rb	/^  def home$/;"	f	class:TeachersController
+homeOnLoad	app/assets/javascripts/pages.js	/^var homeOnLoad = function(pagename) {$/;"	f
+htmlobj_locals	app/helpers/application_helper.rb	/^  def htmlobj_locals$/;"	f	class:ApplicationHelper
+htmlobj_locals=	app/helpers/application_helper.rb	/^  def htmlobj_locals=(locals)$/;"	f	class:ApplicationHelper
+htmlobj_partial	app/helpers/application_helper.rb	/^  def htmlobj_partial$/;"	f	class:ApplicationHelper
+htmlobj_partial=	app/helpers/application_helper.rb	/^  def htmlobj_partial=(partial)$/;"	f	class:ApplicationHelper
+idname	app/models/problem_set.rb	/^  def idname$/;"	f	class:ProblemSet
+idname	app/models/quiz.rb	/^  def idname$/;"	f	class:Quiz
+image	lib/QuestionGenerator/grade6/crqu.rb	/^    def image$/;"	f	class:CricketQuestions.CrBatAverage
+image	lib/QuestionGenerator/grade6/crqu.rb	/^    def image$/;"	f	class:CricketQuestions.CrBowlAverage
+image	lib/QuestionGenerator/grade6/crqu.rb	/^    def image$/;"	f	class:CricketQuestions.CrStrikeRate
+image	lib/QuestionGenerator/grade6/crqu.rb	/^    def image$/;"	f	class:CricketQuestions.CrStrikeRateBowling
+in_examples?	app/helpers/sessions_helper.rb	/^  def in_examples?$/;"	f	class:SessionsHelper
+in_quiz?	app/helpers/sessions_helper.rb	/^  def in_quiz?$/;"	f	class:SessionsHelper
+include_history	app/controllers/problem_sets_controller.rb	/^  def include_history(problem_set, n = 11)$/;"	f	class:ProblemSetsController
+include_history	app/controllers/quiz_instances_controller.rb	/^  def include_history(quiz, n = 11)$/;"	f	class:QuizInstanceController
+increment_index	app/helpers/problem_helper.rb	/^  def increment_index(index, n = 1)$/;"	f	class:ProblemHelper
+increment_problem	app/helpers/sessions_helper.rb	/^  def increment_problem(last_correct)$/;"	f	class:SessionsHelper
+ind_commas	lib/QuestionGenerator/grade6/grade6ops.rb	/^  def ind_commas$/;"	f	class:Grade6ops.factors.Fixnum
+ind_hund	lib/QuestionGenerator/grade6/grade6ops.rb	/^  def self.ind_hund?(digit_count)$/;"	F	class:Grade6ops.factors.Fixnum
+ind_tens	lib/QuestionGenerator/grade6/grade6ops.rb	/^  def self.ind_tens?(digit_count)$/;"	F	class:Grade6ops.factors.Fixnum
+index	app/controllers/answers_controller.rb	/^  def index$/;"	f	class:AnswersController
+index	app/controllers/custom_problems_controller.rb	/^  def index$/;"	f	class:CustomProblemsController
+index	app/controllers/problems_controller.rb	/^  def index$/;"	f	class:ProblemsController
+init_bob_and_jen	lib/QuestionGenerator/grade6/c12.rb	/^    def init_bob_and_jen(options)$/;"	f	class:Chapter12.C12Initializers
+init_part	lib/QuestionGenerator/tohtml.rb	/^    def init_part(elt)$/;"	f	class:ToHTML.Fraction
+init_proportion	lib/QuestionGenerator/grade6/c12.rb	/^    def init_proportion(options)$/;"	f	class:Chapter12.C12Initializers
+initialize	app/services/teacher_stat_calc.rb	/^    def initialize(problem_type)$/;"	f	class:TeacherStatCalc.Stat
+initialize	app/services/teacher_stat_calc.rb	/^  def initialize(students = [], problem_types = [])$/;"	f	class:TeacherStatCalc
+initialize	lib/QuestionGenerator/cricketdata/conv_sco.rb	/^  def initialize(type, mst, men)$/;"	f	class:ConvSco
+initialize	lib/QuestionGenerator/cricketdata/cricket.rb	/^  def initialize(fname)$/;"	f	class:SingleMatch
+initialize	lib/QuestionGenerator/cricketdata/crqu.rb	/^    def initialize$/;"	f	class:CricketQuestions.CrBatAverage
+initialize	lib/QuestionGenerator/cricketdata/crqu.rb	/^    def initialize$/;"	f	class:CricketQuestions.CrBowlAverage
+initialize	lib/QuestionGenerator/cricketdata/crqu.rb	/^    def initialize$/;"	f	class:CricketQuestions.CrStrikeRate
+initialize	lib/QuestionGenerator/cricketdata/crqu.rb	/^    def initialize$/;"	f	class:CricketQuestions.CrStrikeRateBowling
+initialize	lib/QuestionGenerator/cricketdata/get_crdata.rb	/^  def initialize(fname, wh)$/;"	f	class:GetCrData
+initialize	lib/QuestionGenerator/cricketdata/get_scorecards.rb	/^  def initialize(type, beg_year, end_year, beg_match=0, end_match=100000)$/;"	f	class:GetScore
+initialize	lib/QuestionGenerator/cricketdata/matchno.rb	/^  def initialize(ty, bb)$/;"	f	class:MatchNo
+initialize	lib/QuestionGenerator/cricketdata/pick_pl.rb	/^  def initialize(wh, bb, tm=TEAMS.sample)$/;"	f	class:PickPlayer
+initialize	lib/QuestionGenerator/geometry.rb	/^    def initialize(*args)$/;"	f	class:Geometry.GeometryBase
+initialize	lib/QuestionGenerator/geometry.rb	/^    def initialize(x, y, name, angle = 45.0)$/;"	f	class:Geometry.NPoint
+initialize	lib/QuestionGenerator/geometry.rb	/^    def initialize(x, y, r)$/;"	f	class:Geometry.Circle
+initialize	lib/QuestionGenerator/geometry.rb	/^    def initialize(x,y)$/;"	f	class:Geometry.Point
+initialize	lib/QuestionGenerator/geometry.rb	/^    def initialize(x1, y1, x2=nil, y2=nil)$/;"	f	class:Geometry.Line
+initialize	lib/QuestionGenerator/grade6/c1.rb	/^    def initialize$/;"	f	class:Chapter1.AddCommasIndian
+initialize	lib/QuestionGenerator/grade6/c1.rb	/^    def initialize$/;"	f	class:Chapter1.AddCommasInternational
+initialize	lib/QuestionGenerator/grade6/c1.rb	/^    def initialize$/;"	f	class:Chapter1.ConvertUnits
+initialize	lib/QuestionGenerator/grade6/c1.rb	/^    def initialize$/;"	f	class:Chapter1.ExpandNumbers
+initialize	lib/QuestionGenerator/grade6/c1.rb	/^    def initialize$/;"	f	class:Chapter1.ExpandNumbers1
+initialize	lib/QuestionGenerator/grade6/c1.rb	/^    def initialize$/;"	f	class:Chapter1.ExpandNumbers2
+initialize	lib/QuestionGenerator/grade6/c1.rb	/^    def initialize$/;"	f	class:Chapter1.ReadingIndian
+initialize	lib/QuestionGenerator/grade6/c1.rb	/^    def initialize$/;"	f	class:Chapter1.ReadingInternational
+initialize	lib/QuestionGenerator/grade6/c1.rb	/^    def initialize$/;"	f	class:Chapter1.ShiftingDigits
+initialize	lib/QuestionGenerator/grade6/c1.rb	/^    def initialize$/;"	f	class:Chapter1.ToArabic
+initialize	lib/QuestionGenerator/grade6/c1.rb	/^    def initialize$/;"	f	class:Chapter1.ToRoman
+initialize	lib/QuestionGenerator/grade6/c1.rb	/^    def initialize$/;"	f	class:Chapter1.WordProbDiff
+initialize	lib/QuestionGenerator/grade6/c1.rb	/^    def initialize$/;"	f	class:Chapter1.WordProbSum
+initialize	lib/QuestionGenerator/grade6/c1.rb	/^    def initialize$/;"	f	class:Chapter1.WritingIndian
+initialize	lib/QuestionGenerator/grade6/c1.rb	/^    def initialize$/;"	f	class:Chapter1.WritingInternational
+initialize	lib/QuestionGenerator/grade6/c1.rb	/^    def initialize()$/;"	f	class:Chapter1.ArrangeAscending
+initialize	lib/QuestionGenerator/grade6/c1.rb	/^    def initialize()$/;"	f	class:Chapter1.ArrangeDescending
+initialize	lib/QuestionGenerator/grade6/c1.rb	/^    def initialize(digs=(1..9).to_a.sample(rand(3)+3))$/;"	f	class:Chapter1.ShiftingDigitsGr
+initialize	lib/QuestionGenerator/grade6/c1.rb	/^    def initialize(digs=(1..9).to_a.sample(rand(3)+3))$/;"	f	class:Chapter1.ShiftingDigitsLs
+initialize	lib/QuestionGenerator/grade6/c1.rb	/^    def initialize(num = nil)$/;"	f	class:Chapter1.RoundingNumbers
+initialize	lib/QuestionGenerator/grade6/c1.rb	/^    def initialize(num=nil)$/;"	f	class:Chapter1.PlaceValueTable
+initialize	lib/QuestionGenerator/grade6/c1.rb	/^    def initialize(nums = nil)$/;"	f	class:Chapter1.EstimateAddition
+initialize	lib/QuestionGenerator/grade6/c1.rb	/^    def initialize(nums = nil)$/;"	f	class:Chapter1.EstimateProduct
+initialize	lib/QuestionGenerator/grade6/c1.rb	/^    def initialize(nums = nil)$/;"	f	class:Chapter1.EstimateSubtraction
+initialize	lib/QuestionGenerator/grade6/c1.rb	/^    def initialize(nums = nil)$/;"	f	class:Chapter1.FindMaxNumber
+initialize	lib/QuestionGenerator/grade6/c1.rb	/^    def initialize(nums = nil)$/;"	f	class:Chapter1.FindMinNumber
+initialize	lib/QuestionGenerator/grade6/c1.rb	/^    def initialize(op = nil, nums = nil)$/;"	f	class:Chapter1.EstimateArithmetic
+initialize	lib/QuestionGenerator/grade6/c1.rb	/^    def initialize(sunit=SUNIT.sample)$/;"	f	class:Chapter1.ConvertUnitsSimple
+initialize	lib/QuestionGenerator/grade6/c10.rb	/^		def initialize(length=nil, width=nil)$/;"	f	class:Chapter10.FindAreaRectangle
+initialize	lib/QuestionGenerator/grade6/c10.rb	/^		def initialize(length=nil, width=nil)$/;"	f	class:Chapter10.FindPerimeterRectangle
+initialize	lib/QuestionGenerator/grade6/c10.rb	/^		def initialize(nsides=rand(REGULARSHAPES.length-2)+3, side=rand(MAXSIDE)+5)$/;"	f	class:Chapter10.FindPerimeterRegular
+initialize	lib/QuestionGenerator/grade6/c10.rb	/^		def initialize(nsides=rand(REGULARSHAPES.length-2)+3, side=rand(MAXSIDE)+5)$/;"	f	class:Chapter10.FindSideRegular
+initialize	lib/QuestionGenerator/grade6/c10.rb	/^    def initialize$/;"	f	class:Chapter10.AreaRectWord
+initialize	lib/QuestionGenerator/grade6/c10.rb	/^    def initialize$/;"	f	class:Chapter10.PeriRectWord
+initialize	lib/QuestionGenerator/grade6/c11.rb	/^    def initialize(var=VARNAMES.sample)$/;"	f	class:Chapter11.SimpleVariableMult
+initialize	lib/QuestionGenerator/grade6/c11.rb	/^    def initialize(var=VARNAMES.sample, op=OPS.sample)$/;"	f	class:Chapter11.SimpleVariableAddSub
+initialize	lib/QuestionGenerator/grade6/c12.rb	/^		def initialize$/;"	f	class:Chapter12.GetEquivalentFraction.RatioToFractionOfTotal.ReduceRatio.RatiosAndTotals.RatiosAndUnits.RatiosAndUnitConversions.EquivalentRatiosHelper.EquivalentRatios.CompleteTheProportion.PriceProportions.PricePerUnit.UnitaryCompareSize.Proportion
+initialize	lib/QuestionGenerator/grade6/c12.rb	/^		def initialize$/;"	f	class:Chapter12.GetEquivalentFraction.RatioToFractionOfTotal.ReduceRatio.RatiosAndTotals.RatiosAndUnits.RatiosAndUnitConversions.EquivalentRatiosHelper.EquivalentRatios.CompleteTheProportion.PriceProportions.PricePerUnit.UnitaryCompareSize.RatioStudent
+initialize	lib/QuestionGenerator/grade6/c12.rb	/^		def initialize(subs, nums, tot)$/;"	f	class:Chapter12.GetEquivalentFraction.RatioToFractionOfTotal.ReduceRatio.RatiosAndTotals.RatiosAndUnits.RatiosAndUnitConversions.EquivalentRatiosHelper.EquivalentRatios.CompleteTheProportion.PriceProportions.PricePerUnit.UnitaryCompareSize.SumRat
+initialize	lib/QuestionGenerator/grade6/c12.rb	/^    def initialize$/;"	f	class:Chapter12.GetEquivalentFraction.RatioToFractionOfTotal.ReduceRatio.RatiosAndTotals.RatiosAndUnits.RatiosAndUnitConversions.EquivalentRatiosHelper.EquivalentRatios.CompleteTheProportion.PriceProportions.PricePerUnit.UnitaryCompareSize.FindRatioDiff
+initialize	lib/QuestionGenerator/grade6/c12.rb	/^    def initialize$/;"	f	class:Chapter12.GetEquivalentFraction.RatioToFractionOfTotal.ReduceRatio.RatiosAndTotals.RatiosAndUnits.RatiosAndUnitConversions.EquivalentRatiosHelper.EquivalentRatios.CompleteTheProportion.PriceProportions.PricePerUnit.UnitaryCompareSize.FindRatioSame
+initialize	lib/QuestionGenerator/grade6/c12.rb	/^    def initialize$/;"	f	class:Chapter12.GetEquivalentFraction.RatioToFractionOfTotal.ReduceRatio.RatiosAndTotals.RatiosAndUnits.RatiosAndUnitConversions.EquivalentRatiosHelper.EquivalentRatios.CompleteTheProportion.PriceProportions.PricePerUnit.UnitaryCompareSize.RatioCompCostWord
+initialize	lib/QuestionGenerator/grade6/c12.rb	/^    def initialize$/;"	f	class:Chapter12.GetEquivalentFraction.RatioToFractionOfTotal.ReduceRatio.RatiosAndTotals.RatiosAndUnits.RatiosAndUnitConversions.EquivalentRatiosHelper.EquivalentRatios.CompleteTheProportion.PriceProportions.PricePerUnit.UnitaryCompareSize.UnitaryMethod
+initialize	lib/QuestionGenerator/grade6/c12.rb	/^    def initialize(a = nil, b = nil)$/;"	f	class:Chapter12.GetEquivalentFraction.RatioToFractionOfTotal.ReduceRatio.RatiosAndTotals.RatiosAndUnits.type
+initialize	lib/QuestionGenerator/grade6/c12.rb	/^    def initialize(a = nil, b = nil)$/;"	f	class:Chapter12.GetEquivalentFraction.RatioToFractionOfTotal.ReduceRatio.type
+initialize	lib/QuestionGenerator/grade6/c12.rb	/^    def initialize(a = nil, b = nil)$/;"	f	class:Chapter12.GetEquivalentFraction.type
+initialize	lib/QuestionGenerator/grade6/c12.rb	/^    def initialize(a = nil, b = nil, num_ratios = nil)$/;"	f	class:Chapter12.GetEquivalentFraction.RatioToFractionOfTotal.ReduceRatio.RatiosAndTotals.RatiosAndUnits.RatiosAndUnitConversions.EquivalentRatiosHelper.EquivalentRatios.type
+initialize	lib/QuestionGenerator/grade6/c12.rb	/^    def initialize(a = nil, b = nil, options = {})$/;"	f	class:Chapter12.GetEquivalentFraction.RatioToFractionOfTotal.type
+initialize	lib/QuestionGenerator/grade6/c12.rb	/^    def initialize(a, b, num_ratios)$/;"	f	class:Chapter12.GetEquivalentFraction.RatioToFractionOfTotal.ReduceRatio.RatiosAndTotals.RatiosAndUnits.RatiosAndUnitConversions.EquivalentRatiosHelper.type
+initialize	lib/QuestionGenerator/grade6/c12.rb	/^    def initialize(cam,fam,mul,wh=rand(VERBS.length),wh2=nil)$/;"	f	class:Chapter12.GetEquivalentFraction.RatioToFractionOfTotal.ReduceRatio.RatiosAndTotals.RatiosAndUnits.RatiosAndUnitConversions.EquivalentRatiosHelper.EquivalentRatios.CompleteTheProportion.PriceProportions.PricePerUnit.UnitaryCompareSize.UnitaryWord
+initialize	lib/QuestionGenerator/grade6/c12.rb	/^    def initialize(n = nil, m = nil)$/;"	f	class:Chapter12.GetEquivalentFraction.DefRatio
+initialize	lib/QuestionGenerator/grade6/c12.rb	/^    def initialize(options = {})$/;"	f	class:Chapter12.GetEquivalentFraction.RatioToFractionOfTotal.ReduceRatio.RatiosAndTotals.RatiosAndUnits.RatiosAndUnitConversions.EquivalentRatiosHelper.EquivalentRatios.CompleteTheProportion.PriceProportions.PricePerUnit.UnitaryCompareSize.type
+initialize	lib/QuestionGenerator/grade6/c12.rb	/^    def initialize(options = {})$/;"	f	class:Chapter12.GetEquivalentFraction.RatioToFractionOfTotal.ReduceRatio.RatiosAndTotals.RatiosAndUnits.RatiosAndUnitConversions.EquivalentRatiosHelper.EquivalentRatios.CompleteTheProportion.PriceProportions.PricePerUnit.type
+initialize	lib/QuestionGenerator/grade6/c12.rb	/^    def initialize(options = {})$/;"	f	class:Chapter12.GetEquivalentFraction.RatioToFractionOfTotal.ReduceRatio.RatiosAndTotals.RatiosAndUnits.RatiosAndUnitConversions.EquivalentRatiosHelper.EquivalentRatios.CompleteTheProportion.type
+initialize	lib/QuestionGenerator/grade6/c12.rb	/^    def initialize(options = {})$/;"	f	class:Chapter12.GetEquivalentFraction.RatioToFractionOfTotal.ReduceRatio.RatiosAndTotals.RatiosAndUnits.RatiosAndUnitConversions.EquivalentRatiosHelper.EquivalentRatios.FillInEquivRatios
+initialize	lib/QuestionGenerator/grade6/c12.rb	/^    def initialize(options= {})$/;"	f	class:Chapter12.GetEquivalentFraction.RatioToFractionOfTotal.ReduceRatio.RatiosAndTotals.RatiosAndUnits.RatiosAndUnitConversions.EquivalentRatiosHelper.EquivalentRatios.CompleteTheProportion.PriceProportions.type
+initialize	lib/QuestionGenerator/grade6/c12.rb	/^    def initialize(t = nil, r = nil)$/;"	f	class:Chapter12.GetEquivalentFraction.RatioToFractionOfTotal.ReduceRatio.RatiosAndTotals.type
+initialize	lib/QuestionGenerator/grade6/c2.rb	/^    def initialize$/;"	f	class:Chapter2.AddLargeNumbers
+initialize	lib/QuestionGenerator/grade6/c2.rb	/^    def initialize$/;"	f	class:Chapter2.SuitableRearrangementProduct
+initialize	lib/QuestionGenerator/grade6/c2.rb	/^    def initialize$/;"	f	class:Chapter2.SuitableRearrangementSum
+initialize	lib/QuestionGenerator/grade6/c2.rb	/^    def initialize$/;"	f	class:Chapter2.WritePredecessors
+initialize	lib/QuestionGenerator/grade6/c2.rb	/^    def initialize$/;"	f	class:Chapter2.WriteSuccessors
+initialize	lib/QuestionGenerator/grade6/c3.rb	/^    def initialize$/;"	f	class:Chapter3.PrimeFactors.CommonFactors
+initialize	lib/QuestionGenerator/grade6/c3.rb	/^    def initialize$/;"	f	class:Chapter3.PrimeFactors.Div_39.Div_10
+initialize	lib/QuestionGenerator/grade6/c3.rb	/^    def initialize$/;"	f	class:Chapter3.PrimeFactors.Div_39.Div_11
+initialize	lib/QuestionGenerator/grade6/c3.rb	/^    def initialize$/;"	f	class:Chapter3.PrimeFactors.Div_39.Div_5
+initialize	lib/QuestionGenerator/grade6/c3.rb	/^    def initialize$/;"	f	class:Chapter3.PrimeFactors.Factors
+initialize	lib/QuestionGenerator/grade6/c3.rb	/^    def initialize(amt = rand(2) + 2)$/;"	f	class:Chapter3.PrimeFactors.Div_39.Div_11.SumPrimes
+initialize	lib/QuestionGenerator/grade6/c3.rb	/^    def initialize(div=(rand(2)+1), num = nil)$/;"	f	class:Chapter3.PrimeFactors.Div_39
+initialize	lib/QuestionGenerator/grade6/c3.rb	/^    def initialize(div=(rand(3)+1), num = nil)$/;"	f	class:Chapter3.PrimeFactors.Div_39.Div_248
+initialize	lib/QuestionGenerator/grade6/c3.rb	/^    def initialize(num = nil)$/;"	f	class:Chapter3.IdentifyPrimes
+initialize	lib/QuestionGenerator/grade6/c3.rb	/^    def initialize(num = nil)$/;"	f	class:Chapter3.PrimeFactors.Div_39.Div_11.Div_6
+initialize	lib/QuestionGenerator/grade6/c3.rb	/^    def initialize(num = nil)$/;"	f	class:Chapter3.PrimeFactors.Div_39.Div_2
+initialize	lib/QuestionGenerator/grade6/c3.rb	/^    def initialize(num = nil)$/;"	f	class:Chapter3.PrimeFactors.Div_39.Div_3
+initialize	lib/QuestionGenerator/grade6/c3.rb	/^    def initialize(num = nil)$/;"	f	class:Chapter3.PrimeFactors.Div_39.Div_4
+initialize	lib/QuestionGenerator/grade6/c3.rb	/^    def initialize(num = nil)$/;"	f	class:Chapter3.PrimeFactors.Div_39.Div_8
+initialize	lib/QuestionGenerator/grade6/c3.rb	/^    def initialize(num = nil)$/;"	f	class:Chapter3.PrimeFactors.Div_39.Div_9
+initialize	lib/QuestionGenerator/grade6/c3.rb	/^    def initialize(num1=nil, num2=nil)$/;"	f	class:Chapter3.PrimeFactors.Div_39.Div_11.SumPrimes.initialize.HCFEA
+initialize	lib/QuestionGenerator/grade6/c3.rb	/^    def initialize(num1=nil, num2=nil)$/;"	f	class:Chapter3.PrimeFactors.Div_39.Div_11.SumPrimes.initialize.LCMEA
+initialize	lib/QuestionGenerator/grade6/c3.rb	/^    def initialize(nums1=nil, nums2=nil, comm=nil)$/;"	f	class:Chapter3.PrimeFactors.Div_39.Div_11.SumPrimes.initialize.HCF
+initialize	lib/QuestionGenerator/grade6/c3.rb	/^    def initialize(nums1=nil, nums2=nil, comm=nil)$/;"	f	class:Chapter3.PrimeFactors.Div_39.Div_11.SumPrimes.initialize.LCM
+initialize	lib/QuestionGenerator/grade6/c3.rb	/^    def initialize(nums=nil)$/;"	f	class:Chapter3.PrimeFactors
+initialize	lib/QuestionGenerator/grade6/c3.rb	/^    def initialize(nums=nil)$/;"	f	class:Chapter3.PrimeFactors.Div_39.Div_11.SumPrimes.initialize.MultHCFEA
+initialize	lib/QuestionGenerator/grade6/c3.rb	/^    def initialize(nums=nil)$/;"	f	class:Chapter3.PrimeFactors.Div_39.Div_11.SumPrimes.initialize.MultLCMEA
+initialize	lib/QuestionGenerator/grade6/c3.rb	/^    def initialize(nums=nil, comm=nil)$/;"	f	class:Chapter3.PrimeFactors.Div_39.Div_11.SumPrimes.initialize.MultHCF
+initialize	lib/QuestionGenerator/grade6/c3.rb	/^    def initialize(nums=nil, comm=nil)$/;"	f	class:Chapter3.PrimeFactors.Div_39.Div_11.SumPrimes.initialize.MultLCM
+initialize	lib/QuestionGenerator/grade6/c4.rb	/^    def initialize$/;"	f	class:Chapter4.DefAdjacentSides
+initialize	lib/QuestionGenerator/grade6/c4.rb	/^    def initialize$/;"	f	class:Chapter4.DefAdjacentVertices
+initialize	lib/QuestionGenerator/grade6/c4.rb	/^    def initialize$/;"	f	class:Chapter4.DefDiagonal
+initialize	lib/QuestionGenerator/grade6/c4.rb	/^    def initialize$/;"	f	class:Chapter4.DefQuadrilateral
+initialize	lib/QuestionGenerator/grade6/c4.rb	/^    def initialize$/;"	f	class:Chapter4.DefTriangle
+initialize	lib/QuestionGenerator/grade6/c4.rb	/^    def initialize$/;"	f	class:Chapter4.DefVertices
+initialize	lib/QuestionGenerator/grade6/c4.rb	/^    def initialize$/;"	f	class:Chapter4.NameAngles
+initialize	lib/QuestionGenerator/grade6/c4.rb	/^    def initialize$/;"	f	class:Chapter4.NameLine
+initialize	lib/QuestionGenerator/grade6/c4.rb	/^    def initialize$/;"	f	class:Chapter4.NameRay
+initialize	lib/QuestionGenerator/grade6/c4.rb	/^    def initialize$/;"	f	class:Chapter4.NameTriangles
+initialize	lib/QuestionGenerator/grade6/c4.rb	/^    def initialize(*args)$/;"	f	class:Chapter4.DefAdjacentVerticesHelper
+initialize	lib/QuestionGenerator/grade6/c4.rb	/^    def initialize(*args)$/;"	f	class:Chapter4.DefVerticesHelper
+initialize	lib/QuestionGenerator/grade6/c4.rb	/^    def initialize(lines, points)$/;"	f	class:Chapter4.DefAdjacentSidesHelper
+initialize	lib/QuestionGenerator/grade6/c4.rb	/^    def initialize(numpoints, name)$/;"	f	class:Chapter4.DefPolygon
+initialize	lib/QuestionGenerator/grade6/c6.rb	/^    def initialize$/;"	f	class:Chapter6.AddNumberLine
+initialize	lib/QuestionGenerator/grade6/c6.rb	/^    def initialize$/;"	f	class:Chapter6.AddSubIntegers.AddIntegers
+initialize	lib/QuestionGenerator/grade6/c6.rb	/^    def initialize$/;"	f	class:Chapter6.CompareAddSub
+initialize	lib/QuestionGenerator/grade6/c6.rb	/^    def initialize$/;"	f	class:Chapter6.IntNumberLine
+initialize	lib/QuestionGenerator/grade6/c6.rb	/^    def initialize$/;"	f	class:Chapter6.SubNumberLine
+initialize	lib/QuestionGenerator/grade6/c6.rb	/^    def initialize$/;"	f	class:Chapter6.SubtractIntegers
+initialize	lib/QuestionGenerator/grade6/c6.rb	/^    def initialize()$/;"	f	class:Chapter6.CompareIntegers
+initialize	lib/QuestionGenerator/grade6/c6.rb	/^    def initialize(nums=nil, signs=nil, ops=nil)$/;"	f	class:Chapter6.AddSubIntegers
+initialize	lib/QuestionGenerator/grade6/c7.rb	/^    def initialize$/;"	f	class:Chapter7.CompareUnlikeFrac
+initialize	lib/QuestionGenerator/grade6/c7.rb	/^    def initialize$/;"	f	class:Chapter7.EquivalentFractions
+initialize	lib/QuestionGenerator/grade6/c7.rb	/^    def initialize$/;"	f	class:Chapter7.ToImproperFractions
+initialize	lib/QuestionGenerator/grade6/c7.rb	/^    def initialize$/;"	f	class:Chapter7.ToMixedFractions
+initialize	lib/QuestionGenerator/grade6/c7.rb	/^    def initialize(amt=2)$/;"	f	class:Chapter7.ASMixedFractions
+initialize	lib/QuestionGenerator/grade6/c7.rb	/^    def initialize(den=nil, num1=nil, num2=nil)$/;"	f	class:Chapter7.CompareLikeFrac
+initialize	lib/QuestionGenerator/grade6/c7.rb	/^    def initialize(den=nil, num=nil, sig=nil, wh=nil)$/;"	f	class:Chapter7.FillDenominator
+initialize	lib/QuestionGenerator/grade6/c7.rb	/^    def initialize(den=nil, num=nil, sig=nil, wh=nil)$/;"	f	class:Chapter7.FillNumerator
+initialize	lib/QuestionGenerator/grade6/c7.rb	/^    def initialize(den=nil, nums=nil, sig=nil)$/;"	f	class:Chapter7.ASLikeFractions
+initialize	lib/QuestionGenerator/grade6/c7.rb	/^    def initialize(num=nil, den=nil)$/;"	f	class:Chapter7.ReduceFractionsEA
+initialize	lib/QuestionGenerator/grade6/c7.rb	/^    def initialize(nums1=nil, nums2=nil, comm=nil)$/;"	f	class:Chapter7.ReduceFractions
+initialize	lib/QuestionGenerator/grade6/c7.rb	/^    def initialize(nums=nil, dens=nil, comm=nil, sig=nil)$/;"	f	class:Chapter7.ASUnlikeFractions
+initialize	lib/QuestionGenerator/grade6/c8.rb	/^    def initialize$/;"	f	class:Chapter8.DecimalsToFractions
+initialize	lib/QuestionGenerator/grade6/c8.rb	/^    def initialize$/;"	f	class:Chapter8.FractionsToDecimals
+initialize	lib/QuestionGenerator/grade6/c8.rb	/^    def initialize$/;"	f	class:Chapter8.PlaceValueTable
+initialize	lib/QuestionGenerator/grade6/c8.rb	/^    def initialize$/;"	f	class:UnitsDecDecrease
+initialize	lib/QuestionGenerator/grade6/c8.rb	/^    def initialize()$/;"	f	class:AddDecimals
+initialize	lib/QuestionGenerator/grade6/c8.rb	/^    def initialize()$/;"	f	class:SubDecimals
+initialize	lib/QuestionGenerator/grade6/c8.rb	/^    def initialize(amt=rand(4)+2)$/;"	f	class:AddSubDecimals
+initialize	lib/QuestionGenerator/grade6/c8.rb	/^    def initialize(num=nil, sig=nil)$/;"	f	class:Chapter8.DecSigDigits
+initialize	lib/QuestionGenerator/grade6/c8.rb	/^    def initialize(nums=nil, sigs=nil)$/;"	f	class:Chapter8.MaxDecSigDigits
+initialize	lib/QuestionGenerator/grade6/c8.rb	/^    def initialize(sunit=nil, num=nil)$/;"	f	class:UnitsDecIncrease
+initialize	lib/QuestionGenerator/grade6/c9.rb	/^    def initialize$/;"	f	class:Chapter9.BarQues
+initialize	lib/QuestionGenerator/grade6/c9.rb	/^    def initialize$/;"	f	class:Chapter9.CreateBar
+initialize	lib/QuestionGenerator/grade6/c9.rb	/^    def initialize$/;"	f	class:Chapter9.CreateTally
+initialize	lib/QuestionGenerator/grade6/c9.rb	/^    def initialize$/;"	f	class:Chapter9.TallyQues
+initialize	lib/QuestionGenerator/grade6/crqu.rb	/^    def initialize$/;"	f	class:CricketQuestions.CrBatAverage
+initialize	lib/QuestionGenerator/grade6/crqu.rb	/^    def initialize$/;"	f	class:CricketQuestions.CrBowlAverage
+initialize	lib/QuestionGenerator/grade6/crqu.rb	/^    def initialize$/;"	f	class:CricketQuestions.CrStrikeRate
+initialize	lib/QuestionGenerator/grade6/crqu.rb	/^    def initialize$/;"	f	class:CricketQuestions.CrStrikeRateBowling
+initialize	lib/QuestionGenerator/grade6/geo.rb	/^    def initialize()$/;"	f	class:Geo.BisectLine
+initialize	lib/QuestionGenerator/grade6/grade6ops.rb	/^    def initialize(eq,ot)$/;"	f	class:Grade6ops.factors.Isoceles
+initialize	lib/QuestionGenerator/grade6/grade6ops.rb	/^    def initialize(numsides, side=nil)$/;"	f	class:Grade6ops.factors.RegShapes
+initialize	lib/QuestionGenerator/grade6/grade6ops.rb	/^    def initialize(s1,s2,s3)$/;"	f	class:Grade6ops.factors.Triangle
+initialize	lib/QuestionGenerator/grade6/grade6ops.rb	/^    def initialize(width, length)$/;"	f	class:Grade6ops.factors.Rectangle
+initialize	lib/QuestionGenerator/grade6/physics.rb	/^    def initialize$/;"	f	class:Physics.DoubleEchoDist
+initialize	lib/QuestionGenerator/grade6/physics.rb	/^    def initialize$/;"	f	class:Physics.SingleEchoDist
+initialize	lib/QuestionGenerator/grade6/physics.rb	/^    def initialize$/;"	f	class:Physics.SingleEchoTime
+initialize	lib/QuestionGenerator/grade6/preg6.rb	/^    def initialize(num1 = nil, num2 = nil)$/;"	f	class:PreG6.IsDivisible
+initialize	lib/QuestionGenerator/grade6/preg6.rb	/^    def initialize(num1 = nil, num2 = nil)$/;"	f	class:PreG6.Multiplication
+initialize	lib/QuestionGenerator/grade6/preg6.rb	/^    def initialize(num1 = nil, num2 = nil)$/;"	f	class:PreG6.Subtraction
+initialize	lib/QuestionGenerator/grade6/preg6.rb	/^    def initialize(num1 = nil, num2 = nil, norem=false)$/;"	f	class:PreG6.Division
+initialize	lib/QuestionGenerator/grade6/preg6.rb	/^    def initialize(num1=nil, num2=nil)$/;"	f	class:PreG6.CompareNumbers
+initialize	lib/QuestionGenerator/grade6/preg6.rb	/^    def initialize(nums = nil)$/;"	f	class:PreG6.Addition
+initialize	lib/QuestionGenerator/grade7/c1.rb	/^    def initialize$/;"	f	class:Chapter1.FindIntegers
+initialize	lib/QuestionGenerator/modules/units.rb	/^    def initialize(measures, name, modifier)$/;"	f	class:Units.Unit
+initialize	lib/QuestionGenerator/modules/units.rb	/^    def initialize(name)$/;"	f	class:Units.UnitType
+initialize	lib/QuestionGenerator/questionbase.rb	/^  def initialize(labeltext)$/;"	f	class:SubLabel
+initialize	lib/QuestionGenerator/questionbase.rb	/^  def initialize(name, text, resps)$/;"	f	class:CustomProblem.CustomProblemMCQ
+initialize	lib/QuestionGenerator/questionbase.rb	/^  def initialize(name, text, soln)$/;"	f	class:CustomProblem
+initialize	lib/QuestionGenerator/questionbase.rb	/^  def initialize(name, text, soln)$/;"	f	class:CustomProblem.CustomProblemNum
+initialize	lib/QuestionGenerator/questionbase.rb	/^  def initialize(name, text, soln)$/;"	f	class:CustomProblem.CustomProblemText
+initialize	lib/QuestionGenerator/questionbase.rb	/^  def initialize(text, soln={})$/;"	f	class:Subproblem
+initialize	lib/QuestionGenerator/tohtml.rb	/^    def initialize(*args)$/;"	f	class:ToHTML.InlineBlock
+initialize	lib/QuestionGenerator/tohtml.rb	/^    def initialize(*args)$/;"	f	class:ToHTML.PermutationDisplay
+initialize	lib/QuestionGenerator/tohtml.rb	/^    def initialize(*args)$/;"	f	class:ToHTML.PermutationDrag
+initialize	lib/QuestionGenerator/tohtml.rb	/^    def initialize(name)$/;"	f	class:ToHTML.Commabox
+initialize	lib/QuestionGenerator/tohtml.rb	/^    def initialize(name)$/;"	f	class:ToHTML.InputField
+initialize	lib/QuestionGenerator/tohtml.rb	/^    def initialize(name, *args)$/;"	f	class:ToHTML.Dropdown
+initialize	lib/QuestionGenerator/tohtml.rb	/^    def initialize(name, *args)$/;"	f	class:ToHTML.RadioButton
+initialize	lib/QuestionGenerator/tohtml.rb	/^    def initialize(name, label)$/;"	f	class:ToHTML.Checkbox
+initialize	lib/QuestionGenerator/tohtml.rb	/^    def initialize(name, num = 1)$/;"	f	class:ToHTML.MultiTextField
+initialize	lib/QuestionGenerator/tohtml.rb	/^    def initialize(name, num1, num2, sign)$/;"	f	class:ToHTML.AddingField
+initialize	lib/QuestionGenerator/tohtml.rb	/^    def initialize(name, obs, init)$/;"	f	class:ToHTML.TallyMarksField
+initialize	lib/QuestionGenerator/tohtml.rb	/^    def initialize(name, obs, init)$/;"	f	class:ToHTML.TallyMarksLabel
+initialize	lib/QuestionGenerator/tohtml.rb	/^    def initialize(name, obs, init, varhsh)$/;"	f	class:ToHTML.BarGraphField
+initialize	lib/QuestionGenerator/tohtml.rb	/^    def initialize(name, obs, init, varhsh)$/;"	f	class:ToHTML.BarGraphLabel
+initialize	lib/QuestionGenerator/tohtml.rb	/^    def initialize(name, rows, cols)$/;"	f	class:ToHTML.TableField
+initialize	lib/QuestionGenerator/tohtml.rb	/^    def initialize(name, text = "", maxlen=1000)$/;"	f	class:ToHTML.TextField
+initialize	lib/QuestionGenerator/tohtml.rb	/^    def initialize(name, val, bigdiv)$/;"	f	class:ToHTML.InpNumberLine
+initialize	lib/QuestionGenerator/tohtml.rb	/^    def initialize(name, val, bigdiv)$/;"	f	class:ToHTML.MovNumberLine
+initialize	lib/QuestionGenerator/tohtml.rb	/^    def initialize(num, den, intpart=nil)$/;"	f	class:ToHTML.Fraction
+initialize	lib/QuestionGenerator/tohtml.rb	/^    def initialize(string)$/;"	f	class:ToHTML.RomanLabel
+initialize	lib/QuestionGenerator/tohtml.rb	/^    def initialize(string)$/;"	f	class:ToHTML.TextLabel
+initialize	lib/QuestionGenerator/tohtml.rb	/^    def initialize(table)$/;"	f	class:ToHTML.RomanTable
+initialize	lib/QuestionGenerator/tohtml.rb	/^    def initialize(table)$/;"	f	class:ToHTML.TextTable
+initialize	lib/QuestionGenerator/trig.rb	/^    def initialize$/;"	f	class:Trig.RatioGivenOther
+initialize	lib/QuestionGenerator/trig.rb	/^    def initialize$/;"	f	class:Trig.RatiosMissingSide
+initialize	lib/QuestionGenerator/trig.rb	/^    def initialize$/;"	f	class:Trig.RatiosUsingId
+innerRadius	app/assets/javascripts/drawtools.js	/^      var innerRadius = 50;$/;"	v
+innings	lib/QuestionGenerator/cricketdata/cricket.rb	/^  def innings()$/;"	f	class:SingleMatch
+intCircleCircle	lib/QuestionGenerator/geometry.rb	/^  def intCircleCircle(c1, c2)$/;"	f	class:Geometry
+int_commas	lib/QuestionGenerator/grade6/grade6ops.rb	/^  def int_commas$/;"	f	class:Grade6ops.factors.Fixnum
+int_hund	lib/QuestionGenerator/grade6/grade6ops.rb	/^  def self.int_hund?(digit_count)$/;"	F	class:Grade6ops.factors.Fixnum
+int_tens	lib/QuestionGenerator/grade6/grade6ops.rb	/^  def self.int_tens?(digit_count)$/;"	F	class:Grade6ops.factors.Fixnum
+is_name	lib/QuestionGenerator/tohtml.rb	/^    def is_name(tfname)$/;"	f	class:ToHTML.MultiTextField
+is_owner	app/controllers/quizzes_controller.rb	/^  def is_owner(quiz)$/;"	f	class:QuizzesController
+items_from	lib/QuestionGenerator/tohtml.rb	/^    def items_from(response)$/;"	f	class:ToHTML.PermutationDrag
+jen_p	lib/QuestionGenerator/grade6/c12.rb	/^    def jen_p() @item.price(@jen_n, @modifier) end$/;"	f	class:Chapter12.GetEquivalentFraction.RatioToFractionOfTotal.ReduceRatio.RatiosAndTotals.RatiosAndUnits.RatiosAndUnitConversions.EquivalentRatiosHelper.EquivalentRatios.CompleteTheProportion.PriceProportions.type
+kw.Team Work	app/assets/javascripts/bhutan.js	/^  kw={$/;"	p
+last	app/assets/javascripts/numberline.js	/^             var last=off;$/;"	v
+last_correct?	app/models/problem_set_stat.rb	/^  def last_correct?$/;"	f	class:ProblemSetStat
+len_to_css_width	app/helpers/problem_helper.rb	/^  def len_to_css_width(len)$/;"	f	class:ProblemHelper
+length_from_hash	lib/QuestionGenerator/tohtml.rb	/^    def length_from_hash(hash)$/;"	f	class:ToHTML.MultiTextField
+lineState.activate	app/assets/javascripts/drawtools.js	/^    mouse_is_down : false,$/;"	m
+lineState.deactivate	app/assets/javascripts/drawtools.js	/^    },$/;"	m
+lineState.mouse_is_down	app/assets/javascripts/drawtools.js	/^    y1 : mousey,$/;"	p
+lineState.mousedown	app/assets/javascripts/drawtools.js	/^    },$/;"	m
+lineState.mousemove	app/assets/javascripts/drawtools.js	/^    },$/;"	m
+lineState.mouseup	app/assets/javascripts/drawtools.js	/^    },$/;"	m
+lineState.x1	app/assets/javascripts/drawtools.js	/^  var lineState = {$/;"	p
+lineState.y1	app/assets/javascripts/drawtools.js	/^    x1 : mousex,$/;"	p
+m_pack	app/helpers/application_helper.rb	/^  def m_pack(obj)$/;"	f	class:ApplicationHelper
+m_unpack	app/helpers/application_helper.rb	/^  def m_unpack(marshobj)$/;"	f	class:ApplicationHelper
+make_custom_prob_from_params	app/controllers/custom_problems_controller.rb	/^  def make_custom_prob_from_params$/;"	f	class:CustomProblemsController
+make_custom_prob_from_params	app/controllers/problems_controller.rb	/^  def make_custom_prob_from_params$/;"	f
+make_salt	app/models/user.rb	/^  def make_salt$/;"	f	class:User
+me	app/controllers/students_controller.rb	/^  def me$/;"	f	class:StudentsController
+measures	lib/QuestionGenerator/modules/units.rb	/^    def measures$/;"	f	class:Units.Unit
+modifier	lib/QuestionGenerator/modules/units.rb	/^    def modifier$/;"	f	class:Units.Unit
+nav_elts_path	app/helpers/application_helper.rb	/^  def nav_elts_path$/;"	f	class:ApplicationHelper
+new	app/controllers/answers_controller.rb	/^  def new$/;"	f	class:AnswersController
+new	app/controllers/classrooms_controller.rb	/^  def new$/;"	f	class:ClassroomsController
+new	app/controllers/custom_problems_controller.rb	/^  def new$/;"	f	class:CustomProblemsController
+new	app/controllers/problems_controller.rb	/^  def new # CREATES A NEW CUSTOM PROBLEM$/;"	f	class:ProblemsController
+new	app/controllers/quizzes_controller.rb	/^  def new$/;"	f	class:QuizzesController
+new	app/controllers/sessions_controller.rb	/^  def new$/;"	f	class:SessionsController
+new	app/controllers/users_controller.rb	/^  def new$/;"	f	class:UsersController
+new_stat	app/models/problem_set_instance.rb	/^  def new_stat(problem_type, look_up_problem_stat = false)$/;"	f	class:ProblemSetInstance
+next_problem	app/helpers/sessions_helper.rb	/^  def next_problem$/;"	f	class:SessionsHelper
+next_subproblem	app/controllers/problems_controller.rb	/^  def next_subproblem$/;"	f	class:ProblemsController
+nologinhome	app/controllers/pages_controller.rb	/^  def nologinhome$/;"	f	class:PagesController
+notepad	app/controllers/pages_controller.rb	/^  def notepad$/;"	f	class:PagesController
+nullfunc	app/assets/javascripts/drawtools.js	/^  var nullfunc = function() { return null; }$/;"	f
+num	lib/QuestionGenerator/grade6/c12.rb	/^    def num() @r.numerator end$/;"	f	class:Chapter12.GetEquivalentFraction.RatioToFractionOfTotal.ReduceRatio.RatiosAndTotals.type
+numSlides	app/assets/javascripts/pages.js	/^function numSlides() {$/;"	f
+numberline	app/controllers/pages_controller.rb	/^  def numberline$/;"	f	class:PagesController
+outerRadius	app/assets/javascripts/drawtools.js	/^      var outerRadius = 100;$/;"	v
+output	lib/QuestionGenerator/cricketdata/conv_sco.rb	/^  def output()$/;"	f	class:ConvSco
+output	lib/QuestionGenerator/cricketdata/cricket.rb	/^  def output$/;"	f	class:SingleMatch
+p1	lib/QuestionGenerator/geometry.rb	/^    def p1$/;"	f	class:Geometry.Line
+p2	lib/QuestionGenerator/geometry.rb	/^    def p2$/;"	f	class:Geometry.Line
+p_e	app/assets/javascripts/drawtools.js	/^        var p_e = poi.encode();$/;"	v
+params_to_problemtype_ids	app/controllers/quizzes_controller.rb	/^  def params_to_problemtype_ids$/;"	f	class:QuizzesController
+parse_params	app/models/answer.rb	/^  def parse_params$/;"	f	class:Answer
+password_form	app/controllers/users_controller.rb	/^  def password_form$/;"	f	class:UsersController
+percent	app/services/teacher_stat_calc.rb	/^    def percent$/;"	f	class:TeacherStatCalc.Stat
+perimeter	lib/QuestionGenerator/grade6/grade6ops.rb	/^    def perimeter$/;"	f	class:Grade6ops.factors.Triangle
+perimeter	lib/QuestionGenerator/grade6/grade6ops.rb	/^    def perimeter()$/;"	f	class:Grade6ops.factors.Isoceles
+perimeter	lib/QuestionGenerator/grade6/grade6ops.rb	/^    def perimeter()$/;"	f	class:Grade6ops.factors.Rectangle
+perimeter	lib/QuestionGenerator/grade6/grade6ops.rb	/^    def perimeter()$/;"	f	class:Grade6ops.factors.RegShapes
+pick_matches	lib/QuestionGenerator/cricketdata/crqu.rb	/^  def pick_matches(type, team, bb, pname, matches)$/;"	f	class:CricketQuestions
+pick_matches	lib/QuestionGenerator/grade6/crqu.rb	/^  def CricketQuestions.pick_matches(type, team, bb, pname, matches)$/;"	F	class:CricketQuestions
+pick_player	lib/QuestionGenerator/cricketdata/crqu.rb	/^  def pick_player(type, bb,  min_mat, date=Date.new(1877, 1, 1), team="")$/;"	f	class:CricketQuestions
+pick_player	lib/QuestionGenerator/grade6/crqu.rb	/^  def CricketQuestions.pick_player(type, bb,  min_mat, date=Date.new(1877, 1, 1), team="")$/;"	F	class:CricketQuestions
+player	lib/QuestionGenerator/cricketdata/pick_pl.rb	/^  def player$/;"	f	class:PickPlayer
+plmat	lib/QuestionGenerator/cricketdata/pick_pl.rb	/^  def plmat$/;"	f	class:PickPlayer
+pluralize	lib/QuestionGenerator/modules/items.rb	/^    def self.pluralize() "kg of tomatoes" end$/;"	F	class:Items.Tomato
+pluralize	lib/QuestionGenerator/modules/items.rb	/^    def self.pluralize() "pencils" end$/;"	F	class:Items.Tomato.pluralize.singular.Pencil.singular
+pluralize	lib/QuestionGenerator/modules/items.rb	/^    def self.pluralize() "pens" end$/;"	F	class:Items.Tomato.pluralize.singular.Pencil.singular.Pen.singular
+pointsOnLine	lib/QuestionGenerator/grade6/c4.rb	/^  def Chapter4.pointsOnLine(m, b, startx, endx, num_points, start_name = "A")$/;"	F	class:Chapter4
+polygonAtCenter	lib/QuestionGenerator/geometry.rb	/^    def self.polygonAtCenter(dists)$/;"	F	class:Geometry.GeometryBase
+polygonAtCenterWithPoints	lib/QuestionGenerator/geometry.rb	/^    def self.polygonAtCenterWithPoints(name, dists)$/;"	F	class:Geometry.GeometryBase
+prefix_for_questionbase	lib/QuestionGenerator/tohtml.rb	/^  def ToHTML.prefix_for_questionbase(s)$/;"	F	class:ToHTML
+prefix_for_tohtml	lib/QuestionGenerator/tohtml.rb	/^  def ToHTML.prefix_for_tohtml(s)$/;"	F	class:ToHTML
+prefix_solve	lib/QuestionGenerator/questionbase.rb	/^  def prefix_solve$/;"	f	class:QuestionBase
+preprocess	lib/QuestionGenerator/grade6/c1.rb	/^    def preprocess(name, response)$/;"	f	class:Chapter1.PlaceValueTable
+preprocess	lib/QuestionGenerator/grade6/c1.rb	/^    def preprocess(name, response)$/;"	f	class:Chapter1.WritingIndian
+preprocess	lib/QuestionGenerator/grade6/c1.rb	/^    def preprocess(name, response)$/;"	f	class:Chapter1.WritingInternational
+preprocess	lib/QuestionGenerator/grade6/c4.rb	/^    def preprocess(name, response)$/;"	f	class:Chapter4.NameAngles
+preprocess	lib/QuestionGenerator/grade6/c8.rb	/^    def preprocess(name, response)$/;"	f	class:Chapter8.PlaceValueTable
+preprocess	lib/QuestionGenerator/questionbase.rb	/^  def preprocess(name, response)$/;"	f	class:QuestionBase
+preprocess_hash	lib/QuestionGenerator/questionbase.rb	/^  def preprocess_hash(response)$/;"	f	class:QuestionBase
+prereq	lib/QuestionGenerator/grade6/c1.rb	/^    def prereq$/;"	f	class:Chapter1.ArrangeAscending
+prereq	lib/QuestionGenerator/grade6/c1.rb	/^    def prereq$/;"	f	class:Chapter1.ArrangeDescending
+prereq	lib/QuestionGenerator/grade6/c1.rb	/^    def prereq$/;"	f	class:Chapter1.EstimateArithmetic
+prereq	lib/QuestionGenerator/grade6/c2.rb	/^    def prereq$/;"	f	class:Chapter2.AddLargeNumbers
+prereq	lib/QuestionGenerator/grade6/c2.rb	/^    def prereq$/;"	f	class:Chapter2.SuitableRearrangementProduct
+prereq	lib/QuestionGenerator/grade6/c2.rb	/^    def prereq$/;"	f	class:Chapter2.SuitableRearrangementSum
+prereq	lib/QuestionGenerator/grade6/c3.rb	/^    def prereq$/;"	f	class:Chapter3.PrimeFactors
+prereq	lib/QuestionGenerator/grade6/c3.rb	/^    def prereq$/;"	f	class:Chapter3.PrimeFactors.CommonFactors
+prereq	lib/QuestionGenerator/grade6/c3.rb	/^    def prereq$/;"	f	class:Chapter3.PrimeFactors.Div_39.Div_11.SumPrimes
+prereq	lib/QuestionGenerator/grade6/c3.rb	/^    def prereq$/;"	f	class:Chapter3.PrimeFactors.Div_39.Div_11.SumPrimes.initialize.HCF
+prereq	lib/QuestionGenerator/grade6/c3.rb	/^    def prereq$/;"	f	class:Chapter3.PrimeFactors.Div_39.Div_11.SumPrimes.initialize.LCM
+prereq	lib/QuestionGenerator/grade6/c3.rb	/^    def prereq$/;"	f	class:Chapter3.PrimeFactors.Factors
+prereq	lib/QuestionGenerator/grade6/c6.rb	/^    def prereq$/;"	f	class:Chapter6.AddSubIntegers
+prereq	lib/QuestionGenerator/grade6/c6.rb	/^    def prereq$/;"	f	class:Chapter6.CompareAddSub
+prereq	lib/QuestionGenerator/grade6/c6.rb	/^    def prereq$/;"	f	class:Chapter6.SubtractIntegers
+price	lib/QuestionGenerator/modules/items.rb	/^    def self.price(n = 1, m = 0)$/;"	F	class:Items.Item
+problem	app/models/problem.rb	/^  def problem$/;"	f	class:Problem
+problem_results	app/controllers/problem_sets_controller.rb	/^  def problem_results$/;"	f	class:ProblemSetsController
+problem_results	app/controllers/quiz_instances_controller.rb	/^  def problem_results$/;"	f	class:QuizInstanceController
+profile	app/controllers/users_controller.rb	/^  def profile$/;"	f	class:UsersController
+protState.activate	app/assets/javascripts/drawtools.js	/^    mouse_is_down : false,$/;"	m
+protState.deactivate	app/assets/javascripts/drawtools.js	/^    },$/;"	m
+protState.mouse_is_down	app/assets/javascripts/drawtools.js	/^    on_protractor : false,$/;"	p
+protState.mousedown	app/assets/javascripts/drawtools.js	/^    },$/;"	m
+protState.mousemove	app/assets/javascripts/drawtools.js	/^    },$/;"	m
+protState.mouseup	app/assets/javascripts/drawtools.js	/^    },$/;"	m
+protState.on_protractor	app/assets/javascripts/drawtools.js	/^    tool : "protractor",  $/;"	p
+protState.tool	app/assets/javascripts/drawtools.js	/^  var protState = {$/;"	p
+ptype	app/models/problem.rb	/^  def ptype$/;"	f	class:Problem
+ptypes	app/models/quiz.rb	/^  def ptypes$/;"	f	class:Quiz
+putbb	lib/QuestionGenerator/cricketdata/matchno.rb	/^  def putbb$/;"	f	class:MatchNo
+putd	app/helpers/application_helper.rb	/^  def putd(date)$/;"	f	class:ApplicationHelper
+quiz_name	app/helpers/sessions_helper.rb	/^  def quiz_name$/;"	f	class:SessionsHelper
+quiz_score	app/models/user.rb	/^  def quiz_score(quiz) $/;"	f	class:User
+quiz_user	app/helpers/sessions_helper.rb	/^  def quiz_user$/;"	f	class:SessionsHelper
+randCenterLine	lib/QuestionGenerator/geometry.rb	/^    def self.randCenterLine(length, allow_vertical = false)$/;"	F	class:Geometry.GeometryBase
+rand_nonzero	lib/QuestionGenerator/grade6/grade6ops.rb	/^  def Grade6ops.rand_nonzero$/;"	F	class:Grade6ops.factors
+rand_num	lib/QuestionGenerator/grade6/grade6ops.rb	/^  def Grade6ops.rand_num(p_zero = 0.43, minlen = 7, maxlen = 8)$/;"	F	class:Grade6ops.factors
+random_elt	lib/QuestionGenerator/grade6/grade6ops.rb	/^  def Grade6ops.random_elt(*args)$/;"	F	class:Grade6ops.factors
+random_operation	lib/QuestionGenerator/grade6/grade6ops.rb	/^  def Grade6ops.random_operation$/;"	F	class:Grade6ops.factors
+ratio_field	lib/QuestionGenerator/grade6/c12.rb	/^  def self.ratio_field(name)$/;"	F	class:Chapter12
+regularPolygonAtCenter	lib/QuestionGenerator/geometry.rb	/^    def self.regularPolygonAtCenter(name, numpoints, length="")$/;"	F	class:Geometry.GeometryBase
+rel_mt_fields	app/assets/javascripts/problem.js	/^function rel_mt_fields(btn) {$/;"	f
+remember_token	app/helpers/sessions_helper.rb	/^  def remember_token$/;"	f	class:SessionsHelper
+remove_problem_type	app/models/quiz.rb	/^  def remove_problem_type(problem_type)$/;"	f	class:Quiz
+render_subprob	app/helpers/problem_helper.rb	/^  def render_subprob(subprob, index)$/;"	f	class:ProblemHelper
+resetTimer	app/assets/javascripts/pages.js	/^function resetTimer(time) {$/;"	f
+response_hash	app/models/answer.rb	/^  def response_hash$/;"	f	class:Answer
+rm_prefix	lib/QuestionGenerator/tohtml.rb	/^  def ToHTML.rm_prefix(s)$/;"	F	class:ToHTML
+round	lib/QuestionGenerator/geometry.rb	/^    def round(deg = 0)$/;"	f	class:Geometry.Point
+round	lib/QuestionGenerator/grade6/grade6ops.rb	/^  def round(rd=-1)$/;"	f	class:Grade6ops.factors.Fixnum
+round!	lib/QuestionGenerator/geometry.rb	/^    def round!(deg = 0)$/;"	f	class:Geometry.Line
+rulerState.activate	app/assets/javascripts/drawtools.js	/^    last_dist : "n\/a",$/;"	p
+rulerState.deactivate	app/assets/javascripts/drawtools.js	/^    activate : nullfunc,$/;"	p
+rulerState.last_dist	app/assets/javascripts/drawtools.js	/^    y : 0,$/;"	p
+rulerState.mouse_is_down	app/assets/javascripts/drawtools.js	/^  var rulerState = {$/;"	p
+rulerState.mousedown	app/assets/javascripts/drawtools.js	/^    deactivate : nullfunc,$/;"	m
+rulerState.mousemove	app/assets/javascripts/drawtools.js	/^    },$/;"	m
+rulerState.mouseup	app/assets/javascripts/drawtools.js	/^    },$/;"	m
+rulerState.x	app/assets/javascripts/drawtools.js	/^    mouse_is_down : false,$/;"	p
+rulerState.y	app/assets/javascripts/drawtools.js	/^    x : 0,$/;"	p
+s	lib/QuestionGenerator/modules/items.rb	/^    def self.s$/;"	F	class:Items.Item
+s	lib/QuestionGenerator/modules/items.rb	/^    def self.s() "tomatoes" end$/;"	F	class:Items.Tomato.pluralize.singular
+s_e	app/assets/javascripts/drawtools.js	/^        var s_e = s.encode();$/;"	v
+save_last_problem	app/controllers/problems_controller.rb	/^  def save_last_problem$/;"	f	class:ProblemsController
+second_half	app/helpers/application_helper.rb	/^  def second_half(arr, n)$/;"	f	class:ApplicationHelper
+secure_hash	app/models/user.rb	/^  def secure_hash(string)$/;"	f	class:User
+selectState.s_i	app/assets/javascripts/drawtools.js	/^  var selectState = {$/;"	p
+select_class_text	app/helpers/teachers_helper.rb	/^  def select_class_text$/;"	f	class:TeachersHelper
+select_classroom	app/controllers/details_controller.rb	/^  def select_classroom$/;"	f	class:DetailsController
+select_problem_set	app/controllers/details_controller.rb	/^  def select_problem_set$/;"	f	class:DetailsController
+selected?	app/helpers/application_helper.rb	/^  def selected?(s)$/;"	f	class:ApplicationHelper
+selectedShapes	lib/QuestionGenerator/geometry.rb	/^    def self.selectedShapes(response)$/;"	F	class:Geometry.GeometryBase
+setCurQuiz	app/assets/javascripts/problem.js	/^function setCurQuiz() {$/;"	f
+setMouseXY	app/assets/javascripts/numberline.js	/^  function setMouseXY(e) {$/;"	f
+setNavLineWidths	app/assets/javascripts/nav.js	/^function setNavLineWidths() {$/;"	f
+setPageFunc	app/assets/javascripts/pages.js	/^function setPageFunc(name, height) {$/;"	f
+setSlide	app/assets/javascripts/pages.js	/^function setSlide(num) {$/;"	f
+setState	app/assets/javascripts/drawtools.js	/^  function setState(newstate) {$/;"	f
+setUpDataGr	app/assets/javascripts/datagr.js	/^function setUpDataGr(cname, tname) {$/;"	f
+setUpDataGr.grph.color	app/assets/javascripts/datagr.js	/^    scale : 30,$/;"	p
+setUpDataGr.grph.mg	app/assets/javascripts/datagr.js	/^  var grph={$/;"	p
+setUpDataGr.grph.scale	app/assets/javascripts/datagr.js	/^    type : "basicbar",$/;"	p
+setUpDataGr.grph.type	app/assets/javascripts/datagr.js	/^    mg : 50,$/;"	p
+setUpGeo	app/assets/javascripts/drawtools.js	/^function setUpGeo() {$/;"	f
+setUpGeo.addShapeCallbacks	app/assets/javascripts/drawtools.js	/^  function addShapeCallbacks() {$/;"	f
+setUpGeo.clearMessage	app/assets/javascripts/drawtools.js	/^  function clearMessage(){$/;"	f
+setUpGeo.drawCircle	app/assets/javascripts/drawtools.js	/^  function drawCircle(x, y, r, color, width) {$/;"	f
+setUpGeo.getActivePOIs	app/assets/javascripts/drawtools.js	/^  function getActivePOIs() {$/;"	f
+setUpGeo.getSelectedShapes	app/assets/javascripts/drawtools.js	/^  function getSelectedShapes() {$/;"	f
+setUpGeo.getStartShapes	app/assets/javascripts/drawtools.js	/^  function getStartShapes(){$/;"	f
+setUpGeo.getStartState	app/assets/javascripts/drawtools.js	/^  function getStartState() {$/;"	f
+setUpGeo.poiCircleCircle	app/assets/javascripts/drawtools.js	/^  function poiCircleCircle(c1, c2) {$/;"	f
+setUpGeo.poiLineCircle	app/assets/javascripts/drawtools.js	/^  function poiLineCircle(l, c) {$/;"	f
+setUpGeo.poiLineLine	app/assets/javascripts/drawtools.js	/^  function poiLineLine(l1, l2) {$/;"	f
+setUpGeo.redraw	app/assets/javascripts/drawtools.js	/^  function redraw(){$/;"	f
+setUpGeo.setMouseXY	app/assets/javascripts/drawtools.js	/^  function setMouseXY(e) {$/;"	f
+setUpGeo.updatePOIs	app/assets/javascripts/drawtools.js	/^  function updatePOIs() {$/;"	f
+setUpGeo.writeMessage	app/assets/javascripts/drawtools.js	/^  function writeMessage(message){$/;"	f
+setUpGeo.writeShapeHTML	app/assets/javascripts/drawtools.js	/^  function writeShapeHTML() {$/;"	f
+setUpGeo.writeShapes	app/assets/javascripts/drawtools.js	/^  var writeShapes = function(){$/;"	f
+setUpNL	app/assets/javascripts/numberline.js	/^function setUpNL(canname, name, editable, movable, which) {$/;"	f
+setUpNL.malNumLine.center	app/assets/javascripts/numberline.js	/^    num : 10,$/;"	p
+setUpNL.malNumLine.num	app/assets/javascripts/numberline.js	/^  var malNumLine={  $/;"	p
+set_examples	app/helpers/sessions_helper.rb	/^  def set_examples(ptype)$/;"	f	class:SessionsHelper
+set_field	lib/QuestionGenerator/tohtml.rb	/^    def set_field(row, col, val)$/;"	f	class:ToHTML.TableField
+set_mt_field_ids	app/assets/javascripts/problem.js	/^function set_mt_field_ids(fields) {$/;"	f
+set_problem_orders	app/models/quiz.rb	/^  def set_problem_orders$/;"	f	class:Quiz
+set_probs	app/helpers/sessions_helper.rb	/^  def set_probs(*probs)$/;"	f	class:SessionsHelper
+set_quiz	app/helpers/sessions_helper.rb	/^  def set_quiz(quiz)$/;"	f	class:SessionsHelper
+set_stat_widths	app/assets/javascripts/teachers.js	/^function set_stat_widths(elt, total) {$/;"	f
+set_vars_from	app/controllers/problems_controller.rb	/^  def set_vars_from(params)$/;"	f	class:ProblemsController
+shapesFromResponse	lib/QuestionGenerator/geometry.rb	/^    def self.shapesFromResponse(response)$/;"	F	class:Geometry.GeometryBase
+show	app/controllers/answers_controller.rb	/^  def show$/;"	f	class:AnswersController
+show	app/controllers/classrooms_controller.rb	/^  def show$/;"	f	class:ClassroomsController
+show	app/controllers/problem_sets_controller.rb	/^  def show$/;"	f	class:ProblemSetsController
+show	app/controllers/problems_controller.rb	/^  def show$/;"	f	class:ProblemsController
+show	app/controllers/quiz_instances_controller.rb	/^  def show$/;"	f	class:QuizInstanceController
+show	app/controllers/quizzes_controller.rb	/^  def show$/;"	f	class:QuizzesController
+show	app/controllers/students_controller.rb	/^  def show$/;"	f	class:StudentsController
+show	app/controllers/users_controller.rb	/^  def show$/;"	f	class:UsersController
+sign_in	app/helpers/sessions_helper.rb	/^  def sign_in(user)$/;"	f	class:SessionsHelper
+sign_out	app/helpers/sessions_helper.rb	/^  def sign_out$/;"	f	class:SessionsHelper
+signed_in?	app/helpers/sessions_helper.rb	/^  def signed_in?$/;"	f	class:SessionsHelper
+singular	lib/QuestionGenerator/modules/items.rb	/^    def self.singular() "kg of tomatoes" end$/;"	F	class:Items.Tomato.pluralize
+singular	lib/QuestionGenerator/modules/items.rb	/^    def self.singular() "pen" end$/;"	F	class:Items.Tomato.pluralize.singular.Pencil.singular.Pen
+singular	lib/QuestionGenerator/modules/items.rb	/^    def self.singular() "pencil" end$/;"	F	class:Items.Tomato.pluralize.singular.Pencil
+slideNo	app/assets/javascripts/pages.js	/^function slideNo() {$/;"	f
+small_round	lib/QuestionGenerator/grade6/c1.rb	/^    def small_round$/;"	f	class:Chapter1.EstimateArithmetic
+smaller	lib/QuestionGenerator/grade6/c1.rb	/^    def smaller$/;"	f	class:Chapter1.EstimateArithmetic
+smart_score	app/models/concerns/follows_problem_stat.rb	/^  def smart_score$/;"	f	class:FollowsProblemStat
+smart_score	app/models/problem_stat.rb	/^  def smart_score$/;"	f	class:ProblemStat
+smart_score	app/models/quiz.rb	/^  def smart_score$/;"	f	class:Quiz
+smart_score	app/models/user.rb	/^  def smart_score(ptype)$/;"	f	class:User
+smart_score	app/services/teacher_stat_calc.rb	/^  def smart_score(r)$/;"	f	class:TeacherStatCalc
+smartscore_class	app/helpers/application_helper.rb	/^  def smartscore_class(smartscore)$/;"	f	class:ApplicationHelper
+soln	lib/QuestionGenerator/questionbase.rb	/^  def soln$/;"	f	class:QuestionBase
+solve	app/models/problem.rb	/^  def solve$/;"	f	class:Problem
+solve	lib/QuestionGenerator/cricketdata/crqu.rb	/^    def solve$/;"	f	class:CricketQuestions.CrBatAverage
+solve	lib/QuestionGenerator/cricketdata/crqu.rb	/^    def solve$/;"	f	class:CricketQuestions.CrBowlAverage
+solve	lib/QuestionGenerator/cricketdata/crqu.rb	/^    def solve$/;"	f	class:CricketQuestions.CrStrikeRate
+solve	lib/QuestionGenerator/cricketdata/crqu.rb	/^    def solve$/;"	f	class:CricketQuestions.CrStrikeRateBowling
+solve	lib/QuestionGenerator/grade6/c1.rb	/^    def solve $/;"	f	class:Chapter1.ToArabic
+solve	lib/QuestionGenerator/grade6/c1.rb	/^    def solve$/;"	f	class:Chapter1.AddCommasIndian
+solve	lib/QuestionGenerator/grade6/c1.rb	/^    def solve$/;"	f	class:Chapter1.AddCommasInternational
+solve	lib/QuestionGenerator/grade6/c1.rb	/^    def solve$/;"	f	class:Chapter1.ArrangeAscending
+solve	lib/QuestionGenerator/grade6/c1.rb	/^    def solve$/;"	f	class:Chapter1.ArrangeDescending
+solve	lib/QuestionGenerator/grade6/c1.rb	/^    def solve$/;"	f	class:Chapter1.ConvertUnits
+solve	lib/QuestionGenerator/grade6/c1.rb	/^    def solve$/;"	f	class:Chapter1.ConvertUnitsSimple
+solve	lib/QuestionGenerator/grade6/c1.rb	/^    def solve$/;"	f	class:Chapter1.EstimateArithmetic
+solve	lib/QuestionGenerator/grade6/c1.rb	/^    def solve$/;"	f	class:Chapter1.ExpandNumbers
+solve	lib/QuestionGenerator/grade6/c1.rb	/^    def solve$/;"	f	class:Chapter1.ExpandNumbers1
+solve	lib/QuestionGenerator/grade6/c1.rb	/^    def solve$/;"	f	class:Chapter1.ExpandNumbers2
+solve	lib/QuestionGenerator/grade6/c1.rb	/^    def solve$/;"	f	class:Chapter1.FindMaxNumber
+solve	lib/QuestionGenerator/grade6/c1.rb	/^    def solve$/;"	f	class:Chapter1.FindMinNumber
+solve	lib/QuestionGenerator/grade6/c1.rb	/^    def solve$/;"	f	class:Chapter1.PlaceValueTable
+solve	lib/QuestionGenerator/grade6/c1.rb	/^    def solve$/;"	f	class:Chapter1.ReadingIndian
+solve	lib/QuestionGenerator/grade6/c1.rb	/^    def solve$/;"	f	class:Chapter1.ReadingInternational
+solve	lib/QuestionGenerator/grade6/c1.rb	/^    def solve$/;"	f	class:Chapter1.RoundingNumbers
+solve	lib/QuestionGenerator/grade6/c1.rb	/^    def solve$/;"	f	class:Chapter1.ShiftingDigits
+solve	lib/QuestionGenerator/grade6/c1.rb	/^    def solve$/;"	f	class:Chapter1.ShiftingDigitsGr
+solve	lib/QuestionGenerator/grade6/c1.rb	/^    def solve$/;"	f	class:Chapter1.ShiftingDigitsLs
+solve	lib/QuestionGenerator/grade6/c1.rb	/^    def solve$/;"	f	class:Chapter1.ToRoman
+solve	lib/QuestionGenerator/grade6/c1.rb	/^    def solve$/;"	f	class:Chapter1.WordProbDiff
+solve	lib/QuestionGenerator/grade6/c1.rb	/^    def solve$/;"	f	class:Chapter1.WordProbSum
+solve	lib/QuestionGenerator/grade6/c1.rb	/^    def solve$/;"	f	class:Chapter1.WritingIndian
+solve	lib/QuestionGenerator/grade6/c1.rb	/^    def solve$/;"	f	class:Chapter1.WritingInternational
+solve	lib/QuestionGenerator/grade6/c10.rb	/^		def solve$/;"	f	class:Chapter10.FindPerimeterRegular
+solve	lib/QuestionGenerator/grade6/c10.rb	/^		def solve$/;"	f	class:Chapter10.FindSideRegular
+solve	lib/QuestionGenerator/grade6/c10.rb	/^    def solve$/;"	f	class:Chapter10.FindAreaRectangle
+solve	lib/QuestionGenerator/grade6/c10.rb	/^    def solve$/;"	f	class:Chapter10.FindPerimeterRectangle
+solve	lib/QuestionGenerator/grade6/c11.rb	/^    def solve$/;"	f	class:Chapter11.SimpleVariableAddSub
+solve	lib/QuestionGenerator/grade6/c11.rb	/^    def solve$/;"	f	class:Chapter11.SimpleVariableMult
+solve	lib/QuestionGenerator/grade6/c12.rb	/^		def solve$/;"	f	class:Chapter12.GetEquivalentFraction.RatioToFractionOfTotal.ReduceRatio.RatiosAndTotals.RatiosAndUnits.RatiosAndUnitConversions.EquivalentRatiosHelper.EquivalentRatios.CompleteTheProportion.PriceProportions.PricePerUnit.UnitaryCompareSize.Proportion
+solve	lib/QuestionGenerator/grade6/c12.rb	/^		def solve$/;"	f	class:Chapter12.GetEquivalentFraction.RatioToFractionOfTotal.ReduceRatio.RatiosAndTotals.RatiosAndUnits.RatiosAndUnitConversions.EquivalentRatiosHelper.EquivalentRatios.CompleteTheProportion.PriceProportions.PricePerUnit.UnitaryCompareSize.RatioStudent
+solve	lib/QuestionGenerator/grade6/c12.rb	/^		def solve$/;"	f	class:Chapter12.GetEquivalentFraction.RatioToFractionOfTotal.ReduceRatio.RatiosAndTotals.RatiosAndUnits.RatiosAndUnitConversions.EquivalentRatiosHelper.EquivalentRatios.CompleteTheProportion.PriceProportions.PricePerUnit.UnitaryCompareSize.SumRat
+solve	lib/QuestionGenerator/grade6/c12.rb	/^      def solve$/;"	f	class:Chapter12.GetEquivalentFraction.RatioToFractionOfTotal.ReduceRatio.RatiosAndTotals.RatiosAndUnits.RatiosAndUnitConversions.EquivalentRatiosHelper.EquivalentRatios.CompleteTheProportion.PriceProportions.PricePerUnit.UnitaryCompareSize.FindRatioDiff.explain
+solve	lib/QuestionGenerator/grade6/c12.rb	/^      def solve$/;"	f	class:Chapter12.GetEquivalentFraction.RatioToFractionOfTotal.ReduceRatio.RatiosAndTotals.RatiosAndUnits.RatiosAndUnitConversions.EquivalentRatiosHelper.EquivalentRatios.CompleteTheProportion.PriceProportions.PricePerUnit.UnitaryCompareSize.FindRatioSame.explain
+solve	lib/QuestionGenerator/grade6/c12.rb	/^    def solve$/;"	f	class:Chapter12.GetEquivalentFraction.DefRatio
+solve	lib/QuestionGenerator/grade6/c12.rb	/^    def solve$/;"	f	class:Chapter12.GetEquivalentFraction.RatioToFractionOfTotal.ReduceRatio.RatiosAndTotals.RatiosAndUnits.RatiosAndUnitConversions.EquivalentRatiosHelper.EquivalentRatios.CompleteTheProportion.PriceProportions.PricePerUnit.UnitaryCompareSize.RatioCompCostWord
+solve	lib/QuestionGenerator/grade6/c12.rb	/^    def solve$/;"	f	class:Chapter12.GetEquivalentFraction.RatioToFractionOfTotal.ReduceRatio.RatiosAndTotals.RatiosAndUnits.RatiosAndUnitConversions.EquivalentRatiosHelper.EquivalentRatios.CompleteTheProportion.PriceProportions.PricePerUnit.UnitaryCompareSize.UnitaryMethod
+solve	lib/QuestionGenerator/grade6/c12.rb	/^    def solve$/;"	f	class:Chapter12.GetEquivalentFraction.RatioToFractionOfTotal.ReduceRatio.RatiosAndTotals.RatiosAndUnits.RatiosAndUnitConversions.EquivalentRatiosHelper.EquivalentRatios.CompleteTheProportion.PriceProportions.PricePerUnit.UnitaryCompareSize.type
+solve	lib/QuestionGenerator/grade6/c12.rb	/^    def solve$/;"	f	class:Chapter12.GetEquivalentFraction.RatioToFractionOfTotal.ReduceRatio.RatiosAndTotals.RatiosAndUnits.RatiosAndUnitConversions.EquivalentRatiosHelper.EquivalentRatios.CompleteTheProportion.PriceProportions.PricePerUnit.type
+solve	lib/QuestionGenerator/grade6/c12.rb	/^    def solve$/;"	f	class:Chapter12.GetEquivalentFraction.RatioToFractionOfTotal.ReduceRatio.RatiosAndTotals.RatiosAndUnits.RatiosAndUnitConversions.EquivalentRatiosHelper.EquivalentRatios.CompleteTheProportion.PriceProportions.type
+solve	lib/QuestionGenerator/grade6/c12.rb	/^    def solve$/;"	f	class:Chapter12.GetEquivalentFraction.RatioToFractionOfTotal.ReduceRatio.RatiosAndTotals.RatiosAndUnits.RatiosAndUnitConversions.EquivalentRatiosHelper.EquivalentRatios.CompleteTheProportion.type
+solve	lib/QuestionGenerator/grade6/c12.rb	/^    def solve$/;"	f	class:Chapter12.GetEquivalentFraction.RatioToFractionOfTotal.ReduceRatio.RatiosAndTotals.RatiosAndUnits.RatiosAndUnitConversions.EquivalentRatiosHelper.EquivalentRatios.FillInEquivRatios
+solve	lib/QuestionGenerator/grade6/c12.rb	/^    def solve$/;"	f	class:Chapter12.GetEquivalentFraction.RatioToFractionOfTotal.ReduceRatio.RatiosAndTotals.RatiosAndUnits.RatiosAndUnitConversions.EquivalentRatiosMethods
+solve	lib/QuestionGenerator/grade6/c12.rb	/^    def solve$/;"	f	class:Chapter12.GetEquivalentFraction.RatioToFractionOfTotal.ReduceRatio.RatiosAndTotals.RatiosAndUnits.type
+solve	lib/QuestionGenerator/grade6/c12.rb	/^    def solve$/;"	f	class:Chapter12.GetEquivalentFraction.RatioToFractionOfTotal.ReduceRatio.RatiosAndTotals.type
+solve	lib/QuestionGenerator/grade6/c12.rb	/^    def solve$/;"	f	class:Chapter12.GetEquivalentFraction.RatioToFractionOfTotal.ReduceRatio.type
+solve	lib/QuestionGenerator/grade6/c12.rb	/^    def solve$/;"	f	class:Chapter12.GetEquivalentFraction.RatioToFractionOfTotal.type
+solve	lib/QuestionGenerator/grade6/c12.rb	/^    def solve()$/;"	f	class:Chapter12.GetEquivalentFraction.type
+solve	lib/QuestionGenerator/grade6/c2.rb	/^    def solve $/;"	f	class:Chapter2.SuitableRearrangementProduct
+solve	lib/QuestionGenerator/grade6/c2.rb	/^    def solve$/;"	f	class:Chapter2.AddLargeNumbers
+solve	lib/QuestionGenerator/grade6/c2.rb	/^    def solve$/;"	f	class:Chapter2.SuitableRearrangementSum
+solve	lib/QuestionGenerator/grade6/c2.rb	/^    def solve$/;"	f	class:Chapter2.WritePredecessors
+solve	lib/QuestionGenerator/grade6/c2.rb	/^    def solve$/;"	f	class:Chapter2.WriteSuccessors
+solve	lib/QuestionGenerator/grade6/c3.rb	/^    def solve $/;"	f	class:Chapter3.PrimeFactors.Div_39.Div_10
+solve	lib/QuestionGenerator/grade6/c3.rb	/^    def solve $/;"	f	class:Chapter3.PrimeFactors.Div_39.Div_11
+solve	lib/QuestionGenerator/grade6/c3.rb	/^    def solve $/;"	f	class:Chapter3.PrimeFactors.Div_39.Div_5
+solve	lib/QuestionGenerator/grade6/c3.rb	/^    def solve$/;"	f	class:Chapter3.IdentifyPrimes
+solve	lib/QuestionGenerator/grade6/c3.rb	/^    def solve$/;"	f	class:Chapter3.PrimeFactors
+solve	lib/QuestionGenerator/grade6/c3.rb	/^    def solve$/;"	f	class:Chapter3.PrimeFactors.CommonFactors
+solve	lib/QuestionGenerator/grade6/c3.rb	/^    def solve$/;"	f	class:Chapter3.PrimeFactors.Div_39
+solve	lib/QuestionGenerator/grade6/c3.rb	/^    def solve$/;"	f	class:Chapter3.PrimeFactors.Div_39.Div_11.Div_6
+solve	lib/QuestionGenerator/grade6/c3.rb	/^    def solve$/;"	f	class:Chapter3.PrimeFactors.Div_39.Div_11.SumPrimes.initialize
+solve	lib/QuestionGenerator/grade6/c3.rb	/^    def solve$/;"	f	class:Chapter3.PrimeFactors.Div_39.Div_11.SumPrimes.initialize.HCF
+solve	lib/QuestionGenerator/grade6/c3.rb	/^    def solve$/;"	f	class:Chapter3.PrimeFactors.Div_39.Div_11.SumPrimes.initialize.HCFEA
+solve	lib/QuestionGenerator/grade6/c3.rb	/^    def solve$/;"	f	class:Chapter3.PrimeFactors.Div_39.Div_11.SumPrimes.initialize.LCM
+solve	lib/QuestionGenerator/grade6/c3.rb	/^    def solve$/;"	f	class:Chapter3.PrimeFactors.Div_39.Div_11.SumPrimes.initialize.LCMEA
+solve	lib/QuestionGenerator/grade6/c3.rb	/^    def solve$/;"	f	class:Chapter3.PrimeFactors.Div_39.Div_11.SumPrimes.initialize.MultHCF
+solve	lib/QuestionGenerator/grade6/c3.rb	/^    def solve$/;"	f	class:Chapter3.PrimeFactors.Div_39.Div_11.SumPrimes.initialize.MultHCFEA
+solve	lib/QuestionGenerator/grade6/c3.rb	/^    def solve$/;"	f	class:Chapter3.PrimeFactors.Div_39.Div_11.SumPrimes.initialize.MultLCM
+solve	lib/QuestionGenerator/grade6/c3.rb	/^    def solve$/;"	f	class:Chapter3.PrimeFactors.Div_39.Div_11.SumPrimes.initialize.MultLCMEA
+solve	lib/QuestionGenerator/grade6/c3.rb	/^    def solve$/;"	f	class:Chapter3.PrimeFactors.Div_39.Div_248
+solve	lib/QuestionGenerator/grade6/c3.rb	/^    def solve$/;"	f	class:Chapter3.PrimeFactors.Factors
+solve	lib/QuestionGenerator/grade6/c4.rb	/^    def solve $/;"	f	class:Chapter4.DefDiagonal
+solve	lib/QuestionGenerator/grade6/c4.rb	/^    def solve$/;"	f	class:Chapter4.AdjacentSides
+solve	lib/QuestionGenerator/grade6/c4.rb	/^    def solve$/;"	f	class:Chapter4.AdjacentVertices
+solve	lib/QuestionGenerator/grade6/c4.rb	/^    def solve$/;"	f	class:Chapter4.DefPolygon
+solve	lib/QuestionGenerator/grade6/c4.rb	/^    def solve$/;"	f	class:Chapter4.DefVerticesMethods
+solve	lib/QuestionGenerator/grade6/c4.rb	/^    def solve$/;"	f	class:Chapter4.NameAngles
+solve	lib/QuestionGenerator/grade6/c4.rb	/^    def solve$/;"	f	class:Chapter4.NameLine
+solve	lib/QuestionGenerator/grade6/c4.rb	/^    def solve$/;"	f	class:Chapter4.NameTriangles
+solve	lib/QuestionGenerator/grade6/c6.rb	/^    def solve$/;"	f	class:Chapter6.AddNumberLine
+solve	lib/QuestionGenerator/grade6/c6.rb	/^    def solve$/;"	f	class:Chapter6.AddSubIntegers
+solve	lib/QuestionGenerator/grade6/c6.rb	/^    def solve$/;"	f	class:Chapter6.CompareAddSub
+solve	lib/QuestionGenerator/grade6/c6.rb	/^    def solve$/;"	f	class:Chapter6.CompareIntegers
+solve	lib/QuestionGenerator/grade6/c6.rb	/^    def solve$/;"	f	class:Chapter6.IntNumberLine
+solve	lib/QuestionGenerator/grade6/c6.rb	/^    def solve$/;"	f	class:Chapter6.SubNumberLine
+solve	lib/QuestionGenerator/grade6/c6.rb	/^    def solve$/;"	f	class:Chapter6.SubtractIntegers
+solve	lib/QuestionGenerator/grade6/c7.rb	/^    def solve$/;"	f	class:Chapter7.ASLikeFractions
+solve	lib/QuestionGenerator/grade6/c7.rb	/^    def solve$/;"	f	class:Chapter7.ASMixedFractions
+solve	lib/QuestionGenerator/grade6/c7.rb	/^    def solve$/;"	f	class:Chapter7.ASUnlikeFractions
+solve	lib/QuestionGenerator/grade6/c7.rb	/^    def solve$/;"	f	class:Chapter7.CompareLikeFrac
+solve	lib/QuestionGenerator/grade6/c7.rb	/^    def solve$/;"	f	class:Chapter7.CompareUnlikeFrac
+solve	lib/QuestionGenerator/grade6/c7.rb	/^    def solve$/;"	f	class:Chapter7.EquivalentFractions
+solve	lib/QuestionGenerator/grade6/c7.rb	/^    def solve$/;"	f	class:Chapter7.FillDenominator
+solve	lib/QuestionGenerator/grade6/c7.rb	/^    def solve$/;"	f	class:Chapter7.FillNumerator
+solve	lib/QuestionGenerator/grade6/c7.rb	/^    def solve$/;"	f	class:Chapter7.ReduceFractions
+solve	lib/QuestionGenerator/grade6/c7.rb	/^    def solve$/;"	f	class:Chapter7.ReduceFractionsEA
+solve	lib/QuestionGenerator/grade6/c7.rb	/^    def solve$/;"	f	class:Chapter7.ToImproperFractions
+solve	lib/QuestionGenerator/grade6/c7.rb	/^    def solve$/;"	f	class:Chapter7.ToMixedFractions
+solve	lib/QuestionGenerator/grade6/c8.rb	/^    def solve $/;"	f	class:Chapter8.DecSigDigits
+solve	lib/QuestionGenerator/grade6/c8.rb	/^    def solve$/;"	f	class:AddSubDecimals
+solve	lib/QuestionGenerator/grade6/c8.rb	/^    def solve$/;"	f	class:Chapter8
+solve	lib/QuestionGenerator/grade6/c8.rb	/^    def solve$/;"	f	class:Chapter8.DecimalsToFractions
+solve	lib/QuestionGenerator/grade6/c8.rb	/^    def solve$/;"	f	class:Chapter8.MaxDecSigDigits
+solve	lib/QuestionGenerator/grade6/c8.rb	/^    def solve$/;"	f	class:Chapter8.PlaceValueTable
+solve	lib/QuestionGenerator/grade6/c8.rb	/^    def solve$/;"	f	class:UnitsDecDecrease
+solve	lib/QuestionGenerator/grade6/c8.rb	/^    def solve$/;"	f	class:UnitsDecIncrease
+solve	lib/QuestionGenerator/grade6/c9.rb	/^    def solve$/;"	f	class:Chapter9.BarQues
+solve	lib/QuestionGenerator/grade6/c9.rb	/^    def solve$/;"	f	class:Chapter9.CreateBar
+solve	lib/QuestionGenerator/grade6/c9.rb	/^    def solve$/;"	f	class:Chapter9.CreateTally
+solve	lib/QuestionGenerator/grade6/c9.rb	/^    def solve$/;"	f	class:Chapter9.TallyQues
+solve	lib/QuestionGenerator/grade6/crqu.rb	/^    def solve$/;"	f	class:CricketQuestions.CrBatAverage
+solve	lib/QuestionGenerator/grade6/crqu.rb	/^    def solve$/;"	f	class:CricketQuestions.CrBowlAverage
+solve	lib/QuestionGenerator/grade6/crqu.rb	/^    def solve$/;"	f	class:CricketQuestions.CrStrikeRate
+solve	lib/QuestionGenerator/grade6/crqu.rb	/^    def solve$/;"	f	class:CricketQuestions.CrStrikeRateBowling
+solve	lib/QuestionGenerator/grade6/geo.rb	/^    def solve$/;"	f	class:Geo.BisectLine
+solve	lib/QuestionGenerator/grade6/physics.rb	/^    def solve$/;"	f	class:Physics.DoubleEchoDist
+solve	lib/QuestionGenerator/grade6/physics.rb	/^    def solve$/;"	f	class:Physics.SingleEchoDist
+solve	lib/QuestionGenerator/grade6/physics.rb	/^    def solve$/;"	f	class:Physics.SingleEchoTime
+solve	lib/QuestionGenerator/grade6/preg6.rb	/^    def solve$/;"	f	class:PreG6.Addition
+solve	lib/QuestionGenerator/grade6/preg6.rb	/^    def solve$/;"	f	class:PreG6.CompareNumbers
+solve	lib/QuestionGenerator/grade6/preg6.rb	/^    def solve$/;"	f	class:PreG6.Division
+solve	lib/QuestionGenerator/grade6/preg6.rb	/^    def solve$/;"	f	class:PreG6.IsDivisible
+solve	lib/QuestionGenerator/grade6/preg6.rb	/^    def solve$/;"	f	class:PreG6.Multiplication
+solve	lib/QuestionGenerator/grade6/preg6.rb	/^    def solve$/;"	f	class:PreG6.Subtraction
+solve	lib/QuestionGenerator/grade7/c1.rb	/^    def solve$/;"	f	class:Chapter1.FindIntegers
+solve	lib/QuestionGenerator/questionbase.rb	/^  def solve ; {} ; end$/;"	f	class:SubLabel
+solve	lib/QuestionGenerator/questionbase.rb	/^  def solve$/;"	f	class:QuestionBase
+solve	lib/QuestionGenerator/questionbase.rb	/^  def solve$/;"	f	class:Subproblem
+solve	lib/QuestionGenerator/trig.rb	/^    def solve$/;"	f	class:Trig.RatioGivenOther
+solve	lib/QuestionGenerator/trig.rb	/^    def solve$/;"	f	class:Trig.RatiosMissingSide
+solve	lib/QuestionGenerator/trig.rb	/^    def solve$/;"	f	class:Trig.RatiosUsingId
+spawn	app/models/problem_generator.rb	/^  def spawn(*args)$/;"	f	class:ProblemGenerator
+spawn	app/models/problem_type.rb	/^  def spawn(*args)$/;"	f	class:ProblemType
+spawn_problem	app/models/concerns/current_problem.rb	/^  def spawn_problem$/;"	f	class:CurrentProblem
+startShow	app/assets/javascripts/pages.js	/^function startShow() {$/;"	f
+startTool	lib/QuestionGenerator/geometry.rb	/^    def startTool(tool = nil)$/;"	f	class:Geometry.GeometryBase
+stat	app/models/concerns/follows_problem_stat.rb	/^  def stat$/;"	f	class:FollowsProblemStat
+stat	app/models/problem_set_instance.rb	/^  def stat(problem_type)$/;"	f	class:ProblemSetInstance
+stat	app/models/user.rb	/^  def stat(problem_type)$/;"	f	class:User
+stats	app/controllers/users_controller.rb	/^  def stats$/;"	f	class:UsersController
+stats	app/models/problem_set_instance.rb	/^  def stats$/;"	f	class:ProblemSetInstance
+stats	app/models/quiz_instance.rb	/^  def stats$/;"	f	class:QuizInstance
+stats	app/models/user.rb	/^  def stats(ptype)$/;"	f	class:User
+stop_quiz	app/helpers/sessions_helper.rb	/^  def stop_quiz$/;"	f	class:SessionsHelper
+str	lib/QuestionGenerator/grade6/c12.rb	/^    def str$/;"	f	class:Chapter12.GetEquivalentFraction.RatioToFractionOfTotal.ReduceRatio.RatiosAndTotals.RatiosAndUnits.RatiosAndUnitConversions.EquivalentRatiosHelper.EquivalentRatios.CompleteTheProportion.PriceProportions.PricePerUnit.UnitaryCompareSize.UnitaryWord
+str_first	lib/QuestionGenerator/grade6/c12.rb	/^    def str_first$/;"	f	class:Chapter12.GetEquivalentFraction.RatioToFractionOfTotal.ReduceRatio.RatiosAndTotals.RatiosAndUnits.RatiosAndUnitConversions.EquivalentRatiosHelper.EquivalentRatios.CompleteTheProportion.PriceProportions.PricePerUnit.UnitaryCompareSize.UnitaryWord
+str_long	lib/QuestionGenerator/grade6/c12.rb	/^		def str_long$/;"	f	class:Chapter12.GetEquivalentFraction.RatioToFractionOfTotal.ReduceRatio.RatiosAndTotals.RatiosAndUnits.RatiosAndUnitConversions.EquivalentRatiosHelper.EquivalentRatios.CompleteTheProportion.PriceProportions.PricePerUnit.UnitaryCompareSize.SumRat
+str_opp	lib/QuestionGenerator/grade6/c12.rb	/^    def str_opp$/;"	f	class:Chapter12.GetEquivalentFraction.RatioToFractionOfTotal.ReduceRatio.RatiosAndTotals.RatiosAndUnits.RatiosAndUnitConversions.EquivalentRatiosHelper.EquivalentRatios.CompleteTheProportion.PriceProportions.PricePerUnit.UnitaryCompareSize.UnitaryWord
+str_short	lib/QuestionGenerator/grade6/c12.rb	/^		def str_short$/;"	f	class:Chapter12.GetEquivalentFraction.RatioToFractionOfTotal.ReduceRatio.RatiosAndTotals.RatiosAndUnits.RatiosAndUnitConversions.EquivalentRatiosHelper.EquivalentRatios.CompleteTheProportion.PriceProportions.PricePerUnit.UnitaryCompareSize.SumRat
+student	app/controllers/teachers_controller.rb	/^  def student$/;"	f	class:TeachersController
+student_stats	app/services/teacher_stat_calc.rb	/^  def student_stats$/;"	f	class:TeacherStatCalc
+students_teacher	app/helpers/sessions_helper.rb	/^  def students_teacher$/;"	f	class:SessionsHelper
+swap	lib/QuestionGenerator/grade6/c1.rb	/^    def swap$/;"	f	class:Chapter1.EstimateArithmetic
+switch_to	app/controllers/sessions_controller.rb	/^  def switch_to$/;"	f	class:SessionsController
+teacher?	app/controllers/classrooms_controller.rb	/^  def teacher?$/;"	f	class:ClassroomsController
+text	app/models/problem.rb	/^  def text$/;"	f	class:Problem
+text	lib/QuestionGenerator/cricketdata/crqu.rb	/^    def text$/;"	f	class:CricketQuestions.CrBatAverage
+text	lib/QuestionGenerator/cricketdata/crqu.rb	/^    def text$/;"	f	class:CricketQuestions.CrBowlAverage
+text	lib/QuestionGenerator/cricketdata/crqu.rb	/^    def text$/;"	f	class:CricketQuestions.CrStrikeRate
+text	lib/QuestionGenerator/cricketdata/crqu.rb	/^    def text$/;"	f	class:CricketQuestions.CrStrikeRateBowling
+text	lib/QuestionGenerator/grade6/c1.rb	/^    def text $/;"	f	class:Chapter1.ConvertUnits
+text	lib/QuestionGenerator/grade6/c1.rb	/^    def text $/;"	f	class:Chapter1.ConvertUnitsSimple
+text	lib/QuestionGenerator/grade6/c1.rb	/^    def text$/;"	f	class:Chapter1.AddCommasIndian
+text	lib/QuestionGenerator/grade6/c1.rb	/^    def text$/;"	f	class:Chapter1.AddCommasInternational
+text	lib/QuestionGenerator/grade6/c1.rb	/^    def text$/;"	f	class:Chapter1.ArrangeAscending
+text	lib/QuestionGenerator/grade6/c1.rb	/^    def text$/;"	f	class:Chapter1.ArrangeDescending
+text	lib/QuestionGenerator/grade6/c1.rb	/^    def text$/;"	f	class:Chapter1.EstimateArithmetic
+text	lib/QuestionGenerator/grade6/c1.rb	/^    def text$/;"	f	class:Chapter1.ExpandNumbers
+text	lib/QuestionGenerator/grade6/c1.rb	/^    def text$/;"	f	class:Chapter1.ExpandNumbers1
+text	lib/QuestionGenerator/grade6/c1.rb	/^    def text$/;"	f	class:Chapter1.ExpandNumbers2
+text	lib/QuestionGenerator/grade6/c1.rb	/^    def text$/;"	f	class:Chapter1.FindMaxNumber
+text	lib/QuestionGenerator/grade6/c1.rb	/^    def text$/;"	f	class:Chapter1.FindMinNumber
+text	lib/QuestionGenerator/grade6/c1.rb	/^    def text$/;"	f	class:Chapter1.PlaceValueTable
+text	lib/QuestionGenerator/grade6/c1.rb	/^    def text$/;"	f	class:Chapter1.ReadingIndian
+text	lib/QuestionGenerator/grade6/c1.rb	/^    def text$/;"	f	class:Chapter1.ReadingInternational
+text	lib/QuestionGenerator/grade6/c1.rb	/^    def text$/;"	f	class:Chapter1.RoundingNumbers
+text	lib/QuestionGenerator/grade6/c1.rb	/^    def text$/;"	f	class:Chapter1.ShiftingDigits
+text	lib/QuestionGenerator/grade6/c1.rb	/^    def text$/;"	f	class:Chapter1.ShiftingDigitsGr
+text	lib/QuestionGenerator/grade6/c1.rb	/^    def text$/;"	f	class:Chapter1.ShiftingDigitsLs
+text	lib/QuestionGenerator/grade6/c1.rb	/^    def text$/;"	f	class:Chapter1.ToArabic
+text	lib/QuestionGenerator/grade6/c1.rb	/^    def text$/;"	f	class:Chapter1.ToRoman
+text	lib/QuestionGenerator/grade6/c1.rb	/^    def text$/;"	f	class:Chapter1.WordProbDiff
+text	lib/QuestionGenerator/grade6/c1.rb	/^    def text$/;"	f	class:Chapter1.WordProbSum
+text	lib/QuestionGenerator/grade6/c1.rb	/^    def text$/;"	f	class:Chapter1.WritingIndian
+text	lib/QuestionGenerator/grade6/c1.rb	/^    def text$/;"	f	class:Chapter1.WritingInternational
+text	lib/QuestionGenerator/grade6/c10.rb	/^		def text$/;"	f	class:Chapter10.FindPerimeterRegular
+text	lib/QuestionGenerator/grade6/c10.rb	/^		def text$/;"	f	class:Chapter10.FindSideRegular
+text	lib/QuestionGenerator/grade6/c10.rb	/^    def text$/;"	f	class:Chapter10.AreaRectWord
+text	lib/QuestionGenerator/grade6/c10.rb	/^    def text$/;"	f	class:Chapter10.FindAreaRectangle
+text	lib/QuestionGenerator/grade6/c10.rb	/^    def text$/;"	f	class:Chapter10.FindPerimeterRectangle
+text	lib/QuestionGenerator/grade6/c10.rb	/^    def text$/;"	f	class:Chapter10.PeriRectWord
+text	lib/QuestionGenerator/grade6/c11.rb	/^    def text$/;"	f	class:Chapter11.SimpleVariableAddSub
+text	lib/QuestionGenerator/grade6/c11.rb	/^    def text$/;"	f	class:Chapter11.SimpleVariableMult
+text	lib/QuestionGenerator/grade6/c12.rb	/^		def text$/;"	f	class:Chapter12.GetEquivalentFraction.RatioToFractionOfTotal.ReduceRatio.RatiosAndTotals.RatiosAndUnits.RatiosAndUnitConversions.EquivalentRatiosHelper.EquivalentRatios.CompleteTheProportion.PriceProportions.PricePerUnit.UnitaryCompareSize.Proportion
+text	lib/QuestionGenerator/grade6/c12.rb	/^		def text$/;"	f	class:Chapter12.GetEquivalentFraction.RatioToFractionOfTotal.ReduceRatio.RatiosAndTotals.RatiosAndUnits.RatiosAndUnitConversions.EquivalentRatiosHelper.EquivalentRatios.CompleteTheProportion.PriceProportions.PricePerUnit.UnitaryCompareSize.RatioStudent
+text	lib/QuestionGenerator/grade6/c12.rb	/^      def text$/;"	f	class:Chapter12.GetEquivalentFraction.RatioToFractionOfTotal.ReduceRatio.RatiosAndTotals.RatiosAndUnits.RatiosAndUnitConversions.EquivalentRatiosHelper.EquivalentRatios.CompleteTheProportion.PriceProportions.PricePerUnit.UnitaryCompareSize.FindRatioDiff.explain
+text	lib/QuestionGenerator/grade6/c12.rb	/^      def text$/;"	f	class:Chapter12.GetEquivalentFraction.RatioToFractionOfTotal.ReduceRatio.RatiosAndTotals.RatiosAndUnits.RatiosAndUnitConversions.EquivalentRatiosHelper.EquivalentRatios.CompleteTheProportion.PriceProportions.PricePerUnit.UnitaryCompareSize.FindRatioSame.explain
+text	lib/QuestionGenerator/grade6/c12.rb	/^    def text$/;"	f	class:Chapter12.GetEquivalentFraction.DefRatio
+text	lib/QuestionGenerator/grade6/c12.rb	/^    def text$/;"	f	class:Chapter12.GetEquivalentFraction.RatioToFractionOfTotal.ReduceRatio.RatiosAndTotals.RatiosAndUnits.RatiosAndUnitConversions.EquivalentRatiosHelper.EquivalentRatios.CompleteTheProportion.PriceProportions.PricePerUnit.UnitaryCompareSize.RatioCompCostWord
+text	lib/QuestionGenerator/grade6/c12.rb	/^    def text$/;"	f	class:Chapter12.GetEquivalentFraction.RatioToFractionOfTotal.ReduceRatio.RatiosAndTotals.RatiosAndUnits.RatiosAndUnitConversions.EquivalentRatiosHelper.EquivalentRatios.CompleteTheProportion.PriceProportions.PricePerUnit.UnitaryCompareSize.UnitaryMethod
+text	lib/QuestionGenerator/grade6/c12.rb	/^    def text$/;"	f	class:Chapter12.GetEquivalentFraction.RatioToFractionOfTotal.ReduceRatio.RatiosAndTotals.RatiosAndUnits.RatiosAndUnitConversions.EquivalentRatiosHelper.EquivalentRatios.CompleteTheProportion.PriceProportions.PricePerUnit.UnitaryCompareSize.type
+text	lib/QuestionGenerator/grade6/c12.rb	/^    def text$/;"	f	class:Chapter12.GetEquivalentFraction.RatioToFractionOfTotal.ReduceRatio.RatiosAndTotals.RatiosAndUnits.RatiosAndUnitConversions.EquivalentRatiosHelper.EquivalentRatios.CompleteTheProportion.PriceProportions.PricePerUnit.type
+text	lib/QuestionGenerator/grade6/c12.rb	/^    def text$/;"	f	class:Chapter12.GetEquivalentFraction.RatioToFractionOfTotal.ReduceRatio.RatiosAndTotals.RatiosAndUnits.RatiosAndUnitConversions.EquivalentRatiosHelper.EquivalentRatios.CompleteTheProportion.PriceProportions.type
+text	lib/QuestionGenerator/grade6/c12.rb	/^    def text$/;"	f	class:Chapter12.GetEquivalentFraction.RatioToFractionOfTotal.ReduceRatio.RatiosAndTotals.RatiosAndUnits.RatiosAndUnitConversions.EquivalentRatiosHelper.EquivalentRatios.CompleteTheProportion.type
+text	lib/QuestionGenerator/grade6/c12.rb	/^    def text$/;"	f	class:Chapter12.GetEquivalentFraction.RatioToFractionOfTotal.ReduceRatio.RatiosAndTotals.RatiosAndUnits.RatiosAndUnitConversions.EquivalentRatiosHelper.EquivalentRatios.FillInEquivRatios
+text	lib/QuestionGenerator/grade6/c12.rb	/^    def text$/;"	f	class:Chapter12.GetEquivalentFraction.RatioToFractionOfTotal.ReduceRatio.RatiosAndTotals.RatiosAndUnits.RatiosAndUnitConversions.EquivalentRatiosHelper.EquivalentRatios.type
+text	lib/QuestionGenerator/grade6/c12.rb	/^    def text$/;"	f	class:Chapter12.GetEquivalentFraction.RatioToFractionOfTotal.ReduceRatio.RatiosAndTotals.RatiosAndUnits.RatiosAndUnitConversions.EquivalentRatiosHelper.type
+text	lib/QuestionGenerator/grade6/c12.rb	/^    def text$/;"	f	class:Chapter12.GetEquivalentFraction.RatioToFractionOfTotal.ReduceRatio.RatiosAndTotals.RatiosAndUnits.type
+text	lib/QuestionGenerator/grade6/c12.rb	/^    def text$/;"	f	class:Chapter12.GetEquivalentFraction.RatioToFractionOfTotal.ReduceRatio.RatiosAndTotals.type
+text	lib/QuestionGenerator/grade6/c12.rb	/^    def text$/;"	f	class:Chapter12.GetEquivalentFraction.RatioToFractionOfTotal.ReduceRatio.type
+text	lib/QuestionGenerator/grade6/c12.rb	/^    def text$/;"	f	class:Chapter12.GetEquivalentFraction.RatioToFractionOfTotal.type
+text	lib/QuestionGenerator/grade6/c12.rb	/^    def text$/;"	f	class:Chapter12.GetEquivalentFraction.type
+text	lib/QuestionGenerator/grade6/c2.rb	/^    def text$/;"	f	class:Chapter2.AddLargeNumbers
+text	lib/QuestionGenerator/grade6/c2.rb	/^    def text$/;"	f	class:Chapter2.SuitableRearrangementProduct
+text	lib/QuestionGenerator/grade6/c2.rb	/^    def text$/;"	f	class:Chapter2.SuitableRearrangementSum
+text	lib/QuestionGenerator/grade6/c2.rb	/^    def text$/;"	f	class:Chapter2.WritePredecessors
+text	lib/QuestionGenerator/grade6/c2.rb	/^    def text$/;"	f	class:Chapter2.WriteSuccessors
+text	lib/QuestionGenerator/grade6/c3.rb	/^    def text$/;"	f	class:Chapter3.IdentifyPrimes
+text	lib/QuestionGenerator/grade6/c3.rb	/^    def text$/;"	f	class:Chapter3.PrimeFactors.CommonFactors
+text	lib/QuestionGenerator/grade6/c3.rb	/^    def text$/;"	f	class:Chapter3.PrimeFactors.Div_39.Div_10
+text	lib/QuestionGenerator/grade6/c3.rb	/^    def text$/;"	f	class:Chapter3.PrimeFactors.Div_39.Div_11.Div_6
+text	lib/QuestionGenerator/grade6/c3.rb	/^    def text$/;"	f	class:Chapter3.PrimeFactors.Div_39.Div_11.SumPrimes.initialize.HCF
+text	lib/QuestionGenerator/grade6/c3.rb	/^    def text$/;"	f	class:Chapter3.PrimeFactors.Div_39.Div_11.SumPrimes.initialize.HCFEA
+text	lib/QuestionGenerator/grade6/c3.rb	/^    def text$/;"	f	class:Chapter3.PrimeFactors.Div_39.Div_11.SumPrimes.initialize.LCM
+text	lib/QuestionGenerator/grade6/c3.rb	/^    def text$/;"	f	class:Chapter3.PrimeFactors.Div_39.Div_11.SumPrimes.initialize.LCMEA
+text	lib/QuestionGenerator/grade6/c3.rb	/^    def text$/;"	f	class:Chapter3.PrimeFactors.Div_39.Div_11.SumPrimes.initialize.MultHCF
+text	lib/QuestionGenerator/grade6/c3.rb	/^    def text$/;"	f	class:Chapter3.PrimeFactors.Div_39.Div_11.SumPrimes.initialize.MultHCFEA
+text	lib/QuestionGenerator/grade6/c3.rb	/^    def text$/;"	f	class:Chapter3.PrimeFactors.Div_39.Div_11.SumPrimes.initialize.MultLCM
+text	lib/QuestionGenerator/grade6/c3.rb	/^    def text$/;"	f	class:Chapter3.PrimeFactors.Div_39.Div_11.SumPrimes.initialize.MultLCMEA
+text	lib/QuestionGenerator/grade6/c3.rb	/^    def text$/;"	f	class:Chapter3.PrimeFactors.Div_39.Div_11.SumPrimes.initialize.correct?
+text	lib/QuestionGenerator/grade6/c3.rb	/^    def text$/;"	f	class:Chapter3.PrimeFactors.Div_39.Div_11.solve
+text	lib/QuestionGenerator/grade6/c3.rb	/^    def text$/;"	f	class:Chapter3.PrimeFactors.Div_39.Div_248
+text	lib/QuestionGenerator/grade6/c3.rb	/^    def text$/;"	f	class:Chapter3.PrimeFactors.Div_39.Div_5
+text	lib/QuestionGenerator/grade6/c3.rb	/^    def text$/;"	f	class:Chapter3.PrimeFactors.Div_39.solve
+text	lib/QuestionGenerator/grade6/c3.rb	/^    def text$/;"	f	class:Chapter3.PrimeFactors.Factors
+text	lib/QuestionGenerator/grade6/c3.rb	/^    def text$/;"	f	class:Chapter3.PrimeFactors.explain
+text	lib/QuestionGenerator/grade6/c4.rb	/^    def text$/;"	f	class:Chapter4.AdjacentSides
+text	lib/QuestionGenerator/grade6/c4.rb	/^    def text$/;"	f	class:Chapter4.AdjacentVertices
+text	lib/QuestionGenerator/grade6/c4.rb	/^    def text$/;"	f	class:Chapter4.DefDiagonal
+text	lib/QuestionGenerator/grade6/c4.rb	/^    def text$/;"	f	class:Chapter4.DefPolygon
+text	lib/QuestionGenerator/grade6/c4.rb	/^    def text$/;"	f	class:Chapter4.DefVerticesMethods
+text	lib/QuestionGenerator/grade6/c4.rb	/^    def text$/;"	f	class:Chapter4.NameAngles
+text	lib/QuestionGenerator/grade6/c4.rb	/^    def text$/;"	f	class:Chapter4.NameLine
+text	lib/QuestionGenerator/grade6/c4.rb	/^    def text$/;"	f	class:Chapter4.NameTriangles
+text	lib/QuestionGenerator/grade6/c6.rb	/^    def text$/;"	f	class:Chapter6.AddNumberLine
+text	lib/QuestionGenerator/grade6/c6.rb	/^    def text$/;"	f	class:Chapter6.AddSubIntegers
+text	lib/QuestionGenerator/grade6/c6.rb	/^    def text$/;"	f	class:Chapter6.CompareAddSub
+text	lib/QuestionGenerator/grade6/c6.rb	/^    def text$/;"	f	class:Chapter6.CompareIntegers
+text	lib/QuestionGenerator/grade6/c6.rb	/^    def text$/;"	f	class:Chapter6.IntNumberLine
+text	lib/QuestionGenerator/grade6/c6.rb	/^    def text$/;"	f	class:Chapter6.SubNumberLine
+text	lib/QuestionGenerator/grade6/c6.rb	/^    def text$/;"	f	class:Chapter6.SubtractIntegers
+text	lib/QuestionGenerator/grade6/c7.rb	/^    def  text$/;"	f	class:Chapter7.ToImproperFractions
+text	lib/QuestionGenerator/grade6/c7.rb	/^    def  text$/;"	f	class:Chapter7.ToMixedFractions
+text	lib/QuestionGenerator/grade6/c7.rb	/^    def text$/;"	f	class:Chapter7.ASLikeFractions
+text	lib/QuestionGenerator/grade6/c7.rb	/^    def text$/;"	f	class:Chapter7.ASMixedFractions
+text	lib/QuestionGenerator/grade6/c7.rb	/^    def text$/;"	f	class:Chapter7.ASUnlikeFractions
+text	lib/QuestionGenerator/grade6/c7.rb	/^    def text$/;"	f	class:Chapter7.CompareLikeFrac
+text	lib/QuestionGenerator/grade6/c7.rb	/^    def text$/;"	f	class:Chapter7.CompareUnlikeFrac
+text	lib/QuestionGenerator/grade6/c7.rb	/^    def text$/;"	f	class:Chapter7.EquivalentFractions
+text	lib/QuestionGenerator/grade6/c7.rb	/^    def text$/;"	f	class:Chapter7.FillDenominator
+text	lib/QuestionGenerator/grade6/c7.rb	/^    def text$/;"	f	class:Chapter7.FillNumerator
+text	lib/QuestionGenerator/grade6/c7.rb	/^    def text$/;"	f	class:Chapter7.ReduceFractions
+text	lib/QuestionGenerator/grade6/c7.rb	/^    def text$/;"	f	class:Chapter7.ReduceFractionsEA
+text	lib/QuestionGenerator/grade6/c8.rb	/^    def text$/;"	f	class:AddSubDecimals
+text	lib/QuestionGenerator/grade6/c8.rb	/^    def text$/;"	f	class:Chapter8
+text	lib/QuestionGenerator/grade6/c8.rb	/^    def text$/;"	f	class:Chapter8.DecSigDigits
+text	lib/QuestionGenerator/grade6/c8.rb	/^    def text$/;"	f	class:Chapter8.DecimalsToFractions
+text	lib/QuestionGenerator/grade6/c8.rb	/^    def text$/;"	f	class:Chapter8.MaxDecSigDigits
+text	lib/QuestionGenerator/grade6/c8.rb	/^    def text$/;"	f	class:Chapter8.PlaceValueTable
+text	lib/QuestionGenerator/grade6/c8.rb	/^    def text$/;"	f	class:UnitsDecDecrease
+text	lib/QuestionGenerator/grade6/c8.rb	/^    def text$/;"	f	class:UnitsDecIncrease
+text	lib/QuestionGenerator/grade6/c9.rb	/^    def text$/;"	f	class:Chapter9.BarQues
+text	lib/QuestionGenerator/grade6/c9.rb	/^    def text$/;"	f	class:Chapter9.CreateBar
+text	lib/QuestionGenerator/grade6/c9.rb	/^    def text$/;"	f	class:Chapter9.CreateTally
+text	lib/QuestionGenerator/grade6/c9.rb	/^    def text$/;"	f	class:Chapter9.TallyQues
+text	lib/QuestionGenerator/grade6/crqu.rb	/^    def text$/;"	f	class:CricketQuestions.CrBatAverage
+text	lib/QuestionGenerator/grade6/crqu.rb	/^    def text$/;"	f	class:CricketQuestions.CrBowlAverage
+text	lib/QuestionGenerator/grade6/crqu.rb	/^    def text$/;"	f	class:CricketQuestions.CrStrikeRate
+text	lib/QuestionGenerator/grade6/crqu.rb	/^    def text$/;"	f	class:CricketQuestions.CrStrikeRateBowling
+text	lib/QuestionGenerator/grade6/geo.rb	/^    def text$/;"	f	class:Geo.BisectLine
+text	lib/QuestionGenerator/grade6/physics.rb	/^    def text$/;"	f	class:Physics.DoubleEchoDist
+text	lib/QuestionGenerator/grade6/physics.rb	/^    def text$/;"	f	class:Physics.SingleEchoDist
+text	lib/QuestionGenerator/grade6/physics.rb	/^    def text$/;"	f	class:Physics.SingleEchoTime
+text	lib/QuestionGenerator/grade6/preg6.rb	/^    def text$/;"	f	class:PreG6.Addition
+text	lib/QuestionGenerator/grade6/preg6.rb	/^    def text$/;"	f	class:PreG6.CompareNumbers
+text	lib/QuestionGenerator/grade6/preg6.rb	/^    def text$/;"	f	class:PreG6.Division
+text	lib/QuestionGenerator/grade6/preg6.rb	/^    def text$/;"	f	class:PreG6.IsDivisible
+text	lib/QuestionGenerator/grade6/preg6.rb	/^    def text$/;"	f	class:PreG6.Multiplication
+text	lib/QuestionGenerator/grade6/preg6.rb	/^    def text$/;"	f	class:PreG6.Subtraction
+text	lib/QuestionGenerator/grade7/c1.rb	/^    def text$/;"	f	class:Chapter1.FindIntegers
+text	lib/QuestionGenerator/questionbase.rb	/^  def text$/;"	f	class:QuestionBase
+text	lib/QuestionGenerator/questionbase.rb	/^  def text$/;"	f	class:Subproblem
+text	lib/QuestionGenerator/trig.rb	/^    def text$/;"	f	class:Trig.RatioGivenOther
+text	lib/QuestionGenerator/trig.rb	/^    def text$/;"	f	class:Trig.RatiosMissingSide
+text	lib/QuestionGenerator/trig.rb	/^    def text$/;"	f	class:Trig.RatiosUsingId
+timeUnits	app/assets/javascripts/googlevis.js	/^var timeUnits = 0;$/;"	v
+title	app/helpers/application_helper.rb	/^  def title$/;"	f	class:ApplicationHelper
+toSlopeInt	lib/QuestionGenerator/geometry.rb	/^    def toSlopeInt$/;"	f	class:Geometry.Line
+to_arabic	lib/QuestionGenerator/grade6/grade6ops.rb	/^  def to_arabic$/;"	f	class:Grade6ops.factors.String
+to_date	lib/QuestionGenerator/cricketdata/crqu.rb	/^  def to_date(date)$/;"	f	class:CricketQuestions
+to_date	lib/QuestionGenerator/grade6/crqu.rb	/^  def CricketQuestions.to_date(date)$/;"	F	class:CricketQuestions
+to_indian	lib/QuestionGenerator/grade6/grade6ops.rb	/^  def to_indian$/;"	f	class:Grade6ops.factors.Fixnum
+to_international	lib/QuestionGenerator/grade6/grade6ops.rb	/^  def to_international$/;"	f	class:Grade6ops.factors.Fixnum
+to_numeral	lib/QuestionGenerator/grade6/grade6ops.rb	/^  def to_numeral(numerals, ten, hund)$/;"	f	class:Grade6ops.factors.Fixnum
+to_roman	lib/QuestionGenerator/grade6/grade6ops.rb	/^  def to_roman$/;"	f	class:Grade6ops.factors.Fixnum
+to_s	app/models/problem.rb	/^  def to_s$/;"	f	class:Problem
+to_s	app/models/problem_type.rb	/^  def to_s() self.name.truncate(43) ; end$/;"	f	class:ProblemType
+to_s	app/services/teacher_stat_calc.rb	/^    def to_s $/;"	f	class:TeacherStatCalc.Stat
+to_s	lib/QuestionGenerator/geometry.rb	/^    def to_s$/;"	f	class:Geometry.Point
+to_s	lib/QuestionGenerator/modules/units.rb	/^    def to_s() @name end$/;"	f	class:Units.Unit
+to_s	lib/QuestionGenerator/modules/units.rb	/^    def to_s() @name end$/;"	f	class:Units.UnitType
+to_s	lib/QuestionGenerator/tohtml.rb	/^    def to_s$/;"	f	class:ToHTML.RomanLabel
+to_s	lib/QuestionGenerator/tohtml.rb	/^    def to_s$/;"	f	class:ToHTML.TextLabel
+total	app/assets/javascripts/drawtools.js	/^      var total = 1;$/;"	v
+tracingLine.shape_i	app/assets/javascripts/drawtools.js	/^  var tracingLine = {$/;"	p
+type	lib/QuestionGenerator/grade6/c1.rb	/^    def self.type$/;"	F	class:Chapter1.AddCommasIndian
+type	lib/QuestionGenerator/grade6/c1.rb	/^    def self.type$/;"	F	class:Chapter1.AddCommasInternational
+type	lib/QuestionGenerator/grade6/c1.rb	/^    def self.type$/;"	F	class:Chapter1.ArrangeAscending
+type	lib/QuestionGenerator/grade6/c1.rb	/^    def self.type$/;"	F	class:Chapter1.ArrangeDescending
+type	lib/QuestionGenerator/grade6/c1.rb	/^    def self.type$/;"	F	class:Chapter1.EstimateAddition
+type	lib/QuestionGenerator/grade6/c1.rb	/^    def self.type$/;"	F	class:Chapter1.EstimateArithmetic
+type	lib/QuestionGenerator/grade6/c1.rb	/^    def self.type$/;"	F	class:Chapter1.EstimateProduct
+type	lib/QuestionGenerator/grade6/c1.rb	/^    def self.type$/;"	F	class:Chapter1.EstimateSubtraction
+type	lib/QuestionGenerator/grade6/c1.rb	/^    def self.type$/;"	F	class:Chapter1.FindMaxNumber
+type	lib/QuestionGenerator/grade6/c1.rb	/^    def self.type$/;"	F	class:Chapter1.FindMinNumber
+type	lib/QuestionGenerator/grade6/c1.rb	/^    def self.type$/;"	F	class:Chapter1.ReadingIndian
+type	lib/QuestionGenerator/grade6/c1.rb	/^    def self.type$/;"	F	class:Chapter1.ReadingInternational
+type	lib/QuestionGenerator/grade6/c1.rb	/^    def self.type$/;"	F	class:Chapter1.RoundingNumbers
+type	lib/QuestionGenerator/grade6/c1.rb	/^    def self.type$/;"	F	class:Chapter1.ToArabic
+type	lib/QuestionGenerator/grade6/c1.rb	/^    def self.type$/;"	F	class:Chapter1.ToRoman
+type	lib/QuestionGenerator/grade6/c1.rb	/^    def self.type$/;"	F	class:Chapter1.WritingIndian
+type	lib/QuestionGenerator/grade6/c1.rb	/^    def self.type$/;"	F	class:Chapter1.WritingInternational
+type	lib/QuestionGenerator/grade6/c12.rb	/^    def self.type$/;"	F	class:Chapter12.GetEquivalentFraction.DefRatio
+type	lib/QuestionGenerator/grade6/c12.rb	/^    def self.type$/;"	F	class:Chapter12.GetEquivalentFraction.RatioToFractionOfTotal.ReduceRatio.RatiosAndTotals.RatiosAndUnits.RatiosAndUnitConversions.EquivalentRatiosHelper.EquivalentRatios.FillInEquivRatios
+type	lib/QuestionGenerator/grade6/c12.rb	/^    def self.type() "Calculating Unit Prices" end$/;"	F	class:Chapter12.GetEquivalentFraction.RatioToFractionOfTotal.ReduceRatio.RatiosAndTotals.RatiosAndUnits.RatiosAndUnitConversions.EquivalentRatiosHelper.EquivalentRatios.CompleteTheProportion.PriceProportions.PricePerUnit
+type	lib/QuestionGenerator/grade6/c12.rb	/^    def self.type() "Complete the proportion" end$/;"	F	class:Chapter12.GetEquivalentFraction.RatioToFractionOfTotal.ReduceRatio.RatiosAndTotals.RatiosAndUnits.RatiosAndUnitConversions.EquivalentRatiosHelper.EquivalentRatios.CompleteTheProportion
+type	lib/QuestionGenerator/grade6/c12.rb	/^    def self.type() "Get the equivalent fraction" end$/;"	F	class:Chapter12.GetEquivalentFraction
+type	lib/QuestionGenerator/grade6/c12.rb	/^    def self.type() "Lowest forms of ratios" end$/;"	F	class:Chapter12.GetEquivalentFraction.RatioToFractionOfTotal.ReduceRatio
+type	lib/QuestionGenerator/grade6/c12.rb	/^    def self.type() "Name equivalent ratios" end$/;"	F	class:Chapter12.GetEquivalentFraction.RatioToFractionOfTotal.ReduceRatio.RatiosAndTotals.RatiosAndUnits.RatiosAndUnitConversions.EquivalentRatiosHelper
+type	lib/QuestionGenerator/grade6/c12.rb	/^    def self.type() "Name equivalent ratios" end$/;"	F	class:Chapter12.GetEquivalentFraction.RatioToFractionOfTotal.ReduceRatio.RatiosAndTotals.RatiosAndUnits.RatiosAndUnitConversions.EquivalentRatiosHelper.EquivalentRatios
+type	lib/QuestionGenerator/grade6/c12.rb	/^    def self.type() "Prices in proportion" end$/;"	F	class:Chapter12.GetEquivalentFraction.RatioToFractionOfTotal.ReduceRatio.RatiosAndTotals.RatiosAndUnits.RatiosAndUnitConversions.EquivalentRatiosHelper.EquivalentRatios.CompleteTheProportion.PriceProportions
+type	lib/QuestionGenerator/grade6/c12.rb	/^    def self.type() "Prices with the Unitary Method" end$/;"	F	class:Chapter12.GetEquivalentFraction.RatioToFractionOfTotal.ReduceRatio.RatiosAndTotals.RatiosAndUnits.RatiosAndUnitConversions.EquivalentRatiosHelper.EquivalentRatios.CompleteTheProportion.PriceProportions.PricePerUnit.UnitaryCompareSize
+type	lib/QuestionGenerator/grade6/c12.rb	/^    def self.type() "Quantities from a ratio and total" end$/;"	F	class:Chapter12.GetEquivalentFraction.RatioToFractionOfTotal.ReduceRatio.RatiosAndTotals
+type	lib/QuestionGenerator/grade6/c12.rb	/^    def self.type() "Ratios and unit conversions" end$/;"	F	class:Chapter12.GetEquivalentFraction.RatioToFractionOfTotal.ReduceRatio.RatiosAndTotals.RatiosAndUnits.RatiosAndUnitConversions
+type	lib/QuestionGenerator/grade6/c12.rb	/^    def self.type() "Ratios and units" end$/;"	F	class:Chapter12.GetEquivalentFraction.RatioToFractionOfTotal.ReduceRatio.RatiosAndTotals.RatiosAndUnits
+type	lib/QuestionGenerator/grade6/c12.rb	/^    def self.type() "Turn a ratio into a fraction of the total" end$/;"	F	class:Chapter12.GetEquivalentFraction.RatioToFractionOfTotal
+type	lib/QuestionGenerator/grade6/c2.rb	/^    def self.type$/;"	F	class:Chapter2.AddLargeNumbers
+type	lib/QuestionGenerator/grade6/c2.rb	/^    def self.type$/;"	F	class:Chapter2.SuitableRearrangementProduct
+type	lib/QuestionGenerator/grade6/c2.rb	/^    def self.type$/;"	F	class:Chapter2.SuitableRearrangementSum
+type	lib/QuestionGenerator/grade6/c2.rb	/^    def self.type$/;"	F	class:Chapter2.WritePredecessors
+type	lib/QuestionGenerator/grade6/c2.rb	/^    def self.type$/;"	F	class:Chapter2.WriteSuccessors
+type	lib/QuestionGenerator/grade6/c3.rb	/^    def self.type$/;"	F	class:Chapter3.IdentifyPrimes
+type	lib/QuestionGenerator/grade6/c3.rb	/^    def self.type$/;"	F	class:Chapter3.PrimeFactors
+type	lib/QuestionGenerator/grade6/c3.rb	/^    def self.type$/;"	F	class:Chapter3.PrimeFactors.CommonFactors
+type	lib/QuestionGenerator/grade6/c3.rb	/^    def self.type$/;"	F	class:Chapter3.PrimeFactors.Div_39
+type	lib/QuestionGenerator/grade6/c3.rb	/^    def self.type$/;"	F	class:Chapter3.PrimeFactors.Div_39.Div_10
+type	lib/QuestionGenerator/grade6/c3.rb	/^    def self.type$/;"	F	class:Chapter3.PrimeFactors.Div_39.Div_11
+type	lib/QuestionGenerator/grade6/c3.rb	/^    def self.type$/;"	F	class:Chapter3.PrimeFactors.Div_39.Div_11.Div_6
+type	lib/QuestionGenerator/grade6/c3.rb	/^    def self.type$/;"	F	class:Chapter3.PrimeFactors.Div_39.Div_11.SumPrimes
+type	lib/QuestionGenerator/grade6/c3.rb	/^    def self.type$/;"	F	class:Chapter3.PrimeFactors.Div_39.Div_11.SumPrimes.initialize.HCF
+type	lib/QuestionGenerator/grade6/c3.rb	/^    def self.type$/;"	F	class:Chapter3.PrimeFactors.Div_39.Div_11.SumPrimes.initialize.LCM
+type	lib/QuestionGenerator/grade6/c3.rb	/^    def self.type$/;"	F	class:Chapter3.PrimeFactors.Div_39.Div_11.SumPrimes.initialize.MultHCF
+type	lib/QuestionGenerator/grade6/c3.rb	/^    def self.type$/;"	F	class:Chapter3.PrimeFactors.Div_39.Div_11.SumPrimes.initialize.MultLCM
+type	lib/QuestionGenerator/grade6/c3.rb	/^    def self.type$/;"	F	class:Chapter3.PrimeFactors.Div_39.Div_2
+type	lib/QuestionGenerator/grade6/c3.rb	/^    def self.type$/;"	F	class:Chapter3.PrimeFactors.Div_39.Div_248
+type	lib/QuestionGenerator/grade6/c3.rb	/^    def self.type$/;"	F	class:Chapter3.PrimeFactors.Div_39.Div_3
+type	lib/QuestionGenerator/grade6/c3.rb	/^    def self.type$/;"	F	class:Chapter3.PrimeFactors.Div_39.Div_4
+type	lib/QuestionGenerator/grade6/c3.rb	/^    def self.type$/;"	F	class:Chapter3.PrimeFactors.Div_39.Div_5
+type	lib/QuestionGenerator/grade6/c3.rb	/^    def self.type$/;"	F	class:Chapter3.PrimeFactors.Div_39.Div_8
+type	lib/QuestionGenerator/grade6/c3.rb	/^    def self.type$/;"	F	class:Chapter3.PrimeFactors.Div_39.Div_9
+type	lib/QuestionGenerator/grade6/c3.rb	/^    def self.type$/;"	F	class:Chapter3.PrimeFactors.Factors
+type	lib/QuestionGenerator/grade6/c4.rb	/^    def self.type$/;"	F	class:Chapter4.AdjacentSides
+type	lib/QuestionGenerator/grade6/c4.rb	/^    def self.type$/;"	F	class:Chapter4.AdjacentVertices
+type	lib/QuestionGenerator/grade6/c4.rb	/^    def self.type$/;"	F	class:Chapter4.DefDiagonal
+type	lib/QuestionGenerator/grade6/c4.rb	/^    def self.type$/;"	F	class:Chapter4.DefPolygon
+type	lib/QuestionGenerator/grade6/c4.rb	/^    def self.type$/;"	F	class:Chapter4.DefQuadrilateral
+type	lib/QuestionGenerator/grade6/c4.rb	/^    def self.type$/;"	F	class:Chapter4.DefTriangle
+type	lib/QuestionGenerator/grade6/c4.rb	/^    def self.type$/;"	F	class:Chapter4.DefVerticesMethods
+type	lib/QuestionGenerator/grade6/c4.rb	/^    def self.type$/;"	F	class:Chapter4.NameAngles
+type	lib/QuestionGenerator/grade6/c4.rb	/^    def self.type$/;"	F	class:Chapter4.NameLine
+type	lib/QuestionGenerator/grade6/c4.rb	/^    def self.type$/;"	F	class:Chapter4.NameTriangles
+type	lib/QuestionGenerator/grade6/c6.rb	/^    def self.type$/;"	F	class:Chapter6.AddSubIntegers
+type	lib/QuestionGenerator/grade6/c6.rb	/^    def self.type$/;"	F	class:Chapter6.CompareAddSub
+type	lib/QuestionGenerator/grade6/c6.rb	/^    def self.type$/;"	F	class:Chapter6.CompareIntegers
+type	lib/QuestionGenerator/grade6/c6.rb	/^    def self.type$/;"	F	class:Chapter6.SubtractIntegers
+type	lib/QuestionGenerator/grade6/c7.rb	/^    def self.type$/;"	F	class:Chapter7.ASLikeFractions
+type	lib/QuestionGenerator/grade6/c7.rb	/^    def self.type$/;"	F	class:Chapter7.ASMixedFractions
+type	lib/QuestionGenerator/grade6/c7.rb	/^    def self.type$/;"	F	class:Chapter7.ASUnlikeFractions
+type	lib/QuestionGenerator/grade6/c7.rb	/^    def self.type$/;"	F	class:Chapter7.CompareLikeFrac
+type	lib/QuestionGenerator/grade6/c7.rb	/^    def self.type$/;"	F	class:Chapter7.CompareUnlikeFrac
+type	lib/QuestionGenerator/grade6/c7.rb	/^    def self.type$/;"	F	class:Chapter7.EquivalentFractions
+type	lib/QuestionGenerator/grade6/c7.rb	/^    def self.type$/;"	F	class:Chapter7.FillDenominator
+type	lib/QuestionGenerator/grade6/c7.rb	/^    def self.type$/;"	F	class:Chapter7.FillNumerator
+type	lib/QuestionGenerator/grade6/c7.rb	/^    def self.type$/;"	F	class:Chapter7.ToImproperFractions
+type	lib/QuestionGenerator/grade6/c7.rb	/^    def self.type$/;"	F	class:Chapter7.ToMixedFractions
+type	lib/QuestionGenerator/grade6/c8.rb	/^    def self.type$/;"	F	class:AddDecimals
+type	lib/QuestionGenerator/grade6/c8.rb	/^    def self.type$/;"	F	class:AddSubDecimals
+type	lib/QuestionGenerator/grade6/c8.rb	/^    def self.type$/;"	F	class:Chapter8.DecimalsToFractions
+type	lib/QuestionGenerator/grade6/c8.rb	/^    def self.type$/;"	F	class:Chapter8.FractionsToDecimals
+type	lib/QuestionGenerator/grade6/c8.rb	/^    def self.type$/;"	F	class:SubDecimals
+type	lib/QuestionGenerator/grade6/c8.rb	/^    def self.type$/;"	F	class:UnitsDecDecrease
+type	lib/QuestionGenerator/grade6/c8.rb	/^    def self.type$/;"	F	class:UnitsDecIncrease
+type	lib/QuestionGenerator/questionbase.rb	/^  def self.type ; "Custom Problem" ; end$/;"	F	class:CustomProblem
+type	lib/QuestionGenerator/questionbase.rb	/^  def self.type$/;"	F	class:QuestionBase
+type	lib/QuestionGenerator/questionbase.rb	/^  def self.type$/;"	F	class:SubLabel
+type	lib/QuestionGenerator/questionbase.rb	/^  def type ; @name ; end$/;"	f	class:CustomProblem.type
+type	lib/QuestionGenerator/questionbase.rb	/^  def type$/;"	f	class:QuestionBase
+unit_price	lib/QuestionGenerator/modules/items.rb	/^    def self.unit_price$/;"	F	class:Items.Item
+unit_price	lib/QuestionGenerator/modules/items.rb	/^    def self.unit_price() 2 end$/;"	F	class:Items.Tomato.pluralize.singular.Pencil
+unit_price	lib/QuestionGenerator/modules/items.rb	/^    def self.unit_price() 8 end$/;"	F	class:Items.Tomato
+unit_price	lib/QuestionGenerator/modules/items.rb	/^    def self.unit_price() 8 end$/;"	F	class:Items.Tomato.pluralize.singular.Pencil.singular.Pen
+unit_types	lib/QuestionGenerator/modules/units.rb	/^  def self.unit_types$/;"	F	class:Units
+units	lib/QuestionGenerator/modules/units.rb	/^  def self.units$/;"	F	class:Units
+update	app/controllers/answers_controller.rb	/^  def update$/;"	f	class:AnswersController
+update	app/controllers/custom_problems_controller.rb	/^  def update$/;"	f	class:CustomProblemsController
+update!	app/models/problem_set_stat.rb	/^  def update!(answer)$/;"	f	class:ProblemSetStat
+update!	app/models/problem_stat.rb	/^  def update!(was_correct)$/;"	f	class:ProblemStat
+update!	app/models/quiz_stat.rb	/^  def update!(answer)$/;"	f	class:QuizStat
+update_stats	app/models/user.rb	/^  def update_stats(problem_type, correct)$/;"	f	class:User
+user_from_remember_token	app/helpers/sessions_helper.rb	/^  def user_from_remember_token$/;"	f	class:SessionsHelper
+validateCircleSize	app/assets/javascripts/drawtools.js	/^  function validateCircleSize() {$/;"	f
+var.protractor.x	app/assets/javascripts/drawtools.js	/^  var protractor = {$/;"	p
+vars	lib/QuestionGenerator/questionbase.rb	/^  def vars$/;"	f	class:QuestionBase
+vars_from_response	lib/QuestionGenerator/questionbase.rb	/^  def self.vars_from_response(*args)$/;"	F	class:QuestionBase
+w_rand_dig	lib/QuestionGenerator/grade6/grade6ops.rb	/^  def Grade6ops.w_rand_dig(p_zero = 0.33, max = 9)$/;"	F	class:Grade6ops.factors
+weightMeasure	app/assets/javascripts/measure.js	/^function weightMeasure(cname, name, object, unit, weight){$/;"	f
+weightMeasure.drawFulcrum	app/assets/javascripts/measure.js	/^  function drawFulcrum(){$/;"	f
+weightMeasure.drawLever	app/assets/javascripts/measure.js	/^  function drawLever(){$/;"	f
+weightMeasure.fillTri	app/assets/javascripts/measure.js	/^  function fillTri(x1, y1, x2, y2, x3, y3){$/;"	f
+weightMeasure.setAngle	app/assets/javascripts/measure.js	/^  function setAngle(){$/;"	f
+width	lib/QuestionGenerator/geometry.rb	/^    def self.width$/;"	F	class:Geometry.GeometryBase
+width	lib/QuestionGenerator/geometry.rb	/^    def self.width$/;"	F	class:Geometry.SmallGeoDisplay
+within	lib/QuestionGenerator/grade6/grade6ops.rb	/^  def within(dist, other)$/;"	f	class:Grade6ops.factors.Float
+write	lib/QuestionGenerator/modules/items.rb	/^    def self.write(n)$/;"	F	class:Items.Item
+writeMessage	app/assets/javascripts/numberline.js	/^  function writeMessage(message){$/;"	f
+writeShapes	app/assets/javascripts/drawtools.js	/^      this.old_writeShapes = writeShapes;$/;"	f
+x1	app/assets/javascripts/drawtools.js	/^      var x1 = Math.cos(this.theta) * outerRadius + this.x;$/;"	v
+x2	app/assets/javascripts/drawtools.js	/^      var x2 = Math.cos(this.theta + Math.PI) * outerRadius + this.x;$/;"	v
+y1	app/assets/javascripts/drawtools.js	/^      var y1 = Math.sin(this.theta) * outerRadius + this.y;$/;"	v
+y2	app/assets/javascripts/drawtools.js	/^      var y2 = Math.sin(this.theta + Math.PI) * outerRadius + this.y;$/;"	v

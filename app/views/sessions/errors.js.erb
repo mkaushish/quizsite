@@ -1,0 +1,5 @@
+<% if @user.nil? %>
+$('#log_in_errors').text('<%= @email %> is not currently in use.  Would you like to register as a new user?')
+<% else %>
+$('#log_in_errors').text('Invalid password from <%= @email %>')
+<% end %>

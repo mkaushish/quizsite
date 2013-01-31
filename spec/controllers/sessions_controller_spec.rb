@@ -82,7 +82,7 @@ describe SessionsController do
        it "should redirect Students to their home page" do
          user = create :student
          post :create, :session => { email: user.email, password: user.password }
-         # response.should redirect_to(profile_path(student))
+         # response.should redirect_to(studenthome_path(student))
        end
 
        it "should redirect Teachers correctly" do

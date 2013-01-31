@@ -1,10 +1,9 @@
 module FollowsProblemStat
   extend ActiveSupport::Concern
-  $stderr.puts "loading module"
 
   included do
     belongs_to :problem_stat
-    $stderr.puts "I got included"
+    delegate :count, :correct, to: :problem_stat
   end
 
   def assign_problem_stat

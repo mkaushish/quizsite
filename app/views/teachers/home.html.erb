@@ -20,7 +20,7 @@
           <ul class='column-list teacher-class-col'>
             <li class=list-header>Problem Sets</li>
             <% classroom.problem_sets.each do |problem_set| %>
-              <li><%= link_to problem_set.name, "#" %></li>
+              <li><%= link_to problem_set.name, details_path(id: classroom.id, problem_set: problem_set.id) %></li>
             <% end %>
           </ul>
         </div>

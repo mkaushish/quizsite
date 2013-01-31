@@ -1,9 +1,9 @@
 <% if in_quiz? %>
-  <li><%= link_to "Stop Quiz", profile_path %></li>
+  <li><%= link_to "Stop Quiz", studenthome_path %></li>
   <li class=active><%= link_to quiz_name, "#" %></li>
   <li><%= link_to "Help", "#infoModal", "data-toggle"=>"modal" %></li>
 <% else %>
-  <li class="<%= selected?("profile")  %>"><%= link_to "My Profile", profile_path  %></li>
+  <li class="<%= selected?("profile")  %>"><%= link_to "My Profile", studenthome_path  %></li>
   <li class="<%= selected?("makequiz") %>"><%= link_to "New Homework",  new_quiz_path %></li>
   <li class="dropdown <%= selected?("quiz") %>">
     <%= link_to "Start Homework", "#", :class => "dropdown-toggle", "data-toggle" => "dropdown" %>

@@ -59,7 +59,7 @@ describe QuizzesController do
         it "should assign the correct name" do
         end
 
-        it "should redirect_to profile_path" do
+        it "should redirect_to studenthome_path" do
         end
       end
     end

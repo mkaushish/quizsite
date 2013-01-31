@@ -1,0 +1,20 @@
+<div class='row-fluid problem_view_stats'>
+  <div class="stat">
+    <ul>
+      <li>PROBLEMS DONE<div><%= @stat.count %></div></li>
+      <li>PROBLEMS CORRECT<div><%= @stat.correct %></div></li>
+      <!--<li><div><%# @stat.percent %></div>PERCENT CORRECT</li>-->
+    </ul>
+  </div>          
+  <%= link_to_function "Back", 'hideProblem();', :class => 'pull-right button-blue' %>
+</div>
+<div class='row-fluid problem_body'>
+  <%= form_tag ps_finish_problem_path(@problem_set.id), :method => :post, :autocomplete => :off do %>
+    <%= hidden_field_tag 'stat_id', @stat.id.to_s %>
+    <%= render 'problemanswers/form' %>
+  <% end %>
+</div>
+<div class='row-fluid calculations'>
+  <h3>Calculations</h3>
+  <%= render partial: 'problems/side_notepad.html.erb' %>
+</div>

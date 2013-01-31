@@ -16,7 +16,7 @@
   <%= render :partial => 'shared/fakesignin' %>
 <% else %>
   <div class=nav-collapse>
-    <%= form_for(:session, {:url => sessions_path, :html => {:class => "mynavbar-form"}, :remote => true}) do |f| %>
+    <%= form_for(:session, {:url => signin_path, :html => {:class => "mynavbar-form"}, :remote => true}) do |f| %>
       <ul class="nav pull-right">
         <li class=divider-vertical></li>
         <li class=text id=userfield> <%= f.text_field :email, :placeholder=>"Email" %> </li>

@@ -1,5 +1,5 @@
 <div class=nav-collapse>
-  <%= form_for(:session, {:url => sessions_path, :html => {:class => "mynavbar-form"}, :remote => true}) do |f| %>
+  <%= form_for(:session, {:url => signin_path, :html => {:class => "mynavbar-form"}, :remote => true}) do |f| %>
     <%= hidden_field_tag 'email', "exampleuser@gmail.com" %>
     <%= hidden_field_tag 'password', "examplepassword" %>
     <ul class="nav pull-right">

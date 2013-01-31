@@ -26,7 +26,7 @@ class UsersController < ApplicationController
     elsif @user.confirm(params['code'])
       @user.save( :validate => false )
       sign_in @user
-      redirect_to profile_path
+      redirect_to studenthome_path
 
     else
       render 'confirmation_error'
@@ -122,7 +122,7 @@ class UsersController < ApplicationController
         flash[:error] = "Sorry, we couldn't change your password: #{current_user.errors.full_messages}"
       else
         sign_in current_user
-        redirect_to profile_path
+        redirect_to studenthome_path
         return
       end
     end

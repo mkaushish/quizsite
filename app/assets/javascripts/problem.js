@@ -1,3 +1,7 @@
+function hideProblem() {
+  $('#problem_overlay').hide();
+}
+
 function setCurQuiz() {
   var quiz_s = "<li class='nav-header'>Current Quiz</li>";
   $(':checkbox:checked').each(function() {
@@ -95,4 +99,5 @@ $(document).ready(function () {
   bind_mt_buttons();
 
   $('.checkbox-item.incorrect').tooltip();
+  // $('body').click(hideProblem)
 });

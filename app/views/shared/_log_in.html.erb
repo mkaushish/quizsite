@@ -2,8 +2,10 @@
   <div class="modal-header">
     Log In
   </div>
-  <div class="modal-body" style="font-family:SansSerif">
-    <%= form_for(:session, {:url => sessions_path, :html => {:class => "signin"}, :remote => true}) do |f| %>
+  <div id="log_in_form" class="modal-body" style="font-family:SansSerif">
+    <div id="log_in_errors">
+    </div>
+    <%= form_for(:session, {:url => signin_path, :html => {:class => "signin"}, :remote => true}) do |f| %>
       <div class = "field">
         <%= f.text_field :email, :placeholder=>"Email" %>
         <%= f.password_field :password, :placeholder => "Password" %>

@@ -55,8 +55,10 @@ class QuizzesController < ApplicationController
 
   end
 
-  # PUT /quiz/:id
-  def update
+  # get /quizzes/id/assign
+  def assign
+    @quiz = Quiz.find params[:id]
+    @quiz.assign params[:start_time], params[:end_time]
   end
 
   # DELETE /quizzes/1

@@ -1,0 +1,17 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title><%= title %></title>
+  <%= stylesheet_link_tag    "application" %>
+  <%= javascript_include_tag "application" %>
+  <% #javascript_include_tag :defaults %>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <%= csrf_meta_tags %>
+  <%= yield :head %>
+</head>
+<body>
+<div id="problem_overlay">
+	<%= render partial: 'do_problem' %>	
+</div>
+</body>
+</html>

@@ -1,0 +1,15 @@
+<div class=row-fluid>
+  <% if flash[:last_correct] == false %>
+  <% end %>
+  <%= hidden_field_tag "shownp", (@problemanswer && @problemanswer.notepad) %>
+  <%= render :partial => 'problems/problem', :object => @problem, :locals => {:partialdir => 'problemanswers'} %>
+  <% if @problem.is_a? QuestionWithExplanation %>
+    <%= link_to "See Explanation", explain_problem_path(@problemanswer.problem), :class => "btn btn-large btn-success" %>
+  <% end %>
+    <%= link_to "More Problems", startquiz_path, :class => "btn btn-large btn-primary" %>
+  <% if signed_in? %>
+    <%= link_to "Back", studenthome_path, :class => "btn btn-large btn-primary" %>
+  <% else %>
+    <%= link_to "Back", problems_path, :class => "btn btn-large btn-primary" %>
+  <% end %>
+</div>
