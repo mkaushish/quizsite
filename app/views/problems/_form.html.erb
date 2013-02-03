@@ -2,11 +2,15 @@
   <h2><%= @problem_type.to_s %></h2>
 <%= submit_tag "Check Answer", :class => 'pull-right button-blue' %>
 </div>
+
+<div class="problem">
 <%= hidden_field_tag 'problem_id', @problem.id %>
 <%= hidden_field_tag 'time_taken', 0.0 %>
-<%= hidden_field_tag "npstr", (!@problemanswer.nil? && @problemanswer.notepad) %>
-
-<%= render :partial => 'problems/problem', :object => @problem, :locals => {:partialdir => 'problems'} %>
+<%= hidden_field_tag "npstr", (!@answer.nil? && @answer.notepad) %>
+<% @problem.text.each do |elt| %>
+   <%= render_tohtml({partial_dir: 'problems'}, elt) %>
+<% end %>
+</div>
 
 <script>
   function updateClock(s) {

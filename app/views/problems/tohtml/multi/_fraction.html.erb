@@ -1,0 +1,15 @@
+<div class="fraction">
+  <% unless fraction.intpart.nil? then %>
+    <div class="intpart<%= (fraction.intpart.is_a? InputField) ? "Input" : "" %>">
+      <%= render_tohtml local_assigns, fraction.intpart %>
+    </div>
+  <% end %>
+  <div class="quotient">
+    <div class="numerator<%= (fraction.num.is_a? InputField) ? "Input" : "" %>">
+      <%= render_tohtml local_assigns, fraction.num %>
+    </div> 
+    <div class="denominator<%= (fraction.den.is_a? InputField) ? "Input" : "" %>">
+      <%= render_tohtml local_assigns, fraction.den %>
+    </div>
+  </div>
+</div>

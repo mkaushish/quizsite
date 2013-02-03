@@ -1,0 +1,15 @@
+<div class='row-fluid problem_view_stats'>
+  <% if @instance %>
+    <div class="pset_title">
+    	<%= @instance.name %>
+    </div>
+  <% end %>
+  <div class="stat">
+    <ul>
+      <li>PROBLEMS DONE<div><%= @stat.count %></div></li>
+      <li>PROBLEMS CORRECT<div><%= @stat.correct %></div></li>
+      <!--<li><div><%# @stat.percent %></div>PERCENT CORRECT</li>-->
+    </ul>
+  </div>          
+  <%= link_to_function "Back", 'hideProblem();', :class => 'pull-right button-blue' %>
+</div>

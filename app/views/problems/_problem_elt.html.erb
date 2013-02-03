@@ -1,13 +1,13 @@
 <% if problem_elt.is_a? InlineBlock %>
   <div class=inline-block>
     <% problem_elt.text.each do |elt| %>
-        <%= render :partial => 'problems/problem_elt', :object => elt, :locals => {:partialdir => partialdir} %>
+        <%= render :partial => 'problems/problem_elt', :object => elt %>
     <% end %>
   </div>
 <% elsif problem_elt.is_a? MultiHTMLObj %>
-  <%= render :partial => "#{partialdir}/multihtmlobj", :object => problem_elt %>
+  <%= render :partial => "#{@partial_dir}/multihtmlobj", :object => problem_elt %>
 <% elsif problem_elt.is_a? GeometryBase %>
-  <%= render :partial => "#{partialdir}/geometryfield", :object => problem_elt %>
+  <%= render :partial => "#{@partial_dir}/geometryfield", :object => problem_elt %>
 <% else %>
-  <%= render :partial => "#{partialdir}/htmlobj", :object => problem_elt %>
+  <%= render :partial => "#{@partial_dir}/htmlobj", :object => problem_elt %>
 <% end %>

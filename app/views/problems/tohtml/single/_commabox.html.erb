@@ -1,0 +1,15 @@
+<div id=<%="#{commabox.name}_box"%> class=commabox></div>
+<%= hidden_field_tag commabox.name, "0"%>
+<script>
+  name="<%=commabox.name%>";
+  $("#"+name+"_box").click({name:name}, function(e){
+    if($("#"+e.data.name).attr("value")=="0"){
+      $("#"+e.data.name).attr("value", "1");
+      $("#"+e.data.name+"_box").addClass("commachecked");
+    }
+    else{
+      $("#"+e.data.name).attr("value", "0");
+      $("#"+e.data.name+"_box").removeClass("commachecked");
+    }
+  });
+</script>

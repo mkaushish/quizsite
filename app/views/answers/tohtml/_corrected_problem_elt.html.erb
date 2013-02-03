@@ -1,0 +1,13 @@
+<% elt = corrected_problem_elt %>
+<% if elt.correct?(@solution, @response) %>
+  <div class="correct">
+    <%= render_tohtml(local_assigns.merge(response:@response), elt) %>
+  </div>
+<% else %>
+  <div class="correct">
+    <%= render_tohtml(local_assigns.merge(response:@solution), elt) %>
+  </div>
+  <div class="incorrect">
+    <%= render_tohtml(local_assigns.merge(response:@response), elt) %>
+  </div>
+<% end %>

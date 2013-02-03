@@ -1,0 +1,10 @@
+<div class=permutationDrag>
+  <% permutationDrag.items.each_index do |i| %>
+    <div> <%= permutationDrag.items[i] %>
+      <%= hidden_field_tag "#{permutationDrag.name}_#{i}", permutationDrag.items[i] %>
+    </div>
+  <% end %>
+</div>
+<script>
+  $('.permutationDrag').permutationDrag();
+</script>

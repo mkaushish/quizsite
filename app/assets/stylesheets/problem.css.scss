@@ -61,19 +61,6 @@
   margin-bottom:5px;
 }
 
-.correct, .incorrect {
-  //display:inline-block;
-  padding:3px;
-  @include rounded-corners(2px);
-}
-
-.correct {
-  background-color: $light_green;
-}
-.incorrect {
-  background-color: $invalid_red;
-}
-
 div.permutationDrag {
   position:relative;
   padding: 5px;

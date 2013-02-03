@@ -46,6 +46,10 @@
   }
 }
 
+ul.horizontal > li {
+  float:left;
+}
+
 ul.column-list {
   height:inherit;
   overflow: auto;

@@ -1,0 +1,6 @@
+<% radiobutton.fields.each do |field| %>
+  <div class=checkbox-item>
+    <%= radio_button_tag(radiobutton.name, field) %>
+    <%= label_tag("#{radiobutton.name}_#{field}", field) %>
+  </div>
+<% end %>

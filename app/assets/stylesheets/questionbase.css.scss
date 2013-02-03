@@ -11,7 +11,14 @@
 	border-right:1px solid gray;
 }
 
+.pset_title {
+	position: absolute;
+	width: 100%;
+	text-align: center;
+}
+
 .problem_view_stats {
+	position: relative;
 	height:70px;
 }
 
@@ -23,6 +30,9 @@
 	font-weight:bold;
 	border-radius:0;
 	border:1px solid $button_blue;
+	&:hover {
+		color:white;
+	}
 }
 
 .problem_body {
@@ -33,5 +43,26 @@
 	input[type="text"] {
 		border-radius:0;
 		border:1px solid gray;
+	}
+}
+
+.correct {
+	>.input-field, .inline-block, .fraction {
+   		position:relative;
+	   	&:before {
+	   		content: url('correct_check.jpg');
+	   		position:absolute;
+	   		left:-25px;
+	   	}
+	}
+}
+.incorrect {
+	>.input-field .inline-block, .fraction {
+   		position:relative;
+	   	&:before {
+	   		content: url('incorrect_x.jpg');
+	   		position:absolute;
+	   		left:-25px;
+	   	}
 	}
 }

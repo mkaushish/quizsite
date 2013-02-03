@@ -30,7 +30,6 @@ class Answer < ActiveRecord::Base
   before_save       :dump_response
 
   def parse_params
-    $stderr.puts "HEY I'M GETTIN CALLED BITCHES"
     if !@params.nil? && self.problem.nil?
       self.problem    = Problem.find @params["problem_id"]
       self.time_taken = @params["time_taken"]

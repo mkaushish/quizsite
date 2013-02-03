@@ -5,7 +5,10 @@
 <div class='dotted-border' style='min-height:400px;'>
   <ul class=column-list>
     <% @history.each do |answer| %>
-      <li><%= link_to (answer.problem_type.to_s + " : " + answer.correct.to_s), "#" %></li>
+    <li><%= link_to (answer.problem_type.to_s + " : " + answer.correct.to_s), 
+  				    show_answer_path(id: answer.id, instance: @instance.id),
+  				    remote: true %>
+	</li>
     <% end %>
   </ul>
 </div>

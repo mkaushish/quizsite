@@ -1,0 +1,19 @@
+<div class="multifield">
+  <div id=tally style="position:relative">
+    <canvas id=datacanvas height=400 width=400 style="border-style:solid; border-width:2px;">
+    </canvas>
+    <%= hidden_field_tag('type', "tally") %>
+    <%= hidden_field_tag('edit', tallymarkfield.edit) %>
+    <table id=table style="display:none">
+      <% tallymarkfield.obs.length.times do |row| %>
+        <tr>
+          <td><%= hidden_field_tag("#{tallymarkfield.name}_#{row}_name", tallymarkfield.obs[row]) %></td>
+          <td><%= hidden_field_tag("#{tallymarkfield.name}_#{row}", tallymarkfield.init[row]) %></td>
+        </tr>
+      <% end %>
+    </table>
+    <script>
+      setUpDataGr("datacanvas", "table");
+    </script>
+  </div>
+</div>

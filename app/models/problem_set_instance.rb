@@ -55,9 +55,9 @@ class ProblemSetInstance < ActiveRecord::Base
   private
 
   def new_stat(problem_type, look_up_problem_stat = false)
-      new_pset_stat = self.problem_set_stats.new(:problem_type => problem_type)
-      new_pset_stat.assign_problem_stat if look_up_problem_stat
-      new_pset_stat
+      my_stat = self.problem_set_stats.new(:problem_type => problem_type)
+      my_stat.assign_problem_stat if look_up_problem_stat
+      my_stat
   end
 
 end

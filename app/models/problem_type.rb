@@ -16,7 +16,7 @@ class ProblemType < ActiveRecord::Base
 
   validates :name, :presence => true
 
-  def spawn(*args)
+  def spawn_problem(*args)
     # currently just do the smartergrades problems
     self.problem_generators.first.spawn(*args)
   end

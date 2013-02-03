@@ -17,21 +17,16 @@ class AnswersController < ApplicationController
     end
   end
 
-  # GET /answers/1
-  # GET /answers/1.json
+  # post /answers/1, js
   def show
-    @answer = Answer.find(params[:id]).includes(:problem)
+    @instance = ProblemSetInstance.find(params[:instance])
+    @answer = Answer.includes(:problem).find(params[:id])
+    @stat = current_user.problem_stats.where(problem_type_id: @answer.problem_type.id).first
     @problem = @answer.problem.problem
     @solution = @problem.prefix_solve
     puts "^"*60
     puts @solution.inspect
     @response = @answer.response_hash
-
-    respond_to do |format|
-      format.html # show.html.erb
-      format.json { render json: @answer }
-      format.js { render 'show_answer'}
-    end
   end
 
 

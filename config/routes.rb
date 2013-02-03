@@ -32,6 +32,7 @@ Quizsite::Application.routes.draw do
   get '/problem_sets/:name/do/:pid', :to => 'problem_sets#do', :as => :problem_set_do
   get '/problem_sets/:name/static_do/:pid', :to => 'problem_sets#static_do', :as => :problem_set_static_do
   post '/problem_sets/:name/finish_problem', :to => 'problem_sets#finish_problem', :as => :ps_finish_problem
+  get '/answers/:id/show', to: 'answers#show', as: :show_answer
 
   # teacher views:
   get '/teacherhome',               to: 'teachers#home', as: :teacherhome

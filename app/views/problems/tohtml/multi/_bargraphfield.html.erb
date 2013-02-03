@@ -1,0 +1,19 @@
+<div class="multifield">
+  <canvas id=datacanvas height=350 width=400>
+  </canvas>
+  <%= hidden_field_tag('edit', bargraphfield.edit) %>
+  <%= hidden_field_tag('type', "basicbar") %>
+  <%= hidden_field_tag('editdivs', bargraphfield.editdivs) %>
+  <%= hidden_field_tag('divs', bargraphfield.divs) %>
+  <table id=table style="display:none">
+    <% bargraphfield.obs.length.times do |row| %>
+      <tr>
+        <td><%= hidden_field_tag("#{bargraphfield.name}_#{row}_name", bargraphfield.obs[row]) %></td>
+        <td><%= hidden_field_tag("#{bargraphfield.name}_#{row}", bargraphfield.init[row]) %></td>
+      </tr>
+    <% end %>
+  </table>
+  <script>
+    setUpDataGr("datacanvas", "table");
+  </script>
+</div>

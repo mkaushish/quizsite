@@ -30,6 +30,10 @@ module ToHTML
     # the part the solution and response hashes which represent this problem are correct
     def correct?(solution, response)
     end
+
+    def partial
+      "single/#{self.class.to_s.split("::")[1].downcase}"
+    end
   end
 
   class MultiHTMLObj
@@ -37,6 +41,10 @@ module ToHTML
     # the part the solution and response hashes which represent this problem are correct
     def correct?(solution, response)
       raise "subclasses of MultiHTMLObj must implement correct?!"
+    end
+    
+    def partial
+      "multi/#{self.class.to_s.split("::")[1].downcase}"
     end
   end
 
@@ -236,40 +244,6 @@ module ToHTML
     end
   end 
 
-  class PermutationDrag < MultiHTMLObj
-    attr_reader :name, :items
-    # Either:
-    #   PermutationDrag.new(name, item1, item2, ...)
-    #   PermutationDrag.new(name, [item1, item2, ...])
-    def initialize(*args)
-      @name = ToHTML::add_prefix args.shift
-
-      if args[0].is_a?(Array)
-        @items = args[0]
-      else
-        @items = args
-      end
-    end
-
-    def correct?(solution, response)
-      items_from(solution) == items_from(response)
-    end
-
-    def items_from(response)
-      Array.new(@items.length) do |i|
-        response["#{name}_#{i}"]
-      end
-    end
-  end
-  class PermutationDisplay < PermutationDrag
-    def initialize(*args)
-      super(*args)
-    end
-    def correct?(solution, response)
-      true
-    end
-  end
-
   class InlineBlock < MultiHTMLObj
     attr_reader :text
     def initialize(*args)
@@ -433,6 +407,41 @@ module ToHTML
 
     def correct?(solution, response)
       solution[name] == response[name]
+    end
+  end
+
+  class PermutationDrag < InputField
+    attr_reader :name, :items
+    # Either:
+    #   PermutationDrag.new(name, item1, item2, ...)
+    #   PermutationDrag.new(name, [item1, item2, ...])
+    def initialize(*args)
+      @name = ToHTML::add_prefix args.shift
+
+      if args[0].is_a?(Array)
+        @items = args[0]
+      else
+        @items = args
+      end
+    end
+
+    def correct?(solution, response)
+      items_from(solution) == items_from(response)
+    end
+
+    def items_from(response)
+      Array.new(@items.length) do |i|
+        response["#{name}_#{i}"]
+      end
+    end
+  end
+  
+  class PermutationDisplay < PermutationDrag
+    def initialize(*args)
+      super(*args)
+    end
+    def correct?(solution, response)
+      true
     end
   end
 

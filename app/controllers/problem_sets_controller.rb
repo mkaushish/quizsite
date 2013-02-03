@@ -40,6 +40,9 @@ class ProblemSetsController < ApplicationController
       @problem_type = @problem_set.problem_types.find(params[:pid])
       @stat = @instance.stat(@problem_type)
       @problem = @stat.spawn_problem
+      $stderr.puts "STAT_N_PROBLEM " * 20
+      $stderr.puts @stat.inspect
+      $stderr.puts @problem.inspect
     else
       redirect_to access_denied_path && return
     end
@@ -51,14 +54,18 @@ class ProblemSetsController < ApplicationController
   # POST /problem_sets/:name/finish_problem
   # ps_finish_problem_path(:name)
   def finish_problem
-    @stat =     ProblemSetStat.includes(:problem_set_instance).find(params[:stat_id])
+    @stat = ProblemSetStat.includes(:problem_set_instance).includes(:problem_type).find(params[:stat_id])
     redirect_to access_denied_path && return if @stat.user != current_user
 
     @instance = @stat.problem_set_instance
     @answer = current_user.answers.create params: params, session: @instance
     @stat.update!(@answer)
 
-    redirect_to problem_sets_path(@instance.problem_set_id)
+    @problem = @answer.problem.problem
+    @solution = @problem.prefix_solve
+    @response = @answer.response_hash
+
+    render 'show_answer'
   end
 
   private

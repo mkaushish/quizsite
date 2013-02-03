@@ -1,0 +1,3 @@
+<%= label_tag(textfield.name, textfield.label) unless textfield.label.nil? || textfield.label.empty? %>
+<% length = textfield.char_length(@problem) %>
+<%= text_field_tag textfield.name, "", :maxlength => textfield.maxlen, :style => len_to_css_width(length) %>

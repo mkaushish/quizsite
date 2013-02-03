@@ -8,7 +8,7 @@ module CurrentProblem
   def spawn_problem
     return self.current_problem if self.current_problem
 
-    self.current_problem = problem_type.spawn
+    self.current_problem = problem_type.spawn_problem
     save!
     self.current_problem
   end
