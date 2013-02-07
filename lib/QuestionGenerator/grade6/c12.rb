@@ -7,7 +7,7 @@ require_relative '../modules/items'
 include ToHTML
 
 module Chapter12
-  TITLE = "12: Ratios"
+  TITLE = "Ratios"
 
   COEFFICIENTS = [2,3,4,5,6,7,8,9,10,12,15,20,25,50,100, 200, 500, 1000]
 

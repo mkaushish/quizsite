@@ -12,23 +12,7 @@
       <h4>Progress Center<h4>
     </div>
     <div class='dotted-border' style='min-height:400px;'>
-      <ul class=column-list>
-        <li class=list-header>Assignments</li>
-        <% if @active_assignments.nil? || @active_assignments.empty? %>
-          <li>You have no pending assignments</li>
-          <li>Current Score: <b>7/10</b> &gt Chapter 1 &gt Quiz 1</li>
-        <% else %>
-          <% @active_assignments.each do |assignment| %>
-            <%# ADD IN ACTIVE ASSIGNMENTS %>
-          <% end %>
-        <% end %>
-      </ul>
-
-      <ul class=column-list>
-        <li class=list-header>History</li>
-        <li>Yesterday you spent 12 minutes on Chapter 3</li>
-        <li>2 days ago you spent 15 minutes on chapter 3</li>
-      </ul>
+      <%= render 'progress_center' %>
     </div>
   </div>
 

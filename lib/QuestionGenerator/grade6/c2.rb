@@ -8,7 +8,7 @@ include ToHTML
 #TODO for predecessors and successors it should say first prdecessor/successsor rather than first 1 pre/successor
 #TODO take pre/successors in any order (Not very important)
 module Chapter2
-  TITLE = "2: Whole Numbers"
+  TITLE = "Whole Numbers"
   class WriteSuccessors < QuestionBase
     def self.type
       "Successors"

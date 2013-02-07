@@ -1,6 +1,6 @@
 .dotted-border {
   @include dotted-border();
-  padding:5px;
+  padding:10px;
   p {
     padding:5px;
     margin:5px;
@@ -48,14 +48,13 @@
 
 ul.horizontal > li {
   float:left;
+  margin-left:10px;
 }
 
-ul.column-list {
-  height:inherit;
-  overflow: auto;
+.column-list {
   color: $sg_grey;
   @include line-border();
-  margin: 10px;
+  //margin: 10px;
   padding: 2px;
   b {
     color: black;

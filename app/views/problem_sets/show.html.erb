@@ -9,7 +9,15 @@
 
 <div class=row-fluid>
   <div class=span4>
-    <%= render :partial => 'history' %>
+    <div class='dotted-border-header'>
+      <h4>History</h4>
+    </div>
+
+    <div class='dotted-border' style='min-height:400px;'>
+      <ul id="problem_hitory" class="column-list">
+        <%= render :partial => 'history_ans', :collection => @history, :as => :answer %>
+      </ul>
+    </div>
   </div>
 
   <div class="span8">

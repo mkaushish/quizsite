@@ -1,24 +1,20 @@
 <ul class=class_stat_list>
   <% @stat_calc.concept_progress.each do |stat| %>
     <% stat_id = "concept_stat_#{stat.type.id}" %>
-  <li id="<%= stat_id %>" class="stat">
+  <li id="<%= stat_id %>" class="stat" data-ptype=<%= stat.type.id %> data-classrm=<%= @classroom.id %>>
     <header><%= stat.type %></header>
     <ul>
-      <li><div><%= stat.attempted %></div>PROBLEMS DONE</li>
-      <li><div><%= stat.percent %></div>PERCENT CORRECT</li>
-      <li><div><%= stat.user_count %></div>STUDENTS ATTEMPTED</li>
+      <li><div class="attempted"><%= stat.attempted %></div>PROBLEMS DONE</li>
+      <li><div class="percent"><%= stat.percent %></div>PERCENT CORRECT</li>
+      <li><div class="stu_attempted"><%= stat.user_count %></div>STUDENTS ATTEMPTED</li>
     </ul>
   </li>
-  <script>
-    $('#<%= stat_id %>').click(function() {
-      $.ajax('<%= details_concept_path(problem_type: stat.type.id, classroom: @classroom.id) %>', { type : "POST", dataType : "script" });
-    })
-  </script>
   <% end %>
 </ul>
 
 <script>
   $(function () {
+    makeConceptsClickable();
     $('.class_stat_list').jScrollPane({ contentWidth: '0px' });
   })
 </script>

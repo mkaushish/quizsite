@@ -8,8 +8,6 @@ class QuizStat < ActiveRecord::Base
 
   validates :quiz_instance, :presence => true
 
-  # should we include the problem stat here as well? Probably...  TODO
-
   def update!(answer)
     remaining -= 1
 

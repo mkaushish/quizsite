@@ -25,9 +25,4 @@ class ProblemSetStat < ActiveRecord::Base
   def calculate_points(answer)
     stat.calculate_points(answer)
   end
-
-  def problem_stat
-    self.problem_stat ||= ( ProblemStat.where(user: user.id, problem_type: problem_type_id)
-                           || ProblemStat.new(user: user.id, problem_type: problem_type_id))
-  end
 end

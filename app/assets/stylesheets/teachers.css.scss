@@ -37,6 +37,11 @@ ul.teacher-class-col {
 }
 
 .teacher-details-column {
+  height:200px;
+}
+
+.teacher-details-body {
+  margin-bottom:25px;
 }
 
 form.inline-form {
@@ -58,6 +63,18 @@ form.inline-form {
   @include line-border();
   overflow:scroll;
   height: 200px;
+}
+
+.details_quiz_hist {
+  height:198px;
+  overflow:auto;
+}
+
+i.status {
+  font-weight:bold;
+  font-style: normal;
+  background-color: white;
+  padding:2px;
 }
 
 .stat {

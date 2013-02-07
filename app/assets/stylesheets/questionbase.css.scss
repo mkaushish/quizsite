@@ -23,13 +23,14 @@
 }
 
 .button-blue {
+	display:inline-block;
 	background-color:$button_blue;
 	color:white;
 	font-size:13px;
-	padding:4px;
+	line-height:16px;
+	padding:5px;
 	font-weight:bold;
 	border-radius:0;
-	border:1px solid $button_blue;
 	&:hover {
 		color:white;
 	}
@@ -46,23 +47,42 @@
 	}
 }
 
+@mixin has_check($d_y:0) {
+	position:relative;
+   	&:before {
+   		content: url('correct_check.jpg');
+   		position:absolute;
+   		left:-25px;
+   		top:$d_y;
+   	}
+}
+
+// d_y is vertical compensation
+@mixin has_x($d_y:0) {
+	position:relative;
+   	&:before {
+   		content: url('incorrect_x.jpg');
+   		position:absolute;
+   		left:-25px;
+   		top:$d_y;
+   	}
+}
 .correct {
-	>.input-field, .inline-block, .fraction {
-   		position:relative;
-	   	&:before {
-	   		content: url('correct_check.jpg');
-	   		position:absolute;
-	   		left:-25px;
-	   	}
+	>.inline-block, >.fraction, >.textfield {
+		@include has_check();
 	}
 }
 .incorrect {
-	>.input-field .inline-block, .fraction {
-   		position:relative;
-	   	&:before {
-	   		content: url('incorrect_x.jpg');
-	   		position:absolute;
-	   		left:-25px;
-	   	}
+	&>.input-field, &>.inline-block, &>.fraction {
+		@include has_x();
 	}
+}
+
+h2 {
+	&.correct { @include has_check(); }
+	&.incorrect { @include has_x(); }
+}
+input[type="radio"] {
+	&.correct { @include has_check(-10px); }
+	&.incorrect { @include has_x(-10px); }
 }

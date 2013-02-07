@@ -2,7 +2,10 @@
 
 <div class="row-fluid problem_body">
   <div class="problem_name">
-    <h2><%= @stat.problem_type.to_s %></h2>
+    <h2 class="<%= @answer.correct ? "":"in" %>correct">
+      <%= @stat.problem_type.to_s %>
+    </h2>
+
     <ul class="pull-right horizontal">
       <% if @problem.is_a? QuestionWithExplanation %>
         <li>
@@ -11,15 +14,14 @@
       <% end %>
 
       <li>
-        <%= submit_tag "Try Another", :class => 'pull-right button-blue' %>
+        <%= link_to "Try Another",
+                    problem_set_do_path(:name => @instance.problem_set.id, :pid => @stat.problem_type.id), 
+                    { :remote => true, :class => 'pull-right button-blue' } %>
       </li>
     </ul>
   </div>
 
   <div class='problem answer'>
-    <% if flash[:last_correct] == false %>
-    <% end %>
-
     <%= hidden_field_tag "shownp", (@problemanswer && @problemanswer.notepad) %>
 
     <% @problem.text.each do |elt| %>

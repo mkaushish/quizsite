@@ -8,7 +8,7 @@ include PreG6
 require 'set'
 include ToHTML
 module Chapter3
-  TITLE = "3: Playing with Numbers"
+  TITLE = "Playing with Numbers"
   SMALL_PRIMES    = [2, 3, 5, 7, 11, 13, 17]
   WEIGHTED_PRIMES = [2,2,2,2,2,3,3,3,3,5,5,5,7,7,11,13,17]
 

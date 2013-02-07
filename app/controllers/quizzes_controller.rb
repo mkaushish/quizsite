@@ -35,7 +35,7 @@ class QuizzesController < ApplicationController
     end
 
     @quiz = @classroom.quizzes.create problem_set_id: params[:problem_set_id],
-                                      quiz_problems_attributes: quiz_problems_attributes
+    quiz_problems_attributes: quiz_problems_attributes
 
     $stderr.puts "ERRORS "*10
     $stderr.puts @classroom.id
@@ -50,12 +50,9 @@ class QuizzesController < ApplicationController
     end
 
     redirect_to details_path(id: @classroom.id, problem_set: params[:problem_set_id])
-  else
-
-
   end
 
-  # get /quizzes/id/assign
+  # ROUTE: post /assign_quiz/:id, assign_quiz_path(id)
   def assign
     @quiz = Quiz.find params[:id]
     @quiz.assign params[:start_time], params[:end_time]

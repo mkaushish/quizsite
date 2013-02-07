@@ -5,7 +5,7 @@ include ToHTML
 include Geometry
 
 module Chapter4
-  TITLE = "4: Basic Geometrical Ideas"
+  TITLE = "Basic Geometrical Ideas"
 
   def Chapter4.pointsOnLine(m, b, startx, endx, num_points, start_name = "A")
     name = start_name.dup

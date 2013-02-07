@@ -15,16 +15,27 @@ class Quiz < ActiveRecord::Base
   has_many :users, :through => :quiz_instances
 
   has_many :quiz_problems, inverse_of: :quiz, dependent: :destroy
-  has_many :problem_types, :through => :quiz_problems
+  has_many :classroom_quizzes
 
   belongs_to :classroom
   belongs_to :problem_set
+  has_many   :problem_types, :through => :problem_set
 
   accepts_nested_attributes_for :quiz_problems
 
-  def assign(start_time, end_time)
-    self.starts_at = start_time
-    self.ends_at = start_time
+  def Quiz.history_classroom(klass)
+    psets = klass.problem_sets
+    where(problem_set_id: psets.map(&:id)).includes(:classroom_quizzes)
+  end
+
+  def Quiz.history_problem_set(pset)
+    where(problem_set_id: pset).includes(:classroom_quizzes)
+  end
+
+  def for_class(klass)
+    @class_quizzes ||= {}
+    @class_quizzes[klass] ||= classroom_quizzes.where(classroom_id:klass.id).first
+    @class_quizzes[klass] || classroom_quizzes.new(classroom_id:klass.id)
   end
 
   def default_problems
@@ -41,30 +52,11 @@ class Quiz < ActiveRecord::Base
     !problem_type.nil? && quiz_problem_types.where(:problem_type => problem_type).first.delete
   end
 
-  def ptypes
-    @ptypes ||= Marshal.load(self.problemtypes)
-  end
-
   def idname
     return "quiz_#{self.id}"
   end
 
-  # TODO implement thse two
-  def hasSmartScore?
-    return false
-  end
-
-  def smart_score
-    return "?"
-  end
-
-  def allow_access(user)
-    quiz_users.create!(:user => user)
-  end
-
-  def set_problem_orders
-    quiz_users.each do |qu|
-      qu.set_problem_order ptypes
-    end
+  def ptypes
+    @ptypes ||= Marshal.load(self.problemtypes)
   end
 end

@@ -1,7 +1,32 @@
-<p>
-	<%= link_to "Assign Quiz", new_quiz_path(classroom: @classroom.id, pset: @problem_set.id) %> 
-	on <%= @problem_set.name %>
-</p>
-<ul class=column-list>
-	<%= render :partial => 'teachers/quiz_history' %>
+<ul class='column-list details_quiz_hist'>
+	<li><%= link_to "Create Quiz", new_quiz_path(classroom: @classroom.id, pset: @problem_set.id) %>
+		for <%= print_ps @problem_set %> 
+	</li>
+
+	<% if @quiz_history.empty? %>
+	<li>You haven't assigned any quizzes on this problem set yet</li>
+    <% else %>
+	  	<% @quiz_history.each do |quiz| %>
+	<li class="assign_quiz_form">
+		<div>
+			Quiz from <%= quiz.created_at %>
+		</div>
+		<div>
+			<% if !quiz.for_class(@classroom).assigned? %>
+				<%= link_to quiz.for_class(@classroom).assigned_status, 
+							assign_quiz_path(@classroom.id), 
+							remote:true %>
+			<% else %>
+			<%= quiz.for_class(@classroom).assigned_status %>
+			<% end %>
+		</div>
+	</li>
+	  	<% end %>
+	<% end %>
 </ul>
+
+<script>
+  $(function () {
+    $('.details_quiz_hist').jScrollPane({ contentWidth: '0px' });
+  })
+</script>
