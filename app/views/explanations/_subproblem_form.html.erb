@@ -1,0 +1,5 @@
+<div id='<%= @i.cur_i %>' class='sub-problem active'>
+<% @i.cur.text.each do |elt| %>
+   <%= render_tohtml({partial_dir: 'problems'}, elt) %>
+<% end %>
+</div>

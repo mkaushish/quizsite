@@ -1,0 +1,42 @@
+@mixin fraction_wrapper() {
+	padding:3px;
+	&>* {
+		margin:0;
+	}
+}
+div.fraction {
+	margin: 0px 15px;
+	display:table;
+
+	&>div.int { 
+		position:relative;
+		text-align: right;
+		float: left;
+		@include fraction_wrapper();
+	}
+
+	.quotient {
+		margin: 0px;
+		float: left;
+
+		.numerator {
+			position:relative;
+			top:1px;
+			border-bottom: 2px solid black;
+
+			text-align: center;
+
+			@include fraction_wrapper();
+		}
+
+		.denominator {
+			position:relative;
+			top:-1px;
+			border-top:2px solid black;
+			text-align: center;
+
+			@include fraction_wrapper();
+		}
+	}
+}
+

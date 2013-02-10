@@ -1,0 +1,85 @@
+$inside_details_height: 250px;
+
+.class_stat_list {
+	@include line-border();
+	overflow:auto;
+	height: $inside_details_height;
+	margin:0;
+}
+
+.details_quiz_hist {
+	height: $inside_details_height;
+	overflow:auto;
+}
+
+i.status {
+	font-weight:bold;
+	font-style: normal;
+	background-color: white;
+	padding:2px;
+}
+
+.stat {
+	padding:7px;
+	display: inline-block;
+	header {
+		font-size: 13px;
+		line-height:14px;
+		width: 3 * 37px + 4;
+		text-align: center;
+		margin-bottom:7px;
+	}
+	ul {
+		height: 30px;
+		padding:0;
+
+		>li {
+			padding:0 2px 2px 0;
+			width: 33px;
+			margin:1px;
+
+			font-size:6px;
+			line-height:7px;
+			text-align: center;
+			display:inline-block;
+			float:left;
+
+			div {
+				height:20px;
+				padding-top: 4px;
+				font-size:16px;
+				line-height:16px;
+			}
+		}
+
+		>li.stat-bar {
+			display:block;
+			width:100%;
+			height:0;
+			margin-bottom:9px;
+			div {
+				height: 0;
+				padding:2px 0 0 0;
+				font-size:0;
+
+				border-style:solid;
+				border-width:1px;
+				border-bottom-width:5px;
+				border-top-width:0px;
+			}
+		}
+	}
+	.probs_done {
+		border-color:$sg_green;
+	}
+	.percent {
+		border-color:$sg_blue;
+	}
+	.stu_attempted {
+		border-color:$red;
+	}
+}
+
+select#problem_set_id {
+	width:235px;
+}

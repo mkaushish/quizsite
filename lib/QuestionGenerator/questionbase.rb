@@ -168,6 +168,10 @@ class Subproblem < QuestionBase
   def solve
     @mysoln
   end
+
+  def id
+    ""
+  end
 end
 
 class SubLabel < Subproblem

@@ -14,7 +14,7 @@
 		<div>
 			<% if !quiz.for_class(@classroom).assigned? %>
 				<%= link_to quiz.for_class(@classroom).assigned_status, 
-							assign_quiz_path(@classroom.id), 
+							assign_quiz_path(classroom: @classroom.id, id: quiz.id), 
 							remote:true %>
 			<% else %>
 			<%= quiz.for_class(@classroom).assigned_status %>

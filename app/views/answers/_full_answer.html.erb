@@ -1,4 +1,4 @@
-<%= render partial: 'problem_sets/stats' %>
+<%= render 'problem_sets/stats' %>
 
 <div class="row-fluid problem_body">
   <div class="problem_name">
@@ -9,26 +9,21 @@
     <ul class="pull-right horizontal">
       <% if @problem.is_a? QuestionWithExplanation %>
         <li>
-          <%= link_to "See Explanation", explain_problem_path(@answer.problem_id), :class => "pull-right button-blue" %>
+          <%= link_to "See Explanation", explain_problem_path(@answer.problem_id), 
+              :remote => true, :class => "pull-right button-blue", :id => "see_explanation" %>
         </li>
       <% end %>
 
       <li>
         <%= link_to "Try Another",
                     problem_set_do_path(:name => @instance.problem_set.id, :pid => @stat.problem_type.id), 
-                    { :remote => true, :class => 'pull-right button-blue' } %>
+                    { :remote => true, :class => 'pull-right button-blue', :id => 'try_another' } %>
       </li>
     </ul>
   </div>
 
   <div class='problem answer'>
-    <%= hidden_field_tag "shownp", (@problemanswer && @problemanswer.notepad) %>
-
-    <% @problem.text.each do |elt| %>
-       <%= render partial: 'answers/tohtml/corrected_problem_elt', 
-                  object: elt, 
-                  locals: {partial_dir: 'answers'} %>
-    <% end %>
+    <%= render 'answers/answer_body' %>
   </div>
 </div>
 

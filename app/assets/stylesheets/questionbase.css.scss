@@ -9,6 +9,7 @@
 #problem_overlay {
 	z-index:20;
 	position: fixed;
+	overflow:auto;
 	left:50%;
 	margin-left:-400px;
 	height:100%;

@@ -1,0 +1,11 @@
+<% @problem.text.each do |elt| %>
+	<% if elt.correct?(@solution, @response) %>
+	   <%= render partial: 'answers/tohtml/corrected_problem_elt', 
+	              object: elt, 
+	              locals: {partial_dir: 'answers'} %>
+	<% else %>
+		<div class=incorrect>
+			<%= render_tohtml({partial_dir: 'problems'}, elt) %>
+		</div>
+	<% end %>
+<% end %>

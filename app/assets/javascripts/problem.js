@@ -3,13 +3,14 @@ function hideProblem() {
   $('#dimmer').hide();
 }
 
-function setCurQuiz() {
-  var quiz_s = "<li class='nav-header'>Current Quiz</li>";
-  $(':checkbox:checked').each(function() {
-    var problemname = $(this).attr("name").split("::")[1];
-    quiz_s = quiz_s + "<li>"+problemname+"</li>";
+function centerFractionInts() {
+  $('.fraction .int').each(function() {
+    var $i = $(this)
+      , $total_height = $i.parent().height();
+
+    $i.css('top', $total_height / 2)
+    $i.css('margin-top', (0-$i.outerHeight())/ 2)
   });
-  $('#curquiz').html(quiz_s);
 }
 
 function rel_mt_fields(btn) {

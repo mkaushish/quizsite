@@ -67,9 +67,11 @@ module PreG6
     end
     def text
       if !@norem
-        return [TextLabel.new("#{@num2} / #{@num1} = "), TextField.new("quo", "Quotient"), TextField.new("rem", "Remainder")]
+        return [
+          InlineBlock.new("#{@num2} / #{@num1}", " = ", TextField.new("quo"), TextField.new("rem", "remainder"))
+        ]
       end
-      return [TextLabel.new("#{@num2} / #{@num1} = "), TextField.new("quo")]
+      return [InlineBlock.new(TextLabel.new("#{@num2} / #{@num1} = "), TextField.new("quo"))]
     end
   end
   class CompareNumbers < QuestionBase

@@ -1,0 +1,7 @@
+<%= hidden_field_tag "shownp", (@problemanswer && @problemanswer.notepad) %>
+
+<% @problem.text.each do |elt| %>
+   <%= render partial: 'answers/tohtml/corrected_problem_elt', 
+              object: elt, 
+              locals: {partial_dir: 'answers'} %>
+<% end %>

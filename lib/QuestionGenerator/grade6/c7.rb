@@ -12,33 +12,57 @@ include ToHTML
 module Chapter7
   TITLE = "Fractions"
 
-  #TODO Fraction Formatting
+  COEFFICIENTS = [2,3,4,5,6,7,8,9,10,12,15,20,25,50,100, 200, 500, 1000]
+
+  def self.gen_fraction
+    a, b =  Array.new(2) { rand(11) + 2 }
+    a, b = b, a if a > b
+    a -= 1 if a == b
+    Rational(a, b)
+  end
+
+  def self.gen_reducible_fraction
+    c = COEFFICIENTS.sample
+    f = Chapter7.gen_fraction
+    [f.numerator, f.denominator].map { |x| c * x }
+  end
 
   class ToMixedFractions < QuestionWithExplanation
     def self.type
       "To Mixed Fractions"
     end
-    def initialize
-      @den=rand(8)+2
-      @num=rand(60)+10
-      while @num/@den==(@num.to_f)/@den
-        @num=rand(60)+10
-      end
-      hcf=Grade6ops.euclideanalg(@num, @den)
-      @num /= hcf
-      @den /= hcf
+
+    def initialize(frac = nil)
+      f = frac || Chapter7.gen_fraction + 1 + rand(5)
+      @num, @den = [f.numerator, f.denominator]
     end
+
     def solve
-      intpart=@num/@den
-      remainder=@num-(intpart*@den)
-      sol={"num" => remainder.to_s, 
-        "den" =>  @den.to_s, 
-        "intpart" =>  intpart.to_s}
+      {
+        "num" => @num % @den,
+        "den" => @den, 
+        "intpart" => @num / @den
+      }
     end
     def explain
-      sol=solve
-      [SubLabel.new("To convert a fraction to a mixed fraction, first divide the numerator by the denominator and get the Quotient and Remainder. The quotient is the integer part, the remainder is the denominator and the denominator remains the same"), PreG6::Division.new(@den, @num),
-        Subproblem.new([TextLabel.new("Since the quotient is #{@num/@den} and the remainder is #{@num-(@num/@den)*@den}, the fraction in mixed form is:"), Fraction.new("num", "den", "intpart")], {"num" => sol["num"], "den" => sol["den"], "intpart" => sol["intpart"]})]  
+      q = soln["intpart"].to_i
+      r = soln["num"].to_i
+      [
+        SubLabel.new("Mixed fractions and improper fractions are two ways of representing the same number. " +
+                     "To convert a fraction to a mixed fraction, first divide the numerator by the denominator " +
+                    "to get the Quotient and Remainder."),
+        PreG6::Division.new(@den, @num),
+        Subproblem.new(
+          [ TextLabel.new("We can now rewrite our improper fraction into the mixed fraction below"),
+            InlineBlock.new( Fraction.new(@num, @den), "=", Fraction.new(r, @den, q) ),
+          ], {}),
+        Subproblem.new(
+          [ TextLabel.new("While you're filling in the blank in the equation below, try to think why that " + 
+                          "number matters for both types of fractions"),
+            InlineBlock.new( Fraction.new(@num, @den), " = ", Fraction.new(r, @den, q), 
+                             " = ", Fraction.new("ans", @den), " + ", Fraction.new(r, @den) )
+          ], {"ans" => q * @den})
+      ]
     end
     def  text
       [TextLabel.new("Convert the following into a mixed fraction with the same denominator"), InlineBlock.new(Fraction.new(@num,@den), TextLabel.new(" = "), Fraction.new("num", "den", "intpart"))]

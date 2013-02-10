@@ -11,6 +11,36 @@ class TeacherStatCalc
       @attempted == 0 ? "" : (@correct * 100.0/@attempted).to_i.to_s
     end
 
+    def attempted_percent
+      # brackets contains the progressive arrays indicating the number of people required
+      # to reach a specific percent
+      brackets = [
+        [25.0, 0.2],   # 25 students * 1 question => 20%
+        [100.0, 0.5],  # 25 students * 4 questions
+        [300.0, 0.75], # 25 students * 12 questions
+        [1000.0, 0.9], # 25 students * 40 questions
+        [2500.0, 1],   # 25 students * 100 questions
+        [Float::MAX, 1],   # break the loop
+      ]
+
+      a = attempted
+      ret = [a, brackets[0][0]].max * 0.8
+      while a > brackets[1][0] 
+        prev_b = brackets.shift
+        next_b = brackets[0]
+        
+        uncounted = a - prev_b[0]
+        b_max     = next_b[0] - prev_b[0][0] 
+        b_percent = next_b[1] - prev_b[0][1] 
+
+        ret += b_percent * [uncounted, b_max].max / b_max
+
+        brackets.shift
+      end
+
+      ret
+    end
+
     def to_s 
       "<Stat: #{@type.to_s}, #{@correct}, #{@attempted}, #{@user_count}>"
     end
@@ -25,6 +55,11 @@ class TeacherStatCalc
       @concept_progress = []
     end
   end
+
+  def class_size
+    @students.length
+  end
+
 
   def student_stats
     @student_stats ||= ProblemStat.where(:problem_type_id => @problem_types.map(&:id),
