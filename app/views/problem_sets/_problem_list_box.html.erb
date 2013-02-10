@@ -1,6 +1,6 @@
 <% stat = problem_list_box %>
 <% ptype = stat.problem_type %>
-<div class=problem_list_box>
+<div class="problem_list_box yellow-bord">
   <p><%= ptype.to_s %></p>
   <%= link_to "Let me try", problem_set_do_path(:name => @problem_set.id, :pid => ptype.id), remote:true %>
   <%# link_to "Let me try", example_problem_path(ptype.id) %>

@@ -1,9 +1,14 @@
-$red:     #de0000;
+$red:    #C40233;
+$green:  #009F6B;
+$blue:   #0087BD;
+$yellow: #FFD300;
 
-$button_blue: #3aa0af;
-$blue:    #049cdb;
-$green:   #46a546;
-$yellow:  #ffc40d;
+$sgGreen: $green;
+$sg_green: $green;
+$sgBlue:  $blue;
+$sg_blue:  $blue;
+
+$button_blue: $blue;
 $orange:  #f89406;
 $pink:    #c3325f;
 $purple:  #7a43b6;
@@ -11,10 +16,10 @@ $navlink: #c1c1d8;
 $navG1:   #262632; 
 $navG2:   #74748e;
 $navGH:   #58588e;
-$sgGreen: #6bad4b;
-$sg_green: #aec833;
-$sgBlue:  #36a0b0;
-$sg_blue:  #36a0b0;
+// $sgGreen: #6bad4b;
+// $sg_green: #aec833;
+// $sgBlue:  #36a0b0;
+// $sg_blue:  #36a0b0;
 $sg_grey: #7f7f7f;
 $light_green: #9fe37f;
 $invalid_red: #f2dede;
@@ -26,7 +31,7 @@ $graphite: #503214;
   border: 1px solid $sg_grey;
 }
 @mixin dotted-border() {
-  border: 2px dashed $sg_blue;
+  border: 2px dashed $blue;
 }
 @mixin rounded-corners($radius) {
 	-moz-border-radius: $radius;
