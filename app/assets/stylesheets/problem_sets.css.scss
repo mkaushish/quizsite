@@ -3,3 +3,25 @@ b.problem_set {
 	font-weight:normal;
 	color:#6ca544;
 }
+@mixin hist_check($d_y:0) {
+	position:relative;
+   	&:before {
+		display:inline;
+   		content: url('correct_check.png');
+   	}
+}
+
+// d_y is vertical compensation
+@mixin hist_x($d_y:0) {
+	position:relative;
+   	&:before {
+		display:inline;
+   		content: url('incorrect_x.png');
+   	}
+}
+.correct_hist {
+		@include hist_check();
+}
+.incorrect_hist {
+		@include hist_x();
+}

@@ -1,10 +1,9 @@
 @import 'mixins_n_colors';
 
 .side-notes {
+  display:inline-block;
   &> div {
-    border: 1px solid $sg_grey;
   }
-
   &>.calculations {
     height:200px;
   }

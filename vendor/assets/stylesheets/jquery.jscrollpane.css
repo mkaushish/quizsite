@@ -10,6 +10,11 @@
 	overflow: hidden;
 	position: relative;
 }
+.jspContainer:hover .jspDrag
+{
+	background:#99b;
+}
+	
 
 .jspPane
 {
@@ -21,7 +26,7 @@
 	position: absolute;
 	top: 0;
 	right: 0;
-	width: 16px;
+	width: 6px;
 	height: 100%;
 	background: red;
 }
@@ -55,7 +60,7 @@
 
 .jspTrack
 {
-	background: #dde;
+	background: white;
 	position: relative;
 }
 
@@ -66,6 +71,9 @@
 	top: 0;
 	left: 0;
 	cursor: pointer;
+}
+.jspDrag:hover{
+	background:black;
 }
 
 .jspHorizontalBar .jspTrack,

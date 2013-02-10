@@ -41,7 +41,7 @@ module Chapter7
         Subproblem.new([TextLabel.new("Since the quotient is #{@num/@den} and the remainder is #{@num-(@num/@den)*@den}, the fraction in mixed form is:"), Fraction.new("num", "den", "intpart")], {"num" => sol["num"], "den" => sol["den"], "intpart" => sol["intpart"]})]  
     end
     def  text
-      [TextLabel.new("Convert the following into a mixed fraction"), InlineBlock.new(Fraction.new(@num,@den), TextLabel.new(" = "), Fraction.new("num", "den", "intpart"))]
+      [TextLabel.new("Convert the following into a mixed fraction with the same denominator"), InlineBlock.new(Fraction.new(@num,@den), TextLabel.new(" = "), Fraction.new("num", "den", "intpart"))]
     end
   end
 
@@ -73,7 +73,7 @@ module Chapter7
     def  text
       intpart=@num/@den
       remainder=@num-(intpart*@den)
-      [TextLabel.new("Convert the following into an improper fraction"), InlineBlock.new(Fraction.new(remainder, @den, intpart), TextLabel.new(" = "), Fraction.new("num", "den"))]
+      [TextLabel.new("Convert the following into an improper fraction with the same denominator"), InlineBlock.new(Fraction.new(remainder, @den, intpart), TextLabel.new(" = "), Fraction.new("num", "den"))]
     end
   end
 
@@ -227,8 +227,9 @@ module Chapter7
       return {"ans" => @num[@sig]}
     end
     def text
+      stro=[]
       str=[]
-      str << TextLabel.new("Fill in the Numerator:")
+      stro << TextLabel.new("Fill in the Numerator:")
       str1 = []
       str2 = []
 
@@ -248,7 +249,8 @@ module Chapter7
         str << TextLabel.new('=')
         str+=str1
       end
-      str
+      stro << InlineBlock.new(str)
+      stro
     end  
   end
 
@@ -280,7 +282,8 @@ module Chapter7
     end
     def text
       str=[]
-      str << TextLabel.new("Fill in the Denominator:")
+      stro=[]
+      stro << TextLabel.new("Fill in the Denominator:")
       str1 = []
       str2 = []
 
@@ -300,7 +303,8 @@ module Chapter7
         str << TextLabel.new('=')
         str+=str1
       end
-      str
+      stro << InlineBlock.new(str)
+      stro
     end  
   end
 
@@ -431,7 +435,8 @@ module Chapter7
       ret << Chapter7::ASLikeFractions.new(lcm.solve["lcm"], nums, @sig)
     end
     def text
-      str= [TextLabel.new("Compute the following and reduce to its lowest form:") , Fraction.new(@num[0], @den[0])]
+      stro= [TextLabel.new("Compute the following and reduce to its lowest form:")]
+      str= [Fraction.new(@num[0], @den[0])]
       for i in 0...@sig.length
         if @sig[i]==1
           str << TextLabel.new('+')
@@ -441,7 +446,10 @@ module Chapter7
           str << Fraction.new(@num[i+1], @den[i+1])
         end
       end
+      str << TextLabel.new("=")
       str << Fraction.new("num", "den")
+      stro << InlineBlock.new(str)
+      stro
     end
   end
 
@@ -498,7 +506,8 @@ module Chapter7
         Chapter7::ReduceFractionsEA.new(@num.reduce(:+), @den)]
     end
     def text
-      str= [TextLabel.new("Compute the following and reduce to its lowest form:") , Fraction.new(@num[0], @den[0])]
+      stro= [TextLabel.new("Compute the following and reduce to its lowest form:")] 
+      str= [Fraction.new(@num[0], @den[0])]
       for i in 0...@sig.length
         if @sig[i]==1
           str << TextLabel.new('+')
@@ -508,7 +517,10 @@ module Chapter7
           str << Fraction.new(@num[i+1], @den[i+1])
         end
       end
+      str << TextLabel.new("=")
       str << Fraction.new("num","den")
+      stro << InlineBlock.new(str)
+      stro
     end
   end
 
@@ -558,7 +570,8 @@ module Chapter7
       Subproblem.new([TextLabel.new("Hence the result is: "), Fraction.new("num", "den", "intpart")], solve)]
     end 
     def text
-      str = [TextLabel.new("Compute the following and give the answer in its lowest form:"), Fraction.new(@num[0],@den[0], @intpart[0])]
+      stro = [TextLabel.new("Compute the following and give the answer in its lowest form:")]
+      str = [Fraction.new(@num[0],@den[0], @intpart[0])]
       for i in 0...@sig.length
         if @sig[i]==1
           str << TextLabel.new('+')
@@ -568,7 +581,10 @@ module Chapter7
           str << Fraction.new(@num[i+1], @den[i+1], @intpart[i+1])
         end
       end
+      str << TextLabel.new("=")
       str << Fraction.new("num", "den", "intpart")
+      stro << InlineBlock.new(str)
+      stro
     end
   end
 

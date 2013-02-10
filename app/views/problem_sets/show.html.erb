@@ -20,7 +20,8 @@
     </div>
   </div>
 
-  <div class="span8">
+  <div class="span8" >
+    <div class=jScroll_bboard >
     <table class=list-box-table>
       <% @stats.each_slice(3) do |next_3| %>
         <tr>
@@ -30,5 +31,7 @@
         </tr>
       <% end %>
     </table>
+    </div>
   </div>
+  <script> $(".jScroll_bboard").jScrollPane({hideFocus:true}); </script>
 </div>

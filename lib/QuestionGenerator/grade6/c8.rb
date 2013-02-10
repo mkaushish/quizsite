@@ -153,7 +153,7 @@ module Chapter8
     end
     def solve
       intpart=@num/(10**@div)
-#      puts rem=(@num-intpart*(10**@div))
+      rem=(@num-intpart*(10**@div))
       hcf=Grade6ops::euclideanalg(rem , 10**@div)
       { "intpart" => intpart.to_s,
         "num" => (rem/hcf).to_s,
