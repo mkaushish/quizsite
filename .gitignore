@@ -11,3 +11,4 @@ allfiles.txt
 TODO
 config/database.yml
 doc/*
+.tags*
