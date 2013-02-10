@@ -3,7 +3,9 @@
     <% tablefield.nrows.times do |row| %>
       <tr>
         <% tablefield.each_column(row) do |htmlobj| %>
-	      <%= render_tohtml local_assigns, htmlobj %>
+          <td>
+            <%= render_tohtml local_assigns, htmlobj %>
+          </td>
         <% end %>
       </tr>
     <% end %>

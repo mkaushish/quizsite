@@ -11,13 +11,13 @@ include PreG6
 module Chapter1
   TITLE = "Knowing our Numbers"
   ROMAN_TABLE = RomanTable.new( [
-     [ 1 , "=", "I" , "", 90  , "=", "XC"],
-     [ 4 , "=", "IV", "", 100 , "=", "C" ],
-     [ 5 , "=", "V" , "", 400 , "=", "CD"],
-     [ 9 , "=", "IX", "", 500 , "=", "D" ],
-     [ 10, "=", "X" , "", 900 , "=", "CM"],
-     [ 40, "=", "XL", "", 1000, "=", "M" ],
-     [ 50, "=", "L" , "", "",   "",  ""  ]
+                               [ 1 , "=", "I" , "", 90  , "=", "XC"],
+                               [ 4 , "=", "IV", "", 100 , "=", "C" ],
+                               [ 5 , "=", "V" , "", 400 , "=", "CD"],
+                               [ 9 , "=", "IX", "", 500 , "=", "D" ],
+                               [ 10, "=", "X" , "", 900 , "=", "CM"],
+                               [ 40, "=", "XL", "", 1000, "=", "M" ],
+                               [ 50, "=", "L" , "", "",   "",  ""  ]
   ])
   PPVALUE=["Ones", "Tens", "Hundreds", "Thousands", "Ten Thousands", "Lakhs", "Ten Lakhs", "Crores", "Ten Crores"]
   class ExpandNumbers1 < QuestionBase
@@ -42,10 +42,16 @@ module Chapter1
     def solve
       {"ans1" => @num1, "ans2" => @num2}
     end
+    def correct?(params)
+      solsum = 0
+      bool = true
+      resps = QuestionBase.vars_from_response( *( (1...3).map { |i| "ans#{i}" }), params)
+      puts "********\n" + resps.to_s + "********\n"
+      resps[0].to_i*(10**@prod1)+resps[1].to_i*(10**@prod2)==@num1*(10**@prod1)+@num2*(10**@prod2)
+    end
     def text
       [TextLabel.new("Expand #{@num1*(10**@prod1)+@num2*(10**@prod2)}:"), 
-        InlineBlock.new(TextField.new("ans1"), TextLabel.new(" X #{10**@prod1}")),
-        InlineBlock.new(TextField.new("ans2"), TextLabel.new(" X #{10**@prod2}")),
+        InlineBlock.new(TextField.new("ans1"), TextLabel.new(" X #{10**@prod1}"), TextLabel.new(" + "), TextField.new("ans2"), TextLabel.new(" X #{10**@prod2}")),
       ]
     end
   end
@@ -59,6 +65,16 @@ module Chapter1
         sol["ans_#{i}"]=("#{@num}")[i]
       end
       sol
+    end
+    def correct?(params)
+      solsum = 0
+      bool = true
+      resps = QuestionBase.vars_from_response( *( (0...("#{@num}").length).map { |i| "ans_#{i}" }), params)
+      tem=[]
+      for i in 0...resps.length
+        tem << resps.to_i
+      end
+      tem.reduce(:+)==@num
     end
     def text
       ret=[TextLabel.new("Expand #{@num}:")]
@@ -144,6 +160,7 @@ module Chapter1
       for i in 0...PPVALUE.length
         ret["ans_"+PPVALUE[i]]="0" if(ret["ans_"+PPVALUE[i]]==nil)
       end
+
       $stderr.puts ret
       ret
     end   
@@ -155,16 +172,24 @@ module Chapter1
     end
 
 
-
     def text
       solve
-      tab=TableField.new("ans",PPVALUE.length, 2)
       ret=[TextLabel.new("Write the following in the place value table"), TextLabel.new(@num.to_s)]
-      for i in 0...PPVALUE.length
-        tab.set_field(i, 0, TextLabel.new(PPVALUE[i]))
-        tab.set_field( i, 1, TextField.new("ans_"+PPVALUE[i], "", 1))
+      tab=TableField.new("tab", PPVALUE.length/3+1, 6)
+      puts PPVALUE
+      for i in 0...(1+PPVALUE.length/3)
+        for j in 0...3
+          if(i*3+j+1 <= PPVALUE.length)
+            tab.set_field(i, j*2, TextLabel.new(PPVALUE[i*3+j]))
+            tab.set_field(i, j*2+1, TextField.new("ans_"+PPVALUE[i*3+j]))
+          else
+            tab.set_field(i, j*2, TextLabel.new(""))
+            tab.set_field(i, j*2+1, TextLabel.new(""))
+
+          end
+        end
       end
-      ret << tab 
+      ret << tab
       ret
     end
 
@@ -241,7 +266,7 @@ module Chapter1
           chb << Checkbox.new("pk2_#{i}", rem[i])
         end
         ret << Subproblem.new([TextLabel.new("The remaining numbers are: #{rem.join(", ")}. Now, we compare the next digit from the left. What is the largest such digit?"), Dropdown.new("dig", ("1".."9").to_a)], {"dig" => @nums.max.to_s[j]})
-      ret << Subproblem.new([TextLabel.new("Now pick those numbers which do not have this digit")]+chb, hsh)
+        ret << Subproblem.new([TextLabel.new("Now pick those numbers which do not have this digit")]+chb, hsh)
       end
       ret << SubLabel.new("The only remaining number is #{@nums.max} and hence, it is the largest number")
     end
@@ -325,7 +350,7 @@ module Chapter1
           chb << Checkbox.new("pk2_#{i}", rem[i])
         end
         ret << Subproblem.new([TextLabel.new("The remaining numbers are: #{rem.join(", ")} Now, we compare the next digit from the left. What is the smallest such digit?"), Dropdown.new("dig", ("1".."9").to_a)], {"dig" => @nums.min.to_s[j]})
-      ret << Subproblem.new([TextLabel.new("Now pick those numbers which do not have this digit")]+chb, hsh)
+        ret << Subproblem.new([TextLabel.new("Now pick those numbers which do not have this digit")]+chb, hsh)
       end
       ret << SubLabel.new("The only remaining number is #{@nums.min} and hence, it is the smallest number")
     end
@@ -533,9 +558,9 @@ module Chapter1
     def explain
       [
         Subproblem.new( [
-            TextLabel.new("To add commas to to a number, always start from the right side (The side with the \"least significant digit\").  Count 3 digits over, and add a comma there.  After that one, add a comma every two digits.  This way #{@num} becomes #{@num.ind_commas}")
-          ], {} 
-        )
+                       TextLabel.new("To add commas to to a number, always start from the right side (The side with the \"least significant digit\").  Count 3 digits over, and add a comma there.  After that one, add a comma every two digits.  This way #{@num} becomes #{@num.ind_commas}")
+      ], {} 
+                      )
       ]
     end
   end
@@ -576,9 +601,9 @@ module Chapter1
 
     def explain
       [ Subproblem.new( [
-            TextLabel.new("To add commas to to a number, always start from the right side (The side with the \"least significant digit\").  Then keep moving 3 digits left and adding a comma, until you hit the end of the number.  This way #{@num} becomes #{@num.int_commas}")
-          ], {} 
-        )
+                       TextLabel.new("To add commas to to a number, always start from the right side (The side with the \"least significant digit\").  Then keep moving 3 digits left and adding a comma, until you hit the end of the number.  This way #{@num} becomes #{@num.int_commas}")
+      ], {} 
+                      )
       ]
     end
   end
@@ -648,7 +673,7 @@ module Chapter1
 
     def explain
       [ Subproblem.new( [
-          TextLabel.new("A \"round number\" has all 0's after the first digit.  To round off #{@num}, we pick the closest round number, which is #{@num.gen_rule}") ], {} )
+                       TextLabel.new("A \"round number\" has all 0's after the first digit.  To round off #{@num}, we pick the closest round number, which is #{@num.gen_rule}") ], {} )
       ]
     end
   end
@@ -730,7 +755,7 @@ module Chapter1
     end
     def prereq
       gen=[[Chapter1::RoundingNumbers, 1.0]]
-      
+
       return gen + [[PreG6::Multiplication, 0.0]] if (@op==:*) 
       return gen + [[PreG6::Addition, 0.0]] if (@op==:+)
       return gen + [[PreG6::Subtraction, 0.0]]
@@ -761,11 +786,11 @@ module Chapter1
         FindMinNumber.new([small, big]),
         RoundingNumbers.new(small),
         Subproblem.new( [ 
-            TextLabel.new("Because #{small} is #{small.to_s.length} digits long, we need to round off the last #{small.to_s.length - 1} digits of #{big}.  This gives us"),
-            TextField.new("big_round")
-          ], 
-          {"big_round" => bigger.round(small.to_s.length - 1)} 
-        )
+                       TextLabel.new("Because #{small} is #{small.to_s.length} digits long, we need to round off the last #{small.to_s.length - 1} digits of #{big}.  This gives us"),
+                       TextField.new("big_round")
+      ], 
+        {"big_round" => bigger.round(small.to_s.length - 1)} 
+                      )
       ]
     end
 
@@ -865,11 +890,11 @@ module Chapter1
 
       [
         Subproblem.new( [
-          TextLabel.new("To convert from roman numerals, you need to memorize the table below"),
-          ROMAN_TABLE,
-          TextLabel.new( "Now go through the table from the biggest numeral to the smallest.  Each time you're on a numeral that's smaller than what's left of your number, take it away from your number, and add it to the roman numeral you're making.  Follow the example below for the number #{@num}:"),
-          TextTable.new(tally_table)
-        ])
+                       TextLabel.new("To convert from roman numerals, you need to memorize the table below"),
+                       ROMAN_TABLE,
+                       TextLabel.new( "Now go through the table from the biggest numeral to the smallest.  Each time you're on a numeral that's smaller than what's left of your number, take it away from your number, and add it to the roman numeral you're making.  Follow the example below for the number #{@num}:"),
+                       TextTable.new(tally_table)
+      ])
       ]
     end
   end
@@ -913,11 +938,11 @@ module Chapter1
 
       [
         Subproblem.new( [
-          TextLabel.new("To convert to roman numerals, you need to memorize the table below"),
-          ROMAN_TABLE,
-          TextLabel.new( "Now just go through the number #{@num.to_roman}, adding up the values from the table"),
-          TextTable.new(tally_table)
-        ])
+                       TextLabel.new("To convert to roman numerals, you need to memorize the table below"),
+                       ROMAN_TABLE,
+                       TextLabel.new( "Now just go through the number #{@num.to_roman}, adding up the values from the table"),
+                       TextTable.new(tally_table)
+      ])
       ]
 
     end
