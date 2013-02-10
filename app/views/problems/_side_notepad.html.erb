@@ -4,8 +4,10 @@
 <div class=calculations style="position:absolute; width:390px; height:270px">
 <div class=np_head style="position:absolute">
 <h4>Notes</h4>
-<button id=drawnp>|</button>
-<input type=color id=npcolorpicker style="width:10px"></input>
+<div id=drawnp class=tbicons>
+<i class="icon-pencil"></i>
+</div>
+<input type=color id=npcolorpicker></input>
 </div>
 <div class=lborg></div>
 <div class=rborg></div>
@@ -22,7 +24,12 @@ Your browser does not support the HTML5 Canvas feature. This app uses new HTML5 
 <div class=results style="position:absolute; left:440px; width:270px; height:270px">
 <div class=lborb></div>
 <div class=rborb></div>
+<div style="position:absolute; left:30%; top:-20px;">
+<h4>Calculations</h4>
+</div>
+
 <div id=calc style="position:relative width:250px; height:250px">
+<br></br>
 <label for=np_num1 >1st Number</label>
 <input id=np_num1 class=np_nums>
 <br></br>
@@ -44,7 +51,8 @@ Your browser does not support the HTML5 Canvas feature. This app uses new HTML5 
 <%= link_to_function "Create", "", :class => 'center_btn button-blue', :id => "cr_opform" %>
 </div>
 <div id=ops_form></div>
-
+<br></br>
+<%= link_to_function "Save", "", :class => 'center_btn button-blue', :id => "sv_opform" %>
 </div>
 </div>
 </div>

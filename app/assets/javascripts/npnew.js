@@ -3,7 +3,8 @@ function notepad_new() {
 	// global drawing variables
 	var canvas = $('#notepad')[0];
 	var context = canvas.getContext('2d');
-	$("#npcolorpicker").val("#000000");
+	$("#npcolorpicker").val("#E85858");
+	$("#sv_opform").hide();
 	var notes=[];
 	var mousex;
 	var downx;
@@ -37,6 +38,7 @@ function notepad_new() {
 	}
 	$("#drawnp").click(function(e){
 			if(mode!="dr"){
+			$("#drawnp").css("background-color", "gray");
 			mode="dr";
 			$("#npPane").hide();
 			$("#notes").hide();
@@ -48,6 +50,7 @@ function notepad_new() {
 			}
 			else{
 			mode="wr";
+			$("#drawnp").css("background-color", "white");
 			$("#npPane").show();
 			$("#notes").show();
 			$("#notes").focus();
@@ -135,6 +138,7 @@ function notepad_new() {
 			});
 	function createform_np(){
 		$("#calc").hide();
+		$("#sv_opform").show();
 		if(adding){
 			adding_np($("#np_num1").attr("value"), $("#np_num2").attr("value"), "+");
 		}
@@ -146,6 +150,11 @@ function notepad_new() {
 		}
 
 	}
+	$("#np_num2").keypress(function(e){
+			if(e.keyCode==13){
+			createform_np()
+			}
+			});
 	function adding_np(n1, n2, sign){
 		lt=1+Math.max(n1.length, n2.length);
 		var ht="<table id=laddtable border=0>\n";
@@ -175,7 +184,9 @@ function notepad_new() {
 		ht+="</tr>\n";
 		ht+="</table>";
 		$('#ops_form').append(ht);
-		$('#laddtable').attr("style", "background-color:transparent; font:10pt Courier;");
+		$('#laddtable').css("font", "10pt Courier");
+		$('#laddtable').css("text-align", "center");
+		$('#laddtable').css("margin-left", "-50%");
 		$("#lin"+(lt-1)).select();
 		$(".linps").keypress(function(e){
 				String.fromCharCode(e.keyCode)
@@ -191,9 +202,25 @@ function notepad_new() {
 				context.strokeStyle="black";
 				$('#laddtable').remove();
 				$('#calc').show();
+				$("#sv_opform").hide();
 
 				}
-		});
+				});
+		$("#sv_opform").click(function(e){
+				var com="";
+
+				for(var i=0; i<lt; i++){
+				k=$("#lin"+i).attr("value");
+				k = typeof k !== 'undefined' ? k : "";
+				com+=k;
+				}
+				addline(n1+" "+sign+" "+n2+" = "+com);
+				context.strokeStyle="black";
+				$('#laddtable').remove();
+				$('#calc').show();
+				$("#sv_opform").hide();
+				$("#sv_opform").unbind();
+				});
 		for (var j=1; j<lt; j++)
 		{
 			$("#lin"+j).keypress({j:j}, function(e){
@@ -245,7 +272,9 @@ function notepad_new() {
 		ht+="</table>";
 		//alert(ht);
 		$('#ops_form').append(ht);
-		$('#addtable').attr("style", "background-color:transparent; font:10pt Courier;");
+		$('#addtable').css("font", "10pt Courier");
+		$('#addtable').css("text-align", "center");
+		$('#addtable').css("margin-left", "-50%");
 		$("#in_0_"+(n1.length)).select();
 		for(j=0; j<n2.length; j++){
 			if(j==n2.length-1){
@@ -278,9 +307,23 @@ function notepad_new() {
 					$('#addtable').remove();
 					$('#calc').show();
 					$('#notes').focus();
+					$("#sv_opform").hide();
 					}
 
-			});
+					});
+			$("#sv_opform").click(function(e){
+					var com="";
+					for(var i=0; i<lt-1; i++){
+					com+=$("#in_0_"+i).attr("value");
+					}
+					addline(n1+" x "+n2+" = "+com);
+					$('#addtable').remove();
+					$('#calc').show();
+					$('#notes').focus();
+					$("#sv_opform").hide();
+				$("#sv_opform").unbind();
+
+					});
 		}
 		else {
 			$(".inps").keypress(function(e){
@@ -293,8 +336,22 @@ function notepad_new() {
 					$('#addtable').remove();
 					$('#calc').show();
 					$('#notes').focus();
+					$("#sv_opform").hide();
+
 					}
-			});
+					});
+			$("#sv_opform").click(function(e){
+					var com="";
+					for(var i=0; i<lt; i++){
+					com+=$("#in"+i).attr("value");
+					}
+					addline(n1+" x "+n2+" = "+com);
+					$('#addtable').remove();
+					$('#calc').show();
+					$('#notes').focus();
+					$("#sv_opform").hide();
+				$("#sv_opform").unbind();
+					});
 		}
 		for (var j=1; j<lt; j++){
 			$("#in"+j).keypress({j:j}, function(e){
