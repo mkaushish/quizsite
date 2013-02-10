@@ -1,12 +1,10 @@
-<%= form_tag({:controller => 'problems', :action => 'next_subproblem'}, :remote => true, :autocomplete => "off") do %>
-  <%= hidden_field_tag 'subproblem_index', @i %>
+<div class='explanation'>
+  <%= form_tag(next_subproblem_path, :remote => true, :autocomplete => "off") do %>
+  <%= hidden_field_tag 'i', @i.to_id %>
   <%= hidden_field_tag 'problem_id', @orig_prob.id %>
-  <%= hidden_field_tag 'times_attempted', 0 %>
-  <div>
-    <div id=sp_0>
-    <%= render :partial => 'problems/problem', :object => @problem, :locals => {:partialdir => 'problems'} %>
-    </div>
-    <%= hidden_field_tag 'next_subproblem', "" %>
-  </div>
-  <%= submit_tag "Go on...", :class=>"btn-primary" %>
+  <%= hidden_field_tag 'attempts', 0 %>
+  <%= render 'subproblem_form' %>
+  <%= hidden_field_tag 'next_subproblem', "" %>
+  <%= submit_tag "Go on...", :class=>"button-blue" %>
+</div>
 <% end %>

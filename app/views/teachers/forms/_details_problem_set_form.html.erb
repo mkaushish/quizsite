@@ -1,6 +1,6 @@
 <%= form_tag(details_problem_set_path, :remote => true, :id => 'pset-form', :class => 'inline-form') do %>
-  <%= hidden_field_tag 'classroom_id', @classroom.id.to_s %> 
-  <%= label_tag "Problem Set" %>
+  <%= hidden_field_tag 'ps_classroom_id', @classroom.id.to_s %> 
+  <%= label_tag "problem_set_id", "Problem Set" %>
   <% if @problem_sets.empty? %>
     <%= select_tag :problem_set_id, "", disabled: true %>
   <% else %>

@@ -1,11 +1,13 @@
 Quizsite::Application.routes.draw do
   
+=begin
   resources :problems do
     post 'next_subproblem', :on => :collection
     post 'expand', :on => :member
     get 'example', :on => :member # although id points to a problem_type
     get 'explain', :on => :member
   end
+=end
 
   resources :users do
     member do
@@ -34,6 +36,10 @@ Quizsite::Application.routes.draw do
   post '/problem_sets/:name/finish_problem', :to => 'problem_sets#finish_problem', :as => :ps_finish_problem
   get '/answers/:id/show', to: 'answers#show', as: :show_answer
 
+  get '/:id/explain',          to: 'explanations#explain', as: :explain_problem
+  post '/:id/explain/expand',  to: 'explanations#expand', as: :expand
+  post '/:id/explain/next',    to: 'explanations#next_subproblem', as: :next_subproblem
+
   # teacher views:
   get '/teacherhome',               to: 'teachers#home', as: :teacherhome
 
@@ -61,13 +67,13 @@ Quizsite::Application.routes.draw do
   # static example pages
   #
   match '/draw',        :to => 'pages#draw', :via => [:get, :post]
-  get '/numberline',  :to => 'pages#numberline'
-  get '/graph',       :to => 'pages#graph'
-  get '/datagr',       :to => 'pages#datagr'
-  get '/bhutan',       :to => 'pages#bhutan'
+  get '/numberline',    :to => 'pages#numberline'
+  get '/graph',         :to => 'pages#graph'
+  get '/datagr',        :to => 'pages#datagr'
+  get '/bhutan',        :to => 'pages#bhutan'
   get '/notepad',       :to => 'pages#notepad'
   get '/measure',       :to => 'pages#measure'
-  get '/dgraph',       :to => 'problem#dgraph'
+  get '/dgraph',        :to => 'problem#dgraph'
   match '/estimate',    :to => 'pages#exampleprobs', :via => [:get, :post]
 
   # match '/nologinhome_3dbfabcacc12868a282be76f5d59a19813', :to => 'pages#nologinhome'

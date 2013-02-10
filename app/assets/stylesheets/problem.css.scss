@@ -25,12 +25,12 @@
   }
 }
 
-.problem {
+.problem, .sub-problem {
   margin: 10px 25px;
   input[type="text"] {
-    width:50px;
-    //margin:0 7px 7px 0;
     margin: 3px;
+    padding:2px;
+    text-align:center;
   }
   select {
     width:70px;

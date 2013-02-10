@@ -24,20 +24,11 @@ select.select {
   margin:0;
 }
 
-
-.teacher-class-box {
-  height: 200px;
-}
-
 ul.teacher-class-col {
   height: 170px;
   width: 250px;
   margin: 20px;
   overflow: scroll;
-}
-
-.teacher-details-column {
-  height:200px;
 }
 
 .teacher-details-body {
@@ -56,60 +47,4 @@ form.inline-form {
     font-size:15px;
     height:25px;
   }
-}
-
-
-.class_stat_list {
-  @include line-border();
-  overflow:scroll;
-  height: 200px;
-}
-
-.details_quiz_hist {
-  height:198px;
-  overflow:auto;
-}
-
-i.status {
-  font-weight:bold;
-  font-style: normal;
-  background-color: white;
-  padding:2px;
-}
-
-.stat {
-  display: inline-block;
-  header {
-    font-size: 13px;
-    line-height:14px;
-    width: 3 * 37px + 4;
-    text-align: center;
-  }
-  ul {
-    height: 30px;
-    padding:0;
-  }
-  ul>li {
-    padding:0 2px 2px 0;
-    width: 33px;
-    margin:1px;
-
-    div {
-      width: 33px;
-      height:20px;
-      padding-top: 4px;
-      font-size:16px;
-      line-height:16px;
-    }
-
-    font-size:6px;
-    line-height:7px;
-    text-align: center;
-    display:inline-block;
-    float:left;
-  }
-}
-
-select#problem_set_id {
-  width:235px;
 }

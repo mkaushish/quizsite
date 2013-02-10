@@ -22,6 +22,8 @@ setUpDataGr.grph.color	app/assets/javascripts/datagr.js	/^    scale : 30,$/;"	p
 setUpDataGr.grph.mg	app/assets/javascripts/datagr.js	/^  var grph={$/;"	p
 setUpDataGr.grph.scale	app/assets/javascripts/datagr.js	/^    type : "basicbar",$/;"	p
 setUpDataGr.grph.type	app/assets/javascripts/datagr.js	/^    mg : 50,$/;"	p
+initConceptProgress	app/assets/javascripts/details.js	/^function initConceptProgress(params) {$/;"	f
+setConceptStatWidth	app/assets/javascripts/details.js	/^function setConceptStatWidth(stat) {		$/;"	f
 Circle.draw	app/assets/javascripts/drawtools.js	/^    this.draw = function() {$/;"	m
 Circle.encode	app/assets/javascripts/drawtools.js	/^    this.encode = function() {$/;"	m
 Circle.toString	app/assets/javascripts/drawtools.js	/^    this.toString = function() {$/;"	m
@@ -137,6 +139,8 @@ x1	app/assets/javascripts/drawtools.js	/^      var x1 = Math.cos(this.theta) * o
 x2	app/assets/javascripts/drawtools.js	/^      var x2 = Math.cos(this.theta + Math.PI) * outerRadius + this.x;$/;"	v
 y1	app/assets/javascripts/drawtools.js	/^      var y1 = Math.sin(this.theta) * outerRadius + this.y;$/;"	v
 y2	app/assets/javascripts/drawtools.js	/^      var y2 = Math.sin(this.theta + Math.PI) * outerRadius + this.y;$/;"	v
+hideExplanation	app/assets/javascripts/explanations.js	/^function hideExplanation(){$/;"	f
+showExplanation	app/assets/javascripts/explanations.js	/^function showExplanation(){$/;"	f
 drawMotionGraph	app/assets/javascripts/googlevis.js	/^function drawMotionGraph(names, nmtype, values) {$/;"	f
 timeUnits	app/assets/javascripts/googlevis.js	/^var timeUnits = 0;$/;"	v
 weightMeasure	app/assets/javascripts/measure.js	/^function weightMeasure(cname, name, object, unit, weight){$/;"	f
@@ -229,10 +233,8 @@ ExplanationsController	app/controllers/explanations_controller.rb	/^class Explan
 contract	app/controllers/explanations_controller.rb	/^  def contract$/;"	f	class:ExplanationsController
 expand	app/controllers/explanations_controller.rb	/^  def expand$/;"	f	class:ExplanationsController
 explain	app/controllers/explanations_controller.rb	/^  def explain$/;"	f	class:ExplanationsController
-explain_from_index	app/controllers/explanations_controller.rb	/^  def explain_from_index(orig, index)$/;"	f	class:ExplanationsController
 next_subproblem	app/controllers/explanations_controller.rb	/^  def next_subproblem$/;"	f	class:ExplanationsController
 save_last_problem	app/controllers/explanations_controller.rb	/^  def save_last_problem$/;"	f	class:ExplanationsController
-set_vars_from	app/controllers/explanations_controller.rb	/^  def set_vars_from(params)$/;"	f	class:ExplanationsController
 PagesController	app/controllers/pages_controller.rb	/^class PagesController < ApplicationController$/;"	c
 about	app/controllers/pages_controller.rb	/^  def about$/;"	f	class:PagesController
 access_denied	app/controllers/pages_controller.rb	/^  def access_denied$/;"	f	class:PagesController
@@ -331,6 +333,8 @@ exp_id	app/helpers/problem_helper.rb	/^  def exp_id(index_s)$/;"	f	class:Problem
 increment_index	app/helpers/problem_helper.rb	/^  def increment_index(index, n = 1)$/;"	f	class:ProblemHelper
 len_to_css_width	app/helpers/problem_helper.rb	/^  def len_to_css_width(len)$/;"	f	class:ProblemHelper
 render_subprob	app/helpers/problem_helper.rb	/^  def render_subprob(subprob, index)$/;"	f	class:ProblemHelper
+ProblemSetsHelper	app/helpers/problem_sets_helper.rb	/^module ProblemSetsHelper$/;"	m
+print_ps	app/helpers/problem_sets_helper.rb	/^	def print_ps(problem_set)$/;"	f	class:ProblemSetsHelper
 ProblemsHelper	app/helpers/problems_helper.rb	/^module ProblemsHelper$/;"	m
 render_tohtml	app/helpers/problems_helper.rb	/^	def render_tohtml(locals, obj)$/;"	f	class:ProblemsHelper
 QuizHelper	app/helpers/quiz_helper.rb	/^module QuizHelper$/;"	m
@@ -373,6 +377,9 @@ assign!	app/models/classroom.rb	/^  def assign!(tmp)$/;"	f	class:Classroom
 ClassroomAssignment	app/models/classroom_assignment.rb	/^class ClassroomAssignment < ActiveRecord::Base$/;"	c
 ClassroomProblemSet	app/models/classroom_problem_set.rb	/^class ClassroomProblemSet < ActiveRecord::Base$/;"	c
 ClassroomQuiz	app/models/classroom_quiz.rb	/^class ClassroomQuiz < ActiveRecord::Base$/;"	c
+assign	app/models/classroom_quiz.rb	/^  def assign(start_time, end_time)$/;"	f	class:ClassroomQuiz
+assigned?	app/models/classroom_quiz.rb	/^  def assigned?$/;"	f	class:ClassroomQuiz
+assigned_status	app/models/classroom_quiz.rb	/^  def assigned_status$/;"	f	class:ClassroomQuiz
 CurrentProblem	app/models/concerns/current_problem.rb	/^module CurrentProblem$/;"	m
 change_problem	app/models/concerns/current_problem.rb	/^  def change_problem$/;"	f	class:CurrentProblem
 spawn_problem	app/models/concerns/current_problem.rb	/^  def spawn_problem$/;"	f	class:CurrentProblem
@@ -416,15 +423,13 @@ spawn_problem	app/models/problem_type.rb	/^  def spawn_problem(*args)$/;"	f	clas
 to_s	app/models/problem_type.rb	/^  def to_s() self.name.truncate(43) ; end$/;"	f	class:ProblemType
 Quiz	app/models/quiz.rb	/^class Quiz < ActiveRecord::Base$/;"	c
 add_problem_type	app/models/quiz.rb	/^  def add_problem_type(problem_type, count)$/;"	f	class:Quiz
-allow_access	app/models/quiz.rb	/^  def allow_access(user)$/;"	f	class:Quiz
-assign	app/models/quiz.rb	/^  def assign(start_time, end_time)$/;"	f	class:Quiz
 default_problems	app/models/quiz.rb	/^  def default_problems$/;"	f	class:Quiz
-hasSmartScore?	app/models/quiz.rb	/^  def hasSmartScore?$/;"	f	class:Quiz
+for_class	app/models/quiz.rb	/^  def for_class(klass)$/;"	f	class:Quiz
+history_classroom	app/models/quiz.rb	/^  def Quiz.history_classroom(klass)$/;"	F	class:Quiz
+history_problem_set	app/models/quiz.rb	/^  def Quiz.history_problem_set(pset)$/;"	F	class:Quiz
 idname	app/models/quiz.rb	/^  def idname$/;"	f	class:Quiz
 ptypes	app/models/quiz.rb	/^  def ptypes$/;"	f	class:Quiz
 remove_problem_type	app/models/quiz.rb	/^  def remove_problem_type(problem_type)$/;"	f	class:Quiz
-set_problem_orders	app/models/quiz.rb	/^  def set_problem_orders$/;"	f	class:Quiz
-smart_score	app/models/quiz.rb	/^  def smart_score$/;"	f	class:Quiz
 QuizInstance	app/models/quiz_instance.rb	/^class QuizInstance < ActiveRecord::Base$/;"	c
 stats	app/models/quiz_instance.rb	/^  def stats$/;"	f	class:QuizInstance
 QuizProblem	app/models/quiz_problem.rb	/^class QuizProblem < ActiveRecord::Base$/;"	c
@@ -454,8 +459,27 @@ smart_score	app/models/user.rb	/^  def smart_score(ptype)$/;"	f	class:User
 stat	app/models/user.rb	/^  def stat(problem_type)$/;"	f	class:User
 stats	app/models/user.rb	/^  def stats(ptype)$/;"	f	class:User
 update_stats	app/models/user.rb	/^  def update_stats(problem_type, correct)$/;"	f	class:User
+SubproblemIterator	app/services/subproblem_iterator.rb	/^class SubproblemIterator$/;"	c
+cur	app/services/subproblem_iterator.rb	/^	def cur$/;"	f	class:SubproblemIterator
+cur_a	app/services/subproblem_iterator.rb	/^	def cur_a$/;"	f	class:SubproblemIterator
+cur_i	app/services/subproblem_iterator.rb	/^	def cur_i$/;"	f	class:SubproblemIterator
+decrement_i	app/services/subproblem_iterator.rb	/^		def decrement_i(i)$/;"	f	class:SubproblemIterator
+get_sp	app/services/subproblem_iterator.rb	/^		def get_sp(i)$/;"	f	class:SubproblemIterator
+i_to_id	app/services/subproblem_iterator.rb	/^		def i_to_id(i)$/;"	f	class:SubproblemIterator
+id_to_i	app/services/subproblem_iterator.rb	/^		def id_to_i(id)$/;"	f	class:SubproblemIterator
+increment	app/services/subproblem_iterator.rb	/^	def increment$/;"	f	class:SubproblemIterator
+initialize	app/services/subproblem_iterator.rb	/^	def initialize(problem, index)$/;"	f	class:SubproblemIterator
+last?	app/services/subproblem_iterator.rb	/^	def last?$/;"	f	class:SubproblemIterator
+last_correct?	app/services/subproblem_iterator.rb	/^	def last_correct?(params)$/;"	f	class:SubproblemIterator
+nested?	app/services/subproblem_iterator.rb	/^	def nested?$/;"	f	class:SubproblemIterator
+prev	app/services/subproblem_iterator.rb	/^	def prev$/;"	f	class:SubproblemIterator
+prev_i	app/services/subproblem_iterator.rb	/^	def prev_i$/;"	f	class:SubproblemIterator
+set_cur_i	app/services/subproblem_iterator.rb	/^		def set_cur_i(i)$/;"	f	class:SubproblemIterator
+to_id	app/services/subproblem_iterator.rb	/^	def to_id$/;"	f	class:SubproblemIterator
 Stat	app/services/teacher_stat_calc.rb	/^  class Stat$/;"	c	class:TeacherStatCalc
 TeacherStatCalc	app/services/teacher_stat_calc.rb	/^class TeacherStatCalc$/;"	c
+attempted_percent	app/services/teacher_stat_calc.rb	/^    def attempted_percent$/;"	f	class:TeacherStatCalc.Stat
+class_size	app/services/teacher_stat_calc.rb	/^  def class_size$/;"	f	class:TeacherStatCalc
 concept_progress	app/services/teacher_stat_calc.rb	/^  def concept_progress$/;"	f	class:TeacherStatCalc
 initialize	app/services/teacher_stat_calc.rb	/^    def initialize(problem_type)$/;"	f	class:TeacherStatCalc.Stat
 initialize	app/services/teacher_stat_calc.rb	/^  def initialize(students = [], problem_types = [])$/;"	f	class:TeacherStatCalc
@@ -1348,15 +1372,17 @@ explain	lib/QuestionGenerator/grade6/c7.rb	/^    def explain$/;"	f	class:Chapter
 explain	lib/QuestionGenerator/grade6/c7.rb	/^    def explain$/;"	f	class:Chapter7.ReduceFractionsEA
 explain	lib/QuestionGenerator/grade6/c7.rb	/^    def explain$/;"	f	class:Chapter7.ToImproperFractions
 explain	lib/QuestionGenerator/grade6/c7.rb	/^    def explain$/;"	f	class:Chapter7.ToMixedFractions
+gen_fraction	lib/QuestionGenerator/grade6/c7.rb	/^  def self.gen_fraction$/;"	F	class:Chapter7
+gen_reducible_fraction	lib/QuestionGenerator/grade6/c7.rb	/^  def self.gen_reducible_fraction$/;"	F	class:Chapter7
 initialize	lib/QuestionGenerator/grade6/c7.rb	/^    def initialize$/;"	f	class:Chapter7.CompareUnlikeFrac
 initialize	lib/QuestionGenerator/grade6/c7.rb	/^    def initialize$/;"	f	class:Chapter7.EquivalentFractions
 initialize	lib/QuestionGenerator/grade6/c7.rb	/^    def initialize$/;"	f	class:Chapter7.ToImproperFractions
-initialize	lib/QuestionGenerator/grade6/c7.rb	/^    def initialize$/;"	f	class:Chapter7.ToMixedFractions
 initialize	lib/QuestionGenerator/grade6/c7.rb	/^    def initialize(amt=2)$/;"	f	class:Chapter7.ASMixedFractions
 initialize	lib/QuestionGenerator/grade6/c7.rb	/^    def initialize(den=nil, num1=nil, num2=nil)$/;"	f	class:Chapter7.CompareLikeFrac
 initialize	lib/QuestionGenerator/grade6/c7.rb	/^    def initialize(den=nil, num=nil, sig=nil, wh=nil)$/;"	f	class:Chapter7.FillDenominator
 initialize	lib/QuestionGenerator/grade6/c7.rb	/^    def initialize(den=nil, num=nil, sig=nil, wh=nil)$/;"	f	class:Chapter7.FillNumerator
 initialize	lib/QuestionGenerator/grade6/c7.rb	/^    def initialize(den=nil, nums=nil, sig=nil)$/;"	f	class:Chapter7.ASLikeFractions
+initialize	lib/QuestionGenerator/grade6/c7.rb	/^    def initialize(frac = nil)$/;"	f	class:Chapter7.ToMixedFractions
 initialize	lib/QuestionGenerator/grade6/c7.rb	/^    def initialize(num=nil, den=nil)$/;"	f	class:Chapter7.ReduceFractionsEA
 initialize	lib/QuestionGenerator/grade6/c7.rb	/^    def initialize(nums1=nil, nums2=nil, comm=nil)$/;"	f	class:Chapter7.ReduceFractions
 initialize	lib/QuestionGenerator/grade6/c7.rb	/^    def initialize(nums=nil, dens=nil, comm=nil, sig=nil)$/;"	f	class:Chapter7.ASUnlikeFractions
@@ -1648,6 +1674,7 @@ correct?	lib/QuestionGenerator/questionbase.rb	/^  def correct?(response)$/;"	f	
 explain	lib/QuestionGenerator/questionbase.rb	/^  def explain  $/;"	f	class:QuestionWithExplanation
 explanation	lib/QuestionGenerator/questionbase.rb	/^  def explanation$/;"	f	class:QuestionWithExplanation
 get_useful_response	lib/QuestionGenerator/questionbase.rb	/^  def get_useful_response(params)$/;"	f	class:QuestionBase
+id	lib/QuestionGenerator/questionbase.rb	/^  def id$/;"	f	class:Subproblem
 initialize	lib/QuestionGenerator/questionbase.rb	/^  def initialize(labeltext)$/;"	f	class:SubLabel
 initialize	lib/QuestionGenerator/questionbase.rb	/^  def initialize(name, text, resps)$/;"	f	class:CustomProblem.CustomProblemMCQ
 initialize	lib/QuestionGenerator/questionbase.rb	/^  def initialize(name, text, soln)$/;"	f	class:CustomProblem

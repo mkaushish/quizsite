@@ -9,7 +9,6 @@ class ProblemSetsController < ApplicationController
     @stats = @instance.stats
     @sessions = []
     include_history @problem_set
-    
   end
 
   def static_do

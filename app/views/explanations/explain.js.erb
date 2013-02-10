@@ -1,0 +1,6 @@
+<% if @orig_prob.problem.is_a?(QuestionWithExplanation) %>
+	$('#problem_overlay .problem').after('<%= j(render "explanation") %>');
+	showExplanation();
+<% else %>
+	alert('no explanation');
+<% end %>

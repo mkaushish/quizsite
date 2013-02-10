@@ -54,7 +54,7 @@ ul.horizontal > li {
 .column-list {
   color: $sg_grey;
   @include line-border();
-  //margin: 10px;
+  margin: 0;
   padding: 2px;
   b {
     color: black;

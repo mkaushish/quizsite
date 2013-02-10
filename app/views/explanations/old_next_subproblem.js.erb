@@ -1,0 +1,60 @@
+//
+// disable previous input fields and label them correct
+//
+var myInputs = $('#probex input:not(:submit)').filter('[type!="hidden"]')
+myInputs.attr("disabled", true);
+
+var checkboxes = myInputs.filter(':checked');
+checkboxes.replaceWith("<%= escape_javascript(image_tag "correct_circ_small.png", :style => "position:relative; top:7px;") %>");
+
+// remove buttons / interactive things on previous input fields
+// TODO GeometryField
+// MultiTextField
+$('.add_mt_field').remove();
+$('.del_mt_field').remove();
+
+// delete previous expand button if it exists
+$('[href^="<%= expand_problem_path(@orig_prob) %>"]').hide();
+
+// " labelling them correct " ...
+var texts = myInputs.filter(':text');
+texts.css("border","2px solid green");
+  
+//
+// ADD THE NEXT SUBPROBLEM IN
+//
+$('#next_subproblem').before("<hr><%= escape_javascript( render_subprob(@subprob, @index) ) %>");
+
+//
+// INCREMENT OUR SUBPROBLEM INDEX IN HTML FORM
+// NOTE: index is stored in a "stack" separated by colons
+//  eg: "1:4"
+//  means we're in the first nested subproblem of subproblem 4
+//  "2" just means we're on the second subproblem, and no nesting is going on
+function set_subproblem_index(i) {
+  var full_index = $('#subproblem_index').attr("value").split(":");
+  full_index[0] = i;
+  $('#subproblem_index').attr("value", full_index.join(":"));
+}
+set_subproblem_index(<%= @i %>);
+
+// we've now had 0 attempts on this new subproblem
+$('#times_attempted').attr('value', 0);
+
+
+//
+// REBIND EVENTS THAT GOT ADDED IN ON THE NEW SUBPROBLEM
+
+// GeometryField
+if($('#geocanvas').length == 1) {
+  setUpGeo();
+}
+if($('#nlcanvas').length == 1) {
+  setUpNL();
+}
+// MultiTextField
+bind_mt_buttons();
+
+// go to the next question and select it
+// TODO select it...
+window.scrollBy(0, 1000);

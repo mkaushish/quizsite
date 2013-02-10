@@ -28,7 +28,7 @@ class DetailsController < ApplicationController
   # POST /details/select_problem_set AJAX
   def select_problem_set
     @problem_set = ProblemSet.find params["problem_set_id"]
-    @classroom = Classroom.find params["classroom_id"]
+    @classroom = Classroom.find params["ps_classroom_id"]
 
     @problem_types = @problem_set.problem_types
     @students = @classroom.students

@@ -1,0 +1,14 @@
+<% if just_print %>
+  <%= render_tohtml local_assigns, multitextfield %>
+<% elsif multitextfield.correct?(@solution, @response) %>
+  <div class="correct">
+    <%= render_tohtml local_assigns, multitextfield %>
+  </div>
+<% else %>
+  <div class="correct">
+    <%= render_tohtml local_assigns, multitextfield, @solution %>
+  </div>
+  <div class="incorrect">
+    <%= render_tohtml local_assigns, multitextfield %>
+  </div>
+<% end %>

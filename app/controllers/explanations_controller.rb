@@ -1,75 +1,35 @@
 class ExplanationsController < ApplicationController
   def explain
     @orig_prob = Problem.find(params[:id])
-    @explain = @orig_prob.problem.explanation
-    @i = 0 # starting subproblem
-
-    @problem = @explain[@i]
+    @i = SubproblemIterator.new(@orig_prob, "0")
+    @problem = @i.cur
   end
 
   def next_subproblem
-    #$stderr.puts "HEY I'M GETTING CALLED GUYS!"
-    set_vars_from params
-    
-    @nested = @index.count(":") > 0
-    @solution = @last_prob.prefix_solve
-    @response = @last_prob.get_useful_response(params)
+    @orig_prob = Problem.find(params[:id])
+    @i = SubproblemIterator.new(@orig_prob, params[:i])
+    @attempts = params["attempts"].to_i
+    @correct = @i.last_correct?(params)
 
-    if @last_prob.correct?(params) || params["times_attempted"].to_i > 1
+    @problem = @i.cur
+    @solution = @problem.prefix_solve
+    @response = params
 
-      # if we're at the end of a subproblem or the real problem
-      if @explain.length == (@i + 1)
-        # $stderr.puts "Good job, you're done!"
-
-        if signed_in?
-          # end of subproblem
-          if @nested
-
-            # save that shit if it's a real problem type
-            save_last_problem
-
-            # increment the index
-            @index.gsub! /[^:]+:/, ""
-            @explain = explain_from_index(@orig_prob, @index)
-            @i = @index.split(":")[0].to_i
-            $stderr.puts @explain.inspect
-            $stderr.puts @i.to_s + ": " +@explain[@i].inspect
-            @last_prob = @explain[@i]
-            @solution = @last_prob.prefix_solve
-            @response = @solution
-
-            render 'contract'
-
-          # end of main problem
-          else
-            if in_quiz?
-              increment_problem(true) # count correct if they go through the explanation
-              render :js => "window.location.href = '/startquiz'"
-            else
-              render :js => "window.location = '/profile'"
-            end
-          end
-
-        # doing the estimate example problem
+    if @correct || @attempts >= 1
+      if @i.last?
+        if @i.nested?
+          render 'contract'
         else
-          render :js => "window.location = '/problems'"
+          render 'finish'
         end
-
-      # still in the middle of an explanation, so increment counters and move on
       else
-        save_last_problem
-
-        @i += 1
-        @subprob = @explain[@i]
-        @index   = "#{@i}#{@index.sub(/[^:]*/, "")}"
-        $stderr.puts "you got the last subproblem right!, moving on to #{@i}"
+        @i.increment
+        # set up variables for the replacing the previous problem with the answer view
+        @response = @solution unless @correct
         render 'next_subproblem'
       end
-
-    # missed the last subproblem
     else
-      $stderr.puts "you missed the last subproblem, rendering wrong_subproblem" 
-      render 'wrong_subproblem'
+      render 'redo_subproblem'
     end
   end
 
@@ -103,30 +63,5 @@ class ExplanationsController < ApplicationController
 
     @solution  = @last_prob.prefix_solve
     @response  = @solution
-  end
-
-  private
-
-  # This sets several variables that are used in contract, expand, and next_subproblem
-  # - note that all of these controller actions are passed the same form from the view
-  def set_vars_from(params)
-    @index  = params[:subproblem_index]
-    @i      = @index.split(":")[0].to_i
-
-    @orig_prob = Problem.find(params[:problem_id])
-    @explain   = explain_from_index @orig_prob, @index
-    @last_prob = @explain[@i]
-  end
-
-  # USED BY expand and next_subproblem
-  # returns the (possibly nested) EXPLANATION for a problem and an index string
-  # orig = the problem whose explanation we're going through
-  # index = string of indices separated by semicolons
-  def explain_from_index(orig, index)
-    ret = orig.problem
-    index.split(":").drop(1).reverse_each do |i|
-      ret = ret.explain[i.to_i]
-    end
-    ret.explain
   end
 end

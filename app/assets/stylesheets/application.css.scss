@@ -156,74 +156,18 @@ input.btn-blue {
   float: left;
 }
 
-.fraction {
-  height: 70px;
-  margin: 0px 15px;
-  input {
-    width: 50px;
-  }
-
-  .intpart { 
-    text-align: right;
-    padding-right: 5px;
-    height: 45px;
-    padding: 10px 5px 0;
-    float: left;
-  }
-  .intpartInput { 
-    text-align: right;
-    height: 52px;
-    padding: 10px 5px 0;
-    float: left;
-  }
-
-  .quotient {
-    margin: 0px;
-    height: 70px;
-    float: left;
-
-    .numerator {
-      text-align: center;
-      height:24px;
-      border-bottom: 2px solid black;
-      //padding: 9px 5px 0px; /* 0 top, 5 left and right, 5 bottom */
-      p {
-        margin-top:10px;
-      }
-    }
-    .numeratorInput {
-      text-align: center;
-      height:28px;
-      border-bottom: 2px solid black;
-      padding: 0px 5px 5px; /* 0 top, 5 left and right, 5 bottom */
-    }
-
-    .denominator {
-      text-align: center;
-      height:30px;
-      //padding: 5px 5px 0px; /* 5 top, 5 left and right, 0 bottom */
-      p {
-        margin:4px;
-      }
-    }
-    .denominatorInput {
-      text-align: center;
-      height:30px;
-      padding: 2px 5px 3px; /* 2 top, 5 left and right, 3 bottom */
-    }
-  }
-}
-
 .formfield {
   margin:10px 0 10px 0;
 }
 
 /* }}} */
 
+@import 'defaults.css.scss';
 @import 'common_classes.css.scss';
+@import 'tohtml/*';
 @import 'classrooms.css.scss';
 @import 'custom_problems.css.scss';
-@import 'defaults.css.scss';
+@import 'details.css.scss';
 @import 'draw.css.scss';
 @import 'graph.css.scss';
 @import 'mixins_n_colors.css.scss';

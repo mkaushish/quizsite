@@ -52,10 +52,14 @@ class QuizzesController < ApplicationController
     redirect_to details_path(id: @classroom.id, problem_set: params[:problem_set_id])
   end
 
-  # ROUTE: post /assign_quiz/:id, assign_quiz_path(id)
+  # ROUTE: post :classroom/assign_quiz/:id, assign_quiz_path(id:, classroom:)
   def assign
     @quiz = Quiz.find params[:id]
-    @quiz.assign params[:start_time], params[:end_time]
+    @classroom = Classroom.find params[:classroom]
+    @class_quiz = @quiz.for_class @classroom
+
+    @class_quiz.assign params[:start_time], params[:end_time]
+    @class_quiz.save
   end
 
   # DELETE /quizzes/1
