@@ -26,40 +26,43 @@ $border_w: 7px;
     }
   }
   & td>div {
-    position: relative;
-    display: inline-block;
-    background: transparent url('blackboard_bg.jpg') (-$border_w) (-$border_w) no-repeat;
-    border-width: $border_w; 
-    border-style: solid;
+  }
+}
+
+.list_box {
+  position: relative;
+  display: inline-block;
+  background: transparent url('blackboard_bg.jpg') (-$border_w) (-$border_w) no-repeat;
+  border-width: $border_w; 
+  border-style: solid;
 
     // image size: 188 * 140 px
     width: $blackboard_w - 2 * $border_w;
     // height: 180px;
     height: $blackboard_h - 2 * $border_w;
   }
-}
 
-.transp-border {
-  border-color: transparent;
-}
+  .transp-border {
+    border-color: transparent;
+  }
 
-.red-bord {
-  border-color: $lred;
-}
-.green-bord {
-  border-color: $lgreen;
-}
-.yellow-bord {
-  border-color: $lyellow;
-}
+  .red-bord {
+    border-color: $lred;
+  }
+  .green-bord {
+    border-color: $lgreen;
+  }
+  .yellow-bord {
+    border-color: $lyellow;
+  }
 
-div.problem_list_box {
-  p {
-    width: $blackboard_w - 30px;
-    padding: 0 (15px - $border_w);
-    margin-top: (40px - $border_w);
-    text-align: center;
-    color: white;
+  div.problem_list_box {
+    p {
+      width: $blackboard_w - 30px;
+      padding: 0 (15px - $border_w);
+      margin-top: (40px - $border_w);
+      text-align: center;
+      color: white;
     // font-family:"Chalk1";
   }
 
@@ -95,20 +98,24 @@ div.pset_list_box {
     font-family:"Chalk1";
   }
 
-  div.start {
-    position: absolute;
-    left: 94px;
-    top: 150px;
-    float:right;
-    display: inline-block;
+}
 
-    width:75px;
-    height: 28px;
-    background-color: $sg_blue;
+.start_pset {
+  // position: relative;
+  position: relative;
+  // top: 150px;
+  float:right;
+  display: inline-block;
+  margin: 10px 0;
+  left:-14px;
 
-    a {
-      position:absolute;
-      display:block;
+  width:75px;
+  height: 28px;
+  background-color: $sg_blue;
+
+  a {
+    position:absolute;
+    display:block;
       width: 75px - 14px + 14px; // - padding + triangle
       height:14px;
       padding:7px;
@@ -125,4 +132,3 @@ div.pset_list_box {
       margin:0;
     }
   }
-}
