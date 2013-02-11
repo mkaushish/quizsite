@@ -14,7 +14,7 @@ class ProblemSetStat < ActiveRecord::Base
   def update!(answer)
     self.problem_stat = stat.update!(answer)
 
-    modify_points(answer)
+    modify_points(answer.correct)
 
     change_problem
 
