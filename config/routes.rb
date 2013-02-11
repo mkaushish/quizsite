@@ -26,6 +26,7 @@ Quizsite::Application.routes.draw do
   # match '/signup',  :to => 'users#new'
   match '/signin',      :to => 'sessions#create'
   match '/signout',     :to => 'sessions#destroy'
+  match '/register',    :to => 'users#register', :as => :register
 
   # student views
   get '/studenthome', :to => 'students#home'
