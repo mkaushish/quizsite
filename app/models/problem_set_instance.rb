@@ -53,7 +53,10 @@ class ProblemSetInstance < ActiveRecord::Base
   end
 
   def modify_green?(green_time)
-    # TODO check and see if all of the problem_stats are green...
+    stats.each do |stat| 
+      return "yellow" unless my_stat.green?
+    end
+    return 'green'
   end
 
   private

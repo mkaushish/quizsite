@@ -73,6 +73,32 @@ class UsersController < ApplicationController
     end
   end
 
+  def register
+    user = Student.new(
+      name: params[:reg_name],
+      email: params[:reg_email],
+      password: params[:reg_password],
+      password_confirmation: params[:reg_password_confirmation]
+      )
+    user.confirmed = true
+
+    unless params[:class_pass] == "fibognocchi"
+      render :js => "$('\#register_errors').text('Invalid class password');"
+      return
+    end
+
+    if user.save
+      puts "#{user.name} successfully added"
+      Classroom.first.assign!(user)
+      sign_in user
+      render :js => "window.location.href = '/'"
+    else
+      puts "#{user.name} could not be added: "
+      render :js => "$('\#register_errors').text('#{user.errors.full_messages[0]}');"
+    end
+
+  end
+
   def create
     role = params["role"]
     if role == "Student"

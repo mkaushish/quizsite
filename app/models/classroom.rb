@@ -1,20 +1,21 @@
 class Classroom < ActiveRecord::Base
   attr_accessible :name
   belongs_to :teacher
-  has_many :classroom_assignments
+  has_many :classroom_assignments, :dependent => :destroy
   has_many :students, :through => :classroom_assignments
 
-  has_many :classroom_problem_sets
+  has_many :classroom_problem_sets, :dependent => :destroy
   has_many :problem_sets, :through => :classroom_problem_sets
 
   has_many :quizzes
 
-  def assign!(tmp)
-    if tmp.is_a?(User)
+  def assign!(jimmy)
+    if jimmy.is_a?(Student)
       $stderr.puts "Assigning Student"
-      class_assignments.create(:student => tmp)
-      homeworks.each { |hw| hw.allow_access(tmp) }
+      classroom_assignments.create(:student => jimmy)
+      problem_sets.each { |hw| hw.assign(jimmy) } # sorry jimmy
     else
+      # TODO allow to assign problem sets
       raise "You can only assign a Student to a class, not a #{tmp.class}"
     end
   end

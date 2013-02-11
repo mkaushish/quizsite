@@ -274,7 +274,17 @@ module Chapter6
     end
   end
 
-PROBLEMS = [ Chapter6::IntNumberLine, Chapter6::AddNumberLine, Chapter6::SubNumberLine, Chapter6::AddIntegers,  Chapter6::SubtractIntegers,  Chapter6::CompareIntegers, Chapter6::CompareAddSub,  Chapter6::AddSubIntegers]
+PROBLEMS = [ 
+  Chapter6::IntNumberLine, 
+  Chapter6::AddNumberLine, 
+  Chapter6::SubNumberLine, 
+  # Chapter6::AddIntegers,  
+  Chapter6::SubtractIntegers,  
+  Chapter6::CompareIntegers, 
+  Chapter6::CompareAddSub,  
+  Chapter6::AddSubIntegers
+]
+
 end
 
 

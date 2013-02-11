@@ -1,0 +1,37 @@
+<div class="modal" id="register" style="display:none;"> 
+	<%# class=hide get's overridden by display-block status %>
+	<div class="modal-header">
+		Register
+	</div>
+	<div id="register_form" class="modal-body" style="font-family:SansSerif">
+		<div id="register_errors">
+		</div>
+		<%= form_tag register_path, :remote => true do |f| %>
+		<div class = "field_block">
+			<%= label_tag "reg_name", "Name" %>
+			<%= text_field_tag "reg_name", nil, :placeholder=>"Akshat Aggarwal" %>
+		</div>
+		<div class = "field_block">
+			<%= label_tag "reg_email", "Email or unique ID" %>
+			<%= text_field_tag "reg_email", nil, :placeholder=>"akshat777@gmail.com" %>
+		</div>
+		<div class = "field_block">
+			<%= label_tag "reg_password", "Password" %>
+			<%= password_field_tag "reg_password", nil, :placeholder => "*******" %>
+		</div>
+		<div class = "field_block">
+			<%= label_tag "reg_password_confirmation", "Password Confirmation" %>
+			<%= password_field_tag "reg_password_confirmation", nil, :placeholder => "*******" %>
+		</div>
+		<div class="field_block">
+			<%= label_tag "class_pass", "Password for VV class 6" %>
+			<%= password_field_tag "class_pass" %>
+		</div>
+		<div class = "actions">
+			<%= submit_tag "Register", :class=>"button-blue" %>
+		</div>
+		<% end %>
+	</div>
+	<div class="modal-footer">
+		<a href="#" class="btn" data-dismiss="modal">Close</a>
+	</div>

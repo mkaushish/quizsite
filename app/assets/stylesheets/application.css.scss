@@ -172,6 +172,12 @@ input.btn-blue {
   margin:10px 0 10px 0;
 }
 
+form div.field_block {
+  width:100%;
+  margin-bottom: 20px;
+  display:block;
+}
+
 /* }}} */
 
 @import 'mixins_n_colors.css.scss';

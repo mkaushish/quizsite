@@ -30,13 +30,22 @@ class ProblemSetStat < ActiveRecord::Base
     modifier == 1
   end
 
+  def green?
+    stop_green > Time.now
+  end
+
   def set_yellow
     self.points_right = 85
     self.points_wrong = 30
   end
 
+  def set_yellow!
+    set_yellow
+    return save
+  end
+
   def color_status
-    if stop_green > Time.now
+    if green?
       'green'
     else
       ((points_wrong > 0) || (points_over_green > -450)) ? 'yellow' : 'red'

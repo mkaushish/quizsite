@@ -36,9 +36,15 @@ namespace :generate do
       end
 
       # Make the chapter problem set, and set it's problem_types to those we've just created
-      problem_set = ProblemSet.find_by_name(chapter::TITLE) || ProblemSet.new(:name => chapter::TITLE)
+      problem_set = ProblemSet.find_by_name(chapter::TITLE) || ProblemSet.create(:name => chapter::TITLE)
       problem_set.problem_types = ptypes
-      problem_set.save
+
+      print "\tPROBLEM SET for #{problem_set.name}: "
+      if problem_set.save
+        puts "successfully created"
+      else
+        puts "faild: " + problem_set.errors.full_messages
+      end
     end
   end
 end
