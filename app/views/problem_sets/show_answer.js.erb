@@ -1,2 +1,5 @@
+<% if callback %>
+	<%= render partial: callback %>
+<% end %>
 $('#problem_overlay').html('<%= j(render "answers/full_answer") %>');
 $('#problem_history').html('<%= j(render "problem_sets/history_ans") %>');

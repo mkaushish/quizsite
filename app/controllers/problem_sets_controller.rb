@@ -64,7 +64,7 @@ class ProblemSetsController < ApplicationController
     @solution = @problem.prefix_solve
     @response = @answer.response_hash
 
-    render 'show_answer'
+    render 'show_answer', locals: {callback: 'problem_sets/finish_problem'}
   end
 
   private

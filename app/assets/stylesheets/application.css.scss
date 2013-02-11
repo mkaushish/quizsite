@@ -170,22 +170,21 @@ input.btn-blue {
 
 /* }}} */
 
+@import 'mixins_n_colors.css.scss';
+
 @import 'defaults.css.scss';
 @import 'common_classes.css.scss';
-@import 'tohtml/*';
+
+@import 'problems/*';
+@import 'problems/tohtml/*';
+
 @import 'classrooms.css.scss';
-@import 'custom_problems.css.scss';
 @import 'details.css.scss';
-@import 'draw.css.scss';
-@import 'graph.css.scss';
-@import 'mixins_n_colors.css.scss';
 @import 'nav.css.scss';
-@import 'new_notepad.css.scss';
 @import 'notepad.css.scss';
 @import 'pages.css.scss';
 @import 'problem.css.scss';
 @import 'problem_sets.css.scss';
-@import 'questionbase.css.scss';
 @import 'problemanswers.css.scss';
 @import 'quiz.css.scss';
 @import 'sessions.css.scss';
