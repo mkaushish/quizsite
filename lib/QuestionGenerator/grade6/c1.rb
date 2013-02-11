@@ -21,6 +21,9 @@ module Chapter1
   ])
   PPVALUE=["Ones", "Tens", "Hundreds", "Thousands", "Ten Thousands", "Lakhs", "Ten Lakhs", "Crores", "Ten Crores"]
   class ExpandNumbers1 < QuestionBase
+    def self.type
+      "Product of 10s"
+    end
     def initialize
       @prod=rand(6)
       @num=rand(99)+1
@@ -33,6 +36,9 @@ module Chapter1
     end
   end
   class ExpandNumbers2 < QuestionBase
+    def self.type
+      "Break Whole Numbers"
+    end
     def initialize
       @prod1=rand(6)+2
       @prod2=rand(@prod1)
@@ -56,6 +62,9 @@ module Chapter1
     end
   end
   class ExpandNumbers < QuestionBase
+    def self.type
+      "Expand Whole Numbers"
+    end
     def initialize
       @num=rand(100000)+5000
     end
@@ -85,6 +94,9 @@ module Chapter1
     end
   end
   class WordProbSum < QuestionBase
+    def self.type
+      "Find the Sum"
+    end
     def initialize
       n=rand(3)+2
       @nums=[]
@@ -110,6 +122,9 @@ module Chapter1
   end
 
   class WordProbDiff < QuestionBase
+    def self.type
+      "Find What's Remaining"
+    end
     def initialize
       n=rand(3)+2
       @nums=[]
@@ -137,6 +152,9 @@ module Chapter1
 
 
   class PlaceValueTable < QuestionBase
+    def self.type
+      "Place Value"
+    end
     def initialize(num=nil)
       if num!=nil
         @num=num
@@ -198,7 +216,7 @@ module Chapter1
   class FindMaxNumber < QuestionWithExplanation
     attr_accessor :nums
     def self.type
-      "Maximum Num"
+      "Maximum Number"
     end
 
     def initialize(nums = nil)
@@ -282,7 +300,7 @@ module Chapter1
   class FindMinNumber < QuestionWithExplanation
     attr_accessor :nums
     def self.type
-      "Minimum Num"
+      "Minimum Number"
     end
 
     def initialize(nums = nil)
@@ -366,7 +384,7 @@ module Chapter1
   class ArrangeAscending < QuestionBase
     attr_accessor :nums
     def self.type
-      "Order Nums +"
+      "Ascending Order"
     end
     def prereq
       [[Chapter1::FindMinNumber, 1.0]]
@@ -449,7 +467,7 @@ module Chapter1
   class ArrangeDescending < QuestionBase
     attr_accessor :nums
     def self.type
-      "Order Nums -"
+      "Descending Order"
     end
     def prereq
       [[Chapter1::FindMaxNumber, 1.0]]
@@ -474,7 +492,7 @@ module Chapter1
   class WritingIndian < QuestionBase
     attr_accessor :num
     def self.type
-      "Writing Numbers"
+      "Indian System of Numeration"
     end
 
     def initialize
@@ -499,7 +517,7 @@ module Chapter1
   class WritingInternational < QuestionBase
     attr_accessor :num
     def self.type
-      "Writing Numbers International"
+      "International System of Numeration"
     end
 
     def initialize
@@ -524,7 +542,7 @@ module Chapter1
   class AddCommasIndian < QuestionWithExplanation
     attr_accessor :num
     def self.type
-      "Adding Commas"
+      "Adding Commas Indian"
     end
 
     def initialize
@@ -632,7 +650,7 @@ module Chapter1
   class ReadingIndian < QuestionBase
     attr_accessor :num
     def self.type
-      "Reading Numbers"
+      "Reading Numbers Indian"
     end
 
     def initialize
@@ -654,7 +672,7 @@ module Chapter1
     attr_accessor :num
 
     def self.type
-      "Rounding Nums"
+      "Rounding Numbers"
     end
 
     def initialize(num = nil)
