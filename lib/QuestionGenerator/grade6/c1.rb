@@ -81,7 +81,7 @@ module Chapter1
       resps = QuestionBase.vars_from_response( *( (0...("#{@num}").length).map { |i| "ans_#{i}" }), params)
       tem=[]
       for i in 0...resps.length
-        tem << resps.to_i
+        tem << resps[i].to_i
       end
       tem.reduce(:+)==@num
     end
@@ -213,7 +213,7 @@ module Chapter1
 
   end
 
-  class FindMaxNumber < QuestionWithExplanation
+  class FindMaxNumber < QuestionBase
     attr_accessor :nums
     def self.type
       "Maximum Number"
@@ -297,7 +297,7 @@ module Chapter1
     end
   end
 
-  class FindMinNumber < QuestionWithExplanation
+  class FindMinNumber < QuestionBase
     attr_accessor :nums
     def self.type
       "Minimum Number"

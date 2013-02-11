@@ -19,9 +19,10 @@ class ProblemStat < ActiveRecord::Base
   has_many :quiz_problem_stats
   has_many :problem_set_stats
 
-  def update!(correct)
+  def update!(answer)
+    puts "***************\n"+correct.to_s+"\n**************"
     self.count += 1
-    self.correct += 1 if correct
+    self.correct += 1 if answer.correct
     save
     self
   end

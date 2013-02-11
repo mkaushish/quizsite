@@ -94,7 +94,7 @@ ActiveRecord::Schema.define(:version => 20130210114805) do
     t.integer  "user_id"
     t.integer  "problem_set_id"
     t.datetime "last_attempted"
-    t.datetime "stop_green",     :default => '2013-02-11 00:56:57', :null => false
+    t.datetime "stop_green",     :default => '2013-02-11 07:06:30', :null => false
   end
 
   add_index "problem_set_instances", ["user_id", "problem_set_id"], :name => "problem_set_instances_by_user", :unique => true
@@ -116,7 +116,7 @@ ActiveRecord::Schema.define(:version => 20130210114805) do
     t.integer  "points_wrong",            :default => 0,                     :null => false
     t.integer  "points_over_green",       :default => -500,                  :null => false
     t.integer  "modifier",                :default => 0,                     :null => false
-    t.datetime "stop_green",              :default => '2013-02-11 00:56:57', :null => false
+    t.datetime "stop_green",              :default => '2013-02-11 07:06:30', :null => false
   end
 
   create_table "problem_sets", :force => true do |t|
