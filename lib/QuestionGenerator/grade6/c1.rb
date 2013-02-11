@@ -213,7 +213,7 @@ module Chapter1
 
   end
 
-  class FindMaxNumber < QuestionWithExplanation
+  class FindMaxNumber < QuestionBase
     attr_accessor :nums
     def self.type
       "Maximum Number"
@@ -297,7 +297,7 @@ module Chapter1
     end
   end
 
-  class FindMinNumber < QuestionWithExplanation
+  class FindMinNumber < QuestionBase
     attr_accessor :nums
     def self.type
       "Minimum Number"
