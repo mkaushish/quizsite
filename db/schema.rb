@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130122105905) do
+ActiveRecord::Schema.define(:version => 20130210114805) do
 
   create_table "answers", :force => true do |t|
     t.boolean  "correct"
@@ -94,6 +94,7 @@ ActiveRecord::Schema.define(:version => 20130122105905) do
     t.integer  "user_id"
     t.integer  "problem_set_id"
     t.datetime "last_attempted"
+    t.datetime "stop_green",     :default => '2013-02-11 00:56:57', :null => false
   end
 
   add_index "problem_set_instances", ["user_id", "problem_set_id"], :name => "problem_set_instances_by_user", :unique => true
@@ -106,11 +107,16 @@ ActiveRecord::Schema.define(:version => 20130122105905) do
   add_index "problem_set_problems", ["problem_set_id", "problem_type_id"], :name => "problem_set_problem_types_index", :unique => true
 
   create_table "problem_set_stats", :force => true do |t|
-    t.integer "problem_set_instance_id"
-    t.integer "problem_type_id"
-    t.integer "points"
-    t.integer "problem_stat_id"
-    t.integer "current_problem_id"
+    t.integer  "problem_set_instance_id"
+    t.integer  "problem_type_id"
+    t.integer  "points"
+    t.integer  "problem_stat_id"
+    t.integer  "current_problem_id"
+    t.integer  "points_right",            :default => 100,                   :null => false
+    t.integer  "points_wrong",            :default => 0,                     :null => false
+    t.integer  "points_over_green",       :default => -500,                  :null => false
+    t.integer  "modifier",                :default => 0,                     :null => false
+    t.datetime "stop_green",              :default => '2013-02-11 00:56:57', :null => false
   end
 
   create_table "problem_sets", :force => true do |t|

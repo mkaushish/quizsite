@@ -14,8 +14,12 @@
     </div>
 
     <div class='dotted-border' style='min-height:400px;'>
-      <ul id="problem_hitory" class="column-list">
-        <%= render :partial => 'history_ans', :collection => @history, :as => :answer %>
+      <ul id="problem_history" class="column-list">
+        <% if @history.empty? %>
+          <li>Problems will show up here as you do them</li>
+        <% else %>
+          <%= render :partial => 'history_ans', :collection => @history, :as => :answer %>
+        <% end %>
       </ul>
     </div>
   </div>
@@ -33,5 +37,5 @@
     </table>
     </div>
   </div>
-  <script> $(".jScroll_bboard").jScrollPane({hideFocus:true}); </script>
+  <!-- script> $(".jScroll_bboard").jScrollPane({hideFocus:true}); </script-->
 </div>

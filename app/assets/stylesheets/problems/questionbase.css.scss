@@ -1,3 +1,5 @@
+$problem_w: 720px;
+
 #dimmer {
 	z-index:19;
 	position:fixed;
@@ -13,7 +15,7 @@
 	left:50%;
 	margin-left:-400px;
 	height:100%;
-	width:720px;
+	width: $problem_w;
 	padding:10px 40px;
 	background: white;
 	background-size: 100% 100%;
@@ -21,10 +23,13 @@
 	border-right:1px solid gray;
 }
 
+$pset_title_m: 200px;
 .pset_title {
 	position: absolute;
-	width: 100%;
+	width: $problem_w - $pset_title_m;
+	margin: 0 ($pset_title_m / 2);
 	text-align: center;
+	z-index:0;
 }
 
 .problem_view_stats {
