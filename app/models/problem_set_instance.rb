@@ -52,6 +52,10 @@ class ProblemSetInstance < ActiveRecord::Base
     stat ||= new_stat problem_type, true
   end
 
+  def modify_green?(green_time)
+    # TODO check and see if all of the problem_stats are green...
+  end
+
   private
 
   def new_stat(problem_type, look_up_problem_stat = false)

@@ -1,6 +1,8 @@
 a {
-  text-decoration:none;
-  &:hover {
-    text-decoration:none;
-  }
+	color:$blue;
+	text-decoration:none;
+	&:hover {
+		color:$blue;
+		text-decoration:none;
+	}
 }

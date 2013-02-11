@@ -3,6 +3,13 @@ $green:  #009F6B;
 $blue:   #0087BD;
 $yellow: #FFD300;
 
+// $lyellow: #B3A24D; // 40 % saturation
+// $lred:    #7C4B57; // 25 % sa
+// $lgreen:  #376757; // 30 % sat
+$lyellow: hsl(50, 80%, 50%); // 40 % saturation
+$lred:    hsl(345, 40%, 39%); // 25 % sa
+$lgreen:  hsl(160, 40%, 31%); // 30 % sat
+
 $sgGreen: $green;
 $sg_green: $green;
 $sgBlue:  $blue;

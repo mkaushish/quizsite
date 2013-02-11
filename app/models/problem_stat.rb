@@ -4,6 +4,9 @@ class ProblemStat < ActiveRecord::Base
   belongs_to :user
   belongs_to :problem_type
 
+  has_many :problem_set_stats
+  has_many :quiz_stats
+
   validates :problem_type, :presence => true
   validates :user, :presence => true
   validates :count, :presence => true,
@@ -16,9 +19,9 @@ class ProblemStat < ActiveRecord::Base
   has_many :quiz_problem_stats
   has_many :problem_set_stats
 
-  def update!(was_correct)
+  def update!(correct)
     self.count += 1
-    self.correct += 1 if was_correct
+    self.correct += 1 if correct
     save
     self
   end
