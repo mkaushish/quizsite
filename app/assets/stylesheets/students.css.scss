@@ -8,9 +8,16 @@ $blackboard_h: 148px;
 $border_w: 7px;
 // $border_w: 0px;
 
-.list-box-table {
+.jScroll_bboard{
   margin-top: 34px;
   margin-left: 2px;
+  margin-right: 5px;
+  width: 635px;
+  height: 400px;
+}
+
+
+.list-box-table {
   td {
     padding-right: 25px;
     padding-bottom: 25px;
@@ -53,6 +60,7 @@ div.problem_list_box {
     margin-top: (40px - $border_w);
     text-align: center;
     color: white;
+    font-family:"Chalk1";
   }
 
   a {
@@ -84,6 +92,7 @@ div.pset_list_box {
     text-align: center;
     color: white;
     font-size: 20px;
+    font-family:"Chalk1";
   }
 
   div.start {

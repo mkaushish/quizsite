@@ -1,5 +1,12 @@
 <% answer ||= @answer %>
-<li><%= link_to (answer.problem_type.to_s + " : " + answer.correct.to_s), 
+<li>
+<% if answer.correct %>
+<div class=correct_hist>
+<% else %>
+<div class=incorrect_hist>
+<%end%>
+<%= link_to (answer.problem_type.to_s), 
 			    show_answer_path(id: answer.id, instance: @instance.id),
 			    remote: true %>
+</div>
 </li>

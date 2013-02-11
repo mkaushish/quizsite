@@ -76,8 +76,16 @@ module PreG6
   end
   class CompareNumbers < QuestionBase
     def initialize(num1=nil, num2=nil)
-      num1 == nil ? @num1=num1 : @num1=rand(1000)
-      num2 == nil ? @num2=num2 : @num2=rand(1000)
+      if(num1!=nil)
+        @num1=num1
+      else
+        (@num1=rand(1000))
+      end
+      if(num2!=nil)
+        @num2=num2
+      else
+        (@num2=rand(1000))
+      end
     end
     def solve
       if @num1 == @num2

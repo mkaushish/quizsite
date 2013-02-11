@@ -1,31 +1,85 @@
-#binding {
-  position:relative;
-  height:480px;
-  width:440px; 
-  #bind {
+  
+    #npback {
+      background: url("blackboard_bg.jpg");
+      background-size:250px 250px;
+      position:absolute;
+      width:250px;
+      height:250px;
+    }
+.lborg {
     position:absolute;
-    left:20px;
-    width:400px;
-    height:55px;
-    background:url("binding.png") repeat-x;
+    height:100%;
+    width:5%;
+    top:-10px;
+    border:solid;
+    border-color:#6aac4a transparent #6aac4a #6aac4a;
+}
+.rborg {
+    position:absolute;
+    left:95%;
+    top:-10px;
+    height:100%;
+    width:5%;
+    border:solid;
+    border-color:#6aac4a #6aac4a #6aac4a transparent;
+}
+.lborb {
+    position:absolute;
+    height:100%;
+    width:5%;
+    top:-10px;
+    border:solid;
+    border-color:#147ea5 transparent #147ea5 #147ea5;
+}
+.rborb {
+    position:absolute;
+    left:95%;
+    top:-10px;
+    height:100%;
+    width:5%;
+    border:solid;
+    border-color:#147ea5 #147ea5 #147ea5 transparent;
+}
+.np_head {
+  left:35%;
+  width:100px;
+  top:-20px;
+  h4 {float:left;}
+  #drawnp {
+    float:right;
   }
-  #note {
-    border-style:solid;
-    border-width:1px;
+  #npcolorpicker {
+    float:right;
+    border-radius:0px;
+    height:18px;
+    width:18px;
+    padding:0px;
+    margin:0px;
+    box-shadow:none;
+    border-color:rgb(85, 102, 119);
+  }
+}
+#addtable, #laddtable { 
+  float:center;
+}
+#note {
+      margin-left:12px;
+    padding-top:14px;
     //border-color:#0083ad;
-    border-color:gray;
-    position:absolute;
-    top:30px;
-    left:20px;
-    height:450px;
-    width:400px;
-    box-shadow: 3px 3px 3px #888888;
+    position:relative;
+    height:242px;
+    width:370px;
+    overflow:visible;
+    p {
+      font-family:"Courier";
+      font-size:13px;
+    }
     #notes {
       border-color:#D3D3D3;
       font-family:"Courier";
     }
     #notepad {
-      background-color:#FAFAD2;
+      z-index:20;
     }
   }
   #comt {
@@ -65,4 +119,46 @@
       height:20px;
     }
   }
+    .tbicons {
+      float:left;
+      height:18px;
+      width:18px;
+      i {
+        margin:2px 2px;
+      }
+      border-style:solid;
+      border-width:1px;
+    }
+
+
+#calc {
+  label {
+	margin-left:33%;
+  }
+  .np_nums { 
+	width:60px;
+	margin-left:35%;
+  }
+  #np_ops{
+	margin-left:37%;
+    
+    .tbicons {
+      float:left;
+      height:18px;
+      width:18px;
+      i {
+        margin:2px 2px;
+      }
+      border-style:solid;
+      border-width:1px;
+    }
+  }
 }
+  .center_btn {
+     margin-left:37%;
+  }
+  
+  #ops_form {
+    margin-left:50%;
+    margin-top:20%;
+  }

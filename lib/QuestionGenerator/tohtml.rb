@@ -347,6 +347,9 @@ module ToHTML
   end
 
   class TextTable < TableField
+    def partial
+      "multi/tablefield"
+    end
     def initialize(table)
       @table = table.map { |row| row.map { |elt| TextLabel.new(elt) } }
       @nrows = table.length

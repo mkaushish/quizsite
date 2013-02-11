@@ -1,0 +1,17 @@
+<%= content_for :head do %>
+  <%= javascript_include_tag "nondefault/notepad" %>
+<% end %>
+<div class="inp">
+</div>
+<div id="binding">
+  <div id="note">
+    <canvas id="notepad" height=150px width=150px border=2px>
+    Your browser does not support the HTML5 Canvas feature. This app uses new HTML5 features and will only work on the latest versions of Firefox, Safari or Chrome (and maybe Internet Explorer 9).
+    </canvas>
+    <input type="text" id="notes" style="background-color:transparent; position:absolute; height:15px; left:55px; top:50px; width:340px">
+    <input type="text" id="num1" style="display:none; background-color:transparent; position:absolute; left:55px; top:50px; width:150px">
+    <input type="text" id="num2" style="display:none; background-color:transparent; position:absolute; left:55px; top:50px; width:150px">
+    <textarea id="comment" rows=3 cols=15 style="display:none; position:absolute;"></textarea>
+  </div>
+  <%= hidden_field_tag 'npstr', "" %>
+</div>

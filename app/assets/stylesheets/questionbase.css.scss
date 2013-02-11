@@ -1,5 +1,13 @@
 $problem_w: 720px;
 
+#dimmer {
+	z-index:19;
+	position:fixed;
+	width:100%;
+	height:100%;
+	background-color:gray;
+	opacity:0.9;
+}
 #problem_overlay {
 	z-index:20;
 	position: fixed;
@@ -9,7 +17,8 @@ $problem_w: 720px;
 	height:100%;
 	width: $problem_w;
 	padding:10px 40px;
-	background-color:white;
+	background: white;
+	background-size: 100% 100%;
 	border-left:1px solid gray;
 	border-right:1px solid gray;
 }
