@@ -14,9 +14,13 @@ class Classroom < ActiveRecord::Base
       $stderr.puts "Assigning Student"
       classroom_assignments.create(:student => jimmy)
       problem_sets.each { |hw| hw.assign(jimmy) } # sorry jimmy
+
+    elsif jimmy.is_a?(ProblemSet)
+      classroom_problem_sets.create :problem_set => jimmy
+
     else
       # TODO allow to assign problem sets
-      raise "You can only assign a Student to a class, not a #{tmp.class}"
+      raise "You can only assign a Student to a class, not a #{jimmy.class}"
     end
   end
 end

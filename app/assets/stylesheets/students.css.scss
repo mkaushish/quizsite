@@ -21,11 +21,10 @@ $border_w: 7px;
   td {
     padding-right: 25px;
     padding-bottom: 25px;
+    width:$blackboard_w;
     &:last-child {
       padding-right: 0;
     }
-  }
-  & td>div {
   }
 }
 

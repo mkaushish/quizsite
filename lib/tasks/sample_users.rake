@@ -32,7 +32,20 @@ namespace :generate do
       t = Teacher.new(:name => "Thomas Ramfjord", :email => "t.homasramfjord@gmail.com", :password => "blah123", :password_confirmation => "blah123")
       t.confirmed = true
       t.save!
+      c = t.classrooms.new name: 'test'
+
+      if c.save
+        puts "Test teacher and classroom successfully saved"
+      else
+        puts "COULDN'T SAVE TEST CLASS!"
+      end
+        
+      ProblemSet.all.each do |ps| 
+        c.assign! ps
+      end
     end
+
+    classroom = Classroom.where(name: 'test').first
 
     userinfo.each do |userhash|
       unless User.find_by_email(userhash[:email])
@@ -47,6 +60,7 @@ namespace :generate do
 
         if user.save!
           puts "#{user.name} successfully added"
+          classroom.assign! user if user.is_a?(Student)
         else
           puts "#{user.name} could not be added: "
         end
