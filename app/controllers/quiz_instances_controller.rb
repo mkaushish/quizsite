@@ -4,7 +4,7 @@ class QuizInstanceController < ApplicationController
   def show
     @quiz = Quiz.find(params[:name])
     @instance = QuizInstance.where(:quiz_id => @quiz.id,
-                                         :user_id => current_user.id).first
+                                   :user_id => current_user.id).first
     @instance ||= current_user.quiz_instances.new(:quiz => @quiz)
     @stats = @instance.stats
     @sessions = []
@@ -14,7 +14,7 @@ class QuizInstanceController < ApplicationController
   def do
     @quiz = Quiz.find(params[:name])
     @instance = QuizInstance.where(:quiz_id => @quiz.id,
-                                         :user_id => current_user.id).first
+                                   :user_id => current_user.id).first
     # @instance ||= current_user.quiz_instances.new(:quiz => @quiz)
     redirect_to access_denied_path && return if @instance.nil?
 
@@ -59,3 +59,4 @@ class QuizInstanceController < ApplicationController
                             .includes(:problem)
                             .limit(n)
   end
+end
