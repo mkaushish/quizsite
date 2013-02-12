@@ -1,9 +1,37 @@
-<div class="progress_bar <%= @stat.color_status %>">
+<% complete_tip = "#{500 - @stat.points_till_green} points earned" %>
+<% remaining_tip = "#{@stat.points_till_green} points till green" %>
+<% right_tip = "#{@stat.points_for(true)} points for a right answer" %>
+<% wrong_tip = "#{@stat.points_for(false)} points for a wrong answer" %>
+<div class="progress_bar <%= @stat.color_status %>" >
 	<div class="left"></div>
 	<div class="middle">
-		<div class="complete" style="width:<%= @stat.done_w %>;"></div>
-		<div class="wrong_points" style="width:<%= @stat.wrong_w %>;"></div>
-		<div class="right_points" style="width:<%= @stat.right_w %>;"></div>
+		<div class="complete with_tooltip" style="width:<%= @stat.done_w %>;"
+			 data-original-title="<%= complete_tip %>"
+			 data-trigger="hover"
+			 data-placement="bottom"
+			 ></div>
+
+		<div class="wrong_points with_tooltip" style="width:<%= @stat.wrong_w %>;"
+			 data-original-title="<%= wrong_tip %>"
+			 data-trigger="hover"
+			 data-placement="bottom"
+			 ></div>
+
+		<div class="right_points with_tooltip" style="width:<%= @stat.right_w %>;"
+			 data-original-title="<%= right_tip %>"
+			 data-trigger="hover"
+			 data-placement="bottom"
+			 ></div>
+
+		<div class="remaining with_tooltip" style="width:<%= @stat.remaining_w %>;" 
+			 data-original-title="<%= remaining_tip %>"
+			 data-trigger="hover"
+			 data-placement="bottom"
+			 ></div>
 	</div>
 	<div class="right"></div>
 </div>
+
+<script>
+	$('.with_tooltip').tooltip();
+</script>

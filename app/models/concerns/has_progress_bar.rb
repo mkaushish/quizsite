@@ -21,4 +21,8 @@ module HasProgressBar
   	pts = minus_incorrect ? (points_for(true) - points_for(false)) : points_for(true)
   	"#{pts / 5.0}%"
   end
+
+  def remaining_w
+    "#{(points_till_green - points_for(correct)) / 5.0}%"
+  end
 end
