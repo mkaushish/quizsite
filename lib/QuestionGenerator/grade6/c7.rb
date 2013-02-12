@@ -354,7 +354,7 @@ module Chapter7
     end
     def explain
       [SubLabel.new("To Compare like fractions, all that has to be done is to compare the numerators."), PreG6::CompareNumbers.new(@num1, @num2),
-        Subproblem.new([TextLabel.new("Since the First numerator, #{@num1}, #{solve["ans"]} Second numerator, #{@num2}, place the appropriate symbol:"), Fraction.new(@num1,@den), Dropdown.new("ans", "=", "<", ">"), Fraction.new(@num2, @den)], {"ans" => solve["ans"]})]  
+        Subproblem.new([TextLabel.new("Since the First numerator, #{@num1}, #{solve["ans"]} Second numerator, #{@num2}, place the appropriate symbol:"), InlineBlock.new(Fraction.new(@num1,@den), Dropdown.new("ans", "=", "<", ">"), Fraction.new(@num2, @den))], {"ans" => solve["ans"]})]  
     end
     def text
       [ TextLabel.new("Place the appropriate symbol:"), 
@@ -526,8 +526,8 @@ module Chapter7
       end
       [SubLabel.new("To perform addition and subtraction on like fractions, ignore the denominators and perform the given operations on the numerators"),
         Chapter6::AddSubIntegers.new(@num, signs, [1] + @sig),
-        Subproblem.new([TextLabel.new("Now add back in the denominator, #{@den}"), Fraction.new(@num.reduce(:+), "den")], {"den" => @den[0]}),
-        Chapter7::ReduceFractionsEA.new(@num.reduce(:+), @den)]
+        Subproblem.new([TextLabel.new("Now add back in the denominator"), Fraction.new(@num.reduce(:+), "den")], {"den" => @den[0]}),
+        Subproblem.new([TextLabel.new("Hence the fraction in its lowest form is:"), Fraction.new(@num.reduce(:+), @den[0])],{})]
     end
     def text
       stro= [TextLabel.new("Compute the following and reduce to its lowest form:")] 
@@ -615,8 +615,8 @@ module Chapter7
   PROBLEMS=[
     Chapter7::ToMixedFractions, 
     Chapter7::ToImproperFractions,
-    Chapter7::EquivalentFractions,
     Chapter7::ReduceFractions,
+    Chapter7::EquivalentFractions,
     Chapter7::FillNumerator,
     Chapter7::FillDenominator,
     Chapter7::CompareLikeFrac,
