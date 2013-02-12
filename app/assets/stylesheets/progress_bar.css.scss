@@ -1,0 +1,46 @@
+$prog_bar_h: 7px;
+.progress_bar {
+	position:relative;
+	height: $prog_bar_h;
+	margin-bottom: $prog_bar_h * 1.5;
+	width:$problem_w;
+	&>* {
+		height:$prog_bar_h;
+		&>* { height: $prog_bar_h; }
+	}
+
+	.middle {
+		width: $problem_w;
+		background-color: $blue;
+		&>div {
+			float:left;
+		}
+	}
+
+	.left {
+		position: absolute;
+		width:$problem_side_m;
+		left:(-$problem_side_m);
+		top:0;
+		background-color: $yellow;
+	}
+	.right {
+		position:absolute;
+		width: $problem_side_m;
+		left: $problem_w;
+		top:0;
+		background-color: $green;
+	}
+}
+
+.progress_bar.red {
+	.left {
+		background-color:$red;
+	}
+	.right {
+		background-color:$green;
+	}
+	.middle {
+		background-color: $llyellow;
+	}
+}

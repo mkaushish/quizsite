@@ -1,10 +1,9 @@
-<div class="progress_bar">
+<div class="progress_bar <%= @stat.color_status %>">
 	<div class="left"></div>
 	<div class="middle">
-		<div class="complete"></div>
-		<div class="incorrect"></div>
-		<div class="correct"></div>
-		<div class="rest"></div>
+		<div class="complete" style="width:<%= @stat.done_w %>;"></div>
+		<div class="wrong_points" style="width:<%= @stat.wrong_w %>;"></div>
+		<div class="right_points" style="width:<%= @stat.right_w %>;"></div>
 	</div>
 	<div class="right"></div>
 </div>
