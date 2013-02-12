@@ -6,11 +6,17 @@ $yellow: #FFD300;
 // $lyellow: #B3A24D; // 40 % saturation
 // $lred:    #7C4B57; // 25 % sa
 // $lgreen:  #376757; // 30 % sat
-$lyellow: hsl(50, 80%, 50%); // 40 % saturation
-$lred:    hsl(345, 40%, 39%); // 25 % sa
-$lgreen:  hsl(160, 40%, 31%); // 30 % sat
+// $lyellow: hsl(50, 80%, 50%); // 40 % saturation
+// $lred:    hsl(345, 40%, 39%); // 25 % sa
+// $lgreen:  hsl(160, 40%, 31%); // 30 % sat
+$lyellow: hsl(50, 100%, 58%); // 40 % saturation
+$lred:    hsl(345, 100%, 50%); // 25 % sa
+$lgreen:  hsl(160, 100%, 45%); // 30 % sat
 
-$llyellow: hsl(50, 50%, 50%); // 40 % saturation
+//$llyellow: hsl(50, 50%, 50%); // 40 % saturation
+$llgreen:  hsl(160, 100%, 55%); // 30 % sat
+$llred:    hsl(345, 100%, 65%); // 25 % sa
+$llyellow: hsl(50, 100%, 75%);
 
 $sgGreen: $green;
 $sg_green: $green;

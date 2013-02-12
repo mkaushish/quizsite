@@ -4,10 +4,10 @@
     	<%= @instance.name %>
     </div>
   <% end %>
-  <div class="stat">
+  <div class="stat" style="padding:0;">
     <ul>
-      <li>PROBLEMS DONE<div><%= @stat.count %></div></li>
-      <li>PROBLEMS CORRECT<div><%= @stat.correct %></div></li>
+      <li>DONE<div><%= @stat.count %></div></li>
+      <li>CORRECT<div><%= @stat.correct %></div></li>
       <% puts "************\n"+@stat.to_s+"\n*************\n"%>
       <!--<li><div><%# @stat.percent %></div>PERCENT CORRECT</li>-->
     </ul>

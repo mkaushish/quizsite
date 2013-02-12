@@ -82,14 +82,21 @@ class UsersController < ApplicationController
       )
     user.confirmed = true
 
-    unless params[:class_pass] == "fibognocchi"
+    classroom = nil
+    if params[:class_pass] == "fibognocchi"
+      classroom = Classroom.where(name: "6").first
+    elsif params[:class_pass] == "fermaths"
+      classroom = Classroom.where(name: "7").first
+    end
+
+    if classroom.nil?
       render :js => "$('\#register_errors').text('Invalid class password');"
       return
     end
 
     if user.save
       puts "#{user.name} successfully added"
-      Classroom.first.assign!(user)
+      classroom.assign!(user)
       sign_in user
       render :js => "window.location.href = '/'"
     else

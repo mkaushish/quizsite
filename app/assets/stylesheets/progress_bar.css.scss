@@ -11,7 +11,6 @@ $prog_bar_h: 7px;
 
 	.middle {
 		width: $problem_w;
-		background-color: $blue;
 		&>div {
 			float:left;
 		}
@@ -22,14 +21,12 @@ $prog_bar_h: 7px;
 		width:$problem_side_m;
 		left:(-$problem_side_m);
 		top:0;
-		background-color: $yellow;
 	}
 	.right {
 		position:absolute;
 		width: $problem_side_m;
 		left: $problem_w;
 		top:0;
-		background-color: $green;
 	}
 }
 
@@ -41,6 +38,36 @@ $prog_bar_h: 7px;
 		background-color:$green;
 	}
 	.middle {
+		background-color: $llred;
+	}
+	.right_points {
+		background-color: $green;
+	}
+}
+
+.progress_bar.yellow {
+	.left {
+		background-color:$red;
+	}
+	.right {
+		background-color:$green;
+	}
+	.middle {
 		background-color: $llyellow;
+		.complete {
+			background-color:$yellow;
+		}
+		.wrong_points {
+			background-color: $red;
+		}
+		.right_points {
+			background-color:$green;
+		}
+	}
+}
+
+.progress_bar.green {
+	div {
+		background-color:green;
 	}
 }
