@@ -81,7 +81,7 @@ module Chapter1
       resps = QuestionBase.vars_from_response( *( (0...("#{@num}").length).map { |i| "ans_#{i}" }), params)
       tem=[]
       for i in 0...resps.length
-        tem << resps[i].to_i
+        tem << resps.to_i
       end
       tem.reduce(:+)==@num
     end
@@ -213,7 +213,7 @@ module Chapter1
 
   end
 
-  class FindMaxNumber < QuestionBase
+  class FindMaxNumber < QuestionWithExplanation
     attr_accessor :nums
     def self.type
       "Maximum Number"
@@ -297,7 +297,7 @@ module Chapter1
     end
   end
 
-  class FindMinNumber < QuestionBase
+  class FindMinNumber < QuestionWithExplanation
     attr_accessor :nums
     def self.type
       "Minimum Number"
@@ -975,15 +975,15 @@ module Chapter1
     Chapter1::WordProbDiff,
     Chapter1::PlaceValueTable,
     Chapter1::FindMaxNumber,      Chapter1::FindMinNumber,        
-    Chapter1::ArrangeAscending,   Chapter1::ArrangeDescending,  
-    #Chapter1::WritingIndian,      Chapter1::WritingInternational, 
+    # Chapter1::ArrangeAscending,   Chapter1::ArrangeDescending,  
+    # Chapter1::WritingIndian,      Chapter1::WritingInternational, 
     Chapter1::ReadingIndian,      Chapter1::ReadingInternational, 
     Chapter1::AddCommasIndian,    Chapter1::AddCommasInternational,    
     Chapter1::RoundingNumbers,
     Chapter1::EstimateAddition,   Chapter1::EstimateSubtraction,
     Chapter1::EstimateProduct,
-    Chapter1::ShiftingDigitsGr,
-    Chapter1::ShiftingDigitsLs,
+    # Chapter1::ShiftingDigitsGr,
+    # Chapter1::ShiftingDigitsLs,
     Chapter1::ShiftingDigits,
     Chapter1::ToRoman,            Chapter1::ToArabic
   ]
