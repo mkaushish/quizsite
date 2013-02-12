@@ -4,15 +4,19 @@
 
   <div class="span6"> 
     <h4>Login</h4>
+    <br></br>
     <div id="log_in_form" style="font-family:SansSerif">
       <div id="log_in_errors">
       </div>
       <%= form_for(:session, {:url => signin_path, :html => {:class => "signin"}, :remote => true}) do |f| %>
-        <div class = "field">
-          <%= f.text_field :email, :placeholder=>"Email" %>
-          <%= f.password_field :password, :placeholder => "Password" %>
+        <div class = "field_block">
+          <%= label_tag "email", "Email or Username" %>
+          <%= f.text_field :email, :placeholder=>"akshat777@gmail.com" %>
         </div>
-        <br></br>
+        <div class = "field_block">
+          <%= label_tag "password", "Password" %>
+          <%= f.password_field :password, :placeholder => "*******" %>
+        </div>
         <div class = "actions">
           <%= f.submit "Sign in", :class=>"button-blue" %>
         </div>
@@ -22,6 +26,7 @@
 
   <div class="span6"> 
     <h4>Register</h4>
+    <br></br>
     <div id="register_form" style="font-family:SansSerif">
       <div id="register_errors">
       </div>
@@ -43,7 +48,7 @@
           <%= password_field_tag "reg_password_confirmation", nil, :placeholder => "*******" %>
         </div>
         <div class="field_block">
-          <%= label_tag "class_pass", "Password for VV class 6" %>
+          <%= label_tag "class_pass", "Class Password" %>
           <%= password_field_tag "class_pass" %>
         </div>
         <div class = "actions">
