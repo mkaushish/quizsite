@@ -47,7 +47,7 @@ $prog_bar_h: 7px;
 
 .progress_bar.yellow {
 	.left {
-		background-color:$red;
+		background-color:$yellow;
 	}
 	.right {
 		background-color:$green;
@@ -68,6 +68,6 @@ $prog_bar_h: 7px;
 
 .progress_bar.green {
 	div {
-		background-color:green;
+		background-color:$green;
 	}
 }
