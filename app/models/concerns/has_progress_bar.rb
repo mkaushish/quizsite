@@ -1,16 +1,16 @@
 module HasProgressBar
   extend ActiveSupport::Concern
 
-  included do
-  end
-
   def done_w
   	if color_status == 'green'
   		return 0
   	end
 
   	points_till_green = -(self.points_over_green)
-	"#{(500 - points_till_green) / 5.0}%"
+    if points_till_green < points_for(correct)
+      points_till_green = points_for(correct)
+    end
+	  "#{(500 - points_till_green) / 5.0}%"
   end
 
   def wrong_w
