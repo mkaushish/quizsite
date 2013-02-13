@@ -17,6 +17,7 @@ class Classroom < ActiveRecord::Base
 
     elsif jimmy.is_a?(ProblemSet)
       classroom_problem_sets.create :problem_set => jimmy
+      students.each { |stu| jimmy.assign(stu) }
 
     else
       # TODO allow to assign problem sets
