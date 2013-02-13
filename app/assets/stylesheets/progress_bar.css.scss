@@ -9,6 +9,41 @@ $prog_bar_h: 7px;
 		&>* { height: $prog_bar_h; }
 	}
 
+  &>.middle>.marker {
+    left:0;
+    top:0;
+    position:relative;
+    background-color:black;
+    width:1px;
+    &>div {
+      position:absolute;
+      top:$prog_bar_h;
+      width:100px;
+      height:10px;
+      line-height:10px;
+      font-size:8px;
+
+      background-color:white;
+      // color:black;
+    }
+  }
+
+  .marker.right {
+    &>div { 
+      border-left:1px solid black; 
+      padding-left:3px;
+    }
+  }
+
+  .marker.left {
+    &>div {
+      left:-103px;
+      text-align:right;
+      border-right:1px solid black;
+      padding-right:3px;
+    }
+  }
+
 	.middle {
 		width: $problem_w;
 		&>div {
@@ -46,13 +81,13 @@ $prog_bar_h: 7px;
 }
 
 .progress_bar.yellow {
-	.left {
+	&>.left {
 		background-color:$yellow;
 	}
-	.right {
+	&>.right {
 		background-color:$green;
 	}
-	.middle {
+	&>.middle {
 		background-color: $llyellow;
 		.complete {
 			background-color:$yellow;

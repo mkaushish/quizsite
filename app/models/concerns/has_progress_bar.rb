@@ -1,32 +1,37 @@
 module HasProgressBar
   extend ActiveSupport::Concern
 
-  def done_w
+  def done_p
   	if color_status == 'green'
   		return 0
   	end
 
-    if points_till_green < points_for(correct)
-      points_till_green = points_for(correct)
-    end
-	  to_w (500 - points_till_green)
+	  to_percent (500 - points_till_green)
   end
 
-  def wrong_w
-  	to_w points_for(false)
+  def wrong_p
+  	to_percent points_for(false)
   end
 
-  def right_w(minus_incorrect = true)
+  def wrong_p_remaining 
+    to_percent [points_till_green, points_for(false)].min
+  end
+
+  def right_p(minus_incorrect = true)
   	pts = minus_incorrect ? (points_for(true) - points_for(false)) : points_for(true)
-    to_w pts
+    to_percent pts
   end
 
-  def remaining_w
-    to_w (points_till_green - points_for(correct))
+  def right_p_remaining
+    [100 - done_p - wrong_p_remaining, right_p].min
+  end
+
+  def remaining_p
+    to_percent (points_till_green - points_for(correct))
   end
 
   private
-    def to_w(pts)
-      "#{pts / 5.0}%"
+    def to_percent(pts)
+      pts / 5.0
     end
 end
