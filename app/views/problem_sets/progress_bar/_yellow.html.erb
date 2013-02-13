@@ -1,0 +1,48 @@
+<div class="progress_bar <%= @stat.color_status %>" >
+  <div class="left"></div>
+  <div class="middle">
+    <div class="marker left">
+      <div>0</div>
+    </div>
+    <div class="complete with_tooltip" 
+      style="width:<%= prog_bar_px @stat.done_p, 3 %>;"
+      data-original-title="<%= complete_tip %>"
+      data-trigger="hover"
+      data-placement="bottom"
+      ></div>
+
+    <div class="marker <%= @stat.done_p < 50.0 ? "left" : "right" %>">
+      <div><%= 500 - @stat.points_till_green %> points earned</div>
+    </div>
+
+    <div class="wrong_points with_tooltip" 
+      style="width:<%= prog_bar_px @stat.wrong_p_remaining, 3 %>;"
+      data-original-title="<%= wrong_tip %>"
+      data-trigger="hover"
+      data-placement="bottom"
+      ></div>
+
+    <div class="right_points with_tooltip" 
+      style="width:<%= prog_bar_px @stat.right_p_remaining, 3 %>;"
+      data-original-title="<%= right_tip %>"
+      data-trigger="hover"
+      data-placement="bottom"
+      ></div>
+
+    <div class="remaining with_tooltip" 
+      style="width:<%= prog_bar_px @stat.remaining_p, 3 %>;" 
+      data-original-title="<%= remaining_tip %>"
+      data-trigger="hover"
+      data-placement="bottom"
+      ></div>
+
+    <div class="marker right">
+      <div>500</div>
+    </div>
+  </div>
+	<div class="right"></div>
+</div>
+
+<script>
+	$('.with_tooltip').tooltip();
+</script>
