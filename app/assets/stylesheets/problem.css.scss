@@ -61,35 +61,6 @@
   margin-bottom:5px;
 }
 
-div.permutationDrag {
-  position:relative;
-  padding: 5px;
-  @include rounded-corners(2px);
-  background-color:white;
-  cursor:move;
-}
-
-div.permutationDrag > div {
-  padding:15px;
-  margin:3px;
-  border: 1px solid $sgGreen;
-  //background-color:$light_green;
-  display:inline-block;
-  position:absolute;
-  @include unselectable();
-}
-
-div.permutationDragAnswer {
-  padding: 5px;
-  @include rounded-corners(2px);
-}
-
-div.permutationDragAnswer > div {
-  padding:20px 10px 20px 10px;
-  border: 1px solid black;
-  display:inline-block;
-  @include unselectable();
-}
 
 .checkbox-item label, .checkbox-item input {
   display:inline-block;
