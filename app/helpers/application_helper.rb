@@ -58,11 +58,11 @@ module ApplicationHelper
   end
 
   def m_pack(obj)
-    ActiveSupport::Base64.encode64(Marshal.dump(obj))
+    Base64.encode64(Marshal.dump(obj))
   end
 
   def m_unpack(marshobj)
-    Marshal.load(ActiveSupport::Base64.decode64(marshobj))
+    Marshal.load(Base64.decode64(marshobj))
   end
 
   def smartscore_class(smartscore)

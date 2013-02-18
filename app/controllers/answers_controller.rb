@@ -21,7 +21,7 @@ class AnswersController < ApplicationController
   def show
     @instance = ProblemSetInstance.find(params[:instance])
     @answer = Answer.includes(:problem).find(params[:id])
-    @stat = current_user.problem_stats.where(problem_type_id: @answer.problem_type.id).first
+    @stat = @instance.stat(@answer.problem_type)
     @problem = @answer.problem.problem
     @solution = @problem.prefix_solve
     puts "^"*60

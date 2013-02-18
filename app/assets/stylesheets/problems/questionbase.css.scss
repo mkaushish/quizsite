@@ -1,4 +1,6 @@
 $problem_w: 720px;
+$problem_side_m: 40px;
+$problem_top_m: 0;
 
 #dimmer {
 	z-index:19;
@@ -16,7 +18,7 @@ $problem_w: 720px;
 	margin-left:-400px;
 	height:100%;
 	width: $problem_w;
-	padding:10px 40px;
+	padding: 0 $problem_side_m 10px $problem_side_m;
 	background: white;
 	background-size: 100% 100%;
 	border-left:1px solid gray;
@@ -34,7 +36,7 @@ $pset_title_m: 200px;
 
 .problem_view_stats {
 	position: relative;
-	height:70px;
+	height:50px;
 }
 
 .button-blue {

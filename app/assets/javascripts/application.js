@@ -10,3 +10,6 @@
 //= require jquery.mousewheel
 //= require jquery.jscrollpane.min
 //= require_directory .
+$(function() {
+  $('.with_tooltip').tooltip();
+});

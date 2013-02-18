@@ -1,6 +1,7 @@
 class ProblemSetStat < ActiveRecord::Base
   include CurrentProblem
   include FollowsProblemStat
+  include HasProgressBar
 
   belongs_to :problem_type
 
@@ -28,6 +29,10 @@ class ProblemSetStat < ActiveRecord::Base
 
   def last_correct?
     modifier == 1
+  end
+
+  def points_till_green
+    -(points_over_green)
   end
 
   def green?

@@ -4,24 +4,24 @@ namespace :generate do
   	teacher = User.find_by_email "t.homasramfjord@gmail.com"
   	puts "found teacher: #{teacher}"
 
-  	classroom = teacher.classrooms.where(name: '6').first || teacher.classrooms.new(name: '6')
-  	if classroom.save
-  		puts "classroom saved successfully"
+  	class1 = teacher.classrooms.where(name: '6').first || teacher.classrooms.new(name: '6')
+    class2 = teacher.classrooms.where(name: '7').first || teacher.classrooms.new(name: '7')
+  	if class1.save && class2.save
+  		puts "classrooms saved successfully"
   	else
-  		puts "classroom could not be saved! #{classroom.errors.full_messages}"
+  		puts "classroom could not be saved! #{class1.errors.full_messages}"
+      puts "classroom could not be saved! #{class2.errors.full_messages}"
   		return
   	end
 
-  	problem_set = (ProblemSet.where name: "Knowing our Numbers")[0]
-  	puts "found problem_set: #{problem_set}"
-  	cps = ClassroomProblemSet.new :classroom => classroom, :problem_set => problem_set
-  	if cps.save
-  		puts "saved class_problem_set"
-  	else
-  		puts "classroom_problem_set error: #{cps.errors.full_messages}"
-  		return
-  	end
+  	ps1 = (ProblemSet.where name: "Knowing our Numbers")[0]
+    ps2 = (ProblemSet.where name: "Fractions")[0]
+  	puts "found problem_sets: #{ps1.name}, #{ps2.name}"
 
-  	puts "in the end: class problem_set: #{classroom.problem_sets.first.inspect}"
+    class1.assign! problem_set: ps1
+    class2.assign! problem_set: ps2
+
+  	puts "in the end: class1 problem_set: #{class1.problem_sets.first.inspect}"
+    puts "in the end: class2 problem_set: #{class2.problem_sets.first.inspect}"
   end
 end

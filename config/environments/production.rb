@@ -9,7 +9,7 @@ Quizsite::Application.configure do
   config.action_controller.perform_caching = true
 
   # Disable Rails's static asset server (Apache or nginx will already do this)
-  config.serve_static_assets = false
+  config.serve_static_assets = true # = false
 
   # Compress JavaScripts and CSS
   config.assets.compress = true
@@ -47,9 +47,8 @@ Quizsite::Application.configure do
   # config.action_controller.asset_host = "http://assets.example.com"
 
   # Precompile additional assets (application.js, application.css, and all non-JS/CSS are already added)
-  # config.assets.precompile += %w( search.js )
-  config.assets.precompile += %w( default.js )
-  config.assets.precompile += %w( nondefault/drawtools.js nondefault/numberline.js nondefault/graph.js nondefault/notepad.js )
+  config.assets.precompile << 'nondefault/js'
+  # config.assets.precompile = ['application.js', 'application.css', 'nondefault/*.js', ]
 
   # Disable delivery errors, bad email addresses will be ignored
   # config.action_mailer.raise_delivery_errors = false

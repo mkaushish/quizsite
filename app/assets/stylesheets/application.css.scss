@@ -189,8 +189,10 @@ form div.field_block {
 @import 'defaults.css.scss';
 @import 'common_classes.css.scss';
 
-@import 'problems/*';
+@import 'problems/*'; // includes questionbase
 @import 'problems/tohtml/*';
+
+@import 'progress_bar.css.scss';
 
 @import 'classrooms.css.scss';
 @import 'details.css.scss';
