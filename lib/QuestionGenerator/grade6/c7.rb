@@ -569,7 +569,6 @@ module Chapter7
         tm=solve["num"]
         tm2=solve["intpart"]
       end
-        
     end
     def solve
       ints=[@intpart[0]]
@@ -624,7 +623,4 @@ module Chapter7
     Chapter7::ASLikeFractions,
     Chapter7::ASUnlikeFractions,
     Chapter7::ASMixedFractions]
-
 end
-
-

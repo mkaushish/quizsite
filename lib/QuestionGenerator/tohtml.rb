@@ -279,6 +279,9 @@ module ToHTML
   end
 
   class TallyMarksLabel < TallyMarksField
+    def partial
+      "multi/tallymarksfield"
+    end
     def initialize(name, obs, init)
       super(name, obs, init)
       @edit="noedit"
@@ -308,6 +311,9 @@ module ToHTML
   end
 
   class BarGraphLabel < BarGraphField
+    def partial
+      "multi/bargraphfield"
+    end
     def initialize(name, obs, init, varhsh)
       super(name, obs, init, varhsh)
       @edit="noedit"
