@@ -3,12 +3,12 @@
     <canvas id=datacanvas height=400 width=400 style="border-style:solid; border-width:2px;">
     </canvas>
     <%= hidden_field_tag('type', "tally") %>
-    <%= hidden_field_tag('edit', tallymarkfield.edit) %>
+    <%= hidden_field_tag('edit', tallymarksfield.edit) %>
     <table id=table style="display:none">
-      <% tallymarkfield.obs.length.times do |row| %>
+      <% tallymarksfield.obs.length.times do |row| %>
         <tr>
-          <td><%= hidden_field_tag("#{tallymarkfield.name}_#{row}_name", tallymarkfield.obs[row]) %></td>
-          <td><%= hidden_field_tag("#{tallymarkfield.name}_#{row}", tallymarkfield.init[row]) %></td>
+          <td><%= hidden_field_tag("#{tallymarksfield.name}_#{row}_name", tallymarksfield.obs[row]) %></td>
+          <td><%= hidden_field_tag("#{tallymarksfield.name}_#{row}", tallymarksfield.init[row]) %></td>
         </tr>
       <% end %>
     </table>
