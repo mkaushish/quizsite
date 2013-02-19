@@ -10,6 +10,7 @@
 <%= hidden_field_tag('startshapes', "#{shapes}#{InputField.fromhash("geometry", @response)}") %>
 <%= hidden_field_tag('qbans_selected', InputField.fromhash("qbans_selected", @response)) %>
 <%= hidden_field_tag('starttool', "notool") %>
+
 <% if geometryfield.is_a?(GeometryField) %>
   <%= hidden_field_tag geometryfield.name, "" %>
 <% end %>

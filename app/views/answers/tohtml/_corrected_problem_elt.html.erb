@@ -1,5 +1,5 @@
 <% elt = corrected_problem_elt %>
-<% if elt.is_a? RadioButton %>
+<% if elt.contains_response_and_soln? %>
     <%= render_tohtml(local_assigns, elt) %>
 <% elsif elt.correct?(@solution, @response) %>
   <div class="correct">

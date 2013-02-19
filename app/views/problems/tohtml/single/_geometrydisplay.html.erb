@@ -1,0 +1,14 @@
+<div>
+  <canvas id="geocanvas" height="<%= geometrydisplay.class.height %>" width="<%= geometrydisplay.class.width %>"> 
+    Your browser does not support the HTML5 Canvas feature. This app uses new HTML5 features and will only work on the latest versions of Firefox, Safari or Chrome (and maybe Internet Explorer 9).         
+    </canvas>   
+  <div id="shapes" style="display:none;"></div>
+  <br style="clear:both">
+</div>
+<% shapes = geometrydisplay.encodedStartShapes %>
+<%= hidden_field_tag('startshapes', shapes)   %>
+<%= hidden_field_tag('qbans_selected')   %>
+
+<script>
+  setUpGeo();
+</script>

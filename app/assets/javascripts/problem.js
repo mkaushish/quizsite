@@ -87,17 +87,3 @@ function bind_mt_fields() {
     }
   });
 }
-
-$(document).ready(function () {
-  $('#clear-quiz').click(function() {
-    $(':checkbox:checked').attr('checked', false);
-    setCurQuiz();
-  });
-
-  $('#problemtabs :checkbox').click(function() {
-    setCurQuiz();
-  });
-
-  $('.checkbox-item.incorrect').tooltip();
-  // $('body').click(hideProblem)
-});

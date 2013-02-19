@@ -35,7 +35,11 @@ module ToHTML
       "single/#{self.class.to_s.split("::")[1].downcase}"
     end
 
+    # use the problem view for the anwer - not true for input fields
     def answer_view?() false ; end
+
+    # potentailly display both the correct and incorrect version in the answer
+    def contains_response_and_soln?() false ; end
   end
 
   class MultiHTMLObj
@@ -50,6 +54,7 @@ module ToHTML
     end
 
     def answer_view?() false ; end
+    def contains_response_and_soln?() false ; end
   end
 
   # MULTIOBJS: objects with multiple HTMLObjs
@@ -516,6 +521,7 @@ module ToHTML
         @fields = args
       end
     end
+    def contains_response_and_soln?() true ; end
   end
 
   class TextField < InputField

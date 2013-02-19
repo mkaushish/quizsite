@@ -86,6 +86,7 @@ class ProblemSetStat < ActiveRecord::Base
     self.points_wrong = 0 if points_wrong < 0
     self.points_wrong = 50 if points_wrong > 50
     self.points_right = 70 if points_right < 70
+    self.points_right = 500 if points_right > 500
 
     self
   end

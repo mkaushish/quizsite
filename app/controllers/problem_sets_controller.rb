@@ -39,9 +39,9 @@ class ProblemSetsController < ApplicationController
       @problem_type = @problem_set.problem_types.find(params[:pid])
       @stat = @instance.stat(@problem_type)
       @problem = @stat.spawn_problem
-      $stderr.puts "STAT_N_PROBLEM " * 20
-      $stderr.puts @stat.inspect
-      $stderr.puts @problem.inspect
+      # $stderr.puts "STAT_N_PROBLEM " * 20
+      # $stderr.puts @stat.inspect
+      # $stderr.puts @problem.inspect
     else
       redirect_to access_denied_path && return
     end
