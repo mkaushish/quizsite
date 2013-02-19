@@ -98,8 +98,6 @@ $(document).ready(function () {
     setCurQuiz();
   });
 
-  bind_mt_buttons();
-
   $('.checkbox-item.incorrect').tooltip();
   // $('body').click(hideProblem)
 });

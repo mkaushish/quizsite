@@ -1,14 +1,6 @@
-<% if just_print %>
-  <%= render_tohtml local_assigns, multitextfield %>
-<% elsif multitextfield.correct?(@solution, @response) %>
-  <div class="correct">
-    <%= render_tohtml local_assigns, multitextfield %>
-  </div>
-<% else %>
-  <div class="correct">
-    <%= render_tohtml local_assigns, multitextfield, @solution %>
-  </div>
-  <div class="incorrect">
-    <%= render_tohtml local_assigns, multitextfield %>
-  </div>
-<% end %>
+<% multitextfield.length_from_hash(response) # set the length for the actual response %>
+<div class=inline-block>
+  <% multitextfield.each_field do |field| %>
+    <%= render_tohtml(local_assigns, field) %>
+  <% end %>
+</div> 

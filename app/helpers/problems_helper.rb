@@ -3,7 +3,7 @@ module ProblemsHelper
 	def render_tohtml(locals, obj)
 		$stderr.puts locals.inspect
 		path = 'problems'
-		if obj.class < InputField
+		if obj.answer_view?
 			path = locals[:partial_dir]
 		end
 
