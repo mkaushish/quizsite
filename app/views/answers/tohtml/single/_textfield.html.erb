@@ -1,5 +1,7 @@
+<div class=input-field>
 <%= label_tag(textfield.name, textfield.label) unless textfield.label.nil? %>
 <%= text_field_tag textfield.name, textfield.fromhash(response), 
 				   :disabled => "disabled", 
 				   :style => len_to_css_width(textfield.char_length(response)),
 				   :class => 'textfield' %>
+</div>

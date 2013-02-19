@@ -69,7 +69,7 @@ $pset_title_m: 200px;
    	&:before {
    		content: url('correct_check.jpg');
    		position:absolute;
-   		left:-25px;
+   		left:-30px;
    		top:$d_y;
    	}
 }
@@ -80,12 +80,12 @@ $pset_title_m: 200px;
    	&:before {
    		content: url('incorrect_x.jpg');
    		position:absolute;
-   		left:-25px;
+   		left:-30px;
    		top:$d_y;
    	}
 }
 .correct {
-	>.inline-block, >.fraction, >.textfield {
+	>.inline-block, >.fraction, >.input-field {
 		@include has_check();
 	}
 }
