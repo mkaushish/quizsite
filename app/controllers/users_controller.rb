@@ -87,9 +87,9 @@ class UsersController < ApplicationController
       classroom = Classroom.where(name: "6").first
     elsif params[:class_pass] == "fermaths"
       classroom = Classroom.where(name: "7").first
-    elsif params[:classroom] == "testing12"
+    elsif params[:class_pass] == "testing12"
       classroom = Classroom.where(name: "test").first
-    elsif params[:classroom] == "learnsmarter"
+    elsif params[:class_pass] == "learnsmarter"
       classroom = Classroom.where(name: "test").first
     end
 
