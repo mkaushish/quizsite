@@ -35,9 +35,7 @@ class CustomProblemsController < ApplicationController
   # POST /custom_problems
   # POST /custom_problems.json
   def create
-    puts params
     @problem = make_custom_prob_from_params
-    puts @problem.inspect
     @custom_problem = current_user.custom_problems.new(:chapter => params[:chapter], :problem => @problem, :name => params[:name])
 
     respond_to do |format|
