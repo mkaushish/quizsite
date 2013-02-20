@@ -87,6 +87,8 @@ class UsersController < ApplicationController
       classroom = Classroom.where(name: "6").first
     elsif params[:class_pass] == "fermaths"
       classroom = Classroom.where(name: "7").first
+    elsif params[:classroom] == "testing12"
+      classroom = Classroom.where(name: "test").first
     end
 
     if classroom.nil?
