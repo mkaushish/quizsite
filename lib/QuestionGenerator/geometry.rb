@@ -39,11 +39,11 @@ module Geometry
     # Characteristics of the GeometryField that might be useful in geometry questions
     #
     def self.height
-      400
+      350
     end
 
     def self.width
-      400
+      670
     end
 
     def self.center
@@ -116,6 +116,7 @@ module Geometry
 
   # GeometryField is special in many ways:
   #  -When there is a geometry field in the text hash, you *MUST OVERRIDE THE correct? METHOD* on your problem
+  #   - there is no way for a geometry field itself to know if it's correct
   #  -The geometry field will be represented by our geometry/drawing javascript app
   #  -when the student submits and answer to a geometry question the app will add hidden fields for all
   #   of the shapes the student has drawn.  These will be labelled in order of creation as geometry1, geometry2,
@@ -125,6 +126,12 @@ module Geometry
     def correct?(solution, response)
       raise "I should NEVER be called - you forgot to override QuestionBase's correct method didn't you"
     end
+
+    # this prevents it from displaying twice in the answer if incorrect
+    def contains_response_and_soln?() true ; end
+
+    # descendents use the same partial
+    def partial() "single/geometryfield" ; end
   end
 
   # NOTE this will taxonomically be extended from input field... but it shouldn't be.  Input field etc should be a mixin
@@ -132,6 +139,9 @@ module Geometry
     def correct?(solution, response)
       true
     end
+
+    def answer_view?() false ; end
+    def partial() "single/geometrydisplay" ; end
   end
 
   class SmallGeoDisplay < GeometryDisplay

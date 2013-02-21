@@ -9,6 +9,8 @@
   <% end %>
 </div>
 
+<% if @problem.problem.has_notepad? %>
 <div class='row-fluid calculations'>
   <%= render 'problems/side_notepad' %>
 </div>
+<% end %>

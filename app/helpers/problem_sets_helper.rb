@@ -5,7 +5,7 @@ module ProblemSetsHelper
 
   def prog_bar_px(percent, num_notifiers)
     w = (percent * (7.2 - 0.01 * num_notifiers)).round
-    puts "prog_bar_px", "\t#{percent}", "\t#{w}"
+    # puts "prog_bar_px", "\t#{percent}", "\t#{w}"
     "#{w}px" # max 7
   end
 

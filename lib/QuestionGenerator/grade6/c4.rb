@@ -23,10 +23,13 @@ module Chapter4
   # Chapter 4.1 exercises
   # 
   class NameLine < QuestionWithExplanation
+    def has_notepad?() false ; end
+    attr_accessor :l, :points
+
     def self.type
       "Indentify Lines"
     end
-    attr_accessor :l, :points
+
     def initialize
       length = rand(50) + 100
       endpoints = SmallGeoDisplay.randCenterLine(length)
@@ -64,6 +67,7 @@ module Chapter4
   end
 
   class NameRay
+    def has_notepad?() false ; end
     def initialize
       length = rand(50) + 100
       endpoints = SmallGeoDisplay.randCenterLine(length)
@@ -102,6 +106,7 @@ module Chapter4
     def self.type
       "Identify Angles"
     end
+    def has_notepad?() false ; end
 
     def initialize
       cx, cy = *(SmallGeoDisplay.center)
@@ -153,6 +158,7 @@ module Chapter4
   # Chapter 4.4 exercises
   #
   class NameTriangles < QuestionWithExplanation
+    def has_notepad?() false ; end
     def self.type
       "Identify Triangles"
     end
@@ -248,6 +254,7 @@ module Chapter4
   end
 
   class DefVertices < QuestionWithExplanation
+    def has_notepad?() false ; end
     include DefVerticesMethods
 
     def initialize
@@ -305,6 +312,7 @@ module Chapter4
   # question without an explanation can be performed in the explanation of the original problem
   class DefAdjacentSidesHelper < QuestionBase
     include AdjacentSides
+    def has_notepad?() false ; end
 
     def initialize(lines, points)
       @lines = lines
@@ -396,6 +404,7 @@ module Chapter4
   end
 
   class DefDiagonal < QuestionWithExplanation
+    def has_notepad?() false ; end
     def self.type
       "Identify Diagonals"
     end
@@ -446,6 +455,8 @@ module Chapter4
     def self.type
       "Draw Polygon"
     end
+    def has_notepad?() false ; end
+
     def initialize(numpoints, name)
       @numpoints = numpoints
       @name = name

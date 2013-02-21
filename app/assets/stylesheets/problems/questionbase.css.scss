@@ -12,8 +12,9 @@ $problem_top_m: 0;
 }
 #problem_overlay {
 	z-index:20;
-	position: absolute;
-	overflow:auto;
+	position: fixed;
+	overflow-y:auto;
+	overflow-x:hidden;
 	left:50%;
 	margin-left:-400px;
 	height:100%;
@@ -37,6 +38,7 @@ $pset_title_m: 200px;
 .problem_view_stats {
 	position: relative;
 	height:50px;
+  width:$problem_w;
 }
 
 .button-blue {
@@ -54,6 +56,7 @@ $pset_title_m: 200px;
 }
 
 .problem_body {
+  width: $problem_w;
 	h2 {
 		display:inline-block;
 	}
@@ -69,7 +72,7 @@ $pset_title_m: 200px;
    	&:before {
    		content: url('correct_check.jpg');
    		position:absolute;
-   		left:-25px;
+   		left:-30px;
    		top:$d_y;
    	}
 }
@@ -80,12 +83,12 @@ $pset_title_m: 200px;
    	&:before {
    		content: url('incorrect_x.jpg');
    		position:absolute;
-   		left:-25px;
+   		left:-30px;
    		top:$d_y;
    	}
 }
 .correct {
-	>.inline-block, >.fraction, >.textfield {
+	>.inline-block, >.fraction, >.input-field {
 		@include has_check();
 	}
 }

@@ -34,6 +34,12 @@ module ToHTML
     def partial
       "single/#{self.class.to_s.split("::")[1].downcase}"
     end
+
+    # use the problem view for the anwer - not true for input fields
+    def answer_view?() false ; end
+
+    # potentailly display both the correct and incorrect version in the answer
+    def contains_response_and_soln?() false ; end
   end
 
   class MultiHTMLObj
@@ -46,6 +52,9 @@ module ToHTML
     def partial
       "multi/#{self.class.to_s.split("::")[1].downcase}"
     end
+
+    def answer_view?() false ; end
+    def contains_response_and_soln?() false ; end
   end
 
   # MULTIOBJS: objects with multiple HTMLObjs
@@ -106,6 +115,7 @@ module ToHTML
       @name = ToHTML::add_prefix name
       @num = num
     end
+    def answer_view?() true ; end
 
     def each_name
       @num.times do |i|
@@ -279,6 +289,9 @@ module ToHTML
   end
 
   class TallyMarksLabel < TallyMarksField
+    def partial
+      "multi/tallymarksfield"
+    end
     def initialize(name, obs, init)
       super(name, obs, init)
       @edit="noedit"
@@ -308,6 +321,9 @@ module ToHTML
   end
 
   class BarGraphLabel < BarGraphField
+    def partial
+      "multi/bargraphfield"
+    end
     def initialize(name, obs, init, varhsh)
       super(name, obs, init, varhsh)
       @edit="noedit"
@@ -414,6 +430,8 @@ module ToHTML
     def correct?(solution, response)
       solution[name] == response[name]
     end
+
+    def answer_view?() true ; end
   end
 
   class PermutationDrag < InputField
@@ -503,6 +521,7 @@ module ToHTML
         @fields = args
       end
     end
+    def contains_response_and_soln?() true ; end
   end
 
   class TextField < InputField
@@ -537,6 +556,10 @@ module ToHTML
   # and Subtextfield.new("mtfield_0").fromhash(blah.solve) => 1
   # and TODO this logic could probably be moved into MultiTextField itself...
   class SubTextField < TextField
+    def partial
+      "single/textfield"
+    end
+
     def fromhash(hash)
       return hash[@name] unless hash[@name].nil?
 

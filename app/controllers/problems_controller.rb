@@ -27,7 +27,7 @@ class ProblemsController < ApplicationController
 
   def create
     @qb_problem = make_custom_prob_from_params
-    puts @qb_problem.inspect
+    # puts @qb_problem.inspect
 
     @problem_type = current_user.problem_types.new(:klass => @qb_problem.class, 
                                                    :name => params[:name] )

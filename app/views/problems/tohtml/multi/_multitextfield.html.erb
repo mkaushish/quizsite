@@ -4,8 +4,11 @@
       <%= render_tohtml local_assigns, field %>
     <% end %>
   </div>
-  <% if partial == 'problems/htmlobj' %>
-    <a href="#" class="add_mt_field btn">+</a>
-    <a href="#" class="del_mt_field btn">-</a>
-  <% end %>
+
+  <a href="#" class="add_mt_field btn">+</a>
+  <a href="#" class="del_mt_field btn">-</a>
 </div>
+
+<script>
+  bind_mt_buttons();
+</script>

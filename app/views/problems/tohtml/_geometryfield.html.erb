@@ -10,6 +10,7 @@
     <div id="erase" data-original-title="Erase single shapes you've drawn" ></div>
     <div id="clear" data-original-title="Erase ALL the shapes you've drawn!" ></div>
   </div>
+  <%= hidden_field_tag geometryfield.name, "" %>
 <% end %>
 <div>
   <canvas id="geocanvas" height="<%= geometryfield.class.height %>" width="<%= geometryfield.class.width %>"> 
@@ -22,9 +23,7 @@
 <%= hidden_field_tag('startshapes', shapes)   %>
 <%= hidden_field_tag('qbans_selected')   %>
 <%= hidden_field_tag('starttool', geometryfield.startTool) %>
-<% if geometryfield.is_a?(GeometryField) %>
-  <%= hidden_field_tag geometryfield.name, "" %>
-<% end %>
+
 <script>
   setUpGeo();
   $('#line').tooltip();

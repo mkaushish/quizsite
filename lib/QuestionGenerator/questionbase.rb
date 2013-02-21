@@ -33,6 +33,8 @@ class QuestionBase
     return to_s.split("::")[1] 
   end
 
+  def has_notepad?() true ; end
+
   #############################################################
   # METHODS YOU MAY WISH TO OVERRIDE WHEN DEFINING A SUBCLASS #
   #############################################################
