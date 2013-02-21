@@ -13,7 +13,8 @@ $problem_top_m: 0;
 #problem_overlay {
 	z-index:20;
 	position: fixed;
-	overflow:auto;
+	overflow-y:auto;
+	overflow-x:hidden;
 	left:50%;
 	margin-left:-400px;
 	height:100%;
@@ -37,6 +38,7 @@ $pset_title_m: 200px;
 .problem_view_stats {
 	position: relative;
 	height:50px;
+  width:$problem_w;
 }
 
 .button-blue {
@@ -54,6 +56,7 @@ $pset_title_m: 200px;
 }
 
 .problem_body {
+  width: $problem_w;
 	h2 {
 		display:inline-block;
 	}

@@ -11,6 +11,7 @@
     <div id="clear" data-original-title="Erase ALL the shapes you've drawn!" ></div>
   </div>
 <% end %>
+
 <div>
   <canvas id="geocanvas" height="<%= geometryfield.class.height %>" width="<%= geometryfield.class.width %>"> 
     Your browser does not support the HTML5 Canvas feature. This app uses new HTML5 features and will only work on the latest versions of Firefox, Safari or Chrome (and maybe Internet Explorer 9).         
@@ -18,13 +19,13 @@
   <div id="shapes" style="display:none;"></div>
   <br style="clear:both">
 </div>
+
 <% shapes = geometryfield.encodedStartShapes %>
 <%= hidden_field_tag('startshapes', shapes)   %>
 <%= hidden_field_tag('qbans_selected')   %>
 <%= hidden_field_tag('starttool', geometryfield.startTool) %>
-<% if geometryfield.is_a?(GeometryField) %>
-  <%= hidden_field_tag geometryfield.name, "" %>
-<% end %>
+<%= hidden_field_tag geometryfield.name, "" %>
+
 <script>
   setUpGeo();
   $('#line').tooltip();

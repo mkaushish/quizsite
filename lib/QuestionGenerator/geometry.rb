@@ -39,11 +39,11 @@ module Geometry
     # Characteristics of the GeometryField that might be useful in geometry questions
     #
     def self.height
-      400
+      350
     end
 
     def self.width
-      400
+      670
     end
 
     def self.center

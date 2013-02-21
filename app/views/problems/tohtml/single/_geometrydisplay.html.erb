@@ -5,9 +5,11 @@
   <div id="shapes" style="display:none;"></div>
   <br style="clear:both">
 </div>
+
 <% shapes = geometrydisplay.encodedStartShapes %>
 <%= hidden_field_tag('startshapes', shapes)   %>
-<%= hidden_field_tag('qbans_selected')   %>
+<%= hidden_field_tag('qbans_selected') %>
+<%= hidden_field_tag('starttool', geometrydisplay.startTool) %>
 
 <script>
   setUpGeo();
