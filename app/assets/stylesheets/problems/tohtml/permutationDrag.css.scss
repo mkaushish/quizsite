@@ -8,12 +8,17 @@ div.permutationDrag {
 
 div.permutationDrag > div {
   padding:15px;
-  margin:3px;
-  border: 1px solid $sgGreen;
-  //background-color:$light_green;
+  margin:0px;
+  // border: 1px solid $sgGreen;
+  background-color:$light_green;
   display:inline-block;
   position:absolute;
+  z-index:21;
   @include unselectable();
+}
+div.permutationDrag > div.fixed {
+  padding:15px 7px;
+  background-color:#ccc;
 }
 
 div.permutationDragAnswer {

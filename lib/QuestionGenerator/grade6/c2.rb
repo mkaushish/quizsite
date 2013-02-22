@@ -122,13 +122,17 @@ module Chapter2
     end
 
     def solve
-      { 'ans' => [ @nice_summand - @part, @part, @summands.reduce(:+) - @nice_summand ] }
+      { 'ans' => [ "(",(@nice_summand - @part), "+", (@part), ") + ", (@summands.reduce(:+) - @nice_summand) ] }
     end
 
     def text
       [ TextLabel.new("Drag the numbers you would add first to the first two places below"), 
-        PermutationDrag.new('ans', @summands)
+        PermutationDrag.new('ans', :"(", @summands[0], :"+", @summands[1], :") +", @summands[2])
       ]
+    end
+
+    def preprocess(name, response)
+      response
     end
 
     def get_elts(sum)
@@ -137,9 +141,8 @@ module Chapter2
     end
 
     def correct?(response)
-      r1 = response[ToHTML::add_prefix 'ans_0'].to_i
-      r2 = response[ToHTML::add_prefix 'ans_1'].to_i
-      r1 + r2 == @nice_summand
+      r = text[1].items_from(response)
+      r[1].to_i + r[3].to_i == @nice_summand
     end
   end
 
@@ -159,20 +162,23 @@ module Chapter2
       @nums = (@product_elts + [@random_elt]).shuffle
     end
 
-    def solve 
-      { 'ans' => @product_elts + [@random_elt] }
+    def solve
+      { 'ans' => [ "(",@product_elts[0], "*", @product_elts[1], ") * ", @random_elt ] }
     end
 
     def text
-      [ TextLabel.new("Drag the numbers you should multiply first to the first two places below"), 
-        PermutationDrag.new('ans', @nums)
+      [ TextLabel.new("Drag the numbers you would multiply first to the first two places below"), 
+        PermutationDrag.new('ans', :"(", @nums[0], :"*", @nums[1], :") *", @nums[2])
       ]
     end
 
+    def preprocess(name, response)
+      response
+    end
+
     def correct?(response)
-      r1 = response[ToHTML::add_prefix 'ans_0'].to_i
-      r2 = response[ToHTML::add_prefix 'ans_1'].to_i
-      r1 * r2 == @nice_product
+      r = text[1].items_from(response)
+      r[1].to_i * r[3].to_i == @nice_product
     end
 
     def get_elts(prod)

@@ -1,9 +1,8 @@
 <div class=permutationDrag>
   <% permutationdrag.items.each_index do |i| %>
-    <div> <%= permutationdrag.items[i] %>
-      <%= hidden_field_tag "#{permutationdrag.name}_#{i}", permutationdrag.items[i] %>
-    </div>
+    <div class="<%= permutationdrag.fixed?(i) %>"><%= permutationdrag.items[i].to_s %></div>
   <% end %>
+  <%= hidden_field_tag "#{permutationdrag.name}", permutationdrag.items.join(',') %>
 </div>
 <script>
   $('.permutationDrag').permutationDrag();

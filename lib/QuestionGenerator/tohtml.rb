@@ -439,6 +439,7 @@ module ToHTML
     # Either:
     #   PermutationDrag.new(name, item1, item2, ...)
     #   PermutationDrag.new(name, [item1, item2, ...])
+    #   Fixnums/Strings can be moved, symbols have fixed positions
     def initialize(*args)
       @name = ToHTML::add_prefix args.shift
 
@@ -449,14 +450,22 @@ module ToHTML
       end
     end
 
-    def correct?(solution, response)
-      items_from(solution) == items_from(response)
+    def fixed?(i)
+      @items[i].is_a?(Symbol) ? "fixed" : nil
     end
 
     def items_from(response)
-      Array.new(@items.length) do |i|
-        response["#{name}_#{i}"]
+      if !response[@name].nil?
+        return response[name].split(',')
+      else
+        return Array.new(@items.length) do |i|
+          response["#{@name}_#{i}"]
+        end
       end
+    end
+
+    def correct?(solution, response)
+      items_from(solution) == items_from(response)
     end
   end
   

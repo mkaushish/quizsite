@@ -6,10 +6,11 @@
 
   var PermutationDrag = function(element) {
     this.$element = $(element);
-    this.padding = parseInt(this.$element.css('padding-right').replace(/px/, ''));
+    //this.padding = parseInt(this.$element.css('padding-right').replace(/px/, ''));
+    this.gap = 10;
     this.box = undefined;
     this.read_elts();
-    
+
     $(element).css('height', this.height);
     $(element).css('width', this.width);
     var offset   = this.$element.offset();
@@ -18,54 +19,70 @@
 
   PermutationDrag.prototype = {
     read_elts : function() {
-      var elts = []
-        , vals = []
-        , l_off = this.padding 
-        , max_height = 0
+      this.elts = [];
+      var max_height = 0
+        , l_off = 0
+        , p = this
+        , l = 0; // length of elts
 
 
       this.$element.children('div').each( function(i) {
-        elts.push( new PermBox( $(this), i, l_off ) );
-        vals.push( $(this).children('input') );
-
-        l_off += $(this).outerWidth(); // pass true here if we want to include margins
+        l = p.elts.push( new PermBox( $(this), i, l_off) );
         max_height = Math.max(max_height, $(this).outerHeight());
+
+        l_off += p.elts[l-1].width + p.gap
+        console.log(l_off + " " +p.elts[l-1]);
       });
 
-      this.width = l_off - this.padding;
       this.height = max_height;
-      this.elts = elts;
-      this.vals = vals;
+      this.width = this.box_x(this.elts[l-1]) + this.elts[l-1].width;
     }
 
-    , swap_elts : function(i, j) {
-      var tmp = this.elts[i]
-        , tvl = this.vals[i].attr('value');
-
-      this.elts[i]  = this.elts[j];
-      this.elts[i].set_i(i);
-      this.vals[i].attr('value', this.vals[j].attr('value'));
-
-
-      this.elts[j] = tmp;
-      this.elts[j].set_i(j);
-      this.vals[j].attr('value', tvl);
+    , write_order : function() {
+      this.$element.children('input').attr('value', this.elts.join(","));
     }
 
-    , slide_left : function(box) {
-      if(box.i <= 0) return; 
-
-      this.swap_elts(box.i, (box.i - 1));
-
-      var prev_box = this.elts[box.i - 1];
-      box.slide_to((prev_box == undefined) ? this.padding : prev_box.r_off);
+    // theoretical x position of elts[i] - linear search. Since elts is generally small you shouldn't
+    // usually bother to save the result of this function
+    // and if we did want to we should just memoize here and update on swap_elts()
+    , box_x : function(box) {
+      len = 0;
+      for(var i = 0; i < box.i; i++) {
+        len += this.elts[i].width + this.gap;
+      }
+      return len;
     }
 
-    , slide_right : function(box) {
-      if(box.i + 1 >= this.elts.length) return; 
+    , next_movable_elt : function(box, inc) {
+      for(var i = (box.i + inc); 0 <= i && i < this.elts.length; i += inc) {
+        if(!this.elts[i].fixed) { return this.elts[i] }
+      }
+      return undefined;
+    }
 
-      this.swap_elts(box.i, box.i + 1);
-      box.slide_to(box.l_off + this.elts[box.i - 1].width());
+    // Switches boxes i and j
+    // - slides j to i's previous position
+    // - nothing is done to the position of i, because i is assumed to be in the mouse
+    , swap_elts : function(b_i, b_j) {
+      var i = b_i.i
+        , j = b_j.i
+
+      b_j.set_i(i);
+      b_i.set_i(j);
+
+      this.elts[j] = b_i
+      this.elts[i] = b_j 
+
+      b_j.slide_to(this.box_x(b_j))
+
+      // slide elts in between j and i to their new places
+      // only necessary for fixed elements
+      var inc = (j > i) ? +1 : -1
+      for(var i = (i + inc); i != j; i += inc) {
+        this.elts[i].slide_to(this.box_x(this.elts[i]))
+      }
+
+      this.write_order();
     }
 
     , mouse_is_down : function() {
@@ -75,24 +92,30 @@
     , mousedown : function(e) {
       var mousex = e.pageX - this.offsetx;
 
-      for(var i = 0; i < this.elts.length; i++) {
-        if(mousex <  this.elts[i].r_off) {
-          this.box = this.elts[i]
-          this.mouse_off = mousex - this.elts[i].l_off;
+      // get the box we clicked on unless it's fixed
+      for(var i = this.elts.length - 1; i >= 0; i--) {
+        // console.log(this.box_x(this.elts[i]));
+        if(mousex > this.box_x(this.elts[i])) {
+          if(this.elts[i].fixed){
+            return 0;
+          }
+
+          this.box = this.elts[i];
+          this.mouse_off = mousex - this.box_x(this.box)
           break;
         }
       }
+
+      // increase the z-index of this box so it's above the others
+      this.box.inc_z();
     }
 
     , mouseup : function(e) {
       if(this.box == undefined) return;
 
-      if(this.box.i == 0) {
-        this.box.slide_to(this.padding);
-      }
-      else {
-        this.box.slide_to( this.elts[this.box.i - 1].r_off );
-      }
+      this.box.slide_to(this.box_x(this.box));
+      this.box.dec_z();
+      console.log('z-index: ' + this.box.$element.css('z-index'));
       this.box = undefined;
     }
 
@@ -100,35 +123,33 @@
       if(this.mouse_is_down()) {
         var l_off  = e.pageX - this.offsetx - this.mouse_off
           , box    = this.box
-          , next_b = this.elts[box.i + 1]
-          , prev_b = this.elts[box.i - 1];
+          , next_b = this.next_movable_elt(box, +1)
+          , prev_b = this.next_movable_elt(box, -1);
 
-        if(next_b == undefined) {
-          var edge = prev_b.r_off;
-          if(l_off > edge) {
-            box.set_l_off(edge + (4 * Math.log(l_off - edge)));
-          }
-          else box.set_l_off(l_off);
-        }
-        else if(prev_b == undefined) {
-          var edge = this.padding;
-          if(l_off < edge) {
-            box.set_l_off(edge - (4 * Math.log(edge - l_off)));
-          }
-          else box.set_l_off(l_off);
-        }
+        // if we're off the edges, stay at the edge and return
+        if( (next_b == undefined && l_off > this.box_x(box)) || (prev_b == undefined && l_off < 0) ) {
+          box.set_l_off(this.box_x(box));
+          return 1;
+        } 
+
         else {
           box.set_l_off(l_off);
         }
 
-        if(next_b != undefined && box.r_off > next_b.middle()) {
-          this.slide_left(next_b)
-        }
+        // now we swap with the next elt if the overlap in our current state is bigger
+        // than the overlap in the best alternative state
+        var overlap = l_off - this.box_x(box);
 
-        if(prev_b != undefined && box.l_off < prev_b.middle()) {
-          this.slide_right(prev_b)
+        if(overlap > 0) {
+          // next_b must be defined, or we're at the edge and would have returned
+          var overlap_n = (this.box_x(next_b) - box.width + next_b.width) - l_off;
+          if(overlap > overlap_n) { this.swap_elts(box, next_b); }
         }
-
+        else if(overlap < 0) {
+          var overlap_n = l_off - this.box_x(prev_b);
+          if(-overlap > overlap_n) { this.swap_elts(box, prev_b); }
+        }
+        return 1;
       }
     }
   }
@@ -139,35 +160,42 @@
     this.$element = element;
     this.i = i;
     this.set_l_off(l_off);
+    this.width = element.outerWidth();
+    this.fixed = this.$element.hasClass('fixed');
   }
 
   PermBox.prototype = {
-    width: function() {
-      return this.$element.outerWidth();
-    }
-
-    , set_l_off : function(l_off) {
+    set_l_off : function(l_off) {
       this.l_off = l_off;
       this.$element.css('left', l_off);
-      this.r_off = l_off + this.width();
     }
 
     , middle : function() {
-      return (this.l_off + this.r_off) / 2;
+      return this.l_off + Math.floor(this.width / 2)
     }
 
     , slide_to : function(l_off) {
       this.$element.animate({ left : (l_off + "px") });
-      this.set_l_off(l_off);
+      this.l_off = l_off;
     }
 
     , set_i : function(i) {
       this.i = i;
     }
 
-    //, toString : function() {
-    //  return this.$element.attr('id')
-    //}
+    , toString : function() {
+      return this.$element.text();
+    }
+
+    , inc_z : function() {
+      var z = parseInt(this.$element.css('z-index'));
+      this.$element.css('z-index', z+1);
+    }
+
+    , dec_z : function() {
+      var z = parseInt(this.$element.css('z-index'));
+      this.$element.css('z-index', z-1);
+    }
   }
 
   /* PERMUTATIONDRAG PLUGIN DEFINITION
