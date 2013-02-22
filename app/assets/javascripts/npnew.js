@@ -5,8 +5,9 @@ function notepad_new() {
   var context = canvas.getContext('2d');
   $("#npcolorpicker").val("#E85858");
   $("#sv_opform").hide();
-  ytem=JSON.parse($("#npstr").attr("value"));
-  if(ytem!="") {
+  var ytem = undefined;
+  try { ytem = JSON.parse($("#npstr").attr("value")); } catch(err) {}
+  if(ytem != "" && ytem != undefined) {
     draw=ytem[1];
     for(i=0; i<ytem[0].length; i++){
       addline(ytem[0][i]);

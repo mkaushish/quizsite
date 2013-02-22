@@ -5,8 +5,8 @@ function change_color_status(elt, col) {
 	elt.addClass(col + "-bord")
 }
 
-console.log("hello Thomas");
-console.log("<%= @stat.color_status %>, #pt_<%= @stat.problem_type_id %>");
+// console.log("hello Thomas");
+// console.log("<%= @stat.color_status %>, #pt_<%= @stat.problem_type_id %>");
 change_color_status($('#pt_<%= @stat.problem_type_id %>'), "<%= @stat.color_status %>");
 
 $("#problem_history").prepend('<%= j render("problem_sets/history_ans", object: @answer, as: :answer) %>')

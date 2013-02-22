@@ -36,6 +36,7 @@ Quizsite::Application.routes.draw do
   get '/problem_sets/:name/static_do/:pid', :to => 'problem_sets#static_do', :as => :problem_set_static_do
   post '/problem_sets/:name/finish_problem', :to => 'problem_sets#finish_problem', :as => :ps_finish_problem
   get '/answers/:id/show', to: 'answers#show', as: :show_answer
+  get '/answers/:id/static_show', to: 'answers#static_show', as: :static_show_answer
 
   get '/:id/explain',          to: 'explanations#explain', as: :explain_problem
   post '/:id/explain/expand',  to: 'explanations#expand', as: :expand

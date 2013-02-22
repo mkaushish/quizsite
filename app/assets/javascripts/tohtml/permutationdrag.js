@@ -214,3 +214,7 @@
     });
   };
 } ) ( jQuery );
+
+INIT_PROBLEM['permutationDrag'] = function() {
+  $('.permutationDrag').permutationDrag();
+};

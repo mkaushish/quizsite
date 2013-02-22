@@ -1293,3 +1293,5 @@ function setUpGeo() {
   getSelectedShapes();
   //setState(SELECT);
 }
+
+INIT_PROBLEM['geometry'] = setUpGeo;

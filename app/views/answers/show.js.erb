@@ -8,5 +8,4 @@ if($p.length == 0){
 $("#dimmer").show();
 $("#problem_overlay").show();
 console.log("rendering problem:");
-$p.html('<%= j(render "full_answer") %>');
-$p.show();
+<%= render 'answers/show' %>
