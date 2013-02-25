@@ -31,10 +31,11 @@ Quizsite::Application.routes.draw do
   # student views
   get '/studenthome', :to => 'students#home'
 
-  get '/problem_sets/:name', :to => 'problem_sets#show', :as => :problem_sets
-  get '/problem_sets/:name/do/:pid', :to => 'problem_sets#do', :as => :problem_set_do
-  get '/problem_sets/:name/static_do/:pid', :to => 'problem_sets#static_do', :as => :problem_set_static_do
-  post '/problem_sets/:name/finish_problem', :to => 'problem_sets#finish_problem', :as => :ps_finish_problem
+  get '/problem_sets/:name', :to => 'problem_set_instances#show', :as => :problem_sets
+  get '/problem_sets/:name/do/:pid', :to => 'problem_set_instances#do', :as => :problem_set_do
+  get '/problem_sets/:name/static_do/:pid', :to => 'problem_set_instances#static_do', :as => :problem_set_static_do
+  post '/problem_sets/:name/finish_problem', :to => 'problem_set_instances#finish_problem', :as => :ps_finish_problem
+
   get '/answers/:id/show', to: 'answers#show', as: :show_answer
   get '/answers/:id/static_show', to: 'answers#static_show', as: :static_show_answer
 
