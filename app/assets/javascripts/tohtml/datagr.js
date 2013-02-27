@@ -380,4 +380,7 @@ function setUpDataGr(cname, tname) {
 
 
 }
-$(setUpDataGr)
+
+INIT_PROBLEM['datagr'] = function() {
+    setUpDataGr("datacanvas", "table");
+}
