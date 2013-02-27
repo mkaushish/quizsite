@@ -1,0 +1,19 @@
+<div class=row-fluid>
+  <div class=span4>
+    <div class=dotted-border-header>
+      Other Chapters
+    </div>
+    <div class='dotted-border teacher-details-column'>
+      <ul class='column-list'>
+        <% @chapters = ['Knowing Our Numbers', 'Operations', 'Playing With Numbers', 'Basics of Geometry', 'Integers'] %>
+        <% @chapters.each do |chapter| %>
+          <li><%= link_to chapter, "#" %></li>
+        <% end %>
+      </ul>
+    </div>
+  </div>
+
+  <%= render :partial => 'shared/list_box_table', 
+             :locals  => { items: @problem_set_problems,
+                           partial: 'problem_sets/list_box_ptype' } %>
+</div>

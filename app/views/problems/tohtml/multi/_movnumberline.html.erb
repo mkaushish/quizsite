@@ -1,13 +1,15 @@
 <div class="multifield">
   <div id=nline style="position:relative; width:700px; height:200px">
-    <canvas id="nlcanvas" height="100" width="700"> 
+    <canvas id="nlcanvas" height="100" width="700"
+    data-name="<%= movnumberline.name %>"
+      data-editable="false"
+      data-movable="false"
+      data-which="movinp"
+      class="numberline"> 
     Your browser does not support the HTML5 Canvas feature. This app uses new HTML5 features and will only work on the latest versions of Firefox, Safari or Chrome (and maybe Internet Explorer 9).         
     </canvas>   
     <%=hidden_field_tag("nlcanvas_bigdiv", movnumberline.bigdiv)%>
     <%=hidden_field_tag("nlcanvas_"+movnumberline.name, "#{movnumberline.val}")%>
     <%=hidden_field_tag(movnumberline.name, "#{movnumberline.val}")%>
-    <script>
-      setUpNL("nlcanvas", "<%=movnumberline.name%>", false, false, "movinp");
-    </script>
   </div>
 </div>

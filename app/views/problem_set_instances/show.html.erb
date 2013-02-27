@@ -24,18 +24,6 @@
     </div>
   </div>
 
-  <div class="span8" >
-    <div class=jScroll_bboard >
-    <table class=list-box-table>
-      <% @stats.each_slice(3) do |next_3| %>
-        <tr>
-          <% 3.times do |i| %>
-            <td><%= next_3[i].nil? ? "":(render :partial => 'problem_list_box', :object => next_3[i]) %></td>
-          <% end %>
-        </tr>
-      <% end %>
-    </table>
-    </div>
-  </div>
-  <!-- script> $(".jScroll_bboard").jScrollPane({hideFocus:true}); </script-->
+  <%= render :partial => 'shared/list_box_table', 
+             :locals => { :items => @stats, :partial => 'problem_set_instances/problem_list_box' } %>
 </div>
