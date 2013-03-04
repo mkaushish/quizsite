@@ -68,15 +68,22 @@ i.status {
 			}
 		}
 	}
-	.probs_done {
-		background-color:$sg_green;
-	}
-	.percent {
-		background-color:$sg_blue;
-	}
-	.stu_attempted {
-		background-color:$red;
-	}
+}
+
+span.probs_done, span.percent, span.stu_attempted {
+  display:inline-block;
+  position:static;
+  height:7px;
+  width:7px;
+}
+.probs_done {
+  background-color:$sg_green;
+}
+.percent {
+  background-color:$sg_blue;
+}
+.stu_attempted {
+  background-color:$red;
 }
 
 select#problem_set_id {
