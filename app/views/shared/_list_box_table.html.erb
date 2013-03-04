@@ -8,7 +8,7 @@
     <% items.each_slice(3) do |next_3| %>
       <tr>
         <% 3.times do |i| %>
-          <td><%= next_3[i].nil? ? "":(render :partial => partial, :object => next_3[i]) %></td>
+          <td><%= next_3[i].nil? ? "":(render :partial => partial, :object => next_3[i], :as => :item) %></td>
         <% end %>
       </tr>
     <% end %>

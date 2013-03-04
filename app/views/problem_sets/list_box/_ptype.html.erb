@@ -1,0 +1,16 @@
+<% ptype = item %>
+
+<div class="list_box problem_list_box">
+  <p><%= ptype.to_s %></p>
+  <% text = "Add Problem" %>
+  <% un = "un" %>
+  <% alt = "Included" %>
+  <% if !@ptypes_hash[ptype.id].nil? %>
+    <% text = "Included" %>
+    <% un = "" %>
+    <% alt = "Add Problem" %>
+  <% end %>
+
+  <%= link_to text, "#problem_types[#{ptype.id}]", 
+              :class => "checkbox #{un}checked", "data-alt"=> alt %>
+</div>

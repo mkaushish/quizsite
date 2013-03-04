@@ -8,6 +8,8 @@
       options_from_collection_for_select(@problem_sets, 'id', 'name', @problem_set.id),
       { class: 'select' }
     %>
+    <%= link_to "+ Modify", edit_problem_set_path(@problem_set), 
+      :class => "button-blue", :style => 'padding:3px;' %>
   <% end %>
 <% end %>
 

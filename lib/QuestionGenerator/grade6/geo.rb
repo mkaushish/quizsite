@@ -8,6 +8,7 @@ include ToHTML
 include Geometry
 
 module Geo
+  INDEX = 'geo'
   TITLE = "Compass and Straightedge Geometry"
   class BisectLine < QuestionBase
     attr_accessor :x1, :y1, :x2, :y2

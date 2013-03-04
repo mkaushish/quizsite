@@ -9,6 +9,7 @@ include PreG6
 require 'set'
 include ToHTML
 module Chapter9
+  INDEX = 9
   TITLE = "Data Handling"
   class BarQues < QuestionBase
     def initialize

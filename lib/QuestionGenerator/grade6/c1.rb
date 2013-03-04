@@ -9,6 +9,7 @@ include ToHTML
 include PreG6
 
 module Chapter1
+  INDEX = 1
   TITLE = "Knowing our Numbers"
   ROMAN_TABLE = RomanTable.new( [
                                [ 1 , "=", "I" , "", 90  , "=", "XC"],

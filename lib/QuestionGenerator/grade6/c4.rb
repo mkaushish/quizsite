@@ -5,6 +5,7 @@ include ToHTML
 include Geometry
 
 module Chapter4
+  INDEX = 4
   TITLE = "Basic Geometrical Ideas"
 
   def Chapter4.pointsOnLine(m, b, startx, endx, num_points, start_name = "A")

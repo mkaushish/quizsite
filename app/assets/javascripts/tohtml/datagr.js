@@ -381,6 +381,6 @@ function setUpDataGr(cname, tname) {
 
 }
 
-INIT_PROBLEM['datagr'] = function() {
-    setUpDataGr("datacanvas", "table");
-}
+//INIT_PROBLEM['datagr'] = function() {
+//    setUpDataGr("datacanvas", "table");
+//}

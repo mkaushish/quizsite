@@ -10,6 +10,7 @@ include PreG6
 include ToHTML
 
 module Chapter6
+  INDEX = 6
   TITLE = "Integers"
   MAXCOMINT=30
   class CompareIntegers < QuestionBase

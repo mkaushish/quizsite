@@ -1,7 +1,9 @@
 namespace :generate do
   desc "add in the problem_types and default problem_generators for the smarter grades problems"
-  task :problem_types => :environment do
+  task :master_problem_sets => :environment do
     require 'grade6'
+
+    sg = Admin.find_by_email "admin@smartergrades.com"
 
     CHAPTERS.each do |chapter|
       puts "CHAPTER #{chapter::TITLE}"
@@ -36,14 +38,16 @@ namespace :generate do
       end
 
       # Make the chapter problem set, and set it's problem_types to those we've just created
-      problem_set = ProblemSet.find_by_name(chapter::TITLE) || ProblemSet.create(:name => chapter::TITLE)
+      problem_set = ProblemSet.where(name: chapter.to_s, user_id: nil).first || 
+                    ProblemSet.create(:name => chapter::to_s)
+
       problem_set.problem_types = ptypes
 
       print "\tPROBLEM SET for #{problem_set.name}: "
       if problem_set.save
         puts "successfully created"
       else
-        puts "faild: " + problem_set.errors.full_messages
+        puts "failed: " + problem_set.errors.full_messages
       end
     end
   end

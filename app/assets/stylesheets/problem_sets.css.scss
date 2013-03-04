@@ -25,3 +25,7 @@ b.problem_set {
 .incorrect_hist {
 		@include hist_x();
 }
+
+a.checkbox.unchecked {
+  background-color:gray;
+}

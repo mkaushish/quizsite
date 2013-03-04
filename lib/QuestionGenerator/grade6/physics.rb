@@ -13,6 +13,7 @@ include PreG6
 
 SOUNDSPEED=340
 module Physics
+  INDEX = 'phys'
   TITLE = "Physics Questions"
 
   class SingleEchoDist < QuestionWithExplanation

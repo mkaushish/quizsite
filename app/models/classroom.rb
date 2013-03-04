@@ -1,6 +1,6 @@
 class Classroom < ActiveRecord::Base
   attr_accessible :name
-  belongs_to :teacher
+  belongs_to :teacher, class_name: "User"
   has_many :classroom_assignments, :dependent => :destroy
   has_many :students, :through => :classroom_assignments
 

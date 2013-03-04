@@ -16,6 +16,7 @@ class Float
   end
 end
 module CricketQuestions
+  INDEX = 'crqu'
   TITLE = "Cricket Questions"
 
   class CricketSubproblem < Subproblem

@@ -9,6 +9,8 @@ Quizsite::Application.routes.draw do
   end
 =end
 
+  resources :problem_sets, only: [:edit, :create, :update, :destroy]
+
   resources :users do
     member do
       get  'confirm'

@@ -78,7 +78,8 @@ class User < ActiveRecord::Base
   before_save  :encrypt_password
 
   before_create lambda { self.email.downcase! }
-  after_create :add_default_problem_sets
+  # TODO
+  # after_create :assign_class
 
   def self.authenticate(email, submitted_password)
     user = find_by_email(email)
@@ -163,11 +164,11 @@ class User < ActiveRecord::Base
 
   private
 
-  # THIS WILL FAIL IF ONE OF THE PROBLEM SETS HAS ALREADY BEEN ASSIGNED
-  def add_default_problem_sets
-    problem_sets.each do |problem_set|
-      problem_set.assign(self)
+  def assign_class
+    if !@class
+      @class = Classroom.where(:name => "SmarterGrades 6").first
     end
+    @class.assign!(self)
   end
 
   def empty_stats

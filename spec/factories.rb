@@ -5,13 +5,9 @@ FactoryGirl.define do
     "person#{n}@example.com"
   end
 
-  sequence :name do |n|
-    "Abishek #{n}"
-  end
-
   factory :user do
     email
-    name
+    sequence(:name) { |n| "Abishek #{n}" }
     password "mypassword"
     password_confirmation "mypassword"
     after(:build) { |user| user.class.skip_callback(:create, :after, :add_default_problem_sets) }
@@ -28,17 +24,32 @@ FactoryGirl.define do
   factory :teacher, :parent => :user, :class => 'Teacher' do
   end
 
-  sequence :problem_name do |n|
-    "How to make #{n} Math Problem#{n > 1 ? "s":""}"
-  end
-
   factory :problem_type do
-    problem_name
+    sequence(:name) { "ProblemType #{n}" }
   end
 
   factory :quiz_stat do
     user
     problem_type
     remaining 2
+  end
+
+  factory :problem_set_problem do
+    problem_type
+    problem_set
+  end
+
+  factory :problem_set do
+    sequence(:name) { |n| "Chapter#{n}" }
+
+    factory :full_problem_set do 
+      ignore do
+        ptypes_count 5
+      end
+
+      after(:create) do |problem_set, evaluator|
+        FactoryGirl.create_list(:problem_set_problem, evaluator.ptypes_count, problem_set: problem_set)
+      end
+    end
   end
 end

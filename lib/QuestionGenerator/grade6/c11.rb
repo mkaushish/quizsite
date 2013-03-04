@@ -9,6 +9,7 @@ include PreG6
 require 'set'
 include ToHTML
 module Chapter11
+  INDEX = 11
   TITLE = "Algebra"
 
   VARNAMES=["x", "b", "y", "n", "k", "z", "c", "m"] 

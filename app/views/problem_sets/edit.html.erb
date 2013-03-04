@@ -1,3 +1,4 @@
+<%= form_for @problem_set  do |f| %>
 <div class=row-fluid>
   <div class=span4>
     <div class=dotted-border-header>
@@ -14,6 +15,10 @@
   </div>
 
   <%= render :partial => 'shared/list_box_table', 
-             :locals  => { items: @problem_set_problems,
-                           partial: 'problem_sets/list_box_ptype' } %>
+             :locals  => { items: @problem_types,
+                           partial: 'problem_sets/list_box/ptype' } %>
 </div>
+<script>
+  $(function() { $('a.checkbox').checkBox(); }); 
+</script>
+<% end %>
