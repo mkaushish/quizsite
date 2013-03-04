@@ -88,6 +88,13 @@ class TeacherStatCalc
     return @concept_progress
   end
 
+  def attempted_max
+    @attempted_max if !@attempted_max.nil?
+    max = 0
+    concept_progress.each { |stat| max = stat.attempted if stat.attempted > max }
+    @attempted_max = max
+  end
+
   def smart_score(r)
     (r.user_count + 3) * (r.correct + 1.0) / (r.attempted + 1.0)
   end
