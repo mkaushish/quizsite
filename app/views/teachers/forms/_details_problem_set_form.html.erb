@@ -1,5 +1,4 @@
-<%= form_tag(details_problem_set_path, :remote => true, :id => 'pset-form', :class => 'inline-form') do %>
-  <%= hidden_field_tag 'ps_classroom_id', @classroom.id.to_s %> 
+<%= form_tag details_path(@classroom.id), :method => 'get', :class => 'inline-form', :id => 'pset-form' do %>
   <%= label_tag "problem_set_id", "Problem Set" %>
   <% if @problem_sets.empty? %>
     <%= select_tag :problem_set_id, "", disabled: true %>
@@ -9,10 +8,12 @@
       { class: 'select' }
     %>
   <% end %>
+
+  <%= submit_tag "Get Details", :class=>"button-blue" %>
 <% end %>
 
-<script>
+<!-- script>
   $('#problem_set_id').change(function() {
     $(this).parents('form').submit();
   });
-</script>
+</script -->

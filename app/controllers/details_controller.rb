@@ -2,12 +2,12 @@ class DetailsController < ApplicationController
   def details
     @teacher_nav_elts = 'details'
 
-    @classroom = params[:classroom_id].nil? ? current_user.classrooms.first : Classroom.find(params[:classroom_id])
+    @classroom = Classroom.find(params[:id])
     @students  = @classroom.students
 
     @classrooms = current_user.classrooms.includes(:problem_sets)
     @problem_sets = @classroom.problem_sets
-    @problem_set = params[:problem_set].nil? ? @problem_sets.first : ProblemSet.find(params[:problem_set])
+    @problem_set = params[:problem_set_id].nil? ? @problem_sets.first : ProblemSet.find(params[:problem_set_id])
 
     @quiz_history = @classroom.quizzes.where problem_set_id: @problem_set.id
 
@@ -23,6 +23,7 @@ class DetailsController < ApplicationController
     end
 
     @problem_sets = @classroom.problem_sets
+    @problem_set = @problem_sets.first
   end
 
   # POST /details/select_problem_set AJAX

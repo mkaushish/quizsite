@@ -80,7 +80,7 @@ class TeacherStatCalc
 
       r.correct    += stat.correct
       r.attempted  += stat.count
-      r.user_count += 1
+      r.user_count += 1 if stat.count > 0
     end
 
     @concept_progress = ptype_records.values.sort { |r1, r2| smart_score(r1) <=> smart_score(r2) }
