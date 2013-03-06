@@ -7,7 +7,9 @@
 <% end %>
 
 <script>
-  $('#classroom_id').change(function() {
-    $(this).parents('form').submit();
+  $(function() {
+    $('#classroom_id').change(function() {
+      $(this).parent('form').submit();
+    });
   });
 </script>

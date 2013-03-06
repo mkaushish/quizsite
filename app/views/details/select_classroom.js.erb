@@ -1,2 +1,2 @@
-$('#pset-form').html("<%= escape_javascript render(:partial => 'teachers/details_problem_set_form') %>");
+$('#pset-form').replaceWith("<%= j render('teachers/forms/details_problem_set_form') %>");
 

@@ -80,12 +80,19 @@ class TeacherStatCalc
 
       r.correct    += stat.correct
       r.attempted  += stat.count
-      r.user_count += 1
+      r.user_count += 1 if stat.count > 0
     end
 
     @concept_progress = ptype_records.values.sort { |r1, r2| smart_score(r1) <=> smart_score(r2) }
     $stderr.puts @concept_progress.inspect
     return @concept_progress
+  end
+
+  def attempted_max
+    @attempted_max if !@attempted_max.nil?
+    max = 0
+    concept_progress.each { |stat| max = stat.attempted if stat.attempted > max }
+    @attempted_max = max
   end
 
   def smart_score(r)

@@ -24,6 +24,10 @@
   &:first-child {
     left: 20px;
   }
+
+  &.pull-right {
+    margin-right:10px;
+  }
   
   > a {
     font-size: 13px;

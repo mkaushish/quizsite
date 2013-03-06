@@ -4,23 +4,27 @@
   <li id="<%= stat_id %>" class="stat" data-ptype=<%= stat.type.id %> data-classrm=<%= @classroom.id %>>
     <header><%= stat.type %></header>
     <ul>
-      <li>
+      <li data-original-title="<%= "#{stat.attempted} problems done" %>">
         <div class="probs_done"
              data-total="<%= stat.attempted %>"
-             data-percent="<%= stat.attempted_percent %>">
+             data-percent="<%= stat.attempted * 100.0 / @stat_calc.attempted_max %>">
           <%= stat.attempted %>
         </div>
       </li>
-      <li>
-        <div class="percent"
-             data-percent="<%= stat.percent %>">
+      <% if stat.attempted == 0 %>
+      <li data-original-title='No students have attempted this problem'>
+        <div class="percent">
+      <% else %>
+      <li data-original-title="<%= "#{stat.percent} percent avg" %>">
+        <div class="percent" data-percent='<%= stat.percent %>'>
+      <% end %>
           <%= stat.percent %>
         </div>
       </li>
-      <li>
+      <li data-original-title="<%= "#{stat.user_count} / #{@stat_calc.class_size} students have tried" %>">
         <div class="stu_attempted"
              data-total="<%= stat.user_count %>"
-             data-percent="<%= stat.user_count.to_f / @stat_calc.class_size %>"
+             data-percent="<%= stat.user_count.to_f * 100 / @stat_calc.class_size %>"
              data-class-size="<%= @stat_calc.class_size %>">
           <%= stat.user_count %>
         </div>
@@ -32,7 +36,7 @@
 
 <script>
   $(function () {
-    initConceptProgress({class_size: <%= @classroom.students.length %>});
+    initConcepts();
     $('.class_stat_list').jScrollPane({ contentWidth: '0px' });
   })
 </script>
