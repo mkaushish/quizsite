@@ -1,13 +1,5 @@
 // console.log("Checking for problem overlay:");
-var $p = $('#problem_overlay');
-// console.log("found " + $p);
-if($p.length == 0){
- $('body').prepend("<div id=dimmer></div><div id=problem_overlay></div>");
- $p = $('#problem_overlay');
-}
-
+var $p = initProblemOverlay();
 // console.log("rendering problem:");
 $p.html('<%= j(render 'do_problem') %>');
-$p.show();
-$("#dimmer").show();
 initProblem();

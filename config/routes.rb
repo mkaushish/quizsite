@@ -1,14 +1,4 @@
 Quizsite::Application.routes.draw do
-  
-=begin
-  resources :problems do
-    post 'next_subproblem', :on => :collection
-    post 'expand', :on => :member
-    get 'example', :on => :member # although id points to a problem_type
-    get 'explain', :on => :member
-  end
-=end
-
   resources :problem_sets, only: [:edit, :create, :update, :destroy]
 
   resources :users do
@@ -44,6 +34,9 @@ Quizsite::Application.routes.draw do
   get '/:id/explain',          to: 'explanations#explain', as: :explain_problem
   post '/:id/explain/expand',  to: 'explanations#expand', as: :expand
   post '/:id/explain/next',    to: 'explanations#next_subproblem', as: :next_subproblem
+
+  get '/problem_type/:id',  to: 'problem_types#show', as: :problem_type
+  post '/problems/:id/finish', to: 'problems#finish', as: :finish_problem
 
   # teacher views:
   get '/teacherhome',               to: 'teachers#home', as: :teacherhome

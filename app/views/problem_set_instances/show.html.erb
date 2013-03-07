@@ -24,6 +24,10 @@
     </div>
   </div>
 
-  <%= render :partial => 'shared/list_box_table', 
-             :locals => { :items => @stats, :partial => 'problem_set_instances/problem_list_box' } %>
+  <div class=span8>
+    <div class=jScroll_bboard >
+      <%= render :partial => 'shared/list_box_table', 
+        :locals => { :items => @stats, :partial => 'problem_set_instances/problem_list_box' } %>
+    </div>
+  </div>
 </div>
