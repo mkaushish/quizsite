@@ -38,8 +38,8 @@ namespace :generate do
       end
 
       # Make the chapter problem set, and set it's problem_types to those we've just created
-      problem_set = ProblemSet.where(name: chapter.to_s, user_id: nil).first || 
-                    ProblemSet.create(:name => chapter::to_s)
+      problem_set = ProblemSet.where(name: chapter::TITLE, user_id: nil).first || 
+                    ProblemSet.create(:name => chapter::TITLE)
 
       problem_set.problem_types = ptypes
 

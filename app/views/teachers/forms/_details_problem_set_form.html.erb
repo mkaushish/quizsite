@@ -9,9 +9,8 @@
     %>
     <%= link_to "+ Modify", edit_problem_set_path(@problem_set), 
       :class => "button-blue", :style => 'padding:3px;' %>
+    <%= submit_tag "Get Details", :class=>"button-blue", :style => "display:none;" %>
   <% end %>
-
-  <%= submit_tag "Get Details", :class=>"button-blue" %>
 <% end %>
 
 <!-- script>

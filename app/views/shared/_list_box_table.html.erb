@@ -2,15 +2,12 @@
 <%# items: should be the collection %>
 <%# partial: is the partial used to render each element of the collection %>
 <% $stderr.puts "LOCAL_ASSIGNS! "*5, items.inspect %>
-<div class=span8>
-  <div class=jScroll_bboard >
-  <table class=list-box-table>
-    <% items.each_slice(3) do |next_3| %>
-      <tr>
-        <% 3.times do |i| %>
-          <td><%= next_3[i].nil? ? "":(render :partial => partial, :object => next_3[i], :as => :item) %></td>
-        <% end %>
-      </tr>
-    <% end %>
-  </table>
-</div>
+<table class=list-box-table>
+  <% items.each_slice(3) do |next_3| %>
+    <tr>
+      <% 3.times do |i| %>
+        <td><%= next_3[i].nil? ? "":(render :partial => partial, :object => next_3[i], :as => :item) %></td>
+      <% end %>
+    </tr>
+  <% end %>
+</table>

@@ -35,9 +35,12 @@ ul.teacher-class-col {
   margin-bottom:25px;
 }
 
-form.inline-form {
+.inline-form {
   margin-left:20px;
   display: inline-block;
+  &>input[type="text"] {
+    font-size:18px;
+  }
   label {
     display: inline-block;
     font-size:15px;

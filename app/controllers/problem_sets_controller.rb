@@ -1,8 +1,20 @@
 class ProblemSetsController < ApplicationController
   def edit
-    @chapters = ProblemSet.where(user_id: nil)
+    @chapters = ProblemSet.master_sets_with_ptypes
     @problem_set = ProblemSet.find(params[:id])
     @problem_types = @problem_set.problem_types
+
+    # figure out the chapter that is starting out open in the tabs
+    @open_chapter = nil
+    @chapters.each do |chapter|
+      chapter.problem_types.each do |ptype|
+        if ptype.id == @problem_types.first.id
+          @open_chapter = chapter
+        end
+      end
+      break if @open_chapter
+    end
+
     @ptypes_hash = @problem_set.ptypes_hash
   end
 

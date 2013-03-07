@@ -17,11 +17,19 @@ class ProblemSet < ActiveRecord::Base
   has_many :quizzes
   accepts_nested_attributes_for :problem_set_problems, :allow_destroy => true
 
-  before_validation parse_ptype_params
+  before_validation :parse_ptype_params
 
   def assign(user)
     instance = problem_set_instances.build(:user_id => user.id)
     return nil unless instance.save # if they already have an instance of this problem set it won't work
+  end
+
+  def self.master_sets
+    ProblemSet.where("user_id IS NULL")
+  end
+
+  def self.master_sets_with_ptypes
+    ProblemSet.where("user_id IS NULL").includes("problem_types")
   end
 
   def idname

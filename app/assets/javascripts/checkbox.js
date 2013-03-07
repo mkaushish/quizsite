@@ -1,6 +1,6 @@
 (function ($) {
   function name(elt) {
-    return elt.attr('href').substr(1);
+    return elt.attr('data-name')
   }
 
   function hidden_field(elt) {
@@ -45,6 +45,15 @@
     elt.text(tmp);
   }
 
+  function toggle(elt) {
+    if(elt.hasClass("checked")) {
+      uncheck(elt);
+    } else {
+      check(elt);;
+    }
+    swaptext(elt)
+  }
+
   $.fn.checkBox = function(){
     return this.each( function() {
       var $elt = $(this);
@@ -53,14 +62,14 @@
         add_hidden_field($elt);
       }
 
-      $elt.mouseup(function() {
-        if($elt.hasClass("checked")) {
-          uncheck($elt);
-        } else {
-          check($elt);;
-        }
-        swaptext($elt)
+      $elt.css('cursor', 'pointer');
+      $elt.click(function() {
+        toggle($elt)
       });
     });
+  }
+
+  $.fn.checkBoxToggle = function() {
+    toggle(this);
   }
 })($);

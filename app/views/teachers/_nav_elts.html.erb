@@ -1,6 +1,6 @@
 <ul>
   <li><%= link_to "Overview", teacherhome_path %></li>
-
+  <%= yield :nav_elts if content_for?(:nav_elts) %>
 </ul>
 
 <% if @teacher_nav_elts == 'details' && false %>

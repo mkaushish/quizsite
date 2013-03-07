@@ -11,5 +11,8 @@ namespace :oneoffs do
     end
 
     puts "changed user id of problem sets SUCCESS"
+
+    Rake::Task["generate:smartergrades"].invoke
+    Rake::Task["generate:master_problem_sets"].invoke
   end
 end
