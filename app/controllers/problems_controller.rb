@@ -16,15 +16,6 @@ class ProblemsController < ApplicationController
     render 'answers/show'
   end
 
-  def new # CREATES A NEW CUSTOM PROBLEM
-    @custom_problem = Problem.new
-
-    respond_to do |format|
-      format.html # new.html.erb
-      format.json { render json: @custom_problem }
-    end
-  end
-
   def create
     @qb_problem = make_custom_prob_from_params
     # puts @qb_problem.inspect

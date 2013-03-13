@@ -4,6 +4,7 @@
 class ProblemSet < ActiveRecord::Base
   attr_reader :ptype_params # used in initialization
 
+  attr_accessible :name, :ptype_params
   belongs_to :owner, :class_name => 'User', :foreign_key => 'user_id'
   has_many :problem_set_problems
   has_many :problem_types, :through => :problem_set_problems
@@ -49,7 +50,7 @@ class ProblemSet < ActiveRecord::Base
   end
 
   def del_problem_type!(problem_type)
-    ptyps_hash[problem_type.id].delete if ptyps_hash[problem_type.id]
+    ptyps_hash[problem_type.id].delete if ptypes_hash[problem_type.id]
     ptyps_hash[problem_type.id] = nil
   end
 

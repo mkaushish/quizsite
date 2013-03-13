@@ -1,7 +1,11 @@
 class ProblemSetsController < ApplicationController
+  def show
+    @problem_set = ProblemSet.includes(:problem_types).find(params[:id])
+  end
+
   def edit
     @chapters = ProblemSet.master_sets_with_ptypes
-    @problem_set = ProblemSet.find(params[:id])
+    @problem_set = ProblemSet.includes(:problem_types).find(params[:id])
     @problem_types = @problem_set.problem_types
 
     # figure out the chapter that is starting out open in the tabs
@@ -29,12 +33,15 @@ class ProblemSetsController < ApplicationController
       @problem_set = @problem_set.clone_for(current_user)
     end
 
-    @problem_set.update_attributes name: params[:name], 
-                                   ptype_params: params[:problem_types]
+    @problem_set.name = params[:problem_set][:name]
+    @problem_set.problem_types = ProblemType.where(:id => params[:problem_types].keys)
 
     if @problem_set.save
-      redirect_to details_path(id: params["class_id"], problem_set: @problem_set)
+      # TODO make this somehow track the classroom/possibly assign the problem set
+      back_link = details_path
+      render 'show'
     else
+      render 'edit'
     end
   end
 

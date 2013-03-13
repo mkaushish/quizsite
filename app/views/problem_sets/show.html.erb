@@ -1,0 +1,7 @@
+<div class=row>
+  <div style="margin-bottom:20px;">
+    <h3><%= @problem_set.name %></h3>
+  </div>
+  <%= render :partial => 'shared/list_box_table', 
+    :locals  => { items: @problem_set.problem_types, partial: 'problem_sets/list_box/ptype_show', ncols: 4 } %>
+</div>

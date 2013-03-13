@@ -1,3 +1,12 @@
+<% if @problem_set.valid? %>
+  <div class=row>
+    <ul class=errors>
+      <% @problem_set.errors.full_messages.each do |error| %>
+        <li><%= error %></li>
+      <% end %>
+    </ul>
+  </div>
+<% end %>
 <%= form_for @problem_set  do |f| %>
 <div class=row>
   <div class=span4>
@@ -22,7 +31,7 @@
       <% @chapters.each do |chapter| %>
         <div class="tab-pane" id="chap_<%= chapter.id %>">
           <%= render :partial => 'shared/list_box_table', 
-            :locals  => { items: chapter.problem_types, partial: 'problem_sets/list_box/ptype' } %>
+            :locals  => { items: chapter.problem_types, partial: 'problem_sets/list_box/ptype_edit' } %>
         </div>
       <% end %>
     </div>

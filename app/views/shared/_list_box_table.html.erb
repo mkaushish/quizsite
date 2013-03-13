@@ -1,11 +1,13 @@
 <%# LOCALS THAT MUST BE PASSED: %>
 <%# items: should be the collection %>
 <%# partial: is the partial used to render each element of the collection %>
+<%# ncols: defauls to 3 - number of columns %>
+<% ncols ||= 3 %>
 <% $stderr.puts "LOCAL_ASSIGNS! "*5, items.inspect %>
 <table class=list-box-table>
-  <% items.each_slice(3) do |next_3| %>
+  <% items.each_slice(ncols) do |next_3| %>
     <tr>
-      <% 3.times do |i| %>
+      <% ncols.times do |i| %>
         <td><%= next_3[i].nil? ? "":(render :partial => partial, :object => next_3[i], :as => :item) %></td>
       <% end %>
     </tr>
