@@ -25,6 +25,7 @@ class ProblemStat < ActiveRecord::Base
     SELECT "answers".* FROM "answers" 
     WHERE "answers"."user_id" = #{user_id}
     AND "answers"."problem_type_id" = #{problem_type_id}
+    ORDER BY created_at DESC
   } }
 
   def update_w_ans(answer, multiplier = 1.0)

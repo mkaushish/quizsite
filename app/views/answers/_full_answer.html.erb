@@ -17,7 +17,7 @@
 
       <li>
         <%= link_to "Try Another",
-                    problem_set_do_path(:name => @instance.problem_set.id, :pid => @stat.problem_type.id), 
+                    pset_do_path(:name => @instance.problem_set.id, :pid => @stat.problem_type.id), 
                     { :remote => true, :class => 'pull-right button-blue', :id => 'try_another' } %>
       </li>
     </ul>

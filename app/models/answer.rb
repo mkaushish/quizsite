@@ -18,7 +18,7 @@ class Answer < ActiveRecord::Base
   belongs_to :user
 
   belongs_to :problem_generator
-  has_one    :problem_type
+  belongs_to :problem_type
 
   belongs_to :session, :polymorphic => true
 
@@ -39,6 +39,7 @@ class Answer < ActiveRecord::Base
       self.response   = problem.get_packed_response @params
       self.notepad    = (@params["npstr"].empty?) ? nil : @params["npstr"]
       self.problem_generator = problem.problem_generator
+      self.problem_type_id   = problem.problem_generator.problem_type_id
     end
     self
   end
@@ -54,6 +55,6 @@ class Answer < ActiveRecord::Base
   end
 
   def problem_stat
-    ProblemStat.where(:user_id => user_id, :problem_type => problem_type_id)
+    ProblemStat.where(:user_id => user_id, :problem_type_id => problem_type_id).first
   end
 end

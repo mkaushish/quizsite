@@ -6,94 +6,40 @@ class ProblemSetStat < ActiveRecord::Base
   belongs_to :problem_type
 
   belongs_to :problem_set_instance
-  delegate   :user, :to => :problem_set_instance
-
   validates :problem_set_instance, :presence => true
+
+  has_one :user, :through => :problem_set_instance
 
   before_create :assign_problem_stat #, :stop_green_now
 
-  def update!(answer)
-    self.problem_stat = stat.update!(answer)
+  def next_stat
+    stats = problem_set_instance.stats.clone
+    begin
+      stat = stats.shift
+    end while stat.problem_type_id <= problem_type_id
+    stat
+  end
 
-    modify_points(answer.correct)
+  def update_w_ans(answer)
+    stat.points += points_for(answer.correct)
+
+    self.problem_stat = stat.update_w_ans(answer)
+
+    set_multiplier(answer.correct)
 
     change_problem
+  end
 
-    if save
-      self
+  def points_for(correct)
+    if green? || modifier == 0
+      stat.points_for(correct)
     else
-      $stderr.puts errors.full_messages
-      nil
+      (multiplier(correct) * stat.points_for(correct)).round
     end
   end
 
   def last_correct?
     modifier == 1
-  end
-
-  def points_till_green
-    -(points_over_green)
-  end
-
-  def green?
-    stop_green > Time.now
-  end
-
-  def set_yellow
-    self.points_right = 85
-    self.points_wrong = 30
-  end
-
-  def set_yellow!
-    set_yellow
-    return save
-  end
-
-  def color_status
-    if green?
-      'green'
-    else
-      ((points_wrong > 0) || (points_over_green > -450)) ? 'yellow' : 'red'
-    end
-  end
-
-  def points_for(correct)
-    if color_status == 'green'
-      10
-    else
-      (multiplier(correct) * (correct ? points_right : points_wrong)).round
-    end
-  end
-
-  def modify_points(correct)
-    self.points_over_green += points_for(correct)
-
-    if correct
-      self.points_right = (points_right * 1.12)
-      self.points_wrong -= 10
-    else
-      self.points_right -= 10
-      self.points_wrong += 10
-    end
-
-    if points_over_green > 0
-      set_stop_green
-    end
-
-    problem_set_instance.modify_green?(stop_green)
-    set_multiplier(correct)
-
-    self.points_wrong = 0 if points_wrong < 0
-    self.points_wrong = 50 if points_wrong > 50
-    self.points_right = 70 if points_right < 70
-    self.points_right = 500 if points_right > 500
-
-    self
-  end
-
-  def set_stop_green
-    self.stop_green = Time.now + (60*60) * points_over_green
-    self.points_over_green = 0
   end
 
   private
@@ -110,9 +56,5 @@ class ProblemSetStat < ActiveRecord::Base
       else
         1.0
       end
-    end
-
-    def stop_green_now
-      self.stop_green = Time.now
     end
 end

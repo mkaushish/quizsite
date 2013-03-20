@@ -1,14 +1,14 @@
 class ProblemSetInstancesController < ApplicationController
-  # GET /problem_sets/:name
-  # problem_sets_path(:name)
+  # GET /psets/:name
+  # psets_path(:name)
   def show
-    @problem_set = ProblemSet.find(params[:name])
+    @problem_set = ProblemSet.includes(:problem_types).find(params[:name])
     @instance = ProblemSetInstance.where(:problem_set_id => @problem_set.id,
                                          :user_id => current_user.id).first
     @instance ||= current_user.problem_set_instances.new(:problem_set => @problem_set)
     @stats = @instance.stats
     @sessions = []
-    include_history @problem_set
+    @history = current_user.problem_history(@problem_set.problem_types.map(&:id)).limit(11)
   end
 
   def static_do
@@ -58,7 +58,8 @@ class ProblemSetInstancesController < ApplicationController
 
     @instance = @stat.problem_set_instance
     @answer = current_user.answers.create params: params, session: @instance
-    @stat.update!(@answer)
+    @stat.update_w_ans(@answer)
+    @stat.save
 
     @problem = @answer.problem.problem
     @solution = @problem.prefix_solve

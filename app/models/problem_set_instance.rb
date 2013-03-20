@@ -17,28 +17,40 @@ class ProblemSetInstance < ActiveRecord::Base
 
     @tmpstats = []
     # existing stats are for problems a student has already done
-    existing_stats = self.problem_set_stats.includes(:problem_stat).includes(:problem_type)
-                         .sort { |i, j| i.problem_type_id <=> j.problem_type_id }
+    existing_stats = problem_set_stats.includes(:problem_stat).includes(:problem_type)
+                                      .order("problem_type_id ASC")
 
     # we merge these with new stats (without saving them), for problem types that are in the problem set
     # but that the student has yet to attempt
-    all_ptypes = problem_set.problem_types.sort { |i, j| i.id <=> j.id }
+    all_ptypes = problem_types.order("id ASC")
 
-    problem_stats = user.problem_stats.where(:problem_type_id => all_ptypes.map(&:id))
-
+    problem_stats = user.problem_stats
+                        .where(:problem_type_id => all_ptypes.map(&:id))
+                        .order("problem_type_id ASC")
     j, k = 0, 0
     all_ptypes.length.times do |i|
       next_stat = nil
-      if j < existing_stats.length && existing_stats[j].problem_type == all_ptypes[i]
+      # if the stat exists, take it. Else make a new one
+      if j < existing_stats.length && existing_stats[j].problem_type_id == all_ptypes[i].id
+        puts "found existing problem_stat for #{all_ptypes[i]}, #{all_ptypes[i].id}"
         next_stat = existing_stats[j]
         j += 1
       else
+        puts "making a new problem_stat for #{all_ptypes[i]}, #{all_ptypes[i].id}, " + 
+             "current stat for id #{existing_stats[j]}, j = #{j}"
         next_stat = new_stat(all_ptypes[i])
       end
 
-      if k < problem_stats.length && problem_stats[k].problem_type == all_ptypes[i]
+      # if the problem_stat exists, take it too, else assign a new one
+      if k < problem_stats.length && problem_stats[k].problem_type_id == all_ptypes[i].id
+        puts "found problem_stat for problem_type #{all_ptypes[i].name}, " +
+             "#{problem_stats[k].id}"
         next_stat.problem_stat ||= problem_stats[k]
         k += 1
+      else
+        puts "couldn't find problem stat for #{all_ptypes[i].name}, " +
+             "next = #{problem_stats[k].id}, #{problem_stats[k].problem_type_id}, k = #{k}"
+        next_stat.problem_stat = user.problem_stats.new(:problem_type_id => next_stat.problem_type_id)
       end
 
       @tmpstats << next_stat

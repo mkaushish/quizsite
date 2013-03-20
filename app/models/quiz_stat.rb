@@ -19,8 +19,4 @@ class QuizStat < ActiveRecord::Base
     change_problem
     self
   end
-
-  def calculate_points(answer)
-    5
-  end
 end
