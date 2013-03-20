@@ -16,8 +16,10 @@ class Answer < ActiveRecord::Base
   include ApplicationHelper
   belongs_to :problem
   belongs_to :user
+
   belongs_to :problem_generator
-  delegate :problem_type, :to => :problem
+  has_one    :problem_type
+
   belongs_to :session, :polymorphic => true
 
   attr_writer :params
@@ -49,5 +51,9 @@ class Answer < ActiveRecord::Base
     unless @response_hash.nil? || self.response != nil
       self.response = m_pack(@response_hash)
     end
+  end
+
+  def problem_stat
+    ProblemStat.where(:user_id => user_id, :problem_type => problem_type_id)
   end
 end
