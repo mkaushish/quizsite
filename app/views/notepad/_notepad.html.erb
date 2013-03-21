@@ -1,0 +1,21 @@
+<div class="row-fluid notepad">
+  <div class="calculator notepad-column">
+    <%# render 'notepad/form_picker' %>
+    <%= render 'notepad/addition' %>
+    <%# render 'notepad/subtraction' %>
+    <%# render 'notepad/multiplication' %>
+    <%# render 'notepad/division' %>
+  </div>
+
+  <div class="notes notepad-column">
+    <h3>Notes</h3>
+    <div>
+        <canvas id="notepad" height=222px width=346px border=2px>
+        Your browser does not support the HTML5 Canvas feature. This app uses new HTML5 features and will only work on the latest versions of Firefox, Safari or Chrome (and maybe Internet Explorer 9).
+        </canvas>
+      <ul>
+      </ul>
+    </div>
+  </div>
+</div>
+<script> notepad_new(); </script>

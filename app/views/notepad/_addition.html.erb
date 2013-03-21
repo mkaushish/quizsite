@@ -1,0 +1,14 @@
+<h3>Calculator</h3>
+
+<div class='calc-form addition'>
+  <div class=a>
+    <input type=text name="np_num1" id="np_num1">
+  </div>
+  <div class=b>
+    <input type=text name="np_num1" id="np_num2">
+  </div>
+
+  <div class=calculate><%= link_to_function 'Go', 'createAdditionForm()', id: 'calculate', :class => 'button-blue' %></div>
+</div>
+
+<div id=calculations></div>

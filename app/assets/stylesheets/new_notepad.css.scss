@@ -1,14 +1,74 @@
 @import 'mixins_n_colors';
 
-.side-notes {
-  display:inline-block;
-  &> div {
-  }
-  &>.calculations {
-    height:200px;
+$notepad_gap: 40px;
+$calc_w: floor(($problem_w - $notepad_gap) / 3);
+$notes_w: $problem_w - ($notepad_gap + $calc_w);
+$notes_h: 200px;
+
+.notepad {
+  width: $problem_w;
+  div {
+    float:left;
   }
 
-  &>.results {
-    height:150px;
+  h3 {
+    text-align:center;
+    display:block;
+    margin-bottom:20px;
+  }
+}
+
+.notes {
+  width: $notes_w;
+  height: $notes_h;
+  background-color: $llgreen;
+}
+
+$calc_input_width: 65px;
+.calculator {
+  width: $calc_w;
+  margin-right:$notepad_gap;
+
+  input[type="text"] {
+    text-align: right;
+    width:$calc_input_width;
+  }
+
+  input.digit {
+    width:15px;
+    height:15px;
+    font:10px Courier;
+    text-align: center;
+  }
+
+  div.calculate {
+    padding-top:5px;
+    padding-right:3px;
+    text-align:right;
+    a {
+      width:$calc_input_width - 4px; // padding on button-blue
+      text-align:center;
+    }
+  }
+}
+
+$plus_width: 33px;
+
+.calc-form.addition {
+  width:$calc_input_width + $plus_width;
+  margin-left: ($calc_w - ($calc_input_width + $plus_width))/ 2;
+  text-align: left;
+  div {
+    width:$calc_input_width + $plus_width - 3px;
+    text-align: right;
+    padding-bottom:5px;
+    padding-right:3px;
+  }
+
+  div.b {
+    &:before {
+      content:"+ "
+    }
+    border-bottom:2px solid black;
   }
 }
