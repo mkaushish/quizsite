@@ -114,37 +114,47 @@ function notepad_new() {
     context.stroke();
     context.closePath();
   }
-  adding=true;
+
+  var adding = true
+    , subtracting = false
+    , multiplying = false;
   $("#np_add").css("background-color","gray");
-  subtracting=false;
-  multiplying=false;
+
+  var disable_old_form = function() {
+    adding=false;
+    subtracting=false;
+    multiplying=false;
+    $(".tbicons").css("background-color", "white");
+    $("#calc-form").removeClass();
+  }
+
   $("#np_add").click(function(e){
     if(!adding){
+      disable_old_form();
       adding=true;
-      multiplying=false;
-      subtracting=false;
-      $(".tbicons").css("background-color", "white");
       $(this).css("background-color", "gray");
+      $("#calc-form").addClass("addition");
     }
   });
+
   $("#np_sub").click(function(e){
     if(!subtracting){
-      adding=false;
-      multiplying=false;
+      disable_old_form();
       subtracting=true;
-      $(".tbicons").css("background-color", "white");
       $(this).css("background-color", "gray");
+      $("#calc-form").addClass("subtraction");
     }
   });
+
   $("#np_mult").click(function(e){
     if(!multiplying){
-      adding=false;
+      disable_old_form();
       multiplying=true;
-      subtracting=false;
-      $(".tbicons").css("background-color", "white");
       $(this).css("background-color", "gray");
+      $("#calc-form").addClass("multiplication");
     }
   });
+
   $("#cr_opform").click(function(e){
     createform_np();
   });
@@ -191,7 +201,7 @@ function notepad_new() {
     ht+="</tr>\n";
     ht+="<tr>\n";
     for(i=0; i<lt; i++){
-      ht+="<td><input type=text class=linps id=lin"+i+" maxlength=1 style=\"width:15px; height:10px\"></td>\n";
+      ht+="<td><input type=text class='digit linps' id=lin"+i+" maxlength=1></td>\n";
     }
     ht+="</tr>\n";
     ht+="</table>";
@@ -275,13 +285,13 @@ function notepad_new() {
         else {ht+="<td> </td>\n";}
       }
       for(i=0; i<(n1.length+j+1); i++){
-        ht+="<td><input type=text class=inps"+j+" id=in_"+j+"_"+i+" maxlength=1 style=\"width:15px; height:10px\"></td>\n";
+        ht+="<td><input type=text class='digit inps"+j+"' id=in_"+j+"_"+i+" maxlength=1></td>\n";
       }
       ht+="</tr>\n";
     }
     if(n2.length>1){
       for(i=0; i<lt; i++){
-        ht+="<td><input type=text class=inps id=in"+i+" maxlength=1 style=\"width:15px; height:10px\"></td>\n";
+        ht+="<td><input type=text class='digit inps' id=in"+i+" maxlength=1></td>\n";
       }
     }
     ht+="</tr>\n";

@@ -6,3 +6,8 @@ a {
 		text-decoration:none;
 	}
 }
+
+input[type="text"] {
+  border-radius:0;
+  border:1px solid gray;
+}

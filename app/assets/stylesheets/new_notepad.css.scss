@@ -1,7 +1,8 @@
 @import 'mixins_n_colors';
 
 $notepad_gap: 40px;
-$calc_w: floor(($problem_w - $notepad_gap) / 3);
+// $calc_w: floor(($problem_w - $notepad_gap) / 3);
+$calc_w: 270px;
 $notes_w: $problem_w - ($notepad_gap + $calc_w);
 $notes_h: 200px;
 
@@ -24,21 +25,23 @@ $notes_h: 200px;
   background-color: $llgreen;
 }
 
+input.digit {
+  width:15px;
+  height:15px;
+  font:13px Courier;
+  text-align: center;
+}
+
+
 $calc_input_width: 65px;
 .calculator {
+  position:absolute;
   width: $calc_w;
-  margin-right:$notepad_gap;
+  // margin-right:$notepad_gap;
 
   input[type="text"] {
     text-align: right;
     width:$calc_input_width;
-  }
-
-  input.digit {
-    width:15px;
-    height:15px;
-    font:10px Courier;
-    text-align: center;
   }
 
   div.calculate {
@@ -52,9 +55,13 @@ $calc_input_width: 65px;
   }
 }
 
+#calc-form {
+  margin-top:30px;
+}
+
 $plus_width: 33px;
 
-.calc-form.addition {
+@mixin calc-form-norm() { 
   width:$calc_input_width + $plus_width;
   margin-left: ($calc_w - ($calc_input_width + $plus_width))/ 2;
   text-align: left;
@@ -66,9 +73,27 @@ $plus_width: 33px;
   }
 
   div.b {
-    &:before {
-      content:"+ "
-    }
     border-bottom:2px solid black;
+  }
+}
+
+#calc-form.addition {
+  @include calc-form-norm();
+  div.b:before {
+    content:"+ "
+  }
+}
+
+#calc-form.subtraction {
+  @include calc-form-norm();
+  div.b:before {
+    content:"- "
+  }
+}
+
+#calc-form.multiplication {
+  @include calc-form-norm();
+  div.b:before {
+    content:"x "
   }
 }
