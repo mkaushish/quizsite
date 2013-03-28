@@ -1,67 +1,45 @@
-<%= form_for(@custom_problem) do |f| %>
-<div class=row-fluid>
-  <div class=span3>
-    <div class=well>
-      <% all_chapters.each do |chapter| %>
-        <%= radio_button_tag 'chapter', chapter.to_s %>
-        <%= label_tag "chapter_#{chapter.to_s}", chapter.to_s, :style => 'display:inline' %>
-        <br />
-      <% end %>
-    </div>
-  </div>
-  <div class=span9>
-    <% if @custom_problem.errors.any? %>
-      <div id="error_explanation">
-        <h2><%= pluralize(@custom_problem.errors.count, "error") %> prohibited this custom_problem from being saved:</h2>
+<div class=row>
+  <h2>Add a Problem to the Database</h2>
+</div>
+<%= hidden_field_tag :problem_type_id %>
+<div class="field">
+  Problem Text:
+  <%= text_area_tag :problem_text, nil, {:rows => 5, :style => "width:80%;display:block;"} %>
+</div>
+<div class="field">
+  Response Type: 
+  <br/>
+  <%= radio_button_tag 'response', "text", true, :style=>'display:inline' %>
+  <%= label_tag 'response_text', "Text Answer", :style=>'display:inline' %>
 
-        <ul>
-        <% @custom_problem.errors.full_messages.each do |msg| %>
-          <li><%= msg %></li>
-        <% end %>
-        </ul>
-      </div>
-    <% end %>
-
-    <div class="section-header">
-      <%= label_tag :name, "Problem Name:", :style => 'display:inline' %>
-      <%= text_field_tag :name %>
-    </div>
-    <div class="field">
-      <%= label_tag "Problem Text" %>
-      <%= text_area_tag :problem_text %>
-    </div>
-    <div class="field">
-      Response Type: <br />
-      <%= radio_button_tag 'response', "number", :style=>'display:inline' %>
-      <%= label_tag 'response_number', "Numeric Answer", :style=>'display:inline' %>
-
-      <%= radio_button_tag 'response', "text", :style=>'display:inline' %>
-      <%= label_tag 'response_text', "Text Answer", :style=>'display:inline' %>
-
-      <%= radio_button_tag 'response', "multiplechoice", :style=>'display:inline' %>
-      <%= label_tag 'response_multiplechoice', "Multiple Choice Answer", :style=>'display:inline' %>
-    </div>
-    <div>Answer: </div>
-    <div id=answer_number_div style='display:none;'>
-      <%= text_field_tag 'answer_number' %>
-    </div>
-    <div id=answer_text_div style='display:none;'>
-      <%= text_field_tag 'answer_text' %>
-    </div>
-    <div id=answer_multiplechoice_div class=multifield style='display:none;'>
-      <%= hidden_field_tag 'mcq_i', 4 %>
-      <%= link_to raw("<i class='icon-plus'></i> Add another answer option"), '#', :class=>'btn' %>
-      Put the correct answer at the top - the order will be randomized
-      <div><input id='answer_mcq' name='answer_mcq' type=text style='border-color:green;'></div>
-    </div>
-    <br />
-    <div class="actions">
-      <%= f.submit %>
-    </div>
+  <br/>
+  <%= radio_button_tag 'response', "multiplechoice", false, :style=>'display:inline' %>
+  <%= label_tag 'response_multiplechoice', "Multiple Choice Answer", :style=>'display:inline' %>
+</div>
+<div id=answer_text_div class=answer>
+  Answer: note that upper/lower case and extra spaces are ignored.
+  <div class=correct>
+    <%# render_tohtml({}, ToHTML::TextField.new("text_correct")) %>
+    <%= text_field_tag "text_correct", nil, :class => "input-field" %>
   </div>
 </div>
+<div id=answer_multiplechoice_div class=answer style='display:none;'>
+  Answer: Put the correct answer at the top - the order will be randomized.
+  <div class=correct>
+    <%= text_field_tag "mcq_correct", nil, :class => "input-field" %>
+  </div>
+  <div class=incorrect>
+    <% 6.times do |i| %>
+      <%= text_field_tag "mcq_#{i}", nil, :class => "input-field", :style => 'display:inline-block;' %>
+    <% end %>
+  </div>
+</div>
+<br />
+<div class="actions">
+  <%= submit_tag %>
+</div>
 <script>
-  <% qtypes = ['number', 'text', 'multiplechoice'] %>
+  <% qtypes = ['text', 'multiplechoice'] %>
   <% qtypes.each do |qtype| %>
     $('#response_<%= qtype %>').click( function() {
       <% qtypes.each do |qt| %>
@@ -70,25 +48,4 @@
       $('#answer_<%= qtype %>_div').show();
     });
   <% end %>
-
-  function bind_removes() {
-    $('#answer_multiplechoice_div div a').unbind('click');
-    $('#answer_multiplechoice_div div a').click( function() {
-      $(this).parent().remove();
-    });
-  }
-
-  function add_mcq_option() {
-    var i = parseInt($('#mcq_i').attr('value'));
-    $('#answer_multiplechoice_div').append("<div><input id='answer_choice_"+i+"' name='answer_choice_"+i+"' type=text><a href='#'> <i class='icon-remove-sign'></i></a></div>");
-    $('#mcq_i').attr('value', i+1);
-    bind_removes();
-  }
-  $('#answer_multiplechoice_div').children('a').click( function() {
-    add_mcq_option();
-  });
-  bind_removes();
-  for(var i = 0; i < 3; i++) { add_mcq_option(); }
-  $('#response_number').click();
 </script>
-<% end %>

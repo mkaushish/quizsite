@@ -16,11 +16,13 @@ class Problem < ActiveRecord::Base
   has_many :answers
 
   belongs_to :problem_generator
+  belongs_to :user
+
   has_one :problem_type, :through => :problem_generator
 
   attr_writer :problem # so these can be accessible variables in the constructor
 
-  attr_accessible :problem
+  attr_accessible :problem, :user_id
 
   before_save :dump_problem
 

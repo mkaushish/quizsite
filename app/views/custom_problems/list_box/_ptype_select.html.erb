@@ -1,0 +1,8 @@
+<% ptype = item %>
+
+<div class="list_box problem_list_box">
+  <p><%= ptype.to_s %></p>
+
+  <%= link_to "Example", problem_type_path(ptype.id), remote: true %>
+</div>
+<%= link_to_function "Create Problem", "custom_problem_form(#{ptype.id}, \"#{ptype}\")" %>

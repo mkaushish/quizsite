@@ -182,8 +182,6 @@ form div.field_block {
 
 /* }}} */
 
-@import 'mixins_n_colors.css.scss';
-
 @import 'defaults.css.scss';
 @import 'common_classes.css.scss';
 
@@ -193,6 +191,7 @@ form div.field_block {
 @import 'progress_bar.css.scss';
 
 @import 'classrooms.css.scss';
+@import 'custom_problems.css.scss';
 @import 'details.css.scss';
 @import 'nav.css.scss';
 @import 'notepad.css.scss';

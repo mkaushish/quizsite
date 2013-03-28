@@ -1,23 +1,25 @@
 # == Schema Information
 #
 # Table name: answers
-#
-#  id         :integer         not null, primary key
-#  correct    :boolean
-#  problem_id :integer
-#  created_at :datetime
-#  updated_at :datetime
-#  response   :string
-#  user_id    :integer
-#  type       :string
-#
-
+#    boolean  "correct"
+#    integer  "problem_id"
+#    binary   "response"
+#    datetime "created_at"
+#    datetime "updated_at"
+#    integer  "user_id"
+#    float    "time_taken"
+#    string   "notepad"
+#    integer  "problem_generator_id" # I think this is no longer used TODO
+#    integer  "session_id"
+#    string   "session_type"
+#    integer  "problem_type_id"
+#    
 class Answer < ActiveRecord::Base
   include ApplicationHelper
   belongs_to :problem
   belongs_to :user
 
-  belongs_to :problem_generator
+  belongs_to :problem_generator # TODO remove?
   belongs_to :problem_type
 
   belongs_to :session, :polymorphic => true

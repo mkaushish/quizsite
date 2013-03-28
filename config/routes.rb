@@ -1,5 +1,6 @@
 Quizsite::Application.routes.draw do
   resources :problem_sets, only: [:show, :edit, :create, :update, :destroy]
+  resources :custom_problems, except: [:index]
 
   resources :users do
     member do

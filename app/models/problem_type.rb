@@ -18,8 +18,18 @@ class ProblemType < ActiveRecord::Base
 
   def spawn_problem(*args)
     # currently just do the smartergrades problems
-    self.problem_generators.first.spawn(*args)
+    problem_generators.first.spawn(*args)
   end
 
   def to_s() self.name.truncate(43) ; end
+
+  def smartergrades_generator
+    problem_generators.each { |g| return g if !g.klass.nil? }
+    nil
+  end
+
+  def custom_problems_generator
+    problem_generators.each { |g| return g if g.klass.nil? }
+    nil
+  end
 end

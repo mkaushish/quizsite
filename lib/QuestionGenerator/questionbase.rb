@@ -198,15 +198,6 @@ class CustomProblem < Subproblem
   def type ; @name ; end
 end
 
-class CustomProblemNum < CustomProblem
-  def initialize(name, text, soln)
-    mytext = [ ToHTML::TextLabel.new(text),
-              ToHTML::TextField.new('ans') ]
-    mysoln = {'ans' => soln}
-    super(name, mytext, mysoln)
-  end
-end
-
 class CustomProblemText < CustomProblem
   def initialize(name, text, soln)
     mytext = [ ToHTML::TextLabel.new(text),
@@ -220,9 +211,9 @@ class CustomProblemMCQ < CustomProblem
   # resps should be an array of the choices in the answer
   # the 0th element of resps should be the correct answer!
   def initialize(name, text, resps)
-    mytext = [ ToHTML::TextLabel.new(text),
-              ToHTML::RadioButton.new('ans', resps.shuffle.shuffle) ]
     mysoln = {'ans' => resps[0]}
+    mytext = [ ToHTML::TextLabel.new(text),
+               ToHTML::RadioButton.new('ans', resps.shuffle.shuffle) ]
     super(name, mytext, mysoln)
   end
 end

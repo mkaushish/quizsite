@@ -3,8 +3,8 @@ class ProblemStat < ActiveRecord::Base
 
   belongs_to :user
   belongs_to :problem_type
-  has_many :problem_generators, through: :problem_type
-  has_many :answers, through: :problem_generators
+  # has_many :answers, through: :problem_type
+  has_many :problem_generators, through: :problem_type # I think this is unused TODO
 
   has_many :problem_set_stats
   has_many :quiz_stats
