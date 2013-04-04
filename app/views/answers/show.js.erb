@@ -3,9 +3,10 @@ var $p = $('#problem_overlay');
 console.log("found " + $p);
 if($p.length == 0){
   $('body').prepend("<div id=dimmer></div><div id=problem_overlay class=problem_overlay></div>");
- $p = $('#problem_overlay');
+  $p = $('#problem_overlay');
 }
 $("#dimmer").show();
+$("#dimmer").click(hideProblem);
 $("#problem_overlay").show();
 console.log("rendering problem:");
 <%= render 'answers/show' %>

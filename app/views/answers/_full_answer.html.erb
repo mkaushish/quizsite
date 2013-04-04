@@ -1,10 +1,11 @@
-<%= render "problem_set_instances/progress_bar/#{@stat.color_status}" %>
-<%= render 'problem_set_instances/stats' %>
+<%= render "problem_set_instances/progress_bar/#{@stat.color_status}" unless @stat.nil? %>
+<%= render 'problem_set_instances/stats' unless @stat.nil? %>
 
 <div class="row-fluid problem_body">
   <div class="problem_name">
+    <% $stderr.puts @problem.inspect %>
     <h2 class="<%= @answer.correct ? "":"in" %>correct">
-      <%= @stat.problem_type.to_s %>
+      <%= @problem.type %>
     </h2>
 
     <ul class="pull-right horizontal">
@@ -15,11 +16,13 @@
         </li>
       <% end %>
 
-      <li>
-        <%= link_to "Try Another",
-                    pset_do_path(:name => @instance.problem_set.id, :pid => @stat.problem_type.id), 
-                    { :remote => true, :class => 'pull-right button-blue', :id => 'try_another' } %>
-      </li>
+      <% if !@instance.nil? %>
+        <li>
+          <%= link_to "Try Another",
+                      pset_do_path(:name => @instance.problem_set.id, :pid => @stat.problem_type.id), 
+                      { :remote => true, :class => 'pull-right button-blue', :id => 'try_another' } %>
+        </li>
+      <% end %>
     </ul>
   </div>
 

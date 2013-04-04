@@ -7,70 +7,13 @@ class ProblemsController < ApplicationController
   end
 
   def show
-    @problem = Problem.find(params[:id])
+    @db_problem = Problem.find(params[:id])
 
-    @solution = @problem.solve
+    @solution = @db_problem.solve
     @response = @solution
-    @answer = Answer.new(:problem => @problem)
+    @answer = Answer.new(:problem => @db_problem, :correct => true)
+    @problem = @db_problem.problem
     
     render 'answers/show'
-  end
-
-  def create
-    @qb_problem = make_custom_prob_from_params
-    # puts @qb_problem.inspect
-
-    @problem_type = current_user.problem_types.new(:klass => @qb_problem.class, 
-                                                   :name => params[:name] )
-    pt_save = @problem_type.save
-
-    @custom_problem = @problem_type.problems.new(:problem => @qb_problem)
-    cp_save = @custom_problem.save
-
-    respond_to do |format|
-      if cp_save && pt_save 
-        format.html { redirect_to @custom_problem, notice: 'Custom problem was successfully created.' }
-        format.json { render json: @custom_problem, status: :created, location: @custom_problem }
-      else
-        format.html { render action: "new" }
-        format.json { render json: @custom_problem.errors, status: :unprocessable_entity }
-      end
-    end
-  end
-
-  # GET /problems/:ID/example
-  # where :ID is the ProblemType index
-  def example # GIVES YOU AN EXAMPLE PROBLEM OF PTYPE
-    @problem_type = ProblemType.find(params[:id])
-
-    if signed_in?
-      @spawner = current_user.problem_stat(@problem_type)
-    else
-      @spawner = @problem_type
-    end
-
-    @problem = @spanwer.spawn_problem
-    render
-  end
-
-  def make_custom_prob_from_params
-    if params[:response] == 'number'
-      return CustomProblemNum.new(params[:name], params[:problem_text], params[:answer_number])
-
-    elsif params[:response] == 'text'
-      return CustomProblemText.new(params[:name], params[:problem_text], params[:answer_text])
-
-    elsif params[:response] == 'multiplechoice'
-      resps = [ params[:answer_mcq] ]
-
-      params.each_key do |key|
-        resps << params[key] if key =~ /answer_choice/
-      end
-
-      return CustomProblemMCQ.new(params[:name], params[:problem_text], resps)
-
-    else 
-      return nil
-    end
   end
 end
