@@ -1,17 +1,21 @@
 require 'c1'
 class PagesController < ApplicationController
-
-  def fasthome
-    $stderr.puts "!@#" * 30 + "\n#{current_user.class}"
+  def home
+    # $stderr.puts "!@#" * 30 + "\n#{current_user.class}"
     case current_user.class.to_s
     when "Student"
       redirect_to studenthome_path
     when "Teacher"
       redirect_to teacherhome_path
     else 
-      @fastnav = true
       @nav_selected = "home"
     end
+  end
+
+  def what_is_it
+  end
+
+  def about_us
   end
 
   def nologinhome
@@ -24,41 +28,11 @@ class PagesController < ApplicationController
     end
   end
 
-  def features
-    @fastnav = true
-    @title = "Features"
-    @nav_selected = "features"
-    render 'fasthome'
-  end
-
-  def about
-    @fastnav = true
-    @title = "About Us"
-    @nav_selected = "about"
-    render 'fasthome'
-  end
-
-  def exampleprobs
-    @title = "Examples"
-    @nav_selected = "features"
-
-    unless params["problem_id"].nil?
-      @lastproblem = Problem.find(params["problem_id"])
-      @correct = @lastproblem.correct?(params);
-    end
-
-    @problem = Problem.create(:ptype => Chapter1::EstimateArithmetic)
-  end
-
-  def numberline
-    @title = "Number Line"
-    @nav_selected = "features"
-  end
-
   def graph
     @title = "Graph"
     @nav_selected = "features"
   end
+
   def datagr
     @title = "Data Graph"
     @nav_selected = "features"

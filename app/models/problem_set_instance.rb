@@ -12,6 +12,13 @@ class ProblemSetInstance < ActiveRecord::Base
 
   delegate :name, :idname, :to => :problem_set
 
+  # this method prevents the need to create a new problem_set_stat for 
+  # every problem_set a student has access to.  If we're adding in the default
+  # problem sets, the vast majority of problem_set_stats will be for problems
+  # students will never do.  
+  #
+  # This method returns an arry of problem_set_stats which may or may not be in 
+  # the database already = they are either found or created with ActiveRecord#new
   def stats
     # return @tmpstats unless @tmpstats.nil?
 
@@ -48,8 +55,9 @@ class ProblemSetInstance < ActiveRecord::Base
         next_stat.problem_stat ||= problem_stats[k]
         k += 1
       else
-        puts "couldn't find problem stat for #{all_ptypes[i].name}, " +
-             "next = #{problem_stats[k].id}, #{problem_stats[k].problem_type_id}, k = #{k}"
+        # NOTE this "puts" causes an exception currently
+        # puts "couldn't find problem stat for #{all_ptypes[i].name}, " +
+        #      "next = #{problem_stats[k].id}, #{problem_stats[k].problem_type_id}, k = #{k}"
         next_stat.problem_stat = user.problem_stats.new(:problem_type_id => next_stat.problem_type_id)
       end
 

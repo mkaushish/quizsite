@@ -56,26 +56,26 @@ Quizsite::Application.routes.draw do
   #
   # general static pages
   #
-  get '/home',        :to => 'pages#fasthome'
-  get '/features',    :to => 'pages#features'
-  get '/about',       :to => 'pages#about'
+  get '/home',          :to => 'pages#home'
+  get '/what_is_it',    :to => 'pages#what_is_it'
+  get '/about_us',      :to => 'pages#about_us'
+  get '/draw',          :to => 'pages#draw'
   get '/access_denied', :to => 'pages#access_denied'
 
   #
   # static example pages
   #
-  match '/draw',        :to => 'pages#draw', :via => [:get, :post]
-  get '/numberline',    :to => 'pages#numberline'
-  get '/graph',         :to => 'pages#graph'
-  get '/datagr',        :to => 'pages#datagr'
-  get '/bhutan',        :to => 'pages#bhutan'
-  get '/notepad',       :to => 'pages#notepad'
-  get '/measure',       :to => 'pages#measure'
-  get '/dgraph',        :to => 'problem#dgraph'
-  match '/estimate',    :to => 'pages#exampleprobs', :via => [:get, :post]
+  # match '/draw',        :to => 'pages#draw', :via => [:get, :post]
+  # get '/numberline',    :to => 'pages#numberline'
+  # get '/graph',         :to => 'pages#graph'
+  # get '/datagr',        :to => 'pages#datagr'
+  # get '/bhutan',        :to => 'pages#bhutan'
+  # get '/notepad',       :to => 'pages#notepad'
+  # get '/measure',       :to => 'pages#measure'
+  # get '/dgraph',        :to => 'problem#dgraph'
 
   # match '/nologinhome_3dbfabcacc12868a282be76f5d59a19813', :to => 'pages#nologinhome'
-  root                  :to => 'pages#fasthome'
+  root                  :to => 'pages#home'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

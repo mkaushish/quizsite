@@ -98,6 +98,17 @@ $pset_title_m: 200px;
 	}
 }
 
+.correct_w_check {
+  @include has_check();
+}
+.incorrect_w_x {
+  @include has_x();
+}
+.form_error {
+  font-size:14px;
+  @include has_x();
+}
+
 h2 {
 	&.correct { @include has_check(); }
 	&.incorrect { @include has_x(); }

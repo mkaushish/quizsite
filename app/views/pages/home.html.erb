@@ -5,18 +5,22 @@
     <h2>Login</h2>
     <br/>
     <div id="log_in_errors">
+      <% if flash[:error] %>
+        <div class=form_error><%= flash[:error] %></div>
+        <br/>
+      <% end %>
     </div>
-    <%= form_for(:session, {:url => signin_path, :html => {:class => "signin"}, :remote => true}) do |f| %>
+    <%= form_tag(signin_path) do |f| %>
       <div class = "field_block">
-        <%= label_tag "email", "Email or Username" %>
-        <%= f.text_field :email, :placeholder=>"akshat777@gmail.com" %>
+        <%= label_tag "login_email", "Email or Unique ID" %>
+        <%= text_field_tag :login_email, flash[:email], :placeholder=>"akshat777@gmail.com" %>
       </div>
       <div class = "field_block">
-        <%= label_tag "password", "Password" %>
-        <%= f.password_field :password, :placeholder => "*******" %>
+        <%= label_tag "login_password", "Password" %>
+        <%= password_field_tag "login_password", flash[:password], :placeholder => "*******" %>
       </div>
       <div class = "actions">
-        <%= f.submit "Sign in", :class=>"button-blue" %>
+        <%= submit_tag "Sign in", :class=>"button-blue" %>
       </div>
     <% end %>
   </div>
@@ -25,10 +29,6 @@
     <h2>Register</h2>
     <br/>
     <div id="register_errors">
-      <% if flash[:register_errors] %>
-        <% flash[:register_errors].each do |error| %>
-        <% end %>
-      <% end %>
     </div>
     <%= form_tag register_path, :remote => true do |f| %>
       <div class = "field_block">
