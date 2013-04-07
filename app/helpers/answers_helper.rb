@@ -8,6 +8,11 @@ module AnswersHelper
     htmlobj.correct? @solution, @response
   end
 
+  def ans_correct?
+    @answer.correct unless @answer.nil?
+    @correct
+  end
+
   # Takes as input the solution hash from problem.solve, and the InputField,
   # and returns the solution associated with said field in string form
   def field_soln(solnhash, field)
