@@ -1,0 +1,36 @@
+<div class='row-fluid class-overview'>
+  <div class=dotted-border-header>
+    Class <%= classroom.name %> 
+    <%= link_to "Details", details_path(classroom.id) %> 
+    <%= link_to "Grades", "#" %>
+    <div class=class_password>
+      <%= classroom.password %>
+    </div>
+  </div>
+  <div class='dotted-border teacher-class-box' style="height:200px;">
+    <div class=row-fluid>
+      <div class=span4>
+        <ul class='column-list teacher-class-col'>
+          <li class=list-header>Students</li>
+          <% classroom.students.each do |student| %>
+            <li><%= link_to student.name, "#" %></li>
+          <% end %>
+        </ul>
+      </div>
+
+      <div class=span4>
+        <ul class='column-list teacher-class-col'>
+          <li class=list-header>Problem Sets</li>
+          <% classroom.problem_sets.each do |problem_set| %>
+            <li><%= link_to problem_set.name, details_path(id: classroom.id, problem_set: problem_set.id) %></li>
+          <% end %>
+        </ul>
+      </div>
+      <div class=span4>
+        <ul class='column-list teacher-class-col'>
+          <%= render :partial => 'teachers/quiz_history', locals: {quizh_title: 'Quizzes'} %>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>

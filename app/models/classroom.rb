@@ -1,3 +1,5 @@
+require 'digest'
+
 class Classroom < ActiveRecord::Base
   attr_accessible :name
   belongs_to :teacher, class_name: "User"
@@ -8,6 +10,8 @@ class Classroom < ActiveRecord::Base
   has_many :problem_sets, :through => :classroom_problem_sets
 
   has_many :quizzes
+
+  validates :password, :uniqueness => true
 
   def assign!(jimmy)
     if jimmy.is_a?(Student)
@@ -23,5 +27,33 @@ class Classroom < ActiveRecord::Base
       # TODO allow to assign problem sets
       raise "You can only assign a Student to a class, not a #{jimmy.class}"
     end
+  end
+
+  def class_pass
+    self.password ||= new_password
+  end
+
+  # generates a random lowercase alphanumeric password
+  def rand_password
+    num_chars = 7
+    chars = ('a'..'z').to_a + ('0'..'9').to_a
+    n = chars.length
+
+    seed = rand n**num_chars
+    pass = []
+
+    while seed > 1
+      pass << chars[seed % n]
+      seed /= n
+    end
+
+    pass.join
+  end
+
+  def new_password
+    begin
+      self.password = rand_password
+    end while !save
+    password
   end
 end

@@ -11,12 +11,6 @@ class SessionsController < ApplicationController
   end
 
   def create
-    if params[:commit] == "Register"
-      @user = User.new
-      render 'register_as'
-      return
-    end
-
     @email = params[:login_email].downcase
     @pssw = params[:login_password]
     @user = User.find_by_email @email

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130320122201) do
+ActiveRecord::Schema.define(:version => 20130409055656) do
 
   create_table "answers", :force => true do |t|
     t.boolean  "correct"
@@ -66,6 +66,7 @@ ActiveRecord::Schema.define(:version => 20130320122201) do
     t.integer  "teacher_id"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "password"
   end
 
   create_table "delayed_jobs", :force => true do |t|
@@ -142,6 +143,7 @@ ActiveRecord::Schema.define(:version => 20130320122201) do
     t.datetime "created_at"
     t.datetime "updated_at"
     t.integer  "problem_generator_id"
+    t.integer  "user_id"
   end
 
   create_table "quiz_instances", :force => true do |t|
