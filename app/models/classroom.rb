@@ -12,6 +12,8 @@ class Classroom < ActiveRecord::Base
   has_many :quizzes
 
   validates :password, :uniqueness => true
+  validates :name, :presence => true
+  after_create :new_password
 
   def self.smarter_grades
     where(:teacher_id => nil).first

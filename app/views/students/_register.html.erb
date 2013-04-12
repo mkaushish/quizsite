@@ -6,7 +6,7 @@
   <%= render_field_block f, :student, :password, :password_field, {:placeholder => "*******"} %>
   <%= render_field_block f, :student, :password_confirmation, :password_field, {:placeholder => "*******"} %>
   <div class="field_block">
-    <%= label_tag "Class Password" %> <span class=error_block id=class_pass_err></span>
+    <%= label_tag "Class Password: (leave blank to join the demo class)" %> <span class=error_block id=class_pass_err></span>
     <%= text_field_tag :class_pass %>
   </div>
   <div class = "actions">

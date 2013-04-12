@@ -24,14 +24,17 @@ class StudentsController < ApplicationController
     if params[:class_pass].empty?
       classroom = Classroom.smarter_grades
     else
-      classroom.where(:class_pass => params[:class_pass]).first
+      classroom = Classroom.where(:password => params[:class_pass]).first
     end
 
     if classroom.nil?
+      student.delete
       render :js => form_err_js(:class_pass, "Invalid class password")
+      return
     end
 
     classroom.assign!(student)
+    sign_in student
     render :js => "window.location.href = '/'"
   end
 

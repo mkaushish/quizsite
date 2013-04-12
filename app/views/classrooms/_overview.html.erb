@@ -4,7 +4,7 @@
     <%= link_to "Details", details_path(classroom.id) %> 
     <%= link_to "Grades", "#" %>
     <div class=class_password>
-      <%= classroom.password %>
+      <%= classroom.class_pass %>
     </div>
   </div>
   <div class='dotted-border teacher-class-box' style="height:200px;">
@@ -12,23 +12,35 @@
       <div class=span4>
         <ul class='column-list teacher-class-col'>
           <li class=list-header>Students</li>
-          <% classroom.students.each do |student| %>
+          <% if classroom.students.empty? %>
+            <li>Give your students the seven letter / number password in the box above so they can join your online classroom.</li>
+          <% else ; classroom.students.each do |student| %>
             <li><%= link_to student.name, "#" %></li>
-          <% end %>
+          <% end ; end %>
         </ul>
       </div>
 
       <div class=span4>
         <ul class='column-list teacher-class-col'>
-          <li class=list-header>Problem Sets</li>
-          <% classroom.problem_sets.each do |problem_set| %>
+          <li class=list-header>
+            Problem Sets
+            <%= link_to "Assign", "#", :class => 'pull-right' %>
+          </li>
+          <% if classroom.problem_sets.empty? %>
+            <li>The problem sets you assign to a classroom determine which problems a student has access to.</li>
+            <li><%= link_to "Assign", "#" %> your first problem set so your students can start working!</li>
+          <% else ; classroom.problem_sets.each do |problem_set| %>
             <li><%= link_to problem_set.name, details_path(id: classroom.id, problem_set: problem_set.id) %></li>
-          <% end %>
+          <% end ; end %>
         </ul>
       </div>
       <div class=span4>
         <ul class='column-list teacher-class-col'>
-          <%= render :partial => 'teachers/quiz_history', locals: {quizh_title: 'Quizzes'} %>
+          <li class=list-header>
+            Quizzes
+            <%= link_to "Assign", "#", :class => 'pull-right' %>
+          </li>
+          <%= render :partial => 'teachers/quiz_history' %>
         </ul>
       </div>
     </div>

@@ -42,6 +42,7 @@ Quizsite::Application.routes.draw do
 
   # teacher views:
   get '/teacherhome',               to: 'teachers#home', as: :teacherhome
+  post '/teachers', to:'teachers#create', as: :teachers
 
   get  '/details/:id',               to: 'details#details', as: :details
   post '/details_classroom',        to: 'details#select_classroom', as: :details_classroom
