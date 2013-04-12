@@ -13,6 +13,10 @@ class Classroom < ActiveRecord::Base
 
   validates :password, :uniqueness => true
 
+  def self.smarter_grades
+    where(:teacher_id => nil).first
+  end
+
   def assign!(jimmy)
     if jimmy.is_a?(Student)
       $stderr.puts "Assigning Student"

@@ -17,6 +17,7 @@ class TeachersController < ApplicationController
 
     class1 = teacher.classrooms.new name: params[:class_name]
     if !class1.save
+      teacher.delete
       # TODO display errors on form
     end
 

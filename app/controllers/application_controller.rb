@@ -22,4 +22,16 @@ class ApplicationController < ActionController::Base
   def authenticate
     deny_access unless signed_in?
   end
+
+  def form_err_js(id, message)
+    "$('##{id}').addClass('invalid');$('##{id}_err').text(\"#{message}\");"
+  end
+
+  # pref : the prefix for the form - if obj has a name field, it will have id pref_name
+  # obj : the invalid model object you just failed to save/create
+  def form_for_errs(pref, obj)
+    obj.errors.to_hash.to_a.map do |name_err|
+      form_err_js "#{pref}_#{name_err[0]}", name_err[1][0]
+    end.join
+  end
 end

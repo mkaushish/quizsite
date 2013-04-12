@@ -125,4 +125,13 @@ module ApplicationHelper
   def putd(date)
     date.strftime "%e %b %Y"
   end
+
+  # f is the FormBuilder
+  # attribute is the model attribute
+  # field_method is the method of f used to create the form
+  # field_options are the options given to that method
+  def render_field_block(f, klass, attribute, field_method, field_options)
+    render :partial => 'shared/form_field',
+           :locals => {f: f, klass: klass, attr: attribute, type: field_method, opts: field_options}
+  end
 end

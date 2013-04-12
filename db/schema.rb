@@ -69,6 +69,8 @@ ActiveRecord::Schema.define(:version => 20130409055656) do
     t.string   "password"
   end
 
+  add_index "classrooms", ["password"], :name => "index_classrooms_on_password", :unique => true
+
   create_table "delayed_jobs", :force => true do |t|
     t.integer  "priority",   :default => 0
     t.integer  "attempts",   :default => 0

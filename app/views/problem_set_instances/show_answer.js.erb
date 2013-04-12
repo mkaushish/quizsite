@@ -1,5 +1,9 @@
 <% if callback %>
 	<%= render partial: callback %>
 <% end %>
-<%= render 'answers/show' %>
+initProblemOverlay();
+
+// create the problem
+$('#problem_overlay').html('<%= j(render "answers/full_answer") %>');
+initProblem();
 

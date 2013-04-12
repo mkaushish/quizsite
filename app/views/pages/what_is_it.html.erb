@@ -1,6 +1,6 @@
 <div class='m_bottom_1'>
   <h1 style='margin-bottom:10px;'>SmarterGrades is for math teachers and students!</h1>
-  SmarterGrades is a new way to do math homework online.  We are working hard to make life easier for both students and teachers.  SmarterGrades is still in development, but feel free to try it out if you teach or study in the <b>6th grade!</b>
+  SmarterGrades is a new way to do math homework online.  We are working hard to make life easier for both students and teachers.  SmarterGrades <b>free</b> during the beta period, so try it out if you teach or study in the <b>6th grade!</b>
 </div>
 
 <div class='dotted-border m_bottom_1'>
@@ -19,7 +19,7 @@
     Engage individual students by allowing them to work on the problems they need help on, rather than the same ones everyone else is working on.
     </li>
   </ul>
-  <%= link_to "Register as a Teacher", "#", :class => 'button-blue centered' %>
+  <%= link_to_function "Register as a Teacher", "registerTeacher();", :class => 'button-blue centered' %>
 </div>
 
 <div class='dotted-border m_bottom_1'>
@@ -35,6 +35,7 @@
       Our problems make use of apps whenever possible - no more multiple choice!
     </li>
   </ul>
-  <%= link_to "Register as a Student", "#", :class => 'button-blue centered' %>
+  <%= link_to_function "Register as a Student", "registerStudent();", :class => 'button-blue centered' %>
 </div>
 
+<%= render 'users/hidden_registration_forms' %>

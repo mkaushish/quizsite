@@ -1,0 +1,15 @@
+<%= form_for Student.new, :remote => true do |f| %>
+  <h2>Sign Up as as Student</h2>
+  <div class=error_block id=new_student_err></div>
+  <%= render_field_block f, :student, :name, :text_field, {:placeholder => "Akshat Aggarwal"} %>
+  <%= render_field_block f, :student, :email, :text_field, {:placeholder => "akshat777@gmail.com"} %>
+  <%= render_field_block f, :student, :password, :password_field, {:placeholder => "*******"} %>
+  <%= render_field_block f, :student, :password_confirmation, :password_field, {:placeholder => "*******"} %>
+  <div class="field_block">
+    <%= label_tag "Class Password" %> <span class=error_block id=class_pass_err></span>
+    <%= text_field_tag :class_pass %>
+  </div>
+  <div class = "actions">
+    <%= f.submit "Sign Up!", :class=>"button-blue" %>
+  </div>
+<% end %>

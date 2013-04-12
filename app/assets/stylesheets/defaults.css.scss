@@ -32,3 +32,16 @@ ul.disc {
   margin: 9px 0 15px 25px;
   font-size:14px;
 }
+
+h2 {
+  margin-bottom:25px;
+}
+
+.hidden {
+  display:none;
+  height: 0;
+  width:0;
+  overflow:hidden;
+  margin:0;
+  padding:0;
+}

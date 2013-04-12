@@ -22,6 +22,8 @@ Quizsite::Application.routes.draw do
 
   # student views
   get '/studenthome', :to => 'students#home'
+  get '/students/new',:to => 'students#new', :as => :new_student
+  post '/students',   :to => 'students#create', :as => :students
 
   get '/psets/:name', :to => 'problem_set_instances#show', :as => :pset
   get '/psets/:name/do/:pid', :to => 'problem_set_instances#do', :as => :pset_do
