@@ -56,6 +56,10 @@ Quizsite::Application.routes.draw do
 
   post '/:classroom/:quiz/assign'
 
+  # :id => classroom id
+  get '/assign_pset/:id', to: 'classrooms#assign_pset', as: :assign_pset
+  get '/assign_quiz/:id', to: 'classrooms#assign_quiz', as: :assign_pset
+
   #
   # general static pages
   #
