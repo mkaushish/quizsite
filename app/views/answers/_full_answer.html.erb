@@ -4,7 +4,7 @@
 <div class="row-fluid problem_body">
   <div class="problem_name">
     <% $stderr.puts @problem.inspect %>
-    <h2 class="<%= @answer.correct ? "":"in" %>correct">
+    <h2 class="<%= ans_correct? ? "":"in" %>correct">
       <%= @problem.type %>
     </h2>
 
