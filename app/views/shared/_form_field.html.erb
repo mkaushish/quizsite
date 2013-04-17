@@ -1,0 +1,8 @@
+<div class = "field_block">
+  <div>
+    <%= f.label attr, attr.to_s.capitalize+":" %>
+    <span class=error_block id=<%= "#{klass}_#{attr}" %>_err></span> 
+  </div>
+  <%# the form element itself %>
+  <%= f.send(type, attr, opts) %>
+</div>

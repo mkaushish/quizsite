@@ -69,7 +69,7 @@ module SessionsHelper
   end
 
   def deny_access
-    redirect_to root_path, :notice => "Please sign in to access this page"
+    redirect_to access_denied_path, :notice => "Please sign in to access this page"
   end
 
   # USER QUIZ RELATED

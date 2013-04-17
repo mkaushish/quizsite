@@ -59,7 +59,7 @@ $calc_input_width: 65px;
   margin-top:30px;
 }
 
-$plus_width: 33px;
+$plus_width: 40px;
 
 @mixin calc-form-norm() { 
   width:$calc_input_width + $plus_width;

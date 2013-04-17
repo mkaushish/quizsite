@@ -8,6 +8,8 @@ function hideExplanation(){
 		'<a class="button-blue" id="see_explanation" href="#" ' +
 		'onclick="showExplanation(); return false;">See Explanation</a>'
 		);
+  initProblem();
+  closeWithDimmer();
 }
 
 function showExplanation(){
@@ -17,4 +19,6 @@ function showExplanation(){
 		'<a class="button-blue" id="hide_explanation" href="#" ' +
 		'onclick="hideExplanation(); return false;">Stop Explanation</a>'
 		);
+  initProblem();
+  closeWithDimmer();
 }

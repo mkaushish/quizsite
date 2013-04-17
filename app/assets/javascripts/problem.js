@@ -2,7 +2,19 @@ function hideProblem() {
   $('#dimmer').unbind('click');
 
   $('#problem_overlay').hide();
-  $('#dimmer').hide();
+  // $('#dimmer').hide();
+  $('#dimmer').remove();
+  return false;
+}
+
+function closeWithDimmer(overlay) {
+  var dimmer = $("#dimmer");
+  if(dimmer.length > 0) {
+    dimmer.remove();
+  }
+  $('body').prepend("<div id=dimmer onclick='hideProblem();'></div>");
+  $('#dimmer').show();
+  // $('#dimmer').click(hideProblem);
 }
 
 function initProblemOverlay() {
@@ -20,7 +32,6 @@ function initProblemOverlay() {
   }
 
   $p.show();
-  dimmer.show();
-  dimmer.click(hideProblem);
+  closeWithDimmer();
   return $p;
 }

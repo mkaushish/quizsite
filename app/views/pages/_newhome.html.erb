@@ -1,61 +1,59 @@
-
-<div id=home class=staticpage>
+<div id=home>
   <div class=row>
 
   <div class="span6"> 
-    <h4>Login</h4>
-    <br></br>
-    <div id="log_in_form" style="font-family:SansSerif">
-      <div id="log_in_errors">
-      </div>
-      <%= form_for(:session, {:url => signin_path, :html => {:class => "signin"}, :remote => true}) do |f| %>
-        <div class = "field_block">
-          <%= label_tag "email", "Email or Username" %>
-          <%= f.text_field :email, :placeholder=>"akshat777@gmail.com" %>
-        </div>
-        <div class = "field_block">
-          <%= label_tag "password", "Password" %>
-          <%= f.password_field :password, :placeholder => "*******" %>
-        </div>
-        <div class = "actions">
-          <%= f.submit "Sign in", :class=>"button-blue" %>
-        </div>
-      <% end %>
+    <h2>Login</h2>
+    <br/>
+    <div id="log_in_errors">
     </div>
+    <%= form_for(:session, {:url => signin_path, :html => {:class => "signin"}, :remote => true}) do |f| %>
+      <div class = "field_block">
+        <%= label_tag "email", "Email or Username" %>
+        <%= f.text_field :email, :placeholder=>"akshat777@gmail.com" %>
+      </div>
+      <div class = "field_block">
+        <%= label_tag "password", "Password" %>
+        <%= f.password_field :password, :placeholder => "*******" %>
+      </div>
+      <div class = "actions">
+        <%= f.submit "Sign in", :class=>"button-blue" %>
+      </div>
+    <% end %>
   </div>
 
   <div class="span6"> 
-    <h4>Register</h4>
-    <br></br>
-    <div id="register_form" style="font-family:SansSerif">
-      <div id="register_errors">
-      </div>
-      <%= form_tag register_path, :remote => true do |f| %>
-        <div class = "field_block">
-          <%= label_tag "reg_name", "Name" %>
-          <%= text_field_tag "reg_name", nil, :placeholder=>"Akshat Aggarwal" %>
-        </div>
-        <div class = "field_block">
-          <%= label_tag "reg_email", "Email or unique ID" %>
-          <%= text_field_tag "reg_email", nil, :placeholder=>"akshat777@gmail.com" %>
-        </div>
-        <div class = "field_block">
-          <%= label_tag "reg_password", "Password" %>
-          <%= password_field_tag "reg_password", nil, :placeholder => "*******" %>
-        </div>
-        <div class = "field_block">
-          <%= label_tag "reg_password_confirmation", "Password Confirmation" %>
-          <%= password_field_tag "reg_password_confirmation", nil, :placeholder => "*******" %>
-        </div>
-        <div class="field_block">
-          <%= label_tag "class_pass", "Class Password" %>
-          <%= password_field_tag "class_pass" %>
-        </div>
-        <div class = "actions">
-          <%= submit_tag "Register", :class=>"button-blue" %>
-        </div>
+    <h2>Register</h2>
+    <br/>
+    <div id="register_errors">
+      <% if flash[:register_errors] %>
+        <% flash[:register_errors].each do |error| %>
+        <% end %>
       <% end %>
     </div>
+    <%= form_tag register_path, :remote => true do |f| %>
+      <div class = "field_block">
+        <%= label_tag "reg_name", "Name" %>
+        <%= text_field_tag "reg_name", nil, :placeholder=>"Akshat Aggarwal" %>
+      </div>
+      <div class = "field_block">
+        <%= label_tag "reg_email", "Email or unique ID" %>
+        <%= text_field_tag "reg_email", nil, :placeholder=>"akshat777@gmail.com" %>
+      </div>
+      <div class = "field_block">
+        <%= label_tag "reg_password", "Password" %>
+        <%= password_field_tag "reg_password", nil, :placeholder => "*******" %>
+      </div>
+      <div class = "field_block">
+        <%= label_tag "reg_password_confirmation", "Password Confirmation" %>
+        <%= password_field_tag "reg_password_confirmation", nil, :placeholder => "*******" %>
+      </div>
+      <div class="field_block">
+        <%= label_tag "class_pass", "Class Password" %>
+        <%= password_field_tag "class_pass" %>
+      </div>
+      <div class = "actions">
+        <%= submit_tag "Register", :class=>"button-blue" %>
+      </div>
+    <% end %>
   </div>
-</div>
 </div>

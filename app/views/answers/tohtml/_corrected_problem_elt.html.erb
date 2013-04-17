@@ -1,5 +1,5 @@
 <% elt = corrected_problem_elt %>
-<% if @answer.correct %>
+<% if ans_correct? %>
   <%= render_tohtml(local_assigns.merge(response:@response), elt) %>
 
 <% elsif elt.contains_response_and_soln? %>

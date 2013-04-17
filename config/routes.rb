@@ -24,6 +24,8 @@ Quizsite::Application.routes.draw do
 
   # student views
   get '/studenthome', :to => 'students#home'
+  get '/students/new',:to => 'students#new', :as => :new_student
+  post '/students',   :to => 'students#create', :as => :students
 
   get '/psets/:name', :to => 'problem_set_instances#show', :as => :pset
   get '/psets/:name/do/:pid', :to => 'problem_set_instances#do', :as => :pset_do
@@ -42,6 +44,7 @@ Quizsite::Application.routes.draw do
 
   # teacher views:
   get '/teacherhome',               to: 'teachers#home', as: :teacherhome
+  post '/teachers', to:'teachers#create', as: :teachers
 
   get  '/details/:id',               to: 'details#details', as: :details
   post '/details_classroom',        to: 'details#select_classroom', as: :details_classroom
@@ -58,26 +61,26 @@ Quizsite::Application.routes.draw do
   #
   # general static pages
   #
-  get '/home',        :to => 'pages#fasthome'
-  get '/features',    :to => 'pages#features'
-  get '/about',       :to => 'pages#about'
+  get '/home',          :to => 'pages#home'
+  get '/what_is_it',    :to => 'pages#what_is_it'
+  get '/about_us',      :to => 'pages#about_us'
+  get '/draw',          :to => 'pages#draw'
   get '/access_denied', :to => 'pages#access_denied'
 
   #
   # static example pages
   #
-  match '/draw',        :to => 'pages#draw', :via => [:get, :post]
-  get '/numberline',    :to => 'pages#numberline'
-  get '/graph',         :to => 'pages#graph'
-  get '/datagr',        :to => 'pages#datagr'
-  get '/bhutan',        :to => 'pages#bhutan'
-  get '/notepad',       :to => 'pages#notepad'
-  get '/measure',       :to => 'pages#measure'
-  get '/dgraph',        :to => 'problem#dgraph'
-  match '/estimate',    :to => 'pages#exampleprobs', :via => [:get, :post]
+  # match '/draw',        :to => 'pages#draw', :via => [:get, :post]
+  # get '/numberline',    :to => 'pages#numberline'
+  # get '/graph',         :to => 'pages#graph'
+  # get '/datagr',        :to => 'pages#datagr'
+  # get '/bhutan',        :to => 'pages#bhutan'
+  # get '/notepad',       :to => 'pages#notepad'
+  # get '/measure',       :to => 'pages#measure'
+  # get '/dgraph',        :to => 'problem#dgraph'
 
   # match '/nologinhome_3dbfabcacc12868a282be76f5d59a19813', :to => 'pages#nologinhome'
-  root                  :to => 'pages#fasthome'
+  root                  :to => 'pages#home'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

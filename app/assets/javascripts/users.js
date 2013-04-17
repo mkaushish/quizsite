@@ -1,19 +1,19 @@
-$(document).ready(function () {
-  //alert("bindings getting set!")
-  //$('.disable-on-click').click(function(e) { disable_forms.call(this) });
-});
+function registerAs(id) {
+  initProblemOverlay();
+  $('#dimmer').attr('onclick', '');
+  $('#dimmer').click(function() {
+    $('#new_'+id).appendTo('#hidden_registration_forms');
+    hideProblem();
+  });
 
-//function disable_forms() {
-//  setTimeout(function() {
-//    alert($(this) + " got bound correctly!")
-//    $('#' + $(this).attr('data-target' + " input")).attr("disabled", true);
-//    $(this).attr("disabled", true);
-//  }, 100); // wait half a second?
-//}
-//function enable_disabled_forms() {
-//  //alert("hey i'm being reenabled");
-//  $('.disable-on-click').each(function(index, e) {
-//    $('#' + $(this).attr('data-target' + " input")).removeAttr("disabled");
-//    $(this).removeAttr("disabled");
-//  });
-//}
+  $('#problem_overlay').html('');
+  $('#new_'+id).appendTo('#problem_overlay');
+}
+
+function registerStudent() {
+  registerAs('student');
+}
+
+function registerTeacher() {
+  registerAs('teacher');
+}

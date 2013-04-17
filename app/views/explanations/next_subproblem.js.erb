@@ -1,6 +1,16 @@
+// scroll down
+var last_subproblem = $('.sub-problem.active')
+  , overlay = $('#problem_overlay');
+
+overlay.scrollTop(last_subproblem.outerHeight() + overlay.scrollTop());
+
+// add in new active problem element
 $('.sub-problem').removeClass('active');
 $('#<%= @i.prev_i %>').html('<%= j(render "answers/answer_body") %>');
 <% @problem = @i.cur %>
 $('#next_subproblem').before('<%= j(render "subproblem_form") %>');
+initProblem();
+
+// reset values we track
 $('#i').attr('value', <%= @i.to_id %>)
 $('#attempts').attr('value', 0);
