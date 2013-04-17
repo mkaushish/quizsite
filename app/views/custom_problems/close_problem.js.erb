@@ -1,0 +1,5 @@
+hide_custom_problem_form();
+$('#custom_problems_message').html("You successfully created a problem for " +
+    '<%= j(link_to @problem_type.name, 
+                   problem_path(@custom_problem.id), 
+                   remote: true) %>');

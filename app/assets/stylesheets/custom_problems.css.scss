@@ -1,3 +1,22 @@
 // Place all the styles related to the CustomProblems controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+#custom_problem_form {
+  h2:first-of-type {
+    margin-top: 30px;
+  }
+
+  input, textarea {
+    margin-left:20px;
+    margin-top:8px;
+  }
+
+  div.answer {
+    height: 138px;
+  }
+}
+
+#custom_problems_message {
+  height:27px;
+  margin:0 0 5px 0;
+}

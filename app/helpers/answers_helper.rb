@@ -9,8 +9,7 @@ module AnswersHelper
   end
 
   def ans_correct?
-    @answer.correct unless @answer.nil?
-    @correct
+    !@answer.nil? ? @answer.correct : @correct
   end
 
   # Takes as input the solution hash from problem.solve, and the InputField,

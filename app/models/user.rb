@@ -1,17 +1,3 @@
-# == Schema Information
-#
-# Table name: users
-#
-#  id                 :integer         not null, primary key
-#  name               :string
-#  email              :string
-#  perms              :string
-#  created_at         :datetime
-#  updated_at         :datetime
-#  encrypted_password :string
-#  salt               :string
-#
-
 #Copyright (c) 2010 Michael Hartl
 #
 #   Permission is hereby granted, free of charge, to any person
@@ -54,6 +40,7 @@ class User < ActiveRecord::Base
   attr_accessible :email, :name, :password, :password_confirmation, :notepad
   serialize :problem_stats, Hash
 
+  has_many :custom_problems, :class_name => 'Problem'
   has_many :answers, :dependent => :destroy
   has_many :quiz_instances, :dependent => :destroy
   has_many :quizzes, :through => :quiz_instances
@@ -78,8 +65,6 @@ class User < ActiveRecord::Base
   before_save  :encrypt_password
 
   before_create lambda { self.email.downcase! }
-  # TODO
-  # after_create :assign_class
 
   def self.authenticate(email, submitted_password)
     user = find_by_email(email)
@@ -163,13 +148,6 @@ class User < ActiveRecord::Base
   end
 
   private
-
-  def assign_class
-    if !@class
-      @class = Classroom.where(:name => "SmarterGrades 6").first
-    end
-    @class.assign!(self)
-  end
 
   def empty_stats
     { :count => 0, :correct => 0 }

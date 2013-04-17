@@ -9,10 +9,13 @@ $problem_top_m: 0;
 	height:100%;
 	background-color:gray;
 	opacity:0.9;
+  display:none;
+  top:0;
 }
-#problem_overlay {
+.problem_overlay {
 	z-index:20;
 	position: fixed;
+  top:0;
 	overflow-y:auto;
 	overflow-x:hidden;
 	left:50%;
@@ -24,6 +27,7 @@ $problem_top_m: 0;
 	background-size: 100% 100%;
 	border-left:1px solid gray;
 	border-right:1px solid gray;
+  display:none;
 }
 
 $pset_title_m: 200px;

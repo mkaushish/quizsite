@@ -1,24 +1,22 @@
+# A ProblemGenerator spawns a problem for a student to do
+# Currently each problem type has both
+#   a smartergrades problem generator for QuestionBase generated questions
+#   a custom question generator for user input questions
+#
+# Consists of
+#   int     problem_type_id
+#   string  klass  # null and unnecessary for custom QGs
+#
 class ProblemGenerator < ActiveRecord::Base
-  attr_reader :custom_problem
+  has_many  :problems
+  has_many  :answers
 
   belongs_to :problem_type
-  has_many :problems
-
-  validates :problem_type, :presence => true
-
-  # If the generator is for a custom problem, only have one problem, and NO KLASS HERE 
-  # (can still find which CustomProblemType from self.problems.first, but won't ever need it anyway)
-  # Elsif it's for QuestionBase problems, klass name must be there, and we generate a new one every time
-  # validates :klass, :presence => true, :unless => :custom?
-
-
-  # Generate the custom problems if necessary
-  before_create { raise "you need to supply the Problem for custom ProblemGenerators" if(klass.nil? && !(@custom_problem < CustomProblem)) }
-  after_create  { self.problems.create(:problem => @custom_problem) if klass.nil? }
+  validates  :problem_type, :presence => true
 
   def spawn(*args)
     if custom?
-      return self.problems.first
+      problems[rand(problems.length)]
     else
       return self.problems.create(:problem => klass.constantize.new(*args))
     end
