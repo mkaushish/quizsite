@@ -22,7 +22,7 @@
     </div>
     <div class=span6>
       <%= fields_for :classroom do |f_c| %>
-        <%= f_c.label :name, "Your First Classroom" %> <div class=error_block id=teacher_name_err></div>
+        <%= f_c.label :name, "Your First Classroom" %> <div class=error_block id=classroom_name_err></div>
         <%= f_c.text_field :name, :placeholder => '6a' %>
       <% end %>
     </div>
