@@ -5,7 +5,7 @@ gem 'rails', '3.2.11'
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
-gem 'sqlite3'
+
 gem 'therubyracer'
 
 # gems in just test and dev environments
@@ -18,7 +18,7 @@ group :test, :development do
 end
 
 group :development do
-	gem 'annotate', :git => 'git://github.com/ctran/annotate_models.git'
+	#gem 'annotate', :git => 'git://github.com/ctran/annotate_models.git'
   gem 'guard-livereload'
   gem 'rails-dev-tweaks', '~> 0.6.1'
 end
@@ -32,10 +32,8 @@ group :development, :production do
   # gem 'foreman'
 end
 
-# heroku uses postgresssql
-group :production do
-  gem 'pg'
-end
+gem 'pg'
+
 
 
 # Gems used only for assets and not required

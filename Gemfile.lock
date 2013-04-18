@@ -1,12 +1,4 @@
 GIT
-  remote: git://github.com/ctran/annotate_models.git
-  revision: 1340635ff0d6eb80f5b6815010b52dac0be0765c
-  specs:
-    annotate (2.6.0.beta1)
-      activerecord (>= 2.3.0)
-      rake (>= 0.8.7)
-
-GIT
   remote: git://github.com/jnicklas/capybara.git
   revision: 6ee24542406a25bf746b16428ff16f95ecc5ec7c
   specs:
@@ -179,7 +171,6 @@ GEM
       multi_json (~> 1.0)
       rack (~> 1.0)
       tilt (~> 1.1, != 1.3.0)
-    sqlite3 (1.3.6)
     therubyracer (0.11.1)
       libv8 (~> 3.11.8.7)
       ref
@@ -202,7 +193,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  annotate!
   capybara!
   coffee-rails (~> 3.2.1)
   database_cleaner
@@ -217,7 +207,6 @@ DEPENDENCIES
   rails-dev-tweaks (~> 0.6.1)
   rspec-rails
   sass-rails (~> 3.2.3)
-  sqlite3
   therubyracer
   turn
   uglifier (>= 1.0.3)
