@@ -24,7 +24,7 @@ class StudentsController < ApplicationController
     if params[:class_pass].empty?
       classroom = Classroom.smarter_grades
     else
-      classroom = Classroom.where(:password => params[:class_pass]).first
+      classroom = Classroom.find_by_password(params[:class_pass])
     end
 
     if classroom.nil?

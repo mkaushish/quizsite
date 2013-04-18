@@ -21,6 +21,7 @@ group :development do
 	gem 'annotate', :git => 'git://github.com/ctran/annotate_models.git'
   gem 'guard-livereload'
   gem 'rails-dev-tweaks', '~> 0.6.1'
+  gem 'thin'
 end
 
 group :development, :production do
