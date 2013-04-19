@@ -21,6 +21,7 @@ group :development do
 	#gem 'annotate', :git => 'git://github.com/ctran/annotate_models.git'
   gem 'guard-livereload'
   gem 'rails-dev-tweaks', '~> 0.6.1'
+  gem 'thin'
 end
 
 group :development, :production do
@@ -53,7 +54,7 @@ gem 'jquery-rails', '~> 2.0.2'
 # gem 'capistrano'
 
 # To use debugger
-# gem 'ruby-debug19', :require => 'ruby-debug'
+ gem 'debugger'
 
 group :test do
   # Pretty printed test output
