@@ -35,6 +35,10 @@ class Problem < ActiveRecord::Base
     @problem ||= m_unpack self.serialized_problem
   end
 
+  def question_base
+    return problem
+  end
+
   def ptype
     @ptype ||= problem.class
   end
