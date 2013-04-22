@@ -5,13 +5,17 @@
         <%= render_field_block f, :student, :email, :text_field, {:placeholder => "akshat777@gmail.com"} %>
         <%= render_field_block f, :student, :password, :password_field, {:placeholder => "*******"} %>
         <%= render_field_block f, :student, :password_confirmation, :password_field, {:placeholder => "*******"} %>
+        <%= label_tag "Upload your Image:" %>
+        <%= f.file_field :image %>
     <div class="field_block">
         <%= label_tag "Class Password: (leave blank to join the demo class)" %> 
         <span class="error_block" id="class_pass_err"></span>
         <%= text_field_tag :class_pass %>
     </div>
-    <div class="field_block">
-        <%= f.file_field :image %>
+   
+        
+        
+        
     <div class = "actions">
         <%= f.submit "Sign Up!", :class=>"button-blue" %>
     </div>

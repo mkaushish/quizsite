@@ -79,7 +79,9 @@ class UsersController < ApplicationController
       email: params[:reg_email],
       password: params[:reg_password],
       password_confirmation: params[:reg_password_confirmation]
+
       )
+    debugger
     user.confirmed = true
 
     classroom = nil

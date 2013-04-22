@@ -196,7 +196,6 @@ ActiveRecord::Schema.define(:version => 20130422053811) do
     t.datetime "updated_at"
     t.string   "encrypted_password"
     t.string   "salt"
-    t.binary   "problem_stats"
     t.string   "confirmation_code"
     t.boolean  "confirmed",          :default => false
     t.string   "type"

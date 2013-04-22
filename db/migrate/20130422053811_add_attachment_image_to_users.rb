@@ -3,6 +3,7 @@ class AddAttachmentImageToUsers < ActiveRecord::Migration
     change_table :users do |t|
       t.attachment :image
     end
+    remove_column :users, :problem_stats
   end
 
   def self.down
