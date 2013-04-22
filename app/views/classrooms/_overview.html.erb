@@ -11,7 +11,12 @@
     <div class=row-fluid>
       <div class=span4>
         <ul class='column-list teacher-class-col'>
-          <li class=list-header>Students</li>
+          <li class=list-header>
+            Students 
+            <div class="pull-right">
+            <%= classroom.students.count unless classroom.students.empty? %>
+            </div>
+          </li>
           <% if classroom.students.empty? %>
             <li>Give your students the seven letter / number password in the box above so they can join your online classroom.</li>
           <% else ; classroom.students.each do |student| %>
