@@ -7,8 +7,8 @@ namespace :generate do
                        password: "H@iR0f&",
                        password_confirmation: "H@iR0f&")
 
-    if sg.classrooms.empty?
-      sg.classrooms.create name: "SmarterGrades 6"
+    if Classroom.smarter_grades.nil?
+      Classroom.create name: "SmarterGrades 6"
     end
 
     puts "smartergrades user and grade 6 class are in the database"
