@@ -62,7 +62,7 @@ class User < ActiveRecord::Base
                        :confirmation => true,
                        :length => { :within => 6..40 }
 
-  has_attached_file :image, :styles => { :medium => "300x300>", :thumb => "68x68>" }, :default_url => "/assets/users_sticker.png"
+  has_attached_file :image, :styles => { :medium => "300x300>", :thumb => "70x70>", :small => "40x40>" }, :default_url => "/assets/default_70x70.png"
 
   before_save  :encrypt_password
 

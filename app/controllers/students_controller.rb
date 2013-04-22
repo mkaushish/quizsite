@@ -4,6 +4,7 @@ class StudentsController < ApplicationController
   def home
     @student = current_user
     @pset_instances = @student.problem_set_instances.includes(:problem_set)
+    @student_class_name = @student.classroom_assignments.first.classroom.name
   end
 
   def new
