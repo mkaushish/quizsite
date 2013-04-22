@@ -7,7 +7,7 @@ gem 'rails', '3.2.11'
 
 
 gem 'therubyracer'
-
+gem "paperclip", "~> 3.0"
 # gems in just test and dev environments
 group :test, :development do
 	gem 'rspec-rails'
