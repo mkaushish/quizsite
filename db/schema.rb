@@ -11,7 +11,8 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130409055656) do
+
+ActiveRecord::Schema.define(:version => 20130422053811) do
 
   create_table "answers", :force => true do |t|
     t.boolean  "correct"
@@ -45,6 +46,8 @@ ActiveRecord::Schema.define(:version => 20130409055656) do
     t.integer  "problem_set_id"
     t.datetime "starts_at"
     t.datetime "ends_at"
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
   add_index "classroom_problem_sets", ["classroom_id", "problem_set_id"], :name => "index_hw_assignments_on_classroom_id_and_homework_id", :unique => true
@@ -196,11 +199,14 @@ ActiveRecord::Schema.define(:version => 20130409055656) do
     t.datetime "updated_at"
     t.string   "encrypted_password"
     t.string   "salt"
-    t.binary   "problem_stats"
     t.string   "confirmation_code"
     t.boolean  "confirmed",          :default => false
     t.string   "type"
     t.integer  "points",             :default => 0
+    t.string   "image_file_name"
+    t.string   "image_content_type"
+    t.integer  "image_file_size"
+    t.datetime "image_updated_at"
   end
 
   add_index "users", ["email"], :name => "index_users_on_email", :unique => true

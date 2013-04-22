@@ -7,7 +7,7 @@ gem 'rails', '3.2.11'
 
 
 gem 'therubyracer'
-
+gem "paperclip", "~> 3.0"
 # gems in just test and dev environments
 group :test, :development do
 	gem 'rspec-rails'
@@ -22,6 +22,11 @@ group :development do
   gem 'guard-livereload'
   gem 'rails-dev-tweaks', '~> 0.6.1'
   gem 'thin'
+  gem "better_errors"
+  gem "binding_of_caller"
+  gem 'quiet_assets'
+  # To use debugger
+  gem 'debugger'
 end
 
 group :development, :production do
@@ -53,8 +58,7 @@ gem 'jquery-rails', '~> 2.0.2'
 # Deploy with Capistrano
 # gem 'capistrano'
 
-# To use debugger
- gem 'debugger'
+
 
 group :test do
   # Pretty printed test output

@@ -4,6 +4,7 @@ class StudentsController < ApplicationController
   def home
     @student = current_user
     @pset_instances = @student.problem_set_instances.includes(:problem_set)
+    @student_class_name = @student.classroom_assignments.first.classroom.name
   end
 
   def new
@@ -12,7 +13,7 @@ class StudentsController < ApplicationController
 
   def create
     student = Student.new(params[:student])
-
+    
     if !student.save
       $stderr.puts "STUDENT_ERRORS\n\t\t#{student.errors.full_messages.inspect}"
       $stderr.puts "FORM_FOR_ERRS:" + form_for_errs('student', student)
@@ -24,7 +25,7 @@ class StudentsController < ApplicationController
     if params[:class_pass].empty?
       classroom = Classroom.smarter_grades
     else
-      classroom = Classroom.where(:password => params[:class_pass]).first
+      classroom = Classroom.find_by_password(params[:class_pass])
     end
 
     if classroom.nil?
