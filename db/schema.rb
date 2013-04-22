@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130409055656) do
+ActiveRecord::Schema.define(:version => 20130422071624) do
 
   create_table "answers", :force => true do |t|
     t.boolean  "correct"
@@ -45,6 +45,8 @@ ActiveRecord::Schema.define(:version => 20130409055656) do
     t.integer  "problem_set_id"
     t.datetime "starts_at"
     t.datetime "ends_at"
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
   add_index "classroom_problem_sets", ["classroom_id", "problem_set_id"], :name => "index_hw_assignments_on_classroom_id_and_homework_id", :unique => true
