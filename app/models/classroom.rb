@@ -19,6 +19,7 @@ class Classroom < ActiveRecord::Base
     where(:teacher_id => nil).first
   end
 
+  # Assign a student or problem_set to this class
   def assign!(jimmy)
     if jimmy.is_a?(Student)
       $stderr.puts "Assigning Student"
@@ -31,7 +32,7 @@ class Classroom < ActiveRecord::Base
 
     else
       # TODO allow to assign problem sets
-      raise "You can only assign a Student to a class, not a #{jimmy.class}"
+      raise "You can only assign! a Student or ProblemSet to a Classroom, not a #{jimmy.class}"
     end
   end
 

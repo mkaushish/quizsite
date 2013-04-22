@@ -70,6 +70,7 @@ $ sudo apt-get install postgresql
 $ sudo su postgres # ubuntu package creates user postgres by default
 $ createuser -d <username> # where user name is your user name
 $ # answer yes at superuser prompt
+$ exit # to get back to your normal user account
 $ bundle install # Gemfile should include a line saying "gem 'pg'"
 $ rake db:create:all
 
@@ -82,5 +83,6 @@ $ rake db:migrate
 Instructions for generating sample data
 ---------------------------------------
 - the rake tasks for sample data are in lib/tasks
+$ rake generate:defaults
 $ rake generate:users      # adds whichever users are in the hash at the beginning of lib/tasks/sample_users
 $ rake generate:classrooms # generates classroom data for the teachers added in users, generates 2 classes of students, and sample answers for them
