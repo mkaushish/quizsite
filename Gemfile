@@ -25,7 +25,8 @@ group :development do
   gem "better_errors"
   gem "binding_of_caller"
   gem 'quiet_assets'
-
+  # To use debugger
+  gem 'debugger'
 end
 
 group :development, :production do
@@ -57,8 +58,7 @@ gem 'jquery-rails', '~> 2.0.2'
 # Deploy with Capistrano
 # gem 'capistrano'
 
-# To use debugger
- gem 'debugger'
+
 
 group :test do
   # Pretty printed test output

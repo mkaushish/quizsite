@@ -12,7 +12,7 @@ class StudentsController < ApplicationController
 
   def create
     student = Student.new(params[:student])
-
+    
     if !student.save
       $stderr.puts "STUDENT_ERRORS\n\t\t#{student.errors.full_messages.inspect}"
       $stderr.puts "FORM_FOR_ERRS:" + form_for_errs('student', student)

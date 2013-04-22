@@ -81,7 +81,7 @@ class UsersController < ApplicationController
       password_confirmation: params[:reg_password_confirmation]
 
       )
-    debugger
+
     user.confirmed = true
 
     classroom = nil
@@ -116,6 +116,7 @@ class UsersController < ApplicationController
     role = params["role"]
     if role == "Student"
       @user = Student.new params['user']
+      p params['user']
       @classroom = Classroom.find(params['class'])
       @classroom.assign!(@user)
     elsif role == "Teacher"

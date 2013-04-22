@@ -37,7 +37,7 @@ class User < ActiveRecord::Base
   @@email_regex = /^[\w0-9+.!#\$%&'*+\-\/=?^_`{|}~]+@[a-z0-9\-]+(:?\.[0-9a-z\-]+)+$/i
 
   attr_accessor :password, :password_confirmation
-  attr_accessible :email, :name, :password, :password_confirmation, :notepad
+  attr_accessible :email, :name, :password, :password_confirmation, :image
   serialize :problem_stats, Hash
 
   has_many :custom_problems, :class_name => 'Problem'
@@ -62,7 +62,7 @@ class User < ActiveRecord::Base
                        :confirmation => true,
                        :length => { :within => 6..40 }
 
-  has_attached_file :image, :styles => { :medium => "300x300>", :thumb => "100x100>" }, :default_url => "/images/:style/missing.png"
+  has_attached_file :image, :styles => { :medium => "300x300>", :thumb => "68x68>" }, :default_url => "/assets/users_sticker.png"
 
   before_save  :encrypt_password
 
