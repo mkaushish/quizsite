@@ -22,6 +22,10 @@ group :development do
   gem 'guard-livereload'
   gem 'rails-dev-tweaks', '~> 0.6.1'
   gem 'thin'
+  gem "better_errors"
+  gem "binding_of_caller"
+  gem 'quiet_assets'
+
 end
 
 group :development, :production do

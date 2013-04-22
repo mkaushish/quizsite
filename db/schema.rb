@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130409055656) do
+ActiveRecord::Schema.define(:version => 20130422053811) do
 
   create_table "answers", :force => true do |t|
     t.boolean  "correct"
@@ -201,6 +201,10 @@ ActiveRecord::Schema.define(:version => 20130409055656) do
     t.boolean  "confirmed",          :default => false
     t.string   "type"
     t.integer  "points",             :default => 0
+    t.string   "image_file_name"
+    t.string   "image_content_type"
+    t.integer  "image_file_size"
+    t.datetime "image_updated_at"
   end
 
   add_index "users", ["email"], :name => "index_users_on_email", :unique => true
