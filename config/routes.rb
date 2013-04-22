@@ -53,14 +53,16 @@ Quizsite::Application.routes.draw do
 
   get '/:classroom/:pset/new_quiz', to: 'quizzes#new', as: :new_quiz
   post '/quizzes/create',           to: 'quizzes#create', as: :create_quiz
-  get ':classroom/assign_quiz/:id', to: 'quizzes#assign', as: :assign_quiz
+  post ':classroom/assign_quiz/:id', to: 'quizzes#assign', as: :assign_quiz
   get '/:classroom/:pset/show',     to: 'quizzes#show', as: :quiz
 
   post '/:classroom/:quiz/assign'
 
   # :id => classroom id
-  get '/assign_pset/:id', to: 'classrooms#assign_pset', as: :assign_pset
-  get '/assign_quiz/:id', to: 'classrooms#assign_quiz', as: :assign_pset
+  get  ':id/show_psets/', to: 'classrooms#show_psets', as: :show_psets
+  get  ':id/show_quizzes/', to: 'classrooms#show_quizzes', as: :show_quizzes
+  get ':id/assign_pset/:pset_id', to: 'classrooms#assign_pset', as: :assign_pset
+  get ':id/assign_quiz/:quiz_id', to: 'classrooms#assign_quiz', as: :assign_quiz
 
   #
   # general static pages

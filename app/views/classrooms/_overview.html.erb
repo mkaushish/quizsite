@@ -24,7 +24,7 @@
         <ul class='column-list teacher-class-col'>
           <li class=list-header>
             Problem Sets
-            <%= link_to "Assign", "#", :class => 'pull-right' %>
+            <%= link_to "Assign", show_psets_path(classroom), :class => 'pull-right', :remote => true %>
           </li>
           <% if classroom.problem_sets.empty? %>
             <li>The problem sets you assign to a classroom determine which problems a student has access to.</li>
