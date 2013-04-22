@@ -7,7 +7,8 @@ class Classroom < ActiveRecord::Base
   has_many :students, :through => :classroom_assignments
 
   has_many :classroom_problem_sets, :dependent => :destroy
-  has_many :problem_sets, :through => :classroom_problem_sets
+  has_many :problem_sets, :through => :classroom_problem_sets,
+                          :order => 'classroom_problem_sets.created_at ASC'
 
   has_many :quizzes
 
