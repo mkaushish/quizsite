@@ -8,15 +8,16 @@
     </div>
 
     <div class="pull-right">
-        <%= image_tag @student.image.url(:small) %>
+        <%= image_tag @student.image.url(:small), :style => "margin-top:0px; margin-bottom: 30px;" %>
+      
         <ul class="breadcrumb">
             <li>
-                <h4 class="media-heading"><%= @student.name %></h4>
+                <h4><%= @student.name %></h4>
                 <%= @student_class_name %>
-                <h4 class="media-heading">Points: <%= @student.points %></h4>
+                <h4>Points: <span class="label label-info"><%= @student.points %></span></h4>
             </li>
         </ul>
-        
+    
     </div>
 </div>
 
