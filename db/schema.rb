@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130422093335) do
+ActiveRecord::Schema.define(:version => 20130422071624) do
 
   create_table "answers", :force => true do |t|
     t.boolean  "correct"
@@ -26,7 +26,6 @@ ActiveRecord::Schema.define(:version => 20130422093335) do
     t.integer  "session_id"
     t.string   "session_type"
     t.integer  "problem_type_id"
-    t.integer  "points"
   end
 
   add_index "answers", ["user_id", "created_at"], :name => "index_problemanswers_on_user_id_and_created_at"
