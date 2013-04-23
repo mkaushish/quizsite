@@ -1,5 +1,5 @@
 class AddPointsToAnswers < ActiveRecord::Migration
   def change
-    add_column :answers, :points_earned, :integer
+    add_column :answers, :points, :integer
   end
 end

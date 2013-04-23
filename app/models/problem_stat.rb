@@ -28,10 +28,19 @@ class ProblemStat < ActiveRecord::Base
     ORDER BY created_at DESC
   } }
 
-  def update_w_ans(answer, multiplier = 1.0)
+  def update_w_ans!(answer)
+    if answer.points.nil?
+      answer.points = points_for(answer.correct)
+      answer.save
+    end
+
     self.count += 1
     self.correct += 1 if answer.correct
+    self.points += answer.points
+    user.add_points!(answer.points)
     modify_rewards(answer.correct)
+
+    save
     self
   end
 

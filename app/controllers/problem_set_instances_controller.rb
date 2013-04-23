@@ -57,9 +57,12 @@ class ProblemSetInstancesController < ApplicationController
     redirect_to access_denied_path && return if @stat.user != current_user
 
     @instance = @stat.problem_set_instance
+
+    # create answer
     @answer = current_user.answers.create params: params, session: @instance
-    @stat.update_w_ans(@answer)
-    @stat.save
+
+    # update stats around answer - also modifies @answer but saves
+    @stat.update_w_ans!(@answer)
 
     @problem = @answer.problem.problem
     @solution = @problem.prefix_solve
