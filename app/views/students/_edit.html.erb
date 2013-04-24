@@ -1,0 +1,34 @@
+<h2>Edit Your Profile</h2>
+<%= form_for @student, :url => update_student_path(@student), :html => { :multipart => true } do |f| %>    
+        
+<% if @student.errors.any? %>
+    <div class="alert alert-error">
+      <div id="error_explanation">
+        <h5><%= pluralize(@student.errors.count, "error") %> prohibited this comment from being saved:</h5>
+
+        <ul>
+        <% @student.errors.full_messages.each do |msg| %>
+          <li><%= msg %></li>
+        <% end %>
+        </ul>
+      </div>
+    </div>
+  <% end %>
+  <div class="control-group">
+    <%= f.label :name, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :name, :class => 'text_field' %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :image, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.file_field :image, :class => 'text_field' %>
+    </div>
+  </div>
+  
+  <div class="form-actions">
+    <%= f.submit "Update", :class => 'btn btn-info' %>
+    <%= link_to "Cancel", studenthome_path, class: "btn" %>
+  </div>
+<% end %>

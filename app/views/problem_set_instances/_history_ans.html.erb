@@ -9,7 +9,16 @@
 			    show_answer_path(id: answer.id, instance: @instance.id),
 			    remote: true %>
 	<div class="pull-right">
+		<div class="acquired_points with_tooltip"
+			style="width:40px;" 
+      		data-original-title="<%= acquired_points %>"
+      		data-trigger="hover"
+      		data-placement="bottom"
+      	></div>
 		<%= answer.points.to_i %>
 	</div>
 	</div>
 </li>
+<script>
+	$('.with_tooltip').tooltip();
+</script>
