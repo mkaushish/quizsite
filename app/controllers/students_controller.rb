@@ -4,7 +4,7 @@ class StudentsController < ApplicationController
   def home
     @student = current_user
     @pset_instances = @student.problem_set_instances.includes(:problem_set)
-    @student_class_name = @student.classroom_assignments.first.classroom.name
+    
   end
 
   def new
@@ -37,6 +37,21 @@ class StudentsController < ApplicationController
     classroom.assign!(student)
     sign_in student
     render :js => "window.location.href = '/'"
+  end
+
+  def edit
+    @student = current_user
+  end
+
+   def update
+    @student = Student.find_by_id(params[:id])
+    respond_to do |format|
+      if @student.update_attributes(params[:student])
+        format.html { redirect_to studenthome_path, notice: 'Your Profile is successfully updated.' }
+      else
+        format.html { render action: "edit" }
+      end
+    end
   end
 
   def me

@@ -56,13 +56,22 @@ class User < ActiveRecord::Base
 
   validates :email, :presence => true,
                     # :format => { :with => @@email_regex },
-                    :uniqueness => { :case_sensitive => false }
+                    :uniqueness => { :case_sensitive => false },
+                    :if => lambda{|a| a.new_record?}
 
   validates :password, :presence => true,
                        :confirmation => true,
-                       :length => { :within => 6..40 }
+                       :length => { :within => 6..40 },
+                       :if => lambda{|a| a.new_record?}
 
-  has_attached_file :image, :styles => { :medium => "300x300>", :thumb => "70x70>", :small => "40x40>" }, :default_url => "/assets/default_70x70.png"
+  validates_attachment_content_type :image,
+                                    :content_type => ['image/png', 'image/jpeg', 'image/jpg', 'image/gif'],
+                                    :message => "Not supported file type",
+                                    :if => lambda{|a| !a.new_record?}
+
+  has_attached_file :image, 
+                    :styles => { :medium => "300x300>", :thumb => "70x70>", :small => "40x40>" }, 
+                    :default_url => "/assets/default_70x70.png"
 
   before_save  :encrypt_password
 

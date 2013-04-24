@@ -3,6 +3,9 @@
 <% col = stat.color_status %>
 
 <div id="pt_<%= ptype.id %>" class="list_box problem_list_box <%= col %>-bord">
-  <p><%= ptype.to_s %></p>
+  	<p><%= ptype.to_s %><br />
+  		<small><%= "#{500 - stat.points_till_green}" %> / <%= stat.points_for(true) %> / <%= stat.points_till_green %></small>
+  	</p>
+	
   <%= link_to "Let me try", pset_do_path(:name => @problem_set.id, :pid => ptype.id), remote:true %>
 </div>

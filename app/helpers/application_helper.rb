@@ -134,4 +134,8 @@ module ApplicationHelper
     render :partial => 'shared/form_field',
            :locals => {f: f, klass: klass, attr: attribute, type: field_method, opts: field_options}
   end
+
+  def acquired_points
+    "Points you acquired"
+  end
 end
