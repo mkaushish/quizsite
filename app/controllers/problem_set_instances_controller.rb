@@ -42,6 +42,7 @@ class ProblemSetInstancesController < ApplicationController
       # $stderr.puts "STAT_N_PROBLEM " * 20
       # $stderr.puts @stat.inspect
       # $stderr.puts @problem.inspect
+      
     else
       redirect_to access_denied_path && return
     end

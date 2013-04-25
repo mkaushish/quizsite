@@ -3,4 +3,23 @@
 <%= submit_tag "Check Answer", :class => 'pull-right button-blue' %>
 </div>
 
-<%= render "nameless_form", :@problem => @problem, :@answer => @answer %>
+<div class="problem">
+<%= hidden_field_tag 'problem_id', @problem.id %>
+<%= hidden_field_tag 'time_taken', 0.0 %>
+<%= hidden_field_tag "npstr", (!@answer.nil? && @answer.notepad) %>
+<% @problem.text.each do |elt| %>
+   <%= render_tohtml({partial_dir: 'problems'}, elt) %>
+<% end %>
+</div>
+
+<script>
+  function updateClock(s) {
+    return function() {
+      t = parseFloat($('#time_taken').attr('value'))
+      t += s
+      $('#time_taken').attr('value', t);
+    }
+  }
+  decisecondTimer = updateClock(0.1);
+  setInterval("decisecondTimer()", 100);
+</script>
