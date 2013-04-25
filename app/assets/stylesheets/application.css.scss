@@ -179,9 +179,13 @@ form div.field_block {
   margin-bottom: 20px;
   display:block;
 }
-.acquired_points {
-  background-color: $red;
+.quiz-link {
+  position:relative;
+  text-align:center;
+  height: 0px;
+  overflow:visible;
 }
+
 
 /* }}} */
 
