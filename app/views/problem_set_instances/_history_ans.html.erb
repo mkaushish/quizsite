@@ -8,17 +8,10 @@
 	<%= link_to (answer.problem_type.to_s), 
 			    show_answer_path(id: answer.id, instance: @instance.id),
 			    remote: true %>
-	<div class="pull-right">
-		<div class="acquired_points with_tooltip"
-			style="width:40px;" 
+	
+		<div class="with_tooltip pull-right"
+			style="width:40px; text-align:center;" 
       		data-original-title="<%= acquired_points %>"
-      		data-trigger="hover"
-      		data-placement="bottom"
-      	></div>
-		<%= answer.points.to_i %>
-	</div>
+      	><%= answer.points.to_i %></div>
 	</div>
 </li>
-<script>
-	$('.with_tooltip').tooltip();
-</script>

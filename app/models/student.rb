@@ -1,5 +1,8 @@
 class Student < User
   
+  attr_accessor :old_password, :new_password, :confirm_password
+  attr_accessible :old_password, :new_password, :confirm_password
+  
   has_many :classroom_assignments
   has_many :classrooms, :through => :classroom_assignments
   has_many :teachers, :through => :classrooms
@@ -14,6 +17,25 @@ class Student < User
     answers.where(:problem_type_id => ptypes_list)
            .order("created_at DESC")
            .includes(:problem)
+  end
+
+  def change_password(old_pass, new_pass, confirm_pass)
+    if self.encrypted_password == encrypt(old_pass)
+      p "password_verified"
+      if new_pass = confirm_pass
+        self.password = new_pass
+        self.password_confirmation = confirm_pass
+        
+        if self.save
+          p "Sucess"
+        end
+      else
+        p "Hey, your password doesn't match it's confirmation!"
+      end
+
+    else
+      p "Hey, your Old password doesn't match!"
+    end
   end
 
   private

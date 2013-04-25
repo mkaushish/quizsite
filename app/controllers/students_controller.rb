@@ -41,10 +41,18 @@ class StudentsController < ApplicationController
 
   def edit
     @student = current_user
+    respond_to do |format|
+      format.js
+    end
   end
 
    def update
     @student = Student.find_by_id(params[:id])
+    @old_pass = params['student']['old_password']
+    @new_pass = params['student']['new_password']
+    @confirm_pass = params['student']['confirm_password']
+    @student.change_password(@old_pass, @new_pass, @confirm_pass)
+    sign_in @student
     respond_to do |format|
       if @student.update_attributes(params[:student])
         format.html { redirect_to studenthome_path, notice: 'Your Profile is successfully updated.' }

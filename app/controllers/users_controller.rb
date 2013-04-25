@@ -149,7 +149,7 @@ class UsersController < ApplicationController
     redirect_to root_path unless signed_in?
   end
 
-  def change_password
+  def self.change_password
     if !(current_user.has_password? params[:old_pass])
       flash[:error] = "Wrong old password!"
     elsif params[:password] != params[:password_confirmation]
