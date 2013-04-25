@@ -8,6 +8,15 @@ $blackboard_h: 148px;
 $border_w: 7px;
 // $border_w: 0px;
 
+.student-info {
+  float:right;
+  position:relative;
+  top: -28px;
+  
+  height: 10px;
+  overflow:visible;
+}
+
 .jScroll_bboard{
   margin-top: 34px;
   margin-left: 2px;
