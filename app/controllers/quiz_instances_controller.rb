@@ -12,12 +12,16 @@ class QuizInstancesController < ApplicationController
   end
 
   def do
-    # @quiz = Quiz.find(params[:name])
-    # @instance = QuizInstance.where(:quiz_id => @quiz.id,
-    #                                :user_id => current_user.id).first
-    # # @instance ||= current_user.quiz_instances.new(:quiz => @quiz)
-    # redirect_to access_denied_path && return if @instance.nil?
 
+    @quiz = Quiz.first
+    @instance = QuizInstance.where(:quiz_id => @quiz.id,
+                                    :user_id => current_user.id).first
+    @instance ||= current_user.quiz_instances.new(:quiz => @quiz)
+    redirect_to access_denied_path && return if @instance.nil?
+    @problem = Problem.last
+    respond_to do |format|
+      format.js
+    end
     # if @quiz.problem_types.exists? params[:pid]
     #   @problem_type = @quiz.problem_types.find(params[:pid])
     #   @stat = @instance.stat(@problem_type)
