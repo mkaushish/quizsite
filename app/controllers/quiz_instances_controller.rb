@@ -1,4 +1,4 @@
-class QuizInstanceController < ApplicationController
+class QuizInstancesController < ApplicationController
   # GET /quizs/:name
   # quizs_path(:name)
   def show
@@ -12,19 +12,19 @@ class QuizInstanceController < ApplicationController
   end
 
   def do
-    @quiz = Quiz.find(params[:name])
-    @instance = QuizInstance.where(:quiz_id => @quiz.id,
-                                   :user_id => current_user.id).first
-    # @instance ||= current_user.quiz_instances.new(:quiz => @quiz)
-    redirect_to access_denied_path && return if @instance.nil?
+    # @quiz = Quiz.find(params[:name])
+    # @instance = QuizInstance.where(:quiz_id => @quiz.id,
+    #                                :user_id => current_user.id).first
+    # # @instance ||= current_user.quiz_instances.new(:quiz => @quiz)
+    # redirect_to access_denied_path && return if @instance.nil?
 
-    if @quiz.problem_types.exists? params[:pid]
-      @problem_type = @quiz.problem_types.find(params[:pid])
-      @stat = @instance.stat(@problem_type)
-      @problem = @stat.spawn_problem
-    else
-      redirect_to access_denied_path && return
-    end
+    # if @quiz.problem_types.exists? params[:pid]
+    #   @problem_type = @quiz.problem_types.find(params[:pid])
+    #   @stat = @instance.stat(@problem_type)
+    #   @problem = @stat.spawn_problem
+    # else
+    #   redirect_to access_denied_path && return
+    # end
   end
 
   def problem_results

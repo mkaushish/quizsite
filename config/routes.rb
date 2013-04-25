@@ -29,18 +29,26 @@ Quizsite::Application.routes.draw do
   get '/student/edit',:to => 'students#edit', :as => :edit_student
   put '/students/:id', :to => 'students#update', :as => :update_student
 
+  # student-problem_set_instances views
   get '/psets/:name', :to => 'problem_set_instances#show', :as => :pset
   get '/psets/:name/do/:pid', :to => 'problem_set_instances#do', :as => :pset_do
   get '/psets/:name/static_do/:pid', :to => 'problem_set_instances#static_do', :as => :problem_set_static_do
   post '/psets/:name/finish_problem', :to => 'problem_set_instances#finish_problem', :as => :ps_finish_problem
 
+  # student-quiz_instances views
+  get '/quiz/do', :to => 'quiz_instances#do', :as => :quiz_do
+
+
+  # student-answers views
   get '/answers/:id/show', to: 'answers#show', as: :show_answer
   get '/answers/:id/static_show', to: 'answers#static_show', as: :static_show_answer
 
+  # student-explanations views
   get '/:id/explain',          to: 'explanations#explain', as: :explain_problem
   post '/:id/explain/expand',  to: 'explanations#expand', as: :expand
   post '/:id/explain/next',    to: 'explanations#next_subproblem', as: :next_subproblem
 
+  # student-problem_types views
   get '/problem_type/:id',  to: 'problem_types#show', as: :problem_type
   post '/problems/:id/finish', to: 'problems#finish', as: :finish_problem
 
