@@ -23,6 +23,14 @@ class ClassroomsController < ApplicationController
   end
 
   def assign_quiz
+    @classroom = Classroom.find(params[:id])
+    unless @classroom.teacher == current_user
+      render :js => 'alert("this class doesn\'t belong to you!");'
+    end
+
+    @quiz = Quiz.find(params[:quiz_id])
+    @classroom.assign!(@quiz)
+    render :js => "window.location.href = '/'"
   end
 
   def show

@@ -123,7 +123,7 @@ module ApplicationHelper
   end
 
   def putd(date)
-    date.strftime "%e %b %Y"
+    date.strftime "%e %B, %Y"
   end
 
   # f is the FormBuilder

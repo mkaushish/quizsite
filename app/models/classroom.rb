@@ -10,6 +10,7 @@ class Classroom < ActiveRecord::Base
   has_many :problem_sets, :through => :classroom_problem_sets,
                           :order => 'classroom_problem_sets.created_at ASC'
 
+  has_many :classroom_quizzes, :dependent => :destroy
   has_many :quizzes
 
   validates :password, :uniqueness => true
@@ -29,6 +30,10 @@ class Classroom < ActiveRecord::Base
 
     elsif jimmy.is_a?(ProblemSet)
       classroom_problem_sets.create :problem_set => jimmy
+      students.each { |stu| jimmy.assign(stu) }
+
+    elsif jimmy.is_a?(Quiz)
+      classroom_quizzes.create :quiz => jimmy
       students.each { |stu| jimmy.assign(stu) }
 
     else
