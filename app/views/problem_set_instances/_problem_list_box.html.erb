@@ -3,16 +3,12 @@
 <% col = stat.color_status %>
 
 <div id="pt_<%= ptype.id %>" class="list_box problem_list_box <%= col %>-bord">
-  	<p><%= ptype.to_s %><br />
+  	<p>
   		<small>
-  			<span class="label label-info"><%= "#{500 - stat.points_till_green}" %></span> 
-  			<% if col != "green" %>	
-          / 
-  			<span class="label label-info"><%= stat.points_for(true) %></span> 
-  				/ 
-  			<span class="label label-info"><%= stat.points_till_green %></span>
-        <% end  %>
-  		</small>
+  			<span class="label label-info correct_hist" style="background-color:transparent"><%= stat.points_for(true) %></span> 
+        <span class="label label-info incorrect_hist" style="background-color:transparent"><%= stat.points_for(false) %></span> 
+  		</small><br />
+      <%= ptype.to_s %>
   	</p>
 	 
   <%= link_to "Let me try", pset_do_path(:name => @problem_set.id, :pid => ptype.id), :remote => true %>

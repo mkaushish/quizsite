@@ -68,12 +68,15 @@ $border_w: 7px;
     p {
       width: $blackboard_w - 30px;
       padding: 0 (15px - $border_w);
-      // margin-top: (40px - $border_w);
+      margin-top: 10px;
       text-align: center;
       color: white;
-      // font-size:24px;
-      // font-family:"Chalk2";
-  }
+      font-size:24px;
+      font-family:"Chalk2";
+      small {
+        font-family:"Courier";
+      }
+    }
 
   a,.link {
     position: absolute;
@@ -141,5 +144,22 @@ div.pset_list_box {
       top:0;
       @include right-triangle(14px, $sg_blue);
       margin:0;
+    }
+  }
+  .quiz-link{
+    a, .link{
+      position: absolute;
+    left: 150px;
+    display: block;
+    padding: 5px;
+
+    width:117px;
+    height: 17px;
+
+    text-align: center;
+    color: white;
+    background-color: $sg_green;
+
+    box-shadow: 4px 4px 2px black;
     }
   }
