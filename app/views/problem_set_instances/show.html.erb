@@ -9,7 +9,7 @@
   </ul>
 </div>
 <div class="quiz-link">
-<%= link_to "Take a Quiz", quiz_do_path, :remote => true %>
+<%= link_to "Take a Quiz", quiz_do_path(@problem_set.id), :remote => true %>
 </div>
 <div class=row-fluid>
   <div class=span4>

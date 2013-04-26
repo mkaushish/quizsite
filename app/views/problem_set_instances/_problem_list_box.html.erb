@@ -6,10 +6,12 @@
   	<p><%= ptype.to_s %><br />
   		<small>
   			<span class="label label-info"><%= "#{500 - stat.points_till_green}" %></span> 
-  				/ 
+  			<% if col != "green" %>	
+          / 
   			<span class="label label-info"><%= stat.points_for(true) %></span> 
   				/ 
   			<span class="label label-info"><%= stat.points_till_green %></span>
+        <% end  %>
   		</small>
   	</p>
 	 

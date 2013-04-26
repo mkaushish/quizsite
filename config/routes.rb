@@ -36,7 +36,8 @@ Quizsite::Application.routes.draw do
   post '/psets/:name/finish_problem', :to => 'problem_set_instances#finish_problem', :as => :ps_finish_problem
 
   # student-quiz_instances views
-  get '/quiz/do', :to => 'quiz_instances#do', :as => :quiz_do
+  get '/quiz/do/:pid', :to => 'quiz_instances#do', :as => :quiz_do
+  post '/quiz/finish_problem', :to => 'quiz_instances#finish_problem', :as => :quiz_finish_problem
 
 
   # student-answers views
