@@ -50,7 +50,8 @@ class ProblemStat < ActiveRecord::Base
   end
 
   def points_for(correct)
-    return 10 if green?
+    return 10 if green? && correct
+    return 0 if green? && !correct
     correct ? points_right : points_wrong
   end
 
