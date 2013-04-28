@@ -1,0 +1,23 @@
+<% pset.problem_types.each do |ptype| %>
+  	<% if !ProblemStat.where(:user_id => current_user.id, :problem_type_id => ptype.id).blank? %>
+  		<% pstat = ProblemStat.where(:user_id => current_user.id, :problem_type_id => ptype.id).last %>
+		<% if pstat.points > 500 %>
+			<% @g =+1 %>
+			<% @y = 0 %>
+			<% @r = 0 %>
+		<% elsif pstat.points_wrong > 0 %>
+			<% @g = 0 %>
+			<% @y = +1 %>
+			<% @r = 0 %>
+		<% else pstat.points > 89 && pstat.points < 500 %>
+			<% @g = 0 %>
+			<% @y = 0 %>
+			<% @r = +1 %>
+		<% end %>
+
+	<% end %>	
+	<%= @g %>
+		<%= @y %>
+		<%= @r %>
+		<br>
+	<% end %>
