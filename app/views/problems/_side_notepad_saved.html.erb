@@ -19,8 +19,11 @@
         </canvas>
         
           <% parsed_json = ActiveSupport::JSON.decode(@answer.notepad) %>
-          <%= parsed_json.to_a.flatten! %>
-
+          
+          <% parsed_json.to_a.flatten!.each do |a| %>
+            <%= a %>
+          <% end %>
+          
       </div>
       <%= hidden_field_tag 'npstr', "" %>
     </div>
