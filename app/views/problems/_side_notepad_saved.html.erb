@@ -17,7 +17,10 @@
         <canvas id="notepad" height=222px width=346px border=2px>
         Your browser does not support the HTML5 Canvas feature. This app uses new HTML5 features and will only work on the latest versions of Firefox, Safari or Chrome (and maybe Internet Explorer 9).
         </canvas>
-        <input type="text" id="notes" maxlength=41 style="background-color:transparent; position:absolute; height:15px; left:0px; top:13px; width:338px">
+        
+          <% parsed_json = ActiveSupport::JSON.decode(@answer.notepad) %>
+          <%= parsed_json.to_a.flatten! %>
+
       </div>
       <%= hidden_field_tag 'npstr', "" %>
     </div>
