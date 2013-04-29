@@ -58,10 +58,10 @@ $border_w: 7px;
     border-color: $lred;
   }
   .green-bord {
-    border-color: $green;
+    border-color: $sg_blue;
   }
   .yellow-bord {
-    border-color: $lyellow;
+    border-color: $sg_green;
   }
 
   div.problem_list_box {
@@ -162,4 +162,8 @@ div.pset_list_box {
 
     box-shadow: 4px 4px 2px black;
     }
+  }
+  .gif_tick{
+    position:absolute;
+    left:82%;
   }

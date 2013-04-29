@@ -1,6 +1,6 @@
 <div class="problem_name">
   <h2><%= @problem_type.to_s %></h2>
-<%= submit_tag "Check Answer", :class => 'pull-right button-blue' %>
+
 </div>
 
 <div class="problem">
@@ -11,7 +11,7 @@
    <%= render_tohtml({partial_dir: 'problems'}, elt) %>
 <% end %>
 </div>
-
+<%= submit_tag "Check Answer", :class => 'button-blue' %>
 <script>
   function updateClock(s) {
     return function() {
