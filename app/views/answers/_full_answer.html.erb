@@ -36,7 +36,7 @@
     <% if @answer.notepad == "false" %>
       <%= render partial: 'problems/side_notepad.html.erb' %>
     <% else %>
-      <%= render partial: 'problems/side_notepad_saved.html.erb', :@answer => @answer %>
+      <%= render partial: 'problems/side_notepad.html.erb', :@answer => @answer %>
     <% end %>
   </div>
 <% end %>
