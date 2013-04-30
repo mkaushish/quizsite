@@ -19,7 +19,9 @@
         </canvas>
         <input type="text" id="notes" maxlength=41 style="background-color:transparent; position:absolute; height:15px; left:0px; top:13px; width:338px">
       </div>
-      <%= hidden_field_tag 'npstr', "" %>
+      <% if @answer!=nil %>
+      <%= hidden_field_tag 'npstr', @answer.notepad %>
+      <% end %>
     </div>
     <%= render 'notepad/calculator' %>
   </div>
