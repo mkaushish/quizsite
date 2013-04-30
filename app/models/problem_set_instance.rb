@@ -87,4 +87,7 @@ class ProblemSetInstance < ActiveRecord::Base
       my_stat
   end
 
+  def self.color(user, ptype)
+    where(:user_id=> user.id).last.stat(ptype).color_status
+  end
 end
