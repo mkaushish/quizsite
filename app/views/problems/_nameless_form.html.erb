@@ -1,7 +1,7 @@
 <div class="problem">
 <%= hidden_field_tag 'problem_id', @problem.id %>
 <%= hidden_field_tag 'time_taken', 0.0 %>
-<%= hidden_field_tag "npstr", (!@answer.nil? && @answer.notepad) %>
+<%= hidden_field_tag "npstr", "" %>
 <% @problem.text.each do |elt| %>
    <%= render_tohtml({partial_dir: 'problems'}, elt) %>
 <% end %>

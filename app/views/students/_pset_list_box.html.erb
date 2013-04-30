@@ -1,9 +1,24 @@
 <% stat = pset_list_box %>
 <% pset = stat.problem_set %>
+<% @a = Array.new %>
 
 <div class='list_box pset_list_box'>
   <p><%= pset.name %></p>
- 
+ 	<% pset.problem_types.each do |ptype| %>
+   		<% @a = @a.push (validate_color(@student,ptype)) %>
+	<% end %>
+   	<% @total = @a.length %>
+
+   	 <% @blue = percentage((@a.select {|v| v =="green"}.count),@total) %>
+   	 <% @green = percentage((@a.select {|v| v =="yellow"}.count),@total) %>
+   	 <% @red = percentage((@a.select {|v| v =="red"}.count),@total) %>
+   	
+
+   	<div class="progress">
+  		<div class="bar bar-info" style="width: <%= @blue %>%"></div>
+  		<div class="bar bar-success" style="width: <%= @green %>%"></div>
+  		<div class="bar bar-danger" style="width: <%= @red %>%"></div>
+	</div>
 
 </div>
 <div class='start_pset'>

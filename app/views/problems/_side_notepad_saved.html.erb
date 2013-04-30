@@ -21,7 +21,7 @@
           <% parsed_json = ActiveSupport::JSON.decode(@answer.notepad) %>
           
           <% parsed_json.to_a.flatten!.each do |a| %>
-            <%= a %>
+            <%= a  %>
           <% end %>
           
       </div>

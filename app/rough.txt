@@ -21,3 +21,13 @@
 		<%= @r %>
 		<br>
 	<% end %>
+<% @a = Array.new %>
+
+<div class='list_box pset_list_box'>
+  <p><%= pset.name %></p>
+ 	<% pset.problem_types.each do |ptype| %>
+   		<% @a = @a.push (ProblemSetInstance.where(:user_id=>59).last.stat(ptype).color_status) %>
+		
+   	<% end %>
+   	<%= @a %>
+</div>
