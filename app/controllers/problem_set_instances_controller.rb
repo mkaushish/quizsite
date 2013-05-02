@@ -65,9 +65,9 @@ class ProblemSetInstancesController < ApplicationController
     # update stats around answer - also modifies @answer but saves
     @stat.update_w_ans!(@answer)
     #debugger
-    @instance.num_blue = @stat.problem_type.problem_stats.blue.count
-    @instance.num_green = @stat.problem_type.problem_stats.green.count
-    @instance.num_red = @stat.problem_type.problem_stats.red.count
+    @instance.num_blue = @instance.problem_stats.blue.count
+    @instance.num_green = @instance.problem_stats.green.count
+    @instance.num_red = @instance.problem_stats.count - @instance.num_blue - @instance.num_green
     @instance.save
     @problem = @answer.problem.problem
     @solution = @problem.prefix_solve
