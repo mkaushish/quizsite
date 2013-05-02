@@ -16,9 +16,13 @@ $border_w: 7px;
   height: 10px;
   overflow:visible;
 }
+.stinfo {
+  font-family:"Sans";
+  font-size:12px;
+}
 
 .jScroll_bboard{
-  margin-top: 34px;
+  margin-top: 10px;
   margin-left: 2px;
   margin-right: 5px;
   width: 635px;
@@ -30,7 +34,7 @@ $border_w: 7px;
 .list-box-table {
   td {
     padding-right: 25px;
-    padding-bottom: 25px;
+    padding-bottom: 10px;
     width:$blackboard_w;
     &:last-child {
       padding-right: 0;
@@ -69,7 +73,7 @@ $border_w: 7px;
     p {
       width: $blackboard_w - 30px;
       padding: 0 (15px - $border_w);
-      //margin-top: 10px;
+      margin-top: 9px;
       text-align: center;
       color: white;
       font-size:24px;
@@ -106,12 +110,12 @@ div.pset_list_box {
   vertical-align:middle;
   p {
     width: $blackboard_w - 30px;
-    padding: 0;
+    padding: 0 (15px - $border_w);
     margin-top: 0;
     text-align: center;
     color: white;
-    font-size: 14px;
-    font-family:"Chalk1";
+    font-size: 24px;
+    font-family:"Chalk2";
   }
 
 }
@@ -166,8 +170,6 @@ div.pset_list_box {
     }
   }
   .gif_tick{
-    //left: 86%;
-    //position: relative;
     float: right;
     overflow: visible; 
   }
