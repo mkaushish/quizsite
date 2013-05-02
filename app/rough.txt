@@ -31,3 +31,18 @@
    	<% end %>
    	<%= @a %>
 </div>
+@quiz = Quiz.first
+    @instance = QuizInstance.where(:quiz_id => @quiz.id,
+                                    :user_id => current_user.id).first
+    @instance ||= current_user.quiz_instances.create(:quiz => @quiz).start
+    redirect_to access_denied_path && return if @instance.nil?
+    
+    @problem_set = ProblemSet.find_by_id(@quiz.problem_set_id)
+    
+     if @quiz.problem_types.exists?
+        @problem_type = @quiz.problem_types
+        @stat = @instance.quiz_stats(@problem_type)
+        @problem = @stat.spawn_problem
+     #else
+     #   redirect_to access_denied_path && return
+      end
