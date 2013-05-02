@@ -41,6 +41,10 @@ class Quiz < ActiveRecord::Base
     end
   end
 
+  def for_user(user)
+    quiz_instances.where(:user_id => user.id).first
+  end
+
   def for_class(klass)
     @class_quizzes ||= {}
     @class_quizzes[klass] ||= classroom_quizzes.where(classroom_id:klass.id).first

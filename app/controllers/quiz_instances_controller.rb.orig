@@ -1,4 +1,17 @@
+<<<<<<< HEAD
 class QuizInstancesController < ApplicationController
+  # GET /quizs/:name
+  # quizs_path(:name)
+  def show
+    @quiz = Quiz.find(params[:name])
+    @instance = QuizInstance.where(:quiz_id => @quiz.id,
+                                   :user_id => current_user.id).first
+    @instance ||= current_user.quiz_instances.new(:quiz => @quiz)
+    @stats = @instance.stats
+    @sessions = []
+    include_history @quiz
+=======
+class QuizInstanceController < ApplicationController
   # GET quizzes/:id/start
   # start_quiz_path(@quiz)
   def start
@@ -22,9 +35,11 @@ class QuizInstancesController < ApplicationController
 
   def finish_problem
     redirect_to next_problem
+>>>>>>> mid commit
   end
 
   def do
+
     @quiz = Quiz.first
     @instance = QuizInstance.where(:quiz_id => @quiz.id,
                                     :user_id => current_user.id).first
@@ -43,7 +58,7 @@ class QuizInstancesController < ApplicationController
      # end
   end
 
-  def results
+  def problem_results
   end
 
   # POST /quizs/:name/finish_problem
@@ -57,5 +72,22 @@ class QuizInstancesController < ApplicationController
     @stat.update!(@answer)
 
     redirect_to quizs_path(@instance.quiz_id)
+  end
+
+  private
+  # 
+  # Sets the @history variable, which allows the partial 'quizs/_history' to be rendered
+  #
+  def include_history(quiz, n = 11)
+    return nil if current_user.nil?
+
+    #instance = @instance || QuizInstance.where(:quiz_id => @quiz.id,
+    #                                                 :user_id => current_user.id).first
+    #stats = (@stats || @instance.stats).map(&:id)
+    generators = ProblemGenerator.where(:problem_type_id => quiz.problem_types.map(&:id)).map(&:id)
+    @history = current_user.answers.where(:problem_generator_id => generators)
+                            .order("created_at DESC")
+                            .includes(:problem)
+                            .limit(n)
   end
 end

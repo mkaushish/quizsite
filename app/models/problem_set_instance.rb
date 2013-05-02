@@ -8,12 +8,19 @@ class ProblemSetInstance < ActiveRecord::Base
   has_many :problem_set_problems, :through => :problem_set
   has_many :problem_types, :through => :problem_set_problems
 
+  has_many :assigned_quizzes, :class_name => 'QuizInstance',
+                              :conditions => 'complete ISNULL'
+
   has_many :answers, :as => :session
 
   validates :user, :presence => true
   validates :problem_set, :presence => true
 
   delegate :name, :idname, :to => :problem_set
+
+  def quiz_assigned?
+    !assigned_quizzes.empty?
+  end
 
   # this method prevents the need to create a new problem_set_stat for 
   # every problem_set a student has access to.  If we're adding in the default

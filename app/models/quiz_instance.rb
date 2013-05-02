@@ -28,4 +28,12 @@ class QuizInstance < ActiveRecord::Base
     self.ended_at = Time.now
     self.complete = true
   end
+
+  def next_stat
+    @next_stat ||= quiz_stats.where("remaining > 0").first
+  end
+
+  def next_problem
+    next_stat.spawn_problem
+  end
 end

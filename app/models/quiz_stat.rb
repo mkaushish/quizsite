@@ -12,7 +12,7 @@ class QuizStat < ActiveRecord::Base
     remaining -= 1
 
     if remaining <= 0
-      delete
+      destroy
       return nil
     end
 
