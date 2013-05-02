@@ -20,6 +20,7 @@ class QuizInstancesController < ApplicationController
     redirect_to access_denied_path && return if @instance.nil?
     
     @problem_set = ProblemSet.find_by_id(params[:pid])
+    @problem_type = @quiz.problem_types
     @problem = Problem.last
      #if @quiz.problem_types.exists? params[:pid]
      #   @problem_type = @quiz.problem_types.find(params[:pid])
