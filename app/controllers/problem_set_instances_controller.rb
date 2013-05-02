@@ -64,7 +64,7 @@ class ProblemSetInstancesController < ApplicationController
 
     # update stats around answer - also modifies @answer but saves
     @stat.update_w_ans!(@answer)
-
+    debugger
     @problem = @answer.problem.problem
     @solution = @problem.prefix_solve
     @response = @answer.response_hash
