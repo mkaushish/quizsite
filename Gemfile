@@ -15,6 +15,7 @@ group :test, :development do
   gem 'database_cleaner'
   gem 'launchy'
   gem 'guard-rails'
+
 end
 
 group :development do
@@ -27,6 +28,7 @@ group :development do
   gem 'quiet_assets'
   # To use debugger
   gem 'debugger'
+  gem 'rack-mini-profiler'
 end
 
 group :development, :production do

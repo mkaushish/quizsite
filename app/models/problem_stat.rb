@@ -110,4 +110,17 @@ class ProblemStat < ActiveRecord::Base
       ((points_wrong > 0) || (points > 89)) ? 'yellow' : 'red'
     end
   end
+
+  def self.blue
+    where("stop_green > ?", Time.now)
+  end
+
+  def self.green
+    where("points_wrong > ?", 0)
+  end
+
+  def self.red
+    where("points > ?", 89)
+  end
+
 end
