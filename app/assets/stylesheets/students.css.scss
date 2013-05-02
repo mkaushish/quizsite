@@ -16,6 +16,10 @@ $border_w: 7px;
   height: 10px;
   overflow:visible;
 }
+.stinfo {
+  font-family:"Sans";
+  font-size:12px;
+}
 
 .jScroll_bboard{
   margin-top: 34px;
@@ -164,6 +168,5 @@ div.pset_list_box {
     }
   }
   .gif_tick{
-    position:absolute;
-    left:82%;
+    float: right;
   }
