@@ -6,7 +6,9 @@ class ProblemSetInstancesController < ApplicationController
     @instance = ProblemSetInstance.where(:problem_set_id => @problem_set.id,
                                          :user_id => current_user.id).first
     @instance ||= current_user.problem_set_instances.new(:problem_set => @problem_set)
+
     @stats = @instance.stats
+   
     @sessions = []
     @history = current_user.problem_history(@problem_set.problem_types.map(&:id)).limit(11)
   end
@@ -64,7 +66,7 @@ class ProblemSetInstancesController < ApplicationController
 
     # update stats around answer - also modifies @answer but saves
     @stat.update_w_ans!(@answer)
-    #debugger
+    # updating the number of counts of each color type
     @instance.num_blue = @instance.problem_stats.blue.count
     @instance.num_green = @instance.problem_stats.green.count
     @instance.num_red = @instance.problem_stats.count - @instance.num_blue - @instance.num_green

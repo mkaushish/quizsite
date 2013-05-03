@@ -4,7 +4,9 @@ class ProblemSetInstance < ActiveRecord::Base
 
   has_many :problem_set_stats, :dependent => :destroy
   has_many :problem_stats, :through => :problem_set_stats
-  has_many :problem_types, :through => :problem_set
+
+  has_many :problem_set_problems, :through => :problem_set
+  has_many :problem_types, :through => :problem_set_problems
 
   has_many :answers, :as => :session
 
@@ -64,7 +66,6 @@ class ProblemSetInstance < ActiveRecord::Base
 
       @tmpstats << next_stat
     end
-
     self.problem_set_stats = @tmpstats
   end
 
@@ -80,15 +81,15 @@ class ProblemSetInstance < ActiveRecord::Base
     return 'green'
   end
 
+  def num_problems
+    problem_set_problems.length
+  end
+
   private
 
   def new_stat(problem_type, look_up_problem_stat = false)
       my_stat = self.problem_set_stats.new(:problem_type => problem_type)
       my_stat.assign_problem_stat! if look_up_problem_stat
       my_stat
-  end
-
-  def self.color(user, ptype)
-    where(:user_id=> user.id).last.stat(ptype).color_status
   end
 end
