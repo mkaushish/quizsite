@@ -64,7 +64,10 @@ class ProblemSetInstance < ActiveRecord::Base
 
       @tmpstats << next_stat
     end
-
+    self.num_blue = self.problem_stats.blue.count
+    self.num_green = self.problem_stats.green.count
+    self.num_red = self.problem_stats.count - self.num_blue - self.num_green
+    self.save
     self.problem_set_stats = @tmpstats
   end
 
