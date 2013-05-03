@@ -4,7 +4,7 @@ class StudentsController < ApplicationController
   def home
     @student = current_user
     @pset_instances = @student.problem_set_instances.includes(:problem_set)
-    
+    @is_all_blue = @student.is_all_problem_sets_done?(@pset_instances)
   end
 
   def new

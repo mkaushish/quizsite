@@ -38,6 +38,16 @@ class Student < User
     end
   end
 
+  def is_all_problem_sets_done?(pset_instances)
+    @check = Array.new
+    pset_instances.each do |pset|
+      @check = @check.push (pset.problem_stats.count - pset.problem_stats.blue.count) == 0
+    end
+    total = @check.length
+    true_count = @check.select {|v| v =="true"}.count
+    return (total - true_count) == 0
+  end
+
   private
 
   def assign_class
@@ -46,4 +56,6 @@ class Student < User
     end
     @class.assign!(self)
   end
+
+
 end

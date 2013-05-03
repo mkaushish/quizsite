@@ -8,10 +8,7 @@ class ProblemSetInstancesController < ApplicationController
     @instance ||= current_user.problem_set_instances.new(:problem_set => @problem_set)
 
     @stats = @instance.stats
-    @instance.num_blue = @instance.problem_stats.blue.count
-    @instance.num_green = @instance.problem_stats.green.count
-    @instance.num_red = @instance.problem_stats.count - @instance.num_blue - @instance.num_green
-    @instance.save
+   
     @sessions = []
     @history = current_user.problem_history(@problem_set.problem_types.map(&:id)).limit(11)
   end

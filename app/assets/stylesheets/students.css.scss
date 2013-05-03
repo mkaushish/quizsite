@@ -16,6 +16,12 @@ $border_w: 7px;
   height: 10px;
   overflow:visible;
 }
+.badge {
+  float: right;
+  position:relative;
+  top: -28px;
+  background: transparent;
+}
 .stinfo {
   font-family:"Sans";
   font-size:12px;
