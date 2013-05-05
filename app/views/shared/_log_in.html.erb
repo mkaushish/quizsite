@@ -1,22 +1,24 @@
 <div class="modal" id="logIn" style="display:none;"> <%# class=hide get's overridden by display-block status %>
   <div class="modal-header">
-    Log In
+    <img src="/assets/Home/login_bar.png">
   </div>
   <div id="log_in_form" class="modal-body" style="font-family:SansSerif">
     <div id="log_in_errors">
     </div>
     <%= form_for(:session, {:url => signin_path, :html => {:class => "signin"}, :remote => true}) do |f| %>
       <div class = "field">
-        <%= f.text_field :email, :placeholder=>"Email" %>
-        <%= f.password_field :password, :placeholder => "Password" %>
+        <label for="session_email">Username</label>
+        <%= f.text_field :email%>
+        <br>
+        <label for="session_password">Password</label>
+        <%= f.password_field :password%>
       </div>
+      <br>
       <div class = "actions">
         <%= f.submit "Sign in", :class=>"btn-primary" %>
+      <br>
         <%= f.submit "Register", :class=>"btn-primary", :disabled=>"true" %>
       </div>
     <% end %>
-  </div>
-  <div class="modal-footer">
-    <a href="#" class="btn" data-dismiss="modal">Close</a>
   </div>
 </div>
