@@ -1,4 +1,36 @@
+<div id=home>
+  <div class=row>
 
+  <div class="span3"> 
+    <h2>Login</h2>
+    <div id="log_in_errors">
+      <% if flash[:error] %>
+        <div class=form_error><%= flash[:error] %></div>
+      <% end %>
+    </div>
+    <%= form_tag(signin_path) do |f| %>
+      <div class = "field_block">
+        <%= label_tag "login_email", "Email or Unique ID" %>
+        <%= text_field_tag :login_email, flash[:email], :placeholder=>"akshat777@gmail.com" %>
+      </div>
+      <div class = "field_block">
+        <%= label_tag "login_password", "Password" %>
+        <%= password_field_tag "login_password", flash[:password], :placeholder => "*******" %>
+      </div>
+      <div class = "actions">
+        <%= submit_tag "Sign in", :class=>"button-blue" %>
+      </div>
+    <% end %>
+  </div>
+
+  <div class="span9"> 
+    <div style='margin-left:40px;'>
+      <%= link_to_function "Register as a Teacher", "registerTeacher();", :class => 'button-blue centered' %>
+      <%= link_to_function "Register as a Student", "registerStudent();", :class => 'button-blue centered' %>
+    </div>
+    
+  </div>
+</div>
 <div id='home' class='static-page'>
     <div class='home2'>
         <div class="dotted-border">
