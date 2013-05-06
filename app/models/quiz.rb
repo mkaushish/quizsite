@@ -41,6 +41,10 @@ class Quiz < ActiveRecord::Base
     end
   end
 
+  def for_user(user)
+    quiz_instances.where(:user_id => user.id).first
+  end
+
   def for_class(klass)
     @class_quizzes ||= {}
     @class_quizzes[klass] ||= classroom_quizzes.where(classroom_id:klass.id).first
@@ -49,7 +53,7 @@ class Quiz < ActiveRecord::Base
 
   def default_problems
     problem_set.problem_types.map do |ptype|
-      quiz_problems.new(problem_type: ptype, count: 2)
+      quiz_problems.new(problem_type: ptype, count: 1)
     end
   end
 
@@ -67,6 +71,13 @@ class Quiz < ActiveRecord::Base
 
   def ptypes
     @ptypes ||= Marshal.load(self.problemtypes)
+  end
+
+  # psi = a ProblemSetInstance
+  def assign_with_pset_inst(psi)
+    instance = quiz_instances.build(:user_id => psi.user_id, :problem_set_instance => psi)
+    return nil unless instance.save # if they already have an instance of this problem set it won't work
+    instance
   end
 
   def assign(user)

@@ -13,7 +13,7 @@
       <b>Problem Set:</b> <%= @problem_set.name %> <b>Score:</b> 36 / 42
     </div>
     <div class='dotted-border'>
-      <%= form_tag ps_finish_problem_path(@problem_set.id), :method => :post, :autocomplete => :off do %>
+      <%= form_tag finish_ps_problem_path(@problem_set.id), :method => :post, :autocomplete => :off do %>
         <%= hidden_field_tag 'stat_id', @stat.id.to_s %>
         <%= render 'problemanswers/form' %>
       <% end %>

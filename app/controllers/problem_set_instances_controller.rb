@@ -54,7 +54,7 @@ class ProblemSetInstancesController < ApplicationController
   end
 
   # POST /problem_sets/:name/finish_problem
-  # ps_finish_problem_path(:name)
+  # finish_ps_problem_path(:name)
   def finish_problem
     @stat = ProblemSetStat.includes(:problem_set_instance).includes(:problem_type).find(params[:stat_id])
     redirect_to access_denied_path && return if @stat.user != current_user
