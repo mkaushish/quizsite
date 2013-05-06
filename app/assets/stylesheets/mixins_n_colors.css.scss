@@ -46,7 +46,7 @@ $graphite: #503214;
   border: 1px solid $sg_grey;
 }
 @mixin dotted-border() {
-  border: 2px dashed $blue;
+  border: 1px dashed $blue;
 }
 @mixin rounded-corners($radius) {
 	-moz-border-radius: $radius;

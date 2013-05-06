@@ -6,7 +6,15 @@
     margin:5px;
   }
 }
-
+#logIn {
+  border-radius: 0px;
+  -webkit-border-radius:0px;
+  width:428px;
+  .modal-header{
+    padding-left:0;
+    border:none
+  }
+}
 .dotted-border-header {
   font-size: 15px;
   display: inline-block;
@@ -36,13 +44,14 @@
   }
 }
 .dotted-border-header-black {
+  float:left;
   font-size: 15px;
   display: inline-block;
   position:relative;
   top: 2px;
 
   border-bottom:none;
-  background-color: gray;
+  background-color: #7f7f7f;
   margin-left: 10px;
   padding:8px 15px;
   color:white;
@@ -50,6 +59,9 @@
 
   &:first-child {
     left: 20px;
+  }
+  p {
+    margin: 0px;
   }
   
   > a {
@@ -106,3 +118,4 @@ ul.horizontal > li {
     background-color: white;
   }
 }
+

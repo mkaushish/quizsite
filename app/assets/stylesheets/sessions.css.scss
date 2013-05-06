@@ -7,26 +7,37 @@ form.signin {
   margin-left: auto;
   width:500px;
   .field {
-    float:left;
     input {
-      float: left;
       width: 167px;
+      height:25px;
       margin:5px;
+      padding:0px;
     }
   }
   .actions {
-    float: left;
     padding-top:4px;
     input {
       text-align:center;
-      float:left;
       width:60px;
       margin-right:5px;
       margin-left:0px;
+      height:25px;
     }
   }
 }
 
+#logIn {
+  border-radius: 0px;
+  -webkit-border-radius:0px;
+  width:428px;
+  .modal-header{
+    padding-left:0;
+    border:none
+  }
+  label {
+    display:inline
+  }
+}
 .break {
   clear: left;
 }
