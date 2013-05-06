@@ -72,6 +72,10 @@ module SessionsHelper
     redirect_to access_denied_path, :notice => "Please sign in to access this page"
   end
 
+  def belongs_to_user(item)
+    item.user_id == current_user.id
+  end
+
   private
   
   def user_from_remember_token

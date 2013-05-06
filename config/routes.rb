@@ -33,11 +33,15 @@ Quizsite::Application.routes.draw do
   get '/psets/:name', :to => 'problem_set_instances#show', :as => :pset
   get '/psets/:name/do/:pid', :to => 'problem_set_instances#do', :as => :pset_do
   get '/psets/:name/static_do/:pid', :to => 'problem_set_instances#static_do', :as => :problem_set_static_do
-  post '/psets/:name/finish_problem', :to => 'problem_set_instances#finish_problem', :as => :ps_finish_problem
+  post '/psets/:name/finish_problem', :to => 'problem_set_instances#finish_problem', :as => :finish_ps_problem
 
   # student-quiz_instances views
-  get '/quiz/do/:pid', :to => 'quiz_instances#do', :as => :quiz_do
-  post '/quiz/finish_problem', :to => 'quiz_instances#finish_problem', :as => :quiz_finish_problem
+  get '/quiz/do/:pid',          :to => 'quiz_instances#do',    :as => :quiz_do
+  get '/quiz/:id/start',        :to => 'quiz_instances#start', :as => :start_quiz
+  get '/quiz/:id/start_new',    :to => 'quiz_instances#new',   :as => :start_new_quiz
+  get '/quiz/:id/finish',       :to => 'quiz_instances#finish_quiz',:as => :finish_quiz
+  get '/quiz/:id/next_problem', :to => 'quiz_instances#next_problem',   :as => :next_quiz_problem
+  post '/quiz/finish_problem',  :to => 'quiz_instances#finish_problem', :as => :finish_quiz_problem
 
 
   # student-answers views

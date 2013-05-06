@@ -9,10 +9,10 @@ class QuizStat < ActiveRecord::Base
   validates :quiz_instance, :presence => true
 
   def update!(answer)
-    remaining -= 1
+    self.remaining = remaining - 1
 
     if remaining <= 0
-      destroy
+      # destroy
       return nil
     end
 

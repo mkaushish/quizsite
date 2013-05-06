@@ -3,7 +3,7 @@
 <%= render 'stats' %>
 
 <div class='row-fluid problem_body'>
-  <%= form_tag ps_finish_problem_path(@problem_set.id), method: :post, autocomplete: :off, remote: true do %>
+  <%= form_tag finish_ps_problem_path(@problem_set.id), method: :post, autocomplete: :off, remote: true do %>
     <%= hidden_field_tag 'stat_id', @stat.id.to_s %>
     <%= render 'problems/form' %>
   <% end %>

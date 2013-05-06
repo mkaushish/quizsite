@@ -3,25 +3,41 @@ class QuizInstancesController < ApplicationController
   # start_quiz_path(@quiz)
   def start
     @instance = QuizInstance.find(params[:id])
+
     deny_access && return unless @instance.user_id == current_user.id
+    return finish_quiz if @instance.over?
 
     @instance.start
-    redirect_to next_problem_path(@instance)
+    next_problem
   end
 
-  # GET /quizzes/:id/next_problem
+  def new
+    @pset_instance = ProblemSetInstance.find(params[:id])
+    deny_access && return unless belongs_to_user(@pset_instance)
+
+    @quiz = @pset_instance.problem_set.default_quiz
+    @instance = QuizInstance.where(:quiz_id => @quiz.id, 
+                                   :problem_set_instance_id => @pset_instance.id).first
+    @instance ||= @quiz.assign_with_pset_inst(@pset_instance)
+    @instance.start
+
+    next_problem
+  end
+
+  # GET /quizzes/:id/next_quiz_problem
   # next_quiz_problem_path
   def next_problem
-    @instance = QuizInstance.find(params[:id])
+    @instance ||= QuizInstance.includes(:problem_set).find(params[:id])
     deny_access && return unless @instance.user_id == current_user.id
 
     @stat = @instance.next_stat
     @problem_type = @stat.problem_type
     @problem = @stat.spawn_problem
-  end
 
-  def finish_problem
-    redirect_to next_problem
+    respond_to do |format|
+      format.html { render 'problem' }
+      format.js { render 'do' }
+    end
   end
 
   def do
@@ -43,11 +59,16 @@ class QuizInstancesController < ApplicationController
      # end
   end
 
-  def results
+  def finish_quiz
+    @instance ||= QuizInstance.find(params[:id])
+    @instance.finish
+
+    @answers = @instance.answers.includes(:problem_type)
+
+    render 'results'
   end
 
-  # POST /quizs/:name/finish_problem
-  # ps_finish_problem_path(:name)
+  # POST /quiz/:id/finish_problem
   def finish_problem
     @stat = QuizStat.includes(:quiz_instance).find(params[:stat_id])
     redirect_to access_denied_path && return if @stat.user != current_user
@@ -56,6 +77,10 @@ class QuizInstancesController < ApplicationController
     #@answer = current_user.answers.create params: params, session: @instance
     @stat.update!(@answer)
 
-    redirect_to quizs_path(@instance.quiz_id)
+    if @instance.over?
+      finish_quiz
+    else
+      next_problem
+    end
   end
 end
