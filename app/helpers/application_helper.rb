@@ -3,8 +3,8 @@ require 'grade6'
 module ApplicationHelper
 
   def title
-    return "SmarterGrades - The Smartest Way to Learn Maths" if @title.nil?
-    return "SmarterGrades | #{@title}"
+    return "SG - SmarterGrades"
+    return "SG - #{@title}"
   end
 
   def fastnav?

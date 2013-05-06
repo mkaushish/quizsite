@@ -1,7 +1,7 @@
 <div class="row">
   <ul class=column-list>
     <% @answers.each do |answer| %>
-      <li><%= link_to @answer.problem_type.to_s, "#" %> : <%= @answer.correct.to_s %>
+      <li><%= link_to answer.problem_type.to_s, "#" %> : <%= answer.correct.to_s %>
     <% end %>
   </ul>
 </div>

@@ -27,7 +27,12 @@ class QuizInstance < ActiveRecord::Base
     self.started_at = Time.now
     self.quiz_stats.create quiz.stat_attrs
 
-    return true
+    # the ! makes it return false if it doesn't save
+    save || !self.quiz_stats.destroy_all
+  end
+
+  def started?
+    !self.complete.nil?
   end
 
   def finish
