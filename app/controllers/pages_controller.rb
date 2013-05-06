@@ -9,7 +9,7 @@ class PagesController < ApplicationController
       redirect_to teacherhome_path
     else 
       @nav_selected = "home"
-      @problem_types = ProblemType.limit(10)
+      @problem_types = ProblemType.limit(5)
     end
 
   end
@@ -70,7 +70,8 @@ class PagesController < ApplicationController
 
   end
 
-  def sample_problem
+  def do_sample_problem
     @problem_type = ProblemType.find_by_id(params[:id])
+    respond_to { |format| format.js }
   end
 end
