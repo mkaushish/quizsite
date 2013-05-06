@@ -1,10 +1,6 @@
 login: &login
   adapter: postgresql
-<<<<<<< HEAD
   username: atlantis
-=======
-  username: thomas
->>>>>>> f61a6ee2ab55ec55dde4dff42925224ed32d30c0
   password:
   database: smartergrades
   encoding: UTF8
