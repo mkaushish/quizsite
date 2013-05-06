@@ -14,6 +14,7 @@ Quizsite::Application.routes.draw do
 
   post "pages/check_drawing"
   post "pages/exampleprobs"
+  get "pages/sample_problem/:id", :to => 'pages#sample_problem', :as => :sample_problem
 
   # session pages - so the URLs make more sense
   match '/change_password' => 'users#password_form'

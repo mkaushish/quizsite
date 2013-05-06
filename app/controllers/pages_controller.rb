@@ -9,7 +9,9 @@ class PagesController < ApplicationController
       redirect_to teacherhome_path
     else 
       @nav_selected = "home"
+      @problem_types = ProblemType.limit(10)
     end
+
   end
 
   def what_is_it
@@ -65,5 +67,10 @@ class PagesController < ApplicationController
 
   # GET access_denied
   def access_denied
+
+  end
+
+  def sample_problem
+    @problem_type = ProblemType.find_by_id(params[:id])
   end
 end

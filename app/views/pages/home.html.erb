@@ -59,10 +59,14 @@
     </div>
 </div>
 <div class='home3'>
-    <div class='dotted-border-header-black'>
+  <div class='dotted-border-header-black'>
       <p>TRY MORE SAMPLE PROBLEMS</p>
   </div>
   <div class="dotted-border">
+    <% @problem_types.each do |ptype| %>
+      <p><%= link_to ptype.name %></p>
+
+    <% end %>
   </div>
 </div>
 </div>
