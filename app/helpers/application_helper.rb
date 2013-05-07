@@ -142,8 +142,4 @@ module ApplicationHelper
   def percentage(value,total)
     ((value*100)/total)
   end
-
-  def validate_color(user, ptype)
-    ProblemSetInstance.color(user,ptype)
-  end
 end

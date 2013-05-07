@@ -1,17 +1,16 @@
-<% stat = pset_list_box %>
-<% pset = stat.problem_set %>
+<% inst = pset_list_box %>
+<% pset = inst.problem_set %>
 <% @a = Array.new %>
 
 <div class='list_box problem_list_box pset_list_box'>
   <p><%= pset.name %></p>
- 	<% pset.problem_types.each do |ptype| %>
-   		<% @a = @a.push (validate_color(@student,ptype)) %>
-	<% end %>
-   	<% @total = @a.length %>
+  <% @a = inst.problem_stats.map(&:color_status) %>
+  <% @total = inst.num_problems %>
 
-   	 <% @blue = percentage((@a.select {|v| v =="green"}.count),@total) %>
-   	 <% @green = percentage((@a.select {|v| v =="yellow"}.count),@total) %>
-   	 <% @red = percentage((@a.select {|v| v =="red"}.count),@total) %>
+  <% @blue  = percentage(@a.count("green"), @total) %>
+  <% @green = percentage(@a.count("yellow"), @total) %>
+  <% @red   = 100.0 - @blue - @green %>
+
   <%= link_to "Enter", pset_path(:name => pset.id) %>
 </div>
    	
