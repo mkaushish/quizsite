@@ -25,6 +25,15 @@
   #home_slide{
     float:right;
     margin-bottom:20px;
+    position:relative;
+    .slide_move {
+      position:absolute;
+      top:3%;
+      left:89%;
+      .home_tb{
+        vertical-align: none;
+      }
+    }
   }
   .home3 {
     width:306px;
