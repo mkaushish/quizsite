@@ -123,7 +123,7 @@ module ApplicationHelper
   end
 
   def putd(date)
-    date.strftime "%e %b %Y"
+    date.strftime "%e %B, %Y"
   end
 
   # f is the FormBuilder
@@ -133,5 +133,13 @@ module ApplicationHelper
   def render_field_block(f, klass, attribute, field_method, field_options)
     render :partial => 'shared/form_field',
            :locals => {f: f, klass: klass, attr: attribute, type: field_method, opts: field_options}
+  end
+
+  def acquired_points
+    "Points you acquired"
+  end
+
+  def percentage(value,total)
+    ((value*100)/total)
   end
 end

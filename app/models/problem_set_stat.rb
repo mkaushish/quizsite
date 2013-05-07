@@ -20,14 +20,14 @@ class ProblemSetStat < ActiveRecord::Base
     stat
   end
 
-  def update_w_ans(answer)
-    stat.points += points_for(answer.correct)
-
-    self.problem_stat = stat.update_w_ans(answer)
-
+  def update_w_ans!(answer)
+    answer.points = points_for(answer.correct)
+    answer.save
+    self.problem_stat = stat.update_w_ans!(answer)
     set_multiplier(answer.correct)
-
     change_problem
+    save
+    self
   end
 
   def points_for(correct)

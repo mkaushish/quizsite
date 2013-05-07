@@ -1,22 +1,25 @@
 <div class="modal" id="logIn" style="display:none;"> <%# class=hide get's overridden by display-block status %>
   <div class="modal-header">
-    Log In
+    <img src="/assets/Home/login_bar.png">
   </div>
   <div id="log_in_form" class="modal-body" style="font-family:SansSerif">
     <div id="log_in_errors">
+      <% if flash[:error] %>
+        <div class=form_error><%= flash[:error] %></div>
+      <% end %>
     </div>
-    <%= form_for(:session, {:url => signin_path, :html => {:class => "signin"}, :remote => true}) do |f| %>
-      <div class = "field">
-        <%= f.text_field :email, :placeholder=>"Email" %>
-        <%= f.password_field :password, :placeholder => "Password" %>
+    <%= form_tag(signin_path) do |f| %>
+      <div class = "field_block">
+        <%= label_tag "login_email", "Username" %>
+        <%= text_field_tag :login_email, flash[:email], :placeholder=>"akshat777@gmail.com" %>
+      </div>
+      <div class = "field_block">
+        <%= label_tag "login_password", "Password" %>
+        <%= password_field_tag "login_password", flash[:password], :placeholder => "*******" %>
       </div>
       <div class = "actions">
-        <%= f.submit "Sign in", :class=>"btn-primary" %>
-        <%= f.submit "Register", :class=>"btn-primary", :disabled=>"true" %>
+        <%= submit_tag "Sign in", :class=>"button-blue" %>
       </div>
     <% end %>
-  </div>
-  <div class="modal-footer">
-    <a href="#" class="btn" data-dismiss="modal">Close</a>
   </div>
 </div>

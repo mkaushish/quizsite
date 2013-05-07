@@ -12,8 +12,8 @@ class ProblemSet < ActiveRecord::Base
   has_many :problem_set_instances
   has_many :users, :through => :problem_set_instances
 
-  has_many :classrooms_problem_sets
-  has_many :classrooms, :through => :classrooms_problem_sets
+  has_many :classroom_problem_sets
+  has_many :classrooms, :through => :classroom_problem_sets
 
   has_many :quizzes
   accepts_nested_attributes_for :problem_set_problems, :allow_destroy => true
@@ -22,6 +22,9 @@ class ProblemSet < ActiveRecord::Base
 
   def assign(user)
     instance = problem_set_instances.build(:user_id => user.id)
+    instance.num_blue = instance.problem_stats.blue.count
+    instance.num_green = instance.problem_stats.green.count
+    instance.num_red = instance.problem_stats.count - instance.num_blue - instance.num_green
     return nil unless instance.save # if they already have an instance of this problem set it won't work
   end
 

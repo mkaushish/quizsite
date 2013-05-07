@@ -1,9 +1,23 @@
-<% stat = pset_list_box %>
-<% pset = stat.problem_set %>
-<div class='list_box pset_list_box'>
+<% inst = pset_list_box %>
+<% pset = inst.problem_set %>
+<% @a = Array.new %>
+
+<div class='list_box problem_list_box pset_list_box'>
   <p><%= pset.name %></p>
+  <% @a = inst.problem_stats.map(&:color_status) %>
+  <% @total = inst.num_problems %>
+
+  <% @blue  = percentage(@a.count("green"), @total) %>
+  <% @green = percentage(@a.count("yellow"), @total) %>
+  <% @red   = 100.0 - @blue - @green %>
+
+  <%= link_to "Enter", pset_path(:name => pset.id) %>
 </div>
-<div class='start_pset'>
-	<%= link_to "Start Now", pset_path(:name => pset.id) %>
-	<div class=right_triangle></div>
+   	
+
 </div>
+    <div class="progress pset_bar">
+      <div class="bar bar-info" style="width: <%= @blue %>%"></div>
+      <div class="bar bar-success" style="width: <%= @green %>%"></div>
+      <div class="bar bar-danger" style="width: <%= 100-@blue-@green %>%"></div>
+   </div>

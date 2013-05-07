@@ -179,6 +179,13 @@ form div.field_block {
   margin-bottom: 20px;
   display:block;
 }
+.quiz-link {
+  position:relative;
+  text-align:center;
+  height: 0px;
+  overflow:visible;
+}
+
 
 /* }}} */
 
@@ -189,7 +196,7 @@ form div.field_block {
 @import 'problems/tohtml/*';
 
 @import 'progress_bar.css.scss';
-
+@import 'bootstrap_progress_bar.css';
 @import 'classrooms.css.scss';
 @import 'custom_problems.css.scss';
 @import 'details.css.scss';

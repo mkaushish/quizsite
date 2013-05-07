@@ -6,7 +6,9 @@ class ProblemSetInstancesController < ApplicationController
     @instance = ProblemSetInstance.where(:problem_set_id => @problem_set.id,
                                          :user_id => current_user.id).first
     @instance ||= current_user.problem_set_instances.new(:problem_set => @problem_set)
+
     @stats = @instance.stats
+   
     @sessions = []
     @history = current_user.problem_history(@problem_set.problem_types.map(&:id)).limit(11)
   end
@@ -42,6 +44,7 @@ class ProblemSetInstancesController < ApplicationController
       # $stderr.puts "STAT_N_PROBLEM " * 20
       # $stderr.puts @stat.inspect
       # $stderr.puts @problem.inspect
+      
     else
       redirect_to access_denied_path && return
     end
@@ -57,10 +60,17 @@ class ProblemSetInstancesController < ApplicationController
     redirect_to access_denied_path && return if @stat.user != current_user
 
     @instance = @stat.problem_set_instance
-    @answer = current_user.answers.create params: params, session: @instance
-    @stat.update_w_ans(@answer)
-    @stat.save
 
+    # create answer
+    @answer = current_user.answers.create params: params, session: @instance
+
+    # update stats around answer - also modifies @answer but saves
+    @stat.update_w_ans!(@answer)
+    # updating the number of counts of each color type
+    @instance.num_blue = @instance.problem_stats.blue.count
+    @instance.num_green = @instance.problem_stats.green.count
+    @instance.num_red = @instance.problem_stats.count - @instance.num_blue - @instance.num_green
+    @instance.save
     @problem = @answer.problem.problem
     @solution = @problem.prefix_solve
     @response = @answer.response_hash

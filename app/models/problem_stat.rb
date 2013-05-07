@@ -28,10 +28,19 @@ class ProblemStat < ActiveRecord::Base
     ORDER BY created_at DESC
   } }
 
-  def update_w_ans(answer, multiplier = 1.0)
+  def update_w_ans!(answer)
+    if answer.points.nil?
+      answer.points = points_for(answer.correct)
+      answer.save
+    end
+
     self.count += 1
     self.correct += 1 if answer.correct
+    self.points += answer.points
+    user.add_points!(answer.points)
     modify_rewards(answer.correct)
+
+    save
     self
   end
 
@@ -41,7 +50,8 @@ class ProblemStat < ActiveRecord::Base
   end
 
   def points_for(correct)
-    return 10 if green?
+    return 10 if green? && correct
+    return 0 if green? && !correct
     correct ? points_right : points_wrong
   end
 
@@ -100,4 +110,17 @@ class ProblemStat < ActiveRecord::Base
       ((points_wrong > 0) || (points > 89)) ? 'yellow' : 'red'
     end
   end
+
+  def self.blue
+    where("stop_green > ?", Time.now)
+  end
+
+  def self.green
+    where("points_wrong > ?", 0)
+  end
+
+  def self.red
+    where("points > ?", 89)
+  end
+
 end

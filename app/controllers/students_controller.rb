@@ -3,7 +3,9 @@ class StudentsController < ApplicationController
 
   def home
     @student = current_user
-    @pset_instances = @student.problem_set_instances.includes(:problem_set)
+    @pset_instances = @student.problem_set_instances
+                              .includes(:problem_stats, :problem_set, :problem_set_problems)
+    @is_all_blue = @student.is_all_problem_sets_done?(@pset_instances)
   end
 
   def new
@@ -12,7 +14,7 @@ class StudentsController < ApplicationController
 
   def create
     student = Student.new(params[:student])
-
+    
     if !student.save
       $stderr.puts "STUDENT_ERRORS\n\t\t#{student.errors.full_messages.inspect}"
       $stderr.puts "FORM_FOR_ERRS:" + form_for_errs('student', student)
@@ -24,7 +26,7 @@ class StudentsController < ApplicationController
     if params[:class_pass].empty?
       classroom = Classroom.smarter_grades
     else
-      classroom = Classroom.where(:password => params[:class_pass]).first
+      classroom = Classroom.find_by_password(params[:class_pass])
     end
 
     if classroom.nil?
@@ -36,6 +38,29 @@ class StudentsController < ApplicationController
     classroom.assign!(student)
     sign_in student
     render :js => "window.location.href = '/'"
+  end
+
+  def edit
+    @student = current_user
+    respond_to do |format|
+      format.js
+    end
+  end
+
+   def update
+    @student = Student.find_by_id(params[:id])
+    @old_pass = params['student']['old_password']
+    @new_pass = params['student']['new_password']
+    @confirm_pass = params['student']['confirm_password']
+    @student.change_password(@old_pass, @new_pass, @confirm_pass)
+    sign_in @student
+    respond_to do |format|
+      if @student.update_attributes(params[:student])
+        format.html { redirect_to studenthome_path, notice: 'Your Profile is successfully updated.' }
+      else
+        format.html { render action: "edit" }
+      end
+    end
   end
 
   def me

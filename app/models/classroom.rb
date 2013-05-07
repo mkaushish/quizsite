@@ -7,8 +7,10 @@ class Classroom < ActiveRecord::Base
   has_many :students, :through => :classroom_assignments
 
   has_many :classroom_problem_sets, :dependent => :destroy
-  has_many :problem_sets, :through => :classroom_problem_sets
+  has_many :problem_sets, :through => :classroom_problem_sets,
+                          :order => 'classroom_problem_sets.created_at ASC'
 
+  has_many :classroom_quizzes, :dependent => :destroy
   has_many :quizzes
 
   validates :password, :uniqueness => true
@@ -19,6 +21,7 @@ class Classroom < ActiveRecord::Base
     where(:teacher_id => nil).first
   end
 
+  # Assign a student or problem_set to this class
   def assign!(jimmy)
     if jimmy.is_a?(Student)
       $stderr.puts "Assigning Student"
@@ -29,9 +32,13 @@ class Classroom < ActiveRecord::Base
       classroom_problem_sets.create :problem_set => jimmy
       students.each { |stu| jimmy.assign(stu) }
 
+    elsif jimmy.is_a?(Quiz)
+      classroom_quizzes.create :quiz => jimmy
+      students.each { |stu| jimmy.assign(stu) }
+
     else
       # TODO allow to assign problem sets
-      raise "You can only assign a Student to a class, not a #{jimmy.class}"
+      raise "You can only assign! a Student or ProblemSet to a Classroom, not a #{jimmy.class}"
     end
   end
 

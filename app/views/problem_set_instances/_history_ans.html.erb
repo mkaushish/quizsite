@@ -1,12 +1,17 @@
 <% answer ||= @answer %>
 <li>
-<% if answer.correct %>
-<div class=correct_hist>
-<% else %>
-<div class=incorrect_hist>
-<%end%>
-<%= link_to (answer.problem_type.to_s), 
+	<% if answer.correct %>
+		<div class="correct_hist">
+	<% else %>
+		<div class="incorrect_hist">
+	<%end%>
+	<%= link_to (answer.problem_type.to_s), 
 			    show_answer_path(id: answer.id, instance: @instance.id),
 			    remote: true %>
-</div>
+	
+		<div class="with_tooltip pull-right"
+			style="width:40px; text-align:center;" 
+      		data-original-title="<%= acquired_points %>"
+      	><%= answer.points.to_i %></div>
+	</div>
 </li>

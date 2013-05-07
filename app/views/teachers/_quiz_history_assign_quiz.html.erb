@@ -9,12 +9,12 @@
 	  	<% @quiz_history.each do |quiz| %>
 	<li class="assign_quiz_form">
 		<div>
-			Quiz from <%= quiz.created_at %>
+			Quiz from <%= putd quiz.created_at %>
 		</div>
 		<div>
 			<% if !quiz.for_class(@classroom).assigned? %>
 				<%= link_to quiz.for_class(@classroom).assigned_status, 
-							assign_quiz_path(classroom: @classroom.id, id: quiz.id), 
+							assign_quiz_path(id: @classroom.id, quiz_id: quiz.id), 
 							remote:true %>
 			<% else %>
 			<%= quiz.for_class(@classroom).assigned_status %>

@@ -3,9 +3,12 @@ class ProblemSetInstance < ActiveRecord::Base
   belongs_to :user
 
   has_many :problem_set_stats, :dependent => :destroy
-  has_many :problem_types, :through => :problem_set
+  has_many :problem_stats, :through => :problem_set_stats
 
-  has_many :problems, :as => :session
+  has_many :problem_set_problems, :through => :problem_set
+  has_many :problem_types, :through => :problem_set_problems
+
+  has_many :answers, :as => :session
 
   validates :user, :presence => true
   validates :problem_set, :presence => true
@@ -63,7 +66,6 @@ class ProblemSetInstance < ActiveRecord::Base
 
       @tmpstats << next_stat
     end
-
     self.problem_set_stats = @tmpstats
   end
 
@@ -79,6 +81,10 @@ class ProblemSetInstance < ActiveRecord::Base
     return 'green'
   end
 
+  def num_problems
+    problem_set_problems.length
+  end
+
   private
 
   def new_stat(problem_type, look_up_problem_stat = false)
@@ -86,5 +92,4 @@ class ProblemSetInstance < ActiveRecord::Base
       my_stat.assign_problem_stat! if look_up_problem_stat
       my_stat
   end
-
 end

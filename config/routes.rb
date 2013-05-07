@@ -26,19 +26,30 @@ Quizsite::Application.routes.draw do
   get '/studenthome', :to => 'students#home'
   get '/students/new',:to => 'students#new', :as => :new_student
   post '/students',   :to => 'students#create', :as => :students
+  get '/student/edit',:to => 'students#edit', :as => :edit_student
+  put '/students/:id', :to => 'students#update', :as => :update_student
 
+  # student-problem_set_instances views
   get '/psets/:name', :to => 'problem_set_instances#show', :as => :pset
   get '/psets/:name/do/:pid', :to => 'problem_set_instances#do', :as => :pset_do
   get '/psets/:name/static_do/:pid', :to => 'problem_set_instances#static_do', :as => :problem_set_static_do
   post '/psets/:name/finish_problem', :to => 'problem_set_instances#finish_problem', :as => :ps_finish_problem
 
+  # student-quiz_instances views
+  get '/quiz/do/:pid', :to => 'quiz_instances#do', :as => :quiz_do
+  post '/quiz/finish_problem', :to => 'quiz_instances#finish_problem', :as => :quiz_finish_problem
+
+
+  # student-answers views
   get '/answers/:id/show', to: 'answers#show', as: :show_answer
   get '/answers/:id/static_show', to: 'answers#static_show', as: :static_show_answer
 
+  # student-explanations views
   get '/:id/explain',          to: 'explanations#explain', as: :explain_problem
   post '/:id/explain/expand',  to: 'explanations#expand', as: :expand
   post '/:id/explain/next',    to: 'explanations#next_subproblem', as: :next_subproblem
 
+  # student-problem_types views
   get '/problem_type/:id',  to: 'problem_types#show', as: :problem_type
   post '/problems/:id/finish', to: 'problems#finish', as: :finish_problem
 
@@ -53,10 +64,16 @@ Quizsite::Application.routes.draw do
 
   get '/:classroom/:pset/new_quiz', to: 'quizzes#new', as: :new_quiz
   post '/quizzes/create',           to: 'quizzes#create', as: :create_quiz
-  get ':classroom/assign_quiz/:id', to: 'quizzes#assign', as: :assign_quiz
+  # post ':classroom/assign_quiz/:id', to: 'quizzes#assign', as: :assign_quiz
   get '/:classroom/:pset/show',     to: 'quizzes#show', as: :quiz
 
   post '/:classroom/:quiz/assign'
+
+  # :id => classroom id
+  get  ':id/show_psets/', to: 'classrooms#show_psets', as: :show_psets
+  get  ':id/show_quizzes/', to: 'classrooms#show_quizzes', as: :show_quizzes
+  get ':id/assign_pset/:pset_id', to: 'classrooms#assign_pset', as: :assign_pset
+  get ':id/assign_quiz/:quiz_id', to: 'classrooms#assign_quiz', as: :assign_quiz
 
   #
   # general static pages
@@ -77,7 +94,6 @@ Quizsite::Application.routes.draw do
   # get '/bhutan',        :to => 'pages#bhutan'
   # get '/notepad',       :to => 'pages#notepad'
   # get '/measure',       :to => 'pages#measure'
-  # get '/dgraph',        :to => 'problem#dgraph'
 
   # match '/nologinhome_3dbfabcacc12868a282be76f5d59a19813', :to => 'pages#nologinhome'
   root                  :to => 'pages#home'

@@ -10,16 +10,64 @@
   float:left;
 }
 #home {
-  // font-family:"Home_hand";
+  font-family:"Home_hand";
   font-size:20px;
-  width:100%;
+  width:102%;
   height:100%;
+  .home2 {
+    float:left;
+    width:288px;
+    margin-bottom:20px;
+    .dotted-border{
+    height:252px;
+  }
+  }
+  .home_slide{
+    //float:right;
+    position:relative;
+    .hm_sl{
+    width:100%;
+  }
+  .slide_hm{
+    p{
+      position:absolute;
+      font-size:60px;
+      left:10%;
+      top:26%;
+    }
+    .get_started_button{
+      position:absolute;
+      background-image:url("/assets/Home/get_started.png");
+      width:288px;
+      height:82px;
+      background-size:288px;
+      top:80%;
+      left:25%;
+    }
+  }
+    margin-bottom:20px;
+    position:relative;
+    .slide_move {
+      position:absolute;
+      top:3%;
+      left:89%;
+      .home_tb{
+        vertical-align: none;
+      }
+    }
+  }
   .home3 {
-    width:33%;
+    width:306px;
+    float:left;
     height:150px;
     text-align:center;
+    .dotted-border-header-black {
+      font-size: 24px;
+    }
     .dotted-border {
-      width:85%;
+      border-color:#3a9fae;
+      float:left;
+      width:284px;
       height:100%;
       #video_home {
         width:100%;
@@ -32,6 +80,26 @@
     }
   }
 }
+    .testimonial{
+      height:214px;
+      width:288px;
+      background-image:url("/assets/Home/blue_wall.png");
+      color:white;
+      text-align: left;
+      float:left;
+      margin-right: 28px;
+      br {
+        height:20px;
+      }
+      a {
+        color:white;
+      margin:20px;
+      padding-left:5px;
+      padding-right:5px;
+      font-size:24px;
+      background-color: #2b8a99;
+    }
+    }
 
 .teammember { 
   img {

@@ -1,4 +1,4 @@
-$prog_bar_h: 7px;
+$prog_bar_h: 12px;
 .progress_bar {
 	position:relative;
 	height: $prog_bar_h;
@@ -70,39 +70,39 @@ $prog_bar_h: 7px;
 		background-color:$red;
 	}
 	.right {
-		background-color:$green;
+		background-color:$sg_blue;
 	}
 	.middle {
 		background-color: $llred;
 	}
 	.right_points {
-		background-color: $green;
+		background-color: $sg_blue;
 	}
 }
 
 .progress_bar.yellow {
 	&>.left {
-		background-color:$yellow;
+		background-color:$sg_green;
 	}
 	&>.right {
-		background-color:$green;
+		background-color:$sg_blue;
 	}
 	&>.middle {
-		background-color: $llyellow;
+		background-color: $sg_green;
 		.complete {
-			background-color:$yellow;
+			background-color:$sg_green;
 		}
 		.wrong_points {
 			background-color: $red;
 		}
 		.right_points {
-			background-color:$green;
+			background-color:$sg_blue;
 		}
 	}
 }
 
 .progress_bar.green {
 	div {
-		background-color:$green;
+		background-color:$sg_blue;
 	}
 }

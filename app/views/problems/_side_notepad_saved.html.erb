@@ -1,0 +1,38 @@
+<div class="side-notes">
+  <br></br>
+  <div id="notepadcover" style="position:relative; display:inline-block">
+    <div class="calculations" style="position:absolute; width:390px;">
+      <div class="np_head" style="position:absolute">
+        <h4>Notes</h4>
+        <div id="drawnp" class="tbicons">
+          <i class="icon-pencil"></i>
+        </div>
+        <input type="color" id="npcolorpicker"></input>
+      </div>
+      <div class="lborg"></div>
+      <div class="rborg"></div>
+
+      <div id="note" style="position:relative">
+        <div id="npPane" style="position:absolute; top:0px; left:0px; width:370px;"></div>
+        <canvas id="notepad" height=222px width=346px border=2px>
+        Your browser does not support the HTML5 Canvas feature. This app uses new HTML5 features and will only work on the latest versions of Firefox, Safari or Chrome (and maybe Internet Explorer 9).
+        </canvas>
+        
+          <% parsed_json = ActiveSupport::JSON.decode(@answer.notepad) %>
+          
+          <% parsed_json.to_a.flatten!.each do |a| %>
+            <%= a  %>
+          <% end %>
+          
+      </div>
+      <%= hidden_field_tag 'npstr', "" %>
+    </div>
+    <%= render 'notepad/calculator' %>
+  </div>
+</div>
+<script> notepad_new(); </script>
+<script>
+  $(function(){
+    $('#note').jScrollPane({hideFocus:true});
+  });
+</script>

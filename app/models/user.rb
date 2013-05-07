@@ -37,7 +37,7 @@ class User < ActiveRecord::Base
   @@email_regex = /^[\w0-9+.!#\$%&'*+\-\/=?^_`{|}~]+@[a-z0-9\-]+(:?\.[0-9a-z\-]+)+$/i
 
   attr_accessor :password, :password_confirmation
-  attr_accessible :email, :name, :password, :password_confirmation, :notepad
+  attr_accessible :email, :name, :password, :password_confirmation, :image
   serialize :problem_stats, Hash
 
   has_many :custom_problems, :class_name => 'Problem'
@@ -56,11 +56,22 @@ class User < ActiveRecord::Base
 
   validates :email, :presence => true,
                     # :format => { :with => @@email_regex },
-                    :uniqueness => { :case_sensitive => false }
+                    :uniqueness => { :case_sensitive => false },
+                    :if => lambda{|a| a.new_record?}
 
   validates :password, :presence => true,
                        :confirmation => true,
-                       :length => { :within => 6..40 }
+                       :length => { :within => 6..40 },
+                       :if => lambda{|a| a.new_record?}
+
+  validates_attachment_content_type :image,
+                                    :content_type => ['image/png', 'image/jpeg', 'image/jpg', 'image/gif'],
+                                    :message => "Not supported file type",
+                                    :if => lambda{|a| !a.new_record?}
+
+  has_attached_file :image, 
+                    :styles => { :medium => "300x300>", :thumb => "70x70>", :small => "40x40>" }, 
+                    :default_url => "/assets/default_70x70.png"
 
   before_save  :encrypt_password
 
@@ -80,24 +91,6 @@ class User < ActiveRecord::Base
 
   def has_password?(submitted_password)
     self.encrypted_password == encrypt(submitted_password)
-  end
-
-  def smart_score(ptype)
-    # TODO implement smartscore + calculations for real, right now just percent
-    my_stat = self.stat(ptype)
-
-    return "?" if my_stat.count == 0
-    return my_stat.correct * 100 / my_stat.count
-  end
-
-  def quiz_score(quiz) 
-    sum_student = 0
-    sum_total = 0
-    quiz.ptypes.each do |ptype|
-      sum_student += smartScore(ptype).to_i # note that "?".to_i => 0
-      sum_total += 100
-    end
-    sum_student * 100 / sum_total
   end
 
   # TODO this is currently not being run before create
@@ -123,10 +116,6 @@ class User < ActiveRecord::Base
     return self.confirmed
   end
 
-  def stats(ptype)
-    self.problem_stats[ptype.to_s] || empty_stats
-  end
-
   def stat(problem_type)
     puts "NOW PROBLEMTYPE = #{problem_type}"
     stats = problem_stats.where(:problem_type_id => problem_type.id)
@@ -138,20 +127,16 @@ class User < ActiveRecord::Base
     end
   end
 
-  def update_stats(problem_type, correct)
-    my_stat = stat(problem_type)
-    my_stat.update!(correct)
-  end
-
   def self.find_by_email(s)
     s.kind_of?(String) && super(s.downcase) 
   end
 
-  private
-
-  def empty_stats
-    { :count => 0, :correct => 0 }
+  def add_points!(p)
+    self.points += p
+    save(:validate => false)
   end
+
+  private
 
   def encrypt_password
     if self.encrypted_password.nil? || !password.nil?

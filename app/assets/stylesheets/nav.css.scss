@@ -3,6 +3,7 @@
 $image_height: 72px;
 $bar_to_top: ($image_height / 2) + 5px;
 .sg-nav {
+  font-family:"Home_hand";
   height:$image_height;
   margin-bottom:20px;
 
@@ -18,7 +19,7 @@ $bar_to_top: ($image_height / 2) + 5px;
 
     height: $bar_to_top;
 
-    font-size: 13px;
+    font-size: 24px;
     font-weight: bold;
 
     li {
@@ -41,12 +42,25 @@ $bar_to_top: ($image_height / 2) + 5px;
       margin-top: $bar_to_top - 8 - 9 - 15 - 2px;
 
       background-color: white;
-      border-top: 2px solid $sg_green;
-      border-right: 2px solid $sg_green;
-      border-left: 2px solid $sg_green;
+      border-top: 2px solid #aec833;
+      border-right: 2px solid #aec833;
+      border-left: 2px solid #aec833;
+    }
+    li.switch-to-blue {
+      height:15px;
+      padding: 8px 16px 9px 16px;
+      margin-top: $bar_to_top - 8 - 9 - 15 - 2px;
+      background-color: #3a9fae;
+      border-top: 2px solid #3a9fae;
+      border-right: 2px solid transparent;
+      border-left: 2px solid transparent;
+      a {
+        color:white;
+      }
     }
     li.switch-to-header {
-      font-size: 11px;
+      display:none;
+      font-size: 20px;
       color: $sg_green;
       padding: 12px 7px 5px 7px;
     }
@@ -86,11 +100,11 @@ $bar_to_top: ($image_height / 2) + 5px;
     //top: 28px;
     @include gradient(white, #eef4f4);
     &:first-child {
-      border-bottom: 2px solid $sg_blue;
+      border-bottom: 2px solid #41a1a7;
     }
 
     &:last-child {
-      border-bottom: 2px solid $sg_green;
+      border-bottom: 2px solid #aec833;
     }
   }
 }

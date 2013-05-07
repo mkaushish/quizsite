@@ -1,0 +1,48 @@
+<% pset.problem_types.each do |ptype| %>
+  	<% if !ProblemStat.where(:user_id => current_user.id, :problem_type_id => ptype.id).blank? %>
+  		<% pstat = ProblemStat.where(:user_id => current_user.id, :problem_type_id => ptype.id).last %>
+		<% if pstat.points > 500 %>
+			<% @g =+1 %>
+			<% @y = 0 %>
+			<% @r = 0 %>
+		<% elsif pstat.points_wrong > 0 %>
+			<% @g = 0 %>
+			<% @y = +1 %>
+			<% @r = 0 %>
+		<% else pstat.points > 89 && pstat.points < 500 %>
+			<% @g = 0 %>
+			<% @y = 0 %>
+			<% @r = +1 %>
+		<% end %>
+
+	<% end %>	
+	<%= @g %>
+		<%= @y %>
+		<%= @r %>
+		<br>
+	<% end %>
+<% @a = Array.new %>
+
+<div class='list_box pset_list_box'>
+  <p><%= pset.name %></p>
+ 	<% pset.problem_types.each do |ptype| %>
+   		<% @a = @a.push (ProblemSetInstance.where(:user_id=>59).last.stat(ptype).color_status) %>
+		
+   	<% end %>
+   	<%= @a %>
+</div>
+@quiz = Quiz.first
+    @instance = QuizInstance.where(:quiz_id => @quiz.id,
+                                    :user_id => current_user.id).first
+    @instance ||= current_user.quiz_instances.create(:quiz => @quiz).start
+    redirect_to access_denied_path && return if @instance.nil?
+    
+    @problem_set = ProblemSet.find_by_id(@quiz.problem_set_id)
+    
+     if @quiz.problem_types.exists?
+        @problem_type = @quiz.problem_types
+        @stat = @instance.quiz_stats(@problem_type)
+        @problem = @stat.spawn_problem
+     #else
+     #   redirect_to access_denied_path && return
+      end

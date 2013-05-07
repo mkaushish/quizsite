@@ -32,6 +32,15 @@ class Quiz < ActiveRecord::Base
     where(problem_set_id: pset).includes(:classroom_quizzes)
   end
 
+  def stat_attrs
+    @stat_attrs = quiz_problems.map do |qp|
+      {
+        "problem_type_id" => qp.problem_type_id,
+        "remaining" => qp.count
+      }
+    end
+  end
+
   def for_class(klass)
     @class_quizzes ||= {}
     @class_quizzes[klass] ||= classroom_quizzes.where(classroom_id:klass.id).first
@@ -58,5 +67,10 @@ class Quiz < ActiveRecord::Base
 
   def ptypes
     @ptypes ||= Marshal.load(self.problemtypes)
+  end
+
+  def assign(user)
+    instance = quiz_instances.build(:user_id => user.id)
+    return nil unless instance.save # if they already have an instance of this problem set it won't work
   end
 end

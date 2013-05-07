@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130409055656) do
+ActiveRecord::Schema.define(:version => 20130502104902) do
 
   create_table "answers", :force => true do |t|
     t.boolean  "correct"
@@ -26,6 +26,7 @@ ActiveRecord::Schema.define(:version => 20130409055656) do
     t.integer  "session_id"
     t.string   "session_type"
     t.integer  "problem_type_id"
+    t.integer  "points"
   end
 
   add_index "answers", ["user_id", "created_at"], :name => "index_problemanswers_on_user_id_and_created_at"
@@ -45,6 +46,8 @@ ActiveRecord::Schema.define(:version => 20130409055656) do
     t.integer  "problem_set_id"
     t.datetime "starts_at"
     t.datetime "ends_at"
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
   add_index "classroom_problem_sets", ["classroom_id", "problem_set_id"], :name => "index_hw_assignments_on_classroom_id_and_homework_id", :unique => true
@@ -97,6 +100,9 @@ ActiveRecord::Schema.define(:version => 20130409055656) do
     t.integer  "problem_set_id"
     t.datetime "last_attempted"
     t.datetime "stop_green",     :default => '2013-02-11 00:56:57', :null => false
+    t.integer  "num_blue"
+    t.integer  "num_green"
+    t.integer  "num_red"
   end
 
   add_index "problem_set_instances", ["user_id", "problem_set_id"], :name => "problem_set_instances_by_user", :unique => true
@@ -151,11 +157,10 @@ ActiveRecord::Schema.define(:version => 20130409055656) do
   create_table "quiz_instances", :force => true do |t|
     t.integer  "quiz_id"
     t.integer  "user_id"
-    t.string   "s_problem_order"
-    t.integer  "problem_id",      :default => -1
-    t.integer  "num_attempts",    :default => 0
     t.datetime "last_attempted"
     t.datetime "started_at"
+    t.datetime "ended_at"
+    t.boolean  "complete"
   end
 
   add_index "quiz_instances", ["quiz_id", "user_id"], :name => "index_quiz_users_on_quiz_id_and_user_id", :unique => true
@@ -196,11 +201,14 @@ ActiveRecord::Schema.define(:version => 20130409055656) do
     t.datetime "updated_at"
     t.string   "encrypted_password"
     t.string   "salt"
-    t.binary   "problem_stats"
     t.string   "confirmation_code"
     t.boolean  "confirmed",          :default => false
     t.string   "type"
     t.integer  "points",             :default => 0
+    t.string   "image_file_name"
+    t.string   "image_content_type"
+    t.integer  "image_file_size"
+    t.datetime "image_updated_at"
   end
 
   add_index "users", ["email"], :name => "index_users_on_email", :unique => true

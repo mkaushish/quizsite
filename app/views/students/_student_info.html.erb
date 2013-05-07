@@ -1,0 +1,10 @@
+<div class="student-info">
+  <%= link_to (image_tag @student.image.url(:thumb), :style => "margin-top:0px;", :class => "pull-right"), edit_student_path, :remote => true  %>
+  <ul class="breadcrumb pull-right stinfo">
+    <li>
+    <h4><%= link_to @student.name,  edit_student_path, :remote => true %></h4>
+    <h4>Points: <span class="label label-info" style="background-color:#60b349"><%= number_with_delimiter(@student.points) %></span></h4>
+    
+    </li>
+  </ul>
+</div>

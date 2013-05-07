@@ -53,7 +53,7 @@ module SessionsHelper
 
   def students_teacher
     if current_user.is_a? Student
-      @students_seacher || current_user.teachers.first
+      @students_teacher ||= current_user.teachers.first
     else
       nil
     end
@@ -70,65 +70,6 @@ module SessionsHelper
 
   def deny_access
     redirect_to access_denied_path, :notice => "Please sign in to access this page"
-  end
-
-  # USER QUIZ RELATED
-  def get_probs
-    return [] if session[:problems].nil?
-    session[:problems].map { |p| dec_prob(p) }
-  end
-
-  def set_probs(*probs)
-    myprobs = (probs[0].is_a? Array) ? probs[0] : probs
-    session[:problems] = myprobs.map { |p| enc_prob(p) }
-  end
-
-  def set_examples(ptype)
-    session[:ptype] = ptype.to_s
-  end
-
-  def in_examples?
-    !session[:ptype].nil?
-  end
-
-  def example_type
-    session[:ptype].constantize
-  end
-
-  def set_quiz(quiz)
-    session[:ptype] = nil
-    session[:quizid] = quiz.id
-    set_probs quiz.ptypes
-  end
-
-  def stop_quiz
-    session[:quizid] = nil
-    session[:problems] = []
-  end
-
-  def quiz_name
-    Quiz.find(session[:quizid]).name
-  end
-
-  def in_quiz?
-    return !session[:quizid].nil?
-  end
-
-  # NOTE below 3 methods can ONLY be called when (signed_in? && in_quiz?)
-  # otherwise an uncaught exception WILL BE THROWN
-  def quiz_user
-    @quiz_user ||= current_user.quiz_users.where(:quiz_id => session[:quizid].to_i)[0]
-  end
-
-  def next_problem
-    return quiz_user.next_problem
-  end
-
-  # increments the user's progress through the quiz based on whether they got the last problem right
-  def increment_problem(last_correct)
-    if in_quiz?
-      quiz_user.increment_problem(last_correct)
-    end
   end
 
   private

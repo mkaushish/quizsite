@@ -1,16 +1,11 @@
 <div class='row-fluid problem_view_stats'>
-  <% if @instance %>
-    <div class="pset_title">
-    	<%= @instance.name %>
-    </div>
-  <% end %>
-  <div class="stat" style="padding:0;">
+
+<!-- <div class="stat" style="padding:0;">
     <ul>
       <li>DONE<div><%= @stat.count %></div></li>
       <li>CORRECT<div><%= @stat.correct %></div></li>
-      <%# puts "************\n"+@stat.to_s+"\n*************\n"%>
-      <!--<li><div><%# @stat.percent %></div>PERCENT CORRECT</li>-->
     </ul>
-  </div>          
-  <%= link_to_function "Back", 'hideProblem()', :class => 'pull-right button-blue', :style=>'z-index:10;' %>
+  </div>-->       
+<div class='prob_grad_1'></div>
+  <%= link_to_function "", 'hideProblem()', :class => 'pull-right exit_qu', :style=>'z-index:10;' %>
 </div>

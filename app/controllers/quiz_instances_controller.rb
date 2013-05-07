@@ -1,4 +1,4 @@
-class QuizInstanceController < ApplicationController
+class QuizInstancesController < ApplicationController
   # GET /quizs/:name
   # quizs_path(:name)
   def show
@@ -12,19 +12,23 @@ class QuizInstanceController < ApplicationController
   end
 
   def do
-    @quiz = Quiz.find(params[:name])
-    @instance = QuizInstance.where(:quiz_id => @quiz.id,
-                                   :user_id => current_user.id).first
-    # @instance ||= current_user.quiz_instances.new(:quiz => @quiz)
-    redirect_to access_denied_path && return if @instance.nil?
 
-    if @quiz.problem_types.exists? params[:pid]
-      @problem_type = @quiz.problem_types.find(params[:pid])
-      @stat = @instance.stat(@problem_type)
-      @problem = @stat.spawn_problem
-    else
-      redirect_to access_denied_path && return
-    end
+    @quiz = Quiz.first
+    @instance = QuizInstance.where(:quiz_id => @quiz.id,
+                                    :user_id => current_user.id).first
+    @instance ||= current_user.quiz_instances.new(:quiz => @quiz)
+    redirect_to access_denied_path && return if @instance.nil?
+    
+    @problem_set = ProblemSet.find_by_id(params[:pid])
+    @problem_type = @quiz.problem_types
+    @problem = Problem.last
+     #if @quiz.problem_types.exists? params[:pid]
+     #   @problem_type = @quiz.problem_types.find(params[:pid])
+     #   @stat = @instance.stat(@problem_type)
+     #   @problem = @stat.spawn_problem
+     #else
+     #   redirect_to access_denied_path && return
+     # end
   end
 
   def problem_results
@@ -33,11 +37,11 @@ class QuizInstanceController < ApplicationController
   # POST /quizs/:name/finish_problem
   # ps_finish_problem_path(:name)
   def finish_problem
-    @stat =     QuizStat.includes(:quiz_instance).find(params[:stat_id])
+    @stat = QuizStat.includes(:quiz_instance).find(params[:stat_id])
     redirect_to access_denied_path && return if @stat.user != current_user
 
     @instance = @stat.quiz_instance
-    @answer = current_user.answers.create params: params, session: @instance
+    #@answer = current_user.answers.create params: params, session: @instance
     @stat.update!(@answer)
 
     redirect_to quizs_path(@instance.quiz_id)

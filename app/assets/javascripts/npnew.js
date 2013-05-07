@@ -5,18 +5,9 @@ function notepad_new() {
   var context = canvas.getContext('2d');
   $("#npcolorpicker").val("#E85858");
   $("#sv_opform").hide();
+  answer=false;
   var ytem = undefined;
-  try { ytem = JSON.parse($("#npstr").attr("value")); } catch(err) {}
-  if(ytem != "" && ytem != undefined) {
-    draw=ytem[1];
-    for(i=0; i<ytem[0].length; i++){
-      addline(ytem[0][i]);
-    }
-  }
-  else { 
-    var notes = []; 
-    var draw=[];
-  }
+  var pane=$("#note").jScrollPane().data("jsp");
   var mousex;
   var downx;
   var mousey;
@@ -24,15 +15,26 @@ function notepad_new() {
   var mousedown=false;
   var lheight=20;
   var mode="wr";
-  var pane=$("#note").jScrollPane().data("jsp");
+  try { ytem = JSON.parse($("#npstr").attr("value")); } catch(err) {}
+  var notes = []; 
+  var draw=[];
+  if(ytem != "" && ytem != undefined) {
+    answer=true;
+    draw=ytem[1];
+    for(p=0; p<ytem[0].length; p++){
+      addline(ytem[0][p]);
+    }
+  }
   function addline(ln, lsp){
     lsp = typeof lsp !== 'undefined' ? lsp : 0;
-    $("#npPane").append("<p style=\"position:absolute; text-indent:"+lsp*8+"px; left:2px; top:"+(2+notes.length*lheight)+"px; width:"+canvas.width+"px\">"+ln+"</p>");
-    notes.push(ln);
+    //alert("<p style=\"position:absolute; text-indent:"+(lsp*8)+"px; left:2px; top:"+(2+notes.length*lheight)+"px; width:"+canvas.width+"px\">"+ln+"</p>");
+    $("#npPane").append("<p style=\"position:absolute; text-indent:"+(lsp*8)+"px; left:2px; top:"+(2+notes.length*lheight)+"px; width:"+canvas.width+"px\">"+ln+"</p>");
+    notes[notes.length]=ln;
     $('#notes').attr("value", "");
     $('#notes').css("top", ""+(notes.length*lheight+13)+"px");
     canvas.height=Math.max(parseInt($("#notes").css("top"))+15, canvas.height);
     context.lineWidth=3;
+    ct=0;
     for(j=0; j<draw.length; j++){
       if(draw[j].length>1){
         context.strokeStyle=draw[j][0][2];
@@ -45,7 +47,10 @@ function notepad_new() {
     }
     pane.reinitialise();
     pane.scrollToPercentY(100, true);
-    $("#npstr").attr("value", JSON.stringify([notes, draw]));
+    if(!answer){
+      $("#npstr").attr("value", JSON.stringify([notes, draw]));
+
+    }
   }
   $("#drawnp").click(function(e){
     if(mode!="dr"){

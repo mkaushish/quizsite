@@ -8,19 +8,39 @@ $blackboard_h: 148px;
 $border_w: 7px;
 // $border_w: 0px;
 
+.student-info {
+  float:right;
+  position:relative;
+  top: -28px;
+  
+  height: 10px;
+  overflow:visible;
+}
+.badge {
+  float: right;
+  position:relative;
+  top: -28px;
+  background: transparent;
+}
+.stinfo {
+  font-family:"Sans";
+  font-size:12px;
+}
+
 .jScroll_bboard{
-  margin-top: 34px;
+  margin-top: 10px;
   margin-left: 2px;
   margin-right: 5px;
   width: 635px;
   height: 400px;
+
 }
 
 
 .list-box-table {
   td {
     padding-right: 25px;
-    padding-bottom: 25px;
+    padding-bottom: 10px;
     width:$blackboard_w;
     &:last-child {
       padding-right: 0;
@@ -49,22 +69,26 @@ $border_w: 7px;
     border-color: $lred;
   }
   .green-bord {
-    border-color: $green;
+    border-color: $sg_blue;
   }
   .yellow-bord {
-    border-color: $lyellow;
+    border-color: $sg_green;
   }
 
   div.problem_list_box {
     p {
       width: $blackboard_w - 30px;
       padding: 0 (15px - $border_w);
-      margin-top: (40px - $border_w);
+      margin-top: 9px;
       text-align: center;
       color: white;
-      // font-size:24px;
-      // font-family:"Chalk2";
-  }
+      font-size:24px;
+      font-family:"Chalk2";
+      overflow: visible;
+      small {
+        font-family:"Courier";
+      }
+    }
 
   a,.link {
     position: absolute;
@@ -92,12 +116,12 @@ div.pset_list_box {
   vertical-align:middle;
   p {
     width: $blackboard_w - 30px;
-    padding: 0;
+    padding: 0 (15px - $border_w);
     margin-top: 0;
     text-align: center;
     color: white;
-    font-size: 20px;
-    font-family:"Chalk1";
+    font-size: 24px;
+    font-family:"Chalk2";
   }
 
 }
@@ -133,4 +157,25 @@ div.pset_list_box {
       @include right-triangle(14px, $sg_blue);
       margin:0;
     }
+  }
+  .quiz-link{
+    a, .link{
+      position: absolute;
+    left: 150px;
+    display: block;
+    padding: 5px;
+
+    width:117px;
+    height: 17px;
+
+    text-align: center;
+    color: white;
+    background-color: $sg_green;
+
+    box-shadow: 4px 4px 2px black;
+    }
+  }
+  .gif_tick{
+    float: right;
+    overflow: visible; 
   }
