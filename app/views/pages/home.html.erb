@@ -65,7 +65,6 @@
   <div class="dotted-border">
     <% @problem_types.each do |ptype| %>
       <p><%= link_to ptype.name, do_sample_problem_path(ptype.id), remote: :true %></p>
-
     <% end %>
     <p><%= link_to "and more", root_path(:ptypes => "all"), remote: :true %></p>
   </div>
