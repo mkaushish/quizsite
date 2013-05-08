@@ -40,9 +40,12 @@
   border-color:#147ea5 #147ea5 #147ea5 transparent;
 }
 .np_head {
-  left:35%;
+  left:10%;
   width:100px;
-  top:-20px;
+  top:-10px;
+  padding-left:15px;
+  padding-right:15px;
+  background-color:white;
   h4 {float:left;}
   #drawnp {
     float:right;
@@ -64,7 +67,9 @@
 #note {
   margin-left:12px;
   padding-top:14px;
-  //border-color:#0083ad;
+  border-color:#b1b1b1;
+  border-style:solid;
+  border-width:1px;
   position:relative;
   height:242px;
   width:370px;
