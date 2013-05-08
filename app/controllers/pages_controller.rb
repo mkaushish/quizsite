@@ -75,5 +75,6 @@ class PagesController < ApplicationController
   def access_denied
 
   end
+  
 
 end
