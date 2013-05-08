@@ -70,12 +70,4 @@ class PagesController < ApplicationController
 
   end
 
-  def do_sample_problem
-    @problem_type = ProblemType.find_by_id(params[:id])
-    @problem = @problem_type.spawn_problem
-  end
-  def finish_sample_problem
-    @problem_type = ProblemType.find_by_id(params[:id])
-    @problem = @problem_type.spawn_problem
-  end
 end
