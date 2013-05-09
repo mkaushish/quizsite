@@ -42,8 +42,9 @@ class QuizInstancesController < ApplicationController
 
     @instance = @stat.quiz_instance
     #@answer = current_user.answers.create params: params, session: @instance
-    @stat.update!(@answer)
 
+    @stat.update!(@answer)
+    
     redirect_to quizs_path(@instance.quiz_id)
   end
 
