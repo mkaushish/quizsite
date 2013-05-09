@@ -46,6 +46,7 @@ class QuizInstancesController < ApplicationController
   def finish_quiz
     @title = "Quiz Results"
     @instance ||= QuizInstance.find(params[:id])
+    
     @instance.finish
 
     @answers = @instance.answers.includes(:problem_type)

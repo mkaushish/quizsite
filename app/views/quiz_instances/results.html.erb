@@ -1,7 +1,11 @@
 <div class="row">
   <ul class=column-list>
+  	<h2>Quiz Result</h2>
     <% @answers.each do |answer| %>
       <li><%= link_to answer.problem_type.to_s, "#" %> : <%= answer.correct.to_s %>
+      	<% if m_unpack(answer.response).first.last.blank? %>
+      		<%= link_to "Please give an answer", "#" %>
+      	<% end %>
     <% end %>
   </ul>
 </div>
