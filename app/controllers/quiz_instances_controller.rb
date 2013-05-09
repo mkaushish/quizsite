@@ -25,6 +25,24 @@ class QuizInstancesController < ApplicationController
     next_problem
   end
 
+  
+  # GET /quizzes/:id/next_quiz_problem
+  # next_quiz_problem_path
+  def back_problem
+    deny_access && return unless @instance.user_id == current_user.id
+    return finish_quiz if @instance.over?
+
+    @stat = @instance
+    @problem_type = @stat.problem_type
+    @problem = @stat.spawn_problem
+
+    respond_to do |format|
+      format.html { render 'problem' }
+      format.js { render 'do' }
+    end
+  end
+
+
   # GET /quizzes/:id/next_quiz_problem
   # next_quiz_problem_path
   def next_problem
@@ -46,7 +64,7 @@ class QuizInstancesController < ApplicationController
   def finish_quiz
     @title = "Quiz Results"
     @instance ||= QuizInstance.find(params[:id])
-    
+
     @instance.finish
 
     @answers = @instance.answers.includes(:problem_type)

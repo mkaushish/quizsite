@@ -4,9 +4,11 @@
 <div class='row-fluid problem_body'>
   <%= form_tag finish_quiz_problem_path, method: :post, autocomplete: :off do %>
     <%= hidden_field_tag 'stat_id', @stat.id.to_s %>
+    <%= link_to "Previous Problem", "#" , :class => 'button-blue'%>
     <%= submit_tag "Next Problem", :class => 'pull-right button-blue' %>
+    <br /><br />
     <%= @instance.name %>
-    
+
     <%= render 'problems/nameless_form', :@problem => @problem %>
   <% end %>
 </div>
