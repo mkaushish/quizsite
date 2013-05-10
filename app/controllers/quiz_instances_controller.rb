@@ -28,7 +28,8 @@ class QuizInstancesController < ApplicationController
   
   # GET /quizzes/:id/next_quiz_problem
   # next_quiz_problem_path
-  def back_problem
+  def previous_problem
+    @instance ||= QuizInstance.includes(:problem_set).find(params[:id])
     deny_access && return unless @instance.user_id == current_user.id
     return finish_quiz if @instance.over?
 
