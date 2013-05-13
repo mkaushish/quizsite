@@ -33,9 +33,7 @@ class QuizInstancesController < ApplicationController
     deny_access && return unless @instance.user_id == current_user.id
     return finish_quiz if @instance.over?
 
-    @stat = @instance
-    @problem_type = @stat.problem_type
-    @problem = @stat.spawn_problem
+    @answers = @instance.answers.where(:correct => "true")
 
     respond_to do |format|
       format.html { render 'problem' }
