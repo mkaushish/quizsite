@@ -3,7 +3,7 @@
 <% @a = Array.new %>
 
 <div class='list_box problem_list_box pset_list_box'>
-  <p><%= pset.name %></p>
+  
   <% @a = inst.problem_stats.map(&:color_status) %>
   <% @total = inst.num_problems %>
 
@@ -11,9 +11,15 @@
   <% @green = percentage(@a.count("yellow"), @total) %>
   <% @red   = 100.0 - @blue - @green %>
 
+  <% @is_problem_set_is_blue = @total - @blue %>
+  <%= image_tag("maths_genius.png", :class => "badge", :size => "20x20", :alt => " You won this Badge for completing #{pset.name} ") unless @is_problem_set_is_blue == 0 %>
+  <p><%= pset.name %></p>
   <%= link_to "Enter", pset_path(:name => pset.id) %>
 </div>
    	
+
+
+
 
 </div>
     <div class="progress pset_bar">
