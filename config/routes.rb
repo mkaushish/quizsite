@@ -54,6 +54,8 @@ Quizsite::Application.routes.draw do
 
   # student-problem_types views
   get '/problem_type/:id',  to: 'problem_types#show', as: :problem_type
+  get '/problem_type/:id/edit',  to: 'problem_types#edit', as: :edit_problem_type
+  put '/problem_type/:id',  to: 'problem_types#update'
   post '/problems/:id/finish', to: 'problems#finish', as: :finish_problem
 
   # teacher views:
