@@ -28,7 +28,7 @@ class ProblemTypesController < ApplicationController
     @solution = @problem.prefix_solve
     @response = @answer.response_hash
     
-    render 'answers/sample_prob_show', locals: {callback: 'problem_types/finish_sample_problem'}
+    render 'show_sample_prob_ans'
   end
 
 end

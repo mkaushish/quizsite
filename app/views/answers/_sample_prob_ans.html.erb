@@ -4,6 +4,7 @@
     <% $stderr.puts @problem.inspect %>
     <h2 class="<%= ans_correct? ? "":"in" %>correct">
       <%= @problem.type %>
+      
     </h2>
 
     <ul class="pull-right horizontal">
@@ -15,9 +16,10 @@
       <% end %>
 
         <li>
+          <br />
           <%= link_to "Try Another",
                       do_sample_problem_path(@answer.problem_type_id), 
-                       :class => 'pull-right button-blue', :id => 'try_another'  %>
+                       :class => 'pull-right button-blue', :id => 'try_another', :remote => true  %>
         </li>
       
     </ul>
