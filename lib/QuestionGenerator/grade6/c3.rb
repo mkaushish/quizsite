@@ -33,12 +33,12 @@ module Chapter3
     end
 
     def solve
-      return {"ans" => "True"} if ODDPRIMES.index(@num)!=nil
-      return {"ans" => "False"}
+      return {"ans" => "true"} if ODDPRIMES.index(@num)!=nil
+      return {"ans" => "false"}
     end
 
     def text
-      [TextLabel.new("#{@num} is a prime: "), RadioButton.new("ans", ["True", "False"])]
+      [TextLabel.new("#{@num} is a prime: "), RadioButton.new("ans", ["true", "false"])]
     end
 
     def explain
