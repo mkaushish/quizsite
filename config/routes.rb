@@ -40,7 +40,7 @@ Quizsite::Application.routes.draw do
   get '/quiz/:id/start',        :to => 'quiz_instances#start', :as => :start_quiz
   get '/quiz/:id/start_new',    :to => 'quiz_instances#new',   :as => :start_new_quiz
   get '/quiz/:id/finish',       :to => 'quiz_instances#finish_quiz',:as => :finish_quiz
-  get '/quiz/:id/previous_problem', :to => 'quiz_instances#previous_problem',   :as => :previous_quiz_problem
+  get '/left_problem', :to => 'quiz_instances#previous_problem',   :as => :left_quiz_problem
   get '/quiz/:id/next_problem', :to => 'quiz_instances#next_problem',   :as => :next_quiz_problem
   post '/quiz/finish_problem',  :to => 'quiz_instances#finish_problem', :as => :finish_quiz_problem
 

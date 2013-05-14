@@ -4,7 +4,7 @@
     <% @answers.each do |answer| %>
       <li><%= link_to answer.problem_type.to_s, "#" %> : <%= answer.correct.to_s %>
       	<% if m_unpack(answer.response).first.last.blank? %>
-      		<%= link_to "Please give an answer", "#" %>
+      		<%= link_to "Please give an answer", previous_quiz_problem_path(@instance, :problem_id => answer.problem_id) %>
 
       	<% end %>
       	<% debugger %>

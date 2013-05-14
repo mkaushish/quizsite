@@ -29,11 +29,13 @@ class QuizInstancesController < ApplicationController
   # GET /quizzes/:id/next_quiz_problem
   # next_quiz_problem_path
   def previous_problem
-    @instance ||= QuizInstance.includes(:problem_set).find(params[:id])
+   @instance ||= QuizInstance.includes(:problem_set).find(params[:id])
     deny_access && return unless @instance.user_id == current_user.id
     return finish_quiz if @instance.over?
 
-    @answers = @instance.answers.where(:correct => "true")
+    @answer = @instance.answers.where("correct = false AND problem_id = params[:problem_id]")
+    @problem = @answer.first.problem
+
 
     respond_to do |format|
       format.html { render 'problem' }
