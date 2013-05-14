@@ -1,5 +1,5 @@
 class ProblemType < ActiveRecord::Base
-  attr_accessible :name, :klass, :problem
+  attr_accessible :name, :klass, :problem, :description, :video_link
   belongs_to :user # possibly smartergrades
 
   # these shouldn't actually ever be destroyed

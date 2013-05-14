@@ -1,0 +1,38 @@
+<%= form_for @problem_type, :html => { :class => 'form-horizontal' } do |f| %>
+  <% if @problem_type.errors.any? %>
+    <div class="alert alert-error">
+      <div id="error_explanation">
+        <h5><%= pluralize(@problem_type.errors.count, "error") %> prohibited this comment from being saved:</h5>
+
+        <ul>
+        <% @problem_type.errors.full_messages.each do |msg| %>
+          <li><%= msg %></li>
+        <% end %>
+        </ul>
+      </div>
+    </div>
+  <% end %>
+  <div class="control-group">
+    <%= f.label :name, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :name, :class => 'text_field' %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :description, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_area :description, :class => 'text_area' %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :video_link, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :video_link, :class => 'text_field' %>
+    </div>
+  </div>
+  
+  <div class="form-actions">
+    <%= f.submit "Submit", :class => 'btn btn-info' %>
+    <%= link_to "Cancel", problem_type_path(@problem_type.id), :class => "btn"  %>
+   </div>
+<% end %>

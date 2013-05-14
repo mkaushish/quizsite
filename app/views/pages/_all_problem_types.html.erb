@@ -1,0 +1,4 @@
+ <% @problem_types.each do |ptype| %>
+	<p><%= link_to ptype.name, problem_type_path(ptype.id) %></p>
+
+<% end %>
