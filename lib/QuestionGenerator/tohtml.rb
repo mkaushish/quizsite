@@ -100,6 +100,30 @@ module ToHTML
     end
   end
 
+  class Exponent < MultiHTMLObj
+    attr_accessor :num, :exp
+
+    def initialize(num, exp)
+      @num= init_part num
+      @exp= init_part exp
+    end
+
+    def correct?(solution, response)
+      [ @num, @exp ].map { |elt| elt.nil? || elt.correct?(solution, response) }.reduce(:&)
+    end
+    def init_part(elt)
+      if elt.is_a?(Fixnum) 
+        return ToHTML::TextLabel.new(elt)
+      elsif elt.is_a?(String)
+        return ToHTML::TextField.new(elt)
+      elsif elt.is_a? HTMLObj
+        return elt
+      else
+        return nil
+      end
+    end
+  end
+
   # Will display a text field, and give the user the option of adding more text fields for more answers
   #
   # The name of each field in the stored hash will be "#{name}#{x}, where x is the input field number (can be arbitrary if the user
