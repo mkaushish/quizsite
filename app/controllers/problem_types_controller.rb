@@ -26,7 +26,6 @@ class ProblemTypesController < ApplicationController
 
   def show
     @problem_type = ProblemType.find_by_id(params[:id])
-    
   end
 
   def do_sample_problem

@@ -105,6 +105,7 @@ GEM
     guard-rails (0.1.1)
       guard (>= 0.2.2)
     hike (1.2.1)
+    hirb (0.7.1)
     i18n (0.6.1)
     journey (1.0.4)
     jquery-rails (2.0.3)
@@ -236,6 +237,7 @@ DEPENDENCIES
   factory_girl_rails (~> 4.0)
   guard-livereload
   guard-rails
+  hirb
   jquery-rails (~> 2.0.2)
   launchy
   paperclip (~> 3.0)
