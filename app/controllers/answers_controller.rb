@@ -29,7 +29,7 @@ class AnswersController < ApplicationController
     @response = @answer.response_hash
   end
 
-  def sample_prob_show
+  def sample_prob_ans
     @answer = Answer.includes(:problem).find(params[:id])
     @problem = @answer.problem.problem
     @solution = @problem.prefix_solve

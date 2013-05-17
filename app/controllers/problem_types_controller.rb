@@ -9,6 +9,21 @@ class ProblemTypesController < ApplicationController
   #   end
   # end
 
+  def edit
+    @problem_type = ProblemType.find_by_id(params[:id])
+  end
+
+  def update
+    @problem_type = ProblemType.find_by_id(params[:id])
+    respond_to do |format|
+      if @problem_type.update_attributes(params[:problem_type]) 
+        format.html { redirect_to problem_type_path(@problem_type.id), notice: 'ProblemType was successfully updated.' }
+      else
+        format.html { render action: "edit" }
+      end
+    end
+  end
+
   def show
     @problem_type = ProblemType.find_by_id(params[:id])
     
@@ -28,7 +43,7 @@ class ProblemTypesController < ApplicationController
     @solution = @problem.prefix_solve
     @response = @answer.response_hash
     
-    render 'answers/sample_prob_show', locals: {callback: 'problem_types/finish_sample_problem'}
+    render 'show_sample_prob_ans'
   end
 
 end
