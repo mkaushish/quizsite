@@ -9,7 +9,7 @@ class CustomProblemsController < ApplicationController
 
   # GET /custom_problems/1/edit
   def edit
-    @problem = current_user.custom_problems.find_by_id(params[:id])
+    @custom_problem = current_user.custom_problems.find_by_id(params[:id])
     
   end
 
@@ -36,19 +36,18 @@ class CustomProblemsController < ApplicationController
   # PUT /custom_problems/1
   # PUT /custom_problems/1.json
   def update
-    @prob = prototype
-    @custom_problem = CustomProblem.find(params[:id])
+    
+    @custom_problem = current_user.custom_problems.find_by_id(params[:id])
 
-    render :nothing => true
-    #respond_to do |format|
-    #  if @custom_problem.update_attributes(params[:custom_problem])
-    #    format.html { redirect_to @custom_problem, notice: 'Custom problem was successfully updated.' }
-    #    format.json { head :ok }
-    #  else
-    #    format.html { render action: "edit" }
-    #    format.json { render json: @custom_problem.errors, status: :unprocessable_entity }
-    #  end
-    #end
+    respond_to do |format|
+     if @custom_problem.update_attributes(params[:custom_problem])
+       format.html { redirect_to @custom_problem, notice: 'Custom problem was successfully updated.' }
+       format.json { head :ok }
+     else
+       format.html { render action: "edit" }
+       format.json { render json: @custom_problem.errors, status: :unprocessable_entity }
+     end
+    end
   end
 
   # DELETE /custom_problems/1

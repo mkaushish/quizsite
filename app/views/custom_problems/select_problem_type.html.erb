@@ -44,7 +44,9 @@
     </div>
     <div class='dotted-border teacher-details-column'>
       <ul class='column-list' id="created_problems">
-        <%= render "created_problems" %>
+        <% @created_problems.each do |problem| %>
+          <%= render "created_problems", :problem => problem %>
+        <% end %>
       </ul>
     </div>
   </div>

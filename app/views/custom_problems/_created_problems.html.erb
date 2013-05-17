@@ -1,9 +1,5 @@
-<% @created_problems.each do |problem| %>
-    <li>
-    	<%= link_to problem.to_s, problem_path(problem.id), remote: true %>
-    	<%= link_to "Delete", custom_problem_path(problem.id), method: :delete, :class => "pull-right" %>
-
-    	<%= link_to "Edit", edit_custom_problem_path(problem.id), :class => "pull-right" %>
-    	
-    </li>
-<% end %>
+<li id = "created_problem_<%= problem.id %>">
+  	<%= link_to problem.to_s, problem_path(problem.id), remote: true %>
+  	<%= link_to "Delete", custom_problem_path(problem.id), method: :delete, :class => "pull-right" %>
+  	<%= link_to "Edit", edit_custom_problem_path(problem.id), :class => "pull-right" %>
+</li>
