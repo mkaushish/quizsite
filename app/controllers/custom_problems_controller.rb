@@ -59,6 +59,7 @@ class CustomProblemsController < ApplicationController
     respond_to do |format|
       format.html { redirect_to new_custom_problem_path }
       format.json { head :ok }
+      format.js
     end
   end
 
