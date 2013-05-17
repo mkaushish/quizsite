@@ -3,16 +3,14 @@ class CustomProblemsController < ApplicationController
 
   def new
     @chapters = ProblemSet.master_sets_with_ptypes
+    @created_problems = current_user.custom_problems.order("created_at DESC")
     render 'select_problem_type'
   end
 
   # GET /custom_problems/1/edit
   def edit
-    @problem = Problem.find(params[:id])
-
-    unless @problem.custom? && @problem.user == current_user
-      redirect_to root_path && return 
-    end
+    @problem = current_user.custom_problems.find_by_id(params[:id])
+    
   end
 
   # POST /custom_problems
@@ -56,11 +54,11 @@ class CustomProblemsController < ApplicationController
   # DELETE /custom_problems/1
   # DELETE /custom_problems/1.json
   def destroy
-    @custom_problem = CustomProblem.find(params[:id])
+    @custom_problem = current_user.custom_problems.find_by_id(params[:id])
     @custom_problem.destroy
 
     respond_to do |format|
-      format.html { redirect_to custom_problems_url }
+      format.html { redirect_to new_custom_problem_path }
       format.json { head :ok }
     end
   end

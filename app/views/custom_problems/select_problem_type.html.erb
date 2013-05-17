@@ -1,14 +1,15 @@
 <% content_for :outside do %> 
-  <div id=custom_problem_form class=problem_overlay>
+  <div id="custom_problem_form" class="problem_overlay">
     <%= form_tag custom_problems_path, method: :post, remote: true do %>
       <%= render 'custom_problems/form' %>
     <% end %>
   </div>
 <% end %>
 
-<div class=row>
-  <div class=span4>
-    <div class=dotted-border-header>
+<div id="custom_problems_message" class="teacher-details-header" style="margin-bottom:5px;"></div>
+<div class="row">
+  <div class="span4">
+    <div class="dotted-border-header">
       Chapters
     </div>
     <div class='dotted-border teacher-details-column'>
@@ -19,17 +20,32 @@
       </ul>
     </div>
   </div>
-
-  <div class="span8">
-    <div id=custom_problems_message class="teacher-details-header" style="margin-bottom:5px;">
-    </div>
-    <div class=tab-content>
+ 
+  <div class="span4">
+    <div class="tab-content">
       <% @chapters.each do |chapter| %>
         <div class="tab-pane" id="chap_<%= chapter.id %>">
-          <%= render :partial => 'shared/list_box_table', 
-            :locals  => { items: chapter.problem_types, partial: 'custom_problems/list_box/ptype_select' } %>
+          <div class="dotted-border-header">
+            Problem Types
+          </div>
+          <div class='dotted-border teacher-details-column'>
+            <ul class='column-list' id="column_list">
+              <%= render :partial => 'shared/column_list', 
+              :locals  => { items: chapter.problem_types, partial: 'custom_problems/list_box/ptype_select' } %>
+            </ul>
+          </div>       
         </div>
       <% end %>
+    </div>
+  </div>
+   <div class="span4">
+    <div class="dotted-border-header">
+      Created Problems
+    </div>
+    <div class='dotted-border teacher-details-column'>
+      <ul class='column-list' id="created_problems">
+        <%= render "created_problems" %>
+      </ul>
     </div>
   </div>
 </div>

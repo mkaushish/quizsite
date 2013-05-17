@@ -1,6 +1,8 @@
 <h1>Editing custom_problem</h1>
+<%= form_tag @problem do |f| %>
 
-<%= render 'form' %>
+	<%= render 'edit_form', :f => f %>
+<% end %>
 
 
 <%= link_to 'Show', @custom_problem %> |
