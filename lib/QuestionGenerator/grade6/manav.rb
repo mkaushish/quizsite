@@ -10,11 +10,11 @@ include ToHTML
 include PreG6
 
 module Manav
-  INDEX = "manav" 
+  INDEX = "manav"
   TITLE = "Manav"
-  class ExpandNumbers1 < QuestionBase
+  class Dummy < QuestionBase
     def self.type
-      "ExpandNumbers1"
+      "Dummy"
     end
     def initialize
       @prod=rand(6)
@@ -28,5 +28,5 @@ module Manav
     end
   end
 
-  PROBLEMS = [ Manav::ExpandNumbers1 ] 
+  PROBLEMS = [ Manav::Dummy ] 
 end
