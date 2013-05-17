@@ -21,6 +21,7 @@ require_relative 'grade6/c10'
 require_relative 'grade6/c12'
 require_relative 'grade6/manav'
 require_relative 'grade6/anurag'
+require_relative 'grade6/algebra'
 
 CHAPTERS = [ 
   Chapter1,
@@ -40,6 +41,7 @@ CHAPTERS = [
   Physics,
   CricketQuestions,
   Manav,
-  Anurag
+  Anurag,
+  Algebra
 ]
 
