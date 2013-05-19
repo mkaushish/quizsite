@@ -4,4 +4,4 @@
 <%= link_to ptype.to_s, do_sample_problem_path(ptype.id), remote: :true %>
 
   
-<%= link_to_function "Create Problem", "custom_problem_form(#{ptype.id}, \"#{ptype}\")", :class => "pull-right" %>
+<%= link_to_function "Create", "custom_problem_form(#{ptype.id}, \"#{ptype}\")", :class => "pull-right" %>

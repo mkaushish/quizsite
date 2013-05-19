@@ -41,7 +41,7 @@ class CustomProblemsController < ApplicationController
 
     respond_to do |format|
      if @custom_problem.update_attributes(params[:custom_problem])
-       format.html { redirect_to @custom_problem, notice: 'Custom problem was successfully updated.' }
+       format.html { redirect_to new_custom_problem_path, notice: 'Custom problem was successfully updated.' }
        format.json { head :ok }
      else
        format.html { render action: "edit" }
