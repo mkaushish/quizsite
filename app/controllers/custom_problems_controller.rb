@@ -9,8 +9,7 @@ class CustomProblemsController < ApplicationController
 
   # GET /custom_problems/1/edit
   def edit
-    @custom_problem = current_user.custom_problems.find_by_id(params[:id])
-    
+    @custom_problem = Problem.find_by_id(params[:id])
   end
 
   # POST /custom_problems
@@ -36,9 +35,7 @@ class CustomProblemsController < ApplicationController
   # PUT /custom_problems/1
   # PUT /custom_problems/1.json
   def update
-    
-    @custom_problem = current_user.custom_problems.find_by_id(params[:id])
-
+    @custom_problem = Problem.find_by_id(params[:id])
     respond_to do |format|
      if @custom_problem.update_attributes(params[:custom_problem])
        format.html { redirect_to new_custom_problem_path, notice: 'Custom problem was successfully updated.' }
