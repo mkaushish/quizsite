@@ -1,10 +1,13 @@
 <h2>Quiz</h2>
 <%= link_to_function "Back", 'hideProblem()', :class => 'pull-right button-blue', :style=>'z-index:10;' %>
 <br /><br />
+<%= @counter += 1 %><%= " of " %> <%= @quiz.quiz_problems.count %>
 <div class='row-fluid problem_body'>
   <%= form_tag finish_quiz_problem_path, method: :post, autocomplete: :off do %>
     <%= hidden_field_tag 'stat_id', @stat.id.to_s %>
-    <%= link_to "Previous Problem", previous_quiz_problem_path(@instance), :class => 'button-blue'  %>
+    
+   
+    <%= link_to "Previous Problem", left_quiz_problem_path(@instance), :class => 'button-blue'  %>
     <%= submit_tag "Next Problem", :class => 'pull-right button-blue' %>
     <br /><br />
     <%= @instance.name %>

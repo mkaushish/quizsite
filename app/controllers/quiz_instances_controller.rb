@@ -7,7 +7,8 @@ class QuizInstancesController < ApplicationController
 
     deny_access && return unless @instance.user_id == current_user.id
     return finish_quiz if @instance.over?
-
+    @quiz = Quiz.find_by_id(@instance.quiz_id)
+    @counter = @quiz.quiz_problems.count - @instance.stats_remaining.count
     @instance.start
     next_problem
   end
@@ -21,7 +22,7 @@ class QuizInstancesController < ApplicationController
                                    :problem_set_instance_id => @pset_instance.id).first
     @instance ||= @quiz.assign_with_pset_inst(@pset_instance)
     @instance.start if !@instance.started?
-
+    @counter = @quiz.quiz_problems.count - @instance.stats_remaining.count
     next_problem
   end
 
@@ -75,13 +76,15 @@ class QuizInstancesController < ApplicationController
 
   # POST /quiz/:id/finish_problem
   def finish_problem
+
     @stat = QuizStat.includes(:quiz_instance).find(params[:stat_id])
     redirect_to access_denied_path && return if @stat.user != current_user
 
     @instance = @stat.quiz_instance
+    @quiz = Quiz.find_by_id(@instance.quiz_id)
     @answer = current_user.answers.create params: params, session: @instance
     @stat.update_w_ans!(@answer)
-
+    @counter = @quiz.quiz_problems.count - @instance.stats_remaining.count
     if @instance.over?
       finish_quiz
     else
