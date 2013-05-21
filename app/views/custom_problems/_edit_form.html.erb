@@ -1,10 +1,10 @@
-<h2>Add a Problem to the Database</h2>
+<h2><%= @custom_problem.to_s %></h2>
 
 <%= hidden_field_tag :problem_type_id %>
 
 <div class="field">
     Problem Text:
-    <%= text_area_tag :problem_text, nil, {:rows => 5, :style => "width:80%;display:block;"} %>
+    <%= text_area_tag :problem_text, @custom_problem.text.first, {:rows => 5, :style => "width:80%;display:block;"} %>
 </div>
 
 <div class="field">

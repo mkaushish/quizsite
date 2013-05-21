@@ -77,6 +77,7 @@ class QuizInstancesController < ApplicationController
     redirect_to access_denied_path && return if @stat.user != current_user
 
     @instance = @stat.quiz_instance
+
     @answer = current_user.answers.create params: params, session: @instance
     @stat.update_w_ans!(@answer)
 
