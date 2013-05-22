@@ -35,4 +35,8 @@ class SessionsController < ApplicationController
     sign_out
     redirect_to root_path
   end
+
+  def create_user_vdp
+
+  end
 end

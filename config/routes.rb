@@ -3,6 +3,8 @@ Quizsite::Application.routes.draw do
   resources :custom_problems, except: [:index]
   get 'problems/:id', to: 'problems#show', as: :problem
   
+  match "/auth/:provider/callback" => "sessions#create_user_vdp"
+
   resources :users do
     member do
       get  'confirm'
