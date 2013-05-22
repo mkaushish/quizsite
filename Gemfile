@@ -13,7 +13,7 @@ gem 'omniauth-google-oauth2'
 # gems in just test and dev environments
 group :test, :development do
 	gem 'rspec-rails'
-  gem 'capybara', :git => 'git://github.com/jnicklas/capybara.git'
+  #gem 'capybara', :git => 'git://github.com/jnicklas/capybara.git'
   gem 'database_cleaner'
   gem 'launchy'
   gem 'guard-rails'
