@@ -21,6 +21,12 @@
         <%= submit_tag "Sign in", :class=>"button-blue" %>
       </div>
     <% end %>
+    <br>
+    <div class = "field_block">
+        <%= label_tag "Sign_in Via:" %>
+        <%= link_to image_tag("google_logo_flat_print_small.png"), "/auth/google_oauth2" %>
+    </div>
   </div>
-  <%= link_to 'Google', "/auth/google_oauth2" %><br/>
+
+  
 </div>
