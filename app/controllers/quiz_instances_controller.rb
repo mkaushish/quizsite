@@ -24,6 +24,7 @@ class QuizInstancesController < ApplicationController
     @instance.start if !@instance.started?
     @counter = @quiz.quiz_problems.count - @instance.stats_remaining.count
     @quiz_stats = @instance.quiz_stats.includes(:problem_type)
+    @pset = @instance.problem_set
     next_problem
   end
 
@@ -58,7 +59,8 @@ class QuizInstancesController < ApplicationController
     @stat = @instance.next_stat
     @problem_type = @stat.problem_type
     @problem = @stat.spawn_problem
-
+    @quiz_stats = @instance.quiz_stats.includes(:problem_type)
+    @pset = @instance.problem_set
     respond_to do |format|
       format.html { render 'problem' }
       format.js { render 'do' }
@@ -68,11 +70,9 @@ class QuizInstancesController < ApplicationController
   def finish_quiz
     @title = "Quiz Results"
     @instance ||= QuizInstance.find(params[:id])
-
     @instance.finish
-
+    @pset = @instance.problem_set
     @answers = @instance.answers.includes(:problem_type)
-
     render 'results'
   end
 

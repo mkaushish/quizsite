@@ -1,45 +1,43 @@
 <div class=row-fluid>
-  <%= render 'students/student_info', :@student => current_user %>
-
-  <h3 style="display:inline-block;">Learning</h3>
-  <ul class="breadcrumb">
-    <li><b>6th Grade </b><span class="divider">&amp;</span></li>
-    <li><%= link_to "Overview", studenthome_path %><span class="divider">&amp;</span></li>
-    <li class=active><%= @problem_set.name %></li>
-  </ul>
+    <%= render 'students/student_info', :@student => current_user %>
+    <h3 style="display:inline-block;">Learning</h3>
+    <ul class="breadcrumb">
+        <li><b>6th Grade </b><span class="divider">&amp;</span></li>
+        <li><%= link_to "Overview", studenthome_path %><span class="divider">&amp;</span></li>
+        <li class=active><%= @problem_set.name %></li>
+    </ul>
 </div>
 
 <div class="quiz-link">
-  <% if @instance.quiz_assigned? %>
-    <%= link_to "Quiz Assigned", start_quiz_path(@instance.assigned_quizzes.first) %>
-  <% else %>
-    <%= link_to "Try a Quiz!", start_new_quiz_path(@instance.id) %>
-  <% end %>
+    <% if @instance.quiz_assigned? %>
+        <%= link_to "Quiz Assigned", start_quiz_path(@instance.assigned_quizzes.first) %>
+    <% else %>
+        <%= link_to "Try a Quiz!", start_new_quiz_path(@instance.id) %>
+    <% end %>
 </div>
 
 <div class=row-fluid>
-  <div class=span4>
-    <div class='dotted-border-header'>
-      <h4>History</h4>
+    <div class=span4>
+        <div class='dotted-border-header'>
+            <h4>History</h4>
+        </div>
+        <div class='dotted-border' style='min-height:400px;'>
+            <ul id="problem_history" class="column-list">
+                <% if @history.empty? %>
+                    <li>Problems will show up here as you do them</li>
+                <% else %>
+                    <%= render :partial => 'history_ans', :collection => @history, :as => :answer %>
+                <% end %>
+            </ul>
+        </div>
     </div>
-
-    <div class='dotted-border' style='min-height:400px;'>
-      <ul id="problem_history" class="column-list">
-        <% if @history.empty? %>
-          <li>Problems will show up here as you do them</li>
-        <% else %>
-          <%= render :partial => 'history_ans', :collection => @history, :as => :answer %>
-        <% end %>
-      </ul>
+    <div class="gif_tick">
+        <img src="/assets/Boxes_Animation.gif"></img>
     </div>
-  </div>
-  <div class="gif_tick">
-    <img src="/assets/Boxes_Animation.gif"></img>
-  </div>
-  <div class=span8 >
-    <div class=jScroll_bboard >
-      <%= render :partial => 'shared/list_box_table', 
-        :locals => { :items => @stats, :partial => 'problem_set_instances/problem_list_box' } %>
+    <div class=span8 >
+        <div class=jScroll_bboard >
+            <%= render :partial => 'shared/list_box_table', 
+                :locals => { :items => @stats, :partial => 'problem_set_instances/problem_list_box' } %>
+        </div>
     </div>
-  </div>
 </div>
