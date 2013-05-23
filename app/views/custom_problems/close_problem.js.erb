@@ -1,4 +1,6 @@
 hide_custom_problem_form();
+
+$('#created_problems').prepend("<%= j render("created_problems", :problem => @custom_problem) %>");
 $('#custom_problems_message').html("You successfully created a problem for " +
     '<%= j(link_to @problem_type.name, 
                    problem_path(@custom_problem.id), 
