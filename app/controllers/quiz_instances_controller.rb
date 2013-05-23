@@ -23,6 +23,7 @@ class QuizInstancesController < ApplicationController
     @instance ||= @quiz.assign_with_pset_inst(@pset_instance)
     @instance.start if !@instance.started?
     @counter = @quiz.quiz_problems.count - @instance.stats_remaining.count
+    @quiz_stats = @instance.quiz_stats.includes(:problem_type)
     next_problem
   end
 
@@ -48,6 +49,7 @@ class QuizInstancesController < ApplicationController
   # GET /quizzes/:id/next_quiz_problem
   # next_quiz_problem_path
   def next_problem
+    
     @title ||= "In Quiz"
     @instance ||= QuizInstance.includes(:problem_set).find(params[:id])
     deny_access && return unless @instance.user_id == current_user.id
