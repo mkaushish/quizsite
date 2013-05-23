@@ -458,7 +458,7 @@ module Chapter1
     end
     def text
       [ TextLabel.new("Find the difference between the largest and smallest numbers that can be formed using the following digits"),
-        PermutationDisplay.new("ans1", @digs),
+        PermutationDrag.new("ans1", @digs),
         TextField.new("diff")
       ]
     end
