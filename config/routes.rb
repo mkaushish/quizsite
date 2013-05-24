@@ -3,6 +3,8 @@ Quizsite::Application.routes.draw do
   resources :custom_problems, except: [:index]
   get 'problems/:id', to: 'problems#show', as: :problem
   
+  match "/auth/:provider/callback" => "users#create_user_vdp"
+
   resources :users do
     member do
       get  'confirm'
@@ -30,6 +32,7 @@ Quizsite::Application.routes.draw do
   post '/students',   :to => 'students#create', :as => :students
   get '/student/edit',:to => 'students#edit', :as => :edit_student
   put '/students/:id', :to => 'students#update', :as => :update_student
+  get '/students/:id', :to => 'students#show', :as => :student
 
   # student-problem_set_instances views
   get '/psets/:name', :to => 'problem_set_instances#show', :as => :pset

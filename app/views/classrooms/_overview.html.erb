@@ -20,7 +20,7 @@
           <% if classroom.students.empty? %>
             <li>Give your students the seven letter / number password in the box above so they can join your online classroom.</li>
           <% else ; classroom.students.each do |student| %>
-            <li><%= link_to student.name, "#" %></li>
+            <li><%= link_to student.name, student_path(student.id) %></li>
           <% end ; end %>
         </ul>
       </div>

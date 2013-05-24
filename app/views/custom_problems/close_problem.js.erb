@@ -1,4 +1,5 @@
 hide_custom_problem_form();
+$('#no_cprob_msg').hide();
 
 $('#created_problems').prepend("<%= j render("created_problems", :problem => @custom_problem) %>");
 $('#custom_problems_message').html("You successfully created a problem for " +
