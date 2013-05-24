@@ -94,6 +94,8 @@ module ToHTML
         return ToHTML::TextField.new(elt)
       elsif elt.is_a? HTMLObj
         return elt
+      elsif elt.is_a? MultiHTMLObj
+        return elt
       else
         return nil
       end
@@ -118,7 +120,9 @@ module ToHTML
         return ToHTML::TextField.new(elt)
       elsif elt.is_a? HTMLObj
         return elt
-      else
+      elsif elt.is_a? MultiHTMLObj
+        return elt
+        else
         return nil
       end
     end

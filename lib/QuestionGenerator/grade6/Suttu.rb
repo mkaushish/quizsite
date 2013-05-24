@@ -1,4 +1,3 @@
-
 #!/usr/bin/env ruby
 require_relative './grade6ops.rb'
 require_relative '../questionbase'

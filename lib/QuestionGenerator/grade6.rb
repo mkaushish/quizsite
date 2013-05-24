@@ -20,6 +20,7 @@ require_relative 'grade6/c10'
 #require_relative 'grade6/c11'
 require_relative 'grade6/c12'
 require_relative 'grade6/chapter27'
+require_relative 'grade6/Chaptersqroot'
 require_relative 'grade6/dI_Proportions'
 require_relative 'grade6/manav'
 require_relative 'grade6/anurag'
@@ -42,6 +43,7 @@ CHAPTERS = [
   Physics,
   CricketQuestions,
   Chapter27,
+  Chaptersqroot,
   DI_Proportions,
   Manav,
   Anurag
