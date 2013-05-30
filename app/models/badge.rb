@@ -37,12 +37,12 @@ class Badge < ActiveRecord::Base
 		@result = student.problem_set_instances.includes(&:problem_stats).map(&:stop_green)
 		unless @result.blank?
 			if @result.select{|v| v == Date.today}.count > 0 == true
-
 				@has_BadgeCAPSWAD = student.badges.find_by_badge_key("BadgeCAPSWAD")
 				@has_BadgeCAPSWAD = student.badges.create(:name => "Completing a problem set within a day",
 																:badge_key => "BadgeCAPSWAD") if @has_BadgeCAPSWAD.nil?
 			end
-	end	end
+		end	
+	end
 
 	# Badge for getting first 10 red questions correct #
 	def self.BadgeTRQC(student)

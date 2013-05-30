@@ -16,7 +16,7 @@ class TeachersController < ApplicationController
     if !classroom.save
       teacher.delete
       render :js => form_for_errs('classroom', classroom)
-      # TODO display errors on form
+      return
     end
 
     sign_in teacher

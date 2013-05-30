@@ -529,10 +529,11 @@ module ToHTML
       else
         @fields = args
       end
+      @fields.shuffle!
     end
 
     def shuffled_fields
-      @fields.shuffle
+      @fields
     end
 
     def contains_response_and_soln?() true ; end
