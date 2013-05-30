@@ -52,6 +52,26 @@ module PreG6
       [TextLabel.new("#{@num1} x #{@num2} = "), TextField.new("ans")]
     end
   end
+
+  class Multiplication2 < QuestionBase 
+    # In this the input parameter  is an array.
+    def initialize(nums = nil)
+      if nums.nil?
+        num_nums = rand(3)+2
+        @nums = Array.new(num_nums) { rand(100) + 2 }
+      else
+        @nums = nums
+      end
+    end
+
+    def solve
+      return {"ans" => @nums.reduce(:*)}
+    end
+
+    def text
+      [TextLabel.new(@nums.join(" * ")+" = "), TextField.new("ans")]
+    end
+  end
   
   class Division < QuestionBase
     def initialize(num1 = nil, num2 = nil, norem=false)
@@ -126,5 +146,6 @@ module PreG6
     PreG6::Subtraction, 
     PreG6::Multiplication, 
     PreG6::Division, 
-    PreG6::IsDivisible ]
+    PreG6::IsDivisible,
+    PreG6::Multiplication2 ]
 end
