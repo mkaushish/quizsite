@@ -63,7 +63,7 @@ class Student < User
 
     def self.create_badges(student)
         Badge.BadgeAPSD(student)
-        Badge.BadgeNQCIARFTO(student)
+        Badge.BadgeFNQCIARFTO(student)
         Badge.BadgeCAPSWAD(student)
         Badge.BadgeTRQC(student)
     end

@@ -17,37 +17,42 @@ class Badge < ActiveRecord::Base
     end
 
 	# Badge for n questions correct in a row for the first time only #
-	def self.BadgeNQCIARFTO(student)
-		@b = student.answers.order("created_at DESC").limit(10).map(&:correct)
-		@a = @result.select{|v| v == true}.count
-		@result = @b.length - @a
-		if @result == 0
-			@has_BadgeFNQCIARFTO = student.badges.find_by_badge_key("BadgeFNQCIARFTO")
-			@has_BadgeFNQCIARFTO ||= student.badges.create(:name => "N questions correct in a row for the first time only",
-															:badge_key => "BadgeFNQCIARFTO")
+	def self.BadgeFNQCIARFTO(student)
+		@b = student.answers.order("created_at ASC").limit(5).map(&:correct)
+		
+		unless @b.blank?
+			@a = @b.select{|v| v == true}.count
+			result = @b.length - @a
+			
+			if result == 0
+				@has_BadgeFNQCIARFTO = student.badges.find_by_badge_key("BadgeFNQCIARFTO")
+				@has_BadgeFNQCIARFTO = student.badges.create(:name => "N questions correct in a row for the first time only",
+																:badge_key => "BadgeFNQCIARFTO") if @has_BadgeFNQCIARFTO.nil?
+			end
 		end
 	end
 
 	# Badge for completing a problem set within a day #
 	def self.BadgeCAPSWAD(student)
 		@result = student.problem_set_instances.includes(&:problem_stats).map(&:stop_green)
-		if @result.select{|v| v == Date.today}.count > 0 == true
-			@has_BadgeCAPSWAD = student.badges.find_by_badge_key("BadgeCAPSWAD")
-			@has_BadgeCAPSWAD ||= student.badges.create(:name => "Completing a problem set within a day",
-															:badge_key => "BadgeCAPSWAD")
-		end
-	end
+		unless @result.blank?
+			if @result.select{|v| v == Date.today}.count > 0 == true
+
+				@has_BadgeCAPSWAD = student.badges.find_by_badge_key("BadgeCAPSWAD")
+				@has_BadgeCAPSWAD = student.badges.create(:name => "Completing a problem set within a day",
+																:badge_key => "BadgeCAPSWAD") if @has_BadgeCAPSWAD.nil?
+			end
+	end	end
 
 	# Badge for getting first 10 red questions correct #
 	def self.BadgeTRQC(student)
-		@result = student.answers.where(:correct => true).count == 10
-		if @result == true
-			@has_BadgeTRQC = student.badges.find_by_badge_key("BadgeTRQC")
-			@has_BadgeTRQC ||= student.badges.create(:name => "First 10 red questions correct",
-															:badge_key => "BadgeTRQC")
+		@result = student.answers.order("created_at ASC").where(:correct => true).count == 10
+		unless @result.blank?
+			if @result == true
+				@has_BadgeTRQC = student.badges.find_by_badge_key("BadgeTRQC")
+				@has_BadgeTRQC ||= student.badges.create(:name => "First 10 red questions correct",
+																:badge_key => "BadgeTRQC") if @has_BadgeTRQC.nil?
+			end
 		end
-		
 	end
-
-		
 end
