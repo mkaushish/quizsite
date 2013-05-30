@@ -1,12 +1,13 @@
 login: &login
   adapter: postgresql
+
   username: anuragbeniwal
+
   password:
   database: smartergrades
   encoding: UTF8
   pool: 5
   timeout: 5000
-  host: localhost
 
 development:
   <<: *login
