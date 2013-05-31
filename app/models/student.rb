@@ -6,6 +6,7 @@ class Student < User
     has_many :classroom_assignments
     has_many :classrooms, :through => :classroom_assignments
     has_many :teachers, :through => :classrooms
+    has_many :badges
     # after_create :assign_class #TODO broken
 
     def problem_history(*ptypes)
@@ -35,16 +36,6 @@ class Student < User
         end
     end
 
-    def is_all_problem_sets_done?(pset_instances)
-        @check = Array.new
-        pset_instances.each do |pset|
-            @check = @check.push (pset.problem_stats.count - pset.problem_stats.blue.count) == 0
-        end
-        total = @check.length
-        true_count = @check.select {|v| v =="true"}.count
-        return (total - true_count) == 0
-    end
-
     def self.create_with_omniauth(auth)
         student = Student.new
         student.email = auth[:info][:email]
@@ -68,6 +59,13 @@ class Student < User
             $stderr.puts "STUDENT_ERRORS\n\t\t#{student.errors.full_messages.inspect}"
             return
         end
+    end
+
+    def self.create_badges(student)
+        Badge.BadgeAPSD(student)
+        Badge.BadgeFNQCIARFTO(student)
+        Badge.BadgeCAPSWAD(student)
+        Badge.BadgeTRQC(student)
     end
 
     private

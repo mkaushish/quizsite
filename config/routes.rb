@@ -1,4 +1,7 @@
 Quizsite::Application.routes.draw do
+  resources :badges
+
+
   resources :problem_sets, only: [:show, :edit, :create, :update, :destroy]
   resources :custom_problems, except: [:index]
   get 'problems/:id', to: 'problems#show', as: :problem
