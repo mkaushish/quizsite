@@ -1,4 +1,4 @@
-<div class=row-fluid>
+<!--<div class=row-fluid>
   <%= render 'students/student_info', :@student => current_user %>
 
   <h3 style="display:inline-block;">Learning</h3>
@@ -6,6 +6,13 @@
     <li><b>6th Grade </b><span class="divider">&amp;</span></li>
     <li><%= link_to "Overview", studenthome_path %><span class="divider">&amp;</span></li>
     <li class=active><%= @problem_set.name %></li>
+  </ul>
+</div>-->
+
+<div id='shelf'>
+  <ul>
+    <li><%= link_to (image_tag @student.image.url(:thumb)), edit_student_path, :remote => true  %><%= link_to 'Account',  edit_student_path, :remote => true, :class => 'plate' %></li>
+    <li><div id='points'><%= number_with_delimiter(@student.points) %></div><a class='plate' style='margin-top:7px'>Points</a></li>
   </ul>
 </div>
 <div class="quiz-link">
