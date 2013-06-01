@@ -1,9 +1,10 @@
 <div class="quiz_problem_box_form">
+
 	<% quiz_problem = quiz_problem_box_form %>
 	<% unless quiz_problem.nil? %>
 		<% ptype = quiz_problem.problem_type %>
-
+		<%= ptype %>
 		<%= number_field_tag "quiz_problems[#{ptype.id}]", quiz_problem.count, in: 0..5, step:1 %>
-		<div><%= ptype %></div>
+		
 	<% end %>
 </div>
