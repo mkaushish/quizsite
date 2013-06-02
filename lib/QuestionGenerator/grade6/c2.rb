@@ -118,6 +118,9 @@ module Chapter2
 
       @part = rand(@nice_summand / 3) + (@nice_summand / 6)
       @part += 1 + rand(9) if @part % 10 == 0
+      while ((@part + odd_summand) % 10 ==0 || (@nice_summand-@part + odd_summand) % 10 ==0)
+        odd_summand  = (rand(70) + 20) * 10 + 1 + rand(9)
+      end
 
       @summands = [ odd_summand, @nice_summand - @part, @part ].shuffle
     end
@@ -146,6 +149,35 @@ module Chapter2
       r[1].to_i + r[3].to_i == @nice_summand
     end
   end
+  class DistComm < QuestionBase
+    def self.type
+      "Distributivity or Commutativity"
+    end
+    def initialize
+      @type=["Commutativity of Addition", "Commutativity of Multiplication", "Distributivity of Multiplication over Addition"]
+      @wh=rand(3)
+      @nums=[rand(150)+1, rand(150)+1, rand(150)+1]
+    end
+    def solve
+      {"ans" => @type[@wh]}
+    end
+    def text
+      str=""
+      n2=@nums.shuffle
+      while n2==@nums
+        n2=@nums.shuffle
+      end
+      if(@wh==0)
+        str="#{@nums.join(" + ")} = #{n2.join(" + ")}"
+      elsif @wh==1
+        str="#{@nums.join(" x ")} = #{n2.join(" x ")}"
+      else 
+        str="#{@nums[0]} x #{@nums[1]+@nums[2]} = #{@nums[0]} x #{@nums[1]} + #{@nums[0]} x #{@nums[2]}"
+      end
+      [TextLabel.new("Which of the following does this statement represent:"), TextLabel.new(str), RadioButton.new("ans", @type)]
+    end
+  end
+
 
   class SuitableRearrangementProduct < QuestionBase
     def self.type
@@ -160,6 +192,9 @@ module Chapter2
       @nice_product = 10**(rand(2) + 3)
       @product_elts = get_elts(@nice_product)
       @random_elt   = Grade6ops::rand_num(0.01, 2, 3)
+      while @random_elt % 5 == 0
+        @random_elt   = Grade6ops::rand_num(0.01, 2, 3)
+      end
       @nums = (@product_elts + [@random_elt]).shuffle
     end
 
@@ -295,6 +330,7 @@ module Chapter2
   PROBLEMS = [  
     Chapter2::WriteSuccessors,            Chapter2::WritePredecessors,
     Chapter2::SuitableRearrangementSum,   Chapter2::SuitableRearrangementProduct, 
+    Chapter2::DistComm,
     Chapter2::AddLargeNumbers 
   ]
 

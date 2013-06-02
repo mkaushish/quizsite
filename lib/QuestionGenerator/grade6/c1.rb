@@ -82,14 +82,20 @@ module Chapter1
       resps = QuestionBase.vars_from_response( *( (0...("#{@num}").length).map { |i| "ans_#{i}" }), params)
       tem=[]
       for i in 0...resps.length
-        tem << resps[i].to_i
+        tem << resps[i].to_i*(10**(("#{@num}").length-1-i))
       end
       tem.reduce(:+)==@num
     end
     def text
       ret=[TextLabel.new("Expand #{@num}:")]
       for i in 0...("#{@num}").length
-        ret << InlineBlock.new(TextField.new("ans_#{i}"), TextLabel.new(" X #{10**(("#{@num}").length-i-1)}"))
+        tem=[TextField.new("ans_#{i}")] 
+        if i < ("#{@num}").length-1 
+          tem << TextLabel.new(" X #{10**(("#{@num}").length-i-1)} + ")
+        else
+          tem << TextLabel.new(" X #{10**(("#{@num}").length-i-1)}")
+        end
+        ret << InlineBlock.new(tem)
       end
       ret
     end
