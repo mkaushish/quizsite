@@ -1,0 +1,5 @@
+$('#created_problem_<%= @custom_problem.id %>').remove();
+$('#custom_problems_message').html("You successfully deleted a problem");
+<% if @created_problems.blank? %>
+	$('#no_cprob_msg').show();
+<% end %>

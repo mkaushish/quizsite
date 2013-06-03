@@ -1,6 +1,5 @@
-<h1>Editing custom_problem</h1>
-
-<%= render 'form' %>
-
-<%= link_to 'Show', @custom_problem %> |
-<%= link_to 'Back', custom_problems_path %>
+<h1>Editing Custom Problem</h1>
+<%= form_tag custom_problem_path(@custom_problem), method: :put do %>
+	<%= render 'edit_form' %>
+<% end %>
+<%= link_to 'Back', new_custom_problem_path %>

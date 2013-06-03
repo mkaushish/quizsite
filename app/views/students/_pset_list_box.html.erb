@@ -1,23 +1,19 @@
 <% inst = pset_list_box %>
 <% pset = inst.problem_set %>
 <% @a = Array.new %>
-
-<div class='list_box problem_list_box pset_list_box'>
-    <% @a = inst.problem_stats.map(&:color_status) %>
-    <% @total = inst.num_problems %>
-
-    <% @blue  = percentage(@a.count("green"), @total) %>
-    <% @green = percentage(@a.count("yellow"), @total) %>
-    <% @red   = 100.0 - @blue - @green %>
-
-    <% @is_problem_set_is_blue = @total - @blue %>
-    <%= image_tag("maths_genius.png", :class => "badge", :size => "20x20", :alt => " You won this Badge for completing #{pset.name} ") unless @is_problem_set_is_blue == 0 %>
-    <p><%= pset.name %></p>
-    <%= link_to "Enter", pset_path(:name => pset.id) %>
-</div>
-   	
-<div class="progress pset_bar">
-  <div class="bar bar-info" style="width: <%= @blue %>%"></div>
-  <div class="bar bar-success" style="width: <%= @green %>%"></div>
-  <div class="bar bar-danger" style="width: <%= 100-@blue-@green %>%"></div>
+<div class='pset_pbar'>
+    <div class='list_box problem_list_box pset_list_box'>
+        <% @blue  = percentage(@a.count("green"), @total) %>
+        <% @green = percentage(@a.count("yellow"), @total) %>
+        <% @red   = 100.0 - @blue - @green %>
+        <% @is_problem_set_is_blue = @total - @a.count("blue") %>
+        <%= image_tag("maths_genius.png", :class => "badge", :size => "20x20", :alt => " You won this Badge for completing #{pset.name} ") unless @is_problem_set_is_blue != 0 %>
+        <p><%= pset.name %></p>
+        <%= link_to "Enter", pset_path(:name => pset.id) %>
+    </div>
+    <div class="progress pset_bar">
+        <div class="bar bar-info" style="width: <%= @blue %>%"></div>
+        <div class="bar bar-success" style="width: <%= @green %>%"></div>
+        <div class="bar bar-danger" style="width: <%= 100-@blue-@green %>%"></div>
+    </div>
 </div>

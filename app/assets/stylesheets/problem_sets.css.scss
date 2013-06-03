@@ -34,7 +34,28 @@ div.link.checkbox.unchecked{
 	height:20px;
 	margin-top:5px;
 	border-style:double;
-	webkit-border-radius:0px;
+	-webkit-border-radius:0px;
 	border-radius: 0px;
 
+	.bar {
+		height:100%;
+		float:left;
+	}
+	.bar-info {
+		background-color: $sg_blue;
+	}
+	.bar-success {
+		background-color: $sg_green;
+	}
+	.bar-danger {
+		background-color: $lred;
+	}
+}
+.exit_qu {
+	background-image:url("exit_qu.png");
+	width:18px;
+	height:18px;
+	position:relative;
+	top:-27px;
+	left:25px;
 }

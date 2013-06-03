@@ -1,8 +1,13 @@
 Quizsite::Application.routes.draw do
+  resources :badges
+
+
   resources :problem_sets, only: [:show, :edit, :create, :update, :destroy]
   resources :custom_problems, except: [:index]
   get 'problems/:id', to: 'problems#show', as: :problem
   
+  match "/auth/:provider/callback" => "users#create_user_vdp"
+
   resources :users do
     member do
       get  'confirm'
@@ -14,6 +19,8 @@ Quizsite::Application.routes.draw do
 
   post "pages/check_drawing"
   post "pages/exampleprobs"
+  get "/sample_problem/do/:id", :to => 'problem_types#do_sample_problem', :as => :do_sample_problem
+  post "/sample_problem/finish/:id", :to => 'problem_types#finish_sample_problem', :as => :finish_sample_problem
 
   # session pages - so the URLs make more sense
   match '/change_password' => 'users#password_form'
@@ -28,6 +35,7 @@ Quizsite::Application.routes.draw do
   post '/students',   :to => 'students#create', :as => :students
   get '/student/edit',:to => 'students#edit', :as => :edit_student
   put '/students/:id', :to => 'students#update', :as => :update_student
+  get '/students/:id', :to => 'students#show', :as => :student
 
   # student-problem_set_instances views
   get '/psets/:name', :to => 'problem_set_instances#show', :as => :pset
@@ -47,6 +55,7 @@ Quizsite::Application.routes.draw do
 
   # student-answers views
   get '/answers/:id/show', to: 'answers#show', as: :show_answer
+  get '/answers/:id/show', to: 'answers#sample_prob_show', as: :sample_prob_show_answer
   get '/answers/:id/static_show', to: 'answers#static_show', as: :static_show_answer
 
   # student-explanations views
@@ -56,6 +65,8 @@ Quizsite::Application.routes.draw do
 
   # student-problem_types views
   get '/problem_type/:id',  to: 'problem_types#show', as: :problem_type
+  get '/problem_type/:id/edit',  to: 'problem_types#edit', as: :edit_problem_type
+  put '/problem_type/:id',  to: 'problem_types#update'
   post '/problems/:id/finish', to: 'problems#finish', as: :finish_problem
 
   # teacher views:

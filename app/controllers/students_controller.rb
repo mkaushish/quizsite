@@ -5,7 +5,9 @@ class StudentsController < ApplicationController
     @student = current_user
     @pset_instances = @student.problem_set_instances
                               .includes(:problem_stats, :problem_set, :problem_set_problems)
-    @is_all_blue = @student.is_all_problem_sets_done?(@pset_instances)
+    @is_all_blue = @student.badges.where(:name=> "BadgeAPSD").blank?
+    Student.create_badges(@student)
+    @badges = @student.badges.map(&:name)
   end
 
   def new
@@ -47,7 +49,7 @@ class StudentsController < ApplicationController
     end
   end
 
-   def update
+  def update
     @student = Student.find_by_id(params[:id])
     @old_pass = params['student']['old_password']
     @new_pass = params['student']['new_password']
@@ -67,5 +69,6 @@ class StudentsController < ApplicationController
   end
 
   def show
+    @student = Student.find_by_id(params[:id])
   end
 end

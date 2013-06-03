@@ -1,0 +1,10 @@
+<%# LOCALS THAT MUST BE PASSED: %>
+<%# items: should be the collection %>
+<%# partial: is the partial used to render each element of the collection %>
+<%# ncols: defauls to 3 - number of columns %>
+<%# ncols ||= 3 %>
+<% $stderr.puts "LOCAL_ASSIGNS! "*5, items.inspect %>
+
+  <% items.each do |item| %>
+    <li><%= item.nil? ? "":(render :partial => partial, :object => item, :as => :item) %></li>
+  <% end %>

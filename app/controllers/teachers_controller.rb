@@ -1,5 +1,6 @@
 class TeachersController < ApplicationController
   def home
+    @teacher = current_user
     @classrooms = current_user.classrooms.includes(:students).includes(:problem_sets)
     @quiz_history = []
   end
@@ -15,7 +16,7 @@ class TeachersController < ApplicationController
     if !classroom.save
       teacher.delete
       render :js => form_for_errs('classroom', classroom)
-      # TODO display errors on form
+      return
     end
 
     sign_in teacher

@@ -1,24 +1,35 @@
-<div class="modal" id="logIn" style="display:none;"> <%# class=hide get's overridden by display-block status %>
-  <div class="modal-header">
-    <img src="/assets/Home/login_bar.png">
-  </div>
-  <div id="log_in_form" class="modal-body" style="font-family:SansSerif">
-    <div id="log_in_errors">
+<div class="modal hide fade" id="logIn" style="font-family:SansSerif">
+    <div class="modal-header">
+        <img src="/assets/Home/login_bar.png">
     </div>
-    <%= form_for(:session, {:url => signin_path, :html => {:class => "signin"}, :remote => true}) do |f| %>
-      <div class = "field">
-        <label for="session_email">Username</label>
-        <%= f.text_field :email%>
-        <br>
-        <label for="session_password">Password</label>
-        <%= f.password_field :password%>
-      </div>
-      <br>
-      <div class = "actions">
-        <%= f.submit "Sign in", :class=>"btn-primary" %>
-      <br>
-        <%= f.submit "Register", :class=>"btn-primary", :disabled=>"true" %>
-      </div>
-    <% end %>
-  </div>
+    <div class="modal-body">
+        <div id="log_in_errors">
+            <% if flash[:error] %>
+                <div class="form_error">
+                    <%= flash[:error] %>
+                </div>
+            <% end %>
+        </div>
+        
+        <%= form_tag signin_path do |f| %>
+            <div class = "field_block">
+                <%= label_tag "login_email", "Username" %>
+                <%= text_field_tag :login_email, flash[:email], :placeholder=>"Your Email" %>
+            </div>
+            <div class = "field_block">
+                <%= label_tag "login_password", "Password" %>
+                <%= password_field_tag "login_password", flash[:password], :placeholder => "Your Password" %>
+            </div>
+            <div class = "actions">
+                <%= submit_tag "Sign in", :class=>"button-blue pull-right" %>
+            </div>
+       
+        <% end %>
+    </div>
+    <div class="control-group">
+        <%= label_tag "Sign_in Via:" %>
+        <div class="controls">
+            <%= link_to image_tag("google_logo_flat_print_small.png"), "/auth/google_oauth2" %>
+        </div>
+    </div>
 </div>

@@ -1,7 +1,10 @@
 <div class=results style="position:absolute; left:440px; width:270px;">
-  <div class=lborb></div>
-  <div class=rborb></div>
-  <div style="position:absolute; left:19%; top:-20px; width:175px;">
+
+  <div id='calc' class='calculator'>
+    <%= render 'notepad/calc_form' %>
+  </div>
+  <div id='ops_form'></div>
+  <div id="calc_head" style="position:absolute;">
     <h4 style="display:inline-block;">Calculations</h4>
     <div class="tbicons plug" id=np_mult> 
       <i class="icon-remove" ></i>
@@ -13,11 +16,6 @@
       <i class="icon-plus" ></i>
     </div>
   </div>
-
-  <div id=calc class=calculator>
-    <%= render 'notepad/calc_form' %>
-  </div>
-  <div id=ops_form></div>
   <br></br>
   <%= link_to_function "Save", "", :class => 'center_btn button-blue', :id => "sv_opform" %>
 </div>

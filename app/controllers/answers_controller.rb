@@ -29,6 +29,16 @@ class AnswersController < ApplicationController
     @response = @answer.response_hash
   end
 
+  def sample_prob_ans
+    @answer = Answer.includes(:problem).find(params[:id])
+    @problem = @answer.problem.problem
+    @solution = @problem.prefix_solve
+    puts "^"*60
+    puts @solution.inspect
+    @response = @answer.response_hash
+  end
+
+
   def static_show
     @instance = ProblemSetInstance.find(params[:instance])
     @answer = Answer.includes(:problem).find(params[:id])

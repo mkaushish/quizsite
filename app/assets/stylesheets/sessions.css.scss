@@ -27,9 +27,12 @@ form.signin {
 }
 
 #logIn {
+  position:absolute;
+  margin-top:-10%;
+//  margin-left:-200px;
   border-radius: 0px;
   -webkit-border-radius:0px;
-  width:428px;
+// width:428px;
   .modal-header{
     padding-left:0;
     border:none

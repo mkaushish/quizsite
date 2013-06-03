@@ -76,6 +76,7 @@ class QuizInstancesController < ApplicationController
     render 'results'
   end
 
+
   # POST /quiz/:id/finish_problem
   def finish_problem
 

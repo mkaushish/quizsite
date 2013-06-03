@@ -316,6 +316,7 @@ module Chapter1
     def solve
       {"ans" => @nums.min.to_s}
     end
+
     def explain
       ret=[SubLabel.new("The numbers we have to compare are #{@nums.join(", ")}. We will find the smallest number by eliminating from the list.")]
       ret << Subproblem.new([TextLabel.new("Look at all the numbers. What is the smallest left-most place that in any of them?"), Dropdown.new("cro", PPVALUE)], {"cro" => PPVALUE[@nums.min.to_s.length-1]})
@@ -458,7 +459,7 @@ module Chapter1
     end
     def text
       [ TextLabel.new("Find the difference between the largest and smallest numbers that can be formed using the following digits"),
-        PermutationDisplay.new("ans1", @digs),
+        PermutationDrag.new("ans1", @digs),
         TextField.new("diff")
       ]
     end

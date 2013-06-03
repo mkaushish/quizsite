@@ -46,23 +46,43 @@ $pset_title_m: 200px;
 }
 
 .button-blue {
-	display:inline-block;
-	background-color:$button_blue;
-	color:white;
-	font-size:13px;
-	line-height:16px;
-	padding:5px;
-	font-weight:bold;
-	border-radius:0;
-	&:hover {
-		color:white;
-	}
-}
+	display: block;
+    padding: 5px;
 
+    width:117px;
+    height: 17px;
+    font-family:"Home_hand";
+    font-size:25px;
+
+    text-align: center;
+    color: white;
+    background-color: $sg_blue;
+
+    box-shadow: 2px 2px 2px black;
+    border:none;
+    border-radius:0px;
+    -webkit-border-radius:0px;
+}
+.prob_grad_2{
+	position:relative;
+	height:20px;
+	width:150%;
+	left:-80px;
+    @include gradient(#eef4f4, white);
+}
+.prob_grad_1{
+	position:relative;
+	height:20px;
+	width:150%;
+	left:-80px;
+    @include gradient(white,#eef4f4);
+}
 .problem_body {
   width: $problem_w;
 	h2 {
 		display:inline-block;
+		font-family:'Home_hand';
+		font-size: 50px;
 	}
 
 	input[type="text"] {
