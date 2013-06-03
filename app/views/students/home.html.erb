@@ -50,7 +50,9 @@
   <ul>
     <li><%= link_to (image_tag @student.image.url(:thumb)), edit_student_path, :remote => true  %><%= link_to 'Account',  edit_student_path, :remote => true, :class => 'plate' %></li>
     <li><div id='points'><%= number_with_delimiter(@student.points) %></div><a class='plate' style='margin-top:7px'>Points</a></li>
-    <li><div class = "plate"><%= @badges %></div></li>
+    <% @badges.each do |badge|%>
+      <li><%= image_tag "#{badge.image}", :size => "60x60",:title => "#{badge.name}", :rel => 'tooltip'  %></li>
+    <% end %>
   </ul>
 </div>
 
@@ -67,4 +69,10 @@
     <%= render :partial => 'pset_list_box', :object => i %>
   <% end %>
 </div>
+<script>
+  $(function () {
+    $('.teacher-class-col').jScrollPane();
+    $('.badge_description').tooltip({title: "#{badge.name}"});
+  })
+</script>
 

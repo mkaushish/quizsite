@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130524071757) do
+ActiveRecord::Schema.define(:version => 20130531095043) do
 
   create_table "answers", :force => true do |t|
     t.boolean  "correct"
@@ -38,6 +38,7 @@ ActiveRecord::Schema.define(:version => 20130524071757) do
     t.integer  "student_id"
     t.string   "name"
     t.string   "badge_key"
+    t.string   "image"
   end
 
   create_table "classroom_assignments", :force => true do |t|

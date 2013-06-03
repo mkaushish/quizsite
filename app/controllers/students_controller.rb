@@ -7,7 +7,7 @@ class StudentsController < ApplicationController
                               .includes(:problem_stats, :problem_set, :problem_set_problems)
     @is_all_blue = @student.badges.where(:name=> "BadgeAPSD").blank?
     Student.create_badges(@student)
-    @badges = @student.badges.map(&:name)
+    @badges = @student.badges
   end
 
   def new
