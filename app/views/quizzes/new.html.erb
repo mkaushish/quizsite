@@ -25,10 +25,9 @@
         </div>
         <div class='dotted-border teacher-details-column'>
             <ul class='column-list' id="quiz_problems_tabs">
-                <% @quiz_problems.each do |quiz_problem| %>
-                    <% unless quiz_problem.nil? %>
-                        <% ptype = quiz_problem.problem_type %>
-                        <li><%= ptype %>
+                <% @problem_set.problem_types.each do |ptype| %>
+                    <% unless ptype.nil? %>
+                        <li><%= ptype.to_s %>
                             <%= link_to "Add to Quiz",  "#qp", :"data-toggle" => "tab" , :class => "pull-right" %>
                         </li>
                     <% end %>                        
@@ -48,7 +47,7 @@
                         <%= form_for(@quiz, url: create_quiz_path) do |f| %>
                             <%= hidden_field_tag :classroom_id, @classroom.id %>
                             <%= hidden_field_tag :problem_set_id, @problem_set.id %>
-                             <% @quiz_problems.each do |quiz_problem| %>
+                            <% @quiz_problems.each do |quiz_problem| %>
                                 <% unless quiz_problem.nil? %>
                                     <% ptype = quiz_problem.problem_type %>
                                     <li>

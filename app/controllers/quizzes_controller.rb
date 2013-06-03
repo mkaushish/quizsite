@@ -12,8 +12,14 @@ class QuizzesController < ApplicationController
     @problem_set = ProblemSet.find(params[:pset])
     @quiz = @classroom.quizzes.new(problem_set: @problem_set)
     $stderr.puts "QUIZ: #{@quiz.inspect}"
-    @quiz_problems = @quiz.default_problems
-    $stderr.puts "QUIZPROBS: #{@quiz_problems.inspect}"
+    if defined? params[:ptype]
+      @quiz_problems = @quiz.quiz_problems.new(problem_type: params[:ptype], count: params[:count])
+      $stderr.puts "QUIZPROBS: #{@quiz_problems.inspect}"
+    end
+    respond_to do |format|
+      format.html
+      format.js
+    end
   end
 
   # change the problem types in a quiz
