@@ -590,7 +590,22 @@ module ToHTML
       (len / 3 + 1) * 3
     end
   end
-  
+  class KeyboardAlg < MultiHTMLObj
+    attr_accessor :name, :hpow, :nvar
+    def initialize(name, hpow, nvar)
+      @name=ToHTML::add_prefix name
+      @hpow=hpow
+      @nvar=nvar
+    end
+    def correct?(solution, response)
+      ((@hpow.length+1)**@nvar).times do |i|
+        curn=@name+"_#{i}"
+        return false unless solution[curn]==response[curn]
+      end
+      return true
+    end
+    
+  end
   
   # As you can see, this is just a textfield, with an overwritten fromhash method
   # the point is that in the solve hash you can do

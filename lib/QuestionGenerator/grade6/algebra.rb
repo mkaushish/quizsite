@@ -15,6 +15,30 @@ module Algebra
   INDEX = "algebra"
   TITLE = "Algebra"
   
+  class Createkb < QuestionBase
+    def self.type
+      "Createkb"
+    end
+    def initialize
+      @a=4
+      @b=4
+      # @amts=[]
+      # for i in 0...@act.length
+      #   @amts[i]=(rand(9)+1)*5
+      # end
+    end
+    def solve
+      {"ans" => @a}
+    end
+    def text
+      
+      [
+        # TextLabel.new("Translate the given table into a bar graph taking the scale as 5 students per unit of length"), 
+         KeyboardAlg.new("ans",2,3)
+       ]
+    end
+  end
+  
   class Coefficient < QuestionBase
     def self.type
       "Coefficient"
@@ -1401,7 +1425,8 @@ class Sub_polynomials2 < QuestionWithExplanation
    Algebra::Mul_bi_bi,
    Algebra::Mul_bi_tri,
    Algebra::Mul_tri_tri,
-   Algebra::Evaluate
+   Algebra::Evaluate,
+   # Algebra::Createkb
 
     ] # //Anurag is module name and dummy is class name
 end
