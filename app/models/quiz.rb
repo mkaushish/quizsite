@@ -15,6 +15,7 @@ class Quiz < ActiveRecord::Base
   has_many :users, :through => :quiz_instances
 
   has_many :quiz_problems, inverse_of: :quiz, dependent: :destroy
+
   has_many :classroom_quizzes
 
   belongs_to :classroom

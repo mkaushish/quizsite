@@ -12,9 +12,6 @@
             New Quiz
             <span class="divider">&amp;</span>
         </li>
-        <li>
-            <%= submit_tag "Assign" %>
-        </li>
     </ul>
 </div>
 
@@ -28,7 +25,8 @@
                 <% @problem_set.problem_types.each do |ptype| %>
                     <% unless ptype.nil? %>
                         <li><%= ptype.to_s %>
-                            <%= link_to "Add to Quiz",  "#qp", :"data-toggle" => "tab" , :class => "pull-right" %>
+
+                            <%= link_to "Add to Quiz",  partial_create_quiz_path(ptype: ptype, quiz: @quiz.id), :class => "pull-right", method: :post, remote: :true %>
                         </li>
                     <% end %>                        
                 <% end %>      
@@ -37,32 +35,28 @@
     </div>
     <div class="span8">
         <div class="dotted-border-header">
-            Selected Problems
+            Selected Problems 
         </div>
-       
-        <div class='dotted-border teacher-details-column'>
-            <div class="tab-content">
-                <div class="tab-pane" id="qp">
-                    <ul class='column-list' id="quiz_problems_tabs">
-                        <%= form_for(@quiz, url: create_quiz_path) do |f| %>
-                            <%= hidden_field_tag :classroom_id, @classroom.id %>
-                            <%= hidden_field_tag :problem_set_id, @problem_set.id %>
+        <div class="dotted-border pull-right">
+          
+        </div>
+        <%#= form_for(@quiz = Quiz.new, url: create_quiz_path, method: :post) do |f| %>
+            <%#= hidden_field_tag :classroom_id, @classroom.id %>
+            <%#= hidden_field_tag :problem_set_id, @problem_set.id %>
+
+            <%#= submit_tag "Assign" %>
+            <div class='dotted-border teacher-details-column'>
+                <div id="qp">
+                    <ul class='column-list' id="quiz_problems">
+                        <% unless @quiz_problems.nil? %>
                             <% @quiz_problems.each do |quiz_problem| %>
-                                <% unless quiz_problem.nil? %>
-                                    <% ptype = quiz_problem.problem_type %>
-                                    <li>
-                                        <%= ptype %>
-                                        <br/>
-                                        <%= number_field_tag "quiz_problems[#{ptype.id}]", quiz_problem.count, in: 0..5, step:1, :style => "width:70px" %>
-                                        <%= select_tag "category", "<option selected='selected'>Random</option><option>Custom Problem</option>".html_safe, :style => "width:120px" %>
-                                    </li>
-                                <% end %>                        
-                            <% end %>  
-                        <% end %>  
+                              <%= render "quiz_problem", :quiz_problem => quiz_problem %>
+                            <% end %>
+                        <% end %>   
                     </ul>
                 </div>
             </div>
-        </div>
+        <%# end %>
     </div>
 </div>
 

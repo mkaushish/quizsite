@@ -10,16 +10,15 @@ class QuizzesController < ApplicationController
   def new
     @classroom = Classroom.find(params[:classroom])
     @problem_set = ProblemSet.find(params[:pset])
-    @quiz = @classroom.quizzes.new(problem_set: @problem_set)
+    @quiz = @classroom.quizzes.create(problem_set: @problem_set)
     $stderr.puts "QUIZ: #{@quiz.inspect}"
-    if defined? params[:ptype]
-      @quiz_problems = @quiz.quiz_problems.new(problem_type: params[:ptype], count: params[:count])
-      $stderr.puts "QUIZPROBS: #{@quiz_problems.inspect}"
-    end
-    respond_to do |format|
-      format.html
-      format.js
-    end
+    #if defined? params[:ptype]
+     # @new_quiz_problem = @quiz.quiz_problems.new(problem_type: params[:ptype], count: 1)
+      #@new_quiz_problem.save
+      #$stderr.puts "QUIZPROBS: #{@quiz_problems.inspect} #{params}"
+    #end
+    #@quiz_problems = @quiz.quiz_problems
+    $stderr.puts "QUIZPROBS: #{@quiz_problems.inspect} #{params}"
   end
 
   # change the problem types in a quiz
@@ -30,18 +29,36 @@ class QuizzesController < ApplicationController
     @quiz_problems = @quiz.quiz_problems.includes(:problem_type)
   end
 
+  def partial_create
+
+    @classroom = Classroom.find params[:classroom]
+    @quiz = @classroom.quizzes.find_by_id(params[:quiz])  
+    #@quiz = @classroom.quizzes.find_by_id(params[:quiz]) 
+    
+    @quiz_problem = @quiz.quiz_problems.create problem_type_id: params[:ptype], partial: true
+    
+    redirect_to edit_quiz_problem_path(@quiz_problem, :id => @quiz_problem.id)
+    # respond_to do |format|
+    #   format.js
+    # end
+  end
+
   # POST /quiz
   # quiz problems come in in theformat of 
   def create
+    debugger
     @classroom = Classroom.find params[:classroom_id]
 
     quiz_problems_attributes = []
-    params[:quiz_problems].each_pair do |k, v| 
-      quiz_problems_attributes << {problem_type_id: k, count:v} 
+    params[:quiz_problems].each_pair do |k, v|
+      quiz_problems_attributes << {problem_type_id: k, problem_category: v, partial: nil} 
     end
 
     @quiz = @classroom.quizzes.create problem_set_id: params[:problem_set_id],
     quiz_problems_attributes: quiz_problems_attributes
+ 
+
+
 
     $stderr.puts "ERRORS "*10
     $stderr.puts @classroom.id
@@ -55,7 +72,9 @@ class QuizzesController < ApplicationController
       @students = @classroom.students
     end
 
-    redirect_to details_path(id: @classroom.id, problem_set: params[:problem_set_id])
+     respond_to do |format|
+      format.js
+     end
   end
 
   # ROUTE: post :classroom/assign_quiz/:id, assign_quiz_path(id:, classroom:)
@@ -70,7 +89,9 @@ class QuizzesController < ApplicationController
 
   # DELETE /quizzes/1
   def destroy
+
   end
+
 
   private
 

@@ -5,6 +5,6 @@
 		<% ptype = quiz_problem.problem_type %>
 		<%= ptype %>
 		<%= number_field_tag "quiz_problems[#{ptype.id}]", quiz_problem.count, in: 0..5, step:1 %>
-		
+		<%#= collection_select :quiz_problems, :problem_category, QuizProblem.quiz_prob_category_array, :first, :last %>
 	<% end %>
 </div>

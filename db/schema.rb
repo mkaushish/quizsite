@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130524071757) do
+ActiveRecord::Schema.define(:version => 20130604110019) do
 
   create_table "active_admin_comments", :force => true do |t|
     t.string   "resource_id",   :null => false
@@ -45,7 +45,6 @@ ActiveRecord::Schema.define(:version => 20130524071757) do
 
   add_index "admin_users", ["email"], :name => "index_admin_users_on_email", :unique => true
   add_index "admin_users", ["reset_password_token"], :name => "index_admin_users_on_reset_password_token", :unique => true
->>>>>>> develop
 
   create_table "answers", :force => true do |t|
     t.boolean  "correct"
@@ -215,10 +214,12 @@ ActiveRecord::Schema.define(:version => 20130524071757) do
   create_table "quiz_problems", :force => true do |t|
     t.integer "quiz_id"
     t.integer "problem_type_id"
-    t.integer "count",           :default => 2
+    t.integer "count",            :default => 1
+    t.boolean "partial"
+    t.string  "problem_category"
   end
 
-  add_index "quiz_problems", ["quiz_id", "problem_type_id"], :name => "index_quiz_problems_on_quiz_id_and_problem_type_id", :unique => true
+  add_index "quiz_problems", ["quiz_id", "problem_type_id"], :name => "index_quiz_problems_on_quiz_id_and_problem_type_id"
 
   create_table "quiz_stats", :force => true do |t|
     t.integer "quiz_instance_id"
