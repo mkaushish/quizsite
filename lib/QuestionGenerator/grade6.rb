@@ -19,6 +19,14 @@ require_relative 'grade6/c9'
 require_relative 'grade6/c10'
 #require_relative 'grade6/c11'
 require_relative 'grade6/c12'
+require_relative 'grade6/chapter27'
+require_relative 'grade6/Chaptersqroot'
+require_relative 'grade6/dI_Proportions'
+require_relative 'grade6/manav'
+require_relative 'grade6/anurag'
+require_relative 'grade6/algebra'
+require_relative 'grade6/comparingQuantities'
+
 
 CHAPTERS = [ 
   Chapter1,
@@ -36,6 +44,14 @@ CHAPTERS = [
 #  MyChapter12,
   Geo,
   Physics,
-  CricketQuestions
+  CricketQuestions,
+  Chapter27,
+  Chaptersqroot,
+  DI_Proportions,
+  Manav,
+  Anurag,
+  Algebra,
+  ComparingQuantities
+
 ]
 

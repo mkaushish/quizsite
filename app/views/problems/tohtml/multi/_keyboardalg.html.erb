@@ -1,0 +1,70 @@
+<div class="multifield">
+  <% nvar= keyboardalg.nvar.to_i %>
+    <% hpow= keyboardalg.hpow.to_i %>
+   <p id = "textfield" rows="10" cols="50"> </p>
+   <br>
+   <br> 
+  <table id = "table" border="1">
+  <tr>
+    
+  <td ><button type="button" id = "variables" onclick="input1(<%= nvar %>,<%= hpow %>)">variables</button></td>
+  <td ><button type="button" id = "0" onclick="myfunc(this.id,<%= nvar %>,<%= hpow %>)">0</button></td>
+  <td ><button type="button" id = "1" onclick="myfunc(this.id,<%= nvar %>,<%= hpow %>)">1</button></td>
+  <td ><button type="button" id = "2" onclick="myfunc(this.id,<%= nvar %>,<%= hpow %>)">2</button></td>
+  <td ><button type="button" id = "3" onclick="myfunc(this.id,<%= nvar %>,<%= hpow %>)">3</button></td>
+  <td ><button type="button" id = "4" onclick="myfunc(this.id,<%= nvar %>,<%= hpow %>)">4</button></td>
+  <td ><button type="button" id = "5" onclick="myfunc(this.id,<%= nvar %>,<%= hpow %>)">5</button></td>
+  <td ><button type="button" id = "6" onclick="myfunc(this.id,<%= nvar %>,<%= hpow %>)">6</button></td>
+  <td ><button type="button" id = "7" onclick="myfunc(this.id,<%= nvar %>,<%= hpow %>)">7</button></td>
+  <td ><button type="button" id = "8" onclick="myfunc(this.id,<%= nvar %>,<%= hpow %>)">8</button></td>
+  <td ><button type="button" id = "9" onclick="myfunc(this.id,<%= nvar %>,<%= hpow %>)">9</button></td>
+  <td ><button type="button" id = "BackSpace" onclick="myfunc(this.id)">BackSpace</button></td>
+  <td ><button type="button" id = "+ " onclick="myfunc(this.id,<%= nvar %>,<%= hpow %>)">+</button></td>
+  <!-- <td ><button type="button" id = "+" onclick="exponent()">+</button></td> -->
+  <td ><button type="button" id = "- " onclick="myfunc(this.id,<%= nvar %>,<%= hpow %>)">-</button></td>
+  <!-- <td ><button type="button" id = "-" onclick="exponent()">-</button></td> -->
+
+  <td ><button type="button" id = "Enter" onclick="myfunc(this.id,<%= nvar %>,<%= hpow %>)">Enter</button></td>
+  
+  
+  </tr>
+
+  </table>
+<table id=table2 style="display:none">
+    <% ((hpow+1)**nvar).times do |row| %>
+      <tr>
+        <td><%= hidden_field_tag("#{keyboardalg.name}_#{row}", '0') %></td>
+      </tr>
+    <% end %>
+  </table>
+
+
+  <br>
+  <br>
+
+
+  <script>
+  var maxexp =0;
+var maxvariable=0;
+var coefficient="";
+var intcoefficient=0;
+var index;
+var sign=0;
+var deleted =0;
+var variablearray = new Array();
+variablearray[0]="x";
+variablearray[1]="y";
+variablearray[2]="z";
+variablearray[3]="u";
+variablearray[4]="v";
+variablearray[5]="w";
+
+var arrayexp= new Array();
+for(var i=0;i<6;i++)
+{arrayexp[i] =0;}
+var arraycoeff = new Array();
+    // setUpDataGr("datacanvas", "table");
+    // alert("blah");
+    // input1(keyboardalg.hpow,keyboardalg.nvar);
+  </script>
+</div>
