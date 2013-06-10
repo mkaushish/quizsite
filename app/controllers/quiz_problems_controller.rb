@@ -3,36 +3,35 @@ class QuizProblemsController < ApplicationController
   	before_filter :authenticate
 
   	def edit
-  		
   		@quiz_problem = QuizProblem.find_by_id(params[:id])
-      
   		respond_to do |format|
   		 	format.js
-  			#format.html
   		end
   	end
 
-    def do_prob
-      # if defined? params[:problem_category]
-      #   case params[:problem_category]
-      #   when 1
-           @problem_type = ProblemType.find_by_id(params[:ptype_id])
-          @problem = @problem_type.spawn_problem
-      #   end
-      # end
-      respond_to do |format|
-        format.js
-      end
+    def next_prob
+        @problem_type = ProblemType.find(@quiz_problem.problem_type_id)
+        @problem = @problem_type.spawn_problem
+        @answer = @problem.solve
     end
 
-  	def update
+    def update
+        
     	@quiz_problem = QuizProblem.find_by_id(params[:id])
-    	respond_to do |format|
-      		if @quiz_problem.update_attributes(params[:quiz_problem]) 
-        		format.html redirect_to root_path
-      		else
-        		format.html { render action: "edit" }
-      		end
+    	if @quiz_problem.update_attributes(params[:quiz_problem])
+            
+            if @quiz_problem.problem.nil?
+                @problem_type = ProblemType.find(@quiz_problem.problem_type_id) if @quiz_problem.problem_category == "1"
+                @problem = @problem_type.spawn_problem if @quiz_problem.problem_category == "1"
+                @problem = current_user.custom_problems.offset(rand(current_user.custom_problems.count)).first if @quiz_problem.problem_category == "2"
+                debugger
+                
+                @answer = @problem.solve
+            else
+                redirect_to root_path
+            end
+        else
+            redirect_to root_path
     	end
   	end
 end

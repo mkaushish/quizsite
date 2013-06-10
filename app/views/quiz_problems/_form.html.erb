@@ -1,29 +1,9 @@
-<% ptype = @quiz_problem.problem_type %>
-
-<h2><%= ptype %></h2>
-
-<%= form_for(@quiz_problem, url:update_quiz_problem_path) do |f| %>
-    <% unless @quiz_problem.nil? %>
-  		<%= f.label :problem_category, "Choose Problem Category" %>
-   		<%= f.collection_select :problem_category, QuizProblem.quiz_prob_category_array, :first, :last, {:id => 'problem_category'} %>
-    <% end %>  
-   	<%= f.submit "Assign" %>
-<% end %> 
-
-<div class="problem">
-    
+<div id="prob_category_form">
+	<%= render 'prob_category_form', :@quiz_problem => @quiz_problem %>
 </div>
 
-<script>
-$(document).ready(function() {
-    $('#problem_category').change(function() {
-        $.ajax({
-            url: "#{quiz_prob_path(ptype)}",
-            data: {
-                prob_category : $('#problem_category').val()
-            },
-            dataType: "script"
-        });
-    });
-};
-</script>
+<div id="prob_select_form">
+	<% unless @problem.nil? %>
+		<%= render 'prob_select_form', :@quiz_problem => @quiz_problem, :@problem => @problem, :@answer => @answer %>
+	<% end %>
+</div>

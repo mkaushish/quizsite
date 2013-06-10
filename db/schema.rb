@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130604110019) do
+ActiveRecord::Schema.define(:version => 20130610092407) do
 
   create_table "active_admin_comments", :force => true do |t|
     t.string   "resource_id",   :null => false
@@ -217,6 +217,7 @@ ActiveRecord::Schema.define(:version => 20130604110019) do
     t.integer "count",            :default => 1
     t.boolean "partial"
     t.string  "problem_category"
+    t.integer "problem"
   end
 
   add_index "quiz_problems", ["quiz_id", "problem_type_id"], :name => "index_quiz_problems_on_quiz_id_and_problem_type_id"

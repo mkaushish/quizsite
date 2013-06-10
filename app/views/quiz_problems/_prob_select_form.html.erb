@@ -1,0 +1,26 @@
+<% ptype = @quiz_problem.problem_type %>
+
+<h2><%= ptype %></h2>
+<%= link_to "Try Another",
+                      do_sample_problem_path(@quiz_problem.problem_type_id), 
+                       :class => 'pull-right button-blue', :id => 'try_another', :remote => true  %>
+<%= form_for(@quiz_problem, url:update_quiz_problem_path, remote: :true) do |f| %>
+    <div class="problem">
+        <%= hidden_field_tag 'problem_id', @problem.id %>
+        <%= "Question: " %>
+        <% @problem.text.each do |elt| %>
+            <%= render_tohtml({partial_dir: 'problems'}, elt) %>
+        <% end %>
+        <br />
+        <%= "Answer: " %>
+        <br />
+        <%= @answer.to_s %> 
+         <%#= render partial: 'answers/tohtml/corrected_problem_elt', 
+              object: elt, 
+              locals: {partial_dir: 'answers'} %>
+       
+
+    </div>
+
+   	<%= f.submit "Assign" %>
+<% end %> 
