@@ -6,7 +6,7 @@
 <h2><%= ptype %></h2>
 <%= form_for(@quiz_problem, url:update_quiz_problem_path, remote: :true) do |f| %>
     <div class="problem">
-        <%= hidden_field_tag 'problem_id', @problem.id %>
+        <%= f.hidden_field :problem, :value => @problem.id %>
         <%= "Question: " %>
         <% @problem.text.each do |elt| %>
             <%= render_tohtml({partial_dir: 'problems'}, elt) %>
