@@ -10,7 +10,7 @@ class QuizzesController < ApplicationController
   def new
     @classroom = Classroom.find(params[:classroom])
     @problem_set = ProblemSet.find(params[:pset])
-    @quiz = @classroom.quizzes.create(problem_set: @problem_set)
+    @quiz = @classroom.quizzes.new(problem_set: @problem_set)
     $stderr.puts "QUIZ: #{@quiz.inspect}"
     #if defined? params[:ptype]
      # @new_quiz_problem = @quiz.quiz_problems.new(problem_type: params[:ptype], count: 1)
@@ -32,12 +32,15 @@ class QuizzesController < ApplicationController
   def partial_create
 
     @classroom = Classroom.find params[:classroom]
-    @quiz = @classroom.quizzes.find_by_id(params[:quiz])  
+    @problem_set = ProblemSet.find(params[:pset])
+    @quiz = @classroom.quizzes.create(problem_set: @problem_set)
+    #@quiz = @classroom.quizzes.find_by_id(params[:quiz])  
+
     #@quiz = @classroom.quizzes.find_by_id(params[:quiz]) 
     
     @quiz_problem = @quiz.quiz_problems.create problem_type_id: params[:ptype], partial: true
     
-    redirect_to edit_quiz_problem_path(@quiz_problem, :id => @quiz_problem.id)
+    redirect_to edit_quiz_problem_path(@quiz_problem)
     # respond_to do |format|
     #   format.js
     # end

@@ -103,9 +103,10 @@ Quizsite::Application.routes.draw do
   get '/access_denied', :to => 'pages#access_denied'
 
   # quiz_problems 
-  match '/:quiz/:pset/quiz_problem/:id/edit' => 'quiz_problems#edit', :via => :get, as: :edit_quiz_problem
-  match '/:quiz/:pset/quiz_problem/:id/update' => 'quiz_problems#update', :via => :put, as: :update_quiz_problem
-  get '/quiz/problems_select/:ptype_id', :to => 'quiz_problems#do_prob', :as => :quiz_prob_do  
+  match '/quiz_problem/:quiz_prob/edit' => 'quiz_problems#edit', :via => :get, as: :edit_quiz_problem
+  match '/quiz_problem/:quiz_prob/update' => 'quiz_problems#update', :via => :put, as: :update_quiz_problem
+  get 'quiz_problem/:quiz_prob/ptype/:ptype', :to => 'quiz_problems#next_prob', :as => :choose_quiz_prob
+
   # get '/:quiz/:pset/edit_quiz_problem/',   to: 'quiz_problems#edit', as: :edit_quiz_problem
   # put '/:quiz/:pset/update_quiz_problem/:quiz_problem',   to: 'quiz_problems#update', as: :update_quiz_problem
   
