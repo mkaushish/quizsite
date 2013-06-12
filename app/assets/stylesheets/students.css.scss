@@ -161,7 +161,7 @@ div.pset_list_box {
   .quiz-link{
     a, .link{
       position: absolute;
-    left: 150px;
+    left: 120px;
     display: block;
     padding: 5px;
 
@@ -176,8 +176,8 @@ div.pset_list_box {
     }
   }
   .gif_tick{
-    float: right;
     overflow: visible; 
+    text-align:center;
   }
   .pset_pbar {
     width:187px;
@@ -185,14 +185,14 @@ div.pset_list_box {
     margin-left:3.7%;
     margin-top:3.7%;
   }
-  #shelf {
+  .shelf {
 margin-top:30px;
 margin-right: 0px;
 margin-bottom: 50px;
 margin-left: 0px;
 
 }
-#shelf ul {
+.shelf ul {
     margin: 23px 0;
     padding: 0;
     height: 19px;
@@ -200,7 +200,7 @@ margin-left: 0px;
     background-color: #ccc;
 }
  
-    #shelf ul:before {
+    .shelf ul:before {
         border-right: 38px solid #cccccc;
         border-top: 18px solid #FFFFFF;
         content: "";
@@ -209,7 +209,7 @@ margin-left: 0px;
         width: 0;
     }
  
-    #shelf ul:after {
+    .shelf ul:after {
         border-left: 38px solid #cccccc;
         border-top: 18px solid #FFFFFF;
         content: "";
@@ -218,7 +218,7 @@ margin-left: 0px;
         width: 0;
     }
  
-#shelf li {
+.shelf li {
     float: left;
     list-style: none outside none;
     margin: -27px 10px 0;
@@ -227,11 +227,11 @@ margin-left: 0px;
     text-align: center;
     width: 80px;
 }
- #shelf img {
+ .shelf img {
   border-radius:50%;
   margin-top:-40px;
  }
-#shelf a {
+.shelf a {
 
     padding: 7px;
     display: block;
