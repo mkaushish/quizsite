@@ -287,7 +287,7 @@ module Algebra
       [TextLabel.new("Add the two polynomials "), 
         InlineBlock.new(TextLabel.new("(#{@a})XY + (#{@b})YZ + (#{@c})ZX ")),TextLabel.new(""),
         InlineBlock.new(TextLabel.new("(#{@d})XY + (#{@e})YZ + (#{@f})ZX ")),TextLabel.new(""),
-        InlineBlock.new(TextLabel.new("(#{@g})XY + #{@h})YZ + (#{@i})ZX ")),TextLabel.new(""),
+        InlineBlock.new(TextLabel.new("(#{@g})XY + (#{@h})YZ + (#{@i})ZX ")),TextLabel.new(""),
        InlineBlock.new(TextLabel.new("Answer:"), TextField.new("ans1"),TextLabel.new("XY + "),TextField.new("ans2"),TextLabel.new("YZ +"),TextField.new("ans3"),TextLabel.new("ZX"))
       ]
     end
@@ -701,7 +701,7 @@ class Sub_polynomials2 < QuestionWithExplanation
     end
     def text
       [TextLabel.new("Multiply the given polynomial "), 
-        InlineBlock.new(TextLabel.new("(#{@a}"),Exponent.new(TextLabel.new("x"),@d),Exponent.new(TextLabel.new("y"),@e),Exponent.new(TextLabel.new("z"),@f),TextLabel.new(")."),TextLabel.new("(#{@b}"),Exponent.new(TextLabel.new("x"),@g),Exponent.new(TextLabel.new("y"),@h),Exponent.new(TextLabel.new("z"),@i),TextLabel.new(")."),TextLabel.new("(#{@c}"),Exponent.new(TextLabel.new("x"),@j),Exponent.new(TextLabel.new("y"),@k),Exponent.new(TextLabel.new("z"),@l),TextLabel.new(")")),TextLabel.new(""),
+        InlineBlock.new(TextLabel.new("(#{@a}"),Exponent.new(TextLabel.new("x"),@d),Exponent.new(TextLabel.new("y"),@e),Exponent.new(TextLabel.new("z"),@f),TextLabel.new(")"),TextLabel.new("(#{@b}"),Exponent.new(TextLabel.new("x"),@g),Exponent.new(TextLabel.new("y"),@h),Exponent.new(TextLabel.new("z"),@i),TextLabel.new(")"),TextLabel.new("(#{@c}"),Exponent.new(TextLabel.new("x"),@j),Exponent.new(TextLabel.new("y"),@k),Exponent.new(TextLabel.new("z"),@l),TextLabel.new(")")),TextLabel.new(""),
         InlineBlock.new(TextLabel.new("Answer:"), TextField.new("ans1"),Exponent.new(TextLabel.new("x"),TextField.new("ans2")),Exponent.new(TextLabel.new("y"),TextField.new("ans3")),Exponent.new(TextLabel.new("z"),TextField.new("ans4")))
       ]
     end
@@ -981,7 +981,7 @@ class Sub_polynomials2 < QuestionWithExplanation
       [
         TextLabel.new("Multiply "), 
         InlineBlock.new(TextLabel.new("#{@a}"),Exponent.new(TextLabel.new("y"),@e),TextLabel.new("(#{@b}"),Exponent.new(TextLabel.new("y"),TextLabel.new("2")),TextLabel.new("+ #{@c}y + "),TextLabel.new("#{@d})")),TextLabel.new(""),
-        InlineBlock.new(TextLabel.new("Answer:"), TextField.new("ans1"),Exponent.new(TextLabel.new("y"),TextField.new("ans4")),TextLabel.new(" + "),TextField.new("ans2"),Exponent.new(TextLabel.new("y"),TextField.new("ans5")),TextLabel.new(" + "),TextField.new("ans3"),Exponent.new(TextLabel.new("y"),TextField.new("ans6")),TextLabel.new(")"))
+        InlineBlock.new(TextLabel.new("Answer:"), TextField.new("ans1"),Exponent.new(TextLabel.new("y"),TextField.new("ans4")),TextLabel.new(" + "),TextField.new("ans2"),Exponent.new(TextLabel.new("y"),TextField.new("ans5")),TextLabel.new(" + "),TextField.new("ans3"),Exponent.new(TextLabel.new("y"),TextField.new("ans6")),TextLabel.new(""))
      
 
       ]
@@ -1096,20 +1096,20 @@ class Sub_polynomials2 < QuestionWithExplanation
       if @choose===0
         [
         TextLabel.new("Multiply "), 
-        InlineBlock.new(TextLabel.new("(#{@a}x +"),TextLabel.new("#{@b})."),TextLabel.new("(#{@c}x +"),TextLabel.new("#{@d}).")),TextLabel.new(""),
+        InlineBlock.new(TextLabel.new("(#{@a}x +"),TextLabel.new("#{@b})"),TextLabel.new("(#{@c}x +"),TextLabel.new("#{@d})")),TextLabel.new(""),
         InlineBlock.new(TextLabel.new("Answer:"), TextField.new("ans1"),Exponent.new(TextLabel.new("x"),TextLabel.new("2")),TextLabel.new(" + "),TextField.new("ans2"),TextLabel.new("x + "),TextField.new("ans3"),TextLabel.new(")"))
         ]
       elsif @choose===1
         [
         TextLabel.new("Multiply "), 
-        InlineBlock.new(TextLabel.new("(#{@a}x +"),TextLabel.new("#{@b}y)."),TextLabel.new("(#{@c}x +"),TextLabel.new("#{@d}y).")),TextLabel.new(""),
+        InlineBlock.new(TextLabel.new("(#{@a}x +"),TextLabel.new("#{@b}y)"),TextLabel.new("(#{@c}x +"),TextLabel.new("#{@d}y)")),TextLabel.new(""),
         InlineBlock.new(TextLabel.new("Answer:"), TextField.new("ans1"),Exponent.new(TextLabel.new("x"),TextLabel.new("2")),TextLabel.new(" + "),TextField.new("ans2"),TextLabel.new("xy + "),TextField.new("ans3"),Exponent.new(TextLabel.new("y"),TextLabel.new("2")),TextLabel.new(")"))
         ]
       elsif @choose===2
         [
         TextLabel.new("Multiply "), 
         InlineBlock.new(TextLabel.new("(#{@a}"),Exponent.new(TextLabel.new("x"),@e),TextLabel.new(" + #{@b}"),Exponent.new(TextLabel.new("y"),@f),TextLabel.new(").(#{@c}"),Exponent.new(TextLabel.new("x"),@g),TextLabel.new(" + #{@d}"),Exponent.new(TextLabel.new("y"),@h),TextLabel.new(")")),TextLabel.new(""),
-        InlineBlock.new(TextLabel.new("Answer:"), TextField.new("ans1"),Exponent.new(TextLabel.new("x"),@e+@g),TextLabel.new(" + "),TextField.new("ans6"),Exponent.new(TextLabel.new("x"),@g),Exponent.new(TextLabel.new("y"),@f),TextField.new("ans7"),Exponent.new(TextLabel.new("x"),@e),Exponent.new(TextLabel.new("y"),@h),TextLabel.new(" + "),TextField.new("ans3"),Exponent.new(TextLabel.new("y"),@f+@h),TextLabel.new(")"))
+        InlineBlock.new(TextLabel.new("Answer:"), TextField.new("ans1"),Exponent.new(TextLabel.new("x"),@e+@g),TextLabel.new(" + "),TextField.new("ans6"),Exponent.new(TextLabel.new("x"),@g),Exponent.new(TextLabel.new("y"),@f),TextField.new("ans7"),Exponent.new(TextLabel.new("x"),@e),Exponent.new(TextLabel.new("y"),@h),TextLabel.new(" + "),TextField.new("ans3"),Exponent.new(TextLabel.new("y"),@f+@h),TextLabel.new(""))
         ]
        end
     end
@@ -1302,21 +1302,21 @@ class Sub_polynomials2 < QuestionWithExplanation
     end
 
     def text
+      # [TextLabel.new("futre vu")]
        if @choose===0
-        [
-        TextLabel.new("Multiply "), 
-        InlineBlock.new(TextLabel.new("(#{@a}"),Exponent.new(TextLabel.new("x"),TextLabel.new("2")),TextLabel.new("+ #{@b}x + #{@c})."),TextLabel.new("(#{@d}"),Exponent.new(TextLabel.new("x"),TextLabel.new("2")),TextLabel.new("+ #{@e}x + #{@f})")),
-        TextLabel.new(""),
-        InlineBlock.new(TextLabel.new("Answer:"), TextField.new("ans1"),Exponent.new(TextLabel.new("x"),TextLabel.new("4")),TextLabel.new(" + "),TextField.new("ans2"),Exponent.new(TextLabel.new("x"),TextLabel.new("3")),TextLabel.new(" + "),TextField.new("ans3"),Exponent.new(TextLabel.new("x"),TextLabel.new("2")),TextField.new("ans4"),TextLabel.new("x + "),TextField.new("ans5"),TextLabel.new(""))
-        ]
+          [
+           TextLabel.new("Multiply "), 
+          InlineBlock.new(TextLabel.new("(#{@a}"),Exponent.new(TextLabel.new("x"),TextLabel.new("2")),TextLabel.new("+ #{@b}x + #{@c})"),TextLabel.new("(#{@d}"),Exponent.new(TextLabel.new("x"),TextLabel.new("2")),TextLabel.new("+ #{@e}x + #{@f})")),
+          TextLabel.new(""),
+          InlineBlock.new(TextLabel.new("Answer:"), TextField.new("ans1"),Exponent.new(TextLabel.new("x"),TextLabel.new("4")),TextLabel.new(" + "),TextField.new("ans2"),Exponent.new(TextLabel.new("x"),TextLabel.new("3")),TextLabel.new(" + "),TextField.new("ans3"),Exponent.new(TextLabel.new("x"),TextLabel.new("2")),TextField.new("ans4"),TextLabel.new("x + "),TextField.new("ans5"))
+          ]
        else 
-        [
-        TextLabel.new("Multiply "), 
-        InlineBlock.new(TextLabel.new("(#{@a}a +"),TextLabel.new("#{@b}b+ #{@c}c)."),TextLabel.new("(#{@d}a +"),TextLabel.new("#{@e}b + "),TextLabel.new("#{@f}c)")),TextLabel.new(""),
-        TextLabel.new("Answer:"), 
-        InlineBlock.new(TextField.new("ans1"),Exponent.new(TextLabel.new("a"),TextLabel.new("2")),TextLabel.new("+"),TextField.new("ans2"),Exponent.new(TextLabel.new("b"),TextLabel.new("2")),TextField.new("ans3"),Exponent.new(TextLabel.new("c"),TextLabel.new("2")),TextField.new("ans4"),TextLabel.new("ab+"),TextField.new("ans5"),TextLabel.new("bc+"),TextField.new("ans6"),TextLabel.new("ac"))
-        ]
-      
+          [
+          TextLabel.new("Multiply "), 
+          InlineBlock.new(TextLabel.new("(#{@a}a +"),TextLabel.new("#{@b}b+ #{@c}c)"),TextLabel.new("(#{@d}a +"),TextLabel.new("#{@e}b + "),TextLabel.new("#{@f}c)")),TextLabel.new(""),
+          TextLabel.new("Answer:"), 
+          InlineBlock.new(TextField.new("ans1"),Exponent.new(TextLabel.new("a"),TextLabel.new("2")),TextLabel.new("+"),TextField.new("ans2"),Exponent.new(TextLabel.new("b"),TextLabel.new("2")),TextField.new("ans3"),Exponent.new(TextLabel.new("c"),TextLabel.new("2")),TextField.new("ans4"),TextLabel.new("ab+"),TextField.new("ans5"),TextLabel.new("bc+"),TextField.new("ans6"),TextLabel.new("ac"))
+          ]
         end
     end
   end

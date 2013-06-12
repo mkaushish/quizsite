@@ -163,7 +163,7 @@ module Anurag
       end
         
       
-      @num1 = (@a*@d)-(@b*@c)
+      @num1 = -(@a*@d)+(@b*@c)
       @den1 = @b*@d
       @num = @num1*@f
       @den = @den1*@e 
@@ -227,7 +227,7 @@ module Anurag
         @g=rand(15)+1
       end
       
-      @num1 = (@a*@d)-(@b*@c)
+      @num1 = -(@a*@d)+(@b*@c)
       @den1 = @b*@d
 
       @num2 = (@e*@h)-(@f*@g)
