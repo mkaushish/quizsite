@@ -70,6 +70,7 @@ class ProblemSetInstancesController < ApplicationController
     @instance.num_blue = @instance.problem_stats.blue.count
     @instance.num_green = @instance.problem_stats.green.count
     @instance.num_red = @instance.problem_stats.count - @instance.num_blue - @instance.num_green
+    @instance.last_attempted = Time.now
     @instance.save
     @problem = @answer.problem.problem
     @solution = @problem.prefix_solve

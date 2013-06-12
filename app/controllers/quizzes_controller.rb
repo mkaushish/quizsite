@@ -10,7 +10,8 @@ class QuizzesController < ApplicationController
   def new
     @classroom = Classroom.find(params[:classroom])
     @problem_set = ProblemSet.find(params[:pset])
-    @quiz = @classroom.quizzes.new(problem_set: @problem_set)
+    @quiz = @classroom.quizzes.create(problem_set: @problem_set)
+    @quiz_problems = @quiz.quiz_problems
     $stderr.puts "QUIZ: #{@quiz.inspect}"
     #if defined? params[:ptype]
      # @new_quiz_problem = @quiz.quiz_problems.new(problem_type: params[:ptype], count: 1)
@@ -33,7 +34,7 @@ class QuizzesController < ApplicationController
 
     @classroom = Classroom.find params[:classroom]
     @problem_set = ProblemSet.find(params[:pset])
-    @quiz = @classroom.quizzes.create(problem_set: @problem_set)
+    @quiz = Quiz.find_by_id(params[:quiz])
     #@quiz = @classroom.quizzes.find_by_id(params[:quiz])  
 
     #@quiz = @classroom.quizzes.find_by_id(params[:quiz]) 

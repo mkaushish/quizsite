@@ -1,15 +1,4 @@
-<%#= form_for (@quiz_problem, url: create_quiz_path, method: :post) do |f| %>
-    <%#= hidden_field_tag :classroom_id, @classroom.id %>
-    <%#= hidden_field_tag :problem_set_id, @problem_set.id %>
-    <%#= submit_tag "Assign" %>
-<% unless @quiz_problem.nil? %>
-    
-    <% ptype = @quiz_problem.problem_type %>
-    <h2><%= ptype %></h2>
-        <br/>
-        <%= collection_select :quiz_problems, :problem_category, QuizProblem.quiz_prob_category_array, :first, :last %>
-    	
-    
-<% end %>  
-<%# end %>                      
-
+<li id = "quiz_problem_<%= quiz_problem.id %>">
+	<%= link_to quiz_problem.problem_type.name, problem_path(quiz_problem.problem), remote: :true %>
+	<%= link_to "Remove", delete_quiz_problem_path(quiz_problem), method: :delete, confirm: "Do you really want to delete the Quiz Problem", remote: :true, :class =>"pull-right" %>
+</li>

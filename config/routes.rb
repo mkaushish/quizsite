@@ -1,13 +1,8 @@
 Quizsite::Application.routes.draw do
+
   resources :badges
-
-
   resources :problem_sets, only: [:show, :edit, :create, :update, :destroy]
   resources :custom_problems, except: [:index]
-  get 'problems/:id', to: 'problems#show', as: :problem
-  
-  match "/auth/:provider/callback" => "users#create_user_vdp"
-
   resources :users do
     member do
       get  'confirm'
@@ -15,7 +10,9 @@ Quizsite::Application.routes.draw do
     end
   end
 
-  # resources :sessions, :only => [:new, :create, :destroy]
+  get 'problems/:id', to: 'problems#show', as: :problem
+  
+  match "/auth/:provider/callback" => "users#create_user_vdp"
 
   post "pages/check_drawing"
   post "pages/exampleprobs"
@@ -84,7 +81,6 @@ Quizsite::Application.routes.draw do
   
   # post ':classroom/assign_quiz/:id', to: 'quizzes#assign', as: :assign_quiz
   get '/:classroom/:pset/show',     to: 'quizzes#show', as: :quiz
-
   post '/:classroom/:quiz/assign'
 
   # :id => classroom id
@@ -104,12 +100,11 @@ Quizsite::Application.routes.draw do
 
   # quiz_problems 
   match '/quiz_problem/:quiz_prob/edit' => 'quiz_problems#edit', :via => :get, as: :edit_quiz_problem
-  match '/quiz_problem/:quiz_prob/update' => 'quiz_problems#update', :via => :put, as: :update_quiz_problem
-  get 'quiz_problem/:quiz_prob/ptype/:ptype', :to => 'quiz_problems#next_prob', :as => :choose_quiz_prob
-
-  # get '/:quiz/:pset/edit_quiz_problem/',   to: 'quiz_problems#edit', as: :edit_quiz_problem
-  # put '/:quiz/:pset/update_quiz_problem/:quiz_problem',   to: 'quiz_problems#update', as: :update_quiz_problem
-  
+  match '/quiz_problem/:quiz_prob/update_prob_cat' => 'quiz_problems#update_problem_category', :via => :put, as: :update_prob_cat_qp
+  match '/quiz_problem/:quiz_prob/update_problem' => 'quiz_problems#update_problem', :via => :put, as: :update_problem_qp
+  get 'quiz_problem/:quiz_prob/ptype/:ptype', :to => 'quiz_problems#next_random_prob', :as => :next_random_prob_qp
+  get 'quiz_problem/:quiz_prob/', :to => 'quiz_problems#next_custom_prob', :as => :next_custom_prob_qp
+  delete 'quiz_problem/:quiz_prob/', :to => 'quiz_problems#destroy', :as => :delete_quiz_problem
 
   #
   # static example pages

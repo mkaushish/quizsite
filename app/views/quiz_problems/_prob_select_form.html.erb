@@ -1,10 +1,16 @@
 <% ptype = @quiz_problem.problem_type %>
 
-<%= link_to "Choose Another",
-                      choose_quiz_prob_path(@problem_type, :quiz_prob => @quiz_problem), 
-                       :class => 'pull-right button-blue', :id => 'choose_another', :remote => true  %>
+<% if @quiz_problem.problem_category == "1" %>
+    <%= link_to "Choose Another", next_random_prob_qp_path(@problem_type, :quiz_prob => @quiz_problem), 
+    :class => 'pull-right button-blue', :id => 'choose_another', :remote => true  %>
+<% else %>
+    <%= link_to "Choose Another", next_custom_prob_qp_path(@quiz_problem), 
+    :class => 'pull-right button-blue', :id => 'choose_another', :remote => true  %>
+<% end %>
+
 <h2><%= ptype %></h2>
-<%= form_for(@quiz_problem, url:update_quiz_problem_path, remote: :true) do |f| %>
+
+<%= form_for(@quiz_problem, url: update_problem_qp_path, remote: :true) do |f| %>
     <div class="problem">
         <%= f.hidden_field :problem, :value => @problem.id %>
         <%= "Question: " %>
@@ -15,12 +21,6 @@
         <%= "Answer: " %>
         <br />
         <%= @answer.to_s %> 
-         <%#= render partial: 'answers/tohtml/corrected_problem_elt', 
-              object: elt, 
-              locals: {partial_dir: 'answers'} %>
-       
-
     </div>
-
    	<%= f.submit "Assign" %>
 <% end %> 
