@@ -112,14 +112,13 @@ module Chaptersqroot
  		{"ans1" => @numbr2,
          "ans2" => @numbr3}
   end
-def correct?(params)
-      solsum = 0
-      bool = true
-      resps = QuestionBase.vars_from_response( *( (1...3).map { |i| "ans#{i}" }), params)
-      puts "********\n" + resps.to_s + "********\n"
-      (((resps[0].to_i)**2 - (resps[1].to_i)**2).abs == @numbr1**2)
-      
-    end
+  def correct?(params)
+    solsum = 0
+    bool = true
+    resps = QuestionBase.vars_from_response( *( (1...3).map { |i| "ans#{i}" }), params)
+    puts "********\n" + resps.to_s + "********\n"
+    (((resps[0].to_i)**2 - (resps[1].to_i)**2).abs == @numbr1**2)
+  end
 
     def text
     	[TextLabel.new("Find a Pythagorean triplet in which one member is #{@numbr1}"),InlineBlock.new(TextField.new("ans1"),TextField.new("ans2"))]

@@ -24,7 +24,10 @@ require_relative 'grade6/Chaptersqroot'
 require_relative 'grade6/dI_Proportions'
 require_relative 'grade6/manav'
 require_relative 'grade6/anurag'
+require_relative 'grade6/algebra'
+require_relative 'grade6/algebra_6'
 require_relative 'grade6/comparingQuantities'
+
 
 CHAPTERS = [ 
   Chapter1,
@@ -48,6 +51,9 @@ CHAPTERS = [
   DI_Proportions,
   Manav,
   Anurag,
+  Algebra,
+  Algebra_6,
   ComparingQuantities
+
 ]
 
