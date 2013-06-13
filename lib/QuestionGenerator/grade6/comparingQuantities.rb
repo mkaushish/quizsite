@@ -29,13 +29,13 @@ module ComparingQuantities
 		@mult = rand(99) +1
 		@num = @num1*@mult
 		@den = @num2*@mult
-
+    @ans = (100/@num2)*@num1
     end
     def solve
      { "ans" => (100/@num2)*@num1 }
     end
         def explain
-      [Subproblem.new([TextLabel.new("To Find the percentage, you can take help from the the following example: "),TextLabel.new("26 out of 130 = (26/130)X100 = 20%")])]
+      [Subproblem.new([TextLabel.new("To Find the percentage, you can take help from the the following: "),TextLabel.new(" #{@num} out of #{@den} :#{@ans}% = (@num/@den)X100")])]
     end
     def text
       [TextLabel.new("Find the Percentage: "), InlineBlock.new(TextLabel.new("#{@num} out of #{@den} = "),TextField.new("ans"),TextLabel.new("%"))]
@@ -65,7 +65,7 @@ module ComparingQuantities
      { "ans" => (@num*@den)/100 }
     end
 def explain
-      [Subproblem.new([TextLabel.new("To Find the value, you can take help from the following example: "),TextLabel.new("20% of 130 = (20/100)X130 = 26")])]
+      [Subproblem.new([TextLabel.new("To Find the value, you can take help from the following: "),TextLabel.new("#{@num}% of #{@den}: #{@ans} = (#{@num} X #{@den})/100")])]
     end
     def text
       [TextLabel.new("Find the value:"), InlineBlock.new(TextLabel.new("#{@num}% of #{@den} = "),TextField.new("ans"))]
@@ -216,20 +216,21 @@ class ProfitLoss < QuestionWithExplanation
     @factors = [2,4,5,10,20,25,50,100]
     @num2 = @factors.sample
     @num3 = 100/@num2
-    @num2 = (@num2/2).truncate
-    @num1 =  rand(@num2)
+    @num4 = (@num2/2).truncate
+    @num1 =  rand(@num4)
     if @num1 === 0
       @num1 = 1
     end 
     @mult = rand(99) +1
     @numerator1 = @num1*@num3
     @den = @num2*@mult
+    @tax =  (@numerator1*@den)/100
     end
     def solve
      { "ans" => @den +(@numerator1*@den)/100 }
     end
     def explain
-      [Subproblem.new([TextLabel.new("To Find the Billing Amount you first calculate the taxed amount & then add that to the original price: "),TextLabel.new("Taxed Amount = (Original Price)X(ST/100)")])]
+      [Subproblem.new([TextLabel.new("To Find the Billing Amount you first calculate the taxed amount & then add that to the original price: "),TextLabel.new("Taxed Amount = (Original Price)X(ST/100)"),TextLabel.new("#{@tax} = #{@den}X(#{@numerator1}/100)")])]
     end
     def text
       [TextLabel.new("Find the Billing Amount "), InlineBlock.new(TextLabel.new("#{@numerator1}% Sales Tax on #{@den}; Bill Amount = "),TextField.new("ans"))]
@@ -259,13 +260,14 @@ class ProfitLoss < QuestionWithExplanation
         @num = @num1*((@vat+100)/2)
       else
         @num = @num1*(@vat+100)
-      end    
+      end
+      @ans = (@num/@den)*100    
     end
     def solve
      { "ans" => (@num/@den)*100 }
     end
     def explain
-      [Subproblem.new([TextLabel.new("To Find the Original Price, you can use the following formulas: "),TextLabel.new("Original Price = Billed Price X (100/(100+vat))")])]
+      [Subproblem.new([TextLabel.new("To Find the Original Price, you can use the following formulas: "),TextLabel.new("Original Price = Billed Price X (100/(100+vat))",TextLabel.new("#{@ans} = #{@num} X (100/100+#{@vat})"))])]
     end    
     def text
       [TextLabel.new("Find the Original Price "), InlineBlock.new(TextLabel.new("#{@vat}% VAT makes the price #{@num}; Original Price = "),TextField.new("ans"))]
@@ -286,13 +288,14 @@ class ProfitLoss < QuestionWithExplanation
         @time = 2  
         @principal = @principal*100
       end  
-
+      @amount = @principal*((100 + @rate)**@time)/(100**@time)
+      @ans = @principal*((100 + @rate)**@time)/(100**@time) - @principal
     end
     def solve
      { "ans" => @principal*((100 + @rate)**@time)/(100**@time) - @principal }
     end
     def explain
-      [Subproblem.new([TextLabel.new("To Find the Compound Interest, you can use the following formulas: "),TextLabel.new("P = Principal, R = Yearly Rate of Interest, T = Time in years"),TextLabel.new("Amount = P(1+(R/100))^T"),TextLabel.new("Compound Interest = Amount - Principal")])]
+      [Subproblem.new([TextLabel.new("To Find the Compound Interest, you can use the following formulas: "),TextLabel.new("P = Principal, R = Yearly Rate of Interest, T = Time in years"),TextLabel.new("Amount = P(1+(R/100))^T"),TextLabel.new("#{@amount} = #{@principal}(1+(#{@rate}/))^#{@time}"),TextLabel.new("Compound Interest = Amount - Principal"),TextLabel.new("#{@ans} = #{@amount} - #{@principal}")])]
     end  
     def text
       [TextLabel.new("Find the Compound Interest(Compounded Yearly)"), InlineBlock.new(TextLabel.new("Principal: Rs.#{@principal} Rate: #{@rate}% Time: #{@time}yrs Compound Interest= "),TextField.new("ans"))]
@@ -314,13 +317,14 @@ class ProfitLoss < QuestionWithExplanation
         @time = 2  
         @principal = @principal*100
       end  
-
+      @amount = @principal*((100 + @rate)**@time)/(100**@time)
+      @ans = @principal*((100 + @rate)**@time)/(100**@time) - @principal
     end
     def solve
      { "ans" => @principal*((100 + @rate)**@time)/(100**@time) - @principal }
     end
     def explain
-      [Subproblem.new([TextLabel.new("For problems compounded half-yearly, Double the time period & half the yearly rate of interest. Now we can use the following formulas to find the Compound Interest: "),TextLabel.new("P = Principal, R = (Yearly Rate of Interest)/2, T = 2X(Time in years)"),TextLabel.new("Amount = P(1+(R/100))^T"),TextLabel.new("Compound Interest = Amount - Principal")])]
+      [Subproblem.new([TextLabel.new("For problems compounded half-yearly, Double the time period & half the yearly rate of interest. Now we can use the following formulas to find the Compound Interest: "),TextLabel.new("P = Principal, R = (Yearly Rate of Interest)/2, T = 2X(Time in years)"),TextLabel.new("Amount = P(1+(R/100))^T"),TextLabel.new("#{@amount} = #{@principal}(1+(#{@rate}/))^#{@time}"),TextLabel.new("Compound Interest = Amount - Principal"),TextLabel.new("#{@ans} = #{@amount} - #{@principal}")])]
     end
     def text
       [TextLabel.new("Find the Compound Interest (Compounded half-yearly)"), InlineBlock.new(TextLabel.new("Principal: Rs.#{@principal} Rate: #{2*@rate}% Time: #{@time/2.0}yrs Compound Interest= "),TextField.new("ans"))]
