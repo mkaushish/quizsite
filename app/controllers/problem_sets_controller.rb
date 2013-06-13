@@ -1,59 +1,79 @@
 class ProblemSetsController < ApplicationController
-  def show
-    @problem_set = ProblemSet.includes(:problem_types).find(params[:id])
-  end
+    
+    before_filter :validate_problem_set, :only => [:update, :create, :clone, :assign_to_class, :view, :edit_pset, :update_pset] 
 
-  def edit
-    @chapters = ProblemSet.master_sets_with_ptypes
-    @problem_set = ProblemSet.includes(:problem_types).find(params[:id])
-    @problem_types = @problem_set.problem_types
+    def show
+        @problem_set = ProblemSet.includes(:problem_types).find(params[:id])
+    end
 
-    # figure out the chapter that is starting out open in the tabs
-    @open_chapter = nil
-    @chapters.each do |chapter|
-      chapter.problem_types.each do |ptype|
-        if ptype.id == @problem_types.first.id
-          @open_chapter = chapter
+    def edit
+        @chapters = ProblemSet.master_sets_with_ptypes
+        @problem_set = ProblemSet.includes(:problem_types).find(params[:id])
+        @problem_types = @problem_set.problem_types
+
+        # figure out the chapter that is starting out open in the tabs
+        @open_chapter = nil
+        @chapters.each do |chapter|
+            chapter.problem_types.each do |ptype|
+                if ptype.id == @problem_types.first.id
+                    @open_chapter = chapter
+                end
+            end
+            break if @open_chapter
         end
-      end
-      break if @open_chapter
+
+        @ptypes_hash = @problem_set.ptypes_hash
     end
 
-    @ptypes_hash = @problem_set.ptypes_hash
-  end
-
-  # during edit/new: load problem_types from another chapter
-  def load_chapter
-  end
-
-  def update
-    @problem_set = ProblemSet.find(params[:id])
-
-    if @problem_set.owner != current_user
-      @problem_set = @problem_set.clone_for(current_user)
+    # during edit/new: load problem_types from another chapter
+    def load_chapter
     end
 
-    @problem_set.name = params[:problem_set][:name]
-    @problem_set.problem_types = ProblemType.where(:id => params[:problem_types].keys)
+    def update
+        if @problem_set.owner != current_user
+            @problem_set = @problem_set.clone_for(current_user)
+        end
 
-    if @problem_set.save
-      # TODO make this somehow track the classroom/possibly assign the problem set
-      back_link = details_path
-      render 'show'
-    else
-      render 'edit'
+        @problem_set.name = params[:problem_set][:name]
+        @problem_set.problem_types = ProblemType.where(:id => params[:problem_types].keys)
+
+        if @problem_set.save
+            # TODO make this somehow track the classroom/possibly assign the problem set
+            back_link = details_path
+            render 'show'
+        else
+            render 'edit'
+        end
     end
-  end
 
-  def create
-    @problem_set = ProblemSet.find(params[:id])
-  end
+    def create
+    end
 
-  def clone
-    @problem_set = ProblemSet.find(params[:id])
-  end
+    def clone
+    end
 
-  def assign_to_class
-    @problem_set = ProblemSet.find(params[:id])
-  end
+    def assign_to_class
+    end
+
+    def view
+    end
+
+    def edit_pset
+    end
+
+    def update_pset
+        respond_to do |format|
+            if @problem_set.update_attributes(params[:post]) 
+             
+                format.html { redirect_to view_problem_set_path(@problem_set), notice: 'ProblemSet was successfully updated.' }
+            else
+                format.html { render action: "edit_pset" }
+            end
+        end
+    end
+
+    # Filter for validating Problem Set #
+    def validate_problem_set
+        @problem_set = ProblemSet.find(params[:id]) 
+    end
 end

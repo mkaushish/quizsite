@@ -90,25 +90,34 @@ $border_w: 7px;
       }
     }
 
-  a,.link {
+  a, .link {
     position: absolute;
     top: 90px - $border_w;
     left: 30px - $border_w;
     display: block;
     padding: 5px;
-
     width:117px;
     height: 17px;
-
     text-align: center;
     color: white;
     background-color: $sg_blue;
-
     box-shadow: 4px 4px 2px black;
   }
 
+
   h5 {
   }
+}
+
+.normal_a_link{
+    position: relative;
+    text-align: center;
+    color: white;
+    margin-top: -30px;
+    background-color: transparent;
+    box-shadow: 0px;
+    padding: 0px;
+    display: inline;
 }
 
 div.pset_list_box {

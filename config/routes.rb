@@ -1,10 +1,13 @@
 Quizsite::Application.routes.draw do
   resources :badges
 
-
   resources :problem_sets, only: [:show, :edit, :create, :update, :destroy]
+  get '/problem_set/:id',  to: 'problem_sets#view', as: :view_problem_set
+  get '/problem_sets/:id/edit_pset',:to => 'problem_sets#edit_pset'
+  put '/problem_sets/update_pset/:id', :to => 'problem_sets#update_pset', as: :update_pset_info
+  
   resources :custom_problems, except: [:index]
-  get 'problems/:id', to: 'problems#show', as: :problem
+  get '/problems/:id', to: 'problems#show', as: :problem
   
   match "/auth/:provider/callback" => "users#create_user_vdp"
 
