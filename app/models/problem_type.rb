@@ -11,6 +11,7 @@ class ProblemType < ActiveRecord::Base
   has_many :user_stats
   has_many :problem_stats
 
+
   # shouldn't need to reference quizzes from this end though
   has_many :quiz_problems
   has_many :problem_set_problems
