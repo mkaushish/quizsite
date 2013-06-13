@@ -14,7 +14,8 @@ div.exponent {
    
   }
 
-  .expo{display:inline-table;
+  .expo{
+  display:inline-table;
   padding-right:10px;
   font-size:15px;
   	vertical-align:super;
@@ -25,4 +26,11 @@ div.exponent {
 
   }
 	
+  .expo input{
+  vertical-align:10px;
+  width:20px;
+
+
+
+  }
 	
