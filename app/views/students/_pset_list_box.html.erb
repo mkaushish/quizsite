@@ -15,7 +15,7 @@
   <%= image_tag("maths_genius.png", :class => "badge", :size => "20x20", :alt => " You won this Badge for completing #{pset.name} ") unless @is_problem_set_is_blue != 0 %>
   <p>
     <%= pset.name %><br> 
-    <%= button_to "?", view_problem_set_path(pset) %>
+    <%= link_to "?", view_problem_set_path(pset), :class => "normal_a_link" %>
   </p>
   <%= image_tag("#{pset.image}.png", :size => "20x20") unless pset.image.blank? %>
 
