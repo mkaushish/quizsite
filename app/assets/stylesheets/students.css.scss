@@ -91,9 +91,10 @@ $border_w: 7px;
     }
 
   a,.link {
-    position: absolute;
-    top: 90px - $border_w;
-    left: 30px - $border_w;
+    
+     
+    float:left;
+    margin-left:23px;
     display: block;
     padding: 5px;
 
@@ -119,10 +120,14 @@ div.pset_list_box {
   display:table-cell;
   vertical-align:middle;
   p {
-    width: $blackboard_w - 30px;
-    padding: 0 (15px - $border_w);
-    margin-top: 0;
+    width: 157px;
+    padding:8px;
+    height:80px;
+    z-index:-100;
+    margin:0px;
     text-align: center;
+    vertical-align:middle;
+    display:table-cell;
     color: white;
     font-size: 24px;
     font-family:"Chalk2";
@@ -275,7 +280,10 @@ background-image: -webkit-gradient(
   font-family: 'Home_hand';
   font-size:30px;
 }
+<<<<<<< HEAD
 .plate:hover{
   background-color:$sg_green;
 
   }
+=======
+>>>>>>> cr_ques
