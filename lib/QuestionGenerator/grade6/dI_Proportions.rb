@@ -15,7 +15,7 @@ module DI_Proportions
   TITLE = "DI_Proportions"
   
 
-  class DirectProportionEasy < QuestionBase
+  class DirectProportionEasy < QuestionWithExplanation
     def self.type
       "Direct Proportion Level 1"
     end
@@ -27,12 +27,17 @@ module DI_Proportions
     def solve
       {"ans" => @num2*@mult}
     end
+    def explain
+      [
+          Subproblem.new( [TextLabel.new("For direct proportion r:s = t:u"), TextLabel.new("r X u = t X s")])
+      ]
+    end  
     def text
       [TextLabel.new("Fill in the blanks(Direct Proportion):"), InlineBlock.new(TextLabel.new("#{@num1} : #{@num1*@mult} = "),  TextLabel.new(" #{@num2} : "), TextField.new("ans"))]
     end
   end
 
-class IndirectProportionEasy < QuestionBase
+  class IndirectProportionEasy < QuestionWithExplanation
     def self.type
       "Indirect Proportion Level 1"
     end
@@ -44,12 +49,17 @@ class IndirectProportionEasy < QuestionBase
     def solve
       {"ans" => @mult2}
     end
+    def explain
+      [
+          Subproblem.new( [TextLabel.new("For indirect proportion r:s = t:u"), TextLabel.new("r X s = t X u")])
+      ]
+    end
     def text
       [TextLabel.new("Fill in the blanks(Indirect Proportion):"), InlineBlock.new(TextLabel.new("#{@num1} : #{@mult2*@comm} = "),  TextLabel.new(" #{@num1*@comm} : "), TextField.new("ans"))]
     end
   end
 
-class MixedEasy < QuestionBase
+  class MixedEasy < QuestionWithExplanation
     def self.type
       "Mixed Level 1"
     end
@@ -81,6 +91,11 @@ class MixedEasy < QuestionBase
       {
         "ans" => @mult2 
       }
+    end  
+    def explain
+      [
+          Subproblem.new( [TextLabel.new("For mixed proportions if r:s = t:u then check whether its a direct or indirect proportion using the following formulas:"), TextLabel.new("Direct Proportion: r X u = t X s"), TextLabel.new("Indirect Proportion: r X s = t X u"), TextLabel.new("Then use the same formula to find the next term of the series")])
+      ]      
     end
     def text
       if @choose === 1
@@ -93,7 +108,7 @@ class MixedEasy < QuestionBase
   end
 
 
-  class DirectProportion < QuestionBase
+  class DirectProportion < QuestionWithExplanation
     def self.type
       "Direct Proportion Level 2"
     end
@@ -103,17 +118,22 @@ class MixedEasy < QuestionBase
       @resp1 = rand(99)+1
       @num = @num2*@resp1
       @den = @num1
-    end
+    end 
     def solve
       hcf=Grade6ops.euclideanalg(@num, @den)
       {"num" => @num/hcf,
        "den" => @den/hcf}
     end
+    def explain
+      [
+          Subproblem.new( [TextLabel.new("For direct proportion r:s = t:u"), TextLabel.new("r X u = t X s")])
+      ]
+    end  
     def text
       [TextLabel.new("Fill in the blanks(Direct Proportion):"), InlineBlock.new(TextLabel.new("#{@num1} : #{@resp1} = "),  TextLabel.new(" #{@num2} : "), Fraction.new("num", "den"))]
     end
   end
-class IndirectProportion < QuestionBase
+  class IndirectProportion < QuestionWithExplanation
     def self.type
       "Indirect Proportion Level 2"
     end
@@ -129,11 +149,16 @@ class IndirectProportion < QuestionBase
       {"num" => @num/hcf,
        "den" => @den/hcf}
     end
+    def explain
+      [
+          Subproblem.new( [TextLabel.new("For indirect proportion r:s = t:u"), TextLabel.new("r X s = t X u")])
+      ]
+    end  
     def text
       [TextLabel.new("Fill in the blanks(Indirect Proportion):"), InlineBlock.new(TextLabel.new("#{@num1} : #{@resp1} = "),  TextLabel.new(" #{@num2} : "), Fraction.new("num", "den"))]
     end
   end
-class Mixed < QuestionBase
+  class Mixed < QuestionWithExplanation
     def self.type
       "Mixed Level 2"
     end
@@ -159,6 +184,11 @@ class Mixed < QuestionBase
       hcf=Grade6ops.euclideanalg(@num, @den)
       {"num" => @num/hcf,
        "den" => @den/hcf}
+    end
+    def explain
+      [
+          Subproblem.new( [TextLabel.new("For mixed proportions if r:s = t:u then check whether its a direct or indirect proportion using the following formulas:"), TextLabel.new("Direct Proportion: r X u = t X s"), TextLabel.new("Indirect Proportion: r X s = t X u"), TextLabel.new("Then use the same formula to find the next term of the series")])
+      ]      
     end
     def text
       if @choose === 1
