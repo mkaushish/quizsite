@@ -59,7 +59,14 @@ function dbord(){
 $(function() {
   setNavLineWidths();
   $(window).resize(setNavLineWidths);
+  
 });
+function logoutb(){
+  $(".switch-to a").hover(function(){
+    $(this).text("Are you sure?");},
+    function(){$(this).text("Log out");}
+  );
+}
 function shelf_do(){
   wdt=$(".container").width();
 lis="";

@@ -460,11 +460,13 @@ module ToHTML
 
     def items_from(response)
       if !response[@name].nil?
-        return response[name].split(',')
+        return response[@name].split(',')
       else
-        return Array.new(@items.length) do |i|
-          response["#{@name}_#{i}"]
+        ar=[]
+        @items.length.times do |i|
+          ar[i] = response["#{@name}_#{i}"]
         end
+        return ar
       end
     end
 

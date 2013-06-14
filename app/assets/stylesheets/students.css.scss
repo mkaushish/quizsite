@@ -104,6 +104,10 @@ $border_w: 7px;
     color: white;
     background-color: $sg_blue;
 
+  }
+  a:hover,.link:hover {
+    background-color: $sg_green;
+
     box-shadow: 4px 4px 2px black;
   }
 
@@ -230,6 +234,12 @@ margin-left: 0px;
  .shelf img {
   border-radius:50%;
   margin-top:-40px;
+
+ }
+
+ .shelf img:hover{
+  transform: rotateY(50deg);
+-webkit-transform: rotateY(50deg);
  }
 .shelf a {
 
@@ -241,12 +251,31 @@ margin-left: 0px;
 #points{
   background-color:$sg_green;
   padding-top:10px;
-  padding-bottom:10px;
-  border-radius:50%;
+  padding-bottom:8px;
+  border-radius:16%;
   color:white;
+}
+#points:hover{
+  background-image: linear-gradient(bottom, rgb(79,245,112) 11%, rgb(17,199,212) 56%);
+background-image: -o-linear-gradient(bottom, rgb(79,245,112) 11%, rgb(17,199,212) 56%);
+background-image: -moz-linear-gradient(bottom, rgb(79,245,112) 11%, rgb(17,199,212) 56%);
+background-image: -webkit-linear-gradient(bottom, rgb(79,245,112) 11%, rgb(17,199,212) 56%);
+background-image: -ms-linear-gradient(bottom, rgb(79,245,112) 11%, rgb(17,199,212) 56%);
+
+background-image: -webkit-gradient(
+  linear,
+  left bottom,
+  left top,
+  color-stop(0.11, rgb(79,245,112)),
+  color-stop(0.56, rgb(17,199,212))
+);
 }
 .plate{
   background-color:$sg_blue;
   font-family: 'Home_hand';
   font-size:30px;
 }
+.plate:hover{
+  background-color:$sg_green;
+
+  }

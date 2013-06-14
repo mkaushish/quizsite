@@ -132,3 +132,9 @@ $(document).ready(function() {
   $('#aboutlink').click(goAbout);
   $('#signinlink').click(goSignin);
 });
+
+function browsers(){
+  if($.browser.webkit){
+    $('body').append("<div class=\'modal in\' id=\"browserss\"><p>For the best SmarterGrades experience, use:</p><a href=\"https://www.google.com/intl/en/chrome/browser/\" target=\"#\"><img src=\"/assets/chrome_i.png\"></img></a>");
+  }
+}

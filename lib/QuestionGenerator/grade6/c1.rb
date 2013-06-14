@@ -404,7 +404,7 @@ module Chapter1
     end
 
     def solve
-      { "ans" => @nums.sort }
+      { "ans" => @nums.sort.join(",") }
     end
 
     def text
@@ -414,38 +414,36 @@ module Chapter1
     end
   end
   class ShiftingDigitsGr < QuestionBase
-    attr_accessor :nums
 
     def initialize(digs=(1..9).to_a.sample(rand(3)+3))
       @digs=digs
     end
 
     def solve
-      {"ans1" => @digs.sort.reverse }
+      {"ans1" => @digs.sort.reverse.join(",") }
     end
 
     def text
       [ TextLabel.new("Drag the digits to create the largest number possible"),
         TextLabel.new("Largest number:"),
-        PermutationDrag.new("ans1", @digs),
+        PermutationDrag.new("ans1", @digs)
       ]
     end
   end
   class ShiftingDigitsLs < QuestionBase
-    attr_accessor :nums
 
     def initialize(digs=(1..9).to_a.sample(rand(3)+3))
       @digs=digs
     end
 
     def solve
-      { "ans1" => @digs.sort }
+      { "ans" => @digs.sort.join(",") }
     end
 
     def text
       [ TextLabel.new("Drag the digits to create the smallest number possible"),
         TextLabel.new("Smallest number:"),
-        PermutationDrag.new("ans1", @digs),
+        PermutationDrag.new("ans", @digs),
       ]
     end
   end
@@ -487,7 +485,7 @@ module Chapter1
     end
 
     def solve
-      { "ans" => @nums.sort.reverse }
+      { "ans" => @nums.sort.reverse.join(",") }
     end
 
     def text
@@ -692,7 +690,7 @@ module Chapter1
     end
 
     def text
-      [ TextLabel.new("Round #{@num} using the General Rule"), 
+      [ TextLabel.new("Round #{@num} to its largest place"), 
         TextField.new("ans")
       ]
     end
@@ -983,15 +981,15 @@ module Chapter1
     Chapter1::WordProbDiff,
     Chapter1::PlaceValueTable,
     Chapter1::FindMaxNumber,      Chapter1::FindMinNumber,        
-    # Chapter1::ArrangeAscending,   Chapter1::ArrangeDescending,  
+    Chapter1::ArrangeAscending,   Chapter1::ArrangeDescending,  
     # Chapter1::WritingIndian,      Chapter1::WritingInternational, 
     Chapter1::ReadingIndian,      Chapter1::ReadingInternational, 
     Chapter1::AddCommasIndian,    Chapter1::AddCommasInternational,    
     Chapter1::RoundingNumbers,
-    Chapter1::EstimateAddition,   Chapter1::EstimateSubtraction,
-    Chapter1::EstimateProduct,
-    # Chapter1::ShiftingDigitsGr,
-    # Chapter1::ShiftingDigitsLs,
+    #Chapter1::EstimateAddition,   Chapter1::EstimateSubtraction,
+    #Chapter1::EstimateProduct,
+    Chapter1::ShiftingDigitsGr,
+    Chapter1::ShiftingDigitsLs,
     Chapter1::ShiftingDigits,
     Chapter1::ToRoman,            Chapter1::ToArabic
   ]
