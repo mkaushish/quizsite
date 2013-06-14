@@ -3,7 +3,6 @@
 <% @a = Array.new %>
 <div class='pset_pbar'>
   <div class='list_box problem_list_box pset_list_box'>
-    <p><%= pset.name %></p>
     <% @a = inst.problem_stats.map(&:color_status) %>
     <% @total = inst.num_problems %>
 
