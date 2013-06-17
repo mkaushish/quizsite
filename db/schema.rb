@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130617075441) do
+ActiveRecord::Schema.define(:version => 20130617081504) do
 
   create_table "answers", :force => true do |t|
     t.boolean  "correct"
