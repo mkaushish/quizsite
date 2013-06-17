@@ -18,7 +18,7 @@
       <%= pset.name %><br> 
       <%= link_to "?", view_problem_set_path(pset), :class => "normal_a_link" %>
     </p>
-    <%= image_tag("#{pset.image}.png", :size => "20x20") unless pset.image.blank? %>
+    <%#= image_tag("#{pset.image}.png", :size => "20x20") unless pset.image.blank? %>
 
     <%= link_to "Enter", pset_path(:name => pset.id) %> 
 

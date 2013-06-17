@@ -1,5 +1,5 @@
 class CreateBadges < ActiveRecord::Migration
-  def change
+  def self.up
     create_table :badges do |t|
 
       t.timestamps
