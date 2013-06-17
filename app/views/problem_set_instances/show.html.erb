@@ -30,7 +30,20 @@
       </ul>
   </div>
 </div>
-<script>dbord();</script>
+    <% @a = @stats.map(&:color_status) %>
+    <% @total = @instance.num_problems %>
+
+    <% @blue  = percentage(@a.count("green"), @total) %>
+    <% @green = percentage(@a.count("yellow"), @total) %>
+    <% @red   = 100.0 - @blue - @green %>
+<script>dbord();
+if("<%=@green%>" != "0"){
+$('#bigshelf .shelf ul').css("background","-webkit-gradient(linear,<%="#{@blue}%"%> 0%,<%="#{@blue+@green}%"%> 0%, from(#0087bd), to(#ff0040), color-stop(.01,#60b349),color-stop(.99,#60b349))")
+}
+else{
+    $('#bigshelf .shelf ul').css("background","-webkit-linear-gradient(left,#0087bd <%="#{@blue}%"%>,#ff0040 <%="#{@blue}%"%>)"); 
+}
+</script>
 <div>
   <% @stats.each do |i| %>
     <%= render :partial => 'problem_list_box', :object => i,  :locals => {:item => i}%>
