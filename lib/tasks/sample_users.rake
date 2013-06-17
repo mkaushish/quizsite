@@ -4,7 +4,8 @@ namespace :generate do
     userinfo = [
       { :name => "Thomas Ramfjord",      :email => "thomas.ramfjord@gmail.com", :password => "blah123" },
       { :name => "Madhav Kaushish",      :email => "madhav.kaushish@gmail.com" },
-      { :name => "Madhav Kaushish",      :email => "m.adhavkaushish@gmail.com", :idtype => Teacher } #,
+      { :name => "Madhav Kaushish",      :email => "m.adhavkaushish@gmail.com", :idtype => Teacher },
+      { :name => "Amandeep Singh", :email => "amandeep.bhamra@gmail.com", :password => "testing" } #,
       # { :name => "Sanjeev Bikhchandani", :email => "sanjeev@naukri.com" },
       # { :name => "Andrea Kalyn",         :email => "akalyn@oberlin.edu" },
       # { :name => "Mary Kay Gray",        :email => "mary.gray@oberlin.edu" },
