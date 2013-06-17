@@ -1,6 +1,9 @@
 class ProblemSetInstancesController < ApplicationController
   # GET /psets/:name
   # psets_path(:name)
+  
+  before_filter :validate_student
+
   def show
     @problem_set = ProblemSet.includes(:problem_types).find(params[:name])
     @instance = ProblemSetInstance.where(:problem_set_id => @problem_set.id,
@@ -94,5 +97,9 @@ class ProblemSetInstancesController < ApplicationController
                             .order("created_at DESC")
                             .includes(:problem)
                             .limit(n)
+  end
+
+  def validate_student
+    @student = current_user
   end
 end
