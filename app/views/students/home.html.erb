@@ -12,6 +12,8 @@
 </div>-->
 
 <%= render 'shared/shelf', :@student => current_user %>
+
+<div>
 <div style='float:left'>
   <div class='dotted-border-header'>
     <h4>Progress Center<h4>
@@ -20,9 +22,12 @@
     <%= render 'progress_center' %>
   </div>
 </div>
-<script>dbord();</script>
-<div>
+
+<div id='bbor'>
   <% @pset_instances.each do |i| %>
     <%= render :partial => 'pset_list_box', :object => i %>
   <% end %>
 </div>
+
+</div>
+<script>dbord();</script>

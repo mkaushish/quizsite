@@ -13,7 +13,7 @@ include Chapter6
 
 module Algebra
   INDEX = "algebra"
-  TITLE = "Algebra"
+  TITLE = "Algebra 2"
   
   class Createkb < QuestionBase
     def self.type
@@ -70,7 +70,7 @@ module Algebra
 
   class Add_polynomials < QuestionWithExplanation
     def self.type
-      "Add_polynomials"
+      "Add Polynomials"
     end
     def initialize
       
@@ -173,7 +173,7 @@ module Algebra
 
   class Add_polynomials2 < QuestionWithExplanation
     def self.type
-      "Add_polynomials2"
+      "Add Polynomials 2"
     end
     def initialize
       
@@ -295,7 +295,7 @@ module Algebra
 
   class Sub_polynomials < QuestionWithExplanation
     def self.type
-      "Sub_polynomials"
+      "Subtract Polynomials"
     end
     def initialize
       
@@ -395,7 +395,7 @@ module Algebra
 
 class Sub_polynomials2 < QuestionWithExplanation
     def self.type
-      "Sub_polynomials2"
+      "Subtract Polynomials 2"
     end
     def initialize
       
@@ -562,7 +562,7 @@ class Sub_polynomials2 < QuestionWithExplanation
 
   class Mul_monomials < QuestionWithExplanation
     def self.type
-      "Mul_monomials"
+      "Multiply Monomials"
     end
     def initialize
       
@@ -712,7 +712,7 @@ class Sub_polynomials2 < QuestionWithExplanation
 
   class Mul_mono_bi < QuestionWithExplanation
     def self.type
-      "Mul_mono_bi"
+      "Multiply Monomial & Binomial"
     end
     def initialize
       
@@ -880,7 +880,7 @@ class Sub_polynomials2 < QuestionWithExplanation
 
   class Mul_mono_tri < QuestionWithExplanation
     def self.type
-      "Mul_mono_tri"
+      "Multiply Monomial with Trinomial"
     end
     def initialize
       
@@ -991,7 +991,7 @@ class Sub_polynomials2 < QuestionWithExplanation
 
   class Mul_bi_bi < QuestionWithExplanation
     def self.type
-      "Mul_bi_bi"
+      "Multiply Binomials"
     end
     def initialize
       
@@ -1118,7 +1118,7 @@ class Sub_polynomials2 < QuestionWithExplanation
 
   class Mul_bi_tri < QuestionWithExplanation
     def self.type
-      "Mul_bi_tri"
+      "Multiply Binomial & Trinomial"
     end
     def initialize
       
@@ -1237,7 +1237,7 @@ class Sub_polynomials2 < QuestionWithExplanation
 
   class Mul_tri_tri < QuestionBase
     def self.type
-      "Mul_tri_tri"
+      "Multiply Trinomials"
     end
     def initialize
       
@@ -1325,7 +1325,7 @@ class Sub_polynomials2 < QuestionWithExplanation
 
   class Evaluate < QuestionWithExplanation
     def self.type
-      "Evaluate"
+      "Evaluate Polynomial"
     end
     def initialize
       

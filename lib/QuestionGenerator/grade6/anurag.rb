@@ -11,13 +11,13 @@ include PreG6
 
 module Anurag
   INDEX = "anurag"
-  TITLE = "Anurag"
+  TITLE = "Linear Equations"
   
 
 
   class Level_1 < QuestionBase
     def self.type
-      "Level_1"
+      "Subtract Both Sides"
     end
     def initialize
       # @prod=rand(6)
@@ -36,7 +36,7 @@ module Anurag
 
   class Level_2 < QuestionBase
     def self.type
-      "Level_2"
+      "Divide and Subtract"
     end
     def initialize
       # @prod=rand(6)
@@ -60,7 +60,7 @@ module Anurag
   end
   class Level_3 < QuestionBase
     def self.type
-      "Level_3"
+      "Variables on Both Sides"
     end
     def initialize
       # @prod=rand(6)
@@ -93,7 +93,7 @@ module Anurag
 
   class Level_4 < QuestionBase
     def self.type
-      "Level_4"
+      "Fractions on Both sides 1"
     end
     def initialize
       # @prod=rand(6)
@@ -137,7 +137,7 @@ module Anurag
 
   class Level_5 < QuestionBase
     def self.type
-      "Level_5"
+      "Fractions on Both sides 2"
     end
     def initialize
       # @prod=rand(6)
@@ -191,7 +191,7 @@ module Anurag
 
   class Level_6 < QuestionBase
     def self.type
-      "Level_6"
+      "Fractions on Both sides 3"
     end
     def initialize
       # @prod=rand(6)

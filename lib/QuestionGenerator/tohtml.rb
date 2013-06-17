@@ -378,6 +378,8 @@ module ToHTML
       $stderr.puts response[@name]
       solution[@name]==response[@name] 
     end
+    def answer_view?() true end
+      def contains_response_and_soln?() true ; end
   end
   class MovNumberLine < MultiHTMLObj
     attr_reader :name, :val, :bigdiv

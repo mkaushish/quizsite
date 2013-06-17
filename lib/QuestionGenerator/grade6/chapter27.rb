@@ -14,7 +14,7 @@ module Chapter27
   TITLE = "Power and Exponents"
   class Findpowerexp < QuestionWithExplanation
     def self.type
-      "findpower"
+      "Find Power"
     end
     def initialize
       @numbr=2
@@ -41,7 +41,7 @@ module Chapter27
 
   class Valuepowerexp1 < QuestionWithExplanation
     def self.type
-      "value of power "
+      "Value of Power"
     end
     def initialize
       @numbr=rand(4)+1
@@ -80,7 +80,7 @@ module Chapter27
 
   class Comparingexp < QuestionWithExplanation
     def self.type
-      "Comparison of two numbers "
+      "Comparison of two Exponents"
     end
     def initialize
       @numbr1=(rand(100)+1).to_f/10
@@ -116,7 +116,7 @@ module Chapter27
 
   class Simplifyexp < QuestionWithExplanation
     def self.type
-    "Simplify the equation "
+    "Simplify the Equation"
     end
     def initialize
     @numbr1=rand(20)+1
@@ -153,7 +153,7 @@ module Chapter27
 
 class Expansionexp < QuestionWithExplanation
   def self.type
-    "Expand and solve "
+    "Expand and Solve"
   end
   def initialize
     @numbr1=rand(10) + 1
@@ -204,7 +204,7 @@ end
 
     class Standardformexp < QuestionWithExplanation
       def self.type
-        "Express in Standard form "
+        "Express in Standard Form"
       end
       def initialize
          

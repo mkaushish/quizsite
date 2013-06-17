@@ -1,7 +1,7 @@
 
 function addingForm(name, n1, n2, sign){
   lt=1+Math.max(n1.length, n2.length);
-  var ht="<table id=laddtable border=0>\n";
+  var ht="<table id=laddtable_"+name+" border=0>\n";
   ht+="<tr>\n"
     for(i=0; i<lt-n1.length; i++){
       ht+="<td> </td>\n";
@@ -23,15 +23,15 @@ function addingForm(name, n1, n2, sign){
   ht+="</tr>\n"
     ht+="<tr>\n"
     for(i=0; i<lt; i++){
-      ht+="<td><input type=text class=linps id=lin"+i+" maxlength=1 style=\"width:15px; height:10px\"></td>\n";
+      ht+="<td><input type=text class="+name+"_linps id="+name+"_lin"+i+" maxlength=1 style=\"width:15px; height:20px\"></td>\n";
     }
   ht+="</tr>\n"
     ht+="</table>";
-  $('#ladding').append(ht);
-  $('#laddtable').attr("style", "background-color:transparent; font:10pt Courier;");
-  $("#lin"+(lt-1)).select();
+  $('#ladding_'+name).append(ht);
+  $('#laddtable_'+name).attr("style", "background-color:transparent; font:10pt Courier;");
+  $("#"+name+"_lin"+(lt-1)).select();
   tot=[];
-  $(".linps").keypress(function(e){
+  $("."+name+"_linps").keypress(function(e){
     String.fromCharCode(e.keyCode)
     if(e.keyCode > 47 && e.keyCode < 58) {
       tot[$(this).attr("id")[$(this).attr("id").length-1]]=String.fromCharCode(e.keyCode);
@@ -41,8 +41,8 @@ function addingForm(name, n1, n2, sign){
   });
   for (var j=1; j<lt; j++)
   {
-    $("#lin"+j).keypress({j:j}, function(e){
-        $("#lin"+(e.data.j-1)).select();
+    $("#"+name+"_lin"+j).keypress({j:j}, function(e){
+        $("#"+name+"_lin"+(e.data.j-1)).select();
     });
   }
 

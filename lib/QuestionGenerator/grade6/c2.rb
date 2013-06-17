@@ -226,6 +226,27 @@ module Chapter2
       [(2**pow2) * (5**pow5), (2**(pow - pow2)) * (5**(pow - pow5))]
     end
   end
+  PLACES=["Ones", "Tens", "Hundreds", "Thousands", "Ten Thousands"]
+  class PlacesNum < QuestionBase
+    def self.type
+      "Translate to Number"
+    end
+    def initialize
+      @num=(1...10).to_a.sample(rand(3)+2)
+    end
+    def solve
+      {"ans" => @num.reverse.join("")}
+    end
+    def text
+      str=[]
+      for i in 0...@num.length
+        str[i]=""+@num[i]+" "+PLACES[i]
+      end
+      [TextLabel.new("Find the value of: "), TextLabel.new(str.shuffle.join(" plus ")), TextField.new("ans")]
+    end
+  end
+
+
 
   class AddLargeNumbers < QuestionBase
     def self.type
