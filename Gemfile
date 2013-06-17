@@ -8,10 +8,12 @@ gem 'rails', '3.2.11'
 
 gem 'therubyracer'
 gem "paperclip", "~> 3.0"
+gem 'omniauth-oauth2'
+gem 'omniauth-google-oauth2'
 # gems in just test and dev environments
 group :test, :development do
 	gem 'rspec-rails'
-  gem 'capybara', :git => 'git://github.com/jnicklas/capybara.git'
+  #gem 'capybara', :git => 'git://github.com/jnicklas/capybara.git'
   gem 'database_cleaner'
   gem 'launchy'
   gem 'guard-rails'

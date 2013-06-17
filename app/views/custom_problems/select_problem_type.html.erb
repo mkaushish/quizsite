@@ -44,8 +44,14 @@
     </div>
     <div class='dotted-border teacher-details-column'>
       <ul class='column-list' id="created_problems">
-        <% @created_problems.each do |problem| %>
+        <% if !@created_problems.blank? %>
+          <% @created_problems.each do |problem| %>
+          
           <%= render "created_problems", :problem => problem %>
+        <% end %>
+        <% else %>
+        <p id="no_cprob_msg"><%= "You haven't created any problem!" %></p>
+        
         <% end %>
       </ul>
     </div>

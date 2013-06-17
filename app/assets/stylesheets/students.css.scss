@@ -90,17 +90,17 @@ $border_w: 7px;
       }
     }
 
+
   a,.link {
     
      
     float:left;
     margin-left:23px;
+
     display: block;
     padding: 5px;
-
     width:117px;
     height: 17px;
-
     text-align: center;
     color: white;
     background-color: $sg_blue;
@@ -108,13 +108,28 @@ $border_w: 7px;
   }
   a:hover,.link:hover {
     background-color: $sg_green;
-
     box-shadow: 4px 4px 2px black;
+  }
+  .normal_a_link{
+    position: relative;
+    text-align: center;
+    color: white;
+    margin-top: -30px;
+    background-color: transparent;
+    box-shadow: none;
+    padding: 0px;
+    display: inline;
+    top: 0px;
+    left: 0px;
+    width: 0px;
+    height: 0px;
   }
 
   h5 {
   }
 }
+
+
 
 div.pset_list_box {
   display:table-cell;

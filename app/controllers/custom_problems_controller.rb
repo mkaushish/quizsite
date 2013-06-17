@@ -50,6 +50,7 @@ class CustomProblemsController < ApplicationController
   # DELETE /custom_problems/1
   # DELETE /custom_problems/1.json
   def destroy
+    @created_problems = current_user.custom_problems
     @custom_problem = current_user.custom_problems.find_by_id(params[:id])
     @custom_problem.destroy
 
