@@ -1,4 +1,7 @@
 class QuizInstancesController < ApplicationController
+  
+  before_filter :authenticate
+  before_filter :validate_student
   # GET quizzes/:id/start
   # start_quiz_path(@quiz)
   def start
@@ -17,7 +20,9 @@ class QuizInstancesController < ApplicationController
     @pset_instance = ProblemSetInstance.find(params[:id])
     deny_access && return unless belongs_to_user(@pset_instance)
 
-    @quiz = @pset_instance.problem_set.default_quiz
+    @classroom = @student.classrooms.first
+
+    @quiz = @classroom.quizzes.first
     @instance = QuizInstance.where(:quiz_id => @quiz.id, 
                                    :problem_set_instance_id => @pset_instance.id).first
     @instance ||= @quiz.assign_with_pset_inst(@pset_instance)
@@ -74,6 +79,7 @@ class QuizInstancesController < ApplicationController
     @pset = @instance.problem_set
     @answers = @instance.answers.includes(:problem_type)
     render 'results'
+    
   end
 
 
@@ -85,13 +91,22 @@ class QuizInstancesController < ApplicationController
 
     @instance = @stat.quiz_instance
     @quiz = Quiz.find_by_id(@instance.quiz_id)
+
     @answer = current_user.answers.create params: params, session: @instance
     @stat.update_w_ans!(@answer)
     @counter = @quiz.quiz_problems.count - @instance.stats_remaining.count
+    @pset = @instance.problem_set
+    
     if @instance.over?
       finish_quiz
     else
       next_problem
     end
   end
+
+  private
+  def validate_student
+    @student = current_user
+  end
+
 end
