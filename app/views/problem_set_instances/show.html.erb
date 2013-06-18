@@ -10,7 +10,7 @@
 </div>-->
 <%= render 'shared/shelf', :@student => current_user %>
 <div class="quiz-link">
-<%= link_to "Take a Quiz", quiz_do_path(@problem_set.id), :remote => true %>
+<%= link_to "Quiz", quiz_do_path(@problem_set.id), :remote => true %>
 </div>
 <div style="width:252px; float:left">
     <div class='dotted-border-header'>
@@ -38,11 +38,12 @@
     <% @red   = 100.0 - @blue - @green %>
 <script>dbord();
 if("<%=@green%>" != "0"){
-$('#bigshelf .shelf ul').css("background","-webkit-gradient(linear,<%="#{@blue}%"%> 0%,<%="#{@blue+@green}%"%> 0%, from(#0087bd), to(#ff0040), color-stop(.01,#60b349),color-stop(.99,#60b349))")
+$('#bigshelf .shelf ul').css("background","-webkit-gradient(linear,<%="#{@blue}%"%> 0%,<%="#{@blue+@green}%"%> 0%, from(#0087bd), to(#ff0040), color-stop(.005,#60b349),color-stop(.995,#60b349))")
 }
 else{
     $('#bigshelf .shelf ul').css("background","-webkit-linear-gradient(left,#0087bd <%="#{@blue}%"%>,#ff0040 <%="#{@blue}%"%>)"); 
 }
+$('#bigshelf .shelf ul').css("background","-moz-linear-gradient(0% 0% 0deg,#0087bd, #1414C9, #0087bd <%="#{@blue}%"%>,#60b349 0%,#60b349 <%="#{@blue+@green}%"%>,#ff0040 0%)");
 </script>
 <div>
   <% @stats.each do |i| %>
