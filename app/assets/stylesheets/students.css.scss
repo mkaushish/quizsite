@@ -74,26 +74,37 @@ $border_w: 7px;
   .yellow-bord {
     border-color: $sg_green;
   }
+div.problem_list_box:hover{
 
+}
   div.problem_list_box {
+    -moz-box-shadow: inset 0 0 40px black;
+-webkit-box-shadow: inset 0 0 40px black;
+box-shadow: inner 0 0 40px black;
     p {
-      width: $blackboard_w - 30px;
-      padding: 0 (15px - $border_w);
-      margin-top: 9px;
-      text-align: center;
-      color: white;
-      font-size:24px;
-      font-family:"Chalk2";
-      overflow: visible;
+      width: 157px;
+    padding:8px;
+    height:80px;
+    z-index:-100;
+    margin:0px;
+    text-align: center;
+    vertical-align:middle;
+    display:table-cell;
+    color: white;
+    font-size: 24px;
+    font-family:"Chalk2";
       small {
         font-family:"Courier";
       }
     }
 
-  a, .link {
-    position: absolute;
-    top: 90px - $border_w;
-    left: 30px - $border_w;
+
+  a,.link {
+    
+     
+    float:left;
+    margin-left:23px;
+    font-family:Courier;
     display: block;
     padding: 5px;
     width:117px;
@@ -102,36 +113,53 @@ $border_w: 7px;
     color: white;
     background-color: $sg_blue;
     box-shadow: 4px 4px 2px black;
+
+  }
+  a:hover,.link:hover {
+    -moz-box-shadow: inset 0 0 10px black;
+-webkit-box-shadow: inset 0 0 10px black;
+box-shadow: inner 0 0 10px black;
+    
   }
   .normal_a_link{
-    position: relative;
-    text-align: center;
-    color: white;
-    margin-top: -30px;
+    position: absolute;
     background-color: transparent;
-    box-shadow: none;
-    padding: 0px;
-    display: inline;
-    top: 0px;
-    left: 0px;
-    width: 0px;
-    height: 0px;
+    left:146px;
+    top:7px;
+    height:20px;
+    width:20px;
+    margin:0px;
+    padding:0px;
+    background-color:$sg_green;
+    border-radius:50%;
+    font-family: "Home_hand";
+  }
+  .normal_a_link:hover{
   }
 
   h5 {
   }
 }
 
+div.pset_list_box:hover{
 
+}
 
 div.pset_list_box {
   display:table-cell;
   vertical-align:middle;
+-moz-box-shadow: inset 0 0 40px black;
+-webkit-box-shadow: inset 0 0 40px black;
+box-shadow: inner 0 0 40px black;
   p {
-    width: $blackboard_w - 30px;
-    padding: 0 (15px - $border_w);
-    margin-top: 0;
+    width: 157px;
+    padding:8px;
+    height:80px;
+    z-index:-100;
+    margin:0px;
     text-align: center;
+    vertical-align:middle;
+    display:table-cell;
     color: white;
     font-size: 24px;
     font-family:"Chalk2";
@@ -173,8 +201,10 @@ div.pset_list_box {
   }
   .quiz-link{
     a, .link{
+      box-shadow: 4px 4px 2px black;
+      
       position: absolute;
-    left: 150px;
+    left: 120px;
     display: block;
     padding: 5px;
 
@@ -183,14 +213,20 @@ div.pset_list_box {
 
     text-align: center;
     color: white;
-    background-color: $sg_green;
+    background-color: orange;
+    font-family: Courier;
 
-    box-shadow: 4px 4px 2px black;
+   
     }
+    a:hover, .link:hover{
+     -moz-box-shadow: inset 0 0 10px #888;
+-webkit-box-shadow: inset 0 0 10px #888;
+box-shadow: inner 0 0 10px #888;
+   }
   }
   .gif_tick{
-    float: right;
     overflow: visible; 
+    text-align:center;
   }
   .pset_pbar {
     width:187px;
@@ -198,14 +234,14 @@ div.pset_list_box {
     margin-left:3.7%;
     margin-top:3.7%;
   }
-  #shelf {
+  .shelf {
 margin-top:30px;
 margin-right: 0px;
 margin-bottom: 50px;
 margin-left: 0px;
 
 }
-#shelf ul {
+.shelf ul {
     margin: 23px 0;
     padding: 0;
     height: 19px;
@@ -213,8 +249,8 @@ margin-left: 0px;
     background-color: #ccc;
 }
  
-    #shelf ul:before {
-        border-right: 38px solid #cccccc;
+    .shelf ul:before {
+        border-right: 38px solid transparent;
         border-top: 18px solid #FFFFFF;
         content: "";
         float: left;
@@ -222,8 +258,8 @@ margin-left: 0px;
         width: 0;
     }
  
-    #shelf ul:after {
-        border-left: 38px solid #cccccc;
+    .shelf ul:after {
+        border-left: 38px solid transparent;
         border-top: 18px solid #FFFFFF;
         content: "";
         float: right;
@@ -231,7 +267,7 @@ margin-left: 0px;
         width: 0;
     }
  
-#shelf li {
+.shelf li {
     float: left;
     list-style: none outside none;
     margin: -27px 10px 0;
@@ -240,11 +276,17 @@ margin-left: 0px;
     text-align: center;
     width: 80px;
 }
- #shelf img {
+ .shelf img {
   border-radius:50%;
   margin-top:-40px;
+
  }
-#shelf a {
+
+ .shelf img:hover{
+  transform: rotateY(50deg);
+-webkit-transform: rotateY(50deg);
+ }
+.shelf a {
 
     padding: 7px;
     display: block;
@@ -252,14 +294,33 @@ margin-left: 0px;
     color: #fff;
 }
 #points{
-  background-color:$sg_green;
+  background-color:orange;
   padding-top:10px;
-  padding-bottom:10px;
-  border-radius:50%;
+  padding-bottom:8px;
+  border-radius:16%;
   color:white;
 }
+#points:hover{
+  background-image: linear-gradient(bottom, rgb(79,245,112) 11%, rgb(17,199,212) 56%);
+background-image: -o-linear-gradient(bottom, rgb(79,245,112) 11%, rgb(17,199,212) 56%);
+background-image: -moz-linear-gradient(bottom, rgb(79,245,112) 11%, rgb(17,199,212) 56%);
+background-image: -webkit-linear-gradient(bottom, rgb(79,245,112) 11%, rgb(17,199,212) 56%);
+background-image: -ms-linear-gradient(bottom, rgb(79,245,112) 11%, rgb(17,199,212) 56%);
+
+background-image: -webkit-gradient(
+  linear,
+  left bottom,
+  left top,
+  color-stop(0.11, rgb(79,245,112)),
+  color-stop(0.56, rgb(17,199,212))
+);
+}
 .plate{
-  background-color:$sg_blue;
+  background-color:purple;
   font-family: 'Home_hand';
   font-size:30px;
 }
+.plate:hover{
+  background-color:$sg_green;
+
+  }

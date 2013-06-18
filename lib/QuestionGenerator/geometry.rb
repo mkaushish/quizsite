@@ -129,6 +129,7 @@ module Geometry
 
     # this prevents it from displaying twice in the answer if incorrect
     def contains_response_and_soln?() true ; end
+    def answer_view?() true ; end
 
     # descendents use the same partial
     def partial() "single/geometryfield" ; end

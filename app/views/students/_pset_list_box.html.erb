@@ -2,34 +2,40 @@
 <% pset = inst.problem_set %>
 <% @a = Array.new %>
 <div class='pset_pbar'>
-<div class='list_box problem_list_box pset_list_box'>
-  
-  <% @a = inst.problem_stats.map(&:color_status) %>
-  <% @total = inst.num_problems %>
 
-  <% @blue  = percentage(@a.count("green"), @total) %>
-  <% @green = percentage(@a.count("yellow"), @total) %>
-  <% @red   = 100.0 - @blue - @green %>
+  <div class='list_box problem_list_box pset_list_box'>
 
-  <% @is_problem_set_is_blue = @total - @a.count("blue") %>
-  <%= image_tag("maths_genius.png", :class => "badge", :size => "20x20", :alt => " You won this Badge for completing #{pset.name} ") unless @is_problem_set_is_blue != 0 %>
-  <p>
-    <%= pset.name %><br> 
-    <%= link_to "?", view_problem_set_path(pset), :class => "normal_a_link" %>
-  </p>
-  <%= image_tag("#{pset.image}.png", :size => "20x20") unless pset.image.blank? %>
+    <% @a = inst.problem_stats.map(&:color_status) %>
+    <% @total = inst.num_problems %>
 
-  <%= link_to "Enter", pset_path(:name => pset.id) %> 
+    <% @blue  = percentage(@a.count("green"), @total) %>
+    <% @green = percentage(@a.count("yellow"), @total) %>
+    <% @red   = 100.0 - @blue - @green %>
 
-</div>
-    
+    <% @is_problem_set_is_blue = @total - @a.count("blue") %>
+    <%= image_tag("maths_genius.png", :class => "badge", :size => "20x20", :alt => " You won this Badge for completing #{pset.name} ") unless @is_problem_set_is_blue != 0 %>
+    <p>
+      <%= pset.name %><br> 
+      <%= link_to "?", view_problem_set_path(pset), :class => "normal_a_link", :target => "_blank" %>
+    </p>
+    <%#= image_tag("#{pset.image}.png", :size => "20x20") unless pset.image.blank? %>
 
+    <%= link_to "Enter", pset_path(:name => pset.id) %> 
 
+  </div>
 
-
-    <div class="progress pset_bar">
-      <div class="bar bar-info" style="width: <%= @blue %>%"></div>
-      <div class="bar bar-success" style="width: <%= @green %>%"></div>
-      <div class="bar bar-danger" style="width: <%= 100-@blue-@green %>%"></div>
-   </div>
+  <div class="progress pset_bar">
+    <div class="bar bar-info" style="width: <%= @blue %>%"></div>
+    <div class="bar bar-success" style="width: <%= @green %>%"></div>
+    <div class="bar bar-danger" style="width: <%= 100-@blue-@green %>%"></div>
+  </div>
+  <script>
+  animating=false;
+    /*$(".pset_bar").mouseenter(function(){
+      $(this).children().css("width","0%");
+      $(this).children().eq(0).animate({width: "<%=@blue%>%"}, 100);
+      $(this).children().eq(1).animate({width: "<%=@green%>%"},100);
+      $(this).children().eq(2).animate({width: "<%=100-@green-@blue%>%"}, 100);
+    });*/
+  </script>
 </div>

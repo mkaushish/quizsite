@@ -1,5 +1,5 @@
 class AddColumnImageToProblemSets < ActiveRecord::Migration
-  def change
+  def self.up
     add_column :problem_sets, :image, :string
   end
 end

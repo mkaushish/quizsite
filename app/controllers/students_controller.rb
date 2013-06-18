@@ -5,6 +5,8 @@ class StudentsController < ApplicationController
     @student = current_user
     @pset_instances = @student.problem_set_instances
                               .includes(:problem_stats, :problem_set, :problem_set_problems)
+
+    @history = current_user.answers.order("created_at DESC").limit(11)
     @is_all_blue = @student.badges.where(:name=> "BadgeAPSD").blank?
     Student.create_badges(@student)
     @badges = @student.badges.map(&:name)

@@ -814,7 +814,7 @@ module Chapter12
 			if blank!=SUBS[@ch].length
 				str+="A total of "+@many.reduce(:+).to_s+" "+TOT[@ch]+" are " +WHERE[@ch] + ". Out of this, "
 			else 
-				str+="The "+TOT[@ch]+" "+WHERE[@ch]+" includes "  
+				str+="The "+@many.reduce(:+).to_s+TOT[@ch]+" "+WHERE[@ch]+" includes "  
 			end
 			pre=[]
 			for i in 0...SUBS[@ch].length
@@ -840,12 +840,13 @@ module Chapter12
 			end
 			ret << TextLabel.new(str)
 			for i in 0...tex.length
+        tab= TableField.new("ans", 1, 3)
+        tab.set_field(0,0,TextField.new("num"+i.to_s))
+        tab.set_field(0,1,TextLabel.new(":"))
+        tab.set_field(0,2,TextField.new("den"+i.to_s))
+        ret << tab
 				ret << TextLabel.new((i+1).to_s+". "+tex[i])
-				tab= TableField.new("ans", 1, 3)
-				tab.set_field(0,0,TextField.new("num"+i.to_s))
-				tab.set_field(0,1,TextLabel.new(":"))
-				tab.set_field(0,2,TextField.new("den"+i.to_s))
-				ret << tab
+				
 			end
 			ret		
 		end

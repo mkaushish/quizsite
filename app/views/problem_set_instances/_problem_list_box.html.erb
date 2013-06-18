@@ -2,7 +2,7 @@
 <% ptype = stat.problem_type %>
 <% col = stat.color_status %>
 
-<div id="pt_<%= ptype.id %>" class="list_box problem_list_box <%= col %>-bord">
+<div id="pt_<%= ptype.id %>" class="list_box problem_list_box <%= col %>-bord pset_pbar" style="width:auto">
   	<p>
   		<small>
   			<span class="label label-info correct_hist" style="background-color:transparent"><%= stat.points_for(true) %></span> 
