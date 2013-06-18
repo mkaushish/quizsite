@@ -1,0 +1,35 @@
+
+  <div class="correct">
+    <div id=nline style="position:relative; width:450px; height:200px">
+      <canvas id="nlcanvasans" height="100" width="700"
+      class="numberline"
+      data-name="<%= inpnumberline.name %>"
+      data-editable="false"
+      data-movable="false"
+      data-which="movinp">  
+      <%=hidden_field_tag("nlcanvasans_bigdiv", inpnumberline.bigdiv)%>
+      <%=hidden_field_tag("nlcanvasans_"+inpnumberline.name, @solution["#{inpnumberline.name}"])%>
+      <script>
+        //setUpNL("nlcanvasans", "<%=inpnumberline.name%>", false, false, "movinp");
+        $("#nlcanvasans").unbind("mousemove");
+      </script>
+    </div>
+  </div>
+  <% unless inpnumberline.correct?(@solution, @response) then %>
+    <div class="incorrect">
+      <div id=nline style="position:relative; width:450px; height:200px">
+        <canvas id="nlcanvasinans" height="100" width="700"
+      class="numberline"
+      data-name="<%= inpnumberline.name %>"
+      data-editable="false"
+      data-movable="false"
+      data-which="movinp">   
+        <%=hidden_field_tag("nlcanvasinans_bigdiv", inpnumberline.bigdiv)%>
+        <%=hidden_field_tag("nlcanvasinans_"+inpnumberline.name, @response["#{inpnumberline.name}"])%>
+        <script>
+          //setUpNL("nlcanvasinans", "<%=inpnumberline.name%>", false, false, "movinp");
+          $("#nlcanvasinans").unbind("mousemove");
+        </script>
+      </div>
+    </div>
+  <% end%>

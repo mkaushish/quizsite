@@ -341,19 +341,19 @@ function setUpDataGr(cname, tname) {
 
 
 
-  $('#datacanvas').mousedown(function (e) { 
+  $('#'+cname).mousedown(function (e) { 
     // downx and y have many uses
     downx = mousex;
     downy = mousey;
     initdowny=mousey;
     mousedown=true;
   });
-  $('#datacanvas').mouseup(function (e) { 
+  $('#'+cname).mouseup(function (e) { 
     mousedown=false;
   });
-  $('#datacanvas').mousemove(function (e) { 
+  $('#'+cname).mousemove(function (e) { 
     // mousex and mousey are used for many things, and therefore need to be in the
-    var offset = $('#datacanvas').offset();
+    var offset = $('#'+cname).offset();
     var offsetx = Math.round(offset.left);
     var offsety = Math.round(offset.top);
     mousex = e.pageX - offsetx; // - offset.left;
@@ -362,6 +362,7 @@ function setUpDataGr(cname, tname) {
     if(mousedown){
       if(grph.edit){
         if(grph.type=="basicbar"){
+
           for(i =0; i<grph.table.length; i++){
             if(downx > grph.mg+grph.sp*i+grph.sp/4 && downx < grph.mg+grph.sp*i+3*grph.sp/4) {
               if(downy < ht-grph.mg-(parseInt(grph.table[i][1])/grph.divs)*grph.scale + 45 && downy > ht-grph.mg-(parseInt(grph.table[i][1])/grph.divs)*grph.scale -45){

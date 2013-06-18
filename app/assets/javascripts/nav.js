@@ -28,14 +28,80 @@ function setNavLineWidths() {
     // console.log(both_y  + ': both_y ');
 
     $blue.css("width", blue_w);
-    $green.css("left", green_x);
-    $green.css("width", green_w);
+    $green.css("left", $(".container").css("margin-left"));
+    $green.css("width", "100%");
 
     $both.css("top", both_y)
   });
 }
+function dbord(){
+  if($(".container").width() < 475){
+    $(".dotted-border").css("width", ($(".container").width()-22)+"px");
+    $(".dotted-border").css("height","auto");
+  }
+  else{
+    $(".dotted-border").css("width", "252px");
+    $(".dotted-border").css("height","1000px");
+  }
+  $(window).resize(function(){
+  if($(".container").width() < 475){
+    $(".dotted-border").css("width", ($(".container").width()-22)+"px");
+    $(".dotted-border").css("height","auto");
+  }
+  else{
+    $(".dotted-border").css("width", "252px");
+    $(".dotted-border").css("height","1000px");
+  }
+});
+}
+
 
 $(function() {
   setNavLineWidths();
   $(window).resize(setNavLineWidths);
+  
 });
+function logoutb(){
+  $(".switch-to a").hover(function(){
+    $(this).text("Are you sure?");},
+    function(){$(this).text("Log out");}
+  );
+}
+function shelf_do(){
+  wdt=$(".container").width();
+lis="";
+  lisarr=[]
+  for(i=0; i < $(".shelf ul li").length; i++){
+    lis+="<li>"+$(".shelf ul li").eq(i).html()+"</li>";
+    lisarr[i]="<li>"+$(".shelf ul li").eq(i).html()+"</li>";
+  }
+  $(".shelf").remove();
+  for(i=0; i < lisarr.length; i++){
+    n = parseInt(($(".container").width()-200)/86);
+    te=(lisarr.slice(i, (i+n))).join("\n");
+    $("#bigshelf").append("<div class=shelf><ul>"+te+"</ul></div>");
+    i=i+n-1;
+  }
+  liwt=parseInt($(".shelf ul li").css("width"))+2*parseInt($(".shelf ul li").css("padding"));
+  wdt=$(".container").width();
+$(window).resize(function(){
+  lisob=$(".shelf ul li");
+
+  if(Math.abs($(".container").width()-wdt) > 10 ){
+  lis="";
+  lisarr=[]
+  for(i=0; i < $(".shelf ul li").length; i++){
+    lis+="<li>"+$(".shelf ul li").eq(i).html()+"</li>";
+    lisarr[i]="<li>"+$(".shelf ul li").eq(i).html()+"</li>";
+  }
+  $(".shelf").remove();
+  for(i=0; i < lisarr.length; i++){
+    n = parseInt(($(".container").width()-200)/liwt);
+    te=(lisarr.slice(i, (i+n))).join("\n");
+    $("#bigshelf").append("<div class=shelf><ul>"+te+"</ul></div>");
+    i=i+n-1;
+  }
+  wdt=$(".container").width();
+}
+});
+}

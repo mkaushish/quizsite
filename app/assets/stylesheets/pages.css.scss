@@ -311,4 +311,17 @@ $slidecol: #444;
 #nextslide {
   float:right;
 }
+#sbrowse{
+  position:absolute;
+  top:0px;
+  left:30px;
+  p{
+    float:left;
+    font-size:24px;
+  }
+  img{
+    width:60px;
+  }
+}
+
 // }}}

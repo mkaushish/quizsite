@@ -46,25 +46,34 @@
   </ul>
   
 </div>-->
-<div id='shelf'>
-  <ul>
-    <li><%= link_to (image_tag @student.image.url(:thumb)), edit_student_path, :remote => true  %><%= link_to 'Account',  edit_student_path, :remote => true, :class => 'plate' %></li>
-    <li><div id='points'><%= number_with_delimiter(@student.points) %></div><a class='plate' style='margin-top:7px'>Points</a></li>
-    <li><div class = "plate"><%= @badges %></div></li>
-  </ul>
-</div>
 
+<%= render 'shared/shelf', :@student => current_user %>
+
+<div>
 <div style='float:left'>
   <div class='dotted-border-header'>
     <h4>Progress Center<h4>
   </div>
-  <div class='dotted-border' style='min-height:1000px; width:252px'>
+  <div class='dotted-border' style='height:1000px; width:252px'>
     <%= render 'progress_center' %>
   </div>
 </div>
-<div>
+
+<div id='bbor'>
   <% @pset_instances.each do |i| %>
     <%= render :partial => 'pset_list_box', :object => i %>
   <% end %>
 </div>
 
+
+</div>
+<script>
+shelf_color();
+/*$(".pset_list_box").hover(function() {
+        $(this).animate({ 'zoom': 1.2 }, 400);
+    },
+    function() {
+        $(this).animate({ 'zoom': 1 }, 400);
+    });*/
+dbord();
+</script>

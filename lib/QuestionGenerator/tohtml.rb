@@ -94,7 +94,35 @@ module ToHTML
         return ToHTML::TextField.new(elt)
       elsif elt.is_a? HTMLObj
         return elt
+      elsif elt.is_a? MultiHTMLObj
+        return elt
       else
+        return nil
+      end
+    end
+  end
+
+  class Exponent < MultiHTMLObj
+    attr_accessor :num, :exp
+
+    def initialize(num, exp)
+      @num= init_part num
+      @exp= init_part exp
+    end
+
+    def correct?(solution, response)
+      [ @num, @exp ].map { |elt| elt.nil? || elt.correct?(solution, response) }.reduce(:&)
+    end
+    def init_part(elt)
+      if elt.is_a?(Fixnum) 
+        return ToHTML::TextLabel.new(elt)
+      elsif elt.is_a?(String)
+        return ToHTML::TextField.new(elt)
+      elsif elt.is_a? HTMLObj
+        return elt
+      elsif elt.is_a? MultiHTMLObj
+        return elt
+        else
         return nil
       end
     end
@@ -286,6 +314,8 @@ module ToHTML
       end
       return true
     end
+      def answer_view?() true end
+      def contains_response_and_soln?() true ; end
   end
 
   class TallyMarksLabel < TallyMarksField
@@ -318,6 +348,8 @@ module ToHTML
       end
       return true
     end
+    def answer_view?() true end
+      def contains_response_and_soln?() true ; end
   end
 
   class BarGraphLabel < BarGraphField
@@ -346,6 +378,8 @@ module ToHTML
       $stderr.puts response[@name]
       solution[@name]==response[@name] 
     end
+    def answer_view?() true end
+      def contains_response_and_soln?() true ; end
   end
   class MovNumberLine < MultiHTMLObj
     attr_reader :name, :val, :bigdiv
@@ -456,11 +490,13 @@ module ToHTML
 
     def items_from(response)
       if !response[@name].nil?
-        return response[name].split(',')
+        return response[@name].split(',')
       else
-        return Array.new(@items.length) do |i|
-          response["#{@name}_#{i}"]
+        ar=[]
+        @items.length.times do |i|
+          ar[i] = response["#{@name}_#{i}"]
         end
+        return ar
       end
     end
 
@@ -470,6 +506,9 @@ module ToHTML
   end
   
   class PermutationDisplay < PermutationDrag
+    def partial
+      "single/permutationdrag"
+    end
     def initialize(*args)
       super(*args)
     end
@@ -563,7 +602,22 @@ module ToHTML
       (len / 3 + 1) * 3
     end
   end
-  
+  class KeyboardAlg < MultiHTMLObj
+    attr_accessor :name, :hpow, :nvar
+    def initialize(name, hpow, nvar)
+      @name=ToHTML::add_prefix name
+      @hpow=hpow
+      @nvar=nvar
+    end
+    def correct?(solution, response)
+      ((@hpow.length+1)**@nvar).times do |i|
+        curn=@name+"_#{i}"
+        return false unless solution[curn]==response[curn]
+      end
+      return true
+    end
+    
+  end
   
   # As you can see, this is just a textfield, with an overwritten fromhash method
   # the point is that in the solve hash you can do
