@@ -133,6 +133,9 @@ ActiveRecord::Schema.define(:version => 20130617081504) do
   create_table "problem_sets", :force => true do |t|
     t.string  "name"
     t.integer "user_id"
+    t.string  "image"
+    t.string  "description"
+    t.string  "video_link"
   end
 
   create_table "problem_stats", :force => true do |t|
@@ -171,7 +174,6 @@ ActiveRecord::Schema.define(:version => 20130617081504) do
     t.datetime "started_at"
     t.datetime "ended_at"
     t.boolean  "complete"
-    t.integer  "problem_set_instance_id"
   end
 
   add_index "quiz_instances", ["quiz_id", "user_id"], :name => "index_quiz_users_on_quiz_id_and_user_id", :unique => true
@@ -220,6 +222,13 @@ ActiveRecord::Schema.define(:version => 20130617081504) do
     t.string   "image_content_type"
     t.integer  "image_file_size"
     t.datetime "image_updated_at"
+    t.string   "first_name"
+    t.string   "last_name"
+    t.string   "gender"
+    t.string   "uid"
+    t.string   "profile_link"
+    t.string   "picture_link"
+    t.string   "provider"
   end
 
   add_index "users", ["email"], :name => "index_users_on_email", :unique => true
