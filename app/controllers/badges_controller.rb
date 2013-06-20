@@ -11,3 +11,4 @@ class BadgesController < ApplicationController
   def validate_student
     @student = current_user
   end
+end
