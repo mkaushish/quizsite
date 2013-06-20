@@ -1,4 +1,6 @@
 class ProblemSetInstancesController < ApplicationController
+  
+  before_filter :validate_student
   # GET /psets/:name
   # psets_path(:name)
   def show
@@ -74,7 +76,8 @@ class ProblemSetInstancesController < ApplicationController
     @problem = @answer.problem.problem
     @solution = @problem.prefix_solve
     @response = @answer.response_hash
-
+    @changedPoints = @answer.points
+    
     render 'show_answer', locals: {callback: 'problem_set_instances/finish_problem'}
   end
 
@@ -93,5 +96,8 @@ class ProblemSetInstancesController < ApplicationController
                             .order("created_at DESC")
                             .includes(:problem)
                             .limit(n)
+  end
+  def validate_student
+    @student = current_user
   end
 end
