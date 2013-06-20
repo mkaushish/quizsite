@@ -1,8 +1,8 @@
-$prog_bar_h: 12px;
+$prog_bar_h: 30px;
 .progress_bar {
 	position:relative;
 	height: $prog_bar_h;
-	margin-bottom: $prog_bar_h * 1.5;
+	margin-bottom: 0px;
 	width:$problem_w;
 	&>* {
 		height:$prog_bar_h;

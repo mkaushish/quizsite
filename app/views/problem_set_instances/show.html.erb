@@ -10,7 +10,7 @@
 </div>-->
 <%= render 'shared/shelf', :@student => current_user %>
 <div class="quiz-link">
-<%= link_to "Take a Quiz", quiz_do_path(@problem_set.id), :remote => true %>
+<%= link_to "Quiz", quiz_do_path(@problem_set.id), :remote => true %>
 </div>
 <div style="width:252px; float:left">
     <div class='dotted-border-header'>
@@ -30,7 +30,14 @@
       </ul>
   </div>
 </div>
-<script>dbord();</script>
+    <% @a = @stats.map(&:color_status) %>
+    <% @total = @instance.num_problems %>
+
+    <% @blue  = percentage(@a.count("green"), @total) %>
+    <% @green = percentage(@a.count("yellow"), @total) %>
+    <% @red   = 100.0 - @blue - @green %>
+<script>dbord(["<%=@blue%>","<%=@green%>","<%=@red%>"]);
+</script>
 <div>
   <% @stats.each do |i| %>
     <%= render :partial => 'problem_list_box', :object => i,  :locals => {:item => i}%>

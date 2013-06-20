@@ -34,7 +34,7 @@ function setNavLineWidths() {
     $both.css("top", both_y)
   });
 }
-function dbord(){
+function dbord(pname){
   if($(".container").width() < 475){
     $(".dotted-border").css("width", ($(".container").width()-22)+"px");
     $(".dotted-border").css("height","auto");
@@ -43,6 +43,8 @@ function dbord(){
     $(".dotted-border").css("width", "252px");
     $(".dotted-border").css("height","1000px");
   }
+  if(pname=="pset"){shelf_color();}
+  else{shelf_color_in(pname[0], pname[1], pname[2]);}
   $(window).resize(function(){
   if($(".container").width() < 475){
     $(".dotted-border").css("width", ($(".container").width()-22)+"px");
@@ -52,6 +54,8 @@ function dbord(){
     $(".dotted-border").css("width", "252px");
     $(".dotted-border").css("height","1000px");
   }
+  if(pname=="pset"){shelf_color();}
+  else{shelf_color_in(pname[0], pname[1], pname[2]);}
 });
 }
 
