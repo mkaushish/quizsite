@@ -28,8 +28,8 @@ function setNavLineWidths() {
     // console.log(both_y  + ': both_y ');
 
     $blue.css("width", blue_w);
-    $green.css("left", green_x);
-    $green.css("width", green_w);
+    $green.css("left", $(".container").css("margin-left"));
+    $green.css("width", "100%");
 
     $both.css("top", both_y)
   });

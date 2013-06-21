@@ -3,12 +3,20 @@ class PagesController < ApplicationController
   def home
     # $stderr.puts "!@#" * 30 + "\n#{current_user.class}"
     case current_user.class.to_s
-    when "Student"
-      redirect_to studenthome_path
-    when "Teacher"
-      redirect_to teacherhome_path
-    else 
-      @nav_selected = "home"
+      when "Student"
+        redirect_to studenthome_path
+      when "Teacher"
+        redirect_to teacherhome_path
+      else 
+        @nav_selected = "home"
+        @problem_types = ProblemType.limit(5)
+    end
+    if defined? params[:ptypes]
+      case params[:ptypes]
+        when 'all'
+          @problem_types = ProblemType.all
+          respond_to { |format| format.js}
+      end
     end
   end
 
@@ -65,5 +73,8 @@ class PagesController < ApplicationController
 
   # GET access_denied
   def access_denied
+
   end
+  
+
 end

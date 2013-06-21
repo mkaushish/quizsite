@@ -68,6 +68,11 @@ body {
   font-size:16px;
 }
 
+.container {
+  width:100%;
+  max-width:940px;
+}
+
 /* Homepage stuff {{{ */
 #homedescription {
   float:right;
@@ -196,7 +201,6 @@ form div.field_block {
 @import 'problems/tohtml/*';
 
 @import 'progress_bar.css.scss';
-@import 'bootstrap_progress_bar.css';
 @import 'classrooms.css.scss';
 @import 'custom_problems.css.scss';
 @import 'details.css.scss';

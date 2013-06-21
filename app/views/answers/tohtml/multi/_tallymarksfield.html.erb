@@ -1,0 +1,40 @@
+
+  <div id=tally style="position:relative">
+    <canvas id=datacanvasin height=400 width=400 style="border-style:solid; border-width:2px;">
+    </canvas>
+    <%= hidden_field_tag('type', "tally") %>
+    <%= hidden_field_tag('edit', tallymarksfield.edit) %>
+    <table id=tablein style="display:none">
+      <% tallymarksfield.obs.length.times do |row| %>
+        <tr>
+          <td><%= hidden_field_tag("#{tallymarksfield.name}_#{row}_name", tallymarksfield.obs[row]) %></td>
+          <td><%= hidden_field_tag("#{tallymarksfield.name}_#{row}", @response["#{tallymarksfield.name}_#{row}"]) %></td>
+        </tr>
+      <% end %>
+    </table>
+    <script>
+      setUpDataGr("datacanvasin", "tablein");
+      $("#tally button").hide();
+    </script>
+  </div>
+
+<% unless tallymarksfield.correct?(@solution, @response) then %>
+  <div id=tally style="position:relative">
+    <canvas id=datacanvasout height=400 width=400 style="border-style:solid; border-width:2px;">
+    </canvas>
+    <%= hidden_field_tag('type', "tally") %>
+    <%= hidden_field_tag('edit', tallymarksfield.edit) %>
+    <table id=tableout style="display:none">
+      <% tallymarksfield.obs.length.times do |row| %>
+        <tr>
+          <td><%= hidden_field_tag("#{tallymarksfield.name}_out_#{row}_name", tallymarksfield.obs[row]) %></td>
+          <td><%= hidden_field_tag("#{tallymarksfield.name}_out_#{row}", @solution["#{tallymarksfield.name}_#{row}"]) %></td>
+        </tr>
+      <% end %>
+    </table>
+    <script>
+      setUpDataGr("datacanvasout", "tableout");
+      $("#tally button").hide();
+    </script>
+  </div>
+<%end%>

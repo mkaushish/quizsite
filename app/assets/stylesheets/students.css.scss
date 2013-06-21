@@ -184,3 +184,74 @@ div.pset_list_box {
     float: right;
     overflow: visible; 
   }
+  .pset_pbar {
+    width:187px;
+    float:left;
+    margin-left:3.7%;
+    margin-top:3.7%;
+  }
+  #shelf {
+margin-top:30px;
+margin-right: 0px;
+margin-bottom: 50px;
+margin-left: 0px;
+
+}
+#shelf ul {
+    margin: 23px 0;
+    padding: 0;
+    height: 19px;
+    border-bottom: 8px solid #999999;
+    background-color: #ccc;
+}
+ 
+    #shelf ul:before {
+        border-right: 38px solid #cccccc;
+        border-top: 18px solid #FFFFFF;
+        content: "";
+        float: left;
+        margin: 0;
+        width: 0;
+    }
+ 
+    #shelf ul:after {
+        border-left: 38px solid #cccccc;
+        border-top: 18px solid #FFFFFF;
+        content: "";
+        float: right;
+        margin: 0;
+        width: 0;
+    }
+ 
+#shelf li {
+    float: left;
+    list-style: none outside none;
+    margin: -27px 10px 0;
+    padding: 3px;
+    position: relative;
+    text-align: center;
+    width: 80px;
+}
+ #shelf img {
+  border-radius:50%;
+  margin-top:-40px;
+ }
+#shelf a {
+
+    padding: 7px;
+    display: block;
+    text-decoration: none;
+    color: #fff;
+}
+#points{
+  background-color:$sg_green;
+  padding-top:10px;
+  padding-bottom:10px;
+  border-radius:50%;
+  color:white;
+}
+.plate{
+  background-color:$sg_blue;
+  font-family: 'Home_hand';
+  font-size:30px;
+}

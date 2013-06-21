@@ -29,6 +29,8 @@ group :development do
   # To use debugger
   gem 'debugger'
   gem 'rack-mini-profiler'
+  gem 'hirb'
+ 
 end
 
 group :development, :production do

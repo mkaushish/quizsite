@@ -166,7 +166,7 @@ module Chapter9
  PRODUCTS = [["2000","2001","2002","2003","2004"],["1900","1901","1902","1903","1904","1905"],["2004","2005","2006","2007"],
  ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],["Hindi","English","Mathematics","Science","Social Science"],
  ["Yellow Shirts","Black Shirts","White Shirts","Grey Shirts","Blue Shirts"]]
- DESCRIPTION = ["Wheat production in","Rice production in","Bat sales in","T-shirt sales on","Marks in","Sales of"]
+ DESCRIPTION = ["Wheat production between years","Rice production between years","Bat sales between years","T-shirt sales on","Marks in","Sales of"]
 class BarQuesEasy2 < QuestionWithExplanation
   def initialize
       @yrs=PRODUCTS.sample()
@@ -198,7 +198,7 @@ class BarQuesEasy2 < QuestionWithExplanation
     [Subproblem.new([TextLabel.new("Refer the following Example to solve such problems:"),BarGraphField.new("nm1", @for_explanation1, @for_explanation2, {"editdivs" => false, "divs" => 10}), TextLabel.new("The above Bar graph can be read as 50 in year 2000, 20 in year 2001")])]
   end
   def text
-    [TextLabel.new("Give the answers to the following questions by looking at the graph"), BarGraphLabel.new("nm", @yrs, @amts, {"editdivs" => false, "divs" => 10}), TextLabel.new("Change in #{@describe} #{@ques1} & #{@ques2} (absolute value)"), TextField.new("ans1")]
+    [TextLabel.new("Give the answers to the following questions by looking at the graph"), BarGraphLabel.new("nm", @yrs, @amts, {"editdivs" => false, "divs" => 10}), TextLabel.new("Difference in #{@describe} #{@ques1} & #{@ques2} (absolute value)"), TextField.new("ans1")]
   end
 end
 
@@ -238,6 +238,42 @@ class TallyQuesEasy2 < QuestionWithExplanation
   end
 end
 
+
+  ACTIVITIES=[["Rice", "Wheat", "Both"],["English", "Maths", "Stutied Both"],["Coffee","Tea","Both"],
+  ["Watched TV","Played Cricket","Done Both"], ["Played Cricket","Played Soccer","Played Both"]]
+  class TallyQuesEasy3 < QuestionWithExplanation
+    def initialize
+      yr=rand(106)+1900
+      nyrs=3
+      @rand_index = rand(2)
+      @yrs=ACTIVITIES.sample
+      @amts=Set.new()
+      while (@amts.length < nyrs-1)
+        @amts << (rand(20)+7)
+      end
+      @amts << (rand(6) + 1) 
+      @amts=@amts.to_a
+    @ans = @amts[@rand_index]
+    @ques = @yrs[@rand_index]
+    @for_explanation1 = ["One","Two","Three","Four","Five"]
+    @for_explanation2 = [1,2,3,4,5]
+    @for_explanation2 = @for_explanation2.to_a
+    end
+    def solve
+      {"ans1" => @ans - @amts[2]}
+    end
+    def explain
+    [
+      Subproblem.new([TextLabel.new("Refer the following table to solve such problems:"),TallyMarksLabel.new("nm1", @for_explanation1, @for_explanation2)])
+    ]
+    end
+    def text
+      [TextLabel.new("Give the answers to the following questions by looking at the tally marks:"), TallyMarksLabel.new("nm", @yrs, @amts), TextLabel.new("The people who had #{@ques}"), TextField.new("ans1")]
+    end
+  end
+
+
+
   PROBLEMS=[Chapter9::CreateBar,
   Chapter9::BarQues,
   Chapter9::TallyQues,
@@ -245,6 +281,7 @@ end
   Chapter9::TallyQuesEasy,
   Chapter9::BarQuesEasy,
   Chapter9::BarQuesEasy2,
-  Chapter9::TallyQuesEasy2]
+  Chapter9::TallyQuesEasy2,
+  Chapter9::TallyQuesEasy3]
 end 
 

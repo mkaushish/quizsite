@@ -1,0 +1,44 @@
+
+
+	<canvas id=datacanvasout height=350 width=400>
+      </canvas>
+      <%= hidden_field_tag('edit', "noedit") %>
+      <%= hidden_field_tag('type', "basicbar") %>
+      <%= hidden_field_tag('editdivs', bargraphfield.editdivs) %>
+      <%= hidden_field_tag('divs', bargraphfield.divs) %>
+      <table id=tableout style="display:none">
+        <% bargraphfield.obs.length.times do |row| %>
+          <tr>
+            <td><%= hidden_field_tag("#{bargraphfield.name}_ans_#{row}_name", bargraphfield.obs[row]) %></td>
+            <td><%= hidden_field_tag("#{bargraphfield.name}_ans_#{row}", @response["#{bargraphfield.name}_#{row}"]) %></td>
+          </tr>
+        <% end %>
+      </table>
+      <script>
+        setUpDataGr("datacanvasout", "tableout");
+      </script>
+    </div>
+
+
+<% unless bargraphfield.correct?(@solution, @response) then %>
+
+      <canvas id=datacanvasin height=350 width=400>
+      </canvas>
+      <%= hidden_field_tag('edit', "noedit") %>
+      <%= hidden_field_tag('type', "basicbar") %>
+      <%= hidden_field_tag('editdivs', bargraphfield.editdivs) %>
+      <%= hidden_field_tag('divs', bargraphfield.divs) %>
+      <table id=tablein style="display:none">
+        <% bargraphfield.obs.length.times do |row| %>
+          <tr>
+            <td><%= hidden_field_tag("#{bargraphfield.name}_#{row}_name", bargraphfield.obs[row]) %></td>
+            <td><%= hidden_field_tag("#{bargraphfield.name}_#{row}", @solution["#{bargraphfield.name}_#{row}"]) %></td>
+          </tr>
+        <% end %>
+      </table>
+      <script>
+        setUpDataGr("datacanvasin", "tablein");
+      </script>
+    </div>
+
+<%end%>

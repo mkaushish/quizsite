@@ -314,6 +314,8 @@ module ToHTML
       end
       return true
     end
+      def answer_view?() true end
+      def contains_response_and_soln?() true ; end
   end
 
   class TallyMarksLabel < TallyMarksField
@@ -346,6 +348,8 @@ module ToHTML
       end
       return true
     end
+    def answer_view?() true end
+      def contains_response_and_soln?() true ; end
   end
 
   class BarGraphLabel < BarGraphField
@@ -498,6 +502,9 @@ module ToHTML
   end
   
   class PermutationDisplay < PermutationDrag
+    def partial
+      "single/permutationdrag"
+    end
     def initialize(*args)
       super(*args)
     end
@@ -557,10 +564,11 @@ module ToHTML
       else
         @fields = args
       end
+      @fields.shuffle!
     end
 
     def shuffled_fields
-      @fields.shuffle
+      @fields
     end
 
     def contains_response_and_soln?() true ; end
