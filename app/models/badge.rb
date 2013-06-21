@@ -23,7 +23,6 @@ class Badge < ActiveRecord::Base
 		unless @b.blank?
 			@a = @b.select{|v| v == true}.count
 			result = @b.length - @a
-			
 			if result == 0
 				@has_BadgeFNQCIARFTO = student.badges.find_by_badge_key("BadgeFNQCIARFTO")
 				@has_BadgeFNQCIARFTO = student.badges.create(:name => "N questions correct in a row for the first time only",

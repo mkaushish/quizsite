@@ -1,51 +1,5 @@
-<!-- <<<<<<< HEAD
-<div class = "row-fluid">
-    <%#= render 'student_info' %>
-    <%#= image_tag("maths_genius.png", :class => "badge", :size => "68x68", :alt => " You won this Badge for doing all Problem Sets ") if @is_all_blue = false %>
-    
-</div>
 
-<div class = "row-fluid">
-    <div class = "span4">
-        <div class = 'dotted-border-header'>
-            <h4>Progress Center<h4>
-        </div>
-        <div class='dotted-border' style='min-height:400px;'>
-            <%#= render 'progress_center' %>
-        </div>
-    </div>
-    <div class="gif_tick">
-        <img src="/assets/line_animation.gif"></img>
-    </div>
-    <div class="span8">
-        <div class=jScroll_bboard >
-            <table class=list-box-table>
-                <%# @pset_instances.each_slice(3) do |next_3| %>
-                    <tr>
-                        <%# 3.times do |i| %>
-                            <td><%#= next_3[i].nil? ? "":(render :partial => 'pset_list_box', :object => next_3[i]) %></td>
-                        <%# end %>
-                    </tr>
-                <%# end %>
-            </table>
-        </div>
-    </div>
-</div>
-======= -->
-
-<!--<div class="row-fluid">
-  <%#= render 'student_info' %>
-  <%#= image_tag("maths_genius.png", :class => "badge", :size => "68x68", :alt => " You won this Badge for doing all Problem Sets ") unless @is_all_blue = true %>
-  
-  <h3 style="display:inline-block;">Learning</h3>
-  <ul class="breadcrumb">
-    <li><b>6th Grade</b><span class="divider">&amp;</span></li>
-    <li class=active>Overview</li>
-  </ul>
-  
-</div>-->
-
-<%= render 'shared/shelf', :@student => current_user %>
+<%= render 'shared/shelf', :@student => current_user, :@badges => @badges %>
 
 <div>
 <div style='float:left'>

@@ -9,6 +9,8 @@ class ProblemTypesController < ApplicationController
   #   end
   # end
 
+  before_filter :authenticate_admin, :only => [:edit, :update]
+
   def edit
     @problem_type = ProblemType.find_by_id(params[:id])
   end

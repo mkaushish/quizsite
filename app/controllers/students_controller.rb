@@ -9,7 +9,7 @@ class StudentsController < ApplicationController
     @history = current_user.answers.order("created_at DESC").limit(11)
     @is_all_blue = @student.badges.where(:name=> "BadgeAPSD").blank?
     Student.create_badges(@student)
-    @badges = @student.badges.map(&:name)
+    @badges = @student.badges
   end
 
   def new
