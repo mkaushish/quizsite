@@ -18,12 +18,12 @@ class Badge < ActiveRecord::Base
 
 	# Badge for n questions correct in a row for the first time only #
 	def self.BadgeFNQCIARFTO(student)
-		@b = student.answers.order("created_at ASC").limit(5).map(&:correct)
+		@b = student.answers.order("created_at DESC").limit(5).map(&:correct)
 		
 		unless @b.blank?
 			@a = @b.select{|v| v == true}.count
 			result = @b.length - @a
-			
+			debugger
 			if result == 0
 				@has_BadgeFNQCIARFTO = student.badges.find_by_badge_key("BadgeFNQCIARFTO")
 				@has_BadgeFNQCIARFTO = student.badges.create(:name => "N questions correct in a row for the first time only",
@@ -46,7 +46,7 @@ class Badge < ActiveRecord::Base
 
 	# Badge for getting first 10 red questions correct #
 	def self.BadgeTRQC(student)
-		@result = student.answers.order("created_at ASC").where(:correct => true).count == 10
+		@result = student.answers.order("created_at DESC").where(:correct => true).count == 10
 		unless @result.blank?
 			if @result == true
 				@has_BadgeTRQC = student.badges.find_by_badge_key("BadgeTRQC")
