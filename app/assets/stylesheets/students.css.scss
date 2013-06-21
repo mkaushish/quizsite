@@ -241,7 +241,7 @@ margin-bottom: 50px;
 margin-left: 0px;
 
 }
-.shelf ul {
+.shelf .shelf_ul {
     margin: 23px 0;
     padding: 0;
     height: 19px;
@@ -249,7 +249,7 @@ margin-left: 0px;
     background-color: #ccc;
 }
  
-    .shelf ul:before {
+    .shelf .shelf_ul:before {
         border-right: 38px solid transparent;
         border-top: 18px solid #FFFFFF;
         content: "";
@@ -258,7 +258,7 @@ margin-left: 0px;
         width: 0;
     }
  
-    .shelf ul:after {
+    .shelf .shelf_ul:after {
         border-left: 38px solid transparent;
         border-top: 18px solid #FFFFFF;
         content: "";
@@ -267,7 +267,7 @@ margin-left: 0px;
         width: 0;
     }
  
-.shelf li {
+.shelf .shelf_ul .shelf_li {
     float: left;
     list-style: none outside none;
     margin: -27px 10px 0;
@@ -286,7 +286,7 @@ margin-left: 0px;
   transform: rotateY(50deg);
 -webkit-transform: rotateY(50deg);
  }
-.shelf a {
+.shelf_ul a {
 
     padding: 7px;
     display: block;

@@ -1,0 +1,4 @@
+<% @points = @changedPoints %>
+<%@spoints = @student.points%>
+<% @netpoints = @points + @spoints %>
+<%= number_with_delimiter(@netpoints) %>

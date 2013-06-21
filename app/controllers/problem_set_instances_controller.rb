@@ -1,4 +1,6 @@
 class ProblemSetInstancesController < ApplicationController
+  
+  before_filter :validate_student
   # GET /psets/:name
   # psets_path(:name)
   
@@ -78,7 +80,8 @@ class ProblemSetInstancesController < ApplicationController
     @problem = @answer.problem.problem
     @solution = @problem.prefix_solve
     @response = @answer.response_hash
-
+    @changedPoints = @answer.points
+    
     render 'show_answer', locals: {callback: 'problem_set_instances/finish_problem'}
   end
 
@@ -98,8 +101,15 @@ class ProblemSetInstancesController < ApplicationController
                             .includes(:problem)
                             .limit(n)
   end
+<<<<<<< HEAD
 
   def validate_student
     @student = current_user
   end
 end
+=======
+  def validate_student
+    @student = current_user
+  end
+end
+>>>>>>> 9e35d575fdc7d6b2909b8b08a2fe9527e2279621

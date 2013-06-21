@@ -6,6 +6,8 @@ require 'c7'
 require 'physics'
 
 class AnswersController < ApplicationController
+
+  before_filter :validate_student
   # GET /answers
   # GET /answers.json
   def index
@@ -69,4 +71,9 @@ class AnswersController < ApplicationController
 
   # POST /answers
   # POST /answers.json
+
+  private
+  def validate_student
+    @student = current_user
+  end
 end

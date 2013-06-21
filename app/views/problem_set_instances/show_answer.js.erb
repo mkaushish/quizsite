@@ -5,5 +5,6 @@ initProblemOverlay();
 
 // create the problem
 $('#problem_overlay').html('<%= j(render "answers/full_answer") %>');
+$("#points").html("<%= j render("students/student_points", :@student => @student) %>");
 initProblem();
 
