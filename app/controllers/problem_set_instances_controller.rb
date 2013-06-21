@@ -101,15 +101,8 @@ class ProblemSetInstancesController < ApplicationController
                             .includes(:problem)
                             .limit(n)
   end
-<<<<<<< HEAD
 
   def validate_student
     @student = current_user
   end
 end
-=======
-  def validate_student
-    @student = current_user
-  end
-end
->>>>>>> 9e35d575fdc7d6b2909b8b08a2fe9527e2279621
