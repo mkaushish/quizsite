@@ -64,6 +64,7 @@ $(function() {
   setNavLineWidths();
   $(window).resize(setNavLineWidths);
   
+  
 });
 function logoutb(){
   $(".switch-to a").hover(function(){
@@ -72,6 +73,10 @@ function logoutb(){
   );
 }
 function shelf_do(){
+  if(/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)){
+    $("body").css("width", "454px");
+    $("body").css("zoom", ""+($(window).width()/454));
+  }
   wdt=$(".container").width();
 lis="";
   lisarr=[]
@@ -89,6 +94,10 @@ lis="";
   liwt=parseInt($(".shelf ul li").css("width"))+2*parseInt($(".shelf ul li").css("padding"));
   wdt=$(".container").width();
 $(window).resize(function(){
+  if(/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)){
+    $("body").css("width", "454px");
+    $("body").css("zoom", ""+($(window).width()/454));
+  }
   lisob=$(".shelf ul li");
 
   if(Math.abs($(".container").width()-wdt) > 10 ){

@@ -1,3 +1,6 @@
+#notepadcover{
+  color:white;
+}
 #npback {
   background: url("blackboard_bg.jpg");
   background-size:250px 250px;
@@ -40,13 +43,12 @@
   border-color:#147ea5 #147ea5 #147ea5 transparent;
 }
 .np_head {
-  left:10%;
-  width:100px;
-  top:-10px;
   padding-left:15px;
   padding-right:15px;
-  background-color:white;
-  h4 {float:left;}
+  font-family: "Home_hand";
+  font-size:30px;
+  color:white;
+  h1 {float:left; margin-bottom: 0px;}
   #drawnp {
     float:right;
   }
@@ -67,9 +69,9 @@
 #note {
   margin-left:12px;
   padding-top:14px;
-  border-color:#b1b1b1;
-  border-style:solid;
-  border-width:1px;
+  //border-color:#b1b1b1;
+  //border-style:solid;
+  //border-width:1px;
   position:relative;
   height:242px;
   width:370px;
@@ -125,6 +127,10 @@
 }
 
 .tbicons {
+  background-color: white;
+  border-style:solid;
+  border-width:1px;
+  border-color:black;
   //display:inline-block;
   float:right;
   height:18px;
@@ -138,7 +144,6 @@
 }
 
 #notepadcover>div {
-    height:200px;
 }
 
 #np_ops{
@@ -153,4 +158,16 @@
 #ops_form {
   margin-left:50%;
   margin-top:20px;
+}
+.side-notes{
+  background:-webkit-gradient(linear, left top, left bottom, from(purple), to(white));
+}
+.calculations {
+  float:left;
+}
+.results{
+  margin-left:20px;
+  float:left;
+  width:270px;
+  height:270px;
 }

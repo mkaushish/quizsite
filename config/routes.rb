@@ -97,6 +97,8 @@ Quizsite::Application.routes.draw do
   get '/about_us',      :to => 'pages#about_us'
   get '/draw',          :to => 'pages#draw'
   get '/access_denied', :to => 'pages#access_denied'
+  get '/mathematician', :to => 'pages#mathematician'
+
 
   #
   # static example pages
