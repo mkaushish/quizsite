@@ -1,12 +1,6 @@
 <%@changedPoints = 0%>
 <div id='bigshelf'>
 <div class='shelf' id='shelf_0'>
-<<<<<<< HEAD
-  <ul>
-    <li><%= link_to (image_tag @student.image.url(:thumb)), edit_student_path, :remote => true  %><%= link_to 'Account',  edit_student_path, :remote => true, :class => 'plate' %></li>
-    <li><div id='points'><%= number_with_delimiter(@student.points) %></div><a class='plate' style='margin-top:7px'>Points</a></li>
-    <li><%= @badges %></li>
-=======
   <ul class='shelf_ul'>
     <li class='shelf_li'><%= link_to (image_tag @student.image.url(:thumb)), edit_student_path, :remote => true  %><%= link_to 'Account',  edit_student_path, :remote => true, :class => 'plate' %></li>
     <li class='shelf_li'><div id='points'><%= render  :partial => 'students/student_points' %></div><a class='plate' style='margin-top:7px'>Points</a></li>
@@ -32,8 +26,22 @@
      </div>
  	</li>
 
-
->>>>>>> 9e35d575fdc7d6b2909b8b08a2fe9527e2279621
+<!-- Remove the styling when li & ul are given id's -->
+<% @badges.each do |badge| %>
+    <li><p class = "<%= badge.badge_key %>" style="position:relative;
+float: left;
+font-size: 8px;
+color: white;
+top: -38px;
+height: 65px;
+width: 75px;
+margin: 0px;
+padding-top: 15px;
+background-color: rgb(103, 73, 179);
+border-radius: 50%;
+line-height: 10px;
+font-family: "Home_hand";" ><%= badge.name %></p></li>   
+<% end %>
   </ul>
 </div>
 </div>
