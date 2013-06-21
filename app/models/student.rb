@@ -7,6 +7,7 @@ class Student < User
     has_many :classrooms, :through => :classroom_assignments
     has_many :teachers, :through => :classrooms
     has_many :badges
+    has_many :notifications
     # after_create :assign_class #TODO broken
 
     def problem_history(*ptypes)
