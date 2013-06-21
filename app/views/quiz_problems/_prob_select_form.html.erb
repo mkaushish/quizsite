@@ -10,17 +10,34 @@
 
 <h2><%= ptype %></h2>
 
-<%= form_for(@quiz_problem, url: update_problem_qp_path, remote: :true) do |f| %>
-    <div class="problem">
-        <%= f.hidden_field :problem, :value => @problem.id %>
-        <%= "Question: " %>
-        <% @problem.text.each do |elt| %>
-            <%= render_tohtml({partial_dir: 'problems'}, elt) %>
-        <% end %>
-        <br />
-        <%= "Answer: " %>
-        <br />
-        <%= @answer.to_s %> 
-    </div>
-   	<%= f.submit "Assign" %>
-<% end %> 
+<% if defined? params[:type] = "all" %>
+    <%= form_for(@quiz_problem, url: update_problem_qp_path(:type => "all"), remote: :true) do |f| %>
+        <div class="problem">
+            <%= f.hidden_field :problem, :value => @problem.id %>
+            <%= "Question: " %>
+            <% @problem.text.each do |elt| %>
+                <%= render_tohtml({partial_dir: 'problems'}, elt) %>
+            <% end %>
+            <br />
+            <%= "Answer: " %>
+            <br />
+            <%= @answer.to_s %> 
+        </div>
+       	<%= f.submit "Assign" %>
+    <% end %> 
+<% else %>
+    <%= form_for(@quiz_problem, url: update_problem_qp_path, remote: :true) do |f| %>
+        <div class="problem">
+            <%= f.hidden_field :problem, :value => @problem.id %>
+            <%= "Question: " %>
+            <% @problem.text.each do |elt| %>
+                <%= render_tohtml({partial_dir: 'problems'}, elt) %>
+            <% end %>
+            <br />
+            <%= "Answer: " %>
+            <br />
+            <%= @answer.to_s %> 
+        </div>
+        <%= f.submit "Assign" %>
+    <% end %> 
+<% end %>

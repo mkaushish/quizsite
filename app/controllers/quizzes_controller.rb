@@ -37,7 +37,7 @@ class QuizzesController < ApplicationController
         @quiz = Quiz.find_by_id(params[:quiz])
         @quiz_problem = @quiz.quiz_problems.create problem_type_id: params[:ptype], partial: true
         
-        redirect_to edit_quiz_problem_path(@quiz_problem)
+        redirect_to edit_quiz_problem_path(@quiz, @quiz_problems)
     end
 
     # POST /quiz
@@ -98,7 +98,19 @@ class QuizzesController < ApplicationController
         @quiz = Quiz.find_by_id(params[:quiz])
         @quiz_problem = @quiz.quiz_problems.create problem_type_id: params[:ptype], partial: true
         
-        redirect_to edit_quiz_problem_path(@quiz_problem, :type => all)
+        redirect_to edit_quiz_problem_path(@quiz_problem, :type => "all")
+    end
+
+    def assign_quiz_to_classrooms
+        @quiz = Quiz.find params[:quiz]
+        @classrooms = @teacher.classrooms
+        @classrooms.each do |classroom|
+            @class_quiz = @quiz.for_class classroom
+            
+            @class_quiz.assign params[:start_time], params[:end_time]
+            @class_quiz.save
+        end
+        redirect_to root_path
     end
 
     private

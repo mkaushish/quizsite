@@ -88,6 +88,7 @@ Quizsite::Application.routes.draw do
   post '/quizzes/create',           to: 'quizzes#create', as: :create_quiz
   post '/:classroom/:pset/partial_create',   to: 'quizzes#partial_create', as: :partial_create_quiz
   post '/quiz_for_all_classes/:quiz',   to: 'quizzes#create_qp_for_all', as: :create_qp_for_all
+  get '/quiz_for_all_classes/:quiz',    to: 'quizzes#assign_quiz_to_classrooms', as: :assign_quiz_to_classrooms
 
     
   # post ':classroom/assign_quiz/:id', to: 'quizzes#assign', as: :assign_quiz
