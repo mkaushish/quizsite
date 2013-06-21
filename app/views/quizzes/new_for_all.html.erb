@@ -1,0 +1,61 @@
+<div class="row-fluid">
+  	<%= render 'teachers/teacher_info', :teacher => @teacher %>
+</div>
+
+<h5>
+	Quiz for classes: 
+	<% @classrooms.each do |classroom| %>
+		<%= classroom.name %> <%= ", " unless classroom.eql? @classrooms.last %> 
+	<% end %>
+</h5>
+
+<div class="row-fluid">
+	<div id="problem_set_form">
+		<% if @problem_set.nil? %>
+			<%= form_tag new_quiz_for_all_path, :method => 'get', :class => 'inline-form', :id => 'pset-form', remote: :true do %>
+	  			<%= label_tag "problem_set_id", "Problem Set" %>
+	  			<% if @problem_sets.empty? %>
+	    			<%= select_tag :problem_set_id, "", disabled: true %>
+	  			<% else %>
+	  		 		<%= collection_select :quiz, :problem_set_id, @problem_sets, :id, :name %>	
+	  				<%= submit_tag "Next", :class=>"button-blue" %>
+	  			<% end %>
+			<% end %>
+		<% end %>
+	</div>
+	<div id="problem_set_name"></div>
+</div>
+<div class="row-fluid">
+    <div class="span4">
+        <div class="dotted-border-header">
+            Problems
+        </div>
+        <div class='dotted-border teacher-details-column'>
+            <ul class='column-list' id="quiz_problems_tabs">
+                <% unless @problem_set.nil? %>
+	                <%= render 'problem_types', :@problem_set => @problem_set %>
+	            <% else %>
+                    <p id="no_problem_set"><%= "Please Select Problem Set First!" %></p>
+                <% end %>                        
+            </ul>
+        </div>
+    </div>
+    <div class="span8">
+        <div class="dotted-border-header">
+            Selected Problems 
+        </div>
+        <div class='dotted-border teacher-details-column'>
+            <div id="qp">
+                <ul class='column-list' id="quiz_problems">
+                    <% if !@quiz_problems.blank? %>
+                        <% @quiz_problems.each do |quiz_problem| %>
+                          <%= render "quiz_problem", :quiz_problem => quiz_problem %>
+                        <% end %>
+                    <% else %>
+                        <p id="no_qp_msg"><%= "No Problem is Selected Yet!" %></p>
+                    <% end %>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

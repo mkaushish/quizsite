@@ -1,13 +1,17 @@
 <div class="row-fluid">
-  <%= render 'teacher_info', :teacher => @teacher %>
-  <h3 style="display:inline-block;">Overview:</h3>
+  	<%= render 'teacher_info', :teacher => @teacher %>
+  	<h3 style="display:inline-block;">Overview:</h3>
 </div>
+<br>
+<%= link_to "Assign Quiz to all", new_quiz_for_all_path, :class => "pull-right" %>
+	
 <% @classrooms.each do |classroom| %>
-  <%= render :partial => 'classrooms/overview', :locals => {:classroom => classroom} %>
+  	<%= render :partial => 'classrooms/overview', :locals => {:classroom => classroom} %>
 <% end %>
+
 <script>
-  $(function () {
-    $('.teacher-class-col').jScrollPane();
-    $('.class_password').tooltip({title: "Class Password: students need this to join your classroom"});
-  })
+  	$(function () {
+    	$('.teacher-class-col').jScrollPane();
+    	$('.class_password').tooltip({title: "Class Password: students need this to join your classroom"});
+  	})
 </script>

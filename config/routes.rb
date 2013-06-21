@@ -83,9 +83,13 @@ Quizsite::Application.routes.draw do
   post '/details_concept',          to: 'details#click_concept', as: :details_concept
 
   get '/:classroom/:pset/new_quiz', to: 'quizzes#new', as: :new_quiz
+  get '/quiz_for_all_classes',      to: 'quizzes#new_for_all', as: :new_quiz_for_all
+
   post '/quizzes/create',           to: 'quizzes#create', as: :create_quiz
   post '/:classroom/:pset/partial_create',   to: 'quizzes#partial_create', as: :partial_create_quiz
-  
+  post '/quiz_for_all_classes/:quiz',   to: 'quizzes#create_qp_for_all', as: :create_qp_for_all
+
+    
   # post ':classroom/assign_quiz/:id', to: 'quizzes#assign', as: :assign_quiz
   get '/:classroom/:pset/show',     to: 'quizzes#show', as: :quiz
   post '/:classroom/:quiz/assign'
