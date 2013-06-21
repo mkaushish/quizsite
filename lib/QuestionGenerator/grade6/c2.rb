@@ -10,6 +10,8 @@ include ToHTML
 module Chapter2
   INDEX = 2
   TITLE = "Whole Numbers"
+  PEOPLE = ["Sarita", "Balu", "Raju", "Ameena"]
+
   class WriteSuccessors < QuestionBase
     def self.type
       "Successors"
@@ -101,6 +103,146 @@ module Chapter2
       ret
     end
   end
+
+  class NumOfNumbers < QuestionWithExplanation
+    def self.type
+      "NumOfNumbers"
+    end
+    def initialize
+      @a = rand(100)+2
+      @b = rand(100)+2
+      while @b<@a do
+       @b = rand(100)+2 
+      end
+      @c = @b-@a-1
+    end
+
+    def solve
+     { 
+      "ans1" => @b-@a-1
+     }
+    end
+    
+    def text
+        [
+          TextLabel.new("How many whole numbers are there between #{@a} and #{@b} ?"),
+          TextField.new("ans1")
+        ]
+    end
+
+    def explain
+        [
+          SubLabel.new("The number of numbers between #{@a} and #{@b} would be equal to #{@b}-#{@a}-1 which turns out to be #{@c}.")
+        ]
+    end
+  end
+
+  class Inequalities < QuestionWithExplanation
+    def self.type
+      "Inequalities"
+    end
+    def initialize
+      @a = rand(1000)+2
+      @b = rand(1000)+2
+      @choose1 = @a-@b
+    end
+
+    def solve
+     { 
+      "ans1" => "#{@var}",
+      "sign" => (@choose1 > 0) ? ">" : "<"
+     }
+    end
+
+    def text
+      [
+        TextLabel.new("Choose the appropriate sign between the two numbers"),
+        InlineBlock.new(TextLabel.new("#{@a} "),Dropdown.new("sign", ">", "<"),TextLabel.new("#{@b}"))
+      ]
+    end
+
+   def explain
+      if @choose1 < 0
+        [
+          SubLabel.new("Since a is less than b the correct symbol would be <.")
+        ]
+      else
+        [
+          SubLabel.new("Since a is more than b the correct symbol would be >.")
+        ]
+      end
+    end
+  end
+
+  class StatementProblem < QuestionWithExplanation
+    def self.type
+      "StatementProblem"
+    end
+    def initialize
+      @person = PEOPLE.sample
+      @choose = rand(3)
+      @a = rand(10)+25
+      @b = rand(10)+2
+      @c = rand(10)+40
+      @cost = rand(10)+40
+      @cost2 = rand(10)+20
+      @days = rand(10)+2
+      @choose1 = @a-@b
+    end
+
+    def solve
+     if @choose==0
+        { 
+        "ans1" => (@a+@b)*@days,
+        }
+      elsif @choose==1
+        {
+          "ans1" =>(@a+@c)*@cost
+        }
+      elsif @choose==2
+        {
+          "ans1" =>(@a+@c)*@cost2
+        }      
+      end
+    end
+
+    def text
+      if @choose==0
+        [
+          TextLabel.new("The school canteen charges Rs #{@a} for lunch and Rs #{@b} for milk for each day. How much money do you spend in #{@days} days on these things?"),
+          TextField.new("ans1")
+        ]
+      elsif @choose==1
+        [
+          TextLabel.new("A taxidriver #{@person} filled his car petrol tank with #{@a} litres of petrol on Monday. The next day, he filled the tank with #{@c} litres of petrol. If the petrol costs Rs #{@cost} per litre, how much did he spend in all on petrol?"),
+          TextField.new("ans1")
+        ]
+      elsif @choose==2
+        [
+          TextLabel.new("A vendor #{@person} supplies #{@a} litres of milk to a hotel in the morning and #{@c} litres of milk in the evening. If the milk costs Rs #{@cost2} per litre, how much money is due to the vendor per day?"),
+          TextField.new("ans1")
+        ]  
+      end
+    end
+
+   def explain
+      if @choose == 0
+        [
+          SubLabel.new("The total money spent would be equal to the product of number of days(#{@days}) with the sum of cost of lunch(#{@a}) and cost of milk#{@b}. Therefore total money spent is (#{@a}+#{@b})*#{@days}")
+        ]
+      elsif @choose==1
+        [
+          SubLabel.new("The total money spent would be equal to the product of cost of petrol(#{@cost}) with the sum of litres of petrol filled on Monday(#{@a}) and that filled on the next day(#{@c}). Therefore total money spent is (#{@a}+#{@c})*#{@cost}")
+        ]
+      elsif @choose==2
+        [
+          SubLabel.new("The total money spent would be equal to the product of cost of milk(#{@cost2}) with the sum of litres of milk supplied in the morning(#{@a}) and that supplied in the evening(#{@c}). Therefore total money spent is (#{@a}+#{@c})*#{@cost2}")
+        ]  
+      end
+    end
+  end
+
+
 
   class SuitableRearrangementSum < QuestionBase
     def self.type
@@ -295,7 +437,10 @@ module Chapter2
   PROBLEMS = [  
     Chapter2::WriteSuccessors,            Chapter2::WritePredecessors,
     Chapter2::SuitableRearrangementSum,   Chapter2::SuitableRearrangementProduct, 
-    Chapter2::AddLargeNumbers 
+    Chapter2::AddLargeNumbers,
+    Chapter2::NumOfNumbers,
+    Chapter2::Inequalities,
+    Chapter2::StatementProblem
   ]
 
 end

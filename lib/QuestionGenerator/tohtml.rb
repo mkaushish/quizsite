@@ -606,6 +606,39 @@ module ToHTML
     end
     
   end
+
+  class DrawShape < MultiHTMLObj
+    attr_accessor :name,:shape, :len, :bre, :startx,:starty, :length, :breadth
+    def initialize(name, shape, len, bre, startx, starty, length, breadth)
+      @name=ToHTML::add_prefix name
+      @len=len
+      @bre=bre
+      @length=length
+      @breadth=breadth
+      @startx=startx
+      @starty=starty
+      @shape=shape
+    end
+    def correct?(solution, response)
+      if @shape=='circle'
+        @sliceno = 360/len
+      elsif @shape = 'rectangle1'
+        @sliceno = length/len
+      elsif @shape = 'rectangle2'
+        @sliceno = breadth/bre
+      else
+        @a = length/len
+        @b = breadth/bre
+        @sliceno = @a*@b
+      end
+      (@sliceno).times do |i|
+        curn=@name+"_#{i}"
+        return false unless solution[curn]==response[curn]
+      end
+      return true
+    end
+    
+  end
   
   # As you can see, this is just a textfield, with an overwritten fromhash method
   # the point is that in the solve hash you can do
