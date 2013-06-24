@@ -19,7 +19,7 @@ class User < ActiveRecord::Base
   # has_many :problem_types # custom problems created by user
   has_many :problem_stats, :dependent => :destroy # mastery stats
 
-  has_many :notifications
+  has_many :news_feeds
 
   validates :name, :presence => true,
                    :length => { :maximum => 50 }

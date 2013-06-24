@@ -27,6 +27,8 @@ class Badge < ActiveRecord::Base
 				@has_BadgeFNQCIARFTO = student.badges.find_by_badge_key("BadgeFNQCIARFTO")
 				@has_BadgeFNQCIARFTO = student.badges.create(:name => "N questions correct in a row for the first time only",
 																:badge_key => "BadgeFNQCIARFTO") if @has_BadgeFNQCIARFTO.nil?
+				student.news_feeds.create(:content => "Congrats! You have won a new Badge", :feed_type => "badge", :user_id => student.id)
+
 			end
 		end
 	end

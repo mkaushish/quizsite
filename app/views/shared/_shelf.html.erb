@@ -14,19 +14,10 @@
     	    <%= "Notifications"  %>
           <span class="caret"></span>
       	</button>
-      	<div id='notify'><%= render  :partial => 'students/notifications' %></div>
-<!--      	<ul class="dropdown-menu">
-        	<li><%= "1234" %></li>
-        	<li><%= "qwer" %></li>
-        	<li><%= "asdf" %></li>
-        	<li><%= "zxcv" %></li>
-      	</ul>
-
--->      	
+      	<div id='notify'><%= render  :partial => 'students/notifications' %></div>    	
      </div>
  	</li>
 
-<!-- Remove the styling when li & ul are given id's -->
 <% current_user.badges.each do |badge| %>
     <li class="shelf_li"><p class = "<%= badge.badge_key %>"><%= badge.name %></p></li>   
 <% end %>
