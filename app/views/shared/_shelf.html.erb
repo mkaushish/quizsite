@@ -5,7 +5,7 @@
     <li><div id='points'><%= number_with_delimiter(@student.points) %></div><a class='plate' style='margin-top:7px'>Points</a></li>
 
 <!-- Remove the styling when li & ul are given id's -->
-<% @badges.each do |badge| %>
+<% current_user.badges.each do |badge| %>
     <li><p class = "<%= badge.badge_key %>" style="position:relative;
 float: left;
 font-size: 8px;
