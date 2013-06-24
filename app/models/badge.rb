@@ -11,9 +11,21 @@ class Badge < ActiveRecord::Base
         result_length = @result.length
         true_count = @result.select {|v| v =="true"}.count
         if (result_length- true_count) == 0
-        	@has_BadgeAPSD = student.badges.find_by_badge_key("BadgeAPSD") || student.badges.create(:name => "All problem sets done",
-															:badge_key => "BadgeAPSD")
+        	@has_BadgeAPSD = student.badges.find_by_badge_key("BadgeAPSD") 
+        	@has_BadgeAPSD ||= student.badges.create(:name => "All problem sets done", :badge_key => "BadgeAPSD")
 		end
+    end
+
+	# Badge for getting problem set blue #
+	def self.BadgePSB(student)
+		@result = Array.new
+        student.problem_set_instances.each do |pset|
+            if pset.problem_stats.count - pset.problem_stats.blue.count == 0
+            	pset_name = pset.problem_set.name
+            	@has_BadgePSB = student.badges.find_by_badge_key("BadgePSB")
+            	@has_BadgePSB ||=  student.badges.create(:name => "#{pset_name} Blue !!", :badge_key => "BadgePSB")	
+        	end
+        end
     end
 
 	# Badge for n questions correct in a row for the first time only #
@@ -25,7 +37,7 @@ class Badge < ActiveRecord::Base
 			result = @b.length - @a
 			if result == 0
 				@has_BadgeFNQCIARFTO = student.badges.find_by_badge_key("BadgeFNQCIARFTO")
-				@has_BadgeFNQCIARFTO = student.badges.create(:name => "N questions correct in a row for the first time only",
+				@has_BadgeFNQCIARFTO ||= student.badges.create(:name => "N questions correct in a row for the first time only",
 																:badge_key => "BadgeFNQCIARFTO") if @has_BadgeFNQCIARFTO.nil?
 			end
 		end
@@ -37,7 +49,7 @@ class Badge < ActiveRecord::Base
 		unless @result.blank?
 			if @result.select{|v| v == Date.today}.count > 0 == true
 				@has_BadgeCAPSWAD = student.badges.find_by_badge_key("BadgeCAPSWAD")
-				@has_BadgeCAPSWAD = student.badges.create(:name => "Completing a problem set within a day",
+				@has_BadgeCAPSWAD ||= student.badges.create(:name => "Completing a problem set within a day",
 																:badge_key => "BadgeCAPSWAD") if @has_BadgeCAPSWAD.nil?
 			end
 		end	
