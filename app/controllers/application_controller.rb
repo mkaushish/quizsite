@@ -24,8 +24,8 @@ class ApplicationController < ActionController::Base
   end
 
   def authenticate_admin
-    deny_access unless current_user.email == "m.adhavkaushish@gmail.com" or current_user.email == "t.homasramfjord@gmail.com
-"  or current_user.email == "madhav.kaushish@gmail.com"  or current_user.email == "amandeep.bhamra@gmail.com"
+    admin = ["m.adhavkaushish@gmail.com", "t.homasramfjord@gmail.com", "madhav.kaushish@gmail.com", "amandeep.bhamra@gmail.com"]
+    deny_access unless admin.include? current_user.email
   end
 
   def form_err_js(id, message)

@@ -30,7 +30,7 @@
     <%= render 'answers/answer_body' %>
   </div>
 </div>
-  <%= render "problem_set_instances/progress_bar/#{@stat.color_status}" %>
+  <%= render "problem_set_instances/progress_bar/#{@stat.color_status}" unless @stat.nil? %>
 
 <% if @problem.has_notepad? %>
   <div class='row-fluid calculations'>

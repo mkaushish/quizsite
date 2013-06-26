@@ -27,7 +27,7 @@ class SessionsController < ApplicationController
         flash[:error] = "The ID #{@email.downcase} is not in use." +
                         "  Would you like to register?"
       end
-      render 'pages/home'
+      render 'errors.js.erb'  
     end
   end
 
