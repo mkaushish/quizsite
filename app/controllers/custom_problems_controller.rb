@@ -1,6 +1,7 @@
 class CustomProblemsController < ApplicationController
   before_filter :authenticate
   before_filter :authenticate_admin
+  
   def new
     @chapters = ProblemSet.master_sets_with_ptypes
     @created_problems = current_user.custom_problems.order("created_at DESC")

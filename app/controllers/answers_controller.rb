@@ -6,59 +6,64 @@ require 'c7'
 require 'physics'
 
 class AnswersController < ApplicationController
-  # GET /answers
-  # GET /answers.json
-  def index
-    @answers = current_user.answers
+    
+    before_filter :validate_instance, :only => [:show, :static_show]
+    before_filter :validate_answer, :only => [:show, :sample_prob_ans, :static_show]
 
-    respond_to do |format|
-      format.html # index.html.erb
-      format.json { render json: @answers }
+    # GET /answers
+    # GET /answers.json
+    def index
+        @answers = current_user.answers
+        respond_to do |format|
+            format.html # index.html.erb
+            format.json { render json: @answers }
+        end
     end
-  end
 
-  # post /answers/1, js
-  def show
-    @instance = ProblemSetInstance.find(params[:instance])
-    @answer = Answer.includes(:problem).find(params[:id])
-    @stat = @instance.stat(@answer.problem_type)
-    @problem = @answer.problem.problem
-    @solution = @problem.prefix_solve
-    puts "^"*60
-    puts @solution.inspect
-    @response = @answer.response_hash
-  end
-
-  def sample_prob_ans
-    @answer = Answer.includes(:problem).find(params[:id])
-    @problem = @answer.problem.problem
-    @solution = @problem.prefix_solve
-    puts "^"*60
-    puts @solution.inspect
-    @response = @answer.response_hash
-  end
-
-
-  def static_show
-    @instance = ProblemSetInstance.find(params[:instance])
-    @answer = Answer.includes(:problem).find(params[:id])
-    @stat = @instance.stat(@answer.problem_type)
-    @problem = @answer.problem.problem
-    @solution = @problem.prefix_solve
-    puts "^"*60
-    puts @solution.inspect
-    @response = @answer.response_hash
-    render 'static_show'
-  end
-
-
-  def explain
-    @bigproblem = Problem.find(params["problem_id"])
-    if @bigproblem.is_a? QuestionWithExplanation
-      @subproblems = @bigproblem.explain
+    # post /answers/1, js
+    def show
+        @stat = @instance.stat(@answer.problem_type)
+        @problem = @answer.problem.problem
+        @solution = @problem.prefix_solve
+        puts "^"*60
+        puts @solution.inspect
+        @response = @answer.response_hash
     end
-  end
 
-  # POST /answers
-  # POST /answers.json
+    def sample_prob_ans
+        @problem = @answer.problem.problem
+        @solution = @problem.prefix_solve
+        puts "^"*60
+        puts @solution.inspect
+        @response = @answer.response_hash
+    end
+
+
+    def static_show
+        @stat = @instance.stat(@answer.problem_type)
+        @problem = @answer.problem.problem
+        @solution = @problem.prefix_solve
+        puts "^"*60
+        puts @solution.inspect
+        @response = @answer.response_hash
+        render 'static_show'
+    end
+
+
+    def explain
+        @bigproblem = Problem.find(params["problem_id"])
+        if @bigproblem.is_a? QuestionWithExplanation
+            @subproblems = @bigproblem.explain
+        end
+    end
+
+    private
+
+    def validate_instance
+        @instance = ProblemSetInstance.find(params[:instance])
+    end
+
+    def validate_answer
+        @answer = Answer.includes(:problem).find(params[:id])
+    end
 end
