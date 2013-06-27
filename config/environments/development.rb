@@ -49,8 +49,8 @@ Quizsite::Application.configure do
     :address              => "smtp.gmail.com",
     :port                 => 587,
     :domain               => 'smartergrades.com',
-    :user_name            => 'support@smartergrades.com',
-    :password             => 'brh1cg!Z',
+    :user_name            => 'info@smartergrades.com',
+    :password             => 'nfajfajf',
     :authentication       => 'plain',
     :enable_starttls_auto => true  }
 end

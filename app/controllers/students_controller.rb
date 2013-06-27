@@ -40,6 +40,7 @@ class StudentsController < ApplicationController
     end
 
     classroom.assign!(student)
+    UserMailer.welcome_email(student).deliver
     sign_in student
     render :js => "window.location.href = '/'"
   end
