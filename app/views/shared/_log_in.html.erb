@@ -8,18 +8,19 @@
         <div class="modal-body">
             <div class="row-fluid">
                 <div id="log_in_errors">
-                    <% if flash[:error] %>
+                  <!--   <%# if flash[:error] %>
                         <div class="form_error">
-                            <%= flash[:error] %>
+                            <%#= flash[:error] %>
                         </div>
-                    <% end %>
+                    <%# end %> -->
                 </div>
                 <div class="span8">
-                    <%= form_tag signin_path do |f| %>
+                    <%= form_tag signin_path, remote: :true do |f| %>
                         <div class = "field_block">
                             <div class="row-fluid">
+                                <span class="error_block" id="login_email_err"></span>
                                 <div class="span3">
-                                    <h4>Username</h4>
+                                    <%= label_tag "login_email", "Email" %>
                                 </div>    
                                 <div class="span4">    
                                     <%= text_field_tag :login_email, flash[:email], :placeholder=>"Your Email" %>
@@ -28,8 +29,9 @@
                         </div>
                         <div class = "field_block">
                             <div class="row-fluid">
+                                <span class="error_block" id="login_password_err"></span>
                                 <div class="span3">
-                                    <h4>Password</h4>
+                                    <%= label_tag "login_password", "Password" %>
                                 </div>    
                                 <div class="span4">    
                                     <%= password_field_tag "login_password", flash[:password], :placeholder => "Your Password" %>    
