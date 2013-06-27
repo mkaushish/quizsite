@@ -36,6 +36,7 @@ class UsersController < ApplicationController
       redirect_to root_path
     else  
       student = Student.create_with_omniauth(@auth)
+      UserMailer.welcome_email(student).deliver
       sign_in student
       redirect_to studenthome_path
     end
