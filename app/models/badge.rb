@@ -12,6 +12,7 @@ class Badge < ActiveRecord::Base
         true_count = @result.select {|v| v =="true"}.count
         if (result_length- true_count) == 0
         	@has_BadgeAPSD = student.badges.find_by_badge_key("BadgeAPSD") 
+			student.news_feeds.create(:content => "Congrats! You have won a new Badge: All problem sets done ", :feed_type => "badge", :user_id => student.id) if @has_BadgeAPSD.nil?
         	@has_BadgeAPSD ||= student.badges.create(:name => "All problem sets done", :badge_key => "BadgeAPSD")
 		end
     end
@@ -23,6 +24,7 @@ class Badge < ActiveRecord::Base
             if pset.problem_stats.count - pset.problem_stats.blue.count == 0
             	pset_name = pset.problem_set.name
             	@has_BadgePSB = student.badges.find_by_badge_key("BadgePSB")
+            	student.news_feeds.create(:content => "Congrats! You have won a new Badge: #{pset_name} Blue !!", :feed_type => "badge", :user_id => student.id) if @has_BadgePSB.nil?
             	@has_BadgePSB ||=  student.badges.create(:name => "#{pset_name} Blue !!", :badge_key => "BadgePSB")	
         	end
         end
@@ -37,10 +39,9 @@ class Badge < ActiveRecord::Base
 			result = @b.length - @a
 			if result == 0
 				@has_BadgeFNQCIARFTO = student.badges.find_by_badge_key("BadgeFNQCIARFTO")
-				@has_BadgeFNQCIARFTO ||= student.badges.create(:name => "N questions correct in a row for the first time only",
+				student.news_feeds.create(:content => "Congrats! You have won a new Badge: N questions correct in a row for the first time only ", :feed_type => "badge", :user_id => student.id) if @has_BadgeFNQCIARFTO.nil?
+				@has_BadgeFNQCIARFTO = student.badges.create(:name => "N questions correct in a row for the first time only",
 																:badge_key => "BadgeFNQCIARFTO") if @has_BadgeFNQCIARFTO.nil?
-				student.news_feeds.create(:content => "Congrats! You have won a new Badge", :feed_type => "badge", :user_id => student.id)
-
 			end
 		end
 	end
@@ -51,7 +52,8 @@ class Badge < ActiveRecord::Base
 		unless @result.blank?
 			if @result.select{|v| v == Date.today}.count > 0 == true
 				@has_BadgeCAPSWAD = student.badges.find_by_badge_key("BadgeCAPSWAD")
-				@has_BadgeCAPSWAD ||= student.badges.create(:name => "Completing a problem set within a day",
+				student.news_feeds.create(:content => "Congrats! You have won a new Badge: Completing a problem set within a day", :feed_type => "badge", :user_id => student.id) if @has_BadgeCAPSWAD.nil?
+				@has_BadgeCAPSWAD = student.badges.create(:name => "Completing a problem set within a day",
 																:badge_key => "BadgeCAPSWAD") if @has_BadgeCAPSWAD.nil?
 			end
 		end	
@@ -63,7 +65,8 @@ class Badge < ActiveRecord::Base
 		unless @result.blank?
 			if @result == true
 				@has_BadgeTRQC = student.badges.find_by_badge_key("BadgeTRQC")
-				@has_BadgeTRQC ||= student.badges.create(:name => "First 10 red questions correct",
+				student.news_feeds.create(:content => "Congrats! You have won a new Badge: First 10 red questions correct ", :feed_type => "badge", :user_id => student.id) if @has_BadgeTRQC.nil?
+				@has_BadgeTRQC = student.badges.create(:name => "First 10 red questions correct",
 																:badge_key => "BadgeTRQC") if @has_BadgeTRQC.nil?
 			end
 		end

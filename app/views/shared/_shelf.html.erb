@@ -10,18 +10,23 @@
 
     <li class='shelf_li'> 
       <div class="btn-group"> 
-   		<button class="btn btn-success dropdown-toggle" data-toggle="dropdown">
+   		   <button class="btn btn-success dropdown-toggle" data-toggle="dropdown" >
     	    <%= "Notifications"  %>
           <span class="caret"></span>
-      	</button>
-      	<div id='notify'><%= render  :partial => 'students/notifications' %></div>    	
-     </div>
- 	</li>
+      	 </button>
+      	<div id='news'><%= render  :partial => 'students/news_feeds' %></div>    	
+      </div>
+  	</li>
 
-<% current_user.badges.each do |badge| %>
-    <li class="shelf_li"><p class = "<%= badge.badge_key %>"><%= badge.name %></p></li>   
-<% end %>
+
+ 
+  <%= render :partial => 'students/badge'%>  
+ 
+
   </ul>
+
+ 
+
 </div>
 </div>
 <script>
