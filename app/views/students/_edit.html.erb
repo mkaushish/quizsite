@@ -40,7 +40,7 @@
   </div>
   
   <div >
-    <%= hidden_field_tag :image_file_name %>
+    <%= f.hidden_field :image %>
   </div>
   
   <div class="control-group">
@@ -63,8 +63,8 @@
 <script>
 function do_stuff(value) {
   var image = value;
-  alert(image);
-  $("#image_file_name").val(image);
+  $(this).css("border","1px solid black");
+  $("#student_image").val(image);
 }
 
 </script>
