@@ -26,7 +26,18 @@ class Badge < ActiveRecord::Base
             	@has_BadgePSB = student.badges.find_by_badge_key("BadgePSB")
             	student.news_feeds.create(:content => "Congrats! You have won a new Badge: #{pset_name} Blue !!", :feed_type => "badge", :user_id => student.id) if @has_BadgePSB.nil?
             	@has_BadgePSB ||=  student.badges.create(:name => "#{pset_name} Blue !!", :badge_key => "BadgePSB")	
-        	end
+        	
+        	elsif 10*(pset.problem_stats.count - pset.problem_stats.blue.count) < pset.problem_stats.count
+        		pset_name = pset.problem_set.name
+        		@has_Warning = student.news_feeds.find_by_feed_type("#{pset_name}_warning")
+        		student.news_feeds.create(:content => "Need #{pset.problem_stats.count - pset.problem_stats.blue.count} problem types to get #{pset_name} Blue!!", :feed_type => "#{pset_name}_warning", :user_id => student.id) if @has_Warning.nil?
+
+        	
+        	elsif pset.problem_stats.count - pset.problem_stats.blue.count == 1
+        		pset_name = pset.problem_set.name
+        		@has_Warning = student.news_feeds.find_by_feed_type("#{pset_name}_warning")
+        		student.news_feeds.create(:content => "Need 1 problem type to get #{pset_name} Blue!!", :feed_type => "#{pset_name}_warning", :user_id => student.id) if @has_Warning.nil?
+        	end	
         end
     end
 
