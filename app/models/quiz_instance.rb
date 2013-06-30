@@ -4,7 +4,6 @@ class QuizInstance < ActiveRecord::Base
 
   has_many :quiz_stats, :dependent => :destroy
   has_many :quiz_problems, :through => :quiz
-
   has_many :answers, :as => :session
 
   validates :user, :presence => true

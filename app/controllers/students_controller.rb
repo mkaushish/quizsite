@@ -1,4 +1,5 @@
 class StudentsController < ApplicationController
+    
     before_filter :authenticate, :except => [:show, :new, :create]
 
     def home

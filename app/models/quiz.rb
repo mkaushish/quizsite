@@ -13,13 +13,12 @@
 class Quiz < ActiveRecord::Base
   has_many :quiz_instances
   has_many :users, :through => :quiz_instances
-
   has_many :quiz_problems, inverse_of: :quiz, dependent: :destroy
   has_many :classroom_quizzes
+  has_many   :problem_types, :through => :problem_set
 
   belongs_to :classroom
   belongs_to :problem_set
-  has_many   :problem_types, :through => :problem_set
 
   accepts_nested_attributes_for :quiz_problems
 
