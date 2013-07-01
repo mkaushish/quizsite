@@ -1,17 +1,16 @@
 class StudentsController < ApplicationController
     
     before_filter :authenticate, :except => [:show, :new, :create]
+    before_filter :validate_student, :only => [:update, :show]
+    before_filter :validate_student_via_current_user, :only => [:home, :edit]
 
     def home
-        @student = current_user
-        @pset_instances = @student.problem_set_instances
-                              .includes(:problem_stats, :problem_set, :problem_set_problems)
+        @pset_instances = @student.problem_set_instances.includes(:problem_stats, :problem_set, :problem_set_problems)
         @history = current_user.answers.order("created_at DESC").limit(11)
-        @is_all_blue = @student.badges.where(:name=> "BadgeAPSD").blank?
         Student.create_badges(@student)
         @badges = @student.badges
     end
-
+    
     def new
         @student = Student.new
     end
@@ -42,14 +41,12 @@ class StudentsController < ApplicationController
     end
 
     def edit
-        @student = current_user
         respond_to do |format|
             format.js
         end
     end
 
     def update
-        @student = Student.find_by_id(params[:id])
         @old_pass = params['student']['old_password']
         @new_pass = params['student']['new_password']
         @confirm_pass = params['student']['confirm_password']
@@ -68,6 +65,15 @@ class StudentsController < ApplicationController
     end
 
     def show
-        @student = Student.find_by_id(params[:id])
+    end
+
+    private
+
+    def validate_student
+       @student = Student.find_by_id(params[:id])
+    end
+
+    def validate_student_via_current_user
+        @student = current_user
     end
 end
