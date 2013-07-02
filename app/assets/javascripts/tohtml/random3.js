@@ -49,6 +49,7 @@ function createshape1(a,par1,par2,par3,par4,par5,unit)
  	}
  	else if (a=='arc_1') 
  	{
+ 		// alert("arc_1");
  		var centrex = par1;
 		var centrey =par2;
 		var radius = par3*5;
@@ -73,6 +74,36 @@ function createshape1(a,par1,par2,par3,par4,par5,unit)
 		ctx.beginPath();
 		ctx.arc(centrex,centrey,radius,startangle,finishangle,false);
 		ctx.stroke();
+		
+ 	}
+ 	else if (a=='arc_3') 
+ 	{
+ 		var centrex = par1;
+		var centrey =par2;
+		var radius = par3*5;
+		var length = par5+radius;
+		var startangle = par4;
+		var finishangle = unit;
+		var x1= centrex+length*Math.cos(startangle);
+		var y1= centrey+length*Math.sin(startangle);
+		var x2= centrex+length*Math.cos(finishangle);
+		var y2= centrey+length*Math.sin(finishangle);
+		// alert("finishangle is "+finishangle);
+		// ctx.rotate(40*Math.PI/180);
+		ctx.beginPath();
+		ctx.arc(centrex,centrey,radius,startangle,finishangle,true);
+		ctx.stroke();
+		ctx.beginPath();
+		ctx.moveTo(centrex,centrey);
+		ctx.lineTo(x1,y1);
+		ctx.stroke();
+		ctx.strokeStyle = "black";
+		ctx.stroke();
+		ctx.beginPath();
+		ctx.moveTo(centrex,centrey);
+		ctx.lineTo(x2,y2);
+		ctx.stroke();
+
 		
  	}
  	else if(a=='rectangle')
@@ -477,6 +508,80 @@ function createshape2(arr,unit,par1,par2,par3)
 	ctx.stroke();	
 	}
 
-		
+}
 
+function createshape3(a,par1,par2,par3,par4,par5,unit,par6,par7,par8)
+{
+	if (a=='arc_3') 
+ 	{
+ 		var centrex = par1;
+		var centrey =par2;
+		var radius = par3*5;
+		var length = par5+radius;
+		var startangle = par4;
+		var finishangle = unit;
+		var x1= centrex+length*Math.cos(startangle);
+		var y1= centrey+length*Math.sin(startangle);
+		var x2= centrex+length*Math.cos(finishangle);
+		var y2= centrey+length*Math.sin(finishangle);
+		var text1 = par6;
+		var text2 = par7;
+		var text3 = par8;
+		// alert("finishangle is "+finishangle);
+		// ctx.rotate(40*Math.PI/180);
+		ctx.beginPath();
+		ctx.arc(centrex,centrey,radius,startangle,finishangle,true);
+		ctx.stroke();
+		ctx.beginPath();
+		ctx.moveTo(centrex,centrey);
+		ctx.lineTo(x1,y1);
+		ctx.stroke();
+		ctx.strokeStyle = "black";
+		ctx.stroke();
+		ctx.beginPath();
+		ctx.moveTo(centrex,centrey);
+		ctx.lineTo(x2,y2);
+		ctx.stroke();
+		ctx.fillStyle = "blue";
+ 		ctx.font = " 18px Tahoma";
+  		ctx.fillText(""+text1+"", centrex, centrey+12);
+  		ctx.fillText(""+text2+"", x1, y1-5);
+  		ctx.fillText(""+text3+"", x2+5, y2+5);
+ 	}
+ 	else if (a=='arc_4')
+ 	{
+ 		var centrex = par1;
+		var centrey =par2;
+		var radius = par3*5;
+		var length = par5+radius;
+		var startangle = par4;
+		var finishangle = unit;
+		var x1= centrex+length*Math.cos(startangle);
+		var y1= centrey+length*Math.sin(startangle);
+		var x2= centrex+length*Math.cos(finishangle);
+		var y2= centrey+length*Math.sin(finishangle);
+		var text1 = par6;
+		var text2 = par7;
+		var text3 = par8;
+		// alert("finishangle is "+finishangle);
+		// ctx.rotate(40*Math.PI/180);
+		ctx.beginPath();
+		ctx.arc(centrex,centrey,radius,startangle,finishangle,false);
+		ctx.stroke();
+		ctx.beginPath();
+		ctx.moveTo(centrex,centrey);
+		ctx.lineTo(x1,y1);
+		ctx.stroke();
+		ctx.strokeStyle = "black";
+		ctx.stroke();
+		ctx.beginPath();
+		ctx.moveTo(centrex,centrey);
+		ctx.lineTo(x2,y2);
+		ctx.stroke();
+		ctx.fillStyle = "blue";
+ 		ctx.font = " 18px Tahoma";
+  		ctx.fillText(""+text1+"", centrex, centrey+12);
+  		ctx.fillText(""+text2+"", x1, y1-5);
+  		ctx.fillText(""+text3+"", x2+5, y2+5);
+ 	}
 }

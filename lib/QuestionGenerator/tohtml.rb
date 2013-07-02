@@ -670,15 +670,19 @@ module ToHTML
   end
 
   class DrawShape4 < MultiHTMLObj
-    attr_accessor :shape, :length1, :length2, :length3, :height, :unit, :canvaswidth, :canvasheight, :numtimes, :check
-    def initialize(shape, length1, length2, length3, height, unit, canvaswidth, canvasheight, numtimes, check)
+    attr_accessor :shape, :length1, :length2, :length3, :length4, :height, :unit, :var1, :var2, :var3, :canvaswidth, :canvasheight, :numtimes, :check
+    def initialize(shape, length1, length2, length3, length4, height, unit, var1, var2, var3, canvaswidth, canvasheight, numtimes, check)
       # @name=ToHTML::add_prefix name
       @length1 = length1
       @length2 = length2
       @length3 = length3
+      @length4 = length4
       @height = height
       @shape = shape
       @unit = unit
+      @var1 = var1
+      @var2 = var2
+      @var3 = var3
       @canvaswidth = canvaswidth
       @canvasheight = canvasheight
       @numtimes = numtimes

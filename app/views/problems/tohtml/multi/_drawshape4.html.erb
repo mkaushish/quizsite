@@ -3,8 +3,12 @@
 	<%length1= drawshape4.length1.to_i %>
     <%length2= drawshape4.length2.to_i %>
     <%length3 = drawshape4.length3.to_i%>
+    <%length4 = drawshape4.length4.to_i%> 
     <%height =  drawshape4.height%>
     <%unit = drawshape4.unit%>
+    <%var1 = drawshape4.var1%>
+    <%var2 = drawshape4.var2%>
+    <%var3 = drawshape4.var3%>
     <%canvaswidth = drawshape4.canvaswidth.to_i%>
     <%canvasheight= drawshape4.canvasheight.to_i%>
     <%numtimes = drawshape4.numtimes.to_i%>
@@ -28,6 +32,6 @@ var regularpoly_x = new Array();
 var regularpoly_y = new Array();
 var canvas = $("#myCanvas_<%=numtimes%>");
 var ctx = canvas[0].getContext("2d");
-createshape1('<%=shape%>',<%= length1 %>,<%= length2%>,<%= length3%>,'<%= height%>',<%= length3%>'<%= unit%>');
+createshape3('<%=shape%>',<%= length1 %>,<%= length2%>,<%= length3%>,'<%= height%>',<%= length4%>,'<%= unit%>','<%= var1%>','<%= var2%>','<%= var3%>');
 </script>
 </div>

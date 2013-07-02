@@ -96,7 +96,7 @@ module PerimeterandArea
       [
         # TextLabel.new("Translate the given table into a bar graph taking the scale as 5 students per unit of length"), 
          # DrawShape2.new('arc_2',100,100,15,0,@angle,300,300,1,1),
-        DrawShape4.new('arc_1',100,100,15,0,1,1.5*@PI,300,300,1,1)
+        DrawShape4.new('arc_4',50,200,7,100,0.25*@PI,0.5*@PI,'a','b','c',300,300,1,1)
 
          # DrawShape3.new(@original2,'cm',50,50,0)
        ]
