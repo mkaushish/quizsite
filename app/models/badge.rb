@@ -39,7 +39,7 @@ class Badge < ActiveRecord::Base
     end
 
     # Badge for getting n problem sets blue #
-    def self.BadgeNPSB(student,n)
+    def self.BadgeNPSB(student, n)
     	@result = Array.new
         student.problem_set_instances.order("id").each do |pset|
             @result = @result.push (pset.num_problems - pset.problem_stats.blue.count) == 0
@@ -48,12 +48,12 @@ class Badge < ActiveRecord::Base
         true_count = @result.select {|v| v =="true"}.count
         if true_count == n
         	@has_BadgeNPSD = student.badges.find_by_badge_key("Badge#{n}PSD") 
-        	@has_BadgeNPSD = student.badges.create(:name => "#{n} problem sets done", :badge_key => "Badge#{n}PSD")
+        	@has_BadgeNPSD = student.badges.create(:name => "#{n} problem sets done", :badge_key => "Badge#{n}PSD") if @has_BadgeNPSD.nil?
 		end
     end
 
 	# Badge for n questions correct in a row for the first time only #
-	def self.BadgeNQCIARFTO(student,n)
+	def self.BadgeNQCIARFTO(student, n)
 		@b = student.answers.order("created_at DESC").limit(n).map(&:correct)
 		
 		unless @b.blank?
@@ -88,6 +88,26 @@ class Badge < ActiveRecord::Base
 				@has_BadgeTRQC ||= student.badges.create(:name => "First 10 red questions correct",
 																:badge_key => "BadgeTRQC") if @has_BadgeTRQC.nil?
 			end
+		end
+	end
+
+	def self.BadgeNQCIARFNT(student, n, times)
+		a = 0
+		b = 0
+		student.answers.order("created_at DESC").map(&:correct).each do |correct|
+			if correct == true
+				a += 1
+			else
+				a = 0
+			end
+			if a == n
+				b += 1
+				a = 0
+			end
+          	if b == times
+	        	@has_BadgeNQCIARFNT = student.badges.find_by_badge_key("Badge#{n}QCIARF#{times}T") 
+    	    	@has_BadgeNQCIARFNT = student.badges.create(:name => "#{n} questions correction in a row #{times} times", :badge_key => "Badge#{n}QCIARF#{times}T") if @has_BadgeNQCIARFNT.nil?
+          	end
 		end
 	end
 end

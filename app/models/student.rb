@@ -71,6 +71,12 @@ class Student < User
         Badge.BadgeTRQC(student)
         Badge.BadgeNPSB(student,5)
         Badge.BadgeNPSB(student,10)
+        Badge.BadgeNQCIARFNT(student, 5, 5)
+        Badge.BadgeNQCIARFNT(student, 5, 10)
+        Badge.BadgeNQCIARFNT(student, 5, 15)
+        Badge.BadgeNQCIARFNT(student, 10, 5)
+        Badge.BadgeNQCIARFNT(student, 10, 10)
+        Badge.BadgeNQCIARFNT(student, 10, 15)
     end
 
     private
