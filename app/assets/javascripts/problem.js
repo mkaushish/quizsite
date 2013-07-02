@@ -4,6 +4,8 @@ function hideProblem() {
   $('#problem_overlay').hide();
   // $('#dimmer').hide();
   $('#dimmer').remove();
+    $("body").css("overflow", "scroll");
+
   return false;
 }
 
@@ -24,7 +26,7 @@ function initProblemOverlay() {
    $('body').prepend("<div id=problem_overlay class=problem_overlay></div>");
    $p = $('#problem_overlay');
   }
-
+  $("body").css("overflow", "hidden");
   var dimmer = $('#dimmer');
   if(dimmer.length == 0) {
     $('body').prepend("<div id=dimmer></div>");

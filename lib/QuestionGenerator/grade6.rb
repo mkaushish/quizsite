@@ -24,6 +24,8 @@ require_relative 'grade6/Chaptersqroot'
 require_relative 'grade6/dI_Proportions'
 require_relative 'grade6/anurag'
 require_relative 'grade6/algebra'
+require_relative 'grade6/perimeterandarea'
+require_relative 'grade6/rationalnumbers'
 require_relative 'grade6/algebra_6'
 require_relative 'grade6/comparingQuantities'
 require_relative 'grade6/chapter5'
@@ -52,6 +54,10 @@ CHAPTERS = [
   Algebra_6,
   ComparingQuantities,
   Chapter5
+  RationalNumbers,
+  PerimeterandArea,
+  ComparingQuantities
+
 
 ]
 
