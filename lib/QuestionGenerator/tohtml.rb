@@ -630,9 +630,9 @@ module ToHTML
     def correct?(solution, response)
       if @shape=='circle'
         @sliceno = 360/len
-      elsif @shape = 'rectangle1'
+      elsif @shape == 'rectangle1'
         @sliceno = length/len
-      elsif @shape = 'rectangle2'
+      elsif @shape == 'rectangle2'
         @sliceno = breadth/bre
       else
         @a = length/len
@@ -645,7 +645,66 @@ module ToHTML
       end
       return true
     end
-    
+  end
+
+  class DrawShape2 < MultiHTMLObj
+    attr_accessor :shape, :length1, :length2, :length3, :height,:length4, :unit, :canvaswidth, :canvasheight, :numtimes, :check
+    def initialize(shape, length1, length2, length3, height, length4, unit, canvaswidth, canvasheight, numtimes, check)
+      # @name=ToHTML::add_prefix name
+      @length1 = length1
+      @length2 = length2
+      @length3 = length3
+      @length4 = length4
+      @height = height
+      @shape = shape
+      @unit = unit
+      @canvaswidth = canvaswidth
+      @canvasheight = canvasheight
+      @numtimes = numtimes
+      @check=check
+    end
+
+    def correct?(solution, response)
+      true
+    end
+  end
+
+  class DrawShape4 < MultiHTMLObj
+    attr_accessor :shape, :length1, :length2, :length3, :height, :unit, :canvaswidth, :canvasheight, :numtimes, :check
+    def initialize(shape, length1, length2, length3, height, unit, canvaswidth, canvasheight, numtimes, check)
+      # @name=ToHTML::add_prefix name
+      @length1 = length1
+      @length2 = length2
+      @length3 = length3
+      @height = height
+      @shape = shape
+      @unit = unit
+      @canvaswidth = canvaswidth
+      @canvasheight = canvasheight
+      @numtimes = numtimes
+      @check=check
+    end
+
+    def correct?(solution, response)
+      true
+    end
+  end
+
+
+  class DrawShape3 < MultiHTMLObj
+    attr_accessor :table, :unit, :length1, :length2, :choice
+    def initialize(table, unit, length1, length2, choice)
+      # @name=ToHTML::add_prefix name
+      @length1 = length1
+      @length2 = length2
+      @table = table
+      @unit = unit
+      @choice = choice
+    end
+
+    def correct?(solution, response)
+      true
+    end
   end
   
   # As you can see, this is just a textfield, with an overwritten fromhash method
