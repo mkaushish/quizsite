@@ -44,13 +44,13 @@ Quizsite::Application.configure do
   config.action_mailer.raise_delivery_errors = true
  
   config.action_mailer.default_url_options = { :host => 'localhost:3000' }
-  # ActionMailer::Base.smtp_settings = {
-  #   :user_name => "mkaushish",
-  #   :password => "smgrades13",
-  #   :domain => "smartergrades.com",
-  #   :address => "smtp.sendgrid.net",
-  #   :port => 587,
-  #   :authentication => :plain,
-  #   :enable_starttls_auto => true
-  # }
+  ActionMailer::Base.smtp_settings = {
+    :user_name => "mkaushish",
+    :password => "smgrades13",
+    :domain => "smartergrades.com",
+    :address => "smtp.sendgrid.net",
+    :port => 587,
+    :authentication => :plain,
+    :enable_starttls_auto => true
+  }
 end

@@ -30,15 +30,6 @@ class User < ActiveRecord::Base
                        :length => { :within => 6..40 },
                        :if => lambda{|a| a.new_record?}
 
-  validates_attachment_content_type :image,
-                                    :content_type => ['image/png', 'image/jpeg', 'image/jpg', 'image/gif'],
-                                    :message => "Not supported file type",
-                                    :if => lambda{|a| !a.new_record?}
-
-  has_attached_file :image, 
-                    :styles => { :medium => "300x300>", :thumb => "70x70>", :small => "40x40>" }, 
-                    :default_url => "/assets/default_70x70.png"
-
   before_save  :encrypt_password
 
   before_create lambda { self.email.downcase! }

@@ -1,7 +1,7 @@
 <div id='bigshelf'>
 <div class='shelf' id='shelf_0'>
   <ul>
-    <li><%= link_to (image_tag @student.image.url(:thumb)), edit_student_path, :remote => true  %><%= link_to 'Account',  edit_student_path, :remote => true, :class => 'plate' %></li>
+    <li><%= link_to @student.name, edit_student_path, :remote => true  %><%= link_to 'Account',  edit_student_path, :remote => true, :class => 'plate' %></li>
     <li><div id='points'><%= number_with_delimiter(@student.points) %></div><a class='plate' style='margin-top:7px'>Points</a></li>
 
 <!-- Remove the styling when li & ul are given id's -->
