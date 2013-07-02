@@ -26,6 +26,7 @@ require_relative 'grade6/manav'
 require_relative 'grade6/anurag'
 require_relative 'grade6/algebra'
 require_relative 'grade6/perimeterandarea'
+require_relative 'grade6/perimeterandarea_6'
 require_relative 'grade6/rationalnumbers'
 require_relative 'grade6/algebra_6'
 require_relative 'grade6/comparingQuantities'
@@ -57,6 +58,7 @@ CHAPTERS = [
   Algebra_6,
   RationalNumbers,
   PerimeterandArea,
+  PerimeterandArea_6,
   ComparingQuantities
 
 ]

@@ -18,51 +18,7 @@ module PerimeterandArea
   UNITS2 = ["millimeter", "centimeter", "decimeter","meter","decameter","hectometer","kilometere"]
   PLACE1= ["garden","park","room"]
   PLACE2= ["path","path","verandah"]
-  class Tr_11 < QuestionWithExplanation
-    def self.type
-      "Tr_11"
-    end
-    def initialize
-      @var = VARIABLES.sample
-      @choose = rand(5)
-      @option1value = OPTIONS1[@choose]
-      @option2value = OPTIONS2[@choose]
-      @option3value = OPTIONS3[@choose]
-      @a = rand(10)+2
-    end
-
-    def solve
-     { 
-      "ans1" => "#{@a}#{@var}"
-     }
-    end
-    
-    def text
-      if @choose ===3
-        [TextLabel.new("A bird flies #{@a} #{@option1value}. Can you express the total distance covered by the bird in terms of flying time.(Use #{@var} for flying time in #{@option3value})"), 
-        TextField.new("ans1")
-        
-        ]
-      else
-        [TextLabel.new("There are #{@a} #{@option1value}. Write the expression for the total number of #{@option2value}.(Use #{@var} for the number of #{@option3value})"), 
-        TextField.new("ans1")
-        
-        ]
-      end
-    end
-
-    def explain
-     if @choose ===3
-        [
-          SubLabel.new("The bird flies #{@a} #{@option1value}. Therefore the total distance covered by the bird would be the product of flying time #{@var} and speed #{@a}, which turns out to be #{@a}#{@var}.")
-        ]
-      else
-        [
-          SubLabel.new("There are #{@a} #{@option1value}. Therefore for the total number of #{@option2value} would be the product of number of #{@option1value}(#{@a}) times the number of #{@option3value}(#{@var}), which turns out to be #{@a}#{@var}."), 
-        ]
-      end       
-    end
-  end
+  
 
   class Createkb4 < QuestionBase
     def self.type
@@ -96,7 +52,7 @@ module PerimeterandArea
       [
         # TextLabel.new("Translate the given table into a bar graph taking the scale as 5 students per unit of length"), 
          # DrawShape2.new('arc_2',100,100,15,0,@angle,300,300,1,1),
-        DrawShape4.new('arc_4',50,200,7,100,0.25*@PI,0.5*@PI,'a','b','c',300,300,1,1)
+        DrawShape4.new('arc_4',50,20,20,500,0.25*@PI,0.5*@PI,'a','b','c',700,500,1,1)
 
          # DrawShape3.new(@original2,'cm',50,50,0)
        ]
@@ -522,7 +478,7 @@ module PerimeterandArea
       @b = rand(15)+1
       @area = @a*@b
       @perimeter = 2*(@a+@b)
-      @choose = rand(2)
+      @choose = rand(3)
       @d = rand(2)
       @unit = UNITS[@d]
     end
@@ -532,11 +488,15 @@ module PerimeterandArea
         "ans1"=>@b,
         "ans2"=>@perimeter
        }
-       else
+       elsif @choose==1
        {
         "ans1"=>@b,
         "ans2"=>@area
        }
+       else
+        {
+          "ans1"=>@a
+        }
        end 
     end
     def text
@@ -549,7 +509,7 @@ module PerimeterandArea
           TextLabel.new("What is the perimeter of the rectangle?"),
           InlineBlock.new(TextField.new("ans2"),TextLabel.new("#{@unit}"))
         ]
-      else
+      elsif @choose==1
        [
           TextLabel.new("The perimeter of a rectangular sheet is #{@perimeter}#{@unit}"),
           DrawShape2.new('rectangle',@a,@b,5,0,5,@unit,300,300,1,1),
@@ -558,6 +518,13 @@ module PerimeterandArea
           TextLabel.new("What is the area of the rectangle?"),
           InlineBlock.new(TextField.new("ans2"),Exponent.new(TextLabel.new("#{@unit}"),TextLabel.new("2")))
         ]
+      else
+        [
+          TextLabel.new("The perimeter of a square  is #{4*@a}#{@unit}"),
+          DrawShape2.new('rectangle',@a,@a,5,0,5,@unit,300,300,1,1),
+          TextLabel.new("What is its sidelength?"),
+          InlineBlock.new(TextField.new("ans1"),TextLabel.new("#{@unit}")),
+        ]
       end 
     end
     def explain
@@ -565,9 +532,13 @@ module PerimeterandArea
         [
           Subproblem.new([TextLabel.new("The area of a rectangle is length*breadth. Now the area is #{@area}. Length is #{@a}, therefore breadth is area/length = #{@b}.")])
         ]
-      else 
+      elsif @choose==1 
         [
           Subproblem.new([TextLabel.new("The perimeter of a rectangle is 2*(length+breadth). Now the perimeter is #{@perimeter}. Length is #{@a}, therefore breadth is (perimeter-2*length)/2 = #{@b}.")])
+        ]
+      else
+        [
+          SubLabel.new("Perimeter of a square is 4*sidelength. Since perimeter is #{4*@a}, therefore sidelength is #{4*@a}/4 =#{@a}")
         ]
       end
     end
@@ -811,6 +782,66 @@ module PerimeterandArea
       end
     end
   end
+
+  class Per_parallelogram<QuestionWithExplanation
+    def self.type
+      "Per_parallelogram"
+    end
+    def initialize
+      @a = rand(5)+1
+      @b = rand(5)+1
+      @c = rand(10)+10
+      @choose=2
+      @d = rand(2)
+      @unit = UNITS[@d]
+      @height=rand(20)+5
+      @base=rand(20)+5
+      @figure=[]
+      @figure[0]=@a
+      @figure[1]=0
+      @figure[2]=@base
+
+      @figure[3]=@a+@base
+      @figure[4]=0
+      @figure[5]=@height
+
+      @figure[6]=@base
+      @figure[7]=@height
+      @figure[8]=@base
+
+      @figure[9]=0
+      @figure[10]=@height
+      @figure[11]=@height
+
+      # @figure[12]=@a
+      # @figure[13]=0
+      # @figure[14]=@height
+
+      # @figure[15]=@a
+      # @figure[16]=@height
+      # @figure[17]=0
+      
+    end
+    def solve
+      {
+        "ans"=>2*(@base+@height)
+        # "ans"=>@height
+      }
+    end
+    def text
+      [
+        TextLabel.new("What is the perimeter of the folowing parallelogram ?"),
+        DrawShape3.new(@figure,@unit,50,50,1),
+        InlineBlock.new(TextField.new("ans"),TextLabel.new("#{@unit}"))
+      ]
+    end
+    def explain
+      [
+        SubLabel.new("The perimeter of a parallelogram is the sum of the sides.")
+      ]
+    end
+  end
+
 
   class Area_parallelogram<QuestionWithExplanation
     def self.type
@@ -1464,7 +1495,7 @@ module PerimeterandArea
 
 PROBLEMS = [
     
-   # PerimeterandArea::Tr_11,
+   
    PerimeterandArea::Createkb4,
    PerimeterandArea::Per_circle,
    PerimeterandArea::Per_rectangle,
@@ -1489,7 +1520,8 @@ PROBLEMS = [
    PerimeterandArea::Try11_12,
    PerimeterandArea::Try11_13,
    PerimeterandArea::Try11_14,
-   PerimeterandArea::Try11_15
+   PerimeterandArea::Try11_15,
+   PerimeterandArea::Per_parallelogram
     
     ] # //Anurag is module name and dummy is class name
 end
