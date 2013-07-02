@@ -553,7 +553,7 @@ function createshape3(a,par1,par2,par3,par4,par5,unit,par6,par7,par8)
  		var centrex = par1;
 		var centrey =par2;
 		var radius = par3*5;
-		var length = par5+radius;
+		var length = radius;
 		var startangle = par4;
 		var finishangle = unit;
 		var x1= centrex+length*Math.cos(startangle);
