@@ -12,7 +12,7 @@ include PreG6
 
 module DI_Proportions
   INDEX = "dI_Proportions" 
-  TITLE = "DI_Proportions"
+  TITLE = "Ratio & Proportion 2"
   
 
   class DirectProportionEasy < QuestionWithExplanation

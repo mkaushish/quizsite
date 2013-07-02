@@ -1,0 +1,46 @@
+<%= form_for @problem_set, :as => :post, :url => update_pset_info_path(@problem_set.id), :method => :put, :html => { :class => 'form-horizontal'} do |f| %>
+  <% if @problem_set.errors.any? %>
+    <div class="alert alert-error">
+      <div id="error_explanation">
+        <h5><%= pluralize(@problem_set.errors.count, "error") %> prohibited this comment from being saved:</h5>
+
+        <ul>
+        <% @problem_set.errors.full_messages.each do |msg| %>
+          <li><%= msg %></li>
+        <% end %>
+        </ul>
+      </div>
+    </div>
+  <% end %>
+  <div class="control-group">
+    <%= f.label :name, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :name, :class => 'text_field' %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :description, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_area :description, :class => 'text_area' %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :video_link, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :video_link, :class => 'text_field' %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :image, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :image, :class => 'text_field' %>
+      <p style="font-size:10px;"> Note: Just type image file_name above, not with extension </p>
+    </div>
+
+  </div>
+  
+  <div class="form-actions">
+    <%= f.submit "Submit", :class => 'btn btn-info' %>
+    <%= link_to "Cancel", view_problem_set_path(@problem_set), :class => "btn"  %>
+   </div>
+<% end %>

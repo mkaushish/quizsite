@@ -1,0 +1,29 @@
+
+  <div class="correct">
+    <div id=nline style="position:relative; width:450px; height:200px">
+      <canvas id="nlcanvas" height="100" width="450"> 
+      Your browser does not support the HTML5 Canvas feature. This app uses new HTML5 features and will only work on the latest versions of Firefox, Safari or Chrome (and maybe Internet Explorer 9).         
+      </canvas>   
+      <%=hidden_field_tag("nlcanvas_bigdiv", multihtmlobj.bigdiv)%>
+      <%=hidden_field_tag("nlcanvas_"+multihtmlobj.name, @solution["#{multihtmlobj.name}"])%>
+      <script>
+        setUpNL("nlcanvas","<%=multihtmlobj.name%>", false, false, "movinp");
+        $("#nlcanvas").unbind("mousemove");
+      </script>
+    </div>
+  </div>
+  <% unless multihtmlobj.correct?(@solution, @response) then %>
+  <div class="incorrect">
+    <div id=nline style="position:relative; width:450px; height:200px">
+      <canvas id="nlcanvasin" height="100" width="450"> 
+      Your browser does not support the HTML5 Canvas feature. This app uses new HTML5 features and will only work on the latest versions of Firefox, Safari or Chrome (and maybe Internet Explorer 9).         
+      </canvas>   
+      <%=hidden_field_tag("nlcanvasin_bigdiv", multihtmlobj.bigdiv)%>
+      <%=hidden_field_tag("nlcanvasin_"+multihtmlobj.name, @response["#{multihtmlobj.name}"])%>
+      <script>
+        setUpNL("nlcanvasin","<%=multihtmlobj.name%>", false, false, "movinp");
+        $("#nlcanvasin").unbind("mousemove");
+      </script>
+    </div>
+  </div>
+<%end%>

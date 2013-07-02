@@ -1,5 +1,6 @@
 class TeachersController < ApplicationController
   def home
+    @teacher = current_user
     @classrooms = current_user.classrooms.includes(:students).includes(:problem_sets)
     @quiz_history = []
   end

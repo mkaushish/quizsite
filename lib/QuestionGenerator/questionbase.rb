@@ -69,7 +69,8 @@ class QuestionBase
     postsolution = prefix_solve # memoized version is already preprocessed
     postresponse = preprocess_hash(response)
 
-    text.map { |elt| elt.correct?(postsolution, postresponse) }.inject(:&)
+    text.map { |elt| 
+      elt.correct?(postsolution, postresponse) }.inject(:&)
   end
 
   ##############################################################################################

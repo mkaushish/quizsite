@@ -4,7 +4,7 @@
 class ProblemSet < ActiveRecord::Base
   attr_reader :ptype_params # used in initialization
 
-  attr_accessible :name, :ptype_params
+  attr_accessible :name, :ptype_params, :description, :video_link, :image
   belongs_to :owner, :class_name => 'User', :foreign_key => 'user_id'
   has_many :problem_set_problems
   has_many :problem_types, :through => :problem_set_problems

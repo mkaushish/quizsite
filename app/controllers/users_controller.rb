@@ -26,4 +26,18 @@ class UsersController < ApplicationController
     # on success we get redirected anyway
     render 'password_form'
   end
+
+  def create_user_vdp
+    @auth = request.env["omniauth.auth"]
+    p @auth
+    @user = User.find_by_provider_and_uid(@auth[:provider], @auth[:uid]) 
+    if @user
+      sign_in @user
+      redirect_to root_path
+    else  
+      student = Student.create_with_omniauth(@auth)
+      sign_in student
+      redirect_to studenthome_path
+    end
+  end
 end

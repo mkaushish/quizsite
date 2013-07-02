@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130508113755) do
+ActiveRecord::Schema.define(:version => 20130617081504) do
 
   create_table "answers", :force => true do |t|
     t.boolean  "correct"
@@ -31,6 +31,14 @@ ActiveRecord::Schema.define(:version => 20130508113755) do
 
   add_index "answers", ["user_id", "created_at"], :name => "index_problemanswers_on_user_id_and_created_at"
   add_index "answers", ["user_id"], :name => "index_problemanswers_on_user_id"
+
+  create_table "badges", :force => true do |t|
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+    t.integer  "student_id"
+    t.string   "name"
+    t.string   "badge_key"
+  end
 
   create_table "classroom_assignments", :force => true do |t|
     t.integer "classroom_id"

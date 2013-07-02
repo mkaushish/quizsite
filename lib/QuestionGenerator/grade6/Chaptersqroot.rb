@@ -14,7 +14,7 @@ include Chapter6
 
 module Chaptersqroot
   INDEX = "Chaptersqroot"
-  TITLE = "Square and Square roots"
+  TITLE = "Square and Square Root"
   class Perfectsquare < QuestionBase
   	def self.type
   		"Perfectsquare"
