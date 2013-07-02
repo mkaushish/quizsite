@@ -6,7 +6,7 @@ class Badge < ActiveRecord::Base
 	def self.BadgeAPSD(student)
         @result = Array.new
         student.problem_set_instances.order("id").each do |pset|
-            @result = @result.push (pset.problem_stats.count - pset.problem_stats.blue.count) == 0
+            @result = @result.push (pset.num_problems - pset.problem_stats.blue.count) == 0
         end
         result_length = @result.length
         true_count = @result.select {|v| v =="true"}.count
@@ -18,8 +18,7 @@ class Badge < ActiveRecord::Base
 
 	# Badge for getting problem set blue #
 	def self.BadgePSB(student)
-		@result = Array.new
-        student.problem_set_instances.order("id").each do |pset|
+		student.problem_set_instances.order("id").each do |pset|
             if pset.num_problems - pset.problem_stats.blue.count == 0
             	pset_name = pset.problem_set.name
             	@has_BadgePSB = student.badges.find_by_badge_key("BadgePSB")
@@ -37,6 +36,20 @@ class Badge < ActiveRecord::Base
             	@has_BadgePTB = student.badges.create(:name => "#{problem_type.name} Blue !!", :badge_key => "Badge#{problem_type.name}B") if @has_BadgePTB.nil?
             end
         end
+    end
+
+    # Badge for getting n problem sets blue #
+    def self.BadgeNPSB(student,n)
+    	@result = Array.new
+        student.problem_set_instances.order("id").each do |pset|
+            @result = @result.push (pset.num_problems - pset.problem_stats.blue.count) == 0
+        end
+        result_length = @result.length
+        true_count = @result.select {|v| v =="true"}.count
+        if true_count == n
+        	@has_BadgeNPSD = student.badges.find_by_badge_key("Badge#{n}PSD") 
+        	@has_BadgeNPSD = student.badges.create(:name => "#{n} problem sets done", :badge_key => "Badge#{n}PSD")
+		end
     end
 
 	# Badge for n questions correct in a row for the first time only #

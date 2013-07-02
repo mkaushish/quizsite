@@ -69,6 +69,8 @@ class Student < User
         Badge.BadgePTB(student)
         Badge.BadgeCAPSWAD(student)
         Badge.BadgeTRQC(student)
+        Badge.BadgeNPSB(student,5)
+        Badge.BadgeNPSB(student,10)
     end
 
     private
