@@ -122,7 +122,104 @@ function initNumberLine() {
       context.restore();
     },
 
+    label: function(num, clr){
+      leftpos=0;
+      if(num > this.mid && num <= this.mid+this.diff*(canvas.width-2*off)/(2*this.ewid*this.snum)){
+        var add=this.mid;
+        ct=0;
+        while (add <= this.mid+this.diff*(canvas.width-2*off)/(2*this.ewid*this.snum)){
+          if(add==num){
+            leftpos=(canvas.width)/2+ct*this.ewid;
+            break;
+          }
+          add+=((this.diff/10));
+          ct+=1;
+        }
+      }
+      if(num < this.mid && num >= this.mid-this.diff*(canvas.width-2*off)/(2*this.ewid*this.snum)){
+        var add=this.mid;
+        ct=0;
+        while (add >= this.mid-this.diff*(canvas.width-2*off)/(2*this.ewid*this.snum)){
+          if(add==num){
+            leftpos=(canvas.width)/2-ct*this.ewid;
+            break;
+          }
+          add-=this.diff/10;
+          ct+=1;
+        }
+      }
+      if(leftpos!=0){
+        fwth=(""+num).length*8;
+        drawLine(leftpos, canvas.height-off, leftpos-fwth/2, canvas.height-off+15);
+        drawLine(leftpos, canvas.height-off, leftpos+fwth/2, canvas.height-off+15);
+        context.fillStyle=clr;
+        context.fillRect(leftpos-fwth/2, canvas.height-off+15, fwth, 15)
+        context.fillStyle="white";
+        context.fillText(""+num, leftpos-fwth/2+2, canvas.height-off+24)
+        context.fillStyle="black";
 
+
+      }
+    },
+    lines : function(nums){
+      num=nums[0];
+      leftpos=0;
+      if(num > this.mid && num <= this.mid+this.diff*(canvas.width-2*off)/(2*this.ewid*this.snum)){
+        var add=this.mid;
+        ct=0;
+        while (add <= this.mid+this.diff*(canvas.width-2*off)/(2*this.ewid*this.snum)){
+          if(add==num){
+            leftpos=(canvas.width)/2+ct*this.ewid;
+            break;
+          }
+          add+=((this.diff/10));
+          ct+=1;
+        }
+      }
+      if(num < this.mid && num >= this.mid-this.diff*(canvas.width-2*off)/(2*this.ewid*this.snum)){
+        var add=this.mid;
+        ct=0;
+        while (add >= this.mid-this.diff*(canvas.width-2*off)/(2*this.ewid*this.snum)){
+          if(add==num){
+            leftpos=(canvas.width)/2-ct*this.ewid;
+            break;
+          }
+          add-=this.diff/10;
+          ct+=1;
+        }
+      }
+      lnum1=leftpos;
+      num=nums[1];
+      leftpos=0;
+      if(num > this.mid && num <= this.mid+this.diff*(canvas.width-2*off)/(2*this.ewid*this.snum)){
+        var add=this.mid;
+        ct=0;
+        while (add <= this.mid+this.diff*(canvas.width-2*off)/(2*this.ewid*this.snum)){
+          if(add==num){
+            leftpos=(canvas.width)/2+ct*this.ewid;
+            break;
+          }
+          add+=((this.diff/10));
+          ct+=1;
+        }
+      }
+      if(num < this.mid && num >= this.mid-this.diff*(canvas.width-2*off)/(2*this.ewid*this.snum)){
+        var add=this.mid;
+        ct=0;
+        while (add >= this.mid-this.diff*(canvas.width-2*off)/(2*this.ewid*this.snum)){
+          if(add==num){
+            leftpos=(canvas.width)/2-ct*this.ewid;
+            break;
+          }
+          add-=this.diff/10;
+          ct+=1;
+        }
+      }
+      lnum2=leftpos;
+      context.strokeStyle="red";
+      drawLine(lnum1, canvas.height-off, lnum2, canvas.height-off);
+      context.strokeStyle="black";
+    },
     inputfield : function(num){
       leftpos=0;
       if(num > this.mid && num <= this.mid+this.diff*(canvas.width-2*off)/(2*this.ewid*this.snum)){
@@ -305,7 +402,20 @@ function initNumberLine() {
       malNumLine.initpos=malNumLine.curpos;
     }
     if(which=="label"){
-      labs=$("#label").attr("value").split(",");
+      labs=$("#"+canname+"_label").attr("value").split(",");
+      for(p=0; p<labs.length; p++){
+        if(p==0){
+        malNumLine.label(labs[p],"black");
+        }
+        else{
+          malNumLine.label(labs[p],"green");
+        }
+      }
+      lines=$("#"+canname+"_lines").attr("value").split(";");
+      for(p=0; p<lines.length; p++){
+        malNumLine.lines(lines[p].split(","));
+      }
+
     }
     if( malNumLine.edit ){
       malNumLine.drawZBar();
@@ -337,7 +447,7 @@ function initNumberLine() {
     });
 
     function setMouseXY(e) {
-      var offset = $('#nlcanvas').offset();
+      var offset = $('#'+canname).offset();
       var offsetx = Math.round(offset.left);
       var offsety = Math.round(offset.top);
 
