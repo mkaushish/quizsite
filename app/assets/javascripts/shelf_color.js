@@ -43,7 +43,17 @@ function shelf_color_in(blue, green, red){
 $('#bigshelf .shelf ul').css("background","-webkit-gradient(linear,"+parseInt(blue)+"% 0%,"+(parseInt(blue)+parseInt(green))+ "% 0%, from(#0087bd), to(#ff0040), color-stop(.005,#60b349),color-stop(.995,#60b349))")
 }
 else{
-    $('#bigshelf .shelf ul').css("background","-webkit-linear-gradient(left,#0087bd "+parseInt(blue)+"%,#ff0040 "+parseInt(blue)+"%"); 
+  if(blue!="0"){
+    if(parseInt(blue)==100){
+      $('#bigshelf .shelf ul').css("background","#0087bd"); 
+    }
+    else{
+      $('#bigshelf .shelf ul').css("background","-webkit-linear-gradient(left, #0087bd "+parseInt(blue)+"%, #ff0040 "+parseInt(blue)+"%)"); 
+    }
+  }
+  else{
+    $('#bigshelf .shelf ul').css("background","red"); 
+  }
 }
 $('#bigshelf .shelf ul').css("background","-moz-linear-gradient(0% 0% 0deg,#0087bd, #1414C9, #0087bd "+parseInt(blue)+"%,#60b349 0%,#60b349 "+(parseInt(blue)+parseInt(green))+"%,#ff0040 0%)");
 }
