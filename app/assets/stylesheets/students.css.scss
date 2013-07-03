@@ -7,7 +7,29 @@ $blackboard_w: 187px;
 $blackboard_h: 148px;
 $border_w: 7px;
 // $border_w: 0px;
-
+.badges{
+    position:absolute;
+font-size: 8px;
+color: white;
+height: 20px;
+width: 20px;
+background-color: rgb(103, 73, 179);
+border-radius: 50%;
+font-family: "Home_hand";
+  }
+  .badgesbw{
+    position:absolute;
+font-size: 8px;
+color: white;
+height: 20px;
+width: 20px;
+background-color: gray;
+border-radius: 50%;
+border-style:solid;
+border-width:1px;
+border-color:black;
+font-family: "Home_hand";
+  }
 .student-info {
   float:right;
   position:relative;
@@ -15,12 +37,6 @@ $border_w: 7px;
   
   height: 10px;
   overflow:visible;
-}
-.badge {
-  float: right;
-  position:absolute;
-  top: -28px;
-  background: transparent;
 }
 .stinfo {
   font-family:"Sans";
@@ -75,6 +91,10 @@ $border_w: 7px;
     border-color: $sg_green;
   }
 div.problem_list_box:hover{
+  -moz-box-shadow: inset 0 0 70px black;
+-webkit-box-shadow: inset 0 0 70px black;
+box-shadow: inner 0 0 70px black;
+background-image: none;
 
 }
   div.problem_list_box {
@@ -134,77 +154,22 @@ box-shadow: inner 0 0 10px black;
     border-radius:50%;
     font-family: "Home_hand";
   }
+  
 
+  .BadgeFNQCIARFTO {}
 
+  .BadgeAPSD {}
 
-  .normal_a_link:hover{
-  }
+  .BadgeCAPSWAD {}
 
-  h5 {
-  }
-}
-
-.BadgeFNQCIARFTO { 
-    position:relative;
-    float: left;
-    font-size: 27px;
-    color: white;
-    top: -38px;
-    height: 65px;
-    width: 75px;
-    margin: 0px;
-    padding-top: 15px;
-    background-color: rgb(103, 73, 179);
-    border-radius: 50%;
-    line-height: 10px;
-    font-family: "Home_hand"; 
-  }
-
-  .BadgeAPSD {position:relative;
-float: left;
-font-size: 27px;
-color: white;
-top: -38px;
-height: 65px;
-width: 75px;
-margin: 0px;
-padding-top: 15px;
-background-color: rgb(103, 73, 179);
-border-radius: 50%;
-line-height: 10px;
-font-family: "Home_hand";}
-
-  .BadgeCAPSWAD {position:relative;
-float: left;
-font-size: 27px;
-color: white;
-top: -38px;
-height: 65px;
-width: 75px;
-margin: 0px;
-padding-top: 15px;
-background-color: rgb(103, 73, 179);
-border-radius: 50%;
-line-height: 10px;
-font-family: "Home_hand";}
-
-  .BadgeCAPSWAD {position:relative;
-float: left;
-font-size: 27px;
-color: white;
-top: -38px;
-height: 65px;
-width: 75px;
-margin: 0px;
-padding-top: 15px;
-background-color: rgb(103, 73, 179);
-border-radius: 50%;
-line-height: 10px;
-font-family: "Home_hand";}
+  .BadgeCAPSWAD {}
 
 
 div.pset_list_box:hover{
-
+-moz-box-shadow: inset 0 0 70px black;
+-webkit-box-shadow: inset 0 0 70px black;
+box-shadow: inner 0 0 70px black;
+background-image: none;
 }
 
 div.pset_list_box {
@@ -307,7 +272,7 @@ margin-left: 0px;
     margin: 23px 0;
     padding: 0;
     height: 19px;
-    border-bottom: 8px solid #999999;
+    border-bottom: 8px solid pink;
     background-color: #ccc;
 }
  
@@ -332,11 +297,12 @@ margin-left: 0px;
 .shelf .shelf_ul .shelf_li {
     float: left;
     list-style: none outside none;
-    margin: -27px 10px 0;
+    margin: -28px 10px 0;
     padding: 3px;
     position: relative;
     text-align: center;
     width: 80px;
+    height:75px;
 }
  .shelf img {
   border-radius:50%;
@@ -357,9 +323,9 @@ margin-left: 0px;
 }
 #points{
   background-color:orange;
-  padding-top:10px;
-  padding-bottom:8px;
-  border-radius:16%;
+  padding-top:17px;
+  padding-bottom:15px;
+  margin-top:-13px;
   color:white;
 }
 #points:hover{
@@ -381,4 +347,9 @@ background-image: -webkit-gradient(
   background-color:purple;
   font-family: 'Home_hand';
   font-size:30px;
+}
+.plate:hover{
+  border-style: solid;
+  border-color:purple;
+  border-width: 2px;
 }

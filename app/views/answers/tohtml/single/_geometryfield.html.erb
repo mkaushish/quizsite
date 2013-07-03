@@ -7,8 +7,8 @@
 </div>
 <% shapes = geometryfield.encodedStartShapes %>
 <% shapes += "," unless shapes.empty? %>
-<%= hidden_field_tag('startshapes', "#{shapes}#{InputField.fromhash("geometry", @response)}") %>
-<%= hidden_field_tag('qbans_selected', InputField.fromhash("qbans_selected", @response)) %>
+<%= hidden_field_tag('startshapes', "#{shapes}#{InputField.fromhash("geometry", solution)}") %>
+<%= hidden_field_tag('qbans_selected', InputField.fromhash("qbans_selected", solution)) %>
 <%= hidden_field_tag('starttool', "notool") %>
 
 <% if geometryfield.is_a?(GeometryField) %>

@@ -1,3 +1,6 @@
-<% current_user.badges.each do |badge| %>
-<li class='shelf_li'><p class = "<%= badge.badge_key %>"><%= badge.name %></p></li>
-<% end %>
+<li><% (current_user.badges).each do |badge| %>
+    <p class = "<%= badge.badge_key %> badges"></p>  
+<% end %><a class='plate' style='margin-top:44px'>Badges</a></li>
+<li><% (current_user.badges).each do |badge| %>
+    <p class = "<%= badge.badge_key %> badgesbw"></p>  
+<% end %><a class='plate' style='margin-top:44px'>Badges</a></li>

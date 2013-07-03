@@ -114,6 +114,8 @@ Quizsite::Application.routes.draw do
   get '/about_us',      :to => 'pages#about_us'
   get '/draw',          :to => 'pages#draw'
   get '/access_denied', :to => 'pages#access_denied'
+  get '/mathematician', :to => 'pages#mathematician'
+
 
   # quiz_problems 
   match '/quiz_problem/:quiz_prob/edit' => 'quiz_problems#edit', :via => :get, as: :edit_quiz_problem

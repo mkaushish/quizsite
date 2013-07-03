@@ -23,8 +23,18 @@ class PagesController < ApplicationController
     def what_is_it
     end
 
-    def about_us
-    end
+  def graph
+    @title = "Graph"
+    @nav_selected = "features"
+  end
+  def mathematicians
+    @title = "Mathematicians"
+  end
+
+  def datagr
+    @title = "Data Graph"
+    @nav_selected = "features"
+  end
 
     def nologinhome
         if signed_in?
