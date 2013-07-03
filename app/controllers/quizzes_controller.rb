@@ -20,6 +20,10 @@ class QuizzesController < ApplicationController
             #$stderr.puts "QUIZPROBS: #{@quiz_problems.inspect} #{params}"
         #end
         #@quiz_problems = @quiz.quiz_problems
+        @classroom.students.each do |student|
+            student.news_feeds.create(:content => "You have been assigned a new quiz!!", :feed_type => "Quiz", :user_id => student.id) if @has_Warning.nil?
+        end    
+
         $stderr.puts "QUIZPROBS: #{@quiz_problems.inspect} #{params}"
     end
 
@@ -35,7 +39,6 @@ class QuizzesController < ApplicationController
         @classroom = Classroom.find params[:classroom]
         @problem_set = ProblemSet.find(params[:pset])
         @quiz = Quiz.find_by_id(params[:quiz])
-        debugger
         @quiz_problem = @quiz.quiz_problems.create problem_type_id: params[:ptype], partial: true
         
         redirect_to edit_quiz_problem_path(@quiz_problem)
@@ -44,7 +47,6 @@ class QuizzesController < ApplicationController
     # POST /quiz
     # quiz problems come in in theformat of 
     def create
-        debugger
         @classroom = Classroom.find params[:classroom_id]
 
         quiz_problems_attributes = []
