@@ -2,7 +2,7 @@
 <div id='bigshelf'>
 <div class='shelf' id='shelf_0'>
   <ul class='shelf_ul'>
-    <li class='shelf_li'><%#= link_to (image_tag @student.image.url(:thumb)), edit_student_path, :remote => true  %><%= link_to 'Account',  edit_student_path, :remote => true, :class => 'plate' %></li>
+    <li class='shelf_li'><%= link_to (image_tag @student.image.url(:thumb)), edit_student_path, :remote => true  %><%= link_to 'Account',  edit_student_path, :remote => true, :class => 'plate' %></li>
     <li class='shelf_li'><div id='points'><%= render  :partial => 'students/student_points' %></div><a class='plate' style='margin-top:7px'>Points</a></li>
 
 
@@ -19,8 +19,12 @@
   	</li>
 
 
- 
-  <%= render :partial => 'students/badge'%>  
+    <li class='shelf_li'>
+      <div id="get_badge">
+        <%= render :partial => 'students/badge'%>
+      </div>
+    </li>
+
   </ul>
 
  

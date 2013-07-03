@@ -36,7 +36,7 @@ class QuizzesController < ApplicationController
         @problem_set = ProblemSet.find(params[:pset])
         @quiz = Quiz.find_by_id(params[:quiz])
         @quiz_problem = @quiz.quiz_problems.create problem_type_id: params[:ptype], partial: true
-        
+
         redirect_to edit_quiz_problem_path(@quiz, @quiz_problems)
     end
 
@@ -77,6 +77,7 @@ class QuizzesController < ApplicationController
 
         @class_quiz.assign params[:start_time], params[:end_time]
         @class_quiz.save
+
     end
 
     # DELETE /quizzes/1
@@ -109,7 +110,12 @@ class QuizzesController < ApplicationController
             
             @class_quiz.assign params[:start_time], params[:end_time]
             @class_quiz.save
+
+            classroom.students.each do |student|
+                student.news_feeds.create(:content => "You have been assigned a new quiz!!", :feed_type => "quiz", :user_id => student.id)
+            end
         end
+
         redirect_to root_path
     end
 

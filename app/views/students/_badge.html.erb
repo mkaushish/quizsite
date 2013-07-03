@@ -1,7 +1,3 @@
-<li class='shelf_li'>
-<div id="get_badge">
 <% current_user.badges.each do |badge| %>
 <li class='shelf_li'><p class = "<%= badge.badge_key %>"><%= badge.name %></p></li>
-<% end %>	
-</div>
-</li>
+<% end %>

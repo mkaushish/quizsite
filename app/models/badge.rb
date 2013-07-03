@@ -6,7 +6,7 @@ class Badge < ActiveRecord::Base
 	def self.BadgeAPSD(student)
         @result = Array.new
         student.problem_set_instances.each do |pset|
-            @result = @result.push (pset.problem_stats.count - pset.problem_stats.blue.count) == 0
+            @result = @result.push (pset.num_problems - pset.problem_stats.blue.count) == 0
         end
         result_length = @result.length
         true_count = @result.select {|v| v =="true"}.count
@@ -21,24 +21,32 @@ class Badge < ActiveRecord::Base
 	def self.BadgePSB(student)
 		@result = Array.new
         student.problem_set_instances.each do |pset|
-            if pset.problem_stats.count - pset.problem_stats.blue.count == 0
-            	pset_name = pset.problem_set.name
-            	@has_BadgePSB = student.badges.find_by_badge_key("BadgePSB")
-            	student.news_feeds.create(:content => "Congrats! You have won a new Badge: #{pset_name} Blue !!", :feed_type => "badge", :user_id => student.id) if @has_BadgePSB.nil?
-            	@has_BadgePSB ||=  student.badges.create(:name => "#{pset_name} Blue !!", :badge_key => "BadgePSB")	
+            unless pset.problem_stats.blank?
+            	total_minus_blue = pset.num_problems - pset.problem_stats.blue.count
+            	
+            	if total_minus_blue == 0
+            		pset_name = pset.problem_set.name
+            		puts pset_name+"***********if"
+            		@has_BadgePSB = student.badges.find_by_badge_key("BadgePSB")
+            		student.news_feeds.create(:content => "Congrats! You have won a new Badge: #{pset_name} Blue !!", :feed_type => "badge", :user_id => student.id) if @has_BadgePSB.nil?
+            		@has_BadgePSB =  student.badges.create(:name => "#{pset_name} Blue !!", :badge_key => "BadgePSB") if @has_BadgePSB.nil?	
         	
-        	elsif 10*(pset.problem_stats.count - pset.problem_stats.blue.count) < pset.problem_stats.count
-        		pset_name = pset.problem_set.name
-        		@has_Warning = student.news_feeds.find_by_feed_type("#{pset_name}_warning")
-        		student.news_feeds.create(:content => "Need #{pset.problem_stats.count - pset.problem_stats.blue.count} problem types to get #{pset_name} Blue!!", :feed_type => "#{pset_name}_warning", :user_id => student.id) if @has_Warning.nil?
+        		elsif 10*(total_minus_blue) < pset.num_problems
+        		
+        			pset_name = pset.problem_set.name
+        			puts pset_name+"***********if2"
+        			@has_Warning = student.news_feeds.find_by_feed_type("#{pset_name}_warning")
+        			student.news_feeds.create(:content => "Need #{pset.problem_stats.count - pset.problem_stats.blue.count} problem types to get #{pset_name} Blue!!", :feed_type => "#{pset_name}_warning", :user_id => student.id) if @has_Warning.nil?
 
         	
-        	elsif pset.problem_stats.count - pset.problem_stats.blue.count == 1
-        		pset_name = pset.problem_set.name
-        		@has_Warning = student.news_feeds.find_by_feed_type("#{pset_name}_warning")
-        		student.news_feeds.create(:content => "Need 1 problem type to get #{pset_name} Blue!!", :feed_type => "#{pset_name}_warning", :user_id => student.id) if @has_Warning.nil?
-        	end	
-        end
+        		elsif total_minus_blue == 1
+        			pset_name = pset.problem_set.name
+        			puts pset_name+"***********if3"
+        			@has_Warning = student.news_feeds.find_by_feed_type("#{pset_name}_warning")
+        			student.news_feeds.create(:content => "Need 1 problem type to get #{pset_name} Blue!!", :feed_type => "#{pset_name}_warning", :user_id => student.id) if @has_Warning.nil?
+        		end	
+        	end
+    	end
     end
 
 	# Badge for n questions correct in a row for the first time only #
