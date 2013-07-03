@@ -27,22 +27,22 @@ module PerimeterandArea_6
       "Createkb4"
     end
     def initialize
-      @original2=[]
-      @original2[0]=20;
-      @original2[1]=0;
-      @original2[2]=11;
-      @original2[3]=20;
-      @original2[4]=10;
-      # @original2[5]=12;
-      # @original2[6]=0;
-      # @original2[7]=10;
-      # @original2[8]=13;
-      # @original2[9]=0;
-      # @original2[10]=5;
-      # @original2[11]=14;
-      # @original2[12]= 5;
-      # @original2[13]=3;
-      # @original2[14]=17;
+      @figure3=[]
+      @figure3[0]=20;
+      @figure3[1]=0;
+      @figure3[2]=11;
+      @figure3[3]=20;
+      @figure3[4]=10;
+      # @figure3[5]=12;
+      # @figure3[6]=0;
+      # @figure3[7]=10;
+      # @figure3[8]=13;
+      # @figure3[9]=0;
+      # @figure3[10]=5;
+      # @figure3[11]=14;
+      # @figure3[12]= 5;
+      # @figure3[13]=3;
+      # @figure3[14]=17;
       @PI= Math.acos(-1)
       @angle = @PI/2.0
     end
@@ -56,7 +56,7 @@ module PerimeterandArea_6
          # DrawShape2.new('arc_2',100,100,15,0,@angle,300,300,1,1),
         DrawShape4.new('arc_4',50,20,7,100,0.25*@PI,0.5*@PI,'a','b','c',300,300,1,1)
 
-         # DrawShape3.new(@original2,'cm',50,50,0)
+         # DrawShape3.new(@figure3,'cm',50,50,0)
        ]
     end
   end
@@ -143,31 +143,156 @@ module PerimeterandArea_6
       "Try12_2"
     end
     def initialize
-      @a = rand(10)+5
-      @b = rand(10)+5
-
-      @original2=[]
-      @original2[0]=20;
-      @original2[1]=0;
-      @original2[2]=11;
-      @original2[3]=20;
-      @original2[4]=10;
-      @original2[5]=12;
-      @original2[6]=0;
-      @original2[7]=10;
-      @original2[8]=13;
-      @original2[9]=0;
-      @original2[10]=5;
-      @original2[11]=14;
-      @original2[12]= 5;
-      @original2[13]=3;
-      @original2[14]=17;
+      @a = rand(10)+10
+      @b = rand(10)+10
+      @c = rand(5)+1
+      @d = rand(5)+2
+      @e = rand(5)+2
+      @f = rand(5)+2
+      @h = rand(5)+5
+      @g = rand(2)+3
+      @figure3=[]
+      @figure3[0]=20;
+      @figure3[1]=0;
+      @figure3[2]=11;
+      @figure3[3]=20;
+      @figure3[4]=10;
+      @figure3[5]=12;
+      @figure3[6]=0;
+      @figure3[7]=10;
+      @figure3[8]=13;
+      @figure3[9]=0;
+      @figure3[10]=5;
+      @figure3[11]=14;
+      @figure3[12]= 5;
+      @figure3[13]=3;
+      @figure3[14]=17;
       @PI= Math.acos(-1)
       @angle = @PI/2.0
 
 
       @figure1=[]
-      @figure[0]=0
+      @figure1[0]=0
+      @figure1[1]=0
+      @figure1[2]=@a
+      
+      @figure1[3]=@a
+      @figure1[4]=0
+      @figure1[5]=@b
+
+      @figure1[6]=@a-@c
+      @figure1[7]=@b
+      @figure1[8]=@a-2*@c
+
+      @figure1[9]=@c
+      @figure1[10]=@b
+      @figure1[11]=@b
+
+
+      @figure2=[]
+      @figure2[0]=0
+      @figure2[1]=0
+      @figure2[2]=@a
+      
+      @figure2[3]=@a
+      @figure2[4]=0
+      @figure2[5]=@b
+
+      @figure2[6]=@a+@c
+      @figure2[7]=@b
+      @figure2[8]=@d
+
+      @figure2[9]=@c+@a-@d
+      @figure2[10]=@b
+      @figure2[11]=@f+@d/2
+
+      @figure2[12]= @c+@a-@d-@e
+      @figure2[13]=@b-@f
+      @figure2[14]=@c+@a-@d-@e
+
+      @figure2[15]=0
+      @figure2[16]=@b-@f
+      @figure2[17]=@b-@f
+
+      @figure4=[]
+      @figure4[0]=0
+      @figure4[1]=0
+      @figure4[2]=@h
+
+      @figure4[3]=@h
+      @figure4[4]=0
+      @figure4[5]=@h
+
+      @figure4[6]=@h
+      @figure4[7]=-@h
+      @figure4[8]=@g
+
+      @figure4[9]=@h+@g
+      @figure4[10]=-@h
+      @figure4[11]=@h
+
+      @figure4[12]=@h+@g
+      @figure4[13]=0
+      @figure4[14]=@h
+
+      @figure4[15]=2*@h+@g
+      @figure4[16]=0
+      @figure4[17]=@g
+
+      @figure4[18]=2*@h+@g
+      @figure4[19]=@g
+      @figure4[20]=@h
+
+      @figure4[21]=@h+@g
+      @figure4[22]=@g
+      @figure4[23]=@h
+
+      @figure4[24]=@h+@g
+      @figure4[25]=@g+@h
+      @figure4[26]=@g
+
+      @figure4[27]=@h
+      @figure4[28]=@g+@h
+      @figure4[29]=@h
+
+      @figure4[30]=@h
+      @figure4[31]=@g
+      @figure4[32]=@h
+
+      @figure4[33]=0
+      @figure4[34]=@g
+      @figure4[35]=@g
+
+
+      @figure5=[]
+      @figure5[0]=0
+      @figure5[1]=0
+      @figure5[2]=@a
+
+      @figure5[3]=0
+      @figure5[4]=@a
+      @figure5[5]=@b
+
+      @figure5[6]=@b
+      @figure5[7]=@a
+      @figure5[8]=@g
+
+      @figure5[9]=@b
+      @figure5[10]=@a-@g
+      @figure5[11]=@b-@g
+
+      @figure5[12]=@g
+      @figure5[13]=@a-@g
+       @figure5[14]=@a-@g
+
+      @figure5[15]=@g
+      @figure5[16]=0
+      @figure5[17]=@g
+
+
+      @figure6=[]
+      
+
     end
     def solve
       {"ans" => @a}
@@ -176,7 +301,7 @@ module PerimeterandArea_6
       
       [
         TextLabel.new("Find the perimeter of the given figure"),
-         DrawShape3.new(@original2,'cm',50,50,1)
+         DrawShape3.new(@figure5,'cm',20,20,1)
        ]
     end
   end

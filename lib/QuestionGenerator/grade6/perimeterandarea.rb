@@ -245,13 +245,13 @@ module PerimeterandArea
       if @choose==0
       [
         TextLabel.new("What is the perimeter of the folowing triangle?"),
-        DrawShape2.new('eqtriangle',@a,@a,15,0,1,@unit,300,300,1,1),
+        DrawShape2.new('eqtriangle',@a,@a,20,0,280,@unit,300,300,1,1),
         InlineBlock.new(TextField.new("ans"),TextLabel.new("#{@unit}"))
       ]
       elsif @choose==1
       [
         TextLabel.new("What is the perimeter of the folowing triangle?"),
-        DrawShape2.new('isotriangle',@a,@b,15,0,1,@unit,300,300,1,1),
+        DrawShape2.new('isotriangle',@a,@b,20,0,280,@unit,300,300,1,1),
         InlineBlock.new(TextField.new("ans"),TextLabel.new("#{@unit}"))
       ]
       else
@@ -331,13 +331,13 @@ module PerimeterandArea
       if @choose==0
       [
         TextLabel.new("What is the area of the folowing triangle to the nearest integer value?"),
-        DrawShape2.new('eqtriangle',@a,@a,@a,1,1,@unit,300,300,1,1),
+        DrawShape2.new('eqtriangle',@a,@a,20,1,280,@unit,300,300,1,1),
         InlineBlock.new(TextField.new("ans"),Exponent.new(TextLabel.new("#{@unit}"),TextLabel.new("2")))
       ]
       elsif @choose==1
       [
         TextLabel.new("What is the area of the folowing triangle to the nearest integer value?"),
-        DrawShape2.new('isotriangle',@a,@b,15,1,1,@unit,300,300,1,1),
+        DrawShape2.new('isotriangle',@a,@b,20,1,280,@unit,300,300,1,1),
         InlineBlock.new(TextField.new("ans"),Exponent.new(TextLabel.new("#{@unit}"),TextLabel.new("2")))
       ]
       else
@@ -1012,13 +1012,13 @@ module PerimeterandArea
       if @choose==0
       [
         InlineBlock.new(TextLabel.new("The area of the folowing triangle  is #{((@base*@height)/2.0).round(2)}"),Exponent.new(TextLabel.new("#{@unit}"),TextLabel.new("2")),TextLabel.new("The height is #{@height.round(2)}#{@unit}. Find the base to the nearest integer value")),
-        DrawShape2.new('eqtriangle',@a,@a,@a,0,1,@unit,300,300,1,1),
+        DrawShape2.new('eqtriangle',@a,@a,20,0,280,@unit,300,300,1,1),
         InlineBlock.new(TextField.new("ans"),Exponent.new(TextLabel.new("#{@unit}"),TextLabel.new("2")))
       ]
       elsif @choose==1
       [
         InlineBlock.new(TextLabel.new("The area of the folowing triangle is #{((@base*@height)/2.0).round(2)}"),Exponent.new(TextLabel.new("#{@unit}"),TextLabel.new("2")),TextLabel.new("The height is #{@height.round(2)}#{@unit}. Find the base to the nearest integer value")),
-        DrawShape2.new('isotriangle',@a,@b,15,0,1,@unit,300,300,1,1),
+        DrawShape2.new('isotriangle',@a,@b,15,0,280,@unit,300,300,1,1),
         InlineBlock.new(TextField.new("ans"),Exponent.new(TextLabel.new("#{@unit}"),TextLabel.new("2")))
       ]
       else
