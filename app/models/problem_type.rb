@@ -6,12 +6,10 @@ class ProblemType < ActiveRecord::Base
   # if they are, then the problems/answers for them will all be broken,
   # - they could be fixed with a rake task though
   has_many :problem_generators # usually 1 smartergrades, + any custom added
-  has_many :problems,       :through => :problem_generators #, :dependent => :destroy
+  has_many :problems, :through => :problem_generators #, :dependent => :destroy
   has_many :answers, :through => :problem_generators #, :dependent => :destroy
   has_many :user_stats
   has_many :problem_stats
-
-
   # shouldn't need to reference quizzes from this end though
   has_many :quiz_problems
   has_many :problem_set_problems

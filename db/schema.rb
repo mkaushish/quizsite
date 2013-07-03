@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130617081504) do
+ActiveRecord::Schema.define(:version => 20130702124018) do
 
   create_table "answers", :force => true do |t|
     t.boolean  "correct"
@@ -38,6 +38,8 @@ ActiveRecord::Schema.define(:version => 20130617081504) do
     t.integer  "student_id"
     t.string   "name"
     t.string   "badge_key"
+    t.string   "image"
+    t.integer  "level"
   end
 
   create_table "classroom_assignments", :force => true do |t|
@@ -97,6 +99,19 @@ ActiveRecord::Schema.define(:version => 20130617081504) do
   end
 
   add_index "delayed_jobs", ["priority", "run_at"], :name => "delayed_jobs_priority"
+
+  create_table "news_feeds", :force => true do |t|
+    t.integer  "user_id",         :null => false
+    t.string   "content"
+    t.string   "feed_type"
+    t.integer  "problem_id"
+    t.integer  "problem_set_id"
+    t.integer  "problem_type_id"
+    t.integer  "badge_id"
+    t.integer  "quiz_id"
+    t.datetime "created_at",      :null => false
+    t.datetime "updated_at",      :null => false
+  end
 
   create_table "problem_generators", :force => true do |t|
     t.string  "klass"
@@ -181,10 +196,13 @@ ActiveRecord::Schema.define(:version => 20130617081504) do
   create_table "quiz_problems", :force => true do |t|
     t.integer "quiz_id"
     t.integer "problem_type_id"
-    t.integer "count",           :default => 2
+    t.integer "count",            :default => 1
+    t.boolean "partial"
+    t.string  "problem_category"
+    t.integer "problem"
   end
 
-  add_index "quiz_problems", ["quiz_id", "problem_type_id"], :name => "index_quiz_problems_on_quiz_id_and_problem_type_id", :unique => true
+  add_index "quiz_problems", ["quiz_id", "problem_type_id"], :name => "index_quiz_problems_on_quiz_id_and_problem_type_id"
 
   create_table "quiz_stats", :force => true do |t|
     t.integer "quiz_instance_id"
@@ -220,6 +238,14 @@ ActiveRecord::Schema.define(:version => 20130617081504) do
     t.string   "image_content_type"
     t.integer  "image_file_size"
     t.datetime "image_updated_at"
+    t.string   "first_name"
+    t.string   "last_name"
+    t.string   "gender"
+    t.string   "uid"
+    t.string   "profile_link"
+    t.string   "picture_link"
+    t.string   "provider"
+    t.string   "image"
   end
 
   add_index "users", ["email"], :name => "index_users_on_email", :unique => true
