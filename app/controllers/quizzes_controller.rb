@@ -35,7 +35,6 @@ class QuizzesController < ApplicationController
         @classroom = Classroom.find params[:classroom]
         @problem_set = ProblemSet.find(params[:pset])
         @quiz = Quiz.find_by_id(params[:quiz])
-        debugger
         @quiz_problem = @quiz.quiz_problems.create problem_type_id: params[:ptype], partial: true
         
         redirect_to edit_quiz_problem_path(@quiz_problem)
