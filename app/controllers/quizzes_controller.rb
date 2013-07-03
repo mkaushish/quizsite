@@ -9,22 +9,31 @@ class QuizzesController < ApplicationController
 
     # choose the problems for a quiz
     def new
-        @classroom = Classroom.find(params[:classroom])
-        @problem_set = ProblemSet.find(params[:pset])
-        @quiz = @classroom.quizzes.create(problem_set: @problem_set)
-        @quiz_problems = @quiz.quiz_problems
-        $stderr.puts "QUIZ: #{@quiz.inspect}"
-        #if defined? params[:ptype]
-            # @new_quiz_problem = @quiz.quiz_problems.new(problem_type: params[:ptype], count: 1)
-            # @new_quiz_problem.save
-            #$stderr.puts "QUIZPROBS: #{@quiz_problems.inspect} #{params}"
-        #end
-        #@quiz_problems = @quiz.quiz_problems
-        @classroom.students.each do |student|
-            student.news_feeds.create(:content => "You have been assigned a new quiz!!", :feed_type => "Quiz", :user_id => student.id) if @has_Warning.nil?
-        end    
-
-        $stderr.puts "QUIZPROBS: #{@quiz_problems.inspect} #{params}"
+        if defined? params[:type]
+            case params[:type]
+            when "single_class"
+                @classroom = Classroom.find(params[:classroom])
+                @problem_set = ProblemSet.find(params[:pset])
+                @quiz = @classroom.quizzes.create(problem_set: @problem_set)
+                @quiz_problems = @quiz.quiz_problems
+                $stderr.puts "QUIZ: #{@quiz.inspect}"
+                @classroom.students.each do |student|
+                    student.news_feeds.create(:content => "You have been assigned a new quiz!!", :feed_type => "Quiz", :user_id => student.id) if @has_Warning.nil?
+                end    
+                $stderr.puts "QUIZPROBS: #{@quiz_problems.inspect} #{params}"
+            when "all_classes"
+                @classrooms = @teacher.classrooms
+                @problem_sets = ProblemSet.all
+                if defined? params[:quiz][:problem_set_id]
+                    @problem_set = ProblemSet.find_by_id(params[:quiz][:problem_set_id])
+                    @quiz = Quiz.create(problem_set: @problem_set)
+                end
+            when "all_classes_all_problem_types"
+                @classrooms = @teacher.classrooms
+                @problem_types = ProblemType.all
+                @quiz = Quiz.create
+            end        
+        end
     end
 
     # change the problem types in a quiz
