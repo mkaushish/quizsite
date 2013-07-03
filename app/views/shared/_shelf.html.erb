@@ -1,38 +1,35 @@
 <%@changedPoints = 0%>
 <div id='bigshelf'>
-    <div class='shelf' id='shelf_0'>
-        <ul class='shelf_ul'>
-            <li class='shelf_li'>
-                <% unless @student.image.nil? %>
-                    <%= link_to (image_tag @student.image, :size => "70x70"), edit_student_path, :remote => true  %>
-                <% else %>
-                    <%= link_to (image_tag "default_70x70.png"), edit_student_path, :remote => true  %>
-                <% end %>
-                <%= link_to 'Account',  edit_student_path, :remote => true, :class => 'plate' %>
-            </li>
-            <li class='shelf_li'>
-                <div id='points'>
-                    <%= render  :partial => 'students/student_points' %>
-                </div>
-                <a class='plate' style='margin-top:7px'>Points</a>
-            </li>
-            <li class='shelf_li'> 
-                <div class="btn-group"> 
-                    <button class="btn btn-success dropdown-toggle" data-toggle="dropdown">
-                        <%= "Notifications"  %>
-                        <span class="caret"></span>
-      	             </button>
-      	             <div id='notify'>
-                        <%= render 'students/notifications' %>
-                    </div>
-                </div>
-            </li>
+<div class='shelf' id='shelf_0'>
+  <ul class='shelf_ul'>
+    <li class='shelf_li'><%#= link_to (image_tag @student.image.url(:thumb)), edit_student_path, :remote => true  %><%= link_to 'Account',  edit_student_path, :remote => true, :class => 'plate' %></li>
+    <li class='shelf_li'><div id='points'><%= render  :partial => 'students/student_points' %></div><a class='plate' style='margin-top:7px'>Points</a></li>
 
-<!-- Remove the styling when li & ul are given id's -->
-<% current_user.badges.each do |badge| %>
-    <li class="shelf_li"><p class = "<%= badge.badge_key %>"><%= badge.name %></p></li>   
-<% end %>
+
+
+
+    <li class='shelf_li'> 
+      <div class="btn-group"> 
+   		   <button class="btn btn-success dropdown-toggle" data-toggle="dropdown" >
+    	    <%= "Notifications"  %>
+          <span class="caret"></span>
+      	 </button>
+      	<div id='news'><%= render  :partial => 'students/news_feeds' %></div>    	
+      </div>
+  	</li>
+
+
+    <li class='shelf_li'>
+      <div id="get_badge">
+        <%= render :partial => 'students/badge'%>
+      </div>
+    </li>
+
+
   </ul>
+
+ 
+
 </div>
 </div>
 <script>

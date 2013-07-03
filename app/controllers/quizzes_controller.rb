@@ -20,6 +20,10 @@ class QuizzesController < ApplicationController
             #$stderr.puts "QUIZPROBS: #{@quiz_problems.inspect} #{params}"
         #end
         #@quiz_problems = @quiz.quiz_problems
+        @classroom.students.each do |student|
+            student.news_feeds.create(:content => "You have been assigned a new quiz!!", :feed_type => "Quiz", :user_id => student.id) if @has_Warning.nil?
+        end    
+
         $stderr.puts "QUIZPROBS: #{@quiz_problems.inspect} #{params}"
     end
 
@@ -37,7 +41,7 @@ class QuizzesController < ApplicationController
         @quiz = Quiz.find_by_id(params[:quiz])
         @quiz_problem = @quiz.quiz_problems.create problem_type_id: params[:ptype], partial: true
         
-        redirect_to edit_quiz_problem_path(@quiz, @quiz_problems)
+        redirect_to edit_quiz_problem_path(@quiz_problem)
     end
 
     # POST /quiz
@@ -71,6 +75,7 @@ class QuizzesController < ApplicationController
         @class_quiz = @quiz.for_class @classroom
         @class_quiz.assign params[:start_time], params[:end_time]
         @class_quiz.save
+
     end
 
     # DELETE /quizzes/1
@@ -100,7 +105,12 @@ class QuizzesController < ApplicationController
             @class_quiz = @quiz.for_class classroom
             @class_quiz.assign params[:start_time], params[:end_time]
             @class_quiz.save
+
+            classroom.students.each do |student|
+                student.news_feeds.create(:content => "You have been assigned a new quiz!!", :feed_type => "quiz", :user_id => student.id)
+            end
         end
+
         redirect_to root_path
     end
 
@@ -109,6 +119,7 @@ class QuizzesController < ApplicationController
     def is_owner(quiz)
         quiz.user_id == current_user.id
     end
+
 
     def params_to_problemtype_ids
         p_ptypes = params[:problem_types]

@@ -11,6 +11,7 @@ class QuizInstance < ActiveRecord::Base
                              :conditions => "remaining > 0", 
                              :dependent => :destroy
 
+
   has_many :answers, :as => :session
 
   validates :user, :presence => true

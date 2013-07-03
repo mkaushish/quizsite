@@ -12,20 +12,22 @@ class SessionsController < ApplicationController
         @email = params[:login_email].downcase
         @pssw = params[:login_password]
         @user = User.find_by_email @email
-
         if @user && @user.has_password?(@pssw)
             sign_in @user
-            redirect_to root_path
+            render :js => "window.location.href = '/'"
         else
-            flash[:email] = @email
-            flash[:password] = @password
+            #flash[:email] = @email
+            #flash[:password] = @password
             if @user
                 flash[:error] = "Wrong password for #{@user.email}"
+                render :js => form_err_js(:login_password, "Invalid password for #{@user.email}")
             else
                 flash[:error] = "The ID #{@email.downcase} is not in use." +
                                 "  Would you like to register?"
+                render :js => form_err_js(:login_email, "Hey put something in the fields first !") if params[:login_email].nil?
+                render :js => form_err_js(:login_email, "The ID #{@email.downcase} is not in use." +
+                                "  Would you like to register?")
             end
-            render 'pages/home'
         end
     end
 

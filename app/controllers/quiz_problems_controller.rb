@@ -1,8 +1,7 @@
 class QuizProblemsController < ApplicationController
 	include TeachersHelper
-  	
-    before_filter :authenticate
-    before_filter :validate_quiz_problem
+  	before_filter :authenticate
+    before_filter :validate_quiz_problem_and_quiz
 
   	def edit
   		respond_to do |format|
@@ -64,7 +63,9 @@ class QuizProblemsController < ApplicationController
     end
 
     private
-    def validate_quiz_problem
+    
+    def validate_quiz_problem_and_quiz
         @quiz_problem = QuizProblem.find_by_id(params[:quiz_prob])
+        @quiz = @quiz_problem.quiz
     end
 end
