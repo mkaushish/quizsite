@@ -3,19 +3,18 @@
 #   user_id: nil for the default problem sets, teacher_id for those created by teachers
 class ProblemSet < ActiveRecord::Base
   attr_reader :ptype_params # used in initialization
-
   attr_accessible :name, :ptype_params, :description, :video_link, :image
+
   belongs_to :owner, :class_name => 'User', :foreign_key => 'user_id'
+
   has_many :problem_set_problems
   has_many :problem_types, :through => :problem_set_problems
-
   has_many :problem_set_instances
   has_many :users, :through => :problem_set_instances
-
   has_many :classroom_problem_sets
   has_many :classrooms, :through => :classroom_problem_sets
-
   has_many :quizzes
+
   accepts_nested_attributes_for :problem_set_problems, :allow_destroy => true
 
   before_validation :parse_ptype_params

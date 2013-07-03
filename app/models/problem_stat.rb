@@ -5,9 +5,16 @@ class ProblemStat < ActiveRecord::Base
   belongs_to :problem_type
   # has_many :answers, through: :problem_type
   has_many :problem_generators, through: :problem_type # I think this is unused TODO
-
   has_many :problem_set_stats
   has_many :quiz_stats
+  has_many :quiz_problem_stats
+  has_many :problem_set_stats
+  has_many :answers, :finder_sql => proc { %Q{
+    SELECT "answers".* FROM "answers" 
+    WHERE "answers"."user_id" = #{user_id}
+    AND "answers"."problem_type_id" = #{problem_type_id}
+    ORDER BY created_at DESC
+  } }
 
   validates :problem_type, :presence => true
   validates :user, :presence => true
@@ -18,15 +25,6 @@ class ProblemStat < ActiveRecord::Base
                       :numericality => { :only_integer => true,
                                          :greater_than_or_equal_to => 0 }
 
-  has_many :quiz_problem_stats
-  has_many :problem_set_stats
-
-  has_many :answers, :finder_sql => proc { %Q{
-    SELECT "answers".* FROM "answers" 
-    WHERE "answers"."user_id" = #{user_id}
-    AND "answers"."problem_type_id" = #{problem_type_id}
-    ORDER BY created_at DESC
-  } }
 
   def update_w_ans!(answer)
     if answer.points.nil?
@@ -122,5 +120,4 @@ class ProblemStat < ActiveRecord::Base
   def self.red
     where("points > ?", 89)
   end
-
 end

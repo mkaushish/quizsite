@@ -108,17 +108,11 @@ ul {
 input[type="text"] {
   border-radius:0;
   border:1px solid gray;
-  margin: 3px;
-  padding:2px;
 }
 
 input[type="password"] {
-  border-style: solid;
-  border-color: $graphite;
-  color: $graphite;
-  background: white;
-  padding-left:1px;
-  margin:0;
+  border-radius:0;
+  border:1px solid gray;
 }
 
 input[type="submit"] {

@@ -4,8 +4,8 @@ class ProblemSetStat < ActiveRecord::Base
   include HasProgressBar
 
   belongs_to :problem_type
-
   belongs_to :problem_set_instance
+
   validates :problem_set_instance, :presence => true
 
   has_one :user, :through => :problem_set_instance

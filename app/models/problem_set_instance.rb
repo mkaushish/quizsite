@@ -1,15 +1,16 @@
 class ProblemSetInstance < ActiveRecord::Base
+  
   belongs_to :problem_set
   belongs_to :user
 
   has_many :problem_set_stats, :dependent => :destroy
   has_many :problem_stats, :through => :problem_set_stats
-
   has_many :problem_set_problems, :through => :problem_set
   has_many :problem_types, :through => :problem_set_problems
 
   has_many :assigned_quizzes, :class_name => 'QuizInstance',
                               :conditions => 'complete ISNULL'
+
 
   has_many :answers, :as => :session
 

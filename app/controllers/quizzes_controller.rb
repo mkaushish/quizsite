@@ -126,6 +126,7 @@ class QuizzesController < ApplicationController
         quiz.user_id == current_user.id
     end
 
+
     def params_to_problemtype_ids
         p_ptypes = params[:problem_types]
         p_ptypes.nil? ? [] : p_ptypes.keys.map { |e| e.to_i }

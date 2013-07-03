@@ -64,10 +64,20 @@ class Student < User
 
     def self.create_badges(student)
         Badge.BadgeAPSD(student)
+        Badge.BadgeNQCIARFTO(student,5)
+        Badge.BadgeNQCIARFTO(student,10)
         Badge.BadgePSB(student)
-        Badge.BadgeFNQCIARFTO(student)
+        Badge.BadgePTB(student)
         Badge.BadgeCAPSWAD(student)
         Badge.BadgeTRQC(student)
+        Badge.BadgeNPSB(student,5)
+        Badge.BadgeNPSB(student,10)
+        Badge.BadgeNQCIARFNT(student, 5, 5)
+        Badge.BadgeNQCIARFNT(student, 5, 10)
+        Badge.BadgeNQCIARFNT(student, 5, 15)
+        Badge.BadgeNQCIARFNT(student, 10, 5)
+        Badge.BadgeNQCIARFNT(student, 10, 10)
+        Badge.BadgeNQCIARFNT(student, 10, 15)
     end
 
     private
