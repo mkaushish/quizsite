@@ -43,7 +43,6 @@ class QuizzesController < ApplicationController
     # POST /quiz
     # quiz problems come in in theformat of 
     def create
-        debugger
         @classroom = Classroom.find params[:classroom_id]
 
         quiz_problems_attributes = []
