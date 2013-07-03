@@ -8,15 +8,15 @@ class QuizStat < ActiveRecord::Base
 
   validates :quiz_instance, :presence => true
 
-  def update!(answer)
-    remaining -= 1
+  def points_for(correct = nil) ; 200 end
 
-    if remaining <= 0
-      delete
-      return nil
-    end
+  def update_w_ans!(answer)
+    answer.points = points_for(answer.correct)
+    answer.save
+    self.problem_stat = stat.update_w_ans!(answer)
 
+    self.remaining = remaining - 1
     change_problem
-    self
+    save
   end
 end

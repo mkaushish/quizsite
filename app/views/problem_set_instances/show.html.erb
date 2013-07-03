@@ -1,13 +1,15 @@
+
 <!--<div class=row-fluid>
-  <%= render 'students/student_info', :@student => current_user %>
+  <%#= render 'students/student_info', :@student => current_user %>
 
   <h3 style="display:inline-block;">Learning</h3>
   <ul class="breadcrumb">
     <li><b>6th Grade </b><span class="divider">&amp;</span></li>
-    <li><%= link_to "Overview", studenthome_path %><span class="divider">&amp;</span></li>
-    <li class=active><%= @problem_set.name %></li>
+    <li><%#= link_to "Overview", studenthome_path %><span class="divider">&amp;</span></li>
+    <li class=active><%#= @problem_set.name %></li>
   </ul>
 </div>-->
+
 <%= render 'shared/shelf', :@student => current_user %>
 <div class="quiz-link">
 <%= link_to "Quiz", quiz_do_path(@problem_set.id), :remote => true %>

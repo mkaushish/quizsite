@@ -1,7 +1,7 @@
 <h2>Edit Your Profile</h2>
 <%= form_for @student, :url => update_student_path(@student), :html => { :multipart => true } do |f| %>    
         
-<% if @student.errors.any? %>
+ <% if @student.errors.any? %>
     <div class="alert alert-error">
       <div id="error_explanation">
         <h5><%= pluralize(@student.errors.count, "error") %> prohibited this comment from being saved:</h5>
@@ -39,15 +39,32 @@
     </div>
   </div>
   
-  <div class="control-group">
-    <%= f.label :image, :class => 'control-label' %>
-    <div class="controls">
-      <%= f.file_field :image, :class => 'text_field' %>
-    </div>
+  <div >
+    <%= f.hidden_field :image %>
   </div>
   
+  <div class="control-group">
+    <div class="controls">
+      <%= link_to image_tag("avatar1.jpg", :size => "60x60"),"#" ,:id=>"image1", :onclick=> 'do_stuff("avatar1.jpg")' %>
+      <%= link_to image_tag("avatar2.jpg", :size => "60x60"),"#" ,:id=>"image2", :onclick=> 'do_stuff("avatar2.jpg")' %>
+      <%= link_to image_tag("avatar3.jpg", :size => "60x60"),"#" ,:id=>"image3", :onclick=> 'do_stuff("avatar3.jpg")' %>
+      <%= link_to image_tag("avatar4.jpg", :size => "60x60"),"#" ,:id=>"image4", :onclick=> 'do_stuff("avatar4.jpg")' %>
+    </div>
+  </div>
+
+
+
   <div class="form-actions">
     <%= f.submit "Update", :class => 'btn btn-info' %>
     <%= link_to "Cancel", studenthome_path, class: "btn" %>
   </div>
 <% end %>
+
+<script>
+function do_stuff(value) {
+  var image = value;
+  $(this).css("border","1px solid black");
+  $("#student_image").val(image);
+}
+
+</script>

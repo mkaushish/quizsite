@@ -1,0 +1,5 @@
+var $p = initProblemOverlay();
+// console.log("rendering problem:");
+$p.html("<%= j render("quiz_problems/form", :@quiz_problem => @quiz_problem ) %>");
+initProblem();
+// $('#quiz_problems').prepend("<%= j render("quiz_problem", :quiz_problem => @quiz_problem ) %>");

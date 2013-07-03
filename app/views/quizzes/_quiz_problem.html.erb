@@ -1,0 +1,4 @@
+<li id = "quiz_problem_<%= quiz_problem.id %>">
+	<%= link_to quiz_problem.problem_type.name, problem_path(quiz_problem.problem), remote: :true %>
+	<%= link_to "Remove", delete_quiz_problem_path(quiz_problem), method: :delete, confirm: "Do you really want to delete the Quiz Problem", remote: :true, :class =>"pull-right" %>
+</li>

@@ -6,6 +6,8 @@ require 'c7'
 require 'physics'
 
 class AnswersController < ApplicationController
+
+  before_filter :validate_student
   # GET /answers
   # GET /answers.json
   def index
@@ -20,6 +22,7 @@ class AnswersController < ApplicationController
   # post /answers/1, js
   def show
     @instance = ProblemSetInstance.find(params[:instance])
+    @instance ||= ProblemSetInstance.last
     @answer = Answer.includes(:problem).find(params[:id])
     @stat = @instance.stat(@answer.problem_type)
     @problem = @answer.problem.problem
@@ -28,6 +31,13 @@ class AnswersController < ApplicationController
     puts @solution.inspect
     @response = @answer.response_hash
   end
+
+  # def show_answer_home_page
+  #   @answer = current_user.answers.includes(&:problem_set_instance)
+  #   @problem = @answer.problem.problem
+  #   @solution = @problem.prefix_solve
+  #   @response = @answer.response_hash
+  # end
 
   def sample_prob_ans
     @answer = Answer.includes(:problem).find(params[:id])
@@ -61,4 +71,9 @@ class AnswersController < ApplicationController
 
   # POST /answers
   # POST /answers.json
+
+  private
+  def validate_student
+    @student = current_user
+  end
 end

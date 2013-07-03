@@ -18,7 +18,7 @@ $border_w: 7px;
 }
 .badge {
   float: right;
-  position:relative;
+  position:absolute;
   top: -28px;
   background: transparent;
 }
@@ -134,12 +134,74 @@ box-shadow: inner 0 0 10px black;
     border-radius:50%;
     font-family: "Home_hand";
   }
+
+
+
   .normal_a_link:hover{
   }
 
   h5 {
   }
 }
+
+.BadgeFNQCIARFTO { 
+    position:relative;
+    float: left;
+    font-size: 27px;
+    color: white;
+    top: -38px;
+    height: 65px;
+    width: 75px;
+    margin: 0px;
+    padding-top: 15px;
+    background-color: rgb(103, 73, 179);
+    border-radius: 50%;
+    line-height: 10px;
+    font-family: "Home_hand"; 
+  }
+
+  .BadgeAPSD {position:relative;
+float: left;
+font-size: 27px;
+color: white;
+top: -38px;
+height: 65px;
+width: 75px;
+margin: 0px;
+padding-top: 15px;
+background-color: rgb(103, 73, 179);
+border-radius: 50%;
+line-height: 10px;
+font-family: "Home_hand";}
+
+  .BadgeCAPSWAD {position:relative;
+float: left;
+font-size: 27px;
+color: white;
+top: -38px;
+height: 65px;
+width: 75px;
+margin: 0px;
+padding-top: 15px;
+background-color: rgb(103, 73, 179);
+border-radius: 50%;
+line-height: 10px;
+font-family: "Home_hand";}
+
+  .BadgeCAPSWAD {position:relative;
+float: left;
+font-size: 27px;
+color: white;
+top: -38px;
+height: 65px;
+width: 75px;
+margin: 0px;
+padding-top: 15px;
+background-color: rgb(103, 73, 179);
+border-radius: 50%;
+line-height: 10px;
+font-family: "Home_hand";}
+
 
 div.pset_list_box:hover{
 
@@ -241,7 +303,7 @@ margin-bottom: 50px;
 margin-left: 0px;
 
 }
-.shelf ul {
+.shelf .shelf_ul {
     margin: 23px 0;
     padding: 0;
     height: 19px;
@@ -249,7 +311,7 @@ margin-left: 0px;
     background-color: #ccc;
 }
  
-    .shelf ul:before {
+    .shelf .shelf_ul:before {
         border-right: 38px solid transparent;
         border-top: 18px solid #FFFFFF;
         content: "";
@@ -258,7 +320,7 @@ margin-left: 0px;
         width: 0;
     }
  
-    .shelf ul:after {
+    .shelf .shelf_ul:after {
         border-left: 38px solid transparent;
         border-top: 18px solid #FFFFFF;
         content: "";
@@ -267,7 +329,7 @@ margin-left: 0px;
         width: 0;
     }
  
-.shelf li {
+.shelf .shelf_ul .shelf_li {
     float: left;
     list-style: none outside none;
     margin: -27px 10px 0;
@@ -286,7 +348,7 @@ margin-left: 0px;
   transform: rotateY(50deg);
 -webkit-transform: rotateY(50deg);
  }
-.shelf a {
+.shelf_ul a {
 
     padding: 7px;
     display: block;
@@ -320,8 +382,10 @@ background-image: -webkit-gradient(
   font-family: 'Home_hand';
   font-size:30px;
 }
+
 .plate:hover{
   background-color:$sg_green;
   -webkit-transition: all 0.5s ease-in-out 0s;
 -webkit-border-radius: 10px;
   }
+

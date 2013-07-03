@@ -1,6 +1,11 @@
 class ProblemSetInstancesController < ApplicationController
+  
+  before_filter :validate_student
   # GET /psets/:name
   # psets_path(:name)
+  
+  before_filter :validate_student
+
   def show
     @problem_set = ProblemSet.includes(:problem_types).find(params[:name])
     @instance = ProblemSetInstance.where(:problem_set_id => @problem_set.id,
@@ -54,7 +59,7 @@ class ProblemSetInstancesController < ApplicationController
   end
 
   # POST /problem_sets/:name/finish_problem
-  # ps_finish_problem_path(:name)
+  # finish_ps_problem_path(:name)
   def finish_problem
     @stat = ProblemSetStat.includes(:problem_set_instance).includes(:problem_type).find(params[:stat_id])
     redirect_to access_denied_path && return if @stat.user != current_user
@@ -70,11 +75,13 @@ class ProblemSetInstancesController < ApplicationController
     @instance.num_blue = @instance.problem_stats.blue.count
     @instance.num_green = @instance.problem_stats.green.count
     @instance.num_red = @instance.problem_stats.count - @instance.num_blue - @instance.num_green
+    @instance.last_attempted = Time.now
     @instance.save
     @problem = @answer.problem.problem
     @solution = @problem.prefix_solve
     @response = @answer.response_hash
-
+    @changedPoints = @answer.points
+    
     render 'show_answer', locals: {callback: 'problem_set_instances/finish_problem'}
   end
 
@@ -93,5 +100,9 @@ class ProblemSetInstancesController < ApplicationController
                             .order("created_at DESC")
                             .includes(:problem)
                             .limit(n)
+  end
+
+  def validate_student
+    @student = current_user
   end
 end

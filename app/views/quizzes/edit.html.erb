@@ -1,4 +1,5 @@
 <div class="logo">Update Quiz</div>
+
 <%= form_tag(quiz_path(@quiz), :method => :put) do %>
   <%= render :partial => 'form', :locals => {:quizname => @quiz.name} %>
 <% end %>

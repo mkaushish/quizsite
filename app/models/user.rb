@@ -19,6 +19,8 @@ class User < ActiveRecord::Base
   # has_many :problem_types # custom problems created by user
   has_many :problem_stats, :dependent => :destroy # mastery stats
 
+  has_many :notifications
+
   validates :name, :presence => true,
                    :length => { :maximum => 50 }
 
@@ -32,14 +34,14 @@ class User < ActiveRecord::Base
                        :length => { :within => 6..40 },
                        :if => lambda{|a| a.new_record?}
 
-  validates_attachment_content_type :image,
-                                    :content_type => ['image/png', 'image/jpeg', 'image/jpg', 'image/gif'],
-                                    :message => "Not supported file type",
-                                    :if => lambda{|a| !a.new_record?}
+  #validates_attachment_content_type :image,
+  #                                  :content_type => ['image/png', 'image/jpeg', 'image/jpg', 'image/gif'],
+  #                                  :message => "Not supported file type",
+  #                                  :if => lambda{|a| !a.new_record?}
 
-  has_attached_file :image, 
-                    :styles => { :medium => "300x300>", :thumb => "70x70>", :small => "40x40>" }, 
-                    :default_url => "/assets/default_70x70.png"
+  #has_attached_file :image, 
+  #                   :styles => { :medium => "300x300>", :thumb => "70x70>", :small => "40x40>" }, 
+  #                   :default_url => "/assets/default_70x70.png"
 
   before_save  :encrypt_password
 

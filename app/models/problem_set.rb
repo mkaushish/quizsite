@@ -57,6 +57,18 @@ class ProblemSet < ActiveRecord::Base
     ptyps_hash[problem_type.id] = nil
   end
 
+  def default_quiz
+    @q = quizzes.where(:user_id => nil).first
+
+    if @q.nil?
+      @q = quizzes.create
+      @q.default_problems
+      @q.save
+    end
+
+    @q
+  end
+
   private
 
     def parse_ptype_params

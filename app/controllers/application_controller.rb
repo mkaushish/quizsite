@@ -23,6 +23,11 @@ class ApplicationController < ActionController::Base
     deny_access unless signed_in?
   end
 
+  def authenticate_admin
+    deny_access unless current_user.email == "m.adhavkaushish@gmail.com" or current_user.email == "t.homasramfjord@gmail.com
+"  or current_user.email == "madhav.kaushish@gmail.com"  or current_user.email == "amandeep.bhamra@gmail.com"
+  end
+
   def form_err_js(id, message)
     "$('##{id}').addClass('invalid');$('##{id}_err').text(\"#{message}\");"
   end
