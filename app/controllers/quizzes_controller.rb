@@ -102,6 +102,19 @@ class QuizzesController < ApplicationController
         redirect_to edit_quiz_problem_path(@quiz_problem, :type => "all")
     end
 
+    def new_quiz_with_all_ptypes
+        @classrooms = @teacher.classrooms
+        @problem_types = ProblemType.all
+        @quiz = Quiz.create
+    end
+
+    def create_qp_with_all_ptypes
+        @quiz = Quiz.find_by_id(params[:quiz])
+        @quiz_problem = @quiz.quiz_problems.create problem_type_id: params[:ptype], partial: true
+        redirect_to edit_quiz_problem_path(@quiz_problem, :type => "all_ptypes") 
+    end
+
+
     def assign_quiz_to_classrooms
         @quiz = Quiz.find params[:quiz]
         @classrooms = @teacher.classrooms

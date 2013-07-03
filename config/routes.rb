@@ -84,10 +84,14 @@ Quizsite::Application.routes.draw do
 
   get '/:classroom/:pset/new_quiz', to: 'quizzes#new', as: :new_quiz
   get '/quiz_for_all_classes',      to: 'quizzes#new_for_all', as: :new_quiz_for_all
+  get '/quiz_with_all_ptypes',      to: 'quizzes#new_quiz_with_all_ptypes', as: :new_quiz_with_all_ptypes
+
 
   post '/quizzes/create',           to: 'quizzes#create', as: :create_quiz
   post '/:classroom/:pset/partial_create',   to: 'quizzes#partial_create', as: :partial_create_quiz
   post '/quiz_for_all_classes/:quiz',   to: 'quizzes#create_qp_for_all', as: :create_qp_for_all
+  post '/quiz_with_all_ptypes/:quiz',   to: 'quizzes#create_qp_with_all_ptypes', as: :create_qp_with_all_ptypes
+  
   get '/quiz_for_all_classes/:quiz',    to: 'quizzes#assign_quiz_to_classrooms', as: :assign_quiz_to_classrooms
 
     
