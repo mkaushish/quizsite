@@ -38,6 +38,7 @@ font-family: "Home_hand";
   height: 10px;
   overflow:visible;
 }
+
 .stinfo {
   font-family:"Sans";
   font-size:12px;
@@ -156,13 +157,9 @@ box-shadow: inner 0 0 10px black;
   }
   
 
-  .BadgeFNQCIARFTO {}
 
-  .BadgeAPSD {}
+}
 
-  .BadgeCAPSWAD {}
-
-  .BadgeCAPSWAD {}
 
 
 div.pset_list_box:hover{
@@ -348,8 +345,10 @@ background-image: -webkit-gradient(
   font-family: 'Home_hand';
   font-size:30px;
 }
+
 .plate:hover{
   border-style: solid;
   border-color:purple;
   border-width: 2px;
 }
+

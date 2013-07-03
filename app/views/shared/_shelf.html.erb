@@ -1,7 +1,6 @@
 <%@changedPoints = 0%>
 <div id='bigshelf'>
 <div class='shelf' id='shelf_0'>
-<<<<<<< HEAD
   <ul class='shelf_ul'>
     <li class='shelf_li'>
       <%= link_to (image_tag ("#{@student.image}"), :size => "70x70"), edit_student_path, :remote => true unless @student.image.blank? %>
@@ -29,19 +28,6 @@
       </div>
     </li>
 
-=======
-  <ul>
-    <li><%= link_to (image_tag @student.image.url(:thumb)), edit_student_path, :remote => true  %><%= link_to 'Account',  edit_student_path, :remote => true, :class => 'plate' %></li>
-    <li><div id='points'><%= number_with_delimiter(@student.points) %></div><a class='plate' style='margin-top:7px'>Points</a></li>
-
-<!-- Remove the styling when li & ul are given id's -->
-<li><% (current_user.badges).each do |badge| %>
-    <p class = "<%= badge.badge_key %> badges"></p>  
-<% end %><a class='plate' style='margin-top:44px'>Badges</a></li>
-<li><% (current_user.badges).each do |badge| %>
-    <p class = "<%= badge.badge_key %> badgesbw"></p>  
-<% end %><a class='plate' style='margin-top:44px'>Badges</a></li>
->>>>>>> fb74030d187efa1242117dce2e40ee67948e596d
   </ul>
 
  
