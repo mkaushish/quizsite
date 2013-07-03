@@ -1,23 +1,15 @@
 class ProblemSetInstancesController < ApplicationController
   
-
-  before_filter :validate_student
-  # GET /psets/:name
-  # psets_path(:name)
-  
-
-  def show
-    @problem_set = ProblemSet.includes(:problem_types).find(params[:name])
-    @instance = ProblemSetInstance.where(:problem_set_id => @problem_set.id,
-                                         :user_id => current_user.id).first
-    @instance ||= current_user.problem_set_instances.new(:problem_set => @problem_set)
+    before_filter :validate_student
     before_filter :validate_problem_set, :only => [:show, :static_do, :do]
     before_filter :validate_instance, :only => [:show, :static_do, :do]
-
 
     # GET /psets/:name
     # psets_path(:name)
     def show
+        @problem_set = ProblemSet.includes(:problem_types).find(params[:name])
+        @instance = ProblemSetInstance.where(:problem_set_id => @problem_set.id,
+                                         :user_id => current_user.id).first
         @instance ||= current_user.problem_set_instances.new(:problem_set => @problem_set)
         @stats = @instance.stats
         @sessions = []
@@ -36,39 +28,34 @@ class ProblemSetInstancesController < ApplicationController
             redirect_to access_denied_path && return
         end
     end
-  end
 
-  def problem_results
-  end
+    def problem_results
+    end
 
-  # POST /problem_sets/:name/finish_problem
-  # finish_ps_problem_path(:name)
-  def finish_problem
-    @stat = ProblemSetStat.includes(:problem_set_instance).includes(:problem_type).find(params[:stat_id])
-    redirect_to access_denied_path && return if @stat.user != current_user
+    # POST /problem_sets/:name/finish_problem
+    # finish_ps_problem_path(:name)
+    def finish_problem
+        @stat = ProblemSetStat.includes(:problem_set_instance).includes(:problem_type).find(params[:stat_id])
+        redirect_to access_denied_path && return if @stat.user != current_user
 
-    @instance = @stat.problem_set_instance
-
-    # create answer
-    @answer = current_user.answers.create params: params, session: @instance
-
-    # update stats around answer - also modifies @answer but saves
-    @stat.update_w_ans!(@answer)
-    # updating the number of counts of each color type
-    @instance.num_blue = @instance.problem_stats.blue.count
-    @instance.num_green = @instance.problem_stats.green.count
-    @instance.num_red = @instance.problem_stats.count - @instance.num_blue - @instance.num_green
-    @instance.last_attempted = Time.now
-    @instance.save
-    @problem = @answer.problem.problem
-    @solution = @problem.prefix_solve
-    @response = @answer.response_hash
-    @changedPoints = @answer.points
-    Student.create_badges(@student)
-    
-    
-    render 'show_answer', locals: {callback: 'problem_set_instances/finish_problem'}
-  end
+        @instance = @stat.problem_set_instance
+        # create answer
+        @answer = current_user.answers.create params: params, session: @instance
+        # update stats around answer - also modifies @answer but saves
+        @stat.update_w_ans!(@answer)
+        # updating the number of counts of each color type
+        @instance.num_blue = @instance.problem_stats.blue.count
+        @instance.num_green = @instance.problem_stats.green.count
+        @instance.num_red = @instance.problem_stats.count - @instance.num_blue - @instance.num_green
+        @instance.last_attempted = Time.now
+        @instance.save
+        @problem = @answer.problem.problem
+        @solution = @problem.prefix_solve
+        @response = @answer.response_hash
+        @changedPoints = @answer.points
+        Student.create_badges(@student)
+        render 'show_answer', locals: {callback: 'problem_set_instances/finish_problem'}
+    end
 
     def do
         # @instance ||= current_user.problem_set_instances.new(:problem_set => @problem_set)
@@ -98,12 +85,10 @@ class ProblemSetInstancesController < ApplicationController
                             .order("created_at DESC")
                             .includes(:problem)
                             .limit(n)
-  end
+    end
 
-  def validate_student
-    @student = current_user
-  end
-
+    def validate_student
+        @student = current_user
     end
 
     def validate_problem_set
