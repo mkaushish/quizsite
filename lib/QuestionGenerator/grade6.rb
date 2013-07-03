@@ -53,7 +53,7 @@ CHAPTERS = [
   Algebra,
   Algebra_6,
   ComparingQuantities,
-  Chapter5
+  Chapter5,
   RationalNumbers,
   PerimeterandArea,
   ComparingQuantities

@@ -4,7 +4,7 @@ require_relative '../questionbase'
 require_relative '../tohtml'
 require_relative '../geometry'
 require_relative '../grade6'
-
+require_relative '../modules/names'
 include ToHTML
 include Geometry
 module Chapter5
@@ -259,8 +259,10 @@ class Question6 < QuestionBase
       "Octagon"
     end
     def initialize
-      @numpoints = 8
-      @name = "Octagon"
+      @namearr = ["Pentagon","Hexagon","Septagon","Octagon","Nonagon","Decagon"]
+      @randj= rand(6)
+      @name=@namearr[@randj]
+      @numpoints=@randj+5
     end
 
     def text
@@ -292,14 +294,196 @@ class Question6 < QuestionBase
       ]
     end
   end
+  class Question8 < QuestionBase
+    def self.type
+      "Greater Angle"
+    end
+    def initialize
+      
+      @PI= Math.acos(-1)
+      #here ang11 is the first argument of angle of draw shape of the first figure, similarly others are named like that
+      @rand12=rand(50)/100.0
+      @rand11= (30+rand(110))/100.0
+      @rand22=rand(50)/100.0
+      @rand21= rand(29)/100.0 + @rand11
+      @ang11=@rand11*@PI
+      @ang21=@rand21*@PI
+      @ang12=@rand12*@PI
+      @ang22=@rand22*@PI
+      @choice1=rand(2)
+      @choice2=rand(2)
+      if(@choice1==0)
+        @arc1="arc_3"
+      else
+        @arc1="arc_4"
+      end
+      if(@choice2==0)
+        @arc2="arc_3"
+      else
+        @arc2="arc_4"
+      end
+      
+      if(@arc1=="arc_3")
+        @angle1=@ang11-@ang12
+      else
+        @angle1=2*@PI-@ang11 + @ang12
+      end
+      if(@arc2=="arc_3")
+        @angle2=@ang21-@ang22
+      else
+        @angle2=2*@PI - @ang21 + @ang22
+      end
+
+      if(@angle1 > @angle2)
+        @ans="AOB"
+      elsif (@angle1 < @angle2)
+        @ans="COD"
+      else
+        @ans="equal"
+      end
+        
+          
+    end
+    def solve
+      {"ans" => @ans}
+    end
+    def text
+      
+      [
+        # TextLabel.new("Translate the given table into a bar graph taking the scale as 5 students per unit of length"), 
+         # DrawShape2.new('arc_2',100,100,15,0,@angle,300,300,1,1),
+
+        DrawShape4.new(@arc1,200,200,4,100,@ang11,@ang12,'O','A','B',700,500,1,1),
+        DrawShape4.new(@arc2,500,200,4,100,@ang21,@ang22,'O','C','D',700,500,1,0),
+        Dropdown.new("ans","AOB","COD","equal")
+
+         # DrawShape3.new(@original2,'cm',50,50,0)
+       ]
+    end
+  end
+
+  class Question9 < QuestionBase
+    def self.type
+      "Identify the type of angle"
+    end
+    def initialize
+      #Here the first angle is the second argument of angle in the drawshape function. The first angle is the staring of the arc/line.
+      @PI= Math.acos(-1)
+      @i=rand(8)
+      # if(@i==0)
+      #   @ans="Zero Angle"
+      #   @angle1f=0.0 * @PI
+      #   @angle2f=0.0 * @PI
+      # end
+      if(@i==0)
+        @ans="Straight Angle"
+        @angle1=rand(50)/100.0
+        #@angle2=1.0 + @angle1
+        @angle1f=@angle1*@PI
+        @angle2f=@angle1f + 1.0*@PI
+      end
+      if(@i==1)
+        @ans="Right Angle"
+        @angle1=rand(50)/100.0
+        @angle2=0.5 + @angle1
+        @angle1f=@angle1*@PI
+        @angle2f=@angle2*@PI
+      end
+      if(@i > 1)
+        @angle1=rand(50)/100.0
+        @angle2=(50+rand(149))/100.0
+        @angle1f=@angle1*@PI
+        @angle2f=@angle2*@PI
+        @arc=["arc_3","arc_4"].sample
+        if(@arc == "arc_3")
+          @finangle=@angle2f-@angle1f
+        else
+          @finangle=2*@PI - @angle2f + @angle1f
+        end
+        if(@finangle > 0 && @finangle < @PI*0.5)
+          @ans="Acute Angle"
+        elsif (@finangle > @PI*0.5 && @finangle < @PI)
+          @ans="Obtuse Angle"
+        else
+          @ans="Reflex Angle"
+        end
+      end
+    end
+    def solve
+      {"ans" => @ans}
+    end
+    def text
+      [
+         DrawShape4.new(@arc,400,220,4,200,@angle2f,@angle1f,'O','A','B',700,500,1,1),
+         Dropdown.new("ans","Straight Angle","Acute Angle","Obtuse Angle","Right Angle","Reflex Angle")
+      ]
+    end
+  end
+UNITS = ["mm","cm","dc","m","Dm","hm","km" ]
+  class Question10 < QuestionBase
+    def self.type
+      "Identify the type of Triangle(angle type)"
+    end
+    def initialize
+      @i=1
+      @r=rand(5)
+      if(@r==0)
+        @m=rand(5)+3
+        @a=2*@m
+        @b=@m*@m - 1
+        @c=@m*@m + 1
+      else
+        while(@i>0)
+          @a = rand(25)+10
+          @b = rand(25)+10
+          @c = rand(25)+10
+          if(@a+@b>@c && @a+@c>@b && @b+@c>@a)
+            @i=0
+          end
+        end
+      end
+      @unit=UNITS[rand(2)]
+      @PI=Math.acos(-1)
+      @cosA = (@b*@b+@c*@c-@a*@a)/(2.0*@b*@c)
+      @angleA = Math.acos(@cosA)
+      @cosB = (@a*@a+@c*@c-@b*@b)/(2.0*@a*@c)
+      @angleB = Math.acos(@cosB)
+      @cosC = (@a*@a+@b*@b-@c*@c)/(2.0*@a*@b)
+      @angleC = Math.acos(@cosC)
+      @half=@PI/2.0
+      if(@angleA < @half  && @angleB < @half && @angleC < @half)
+        @ans="Acute angled Triangle"
+      elsif(@angleA==@half || @angleB == @half || @angleC == @half)
+        @ans="Right angled Triangle"
+      else
+        @ans="Obtuse angled Triangle"
+      end
+          
+
+    end
+    def solve
+      {"ans" => @ans}
+    end
+    def text
+      [
+        TextLabel.new("Select correct type of triangle from the choices given below"),
+        DrawShape2.new('scalene',@a,@b,@c,0,1,@unit,500,300,1,1),
+        Dropdown.new("ans","Acute angled Triangle","Obtuse angled Triangle","Right angled Triangle")
+      ]
+    end
+  end
 
 
 
-  PROBLEMS = [Chapter5::Try3_4,
+
+  PROBLEMS =[Chapter5::Try3_4,
   Chapter5::Question2,
   Chapter5::Question3,
   Chapter5::Question4,
   Chapter5::Question5,
   Chapter5::Question6,
-  Chapter5::Question7]
+  Chapter5::Question7,
+  Chapter5::Question8,
+  Chapter5::Question9,
+  Chapter5::Question10]
 end
