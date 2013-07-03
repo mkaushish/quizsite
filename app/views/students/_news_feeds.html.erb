@@ -6,10 +6,13 @@
       	</ul>
 
 <script>
-var size=$(".dropdown-menu li").size();
-$(document).ajaxComplete(getLinkCount);
+var lisize=$(".dropdown-menu li").size();
+$('').ajaxComplete(getLinkCount);
 function getLinkCount(){
-	alert("haha");
+	if($(".dropdown-menu li").size()>lisize)
+	{
+		alert("haha");
+	}
 }
 
 

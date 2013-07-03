@@ -1796,12 +1796,15 @@ table .span24 {
     border-top: none;
     border-bottom: none;
     z-index: 2;}
+    .dropdown-menu:hover{overflow-y:scroll;width:317px;}
 .dropdown-menu {
   position: absolute;
+  
   top: 100%;
   left: -1px;
   right:-1px;
   z-index: 1000;
+  max-height:300px;
   float: left;
   display: none;
   width:300px;
@@ -1809,7 +1812,7 @@ table .span24 {
   padding: 4px 0;
   margin: 0;
   list-style: none;
-  background-color:#FFFFCC;
+  background-color:white;
   border-color: #ccc;
   border-color: rgba(0, 0, 0, 0.2);
   border-style: solid;
@@ -1827,6 +1830,7 @@ table .span24 {
   *border-bottom-width: 2px;
 }
 #news .dropdown-menu li{
+  cursor:pointer;
   position:relative;
   display: block;
     padding: 10px 10px 10px 30px; /* Same padding as the button */
@@ -1854,6 +1858,12 @@ table .span24 {
   line-height: 18px;
   color: #333333;
   white-space: nowrap;
+}
+.dropdown-menu li:hover{
+  background-color: #87CEEB;
+  transition:all 1s ease-in-out;
+  -webkit-transition:all 1s ease-in-out;
+  -moz-transition:all 1s ease-in-out;
 }
 .dropdown-menu li > a:hover,
 .dropdown-menu .active > a,
