@@ -1,0 +1,50 @@
+<div class="row-fluid">
+  	<%= render 'teachers/teacher_info', :teacher => @teacher %>
+</div>
+
+<h5>
+	Quiz for classes: 
+	<% @classrooms.each do |classroom| %>
+		<%= classroom.name %> <%= ", " unless classroom.eql? @classrooms.last %> 
+	<% end %>
+</h5>
+
+<div class="row-fluid">
+    <div class="span4">
+        <div class="dotted-border-header">
+            Problems Types
+        </div>
+        <div class='dotted-border teacher-details-column'>
+            <ul class='column-list' id="quiz_problems_tabs">
+                <% @problem_types.each do |ptype| %>
+                    <% unless ptype.nil? %>
+                        <li><%= ptype.to_s %>
+
+                            <%= link_to "Add to Quiz", create_qp_with_all_ptypes_path(ptype: ptype, quiz: @quiz.id), :class => "pull-right", method: :post, remote: :true %>
+                        </li>
+                    <% end %>                        
+                <% end %>      
+            </ul>
+        </div>
+    </div>
+    <div class="span8">
+        <div class="dotted-border-header">
+            Selected Problems 
+        </div>
+        <div id="assign_quiz_button">
+        </div>
+        <div class='dotted-border teacher-details-column'>
+            <div id="qp">
+                <ul class='column-list' id="quiz_problems">
+                    <% if !@quiz_problems.blank? %>
+                        <% @quiz_problems.each do |quiz_problem| %>
+                          <%= render "quiz_problem", :quiz_problem => quiz_problem %>
+                        <% end %>
+                    <% else %>
+                        <p id="no_qp_msg"><%= "No Problem is Selected Yet!" %></p>
+                    <% end %>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

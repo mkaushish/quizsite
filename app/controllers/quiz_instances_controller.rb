@@ -10,21 +10,17 @@ class QuizInstancesController < ApplicationController
         @instance = QuizInstance.find(params[:id])
         deny_access && return unless @instance.user_id == current_user.id
         return finish_quiz if @instance.over?
-
         @quiz = Quiz.find_by_id(@instance.quiz_id)
         @counter = @quiz.quiz_problems.count - @instance.stats_remaining.count
         @instance.start
-        
         next_problem
     end
 
     def new
         @pset_instance = ProblemSetInstance.find(params[:id])
         deny_access && return unless belongs_to_user(@pset_instance)
-
         @classroom = @student.classrooms.first
         @quiz = @classroom.quizzes.where(:problem_set_id => @pset_instance.problem_set_id).first
-        
         #@instance = QuizInstance.where(:quiz_id => @quiz.id, :problem_set_instance_id => @pset_instance.id).first
         unless @quiz.blank?
             @instance = @quiz.quiz_instances.first
@@ -33,7 +29,6 @@ class QuizInstancesController < ApplicationController
             @counter = @quiz.quiz_problems.count - @instance.stats_remaining.count
             @quiz_stats = @instance.quiz_stats.includes(:problem_type)
             @pset = @instance.problem_set
-            
             next_problem
         else
             redirect_to pset_path(:name => @pset_instance.problem_set_id), notice: "No Quiz for you"
@@ -46,10 +41,8 @@ class QuizInstancesController < ApplicationController
         @instance ||= QuizInstance.includes(:problem_set).find(params[:id])
         deny_access && return unless @instance.user_id == current_user.id
         return finish_quiz if @instance.over?
-
         @answer = @instance.answers.where("correct = false AND problem_id = params[:problem_id]")
         @problem = @answer.first.problem
-
         respond_to do |format|
             format.html { render 'problem' }
             format.js { render 'do' }
@@ -63,15 +56,12 @@ class QuizInstancesController < ApplicationController
         @instance ||= QuizInstance.includes(:problem_set).find(params[:id])
         deny_access && return unless @instance.user_id == current_user.id
         return finish_quiz if @instance.over?
-
         if !@instance.blank?
-            
             @stat = @instance.next_stat
             @problem_type = @stat.problem_type
             @problem = @stat.spawn_problem
             @quiz_stats = @instance.quiz_stats.includes(:problem_type)
             @pset = @instance.problem_set
-            
             respond_to do |format|
                 format.html { render 'problem' }
                 format.js { render 'do' }
@@ -87,7 +77,6 @@ class QuizInstancesController < ApplicationController
         @instance.finish
         @pset = @instance.problem_set
         @answers = @instance.answers.includes(:problem_type)
-    
         render 'results'
     end
 
@@ -95,14 +84,12 @@ class QuizInstancesController < ApplicationController
     def finish_problem
         @stat = QuizStat.includes(:quiz_instance).find(params[:stat_id])
         redirect_to access_denied_path && return if @stat.user != current_user
-
         @instance = @stat.quiz_instance
         @quiz = Quiz.find_by_id(@instance.quiz_id)
         @answer = current_user.answers.create params: params, session: @instance
         @stat.update_w_ans!(@answer)
         @counter = @quiz.quiz_problems.count - @instance.stats_remaining.count
         @pset = @instance.problem_set
-        
         if @instance.over?
             finish_quiz
         else

@@ -4,8 +4,6 @@ gem 'rails', '3.2.11'
 
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
-
-
 gem 'therubyracer'
 gem 'omniauth-oauth2'
 gem 'omniauth-google-oauth2'
