@@ -70,7 +70,6 @@ class StudentsController < ApplicationController
     @new_pass = params['student']['new_password']
     @confirm_pass = params['student']['confirm_password']
     @student.change_password(@old_pass, @new_pass, @confirm_pass)
-    debugger
     sign_in @student
     respond_to do |format|
       if @student.update_attributes(params[:student])
