@@ -2,7 +2,9 @@ login: &login
   adapter: postgresql
 
 
+
   username: manav04
+
 
   password:
   database: smartergrades

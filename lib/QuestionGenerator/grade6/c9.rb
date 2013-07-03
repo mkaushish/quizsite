@@ -232,7 +232,8 @@ class TallyQuesEasy2 < QuestionWithExplanation
   end
 end
 
-
+ACTIVITIES=[["Rice", "Wheat", "Both"],["English", "Maths", "Stutied Both"],["Coffee","Tea","Both"],
+  ["Watched TV","Played Cricket","Done Both"], ["Played Cricket","Played Soccer","Played Both"]]
 
   class TallyQuesEasy3 < QuestionWithExplanation
     def initialize

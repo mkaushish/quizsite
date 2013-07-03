@@ -12,14 +12,12 @@ class User < ActiveRecord::Base
   has_many :answers, :dependent => :destroy
   has_many :quiz_instances, :dependent => :destroy
   has_many :quizzes, :through => :quiz_instances
-
   has_many :problem_set_instances, :dependent => :destroy
   has_many :problem_sets, :through => :problem_set_instances
-
   # has_many :problem_types # custom problems created by user
   has_many :problem_stats, :dependent => :destroy # mastery stats
 
-  has_many :notifications
+  has_many :news_feeds
 
   validates :name, :presence => true,
                    :length => { :maximum => 50 }
@@ -33,15 +31,6 @@ class User < ActiveRecord::Base
                        :confirmation => true,
                        :length => { :within => 6..40 },
                        :if => lambda{|a| a.new_record?}
-
-  #validates_attachment_content_type :image,
-  #                                  :content_type => ['image/png', 'image/jpeg', 'image/jpg', 'image/gif'],
-  #                                  :message => "Not supported file type",
-  #                                  :if => lambda{|a| !a.new_record?}
-
-  #has_attached_file :image, 
-  #                   :styles => { :medium => "300x300>", :thumb => "70x70>", :small => "40x40>" }, 
-  #                   :default_url => "/assets/default_70x70.png"
 
   before_save  :encrypt_password
 

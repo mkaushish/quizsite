@@ -7,7 +7,6 @@ gem 'rails', '3.2.11'
 
 
 gem 'therubyracer'
-#gem "paperclip", "~> 3.0"
 gem 'omniauth-oauth2'
 gem 'omniauth-google-oauth2'
 # gems in just test and dev environments

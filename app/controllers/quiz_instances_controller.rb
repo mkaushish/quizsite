@@ -1,8 +1,8 @@
 class QuizInstancesController < ApplicationController
-  
+
     before_filter :authenticate
     before_filter :validate_student
-    
+
     # GET quizzes/:id/start
     # start_quiz_path(@quiz)
     def start
@@ -118,5 +118,6 @@ class QuizInstancesController < ApplicationController
 
     def validate_student
         @student = current_user
+
     end
 end

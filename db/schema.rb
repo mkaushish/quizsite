@@ -11,7 +11,10 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
+
 ActiveRecord::Schema.define(:version => 20130624082102) do
+
+ActiveRecord::Schema.define(:version => 20130702124018) do
 
   create_table "answers", :force => true do |t|
     t.boolean  "correct"
@@ -38,6 +41,8 @@ ActiveRecord::Schema.define(:version => 20130624082102) do
     t.integer  "student_id"
     t.string   "name"
     t.string   "badge_key"
+    t.string   "image"
+    t.integer  "level"
   end
 
   create_table "classroom_assignments", :force => true do |t|
@@ -146,9 +151,6 @@ ActiveRecord::Schema.define(:version => 20130624082102) do
   create_table "problem_sets", :force => true do |t|
     t.string  "name"
     t.integer "user_id"
-    t.string  "image"
-    t.string  "description"
-    t.string  "video_link"
   end
 
   create_table "problem_stats", :force => true do |t|
@@ -235,6 +237,12 @@ ActiveRecord::Schema.define(:version => 20130624082102) do
     t.boolean  "confirmed",          :default => false
     t.string   "type"
     t.integer  "points",             :default => 0
+
+    t.string   "image_file_name"
+    t.string   "image_content_type"
+    t.integer  "image_file_size"
+    t.datetime "image_updated_at"
+
     t.string   "first_name"
     t.string   "last_name"
     t.string   "gender"
