@@ -752,7 +752,7 @@ module PerimeterandArea
         [
           InlineBlock.new(TextLabel.new("A door of length #{@a}m and breadth #{@b}m is fitted in a wall.The length of the wall is #{@length}m and the breadth is #{@breadth}m.Find the cost of white washing the wall, if the rate of white washing the wall is Rs#{@cost1} per"),
             Exponent.new(TextLabel.new("#{@unit}"),TextLabel.new("2"))),
-           DrawShape3.new(@figure,'m',50,50,1),
+           DrawShape3.new(@figure,'m',50,50,1,300,300,1,1),
           InlineBlock.new(TextField.new("ans1"),Exponent.new(TextLabel.new("#{@unit}"),TextLabel.new("2"))),
        ]
       else
@@ -831,7 +831,7 @@ module PerimeterandArea
     def text
       [
         TextLabel.new("What is the perimeter of the folowing parallelogram ?"),
-        DrawShape3.new(@figure,@unit,50,50,1),
+        DrawShape3.new(@figure,@unit,50,50,1,300,300,1,1),
         InlineBlock.new(TextField.new("ans"),TextLabel.new("#{@unit}"))
       ]
     end
@@ -891,7 +891,7 @@ module PerimeterandArea
     def text
       [
         TextLabel.new("What is the area of the folowing parallelogram ?"),
-        DrawShape3.new(@figure,@unit,50,50,1),
+        DrawShape3.new(@figure,@unit,50,50,1,300,300,1,1),
         InlineBlock.new(TextField.new("ans"),Exponent.new(TextLabel.new("#{@unit}"),TextLabel.new("2")))
       ]
     end
@@ -950,7 +950,7 @@ module PerimeterandArea
     def text
       [
         InlineBlock.new(TextLabel.new("The area of the folowing parallelogram is #{@base*@height}"),Exponent.new(TextLabel.new("#{@unit}"),TextLabel.new("2")),TextLabel.new("Find the height")),
-        DrawShape3.new(@figure,@unit,10,20,1),
+        DrawShape3.new(@figure,@unit,10,20,1,300,300,1,1),
         InlineBlock.new(TextField.new("ans"),TextLabel.new("#{@unit}"))
       ]
     end

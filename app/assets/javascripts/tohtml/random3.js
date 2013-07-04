@@ -120,8 +120,8 @@ function createshape1(a,par1,par2,par3,par4,par5,unit)
 		ctx.rect(startx,starty,length,breadth);
 		ctx.strokeStyle = "black";
 		ctx.stroke();
-		ctx.fillStyle = "white";
-		ctx.fill();
+		// ctx.fillStyle = "white";
+		// ctx.fill();
   		ctx.fillStyle = "blue";
  		ctx.font = " 14px Arial";
   		// ctx.fillText(" "+length/10+""+unit, startx+length/4, starty-5);
@@ -133,8 +133,8 @@ function createshape1(a,par1,par2,par3,par4,par5,unit)
 		ctx.rect(startx,starty,length,breadth);
 		ctx.strokeStyle = "black";
 		ctx.stroke();
-		ctx.fillStyle = "white";
-		ctx.fill();
+		// ctx.fillStyle = "white";
+		// ctx.fill();
   		ctx.fillStyle = "blue";
  		ctx.font = " 14px Arial";
   		ctx.fillText(" "+length/10+""+unit, startx+length/4, starty-5);
@@ -146,8 +146,8 @@ function createshape1(a,par1,par2,par3,par4,par5,unit)
 		ctx.rect(startx,starty,length,breadth);
 		ctx.strokeStyle = "black";
 		ctx.stroke();
-		ctx.fillStyle = "white";
-		ctx.fill();
+		// ctx.fillStyle = "white";
+		// ctx.fill();
   		ctx.fillStyle = "blue";
  		ctx.font = " 14px Arial";
   		// ctx.fillText(" "+length/10+""+unit, startx+length/4, starty-5);
@@ -159,8 +159,8 @@ function createshape1(a,par1,par2,par3,par4,par5,unit)
 		ctx.rect(startx,starty,length,breadth);
 		ctx.strokeStyle = "black";
 		ctx.stroke();
-		ctx.fillStyle = "white";
-		ctx.fill();
+		// ctx.fillStyle = "white";
+		// ctx.fill();
   		ctx.fillStyle = "blue";
  		ctx.font = " 14px Arial";
   		ctx.fillText(" "+length/10+""+unit, startx+length/4, starty-5);
@@ -184,9 +184,9 @@ function createshape1(a,par1,par2,par3,par4,par5,unit)
 		ctx.lineTo(startx,starty);
 		ctx.strokeStyle = "black";
 		ctx.stroke();
-		ctx.fillStyle = "white";
-		ctx.fill();
-  		ctx.fillStyle = "blue";
+		// ctx.fillStyle = "white";
+		// ctx.fill();
+  		sctx.fillStyle = "blue";
  		ctx.font = " 14px Arial";
   		ctx.fillText(" "+length/10+""+unit, startx+length/4, starty-5);
   		ctx.textAlign="center";
@@ -206,8 +206,8 @@ function createshape1(a,par1,par2,par3,par4,par5,unit)
 		ctx.lineTo(startx,starty);
 		ctx.strokeStyle = "black";
 		ctx.stroke();
-		ctx.fillStyle = "white";
-		ctx.fill();
+		// ctx.fillStyle = "white";
+		// ctx.fill();
 		ctx.beginPath();
 		ctx.moveTo(startx+length/2,starty-height);
 		ctx.lineTo(startx+length/2,starty);

@@ -1454,7 +1454,7 @@ class Sub_polynomials2 < QuestionWithExplanation
    Algebra::Mul_tri_tri,
    Algebra::Evaluate,
    Algebra::Createkb,
-   Algebra::Createkb2
+   # Algebra::Createkb2
 
     ] # //Anurag is module name and dummy is class name
 end
