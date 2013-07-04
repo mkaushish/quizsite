@@ -1,6 +1,6 @@
 <% elt = corrected_problem_elt %>
 <% if ans_correct? %>
-  <%= render_tohtml(local_assigns.merge(response:@response), elt) %>
+  <%= render_tohtml(local_assigns.merge(solution:@response), elt) %>
 
 <% elsif elt.contains_response_and_soln? %>
     <%= render_tohtml(local_assigns, elt) %>

@@ -8,7 +8,7 @@
       data-movable="false"
       data-which="movinp">  
       <%=hidden_field_tag("nlcanvasans_bigdiv", inpnumberline.bigdiv)%>
-      <%=hidden_field_tag("nlcanvasans_"+inpnumberline.name, @solution["#{inpnumberline.name}"])%>
+      <%=hidden_field_tag("nlcanvasans_"+inpnumberline.name, @response["#{inpnumberline.name}"])%>
       <script>
         //setUpNL("nlcanvasans", "<%=inpnumberline.name%>", false, false, "movinp");
         $("#nlcanvasans").unbind("mousemove");
@@ -25,7 +25,7 @@
       data-movable="false"
       data-which="movinp">   
         <%=hidden_field_tag("nlcanvasinans_bigdiv", inpnumberline.bigdiv)%>
-        <%=hidden_field_tag("nlcanvasinans_"+inpnumberline.name, @response["#{inpnumberline.name}"])%>
+        <%=hidden_field_tag("nlcanvasinans_"+inpnumberline.name, @solution["#{inpnumberline.name}"])%>
         <script>
           //setUpNL("nlcanvasinans", "<%=inpnumberline.name%>", false, false, "movinp");
           $("#nlcanvasinans").unbind("mousemove");

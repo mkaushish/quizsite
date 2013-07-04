@@ -148,6 +148,9 @@ ActiveRecord::Schema.define(:version => 20130702124018) do
   create_table "problem_sets", :force => true do |t|
     t.string  "name"
     t.integer "user_id"
+    t.string  "image"
+    t.string  "description"
+    t.string  "video_link"
   end
 
   create_table "problem_stats", :force => true do |t|

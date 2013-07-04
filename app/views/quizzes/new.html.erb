@@ -1,3 +1,7 @@
-<% if params[:type] = "single_class" %>
-    <%= render "single_class" %>
+<% if @quiz_type.eql? "single_class" %>
+    <%= render "single_class", :@classroom => @classroom, :@problem_set => @problem_set, :@quiz => @quiz, :@quiz_problem => @quiz_problem %>
+<% elsif @quiz_type.eql? "all_classes" %>
+    <%= render "all_classes", :@classrooms => @classrooms, :@problem_sets => @problem_sets, :@problem_set => @problem_set, :@quiz => @quiz, :@quiz_problem => @quiz_problem %>
+<% elsif @quiz_type.eql? "all_classes_and_all_problem_types" %>
+    <%= render "all_classes_and_all_problem_types", :@classrooms => @classrooms, :@problem_types => @problem_types, :@quiz => @quiz %>
 <% end %>

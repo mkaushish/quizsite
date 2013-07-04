@@ -19,8 +19,7 @@
                 <% @problem_types.each do |ptype| %>
                     <% unless ptype.nil? %>
                         <li><%= ptype.to_s %>
-
-                            <%= link_to "Add to Quiz", create_qp_with_all_ptypes_path(ptype: ptype, quiz: @quiz.id), :class => "pull-right", method: :post, remote: :true %>
+                            <%= link_to "Add to Quiz",  partial_create_quiz_path(ptype: ptype, quiz: @quiz.id, type: "all_classes_and_all_problem_types"), :class => "pull-right", method: :post, remote: :true %>
                         </li>
                     <% end %>                        
                 <% end %>      

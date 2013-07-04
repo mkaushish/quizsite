@@ -1,3 +1,13 @@
 // Place all the styles related to the badges controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.badges{
+    position:absolute;
+font-size: 8px;
+color: white;
+height: 20px;
+width: 20px;
+background-color: rgb(103, 73, 179);
+border-radius: 50%;
+font-family: "Home_hand";
+  }

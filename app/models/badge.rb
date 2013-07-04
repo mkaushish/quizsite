@@ -20,10 +20,10 @@ class Badge < ActiveRecord::Base
         true_count = @result.select {|v| v =="true"}.count
         if (result_length- true_count) == 0
         	@has_BadgeAPSD = student.badges.find_by_badge_key("BadgeAPSD") 
-			student.news_feeds.create(:content => "Congrats! You have won a new Badge: All problem sets done ", :feed_type => "badge", :user_id => student.id) if @has_BadgeAPSD.nil?
         	if @has_BadgeAPSD.nil?
         		student.points += 50000
         		student.save
+                student.news_feeds.create(:content => "Congrats! You have won a new Badge: All problem sets done ", :feed_type => "badge", :user_id => student.id)
         		student.badges.create(:name => "All problem sets done", :badge_key => "BadgeAPSD", :level => 5)
         	end
 		end
@@ -39,10 +39,11 @@ class Badge < ActiveRecord::Base
             	if total_minus_blue == 0
             		pset_name = pset.problem_set.name
             		@has_BadgePSB = student.badges.find_by_badge_key("BadgePSB")
-            		student.news_feeds.create(:content => "Congrats! You have won a new Badge: #{pset_name} Blue !!", :feed_type => "badge", :user_id => student.id) if @has_BadgePSB.nil?
+            		
             		if @has_BadgePSB.nil?
             			student.points += 5000
             			student.save
+                        student.news_feeds.create(:content => "Congrats! You have won a new Badge: #{pset_name} Blue !!", :feed_type => "badge", :user_id => student.id)
             			student.badges.create(:name => "#{pset_name} Blue !!", :badge_key => "BadgePSB", :level => 3)
           		  	end
         	
@@ -72,6 +73,7 @@ class Badge < ActiveRecord::Base
             	if @has_BadgePTB.nil?
             		student.points += 100
             		student.save
+                    student.news_feeds.create(:content => "Congrats! You have won a new Badge: #{problem_type.name} Blue !!", :feed_type => "badge", :user_id => student.id)
             		student.badges.create(:name => "#{problem_type.name} Blue !!", :badge_key => "Badge#{problem_type.name}B", :level => 1)
             	end	
         	end
@@ -91,6 +93,7 @@ class Badge < ActiveRecord::Base
         	if @has_BadgeNPSD.nil?
         		student.points += 20000
         		student.save
+                student.news_feeds.create(:content => "Congrats! You have won a new Badge: #{n} problem sets done!!", :feed_type => "badge", :user_id => student.id)
         		student.badges.create(:name => "#{n} problem sets done", :badge_key => "Badge#{n}PSD", :level => 4)
         	end
 		end
@@ -122,12 +125,13 @@ class Badge < ActiveRecord::Base
 		unless @result.blank?
 			if @result.select{|v| v == Date.today}.count > 0 == true
 				@has_BadgeCAPSWAD = student.badges.find_by_badge_key("BadgeCAPSWAD")
-				student.news_feeds.create(:content => "Congrats! You have won a new Badge: Completing a problem set within a day", :feed_type => "badge", :user_id => student.id) if @has_BadgeCAPSWAD.nil?
+				
 
 				if @has_BadgeCAPSWAD.nil?
 					student.points += 1000
 					student.save
-					student.badges.create(:name => "Completing a problem set within a day",	:badge_key => "BadgeCAPSWAD")
+				    student.news_feeds.create(:content => "Congrats! You have won a new Badge: Completing a problem set within a day", :feed_type => "badge", :user_id => student.id)
+                	student.badges.create(:name => "Completing a problem set within a day",	:badge_key => "BadgeCAPSWAD")
 				end					
 			end
 		end	
@@ -140,12 +144,13 @@ class Badge < ActiveRecord::Base
 			if @result == true
 				@has_BadgeTRQC = student.badges.find_by_badge_key("BadgeTRQC")
 
-				student.news_feeds.create(:content => "Congrats! You have won a new Badge: First 10 red questions correct ", :feed_type => "badge", :user_id => student.id) if @has_BadgeTRQC.nil?
+				
 
 				if @has_BadgeTRQC.nil?
 					student.points += 100
 					student.save
-					student.badges.create(:name => "First 10 red questions correct", :badge_key => "BadgeTRQC")
+			        student.news_feeds.create(:content => "Congrats! You have won a new Badge: First 10 red questions correct ", :feed_type => "badge", :user_id => student.id)
+            		student.badges.create(:name => "First 10 red questions correct", :badge_key => "BadgeTRQC")
 				end					
 			end
 		end
@@ -170,6 +175,7 @@ class Badge < ActiveRecord::Base
     	    	if @has_BadgeNQCIARFNT.nil?
     	    		student.points += 5000
     	    		student.save
+                    student.news_feeds.create(:content => "Congrats! You have won a new Badge: #{n} questions correction in a row #{times} times!!", :feed_type => "badge", :user_id => student.id)
     	    		student.badges.create(:name => "#{n} questions correction in a row #{times} times", :badge_key => "Badge#{n}QCIARF#{times}T", :level => 3)
           		end	
           	end
