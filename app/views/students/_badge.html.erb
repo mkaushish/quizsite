@@ -1,12 +1,4 @@
-<li class='shelf_li'>
-	<% (current_user.badges).each do |badge| %>
+	<% current_user.badges.each do |badge| %>
     	<p class = "<%= badge.badge_key %> badges"></p>  
 	<% end %>
-	<a class='plate' style='margin-top:44px'>Badges</a>
-</li>
-<li class='shelf_li'>
-	<% (current_user.badges).each do |badge| %>
-    	<p class = "<%= badge.badge_key %> badgesbw"></p>  
-	<% end %>
-	<a class='plate' style='margin-top:44px'>Badges</a>
-</li>
+	<script>badges_look()</script>
