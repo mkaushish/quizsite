@@ -189,7 +189,6 @@ ActiveRecord::Schema.define(:version => 20130702124018) do
     t.datetime "started_at"
     t.datetime "ended_at"
     t.boolean  "complete"
-    t.integer  "problem_set_instance_id"
   end
 
   add_index "quiz_instances", ["quiz_id", "user_id"], :name => "index_quiz_users_on_quiz_id_and_user_id", :unique => true

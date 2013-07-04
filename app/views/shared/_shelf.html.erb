@@ -24,8 +24,12 @@
 
     <li class='shelf_li'>
       <div id="get_badge">
-        <%= render :partial => 'students/badge'%>
+      
+        <%= render 'students/badge' %>
+          
+
       </div>
+        <a class='plate' style='margin-top:44px'>Badges</a>
     </li>
 
   </ul>
@@ -36,5 +40,4 @@
 </div>
 <script>
   shelf_do();
-  badges_look();
 </script>

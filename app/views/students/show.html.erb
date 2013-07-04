@@ -1,1 +1,76 @@
 <%= @student.name %>
+<div id="problems_history" class="teacher-details-header" style="margin-bottom:5px;"></div>
+<div class="row">
+  	<div class="span4">
+		<div class="dotted-border-header">
+	  		Chapters
+		</div>
+		<div class='dotted-border teacher-details-column'>
+	  		<ul class='column-list' id="chapter_tabs" style="width:100%; height:500px; overflow-x:hidden; overflow-y:scroll;">
+				<% @problem_sets.each do |pset| %>
+		  			<li><%= link_to pset.name, "#chap_#{pset.id}", :"data-toggle" => "tab" %></li>
+				<% end %>
+	  		</ul>
+		</div>
+  	</div>
+	<div class="span4">
+		<div class="tab-content">
+	  		<% @problem_sets.each do |pset| %>
+				<div class="tab-pane" id="chap_<%= pset.id %>">
+		  			<div class="dotted-border-header-black">
+						Problem Types
+		  			</div>
+		  			<div class='dotted-border teacher-details-column'>
+						<ul class='column-list' id="column_list" style="width:100%; height:500px; overflow-x:hidden; overflow-y:scroll;">
+			  				<% pset.problem_types.each do |ptype| %>
+			  					<% @count = 0%>
+			  					<% @counttrue = 0%>
+		  						<% ptype.answers.each do |answer|%>
+                                	<% @count = @count? @count+ 1: 0%>
+                                	<%if answer.correct == true%>
+                                		<% @counttrue = @counttrue ? @counttrue +1 :0%>
+                                	<%end%>
+		  						<% end %>
+		  						<li><%= link_to (ptype.name), "#chap_#{pset.id}_#{ptype.id}", :"data-toggle" => "tab" %> 
+		  							<span style="float:right;"><%= ( @counttrue.to_s + "/" +@count.to_s)%></span></li>
+							<% end %>
+						</ul>
+		  			</div>     
+				</div>
+				<div class="tab-pane" id="chap">
+							  			<div class="dotted-border-header-black">
+						Problem Types 2
+		  			</div>
+				</div>
+	  		<% end %>
+		</div>
+  	</div>
+	<div class="span4">
+   		<div class="tab-content">
+			<% @problem_sets.each do |pset| %>
+				<% pset.problem_types.each do |ptype|%>
+					<div class="tab-pane" id="chap_<%= pset.id %>_<%= ptype.id%>">
+	  					<div class='dotted-border-header'>
+							<h4>History</h4>
+	  					</div>
+	  					<div class='dotted-border' style='min-height:400px;'>
+							<ul class='column-list' id="History_tabs" style="width:100%; height:500px; overflow-x:hidden; overflow-y:scroll;">
+		  						<% ptype.answers.each do |answer| %>
+		  							<% if answer.user_id == @student.id %>
+		  								<%if answer.correct == true%>
+											<li><%= link_to (answer.problem_type.to_s), show_answer_path(id: answer.id, instance: pset.id), remote: true %><span style="float:right;"><%= image_tag "correct_check.jpg"%></span>
+											</li>	
+										<% else %>		
+											<li><%= link_to (answer.problem_type.to_s), show_answer_path(id: answer.id, instance: pset.id), remote: true %><span style="float:right;"><%= image_tag "incorrect_x.jpg"%></span>
+										<% end %>
+											</li>
+		  							<% end %>
+	  							<% end %>
+							</ul>
+						</div>
+					</div>
+				<% end %>
+			<% end %>
+  		</div>
+	</div>
+</div>

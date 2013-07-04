@@ -1,6 +1,5 @@
 
 <%= render 'shared/shelf', :@student => current_user, :@badges => @badges %>
-
 <div>
 <div style='float:left'>
   <div class='dotted-border-header'>
@@ -16,6 +15,12 @@
     <%= render :partial => 'pset_list_box', :object => i %>
   <% end %>
 </div>
+<script>
+  $(function () {
+    $('.teacher-class-col').jScrollPane();
+    $('.badge_description').tooltip({title: "#{badge.name}"});
+  })
+</script>
 
 
 </div>
