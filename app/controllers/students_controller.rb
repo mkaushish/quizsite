@@ -70,7 +70,14 @@ class StudentsController < ApplicationController
        @student = Student.find_by_id(params[:id])
     end
 
+<<<<<<< HEAD
     def validate_student_via_current_user
         @student = current_user
     end
+=======
+  def show
+    @student = Student.find_by_id(params[:id])
+    @problem_sets = @student.problem_sets
+  end
+>>>>>>> 55cfa9d81aeab665365d58222f031c91271b2d5b
 end

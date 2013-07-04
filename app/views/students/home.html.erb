@@ -1,5 +1,31 @@
 
 <%= render 'shared/shelf', :@student => current_user, :@badges => @badges %>
+<div class = "row-fluid">
+    <div class = "span4">
+        <div class = 'dotted-border-header'>
+            <h4>Progress Center<h4>
+        </div>
+        <div class='dotted-border' style='min-height:400px;'>
+            <%#= render 'progress_center' %>
+        </div>
+    </div>
+    <div class="gif_tick">
+        <img src="/assets/line_animation.gif"></img>
+    </div>
+    <div class="span8">
+        <div class=jScroll_bboard >
+            <table class=list-box-table>
+                <%# @pset_instances.each_slice(3) do |next_3| %>
+                    <tr>
+                        <%# 3.times do |i| %>
+                            <td><%#= next_3[i].nil? ? "":(render :partial => 'pset_list_box', :object => next_3[i]) %></td>
+                        <%# end %>
+                    </tr>
+                <%# end %>
+            </table>
+        </div>
+    </div>
+</div>
 
 <div>
 <div style='float:left'>
@@ -16,6 +42,12 @@
     <%= render :partial => 'pset_list_box', :object => i %>
   <% end %>
 </div>
+<script>
+  $(function () {
+    $('.teacher-class-col').jScrollPane();
+    $('.badge_description').tooltip({title: "#{badge.name}"});
+  })
+</script>
 
 
 </div>
