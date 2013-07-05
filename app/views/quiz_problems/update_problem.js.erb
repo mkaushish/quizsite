@@ -1,5 +1,5 @@
 // alert("hi");
-<% if defined? params[:type] == "all" %>
+<% if defined? params[:type] == ("all_classes" or "all_classes_and_problem_types") %>
 
 	$('#assign_quiz_button').html("<div class='dotted-border-header pull-right'><%= j(link_to 'Assign Quiz', assign_quiz_to_classrooms_path(@quiz_problem.quiz_id
 )) %></div>");
