@@ -28,7 +28,7 @@
 
       </div>
 
-        <a class='plate' style='margin-top:44px'><%= @student.badges.count %></a>
+        <a class='plate' style='margin-top:44px'><div id='badge_count'><%= render  :partial => 'students/badge_count' %></div></a>
 
       <li class='shelf_li'>
       <div id="get_badge">
@@ -38,7 +38,7 @@
 
       </div>
 
-        <a class='plate' style='margin-top:44px'><%= badgekey.count - @student.badges.count %></a>
+        <a class='plate' style='margin-top:44px'><div id='badgebw_count'><%= render  :partial => 'students/badgebw_count' %></div></a>
 
     </li>
 
