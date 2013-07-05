@@ -20,8 +20,6 @@
       	<div id='news'><%= render  :partial => 'students/news_feeds' %></div>    	
       </div>
   	</li>
-
-
     <li class='shelf_li'>
       <div id="get_badge">
       
@@ -29,7 +27,19 @@
           
 
       </div>
-        <a class='plate' style='margin-top:44px'>Badges</a>
+
+        <a class='plate' style='margin-top:44px'><%= @student.badges.count %></a>
+
+      <li class='shelf_li'>
+      <div id="get_badge">
+      
+        <%= render 'students/badge_gray' %>
+          
+
+      </div>
+
+        <a class='plate' style='margin-top:44px'><%= badgekey.count - @student.badges.count %></a>
+
     </li>
 
   </ul>

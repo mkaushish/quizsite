@@ -1,4 +1,8 @@
+	<% count = 0 %>
 	<% current_user.badges.each do |badge| %>
-    	<p class = "<%= badge.badge_key %> badges"></p>  
+		<% if count < 5 %>
+    		<p class = "<%= badge.badge_key %> badges"></p>
+    		<% count = count +1 %>
+    	<% end %>  
 	<% end %>
 	<script>badges_look()</script>

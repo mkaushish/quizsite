@@ -142,4 +142,18 @@ module ApplicationHelper
   def percentage(value,total)
     ((value*100)/total)
   end
+  
+  def badgekey
+    @badges = Array.new
+    @badges = ["BadgeAPSD","BadgeNPSB","BadgeNQCIARFTO","BadgeCAPSWAD","BadgeTRQC","BadgeNQCIARFNT"]
+    current_user.problem_sets.each do |pset|
+      @badges.push("Badge" + pset.name + "B")
+    end
+    current_user.problem_sets.each do |pset|
+      pset.problem_types.each do |ptype|
+        @badges.push("Badge" + ptype.name + "B")
+      end
+    end
+    return @badges   
+  end 
 end
