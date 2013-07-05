@@ -113,7 +113,6 @@ class QuizzesController < ApplicationController
         @class_quiz = @quiz.for_class @classroom
         @class_quiz.assign params[:start_time], params[:end_time]
         @class_quiz.save
-
     end
 
     # DELETE /quizzes/1
