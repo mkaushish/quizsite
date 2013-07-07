@@ -3256,6 +3256,7 @@ input[type="submit"].btn.btn-mini {
 .modal-backdrop.fade.in {
   opacity: 0.8;
   filter: alpha(opacity=80);
+  margin-left:157px;
 }
 .modal {
   position: fixed;
@@ -3293,8 +3294,11 @@ input[type="submit"].btn.btn-mini {
   top: 50%;
 }
 .modal-header {
-  padding: 9px 15px;
+  padding-top: 9px;
   border-bottom: 1px solid #eee;
+  img {
+    width:100%;
+  }
 }
 .modal-header .close {
   margin-top: 2px;
@@ -3305,6 +3309,7 @@ input[type="submit"].btn.btn-mini {
   padding: 15px;
 }
 .modal-form {
+
   margin-bottom: 0;
 }
 .modal-footer {

@@ -5,9 +5,40 @@
     position:absolute;
 font-size: 8px;
 color: white;
-height: 20px;
-width: 20px;
-background-color: rgb(103, 73, 179);
+height: 40px;
+width: 40px;
 border-radius: 50%;
 font-family: "Home_hand";
+border-style:solid;
+border-color:gray;
   }
+
+  .badgesbw{
+    position:absolute;
+font-size: 8px;
+color: white;
+height: 40px;
+width: 40px;
+background-color: rgb(220,220,220);
+border-radius: 50%;
+border-style:solid;
+border-color:gray;
+font-family: "Home_hand";
+  }
+
+  .badge_1{
+  	background-color:violet;
+  }
+  .badge_2{
+  	background-color:gold;
+  }
+  .badge_3{
+  	background-color:orange;
+  }
+  .badge_4{
+  	background-color:$sg_green;
+  }
+  .badge_5{
+  	background-color:$sg_blue;
+  }
+

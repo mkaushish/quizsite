@@ -2,7 +2,7 @@
 	<% badgekey.each do |badge| %>
 		<% if count < 5%>
 			<% if @student.badges.find_by_badge_key(badge).nil? %>
-    			<p class = "<%= badge %> badgesbw"></p>
+    			<p class ="badgesbw"></p>
     			<% count = count +1%>  
     		<% end %>
 		<% end %>

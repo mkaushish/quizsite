@@ -1,13 +1,13 @@
-<div id='home' class='static-page'>
-    <!--<div class='home2'>
+<!--<div id='home' class='static-page'>
+    <div class='home2'>
         <div class="dotted-border">
           <%= link_to_function "Register as a Teacher", "registerTeacher();", :class => 'button-blue centered' %>
           <br></br>
           <%= link_to_function "Register as a Student", "registerStudent();", :class => 'button-blue centered' %>
       </div>
-  </div>-->
+    </div>
   <div id="myCarousel" class="carousel slide">
-    <!-- Carousel items -->
+    <!-- Carousel items
     <div class="carousel-inner home_slide">
         <div class="active item">
             <div class='slide1 slide_hm'>
@@ -85,9 +85,9 @@
             <p>Get your basics rigth</p>
             <%= link_to_function "", "registerStudent();", :class => 'get_started_button' %>
         </div>
-    </div>-->
+    </div>
     <br>
-    <!--<div class='home3' style="width:288px; margin-right:28px">
+    <div class='home3' style="width:288px; margin-right:28px">
         <div class='testimonial'>
             <br/>
             <a>TESTIMONIAL</a>
@@ -113,6 +113,22 @@
     <% end %>
     <p><%= link_to "and more", root_path(:ptypes => "all"), remote: :true %></p>
   </div>
-</div>-->
 </div>
+</div>-->
+<div class='logsign'>
+    
+    
+</div>
+
+<div id="logod">
+    <ul>
+        <%= link_to "SIGN UP", "#register", "data-toggle" => "modal", :class => "button-blue"%>
+
+    </ul>
+    <ul>
+        <%= link_to "LOG IN", "#logIn", "data-toggle"=>"modal", :class => "button-blue"%>
+    </ul>
+</div>
+<%= render :partial => 'shared/log_in' %>
+<%= render :partial => 'shared/register_modal' %>
 <%= render 'users/hidden_registration_forms' %>
