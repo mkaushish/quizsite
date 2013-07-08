@@ -11,8 +11,15 @@
 </div>-->
 
 <%= render 'shared/shelf', :@student => current_user %>
+
 <div class="quiz-link">
-<%= link_to "Quiz", quiz_do_path(@problem_set.id), :remote => true unless @quiz.blank? %>
+    <% unless @quiz.blank? %>
+    <% if @instance.quiz_assigned? %>
+        <%= link_to "Quiz", start_quiz_path(@instance.assigned_quizzes.first) %>
+    <% else %>
+        <%= link_to "Quiz", start_new_quiz_path(@instance.id) %>
+    <% end %>
+    <% end %>
 </div>
 <div style="width:252px; float:left">
     <div class='dotted-border-header'>

@@ -38,6 +38,7 @@ module Algebra
        ]
     end
   end
+<<<<<<< HEAD
 
   class Createkb2 < QuestionBase
     def self.type
@@ -65,6 +66,8 @@ module Algebra
        ]
     end
   end
+=======
+>>>>>>> quiz
   
   class Coefficient < QuestionBase
     def self.type
@@ -1455,6 +1458,5 @@ class Sub_polynomials2 < QuestionWithExplanation
    Algebra::Evaluate,
    Algebra::Createkb,
    Algebra::Createkb2
-
     ] # //Anurag is module name and dummy is class name
 end
