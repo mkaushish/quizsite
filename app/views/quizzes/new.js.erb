@@ -1,0 +1,6 @@
+<% unless @problem_set.blank? %>
+	$('#problem_set_form').remove();
+	$('#problem_set_name').html("<h5>Problem Set: <%= @problem_set.name %></h5>");
+	$('#no_problem_set').hide();
+	$('#quiz_problems_tabs').html("<%= j render("problem_types", :@problem_set => @problem_set) %>");
+<% end %>

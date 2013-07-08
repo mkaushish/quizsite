@@ -1,0 +1,35 @@
+
+  <div class="correct">
+    <div id=nline style="position:relative; width:450px; height:200px">
+      <canvas id="nlcanvasans" height="100" width="700"
+      class="numberline"
+      data-name="<%= movnumberline.name %>"
+      data-editable="false"
+      data-movable="false"
+      data-which="label">  
+      <%=hidden_field_tag("nlcanvasans_bigdiv", movnumberline.bigdiv)%>
+      <%=hidden_field_tag("nlcanvasans_label", "#{movnumberline.val},#{@response[movnumberline.name]}")%>
+      <%=hidden_field_tag("nlcanvasans_lines", "#{movnumberline.val},#{@response[movnumberline.name]}")%>
+      <script>
+        $("#nlcanvasans").unbind("mousemove");
+      </script>
+    </div>
+  </div>
+  <% unless movnumberline.correct?(@solution, @response) then %>
+  <div class="incorrect">
+    <div id=nline style="position:relative; width:450px; height:200px">
+      <canvas id="nlcanvasin" height="100" width="700"
+      class="numberline"
+      data-name="<%= movnumberline.name %>"
+      data-editable="false"
+      data-movable="false"
+      data-which="label">  
+      <%=hidden_field_tag("nlcanvasin_bigdiv", movnumberline.bigdiv)%>
+      <%=hidden_field_tag("nlcanvasin_label", "#{movnumberline.val},#{@solution[movnumberline.name]}")%>
+      <%=hidden_field_tag("nlcanvasin_lines", "#{movnumberline.val},#{@solution[movnumberline.name]}")%>
+      <script>
+        $("#nlcanvasin").unbind("mousemove");
+      </script>
+    </div>
+  </div>
+<%end%>

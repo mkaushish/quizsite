@@ -21,10 +21,10 @@ class QuizInstancesController < ApplicationController
     deny_access && return unless belongs_to_user(@pset_instance)
 
     @classroom = @student.classrooms.first
-    @quiz = @classroom.quizzes.where(:problem_set_id => @pset_instance.problem_set_id).first
+    @quiz = @classroom.quizzes.where(:problem_set_id => @pset_instance.problem_set_id).last
     #@instance = QuizInstance.where(:quiz_id => @quiz.id, :problem_set_instance_id => @pset_instance.id).first
     if !@quiz.blank?
-      @instance = @quiz.quiz_instances.first
+      @instance = @quiz.quiz_instances.where(:problem_set_instance_id => @pset_instance)
       @instance ||= @quiz.assign_with_pset_inst(@pset_instance)
       @instance.start if !@instance.started?
       @counter = @quiz.quiz_problems.count - @instance.stats_remaining.count
