@@ -23,13 +23,16 @@ class QuizInstancesController < ApplicationController
     @classroom = @student.classrooms.first
     @quiz = @classroom.quizzes.where(:problem_set_id => @pset_instance.problem_set_id).last
     #@instance = QuizInstance.where(:quiz_id => @quiz.id, :problem_set_instance_id => @pset_instance.id).first
+    debugger 
     if !@quiz.blank?
-      @instance = @quiz.quiz_instances.where(:problem_set_instance_id => @pset_instance)
+
+      @instance = @quiz.quiz_instances.where(:problem_set_instance_id => @pset_instance).last
       @instance ||= @quiz.assign_with_pset_inst(@pset_instance)
       @instance.start if !@instance.started?
       @counter = @quiz.quiz_problems.count - @instance.stats_remaining.count
       @quiz_stats = @instance.quiz_stats.includes(:problem_type)
       @pset = @instance.problem_set
+
       next_problem
     else
       redirect_to pset_path(:name => @pset_instance.problem_set_id), notice: "No Quiz for you"
