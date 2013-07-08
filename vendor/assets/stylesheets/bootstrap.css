@@ -1786,20 +1786,11 @@ table .span24 {
 }
 
 #news .dropdown-menu:before{
-    content: "";
-    width: 4px;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 15px;
-    border: 1px solid #ffaa9f;
-    border-top: none;
-    border-bottom: none;
-    z-index: 2;}
-    .dropdown-menu:hover{overflow-y:scroll;width:317px;}
+    }
+    .dropdown-menu:hover{overflow-y:auto;width:310px;}
 .dropdown-menu {
   position: absolute;
-  
+  overflow:hidden;
   top: 100%;
   left: -1px;
   right:-1px;
@@ -1828,8 +1819,20 @@ table .span24 {
   background-clip: padding-box;
   *border-right-width: 2px;
   *border-bottom-width: 2px;
+  
 }
+#news .dropdown-menu li:before{content: "";
+    width: 4px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 15px;
+    border: 1px solid #ffaa9f;
+    border-top: none;
+    border-bottom: none;
+    z-index: 2;}
 #news .dropdown-menu li{
+  overflow:hidden;
   cursor:pointer;
   position:relative;
   display: block;
@@ -1874,6 +1877,7 @@ table .span24 {
 }
 .dropdown.open {
   *z-index: 1000;
+
 }
 .dropdown.open .dropdown-toggle {
   color: #ffffff;
@@ -2045,7 +2049,6 @@ table .span24 {
 }
 .btn.active,
 .btn:active {
-  background-image: none;
   -webkit-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
   -moz-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
   box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
@@ -2056,7 +2059,6 @@ table .span24 {
 .btn.disabled,
 .btn[disabled] {
   cursor: default;
-  background-image: none;
   background-color: #e6e6e6;
   opacity: 0.65;
   filter: alpha(opacity=65);
@@ -2397,17 +2399,12 @@ input[type="submit"].btn.btn-mini {
   *z-index: 1000;
 }
 .btn-group.open .dropdown-menu {
+
   display: block;
   margin-top: 1px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
-}
-.btn-group.open .dropdown-toggle {
-  background-image: none;
-  -webkit-box-shadow: inset 0 1px 6px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
-  -moz-box-shadow: inset 0 1px 6px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
-  box-shadow: inset 0 1px 6px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
 }
 .btn .caret {
   margin-top: 7px;
