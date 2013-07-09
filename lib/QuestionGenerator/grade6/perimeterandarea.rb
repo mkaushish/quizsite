@@ -12,7 +12,7 @@ include PreG6
 
 module PerimeterandArea
   INDEX = "perimeterandarea"
-  TITLE = "PerimeterandArea"
+  TITLE = "Perimeter and Area 2"
   
   UNITS = ["mm","cm","dc","m","Dm","hm","km" ]
   UNITS2 = ["millimeter", "centimeter", "decimeter","meter","decameter","hectometer","kilometere"]

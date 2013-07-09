@@ -9,12 +9,12 @@ include ToHTML
 include Geometry
 module Chapter5
   INDEX = "chapter5"
-  TITLE = "Understanding Elementary shapes"
+  TITLE = "Understanding Elementary Shapes"
 
   class Try3_4 < QuestionBase
   	def has_notepad?() false ; end
   	def self.type
-  		"measurement of line segments "
+  		"Measurement of Line Segments"
   	end
   	attr_accessor :x1, :y1, :x2, :y2
   	def initialize
@@ -43,7 +43,7 @@ module Chapter5
   class Question2 < QuestionBase
     def has_notepad?() false ; end
     def self.type
-      "Clock angle "
+      "Clock Angle"
     end
     def initialize
       @time1=rand(12) + 1
@@ -178,7 +178,7 @@ module Chapter5
     attr_accessor :x1, :y1, :x2, :y2
     def has_notepad?() false ; end
     def self.type
-      "Identify the type of Angle"
+      "Identify the Angle"
     end
     def initialize
       @randdir=rand(4)
@@ -227,7 +227,7 @@ class Question6 < QuestionBase
     attr_accessor :x1, :y1, :x2, :y2
     def has_notepad?() false ; end
     def self.type
-      "True or False"
+      "True or False About Polygons"
     end
     def initialize
       @statements=["Each Angle of a rectangle is a right angle","The opposite sides of a rectangle are equal in lengths","The diagonals of a square are perpendicular to one-another",
@@ -422,7 +422,7 @@ class Question6 < QuestionBase
 UNITS = ["mm","cm","dc","m","Dm","hm","km" ]
   class Question10 < QuestionBase
     def self.type
-      "Identify the type of Triangle(angle type)"
+      "Identify the type of Triangle"
     end
     def initialize
       @i=1

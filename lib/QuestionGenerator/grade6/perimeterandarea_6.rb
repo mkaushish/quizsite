@@ -14,7 +14,7 @@ include PerimeterandArea
 
 module PerimeterandArea_6
   INDEX = "perimeterandarea_6"
-  TITLE = "PerimeterandArea_6"
+  TITLE = "Perimeter and Area 1"
   
   UNITS = ["mm","cm","dc","m","Dm","hm","km" ]
   UNITS2 = ["millimeter", "centimeter", "decimeter","meter","decameter","hectometer","kilometere"]
@@ -610,7 +610,7 @@ module PerimeterandArea_6
 
   class Try12_3<QuestionWithExplanation
     def self.type
-      "Try12_3"
+      "Tiling Floor"
     end
     def initialize
       @a = rand(15)+10

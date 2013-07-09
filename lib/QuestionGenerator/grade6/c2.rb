@@ -106,7 +106,7 @@ module Chapter2
 
   class NumOfNumbers < QuestionWithExplanation
     def self.type
-      "NumOfNumbers"
+      "Number Of Numbers"
     end
     def initialize
       @a = rand(100)+2
@@ -139,7 +139,7 @@ module Chapter2
 
   class Inequalities < QuestionWithExplanation
     def self.type
-      "Inequalities"
+      "Inequalities Introduction"
     end
     def initialize
       @a = rand(1000)+2
@@ -492,8 +492,6 @@ module Chapter2
 
   PROBLEMS = [  
     Chapter2::WriteSuccessors,            Chapter2::WritePredecessors,
-    Chapter2::SuitableRearrangementSum,   Chapter2::SuitableRearrangementProduct, 
-    Chapter2::AddLargeNumbers,
     Chapter2::NumOfNumbers,
     Chapter2::Inequalities,
     Chapter2::StatementProblem,

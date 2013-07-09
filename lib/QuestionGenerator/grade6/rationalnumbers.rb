@@ -13,7 +13,7 @@ include ToHTML
 
 module RationalNumbers
   INDEX = "rationalnumbers"
-  TITLE = "Rationalnumbers"
+  TITLE = "Rational Numbers"
   ACTIVITIES = ["excercised", "read", "slept", "studied", "played"]
   COEFFICIENTS = [2,3,4,5,6,7,8,9,10,12,15,20,25,50,100, 200, 500, 1000]
 
