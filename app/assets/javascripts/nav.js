@@ -35,7 +35,7 @@ function setNavLineWidths() {
   });
 }
 function dbord(pname){
-  if($(".container").width() < 475){
+  if($(".container").width() < 700){
     $(".dotted-border").css("width", ($(".container").width()-22)+"px");
     $(".dotted-border").css("height","auto");
   }
@@ -46,7 +46,7 @@ function dbord(pname){
   if(pname=="pset"){shelf_color();}
   else{shelf_color_in(pname[0], pname[1], pname[2]);}
   $(window).resize(function(){
-  if($(".container").width() < 475){
+  if($(".container").width() < 700){
     $(".dotted-border").css("width", ($(".container").width()-22)+"px");
     $(".dotted-border").css("height","auto");
   }

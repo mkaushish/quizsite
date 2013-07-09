@@ -1,6 +1,6 @@
 class ProblemSetsController < ApplicationController
     
-    before_filter :authenticate
+    before_filter :authenticate, :except => [:view, :show]
     before_filter :authenticate_admin, :only => [:edit_pset, :update_pset]
     before_filter :validate_problem_set, :only => [:update, :create, :clone, :assign_to_class, :view, :edit_pset, :update_pset] 
 

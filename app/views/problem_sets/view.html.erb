@@ -14,8 +14,12 @@
         <div class="dropd">
 
             <ul class="root">
-                <% @problem_set.problem_types.each do |i| %>
-                <li><%= link_to i.name, "/problem_type/#{i.id}"%></li>
+                <% @problem_set.problem_types.each do |ptype| %>
+                <% if signed_in? %>
+                    <li><%= link_to ptype.name, pset_do_path(@problem_set.id, ptype.id), remote: :true%></li>
+                <%else%>
+                    <li><%= link_to ptype.name, do_sample_problem_path(ptype.id), remote: :true  %></li>
+                <%end%>
                 <%end%>
             </ul> 
         </div>

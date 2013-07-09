@@ -1,4 +1,8 @@
+<% if(@stat.color_status!="green") %>
 <%= render "problem_set_instances/progress_bar/yellow" %>
+<% else %>
+<%= render "problem_set_instances/progress_bar/green" %>
+<%end%>
 
 <%= render 'stats' %>
 

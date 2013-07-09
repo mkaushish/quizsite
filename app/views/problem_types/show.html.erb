@@ -6,10 +6,13 @@
         </div>
         <div class="dotted-border">
             <p><%= @problem_type.description %></p>
-            <%= link_to "TRY SAMPLE PROBLEMS",do_sample_problem_path(@problem_type.id), :class => 'button-blue',remote: :true  %>
+            <% if !signed_in? %>
+                <%= link_to "TRY SAMPLE PROBLEMS",do_sample_problem_path(@problem_type.id), :class => 'button-blue',remote: :true  %>
+            <%else%>
+            <%end%>
         </div>
     </div>
-    <div class='home3' style="margin-left:28px">
+    <!--<div class='home3' style="margin-left:28px">
         <div class='dotted-border-header-black' >
           <p>MAKE YOUR MATHS BETTER</p>
       </div>
@@ -17,15 +20,6 @@
         <div id='video_home'>
             <iframe src="http://www.youtube.com/embed/V-5HLNESatM" frameborder="0" allowfullscreen></iframe>
         </div>
-    </div>
-       
-    <div class='home3'>
-        <div class='dotted-border-header-black'>
-            <p>TRY SAMPLE PROBLEMS</p>
-        </div>
-        <div class="dotted-border">
-            <%= link_to "TRY SAMPLE PROBLEMS",do_sample_problem_path(@problem_type.id), :class => 'button-blue',remote: :true  %>
-        </div>
-    </div>
+    </div>-->
     
 </div>
