@@ -4,7 +4,6 @@
 <div class='pset_pbar'>
 
   <div class='list_box problem_list_box pset_list_box'>
-
     <% @a = inst.problem_stats.map(&:color_status) %>
     <% @total = inst.num_problems %>
 
@@ -13,13 +12,12 @@
     <% @red   = 100.0 - @blue - @green %>
 
     <% @is_problem_set_is_blue = @total - @a.count("blue") %>
-    <%= image_tag("maths_genius.png", :class => "badge", :size => "20x20", :alt => " You won this Badge for completing #{pset.name} ") unless @is_problem_set_is_blue != 0 %>
+    <%#= image_tag("maths_genius.png", :class => "badge", :size => "20x20", :alt => " You won this Badge for completing #{pset.name} ") unless @is_problem_set_is_blue != 0 %>
     <p>
       <%= pset.name %><br> 
       <%= link_to "?", view_problem_set_path(pset), :class => "normal_a_link", :target => "_blank" %>
     </p>
     <%#= image_tag("#{pset.image}.png", :size => "20x20") unless pset.image.blank? %>
-
     <%= link_to "Enter", pset_path(:name => pset.id) %> 
 
   </div>

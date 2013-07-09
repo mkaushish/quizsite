@@ -1,0 +1,32 @@
+<div class=row-fluid>
+    <%= render 'students/student_info', :@student => current_user %>
+    <h3 style="display:inline-block;">Learning</h3>
+    <ul class="breadcrumb">
+        <li><b>6th Grade </b><span class="divider">&amp;</span></li>
+        <li><%= link_to "Overview", studenthome_path %><span class="divider">&amp;</span></li>
+        <li><%= link_to @pset.name, pset_path(:name => @pset.id) %><span class="divider">&amp;</span></li>
+        <li class=active><%= "Quiz" %></li>
+    </ul>
+</div>
+<ul class=column-list>
+  	<h2>Your Quiz Stats</h2>
+  	<% @quiz_stats.each_with_index do |stat, i| %>
+		<% i +=1 %>
+		<li>
+			<%= "Chapter " + i.to_s %>
+			<% if stat.remaining > 0 %>
+				<%= link_to "#{stat.remaining} Problem left", "#", :class => "pull-right" %>
+			<% else %>
+				<%= link_to "0 Problem left", "#", :class => "pull-right" %>
+			<% end %>
+		</li>
+	<% end %>
+</ul>
+
+
+<div id="problem_overlay" class="problem_overlay" style="display: block;">
+  <%= render :partial => 'do_quiz' %>
+</div>
+<script>
+  $(initProblem);
+</script>

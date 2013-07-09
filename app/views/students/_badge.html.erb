@@ -1,0 +1,4 @@
+	<% current_user.badges.each do |badge| %>
+    	<p class = "<%= badge.badge_key %> badges"></p>  
+	<% end %>
+	<script>badges_look()</script>

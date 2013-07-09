@@ -1,0 +1,43 @@
+<% ptype = @quiz_problem.problem_type %>
+
+<% if @quiz_problem.problem_category == "1" %>
+    <%= link_to "Choose Another", next_random_prob_qp_path(@problem_type, :quiz_prob => @quiz_problem), 
+    :class => 'pull-right button-blue', :id => 'choose_another', :remote => true  %>
+<% else %>
+    <%= link_to "Choose Another", next_custom_prob_qp_path(@quiz_problem), 
+    :class => 'pull-right button-blue', :id => 'choose_another', :remote => true  %>
+<% end %>
+
+<h2><%= ptype %></h2>
+
+<% if defined? params[:type] = "all" %>
+    <%= form_for(@quiz_problem, url: update_problem_qp_path(:type => "all"), remote: :true) do |f| %>
+        <div class="problem">
+            <%= f.hidden_field :problem, :value => @problem.id %>
+            <%= "Question: " %>
+            <% @problem.text.each do |elt| %>
+                <%= render_tohtml({partial_dir: 'problems'}, elt) %>
+            <% end %>
+            <br />
+            <%= "Answer: " %>
+            <br />
+            <%= @answer.to_s %> 
+        </div>
+       	<%= f.submit "Assign" %>
+    <% end %> 
+<% else %>
+    <%= form_for(@quiz_problem, url: update_problem_qp_path, remote: :true) do |f| %>
+        <div class="problem">
+            <%= f.hidden_field :problem, :value => @problem.id %>
+            <%= "Question: " %>
+            <% @problem.text.each do |elt| %>
+                <%= render_tohtml({partial_dir: 'problems'}, elt) %>
+            <% end %>
+            <br />
+            <%= "Answer: " %>
+            <br />
+            <%= @answer.to_s %> 
+        </div>
+        <%= f.submit "Assign" %>
+    <% end %> 
+<% end %>

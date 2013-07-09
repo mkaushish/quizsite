@@ -394,6 +394,8 @@ module ToHTML
       $stderr.puts response[@name]
       solution[@name]==response[@name] 
     end
+    def answer_view?() true end
+      def contains_response_and_soln?() true ; end
   end
 
   class TextTable < TableField
@@ -620,8 +622,8 @@ module ToHTML
   end
 
   class DrawShape < MultiHTMLObj
-    attr_accessor :name,:shape, :len, :bre, :startx,:starty, :length, :breadth, :update, :choice,:canvaswidth, :canvasheight, :numtimes, :check
-    def initialize(name, shape, len, bre, startx, starty, length, breadth, update, choice, canvaswidth, canvasheight, numtimes, check)
+    attr_accessor :name,:shape, :len, :bre, :startx,:starty, :length, :breadth, :choose
+    def initialize(name, shape, len, bre, startx, starty, length, breadth, choose)
       @name=ToHTML::add_prefix name
       @len=len
       @bre=bre
@@ -630,12 +632,7 @@ module ToHTML
       @startx=startx
       @starty=starty
       @shape=shape
-      @update=update
-      @choice=choice
-      @numtimes = numtimes
-      @check=check
-       @canvaswidth = canvaswidth
-      @canvasheight = canvasheight
+      @choose=choose
     end
     def correct?(solution, response)
       if @shape=='circle'
@@ -654,6 +651,29 @@ module ToHTML
         return false unless solution[curn]==response[curn]
       end
       return true
+    end
+  end
+
+  class DrawShape5 < MultiHTMLObj
+    attr_accessor :shape, :len, :bre, :startx,:starty, :length, :breadth, :update, :choice,:canvaswidth, :canvasheight, :numtimes, :check, :choose
+    def initialize(shape, len, bre, startx, starty, length, breadth, update, choice, canvaswidth, canvasheight, numtimes, check, choose)
+      @len=len
+      @bre=bre
+      @length=length
+      @breadth=breadth
+      @startx=startx
+      @starty=starty
+      @shape=shape
+      @update=update
+      @choice=choice
+      @numtimes = numtimes
+      @check=check
+       @canvaswidth = canvaswidth
+      @canvasheight = canvasheight
+      @choose=choose
+    end
+    def correct?(solution, response)
+      true
     end
   end
 

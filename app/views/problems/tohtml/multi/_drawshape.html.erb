@@ -6,31 +6,20 @@
     <%breadth = drawshape.breadth.to_i%>
     <%startx = drawshape.startx.to_i%>
     <%starty = drawshape.starty.to_i%>
-    <%numtimes = drawshape.numtimes.to_i%>
-    <%check = drawshape.check.to_i%>
-    <%update = drawshape.update.to_i%>
-    <%choice = drawshape.choice.to_i%>
-    <%canvaswidth = drawshape.canvaswidth.to_i%>
-    <%canvasheight= drawshape.canvasheight.to_i%>
+    <%choose = drawshape.choose.to_i%>
+    
 
-<%if check==0 %>
-<%else%>
-<%if update==1 %>
-<canvas id="myCanvas_<%=numtimes%>" onclick="update(event,'<%=shape %>',<%=len%>,<%=bre%>,<%= startx%>,<%= starty%>,<%= length%>,<%= breadth%>)" width=<%= canvaswidth%> height=<%= canvasheight%> style="border:1px solid #d3d3d3;">
+
+<canvas id="myCanvas" onclick="update(event,'<%=shape %>',<%=len%>,<%=bre%>,<%= startx%>,<%= starty%>,<%= length%>,<%= breadth%>)" width=500 height=500 style="border:1px solid #d3d3d3;">
 Your browser does not support the HTML5 canvas tag.
 </canvas>
-<%else%>
-<canvas id="myCanvas_<%=numtimes%>" width=<%= canvaswidth%> height=<%= canvasheight%> style="border:1px solid #d3d3d3;">
-</canvas>
-<%end%>
-<%end%>
-<%if choice==0 %>
+
+
 <p>
 <button type="button" id = "variables" onclick="createshape('<%= shape %>',<%= startx%>,<%= starty%>,<%= length%>,<%= breadth%>)">CREATE</button>
-<button type="button" id = "slices" onclick="slice('<%= shape %>',<%=len%>,<%=bre%>,<%= startx%>,<%= starty%>,<%= length%>,<%= breadth%>,original)">SLICE</button>
+<button type="button" id = "slices" onclick="slice('<%= shape %>',<%=len%>,<%=bre%>,<%= startx%>,<%= starty%>,<%= length%>,<%= breadth%>,original,<%= choose%>)">SLICE</button>
 </p>
 
-<%end%>
 
 
 
@@ -68,26 +57,13 @@ Your browser does not support the HTML5 canvas tag.
   <br>
   <br>
 <script type="text/javascript">
-var c=document.getElementById("myCanvas_<%=numtimes%>");
+var c=document.getElementById("myCanvas");
 var ctx=c.getContext("2d");
 var coordinate = new Array();
 var colored = new Array();
 var original = new Array();
 // original[0]=1;
 // original[1]=3;
-var choice = <%= choice %>
-if(choice==1)
-{ 
-createshape('<%= shape %>',<%= startx%>,<%= starty%>,<%= length%>,<%= breadth%>);
-}
-else if(choice==2)
-{
-slice('<%= shape %>',<%=len%>,<%=bre%>,<%= startx%>,<%= starty%>,<%= length%>,<%= breadth%>,original);
-}
-else if(choice==3)
-{
-createshape('<%= shape %>',<%= startx%>,<%= starty%>,<%= length%>,<%= breadth%>);
-slice('<%= shape %>',<%=len%>,<%=bre%>,<%= startx%>,<%= starty%>,<%= length%>,<%= breadth%>,original);
-}
+
 </script>
 </div>

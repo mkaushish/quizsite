@@ -1,0 +1,11 @@
+<div id="quiz_problem_form">
+	<div id="prob_category_form">
+		<%= render 'prob_category_form', :@quiz_problem => @quiz_problem %>
+	</div>
+
+	<div id="prob_select_form">
+		<% unless @problem.nil? %>
+			<%= render 'prob_select_form', :@quiz_problem => @quiz_problem, :@problem => @problem, :@answer => @answer %>
+		<% end %>
+	</div>
+</div>

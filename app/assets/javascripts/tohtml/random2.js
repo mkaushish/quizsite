@@ -58,12 +58,8 @@ function createshape(a,par4,par5,par6,par7)
 	}
 }
 
-var coordinate = new Array();
-var colored = new Array();
-var original = new Array();
-original[0]=1;
-original[1]=3;
-function slice(par1,par2,par3,par4,par5,par6,par7,arr)
+
+function slice(par1,par2,par3,par4,par5,par6,par7,arr,choose)
 {	
 	if(par1=='circle')
 	{	
@@ -118,6 +114,8 @@ function slice(par1,par2,par3,par4,par5,par6,par7,arr)
 			ctx.closePath();
 			ctx.stroke();
 			colored[sliceno-1]=1;
+			if (choose==1) {putvalue(sliceno);}
+
 		}
 	}
 	else if(par1=='rectangle1')
@@ -167,6 +165,8 @@ function slice(par1,par2,par3,par4,par5,par6,par7,arr)
 			ctx.fillStyle = "green";
 			ctx.fill();
 			colored[sliceno-1]=1;
+			if (choose==1) {putvalue(sliceno);}
+
 		}
 	}
 	else if(par1=='rectangle2')
@@ -218,6 +218,8 @@ function slice(par1,par2,par3,par4,par5,par6,par7,arr)
 			ctx.fillStyle = "green";
 			ctx.fill();
 			colored[sliceno-1]=1;
+			if (choose==1) {putvalue(sliceno);}
+
 		}
 	}
 	else if(par1=='rectangle3')
@@ -279,6 +281,7 @@ function slice(par1,par2,par3,par4,par5,par6,par7,arr)
 			ctx.fillStyle = "black";
 			ctx.fill();
 			colored[sliceno-1]=1;
+			if (choose==1) {putvalue(sliceno);}
 		}
 	}
 }
@@ -349,6 +352,7 @@ function update(event,par1,par2,par3,par4,par5,par6,par7)
 						ctx.closePath();
 						ctx.stroke();
 						colored[sliceno-1]=0;
+						putvalue(sliceno);
 					}
 					else
 					{
@@ -365,6 +369,7 @@ function update(event,par1,par2,par3,par4,par5,par6,par7)
 						ctx.closePath();
 						ctx.stroke();
 						colored[sliceno-1]=1;
+						putvalue(sliceno);
 					}
 
        		}
@@ -410,6 +415,7 @@ function update(event,par1,par2,par3,par4,par5,par6,par7)
 				ctx.fillStyle = "black";
 				ctx.fill();
 				colored[sliceno-1]=0;
+				putvalue(sliceno);
 				}
 				else
 				{
@@ -424,6 +430,7 @@ function update(event,par1,par2,par3,par4,par5,par6,par7)
 				ctx.fillStyle = "green";
 				ctx.fill();
 				colored[sliceno-1]=1;
+				putvalue(sliceno);
 				}
             }
             else
@@ -468,6 +475,7 @@ function update(event,par1,par2,par3,par4,par5,par6,par7)
 				ctx.fillStyle = "black";
 				ctx.fill();
 				colored[sliceno-1]=0;
+				putvalue(sliceno);
 				}
 				else
 				{
@@ -482,6 +490,8 @@ function update(event,par1,par2,par3,par4,par5,par6,par7)
 				ctx.fillStyle = "green";
 				ctx.fill();
 				colored[sliceno-1]=1;
+				putvalue(sliceno);
+
 				}
             }
             else
@@ -533,6 +543,7 @@ function update(event,par1,par2,par3,par4,par5,par6,par7)
 				ctx.fillStyle = "green";
 				ctx.fill();
 				colored[sliceno-1]=0;
+				putvalue(sliceno);
 				}
 				else
 				{
@@ -547,6 +558,7 @@ function update(event,par1,par2,par3,par4,par5,par6,par7)
 				ctx.fillStyle = "black";
 				ctx.fill();
 				colored[sliceno-1]=1;
+				putvalue(sliceno);
 				}
             }
             else
