@@ -1,7 +1,7 @@
-<div class="modal" id="register" style="display:none;"> 
+<div class="modal hide fade" id="register"> 
 	<%# class=hide get's overridden by display-block status %>
 	<div class="modal-body">
-		<%= render 'shared/register' %>
+		<%= render 'users/form', :@user => "Student" %>
 	</div>
 	<div class="modal-footer">
 		<a href="#" class="btn" data-dismiss="modal">Close</a>

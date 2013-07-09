@@ -20,6 +20,9 @@ $problem_top_m: 0;
 	overflow-y:auto;
 	overflow-x:hidden;
 	height:100%;
+	max-width:720px;
+    min-width:475px;
+
 	background: white;
 	background-size: 100% 100%;
 	border-left:1px solid gray;
@@ -51,9 +54,9 @@ box-shadow: inner 0 0 10px black;
     padding: 5px;
 
     width:117px;
-    height: 17px;
     font-family:Courier;
     font-size:13px;
+    margin-right:20px;
 
     text-align: center;
     color: white;
