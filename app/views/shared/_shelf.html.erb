@@ -48,12 +48,14 @@
 </div>
 <div id="badgeModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-header2 modal-header">
-    <button type="button" class="close" data-dismiss="modal" aria-hidden="true" style="opacity:2;">×</button>
-    <h3 id="myModalLabel" style="color:white" >Badges</h3>
+    <!-- <button type="button" class="close" data-dismiss="modal" aria-hidden="true" style="opacity:2;">×</button> -->
+    <h3 id="myModalLabel" class="badgehead" >BADGES</h3>
   </div>
   <div class="modal-body">
-    <ul><% current_user.news_feeds.order("created_at DESC").each do |news_feed| %>
-          <li><%= news_feed.content %></li>
+    <ul><% current_user.badges.order("created_at DESC").each do |badge| %>
+          <li class="tryli">
+            <p class = "<%= badge.badge_key %> badges2 badge_<%= badge.level %>"></p>
+            <p class="posbadge_name"><%= badge.name %></p></li>
     <% end %>     
         </ul>
   </div>
@@ -66,5 +68,4 @@
 </div>
 <script>
   shelf_do();
- 
 </script>
