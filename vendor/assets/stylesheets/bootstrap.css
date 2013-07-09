@@ -3256,7 +3256,6 @@ input[type="submit"].btn.btn-mini {
 .modal-backdrop.fade.in {
   opacity: 0.8;
   filter: alpha(opacity=80);
-  margin-left:157px;
 }
 .modal {
   position: fixed;

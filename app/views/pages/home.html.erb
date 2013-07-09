@@ -120,7 +120,7 @@
     
 </div>
 
-<div id="logod">
+<!--<div id="logod">
     <ul>
         <%= link_to "SIGN UP", "#register", "data-toggle" => "modal", :class => "button-blue"%>
 
@@ -128,7 +128,38 @@
     <ul>
         <%= link_to "LOG IN", "#logIn", "data-toggle"=>"modal", :class => "button-blue"%>
     </ul>
+</div>-->
+<div class="hpages">
+    <div id="hpages_1">
+        <%= render "shared/logo" %>
+        <div id="home_students">
+            <img src="/assets/boy.png"/>
+            <img src="/assets/girl.png"/>
+        </div>
+        <%= link_to "SIGN UP", "#register", "data-toggle" => "modal", :class => "sign_up_home"%>
+        <div id="home_teachers">
+            <img src="/assets/teacher.png"/>
+            <img src="/assets/principal.png"/>
+        </div>
+
+    </div>
+    <div style="text-align:center">
+        <a class="how_work">How Does it Work?</a>
+    </div>
+    <div id="hpages_2">
+        
+    </div>
 </div>
+<script>
+    function scroll(element, parent){
+        $(parent).animate({ scrollTop: $(element).offset().top - $(parent).offset().top }, { duration: 'slow', easing: 'swing'});
+    }
+    $(".how_work").click(function(){
+        scroll(".how_work","#hpages_2");
+    });
+</script>
+
+
 <%= render :partial => 'shared/log_in' %>
 <%= render :partial => 'shared/register_modal' %>
 <%= render 'users/hidden_registration_forms' %>
