@@ -1,0 +1,26 @@
+<div class="multifield">
+	<%table = drawshape3.table %>
+	<%length1= drawshape3.length1.to_i %>
+    <%length2= drawshape3.length2.to_i %>
+    <%choice = drawshape3.choice.to_i%>
+    <%unit = drawshape3.unit%>
+    
+<canvas id="myCanvas"  width="300" height="300" style="border:1px solid #d3d3d3;">
+Your browser does not support the HTML5 canvas tag.
+<p></p>
+</canvas>
+<canvas id="e" width="200" height="200"></canvas>
+<p>
+
+</p>
+</body>
+
+<script type="text/javascript">
+var original2 = new Array();
+var regularpoly_x = new Array();
+var regularpoly_y = new Array();
+var canvas = $("#myCanvas");
+var ctx = canvas[0].getContext("2d");
+createshape2(<%= table%>,'<%= unit%>',<%= length1 %>,<%= length2%>,<%=choice%>);
+</script>
+</div>

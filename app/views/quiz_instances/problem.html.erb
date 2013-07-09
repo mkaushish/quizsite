@@ -1,12 +1,5 @@
 <div class=row-fluid>
-    <%= render 'students/student_info', :@student => current_user %>
-    <h3 style="display:inline-block;">Learning</h3>
-    <ul class="breadcrumb">
-        <li><b>6th Grade </b><span class="divider">&amp;</span></li>
-        <li><%= link_to "Overview", studenthome_path %><span class="divider">&amp;</span></li>
-        <li><%= link_to @pset.name, pset_path(:name => @pset.id) %><span class="divider">&amp;</span></li>
-        <li class=active><%= "Quiz" %></li>
-    </ul>
+    <%= render 'shared/shelf', :@student => current_user %>
 </div>
 <ul class=column-list>
   	<h2>Your Quiz Stats</h2>

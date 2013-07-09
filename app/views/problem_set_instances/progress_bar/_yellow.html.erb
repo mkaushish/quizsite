@@ -44,5 +44,40 @@
 </div>
 
 <script>
-	$('.with_tooltip').tooltip();
-</script>
+	$('.progress_bar').css("width","100%");
+  var wrong_points = "<%= prog_bar_px @stat.wrong_p_remaining, 3 %>";
+  var wpnum=parseFloat(wrong_points);
+  var right_points="<%= prog_bar_px @stat.right_p_remaining, 3 %>";
+  var rpnum=parseFloat(right_points);
+  var remaining="<%= prog_bar_px @stat.remaining_p, 3 %>";
+  var remnum=parseFloat(remaining);
+  var complete="<%= prog_bar_px @stat.done_p, 3 %>";
+  var compnum=parseFloat(complete);
+  var wid=$('.progress_bar').width();
+  
+  var per_complete=(compnum/wid)*100.0;
+  var per_remaining=(remnum/wid)*100.0;
+  var final_remaining=100.0 - per_remaining;
+  var totalrw=wid- remnum - compnum;
+  var fracwrong=wpnum/totalrw;
+  var fracright=rpnum/totalrw;
+  //$('#try').css('background','-webkit-gradient(linear, 21% 0%, 81% 0%, from(#60B349), to(#60B349), color-stop(.5,#60B349),color-stop(.5,#C40233),color-stop(.6,#C40233),color-stop(.6,#0087BD),color-stop(.8,#0087BD),color-stop(.8,#60B349))');
+  //alert(wid);
+  if(fracwrong==0)
+  {
+    fracwrong=0.005;
+  }
+  if(per_complete>=100)
+  {
+    $('#try').css('background-color',"#0087BD")
+  }
+  else
+  {
+  $('#try').css('background',"-webkit-gradient(linear,"+per_complete+"% 0%,"+final_remaining+"% 0%, from(#0087BD), to(grey), color-stop(.005,#60B349),color-stop(.005,#C40233),color-stop("+fracwrong+",#C40233),color-stop("+fracwrong+",#60B349),color-stop(.995,#60B349),color-stop(.995,grey))");
+}
+ </script>
+
+ <div id="try" class="progress_bar yellow">
+
+
+  </div>

@@ -7,14 +7,9 @@
       <%=  link_to (image_tag ("default_70x70.png"), :size => "70x70"), edit_student_path, :remote => true if @student.image.blank?%>
       <%= link_to 'Account',  edit_student_path, :remote => true, :class => 'plate' %></li>
     <li class='shelf_li'><div id='points'><%= render  :partial => 'students/student_points' %></div><a class='plate' style='margin-top:7px'>Points</a></li>
-
-
-
-
     <li class='shelf_li'> 
       <div class="btn-group"> 
-   		   <button class="btn btn-success dropdown-toggle" data-toggle="dropdown" >
-    	    <%= "Notifications"  %>
+   		   <button class="btn btn-success dropdown-toggle dropdown-toggle2" data-toggle="dropdown" >
           <span class="caret"></span>
       	 </button>
       	<div id='news'><%= render  :partial => 'students/news_feeds' %></div>    	
