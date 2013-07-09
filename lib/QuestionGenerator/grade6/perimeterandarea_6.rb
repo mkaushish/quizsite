@@ -63,7 +63,7 @@ module PerimeterandArea_6
 
   class Try12_1<QuestionWithExplanation
     def self.type
-      "Try12_1"
+      "Rectangular Path"
     end
     def initialize
       @a = rand(15)+5
@@ -140,7 +140,7 @@ module PerimeterandArea_6
 
   class Try12_4 < QuestionWithExplanation
     def self.type
-      "Try12_4"
+      "Perimeter Rectangular Path"
     end
     def initialize
       @a = rand(10)+10
@@ -445,7 +445,7 @@ module PerimeterandArea_6
 
   class Try12_5 < QuestionBase
     def self.type
-      "Try12_5"
+      "Area in Rectangles"
     end
     def initialize
       @a = rand(10)+10
@@ -667,7 +667,7 @@ module PerimeterandArea_6
 
   class Try12_6 < QuestionBase
     def self.type
-      "Try12_6"
+      "Area with Graph Paper"
     end
     def initialize
       @i=2*(rand(10)+5)

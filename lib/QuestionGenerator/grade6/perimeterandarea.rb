@@ -61,7 +61,7 @@ module PerimeterandArea
 
   class Per_circle<QuestionWithExplanation
     def self.type
-      "Per_circle"
+      "Perimeter Circle"
     end
     def initialize
       @a = rand(15)+5
@@ -89,7 +89,7 @@ module PerimeterandArea
 
   class Area_circle<QuestionWithExplanation
     def self.type
-      "Area_circle"
+      "Area Circle"
     end
     def initialize
       @a = rand(15)+5
@@ -166,7 +166,7 @@ module PerimeterandArea
 
   class Area_rectangle<QuestionWithExplanation
     def self.type
-      "Area_rectangle"
+      "Area Rectangle"
     end
     def initialize
       @a = rand(15)+5
@@ -216,7 +216,7 @@ module PerimeterandArea
 
   class Per_triangle<QuestionWithExplanation
     def self.type
-      "Per_triangle"
+      "Perimeter Triangle"
     end
     def initialize
       @a = rand(10)+10
@@ -282,7 +282,7 @@ module PerimeterandArea
 
   class Area_triangle<QuestionWithExplanation
     def self.type
-      "Area_triangle"
+      "Area Triangle"
     end
     def initialize
       @a = rand(10)+10
@@ -357,7 +357,7 @@ module PerimeterandArea
 
   class Per_regpolygon<QuestionWithExplanation
     def self.type
-      "Per_regpolygon"
+      "Perimeter Regular Polygon"
     end
     def initialize
       @a = rand(5)+5
@@ -471,7 +471,7 @@ module PerimeterandArea
 
   class Try11_1<QuestionWithExplanation
     def self.type
-      "Try11_1"
+      "Dimensions from Area Rectangle"
     end
     def initialize
       @a = rand(15)+5
@@ -546,7 +546,7 @@ module PerimeterandArea
 
   class Try11_2<QuestionWithExplanation
     def self.type
-      "Try11_2"
+      "Square and Rectangle"
     end
     def initialize
       @a = rand(5)+1
@@ -612,7 +612,7 @@ module PerimeterandArea
 
   class Try11_3<QuestionWithExplanation
     def self.type
-      "Try11_3"
+      "Square and Rectangle 2"
     end
     def initialize
       @a = rand(5)+1
@@ -681,7 +681,7 @@ module PerimeterandArea
 
   class Try11_4<QuestionWithExplanation
     def self.type
-      "Try11_4"
+      "Rectangular Field"
     end
     def initialize
       @a = rand(3)+2
@@ -785,7 +785,7 @@ module PerimeterandArea
 
   class Per_parallelogram<QuestionWithExplanation
     def self.type
-      "Per_parallelogram"
+      "Perimeter Parallelogram"
     end
     def initialize
       @a = rand(5)+1
@@ -845,7 +845,7 @@ module PerimeterandArea
 
   class Area_parallelogram<QuestionWithExplanation
     def self.type
-      "Area_parallelogram"
+      "Area Parallelogram"
     end
     def initialize
       @a = rand(5)+1
@@ -904,7 +904,7 @@ module PerimeterandArea
 
   class Try11_5<QuestionWithExplanation
     def self.type
-      "Try11_5"
+      "Parallelogram Height"
     end
     def initialize
       @a = rand(5)+1
@@ -963,7 +963,7 @@ module PerimeterandArea
 
   class Try11_6<QuestionWithExplanation
     def self.type
-      "Try11_6"
+      "Triangle Dimensions"
     end
     def initialize
       @a = rand(10)+10
@@ -1038,7 +1038,7 @@ module PerimeterandArea
 
   class Try11_7<QuestionWithExplanation
     def self.type
-      "Try11_7"
+      "Circle Circumference from Area"
     end
     def initialize
       @a = rand(15)+5
@@ -1088,7 +1088,7 @@ module PerimeterandArea
 
   class Try11_8<QuestionWithExplanation
     def self.type
-      "Try11_8"
+      "Perimeter of Mixed Shape"
     end
     def initialize
       @a = rand(10)+5
@@ -1114,7 +1114,7 @@ module PerimeterandArea
     def text
       if @choose==0
       [
-        TextLabel.new("Find the perimeter of the given shape.Radius of the arcs is #{@a}#{@unit}.(Use PI=3.14)"),
+        TextLabel.new("Find the perimeter of the given shape. Radius of the arcs is #{@a}#{@unit}.(Use PI=3.14)"),
         DrawShape2.new('arc_1',2*@b+50,@b+50,@a,0,1,-@PI,500,500,1,1),
         DrawShape2.new('arc_2',3*@b+50,2*@b+50,@a,0,1,@PI/2.0,500,500,1,0),
         DrawShape2.new('arc_1',3*@b+50,2*@b+50,@a,0,1,1.5*@PI,500,500,1,0),
@@ -1146,7 +1146,7 @@ module PerimeterandArea
 
   class Try11_9<QuestionWithExplanation
     def self.type
-      "Try11_9"
+      "Concentric Circles Area"
     end
     def initialize
       @a = rand(10)+5
@@ -1192,7 +1192,7 @@ module PerimeterandArea
 
   class Try11_10<QuestionWithExplanation
     def self.type
-      "Try11_10"
+      "Circle Word Problem"
     end
     def initialize
       @a = rand(15)+5
@@ -1247,7 +1247,7 @@ module PerimeterandArea
 
   class Try11_11<QuestionWithExplanation
     def self.type
-      "Try11_11"
+      "Circle from Circumference"
     end
     def initialize
       @a = rand(5)+1
@@ -1290,7 +1290,7 @@ module PerimeterandArea
 
   class Try11_12<QuestionWithExplanation
     def self.type
-      "Try11_12"
+      "Rotations of Circle"
     end
     def initialize
       @a = rand(2)+1
@@ -1344,7 +1344,7 @@ module PerimeterandArea
 
   class Try11_13<QuestionWithExplanation
     def self.type
-      "Try11_13"
+      "Path in Rectangular Field"
     end
     def initialize
       @length1 = rand(15)+5
@@ -1388,7 +1388,7 @@ module PerimeterandArea
 
   class Try11_14<QuestionWithExplanation
     def self.type
-      "Try11_14"
+      "Cross in Rectangular Field"
     end
     def initialize
       @length1 = 2*(rand(10)+5)
@@ -1441,7 +1441,7 @@ module PerimeterandArea
 
   class Try11_15<QuestionWithExplanation
     def self.type
-      "Try11_15"
+      "Circle in Rectangle"
     end
     def initialize
       @length1 = 2*(rand(10)+5)
