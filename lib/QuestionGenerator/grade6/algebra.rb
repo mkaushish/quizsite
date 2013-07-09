@@ -38,7 +38,6 @@ module Algebra
        ]
     end
   end
-<<<<<<< HEAD
 
   class Createkb2 < QuestionBase
     def self.type
@@ -66,8 +65,6 @@ module Algebra
        ]
     end
   end
-=======
->>>>>>> quiz
   
   class Coefficient < QuestionBase
     def self.type
