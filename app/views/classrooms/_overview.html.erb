@@ -45,7 +45,7 @@
             Quizzes
             <%= link_to "Assign", "#", :class => 'pull-right' %>
           </li>
-          <%= render :partial => 'teachers/quiz_history' %>
+          <%= render 'teachers/quiz_history', :@quiz_history => classroom.quizzes %>
         </ul>
       </div>
     </div>
