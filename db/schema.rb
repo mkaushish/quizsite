@@ -277,6 +277,13 @@ ActiveRecord::Schema.define(:version => 20130702124018) do
     t.boolean  "confirmed",          :default => false
     t.string   "type"
     t.integer  "points",             :default => 0
+<<<<<<< HEAD
+=======
+    t.string   "image_file_name"
+    t.string   "image_content_type"
+    t.integer  "image_file_size"
+    t.datetime "image_updated_at"
+>>>>>>> cr_ques
     t.string   "first_name"
     t.string   "last_name"
     t.string   "gender"
@@ -284,7 +291,10 @@ ActiveRecord::Schema.define(:version => 20130702124018) do
     t.string   "profile_link"
     t.string   "picture_link"
     t.string   "provider"
+<<<<<<< HEAD
     t.string   "image"
+=======
+>>>>>>> cr_ques
   end
 
   add_index "users", ["email"], :name => "index_users_on_email", :unique => true

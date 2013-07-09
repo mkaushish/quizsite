@@ -622,8 +622,8 @@ module ToHTML
   end
 
   class DrawShape < MultiHTMLObj
-    attr_accessor :name,:shape, :len, :bre, :startx,:starty, :length, :breadth
-    def initialize(name, shape, len, bre, startx, starty, length, breadth)
+    attr_accessor :name,:shape, :len, :bre, :startx,:starty, :length, :breadth, :update, :choice,:canvaswidth, :canvasheight, :numtimes, :check
+    def initialize(name, shape, len, bre, startx, starty, length, breadth, update, choice, canvaswidth, canvasheight, numtimes, check)
       @name=ToHTML::add_prefix name
       @len=len
       @bre=bre
@@ -632,6 +632,12 @@ module ToHTML
       @startx=startx
       @starty=starty
       @shape=shape
+      @update=update
+      @choice=choice
+      @numtimes = numtimes
+      @check=check
+       @canvaswidth = canvaswidth
+      @canvasheight = canvasheight
     end
     def correct?(solution, response)
       if @shape=='circle'
@@ -702,14 +708,18 @@ module ToHTML
 
 
   class DrawShape3 < MultiHTMLObj
-    attr_accessor :table, :unit, :length1, :length2, :choice
-    def initialize(table, unit, length1, length2, choice)
+    attr_accessor :table, :unit, :length1, :length2, :choice, :canvaswidth, :canvasheight, :numtimes, :check
+    def initialize(table, unit, length1, length2, choice,canvaswidth, canvasheight, numtimes, check)
       # @name=ToHTML::add_prefix name
       @length1 = length1
       @length2 = length2
       @table = table
       @unit = unit
       @choice = choice
+      @canvaswidth = canvaswidth
+      @canvasheight = canvasheight
+      @numtimes = numtimes
+      @check=check
     end
 
     def correct?(solution, response)

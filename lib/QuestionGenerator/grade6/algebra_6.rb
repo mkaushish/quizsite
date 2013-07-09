@@ -13,7 +13,7 @@ include Chapter6
 
 module Algebra_6
   INDEX = "algebra_6"
-  TITLE = "Algebra 1"
+  TITLE = "Algebra_6"
   
   VARIABLES=["x", "z", "y", "u", "v", "w", "p", "m", "n", "l", "b", "h"] 
   OPTIONS1 = ["cadets in a row", "mangoes in a box", "dots in a row", "kilometeres in an hour", "pencils per students"]
@@ -29,7 +29,7 @@ module Algebra_6
  
   class Try_11 < QuestionWithExplanation
     def self.type
-      "Multiple of Variable 1"
+      "Try_11"
     end
     def initialize
       @var = VARIABLES.sample
@@ -75,7 +75,7 @@ module Algebra_6
 
   class Try_12 < QuestionWithExplanation
     def self.type
-      "Multiple of Variable 2"
+      "Try_12"
     end
     def initialize
       @var = VARIABLES.sample
@@ -117,7 +117,7 @@ module Algebra_6
 
   class Try_13 < QuestionWithExplanation
     def self.type
-      "Regular Polygons"
+      "Try_13"
     end
     def initialize
       @var = VARIABLES.sample
@@ -149,7 +149,7 @@ module Algebra_6
 
   class Try_20 < QuestionWithExplanation
     def self.type
-      "Polygons"
+      "Try_20"
     end
     def initialize
       @choose = rand(3)+8
@@ -239,7 +239,7 @@ module Algebra_6
 
  class Try_14 < QuestionWithExplanation
     def self.type
-      "Identify Operations"
+      "Try_14"
     end
 
     def initialize
@@ -384,7 +384,7 @@ module Algebra_6
 
   class Try_15 < QuestionWithExplanation
     def self.type
-      "Expressions"
+      "Try_15"
     end
     def initialize
       @var = VARIABLES.sample
@@ -468,7 +468,7 @@ module Algebra_6
 
   class Try_16 < QuestionWithExplanation
     def self.type
-      "Relatives"
+      "Try_16"
     end
     def initialize
       @var = VARIABLES.sample
@@ -678,7 +678,7 @@ module Algebra_6
 
   class Try_17 < QuestionWithExplanation
     def self.type
-      "Equations?"
+      "Try_17"
     end
     def initialize
       @var = VARIABLES.sample
@@ -962,7 +962,7 @@ end
 
   class Try_18 < QuestionWithExplanation
     def self.type
-      "Find the Value"
+      "Try_18"
     end
     def initialize
       @choose = rand(2)
@@ -1008,7 +1008,7 @@ end
 
   class Try_19 < QuestionWithExplanation
     def self.type
-      "Find x"
+      "Try_19"
     end
     def initialize(nums = nil)
       if nums.nil?

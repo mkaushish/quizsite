@@ -120,8 +120,8 @@ function createshape1(a,par1,par2,par3,par4,par5,unit)
 		ctx.rect(startx,starty,length,breadth);
 		ctx.strokeStyle = "black";
 		ctx.stroke();
-		ctx.fillStyle = "white";
-		ctx.fill();
+		// ctx.fillStyle = "white";
+		// ctx.fill();
   		ctx.fillStyle = "blue";
  		ctx.font = " 14px Arial";
   		// ctx.fillText(" "+length/10+""+unit, startx+length/4, starty-5);
@@ -133,8 +133,8 @@ function createshape1(a,par1,par2,par3,par4,par5,unit)
 		ctx.rect(startx,starty,length,breadth);
 		ctx.strokeStyle = "black";
 		ctx.stroke();
-		ctx.fillStyle = "white";
-		ctx.fill();
+		// ctx.fillStyle = "white";
+		// ctx.fill();
   		ctx.fillStyle = "blue";
  		ctx.font = " 14px Arial";
   		ctx.fillText(" "+length/10+""+unit, startx+length/4, starty-5);
@@ -146,8 +146,8 @@ function createshape1(a,par1,par2,par3,par4,par5,unit)
 		ctx.rect(startx,starty,length,breadth);
 		ctx.strokeStyle = "black";
 		ctx.stroke();
-		ctx.fillStyle = "white";
-		ctx.fill();
+		// ctx.fillStyle = "white";
+		// ctx.fill();
   		ctx.fillStyle = "blue";
  		ctx.font = " 14px Arial";
   		// ctx.fillText(" "+length/10+""+unit, startx+length/4, starty-5);
@@ -159,8 +159,8 @@ function createshape1(a,par1,par2,par3,par4,par5,unit)
 		ctx.rect(startx,starty,length,breadth);
 		ctx.strokeStyle = "black";
 		ctx.stroke();
-		ctx.fillStyle = "white";
-		ctx.fill();
+		// ctx.fillStyle = "white";
+		// ctx.fill();
   		ctx.fillStyle = "blue";
  		ctx.font = " 14px Arial";
   		ctx.fillText(" "+length/10+""+unit, startx+length/4, starty-5);
@@ -172,8 +172,8 @@ function createshape1(a,par1,par2,par3,par4,par5,unit)
  		var choice = par4;
  		if (choice==0) 
  		{
- 		var startx = 20;
- 		var starty = 280;
+ 		var startx = par3;
+ 		var starty = par5;
  		var length = par1*10;
  		var unit = unit;
  		var height = (length/2)*Math.tan(Math.PI/3);
@@ -184,9 +184,9 @@ function createshape1(a,par1,par2,par3,par4,par5,unit)
 		ctx.lineTo(startx,starty);
 		ctx.strokeStyle = "black";
 		ctx.stroke();
-		ctx.fillStyle = "white";
-		ctx.fill();
-  		ctx.fillStyle = "blue";
+		// ctx.fillStyle = "white";
+		// ctx.fill();
+  		sctx.fillStyle = "blue";
  		ctx.font = " 14px Arial";
   		ctx.fillText(" "+length/10+""+unit, startx+length/4, starty-5);
   		ctx.textAlign="center";
@@ -194,8 +194,8 @@ function createshape1(a,par1,par2,par3,par4,par5,unit)
   		}
   		else 
   		{
-  		var startx = 20;
- 		var starty = 280;
+  		var startx = par3;
+ 		var starty = par5;
  		var length = par1*10;
  		var unit = unit;
  		var height = (length/2)*Math.tan(Math.PI/3);
@@ -206,8 +206,8 @@ function createshape1(a,par1,par2,par3,par4,par5,unit)
 		ctx.lineTo(startx,starty);
 		ctx.strokeStyle = "black";
 		ctx.stroke();
-		ctx.fillStyle = "white";
-		ctx.fill();
+		// ctx.fillStyle = "white";
+		// ctx.fill();
 		ctx.beginPath();
 		ctx.moveTo(startx+length/2,starty-height);
 		ctx.lineTo(startx+length/2,starty);
@@ -225,8 +225,8 @@ function createshape1(a,par1,par2,par3,par4,par5,unit)
  		var choice = par4;
  		if (choice==0) 
  		{
- 		var startx = 20;
- 		var starty = 280;
+ 		var startx = par3;
+ 		var starty = par5;
  		var length1 = par1*10;
  		var length2 = par2*10;
  		var unit = unit;
@@ -254,8 +254,8 @@ function createshape1(a,par1,par2,par3,par4,par5,unit)
   		else
   		{
   		// alert("white");
-  		var startx = 20;
- 		var starty = 280;
+  		var startx = par3;
+ 		var starty = par5;
  		var length1 = par1*10;
  		var length2 = par2*10;
  		var unit = unit;

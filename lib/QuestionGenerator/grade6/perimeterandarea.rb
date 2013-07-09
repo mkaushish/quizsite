@@ -18,51 +18,7 @@ module PerimeterandArea
   UNITS2 = ["millimeter", "centimeter", "decimeter","meter","decameter","hectometer","kilometere"]
   PLACE1= ["garden","park","room"]
   PLACE2= ["path","path","verandah"]
-  class Tr_11 < QuestionWithExplanation
-    def self.type
-      "Tr_11"
-    end
-    def initialize
-      @var = VARIABLES.sample
-      @choose = rand(5)
-      @option1value = OPTIONS1[@choose]
-      @option2value = OPTIONS2[@choose]
-      @option3value = OPTIONS3[@choose]
-      @a = rand(10)+2
-    end
-
-    def solve
-     { 
-      "ans1" => "#{@a}#{@var}"
-     }
-    end
-    
-    def text
-      if @choose ===3
-        [TextLabel.new("A bird flies #{@a} #{@option1value}. Can you express the total distance covered by the bird in terms of flying time.(Use #{@var} for flying time in #{@option3value})"), 
-        TextField.new("ans1")
-        
-        ]
-      else
-        [TextLabel.new("There are #{@a} #{@option1value}. Write the expression for the total number of #{@option2value}.(Use #{@var} for the number of #{@option3value})"), 
-        TextField.new("ans1")
-        
-        ]
-      end
-    end
-
-    def explain
-     if @choose ===3
-        [
-          SubLabel.new("The bird flies #{@a} #{@option1value}. Therefore the total distance covered by the bird would be the product of flying time #{@var} and speed #{@a}, which turns out to be #{@a}#{@var}.")
-        ]
-      else
-        [
-          SubLabel.new("There are #{@a} #{@option1value}. Therefore for the total number of #{@option2value} would be the product of number of #{@option1value}(#{@a}) times the number of #{@option3value}(#{@var}), which turns out to be #{@a}#{@var}."), 
-        ]
-      end       
-    end
-  end
+  
 
   class Createkb4 < QuestionBase
     def self.type
@@ -96,7 +52,7 @@ module PerimeterandArea
       [
         # TextLabel.new("Translate the given table into a bar graph taking the scale as 5 students per unit of length"), 
          # DrawShape2.new('arc_2',100,100,15,0,@angle,300,300,1,1),
-        DrawShape4.new('arc_4',50,200,7,100,0.25*@PI,0.5*@PI,'a','b','c',300,300,1,1)
+        DrawShape4.new('arc_4',50,20,20,500,0.25*@PI,0.5*@PI,'a','b','c',700,500,1,1)
 
          # DrawShape3.new(@original2,'cm',50,50,0)
        ]
@@ -105,7 +61,7 @@ module PerimeterandArea
 
   class Per_circle<QuestionWithExplanation
     def self.type
-      "Per_circle"
+      "Perimeter Circle"
     end
     def initialize
       @a = rand(15)+5
@@ -133,7 +89,7 @@ module PerimeterandArea
 
   class Area_circle<QuestionWithExplanation
     def self.type
-      "Area_circle"
+      "Area Circle"
     end
     def initialize
       @a = rand(15)+5
@@ -210,7 +166,7 @@ module PerimeterandArea
 
   class Area_rectangle<QuestionWithExplanation
     def self.type
-      "Area_rectangle"
+      "Area Rectangle"
     end
     def initialize
       @a = rand(15)+5
@@ -260,7 +216,7 @@ module PerimeterandArea
 
   class Per_triangle<QuestionWithExplanation
     def self.type
-      "Per_triangle"
+      "Perimeter Triangle"
     end
     def initialize
       @a = rand(10)+10
@@ -289,13 +245,13 @@ module PerimeterandArea
       if @choose==0
       [
         TextLabel.new("What is the perimeter of the folowing triangle?"),
-        DrawShape2.new('eqtriangle',@a,@a,15,0,1,@unit,300,300,1,1),
+        DrawShape2.new('eqtriangle',@a,@a,20,0,280,@unit,300,300,1,1),
         InlineBlock.new(TextField.new("ans"),TextLabel.new("#{@unit}"))
       ]
       elsif @choose==1
       [
         TextLabel.new("What is the perimeter of the folowing triangle?"),
-        DrawShape2.new('isotriangle',@a,@b,15,0,1,@unit,300,300,1,1),
+        DrawShape2.new('isotriangle',@a,@b,20,0,280,@unit,300,300,1,1),
         InlineBlock.new(TextField.new("ans"),TextLabel.new("#{@unit}"))
       ]
       else
@@ -326,7 +282,7 @@ module PerimeterandArea
 
   class Area_triangle<QuestionWithExplanation
     def self.type
-      "Area_triangle"
+      "Area Triangle"
     end
     def initialize
       @a = rand(10)+10
@@ -375,13 +331,13 @@ module PerimeterandArea
       if @choose==0
       [
         TextLabel.new("What is the area of the folowing triangle to the nearest integer value?"),
-        DrawShape2.new('eqtriangle',@a,@a,@a,1,1,@unit,300,300,1,1),
+        DrawShape2.new('eqtriangle',@a,@a,20,1,280,@unit,300,300,1,1),
         InlineBlock.new(TextField.new("ans"),Exponent.new(TextLabel.new("#{@unit}"),TextLabel.new("2")))
       ]
       elsif @choose==1
       [
         TextLabel.new("What is the area of the folowing triangle to the nearest integer value?"),
-        DrawShape2.new('isotriangle',@a,@b,15,1,1,@unit,300,300,1,1),
+        DrawShape2.new('isotriangle',@a,@b,20,1,280,@unit,300,300,1,1),
         InlineBlock.new(TextField.new("ans"),Exponent.new(TextLabel.new("#{@unit}"),TextLabel.new("2")))
       ]
       else
@@ -401,7 +357,7 @@ module PerimeterandArea
 
   class Per_regpolygon<QuestionWithExplanation
     def self.type
-      "Per_regpolygon"
+      "Perimeter Regular Polygon"
     end
     def initialize
       @a = rand(5)+5
@@ -515,14 +471,14 @@ module PerimeterandArea
 
   class Try11_1<QuestionWithExplanation
     def self.type
-      "Try11_1"
+      "Dimensions from Area Rectangle"
     end
     def initialize
       @a = rand(15)+5
       @b = rand(15)+1
       @area = @a*@b
       @perimeter = 2*(@a+@b)
-      @choose = rand(2)
+      @choose = rand(3)
       @d = rand(2)
       @unit = UNITS[@d]
     end
@@ -532,11 +488,15 @@ module PerimeterandArea
         "ans1"=>@b,
         "ans2"=>@perimeter
        }
-       else
+       elsif @choose==1
        {
         "ans1"=>@b,
         "ans2"=>@area
        }
+       else
+        {
+          "ans1"=>@a
+        }
        end 
     end
     def text
@@ -549,7 +509,7 @@ module PerimeterandArea
           TextLabel.new("What is the perimeter of the rectangle?"),
           InlineBlock.new(TextField.new("ans2"),TextLabel.new("#{@unit}"))
         ]
-      else
+      elsif @choose==1
        [
           TextLabel.new("The perimeter of a rectangular sheet is #{@perimeter}#{@unit}"),
           DrawShape2.new('rectangle',@a,@b,5,0,5,@unit,300,300,1,1),
@@ -558,6 +518,13 @@ module PerimeterandArea
           TextLabel.new("What is the area of the rectangle?"),
           InlineBlock.new(TextField.new("ans2"),Exponent.new(TextLabel.new("#{@unit}"),TextLabel.new("2")))
         ]
+      else
+        [
+          TextLabel.new("The perimeter of a square  is #{4*@a}#{@unit}"),
+          DrawShape2.new('rectangle',@a,@a,5,0,5,@unit,300,300,1,1),
+          TextLabel.new("What is its sidelength?"),
+          InlineBlock.new(TextField.new("ans1"),TextLabel.new("#{@unit}")),
+        ]
       end 
     end
     def explain
@@ -565,9 +532,13 @@ module PerimeterandArea
         [
           Subproblem.new([TextLabel.new("The area of a rectangle is length*breadth. Now the area is #{@area}. Length is #{@a}, therefore breadth is area/length = #{@b}.")])
         ]
-      else 
+      elsif @choose==1 
         [
           Subproblem.new([TextLabel.new("The perimeter of a rectangle is 2*(length+breadth). Now the perimeter is #{@perimeter}. Length is #{@a}, therefore breadth is (perimeter-2*length)/2 = #{@b}.")])
+        ]
+      else
+        [
+          SubLabel.new("Perimeter of a square is 4*sidelength. Since perimeter is #{4*@a}, therefore sidelength is #{4*@a}/4 =#{@a}")
         ]
       end
     end
@@ -575,7 +546,7 @@ module PerimeterandArea
 
   class Try11_2<QuestionWithExplanation
     def self.type
-      "Try11_2"
+      "Square and Rectangle"
     end
     def initialize
       @a = rand(5)+1
@@ -641,7 +612,7 @@ module PerimeterandArea
 
   class Try11_3<QuestionWithExplanation
     def self.type
-      "Try11_3"
+      "Square and Rectangle 2"
     end
     def initialize
       @a = rand(5)+1
@@ -710,7 +681,7 @@ module PerimeterandArea
 
   class Try11_4<QuestionWithExplanation
     def self.type
-      "Try11_4"
+      "Rectangular Field"
     end
     def initialize
       @a = rand(3)+2
@@ -781,7 +752,7 @@ module PerimeterandArea
         [
           InlineBlock.new(TextLabel.new("A door of length #{@a}m and breadth #{@b}m is fitted in a wall.The length of the wall is #{@length}m and the breadth is #{@breadth}m.Find the cost of white washing the wall, if the rate of white washing the wall is Rs#{@cost1} per"),
             Exponent.new(TextLabel.new("#{@unit}"),TextLabel.new("2"))),
-           DrawShape3.new(@figure,'m',50,50,1),
+           DrawShape3.new(@figure,'m',50,50,1,300,300,1,1),
           InlineBlock.new(TextField.new("ans1"),Exponent.new(TextLabel.new("#{@unit}"),TextLabel.new("2"))),
        ]
       else
@@ -812,9 +783,69 @@ module PerimeterandArea
     end
   end
 
+  class Per_parallelogram<QuestionWithExplanation
+    def self.type
+      "Perimeter Parallelogram"
+    end
+    def initialize
+      @a = rand(5)+1
+      @b = rand(5)+1
+      @c = rand(10)+10
+      @choose=2
+      @d = rand(2)
+      @unit = UNITS[@d]
+      @height=rand(20)+5
+      @base=rand(20)+5
+      @figure=[]
+      @figure[0]=@a
+      @figure[1]=0
+      @figure[2]=@base
+
+      @figure[3]=@a+@base
+      @figure[4]=0
+      @figure[5]=@height
+
+      @figure[6]=@base
+      @figure[7]=@height
+      @figure[8]=@base
+
+      @figure[9]=0
+      @figure[10]=@height
+      @figure[11]=@height
+
+      # @figure[12]=@a
+      # @figure[13]=0
+      # @figure[14]=@height
+
+      # @figure[15]=@a
+      # @figure[16]=@height
+      # @figure[17]=0
+      
+    end
+    def solve
+      {
+        "ans"=>2*(@base+@height)
+        # "ans"=>@height
+      }
+    end
+    def text
+      [
+        TextLabel.new("What is the perimeter of the folowing parallelogram ?"),
+        DrawShape3.new(@figure,@unit,50,50,1,300,300,1,1),
+        InlineBlock.new(TextField.new("ans"),TextLabel.new("#{@unit}"))
+      ]
+    end
+    def explain
+      [
+        SubLabel.new("The perimeter of a parallelogram is the sum of the sides.")
+      ]
+    end
+  end
+
+
   class Area_parallelogram<QuestionWithExplanation
     def self.type
-      "Area_parallelogram"
+      "Area Parallelogram"
     end
     def initialize
       @a = rand(5)+1
@@ -860,7 +891,7 @@ module PerimeterandArea
     def text
       [
         TextLabel.new("What is the area of the folowing parallelogram ?"),
-        DrawShape3.new(@figure,@unit,50,50,1),
+        DrawShape3.new(@figure,@unit,50,50,1,300,300,1,1),
         InlineBlock.new(TextField.new("ans"),Exponent.new(TextLabel.new("#{@unit}"),TextLabel.new("2")))
       ]
     end
@@ -873,7 +904,7 @@ module PerimeterandArea
 
   class Try11_5<QuestionWithExplanation
     def self.type
-      "Try11_5"
+      "Parallelogram Height"
     end
     def initialize
       @a = rand(5)+1
@@ -919,7 +950,7 @@ module PerimeterandArea
     def text
       [
         InlineBlock.new(TextLabel.new("The area of the folowing parallelogram is #{@base*@height}"),Exponent.new(TextLabel.new("#{@unit}"),TextLabel.new("2")),TextLabel.new("Find the height")),
-        DrawShape3.new(@figure,@unit,10,20,1),
+        DrawShape3.new(@figure,@unit,10,20,1,300,300,1,1),
         InlineBlock.new(TextField.new("ans"),TextLabel.new("#{@unit}"))
       ]
     end
@@ -932,7 +963,7 @@ module PerimeterandArea
 
   class Try11_6<QuestionWithExplanation
     def self.type
-      "Try11_6"
+      "Triangle Dimensions"
     end
     def initialize
       @a = rand(10)+10
@@ -981,13 +1012,13 @@ module PerimeterandArea
       if @choose==0
       [
         InlineBlock.new(TextLabel.new("The area of the folowing triangle  is #{((@base*@height)/2.0).round(2)}"),Exponent.new(TextLabel.new("#{@unit}"),TextLabel.new("2")),TextLabel.new("The height is #{@height.round(2)}#{@unit}. Find the base to the nearest integer value")),
-        DrawShape2.new('eqtriangle',@a,@a,@a,0,1,@unit,300,300,1,1),
+        DrawShape2.new('eqtriangle',@a,@a,20,0,280,@unit,300,300,1,1),
         InlineBlock.new(TextField.new("ans"),Exponent.new(TextLabel.new("#{@unit}"),TextLabel.new("2")))
       ]
       elsif @choose==1
       [
         InlineBlock.new(TextLabel.new("The area of the folowing triangle is #{((@base*@height)/2.0).round(2)}"),Exponent.new(TextLabel.new("#{@unit}"),TextLabel.new("2")),TextLabel.new("The height is #{@height.round(2)}#{@unit}. Find the base to the nearest integer value")),
-        DrawShape2.new('isotriangle',@a,@b,15,0,1,@unit,300,300,1,1),
+        DrawShape2.new('isotriangle',@a,@b,15,0,280,@unit,300,300,1,1),
         InlineBlock.new(TextField.new("ans"),Exponent.new(TextLabel.new("#{@unit}"),TextLabel.new("2")))
       ]
       else
@@ -1007,7 +1038,7 @@ module PerimeterandArea
 
   class Try11_7<QuestionWithExplanation
     def self.type
-      "Try11_7"
+      "Circle Circumference from Area"
     end
     def initialize
       @a = rand(15)+5
@@ -1057,7 +1088,7 @@ module PerimeterandArea
 
   class Try11_8<QuestionWithExplanation
     def self.type
-      "Try11_8"
+      "Perimeter of Mixed Shape"
     end
     def initialize
       @a = rand(10)+5
@@ -1083,7 +1114,7 @@ module PerimeterandArea
     def text
       if @choose==0
       [
-        TextLabel.new("Find the perimeter of the given shape.Radius of the arcs is #{@a}#{@unit}.(Use PI=3.14)"),
+        TextLabel.new("Find the perimeter of the given shape. Radius of the arcs is #{@a}#{@unit}.(Use PI=3.14)"),
         DrawShape2.new('arc_1',2*@b+50,@b+50,@a,0,1,-@PI,500,500,1,1),
         DrawShape2.new('arc_2',3*@b+50,2*@b+50,@a,0,1,@PI/2.0,500,500,1,0),
         DrawShape2.new('arc_1',3*@b+50,2*@b+50,@a,0,1,1.5*@PI,500,500,1,0),
@@ -1115,7 +1146,7 @@ module PerimeterandArea
 
   class Try11_9<QuestionWithExplanation
     def self.type
-      "Try11_9"
+      "Concentric Circles Area"
     end
     def initialize
       @a = rand(10)+5
@@ -1161,7 +1192,7 @@ module PerimeterandArea
 
   class Try11_10<QuestionWithExplanation
     def self.type
-      "Try11_10"
+      "Circle Word Problem"
     end
     def initialize
       @a = rand(15)+5
@@ -1216,7 +1247,7 @@ module PerimeterandArea
 
   class Try11_11<QuestionWithExplanation
     def self.type
-      "Try11_11"
+      "Circle from Circumference"
     end
     def initialize
       @a = rand(5)+1
@@ -1259,7 +1290,7 @@ module PerimeterandArea
 
   class Try11_12<QuestionWithExplanation
     def self.type
-      "Try11_12"
+      "Rotations of Circle"
     end
     def initialize
       @a = rand(2)+1
@@ -1313,7 +1344,7 @@ module PerimeterandArea
 
   class Try11_13<QuestionWithExplanation
     def self.type
-      "Try11_13"
+      "Path in Rectangular Field"
     end
     def initialize
       @length1 = rand(15)+5
@@ -1357,7 +1388,7 @@ module PerimeterandArea
 
   class Try11_14<QuestionWithExplanation
     def self.type
-      "Try11_14"
+      "Cross in Rectangular Field"
     end
     def initialize
       @length1 = 2*(rand(10)+5)
@@ -1410,7 +1441,7 @@ module PerimeterandArea
 
   class Try11_15<QuestionWithExplanation
     def self.type
-      "Try11_15"
+      "Circle in Rectangle"
     end
     def initialize
       @length1 = 2*(rand(10)+5)
@@ -1464,7 +1495,7 @@ module PerimeterandArea
 
 PROBLEMS = [
     
-   # PerimeterandArea::Tr_11,
+   
    PerimeterandArea::Createkb4,
    PerimeterandArea::Per_circle,
    PerimeterandArea::Per_rectangle,
@@ -1489,7 +1520,8 @@ PROBLEMS = [
    PerimeterandArea::Try11_12,
    PerimeterandArea::Try11_13,
    PerimeterandArea::Try11_14,
-   PerimeterandArea::Try11_15
+   PerimeterandArea::Try11_15,
+   PerimeterandArea::Per_parallelogram
     
     ] # //Anurag is module name and dummy is class name
 end

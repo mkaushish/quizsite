@@ -32,7 +32,7 @@ module RationalNumbers
 
   class Try6_2 < QuestionWithExplanation
     def self.type
-      "Try6_2"
+      "Additive Inverse"
     end
     def initialize
       @num = rand(200)-100
@@ -80,7 +80,7 @@ module RationalNumbers
 
   class Try6_3 < QuestionWithExplanation
     def self.type
-      "Try6_3"
+      "Multiplicative Inverse"
     end
     def initialize
       @num = rand(200)-100
@@ -141,7 +141,7 @@ module RationalNumbers
 
   class Try6_4 < QuestionWithExplanation
     def self.type
-      "Try6_4"
+      "Product"
     end
     def initialize
       @num = rand(200)-100
@@ -193,7 +193,7 @@ module RationalNumbers
 
   class Try6_5 < QuestionWithExplanation
     def self.type
-      "Try6_5"
+      "Product 2"
     end
     def initialize
       @num = rand(20)-10
@@ -246,7 +246,7 @@ module RationalNumbers
 
   class Try6_7 < QuestionWithExplanation
     def self.type
-      "Try6_7"
+      "Equivalent Rationals"
     end
     def initialize
       @num = rand(200)-100
@@ -264,7 +264,7 @@ module RationalNumbers
     
     def text
         [
-          InlineBlock.new(TextLabel.new("Write a rational number equivalent to the following fraction"),Fraction.new(@num,@den)),
+          InlineBlock.new(TextLabel.new("Write a rational number equivalent but not exactly the same as the following fraction"),Fraction.new(@num,@den)),
           Fraction.new("ans1", "ans2")
         ]
     end
@@ -295,7 +295,7 @@ module RationalNumbers
 
   class Try6_8 < QuestionWithExplanation
     def self.type
-      "Try6_8"
+      "Rational Numbers Between"
     end
     def initialize
       @choose=0
@@ -356,7 +356,7 @@ module RationalNumbers
 
   class Try6_9 < QuestionWithExplanation
     def self.type
-      "Try6_9"
+      "Division of Rationals"
     end
     def initialize
       @num = rand(20)-10
@@ -486,7 +486,7 @@ module RationalNumbers
 
   class Try6_10 < QuestionWithExplanation
     def self.type
-      "Try6_10"
+      "Rational Number?"
     end
     def initialize
       @num1 = rand(5)-2
@@ -512,7 +512,7 @@ module RationalNumbers
 
   class Try6_13 < QuestionWithExplanation
     def self.type
-      "Try6_13"
+      "Lowest Form"
     end
     def initialize(num=nil, den=nil)
       if num!=nil
@@ -543,7 +543,7 @@ module RationalNumbers
 
   class Try6_6 < QuestionWithExplanation
     def self.type
-      "Try6_6"
+      "Operations on Rationals"
     end
     def initialize(den=nil, nums=nil, sig=nil)
       if den!=nil
