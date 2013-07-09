@@ -23,10 +23,10 @@
 
       </div>
 
-        <a class='plate' style='margin-top:44px'><div id='badge_count'><%= render  :partial => 'students/badge_count' %></div></a>
+        <a class='plate' href='#badgeModal' style='margin-top:44px' data-toggle="modal"><div id='badge_count'><%= render  :partial => 'students/badge_count' %></div></a>
 
       <li class='shelf_li'>
-      <div id="get_badge">
+      <div id="get_badge2">
       
         <%= render 'students/badge_gray' %>
           
@@ -42,6 +42,25 @@
  
 
 </div>
+<div id="badgeModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-header2 modal-header">
+    <!-- <button type="button" class="close" data-dismiss="modal" aria-hidden="true" style="opacity:2;">×</button> -->
+    <h3 id="myModalLabel" class="badgehead" >BADGES</h3>
+  </div>
+  <div class="modal-body">
+    <ul><% current_user.badges.order("created_at DESC").each do |badge| %>
+          <li class="tryli">
+            <p class = "<%= badge.badge_key %> badges2 badge_<%= badge.level %>"></p>
+            <p class="posbadge_name"><%= badge.name %></p></li>
+    <% end %>     
+        </ul>
+  </div>
+  <!-- <div class="modal-footer">
+    <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+    <button class="btn btn-primary">Save changes</button>
+  </div> -->
+</div>
+
 </div>
 <script>
   shelf_do();

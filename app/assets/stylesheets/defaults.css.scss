@@ -6,14 +6,158 @@ a {
 		text-decoration:none;
 	}
 }
-
+#site_logo{
+  background-color: white;
+}
 .centered {
   display:block;
   text-align:center;
   margin-left: auto;
   margin-right:auto;
 }
+#logod{
+  float:left;
+  position:fixed;
+  height:100%;
+  text-align: center;
+  box-shadow: 4px 0px 4px #888888;
+  background-image: url("wall.png");
+  padding-left:20px;
+  padding-top:20px;
+}
+.hpages{
+  min-width: 620px;
+}
+#hpages_1{
+  text-align: center;
+  padding-top: 30px;
+  height:400px;
+}
+#hpages_2{
+  text-align: center;
+  padding-top: 30px;
+  height:400px;
+  margin-top:50px;
+}
+.logo_blue{
+  font-family: "alok";
+  color:$sg_blue;
+  font-size:50px;
+  display: inline-block;
+  padding-bottom:0;
+}
+#home_students{
+  float:left;
+}
+#home_teachers{
+  float:right;
+}
+.how_work{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left:100px;
+    padding-right:100px;
+    width:600px;
+    margin-left:20px;
+    font-family:"Home_hand";
+    font-size:100px;
+    margin-right:20px;
 
+    text-align: center;
+    color: white;
+    background-color: purple;
+
+    box-shadow: 8px 8px 8px black;
+    border:none;
+    border-radius:0px;
+    -webkit-border-radius:0px;
+}
+.how_work:hover{
+  -moz-box-shadow: inset 0 0 40px #888888;
+-webkit-box-shadow: inset 0 0 40px #888888;
+box-shadow: inner 0 0 40px #888888;
+color:white;
+}
+.sign_up_home{
+  float:left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    width:230px;
+    margin-left:15px;
+    font-family:Courier;
+    font-size:50px;
+    margin-right:15px;
+
+    text-align: center;
+    color: white;
+    background-color: orange;
+
+    box-shadow: 8px 8px 8px black;
+    border:none;
+    border-radius:0px;
+    -webkit-border-radius:0px;
+}
+.sign_up_home:hover{
+  -moz-box-shadow: inset 0 0 40px #888888;
+-webkit-box-shadow: inset 0 0 40px #888888;
+box-shadow: inner 0 0 40px #888888;
+color:white;
+}
+.logo_green{
+  font-family: "alok";
+  color:$sg_green;
+  font-size:50px;
+  display: inline-block;
+  margin-left: -0.5%;
+  padding-bottom:0;
+}
+.logo_tag{
+  font-family: "Home_hand";
+  font-size:60px;
+  margin-top:-10%;
+  color:gray;
+}
+#logo_text{
+  width: 88%;
+height: 100%;
+float: left;
+margin-top: 5px;
+margin-left: -5px;
+margin-right: -5px;
+}
+#logo_left_border{
+  width:5%;
+  height:100%;
+  border-top: 10px solid $sg_blue;
+  border-left: 10px solid $sg_blue;
+  border-bottom: 10px solid $sg_blue;
+  float:left;
+}
+#logo_right_border{
+  width:5%;
+  height:100%;
+  border-top: 10px solid $sg_green;
+  border-right: 10px solid $sg_green;
+  border-bottom: 10px solid $sg_green;
+  float:right;
+}
+#tick{
+  position:absolute;
+  top:22%;
+  left:82%;
+  img{
+    width:20px;
+  }
+}
+#logo_with_sides{
+  width:500px;
+  height:200px;
+  vertical-align: middle;
+  position:relative;
+  margin-left:auto;
+  margin-right: auto;
+}
 input[type="text"] {
   border-radius:0;
   border:1px solid gray;

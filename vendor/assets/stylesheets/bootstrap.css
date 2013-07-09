@@ -1887,6 +1887,18 @@ table .span24 {
 .dropdown.open .dropdown-menu {
   display: block;
 }
+.classon:after{
+
+content: "**";
+background-image: url("/assets/enevelope.png");
+border: 2px solid red;
+background-color: red;
+border-radius: 10px;
+z-index: 300;
+position: absolute;
+left: 67px;
+top: -8px
+}
 .pull-right .dropdown-menu {
   left: auto;
   right: 0;
@@ -3256,6 +3268,31 @@ input[type="submit"].btn.btn-mini {
   background-color: #fff;
   cursor: default;
 }
+/*manav*/
+#badgeModal{
+  display: block;
+width: 50%;
+float: left;
+margin-left: 25%;
+left: 0;
+}
+/*manav*/
+.modal-header2{
+ background-image: linear-gradient(left , rgb(101,2,90) 22%, rgb(132,28,117) 46%, rgb(159,56,153) 74%);
+background-image: -o-linear-gradient(left , rgb(101,2,90) 22%, rgb(132,28,117) 46%, rgb(159,56,153) 74%);
+background-image: -moz-linear-gradient(left , rgb(101,2,90) 22%, rgb(132,28,117) 46%, rgb(159,56,153) 74%);
+background-image: -webkit-linear-gradient(left , rgb(101,2,90) 22%, rgb(132,28,117) 46%, rgb(159,56,153) 74%);
+background-image: -ms-linear-gradient(left , rgb(101,2,90) 22%, rgb(132,28,117) 46%, rgb(159,56,153) 74%);
+
+background-image: -webkit-gradient(
+  linear,
+  left bottom,
+  right bottom,
+  color-stop(0.22, rgb(101,2,90)),
+  color-stop(0.46, rgb(132,28,117)),
+  color-stop(0.74, rgb(159,56,153))
+);
+}
 .modal-open .dropdown-menu {
   z-index: 2050;
 }
@@ -3321,8 +3358,11 @@ input[type="submit"].btn.btn-mini {
   top: 50%;
 }
 .modal-header {
-  padding: 9px 15px;
+  padding-top: 9px;
   border-bottom: 1px solid #eee;
+  img {
+    width:100%;
+  }
 }
 .modal-header .close {
   margin-top: 2px;
@@ -3333,6 +3373,7 @@ input[type="submit"].btn.btn-mini {
   padding: 15px;
 }
 .modal-form {
+
   margin-bottom: 0;
 }
 .modal-footer {
