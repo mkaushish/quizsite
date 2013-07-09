@@ -24,7 +24,7 @@ class Badge < ActiveRecord::Base
         		student.points += 50000
         		student.save
                 student.news_feeds.create(:content => "Congrats! You have won a new Badge: All problem sets done ", :feed_type => "badge", :user_id => student.id)
-        		student.badges.create(:name => "All problem sets done", :badge_key => "BadgeAPSD", :level => 5)
+        		student.badges.create(:name => "All Problem Sets Blue", :badge_key => "BadgeAPSD", :level => 5)
         	end
 		end
     end
@@ -44,7 +44,7 @@ class Badge < ActiveRecord::Base
             			student.points += 5000
             			student.save
                         student.news_feeds.create(:content => "Congrats! You have won a new Badge: #{pset_name} Blue !!", :feed_type => "badge", :user_id => student.id)
-            			student.badges.create(:name => "#{pset_name} Blue !!", :badge_key => "Badge#{problem_set.name}B", :level => 3)
+            			student.badges.create(:name => "#{pset_name} Problem Set Blue", :badge_key => "Badge#{problem_set.name}B", :level => 3)
           		  	end
         	
         		elsif 10*(total_minus_blue) < pset.num_problems
@@ -74,7 +74,7 @@ class Badge < ActiveRecord::Base
             		student.points += 100
             		student.save
                     student.news_feeds.create(:content => "Congrats! You have won a new Badge: #{problem_type.name} Blue !!", :feed_type => "badge", :user_id => student.id)
-            		student.badges.create(:name => "#{problem_type.name} Blue !!", :badge_key => "Badge#{problem_type.name}B", :level => 1)
+            		student.badges.create(:name => "#{problem_type.name} Problem Type Blue", :badge_key => "Badge#{problem_type.name}B", :level => 1)
             	end	
         	end
     	end
@@ -94,7 +94,7 @@ class Badge < ActiveRecord::Base
         		student.points += 20000
         		student.save
                 student.news_feeds.create(:content => "Congrats! You have won a new Badge: #{n} problem sets done!!", :feed_type => "badge", :user_id => student.id)
-        		student.badges.create(:name => "#{n} problem sets done", :badge_key => "Badge#{n}PSD", :level => 4)
+        		student.badges.create(:name => "#{n} Problem Sets Blue", :badge_key => "Badge#{n}PSD", :level => 4)
         	end
 		end
     end
@@ -113,7 +113,7 @@ class Badge < ActiveRecord::Base
 					student.points += 1000
 					student.save
                     student.news_feeds.create(:content => "Congrats! You have won a new Badge: #{n} questions correct in a row for the first time only ", :feed_type => "badge", :user_id => student.id)
-					student.badges.create(:name => "#{n} questions correct in a row for the first time only", :badge_key => "Badge#{n}QCIARFTO", :level => 2)
+					student.badges.create(:name => "#{n} Questions Correct in a Row for the First Time", :badge_key => "Badge#{n}QCIARFTO", :level => 2)
 				end					
 			end
 		end
@@ -131,7 +131,7 @@ class Badge < ActiveRecord::Base
 					student.points += 1000
 					student.save
 				    student.news_feeds.create(:content => "Congrats! You have won a new Badge: Completing a problem set within a day", :feed_type => "badge", :user_id => student.id)
-                	student.badges.create(:name => "Completing a problem set within a day",	:badge_key => "BadgeCAPSWAD", :level => 2)
+                	student.badges.create(:name => "Problem Set Completed Within a Day",	:badge_key => "BadgeCAPSWAD", :level => 2)
 				end					
 			end
 		end	
@@ -150,7 +150,7 @@ class Badge < ActiveRecord::Base
 					student.points += 100
 					student.save
 			        student.news_feeds.create(:content => "Congrats! You have won a new Badge: First 10 red questions correct ", :feed_type => "badge", :user_id => student.id)
-            		student.badges.create(:name => "First 10 red questions correct", :badge_key => "BadgeTRQC", :level => 1)
+            		student.badges.create(:name => "10 red Questions Correct", :badge_key => "BadgeTRQC", :level => 2)
 				end					
 			end
 		end
@@ -176,7 +176,7 @@ class Badge < ActiveRecord::Base
     	    		student.points += 5000
     	    		student.save
                     student.news_feeds.create(:content => "Congrats! You have won a new Badge: #{n} questions correction in a row #{times} times!!", :feed_type => "badge", :user_id => student.id)
-    	    		student.badges.create(:name => "#{n} questions correction in a row #{times} times", :badge_key => "Badge#{n}QCIARF#{times}T", :level => 3)
+    	    		student.badges.create(:name => "#{n} Questions Correct in a Row #{times} Times", :badge_key => "Badge#{n}QCIARF#{times}T", :level => 3)
           		end	
           	end
 		end
