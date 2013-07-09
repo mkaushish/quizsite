@@ -6,13 +6,25 @@
 </ul>
 
 <script>
-var lisize=$(".dropdown-menu li").size();
-$('').ajaxComplete(getLinkCount);
+
+//alert(lisize);
+
+$(".dropdown-menu li").ajaxStop(getLinkCount());
 function getLinkCount(){
-	if($(".dropdown-menu li").size()>lisize)
-	{
-		alert("haha");
-	}
+		
+    var lisize=$(".dropdown-menu li").size();
+	// if($(".dropdown-menu li").size()>lisize1)
+	// {
+	// 	alert(lisize1);
+	// }
+	$(".dropdown-menu li").ajaxStart(detect(lisize));
+	function detect(lisize1)
+	{    var lisize2=$('.dropdown-menu li').size();
+			
+		if(lisize2>lisize1)	
+		{$(".dropdown-toggle2").addClass("classon");
+}
+}	
 }
 
 
