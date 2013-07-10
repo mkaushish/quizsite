@@ -393,7 +393,7 @@ h6 {
 }
 ul,
 ol {
-  padding: 0;
+  /*padding: 0;*/
   margin: 0 0 9px 25px;
 }
 ul ul,
@@ -2543,6 +2543,7 @@ input[type="submit"].btn.btn-mini {
 .nav-tabs {
   border-bottom: 1px solid #ddd;
 }
+
 .nav-tabs > li {
   margin-bottom: -1px;
 }

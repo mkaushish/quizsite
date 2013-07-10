@@ -61,6 +61,12 @@
   font-family: "Home_hand";
   src: url('stars.ttf');
 }
+
+@font-face {
+  font-family: "Lane_narrow";
+  src: url('LANEUP__.ttf');
+}
+
 /* }}} */
 
 body {
@@ -189,6 +195,91 @@ form div.field_block {
   height: 0px;
   overflow:visible;
 }
+
+/* ----sections---- */
+
+#home, #work, #about, #contact, #how_it_helps{
+  position:relative;
+  margin-bottom:500px;
+  width:100%;
+  padding-top:15px;
+  text-align: center;
+}
+#top{
+  margin-bottom:0px;
+}
+#work, #about, #contact, .columns, .intro-text{
+  padding:10px;
+}
+#main-content section .intro-text h2{
+  font-family:"LaneNarrowRegular", Arial, Helvetica, sans-serif;
+  text-transform:uppercase;
+  
+}
+.intro-text{
+  font-family:"Lane_Narrow", Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  
+}
+
+#main-content{
+  width:670px;
+   margin: 0 auto;
+}
+.clearfix:before, .clearfix:after {  content: "\0020"; display: block; height: 0; visibility: hidden;  } 
+.clearfix:after { clear: both; }
+.clearfix { zoom: 1; }
+
+/* --how_it_helps_content-- */
+
+#how_it_helps_content{
+  border: 1px solid #CCCCCC;
+  -webkit-box-shadow: 0 8px 6px -6px black;
+     -moz-box-shadow: 0 8px 6px -6px black;
+          box-shadow: 0 8px 6px -6px black;
+}
+.page_header_home {
+  border-bottom: 1px solid #CCC;  
+}
+
+.page_header_home h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.page_header_home h1:after {
+  background-color: #63bd5a;
+  bottom: 0;
+  content: "";
+  margin-top: 10px;
+  margin-bottom: -10px;
+  display: block;
+  width: 50px;
+  margin-left: 0px;
+  height: 3px;
+}
+
+/*-----steps-----*/
+
+.step {
+width: 50px;
+height: 50px;
+text-align: center;
+line-height: 50px;
+display: inline-block;
+border-radius: 50%;
+background: #fff;
+border: 1px solid #ccc;
+font-weight: 700;
+font-size: 22px;
+margin-bottom: 20px;
+}
+
+#student_steps{
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
 
 
 /* }}} */
