@@ -5,9 +5,65 @@
     position:absolute;
 font-size: 8px;
 color: white;
-height: 20px;
-width: 20px;
-background-color: rgb(103, 73, 179);
+height: 40px;
+width: 40px;
 border-radius: 50%;
 font-family: "Home_hand";
+border-style:solid;
+border-color:gray;
   }
+.badges2{
+display:inline-block;
+font-size: 8px;
+color: white;
+height: 40px;
+width: 40px;
+border-radius: 50%;
+font-family: "Home_hand";
+border-style:solid;
+border-color:gray;
+  }
+  .modal-body ul li{opacity:0.8;}
+  .tryli:hover{
+  opacity:10;
+  -webkit-transition:all 0.5s ease-in-out 0s;
+  cursor:pointer;
+  }
+  .posbadge_name{
+
+  display: inline;
+vertical-align: 25px;
+margin-left: 30px;
+  }
+  .badgehead{
+  color: white;padding-left: 2%;font-family: 'Home_hand';font-size: 40px;box-shadow: 0 2px 50px rgba(0, 0, 0, 0.45);
+  }
+  .badgesbw{
+    position:absolute;
+font-size: 8px;
+color: white;
+height: 40px;
+width: 40px;
+background-color: rgb(220,220,220);
+border-radius: 50%;
+border-style:solid;
+border-color:gray;
+font-family: "Home_hand";
+  }
+
+  .badge_1{
+  	background-color:violet;
+  }
+  .badge_2{
+  	background-color:gold;
+  }
+  .badge_3{
+  	background-color:orange;
+  }
+  .badge_4{
+  	background-color:$sg_green;
+  }
+  .badge_5{
+  	background-color:$sg_blue;
+  }
+

@@ -131,7 +131,7 @@ class Badge < ActiveRecord::Base
 					student.points += 1000
 					student.save
 				    student.news_feeds.create(:content => "Congrats! You have won a new Badge: Completing a problem set within a day", :feed_type => "badge", :user_id => student.id)
-                	student.badges.create(:name => "Completing a problem set within a day",	:badge_key => "BadgeCAPSWAD")
+                	student.badges.create(:name => "Completing a problem set within a day",	:badge_key => "BadgeCAPSWAD", :level => 2)
 				end					
 			end
 		end	
@@ -150,7 +150,7 @@ class Badge < ActiveRecord::Base
 					student.points += 100
 					student.save
 			        student.news_feeds.create(:content => "Congrats! You have won a new Badge: First 10 red questions correct ", :feed_type => "badge", :user_id => student.id)
-            		student.badges.create(:name => "First 10 red questions correct", :badge_key => "BadgeTRQC")
+            		student.badges.create(:name => "First 10 red questions correct", :badge_key => "BadgeTRQC", :level => 1)
 				end					
 			end
 		end
