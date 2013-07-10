@@ -461,7 +461,7 @@ function createshape1(a,par1,par2,par3,par4,par5,unit)
   			ctx.stroke();
   			ctx.font = " 14px Arial";
  			ctx.textAlign="center"; 
-			ctx.fillText("length = "+l+""+unit,x+l/2,y);
+			ctx.fillText("length = "+l/10+""+unit,x+l/2,y);
   		}
 	}
 	else if(a=='cuboid_1')
@@ -514,17 +514,17 @@ function createshape1(a,par1,par2,par3,par4,par5,unit)
   		ctx.stroke();
   		ctx.font = " 14px Arial";
  		ctx.textAlign="center"; 
-		ctx.fillText("length="+l+""+unit,x+l/2,y);
-		ctx.fillText("height="+h+""+unit,x+l,y+h/2);
-		ctx.fillText("breadth="+br+""+unit,x+l+a,y-b/2);
+		ctx.fillText("length="+l/10+""+unit,x+l/2,y);
+		ctx.fillText("height="+h/10+""+unit,x+l,y+h/2);
+		ctx.fillText("breadth="+br/10+""+unit,x+l+a,y-b/2);
 
 	}
 	else if(a=='cylinder')
 	{
 		var x = par1*10;
 		var y = par2*10;
-		var w = par3*10;
-		var h = par4*10;
+		var w = par3*5;
+		var h = par4*5;
 		var unit= unit;
 		if(par5==0)
 		{
@@ -609,8 +609,8 @@ function createshape1(a,par1,par2,par3,par4,par5,unit)
   			ctx.fillStyle = "blue";
   			ctx.font = " 14px Arial";
  			ctx.textAlign="center"; 
-			ctx.fillText("radius="+w+""+unit,x+3*w/4,y+h/8-3);
-			ctx.fillText("height="+h+""+unit,x+w,y+h/2);
+			ctx.fillText("radius="+w/5+""+unit,x+3*w/4,y+h/8-3);
+			ctx.fillText("height="+h/5+""+unit,x+w,y+h/2);
   		}
 	}
 	else if (a=='cone')
@@ -670,8 +670,8 @@ function createshape1(a,par1,par2,par3,par4,par5,unit)
   			ctx.fillStyle = "blue";
   			ctx.font = " 14px Arial";
  			ctx.textAlign="center"; 
-			ctx.fillText("radius="+w+""+unit,x+3*w/4,y+h/8-3);
-			ctx.fillText("height="+h+""+unit,x+w/2,y-h/2);
+			ctx.fillText("radius="+w/10+""+unit,x+3*w/4,y+h/8-3);
+			ctx.fillText("height="+h/10+""+unit,x+w/2,y-h/2);
   		}
 
 	}

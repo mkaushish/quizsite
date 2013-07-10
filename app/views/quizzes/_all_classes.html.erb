@@ -12,7 +12,7 @@
 <div class="row-fluid">
 	<div id="problem_set_form">
 		<% if @problem_set.nil? %>
-			<%= form_tag new_quiz_for_all_path, :method => 'get', :class => 'inline-form', :id => 'pset-form', remote: :true do %>
+			<%= form_tag new_quiz_path(type: "all_classes"), :method => 'get', :class => 'inline-form', :id => 'pset-form', remote: :true do %>
 	  			<%= label_tag "problem_set_id", "Problem Set" %>
 	  			<% if @problem_sets.empty? %>
 	    			<%= select_tag :problem_set_id, "", disabled: true %>

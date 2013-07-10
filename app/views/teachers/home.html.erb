@@ -4,8 +4,8 @@
 </div>
 <div class="row-fluid">
 	<div class="dotted-border pull-right">
-		<%= link_to "Assign Quiz to all", new_quiz_for_all_path %> <br />
-		<%= link_to "Assign Quiz with All Problem Types", new_quiz_with_all_ptypes_path %>
+		<%= link_to "Assign Quiz to all", new_quiz_path(type: "all_classes") %> <br />
+		<%= link_to "Assign Quiz with All Problem Types", new_quiz_path(type: "all_classes_and_all_problem_types") %>
 	</div>
 </div>
 <% @classrooms.each do |classroom| %>

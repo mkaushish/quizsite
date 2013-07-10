@@ -30,7 +30,7 @@ require_relative 'grade6/mensuration_8'
 require_relative 'grade6/rationalnumbers'
 require_relative 'grade6/algebra_6'
 require_relative 'grade6/comparingQuantities'
-
+require_relative 'grade6/chapter5'
 
 CHAPTERS = [ 
   Chapter1,
@@ -54,11 +54,14 @@ CHAPTERS = [
   Anurag,
   Algebra,
   Algebra_6,
+  ComparingQuantities,
+  Chapter5,
   RationalNumbers,
   PerimeterandArea,
   PerimeterandArea_6,
   Mensuration_8,
   ComparingQuantities
+
 
 ]
 

@@ -25,6 +25,8 @@ $problem_top_m: 0;
 	border-left:1px solid gray;
 	border-right:1px solid gray;
   display:none;
+  max-width:720px;
+  min-width:475px;
 }
 
 $pset_title_m: 200px;
