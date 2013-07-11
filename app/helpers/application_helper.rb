@@ -156,4 +156,11 @@ module ApplicationHelper
     end
     return @badges   
   end 
+
+  def date_of_last(day,date)
+    newdate  = Date.parse(day)
+    delta = newdate > date.to_date ? 0 : 7
+    newdate + delta - 7
+  end
+
 end

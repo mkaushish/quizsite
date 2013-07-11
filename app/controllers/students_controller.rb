@@ -1,7 +1,7 @@
 class StudentsController < ApplicationController
     
     before_filter :authenticate, :except => [:show, :new, :create]
-    before_filter :validate_student, :only => [:update, :show]
+    before_filter :validate_student, :only => [:update, :show, :chart]
     before_filter :validate_student_via_current_user, :only => [:home, :edit]
 
     def home
@@ -67,6 +67,23 @@ class StudentsController < ApplicationController
     end
 
     def me
+    end
+
+    def chart
+        @student = Student.find_by_id(params[:id])
+        @problem_sets = @student.problem_sets
+  #      @answers_correct = @student.answers.map(&:correct)
+  #      time_range = (10.weeks.ago..Time.now)
+  #      @b = @student.answers.where(:created_at => time_range).select{|v| v.correct == true }
+        
+  #      @b = @a.find(:@a => {:created_at => time_range})
+    end   
+    
+    def problemset_chart
+        @pset = ProblemSet.find_by_id(params[:pset])
+        respond_to do |format|
+            format.js 
+        end 
     end
 
     private

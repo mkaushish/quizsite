@@ -1,0 +1,167 @@
+<%= @student.name %>
+<% @arr = [['Weeks Ago','% correct']]%>
+<% i=51 %>
+<% while i >= 0 do %>
+	<% time_range = (date_of_last("Monday",(i+1).weeks.ago)..date_of_last("Monday",i.weeks.ago)) %>
+	<% @b = @student.answers.where(:created_at => time_range).select{|v| v.correct == true } %>
+	<% @b_wrong = @student.answers.where(:created_at => time_range).select{|v| v.correct == false } %>
+	<% @count = @b.count%>
+	<% @count_wrong = @b_wrong.count %>
+	<% if @count_wrong+@count == 0%>
+		<% @arr.push([(i+1).to_s,0]) %>
+	<% else %>
+		<% @arr.push([(i+1).to_s,(@count*100)/(@count_wrong+@count)]) %>
+	<% end %>		
+	<% i = i-1%>
+<% end %>	
+
+
+    <script type="text/javascript">
+      google.load("visualization", "1", {packages:["corechart"]});
+      google.setOnLoadCallback(drawChart);
+      function drawChart() {
+
+        var data = google.visualization.arrayToDataTable(<%= raw @arr %>);
+        var options = {
+          title: 'Student Performance'
+        };
+
+        var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
+        chart.draw(data, options);
+      }
+    </script>
+    <div id="chart_div" style="width: 900px; height: 500px;"></div>
+
+
+<% @arr2 = [['Chapters','Wrong Answers']]%>
+<% @student.problem_set_instances.each do |pset|%>
+  <% @ans_wrong = pset.answers.select{|v| v.correct == false }%>
+  <% @arr2.push([pset.name, @ans_wrong.count]) %>
+<% end %>
+
+
+
+    <script type="text/javascript">
+      google.load("visualization", "1", {packages:["corechart"]});
+      google.setOnLoadCallback(drawChart);
+            function drawChart() {
+
+        var data2 = google.visualization.arrayToDataTable(<%= raw @arr2 %>);
+
+        var options2 = {
+          title: 'Wrong Answers by Student'
+        };
+
+        var chart2 = new google.visualization.PieChart(document.getElementById('chart_div_2'));
+        chart2.draw(data2, options2);
+      }
+    </script>
+    <div id="chart_div_2" style="width: 900px; height: 500px;"></div>
+
+
+
+<% @arr3 = [['Chapters','Correct Percentage']]%>
+<% @student.problem_set_instances.each do |pset|%>
+  <% @ans_right = pset.answers.select{|v| v.correct == true }%>
+  <% @ans_wrong = pset.answers.select{|v| v.correct == false }%>
+  <% if (@ans_wrong.count + @ans_right.count) > 0 %>  
+    <% @arr3.push([pset.name, (@ans_right.count*100)/(@ans_right.count+@ans_wrong.count)]) %>
+  <% end %>  
+<% end %>
+
+
+
+    <script type="text/javascript">
+      google.load("visualization", "1", {packages:["corechart"]});
+      google.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data3 = google.visualization.arrayToDataTable(<%= raw @arr3 %>);
+
+        var options3 = {
+          title: 'Student Performance',
+          vAxis: {title: 'Chapters',  titleTextStyle: {color: 'red'}}
+        };
+
+        var chart3 = new google.visualization.BarChart(document.getElementById('chart_div_3'));
+        chart3.draw(data3, options3);
+      }
+    </script>
+
+    <div id="chart_div_3" style="width: 900px; height: 500px;"></div>
+
+
+
+<% @arr4 = [['Weeks Ago','Questions Done']]%>
+<% i=51 %>
+<% while i >= 0 do %>
+  <% time_range = (date_of_last("Monday",(i+1).weeks.ago)..date_of_last("Monday",i.weeks.ago)) %>
+  <% @no_of_answers = @student.answers.where(:created_at => time_range) %>
+    <% @arr4.push([(i+1).to_s,@no_of_answers.count]) %>
+  <% i = i-1 %>
+<% end %> 
+
+
+
+    <script type="text/javascript">
+      google.load("visualization", "1", {packages:["corechart"]});
+      google.setOnLoadCallback(drawChart);
+      function drawChart() {
+
+        var data4 = google.visualization.arrayToDataTable(<%= raw @arr4 %>);
+        var options4 = {
+          title: 'Student Performance'
+        };
+
+        var chart4 = new google.visualization.LineChart(document.getElementById('chart_div_4'));
+        chart4.draw(data4, options4);
+      }
+    </script>
+
+    <div id="chart_div_4" style="width: 900px; height: 500px;"></div>
+
+
+
+<% @arr5 = [['Chapters','Questions Done']]%>
+<% time_range = (2.weeks.ago..Time.now) %>
+<% @student.problem_set_instances.each do |pset|%>
+  <% @ans = pset.answers.where(:created_at => time_range) %>
+  <% @arr5.push([pset.name, @ans.count]) %>
+<% end %>
+
+
+
+    <script type="text/javascript">
+      google.load("visualization", "1", {packages:["corechart"]});
+      google.setOnLoadCallback(drawChart);
+            function drawChart() {
+
+        var data5 = google.visualization.arrayToDataTable(<%= raw @arr5 %>);
+
+        var options5 = {
+          title: 'Problem Sets done in last 15 days'
+        };
+
+        var chart5 = new google.visualization.PieChart(document.getElementById('chart_div_5'));
+        chart5.draw(data5, options5);
+      }
+    </script>
+ 
+    <div id="chart_div_5" style="width: 900px; height: 500px;"></div>
+
+
+
+<div class="span4">
+    <div class="dotted-border-header">
+        Chapters
+    </div>
+    <div class='dotted-border teacher-details-column'>
+        <ul class='column-list' id="chapter_tabs" style="width:100%; height:500px; overflow-x:hidden; overflow-y:scroll;">
+        <% @problem_sets.each do |pset| %>
+            <li><%= link_to pset.name, chart_student_pset_path(@student.id,pset), :remote => :true %></li>
+        <% end %>
+        </ul>
+    </div>
+</div>
+
+<div class = "span12" id = "pset_chart">
+ </div> 
