@@ -1,4 +1,4 @@
-Quizsite::Application.routes.draw do
+ Quizsite::Application.routes.draw do
   resources :badges
 
   resources :problem_sets, only: [:show, :edit, :create, :update, :destroy]
@@ -41,6 +41,8 @@ Quizsite::Application.routes.draw do
   get '/student/notifications',         :to => 'students#notifications', :as => :notifications_student
   put '/students/:id',                  :to => 'students#update', :as => :update_student
   get '/students/:id',                  :to => 'students#show', :as => :student
+  get '/students/:id/chart',            :to => 'students#chart', :as => :chart_student
+  get '/students/:id/chart/pset/:pset',       :to => 'students#problemset_chart', :as => :chart_student_pset
 
   # student-problem_set_instances views
   get '/psets/:name',                   :to => 'problem_set_instances#show', :as => :pset

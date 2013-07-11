@@ -148,6 +148,7 @@ transition: all 0.3s ease-out;}
             <span class="assign"><%= link_to "Assign", "#", :class => 'pull-right' %></span>
           </li>
           <%= render 'teachers/quiz_history', :@quiz_history => classroom.quizzes %>
+          <%#= render 'teachers/quiz_history', :@quiz_history => classroom.classroom_quizzes %>
         </ul>
       </div>
     </div>
