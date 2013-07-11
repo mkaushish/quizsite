@@ -3269,7 +3269,7 @@ input[type="submit"].btn.btn-mini {
   cursor: default;
 }
 /*manav*/
-#badgeModal{
+#badgeModal,#badgeModalleft{
   display: block;
 width: 50%;
 float: left;
