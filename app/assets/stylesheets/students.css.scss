@@ -7,29 +7,7 @@ $blackboard_w: 187px;
 $blackboard_h: 148px;
 $border_w: 7px;
 // $border_w: 0px;
-.badges{
-    position:absolute;
-font-size: 8px;
-color: white;
-height: 20px;
-width: 20px;
-background-color: rgb(103, 73, 179);
-border-radius: 50%;
-font-family: "Home_hand";
-  }
-  .badgesbw{
-    position:absolute;
-font-size: 8px;
-color: white;
-height: 20px;
-width: 20px;
-background-color: gray;
-border-radius: 50%;
-border-style:solid;
-border-width:1px;
-border-color:black;
-font-family: "Home_hand";
-  }
+  
 .student-info {
   float:right;
   position:relative;
@@ -347,8 +325,31 @@ background-image: -webkit-gradient(
 }
 
 .plate:hover{
-  border-style: solid;
-  border-color:purple;
-  border-width: 2px;
-}
 
+  background-color:$sg_green;
+  -webkit-transition: all 0.5s ease-in-out 0s;
+-webkit-border-radius: 10px;
+  }
+
+.dropdown-toggle2{
+  background-image: url('/assets/envelope.png');
+background-position-x: -20px;
+border: none;
+background-color: transparent;
+background-position-y: -10px;
+margin-top: -20px;
+height: 60px;
+width: 100%;
+box-shadow: none;
+-webkit-box-shadow: none;
+-moz-box-shadow: none;
+
+
+}
+.dropdown-toggle2:hover{
+
+background-position-x: -20px;
+border: none;
+background-color: transparent;
+background-position-y: -10px;
+}

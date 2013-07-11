@@ -21,7 +21,10 @@ module Names
     "Rahim",
     "Roshan",
     "Reshma",
-    "Seema"
+    "Seema",
+    "Anurag",
+    "Manav",
+    "Tushar"
   ]
 
   def Names.generate(n = 1)
