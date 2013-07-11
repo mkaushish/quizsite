@@ -1,9 +1,59 @@
+<div id="main-content" style="text-align:center;">
+    <section id="home" class="clearfix">
+        <%= render 'shared/home' %>
+    </section>
+    <section id="how_it_helps" class="clearfix">
+        <%= render 'shared/how_it_helps' %>
+    </section>
+    <section id="how_it_works" class="clearfix">
+        <%= render 'shared/how_it_works' %>
+    </section>
+    <footer>
+        <a href="#home">Home</a>|
+        <a href="#about">About</a>|
+        <a href="#how_it_helps">How it Helps</a>|
+        <a href="#how_it_works">How it works</a>|
+        <a href="#contact">Contact</a>
+        <h4><span>Copyright ©</span><span class="blue_text">Smarter</span><span class="green_text">Grades</span> 2013</h4>
+    </footer>
+</div>
+
+<script>
+    // function scroll(element, parent){
+    //     $(parent).animate({ scrollTop: $(element).offset().top - $(parent).offset().top }, { duration: 'slow', easing: 'swing'});
+    // }
+    // $(".how_work").click(function(){
+    //     scroll(".how_work","#hpages_2");
+    // });
+    // // $('#myTab a:first').tab('show');
+    $('#myTab a').click(function (e) {
+        e.preventDefault();
+        $(this).tab('show');
+    });
+    $(document).ready(function(){
+    $('a[href^="#"]').on('click',function (e) {
+        e.preventDefault();
+        var target = this.hash,
+        $target = $(target);
+        $('html, body').stop().animate({
+            'scrollTop': $target.offset().top
+        }, 900, 'swing', function () {
+            window.location.hash = target;
+        });
+    });
+});
+</script>
+
+<%= render :partial => 'shared/log_in' %>
+<%= render :partial => 'shared/register_modal' %>
+<%= render 'users/hidden_registration_forms' %>
+
 <!--<div id='home' class='static-page'>
     <div class='home2'>
         <div class="dotted-border">
-          <%= link_to_function "Register as a Teacher", "registerTeacher();", :class => 'button-blue centered' %>
+          <%#= link_to_function "Register as a Teacher", "registerTeacher();", :class => 'button-blue centered' %>
           <br></br>
-          <%= link_to_function "Register as a Student", "registerStudent();", :class => 'button-blue centered' %>
+          <%#= link_to_function "Register as a Student", "registerStudent();", :class => 'button-blue centered' %>
       </div>
     </div>
   <div id="myCarousel" class="carousel slide">
@@ -18,7 +68,7 @@
                     <img class='home_tb' src="/assets/Home/box.png">
                 </div>
                 <p>Learn Maths While Having Fun</p>
-                <%= link_to_function "", "registerStudent();", :class => 'get_started_button' %>
+                <%#= link_to_function "", "registerStudent();", :class => 'get_started_button' %>
             </div>
         </div>
         <div class="item">
@@ -30,7 +80,7 @@
                     <img class='home_tb' src="/assets/Home/box.png">
                 </div>
                 <p>Deepen your Learning</p>
-                <%= link_to_function "", "registerStudent();", :class => 'get_started_button' %>
+                <%#= link_to_function "", "registerStudent();", :class => 'get_started_button' %>
             </div>
         </div>
         <div class="item">
@@ -42,7 +92,7 @@
                     <img class='home_tb home_tick' src="/assets/Home/tick.png">
                 </div>
                 <p>Get your basics right</p>
-                <%= link_to_function "", "registerStudent();", :class => 'get_started_button' %>
+                <%#= link_to_function "", "registerStudent();", :class => 'get_started_button' %>
             </div>
         </div>
     </div>
@@ -63,7 +113,7 @@
                 <img class='home_tb' src="/assets/Home/box.png">
             </div>
             <p>Learn Maths While Having Fun</p>
-            <%= link_to_function "", "registerStudent();", :class => 'get_started_button' %>
+            <%#= link_to_function "", "registerStudent();", :class => 'get_started_button' %>
         </div>
         <div class='slide2 slide_hm' style="display:none">
             <img class='hm_sl' src="/assets/Home/slide1.png">
@@ -73,7 +123,7 @@
                 <img class='home_tb' src="/assets/Home/box.png">
             </div>
             <p>Deepen your Learning</p>
-            <%= link_to_function "", "registerStudent();", :class => 'get_started_button' %>
+            <%#= link_to_function "", "registerStudent();", :class => 'get_started_button' %>
         </div>
         <div class='slide3 slide_hm' style="display:none">
             <img class='hm_sl' src="/assets/Home/slide1.png">
@@ -83,7 +133,7 @@
                 <img class='home_tb home_tick' src="/assets/Home/tick.png">
             </div>
             <p>Get your basics rigth</p>
-            <%= link_to_function "", "registerStudent();", :class => 'get_started_button' %>
+            <%#= link_to_function "", "registerStudent();", :class => 'get_started_button' %>
         </div>
     </div>
     <br>
@@ -108,10 +158,10 @@
       <p>TRY MORE SAMPLE PROBLEMS</p>
   </div>
   <div class="dotted-border">
-    <% @problem_types.each do |ptype| %>
-      <p><%= link_to ptype.name, problem_type_path(ptype.id) %></p>
-    <% end %>
-    <p><%= link_to "and more", root_path(:ptypes => "all"), remote: :true %></p>
+    <%# @problem_types.each do |ptype| %>
+      <p><%#= link_to ptype.name, problem_type_path(ptype.id) %></p>
+    <%# end %>
+    <p><%#= link_to "and more", root_path(:ptypes => "all"), remote: :true %></p>
   </div>
 </div>
 </div>-->
@@ -122,21 +172,21 @@
 
 <!--<div id="logod">
     <ul>
-        <%= link_to "SIGN UP", "#register", "data-toggle" => "modal", :class => "button-blue"%>
+        <%#= link_to "SIGN UP", "#register", "data-toggle" => "modal", :class => "button-blue"%>
 
     </ul>
     <ul>
-        <%= link_to "LOG IN", "#logIn", "data-toggle"=>"modal", :class => "button-blue"%>
+        <%#= link_to "LOG IN", "#logIn", "data-toggle"=>"modal", :class => "button-blue"%>
     </ul>
 </div>-->
-<div class="hpages">
+<!-- <div class="hpages">
     <div id="hpages_1">
-        <%= render "shared/logo" %>
+        <%#= render "shared/logo" %>
         <div id="home_students">
             <img src="/assets/boy.png"/>
             <img src="/assets/girl.png"/>
         </div>
-        <%= link_to "SIGN UP", "#register", "data-toggle" => "modal", :class => "sign_up_home"%>
+        <%#= link_to "SIGN UP", "#register", "data-toggle" => "modal", :class => "sign_up_home"%>
         <div id="home_teachers">
             <img src="/assets/teacher.png"/>
             <img src="/assets/principal.png"/>
@@ -144,22 +194,10 @@
 
     </div>
     <div style="text-align:center">
+
         <a class="how_work">How Does it Work?</a>
     </div>
     <div id="hpages_2">
         
     </div>
-</div>
-<script>
-    function scroll(element, parent){
-        $(parent).animate({ scrollTop: $(element).offset().top - $(parent).offset().top }, { duration: 'slow', easing: 'swing'});
-    }
-    $(".how_work").click(function(){
-        scroll(".how_work","#hpages_2");
-    });
-</script>
-
-
-<%= render :partial => 'shared/log_in' %>
-<%= render :partial => 'shared/register_modal' %>
-<%= render 'users/hidden_registration_forms' %>
+</div> -->
