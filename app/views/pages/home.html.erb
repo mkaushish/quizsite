@@ -1,3 +1,54 @@
+
+<div id="main-content" style="text-align:center;">
+    <section id="home" class="clearfix">
+        <%= render 'shared/home' %>
+    </section>
+    <section id="how_it_helps" class="clearfix">
+        <%= render 'shared/how_it_helps' %>
+    </section>
+    <section id="how_it_works" class="clearfix">
+        <%= render 'shared/how_it_works' %>
+    </section>
+    <footer>
+        <a href="#home">Home</a>|
+        <a href="#about">About</a>|
+        <a href="#how_it_helps">How it Helps</a>|
+        <a href="#how_it_works">How it works</a>|
+        <a href="#contact">Contact</a>
+        <h4><span>Copyright ©</span><span class="blue_text">Smarter</span><span class="green_text">Grades</span> 2013</h4>
+    </footer>
+</div>
+
+<script>
+    // function scroll(element, parent){
+    //     $(parent).animate({ scrollTop: $(element).offset().top - $(parent).offset().top }, { duration: 'slow', easing: 'swing'});
+    // }
+    // $(".how_work").click(function(){
+    //     scroll(".how_work","#hpages_2");
+    // });
+    // // $('#myTab a:first').tab('show');
+    $('#myTab a').click(function (e) {
+        e.preventDefault();
+        $(this).tab('show');
+    });
+    $(document).ready(function(){
+    $('a[href^="#"]').on('click',function (e) {
+        e.preventDefault();
+        var target = this.hash,
+        $target = $(target);
+        $('html, body').stop().animate({
+            'scrollTop': $target.offset().top
+        }, 900, 'swing', function () {
+            window.location.hash = target;
+        });
+    });
+});
+</script>
+
+<%= render :partial => 'shared/log_in' %>
+<%= render :partial => 'shared/register_modal' %>
+<%= render 'users/hidden_registration_forms' %>
+
 <!--<div id='home' class='static-page'>
     <div class='home2'>
         <div class="dotted-border">
@@ -151,289 +202,3 @@
         
     </div>
 </div> -->
-<div id="main-content" style="text-align:center">
-    <section id="home" class="clearfix">
-        <%= render "shared/logo" %>
-        <div id="home_students">
-            <img src="/assets/boy.png"/>
-            <img src="/assets/girl.png"/>
-        </div>
-        <%= link_to "SIGN UP", "#register", "data-toggle" => "modal", :class => "sign_up_home"%>
-        <div id="home_teachers">
-            <img src="/assets/teacher.png"/>
-            <img src="/assets/principal.png"/>
-        </div>
-
-    </section>
-    <section id="how_it_helps" class="clearfix">
-        <div class="page_header_home">
-            <h1 class="intro-text">SmarterGrades Lets</h1>
-        </div>
-        
-        <!-- <a class="how_work">How Does it Work?</a> -->
-        <ul class="nav nav-tabs" id="myTab" style="margin-top: 18px; padding-left: 180px;">
-            <li class="active"><a href="#students">STUDENTS</a></li>
-            <li><a href="#teachers">TEACHERS</a></li>
-            <li><a href="#parents">PARENTS</a></li>
-        </ul>
-     
-        <div class="tab-content">
-            <div class="tab-pane active" id="students">
-                <!-- left text -->
-                <div class="row-fluid">
-                    <div class="span" id="how_it_helps_content" style="border-left: 4px solid red;">
-                        <div class="span4">
-                            <p>HELPS YOU LEARN QUICKLY WHILE HAVING FUN</p>
-                                some text over here
-                        </div>
-                        <div class="span4" style="background-image: url('/assets/m2.jpg'); height: 200px; float: right;">
-                            <%#= image_tag "m2.jpg" %>
-                        </div>
-                    </div>
-                </div>
-                <br>
-                <!-- right text -->
-                <div class="row-fluid">
-                    <div class="span" id="how_it_helps_content" style="border-right: 4px solid blue;">
-                        <div class="span4" style="background-image: url('/assets/m1.jpg'); height: 200px; float: left;">
-                            <%#= image_tag "m2.jpg" %>
-                        </div>
-                        <div class="span4">
-                            <p>HELPS YOU LEARN QUICKLY WHILE HAVING FUN</p>
-                            some text over here
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="tab-pane" id="teachers">
-                <!-- left text-->
-                <div class="row-fluid">
-                    <div class="span" id="how_it_helps_content" style="border-left: 4px solid red;">
-                        <div class="span4">
-                            <p>ANALYSE YOUR STUDENTS PERFORMANCE</p>
-                            some text over here
-                        </div>
-                        <div class="span4" style="background-image: url('/assets/m2.jpg'); height: 200px; float: right;">
-                            <%#= image_tag "m2.jpg" %>
-                        </div>
-                    </div>
-                </div>
-                <br>
-                <!-- right text-->
-                <div class="row-fluid">
-                    <div class="span" id="how_it_helps_content" style="border-right: 4px solid blue;">
-                        <div class="span4" style="background-image: url('/assets/m1.jpg'); height: 200px; float: left;">
-                            <%#= image_tag "m2.jpg" %>
-                        </div>
-                        <div class="span4">
-                            <p>MAKE MULTIPLE PRIVATE CLASSES</p>
-                            some text over here
-                        </div>
-                    </div>
-                </div>
-                <br>
-                <!-- left text-->
-                <div class="row-fluid">
-                    <div class="span" id="how_it_helps_content" style="border-left: 4px solid red;">
-                        <div class="span4">
-                            <p>GIVE STUDENTS YOUR CUSTOMIZED PROBLEMS</p>
-                            some text over here
-                        </div>
-                        <div class="span4" style="background-image: url('/assets/m2.jpg'); height: 200px; float: right;">
-                            <%#= image_tag "m2.jpg" %>
-                        </div>
-                    </div>
-                </div>
-                <br>
-                <!-- right text-->
-                <div class="row-fluid">
-                    <div class="span" id="how_it_helps_content" style="border-right: 4px solid blue;">
-                        <div class="span4" style="background-image: url('/assets/m1.jpg'); height: 200px; float: left;">
-                            <%#= image_tag "m2.jpg" %>
-                        </div>
-                        <div class="span4">
-                            <p>ASSIGN YOUR STUDENTS QUIZZES</p>
-                            some text over here
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="tab-pane" id="parents">
-                <!-- left text -->
-                <div class="row-fluid">
-                    <div class="span" id="how_it_helps_content" style="border-left: 4px solid red;">
-                        <div class="span4">
-                            <p>ANALYSE YOUR KID's PERFORMANCE IN VARIOUS PROBLEMS</p>
-                            some text over here
-                        </div>
-                        <div class="span4" style="background-image: url('/assets/m2.jpg'); height: 200px; float: right;">
-                            <%#= image_tag "m2.jpg" %>
-                        </div>
-                    </div>
-                </div>
-                <br>
-                <!-- right text -->
-                <div class="row-fluid">
-                    <div class="span" id="how_it_helps_content" style="border-right: 4px solid blue;">
-                        <div class="span4" style="background-image: url('/assets/m1.jpg'); height: 200px; float: left;">
-                            <%#= image_tag "m2.jpg" %>
-                        </div>
-                        <div class="span4">
-                            <p>INTERACT WITH YOUR KID's TEACHER</p>
-                            some text over here
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="how_it_works" class="clearfix">
-        <div class="page_header_home">
-            <h1 class="intro-text">How SmarterGrades Works</h1>
-        </div>
-        
-        <!-- <a class="how_work">How Does it Work?</a> -->
-        <ul class="nav nav-tabs" id="myTab" style="margin-top: 18px; padding-left: 180px;">
-            <li class="active"><a href="#students_works">STUDENTS</a></li>
-            <li><a href="#teachers_works">TEACHERS</a></li>
-            <li><a href="#parents_works">PARENTS</a></li>
-        </ul>
-     
-        <div class="tab-content">
-            <div class="tab-pane active" id="students_works">
-                <div id="student_steps">
-                    <span class="step">1</span>
-                    <h2>Signup</h2>
-                    <p>Quickly signup on SmarterGrades through a simple from, pay the amount via Google Wallet and get access to the world of subject questions with explanations.</p>
-                    <%= image_tag "signup_form.png", :size => "300x300", :style =>"border: 1px solid #ccc" %>
-                </div>
-                <div id="student_steps">
-                    <span class="step">2</span>
-                    <h2>Learn</h2>
-                    <p>After signup read about the Problem Sets that are assigned by your teacher. Start practising problems particular to the problem sets and problem types. You will be prompted whether you answer is right or wrong and each of these problems have explanations so that if you don't know how to do it you can learn it how from there. Happy Learning !!</p>
-                    <h3>How your landing page looks</h3>
-                    <%= image_tag "student_landing_page.png", :size => "700x700", :style =>"border: 1px solid #ccc" %><br><br>
-                    <h3>How Problem looks</h3>
-                    <%= image_tag "problem.png", :size => "700x700", :style =>"border: 1px solid #ccc" %>
-                </div>
-                <div id="student_steps">
-                    <span class="step">3</span>
-                    <h2>Earn Points and Badges</h2>
-                    <p>You'll get Points and Badges for problems. Difficult the Problem Higher will be the Points. Even Get few points on wrong Answer. Badges will be distributed on some parameters and each badge has a level. Higher the level of Badge higher will be the increment of Points</p>
-                    <h3>Points</h3>
-                    <%= image_tag "points.png", :size => "700x700", :style =>"border: 1px solid #ccc" %><br><br>
-                    <h3>Badges</h3>
-                    <%= image_tag "badges.png", :size => "700x700", :style =>"border: 1px solid #ccc" %>
-                </div>
-                <div id="student_steps">
-                    <span class="step">4</span>
-                    <h2>Quiz</h2>
-                    <p>Test yourself by attempting quizzes that are assigned by your Teacher. Attempt Quiz ---> Get Result ---> Get Points.</p>
-                </div>
-                <!-- <div id="student_steps">
-                    <span class="step">5</span>
-                    <h2>Get Certified by SmarterGrades</h2>
-                    <p>Complete problems and then get Certified so that you can take prints and show them to folks. </p>
-                </div> -->
-            </div>
-            <div class="tab-pane" id="teachers_works">
-                <!-- left text-->
-                <div class="row-fluid">
-                    <div class="span" id="how_it_helps_content" style="border-left: 4px solid red;">
-                        <div class="span4">
-                            <p>ANALYSE YOUR STUDENTS PERFORMANCE</p>
-                            some text over here
-                        </div>
-                        <div class="span4" style="background-image: url('/assets/m2.jpg'); height: 200px; float: right;">
-                            <%#= image_tag "m2.jpg" %>
-                        </div>
-                    </div>
-                </div>
-                <br>
-                <!-- right text-->
-                <div class="row-fluid">
-                    <div class="span" id="how_it_helps_content" style="border-right: 4px solid blue;">
-                        <div class="span4" style="background-image: url('/assets/m1.jpg'); height: 200px; float: left;">
-                            <%#= image_tag "m2.jpg" %>
-                        </div>
-                        <div class="span4">
-                            <p>MAKE MULTIPLE PRIVATE CLASSES</p>
-                            some text over here
-                        </div>
-                    </div>
-                </div>
-                <br>
-                <!-- left text-->
-                <div class="row-fluid">
-                    <div class="span" id="how_it_helps_content" style="border-left: 4px solid red;">
-                        <div class="span4">
-                            <p>GIVE STUDENTS YOUR CUSTOMIZED PROBLEMS</p>
-                            some text over here
-                        </div>
-                        <div class="span4" style="background-image: url('/assets/m2.jpg'); height: 200px; float: right;">
-                            <%#= image_tag "m2.jpg" %>
-                        </div>
-                    </div>
-                </div>
-                <br>
-                <!-- right text-->
-                <div class="row-fluid">
-                    <div class="span" id="how_it_helps_content" style="border-right: 4px solid blue;">
-                        <div class="span4" style="background-image: url('/assets/m1.jpg'); height: 200px; float: left;">
-                            <%#= image_tag "m2.jpg" %>
-                        </div>
-                        <div class="span4">
-                            <p>ASSIGN YOUR STUDENTS QUIZZES</p>
-                            some text over here
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="tab-pane" id="parents_works">
-                <!-- left text -->
-                <div class="row-fluid">
-                    <div class="span" id="how_it_helps_content" style="border-left: 4px solid red;">
-                        <div class="span4">
-                            <p>ANALYSE YOUR KID's PERFORMANCE IN VARIOUS PROBLEMS</p>
-                            some text over here
-                        </div>
-                        <div class="span4" style="background-image: url('/assets/m2.jpg'); height: 200px; float: right;">
-                            <%#= image_tag "m2.jpg" %>
-                        </div>
-                    </div>
-                </div>
-                <br>
-                <!-- right text -->
-                <div class="row-fluid">
-                    <div class="span" id="how_it_helps_content" style="border-right: 4px solid blue;">
-                        <div class="span4" style="background-image: url('/assets/m1.jpg'); height: 200px; float: left;">
-                            <%#= image_tag "m2.jpg" %>
-                        </div>
-                        <div class="span4">
-                            <p>INTERACT WITH YOUR KID's TEACHER</p>
-                            some text over here
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-</div>
-
-<script>
-    function scroll(element, parent){
-        $(parent).animate({ scrollTop: $(element).offset().top - $(parent).offset().top }, { duration: 'slow', easing: 'swing'});
-    }
-    $(".how_work").click(function(){
-        scroll(".how_work","#hpages_2");
-    });
-    // $('#myTab a:first').tab('show');
-    $('#myTab a').click(function (e) {
-        e.preventDefault();
-        $(this).tab('show');
-    });
-</script>
-
-<%= render :partial => 'shared/log_in' %>
-<%= render :partial => 'shared/register_modal' %>
-<%= render 'users/hidden_registration_forms' %>
