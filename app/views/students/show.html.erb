@@ -9,6 +9,16 @@
 		<div class='column-listdiv'>
 	  		<ul class='column-list2' id="chapter_tabs">
 				<% @problem_sets.each do |pset| %>
+				<!-- starting from here -->
+					<% pset.problem_types.each do |ptype|%>
+						<% @arr7 = [['Problem Types','Correct Percentage']]%>
+				 		<% @ans_right = ptype.answers.select{|v| v.correct == true }%>
+  						<% @ans_wrong = ptype.answers.select{|v| v.correct == false }%>
+  						<% if (@ans_wrong.count + @ans_right.count) > 0 %>  
+  		  					<% @arr7.push([ptype.name, (@ans_right.count*100)/(@ans_right.count+@ans_wrong.count)]) %>
+  						<% end %>  
+  					<% end %> 
+
 		  			<li><%= link_to pset.name, "#chap_#{pset.id}", :"data-toggle" => "tab" %></li>
 				<% end %>
 	  		</ul>
@@ -79,6 +89,10 @@
   		</div>
 	</div>
 </div>
+<div class = "span12" id = "pset_chart">
+ <div id="chart_div_2_pset" style="width: 900px; height: 500px;"></div>
+
+ </div> 
 
 <script>
 $("#chapter_tabs li a").click(function(){
@@ -95,3 +109,30 @@ $("#tryspan4 li a").click(function(){
 });
 
 </script>
+
+
+
+
+
+    <script type="text/javascript">
+      google.load("visualization", "1", {packages:["corechart"]});
+      google.setOnLoadCallback(drawChart);
+      drawChart();
+      function drawChart() {
+        var data7 = google.visualization.arrayToDataTable(<%= raw @arr7 %>);
+
+        var options7 = {
+          title: 'Student Performance',
+          vAxis: {title: 'Problem Types',  titleTextStyle: {color: 'red'}}
+        };
+
+        var chart7 = new google.visualization.BarChart(document.getElementById('chart_div_2_pset'));
+        chart7.draw(data7, options7);
+      }
+    </script>
+       
+    <div id="chart_div_2_pset" style="width: 900px; height: 500px;"></div>
+
+
+
+
