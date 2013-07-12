@@ -1,6 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
+      <script type="text/javascript" src="https://www.google.com/jsapi"></script>
   <title><%= title %></title>
   <%= stylesheet_link_tag    "application" %>
   <%= javascript_include_tag "application" %>
@@ -15,7 +16,6 @@
 <body>
   <%#render :partial => "shared/feedback"%>
   <%= render 'shared/new_nav'%>
-
   <div class="container">
     <%= render 'shared/errors' %>
     <%= yield %>
