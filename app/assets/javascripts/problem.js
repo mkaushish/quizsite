@@ -5,6 +5,8 @@ function hideProblem() {
   $("body").css("overflow", "scroll");
   // $('#dimmer').hide();
   $('#dimmer').remove();
+    $("body").css("overflow", "scroll");
+
   return false;
 }
 
@@ -26,6 +28,8 @@ function initProblemOverlay() {
    $p = $('#problem_overlay');
   }
   $("body").css("overflow", "hidden");
+
+
 
   var dimmer = $('#dimmer');
   if(dimmer.length == 0) {

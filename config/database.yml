@@ -7,6 +7,7 @@ login: &login
   pool: 5
   timeout: 5000
 
+
 development:
   <<: *login
   database: smartergrades_dev

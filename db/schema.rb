@@ -71,7 +71,6 @@ ActiveRecord::Schema.define(:version => 20130702124018) do
     t.integer  "student_id"
     t.string   "name"
     t.string   "badge_key"
-    t.string   "image"
     t.integer  "level"
   end
 

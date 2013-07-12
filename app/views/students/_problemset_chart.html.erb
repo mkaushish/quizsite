@@ -1,0 +1,65 @@
+<% @arr7 = [['Problem Types','Correct Percentage']]%>
+<% pset.problem_types.each do |ptype|%>
+  <% @ans_right = ptype.answers.select{|v| v.correct == true }%>
+  <% @ans_wrong = ptype.answers.select{|v| v.correct == false }%>
+  <% if (@ans_wrong.count + @ans_right.count) > 0 %>  
+    <% @arr7.push([ptype.name, (@ans_right.count*100)/(@ans_right.count+@ans_wrong.count)]) %>
+  <% end %>  
+<% end %>
+<% if @arr7.count == 1%>
+  <%= "No Questions attempted" %>
+<% end%>
+
+    <script type="text/javascript">
+      google.load("visualization", "1", {packages:["corechart"]});
+      google.setOnLoadCallback(drawChart);
+      drawChart();
+      function drawChart() {
+        var data7 = google.visualization.arrayToDataTable(<%= raw @arr7 %>);
+
+        var options7 = {
+          title: 'Student Performance',
+          vAxis: {title: 'Problem Types',  titleTextStyle: {color: 'red'}}
+        };
+
+        var chart7 = new google.visualization.BarChart(document.getElementById('chart_div_2_pset'));
+        chart7.draw(data7, options7);
+      }
+    </script>
+       
+    <div id="chart_div_2_pset" style="width: 900px; height: 500px;"></div>
+
+
+
+
+
+<% @count = 0 %>
+<% @arr6 = [['Problem Types','Wrong Answers']]%>
+  <% pset.problem_types.each do |ptype|%>
+    <% @ans_wrong = ptype.answers.select{|v| v.correct == false }%>
+    <% @arr6.push([ptype.name, @ans_wrong.count]) %>
+    <% @count = @count + @ans_wrong.count %>
+  <% end %> 
+    <script>
+      google.load("visualization", "1", {packages:["corechart"]});
+
+      google.setOnLoadCallback(drawChart);
+      drawChart();
+            function drawChart() {
+        var data6 = google.visualization.arrayToDataTable(<%= raw @arr6 %>);
+
+        var options6 = {
+          title: 'Wrong Answers by Student'
+        };
+        var chart6 = new google.visualization.PieChart(document.getElementById('chart_div_1_pset'));
+        chart6.draw(data6, options6);
+      }
+    </script>
+
+<%if @count == 0 %>
+  <%= "No Wrong Answers in this Chapter" %>
+<% else %>
+  <div id="chart_div_1_pset" style="width: 900px; height: 500px;"></div>  
+<% end %>
+
+
