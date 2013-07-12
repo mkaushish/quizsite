@@ -6,6 +6,9 @@
     <% @arr7.push([ptype.name, (@ans_right.count*100)/(@ans_right.count+@ans_wrong.count)]) %>
   <% end %>  
 <% end %>
+<% if @arr7.count == 1%>
+  <%= "No Questions attempted" %>
+<% end%>
 
     <script type="text/javascript">
       google.load("visualization", "1", {packages:["corechart"]});
