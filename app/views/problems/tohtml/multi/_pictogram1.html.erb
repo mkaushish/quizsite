@@ -1,0 +1,43 @@
+<div class="multifield">
+    <%startx= pictogram1.startx.to_i%>
+    <%starty= pictogram1.starty.to_i%>
+	<%width = pictogram1.width.to_i%>
+    <%height= pictogram1.height.to_i%>
+    <%distance= pictogram1.distance.to_i%>
+	<%canvaswidth = pictogram1.canvaswidth.to_i%>
+    <%canvasheight= pictogram1.canvasheight.to_i%>
+    <%numtimes = pictogram1.numtimes.to_i%>
+    <%check = pictogram1.check.to_i%>
+<img border="border:1px solid #d3d3d3;" src="/assets/1.jpg" onclick="drawimage3(<%=numtimes%>,<%= startx%>,<%= starty%>,<%= width%>,<%= height%>,<%= distance%>)" width="100" height="100">
+<img border="border:1px solid #d3d3d3;" src="/assets/2.jpg" onclick="drawimage4(<%=numtimes%>,<%= startx%>,<%= starty%>,<%= width%>,<%= height%>,<%= distance%>)" width="50" height="100">
+<%if check==0 %>
+<%else%>
+<canvas id="myCanvas_<%=numtimes%>" width=<%= canvaswidth%> height=<%= canvasheight%> style="border:1px solid #d3d3d3;">
+Your browser does not support the HTML5 canvas tag.</canvas>
+<%end%>
+<table id=pictogram_table style="display:none">
+	<tr>
+        <td><%= hidden_field_tag("#{pictogram1.name}_0", '0')%></td>
+      </tr>
+    <tr>
+        <td><%= hidden_field_tag("#{pictogram1.name}_1", '0')%></td>
+    </tr>
+</table>
+<script type="text/javascript">
+var image1 = new Image();
+image1.src = "/assets/1.jpg";
+var no1 = 0;
+var no2 = 0;
+var xcordinate = 0;
+var ycordinate = 0;
+var image2 = new Image();
+image2.src = "/assets/2.jpg";
+var canvas = $("#myCanvas_<%=numtimes%>");
+var ctx = canvas[0].getContext("2d");
+var canvaswidth = canvas[0].width;
+var canvasheight = canvas[0].height;
+var ctx=c.getContext("2d");
+
+</script>
+</div>
+

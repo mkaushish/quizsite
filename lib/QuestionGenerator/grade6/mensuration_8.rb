@@ -1072,6 +1072,73 @@ module Mensuration_8
       if ((@factor8-@factor8.to_i)==0)
         @factor8 = @factor8.to_i
       end
+      while (@factor4==1)or(@factor7==1)or(@factor8==1)
+        @a = rand(4)
+      @b = rand(4)
+      @c = rand(4)
+      @d = rand(2)
+      @e = rand(2)
+      @f = rand(2)
+
+      @place1 =VALUE1[@a]
+      @place2 = VALUE2[@a]
+      if @d==0
+        @place3 = VALUE1[@a]
+        @factor1 = @a+2
+      else
+        @place3 = VALUE2[@a]
+        @factor1 = 1.0/(@a+2)
+      end
+      if @e==0
+        @place4 = VALUE1[@b]
+        @factor2 = @b+2
+      else
+        @place4 = VALUE2[@b]
+        @factor2 = 1.0/(@b+2)
+      end
+      if @f==0
+        @place5 = VALUE1[@c]
+        @factor3 = @c+2
+      else
+        @place5 = VALUE2[@c]
+        @factor3 = 1.0/(@c+2)
+      end
+      
+      @factor = @factor1*@factor2*@factor3
+      if @factor<1
+        @factor4 = 1.0/@factor
+      else
+        @factor4 = @factor
+      end
+      @factor5 = @factor1*@factor1*@factor3
+      if @factor5<1
+        @factor7 = 1.0/@factor5
+      else
+        @factor7 = @factor5
+      end
+      @factor6 = @factor1*@factor3
+      if @factor6<1
+        @factor8 = 1.0/@factor6
+      else
+        @factor8 = @factor6
+      end
+      @factor=@factor.round(2)
+      if (@factor7.is_a? Integer)
+      else 
+      @factor7=@factor7.round(2)
+      end
+      if (@factor8.is_a? Integer)
+      else 
+      @factor8=@factor8.round(2)
+      end
+      if ((@factor7-@factor7.to_i)==0)
+        @factor7 = @factor7.to_i
+      end
+      if ((@factor8-@factor8.to_i)==0)
+        @factor8 = @factor8.to_i
+      end
+      end
+
       @choose=4
       # @choose=rand(2)+1
     end

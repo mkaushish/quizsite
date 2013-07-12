@@ -1,0 +1,73 @@
+<div class="multifield">
+    <%number = pictogram3.number.to_i%>
+    <%arr = pictogram3.arr%>
+    <%startx= pictogram3.startx.to_i%>
+    <%starty= pictogram3.starty.to_i%>
+	<%width = pictogram3.width.to_i%>
+    <%height= pictogram3.height.to_i%>
+    <%distance= pictogram3.distance.to_i%>
+	<%canvaswidth = pictogram3.canvaswidth.to_i%>
+    <%canvasheight= pictogram3.canvasheight.to_i%>
+    <%numtimes = pictogram3.numtimes.to_i%>
+    <%check = pictogram3.check.to_i%>
+<!-- <img border="border:1px solid #d3d3d3;" src="/assets/1.jpg" onclick="drawimage3(<%= startx%>,<%= starty%>,<%= width%>,<%= height%>,<%= distance%>)" width="100" height="100">
+<img border="border:1px solid #d3d3d3;" src="/assets/2.jpg" onclick="drawimage4(<%= startx%>,<%= starty%>,<%= width%>,<%= height%>,<%= distance%>)" width="50" height="100"> -->
+<%if check==0 %>
+<%else%>
+<!-- <canvas id="myCanvas_<%=numtimes%>" width=<%= canvaswidth%> height=<%= canvasheight%> style="border:1px solid #d3d3d3;">
+Your browser does not support the HTML5 canvas tag.</canvas> -->
+<%end%>
+<table id="pictogramtable">
+    <% number.times do |row| %>
+      <tr>
+        <td>
+        <p>
+         <%=arr[row]%>
+        </p>
+        </td>
+        <td><canvas id="myCanvas_<%="#{row}"%>" width=<%= canvaswidth%> height=<%= canvasheight%> style="border:1px solid #d3d3d3;">
+Your browser does not support the HTML5 canvas tag.</canvas>
+        </td>
+
+        <td>
+         <img border="border:1px solid #d3d3d3;" src="/assets/1.jpg" onclick="drawimage3(<%="#{row}"%>,<%= startx%>,<%= starty%>,<%= width%>,<%= height%>,<%= distance%>)" width="<%= canvasheight%>" height="<%= canvasheight%>">
+        </td>
+        <td>
+         <img border="border:1px solid #d3d3d3;" src="/assets/2.jpg" onclick="drawimage4(<%="#{row}"%>,<%= startx%>,<%= starty%>,<%= width%>,<%= height%>,<%= distance%>)" style="width:<%= canvasheight%>/2px;height:<%= canvasheight%>px;">
+        </td>
+      </tr>
+    <%end %>
+</table>
+<table id=pictogram_table style="display:none">
+    <% number.times do |row| %>
+	<tr>
+        <td><%= hidden_field_tag("#{pictogram3.name}_#{row}", '0')%></td>
+    </tr>
+    <%end %>
+</table>
+<script type="text/javascript">
+var image1 = new Image();
+image1.src = "/assets/1.jpg";
+var no = new Array();
+var no1 = new Array();
+var no2 = new Array();
+var xcordinate = new Array();
+var ycordinate = new Array();
+var image2 = new Image();
+var number = <%= number%>;
+for (var i = 0; i <number; i++) 
+{
+    xcordinate[i]=0;
+    ycordinate[i]=0;
+    no1[i]=0;
+    // alert("no1"+no1[i]);
+    no2[i]=0;
+    no[i]=0;
+}
+image2.src = "/assets/2.jpg";
+
+
+
+</script>
+</div>
+

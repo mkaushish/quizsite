@@ -93,7 +93,10 @@ module Chapter9
         tab.set_field(i, 1, TextLabel.new(@amts[i]))
         ar[i]=0
       end
-      [TextLabel.new("Translate the given table into tally marks"), tab, TallyMarksField.new("ans", @act, ar)]
+      [TextLabel.new("Translate the given table into tally marks"),
+       tab,
+        # TallyMarksField.new("ans", @act, ar)
+      ]
     end
   end
 
