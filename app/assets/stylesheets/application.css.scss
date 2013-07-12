@@ -61,6 +61,12 @@
   font-family: "Home_hand";
   src: url('stars.ttf');
 }
+
+@font-face {
+  font-family: "Lane_narrow";
+  src: url('LANEUP__.ttf');
+}
+
 /* }}} */
 
 body {
@@ -189,7 +195,6 @@ form div.field_block {
   height: 0px;
   overflow:visible;
 }
-
 
 /* }}} */
 
