@@ -14,23 +14,9 @@
 	<% end %>		
 	<% i = i-1%>
 <% end %>	
+<% id="chart_div" %>
 
-
-    <script type="text/javascript">
-      google.load("visualization", "1", {packages:["corechart"]});
-      google.setOnLoadCallback(drawChart);
-      function drawChart() {
-
-        var data = google.visualization.arrayToDataTable(<%= raw @arr %>);
-        var options = {
-          title: 'Student Performance'
-        };
-
-        var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
-        chart.draw(data, options);
-      }
-    </script>
-    <div id="chart_div" style="width: 900px; height: 500px;"></div>
+    <div id="chart_div" style="width: 900px; height: 500px;"><%= render 'shared/linechart', :@arr => @arr, :@id => id %></div>
 
 
 <% @arr2 = [['Chapters','Wrong Answers']]%>
@@ -38,25 +24,9 @@
   <% @ans_wrong = pset.answers.select{|v| v.correct == false }%>
   <% @arr2.push([pset.name, @ans_wrong.count]) %>
 <% end %>
+<%id = "chart_div_2" %>
 
-
-
-    <script type="text/javascript">
-      google.load("visualization", "1", {packages:["corechart"]});
-      google.setOnLoadCallback(drawChart);
-            function drawChart() {
-
-        var data2 = google.visualization.arrayToDataTable(<%= raw @arr2 %>);
-
-        var options2 = {
-          title: 'Wrong Answers by Student'
-        };
-
-        var chart2 = new google.visualization.PieChart(document.getElementById('chart_div_2'));
-        chart2.draw(data2, options2);
-      }
-    </script>
-    <div id="chart_div_2" style="width: 900px; height: 500px;"></div>
+    <div id="chart_div_2" style="width: 900px; height: 500px;"><%= render 'shared/piechart', :@arr => @arr2, :@id => id %></div>
 
 
 
@@ -68,26 +38,11 @@
     <% @arr3.push([pset.name, (@ans_right.count*100)/(@ans_right.count+@ans_wrong.count)]) %>
   <% end %>  
 <% end %>
+<% id="chart_div_3" %>
 
 
 
-    <script type="text/javascript">
-      google.load("visualization", "1", {packages:["corechart"]});
-      google.setOnLoadCallback(drawChart);
-      function drawChart() {
-        var data3 = google.visualization.arrayToDataTable(<%= raw @arr3 %>);
-
-        var options3 = {
-          title: 'Student Performance',
-          vAxis: {title: 'Chapters',  titleTextStyle: {color: 'red'}}
-        };
-
-        var chart3 = new google.visualization.BarChart(document.getElementById('chart_div_3'));
-        chart3.draw(data3, options3);
-      }
-    </script>
-
-    <div id="chart_div_3" style="width: 900px; height: 500px;"></div>
+    <div id="chart_div_3" style="width: 900px; height: 500px;"><%= render 'shared/barchart', :@arr => @arr3, :@id => id %></div>
 
 
 
@@ -99,25 +54,12 @@
     <% @arr4.push([(i+1).to_s,@no_of_answers.count]) %>
   <% i = i-1 %>
 <% end %> 
+<% id="chart_div_4" %>
 
 
 
-    <script type="text/javascript">
-      google.load("visualization", "1", {packages:["corechart"]});
-      google.setOnLoadCallback(drawChart);
-      function drawChart() {
 
-        var data4 = google.visualization.arrayToDataTable(<%= raw @arr4 %>);
-        var options4 = {
-          title: 'Student Performance'
-        };
-
-        var chart4 = new google.visualization.LineChart(document.getElementById('chart_div_4'));
-        chart4.draw(data4, options4);
-      }
-    </script>
-
-    <div id="chart_div_4" style="width: 900px; height: 500px;"></div>
+    <div id="chart_div_4" style="width: 900px; height: 500px;"><%= render 'shared/linechart', :@arr => @arr4, :@id => id %></div>
 
 
 
@@ -128,25 +70,10 @@
   <% @arr5.push([pset.name, @ans.count]) %>
 <% end %>
 
+<% id = "chart_div_5" %>
 
-
-    <script type="text/javascript">
-      google.load("visualization", "1", {packages:["corechart"]});
-      google.setOnLoadCallback(drawChart);
-            function drawChart() {
-
-        var data5 = google.visualization.arrayToDataTable(<%= raw @arr5 %>);
-
-        var options5 = {
-          title: 'Problem Sets done in last 15 days'
-        };
-
-        var chart5 = new google.visualization.PieChart(document.getElementById('chart_div_5'));
-        chart5.draw(data5, options5);
-      }
-    </script>
  
-    <div id="chart_div_5" style="width: 900px; height: 500px;"></div>
+    <div id="chart_div_5" style="width: 900px; height: 500px;"><%= render 'shared/piechart', :@arr => @arr5, :@id => id %></div>
 
 
 
