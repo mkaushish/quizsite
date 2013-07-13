@@ -2,7 +2,7 @@
   <% @stat_calc.concept_progress.each do |stat| %>
     <% stat_id = "concept_stat_#{stat.type.id}" %>
   <li id="<%= stat_id %>" class="stat" data-ptype=<%= stat.type.id %> data-classrm=<%= @classroom.id %>>
-  <header><%= link_to stat.type, problem_type_path(stat.type), :remote => true %></header>
+  <header><%= link_to stat.type, problem_type_path(stat.type, :classroom => @classroom) %></header>
     <ul>
       <li data-original-title="<%= "#{stat.attempted} problems done" %>">
         <div class="probs_done"
