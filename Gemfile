@@ -69,3 +69,8 @@ group :test do
   gem 'factory_girl_rails', '~> 4.0'
 end
 
+gem 'rubber'
+gem 'open4'
+gem 'gelf'
+gem 'graylog2_exceptions'
+gem 'graylog2-resque'
