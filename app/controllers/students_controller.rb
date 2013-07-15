@@ -95,6 +95,4 @@ class StudentsController < ApplicationController
     def validate_student_via_current_user
         @student = current_user
     end
-
-
 end
