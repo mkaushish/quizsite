@@ -220,7 +220,7 @@ roles:
 # OPTIONAL: Automatically create security groups for each host and role
 # EC2 doesn't allow one to change what groups an instance belongs to after
 # creation, so its good to have some empty ones predefined.
-auto_security_groups: true
+auto_security_groups: false
 
 # OPTIONAL: Automatically isolate security groups for each appname/environment
 # by mangling their names to be appname_env_groupname
