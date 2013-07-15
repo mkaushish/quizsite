@@ -116,13 +116,13 @@ cloud_providers:
   # Use an alternate cloud provider supported by fog.  This doesn't fully work
   # yet due to differences in providers within fog, but gives you a starting
   # point for contributing a new provider to rubber.  See rubber/lib/rubber/cloud(.rb)
-  fog:
-    credentials:
-      provider: rackspace
-      rackspace_api_key: 'XXX'
-      rackspace_username: 'YYY'
-    image_type: 123
-    image_id: 123
+  #fog:
+   # credentials:
+    #  provider: rackspace
+     # rackspace_api_key: 'XXX'
+      #rackspace_username: 'YYY'
+    #image_type: 123
+    #image_id: 123
 
 # REQUIRED the cloud provider to use
 #
