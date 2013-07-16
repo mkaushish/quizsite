@@ -53,6 +53,7 @@ class QuizzesController < ApplicationController
     end
 
     def partial_create
+        debugger
         if defined? params[:type]
             case params[:type]
                 when "single_class"
@@ -62,7 +63,7 @@ class QuizzesController < ApplicationController
                     @quiz = Quiz.find_by_id(params[:quiz])
                     @quiz_problem = @quiz.quiz_problems.create problem_type_id: params[:ptype], partial: true
                     
-                    redirect_to edit_quiz_problem_path(@quiz_problem)
+                    redirect_to edit_quiz_problem_path(:quiz_prob => @quiz_problem, :type => "single_class")
                 
                 when "all_classes"
                 
