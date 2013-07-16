@@ -25,25 +25,10 @@
 	<% @arr.push([">0%", @count5])%>
 <% @count6 = (@temp.select{|v| v<0}).count %>	
 	<% @arr.push(["Haven't Attempted", @count6])%>
+<% id = "chart_div_1_class"%>
 
 
-    <script type="text/javascript">
-      google.load("visualization", "1", {packages:["corechart"]});
-      google.setOnLoadCallback(drawChart);
-      drawChart();
-            function drawChart() {
-
-        var data = google.visualization.arrayToDataTable(<%= raw @arr %>);
-
-        var options = {
-          title: 'Percentage of correct answers by Students'
-        };
-
-        var chart = new google.visualization.PieChart(document.getElementById('chart_div_1_class'));
-        chart.draw(data, options);
-      }
-    </script>
-    <div id="chart_div_1_class" style="width: 900px; height: 500px;"></div>
+    <div id="chart_div_1_class" style="width: 900px; height: 500px;"><%= render 'shared/piechart', :@arr => @arr, :@id => id %></div>
 
 
 <% @arr = [['%correct','Number of Students']]%>
@@ -73,25 +58,10 @@
 	<% @arr.push([">0%", @count5])%>
 <% @count6 = (@temp.select{|v| v<0}).count %>	
 	<% @arr.push(["Haven't Attempted", @count6])%>
+<% id = "chart_div_2_class_pset" %>
 
 
-    <script type="text/javascript">
-      google.load("visualization", "1", {packages:["corechart"]});
-      google.setOnLoadCallback(drawChart);
-      drawChart();
-            function drawChart() {
-
-        var data = google.visualization.arrayToDataTable(<%= raw @arr %>);
-
-        var options = {
-          title: 'Percentage of correct answers by Students'
-        };
-
-        var chart = new google.visualization.PieChart(document.getElementById('chart_div_2_class_pset'));
-        chart.draw(data, options);
-      }
-    </script>
-    <div id="chart_div_2_class_pset" style="width: 900px; height: 500px;"></div>
+    <div id="chart_div_2_class_pset" style="width: 900px; height: 500px;"><%= render 'shared/piechart', :@arr => @arr, :@id => id %></div>
 
 
 <% @tempcount_right = 0%>
@@ -123,24 +93,7 @@
 			<% @arr7.push([ptype.name, (tempcount_right*100)/(tempcount_right+tempcount_wrong)]) %>
 		<% end %>
   	<% end %>  
+    <% id = "chart_div_3_class_pset"%>
 
-
-
-    <script type="text/javascript">
-      google.load("visualization", "1", {packages:["corechart"]});
-      google.setOnLoadCallback(drawChart);
-      drawChart();
-      function drawChart() {
-        var data7 = google.visualization.arrayToDataTable(<%= raw @arr7 %>);
-
-        var options7 = {
-          title: 'Student Performance',
-          vAxis: {title: 'Problem Types',  titleTextStyle: {color: 'red'}}
-        };
-
-        var chart7 = new google.visualization.BarChart(document.getElementById('chart_div_3_class_pset'));
-        chart7.draw(data7, options7);
-      }
-    </script>
        
-    <div id="chart_div_3_class_pset" style="width: 900px; height: 500px;"></div>
+    <div id="chart_div_3_class_pset" style="width: 900px; height: 500px;"><%= render 'shared/barchart', :@arr => @arr7, :@id => id %></div>
