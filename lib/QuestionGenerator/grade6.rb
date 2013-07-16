@@ -22,7 +22,7 @@ require_relative 'grade6/c12'
 require_relative 'grade6/chapter27'
 require_relative 'grade6/Chaptersqroot'
 require_relative 'grade6/dI_Proportions'
-require_relative 'grade6/anurag'
+require_relative 'grade6/linear'
 require_relative 'grade6/algebra'
 require_relative 'grade6/perimeterandarea'
 require_relative 'grade6/perimeterandarea_6'
@@ -37,7 +37,7 @@ CHAPTERS = [
   Chapter2,
   Chapter3,
   Chapter4,
-#  Chapter5,
+  Chapter5,
   Chapter6,
   Chapter7,
   Chapter8,
@@ -51,11 +51,10 @@ CHAPTERS = [
   Chapter27,
   Chaptersqroot,
   DI_Proportions,
-  Anurag,
+  Linear,
   Algebra,
   Algebra_6,
   ComparingQuantities,
-  Chapter5,
   RationalNumbers,
   PerimeterandArea,
   PerimeterandArea_6,

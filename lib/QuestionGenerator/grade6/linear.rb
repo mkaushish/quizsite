@@ -9,8 +9,8 @@ require 'prime'
 include ToHTML
 include PreG6
 
-module Anurag
-  INDEX = "anurag"
+module Linear
+  INDEX = "linear"
   TITLE = "Linear Equations"
   
 
@@ -262,10 +262,10 @@ module Anurag
   end
 
   PROBLEMS = [
-   Anurag::Level_1, 
-    Anurag::Level_2,
-    Anurag::Level_3,
-    Anurag::Level_4,
-    Anurag::Level_5,
-    Anurag::Level_6] # //Anurag is module name and dummy is class name
+   Linear::Level_1, 
+    Linear::Level_2,
+    Linear::Level_3,
+    Linear::Level_4,
+    Linear::Level_5,
+    Linear::Level_6] # //Anurag is module name and dummy is class name
 end

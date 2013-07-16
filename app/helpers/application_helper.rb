@@ -144,17 +144,40 @@ module ApplicationHelper
   end
   
   def badgekey
-    @badges = Array.new
-    @badges = ["BadgeAPSD","BadgeNPSB","BadgeNQCIARFTO","BadgeCAPSWAD","BadgeTRQC","BadgeNQCIARFNT"]
+
+    @badges = ["BadgeAPSD", "BadgeCAPSWAD","BadgeTRQC"]
+    @badges_name = ["All Problem Sets Blue", "Problem Set Completed Within a Day", "10 red Questions Correct"]
+    @badge_level = [5, 2, 2]
+    for i in 0...2
+      @badges << "Badge#{(i+1)*5}PSB"
+      @badges_name << "#{(i+1)*5} Problem Sets Blue"
+      @badge_level << 4
+    end
+    for i in 0...2
+      @badges << "Badge#{(i+1)*5}QCIARFTO"
+      @badges_name << "#{(i+1)*5} Questions Correct in a Row for the First Time"
+      @badge_level << 2
+    end
+    for i in 0...2
+      for j in 0...3
+        @badges << "Badge#{(i+1)*5}QCIARF#{(j+1)*5}TO"
+        @badges_name << "#{(i+1)*5} Questions Correct in a Row for the #{(j+1)*5} Time"
+        @badge_level << 3
+      end
+    end
     current_user.problem_sets.each do |pset|
       @badges.push("Badge" + pset.name + "B")
+      @badges_name << "#{pset.name} Problem Set Blue"
+      @badge_level << 3
     end
     current_user.problem_sets.each do |pset|
       pset.problem_types.each do |ptype|
         @badges.push("Badge" + ptype.name + "B")
+        @badges_name << "#{ptype.name} Problem Type Blue"
+        @badge_level << 1
       end
     end
-    return @badges   
+    return [@badges, @badges_name, @badge_level]
   end 
 
   def date_of_last(day,date)

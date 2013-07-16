@@ -1,4 +1,5 @@
 
+
 	<% count = 0 %>
 	<% current_user.badges.order("created_at DESC").each do |badge| %>
 		<% if count < 5 %>
@@ -9,4 +10,3 @@
 	
 
 <script>badges_look()</script>
-

@@ -1,4 +1,4 @@
-<div class="progress_bar <%= @stat.color_status %>" >
+<!--<div class="progress_bar <%= @stat.color_status %>" >
   <div class="left"></div>
   <div class="middle">
     <div class="marker left">
@@ -41,19 +41,19 @@
     </div>
   </div>
 	<div class="right"></div>
-</div>
+</div>-->
 
 <script>
 	$('.progress_bar').css("width","100%");
-  var wrong_points = "<%= prog_bar_px @stat.wrong_p_remaining, 3 %>";
+  var wrong_points = "<%= @stat.wrong_p_remaining %>";
   var wpnum=parseFloat(wrong_points);
-  var right_points="<%= prog_bar_px @stat.right_p_remaining, 3 %>";
+  var right_points="<%= @stat.right_p_remaining %>";
   var rpnum=parseFloat(right_points);
-  var remaining="<%= prog_bar_px @stat.remaining_p, 3 %>";
+  var remaining="<%= @stat.remaining_p %>";
   var remnum=parseFloat(remaining);
-  var complete="<%= prog_bar_px @stat.done_p, 3 %>";
+  var complete="<%= @stat.done_p %>";
   var compnum=parseFloat(complete);
-  var wid=$('.progress_bar').width();
+  var wid=wpnum+rpnum+remnum+compnum
   
   var per_complete=(compnum/wid)*100.0;
   var per_remaining=(remnum/wid)*100.0;

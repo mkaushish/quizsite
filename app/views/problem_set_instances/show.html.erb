@@ -14,11 +14,18 @@
 
 <div class="quiz-link">
     <% unless @quiz.blank? %>
-    <% if @instance.quiz_assigned? %>
-        <%= link_to "Quiz", start_quiz_path(@instance.assigned_quizzes.first) %>
-    <% else %>
-        <%= link_to "Quiz", start_new_quiz_path(@instance.id) %>
-    <% end %>
+      <ul> 
+        <% tem=@quiz.length %>
+        <% @quiz.each do |qu| %>
+        <% if qu.quiz_instances.length > 0 %>
+        <%= link_to "Quiz #{tem}", start_quiz_path(qu.quiz_instances.last) %>
+        <% else %>
+        <%= link_to "Quiz #{tem}", start_new_quiz_path(@instance.id, :quiz_id => qu.id) %>
+        <%end%>
+        <%tem=tem-1%>
+        <%end%>
+      </ul>
+    
     <% end %>
 </div>
 <div style="width:252px; float:left">

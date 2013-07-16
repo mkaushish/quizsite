@@ -16,7 +16,8 @@ b.problem_set {
 	position:relative;
    	&:before {
 		display:inline;
-   		content: url('incorrect_x.png');
+		margin-top:3px;
+   		content: url('incorrect_3.png');
    	}
 }
 .correct_hist {

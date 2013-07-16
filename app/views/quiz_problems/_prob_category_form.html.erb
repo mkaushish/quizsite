@@ -1,4 +1,5 @@
 <% ptype = @quiz_problem.problem_type %>
+
 <h2><%= ptype %></h2>
 
 <%= form_for(@quiz_problem, url: update_prob_cat_qp_path(:type => params[:type]), remote: :true) do |f| %>

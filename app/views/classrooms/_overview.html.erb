@@ -5,21 +5,16 @@
   
   margin-bottom: 15px;
   margin-left: 10px;
-  
-  background-color:rgb(113, 174, 189);
   box-shadow: 0 0 15px #778899;
-  text-shadow: 0px 1px 1px #4d4d4d;
-        color: #222;
-        font: 40px 'LeagueGothicRegular';
+  font-family:Courier;
+  float:left;
 }
 #classname span{
   text-decoration: none;
 font-size:20px;
 
 color:white;
-border-radius: 5px;
-background-color: #B22222;
-margin-top: 20px;}
+background-color: #B22222;}
 .classoptions ul{
   background-color:white;
   
@@ -50,7 +45,6 @@ margin-right: 15px;}
   overflow: auto;
 background: #fff;
     border-radius: 0 0 5px 5px;
-    border: 1px solid rgba(0,0,0,0.2);
     width:320px;}
     .column-list3 li{
       padding: 10px 10px ;
@@ -63,8 +57,8 @@ background: #fff;
     border-bottom: 1px solid #e6e8ea;
     }
     .column-list3 li:first-child{font-size: 20px;opacity:0.8;
-      background-color:#87CEFA;}
-      .column-list3 li:first-child:hover{opacity:1;padding: 13px;background-color:#87CEFA;}
+      background-color:purple; color:white;}
+      .column-list3 li:first-child:hover{opacity:1;padding: 13px;background-color:purple;}
     .column-list3 li:hover{background-color:#DCDCDC;
 transition: all 0.3s ease-out;}
 .assign a{color:#1E90FF;}
@@ -81,16 +75,7 @@ transition: all 0.3s ease-out;}
       <%= classroom.class_pass %>
     </div>
   </div> -->
-  <div id="classname">
-    CLASS - <%= classroom.name %> <span class="class_password"><%= classroom.class_pass %><span>
-  </div>
-  <div class="classoptions">
-    <ul>
-      <li><%= link_to "Details", details_path(classroom.id) %> </li>
-      <li><%= link_to "Grades", "#" %>
-    </ul>
-
-  </div>
+  
   <!-- <div class='dotted-border teacher-class-box' style="height:200px;">
     <div class=row-fluid>
       <div class=span4>
@@ -108,9 +93,21 @@ transition: all 0.3s ease-out;}
           <% end ; end %>
         </ul>
       </div> -->
-<div class='column-listdiv2' style="height:300px;">
+<div class='column-listdiv2'>
+  <div class=row-fluid>
+    <div id="classname">
+    CLASS|<%= classroom.name %> <span class="class_password"><%= classroom.class_pass %><span>
+  </div>
+  <div>
+    <ul>
+      <li><%= link_to "Details", details_path(classroom.id), :class => "button-blue", :style => "float:left; margin-top:-9px; margin-left:10px" %> </li>
+      <li><%= link_to "Grades", "#", :class => "button-blue", :style => "float:left; margin-top:-9px" %>
+    </ul>
+
+  </div>
+  </div>
     <div class=row-fluid>
-      <div class=span4>
+      <div style="float:left">
         <ul class='column-list3'> <!-- changed this -->
           <li class=list-header>
             Students 
@@ -126,7 +123,7 @@ transition: all 0.3s ease-out;}
         </ul>
       </div>
 
-      <div class=span4>
+      <div style="float:left">
         <!-- <ul class='column-list teacher-class-col'> -->
           <ul class='column-list3'>
           <li class='.column-listheader'>
@@ -141,7 +138,7 @@ transition: all 0.3s ease-out;}
           <% end ; end %>
         </ul>
       </div>
-      <div class=span4>
+      <div style="float:left">
         <ul class='column-list3'>
           <li class='.column-listheader'>
             Quizzes

@@ -198,9 +198,6 @@ module Algebra
     end
   end
 
-  
-
-
   class Add_polynomials2 < QuestionWithExplanation
     def self.type
       "Add Polynomials 2"
@@ -736,9 +733,6 @@ class Sub_polynomials2 < QuestionWithExplanation
       ]
     end
   end
-
-
-
 
   class Mul_mono_bi < QuestionWithExplanation
     def self.type
@@ -1458,5 +1452,5 @@ class Sub_polynomials2 < QuestionWithExplanation
    Algebra::Evaluate,
    Algebra::Createkb,
    Algebra::Createkb2
-    ] # //Anurag is module name and dummy is class name
+  ] # //Anurag is module name and dummy is class name
 end

@@ -42,4 +42,21 @@ module Patterns
       [TextLabel.new("What comes next?"), TextLabel.new((@ini...(@ini+@div*(@num))).step(@div).to_a.join(", ")), TextField.new("ans")]
     end
   end
+  class Series3 < QuestionBase
+    def self.type
+      "Series 3"
+    end
+    def initialize
+      @ini1=rand(50)+1
+      @ini2=rand(50)+1
+      @div=rand(23)
+      @num=rand(6)+3
+    end
+    def solve
+      {"ans" => @ini+(@num)*@div}
+    end
+    def text
+      [TextLabel.new("What comes next?"), TextLabel.new((@ini...(@ini+@div*(@num))).step(@div).to_a.join(", ")), TextField.new("ans")]
+    end
+  end
 end
