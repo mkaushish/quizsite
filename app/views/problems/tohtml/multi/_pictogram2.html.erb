@@ -1,0 +1,43 @@
+<div class="multifield" >
+    <%numfull= pictogram2.numfull.to_i%>
+    <%numhalf= pictogram2.numhalf.to_i%>
+    <%startx= pictogram2.startx.to_i%>
+    <%starty= pictogram2.starty.to_i%>
+	<%width = pictogram2.width.to_i%>
+    <%height= pictogram2.height.to_i%>
+    <%distance= pictogram2.distance.to_i%>
+	<%canvaswidth = pictogram2.canvaswidth.to_i%>
+    <%canvasheight= pictogram2.canvasheight.to_i%>
+    <%numtimes = pictogram2.numtimes.to_i%>
+    <%check = pictogram2.check.to_i%>
+
+<%if check==0 %>
+
+<%else%>
+ <img border="border:1px solid #d3d3d3;" src="/assets/1.jpg" onload="drawimage2(<%=numtimes%>,<%= numfull %>,<%= numhalf%>,<%= startx%>,<%= starty%>,<%= width%>,<%= height%>,<%= distance%>);" width="1" height="1"> 
+<canvas id="myCanvas_<%=numtimes%>" onload="drawimage2(<%= numfull %>,<%= numhalf%>,<%= startx%>,<%= starty%>,<%= width%>,<%= height%>,<%= distance%>)" width=<%= canvaswidth%> height=<%= canvasheight%> style="border:1px solid #d3d3d3;">
+Your browser does not support the HTML5 canvas tag.</canvas>
+</canvas>
+<%end%>
+
+<script type="text/javascript" onload="drawimage2(<%= numfull %>,<%= numhalf%>,<%= startx%>,<%= starty%>,<%= width%>,<%= height%>,<%= distance%>);">
+var image1 = new Image();
+image1.src = "/assets/1.jpg";
+var no1 = 0;
+var no2 = 0;
+var xcordinate = 0;
+var ycordinate = 0;
+var image2 = new Image();
+image2.src = "/assets/2.jpg";
+// var canvas = $("#myCanvas_<%=numtimes%>");
+// var ctx = canvas[0].getContext("2d");
+// var canvaswidth = canvas[0].width;
+// var canvasheight = canvas[0].height;
+// var ctx=c.getContext("2d");
+// image2.onload = function()
+// {
+// drawimage2(<%= numfull %>,<%= numhalf%>,<%= startx%>,<%= starty%>,<%= width%>,<%= height%>,<%= distance%>);
+// });
+// drawimage2(<%= numfull%>,<%= numhalf%>,<%= startx%>,<%= starty%>,<%= width%>,<%= height%>,<%= distance%>);
+</script>
+</div>

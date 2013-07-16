@@ -24,7 +24,7 @@ function createshape(a,par4,par5,par6,par7)
 	ctx.strokeStyle = "red";
 	ctx.stroke();
 	ctx.fillStyle = "white";
-	ctx.fill;
+	ctx.fill();
 	}
 	else if(a=='rectangle2')
  	{
@@ -37,7 +37,7 @@ function createshape(a,par4,par5,par6,par7)
 	ctx.strokeStyle = "red";
 	ctx.stroke();
 	ctx.fillStyle = "white";
-	ctx.fill;
+	ctx.fill();
 	}
 	else if(a=='rectangle3')
  	{
@@ -50,7 +50,7 @@ function createshape(a,par4,par5,par6,par7)
 	ctx.strokeStyle = "red";
 	ctx.stroke();
 	ctx.fillStyle = "white";
-	ctx.fill;
+	ctx.fill();
 	}
 	else
 	{
@@ -58,12 +58,8 @@ function createshape(a,par4,par5,par6,par7)
 	}
 }
 
-var coordinate = new Array();
-var colored = new Array();
-var original = new Array();
-original[0]=1;
-original[1]=3;
-function slice(par1,par2,par3,par4,par5,par6,par7,arr)
+
+function slice(par1,par2,par3,par4,par5,par6,par7,arr,choose)
 {	
 	if(par1=='circle')
 	{	
@@ -74,7 +70,7 @@ function slice(par1,par2,par3,par4,par5,par6,par7,arr)
 		var b = 360.0/angle;
 		var a = (angle/180.0)*Math.PI;
 		var c = a;
-		alert("no of slices " + b);
+		// alert("no of slices " + b);
 		for(var i =0;i<b;i++)
 		{
 			ctx.beginPath();
@@ -83,7 +79,7 @@ function slice(par1,par2,par3,par4,par5,par6,par7,arr)
 			ctx.strokeStyle = "red";
 			ctx.closePath();
 			ctx.stroke();
-			ctx.fillStyle = "blue";
+			ctx.fillStyle = "green";
 			ctx.fill();
 			c  = c+a;
 			colored[i]=0;
@@ -118,6 +114,8 @@ function slice(par1,par2,par3,par4,par5,par6,par7,arr)
 			ctx.closePath();
 			ctx.stroke();
 			colored[sliceno-1]=1;
+			if (choose==1) {putvalue(sliceno);}
+
 		}
 	}
 	else if(par1=='rectangle1')
@@ -128,7 +126,7 @@ function slice(par1,par2,par3,par4,par5,par6,par7,arr)
  		var breadth =par7;
 		var len  = par2;
 		var a = length/len;
-		alert("no of slices " + a);
+		// alert("no of slices " + a);
 		ctx.beginPath();
 		ctx.rect(startx,starty,length,breadth);
 		ctx.strokeStyle = "red";
@@ -164,9 +162,11 @@ function slice(par1,par2,par3,par4,par5,par6,par7,arr)
 			ctx.strokeStyle = "red";
 			ctx.closePath();
 			ctx.stroke();
-			ctx.fillStyle = "blue";
+			ctx.fillStyle = "green";
 			ctx.fill();
 			colored[sliceno-1]=1;
+			if (choose==1) {putvalue(sliceno);}
+
 		}
 	}
 	else if(par1=='rectangle2')
@@ -177,7 +177,7 @@ function slice(par1,par2,par3,par4,par5,par6,par7,arr)
  		var breadth =par7;
 		var len = par2;
 		var a = breadth/len;
-		alert("no of slices " + a);
+		// alert("no of slices " + a);
 		ctx.beginPath();
 		ctx.rect(startx,starty,length,length);
 		ctx.strokeStyle = "red";
@@ -215,9 +215,11 @@ function slice(par1,par2,par3,par4,par5,par6,par7,arr)
 			ctx.strokeStyle = "red";
 			ctx.closePath();
 			ctx.stroke();
-			ctx.fillStyle = "blue";
+			ctx.fillStyle = "green";
 			ctx.fill();
 			colored[sliceno-1]=1;
+			if (choose==1) {putvalue(sliceno);}
+
 		}
 	}
 	else if(par1=='rectangle3')
@@ -230,7 +232,7 @@ function slice(par1,par2,par3,par4,par5,par6,par7,arr)
 		var bre = par3;
 		var a = length/len;
 		var b = breadth/bre;
-		alert("no of slices " + a*b);
+		// alert("no of slices " + a*b);
 		ctx.beginPath();
 		ctx.rect(startx,starty,length,breadth);
 		ctx.strokeStyle = "red";
@@ -253,7 +255,7 @@ function slice(par1,par2,par3,par4,par5,par6,par7,arr)
 				ctx.strokeStyle = "red";
 				ctx.closePath();
 				ctx.stroke();
-				ctx.fillStyle = "blue";
+				ctx.fillStyle = "green";
 				ctx.fill();
 				y = y+bre;
 			}
@@ -279,6 +281,7 @@ function slice(par1,par2,par3,par4,par5,par6,par7,arr)
 			ctx.fillStyle = "black";
 			ctx.fill();
 			colored[sliceno-1]=1;
+			if (choose==1) {putvalue(sliceno);}
 		}
 	}
 }
@@ -340,7 +343,7 @@ function update(event,par1,par2,par3,par4,par5,par6,par7)
 						ctx.arc(centrex,centrey,radius,d,e);
 						ctx.lineTo(centrex,centrey);
 						ctx.stroke();
-						ctx.fillStyle = "blue";
+						ctx.fillStyle = "green";
 						ctx.fill();
 						ctx.beginPath();
 						ctx.arc(centrex,centrey,radius,d,e);
@@ -349,6 +352,7 @@ function update(event,par1,par2,par3,par4,par5,par6,par7)
 						ctx.closePath();
 						ctx.stroke();
 						colored[sliceno-1]=0;
+						putvalue(sliceno);
 					}
 					else
 					{
@@ -365,6 +369,7 @@ function update(event,par1,par2,par3,par4,par5,par6,par7)
 						ctx.closePath();
 						ctx.stroke();
 						colored[sliceno-1]=1;
+						putvalue(sliceno);
 					}
 
        		}
@@ -410,6 +415,7 @@ function update(event,par1,par2,par3,par4,par5,par6,par7)
 				ctx.fillStyle = "black";
 				ctx.fill();
 				colored[sliceno-1]=0;
+				putvalue(sliceno);
 				}
 				else
 				{
@@ -421,9 +427,10 @@ function update(event,par1,par2,par3,par4,par5,par6,par7)
 				ctx.strokeStyle = "red";
 				ctx.closePath();
 				ctx.stroke();
-				ctx.fillStyle = "blue";
+				ctx.fillStyle = "green";
 				ctx.fill();
 				colored[sliceno-1]=1;
+				putvalue(sliceno);
 				}
             }
             else
@@ -468,6 +475,7 @@ function update(event,par1,par2,par3,par4,par5,par6,par7)
 				ctx.fillStyle = "black";
 				ctx.fill();
 				colored[sliceno-1]=0;
+				putvalue(sliceno);
 				}
 				else
 				{
@@ -479,9 +487,11 @@ function update(event,par1,par2,par3,par4,par5,par6,par7)
 				ctx.strokeStyle = "red";
 				ctx.closePath();
 				ctx.stroke();
-				ctx.fillStyle = "blue";
+				ctx.fillStyle = "green";
 				ctx.fill();
 				colored[sliceno-1]=1;
+				putvalue(sliceno);
+
 				}
             }
             else
@@ -530,9 +540,10 @@ function update(event,par1,par2,par3,par4,par5,par6,par7)
 				ctx.strokeStyle = "red";
 				ctx.closePath();
 				ctx.stroke();
-				ctx.fillStyle = "blue";
+				ctx.fillStyle = "green";
 				ctx.fill();
 				colored[sliceno-1]=0;
+				putvalue(sliceno);
 				}
 				else
 				{
@@ -547,6 +558,7 @@ function update(event,par1,par2,par3,par4,par5,par6,par7)
 				ctx.fillStyle = "black";
 				ctx.fill();
 				colored[sliceno-1]=1;
+				putvalue(sliceno);
 				}
             }
             else
