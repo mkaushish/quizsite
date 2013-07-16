@@ -8,7 +8,7 @@ class QuizStat < ActiveRecord::Base
 
   validates :quiz_instance, :presence => true
 
-  def points_for(correct = nil) ; 200 end
+  def points_for(correct = nil) ; 100 end
 
   def update_w_ans!(answer)
     answer.points = points_for(answer.correct)
