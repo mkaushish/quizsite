@@ -6,25 +6,13 @@
     <% @arr7.push([ptype.name, (@ans_right.count*100)/(@ans_right.count+@ans_wrong.count)]) %>
   <% end %>  
 <% end %>
-
-    <script type="text/javascript">
-      google.load("visualization", "1", {packages:["corechart"]});
-      google.setOnLoadCallback(drawChart);
-      drawChart();
-      function drawChart() {
-        var data7 = google.visualization.arrayToDataTable(<%= raw @arr7 %>);
-
-        var options7 = {
-          title: 'Student Performance',
-          vAxis: {title: 'Problem Types',  titleTextStyle: {color: 'red'}}
-        };
-
-        var chart7 = new google.visualization.BarChart(document.getElementById('chart_div_2_pset'));
-        chart7.draw(data7, options7);
-      }
-    </script>
+<% if @arr7.count == 1%>
+  <%= @arr7.push(["Haven't Attempted",100]) %>
+<% end%>
+  <p style="font-size:5px;" >v</p>
+<%id="chart_div_2_pset"%>
        
-    <div id="chart_div_2_pset" style="width: 900px; height: 500px;"></div>
+    <div id="chart_div_2_pset" style="width: 900px; height: 500px;"><%= render 'shared/barchart', :@arr => @arr7, :@id => id %></div>
 
 
 
@@ -37,26 +25,11 @@
     <% @arr6.push([ptype.name, @ans_wrong.count]) %>
     <% @count = @count + @ans_wrong.count %>
   <% end %> 
-    <script>
-      google.load("visualization", "1", {packages:["corechart"]});
-
-      google.setOnLoadCallback(drawChart);
-      drawChart();
-            function drawChart() {
-        var data6 = google.visualization.arrayToDataTable(<%= raw @arr6 %>);
-
-        var options6 = {
-          title: 'Wrong Answers by Student'
-        };
-        var chart6 = new google.visualization.PieChart(document.getElementById('chart_div_1_pset'));
-        chart6.draw(data6, options6);
-      }
-    </script>
-
+<% id = "chart_div_1_pset"%>
 <%if @count == 0 %>
   <%= "No Wrong Answers in this Chapter" %>
 <% else %>
-  <div id="chart_div_1_pset" style="width: 900px; height: 500px;"></div>  
+  <div id="chart_div_1_pset" style="width: 900px; height: 500px;"><%= render 'shared/piechart', :@arr => @arr6, :@id => id %></div>  
 <% end %>
 
 
