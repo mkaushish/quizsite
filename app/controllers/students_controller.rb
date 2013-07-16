@@ -11,9 +11,8 @@ class StudentsController < ApplicationController
         @badges = @student.badges
     end
     
-      def show
-        @student = Student.find_by_id(params[:id])
-        @problem_sets = @student.problem_sets
+    def show
+        @problem_sets = @student.problem_sets.includes(:problem_types)
     end
 
     def new
@@ -70,7 +69,6 @@ class StudentsController < ApplicationController
     end
 
     def chart
-        @student = Student.find_by_id(params[:id])
         @problem_sets = @student.problem_sets
   #      @answers_correct = @student.answers.map(&:correct)
   #      time_range = (10.weeks.ago..Time.now)

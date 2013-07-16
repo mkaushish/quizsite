@@ -1,0 +1,13 @@
+<script type="text/javascript">
+    google.load("visualization", "1", {packages:["corechart"]});
+    google.setOnLoadCallback(drawChart);
+    drawChart();
+    function drawChart() {
+        var data = google.visualization.arrayToDataTable(<%= raw array %>);
+        var options = {
+                        title: "<%= title %>"
+        };
+        var chart = new google.visualization.PieChart(document.getElementById("<%= div %>"));
+        chart.draw(data, options);
+    }
+</script>

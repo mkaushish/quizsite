@@ -9,14 +9,8 @@
 <% if @arr7.count == 1%>
   <%= @arr7.push(["Haven't Attempted",100]) %>
 <% end%>
-  <p style="font-size:5px;" >v</p>
-<%id="chart_div_2_pset"%>
-       
-    <div id="chart_div_2_pset" style="width: 900px; height: 500px;"><%= render 'shared/barchart', :@arr => @arr7, :@id => id %></div>
-
-
-
-
+  
+<div id="chart_div_2_pset" style="width: 900px; height: 500px;"><%= render 'shared/google_visual_barchart', :array => @arr7, :div => "chart_div_2_pset", :title => "Percentage of correct answers to the Problem Types", :vAxis_title => "Problem Types" %></div>
 
 <% @count = 0 %>
 <% @arr6 = [['Problem Types','Wrong Answers']]%>
@@ -25,11 +19,10 @@
     <% @arr6.push([ptype.name, @ans_wrong.count]) %>
     <% @count = @count + @ans_wrong.count %>
   <% end %> 
-<% id = "chart_div_1_pset"%>
 <%if @count == 0 %>
   <%= "No Wrong Answers in this Chapter" %>
 <% else %>
-  <div id="chart_div_1_pset" style="width: 900px; height: 500px;"><%= render 'shared/piechart', :@arr => @arr6, :@id => id %></div>  
+  <div id="chart_div_1_pset" style="width: 900px; height: 500px;"><%= render 'shared/google_visual_piechart', :array => @arr6, :div => "chart_div_1_pset", :title => "Wrong answers to the problem_types" %></div>  
 <% end %>
 
 
