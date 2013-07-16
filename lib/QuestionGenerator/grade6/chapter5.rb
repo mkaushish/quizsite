@@ -95,7 +95,7 @@ module Chapter5
         @fraction1=0.5
         @num=1
         @den=2
-      elsif (@randdir = 2)
+      elsif (@randdir == 2)
         @fraction1=0.75
         @num=3
         @den=4
@@ -480,7 +480,7 @@ UNITS = ["mm","cm","dc","m","Dm","hm","km" ]
   Chapter5::Question2,
   Chapter5::Question3,
   Chapter5::Question4,
-  Chapter5::Question5,
+  #Chapter5::Question5,
   Chapter5::Question6,
   Chapter5::Question7,
   Chapter5::Question8,
