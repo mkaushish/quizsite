@@ -21,18 +21,18 @@ class QuizInstancesController < ApplicationController
         deny_access && return unless belongs_to_user(@pset_instance)
 
         @classroom = @student.classrooms.first
-        @quiz = @classroom.quizzes.where(:problem_set_id => @pset_instance.problem_set_id).last
+        @quiz=Quiz.find_by_id(params[:quiz_id])
+        #@quiz = @classroom.quizzes.where(:problem_set_id => @pset_instance.problem_set_id).last
         #@instance = QuizInstance.where(:quiz_id => @quiz.id, :problem_set_instance_id => @pset_instance.id).first
-        @quiz ||= @classroom.classroom_quizzes.last.quiz
+        #@quiz ||= @classroom.classroom_quizzes.last.quiz
         if !@quiz.blank?
-
             @instance = @quiz.quiz_instances.where(:problem_set_instance_id => @pset_instance).last
             @instance ||= @quiz.assign_with_pset_inst(@pset_instance)
             @instance.start if !@instance.started?
             @counter = @quiz.quiz_problems.count - @instance.stats_remaining.count
             @quiz_stats = @instance.quiz_stats.includes(:problem_type)
             @pset = @instance.problem_set
-
+            @problems = @instance.quiz_problems
             next_problem
         else
             redirect_to pset_path(:name => @pset_instance.problem_set_id), notice: "No Quiz for you"
@@ -57,13 +57,36 @@ class QuizInstancesController < ApplicationController
     # next_quiz_problem_path
     def next_problem
         @title ||= "In Quiz"
+        @counter = @quiz.quiz_problems.count - @instance.stats_remaining.count
         @instance ||= QuizInstance.includes(:problem_set).find(params[:id])
         deny_access && return unless @instance.user_id == current_user.id
         return finish_quiz if @instance.over?
         if !@instance.blank?
+            @problems = @instance.quiz_problems
             @stat = @instance.next_stat
             @problem_type = @stat.problem_type
-            @problem = @stat.spawn_problem
+            @problem=Problem.find_by_id(@problems[@counter].problem)
+            @quiz_stats = @instance.quiz_stats.includes(:problem_type)
+            @pset = @instance.problem_set
+            respond_to do |format|
+                format.html { render 'problem' }
+                format.js { render 'do' }
+            end
+        else
+            redirect_to pset_path(:name => @pset.id), notice: "No Quiz for you"
+        end
+        @counter = @quiz.quiz_problems.count - @instance.stats_remaining.count
+    end
+    def get_problem(ct)
+        @title ||= "In Quiz"
+        @instance ||= QuizInstance.includes(:problem_set).find(params[:id])
+        deny_access && return unless @instance.user_id == current_user.id
+        return finish_quiz if @instance.over?
+        if !@instance.blank?
+            @problems = @instance.quiz_problems
+            @stat = @instance.next_stat
+            @problem_type = @stat.problem_type
+            @problem=Problem.find_by_id(@problems[ct].problem)
             @quiz_stats = @instance.quiz_stats.includes(:problem_type)
             @pset = @instance.problem_set
             respond_to do |format|
