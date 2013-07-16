@@ -1,27 +1,40 @@
 <%= @student.name %>
+<%= link_to "Charts", chart_student_path %>
 <div id="problems_history" class="teacher-details-header" style="margin-bottom:5px;"></div>
 <div class="row">
-  	<div class="span4">
-		<div class="dotted-border-header">
+  	<div class="span4" id="chapterspan4">
+		<div class="column-listheader">
 	  		Chapters
 		</div>
-		<div class='dotted-border teacher-details-column'>
-	  		<ul class='column-list' id="chapter_tabs" style="width:100%; height:500px; overflow-x:hidden; overflow-y:scroll;">
+		<div class='column-listdiv'>
+	  		<ul class='column-list2' id="chapter_tabs">
 				<% @problem_sets.each do |pset| %>
+				<!-- starting from here -->
+					<% pset.problem_types.each do |ptype|%>
+						<% @arr7 = [['Problem Types','Correct Percentage']]%>
+				 		<% @ans_right = ptype.answers.select{|v| v.correct == true }%>
+  						<% @ans_wrong = ptype.answers.select{|v| v.correct == false }%>
+  						<% if (@ans_wrong.count + @ans_right.count) > 0 %>  
+  		  					<% @arr7.push([ptype.name, (@ans_right.count*100)/(@ans_right.count+@ans_wrong.count)]) %>
+  						<% end %>  
+  					<% end %> 
+
 		  			<li><%= link_to pset.name, "#chap_#{pset.id}", :"data-toggle" => "tab" %></li>
 				<% end %>
 	  		</ul>
 		</div>
   	</div>
-	<div class="span4">
+	<div class="span4" id="tryspan4">
 		<div class="tab-content">
 	  		<% @problem_sets.each do |pset| %>
 				<div class="tab-pane" id="chap_<%= pset.id %>">
-		  			<div class="dotted-border-header-black">
+		  			<!-- <div class="dotted-border-header-black"> -->
+		  			<div class="column-listheader">
 						Problem Types
 		  			</div>
-		  			<div class='dotted-border teacher-details-column'>
-						<ul class='column-list' id="column_list" style="width:100%; height:500px; overflow-x:hidden; overflow-y:scroll;">
+		  			<!-- <div class='dotted-border teacher-details-column'> -->
+		  			<div class="column-listdiv">
+						<ul class='column-list2 column-list22' id="column_list">
 			  				<% pset.problem_types.each do |ptype| %>
 			  					<% @count = 0%>
 			  					<% @counttrue = 0%>
@@ -38,23 +51,25 @@
 		  			</div>     
 				</div>
 				<div class="tab-pane" id="chap">
-							  			<div class="dotted-border-header-black">
+					<div class="dotted-border-header-black">
 						Problem Types 2
 		  			</div>
 				</div>
 	  		<% end %>
 		</div>
   	</div>
-	<div class="span4">
+	<div class="span4" id="histspan4">
    		<div class="tab-content">
 			<% @problem_sets.each do |pset| %>
 				<% pset.problem_types.each do |ptype|%>
 					<div class="tab-pane" id="chap_<%= pset.id %>_<%= ptype.id%>">
-	  					<div class='dotted-border-header'>
+	  					<!-- <div class='dotted-border-header'> -->
+	  					<div class="column-listheader">
 							<h4>History</h4>
 	  					</div>
-	  					<div class='dotted-border' style='min-height:400px;'>
-							<ul class='column-list' id="History_tabs" style="width:100%; height:500px; overflow-x:hidden; overflow-y:scroll;">
+	  					<!-- <div class='dotted-border' style='min-height:400px;'> -->
+	  					<div class="column-listdiv" style="min-height:400px;">
+							<ul class='column-list2 colum-list22' id="History_tabs">
 		  						<% ptype.answers.each do |answer| %>
 		  							<% if answer.user_id == @student.id %>
 		  								<%if answer.correct == true%>
@@ -74,3 +89,50 @@
   		</div>
 	</div>
 </div>
+<div class = "span12" id = "pset_chart">
+ <div id="chart_div_2_pset" style="width: 900px; height: 500px;"></div>
+
+ </div> 
+
+<script>
+$("#chapter_tabs li a").click(function(){
+	$("#histspan4").hide();
+	$('#chapterspan4').css("margin-right","0%");
+	$('#chapterspan4').animate({marginRight:"7%"},"fast","swing");
+	
+
+});
+$("#tryspan4 li a").click(function(){
+	$('#histspan4').show();
+	$('#histspan4').css("margin-left","0%");
+	$('#histspan4').animate({marginLeft:"7%"},"fast","swing");
+});
+
+</script>
+
+
+
+
+
+    <script type="text/javascript">
+      google.load("visualization", "1", {packages:["corechart"]});
+      google.setOnLoadCallback(drawChart);
+      drawChart();
+      function drawChart() {
+        var data7 = google.visualization.arrayToDataTable(<%= raw @arr7 %>);
+
+        var options7 = {
+          title: 'Student Performance',
+          vAxis: {title: 'Problem Types',  titleTextStyle: {color: 'red'}}
+        };
+
+        var chart7 = new google.visualization.BarChart(document.getElementById('chart_div_2_pset'));
+        chart7.draw(data7, options7);
+      }
+    </script>
+       
+    <div id="chart_div_2_pset" style="width: 900px; height: 500px;"></div>
+
+
+
+

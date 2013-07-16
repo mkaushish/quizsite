@@ -29,7 +29,7 @@ module Algebra_6
  
   class Try_11 < QuestionWithExplanation
     def self.type
-      "Multiple of Variable 1"
+      "Understand Variables 1"
     end
     def initialize
       @var = VARIABLES.sample
@@ -48,7 +48,7 @@ module Algebra_6
     
     def text
       if @choose ===3
-        [TextLabel.new("A bird flies #{@a} #{@option1value}. Can you express the total diastance covered by the bird in terms of flying time.(Use #{@var} for flying time in #{@option3value})"), 
+        [TextLabel.new("A bird flies #{@a} #{@option1value}. Can you express the total distance covered by the bird in terms of flying time.(Use #{@var} for flying time in #{@option3value})"), 
         TextField.new("ans1")
         
         ]
@@ -75,7 +75,7 @@ module Algebra_6
 
   class Try_12 < QuestionWithExplanation
     def self.type
-      "Multiple of Variable 2"
+      "Understand Variables 2"
     end
     def initialize
       @var = VARIABLES.sample
@@ -117,7 +117,7 @@ module Algebra_6
 
   class Try_13 < QuestionWithExplanation
     def self.type
-      "Regular Polygons"
+      "Perimeter Polygon"
     end
     def initialize
       @var = VARIABLES.sample
@@ -149,7 +149,7 @@ module Algebra_6
 
   class Try_20 < QuestionWithExplanation
     def self.type
-      "Polygons"
+      "Sum of Sides Algebra"
     end
     def initialize
       @choose = rand(3)+8
@@ -239,7 +239,7 @@ module Algebra_6
 
  class Try_14 < QuestionWithExplanation
     def self.type
-      "Identify Operations"
+      "What are the Operations?"
     end
 
     def initialize
@@ -384,7 +384,7 @@ module Algebra_6
 
   class Try_15 < QuestionWithExplanation
     def self.type
-      "Expressions"
+      "Give the Expression"
     end
     def initialize
       @var = VARIABLES.sample
@@ -468,7 +468,7 @@ module Algebra_6
 
   class Try_16 < QuestionWithExplanation
     def self.type
-      "Relatives"
+      "Relative Ages"
     end
     def initialize
       @var = VARIABLES.sample
@@ -678,7 +678,7 @@ module Algebra_6
 
   class Try_17 < QuestionWithExplanation
     def self.type
-      "Equations?"
+      "Is this an Equation?"
     end
     def initialize
       @var = VARIABLES.sample
@@ -962,7 +962,7 @@ end
 
   class Try_18 < QuestionWithExplanation
     def self.type
-      "Find the Value"
+      "Find x 1"
     end
     def initialize
       @choose = rand(2)
@@ -1008,7 +1008,7 @@ end
 
   class Try_19 < QuestionWithExplanation
     def self.type
-      "Find x"
+      "Find x 2"
     end
     def initialize(nums = nil)
       if nums.nil?

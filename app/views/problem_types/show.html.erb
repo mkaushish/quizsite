@@ -6,10 +6,13 @@
         </div>
         <div class="dotted-border">
             <p><%= @problem_type.description %></p>
-            <%= link_to "TRY SAMPLE PROBLEMS",do_sample_problem_path(@problem_type.id), :class => 'button-blue',remote: :true  %>
+            <% if !signed_in? %>
+                <%= link_to "TRY SAMPLE PROBLEMS",do_sample_problem_path(@problem_type.id), :class => 'button-blue',remote: :true  %>
+            <%else%>
+            <%end%>
         </div>
     </div>
-    <div class='home3' style="margin-left:28px">
+    <!--<div class='home3' style="margin-left:28px">
         <div class='dotted-border-header-black' >
           <p>MAKE YOUR MATHS BETTER</p>
       </div>
@@ -17,6 +20,9 @@
         <div id='video_home'>
             <iframe src="http://www.youtube.com/embed/V-5HLNESatM" frameborder="0" allowfullscreen></iframe>
         </div>
+
+    </div>-->
+
     </div>
        
     <div class='home3'>
@@ -27,5 +33,43 @@
             <%= link_to "TRY SAMPLE PROBLEMS",do_sample_problem_path(@problem_type.id), :class => 'button-blue',remote: :true  %>
         </div>
     </div>
+
+
+<% if (defined? params[:classroom]) and (current_user.is_a? Teacher) %>
+<% @classroom = Classroom.find_by_id(params[:classroom]) %>
+
+
+<% @arr = [['%correct','Number of Students']]%>
+<% @temp = []%>
+<% i=51 %>
+<% @classroom.students.each do |student| %>
+    <% @b = @problem_type.answers.where(:user_id => student.id).select{|v| v.correct == true } %>
+    <% @b_wrong = @problem_type.answers.where(:user_id => student.id).select{|v| v.correct == false } %>
+    <% @count = @b.count%>
+    <% @count_wrong = @b_wrong.count %>
+    <% if @count_wrong+@count == 0%>
+        <% @temp.push(-1) %>
+    <% else %>
+        <% @temp.push((@count*100)/(@count_wrong+@count)) %>
+    <% end %>       
+<% end %>   
+<% @count1 = (@temp.select{|v| v>90}).count %>
+    <% @arr.push([">90%", @count1])%>
+<% @count2 = ((@temp.select{|v| v>70}).select{|v| v<90}).count %>   
+    <% @arr.push([">70%", @count2])%>
+<% @count3 = ((@temp.select{|v| v>50}).select{|v| v<70}).count %>   
+    <% @arr.push([">50%", @count3])%>
+<% @count4 = ((@temp.select{|v| v>30}).select{|v| v<50}).count %>   
+    <% @arr.push([">30%", @count4])%>
+<% @count5 = ((@temp.select{|v| v>0}).select{|v| v<30}).count %>    
+    <% @arr.push([">0%", @count5])%>
+<% @count6 = (@temp.select{|v| v<0}).count %>   
+    <% @arr.push(["Haven't Attempted", @count6])%>
+<% id = "chart_div_2_class_pset" %>
+
+
+    <div id="chart_div_2_class_pset" style="width: 900px; height: 500px;"><%= render 'shared/piechart', :@arr => @arr, :@id => id %></div>
+
+<% end %>
     
 </div>

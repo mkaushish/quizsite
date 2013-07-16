@@ -620,6 +620,112 @@ module ToHTML
     end
     
   end
+
+  class DrawShape < MultiHTMLObj
+    attr_accessor :name,:shape, :len, :bre, :startx,:starty, :length, :breadth, :update, :choice,:canvaswidth, :canvasheight, :numtimes, :check
+    def initialize(name, shape, len, bre, startx, starty, length, breadth, update, choice, canvaswidth, canvasheight, numtimes, check)
+      @name=ToHTML::add_prefix name
+      @len=len
+      @bre=bre
+      @length=length
+      @breadth=breadth
+      @startx=startx
+      @starty=starty
+      @shape=shape
+      @update=update
+      @choice=choice
+      @numtimes = numtimes
+      @check=check
+       @canvaswidth = canvaswidth
+      @canvasheight = canvasheight
+    end
+    def correct?(solution, response)
+      if @shape=='circle'
+        @sliceno = 360/len
+      elsif @shape == 'rectangle1'
+        @sliceno = length/len
+      elsif @shape == 'rectangle2'
+        @sliceno = breadth/bre
+      else
+        @a = length/len
+        @b = breadth/bre
+        @sliceno = @a*@b
+      end
+      (@sliceno).times do |i|
+        curn=@name+"_#{i}"
+        return false unless solution[curn]==response[curn]
+      end
+      return true
+    end
+  end
+
+  class DrawShape2 < MultiHTMLObj
+    attr_accessor :shape, :length1, :length2, :length3, :height,:length4, :unit, :canvaswidth, :canvasheight, :numtimes, :check
+    def initialize(shape, length1, length2, length3, height, length4, unit, canvaswidth, canvasheight, numtimes, check)
+      # @name=ToHTML::add_prefix name
+      @length1 = length1
+      @length2 = length2
+      @length3 = length3
+      @length4 = length4
+      @height = height
+      @shape = shape
+      @unit = unit
+      @canvaswidth = canvaswidth
+      @canvasheight = canvasheight
+      @numtimes = numtimes
+      @check=check
+    end
+
+    def correct?(solution, response)
+      true
+    end
+  end
+
+  class DrawShape4 < MultiHTMLObj
+    attr_accessor :shape, :length1, :length2, :length3, :length4, :height, :unit, :var1, :var2, :var3, :canvaswidth, :canvasheight, :numtimes, :check
+    def initialize(shape, length1, length2, length3, length4, height, unit, var1, var2, var3, canvaswidth, canvasheight, numtimes, check)
+      # @name=ToHTML::add_prefix name
+      @length1 = length1
+      @length2 = length2
+      @length3 = length3
+      @length4 = length4
+      @height = height
+      @shape = shape
+      @unit = unit
+      @var1 = var1
+      @var2 = var2
+      @var3 = var3
+      @canvaswidth = canvaswidth
+      @canvasheight = canvasheight
+      @numtimes = numtimes
+      @check=check
+    end
+
+    def correct?(solution, response)
+      true
+    end
+  end
+
+
+  class DrawShape3 < MultiHTMLObj
+    attr_accessor :table, :unit, :length1, :length2, :choice, :canvaswidth, :canvasheight, :numtimes, :check
+    def initialize(table, unit, length1, length2, choice,canvaswidth, canvasheight, numtimes, check)
+      # @name=ToHTML::add_prefix name
+      @length1 = length1
+      @length2 = length2
+      @table = table
+      @unit = unit
+      @choice = choice
+      @canvaswidth = canvaswidth
+      @canvasheight = canvasheight
+      @numtimes = numtimes
+      @check=check
+    end
+
+    def correct?(solution, response)
+      true
+    end
+  end
   
   # As you can see, this is just a textfield, with an overwritten fromhash method
   # the point is that in the solve hash you can do

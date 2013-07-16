@@ -3,7 +3,7 @@
 <div>
 <div style='float:left'>
   <div class='dotted-border-header'>
-    <h4>Progress Center<h4>
+    <h4>History<h4>
   </div>
   <div class='dotted-border' style='height:1000px; width:252px'>
     <%= render 'progress_center' %>
@@ -11,7 +11,7 @@
 </div>
 
 <div id='bbor'>
-  <% @pset_instances.each do |i| %>
+  <% @pset_instances.order("id ASC").each do |i| %>
     <%= render :partial => 'pset_list_box', :object => i %>
   <% end %>
 </div>

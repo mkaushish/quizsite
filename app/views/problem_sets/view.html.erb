@@ -1,20 +1,82 @@
 
 <div id='home' class='static-page'>
-    <div class='home3' style="width:288px; height:370px">
-        <div class='dotted-border-header-black' >
+    <div class='home3' style="width:80%; height:auto; margin-left:1%;">
+        <div class='dotted-border-header-black' style="width:50%;">
             <p><%= @problem_set.name %></p>
         </div>
         <div class="dotted-border">
             <p style="font-size: 40px;"><%= @problem_set.description %></p>
         </div>
     </div>
-    <div class='home3' style="margin-left:28px">
+    
+    <div id="tabs" style="float:right;" class="dropdown">
+        <a class="account">Problems</a>
+        <div class="dropd">
+
+            <ul class="root">
+                <% @problem_set.problem_types.each do |ptype| %>
+                <% if signed_in? %>
+                    <li><%= link_to ptype.name, pset_do_path(@problem_set.id, ptype.id), remote: :true%></li>
+                <%else%>
+                    <li><%= link_to ptype.name, do_sample_problem_path(ptype.id), remote: :true  %></li>
+                <%end%>
+                <%end%>
+            </ul> 
+        </div>
+    </div>
+    <div class='home3' style="clear:both;">
         <div class='dotted-border-header-black' >
           <p>MAKE YOUR MATHS BETTER</p>
       </div>
       <div class="dotted-border">
         <div id='video_home'>
-            <iframe src="http://www.youtube.com/embed/V-5HLNESatM" frameborder="0" allowfullscreen></iframe>
+            <iframe src="<%= @problem_set.video_link%>" frameborder="0" allowfullscreen></iframe>
         </div>
     </div>
+    </div>
+    
 </div>
+<script type="text/javascript">
+// $(document).ready(function(){
+//     $('.account').click(function(){
+//         var X=$(this).attr('id');
+//         if(X==1)
+//         {
+//             $('.dropd').hide();
+//             $(this).attr('id','0');
+
+//         }
+//         else
+//         {
+//             $('.dropd').show();
+//             $(this).attr('id','1');
+//         }
+
+
+
+//     });
+//     $(".dropd").mouseup(function()
+// {
+// return false
+// });
+
+// //Mouse click on my account link
+// $(".account").mouseup(function()
+// {
+// return false
+// });
+
+
+// //Document Click
+// $(document).mouseup(function()
+// {
+// $(".dropd").hide();
+// $(".account").attr('id', '');
+// });
+
+
+
+// });
+
+</script>
+

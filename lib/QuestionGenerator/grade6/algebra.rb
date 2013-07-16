@@ -38,6 +38,33 @@ module Algebra
        ]
     end
   end
+
+  class Createkb2 < QuestionBase
+    def self.type
+      "Createkb2"
+    end
+    def initialize
+      @a=[]
+      @a[0]=1
+      @a[1]=0
+      @a[2]=0
+      @a[3]=1
+      @a[4]=0
+      @a[5]=0
+      @a[6]=0
+      @a[7]=0
+    end
+    def solve
+      {"ans" => @a}
+    end
+    def text
+      
+      [
+        # TextLabel.new("Translate the given table into a bar graph taking the scale as 5 students per unit of length"), 
+         DrawShape.new("ans",'rectangle3',10,10,200,200,80,150)
+       ]
+    end
+  end
   
   class Coefficient < QuestionBase
     def self.type
@@ -1426,7 +1453,6 @@ class Sub_polynomials2 < QuestionWithExplanation
    Algebra::Mul_bi_tri,
    Algebra::Mul_tri_tri,
    Algebra::Evaluate,
-   # Algebra::Createkb
-
+   Algebra::Createkb
     ] # //Anurag is module name and dummy is class name
 end

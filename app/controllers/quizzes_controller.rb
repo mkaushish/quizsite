@@ -53,7 +53,7 @@ class QuizzesController < ApplicationController
     end
 
     def partial_create
-        debugger
+        
         if defined? params[:type]
             case params[:type]
                 when "single_class"

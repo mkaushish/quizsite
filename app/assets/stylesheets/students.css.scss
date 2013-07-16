@@ -325,8 +325,29 @@ background-image: -webkit-gradient(
 }
 
 .plate:hover{
-  border-style: solid;
-  border-color:purple;
-  border-width: 2px;
-}
+  -webkit-transition: all 0.5s ease-in-out 0s;
+-webkit-border-radius: 10px;
+  }
 
+.dropdown-toggle2{
+  background-image: url('/assets/envelope.png');
+background-position-x: -20px;
+border: none;
+background-color: transparent;
+background-position-y: -10px;
+margin-top: -20px;
+height: 60px;
+width: 100%;
+box-shadow: none;
+-webkit-box-shadow: none;
+-moz-box-shadow: none;
+
+
+}
+.dropdown-toggle2:hover{
+
+background-position-x: -20px;
+border: none;
+background-color: transparent;
+background-position-y: -10px;
+}

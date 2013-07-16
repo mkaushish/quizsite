@@ -14,7 +14,7 @@ group :test, :development do
   gem 'database_cleaner'
   gem 'launchy'
   gem 'guard-rails'
-
+  gem "google_visualr", ">= 2.1"
 end
 
 group :development do
