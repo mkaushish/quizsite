@@ -1,85 +1,39 @@
-<%= @student.name %>
-<!-- Percentage of correct answers by weekly -->
-<% @arr = [['Weeks Ago','% correct']]%>
-<% i=51 %>
-<% while i >= 0 do %>
-	<% time_range = (date_of_last("Monday",(i+1).weeks.ago)..date_of_last("Monday",i.weeks.ago)) %>
-	<% @b = @student.answers.where(:created_at => time_range).select{|v| v.correct == true } %>
-	<% @b_wrong = @student.answers.where(:created_at => time_range).select{|v| v.correct == false } %>
-	<% @count = @b.count%>
-	<% @count_wrong = @b_wrong.count %>
-	<% if @count_wrong+@count == 0%>
-		<% @arr.push([(i+1).to_s,0]) %>
-	<% else %>
-		<% @arr.push([(i+1).to_s,(@count*100)/(@count_wrong+@count)]) %>
-	<% end %>		
-	<% i = i-1%>
-<% end %>	
-<div id="chart_div" style="width: 900px; height: 500px;"><%= render "shared/google_visual_linechart", :array => @arr, :div => "chart_div", :title => "Student Performance" %></div>
-<!-- chart end -->
-
-<!-- Percentage of wrong answers by Chapter -->
-
-<% @arr2 = [['Chapters','Wrong Answers']]%>
-<% @student.problem_set_instances.each do |pset|%>
-  <% @ans_wrong = pset.answers.select{|v| v.correct == false }%>
-  <% @arr2.push([pset.name, @ans_wrong.count]) %>
-<% end %>
-<div id="chart_div_2" style="width: 900px; height: 500px;"><%= render 'shared/google_visual_piechart', :array => @arr2, :div => "chart_div_2", :title => "Percentage of wrong answers to the chapter" %></div>
-<!-- chart end -->
-
-<!-- Student performance chart by each problem set correct percentage -->
-<% @arr3 = [['Chapters','Correct Percentage']]%>
-<% @student.problem_set_instances.each do |pset|%>
-  <% @answers = pset.answers.map(&:correct) %>
-  <% @ans_right = @answers.select{|v| v == true}.count %>
-  <% @ans_wrong = @answers.select{|v| v == true}.count %>
-  <% if (@ans_wrong + @ans_right) > 0 %>  
-    <% @arr3.push([pset.name, (@ans_right * 100) / (@ans_right + @ans_wrong)]) %>
-  <% end %>  
-<% end %>
-
-<%= render "shared/google_visual_barchart", :array => @arr3, :div => "chart_div_3", :title => "Student Performance", :vAxis_title => "Problem Types"  %>
-<div id="chart_div_3" style="width: 900px; height: 500px;"></div>
-<!-- Chart ends -->
-
-
-<% @arr4 = [['Weeks Ago','Questions Done']]%>
-<% i=51 %>
-<% while i >= 0 do %>
-  <% time_range = (date_of_last("Monday",(i+1).weeks.ago)..date_of_last("Monday",i.weeks.ago)) %>
-  <% @no_of_answers = @student.answers.where(:created_at => time_range) %>
-    <% @arr4.push([(i+1).to_s,@no_of_answers.count]) %>
-  <% i = i-1 %>
-<% end %> 
-<% id="chart_div_4" %>
-    <div id="chart_div_4" style="width: 900px; height: 500px;"><%= render 'shared/google_visual_linechart', :array => @arr4, :div => "chart_div_4", :title => "Student Performance" %></div>
-
-<!-- Percentage of correct answer by student -->
-<% @arr5 = [['Chapters','Questions Done']]%>
-<% time_range = (2.weeks.ago..Time.now) %>
-<% @student.problem_set_instances.each do |pset|%>
-  <% @ans = pset.answers.where(:created_at => time_range) %>
-  <% @arr5.push([pset.name, @ans.count]) %>
-<% end %>
-
-
-<div id="chart_div_5" style="width: 900px; height: 500px;"><%= render "shared/google_visual_piechart", :div => "chart_div_5", :array => @arr5, :title => "Percentage of correct answers by Students" %></div>
-<!-- chart end -->
-
-
-<div class="span4">
+<div class = "row-fluid">
+<%= link_to @student.name, student_path(@student.id) %>
+</div>
+<div class = "row-fluid">
+  <div class="span4">
     <div class="dotted-border-header">
         Chapters
     </div>
     <div class='dotted-border teacher-details-column'>
-        <ul class='column-list' id="chapter_tabs" style="width:100%; height:500px; overflow-x:hidden; overflow-y:scroll;">
+        <ul class='column-list' id="chapter_tabs" style="width:100%; height:500px;">
         <% @problem_sets.each do |pset| %>
             <li><%= link_to pset.name, chart_student_pset_path(@student.id,pset), :remote => :true %></li>
         <% end %>
         </ul>
     </div>
+  </div>
+
+  <!-- Percentage of correct answers by weekly -->
+  <div id="chart_div" style="width: 900px; height: 500px;"><%= render "shared/google_visual_linechart", :array => @arr, :div => "chart_div", :title => "Student Performance" %></div>
+  <!-- chart end -->
+
+  <!-- Percentage of wrong answers by Chapter -->
+  <div id="chart_div_2" style="width: 900px; height: 500px;"><%= render 'shared/google_visual_piechart', :array => @arr2, :div => "chart_div_2", :title => "Percentage of wrong answers to the chapter" %></div>
+  <!-- chart end -->
+
+  <!-- Student performance chart by each problem set correct percentage -->
+  <div id="chart_div_3" style="width: 900px; height: 500px;"><%= render "shared/google_visual_barchart", :array => @arr3, :div => "chart_div_3", :title => "Student Performance", :vAxis_title => "Problem Types" %></div>
+  <!-- Chart ends -->
+
+  <!-- Questions done in the particular week -->
+  <div id="chart_div_4" style="width: 900px; height: 500px;"><%= render 'shared/google_visual_linechart', :array => @arr4, :div => "chart_div_4", :title => "Student Performance" %></div>
+  <!-- Chart ends -->
+
+  <!-- Percentage of correct answer by student -->
+  <div id="chart_div_5" style="width: 900px; height: 500px;"><%= render "shared/google_visual_piechart", :div => "chart_div_5", :array => @arr5, :title => "Percentage of correct answers by Students" %></div>
+  <!-- chart end -->
 </div>
 
-<div class = "span12" id = "pset_chart">
- </div> 
+<div class = "span12" id = "pset_chart"></div> 

@@ -1,4 +1,4 @@
-<%= @student.name %>
+<%= link_to @student.name, student_path(@student.id) %>
 <%= link_to "Charts", chart_student_path %>
 <div id="problems_history" class="teacher-details-header" style="margin-bottom:5px;"></div>
 <div class="row">

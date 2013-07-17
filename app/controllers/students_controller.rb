@@ -70,11 +70,45 @@ class StudentsController < ApplicationController
 
     def chart
         @problem_sets = @student.problem_sets
-  #      @answers_correct = @student.answers.map(&:correct)
-  #      time_range = (10.weeks.ago..Time.now)
-  #      @b = @student.answers.where(:created_at => time_range).select{|v| v.correct == true }
+        # Percentage of correct answers by weekly
+        @arr1 = [['Weeks Ago','% correct']]
+        # Percentage of wrong answers by Chapter
+        @arr2 = [['Chapters','Wrong Answers']]
+        # Student performance chart by each problem set correct percentage 
+        @arr3 = [['Chapters','Correct Percentage']]
+        # Questions done in the particular week 
+        @arr4 = [['Weeks Ago','Questions Done']]
+        # Percentage of correct answer by student 
+        @arr5 = [['Chapters','Questions Done']]
+        i=51 
         
-  #      @b = @a.find(:@a => {:created_at => time_range})
+        while i >= 0 do 
+            time_range = ( date_of_last( "Monday", (i+1).weeks.ago )..date_of_last( "Monday", i.weeks.ago )) 
+            answers = @student.answers.where( "created_at BETWEEN ? and ?", time_range.first, time_range.last ).map(&:correct) 
+            ans_right = answers.select{ |v| v == true }.count 
+            ans_wrong = answers.select{ |v| v == false }.count 
+            total_answers = answers.count 
+            if total_answers == 0 
+                @arr1.push( [(i+1).to_s, 0] ) 
+            else 
+                @arr1.push( [(i+1).to_s, (ans_right*100) / (total_answers)]) 
+            end 
+                @arr4.push([(i+1).to_s, total_answers])    
+            i = i-1 
+        end  
+        
+        time_range_for_arr5 = (2.weeks.ago..Time.now) 
+        @student.problem_set_instances.each do |pset| 
+            answers = pset.answers.map(&:correct) 
+            ans_right = answers.select{|v| v == true}.count 
+            ans_wrong = answers.select{|v| v == true}.count 
+            ans = pset.answers.where("created_at BETWEEN ? and ?", time_range_for_arr5.first, time_range_for_arr5.last) 
+            @arr5.push([pset.name, ans.count]) 
+            if (ans_wrong + ans_right) > 0   
+                @arr3.push([pset.name, (ans_right * 100) / (ans_right + ans_wrong)]) 
+            end   
+            @arr2.push([pset.name, ans_wrong]) 
+        end 
     end   
     
     def problemset_chart
