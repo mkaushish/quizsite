@@ -1,6 +1,6 @@
 namespace :generate do
   task :answers => :environment do
-    users = [ "thomas.ramfjord@gmail.com", "madhav.kaushish@gmail.com" ]
+    users = [ "thomas.ramfjord@gmail.com", "madhav.kaushish@gmail.com", "amandeep.bhamra@gmail.com" ]
     users.map { |email| User.find_by_email(email) }.each do |user|
       user.problem_set_instances.each do |ch|
         ch::problem_types.each do |pr|

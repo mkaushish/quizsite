@@ -1,8 +1,10 @@
 class TeachersController < ApplicationController
     
+    before_filter :validate_teacher, :only => [:edit, :update]
+    before_filter :validate_teacher_via_current_user, :only => [:home, :student]
+
     def home
-        @teacher = current_user
-        @classrooms = current_user.classrooms.includes(:students).includes(:problem_sets)
+        @classrooms = @teacher.classrooms.includes(:students).includes(:problem_sets)
         @quiz_history = []
     end
 
@@ -22,8 +24,39 @@ class TeachersController < ApplicationController
         render :js => "window.location.href = '/'"
     end
 
+    def edit
+        respond_to do |format|
+            format.js
+        end
+    end
+
+    def update
+        @old_pass = params['teacher']['old_password']
+        @new_pass = params['teacher']['new_password']
+        @confirm_pass = params['teacher']['confirm_password']
+        @teacher.change_password(@old_pass, @new_pass, @confirm_pass)
+        sign_in @teacher
+        respond_to do |format|
+            if @teacher.update_attributes(params[:teacher])
+                format.html { redirect_to teacherhome_path, notice: 'Your Profile is successfully updated.' }
+            else
+                format.html { render action: "edit" }
+            end
+        end
+    end
+
     # GET /details/:classroom_id ... that should be changed if we make changing the class ajax
     # if you change classes the URL won't get changed currently
     def student
+    end
+
+    private
+
+    def validate_teacher
+        @teacher = Teacher.find_by_id(params[:id])
+    end
+
+    def validate_teacher_via_current_user
+        @teacher = current_user
     end
 end
