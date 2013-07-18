@@ -42,7 +42,7 @@
   put '/students/:id',                  :to => 'students#update', :as => :update_student
   get '/students/:id',                  :to => 'students#show', :as => :student
   get '/students/:id/chart',            :to => 'students#chart', :as => :chart_student
-  get '/students/:id/chart/pset/:pset',       :to => 'students#problemset_chart', :as => :chart_student_pset
+  get '/students/:id/chart/pset/:pset', :to => 'students#problemset_chart', :as => :chart_student_pset
 
   # student-problem_set_instances views
   get '/psets/:name',                   :to => 'problem_set_instances#show', :as => :pset
@@ -58,7 +58,6 @@
   get '/left_problem',                  :to => 'quiz_instances#previous_problem',   :as => :left_quiz_problem
   get '/quiz/:id/next_problem',         :to => 'quiz_instances#next_problem',   :as => :next_quiz_problem
   post '/quiz/finish_problem',          :to => 'quiz_instances#finish_problem', :as => :finish_quiz_problem
-
 
   # student-answers views
   get '/answers/:id/show',              to: 'answers#show', as: :show_answer
@@ -88,16 +87,17 @@
   post '/details_concept',              to: 'details#click_concept', as: :details_concept
 
   get '/new_quiz',                      to: 'quizzes#new', as: :new_quiz
-
   post '/quizzes/create',               to: 'quizzes#create', as: :create_quiz
   post '/partial_create/:quiz',         to: 'quizzes#partial_create', as: :partial_create_quiz
-  
   get '/quiz_for_all_classes/:quiz',    to: 'quizzes#assign_quiz_to_classrooms', as: :assign_quiz_to_classrooms
     
   # post ':classroom/assign_quiz/:id',  to: 'quizzes#assign', as: :assign_quiz
   get '/:classroom/:pset/show',         to: 'quizzes#show', as: :quiz
   post '/:classroom/:quiz/assign'
 
+  # classroom
+  get 'teacher/:id/classroom/new',      to: 'classrooms#new', as: :new_classroom
+  post 'teacher/:id/classrooms',        to: 'classrooms#create', as: :create_classroom
   # :id => classroom id
   get  ':id/show_psets/',               to: 'classrooms#show_psets', as: :show_psets
   get  ':id/show_quizzes/',             to: 'classrooms#show_quizzes', as: :show_quizzes
@@ -136,59 +136,4 @@
   # match '/nologinhome_3dbfabcacc12868a282be76f5d59a19813', :to => 'pages#nologinhome'
   root                  :to => 'pages#home'
 
-  # The priority is based upon order of creation:
-  # first created -> highest priority.
-
-  # Sample of regular route:
-  #   match 'products/:id' => 'catalog#view'
-  # Keep in mind you can assign values other than :controller and :action
-
-  # Sample of named route:
-  #   match 'products/:id/purchase' => 'catalog#purchase', :as => :purchase
-  # This route can be invoked with purchase_url(:id => product.id)
-
-  # Sample resource route (maps HTTP verbs to controller actions automatically):
-  #   resources :products
-
-  # Sample resource route with options:
-  #   resources :products do
-  #     member do
-  #       get 'short'
-  #       post 'toggle'
-  #     end
-  #
-  #     collection do
-  #       get 'sold'
-  #     end
-  #   end
-
-  # Sample resource route with sub-resources:
-  #   resources :products do
-  #     resources :comments, :sales
-  #     resource :seller
-  #   end
-
-  # Sample resource route with more complex sub-resources
-  #   resources :products do
-  #     resources :comments
-  #     resources :sales do
-  #       get 'recent', :on => :collection
-  #     end
-  #   end
-
-  # Sample resource route within a namespace:
-  #   namespace :admin do
-  #     # Directs /admin/products/* to Admin::ProductsController
-  #     # (app/controllers/admin/products_controller.rb)
-  #     resources :products
-  #   end
-
-  # You can have the root of your site routed with "root"
-  # just remember to delete public/index.html.
-
-  # See how all your routes lay out with "rake routes"
-
-  # This is a legacy wild controller route that's not recommended for RESTful applications.
-  # Note: This route will make all actions in every controller accessible via GET requests.
-  # match ':controller(/:action(/:id(.:format)))'
 end
