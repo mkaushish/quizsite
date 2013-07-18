@@ -397,9 +397,9 @@ function createshape1(a,par1,par2,par3,par4,par5,unit)
  		ctx.textAlign="center"; 
 		// ctx.fillText("side length = "+length+""+unit,150, 280);
 		ctx.fillText("Regular Polygon", 150,canvasy-5);
-	}
-	else
-	{
+		}
+		else
+		{
 		for (var i = 0; i <numsides; i++) 
 		{
 			regularpoly_x[i]=(radius*Math.cos(2*Math.PI*i/numsides));
@@ -414,8 +414,266 @@ function createshape1(a,par1,par2,par3,par4,par5,unit)
  		ctx.textAlign="center"; 
 		ctx.fillText("side length = "+length+""+unit,150,canvasy-20);
 		ctx.fillText("Regular Polygon", 150,canvasy-5);
+		}
 	}
-		
+	else if(a=='cube')
+	{
+		var x = par1*10;
+		var y = par2*10;
+		var l = par3*10;
+		var unit = unit;
+		if (par4==0)
+		{
+		var angle = Math.PI/6;
+  		var b = l*Math.sin(angle)*Math.sin(Math.PI/4);
+  		var a = l*Math.cos(angle)*Math.sin(Math.PI/4);
+  		ctx.beginPath();
+  		ctx.moveTo(x,y);
+  		ctx.lineTo(x,y+l);
+  		ctx.lineTo(x+l,y+l);
+  		ctx.lineTo(x+l,y);
+  		ctx.lineTo(x,y);
+  		ctx.lineTo(x+a,y-b);
+  		ctx.lineTo(x+a+l,y-b);
+  		ctx.lineTo(x+l,y);
+  		ctx.moveTo(x+l,y+l);
+  		ctx.lineTo(x+a+l,y+l-b);
+  		ctx.lineTo(x+a+l,y-b);
+  		ctx.stroke();
+  		}
+  		else
+  		{
+			var angle = Math.PI/6;
+  			var b = l*Math.sin(angle)*Math.sin(Math.PI/4);
+  			var a = l*Math.cos(angle)*Math.sin(Math.PI/4);
+  			ctx.beginPath();
+  			ctx.moveTo(x,y);
+  			ctx.lineTo(x,y+l);
+  			ctx.lineTo(x+l,y+l);
+  			ctx.lineTo(x+l,y);
+  			ctx.lineTo(x,y);
+  			ctx.lineTo(x+a,y-b);
+  			ctx.lineTo(x+a+l,y-b);
+  			ctx.lineTo(x+l,y);
+  			ctx.moveTo(x+l,y+l);
+  			ctx.lineTo(x+a+l,y+l-b);
+  			ctx.lineTo(x+a+l,y-b);
+  			ctx.stroke();
+  			ctx.font = " 14px Arial";
+ 			ctx.textAlign="center"; 
+			ctx.fillText("length = "+l/10+""+unit,x+l/2,y);
+  		}
+	}
+	else if(a=='cuboid_1')
+	{
+		var x = par1*10;
+		var y = par2*10;
+		var l = par3*10;
+		var br = par4*10;
+		var h = par5*10;
+		var angle = Math.PI/6;
+  		var b = br*Math.sin(angle)*Math.sin(Math.PI/4);
+  		var a = br*Math.cos(angle)*Math.sin(Math.PI/4);
+  		ctx.beginPath();
+  		ctx.moveTo(x,y);
+  		ctx.lineTo(x,y+h);
+  		ctx.lineTo(x+l,y+h);
+  		ctx.lineTo(x+l,y);
+  		ctx.lineTo(x,y);
+  		ctx.lineTo(x+a,y-b);
+  		ctx.lineTo(x+a+l,y-b);
+  		ctx.lineTo(x+l,y);
+  		ctx.moveTo(x+l,y+h);
+  		ctx.lineTo(x+a+l,y+h-b);
+  		ctx.lineTo(x+a+l,y-b);
+  		ctx.stroke();
+	}
+	else if(a=='cuboid_2')
+	{
+		var x = par1*10;
+		var y = par2*10;
+		var l = par3*10;
+		var br = par4*10;
+		var h = par5*10;
+		var unit = unit;
+		var angle = Math.PI/6;
+  		var b = br*Math.sin(angle)*Math.sin(Math.PI/4);
+  		var a = br*Math.cos(angle)*Math.sin(Math.PI/4);
+  		ctx.beginPath();
+  		ctx.moveTo(x,y);
+  		ctx.lineTo(x,y+h);
+  		ctx.lineTo(x+l,y+h);
+  		ctx.lineTo(x+l,y);
+  		ctx.lineTo(x,y);
+  		ctx.lineTo(x+a,y-b);
+  		ctx.lineTo(x+a+l,y-b);
+  		ctx.lineTo(x+l,y);
+  		ctx.moveTo(x+l,y+h);
+  		ctx.lineTo(x+a+l,y+h-b);
+  		ctx.lineTo(x+a+l,y-b);
+  		ctx.stroke();
+  		ctx.font = " 14px Arial";
+ 		ctx.textAlign="center"; 
+		ctx.fillText("length="+l/10+""+unit,x+l/2,y);
+		ctx.fillText("height="+h/10+""+unit,x+l,y+h/2);
+		ctx.fillText("breadth="+br/10+""+unit,x+l+a,y-b/2);
+
+	}
+	else if(a=='cylinder')
+	{
+		var x = par1*10;
+		var y = par2*10;
+		var w = par3*5;
+		var h = par4*5;
+		var unit= unit;
+		if(par5==0)
+		{
+		ctx.beginPath(); //to draw the top circle
+  		for (var i = 0 * Math.PI; i < 2 * Math.PI; i += 0.001) 
+  		{
+   			xPos = (x + w / 2) - (w / 2 * Math.sin(i)) * Math.sin(0 * Math.PI) + (w / 2 * Math.cos(i)) * Math.cos(0 * Math.PI);
+			yPos = (y + h / 8) + (h / 8 * Math.cos(i)) * Math.sin(0 * Math.PI) + (h / 8 * Math.sin(i)) * Math.cos(0 * Math.PI);
+
+    		if (i == 0) 
+    		{
+      			ctx.moveTo(xPos, yPos);
+      		} 
+    		else
+    		{
+      			ctx.lineTo(xPos, yPos);
+    		}
+  		}
+
+  		ctx.moveTo(x, y + h / 8);
+  		ctx.lineTo(x, y + h - h / 8);
+
+  		for (var i = 0 * Math.PI; i < Math.PI; i += 0.001) 
+  		{
+    		xPos = (x + w / 2) - (w / 2 * Math.sin(i)) * Math.sin(0 * Math.PI) + (w / 2 * Math.cos(i)) * Math.cos(0 * Math.PI);
+    		yPos = (y + h - h / 8) + (h / 8 * Math.cos(i)) * Math.sin(0 * Math.PI) + (h / 8 * Math.sin(i)) * Math.cos(0 * Math.PI);
+
+    		if (i == 0) 
+    		{
+      			ctx.moveTo(xPos, yPos);
+      		} 
+    		else 
+    		{
+      			ctx.lineTo(xPos, yPos);
+    		}
+  		}
+  		ctx.moveTo(x + w, y + h / 8);
+  		ctx.lineTo(x + w, y + h - h / 8);            
+  		ctx.stroke();
+  		}
+  		else
+  		{
+			ctx.beginPath(); //to draw the top circle
+  			for (var i = 0 * Math.PI; i < 2 * Math.PI; i += 0.001) 
+  			{
+   				xPos = (x + w / 2) - (w / 2 * Math.sin(i)) * Math.sin(0 * Math.PI) + (w / 2 * Math.cos(i)) * Math.cos(0 * Math.PI);
+				yPos = (y + h / 8) + (h / 8 * Math.cos(i)) * Math.sin(0 * Math.PI) + (h / 8 * Math.sin(i)) * Math.cos(0 * Math.PI);
+
+    			if (i == 0) 
+    			{
+      				ctx.moveTo(xPos, yPos);
+      			} 
+    			else
+    			{	
+      				ctx.lineTo(xPos, yPos);
+    			}
+  			}
+
+  			ctx.moveTo(x, y + h / 8);
+  			ctx.lineTo(x, y + h - h / 8);
+  			ctx.moveTo(x +w/2 , y + h / 8);
+  			ctx.lineTo(x+w, y + h / 8);
+
+
+  			for (var i = 0 * Math.PI; i < Math.PI; i += 0.001) 
+  			{
+    			xPos = (x + w / 2) - (w / 2 * Math.sin(i)) * Math.sin(0 * Math.PI) + (w / 2 * Math.cos(i)) * Math.cos(0 * Math.PI);
+    			yPos = (y + h - h / 8) + (h / 8 * Math.cos(i)) * Math.sin(0 * Math.PI) + (h / 8 * Math.sin(i)) * Math.cos(0 * Math.PI);
+
+    			if (i == 0) 
+    			{
+      				ctx.moveTo(xPos, yPos);
+      			} 
+    			else 
+    			{
+      				ctx.lineTo(xPos, yPos);
+    			}
+  			}
+  			ctx.moveTo(x + w, y + h / 8);
+  			ctx.lineTo(x + w, y + h - h / 8);            
+  			ctx.stroke();
+  			ctx.fillStyle = "blue";
+  			ctx.font = " 14px Arial";
+ 			ctx.textAlign="center"; 
+			ctx.fillText("radius="+w/5+""+unit,x+3*w/4,y+h/8-3);
+			ctx.fillText("height="+h/5+""+unit,x+w,y+h/2);
+  		}
+	}
+	else if (a=='cone')
+	{
+		var x = par1*10;
+		var y = par2*10;
+		var w = par3*10;
+		var h = par4*10;
+		var unit= unit;
+		if (par5==0)
+		{
+			ctx.beginPath(); //to draw the top circle
+  			for (var i = 0 * Math.PI; i < 2 * Math.PI; i += 0.001) 
+  			{
+				xPos = (x + w / 2) - (w / 2 * Math.sin(i)) * Math.sin(0 * Math.PI) + (w / 2 * Math.cos(i)) * Math.cos(0 * Math.PI);
+				yPos = (y + h / 8) + (h / 8 * Math.cos(i)) * Math.sin(0 * Math.PI) + (h / 8 * Math.sin(i)) * Math.cos(0 * Math.PI);
+
+    			if (i == 0) 
+    			{
+      				ctx.moveTo(xPos, yPos);
+      			} 
+    			else
+    			{
+      				ctx.lineTo(xPos, yPos);
+    			}
+  			}
+  			ctx.moveTo(x, y + h / 8);
+  			ctx.lineTo(x+w/2, y - h + h / 8);
+  			ctx.lineTo(x+w, y + h / 8);    
+  			ctx.stroke();
+  		}
+  		else
+  		{
+			ctx.beginPath(); //to draw the top circle
+  			for (var i = 0 * Math.PI; i < 2 * Math.PI; i += 0.001) 
+  			{
+				xPos = (x + w / 2) - (w / 2 * Math.sin(i)) * Math.sin(0 * Math.PI) + (w / 2 * Math.cos(i)) * Math.cos(0 * Math.PI);
+				yPos = (y + h / 8) + (h / 8 * Math.cos(i)) * Math.sin(0 * Math.PI) + (h / 8 * Math.sin(i)) * Math.cos(0 * Math.PI);
+
+    			if (i == 0) 
+    			{
+      				ctx.moveTo(xPos, yPos);
+      			} 
+    			else
+    			{
+      				ctx.lineTo(xPos, yPos);
+    			}
+  			}
+  			ctx.moveTo(x, y + h / 8);
+  			ctx.lineTo(x+w/2, y - h + h / 8);
+  			ctx.lineTo(x+w, y + h / 8);
+  			ctx.moveTo(x +w/2 , y + h / 8);
+  			ctx.lineTo(x+w, y + h / 8);
+  			ctx.moveTo(x +w/2 , y + h / 8);
+  			ctx.lineTo(x+w/2, y - h + h / 8);   
+  			ctx.stroke();
+  			ctx.fillStyle = "blue";
+  			ctx.font = " 14px Arial";
+ 			ctx.textAlign="center"; 
+			ctx.fillText("radius="+w/10+""+unit,x+3*w/4,y+h/8-3);
+			ctx.fillText("height="+h/10+""+unit,x+w/2,y-h/2);
+  		}
+
 	}
 	else
 	{

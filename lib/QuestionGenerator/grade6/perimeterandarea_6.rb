@@ -400,37 +400,37 @@ module PerimeterandArea_6
     if @choose==1
       [
         TextLabel.new("Find the perimeter of the given figure"),
-        DrawShape3.new(@figure1,'cm',20,50,1),
+        DrawShape3.new(@figure1,'cm',20,50,1,500,500,1,1),
         InlineBlock.new(TextField.new("ans"),TextLabel.new("cm"))
       ] 
     elsif @choose==2
       [
         TextLabel.new("Find the perimeter of the given figure"),
-        DrawShape3.new(@figure2,'cm',20,50,1),
+        DrawShape3.new(@figure2,'cm',20,50,1,500,500,1,1),
         InlineBlock.new(TextField.new("ans"),TextLabel.new("cm"))
       ]
     elsif @choose==3
       [
         TextLabel.new("Find the perimeter of the given figure"),
-        DrawShape3.new(@figure3,'cm',20,50,1),
+        DrawShape3.new(@figure3,'cm',20,50,1,500,500,1,1),
         InlineBlock.new(TextField.new("ans"),TextLabel.new("cm"))
       ]
     elsif @choose==4
       [
         TextLabel.new("Find the perimeter of the given figure"),
-        DrawShape3.new(@figure4,'cm',20,100,1),
+        DrawShape3.new(@figure4,'cm',20,100,1,500,500,1,1),
         InlineBlock.new(TextField.new("ans"),TextLabel.new("cm"))
       ]
     elsif @choose==5
       [
         TextLabel.new("Find the perimeter of the given figure"),
-        DrawShape3.new(@figure5,'cm',20,50,1),
+        DrawShape3.new(@figure5,'cm',20,50,1,500,500,1,1),
         InlineBlock.new(TextField.new("ans"),TextLabel.new("cm"))
       ]
     else
       [
         TextLabel.new("Find the perimeter of the given figure"),
-        DrawShape3.new(@figure6,'cm',20,50,1),
+        DrawShape3.new(@figure6,'cm',20,50,1,500,500,1,1),
         InlineBlock.new(TextField.new("ans"),TextLabel.new("cm"))
       ]  
     end
@@ -588,19 +588,19 @@ module PerimeterandArea_6
     if @choose==4
       [
         TextLabel.new("By splitting the figure into rectangles, find its area."),
-        DrawShape3.new(@figure4,'cm',20,100,1),
+        DrawShape3.new(@figure4,'cm',20,100,1,500,500,1,1),
         InlineBlock.new(TextField.new("ans"),Exponent.new(TextLabel.new("cm"),TextLabel.new("2")))
       ]
     elsif @choose==5
       [
         TextLabel.new("By splitting the figure into rectangles, find its area."),
-        DrawShape3.new(@figure5,'cm',20,50,1),
+        DrawShape3.new(@figure5,'cm',20,50,1,500,500,1,1),
         InlineBlock.new(TextField.new("ans"),Exponent.new(TextLabel.new("cm"),TextLabel.new("2")))
       ]
     else
       [
         TextLabel.new("By splitting the figure into rectangles, find its area."),
-        DrawShape3.new(@figure6,'cm',20,50,1),
+        DrawShape3.new(@figure6,'cm',20,50,1,500,500,1,1),
         InlineBlock.new(TextField.new("ans"),Exponent.new(TextLabel.new("cm"),TextLabel.new("2")))
       ]  
     end
@@ -692,7 +692,7 @@ module PerimeterandArea_6
        while (@g%2==1) do
       @g = rand(2)+3
       end
-      # @choose=4
+      # @choose=1
       @choose=rand(3)+1
 
       @figure4=[]
@@ -827,28 +827,28 @@ module PerimeterandArea_6
       if @choose==1
       [
         TextLabel.new("In the graph paper every square measures 1 cm * 1 cm.Find the area of the figure below"),
-        DrawShape.new("ans",'rectangle3',20,20,0,0,500,500,0,2,500,500,1,1),
+        DrawShape5.new('rectangle3',20,20,0,0,500,500,0,2,500,500,1,1,0),
         DrawShape2.new('rectangle',@i,@j,4,0,4,'cm',500,500,1,0),
         InlineBlock.new(TextField.new("ans"),Exponent.new(TextLabel.new("cm"),TextLabel.new("2")))
        ]
       elsif @choose==2
        [
         TextLabel.new("In the graph paper every square measures 1 cm * 1 cm.Find the area of the figure below"),
-        DrawShape.new("ans",'rectangle3',20,20,0,0,500,500,0,2,500,500,1,1),
+        DrawShape5.new('rectangle3',20,20,0,0,500,500,0,2,500,500,1,1,0),
         DrawShape3.new(@figure4,'cm',60,180,0,500,500,1,0),
         InlineBlock.new(TextField.new("ans"),Exponent.new(TextLabel.new("cm"),TextLabel.new("2")))
        ]
      elsif @choose==3
        [
         TextLabel.new("In the graph paper every square measures 1 cm * 1 cm.Find the area of the figure below"),
-        DrawShape.new("ans",'rectangle3',20,20,0,0,500,500,0,2,500,500,1,1),
+        DrawShape5.new('rectangle3',20,20,0,0,500,500,0,2,500,500,1,1,0),
         DrawShape3.new(@figure5,'cm',60,180,0,500,500,1,0),
         InlineBlock.new(TextField.new("ans"),Exponent.new(TextLabel.new("cm"),TextLabel.new("2")))
        ]
       else
         [
         TextLabel.new("In the graph paper every square measures 1 cm * 1 cm.Find the area of the figure below"),
-        DrawShape.new("ans",'rectangle3',20,20,0,0,500,500,0,2,500,500,1,1),
+        DrawShape5.new('rectangle3',20,20,0,0,500,500,0,2,500,500,1,1,0),
         DrawShape3.new(@figure6,'cm',60,180,0,500,500,1,0),
         InlineBlock.new(TextField.new("ans"),Exponent.new(TextLabel.new("cm"),TextLabel.new("2")))
        ]

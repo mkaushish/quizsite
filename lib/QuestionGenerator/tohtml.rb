@@ -622,8 +622,8 @@ module ToHTML
   end
 
   class DrawShape < MultiHTMLObj
-    attr_accessor :name,:shape, :len, :bre, :startx,:starty, :length, :breadth, :update, :choice,:canvaswidth, :canvasheight, :numtimes, :check
-    def initialize(name, shape, len, bre, startx, starty, length, breadth, update, choice, canvaswidth, canvasheight, numtimes, check)
+    attr_accessor :name,:shape, :len, :bre, :startx,:starty, :length, :breadth, :choose
+    def initialize(name, shape, len, bre, startx, starty, length, breadth, choose)
       @name=ToHTML::add_prefix name
       @len=len
       @bre=bre
@@ -632,12 +632,7 @@ module ToHTML
       @startx=startx
       @starty=starty
       @shape=shape
-      @update=update
-      @choice=choice
-      @numtimes = numtimes
-      @check=check
-       @canvaswidth = canvaswidth
-      @canvasheight = canvasheight
+      @choose=choose
     end
     def correct?(solution, response)
       if @shape=='circle'
@@ -656,6 +651,29 @@ module ToHTML
         return false unless solution[curn]==response[curn]
       end
       return true
+    end
+  end
+
+  class DrawShape5 < MultiHTMLObj
+    attr_accessor :shape, :len, :bre, :startx,:starty, :length, :breadth, :update, :choice,:canvaswidth, :canvasheight, :numtimes, :check, :choose
+    def initialize(shape, len, bre, startx, starty, length, breadth, update, choice, canvaswidth, canvasheight, numtimes, check, choose)
+      @len=len
+      @bre=bre
+      @length=length
+      @breadth=breadth
+      @startx=startx
+      @starty=starty
+      @shape=shape
+      @update=update
+      @choice=choice
+      @numtimes = numtimes
+      @check=check
+       @canvaswidth = canvaswidth
+      @canvasheight = canvasheight
+      @choose=choose
+    end
+    def correct?(solution, response)
+      true
     end
   end
 
@@ -722,6 +740,98 @@ module ToHTML
       @check=check
     end
 
+    def correct?(solution, response)
+      true
+    end
+  end
+
+  class Pictogram1 < MultiHTMLObj
+    attr_accessor  :name, :startx, :starty, :width, :height, :distance, :canvaswidth, :canvasheight, :numtimes, :check
+    def initialize(name,startx,starty,width,height,distance,canvaswidth, canvasheight, numtimes, check)
+      @name=ToHTML::add_prefix name
+      @startx=startx
+      @starty=starty
+      @width=width
+      @height=height
+      @distance=distance
+      @canvaswidth = canvaswidth
+      @canvasheight = canvasheight
+      @numtimes = numtimes
+      @check=check
+    end
+    def correct?(solution, response)
+      curn1=@name+"_0"
+      curn2=@name+"_1"
+      if (solution[curn1]==response[curn1])and((solution[curn2])==(response[curn2]))
+        return true
+      else
+        return false
+      end
+    end
+  end
+  class Pictogram3 < MultiHTMLObj
+    attr_accessor  :name, :arr, :number, :startx, :starty, :width, :height, :distance, :canvaswidth, :canvasheight, :numtimes, :check
+    def initialize(name,arr,number,startx,starty,width,height,distance,canvaswidth, canvasheight, numtimes, check)
+      @name=ToHTML::add_prefix name
+      # @arr = Array.new(number) 
+      @arr=arr
+      @number=number
+      @startx=startx
+      @starty=starty
+      @width=width
+      @height=height
+      @distance=distance
+      @canvaswidth = canvaswidth
+      @canvasheight = canvasheight
+      @numtimes = numtimes
+      @check=check
+    end
+    def correct?(solution, response)
+      @number.times do |i|
+        curn=@name+"_#{i-1}"
+        return false unless solution[curn]==response[curn]
+      end
+      return true
+    end
+  end
+
+  class Pictogram4 < MultiHTMLObj
+    attr_accessor   :arr, :number,:numfull, :numhalf, :startx, :starty, :width, :height, :distance, :canvaswidth, :canvasheight, :numtimes, :check
+    def initialize(arr,number,numfull, numhalf,startx,starty,width,height,distance,canvaswidth, canvasheight, numtimes, check)
+      @numfull=numfull
+      @numhalf=numhalf 
+      @arr=arr
+      @number=number
+      @startx=startx
+      @starty=starty
+      @width=width
+      @height=height
+      @distance=distance
+      @canvaswidth = canvaswidth
+      @canvasheight = canvasheight
+      @numtimes = numtimes
+      @check=check
+    end
+    def correct?(solution, response)
+      true
+    end
+  end
+
+  class Pictogram2 < MultiHTMLObj
+    attr_accessor  :numfull, :numhalf, :startx, :starty, :width, :height, :distance, :canvaswidth, :canvasheight, :numtimes, :check
+    def initialize(numfull, numhalf, startx, starty, width, height, distance, canvaswidth, canvasheight, numtimes, check)
+      @numfull=numfull
+      @numhalf=numhalf 
+      @startx=startx
+      @starty=starty
+      @width=width
+      @height=height
+      @distance=distance
+      @canvaswidth = canvaswidth
+      @canvasheight = canvasheight
+      @numtimes = numtimes
+      @check=check
+    end
     def correct?(solution, response)
       true
     end

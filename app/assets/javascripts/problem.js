@@ -29,8 +29,6 @@ function initProblemOverlay() {
   }
   $("body").css("overflow", "hidden");
 
-
-
   var dimmer = $('#dimmer');
   if(dimmer.length == 0) {
     $('body').prepend("<div id=dimmer></div>");

@@ -1,0 +1,14 @@
+<script type="text/javascript">
+    google.load("visualization", "1", {packages:["corechart"]});
+    google.setOnLoadCallback(drawChart);
+    drawChart();
+    function drawChart() {
+        var data = google.visualization.arrayToDataTable(<%= raw array %>);
+        var options = {
+                        title: "<%= title %>",
+                        vAxis: {title: "<%= vAxis_title %>",  titleTextStyle: {color: 'red'}}
+                        };
+        var chart = new google.visualization.BarChart(document.getElementById("<%= div %>"));
+        chart.draw(data, options);
+    }
+</script>

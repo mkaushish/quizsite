@@ -1,6 +1,6 @@
 class ClassroomsController < ApplicationController
   before_filter :teacher?, :except => [:show]
-
+  before_filter :validate_teacher, :only => [:new, :create]
   def show_psets
     @classroom = Classroom.find(params[:id])
     @sg_psets = ProblemSet.master_sets
@@ -37,10 +37,21 @@ class ClassroomsController < ApplicationController
   end
 
   def new
-    @classroom = current_user.classrooms.new
+    @classroom = @teacher.classrooms.build
+    respond_to do |format|
+      format.js
+    end
   end
 
   def create
+    @classroom = @teacher.classrooms.build(params[:classroom])
+    respond_to do |format|
+      if @classroom.save
+        format.html { redirect_to teacherhome_path, notice: 'Classroom was successfully created.' }
+      else
+        format.html { render action: "new" }
+      end
+    end
   end
 
   def edit
@@ -50,5 +61,9 @@ class ClassroomsController < ApplicationController
   
   def teacher?
     deny_access unless current_user.is_a?(Teacher)
+  end
+
+  def validate_teacher
+    @teacher = Teacher.find_by_id(params[:id])
   end
 end

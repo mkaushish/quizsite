@@ -1,7 +1,7 @@
 <div class="student-info">
   <ul class="breadcrumb stinfo">
     <li>
-    	<h4><%= link_to teacher.name, "#", :remote => true %></h4>
+    	<h4><%= link_to teacher.name, edit_teacher_path(@teacher), remote: :true %></h4>
     </li>
   </ul>
 </div>

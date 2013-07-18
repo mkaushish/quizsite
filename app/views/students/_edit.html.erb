@@ -62,8 +62,10 @@
 
 <script>
 function do_stuff(value) {
-  var image = value;
-  $(this).css("border","1px solid black");
+  var image = value; 
+  $(this).click(function(){
+    $(this).css("border","1px solid black");   
+  });
   $("#student_image").val(image);
 }
 

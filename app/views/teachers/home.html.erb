@@ -7,7 +7,8 @@
 		<ul>
       <li><%= link_to "Assign Quiz to all", new_quiz_path(type: "all_classes") %></li>
 		  <li><%= link_to "Assign Quiz with All Problem Types", new_quiz_path(type: "all_classes_and_all_problem_types") %></li>
-  </ul>
+      <li><%= link_to "Create Classroom", new_classroom_path(@teacher), remote: :true %></li>
+    </ul>
 	</div>
 </div>
 <% @classrooms.each do |classroom| %>

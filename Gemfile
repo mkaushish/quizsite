@@ -4,7 +4,7 @@ gem 'rails', '3.2.11'
 
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
-gem 'therubyracer'
+gem 'therubyracer', :platform => :ruby
 gem 'omniauth-oauth2'
 gem 'omniauth-google-oauth2'
 # gems in just test and dev environments
@@ -68,4 +68,3 @@ group :test do
   gem 'turn', :require => false
   gem 'factory_girl_rails', '~> 4.0'
 end
-

@@ -26,6 +26,7 @@ require_relative 'grade6/linear'
 require_relative 'grade6/algebra'
 require_relative 'grade6/perimeterandarea'
 require_relative 'grade6/perimeterandarea_6'
+require_relative 'grade6/mensuration_8'
 require_relative 'grade6/rationalnumbers'
 require_relative 'grade6/algebra_6'
 require_relative 'grade6/comparingQuantities'
@@ -57,6 +58,7 @@ CHAPTERS = [
   RationalNumbers,
   PerimeterandArea,
   PerimeterandArea_6,
+  Mensuration_8,
   ComparingQuantities
 
 

@@ -41,8 +41,21 @@ module PerimeterandArea
       # @original2[12]= 5;
       # @original2[13]=3;
       # @original2[14]=17;
+      @a=[]
+      @a[0]=1
+      @a[1]=2
+      @a[2]=2
+      @b=[]
+      @b[0]=3
+      @b[1]=2
+      @b[2]=3
       @PI= Math.acos(-1)
       @angle = @PI/2.0
+      @mycars = []
+      @mycars[0] = "Audi"
+      @mycars[1] = "Merc"
+      @mycars[2] = "BMW"
+
     end
     def solve
       {"ans" => @a}
@@ -52,7 +65,12 @@ module PerimeterandArea
       [
         # TextLabel.new("Translate the given table into a bar graph taking the scale as 5 students per unit of length"), 
          # DrawShape2.new('arc_2',100,100,15,0,@angle,300,300,1,1),
-        DrawShape4.new('arc_4',50,20,20,500,0.25*@PI,0.5*@PI,'a','b','c',700,500,1,1)
+        # DrawShape4.new('arc_4',50,20,20,500,0.25*@PI,0.5*@PI,'a','b','c',700,500,1,1)
+        # Pictogram3.new("ans",@mycars,3,10,10,50,50,10,400,100,1,1)
+        # Pictogram1.new("ans",10,10,100,100,10,500,500,1,1)
+
+        # Pictogram2.new(6,7,10,10,100,100,10,500,500,1,1)
+         Pictogram4.new(@mycars,3,@a,@b,10,10,50,50,10,400,100,1,1)
 
          # DrawShape3.new(@original2,'cm',50,50,0)
        ]

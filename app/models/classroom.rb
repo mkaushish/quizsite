@@ -1,7 +1,7 @@
 require 'digest'
 
 class Classroom < ActiveRecord::Base
-    attr_accessible :name
+    attr_accessible :name, :password
     
     belongs_to :teacher, class_name: "User"
     
@@ -78,7 +78,7 @@ class Classroom < ActiveRecord::Base
 
     def new_password
         begin
-            self.password = rand_password
+            self.password = rand_password if self.password.nil?
         end while !save
         password
     end
