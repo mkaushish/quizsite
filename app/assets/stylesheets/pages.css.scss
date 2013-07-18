@@ -4,7 +4,27 @@
 @import 'mixins_n_colors';
 
 
-
+.home_img {
+  border-color:black;
+  height:50px;
+  /*border-style:solid;
+  border-width:1px;
+  border-radius:50%;*/
+  padding-bottom: 5px;
+  padding-left: 3px;
+  padding-right: 3px;
+  margin-right:10px;
+  margin-left:10px;
+}
+.home_img_op{
+  opacity: 0.3;
+}
+.member_t{
+  border-radius:50%;
+}
+#social{
+  margin-top:125px;
+}
 .user_test {
   display:inline-block;
   float:left;
@@ -464,7 +484,7 @@ margin-top:20px;
 
 #home, #work, #about, #contact, #how_it_helps, #how_it_works{
   position:relative;
-  margin-bottom:500px;
+  margin-bottom:250px;
   width:100%;
   padding-top:15px;
   text-align: center;
@@ -481,9 +501,8 @@ margin-top:20px;
   
 }
 .intro-text{
-  font-family:"Lane_Narrow", Arial, Helvetica, sans-serif;
-  text-transform: uppercase;
-  
+  font-family:"Chalk2", Arial, Helvetica, sans-serif;
+  font-size:30px;
 }
 
 #main-content{
@@ -563,7 +582,7 @@ margin-top:20px;
 
 #steps{
   padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 60px;
   border-bottom: 1px solid #CCC;  
 }
 
@@ -577,7 +596,7 @@ footer {
       position: fixed;
     left: 0;
     bottom: 0;
-    height: 50px;
+    height: 80px;
     width: 100%;
     background-color: #fff;
     color: #222;

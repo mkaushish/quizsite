@@ -78,6 +78,18 @@ a {
 box-shadow: inner 0 0 40px #888888;
 color:white;
 }
+#beta_test{
+  position:absolute;
+  left:76%;
+  top:-13px;
+  padding-left:20px;
+  padding-right:20px;
+  color:white;
+  background-color:black;
+  transform:rotate(45deg);
+-ms-transform:rotate(45deg); /* IE 9 */
+-webkit-transform:rotate(45deg); /* Safari and Chrome */
+}
 .sign_up_home{
   float:left;
     padding-top: 20px;

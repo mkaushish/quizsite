@@ -1,17 +1,17 @@
 <div class="page_header_home">
-    <h1 class="intro-text">
+    <div class="intro-text">
         How 
-        <span class="blue_text">Smarter</span>
-        <span class="green_text">Grades</span>
+        <div class="logo_blue">Smarter</div>
+        <div class="logo_green">Grades</div>
         Works
-    </h1>
+    </div>
 </div>
 
 <!-- <a class="how_work">How Does it Work?</a> -->
 <ul class="nav nav-tabs" id="myTab" style="margin-top: 18px; padding-left: 180px;">
-    <li class="active"><a href="#student_works">STUDENT</a></li>
-    <li><a href="#teacher_works">TEACHER</a></li>
-    <li><a href="#coach_works">COACH</a></li>
+    <li class="active"><a href="#student_works">STUDENTS</a></li>
+    <li><a href="#teacher_works">TEACHERS</a></li>
+    <li><a href="#coach_works">COACHES</a></li>
 </ul>
 
 <div class="tab-content">
@@ -19,8 +19,10 @@
         <div id="steps">
             <span class="step">1</span>
             <h2><span class="blue_text">SIGN UP</span></h2>
-            <p>Quickly signup on SmarterGrades through a simple from, pay the amount via Google Wallet and get access to the world of subject questions with explanations.</p>
-            <%= image_tag "signup_form.png", :size => "300x300", :style =>"border: 1px solid #ccc" %>
+            <%= link_to "SIGN UP", "#register", "data-toggle" => "modal", :class => "sign_up_home", :style => "float:none"%>
+            <!--<p>Quickly signup on SmarterGrades through a simple from, pay the amount via Google Wallet and get access to the world of subject questions with explanations.</p>
+
+            <%= image_tag "signup_form.png", :size => "300x300", :style =>"border: 1px solid #ccc" %>-->
         </div>
         <div id="steps">
             <span class="step">2</span>
@@ -67,11 +69,11 @@
             <h2><span class="blue_text">CREATE CLASSROOMS</span></h2>
             <p>Create Classrooms so that you can add multiple students to them. Each Classroom will have a password from which students have to signup so that they can be associated with it.</p>
         </div>
-        <div id="steps">
+        <!--<div id="steps">
             <span class="step">3</span>
             <h2><span class="blue_text">ASSIGN PROBLEM SETS</span></h2>
             <p>You can assign multiple problem sets to a classroom so that your students can attempt the problems based on your selection. </p>
-        </div>
+        </div>-->
         <div id="steps">
             <span class="step">4</span>
             <h2><span class="blue_text">CREATE QUIZZES</span></h2>
