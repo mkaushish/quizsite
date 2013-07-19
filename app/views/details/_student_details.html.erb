@@ -1,0 +1,14 @@
+<div class=span4>
+  <div class=dotted-border-header>
+    Students
+  </div>
+  <div class=dotted-border>
+    <ul class="column-list" style="border:none">
+      <% @students.sort { |a,b| a.name <=> b.name }.each do |student| %>
+      <li>
+        <%= student.name %>
+      </li>
+      <% end %>
+    </ul>
+  </div>
+</div>

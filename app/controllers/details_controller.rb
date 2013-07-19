@@ -7,6 +7,7 @@ class DetailsController < ApplicationController
         @classrooms = current_user.classrooms.includes(:problem_sets)
         @problem_sets = @classroom.problem_sets
         @problem_set = params[:problem_set_id].nil? ? @problem_sets.first : ProblemSet.find(params[:problem_set_id])
+        @stat_calc = TeacherStatCalc.new(@students, @problem_set.problem_types)
     end
 
     # POST /details/select_classroom AJAX

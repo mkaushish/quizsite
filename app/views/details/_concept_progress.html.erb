@@ -1,4 +1,4 @@
-<%@stat_calc = TeacherStatCalc.new(@students, @problem_set.problem_types)%>
+
 <ul class='class_stat_list' >
   <% @stat_calc.concept_progress.each do |stat| %>
     <% stat_id = "concept_stat_#{stat.type.id}" %>
@@ -34,6 +34,7 @@
   </li>
   <% end %>
 </ul>
+
 <script>
   $(function () {
     initConcepts();

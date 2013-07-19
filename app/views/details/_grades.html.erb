@@ -1,0 +1,21 @@
+<table border="1">
+	<tr>
+		<th>Students</th>
+		<% @problem_set.problem_types.each do |ptype| %>
+		<th><%=ptype.name%></th>
+		<%end%>
+		<th>Total</th>
+	</tr>
+	<% @students.each do |stu| %>
+	<tr>
+		<td><%=stu.name%></td>
+		<% @problem_set.problem_types.each do |ptype| %>
+		<td>
+			<% stans=stu.answers.where("problem_type_id = #{ptype.id}") %>
+			<%= stans.where("correct = true").count %>/
+			<%= stans.count %>
+		</td>
+		<%end%>
+	</tr>
+	<%end%>
+</table>

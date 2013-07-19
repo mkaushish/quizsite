@@ -1,31 +1,4 @@
-<% @arr = [['%correct','Number of Students']]%>
-<% @temp = []%>
-<% @classroom.students.each do |student| %>
-	<% @b = student.answers.select{|v| v.correct == true } %>
-	<% @b_wrong = student.answers.select{|v| v.correct == false } %>
-	<% @count = @b.count%>
-	<% @count_wrong = @b_wrong.count %>
-	<% if @count_wrong+@count == 0%>
-		<% @temp.push(-1) %>
-	<% else %>
-		<% @temp.push((@count*100)/(@count_wrong+@count)) %>
-	<% end %>		
-<% end %>
 
-<% @count1 = (@temp.select{|v| v>90}).count %>
-	<% @arr.push([">90%", @count1])%>
-<% @count2 = (@temp.select{|v| v>70 and v<90}).count %>	
-	<% @arr.push([">70%", @count2])%>
-<% @count3 = (@temp.select{|v| v>50 and v<70}).count %>	
-	<% @arr.push([">50%", @count3])%>
-<% @count4 = (@temp.select{|v| v>30 and v<50}).count %>	
-	<% @arr.push([">30%", @count4])%>
-<% @count5 = (@temp.select{|v| v>0 and v<30}).count %>	
-	<% @arr.push([">0%", @count5])%>
-<% @count6 = (@temp.select{|v| v<0}).count %>	
-	<% @arr.push(["Haven't Attempted", @count6])%>
-
-<div id="chart_div_1_class" style="width: 900px; height: 500px;"><%= render 'shared/google_visual_piechart', :array => @arr, :div => "chart_div_1_class", :title => "Students performance" %></div>
 
 
 <% @arr = [['%correct','Number of Students']]%>
@@ -58,7 +31,7 @@
 <% @count6 = (@temp.select{|v| v<0}).count %>	
 	<% @arr.push(["Haven't Attempted", @count6])%>
 
-<div id="chart_div_2_class_pset" style="width: 900px; height: 500px;"><%= render 'shared/google_visual_piechart', :array => @arr, :div => "chart_div_2_class_pset", :title => "Students performance"  %></div>
+<div id="chart_div_2_class_pset" style="width: 500px; height: 500px;"><%= render 'shared/google_visual_piechart', :array => @arr, :div => "chart_div_2_class_pset", :title => "Students performance"  %></div>
 
 
 <% @arr7 = [['Problem Types','Correct Percentage']]%>

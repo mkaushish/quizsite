@@ -1,0 +1,21 @@
+<div class=row-fluid>
+  <div>
+    <div class=dotted-border>
+      <ul class="column-list" style="border:none">
+        <% @problem_sets.order("id ASC").each do |pset| %>
+        <li>
+          <%=link_to pset.name, details_problem_set_path(@classroom.id, pset), :remote => true %>
+        </li>
+        <% end %>
+      </ul>
+    </div>
+  </div>
+  <div class=span8>
+    <div class=dotted-border-header>
+      Quizzes
+    </div>
+    <div id='quiz_history' class='dotted-border teacher-details-column'>
+      <%= render partial: 'teachers/quiz_history_assign_quiz', :@problem_set => @problem_set%>
+    </div>
+  </div>
+</div>

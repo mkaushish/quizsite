@@ -1,0 +1,11 @@
+<div id="ptypes" class="tab-pane fade">
+  <div>
+    <span class=probs_done></span> problems | <span class=percent></span> percent | <span class=stu_attempted></span> students
+  </div> 
+  <div id='concept_progress' class='teacher-details-column'>
+    <%= render :partial => 'concept_progress' , :@problem_set => @problem_set%>
+  </div>
+</div>
+<div id="pset_charts" class="tab-pane fade active in">
+  <%= render "classrooms/classroom_chart" %>
+</div>
