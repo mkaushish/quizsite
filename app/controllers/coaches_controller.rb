@@ -1,7 +1,8 @@
 class CoachesController < ApplicationController
   
+    before_filter :authenticate, :except => [:create]
     before_filter :validate_coach, :only => [:edit, :update, :add_student]
-    before_filter :validate_coach_via_current_user, :only => [:home, :search_students]
+    before_filter :validate_coach_via_current_user, :only => [:home, :search_students, :create]
 
     def home
         @students = @coach.students
@@ -27,12 +28,11 @@ class CoachesController < ApplicationController
     # POST /coaches.json
     def create
         @coach = Coach.new(params[:coach])
-            respond_to do |format|
-            if @coach.save
-                format.html { redirect_to @coach, notice: 'Coach was successfully created.' }
-            else
-                format.html { render action: "new" }
-            end
+        if @coach.save
+            sign_in @coach
+            render :js => "window.location.href = '/'"
+        else    
+            render action: "new" 
         end
     end
 

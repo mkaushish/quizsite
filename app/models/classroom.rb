@@ -32,31 +32,30 @@ class Classroom < ActiveRecord::Base
             classroom_problem_sets.create :problem_set => jimmy
             students.each { |stu| jimmy.assign(stu) }
 
-    elsif jimmy.is_a?(Quiz)
-      assign_quiz(jimmy)
+        elsif jimmy.is_a?(Quiz)
+            assign_quiz(jimmy)
 
-    else
-      # TODO allow to assign problem sets
-      raise "Classroom.assign! accepts a Student, ProblemSet, or Quiz. Given #{jimmy.inspect}"
-    end
-  end
-
-  def assign_quiz(quiz)
-    classroom_quizzes.create :quiz => quiz
-    pset = problem_sets.where(:id => quiz.problem_set_id).first
-
-    if pset.nil?
-      raise "Classroom: can only assign a quiz is quiz.problem_set is already assigned!"
+        else
+            # TODO allow to assign problem sets
+            raise "Classroom.assign! accepts a Student, ProblemSet, or Quiz. Given #{jimmy.inspect}"
+        end
     end
 
-    pset_instances = problem_set_instances.where(:problem_set_id => pset.id)
-    pset_instances.each { |psi| quiz.assign_with_pset_inst psi }
-  end
+    def assign_quiz(quiz)
+        classroom_quizzes.create :quiz => quiz
+        pset = problem_sets.where(:id => quiz.problem_set_id).first
 
-  def class_pass
-    self.password ||= new_password
-  end
+        if pset.nil?
+            raise "Classroom: can only assign a quiz is quiz.problem_set is already assigned!"
+        end
 
+        pset_instances = problem_set_instances.where(:problem_set_id => pset.id)
+        pset_instances.each { |psi| quiz.assign_with_pset_inst psi }
+    end
+
+    def class_pass
+        self.password ||= new_password
+    end
 
     def class_pass
         self.password ||= new_password

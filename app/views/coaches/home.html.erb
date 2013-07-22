@@ -26,6 +26,8 @@
                             <% array = Array.new %>
                             <% array = [['Answers','Correct Percentage']] %>
                             <% array = array.push(["Overall correct answers", (percentage_correct)]) %> 
+                            <% array = array.push(["Overall wrong answers", 100-(percentage_correct)]) %> 
+
                             <!-- Percentage of correct answer by student -->
                             <div id="chart_div_<%= student.id %>" style="width: 300px; height: 300px;">
                                 <%= render "shared/google_visual_piechart", 

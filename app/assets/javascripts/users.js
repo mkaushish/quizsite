@@ -17,3 +17,7 @@ function registerStudent() {
 function registerTeacher() {
   registerAs('teacher');
 }
+
+function registerCoach() {
+  registerAs('coach');
+}
