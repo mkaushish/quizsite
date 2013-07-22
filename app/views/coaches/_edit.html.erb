@@ -1,0 +1,49 @@
+<h2>Edit Your Profile</h2>
+
+<%= form_for @coach, :url => update_coach_path(@coach) do |f| %>
+    <% if @coach.errors.any? %>
+        <div id="error_explanation">
+            <h5>
+                <%= pluralize(@coach.errors.count, "error") %> prohibited this coach from being saved:
+            </h5>
+            <ul>
+                <% @coach.errors.full_messages.each do |msg| %>
+                    <li><%= msg %></li>
+                <% end %>
+            </ul>
+        </div>
+    <% end %>
+
+    <div class="control-group">
+        <%= f.label :name, :class => 'control-label' %>
+        <div class="controls">
+            <%= f.text_field :name, :class => 'text_field' %>
+        </div>
+    </div>
+  
+    <div class="control-group">
+        <%= f.label :old_password, :class => 'control-label' %>
+        <div class="controls">
+            <%= f.password_field :old_password, :class => 'text_field' %>
+        </div>
+    </div>
+    
+    <div class="control-group">
+        <%= f.label :new_password, :class => 'control-label' %>
+        <div class="controls">
+            <%= f.password_field :new_password, :class => 'text_field' %>
+        </div>
+    </div>
+    
+    <div class="control-group">
+        <%= f.label :confirm_password, :class => 'control-label' %>
+        <div class="controls">
+            <%= f.password_field :confirm_password, :class => 'text_field' %>
+        </div>
+    </div>
+
+    <div class="form-actions">
+        <%= f.submit "Update", :class => 'btn btn-info' %>
+        <%= link_to "Cancel", coachhome_path, class: "btn" %>
+    </div>
+<% end %>

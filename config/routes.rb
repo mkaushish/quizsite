@@ -1,37 +1,40 @@
  Quizsite::Application.routes.draw do
-  resources :badges
 
+  resources :badges
   resources :problem_sets, only: [:show, :edit, :create, :update, :destroy]
-  get '/problem_set/:id',               to: 'problem_sets#view', as: :view_problem_set
-  get '/problem_sets/:id/edit_pset',    :to => 'problem_sets#edit_pset'
-  put '/problem_sets/update_pset/:id',  :to => 'problem_sets#update_pset', as: :update_pset_info
-  
   resources :custom_problems, except: [:index]
-  get '/problems/:id',                  to: 'problems#show', as: :problem
-  
-  match "/auth/:provider/callback" => "users#create_user_vdp"
   resources :users do
     member do
       get  'confirm'
       post 'change_password'
     end
   end
-
-  get 'problems/:id',                   to: 'problems#show', as: :problem
-  
   match "/auth/:provider/callback" => "users#create_user_vdp"
 
-  post "pages/check_drawing"
-  post "pages/exampleprobs"
-  get "/sample_problem/do/:id",         :to => 'problem_types#do_sample_problem', :as => :do_sample_problem
-  post "/sample_problem/finish/:id",    :to => 'problem_types#finish_sample_problem', :as => :finish_sample_problem
-
+  # coach view
+  get '/coachhome',                     to: 'coaches#home'
+  get '/coach/:id/edit',                to: 'coaches#edit', :as => :edit_coach
+  put '/coaches/:id',                   to: 'coaches#update', :as => :update_coach
+  get '/coach/search_students',          to: 'coaches#search_students', :as => :search_students
+  post '/coach/search_students',         to: 'coaches#search_students', :as => :search_students
+  post '/coaches/:id/add_student/:student',         to: 'coaches#add_student', :as => :coach_add_student
   # session pages - so the URLs make more sense
   match '/change_password' => 'users#password_form'
   # match '/signup',  :to => 'users#new'
   match '/signin',                      :to => 'sessions#create'
   match '/signout',                     :to => 'sessions#destroy'
   match '/register',                    :to => 'users#register', :as => :register
+
+  get '/problems/:id',                  to: 'problems#show', as: :problem
+  get '/problem_set/:id',               to: 'problem_sets#view', as: :view_problem_set
+  get '/problem_sets/:id/edit_pset',    :to => 'problem_sets#edit_pset'
+  put '/problem_sets/update_pset/:id',  :to => 'problem_sets#update_pset', as: :update_pset_info
+  get 'problems/:id',                   to: 'problems#show', as: :problem
+  get "/sample_problem/do/:id",         :to => 'problem_types#do_sample_problem', :as => :do_sample_problem
+  post "/sample_problem/finish/:id",    :to => 'problem_types#finish_sample_problem', :as => :finish_sample_problem
+
+  post "pages/check_drawing"
+  post "pages/exampleprobs"
 
   # student views
   get '/studenthome',                   :to => 'students#home'

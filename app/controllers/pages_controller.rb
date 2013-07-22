@@ -7,6 +7,8 @@ class PagesController < ApplicationController
                 redirect_to studenthome_path
             when "Teacher"
                 redirect_to teacherhome_path
+            when "Coach"
+                redirect_to coachhome_path
         else 
             @nav_selected = "home"
             @problem_types = ProblemType.limit(5)
