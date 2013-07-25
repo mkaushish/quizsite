@@ -9,24 +9,26 @@ class Badge < ActiveRecord::Base
   	# 4		  => 20000	#
   	# 5 	  => 50000  #
 
-
 	# Badge for all problem sets done [LEVEL 5]#
 	def self.BadgeAPSD(student)
         @result = Array.new
-        student.problem_set_instances.order("id").each do |pset|
-            @result = @result.push (pset.num_problems - pset.problem_stats.blue.count) == 0
+        pset_instances = student.problem_set_instances
+        unless pset_instances.blank?
+            pset_instances.order("id").each do |pset|
+                @result = @result.push (pset.num_problems - pset.problem_stats.blue.count) == 0
+            end
+            result_length = @result.length
+            true_count = @result.select {|v| v =="true"}.count
+            if (result_length- true_count) == 0
+        	   @has_BadgeAPSD = student.badges.find_by_badge_key("BadgeAPSD") 
+        	   if @has_BadgeAPSD.nil?
+        	       student.points += 50000
+        	       student.save
+                   student.news_feeds.create(:content => "Congrats! You have won a new Badge: All problem sets done ", :feed_type => "badge", :user_id => student.id)
+        	       student.badges.create(:name => "All Problem Sets Blue", :badge_key => "BadgeAPSD", :level => 5)
+        	   end
+            end
         end
-        result_length = @result.length
-        true_count = @result.select {|v| v =="true"}.count
-        if (result_length- true_count) == 0
-        	@has_BadgeAPSD = student.badges.find_by_badge_key("BadgeAPSD") 
-        	if @has_BadgeAPSD.nil?
-        		student.points += 50000
-        		student.save
-                student.news_feeds.create(:content => "Congrats! You have won a new Badge: All problem sets done ", :feed_type => "badge", :user_id => student.id)
-        		student.badges.create(:name => "All Problem Sets Blue", :badge_key => "BadgeAPSD", :level => 5)
-        	end
-		end
     end
 
 	# Badge for getting problem set blue [LEVEL 3] #

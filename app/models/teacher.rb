@@ -1,6 +1,7 @@
 class Teacher < User
   has_many :homeworks, :foreign_key => 'user_id'
-  has_many :classrooms, :dependent => :destroy
+  has_many :classroom_teachers, :dependent => :destroy
+  has_many :classrooms, :through => :classroom_teachers
   has_many :problem_sets, :foreign_key => 'user_id'
 
   attr_accessor :old_password, :new_password, :confirm_password

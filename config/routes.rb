@@ -1,5 +1,8 @@
  Quizsite::Application.routes.draw do
 
+  resources :classroom_teachers
+
+
   resources :badges
   resources :problem_sets, only: [:show, :edit, :create, :update, :destroy]
   resources :custom_problems, except: [:index]
@@ -84,7 +87,8 @@
   post '/teachers',                           to: 'teachers#create', as: :teachers
   get '/teacher/:id/edit',                    to: 'teachers#edit', :as => :edit_teacher
   put '/teachers/:id',                        to: 'teachers#update', :as => :update_teacher
-
+  
+  
   get  '/details/:id',                        to: 'details#details', as: :details
   post '/details_classroom',                  to: 'details#select_classroom', as: :details_classroom
   post '/details_problem_set',                to: 'details#select_problem_set', as: :details_problem_set
@@ -102,6 +106,8 @@
   # classroom
   get 'teacher/:id/classroom/new',            to: 'classrooms#new', as: :new_classroom
   post 'teacher/:id/classrooms',              to: 'classrooms#create', as: :create_classroom
+  get 'teacher/:id/join_class',              to: 'classrooms#join', as: :join_classroom
+  post 'teacher/:id/join_class',              to: 'classrooms#join_class', as: :join_classroom
   # :id => classroom id
   get  ':id/show_psets/',                     to: 'classrooms#show_psets', as: :show_psets
   get  ':id/show_quizzes/',                   to: 'classrooms#show_quizzes', as: :show_quizzes

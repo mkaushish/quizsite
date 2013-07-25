@@ -9,7 +9,7 @@
 			<%= link_to "Add", "#", id: "add_btn_#{student.id}", :class => "btn" %>
 			<div id="hidden_form_<%= student.id %>">
 				<%= form_tag(coach_add_student_path(coach, student), method: :post) do %>
-					<%= text_field_tag "relation", nil, placeholder: "Your Realation with the #{student.name}" %>
+					<%= text_field_tag "relation", nil, placeholder: "Your Relation with the #{student.name}" %>
 					<%= submit_tag "Add" %>
 				<% end %>
 				<%= link_to "Cancel", "#", id: "cancel_btn_#{student.id}", :class => "btn" %>
