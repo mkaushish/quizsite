@@ -1,33 +1,35 @@
  Quizsite::Application.routes.draw do
 
-  resources :classroom_teachers
-
-
   resources :badges
   resources :problem_sets, only: [:show, :edit, :create, :update, :destroy]
   resources :custom_problems, except: [:index]
   resources :users do
     member do
-      get  'confirm'
       post 'change_password'
     end
   end
   match "/auth/:provider/callback" => "users#create_user_vdp"
 
+  get 'users/signup',                         to: 'users#signup', as: :signup_form
+  post 'users/signup',                        to: 'users#signup_step1', as: :signup_user
+  get 'users/:id/confirm',                    to: 'users#signup_step2', as: :confirm
+  post 'users/:id/confirm',                   to: 'users#signup_step3', as: :verify_confirmation_code
+  post 'users/:id/finish_signup',             to: 'users#signup_step4', as: :finish_signup
+
   # coach view
   get '/coachhome',                           to: 'coaches#home'
-  get '/coach/:id/edit',                      to: 'coaches#edit', :as => :edit_coach
-  put '/coaches/:id',                         to: 'coaches#update', :as => :update_coach
+  get '/coach/:id/edit',                      to: 'coaches#edit', as: :edit_coach
+  put '/coaches/:id',                         to: 'coaches#update', as: :update_coach
   post '/coaches',                            to: 'coaches#create', as: :coaches
-  get '/coach/search_students',               to: 'coaches#search_students', :as => :search_students
-  post '/coach/search_students',              to: 'coaches#search_students', :as => :search_students
-  post '/coaches/:id/add_student/:student',   to: 'coaches#add_student', :as => :coach_add_student
+  get '/coach/search_students',               to: 'coaches#search_students', as: :search_students
+  post '/coach/search_students',              to: 'coaches#search_students', as: :search_students
+  post '/coaches/:id/add_student/:student',   to: 'coaches#add_student', as: :coach_add_student
   # session pages - so the URLs make more sense
   match '/change_password' => 'users#password_form'
   # match '/signup',  :to => 'users#new'
   match '/signin',                            to: 'sessions#create'
   match '/signout',                           to: 'sessions#destroy'
-  match '/register',                          to: 'users#register', :as => :register
+  match '/register',                          to: 'users#register', as: :register
 
   get '/problems/:id',                        to: 'problems#show', as: :problem
   get '/problem_set/:id',                     to: 'problem_sets#view', as: :view_problem_set

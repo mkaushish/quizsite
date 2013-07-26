@@ -6,8 +6,10 @@
 
 <ul style="float:right;">
 	<li class=switch-to><%= link_to "LOG IN", "#logIn", "data-toggle"=>"modal" %></li>
-  	<li class=switch-to-blue><%= link_to_function "SIGN UP", "registerStudent();" %></li>
+	<li class=switch-to-blue><%= link_to "SIGN UP", "#SignUp", "data-toggle"=>"modal" %></li>
+  	<!-- <li class=switch-to-blue><%#= link_to_function "SIGN UP", "registerStudent();" %></li> -->
 </ul>
 
 <%= render :partial => 'shared/log_in' %>
-<%= render :partial => 'shared/register_modal' %>
+<%#= render :partial => 'shared/register_modal' %>
+<%= render "users/signup" %>
