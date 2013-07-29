@@ -1,0 +1,30 @@
+<div class='teacher-details-body row-fluid'>
+  <div class="span4" style="width:30%">
+    <div>
+      <ul class="column-list" style="border:none">
+        <% @problem_sets.order("id ASC").each do |pset| %>
+        <li>
+          <%=link_to pset.name, details_problem_set_path(@classroom.id, pset, @start_date, @end_date), :remote => true %>
+        </li>
+        <% end %>
+      </ul>
+    </div>
+  </div>
+  <div style="width:59%; float:left">
+    <div>
+      <ul id="pset_tab" class="nav nav-tabs" style="font-family:Courier">
+        <li><a href="#ptypes" data-toggle="tab">Problem Types</a></li>
+        <li class='active'><a href="#pset_charts" data-toggle="tab">Charts</a></li>
+      </ul>
+    </div>
+    <div id="pset_tab_content" class="tab-content" style="font-family:Courier">
+      <%= render "pset_charts_ptypes" %>
+    </div>
+  </div>
+</div>
+<script>
+$('#pset_tab a').click(function (e) {
+  e.preventDefault();
+  $(this).tab('show');
+})
+</script>

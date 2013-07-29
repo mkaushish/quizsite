@@ -1,5 +1,12 @@
-<div id="main-content" style="text-align:center;">
-    
+<div id="main-content" style="text-align:center; font-family:Courier">
+    <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
     <section id="home" class="clearfix">
         <%= render 'shared/home' %>
     </section>
@@ -9,13 +16,20 @@
     <section id="how_it_works" class="clearfix">
         <%= render 'shared/how_it_works' %>
     </section>
+    <section id="about" class="clearfix">
+        <%= render 'shared/about' %>
+    </section>
+    <section id="contact" class="clearfix">
+        <%= render 'contact' %>
+    </section>
     <footer>
-        <a href="#home">Home |</a>
-        <a href="#about">About |</a>
-        <a href="#how_it_helps">How it Helps |</a>
-        <a href="#how_it_works">How it works |</a>
-        <a href="#contact">Contact</a>
-        <h4><span>Copyright ©</span><span class="blue_text">Smarter</span><span class="green_text">Grades</span> 2013</h4>
+        <a href="#site_logo"><img class="home_img" src="/assets/home_2.png"/></a>
+        
+        <a href="#how_it_helps"><img class="home_img" src="/assets/wand.png"/></a>
+        <a href="#how_it_works"><img class="home_img" src="/assets/gear.png"/></a>
+        <a href="#about"><img class="home_img" src="/assets/team.png"/></a>
+        <a href="#contact"><img class="home_img" src="/assets/contact.png"/></a>
+        <h4 style="font-family:Courier">©<span class="blue_text">Smarter</span><span class="green_text">Grades</span> 2013</h4>
     </footer>
 </div>
 
@@ -53,12 +67,14 @@
 <!--<div id='home' class='static-page'>
     <div class='home2'>
         <div class="dotted-border">
-          <%#= link_to_function "Register as a Teacher", "registerTeacher();", :class => 'button-blue centered' %>
           <br></br>
+<<<<<<< HEAD
           <%#= link_to_function "Register as a Student", "registerStudent();", :class => 'button-blue centered' %>
           <br></br>
           <%#= link_to_function "Register as a Coach", "registerCoach();", :class => 'button-blue centered' %>
     
+=======
+>>>>>>> master
       </div>
     </div>
   <div id="myCarousel" class="carousel slide">

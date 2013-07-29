@@ -7,8 +7,9 @@ class DetailsController < ApplicationController
         @classrooms = current_user.classrooms.includes(:problem_sets)
         @problem_sets = @classroom.problem_sets
         @problem_set = params[:problem_set_id].nil? ? @problem_sets.first : ProblemSet.find(params[:problem_set_id])
-        @quiz_history = @problem_set.nil? ? []:@classroom.quizzes.where(problem_set_id: @problem_set.id)
         @stat_calc = TeacherStatCalc.new(@students, @problem_set.problem_types)
+        @start_date = params[:start_date].nil? ? (Time.now-(365*24*60*60)) : params[:start_date]
+        @end_date = params[:end_date].nil? ? (Time.now) : params[:end_date]
     end
 
     # POST /details/select_classroom AJAX
@@ -26,6 +27,19 @@ class DetailsController < ApplicationController
     def select_problem_set
         @problem_set = ProblemSet.find params["problem_set_id"]
         @classroom = Classroom.find params["ps_classroom_id"]
+        @problem_types = @problem_set.problem_types
+        @students = @classroom.students
+        @quiz_history = @classroom.quizzes
+        @stat_calc = TeacherStatCalc.new(@students, @problem_types)
+        @start_date=params[:start_date].to_time
+        @end_date=params[:end_date].to_time
+    end
+
+    def select_dates
+        @problem_set = ProblemSet.find params["problem_set_id"]
+        @classroom = Classroom.find params["ps_classroom_id"]
+        @start_date=params[:start_date].to_time
+        @end_date=params[:end_date].to_time
         @problem_types = @problem_set.problem_types
         @students = @classroom.students
         @quiz_history = @classroom.quizzes

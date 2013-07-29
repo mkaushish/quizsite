@@ -12,22 +12,31 @@
 
 <%= render 'shared/shelf', :@student => current_user %>
 
-<div class="quiz-link">
     <% unless @quiz.blank? %>
-      <ul> 
+
+      <div class='btn-group'>
+<div class="quiz-link dropdown-toggle" data-toggle="dropdown">Quizzes</div>
+      <div id='news'> 
+      <ul class="dropdown-menu">
         <% tem=@quiz.length %>
         <% @quiz.each do |qu| %>
+        <li>
         <% if qu.quiz_instances.length > 0 %>
         <%= link_to "Quiz #{tem}", start_quiz_path(qu.quiz_instances.last) %>
         <% else %>
         <%= link_to "Quiz #{tem}", start_new_quiz_path(@instance.id, :quiz_id => qu.id) %>
         <%end%>
         <%tem=tem-1%>
+        </li>
         <%end%>
       </ul>
     
     <% end %>
-</div>
+    </div>
+  </div>
+
+
+
 <div style="width:252px; float:left">
     <div class='dotted-border-header'>
       <h4>History</h4>

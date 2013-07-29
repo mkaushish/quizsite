@@ -1,4 +1,5 @@
-<ul class='class_stat_list'>
+
+<ul class='class_stat_list' >
   <% @stat_calc.concept_progress.each do |stat| %>
     <% stat_id = "concept_stat_#{stat.type.id}" %>
   <li id="<%= stat_id %>" class="stat" data-ptype=<%= stat.type.id %> data-classrm=<%= @classroom.id %>>
@@ -37,6 +38,6 @@
 <script>
   $(function () {
     initConcepts();
-    $('.class_stat_list').jScrollPane({ contentWidth: '0px' });
+    //$('.class_stat_list').jScrollPane({ contentWidth: '0px' });
   })
 </script>

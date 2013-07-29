@@ -1,0 +1,26 @@
+<tr>
+	<th>Students</th>
+	<% @problem_set.problem_types.each do |ptype| %>
+	<th><%=ptype.name%></th>
+	<%end%>
+	<th>Total</th>
+</tr>
+<% @students.each do |stu| %>
+<%cor=0%>
+<%all=0%>
+<tr>
+	<td><%=stu.name%></td>
+	<% @problem_set.problem_types.each do |ptype| %>
+	<td>
+		<% stans=stu.answers.where("problem_type_id = #{ptype.id} AND created_at > '#{@start_date}' AND created_at <= '#{@end_date}'") %>
+		<% cor+=stans.where("correct = true").count %>
+		<%= stans.where("correct = true").count %>/
+		<% all+=stans.count %>
+		<%= stans.count %>
+	</td>
+	<%end%>
+	<td>
+		<%=cor%> / <%=all%>
+	</td>
+</tr>
+<%end%>

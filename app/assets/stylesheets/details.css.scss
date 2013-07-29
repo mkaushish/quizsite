@@ -1,9 +1,7 @@
 $inside_details_height: 250px;
 
 .class_stat_list {
-	@include line-border();
 	overflow:auto;
-	height: $inside_details_height;
 	margin:0;
 }
 
@@ -32,7 +30,7 @@ i.status {
 	ul {
 		// height: 30px;
 		padding:2px;
-    border:1px solid gray;
+    box-shadow:0px 0px 10px gray;
 
 		>li {
 			//padding:0 2px 2px 0;
