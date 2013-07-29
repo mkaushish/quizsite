@@ -42,7 +42,6 @@
 }
 .intro-text{
   font-family:"Lane_Narrow", Arial, Helvetica, sans-serif;
-  text-transform: uppercase;
 }
 
 #main-content{
@@ -159,8 +158,6 @@ footer h4{
     text-shadow: 2px 2px 3px rgba(255,255,255,0.1);
 }
 
-
->>>>>>> develop
 .user_test {
   display:inline-block;
   float:left;
@@ -547,6 +544,10 @@ $slidecol: #444;
     display:block;
   }
 }
+.not_log_in{
+  background-image: url("/assets/blue_wall_2.png");
+  background-attachment:fixed;
+}
 .slidebutton {
   position:relative;
   height:260px;
@@ -621,10 +622,26 @@ margin-top:20px;
 #home, #work, #about, #contact, #how_it_helps, #how_it_works{
   position:relative;
   margin-bottom:250px;
-  width:100%;
   padding-top:15px;
   text-align: center;
+  
+  .actual_c{
+  width:720px;
+  padding:30px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: white;
+  }
 }
+#home{
+  background-color: white;
+  padding-bottom: 150px;
+}
+#contact{
+  background-color: white;
+  margin-bottom: 70px;
+}
+
 #top{
   margin-bottom:0px;
 }
@@ -633,7 +650,6 @@ margin-top:20px;
 }
 #main-content section .intro-text h2{
   font-family:"LaneNarrowRegular", Arial, Helvetica, sans-serif;
-  text-transform:uppercase;
   
 }
 .intro-text{
@@ -642,7 +658,7 @@ margin-top:20px;
 }
 
 #main-content{
-  width:670px;
+  width:100%;
    margin: 0 auto;
 }
 

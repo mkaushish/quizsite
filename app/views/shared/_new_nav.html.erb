@@ -1,4 +1,5 @@
 <%= render :partial => 'shared/analytics' %>
+
 <div class=nav-line data-target="site_logo">
   <div></div>
   <div></div>
@@ -6,7 +7,7 @@
 
 <div class='container sg-nav'>
   <div class='row-fluid sg-nav'>
-    <div id=site_logo><%= link_to (image_tag "logo_with_sides.png"), root_path %></div>
+    <div id=site_logo><%= link_to (render "/shared/logo"), root_path %></div>
     <%= render :partial => nav_elts_path %>
   </div>
 </div>
