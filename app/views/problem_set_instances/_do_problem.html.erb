@@ -1,16 +1,15 @@
-<%= render "problem_set_instances/progress_bar/#{@stat.color_status}" %>
+<%= render "problem_set_instances/progress_bar/yellow" %>
 
 <%= render 'stats' %>
 
 <div class='row-fluid problem_body'>
-  <%= form_tag ps_finish_problem_path(@problem_set.id), method: :post, autocomplete: :off, remote: true do %>
+  <%= form_tag finish_ps_problem_path(@problem_set.id), method: :post, autocomplete: :off, remote: true do %>
     <%= hidden_field_tag 'stat_id', @stat.id.to_s %>
     <%= render 'problems/form' %>
   <% end %>
 </div>
 
 <!--<div class='prob_grad_2'></div>-->
-<%= render "problem_set_instances/progress_bar/#{@stat.color_status}" %>
 <% if @problem.problem.has_notepad? %>
 <div class='row-fluid calculations'>
   <%= render 'problems/side_notepad' %>

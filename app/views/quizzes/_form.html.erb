@@ -1,14 +1,14 @@
 <% h = 7 %>
 <div class="row-fluid">
-  <% [first_half(@quiz_problems, h), second_half(@quiz_problems, h)].each do |qp_column| %>
+  <%# [first_half(@quiz_problems, h), second_half(@quiz_problems, h)].each do |qp_column| %>
   <div class="span6">
     <ul class="quiz_problem_list_form">
-      <% qp_column.each do |qp| %>
+      <% @quiz_problems.each do |qp| %>
       <li>
         <%= render partial: 'quiz_problem_box_form', object: qp %>
       </li>
       <% end %>
     </ul>
   </div>
-  <% end %>
+  <%# end %>
 </div>

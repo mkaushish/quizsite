@@ -1,0 +1,11 @@
+<% ptype = @quiz_problem.problem_type %>
+<h2><%= ptype %></h2>
+
+<%= form_for(@quiz_problem, url: update_prob_cat_qp_path(:type => params[:type]), remote: :true) do |f| %>
+	<% unless @quiz_problem.nil? %>
+  		<%= f.label :problem_category, "Choose Problem Category" %>
+   		<%= f.collection_select :problem_category, QuizProblem.quiz_prob_category_array, :first, :last, {:id => 'problem_category'} %>
+	        <%= f.hidden_field :partial, :value => false %>
+    <% end %>  
+   	<%= f.submit "Assign" %>
+<% end %>

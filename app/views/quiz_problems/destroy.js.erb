@@ -1,0 +1,5 @@
+$('#quiz_problem_<%= @quiz_problem.id %>').remove();
+$('#custom_problems_message').html("You successfully deleted a quiz problem");
+<% if Quiz.last.quiz_problems.blank? %>
+	$('#no_qp_msg').show();
+<% end %>

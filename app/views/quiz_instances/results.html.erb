@@ -1,0 +1,18 @@
+ <div class=row-fluid>
+    <%= render 'shared/shelf', :@student => current_user %>
+    
+</div>
+ <ul class=column-list>
+  	<h2>Quiz Result</h2>
+    <% @answers.each do |answer| %>
+      	<li>
+      		<%= link_to answer.problem_type.to_s, "#" %> : <%= answer.correct.to_s %>
+      		<% unless m_unpack(answer.response).blank? %>
+            <% if m_unpack(answer.response).first.last.blank? %>
+        			<%= link_to "Please give an answer", left_quiz_problem_path(@instance, :problem_id => answer.problem_id), :class => "pull-right" %>
+        		<% end %>
+          <% end %>
+      	</li>
+    <% end %>
+</ul>
+

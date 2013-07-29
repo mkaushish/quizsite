@@ -1,0 +1,12 @@
+	<% count = 0 %>
+	<% badgekey.each do |badge| %>
+		<% if count < 5%>
+			<% if @student.badges.find_by_badge_key(badge).nil? %>
+    			<p class = "<%= badge %> badgesbw"></p>
+    			<% count = count +1%>  
+    		<% end %>
+		<% end %>
+	<% end %>
+
+
+	<script>badges_look()</script>

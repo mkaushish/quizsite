@@ -1,0 +1,20 @@
+<ul class="dropdown-menu">
+	<% current_user.news_feeds.order("created_at DESC").each do |news_feed| %>
+        	<li><%= news_feed.content %></li>
+    <% end %>    	
+        	<li><%= "Welcome to SmarterGrades!" %></li>
+</ul>
+
+<script>
+var lisize=$(".dropdown-menu li").size();
+$('').ajaxComplete(getLinkCount);
+function getLinkCount(){
+	if($(".dropdown-menu li").size()>lisize)
+	{
+		alert("haha");
+	}
+}
+
+
+
+</script>

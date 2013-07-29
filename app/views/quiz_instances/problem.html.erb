@@ -1,0 +1,25 @@
+<div class=row-fluid>
+    <%= render 'shared/shelf', :@student => current_user %>
+</div>
+<ul class=column-list>
+  	<h2>Your Quiz Stats</h2>
+  	<% @quiz_stats.each_with_index do |stat, i| %>
+		<% i +=1 %>
+		<li>
+			<%= "Chapter " + i.to_s %>
+			<% if stat.remaining > 0 %>
+				<%= link_to "#{stat.remaining} Problem left", "#", :class => "pull-right" %>
+			<% else %>
+				<%= link_to "0 Problem left", "#", :class => "pull-right" %>
+			<% end %>
+		</li>
+	<% end %>
+</ul>
+
+
+<div id="problem_overlay" class="problem_overlay" style="display: block;">
+  <%= render :partial => 'do_quiz' %>
+</div>
+<script>
+  $(initProblem);
+</script>

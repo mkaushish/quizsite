@@ -5,4 +5,10 @@ class UserMailer < ActionMailer::Base
     @user = user
     mail(:to => user.email, :subject => "Welcome to SmarterGrades")
   end
+
+  def welcome_email(user)
+  	@user = user
+  	email_with_name = "#{@user.name} <#{@user.email}>"
+  	mail(:to => @user.email, :subject => "Welcome to SmarterGrades")
+  end
 end

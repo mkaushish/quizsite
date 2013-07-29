@@ -1,27 +1,7 @@
-<%= form_for(@quiz, url: create_quiz_path) do |f| %>
-  <%= hidden_field_tag :classroom_id, @classroom.id %>
-  <%= hidden_field_tag :problem_set_id, @problem_set.id %>
-<div class="row-fluid">
-  <ul class="breadcrumb">
-    <li><b><%= @classroom.name %> </b> 
-      <span class="divider">&amp;</span>
-    </li>
-
-    <li><b><%= @problem_set.name %> </b> 
-      <span class="divider">&amp;</span>
-    </li>
-
-    <li class="active">
-      New Quiz
-      <span class="divider">&amp;</span>
-    </li>
-    <li>
-      <%= submit_tag "Assign" %>
-    </li>
-  </ul>
-</div>
-<div class="row-fluid">
-
-  <%= render partial: 'form' %>
-</div>
+<% if @quiz_type.eql? "single_class" %>
+    <%= render "single_class", :@classroom => @classroom, :@problem_set => @problem_set, :@quiz => @quiz, :@quiz_problem => @quiz_problem %>
+<% elsif @quiz_type.eql? "all_classes" %>
+    <%= render "all_classes", :@classrooms => @classrooms, :@problem_sets => @problem_sets, :@problem_set => @problem_set, :@quiz => @quiz, :@quiz_problem => @quiz_problem %>
+<% elsif @quiz_type.eql? "all_classes_and_all_problem_types" %>
+    <%= render "all_classes_and_all_problem_types", :@classrooms => @classrooms, :@problem_types => @problem_types, :@quiz => @quiz %>
 <% end %>

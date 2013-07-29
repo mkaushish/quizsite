@@ -93,12 +93,13 @@ module Chapter9
         tab.set_field(i, 1, TextLabel.new(@amts[i]))
         ar[i]=0
       end
-      [TextLabel.new("Translate the given table into tally marks"), tab, TallyMarksField.new("ans", @act, ar)]
+      [TextLabel.new("Translate the given table into tally marks"),
+       tab,
+        # TallyMarksField.new("ans", @act, ar)
+      ]
     end
   end
 
-  ACTIVITIES=[["Rice Only", "Wheat Only", "Both"],["English Only", "Maths Only", "Stutied Both"],["Coffee Only","Tea Only","Both"],
-  ["Watched TV Only","Played Cricket Only","Done Both"], ["Played Cricket","Played Soccer","Played Both"],["Gold medal","Silver medal","Bronze medal"]]
   class TallyQuesEasy < QuestionWithExplanation
     def initialize
       yr=rand(106)+1900
@@ -163,10 +164,7 @@ module Chapter9
       [TextLabel.new("Give the answers to the following questions by looking at the graph:"), BarGraphLabel.new("nm", @yrs, @amts, {"editdivs" => false, "divs" => 10}), TextLabel.new("#{@describe} #{@ques}"), TextField.new("ans1")]
     end
   end
- PRODUCTS = [["2000","2001","2002","2003","2004"],["1900","1901","1902","1903","1904","1905"],["2004","2005","2006","2007"],
- ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],["Hindi","English","Mathematics","Science","Social Science"],
- ["Yellow Shirts","Black Shirts","White Shirts","Grey Shirts","Blue Shirts"]]
- DESCRIPTION = ["Wheat production between years","Rice production between years","Bat sales between years","T-shirt sales on","Marks in","Sales of"]
+
 class BarQuesEasy2 < QuestionWithExplanation
   def initialize
       @yrs=PRODUCTS.sample()
@@ -202,8 +200,7 @@ class BarQuesEasy2 < QuestionWithExplanation
   end
 end
 
-  ACTIVITIES=[["Rice Only", "Wheat Only", "Both"],["English Only", "Maths Only", "Stutied Both"],["Coffee Only","Tea Only","Both"],
-  ["Watched TV Only","Played Cricket Only","Done Both"], ["Played Cricket","Played Soccer","Played Both"],["Gold medal","Silver medal","Bronze medal"]]
+
 class TallyQuesEasy2 < QuestionWithExplanation
   def initialize
     yr=rand(106)+1900
@@ -238,9 +235,9 @@ class TallyQuesEasy2 < QuestionWithExplanation
   end
 end
 
-
-  ACTIVITIES=[["Rice", "Wheat", "Both"],["English", "Maths", "Stutied Both"],["Coffee","Tea","Both"],
+ACTIVITIES=[["Rice", "Wheat", "Both"],["English", "Maths", "Stutied Both"],["Coffee","Tea","Both"],
   ["Watched TV","Played Cricket","Done Both"], ["Played Cricket","Played Soccer","Played Both"]]
+
   class TallyQuesEasy3 < QuestionWithExplanation
     def initialize
       yr=rand(106)+1900
@@ -272,8 +269,6 @@ end
     end
   end
 
-
-
   PROBLEMS=[Chapter9::CreateBar,
   Chapter9::BarQues,
   Chapter9::TallyQues,
@@ -283,5 +278,4 @@ end
   Chapter9::BarQuesEasy2,
   Chapter9::TallyQuesEasy2,
   Chapter9::TallyQuesEasy3]
-end 
-
+end

@@ -15,19 +15,18 @@ $problem_top_m: 0;
 .problem_overlay {
 	z-index:20;
 	position: fixed;
+	left:20%;
   top:0;
 	overflow-y:auto;
 	overflow-x:hidden;
-	left:50%;
-	margin-left:-400px;
 	height:100%;
-	width: $problem_w;
-	padding: 0 $problem_side_m 10px $problem_side_m;
 	background: white;
 	background-size: 100% 100%;
 	border-left:1px solid gray;
 	border-right:1px solid gray;
   display:none;
+  max-width:720px;
+  min-width:475px;
 }
 
 $pset_title_m: 200px;
@@ -35,14 +34,12 @@ $pset_title_m: 200px;
 	position: absolute;
 	width: $problem_w - $pset_title_m;
 	margin: 0 ($pset_title_m / 2);
-	text-align: center;
 	z-index:0;
 }
 
 .problem_view_stats {
 	position: relative;
 	height:50px;
-  width:$problem_w;
 }
 .button-blue:hover{
 	-moz-box-shadow: inset 0 0 10px black;
@@ -56,10 +53,11 @@ box-shadow: inner 0 0 10px black;
     width:117px;
     height: 17px;
     font-family:Courier;
+    font-size:13px;
 
     text-align: center;
     color: white;
-    background-color: purple;
+    background-color: orange;
 
     box-shadow: 2px 2px 2px black;
     border:none;
@@ -81,7 +79,8 @@ box-shadow: inner 0 0 10px black;
     @include gradient(white,#eef4f4);
 }
 .problem_body {
-  width: $problem_w;
+	padding-left:10px;
+	padding-right:10px;
 	h2 {
 		display:inline-block;
 		font-family:'Home_hand';

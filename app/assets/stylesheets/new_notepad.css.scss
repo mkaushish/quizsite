@@ -42,12 +42,11 @@ input.digit {
 
 $calc_input_width: 65px;
 .calculator {
-  position:absolute;
   width: $calc_w;
-  height:242px;
-  border-style:solid;
-  border-width: 1px;
-  border-color:#b1b1b1;
+  //height:242px;
+  //border-style:solid;
+  //border-width: 1px;
+  //border-color:#b1b1b1;
   // margin-right:$notepad_gap;
 
   input[type="text"] {
@@ -60,7 +59,7 @@ $calc_input_width: 65px;
     padding-right:3px;
     text-align:right;
     a {
-      width:$calc_input_width - 4px; // padding on button-blue
+      width:95px; // padding on button-blue
       text-align:center;
     }
   }

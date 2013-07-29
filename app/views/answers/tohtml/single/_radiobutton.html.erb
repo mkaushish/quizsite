@@ -1,23 +1,17 @@
 <% radiobutton.fields.each do |field| %>
-  <div class=checkbox-item>
-  	<% klass, checked = "", false %>
-
-	<% if radiobutton.fromhash(@response) == field.to_s  %>
-
-		<% checked = true %>
-		<% klass = "incorrect" %>
-	<% end %>
-	<%#debugger%>
-	<% if radiobutton.fromhash(@solution) == field.to_s %>
-		<%# checked = true %>
-		<% klass = "correct" %>
-	<% end %>
-	<% if radiobutton.fromhash(@solution) != field.to_s %>
-		<%# checked = true %>
-		<% klass = "incorrect" %>
-	<% end %>
-
-    <%= radio_button_tag(radiobutton.name, field, checked, :disabled => true, :class => klass) %>
-    <%= label_tag("#{radiobutton.name}_#{field}", field) %>
-  </div>
+  	<div class=checkbox-item>
+	  	<% klass, checked = "", false %>
+		<% if radiobutton.fromhash(@response) == field.to_s  %>
+			<% checked = true %>
+			<% klass = "incorrect" %>
+		<% end %>
+		<% if radiobutton.fromhash(@solution) == field.to_s %>
+			<% klass = "correct" %>
+		<% end %>
+		<% if radiobutton.fromhash(@solution) != field.to_s %>
+			<% klass = "incorrect" %>
+		<% end %>
+		<%= radio_button_tag(radiobutton.name, field, checked, :disabled => true, :class => klass) %>
+	    <%= label_tag("#{radiobutton.name}_#{field}", field) %>
+  	</div>
 <% end %>

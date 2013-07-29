@@ -1,0 +1,47 @@
+<div class="multifield">
+    <%number = pictogram4.number.to_i%>
+    <%arr = pictogram4.arr%>
+    <%numfull= pictogram4.numfull%>
+    <%numhalf= pictogram4.numhalf%>
+    <%startx= pictogram4.startx.to_i%>
+    <%starty= pictogram4.starty.to_i%>
+	<%width = pictogram4.width.to_i%>
+    <%height= pictogram4.height.to_i%>
+    <%distance= pictogram4.distance.to_i%>
+	<%canvaswidth = pictogram4.canvaswidth.to_i%>
+    <%canvasheight= pictogram4.canvasheight.to_i%>
+    <%numtimes = pictogram4.numtimes.to_i%>
+    <%check = pictogram4.check.to_i%>
+<%if check==0 %>
+<%else%>
+<%end%>
+<table id="pictogramtable">
+    <% number.times do |row| %>
+      <tr>
+        <td>
+        <p>
+         <%=arr[row]%>
+        </p>
+        </td>
+        <td><canvas id="myCanvas_<%="#{row}"%>" onload="drawimage2(<%="#{row}"%>,<%= numfull[row] %>,<%= numhalf[row]%>,<%= startx%>,<%= starty%>,<%= width%>,<%= height%>,<%= distance%>)" width=<%= canvaswidth%> height=<%= canvasheight%> style="border:1px solid #d3d3d3;">
+Your browser does not support the HTML5 canvas tag.</canvas>
+        </td>
+        <td>
+          <img border="border:1px solid #d3d3d3;" src="/assets/1.jpg" onload="drawimage2(<%="#{row}"%>,<%= numfull[row] %>,<%= numhalf[row]%>,<%= startx%>,<%= starty%>,<%= width%>,<%= height%>,<%= distance%>);" width="1" height="1"> 
+    
+        </td>
+      </tr>
+    <%end %>
+</table>
+
+<script type="text/javascript">
+var image1 = new Image();
+image1.src = "/assets/1.jpg";
+var image2 = new Image();
+image2.src = "/assets/2.jpg";
+
+
+
+</script>
+</div>
+

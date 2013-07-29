@@ -1,5 +1,5 @@
 <ul class='column-list details_quiz_hist'>
-	<li><%= link_to "Create Quiz", new_quiz_path(classroom: @classroom.id, pset: @problem_set.id) %>
+	<li><%= link_to "Create Quiz", new_quiz_path(classroom: @classroom.id, pset: @problem_set.id, type: "single_class") %>
 		for <%= print_ps @problem_set %> 
 	</li>
 

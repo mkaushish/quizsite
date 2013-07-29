@@ -1,15 +1,16 @@
 class CustomProblemsController < ApplicationController
   before_filter :authenticate
-
+  before_filter :authenticate_admin
+  before_filter :validate_custom_problem, :only => [:edit, :update]
+  
   def new
     @chapters = ProblemSet.master_sets_with_ptypes
-    @created_problems = current_user.custom_problems.order("created_at DESC")
+    @custom_problems = current_user.custom_problems.order("created_at DESC")
     render 'select_problem_type'
   end
 
   # GET /custom_problems/1/edit
   def edit
-    @custom_problem = Problem.find_by_id(params[:id])
   end
 
   # POST /custom_problems
@@ -35,7 +36,6 @@ class CustomProblemsController < ApplicationController
   # PUT /custom_problems/1
   # PUT /custom_problems/1.json
   def update
-    @custom_problem = Problem.find_by_id(params[:id])
     respond_to do |format|
      if @custom_problem.update_attributes(params[:custom_problem])
        format.html { redirect_to new_custom_problem_path, notice: 'Custom problem was successfully updated.' }
@@ -50,7 +50,7 @@ class CustomProblemsController < ApplicationController
   # DELETE /custom_problems/1
   # DELETE /custom_problems/1.json
   def destroy
-    @created_problems = current_user.custom_problems
+    @custom_problems = current_user.custom_problems
     @custom_problem = current_user.custom_problems.find_by_id(params[:id])
     @custom_problem.destroy
 
@@ -79,5 +79,9 @@ class CustomProblemsController < ApplicationController
       return CustomProblemMCQ.new(name, params[:problem_text], resps)
     end
     nil
+  end
+
+  def validate_custom_problem
+    @custom_problem = Problem.find_by_id(params[:id])
   end
 end

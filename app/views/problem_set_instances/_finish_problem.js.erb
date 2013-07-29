@@ -5,8 +5,12 @@ function change_color_status(elt, col) {
 	elt.addClass(col + "-bord")
 }
 
-// console.log("hello Thomas");
-// console.log("<%= @stat.color_status %>, #pt_<%= @stat.problem_type_id %>");
 change_color_status($('#pt_<%= @stat.problem_type_id %>'), "<%= @stat.color_status %>");
 
-$("#problem_history").prepend('<%= j render("problem_set_instances/history_ans", object: @answer, as: :answer) %>')
+$("#problem_history").prepend("<%= j render("problem_set_instances/history_ans", object: @answer, as: :answer) %>");
+$("#pt_<%= @stat.problem_type_id %>").replaceWith("<%= j render("problem_set_instances/problem_list_box", item: @stat) %>");
+$("#points").html("<%= j render("students/student_points", :@changedPoints => @changedPoints) %>");
+$("#get_badge").html("<%= j render("students/badge") %>");
+$("#news").html("<%= j render("students/news_feeds", :@student => @student) %>");
+$("#badge_count").html("<%= j render("students/badge_count", :@student => @student) %>");
+$("#badgebw_count").html("<%= j render("students/badgebw_count", :@student => @student) %>");

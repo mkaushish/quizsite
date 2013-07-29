@@ -61,7 +61,10 @@ module Algebra
       
       [
         # TextLabel.new("Translate the given table into a bar graph taking the scale as 5 students per unit of length"), 
-         DrawShape.new("ans",'rectangle3',10,10,200,200,80,150)
+         # DrawShape.new("ans",'rectangle3',10,10,200,200,80,150)
+        # DrawShape5.new('cube',20,20,0,0,500,500,0,2,500,500,1,1,1),
+        DrawShape2.new('cylinder',10,10,20,10,1,'cm',500,500,1,1),
+
        ]
     end
   end
@@ -1454,7 +1457,6 @@ class Sub_polynomials2 < QuestionWithExplanation
    Algebra::Mul_tri_tri,
    Algebra::Evaluate,
    Algebra::Createkb,
-   # Algebra::Createkb2
-
+   Algebra::Createkb2
     ] # //Anurag is module name and dummy is class name
 end
