@@ -5,7 +5,7 @@ namespace :generate do
       { :name => "Thomas Ramfjord",      :email => "thomas.ramfjord@gmail.com", :password => "blah123" },
       { :name => "Madhav Kaushish",      :email => "madhav.kaushish@gmail.com" },
       { :name => "Madhav Kaushish",      :email => "m.adhavkaushish@gmail.com", :idtype => Teacher },
-      { :name => "Amandeep Singh", :email => "amandeep.bhamra@gmail.com", :password => "testing" } #,
+      { :name => "Amandeep Singh",       :email => "amandeep.bhamra@gmail.com", :password => "testing" } #,
       # { :name => "Sanjeev Bikhchandani", :email => "sanjeev@naukri.com" },
       # { :name => "Andrea Kalyn",         :email => "akalyn@oberlin.edu" },
       # { :name => "Mary Kay Gray",        :email => "mary.gray@oberlin.edu" },
@@ -21,20 +21,21 @@ namespace :generate do
       t = Teacher.new(:name => "Thomas Ramfjord", :email => "t.homasramfjord@gmail.com", :password => "blah123", :password_confirmation => "blah123")
       t.confirmed = true
       t.save!
-      c = t.classrooms.new name: 'test'
-
-      if c.save
+      classroom = Classroom.new name: "Test"
+      
+      if classroom.save
+        classroom_teacher = t.classroom_teachers.create(:classroom_id => classroom.id)  
         puts "Test teacher and classroom successfully saved"
       else
         puts "COULDN'T SAVE TEST CLASS!"
       end
         
       ProblemSet.all.each do |ps| 
-        c.assign! ps
+        classroom.assign! ps
       end
     end
 
-    classroom = Classroom.where(name: 'test').first
+    classroom = Classroom.find_by_name("SmarterGrades 6")
 
     userinfo.each do |userhash|
       unless User.find_by_email(userhash[:email])

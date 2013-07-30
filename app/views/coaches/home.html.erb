@@ -1,0 +1,53 @@
+<div class="row-fluid">
+    <%= render "coach_info", :coach => @coach %>
+</div>
+
+<div class="row-fluid">
+
+    <% unless @students.blank? %>
+            <h3>Students Overview:</h3>
+            <% @students.each do |student| %>
+                <div class="span8" style="border: 1px solid;">
+                    <div class="span4">
+                        <%= link_to student.name, student_path(student.id, :show => student.name) %>
+                        <h4>
+                            Points: <%= student.points %><br />
+                            <% answers = student.answers.map(&:correct) %>
+                            Problems Correct: <%= ans_right = answers.select{ |v| v == true }.count %><br/>
+                            Total Problems Attempted: <%= total_answers = answers.count %><br />
+                            <% percentage_correct =  percentage(ans_right, total_answers) %>
+                            <% if percentage_correct.to_i < 50 %>
+                                <p style="color: red;"> Warning!! Your child is not working well </p>
+                            <% end %>
+                        </h4>
+                    </div>
+                    <div class="span4">
+                        <% unless ans_right == 0 and total_answers == 0 %>
+                            <% array = Array.new %>
+                            <% array = [['Answers','Correct Percentage']] %>
+                            <% array = array.push(["Overall correct answers", (percentage_correct)]) %> 
+                            <% array = array.push(["Overall wrong answers", 100-(percentage_correct)]) %> 
+
+                            <!-- Percentage of correct answer by student -->
+                            <div id="chart_div_<%= student.id %>" style="width: 300px; height: 300px;">
+                                <%= render "shared/google_visual_piechart", 
+                                        :div => "chart_div_#{student.id}", 
+                                        :array => array, 
+                                        :title => "Percentage of correct answers by #{student.name}" %>
+                            </div>
+                            <!-- chart end -->
+                        <% end %>
+                    </div>
+                </div>
+            <% end %>
+    <% else %>
+        <h2>You don't have any Students yet. (Some demo must be here i think.. that shows how it works or on login if the coach doesn't have any student he/she must get a popup that says add students.)</h2>
+        <h2><%= link_to "Search Student", search_students_path %></h2>
+    <% end %>
+</div>
+ 
+<script>
+  $(function () {
+    $('#home').show();
+  })
+</script>

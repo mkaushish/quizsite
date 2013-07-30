@@ -1,6 +1,3 @@
-
-          <%#= link_to_function "Register as a Teacher", "registerTeacher();", :class => 'button-blue centered' %>
-          <%#= link_to_function "Register as a Student", "registerStudent();", :class => 'button-blue centered' %>
 <div id="main-content" style="text-align:center; font-family:Courier">
     <div id="fb-root"></div>
 <script>(function(d, s, id) {
@@ -59,7 +56,7 @@
         $(this).tab('show');
     });
     $(document).ready(function(){
-    $('a[href^="#"]').on('click',function (e) {
+    $('footer a[href^="#"]').on('click',function (e) {
         e.preventDefault();
         var target = this.hash,
         $target = $(target);
@@ -72,6 +69,7 @@
 });
 </script>
 
+          
 <%= render :partial => 'shared/log_in' %>
 <%= render :partial => 'shared/register_modal' %>
 <%= render 'users/hidden_registration_forms' %>
@@ -80,6 +78,13 @@
     <div class='home2'>
         <div class="dotted-border">
           <br></br>
+<<<<<<< HEAD
+          <%#= link_to_function "Register as a Student", "registerStudent();", :class => 'button-blue centered' %>
+          <br></br>
+          <%#= link_to_function "Register as a Coach", "registerCoach();", :class => 'button-blue centered' %>
+    
+=======
+>>>>>>> master
       </div>
     </div>
   <div id="myCarousel" class="carousel slide">

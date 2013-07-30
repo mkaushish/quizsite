@@ -1,0 +1,3 @@
+$('#classrooms_div').animate({ marginTop: '+=80' }, 1000);
+$('#form').fadeIn().html('<%= j(render 'join_class_form', :teacher => @teacher) %>');
+$("#join_class_btn").fadeOut();

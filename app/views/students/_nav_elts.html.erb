@@ -1,13 +1,13 @@
 <ul>
   <li><%= link_to "Home", studenthome_path %></li>
-  <!--li><%= link_to "Me", "#" %></li>
-  <li><%= link_to "Help", "#" %></li-->
+  <!--li><%#= link_to "Me", "#" %></li>
+  <li><%#= link_to "Help", "#" %></li-->
 </ul>
 
 <ul style="float:right;">
   <li class=switch-to-header>Switch To</li>
-  <!-- <li class=switch-to><%= link_to "Coach", "#" %></li> -->
-  <!-- <li class=switch-to><%= link_to "Teacher", "#switchToTeacher", "data-toggle"=>"modal" %></li> -->
+  <!-- <li class=switch-to><%#= link_to "Coach", "#" %></li> -->
+  <!-- <li class=switch-to><%#= link_to "Teacher", "#switchToTeacher", "data-toggle"=>"modal" %></li> -->
   <li class=switch-to><%= link_to "Log out", signout_path, method: :delete %>
   <script>logoutb();</script>
 </ul>

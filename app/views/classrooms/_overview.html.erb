@@ -69,10 +69,10 @@ transition: all 0.3s ease-out;}
 <div class='row-fluid class-overview'>
   <!-- <div class=dotted-border-header>
     Class <%= classroom.name %> 
-    <%= link_to "Details", details_path(classroom.id) %> 
-    <%= link_to "Grades", "#" %>
+    <%#= link_to "Details", details_path(classroom.id) %> 
+    <%#= link_to "Grades", "#" %>
     <div class=class_password>
-      <%= classroom.class_pass %>
+      <%#= classroom.class_pass %>
     </div>
   </div> -->
   
@@ -83,71 +83,70 @@ transition: all 0.3s ease-out;}
           <li class=list-header>
             Students 
             <div class="pull-right">
-            <%= classroom.students.count unless classroom.students.empty? %>
+            <%#= classroom.students.count unless classroom.students.empty? %>
             </div>
           </li>
-          <% if classroom.students.empty? %>
+          <%# if classroom.students.empty? %>
             <li>Give your students the seven letter / number password in the box above so they can join your online classroom.</li>
-          <% else ; classroom.students.each do |student| %>
-            <li><%= link_to student.name, student_path(student.id) %></li>
-          <% end ; end %>
+          <%# else ; classroom.students.each do |student| %>
+            <li><%#= link_to student.name, student_path(student.id) %></li>
+          <%# end ; end %>
         </ul>
       </div> -->
 <div class='column-listdiv2'>
-  <div class=row-fluid>
-    <div id="classname">
-    CLASS|<%= classroom.name %> <span class="class_password"><%= classroom.class_pass %><span>
-  </div>
-  <div>
-    <ul>
-      <li><%= link_to "Details", details_path(classroom.id), :class => "button-blue", :style => "float:left; margin-top:-9px; margin-left:10px" %> </li>
-      <li><%= link_to "Grades", "#", :class => "button-blue", :style => "float:left; margin-top:-9px" %>
-    </ul>
-
-  </div>
-  </div>
     <div class=row-fluid>
-      <div style="float:left">
-        <ul class='column-list3'> <!-- changed this -->
-          <li class=list-header>
-            Students 
-            <div class="pull-right">
-            <%= classroom.students.count unless classroom.students.empty? %>
-            </div>
-          </li>
-          <% if classroom.students.empty? %>
-            <li>Give your students the seven letter / number password in the box above so they can join your online classroom.</li>
-          <% else ; classroom.students.each do |student| %>
-            <li><%= link_to student.name, student_path(student.id) %></li>
-          <% end ; end %>
-        </ul>
-      </div>
-
-      <div style="float:left">
-        <!-- <ul class='column-list teacher-class-col'> -->
-          <ul class='column-list3'>
-          <li class='.column-listheader'>
-            Problem Sets
-            <span class="assign"><%= link_to "Assign", show_psets_path(classroom), :class => 'pull-right', :remote => true %></span>
-          </li>
-          <% if classroom.problem_sets.empty? %>
-            <li>The problem sets you assign to a classroom determine which problems a student has access to.</li>
-            <li><%= link_to "Assign", "#" %> your first problem set so your students can start working!</li>
-          <% else ; classroom.problem_sets.each do |problem_set| %>
-            <li><%= link_to problem_set.name, details_path(id: classroom.id, problem_set: problem_set.id) %></li>
-          <% end ; end %>
-        </ul>
-      </div>
-      <div style="float:left">
-        <ul class='column-list3'>
-          <li class='.column-listheader'>
-            Quizzes
-            <span class="assign"><%= link_to "Assign", "#", :class => 'pull-right' %></span>
-          </li>
-          <%= render 'teachers/quiz_history', :@quiz_history => classroom.quizzes %>
-          <%#= render 'teachers/quiz_history', :@quiz_history => classroom.classroom_quizzes %>
-        </ul>
-      </div>
+        <div id="classname">
+            CLASS|<%= classroom.name %> 
+            <div class="class_student_password"><%= classroom.student_password %></div>
+            <div class="class_teacher_password"><%= classroom.teacher_password %></div>
+        </div>
+        <div>
+            <ul>
+                <li><%= link_to "Details", details_path(classroom.id), :class => "button-blue", :style => "float:left; margin-top:-9px; margin-left:10px" %> </li>
+                <li><%= link_to "Grades", "#", :class => "button-blue", :style => "float:left; margin-top:-9px" %>
+            </ul>
+        </div>
     </div>
-  </div>
+    <div class=row-fluid>
+        <div style="float:left">
+            <ul class='column-list3'> <!-- changed this -->
+                <li class=list-header>
+                    Students 
+                    <div class="pull-right">
+                        <%= classroom.students.count unless classroom.students.empty? %>
+                    </div>
+                </li>
+                <% if classroom.students.empty? %>
+                    <li>Give your students the seven letter / number password in the box above so they can join your online classroom.</li>
+                <% else ; classroom.students.each do |student| %>
+                    <li><%= link_to student.name, student_path(student.id) %></li>
+                <% end ; end %>
+            </ul>
+        </div>
+        <div style="float:left">
+            <!-- <ul class='column-list teacher-class-col'> -->
+            <ul class='column-list3'>
+                <li class='.column-listheader'>
+                    Problem Sets
+                    <span class="assign"><%= link_to "Assign", show_psets_path(classroom), :class => 'pull-right', :remote => true %></span>
+                </li>
+                <% if classroom.problem_sets.empty? %>
+                    <li>The problem sets you assign to a classroom determine which problems a student has access to.</li>
+                    <li><%= link_to "Assign", "#" %> your first problem set so your students can start working!</li>
+                <% else ; classroom.problem_sets.each do |problem_set| %>
+                    <li><%= link_to problem_set.name, details_path(id: classroom.id, problem_set: problem_set.id) %></li>
+                <% end ; end %>
+            </ul>
+        </div>
+        <div style="float:left">
+            <ul class='column-list3'>
+                <li class='.column-listheader'>
+                    Quizzes
+                    <span class="assign"><%= link_to "Assign", "#", :class => 'pull-right' %></span>
+                </li>
+                <%= render 'teachers/quiz_history', :@quiz_history => classroom.quizzes %>
+                <%#= render 'teachers/quiz_history', :@quiz_history => classroom.classroom_quizzes %>
+            </ul>
+        </div>
+    </div>
 </div>

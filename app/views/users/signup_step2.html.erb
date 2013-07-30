@@ -1,0 +1,32 @@
+<div class="row-fluid">
+	<div id="confirmation_code_form">
+		<div class="span4">
+			<h3>Hey <%= @user.email %>,</h3> 
+			<p>Please put the code that you got in the mail for confirmation of your account</p>
+			<%= form_tag verify_confirmation_code_path(:token => @confirmation_token), method: :post, remote: :true do |f| %>
+	    		<div class = "field_block">
+	        		<div class="row-fluid">
+	            		<span class="error_block" id="SignUp_email_err"></span>
+	            		<div class="span2">
+	                		<%= label_tag :confirmation_code, "Code" %>
+	            		</div>    
+	            		<div class="span2">    
+	                		<%= text_field_tag :confirmation_code, flash[:confirmation_code], :placeholder=>"Confirmation Code" %>
+	            		</div>
+	        		</div>    
+	    		</div>
+	    		<div class="row-fluid">
+	            	<div class="span2 pull-right">
+	        			<%= submit_tag "Next", :class=>"button-blue pull-right" %>
+	    			</div>
+	    		</div>
+			<% end %>
+		</div>
+	</div>
+</div>
+<div class="row-fluid">
+	<div id="details_form">
+	</div>
+</div>
+
+

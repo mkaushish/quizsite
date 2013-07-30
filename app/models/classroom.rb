@@ -1,9 +1,10 @@
 require 'digest'
 
 class Classroom < ActiveRecord::Base
-    attr_accessible :name, :password
+    attr_accessible :name, :student_password, :teacher_password
     
-    belongs_to :teacher, class_name: "User"
+    has_many :classroom_teachers, :dependent => :destroy
+    has_many :teachers, :through => :classroom_teachers    
     
     has_many :classroom_assignments, :dependent => :destroy
     has_many :students, :through => :classroom_assignments
@@ -13,7 +14,8 @@ class Classroom < ActiveRecord::Base
     has_many :classroom_quizzes, :dependent => :destroy
     has_many :quizzes
 
-    validates :password, :uniqueness => true
+    validates :student_password, :uniqueness => true
+    validates :teacher_password, :uniqueness => true
     validates :name, :presence => true
     after_create :new_password
 
@@ -32,35 +34,30 @@ class Classroom < ActiveRecord::Base
             classroom_problem_sets.create :problem_set => jimmy
             students.each { |stu| jimmy.assign(stu) }
 
-    elsif jimmy.is_a?(Quiz)
-      assign_quiz(jimmy)
+        elsif jimmy.is_a?(Quiz)
+            assign_quiz(jimmy)
 
-    else
-      # TODO allow to assign problem sets
-      raise "Classroom.assign! accepts a Student, ProblemSet, or Quiz. Given #{jimmy.inspect}"
-    end
-  end
-
-  def assign_quiz(quiz)
-    classroom_quizzes.create :quiz => quiz
-    pset = problem_sets.where(:id => quiz.problem_set_id).first
-
-    if pset.nil?
-      raise "Classroom: can only assign a quiz is quiz.problem_set is already assigned!"
+        else
+            # TODO allow to assign problem sets
+            raise "Classroom.assign! accepts a Student, ProblemSet, or Quiz. Given #{jimmy.inspect}"
+        end
     end
 
-    pset_instances = problem_set_instances.where(:problem_set_id => pset.id)
-    pset_instances.each { |psi| quiz.assign_with_pset_inst psi }
-  end
+    def assign_quiz(quiz)
+        classroom_quizzes.create :quiz => quiz
+        pset = problem_sets.where(:id => quiz.problem_set_id).first
 
-  def class_pass
-    self.password ||= new_password
-  end
+        if pset.nil?
+            raise "Classroom: can only assign a quiz is quiz.problem_set is already assigned!"
+        end
 
-
-    def class_pass
-        self.password ||= new_password
+        pset_instances = problem_set_instances.where(:problem_set_id => pset.id)
+        pset_instances.each { |psi| quiz.assign_with_pset_inst psi }
     end
+
+    # def class_pass
+    #     self.password ||= new_password
+    # end
 
     # generates a random lowercase alphanumeric password
     def rand_password
@@ -78,8 +75,10 @@ class Classroom < ActiveRecord::Base
 
     def new_password
         begin
-            self.password = rand_password if self.password.nil?
+            self.student_password = rand_password if self.student_password.nil?
+            self.teacher_password = rand_password if self.teacher_password.nil?
         end while !save
-        password
+        student_password
+        teacher_password
     end
 end

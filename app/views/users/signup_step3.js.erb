@@ -1,0 +1,8 @@
+$("#confirmation_code_form").fadeOut();
+<% if @user.is_a? (Student) %>
+	$("#details_form").fadeIn().html('<%= j(render 'details_student', :@user => @user ) %>');
+<% elsif @user.is_a? (Teacher) %>
+	$("#details_form").fadeIn().html('<%= j(render 'details_teacher', :@user => @user ) %>');
+<% elsif @user.is_a? (Coach) %>
+	$("#details_form").fadeIn().html('<%= j(render 'details_coach', :@user => @user ) %>');
+<% end %>
