@@ -96,7 +96,6 @@ class ProblemSetInstance < ActiveRecord::Base
   private
 
   def new_stat(problem_type, look_up_problem_stat = false)
-    debugger
       my_stat = self.problem_set_stats.new(:problem_type => problem_type)
       my_stat.assign_problem_stat! if look_up_problem_stat
       my_stat

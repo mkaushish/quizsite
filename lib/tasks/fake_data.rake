@@ -78,13 +78,18 @@ namespace :generate do
 
         (student(1)..student(24)).each do |name| 
             @student = Student.find_by_email( to_email(name) )
-            @instance ||= @student.problem_set_instances.new(:problem_set => @problem_set_1)
+            @instance = @student.problem_set_instances.where("problem_set_id = ?", @problem_set_1).last
+            @instance ||= @student.problem_set_instances.create(:problem_set => @problem_set_1)
             @stats = @instance.stats
-            @problem_set_1.problem_types.each do |ptype|
-                debugger
-                @stat = @instance.stat(ptype)
+            @problem_set_1.problem_types.each do |problem_type|
+                stat = @instance.problem_set_stats.where(:problem_type_id => problem_type.id).last
+                stat ||= @instance.problem_set_stats.create(:problem_type => problem_type)
+                stat.problem_stat = stat.problem_stat || @student.problem_stats.where(:problem_type_id => problem_type.id).first || @student.problem_stats.new(:problem_type => problem_type)
+                @stat = stat
                 @problem = @stat.spawn_problem
-                @answer = @student.answers.create(:correct => false, :problem_id => @problem.id, :problem_generator_id => @problem.problem_generator_id, :problem_type_id => ptype.id, session: @instance)
+                @solution = @problem.problem.prefix_solve
+                @correct = @problem.correct? @solution
+                @answer = @student.answers.create(problem_id: @problem.id, response: @solution, problem_generator_id: @problem.problem_generator_id, session: @instance, problem_type_id: problem_type.id, correct: @correct)
                 @stat.update_w_ans!(@answer)
             end
             
@@ -106,31 +111,31 @@ namespace :generate do
         end
         
         (student(25)..student(30)).each do |name| 
-            @student = Student.find_by_email( to_email(name) )
-            @instance ||= @student.problem_set_instances.new(:problem_set => @problem_set_1)
-            @stats = @instance.stats
-            @problem_set_1.problem_types.each do |ptype|
-                @stat = @instance.stat(ptype)
-                @problem = @stat.spawn_problem
-                @answer = @student.answers.create(:correct => false, :problem_id => @problem.id, :problem_generator_id => @problem.problem_generator_id, :problem_type_id => ptype.id, session: @instance)
-                @stat.update_w_ans!(@answer)
-            end
-            @instance ||= @student.problem_set_instances.new(:problem_set => @problem_set_2)
-            @stats = @instance.stats
-            @problem_set_2.problem_types.each do |ptype|
-                @stat = @instance.stat(ptype)
-                @problem = @stat.spawn_problem
-                @answer = @student.answers.create(:correct => false, :problem_id => @problem.id, :problem_generator_id => @problem.problem_generator_id, :problem_type_id => ptype.id, session: @instance)
-                @stat.update_w_ans!(@answer)
-            end
-            @instance ||= @student.problem_set_instances.new(:problem_set => @problem_set_3)
-            @stats = @instance.stats
-            @problem_set_3.problem_types.each do |ptype|
-                @stat = @instance.stat(ptype)
-                @problem = @stat.spawn_problem
-                @answer = @student.answers.create(:correct => false, :problem_id => @problem.id, :problem_generator_id => @problem.problem_generator_id, :problem_type_id => ptype.id, session: @instance)
-                @stat.update_w_ans!(@answer)
-            end
+            # @student = Student.find_by_email( to_email(name) )
+            # @instance ||= @student.problem_set_instances.new(:problem_set => @problem_set_1)
+            # @stats = @instance.stats
+            # @problem_set_1.problem_types.each do |ptype|
+            #     @stat = @instance.stat(ptype)
+            #     @problem = @stat.spawn_problem
+            #     @answer = @student.answers.create(:correct => false, :problem_id => @problem.id, :problem_generator_id => @problem.problem_generator_id, :problem_type_id => ptype.id, session: @instance)
+            #     @stat.update_w_ans!(@answer)
+            # end
+            # @instance ||= @student.problem_set_instances.new(:problem_set => @problem_set_2)
+            # @stats = @instance.stats
+            # @problem_set_2.problem_types.each do |ptype|
+            #     @stat = @instance.stat(ptype)
+            #     @problem = @stat.spawn_problem
+            #     @answer = @student.answers.create(:correct => false, :problem_id => @problem.id, :problem_generator_id => @problem.problem_generator_id, :problem_type_id => ptype.id, session: @instance)
+            #     @stat.update_w_ans!(@answer)
+            # end
+            # @instance ||= @student.problem_set_instances.new(:problem_set => @problem_set_3)
+            # @stats = @instance.stats
+            # @problem_set_3.problem_types.each do |ptype|
+            #     @stat = @instance.stat(ptype)
+            #     @problem = @stat.spawn_problem
+            #     @answer = @student.answers.create(:correct => false, :problem_id => @problem.id, :problem_generator_id => @problem.problem_generator_id, :problem_type_id => ptype.id, session: @instance)
+            #     @stat.update_w_ans!(@answer)
+            # end
         end
     # sg = Admin.find_by_email("admin@smartergrades.com") || 
     #      Admin.create!(name: "SmarterGrades",

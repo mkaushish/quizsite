@@ -1,3 +1,4 @@
+require 'debugger'
 module FollowsProblemStat
   extend ActiveSupport::Concern
 
@@ -17,6 +18,7 @@ module FollowsProblemStat
   end
 
   def assign_problem_stat!
+    debugger
     self.problem_stat = stat
   end
 
