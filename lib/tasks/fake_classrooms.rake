@@ -12,7 +12,7 @@ namespace :generate do
         n = 3
         while i < n do
             @classroom = Classroom.create(:name => "Sample_Classroom_#{i}")
-            @classroom = @classroom.classroom_teachers.create(:teacher_id => @teacher.id) unless @classroom.nil?
+            @classroom_teacher = @classroom.classroom_teachers.create(:teacher_id => @teacher.id) unless @classroom.nil?
             puts "Classroom #{i} created" unless @classroom.nil? and @classroom_teacher.nil?
 
             @classroom.assign!(@problem_set_1)
