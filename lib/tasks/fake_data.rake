@@ -59,9 +59,9 @@ namespace :generate do
                     @instance = student_instance(@student, problem_set) 
                     @stats = @instance.stats
                     problem_set.problem_types.each do |problem_type|
-                        i = 0
+                        pi = 0
                         tot=rand(4)+8
-                        while i < tot
+                        while pi < tot
                             stat = @instance.problem_set_stats.where(:problem_type_id => problem_type.id).last
                             stat ||= @instance.problem_set_stats.create(:problem_type => problem_type)
                             stat.problem_stat = stat.problem_stat || @student.problem_stats.where(:problem_type_id => problem_type.id).first || @student.problem_stats.new(:problem_type => problem_type)
@@ -75,7 +75,7 @@ namespace :generate do
                             @correct = @problem.correct? @solution
                             @answer = @student.answers.create(problem_id: @problem.id, response: @solution, problem_generator_id: @problem.problem_generator_id, session: @instance, problem_type_id: problem_type.id, correct: @correct)
                             @stat.update_w_ans!(@answer)
-                            i+=1
+                            pi+=1
                         end
                     end
                 end
