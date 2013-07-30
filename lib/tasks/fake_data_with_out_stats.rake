@@ -80,50 +80,19 @@ namespace :generate do
 
         (student(1)..student(24)).each do |name| 
             @student = Student.find_by_email( to_email(name) )
-            @instance ||= @student.problem_set_instances.new(:problem_set => @problem_set_1)
-            puts "#{@problem_set_1.name}"
-            @problem_set_1.problem_types.each do |ptype|
-                i = 0
-                while i < 11
-                @answer = @student.answers.create(:correct => true, :problem_type_id => ptype.id, :response => "na", :problem_id => "#{i}") 
-                puts "answer created" unless @answer.blank?
-                i += 1   
-                end
-            end
             @instance ||= @student.problem_set_instances.new(:problem_set => @problem_set_2)
             puts "#{@problem_set_2.name}"
             @problem_set_2.problem_types.each do |ptype|
                 i = 0
-                while i < 11
-                @answer = @student.answers.create(:correct => true, :problem_type_id => ptype.id, :response => "na", :problem_id => "#{i}") 
+                while i < 3
+                problem=ptype.spawn_problem
+                @answer = @student.answers.create(:correct => true, :problem_id => problem.id, :problem_generator_id => problem.problem_generator_id, :problem_type_id => ptype.id, :response => "na") 
                 puts "answer created" unless @answer.blank?
                 i += 1
                 end
             end
         end
         
-        (student(25)..student(30)).each do |name| 
-            @student = Student.find_by_email( to_email(name) )
-            @instance ||= @student.problem_set_instances.new(:problem_set => @problem_set_1)
-            puts "#{@problem_set_1.name}"
-            @problem_set_1.problem_types.each do |ptype|
-                i = 0
-                while i < 11
-                @answer = @student.answers.create(:correct => true, :problem_type_id => ptype.id, :response => "na", :problem_id => "#{i}") 
-                puts "answer created" unless @answer.blank?
-                i += 1   
-                end
-            end
-            @instance ||= @student.problem_set_instances.new(:problem_set => @problem_set_2)
-            puts "#{@problem_set_2.name}"
-            @problem_set_2.problem_types.each do |ptype|
-                i = 0
-                while i < 11
-                @answer = @student.answers.create(:correct => true, :problem_type_id => ptype.id, :response => "na", :problem_id => "#{i}") 
-                puts "answer created" unless @answer.blank?
-                i += 1
-                end
-            end
-        end
+       
     end
 end

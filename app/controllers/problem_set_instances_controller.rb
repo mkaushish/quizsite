@@ -65,6 +65,7 @@ class ProblemSetInstancesController < ApplicationController
         if @problem_set.problem_types.exists? params[:pid]
             @problem_type = @problem_set.problem_types.find(params[:pid])
             @stat = @instance.stat(@problem_type)
+            debugger
             @problem = @stat.spawn_problem
             # $stderr.puts "STAT_N_PROBLEM " * 20
             # $stderr.puts @stat.inspect

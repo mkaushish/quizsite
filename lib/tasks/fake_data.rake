@@ -82,33 +82,27 @@ namespace :generate do
             @stats = @instance.stats
             @problem_set_1.problem_types.each do |ptype|
                 debugger
-                @new_stat = @student.problem_stats.where("problem_type_id = ?", ptype.id).last
-                @new_stat ||= @student.problem_stats.new(:problem_type => ptype)
-                @stat = ProblemSetStat.includes(:problem_set_instance).includes(:problem_type).find_by_id(@new_stat.id)
+                @stat = @instance.stat(ptype)
                 @problem = @stat.spawn_problem
-                @answer = @student.answers.create(:correct => true, :problem_id => @problem.id, :problem_generator_id => @problem.problem_generator_id, :problem_type_id => ptype.id, session: @instance)
+                @answer = @student.answers.create(:correct => false, :problem_id => @problem.id, :problem_generator_id => @problem.problem_generator_id, :problem_type_id => ptype.id, session: @instance)
                 @stat.update_w_ans!(@answer)
             end
-            @instance ||= @student.problem_set_instances.new(:problem_set => @problem_set_2)
-            @stats = @instance.stats
-            @problem_set_2.problem_types.each do |ptype|
-                @new_stat = @student.problem_stats.where("problem_type_id = ?", ptype.id).last
-                @new_stat ||= @student.problem_stats.new(:problem_type => ptype)
-                @stat = ProblemSetStat.includes(:problem_set_instance).includes(:problem_type).find_by_id(@new_stat.id)
-                @problem = @stat.spawn_problem
-                @answer = @student.answers.create(:correct => true, :problem_id => @problem.id, :problem_generator_id => @problem.problem_generator_id, :problem_type_id => ptype.id, session: @instance)
-                @stat.update_w_ans!(@answer)
-            end
-            @instance ||= @student.problem_set_instances.new(:problem_set => @problem_set_3)
-            @stats = @instance.stats
-            @problem_set_3.problem_types.each do |ptype|
-                @new_stat = @student.problem_stats.where("problem_type_id = ?", ptype.id).last
-                @new_stat ||= @student.problem_stats.new(:problem_type => ptype)
-                @stat = ProblemSetStat.includes(:problem_set_instance).includes(:problem_type).find_by_id(@new_stat.id)
-                @problem = @stat.spawn_problem
-                @answer = @student.answers.create(:correct => true, :problem_id => @problem.id, :problem_generator_id => @problem.problem_generator_id, :problem_type_id => ptype.id, session: @instance)
-                @stat.update_w_ans!(@answer)
-            end
+            
+            # @student = Student.find_by_email( to_email(name) )
+            # @instance ||= @student.problem_set_instances.create(:problem_set => @problem_set_1)
+            # @stats = @instance.stats
+            # @problem_set_1.problem_types.each do |ptype|
+            #     debugger
+            #     @stat = @instance.stat(ptype)
+            #     @problem = @stat.spawn_problem
+                # @new_stat = @student.problem_stats.where("problem_type_id = ?", ptype.id).last
+                # @new_stat ||= @student.problem_stats.new(:problem_type => ptype)
+                #@stat = ProblemSetStat.includes(:problem_set_instance).includes(:problem_type).find_by_id(@new_stat.id)
+                #@problem = @stat.spawn_problem
+                # @answer = @student.answers.create(:correct => true, :problem_id => @problem.id, :problem_generator_id => @problem.problem_generator_id, :problem_type_id => ptype.id, session: @instance)
+                # @stat.update_w_ans!(@answer)
+            # end
+            
         end
         
         (student(25)..student(30)).each do |name| 
