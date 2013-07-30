@@ -11,7 +11,7 @@ include ToHTML
 include PreG6
 
 module PerimeterandArea
-  INDEX = "perimeterandarea"
+  INDEX = 22
   TITLE = "Perimeter and Area 2"
   
   UNITS = ["mm","cm","dc","m","Dm","hm","km" ]

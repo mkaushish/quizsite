@@ -43,24 +43,19 @@ CHAPTERS = [
   Chapter8,
   Chapter9,
   Chapter10,
-#  Chapter11,
+  Algebra_6,
   Chapter12,
-#  MyChapter12,
-  Geo,
-  CricketQuestions,
+  PerimeterandArea_6,
+  RationalNumbers,
   Chapter27,
   Chaptersqroot,
-  DI_Proportions,
-  Linear,
-  Algebra,
-  Algebra_6,
   ComparingQuantities,
-  RationalNumbers,
-  PerimeterandArea,
-  PerimeterandArea_6,
+  DI_Proportions,
+  Algebra,
+  Linear,
   Mensuration_8,
-  ComparingQuantities
-
-
+  PerimeterandArea,
+  Geo,
+  CricketQuestions
 ]
 

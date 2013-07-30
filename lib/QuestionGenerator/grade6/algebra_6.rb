@@ -12,7 +12,7 @@ include PreG6
 include Chapter6
 
 module Algebra_6
-  INDEX = "algebra_6"
+  INDEX = 11
   TITLE = "Algebra 1"
   
   VARIABLES=["x", "z", "y", "u", "v", "w", "p", "m", "n", "l", "b", "h"] 

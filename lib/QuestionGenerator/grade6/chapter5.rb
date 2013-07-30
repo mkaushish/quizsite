@@ -8,7 +8,7 @@ require_relative '../modules/names'
 include ToHTML
 include Geometry
 module Chapter5
-  INDEX = "chapter5"
+  INDEX = 5
   TITLE = "Understanding Elementary Shapes"
 
   class Try3_4 < QuestionBase

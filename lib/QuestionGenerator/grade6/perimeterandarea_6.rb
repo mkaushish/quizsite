@@ -13,7 +13,7 @@ include PreG6
 include PerimeterandArea
 
 module PerimeterandArea_6
-  INDEX = "perimeterandarea_6"
+  INDEX = 13
   TITLE = "Perimeter and Area 1"
   
   UNITS = ["mm","cm","dc","m","Dm","hm","km" ]

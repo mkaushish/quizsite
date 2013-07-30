@@ -12,7 +12,7 @@ include PreG6
 include Chapter6
 
 module Algebra
-  INDEX = "algebra"
+  INDEX = 19
   TITLE = "Algebra 2"
   
   class Createkb < QuestionBase
