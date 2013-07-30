@@ -1,5 +1,3 @@
-require 'debugger'
-
 namespace :generate do
     desc "Generate three sample classrooms with 30 users each and having problems correct as 80%, 70& and 60%"
     task :fake_data => :environment do
