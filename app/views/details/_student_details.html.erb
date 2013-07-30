@@ -6,7 +6,7 @@
     <ul class="column-list" style="border:none">
       <% @students.sort { |a,b| a.name <=> b.name }.each do |student| %>
       <li>
-        <%= student.name %>
+        <%= link_to student.name, student_path(student.id) %>
       </li>
       <% end %>
     </ul>
