@@ -1,0 +1,10 @@
+<ul>
+  <li><%= link_to "Overview", coachhome_path %></li>
+  <%= yield :nav_elts if content_for?(:nav_elts) %>
+</ul>
+
+<ul class="pull-right">
+  <li class="switch-to">
+    <%= link_to "Log Out", signout_path, :method => :delete %>
+  </li>
+</ul>

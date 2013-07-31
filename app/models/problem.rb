@@ -20,7 +20,7 @@ class Problem < ActiveRecord::Base
     belongs_to :user
     
     attr_writer :problem # so these can be accessible variables in the constructor
-    attr_accessible :problem, :user_id
+    attr_accessible :problem, :user_id, :problem_generator_id
 
     before_save :dump_problem
 

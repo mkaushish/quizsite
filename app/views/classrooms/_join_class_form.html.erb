@@ -1,0 +1,5 @@
+<%= form_tag(join_classroom_path(teacher), method: :post) do %>
+	<%= text_field_tag :class_teacher_pass, nil, placeholder: "Class Password to join that Class" %>
+	<%= submit_tag "Add", :class => "btn" %>
+<% end %>
+<%= link_to "Cancel", "#", id: "cancel_btn", :class => "btn" %>

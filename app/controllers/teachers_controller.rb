@@ -14,8 +14,10 @@ class TeachersController < ApplicationController
             render :js => form_for_errs('teacher', teacher)
             return
         end
-        classroom = teacher.classrooms.new params[:classroom]
-        if !classroom.save
+        classroom = Classroom.new params[:classroom]
+        if classroom.save
+            classroom_teacher = teacher.classroom_teachers.create(:classroom_id => classroom.id)
+        else
             teacher.delete
             render :js => form_for_errs('classroom', classroom)
             return

@@ -1,0 +1,34 @@
+<table>
+	<tr id="tr_<%= student.id %>">
+		<td class="span4">
+			<%= link_to student.name, student_path(student) %>
+		</td>
+		
+		<td class ="span6">
+			<% unless already_added(coach, student) %>
+			<%= link_to "Add", "#", id: "add_btn_#{student.id}", :class => "btn" %>
+			<div id="hidden_form_<%= student.id %>">
+				<%= form_tag(coach_add_student_path(coach, student), method: :post) do %>
+					<%= text_field_tag "relation", nil, placeholder: "Your Relation with the #{student.name}" %>
+					<%= submit_tag "Add" %>
+				<% end %>
+				<%= link_to "Cancel", "#", id: "cancel_btn_#{student.id}", :class => "btn" %>
+			</div>
+			<% end %>
+		</td>
+	</tr>
+</table>
+	
+<script>
+	$(function(){
+		$("#hidden_form_<%=student.id%>").hide();
+        $("#add_btn_<%=student.id%>").on('click',function() {
+            $(this).hide();
+            $("#hidden_form_<%=student.id%>").show();
+        });
+        $("#cancel_btn_<%=student.id%>").on('click',function() {
+            $("#hidden_form_<%=student.id%>").hide();
+            $("#add_btn_<%=student.id%>").show();
+        }); 
+    });
+</script>

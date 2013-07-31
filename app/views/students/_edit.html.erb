@@ -1,6 +1,5 @@
 <h2>Edit Your Profile</h2>
-<%= form_for @student, :url => update_student_path(@student), :html => { :multipart => true } do |f| %>    
-        
+<%= form_for @student, :url => update_student_path(@student), :html => { :multipart => true } do |f| %>        
  <% if @student.errors.any? %>
     <div class="alert alert-error">
       <div id="error_explanation">
@@ -45,14 +44,12 @@
   
   <div class="control-group">
     <div class="controls">
-      <%= link_to image_tag("avatar1.jpg", :size => "60x60"),"#" ,:id=>"image1", :onclick=> 'do_stuff("avatar1.jpg")' %>
-      <%= link_to image_tag("avatar2.jpg", :size => "60x60"),"#" ,:id=>"image2", :onclick=> 'do_stuff("avatar2.jpg")' %>
-      <%= link_to image_tag("avatar3.jpg", :size => "60x60"),"#" ,:id=>"image3", :onclick=> 'do_stuff("avatar3.jpg")' %>
-      <%= link_to image_tag("avatar4.jpg", :size => "60x60"),"#" ,:id=>"image4", :onclick=> 'do_stuff("avatar4.jpg")' %>
+      <%= link_to image_tag("avatar1.jpg", :size => "60x60"),"#" ,:id=>"avatar1", :onclick=> 'select_image("avatar1.jpg")' %>
+      <%= link_to image_tag("avatar2.jpg", :size => "60x60"),"#" ,:id=>"avatar2", :onclick=> 'select_image("avatar2.jpg")' %>
+      <%= link_to image_tag("avatar3.jpg", :size => "60x60"),"#" ,:id=>"avatar3", :onclick=> 'select_image("avatar3.jpg")' %>
+      <%= link_to image_tag("avatar4.jpg", :size => "60x60"),"#" ,:id=>"avatar4", :onclick=> 'select_image("avatar4.jpg")' %>
     </div>
   </div>
-
-
 
   <div class="form-actions">
     <%= f.submit "Update", :class => 'btn btn-info' %>
@@ -61,12 +58,12 @@
 <% end %>
 
 <script>
-function do_stuff(value) {
-  var image = value; 
-  $(this).click(function(){
-    $(this).css("border","1px solid black");   
-  });
-  $("#student_image").val(image);
-}
-
+  function select_image(value) {
+    var image = value; 
+    size = value.length;
+    new_size = size - 4;
+    id = value.slice(0,new_size);
+    $("#"+id+" img").css("border","2px solid black");
+    $("#student_image").val(image);
+  }
 </script>

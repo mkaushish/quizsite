@@ -1,5 +1,3 @@
-require 'debugger'
-
 namespace :generate do
     desc "Generate three sample classrooms with 30 users each and having problems correct as 80%, 70& and 60%"
     task :fake_data_with_out_stats => :environment do
@@ -76,7 +74,6 @@ namespace :generate do
         (student(61)..student(90)).each do |name| 
             @classroom_3.assign! Student.find_by_email( to_email(name) )
         end
-
 
         # (student(1)..student(30)).each do |name| 
         #     @student = Student.find_by_email( to_email(name) )

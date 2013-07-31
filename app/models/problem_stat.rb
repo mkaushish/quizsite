@@ -31,7 +31,6 @@ class ProblemStat < ActiveRecord::Base
       answer.points = points_for(answer.correct)
       answer.save
     end
-
     self.count += 1
     self.correct += 1 if answer.correct
     self.points += answer.points

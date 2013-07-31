@@ -24,7 +24,7 @@ class Answer < ActiveRecord::Base
 
      attr_writer :params
     # note, session refers to a practice session not a cookie
-    attr_accessible :params, :session, :problem, :problem_id, :correct
+    attr_accessible :params, :session, :problem, :problem_id, :correct, :problem_type_id, :response, :problem_generator_id
 
     validates :problem_id, :presence => true
     validates :response,   :presence => true

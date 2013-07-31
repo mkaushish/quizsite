@@ -1,0 +1,18 @@
+<div class="row-fluid">
+    <%= render "coach_info", :coach => @coach %>
+</div>
+
+<h4>Search Students:</h4>
+
+<%= render 'search_form' %>
+
+<h4>Search Results:</h4>
+
+<% if @total_students > 0 %>
+    <h5><%= "Total Students found (#{@total_students})" %></h5>
+      <% @students_searched.each do |student| %>
+        <%= render 'students', :student => student, :coach => @coach %>
+      <% end %>
+<% else %>
+  <h5>Students (0)</h5>
+<% end %>

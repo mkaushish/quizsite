@@ -3,11 +3,11 @@
     <li class=divider-vertical></li>
     <li><%= link_to "Sign Out", signout_path, :method => :delete %></li>
     <!--
-    <li class="dropdown <%= selected?("quiz") %>">
-      <%= link_to raw('<i class="icon-user icon-white"></i> Account'), "#", :class => "dropdown-toggle", "data-toggle" => "dropdown" %>
+    <li class="dropdown <%#= selected?("quiz") %>">
+      <%#= link_to raw('<i class="icon-user icon-white"></i> Account'), "#", :class => "dropdown-toggle", "data-toggle" => "dropdown" %>
       <ul class="dropdown-menu nav-dropdown">
-        <li><%= link_to "Change Password", change_password_user_path(current_user) %></li>
-        <li><%= link_to "Sign Out", signout_path, :method => :delete %></li>
+        <li><%#= link_to "Change Password", change_password_user_path(current_user) %></li>
+        <li><%#= link_to "Sign Out", signout_path, :method => :delete %></li>
       </ul>
     </li>
     -->
@@ -18,9 +18,9 @@
   <div class=nav-collapse>
     <%= form_for(:session, {:url => signin_path, :html => {:class => "mynavbar-form"}, :remote => true}) do |f| %>
       <ul class="nav pull-right">
-        <li class=divider-vertical></li>
-        <li class=text id=userfield> <%= f.text_field :email, :placeholder=>"Email" %> </li>
-        <li class=text id=psswfield> <%= f.password_field :password, :placeholder => "Password" %> </li>
+        <li class="divider-vertical"></li>
+        <li class="text" id="userfield"> <%= f.text_field :email, :placeholder=>"Email" %> </li>
+        <li class="text" id="psswfield"> <%= f.password_field :password, :placeholder => "Password" %> </li>
         <li class=button>
           <%= f.submit "Sign in",  :class=>"btn btn-success" %>
           <%# link_to "Register", new_user_path, :method =>:get, :class=>"btn btn-primary"  %>

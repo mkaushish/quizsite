@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130702124018) do
+ActiveRecord::Schema.define(:version => 20130723115135) do
 
   create_table "active_admin_comments", :force => true do |t|
     t.string   "resource_id",   :null => false
@@ -106,15 +106,27 @@ ActiveRecord::Schema.define(:version => 20130702124018) do
 
   add_index "classroom_quizzes", ["classroom_id", "quiz_id"], :name => "classroom_quizzes_dual_index", :unique => true
 
+  create_table "classroom_teachers", :force => true do |t|
+    t.integer  "classroom_id", :null => false
+    t.integer  "teacher_id",   :null => false
+    t.datetime "created_at",   :null => false
+    t.datetime "updated_at",   :null => false
+  end
+
   create_table "classrooms", :force => true do |t|
     t.string   "name"
     t.integer  "teacher_id"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.string   "password"
+    t.string   "student_password"
+    t.string   "teacher_password"
   end
 
-  add_index "classrooms", ["password"], :name => "index_classrooms_on_password", :unique => true
+  create_table "coaches", :force => true do |t|
+    t.string   "name"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
 
   create_table "delayed_jobs", :force => true do |t|
     t.integer  "priority",   :default => 0
@@ -257,6 +269,14 @@ ActiveRecord::Schema.define(:version => 20130702124018) do
   end
 
   add_index "quizzes", ["user_id", "name"], :name => "index_quizzes_on_user_id_and_name", :unique => true
+
+  create_table "relationships", :force => true do |t|
+    t.integer  "coach_id"
+    t.integer  "student_id"
+    t.string   "relation"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
 
   create_table "users", :force => true do |t|
     t.string   "name"

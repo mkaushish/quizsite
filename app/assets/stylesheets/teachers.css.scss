@@ -35,11 +35,21 @@ ul.teacher-class-col {
   margin-bottom:25px;
 }
 
-.class_password {
-  display:inline-block;
-  margin-left:5px;
-  padding:2px 7px;
+.class_student_password {
+  display: inline-block;
+  padding: 5px 7px;
   border: 1px solid gray;
+  background: maroon;
+  color: white;
+}
+
+.class_teacher_password {
+  display: inline-block;
+  margin-left: 5px;
+  padding: 5px 7px;
+  border: 1px solid gray;
+  background: maroon;
+  color: white;
 }
 
 .teacher-details-body {

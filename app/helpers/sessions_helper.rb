@@ -3,10 +3,10 @@ module SessionsHelper
   def sign_in(user)
     # TODO remove when/if we put confirmation back in
     # temporarily, to confirm all users
-    unless user.confirmed
-      user.confirmed = true
-      user.save :validate => false
-    end
+    # unless user.confirmed
+    #   user.confirmed = true
+    #   user.save :validate => false
+    # end
     cookies.permanent.signed[:remember_token] = [user.id, user.salt]
     self.current_user = user
   end
@@ -38,6 +38,10 @@ module SessionsHelper
 
   def deny_access
     redirect_to access_denied_path, :notice => "Please sign in to access this page"
+  end
+
+  def deny_access_user_not_confirmed
+    redirect_to access_denied_path, :notice => "Please confirm your account first."
   end
 
   def belongs_to_user(item)

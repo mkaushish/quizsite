@@ -1,0 +1,6 @@
+<%= search_form_for @search, :url => search_students_path, method: :get do |f| %>
+	<div class="input-append">
+		<%= f.text_field :name_cont, :placeholder => "Search Students" %>
+		<%= f.submit "Search", class: "btn" %> 
+ 	</div>
+<% end %>

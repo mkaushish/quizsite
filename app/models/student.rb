@@ -8,6 +8,9 @@ class Student < User
     has_many :teachers, :through => :classrooms
     has_many :badges
     has_many :notifications
+    has_many :relationships, :dependent => :destroy
+    has_many :coaches, :through => :relationships
+
     # after_create :assign_class #TODO broken
 
     def problem_history(*ptypes)
