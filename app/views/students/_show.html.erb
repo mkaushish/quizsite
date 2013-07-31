@@ -10,7 +10,7 @@
 				<% @problem_sets.each do |pset| %>
 					<% pset.problem_types.each do |ptype|%>
 						<% @array = [['Problem Types','Correct Percentage']] %>
-						<% @answers = ptype.answers.map(&:correct) %>
+						<% @answers = ptype.answers.where("user_id = #{@student.id}").map(&:correct) %>
 						<% @ans_right = @answers.select{|v| v == true}.count %>
   						<% @ans_wrong = @answers.select{|v| v == true}.count %>
   						<% if (@ans_wrong + @ans_right) > 0 %>  
@@ -34,7 +34,7 @@
 			  				<% pset.problem_types.each do |ptype| %>
 			  					<% @count = 0%>
 			  					<% @counttrue = 0%>
-		  						<% ptype.answers.each do |answer|%>
+		  						<% ptype.answers.where("user_id = #{@student.id}").each do |answer|%>
                                 	<% @count = @count? @count+ 1: 0%>
                                 	<%if answer.correct == true%>
                                 		<% @counttrue = @counttrue ? @counttrue +1 :0%>
@@ -66,16 +66,14 @@
 	  					<!-- <div class='dotted-border' style='min-height:400px;'> -->
 	  					<div class="column-listdiv" style="min-height:400px;">
 							<ul class='column-list2 colum-list22' id="History_tabs">
-		  						<% ptype.answers.each do |answer| %>
-		  							<% if answer.user_id == @student.id %>
+		  						<% ptype.answers.where("user_id = #{@student.id}").each do |answer| %>
 		  								<%if answer.correct == true%>
-											<li><%= link_to (answer.problem_type.to_s), show_answer_path(id: answer.id, instance: pset.id), remote: true %><span style="float:right;"><%= image_tag "correct_check.jpg"%></span>
+											<li><%= link_to (answer.problem_type.to_s), show_answer_path(id: answer.id, instance: pset.id), remote: true %><span style="float:right;"><%= image_tag "correct_check.png"%></span>
 											</li>	
 										<% else %>		
-											<li><%= link_to (answer.problem_type.to_s), show_answer_path(id: answer.id, instance: pset.id), remote: true %><span style="float:right;"><%= image_tag "incorrect_x.jpg"%></span>
+											<li><%= link_to (answer.problem_type.to_s), show_answer_path(id: answer.id, instance: pset.id), remote: true %><span style="float:right;"><%= image_tag "incorrect_3.png"%></span>
 										<% end %>
 											</li>
-		  							<% end %>
 	  							<% end %>
 							</ul>
 						</div>

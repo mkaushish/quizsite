@@ -10,7 +10,7 @@ include ToHTML
 include PreG6
 
 module Chapter27
-  INDEX = "chapter27"
+  INDEX = 15
   TITLE = "Power and Exponents"
   class Findpowerexp < QuestionWithExplanation
     def self.type

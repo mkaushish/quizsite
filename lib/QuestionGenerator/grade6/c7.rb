@@ -615,10 +615,10 @@ module Chapter7
       stro
     end
   end
-
+  ITEMSUSED=["pensils", "notebooks", "pens", "batteries", "crayons"]
   class Try5_1 < QuestionWithExplanation
     def self.type
-      "Try5_1"
+      "Largest Fraction"
     end
     def initialize
       @person1 , @person2, @person3 = Names.generate(3)
@@ -634,6 +634,7 @@ module Chapter7
       @choose1 = @a-@b
       @num = 1
       @den =1
+      @item=ITEMSUSED.sample
     end
 
     def solve
@@ -754,11 +755,11 @@ module Chapter7
 
     def text
       [
-        TextLabel.new("#{@person1} had #{@g} pencils, #{@person2} had #{@h} pencils and #{@person3} had #{@i} pencils. After 4 months, #{@person1} used up #{@d} pencils, #{@person2} used up #{@e} pencils and #{@person3} used up #{@f} pencils. Who used up the greatest fraction of her/his pencils?. Also specify the largest fraction used in the lowest form"),
-        TextLabel.new("Largest fraction used = "),
+        TextLabel.new("#{@person1} had #{@g} #{@item}, #{@person2} had #{@h} #{@item} and #{@person3} had #{@i} #{@item}. After 4 months, #{@person1} used up #{@d} #{@item}, #{@person2} used up #{@e} #{@item} and #{@person3} used up #{@f} #{@item}. Who used up the greatest fraction of her/his #{@item}?. Also specify the largest fraction used in the lowest form"),
+        TextLabel.new("Largest fraction of #{@item} used = "),
         Fraction.new("num", "den"),
       
-        TextLabel.new("The largest fraction was used by"),
+        TextLabel.new("The largest fraction of #{@item} was used by"),
         Dropdown.new("sign", "#{@person1}", "#{@person2}","#{@person3}","Equal")
       ]
     end
@@ -787,7 +788,7 @@ module Chapter7
   
   class Try5_3 < QuestionWithExplanation
     def self.type
-      "Try5_3"
+      "Which is Larger?"
     end
     def initialize
       @person1 , @person2 = Names.generate(2)
@@ -860,7 +861,7 @@ module Chapter7
 
   class Try5_4 < QuestionWithExplanation
     def self.type
-      "Try5_4"
+      "Fraction Remaining"
     end
     def initialize
       @person, @person2 = Names.generate(2)
@@ -1155,7 +1156,7 @@ module Chapter7
 
   class Try5_16 < QuestionWithExplanation
     def self.type
-      "Try5_9"
+      "Product of Fractions"
     end
     def initialize
       @num = rand(100)+1
@@ -1268,7 +1269,7 @@ module Chapter7
 
   class Try5_15 < QuestionWithExplanation
     def self.type
-      "Try5_15"
+      "Fraction from Part"
     end
     def initialize
       @person, @person2 = Names.generate(2)
@@ -1386,7 +1387,7 @@ module Chapter7
 
   class Try5_17 < QuestionWithExplanation
     def self.type
-      "Try5_17"
+      "Product of Fraction and Whole Number"
     end
     def initialize
       @num = rand(10)+1
@@ -1485,7 +1486,7 @@ module Chapter7
 
   class Try5_18 < QuestionWithExplanation
     def self.type
-      "Try5_18"
+      "Find Equivalent Fraction"
     end
     def initialize
       @num = rand(100)+1
@@ -1592,7 +1593,7 @@ module Chapter7
 
   class Try5_19 < QuestionWithExplanation
     def self.type
-      "Try5_13"
+      "Fraction Between"
     end
     def initialize
       @choose=0
@@ -1912,7 +1913,7 @@ module Chapter7
 
   class Try5_20 < QuestionWithExplanation
     def self.type
-      "Try5_20"
+      "Divide Fractions"
     end
     def initialize
       @num = rand(10)+1
@@ -2052,7 +2053,7 @@ module Chapter7
     Chapter7::ASMixedFractions,
     Chapter7::Try5_1,
     Chapter7::Try5_3,
-    Chapter7::Try5_2,
+    #Chapter7::Try5_2,
     Chapter7::Try5_4,
     # Chapter7::Try5_5,
     # Chapter7::Try5_6,

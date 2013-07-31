@@ -10,7 +10,7 @@ include ToHTML
 include PreG6
 
 module Linear
-  INDEX = "linear"
+  INDEX = 20
   TITLE = "Linear Equations"
   
 

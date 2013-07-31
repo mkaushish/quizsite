@@ -14,8 +14,8 @@ include PreG6
 include PerimeterandArea
 
 module Mensuration_8
-  INDEX = "mensuration_8"
-  TITLE = "Mensuration_8"
+  INDEX = 21
+  TITLE = "Mensuration 2"
   
   UNITS = ["mm","cm","dc","m","Dm","hm","km" ]
   UNITS2 = ["millimeter", "centimeter", "decimeter","meter","decameter","hectometer","kilometere"]

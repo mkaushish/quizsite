@@ -11,7 +11,7 @@ include ToHTML
 include PreG6
 
 module ComparingQuantities
-  INDEX = "comparingQuantities" 
+  INDEX = 17
   TITLE = "Comparing Quantities"
    
 

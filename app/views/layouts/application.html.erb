@@ -16,7 +16,7 @@
 <body>
   <%#render :partial => "shared/feedback"%>
   <%= render 'shared/new_nav'%>
-  <div class="container">
+  <div class="container <%= 'not_log_in' if !signed_in? %>">
     <%= render 'shared/errors' %>
     <%= yield %>
   </div>

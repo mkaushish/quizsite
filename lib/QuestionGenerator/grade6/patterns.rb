@@ -59,4 +59,6 @@ module Patterns
       [TextLabel.new("What comes next?"), TextLabel.new((@ini...(@ini+@div*(@num))).step(@div).to_a.join(", ")), TextField.new("ans")]
     end
   end
+  class Series4 < QuestionBase
+  end
 end

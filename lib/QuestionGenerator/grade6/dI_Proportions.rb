@@ -11,7 +11,7 @@ include ToHTML
 include PreG6
 
 module DI_Proportions
-  INDEX = "dI_Proportions" 
+  INDEX = 18
   TITLE = "Ratio & Proportion 2"
   
 

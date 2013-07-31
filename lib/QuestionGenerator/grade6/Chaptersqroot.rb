@@ -13,7 +13,7 @@ include PreG6
 include Chapter6
 
 module Chaptersqroot
-  INDEX = "Chaptersqroot"
+  INDEX = 16
   TITLE = "Square and Square Root"
   class Perfectsquare < QuestionBase
   	def self.type
