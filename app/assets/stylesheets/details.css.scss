@@ -1,5 +1,6 @@
 $inside_details_height: 250px;
 
+
 .class_stat_list {
 	overflow:auto;
 	margin:0;
@@ -87,3 +88,5 @@ span.probs_done, span.percent, span.stu_attempted {
 select#problem_set_id {
 	width:235px;
 }
+$box-lid-background: #ccc;
+@import 'box-lid';
