@@ -26,7 +26,7 @@ $box-lid-content-background: #fff;
 
   @include perspective(2000px);
   @include perspective-origin(50% 50%);
-  background: $box-lid-background;
+  background: cccccc;
 
   .box-lid-content {
     @include transition(all 500ms $box-lid-transition);
@@ -59,18 +59,20 @@ $box-lid-content-background: #fff;
   background: $box-lid-bar-background;
   position: fixed; // create bar that fills up the page
   height: 100%;
-  top: 0;
+  top: 85px;
   left: 0;
   z-index: 2;
-  nav { // push nav to the left, beyond the viewport
+  sidenav { // push nav to the left, beyond the viewport
     @include transition(all 500ms $box-lid-transition);
     display: block;
     height: 100%;
     width: $box-lid-menu-width;
     position: absolute;
-    top: 0;
+    top: -48px;
     left: -1.2 * $box-lid-menu-width;
-    color: $box-lid-menu-color;
+    color: #fff;
+    background-color: #777;
+
   }
 }
 
@@ -79,6 +81,6 @@ $box-lid-content-background: #fff;
     @include transform(rotateY(-30deg) translateX($box-lid-menu-width));
   }
   .box-lid-icon { @include opacity(0); }
-  .box-lid-menu nav { left: 0; }
-  .box-lid-menu { background: none; }
+  .box-lid-menu sidenav { left: 0; }
+  .box-lid-menu { background-color: #777; }
 }

@@ -1,10 +1,7 @@
-
-
-
 <% @arr = [['%correct','Number of Students']]%>
 <% @temp = []%>
 
-<% @classroom.students.each do |student| %>
+<% @students.each do |student| %>
 	<% pset = student.problem_set_instances.where(:problem_set_id => @problem_set.id).last %>
 	<% @b = pset.answers.select{|v| v.correct == true } %>
 	<% @b_wrong = pset.answers.select{|v| v.correct == false } %>

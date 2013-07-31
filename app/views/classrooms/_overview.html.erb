@@ -134,7 +134,7 @@ transition: all 0.3s ease-out;}
                     <li>The problem sets you assign to a classroom determine which problems a student has access to.</li>
                     <li><%= link_to "Assign", "#" %> your first problem set so your students can start working!</li>
                 <% else ; classroom.problem_sets.each do |problem_set| %>
-                    <li><%= link_to problem_set.name, details_path(id: classroom.id, problem_set: problem_set.id) %></li>
+                    <li><%= link_to problem_set.name, details_path(classroom.id, problem_set: problem_set.id) %></li>
                 <% end ; end %>
             </ul>
         </div>

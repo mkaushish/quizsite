@@ -1,8 +1,8 @@
-<%=@problem_set.id%>
-<%=form_tag select_dates_path(@classroom.id,@problem_set.id), method: :get, remote: :true %>
-<%=text_field_tag "start_date", @start_date.strftime("%Y-%m-%d"), :type => "date"%>
-<%=text_field_tag "end_date", @end_date.strftime("%Y-%m-%d"), :type => "date"%>
-<%=submit_tag "Change Dates", :class => "button_blue"%>
-<table id="grad" border="1">
-	<%= render "grades", :@start_date => @start_date, :@end_date => @end_date %>
-</table>
+<h2><%= @problem_set.name %></h2>
+<%= form_tag select_dates_path(@classroom.id,@problem_set.id), method: :get, remote: :true %>
+	<%= text_field_tag "start_date", @start_date.strftime("%Y-%m-%d"), :type => "date"%>
+	<%= text_field_tag "end_date", @end_date.strftime("%Y-%m-%d"), :type => "date"%>
+	<%= submit_tag "Change Dates", :class => "button_blue"%>
+	<table id="grad" border="1">
+		<%= render "grades", :@start_date => @start_date, :@end_date => @end_date, :@problem_types => @problem_types %>
+	</table>

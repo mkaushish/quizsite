@@ -1,3 +1,7 @@
+$box-lid-background: cccccc;
+@import 'box-lid';
+@import 'box-lid-nav';
+
 $inside_details_height: 250px;
 
 
@@ -88,5 +92,3 @@ span.probs_done, span.percent, span.stu_attempted {
 select#problem_set_id {
 	width:235px;
 }
-$box-lid-background: #ccc;
-@import 'box-lid';

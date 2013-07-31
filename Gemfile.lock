@@ -37,6 +37,7 @@ GEM
     binding_of_caller (0.7.2)
       debug_inspector (>= 0.0.1)
     builder (3.0.4)
+    chunky_png (1.2.8)
     coderay (1.0.9)
     coffee-rails (3.2.2)
       coffee-script (>= 2.2.0)
@@ -46,6 +47,12 @@ GEM
       execjs
     coffee-script-source (1.6.3)
     columnize (0.3.6)
+    compass (0.12.2)
+      chunky_png (~> 1.2)
+      fssm (>= 0.2.7)
+      sass (~> 3.1)
+    compass-rails (1.0.3)
+      compass (>= 0.12.2, < 0.14)
     daemons (1.1.9)
     database_cleaner (1.0.1)
     debug_inspector (0.0.2)
@@ -77,6 +84,7 @@ GEM
       multipart-post (~> 1.1)
     ffi (1.9.0)
     formatador (0.2.4)
+    fssm (0.2.10)
     google_visualr (2.1.7)
     guard (1.8.1)
       formatador (>= 0.2.4)
@@ -232,6 +240,7 @@ DEPENDENCIES
   better_errors
   binding_of_caller
   coffee-rails (~> 3.2.1)
+  compass-rails
   database_cleaner
   debugger
   delayed_job_active_record

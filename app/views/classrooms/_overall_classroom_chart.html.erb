@@ -1,6 +1,7 @@
+<%#= @students.first.name %>
 <% @arr = [['%correct','Number of Students']]%>
 <% @temp = []%>
-<% @classroom.students.each do |student| %>
+<% @students.each do |student| %>
 	<% @b = student.answers.select{|v| v.correct == true } %>
 	<% @b_wrong = student.answers.select{|v| v.correct == false } %>
 	<% @count = @b.count%>

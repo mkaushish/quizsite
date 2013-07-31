@@ -1,15 +1,44 @@
 class DetailsController < ApplicationController
 
+    before_filter :authenticate
+    before_filter :validate_classroom
+    before_filter :validate_teacher_via_current_user
+
     def details
         @teacher_nav_elts = 'details'
-        @classroom = Classroom.find(params[:id])
+        @classrooms = @teacher.classrooms
         @students  = @classroom.students
-        @classrooms = current_user.classrooms.includes(:problem_sets)
-        @problem_sets = @classroom.problem_sets
-        @problem_set = params[:problem_set_id].nil? ? @problem_sets.first : ProblemSet.find(params[:problem_set_id])
-        @stat_calc = TeacherStatCalc.new(@students, @problem_set.problem_types)
-        @start_date = params[:start_date].nil? ? (Time.now-(365*24*60*60)) : params[:start_date]
-        @end_date = params[:end_date].nil? ? (Time.now) : params[:end_date]
+        if defined? params[:type]
+            case params[:type]
+                when 'students'
+                    respond_to do |format|
+                        format.js
+                    end
+                when 'problem_sets'
+                    @problem_sets = @classroom.problem_sets
+                    @problem_set = params[:problem_set_id].nil? ? @problem_sets.first : ProblemSet.find_by_id(params[:problem_set_id])
+                    @stat_calc = TeacherStatCalc.new(@students, @problem_set.problem_types)
+                    respond_to do |format|
+                        format.js
+                    end
+                when 'quizzes'
+                    @problem_sets = @classroom.problem_sets
+                    @classroom_quizzes = @classroom.quizzes
+                    @problem_set = params[:problem_set_id].nil? ? @problem_sets.first : ProblemSet.find_by_id(params[:problem_set_id])
+                    respond_to do |format|
+                        format.js
+                    end
+                when 'grades'
+                    @problem_sets = @classroom.problem_sets
+                    @problem_set = params[:problem_set_id].nil? ? @problem_sets.first : ProblemSet.find_by_id(params[:problem_set_id])
+                    @problem_types = @problem_set.problem_types
+                    @start_date = params[:start_date].nil? ? (Time.now-(365*24*60*60)) : params[:start_date]
+                    @end_date = params[:end_date].nil? ? (Time.now) : params[:end_date]
+                    respond_to do |format|
+                        format.js
+                    end
+            end
+        end
     end
 
     # POST /details/select_classroom AJAX
@@ -36,14 +65,11 @@ class DetailsController < ApplicationController
     end
 
     def select_dates
-        @problem_set = ProblemSet.find params["problem_set_id"]
-        @classroom = Classroom.find params["ps_classroom_id"]
+        @problem_set = ProblemSet.find_by_id(params[:problem_set_id])
         @start_date=params[:start_date].to_time
         @end_date=params[:end_date].to_time
         @problem_types = @problem_set.problem_types
         @students = @classroom.students
-        @quiz_history = @classroom.quizzes
-        @stat_calc = TeacherStatCalc.new(@students, @problem_types)
     end
 
     # POST /details/click_concept AJAX
@@ -53,4 +79,14 @@ class DetailsController < ApplicationController
         @problem_type = ProblemType.find params[:problem_type]
         @student_stats = ProblemStat.where(problem_type_id: @problem_type.id, user_id: @students.map(&:id)).includes(:user).sort { |a,b| a.user.name <=> b.user.name }
     end
+
+    private
+    def validate_classroom
+        @classroom = Classroom.find params[:classroom]
+    end
+
+    def validate_teacher_via_current_user
+        @teacher = current_user
+    end
 end
+
