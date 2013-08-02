@@ -37,6 +37,7 @@
                 <% @classrooms.each do |classroom| %>
                     <%= render "classrooms/overview", :classroom => classroom %>
                 <% end %>
+                <%= will_paginate @classrooms %>
             </div>
         </div>
     </div>
