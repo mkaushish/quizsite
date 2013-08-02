@@ -1,15 +1,15 @@
-<%#= @students.first.name %>
 <% @arr = [['%correct','Number of Students']]%>
 <% @temp = []%>
+
 <% @students.each do |student| %>
-	<% @b = student.answers.select{|v| v.correct == true } %>
-	<% @b_wrong = student.answers.select{|v| v.correct == false } %>
-	<% @count = @b.count%>
-	<% @count_wrong = @b_wrong.count %>
-	<% if @count_wrong+@count == 0%>
+	<% answers_stats = total_correct_wrong_answers(student) %>
+	<% @total_answers = answers_stats[0] %>
+	<% @correct_answers = answers_stats[1] %>
+	<% @wrong_answers = answers_stats[2] %>
+	<% if @total_answers == 0%>
 		<% @temp.push(-1) %>
 	<% else %>
-		<% @temp.push((@count*100)/(@count_wrong+@count)) %>
+		<% @temp.push((@correct_answers * 100) / (@total_answers)) %>
 	<% end %>		
 <% end %>
 

@@ -93,6 +93,18 @@ class ProblemSetInstance < ActiveRecord::Base
     problem_set_problems.length
   end
 
+  def total_correct_wrong_problem_set_instance_answers
+    answers = self.correct_answers
+    correct_answers = answers.select{|v| v == true }.count 
+    wrong_answers = answers.select{|v| v == false }.count 
+    total_answers = answers.count 
+    return [total_answers, correct_answers, wrong_answers]     
+  end
+
+  def correct_answers
+    self.answers.pluck(:correct)
+  end
+
   private
 
   def new_stat(problem_type, look_up_problem_stat = false)
