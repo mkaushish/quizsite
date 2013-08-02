@@ -5,9 +5,9 @@
 	<% pset = student.problem_set_instances.where(:problem_set_id => @problem_set.id).last %>
 	<% @b = pset.answers.select{|v| v.correct == true } %>
 	<% @b_wrong = pset.answers.select{|v| v.correct == false } %>
-	<% @count = @b.count%>
+	<% @count = @b.count %>
 	<% @count_wrong = @b_wrong.count %>
-	<% if @count_wrong+@count == 0%>
+	<% if @count_wrong + @count == 0 %>
 		<% @temp.push(-1) %>
 	<% else %>
 		<% @temp.push((@count*100)/(@count_wrong+@count)) %>
@@ -28,7 +28,7 @@
 <% @count6 = (@temp.select{|v| v<0}).count %>	
 	<% @arr.push(["Haven't Attempted", @count6])%>
 
-<div id="chart_div_2_class_pset" style="width: 500px; height: 500px;"><%= render 'shared/google_visual_piechart', :array => @arr, :div => "chart_div_2_class_pset", :title => "Students performance"  %></div>
+<!--<div id="chart_div_2_class_pset" style="width: 500px; height: 500px;"><%= render 'shared/google_visual_piechart', :array => @arr, :div => "chart_div_2_class_pset", :title => "Students performance"  %></div>-->
 
 
 <% @arr7 = [['Problem Types','Correct Percentage']]%>
@@ -43,4 +43,4 @@
 	<% end %>
 <% end %>  
 
-<div id="chart_div_3_class_pset" style="width: 900px; height: 500px;"><%= render 'shared/google_visual_barchart', :array => @arr7, :div => "chart_div_3_class_pset", :title => "Students performance", :vAxis_title => "Problem Types" %></div>
+<!--<div id="chart_div_3_class_pset" style="width: 900px; height: 500px;"><%= render 'shared/google_visual_barchart', :array => @arr7, :div => "chart_div_3_class_pset", :title => "Students performance", :vAxis_title => "Problem Types" %></div>-->

@@ -1,26 +1,25 @@
 <tr>
 	<th>Students</th>
-	<% @problem_types.each do |ptype| %>
-		<th><%=ptype.name%></th>
+	<% @problem_types.each do |problem_type| %>
+		<th><%= problem_type.name %></th>
 	<%end%>
 	<th>Total</th>
 </tr>
-<% @students.each do |stu| %>
-	<%cor=0%>
-	<%all=0%>
+<% @students.each do |student| %>
+	<% total_correct_answers = 0 %>
+	<% total_answers = 0 %>
 	<tr>
-		<td><%=stu.name%></td>
-		<% @problem_types.each do |ptype| %>
+		<td><%= student.name %></td>
+		<% @problem_types.each do |problem_type| %>
 			<td>
-				<% stans=stu.answers.where("problem_type_id = #{ptype.id} AND created_at > '#{@start_date}' AND created_at <= '#{@end_date}'") %>
-				<% cor+=stans.where("correct = true").count %>
-				<%= stans.where("correct = true").count %>/
-				<% all+=stans.count %>
-				<%= stans.count %>
+				<% problem_stats = problem_stats_correct_and_total(student, problem_type) %>
+				<%= correct_answers = problem_stats.first %> / 	<%= answers_count = problem_stats.last %>
+				<% total_correct_answers += correct_answers %>
+				<% total_answers += answers_count %>
 			</td>
 		<%end%>
 		<td>
-			<%=cor%> / <%=all%>
+			<%= total_correct_answers %> / <%= total_answers %>
 		</td>
 	</tr>
 <%end%>

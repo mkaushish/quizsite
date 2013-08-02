@@ -1,5 +1,9 @@
-<h2><%= @problem_set.name %></h2>
-<%= form_tag select_dates_path(@classroom.id,@problem_set.id), method: :get, remote: :true %>
+<%= form_tag select_dates_path(@classroom.id), method: :get, remote: :true %>
+	<h2><%= @problem_set.name %></h2>
+	<%= select_tag :problem_set_id, 
+      options_from_collection_for_select(@problem_sets, 'id', 'name', @problem_set.id),
+      { class: 'select' }
+    %>
 	<%= text_field_tag "start_date", @start_date.strftime("%Y-%m-%d"), :type => "date"%>
 	<%= text_field_tag "end_date", @end_date.strftime("%Y-%m-%d"), :type => "date"%>
 	<%= submit_tag "Change Dates", :class => "button_blue"%>

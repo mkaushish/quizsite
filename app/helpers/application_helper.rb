@@ -187,4 +187,11 @@ module ApplicationHelper
     newdate + delta - 7
   end
 
+  def correct_answers(student, problem_type)
+    student.correct_answers(problem_type)
+  end
+
+  def problem_stats_correct_and_total(student, problem_type)
+    student.problem_stats_correct_and_total(problem_type)
+  end
 end

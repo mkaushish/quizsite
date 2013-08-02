@@ -1,7 +1,7 @@
 class DetailsController < ApplicationController
 
     before_filter :authenticate
-    before_filter :validate_classroom
+    before_filter :validate_classroom, :except => [:select_classroom]
     before_filter :validate_teacher_via_current_user
 
     def details
@@ -46,10 +46,13 @@ class DetailsController < ApplicationController
         if params["classroom_id"].empty?
             @classroom = Classroom.new
         else
-            @classroom = current_user.classrooms.where(:id => params[:classroom_id]).includes(:problem_sets).first
+            @classroom = @teacher.classrooms.includes(:problem_sets).find_by_id(params[:classroom_id])
         end
         @problem_sets = @classroom.problem_sets
         @problem_set = @problem_sets.first
+        respond_to do |format|
+            format.html { redirect_to details_path(@classroom.id)}
+        end
     end
 
     # POST /details/select_problem_set AJAX
@@ -82,7 +85,7 @@ class DetailsController < ApplicationController
 
     private
     def validate_classroom
-        @classroom = Classroom.find params[:classroom]
+        @classroom = Classroom.includes(:problem_sets).find(params[:classroom])
     end
 
     def validate_teacher_via_current_user
