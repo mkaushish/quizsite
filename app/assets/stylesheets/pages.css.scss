@@ -545,8 +545,9 @@ $slidecol: #444;
   }
 }
 .not_log_in{
-  background-image: url("/assets/blue_wall_2.png");
+  
   background-attachment:fixed;
+  min-width: 780px;
 }
 .slidebutton {
   position:relative;
@@ -660,6 +661,7 @@ margin-top:20px;
 #main-content{
   width:100%;
    margin: 0 auto;
+   background-image: url("/assets/blue_wall_2.png");
 }
 
 .green_text{
