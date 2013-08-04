@@ -83,6 +83,30 @@ class Student < User
         Badge.BadgeNQCIARFNT(student, 10, 15)
     end
 
+    def total_correct_wrong_answers
+        answers = self.correct_answers
+        correct_answers = answers.select{|v| v == true }.count 
+        wrong_answers = answers.select{|v| v == false }.count 
+        total_answers = answers.count 
+        return [total_answers, correct_answers, wrong_answers]     
+    end
+
+    def correct_answers
+        self.answers.pluck(:correct)
+    end
+
+    def correct_answers_problem_type(problem_type)
+        self.answers.where("problem_type_id = ?", problem_type).pluck(:correct)
+    end
+
+    def problem_stats_correct_and_total(problem_type)
+        self.problem_stats.where("problem_type_id = ?", problem_type).collect{|v| [v.correct, v.count]}.first
+    end
+
+    def problem_set_instances_problem_set(problem_set)
+        self.problem_set_instances.find_by_problem_set_id(problem_set)
+    end
+
     private
 
     def assign_class

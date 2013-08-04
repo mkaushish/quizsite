@@ -187,4 +187,35 @@ module ApplicationHelper
     newdate + delta - 7
   end
 
+  def total_correct_wrong_answers(student)
+    student.total_correct_wrong_answers
+  end
+
+  def total_correct_wrong_problem_set_instance_answers(problem_set_instance)
+    problem_set_instance.total_correct_wrong_problem_set_instance_answers
+  end
+
+  def total_correct_wrong_problem_type_answers(problem_type)
+    problem_type.total_correct_wrong_problem_type_answers
+  end
+
+  def correct_answers(student)
+    student.correct_answers
+  end
+  
+  def correct_answers_problem_type(student, problem_type)
+    student.correct_answers_problem_type(problem_type)
+  end
+
+  def problem_stats_correct_and_total(student, problem_type)
+    student.problem_stats_correct_and_total(problem_type)
+  end
+
+  def problem_set_instances_problem_set(student, problem_set)
+    student.problem_set_instances_problem_set(problem_set)
+  end
+
+  def problem_type_answers_correct(problem_type)
+    problem_type.correct_answers(problem_type)
+  end
 end

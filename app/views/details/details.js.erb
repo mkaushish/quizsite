@@ -1,0 +1,14 @@
+<% if defined? params[:type] %>
+	<% case params[:type] %>
+		<% when 'students' %>
+            $('#details-content').fadeIn().html('<%= j(render 'student_details', :@students => @students) %>');
+        <% when 'problem_sets' %>
+        	$('#details-content').fadeIn().html('<%= j(render 'pset_details', :@problem_sets => @problem_sets, :@problem_set => @problem_set, :@stat_calc => @stat_calc) %>');
+        <% when 'quizzes' %>
+        	$('#details-content').fadeIn().html('<%= j(render 'quiz_details', :@problem_sets => @problem_sets, :@classroom_quizzes => @classroom_quizzes, :@problem_set => @problem_set) %>');
+        <% when 'grades' %>
+			$('#details-content').fadeIn().html('<%= j(render 'grades_tab', :@problem_set => @problem_set, :@problem_sets => @problem_sets, :@problem_types => @problem_types, :@start_date => @start_date, :@end_date => @end_date) %>');
+   	<% end %>
+<% else %>
+   	$('#details-content').fadeIn().html('<%= j(render 'classrooms/overall_classroom_chart', :@problem_sets => @problem_sets, :@students => @students) %>');
+<% end %>
