@@ -94,15 +94,19 @@ class ProblemSetInstance < ActiveRecord::Base
   end
 
   def total_correct_wrong_problem_set_instance_answers
-    answers = self.correct_answers
+    answers = self.answers_correct
     correct_answers = answers.select{|v| v == true }.count 
     wrong_answers = answers.select{|v| v == false }.count 
     total_answers = answers.count 
     return [total_answers, correct_answers, wrong_answers]     
   end
 
-  def correct_answers
+  def answers_correct
     self.answers.pluck(:correct)
+  end
+
+  def answers_correct_in_time_range(start_time, end_time)
+    self.answers.where("created_at BETWEEN ? and ?", start_time, end_time).pluck(:correct)
   end
 
   private

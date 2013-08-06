@@ -199,12 +199,12 @@ module ApplicationHelper
     problem_type.total_correct_wrong_problem_type_answers
   end
 
-  def correct_answers(student)
-    student.correct_answers
+  def answers_correct(student)
+    student.answers_correct
   end
   
-  def correct_answers_problem_type(student, problem_type)
-    student.correct_answers_problem_type(problem_type)
+  def answers_correct_problem_type(student, problem_type)
+    student.answers_correct_problem_type(problem_type)
   end
 
   def problem_stats_correct_and_total(student, problem_type)
@@ -216,6 +216,10 @@ module ApplicationHelper
   end
 
   def problem_type_answers_correct(problem_type)
-    problem_type.correct_answers(problem_type)
+    problem_type.answers_correct
+  end
+
+  def problem_type_student_answers_correct(problem_type, student)
+    problem_type.student_answers_correct(student)
   end
 end

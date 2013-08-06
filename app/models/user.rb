@@ -126,6 +126,6 @@ class User < ActiveRecord::Base
     end
 
     def send_confirmation_mail
-        #UserMailer.account_confirmation_email(self).deliver
+        UserMailer.account_confirmation_email(self).deliver
     end
 end

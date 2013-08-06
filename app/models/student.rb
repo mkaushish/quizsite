@@ -83,19 +83,58 @@ class Student < User
         Badge.BadgeNQCIARFNT(student, 10, 15)
     end
 
+    def charts_combine
+        # Percentage of correct answers by weekly
+        chart_data_1 = [['Weeks Ago','% correct']]
+        # Percentage of wrong answers by Chapter
+        chart_data_2 = [['Chapters','Wrong Answers']]
+        # Student performance chart by each problem set correct percentage 
+        chart_data_3 = [['Chapters','Correct Percentage']]
+        # Questions done in the particular week 
+        chart_data_4 = [['Weeks Ago','Questions Done']]
+        i=51 
+        
+        while i >= 0 do 
+            time_range = ( date_of_last( "Monday", (i+1).weeks.ago )..date_of_last( "Monday", i.weeks.ago )) 
+            answers = self.answers_correct_in_time_range(time_range.first, time_range.last)            
+            ans_right = answers.select{ |v| v == true }.count 
+            ans_wrong = answers.select{ |v| v == false }.count 
+            total_answers = answers.count 
+            if total_answers == 0 
+                chart_data_1.push( [(i+1).to_s, 0] ) 
+            else 
+                chart_data_1.push( [(i+1).to_s, (ans_right*100) / (total_answers)]) 
+            end 
+                chart_data_4.push([(i+1).to_s, total_answers])    
+            i = i-1 
+        end  
+        
+        self.problem_set_instances.each do |pset_instance| 
+            answers = pset_instance.total_correct_wrong_problem_set_instance_answers
+            total_answers = answers[0]
+            ans_right = answers[1]
+            ans_wrong = answers[2]
+            if (total_answers) > 0   
+                chart_data_3.push([pset_instance.name, (ans_right * 100) / (total_answers)]) 
+            end   
+                chart_data_2.push([pset_instance.name, ans_wrong])
+        end
+        return [chart_data_1, chart_data_2, chart_data_3, chart_data_4]
+    end
+    
     def total_correct_wrong_answers
-        answers = self.correct_answers
+        answers = self.answers_correct
         correct_answers = answers.select{|v| v == true }.count 
         wrong_answers = answers.select{|v| v == false }.count 
         total_answers = answers.count 
         return [total_answers, correct_answers, wrong_answers]     
     end
 
-    def correct_answers
+    def answers_correct
         self.answers.pluck(:correct)
     end
 
-    def correct_answers_problem_type(problem_type)
+    def answers_correct_problem_type(problem_type)
         self.answers.where("problem_type_id = ?", problem_type).pluck(:correct)
     end
 
@@ -107,6 +146,10 @@ class Student < User
         self.problem_set_instances.find_by_problem_set_id(problem_set)
     end
 
+    def answers_correct_in_time_range(start_time, end_time)
+        self.answers.where( "created_at BETWEEN ? and ?", start_time, end_time ).pluck(:correct) 
+    end
+
     private
 
     def assign_class
@@ -114,5 +157,11 @@ class Student < User
             @class = Classroom.where(:name => "SmarterGrades 6").first
         end
         @class.assign!(self)
+    end
+
+    def date_of_last(day,date)
+        newdate  = Date.parse(day)
+        delta = newdate > date.to_date ? 0 : 7
+        newdate + delta - 7
     end
 end
