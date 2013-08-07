@@ -107,7 +107,7 @@ class Badge < ActiveRecord::Base
 		
 		unless @b.blank?
 			@a = @b.select{|v| v == true}.count
-			result = @b.length - @a
+			result = n - @a
 			if result == 0
 				@has_BadgeNQCIARFTO = student.badges.find_by_badge_key("Badge#{n}QCIARFTO")
 				

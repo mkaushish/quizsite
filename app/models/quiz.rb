@@ -36,7 +36,8 @@ class Quiz < ActiveRecord::Base
     @stat_attrs = quiz_problems.map do |qp|
       {
         "problem_type_id" => qp.problem_type_id,
-        "remaining" => qp.count
+        "remaining" => qp.count,
+        "problem_id" => qp.problem
       }
     end
   end
