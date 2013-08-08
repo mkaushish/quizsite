@@ -38,7 +38,7 @@ class Answer < ActiveRecord::Base
             self.time_taken = @params["time_taken"]
             self.correct    = problem.correct? @params
             self.response   = problem.get_packed_response @params
-            self.notepad    = (@params["npstr"].empty?) ? nil : @params["npstr"]
+            self.notepad    = (@params["npstr"].empty? if @params["npstr"]) ? nil : @params["npstr"]
             self.problem_generator = problem.problem_generator
             self.problem_type_id   = problem.problem_generator.problem_type_id
         end

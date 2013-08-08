@@ -1,39 +1,41 @@
-<div class='row-fluid teacher-details-header'>
-  <%= render :partial => 'teachers/forms/details_classroom_form' %>
-  <%#= render :partial => 'teachers/forms/details_problem_set_form' %>
+<div class="row-fluid">
+    <div class='box-lid-menu'>
+        <div class='box-lid-icon'></div>
+        <sidenav>
+            <h4><%= link_to @classroom.name, details_path(@classroom.id) %></h4>
+            <ul>
+                <li>
+                    <%= link_to "Students", details_path(@classroom.id, type: "students"), remote: :true %>
+                </li>
+                <li>
+                    <%= link_to "Problem Sets", details_path(@classroom.id, type: "problem_sets"), remote: :true %>
+                </li>
+                <li>
+                    <%= link_to "Quizzes", details_path(@classroom.id, type: "quizzes"), remote: :true %>
+                </li>
+                <li>
+                    <%= link_to "Grades", details_path(@classroom.id, type: "grades"), remote: :true %>
+                </li>
+            </ul>
+        </sidenav>
+    </div>
+    <div class='box-lid'>
+        <div class='box-lid-content'>
+            <div class="row-fluid">
+                <%= render 'teachers/teacher_info', :teacher => @teacher %>
+            </div>
+            <div class='row-fluid teacher-details-header'>
+                    <%= render 'teachers/forms/details_classroom_form' %>
+            </div>
+            <div id="details-content">
+                <div class="tab-pane fade active in" id="overall">
+                    <%= render "classrooms/overall_classroom_chart", :@students => @students %>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
-<div>
-  <ul id="det_tab" class="nav nav-tabs" style="font-family:Courier">
-    <li class='active'><a href="#overall" data-toggle="tab">Overall</a></li>
-    <li><a href="#students" data-toggle="tab">Students</a></li>
-    <li><a href="#psets" data-toggle="tab">Problem Sets</a></li>
-    <li><a href="#quizzes" data-toggle="tab">Quizzes</a></li>
-    <li><a href="#grades" data-toggle="tab">Grades</a></li>
-  </ul>
-</div>
-<div id="det_tab_content" class="tab-content" style="font-family:Courier">
-  <div class="tab-pane fade active in" id="overall">
-    <%= render "classrooms/overall_classroom_chart" %>
-  </div>
-  <div class="tab-pane fade" id="students">
-    <%= render "student_details" %>
-  </div>
-  <div class="tab-pane fade" id="psets">
-      <%= render "pset_details", :@start_date => @start_date, :@end_date => @end_date %>
-  </div>
-  <div class="tab-pane fade" id="quizzes">
-    <%= render "quiz_details", :@start_date => @start_date, :@end_date => @end_date %>
-  </div>
-  <div class="tab-pane fade" id="grades">
-    <%= render "grades_tab" %>
-  </div>
-</div>
+    
 <script>
-$('#det_tab a').click(function (e) {
-  e.preventDefault();
-  $(this).tab('show');
-})
+$('.box-lid-menu').boxLid();
 </script>
-
-
-

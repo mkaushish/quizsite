@@ -4,7 +4,7 @@
       <ul class="column-list" style="border:none">
         <% @problem_sets.order("id ASC").each do |pset| %>
         <li>
-          <%=link_to pset.name, details_problem_set_path(@classroom.id, pset, @start_date, @end_date), :remote => true %>
+          <%=link_to pset.name, details_path(@classroom.id, type: "quizzes", problem_set_id: pset), remote: :true %>
         </li>
         <% end %>
       </ul>

@@ -34,6 +34,21 @@ class ProblemSetInstancesController < ApplicationController
     def problem_results
     end
 
+    def do
+        # @instance ||= current_user.problem_set_instances.new(:problem_set => @problem_set)
+        redirect_to access_denied_path && return if @instance.nil?
+        if @problem_set.problem_types.exists? params[:pid]
+            @problem_type = @problem_set.problem_types.find(params[:pid])
+            @stat = @instance.stat(@problem_type)
+            @problem = @stat.spawn_problem
+            # $stderr.puts "STAT_N_PROBLEM " * 20
+            # $stderr.puts @stat.inspect
+            # $stderr.puts @problem.inspect
+        else
+            redirect_to access_denied_path && return
+        end
+    end
+
     # POST /problem_sets/:name/finish_problem
     # finish_ps_problem_path(:name)
     def finish_problem
@@ -58,25 +73,6 @@ class ProblemSetInstancesController < ApplicationController
         Student.create_badges(@student)
         render 'show_answer', locals: {callback: 'problem_set_instances/finish_problem'}
     end
-
-    def do
-        # @instance ||= current_user.problem_set_instances.new(:problem_set => @problem_set)
-        redirect_to access_denied_path && return if @instance.nil?
-        if @problem_set.problem_types.exists? params[:pid]
-            @problem_type = @problem_set.problem_types.find(params[:pid])
-            @stat = @instance.stat(@problem_type)
-            @problem = @stat.spawn_problem
-            # $stderr.puts "STAT_N_PROBLEM " * 20
-            # $stderr.puts @stat.inspect
-            # $stderr.puts @problem.inspect
-        else
-            redirect_to access_denied_path && return
-        end
-    end
-
-
-    # POST /problem_sets/:name/finish_problem
-    # ps_finish_problem_path(:name)
 
     private
     # Sets the @history variable, which allows the partial 'problem_sets/_history' to be rendered

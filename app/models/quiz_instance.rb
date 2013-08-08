@@ -12,7 +12,8 @@ class QuizInstance < ActiveRecord::Base
                              :dependent => :destroy
 
 
-  has_many :answers, :as => :session
+  has_many :answers,  :as => :session,
+                      :dependent => :destroy
 
   validates :user, :presence => true
   validates :quiz, :presence => true
@@ -51,5 +52,9 @@ class QuizInstance < ActiveRecord::Base
 
   def next_problem
     next_stat.spawn_problem
+  end
+
+  def stats
+    self.quiz_stats 
   end
 end

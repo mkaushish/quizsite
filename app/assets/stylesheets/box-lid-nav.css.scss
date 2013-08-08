@@ -1,0 +1,24 @@
+/*!
+ * jQuery Box Lid Plugin v0.1
+ * https://github.com/jimjh/box-lid
+ *
+ * Copyright 2013 Jiunn Haur Lim
+ * Released under the MIT License
+ */
+
+.box-lid-menu sidenav {
+  margin-top: 3em;
+  padding-left: 1em;
+
+  a {
+    @include transition(all 100ms ease-in);
+    text-decoration: none;
+    color: #000;
+    display: block;
+    &:hover {
+      padding-left: .75em;
+      background: #ccc;
+    }
+  }
+
+}

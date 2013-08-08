@@ -1,4 +1,9 @@
+$box-lid-background: cccccc;
+@import 'box-lid';
+@import 'box-lid-nav';
+
 $inside_details_height: 250px;
+
 
 .class_stat_list {
 	overflow:auto;

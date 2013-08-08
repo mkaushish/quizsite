@@ -68,6 +68,46 @@ class ProblemSet < ActiveRecord::Base
     @q
   end
 
+  def chart_classroom_problem_set_problem_types_students_percentage_correct
+    chart_data = [['Problem Types','Correct Percentage']]
+    self.problem_types.each do |problem_type|
+        answers_stats = problem_type.total_correct_wrong_problem_type_answers
+        total_answers = answers_stats[0] 
+        correct_answers = answers_stats[1] 
+        wrong_answers = answers_stats[2] 
+        if total_answers > 0 
+            chart_data.push([problem_type.name, (correct_answers*100)/(total_answers)]) 
+        end
+    end
+    return chart_data 
+  end   
+
+  def chart_percentage_of_correct_answers_by_problem_set
+    chart_data = [['Problem Types','Correct Percentage']]
+    self.problem_types.each do |problem_type| 
+      answers_stats = problem_type.total_correct_wrong_problem_type_answers 
+      total_answers = answers_stats[0] 
+      correct_answers = answers_stats[1] 
+      wrong_answers = answers_stats[2] 
+      if (total_answers) > 0   
+        chart_data.push([problem_type.name, (correct_answers*100)/(total_answers)]) 
+      end   
+    end 
+    if chart_data.count == 1
+      chart_data.push(["Haven't Attempted",100]) 
+    end
+    return chart_data
+  end
+
+  def chart_percentage_of_wrong_answers_by_problem_set
+    chart_data = [['Problem Types','Wrong Answers']]
+    self.problem_types.each do |problem_type|
+      wrong_answers = problem_type.answers_correct.select{|v| v == false }.count 
+      chart_data.push([problem_type.name, wrong_answers]) 
+    end  
+    return chart_data
+  end
+
   private
 
     def parse_ptype_params

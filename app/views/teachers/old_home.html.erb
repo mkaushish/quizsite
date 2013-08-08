@@ -1,0 +1,66 @@
+<div class="row-fluid">
+  	<%= render 'teacher_info', :teacher => @teacher %>
+</div>
+<div class="row-fluid">
+	<div class="dotted-border pull-right">
+  <!-- <div class="newborder"> -->
+		<ul>
+      <li><%= link_to "Assign Quiz to all", new_quiz_path(type: "all_classes") %></li>
+		  <li><%= link_to "Assign Quiz with All Problem Types", new_quiz_path(type: "all_classes_and_all_problem_types") %></li>
+      <li><%= link_to "Create Classroom", new_classroom_path(@teacher), remote: :true %></li>
+      <li><%= link_to "Join Classroom", join_classroom_path(@teacher), id: "join_class_btn", remote: :true %></li>
+    </ul>
+	</div>
+</div>
+<br>
+<div class="row-field">
+  <div id="form" class="pull-right">
+  </div>
+</div>
+<div clas="row-field">
+  <div id="classrooms_div">
+    <% @classrooms.each do |classroom| %>
+      <%= render :partial => 'classrooms/overview', :locals => {:classroom => classroom} %>
+    <% end %>
+  </div>
+</div>
+<script>
+  	$(function () {
+    	// $('.teacher-class-col').jScrollPane();
+      $('.column-list3').jScrollPane();
+    	$('.class_student_password').tooltip({title: "Class Password: Students need this to join your classroom"});
+      $('.class_teacher_password').tooltip({title: "Class Password: Teachers need this to join your classroom"});
+      
+  	});
+    $("#cancel_btn").on('click',function() {
+      $("#cancel_btn").hide();
+      $('#form').hide();
+      $("#join_class_btn").show();
+    });
+
+     
+     
+    
+</script>
+<style>
+
+.newborder ul{
+  float:right;
+}
+.newborder ul li{
+  margin-bottom: 33px;
+}
+.newborder ul li a{float:right;
+
+  color:white;
+  padding: 5px;
+background-color:#778899;
+border-top-left-radius: 13px;
+  border-bottom-left-radius: 13px;}
+  .newborder ul li a:hover{
+    margin-right: 10px;
+    background-color: #4682B4;
+    color:white;
+    -webkit-transition:all 0.5s ease-out;
+  }
+</style>

@@ -32,4 +32,20 @@ class ProblemType < ActiveRecord::Base
     problem_generators.each { |g| return g if g.klass.nil? }
     nil
   end
+  
+  def total_correct_wrong_problem_type_answers
+    answers = self.answers_correct
+    correct_answers = answers.select{|v| v == true }.count 
+    wrong_answers = answers.select{|v| v == false }.count 
+    total_answers = answers.count 
+    return [total_answers, correct_answers, wrong_answers]     
+  end
+
+  def answers_correct
+    self.answers.pluck(:correct)
+  end
+
+  def student_answers_correct(student)
+    self.answers.where("user_id = ?", student).pluck(:correct)
+  end
 end

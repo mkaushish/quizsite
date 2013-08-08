@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130723115135) do
+ActiveRecord::Schema.define(:version => 20130807090200) do
 
   create_table "active_admin_comments", :force => true do |t|
     t.string   "resource_id",   :null => false
@@ -256,6 +256,7 @@ ActiveRecord::Schema.define(:version => 20130723115135) do
     t.integer "problem_type_id"
     t.integer "remaining",        :default => 0
     t.integer "total"
+    t.integer "problem_id"
   end
 
   create_table "quizzes", :force => true do |t|
