@@ -46,7 +46,7 @@ class Badge < ActiveRecord::Base
             			student.points += 5000
             			student.save
                         student.news_feeds.create(:content => "Congrats! You have won a new Badge: #{pset_name} Blue !!", :feed_type => "badge", :user_id => student.id)
-            			student.badges.create(:name => "#{pset_name} Problem Set Blue", :badge_key => "Badge#{problem_set.name}B", :level => 3)
+            			student.badges.create(:name => "#{pset_name} Problem Set Blue", :badge_key => "Badge#{pset_name}B", :level => 3)
           		  	end
         	
         		elsif 10*(total_minus_blue) < pset.num_problems
