@@ -40,7 +40,7 @@ class Badge < ActiveRecord::Base
             	
             	if total_minus_blue == 0
             		pset_name = pset.problem_set.name
-            		@has_BadgePSB = student.badges.find_by_badge_key("BadgePSB")
+            		@has_BadgePSB = student.badges.find_by_badge_key("Badge#{pset_name}B")
             		
             		if @has_BadgePSB.nil?
             			student.points += 5000
@@ -54,7 +54,6 @@ class Badge < ActiveRecord::Base
         			pset_name = pset.problem_set.name
         			@has_Warning = student.news_feeds.find_by_feed_type("#{pset_name}_warning")
         			student.news_feeds.create(:content => "Need #{pset.problem_stats.count - pset.problem_stats.blue.count} problem types to get #{pset_name} Blue!!", :feed_type => "#{pset_name}_warning", :user_id => student.id) if @has_Warning.nil?
-
         	
         		elsif total_minus_blue == 1
         			pset_name = pset.problem_set.name
@@ -145,8 +144,6 @@ class Badge < ActiveRecord::Base
 		unless @result.blank?
 			if @result == true
 				@has_BadgeTRQC = student.badges.find_by_badge_key("BadgeTRQC")
-
-				
 
 				if @has_BadgeTRQC.nil?
 					student.points += 100
