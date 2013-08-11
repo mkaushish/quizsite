@@ -44,6 +44,19 @@ class DetailsController < ApplicationController
         end
     end
 
+    def download_grades
+        @problem_sets = @classroom.problem_sets
+        @students = @classroom.students
+        @problem_set = params[:problem_set_id].nil? ? @problem_sets.first : ProblemSet.find_by_id(params[:problem_set_id])
+        @problem_types = @problem_set.problem_types
+        @start_date = params[:start_date].nil? ? (Time.now-(365*24*60*60)) : params[:start_date]
+        @end_date = params[:end_date].nil? ? (Time.now) : params[:end_date]
+        respond_to do |format|
+            format.csv
+            format.xls
+        end
+    end
+
     # POST /details/select_classroom AJAX
     def select_classroom
         if params["classroom_id"].empty?

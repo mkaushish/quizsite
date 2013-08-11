@@ -7,6 +7,10 @@
 	<%= text_field_tag "start_date", @start_date.strftime("%Y-%m-%d"), :type => "date"%>
 	<%= text_field_tag "end_date", @end_date.strftime("%Y-%m-%d"), :type => "date"%>
 	<%= submit_tag "Change Dates", :class => "button_blue"%>
+	<p class = "pull-right">
+  		Download:
+  			<%= link_to "Excel", download_grades_path(@classroom.id, format: "xls") %>
+	</p>
 	<table id="grad" border="1">
 		<%= render "grades", :@start_date => @start_date, :@end_date => @end_date, :@problem_types => @problem_types %>
 	</table>

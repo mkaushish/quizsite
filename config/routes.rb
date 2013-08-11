@@ -92,6 +92,7 @@
   
   
   get '/details/:classroom',                  to: 'details#details', as: :details
+  get '/details/:classroom/download_grades',  to: 'details#download_grades', as: :download_grades
   post '/details_classroom',                  to: 'details#select_classroom', as: :details_classroom
   get '/details_classroom/:classroom/pset/:problem_set_id',          to: 'details#select_problem_set', as: :details_problem_set
   get '/details_classroom/:classroom/dates',    to: 'details#select_dates', as: :select_dates
