@@ -2,6 +2,7 @@
     <div class='box-lid-menu'>
         <div class='box-lid-icon'></div>
         <sidenav>
+            <div class="menu-links">
             <h4><%= link_to @classroom.name, details_path(@classroom.id) %></h4>
             <ul>
                 <li>
@@ -16,6 +17,7 @@
                 <li>
                     <%= link_to "Grades", details_path(@classroom.id, type: "grades"), remote: :true %>
                 </li>
+                </div>
             </ul>
         </sidenav>
     </div>

@@ -23,7 +23,7 @@ $box-lid-bar-background: rgba(0, 0, 0, 0.08) !default;
 $box-lid-content-background: #fff;
 
 .box-lid {
-
+  font-family: Courier;
   @include perspective(2000px);
   @include perspective-origin(50% 50%);
   background: cccccc;
@@ -31,6 +31,7 @@ $box-lid-content-background: #fff;
   .box-lid-content {
     @include transition(all 500ms $box-lid-transition);
     background: $box-lid-content-background;
+    margin-left:50px;
   }
 
 }
@@ -54,15 +55,21 @@ $box-lid-content-background: #fff;
 }
 
 .box-lid-menu {
+  font-family: Courier;
+
   @include transition(all 250ms $box-lid-transition);
   width: $box-lid-bar-width;
   background: $box-lid-bar-background;
   position: fixed; // create bar that fills up the page
   height: 100%;
-  top: 85px;
+  top: 0px;
   left: 0;
   z-index: 2;
   sidenav { // push nav to the left, beyond the viewport
+    //margin-top:85px;
+    .menu-links{
+      margin-top:95px;
+    }
     @include transition(all 500ms $box-lid-transition);
     display: block;
     height: 100%;
@@ -71,7 +78,7 @@ $box-lid-content-background: #fff;
     top: -48px;
     left: -1.2 * $box-lid-menu-width;
     color: #fff;
-    background-color: #777;
+    background-color: rgba(0, 0, 0, 0.08);
 
   }
 }
@@ -82,5 +89,5 @@ $box-lid-content-background: #fff;
   }
   .box-lid-icon { @include opacity(0); }
   .box-lid-menu sidenav { left: 0; }
-  .box-lid-menu { background-color: #777; }
+  .box-lid-menu { background-color: transparent; }
 }
