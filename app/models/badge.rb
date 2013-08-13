@@ -60,7 +60,7 @@ class Badge < ActiveRecord::Base
         			@has_Warning = student.news_feeds.find_by_feed_type("#{pset_name}_warning")
         			student.news_feeds.create(:content => "Need 1 problem type to get #{pset_name} Blue!!", :feed_type => "#{pset_name}_warning", :user_id => student.id) if @has_Warning.nil?
         		end	
-      	end
+            end
         end
     end
 
