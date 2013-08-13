@@ -20,17 +20,17 @@
       <ul class="dropdown-menu">
         <% tem=@quiz.length %>
         <% @quiz.each do |qu| %>
-        <li>
-        <% if qu.quiz_instances.length > 0 %>
-        <%= link_to "Quiz #{tem}", start_quiz_path(qu.quiz_instances.last) %>
-        <% else %>
-        <%= link_to "Quiz #{tem}", start_new_quiz_path(@instance.id, :quiz_id => qu.id) %>
-        <%end%>
-        <%tem=tem-1%>
-        </li>
+          <li>
+            <% @quiz_instance = qu.quiz_instances.find_by_user_id(current_user.id) %>
+            <% unless  @quiz_instance.blank? %>
+              <%= link_to "Quiz #{tem}", start_quiz_path(@instance.id, :instance => @quiz_instance) %>
+            <% else %>
+              <%= link_to "Quiz #{tem}", start_new_quiz_path(@instance.id, :quiz_id => qu.id) %>
+            <%end%>
+            <%tem=tem-1%>
+          </li>
         <%end%>
       </ul>
-    
     <% end %>
     </div>
   </div>

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130807090200) do
+ActiveRecord::Schema.define(:version => 20130813064942) do
 
   create_table "active_admin_comments", :force => true do |t|
     t.string   "resource_id",   :null => false
@@ -267,6 +267,7 @@ ActiveRecord::Schema.define(:version => 20130807090200) do
     t.string   "name"
     t.integer  "classroom_id"
     t.integer  "problem_set_id"
+    t.string   "students"
   end
 
   add_index "quizzes", ["user_id", "name"], :name => "index_quizzes_on_user_id_and_name", :unique => true

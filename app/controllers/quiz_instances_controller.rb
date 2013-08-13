@@ -7,7 +7,7 @@ class QuizInstancesController < ApplicationController
     # start_quiz_path(@quiz)
     def start
         @title = "Starting Quiz"
-        @instance = QuizInstance.find(params[:id])
+        @instance = QuizInstance.find(params[:instance])
         deny_access && return unless @instance.user_id == current_user.id
         return finish_quiz if @instance.over?
         @quiz = Quiz.find_by_id(@instance.quiz_id)

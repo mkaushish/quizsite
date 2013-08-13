@@ -4,7 +4,9 @@
 	<li><%= link_to "Create Quiz", new_quiz_path(classroom: @classroom.id, pset: @problem_set.id, type: "single_class") %>
 		for <%= print_ps @problem_set %> 
 	</li>
-
+	<li><%= link_to "Create Quiz for #{@classroom.name} with specific students", validate_students_for_classroom_quiz_path(classroom: @classroom.id, pset: @problem_set.id, type: "single_class_specific_students") %>
+		for <%= print_ps @problem_set %> 
+	</li>
 	<% if @quiz_history.empty? %>
 	<li>You haven't assigned any quizzes on this problem set yet</li>
     <% else %>

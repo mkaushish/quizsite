@@ -14,8 +14,15 @@ class ProblemSetInstancesController < ApplicationController
         @stats = @instance.stats
         @sessions = []
         @history = current_user.problem_history(@problem_set.problem_types.map(&:id)).limit(11)
-        @quiz=Quiz.where("problem_set_id = ? AND classroom_id IS NULL", @problem_set.id)
-        @quiz += (current_user.classrooms.first.quizzes).where("problem_set_id = ?", @problem_set.id)
+        @quiz = Quiz.where("problem_set_id = ? AND classroom_id IS NULL", @problem_set.id)
+        @quiz_with_classroom = (current_user.classrooms.first.quizzes).where("problem_set_id = ?", @problem_set.id)
+        @quiz_with_classroom.each do |qws|
+            if qws.students.blank?
+                @quiz.push qws
+            else
+                @quiz.push qws if qws.students.include? current_user.id.to_s
+            end
+        end
     end
 
     def static_do

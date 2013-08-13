@@ -9,7 +9,11 @@
 	<%= submit_tag "Change Dates", :class => "button_blue"%>
 	<p class = "pull-right">
   		Download:
-  			<%= link_to "Excel", download_grades_path(@classroom.id, format: "xls") %>
+  			<%= link_to "Excel", download_grades_path(@classroom.id, 
+  														:problem_set_id => @problem_set.id, 
+  														:@start_date => @start_date, 
+  														:@end_date => @end_date, 
+  														format: "xls") %>
 	</p>
 	<table id="grad" border="1">
 		<%= render "grades", :@start_date => @start_date, :@end_date => @end_date, :@problem_types => @problem_types %>

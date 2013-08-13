@@ -17,6 +17,7 @@
                     <%= link_to "Grades", details_path(@classroom.id, type: "grades"), remote: :true %>
                 </li>
             </ul>
+            <%= yield :teacher_sidebar %>
         </sidenav>
     </div>
     <div class='box-lid'>
