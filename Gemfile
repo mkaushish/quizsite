@@ -8,6 +8,7 @@ gem 'omniauth-google-oauth2'
 gem 'pg'
 gem 'jquery-rails', '~> 2.0.2'
 gem 'ransack'
+gem 'will_paginate', '~> 3.0'
 
 group :test, :development do
 	gem 'rspec-rails'
@@ -39,6 +40,7 @@ group :assets do
     gem 'sass-rails', "  ~> 3.2.3"
     gem 'coffee-rails', "~> 3.2.1"
     gem 'uglifier', ">= 1.0.3"
+    gem 'compass-rails'
 end
 
 group :test do

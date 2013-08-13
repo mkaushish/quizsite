@@ -86,3 +86,4 @@ namespace :generate do
         end
     end
 end
+

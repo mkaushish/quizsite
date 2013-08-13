@@ -32,4 +32,17 @@ class ProblemType < ActiveRecord::Base
     problem_generators.each { |g| return g if g.klass.nil? }
     nil
   end
+  
+  def total_correct_wrong_problem_type_answers
+    answers = self.correct_answers
+    correct_answers = answers.select{|v| v == true }.count 
+    wrong_answers = answers.select{|v| v == false }.count 
+    total_answers = answers.count 
+    return [total_answers, correct_answers, wrong_answers]     
+  end
+
+  def correct_answers
+    self.answers.pluck(:correct)
+  end
+
 end

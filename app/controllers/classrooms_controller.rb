@@ -15,13 +15,13 @@ class ClassroomsController < ApplicationController
   ## GET /assign_pset, remote => true
   def assign_pset
     @classroom = Classroom.find(params[:id])
-    unless @classroom.teacher == current_user
+    if @classroom.classroom_teachers.pluck(:teacher_id).include? current_user.id
+      @pset = ProblemSet.find(params[:pset_id])
+      @classroom.assign!(@pset)
+      render :js => "window.location.href = '/'"
+    else
       render :js => 'alert("this class doesn\'t belong to you!");'
     end
-
-    @pset = ProblemSet.find(params[:pset_id])
-    @classroom.assign!(@pset)
-    render :js => "window.location.href = '/'"
   end
 
   def assign_quiz

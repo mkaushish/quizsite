@@ -7,6 +7,7 @@
 //= require jquery
 //= require jquery_ujs
 //= require bootstrap
+//= require_tree
 //= require jquery.mousewheel
 //= require jquery.jscrollpane.min
 //= require_directory .

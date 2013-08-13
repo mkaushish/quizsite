@@ -35,23 +35,6 @@ ul.teacher-class-col {
   margin-bottom:25px;
 }
 
-.class_student_password {
-  display: inline-block;
-  padding: 5px 7px;
-  border: 1px solid gray;
-  background: maroon;
-  color: white;
-}
-
-.class_teacher_password {
-  display: inline-block;
-  margin-left: 5px;
-  padding: 5px 7px;
-  border: 1px solid gray;
-  background: maroon;
-  color: white;
-}
-
 .teacher-details-body {
   margin-bottom:25px;
 }
@@ -75,4 +58,43 @@ ul.teacher-class-col {
     margin-top:9px;
     margin-left:5px;
   }
+}
+#classroom{
+    box-shadow: 0 0 15px #777;
+    margin: 0 auto;
+    text-align: left;
+    width: 800px;
+    border-left: 10px solid #36a0b0;
+    border-right: 10px solid #aec833;
+    position: relative;
+}
+#classroom_name{
+    position: absolute;
+    top: 45% ;
+    font-family:"Lane_Narrow", Arial, Helvetica, sans-serif;
+    text-transform: uppercase;  
+    text-shadow: 2px 2px 3px rgba(255,255,255,0.1);
+    font-size: 25px;
+    font-weight: bold;
+    left: 5%;
+}
+#classroom_stat{
+    padding-top: 4px;
+    padding-bottom: 4px;
+    float: right;
+}
+.student_class_password {
+    display: inline-block;
+    padding: 5px 7px;
+    border: 1px solid gray;
+    background: maroon;
+    color: white;
+}
+
+.teacher_class_password {
+    display: inline-block;
+    padding: 5px 7px;
+    border: 1px solid gray;
+    background: maroon;
+    color: white;
 }
