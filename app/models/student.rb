@@ -66,21 +66,7 @@ class Student < User
     end
 
     def self.create_badges(student)
-        Badge.BadgeAPSD(student)
-        Badge.BadgeNQCIARFTO(student,5)
-        Badge.BadgeNQCIARFTO(student,10)
-        Badge.BadgePSB(student)
-        Badge.BadgePTB(student)
-        Badge.BadgeCAPSWAD(student)
-        Badge.BadgeTRQC(student)
-        Badge.BadgeNPSB(student,5)
-        Badge.BadgeNPSB(student,10)
-        Badge.BadgeNQCIARFNT(student, 5, 5)
-        Badge.BadgeNQCIARFNT(student, 5, 10)
-        Badge.BadgeNQCIARFNT(student, 5, 15)
-        Badge.BadgeNQCIARFNT(student, 10, 5)
-        Badge.BadgeNQCIARFNT(student, 10, 10)
-        Badge.BadgeNQCIARFNT(student, 10, 15)
+        Badge.get_badges(student)
     end
 
     def charts_combine
@@ -131,7 +117,7 @@ class Student < User
     end
 
     def answers_correct
-        self.answers.pluck(:correct)
+        self.answers.order("created_at DESC").pluck(:correct)
     end
 
     def answers_correct_problem_type(problem_type)
@@ -148,6 +134,24 @@ class Student < User
 
     def answers_correct_in_time_range(start_time, end_time)
         self.answers.where( "created_at BETWEEN ? and ?", start_time, end_time ).pluck(:correct) 
+    end
+
+    def problem_set_instances_num_problem_problem_stats_blue
+        @result = Array.new
+        self.problem_set_instances.order("id").includes(&:problem_stats).each do |pset_instance|
+           @result = @result.push [(pset_instance.name), (pset_instance.num_problems - pset_instance.problem_stats.blue.count == 0), (pset_instance.num_problems - pset_instance.problem_stats.blue.count), (pset_instance.stop_green)]
+        end
+        return @result
+    end
+
+    def problem_types_blue_name
+        @problem_type_name = Array.new
+        self.problem_set_instances.order("id").each do |pset_instance|
+            pset_instance.problem_stats.blue.each do |problem_stat|
+                @problem_type_name = @problem_type_name.push problem_stat.problem_type.name
+            end
+        end
+        return @problem_type_name
     end
 
     private
