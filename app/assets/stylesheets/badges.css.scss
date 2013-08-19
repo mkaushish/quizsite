@@ -11,6 +11,8 @@ border-radius: 50%;
 font-family: "Home_hand";
 border-style:solid;
 border-color:gray;
+background-color: white;
+padding:2px;
   }
 .badges2{
 display:inline-block;
@@ -18,10 +20,21 @@ font-size: 8px;
 color: white;
 height: 40px;
 width: 40px;
-border-radius: 50%;
+//border-radius: 50%;
 font-family: "Home_hand";
-border-style:solid;
-border-color:gray;
+//border-style:solid;
+//border-color:gray;
+  }
+  .badgesbw2{
+display:inline-block;
+font-size: 8px;
+color: white;
+height: 40px;
+width: 40px;
+//border-radius: 50%;
+font-family: "Home_hand";
+//border-style:solid;
+//border-color:gray;
   }
   .modal-body ul li{opacity:0.8;}
   .tryli:hover{
@@ -50,32 +63,42 @@ border-style:solid;
 border-color:gray;
 font-family: "Home_hand";
   }
-    .badgesbw2{
-    	display:inline-block;
-font-size: 8px;
-color: white;
-height: 40px;
-width: 40px;
-background-color: rgb(220,220,220);
-border-radius: 50%;
-border-style:solid;
-border-color:gray;
-font-family: "Home_hand";
-  }
+.b_image{
+  width:100%;
+  height:100%;
+}
+  .badge_1{  
 
-  .badge_1{
-  	background-color:violet;
+    margin-top:0px;
+    .b_image{
+  	background-image:url("/assets/tetrahedron.png");
+
+    background-size:100% 100%;
+  }
   }
   .badge_2{
-  	background-color:gold;
+
+    .b_image{
+  background-image:url("/assets/cube.png");
+    background-size:100% 100%;
+  }
   }
   .badge_3{
-  	background-color:orange;
+    .b_image{
+  	background-image:url("/assets/octahedron.png");
+    background-size:100% 100%;
+  }
   }
   .badge_4{
-  	background-color:$sg_green;
+    .b_image{
+  	background-image:url("/assets/dodecahedron.png");
+    background-size:100% 100%;
+  }
   }
   .badge_5{
-  	background-color:$sg_blue;
+    .b_image{
+    background-image:url("/assets/icosahedron.png");
+    background-size:100% 100%;
+  }
   }
 

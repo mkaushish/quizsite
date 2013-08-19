@@ -53,27 +53,49 @@
   var remnum=parseFloat(remaining);
   var complete="<%= @stat.done_p %>";
   var compnum=parseFloat(complete);
-  var wid=wpnum+rpnum+remnum+compnum
+  var wid=Math.abs(remnum)+compnum+wpnum+rpnum
   
   var per_complete=(compnum/wid)*100.0;
   var per_remaining=(remnum/wid)*100.0;
   var final_remaining=100.0 - per_remaining;
-  var totalrw=wid- remnum - compnum;
-  var fracwrong=wpnum/totalrw;
-  var fracright=rpnum/totalrw;
+  //var totalrw=wid- remnum - compnum;
+  //var fracwrong=wpnum/totalrw;
+  //var fracright=rpnum/totalrw;
+  wrongper=per_complete+(wpnum/wid)*100
+  rightper=per_complete+((wpnum+rpnum)/wid)*100
   //$('#try').css('background','-webkit-gradient(linear, 21% 0%, 81% 0%, from(#60B349), to(#60B349), color-stop(.5,#60B349),color-stop(.5,#C40233),color-stop(.6,#C40233),color-stop(.6,#0087BD),color-stop(.8,#0087BD),color-stop(.8,#60B349))');
   //alert(wid);
-  if(fracwrong==0)
-  {
-    fracwrong=0.005;
-  }
   if(per_complete>=100)
   {
     $('#try').css('background-color',"#0087BD")
   }
   else
   {
-  $('#try').css('background',"-webkit-gradient(linear,"+per_complete+"% 0%,"+final_remaining+"% 0%, from(#0087BD), to(grey), color-stop(.005,#60B349),color-stop(.005,#C40233),color-stop("+fracwrong+",#C40233),color-stop("+fracwrong+",#60B349),color-stop(.995,#60B349),color-stop(.995,grey))");
+    if(wpnum > 0 || compnum == 0){
+  //$('#try').css('background',"-webkit-gradient(linear,"+per_complete+"% 0%,"+final_remaining+"% 0%, from(#0087BD), to(grey), color-stop(.005,#60B349),color-stop(.005,#C40233),color-stop("+fracwrong+",#C40233),color-stop("+fracwrong+",#60B349),color-stop(.995,#60B349),color-stop(.995,grey))");
+
+
+  $("#try").css("background", "gray"); /* Old browsers */
+  $("#try").css("background", "-moz-linear-gradient(left, #0087bd "+per_complete+"%, #c40233 "+per_complete+"%, #c40233 "+wrongper+"%, #60b349 "+wrongper+"%, #60b349 "+rightper+"%, #808080 "+rightper+"%, #808080 100%)"); /* Old browsers */
+  $("#try").css("background", "-webkit-gradient(linear, left top, right top, color-stop("+per_complete+"%,#0087bd), color-stop("+per_complete+"%,#c40233), color-stop("+wrongper+"%,#c40233), color-stop("+wrongper+"%,#60b349), color-stop("+rightper+"%,#60b349), color-stop("+rightper+"%,#808080), color-stop(100%,#808080))"); /* Old browsers */
+  $("#try").css("background", "-webkit-linear-gradient(left, #0087bd "+per_complete+"%,#c40233 "+per_complete+"%,#c40233 "+wrongper+"%,#60b349 "+wrongper+"%,#60b349 "+rightper+"%,#808080 "+rightper+"%,#808080 100%)"); /* Old browsers */
+
+//background: -o-linear-gradient(left, #0087bd 25%,#c40233 25%,#c40233 34%,#60b349 34%,#60b349 62%,#808080 62%,#808080 100%); /* Opera 11.10+ */
+//background: -ms-linear-gradient(left, #0087bd 25%,#c40233 25%,#c40233 34%,#60b349 34%,#60b349 62%,#808080 62%,#808080 100%); /* IE10+ */
+//background: linear-gradient(to right, #0087bd 25%,#c40233 25%,#c40233 34%,#60b349 34%,#60b349 62%,#808080 62%,#808080 100%); /* W3C */
+//filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0087bd', endColorstr='#808080',GradientType=1 ); /* IE6-9 */
+}
+else{
+  $("#try").css("background", "#0087bd"); /* Old browsers */
+  $("#try").css("background", "-moz-linear-gradient(left, #0087bd 0%, #2989d8 "+per_complete+"%, #a8a8a8 "+per_complete+"%);"); /* Old browsers */
+  $("#try").css("background", "-webkit-gradient(linear, left top, right top, color-stop(0%,#0087bd), color-stop("+per_complete+"%,#2989d8), color-stop("+per_complete+"%,#a8a8a8))"); /* Old browsers */
+  $("#try").css("background", "-webkit-linear-gradient(left, #0087bd 0%,#2989d8 "+per_complete+"%,#a8a8a8 "+per_complete+"%)"); /* Old browsers */
+  $("#try").css("background", "-o-linear-gradient(left, #0087bd 0%,#2989d8 "+per_complete+"%,#a8a8a8 "+per_complete+"%)"); /* Old browsers */
+  $("#try").css("background", "-ms-linear-gradient(left, #0087bd 0%,#2989d8 "+per_complete+"%,#a8a8a8 "+per_complete+"%)"); /* Old browsers */
+  $("#try").css("background", "linear-gradient(to right, #0087bd 0%,#2989d8 "+per_complete+"%,#a8a8a8 "+per_complete+"%)"); /* Old browsers */
+  $("#try").css("filter", "progid:DXImageTransform.Microsoft.gradient( startColorstr='#0087bd', endColorstr='#a8a8a8',GradientType=1 )"); /* Old browsers */
+
+}
 }
  </script>
 

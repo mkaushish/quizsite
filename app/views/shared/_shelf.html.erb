@@ -52,7 +52,9 @@
 	<div class="modal-body">
 		<ul><% current_user.badges.order("created_at DESC").each do |badge| %>
 			<li class="tryli">
-				<p class = "<%= badge.badge_key %> badges2 badge_<%= badge.level %>"></p>
+				<div class = "<%= badge.badge_key %> badges2 badge_<%= badge.level %>">
+          <div class='b_image'></div>
+        </div>
 				<p class="posbadge_name"><%= badge.name %></p></li>
 				<% end %>     
 			</ul>
@@ -68,11 +70,16 @@
 		<h3 id="myModalLabel" class="badgehead" >BADGES TO GET</h3>
 	</div>
 	<div class="modal-body">
+    <% ct=0 %>
 		<ul><% badgekey[1].each do |badge| %>
 			<li class="tryli">
-				<p class = "badgesbw2"></p>
+				<div class = "badgesbw2 badge_<%= badgekey[2][ct] %>">
+          <div class='b_image'></div>
+        </div>
 				<p class="posbadge_name"><%= badge %></p></li>
+        <%ct=ct+1%>
 				<% end %>     
+
 			</ul>
 		</div>
   <!-- <div class="modal-footer">
