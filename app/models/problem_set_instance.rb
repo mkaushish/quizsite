@@ -88,7 +88,14 @@ class ProblemSetInstance < ActiveRecord::Base
     end
     return 'green'
   end
-
+##############################################################################
+  # def modify_blue?(blue_time)
+  #   stats.each do |stat| 
+  #     return "green" unless stat.blue?
+  #   end
+  #   return 'blue'
+  # end
+##############################################################################
   def num_problems
     problem_set_problems.length
   end

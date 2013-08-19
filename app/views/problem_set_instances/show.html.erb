@@ -63,6 +63,16 @@
     <% @red   = 100.0 - @blue - @green %>
 <script>dbord(["<%=@blue%>","<%=@green%>","<%=@red%>"]);
 </script>
+<!-- it should be like this -->
+    <%# @a = @stats.map(&:color_status) %>
+    <%# @total = @instance.num_problems %>
+
+    <%# @blue  = percentage(@a.count("blue"), @total) %>
+    <%# @green = percentage(@a.count("green"), @total) %>
+    <%# @red   = 100.0 - @blue - @green %>
+<!-- <script>dbord(["<%#=@blue%>","<%#=@green%>","<%#=@red%>"]);
+</script> -->
+<!-- end -->
 <div>
   <% @stats.each do |i| %>
     <%= render :partial => 'problem_list_box', :object => i,  :locals => {:item => i}%>

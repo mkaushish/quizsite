@@ -9,7 +9,7 @@ class ProblemSetInstancesController < ApplicationController
     def show
         @problem_set = ProblemSet.includes(:problem_types).find(params[:name])
         @instance = ProblemSetInstance.where(:problem_set_id => @problem_set.id,
-                                         :user_id => current_user.id).first
+                                                :user_id => current_user.id).first
         @instance ||= current_user.problem_set_instances.new(:problem_set => @problem_set)
         @stats = @instance.stats
         @sessions = []

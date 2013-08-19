@@ -3,6 +3,13 @@
 <% else %>
 <%= render "problem_set_instances/progress_bar/green" %>
 <%end%>
+<!-- it should be like this -->
+<%# if(@stat.color_status!="blue") %>
+<%#= render "problem_set_instances/progress_bar/green" %>
+<%# else %>
+<%#= render "problem_set_instances/progress_bar/blue" %>
+<%# end %>
+<!-- end -->
 
 <%= render 'stats' %>
 

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130813064942) do
+ActiveRecord::Schema.define(:version => 20130819065634) do
 
   create_table "active_admin_comments", :force => true do |t|
     t.string   "resource_id",   :null => false
@@ -206,6 +206,7 @@ ActiveRecord::Schema.define(:version => 20130813064942) do
     t.integer  "points_wrong",    :default => 0,                     :null => false
     t.integer  "points_right",    :default => 100,                   :null => false
     t.datetime "stop_green",      :default => '2013-03-14 12:24:57', :null => false
+    t.integer  "points_required", :default => 500
   end
 
   add_index "problem_stats", ["user_id", "problem_type_id"], :name => "index_problem_stats_on_user_id_and_problem_type_id", :unique => true
