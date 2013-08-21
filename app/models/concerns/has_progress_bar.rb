@@ -6,7 +6,7 @@ module HasProgressBar
   		return 0
   	end
 
-	  to_percent (500 - points_till_green)
+	  to_percent (points_till_green)
   end
 
   def wrong_p

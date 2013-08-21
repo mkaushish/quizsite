@@ -61,16 +61,20 @@ class ProblemStat < ActiveRecord::Base
       self.points_wrong += 10
     end
 
-    if Time.now >= self.stop_green
-      set_new_points
-    end
-    
     total_points_required = self.points_required
 
     if points > total_points_required
-      set_stop_green
+      time = Time.now.utc
+      time += (60*60) * points_over_green
+      self.stop_green = time.to_time.utc
+      self.save
     end
 
+    stop_green = self.stop_green
+    if Time.now.utc >= stop_green and points > self.points_required
+      set_new_points
+    end
+    
     self.points_wrong = 0 if points_wrong < 0
     self.points_wrong = 50 if points_wrong > 50
     self.points_right = 70 if points_right < 70
@@ -80,13 +84,20 @@ class ProblemStat < ActiveRecord::Base
   end
 
   def green?
-    stop_green > Time.now
+    stop_green > Time.now.utc
   end
 
   def set_stop_green
-    time = Time.now
-    time += (60*60) * points_over_green
-    self.stop_green = time
+    # time = Time.now.utc
+    # time += (60*60) * points_over_green
+    # self.stop_green = time.to_time.utc
+  end
+
+  def set_stop_green_new
+    # time = Time.now.utc
+    # time += (60*60) * points_over_green
+    # self.stop_green = time.to_time.utc
+    # self.save
   end
 
   def set_new_points
@@ -94,7 +105,7 @@ class ProblemStat < ActiveRecord::Base
   end
   
   def points_till_green
-    500 - points
+    self.points_required - points
   end
 
   def points_over_green
@@ -121,7 +132,7 @@ class ProblemStat < ActiveRecord::Base
   end
 
   def self.blue
-    where("stop_green > ?", Time.now)
+    where("stop_green > ?", Time.now.utc)
   end
 
   def self.green
