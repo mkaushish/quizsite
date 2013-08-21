@@ -1,1 +1,1 @@
-<%= badgekey[0].count - @student.badges.count %>
+<%= badgekey.reject{|x| x[2] != @shape}.count%>

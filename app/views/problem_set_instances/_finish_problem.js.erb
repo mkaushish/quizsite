@@ -19,7 +19,11 @@ change_color_status($('#pt_<%= @stat.problem_type_id %>'), "<%= @stat.color_stat
 $("#problem_history").prepend("<%= j render("problem_set_instances/history_ans", object: @answer, as: :answer) %>");
 $("#pt_<%= @stat.problem_type_id %>").replaceWith("<%= j render("problem_set_instances/problem_list_box", item: @stat) %>");
 $("#points").html("<%= j render("students/student_points", :@changedPoints => @changedPoints) %>");
-$("#get_badge").html("<%= j render("students/badge") %>");
+//$("#get_badge").html("<%= j render("students/badge") %>");
 $("#news").html("<%= j render("students/news_feeds", :@student => @student) %>");
-$("#badge_count").html("<%= j render("students/badge_count", :@student => @student) %>");
-$("#badgebw_count").html("<%= j render("students/badgebw_count", :@student => @student) %>");
+$("#badge_count_tetrahedron").html("<%= j render("students/badge_count", :@student => @student, :@shape => 1) %>");
+$("#badge_count_cube").html("<%= j render("students/badge_count", :@student => @student, :@shape => 2) %>");
+$("#badge_count_octahedron").html("<%= j render("students/badge_count", :@student => @student, :@shape => 3) %>");
+$("#badge_count_dodecahedron").html("<%= j render("students/badge_count", :@student => @student, :@shape => 4) %>");
+$("#badge_count_icosahedron").html("<%= j render("students/badge_count", :@student => @student, :@shape => 5) %>");
+//$("#badgebw_count").html("<%= j render("students/badgebw_count", :@student => @student) %>");
