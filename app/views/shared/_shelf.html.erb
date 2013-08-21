@@ -95,7 +95,7 @@
 	</div>
 	<div class="modal-body">
     <% ct=0 %>
-		<ul><% badgekey.each do |badge| %>
+		<ul><% @all_badges.each do |badge| %>
       <% if @student.badges.find_by_badge_key(badge[0]).nil? %>
 			<li class="tryli">
 				<div class = "badgesbw2 badge_<%= badge[2] %>">

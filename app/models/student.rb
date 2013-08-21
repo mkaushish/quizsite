@@ -65,8 +65,18 @@ class Student < User
         end
     end
 
-    def self.create_badges(student)
-        Badge.get_badges(student)
+    def create_and_get_all_gettable_badges
+        self.create_badges
+        @all_badges = self.all_badges
+        return @all_badges
+    end
+
+    def create_badges
+        Badge.get_badges(self)
+    end
+
+    def all_badges
+        Badge.all_badges(self)
     end
 
     def charts_combine
@@ -118,6 +128,10 @@ class Student < User
 
     def answers_correct
         self.answers.order("created_at DESC").pluck(:correct)
+    end
+
+    def answers_correct_with_problem_type_id
+        self.answers.order("created_at DESC").collect{ |v| [v.correct, v.problem_type_id] }
     end
 
     def answers_correct_problem_type(problem_type)

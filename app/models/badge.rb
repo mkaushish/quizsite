@@ -11,31 +11,58 @@ class Badge < ActiveRecord::Base
 
 	def self.get_badges(student)
         result = student.problem_set_instances_num_problem_problem_stats_blue
-
         unless result.blank?
-            Badge.BadgeAPSD(student, result)
-            Badge.BadgePSB(student, result)
-            Badge.BadgeCAPSWAD(student, result)
-            Badge.BadgeNPSB(student, result, 5)
-            Badge.BadgeNPSB(student, result, 10)
+            Badge.BadgeAPSD(student, result)                #[LEVEL 5]#
+            Badge.BadgePSB(student, result)                 #[LEVEL 3]#
+            Badge.BadgeCAPSWAD(student, result)             #[LEVEL 2]#
+            Badge.BadgeNPSB(student, result, 5)             #[LEVEL 4]#
+            Badge.BadgeNPSB(student, result, 10)            #[LEVEL 4]#
         end
 
-        answers = student.answers_correct
-        unless answers.blank?
-            Badge.BadgeNQCIARFTO(student, answers, 5)
-            Badge.BadgeNQCIARFTO(student, answers, 10)
-            Badge.BadgeNQCIARFNT(student, answers, 5, 5)
-            Badge.BadgeNQCIARFNT(student, answers, 5, 10)
-            Badge.BadgeNQCIARFNT(student, answers, 5, 15)
-            Badge.BadgeNQCIARFNT(student, answers, 10, 5)
-            Badge.BadgeNQCIARFNT(student, answers, 10, 10)
-            Badge.BadgeNQCIARFNT(student, answers, 10, 15)
+        answers_correct_with_problem_type = student.answers_correct_with_problem_type_id
+        answers_correct = answers_correct_with_problem_type.map{ |v| v[0] }
+        unless answers_correct.blank?
+            Badge.BadgeNQCIARFTO(student, answers_correct, 5)       #[LEVEL 2]#
+            Badge.BadgeNQCIARFTO(student, answers_correct, 10)      #[LEVEL 2]#
+            Badge.BadgeNQCIARFNT(student, answers_correct, 5, 5)    #[LEVEL 3]#
+            Badge.BadgeNQCIARFNT(student, answers_correct, 5, 10)   #[LEVEL 3]#
+            Badge.BadgeNQCIARFNT(student, answers_correct, 5, 15)   #[LEVEL 3]#
+            Badge.BadgeNQCIARFNT(student, answers_correct, 10, 5)   #[LEVEL 3]#
+            Badge.BadgeNQCIARFNT(student, answers_correct, 10, 10)  #[LEVEL 3]#
+            Badge.BadgeNQCIARFNT(student, answers_correct, 10, 15)  #[LEVEL 3]#
+        end
+
+        unless answers_correct_with_problem_type.blank?
+            Badge.BadgePTTQCIARFTO(student, answers_correct_with_problem_type, 10)
         end
 
         problem_types_name = student.problem_types_blue_name
         unless problem_types_name.blank?
-            Badge.BadgePTB(student, problem_types_name)    
+            Badge.BadgePTB(student, problem_types_name) #[LEVEL 1]#    
         end
+    end
+
+    def self.all_badges(student)
+        @badges=[]
+        student.problem_sets.each do |pset|
+            @badges.push(["Badge" + pset.name + "B", "#{pset.name} Problem Set Blue", 3])
+            pset.problem_types.each do |ptype|
+                @badges.push(["Badge" + ptype.name + "B", "#{ptype.name} Problem Type Blue", 1])
+            end
+        end
+        @badges += [["BadgeCAPSWAD", "Problem Set Completed Within a Day", 2],["BadgeTRQC", "10 red Questions Correct", 2]]
+        @badges << ["BadgeAPSD", "All Problem Sets Blue", 5]
+
+        for i in 0...2
+            for j in 0...3
+                @badges << ["Badge#{(i+1)*5}QCIARF#{(j+1)*5}TO", "#{(i+1)*5} Questions Correct in a Row for the #{(j+1)*5} Time", 3]
+            end
+            @badges << ["Badge#{(i+1)*5}QCIARFTO", "#{(i+1)*5} Questions Correct in a Row for the First Time", 2]
+            @badges << ["Badge#{(i+1)*5}PSB", "#{(i+1)*5} Problem Sets Blue", 4]
+        end
+    
+        @badges.sort!{|x,y| x[2] <=> y[2]}
+        return @badges
     end
 
     # Badge for all problem sets done [LEVEL 5]#
@@ -161,6 +188,30 @@ class Badge < ActiveRecord::Base
                 student.news_feeds.create(:content => "Congrats! You have won a new Badge: #{problem_type_name} Blue !!", :feed_type => "badge", :user_id => student.id)
                 student.badges.create(:name => "#{problem_type_name} Problem Type Blue", :badge_key => "Badge#{problem_type_name}B", :level => 1)
             end 
+        end
+    end
+
+    # Badge for getting 10 questions correc in row for first time [LEVEL 2] #
+    def self.BadgePTTQCIARFTO(student, answers, n)
+        count = 0
+        answers.each_with_index do |answer, index|
+            unless index == 0
+                if answer[index].eql? answer[index - 1]
+                    count += 1
+                    if count == n
+                        problem_type = ProblemType.find_by_id(answer[1].to_i)
+                        @has_BadgePTTQCIARFTO = student.badges.find_by_badge_key("Badge#{problem_type.name}TQC")
+                        if @has_BadgePTTQCIARFTO.nil?
+                            student.points += 1000
+                            student.save
+                            student.news_feeds.create(:content => "Congrats! You have won a new Badge: #{n} questions correct in a row for the first time only of #{problem_type.name}", :feed_type => "badge", :user_id => student.id)
+                            student.badges.create(:name => "#{n} Questions Correct in a Row for the First Time of #{problem_type.name}", :badge_key => "Badge#{problem_type.name}TQC", :level => 2)         
+                        end
+                    end
+                else
+                    count = 0
+                end
+            end
         end
     end
 end

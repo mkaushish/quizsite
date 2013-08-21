@@ -7,7 +7,7 @@ class StudentsController < ApplicationController
     def home
         @pset_instances = @student.problem_set_instances.includes(:problem_stats, :problem_set, :problem_set_problems)
         @history = current_user.answers.order("created_at DESC").limit(11)
-        Student.create_badges(@student)
+        @all_badges = @student.create_and_get_all_gettable_badges
         @badges = @student.badges
     end
     
