@@ -1,1 +1,1 @@
-<%= @student.badges.count %>
+<%= "#{@student.badges.where("level = #{@shape}").count}/#{render  'students/badgebw_count', :@shape => @shape}" %>
