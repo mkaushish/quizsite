@@ -15,6 +15,22 @@ module FollowsProblemStat
     ]
     delegate *pstat_methods, :to => :problem_stat
   end
+###########################################################################
+  # included do
+  #   belongs_to :problem_stat, :autosave => true
+  #   pstat_methods = [ 
+  #     :blue?, 
+  #     :set_stop_blue, 
+  #     :points,
+  #     :points_till_blue, 
+  #     :points_over_blue,
+  #     :color_status,
+  #     :set_green,
+  #     :set_green!
+  #   ]
+  #   delegate *pstat_methods, :to => :problem_stat
+  # end
+###########################################################################
 
   def assign_problem_stat!
     self.problem_stat = stat

@@ -50,6 +50,7 @@
   get '/student/notifications',               to: 'students#notifications', :as => :notifications_student
   put '/students/:id',                        to: 'students#update', :as => :update_student
   get '/students/:id',                        to: 'students#show', :as => :student
+  get "/students/:id/bagdes",                 to: 'students#badges', :as => :student_badges
   get '/students/:id/chart',                  to: 'students#chart', :as => :chart_student
   get '/students/:id/chart/pset/:pset',       to: 'students#problemset_chart', :as => :chart_student_pset
 
@@ -92,12 +93,15 @@
   
   
   get '/details/:classroom',                  to: 'details#details', as: :details
+  get '/details/:classroom/download_grades',  to: 'details#download_grades', as: :download_grades
   post '/details_classroom',                  to: 'details#select_classroom', as: :details_classroom
   get '/details_classroom/:classroom/pset/:problem_set_id',          to: 'details#select_problem_set', as: :details_problem_set
-  get '/details_classroom/:classroom/dates',    to: 'details#select_dates', as: :select_dates
+  get '/details_classroom/:classroom/dates',  to: 'details#select_dates', as: :select_dates
   post '/details_concept',                    to: 'details#click_concept', as: :details_concept
 
   get '/new_quiz',                            to: 'quizzes#new', as: :new_quiz
+  post '/new_quiz',                           to: 'quizzes#new', as: :new_quiz
+  get '/new_quiz/select_students',            to: 'quizzes#validate_students_for_classroom_quiz', as: :validate_students_for_classroom_quiz
   post '/quizzes/create',                     to: 'quizzes#create', as: :create_quiz
   post '/partial_create/:quiz',               to: 'quizzes#partial_create', as: :partial_create_quiz
   get '/quiz_for_all_classes/:quiz',          to: 'quizzes#assign_quiz_to_classrooms', as: :assign_quiz_to_classrooms
@@ -109,7 +113,7 @@
   # classroom
   get 'teacher/:id/classroom/new',            to: 'classrooms#new', as: :new_classroom
   post 'teacher/:id/classrooms',              to: 'classrooms#create', as: :create_classroom
-  get 'teacher/:id/join_class',              to: 'classrooms#join', as: :join_classroom
+  get 'teacher/:id/join_class',               to: 'classrooms#join', as: :join_classroom
   post 'teacher/:id/join_class',              to: 'classrooms#join_class', as: :join_classroom
   # :id => classroom id
   get  ':id/show_psets/',                     to: 'classrooms#show_psets', as: :show_psets

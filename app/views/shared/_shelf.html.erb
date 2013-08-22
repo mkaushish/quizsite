@@ -1,121 +1,124 @@
 <%@changedPoints = 0%>
+
 <div id='bigshelf'>
-<div class='shelf' id='shelf_0'>
-  <ul class='shelf_ul'>
-    <li class='shelf_li'>
-      <%= link_to (image_tag ("#{@student.image}"), :size => "70x70", :class => "st_img"), edit_student_path, :remote => true unless @student.image.blank? %>
-      <%=  link_to (image_tag ("default_70x70.png"), :size => "70x70", :class => "st_img"), edit_student_path, :remote => true if @student.image.blank?%>
-      <%= link_to 'Account',  edit_student_path, :remote => true, :class => 'plate' %></li>
-    <li class='shelf_li'><div id='points'><%= render  :partial => 'students/student_points' %></div><a class='plate' style='margin-top:7px'>Points</a></li>
-    <li class='shelf_li'> 
-      <div class="btn-group"> 
-   		   <button class="btn btn-success dropdown-toggle dropdown-toggle2" data-toggle="dropdown" >
-          <span class="caret"></span>
-      	 </button>
-      	<div id='news'><%= render  :partial => 'students/news_feeds' %></div>    	
-      </div>
-  	</li>
-    <li class='shelf_li'>
-      <div id="get_badge_1">
-      
-        <img src="/assets/tetrahedron.png" />
-          
-
-      </div>
-
-        <a class='plate' href='#badgeModal' data-toggle="modal"><div id='badge_count_tetrahedron'><%= render  'students/badge_count', :@shape => 1 %></div></a>
-      </li>
-      <li class='shelf_li'>
-      <div id="get_badge_1">
-      
-        <img src="/assets/cube.png" />
-          
-
-      </div>
-
-        <a class='plate' href='#badgeModal' data-toggle="modal"><div id='badge_count_cube'><%= render  'students/badge_count' , :@shape => 2%></div></a>
-      </li>
-      <li class='shelf_li'>
-      <div id="get_badge_1">
-      
-        <img src="/assets/octahedron.png" />
-          
-
-      </div>
-
-        <a class='plate' href='#badgeModal' data-toggle="modal"><div id='badge_count_octahedron'><%= render  'students/badge_count' , :@shape => 3%></div></a>
-      </li>
-      <li class='shelf_li'>
-      <div id="get_badge_1">
-      
-        <img src="/assets/dodecahedron.png" />
-          
-
-      </div>
-
-        <a class='plate' href='#badgeModal' data-toggle="modal"><div id='badge_count_dodecahedron'><%= render  'students/badge_count' , :@shape => 4%></div></a>
-      </li>
-      <li class='shelf_li'>
-      <div id="get_badge_1">
-      
-        <img src="/assets/icosahedron.png" />
-          
-
-      </div>
-
-        <a class='plate' href='#badgeModal' data-toggle="modal"><div id='badge_count_icosahedron'><%= render  'students/badge_count' , :@shape => 5%></div></a>
-      </li>
-
-  </ul>
-
- 
-
-</div>
-<div id="badgeModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-
-	<div class="modal-header2 modal-header">
-		<!-- <button type="button" class="close" data-dismiss="modal" aria-hidden="true" style="opacity:2;">×</button> -->
-		<h3 id="myModalLabel" class="badgehead" >BADGES</h3>
-	</div>
-	<div class="modal-body">
-		<ul><% current_user.badges.order("created_at DESC").each do |badge| %>
-			<li class="tryli">
-				<div class = "<%= badge.badge_key %> badges2 badge_<%= badge.level %>">
-          <div class='b_image'></div>
+    <div class='shelf' id='shelf_0'>
+        <ul class='shelf_ul'>
+            <li class='shelf_li'>
+                <%= link_to (image_tag ("#{@student.image}"), :size => "70x70", :class => "st_img"), edit_student_path, :remote => true unless @student.image.blank? %>
+                <%=  link_to (image_tag ("default_70x70.png"), :size => "70x70", :class => "st_img"), edit_student_path, :remote => true if @student.image.blank?%>
+                <%= link_to 'Account',  edit_student_path, :remote => true, :class => 'plate' %>
+            </li>
+            <li class='shelf_li'>
+                <div id='points'>
+                    <%= render  :partial => 'students/student_points' %>
+                </div>
+                <a class='plate' style='margin-top:7px'>Points</a>
+            </li>
+            <li class='shelf_li'> 
+                <div class="btn-group"> 
+                    <button class="btn btn-success dropdown-toggle dropdown-toggle2" data-toggle="dropdown" >
+                        <span class="caret"></span>
+                    </button>
+                    <div id='news'>
+                        <%= render  :partial => 'students/news_feeds' %>
+                    </div>    	
+                </div>
+            </li>
+            <li class='shelf_li'>
+                <div id="get_badge_1">
+                    <%= link_to (image_tag "tetrahedron.png"), student_badges_path(@student.id, :shape => 1), :remote => true %>
+                </div>
+                <div id='badge_count_tetrahedron'>
+                    <%= link_to (render  'students/badge_count', :@shape => 1), student_badges_path(@student.id, :shape => 1), :remote => true, :class => "plate" %>
+                </div>
+                </a>
+            </li>
+            <li class='shelf_li'>
+                <div id="get_badge_1">
+                    <%= link_to (image_tag "cube.png"), student_badges_path(@student.id, :shape => 2), :remote => true %>
+                </div>
+                <div id='badge_count_cube'>
+                    <%= link_to (render  'students/badge_count', :@shape => 2), student_badges_path(@student.id, :shape => 2), :remote => true, :class => "plate" %>
+                </div>
+            </li>
+            <li class='shelf_li'>
+                <div id="get_badge_1">
+                    <%= link_to (image_tag "octahedron.png"), student_badges_path(@student.id, :shape => 3), :remote => true %>
+                </div>
+                <div id='badge_count_octahedron'>
+                    <%= link_to (render  'students/badge_count', :@shape => 3), student_badges_path(@student.id, :shape => 3), :remote => true, :class => "plate" %>
+                </div>
+            </li>
+            <li class='shelf_li'>
+                <div id="get_badge_1">
+                    <%= link_to (image_tag "dodecahedron.png"), student_badges_path(@student.id, :shape => 4), :remote => true %>
+                </div>
+                <div id='badge_count_dodecahedron'>
+                    <%= link_to (render  'students/badge_count', :@shape => 4), student_badges_path(@student.id, :shape => 4), :remote => true, :class => "plate" %>
+                </div>
+            </li>
+            <li class='shelf_li'>
+                <div id="get_badge_1">
+                    <%= link_to (image_tag "icosahedron.png"), student_badges_path(@student.id, :shape => 5), :remote => true %>
+                </div>
+                <div id='badge_count_icosahedron'>
+                    <%= link_to (render  'students/badge_count', :@shape => 5), student_badges_path(@student.id, :shape => 5), :remote => true, :class => "plate" %>
+                </div>
+            </li>        
+        </ul>
+    </div>
+    <!-- <div id="badgeModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    	<div class="modal-header2 modal-header">
+            ####commented_code<button type="button" class="close" data-dismiss="modal" aria-hidden="true" style="opacity:2;">×</button>
+            <h3 id="myModalLabel" class="badgehead" >BADGES</h3>
         </div>
-				<p class="posbadge_name"><%= badge.name %></p></li>
-				<% end %>     
-			</ul>
-		</div>
-</div>
-<div id="badgebwModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-	<div class="modal-header2 modal-header">
-		<!-- <button type="button" class="close" data-dismiss="modal" aria-hidden="true" style="opacity:2;">×</button> -->
-		<h3 id="myModalLabel" class="badgehead" >BADGES TO GET</h3>
-	</div>
-	<div class="modal-body">
-    <% ct=0 %>
-		<ul><% badgekey.each do |badge| %>
-      <% if @student.badges.find_by_badge_key(badge[0]).nil? %>
-			<li class="tryli">
-				<div class = "badgesbw2 badge_<%= badge[2] %>">
-          <div class='b_image'></div>
+        <div class="modal-body">
+            <ul>
+                <%# current_user.badges.order("created_at DESC").each do |badge| %>
+                    <li class="tryli">
+                        <div class = "<%#= badge.badge_key %> badges2 badge_<%#= badge.level %>">
+                            <div class='b_image'></div>
+                        </div>
+                        <p class="posbadge_name"><%#= badge.name %></p>
+                    </li>
+                <% #end %>     
+            </ul>
         </div>
-				<p class="posbadge_name"><%= badge[1] %></p></li>
-        <%ct=ct+1%>
-				<% end %> 
-        <%end%>    
+    </div>
+    <div id="badgebwModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-header2 modal-header">
+            ####commented_code<button type="button" class="close" data-dismiss="modal" aria-hidden="true" style="opacity:2;">×</button>
+            <h3 id="myModalLabel" class="badgehead" >BADGES TO GET</h3>
+        </div>
+        <div class="modal-body">
+            <%# ct=0 %>
+            <ul>
+                <%# @all_badges.each do |badge| %>
+                    <%# if @student.badges.find_by_badge_key(badge[0]).nil? %>
+                        <li class="tryli">
+                            <div class = "badgesbw2 badge_<%#= badge[2] %>">
+                                <div class='b_image'></div>
+                            </div>
+                            <p class="posbadge_name"><%#= badge[1] %></p>
+                        </li>
+                        <%#ct=ct+1%>
+                    <%# end %> 
+                <%# end%>    
+            </ul>
+        </div>
+        ####commented_code<div class="modal-footer">
+            <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+            <button class="btn btn-primary">Save changes</button>
+        </div>
+    </div> -->
 
-			</ul>
-		</div>
-  <!-- <div class="modal-footer">
-    <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
-    <button class="btn btn-primary">Save changes</button>
-</div> -->
-
+    <div id="badgeModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <%# if !@student_badges.nil? and !@all_badges.nil? %>
+            <%#= render "badges", :student_badges => @student_badges, :all_badges => @all_badges %>
+        <%# end %>
+    </div>
 </div>
 
-</div>
 <script>
-shelf_do();
+    shelf_do();
 </script>

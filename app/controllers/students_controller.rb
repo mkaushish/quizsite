@@ -1,14 +1,22 @@
 class StudentsController < ApplicationController
     
     before_filter :authenticate, :except => [:show, :new, :create]
-    before_filter :validate_student, :only => [:update, :show, :chart]
+    before_filter :validate_student, :only => [:update, :show, :chart, :badges]
     before_filter :validate_student_via_current_user, :only => [:home, :edit]
 
     def home
         @pset_instances = @student.problem_set_instances.includes(:problem_stats, :problem_set, :problem_set_problems)
         @history = current_user.answers.order("created_at DESC").limit(11)
-        Student.create_badges(@student)
-        @badges = @student.badges
+        @all_badges = @student.all_badges
+    end
+    
+    def badges
+        @shape = params[:shape]
+        @student_badges = @student.badges.where("level = ?", @shape) 
+        #@all_badges = @student.all_badges
+        respond_to do |format|
+            format.js
+        end
     end
     
     def show
@@ -69,50 +77,17 @@ class StudentsController < ApplicationController
     end
 
     def chart
-        @problem_sets = @student.problem_sets
-        # Percentage of correct answers by weekly
-        @arr1 = [['Weeks Ago','% correct']]
-        # Percentage of wrong answers by Chapter
-        @arr2 = [['Chapters','Wrong Answers']]
-        # Student performance chart by each problem set correct percentage 
-        @arr3 = [['Chapters','Correct Percentage']]
-        # Questions done in the particular week 
-        @arr4 = [['Weeks Ago','Questions Done']]
-        # Percentage of correct answer by student 
-        @arr5 = [['Chapters','Questions Done']]
-        i=51 
-        
-        while i >= 0 do 
-            time_range = ( date_of_last( "Monday", (i+1).weeks.ago )..date_of_last( "Monday", i.weeks.ago )) 
-            answers = @student.answers.where( "created_at BETWEEN ? and ?", time_range.first, time_range.last ).map(&:correct) 
-            ans_right = answers.select{ |v| v == true }.count 
-            ans_wrong = answers.select{ |v| v == false }.count 
-            total_answers = answers.count 
-            if total_answers == 0 
-                @arr1.push( [(i+1).to_s, 0] ) 
-            else 
-                @arr1.push( [(i+1).to_s, (ans_right*100) / (total_answers)]) 
-            end 
-                @arr4.push([(i+1).to_s, total_answers])    
-            i = i-1 
-        end  
-        
-        time_range_for_arr5 = (2.weeks.ago..Time.now) 
-        @student.problem_set_instances.each do |pset| 
-            answers = pset.answers.map(&:correct) 
-            ans_right = answers.select{|v| v == true}.count 
-            ans_wrong = answers.select{|v| v == true}.count 
-            ans = pset.answers.where("created_at BETWEEN ? and ?", time_range_for_arr5.first, time_range_for_arr5.last) 
-            @arr5.push([pset.name, ans.count]) 
-            if (ans_wrong + ans_right) > 0   
-                @arr3.push([pset.name, (ans_right * 100) / (ans_right + ans_wrong)]) 
-            end   
-            @arr2.push([pset.name, ans_wrong]) 
-        end 
+        charts_data = @student.charts_combine
+        @chart_data_1 = charts_data[0]
+        @chart_data_2 = charts_data[1]
+        @chart_data_3 = charts_data[2]
+        @chart_data_4 = charts_data[3]
     end   
     
     def problemset_chart
-        @pset = ProblemSet.find_by_id(params[:pset])
+        @problem_set = ProblemSet.find_by_id(params[:pset])
+        @chart_data_1 = @problem_set.chart_percentage_of_correct_answers_by_problem_set
+        @chart_data_2 = @problem_set.chart_percentage_of_wrong_answers_by_problem_set
         respond_to do |format|
             format.js 
         end 

@@ -1,28 +1,5 @@
-<% @arr7 = [['Problem Types','Correct Percentage']]%>
-<% pset.problem_types.each do |ptype|%>
-  <% @ans_right = ptype.answers.select{|v| v.correct == true }%>
-  <% @ans_wrong = ptype.answers.select{|v| v.correct == false }%>
-  <% if (@ans_wrong.count + @ans_right.count) > 0 %>  
-    <% @arr7.push([ptype.name, (@ans_right.count*100)/(@ans_right.count+@ans_wrong.count)]) %>
-  <% end %>  
-<% end %>
-<% if @arr7.count == 1%>
-  <%= @arr7.push(["Haven't Attempted",100]) %>
-<% end%>
-  
-<div id="chart_div_2_pset" style="width: 900px; height: 500px;"><%= render 'shared/google_visual_barchart', :array => @arr7, :div => "chart_div_2_pset", :title => "Percentage of correct answers to the Problem Types", :vAxis_title => "Problem Types" %></div>
+<div id="chart_div_2_pset" style="width: 900px; height: 500px;"><%= render 'shared/google_visual_barchart', :array => @chart_data_1, :div => "chart_div_2_pset", :title => "Percentage of correct answers to the Problem Types", :vAxis_title => "Problem Types" %></div>
 
-<% @count = 0 %>
-<% @arr6 = [['Problem Types','Wrong Answers']]%>
-  <% pset.problem_types.each do |ptype|%>
-    <% @ans_wrong = ptype.answers.select{|v| v.correct == false }%>
-    <% @arr6.push([ptype.name, @ans_wrong.count]) %>
-    <% @count = @count + @ans_wrong.count %>
-  <% end %> 
-<%if @count == 0 %>
-  <%= "No Wrong Answers in this Chapter" %>
-<% else %>
-  <div id="chart_div_1_pset" style="width: 900px; height: 500px;"><%= render 'shared/google_visual_piechart', :array => @arr6, :div => "chart_div_1_pset", :title => "Wrong answers to the problem_types" %></div>  
-<% end %>
+<div id="chart_div_1_pset" style="width: 900px; height: 500px;"><%= render 'shared/google_visual_piechart', :array => @chart_data_2, :div => "chart_div_1_pset", :title => "Wrong answers to the problem_types" %></div>  
 
 

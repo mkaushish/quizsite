@@ -61,8 +61,13 @@ class ProblemStat < ActiveRecord::Base
       self.points_wrong += 10
     end
 
-    if points > 500
-      set_stop_green
+    total_points_required = self.points_required
+
+    if points >= total_points_required
+      time = Time.now.utc
+      time += (60*60) * (points-500)
+      self.stop_green = time.to_time.utc
+      self.save
     end
 
     self.points_wrong = 0 if points_wrong < 0
@@ -74,19 +79,33 @@ class ProblemStat < ActiveRecord::Base
   end
 
   def green?
-    stop_green > Time.now
+    stop_green > Time.now.utc
   end
 
   def set_stop_green
-    self.stop_green = Time.now + (60*60) * points_over_green
+    # time = Time.now.utc
+    # time += (60*60) * points_over_green
+    # self.stop_green = time.to_time.utc
   end
 
+  def set_stop_green_new
+    # time = Time.now.utc
+    # time += (60*60) * points_over_green
+    # self.stop_green = time.to_time.utc
+    # self.save
+  end
+
+  def set_new_points
+    self.points_required += 500
+    self.save
+  end
+  
   def points_till_green
-    500 - points
+    self.points_required - points
   end
 
   def points_over_green
-    points - 500
+    points - self.points_required
   end
 
   def set_yellow
@@ -109,7 +128,7 @@ class ProblemStat < ActiveRecord::Base
   end
 
   def self.blue
-    where("stop_green > ?", Time.now)
+    where("stop_green > ?", Time.now.utc)
   end
 
   def self.green
@@ -119,4 +138,94 @@ class ProblemStat < ActiveRecord::Base
   def self.red
     where("points > ?", 89)
   end
+
+###################################################################
+# Yellow replaced with green and green with blue                  #
+###################################################################
+  
+  # def points_for(correct)
+  #   return 10 if blue? && correct
+  #   return 0 if blue? && !correct
+  #   correct ? points_right : points_wrong
+  # end
+
+  # def modify_rewards(correct)
+  #   if correct
+  #     self.points_right = (points_right * 1.12)
+  #     self.points_wrong -= 10
+  #   else
+  #     self.points_right -= 10
+  #     self.points_wrong += 10
+  #   end
+
+  #   if Time.now >= self.stop_green
+  #     set_new_points
+  #   end
+    
+  #   total_points_required = self.points_required
+
+  #   if points > total_points_required
+  #     set_stop_blue
+  #   end
+
+  #   self.points_wrong = 0 if points_wrong < 0
+  #   self.points_wrong = 50 if points_wrong > 50
+  #   self.points_right = 70 if points_right < 70
+  #   self.points_right = 500 if points_right > 500
+
+  #   self
+  # end
+
+  # def blue?
+  #   stop_green > Time.now
+  # end
+
+  # def set_stop_blue
+  #   time = Time.now
+  #   time += (60*60) * points_over_green
+  #   self.stop_green = time
+  # end
+
+  # def set_new_points
+  #   self.points_required += 500
+  # end
+  
+  # def points_till_blue
+  #   self.points_required - points
+  # end
+
+  # def points_over_blue
+  #   points - self.points_required
+  # end
+
+  # def set_green
+  #   self.points_right = 85
+  #   self.points_wrong = 30
+  # end
+
+  # def set_green!
+  #   set_green
+  #   return save
+  # end
+
+  # def color_status
+  #   if blue?
+  #     'blue'
+  #   else
+  #     # 89 means if you fail once and succeed next time it becomes yellow (90 poins)
+  #     ((points_wrong > 0) || (points > 89)) ? 'green' : 'red'
+  #   end
+  # end
+
+  # def self.blue
+  #   where("stop_green > ?", Time.now)
+  # end
+
+  # def self.green
+  #   where("points_wrong > ?", 0)
+  # end
+
+  # def self.red
+  #   where("points > ?", 89)
+  # end
 end

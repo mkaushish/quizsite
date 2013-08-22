@@ -9,6 +9,10 @@
 
     <% @blue  = percentage(@a.count("green"), @total) %>
     <% @green = percentage(@a.count("yellow"), @total) %>
+    <!-- it should be like this -->
+      <%# @blue  = percentage(@a.count("blue"), @total) %>
+      <%# @green = percentage(@a.count("green"), @total) %>
+    <!-- end -->
     <% @red   = 100.0 - @blue - @green %>
 
     <% @is_problem_set_is_blue = @total - @a.count("blue") %>

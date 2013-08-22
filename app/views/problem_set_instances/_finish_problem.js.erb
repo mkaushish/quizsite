@@ -5,6 +5,15 @@ function change_color_status(elt, col) {
 	elt.addClass(col + "-bord")
 }
 
+// it should be like this
+// function change_color_status(elt, col) {
+// 	elt.removeClass("red-bord")
+// 	elt.removeClass("green-bord")
+// 	elt.removeClass("blue-bord")
+// 	elt.addClass(col + "-bord")
+// }
+// end
+
 change_color_status($('#pt_<%= @stat.problem_type_id %>'), "<%= @stat.color_status %>");
 
 $("#problem_history").prepend("<%= j render("problem_set_instances/history_ans", object: @answer, as: :answer) %>");

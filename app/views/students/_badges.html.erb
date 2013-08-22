@@ -1,0 +1,29 @@
+<div class="modal-header2 modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true" style="opacity:1;">×</button>
+    <h3 id="myModalLabel" class="badgehead">BADGES</h3>
+</div>
+<div class="modal-body">
+    <div class="row-fluid">
+        <ul>
+            <% @student_badges.each do |badge| %>
+                <li class="tryli">
+                    <p class="posbadge_name">
+                        <% case shape %>
+                            <% when "1" %>
+                                <%= image_tag "tetrahedron.png" %>
+                            <% when "2" %>
+                                <%= image_tag "cube.png" %>        
+                            <% when "3" %>
+                                <%= image_tag "octahedron.png" %>        
+                            <% when "4" %>
+                                <%= image_tag "dodecahedron.png" %>                
+                            <% when "5" %>
+                                <%= image_tag "icosahedron.png" %>        
+                        <% end %>
+                        <%= badge.name %>
+                    </p>
+                </li>
+            <% end %>     
+        </ul>
+    </div>
+</div>

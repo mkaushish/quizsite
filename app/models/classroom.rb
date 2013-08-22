@@ -81,4 +81,61 @@ class Classroom < ActiveRecord::Base
         student_password
         teacher_password
     end
+
+    def chart_percentage_of_students_answers_correct_by_problem_sets_with_intervals(problem_set)
+        chart_data = [['%correct','Number of Students']]
+        temp = []
+        self.students.each do |student| 
+            pset_instance = student.problem_set_instances_problem_set(problem_set)
+            answers_stats = pset_instance.total_correct_wrong_problem_set_instance_answers
+            total_answers = answers_stats[0] 
+            correct_answers = answers_stats[1] 
+            wrong_answers = answers_stats[2] 
+            if total_answers == 0 
+                temp.push(-1) 
+            else 
+                temp.push((correct_answers*100)/(total_answers)) 
+            end        
+            
+        end
+        chart_data = pick_values(chart_data, temp) 
+        return chart_data
+    end
+
+    def chart_over_all_students_answer_stats
+        chart_data = [['%correct','Number of Students']]
+        temp = []
+        self.students.each do |student| 
+            answers_stats = student.total_correct_wrong_answers 
+            total_answers = answers_stats[0] 
+            correct_answers = answers_stats[1] 
+            wrong_answers = answers_stats[2] 
+            if total_answers == 0
+                temp.push(-1) 
+            else 
+                temp.push((correct_answers * 100) / (total_answers)) 
+            end        
+        end
+        chart_data = pick_values(chart_data, temp) 
+        return chart_data
+    end
+
+
+    def pick_values(chart_data, temp)
+        select_90_to_100 = (temp.select{|v| v>=90}).count 
+            chart_data.push(["90-100%", select_90_to_100])
+        select_80_to_90 = ((temp.select{|v| v>=80}).select{|v| v<90}).count   
+            chart_data.push(["80-90%", select_80_to_90])
+        select_70_to_80 = ((temp.select{|v| v>=70}).select{|v| v<80}).count   
+            chart_data.push(["70-80%", select_70_to_80])
+        select_60_to_70 = ((temp.select{|v| v>=60}).select{|v| v<70}).count   
+            chart_data.push(["60-70%", select_60_to_70])
+        select_30_to_60 = ((temp.select{|v| v>=30}).select{|v| v<60}).count   
+            chart_data.push(["30-60%", select_30_to_60])
+        select_0_to_30 = ((temp.select{|v| v>=0}).select{|v| v<30}).count    
+            chart_data.push(["0-30%", select_0_to_30])
+        select_0 = (temp.select{|v| v<0}).count    
+            chart_data.push(["Haven't Attempted", select_0])
+        return chart_data
+    end
 end
