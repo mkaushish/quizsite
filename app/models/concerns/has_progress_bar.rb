@@ -33,7 +33,7 @@ module HasProgressBar
 
   private
     def to_percent(pts)
-      pts / 5.0
+      pts / (self.problem_stat.points_required / 100.0)
     end
 
 
