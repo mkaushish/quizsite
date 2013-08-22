@@ -50,6 +50,7 @@
   get '/student/notifications',               to: 'students#notifications', :as => :notifications_student
   put '/students/:id',                        to: 'students#update', :as => :update_student
   get '/students/:id',                        to: 'students#show', :as => :student
+  get "/students/:id/bagdes",                 to: 'students#badges', :as => :student_badges
   get '/students/:id/chart',                  to: 'students#chart', :as => :chart_student
   get '/students/:id/chart/pset/:pset',       to: 'students#problemset_chart', :as => :chart_student_pset
 

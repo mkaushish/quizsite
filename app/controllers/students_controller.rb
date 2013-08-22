@@ -1,14 +1,22 @@
 class StudentsController < ApplicationController
     
     before_filter :authenticate, :except => [:show, :new, :create]
-    before_filter :validate_student, :only => [:update, :show, :chart]
+    before_filter :validate_student, :only => [:update, :show, :chart, :badges]
     before_filter :validate_student_via_current_user, :only => [:home, :edit]
 
     def home
         @pset_instances = @student.problem_set_instances.includes(:problem_stats, :problem_set, :problem_set_problems)
         @history = current_user.answers.order("created_at DESC").limit(11)
-        @all_badges = @student.create_and_get_all_gettable_badges
-        @badges = @student.badges
+        @all_badges = @student.all_badges
+    end
+    
+    def badges
+        @shape = params[:shape]
+        @student_badges = @student.badges.where("level = ?", @shape) 
+        #@all_badges = @student.all_badges
+        respond_to do |format|
+            format.js
+        end
     end
     
     def show

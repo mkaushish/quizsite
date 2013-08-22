@@ -63,18 +63,13 @@ class ProblemStat < ActiveRecord::Base
 
     total_points_required = self.points_required
 
-    if points > total_points_required
+    if points >= total_points_required
       time = Time.now.utc
-      time += (60*60) * points_over_green
+      time += (60*60) * (points-500)
       self.stop_green = time.to_time.utc
       self.save
     end
 
-    stop_green = self.stop_green
-    if Time.now.utc >= stop_green and points > self.points_required
-      set_new_points
-    end
-    
     self.points_wrong = 0 if points_wrong < 0
     self.points_wrong = 50 if points_wrong > 50
     self.points_right = 70 if points_right < 70
@@ -102,6 +97,7 @@ class ProblemStat < ActiveRecord::Base
 
   def set_new_points
     self.points_required += 500
+    self.save
   end
   
   def points_till_green

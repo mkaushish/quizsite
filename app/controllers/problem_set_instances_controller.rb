@@ -14,6 +14,7 @@ class ProblemSetInstancesController < ApplicationController
         @stats = @instance.stats
         @sessions = []
         @history = current_user.problem_history(@problem_set.problem_types.map(&:id)).limit(11)
+        @all_badges = @student.all_badges
         @quiz = Quiz.where("problem_set_id = ? AND classroom_id IS NULL", @problem_set.id)
         @quiz_with_classroom = (current_user.classrooms.first.quizzes).where("problem_set_id = ?", @problem_set.id)
         @quiz_with_classroom.each do |qws|
@@ -47,6 +48,10 @@ class ProblemSetInstancesController < ApplicationController
         if @problem_set.problem_types.exists? params[:pid]
             @problem_type = @problem_set.problem_types.find(params[:pid])
             @stat = @instance.stat(@problem_type)
+            @problem_stat = @stat.problem_stat
+            if Time.now.utc >= @problem_stat.stop_green and @problem_stat.points > @problem_stat.points_required
+                @problem_stat.set_new_points
+            end
             @problem = @stat.spawn_problem
             # $stderr.puts "STAT_N_PROBLEM " * 20
             # $stderr.puts @stat.inspect
@@ -62,6 +67,7 @@ class ProblemSetInstancesController < ApplicationController
         @stat = ProblemSetStat.includes(:problem_set_instance).includes(:problem_type).find(params[:stat_id])
         redirect_to access_denied_path && return if @stat.user != current_user
 
+        
         @instance = @stat.problem_set_instance
         # create answer
         @answer = current_user.answers.create params: params, session: @instance
@@ -77,7 +83,8 @@ class ProblemSetInstancesController < ApplicationController
         @solution = @problem.prefix_solve
         @response = @answer.response_hash
         @changedPoints = @answer.points
-        Student.create_badges(@student)
+        @student.create_badges
+        @all_badges = @student.all_badges
         render 'show_answer', locals: {callback: 'problem_set_instances/finish_problem'}
     end
 

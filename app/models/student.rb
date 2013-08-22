@@ -18,9 +18,7 @@ class Student < User
         if ptypes[0].is_a? Array
             ptypes_list = ptypes[0]
         end
-        answers.where(:problem_type_id => ptypes_list)
-        .order("created_at DESC")
-        .includes(:problem)
+        answers.where(:problem_type_id => ptypes_list).order("created_at DESC").includes(:problem)
     end
 
     def change_password(old_pass, new_pass, confirm_pass)
@@ -63,12 +61,6 @@ class Student < User
             $stderr.puts "STUDENT_ERRORS\n\t\t#{student.errors.full_messages.inspect}"
             return
         end
-    end
-
-    def create_and_get_all_gettable_badges
-        self.create_badges
-        @all_badges = self.all_badges
-        return @all_badges
     end
 
     def create_badges

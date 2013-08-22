@@ -9,8 +9,7 @@
     <li class=active><%#= @problem_set.name %></li>
   </ul>
 </div>-->
-
-<%= render 'shared/shelf', :@student => current_user %>
+<%= render 'shared/shelf', :@student => current_user, :@badges => @badges, :@all_badges => @all_badges %>
 
     <% unless @quiz.blank? %>
 

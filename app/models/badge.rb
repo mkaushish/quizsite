@@ -10,13 +10,14 @@ class Badge < ActiveRecord::Base
   	# 5 	  => 50000  #
 
 	def self.get_badges(student)
+        #Badge.create_all_fake_badges(student)
         result = student.problem_set_instances_num_problem_problem_stats_blue
         unless result.blank?
-            Badge.BadgeAPSD(student, result)                #[LEVEL 5]#
-            Badge.BadgePSB(student, result)                 #[LEVEL 3]#
-            Badge.BadgeCAPSWAD(student, result)             #[LEVEL 2]#
-            Badge.BadgeNPSB(student, result, 5)             #[LEVEL 4]#
-            Badge.BadgeNPSB(student, result, 10)            #[LEVEL 4]#
+            Badge.BadgeAPSD(student, result)                        #[LEVEL 5]#
+            Badge.BadgePSB(student, result)                         #[LEVEL 3]#
+            Badge.BadgeCAPSWAD(student, result)                     #[LEVEL 2]#
+            Badge.BadgeNPSB(student, result, 5)                     #[LEVEL 4]#
+            Badge.BadgeNPSB(student, result, 10)                    #[LEVEL 4]#
         end
 
         answers_correct_with_problem_type = student.answers_correct_with_problem_type_id
@@ -46,6 +47,7 @@ class Badge < ActiveRecord::Base
         @badges=[]
         student.problem_sets.each do |pset|
             @badges.push(["Badge" + pset.name + "B", "#{pset.name} Problem Set Blue", 3])
+
             pset.problem_types.each do |ptype|
                 @badges.push(["Badge" + ptype.name + "B", "#{ptype.name} Problem Type Blue", 1])
             end
@@ -214,4 +216,22 @@ class Badge < ActiveRecord::Base
             end
         end
     end
+
+    # def self.create_all_fake_badges(student)
+    #     student.problem_sets.each do |pset|
+    #         student.badges.create(:badge_key=> "Badge#{pset.name}B", :name=> "#{pset.name} Problem Set Blue", :level=> 3)
+    #         pset.problem_types.each do |ptype|
+    #             student.badges.create(:badge_key=> "Badge#{ptype.name}B", :name=> "#{ptype.name} Problem Type Blue", :level=> 1)
+    #         end
+    #     end
+    #     student.badges.create(:badge_key=> "BadgeCAPSWAD", :name=> "Problem Set Completed Within a Day", :level=> 2)
+    #     student.badges.create(:badge_key=> "BadgeAPSD", :name=> "All Problem Sets Blue", :level=> 5)
+    #     for i in 0...2
+    #         for j in 0...3
+    #             student.badges.create(:badge_key=> "Badge#{(i+1)*5}QCIARF#{(j+1)*5}TO", :name=> "#{(i+1)*5} Questions Correct in a Row for the #{(j+1)*5} Time", :level=> 3)
+    #         end
+    #             student.badges.create(:badge_key=> "Badge#{(i+1)*5}QCIARFTO", :name=> "#{(i+1)*5} Questions Correct in a Row for the First Time", :level=> 2)
+    #             student.badges.create(:badge_key=> "Badge#{(i+1)*5}PSB", :name=> "#{(i+1)*5} Problem Sets Blue", :level=> 4)
+    #     end
+    # end
 end
