@@ -9,8 +9,7 @@
     <li class=active><%#= @problem_set.name %></li>
   </ul>
 </div>-->
-
-<%= render 'shared/shelf', :@student => current_user %>
+<%= render 'shared/shelf', :@student => current_user, :@badges => @badges, :@all_badges => @all_badges %>
 
     <% unless @quiz.blank? %>
 
@@ -20,17 +19,17 @@
       <ul class="dropdown-menu">
         <% tem=@quiz.length %>
         <% @quiz.each do |qu| %>
-        <li>
-        <% if qu.quiz_instances.length > 0 %>
-        <%= link_to "Quiz #{tem}", start_quiz_path(qu.quiz_instances.last) %>
-        <% else %>
-        <%= link_to "Quiz #{tem}", start_new_quiz_path(@instance.id, :quiz_id => qu.id) %>
-        <%end%>
-        <%tem=tem-1%>
-        </li>
+          <li>
+            <% @quiz_instance = qu.quiz_instances.find_by_user_id(current_user.id) %>
+            <% unless  @quiz_instance.blank? %>
+              <%= link_to "Quiz #{tem}", start_quiz_path(@instance.id, :instance => @quiz_instance) %>
+            <% else %>
+              <%= link_to "Quiz #{tem}", start_new_quiz_path(@instance.id, :quiz_id => qu.id) %>
+            <%end%>
+            <%tem=tem-1%>
+          </li>
         <%end%>
       </ul>
-    
     <% end %>
     </div>
   </div>
@@ -63,6 +62,16 @@
     <% @red   = 100.0 - @blue - @green %>
 <script>dbord(["<%=@blue%>","<%=@green%>","<%=@red%>"]);
 </script>
+<!-- it should be like this -->
+    <%# @a = @stats.map(&:color_status) %>
+    <%# @total = @instance.num_problems %>
+
+    <%# @blue  = percentage(@a.count("blue"), @total) %>
+    <%# @green = percentage(@a.count("green"), @total) %>
+    <%# @red   = 100.0 - @blue - @green %>
+<!-- <script>dbord(["<%#=@blue%>","<%#=@green%>","<%#=@red%>"]);
+</script> -->
+<!-- end -->
 <div>
   <% @stats.each do |i| %>
     <%= render :partial => 'problem_list_box', :object => i,  :locals => {:item => i}%>

@@ -1,29 +1,27 @@
-
-<%= render 'shared/shelf', :@student => current_user, :@badges => @badges %>
+<%= render 'shared/shelf', :@student => current_user, :@badges => @badges, :@all_badges => @all_badges %>
 <div>
-<div style='float:left'>
-  <div class='dotted-border-header'>
-    <h4>History<h4>
-  </div>
-  <div class='dotted-border' style='height:1000px; width:252px'>
-    <%= render 'progress_center' %>
-  </div>
+    <div style='float:left'>
+        <div class='dotted-border-header'>
+            <h4>History<h4>
+        </div>
+        <div class='dotted-border' style='height:1000px; width:252px'>
+            <%= render 'progress_center' %>
+        </div>
+    </div>
+    <div id='bbor'>
+        <% @pset_instances.order("id ASC").each do |i| %>
+            <%= render :partial => 'pset_list_box', :object => i %>
+        <% end %>
+    </div>
+
+    <script>
+        $(function () {
+            $('.teacher-class-col').jScrollPane();
+            $('.badge_description').tooltip({title: "#{badge.name}"});
+        })
+    </script>
 </div>
 
-<div id='bbor'>
-  <% @pset_instances.order("id ASC").each do |i| %>
-    <%= render :partial => 'pset_list_box', :object => i %>
-  <% end %>
-</div>
-<script>
-  $(function () {
-    $('.teacher-class-col').jScrollPane();
-    $('.badge_description').tooltip({title: "#{badge.name}"});
-  })
-</script>
-
-
-</div>
 <script>
 dbord("pset");
   bclr_pset();

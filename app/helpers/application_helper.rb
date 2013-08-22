@@ -145,30 +145,28 @@ module ApplicationHelper
   end
   
   def badgekey
-    @badges=[]
-    current_user.problem_sets.each do |pset|
-      pset.problem_types.each do |ptype|
-        @badges.push(["Badge" + ptype.name + "B", "#{ptype.name} Problem Type Blue", 1])
-      end
-    end
-    @badges += [["BadgeCAPSWAD", "Problem Set Completed Within a Day", 2],["BadgeTRQC", "10 red Questions Correct", 2]]
-    for i in 0...2
-      @badges << ["Badge#{(i+1)*5}QCIARFTO", "#{(i+1)*5} Questions Correct in a Row for the First Time", 2]
-    end
-    current_user.problem_sets.each do |pset|
-      @badges.push(["Badge" + pset.name + "B", "#{pset.name} Problem Set Blue", 3])
-    end
-    for i in 0...2
-      for j in 0...3
-        @badges << ["Badge#{(i+1)*5}QCIARF#{(j+1)*5}TO", "#{(i+1)*5} Questions Correct in a Row for the #{(j+1)*5} Time", 3]
-      end
-    end
-    for i in 0...2
-      @badges << ["Badge#{(i+1)*5}PSB", "#{(i+1)*5} Problem Sets Blue", 4]
-    end
-    @badges << ["BadgeAPSD", "All Problem Sets Blue", 5]
-    return @badges
-  end 
+    # @badges=[]
+    # current_user.problem_sets.each do |pset|
+    #     @badges.push(["Badge" + pset.name + "B", "#{pset.name} Problem Set Blue", 3])
+    #     pset.problem_types.each do |ptype|
+    #         @badges.push(["Badge" + ptype.name + "B", "#{ptype.name} Problem Type Blue", 1])
+    #     end
+    # end
+    # @badges += [["BadgeCAPSWAD", "Problem Set Completed Within a Day", 2],["BadgeTRQC", "10 red Questions Correct", 2]]
+    # @badges << ["BadgeAPSD", "All Problem Sets Blue", 5]
+
+    # for i in 0...2
+    #     for j in 0...3
+    #         @badges << ["Badge#{(i+1)*5}QCIARF#{(j+1)*5}TO", "#{(i+1)*5} Questions Correct in a Row for the #{(j+1)*5} Time", 3]
+    #     end
+    #     @badges << ["Badge#{(i+1)*5}QCIARFTO", "#{(i+1)*5} Questions Correct in a Row for the First Time", 2]
+    #     @badges << ["Badge#{(i+1)*5}PSB", "#{(i+1)*5} Problem Sets Blue", 4]
+    # end
+    
+    # @badges.sort!{|x,y| x[2] <=> y[2]}
+    # return @badges
+  end
+
 
   def date_of_last(day,date)
     newdate  = Date.parse(day)
@@ -188,12 +186,12 @@ module ApplicationHelper
     problem_type.total_correct_wrong_problem_type_answers
   end
 
-  def correct_answers(student)
-    student.correct_answers
+  def answers_correct(student)
+    student.answers_correct
   end
   
-  def correct_answers_problem_type(student, problem_type)
-    student.correct_answers_problem_type(problem_type)
+  def answers_correct_problem_type(student, problem_type)
+    student.answers_correct_problem_type(problem_type)
   end
 
   def problem_stats_correct_and_total(student, problem_type)
@@ -205,6 +203,10 @@ module ApplicationHelper
   end
 
   def problem_type_answers_correct(problem_type)
-    problem_type.correct_answers(problem_type)
+    problem_type.answers_correct
+  end
+
+  def problem_type_student_answers_correct(problem_type, student)
+    problem_type.student_answers_correct(student)
   end
 end

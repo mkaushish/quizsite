@@ -5,33 +5,33 @@
       <div>0</div>
     </div>
     <div class="complete with_tooltip" 
-      style="width:<%= prog_bar_px @stat.done_p, 3 %>;"
-      data-original-title="<%= complete_tip %>"
+      style="width:<%#= prog_bar_px @stat.done_p, 3 %>;"
+      data-original-title="<%#= complete_tip %>"
       data-trigger="hover"
       data-placement="bottom"
       ></div>
 
-    <div class="marker <%= @stat.done_p < 50.0 ? "left" : "right" %>">
-      <div><%= 500 - @stat.points_till_green %> points earned</div>
+    <div class="marker <%#= @stat.done_p < 50.0 ? "left" : "right" %>">
+      <div><%#= 500 - @stat.points_till_green %> points earned</div>
     </div>
 
     <div class="wrong_points with_tooltip" 
-      style="width:<%= prog_bar_px @stat.wrong_p_remaining, 3 %>;"
-      data-original-title="<%= wrong_tip %>"
+      style="width:<%#= prog_bar_px @stat.wrong_p_remaining, 3 %>;"
+      data-original-title="<%#= wrong_tip %>"
       data-trigger="hover"
       data-placement="bottom"
       ></div>
 
     <div class="right_points with_tooltip" 
-      style="width:<%= prog_bar_px @stat.right_p_remaining, 3 %>;"
-      data-original-title="<%= right_tip %>"
+      style="width:<%#= prog_bar_px @stat.right_p_remaining, 3 %>;"
+      data-original-title="<%#= right_tip %>"
       data-trigger="hover"
       data-placement="bottom"
       ></div>
 
     <div class="remaining with_tooltip" 
-      style="width:<%= prog_bar_px @stat.remaining_p, 3 %>;" 
-      data-original-title="<%= remaining_tip %>"
+      style="width:<%#= prog_bar_px @stat.remaining_p, 3 %>;" 
+      data-original-title="<%#= remaining_tip %>"
       data-trigger="hover"
       data-placement="bottom"
       ></div>
@@ -42,24 +42,21 @@
   </div>
 	<div class="right"></div>
 </div>-->
+<!-- file name should be "_green.html.erb" -->
 
 <script>
 	$('.progress_bar').css("width","100%");
   var wrong_points = "<%= @stat.wrong_p_remaining %>";
+
   var wpnum=parseFloat(wrong_points);
-  alert(wpnum);
   var right_points="<%= @stat.right_p_remaining %>";
+
   var rpnum=parseFloat(right_points);
-  alert(rpnum);
-  var remaining="<%= @stat.remaining_p %>";
-  var remnum=parseFloat(remaining);
   var complete="<%= @stat.done_p %>";
   var compnum=parseFloat(complete);
-  var wid=Math.abs(remnum)+compnum+wpnum+rpnum
+  var wid=parseFloat("<%= @stat.problem_stat.points_required %>");
   
   var per_complete=(compnum/wid)*100.0;
-  var per_remaining=(remnum/wid)*100.0;
-  var final_remaining=100.0 - per_remaining;
   //var totalrw=wid- remnum - compnum;
   //var fracwrong=wpnum/totalrw;
   //var fracright=rpnum/totalrw;
@@ -67,6 +64,7 @@
   rightper=per_complete+((wpnum+rpnum)/wid)*100
   //$('#try').css('background','-webkit-gradient(linear, 21% 0%, 81% 0%, from(#60B349), to(#60B349), color-stop(.5,#60B349),color-stop(.5,#C40233),color-stop(.6,#C40233),color-stop(.6,#0087BD),color-stop(.8,#0087BD),color-stop(.8,#60B349))');
   //alert(wid);
+  alert("-webkit-linear-gradient(left, #0087bd "+per_complete+"%,#c40233 "+per_complete+"%,#c40233 "+wrongper+"%,#60b349 "+wrongper+"%,#60b349 "+rightper+"%,#808080 "+rightper+"%,#808080 100%)");
   if(per_complete>=100)
   {
     $('#try').css('background-color',"#0087BD")

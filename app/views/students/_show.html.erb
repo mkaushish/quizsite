@@ -7,42 +7,40 @@
 		</div>
 		<div class='column-listdiv'>
 	  		<ul class='column-list2' id="chapter_tabs">
-				<% @problem_sets.each do |pset| %>
-					<% pset.problem_types.each do |ptype|%>
+				<% @problem_sets.each do |problem_set| %>
+					<% problem_set.problem_types.each do |problem_type|%>
 						<% @array = [['Problem Types','Correct Percentage']] %>
-						<% @answers = ptype.answers.where("user_id = #{@student.id}").map(&:correct) %>
-						<% @ans_right = @answers.select{|v| v == true}.count %>
-  						<% @ans_wrong = @answers.select{|v| v == true}.count %>
-  						<% if (@ans_wrong + @ans_right) > 0 %>  
-  		  					<% @array.push([ptype.name, (@ans_right * 100) / (@ans_right + @ans_wrong)]) %>
+						<% answers = problem_type_student_answers_correct(problem_type, @student.id) %>
+						<% correct_answers = answers.select{|v| v == true}.count %>
+  						<% wrong_answers = answers.select{|v| v == false}.count %>
+  						<% total_answers = answers.count %>
+  						<% if (total_answers) > 0 %>  
+  		  					<% @array.push([problem_type.name, (correct_answers * 100) / (total_answers)]) %>
   						<% end %>  
   					<% end %> 
-		  			<li><%= link_to pset.name, "#chap_#{pset.id}", :"data-toggle" => "tab" %></li>
+		  			<li><%= link_to problem_set.name, "#chap_#{problem_set.id}", :"data-toggle" => "tab" %></li>
 				<% end %>
 	  		</ul>
 		</div>
   	</div>
 	<div class="span4" id="tryspan4">
 		<div class="tab-content">
-	  		<% @problem_sets.each do |pset| %>
-				<div class="tab-pane" id="chap_<%= pset.id %>">
+	  		<% @problem_sets.each do |problem_set| %>
+				<div class="tab-pane" id="chap_<%= problem_set.id %>">
 		  			<div class="column-listheader">
 						Problem Types
 		  			</div>
 		  			<div class="column-listdiv">
 						<ul class='column-list2 column-list22' id="column_list">
-			  				<% pset.problem_types.each do |ptype| %>
-			  					<% @count = 0%>
-			  					<% @counttrue = 0%>
-		  						<% ptype.answers.where("user_id = #{@student.id}").each do |answer|%>
-                                	<% @count = @count? @count+ 1: 0%>
-                                	<%if answer.correct == true%>
-                                		<% @counttrue = @counttrue ? @counttrue +1 :0%>
-                                	<%end%>
-		  						<% end %>
-		  						<li><%= link_to (ptype.name), "#chap_#{pset.id}_#{ptype.id}", :"data-toggle" => "tab" %> 
-		  							<span style="float:right;"><%= ( @counttrue.to_s + "/" +@count.to_s)%></span></li>
-							<% end %>
+			  				<% problem_set.problem_types.each do |problem_type| %>
+			  					<% total_answers = 0 %>
+			  					<% correct_answers = 0 %>
+			  					<% answers = problem_type_student_answers_correct(problem_type, @student.id) %>
+								<% correct_answers = answers.select{|v| v == true}.count %>
+								<% total_answers = answers.count %>
+		  						<li><%= link_to (problem_type.name), "#chap_#{problem_set.id}_#{problem_type.id}", :"data-toggle" => "tab" %> 
+		  							<span style="float:right;"><%= ( correct_answers.to_s + "/" +total_answers.to_s)%></span></li>
+		  					<% end %>
 						</ul>
 		  			</div>     
 				</div>
@@ -56,9 +54,9 @@
   	</div>
 	<div class="span4" id="histspan4">
    		<div class="tab-content">
-			<% @problem_sets.each do |pset| %>
-				<% pset.problem_types.each do |ptype|%>
-					<div class="tab-pane" id="chap_<%= pset.id %>_<%= ptype.id%>">
+			<% @problem_sets.each do |problem_set| %>
+				<% problem_set.problem_types.each do |problem_type|%>
+					<div class="tab-pane" id="chap_<%= problem_set.id %>_<%= problem_type.id%>">
 	  					<!-- <div class='dotted-border-header'> -->
 	  					<div class="column-listheader">
 							<h4>History</h4>
@@ -66,14 +64,15 @@
 	  					<!-- <div class='dotted-border' style='min-height:400px;'> -->
 	  					<div class="column-listdiv" style="min-height:400px;">
 							<ul class='column-list2 colum-list22' id="History_tabs">
-		  						<% ptype.answers.where("user_id = #{@student.id}").each do |answer| %>
-		  								<%if answer.correct == true%>
-											<li><%= link_to (answer.problem_type.to_s), show_answer_path(id: answer.id, instance: pset.id), remote: true %><span style="float:right;"><%= image_tag "correct_check.png"%></span>
-											</li>	
-										<% else %>		
-											<li><%= link_to (answer.problem_type.to_s), show_answer_path(id: answer.id, instance: pset.id), remote: true %><span style="float:right;"><%= image_tag "incorrect_3.png"%></span>
-										<% end %>
-											</li>
+		  						<% answers = problem_type.answers.where("user_id = ?", @student.id) %>
+		  						<% answers.each do |answer| %>
+			  						<%if answer.correct == true%>
+										<li><%= link_to (answer.problem_type.to_s), show_answer_path(id: answer.id, instance: problem_set.id), remote: true %><span style="float:right;"><%= image_tag "correct_check.png"%></span>
+										</li>	
+									<% else %>		
+										<li><%= link_to (answer.problem_type.to_s), show_answer_path(id: answer.id, instance: problem_set.id), remote: true %><span style="float:right;"><%= image_tag "incorrect_3.png"%></span>
+										</li>
+									<% end %>
 	  							<% end %>
 							</ul>
 						</div>

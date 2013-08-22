@@ -24,6 +24,16 @@ class QuizzesController < ApplicationController
                     end    
                     $stderr.puts "QUIZPROBS: #{@quiz_problems.inspect} #{params}"
                 
+                when "single_class_specific_students"
+                    @quiz_type = "single_class_specific_students"
+                    students_id = params[:classroom_quizzes][:students].to_s if defined? params[:classroom_quizzes][:students]
+                    @classroom = Classroom.find(params[:classroom])
+                    @problem_set = ProblemSet.find(params[:pset])
+                    @quiz = @classroom.quizzes.create(problem_set: @problem_set, students: students_id)
+                    @quiz_problems = @quiz.quiz_problems
+                    $stderr.puts "QUIZ: #{@quiz.inspect}"
+                    $stderr.puts "QUIZPROBS: #{@quiz_problems.inspect} #{params}"
+        
                 when "all_classes"
                     
                     @quiz_type = "all_classes"
@@ -134,6 +144,13 @@ class QuizzesController < ApplicationController
         end
 
         redirect_to root_path
+    end
+
+    def validate_students_for_classroom_quiz
+        @quiz_type = "single_class_specific_students"
+        @classroom = Classroom.find(params[:classroom])
+        @students = @classroom.students
+        @problem_set = ProblemSet.find(params[:pset])
     end
 
     private

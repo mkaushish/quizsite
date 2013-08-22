@@ -18,9 +18,7 @@ class Student < User
         if ptypes[0].is_a? Array
             ptypes_list = ptypes[0]
         end
-        answers.where(:problem_type_id => ptypes_list)
-        .order("created_at DESC")
-        .includes(:problem)
+        answers.where(:problem_type_id => ptypes_list).order("created_at DESC").includes(:problem)
     end
 
     def change_password(old_pass, new_pass, confirm_pass)
@@ -65,37 +63,70 @@ class Student < User
         end
     end
 
-    def self.create_badges(student)
-        Badge.BadgeAPSD(student)
-        Badge.BadgeNQCIARFTO(student,5)
-        Badge.BadgeNQCIARFTO(student,10)
-        Badge.BadgePSB(student)
-        Badge.BadgePTB(student)
-        Badge.BadgeCAPSWAD(student)
-        Badge.BadgeTRQC(student)
-        Badge.BadgeNPSB(student,5)
-        Badge.BadgeNPSB(student,10)
-        Badge.BadgeNQCIARFNT(student, 5, 5)
-        Badge.BadgeNQCIARFNT(student, 5, 10)
-        Badge.BadgeNQCIARFNT(student, 5, 15)
-        Badge.BadgeNQCIARFNT(student, 10, 5)
-        Badge.BadgeNQCIARFNT(student, 10, 10)
-        Badge.BadgeNQCIARFNT(student, 10, 15)
+    def create_badges
+        Badge.get_badges(self)
     end
 
+    def all_badges
+        Badge.all_badges(self)
+    end
+
+    def charts_combine
+        # Percentage of correct answers by weekly
+        chart_data_1 = [['Weeks Ago','% correct']]
+        # Percentage of wrong answers by Chapter
+        chart_data_2 = [['Chapters','Wrong Answers']]
+        # Student performance chart by each problem set correct percentage 
+        chart_data_3 = [['Chapters','Correct Percentage']]
+        # Questions done in the particular week 
+        chart_data_4 = [['Weeks Ago','Questions Done']]
+        i=51 
+        
+        while i >= 0 do 
+            time_range = ( date_of_last( "Monday", (i+1).weeks.ago )..date_of_last( "Monday", i.weeks.ago )) 
+            answers = self.answers_correct_in_time_range(time_range.first, time_range.last)            
+            ans_right = answers.select{ |v| v == true }.count 
+            ans_wrong = answers.select{ |v| v == false }.count 
+            total_answers = answers.count 
+            if total_answers == 0 
+                chart_data_1.push( [(i+1).to_s, 0] ) 
+            else 
+                chart_data_1.push( [(i+1).to_s, (ans_right*100) / (total_answers)]) 
+            end 
+                chart_data_4.push([(i+1).to_s, total_answers])    
+            i = i-1 
+        end  
+        
+        self.problem_set_instances.each do |pset_instance| 
+            answers = pset_instance.total_correct_wrong_problem_set_instance_answers
+            total_answers = answers[0]
+            ans_right = answers[1]
+            ans_wrong = answers[2]
+            if (total_answers) > 0   
+                chart_data_3.push([pset_instance.name, (ans_right * 100) / (total_answers)]) 
+            end   
+                chart_data_2.push([pset_instance.name, ans_wrong])
+        end
+        return [chart_data_1, chart_data_2, chart_data_3, chart_data_4]
+    end
+    
     def total_correct_wrong_answers
-        answers = self.correct_answers
+        answers = self.answers_correct
         correct_answers = answers.select{|v| v == true }.count 
         wrong_answers = answers.select{|v| v == false }.count 
         total_answers = answers.count 
         return [total_answers, correct_answers, wrong_answers]     
     end
 
-    def correct_answers
-        self.answers.pluck(:correct)
+    def answers_correct
+        self.answers.order("created_at DESC").pluck(:correct)
     end
 
-    def correct_answers_problem_type(problem_type)
+    def answers_correct_with_problem_type_id
+        self.answers.order("created_at DESC").collect{ |v| [v.correct, v.problem_type_id] }
+    end
+
+    def answers_correct_problem_type(problem_type)
         self.answers.where("problem_type_id = ?", problem_type).pluck(:correct)
     end
 
@@ -107,6 +138,28 @@ class Student < User
         self.problem_set_instances.find_by_problem_set_id(problem_set)
     end
 
+    def answers_correct_in_time_range(start_time, end_time)
+        self.answers.where( "created_at BETWEEN ? and ?", start_time, end_time ).pluck(:correct) 
+    end
+
+    def problem_set_instances_num_problem_problem_stats_blue
+        @result = Array.new
+        self.problem_set_instances.order("id").includes(&:problem_stats).each do |pset_instance|
+           @result = @result.push [(pset_instance.name), (pset_instance.num_problems - pset_instance.problem_stats.blue.count == 0), (pset_instance.num_problems - pset_instance.problem_stats.blue.count), (pset_instance.stop_green)]
+        end
+        return @result
+    end
+
+    def problem_types_blue_name
+        @problem_type_name = Array.new
+        self.problem_set_instances.order("id").each do |pset_instance|
+            pset_instance.problem_stats.blue.each do |problem_stat|
+                @problem_type_name = @problem_type_name.push problem_stat.problem_type.name
+            end
+        end
+        return @problem_type_name
+    end
+
     private
 
     def assign_class
@@ -114,5 +167,11 @@ class Student < User
             @class = Classroom.where(:name => "SmarterGrades 6").first
         end
         @class.assign!(self)
+    end
+
+    def date_of_last(day,date)
+        newdate  = Date.parse(day)
+        delta = newdate > date.to_date ? 0 : 7
+        newdate + delta - 7
     end
 end

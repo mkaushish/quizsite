@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:o="urn:schemas-microsoft-com:office:office"
+  xmlns:x="urn:schemas-microsoft-com:office:excel"
+  xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:html="http://www.w3.org/TR/REC-html40">
+  <Worksheet ss:Name="Sheet1">
+    <Table>
+      <Row>
+        <Cell><Data ss:Type="String">Students / Problem Types</Data></Cell>
+        <% @problem_types.each do |problem_type| %>
+          <Cell><Data ss:Type="String"><%= problem_type.name %></Data></Cell>
+        <%end%>
+        <Cell><Data ss:Type="String">Total</Data></Cell>
+      </Row>
+    <% @students.each do |student| %>
+      <% total_correct_answers = 0 %>
+      <% total_answers = 0 %>
+      <Row>
+        <Cell><Data ss:Type="String"><%= student.name %></Data></Cell>
+        <% @problem_types.each do |problem_type| %>
+            <% problem_stats = problem_stats_correct_and_total(student, problem_type) %>
+            <% correct_answers = problem_stats.first %>
+            <% answers_count = problem_stats.last %>
+
+            <Cell><Data ss:Type="String"><%= correct_answers %> <%= "/" %> <%= answers_count %></Data></Cell>
+            
+            <% total_correct_answers += correct_answers %>
+            <% total_answers += answers_count %>
+        <%end%>
+        <Cell><Data ss:Type="String"><%= total_correct_answers %> <%= "/" %> <%= total_answers %></Data></Cell>
+      </Row>
+    <% end %>
+    </Table>
+  </Worksheet>
+</Workbook>

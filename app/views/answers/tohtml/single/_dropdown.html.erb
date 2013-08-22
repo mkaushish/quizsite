@@ -1,5 +1,12 @@
 <%# render partial: "answers/tohtml/single/radiobutton", object: dropdown %>
-<%= select_tag( dropdown.name, 
+<% unless @instance.class = QuizInstance %>
+	<%= select_tag( dropdown.name, 
 				options_from_collection_for_select(
 					dropdown.fields, 'to_s', 'to_s', dropdown.fromhash(response)),
-				{:style => len_to_css_width(dropdown.char_length + 4), :disabled => true }) %>
+					{:style => len_to_css_width(dropdown.char_length + 4), :disabled => true }) %>
+<% else %>
+	<%= select_tag( dropdown.name, 
+				options_from_collection_for_select(
+					dropdown.fields, 'to_s', 'to_s', dropdown.fromhash(response)),
+					{:style => len_to_css_width(dropdown.char_length + 4)}) %>
+<% end %>

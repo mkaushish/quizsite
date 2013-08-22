@@ -37,6 +37,15 @@ class ProblemSetStat < ActiveRecord::Base
       (multiplier(correct) * stat.points_for(correct)).round
     end
   end
+########################################################################
+  # def points_for(correct)
+  #   if blue? || modifier == 0
+  #     stat.points_for(correct)
+  #   else
+  #     (multiplier(correct) * stat.points_for(correct)).round
+  #   end
+  # end
+########################################################################
 
   def last_correct?
     modifier == 1
