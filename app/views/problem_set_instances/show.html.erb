@@ -11,10 +11,9 @@
 </div>-->
 <%= render 'shared/shelf', :@student => current_user, :@badges => @badges, :@all_badges => @all_badges %>
 
-    <% unless @quiz.blank? %>
-
-      <div class='btn-group'>
-<div class="quiz-link dropdown-toggle" data-toggle="dropdown">Quizzes</div>
+<% unless @quiz.blank? %>
+    <div class='btn-group'>
+      <div class="quiz-link dropdown-toggle" data-toggle="dropdown">Quizzes</div>
       <div id='news'> 
       <ul class="dropdown-menu">
         <% tem=@quiz.length %>
