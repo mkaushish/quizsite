@@ -46,22 +46,23 @@
 
 <script>
 	$('.progress_bar').css("width","100%");
+  var complete="<%= @stat.done_p %>";
+  var per_complete=parseFloat(complete);
   var wrong_points = "<%= @stat.wrong_p_remaining %>";
 
-  var wpnum=parseFloat(wrong_points);
-  var right_points="<%= @stat.right_p_remaining %>";
+  var wrongper=parseFloat(wrong_points)+per_complete;
+  var right_points="<%= @stat.right_p %>";
 
-  var rpnum=parseFloat(right_points);
-  var complete="<%= @stat.done_p %>";
-  var compnum=parseFloat(complete);
-  var wid=parseFloat("<%= @stat.problem_stat.points_required %>");
+  var rightper=parseFloat(right_points)+wrongper+per_complete;
   
-  var per_complete=(compnum/wid)*100.0;
+  //var wid=parseFloat("<%= @stat.problem_stat.points_required %>");
+  
+  //var per_complete=(compnum/wid)*100.0;
   //var totalrw=wid- remnum - compnum;
   //var fracwrong=wpnum/totalrw;
   //var fracright=rpnum/totalrw;
-  wrongper=per_complete+(wpnum/wid)*100
-  rightper=per_complete+((wpnum+rpnum)/wid)*100
+  //wrongper=per_complete+(wpnum/wid)*100
+  //rightper=per_complete+((wpnum+rpnum)/wid)*100
   //$('#try').css('background','-webkit-gradient(linear, 21% 0%, 81% 0%, from(#60B349), to(#60B349), color-stop(.5,#60B349),color-stop(.5,#C40233),color-stop(.6,#C40233),color-stop(.6,#0087BD),color-stop(.8,#0087BD),color-stop(.8,#60B349))');
   //alert(wid);
   alert("-webkit-linear-gradient(left, #0087bd "+per_complete+"%,#c40233 "+per_complete+"%,#c40233 "+wrongper+"%,#60b349 "+wrongper+"%,#60b349 "+rightper+"%,#808080 "+rightper+"%,#808080 100%)");
