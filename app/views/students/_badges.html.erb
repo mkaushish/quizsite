@@ -4,13 +4,16 @@
 </div>
 <div class="modal-body">
     <div class="row-fluid">
-        <ul>
+        <table>
+            <% i = 1 %>
             <% @student_badges.each do |badge| %>
-                <li class="tryli">
-                    <p class="posbadge_name">
+               <tr>
+                    
+               <td>
+                    <p>
                         <% case shape %>
                             <% when "1" %>
-                                <%= image_tag "tetrahedron.png" %>
+                                <%= image_tag "tetrahedron.png", :size => "20x20" %>
                             <% when "2" %>
                                 <%= image_tag "cube.png" %>        
                             <% when "3" %>
@@ -22,8 +25,15 @@
                         <% end %>
                         <%= badge.name %>
                     </p>
-                </li>
+                </td>
+                </tr>
+            <% i += 1 %>
+            <% if i ==4 %>
+                <br>
+                <% i = 1 %>
+            <% end %>
             <% end %>     
-        </ul>
+            
+        </table>
     </div>
 </div>
