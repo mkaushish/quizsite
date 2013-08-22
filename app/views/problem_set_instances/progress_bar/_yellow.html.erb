@@ -52,16 +52,11 @@
   var right_points="<%= @stat.right_p_remaining %>";
 
   var rpnum=parseFloat(right_points);
-  alert(rpnum);
-  var remaining="<%= @stat.remaining_p %>";
-  var remnum=parseFloat(remaining);
   var complete="<%= @stat.done_p %>";
   var compnum=parseFloat(complete);
-  var wid=Math.abs(remnum)+compnum+wpnum+rpnum
+  var wid=parseFloat("<%= @stat.problem_stat.points_required %>");
   
   var per_complete=(compnum/wid)*100.0;
-  var per_remaining=(remnum/wid)*100.0;
-  var final_remaining=100.0 - per_remaining;
   //var totalrw=wid- remnum - compnum;
   //var fracwrong=wpnum/totalrw;
   //var fracright=rpnum/totalrw;
