@@ -13,10 +13,9 @@ namespace :generate do
                                 :email => to_email(student),
                                 :password => "testing",
                                 :password_confirmation => "testing",
+                                :confirmed => true
                     } )
-            user.confirmed = true
-
-            if user.save
+            if user.save!
                 puts "#{user.name} successfully added"
             else
                 puts "#{user.email} could not be added: "

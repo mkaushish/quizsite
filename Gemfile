@@ -30,6 +30,7 @@ group :development do
     gem 'debugger'
     gem 'rack-mini-profiler'
     gem 'hirb'
+    gem "mailcatcher", "~> 0.5.12"
 end
 
 group :development, :production do

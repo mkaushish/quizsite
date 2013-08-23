@@ -65,7 +65,7 @@ class ClassroomsController < ApplicationController
 
   def join_class
     @classroom = Classroom.find_by_teacher_password(params[:class_teacher_pass])
-    @join_class = @teacher.classrooms.find_by_classroom_id(@classroom.id)
+    @join_class = @teacher.classrooms.find_by_id(@classroom.id)
     @join_class ||= @teacher.classroom_teachers.create(:classroom_id => @classroom.id) unless @classroom.nil?
 
     respond_to do |format|

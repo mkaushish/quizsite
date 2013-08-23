@@ -5,7 +5,7 @@ class User < ActiveRecord::Base
     @@email_regex = /^[\w0-9+.!#\$%&'*+\-\/=?^_`{|}~]+@[a-z0-9\-]+(:?\.[0-9a-z\-]+)+$/i
 
     attr_accessor :password, :password_confirmation
-    attr_accessible :email, :name, :password, :password_confirmation, :image
+    attr_accessible :email, :name, :password, :password_confirmation, :image, :confirmed
     serialize :problem_stats, Hash
 
     has_many :custom_problems, :class_name => 'Problem'
@@ -119,13 +119,17 @@ class User < ActiveRecord::Base
     end
 
     def confirmation
-        self.confirmed = false
-        self.confirmation_code = generate_confirmation_code
-        self.confirmation_token = generate_confirmation_token
-        self.save
+        if self.confirmed == false
+            self.confirmed = false
+            self.confirmation_code = generate_confirmation_code
+            self.confirmation_token = generate_confirmation_token
+            self.save
+        end
     end
 
     def send_confirmation_mail
-        UserMailer.account_confirmation_email(self).deliver
+        if self.confirmed == false
+            UserMailer.account_confirmation_email(self).deliver
+        end
     end
 end

@@ -50,6 +50,8 @@ class Badge < ActiveRecord::Base
 
             pset.problem_types.each do |ptype|
                 @badges.push(["Badge" + ptype.name + "B", "#{ptype.name} Problem Type Blue", 1])
+                @badges.push(["Badge" + ptype.name + "TQC", "10 Questions Correct in a Row for the First Time of #{ptype.name}", 2])         
+        
             end
         end
         @badges += [["BadgeCAPSWAD", "Problem Set Completed Within a Day", 2],["BadgeTRQC", "10 red Questions Correct", 2]]

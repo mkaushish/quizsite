@@ -1,6 +1,6 @@
-<ul class="dropdown-menu" style="background-color:white;">
-        	<li><%= @student.news_feeds %></li>
-        	<li><%= "qwer" %></li>
-        	<li><%= "asdf" %></li>
-        	<li><%= "zxcv" %></li>
-      	</ul>
+<ul class="dropdown-menu">
+	<% current_user.news_feeds.order("created_at DESC").each do |news_feed| %>
+        	<li><%= news_feed.content %></li>
+    <% end %>    	
+    <li><%= "Welcome to SmarterGrades!" %></li>
+</ul>

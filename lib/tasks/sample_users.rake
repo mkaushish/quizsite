@@ -45,8 +45,9 @@ namespace :generate do
           :email => userhash[:email],
           :password => userhash[:password] || "newpass",
           :password_confirmation => userhash[:password] || "newpass",
+          :confirmed => true
         } )
-        user.confirmed = true
+        
 
         if user.save!
           puts "#{user.name} successfully added"
