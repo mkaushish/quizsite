@@ -1,7 +1,7 @@
 <%= link_to "Charts", chart_student_path %>
 <div id="problems_history" class="teacher-details-header" style="margin-bottom:5px;"></div>
 <div class="row">
-  	<div class="span4" id="chapterspan4">
+  	<div class="span4" id="chapterspan4" style='width:200px; margin-right:0px'>
 		<div class="column-listheader">
 	  		Chapters
 		</div>
@@ -23,7 +23,7 @@
 	  		</ul>
 		</div>
   	</div>
-	<div class="span4" id="tryspan4">
+	<div class="span4" id="tryspan4" style='width:270px'>
 		<div class="tab-content">
 	  		<% @problem_sets.each do |problem_set| %>
 				<div class="tab-pane" id="chap_<%= problem_set.id %>">
@@ -52,7 +52,7 @@
 	  		<% end %>
 		</div>
   	</div>
-	<div class="span4" id="histspan4">
+	<div class="span4" id="histspan4" style='width:270px'>
    		<div class="tab-content">
 			<% @problem_sets.each do |problem_set| %>
 				<% problem_set.problem_types.each do |problem_type|%>
@@ -95,11 +95,11 @@
 	$("#chapter_tabs li a").click(function(){
 		$("#histspan4").hide();
 		$('#chapterspan4').css("margin-right","0%");
-		$('#chapterspan4').animate({marginRight:"7%"},"fast","swing");
+		//$('#chapterspan4').animate({marginRight:"7%"},"fast","swing");
 	});
 	$("#tryspan4 li a").click(function(){
 		$('#histspan4').show();
-		$('#histspan4').css("margin-left","0%");
-		$('#histspan4').animate({marginLeft:"7%"},"fast","swing");
+		$('#histspan4').css("margin-left","2%");
+		//$('#histspan4').animate({marginLeft:"7%"},"fast","swing");
 	});
 </script>
