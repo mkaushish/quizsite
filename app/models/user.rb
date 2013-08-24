@@ -30,7 +30,7 @@ class User < ActiveRecord::Base
                        :if => lambda{|a| a.new_record?}
 
     before_save  :encrypt_password
-    after_create :confirmation, :send_confirmation_mail
+    after_create :set_confirmation, :send_confirmation_mail
 
     before_create lambda { self.email.downcase! }
 
@@ -118,7 +118,7 @@ class User < ActiveRecord::Base
         return confirmation_token
     end
 
-    def confirmation
+    def set_confirmation
         if self.confirmed == false
             self.confirmed = false
             self.confirmation_code = generate_confirmation_code
