@@ -49,11 +49,8 @@
   var complete="<%= @stat.done_p %>";
   var per_complete=parseFloat(complete);
   var wrong_points = "<%= @stat.wrong_p_remaining %>";
-  alert(per_complete);
   var wrongper=Math.min(100.0,parseFloat(wrong_points)+per_complete);
-  alert(wrongper);
   var right_points="<%= @stat.right_p %>";
-  alert(right_points);
   var rightper=Math.min(100.0,parseFloat(right_points)+wrongper);
   
   //var wid=parseFloat("<%= @stat.problem_stat.points_required %>");
@@ -75,7 +72,6 @@
     //if(wpnum > 0 || compnum == 0){
   //$('#try').css('background',"-webkit-gradient(linear,"+per_complete+"% 0%,"+final_remaining+"% 0%, from(#0087BD), to(grey), color-stop(.005,#60B349),color-stop(.005,#C40233),color-stop("+fracwrong+",#C40233),color-stop("+fracwrong+",#60B349),color-stop(.995,#60B349),color-stop(.995,grey))");
 
-  alert("-webkit-gradient(linear, left top, right top, color-stop("+per_complete+"%,#0087bd), color-stop("+per_complete+"%,#c40233), color-stop("+wrongper+"%,#c40233), color-stop("+wrongper+"%,#60b349), color-stop("+rightper+"%,#60b349), color-stop("+rightper+"%,#808080), color-stop(100%,#808080))");
   $("#try").css("background", "gray"); /* Old browsers */
   $("#try").css("background", "-moz-linear-gradient(left, #0087bd "+per_complete+"%, #c40233 "+per_complete+"%, #c40233 "+wrongper+"%, #60b349 "+wrongper+"%, #60b349 "+rightper+"%, #808080 "+rightper+"%, #808080 100%)"); /* Old browsers */
   $("#try").css("background", "-webkit-gradient(linear, left top, right top, color-stop("+per_complete+"%,#0087bd), color-stop("+per_complete+"%,#c40233), color-stop("+wrongper+"%,#c40233), color-stop("+wrongper+"%,#60b349), color-stop("+rightper+"%,#60b349), color-stop("+rightper+"%,#808080), color-stop(100%,#808080))"); /* Old browsers */
