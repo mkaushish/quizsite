@@ -119,7 +119,7 @@ class User < ActiveRecord::Base
     end
 
     def confirmation
-        if self.confirmed == false
+        if self.confirmed.nil?
             self.confirmed = false
             self.confirmation_code = generate_confirmation_code
             self.confirmation_token = generate_confirmation_token
