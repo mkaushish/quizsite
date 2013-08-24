@@ -2,23 +2,24 @@ require 'c1'
 class PagesController < ApplicationController
     def home
         # $stderr.puts "!@#" * 30 + "\n#{current_user.class}"
-        case current_user.class.to_s
-            when "Student"
-                deny_access_user_not_confirmed && return unless current_user.confirmed == true
-                redirect_to studenthome_path
+        if signed_in?
+            case current_user.class.to_s
+                when "Student"
+                    deny_access_user_not_confirmed && return unless current_user.confirmed == true
+                    redirect_to studenthome_path
                 
-            when "Teacher"
-                deny_access_user_not_confirmed && return unless current_user.confirmed == true
-                redirect_to teacherhome_path
+                when "Teacher"
+                    deny_access_user_not_confirmed && return unless current_user.confirmed == true
+                    redirect_to teacherhome_path
 
-            when "Coach"
-                deny_access_user_not_confirmed && return unless current_user.confirmed == true
-                redirect_to coachhome_path
-        else 
-            @nav_selected = "home"
-            @problem_types = ProblemType.limit(5)
+                when "Coach"
+                    deny_access_user_not_confirmed && return unless current_user.confirmed == true
+                    redirect_to coachhome_path
+            else 
+                @nav_selected = "home"
+                @problem_types = ProblemType.limit(5)
+            end
         end
-        
         if defined? params[:ptypes]
             case params[:ptypes]
                 when 'all'
