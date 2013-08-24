@@ -4,7 +4,7 @@ require 'grade6'
 class User < ActiveRecord::Base
     @@email_regex = /^[\w0-9+.!#\$%&'*+\-\/=?^_`{|}~]+@[a-z0-9\-]+(:?\.[0-9a-z\-]+)+$/i
 
-    attr_accessor :password, :password_confirmation
+    attr_accessor :password, :password_confirmation, :confirmation_token, :confirmation_code
     attr_accessible :email, :name, :password, :password_confirmation, :image, :confirmed, :confirmation_token, :confirmation_code
     serialize :problem_stats, Hash
 
