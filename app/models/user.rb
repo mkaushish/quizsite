@@ -119,7 +119,6 @@ class User < ActiveRecord::Base
     end
 
     def confirmation
-        debugger
         if self.confirmed == false
             self.confirmed = false
             self.confirmation_code = generate_confirmation_code
