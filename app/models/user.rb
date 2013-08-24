@@ -105,21 +105,22 @@ class User < ActiveRecord::Base
     def generate_secure_code
         string =  [('a'..'z'),('A'..'Z')].map{|i| i.to_a}.flatten
         final_string  =  (0...50).map{ string[rand(string.length)] }.join
-        final_string
+        return final_string
     end
 
     def generate_confirmation_code
         confirmation_code = generate_secure_code.slice(5..10)
-        confirmation_code
+        return confirmation_code
     end
 
     def generate_confirmation_token
         confirmation_token = generate_secure_code
-        confirmation_token
+        return confirmation_token
     end
 
     def confirmation
-        if self.confirmed.nil?
+        debugger
+        if self.confirmed == false
             self.confirmed = false
             self.confirmation_code = generate_confirmation_code
             self.confirmation_token = generate_confirmation_token

@@ -3,7 +3,7 @@ class UserMailer < ActionMailer::Base
 
   def account_confirmation_email(user)
     @user = user
-    mail(:to => user.email, :subject => "Welcome to SmarterGrades. Please Confirm Your Account!")
+    mail(:to => @user.email, :subject => "Welcome to SmarterGrades. Please Confirm Your Account!")
   end
 
   def welcome_email(user)
