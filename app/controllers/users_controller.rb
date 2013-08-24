@@ -105,7 +105,7 @@ class UsersController < ApplicationController
             end
             @classroom.assign!(@user)
             sign_in @user
-            redirect_to studenthome_path, notice: 'Welcome To SmarterGrades!!'
+            redirect_to root_path, notice: 'Welcome To SmarterGrades!!'
         elsif @user.is_a? (Teacher)
             unless params[:classroom_name].empty?
                 @classroom_name = params[:classroom_name]
@@ -113,10 +113,10 @@ class UsersController < ApplicationController
                 @classroom_teacher = @classroom.classroom_teachers.create(:teacher_id => @user.id) unless @classroom.nil?
             end
             sign_in @user
-            redirect_to teacherhome_path, notice: 'Welcome To SmarterGrades!!'
+            redirect_to root_path, notice: 'Welcome To SmarterGrades!!'
         elsif @user.is_a? (Coach)
             sign_in @user
-            redirect_to coachhome_path, notice: 'Welcome To SmarterGrades!!'
+            redirect_to root_path, notice: 'Welcome To SmarterGrades!!'
         end
     end
     
