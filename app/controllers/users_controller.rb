@@ -79,15 +79,15 @@ class UsersController < ApplicationController
     end
 
     def signup_step3
-        if defined? (params[:token] and params[:confirmation_code])
-            @confirmation_token = params[:token]
+        if defined? params[:confirmation_code]
+            
             @confirmation_code = params[:confirmation_code]
-            if @user.confirmation_code == @confirmation_code and @user.confirmation_token == @confirmation_token
+            if @user.confirmation_code == @confirmation_code
                 respond_to do |format|
                     format.js
                 end
             else
-                redirect_to confirm_path(@user, :token => @confirmation_token)
+                redirect_to root_path, notice: "Wrong Code"
             end
         end
     end
