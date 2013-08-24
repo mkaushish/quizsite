@@ -4,7 +4,7 @@ require 'grade6'
 class User < ActiveRecord::Base
     @@email_regex = /^[\w0-9+.!#\$%&'*+\-\/=?^_`{|}~]+@[a-z0-9\-]+(:?\.[0-9a-z\-]+)+$/i
 
-    attr_accessor :password, :password_confirmation, :confirmation_token, :confirmation_code
+    attr_accessor :password, :password_confirmation
     attr_accessible :email, :name, :password, :password_confirmation, :image, :confirmed, :confirmation_token, :confirmation_code
     serialize :problem_stats, Hash
 
@@ -30,7 +30,7 @@ class User < ActiveRecord::Base
                        :if => lambda{|a| a.new_record?}
 
     before_save  :encrypt_password
-    after_create :send_confirmation_mail
+    after_create :set_confirmation, :send_confirmation_mail
 
     before_create lambda { self.email.downcase! }
 
@@ -88,11 +88,6 @@ class User < ActiveRecord::Base
             self.salt = make_salt unless has_password?(password)
             self.encrypted_password = encrypt(password)
         end
-        if self.confirmed == false
-            self.confirmed = false
-            self.confirmation_code = generate_confirmation_code
-            self.confirmation_token = generate_confirmation_token
-        end
     end
 
     def encrypt(string)
@@ -123,14 +118,14 @@ class User < ActiveRecord::Base
         return confirmation_token
     end
 
-    # def set_confirmation
-    #     if self.confirmed == false
-    #         self.confirmed = false
-    #         self.confirmation_code = generate_confirmation_code
-    #         self.confirmation_token = generate_confirmation_token
-    #         self.save
-    #     end
-    # end
+    def set_confirmation
+        if self.confirmed == false
+            self.confirmed = false
+            self.confirmation_code = generate_confirmation_code
+            self.confirmation_token = generate_confirmation_token
+            self.save
+        end
+    end
 
     def send_confirmation_mail
         if self.confirmed == false
