@@ -40,7 +40,7 @@ class TeachersController < ApplicationController
         sign_in @teacher
         respond_to do |format|
             if @teacher.update_attributes(params[:teacher])
-                format.html { redirect_to teacherhome_path, notice: 'Your Profile is successfully updated.' }
+                format.html { redirect_to root_path, notice: 'Your Profile is successfully updated.' }
             else
                 format.html { render action: "edit" }
             end
