@@ -52,7 +52,7 @@ class ClassroomsController < ApplicationController
         @classroom.classroom_teachers.create(:teacher_id => @teacher.id)
         format.html { redirect_to root_path, notice: 'Classroom was successfully created.' }
       else
-        format.html { render action: "new" }
+        format.js { render action: "new" }
       end
     end
   end
