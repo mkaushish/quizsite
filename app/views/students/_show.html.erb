@@ -87,19 +87,19 @@
 </div> 
 
 <!-- Student Performance chart by each problem_types correct percentage -->
-<%= render "shared/google_visual_barchart", :array => @array, :div => "chart_div_2_pset", :title => "Student Performance", :vAxis_title => "Problem Types"  %>
+<%#= render "shared/google_visual_barchart", :array => @array, :div => "chart_div_2_pset", :title => "Student Performance", :vAxis_title => "Problem Types"  %>
 <div id="chart_div_2_pset" style="width: 900px; height: 500px;"></div>
 <!-- Chart ends -->
 
 <script>
-	$("#chapter_tabs li a").click(function(){
-		$("#histspan4").hide();
-		$('#chapterspan4').css("margin-right","0%");
-		//$('#chapterspan4').animate({marginRight:"7%"},"fast","swing");
-	});
-	$("#tryspan4 li a").click(function(){
-		$('#histspan4').show();
-		$('#histspan4').css("margin-left","2%");
-		//$('#histspan4').animate({marginLeft:"7%"},"fast","swing");
-	});
+	// $("#chapter_tabs li a").click(function(){
+	// 	$("#histspan4").hide();
+	// 	$('#chapterspan4').css("margin-right","0%");
+	// 	$('#chapterspan4').animate({marginRight:"7%"},"fast","swing");
+	// });
+	// $("#tryspan4 li a").click(function(){
+	// 	$('#histspan4').show();
+	// 	$('#histspan4').css("margin-left","0%");
+	// 	$('#histspan4').animate({marginLeft:"7%"},"fast","swing");
+	// });
 </script>
