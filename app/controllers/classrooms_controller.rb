@@ -50,9 +50,9 @@ class ClassroomsController < ApplicationController
     respond_to do |format|
       if @classroom.save
         @classroom.classroom_teachers.create(:teacher_id => @teacher.id)
-        format.html { redirect_to teacherhome_path, notice: 'Classroom was successfully created.' }
+        format.html { redirect_to root_path, notice: 'Classroom was successfully created.' }
       else
-        format.html { render action: "new" }
+        format.js { render action: "new" }
       end
     end
   end
@@ -70,9 +70,9 @@ class ClassroomsController < ApplicationController
 
     respond_to do |format|
       if @join_class
-        format.html { redirect_to teacherhome_path, notice: 'Classroom joined successfully' }
+        format.html { redirect_to root_path, notice: 'Classroom joined successfully' }
       else
-        format.html { redirect_to teacherhome_path, notice: 'No classrooms found successfully' }
+        format.html { redirect_to root_path, notice: 'No classrooms found successfully' }
       end
     end
   end

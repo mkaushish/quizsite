@@ -3,7 +3,7 @@
 		<div class="span4">
 			<h3>Hey <%= @user.email %>,</h3> 
 			<p>Please put the code that you got in the mail for confirmation of your account</p>
-			<%= form_tag verify_confirmation_code_path(:token => @confirmation_token), method: :post, remote: :true do |f| %>
+			<%= form_tag verify_confirmation_code_path, method: :post, remote: :true do |f| %>
 	    		<div class = "field_block">
 	        		<div class="row-fluid">
 	            		<span class="error_block" id="SignUp_email_err"></span>
@@ -28,5 +28,3 @@
 	<div id="details_form">
 	</div>
 </div>
-
-

@@ -16,7 +16,7 @@ class DetailsController < ApplicationController
                         format.js
                     end
                 when 'problem_sets'
-                    @problem_sets = @classroom.problem_sets
+                    @problem_sets = @classroom.problem_sets.order("id ASC")
                     @problem_set = params[:problem_set_id].nil? ? @problem_sets.first : ProblemSet.find_by_id(params[:problem_set_id])
                     @stat_calc = TeacherStatCalc.new(@students, @problem_set.problem_types)
                     @chart_data_2 = @classroom.chart_percentage_of_students_answers_correct_by_problem_sets_with_intervals(@problem_set)
@@ -108,4 +108,3 @@ class DetailsController < ApplicationController
         @teacher = current_user
     end
 end
-
