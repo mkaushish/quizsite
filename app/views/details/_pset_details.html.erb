@@ -2,7 +2,7 @@
   <div class="span4" style="width:30%">
     <div>
       <ul class="column-list" style="border:none">
-        <% @problem_sets.order("id ASC").each do |pset| %>
+        <% @problem_sets.each do |pset| %>
         <li>
           <%= link_to pset.name, details_path(@classroom.id, type: "problem_sets", problem_set_id: pset.id), remote: :true %>
         </li>
