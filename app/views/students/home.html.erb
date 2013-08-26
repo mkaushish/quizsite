@@ -9,7 +9,7 @@
         </div>
     </div>
     <div id='bbor'>
-        <% @pset_instances.order("id ASC").each do |i| %>
+        <% @pset_instances.order("problem_set_id ASC").each do |i| %>
             <%= render :partial => 'pset_list_box', :object => i %>
         <% end %>
     </div>
