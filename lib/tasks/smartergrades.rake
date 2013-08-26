@@ -5,7 +5,8 @@ namespace :generate do
          Admin.create!(name: "SmarterGrades",
                        email: "admin@smartergrades.com",
                        password: "H@iR0f&",
-                       password_confirmation: "H@iR0f&")
+                       password_confirmation: "H@iR0f&",
+                       confirmed: true)
 
     if Classroom.smarter_grades.nil?
       Classroom.create name: "SmarterGrades 6"

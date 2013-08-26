@@ -6,16 +6,16 @@
             <h4><%= link_to @classroom.name, details_path(@classroom.id) %></h4>
             <ul>
                 <li>
-                    <%= link_to "Students", details_path(@classroom.id, type: "students"), remote: :true %>
+                    <%= link_to "Students", details_path(@classroom.id, type: "students") %>
                 </li>
                 <li>
-                    <%= link_to "Problem Sets", details_path(@classroom.id, type: "problem_sets"), remote: :true %>
+                    <%= link_to "Problem Sets", details_path(@classroom.id, type: "problem_sets") %>
                 </li>
                 <li>
-                    <%= link_to "Quizzes", details_path(@classroom.id, type: "quizzes"), remote: :true %>
+                    <%= link_to "Quizzes", details_path(@classroom.id, type: "quizzes") %>
                 </li>
                 <li>
-                    <%= link_to "Grades", details_path(@classroom.id, type: "grades"), remote: :true %>
+                    <%= link_to "Grades", details_path(@classroom.id, type: "grades") %>
                 </li>
                 </div>
             </ul>
@@ -32,7 +32,26 @@
             </div>
             <div id="details-content">
                 <div class="tab-pane fade active in" id="overall">
-                    <%= render "classrooms/overall_classroom_chart", :@students => @students %>
+                    <% if defined? params[:type] %>
+                        <% case params[:type] %>
+                            <% when 'students' %>
+                                <%= render 'student_details', :@students => @students %>
+                                
+                            <% when 'problem_sets' %>
+                                <%= render 'pset_details', :@problem_sets => @problem_sets, :@problem_set => @problem_set, :@stat_calc => @stat_calc %>
+                        
+                            <% when 'quizzes' %>
+                                <%= render 'quiz_details', :@problem_sets => @problem_sets, :@classroom_quizzes => @classroom_quizzes, :@problem_set => @problem_set %>
+     
+                            <% when 'grades' %>
+                                <%= render 'grades_tab', :@problem_set => @problem_set, :@problem_sets => @problem_sets, :@problem_types => @problem_types, :@start_date => @start_date, :@end_date => @end_date %>
+                            
+                            <% else %>
+                                <%= render 'classrooms/overall_classroom_chart', :@chart_data_1 => @chart_data_1 %>
+                            <% end %>
+                    <% else %>
+                        <%= render 'classrooms/overall_classroom_chart', :@chart_data_1 => @chart_data_1 %>
+                    <% end %>
                 </div>
             </div>
         </div>
@@ -42,3 +61,14 @@
 <script>
 $('.box-lid-menu').boxLid();
 </script>
+
+
+
+
+
+
+
+
+
+
+

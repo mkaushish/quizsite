@@ -5,7 +5,7 @@ class User < ActiveRecord::Base
     @@email_regex = /^[\w0-9+.!#\$%&'*+\-\/=?^_`{|}~]+@[a-z0-9\-]+(:?\.[0-9a-z\-]+)+$/i
 
     attr_accessor :password, :password_confirmation
-    attr_accessible :email, :name, :password, :password_confirmation, :image
+    attr_accessible :email, :name, :password, :password_confirmation, :image, :confirmed, :confirmation_token, :confirmation_code
     serialize :problem_stats, Hash
 
     has_many :custom_problems, :class_name => 'Problem'
@@ -30,7 +30,7 @@ class User < ActiveRecord::Base
                        :if => lambda{|a| a.new_record?}
 
     before_save  :encrypt_password
-    after_create :confirmation, :send_confirmation_mail
+    after_create :set_confirmation, :send_confirmation_mail
 
     before_create lambda { self.email.downcase! }
 
@@ -105,27 +105,31 @@ class User < ActiveRecord::Base
     def generate_secure_code
         string =  [('a'..'z'),('A'..'Z')].map{|i| i.to_a}.flatten
         final_string  =  (0...50).map{ string[rand(string.length)] }.join
-        final_string
+        return final_string
     end
 
     def generate_confirmation_code
         confirmation_code = generate_secure_code.slice(5..10)
-        confirmation_code
+        return confirmation_code
     end
 
     def generate_confirmation_token
         confirmation_token = generate_secure_code
-        confirmation_token
+        return confirmation_token
     end
 
-    def confirmation
-        self.confirmed = false
-        self.confirmation_code = generate_confirmation_code
-        self.confirmation_token = generate_confirmation_token
-        self.save
+    def set_confirmation
+        if self.confirmed == false
+            self.confirmed = false
+            self.confirmation_code = generate_confirmation_code
+            self.confirmation_token = generate_confirmation_token
+            self.save
+        end
     end
 
     def send_confirmation_mail
-        UserMailer.account_confirmation_email(self).deliver
+        if self.confirmed == false
+            UserMailer.account_confirmation_email(self).deliver
+        end
     end
 end

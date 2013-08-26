@@ -1,7 +1,7 @@
 class StudentsController < ApplicationController
     
     before_filter :authenticate, :except => [:show, :new, :create]
-    before_filter :validate_student, :only => [:update, :show, :chart, :badges]
+    before_filter :validate_student, :only => [:update, :show, :chart, :badges, :notifications]
     before_filter :validate_student_via_current_user, :only => [:home, :edit]
 
     def home
@@ -13,7 +13,14 @@ class StudentsController < ApplicationController
     def badges
         @shape = params[:shape]
         @student_badges = @student.badges.where("level = ?", @shape) 
-        #@all_badges = @student.all_badges
+        @all_badges = @student.all_badges.select{ |v| v[2] == @shape.to_i }
+        respond_to do |format|
+            format.js
+        end
+    end
+    
+    def notifications
+        @notifications = @student.news_feeds.order("created_at DESC").pluck(:content)
         respond_to do |format|
             format.js
         end

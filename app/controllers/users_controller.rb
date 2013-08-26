@@ -79,15 +79,15 @@ class UsersController < ApplicationController
     end
 
     def signup_step3
-        if defined? (params[:token] and params[:confirmation_code])
-            @confirmation_token = params[:token]
+        if defined? params[:confirmation_code]
+            
             @confirmation_code = params[:confirmation_code]
-            if @user.confirmation_code == @confirmation_code and @user.confirmation_token == @confirmation_token
+            if @user.confirmation_code == @confirmation_code
                 respond_to do |format|
                     format.js
                 end
             else
-                redirect_to confirm_path(@user, :token => @confirmation_token)
+                redirect_to root_path, notice: "Wrong Code"
             end
         end
     end
@@ -105,7 +105,7 @@ class UsersController < ApplicationController
             end
             @classroom.assign!(@user)
             sign_in @user
-            redirect_to studenthome_path, notice: 'Welcome To SmarterGrades!!'
+            redirect_to root_path, notice: 'Welcome To SmarterGrades!!'
         elsif @user.is_a? (Teacher)
             unless params[:classroom_name].empty?
                 @classroom_name = params[:classroom_name]
@@ -113,10 +113,10 @@ class UsersController < ApplicationController
                 @classroom_teacher = @classroom.classroom_teachers.create(:teacher_id => @user.id) unless @classroom.nil?
             end
             sign_in @user
-            redirect_to teacherhome_path, notice: 'Welcome To SmarterGrades!!'
+            redirect_to root_path, notice: 'Welcome To SmarterGrades!!'
         elsif @user.is_a? (Coach)
             sign_in @user
-            redirect_to coachhome_path, notice: 'Welcome To SmarterGrades!!'
+            redirect_to root_path, notice: 'Welcome To SmarterGrades!!'
         end
     end
     

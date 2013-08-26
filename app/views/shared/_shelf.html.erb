@@ -16,11 +16,12 @@
             </li>
             <li class='shelf_li'> 
                 <div class="btn-group"> 
-                    <button class="btn btn-success dropdown-toggle dropdown-toggle2" data-toggle="dropdown" >
+                    <!-- <button class="btn btn-success dropdown-toggle dropdown-toggle2" data-toggle="dropdown" > -->
+                    <%= link_to "","#", :class => "btn btn-success dropdown-toggle dropdown-toggle2", :id => "notifications", :data => {:toggle => "dropdown"}, remote: :true %>
                         <span class="caret"></span>
                     </button>
                     <div id='news'>
-                        <%= render  :partial => 'students/news_feeds' %>
+                        <%= render  "students/notifications" %>
                     </div>    	
                 </div>
             </li>
@@ -67,55 +68,7 @@
             </li>        
         </ul>
     </div>
-    <!-- <div id="badgeModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    	<div class="modal-header2 modal-header">
-            ####commented_code<button type="button" class="close" data-dismiss="modal" aria-hidden="true" style="opacity:2;">×</button>
-            <h3 id="myModalLabel" class="badgehead" >BADGES</h3>
-        </div>
-        <div class="modal-body">
-            <ul>
-                <%# current_user.badges.order("created_at DESC").each do |badge| %>
-                    <li class="tryli">
-                        <div class = "<%#= badge.badge_key %> badges2 badge_<%#= badge.level %>">
-                            <div class='b_image'></div>
-                        </div>
-                        <p class="posbadge_name"><%#= badge.name %></p>
-                    </li>
-                <% #end %>     
-            </ul>
-        </div>
-    </div>
-    <div id="badgebwModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-        <div class="modal-header2 modal-header">
-            ####commented_code<button type="button" class="close" data-dismiss="modal" aria-hidden="true" style="opacity:2;">×</button>
-            <h3 id="myModalLabel" class="badgehead" >BADGES TO GET</h3>
-        </div>
-        <div class="modal-body">
-            <%# ct=0 %>
-            <ul>
-                <%# @all_badges.each do |badge| %>
-                    <%# if @student.badges.find_by_badge_key(badge[0]).nil? %>
-                        <li class="tryli">
-                            <div class = "badgesbw2 badge_<%#= badge[2] %>">
-                                <div class='b_image'></div>
-                            </div>
-                            <p class="posbadge_name"><%#= badge[1] %></p>
-                        </li>
-                        <%#ct=ct+1%>
-                    <%# end %> 
-                <%# end%>    
-            </ul>
-        </div>
-        ####commented_code<div class="modal-footer">
-            <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
-            <button class="btn btn-primary">Save changes</button>
-        </div>
-    </div> -->
-
     <div id="badgeModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-        <%# if !@student_badges.nil? and !@all_badges.nil? %>
-            <%#= render "badges", :student_badges => @student_badges, :all_badges => @all_badges %>
-        <%# end %>
     </div>
 </div>
 

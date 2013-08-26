@@ -1,6 +1,6 @@
 namespace :generate do
     desc "Generate three sample classrooms with 30 users each and having problems correct as 80%, 70& and 60%"
-    task :fake_data_with_out_stats => :environment do
+    task :fake_data_without_stats => :environment do
 
         Rake::Task["generate:defaults"].invoke
         # FIND TEACHER #

@@ -40,20 +40,18 @@
       <div style="width:40px">500</div>
     </div>
   </div>
-	<div class="right"></div>
+  <div class="right"></div>
 </div>-->
 <!-- file name should be "_green.html.erb" -->
 
 <script>
-	$('.progress_bar').css("width","100%");
+  $('.progress_bar').css("width","100%");
   var complete="<%= @stat.done_p %>";
   var per_complete=parseFloat(complete);
   var wrong_points = "<%= @stat.wrong_p_remaining %>";
-
-  var wrongper=parseFloat(wrong_points)+per_complete;
+  var wrongper=Math.min(100.0,parseFloat(wrong_points)+per_complete);
   var right_points="<%= @stat.right_p %>";
-
-  var rightper=parseFloat(right_points)+wrongper+per_complete;
+  var rightper=Math.min(100.0,parseFloat(right_points)+wrongper);
   
   //var wid=parseFloat("<%= @stat.problem_stat.points_required %>");
   
@@ -65,7 +63,6 @@
   //rightper=per_complete+((wpnum+rpnum)/wid)*100
   //$('#try').css('background','-webkit-gradient(linear, 21% 0%, 81% 0%, from(#60B349), to(#60B349), color-stop(.5,#60B349),color-stop(.5,#C40233),color-stop(.6,#C40233),color-stop(.6,#0087BD),color-stop(.8,#0087BD),color-stop(.8,#60B349))');
   //alert(wid);
-  //alert("-webkit-linear-gradient(left, #0087bd "+per_complete+"%,#c40233 "+per_complete+"%,#c40233 "+wrongper+"%,#60b349 "+wrongper+"%,#60b349 "+rightper+"%,#808080 "+rightper+"%,#808080 100%)");
   if(per_complete>=100)
   {
     $('#try').css('background-color',"#0087BD")
@@ -74,7 +71,6 @@
   {
     //if(wpnum > 0 || compnum == 0){
   //$('#try').css('background',"-webkit-gradient(linear,"+per_complete+"% 0%,"+final_remaining+"% 0%, from(#0087BD), to(grey), color-stop(.005,#60B349),color-stop(.005,#C40233),color-stop("+fracwrong+",#C40233),color-stop("+fracwrong+",#60B349),color-stop(.995,#60B349),color-stop(.995,grey))");
-
 
   $("#try").css("background", "gray"); /* Old browsers */
   $("#try").css("background", "-moz-linear-gradient(left, #0087bd "+per_complete+"%, #c40233 "+per_complete+"%, #c40233 "+wrongper+"%, #60b349 "+wrongper+"%, #60b349 "+rightper+"%, #808080 "+rightper+"%, #808080 100%)"); /* Old browsers */
@@ -101,6 +97,4 @@
  </script>
 
  <div id="try" class="progress_bar yellow">
-
-
-  </div>
+</div>

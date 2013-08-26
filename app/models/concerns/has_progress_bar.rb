@@ -5,7 +5,7 @@ module HasProgressBar
   	if color_status == 'green'
   		return 0
   	end
-    total = self.problem_stat.points_required - points_till_green
+    total = self.problem_stat.points
 	  to_percent (total)
     
   end
@@ -33,7 +33,7 @@ module HasProgressBar
 
   private
     def to_percent(pts)
-      pts / (self.problem_stat.points_required / 100.0)
+      (pts.to_f / (self.problem_stat.points_required))*100.0
     end
 
 
