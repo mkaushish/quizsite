@@ -131,7 +131,11 @@ class Student < User
     end
 
     def problem_stats_correct_and_total(problem_type)
-        self.problem_stats.where("problem_type_id = ?", problem_type).collect{|v| [v.correct, v.count]}.first
+        count=self.problem_stats.where("problem_type_id = ?", problem_type).collect{|v| [v.correct, v.count]}.first
+        if count.nil?
+            return [0,0]
+        end
+        count
     end
 
     def problem_set_instances_problem_set(problem_set)
