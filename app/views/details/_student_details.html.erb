@@ -1,16 +1,23 @@
-<div class=span4>
-  <div class=dotted-border-header>
-    Students
+<div class="row-fluid">
+  <div class=span4>
+    <div class=dotted-border-header>
+      Students
+    </div>
+    <div class=dotted-border>
+      <ul class="column-list" style="border:none">
+        <% @students.sort { |a,b| a.name <=> b.name }.each do |student| %>
+          <li>
+            <%= link_to student.name, student_path(student.id), remote: :true %>
+          </li>
+        <% end %>
+      </ul>
+    </div>
   </div>
-  <div class=dotted-border>
-    <ul class="column-list" style="border:none">
-      <% @students.sort { |a,b| a.name <=> b.name }.each do |student| %>
-      <li>
-        <%= link_to student.name, student_path(student.id), remote: :true %>
-      </li>
-      <% end %>
-    </ul>
+
+  <div class="span8" id="check">
+    <p>Click on Student to get details</p>
+    <% unless @student.nil? %>
+      <%= render "students/show", :@student => @student %>
+    <% end %>
   </div>
 </div>
-
-<div id="student_det"></div>

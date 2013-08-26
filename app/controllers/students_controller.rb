@@ -28,6 +28,9 @@ class StudentsController < ApplicationController
     
     def show
         @problem_sets = @student.problem_sets.includes(:problem_types)
+        respond_to do |format|
+            format.js
+        end
     end
 
     def new
