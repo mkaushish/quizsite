@@ -90,6 +90,19 @@ color:white;
 -ms-transform:rotate(45deg); /* IE 9 */
 -webkit-transform:rotate(45deg); /* Safari and Chrome */
 }
+#beta_test_logo{
+  font-size:40px;
+  position:absolute;
+  left:26%;
+  top:30px;
+  padding-left:100px;
+  padding-right:100px;
+  color:white;
+  background-color:black;
+  transform:rotate(315deg);
+-ms-transform:rotate(315deg); /* IE 9 */
+-webkit-transform:rotate(315deg); /* Safari and Chrome */
+}
 .sign_up_home{
   float:left;
     padding-top: 20px;
