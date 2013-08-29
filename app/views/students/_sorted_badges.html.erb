@@ -1,0 +1,28 @@
+<table>
+    <% @all_badges.each do |badge| %>
+       <tr>
+           <td>
+                <p>
+                    <% case @shape %>
+                        <% when "1" %>
+                            <%= image_tag "tetrahedron.png", :size => "20x20" %>
+                        <% when "2" %>
+                            <%= image_tag "cube.png", :size => "20x20" %>        
+                        <% when "3" %>
+                            <%= image_tag "octahedron.png", :size => "20x20" %>        
+                        <% when "4" %>
+                            <%= image_tag "dodecahedron.png", :size => "20x20" %>                
+                        <% when "5" %>
+                            <%= image_tag "icosahedron.png", :size => "20x20" %>        
+                    <% end %>
+                    
+                    <% if @student_badges.pluck(:name).include? badge[1] %>
+                        <%= badge[1] %><%= " You Got this Badge" %>
+                    <% else %>
+                        <%= badge[1] %><%= " You haven't got this Badge" %>
+                    <% end %>   
+                </p>
+            </td>
+        </tr>
+    <% end %>     
+</table>

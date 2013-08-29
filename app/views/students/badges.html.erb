@@ -1,0 +1,50 @@
+<div class="row-fluid">
+    <h2>BADGES</h2>
+</div>
+<div class="row-fluid">
+    <div class="span2">
+        <div id="get_badge_1">
+            <%= link_to (image_tag "tetrahedron.png"), student_badges_path(@student.id, :shape => 1), remote: :true %>
+        </div>
+        <div id='badge_count_tetrahedron'>
+            <%= link_to "LEVEL 1", student_badges_path(@student.id, :shape => 1), remote: :true, :class => "plate" %>
+        </div>
+    </div>
+    <div class="span2">
+        <div id="get_badge_1">
+            <%= link_to (image_tag "cube.png"), student_badges_path(@student.id, :shape => 2), remote: :true %>
+        </div>
+        <div id='badge_count_cube'>
+            <%= link_to "LEVEL 2", student_badges_path(@student.id, :shape => 2), remote: :true, :class => "plate" %>
+        </div>
+    </div>
+    <div class="span2">
+        <div id="get_badge_1">
+            <%= link_to (image_tag "octahedron.png"), student_badges_path(@student.id, :shape => 3), remote: :true %>
+        </div>
+        <div id='badge_count_octahedron'>
+            <%= link_to "LEVEL 3", student_badges_path(@student.id, :shape => 3), remote: :true, :class => "plate" %>
+        </div>
+    </div>
+    <div class="span2">
+        <div id="get_badge_1">
+            <%= link_to (image_tag "dodecahedron.png"), student_badges_path(@student.id, :shape => 4), remote: :true %>
+        </div>
+        <div id='badge_count_dodecahedron'>
+            <%= link_to "LEVEL 4", student_badges_path(@student.id, :shape => 4), remote: :true, :class => "plate" %>
+        </div>
+    </div>
+    <div class="span2">
+        <div id="get_badge_1">
+            <%= link_to (image_tag "icosahedron.png"), student_badges_path(@student.id, :shape => 5), remote: :true %>
+        </div>
+        <div id='badge_count_icosahedron'>
+            <%= link_to "LEVEL 5", student_badges_path(@student.id, :shape => 5), remote: :true, :class => "plate" %>
+        </div>
+    </div>
+</div>
+<div class="row-fluid">            
+    <div id="badges_box">
+        <%= render "sorted_badges", :@all_badges => @all_badges, :@student_badges => @student_badges %>
+    </div>
+</div>

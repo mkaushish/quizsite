@@ -15,6 +15,7 @@ class StudentsController < ApplicationController
         @student_badges = @student.badges.where("level = ?", @shape) 
         @all_badges = @student.all_badges.select{ |v| v[2] == @shape.to_i }
         respond_to do |format|
+            format.html
             format.js
         end
     end

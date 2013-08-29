@@ -1,2 +1,1 @@
-$("#badgeModal").html('<%= j(render 'badges', :student_badges => @student_badges, :all_badges => @all_badges, :shape => @shape) %>');
-$("#badgeModal").modal('show');
+$("#badges_box").fadeIn().html('<%= j(render 'sorted_badges', :student_badges => @student_badges, :all_badges => @all_badges, :shape => @shape) %>');
