@@ -1,0 +1,20 @@
+<div class="row-fluid">
+	<div class="span4">
+		<%= render 'classrooms/overall_classroom_chart', :@chart_data_1 => @chart_data_1 %>
+	</div>
+	<div class="span4">
+		<h3>Weak Students</h3>
+		<table>
+			<% @top_weak_students.each do |student| %>
+				<tr>
+					<td>
+						<%= link_to "#{student[1]}", student_path(student[0].to_i) %>
+					</td>
+					<td>
+						<%= student[2].to_s + "%" %>
+					</td>
+				</tr>
+			<% end %>
+		</table>
+	</div>
+</div>

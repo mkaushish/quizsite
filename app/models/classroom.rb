@@ -138,4 +138,31 @@ class Classroom < ActiveRecord::Base
             chart_data.push(["Haven't Attempted", select_0])
         return chart_data
     end
+
+    def weak_students(n)
+        result = Array.new
+        self.students.each do |student|
+            answers_stats = student.total_correct_wrong_answers
+            total_answers = answers_stats[0]
+            correct_answers = answers_stats[1]
+            result.push [student.id, student.name, (percentage(correct_answers, total_answers)).round(4).to_f]
+        end
+        result.sort!{|x,y| x[2] <=> y[2]}
+        return result.first(n)
+    end
+
+    # def weak_problem_sets(n)
+    #     result = Array.new
+    #     self.students.each do |student|
+    #       
+    #     end
+    # end
+
+    private
+    
+    def percentage(value, total)
+        unless value == 0 or total == 0
+            return ((value.to_f / total.to_f) * 100).to_f
+        end
+    end
 end

@@ -47,7 +47,8 @@
                                 <%= render 'grades_tab', :@problem_set => @problem_set, :@problem_sets => @problem_sets, :@problem_types => @problem_types, :@start_date => @start_date, :@end_date => @end_date %>
                             
                             <% else %>
-                                <%= render 'classrooms/overall_classroom_chart', :@chart_data_1 => @chart_data_1 %>
+                                <%= render 'overall_details', :@chart_data_1 => @chart_data_1, :@top_weak_students => @top_weak_students %>
+                                
                             <% end %>
                     <% else %>
                         <%= render 'classrooms/overall_classroom_chart', :@chart_data_1 => @chart_data_1 %>
