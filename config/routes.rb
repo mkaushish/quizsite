@@ -151,7 +151,7 @@
   # get '/notepad',       :to => 'pages#notepad'
   # get '/measure',       :to => 'pages#measure'
 
-  # match '/nologinhome_3dbfabcacc12868a282be76f5d59a19813', :to => 'pages#nologinhome'
+
   root to: 'pages#home'
 
 end

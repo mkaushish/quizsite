@@ -52,14 +52,13 @@ class Badge < ActiveRecord::Base
         
             end
         end
-        @badges += [["BadgeCAPSWAD", "Problem Set Completed Within a Day", 2],["BadgeTRQC", "10 red Questions Correct", 2]]
+        # @badges += [["BadgeCAPSWAD", "Problem Set Completed Within a Day", 2],["BadgeTRQC", "10 red Questions Correct", 2]]
         @badges << ["BadgeAPSD", "All Problem Sets Blue", 5]
 
         for i in 0...2
             for j in 0...3
-                @badges << ["Badge#{(i+1)*5}QCIARF#{(j+1)*5}TO", "#{(i+1)*5} Questions Correct in a Row for the #{(j+1)*5} Time", 3]
+                @badges << ["Badge#{(i+1)*5}QCIARF#{(j+1)*5}T", "#{(i+1)*5} Questions Correct in a Row for the #{(j+1)*5} Time", 3]
             end
-            @badges << ["Badge#{(i+1)*5}QCIARFTO", "#{(i+1)*5} Questions Correct in a Row for the First Time", 2]
             @badges << ["Badge#{(i+1)*5}PSB", "#{(i+1)*5} Problem Sets Blue", 4]
         end
     

@@ -11,7 +11,7 @@
         <%= yield :head %>
     </head>
     <body>
-        <%= render 'shared/new_nav'%>
+        <%= render 'shared/navbar'%>
         <div class="container <%= 'not_log_in' if !signed_in? %>">
             <% unless notice.nil? %>
                 <div class="alert alert-success">
