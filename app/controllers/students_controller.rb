@@ -5,7 +5,7 @@ class StudentsController < ApplicationController
     before_filter :validate_student_via_current_user, :only => [:home, :edit]
 
     def home
-        @pset_instances = @student.problem_set_instances.includes(:problem_stats, :problem_set, :problem_set_problems)
+        @pset_instances = @student.problem_set_instances.order("problem_set_id ASC").includes(:problem_stats, :problem_set, :problem_set_problems)
         @history = current_user.answers.order("created_at DESC").limit(11)
         @all_badges = @student.all_badges
     end
@@ -15,6 +15,7 @@ class StudentsController < ApplicationController
         @student_badges = @student.badges.where("level = ?", @shape) 
         @all_badges = @student.all_badges.select{ |v| v[2] == @shape.to_i }
         respond_to do |format|
+            format.html
             format.js
         end
     end
@@ -27,7 +28,10 @@ class StudentsController < ApplicationController
     end
     
     def show
-        @problem_sets = @student.problem_sets.includes(:problem_types)
+        @problem_sets = @student.problem_sets.order("id ASC").includes(:problem_types)
+        respond_to do |format|
+            format.js
+        end
     end
 
     def new

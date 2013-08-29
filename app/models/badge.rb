@@ -15,7 +15,7 @@ class Badge < ActiveRecord::Base
         unless result.blank?
             Badge.BadgeAPSD(student, result)                        #[LEVEL 5]#
             Badge.BadgePSB(student, result)                         #[LEVEL 3]#
-            Badge.BadgeCAPSWAD(student, result)                     #[LEVEL 2]#
+            # Badge.BadgeCAPSWAD(student, result)                     #[LEVEL 2]#
             Badge.BadgeNPSB(student, result, 5)                     #[LEVEL 4]#
             Badge.BadgeNPSB(student, result, 10)                    #[LEVEL 4]#
         end
@@ -23,8 +23,6 @@ class Badge < ActiveRecord::Base
         answers_correct_with_problem_type = student.answers_correct_with_problem_type_id
         answers_correct = answers_correct_with_problem_type.map{ |v| v[0] }
         unless answers_correct.blank?
-            Badge.BadgeNQCIARFTO(student, answers_correct, 5)       #[LEVEL 2]#
-            Badge.BadgeNQCIARFTO(student, answers_correct, 10)      #[LEVEL 2]#
             Badge.BadgeNQCIARFNT(student, answers_correct, 5, 5)    #[LEVEL 3]#
             Badge.BadgeNQCIARFNT(student, answers_correct, 5, 10)   #[LEVEL 3]#
             Badge.BadgeNQCIARFNT(student, answers_correct, 5, 15)   #[LEVEL 3]#
@@ -34,7 +32,7 @@ class Badge < ActiveRecord::Base
         end
 
         unless answers_correct_with_problem_type.blank?
-            Badge.BadgePTTQCIARFTO(student, answers_correct_with_problem_type, 10)
+            Badge.BadgePTTQCIARFTO(student, answers_correct_with_problem_type, 5)
         end
 
         problem_types_name = student.problem_types_blue_name
@@ -129,32 +127,18 @@ class Badge < ActiveRecord::Base
     end
 
 	# Badge for completing a problem set within a day [LEVEL 2]#
-	def self.BadgeCAPSWAD(student, result)
-		@has_BadgeCAPSWAD = student.badges.find_by_badge_key("BadgeCAPSWAD")
-        if @has_BadgeCAPSWAD.nil?
-        	if result.select{ |v| v[3] == Date.today }.count > 0 == true
-                student.points += 1000
-                student.save
-                student.news_feeds.create(:content => "Congrats! You have won a new Badge: Completing a problem set within a day", :feed_type => "badge", :user_id => student.id)
-                student.badges.create(:name => "Problem Set Completed Within a Day",	:badge_key => "BadgeCAPSWAD", :level => 2)
-			end
-        end
-	end
+	# def self.BadgeCAPSWAD(student, result)
+	# 	@has_BadgeCAPSWAD = student.badges.find_by_badge_key("BadgeCAPSWAD")
+ #        if @has_BadgeCAPSWAD.nil?
+ #        	if result.select{ |v| v[3] == Date.today }.count > 0 == true
+ #                student.points += 1000
+ #                student.save
+ #                student.news_feeds.create(:content => "Congrats! You have won a new Badge: Completing a problem set within a day", :feed_type => "badge", :user_id => student.id)
+ #                student.badges.create(:name => "Problem Set Completed Within a Day",	:badge_key => "BadgeCAPSWAD", :level => 2)
+	# 		end
+ #        end
+	# end
 
-    # Badge for n questions correct in a row for the first time only [LEVEL 2]#
-    def self.BadgeNQCIARFTO(student, answers, n)
-        @has_BadgeNQCIARFTO = student.badges.find_by_badge_key("Badge#{n}QCIARFTO")
-        if @has_BadgeNQCIARFTO.nil?                 
-            answers_with_limit = answers.first(n)
-            true_count = answers_with_limit.select{ |v| v }.count
-            if true_count == n
-                student.points += 1000
-                student.save
-                student.news_feeds.create(:content => "Congrats! You have won a new Badge: #{n} questions correct in a row for the first time only ", :feed_type => "badge", :user_id => student.id)
-                student.badges.create(:name => "#{n} Questions Correct in a Row for the First Time", :badge_key => "Badge#{n}QCIARFTO", :level => 2)
-            end
-        end
-    end
 
 	# Badge for getting n questions correct in a row for n times [LEVEL 3] #
 	def self.BadgeNQCIARFNT(student, answers, n, times)

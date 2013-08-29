@@ -61,7 +61,7 @@ class UsersController < ApplicationController
                     redirect_to root_path, notice: "Please choose your type!!"
             end
         end
-        redirect_to root_path, notice: "Please check your inbox for account confirmation"
+        redirect_to root_path, notice: "Please check your Inbox for Account Confirmation Mail!"
     end
 
     # Signup_step : checks the token with the confirmation code if both is same then user asked to give all details #

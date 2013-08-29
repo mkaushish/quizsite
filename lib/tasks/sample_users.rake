@@ -29,7 +29,7 @@ namespace :generate do
       else
         puts "COULDN'T SAVE TEST CLASS!"
       end
-        
+      classroom = Classroom.find_by_name("SmarterGrades 6")
       ProblemSet.all.each do |ps| 
         classroom.assign! ps
       end
@@ -51,6 +51,11 @@ namespace :generate do
 
         if user.save!
           puts "#{user.name} successfully added"
+          if classroom.assign! user
+            puts "#{classroom.name} assigned to #{user.name} successfully"
+          else
+            puts "#{classroom.name} not assigned to #{user.name}"
+          end
         else
           puts "#{user.name} could not be added: "
         end
