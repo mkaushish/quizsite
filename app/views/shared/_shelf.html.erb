@@ -3,7 +3,7 @@
 <div id='bigshelf'>
     <div class='shelf' id='shelf_0'>
         <ul class='shelf_ul'>
-            <li class='shelf_li'>
+            <li class='shelf_li' id='account'>
                 <%= link_to (image_tag ("#{@student.image}"), :size => "70x70", :class => "st_img"), student_path(@student.id) unless @student.image.blank? %>
                 <%=  link_to (image_tag ("default_70x70.png"), :size => "70x70", :class => "st_img"), student_path(@student.id) if @student.image.blank?%>
                 <%= link_to 'Account',  student_path(@student.id), :class => 'plate' %>
@@ -26,16 +26,15 @@
                 </div>
             </li>
             <li class='shelf_li'>
-                <div id="get_badge_1">
+                <div id="get_badge_1" class="get_badge">
                     <%= link_to (image_tag "tetrahedron.png"), student_badges_path(@student.id, :shape => 1) %>
                 </div>
                 <div id='badge_count_tetrahedron'>
                     <%= link_to (render  'students/badge_count', :@shape => 1), student_badges_path(@student.id, :shape => 1), :class => "plate" %>
                 </div>
-                </a>
             </li>
             <li class='shelf_li'>
-                <div id="get_badge_1">
+                <div id="get_badge_2" class="get_badge">
                     <%= link_to (image_tag "cube.png"), student_badges_path(@student.id, :shape => 2) %>
                 </div>
                 <div id='badge_count_cube'>
@@ -43,7 +42,7 @@
                 </div>
             </li>
             <li class='shelf_li'>
-                <div id="get_badge_1">
+                <div id="get_badge_3" class="get_badge">
                     <%= link_to (image_tag "octahedron.png"), student_badges_path(@student.id, :shape => 3) %>
                 </div>
                 <div id='badge_count_octahedron'>
@@ -51,7 +50,7 @@
                 </div>
             </li>
             <li class='shelf_li'>
-                <div id="get_badge_1">
+                <div id="get_badge_4" class="get_badge">
                     <%= link_to (image_tag "dodecahedron.png"), student_badges_path(@student.id, :shape => 4) %>
                 </div>
                 <div id='badge_count_dodecahedron'>
@@ -59,13 +58,16 @@
                 </div>
             </li>
             <li class='shelf_li'>
-                <div id="get_badge_1">
+                <div id="get_badge_5" class="get_badge">
                     <%= link_to (image_tag "icosahedron.png"), student_badges_path(@student.id, :shape => 5) %>
                 </div>
                 <div id='badge_count_icosahedron'>
                     <%= link_to (render  'students/badge_count', :@shape => 5), student_badges_path(@student.id, :shape => 5), :class => "plate" %>
                 </div>
-            </li>        
+            </li>
+            <% if @instance.nil? %>
+            <li class='shelf_li'><a href="javascript:;" id="open-walkthrough"><img src='/assets/Help.png'/></a></li>      
+            <%end%>
         </ul>
     </div>
     <div id="badgeModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">

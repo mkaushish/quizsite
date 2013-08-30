@@ -83,6 +83,7 @@
   #notes {
     border-color:#D3D3D3;
     font-family:"Courier";
+    color:white;
   }
   #notepad {
     z-index:20;
@@ -160,7 +161,7 @@
   margin-top:20px;
 }
 .side-notes{
-  background:-webkit-gradient(linear, left top, left bottom, from(purple), to(white));
+  background-color: purple;
 }
 .calculations {
   float:left;

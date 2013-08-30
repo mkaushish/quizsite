@@ -80,7 +80,9 @@ function shelf_do(){
   wdt=$(".container").width();
 lis="";
   lisarr=[]
-  for(i=0; i < $(".shelf .shelf_ul .shelf_li").length; i++){
+  lis+="<li class=shelf_li id=account>"+$(".shelf .shelf_ul .shelf_li").eq(0).html()+"</li>";
+  lisarr[0]="<li class=shelf_li id=account>"+$(".shelf .shelf_ul .shelf_li").eq(0).html()+"</li>";
+  for(i=1; i < $(".shelf .shelf_ul .shelf_li").length; i++){
     lis+="<li class=shelf_li>"+$(".shelf .shelf_ul .shelf_li").eq(i).html()+"</li>";
     lisarr[i]="<li class=shelf_li>"+$(".shelf .shelf_ul .shelf_li").eq(i).html()+"</li>";
   }

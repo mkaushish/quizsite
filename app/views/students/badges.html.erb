@@ -6,7 +6,7 @@
 <div class="row-fluid">
     <div class="badge-levels" style="width: 62%; margin: 0 auto;">
         <div class="span2">
-            <div id="get_badge_1">
+            <div id="get_badge_1" class="get_badge">
                 <%= link_to (image_tag "tetrahedron.png"), student_badges_path(@student.id, :shape => 1), remote: :true %>
             </div>
             <div id='badge_count_tetrahedron'>
@@ -14,7 +14,7 @@
             </div>
         </div>
         <div class="span2">
-            <div id="get_badge_1">
+            <div id="get_badge_2" class="get_badge">
                 <%= link_to (image_tag "cube.png"), student_badges_path(@student.id, :shape => 2), remote: :true %>
             </div>
             <div id='badge_count_cube'>
@@ -22,7 +22,7 @@
             </div>
         </div>
         <div class="span2">
-            <div id="get_badge_1">
+            <div id="get_badge_3" class="get_badge">
                 <%= link_to (image_tag "octahedron.png"), student_badges_path(@student.id, :shape => 3), remote: :true %>
             </div>
             <div id='badge_count_octahedron'>
@@ -30,7 +30,7 @@
             </div>
         </div>
         <div class="span2">
-            <div id="get_badge_1">
+            <div id="get_badge_4" class="get_badge">
                 <%= link_to (image_tag "dodecahedron.png"), student_badges_path(@student.id, :shape => 4), remote: :true %>
             </div>
             <div id='badge_count_dodecahedron'>
@@ -38,7 +38,7 @@
             </div>
         </div>
         <div class="span2">
-            <div id="get_badge_1">
+            <div id="get_badge_5" class="get_badge">
                 <%= link_to (image_tag "icosahedron.png"), student_badges_path(@student.id, :shape => 5), remote: :true %>
             </div>
             <div id='badge_count_icosahedron'>
