@@ -29,8 +29,10 @@ class StudentsController < ApplicationController
     
     def show
         @problem_sets = @student.problem_sets.order("id ASC").includes(:problem_types)
-        respond_to do |format|
-            format.js
+        if current_user.is_a? Teacher
+            respond_to do |format|
+                format.js
+            end
         end
     end
 

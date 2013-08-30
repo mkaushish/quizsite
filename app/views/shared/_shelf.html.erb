@@ -4,9 +4,9 @@
     <div class='shelf' id='shelf_0'>
         <ul class='shelf_ul'>
             <li class='shelf_li'>
-                <%= link_to (image_tag ("#{@student.image}"), :size => "70x70", :class => "st_img"), edit_student_path, :remote => true unless @student.image.blank? %>
-                <%=  link_to (image_tag ("default_70x70.png"), :size => "70x70", :class => "st_img"), edit_student_path, :remote => true if @student.image.blank?%>
-                <%= link_to 'Account',  edit_student_path, :remote => true, :class => 'plate' %>
+                <%= link_to (image_tag ("#{@student.image}"), :size => "70x70", :class => "st_img"), student_path(@student.id) unless @student.image.blank? %>
+                <%=  link_to (image_tag ("default_70x70.png"), :size => "70x70", :class => "st_img"), student_path(@student.id) if @student.image.blank?%>
+                <%= link_to 'Account',  student_path(@student.id), :class => 'plate' %>
             </li>
             <li class='shelf_li'>
                 <div id='points'>
