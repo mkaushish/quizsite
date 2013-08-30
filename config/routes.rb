@@ -108,7 +108,8 @@
   get '/quiz_for_all_classes/:quiz',          to: 'quizzes#assign_quiz_to_classrooms', as: :assign_quiz_to_classrooms
     
   # post ':classroom/assign_quiz/:id',        to: 'quizzes#assign', as: :assign_quiz
-  get '/:classroom/:pset/show',               to: 'quizzes#show', as: :quiz
+  get '/classrooms/:classroom/quizzes/:quiz_id',               to: 'quizzes#show', as: :quiz
+  get '/quizzes/:quiz_instance/student/:student_id',               to: 'quizzes#quiz_answers', as: :quiz_answers
   post '/:classroom/:quiz/assign'
 
   # classroom

@@ -147,17 +147,29 @@ class Classroom < ActiveRecord::Base
             correct_answers = answers_stats[1]
             result.push [student.id, student.name, (percentage(correct_answers, total_answers)).round(4).to_f]
         end
-        result.sort!{|x,y| x[2] <=> y[2]}
+        result.sort!{ |x,y| x[2] <=> y[2] }
         return result.first(n)
     end
 
-    # def weak_problem_sets(n)
-    #     result = Array.new
-    #     self.students.each do |student|
-    #       
-    #     end
-    # end
-
+    def quiz_results(quiz_id)
+        result = Array.new
+        self.students.each do |student|
+            quiz_instance = student.quiz_instances.where("quiz_id = ?", quiz_id).last
+            if quiz_instance.nil?
+                result.push [student.id, student.name, "Haven't Attempted", nil]
+            elsif quiz_instance.over?
+                answers = quiz_instance.answers.pluck(:correct)
+                total_answers = answers.count
+                correct_answers = answers.select{ |v| v == true }.count
+                result.push [student.id, student.name, (correct_answers.to_s + " / " + total_answers.to_s), quiz_instance.id]
+            else
+                result.push [student.id, student.name, "In Progress", nil]
+            end
+        end
+        result.sort!{ |x,y| x[0] <=> y[0] }
+        return result
+    end
+    
     private
     
     def percentage(value, total)

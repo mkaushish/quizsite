@@ -5,7 +5,23 @@ class QuizzesController < ApplicationController
 
     # display PScores for the problem types / quiz ?
     def show
+        @quiz = Quiz.find_by_id(params[:quiz_id])
+        @classroom = Classroom.find_by_id(params[:classroom])
+        @students = @classroom.students
+        @quiz_result = @classroom.quiz_results(@quiz.id)
+        respond_to do |format|
+            format.html
+        end
     end
+
+    def quiz_answers
+        @quiz_instance = QuizInstance.find_by_id(params[:quiz_instance])
+        @answers = @quiz_instance.answers.where("user_id = ? ", params[:student_id])
+        respond_to do |format|
+            format.js
+        end
+    end
+
 
     # choose the problems for a quiz
     def new

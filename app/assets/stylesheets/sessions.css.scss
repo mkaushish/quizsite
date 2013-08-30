@@ -27,6 +27,7 @@ form.signin {
 }
 
 #logIn {
+  font-family: Courier;
   position:absolute;
   margin-top:-10%;
 //  margin-left:-200px;
@@ -35,7 +36,8 @@ form.signin {
 // width:428px;
   .modal-header{
     padding-left:0;
-    border:none
+    border:none;
+    width:100%;
   }
   label {
     display:inline

@@ -3,12 +3,6 @@
         <div class='box-lid-icon'></div>
         <sidenav>
             <div class="menu-links">
-            <h4>
-                <%= link_to "Create Classroom", new_classroom_path(@teacher), remote: :true %>
-            </h4>
-            <h4>
-                <%= link_to "Join Classroom", join_classroom_path(@teacher), id: "join_class_btn", remote: :true %>
-            </h4>
             <h4>Classrooms</h4>
             <ul>
                 <% @classrooms.map{|v| [v.id,v.name]}.each do |id, name| %>
@@ -17,8 +11,8 @@
                     </li>
                 <% end %>
             </ul>
-            <h4>Assign Quiz</h4>
-            <ul>
+            <h4 style="display:none;">Assign Quiz</h4>
+            <ul style="display:none;">
                 <li>
                     <%= link_to "All Classrooms", new_quiz_path(type: "all_classes") %>
                 </li>
@@ -34,6 +28,13 @@
             <div class="row-fluid">
                 <%= render 'teacher_info', :teacher => @teacher %>
             </div>
+            <h4>
+                <%= link_to "Join Classroom", join_classroom_path(@teacher), id: "join_class_btn", :class => "button-blue", remote: :true %>
+            </h4>
+            <br>
+            <h4>
+                <%= link_to "Create Classroom", new_classroom_path(@teacher), :class => "button-blue", remote: :true %>
+            </h4>
             <div id="form"></div>
             <div id="classrooms_div")>
                 <% @classrooms.each do |classroom| %>

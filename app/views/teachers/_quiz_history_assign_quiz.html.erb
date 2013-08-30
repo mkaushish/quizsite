@@ -1,5 +1,5 @@
 
-<%@quiz_history = @problem_set.nil? ? []:@classroom.quizzes.where(problem_set_id: @problem_set.id)%>
+<%@quiz_history = @problem_set.nil? ? []:@classroom.quizzes.order("created_at DESC").where(problem_set_id: @problem_set.id)%>
 <ul class='column-list details_quiz_hist'>
 	<li><%= link_to "Create Quiz", new_quiz_path(classroom: @classroom.id, pset: @problem_set.id, type: "single_class") %>
 		for <%= print_ps @problem_set %> 
@@ -10,19 +10,20 @@
 	<% if @quiz_history.empty? %>
 	<li>You haven't assigned any quizzes on this problem set yet</li>
     <% else %>
-	  	<% @quiz_history.each do |quiz| %>
+	  	<% @quiz_history.each_with_index do |quiz, index| %>
+	  	<% index += 1 %>
 	<li class="assign_quiz_form">
 		<div>
-			Quiz from <%= putd quiz.created_at %>
+			<%= link_to "Quiz #{index}", quiz_path(@classroom.id, quiz.id) %>
 		</div>
 		<div>
-			<% if !quiz.for_class(@classroom).assigned? %>
-				<%= link_to quiz.for_class(@classroom).assigned_status, 
+			<%# if !quiz.for_class(@classroom).assigned? %>
+				<%#= link_to quiz.for_class(@classroom).assigned_status,
 							assign_quiz_path(id: @classroom.id, quiz_id: quiz.id), 
 							remote:true %>
-			<% else %>
-			<%= quiz.for_class(@classroom).assigned_status %>
-			<% end %>
+			<%# else %>
+			<%#= quiz.for_class(@classroom).assigned_status %>
+			<%# end %>
 		</div>
 	</li>
 	  	<% end %>

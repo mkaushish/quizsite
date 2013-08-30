@@ -1,12 +1,6 @@
 <div id="main-content" style="text-align:center; font-family:Courier">
     <div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+
     <section id="home" class="clearfix">
         <div class="actual_c">
         <%= render 'shared/home' %>
@@ -60,9 +54,14 @@
         });
     });
 });
+    (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
 </script>
-
-          
 <%#= render :partial => 'shared/log_in' %>
-<%= render :partial => 'shared/register_modal' %>
-<%= render 'users/hidden_registration_forms' %>
+<%#= render :partial => 'shared/register_modal' %>
+<%#= render 'users/hidden_registration_forms' %>

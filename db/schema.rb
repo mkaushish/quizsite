@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130829070805) do
+ActiveRecord::Schema.define(:version => 20130829114806) do
 
   create_table "answers", :force => true do |t|
     t.boolean  "correct"
@@ -61,8 +61,10 @@ ActiveRecord::Schema.define(:version => 20130829070805) do
   end
 
   create_table "classroom_quizzes", :force => true do |t|
-    t.integer "classroom_id"
-    t.integer "quiz_id"
+    t.integer  "classroom_id"
+    t.integer  "quiz_id"
+    t.datetime "starts_at"
+    t.datetime "ends_at"
   end
 
   add_index "classroom_quizzes", ["classroom_id", "quiz_id"], :name => "classroom_quizzes_dual_index", :unique => true

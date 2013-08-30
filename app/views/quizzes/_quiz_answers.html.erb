@@ -1,0 +1,9 @@
+<% answers.each do |answer| %>
+	<%if answer.correct == true%>
+		<li><%= link_to (answer.problem_type.to_s), show_answer_path(id: answer.id, instance: quiz_instance.id), remote: true %><span style="float:right;"><%= image_tag "correct_check.png"%></span>
+		</li>	
+	<% else %>		
+		<li><%= link_to (answer.problem_type.to_s), show_answer_path(id: answer.id, instance: quiz_instance.id), remote: true %><span style="float:right;"><%= image_tag "incorrect_3.png"%></span>
+		</li>
+	<% end %>
+<% end %>

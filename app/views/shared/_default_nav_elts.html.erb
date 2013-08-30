@@ -1,15 +1,10 @@
 <ul>
-  <!--<li><%#= link_to "Home", root_path %></li>
-  <li><%#= link_to "What Is It?", what_is_it_path %></li>
-  <li><%#= link_to "About Us", about_us_path %></li>-->
 </ul>
 
 <ul style="float:right;">
 	<li class=switch-to><%= link_to "LOG IN", "#logIn", "data-toggle"=>"modal" %></li>
 	<li class=switch-to-blue><%= link_to "SIGN UP", "#SignUp", "data-toggle"=>"modal" %></li>
-  	<!-- <li class=switch-to-blue><%#= link_to_function "SIGN UP", "registerStudent();" %></li> -->
 </ul>
 
-<%= render :partial => 'shared/log_in' %>
-<%#= render :partial => 'shared/register_modal' %>
+<%= render 'shared/log_in' %>
 <%= render "users/signup" %>

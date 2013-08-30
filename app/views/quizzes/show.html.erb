@@ -1,0 +1,22 @@
+<h3>Quiz Result</h3>
+<div class="row-fluid">
+	<div class="span6">
+		<table>
+			<% @quiz_result.each do |result| %>
+				<tr>
+					<td><%= link_to result[1], student_path(result[0]) %></td>
+					<% if result[3].nil?%>
+						<td><%= result[2] %></td>
+					<% else %>
+						<td><%= link_to result[2], quiz_answers_path(result[3].to_i, result[0].to_i), remote: :true %></td>
+					<% end %>
+				</tr>
+			<% end %>
+		</table>
+	</div>
+	<div class="span6" id="quiz_answers">
+		<% if defined? @answers %>
+			<%= render "quiz_answers", :answers => @answers, :quiz_instance => @quiz_instance %>
+		<% end %>
+	</div>
+</div>

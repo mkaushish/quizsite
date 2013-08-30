@@ -13,6 +13,7 @@ class QuizInstancesController < ApplicationController
         @quiz = Quiz.find_by_id(@instance.quiz_id)
         @counter = @quiz.quiz_problems.count - @instance.stats_remaining.count
         @instance.start
+        @all_badges = @student.all_badges
         next_problem
     end
 
@@ -30,6 +31,7 @@ class QuizInstancesController < ApplicationController
             @quiz_stats = @instance.quiz_stats.includes(:problem_type)
             @pset = @instance.problem_set
             @problems = @instance.quiz_problems
+            @all_badges = @student.all_badges
             next_problem
         else
             redirect_to pset_path(:name => @pset_instance.problem_set_id), notice: "No Quiz for you"
@@ -46,6 +48,7 @@ class QuizInstancesController < ApplicationController
         return finish_quiz if @instance.over?
         @counter = (params[:c].to_i - 2) if defined? params[:c]
         @counter ||= @quiz.quiz_problems.count - @instance.stats_remaining.count
+        @all_badges = @student.all_badges
         unless @instance.blank?
             @problems = @instance.quiz_problems
             @counter = 0 if @counter <= 0
@@ -88,6 +91,7 @@ class QuizInstancesController < ApplicationController
             @stat ||= @instance.next_stat
             @quiz_stats = @instance.quiz_stats.includes(:problem_type)
             @pset = @instance.problem_set
+            @all_badges = @student.all_badges
             respond_to do |format|
                 format.html { render 'problem' }
                 format.js { render 'do' }
@@ -103,6 +107,7 @@ class QuizInstancesController < ApplicationController
         @instance.finish
         @pset = @instance.problem_set
         @answers = @instance.answers.includes(:problem_type)
+        @all_badges = @student.all_badges
         render 'results'
     end
 
@@ -117,6 +122,7 @@ class QuizInstancesController < ApplicationController
         @stat.update_w_ans!(@answer)
         @counter = @quiz.quiz_problems.count - @instance.stats_remaining.count
         @pset = @instance.problem_set
+        @all_badges = @student.all_badges
         if @instance.over?
             finish_quiz
         else
