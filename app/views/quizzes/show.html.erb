@@ -1,22 +1,24 @@
-<h3>Quiz Result</h3>
 <div class="row-fluid">
-	<div class="span6">
-		<table>
-			<% @quiz_result.each do |result| %>
-				<tr>
-					<td><%= link_to result[1], student_path(result[0]) %></td>
-					<% if result[3].nil?%>
-						<td><%= result[2] %></td>
+    <div class="span4">
+        <div class="dotted-border-header">
+            Student Quiz Progress
+        </div>
+        <div class='dotted-border teacher-details-column'>
+            <ul class='column-list' id="quiz_results">
+   				<% @quiz_result.each do |result| %>
+   					<li><%= link_to result[1], student_path(result[0]) %>
+   					<% if result[3].nil?%>
+						<span class"pull-right"><%= result[2] %></span>
 					<% else %>
-						<td><%= link_to result[2], quiz_answers_path(result[3].to_i, result[0].to_i), remote: :true %></td>
+						<%= link_to result[2], quiz_answers_path(result[3].to_i, result[0].to_i), remote: :true, :class => "pull-right" %>
 					<% end %>
-				</tr>
-			<% end %>
-		</table>
+				<% end %>
+			</ul>
+		</div>
 	</div>
-	<div class="span6" id="quiz_answers">
-		<% if defined? @answers %>
-			<%= render "quiz_answers", :answers => @answers, :quiz_instance => @quiz_instance %>
+	<div class="span4" id="quiz_answers">
+        <% if defined? @answers %>
+        	<%= render "quiz_answers", :answers => @answers, :quiz_instance => @quiz_instance %>
 		<% end %>
 	</div>
 </div>

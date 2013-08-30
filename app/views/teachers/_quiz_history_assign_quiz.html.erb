@@ -1,31 +1,33 @@
-
-<%@quiz_history = @problem_set.nil? ? []:@classroom.quizzes.order("created_at DESC").where(problem_set_id: @problem_set.id)%>
+<% @quiz_history = @problem_set.nil? ? []:@classroom.quizzes.order("created_at DESC").where(problem_set_id: @problem_set.id)%>
 <ul class='column-list details_quiz_hist'>
-	<li><%= link_to "Create Quiz", new_quiz_path(classroom: @classroom.id, pset: @problem_set.id, type: "single_class") %>
+	<li>
+		<%= link_to "Create Quiz", new_quiz_path(classroom: @classroom.id, pset: @problem_set.id, type: "single_class") %>
 		for <%= print_ps @problem_set %> 
 	</li>
-	<li><%= link_to "Create Quiz for #{@classroom.name} with specific students", validate_students_for_classroom_quiz_path(classroom: @classroom.id, pset: @problem_set.id, type: "single_class_specific_students") %>
+	<li>
+		<%= link_to "Create Quiz for #{@classroom.name} with specific students", validate_students_for_classroom_quiz_path(classroom: @classroom.id, pset: @problem_set.id, type: "single_class_specific_students") %>
 		for <%= print_ps @problem_set %> 
 	</li>
 	<% if @quiz_history.empty? %>
-	<li>You haven't assigned any quizzes on this problem set yet</li>
+		<li>You haven't assigned any quizzes on this problem set yet</li>
     <% else %>
+    	<li><%= @classroom.name + " Quizzes" %></li>
 	  	<% @quiz_history.each_with_index do |quiz, index| %>
-	  	<% index += 1 %>
-	<li class="assign_quiz_form">
-		<div>
-			<%= link_to "Quiz #{index}", quiz_path(@classroom.id, quiz.id) %>
-		</div>
-		<div>
-			<%# if !quiz.for_class(@classroom).assigned? %>
-				<%#= link_to quiz.for_class(@classroom).assigned_status,
-							assign_quiz_path(id: @classroom.id, quiz_id: quiz.id), 
-							remote:true %>
-			<%# else %>
-			<%#= quiz.for_class(@classroom).assigned_status %>
-			<%# end %>
-		</div>
-	</li>
+	  		<% index += 1 %>
+	  		<li class="assign_quiz_form">
+				<div>
+					<%= link_to "Quiz #{index}", quiz_path(@classroom.id, quiz.id) %>
+				</div>
+				<div>
+					<%# if !quiz.for_class(@classroom).assigned? %>
+						<%#= link_to quiz.for_class(@classroom).assigned_status,
+								assign_quiz_path(id: @classroom.id, quiz_id: quiz.id), 
+								remote:true %>
+					<%# else %>
+					<%#= quiz.for_class(@classroom).assigned_status %>
+					<%# end %>
+				</div>
+			</li>
 	  	<% end %>
 	<% end %>
 </ul>
