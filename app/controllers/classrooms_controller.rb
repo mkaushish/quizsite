@@ -8,6 +8,9 @@ class ClassroomsController < ApplicationController
     @sg_psets = ProblemSet.master_sets
     @my_psets = current_user.problem_sets
     @assigned_problem_sets = @classroom.assigned_problem_sets
+    respond_to do |format|
+      format.html
+    end
   end
 
   def show_quizzes

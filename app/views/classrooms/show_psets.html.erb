@@ -8,10 +8,10 @@
       <% @sg_psets.each do |pset| %>
         <li><%= pset.name %>
             <% if @assigned_problem_sets.include? pset.id and !@assigned_problem_sets.blank? %>
-              <%= link_to "Assigned", "#", :class => "button-blue pull-right", :remote => true %>
+              <%= link_to "Assigned", "#", :class => "btn btn-inverse pull-right", :remote => true %>
             <% else %>
               <%= link_to "Assign", assign_pset_path(id: @classroom.id, pset_id: pset.id), 
-                  :class => "button-blue pull-right", :remote => true %>              
+                  :class => "btn pull-right", :remote => true %>              
             <% end %>
         </li>
       <% end %>
