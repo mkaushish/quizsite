@@ -108,7 +108,8 @@
   get '/quiz_for_all_classes/:quiz',          to: 'quizzes#assign_quiz_to_classrooms', as: :assign_quiz_to_classrooms
     
   # post ':classroom/assign_quiz/:id',        to: 'quizzes#assign', as: :assign_quiz
-  get '/:classroom/:pset/show',               to: 'quizzes#show', as: :quiz
+  get '/classrooms/:classroom/quizzes/:quiz_id',               to: 'quizzes#show', as: :quiz
+  get '/quizzes/:quiz_instance/student/:student_id',               to: 'quizzes#quiz_answers', as: :quiz_answers
   post '/:classroom/:quiz/assign'
 
   # classroom
@@ -151,7 +152,7 @@
   # get '/notepad',       :to => 'pages#notepad'
   # get '/measure',       :to => 'pages#measure'
 
-  # match '/nologinhome_3dbfabcacc12868a282be76f5d59a19813', :to => 'pages#nologinhome'
+
   root to: 'pages#home'
 
 end

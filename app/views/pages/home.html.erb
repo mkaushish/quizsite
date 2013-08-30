@@ -1,16 +1,19 @@
 <div id="main-content" style="text-align:center; font-family:Courier">
     <div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+
     <section id="home" class="clearfix">
         <div class="actual_c">
         <%= render 'shared/home' %>
         </div>
+        <div id="walkthrough">
+            <div id="type-modal" style="display:none;">
+                <p class="tooltipTitle">Walkthrough Type Modal</p>
+                <p>Each step has numerous configuration options to fine-tune its position and appearance.  This step demonstrates the "modal" option which doesn't highlight any part of the page.system for designing interactive, multimedia, educational walkthroughs.</p>
+                <br>
+                <a href="javascript:;" class="next-step" style="float:right;">Next Step</a>
+            </div>
+        </div>
+
     </section>
     <section id="how_it_helps" class="clearfix">
         <div class="actual_c">
@@ -48,21 +51,66 @@
         e.preventDefault();
         $(this).tab('show');
     });
+
     $(document).ready(function(){
-    $('footer a[href^="#"]').on('click',function (e) {
-        e.preventDefault();
-        var target = this.hash,
-        $target = $(target);
-        $('html, body').stop().animate({
-            'scrollTop': $target.offset().top
-        }, 900, 'swing', function () {
-            window.location.hash = target;
+        $('footer a[href^="#"]').on('click',function (e) {
+            e.preventDefault();
+            var target = this.hash,
+            $target = $(target);
+            $('html, body').stop().animate({
+                'scrollTop': $target.offset().top
+            }, 900, 'swing', function () {
+                window.location.hash = target;
+            });
+        });
+
+        $('#walkthrough').pagewalkthrough({
+            steps: [
+
+                {
+                    wrapper: '', //an ID of page element HTML that you want to highlight
+                    margin: 0, //margin for highlighted area, may use CSS syntax i,e: '10px 20px 5px 30px' or '20px 20px' and so on
+                    popup:
+                        {
+                          content: '#type-modal', //ID content of the walkthrough
+                          type: 'modal', //tooltip, modal, nohighlight
+                          position:'top',//position for tooltip and nohighlight type only: top, right, bottom, left
+                          offsetHorizontal: 0, //horizontal offset for the walkthrough
+                          offsetVertical: 0, //vertical offset for the walkthrough
+                          width: '320', //default width for each step,
+                          draggable: false, // set true to set walkthrough draggable,
+                          contentRotation: 0 //content rotation : i.e: 0, 90, 180, 270 or whatever value you add. minus sign (-) will be CCW direction
+                       },          
+                    overlay: true, //use overlay or not, default: true   
+                    accessable: false, //if true - you can access html element such as form input field, button etc
+                    autoScroll: true, //is true - this will autoscroll to the arror/content every step 
+                    scrollSpeed: 1000, //scroll speed
+                    stayFocus: false, //if true - when user scroll down/up to the page, it will scroll back the position it belongs
+                    onLeave: null, // callback when leaving the step
+                    onEnter: null // callback when entering the step
+                }
+            ],
+        name: 'Walkthrough',
+        onLoad: true, //load the walkthrough at first time page loaded
+        onBeforeShow: null, //callback before page walkthrough loaded
+        onAfterShow: null, // callback after page walkthrough loaded
+        onRestart: null, //callback for onRestart walkthrough
+        onClose: null, //callback page walkthrough closed
+        onCookieLoad: null //when walkthrough closed, it will set cookie and tells the walkthrough to not load automaticly
+        
         });
     });
-});
-</script>
 
-          
+    (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+
+</script>
 <%#= render :partial => 'shared/log_in' %>
 <%#= render :partial => 'shared/register_modal' %>
 <%#= render 'users/hidden_registration_forms' %>
+  

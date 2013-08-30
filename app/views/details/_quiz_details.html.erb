@@ -1,16 +1,6 @@
 <div class=row-fluid>
+  <%= render "teachers/forms/details_problem_set_form", :type => "quizzes" %>
   <div>
-    <div class=dotted-border>
-      <ul class="column-list" style="border:none">
-        <% @problem_sets.order("id ASC").each do |pset| %>
-        <li>
-          <%=link_to pset.name, details_path(@classroom.id, type: "quizzes", problem_set_id: pset), remote: :true %>
-        </li>
-        <% end %>
-      </ul>
-    </div>
-  </div>
-  <div class=span8>
     <div class=dotted-border-header>
       Quizzes
     </div>

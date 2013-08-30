@@ -1,0 +1,59 @@
+<div class="row-fluid">
+    <%= render 'teachers/teacher_info', :teacher => @teacher %>
+</div>
+<div class="row-fluid">
+    <ul class="breadcrumb">
+        <li>
+            <b><%= @classroom.name %></b> 
+            <span class="divider">&amp;</span>
+        </li>
+        <li>
+            <b><%= @problem_set.name %></b> 
+            <span class="divider">&amp;</span>
+        </li>
+        <li class="active">
+            New Quiz
+            <span class="divider">&amp;</span>
+        </li>
+    </ul>
+</div>
+<div id="quiz_problems_message" class="teacher-details-header" style="margin-bottom:5px;"></div>
+<div class="row-fluid">
+    <div class="span4">
+        <div class="dotted-border-header">
+            Problems
+        </div>
+        <div class='dotted-border teacher-details-column'>
+            <ul class='column-list' id="quiz_problems_tabs">
+                <% @problem_set.problem_types.each do |ptype| %>
+                    <% unless ptype.nil? %>
+                        <li><%= ptype.to_s %>
+                            <%= link_to "Add to Quiz",  partial_create_quiz_path(ptype: ptype, quiz: @quiz.id, pset: @problem_set, classroom: @classroom, type: "single_class"), :class => "pull-right", method: :post, remote: :true %>
+                        </li>
+                    <% end %>                        
+                <% end %>      
+            </ul>
+        </div>
+    </div>
+    <div class="span8">
+        <div class="dotted-border-header">
+            Selected Problems 
+        </div>
+        <div class="dotted-border pull-right">
+            <%= link_to "Done", details_path(@classroom.id), :class => "button-blue" %>
+        </div>
+        <div class='dotted-border teacher-details-column'>
+            <div id="qp">
+                <ul class='column-list' id="quiz_problems">
+                    <% if !@quiz_problems.blank? %>
+                        <% @quiz_problems.each do |quiz_problem| %>
+                          <%= render "quiz_problem", :quiz_problem => quiz_problem %>
+                        <% end %>
+                    <% else %>
+                        <p id="no_qp_msg"><%= "No Problem is Selected Yet!" %></p>
+                    <% end %>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

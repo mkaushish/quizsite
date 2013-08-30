@@ -44,16 +44,6 @@ class PagesController < ApplicationController
     @nav_selected = "features"
   end
 
-    def nologinhome
-        if signed_in?
-            redirect_to studenthome_path
-        else
-            @fastnav = true
-            @nav_selected = "home"
-            @fakesignin = true
-        end
-    end
-
     def graph
         @title = "Graph"
         @nav_selected = "features"
