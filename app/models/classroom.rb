@@ -43,6 +43,10 @@ class Classroom < ActiveRecord::Base
         end
     end
 
+    def assigned_problem_sets
+        self.classroom_problem_sets.pluck(:problem_set_id)
+    end
+
     def assign_quiz(quiz)
         classroom_quizzes.create :quiz => quiz
         pset = problem_sets.where(:id => quiz.problem_set_id).first

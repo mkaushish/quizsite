@@ -7,6 +7,7 @@ class ClassroomsController < ApplicationController
     @classroom = Classroom.find(params[:id])
     @sg_psets = ProblemSet.master_sets
     @my_psets = current_user.problem_sets
+    @assigned_problem_sets = @classroom.assigned_problem_sets
   end
 
   def show_quizzes
