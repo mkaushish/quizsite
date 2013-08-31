@@ -28,12 +28,17 @@ class StudentsController < ApplicationController
     end
     
     def show
-        @problem_sets = @student.problem_sets.order("id ASC").includes(:problem_types)
         if current_user.is_a? Teacher
+            @problem_sets = @student.problem_sets.order("id ASC").includes(:problem_types)
             respond_to do |format|
                 format.js
             end
         end
+    end
+    def progress
+        @student=Student.find_by_id(params[:id])
+        @problem_sets = @student.problem_sets.order("id ASC").includes(:problem_types)
+        @tab = 'progress'
     end
 
     def new

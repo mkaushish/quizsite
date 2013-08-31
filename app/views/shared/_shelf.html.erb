@@ -65,9 +65,7 @@
                     <%= link_to (render  'students/badge_count', :@shape => 5), student_badges_path(@student.id, :shape => 5), :class => "plate" %>
                 </div>
             </li>
-            <% if @instance.nil? %>
             <li class='shelf_li'><a href="javascript:;" id="open-walkthrough"><img src='/assets/Help.png'/></a></li>      
-            <%end%>
         </ul>
     </div>
     <div id="badgeModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">

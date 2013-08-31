@@ -3,7 +3,9 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 
-form { position:relative }
+form { position:relative;
+margin-left: 10px;
+margin-right:10px;}
 span.select {
   border:1px solid gray;
   position:absolute;

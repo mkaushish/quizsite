@@ -1,16 +1,19 @@
-<div class="tabbable">
-<ul class="nav nav-tabs">
-  	<li class="<%= 'active' if @tab=='profile' || @tab==nil || @tab=='' %>">
-    	<%= link_to "Profile", student_path() %>
-  	</li>
-  	<li class="<%= 'active' if @tab=='badges'%>">
-    	<%= link_to "Badges", student_badges_path() %>
+<div class="navbar" style='margin-bottom:0px;'>
+  <div class="navbar-inner" style="height:40px; border-radius:0px; -webkit-border-radius:0px;">
+    <a class="brand" style='font-family:Courier'><%=@student.name %></a>
+    <ul class="nav">
+     <li class="<%= 'active' if @tab=='profile' || @tab==nil || @tab=='' %>">
+       <%= link_to "Profile", student_path(@student.id) %>
+     </li>
+     <li class="<%= 'active' if @tab=='badges'%>">
+       <%= link_to "Badges", student_badges_path() %>
+     </li>
+     <li class="<%= 'active' if @tab=='progress'%>">
+      <%= link_to 'History', progress_student_path(@student.id)%>
     </li>
-  	<li class="<%= 'active' if @tab=='graphs'%>">
+    <li class="<%= 'active' if @tab=='graphs'%>">
     	<%= link_to "Graphs", chart_student_path() %>
-  	</li>
-  	<li class="<%= 'active' if @tab=='progress'%>">
-    	<a>Progress</a>
-  	</li>
+    </li>
   </ul>
+</div>
 </div>

@@ -6,4 +6,5 @@
 	<% else %>
 	<%= render :partial => 'history_ans', :collection => @history, :as => :answer%>
 	<% end %>
+	<li><%= link_to 'Click for Detailed History', progress_student_path(@student.id) %></li>
 </ul>

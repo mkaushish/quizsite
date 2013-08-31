@@ -2,7 +2,7 @@
     <% @all_badges.each do |badge| %>
        <tr>
            <td>
-                <p>
+                <p class='<%= "not_got_badge" if !@student_badges.pluck(:name).include? badge[1] %>' style='font-family:Courier'>
                     <% case @shape %>
                         <% when "1" %>
                             <%= image_tag "tetrahedron.png", :size => "20x20" %>
@@ -15,12 +15,7 @@
                         <% when "5" %>
                             <%= image_tag "icosahedron.png", :size => "20x20" %>        
                     <% end %>
-                    
-                    <% if @student_badges.pluck(:name).include? badge[1] %>
-                        <%= badge[1] %><%= " You Got this Badge" %>
-                    <% else %>
-                        <%= badge[1] %><%= " You haven't got this Badge" %>
-                    <% end %>   
+                    <%= badge[1] %> 
                 </p>
             </td>
         </tr>

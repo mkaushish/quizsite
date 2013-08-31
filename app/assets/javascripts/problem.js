@@ -1,11 +1,13 @@
 function hideProblem() {
-  $('#dimmer').unbind('click');
+  /*$('#dimmer').unbind('click');
 
   $('#problem_overlay').hide();
   $("body").css("overflow", "scroll");
   // $('#dimmer').hide();
   $('#dimmer').remove();
-    $("body").css("overflow", "scroll");
+    $("body").css("overflow", "scroll");*/
+  $('#pr_dim').hide();
+  $("body").css("overflow", "scroll");
 
   return false;
 }
@@ -15,28 +17,32 @@ function closeWithDimmer(overlay) {
   if(dimmer.length > 0) {
     dimmer.remove();
   }
-  $('body').prepend("<div id=dimmer onclick='hideProblem();'></div>");
+  //$('body').prepend("<div id=dimmer onclick='hideProblem();'></div>");
   $('#dimmer').show();
   // $('#dimmer').click(hideProblem);
 }
 
 function initProblemOverlay() {
+  var dimmer = $('#dimmer');
+  if($('#pr_dim').length == 0){
+    $('body').prepend("<div id=pr_dim></div>");
+  }
+  if(dimmer.length == 0) {
+    
+    $('#pr_dim').prepend("<div id=dimmer onclick='hideProblem();'></div>");
+    dimmer = $('#dimmer');
+  }
   var $p = $('#problem_overlay');
   // console.log("found " + $p);
   if($p.length == 0){
-   $('body').prepend("<div id=problem_overlay class=problem_overlay></div>");
+   $('#pr_dim').append("<div id=problem_overlay class=problem_overlay></div>");
    $p = $('#problem_overlay');
   }
   $("body").css("overflow", "hidden");
-
-  var dimmer = $('#dimmer');
-  if(dimmer.length == 0) {
-    $('body').prepend("<div id=dimmer></div>");
-    dimmer = $('#dimmer');
-  }
-
+  $('#pr_dim').show();
+  dimmer.show();
   $p.show();
-  closeWithDimmer();
+  //closeWithDimmer();
   return $p;
 }
 function bclr_pset(){

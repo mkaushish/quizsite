@@ -1,33 +1,7 @@
 <%= render 'profile_menu', :@tab => 'graphs' %>
 <div class = "row-fluid">
-  <div class="span4">
-    <!-- <div class="dotted-border-header">
-        Chapters
-    </div> -->
-    <!-- <div class='dotted-border teacher-details-column'>
-        <ul class='column-list' id="chapter_tabs" style="width:100%; height:500px;">
-       <%# @problem_sets.each do |pset| %>
-            <li><%#= link_to pset.name, chart_student_pset_path(@student.id,pset), :remote => :true %></li>
-        <%# end %>
-        </ul>
-    </div>
-  </div> -->
 
-  <!-- Percentage of correct answers by weekly -->
-  <div id="chart_div" style="width: 900px; height: 500px;"><%= render "shared/google_visual_linechart", :array => @chart_data_1, :div => "chart_div", :title => "Student Performance" %></div>
-  <!-- chart end -->
-
-  <!-- Percentage of wrong answers by Chapter -->
-  <div id="chart_div_2" style="width: 900px; height: 500px;"><%= render 'shared/google_visual_piechart', :array => @chart_data_2, :div => "chart_div_2", :title => "Percentage of wrong answers to the chapter" %></div>
-  <!-- chart end -->
-
-  <!-- Student performance chart by each problem set correct percentage -->
-  <div id="chart_div_3" style="width: 900px; height: 500px;"><%= render "shared/google_visual_barchart", :array => @chart_data_3, :div => "chart_div_3", :title => "Student Performance", :vAxis_title => "Problem Types" %></div>
-  <!-- Chart ends -->
-
-  <!-- Questions done in the particular week -->
-  <div id="chart_div_4" style="width: 900px; height: 500px;"><%= render 'shared/google_visual_linechart', :array => @chart_data_4, :div => "chart_div_4", :title => "Student Performance" %></div>
-  <!-- Chart ends -->
+<p> Coming Soon !!!! </p>
 
 </div>
 

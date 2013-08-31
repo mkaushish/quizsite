@@ -35,7 +35,7 @@ function setNavLineWidths() {
   });
 }
 function dbord(pname){
-  if($(".container").width() < 700){
+  if($(".container").width() <= 722){
     $(".dotted-border").css("width", ($(".container").width()-22)+"px");
     $(".dotted-border").css("height","auto");
   }
@@ -46,7 +46,7 @@ function dbord(pname){
   if(pname=="pset"){shelf_color();}
   else{shelf_color_in(pname[0], pname[1], pname[2]);}
   $(window).resize(function(){
-  if($(".container").width() < 700){
+  if($(".container").width() <= 722){
     $(".dotted-border").css("width", ($(".container").width()-22)+"px");
     $(".dotted-border").css("height","auto");
   }
@@ -74,8 +74,8 @@ function logoutb(){
 }
 function shelf_do(){
   if(/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)){
-    $("body").css("width", "454px");
-    $("body").css("zoom", ""+($(window).width()/454));
+    $("body").css("width", "457px");
+    $("body").css("zoom", ""+($(window).width()/457));
   }
   wdt=$(".container").width();
 lis="";
@@ -97,8 +97,8 @@ lis="";
   wdt=$(".container").width();
 $(window).resize(function(){
   if(/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)){
-    $("body").css("width", "454px");
-    $("body").css("zoom", ""+($(window).width()/454));
+    $("body").css("width", "457px");
+    $("body").css("zoom", ""+($(window).width()/457));
   }
   lisob=$(".shelf ul li");
 
