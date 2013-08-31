@@ -15,6 +15,9 @@ class ProblemSet < ActiveRecord::Base
   has_many :classrooms, :through => :classroom_problem_sets
   has_many :quizzes
 
+  validate :name, :presence => true,
+                  :uniqueness => true
+
   accepts_nested_attributes_for :problem_set_problems, :allow_destroy => true
 
   before_validation :parse_ptype_params

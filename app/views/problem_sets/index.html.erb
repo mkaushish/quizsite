@@ -1,0 +1,28 @@
+<div class="row-fluid">
+  <%= link_to "Create Problem Set", "#", :class => "btn pull-right", :remote => true %>              
+</div>
+<div class="row-fluid">
+  <div class="span6">
+    <ul class="column-list overlay_list">
+      <li class="list-header">SmarterGrades Sets</li>
+      <% @sg_problem_sets.each do |problem_set| %>
+        <li><%= problem_set.name %>
+              <%= link_to "View Problem Types", "#", :class => "btn pull-right", :remote => true %>              
+        </li>
+      <% end %>
+    </ul>
+  </div>
+  <div class="span6">
+    <ul class="column-list overlay_list">
+      <li class="list-header">My Problem Sets</li>
+      <% unless @my_problem_sets.blank? %>
+        <% @my_problem_sets.each do |pset| %>
+          <li><%= problem_set.name %>
+            <%= link_to "View Problem Types", "#", :class => "btn pull-right", :remote => true %>
+            <%= link_to "Edit Problem Set", "#", :class => "btn pull-right", :remote => true %>              
+          </li>
+        <% end %>
+      <% end %>
+    </ul>
+  </div>
+</div>

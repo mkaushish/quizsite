@@ -35,6 +35,15 @@
             <h4>
                 <%= link_to "Create Classroom", new_classroom_path(@teacher), :class => "button-blue", remote: :true %>
             </h4>
+            <br>
+            <h4>
+                <%= link_to "Create Problem Set", "#", :class => "button-blue" %>
+            </h4>
+            <br>
+            <h4>
+                <%= link_to "My Problem Sets", problem_sets_path(@teacher), :class => "button-blue" %>
+            </h4>
+            
             <div id="form"></div>
             <div id="classrooms_div")>
                 <% @classrooms.each do |classroom| %>

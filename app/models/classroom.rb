@@ -149,7 +149,12 @@ class Classroom < ActiveRecord::Base
             answers_stats = student.total_correct_wrong_answers
             total_answers = answers_stats[0]
             correct_answers = answers_stats[1]
-            result.push [student.id, student.name, (percentage(correct_answers, total_answers)).round(4).to_f]
+            marks = (percentage(correct_answers, total_answers)).to_f
+            unless marks.blank?
+                result.push [student.id, student.name, marks.round(4)]
+            else
+                result.push [student.id, student.name, marks]
+            end
         end
         result.sort!{ |x,y| x[2] <=> y[2] }
         return result.first(n)

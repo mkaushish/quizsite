@@ -3,9 +3,37 @@ class ProblemSetsController < ApplicationController
     before_filter :authenticate, :except => [:show, :view]
     before_filter :authenticate_admin, :only => [:edit_pset, :update_pset]
     before_filter :validate_problem_set, :only => [:update, :create, :clone, :assign_to_class, :view, :edit_pset, :update_pset] 
+    before_filter :validate_teacher, :only => [:index]
 
+    def index
+        @my_problem_sets =ProblemSet.where("user_id = ?", @teacher.id)
+        @sg_problem_sets = ProblemSet.master_sets_with_ptypes
+        respond_to do |format|
+            format.html
+        end
+    end
+    
     def show
         @problem_set = ProblemSet.includes(:problem_types).find(params[:id])
+    end
+
+    def new
+        @chapters = ProblemSet.master_sets_with_ptypes
+        @problem_set = ProblemSet.includes(:problem_types).find(params[:id])
+        @problem_types = @problem_set.problem_types
+
+        # figure out the chapter that is starting out open in the tabs
+        @open_chapter = nil
+        @chapters.each do |chapter|
+            chapter.problem_types.each do |ptype|
+                if ptype.id == @problem_types.first.id
+                    @open_chapter = chapter
+                end
+            end
+            break if @open_chapter
+        end
+
+        @ptypes_hash = @problem_set.ptypes_hash
     end
 
     def edit
@@ -74,8 +102,13 @@ class ProblemSetsController < ApplicationController
         end
     end
 
+    private
     # Filter for validating Problem Set #
     def validate_problem_set
         @problem_set = ProblemSet.find(params[:id]) 
+    end
+
+    def validate_teacher
+        @teacher = Teacher.find_by_id(params[:id])
     end
 end
