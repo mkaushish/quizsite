@@ -3,7 +3,7 @@ class ProblemSetsController < ApplicationController
     before_filter :authenticate, :except => [:show, :view]
     before_filter :authenticate_admin, :only => [:edit_pset, :update_pset]
     before_filter :validate_problem_set, :only => [:update, :create, :clone, :assign_to_class, :view, :edit_pset, :update_pset] 
-    before_filter :validate_teacher, :only => [:index]
+    before_filter :validate_teacher, :only => [:index, :new]
 
     def index
         @my_problem_sets =ProblemSet.where("user_id = ?", @teacher.id)
@@ -19,20 +19,13 @@ class ProblemSetsController < ApplicationController
 
     def new
         @chapters = ProblemSet.master_sets_with_ptypes
-        @problem_set = ProblemSet.includes(:problem_types).find(params[:id])
+        
+        @problem_set = @teacher.problem_sets.new
         @problem_types = @problem_set.problem_types
-
+        
         # figure out the chapter that is starting out open in the tabs
-        @open_chapter = nil
-        @chapters.each do |chapter|
-            chapter.problem_types.each do |ptype|
-                if ptype.id == @problem_types.first.id
-                    @open_chapter = chapter
-                end
-            end
-            break if @open_chapter
-        end
-
+        @open_chapter = @chapters.first
+        
         @ptypes_hash = @problem_set.ptypes_hash
     end
 

@@ -32,7 +32,8 @@ Quizsite::Application.routes.draw do
   match '/register',                          to: 'users#register', as: :register
 
   get '/problems/:id',                        to: 'problems#show', as: :problem
- get 'teacher/:id/problem_sets',              to: 'problem_sets#index', as: :problem_sets
+  get 'teacher/:id/problem_sets',             to: 'problem_sets#index', as: :problem_sets
+  get 'teacher/:id/problem_sets/new',             to: 'problem_sets#new', as: :new_problem_set
  
   get '/problem_set/:id',                     to: 'problem_sets#view', as: :view_problem_set
   get '/problem_sets/:id/edit_pset',          to: 'problem_sets#edit_pset'
