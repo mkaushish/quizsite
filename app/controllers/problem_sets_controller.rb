@@ -2,8 +2,8 @@ class ProblemSetsController < ApplicationController
     
     before_filter :authenticate, :except => [:show, :view]
     before_filter :authenticate_admin, :only => [:edit_pset, :update_pset]
-    before_filter :validate_problem_set, :only => [:update, :create, :clone, :assign_to_class, :view, :edit_pset, :update_pset] 
-    before_filter :validate_teacher, :only => [:index, :new]
+    before_filter :validate_problem_set, :only => [:update, :clone, :assign_to_class, :view, :edit_pset, :update_pset] 
+    before_filter :validate_teacher, :only => [:index, :new, :create, :edit, :update]
 
     def index
         @my_problem_sets =ProblemSet.where("user_id = ?", @teacher.id)
@@ -19,27 +19,38 @@ class ProblemSetsController < ApplicationController
 
     def new
         @chapters = ProblemSet.master_sets_with_ptypes
-        
         @problem_set = @teacher.problem_sets.new
         @problem_types = @problem_set.problem_types
-        
-        # figure out the chapter that is starting out open in the tabs
         @open_chapter = @chapters.first
-        
         @ptypes_hash = @problem_set.ptypes_hash
+    end
+
+    def create
+        @problem_set = @teacher.problem_sets.create(params[:problem_set])
+        @problem_set.name = params[:problem_set][:name] 
+        @problem_set.problem_types = ProblemType.where(:id => params[:problem_types].keys) if defined? params[:problem_types]
+        respond_to do |format|
+            if @problem_set.save
+                format.html { redirect_to problem_sets_path(@teacher) }
+            else
+                format.html { render action: "new" }
+            end
+        end
     end
 
     def edit
         @chapters = ProblemSet.master_sets_with_ptypes
         @problem_set = ProblemSet.includes(:problem_types).find(params[:id])
         @problem_types = @problem_set.problem_types
-
-        # figure out the chapter that is starting out open in the tabs
         @open_chapter = nil
         @chapters.each do |chapter|
             chapter.problem_types.each do |ptype|
-                if ptype.id == @problem_types.first.id
-                    @open_chapter = chapter
+                unless @problem_types.blank?
+                    if ptype.id == @problem_types.first.id
+                        @open_chapter = chapter
+                    end
+                else
+                    @open_chapter = @chapters.first
                 end
             end
             break if @open_chapter
@@ -53,8 +64,8 @@ class ProblemSetsController < ApplicationController
     end
 
     def update
-        if @problem_set.owner != current_user
-            @problem_set = @problem_set.clone_for(current_user)
+        if @problem_set.owner != @teacher
+            @problem_set = @problem_set.clone_for(@teacher)
         end
 
         @problem_set.name = params[:problem_set][:name]
@@ -62,14 +73,10 @@ class ProblemSetsController < ApplicationController
 
         if @problem_set.save
             # TODO make this somehow track the classroom/possibly assign the problem set
-            back_link = details_path
-            render 'show'
+            redirect_to problem_sets_path(@teacher)
         else
             render 'edit'
         end
-    end
-
-    def create
     end
 
     def clone
@@ -102,6 +109,6 @@ class ProblemSetsController < ApplicationController
     end
 
     def validate_teacher
-        @teacher = Teacher.find_by_id(params[:id])
+        @teacher = Teacher.find_by_id(params[:teacher_id])
     end
 end

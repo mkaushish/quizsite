@@ -1,13 +1,14 @@
 Quizsite::Application.routes.draw do
 
   resources :badges
-  resources :problem_sets, only: [:show, :edit, :create, :update, :destroy]
+  resources :problem_sets, only: [:show, :destroy]
   resources :custom_problems, except: [:index]
   resources :users do
     member do
       post 'change_password'
     end
   end
+
   match "/auth/:provider/callback" => "users#create_user_vdp"
 
   get 'users/signup',                         to: 'users#signup', as: :signup_form
@@ -32,9 +33,12 @@ Quizsite::Application.routes.draw do
   match '/register',                          to: 'users#register', as: :register
 
   get '/problems/:id',                        to: 'problems#show', as: :problem
-  get 'teacher/:id/problem_sets',             to: 'problem_sets#index', as: :problem_sets
-  get 'teacher/:id/problem_sets/new',             to: 'problem_sets#new', as: :new_problem_set
- 
+  get  'teacher/:teacher_id/problem_sets',           to: 'problem_sets#index', as: :problem_sets
+  get  'teacher/:teacher_id/problem_sets/new',       to: 'problem_sets#new', as: :new_problem_set
+  post 'teacher/:teacher_id/problem_sets',           to: 'problem_sets#create', as: :teacher_problem_sets
+  get  'teacher/:teacher_id/problem_sets/:id/edit',  to: 'problem_sets#edit', as: :edit_teacher_problem_set
+  put  'teacher/:teacher_id/problem_sets/:id',       to: 'problem_sets#update', as: :teacher_problem_set
+
   get '/problem_set/:id',                     to: 'problem_sets#view', as: :view_problem_set
   get '/problem_sets/:id/edit_pset',          to: 'problem_sets#edit_pset'
   put '/problem_sets/update_pset/:id',        to: 'problem_sets#update_pset', as: :update_pset_info
@@ -53,7 +57,6 @@ Quizsite::Application.routes.draw do
   get '/student/notifications',               to: 'students#notifications', :as => :notifications_student
   put '/students/:id/update',                 to: 'students#update', :as => :update_student
   get '/students/:id',                        to: 'students#show', :as => :student
-  get '/students/:id/progress',                        to: 'students#progress', :as => :progress_student
   get "/students/:id/bagdes",                 to: 'students#badges', :as => :student_badges
   get "/students/:id/notifications",          to: 'students#notifications', :as => :student_notifications
   get '/students/:id/chart',                  to: 'students#chart', :as => :chart_student

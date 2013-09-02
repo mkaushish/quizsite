@@ -7,7 +7,7 @@
     </ul>
   </div>
 <% end %>
-<%= form_for @problem_set  do |f| %>
+<%= form_for [@teacher, @problem_set], method: :put  do |f| %>
 <div class=row>
   <div class=span4>
     <div class=dotted-border-header>
@@ -25,7 +25,7 @@
   <div class="span8">
     <div class="row-fluid teacher-details-header inline-form" style="margin-bottom:5px;">
       Problem Set Name: <%= f.text_field :name %>
-      <%= f.submit "Create", :class => "button-blue pull-right", :style => "margin-top:0;" %>
+      <%= f.submit "Update", :class => "button-blue pull-right", :style => "margin-top:0;" %>
     </div>
     <div class=tab-content>
       <% @chapters.each do |chapter| %>
