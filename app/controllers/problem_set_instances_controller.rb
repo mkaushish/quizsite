@@ -83,7 +83,7 @@ class ProblemSetInstancesController < ApplicationController
         @solution = @problem.prefix_solve
         @response = @answer.response_hash
         @changedPoints = @answer.points
-        @student.create_badges
+        @student.create_badges(@instance.problem_set, @stat.problem_type.id)
         @all_badges = @student.all_badges
         render 'show_answer', locals: {callback: 'problem_set_instances/finish_problem'}
     end

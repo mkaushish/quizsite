@@ -63,8 +63,8 @@ class Student < User
         end
     end
 
-    def create_badges
-        Badge.get_badges(self)
+    def create_badges(pset, ptype)
+        Badge.get_badges(self, pset, ptype)
     end
 
     def all_badges

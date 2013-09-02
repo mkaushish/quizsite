@@ -1,3 +1,4 @@
+
 <% if(@stat.color_status!="green") %>
 <%= render "problem_set_instances/progress_bar/yellow" %>
 <% else %>
@@ -26,3 +27,8 @@
   <%= render 'problems/side_notepad' %>
 </div>
 <% end %>
+<script>
+	$('#submit_pr').click(function(){
+		$("#problem_overlay").prepend("<img id='load' src='/assets/loading86.gif' />");
+	});
+</script>

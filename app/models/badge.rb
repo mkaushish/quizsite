@@ -9,7 +9,7 @@ class Badge < ActiveRecord::Base
   	# 4		  => 20000	#
   	# 5 	  => 50000  #
 
-	def self.get_badges(student)
+   def self.get_badges(student, pset, ptype)
         #Badge.create_all_fake_badges(student)
         result = student.problem_set_instances_num_problem_problem_stats_blue
         unless result.blank?
@@ -30,39 +30,48 @@ class Badge < ActiveRecord::Base
             Badge.BadgeNQCIARFNT(student, answers_correct, 10, 10)  #[LEVEL 3]#
             Badge.BadgeNQCIARFNT(student, answers_correct, 10, 15)  #[LEVEL 3]#
         end
+        if ptype.nil?
+            unless answers_correct_with_problem_type.blank?
+                Badge.BadgePTTQCIARFTO(student, answers_correct_with_problem_type, 5)
+            end
 
-        unless answers_correct_with_problem_type.blank?
-            Badge.BadgePTTQCIARFTO(student, answers_correct_with_problem_type, 5)
-        end
-
-        problem_types_name = student.problem_types_blue_name
-        unless problem_types_name.blank?
-            Badge.BadgePTB(student, problem_types_name) #[LEVEL 1]#    
+            problem_types_name = student.problem_types_blue_name
+            unless problem_types_name.blank?
+                Badge.BadgePTB(student, problem_types_name) #[LEVEL 1]#    
+            end
+        else
+            pty=ProblemType.find_by_id(ptype)
+            Badge.BadgePTTQCIARFTO_1(student, answers_correct_with_problem_type.select{|v| v==ptype}, 5, pty)
+            Badge.BadgePTB_1(student, pty) #[LEVEL 1]#    
         end
     end
 
     def self.all_badges(student)
-        @badges=[]
-        student.problem_sets.each do |pset|
-            @badges.push(["Badge" + pset.name + "B", "#{pset.name} Problem Set Blue", 3])
+        badge_1=[]
+        badge_2=[]
+        badge_3=[]
+        badge_4=[]
+        badge_5=[]
+        student.problem_sets.order('id ASC').each do |pset|
+            badge_3.push(["Badge" + pset.name + "B", "#{pset.name} Problem Set Blue", 3])
 
-            pset.problem_types.each do |ptype|
-                @badges.push(["Badge" + ptype.name + "B", "#{ptype.name} Problem Type Blue", 1])
-                @badges.push(["Badge" + ptype.name + "TQC", "10 Questions Correct in a Row for the First Time of #{ptype.name}", 2])         
+            pset.problem_types.order('id ASC').each do |ptype|
+                badge_1.push(["Badge" + ptype.name + "B", "#{ptype.name} Problem Type Blue", 1])
+                badge_2.push(["Badge" + ptype.name + "TQC", "5 Questions Correct in a Row for the First Time of #{ptype.name}", 2])         
         
             end
         end
         # @badges += [["BadgeCAPSWAD", "Problem Set Completed Within a Day", 2],["BadgeTRQC", "10 red Questions Correct", 2]]
-        @badges << ["BadgeAPSD", "All Problem Sets Blue", 5]
+        badge_5 << ["BadgeAPSD", "All Problem Sets Blue", 5]
 
         for i in 0...2
             for j in 0...3
-                @badges << ["Badge#{(i+1)*5}QCIARF#{(j+1)*5}T", "#{(i+1)*5} Questions Correct in a Row for the #{(j+1)*5} Time", 3]
+                badge_3 << ["Badge#{(i+1)*5}QCIARF#{(j+1)*5}T", "#{(i+1)*5} Questions Correct in a Row for the #{(j+1)*5} Time", 3]
             end
-            @badges << ["Badge#{(i+1)*5}PSB", "#{(i+1)*5} Problem Sets Blue", 4]
+            badge_4 << ["Badge#{(i+1)*5}PSB", "#{(i+1)*5} Problem Sets Blue", 4]
         end
     
-        @badges.sort!{|x,y| x[2] <=> y[2]}
+        @badges=badge_1+badge_2+badge_3+badge_4+badge_5
         return @badges
     end
 
@@ -199,6 +208,29 @@ class Badge < ActiveRecord::Base
                     count = 0
                 end
             end
+        end
+    end
+    def self.BadgePTTQCIARFTO_1(student, answers, n, pty)
+        problem_type = pty
+        @has_BadgePTTQCIARFTO = student.badges.find_by_badge_key("Badge#{problem_type.name}TQC")
+        if @has_BadgePTTQCIARFTO.nil?
+            if answers.first(n).select{|v| v[0]=="false"}.count == 0
+            student.points += 1000
+            student.save
+            student.news_feeds.create(:content => "Congrats! You have won a new Badge: #{n} questions correct in a row for the first time only of #{problem_type.name}", :feed_type => "badge", :user_id => student.id)
+            student.badges.create(:name => "#{n} Questions Correct in a Row for the First Time of #{problem_type.name}", :badge_key => "Badge#{problem_type.name}TQC", :level => 2)         
+            end
+        end
+    end
+    def self.BadgePTB_1(student, pty)
+        problem_type=pty
+        if student.badges.find_by_badge_key("Badge#{problem_type.name}B").nil?
+            if student.problem_stats.where("problem_type_id = ?", pty.id).last.green?
+                student.points += 100
+                student.save
+                student.news_feeds.create(:content => "Congrats! You have won a new Badge: #{problem_type.name} Blue !!", :feed_type => "badge", :user_id => student.id)
+                student.badges.create(:name => "#{problem_type.name} Problem Type Blue", :badge_key => "Badge#{problem_type.name}B", :level => 1)
+            end 
         end
     end
 
