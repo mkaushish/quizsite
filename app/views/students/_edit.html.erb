@@ -1,4 +1,6 @@
-<h2>Edit Your Profile</h2>
+<div class="row-fluid" style="text-align:center;">
+    <h2 class='pro_header'>EDIT YOUR PROFILE</h2>
+</div>
 <%= form_for @student, :url => update_student_path(@student), :html => { :multipart => true } do |f| %>        
  <% if @student.errors.any? %>
     <div class="alert alert-error">
@@ -51,9 +53,9 @@
     </div>
   </div>
 
-  <div class="form-actions">
-    <%= f.submit "Update", :class => 'btn btn-info' %>
-    <%= link_to "Cancel", studenthome_path, class: "btn" %>
+  <div class="form-actions" style='text-align:center; background-color:transparent; border-top:0'>
+    <%= f.submit "Update", :class => 'button-blue btn btn-info', :style => 'margin-left:auto; margin-right:auto;' %>
+    <%#= link_to "Cancel", studenthome_path, class: "btn" %>
   </div>
 <% end %>
 

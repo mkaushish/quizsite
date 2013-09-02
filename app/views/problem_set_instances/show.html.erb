@@ -50,6 +50,7 @@
         <% else %>
           <%= render :partial => 'history_ans', :collection => @history, :as => :answer %>
         <% end %>
+        <li><%= link_to 'Click for Detailed History', progress_student_path(@student.id) %></li>
       </ul>
   </div>
 </div>
@@ -76,6 +77,7 @@
     <%= render :partial => 'problem_list_box', :object => i,  :locals => {:item => i}%>
   <% end %>
 </div>
+<%= render 'walkthrough' %>
 <script>
 bclr_problem();
 </script>

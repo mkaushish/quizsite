@@ -101,7 +101,7 @@ font-family: "Home_hand";
     background-size:100% 100%;
   }
   }
-  #get_badge_1{
+  .get_badge{
     img {
       margin-top: -54px;
       height:84px;    
@@ -111,4 +111,54 @@ font-family: "Home_hand";
       margin-top:0px;
     }
   }
+.got_badge{
 
+}
+.not_got_badge{
+  opacity:0.3;
+}
+.badge_row{
+  width:120px;
+  text-align: center;
+  float:left;
+}
+.badge-levels{
+  margin-left:auto;
+  margin-right: auto;
+  width:600px;
+  text-align: center;
+}
+.b_plate{
+  color:white;
+  font-family: 'Chalk2';
+  font-size: 20px;
+}
+.pro_header{
+  font-family:'Chalk2';
+  font-size:40px;
+  color:white;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+.edit_student{
+  width:300px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color:white;
+  font-family: Courier;
+  label{
+    color:white;
+  }
+}
+.badge_sh{
+  text-align: center;
+  vertical-align: middle;
+  width:150px;
+  height:100px;
+  border-style:solid;
+  border-width:1px;
+  border-color:gray;
+  float:left;
+  background-color: white;
+}

@@ -51,26 +51,26 @@
 }
 
 #jpWalkthrough #highlightedArea #middleRight, #jpWalkthrough #middleAccessable #middleRight{
-    background: url(borderRight.png) repeat-y right top;
+    background: url('/assets/borderRight.png') repeat-y right top;
     width:30px;
     height: 30px;
     float:left;
 }
 
 #jpWalkthrough #highlightedArea #bottomLeft, #jpWalkthrough #bottomAccessable #bottomLeft{
-    background: url(rounded.png) no-repeat left bottom;
+    background: url('/assets/rounded.png') no-repeat left bottom;
     height: 30px;
     width:30px;
     float:left;
 }
 #jpWalkthrough #highlightedArea #bottomCenter, #jpWalkthrough #bottomAccessable #bottomCenter{
-    background: url(borderBottom.png) repeat-x 0 bottom;
+    background: url('/assets/borderBottom.png') repeat-x 0 bottom;
     height: 30px;
     float:left;
 }
 
 #jpWalkthrough #highlightedArea #bottomRight, #jpWalkthrough #bottomAccessable #bottomRight{
-    background: url(rounded.png) no-repeat right bottom;
+    background: url('/assets/rounded.png') no-repeat right bottom;
     height: 30px;
     width:30px;
     float:left;
@@ -90,7 +90,7 @@
 
 
 #jpWalkthrough #jpwTooltip #bottom-scratch{
-    background: url(scratch-border.png) no-repeat left top;
+    background: url('/assets/scratch-border.png') no-repeat left top;
     width: 358px;
     height: 42px;
     display: block;
@@ -105,7 +105,7 @@
     position: absolute;
     top: -35px;
     right: -30px;
-    background: url(drag.png) no-repeat;
+    background: url('/assets/drag.png') no-repeat;
     z-index: 10000;
 }
 
@@ -248,19 +248,7 @@
 }
 
 
-/*** tooltip content ****/
-@font-face {
-    font-family: 'GochiHand';
-    src: url('font/GochiHand-Regular.eot');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'GochiHand';
-    src: url('font/GochiHand-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
+
 
 #jpWalkthrough #jpwTooltip #tooltipInner{
     font-family: 'GochiHand';

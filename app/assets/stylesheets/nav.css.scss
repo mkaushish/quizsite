@@ -80,6 +80,7 @@ $bar_to_top: ($image_height / 2) + 5px;
   text-align: center;
   #logo_with_sides{
     zoom:0.37;
+    -moz-transform: scale(0.37);
   }
 }
 

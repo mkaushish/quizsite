@@ -1,54 +1,57 @@
-<div class="row-fluid" style="width: 14%; margin: 0 auto;">
-    <h2>BADGES</h2>
+<%= render 'profile_menu', :@tab => 'badges' %>
+<div class='row-fluid' id='prof_cont'>
+<div class="row-fluid" style="text-align:center;">
+    <h2 class='pro_header'>BADGES</h2>
 </div>
 <br /><br />
-<div class="row-fluid">
-    <div class="badge-levels" style="width: 62%; margin: 0 auto;">
-        <div class="span2">
-            <div id="get_badge_1">
+<div class="row-fluid" style='margin-top:20px'>
+    <div class="badge-levels" >
+        <div class="badge_row">
+            <div id="get_badge_1" class="get_badge">
                 <%= link_to (image_tag "tetrahedron.png"), student_badges_path(@student.id, :shape => 1), remote: :true %>
             </div>
             <div id='badge_count_tetrahedron'>
-                <%= link_to "LEVEL 1", student_badges_path(@student.id, :shape => 1), remote: :true, :class => "plate" %>
+                <%= link_to "Tetrahedron", student_badges_path(@student.id, :shape => 1), remote: :true, :class => "b_plate" %>
             </div>
         </div>
-        <div class="span2">
-            <div id="get_badge_1">
+        <div class="badge_row">
+            <div id="get_badge_2" class="get_badge">
                 <%= link_to (image_tag "cube.png"), student_badges_path(@student.id, :shape => 2), remote: :true %>
             </div>
             <div id='badge_count_cube'>
-                <%= link_to "LEVEL 2", student_badges_path(@student.id, :shape => 2), remote: :true, :class => "plate" %>
+                <%= link_to "Cube", student_badges_path(@student.id, :shape => 2), remote: :true, :class => "b_plate" %>
             </div>
         </div>
-        <div class="span2">
-            <div id="get_badge_1">
+        <div class="badge_row">
+            <div id="get_badge_3" class="get_badge">
                 <%= link_to (image_tag "octahedron.png"), student_badges_path(@student.id, :shape => 3), remote: :true %>
             </div>
             <div id='badge_count_octahedron'>
-                <%= link_to "LEVEL 3", student_badges_path(@student.id, :shape => 3), remote: :true, :class => "plate" %>
+                <%= link_to "Octahedron", student_badges_path(@student.id, :shape => 3), remote: :true, :class => "b_plate" %>
             </div>
         </div>
-        <div class="span2">
-            <div id="get_badge_1">
+        <div class="badge_row">
+            <div id="get_badge_4" class="get_badge">
                 <%= link_to (image_tag "dodecahedron.png"), student_badges_path(@student.id, :shape => 4), remote: :true %>
             </div>
             <div id='badge_count_dodecahedron'>
-                <%= link_to "LEVEL 4", student_badges_path(@student.id, :shape => 4), remote: :true, :class => "plate" %>
+                <%= link_to "Dodecahedron", student_badges_path(@student.id, :shape => 4), remote: :true, :class => "b_plate" %>
             </div>
         </div>
-        <div class="span2">
-            <div id="get_badge_1">
+        <div class="badge_row">
+            <div id="get_badge_5" class="get_badge">
                 <%= link_to (image_tag "icosahedron.png"), student_badges_path(@student.id, :shape => 5), remote: :true %>
             </div>
             <div id='badge_count_icosahedron'>
-                <%= link_to "LEVEL 5", student_badges_path(@student.id, :shape => 5), remote: :true, :class => "plate" %>
+                <%= link_to "Icosahedron", student_badges_path(@student.id, :shape => 5), remote: :true, :class => "b_plate" %>
             </div>
         </div>
     </div>
 </div>
 <br />
 <div class="row-fluid"> 
-    <div id="badges_box" class="well" style="width: 80%; margin: 0 auto;">
+    <div id="badges_box" style="width: 60%; margin: 0 auto; background-color:white; border-radius:0px; -webkit-border-radius:0px">
         <%= render "sorted_badges", :@all_badges => @all_badges, :@student_badges => @student_badges %>
     </div>
+</div>
 </div>

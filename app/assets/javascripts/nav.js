@@ -1,4 +1,5 @@
 function setNavLineWidths() {
+  $('.nav-line').css("width", $(".container").css("width"));
   $('.nav-line').each(function () {
     var $elt = $(this)
       , $target = $('#' + $elt.attr('data-target'))
@@ -13,7 +14,7 @@ function setNavLineWidths() {
     var blue_w  = target_off.left
       , blue_y  = parseInt($blue.css('height')) // don't want borders
       , green_x = blue_w + target_w/2
-      , green_w = Math.max($(window).width() - green_x, 940 - green_x)
+      , green_w = Math.max($('.container').width() - green_x, 940 - green_x)
       , both_y  = 25 // (target_h / 2) - blue_y  + target_y
                                //  green should have same height
 
@@ -29,13 +30,14 @@ function setNavLineWidths() {
 
     $blue.css("width", blue_w);
     $green.css("left", $(".container").css("margin-left"));
+
     $green.css("width", "100%");
 
     $both.css("top", both_y)
   });
 }
 function dbord(pname){
-  if($(".container").width() < 700){
+  if($(".container").width() <= 722){
     $(".dotted-border").css("width", ($(".container").width()-22)+"px");
     $(".dotted-border").css("height","auto");
   }
@@ -46,7 +48,7 @@ function dbord(pname){
   if(pname=="pset"){shelf_color();}
   else{shelf_color_in(pname[0], pname[1], pname[2]);}
   $(window).resize(function(){
-  if($(".container").width() < 700){
+  if($(".container").width() <= 722){
     $(".dotted-border").css("width", ($(".container").width()-22)+"px");
     $(".dotted-border").css("height","auto");
   }
@@ -74,13 +76,15 @@ function logoutb(){
 }
 function shelf_do(){
   if(/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)){
-    $("body").css("width", "454px");
-    $("body").css("zoom", ""+($(window).width()/454));
+    $("body").css("width", "457px");
+    $("body").css("zoom", ""+($(window).width()/457));
   }
   wdt=$(".container").width();
 lis="";
   lisarr=[]
-  for(i=0; i < $(".shelf .shelf_ul .shelf_li").length; i++){
+  lis+="<li class=shelf_li id=account>"+$(".shelf .shelf_ul .shelf_li").eq(0).html()+"</li>";
+  lisarr[0]="<li class=shelf_li id=account>"+$(".shelf .shelf_ul .shelf_li").eq(0).html()+"</li>";
+  for(i=1; i < $(".shelf .shelf_ul .shelf_li").length; i++){
     lis+="<li class=shelf_li>"+$(".shelf .shelf_ul .shelf_li").eq(i).html()+"</li>";
     lisarr[i]="<li class=shelf_li>"+$(".shelf .shelf_ul .shelf_li").eq(i).html()+"</li>";
   }
@@ -95,8 +99,8 @@ lis="";
   wdt=$(".container").width();
 $(window).resize(function(){
   if(/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)){
-    $("body").css("width", "454px");
-    $("body").css("zoom", ""+($(window).width()/454));
+    $("body").css("width", "457px");
+    $("body").css("zoom", ""+($(window).width()/457));
   }
   lisob=$(".shelf ul li");
 
