@@ -1,3 +1,5 @@
+
+
 function change_color_status(elt, col) {
 	elt.removeClass("red-bord")
 	elt.removeClass("yellow-bord")
@@ -19,9 +21,9 @@ change_color_status($('#pt_<%= @stat.problem_type_id %>'), "<%= @stat.color_stat
 $("#problem_history").prepend("<%= j render("problem_set_instances/history_ans", object: @answer, as: :answer) %>");
 $("#pt_<%= @stat.problem_type_id %>").replaceWith("<%= j render("problem_set_instances/problem_list_box", item: @stat) %>");
 $("#points").html("<%= j render("students/student_points", :@changedPoints => @changedPoints) %>");
-$("#badge_count_tetrahedron").html("<%= j link_to (render  'students/badge_count', :@shape => 1), student_badges_path(@student.id, :shape => 1), :remote => true, :class => "plate" %>");
-$("#badge_count_cube").html("<%= j link_to (render  'students/badge_count', :@shape => 2), student_badges_path(@student.id, :shape => 2), :remote => true, :class => "plate" %>");
-$("#badge_count_octahedron").html("<%= j link_to (render  'students/badge_count', :@shape => 3), student_badges_path(@student.id, :shape => 3), :remote => true, :class => "plate" %>");
-$("#badge_count_dodecahedron").html("<%= j link_to (render  'students/badge_count', :@shape => 4), student_badges_path(@student.id, :shape => 4), :remote => true, :class => "plate" %>");
-$("#badge_count_icosahedron").html("<%= j link_to (render  'students/badge_count', :@shape => 5), student_badges_path(@student.id, :shape => 5), :remote => true, :class => "plate" %>");
+$("#badge_count_tetrahedron").html("<%= j link_to (render  'students/badge_count', :@shape => 1), student_badges_path(@student.id, :shape => 1), :class => "plate" %>");
+$("#badge_count_cube").html("<%= j link_to (render  'students/badge_count', :@shape => 2), student_badges_path(@student.id, :shape => 2), :class => "plate" %>");
+$("#badge_count_octahedron").html("<%= j link_to (render  'students/badge_count', :@shape => 3), student_badges_path(@student.id, :shape => 3), :class => "plate" %>");
+$("#badge_count_dodecahedron").html("<%= j link_to (render  'students/badge_count', :@shape => 4), student_badges_path(@student.id, :shape => 4), :class => "plate" %>");
+$("#badge_count_icosahedron").html("<%= j link_to (render  'students/badge_count', :@shape => 5), student_badges_path(@student.id, :shape => 5), :class => "plate" %>");
 bclr_problem();

@@ -65,7 +65,7 @@ class ProblemStat < ActiveRecord::Base
 
     if points >= total_points_required
       time = Time.now.utc
-      time += (60*60) * (points-500)
+      time += (60*60*18) * (1+self.correct.to_i)
       self.stop_green = time.to_time.utc
       self.save
     end
