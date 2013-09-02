@@ -50,6 +50,8 @@ Quizsite::Application.configure do
   config.assets.precompile << 'application.js' 
   config.assets.precompile << 'application.css' 
   config.assets.precompile << 'nondefault/js'
+  config.assets.precompile << 'jquery.pagewalkthrough.css'
+  
 
   # Disable delivery errors, bad email addresses will be ignored
   # config.action_mailer.raise_delivery_errors = false
