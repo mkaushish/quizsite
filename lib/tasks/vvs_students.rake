@@ -53,7 +53,9 @@ namespace :generate do
         puts "#{teacher.name} found !" unless teacher.blank?
         
         classrooms_with_students.each do |cs_hash|
-            classroom = Classroom.create(:name => cs_hash[:class_name])
+            classroom = Classroom.new(:name => cs_hash[:class_name])
+            classroom.new_password
+            classroom.save!
             classroom_teacher = classroom.classroom_teachers.create(:teacher_id => teacher.id) unless classroom.blank?
             unless classroom.blank? and classroom_teacher.blank?
                 puts "#{classroom.name} created successfully and assigned to #{teacher.name}"
