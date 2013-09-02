@@ -1,4 +1,5 @@
 function setNavLineWidths() {
+  $('.nav-line').css("width", $(".container").css("width"));
   $('.nav-line').each(function () {
     var $elt = $(this)
       , $target = $('#' + $elt.attr('data-target'))
@@ -13,7 +14,7 @@ function setNavLineWidths() {
     var blue_w  = target_off.left
       , blue_y  = parseInt($blue.css('height')) // don't want borders
       , green_x = blue_w + target_w/2
-      , green_w = Math.max($(window).width() - green_x, 940 - green_x)
+      , green_w = Math.max($('.container').width() - green_x, 940 - green_x)
       , both_y  = 25 // (target_h / 2) - blue_y  + target_y
                                //  green should have same height
 
@@ -29,6 +30,7 @@ function setNavLineWidths() {
 
     $blue.css("width", blue_w);
     $green.css("left", $(".container").css("margin-left"));
+
     $green.css("width", "100%");
 
     $both.css("top", both_y)

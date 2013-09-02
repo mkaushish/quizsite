@@ -8,10 +8,10 @@
 //= require jquery_ujs
 //= require bootstrap
 //= require_tree
-//= require jquery.mousewheel
-//= require jquery.jscrollpane.min
 //= require_directory .
 //= require_directory ./tohtml
+//= require jquery.mousewheel
+//= require jquery.jscrollpane.min
 $(function() {
   $('.with_tooltip').tooltip();
 });

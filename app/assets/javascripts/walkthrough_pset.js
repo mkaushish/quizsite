@@ -127,4 +127,10 @@ $('#open-walkthrough').live('click', function(){
 
 	$.pagewalkthrough('show', id[1]); 
 });
+$('.close-step').live('click', function(e){
+      $.pagewalkthrough('close');
+  });
+  $('#jpwClose').live('click', function(e){
+      $.pagewalkthrough('close');
+  });
 }

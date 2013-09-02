@@ -7,4 +7,13 @@ initProblemOverlay();
 $('#problem_overlay').html('<%= j(render "answers/full_answer") %>');
 $("#points").html("<%= j render("students/student_points", :@student => @student) %>");
 initProblem();
+<% if @stat.color_status == 'green' %>
+done_pr();
+<% else %>
+<% if @answer.correct? %>
+awesome();
+<% else %>
+shit();
+<% end %>
+<% end %>
 

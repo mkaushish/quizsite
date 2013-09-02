@@ -35,7 +35,7 @@
     text-align:center;
     border-width:3px;
     border-color:orange;
-    
+
   }
   select {
     width:70px;
@@ -73,4 +73,36 @@
 
 .checkbox-item label, .checkbox-item input {
   display:inline-block;
+}
+.awesome{
+position: absolute;
+left: 55%;
+top: 100px;
+width:150px;
+text-align: center;
+-webkit-transform: rotate(40deg);
+-moz-transform: rotate(40deg);
+-ms-transform: rotate(40deg);
+-o-transform: rotate(40deg);
+font-size: 30px;
+font-family: 'Chalk2';
+color:white;
+padding:10px;
+p{
+  margin:0;
+}
+i{
+  position: absolute;
+top: 3px;
+left: 90%;
+}
+}
+#awesome{
+  background-color: $sg_green;
+}
+#shit{
+  background-color: red;
+}
+#donep{
+  background-color: #0087bd;
 }

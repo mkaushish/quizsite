@@ -5,7 +5,7 @@
 * Version: 1.1.0
 * Issue, Feature & Bug Support: erwin.yusrizal@gmail.com
 ***/
-
+function jqwalk(){
 ;(function ($, window, document, undefined) {
 
 	/**
@@ -1118,3 +1118,4 @@
 	};
 
 } (jQuery, window, document));
+}
