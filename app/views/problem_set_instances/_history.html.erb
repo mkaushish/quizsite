@@ -1,14 +1,14 @@
 <div class='dotted-border-header'>
-  <h4>History</h4>
+  	<h4>History</h4>
 </div>
 
 <div class='dotted-border' style='min-height:400px;'>
-  <ul class=column-list>
-    <% @history.each do |answer| %>
-    <li><%= link_to (answer.problem_type.to_s + " : " + answer.correct.to_s), 
+  	<ul class=column-list>
+    	<% @history.each do |answer| %>
+    		<li><%= link_to (answer.problem_type.to_s + " : " + answer.correct.to_s), 
   				    show_answer_path(id: answer.id, instance: @instance.id),
-  				    remote: true %>
-	</li>
-    <% end %>
-  </ul>
+  				    remote: true -%>
+			</li>
+    	<% end -%>
+  	</ul>
 </div>
