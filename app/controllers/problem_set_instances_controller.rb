@@ -31,9 +31,10 @@ class ProblemSetInstancesController < ApplicationController
     def finish_problem
         @stat = ProblemSetStat.includes(:problem_set_instance).includes(:problem_type).find(params[:stat_id])
         redirect_to access_denied_path && return if @stat.user != @student
+        if(@student.answers.find_by_problem_id(params[:problem_id].to_i).nil?)
 
         @instance = @stat.problem_set_instance
-        @answer = @student.answers.create params: params, session: @instance
+        @answer = @student.answers.new params: params, session: @instance
         @stat.update_w_ans!(@answer)
         
         @instance.update_instance!
@@ -44,7 +45,9 @@ class ProblemSetInstancesController < ApplicationController
         @changedPoints = @answer.points
         @student.create_badges(@instance.problem_set, @stat.problem_type.id)
         @all_badges = @student.all_badges
-        render 'show_answer', locals: {callback: 'problem_set_instances/finish_problem'}
+        else
+            render 'shared/nothing.js.erb'
+        end
     end
 
 
