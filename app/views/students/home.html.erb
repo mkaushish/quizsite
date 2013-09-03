@@ -13,13 +13,6 @@
             <%= render :partial => 'pset_list_box', :object => i %>
         <% end %>
     </div>
-
-    <script>
-        $(function () {
-            $('.teacher-class-col').jScrollPane();
-            $('.badge_description').tooltip({title: "#{badge.name}"});
-        })
-    </script>
 </div>
 <%= render 'walkthrough' %>
 <script>

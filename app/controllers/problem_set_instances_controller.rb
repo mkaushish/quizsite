@@ -1,49 +1,21 @@
 class ProblemSetInstancesController < ApplicationController
   
     before_filter :validate_student
-    before_filter :validate_problem_set, :only => [:show, :static_do, :do]
-    before_filter :validate_instance, :only => [:show, :static_do, :do]
+    before_filter :validate_problem_set, :only => [:show, :do]
+    before_filter :validate_instance, :only => [:show, :do]
 
     # GET /psets/:name
     # psets_path(:name)
     def show
-        @problem_set = ProblemSet.includes(:problem_types).find(params[:name])
-        @instance = ProblemSetInstance.where(:problem_set_id => @problem_set.id,
-                                                :user_id => current_user.id).first
-        @instance ||= current_user.problem_set_instances.new(:problem_set => @problem_set)
+        @classroom = @student.classrooms.first
         @stats = @instance.stats
         @sessions = []
-        @history = current_user.problem_history(@problem_set.problem_types.map(&:id)).limit(11)
+        @history = @student.problem_history(@problem_set.problem_types.map(&:id)).limit(11)
         @all_badges = @student.all_badges
-        @quiz = Quiz.where("problem_set_id = ? AND classroom_id IS NULL", @problem_set.id)
-        @quiz_with_classroom = (current_user.classrooms.first.quizzes).where("problem_set_id = ?", @problem_set.id)
-        @quiz_with_classroom.each do |qws|
-            if qws.students.blank?
-                @quiz.push qws
-            else
-                @quiz.push qws if qws.students.include? current_user.id.to_s
-            end
-        end
-    end
-
-    def static_do
-        # @instance ||= current_user.problem_set_instances.new(:problem_set => @problem_set)
-        redirect_to access_denied_path && return if @instance.nil?
-        if @problem_set.problem_types.exists? params[:pid]
-            @problem_type = @problem_set.problem_types.find(params[:pid])
-            @stat = @instance.stat(@problem_type)
-            @problem = @stat.spawn_problem
-            render 'static_do', layout: false
-        else
-            redirect_to access_denied_path && return
-        end
-    end
-
-    def problem_results
+        @quiz = @student.all_quizzes(@classroom, @problem_set)
     end
 
     def do
-        # @instance ||= current_user.problem_set_instances.new(:problem_set => @problem_set)
         redirect_to access_denied_path && return if @instance.nil?
         if @problem_set.problem_types.exists? params[:pid]
             @problem_type = @problem_set.problem_types.find(params[:pid])
@@ -53,9 +25,6 @@ class ProblemSetInstancesController < ApplicationController
                 @problem_stat.set_new_points
             end
             @problem = @stat.spawn_problem
-            # $stderr.puts "STAT_N_PROBLEM " * 20
-            # $stderr.puts @stat.inspect
-            # $stderr.puts @problem.inspect
         else
             redirect_to access_denied_path && return
         end
@@ -65,20 +34,14 @@ class ProblemSetInstancesController < ApplicationController
     # finish_ps_problem_path(:name)
     def finish_problem
         @stat = ProblemSetStat.includes(:problem_set_instance).includes(:problem_type).find(params[:stat_id])
-        redirect_to access_denied_path && return if @stat.user != current_user
+        redirect_to access_denied_path && return if @stat.user != @student
 
-        
         @instance = @stat.problem_set_instance
-        # create answer
-        @answer = current_user.answers.create params: params, session: @instance
-        # update stats around answer - also modifies @answer but saves
+        @answer = @student.answers.create params: params, session: @instance
         @stat.update_w_ans!(@answer)
-        # updating the number of counts of each color type
-        @instance.num_blue = @instance.problem_stats.blue.count
-        @instance.num_green = @instance.problem_stats.green.count
-        @instance.num_red = @instance.problem_stats.count - @instance.num_blue - @instance.num_green
-        @instance.last_attempted = Time.now
-        @instance.save
+        
+        @instance.update_instance!
+
         @problem = @answer.problem.problem
         @solution = @problem.prefix_solve
         @response = @answer.response_hash
@@ -88,16 +51,20 @@ class ProblemSetInstancesController < ApplicationController
         render 'show_answer', locals: {callback: 'problem_set_instances/finish_problem'}
     end
 
+
+    # def problem_results
+    # end
+
     private
     # Sets the @history variable, which allows the partial 'problem_sets/_history' to be rendered
-    def include_history(problem_set, n = 11)
-        return nil if current_user.nil?
-        generators = ProblemGenerator.where(:problem_type_id => problem_set.problem_types.map(&:id)).map(&:id)
-        @history = current_user.answers.where(:problem_generator_id => generators)
-                            .order("created_at DESC")
-                            .includes(:problem)
-                            .limit(n)
-    end
+    # def include_history(problem_set, n = 11)
+    #     return nil if current_user.nil?
+    #     generators = ProblemGenerator.where(:problem_type_id => problem_set.problem_types.map(&:id)).map(&:id)
+    #     @history = current_user.answers.where(:problem_generator_id => generators)
+    #                         .order("created_at DESC")
+    #                         .includes(:problem)
+    #                         .limit(n)
+    # end
 
     def validate_student
         @student = current_user
@@ -108,7 +75,6 @@ class ProblemSetInstancesController < ApplicationController
     end
     
     def validate_instance
-        @instance = ProblemSetInstance.where(:problem_set_id => @problem_set.id,
-                                            :user_id => current_user.id).first
+        @instance = @student.problem_set_instances_problem_set(@problem_set)
     end
 end

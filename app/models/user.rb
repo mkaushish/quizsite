@@ -30,7 +30,7 @@ class User < ActiveRecord::Base
                        :if => lambda{|a| a.new_record?}
 
     before_save  :encrypt_password
-    after_create :set_confirmation, :send_confirmation_mail
+    before_create :set_confirmation, :send_confirmation_mail
 
     before_create lambda { self.email.downcase! }
 

@@ -6,7 +6,7 @@
         
         <div class="modal-body">
             <div class="row-fluid">
-                <div id="SignUp_errors">
+                <div id="Sign_up_errors">
                   <!--   <%# if flash[:error] %>
                         <div class="form_error">
                             <%#= flash[:error] %>
@@ -23,23 +23,23 @@
                     <%= form_tag signup_user_path, method: :post do |f| %>
                         <div class = "field_block">
                             <div class="row-fluid">
-                                <span class="error_block" id="SignUp_email_err"></span>
+                                <span class="error_block" id="signup_email_err"></span>
                                 <div class="span3">
-                                    <%= label_tag :email, "Email" %>
+                                    <%= label_tag :signup_email, "Email" %>
                                 </div>    
                                 <div class="span4">    
-                                    <%= text_field_tag :email, flash[:email], :placeholder=>"Your Email" %>
+                                    <%= text_field_tag :signup_email, flash[:email], :placeholder=>"Your Email" %>
                                 </div>
                             </div>    
                         </div>
                         <div class = "field_block">
                             <div class="row-fluid">
-                                <span class="error_block" id="SignUp_password_err"></span>
+                                <span class="error_block" id="signup_password_err"></span>
                                 <div class="span3">
-                                    <%= label_tag :password, "Password" %>
+                                    <%= label_tag :signup_password, "Password" %>
                                 </div>    
                                 <div class="span4">    
-                                    <%= password_field_tag :password, flash[:password], :placeholder => "Your Password" %>    
+                                    <%= password_field_tag :signup_password, flash[:password], :placeholder => "Your Password" %>    
                                 </div>
                             </div>    
                         </div>
