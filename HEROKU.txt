@@ -93,4 +93,3 @@ RESTORING FROM A .dump FILE: (eg. latest.dump)
   pg_restore --verbose --clean --no-acl --no-owner -d smartergrades_dev latest.dump
 
 All other stuff, just readthe article https://devcenter.heroku.com/articles/pgbackups - it's a good one.
-
