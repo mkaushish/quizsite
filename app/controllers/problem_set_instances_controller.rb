@@ -17,17 +17,13 @@ class ProblemSetInstancesController < ApplicationController
 
     def do
         redirect_to access_denied_path && return if @instance.nil?
-        if @problem_set.problem_types.exists? params[:pid]
-            @problem_type = @problem_set.problem_types.find(params[:pid])
-            @stat = @instance.stat(@problem_type)
-            @problem_stat = @stat.problem_stat
-            if Time.now.utc >= @problem_stat.stop_green and @problem_stat.points > @problem_stat.points_required
-                @problem_stat.set_new_points
-            end
-            @problem = @stat.spawn_problem
-        else
-            redirect_to access_denied_path && return
+        @problem_type = @problem_set.problem_types.find(params[:pid]) if defined? params[:pid]
+        @stat = @instance.stat(@problem_type)
+        @problem_stat = @stat.problem_stat
+        if Time.now.utc >= @problem_stat.stop_green and @problem_stat.points > @problem_stat.points_required
+            @problem_stat.set_new_points
         end
+        @problem = @stat.spawn_problem
     end
 
     # POST /problem_sets/:name/finish_problem
