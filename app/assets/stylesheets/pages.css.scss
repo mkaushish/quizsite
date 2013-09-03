@@ -620,7 +620,7 @@ margin-top:20px;
 
 /* ----sections---- */
 
-#home, #work, #about, #contact, #how_it_helps, #how_it_works{
+#home, #work, #about, #contact, #how_it_helps, #how_it_works, #try{
   position:relative;
   margin-bottom:250px;
   padding-top:15px;
@@ -641,6 +641,14 @@ margin-top:20px;
 #contact{
   background-color: white;
   margin-bottom: 70px;
+}
+#try_btn{
+  transform:rotate(7deg);
+-ms-transform:rotate(7deg); /* IE 9 */
+-webkit-transform:rotate(7deg);
+font-family: 'Chalk2';
+font-size: 30px;
+color:black;
 }
 
 #top{

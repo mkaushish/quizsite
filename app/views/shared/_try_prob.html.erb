@@ -1,0 +1,12 @@
+<div id="badges_box" style='margin-left:40px'>
+        <% @problem_sets.each do |pset| %>
+        <div class="list_box problem_list_box pset_list_box" style='margin:5px'>
+            <p><%=pset.name%></p>
+            <%= link_to 'Try', view_problem_set_path(pset.id)%>
+        </div>
+        <%end%>
+    </div>
+
+    <script>
+    bclr_pset();
+    </script>
