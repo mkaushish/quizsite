@@ -139,7 +139,8 @@ class Student < User
     end
 
     def problem_set_instances_problem_set(problem_set)
-        self.problem_set_instances.find_by_problem_set_id(problem_set)
+        instance = self.problem_set_instances.find_by_problem_set_id(problem_set)
+        instance ||= self.problem_set_instances.new(:problem_set => problem_set)
     end
 
     def answers_correct_in_time_range(start_time, end_time)
@@ -147,21 +148,34 @@ class Student < User
     end
 
     def problem_set_instances_num_problem_problem_stats_blue
-        @result = Array.new
+        result = Array.new
         self.problem_set_instances.order("id").includes(&:problem_stats).each do |pset_instance|
-           @result = @result.push [(pset_instance.name), (pset_instance.num_problems - pset_instance.problem_stats.blue.count == 0), (pset_instance.num_problems - pset_instance.problem_stats.blue.count), (pset_instance.stop_green)]
+           result = result.push [(pset_instance.name), (pset_instance.num_problems - pset_instance.problem_stats.blue.count == 0), (pset_instance.num_problems - pset_instance.problem_stats.blue.count), (pset_instance.stop_green)]
         end
-        return @result
+        return result
     end
 
     def problem_types_blue_name
-        @problem_type_name = Array.new
+        problem_type_name = Array.new
         self.problem_set_instances.order("id").each do |pset_instance|
             pset_instance.problem_stats.blue.each do |problem_stat|
-                @problem_type_name = @problem_type_name.push problem_stat.problem_type.name
+                problem_type_name = problem_type_name.push problem_stat.problem_type.name
             end
         end
-        return @problem_type_name
+        return problem_type_name
+    end
+
+    def all_quizzes(classroom, problem_set)
+        quiz = Quiz.where("problem_set_id = ? AND classroom_id IS NULL", problem_set)
+        quiz_with_classroom = (self.classrooms.first.quizzes).where("problem_set_id = ?", problem_set)
+        quiz_with_classroom.each do |qws|
+            if qws.students.blank?
+                quiz.push qws
+            else
+                quiz.push qws if qws.students.include? self.id.to_s
+            end
+        end
+        return quiz
     end
 
     private

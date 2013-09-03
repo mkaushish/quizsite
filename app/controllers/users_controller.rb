@@ -46,22 +46,26 @@ class UsersController < ApplicationController
 
     # Signup_step 1: Takes user email and user_type(like student, teacher, coach) #
     def signup_step1
-        @email = params[:email] if defined? params[:email]
-        @password = params[:password] if defined? params[:password]
+        unless defined? params[:signup_email] or params[:signup_password]
+                flash[:error] = "Fields can't be blank !"
+                render :js => form_err_js(:signup_email, "Please put your email and password. Fields can't be blank !")
+        else
 
-        if defined? params[:type]
-            case params[:type]
-                when 'Student'
-                    @student = Student.create(:email => @email, :password => @password, :password_confirmation => @password)
-                when 'Teacher'
-                    @teacher = Teacher.create(:email => @email, :password => @password, :password_confirmation => @password)
-                when 'Coach'
-                    @coach = Coach.create(:email => @email, :password => @password, :password_confirmation => @password)
-                else
-                    redirect_to root_path, notice: "Please choose your type!!"
+            @email = params[:signup_email] if defined? params[:signup_email]
+            @password = params[:signup_password] if defined? params[:signup_password]
+
+            if defined? params[:type]
+                case params[:type]
+                    when 'Student'
+                        @user = Student.create(:email => @email, :password => @password, :password_confirmation => @password)
+                    when 'Teacher'
+                        @user = Teacher.create(:email => @email, :password => @password, :password_confirmation => @password)
+                    when 'Coach'
+                        @user = Coach.create(:email => @email, :password => @password, :password_confirmation => @password)
+                end
+                redirect_to root_path, notice: "Please check your Inbox for Account Confirmation Mail!" if @user
             end
         end
-        redirect_to root_path, notice: "Please check your Inbox for Account Confirmation Mail!"
     end
 
     # Signup_step : checks the token with the confirmation code if both is same then user asked to give all details #

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130829114806) do
+ActiveRecord::Schema.define(:version => 20130903061950) do
 
   create_table "answers", :force => true do |t|
     t.boolean  "correct"
@@ -52,12 +52,12 @@ ActiveRecord::Schema.define(:version => 20130829114806) do
   add_index "classroom_assignments", ["student_id"], :name => "index_class_assignments_on_student_id"
 
   create_table "classroom_problem_sets", :force => true do |t|
+    t.integer  "classroom_id"
     t.integer  "problem_set_id"
     t.datetime "created_at"
     t.datetime "updated_at"
     t.datetime "starts_at"
     t.datetime "ends_at"
-    t.integer  "classroom_id"
   end
 
   create_table "classroom_quizzes", :force => true do |t|
@@ -138,7 +138,7 @@ ActiveRecord::Schema.define(:version => 20130829114806) do
     t.integer  "user_id"
     t.integer  "problem_set_id"
     t.datetime "last_attempted"
-    t.datetime "stop_green",     :default => '2013-08-29 06:31:25', :null => false
+    t.datetime "stop_green",     :default => '2013-09-02 12:44:12', :null => false
     t.integer  "num_blue"
     t.integer  "num_green"
     t.integer  "num_red"
@@ -174,7 +174,7 @@ ActiveRecord::Schema.define(:version => 20130829114806) do
     t.integer  "points",          :default => 0,                     :null => false
     t.integer  "points_wrong",    :default => 0,                     :null => false
     t.integer  "points_right",    :default => 100,                   :null => false
-    t.datetime "stop_green",      :default => '2013-08-29 06:31:26', :null => false
+    t.datetime "stop_green",      :default => '2013-09-02 12:44:13', :null => false
     t.integer  "points_required", :default => 500
   end
 
@@ -269,6 +269,7 @@ ActiveRecord::Schema.define(:version => 20130829114806) do
     t.string   "picture_link"
     t.string   "provider"
     t.string   "image"
+    t.string   "confirmation_token"
   end
 
   add_index "users", ["email"], :name => "index_users_on_email", :unique => true

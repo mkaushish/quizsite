@@ -88,6 +88,7 @@ class ProblemSetInstance < ActiveRecord::Base
     end
     return 'green'
   end
+
 ##############################################################################
   # def modify_blue?(blue_time)
   #   stats.each do |stat| 
@@ -96,6 +97,14 @@ class ProblemSetInstance < ActiveRecord::Base
   #   return 'blue'
   # end
 ##############################################################################
+  def update_instance!
+    self.num_blue   = self.problem_stats.blue.count
+    self.num_green  = self.problem_stats.green.count
+    self.num_red    = self.problem_stats.count - self.num_blue - self.num_green
+    self.last_attempted = Time.now
+    self.save
+  end
+        
   def num_problems
     problem_set_problems.length
   end

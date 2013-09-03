@@ -1,7 +1,8 @@
 require 'c1'
+
 class PagesController < ApplicationController
+
     def home
-        # $stderr.puts "!@#" * 30 + "\n#{current_user.class}"
         case current_user.class.to_s
             when "Student"
                 deny_access_user_not_confirmed && return unless current_user.confirmed == true
@@ -32,18 +33,9 @@ class PagesController < ApplicationController
     def what_is_it
     end
 
-  def graph
-    @title = "Graph"
-    @nav_selected = "features"
-  end
-  def mathematicians
-    @title = "Mathematicians"
-  end
-
-  def datagr
-    @title = "Data Graph"
-    @nav_selected = "features"
-  end
+    def mathematicians
+        @title = "Mathematicians"
+    end
 
     def graph
         @title = "Graph"

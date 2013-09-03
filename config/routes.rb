@@ -60,6 +60,7 @@ Quizsite::Application.routes.draw do
   get '/students/:id/progress',                        to: 'students#progress', :as => :progress_student
   get "/students/:id/bagdes",                 to: 'students#badges', :as => :student_badges
   get "/students/:id/notifications",          to: 'students#notifications', :as => :student_notifications
+  get '/students/:id/progress',                        to: 'students#progress', :as => :progress_student
   get '/students/:id/chart',                  to: 'students#chart', :as => :chart_student
   get '/students/:id/chart/pset/:pset',       to: 'students#problemset_chart', :as => :chart_student_pset
 

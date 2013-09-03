@@ -1,8 +1,7 @@
-
 <% if(@stat.color_status!="green") %>
-<%= render "problem_set_instances/progress_bar/yellow" %>
+	<%= render "problem_set_instances/progress_bar/yellow" %>
 <% else %>
-<%= render "problem_set_instances/progress_bar/green" %>
+	<%= render "problem_set_instances/progress_bar/green" %>
 <%end%>
 <!-- it should be like this -->
 <%# if(@stat.color_status!="blue") %>
@@ -15,18 +14,19 @@
 <%= render 'stats' %>
 
 <div class='row-fluid problem_body'>
-  <%= form_tag finish_ps_problem_path(@problem_set.id), method: :post, autocomplete: :off, remote: true do %>
-    <%= hidden_field_tag 'stat_id', @stat.id.to_s %>
-    <%= render 'problems/form' %>
-  <% end %>
+  	<%= form_tag finish_ps_problem_path(@problem_set.id), method: :post, autocomplete: :off, remote: true do %>
+    	<%= hidden_field_tag 'stat_id', @stat.id.to_s %>
+    	<%= render 'problems/form' %>
+  	<% end %>
 </div>
 
-<!--<div class='prob_grad_2'></div>-->
+
 <% if @problem.problem.has_notepad? %>
-<div class='row-fluid calculations'>
-  <%= render 'problems/side_notepad' %>
-</div>
+	<div class='row-fluid calculations'>
+  		<%= render 'problems/side_notepad' %>
+	</div>
 <% end %>
+
 <script>
 	$('#submit_pr').click(function(){
 		$("#problem_overlay").prepend("<img id='load' src='/assets/loading86.gif' />");

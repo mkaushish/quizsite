@@ -10,6 +10,7 @@ gem 'jquery-rails', '~> 2.0.2'
 gem 'ransack'
 gem 'will_paginate', '~> 3.0'
 
+
 group :test, :development do
 	gem 'rspec-rails'
     #gem 'capybara', :git => 'git://github.com/jnicklas/capybara.git'

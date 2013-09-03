@@ -1,7 +1,7 @@
 class StudentsController < ApplicationController
     
     before_filter :authenticate, :except => [:show, :new, :create]
-    before_filter :validate_student, :only => [:update, :show, :chart, :badges, :notifications]
+    before_filter :validate_student, :only => [:update, :show, :chart, :badges, :notifications, :progress]
     before_filter :validate_student_via_current_user, :only => [:home, :edit]
 
     def home
@@ -35,39 +35,10 @@ class StudentsController < ApplicationController
             end
         end
     end
+
     def progress
-        @student=Student.find_by_id(params[:id])
         @problem_sets = @student.problem_sets.order("id ASC").includes(:problem_types)
         @tab = 'progress'
-    end
-
-    def new
-        @student = Student.new
-    end
-
-    def create
-        student = Student.new(params[:student])
-        if !student.save
-            $stderr.puts "STUDENT_ERRORS\n\t\t#{student.errors.full_messages.inspect}"
-            $stderr.puts "FORM_FOR_ERRS:" + form_for_errs('student', student)
-            render :js => form_for_errs('student', student)
-            return
-        end
-        classroom = nil
-        if params[:class_pass].empty?
-            classroom = Classroom.smarter_grades
-        else
-            classroom = Classroom.find_by_student_password(params[:class_pass])
-        end
-        if classroom.nil?
-            student.delete
-            render :js => form_err_js(:class_pass, "Invalid class password")
-            return
-        end
-        classroom.assign!(student)
-        #UserMailer.welcome_email(student).deliver
-        sign_in student
-        render :js => "window.location.href = '/'"
     end
 
     def edit
@@ -110,6 +81,35 @@ class StudentsController < ApplicationController
             format.js 
         end 
     end
+
+    # def new
+    #     @student = Student.new
+    # end
+
+    # def create
+    #     student = Student.new(params[:student])
+    #     if !student.save
+    #         $stderr.puts "STUDENT_ERRORS\n\t\t#{student.errors.full_messages.inspect}"
+    #         $stderr.puts "FORM_FOR_ERRS:" + form_for_errs('student', student)
+    #         render :js => form_for_errs('student', student)
+    #         return
+    #     end
+    #     classroom = nil
+    #     if params[:class_pass].empty?
+    #         classroom = Classroom.smarter_grades
+    #     else
+    #         classroom = Classroom.find_by_student_password(params[:class_pass])
+    #     end
+    #     if classroom.nil?
+    #         student.delete
+    #         render :js => form_err_js(:class_pass, "Invalid class password")
+    #         return
+    #     end
+    #     classroom.assign!(student)
+    #     #UserMailer.welcome_email(student).deliver
+    #     sign_in student
+    #     render :js => "window.location.href = '/'"
+    # end
 
     private
 
