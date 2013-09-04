@@ -6,14 +6,6 @@ function change_color_status(elt, col) {
 	elt.addClass(col + "-bord")
 }
 
-// it should be like this
-// function change_color_status(elt, col) {
-// 	elt.removeClass("red-bord")
-// 	elt.removeClass("green-bord")
-// 	elt.removeClass("blue-bord")
-// 	elt.addClass(col + "-bord")
-// }
-// end
 change_color_status($('#pt_<%= @stat.problem_type_id %>'), "<%= @stat.color_status %>");
 
 $("#problem_history").prepend("<%= j render("problem_set_instances/history_ans", object: @answer, as: :answer) %>");
@@ -26,8 +18,15 @@ $("#badge_count_dodecahedron").html("<%= j link_to (render  'students/badge_coun
 $("#badge_count_icosahedron").html("<%= j link_to (render  'students/badge_count', :@shape => 5), student_badges_path(@student.id, :shape => 5), :class => "plate" %>");
 bclr_problem();
 
-//initProblemOverlay();
+
 $('#problem_overlay').html('<%= j(render "answers/full_answer") %>');
 
-// create the problem
-$("#points").html("<%= j render("students/student_points", :@student => @student) %>");
+<% if @stat.color_status == 'green' %>
+done_pr();
+<% else %>
+<% if @answer.correct? %>
+awesome();
+<% else %>
+shit();
+<% end %>
+<% end %>
