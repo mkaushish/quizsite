@@ -35,14 +35,12 @@ class ProblemSetInstancesController < ApplicationController
         @instance = @stat.problem_set_instance
         @answer = @student.answers.create params: params, session: @instance
         @stat.update_w_ans!(@answer)
-        
         @instance.update_instance!
-
         @problem = @answer.problem.problem
         @solution = @problem.prefix_solve
         @response = @answer.response_hash
         @changedPoints = @answer.points
-        @student.create_badges(@instance.problem_set, @stat.problem_type.id)
+        #@student.create_badges(@instance.problem_set, @stat.problem_type.id)
         @all_badges = @student.all_badges
         render 'show_answer', locals: {callback: 'problem_set_instances/finish_problem'}
     end

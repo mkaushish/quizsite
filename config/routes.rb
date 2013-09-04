@@ -57,10 +57,9 @@ Quizsite::Application.routes.draw do
   get '/student/notifications',               to: 'students#notifications', :as => :notifications_student
   put '/students/:id/update',                 to: 'students#update', :as => :update_student
   get '/students/:id',                        to: 'students#show', :as => :student
-  get '/students/:id/progress',                        to: 'students#progress', :as => :progress_student
   get "/students/:id/bagdes",                 to: 'students#badges', :as => :student_badges
   get "/students/:id/notifications",          to: 'students#notifications', :as => :student_notifications
-  get '/students/:id/progress',                        to: 'students#progress', :as => :progress_student
+  get '/students/:id/progress',               to: 'students#progress', :as => :progress_student
   get '/students/:id/chart',                  to: 'students#chart', :as => :chart_student
   get '/students/:id/chart/pset/:pset',       to: 'students#problemset_chart', :as => :chart_student_pset
 
@@ -123,6 +122,7 @@ Quizsite::Application.routes.draw do
 
   # classroom
   get 'teacher/:id/classroom/new',            to: 'classrooms#new', as: :new_classroom
+  get 'classrooms/:id',                       to: 'classrooms#show', as: :classroom
   post 'teacher/:id/classrooms',              to: 'classrooms#create', as: :create_classroom
   get 'teacher/:id/join_class',               to: 'classrooms#join', as: :join_classroom
   post 'teacher/:id/join_class',              to: 'classrooms#join_class', as: :join_classroom

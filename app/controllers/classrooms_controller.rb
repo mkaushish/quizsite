@@ -2,9 +2,14 @@ class ClassroomsController < ApplicationController
 
   before_filter :teacher?, :except => [:show]
   before_filter :validate_teacher, :only => [:new, :create, :join, :join_class]
+  before_filter :validate_teacher_via_current_user, :only => [:show_psets, :assign_pset, :show]
+  before_filter :validate_classroom, :only => [:show, :show_psets, :assign_pset, :assign_quiz]
   
+  def show
+    if @classroom.teacher_id == 
+  end
+
   def show_psets
-    @classroom = Classroom.find(params[:id])
     @sg_psets = ProblemSet.master_sets
     @my_psets = current_user.problem_sets
     @assigned_problem_sets = @classroom.assigned_problem_sets
@@ -18,7 +23,6 @@ class ClassroomsController < ApplicationController
 
   ## GET /assign_pset, remote => true
   def assign_pset
-    @classroom = Classroom.find(params[:id])
     if @classroom.classroom_teachers.pluck(:teacher_id).include? current_user.id
       @pset = ProblemSet.find(params[:pset_id])
       @classroom.assign!(@pset)
@@ -29,7 +33,6 @@ class ClassroomsController < ApplicationController
   end
 
   def assign_quiz
-    @classroom = Classroom.find(params[:id])
     unless @classroom.teacher == current_user
       render :js => 'alert("this class doesn\'t belong to you!");'
     end
@@ -37,9 +40,6 @@ class ClassroomsController < ApplicationController
     @quiz = Quiz.find(params[:quiz_id])
     @classroom.assign!(@quiz)
     render :js => "window.location.href = '/'"
-  end
-
-  def show
   end
 
   def new
@@ -89,5 +89,13 @@ class ClassroomsController < ApplicationController
 
   def validate_teacher
     @teacher = Teacher.find_by_id(params[:id])
+  end
+
+  def validate_teacher_via_current_user
+    @teacher = current_user if current_user.is_a? Teacher
+  end
+
+  def validate_classroom
+    @classroom = Classroom.find_by_id(params[:id])
   end
 end

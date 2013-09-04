@@ -28,17 +28,6 @@
             <div class="row-fluid">
                 <%= render 'teacher_info', :teacher => @teacher %>
             </div>
-            <h4>
-                <%= link_to "Join Classroom", join_classroom_path(@teacher), id: "join_class_btn", :class => "button-blue", remote: :true %>
-            </h4>
-            <br>
-            <h4>
-                <%= link_to "Create Classroom", new_classroom_path(@teacher), :class => "button-blue", remote: :true %>
-            </h4>
-            <br>
-            <h4>
-                <%= link_to "My Problem Sets", problem_sets_path(@teacher), :class => "button-blue" %>
-            </h4>
             
             <div id="form"></div>
             <div id="classrooms_div")>
