@@ -1,4 +1,5 @@
 function walkthrough_pset(){
+	not_mobile= !(/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent));
 	$('#walkthrough').pagewalkthrough({
 		steps: [
 		{
@@ -111,7 +112,7 @@ function walkthrough_pset(){
 		},
 		],
 		name: 'Walkthrough',
-		onLoad: true,
+		onLoad: not_mobile,
 	});
 $('.prev-step').live('click', function(e){
 	$.pagewalkthrough('prev',e);
