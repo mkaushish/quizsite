@@ -54,7 +54,7 @@ Quizsite::Application.routes.draw do
   get '/students/new',                        to: 'students#new', :as => :new_student
   post '/students',                           to: 'students#create', :as => :students
   get '/student/edit',                        to: 'students#edit', :as => :edit_student
-  get '/student/notifications',               to: 'students#notifications', :as => :notifications_student
+#  get '/student/notifications',               to: 'students#notifications', :as => :notifications_student
   put '/students/:id/update',                 to: 'students#update', :as => :update_student
   get '/students/:id',                        to: 'students#show', :as => :student
   get "/students/:id/bagdes",                 to: 'students#badges', :as => :student_badges

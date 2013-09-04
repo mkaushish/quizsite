@@ -1,31 +1,28 @@
-
-<div id='home' class='static-page'>
-    <div class='home3' style="width:80%; height:auto; margin-left:1%;">
-        <div class='dotted-border-header-black' style="width:50%;">
-            <p><%= @problem_set.name %></p>
-        </div>
-        <div class="dotted-border">
-            <p style="font-size: 40px;"><%= @problem_set.description %></p>
-        </div>
+<div class="navbar row-fluid" style='margin-bottom:0px;'>
+  <div class="navbar-inner" style="height:40px; border-radius:0px; -webkit-border-radius:0px;">
+    <a class="brand" style='font-family:Courier'><%=@problem_set.name %></a>
+    <ul class="nav">
+    </ul>
+  </div>
+</div>
+<div id='prof_cont' class='static-page' style='height:100%'>
+    <div style='padding:20px'>
+    <p class='pset_desc'><%= @problem_set.description %></p>
     </div>
-    
-    <div id="tabs" style="float:right;" class="dropdown">
-        <a class="account">Problems</a>
-        <div class="dropd">
-
-            <ul class="root">
-                <% @problem_set.problem_types.each do |ptype| %>
-                <% if signed_in? %>
-                    <li><%= link_to ptype.name, pset_do_path(@problem_set.id, ptype.id), remote: :true%></li>
-                <%else%>
-                    <li><%= link_to ptype.name, do_sample_problem_path(ptype.id), remote: :true  %></li>
-                <%end%>
-                <%end%>
-            </ul> 
+    <div id="badges_box" style='margin-left:40px'>
+        <% @problem_set.problem_types.each do |ptype| %>
+        <div class="list_box problem_list_box pset_list_box" style='margin:5px'>
+            <p><%=ptype.name%></p>
+            <% if(signed_in? && current_user.is_a?(Student))%>
+            <%= link_to 'Try', pset_do_path(@problem_set.id, ptype.id), remote: :true%>
+            <%else%>
+            <%= link_to 'Try', do_sample_problem_path(ptype.id), remote: :true  %>
+            <%end%>
         </div>
+            <%end%>
     </div>
     <%= render 'shared/disqus' %>
-    <div class='home3' style="clear:both;">
+    <!--<div class='home3' style="clear:both;">
         <div class='dotted-border-header-black' >
           <p>MAKE YOUR MATHS BETTER</p>
       </div>
@@ -34,11 +31,12 @@
             <iframe src="<%= @problem_set.video_link%>" frameborder="0" allowfullscreen></iframe>
         </div>
     </div>
-    </div>
+    </div>-->
     
 </div>
 
-<script type="text/javascript">
+<script>
+bclr_pset();
 // $(document).ready(function(){
 //     $('.account').click(function(){
 //         var X=$(this).attr('id');
