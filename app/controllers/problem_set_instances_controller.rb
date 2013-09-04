@@ -34,7 +34,7 @@ class ProblemSetInstancesController < ApplicationController
         if(@student.answers.find_by_problem_id(params[:problem_id].to_i).nil?)
 
         @instance = @stat.problem_set_instance
-        @answer = @student.answers.new params: params, session: @instance
+        @answer = @student.answers.create params: params, session: @instance
         @stat.update_w_ans!(@answer)
         @instance.update_instance!
         @problem = @answer.problem.problem
