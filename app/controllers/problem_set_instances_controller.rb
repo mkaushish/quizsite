@@ -41,7 +41,7 @@ class ProblemSetInstancesController < ApplicationController
         @solution = @problem.prefix_solve
         @response = @answer.response_hash
         @changedPoints = @answer.points
-        #@student.create_badges(@instance.problem_set, @stat.problem_type.id)
+        @student.create_badges(@instance.problem_set, @stat.problem_type.id)
         @all_badges = @student.all_badges
         else
             render 'shared/nothing', remote: :true
