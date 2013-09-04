@@ -16,6 +16,9 @@
 #    
 class Answer < ActiveRecord::Base
     include ApplicationHelper
+
+    has_many :comments, :dependent => :destroy
+
     belongs_to :problem
     belongs_to :user
     belongs_to :problem_generator # TODO remove?

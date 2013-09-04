@@ -144,34 +144,19 @@ module ApplicationHelper
     ((value*100)/total)
   end
   
-  def badgekey
-    # @badges=[]
-    # current_user.problem_sets.each do |pset|
-    #     @badges.push(["Badge" + pset.name + "B", "#{pset.name} Problem Set Blue", 3])
-    #     pset.problem_types.each do |ptype|
-    #         @badges.push(["Badge" + ptype.name + "B", "#{ptype.name} Problem Type Blue", 1])
-    #     end
-    # end
-    # @badges += [["BadgeCAPSWAD", "Problem Set Completed Within a Day", 2],["BadgeTRQC", "10 red Questions Correct", 2]]
-    # @badges << ["BadgeAPSD", "All Problem Sets Blue", 5]
-
-    # for i in 0...2
-    #     for j in 0...3
-    #         @badges << ["Badge#{(i+1)*5}QCIARF#{(j+1)*5}TO", "#{(i+1)*5} Questions Correct in a Row for the #{(j+1)*5} Time", 3]
-    #     end
-    #     @badges << ["Badge#{(i+1)*5}QCIARFTO", "#{(i+1)*5} Questions Correct in a Row for the First Time", 2]
-    #     @badges << ["Badge#{(i+1)*5}PSB", "#{(i+1)*5} Problem Sets Blue", 4]
-    # end
-    
-    # @badges.sort!{|x,y| x[2] <=> y[2]}
-    # return @badges
-  end
-
-
   def date_of_last(day,date)
     newdate  = Date.parse(day)
     delta = newdate > date.to_date ? 0 : 7
     newdate + delta - 7
+  end
+
+  def event_time_format(time)
+      now = Time.now
+      if now - time > 7.days
+        l(time, :format => :short)
+      else
+        distance_of_time_in_words(time, now, true) + ' ago'
+      end
   end
 
   def total_correct_wrong_answers(student)

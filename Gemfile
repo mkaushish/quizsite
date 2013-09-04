@@ -29,7 +29,7 @@ group :development do
     gem "binding_of_caller"
     gem 'quiet_assets'
     gem 'debugger'
-    gem 'rack-mini-profiler'
+    #gem 'rack-mini-profiler'
     gem 'hirb'
     gem "mailcatcher", "~> 0.5.12"
 end

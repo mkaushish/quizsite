@@ -13,6 +13,7 @@ class Classroom < ActiveRecord::Base
                             :order => 'classroom_problem_sets.created_at ASC'
     has_many :classroom_quizzes, :dependent => :destroy
     has_many :quizzes
+    has_many :comments, :dependent => :destroy
 
     validates :student_password, :uniqueness => true
     validates :teacher_password, :uniqueness => true
@@ -177,6 +178,18 @@ class Classroom < ActiveRecord::Base
         end
         result.sort!{ |x,y| x[0] <=> y[0] }
         return result
+    end
+
+    def activities
+        students = self.students.includes(:news_feeds)
+        activity = Array.new
+        students.each do |student|
+            news_feeds = student.news_feeds.order("created_at ASC")
+            news_feeds.each do |news_feed|
+                activity.push [student.id, student.name, news_feed.content, news_feed.created_at]
+            end
+        end
+        return activity.sort{ |x,y| y[3] <=> x[3]}
     end
     
     private

@@ -10,7 +10,7 @@ class Student < User
     has_many :notifications
     has_many :relationships, :dependent => :destroy
     has_many :coaches, :through => :relationships
-
+    
     # after_create :assign_class #TODO broken
 
     def problem_history(*ptypes)

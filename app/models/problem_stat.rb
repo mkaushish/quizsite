@@ -27,12 +27,13 @@ class ProblemStat < ActiveRecord::Base
 
 
   def update_w_ans!(answer)
-    if answer.points.nil?
+    if answer.points == 0 or answer.points.nil?
       answer.points = points_for(answer.correct)
       answer.save
     end
     self.count += 1
     self.correct += 1 if answer.correct
+    
     self.points += answer.points
     user.add_points!(answer.points)
     modify_rewards(answer.correct)
