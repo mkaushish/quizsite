@@ -1,5 +1,5 @@
 function mob_comp(){
-	if(!(/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent))){
+	if((/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent))){
 		not_comp=['Draw Triangle', 'Draw Quadrilateral', 'DefVertices', 
 		'DefAdjacentSides', 'DefAdjacentVertices', 'AddNumberLine', 
 		'SubNumberLine', 'CreateBar', 'CreateTally', 'BisectLine'];
