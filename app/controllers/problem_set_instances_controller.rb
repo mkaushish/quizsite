@@ -46,7 +46,7 @@ class ProblemSetInstancesController < ApplicationController
         @student.create_badges(@instance.problem_set, @stat.problem_type.id)
         @all_badges = @student.all_badges
         else
-            render 'shared/nothing.js.erb'
+            render 'shared/nothing', remote: :true
         end
     end
 

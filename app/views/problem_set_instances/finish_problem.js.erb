@@ -1,3 +1,4 @@
+
 function change_color_status(elt, col) {
 	elt.removeClass("red-bord")
 	elt.removeClass("yellow-bord")
@@ -26,7 +27,7 @@ $("#badge_count_icosahedron").html("<%= j link_to (render  'students/badge_count
 bclr_problem();
 
 //initProblemOverlay();
+$('#problem_overlay').html('<%= j(render "answers/full_answer") %>');
 
 // create the problem
-$('#problem_overlay').html('<%= j(render "answers/full_answer") %>');
-//$("#points").html("<%= j render("students/student_points", :@student => @student) %>");
+$("#points").html("<%= j render("students/student_points", :@student => @student) %>");
