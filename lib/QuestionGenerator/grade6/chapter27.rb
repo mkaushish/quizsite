@@ -151,19 +151,19 @@ module Chapter27
     end
   end
 
-class Expansionexp < QuestionWithExplanation
+class Expansionexp < QuestionBase
   def self.type
     "Expand and Solve"
   end
   def initialize
-    @numbr1=rand(10) + 1
-    @numbr2=rand(10) - 8
-    @numbr3=rand(20) + 1
-    @numbr4=rand(5)  - 5
-    @num1=rand(5) - 8
-    @num2=rand(5)
-    @num3=rand(5)
-    @num4=rand(5) 
+    @numbr1=rand(4) + 1
+    @numbr2=rand(4) + 1
+    @numbr3=rand(4) + 1
+    @numbr4=rand(4) + 1 
+    @num1=rand(3)
+    @num2=rand(3)
+    @num3=rand(3)
+    @num4=rand(3) 
     @ans = @numbr1**(@num1) + @numbr2**(@num2) + @numbr3**(@num3) + @numbr4**(@num4)
     if @numbr1 < 0
       @numbr11="(#{@numbr1})"
@@ -189,10 +189,10 @@ class Expansionexp < QuestionWithExplanation
   end
 
   def solve
-    {"ans" => @ans.to_f }
+    {"ans" => @ans }
   end
   def text
-    [TextLabel.new("Find the value"), InlineBlock.new(Exponent.new(TextLabel.new(@numbr11),TextLabel.new(@num1)),TextLabel.new("+"),
+    [TextLabel.new("Find the value: "), InlineBlock.new(Exponent.new(TextLabel.new(@numbr11),TextLabel.new(@num1)),TextLabel.new("+"),
       Exponent.new(TextLabel.new(@numbr22),TextLabel.new(@num2)),TextLabel.new("+"),Exponent.new(TextLabel.new(@numbr33),TextLabel.new(@num3)),TextLabel.new("+"),Exponent.new(TextLabel.new(@numbr44),TextLabel.new(@num4))),TextLabel.new("Answer"),TextField.new("ans")]
   end
   def explain

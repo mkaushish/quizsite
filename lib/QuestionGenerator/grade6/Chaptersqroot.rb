@@ -181,9 +181,9 @@ class Primefactorization < QuestionBase
   def initialize
     @num1=[4001]
     while @num1.reduce(:*)**2 > 4000
+      @num1=[]
       for i in 0...rand(1)+3
        @num1 << SMALL_PRIMES.sample
-       @num2=@num1
       end
     end
   end
@@ -233,7 +233,7 @@ class Makeperfect1exp < QuestionWithExplanation
       
     end
   def text
-      [TextLabel.new("Find the two numbers to multipy to make #{@num_final} number a perfect sqaure"),InlineBlock.new(TextField.new("ans1"),TextLabel.new("x"),TextField.new("ans2"))]
+      [TextLabel.new("Find the two primes to multipy with #{@num_final} to make it a perfect sqaure"),InlineBlock.new(TextField.new("ans1"),TextLabel.new("x"),TextField.new("ans2"))]
   end
   def explain
     [
@@ -278,7 +278,7 @@ class Makeperfect2exp2 < QuestionWithExplanation
       
     end
   def text
-      [TextLabel.new("Find the two numbers to divide to make #{@num_final} number a perfect sqaure"),InlineBlock.new(TextField.new("ans1"),TextLabel.new("x"),TextField.new("ans2"))]
+      [TextLabel.new("Find the two primes to divide #{@num_final} by to make it a perfect sqaure"),InlineBlock.new(TextField.new("ans1"),TextLabel.new("x"),TextField.new("ans2"))]
   end
   def explain
     [

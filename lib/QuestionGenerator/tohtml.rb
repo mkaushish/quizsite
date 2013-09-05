@@ -82,7 +82,14 @@ module ToHTML
     end
 
     def correct?(solution, response)
-      [ @intpart, @num, @den ].map { |elt| elt.nil? || elt.correct?(solution, response) }.reduce(:&)
+      return false if !([@intpart, @num].map { |elt| elt.nil? || elt.correct?(solution, response) }.reduce(:&))
+      if ([@den].map { |elt| elt.nil? || elt.correct?(solution, response) }.reduce(:&))
+        return true
+      elsif (response[@den.name]=="" && solution[@den.name]=='1')
+        return true
+      else
+        return false
+      end
     end
 
     private
