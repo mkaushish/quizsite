@@ -3,18 +3,27 @@
 		<%= render 'classrooms/overall_classroom_chart', :@chart_data_1 => @chart_data_1 %>
 	</div>
 	<div class="span4">
-		<h3>Students who need attention</h3>
+		<h3>Students</h3>
 		<table>
 			<% @top_weak_students.each do |student| %>
+			
 				<tr>
 					<td>
-						<%= link_to "#{student[1]}", student_path(student[0].to_i) %>
+						<%= link_to "#{student[1]}", student_path(student[0].to_i), remote: :true  %>
 					</td>
 					<td>
+						<% unless student[2]== -1 %>
 						<%= student[2].to_s + "%" %>
+						<%else%>
+						<%= "Not Attempted" %>
+						<%end%>
 					</td>
 				</tr>
+
 			<% end %>
 		</table>
 	</div>
+
 </div>
+<div id='check'>
+	</div>

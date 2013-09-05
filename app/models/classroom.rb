@@ -137,9 +137,9 @@ class Classroom < ActiveRecord::Base
             chart_data.push(["60-70%", select_60_to_70])
         select_30_to_60 = ((temp.select{|v| v>=30}).select{|v| v<60}).count   
             chart_data.push(["30-60%", select_30_to_60])
-        select_0_to_30 = ((temp.select{|v| v > 0}).select{|v| v<30}).count    
+        select_0_to_30 = ((temp.select{|v| v>=0}).select{|v| v<30}).count    
             chart_data.push(["0-30%", select_0_to_30])
-        select_0 = (temp.select{|v| v == 0}).count    
+        select_0 = (temp.select{|v| v<0}).count    
             chart_data.push(["Haven't Attempted", select_0])
         return chart_data
     end
@@ -151,14 +151,14 @@ class Classroom < ActiveRecord::Base
             total_answers = answers_stats[0]
             correct_answers = answers_stats[1]
             marks = (percentage(correct_answers, total_answers)).to_f
-            unless marks.blank?
+            unless total_answers==0
                 result.push [student.id, student.name, marks.round(1)]
             else
-                result.push [student.id, student.name, "N/A"]
+                result.push [student.id, student.name, -1]
             end
         end
         result.sort!{ |x,y| x[2] <=> y[2] }
-        return result.first(n)
+        return result
     end
 
     def quiz_results(quiz_id)
