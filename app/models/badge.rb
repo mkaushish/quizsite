@@ -41,7 +41,7 @@ class Badge < ActiveRecord::Base
             end
         else
             pty=ProblemType.find_by_id(ptype)
-            Badge.BadgePTTQCIARFTO_1(student, answers_correct_with_problem_type.select{|v| v==ptype}, 5, pty)
+            Badge.BadgePTTQCIARFTO_1(student, answers_correct_with_problem_type.select{|v| v[1] == ptype}, 5, pty)
             Badge.BadgePTB_1(student, pty) #[LEVEL 1]#    
         end
     end
@@ -214,7 +214,7 @@ class Badge < ActiveRecord::Base
         problem_type = pty
         @has_BadgePTTQCIARFTO = student.badges.find_by_badge_key("Badge#{problem_type.name}TQC")
         if @has_BadgePTTQCIARFTO.nil?
-            if answers.first(n).select{|v| v[0]=="true"}.count == 5
+            if answers.first(n).select{ |v| v[0] == true }.count == 5
             student.points += 1000
             student.save
             student.news_feeds.create(:content => "Congrats! You have won a new Badge: #{n} questions correct in a row for the first time only of #{problem_type.name}", :feed_type => "badge", :user_id => student.id)
