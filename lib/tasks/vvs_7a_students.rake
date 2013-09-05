@@ -1,6 +1,6 @@
 namespace :generate do
     desc "Make Students for Grade 6 and 7 of Vasant Valley School"
-    task :create_vvs_7a_classrooms_with_students => :environment do
+    task :create_vvs_7a_classroom_with_students => :environment do
 
         classrooms_with_students = [
             {   :class_name => "7a VVS", 

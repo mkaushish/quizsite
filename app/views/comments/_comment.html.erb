@@ -1,0 +1,25 @@
+<div class="row-fluid" id="comment_<%= comment.id %>">
+    <div class="media">
+        <%- user = comment.user -%>
+        <%- unless user.image.blank? -%>
+            <%= image_tag ("#{user.image}"), :size => "70x70", :class => "pull-left media-object" %>
+        <%- else -%>
+            <%= image_tag ("default_70x70.png"), :size => "70x70", :class => "pull-left media-object" %>
+        <%- end -%>
+        <div class="media-body">
+            <h4 class="media-heading"><%= user.name %></h4>
+            <%= comment.content %>
+            <p>
+                <small>
+                    <%= event_time_format(comment.updated_at) %>
+                    <%- if current_user.id == user.id -%>
+                        <%= link_to "Edit", "#" %>
+                        <%= "|" %>
+                        <%= link_to "Delete", user_comment_path(user, comment), method: :delete, remote: :true  %>
+                    <%- end -%>
+                </small>
+            </p>
+        </div>
+    </div>
+    <br />
+</div>

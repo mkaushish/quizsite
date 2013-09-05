@@ -1,7 +1,9 @@
 class Comment < ActiveRecord::Base
-  attr_accessible :answer_id, :classroom_id, :content, :user_id
+	attr_accessible :answer_id, :classroom_id, :content, :user_id
 
-  belongs_to :user
-  belongs_to :answer
-  belongs_to :classroom
+	belongs_to :user
+	belongs_to :answer
+	belongs_to :classroom
+
+	validates :content, :presence => :true
 end
