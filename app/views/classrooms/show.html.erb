@@ -1,4 +1,8 @@
-<h2><%= @classroom.name %></h2>
+<div class='navbar'>
+	<div class="navbar-inner" style="height:40px; border-radius:0px; -webkit-border-radius:0px;">
+<a class="brand" style='font-family:Courier'><%=@classroom.name %></a>
+</div>
+</div>
 <h3>What's happening in this classroom:</h3>
 <div class="row-fluid">									
 	<%- @activities.each do |activity| -%>
