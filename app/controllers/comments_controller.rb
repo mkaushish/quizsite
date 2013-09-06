@@ -1,12 +1,14 @@
 class CommentsController < ApplicationController
 
   before_filter :authenticate
-  before_filter :validate_user, :only => [:create, :destroy]
-  before_filter :validate_comment, :only => [:destroy]
+  before_filter :validate_user, :only => [:edit, :create, :update, :destroy]
+  before_filter :validate_comment, :only => [:edit, :update, :destroy]
 
   # GET /comments/1/edit
   def edit
-    @comment = Comment.find(params[:id])
+    respond_to do |format|
+      format.js
+    end
   end
 
   # POST /comments
@@ -14,31 +16,19 @@ class CommentsController < ApplicationController
   def create
     @comment = @user.comments.create(params[:comment])
     respond_to do |format|
-      # if @comment.save
         format.js
         format.html { redirect_to classroom_path(@comment.classroom_id), notice: "Comment Created!" }
-      # else
-      #   if @comment.classroom_id.blank? 
-      #     format.html { redirect_to root_path, notice: "Comment not created!" }
-      #   elsif @comment.answer_id.blank?
-      #     format.html { redirect_to classroom_path(@comment.classroom_id), notice: "Comment not created!" }
-      #   end
-      # end
     end
   end
 
   # PUT /comments/1
   # PUT /comments/1.json
   def update
-    @comment = Comment.find(params[:id])
-
     respond_to do |format|
       if @comment.update_attributes(params[:comment])
-        format.html { redirect_to @comment, notice: 'Comment was successfully updated.' }
-        format.json { head :no_content }
+        format.js 
       else
-        format.html { render action: "edit" }
-        format.json { render json: @comment.errors, status: :unprocessable_entity }
+        format.js { render action: "edit" }
       end
     end
   end

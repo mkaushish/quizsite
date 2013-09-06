@@ -1,0 +1,1 @@
+$("#comment_body_<%= @comment.id %>").html("<%= j (render "comments/form_for_edit_comment", :comment => @comment, :user => @user) %>");

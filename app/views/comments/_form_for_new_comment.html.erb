@@ -17,14 +17,14 @@
 	</div>
 
 	<div class="actions">
-	   <%= f.submit "Comment", :class => "btn" %>
+      <%= f.submit "Comment", :class => "btn" %>
 	</div>
 	
-    <div class="field">
-        <% if defined? classroom or !classroom.blank? %>
-            <%= f.hidden_field :classroom_id, :value => classroom.id %>
-        <% elsif defined? answer or !answer.blank? %>
-            <%= f.hidden_field :answer_id, :value => answer.id %>
-        <% end %>
+  <div class="field">
+      <% if defined? classroom or !classroom.blank? %>
+          <%= f.hidden_field :classroom_id, :value => classroom.id %>
+      <% elsif defined? answer or !answer.blank? %>
+          <%= f.hidden_field :answer_id, :value => answer.id %>
+      <% end %>
 	</div>
 <% end %>

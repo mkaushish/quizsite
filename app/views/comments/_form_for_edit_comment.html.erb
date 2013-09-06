@@ -1,0 +1,22 @@
+<%= form_for [user, comment], :url => user_comment_path(user, comment), :remote => :true do |f| %>
+  	<% if comment.errors.any? %>
+    	<div class="alert alert-error">
+    		<div id="error_explanation">
+    			<h5><%= pluralize(comment.errors.count, "error") %> prohibited this comment from being saved:</h5>
+   				<ul>
+ 					<% comment.errors.full_messages.each do |msg| %>
+   						<li><%= msg %></li>
+   					<% end %>
+   				</ul>
+			</div>
+		</div>
+    <% end %>
+
+	<div class="field">
+    	<%= f.text_area :content, :rows => 2 %>
+	</div>
+
+	<div class="actions">
+      <%= f.submit "Update", :class => "btn" %>
+	</div>
+<% end %>
