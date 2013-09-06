@@ -4,6 +4,12 @@ class CommentsController < ApplicationController
   before_filter :validate_user, :only => [:edit, :create, :update, :destroy]
   before_filter :validate_comment, :only => [:edit, :update, :destroy]
 
+  def new
+    respond_to do |format|
+      format.js
+    end
+  end
+  
   # GET /comments/1/edit
   def edit
     respond_to do |format|
