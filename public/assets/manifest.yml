@@ -157,6 +157,8 @@ chrome.png: chrome-80ee3cc9d43dcd8cbf007dd0120dc78b.png
 chrome/index.png: chrome-80ee3cc9d43dcd8cbf007dd0120dc78b.png
 chrome_i.png: chrome_i-6afc5da3c32e50b93e86a1e23fba6cf2.png
 chrome_i/index.png: chrome_i-6afc5da3c32e50b93e86a1e23fba6cf2.png
+chrome_icon.png: chrome_icon-673b9b2454879f34d82d61dd0ff3f33e.png
+chrome_icon/index.png: chrome_icon-673b9b2454879f34d82d61dd0ff3f33e.png
 close.png: close-ca858f3b56a0aa0502b580e18b0685df.png
 close/index.png: close-ca858f3b56a0aa0502b580e18b0685df.png
 coach_homepage.png: coach_homepage-6ff0250eb1c7c021eb87ee754a15686e.png
@@ -391,9 +393,9 @@ wheel.png: wheel-a06aa07895294bb254fac427c58f9bac.png
 wheel/index.png: wheel-a06aa07895294bb254fac427c58f9bac.png
 zoombar.png: zoombar-49642c9e286f9f778a9ceea6aadca4ee.png
 zoombar/index.png: zoombar-49642c9e286f9f778a9ceea6aadca4ee.png
-application.js: application-0c04867973aab7c60c25efce28d00622.js
-application/index.js: application-0c04867973aab7c60c25efce28d00622.js
-application.css: application-4b5198eec42ac3d1fdb8b13f31336c9f.css
-application/index.css: application-4b5198eec42ac3d1fdb8b13f31336c9f.css
+application.js: application-01b1cec6af3283c9d4961d1e77e9aa61.js
+application/index.js: application-01b1cec6af3283c9d4961d1e77e9aa61.js
+application.css: application-f43b6e93f078ee0982021a60c35d2fe5.css
+application/index.css: application-f43b6e93f078ee0982021a60c35d2fe5.css
 jquery.pagewalkthrough.css: jquery.pagewalkthrough-2343758aacf0a1e7a80b0449fb6c7bd8.css
 jquery/index.pagewalkthrough.css: jquery.pagewalkthrough-2343758aacf0a1e7a80b0449fb6c7bd8.css
