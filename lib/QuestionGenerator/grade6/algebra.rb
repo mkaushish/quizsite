@@ -88,7 +88,7 @@ module Algebra
       def text
         [
           TextLabel.new("Find the Coefficient of x in"),
-          InlineBlock.new(TextLabel.new("(#{@a})x")),TextLabel.new(""),
+          InlineBlock.new(TextLabel.new("#{@a}x")),TextLabel.new(""),
           InlineBlock.new(TextField.new("ans1"))
 
         ]
@@ -191,8 +191,8 @@ module Algebra
     def text
       [TextLabel.new("Add the two polynomials "), 
 
-        InlineBlock.new(TextLabel.new("(#{@a})"),Exponent.new(TextLabel.new("X"),TextLabel.new("2")),TextLabel.new(" + (#{@b})X + (#{@c}) ")),TextLabel.new(""),
-        InlineBlock.new(TextLabel.new("(#{@d})"),Exponent.new(TextLabel.new("X"),TextLabel.new("2")),TextLabel.new(" + (#{@e})X + (#{@f}) ")),TextLabel.new(""),
+        InlineBlock.new(TextLabel.new("#{@a}"),Exponent.new(TextLabel.new("X"),TextLabel.new("2")),TextLabel.new(" + #{@b}X + #{@c} ")),TextLabel.new(""),
+        InlineBlock.new(TextLabel.new("#{@d}"),Exponent.new(TextLabel.new("X"),TextLabel.new("2")),TextLabel.new(" + #{@e}X + #{@f} ")),TextLabel.new(""),
        InlineBlock.new(TextLabel.new("Answer:"), TextField.new("ans1"),Exponent.new(TextLabel.new("X"),TextLabel.new("2")),TextLabel.new("+"),TextField.new("ans2"),TextLabel.new("X +"),TextField.new("ans3"))
       ]
     end
@@ -312,9 +312,9 @@ module Algebra
 
     def text
       [TextLabel.new("Add the two polynomials "), 
-        InlineBlock.new(TextLabel.new("(#{@a})XY + (#{@b})YZ + (#{@c})ZX ")),TextLabel.new(""),
-        InlineBlock.new(TextLabel.new("(#{@d})XY + (#{@e})YZ + (#{@f})ZX ")),TextLabel.new(""),
-        InlineBlock.new(TextLabel.new("(#{@g})XY + (#{@h})YZ + (#{@i})ZX ")),TextLabel.new(""),
+        InlineBlock.new(TextLabel.new("#{@a}XY + #{@b}YZ + #{@c}ZX ")),TextLabel.new(""),
+        InlineBlock.new(TextLabel.new("#{@d}XY + #{@e}YZ + #{@f}ZX ")),TextLabel.new(""),
+        InlineBlock.new(TextLabel.new("#{@g}XY + #{@h}YZ + #{@i}ZX ")),TextLabel.new(""),
        InlineBlock.new(TextLabel.new("Answer:"), TextField.new("ans1"),TextLabel.new("XY + "),TextField.new("ans2"),TextLabel.new("YZ +"),TextField.new("ans3"),TextLabel.new("ZX"))
       ]
     end
@@ -412,8 +412,8 @@ module Algebra
 
     def text
       [TextLabel.new("Subtract second polynomial from the first "), 
-        InlineBlock.new(TextLabel.new("(#{@a})"),Exponent.new(TextLabel.new("X"),TextLabel.new("2")),TextLabel.new(" + (#{@b})X + (#{@c}) ")),TextLabel.new(""),
-        InlineBlock.new(TextLabel.new("(#{@d})"),Exponent.new(TextLabel.new("X"),TextLabel.new("2")),TextLabel.new(" + (#{@e})X + (#{@f}) ")),TextLabel.new(""),
+        InlineBlock.new(TextLabel.new("#{@a}"),Exponent.new(TextLabel.new("X"),TextLabel.new("2")),TextLabel.new(" + #{@b}X + #{@c} ")),TextLabel.new(""),
+        InlineBlock.new(TextLabel.new("#{@d}"),Exponent.new(TextLabel.new("X"),TextLabel.new("2")),TextLabel.new(" + #{@e}X + #{@f} ")),TextLabel.new(""),
        InlineBlock.new(TextLabel.new("Answer:"), TextField.new("ans1"),Exponent.new(TextLabel.new("X"),TextLabel.new("2")),TextLabel.new("+"),TextField.new("ans2"),TextLabel.new("X +"),TextField.new("ans3"))
       ]
     end
@@ -580,8 +580,8 @@ class Sub_polynomials2 < QuestionWithExplanation
 
     def text
       [TextLabel.new("Subtract second polynomial from the first "), 
-        InlineBlock.new(TextLabel.new("(#{@a})"),Exponent.new(TextLabel.new("X"),TextLabel.new("2")),TextLabel.new(" + (#{@b})X + (#{@c})"),Exponent.new(TextLabel.new("Y"),TextLabel.new("2")),TextLabel.new(" + (#{@d})Y + (#{@e})XY + (#{@f})"),),TextLabel.new(""),
-        InlineBlock.new(TextLabel.new("(#{@g})"),Exponent.new(TextLabel.new("X"),TextLabel.new("2")),TextLabel.new(" + (#{@h})X + (#{@i})"),Exponent.new(TextLabel.new("Y"),TextLabel.new("2")),TextLabel.new(" + (#{@j})Y + (#{@k})XY + (#{@l})"),),TextLabel.new(""),
+        InlineBlock.new(TextLabel.new("#{@a}"),Exponent.new(TextLabel.new("X"),TextLabel.new("2")),TextLabel.new(" + #{@b}X + #{@c}"),Exponent.new(TextLabel.new("Y"),TextLabel.new("2")),TextLabel.new(" + #{@d}Y + #{@e}XY + #{@f}"),),TextLabel.new(""),
+        InlineBlock.new(TextLabel.new("#{@g}"),Exponent.new(TextLabel.new("X"),TextLabel.new("2")),TextLabel.new(" + #{@h}X + #{@i}"),Exponent.new(TextLabel.new("Y"),TextLabel.new("2")),TextLabel.new(" + #{@j}Y + #{@k}XY + #{@l}"),),TextLabel.new(""),
        InlineBlock.new(TextLabel.new("Answer:"), TextField.new("ans1"),Exponent.new(TextLabel.new("X"),TextLabel.new("2")),TextLabel.new("+"),TextField.new("ans2"),TextLabel.new("X +"),TextField.new("ans3"),Exponent.new(TextLabel.new("Y"),TextLabel.new("2")),TextField.new("ans4"),TextLabel.new("Y +"),TextField.new("ans5"),TextLabel.new("XY +"),TextField.new("ans6"))
       ]
     end
@@ -1450,7 +1450,5 @@ class Sub_polynomials2 < QuestionWithExplanation
    Algebra::Mul_bi_tri,
    Algebra::Mul_tri_tri,
    Algebra::Evaluate,
-   Algebra::Createkb,
-   Algebra::Createkb2
   ] # //Anurag is module name and dummy is class name
 end

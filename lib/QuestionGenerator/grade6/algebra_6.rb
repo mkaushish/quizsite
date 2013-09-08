@@ -45,6 +45,11 @@ module Algebra_6
       "ans1" => "#{@a}#{@var}"
      }
     end
+    def correct?(params)
+      resps = QuestionBase.vars_from_response( "ans1" , params)
+      puts "********\n" + resps.to_s + "********\n"
+      (((resps.gsub(/\s+/, "")) == "#{@a}#{@var}")or((resps.gsub(/\s+/, "")) == "#{@var}#{@a}"))
+    end
     
     def text
       if @choose ===3
@@ -100,11 +105,11 @@ module Algebra_6
       bool = true
       resps = QuestionBase.vars_from_response( "ans1" , params)
       puts "********\n" + resps.to_s + "********\n"
-      (((resps) == "#{@b}+#{@a}#{@var}")or((resps) == "#{@a}#{@var}+#{@b}"))
+      (((resps.gsub(/\s+/, "")) == "#{@b}+#{@a}#{@var}")or((resps.gsub(/\s+/, "")) == "#{@a}#{@var}+#{@b}"))
     end
     def text
       [
-        TextLabel.new("Ram puts #{@option1value}. There are #{@a} #{@option1value}. #{@b} extra #{@option2value} remain. Write the expression for the total number of #{@option2value}.(Use #{@var} for the number of #{@option3value})"), 
+        TextLabel.new("Ram puts #{@option1value}. There are #{@a} #{@option1value}. #{@b} extra #{@option2value} remain. Write the expression for the total number of #{@option2value} using the variable only once in the expression.(Use #{@var} for the number of #{@option3value}.)"), 
         TextField.new("ans1")
       ]
     end
@@ -139,6 +144,11 @@ module Algebra_6
         TextField.new("ans1")
       ]
    end
+   def correct?(params)
+      resps = QuestionBase.vars_from_response( "ans1" , params)
+      puts "********\n" + resps.to_s + "********\n"
+      (((resps.gsub(/\s+/, "")) == "#{@sides}#{@var}")or((resps.gsub(/\s+/, "")) == "#{@var}#{@sides}"))
+    end
 
    def explain
       [
@@ -219,18 +229,17 @@ module Algebra_6
 
     def correct?(params)
       if @choose===8
-          solsum = 0
-          bool = true
           resps = QuestionBase.vars_from_response( "ans1" , params)
           puts "********\n" + resps.to_s + "********\n"
-          (((resps) == "2#{@variable1}+2#{@variable2}")or((resps) == "2#{@variable2}+2#{@variable1}")or((resps) == "2(#{@variable1}+#{@variable2})")or((resps) == "2(#{@variable2}+#{@variable1})"))
-      elsif @choose===10
-          
-           solsum = 0
-            bool = true
+          (((resps.gsub(/\s+/, "")) == "2#{@variable1}+2#{@variable2}")or((resps.gsub(/\s+/, "")) == "2#{@variable2}+2#{@variable1}")or((resps.gsub(/\s+/, "")) == "2(#{@variable1}+#{@variable2})")or((resps.gsub(/\s+/, "")) == "2(#{@variable2}+#{@variable1})"))
+      elsif @choose===9
             resps = QuestionBase.vars_from_response( "ans1" , params)
             puts "********\n" + resps.to_s + "********\n"
-            (((resps) == "4#{@variable1}+4#{@variable2}+4#{@variable3}")or((resps) == "4#{@variable1}+4#{@variable3}+4#{@variable2}")or((resps) == "4#{@variable3}+4#{@variable1}+4#{@variable2}")or((resps) == "4#{@variable3}+4#{@variable2}+4#{@variable1}")or((resps) == "4#{@variable2}+4#{@variable1}+4#{@variable3}")or((resps) == "4#{@variable2}+4#{@variable3}+4#{@variable1}")or((resps) == "4(#{@variable3}+#{@variable1}+#{@variable2})")or((resps) == "4(#{@variable3}+#{@variable2}+#{@variable1})")or((resps) == "4(#{@variable2}+#{@variable1}+#{@variable3})")or((resps) == "4(#{@variable2}+#{@variable3}+#{@variable1})")or((resps) == "4(#{@variable1}+#{@variable2}+#{@variable3})")or((resps) == "4(#{@variable1}+#{@variable3}+#{@variable2})")) 
+            (((resps.gsub(/\s+/, "")) == "12#{@variable1}"))
+      elsif @choose===10
+            resps = QuestionBase.vars_from_response( "ans1" , params)
+            puts "********\n" + resps.to_s + "********\n"
+            (((resps.gsub(/\s+/, "")) == "4#{@variable1}+4#{@variable2}+4#{@variable3}")or((resps.gsub(/\s+/, "")) == "4#{@variable1}+4#{@variable3}+4#{@variable2}")or((resps.gsub(/\s+/, "")) == "4#{@variable3}+4#{@variable1}+4#{@variable2}")or((resps.gsub(/\s+/, "")) == "4#{@variable3}+4#{@variable2}+4#{@variable1}")or((resps.gsub(/\s+/, "")) == "4#{@variable2}+4#{@variable1}+4#{@variable3}")or((resps.gsub(/\s+/, "")) == "4#{@variable2}+4#{@variable3}+4#{@variable1}")or((resps.gsub(/\s+/, "")) == "4(#{@variable3}+#{@variable1}+#{@variable2})")or((resps.gsub(/\s+/, "")) == "4(#{@variable3}+#{@variable2}+#{@variable1})")or((resps.gsub(/\s+/, "")) == "4(#{@variable2}+#{@variable1}+#{@variable3})")or((resps.gsub(/\s+/, "")) == "4(#{@variable2}+#{@variable3}+#{@variable1})")or((resps.gsub(/\s+/, "")) == "4(#{@variable1}+#{@variable2}+#{@variable3})")or((resps.gsub(/\s+/, "")) == "4(#{@variable1}+#{@variable3}+#{@variable2})")) 
       end
     end
 
@@ -382,7 +391,7 @@ module Algebra_6
     end
   end
 
-  class Try_15 < QuestionWithExplanation
+  class Try_15 < QuestionBase
     def self.type
       "Give the Expression"
     end
@@ -414,32 +423,14 @@ module Algebra_6
       end
     end
 
-    def correct?(params)
-      if @choose===0
-          solsum = 0
-          bool = true
-          resps = QuestionBase.vars_from_response( "ans1" , params)
-          puts "********\n" + resps.to_s + "********\n"
-          (((resps) == "#{@a}+#{@var}")or((resps) == "#{@var}+#{@a}"))
-        end
-    end
-
     def text
+      ret=[TextLabel.new('Which of the following is the correct expression for:')]
       if (@choose ===1)or(@choose===0)
-        [
-          TextLabel.new("Give expression for"),
-          TextLabel.new("#{@a} #{@option1value} #{@var}"),
-          TextField.new("ans1")
-        
-        ]
+          ret << TextLabel.new("#{@a} #{@option1value} #{@var}")
       else
-        [ 
-          TextLabel.new("Give expression for"),
-          TextLabel.new("#{@var} #{@option1value} #{@a}"),
-          TextField.new("ans1")
-        
-        ]
+          ret << TextLabel.new("#{@var} #{@option1value} #{@a}")
       end
+      ret << RadioButton.new('ans1', ["#{@var}+#{@a}", "#{@var}-#{@a}", "#{@var}#{@a}", "#{@var}/#{@a}"])
     end
 
     def explain
@@ -535,27 +526,31 @@ module Algebra_6
     end
 
     def correct?(params)
+      resps = QuestionBase.vars_from_response( "ans1" , params)
+      puts "********\n" + resps.to_s + "********\n"
       if @choose===0
         if @div===2
-          solsum = 0
-          bool = true
-          resps = QuestionBase.vars_from_response( "ans1" , params)
-          puts "********\n" + resps.to_s + "********\n"
-          (((resps) == "#{@var}/#{@b}+#{@a}")or((resps) == "#{@a}+#{@var}/#{@b}"))
+          (((resps.gsub(/\s+/, "")) == "#{@var}/#{@b}+#{@a}")or((resps.gsub(/\s+/, "")) == "#{@a}+#{@var}/#{@b}"))
+        elsif @div==1
+          (((resps.gsub(/\s+/, "")) == "#{@var}/#{@b}-#{@a}")or((resps.gsub(/\s+/, "")) == "-#{@a}+#{@var}/#{@b}"))
+        elsif @div==0
+          if @rel1<3
+            (((resps.gsub(/\s+/, "")) == "#{@var}-#{@a}")or((resps.gsub(/\s+/, "")) == "-#{@a}+#{@var}"))
+          else
+            (((resps.gsub(/\s+/, "")) == "#{@var}-#{@c}")or((resps.gsub(/\s+/, "")) == "-#{@c}+#{@var}"))
+          end
         end
       elsif @choose===1
           if @div===0
-           solsum = 0
-            bool = true
-            resps = QuestionBase.vars_from_response( "ans1" , params)
-            puts "********\n" + resps.to_s + "********\n"
-            (((resps) == "#{@var}+#{@a}")or((resps) == "#{@a}+#{@var}")) 
+            if @rel1<3
+              (((resps.gsub(/\s+/, "")) == "#{@var}+#{@a}")or((resps.gsub(/\s+/, "")) == "#{@a}+#{@var}")) 
+            else
+              (((resps.gsub(/\s+/, "")) == "#{@var}+#{@c}")or((resps.gsub(/\s+/, "")) == "#{@c}+#{@var}")) 
+            end
           elsif @div===2
-            solsum = 0
-            bool = true
-            resps = QuestionBase.vars_from_response( "ans1" , params)
-            puts "********\n" + resps.to_s + "********\n"
-            (((resps) == "#{@b}#{@var}+#{@a}")or((resps) == "#{@a}+#{@b}#{@var}")) 
+            (((resps.gsub(/\s+/, "")) == "#{@b}#{@var}+#{@a}")or((resps.gsub(/\s+/, "")) == "#{@a}+#{@b}#{@var}")) 
+          elsif @div===1
+            (((resps.gsub(/\s+/, "")) == "#{@b}#{@var}-#{@a}")or((resps.gsub(/\s+/, "")) == "-#{@a}+#{@b}#{@var}")) 
           end
       end
     end
