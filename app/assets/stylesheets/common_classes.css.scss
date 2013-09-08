@@ -15,6 +15,15 @@
     border:none
   }
 }
+#SignUp {
+  border-radius: 0px;
+  -webkit-border-radius:0px;
+//  width:428px;
+  .modal-header{
+    padding-left:0;
+    border:none
+  }
+}
 .dotted-border-header {
   font-size: 15px;
   display: inline-block;
