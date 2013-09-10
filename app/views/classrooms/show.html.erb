@@ -1,15 +1,19 @@
-<h2><%= @classroom.name %></h2>
+<div class='navbar'>
+	<div class="navbar-inner" style="height:40px; border-radius:0px; -webkit-border-radius:0px;">
+<a class="brand" style='font-family:Courier'><%=@classroom.name %></a>
+</div>
+</div>
 <h3>What's happening in this classroom:</h3>
 <div class="row-fluid">									
 	<%- @activities.each do |activity| -%>
-		<div class="row-fluid">
-			<div class="span2">
+		<div class="row-fluid feed_ind">
+			<div class="feed_name">
 				<%= link_to activity[1], student_path(activity[0]), remote: :true %>
 			</div>
-			<div class="span6">
+			<div class="feed_content">
 				<%= activity[2] %>
 			</div>
-			<div class="span2">
+			<div class="feed_time">
 				<%= event_time_format(activity[3]) %>
 			</div>
 		</div>

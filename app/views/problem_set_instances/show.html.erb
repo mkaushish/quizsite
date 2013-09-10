@@ -40,7 +40,7 @@
       <h4>History</h4>
     </div>
 
-    <div class='dotted-border' style='height:1000px;'>
+    <div class='dotted-border'>
   <div class="gif_tick">
     <img src="/assets/Boxes_Animation.gif"></img>
   </div>
@@ -72,7 +72,7 @@
 <!-- <script>dbord(["<%#=@blue%>","<%#=@green%>","<%#=@red%>"]);
 </script> -->
 <!-- end -->
-<div>
+<div id='bbor' style='margin-left:43px'>
   <% @stats.each do |i| %>
     <%= render :partial => 'problem_list_box', :object => i,  :locals => {:item => i}%>
   <% end %>

@@ -772,7 +772,24 @@ footer h4{
     color: rgba(0,0,0,0.6);
     text-shadow: 2px 2px 3px rgba(255,255,255,0.1);
 }
-
+.chrome_icon{
+  width:100px;
+}
+.chrome_text{
+  font-family: 'Chalk2';
+  font-size:30px;
+  color:white;
+}
+#chrome_div{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:50px;
+  width:50%;
+  background-color:black;
+  padding:20px;
+  height:300px;
+  text-align: center;
+}
 // }}}
 // }}}
 

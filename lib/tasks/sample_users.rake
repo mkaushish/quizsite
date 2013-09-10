@@ -22,6 +22,7 @@ namespace :generate do
       t.confirmed = true
       t.save!
       classroom = Classroom.new name: "Test"
+      classroom.new_password
       
       if classroom.save
         classroom_teacher = t.classroom_teachers.create(:classroom_id => classroom.id)  

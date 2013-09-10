@@ -1,7 +1,7 @@
 <div class="modal hide fade" id="SignUp" style="font-family:SansSerif;">
     <div class="row-fluid">
         <div class="modal-header">
-            <div><h4>Register</h4></div>
+            <img src="/assets/Home/signup_bar.png" style="width:100%">
         </div>
         
         <div class="modal-body">
@@ -15,9 +15,9 @@
                 </div>
                 <div class="span12">
                     <div class="row-fluid">
-                        <%= link_to image_tag("student_homepage.png", :size => "150x80"),"#" ,:id=>"Student", :onclick=> 'select_type("Student")' %>
-                        <%= link_to image_tag("teacher_homepage.png", :size => "150x80"),"#" ,:id=>"Teacher", :onclick=> 'select_type("Teacher")' %>
-                        <%= link_to image_tag("coach_homepage.png", :size => "150x80"),"#" ,:id=>"Coach", :onclick=> 'select_type("Coach")' %>
+                        <%= link_to image_tag("student_homepage.png", :size => "150x80"),"#", :class => 'user_sel', :id=>"Student", :onclick=> 'select_type("Student")' %>
+                        <%= link_to image_tag("teacher_homepage.png", :size => "150x80"),"#", :class => 'user_sel', :id=>"Teacher", :onclick=> 'select_type("Teacher")' %>
+                        <%= link_to image_tag("coach_homepage.png", :size => "150x80"),"#", :class => 'user_sel', :id=>"Coach", :onclick=> 'select_type("Coach")' %>
                     </div>
                     <br>
                     <%= form_tag signup_user_path, method: :post do |f| %>
@@ -59,10 +59,14 @@
     </div>
 </div>
 <script>
+    $("#Student img").css("border","8px solid purple");
+    $("#Student img").css("border-radius","5px");
     function select_type(value) {
         var type = value;
         $("#type").val(type);
-        $("#"+value+" img").css("border","2px solid black");
+        $('.user_sel img').css('border-width','0px');
+        $("#"+value+" img").css("border","8px solid purple");
+        $("#"+value+" img").css("border-radius","5px");
     }
 
 </script>

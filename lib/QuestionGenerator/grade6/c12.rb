@@ -96,6 +96,7 @@ module Chapter12
 
     def correct?(response)
       a, b = QuestionBase.vars_from_response("a", "b", response).map { |s| s.to_i }
+      b=1 if b==''
       return false if b == 0
       Chapter12::rat_eq(a.to_i, b.to_i, @a, @b)
     end
@@ -166,6 +167,7 @@ module Chapter12
 
     def correct?(response)
       n, m = QuestionBase.vars_from_response("n", "m", response)
+      m=1 if m==''
       return Chapter12::rat_eq(n, m, @n, @m)
     end
   end
