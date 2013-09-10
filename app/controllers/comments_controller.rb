@@ -1,10 +1,18 @@
 class CommentsController < ApplicationController
 
   before_filter :authenticate
-  before_filter :validate_user, :only => [:edit, :create, :update, :destroy]
+  before_filter :validate_user, :only => [:new, :edit, :create, :update, :destroy]
   before_filter :validate_comment, :only => [:edit, :update, :destroy]
 
   def new
+    @comment = Comment.new
+    if defined? params[:classroom_id]
+      @comment.classroom_id = params[:classroom_id]
+    elsif defined? params[:answer_id]
+      @comment.answer_id = params[:answer_id]
+    end
+
+    @reply_comment_id = params[:reply_comment_id] if defined? params[:reply_comment_id]
     respond_to do |format|
       format.js
     end
@@ -20,10 +28,13 @@ class CommentsController < ApplicationController
   # POST /comments
   # POST /comments.json
   def create
-    @comment = @user.comments.create(params[:comment])
+    @comment = @user.comments.build(params[:comment])
     respond_to do |format|
+      if @comment.save
+        @parent_comment = Comment.find_by_id(@comment.reply_comment_id) unless @comment.reply_comment_id.blank?
         format.js
         format.html { redirect_to classroom_path(@comment.classroom_id), notice: "Comment Created!" }
+      end
     end
   end
 

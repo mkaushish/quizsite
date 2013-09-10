@@ -1,1 +1,5 @@
-$("#comment_<%= @comment.id %>").fadeOut("slow").remove();
+<% if @comment.reply_comment_id.blank? %>
+	$("#comment_<%= @comment.id %>").fadeOut("slow").remove();
+<% else %>
+	$("#child_comment_<%= @comment.id %>").fadeOut("slow").remove();
+<% end %>

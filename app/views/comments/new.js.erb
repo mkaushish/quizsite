@@ -1,0 +1,1 @@
+$("#comment_replies_<%= @reply_comment_id.to_i %>").append("<%= j (render "comments/form_for_new_comment", :comment => @comment, :user => @user, :reply_comment_id => @reply_comment_id) %>");

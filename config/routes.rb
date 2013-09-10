@@ -7,7 +7,7 @@ Quizsite::Application.routes.draw do
     member do
       post 'change_password'
     end
-    resources :comments, except: [:index, :show, :new]
+    resources :comments, except: [:index, :show]
   end
 
   match "/auth/:provider/callback" => "users#create_user_vdp"

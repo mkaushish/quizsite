@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130906142639) do
+ActiveRecord::Schema.define(:version => 20130910062540) do
 
   create_table "answers", :force => true do |t|
     t.boolean  "correct"
@@ -92,7 +92,7 @@ ActiveRecord::Schema.define(:version => 20130906142639) do
   end
 
   create_table "comments", :force => true do |t|
-    t.string   "content"
+    t.text     "content"
     t.integer  "user_id"
     t.integer  "answer_id"
     t.integer  "classroom_id"

@@ -21,10 +21,16 @@
 	</div>
 	
   <div class="field">
-      <% if defined? classroom or !classroom.blank? %>
+      <% if defined? classroom %>
           <%= f.hidden_field :classroom_id, :value => classroom.id %>
-      <% elsif defined? answer or !answer.blank? %>
+      <% elsif defined? answer %>
           <%= f.hidden_field :answer_id, :value => answer.id %>
       <% end %>
 	</div>
+
+  <div class="field">
+      <% if defined? reply_comment_id %>
+          <%= f.hidden_field :reply_comment_id, :value => reply_comment_id %>
+      <% end %>
+  </div>
 <% end %>

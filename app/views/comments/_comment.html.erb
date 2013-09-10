@@ -17,8 +17,27 @@
                             <%= "|" %>
                             <%= link_to "Delete", user_comment_path(user, comment), method: :delete, remote: :true  %>
                         <%- end -%>
+                        <%= "|" %>
+                        <% if defined? @classroom %>
+                            <%= link_to "Reply", new_user_comment_path(current_user, :reply_comment_id => comment.id, 
+                            :classroom_id => @classroom), remote: :true  %>
+                        <% elsif !comment.classroom_id.blank? %>
+                            <%= link_to "Reply", new_user_comment_path(current_user, :reply_comment_id => comment.id, 
+                            :classroom_id => comment.classroom_id), remote: :true  %>
+                        <% end %>
+                        <% if defined? @answer %>
+                            <%= link_to "Reply", new_user_comment_path(current_user, :reply_comment_id => comment.id, 
+                            :answer_id => @answer), remote: :true %>
+                        <% elsif !comment.answer_id.blank? %>
+                            <%= link_to "Reply", new_user_comment_path(current_userr, :reply_comment_id => comment.id,
+                            :answer_id => comment.answer_id), remote: :true %>
+                        <% end %>
                     </small>
                 </p>
+            </div>
+            <!-- Nested media object -->
+            <div class="media well well-small" id="comment_replies_<%= comment.id %>">
+                <%= render "comments/replies", :comment => comment %>
             </div>
         </div>
     </div>
