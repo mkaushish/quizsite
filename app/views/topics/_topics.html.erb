@@ -1,0 +1,13 @@
+<table class="table table-hover">
+	<thead>
+			<td class="span6">Topic</td>
+			<td class="span2">Owner</td>
+			<td class="span2">Comments Count</td>
+			<td class="span2">Options</td>
+	</thead>
+	<tbody id="topics_list">
+		<%- topics.each do |topic| -%>
+				<%= render 'topics/topic', :topic => topic, :user => user, :classroom_id => classroom_id %>
+		<%- end -%>
+	</tbody>
+</table>

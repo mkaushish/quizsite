@@ -4,12 +4,12 @@
     		<div id="error_explanation">
     			<h5><%= pluralize(comment.errors.count, "error") %> prohibited this comment from being saved:</h5>
    				<ul>
- 					<% comment.errors.full_messages.each do |msg| %>
-   						<li><%= msg %></li>
-   					<% end %>
+   					<% comment.errors.full_messages.each do |msg| %>
+     					<li><%= msg %></li>
+     				<% end %>
    				</ul>
-			</div>
-		</div>
+        </div>
+		  </div>
     <% end %>
 
 	<div class="field">
@@ -31,6 +31,12 @@
   <div class="field">
       <% if defined? reply_comment_id %>
           <%= f.hidden_field :reply_comment_id, :value => reply_comment_id %>
+      <% end %>
+  </div>
+
+  <div class="field">
+      <% if defined? topic %>
+          <%= f.hidden_field :topic_id, :value => topic.id %>
       <% end %>
   </div>
 <% end %>

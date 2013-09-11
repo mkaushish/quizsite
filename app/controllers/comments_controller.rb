@@ -33,7 +33,8 @@ class CommentsController < ApplicationController
       if @comment.save
         @parent_comment = Comment.find_by_id(@comment.reply_comment_id) unless @comment.reply_comment_id.blank?
         format.js
-        format.html { redirect_to classroom_path(@comment.classroom_id), notice: "Comment Created!" }
+      else
+        format.html { redirect_to classroom_path(@comment.classroom_id), notice: "Comment isn't Created!" }
       end
     end
   end

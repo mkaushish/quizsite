@@ -7,6 +7,7 @@ Quizsite::Application.routes.draw do
     member do
       post 'change_password'
     end
+    resources :topics, except: [:index] 
     resources :comments, except: [:index, :show]
   end
 

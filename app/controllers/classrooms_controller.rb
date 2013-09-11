@@ -7,8 +7,10 @@ class ClassroomsController < ApplicationController
     before_filter :validate_classroom, :only => [:show, :show_psets, :assign_pset, :assign_quiz]
 
     def show
-        @comments = @classroom.comments.includes(:user).order("created_at DESC")
-        @comment = Comment.new
+        @topics = @classroom.topics.includes(:user)
+        @topic = Topic.new
+        #@comments = @classroom.comments.includes(:user).order("created_at DESC")
+        #@comment = Comment.new
         if current_user.is_a? Student and current_user.classrooms.include? @classroom
             @student = current_user
             @activities = @classroom.activities

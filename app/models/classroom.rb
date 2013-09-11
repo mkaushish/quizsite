@@ -1,6 +1,7 @@
 require 'digest'
 
 class Classroom < ActiveRecord::Base
+    
     attr_accessible :name, :student_password, :teacher_password
     
     has_many :classroom_teachers, :dependent => :destroy
@@ -8,16 +9,22 @@ class Classroom < ActiveRecord::Base
     
     has_many :classroom_assignments, :dependent => :destroy
     has_many :students, :through => :classroom_assignments
+
     has_many :classroom_problem_sets, :dependent => :destroy
     has_many :problem_sets, :through => :classroom_problem_sets,
                             :order => 'classroom_problem_sets.created_at ASC'
     has_many :classroom_quizzes, :dependent => :destroy
     has_many :quizzes
-    has_many :comments, :dependent => :destroy
+
+    has_many :topics, :dependent => :destroy
+    has_many :comments, :through => :topics,
+                        :dependent => :destroy
 
     validates :student_password, :uniqueness => true
     validates :teacher_password, :uniqueness => true
+    
     validates :name, :presence => true
+    
     after_create :new_password
 
     def self.smarter_grades
