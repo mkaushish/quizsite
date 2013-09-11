@@ -29,6 +29,8 @@ class AnswersController < ApplicationController
         @stat = @instance.stat(@answer.problem_type)
         @problem = @answer.problem.problem
         @solution = @problem.prefix_solve
+        @comments = @answer.comments.includes(:user)
+        @comment = Comment.new
         puts "^"*60
         puts @solution.inspect
         @response = @answer.response_hash

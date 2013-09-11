@@ -29,7 +29,7 @@
                             <%= link_to "Reply", new_user_comment_path(current_user, :reply_comment_id => comment.id, 
                             :answer_id => @answer), remote: :true %>
                         <% elsif !comment.answer_id.blank? %>
-                            <%= link_to "Reply", new_user_comment_path(current_userr, :reply_comment_id => comment.id,
+                            <%= link_to "Reply", new_user_comment_path(current_user, :reply_comment_id => comment.id,
                             :answer_id => comment.answer_id), remote: :true %>
                         <% end %>
                     </small>

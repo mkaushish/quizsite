@@ -11,31 +11,33 @@ class User < ActiveRecord::Base
     
     serialize :problem_stats, Hash
 
-    has_many :custom_problems, :class_name => 'Problem'
-    has_many :answers, :dependent => :destroy
+    has_many :custom_problems,          :class_name => 'Problem'
+    has_many :answers,                  :dependent => :destroy
     
-    has_many :quiz_instances, :dependent => :destroy
-    has_many :quizzes, :through => :quiz_instances
+    has_many :quiz_instances,           :dependent => :destroy
+    has_many :quizzes,                  :through => :quiz_instances
     
-    has_many :problem_set_instances, :dependent => :destroy
+    has_many :problem_set_instances,    :dependent => :destroy
     has_many :problem_sets, :through => :problem_set_instances
     
     # has_many :problem_types # custom problems created by user
-    has_many :problem_stats, :dependent => :destroy # mastery stats
-    has_many :news_feeds, :dependent => :destroy
+    has_many :problem_stats,            :dependent => :destroy # mastery stats
+    has_many :news_feeds,               :dependent => :destroy
     
-    has_many :comments, :dependent => :destroy
-    has_many :topics, :dependent => :destroy
+    has_many :comments,                 :order => "created_at DESC",
+                                        :dependent => :destroy
+    has_many :topics,                   :order => "created_at DESC",
+                                        :dependent => :destroy
     
-    validates :email, :presence => true,
-                    :format => { :with => @@email_regex },
-                    :uniqueness => { :case_sensitive => false },
-                    :if => lambda{|a| a.new_record?}
+    validates :email,                   :presence => true,
+                                        :format => { :with => @@email_regex },
+                                        :uniqueness => { :case_sensitive => false },
+                                        :if => lambda{|a| a.new_record?}
 
-    validates :password, :presence => true,
-                       :confirmation => true,
-                       :length => { :within => 6..40 },
-                       :if => lambda{|a| a.new_record?}
+    validates :password,                :presence => true,
+                                        :confirmation => true,
+                                        :length => { :within => 6..40 },
+                                        :if => lambda{|a| a.new_record?}
 
     before_save  :encrypt_password
     

@@ -34,9 +34,9 @@
 <% if @problem.has_notepad? %>
   <div class='row-fluid calculations'>
     <% if @answer.notepad == "false" %>
-      <%= render partial: 'problems/side_notepad.html.erb' %>
+      <%= render partial: 'problems/side_notepad_answers.html.erb' %>
     <% else %>
-      <%= render partial: 'problems/side_notepad.html.erb', :@answer => @answer %>
+      <%= render partial: 'problems/side_notepad_answers.html.erb', :@answer => @answer %>
     <% end %>
   </div>
 <% end %>

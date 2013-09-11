@@ -17,12 +17,15 @@
 class Answer < ActiveRecord::Base
     include ApplicationHelper
 
-    has_many :comments, :dependent => :destroy
+    has_many :comments, :order => "created_at DESC",
+                        :dependent => :destroy
 
     belongs_to :problem
     belongs_to :user
+
     belongs_to :problem_generator # TODO remove?
     belongs_to :problem_type
+
     belongs_to :session, :polymorphic => true
 
      attr_writer :params
