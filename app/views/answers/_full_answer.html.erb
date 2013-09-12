@@ -2,42 +2,46 @@
 <%= render 'problem_set_instances/stats' unless @stat.nil? %>
 
 <div class="row-fluid problem_body">
-  <div class="problem_name">
-    <% $stderr.puts @problem.inspect %>
-    <h2 class="<%= ans_correct? ? "":"in" %>correct">
-      <%= @problem.type %>
-      <div id="attachment"><%= @problem_body unless @problem_body.blank? %></div>
-    </h2>
+    <div class="problem_name">
+        <% $stderr.puts @problem.inspect %>
+        <h2 class="<%= ans_correct? ? "":"in" %>correct">
+            <%= @problem.type %>
+            <div id="attachment"><%= @problem_body unless @problem_body.blank? %></div>
+        </h2>
+        <ul class="pull-right horizontal">
+            
+            <% if @problem.is_a? QuestionWithExplanation %>
+                <li>
+                    <%= link_to "See Explanation", explain_problem_path(@answer.problem_id), 
+                        :remote => true, :class => "pull-right button-blue", :id => "see_explanation" %>
+                </li>
 
-    <ul class="pull-right horizontal">
-      <% if @problem.is_a? QuestionWithExplanation %>
-        <li>
-          <%= link_to "See Explanation", explain_problem_path(@answer.problem_id), 
-              :remote => true, :class => "pull-right button-blue", :id => "see_explanation" %>
-        </li>
-      <% end %>
-
-      <% if !@instance.nil? %>
-        <li>
-          <%= link_to "Try Another",
-                      pset_do_path(:name => @instance.problem_set.id, :pid => @stat.problem_type.id), 
-                      { :remote => true, :class => 'pull-right button-blue', :id => 'try_another' } %>
-        </li>
-      <% end %>
-    </ul>
-  </div>
-  
-  <div class='problem answer'>
-    <%= render 'answers/answer_body' %>
-  </div>
+            <% elsif !@explanation.blank? %>
+                <li>
+                    <%= link_to "See Explanation", explain_problem_path(@answer.problem_id), 
+                        :remote => true, :class => "pull-right button-blue", :id => "see_explanation" %>
+                </li>
+            <% end %>
+            <% if !@instance.nil? %>
+                <li>
+                    <%= link_to "Try Another", pset_do_path(:name => @instance.problem_set.id, 
+                    :pid => @stat.problem_type.id), { :remote => true, :class => 'pull-right button-blue', 
+                    :id => 'try_another' } %>
+                </li>
+            <% end %>
+        </ul>
+    </div>
+    <div class='problem answer'>
+        <%= render 'answers/answer_body' %>
+    </div>
 </div>
 
 <% if @problem.has_notepad? %>
-  <div class='row-fluid calculations'>
-    <% if @answer.notepad == "false" %>
-      <%= render partial: 'problems/side_notepad_answers.html.erb' %>
-    <% else %>
-      <%= render partial: 'problems/side_notepad_answers.html.erb', :@answer => @answer %>
-    <% end %>
-  </div>
+    <div class='row-fluid calculations'>
+        <% if @answer.notepad == "false" %>
+            <%= render partial: 'problems/side_notepad_answers.html.erb' %>
+        <% else %>
+            <%= render partial: 'problems/side_notepad_answers.html.erb', :@answer => @answer %>
+        <% end %>
+    </div>
 <% end %>

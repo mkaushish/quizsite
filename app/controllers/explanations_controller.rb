@@ -3,8 +3,12 @@ class ExplanationsController < ApplicationController
     before_filter :validate_original_problem
 
     def explain
-        @i = SubproblemIterator.new(@orig_prob, "0")
-        @problem = @i.cur
+        unless @orig_prob.explanation.blank?
+            @explanation = @orig_prob.explanation
+        else
+            @i = SubproblemIterator.new(@orig_prob, "0")
+            @problem = @i.cur
+        end
     end
 
     def next_subproblem

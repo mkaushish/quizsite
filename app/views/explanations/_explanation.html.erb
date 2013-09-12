@@ -1,10 +1,14 @@
 <div class='explanation'>
-  <%= form_tag(next_subproblem_path, :remote => true, :autocomplete => "off") do %>
-  <%= hidden_field_tag 'i', @i.to_id %>
-  <%= hidden_field_tag 'problem_id', @orig_prob.id %>
-  <%= hidden_field_tag 'attempts', 0 %>
-  <%= render 'subproblem_form' %>
-  <%= hidden_field_tag 'next_subproblem', "" %>
-  <%= submit_tag "Go on...", :class=>"button-blue" %>
+  	<% unless explanation.blank? %>
+  		<%= explanation %>
+  	<% else %>
+	  	<%= form_tag(next_subproblem_path, :remote => true, :autocomplete => "off") do %>
+	  		<%= hidden_field_tag 'i', @i.to_id %>
+	  		<%= hidden_field_tag 'problem_id', @orig_prob.id %>
+	  		<%= hidden_field_tag 'attempts', 0 %>
+	  		<%= render 'subproblem_form' %>
+	  		<%= hidden_field_tag 'next_subproblem', "" %>
+	  		<%= submit_tag "Go on...", :class=>"button-blue" %>
+		<% end %>
+	<% end %>
 </div>
-<% end %>

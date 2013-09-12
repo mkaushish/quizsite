@@ -30,6 +30,7 @@ class AnswersController < ApplicationController
         @problem = @answer.problem.problem
         @solution = @problem.prefix_solve
         @comments = @answer.comments.includes(:user)
+        @explanation = @answer.problem.explanation
         @comment = Comment.new
         puts "^"*60
         puts @solution.inspect
