@@ -8,7 +8,7 @@ require 'physics'
 class AnswersController < ApplicationController
 
     before_filter :validate_student
-    before_filter :validate_instance, :only => [:show, :static_show]
+    before_filter :validate_instance, :only => [:static_show]
     before_filter :validate_answer, :only => [:show, :sample_prob_ans, :static_show]
 
     # GET /answers
@@ -23,9 +23,7 @@ class AnswersController < ApplicationController
 
     # post /answers/1, js
     def show
-        @instance = ProblemSetInstance.find(params[:instance])
-        @instance ||= ProblemSetInstance.last
-        @answer = Answer.includes(:problem).find(params[:id])
+        @instance = ProblemSetInstance.find_by_id(@answer.session_id)
         @stat = @instance.stat(@answer.problem_type)
         @problem = @answer.problem.problem
         @solution = @problem.prefix_solve

@@ -6,7 +6,7 @@
 		<div class="incorrect_hist">
 	<%end%>
 	<%= link_to (answer.problem_type.to_s), 
-			    problem_path(id: answer.id),
+			    show_answer_path(id: answer.id),
 			    remote: true %>
 	
 		<div class="with_tooltip pull-right"
