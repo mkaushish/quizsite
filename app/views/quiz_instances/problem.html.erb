@@ -15,11 +15,14 @@
 		</li>
 	<% end %>
 </ul>
-
-
-<div id="problem_overlay" class="problem_overlay" style="display: block;">
-  <%= render :partial => 'do_quiz' %>
-</div>
+<%= link_to 'Start', '#', :id => 'start_quiz', :class => 'button-blue' %>
+<%= link_to 'Submit', finish_quiz_path(@instance.id), :id => 'finish_quiz', :class => 'button-blue' %>
 <script>
-  $(initProblem);
+	$q=initProblemOverlay();
+	$q.html('<%= j(render 'do_quiz') %>');
+	initProblem();
+	hideProblem();
+	$('#start_quiz').click(function(){
+		$('#pr_dim').show();
+	});
 </script>

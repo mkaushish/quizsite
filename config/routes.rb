@@ -79,6 +79,7 @@ Quizsite::Application.routes.draw do
   get '/left_problem',                        to: 'quiz_instances#previous_problem',   :as => :left_quiz_problem
   get '/quiz/:id/next_problem',               to: 'quiz_instances#next_problem',   :as => :next_quiz_problem
   post '/quiz/finish_problem',                to: 'quiz_instances#finish_problem', :as => :finish_quiz_problem
+  post '/quiz/:id/finish_quiz',                to: 'quiz_instances#finish_quiz', :as => :finish_quiz
 
   # student-answers views
   get '/answers/:id/show',                    to: 'answers#show', as: :show_answer

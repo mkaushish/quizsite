@@ -4,9 +4,9 @@
 <div class="row-fluid problem_body">
   <div class="problem_name">
     <% $stderr.puts @problem.inspect %>
-    <h2 class="<%= ans_correct? ? "":"in" %>correct">
+    <h2 class="<%= ans_correct? ? "":"in" %>correct_2">
       <%= @problem.type %>
-      <div id="attachment"><%= @problem_body unless @problem_body.blank? %></div>
+      <div style='float:left; width:30px;'><%= @problem_body unless @problem_body.blank? %></div>
     </h2>
 
     <ul class="pull-right horizontal">

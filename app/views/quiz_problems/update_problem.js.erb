@@ -5,9 +5,10 @@
 )) %></div>");
 
 <% end %>
-$('#dimmer').unbind('click');
-$('#problem_overlay').hide();
-$('#dimmer').remove();
+//$('#dimmer').unbind('click');
+//$('#problem_overlay').hide();
+//$('#dimmer').remove();
+hideProblem();
 $('#quiz_problems').prepend("<%= j render("quizzes/quiz_problem", :quiz_problem => @quiz_problem) %>");
 $('#quiz_problems_message').html("You successfully added a Quiz problem for Quiz ");
 $('#no_qp_msg').hide();
