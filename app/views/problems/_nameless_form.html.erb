@@ -1,3 +1,5 @@
+<div id="attachment"><%= @problem.body_html unless @problem.body_html.blank? %></div>
+
 <div class="problem">
 <%= hidden_field_tag 'problem_id', @problem.id %>
 <%= hidden_field_tag 'time_taken', 0.0 %>

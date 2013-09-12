@@ -7,36 +7,41 @@
     <%= text_area_tag :problem_text, @custom_problem.text.first, {:rows => 5, :style => "width:80%;display:block;"} %>
 </div>
 
+<% if @custom_problem.text[1].class == ToHTML::RadioButton %>
+    <% solution = @custom_problem.solve.to_a.select{|v| v[0] == "qbans_ans"}.map{|v| v[1]} %>
+    <% fields = @custom_problem.text[1].fields.select{ |v| v != solution.first } %>
+    <%= radio_button_tag 'response', "multiplechoice", true, :style=>'display:none' %>
+    <div id="answer_multiplechoice_div" class="answer">
+        Answer: Put the correct answer at the top - the order will be randomized.
+        <div class="correct">
+            <%= text_field_tag "mcq_correct", solution.first, :class => "input-field" %>
+        </div>
+        <div class="incorrect">
+            <% fields.each_with_index do |field , i| %>
+                <%= text_field_tag "mcq_#{i}", field, :class => "input-field", :style => 'display:inline-block;' %>
+            <% end %>
+        </div>
+    </div>
+<% else %>
+    <div id="answer_text_div" class="answer">
+        Answer: note that upper/lower case and extra spaces are ignored.
+        <%= radio_button_tag 'response', "text", true, :style=>'display:none' %>
+        <div class="correct">
+            <%# render_tohtml({}, ToHTML::TextField.new("text_correct")) %>
+            <%= text_field_tag "text_correct", @custom_problem.solve.first.last, :class => "input-field" %>
+        </div>
+    </div>
+<% end %>
+
 <div class="field">
-    Response Type: 
-    <br/>
-    <%= radio_button_tag 'response', "text", true, :style=>'display:inline' %>
-    <%= label_tag 'response_text', "Text Answer", :style=>'display:inline' %>
-
-    <br/>
-    <%= radio_button_tag 'response', "multiplechoice", false, :style=>'display:inline' %>
-    <%= label_tag 'response_multiplechoice', "Multiple Choice Answer", :style=>'display:inline' %>
+    Explanation:
+    <%= text_area_tag :problem_explanation, @custom_problem.explanation, {:rows => 2, :style => "width:80%;display:block;" } %>
+</div>
+<div class="field">
+    Attachment:
+    <%= text_field_tag :problem_body, @custom_problem.body, {:rows => 2, :style => "width:80%;display:block;"} %>
 </div>
 
-<div id="answer_text_div" class="answer">
-    Answer: note that upper/lower case and extra spaces are ignored.
-    <div class="correct">
-        <%# render_tohtml({}, ToHTML::TextField.new("text_correct")) %>
-        <%= text_field_tag "text_correct", nil, :class => "input-field" %>
-    </div>
-</div>
-
-<div id="answer_multiplechoice_div" class="answer" style='display:none;'>
-    Answer: Put the correct answer at the top - the order will be randomized.
-    <div class="correct">
-        <%= text_field_tag "mcq_correct", nil, :class => "input-field" %>
-    </div>
-    <div class="incorrect">
-        <% 6.times do |i| %>
-            <%= text_field_tag "mcq_#{i}", nil, :class => "input-field", :style => 'display:inline-block;' %>
-        <% end %>
-    </div>
-</div>
 <br />
 <div class="actions">
     <%= submit_tag %>

@@ -9,7 +9,7 @@ gem 'pg'
 gem 'jquery-rails', '~> 2.0.2'
 gem 'ransack'
 gem 'will_paginate', '~> 3.0'
-
+gem 'auto_html'
 
 group :test, :development do
 	gem 'rspec-rails'

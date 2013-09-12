@@ -6,6 +6,7 @@
     <% $stderr.puts @problem.inspect %>
     <h2 class="<%= ans_correct? ? "":"in" %>correct">
       <%= @problem.type %>
+      <div id="attachment"><%= @problem_body unless @problem_body.blank? %></div>
     </h2>
 
     <ul class="pull-right horizontal">

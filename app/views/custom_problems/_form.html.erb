@@ -17,7 +17,6 @@
     <%= radio_button_tag 'response', "multiplechoice", false, :style=>'display:inline' %>
     <%= label_tag 'response_multiplechoice', "Multiple Choice Answer", :style=>'display:inline' %>
 </div>
-
 <div id="answer_text_div" class="answer">
     Answer: note that upper/lower case and extra spaces are ignored.
     <div class="correct">
@@ -42,6 +41,12 @@
     Explanation:
     <%= text_area_tag :problem_explanation, nil, {:rows => 2, :style => "width:80%;display:block;" } %>
 </div>
+<div class="field">
+    Attachment:
+    <%= text_field_tag :problem_body, nil, {:rows => 2, :style => "width:80%;display:block;"} %>
+</div>
+
+
 <br />
 <div class="actions">
     <%= submit_tag %>

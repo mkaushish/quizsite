@@ -1,26 +1,24 @@
 <div class="problem_name">
-  <h2><%= @problem_type.to_s %></h2>
-
+    <h2><%= @problem_type.to_s %></h2>
 </div>
-
 <div class="problem">
-<%= hidden_field_tag 'problem_id', @problem.id %>
-<%= hidden_field_tag 'time_taken', 0.0 %>
-<%= hidden_field_tag "npstr", (!@answer.nil? && @answer.notepad) %>
-<% @problem.text.each do |elt| %>
-   <%= render_tohtml({partial_dir: 'problems'}, elt) %>
-<% end %>
+    <%= hidden_field_tag 'problem_id', @problem.id %>
+    <%= hidden_field_tag 'time_taken', 0.0 %>
+    <%= hidden_field_tag "npstr", (!@answer.nil? && @answer.notepad) %>
+    <% @problem.text.each do |elt| %>
+        <%= render_tohtml({partial_dir: 'problems'}, elt) %>
+    <% end %>
 </div>
 <br>
 <%= submit_tag "Check Answer", :class => 'button-blue', :id => 'submit_pr' %>
 <script>
-  function updateClock(s) {
-    return function() {
-      t = parseFloat($('#time_taken').attr('value'))
-      t += s
-      $('#time_taken').attr('value', t);
+    function updateClock(s) {
+        return function() {
+            t = parseFloat($('#time_taken').attr('value'))
+            t += s
+            $('#time_taken').attr('value', t);
+        }
     }
-  }
-  decisecondTimer = updateClock(0.1);
-  setInterval("decisecondTimer()", 100);
+    decisecondTimer = updateClock(0.1);
+    setInterval("decisecondTimer()", 100);
 </script>
