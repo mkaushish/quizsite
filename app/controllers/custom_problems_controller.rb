@@ -21,7 +21,9 @@ class CustomProblemsController < ApplicationController
 
     @custom_problem = current_user.custom_problems.new(
       :problem => @problem,
-      :user_id => current_user.id
+      :user_id => current_user.id,
+      :body => params[:problem_body],
+      :explanation => params[:problem_explanation]
     )
 
     if @custom_problem.save
@@ -36,13 +38,19 @@ class CustomProblemsController < ApplicationController
   # PUT /custom_problems/1
   # PUT /custom_problems/1.json
   def update
+    @custom_problem = Problem.find_by_id(params[:id])
+    @problem_type = ProblemType.find_by_name(@custom_problem.to_s)
+    @problem_generator = @problem_type.custom_problems_generator
+    @problem = make_custom_prob_from_params
+    @custom_problem.problem = @problem
+    @custom_problem.user_id = current_user.id
+    @custom_problem.body = params[:problem_body]
+    @custom_problem.explanation = params[:problem_explanation]
     respond_to do |format|
-     if @custom_problem.update_attributes(params[:custom_problem])
+     if @custom_problem.save
        format.html { redirect_to new_custom_problem_path, notice: 'Custom problem was successfully updated.' }
-       format.json { head :ok }
      else
        format.html { render action: "edit" }
-       format.json { render json: @custom_problem.errors, status: :unprocessable_entity }
      end
     end
   end

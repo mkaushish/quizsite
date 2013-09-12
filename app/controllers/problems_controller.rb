@@ -12,6 +12,8 @@ class ProblemsController < ApplicationController
         @response = @solution
         @answer = Answer.new(:problem => @db_problem, :correct => true)
         @problem = @db_problem.problem
+        @problem_body = @db_problem.body_html
+        @comment = Comment.new
         render 'answers/show'
     end
 end

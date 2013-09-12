@@ -20,9 +20,17 @@ class Problem < ActiveRecord::Base
     belongs_to :user
     
     attr_writer :problem # so these can be accessible variables in the constructor
-    attr_accessible :problem, :user_id, :problem_generator_id
+    attr_accessible :problem, :user_id, :problem_generator_id, :body
 
     before_save :dump_problem
+
+    auto_html_for :body do
+        html_escape
+        image
+        youtube(:width => 400, :height => 250)
+        link :target => "_blank", :rel => "nofollow"
+        simple_format
+    end
 
     def dump_problem
         self.serialized_problem = m_pack problem
