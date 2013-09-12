@@ -12,6 +12,7 @@
 
 <%= form_for(@quiz_problem, url: update_problem_qp_path(:type => params[:type]), remote: :true) do |f| %>
     <div class="problem">
+        <div id="attachment"><%= @problem.body_html unless @problem.body_html.blank? %></div>
         <%= f.hidden_field :problem, :value => @problem.id %>
         <%= "Question: " %>
         <% @problem.text.each do |elt| %>
@@ -20,7 +21,7 @@
         <br />
         <%= "Answer: " %>
         <br />
-        <%= @answer.to_s %> 
+        <%= @problem.solve.first.last %> 
     </div>
   	<%= f.submit "Assign" %>
 <% end %>

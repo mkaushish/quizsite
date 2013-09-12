@@ -6,13 +6,8 @@
     <ul class="column-list overlay_list">
       <li class="list-header">SmarterGrades Sets</li>
       <% @sg_psets.each do |pset| %>
-        <li><%= pset.name %>
-            <% if @assigned_problem_sets.include? pset.id and !@assigned_problem_sets.blank? %>
-              <%= link_to "Assigned", "#", :class => "btn btn-inverse pull-right", :remote => true %>
-            <% else %>
-              <%= link_to "Assign", assign_pset_path(id: @classroom.id, pset_id: pset.id), 
-                  :class => "btn pull-right", :remote => true %>              
-            <% end %>
+        <li id="assign_btn_<%= pset.id %>">
+            <%= render "assign_btns", :pset => pset, :@assigned_problem_sets => @assigned_problem_sets, :@classroom => @classroom %>
         </li>
       <% end %>
     </ul>
@@ -21,13 +16,8 @@
     <ul class="column-list overlay_list">
       <li class="list-header">My Problem Sets</li>
       <% @my_psets.each do |pset| %>
-        <li><%= pset.name %>
-            <% if @assigned_problem_sets.include? pset.id and !@assigned_problem_sets.blank? %>
-              <%= link_to "Assigned", "#", :class => "btn btn-inverse pull-right", :remote => true %>
-            <% else %>
-              <%= link_to "Assign", assign_pset_path(id: @classroom.id, pset_id: pset.id), 
-                  :class => "btn pull-right", :remote => true %>              
-            <% end %>       
+        <li id="assign_btn_<%= pset.id %>">
+            <%= render "assign_btns", :pset => pset, :@assigned_problem_sets => @assigned_problem_sets, :@classroom => @classroom %>
         </li>
       <% end %>
     </ul>

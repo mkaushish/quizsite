@@ -1,0 +1,1 @@
+$("#assign_btn_<%= @pset.id %>").html("<%= j(render "classrooms/assign_btns", :pset => @pset, :@assigned_problem_sets => @assigned_problem_sets, :@classroom => @classroom) %>");

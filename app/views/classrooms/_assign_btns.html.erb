@@ -1,0 +1,7 @@
+<%= pset.name %>
+<% if @assigned_problem_sets.include? pset.id and !@assigned_problem_sets.blank? %>
+    <%= link_to "Assigned", "#", :class => "btn btn-inverse pull-right", :remote => true %>
+<% else %>
+    <%= link_to "Assign", assign_pset_path(id: @classroom.id, pset_id: pset.id), 
+	    :class => "btn pull-right", :remote => true %>              
+<% end %>

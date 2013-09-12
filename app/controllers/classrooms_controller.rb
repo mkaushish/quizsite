@@ -43,7 +43,10 @@ class ClassroomsController < ApplicationController
         if @classroom.classroom_teachers.pluck(:teacher_id).include? current_user.id
             @pset = ProblemSet.find(params[:pset_id])
             @classroom.assign!(@pset)
-            render :js => "window.location.href = '/'"
+            @assigned_problem_sets = @classroom.assigned_problem_sets
+            respond_to do |format|
+                format.js
+            end
         else
             render :js => 'alert("this class doesn\'t belong to you!");'
         end
