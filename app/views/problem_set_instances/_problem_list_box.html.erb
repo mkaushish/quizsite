@@ -12,5 +12,5 @@
       <%= ptype.to_s %>
   	</p>
 	 
-  <%= link_to "Start", pset_do_path(:name => @instance.problem_set_id, :pid => ptype.id), :remote => true %>
+  <%= link_to "Start", pset_do_path(:name => @instance.problem_set_id, :pid => ptype.id, :random => false), :remote => true %>
 </div>

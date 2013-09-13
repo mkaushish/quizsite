@@ -1,0 +1,41 @@
+<% if(@stat.color_status!="green") %>
+	<%= render "problem_set_instances/progress_bar/yellow" %>
+<% else %>
+	<%= render "problem_set_instances/progress_bar/green" %>
+<%end%>
+<!-- it should be like this -->
+<%# if(@stat.color_status!="blue") %>
+<%#= render "problem_set_instances/progress_bar/green" %>
+<%# else %>
+<%#= render "problem_set_instances/progress_bar/blue" %>
+<%# end %>
+<!-- end -->
+
+<%= render 'stats' %>
+
+<div class='row-fluid problem_body'>
+	<%= form_tag finish_ps_problem_path(@problem_set.id), method: :post, autocomplete: :off, remote: true do %>
+    	<%= hidden_field_tag 'stat_id', @stat.id.to_s %>
+    	<%= render 'problems/form' %>
+    	<% if defined? params[:random] and params[:random] == "true" %>
+  			<%= hidden_field_tag 'random', params[:random]  %>
+  		<% elsif defined? params[:random_problem_start] and params[:random_problem_start] == "true" %>
+  				<%= hidden_field_tag 'random', params[:random_problem_start]  %>
+  		<% end %>
+
+  	<% end %>
+</div>
+
+
+<% if @problem.problem.has_notepad? %>
+	<div class='row-fluid calculations'>
+  		<%= render 'problems/side_notepad' %>
+	</div>
+<% end %>
+
+<script>
+	$('#submit_pr').click(function(){
+		images=['/assets/loading86.gif', '/assets/loader_1.gif', '/assets/loader_2.gif', '/assets/loader_3.gif']
+		$("#problem_overlay").prepend("<img id='load' src='"+images[Math.floor(Math.random()*images.length)]+"' />");
+	});
+</script>

@@ -128,6 +128,17 @@ color:white;
 	}
 }
 
+.correct_2 {
+	position:relative;
+   	&:after {
+   		content: url('check_correct.png');
+   		width:200%;
+   	}
+}
+.incorrect_2 {
+	@include has_x();
+}
+
 .correct_w_check {
   @include has_check();
 }

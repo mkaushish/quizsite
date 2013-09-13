@@ -19,7 +19,7 @@ $("#badge_count_icosahedron").html("<%= j link_to (render  'students/badge_count
 bclr_problem();
 
 
-$('#problem_overlay').html('<%= j(render "answers/full_answer") %>');
+$('#problem_overlay').html("<%= j(render "answers/full_answer", :random_problem_start => @random_problem) %>");
 
 <% if @stat.color_status == 'green' %>
 	done_pr();

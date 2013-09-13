@@ -1,85 +1,77 @@
-
-<!--<div class=row-fluid>
-  <%#= render 'students/student_info', :@student => current_user %>
-
-  <h3 style="display:inline-block;">Learning</h3>
-  <ul class="breadcrumb">
-    <li><b>6th Grade </b><span class="divider">&amp;</span></li>
-    <li><%#= link_to "Overview", studenthome_path %><span class="divider">&amp;</span></li>
-    <li class=active><%#= @problem_set.name %></li>
-  </ul>
-</div>-->
 <%= render 'shared/shelf', :@student => current_user, :@badges => @badges, :@all_badges => @all_badges %>
 
 <% unless @quiz.blank? %>
     <div class='btn-group'>
-      <div class="quiz-link dropdown-toggle" data-toggle="dropdown">Quizzes</div>
-      <div id='news'> 
-      <ul class="dropdown-menu">
-        <% tem=@quiz.length %>
-        <% @quiz.each do |qu| %>
-          <li>
-            <% @quiz_instance = qu.quiz_instances.find_by_user_id(current_user.id) %>
-            <% unless  @quiz_instance.blank? %>
-              <%= link_to "Quiz #{tem}", start_quiz_path(@instance.id, :instance => @quiz_instance) %>
-            <% else %>
-              <%= link_to "Quiz #{tem}", start_new_quiz_path(@instance.id, :quiz_id => qu.id) %>
-            <%end%>
-            <%tem=tem-1%>
-          </li>
-        <%end%>
-      </ul>
-    <% end %>
+        <div class="quiz-link dropdown-toggle" data-toggle="dropdown">Quizzes</div>
+        <div id='news'> 
+            <ul class="dropdown-menu">
+                <% tem=@quiz.length %>
+                <% @quiz.each do |qu| %>
+                    <li>
+                        <% @quiz_instance = qu.quiz_instances.find_by_user_id(current_user.id) %>
+                        <% unless  @quiz_instance.blank? %>
+                            <%= link_to "Quiz #{tem}", start_quiz_path(@instance.id, :instance => @quiz_instance) %>
+                        <% else %>
+                            <%= link_to "Quiz #{tem}", start_new_quiz_path(@instance.id, :quiz_id => qu.id) %>
+                        <%end%>
+                        <%tem=tem-1%>
+                    </li>
+                <%end%>
+            </ul>
+        </div>
     </div>
-  </div>
-
-
+<% end %>
 
 <div style="float:left">
     <div class='dotted-border-header'>
-      <h4>History</h4>
+        <h4>History</h4>
     </div>
 
     <div class='dotted-border'>
-  <div class="gif_tick">
-    <img src="/assets/Boxes_Animation.gif"></img>
-  </div>
-      <ul id="problem_history" class="column-list">
-        <% if @history.empty? %>
-          <li>Problems will show up here as you do them</li>
-        <% else %>
-          <%= render :partial => 'history_ans', :collection => @history, :as => :answer %>
-        <% end %>
-        <li><%= link_to 'Click for Detailed History', progress_student_path(@student.id) %></li>
-      </ul>
-  </div>
+        <div class="gif_tick">
+            <img src="/assets/Boxes_Animation.gif"></img>
+        </div>
+        <ul id="problem_history" class="column-list">
+            <% if @history.empty? %>
+                <li>Problems will show up here as you do them</li>
+            <% else %>
+                <%= render :partial => 'history_ans', :collection => @history, :as => :answer %>
+            <% end %>
+            <li><%= link_to 'Click for Detailed History', progress_student_path(@student.id) %></li>
+        </ul>
+    </div>
 </div>
-    <% @a = @stats.map(&:color_status) %>
-    <% @total = @instance.num_problems %>
 
-    <% @blue  = percentage(@a.count("green"), @total) %>
-    <% @green = percentage(@a.count("yellow"), @total) %>
-    <% @red   = 100.0 - @blue - @green %>
+<% @a = @stats.map(&:color_status) %>
+<% @total = @instance.num_problems %>
+
+<% @blue  = percentage(@a.count("green"), @total) %>
+<% @green = percentage(@a.count("yellow"), @total) %>
+<% @red   = 100.0 - @blue - @green %>
 <script>dbord(["<%=@blue%>","<%=@green%>","<%=@red%>"]);
 </script>
 <!-- it should be like this -->
-    <%# @a = @stats.map(&:color_status) %>
-    <%# @total = @instance.num_problems %>
+<%# @a = @stats.map(&:color_status) %>
+<%# @total = @instance.num_problems %>
 
-    <%# @blue  = percentage(@a.count("blue"), @total) %>
-    <%# @green = percentage(@a.count("green"), @total) %>
-    <%# @red   = 100.0 - @blue - @green %>
+<%# @blue  = percentage(@a.count("blue"), @total) %>
+<%# @green = percentage(@a.count("green"), @total) %>
+<%# @red   = 100.0 - @blue - @green %>
 <!-- <script>dbord(["<%#=@blue%>","<%#=@green%>","<%#=@red%>"]);
 </script> -->
 <!-- end -->
+
 <div id='bbor' style='margin-left:43px'>
-  <% @stats.each do |i| %>
-    <%= render :partial => 'problem_list_box', :object => i,  :locals => {:item => i}%>
-  <% end %>
+    <% @stats.each do |i| %>
+        <%= render :partial => 'problem_list_box', :object => i,  :locals => {:item => i}%>
+    <% end %>
+
+    <%= render "random_problem", instance: @instance, random_stat: @random_stat, random_problem_type: @random_problem_type %>
 </div>
+
 <%= render 'walkthrough' %>
+
 <script>
 bclr_problem();
 mob_comp();
 </script>
-</div>

@@ -1,0 +1,10 @@
+<div id="pt_random" class="list_box problem_list_box pset_pbar" style="width:auto">
+    <p>
+  		<small>
+  			<span class="label label-info correct_hist" style="background-color:transparent"><%= "+100" %></span> 
+        <span class="label label-info incorrect_hist" style="background-color:transparent"><%= "0" %></span> 
+  		</small><br />
+      <%= "Random" %>
+  	</p>
+<%= link_to "Start", pset_do_path(:name => instance.problem_set_id, :pid => random_problem_type, :random => true), :remote => true %>
+</div>

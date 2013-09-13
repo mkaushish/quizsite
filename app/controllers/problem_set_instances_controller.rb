@@ -13,11 +13,19 @@ class ProblemSetInstancesController < ApplicationController
         @history = @student.problem_history(@problem_set.problem_types.map(&:id)).limit(11)
         @all_badges = @student.all_badges
         @quiz = @student.all_quizzes(@classroom, @problem_set)
+        @random_stat = @stats.sample
+        @random_problem_type = @random_stat.problem_type_id
     end
 
     def do
         redirect_to access_denied_path && return if @instance.nil?
-        @problem_type = @problem_set.problem_types.find(params[:pid]) if defined? params[:pid]
+        if defined? params[:random_problem_start]
+            if params[:random_problem_start] == "true"
+                @problem_type = @problem_set.problem_types.sample
+            end 
+        end
+
+        @problem_type ||= @problem_set.problem_types.find(params[:pid]) if defined? params[:pid]
         @stat = @instance.stat(@problem_type)
         @problem_stat = @stat.problem_stat
         if Time.now.utc >= @problem_stat.stop_green and @problem_stat.points > @problem_stat.points_required
@@ -34,7 +42,9 @@ class ProblemSetInstancesController < ApplicationController
         if(@student.answers.find_by_problem_id(params[:problem_id].to_i).nil?)
             @instance = @stat.problem_set_instance
             @answer = @student.answers.create params: params, session: @instance
-            @stat.update_w_ans!(@answer)
+            @random_problem = params[:random] if defined? params[:random]
+            @random_problem ||= "false"
+            @stat.update_w_ans!(@answer, @random_problem)
             @instance.update_instance!
             @problem = @answer.problem.problem
             @solution = @problem.prefix_solve
@@ -44,6 +54,7 @@ class ProblemSetInstancesController < ApplicationController
             @all_badges = @student.all_badges
             @comments = @answer.comments.includes(:user)
             @comment = Comment.new
+           
         else
             render 'shared/nothing', remote: :true
         end
@@ -69,7 +80,7 @@ class ProblemSetInstancesController < ApplicationController
     end
 
     def validate_problem_set
-        @problem_set = ProblemSet.includes(:problem_types).find(params[:name])
+        @problem_set = ProblemSet.includes(:problem_types).find_by_id(params[:name])
     end
     
     def validate_instance

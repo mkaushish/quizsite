@@ -1,5 +1,5 @@
 <div class="problem_name">
-    <h2><%= @problem_type.to_s %></h2>
+    <h2><%= @problem_type.to_s unless defined? random_problem and random_problem == "true" %></h2>
 </div>
 <div class="problem">
     <%= hidden_field_tag 'problem_id', @problem.id %>
