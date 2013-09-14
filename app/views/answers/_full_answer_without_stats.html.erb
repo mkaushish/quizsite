@@ -1,10 +1,11 @@
+<div class='row-fluid' style='height:30px; background-color:purple'></div>
 <div class="row-fluid problem_body">
     <div class="problem_name">
         <% $stderr.puts @problem.inspect %>
-        <h2 class="<%= ans_correct? ? "":"in" %>correct">
+        <h2 class="<%= ans_correct? ? "":"in" %>correct_2">
             <%= @problem.type %>
-            <div id="attachment"><%= @problem_body unless @problem_body.blank? %></div>
         </h2>
+            <div id="attachment"><%= @problem_body unless @problem_body.blank? %></div>
         <ul class="pull-right horizontal">
             <% if @problem.is_a? QuestionWithExplanation %>
                 <li>

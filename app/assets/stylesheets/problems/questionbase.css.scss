@@ -18,7 +18,9 @@ $problem_top_m: 0;
 	height:100%;
 	overflow-x:auto;
 }
+
 .problem_overlay {
+	
 	z-index:20;
 	position: relative;
 	margin-left:auto;
@@ -35,7 +37,15 @@ $problem_top_m: 0;
 	border-right:1px solid gray;
   display:none;
 }
-
+#problem_overlay{
+	background-color: purple;
+}
+.problem_body{
+	background-color:white;
+}
+.problem_view_stats{
+	background-color: white;
+}
 $pset_title_m: 200px;
 .pset_title {
 	position: absolute;
