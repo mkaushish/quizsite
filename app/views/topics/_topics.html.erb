@@ -1,13 +1,22 @@
 <table class="table table-hover">
 	<thead>
 			<td class="span6">Topic</td>
-			<td class="span2">Owner</td>
+			<td class="span2">Creator</td>
 			<td class="span2">Comments Count</td>
 			<td class="span2">Options</td>
 	</thead>
 	<tbody id="topics_list">
+		<%- unless topics.blank? -%>
 		<%- topics.each do |topic| -%>
 				<%= render 'topics/topic', :topic => topic, :user => user, :classroom_id => classroom_id %>
+		<%- end -%>
+		<%- else -%>
+			<tr>
+				<td class="span6">No Current Topics</td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
 		<%- end -%>
 	</tbody>
 </table>

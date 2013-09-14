@@ -1,16 +1,68 @@
+<% unless @instance.class == QuizInstance %>
 <div>
-  <canvas id="geocanvas" height="<%= geometryfield.class.height %>" width="<%= geometryfield.class.width %>"> 
+  <canvas id="geocanvas_1" height="<%= geometryfield.class.height %>" width="<%= geometryfield.class.width %>"> 
     Your browser does not support the HTML5 Canvas feature. This app uses new HTML5 features and will only work on the latest versions of Firefox, Safari or Chrome (and maybe Internet Explorer 9).         
     </canvas>   
-  <div id="shapes" style="display:none"></div>
+  <div id="geocanvas_1shapes" style="display:none"></div>
   <br style="clear:both">
 </div>
 <% shapes = geometryfield.encodedStartShapes %>
 <% shapes += "," unless shapes.empty? %>
-<%= hidden_field_tag('startshapes', "#{shapes}#{InputField.fromhash("geometry", solution)}") %>
-<%= hidden_field_tag('qbans_selected', InputField.fromhash("qbans_selected", solution)) %>
-<%= hidden_field_tag('starttool', "notool") %>
+<%= hidden_field_tag('geocanvas_1startshapes', "#{shapes}#{InputField.fromhash("geometry", response)}") %>
+<%= hidden_field_tag('geocanvas_1qbans_selected', InputField.fromhash("qbans_selected", response)) %>
+<%= hidden_field_tag('geocanvas_1starttool', "notool") %>
+<script>
+setUpGeo('geocanvas_1');
+</script>
+<% if geometryfield.is_a?(GeometryField) %>
+  <%= hidden_field_tag 'geocanvas_1'+geometryfield.name, "" %>
+<% end %>
+<% if !@answer.correct%>
+<div>
+  <canvas id="geocanvas_2" height="<%= geometryfield.class.height %>" width="<%= geometryfield.class.width %>"> 
+    Your browser does not support the HTML5 Canvas feature. This app uses new HTML5 features and will only work on the latest versions of Firefox, Safari or Chrome (and maybe Internet Explorer 9).         
+    </canvas>   
+  <div id="geocanvas_2shapes" style="display:none"></div>
+  <br style="clear:both">
+</div>
+<% shapes = geometryfield.encodedStartShapes %>
+<% shapes += "," unless shapes.empty? %>
+<%= hidden_field_tag('geocanvas_2startshapes', "#{shapes}#{InputField.fromhash("geometry", solution)}") %>
+<%= hidden_field_tag('geocanvas_2qbans_selected', "#{InputField.fromhash("selected", solution)}") %>
+<%= hidden_field_tag('geocanvas_2starttool', "notool") %>
 
 <% if geometryfield.is_a?(GeometryField) %>
+  <%= hidden_field_tag 'geocanvas_2'+geometryfield.name, "" %>
+<% end %>
+<script>
+setUpGeo('geocanvas_2');
+</script>
+<%end%>
+
+<% else %>
+<% if geometryfield.is_a?(GeometryField) %>
+  <div class=tools style='float:left;width:250px;'>
+    <!-- <div id="protractor" data-original-title="Use the protractor" ></div> -->
+    <div id="line" class="tooltip" data-original-title="Draw a line segment"></div>
+    <div id = "compass" class="tooltip" data-original-title="Draw a circle"></div>
+    <input type="checkbox" id="usecirclesize" style="display:none" class="tooltip" data-original-title="Save the last radius you used">
+    <input type="text" id="circlesize" style="display:none" placeholder="<- lock radius">
+  </div>
+  <div class=tools style='float:right;width:100px;margin-right:30px;'>
+    <div id="erase" class="tooltip" data-original-title="Erase single shapes you've drawn" ></div>
+    <div id="clear" class="tooltip" data-original-title="Erase ALL the shapes you've drawn!" ></div>
+  </div>
   <%= hidden_field_tag geometryfield.name, "" %>
+<% end %>
+<div>
+  <canvas id="geocanvas" height="<%= geometryfield.class.height %>" width="<%= geometryfield.class.width %>"> 
+    Your browser does not support the HTML5 Canvas feature. This app uses new HTML5 features and will only work on the latest versions of Firefox, Safari or Chrome (and maybe Internet Explorer 9).         
+    </canvas>   
+  <div id="shapes" style="display:none;"></div>
+  <br style="clear:both">
+</div>
+<% shapes = geometryfield.encodedStartShapes %>
+<%= hidden_field_tag('startshapes', '#{InputField.fromhash("geometry", response)}')   %>
+<%= hidden_field_tag('qbans_selected', "#{InputField.fromhash("selected", solution)}")   %>
+<%= hidden_field_tag('starttool', geometryfield.startTool) %>
 <% end %>

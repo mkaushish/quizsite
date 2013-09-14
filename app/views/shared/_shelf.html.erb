@@ -41,6 +41,7 @@
                 <%= render "shared/badge", :shape => 5, :shape_name => "icosahedron", :student => @student, :plate_class => "plate", :ajax => false %>
             </li>
             <li class='shelf_li'><a href="javascript:;" id="open-walkthrough"><img src='/assets/Help.png'/></a></li>
+            <li class='shelf_li'><%=link_to raw("<img src='/assets/discussion.png'/>"), classroom_path(@student.classrooms.last.id), :id => 'discussion_p'%></li>
         </ul>
     </div>
     <div id="badgeModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">

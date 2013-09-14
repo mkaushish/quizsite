@@ -1,0 +1,17 @@
+<h3>What's happening in this classroom:</h3>
+<div class="row-fluid">									
+	<%- @activities.each do |activity| -%>
+		<div class="row-fluid feed_ind">
+			<div class="feed_name">
+				<%= link_to activity[1], student_path(activity[0]), remote: :true %>
+			</div>
+			<div class="feed_content">
+				<%= activity[2] %>
+			</div>
+			<div class="feed_time">
+				<%= event_time_format(activity[3]) %>
+			</div>
+		</div>
+	<%- end -%>
+</div>
+<div id="check"></div>

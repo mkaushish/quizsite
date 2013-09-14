@@ -8,4 +8,11 @@ class Topic < ActiveRecord::Base
   belongs_to :user
 
   validates :title, :presence => :true
+  auto_html_for :description do
+        html_escape
+        image
+        youtube(:class => 'topic_you', :width => 400, :height => 250)
+        link :target => "_blank", :rel => "nofollow"
+        simple_format
+  end
 end
