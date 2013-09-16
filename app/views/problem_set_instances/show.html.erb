@@ -5,16 +5,18 @@
         <div class="quiz-link dropdown-toggle" data-toggle="dropdown">Quizzes</div>
         <div id='news'> 
             <ul class="dropdown-menu">
-                <% tem=@quiz.length %>
-                <% @quiz.each do |qu| %>
+                <%# tem=@quiz.length %>
+                <% @quiz.each_with_index do |quiz, i| %>
                     <li>
-                        <% @quiz_instance = qu.quiz_instances.find_by_user_id(current_user.id) %>
-                        <% unless  @quiz_instance.blank? %>
-                            <%= link_to "Quiz #{tem}", start_quiz_path(@instance.id, :instance => @quiz_instance) %>
-                        <% else %>
-                            <%= link_to "Quiz #{tem}", start_new_quiz_path(@instance.id, :quiz_id => qu.id) %>
-                        <%end%>
-                        <%tem=tem-1%>
+                        <% i += 1 %>
+                        <%= link_to "Quiz #{i}", show_quiz_path(@instance, quiz) %>
+                        <%# @quiz_instance = qu.quiz_instances.find_by_user_id(current_user.id) %>
+                        <%# unless  @quiz_instance.blank? %>
+                            <%#= link_to "Quiz #{tem}", start_quiz_path(@instance.id, :instance => @quiz_instance) %>
+                        <%# else %>
+                            <%#= link_to "Quiz #{tem}", start_new_quiz_path(@instance.id, :quiz_id => qu.id) %>
+                        <%# end %>
+                        <%# tem = tem - 1 %>
                     </li>
                 <%end%>
             </ul>
