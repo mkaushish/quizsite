@@ -217,7 +217,7 @@ module Chapter4
 
     def text
       verts = @num_verts > 1 ? "vertices" : "vertex"
-      geodisp = SmallGeoDisplay.new(@lines)
+      geodisp = GeometryField.new(@lines)
       geodisp.startTool("select")
       [
         TextLabel.new("Click on #{@num_verts} #{verts} on the following diagram"),
@@ -227,12 +227,12 @@ module Chapter4
 
     def solve
       {
-        "selectedshapes" => Shape.encode_a(@points.sample(@num_verts))
+        "selected" => Shape.encode_a(@points.sample(@num_verts))
       }
     end
 
     def correct?(params)
-      selected = SmallGeoDisplay::selectedShapes(params)
+      selected = GeometryField::selectedShapes(params)
       return false if selected.length != @num_verts
 
       points = @points.clone
@@ -260,8 +260,8 @@ module Chapter4
 
     def initialize
       num_sides = 3 + rand(4);
-      dists = Array.new(num_sides) { (SmallGeoDisplay.width/6) + rand(SmallGeoDisplay.width / 6) }
-      @lines, @points = *(SmallGeoDisplay::polygonAtCenterWithPoints("A", dists))
+      dists = Array.new(num_sides) { (GeometryField.width/6) + rand(GeometryField.width / 6) }
+      @lines, @points = *(GeometryField::polygonAtCenterWithPoints("A", dists))
       @num_verts = 1 + rand(num_sides - 2)
     end
     
@@ -283,7 +283,7 @@ module Chapter4
     end
 
     def text
-      geodisp = SmallGeoDisplay.new(@lines)
+      geodisp = GeometryField.new(@lines)
       geodisp.startTool("select")
       [
         TextLabel.new("Click on two adjacent sides on the following polygon"),
@@ -295,12 +295,12 @@ module Chapter4
       i = rand(@lines.length)
       j = (i + 1) % @lines.length
       {
-        "selectedshapes" => Shape.encode_a([@lines[i], @lines[j]])
+        "selected" => Shape.encode_a([@lines[i], @lines[j]])
       }
     end
 
     def correct?(params)
-      selected = SmallGeoDisplay::selectedShapes(params)
+      selected = GeometryField::selectedShapes(params)
       return false if selected.length != 2
       i = @lines.index(selected[0])
       j = @lines.index(selected[1])
@@ -326,8 +326,8 @@ module Chapter4
 
     def initialize
       num_sides = 5 + rand(3);
-      dists = Array.new(num_sides) { (SmallGeoDisplay.width/6) + rand(SmallGeoDisplay.width / 6) }
-      @lines, @points = *(SmallGeoDisplay::polygonAtCenterWithPoints("A", dists))
+      dists = Array.new(num_sides) { (GeometryField.width/6) + rand(GeometryField.width / 6) }
+      @lines, @points = *(GeometryField::polygonAtCenterWithPoints("A", dists))
     end
 
     def explain
@@ -349,7 +349,7 @@ module Chapter4
     end
 
     def text
-      geodisp = SmallGeoDisplay.new(@lines)
+      geodisp = GeometryField.new(@lines)
       geodisp.startTool("select")
       [
         TextLabel.new("Click on two adjacent vertices on the following polygon"),
@@ -362,12 +362,12 @@ module Chapter4
       j = (i + 1) % @lines.length
       # TODO figure out what this does, take labels off points
       {
-        "selectedshapes" => Shape.encode_a([@points[i], @points[j]])
+        "selected" => Shape.encode_a([@points[i], @points[j]])
       }
     end
 
     def correct?(params)
-      selected = SmallGeoDisplay::selectedShapes(params)
+      selected = GeometryField::selectedShapes(params)
 #      puts selected.inspect
       return false if selected.length != 2
       i = @points.index(selected[0])
@@ -388,8 +388,8 @@ module Chapter4
     include AdjacentVertices
     def initialize
       num_sides = 5 + rand(3);
-      dists = Array.new(num_sides) { (SmallGeoDisplay.width/6) + rand(SmallGeoDisplay.width / 6) }
-      @lines, @points = *(SmallGeoDisplay::polygonAtCenterWithPoints("A", dists))
+      dists = Array.new(num_sides) { (GeometryField.width/6) + rand(GeometryField.width / 6) }
+      @lines, @points = *(GeometryField::polygonAtCenterWithPoints("A", dists))
     end
 
     def explain

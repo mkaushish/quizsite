@@ -1,18 +1,42 @@
 <div class="row-fluid">
-	<%= link_to "<- Back to Topics", classroom_path(@classroom.id), :class => "pull-right" %>
-<div class="row-fluid">
-	<div class="span8" id="topic_desc">
-		<h4><%= topic.title %></h4>
-		<p><%= topic.description %></p>
+	
+<div id='comm_all'>
+	<div id="topic_desc">
+		<h4><%= topic.title %><%= link_to "Back to Topics", classroom_path(@classroom.id), :class => "pull-right button-blue" %></h4>
+		<p><%= topic.description_html %></p>
+		<p><small class='pull-right'>Posted by: <%= topic.user.name %></small></p>
 	</div>
-	<div class="span8">
-		<h3>Comments: </h3>
-		<h4>New Comment </h4>
-		<div class="row-fluid" id="new_comment_form">
+	<div>
+		
+		
+		<div class="row-fluid" id="new_comment_form" style='display:none'>
 			<%= render "comments/form_for_new_comment", :user => current_user, :classroom => @classroom, :comment => @comment, :topic => topic %>
 		</div>
+		<div class='button-blue' id='add_comm'>Reply to <%= topic.title %></div>
+		<h3 >Replies to <%= topic.title %></h3>
 		<div class="row-fluid" id="comments">
 				<%= render "comments/comments", :comments => @comments %>
 		</div>
+		
 	</div>
 </div>
+<script>
+form_show=false;
+$('#add_comm').click(function(){
+	if (!form_show){
+		$('#new_comment_form').show();
+		form_show=true;
+		$('#add_comm').text('Cancel');
+	}
+	else{
+		$('#new_comment_form').hide();
+		form_show=false;
+		$('#add_comm').text('Reply to <%= topic.title %>');
+	}
+});
+$('#sub_cmt').click(function(){
+	form_show=false;
+	$('#new_comment_form').hide();
+	$('#add_comm').text('Reply to <%= topic.title %>');
+});
+</script>

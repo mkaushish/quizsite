@@ -28,12 +28,17 @@
 //  section 5:
 //      -essentially the main method type code - If you want to draw things on load do it here.
 
-function setUpGeo() {
+function setUpGeo(cname) {
   // global drawing variables
-  var canvas = $('#geocanvas')[0];
+  cname2=cname;
+  if(cname==null){
+    cname='geocanvas';
+    cname2='';
+  }
+  var canvas = $('#'+cname)[0];
   if(canvas == undefined) { return undefined; }
 
-  var shapesDisp = $('#shapes');
+  var shapesDisp = $('#'+cname2+'shapes');
   var messageDisp = $('#message');
   var context = canvas.getContext('2d');
   var mousex;         // global mouse position x coord
@@ -88,7 +93,7 @@ function setUpGeo() {
   }
 
   function setMouseXY(e) {
-    var offset = $('#geocanvas').offset();
+    var offset = $('#'+cname).offset();
     var offsetx = Math.round(offset.left);
     var offsety = Math.round(offset.top);
       
@@ -120,7 +125,7 @@ function setUpGeo() {
     //  s += "<p>" + pointsOfInterest[i] + "</p>\n";
     //}
     shapesDisp.html(s);
-    $('#qbans_geometry').attr('value', hidden_s.substr(1));
+    $('#'+cname2+'qbans_geometry').attr('value', hidden_s.substr(1));
   }
 
   function addShapeCallbacks() {
@@ -155,7 +160,7 @@ function setUpGeo() {
 
   // ugh...
   function getStartState() {
-    tool = $('#starttool').attr('value');
+    tool = $('#'+cname2+'starttool').attr('value');
     if(tool == "select") {
       setState(SELECT);
     } else if(tool == "compass") {
@@ -179,7 +184,7 @@ function setUpGeo() {
     startLineNo = 1;  // starting number - set by getStartShapes
     startCircleNo = 1;
 
-    var s = $('#startshapes').attr('value');
+    var s = $('#'+cname2+'startshapes').attr('value');
     if(s != "") {
       var a = s.split(',');
       for(var i = 0; i < a.length; i++) {
@@ -196,9 +201,11 @@ function setUpGeo() {
   function getSelectedShapes() {
     var selectedShapes = [];
 
-    var s = $('#qbans_selected').attr('value')
-      , a = s.split(',');
-
+    var s = $('#'+cname2+'qbans_selected').attr('value');
+    if(s==null){
+      s='';
+    }
+    var a = s.split(',');
     for(var i = 0; i < a.length; i++) {
       var shape = decodeShape(a[i]);
 
@@ -1147,7 +1154,7 @@ function setUpGeo() {
     writeSelection : function() {
       var s = "";
       for(i in this.selShapes) { if(this.selShapes[i]) { s = s+i + "," } }
-      $('#qbans_selected').attr("value", s.replace(/,$/, ""));
+      $('#'+cname2+'qbans_selected').attr("value", s.replace(/,$/, ""));
     }
   }
 
@@ -1192,20 +1199,20 @@ function setUpGeo() {
   //
   // Callbacks for mouse gestures
   //
-  $('#geocanvas').mousedown(function (e) { 
+  $('#'+cname).mousedown(function (e) { 
     // downx and y have many uses
     downx = mousex;
     downy = mousey;
     state.mousedown();
   });
 
-  $('#geocanvas').mouseup(function (e) { 
+  $('#'+cname).mouseup(function (e) { 
     state.mouseup();
     activePOI_i = -1;
     redraw();
   });
 
-  $('#geocanvas').mousemove(function (e) { 
+  $('#'+cname).mousemove(function (e) { 
     // mousex and mousey are used for many things, and therefore need to be in the
     // global scope.
     setMouseXY(e);
@@ -1294,4 +1301,4 @@ function setUpGeo() {
   //setState(SELECT);
 }
 
-INIT_PROBLEM['geometry'] = setUpGeo;
+//INIT_PROBLEM['geometry'] = setUpGeo;

@@ -1,3 +1,41 @@
 // Place all the styles related to the topics controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+#topic_desc {
+border-style: solid;
+border-width: 1px;
+border-color: #ccc;
+border-left: none;
+border-right: none;
+padding:20px;
+margin-bottom:10px;
+h4 {
+	font-size:24px;
+	font-weight: bold;
+	border-bottom: 1px solid #ccc;
+	padding-bottom:20px;
+}
+}
+.media{
+	border-top: 1px solid #ccc;
+	padding-top:20px;
+	margin-top:10px;
+}
+#add_comm{
+	margin:10px;
+}
+#comm_all{
+	max-width:1000px;
+	margin-left:auto;
+	margin-right:auto;
+}
+#discussion_p{
+	img{
+	width:80px;
+	margin-top: -50px;
+}
+}
+.topic_you{
+	width:400px; height:250px; display:block; margin-left:auto; margin-right:auto;
+}
