@@ -55,19 +55,6 @@ class QuizInstancesController < ApplicationController
         end
     end
 
-    def finish_quiz
-        @title = "Quiz Results"
-        @quiz ||= Quiz.find_by_id(params[:quiz_id])
-        @quiz_instance ||= @quiz.quiz_instances.find_by_user_id(current_user)
-        @quiz_instance.finish
-        @pset = @quiz_instance.problem_set
-        @answers = @quiz_instance.answers.includes(:problem_type)
-        @all_badges = @student.all_badges
-        respond_to do |format|
-            format.html { render 'results' }
-        end
-    end
-
     def finish_problem
         @stat = @quiz_instance.quiz_stats.find(params[:stat_id])
         redirect_to access_denied_path && return if @stat.user != current_user
@@ -93,105 +80,20 @@ class QuizInstancesController < ApplicationController
             end
         end
     end
-
-
-    # GET quizzes/:id/start
-    # start_quiz_path(@quiz)
-    # def start
-    #     @title = "Starting Quiz"
-    #     @quiz_instance.start
-    #     do_problem
-    # end
-
-
-
-    # def new
-    #     @pset_instance = ProblemSetInstance.find(params[:id])
-    #     deny_access && return unless belongs_to_user(@pset_instance)
-
-    #     @classroom = @student.classrooms.first
-    #     @quiz=Quiz.find_by_id(params[:quiz_id])
-    #     if !@quiz.blank?
-    #         @instance = @quiz.quiz_instances.where(:problem_set_instance_id => @pset_instance).last
-    #         @instance ||= @quiz.assign_with_pset_inst(@pset_instance)
-    #         @instance.start if !@instance.started?
-    #         @counter = @quiz.quiz_problems.count - @instance.stats_remaining.count
-    #         @quiz_stats = @instance.quiz_stats.includes(:problem_type)
-    #         @pset = @instance.problem_set
-    #         @problems = @instance.quiz_problems
-    #         @all_badges = @student.all_badges
-    #         next_problem
-    #     else
-    #         redirect_to pset_path(:name => @pset_instance.problem_set_id), notice: "No Quiz for you"
-    #     end
-
-
-    # end
-
-    # GET /quizzes/:id/next_quiz_problem
-    # # next_quiz_problem_path
-    # def previous_problem
-    #     @title ||= "In Quiz"
-    #     @instance ||= QuizInstance.includes(:problem_set).find(params[:instance])
-    #     @quiz = @instance.quiz
-    #     deny_access && return unless @instance.user_id == current_user.id
-    #     return finish_quiz if @instance.over?
-    #     @counter = (params[:c].to_i - 2) if defined? params[:c]
-    #     @counter ||= @quiz.quiz_problems.count - @instance.stats_remaining.count
-    #     @all_badges = @student.all_badges
-    #     unless @instance.blank?
-    #         @problems = @instance.quiz_problems
-    #         @counter = 0 if @counter <= 0
-    #         @problem = Problem.find_by_id(@problems[@counter].problem)
-    #         @problem_type = @problem.problem_type
-    #         @stat = @instance.stats.find_by_problem_id(@problem.id)
-    #         @answer = @instance.answers.find_by_problem_id(@problem.id)
-    #         unless @answer.blank?
-    #             @response = @answer.response_hash
-    #             @solution = @problem.problem.prefix_solve
-    #             respond_to do |format|
-    #                 format.js { render 'answers/show_quiz_ans' }
-    #             end
-    #         else
-    #             @quiz_stats = @instance.quiz_stats.includes(:problem_type)
-    #             @pset = @instance.problem_set
-    #             respond_to do |format|
-    #                 format.html { render 'problem' }
-    #                 format.js { render 'do' }
-    #             end
-    #         end
-    #     else
-    #         redirect_to pset_path(:name => @pset.id), notice: "No Quiz for you"
-    #     end
-    # end
-
-    # # GET /quizzes/:id/next_quiz_problem
-    # # next_quiz_problem_path
-    # def next_problem
-    #     @title ||= "In Quiz"
-    #     @counter = @quiz.quiz_problems.count - @instance.stats_remaining.count
-    #     @instance ||= QuizInstance.includes(:problem_set).find(params[:id])
-    #     deny_access && return unless @instance.user_id == current_user.id
-    #     return finish_quiz if @instance.over?
-    #     unless @instance.blank?
-    #         @problems = @instance.quiz_problems
-    #         @problem = Problem.find_by_id(@problems[@counter].problem)
-    #         @problem_type = @problem.problem_type
-    #         @stat = @instance.stats.find_by_problem_id(@problem.id)
-    #         @stat ||= @instance.next_stat
-    #         @quiz_stats = @instance.quiz_stats.includes(:problem_type)
-    #         @pset = @instance.problem_set
-    #         @all_badges = @student.all_badges
-    #         respond_to do |format|
-    #             format.html { render 'problem' }
-    #             format.js { render 'do' }
-    #         end
-    #     else
-    #         redirect_to pset_path(:name => @pset.id), notice: "No Quiz for you"
-    #     end
-    # end
-
     
+    def finish_quiz
+        @title = "Quiz Results"
+        @quiz ||= Quiz.find_by_id(params[:quiz_id])
+        @quiz_instance ||= @quiz.quiz_instances.find_by_user_id(current_user)
+        @quiz_instance.finish
+        @pset = @quiz_instance.problem_set
+        @answers = @quiz_instance.answers.includes(:problem_type)
+        @all_badges = @student.all_badges
+        respond_to do |format|
+            format.html { render 'results' }
+        end
+    end
+
     private
 
     def validate_student_via_current_user
