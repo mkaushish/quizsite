@@ -18,4 +18,8 @@
 		<%#= link_to "Start", start_new_quiz_path(@quiz, @quiz_instance), :class => 'button-blue' %>
 	<% end %>
 <% end %>
-<%= link_to 'Submit', finish_quiz_path(@quiz, @quiz_instance), :id => 'finish_quiz', :class => 'button-blue' %>
+<script>
+	$q=initProblemOverlay();
+	$q.html('<%= j(render 'answers/show_quiz_ans') %>');
+	initProblem();
+</script>

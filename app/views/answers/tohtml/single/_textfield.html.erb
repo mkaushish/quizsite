@@ -1,7 +1,6 @@
-
 <div class=input-field>
 	<%= label_tag(textfield.name, textfield.label) unless textfield.label.nil? %>
-	<% unless @instance.class == QuizInstance %>
+	<% unless @quiz_instance %>
 		<%= text_field_tag textfield.name, textfield.fromhash(response), 
 				    :disabled => "disabled", 
 				    :style => len_to_css_width(textfield.char_length(response)),
