@@ -1,4 +1,4 @@
-<% unless @instance.class == QuizInstance %>
+<% unless @quiz_instance %>
 	<%= check_box_tag checkbox.name, "1", checkbox.fromhash(response).nil?, :disabled => true %>
 <% else %>
 	<%= check_box_tag checkbox.name, "1", checkbox.fromhash(response).nil? %>

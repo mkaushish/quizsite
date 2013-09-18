@@ -72,14 +72,19 @@ Quizsite::Application.routes.draw do
   post '/psets/:name/finish_problem',         to: 'problem_set_instances#finish_problem', :as => :finish_ps_problem
 
   # student-quiz_instances views
-  get '/quiz/do/:pid',                        to: 'quiz_instances#do',    :as => :quiz_do
-  get '/quiz/:id/start',                      to: 'quiz_instances#start', :as => :start_quiz
-  get '/quiz/:id/start_new',                  to: 'quiz_instances#new',   :as => :start_new_quiz
-  get '/quiz/:id/finish',                     to: 'quiz_instances#finish_quiz',:as => :finish_quiz
-  get '/left_problem',                        to: 'quiz_instances#previous_problem',   :as => :left_quiz_problem
-  get '/quiz/:id/next_problem',               to: 'quiz_instances#next_problem',   :as => :next_quiz_problem
-  post '/quiz/finish_problem',                to: 'quiz_instances#finish_problem', :as => :finish_quiz_problem
-  get '/quiz/:id/finish_quiz',                to: 'quiz_instances#finish_quiz', :as => :finish_quiz
+  get   'problem_sets/:problem_set_instance_id/quiz/:quiz_id/',         to: 'quiz_instances#show',                  :as => :show_quiz
+  get   '/quiz/:quiz_id/quiz_instances/:id/start',                      to: 'quiz_instances#start',                 :as => :start_quiz
+  get   '/quiz/:quiz_id/quiz_instances/:id/finish_quiz',                to: 'quiz_instances#finish_quiz',           :as => :finish_quiz
+  get   '/quiz/:quiz_id/quiz_instances/:id/do',                         to: 'quiz_instances#do_problem',            :as => :do_quiz_problem
+  post  '/quiz/:quiz_id/quiz_instances/:id/do',                         to: 'quiz_instances#finish_problem',        :as => :finish_quiz_problem
+  # get '/quiz/do/:pid',                                                to: 'quiz_instances#do',    :as => :quiz_do
+  
+  # #get '/quiz/:id/start_new',                 to: 'quiz_instances#new',   :as => :start_new_quiz
+  # get '/quiz/:quiz_id/quiz_instances/:id/finish',                     to: 'quiz_instances#finish_quiz',:as => :finish_quiz
+  # get '/left_problem',                                                to: 'quiz_instances#previous_problem',   :as => :left_quiz_problem
+  # get '/quiz/:id/next_problem',                                       to: 'quiz_instances#next_problem',   :as => :next_quiz_problem
+  
+  
 
   # student-answers views
   get '/answers/:id/show',                    to: 'answers#show', as: :show_answer

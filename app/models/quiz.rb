@@ -11,11 +11,11 @@
 #
 
 class Quiz < ActiveRecord::Base
-  has_many :quiz_instances
+  has_many :quiz_instances, :dependent => :destroy
   has_many :users, :through => :quiz_instances
-  has_many :quiz_problems, inverse_of: :quiz, dependent: :destroy
+  has_many :quiz_problems, inverse_of: :quiz, :dependent => :destroy
 
-  has_many :classroom_quizzes
+  has_many :classroom_quizzes, :dependent => :destroy
   has_many   :problem_types, :through => :problem_set
 
   belongs_to :classroom
@@ -75,8 +75,8 @@ class Quiz < ActiveRecord::Base
   end
 
   # psi = a ProblemSetInstance
-  def assign_with_pset_inst(psi)
-    instance = quiz_instances.build(:user_id => psi.user_id, :problem_set_instance => psi)
+  def assign_with_pset_inst(problem_set_instance)
+    instance = quiz_instances.build(:user_id => problem_set_instance.user_id, :problem_set_instance => problem_set_instance)
     return nil unless instance.save # if they already have an instance of this problem set it won't work
     instance
   end
@@ -84,5 +84,11 @@ class Quiz < ActiveRecord::Base
   def assign(user)
     instance = quiz_instances.build(:user_id => user.id)
     return nil unless instance.save # if they already have an instance of this problem set it won't work
+  end
+
+  def validate_quiz_instance(problem_set_instance)
+    instance = self.quiz_instances.where(:problem_set_instance_id => problem_set_instance).last
+    instance ||= self.assign_with_pset_inst(problem_set_instance)
+    return instance
   end
 end
