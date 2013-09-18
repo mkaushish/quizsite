@@ -1,8 +1,7 @@
  <div class=row-fluid>
     <%= render 'shared/shelf', :@student => current_user %>
-    
 </div>
- <ul class=column-list>
+<ul class=column-list>
   	<h2>Quiz Result</h2>
     <% @answers.each do |answer| %>
       	<li>
@@ -13,5 +12,7 @@
           <%end%>
       	</li>
     <% end %>
+    <% @problems_left.each do |problem_type| %>
+      <li><%= problem_type + " Not Answered " %></li>
+    <% end %>
 </ul>
-

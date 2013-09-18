@@ -40,8 +40,13 @@ class QuizInstance < ActiveRecord::Base
   def finish
     self.ended_at = Time.now
     self.complete = true
+    self.save
   end
 
+  def finished?
+    self.complete == true
+  end
+  
   def over?
     stats_remaining.empty?
   end
@@ -56,5 +61,14 @@ class QuizInstance < ActiveRecord::Base
 
   def stats
     self.quiz_stats 
+  end
+
+  def problems_left
+    problems_left = Array.new
+    problem_ids = self.quiz_problems.pluck(:problem) - self.answers.pluck(:problem_id)
+    problem_ids.each do |problem_id|
+      problems_left.push Problem.find_by_id(problem_id).to_s
+    end
+    return problems_left
   end
 end

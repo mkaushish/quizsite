@@ -12,7 +12,7 @@ class QuizInstancesController < ApplicationController
         if !@quiz.blank?
             @quiz_instance = @quiz.validate_quiz_instance(@pset_instance)
             @quiz_instance.start
-            # return finish_quiz if @quiz_instance.over?
+            return finish_quiz if @quiz_instance.finished?
             @counter = @quiz.quiz_problems.count - @quiz_instance.stats_remaining.count
             @quiz_stats = @quiz_instance.quiz_stats
             @all_badges = @student.all_badges
@@ -31,13 +31,15 @@ class QuizInstancesController < ApplicationController
             @quiz_instance.start unless @quiz_instance.started?
             @problems = @quiz_instance.quiz_problems
             @problem = Problem.find_by_id(params[:problem_id]) if defined? params[:problem_id] and !params[:problem_id].blank?
-            @problem ||= Problem.find_by_id(@problems[@counter].problem)
+            @problem ||= Problem.find_by_id(@problems[@counter].problem) unless @problems[@counter].nil?
+            @problem ||= Problem.find_by_id(@quiz_instance.stats_remaining.first.problem_id)
             @problem_type = @problem.problem_type
             @stat = @quiz_instance.stats.find_by_problem_id(@problem.id)
             @stat ||= @quiz_instance.next_stat
             @quiz_stats = @quiz_instance.quiz_stats.includes(:problem_type)
             @pset = @quiz_instance.problem_set
             @all_badges = @student.all_badges
+            @answers = @quiz_instance.answers
             @answer = @quiz_instance.answers.find_by_problem_id(@problem.id)
             unless @answer.blank?
                 @response = @answer.response_hash
@@ -65,19 +67,16 @@ class QuizInstancesController < ApplicationController
         @counter = @quiz.quiz_problems.count - @quiz_instance.stats_remaining.count
         @pset = @quiz_instance.problem_set
         @all_badges = @student.all_badges
-        if @quiz_instance.over?
-            redirect_to show_quiz_path(@quiz_instance.problem_set_instance, @quiz)
-        else
-            if !@quiz.blank?
-                @response = @answer.response_hash
-                @problem = @answer.problem
-                @solution = @problem.problem.prefix_solve
-                respond_to do |format|
-                    format.js { render 'answers/show_quiz_ans' }
-                end
-            else
-                redirect_to pset_path(:name => @pset.id), notice: "No Quiz for you"
+        @answers = @quiz_instance.answers
+        if !@quiz.blank?
+            @response = @answer.response_hash
+            @problem = @answer.problem
+            @solution = @problem.problem.prefix_solve
+            respond_to do |format|
+                format.js { render 'answers/show_quiz_ans' }
             end
+        else
+            redirect_to pset_path(:name => @pset.id), notice: "No Quiz for you"
         end
     end
     
@@ -88,6 +87,7 @@ class QuizInstancesController < ApplicationController
         @quiz_instance.finish
         @pset = @quiz_instance.problem_set
         @answers = @quiz_instance.answers.includes(:problem_type)
+        @problems_left = @quiz_instance.problems_left
         @all_badges = @student.all_badges
         respond_to do |format|
             format.html { render 'results' }
@@ -114,7 +114,7 @@ class QuizInstancesController < ApplicationController
     end
 
     def validate_quiz_instance
-        @quiz_instance = @quiz.quiz_instances.find_by_id(params[:id])
+        @quiz_instance = @quiz.quiz_instances.includes(:answers).find_by_id(params[:id])
         deny_access && return unless @quiz_instance.user_id == @student.id
     end
 end
