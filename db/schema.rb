@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130912081146) do
+ActiveRecord::Schema.define(:version => 20130918094141) do
 
   create_table "answers", :force => true do |t|
     t.boolean  "correct"
@@ -40,6 +40,9 @@ ActiveRecord::Schema.define(:version => 20130912081146) do
     t.string   "badge_key"
     t.string   "image"
     t.integer  "level"
+    t.integer  "answer_id"
+    t.integer  "comment_id"
+    t.integer  "teacher_id"
   end
 
   create_table "classroom_assignments", :force => true do |t|

@@ -16,10 +16,6 @@
     	<%= f.text_area :content, :rows => 2 %>
 	</div>
 
-	<div class="actions">
-      <%= f.submit "Comment", :class => "btn", :id => 'sub_cmt' %>
-	</div>
-	
   <div class="field">
       <% if defined? classroom %>
           <%= f.hidden_field :classroom_id, :value => classroom.id %>
@@ -38,5 +34,9 @@
       <% if defined? topic %>
           <%= f.hidden_field :topic_id, :value => topic.id %>
       <% end %>
+  </div>
+
+  <div class="actions">
+      <%= f.submit "Comment", :class => "btn", :id => 'sub_cmt' %>
   </div>
 <% end %>

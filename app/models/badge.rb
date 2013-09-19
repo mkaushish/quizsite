@@ -1,6 +1,9 @@
 class Badge < ActiveRecord::Base
   	# attr_accessible :title, :body
   	belongs_to :student
+    belongs_to :merit_given_by, :class_name => "Teacher",
+                                :foreign_key => "teacher_id"
+
 
   	# LEVELS  => POINTS #
   	# 1       => 100    # 

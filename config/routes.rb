@@ -10,6 +10,10 @@ Quizsite::Application.routes.draw do
     resources :topics, except: [:index] 
     resources :comments, except: [:index, :show]
   end
+  resources :teachers, only: [] do 
+    resources :badges, only: [:new, :create]
+  end
+
 
   match "/auth/:provider/callback" => "users#create_user_vdp"
 

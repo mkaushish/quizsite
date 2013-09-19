@@ -4,6 +4,10 @@ class Comment < ActiveRecord::Base
 	has_many :replies, :class_name => "Comment", 
 						:foreign_key => "reply_comment_id",
 						:dependent => :destroy
+	has_one :merit, :class_name => "Badge", 
+                        :foreign_key => "comment_id",
+                        :conditions => "answer_id IS NULL",
+                        :dependent => :destroy
 
  	belongs_to :reply_of, :class_name => "Comment", 
  						:foreign_key => "reply_comment_id"

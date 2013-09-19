@@ -12,6 +12,8 @@
 //= require_directory ./tohtml
 //= require jquery.mousewheel
 //= require jquery.jscrollpane.min
+//= require bootstrap-editable
+
 $(function() {
   $('.with_tooltip').tooltip();
 });

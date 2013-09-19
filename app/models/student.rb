@@ -5,12 +5,25 @@ class Student < User
       
     has_many :classroom_assignments
     has_many :classrooms, :through => :classroom_assignments
+    
     has_many :teachers, :through => :classrooms
-    has_many :badges
     has_many :notifications
+    
     has_many :relationships, :dependent => :destroy
     has_many :coaches, :through => :relationships
     
+    has_many :badges
+    
+    has_many :merits_comment, :class_name => "Badge", 
+                        :conditions => "comment_id != 0 AND answer_id IS NULL",
+                        :dependent => :destroy
+    has_many :merits_answer, :class_name => "Badge", 
+                        :conditions => "answer_id != 0 AND comment_id IS NULL",
+                        :dependent => :destroy
+    has_many :merits_simple, :class_name => "Badge", 
+                        :conditions => "teacher_id != 0 AND comment_id = 0 AND answer_id = 0",
+                        :dependent => :destroy
+
     # after_create :assign_class #TODO broken
 
     def problem_history(*ptypes)
