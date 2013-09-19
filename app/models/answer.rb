@@ -19,6 +19,10 @@ class Answer < ActiveRecord::Base
 
     has_many :comments, :order => "created_at DESC",
                         :dependent => :destroy
+    has_one :merit, :class_name => "Badge", 
+                        :foreign_key => "answer_id",
+                        :conditions => "comment_id IS NULL",
+                        :dependent => :destroy
 
     belongs_to :problem
     belongs_to :user

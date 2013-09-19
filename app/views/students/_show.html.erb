@@ -1,4 +1,16 @@
 <%#= link_to "Charts", chart_student_path %>
+
+<div class="row-fluid">
+	<%= @student.name %>
+	<% if @student.is_a?(Student) and current_user.is_a?(Teacher) %>
+ 		<%= link_to "Give a Merit", new_teacher_badge_path(current_user, :student_id => @student.id), remote: :true, id: "merit_link_#{@student.id}" if @merit.blank? %>
+    <% end %>
+    <div class "row-fluid" id="merit_box_<%= @student.id %>">
+        <%= render "badges/student_merit", :user_id => @student.id, :merit => @merit %>
+    </div>
+    <div class"row-field" id="merit_form_<%= @student.id %>" style="display: inline-block;">
+    </div>
+</div>
 <div id="problems_history" class="teacher-details-header" style="margin-bottom:5px;"></div>
 <div class="row">
   	<div class="span4" id="chapterspan4" style='width:200px; margin-right:0px'>

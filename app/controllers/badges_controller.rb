@@ -21,13 +21,11 @@ class BadgesController < ApplicationController
 	def create
 		@badge = @teacher.merits_given.build(params[:badge])
 		respond_to do |format|
-      		unless Badge.pluck(:comment_id).include? @badge.comment_id
-      			if @badge.save
-        			format.js
-      			else
-        			format.html { redirect_to "#", notice: "Comment isn't Created!" }
-      			end
-      		end
+  			if @badge.save
+    			format.js
+  			else
+    			format.html { redirect_to "#", notice: "Merit isn't Created!" }
+  			end
     	end
 	end
 

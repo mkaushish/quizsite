@@ -5,6 +5,7 @@ class Badge < ActiveRecord::Base
                                 :foreign_key => "teacher_id"
 
 
+
   	# LEVELS  => POINTS #
   	# 1       => 100    # 
   	# 2		  => 1000	#

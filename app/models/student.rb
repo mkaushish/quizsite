@@ -15,13 +15,13 @@ class Student < User
     has_many :badges
     
     has_many :merits_comment, :class_name => "Badge", 
-                        :conditions => "comment_id != 0 AND answer_id IS NULL",
+                        :conditions => "comment_id IS NOT NULL AND answer_id IS NULL",
                         :dependent => :destroy
     has_many :merits_answer, :class_name => "Badge", 
-                        :conditions => "answer_id != 0 AND comment_id IS NULL",
+                        :conditions => "answer_id IS NOT NULL AND comment_id IS NULL",
                         :dependent => :destroy
     has_many :merits_simple, :class_name => "Badge", 
-                        :conditions => "teacher_id != 0 AND comment_id = 0 AND answer_id = 0",
+                        :conditions => "teacher_id IS NOT NULL AND comment_id IS NULL AND answer_id IS NULL",
                         :dependent => :destroy
 
     # after_create :assign_class #TODO broken

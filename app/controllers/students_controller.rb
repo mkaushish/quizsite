@@ -30,6 +30,7 @@ class StudentsController < ApplicationController
     def show
         if current_user.is_a? Teacher
             @problem_sets = @student.problem_sets.order("id ASC").includes(:problem_types)
+            @merit = @student.merits_simple.first
             respond_to do |format|
                 format.js
             end
