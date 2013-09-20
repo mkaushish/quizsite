@@ -2,7 +2,7 @@
 	
 <div id='comm_all'>
 	<div id="topic_desc">
-		<h4><%= topic.title %><%= link_to "Back to Topics", classroom_path(@classroom.id), :class => "pull-right button-blue" %></h4>
+		<h4><%= topic.title %><%= link_to "Back to Posts", classroom_path(@classroom.id), :class => "pull-right button-blue" %></h4>
 		<p><%= topic.description_html %></p>
 		<p><small class='pull-right'>Posted by: <%= topic.user.name %></small></p>
 	</div>

@@ -3,9 +3,7 @@
   <head>
   </head>
   <body>
-    <h1>
-      Thanks for signing up for SmarterGrades. 
-    </h1>
+    <h1>Thanks for signing up for SmarterGrades.</h1>
     <p>
       Please <%= link_to "Click here", "http://smartergrades.com/users/#{@user.id}/confirm?token=#{@user.confirmation_token}
       ", :method => :post %> to complete your registration! and put code <h3><%= @user.confirmation_code %></h3>
