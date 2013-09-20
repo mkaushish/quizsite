@@ -2,6 +2,14 @@
 <%= render 'problem_set_instances/stats' unless @stat.nil? %>
 
 <div class="row-fluid problem_body">
+    <% if @answer.user.is_a?(Student) and current_user.is_a?(Teacher) %>
+        <%= link_to " Give a Merit", new_teacher_badge_path(current_user, :answer_id => @answer.id, :student_id => @answer.user_id), remote: :true, id: "merit_link_#{@answer.id}", :class => "pull-right" if @merit.nil? %>
+    <% end %>
+    <div class "row-fluid" id="merit_box_<%= @answer.id %>">
+        <%= render "badges/answer_merit", :user_id => @answer.user_id, :merit => @merit %>
+    </div>
+    <div class"row-field" id="merit_form_<%= @answer.id %>" style="display: inline-block;">
+    </div>
     <div class="problem_name">
         <% $stderr.puts @problem.inspect %>
         <h2 class="<%= ans_correct? ? "":"in" %>correct_2">
@@ -25,7 +33,7 @@
                 <li>
                     <%= link_to "Try Another", pset_do_path(:name => @instance.problem_set.id, 
                     :pid => @stat.problem_type.id, :random_problem_start => random_problem_start), { :remote => true, :class => 'pull-right button-blue', 
-                    :id => 'try_another' } %>
+                    :id => 'try_another' } if current_user.is_a?(Student) %>
                 </li>
             <% end %>
         </ul>

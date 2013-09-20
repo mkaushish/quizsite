@@ -1,8 +1,12 @@
 class Teacher < User
+  
   has_many :homeworks, :foreign_key => 'user_id'
   has_many :classroom_teachers, :dependent => :destroy
+  
   has_many :classrooms, :through => :classroom_teachers
   has_many :problem_sets, :foreign_key => 'user_id'
+
+  has_many :merits_given, :class_name => "Badge"
 
   attr_accessor :old_password, :new_password, :confirm_password
   attr_accessible :old_password, :new_password, :confirm_password

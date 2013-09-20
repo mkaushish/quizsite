@@ -4,8 +4,9 @@ namespace :generate do
     userinfo = [
       { :name => "Thomas Ramfjord",      :email => "thomas.ramfjord@gmail.com", :password => "blah123" },
       { :name => "Madhav Kaushish",      :email => "madhav.kaushish@gmail.com" },
-      { :name => "Madhav Kaushish",      :email => "m.adhavkaushish@gmail.com", :idtype => Teacher },
-      { :name => "Amandeep Singh",       :email => "amandeep.bhamra@gmail.com", :password => "testing" } #,
+      { :name => "Amandeep Singh",       :email => "amandeep.bhamra@gmail.com", :password => "testing" }, #,
+      { :name => "Madhav Kaushish",      :email => "m.adhavkaushish@gmail.com", :idtype => Teacher }
+      
       # { :name => "Sanjeev Bikhchandani", :email => "sanjeev@naukri.com" },
       # { :name => "Andrea Kalyn",         :email => "akalyn@oberlin.edu" },
       # { :name => "Mary Kay Gray",        :email => "mary.gray@oberlin.edu" },
@@ -52,10 +53,12 @@ namespace :generate do
 
         if user.save!
           puts "#{user.name} successfully added"
-          if classroom.assign! user
-            puts "#{classroom.name} assigned to #{user.name} successfully"
-          else
-            puts "#{classroom.name} not assigned to #{user.name}"
+          unless user.class == Teacher
+            if classroom.assign! user
+              puts "#{classroom.name} assigned to #{user.name} successfully"
+            else
+              puts "#{classroom.name} not assigned to #{user.name}"
+            end
           end
         else
           puts "#{user.name} could not be added: "

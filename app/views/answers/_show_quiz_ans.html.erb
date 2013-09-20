@@ -14,9 +14,14 @@
             <% end %>
         </div>
         <div class"row-fluid">
-            <%= link_to "Previous Problem", do_quiz_problem_path(@quiz, @quiz_instance, :c => (@counter - 2 )), :class => 'button-blue pull-left' %>
-            <%= submit_tag "Update", :class => 'button-blue' %>
-            <%= link_to "Next Problem", do_quiz_problem_path(@quiz, @quiz_instance, :c => @counter), :class => 'button-blue'  %>
+            <% unless @quiz_instance.over? %>
+                <%= link_to "Previous Problem", do_quiz_problem_path(@quiz, @quiz_instance, :c => (@counter - 2 )), :class => 'button-blue pull-left' unless @counter == 1 %>
+                <%= submit_tag "Update", :class => 'button-blue' %>
+                <%= link_to "Next Problem", do_quiz_problem_path(@quiz, @quiz_instance, :c => @counter), :class => 'button-blue'  %>
+            <% else %>
+                <%= submit_tag "Update", :class => 'button-blue' %>
+                <%= link_to_function "Close Problem", 'hideProblem()', :class => 'button-blue' %>
+            <% end %>
         </div>
     <% end %>
 </div>

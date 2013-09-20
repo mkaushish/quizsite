@@ -9,7 +9,7 @@ class TopicsController < ApplicationController
   # GET /topics/1.json
   def show
     @topic = @classroom.topics.includes(:comments).find_by_id(params[:id])
-    @comments = @topic.comments
+    @comments = @topic.comments.includes(:user, :merit)
     @comment = Comment.new
 
     respond_to do |format|

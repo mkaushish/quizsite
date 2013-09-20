@@ -17,7 +17,18 @@
                         <%= "|" %>
                         <%= link_to "Delete", user_comment_path(user, comment), method: :delete, remote: :true  %>
                     <%- end -%>
+                    <% if user.is_a?(Student) and current_user.is_a?(Teacher) %>
+                            <%= " | " %>
+                            <%= link_to "Delete", user_comment_path(user, comment), method: :delete, remote: :true, confirm: "Are you Sure?" %>
+                            <%= link_to "| Give a Merit", new_teacher_badge_path(current_user, :comment_id => comment.id, :student_id => user.id), remote: :true, id: "merit_link_#{comment.id}" if comment.merit.nil? %>
+                    <% end %>
+
                 </small>
+                <div class "row-fluid" id="merit_box_<%= comment.id %>">
+                    <%= render "badges/comment_merit", :user_id => user.id, :merit => comment.merit %>
+                </div>
+                <div class"row-field" id="merit_form_<%= comment.id %>" style="display: inline-block;">
+                </div>
             </p>
         </div>
     </div>

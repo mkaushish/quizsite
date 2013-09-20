@@ -10,6 +10,10 @@ Quizsite::Application.routes.draw do
     resources :topics, except: [:index] 
     resources :comments, except: [:index, :show]
   end
+  resources :teachers, only: [] do 
+    resources :badges, only: [:new, :create]
+  end
+
 
   match "/auth/:provider/callback" => "users#create_user_vdp"
 
@@ -74,7 +78,7 @@ Quizsite::Application.routes.draw do
   # student-quiz_instances views
   get   'problem_sets/:problem_set_instance_id/quiz/:quiz_id/',         to: 'quiz_instances#show',                  :as => :show_quiz
   get   '/quiz/:quiz_id/quiz_instances/:id/start',                      to: 'quiz_instances#start',                 :as => :start_quiz
-  get   '/quiz/:quiz_id/quiz_instances/:id/finish_quiz',                to: 'quiz_instances#finish_quiz',           :as => :finish_quiz
+  get   '/quiz/:quiz_id/quiz_instances/:id/result',                to: 'quiz_instances#finish_quiz',           :as => :finish_quiz
   get   '/quiz/:quiz_id/quiz_instances/:id/do',                         to: 'quiz_instances#do_problem',            :as => :do_quiz_problem
   post  '/quiz/:quiz_id/quiz_instances/:id/do',                         to: 'quiz_instances#finish_problem',        :as => :finish_quiz_problem
   # get '/quiz/do/:pid',                                                to: 'quiz_instances#do',    :as => :quiz_do

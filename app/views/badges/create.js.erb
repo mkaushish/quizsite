@@ -1,0 +1,10 @@
+<% if !@badge.comment_id.blank? %>
+	$('#merit_form_<%= @badge.comment_id %>').remove();
+	$("#merit_box_<%= @badge.comment_id %>").html("<%= j(render "badges/comment_merit", :user_id => @badge.student_id, :merit => @badge) %>");
+<% elsif !@badge.answer_id.blank? %>
+	$('#merit_form_<%= @badge.answer_id %>').remove();
+	$("#merit_box_<%= @badge.answer_id %>").html("<%= j(render "badges/answer_merit", :user_id => @badge.student_id, :merit => @badge) %>");
+<% else %>
+	$('#merit_form_<%= @badge.student_id %>').remove();
+	$("#merit_box_<%= @badge.student_id %>").html("<%= j(render "badges/answer_merit", :user_id => @badge.student_id, :merit => @badge) %>");
+<% end %>
