@@ -14,6 +14,9 @@
     <li class="<%= 'active' if @tab=='graphs'%>">
     	<%= link_to "Graphs", chart_student_path() %>
     </li>
+    <li class="<%= 'active' if @tab=='quizzes'%>">
+      <%= link_to "Quizzes", student_quizzes_path %>
+    </li>
   </ul>
 </div>
 </div>

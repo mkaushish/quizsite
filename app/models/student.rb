@@ -191,6 +191,19 @@ class Student < User
         return quiz
     end
 
+    def all_quizzes_without_problemset
+        quiz = Quiz.where("classroom_id IS NULL")
+        quiz_with_classroom = self.classrooms.first.quizzes
+        quiz_with_classroom.each do |qws|
+            if qws.students.blank?
+                quiz.push qws
+            else
+                quiz.push qws if qws.students.include? self.id.to_s
+            end
+        end
+        return quiz
+    end
+    
     private
 
     def assign_class

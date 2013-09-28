@@ -34,6 +34,7 @@ class DetailsController < ApplicationController
                 else
                     @chart_data_1 = @classroom.chart_over_all_students_answer_stats
                     @top_weak_students = @classroom.weak_students(5)
+                    @lesson = @classroom.lessons.first
             end   
         end
     end

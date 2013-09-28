@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130918094141) do
+ActiveRecord::Schema.define(:version => 20130923103916) do
 
   create_table "answers", :force => true do |t|
     t.boolean  "correct"
@@ -130,6 +130,15 @@ ActiveRecord::Schema.define(:version => 20130918094141) do
   add_index "hw_assignments", ["classroom_id"], :name => "index_hw_assignments_on_classroom_id"
   add_index "hw_assignments", ["homework_id"], :name => "index_hw_assignments_on_homework_id"
 
+  create_table "lessons", :force => true do |t|
+    t.integer  "classroom_id"
+    t.integer  "teacher_id"
+    t.datetime "start_time"
+    t.datetime "end_time"
+    t.datetime "created_at",   :null => false
+    t.datetime "updated_at",   :null => false
+  end
+
   create_table "news_feeds", :force => true do |t|
     t.integer  "user_id",         :null => false
     t.string   "content"
@@ -141,6 +150,11 @@ ActiveRecord::Schema.define(:version => 20130918094141) do
     t.integer  "quiz_id"
     t.datetime "created_at",      :null => false
     t.datetime "updated_at",      :null => false
+    t.integer  "comment_id"
+    t.integer  "topic_id"
+    t.integer  "answer_id"
+    t.integer  "second_user_id"
+    t.integer  "classroom_id"
   end
 
   create_table "problem_generators", :force => true do |t|

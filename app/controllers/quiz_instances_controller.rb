@@ -89,6 +89,8 @@ class QuizInstancesController < ApplicationController
         @answers = @quiz_instance.answers.includes(:problem_type)
         @problems_left = @quiz_instance.problems_left
         @all_badges = @student.all_badges
+        @quiz_instance.send_submission_notification_to_teacher(@student)
+
         respond_to do |format|
             format.html { render 'results' }
         end

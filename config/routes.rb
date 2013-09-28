@@ -13,7 +13,9 @@ Quizsite::Application.routes.draw do
   resources :teachers, only: [] do 
     resources :badges, only: [:new, :create]
   end
-
+  resources :classrooms, only: [] do
+    resources :lessons, only: [:new, :create, :show]
+  end
 
   match "/auth/:provider/callback" => "users#create_user_vdp"
 
@@ -67,6 +69,7 @@ Quizsite::Application.routes.draw do
   get "/students/:id/notifications",          to: 'students#notifications', :as => :student_notifications
   get '/students/:id/progress',               to: 'students#progress', :as => :progress_student
   get '/students/:id/chart',                  to: 'students#chart', :as => :chart_student
+  get "/students/:id/quizzes",                to: 'students#quizzes', :as => :student_quizzes
   get '/students/:id/chart/pset/:pset',       to: 'students#problemset_chart', :as => :chart_student_pset
 
   # student-problem_set_instances views

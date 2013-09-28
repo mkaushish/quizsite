@@ -1,7 +1,7 @@
 class StudentsController < ApplicationController
     
     before_filter :authenticate, :except => [:show, :new, :create]
-    before_filter :validate_student, :only => [:update, :show, :chart, :badges, :notifications, :progress]
+    before_filter :validate_student, :only => [:update, :show, :chart, :badges, :notifications, :progress, :quizzes]
     before_filter :validate_student_via_current_user, :only => [:home, :edit]
 
     def home
@@ -40,6 +40,13 @@ class StudentsController < ApplicationController
     def progress
         @problem_sets = @student.problem_sets.order("id ASC").includes(:problem_types)
         @tab = 'progress'
+    end
+
+    def quizzes
+        @quizzes = @student.all_quizzes_without_problemset
+        respond_to do |format|
+            format.html
+        end
     end
 
     def edit

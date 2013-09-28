@@ -1,0 +1,10 @@
+<%= render 'profile_menu' %>
+<div class='row-fluid' id='prof_cont'>
+	<h2>My Quizzes</h2>
+
+	<% @quizzes.each_with_index do |quiz, i| %>
+		<% i += 1 %>
+		<%= "Quiz #{i}" %><br />
+	<% end %>
+
+</div>
