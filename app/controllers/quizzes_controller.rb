@@ -116,7 +116,6 @@ class QuizzesController < ApplicationController
         @quiz                   = @classroom.quizzes.build(params[:quizzes])
         @quiz.name = params[:quiz][:name]
         if @quiz.save
-            flash[:notice] = "Quiz created."
             @params_quiz_problem    = params[:quiz_problems] if defined? params[:quiz_problems]
             unless @params_quiz_problem.blank?
                 @problems               = @params_quiz_problem.select{ |v| v == "problem"}.first.last 
@@ -127,9 +126,7 @@ class QuizzesController < ApplicationController
                     @quiz_problem = @quiz.quiz_problems.create(:problem => @problems[index], :problem_type_id => @problem_type_ids[index], :problem_category => @problem_categories[index])
                 end
             end
-            respond_to do |format|
-                format.js
-            end
+            redirect_to root_path, notice: "Quiz Created Successfully and assigned to #{@quiz.classroom.name}"
         else
             render :action => 'new'
         end
