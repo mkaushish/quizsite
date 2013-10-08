@@ -1,16 +1,5 @@
-# == Schema Information
-#
-# Table name: quizzes
-#
-#  id           :integer         not null, primary key
-#  problemtypes :binary
-#  user_id      :integer
-#  created_at   :datetime
-#  updated_at   :datetime
-#  name         :string
-#
-
 class Quiz < ActiveRecord::Base
+  
   has_many :quiz_instances, :dependent => :destroy
   has_many :users, :through => :quiz_instances
   has_many :quiz_problems, inverse_of: :quiz, :dependent => :destroy
@@ -22,6 +11,8 @@ class Quiz < ActiveRecord::Base
   belongs_to :problem_set
 
   accepts_nested_attributes_for :quiz_problems
+
+  attr_accessible :name, :problem_set
 
   def Quiz.history_classroom(klass)
     psets = klass.problem_sets

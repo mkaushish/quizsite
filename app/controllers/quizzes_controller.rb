@@ -31,9 +31,10 @@ class QuizzesController < ApplicationController
                     
                     @quiz_type = "single_class"
                     @classroom = Classroom.find(params[:classroom])
-                    @problem_set = ProblemSet.find(params[:pset])
-                    @quiz = @classroom.quizzes.create(problem_set: @problem_set)
-                    @quiz_problems = @quiz.quiz_problems
+                    @problem_set = ProblemSet.includes(:problem_types).find_by_id(params[:pset])
+                    @problem_types = @problem_set.problem_types
+                    @quiz = @classroom.quizzes.build(problem_set: @problem_set)
+                    @quiz_problems = @quiz.quiz_problems.build
                     $stderr.puts "QUIZ: #{@quiz.inspect}"
                     @classroom.students.each do |student|
                         student.news_feeds.create(:content => "You have been assigned a new quiz!!", :feed_type => "Quiz", :user_id => student.id) if @has_Warning.nil?
@@ -78,58 +79,59 @@ class QuizzesController < ApplicationController
         @quiz_problems = @quiz.quiz_problems.includes(:problem_type)
     end
 
-    def partial_create
+    # def partial_create
         
-        if defined? params[:type]
-            case params[:type]
-                when "single_class"
+    #     if defined? params[:type]
+    #         case params[:type]
+    #             when "single_class"
                 
-                    @classroom = Classroom.find params[:classroom]
-                    @problem_set = ProblemSet.find(params[:pset])
-                    @quiz = Quiz.find_by_id(params[:quiz])
-                    @quiz_problem = @quiz.quiz_problems.create problem_type_id: params[:ptype], partial: true
+    #                 @classroom = Classroom.find params[:classroom]
+    #                 @problem_set = ProblemSet.find(params[:pset])
+    #                 @quiz = Quiz.find_by_id(params[:quiz])
+    #                 @quiz_problem = @quiz.quiz_problems.create problem_type_id: params[:ptype], partial: true
                     
-                    redirect_to edit_quiz_problem_path(:quiz_prob => @quiz_problem, :type => "single_class")
+    #                 redirect_to edit_quiz_problem_path(:quiz_prob => @quiz_problem, :type => "single_class")
                 
-                when "all_classes"
+    #             when "all_classes"
                 
-                    @problem_set = ProblemSet.find(params[:pset])
-                    @quiz = Quiz.find_by_id(params[:quiz])
-                    @quiz_problem = @quiz.quiz_problems.create problem_type_id: params[:ptype], partial: true
+    #                 @problem_set = ProblemSet.find(params[:pset])
+    #                 @quiz = Quiz.find_by_id(params[:quiz])
+    #                 @quiz_problem = @quiz.quiz_problems.create problem_type_id: params[:ptype], partial: true
             
-                    redirect_to edit_quiz_problem_path(@quiz_problem, :type => "all_classes")
+    #                 redirect_to edit_quiz_problem_path(@quiz_problem, :type => "all_classes")
                 
-                when "all_classes_and_all_problem_types"
+    #             when "all_classes_and_all_problem_types"
                 
-                    @quiz = Quiz.find_by_id(params[:quiz])
-                    @quiz_problem = @quiz.quiz_problems.create problem_type_id: params[:ptype], partial: true
+    #                 @quiz = Quiz.find_by_id(params[:quiz])
+    #                 @quiz_problem = @quiz.quiz_problems.create problem_type_id: params[:ptype], partial: true
                     
-                    redirect_to edit_quiz_problem_path(@quiz_problem, :type => "all_classes_and_all_problem_types") 
-            end
-        end
-    end
+    #                 redirect_to edit_quiz_problem_path(@quiz_problem, :type => "all_classes_and_all_problem_types") 
+    #         end
+    #     end
+    # end
 
     # POST /quiz
-    # quiz problems come in in theformat of 
     def create
-        @classroom = Classroom.find params[:classroom_id]
-        quiz_problems_attributes = []
-        params[:quiz_problems].each_pair do |k, v|
-            quiz_problems_attributes << {problem_type_id: k, problem_category: v, partial: nil} 
-        end
-        @quiz = @classroom.quizzes.create problem_set_id: params[:problem_set_id], quiz_problems_attributes: quiz_problems_attributes
-        $stderr.puts "ERRORS "*10
-        $stderr.puts @classroom.id
-        $stderr.puts params[:problem_set_id]
-        $stderr.puts quiz_problems_attributes.to_s
-        $stderr.puts @quiz.errors.full_messages
-        if params[:students]
-            @students = User.where(:id => params[:students].keys)
+        @classroom              = Classroom.find_by_id(params[:quiz][:classroom_id])
+        @quiz                   = @classroom.quizzes.build(params[:quizzes])
+        @quiz.name = params[:quiz][:name]
+        if @quiz.save
+            flash[:notice] = "Quiz created."
+            @params_quiz_problem    = params[:quiz_problems] if defined? params[:quiz_problems]
+            unless @params_quiz_problem.blank?
+                @problems               = @params_quiz_problem.select{ |v| v == "problem"}.first.last 
+                @problem_categories     = @params_quiz_problem.select{ |v| v == "problem_category"}.first.last
+                @problem_type_ids       = @params_quiz_problem.select{ |v| v == "problem_type_id"}.first.last
+                @problems_count         = @problems.count
+                @problems_count.times.each_with_index do | v, index | 
+                    @quiz_problem = @quiz.quiz_problems.create(:problem => @problems[index], :problem_type_id => @problem_type_ids[index], :problem_category => @problem_categories[index])
+                end
+            end
+            respond_to do |format|
+                format.js
+            end
         else
-            @students = @classroom.students
-        end
-        respond_to do |format|
-            format.js
+            render :action => 'new'
         end
     end
 
