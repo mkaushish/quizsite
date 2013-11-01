@@ -2,7 +2,7 @@ $('#dimmer').unbind('click');
 $('#problem_overlay').hide();
 $('#dimmer').remove();
 hideProblem();
-$('#quiz_problem_fields').append("<%= j render("quizzes/field_for_qp", :problem => @problem, :problem_type_id => @problem_type.id, :problem_category => @problem_category, :f => @f) %>");
+$('#quiz_problem_fields').append("<%= j render("quizzes/field_for_qp", :problem => @problem, :problem_type_id => @problem_type.id, :problem_category => @problem_category) %>");
 $('#quiz_problems_message').html("You successfully added a Quiz problem for Quiz ");
 $('#no_qp_msg').hide();
 $('#selected_quiz_problems').prepend("<%= j render("quizzes/quiz_problem", :problem => @problem, :problem_type => @problem_type) %>");

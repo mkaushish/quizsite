@@ -14,11 +14,21 @@ Quizsite::Application.routes.draw do
     resources :badges, only: [:new, :create]
   end
   resources :classrooms, only: [] do
-    resources :lessons, only: [:new, :create, :show]
+    resources :lessons, only: [:show, :new, :create]
   end
 
-  resources :quizzes
+  resources :teachers, only: [] do
+    resources :quizzes, only: [:index, :show, :new, :create] do
+      member do
+        get "assign"
+      end
+      collection do
+        post 'set_type'
+      end
+    end
+  end
 
+  
   match "/auth/:provider/callback" => "users#create_user_vdp"
 
   get 'users/signup',                         to: 'users#signup', as: :signup_form
@@ -133,9 +143,8 @@ Quizsite::Application.routes.draw do
   # get '/quiz_for_all_classes/:quiz',          to: 'quizzes#assign_quiz_to_classrooms', as: :assign_quiz_to_classrooms
     
   # post ':classroom/assign_quiz/:id',        to: 'quizzes#assign', as: :assign_quiz
-  get '/classrooms/:classroom/quizzes/:quiz_id',               to: 'quizzes#show', as: :quiz
   get '/quizzes/:quiz_instance/student/:student_id',               to: 'quizzes#quiz_answers', as: :quiz_answers
-  post '/:classroom/:quiz/assign'
+#  post '/:classroom/:quiz/assign'
 
   # classroom
   get 'teacher/:id/classroom/new',            to: 'classrooms#new', as: :new_classroom

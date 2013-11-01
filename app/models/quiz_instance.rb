@@ -66,7 +66,7 @@ class QuizInstance < ActiveRecord::Base
 
     def problems_left
         problems_left = Array.new
-        problem_ids = self.quiz_problems.pluck(:problem) - self.answers.pluck(:problem_id)
+        problem_ids = self.quiz_problems.pluck(:problem_id) - self.answers.pluck(:problem_id)
         problem_ids.each do |problem_id|
             problems_left.push Problem.find_by_id(problem_id).to_s
         end

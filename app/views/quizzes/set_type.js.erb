@@ -1,0 +1,61 @@
+<%- if 		@quiz_type == "Single Classroom" -%>
+	<%- if defined? @classroom_id and !@classroom_id.blank? -%>
+		<%- unless defined? @assigned and @assigned == "true" -%>
+			$('#aqt_fields').html("<%= j render("quizzes/aqt_fields", :@quiz_type => @quiz_type, :@classroom_id => @classroom_id) %>");
+			$("#assign_quiz_to_link").hide();
+			$("#quiz_assigned_to").html("<%= j render("quiz_assigned_to", :@quiz_type => @quiz_type, :@classroom => @classroom) %>");
+			$("#no_aqt_msg").hide();
+			$('#assign_quiz_to_Modal').modal('hide');
+
+		<%- else -%>
+			$("#assign_msg").show();
+			$('#assign_quiz_to_Modal').modal('hide');
+		<%- end -%>
+	<%- end -%>
+	<%- if defined? @quiz_id and !@quiz_id.blank? -%>
+		$("#quiz_type_modal_body").html("<%= j render("classrooms/choose_classroom", :@teacher => @teacher, :@classrooms => @classrooms, :@quiz_type => @quiz_type, :@quiz_id => @quiz_id) %>");
+	<%- else -%>
+		$("#quiz_type_modal_body").html("<%= j render("classrooms/choose_classroom", :@teacher => @teacher, :@classrooms => @classrooms, :@quiz_type => @quiz_type) %>");
+	<%- end -%>
+<%- elsif 	@quiz_type == "Multiple Classrooms" -%>
+	<%- if defined? @classroom_ids and !@classroom_ids.blank? -%>
+		<%- unless defined? @assigned and @assigned == "true" -%>
+			$('#aqt_fields').html("<%= j render("quizzes/aqt_fields", :@quiz_type => @quiz_type, :@classroom_ids => @classroom_ids) %>");
+			$("#assign_quiz_to_link").hide();
+			$("#quiz_assigned_to").html("<%= j render("quiz_assigned_to", :@quiz_type => @quiz_type, :@classroom => @classroom) %>");
+			$("#no_aqt_msg").hide();
+			$('#assign_quiz_to_Modal').modal('hide');
+		<%- else -%>
+			$("#assign_msg").show();
+			$('#assign_quiz_to_Modal').modal('hide');
+		<%- end -%>
+	<%- end -%>
+	<%- if defined? @quiz_id and !@quiz_id.blank? -%>
+		$("#quiz_type_modal_body").html("<%= j render("classrooms/choose_classroom", :@teacher => @teacher, :@classrooms => @classrooms, :@quiz_type => @quiz_type, :@quiz_id => @quiz_id) %>");
+	<%- else -%>
+		$("#quiz_type_modal_body").html("<%= j render("classrooms/choose_classroom", :@teacher => @teacher, :@classrooms => @classrooms, :@quiz_type => @quiz_type) %>");
+	<%- end -%>
+<%- elsif 	@quiz_type == "Specific Students" -%>
+	$("#quiz_type_modal_body").html("<%= j render("classrooms/choose_classroom", :@teacher => @teacher, :@classrooms => @classrooms, :@quiz_type => @quiz_type) %>");
+	<%- if defined? @classroom and !@classroom.blank? -%>
+		<%- if defined? @students and !@students.blank? -%>
+			<%- if defined? @quiz_id and !@quiz_id.blank? -%>
+				$("#quiz_type_modal_body").html("<%= j render("students/choose_students", :@students => @students, :@classroom_id => @classroom.id, :@quiz_type => @quiz_type, :@quiz_id => @quiz_id) %>");
+			<%- else -%>
+				$("#quiz_type_modal_body").html("<%= j render("students/choose_students", :@students => @students, :@classroom_id => @classroom.id, :@quiz_type => @quiz_type) %>");
+			<%- end -%>
+		<%- end -%>	
+		<%- if defined? @student_ids and !@student_ids.blank? -%>
+			<%- unless defined? @assigned and @assigned == "true" -%>
+				$('#aqt_fields').html("<%= j render("quizzes/aqt_fields", :@quiz_type => @quiz_type, :@student_ids => @student_ids, :@classroom_id => @classroom.id) %>");
+				$("#assign_quiz_to_link").hide();
+				$("#quiz_assigned_to").html("<%= j render("quiz_assigned_to", :@quiz_type => @quiz_type, :@classroom => @classroom) %>");
+				$("#no_aqt_msg").hide();
+				$('#assign_quiz_to_Modal').modal('hide');
+			<%- else -%>
+				$("#assign_msg").show();
+				$('#assign_quiz_to_Modal').modal('hide');
+			<%- end -%>
+		<%- end -%>
+	<%- end -%>
+<%- end -%>

@@ -22,8 +22,12 @@ class DetailsController < ApplicationController
                     
                 when 'quizzes'
                     @problem_sets = @classroom.problem_sets.order("id ASC")
-                    @classroom_quizzes = @classroom.quizzes
+                    @classroom_quizzes = @classroom.classroom_quizzes.includes(:quiz)
                     @problem_set = params[:problem_set_id].nil? ? @problem_sets.first : ProblemSet.find_by_id(params[:problem_set_id])
+                    @quiz_history = Array.new
+                    @classroom_quizzes.each do |classroom_quiz|
+                        @quiz_history.push classroom_quiz.quiz if classroom_quiz.quiz.problem_set_id == @problem_set.id
+                    end
                     
                 when 'grades'
                     @problem_sets = @classroom.problem_sets.order("id ASC")

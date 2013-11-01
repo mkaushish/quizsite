@@ -185,7 +185,9 @@ class Student < User
             if qws.students.blank?
                 quiz.push qws
             else
-                quiz.push qws if qws.students.include? self.id.to_s
+                if qws.students.include? self.id.to_s
+                    quiz.push qws 
+                end
             end
         end
         return quiz
@@ -204,6 +206,9 @@ class Student < User
         return quiz
     end
     
+    def is_assigned?(problem_set_id)
+        self.problem_sets.pluck(:problem_set_id).include?(problem_set_id.to_s)
+    end
     private
 
     def assign_class

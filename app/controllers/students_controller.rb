@@ -35,6 +35,13 @@ class StudentsController < ApplicationController
                 format.js
             end
         end
+        if @student == current_user
+            respond_to do |format|
+                format.html
+            end
+        else
+            redirect_to student_badges_path(@student.id)
+        end
     end
 
     def progress

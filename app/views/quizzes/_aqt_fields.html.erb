@@ -1,0 +1,15 @@
+<%- if 		@quiz_type == "Single Classroom" -%>
+	<%= hidden_field_tag "quiz_type", "Single Classroom" %>
+	<%= hidden_field_tag "classroom_id", @classroom_id %>
+<%- elsif 	@quiz_type == "Multiple Classrooms" -%>
+	<%- @classroom_ids.each do |classroom_id| -%>
+		<%= hidden_field_tag "quiz_type", "Multiple Classrooms" %>
+		<%= hidden_field_tag "classroom_ids[]", classroom_id %>
+	<%- end -%>
+<%- elsif 	@quiz_type == "Specific Students" -%>
+	<%- @student_ids.each do |student_id| -%>
+		<%= hidden_field_tag "quiz_type", "Specific Students" %>
+		<%= hidden_field_tag "student_ids[]", student_id %>
+		<%= hidden_field_tag "classroom_id", @classroom_id %>
+	<%- end -%>
+<%- end -%>

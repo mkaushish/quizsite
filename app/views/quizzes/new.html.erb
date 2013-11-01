@@ -1,17 +1,19 @@
-<% if @quiz_type.eql? "single_class" %>
-    
-    <%= render "single_class", :@classroom => @classroom, :@problem_set => @problem_set, :@quiz => @quiz, :@quiz_problem => @quiz_problem %>
+<%= render "form", 	:@classroom => @classroom, :@problem_set => @problem_set, :@quiz => @quiz, :@quiz_problem => @quiz_problem %>
 
-<% elsif @quiz_type.eql? "single_class_specific_students" %>
+<!-- 
+<%# if @quiz_type.eql? "single_class" %>
     
-    <%= render "single_class_specific_students", :@classroom => @classroom, :@student => @student %>
+    <%#= render "single_class", :@classroom => @classroom, :@problem_set => @problem_set, :@quiz => @quiz, :@quiz_problem => @quiz_problem %>
 
-<% elsif @quiz_type.eql? "all_classes" %>
+<%# elsif @quiz_type.eql? "single_class_specific_students" %>
     
-    <%= render "all_classes", :@classrooms => @classrooms, :@problem_sets => @problem_sets, :@problem_set => @problem_set, :@quiz => @quiz, :@quiz_problem => @quiz_problem %>
+    <%#= render "single_class_specific_students", :@classroom => @classroom, :@student => @student %>
 
-<% elsif @quiz_type.eql? "all_classes_and_all_problem_types" %>
+<%# elsif @quiz_type.eql? "all_classes" %>
     
-    <%= render "all_classes_and_all_problem_types", :@classrooms => @classrooms, :@problem_types => @problem_types, :@quiz => @quiz %>
+    <%#= render "all_classes", :@classrooms => @classrooms, :@problem_sets => @problem_sets, :@problem_set => @problem_set, :@quiz => @quiz, :@quiz_problem => @quiz_problem %>
 
-<% end %>
+<%# elsif @quiz_type.eql? "all_classes_and_all_problem_types" %>
+    
+    <%#= render "all_classes_and_all_problem_types", :@classrooms => @classrooms, :@problem_types => @problem_types, :@quiz => @quiz %>
+<%# end %> -->

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130923103916) do
+ActiveRecord::Schema.define(:version => 20131010064032) do
 
   create_table "answers", :force => true do |t|
     t.boolean  "correct"
@@ -246,7 +246,7 @@ ActiveRecord::Schema.define(:version => 20130923103916) do
     t.integer "count",            :default => 1
     t.boolean "partial"
     t.string  "problem_category"
-    t.integer "problem"
+    t.integer "problem_id"
   end
 
   add_index "quiz_problems", ["quiz_id", "problem_type_id"], :name => "index_quiz_problems_on_quiz_id_and_problem_type_id"
@@ -261,16 +261,15 @@ ActiveRecord::Schema.define(:version => 20130923103916) do
 
   create_table "quizzes", :force => true do |t|
     t.binary   "problemtypes"
-    t.integer  "user_id"
-    t.datetime "created_at",     :null => false
-    t.datetime "updated_at",     :null => false
+    t.datetime "created_at",                         :null => false
+    t.datetime "updated_at",                         :null => false
     t.string   "name"
     t.integer  "classroom_id"
     t.integer  "problem_set_id"
     t.string   "students"
+    t.integer  "teacher_id"
+    t.integer  "quiz_problems_count", :default => 0
   end
-
-  add_index "quizzes", ["user_id", "name"], :name => "index_quizzes_on_user_id_and_name", :unique => true
 
   create_table "relationships", :force => true do |t|
     t.integer  "coach_id",   :null => false

@@ -1,0 +1,33 @@
+<div class="row-fluid">
+    <%= render 'teachers/teacher_info', :teacher => @teacher %>
+</div>
+<p id="assign_msg">Quiz has been Assigned</p>
+<div class="row-fluid">
+	<div class="span6">
+		<table class="table table-hover">
+			<thead>
+				<td>Name</td>
+				<td>Quiz Problems Count</td>
+				<td>Option</td>
+			</thead>
+			<tbody>
+				<% @quizzes.each do |quiz| %>
+					<tr>
+						<td><%= link_to quiz.name, teacher_quiz_path(quiz.teacher_id, quiz.id) %></td>
+						<td><%= quiz.quiz_problems.size %></td>
+						<!-- <td><p id="assign_quiz_to_link" class="btn">Assign</p></td> -->
+						<td><%= link_to "Assign",  assign_teacher_quiz_path(current_user, quiz), remote: :true, id: "assign_quiz_#{quiz.id}", :class => "btn" %></td>
+					</tr>
+				<% end %>
+			</tbody>
+		</table>
+	</div>
+</div>
+<div id="assign_quiz_to_form">
+	<%#= render "assign_quiz_to_form", :oaqt => "true" %>
+</div>
+<script>
+	$( document ).ready(function() {
+    	$("#assign_msg").hide();
+	});
+</script>

@@ -2,9 +2,11 @@
   <div class="navbar-inner" style="height:40px; border-radius:0px; -webkit-border-radius:0px;">
     <a class="brand" style='font-family:Courier'><%=@student.name %></a>
     <ul class="nav">
-     <li class="<%= 'active' if @tab=='profile' || @tab==nil || @tab=='' %>">
-       <%= link_to "Profile", student_path(@student.id) %>
-     </li>
+      <%- if @student == current_user -%>
+        <li class="<%= 'active' if @tab=='profile' || @tab==nil || @tab=='' %>">
+          <%= link_to "Profile", student_path(@student.id) %>
+        </li>
+      <%- end -%>
      <li class="<%= 'active' if @tab=='badges'%>">
        <%= link_to "Badges", student_badges_path() %>
      </li>

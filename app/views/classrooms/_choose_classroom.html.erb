@@ -1,0 +1,25 @@
+<%- unless @classrooms.blank? -%>
+	<%= form_tag set_type_teacher_quizzes_path(aqt: @quiz_type), method: :post, remote: :true do %>
+		<%- @classrooms.each do |classroom| -%>
+			<%- if 		@quiz_type == "Single Classroom" or @quiz_type == "Specific Students" -%>
+				<%= radio_button_tag "classroom_id", "#{classroom.id}" %>
+				
+			<%- elsif  	@quiz_type == "Multiple Classrooms" -%>
+				<%= check_box_tag "classroom_ids[]", "#{classroom.id}" %>
+			<%- end -%>
+
+			<%= label_tag "#{classroom.name}" %>
+			<br />
+		<%- end -%>
+		
+		<%- if defined? @quiz_id and !@quiz_id.blank? -%>
+        	<%= hidden_field_tag "quiz_id", @quiz_id %>
+        <%- end -%>
+
+		<%- if 	@quiz_type == "Specific Students" -%>
+			<%= submit_tag "Submit", :class => "btn pull-right" %>
+		<%- else -%>
+			<%= submit_tag "Assign on Quiz Creation", :class => "btn pull-right" %>
+		<%- end -%>
+	<%- end -%>
+<%- end -%>

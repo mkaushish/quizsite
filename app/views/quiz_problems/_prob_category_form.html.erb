@@ -3,11 +3,9 @@
 
 	<h2><%= ptype %></h2>
 	
-	<%= form_tag(update_quiz_problem_category_path(:type => params[:type], :problem_type_id => ptype.id), remote: :true, method: :post) do %>
-			<%= label_tag :problem_category, "Choose Problem Category" %>
-	   		<%= select_tag :problem_category, options_from_collection_for_select(QuizProblem.quiz_prob_category_array, :first, :last), {:id => 'problem_category'} %>
-	   		<%= hidden_field_tag :partial, "false" %>
-	   		<%= hidden_field_tag "f", f %>
+	<%= form_tag(update_quiz_problem_category_path(:problem_type_id => ptype.id), remote: :true, method: :post) do %>
+		<%= label_tag :problem_category, "Choose Problem Category" %>
+   		<%= select_tag :problem_category, options_from_collection_for_select(QuizProblem.quiz_prob_category_array, :first, :last), {:id => 'problem_category'} %>
 	   	<%= submit_tag "Assign" %>
 	<% end %>
 </div>

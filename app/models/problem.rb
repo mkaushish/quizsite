@@ -15,7 +15,8 @@ class Problem < ActiveRecord::Base
     include ApplicationHelper
     has_many :answers
     has_one :problem_type, :through => :problem_generator
-
+    has_one :quiz_problem
+    
     belongs_to :problem_generator
     belongs_to :user
     

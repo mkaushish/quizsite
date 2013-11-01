@@ -10,9 +10,11 @@ class Quiz < ActiveRecord::Base
   belongs_to :classroom
   belongs_to :problem_set
 
+  belongs_to :teacher
+
   accepts_nested_attributes_for :quiz_problems
 
-  attr_accessible :name, :problem_set
+  attr_accessible :name, :problem_set_id
 
   def Quiz.history_classroom(klass)
     psets = klass.problem_sets
@@ -28,7 +30,7 @@ class Quiz < ActiveRecord::Base
       {
         "problem_type_id" => qp.problem_type_id,
         "remaining" => qp.count,
-        "problem_id" => qp.problem
+        "problem_id" => qp.problem_id
       }
     end
   end
@@ -81,5 +83,26 @@ class Quiz < ActiveRecord::Base
     instance = self.quiz_instances.where(:problem_set_instance_id => problem_set_instance).last
     instance ||= self.assign_with_pset_inst(problem_set_instance)
     return instance
+  end
+
+  def assign_classroom(classroom)
+    class_quiz = self.for_class classroom
+    class_quiz.save
+  end
+
+  def assign_classrooms(classroom_ids)
+    classroom_ids.each do |classroom_id|
+      classroom = Classroom.find_by_id(classroom_id)
+      class_quiz = self.for_class classroom
+      class_quiz.save
+    end
+  end
+
+  def assign_students(student_ids, classroom_id)
+    self.students = student_ids
+    self.save
+    classroom = Classroom.find_by_id(classroom_id)
+    class_quiz = self.for_class classroom
+    class_quiz.save
   end
 end
