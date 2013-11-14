@@ -5,6 +5,7 @@
       <li><%= link_to "Create Classroom", new_classroom_path(current_user), remote: :true %></li>
       <li><%= link_to "My Problem Sets", problem_sets_path(current_user) %></li>
       <li><%= link_to "Quizzes", teacher_quizzes_path(current_user) %></li>
+      <li><%= link_to "Custom Problems", new_custom_problem_path %></li> 
     <% end %>
   <%= yield :nav_elts if content_for?(:nav_elts) %>
 </ul>
