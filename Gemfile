@@ -10,6 +10,7 @@ gem 'jquery-rails', '~> 2.0.2'
 gem 'ransack'
 gem 'will_paginate', '~> 3.0'
 gem 'auto_html'
+gem "google_visualr"
 
 group :test, :development do
 	gem 'rspec-rails'
@@ -17,7 +18,6 @@ group :test, :development do
     gem 'database_cleaner'
     gem 'launchy'
     gem 'guard-rails'
-    gem "google_visualr", ">= 2.1"
 end
 
 group :development do

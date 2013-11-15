@@ -168,7 +168,7 @@ ActiveRecord::Schema.define(:version => 20130920072123) do
   create_table "problem_set_instances", :force => true do |t|
     t.integer  "user_id"
     t.integer  "problem_set_id"
-    t.datetime "stop_green",     :default => '2013-11-14 17:11:59', :null => false
+    t.datetime "stop_green",     :default => '2013-11-15 05:38:59', :null => false
     t.integer  "num_red",        :default => 0
     t.integer  "num_green",      :default => 0
     t.integer  "num_blue",       :default => 0
@@ -216,7 +216,7 @@ ActiveRecord::Schema.define(:version => 20130920072123) do
     t.integer  "points",          :default => 0,                     :null => false
     t.integer  "points_wrong",    :default => 0,                     :null => false
     t.integer  "points_right",    :default => 100,                   :null => false
-    t.datetime "stop_green",      :default => '2013-11-14 17:11:59', :null => false
+    t.datetime "stop_green",      :default => '2013-11-15 05:38:59', :null => false
     t.integer  "points_required", :default => 500
     t.datetime "created_at",                                         :null => false
     t.datetime "updated_at",                                         :null => false

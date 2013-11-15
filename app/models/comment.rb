@@ -1,5 +1,6 @@
 class Comment < ActiveRecord::Base
-	attr_accessible :answer_id, :classroom_id, :content, :user_id, :reply_comment_id, :topic_id
+	
+    attr_accessible :answer_id, :classroom_id, :content, :user_id, :reply_comment_id, :topic_id
 
 	has_many :replies, :class_name => "Comment", 
 						:foreign_key => "reply_comment_id",
