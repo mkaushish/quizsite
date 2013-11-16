@@ -52,6 +52,7 @@ class CreateProblemRelatedTables < ActiveRecord::Migration
             t.integer       :num_red, default: 0
             t.integer       :num_green, default: 0
             t.integer       :num_blue, default: 0
+            t.timestamp     :last_attempted
 
             t.timestamps
         end

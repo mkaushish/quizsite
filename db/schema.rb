@@ -51,9 +51,9 @@ ActiveRecord::Schema.define(:version => 20130920072123) do
     t.datetime "updated_at",   :null => false
   end
 
-  add_index "classroom_assignments", ["classroom_id", "student_id"], :name => "index_class_assignments_on_classroom_id_and_student_id", :unique => true
-  add_index "classroom_assignments", ["classroom_id"], :name => "index_class_assignments_on_classroom_id"
-  add_index "classroom_assignments", ["student_id"], :name => "index_class_assignments_on_student_id"
+  add_index "classroom_assignments", ["classroom_id", "student_id"], :name => "index_classroom_assignments_on_classroom_id_and_student_id", :unique => true
+  add_index "classroom_assignments", ["classroom_id"], :name => "index_classroom_assignments_on_classroom_id"
+  add_index "classroom_assignments", ["student_id"], :name => "index_classroom_assignments_on_student_id"
 
   create_table "classroom_problem_sets", :force => true do |t|
     t.integer  "classroom_id"
@@ -168,10 +168,11 @@ ActiveRecord::Schema.define(:version => 20130920072123) do
   create_table "problem_set_instances", :force => true do |t|
     t.integer  "user_id"
     t.integer  "problem_set_id"
-    t.datetime "stop_green",     :default => '2013-11-15 05:38:59', :null => false
+    t.datetime "stop_green",     :default => '2013-11-16 05:34:23', :null => false
     t.integer  "num_red",        :default => 0
     t.integer  "num_green",      :default => 0
     t.integer  "num_blue",       :default => 0
+    t.datetime "last_attempted"
     t.datetime "created_at",                                        :null => false
     t.datetime "updated_at",                                        :null => false
   end
@@ -216,7 +217,7 @@ ActiveRecord::Schema.define(:version => 20130920072123) do
     t.integer  "points",          :default => 0,                     :null => false
     t.integer  "points_wrong",    :default => 0,                     :null => false
     t.integer  "points_right",    :default => 100,                   :null => false
-    t.datetime "stop_green",      :default => '2013-11-15 05:38:59', :null => false
+    t.datetime "stop_green",      :default => '2013-11-16 05:34:23', :null => false
     t.integer  "points_required", :default => 500
     t.datetime "created_at",                                         :null => false
     t.datetime "updated_at",                                         :null => false

@@ -63,7 +63,7 @@ Quizsite::Application.configure do
   config.i18n.fallbacks = true
 
   # Send deprecation notices to registered listeners
-  config.active_support.deprecation = :notify
+  config.active_support.deprecation = :log
 
   # configure the mailer to link to smartergrades.com
   config.action_mailer.raise_delivery_errors = true
