@@ -9,7 +9,7 @@ class CreateClassroomsAndClassAssignments < ActiveRecord::Migration
             t.timestamps
         end
 
-        create_table :class_assignments do |t|
+        create_table :classroom_assignments do |t|
             t.integer :classroom_id
             t.integer :student_id
 
@@ -18,8 +18,8 @@ class CreateClassroomsAndClassAssignments < ActiveRecord::Migration
         add_index :classrooms, :name, :unique => true
         add_index :classrooms, :student_password, :unique => true
         add_index :classrooms, :teacher_password, :unique => true
-        add_index :class_assignments, :classroom_id
-        add_index :class_assignments, :student_id
-        add_index :class_assignments, [:classroom_id, :student_id], :unique => true
+        add_index :classroom_assignments, :classroom_id
+        add_index :classroom_assignments, :student_id
+        add_index :classroom_assignments, [:classroom_id, :student_id], :unique => true
     end
 end
