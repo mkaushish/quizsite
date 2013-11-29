@@ -1,8 +1,7 @@
 <ul>
   	<% if current_user.is_a? Teacher %>
       <li><%= link_to "Overview", teacherhome_path %></li>
-      <li><%= link_to "Join Classroom", join_classroom_path(current_user), id: "join_class_btn", remote: :true %></li>
-      <li><%= link_to "Create Classroom", new_classroom_path(current_user), remote: :true %></li>
+      <li><%= link_to "New / Join Classroom", new_classroom_path(current_user), remote: :true %></li>
       <li><%= link_to "My Problem Sets", problem_sets_path(current_user) %></li>
       <li><%= link_to "Quizzes", teacher_quizzes_path(current_user) %></li>
       <li><%= link_to "Custom Problems", new_custom_problem_path %></li> 

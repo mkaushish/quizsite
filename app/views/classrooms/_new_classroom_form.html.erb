@@ -1,0 +1,26 @@
+<h2>Create Classroom</h2>
+<%= form_for [@teacher, @classroom], :url => create_classroom_path do |f| %>
+    <% if @classroom.errors.any? %>
+        <div class="alert alert-error">
+            <div id="error_explanation">
+                <h5><%= pluralize(@classroom.errors.count, "error") %> prohibited this comment from being saved:</h5>
+                <ul>
+                    <% @classroom.errors.full_messages.each do |msg| %>
+                        <li><%= msg %></li>
+                    <% end %>
+                </ul>
+            </div>
+        </div>
+    <% end %>
+    <div class="input-prepend">
+        <span class="add-on">Classroom Name</span>
+        <%= f.text_field :name, :placeholder => "Type Classroom Name Here !!", id: "classroom_name_modal" %>
+    </div>
+    
+    <div class="input-prepend">
+        <span class="add-on">Student Password</span>
+        <%= f.text_field :student_password, :value => @classroom.rand_password, :readonly => :true %>
+    </div>
+
+    <%= f.submit "Create", :class => 'btn btn-info pull-right' %>
+<% end %>

@@ -27,6 +27,7 @@
             <% end %>
             <%= render 'shared/errors' %>
             <%= yield %>
+            <div id="outside"></div>
         </div>
         <% if content_for? :outside %>
             <%= yield :outside %>
