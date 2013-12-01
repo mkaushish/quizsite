@@ -1,6 +1,6 @@
 <% content_for :outside do %> 
   <div id="custom_problem_form" class="problem_overlay">
-    <%= form_tag custom_problems_path, method: :post, remote: true do %>
+    <%= form_tag teacher_custom_problems_path(@teacher), method: :post, remote: true do %>
       <%= render 'custom_problems/form' %>
     <% end %>
   </div>

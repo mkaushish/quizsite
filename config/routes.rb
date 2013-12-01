@@ -2,7 +2,9 @@ Quizsite::Application.routes.draw do
 
   resources :badges, only: [:show]
   resources :problem_sets, only: [:show, :destroy]
-  resources :custom_problems, except: [:index]
+  resources :teachers, only: [] do
+    resources :custom_problems
+  end
   resources :users do
     member do
       post 'change_password'
@@ -83,6 +85,8 @@ Quizsite::Application.routes.draw do
   get '/students/:id/chart',                  to: 'students#chart', :as => :chart_student
   get "/students/:id/quizzes",                to: 'students#quizzes', :as => :student_quizzes
   get '/students/:id/chart/pset/:pset',       to: 'students#problemset_chart', :as => :chart_student_pset
+  get '/students/:id/problem_sets/:problem_set_id',        to: 'students#get_problem_set_history', :as => :get_problem_set_history
+  get '/students/:id/problem_types/:problem_type_id',      to: 'students#get_problem_type_history', :as => :get_problem_types_history
 
   # student-problem_set_instances views
   get '/psets/:name',                         to: 'problem_set_instances#show', :as => :pset

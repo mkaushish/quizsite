@@ -30,7 +30,8 @@ class QuizProblemsController < ApplicationController
 
     # For showing different custom problems #
     def next_custom_prob
-        @problem            = current_user.custom_problems.offset(rand(current_user.custom_problems.count)).first if @quiz_problem.problem_category == "2"
+        @problem            = current_user.custom_problems.sample if @quiz_problem.problem_category == "2"
+        @problem          ||= Teacher.find_by_email("t.homasramfjord@gmail.com").custom_problems.sample if @quiz_problem.problem_category == "2"
         @answer             = @problem.solve
         @problem_category   = "2"
         respond_to do |format|
@@ -44,7 +45,7 @@ class QuizProblemsController < ApplicationController
         @problem_type_id    = params[:problem_type_id]  if defined? params[:problem_type_id]
         @problem_type       = ProblemType.find(@problem_type_id)
         @problem            = @problem_type.spawn_problem if @problem_category == "1"
-        @problem            = current_user.custom_problems.offset(rand(current_user.custom_problems.count)).first if @problem_category == "2"
+        @problem            = current_user.custom_problems.sample if @problem_category == "2"
         @answer             = @problem.solve
         respond_to do |format|
             format.js

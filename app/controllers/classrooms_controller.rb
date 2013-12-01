@@ -80,12 +80,6 @@ class ClassroomsController < ApplicationController
         end
     end
 
-    def join
-        respond_to do |format|
-            format.js
-        end
-    end
-
     def join_class
         debugger
         @classroom = Classroom.find_by_teacher_password(params[:class_teacher_pass])

@@ -16,9 +16,11 @@ class DetailsController < ApplicationController
                 when 'problem_sets'
                     @problem_sets = @classroom.problem_sets.order("id ASC")
                     @problem_set = params[:problem_set_id].nil? ? @problem_sets.first : ProblemSet.find_by_id(params[:problem_set_id])
-                    @stat_calc = TeacherStatCalc.new(@students, @problem_set.problem_types)
-                    @chart_data_2 = @classroom.chart_percentage_of_students_answers_correct_by_problem_sets_with_intervals(@problem_set)
-                    @chart_data_3 = @problem_set.chart_classroom_problem_set_problem_types_students_percentage_correct
+                    unless @problem_set.blank?
+                        @stat_calc = TeacherStatCalc.new(@students, @problem_set.problem_types) 
+                        @chart_data_2 = @classroom.chart_percentage_of_students_answers_correct_by_problem_sets_with_intervals(@problem_set)
+                        @chart_data_3 = @problem_set.chart_classroom_problem_set_problem_types_students_percentage_correct
+                    end
                     
                 when 'quizzes'
                     @problem_sets = @classroom.problem_sets.order("id ASC")
@@ -32,9 +34,12 @@ class DetailsController < ApplicationController
                 when 'grades'
                     @problem_sets = @classroom.problem_sets.order("id ASC")
                     @problem_set = params[:problem_set_id].nil? ? @problem_sets.first : ProblemSet.find_by_id(params[:problem_set_id])
-                    @problem_types = @problem_set.problem_types
-                    @start_date = params[:start_date].nil? ? (Time.now-(365*24*60*60)) : params[:start_date]
-                    @end_date = params[:end_date].nil? ? (Time.now) : params[:end_date]
+                    unless @problem_set.blank?
+                        @problem_types = @problem_set.problem_types
+                        @start_date = params[:start_date].nil? ? (Time.now-(365*24*60*60)) : params[:start_date]
+                        @end_date = params[:end_date].nil? ? (Time.now) : params[:end_date]
+                    end
+                    
                 else
                     @chart_data_1 = @classroom.chart_over_all_students_answer_stats
                     @top_weak_students = @classroom.weak_students(5)

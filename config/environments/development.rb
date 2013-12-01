@@ -24,8 +24,9 @@ Quizsite::Application.configure do
 
   # Expands the lines which load the assets
   # set to false to speed up requests?
-  config.assets.debug = true
-  # config.assets.debug = false
+  # config.assets.debug = true
+  config.assets.debug = false
+  config.serve_static_assets = false
 
   # Raise exception on mass assignment protection for Active Record models
   config.active_record.mass_assignment_sanitizer = :strict

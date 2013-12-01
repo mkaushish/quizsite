@@ -1,5 +1,5 @@
 <h1>Editing Custom Problem</h1>
-<%= form_tag custom_problem_path(@custom_problem), method: :put do %>
+<%= form_tag teacher_custom_problem_path(@teacher, @custom_problem), method: :put do %>
 	<%= render 'edit_form' %>
 <% end %>
-<%= link_to 'Back', new_custom_problem_path %>
+<%= link_to 'Back',  new_teacher_custom_problem_path(@teacher) %>

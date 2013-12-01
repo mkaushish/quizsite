@@ -1,7 +1,7 @@
 class StudentsController < ApplicationController
     
     before_filter :authenticate, :except => [:show, :new, :create]
-    before_filter :validate_student, :only => [:update, :show, :chart, :badges, :notifications, :progress, :quizzes]
+    before_filter :validate_student, :only => [:update, :show, :chart, :badges, :notifications, :progress, :quizzes, :get_problem_set_history, :get_problem_type_history]
     before_filter :validate_student_via_current_user, :only => [:home, :edit]
 
     def home
@@ -34,13 +34,12 @@ class StudentsController < ApplicationController
             respond_to do |format|
                 format.js
             end
-        end
-        if @student == current_user
+        elsif @student == current_user
             respond_to do |format|
                 format.html
             end
         else
-            redirect_to student_badges_path(@student.id)
+            redirect_to student_badges_path(@student.id) and return
         end
     end
 
@@ -97,6 +96,21 @@ class StudentsController < ApplicationController
         end 
     end
 
+    def get_problem_set_history
+        @problem_set = @student.problem_sets.includes(:problem_types).find_by_id(params[:problem_set_id])
+        @problem_set_history = @problem_set.history(@student.id)
+        respond_to do |format|
+            format.js
+        end
+    end
+
+    def get_problem_type_history
+        @problem_type = ProblemType.find_by_id(params[:problem_type_id])
+        @answers = @problem_type.answers.where("user_id = ?", @student.id)
+        respond_to do |format|
+            format.js
+        end
+    end
     # def new
     #     @student = Student.new
     # end
