@@ -1,0 +1,7 @@
+$('#dimmer').unbind('click');
+$('#problem_overlay').hide();
+$('#dimmer').remove();
+hideProblem();
+$('#no_cprob_msg').hide();
+$('#custom_problems').prepend("<%= j render("custom_problems", :problem => @custom_problem) %>");
+$('#custom_problems_message').html("You successfully created a problem for " + '<%= j(link_to @problem_type.name, problem_path(@custom_problem.id), remote: true) %>');

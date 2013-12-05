@@ -10,9 +10,11 @@ log/*.log
 log/searchd.development.pid
 tmp/**/*
 tags
+vendor/bundle/*
 .sass-cache
 .*.swp
 .*.swo
 allfiles.txt
 TODO
 .elasticbeanstalk/
+

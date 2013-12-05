@@ -2,9 +2,9 @@ class QuizInstancesController < ApplicationController
 
     before_filter :authenticate
     before_filter :validate_student_via_current_user
-    before_filter :validate_problem_set_instances, :only => [:show]
     before_filter :validate_quiz, :only => [:show, :do_problem, :finish_problem, :finish_quiz]
     before_filter :validate_quiz_instance, :only => [:do_problem, :finish_problem, :finish_quiz]
+    before_filter :validate_problem_set_instances, :only => [:show]
     
     def show
         @title = "Quiz"
@@ -89,6 +89,8 @@ class QuizInstancesController < ApplicationController
         @answers = @quiz_instance.answers.includes(:problem_type)
         @problems_left = @quiz_instance.problems_left
         @all_badges = @student.all_badges
+        @quiz_instance.send_submission_notification_to_teacher(@student)
+
         respond_to do |format|
             format.html { render 'results' }
         end
@@ -111,6 +113,13 @@ class QuizInstancesController < ApplicationController
 
     def validate_quiz
         @quiz = Quiz.find_by_id(params[:quiz_id])
+    end
+
+    def validate_problem_set_instances
+        @pset_instance = @student.problem_set_instances.find(params[:problem_set_instance_id]) unless params[:problem_set_instances].nil?
+        problem_set_id = @quiz.problem_set_id
+        @pset_instance ||= @student.problem_set_instances_problem_set(@quiz.problem_set_id) if @student.is_assigned?(problem_set_id)
+        deny_access && return if @pset_instance.blank?
     end
 
     def validate_quiz_instance

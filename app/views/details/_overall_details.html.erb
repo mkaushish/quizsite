@@ -1,29 +1,61 @@
-<div class="row-fluid">
-	<div class="span4">
+<div class="row-fluid pull-right">
+	<%= link_to "Start session", new_classroom_lesson_path(@classroom), id: "start_session_link", remote: :true %><%= " | " %>
+	<%= link_to "Start indefinite session", "#", id: "indefinite_session_link" %> <%= " | " %>
+	<%= link_to "Stop session", details_path(@classroom), id: "stop_session_link" %>
+	<div id="session_form"></div>
+</div>
+<div class="row-fluid" id="overall_details">
+	<div class="span4" id="overall_chart">
 		<%= render 'classrooms/overall_classroom_chart', :@chart_data_1 => @chart_data_1 %>
 	</div>
-	<div class="span4">
-		<h3>Students</h3>
-		<table>
-			<% @top_weak_students.each do |student| %>
-			
-				<tr>
-					<td>
-						<%= link_to "#{student[1]}", student_path(student[0].to_i), remote: :true  %>
-					</td>
-					<td>
-						<% unless student[2]== -1 %>
-						<%= student[2].to_s + "%" %>
-						<%else%>
-						<%= "Not Attempted" %>
-						<%end%>
-					</td>
-				</tr>
-
-			<% end %>
-		</table>
+	<div class="span4" id="overall_weak_students">
+		<%= render "classrooms/top_weak_students", :@top_weak_students => @top_weak_students %>
 	</div>
-
 </div>
 <div id='check'>
-	</div>
+</div>
+<script>
+	$( document ).ready(function() {
+  		<% unless @lesson.blank? %>
+  			validate_datetime();
+  		<% end %>
+	});
+	function validate_datetime(){
+		<% unless @lesson.blank? %>
+			var timer = false;		
+			time_now = new Date( <%= Time.now.utc.to_i %> * 1000 );
+	    	lesson_start_time = new Date( <%= (@lesson.start_time - 5.hours - 30.minutes).to_i %> * 1000 );
+	    	lesson_end_time = new Date( <%= (@lesson.end_time - 5.hours - 30.minutes).to_i %> * 1000 );
+    		if (time_now >= lesson_start_time && time_now < lesson_end_time) 
+			{
+				send_request();
+				timer = setTimeout(validate_datetime, 10000);
+			}
+			else
+			{
+				clearTimeout(timer);
+				timer = false;
+			}
+		<% end %>
+		
+	}
+	function send_request(){
+		$.ajax({
+			type: "GET",
+			url: "http://localhost:3000/classrooms/<%= @classroom.id %>/lessons/1",
+			contentType: "application/text; charset=utf-8",
+		});
+		
+	}
+	$(function() {
+		$("#indefinite_session_link").click(function() {
+			var timer = setInterval(send_request, 10000);
+		
+		});
+		// $("#stop_session_link").click(function() {
+		// 	clearInterval(timer);
+		// 	timer = false;
+		
+		// });
+	});
+</script>

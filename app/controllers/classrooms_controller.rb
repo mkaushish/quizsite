@@ -80,19 +80,16 @@ class ClassroomsController < ApplicationController
         end
     end
 
-    def join
-        respond_to do |format|
-            format.js
-        end
-    end
-
     def join_class
+        debugger
         @classroom = Classroom.find_by_teacher_password(params[:class_teacher_pass])
-        @join_class = @teacher.classrooms.find_by_id(@classroom.id)
-        @join_class ||= @teacher.classrooms_teachers.find_by_classroom_id(@classroom.id)
-        @join_class ||= @teacher.classroom_teachers.create(:classroom_id => @classroom.id) unless @classroom.nil?
+        unless @classroom.blank?
+            @join_class = @teacher.classrooms.find_by_id(@classroom.id) 
+            @join_class ||= @teacher.classroom_teachers.find_by_classroom_id(@classroom.id)
+            @join_class ||= @teacher.classroom_teachers.create(:classroom_id => @classroom.id)
+        end
         respond_to do |format|
-            if @join_class
+            unless @join_class.blank?
                 format.html { redirect_to root_path, notice: 'Classroom joined successfully' }
             else
                 format.html { redirect_to root_path, notice: 'No classrooms found successfully' }

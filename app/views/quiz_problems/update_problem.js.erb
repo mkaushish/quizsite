@@ -1,15 +1,8 @@
-// alert("hi");
-<% if defined? params[:type] == ("all_classes" or "all_classes_and_problem_types") %>
-
-	$('#assign_quiz_button').html("<div class='dotted-border-header pull-right'><%= j(link_to 'Assign Quiz', assign_quiz_to_classrooms_path(@quiz_problem.quiz_id
-)) %></div>");
-
-<% end %>
-//$('#dimmer').unbind('click');
-//$('#problem_overlay').hide();
-//$('#dimmer').remove();
+$('#dimmer').unbind('click');
+$('#problem_overlay').hide();
+$('#dimmer').remove();
 hideProblem();
-$('#quiz_problems').prepend("<%= j render("quizzes/quiz_problem", :quiz_problem => @quiz_problem) %>");
+$('#quiz_problem_fields').append("<%= j render("quizzes/field_for_qp", :problem => @problem, :problem_type_id => @problem_type.id, :problem_category => @problem_category) %>");
 $('#quiz_problems_message').html("You successfully added a Quiz problem for Quiz ");
 $('#no_qp_msg').hide();
-
+$('#selected_quiz_problems').prepend("<%= j render("quizzes/quiz_problem", :problem => @problem, :problem_type => @problem_type) %>");

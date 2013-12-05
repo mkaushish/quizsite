@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130918094141) do
+ActiveRecord::Schema.define(:version => 20131120061722) do
 
   create_table "active_admin_comments", :force => true do |t|
     t.string   "resource_id",   :null => false
@@ -50,8 +50,8 @@ ActiveRecord::Schema.define(:version => 20130918094141) do
     t.boolean  "correct"
     t.integer  "problem_id"
     t.binary   "response"
-    t.datetime "created_at",           :null => false
-    t.datetime "updated_at",           :null => false
+    t.datetime "created_at"
+    t.datetime "updated_at"
     t.integer  "user_id"
     t.float    "time_taken"
     t.string   "notepad"
@@ -75,7 +75,6 @@ ActiveRecord::Schema.define(:version => 20130918094141) do
     t.integer  "level"
     t.integer  "answer_id"
     t.integer  "comment_id"
-    t.integer  "teacher_id"
   end
 
   create_table "blog_comments", :force => true do |t|
@@ -115,15 +114,20 @@ ActiveRecord::Schema.define(:version => 20130918094141) do
   create_table "classroom_problem_sets", :force => true do |t|
     t.integer  "classroom_id"
     t.integer  "problem_set_id"
-    t.datetime "created_at"
-    t.datetime "updated_at"
     t.datetime "starts_at"
     t.datetime "ends_at"
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
+
+  add_index "classroom_problem_sets", ["classroom_id", "problem_set_id"], :name => "index_hw_assignments_on_classroom_id_and_homework_id", :unique => true
+  add_index "classroom_problem_sets", ["classroom_id"], :name => "index_hw_assignments_on_classroom_id"
+  add_index "classroom_problem_sets", ["problem_set_id"], :name => "index_hw_assignments_on_homework_id"
 
   create_table "classroom_quizzes", :force => true do |t|
     t.integer  "classroom_id"
     t.integer  "quiz_id"
+    t.integer  "teacher_id"
     t.datetime "starts_at"
     t.datetime "ends_at"
   end
@@ -140,8 +144,8 @@ ActiveRecord::Schema.define(:version => 20130918094141) do
   create_table "classrooms", :force => true do |t|
     t.string   "name"
     t.integer  "teacher_id"
-    t.datetime "created_at",       :null => false
-    t.datetime "updated_at",       :null => false
+    t.datetime "created_at"
+    t.datetime "updated_at"
     t.string   "student_password"
     t.string   "teacher_password"
   end
@@ -157,10 +161,10 @@ ActiveRecord::Schema.define(:version => 20130918094141) do
     t.integer  "user_id"
     t.integer  "answer_id"
     t.integer  "classroom_id"
-    t.datetime "created_at",       :null => false
-    t.datetime "updated_at",       :null => false
     t.integer  "reply_comment_id"
     t.integer  "topic_id"
+    t.datetime "created_at",       :null => false
+    t.datetime "updated_at",       :null => false
   end
 
   create_table "delayed_jobs", :force => true do |t|
@@ -173,20 +177,20 @@ ActiveRecord::Schema.define(:version => 20130918094141) do
     t.datetime "failed_at"
     t.string   "locked_by"
     t.string   "queue"
-    t.datetime "created_at",                :null => false
-    t.datetime "updated_at",                :null => false
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
   add_index "delayed_jobs", ["priority", "run_at"], :name => "delayed_jobs_priority"
 
-  create_table "hw_assignments", :force => true do |t|
-    t.integer "classroom_id"
-    t.integer "homework_id"
+  create_table "lessons", :force => true do |t|
+    t.integer  "classroom_id"
+    t.integer  "teacher_id"
+    t.datetime "start_time"
+    t.datetime "end_time"
+    t.datetime "created_at",   :null => false
+    t.datetime "updated_at",   :null => false
   end
-
-  add_index "hw_assignments", ["classroom_id", "homework_id"], :name => "index_hw_assignments_on_classroom_id_and_homework_id", :unique => true
-  add_index "hw_assignments", ["classroom_id"], :name => "index_hw_assignments_on_classroom_id"
-  add_index "hw_assignments", ["homework_id"], :name => "index_hw_assignments_on_homework_id"
 
   create_table "news_feeds", :force => true do |t|
     t.integer  "user_id",         :null => false
@@ -210,7 +214,11 @@ ActiveRecord::Schema.define(:version => 20130918094141) do
     t.integer  "user_id"
     t.integer  "problem_set_id"
     t.datetime "last_attempted"
+<<<<<<< HEAD
     t.datetime "stop_green",     :default => '2013-09-02 12:44:12', :null => false
+=======
+    t.datetime "stop_green",     :default => '2013-02-11 00:56:57', :null => false
+>>>>>>> cebbf2d3dbf6abc1719346bd4217c25ffb7cc30f
     t.integer  "num_blue"
     t.integer  "num_green"
     t.integer  "num_red"
@@ -236,6 +244,9 @@ ActiveRecord::Schema.define(:version => 20130918094141) do
   create_table "problem_sets", :force => true do |t|
     t.string  "name"
     t.integer "user_id"
+    t.string  "image"
+    t.string  "description"
+    t.string  "video_link"
   end
 
   create_table "problem_stats", :force => true do |t|
@@ -246,7 +257,11 @@ ActiveRecord::Schema.define(:version => 20130918094141) do
     t.integer  "points",          :default => 0,                     :null => false
     t.integer  "points_wrong",    :default => 0,                     :null => false
     t.integer  "points_right",    :default => 100,                   :null => false
+<<<<<<< HEAD
     t.datetime "stop_green",      :default => '2013-09-02 12:44:13', :null => false
+=======
+    t.datetime "stop_green",      :default => '2013-04-12 13:44:15', :null => false
+>>>>>>> cebbf2d3dbf6abc1719346bd4217c25ffb7cc30f
     t.integer  "points_required", :default => 500
   end
 
@@ -262,11 +277,10 @@ ActiveRecord::Schema.define(:version => 20130918094141) do
 
   create_table "problems", :force => true do |t|
     t.binary   "serialized_problem"
-    t.datetime "created_at",           :null => false
-    t.datetime "updated_at",           :null => false
+    t.datetime "created_at"
+    t.datetime "updated_at"
     t.integer  "problem_generator_id"
     t.integer  "user_id"
-    t.string   "body"
     t.text     "explanation"
   end
 
@@ -306,8 +320,8 @@ ActiveRecord::Schema.define(:version => 20130918094141) do
   create_table "quizzes", :force => true do |t|
     t.binary   "problemtypes"
     t.integer  "user_id"
-    t.datetime "created_at",     :null => false
-    t.datetime "updated_at",     :null => false
+    t.datetime "created_at"
+    t.datetime "updated_at"
     t.string   "name"
     t.integer  "classroom_id"
     t.integer  "problem_set_id"
@@ -354,8 +368,8 @@ ActiveRecord::Schema.define(:version => 20130918094141) do
   create_table "users", :force => true do |t|
     t.string   "name"
     t.string   "email"
-    t.datetime "created_at",                            :null => false
-    t.datetime "updated_at",                            :null => false
+    t.datetime "created_at"
+    t.datetime "updated_at"
     t.string   "encrypted_password"
     t.string   "salt"
     t.string   "confirmation_code"

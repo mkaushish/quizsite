@@ -20,8 +20,10 @@ class Classroom < ActiveRecord::Base
     has_many :comments, :through => :topics,
                         :dependent => :destroy
 
-    validates :student_password, :uniqueness => true
-    validates :teacher_password, :uniqueness => true
+    has_many :lessons, :dependent => :destroy
+    
+#    validates :student_password, :uniqueness => true
+#    validates :teacher_password, :uniqueness => true
     
     validates :name, :presence => true
     

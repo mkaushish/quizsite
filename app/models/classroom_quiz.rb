@@ -2,6 +2,8 @@ class ClassroomQuiz < ActiveRecord::Base
   belongs_to :classroom
   belongs_to :quiz
 
+  after_create :send_news_feed_to_classroom_students
+
   def assign(start_time, end_time)
     self.starts_at = start_time
     self.ends_at = end_time
@@ -22,6 +24,14 @@ class ClassroomQuiz < ActiveRecord::Base
       "<i class=status>Due</i> <i class=status>#{ends_at}</i>: completed by " +
         "<i class=status>#{0} / #{quiz_instances.length}</i>".html_safe
     end
-      
+  end
+
+  private
+  
+  def send_news_feed_to_classroom_students
+    students = self.classroom.students
+    students.each do |student|
+      student.news_feeds.create(:content => "You have been assigned a new quiz #{self.quiz.name}!!", :feed_type => "quiz", :user_id => student.id, :quiz_id => self.quiz_id)
+    end      
   end
 end

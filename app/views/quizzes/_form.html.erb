@@ -1,15 +1,100 @@
-<% h = 7 %>
-
 <div class="row-fluid">
-  <%# [first_half(@quiz_problems, h), second_half(@quiz_problems, h)].each do |qp_column| %>
-  <div class="span6">
-    <ul class="quiz_problem_list_form">
-      <% @quiz_problems.each do |qp| %>
-      <li>
-        <%= render partial: 'quiz_problem_box_form', object: qp %>
-      </li>
-      <% end %>
-    </ul>
-  </div>
-  <%# end %>
+    <%= render 'teachers/teacher_info', :teacher => @teacher %>
 </div>
+<div class="row-fluid">
+    <ul class="breadcrumb">
+        <li>
+            <b><%= @problem_set.name %></b> 
+            <span class="divider">&amp;</span>
+        </li>
+        <li class="active">
+            New Quiz
+            <span class="divider">&amp;</span>
+        </li>
+    </ul>
+</div>
+
+<%= form_for [@teacher, @quiz] do |f| %>
+    <% if @quiz.errors.any? %>
+        <div class="alert alert-error">
+            <div id="error_explanation">
+                <h5><%= pluralize(@quiz.errors.count, "error") %> prohibited this @quiz from being saved:</h5>
+                <ul>
+                    <% @quiz.errors.full_messages.each do |msg| %>
+                        <li><%= msg %></li>
+                    <% end %>
+                </ul>
+            </div>
+        </div>
+    <% end %>
+    <p>
+        <%= f.label "Quiz Name" %><br />
+        <%= f.text_field :name %>
+    </p>
+        <div id="quiz_problem_fields">
+            <%#= render "field_for_qp", :f => f %>
+        </div>
+    <%= f.hidden_field :problem_set_id, :value => @problem_set.id   if defined? @problem_set %>
+    
+    <p><%= f.submit "Submit", :class => "btn" %></p>
+
+    <div id="quiz_problems_message" class="teacher-details-header" style="margin-bottom:5px;"></div>
+    <div class="row-fluid">
+        <div class="span4">
+            <div class="dotted-border-header">
+                Problem Types
+            </div>
+            <div class='dotted-border teacher-details-column'>
+                <ul class='column-list' id="quiz_problems_tabs">
+                    <% @problem_types.each do |ptype| %>
+                        <% unless ptype.nil? %>
+                            <li><%= ptype.to_s %>
+                                <%= link_to "Add to Quiz",  new_quiz_problem_path(problem_type_id: ptype), :class => "pull-right", id: "add_problem_type_#{ptype.id}", remote: :true %>
+                            </li>
+                        <% end %>                        
+                    <% end %>      
+                </ul>
+            </div>
+        </div>
+        <div class="span4" id="selected_probs">
+            <div class="dotted-border-header">
+                Selected Problems 
+            </div>
+            <div class='dotted-border teacher-details-column'>
+                <div id="qp">
+                    <ul class='column-list' id="selected_quiz_problems">
+                        <%#= render "quiz_problem", :problem => problem, :problem_type => problem_type %>
+                        <p id="no_qp_msg"><%= "No Problem is Selected Yet!" %></p>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="span4">
+            <div class="dotted-border-header">
+                Assigned To 
+            </div>
+            <p id="assign_quiz_to_link" class="btn pull-right">Assign To</p>
+            <div class='dotted-border teacher-details-column'>
+                <ul class='column-list' id="quiz_assigned_to">
+                    <p id="no_aqt_msg">
+                        Quiz not assigned to anyone.<br />
+                        <strong>NOTE: Selecting whom to assign quiz here will assign quiz upon creation instantly to whom it is selected for.</strong>
+                    </p>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id ="aqt_fields">
+        <%#= render "aqt_fields" %>
+    </div>
+<% end %>
+
+<%= render "assign_quiz_to_form" %>
+
+<script>
+    $(function(){
+        $("#assign_quiz_to_link").on('click',function() {
+            $('#assign_quiz_to_Modal').modal('show');
+        });
+    });
+</script>

@@ -1,14 +1,15 @@
 class CreateQuizzes < ActiveRecord::Migration
-  def change
-    create_table :quizzes do |t|
-      t.binary :problemtypes
-      t.integer :user_id
-
-      t.timestamps
-    end
-    add_column :problemanswers, :pclass, :string
-    add_index  :problemanswers, [:user_id, :pclass, :created_at]
-
-    add_column :users, :pscores, :binary
-  end
+  	def change
+    	create_table :quizzes do |t|
+      		t.string	:name
+      		t.binary 	:problemtypes
+      		t.integer	:classroom_id
+      		t.integer	:problem_set_id
+      		t.string	:students
+      		t.integer	:teacher_id
+      		t.integer 	:quiz_problems_count, :default => 0
+      		t.timestamps
+    	end
+  		add_index :quizzes, [:teacher_id, :name], :unique => true
+  	end
 end

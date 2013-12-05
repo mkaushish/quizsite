@@ -107,7 +107,9 @@ class UsersController < ApplicationController
             else
                 @classroom = Classroom.find_by_student_password(params[:class_pass])
             end
-            @classroom.assign!(@user)
+            if @classroom.assign!(@user)
+                @classroom.teachers.first.news_feeds.create(:content => "#{@user.name} has joined your classroom #{@classroom.name}", :feed_type => "Student Joined Classroom", :classroom_id => "@classroom.id", :second_user_id => "@user.id")
+            end
             sign_in @user
             redirect_to root_path, notice: 'Welcome To SmarterGrades!!'
         elsif @user.is_a? (Teacher)

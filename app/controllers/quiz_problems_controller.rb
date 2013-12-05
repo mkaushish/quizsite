@@ -1,9 +1,17 @@
 class QuizProblemsController < ApplicationController
 	include TeachersHelper
   	before_filter :authenticate
-    before_filter :validate_quiz_problem_and_quiz
+    before_filter :validate_quiz_problem_and_quiz, except: [:new, :update_problem_category, :update_problem]
 
-  	def edit
+  	def new
+        @problem_type       = ProblemType.find_by_id(params[:problem_type_id])
+        @quiz_problem       = QuizProblem.new(:problem_type_id => @problem_type.id)
+        respond_to do |format|
+            format.js
+        end
+    end
+
+    def edit
   		respond_to do |format|
   		 	format.js
   		end
@@ -11,9 +19,10 @@ class QuizProblemsController < ApplicationController
 
     # For showing different random problems #
     def next_random_prob
-        @problem_type = ProblemType.find_by_id(params[:ptype])
-        @problem = @problem_type.spawn_problem
-        @answer = @problem.solve
+        @problem_type       = ProblemType.find_by_id(params[:ptype])
+        @problem            = @problem_type.spawn_problem
+        @answer             = @problem.solve
+        @problem_category   = "1"
         respond_to do |format|
           format.js
         end
@@ -21,8 +30,10 @@ class QuizProblemsController < ApplicationController
 
     # For showing different custom problems #
     def next_custom_prob
-        @problem = current_user.custom_problems.offset(rand(current_user.custom_problems.count)).first if @quiz_problem.problem_category == "2"
-        @answer = @problem.solve
+        @problem            = current_user.custom_problems.sample if @quiz_problem.problem_category == "2"
+        @problem          ||= Teacher.find_by_email("t.homasramfjord@gmail.com").custom_problems.sample if @quiz_problem.problem_category == "2"
+        @answer             = @problem.solve
+        @problem_category   = "2"
         respond_to do |format|
           format.js
         end
@@ -30,28 +41,24 @@ class QuizProblemsController < ApplicationController
 
     # For updating problems_category for the quiz_problem #
     def update_problem_category
-        if @quiz_problem.update_attributes(params[:quiz_problem])
-            if @quiz_problem.problem.nil?
-                @problem_type = ProblemType.find(@quiz_problem.problem_type_id)
-                @problem = @problem_type.spawn_problem if @quiz_problem.problem_category == "1"
-                @problem = current_user.custom_problems.offset(rand(current_user.custom_problems.count)).first if @quiz_problem.problem_category == "2"
-                @answer = @problem.solve
-            else
-                redirect_to root_path
-            end
-        else
-            redirect_to root_path
-    	end
+        @problem_category   = params[:problem_category] if defined? params[:problem_category]
+        @problem_type_id    = params[:problem_type_id]  if defined? params[:problem_type_id]
+        @problem_type       = ProblemType.find(@problem_type_id)
+        @problem            = @problem_type.spawn_problem if @problem_category == "1"
+        @problem            = current_user.custom_problems.sample if @problem_category == "2"
+        @answer             = @problem.solve
+        respond_to do |format|
+            format.js
+        end
   	end
 
     # For updating chosen problem for the quiz_problem #
     def update_problem
+        @problem            = Problem.find_by_id(params[:problem]) if defined? params[:problem]
+        @problem_type       = ProblemType.find_by_id(params[:problem_type_id]) if defined? params[:problem_type_id]
+        @problem_category   = params[:problem_category] if defined? params[:problem_category]
         respond_to do |format|
-            if @quiz_problem.update_attributes(params[:quiz_problem])
-                format.js 
-            else
-                format.html { redirect_to root_path }
-            end
+            format.js
         end
     end
 
@@ -65,7 +72,7 @@ class QuizProblemsController < ApplicationController
     private
     
     def validate_quiz_problem_and_quiz
-        @quiz_problem = QuizProblem.find_by_id(params[:quiz_prob])
-        @quiz = @quiz_problem.quiz
+        @quiz_problem   = QuizProblem.find_by_id(params[:quiz_prob])
+        #@quiz = @quiz_problem.quiz
     end
 end

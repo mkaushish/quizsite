@@ -1,4 +1,6 @@
 <%= render 'profile_menu' %>
 <div class='row-fluid' id='prof_cont'>
-<%= render 'edit' %>
+	<%- if @student == current_user -%>
+		<%= render 'edit' %>
+	<%- end -%>
 </div>

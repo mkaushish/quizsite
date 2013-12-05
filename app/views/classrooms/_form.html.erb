@@ -1,33 +1,18 @@
-<h2>Edit Your Profile</h2>
-<%= form_for [@teacher, @classroom], :url => create_classroom_path, :html => { :multipart => true } do |f| %>
-    <% if @classroom.errors.any? %>
-        <div class="alert alert-error">
-            <div id="error_explanation">
-                <h5><%= pluralize(@classroom.errors.count, "error") %> prohibited this comment from being saved:</h5>
-                <ul>
-                    <% @classroom.errors.full_messages.each do |msg| %>
-                        <li><%= msg %></li>
-                    <% end %>
-                </ul>
-            </div>
+<div id="new_classroom_Modal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="new_classroom_modal_Label" aria-hidden="true" width="80%">
+    <div class="modal-header">
+        <!-- <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button> -->
+        <!-- <h3 id="new_classroom_modal_Label">Create / Join Classroom</h3> -->
+    </div>
+    <div class="modal-body">
+        <div class="well">
+            <%= render "new_classroom_form", :@classroom => @classroom %> 
         </div>
-    <% end %>
-    <div class="control-group">
-        <%= f.label :name, :class => 'control-label' %>
-        <div class="controls">
-            <%= f.text_field :name, :class => 'text_field' %>
+        <h3>Or</h3>
+        <div class="well">
+            <%= render "join_classroom_form" %>
         </div>
     </div>
-
-    <div class="control-group">
-        <%= f.label :student_password, :class => 'control-label' %>
-        <div class="controls">
-            <%= f.text_field :student_password, :class => 'text_field', :value => @classroom.rand_password, :readonly => :true %>
-        </div>
+    <div class="modal-footer">
+        <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
     </div>
-
-    <div class="form-actions">
-        <%= f.submit "Create", :class => 'btn btn-info' %>
-        <%= link_to "Cancel", teacherhome_path, class: "btn" %>
-    </div>
-<% end %>
+</div>

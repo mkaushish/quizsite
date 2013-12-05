@@ -1,0 +1,14 @@
+<p><%= @quiz_type %></p>
+<%- if @quiz_type == "Single Classroom" -%>
+	<li><%= @classroom.name -%><li>
+<%- elsif @quiz_type == "Multiple Classrooms" -%>
+	<%- @classrooms.each do |classroom| -%>
+		<li><%= classroom.name %></li>
+	<%- end -%>
+<%- elsif @quiz_type == "Specific Students" -%>
+	<%- @students.each do |student| -%>
+		<li><%= student.name %></li>
+	<%- end -%>
+<%- end -%>
+<li><%= link_to "Edit", "#" %></li>
+    

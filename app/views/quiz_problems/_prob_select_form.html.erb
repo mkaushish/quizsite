@@ -1,20 +1,22 @@
 <div class="problem_body">
-    <% ptype = @quiz_problem.problem_type %>
-
-    <% if @quiz_problem.problem_category == "1" %>
-        <%= link_to "Choose Another", next_random_prob_qp_path(@problem_type, :quiz_prob => @quiz_problem), 
+    
+    <% if @problem_category == "1" %>
+        <%= link_to "Choose Another", next_random_quiz_problem_path(@problem_type), 
         :class => 'pull-right button-blue', :id => 'choose_another', :remote => true  %>
     <% else %>
-        <%= link_to "Choose Another", next_custom_prob_qp_path(@quiz_problem), 
+        <%= link_to "Choose Another", next_custom_quiz_problem_path, 
         :class => 'pull-right button-blue', :id => 'choose_another', :remote => true  %>
     <% end %>
 
-    <h2><%= ptype %></h2>
+    <h2><%= @problem_type %></h2>
 
-    <%= form_for(@quiz_problem, url: update_problem_qp_path(:type => params[:type]), remote: :true) do |f| %>
+    <%= form_tag(update_quiz_problem_path, remote: :true) do %>
         <div class="problem">
             <div id="attachment"><%= @problem.body_html unless @problem.body_html.blank? %></div>
-            <%= f.hidden_field :problem, :value => @problem.id %>
+            <%= hidden_field_tag :problem, @problem.id %>
+            <%= hidden_field_tag :problem_type_id, @problem_type.id %>
+            <%= hidden_field_tag :problem_category, @problem_category %>
+            
             <%= "Question: " %>
             <% @problem.text.each do |elt| %>
                 <%= render_tohtml({partial_dir: 'problems'}, elt) %>
@@ -22,8 +24,8 @@
             <br />
             <%= "Answer: " %>
             <br />
-            <%= @problem.solve.first.last %> 
+            <%= @answer %> 
         </div>
-      	<%= f.submit "Assign" %>
+      	<%= submit_tag "Assign" %>
     <% end %>
 </div>
