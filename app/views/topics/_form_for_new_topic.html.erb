@@ -16,15 +16,11 @@
     <%= f.text_field :title%>
   </div>
     <%= f.label :description, 'Content', :id => 'top_tit' %>
-  <%=render 'shared/wysihtml5'%>
   <section>
   <div class="field">
     <%= f.text_area :description%>
   </div>
   </section>
-<script>
-wysi('topic_description', '#top_tit');
-</script>
   
   <div class="field">
     <%= f.hidden_field :classroom_id, :value => classroom_id %>
