@@ -1,7 +1,13 @@
 login: &login
   adapter: postgresql
+<<<<<<< HEAD
+  username: mk
+  password:
+  database: smartergrades
+=======
   username: amandeepsingh
   password: 
+>>>>>>> cebbf2d3dbf6abc1719346bd4217c25ffb7cc30f
   encoding: UTF8
   host: localhost
   pool: 5

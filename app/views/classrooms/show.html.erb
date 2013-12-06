@@ -8,10 +8,15 @@
 			<%= render "topics/topics", :topics => @topics, :user => current_user, :classroom_id => @classroom.id %>
 	</div>
 	<div class="well" id="new_topic_form">
-		<h4>Add a New Topic</h4>
-		<%= render "topics/form_for_new_topic", :user => current_user, :classroom_id => @classroom.id, :topic => @topic %>
+		<div style='margin-left:auto; margin-right:auto; width:80%'>
+			<h4>Add a New Post</h4>
+
+			<%= render "topics/form_for_new_topic", :user => current_user, :classroom_id => @classroom.id, :topic => @topic %>
+		</div>
 	</div>
 </div>
+<div id='test'></div>
+
 
 
 <!-- <div class="row-fluid">

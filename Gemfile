@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.2.11'
+gem 'rails', '3.2.13'
 
 gem 'therubyracer', :platform => :ruby
 gem 'omniauth-oauth2'
@@ -28,7 +28,7 @@ group :development do
     gem "better_errors"
     gem "binding_of_caller"
     gem 'quiet_assets'
-    gem 'debugger'
+    #gem 'debugger'
     #gem 'rack-mini-profiler'
     gem 'hirb'
     gem "mailcatcher", "~> 0.5.12"

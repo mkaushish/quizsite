@@ -1,4 +1,5 @@
 <div class='row-fluid' style='height:30px; background-color:purple'></div>
+<%= render 'problem_set_instances/stats' unless @stat.nil? %>
 <div class="row-fluid problem_body">
     <div class="problem_name">
         <% $stderr.puts @problem.inspect %>

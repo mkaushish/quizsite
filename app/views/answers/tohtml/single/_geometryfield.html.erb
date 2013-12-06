@@ -63,6 +63,6 @@ setUpGeo('geocanvas_2');
 </div>
 <% shapes = geometryfield.encodedStartShapes %>
 <%= hidden_field_tag('startshapes', '#{InputField.fromhash("geometry", response)}')   %>
-<%= hidden_field_tag('qbans_selected', "#{InputField.fromhash("selected", solution)}")   %>
+<%= hidden_field_tag('qbans_selected', "#{InputField.fromhash("selected", response)}")   %>
 <%= hidden_field_tag('starttool', geometryfield.startTool) %>
 <% end %>
