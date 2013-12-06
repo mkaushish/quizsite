@@ -1,0 +1,14 @@
+<div class='navbar'>
+	<div class="navbar-inner" style="height:40px; border-radius:0px; -webkit-border-radius:0px;">
+			<a class="brand" style='font-family:Courier'><%=@classroom.name %> - Discussion</a>
+	</div>
+</div>
+<div class="row-fluid" id="t_or_c">
+	<div class="row-fluid" id="all_topics">
+			<%= render "topics/topics", :topics => @topics, :user => current_user, :classroom_id => @classroom.id %>
+	</div>
+	<div class="well" id="new_topic_form">
+		<h4>Add a New Topic</h4>
+		<%= render "topics/form_for_new_topic", :user => current_user, :classroom_id => @classroom.id, :topic => @topic %>
+	</div>
+</div>

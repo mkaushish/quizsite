@@ -1,11 +1,22 @@
 class LessonsController < ApplicationController
-before_filter :validate_classroom, only: [:new, :create, :show]
+    
+    before_filter :validate_classroom, except: [:destroy]
   
+    def index
+        @teacher = current_user
+        @lessons = @classroom.lessons.includes(:teacher)
+    end
+    
     def show
-        @chart_data_1 = @classroom.chart_over_all_students_answer_stats
-        @top_weak_students = @classroom.weak_students(5)
+        @teacher = current_user
+        @lesson = @classroom.lessons.find_by_id(params[:id])
+        @start_time = @lesson.start_time - (5.hours + 30.minutes)
+        @end_time = @lesson.end_time - (5.hours + 30.minutes)
+        @chart_data_1 = @classroom.chart_over_all_students_answer_stats(@start_time, @end_time)
+        @top_weak_students = @classroom.weak_students(5, @start_time, @end_time)
 
         respond_to do |format|
+            format.html
             format.js
         end
     end

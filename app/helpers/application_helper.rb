@@ -159,8 +159,8 @@ module ApplicationHelper
       end
   end
 
-  def total_correct_wrong_answers(student)
-    student.total_correct_wrong_answers
+  def total_correct_wrong_answers(student, start_time, end_time)
+    student.total_correct_wrong_answers(start_time, end_time)
   end
 
   def total_correct_wrong_problem_set_instance_answers(problem_set_instance)

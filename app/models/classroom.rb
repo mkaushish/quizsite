@@ -116,11 +116,11 @@ class Classroom < ActiveRecord::Base
         return chart_data
     end
 
-    def chart_over_all_students_answer_stats
+    def chart_over_all_students_answer_stats(start_time, end_time)
         chart_data = [['%correct','Number of Students']]
         temp = []
         self.students.each do |student| 
-            answers_stats = student.total_correct_wrong_answers 
+            answers_stats = student.total_correct_wrong_answers(start_time, end_time) 
             total_answers = answers_stats[0] 
             correct_answers = answers_stats[1] 
             wrong_answers = answers_stats[2] 
@@ -153,10 +153,10 @@ class Classroom < ActiveRecord::Base
         return chart_data
     end
 
-    def weak_students(n)
+    def weak_students(n, start_time, end_time)
         result = Array.new
         self.students.each do |student|
-            answers_stats = student.total_correct_wrong_answers
+            answers_stats = student.total_correct_wrong_answers(start_time, end_time)
             total_answers = answers_stats[0]
             correct_answers = answers_stats[1]
             marks = (percentage(correct_answers, total_answers)).to_f

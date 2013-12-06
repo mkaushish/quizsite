@@ -17,6 +17,9 @@
                 <li>
                     <%= link_to "Grades", details_path(@classroom.id, type: "grades") %>
                 </li>
+                <li>
+                    <%= link_to "Discussions", classroom_path(@classroom.id) %>
+                </li>
                 </div>
             </ul>
             <%= yield :teacher_sidebar %>
@@ -29,6 +32,8 @@
             </div>
             <div class='row-fluid teacher-details-header'>
                     <%= render 'teachers/forms/details_classroom_form' %>
+                    <%= link_to "Discussions", classroom_path(@classroom.id), :class => "button-blue" %>
+                    <%= link_to "View Sessions", classroom_lessons_path(@classroom.id), :class => "button-blue" %>
                     <%= link_to "Assign: Problem Set", show_psets_path(@classroom.id), :class => "button-blue pull-right" %>
             </div>
             <div id="details-content">
@@ -64,14 +69,3 @@
 box_lid();
 $('.box-lid-menu').boxLid();
 </script>
-
-
-
-
-
-
-
-
-
-
-
