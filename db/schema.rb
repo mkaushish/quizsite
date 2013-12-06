@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20131128101551) do
+ActiveRecord::Schema.define(:version => 20131206095603) do
 
   create_table "answers", :force => true do |t|
     t.boolean  "correct"
@@ -174,6 +174,7 @@ ActiveRecord::Schema.define(:version => 20131128101551) do
     t.integer  "num_blue",       :default => 0
     t.datetime "created_at",                                        :null => false
     t.datetime "updated_at",                                        :null => false
+    t.datetime "last_attempted"
   end
 
   add_index "problem_set_instances", ["user_id", "problem_set_id"], :name => "problem_set_instances_user_problem_set", :unique => true
