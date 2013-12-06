@@ -1,0 +1,2 @@
+$("#start_session_link").remove();
+$("#session_form").html("<%= j(render "lessons/form", :classroom => @classroom, :lesson => @lesson ) %>")

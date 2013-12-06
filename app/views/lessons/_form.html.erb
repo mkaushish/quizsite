@@ -1,0 +1,30 @@
+<%= form_for [classroom, lesson] do |f| %>
+    <% if lesson.errors.any? %>
+        <div id="error_explanation">
+            <h2><%= pluralize(lesson.errors.count, "error") %> prohibited this lesson from being saved:</h2>
+            <ul>
+                <% lesson.errors.full_messages.each do |msg| %>
+                    <li><%= msg %></li>
+                <% end %>
+            </ul>
+        </div>
+    <% end %>
+
+    <div class="field">
+        <%= f.hidden_field :teacher_id, :value => current_user %>
+    </div>
+
+    <div class="field">
+        <%= f.label :start_time %><br />
+        <%= f.datetime_select :start_time, :default => Time.now, :style => "width: 10px;" %>
+    </div>
+
+    <div class="field">
+        <%= f.label :end_time %><br />
+        <%= f.datetime_select :end_time, :default => (Time.now + 0.5.hours), :size => 2 %>
+    </div>
+
+    <div class="actions">
+        <%= f.submit %>
+    </div>
+<% end %>

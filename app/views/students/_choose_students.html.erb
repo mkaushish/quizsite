@@ -1,0 +1,15 @@
+<%- unless @students.blank? -%>
+	<%= form_tag set_type_teacher_quizzes_path(aqt: @quiz_type, classroom_id: @classroom_id), method: :post, remote: :true do %>
+		<%- @students.each do |student| -%>
+			<%= check_box_tag "student_ids[]", "#{student.id}" %>
+			<%= label_tag "#{student.name}" %>
+			<br />
+		<%- end -%>
+		
+		<%- if defined? @quiz_id and !@quiz_id.blank? -%>
+			<%= hidden_field_tag "quiz_id", @quiz_id %>
+		<%- end -%>
+
+		<%= submit_tag "Assign on Quiz Creation", :class => "btn pull-right" %>
+	<%- end -%>
+<%- end -%>

@@ -5,12 +5,25 @@ class Student < User
       
     has_many :classroom_assignments
     has_many :classrooms, :through => :classroom_assignments
+    
     has_many :teachers, :through => :classrooms
-    has_many :badges
     has_many :notifications
+    
     has_many :relationships, :dependent => :destroy
     has_many :coaches, :through => :relationships
     
+    has_many :badges
+    
+    has_many :merits_comment, :class_name => "Badge", 
+                        :conditions => "comment_id IS NOT NULL AND answer_id IS NULL",
+                        :dependent => :destroy
+    has_many :merits_answer, :class_name => "Badge", 
+                        :conditions => "answer_id IS NOT NULL AND comment_id IS NULL",
+                        :dependent => :destroy
+    has_many :merits_simple, :class_name => "Badge", 
+                        :conditions => "teacher_id IS NOT NULL AND comment_id IS NULL AND answer_id IS NULL",
+                        :dependent => :destroy
+
     # after_create :assign_class #TODO broken
 
     def problem_history(*ptypes)
@@ -172,12 +185,30 @@ class Student < User
             if qws.students.blank?
                 quiz.push qws
             else
-                quiz.push qws if qws.students.include? self.id.to_s
+                if qws.students.include? self.id.to_s
+                    quiz.push qws 
+                end
             end
         end
         return quiz
     end
 
+    def all_quizzes_without_problemset
+        quiz = Quiz.where("classroom_id IS NULL")
+        quiz_with_classroom = self.classrooms.first.quizzes
+        quiz_with_classroom.each do |qws|
+            if qws.students.blank?
+                quiz.push qws
+            else
+                quiz.push qws if qws.students.include? self.id.to_s
+            end
+        end
+        return quiz
+    end
+    
+    def is_assigned?(problem_set_id)
+        self.problem_sets.pluck(:problem_set_id).include?(problem_set_id.to_s)
+    end
     private
 
     def assign_class

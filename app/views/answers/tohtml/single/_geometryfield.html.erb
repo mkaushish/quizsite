@@ -1,4 +1,4 @@
-<% unless @instance.class == QuizInstance %>
+<% unless @quiz_instance %>
 <div>
   <canvas id="geocanvas_1" height="<%= geometryfield.class.height %>" width="<%= geometryfield.class.width %>"> 
     Your browser does not support the HTML5 Canvas feature. This app uses new HTML5 features and will only work on the latest versions of Firefox, Safari or Chrome (and maybe Internet Explorer 9).         
@@ -63,6 +63,6 @@ setUpGeo('geocanvas_2');
 </div>
 <% shapes = geometryfield.encodedStartShapes %>
 <%= hidden_field_tag('startshapes', '#{InputField.fromhash("geometry", response)}')   %>
-<%= hidden_field_tag('qbans_selected', "#{InputField.fromhash("selected", solution)}")   %>
+<%= hidden_field_tag('qbans_selected', "#{InputField.fromhash("selected", response)}")   %>
 <%= hidden_field_tag('starttool', geometryfield.startTool) %>
 <% end %>

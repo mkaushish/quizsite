@@ -1,9 +1,10 @@
 <tr id="topic_<%= topic.id %>">
-	<td><%= link_to topic.title, user_topic_path(user, topic, classroom_id: classroom_id), remote: :true %></td>
-	<td><%= topic.user.name %></td>
-	<td><%= topic.comments.size %></td>
+	<% tem="<p class='span6'>#{topic.title}</p>" %>
+	<td class='span6'><%= link_to raw(tem), user_topic_path(user, topic, classroom_id: classroom_id), remote: :true %></td>
+	<td class='span2'><%= topic.user.name %></td>
+	<td class='span2'><%= topic.comments.size %></td>
 	<% if topic.user_id = current_user.id %>
-		<td><%= link_to "Edit", edit_user_topic_path(user, topic), remote: :true %></td>
-		<td><%= link_to "Delete", user_topic_path(user, topic), method: :delete, remote: :true %></td>
+		<td class='span2'><%= link_to "Edit", edit_user_topic_path(user, topic), remote: :true %> / 
+			<%= link_to "Delete", user_topic_path(user, topic), method: :delete, remote: :true %></td>
 	<% end %>
 </tr>

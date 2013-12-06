@@ -1,3 +1,2 @@
-var $es = initProblemOverlay();
-$es.html('<%= j(render 'form', :@classroom => @classroom) %>');
-initProblem();
+$("#outside").append('<%= j(render 'form') %>');
+$('#new_classroom_Modal').modal('show');

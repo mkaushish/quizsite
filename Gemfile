@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.2.11'
+gem 'rails', '3.2.13'
 
 gem 'therubyracer', :platform => :ruby
 gem 'omniauth-oauth2'
@@ -10,6 +10,7 @@ gem 'jquery-rails', '~> 2.0.2'
 gem 'ransack'
 gem 'will_paginate', '~> 3.0'
 gem 'auto_html'
+gem "google_visualr"
 
 group :test, :development do
 	gem 'rspec-rails'
@@ -17,7 +18,6 @@ group :test, :development do
     gem 'database_cleaner'
     gem 'launchy'
     gem 'guard-rails'
-    gem "google_visualr", ">= 2.1"
 end
 
 group :development do
@@ -28,7 +28,7 @@ group :development do
     gem "better_errors"
     gem "binding_of_caller"
     gem 'quiet_assets'
-    gem 'debugger'
+    #gem 'debugger'
     #gem 'rack-mini-profiler'
     gem 'hirb'
     gem "mailcatcher", "~> 0.5.12"

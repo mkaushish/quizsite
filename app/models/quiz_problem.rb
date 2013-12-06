@@ -1,6 +1,8 @@
 class QuizProblem < ActiveRecord::Base
-  belongs_to :quiz, inverse_of: :quiz_problems
+  belongs_to :quiz, :counter_cache => true, 
+                    inverse_of: :quiz_problems
   belongs_to :problem_type
+  belongs_to :problem
 
   validates :quiz, :presence => true
   validates :problem_type, :presence => true

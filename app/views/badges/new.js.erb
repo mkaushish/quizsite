@@ -1,0 +1,15 @@
+<% if defined? @comment_id and !@comment_id.blank? %>
+	$('#merit_form_<%= @comment_id %>').html("<%= j(render "badges/form", :teacher => @teacher, :badge => @badge, :student_id => @student_id, :comment_id => @comment_id) %>");
+	$('#merit_form_<%= @comment_id %>').css("border", "1px solid grey");
+	$('#merit_link_<%= @comment_id %>').hide();
+	
+<% elsif defined? @answer_id and !@answer_id.blank? %>
+	$('#merit_form_<%= @answer_id %>').html("<%= j(render "badges/form", :teacher => @teacher, :badge => @badge, :student_id => @student_id, :answer_id => @answer_id) %>");
+	$('#merit_form_<%= @answer_id %>').css("border", "1px solid grey");
+	$('#merit_link_<%= @answer_id %>').hide();
+
+<% else %>
+	$('#merit_form_<%= @student_id %>').html("<%= j(render "badges/form", :teacher => @teacher, :badge => @badge, :student_id => @student_id) %>");
+	$('#merit_form_<%= @student_id %>').css("border", "1px solid grey");
+	$('#merit_link_<%= @student_id %>').hide();
+<% end %>

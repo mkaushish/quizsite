@@ -1,0 +1,14 @@
+<h2>Quiz</h2>
+<%= link_to_function "", 'hideProblem()', :class => 'pull-right exit_qu', :style=>'z-index:30;' %>
+<div class='row-fluid problem_body'>
+	<%= @counter += 1 %><%= " of " %> <%= @quiz.quiz_problems.count %>
+  	<%= form_tag finish_quiz_problem_path(@quiz, @quiz_instance), method: :post, remote: :true, autocomplete: :off do %>
+    	<%= hidden_field_tag 'stat_id', @stat.id.to_s %>
+		<br /><br />
+		<%= render 'problems/nameless_form', :@problem => @problem %>
+    	<div class"row-fluid">
+    		<%= link_to "Previous Problem", do_quiz_problem_path(@quiz, @quiz_instance, :c => (@counter - 2 )), :class => 'button-blue pull-left' unless @counter == 1 %>
+            <%= submit_tag "Save", :class => 'button-blue' %>
+        </div>
+    <% end %>
+</div>

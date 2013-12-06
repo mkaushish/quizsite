@@ -1,0 +1,5 @@
+<p id="quiz_problems_<%= problem.id %>">
+	<%= hidden_field_tag "quiz_problems[problem][]", problem.id %>
+	<%= hidden_field_tag "quiz_problems[problem_category][]", problem_category %>
+	<%= hidden_field_tag "quiz_problems[problem_type_id][]", problem_type_id %>
+</p>

@@ -12,6 +12,7 @@
 //= require_directory ./tohtml
 //= require jquery.mousewheel
 //= require jquery.jscrollpane.min
+
 $(function() {
   $('.with_tooltip').tooltip();
 });

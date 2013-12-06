@@ -1,0 +1,9 @@
+<h2>Join Classroom</h2>
+<%= form_tag(join_classroom_path(@teacher), method: :post) do %>
+	<div class="input-prepend">
+        <span class="add-on">Classroom Password</span>
+        <%= text_field_tag :class_teacher_pass %>
+    </div>
+
+	<%= submit_tag "Add", :class => "btn btn-info pull-right" %>
+<% end %>

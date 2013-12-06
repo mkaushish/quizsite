@@ -1,0 +1,25 @@
+<%= render 'profile_menu' %>
+<div class='row-fluid' id='prof_cont'>
+	<div style="background-color: white;">
+		<h2>My Quizzes</h2>
+		<%- unless @quizzes.blank? -%>
+			<table class="table table-hover">
+				<thead>
+					<td>Name</td>
+				</thead>
+				<tbody>
+					<%- @quizzes.each_with_index do |quiz, i| -%>
+						<%- i += 1 -%>
+						<tr>
+							<td>
+								<%= link_to "Quiz #{i}", show_quiz_path("nil", quiz) %>
+							</td>
+						</tr>
+					<% end %>
+				</tbody>
+			</table>
+		<%- else -%>
+			No Quiz is assigned to you
+		<%- end -%>
+	</div>
+</div>

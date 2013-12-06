@@ -15,7 +15,7 @@
                         <%- if current_user.id == user.id -%>
                             <%= link_to "Edit", edit_user_comment_path(user, comment), remote: :true %>
                             <%= "|" %>
-                            <%= link_to "Delete", user_comment_path(user, comment), method: :delete, remote: :true  %>
+                            <%= link_to "Delete", user_comment_path(user, comment), method: :delete, remote: :true, confirm: "Are you Sure?" %>
                         <%- end -%>
                         <%= "|" %>
                         <% if defined? @classroom %>
@@ -32,12 +32,23 @@
                             <%= link_to "Reply", new_user_comment_path(current_user, :reply_comment_id => comment.id,
                             :answer_id => comment.answer_id), remote: :true %>
                         <% end %>
+                        <% if user.is_a?(Student) and current_user.is_a?(Teacher) %>
+                            <%= " | " %>
+                            <%= link_to "Delete", user_comment_path(user, comment), method: :delete, remote: :true, confirm: "Are you Sure?" %>
+                            <%= link_to "| Give a Merit", new_teacher_badge_path(current_user, :comment_id => comment.id, :student_id => user.id), remote: :true, id: "merit_link_#{comment.id}" if comment.merit.nil? %>
+                        <% end %>
                     </small>
                     <small class='pull-right'><%= " by: #{user.name}" %></small>
+                    <div class "row-fluid" id="merit_box_<%= comment.id %>">
+                        <%= render "badges/comment_merit", :user_id => user.id, :merit => comment.merit %>
+                    </div>
+                    <div class"row-field" id="merit_form_<%= comment.id %>" style="display: inline-block;">
+                    </div>
+
                 </p>
             </div>
             <!-- Nested media object -->
-            <div class="media well well-small" id="comment_replies_<%= comment.id %>">
+            <div class="media" id="comment_replies_<%= comment.id %>">
                 <%= render "comments/replies", :comment => comment %>
             </div>
         </div>

@@ -1,27 +1,20 @@
-# == Schema Information
-#
-# Table name: quizzes
-#
-#  id           :integer         not null, primary key
-#  problemtypes :binary
-#  user_id      :integer
-#  created_at   :datetime
-#  updated_at   :datetime
-#  name         :string
-#
-
 class Quiz < ActiveRecord::Base
-  has_many :quiz_instances
+  
+  has_many :quiz_instances, :dependent => :destroy
   has_many :users, :through => :quiz_instances
-  has_many :quiz_problems, inverse_of: :quiz, dependent: :destroy
+  has_many :quiz_problems, inverse_of: :quiz, :dependent => :destroy
 
-  has_many :classroom_quizzes
+  has_many :classroom_quizzes, :dependent => :destroy
   has_many   :problem_types, :through => :problem_set
 
   belongs_to :classroom
   belongs_to :problem_set
 
+  belongs_to :teacher
+
   accepts_nested_attributes_for :quiz_problems
+
+  attr_accessible :name, :problem_set_id
 
   def Quiz.history_classroom(klass)
     psets = klass.problem_sets
@@ -37,7 +30,7 @@ class Quiz < ActiveRecord::Base
       {
         "problem_type_id" => qp.problem_type_id,
         "remaining" => qp.count,
-        "problem_id" => qp.problem
+        "problem_id" => qp.problem_id
       }
     end
   end
@@ -75,8 +68,8 @@ class Quiz < ActiveRecord::Base
   end
 
   # psi = a ProblemSetInstance
-  def assign_with_pset_inst(psi)
-    instance = quiz_instances.build(:user_id => psi.user_id, :problem_set_instance => psi)
+  def assign_with_pset_inst(problem_set_instance)
+    instance = quiz_instances.build(:user_id => problem_set_instance.user_id, :problem_set_instance => problem_set_instance)
     return nil unless instance.save # if they already have an instance of this problem set it won't work
     instance
   end
@@ -84,5 +77,32 @@ class Quiz < ActiveRecord::Base
   def assign(user)
     instance = quiz_instances.build(:user_id => user.id)
     return nil unless instance.save # if they already have an instance of this problem set it won't work
+  end
+
+  def validate_quiz_instance(problem_set_instance)
+    instance = self.quiz_instances.where(:problem_set_instance_id => problem_set_instance).last
+    instance ||= self.assign_with_pset_inst(problem_set_instance)
+    return instance
+  end
+
+  def assign_classroom(classroom)
+    class_quiz = self.for_class classroom
+    class_quiz.save
+  end
+
+  def assign_classrooms(classroom_ids)
+    classroom_ids.each do |classroom_id|
+      classroom = Classroom.find_by_id(classroom_id)
+      class_quiz = self.for_class classroom
+      class_quiz.save
+    end
+  end
+
+  def assign_students(student_ids, classroom_id)
+    self.students = student_ids
+    self.save
+    classroom = Classroom.find_by_id(classroom_id)
+    class_quiz = self.for_class classroom
+    class_quiz.save
   end
 end

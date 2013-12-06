@@ -33,6 +33,7 @@ class AnswersController < ApplicationController
         puts "^"*60
         puts @solution.inspect
         @response = @answer.response_hash
+        @merit = @answer.merit
     end
 
     # def show_answer_home_page

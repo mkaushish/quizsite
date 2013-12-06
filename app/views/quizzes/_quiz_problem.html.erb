@@ -1,4 +1,12 @@
-<li id = "quiz_problem_<%= quiz_problem.id %>">
-	<%= link_to quiz_problem.problem_type.name, problem_path(quiz_problem.problem), remote: :true %>
-	<%= link_to "Remove", delete_quiz_problem_path(quiz_problem), method: :delete, confirm: "Do you really want to delete the Quiz Problem", remote: :true, :class =>"pull-right" %>
+<li id="selected_quiz_problem_<%= problem.id %>">
+    <%= link_to problem_type.name, problem_path(problem), remote: :true %>
+    <%= link_to "Remove", "#", remote: :true, :class =>"pull-right", id: "remove_quiz_problem_#{problem.id}" %>
 </li>
+<script>
+    $(function(){
+        $("#remove_quiz_problem_<%= problem.id %>").on('click',function() {
+            $("#selected_quiz_problem_<%= problem.id %>").remove();
+            $("#quiz_problems_<%= problem.id %>").remove();
+        });
+    });
+</script>

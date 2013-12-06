@@ -7,7 +7,7 @@
       <li class="list-header">SmarterGrades Sets</li>
       <% @sg_problem_sets.each do |problem_set| %>
         <li><%= problem_set.name %>
-              <%= link_to "View Problem Types", "#", :class => "btn pull-right", :remote => true %>              
+              <%#= link_to "View Problem Types", "#", :class => "btn pull-right", :remote => true %>              
         </li>
       <% end %>
     </ul>
@@ -18,7 +18,7 @@
       <% unless @my_problem_sets.blank? %>
         <% @my_problem_sets.each do |problem_set| %>
           <li><%= problem_set.name %>
-            <%= link_to "View Problem Types", "#", :class => "btn pull-right", :remote => true %>
+            <%#= link_to "View Problem Types", "#", :class => "btn pull-right", :remote => true %>
             <%= link_to "Edit Problem Set", edit_teacher_problem_set_path(@teacher, problem_set), :class => "btn pull-right" %>              
           </li>
         <% end %>

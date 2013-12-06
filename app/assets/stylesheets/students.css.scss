@@ -357,3 +357,80 @@ background-position-y: -10px;
   background-image: url('/assets/blue_wall_2.png');
   padding-bottom:20px;
 }
+.char{
+  display: block;
+  background-image:url('/assets/characters.svg');
+  overflow:hidden;
+  height:100px;
+  width:100px;
+}
+.char_disp{
+  float:left;
+  margin:5px;
+}
+.st_img_2{
+  border-radius: 50%;
+  margin-top: -70px;
+  padding: 0;
+  margin-left: -17px;
+}
+.char_1{
+  background-position:-15px -20px;
+}
+.char_2{
+  background-position:-133px -20px;
+}
+.char_3{
+  background-position:-267px -20px;
+}
+.char_4{
+  background-position:-398px -20px;
+}
+.char_5{
+  background-position:-525px -20px;
+}
+.char_6{
+  background-position:-8px -160px;
+}
+.char_7{
+  background-position:-133px -155px;
+}
+.char_8{
+  background-position:-267px -160px;
+}
+.char_9{
+  background-position:-400px -160px;
+}
+.char_10{
+  background-position:-525px -160px;
+}
+.char_11{
+  background-position:-7px -290px;
+}
+.char_12{
+  background-position:-133px -290px;
+}
+.char_13{
+  background-position:-267px -290px;
+}
+.char_14{
+  background-position:-400px -290px;
+}
+.char_15{
+  background-position:-525px -290px;
+}
+.char_16{
+  background-position:-7px -425px;
+}
+.char_17{
+  background-position:-133px -425px;
+}
+.char_18{
+  background-position:-267px -425px;
+}
+.char_19{
+  background-position:-400px -425px;
+}
+.char_20{
+  background-position:-525px -425px;
+}

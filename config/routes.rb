@@ -2,7 +2,9 @@ Quizsite::Application.routes.draw do
 
   resources :badges, only: [:show]
   resources :problem_sets, only: [:show, :destroy]
-  resources :custom_problems, except: [:index]
+  resources :teachers, only: [] do
+    resources :custom_problems
+  end
   resources :users do
     member do
       post 'change_password'
@@ -10,7 +12,25 @@ Quizsite::Application.routes.draw do
     resources :topics, except: [:index] 
     resources :comments, except: [:index, :show]
   end
+  resources :teachers, only: [] do 
+    resources :badges, only: [:new, :create]
+  end
+  resources :classrooms, only: [] do
+    resources :lessons, only: [:show, :new, :create]
+  end
 
+  resources :teachers, only: [] do
+    resources :quizzes, only: [:index, :show, :new, :create] do
+      member do
+        get "assign"
+      end
+      collection do
+        post 'set_type'
+      end
+    end
+  end
+
+  
   match "/auth/:provider/callback" => "users#create_user_vdp"
 
   get 'users/signup',                         to: 'users#signup', as: :signup_form
@@ -63,7 +83,10 @@ Quizsite::Application.routes.draw do
   get "/students/:id/notifications",          to: 'students#notifications', :as => :student_notifications
   get '/students/:id/progress',               to: 'students#progress', :as => :progress_student
   get '/students/:id/chart',                  to: 'students#chart', :as => :chart_student
+  get "/students/:id/quizzes",                to: 'students#quizzes', :as => :student_quizzes
   get '/students/:id/chart/pset/:pset',       to: 'students#problemset_chart', :as => :chart_student_pset
+  get '/students/:id/problem_sets/:problem_set_id',        to: 'students#get_problem_set_history', :as => :get_problem_set_history
+  get '/students/:id/problem_types/:problem_type_id',      to: 'students#get_problem_type_history', :as => :get_problem_types_history
 
   # student-problem_set_instances views
   get '/psets/:name',                         to: 'problem_set_instances#show', :as => :pset
@@ -72,14 +95,19 @@ Quizsite::Application.routes.draw do
   post '/psets/:name/finish_problem',         to: 'problem_set_instances#finish_problem', :as => :finish_ps_problem
 
   # student-quiz_instances views
-  get '/quiz/do/:pid',                        to: 'quiz_instances#do',    :as => :quiz_do
-  get '/quiz/:id/start',                      to: 'quiz_instances#start', :as => :start_quiz
-  get '/quiz/:id/start_new',                  to: 'quiz_instances#new',   :as => :start_new_quiz
-  get '/quiz/:id/finish',                     to: 'quiz_instances#finish_quiz',:as => :finish_quiz
-  get '/left_problem',                        to: 'quiz_instances#previous_problem',   :as => :left_quiz_problem
-  get '/quiz/:id/next_problem',               to: 'quiz_instances#next_problem',   :as => :next_quiz_problem
-  post '/quiz/finish_problem',                to: 'quiz_instances#finish_problem', :as => :finish_quiz_problem
-  get '/quiz/:id/finish_quiz',                to: 'quiz_instances#finish_quiz', :as => :finish_quiz
+  get   'problem_sets/:problem_set_instance_id/quiz/:quiz_id/',         to: 'quiz_instances#show',                  :as => :show_quiz
+  get   '/quiz/:quiz_id/quiz_instances/:id/start',                      to: 'quiz_instances#start',                 :as => :start_quiz
+  get   '/quiz/:quiz_id/quiz_instances/:id/result',                to: 'quiz_instances#finish_quiz',           :as => :finish_quiz
+  get   '/quiz/:quiz_id/quiz_instances/:id/do',                         to: 'quiz_instances#do_problem',            :as => :do_quiz_problem
+  post  '/quiz/:quiz_id/quiz_instances/:id/do',                         to: 'quiz_instances#finish_problem',        :as => :finish_quiz_problem
+  # get '/quiz/do/:pid',                                                to: 'quiz_instances#do',    :as => :quiz_do
+  
+  # #get '/quiz/:id/start_new',                 to: 'quiz_instances#new',   :as => :start_new_quiz
+  # get '/quiz/:quiz_id/quiz_instances/:id/finish',                     to: 'quiz_instances#finish_quiz',:as => :finish_quiz
+  # get '/left_problem',                                                to: 'quiz_instances#previous_problem',   :as => :left_quiz_problem
+  # get '/quiz/:id/next_problem',                                       to: 'quiz_instances#next_problem',   :as => :next_quiz_problem
+  
+  
 
   # student-answers views
   get '/answers/:id/show',                    to: 'answers#show', as: :show_answer
@@ -111,17 +139,16 @@ Quizsite::Application.routes.draw do
   get '/details_classroom/:classroom/dates',  to: 'details#select_dates', as: :select_dates
   post '/details_concept',                    to: 'details#click_concept', as: :details_concept
 
-  get '/new_quiz',                            to: 'quizzes#new', as: :new_quiz
-  post '/new_quiz',                           to: 'quizzes#new', as: :new_quiz
-  get '/new_quiz/select_students',            to: 'quizzes#validate_students_for_classroom_quiz', as: :validate_students_for_classroom_quiz
-  post '/quizzes/create',                     to: 'quizzes#create', as: :create_quiz
-  post '/partial_create/:quiz',               to: 'quizzes#partial_create', as: :partial_create_quiz
-  get '/quiz_for_all_classes/:quiz',          to: 'quizzes#assign_quiz_to_classrooms', as: :assign_quiz_to_classrooms
+  # get '/new_quiz',                            to: 'quizzes#new', as: :new_quiz
+  # post '/new_quiz',                           to: 'quizzes#new', as: :new_quiz
+  # get '/new_quiz/select_students',            to: 'quizzes#validate_students_for_classroom_quiz', as: :validate_students_for_classroom_quiz
+  # post '/quizzes/create',                     to: 'quizzes#create', as: :create_quiz
+  # post '/partial_create/:quiz',               to: 'quizzes#partial_create', as: :partial_create_quiz
+  # get '/quiz_for_all_classes/:quiz',          to: 'quizzes#assign_quiz_to_classrooms', as: :assign_quiz_to_classrooms
     
   # post ':classroom/assign_quiz/:id',        to: 'quizzes#assign', as: :assign_quiz
-  get '/classrooms/:classroom/quizzes/:quiz_id',               to: 'quizzes#show', as: :quiz
   get '/quizzes/:quiz_instance/student/:student_id',               to: 'quizzes#quiz_answers', as: :quiz_answers
-  post '/:classroom/:quiz/assign'
+#  post '/:classroom/:quiz/assign'
 
   # classroom
   get 'teacher/:id/classroom/new',            to: 'classrooms#new', as: :new_classroom
@@ -146,12 +173,20 @@ Quizsite::Application.routes.draw do
   get '/mathematician',                       to: 'pages#mathematician'
 
   # quiz_problems 
-  match '/quiz_problem/:quiz_prob/edit' => 'quiz_problems#edit', :via => :get, as: :edit_quiz_problem
-  match '/quiz_problem/:quiz_prob/update_prob_cat' => 'quiz_problems#update_problem_category', :via => :put, as: :update_prob_cat_qp
-  match '/quiz_problem/:quiz_prob/update_problem' => 'quiz_problems#update_problem', :via => :put, as: :update_problem_qp
-  get 'quiz_problem/:quiz_prob/ptype/:ptype', to: 'quiz_problems#next_random_prob', :as => :next_random_prob_qp
-  get 'quiz_problem/:quiz_prob/',             to: 'quiz_problems#next_custom_prob', :as => :next_custom_prob_qp
-  delete 'quiz_problem/:quiz_prob/',          to: 'quiz_problems#destroy', :as => :delete_quiz_problem
+  get '/quiz_problems/',                                to: 'quiz_problems#new',                      as: :new_quiz_problem
+  post '/quiz_problems/update_problem_category',        to: 'quiz_problems#update_problem_category',  as: :update_quiz_problem_category
+  post '/quiz_problems/update_problem',                 to: 'quiz_problems#update_problem',           as: :update_quiz_problem
+  get 'quiz_problems/next_random/ptype/:ptype',         to: 'quiz_problems#next_random_prob',         as: :next_random_quiz_problem
+  get 'quiz_problems/next_custom',                      to: 'quiz_problems#next_custom_prob',         as: :next_custom_quiz_problem
+
+  # get 'quiz_problem/:quiz_prob/ptype/:ptype', to: 'quiz_problems#next_random_prob', :as => :next_random_prob_qp
+  # get 'quiz_problem/:quiz_prob/',             to: 'quiz_problems#next_custom_prob', :as => :next_custom_prob_qp
+  
+  # match '/quiz_problem/:quiz_prob/edit' => 'quiz_problems#edit', :via => :get, as: :edit_quiz_problem
+  # match '/quiz_problem/:quiz_prob/update_problem' => 'quiz_problems#update_problem', :via => :put, as: :update_problem_qp
+  # get 'quiz_problem/:quiz_prob/ptype/:ptype', to: 'quiz_problems#next_random_prob', :as => :next_random_prob_qp
+  # get 'quiz_problem/:quiz_prob/',             to: 'quiz_problems#next_custom_prob', :as => :next_custom_prob_qp
+  # delete 'quiz_problem/:quiz_prob/',          to: 'quiz_problems#destroy', :as => :delete_quiz_problem
 
   #
   # static example pages

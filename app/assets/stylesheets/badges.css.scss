@@ -141,7 +141,8 @@ font-family: "Home_hand";
   margin-bottom:10px;
 }
 .edit_student{
-  width:300px;
+  min-width:300px;
+  max-width:800px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;

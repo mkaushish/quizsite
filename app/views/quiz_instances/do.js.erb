@@ -1,4 +1,4 @@
 var $q = initProblemOverlay();
 // console.log("rendering problem:");
-$q.html('<%= j(render 'do_quiz') %>');
-initProblem();
+$q.html('<%= j(render 'do_quiz', :@counter => @counter, :@quiz_instance => @quiz_instance, :@problems => @problems, :@problem => @problem, @problem_type => @problem_type, :@quiz_stats => @quiz_stats, :@stat => @stat, :@pset => @pset, :@all_badges => @all_badges ) %>');
+initProblem();	

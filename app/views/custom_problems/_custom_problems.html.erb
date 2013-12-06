@@ -1,6 +1,6 @@
 <li id = "custom_problem_<%= problem.id %>">
   	<%= link_to problem.to_s, problem_path(problem.id), remote: true %>
-  	<%= link_to " Delete", custom_problem_path(problem.id), method: :delete, remote: :true, :class => "pull-right" %>
+  	<%= link_to " Delete", teacher_custom_problem_path(@teacher, problem.id), method: :delete, remote: :true, confirm: "Are You Sure?", :class => "pull-right" %>
 
-  	<%= link_to "Edit |", edit_custom_problem_path(problem.id), :class => "pull-right" %>
+  	<%= link_to "Edit |", edit_teacher_custom_problem_path(@teacher, problem.id), :class => "pull-right" %>
 </li>

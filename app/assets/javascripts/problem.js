@@ -1,11 +1,4 @@
 function hideProblem() {
-  /*$('#dimmer').unbind('click');
-
-  $('#problem_overlay').hide();
-  $("body").css("overflow", "scroll");
-  // $('#dimmer').hide();
-  $('#dimmer').remove();
-    $("body").css("overflow", "scroll");*/
   $('#pr_dim').hide();
   $("body").css("overflow", "scroll");
   return false;
@@ -16,9 +9,7 @@ function closeWithDimmer(overlay) {
   if(dimmer.length > 0) {
     dimmer.hide();
   }
-  //$('body').prepend("<div id=dimmer onclick='hideProblem();'></div>");
   $('#dimmer').show();
-  // $('#dimmer').click(hideProblem);
 }
 
 function initProblemOverlay() {

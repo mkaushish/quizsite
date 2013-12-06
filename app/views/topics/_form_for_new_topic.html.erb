@@ -12,20 +12,21 @@
   <% end %>
 
   <div class="field">
-    <%= f.label :title %>
-    <%= f.text_field :title, :rows => 2 %>
+    <%= f.label :title, 'Name' %>
+    <%= f.text_field :title%>
   </div>
-
+    <%= f.label :description, 'Content', :id => 'top_tit' %>
+  <section>
   <div class="field">
-    <%= f.label :description %>
-    <%= f.text_area :description, :rows => 2 %>
+    <%= f.text_area :description%>
   </div>
+  </section>
   
   <div class="field">
     <%= f.hidden_field :classroom_id, :value => classroom_id %>
   </div>
 
   <div class="actions">
-    <%= f.submit %>
+    <%= f.submit 'Publish Post'%>
   </div>
 <% end %>

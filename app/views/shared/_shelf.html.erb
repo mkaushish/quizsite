@@ -4,7 +4,7 @@
     <div class='shelf' id='shelf_0'>
         <ul class='shelf_ul'>
             <li class='shelf_li' id='account'>
-                <%= link_to (image_tag ("#{@student.image}"), :size => "70x70", :class => "st_img"), student_path(@student.id) unless @student.image.blank? %>
+                <%= link_to (content_tag :i, '', :class => ('st_img_2 char ' + @student.image)), student_path(@student.id) unless @student.image.blank? %>
                 <%=  link_to (image_tag ("default_70x70.png"), :size => "70x70", :class => "st_img"), student_path(@student.id) if @student.image.blank?%>
                 <%= link_to 'Account',  student_path(@student.id), :class => 'plate' %>
             </li>

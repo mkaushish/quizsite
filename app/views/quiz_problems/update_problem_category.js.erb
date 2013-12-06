@@ -1,2 +1,2 @@
 $('#prob_category_form').remove();
-$('#prob_select_form').html("<%= j render("prob_select_form", :@quiz_problem => @quiz_problem, :@problem => @problem, :@answer => @answer) %>");
+$('#prob_select_form').html("<%= j render("prob_select_form", :@problem => @problem, :@answer => @answer, :@problem_category => @problem_category, :@problem_type => @problem_type) %>");
