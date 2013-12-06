@@ -12,9 +12,13 @@ class LessonsController < ApplicationController
         @lesson = @classroom.lessons.find_by_id(params[:id])
         @start_time = @lesson.start_time - (5.hours + 30.minutes)
         @end_time = @lesson.end_time - (5.hours + 30.minutes)
-        @chart_data_1 = @classroom.chart_over_all_students_answer_stats(@start_time, @end_time)
-        @top_weak_students = @classroom.weak_students(5, @start_time, @end_time)
-
+        if params[:type] == "definite"
+            @chart_data_1 = @classroom.chart_over_all_students_answer_stats(@start_time, @end_time)
+            @top_weak_students = @classroom.weak_students(5, @start_time, @end_time)
+        else
+            @chart_data_1 = @classroom.chart_over_all_students_answer_stats(nil, nil)
+            @top_weak_students = @classroom.weak_students(5, nil, nil)
+        end
         respond_to do |format|
             format.html
             format.js
