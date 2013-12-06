@@ -12,9 +12,11 @@
 
 <% else %>
   <div class="correct">
+    <%= 'Correct Answer:' %>
     <%= render_tohtml(local_assigns.merge(response:@solution), elt) %>
   </div>
   <div class="incorrect">
+    <%= 'Your Answer:' %>
     <%= render_tohtml(local_assigns.merge(response:@response), elt) %>
   </div>
 <% end %>
