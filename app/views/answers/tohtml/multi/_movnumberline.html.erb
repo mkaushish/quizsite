@@ -1,6 +1,6 @@
 
   <div class="correct">
-    <div id=nline style="position:relative; width:450px; height:200px">
+    <div id='nline' style="position:relative; width:450px; height:200px">
       <canvas id="nlcanvasans" height="100" width="700"
       class="numberline"
       data-name="<%= movnumberline.name %>"
@@ -17,7 +17,7 @@
   </div>
   <% unless movnumberline.correct?(@solution, @response) then %>
   <div class="incorrect">
-    <div id=nline style="position:relative; width:450px; height:200px">
+    <div id='nline' style="position:relative; width:450px; height:200px">
       <canvas id="nlcanvasin" height="100" width="700"
       class="numberline"
       data-name="<%= movnumberline.name %>"
