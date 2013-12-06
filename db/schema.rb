@@ -51,9 +51,9 @@ ActiveRecord::Schema.define(:version => 20131206095603) do
     t.datetime "updated_at",   :null => false
   end
 
-  add_index "classroom_assignments", ["classroom_id", "student_id"], :name => "index_class_assignments_on_classroom_id_and_student_id", :unique => true
-  add_index "classroom_assignments", ["classroom_id"], :name => "index_class_assignments_on_classroom_id"
-  add_index "classroom_assignments", ["student_id"], :name => "index_class_assignments_on_student_id"
+  add_index "classroom_assignments", ["classroom_id", "student_id"], :name => "index_classroom_assignments_on_classroom_id_and_student_id", :unique => true
+  add_index "classroom_assignments", ["classroom_id"], :name => "index_classroom_assignments_on_classroom_id"
+  add_index "classroom_assignments", ["student_id"], :name => "index_classroom_assignments_on_student_id"
 
   create_table "classroom_problem_sets", :force => true do |t|
     t.integer  "classroom_id"
@@ -70,8 +70,6 @@ ActiveRecord::Schema.define(:version => 20131206095603) do
     t.datetime "starts_at"
     t.datetime "ends_at"
   end
-
-  add_index "classroom_quizzes", ["classroom_id", "quiz_id"], :name => "classroom_quizzes_dual_index", :unique => true
 
   create_table "classroom_teachers", :force => true do |t|
     t.integer  "classroom_id", :null => false
@@ -217,7 +215,7 @@ ActiveRecord::Schema.define(:version => 20131206095603) do
     t.integer  "points",          :default => 0,                     :null => false
     t.integer  "points_wrong",    :default => 0,                     :null => false
     t.integer  "points_right",    :default => 100,                   :null => false
-    t.datetime "stop_green",      :default => '2013-11-15 05:38:59', :null => false
+    t.datetime "stop_green",      :default => '2013-12-06 10:29:23', :null => false
     t.integer  "points_required", :default => 500
     t.datetime "created_at",                                         :null => false
     t.datetime "updated_at",                                         :null => false
@@ -308,12 +306,12 @@ ActiveRecord::Schema.define(:version => 20131206095603) do
 
   create_table "topics", :force => true do |t|
     t.string   "title"
+    t.text     "description"
     t.integer  "user_id"
     t.integer  "classroom_id"
     t.integer  "comments_count", :default => 0
     t.datetime "created_at",                    :null => false
     t.datetime "updated_at",                    :null => false
-    t.text     "description"
   end
 
   create_table "users", :force => true do |t|

@@ -95,7 +95,7 @@ module Chapter9
       end
       [TextLabel.new("Translate the given table into tally marks"),
        tab,
-        # TallyMarksField.new("ans", @act, ar)
+        TallyMarksField.new("ans", @act, ar)
       ]
     end
   end
