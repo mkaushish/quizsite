@@ -4,14 +4,8 @@
 	<%= link_to "Stop session", details_path(@classroom), id: "stop_session_link" %>
 	<div id="session_form"></div>
 </div>
-<div class="row-fluid" id="overall_details">
-	<div class="span4" id="overall_chart">
-		<%= render 'classrooms/overall_classroom_chart', :@chart_data_1 => @chart_data_1 %>
-	</div>
-	<div class="span4" id="overall_weak_students">
-		<%= render "classrooms/top_weak_students", :@top_weak_students => @top_weak_students %>
-	</div>
-</div>
+<%= render "classrooms/overall_chart_and_top_weak_students", :@chart_data_1 => @chart_data_1, :@top_weak_students => @top_weak_students %>
+
 <div id='check'>
 </div>
 <script>
@@ -28,7 +22,7 @@
 	    	lesson_end_time = new Date( <%= (@lesson.end_time - 5.hours - 30.minutes).to_i %> * 1000 );
     		if (time_now >= lesson_start_time && time_now < lesson_end_time) 
 			{
-				send_request();
+				send_request('definite');
 				timer = setTimeout(validate_datetime, 10000);
 			}
 			else
@@ -39,18 +33,20 @@
 		<% end %>
 		
 	}
-	function send_request(){
+	function send_request(type){
+		var session_type = type;
 		$.ajax({
 			type: "GET",
-			url: "http://localhost:3000/classrooms/<%= @classroom.id %>/lessons/1",
+			url: "http://localhost:3000/classrooms/<%= @classroom.id %>/lessons/1?type=" + session_type,
+			dataType: "script",
 			contentType: "application/text; charset=utf-8",
 		});
-		
 	}
 	$(function() {
 		$("#indefinite_session_link").click(function() {
-			var timer = setInterval(send_request, 10000);
-		
+			var func = send_request('indefinite');
+
+			var timer = setInterval("send_request('indefinite')", 10000);
 		});
 		// $("#stop_session_link").click(function() {
 		// 	clearInterval(timer);
