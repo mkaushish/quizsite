@@ -327,25 +327,24 @@ background-image: -webkit-gradient(
 
 .dropdown-toggle2{
   background-image: url('/assets/envelope.png');
-background-position-x: -20px;
 border: none;
 background-color: transparent;
-background-position-y: -10px;
-margin-top: -20px;
+//margin-top: -35px;
 height: 60px;
 width: 100%;
 box-shadow: none;
 -webkit-box-shadow: none;
 -moz-box-shadow: none;
-
+background-size: 100%;
+margin-top: -22px;
 
 }
 .dropdown-toggle2:hover{
 
-background-position-x: -20px;
+background-position-x: 0px;
 border: none;
 background-color: transparent;
-background-position-y: -10px;
+background-position-y: 0px;
 }
 #open-walkthrough{
   img{
