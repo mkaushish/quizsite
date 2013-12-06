@@ -4,7 +4,7 @@ class DetailsController < ApplicationController
     before_filter :validate_classroom, :except => [:select_classroom]
     before_filter :validate_teacher_via_current_user
 
-    def details
+    def details 
         @teacher_nav_elts = 'details'
         @classrooms = @teacher.classrooms
         @students  = @classroom.students
@@ -39,10 +39,14 @@ class DetailsController < ApplicationController
                         @start_date = params[:start_date].nil? ? (Time.now-(365*24*60*60)) : params[:start_date]
                         @end_date = params[:end_date].nil? ? (Time.now) : params[:end_date]
                     end
+
+                # when 'discussions'
+                #     @topics = @classroom.topics.includes(:user)
+                #     @topic = Topic.new
                     
                 else
-                    @chart_data_1 = @classroom.chart_over_all_students_answer_stats
-                    @top_weak_students = @classroom.weak_students(5)
+                    @chart_data_1 = @classroom.chart_over_all_students_answer_stats(nil, nil)
+                    @top_weak_students = @classroom.weak_students(5, nil, nil)
                     @lesson = @classroom.lessons.first
             end   
         end

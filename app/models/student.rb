@@ -123,8 +123,12 @@ class Student < User
         return [chart_data_1, chart_data_2, chart_data_3, chart_data_4]
     end
     
-    def total_correct_wrong_answers
-        answers = self.answers_correct
+    def total_correct_wrong_answers(start_time, end_time)
+        unless start_time.nil? or end_time.nil?
+            answers = self.answers_correct_in_time_range(start_time, end_time)
+        else
+            answers = self.answers_correct
+        end
         correct_answers = answers.select{|v| v == true }.count 
         wrong_answers = answers.select{|v| v == false }.count 
         total_answers = answers.count 
@@ -157,7 +161,7 @@ class Student < User
     end
 
     def answers_correct_in_time_range(start_time, end_time)
-        self.answers.where( "created_at BETWEEN ? and ?", start_time, end_time ).pluck(:correct) 
+        self.answers.where( "created_at BETWEEN ? and ?", start_time, end_time ).order("created_at DESC").pluck(:correct) 
     end
 
     def problem_set_instances_num_problem_problem_stats_blue

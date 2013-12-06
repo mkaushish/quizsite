@@ -1,5 +1,5 @@
 <% if @comment.reply_comment_id.blank? %>
-	$("#comment").prepend("<%= j (render "comments/comment", :comment => @comment) %>");
+	$("#comments").prepend("<%= j (render "comments/comment", :comment => @comment) %>");
 <% else %>
 	$("#comment_<%= @parent_comment.id %>").html("<%= j (render "comments/comment", :comment => @parent_comment) %>");
 <% end %>

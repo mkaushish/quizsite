@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130920072123) do
+ActiveRecord::Schema.define(:version => 20131206095603) do
 
   create_table "answers", :force => true do |t|
     t.boolean  "correct"
@@ -60,6 +60,13 @@ ActiveRecord::Schema.define(:version => 20130920072123) do
     t.integer  "problem_set_id"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.datetime "starts_at"
+    t.datetime "ends_at"
+  end
+
+  create_table "classroom_quizzes", :force => true do |t|
+    t.integer  "classroom_id"
+    t.integer  "quiz_id"
     t.datetime "starts_at"
     t.datetime "ends_at"
   end
@@ -159,13 +166,13 @@ ActiveRecord::Schema.define(:version => 20130920072123) do
   create_table "problem_set_instances", :force => true do |t|
     t.integer  "user_id"
     t.integer  "problem_set_id"
-    t.datetime "stop_green",     :default => '2013-12-06 10:29:23', :null => false
+    t.datetime "stop_green",     :default => '2013-11-15 05:38:59', :null => false
     t.integer  "num_red",        :default => 0
     t.integer  "num_green",      :default => 0
     t.integer  "num_blue",       :default => 0
-    t.datetime "last_attempted"
     t.datetime "created_at",                                        :null => false
     t.datetime "updated_at",                                        :null => false
+    t.datetime "last_attempted"
   end
 
   add_index "problem_set_instances", ["user_id", "problem_set_id"], :name => "problem_set_instances_user_problem_set", :unique => true
@@ -268,7 +275,7 @@ ActiveRecord::Schema.define(:version => 20130920072123) do
   create_table "quiz_stats", :force => true do |t|
     t.integer  "quiz_instance_id"
     t.integer  "problem_type_id"
-    t.integer  "completed",        :default => 0
+    t.integer  "remaining",        :default => 0
     t.integer  "total"
     t.integer  "problem_id"
     t.datetime "created_at",                      :null => false

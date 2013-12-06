@@ -9,6 +9,8 @@ class Teacher < User
   has_many :merits_given, :class_name => "Badge"
   has_many :quizzes, :order => "id ASC"
 
+  has_many :lessons
+
   
   attr_accessor :old_password, :new_password, :confirm_password
   attr_accessible :old_password, :new_password, :confirm_password

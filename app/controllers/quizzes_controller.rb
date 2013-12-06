@@ -29,6 +29,7 @@ class QuizzesController < ApplicationController
     def new
         @problem_set    = ProblemSet.includes(:problem_types).find_by_id(params[:pset])
         @problem_types  = @problem_set.problem_types
+        
         @quiz           = @teacher.quizzes.build(problem_set_id: @problem_set.id)
         @quiz_problems  = @quiz.quiz_problems.build
     end
