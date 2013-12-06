@@ -1,14 +1,12 @@
-<div class="row-fluid" id="comment_<%= comment.id %>">
-    <div class="media">
+<div id="comment_<%= comment.id %>">
         <%- user = comment.user -%>
         <%- unless user.image.blank? -%>
             <%= image_tag ("#{user.image}"), :size => "60x60", :class => "pull-left media-object" %>
         <%- else -%>
             <%= image_tag ("default_70x70.png"), :size => "60x60", :class => "pull-left media-object", :style => 'margin-right:20px' %>
         <%- end -%>
-        <div class="media-body" id="comment_body_<%= comment.id %>">
-            <h4 class="media-heading"><%= comment.content_html %></h4>
-            <div id ="comment_controls">
+        <div class='comm_cont'><%= comment.content_html %></div>
+        <div id ="comment_controls">
                 <p>
                     <small>
                         <%= event_time_format(comment.updated_at) %>
@@ -48,10 +46,10 @@
                 </p>
             </div>
             <!-- Nested media object -->
-            <div class="media" id="comment_replies_<%= comment.id %>">
+            <br />
+            <div class="replies" id="comment_replies_<%= comment.id %>">
                 <%= render "comments/replies", :comment => comment %>
             </div>
         </div>
-    </div>
     <br />
 </div>

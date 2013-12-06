@@ -18,7 +18,6 @@ h4 {
 }
 }
 .media{
-	border-top: 1px solid #ccc;
 	padding-top:20px;
 	margin-top:10px;
 }
@@ -38,4 +37,16 @@ h4 {
 }
 .topic_you{
 	width:400px; height:250px; display:block; margin-left:auto; margin-right:auto;
+}
+.replies{
+	margin-left: 50px;
+}
+.comment-reply{
+	float: left;
+background-color: $sg_green;
+border-radius: 15px;
+padding: 10px;
+margin-left: 20px;
+color:white;
+max-width: 450px;
 }
