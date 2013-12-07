@@ -11,21 +11,22 @@
             <%= image_tag ("default_70x70.png"), :size => "70x70", :class => "st_img" %>
         <%end%>
         <div class="media-body" id="comment_body_<%= comment.id %>">
-            <div class='comm_cont'><%= comment.content_html %></div>
+            <div class='comm_cont'><%= comment.content_html %>
             <% if defined? @classroom %>
-                            <%= link_to image_tag('reply.png', :size => '40x40'), new_user_comment_path(current_user, :reply_comment_id => comment.id, 
+                            <%= link_to image_tag('reply.png', :size => '20x20'), new_user_comment_path(current_user, :reply_comment_id => comment.id, 
                             :classroom_id => @classroom), remote: :true  %>
                         <% elsif !comment.classroom_id.blank? %>
-                            <%= link_to image_tag('reply.png', :size => '40x40'), new_user_comment_path(current_user, :reply_comment_id => comment.id, 
+                            <%= link_to image_tag('reply.png', :size => '20x20'), new_user_comment_path(current_user, :reply_comment_id => comment.id, 
                             :classroom_id => comment.classroom_id), remote: :true  %>
                         <% end %>
                         <% if defined? @answer %>
-                            <%= link_to image_tag('reply.png', :size => '40x40'), new_user_comment_path(current_user, :reply_comment_id => comment.id, 
+                            <%= link_to image_tag('reply.png', :size => '20x20'), new_user_comment_path(current_user, :reply_comment_id => comment.id, 
                             :answer_id => @answer), remote: :true %>
                         <% elsif !comment.answer_id.blank? %>
-                            <%= link_to image_tag('reply.png', :size => '40x40'), new_user_comment_path(current_user, :reply_comment_id => comment.id,
+                            <%= link_to image_tag('reply.png', :size => '20x20'), new_user_comment_path(current_user, :reply_comment_id => comment.id,
                             :answer_id => comment.answer_id), remote: :true %>
                         <% end %>
+            </div>
             <div id ="comment_controls">
                 <p>
                     <small class='pull-right'>
@@ -56,4 +57,5 @@
             <div class="replies" id="comment_replies_<%= comment.id %>">
                 <%= render "comments/replies", :comment => comment %>
             </div>
+            <br />
 </div>

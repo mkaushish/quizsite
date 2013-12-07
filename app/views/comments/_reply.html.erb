@@ -19,8 +19,6 @@
                         <%= link_to raw('<i class="icon-edit"></i>'), edit_user_comment_path(user, comment), remote: :true %>
                         <%= link_to raw('<i class="icon-remove"></i>'), user_comment_path(user, comment), method: :delete, remote: :true  %>
                     <%- end -%>
-                    
-
                     <% if user.is_a?(Student) and current_user.is_a?(Teacher) %>
                             <%= link_to raw('<i class="icon-remove"></i>'), user_comment_path(user, comment), method: :delete, remote: :true, confirm: "Are you Sure?" %>
                             <%= link_to "| Give a Merit", new_teacher_badge_path(current_user, :comment_id => comment.id, :student_id => user.id), remote: :true, id: "merit_link_#{comment.id}" if comment.merit.nil? %>
