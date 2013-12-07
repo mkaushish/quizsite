@@ -16,6 +16,10 @@
   src: url('handwriting/SketchRockwell-Bold.ttf') format('truetype');
 }
 @font-face {
+  font-family: "Aller";
+  src: url('Aller_Rg.ttf') format('truetype');
+}
+@font-face {
   font-family: "Trebuchet_MS";
   src: url('Trebuchet\ MS.ttf');
 }
@@ -85,7 +89,7 @@ body {
   color: #567;
   background-color: #ffffff;
   //font-family: "Latine";
-  font-family: "Trebuchet_MS";
+  font-family: "Aller";
   font-size:16px;
 }
 

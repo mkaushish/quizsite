@@ -5,3 +5,32 @@
 .overlay_list {
   margin:20px;
 }
+
+
+#overall_chart{
+	background-color: #e74c3c;
+	float:left;
+	padding:30px;
+}
+#overall_weak_students{
+	background-color: $sg_green;
+	float:left;
+	padding:30px;
+	color:white;
+	a{
+		color:white;
+	}
+	td{
+		padding:5px;
+		border:solid 1px white;
+	}
+}
+.sessions_det{
+	color:white;
+	float:left;
+	padding:30px;
+	background-color:$sg_blue;
+	a{
+		color:white;
+	}
+}

@@ -1,4 +1,4 @@
-<ul>
+<ul class='collap'>
   	<% if current_user.is_a? Teacher %>
       <li><%= link_to "Overview", teacherhome_path %></li>
       <li><%= link_to "New / Join Classroom", new_classroom_path(current_user), remote: :true %></li>
@@ -8,6 +8,7 @@
     <% end %>
   <%= yield :nav_elts if content_for?(:nav_elts) %>
 </ul>
+<i id='navcol' class='icon-align-justify' style='display:none'></i>
 
 <% if @teacher_nav_elts == 'details' && false %>
   <%= render :partial => 'teachers/forms/details_classroom_form' %>

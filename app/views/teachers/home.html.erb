@@ -1,30 +1,4 @@
 <div class="row-fluid">
-    <div class='box-lid-menu'>
-        <div class='box-lid-icon'></div>
-        <sidenav>
-            <div class="menu-links">
-            <h4>Classrooms</h4>
-            <ul>
-                <% @classrooms.map{|v| [v.id,v.name]}.each do |id, name| %>
-                    <li>
-                        <%= link_to name, details_path(id) %>
-                    </li>
-                <% end %>
-            </ul>
-            <h4 style="display:none;">Assign Quiz</h4>
-            <ul style="display:none;">
-                <li>
-                    <%#= link_to "All Classrooms", new_quiz_path(type: "all_classes") %>
-                </li>
-                <li>
-                    <%#= link_to "All Classrooms All Problem Types", new_quiz_path(type: "all_classes_and_all_problem_types") %>
-                </li>
-            </ul>
-            </div>
-        </sidenav>
-    </div>
-    <div class='box-lid'>
-        <div class='box-lid-content'>
             <div class="row-fluid">
                 <%= render 'teacher_info', :teacher => @teacher %>
             </div>
@@ -36,13 +10,10 @@
                 <% end %>
                 <%= will_paginate @classrooms %>
             </div>
-        </div>
-    </div>
 </div>
     
 <script>
     box_lid();
-    $('.box-lid-menu').boxLid();
     $('.student_class_password').tooltip({title: "Class Password: Students need this to join your classroom"});
       $('.teacher_class_password').tooltip({title: "Class Password: Teachers need this to join your classroom"});
 </script>

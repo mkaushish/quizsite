@@ -3,13 +3,11 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 #topic_desc {
-border-style: solid;
-border-width: 1px;
-border-color: #ccc;
-border-left: none;
-border-right: none;
 padding:20px;
 margin-bottom:10px;
+background-color: #c0392b;
+color:white;
+border-radius: 10px;
 h4 {
 	font-size:24px;
 	font-weight: bold;
@@ -49,4 +47,8 @@ padding: 10px;
 margin-left: 20px;
 color:white;
 max-width: 450px;
+}
+.comments{
+	margin-top:70px;
+	
 }

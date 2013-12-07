@@ -1,56 +1,46 @@
 <div id="comment_<%= comment.id %>">
+    <div class='row-fluid'>
         <%- user = comment.user -%>
-<<<<<<< HEAD
-        <%- unless user.image.blank? -%>
-            <%= image_tag ("#{user.image}"), :size => "60x60", :class => "pull-left media-object" %>
-        <%- else -%>
-            <%= image_tag ("default_70x70.png"), :size => "60x60", :class => "pull-left media-object", :style => 'margin-right:20px' %>
-        <%- end -%>
-        <div class='comm_cont'><%= comment.content_html %></div>
-        <div id ="comment_controls">
-=======
         <% unless user.image.blank? %>
             <% if user.image[user.image.length-4, 4]=='.jpg' %>
                 <%= image_tag user.image, :size => '70x70'%>
             <%else%>
-                <%= content_tag :i, '', :class => ('st_img_2 char ' + user.image) %>
+                <%= content_tag :i, '', :class => ('st_img_2 char ' + user.image), :style => 'float:left; margin-top:0px;' %>
             <%end%>
         <%else%>
             <%= image_tag ("default_70x70.png"), :size => "70x70", :class => "st_img" %>
         <%end%>
         <div class="media-body" id="comment_body_<%= comment.id %>">
-            <h4 class="media-heading"><%= comment.content_html %></h4>
-            <div id ="comment_controls">
->>>>>>> e6beca4607bb3571075666e3229481ef890ba919
-                <p>
-                    <small>
-                        <%= event_time_format(comment.updated_at) %>
-                        <%- if current_user.id == user.id -%>
-                            <%= link_to "Edit", edit_user_comment_path(user, comment), remote: :true %>
-                            <%= "|" %>
-                            <%= link_to "Delete", user_comment_path(user, comment), method: :delete, remote: :true, confirm: "Are you Sure?" %>
-                        <%- end -%>
-                        <%= "|" %>
-                        <% if defined? @classroom %>
-                            <%= link_to "Reply", new_user_comment_path(current_user, :reply_comment_id => comment.id, 
+            <div class='comm_cont'><%= comment.content_html %></div>
+            <% if defined? @classroom %>
+                            <%= link_to image_tag('reply.png', :size => '40x40'), new_user_comment_path(current_user, :reply_comment_id => comment.id, 
                             :classroom_id => @classroom), remote: :true  %>
                         <% elsif !comment.classroom_id.blank? %>
-                            <%= link_to "Reply", new_user_comment_path(current_user, :reply_comment_id => comment.id, 
+                            <%= link_to image_tag('reply.png', :size => '40x40'), new_user_comment_path(current_user, :reply_comment_id => comment.id, 
                             :classroom_id => comment.classroom_id), remote: :true  %>
                         <% end %>
                         <% if defined? @answer %>
-                            <%= link_to "Reply", new_user_comment_path(current_user, :reply_comment_id => comment.id, 
+                            <%= link_to image_tag('reply.png', :size => '40x40'), new_user_comment_path(current_user, :reply_comment_id => comment.id, 
                             :answer_id => @answer), remote: :true %>
                         <% elsif !comment.answer_id.blank? %>
-                            <%= link_to "Reply", new_user_comment_path(current_user, :reply_comment_id => comment.id,
+                            <%= link_to image_tag('reply.png', :size => '40x40'), new_user_comment_path(current_user, :reply_comment_id => comment.id,
                             :answer_id => comment.answer_id), remote: :true %>
                         <% end %>
+            <div id ="comment_controls">
+                <p>
+                    <small class='pull-right'>
+                        <%= event_time_format(comment.updated_at) %>
+                        <%- if current_user.id == user.id -%>
+                            <%= link_to raw('<i class="icon-edit"></i>'), edit_user_comment_path(user, comment), remote: :true %>
+                            <%= link_to raw('<i class="icon-remove"></i>'), user_comment_path(user, comment), method: :delete, remote: :true, confirm: "Are you Sure?" %>
+                        <%- end -%>
+                        
                         <% if user.is_a?(Student) and current_user.is_a?(Teacher) %>
-                            <%= " | " %>
-                            <%= link_to "Delete", user_comment_path(user, comment), method: :delete, remote: :true, confirm: "Are you Sure?" %>
+                            <%= link_to raw('<i class="icon-remove"></i>'), user_comment_path(user, comment), method: :delete, remote: :true, confirm: "Are you Sure?" %>
                             <%= link_to "| Give a Merit", new_teacher_badge_path(current_user, :comment_id => comment.id, :student_id => user.id), remote: :true, id: "merit_link_#{comment.id}" if comment.merit.nil? %>
                         <% end %>
                     </small>
+                    <br/>
                     <small class='pull-right'><%= " by: #{user.name}" %></small>
                     <div class "row-fluid" id="merit_box_<%= comment.id %>">
                         <%= render "badges/comment_merit", :user_id => user.id, :merit => comment.merit %>
@@ -60,11 +50,10 @@
 
                 </p>
             </div>
+        </div>
+    </div>
             <!-- Nested media object -->
-            <br />
             <div class="replies" id="comment_replies_<%= comment.id %>">
                 <%= render "comments/replies", :comment => comment %>
             </div>
-        </div>
-    <br />
 </div>
