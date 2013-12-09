@@ -1,9 +1,8 @@
 <% unless merit.blank? %>
 	<% if user_id == merit.student_id %>
-		<p style="color: green;">
-			<small style="color: green;">
-				Merit: <strong><%= merit.name %></strong> By: Teacher - <%= merit.merit_given_by.name %>
+			<small style="color: black; width:50px; float:right">
+				<div class='merit_show'></div>
+				<p style='font-size:10px; float:right'><%= merit.name %></p>
 			</small>
-		</p>
 	<% end %>
 <% end %>

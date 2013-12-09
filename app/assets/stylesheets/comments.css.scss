@@ -60,3 +60,27 @@ padding: 10px;
 color:white;
 max-width: 650px;
 }
+.user_with_img{
+	float:left;
+	width:100px;
+	text-align: center;
+	color:black;
+	.st_img_2{
+		margin-left:0px;
+	}
+	small{
+		font-size: 13px;
+	}
+}
+.rep_with_img{
+	float:left;
+	width:57px;
+	text-align: center;
+	color:black;
+	.st_img_2{
+		margin-left:0px;
+	}
+	small{
+		font-size: 9px;
+	}
+}

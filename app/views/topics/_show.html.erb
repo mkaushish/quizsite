@@ -3,9 +3,9 @@
 <div id='comm_all'>
 	<%= link_to raw('<i class="icon-arrow-left"></i>'), classroom_path(@classroom.id), :class => "pull-right" %>
 	<div id="topic_desc">
-		<h4><%= topic.title %></h4>
+		<h4><%= topic.title %><p style='font-size:13px; margin-bottom:0px;'><%= topic.user.name %></p></h4>
 		<p><%= topic.description_html %></p>
-		<p><small class='pull-right'>Posted by: <%= topic.user.name %></small></p>
+		
 	</div>
 	<div>
 		
