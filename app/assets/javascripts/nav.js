@@ -33,7 +33,7 @@ function setNavLineWidths() {
 
     $green.css("width", "100%");
 
-    $both.css("top", both_y)
+    //$both.css("top", both_y)
   });
 }
 function dbord(pname){

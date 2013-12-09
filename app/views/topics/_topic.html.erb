@@ -3,7 +3,7 @@
 	<td><%= topic.user.name %></td>
 	<td><%= topic.comments.size %></td>
 	<% if topic.user_id = current_user.id %>
-		<td class='span2'><%= link_to "Edit", edit_user_topic_path(user, topic), remote: :true %> / 
-			<%= link_to "Delete", user_topic_path(user, topic), method: :delete, remote: :true %></td>
+		<td class='span2'><%= link_to raw('<i class="icon-edit icon-white"></i>'), edit_user_topic_path(user, topic), remote: :true %>
+			<%= link_to raw('<i class="icon-remove icon-white"></i>'), user_topic_path(user, topic), method: :delete, remote: :true %></td>
 	<% end %>
 </tr>
