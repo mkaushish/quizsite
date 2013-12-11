@@ -1,14 +1,10 @@
-<% answer ||= @answer %>
-<% instance ||= @instance %>
 <li class='color_list_box'>
 	<% if answer.correct %>
 		<div class="correct_hist">
 	<% else %>
 		<div class="incorrect_hist">
 	<%end%>
-	<%= link_to (answer.problem_type.to_s), 
-			    show_answer_path(id: answer.id, instance: @instance.id),
-			    remote: true %>
+	<%=answer.problem_type.to_s%>
 	
 		<div class="with_tooltip pull-right"
 			style="width:40px; text-align:center;" 

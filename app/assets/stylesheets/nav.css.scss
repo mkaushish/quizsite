@@ -4,8 +4,10 @@ $image_height: 72px;
 $bar_to_top: ($image_height / 2) + 5px;
 .sg-nav {
   font-family:"Home_hand";
-  height:$image_height;
-  margin-bottom:20px;
+  //height:$image_height;
+  margin-bottom:30px;
+  height:60px;
+  //background-color:#bdc3c7;
 
   div { 
     float:left;
@@ -13,8 +15,9 @@ $bar_to_top: ($image_height / 2) + 5px;
   }
 
   ul {
-    padding-left: 20px;
+    padding-left: 0px;
     margin:0;
+    margin-top:12px;
     float:left;
 
     height: $bar_to_top;
@@ -29,7 +32,7 @@ $bar_to_top: ($image_height / 2) + 5px;
       float: left;
 
       a {
-        color: black;
+        color: white;
         &:hover {
           color: black;
           text-decoration: none;
@@ -39,21 +42,23 @@ $bar_to_top: ($image_height / 2) + 5px;
     li.switch-to {
       height:15px;
       padding: 8px 16px 9px 16px;
-      margin-top: $bar_to_top - 8 - 9 - 15 - 2px;
-
+      margin:10px;
+      margin-top: 19px;
+      border-radius:5px;
       background-color: white;
-      border-top: 2px solid #aec833;
-      border-right: 2px solid #aec833;
-      border-left: 2px solid #aec833;
+      //border-top: 2px solid #aec833;
+      //border-right: 2px solid #aec833;
+      //border-left: 2px solid #aec833;
+      a { color:black}
     }
     li.switch-to-blue {
-      height:15px;
+      height:13px;
       padding: 8px 16px 9px 16px;
-      margin-top: $bar_to_top - 8 - 9 - 15 - 2px;
+      margin:10px;
+      margin-top: 18px;
       background-color: #3a9fae;
-      border-top: 2px solid #3a9fae;
-      border-right: 2px solid transparent;
-      border-left: 2px solid transparent;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
       a {
         color:white;
       }
@@ -112,4 +117,28 @@ $bar_to_top: ($image_height / 2) + 5px;
       border-bottom: 2px solid #aec833;
     }
   }
+}
+.nelogo{
+  //font-family:'Aller';
+ // font-weight: bold;
+  font-size:40px;
+  background-color:white;
+  margin:20px;
+  padding:8px;
+  padding-top:2px;
+  border-radius: 5px;
+  .fclr{
+    color:#3498db;
+  }
+  .sclr{
+    color:#2ecc71;
+  }
+}
+.tpc{
+  border-top:20px;
+  border-bottom:20px;
+  border-style: solid;
+  border-color: white;
+  border-left: 0;
+  border-right: 0;
 }

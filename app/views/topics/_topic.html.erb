@@ -1,4 +1,4 @@
-<tr id="topic_<%= topic.id %>">
+<tr class='tpc' id="topic_<%= topic.id %>">
 	<td><%= link_to topic.title, user_topic_path(user, topic, classroom_id: classroom_id) %></td>
 	<td><%= topic.user.name %></td>
 	<td><%= topic.comments.size %></td>

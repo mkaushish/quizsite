@@ -1,6 +1,6 @@
 .dotted-border {
-  @include dotted-border();
-  padding:10px;
+  //@include dotted-border();
+  //padding:10px;
   p {
     padding:5px;
     margin:5px;
@@ -158,17 +158,22 @@ padding: 10px 10px ;
 }
 
 .column-list {
-  color: $sg_grey;
-  @include line-border();
+  color: white;
+  //@include line-border();
   margin: 0;
-  padding: 2px;
+  margin-top:42px;
+  padding: 0px;
   b {
     color: black;
+  }
+  a{
+    color:white;
   }
 
   li {
     font-size: 11px;
     padding:8px;
+    margin-bottom:10px;
   }
 
   li:nth-child(odd) {
