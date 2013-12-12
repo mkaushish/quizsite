@@ -16,5 +16,6 @@ vendor/bundle/*
 .*.swo
 allfiles.txt
 TODO
-.elasticbeanstalk/
+public/assets/*
+.elasticbeanstalk
 

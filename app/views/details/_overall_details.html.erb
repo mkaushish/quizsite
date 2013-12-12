@@ -37,7 +37,7 @@
 		var session_type = type;
 		$.ajax({
 			type: "GET",
-			url: "http://localhost:3000/classrooms/<%= @classroom.id %>/lessons/1?type=" + session_type,
+			url: "http://smartergrades.in/classrooms/<%= @classroom.id %>/lessons/1?type=" + session_type,
 			dataType: "script",
 			contentType: "application/text; charset=utf-8",
 		});
