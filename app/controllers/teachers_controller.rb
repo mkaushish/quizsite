@@ -4,7 +4,7 @@ class TeachersController < ApplicationController
     before_filter :validate_teacher_via_current_user, :only => [:home, :student]
 
     def home
-        @classrooms = @teacher.classrooms.paginate(:page => params[:page], :per_page => 5)
+        @classrooms = @teacher.classrooms
         @quiz_history = []
     end
 
