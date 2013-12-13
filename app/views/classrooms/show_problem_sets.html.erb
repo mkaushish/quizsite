@@ -4,11 +4,15 @@
 <div class="row-fluid">
 	<div class="span12">
 		<ul class="column-list overlay_list">
-			<% @classroom_problem_sets.each do |classroom_problem_set| %>
-				<li id="assign_btn_<%= classroom_problem_set.id %>">
-					<%= render "classrooms/assign_btns_for_problem_set_toggle", :classroom_problem_set => classroom_problem_set, :@classroom => @classroom %>
-				</li>
-			<% end %>
+			<%- unless @classroom_problem_sets.blank? -%>
+				<%- @classroom_problem_sets.each do |classroom_problem_set| %>
+					<li id="assign_btn_<%= classroom_problem_set.id %>">
+						<%= render "classrooms/assign_btns_for_problem_set_toggle", :classroom_problem_set => classroom_problem_set, :@classroom => @classroom %>
+					</li>
+				<%- end -%>
+			<%- else -%>
+				No Classroom Problem Sets
+			<%- end -%>
 		</ul>
 	</div>
 </div>
