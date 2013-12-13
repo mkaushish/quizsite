@@ -1,10 +1,10 @@
 <div class="row-fluid">
-	<div class=span4>
-		<div class=dotted-border-header>
-			Students
-		</div>
+	<div class="span4">
 		<%- unless @students.blank? -%>
-			<div class=dotted-border>
+			<div class="dotted-border-header">
+				Students
+			</div>
+			<div class="dotted-border">
 				<ul class="column-list" style="border:none">
 					<% @students.sort { |a,b| a.name <=> b.name }.each do |student| %>
 						<li>
@@ -17,10 +17,9 @@
 			No Students in this classroom. Please add students !
 		<%- end -%>
 	</div>
-
 	<div class="span8" id="check">
-		<p>Click on Student to get details</p>
 		<% unless @student.nil? %>
+			<p>Click on Student to get details</p>
 			<%= render "students/show", :@student => @student %>
 		<% end %>
 	</div>

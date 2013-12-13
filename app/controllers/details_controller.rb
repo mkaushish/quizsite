@@ -48,6 +48,7 @@ class DetailsController < ApplicationController
                     @chart_data_1 = @classroom.chart_over_all_students_answer_stats(nil, nil)
                     @top_weak_students = @classroom.weak_students(5, nil, nil)
                     @lesson = @classroom.lessons.first
+                    @classroom_problem_sets = @classroom.classroom_problem_sets.includes(:problem_set).only_active
             end   
         end
     end
