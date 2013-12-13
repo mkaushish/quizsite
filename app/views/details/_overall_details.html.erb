@@ -22,7 +22,7 @@
 					<ul class="column-list" style="border:none">
 						<%- @classroom_problem_sets.each do |classroom_problem_set| -%>
 							<li>
-								<%= link_to classroom_problem_set.problem_set.name, details_path(@classroom.id, type: "problem_sets") %>
+								<%= link_to classroom_problem_set.problem_set.name, details_path(@classroom.id, type: "problem_sets", problem_set_id: classroom_problem_set.problem_set.id ) %>
 							</li>
 						<% end %>
 					</ul>

@@ -1,4 +1,3 @@
-
 <%= form_tag details_path(@classroom.id), :method => 'get', :class => 'inline-form', :id => 'pset-form' do %>
   <%= hidden_field_tag "type", type if defined? type %>
   <%= label_tag "problem_set_id", "Problem Set" %>
