@@ -1,7 +1,7 @@
 doc/*
-config/database.yml
 db/schema.rb
 db/sphinx/*
+config/database.yml
 tmp/*
 public/system/*
 .bundle
@@ -16,5 +16,6 @@ vendor/bundle/*
 .*.swo
 allfiles.txt
 TODO
-.elasticbeanstalk/
+public/assets/*
+.elasticbeanstalk
 

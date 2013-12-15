@@ -1,21 +1,23 @@
+<%= render "teachers/forms/details_problem_set_form", :type => "problem_sets" %>
 <div class='teacher-details-body row-fluid'>
-	<div class="span4" style="width:30%">
+<!-- 	<div class="span4" style="width:30%">
 		<div>
-			<%- unless @problem_sets.blank? -%>
+			<%#- unless @problem_sets.blank? -%>
+				
+				<%#= collection_select "get_details", "problem_set", @problem_sets, :id, :name %>
 				<ul class="column-list" style="border:none">
-					<% @problem_sets.each do |pset| %>
+					<%# @problem_sets.each do |pset| %>
 					<li>
-						<%= link_to pset.name, details_path(@classroom.id, type: "problem_sets", problem_set_id: pset.id), remote: :true %>
+						<%#= link_to pset.name, details_path(@classroom.id, type: "problem_sets", problem_set_id: pset.id), remote: :true %>
 					</li>
-
-					<% end %>
+					<%# end %>
 				</ul>
-			<%- else -%>
+			<%#- else -%>
 				No Problem Sets in the this classroom. Please add classroom!
-			<%- end -%>
+			<%#- end -%>
 		</div>
-	</div>
-	<div style="width:59%; float:left">
+	</div> -->
+	<div style="width:80%;">
 		<%- unless @problem_set.blank? -%>
 			<div>
 				<ul id="pset_tab" class="nav nav-tabs" style="font-family:Courier">

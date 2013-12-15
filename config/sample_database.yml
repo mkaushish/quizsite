@@ -1,0 +1,24 @@
+login: &login
+  adapter: postgresql
+  username: amandeepsingh
+  password: 
+  encoding: UTF8
+  host: localhost
+  pool: 5
+  timeout: 5000
+
+
+development:
+  <<: *login
+  database: smartergrades_dev
+
+# Warning: The database defined as "test" will be erased and
+# re-generated from your development database when you run "rake".
+# Do not set this db to the same as development or production.
+test:
+  <<: *login
+  database: smartergrades_test
+
+production:
+  <<: *login
+  database: smartergrades_production

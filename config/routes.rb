@@ -158,6 +158,8 @@ Quizsite::Application.routes.draw do
   post 'teacher/:id/join_class',              to: 'classrooms#join_class', as: :join_classroom
   # :id => classroom id
   get  ':id/show_psets/',                     to: 'classrooms#show_psets', as: :show_psets
+  get  'classroom/:classroom_id/show_problem_sets/',                     to: 'classrooms#show_problem_sets', as: :show_problem_sets
+  get 'classroom/:classroom_id/assign_problem_set/:id',             to: 'classrooms#toggle_classroom_problem_set', as: :toggle_problem_set
   get  ':id/show_quizzes/',                   to: 'classrooms#show_quizzes', as: :show_quizzes
   get ':id/assign_pset/:pset_id',             to: 'classrooms#assign_pset', as: :assign_pset
   get ':id/assign_quiz/:quiz_id',             to: 'classrooms#assign_quiz', as: :assign_quiz

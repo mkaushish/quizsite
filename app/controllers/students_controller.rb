@@ -6,6 +6,8 @@ class StudentsController < ApplicationController
 
     def home
         @pset_instances = @student.problem_set_instances.order("problem_set_id ASC").includes(:problem_stats, :problem_set, :problem_set_problems)
+        @active_problem_set_ids = @student.classrooms.first.classroom_problem_sets.only_active.pluck(:problem_set_id)
+        @pset_instances = @pset_instances.select {|v| @active_problem_set_ids.include? v.problem_set_id }
         @history = current_user.answers.order("created_at DESC").limit(11)
         @all_badges = @student.all_badges
     end

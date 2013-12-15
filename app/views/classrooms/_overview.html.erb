@@ -10,7 +10,8 @@
             </button>
             <ul class="dropdown-menu">
                 <li>
-                    <%= link_to "Assign: Problem Set", show_psets_path(classroom.id) %>                   
+                    <%= link_to "Assign: Problem Set(Main)", show_psets_path(classroom.id) if current_user.email == "t.homasramfjord@gmail.com" %>                   
+                    <%= link_to "Assign: Problem Set", show_problem_sets_path(classroom.id) %>
                     <%= link_to "Assign: Quiz", "#", remote: :true %>
                 </li>
             </ul>

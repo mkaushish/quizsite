@@ -52,6 +52,24 @@ class ClassroomsController < ApplicationController
         end
     end
 
+    def show_problem_sets
+        @classroom = Classroom.find_by_id(params[:classroom_id])
+        @classroom_problem_sets = @classroom.classroom_problem_sets.includes(:problem_set)
+        respond_to do |format|
+            format.html
+        end
+    end
+
+    def toggle_classroom_problem_set
+        @classroom = Classroom.find_by_id(params[:classroom_id])
+        @classroom_problem_set = @classroom.classroom_problem_sets.find_by_id(params[:id])
+        op = { true => false, false => true }
+        @classroom_problem_set.update_attributes(active: op[@classroom_problem_set.active?]) unless @classroom_problem_set.blank?
+        respond_to do |format|
+            format.js
+        end
+    end
+
     def assign_quiz
         unless @classroom.teacher == current_user
             render :js => 'alert("this class doesn\'t belong to you!");'
