@@ -639,75 +639,29 @@ module Chapter7
       @item=ITEMSUSED.sample
     end
 
-    def solve
-      if (@a==@b)and(@b==@c)
-        { 
-          "num" => 1,
-          "den" => @a,
-          "sign" => "Equal"
-        }
-      elsif @a<@b
-        if @a<@c
-         { 
-          "num" => 1,
-          "den" => @a,
-          "sign" => "#{@person3}"
-          } 
-        elsif @a>@c
-          { 
-          "num" => 1,
-          "den" => @c,
-          "sign" => "#{@person2}"
-          }
-        elsif @a==@c
-           { 
-          "num" => 1,
-          "den" => @a,
-          "sign" => "#{@person3}"
-          }        
-        end
-      elsif @a>@b
-        if @b<@c
-         { 
-          "num" => 1,
-          "den" => @b,
-          "sign" => "#{@person1}"
-          } 
-        elsif @b>@c
-          { 
-          "num" => 1,
-          "den" => @c,
-          "sign" => "#{@person2}"
-          }
-        elsif @b==@c
-           { 
-          "num" => 1,
-          "den" => @b,
-          "sign" => "#{@person1}"
-          }        
-        end
-      elsif (@a==@b)
-        if @a<@c
-         { 
-          "num" => 1,
-          "den" => @a,
-          "sign" => "#{@person3}"
-          } 
-        elsif @a>@c
-          { 
-          "num" => 1,
-          "den" => @c,
-          "sign" => "#{@person2}"
-          }
-        elsif @a==@c
-           { 
-          "num" => 1,
-          "den" => @a,
-          "sign" => "Equal"
-          }        
-        end
+  def solve
+    case
+    when (@a==@b) && (@b==@c) then { "num" => 1, "den" => @a, "sign" => "Equal"}
+    when @a<@b
+      case
+      when @a<@c then {"num" => 1, "den" => @a, "sign" => "#{@person3}"}
+      when @a>@c then {"num" => 1, "den" => @c, "sign" => "#{@person2}"}
+      when @a==@c then {"num" => 1, "den" => @a, "sign" => "#{@person3}"}
+      end
+    when @a>@b
+      case
+      when @b<@c then {"num" => 1, "den" => @b, "sign" => "#{@person1}"}
+      when @b>@c then {"num" => 1, "den" => @c, "sign" => "#{@person2}"}
+      when @b==@c then {"num" => 1, "den" => @b, "sign" => "#{@person1}"}
+      end
+    when @a==@b
+      case
+      when @a<@c then {"num" => 1, "den" => @a, "sign" => "#{@person3}"}
+      when @a>@c then {"num" => 1, "den" => @c, "sign" => "#{@person2}"}
+      when @a==@c then {"num" => 1, "den" => @a, "sign" => "Equal"}
       end
     end
+  end
 
     def correct?(params)
       resps = QuestionBase.vars_from_response( "sign", params)
