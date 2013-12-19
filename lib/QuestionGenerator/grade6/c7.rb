@@ -9,6 +9,8 @@ require_relative '../modules/units'
 require_relative '../modules/items'
 
 require 'prime'
+require 'benchmark'
+
 
 include PreG6
 include ToHTML
@@ -708,47 +710,22 @@ module Chapter7
     end
 
     def correct?(params)
-      if (@a<=@b)and(@a<=@c)
-        if @a==@b
-          solsum = 0
-          bool = true
-          resps = QuestionBase.vars_from_response( "sign" , params)
-          puts "********\n" + resps.to_s + "********\n"
-          (((resps) == "#{@person3}")or((resps) == "#{@person1}"))
-        elsif @a==@c
-          solsum = 0
-          bool = true
-          resps = QuestionBase.vars_from_response( "sign" , params)
-          puts "********\n" + resps.to_s + "********\n"
-          (((resps) == "#{@person3}")or((resps) == "#{@person2}"))  
+      resps = QuestionBase.vars_from_response( "sign", params)
+      case
+      when (@a<=@b) && (@a<=@c)
+        case 
+        when @a==@b then (((resps) == "#{@person3}") || ((resps) == "#{@person1}"))
+        when @a==@c then (((resps) == "#{@person3}") || ((resps) == "#{@person2}"))
         end
-      elsif (@b<=@a)and(@b<=@c)
-        if @a==@b
-          solsum = 0
-          bool = true
-          resps = QuestionBase.vars_from_response( "sign" , params)
-          puts "********\n" + resps.to_s + "********\n"
-          (((resps) == "#{@person3}")or((resps) == "#{@person1}"))
-        elsif @b==@c
-          solsum = 0
-          bool = true
-          resps = QuestionBase.vars_from_response( "sign" , params)
-          puts "********\n" + resps.to_s + "********\n"
-          (((resps) == "#{@person1}")or((resps) == "#{@person2}"))  
+      when (@b<=@a) && (@b<=@c)
+        case
+        when @a==@b then (((resps) == "#{@person3}") || ((resps) == "#{@person1}"))
+        when @b==@c then (((resps) == "#{@person1}") || ((resps) == "#{@person2}"))
         end
-      elsif (@c<=@b)and(@c<=@a)
-        if @a==@b
-          solsum = 0
-          bool = true
-          resps = QuestionBase.vars_from_response( "sign" , params)
-          puts "********\n" + resps.to_s + "********\n"
-          (((resps) == "#{@person3}")or((resps) == "#{@person1}"))
-        elsif @a==@c
-          solsum = 0
-          bool = true
-          resps = QuestionBase.vars_from_response( "sign" , params)
-          puts "********\n" + resps.to_s + "********\n"
-          (((resps) == "#{@person3}")or((resps) == "#{@person2}"))  
+      when (@c<=@b) && (@c<=@a)
+        case
+        when @a==@b then (((resps) == "#{@person3}") || ((resps) == "#{@person1}"))
+        when @a==@c then (((resps) == "#{@person3}") || ((resps) == "#{@person2}"))
         end
       end
     end
@@ -791,6 +768,7 @@ module Chapter7
       "Which is Larger?"
     end
     def initialize
+      # Here, we generate common primes, reduce the array and multiply them to get two denominators, and use them to generate two numerators.
       @person1 , @person2 = Names.generate(2)
       @activity = ACTIVITIES.sample
       dens=Grade6ops.chCommPF
@@ -803,9 +781,9 @@ module Chapter7
       @num2=rand(@den2-1)+1
     end
     def solve
-      return {"ans" => "Equal"} if Rational(@num1, @den1)==Rational(@num2, @den2)
-      return {"ans" => "#{@person2}"} if Rational(@num1, @den1)<Rational(@num2, @den2)  
-      return {"ans" => "#{@person1}"} if Rational(@num1, @den1)>Rational(@num2, @den2)  
+      return {"ans" => "They're equal."} if Rational(@num1, @den1)==Rational(@num2, @den2)
+      return {"ans" => "#{@person2} has more."} if Rational(@num1, @den1)<Rational(@num2, @den2)  
+      return {"ans" => "#{@person1} has more."} if Rational(@num1, @den1)>Rational(@num2, @den2)  
     end
     def explain
       hcf=Grade6ops::euclideanalg(@den1,@den2)
