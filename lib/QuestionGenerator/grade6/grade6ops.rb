@@ -52,21 +52,13 @@ module Grade6ops
   def Grade6ops.random_operation
     OPS[rand(OPS.length)] 
   end
-  def Grade6ops.euclideanalg(a,b)
-    x=a.to_i
-    y=b.to_i
-    if x<y
-      w=x
-      x=y
-      y=w
+
+  def Grade6ops.euclideanalg(u, v)
+    u, v = u.abs, v.abs
+    while v > 0
+      u, v = v, u % v
     end
-    while y != 0
-      r = x % y
-      x = y
-      y = r
-    end
-    x=-x if x<0 && (a>0 || b>0)
-    return x
+    return u
   end
 
   def Grade6ops::asfractions(num, den, sig)
