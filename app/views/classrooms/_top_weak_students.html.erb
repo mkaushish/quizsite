@@ -16,33 +16,6 @@
 			</td>
 		</tr>
 
-
-		<tr>
-			<td>
-				<%= link_to "#{student[1]}", student_path(student[0].to_i), remote: :true  %>
-			</td>
-			<td>
-				<% unless student[2]== -1 %>
-				<%= student[2].to_s + "%" %>
-				<%else%>
-				<%= "Not Attempted" %>
-				<%end%>
-			</td>
-		</tr>
-
-		<tr>
-			<td>
-				<%= link_to "#{student[1]}", student_path(student[0].to_i), remote: :true  %>
-			</td>
-			<td>
-				<% unless student[2]== -1 %>
-				<%= student[2].to_s + "%" %>
-				<%else%>
-				<%= "Not Attempted" %>
-				<%end%>
-			</td>
-		</tr>
-
 	<% end %>
 </table>
 </div>

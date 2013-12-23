@@ -8,7 +8,7 @@
     <div id='bbor'>
         <%- unless @pset_instances.blank? -%>
             <% @pset_instances.each do |i| %>
-                <%= render :partial => 'pset_list_box_2', :object => i %>
+                <%= render 'pset_list_box_2', :pset_list_box => i %>
             <% end %>
         <%- else -%>
             <h1 style="text-align: center;">No Problem Set is assigned to Your Classroom</h1>

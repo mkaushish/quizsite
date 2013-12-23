@@ -707,52 +707,6 @@ module Chapter7
       end
     end
 
-    def correct?(params)
-      if (@a<=@b)and(@a<=@c)
-        if @a==@b
-          solsum = 0
-          bool = true
-          resps = QuestionBase.vars_from_response( "sign" , params)
-          puts "********\n" + resps.to_s + "********\n"
-          (((resps) == "#{@person3}")or((resps) == "#{@person1}"))
-        elsif @a==@c
-          solsum = 0
-          bool = true
-          resps = QuestionBase.vars_from_response( "sign" , params)
-          puts "********\n" + resps.to_s + "********\n"
-          (((resps) == "#{@person3}")or((resps) == "#{@person2}"))  
-        end
-      elsif (@b<=@a)and(@b<=@c)
-        if @a==@b
-          solsum = 0
-          bool = true
-          resps = QuestionBase.vars_from_response( "sign" , params)
-          puts "********\n" + resps.to_s + "********\n"
-          (((resps) == "#{@person3}")or((resps) == "#{@person1}"))
-        elsif @b==@c
-          solsum = 0
-          bool = true
-          resps = QuestionBase.vars_from_response( "sign" , params)
-          puts "********\n" + resps.to_s + "********\n"
-          (((resps) == "#{@person1}")or((resps) == "#{@person2}"))  
-        end
-      elsif (@c<=@b)and(@c<=@a)
-        if @a==@b
-          solsum = 0
-          bool = true
-          resps = QuestionBase.vars_from_response( "sign" , params)
-          puts "********\n" + resps.to_s + "********\n"
-          (((resps) == "#{@person3}")or((resps) == "#{@person1}"))
-        elsif @a==@c
-          solsum = 0
-          bool = true
-          resps = QuestionBase.vars_from_response( "sign" , params)
-          puts "********\n" + resps.to_s + "********\n"
-          (((resps) == "#{@person3}")or((resps) == "#{@person2}"))  
-        end
-      end
-    end
-
     def text
       [
         TextLabel.new("#{@person1} had #{@g} #{@item}, #{@person2} had #{@h} #{@item} and #{@person3} had #{@i} #{@item}. After 4 months, #{@person1} used up #{@d} #{@item}, #{@person2} used up #{@e} #{@item} and #{@person3} used up #{@f} #{@item}. Who used up the greatest fraction of her/his #{@item}?. Also specify the largest fraction used in the lowest form"),
