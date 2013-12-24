@@ -1,6 +1,6 @@
 login: &login
   adapter: postgresql
-  username: mk
+  username: amandeepsingh
   password: 
   encoding: UTF8
   host: localhost

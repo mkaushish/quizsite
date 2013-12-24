@@ -49,7 +49,7 @@ class Comment < ActiveRecord::Base
     		end
     	end
     end
-    def send_notifiction_to_students_if_teacher_commented
+    def send_notification_to_students_if_teacher_commented
         if self.user.is_a? Teacher
             _classroom = self.topic.classroom
             _students = _classroom.students
