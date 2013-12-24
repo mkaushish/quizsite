@@ -18,4 +18,4 @@ allfiles.txt
 TODO
 public/assets/*
 .elasticbeanstalk
-
+.DS_Store

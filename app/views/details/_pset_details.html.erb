@@ -1,4 +1,6 @@
-<%= render "teachers/forms/details_problem_set_form", :type => "problem_sets" %>
+<%- unless @problem_sets.blank? -%>
+	<%= render "teachers/forms/details_problem_set_form", :type => "problem_sets" %>
+<%- end -%>
 <div class='teacher-details-body row-fluid'>
 <!-- 	<div class="span4" style="width:30%">
 		<div>
@@ -28,6 +30,8 @@
 			<div id="pset_tab_content" class="tab-content" style="font-family:Courier">
 				<%= render "pset_charts_ptypes" %>
 			</div>
+		<%- else -%>
+				No Problem Sets in the this classroom. Please add classroom!
 		<%- end -%>
 	</div>
 </div>

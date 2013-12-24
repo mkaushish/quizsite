@@ -27,7 +27,7 @@ class Topic < ActiveRecord::Base
             _students = _classroom.students
             unless _students.blank?
                 _students.each do |student|
-                    student.news_feeds.create(:content => "Your Teacher #{self.user.name} has created a topic #{topic.title}", :feed_type => "Teacher created Topic")
+                    student.news_feeds.create(:content => "Your Teacher #{self.user.name} has created a topic #{self.title}", :feed_type => "Teacher created Topic")
                 end
             end
         end
