@@ -11,9 +11,9 @@ class LessonsController < ApplicationController
         @teacher = current_user
         @lesson = @classroom.lessons.find_by_id(params[:id])
         if defined? @lesson and !@lesson.blank?
-		@start_time = @lesson.start_time - (5.hours + 30.minutes)
-        	@end_time = @lesson.end_time - (5.hours + 30.minutes)
-	end
+            @start_time = @lesson.start_time - (5.hours + 30.minutes)
+            @end_time = @lesson.end_time - (5.hours + 30.minutes)
+        end
         if params[:type] == "definite"
             @chart_data_1 = @classroom.chart_over_all_students_answer_stats(@start_time, @end_time)
             @top_weak_students = @classroom.weak_students(5, @start_time, @end_time)

@@ -16,7 +16,7 @@
   			<%- @lessons.each_with_index do |lesson, i| -%>
   				<%- i += 1 -%>
   				<tr>
-  					<td><%= link_to "Session #{i}", classroom_lesson_path(@classroom, lesson) %></td>
+  					<td><%= link_to "Session #{i}", classroom_lesson_path(@classroom, lesson, :type => "definite") %></td>
   					<td><%= lesson.teacher.name %></td>
   					<td><%= lesson.start_time %></td>
   					<td><%= lesson.end_time %></td>

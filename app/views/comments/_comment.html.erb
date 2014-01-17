@@ -17,14 +17,14 @@
             <div class='comm_cont'><%= comment.content_html %>
             <% if defined? @classroom %>
                             <%= link_to image_tag('reply.png', :size => '14x14'), new_user_comment_path(current_user, :reply_comment_id => comment.id, 
-                            :classroom_id => @classroom), remote: :true  %>
+                            :classroom_id => @classroom.id), remote: :true  %>
                         <% elsif !comment.classroom_id.blank? %>
                             <%= link_to image_tag('reply.png', :size => '14x14'), new_user_comment_path(current_user, :reply_comment_id => comment.id, 
                             :classroom_id => comment.classroom_id), remote: :true  %>
                         <% end %>
                         <% if defined? @answer %>
                             <%= link_to image_tag('reply.png', :size => '14x14'), new_user_comment_path(current_user, :reply_comment_id => comment.id, 
-                            :answer_id => @answer), remote: :true %>
+                            :answer_id => @answer.id), remote: :true %>
                         <% elsif !comment.answer_id.blank? %>
                             <%= link_to image_tag('reply.png', :size => '14x14'), new_user_comment_path(current_user, :reply_comment_id => comment.id,
                             :answer_id => comment.answer_id), remote: :true %>

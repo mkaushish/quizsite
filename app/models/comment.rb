@@ -55,7 +55,7 @@ class Comment < ActiveRecord::Base
             _students = _classroom.students
             unless _students.blank?
                 _students.each do |student|
-                    student.news_feeds.create(:content => "Your Teacher #{self.user.name} has commented on topic #{self.title}", :feed_type => "Teacher Comment on Topic")
+                    student.news_feeds.create(:content => "Your Teacher #{self.user.name} has commented on topic #{self.topic.title}", :feed_type => "Teacher Comment on Topic")
                 end
             end                
         end
