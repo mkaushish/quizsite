@@ -2,9 +2,12 @@
 	<div class="row-fluid pull-right">
 		<%= link_to "Start session", new_classroom_lesson_path(@classroom), remote: :true %>
 		<%= " | " %>
-		<%= link_to "Start indefinite session", "javascript: start_indefinite_session( #{@classroom.id}, #{@teacher.id} )" -%> 
+		<%#= link_to "Start indefinite session", "javascript: start_indefinite_session( #{@classroom.id}, #{@teacher.id} )" -%> 
+		<%= link_to "Start Indefinite Session", classroom_lessons_path(@classroom, teacher_id: @teacher.id, type: "indefinite"), method: :post if @lesson.blank? %>
 		<%= " | " %>
-		<%= link_to "Stop session", "javascript: stop_indefinite_session( #{@classroom.id}, #{@teacher.id}, #{@lesson.id} )" if defined? @lesson and !@lesson.blank? %>
+		<%#= link_to "Stop session", "javascript: stop_indefinite_session( #{@classroom.id}, #{@teacher.id}, #{@lesson.id} )" if defined? @lesson and !@lesson.blank? %>
+
+		<%= link_to "Stop Indefinite Session", stop_session_classroom_lesson_path(@classroom, @lesson, teacher_id: @teacher.id, type: "indefinite") if defined? @lesson and !@lesson.blank? %>
 		<div id="session_form"></div>
 	</div>
 	
@@ -48,10 +51,10 @@
 		var _teacher_id = teacher_id
 
 		$.ajax({
-			type: "GET",
-			url: "http://localhost:3000/classrooms/" + _classroom_id + "/lessons/new?teacher_id=" + _teacher_id + "&type=indefinite",
-			dataType: "script",
-			contentType: "application/text; charset=utf-8",
+			type: "POST",
+			url: "http://localhost:3000/classrooms/" + _classroom_id + "/lessons?teacher_id=" + _teacher_id + "&type=indefinite",
+			dataType: "html",
+			contentType: "text/html; charset=utf-8",
 		});
 	}
 
@@ -63,8 +66,8 @@
 		$.ajax({
 			type: "GET",
 			url: "http://localhost:3000/classrooms/" + _classroom_id + "/lessons/" + _lesson_id + "/stop_session?teacher_id=" + _teacher_id + "	&type=indefinite",
-			dataType: "script",
-			contentType: "application/text; charset=utf-8",
+			dataType: "html",
+			contentType: "text/html; charset=utf-8",
 		});
 	}
 

@@ -33,31 +33,29 @@ class LessonsController < ApplicationController
     # GET /lessons/new
     # GET /lessons/new.json
     def new
-        if defined? params[:type] and !params[:type].blank?
-            if params[:type] == "indefinite"
-                @classroom = Classroom.find_by_id(params[:classroom_id]) if defined? params[:classroom_id] and !params[:classroom_id].blank?
-                @teacher = Teacher.find_by_id(params[:teacher_id]) if defined? params[:teacher_id] and !params[:teacher_id].blank?
-                @lesson = @classroom.lessons.build(classroom_id: @classroom.id, teacher_id: @teacher.id, start_time: Time.now).save
-                redirect_to classroom_lessons_path(@classroom), notice: "Indefinite Session Started !"
-            end
-        else
-            @lesson = @classroom.lessons.build
-            respond_to do |format|
-                format.js
-            end
+        @lesson = @classroom.lessons.build
+        respond_to do |format|
+            format.js
         end
     end
 
     # POST /lessons
     # POST /lessons.json
     def create
-        @lesson = @classroom.lessons.build(params[:lesson])
+        if defined? params[:type] and !params[:type].blank?
+            if params[:type] == "indefinite"
+                @classroom = Classroom.find_by_id(params[:classroom_id]) if defined? params[:classroom_id] and !params[:classroom_id].blank?
+                @teacher = Teacher.find_by_id(params[:teacher_id]) if defined? params[:teacher_id] and !params[:teacher_id].blank?
+                @lesson = @classroom.lessons.build(classroom_id: @classroom.id, teacher_id: @teacher.id, start_time: Time.now)
+            end
+        else
+            @lesson = @classroom.lessons.build(params[:lesson])
+        end
         respond_to do |format|
             if @lesson.save
-                format.html {redirect_to details_path(@classroom.id), notice: "Session created Successfully!"}
+                format.html { redirect_to details_path(@classroom.id), format: "html", notice: "Session created Successfully!" }
             else
                 format.html { render action: "new" }
-                format.json { render json: @lesson.errors, status: :unprocessable_entity }
             end
         end
     end
@@ -76,7 +74,9 @@ class LessonsController < ApplicationController
     def stop_session # for stopping indefinite session #
         @classroom = Classroom.find_by_id(params[:classroom_id]) if defined? params[:classroom_id] and !params[:classroom_id].blank?
         @lesson = Lesson.find_by_id(params[:id]).update_attributes(end_time: Time.now)
-        redirect_to classroom_lessons_path(@classroom), notice: "Indefinite Session Stopped !"
+        respond_to do |format|
+            format.html { redirect_to details_path(@classroom), format: "html", notice: "Indefinite Session Stopped !" }
+        end
     end
 
     private
