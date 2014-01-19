@@ -47,7 +47,7 @@ class DetailsController < ApplicationController
                 else
                     @chart_data_1 = @classroom.chart_over_all_students_answer_stats(nil, nil)
                     @top_weak_students = @classroom.weak_students(5, nil, nil)
-                    @lesson = @classroom.lessons.first
+                    @lesson = @classroom.lessons.where("end_time IS ?", nil).first
                     @classroom_problem_sets = @classroom.classroom_problem_sets.includes(:problem_set).only_active
             end   
         end
@@ -88,8 +88,8 @@ class DetailsController < ApplicationController
         @students = @classroom.students
         @quiz_history = @classroom.quizzes
         @stat_calc = TeacherStatCalc.new(@students, @problem_types)
-        @start_date=params[:start_date].to_time
-        @end_date=params[:end_date].to_time
+        @start_date = params[:start_date].to_time
+        @end_date = params[:end_date].to_time
     end
 
     def select_dates

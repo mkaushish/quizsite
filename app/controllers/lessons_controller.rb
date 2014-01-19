@@ -12,11 +12,14 @@ class LessonsController < ApplicationController
         @lesson = @classroom.lessons.find_by_id(params[:id])
         if defined? @lesson and !@lesson.blank?
             @start_time = @lesson.start_time - (5.hours + 30.minutes)
-            @end_time = @lesson.end_time - (5.hours + 30.minutes)
+            @end_time = @lesson.end_time - (5.hours + 30.minutes) unless @lesson.end_time.blank?
         end
         if params[:type] == "definite"
             @chart_data_1 = @classroom.chart_over_all_students_answer_stats(@start_time, @end_time)
             @top_weak_students = @classroom.weak_students(5, @start_time, @end_time)
+        elsif params[:type] == "indefinite"
+            @chart_data_1 = @classroom.chart_over_all_students_answer_stats(@start_time, nil)
+            @top_weak_students = @classroom.weak_students(5, @start_time, nil)
         else
             @chart_data_1 = @classroom.chart_over_all_students_answer_stats(nil, nil)
             @top_weak_students = @classroom.weak_students(5, nil, nil)
@@ -30,9 +33,16 @@ class LessonsController < ApplicationController
     # GET /lessons/new
     # GET /lessons/new.json
     def new
-        @lesson = @classroom.lessons.build
-        respond_to do |format|
-            format.js
+        if params[:type] = "indefinite"
+            @classroom = Classroom.find_by_id(params[:classroom_id]) if defined? params[:classroom_id] and !params[:classroom_id].blank?
+            @teacher = Teacher.find_by_id(params[:teacher_id]) if defined? params[:teacher_id] and !params[:teacher_id].blank?
+            @lesson = @classroom.lessons.build(classroom_id: @classroom.id, teacher_id: @teacher.id, start_time: Time.now).save
+            redirect_to classroom_lessons_path(@classroom), notice: "Indefinite Session Started !"
+        else
+            @lesson = @classroom.lessons.build
+            respond_to do |format|
+                format.js
+            end
         end
     end
 
@@ -59,6 +69,12 @@ class LessonsController < ApplicationController
             format.html { redirect_to lessons_url }
             format.json { head :no_content }
         end
+    end
+
+    def stop_session # for stopping indefinite session #
+        @classroom = Classroom.find_by_id(params[:classroom_id]) if defined? params[:classroom_id] and !params[:classroom_id].blank?
+        @lesson = Lesson.find_by_id(params[:id])
+        redirect_to classroom_lessons_path(@classroom), notice: "Indefinite Session Stopped !"
     end
 
     private

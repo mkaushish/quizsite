@@ -124,8 +124,10 @@ class Student < User
     end
     
     def total_correct_wrong_answers(start_time, end_time)
-        unless start_time.nil? or end_time.nil?
+        if !start_time.nil? and !end_time.nil?
             answers = self.answers_correct_in_time_range(start_time, end_time)
+        elsif !start_time.nil? and end_time.nil?
+            answers = self.answers_correct_after_time(start_time)
         else
             answers = self.answers_correct
         end
@@ -162,6 +164,10 @@ class Student < User
 
     def answers_correct_in_time_range(start_time, end_time)
         self.answers.where( "created_at BETWEEN ? and ?", start_time, end_time ).order("created_at DESC").pluck(:correct) 
+    end
+
+    def answers_correct_after_time(start_time)
+        self.answers.where( "created_at BETWEEN ? and ?", start_time, Time.now ).order("created_at DESC").pluck(:correct) 
     end
 
     def problem_set_instances_num_problem_problem_stats_blue

@@ -1,9 +1,12 @@
-
 <%- unless @chart_data_1.blank? or @top_weak_students.blank? -%>
 	<div class="row-fluid pull-right">
-		<%= link_to "Start session", new_classroom_lesson_path(@classroom), id: "start_session_link", remote: :true %><%= " | " %>
-		<%= link_to "Start indefinite session", "#", id: "indefinite_session_link" %> <%= " | " %>
-		<%= link_to "Stop session", details_path(@classroom), id: "stop_session_link" %>
+		<%= link_to "Start session", new_classroom_lesson_path(@classroom), id: "start_session_link", remote: :true %>
+		<%= " | " %>
+		<%= link_to "Start indefinite session", "javascript: start_indefinite_session( #{@classroom.id}, #{@teacher.id} )", 
+			id: "indefinite_session_link" -%> 
+		<%= " | " %>
+		<%= link_to "Stop session", "javascript: stop_indefinite_session( #{@classroom.id}, #{@teacher.id}, #{@lesson.id} )", 
+			id: "stop_session_link" if defined? @lesson and !@lesson.blank? %>
 		<div id="session_form"></div>
 	</div>
 	
@@ -23,7 +26,8 @@
 					<ul class="column-list" style="border:none">
 						<%- @classroom_problem_sets.each do |classroom_problem_set| -%>
 							<li>
-								<%= link_to classroom_problem_set.problem_set.name, details_path(@classroom.id, type: "problem_sets", problem_set_id: classroom_problem_set.problem_set.id ) %>
+								<%= link_to classroom_problem_set.problem_set.name, details_path(@classroom.id, type: "problem_sets", 
+									problem_set_id: classroom_problem_set.problem_set.id ) %>
 							</li>
 						<% end %>
 					</ul>
@@ -35,49 +39,71 @@
 	</div>
 </div>
 <script>
-	$( document ).ready(function() {
-  		<% unless @lesson.blank? %>
+	$(function() {
+		<%- unless @lesson.blank? -%>
   			validate_datetime();
-  		<% end %>
+  		<%- end -%>
 	});
-	function validate_datetime(){
-		<% unless @lesson.blank? %>
-			var timer = false;		
-			time_now = new Date( <%= Time.now.utc.to_i %> * 1000 );
-	    	lesson_start_time = new Date( <%= (@lesson.start_time - 5.hours - 30.minutes).to_i %> * 1000 );
-	    	lesson_end_time = new Date( <%= (@lesson.end_time - 5.hours - 30.minutes).to_i %> * 1000 );
-    		if (time_now >= lesson_start_time && time_now < lesson_end_time) 
-			{
-				send_request('definite');
-				timer = setTimeout(validate_datetime, 10000);
-			}
-			else
-			{
-				clearTimeout(timer);
-				timer = false;
-			}
-		<% end %>
-		
-	}
-	function send_request(type){
-		var session_type = type;
+
+	function start_indefinite_session( classroom_id, teacher_id ) {
+		var _classroom_id = classroom_id
+		var _teacher_id = teacher_id
+
 		$.ajax({
 			type: "GET",
-			url: "http://smartergrades.in/classrooms/<%= @classroom.id %>/lessons/1?type=" + session_type,
+			url: "http://localhost:3000/classrooms/" + _classroom_id + "/lessons/new?teacher_id=" + _teacher_id + "&type=indefinite",
 			dataType: "script",
 			contentType: "application/text; charset=utf-8",
 		});
 	}
-	$(function() {
-		$("#indefinite_session_link").click(function() {
-			var func = send_request('indefinite');
 
-			var timer = setInterval("send_request('indefinite')", 10000);
+	function stop_indefinite_session( classroom_id, teacher_id, lesson_id ) {
+		var _classroom_id = classroom_id
+		var _teacher_id = teacher_id
+		var _lesson_id = lesson_id
+
+		$.ajax({
+			type: "POST",
+			url: "http://localhost:3000/classrooms/" + _classroom_id + "/lessons/" + _lesson_id + "/stop_session?teacher_id=" + _teacher_id + "	&type=indefinite",
+			dataType: "script",
+			contentType: "application/text; charset=utf-8",
 		});
-		// $("#stop_session_link").click(function() {
-		// 	clearInterval(timer);
-		// 	timer = false;
-		
-		// });
-	});
+	}
+
+	function send_request( classroom_id, lesson_id, type ) {
+		var _classroom_id = classroom_id
+		var _lesson_id = lesson_id
+		var _session_type = type
+
+		$.ajax({
+			type: "GET",
+			url: "http://localhost:3000/classrooms/" + _classroom_id + "/lessons/" +  _lesson_id + "?type=" + _session_type,
+			dataType: "script",
+			contentType: "application/text; charset=utf-8",
+		});
+	}
+
+	function validate_datetime(){
+		<%- unless @lesson.blank? -%>
+			<%- if @lesson.end_time.blank? -%>
+				var timer = setInterval("send_request(" + <%= @classroom.id %> + ", " + <%= @lesson.id %> + ", 'indefinite' )", 10000);
+			<%- else -%>
+				var timer = false;		
+				time_now = new Date( <%= Time.now.utc.to_i %> * 1000 );
+		    	lesson_start_time = new Date( <%= (@lesson.start_time - 5.hours - 30.minutes).to_i %> * 1000 );
+		    	lesson_end_time = new Date( <%= (@lesson.end_time - 5.hours - 30.minutes).to_i %> * 1000 );
+	    		if (time_now >= lesson_start_time && time_now < lesson_end_time) 
+				{
+					timer = setInterval("send_request(" + <%= @classroom.id %> + ", " + <%= @lesson.id %> + ", 'definite' )", 10000);
+				}
+				else
+				{
+					clearTimeout(timer);
+					timer = false;
+				}
+			<%- end -%>
+		<%- end -%>
+	}
+
+
 </script>

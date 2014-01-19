@@ -16,7 +16,11 @@ Quizsite::Application.routes.draw do
     resources :badges, only: [:new, :create]
   end
   resources :classrooms, only: [] do
-    resources :lessons, only: [:index, :show, :new, :create]
+    resources :lessons, only: [:index, :show, :new, :create] do 
+      member do 
+        get 'stop_session'
+      end
+    end
   end
 
   resources :teachers, only: [] do
