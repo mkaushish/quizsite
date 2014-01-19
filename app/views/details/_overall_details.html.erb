@@ -1,12 +1,10 @@
 <%- unless @chart_data_1.blank? or @top_weak_students.blank? -%>
 	<div class="row-fluid pull-right">
-		<%= link_to "Start session", new_classroom_lesson_path(@classroom), id: "start_session_link", remote: :true %>
+		<%= link_to "Start session", new_classroom_lesson_path(@classroom), remote: :true %>
 		<%= " | " %>
-		<%= link_to "Start indefinite session", "javascript: start_indefinite_session( #{@classroom.id}, #{@teacher.id} )", 
-			id: "indefinite_session_link" -%> 
+		<%= link_to "Start indefinite session", "javascript: start_indefinite_session( #{@classroom.id}, #{@teacher.id} )" -%> 
 		<%= " | " %>
-		<%= link_to "Stop session", "javascript: stop_indefinite_session( #{@classroom.id}, #{@teacher.id}, #{@lesson.id} )", 
-			id: "stop_session_link" if defined? @lesson and !@lesson.blank? %>
+		<%= link_to "Stop session", "javascript: stop_indefinite_session( #{@classroom.id}, #{@teacher.id}, #{@lesson.id} )" if defined? @lesson and !@lesson.blank? %>
 		<div id="session_form"></div>
 	</div>
 	
@@ -63,7 +61,7 @@
 		var _lesson_id = lesson_id
 
 		$.ajax({
-			type: "POST",
+			type: "GET",
 			url: "http://localhost:3000/classrooms/" + _classroom_id + "/lessons/" + _lesson_id + "/stop_session?teacher_id=" + _teacher_id + "	&type=indefinite",
 			dataType: "script",
 			contentType: "application/text; charset=utf-8",

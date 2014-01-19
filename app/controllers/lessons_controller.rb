@@ -33,11 +33,13 @@ class LessonsController < ApplicationController
     # GET /lessons/new
     # GET /lessons/new.json
     def new
-        if params[:type] = "indefinite"
-            @classroom = Classroom.find_by_id(params[:classroom_id]) if defined? params[:classroom_id] and !params[:classroom_id].blank?
-            @teacher = Teacher.find_by_id(params[:teacher_id]) if defined? params[:teacher_id] and !params[:teacher_id].blank?
-            @lesson = @classroom.lessons.build(classroom_id: @classroom.id, teacher_id: @teacher.id, start_time: Time.now).save
-            redirect_to classroom_lessons_path(@classroom), notice: "Indefinite Session Started !"
+        if defined? params[:type] and !params[:type].blank?
+            if params[:type] == "indefinite"
+                @classroom = Classroom.find_by_id(params[:classroom_id]) if defined? params[:classroom_id] and !params[:classroom_id].blank?
+                @teacher = Teacher.find_by_id(params[:teacher_id]) if defined? params[:teacher_id] and !params[:teacher_id].blank?
+                @lesson = @classroom.lessons.build(classroom_id: @classroom.id, teacher_id: @teacher.id, start_time: Time.now).save
+                redirect_to classroom_lessons_path(@classroom), notice: "Indefinite Session Started !"
+            end
         else
             @lesson = @classroom.lessons.build
             respond_to do |format|
@@ -73,7 +75,7 @@ class LessonsController < ApplicationController
 
     def stop_session # for stopping indefinite session #
         @classroom = Classroom.find_by_id(params[:classroom_id]) if defined? params[:classroom_id] and !params[:classroom_id].blank?
-        @lesson = Lesson.find_by_id(params[:id])
+        @lesson = Lesson.find_by_id(params[:id]).update_attributes(end_time: Time.now)
         redirect_to classroom_lessons_path(@classroom), notice: "Indefinite Session Stopped !"
     end
 
