@@ -20,7 +20,7 @@ class Comment < ActiveRecord::Base
 
 	validates :content, :user_id, :presence => :true
 	
-	after_create :send_notification_to_teacher_if_student_replied, :send_notification_to_teacher_if_owned_topic
+	after_create :send_notification_to_teacher_if_student_replied, :send_notification_to_teacher_if_owned_topic, :send_notification_to_students_if_teacher_commented
 
 	auto_html_for :content do
         html_escape
@@ -48,5 +48,16 @@ class Comment < ActiveRecord::Base
     			user.news_feeds.create(:content => "#{self.user.name} has commented on your topic #{topic.title}", :feed_type => "Comment on Topic", :topic_id => "#{topic.id}")
     		end
     	end
+    end
+    def send_notification_to_students_if_teacher_commented
+        if self.user.is_a? Teacher
+            _classroom = self.topic.classroom
+            _students = _classroom.students
+            unless _students.blank?
+                _students.each do |student|
+                    student.news_feeds.create(:content => "Your Teacher #{self.user.name} has commented on topic #{self.topic.title}", :feed_type => "Teacher Comment on Topic")
+                end
+            end                
+        end
     end
 end

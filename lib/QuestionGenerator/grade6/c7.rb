@@ -9,6 +9,8 @@ require_relative '../modules/units'
 require_relative '../modules/items'
 
 require 'prime'
+require 'benchmark'
+
 
 include PreG6
 include ToHTML
@@ -615,173 +617,44 @@ module Chapter7
       stro
     end
   end
-  ITEMSUSED=["pensils", "notebooks", "pens", "batteries", "crayons"]
-  class Try5_1 < QuestionWithExplanation
+  ITEMSUSED=["pencils", "notebooks", "pens", "batteries", "crayons"]
+  class Try5_1 < QuestionBase
     def self.type
       "Largest Fraction"
     end
     def initialize
-      @person1 , @person2, @person3 = Names.generate(3)
-      @a = rand(4)+2
-      @b = rand(4)+2
-      @c = rand(4)+2
-      @d = @a*10
-      @e = @b*10
-      @f = @c*10
-      @g = @a*@b*10
-      @h = @b*@c*10
-      @i = @c*@a*10
-      @choose1 = @a-@b
-      @num = 1
-      @den =1
+      @persons = Names.generate(3)
+      @nums = [rand(5)+2, rand(5)+2, rand(5)+2]
+      @dens=[rand(5)+2]
+      @dens[1]=rand(5)+2
+      while @dens[1]==@dens[0]
+        @dens[1]=rand(5)+2
+      end
+      @dens[2]=rand(5)+2
+      while @dens[2]==@dens[1] || @dens[2]==@dens[0]
+        @dens[2]=rand(5)+2
+      end
+      @dens.shuffle!
       @item=ITEMSUSED.sample
     end
 
-    def solve
-      if (@a==@b)and(@b==@c)
-        { 
-          "num" => 1,
-          "den" => @a,
-          "sign" => "Equal"
-        }
-      elsif @a<@b
-        if @a<@c
-         { 
-          "num" => 1,
-          "den" => @a,
-          "sign" => "#{@person3}"
-          } 
-        elsif @a>@c
-          { 
-          "num" => 1,
-          "den" => @c,
-          "sign" => "#{@person2}"
-          }
-        elsif @a==@c
-           { 
-          "num" => 1,
-          "den" => @a,
-          "sign" => "#{@person3}"
-          }        
-        end
-      elsif @a>@b
-        if @b<@c
-         { 
-          "num" => 1,
-          "den" => @b,
-          "sign" => "#{@person1}"
-          } 
-        elsif @b>@c
-          { 
-          "num" => 1,
-          "den" => @c,
-          "sign" => "#{@person2}"
-          }
-        elsif @b==@c
-           { 
-          "num" => 1,
-          "den" => @b,
-          "sign" => "#{@person1}"
-          }        
-        end
-      elsif (@a==@b)
-        if @a<@c
-         { 
-          "num" => 1,
-          "den" => @a,
-          "sign" => "#{@person3}"
-          } 
-        elsif @a>@c
-          { 
-          "num" => 1,
-          "den" => @c,
-          "sign" => "#{@person2}"
-          }
-        elsif @a==@c
-           { 
-          "num" => 1,
-          "den" => @a,
-          "sign" => "Equal"
-          }        
-        end
-      end
-    end
-
-    def correct?(params)
-      if (@a<=@b)and(@a<=@c)
-        if @a==@b
-          solsum = 0
-          bool = true
-          resps = QuestionBase.vars_from_response( "sign" , params)
-          puts "********\n" + resps.to_s + "********\n"
-          (((resps) == "#{@person3}")or((resps) == "#{@person1}"))
-        elsif @a==@c
-          solsum = 0
-          bool = true
-          resps = QuestionBase.vars_from_response( "sign" , params)
-          puts "********\n" + resps.to_s + "********\n"
-          (((resps) == "#{@person3}")or((resps) == "#{@person2}"))  
-        end
-      elsif (@b<=@a)and(@b<=@c)
-        if @a==@b
-          solsum = 0
-          bool = true
-          resps = QuestionBase.vars_from_response( "sign" , params)
-          puts "********\n" + resps.to_s + "********\n"
-          (((resps) == "#{@person3}")or((resps) == "#{@person1}"))
-        elsif @b==@c
-          solsum = 0
-          bool = true
-          resps = QuestionBase.vars_from_response( "sign" , params)
-          puts "********\n" + resps.to_s + "********\n"
-          (((resps) == "#{@person1}")or((resps) == "#{@person2}"))  
-        end
-      elsif (@c<=@b)and(@c<=@a)
-        if @a==@b
-          solsum = 0
-          bool = true
-          resps = QuestionBase.vars_from_response( "sign" , params)
-          puts "********\n" + resps.to_s + "********\n"
-          (((resps) == "#{@person3}")or((resps) == "#{@person1}"))
-        elsif @a==@c
-          solsum = 0
-          bool = true
-          resps = QuestionBase.vars_from_response( "sign" , params)
-          puts "********\n" + resps.to_s + "********\n"
-          (((resps) == "#{@person3}")or((resps) == "#{@person2}"))  
-        end
-      end
-    end
-
+  def solve
+    puts @dens.index(@dens.min)
+    {'num' => 1, 'den' => @dens.min, 'sign' => @persons[@dens.index(@dens.min)]}
+  end
     def text
+      str=''
+      for i in 0...3
+        str+="#{@persons[i]} had #{@nums[i]*@dens[i]*10} #{@item} and used #{@nums[i]*10} of them. "
+      end
       [
-        TextLabel.new("#{@person1} had #{@g} #{@item}, #{@person2} had #{@h} #{@item} and #{@person3} had #{@i} #{@item}. After 4 months, #{@person1} used up #{@d} #{@item}, #{@person2} used up #{@e} #{@item} and #{@person3} used up #{@f} #{@item}. Who used up the greatest fraction of her/his #{@item}?. Also specify the largest fraction used in the lowest form"),
+        TextLabel.new(str + "What was the greatest fraction used up and who used that greatest fraction?"),
         TextLabel.new("Largest fraction of #{@item} used = "),
         Fraction.new("num", "den"),
       
         TextLabel.new("The largest fraction of #{@item} was used by"),
-        Dropdown.new("sign", "#{@person1}", "#{@person2}","#{@person3}","Equal")
+        RadioButton.new("sign", "#{@persons[0]}", "#{@persons[1]}","#{@persons[2]}")
       ]
-    end
-
-   def explain
-     if (@a==@b)and(@b==@c)
-        [ 
-          SubLabel.new("The fraction used all three of them is 1/#{@a}")
-        ]
-      elsif (@a<=@b)and(@a<=@c)
-        [ 
-          SubLabel.new("#{@person3} used the largest fraction equal to 1/#{@a}")
-        ]
-      elsif (@b<=@a)and(@b<=@c)
-        [ 
-          SubLabel.new("#{@person1} used the largest fraction equal to 1/#{@b}")
-        ]
-      elsif (@c<=@b)and(@c<=@a)
-        [ 
-          SubLabel.new("#{@person2} used the largest fraction equal to 1/#{@c}")
-        ] 
-      end
     end
   end
 
@@ -791,6 +664,7 @@ module Chapter7
       "Which is Larger?"
     end
     def initialize
+      # Here, we generate common primes, reduce the array and multiply them to get two denominators, and use them to generate two numerators.
       @person1 , @person2 = Names.generate(2)
       @activity = ACTIVITIES.sample
       dens=Grade6ops.chCommPF
@@ -821,7 +695,7 @@ module Chapter7
       [ 
         InlineBlock.new(TextLabel.new("#{@person1} #{@activity} for"),Fraction.new(@num1,@den1),TextLabel.new("hours"), TextLabel.new("#{@person2} #{@activity} for"), Fraction.new(@num2, @den2),TextLabel.new("hours")),
         TextLabel.new("Who #{@activity} more?"),
-         Dropdown.new("ans","Equal","#{@person1}","#{@person2}")
+         RadioButton.new("ans","Equal","#{@person1}","#{@person2}")
       ]
     end
   end

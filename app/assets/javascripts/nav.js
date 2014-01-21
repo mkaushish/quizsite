@@ -33,7 +33,7 @@ function setNavLineWidths() {
 
     $green.css("width", "100%");
 
-    $both.css("top", both_y)
+    //$both.css("top", both_y)
   });
 }
 function dbord(pname){
@@ -43,7 +43,7 @@ function dbord(pname){
     $('#bbor').css('margin-left', '0px');
   }
   else{
-    $(".dotted-border").css("width", "252px");
+    $(".dotted-border").css("width", "277px");
     $('#bbor').css('margin-left', '43px');
   }
   if(pname=="pset"){shelf_color();}
@@ -55,7 +55,7 @@ function dbord(pname){
     $('#bbor').css('margin-left', '0px');
   }
   else{
-    $(".dotted-border").css("width", "252px");
+    $(".dotted-border").css("width", "277px");
     $('#bbor').css('margin-left', '43px');
   }
   if(pname=="pset"){shelf_color();}
@@ -75,6 +75,12 @@ function logoutb(){
     $(this).text("Are you sure?");},
     function(){$(this).text("Log out");}
   );
+}
+function rsize(){
+  if(/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)){
+    $("body").css("width", "457px");
+    $("body").css("zoom", ""+($(window).width()/457));
+  }
 }
 function shelf_do(){
   if(/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)){

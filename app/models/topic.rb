@@ -16,4 +16,20 @@ class Topic < ActiveRecord::Base
         link :target => "_blank", :rel => "nofollow"
         simple_format
     end
+
+    after_create :send_notification_to_students_if_owner_is_teacher
+    
+    private
+
+    def send_notification_to_students_if_owner_is_teacher
+        if self.user.is_a? Teacher
+            _classroom = self.classroom
+            _students = _classroom.students
+            unless _students.blank?
+                _students.each do |student|
+                    student.news_feeds.create(:content => "Your Teacher #{self.user.name} has created a topic #{self.title}", :feed_type => "Teacher created Topic")
+                end
+            end
+        end
+    end
 end

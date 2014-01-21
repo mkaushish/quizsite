@@ -1,17 +1,18 @@
 <%= render 'shared/shelf', :@student => current_user, :@badges => @badges, :@all_badges => @all_badges %>
 <div>
     <div style='float:left'>
-        <div class='dotted-border-header'>
-            <h4>History<h4>
-        </div>
-        <div class='dotted-border' style='width:252px'>
+        <div class='dotted-border' style='width:277px'>
             <%= render 'progress_center' %>
         </div>
     </div>
     <div id='bbor'>
-        <% @pset_instances.order("problem_set_id ASC").each do |i| %>
-            <%= render :partial => 'pset_list_box', :object => i %>
-        <% end %>
+        <%- unless @pset_instances.blank? -%>
+            <% @pset_instances.each do |i| %>
+                <%= render 'pset_list_box_2', :pset_list_box => i %>
+            <% end %>
+        <%- else -%>
+            <h1 style="text-align: center;">No Problem Set is assigned to Your Classroom</h1>
+        <%- end -%>
     </div>
 </div>
 <%= render 'walkthrough' %>

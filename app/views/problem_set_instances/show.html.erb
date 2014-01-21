@@ -25,21 +25,15 @@
 <% end %>
 
 <div style="float:left">
-    <div class='dotted-border-header'>
-        <h4>History</h4>
-    </div>
 
     <div class='dotted-border'>
-        <div class="gif_tick">
-            <img src="/assets/Boxes_Animation.gif"></img>
-        </div>
         <ul id="problem_history" class="column-list">
             <% if @history.empty? %>
-                <li>Problems will show up here as you do them</li>
+                <li class='color_list_box'>Problems will show up here as you do them</li>
             <% else %>
                 <%= render :partial => 'history_ans', :collection => @history, :as => :answer %>
             <% end %>
-            <li><%= link_to 'Click for Detailed History', progress_student_path(@student.id) %></li>
+            <li class='color_list_box'><%= link_to 'Click for Detailed History', progress_student_path(@student.id) %></li>
         </ul>
     </div>
 </div>

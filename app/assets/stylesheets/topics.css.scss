@@ -52,3 +52,26 @@ max-width: 450px;
 	margin-top:70px;
 	
 }
+#new_topic_form{
+	background-color:#bdc3c7;
+	color:white;
+	padding:30px;
+}
+#t_or_c{
+	background-color:#34495e;
+	color:white;
+	a{
+		color:white;
+		text-decoration: underline;
+	}
+	table{
+		margin:0px;
+	}
+}
+#t_or_c tr:hover{
+
+	color:black;
+	a{
+		color:black;
+	}
+}

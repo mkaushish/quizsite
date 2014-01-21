@@ -17,7 +17,7 @@ class User < ActiveRecord::Base
     has_many :quiz_instances,           :dependent => :destroy
     has_many :quizzes,                  :through => :quiz_instances
     
-    has_many :problem_set_instances,    :dependent => :destroy
+    has_many :problem_set_instances,    :dependent => :destroy, :order => "problem_set_id"
     has_many :problem_sets, :through => :problem_set_instances
     
     # has_many :problem_types # custom problems created by user

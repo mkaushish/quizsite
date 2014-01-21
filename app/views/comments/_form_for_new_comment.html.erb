@@ -13,7 +13,7 @@
     <% end %>
 
 	<div class="field">
-    	<%= f.text_area :content, :rows => 2 %>
+    	<%= f.text_area :content, :rows => 10, :cols => 100, :style =>'width:500px; max-width:100%' %>
 	</div>
 
   <div class="field">
@@ -37,6 +37,6 @@
   </div>
 
   <div class="actions">
-      <%= f.submit "Comment", :class => "btn", :id => 'sub_cmt' %>
+      <%= f.submit "Comment", :class => "button-blue", :id => 'sub_cmt' %>
   </div>
 <% end %>

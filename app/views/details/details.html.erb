@@ -33,8 +33,10 @@
             <div class='row-fluid teacher-details-header'>
                     <%#= render 'teachers/forms/details_classroom_form' %>
                     <%= link_to "Discussions", classroom_path(@classroom.id), :class => "button-blue" %>
-                    <%= link_to "Assign: Problem Set", show_psets_path(@classroom.id), :class => "button-blue" %>
-            </div>
+                    <%= link_to "View Sessions", classroom_lessons_path(@classroom.id), :class => "button-blue" %>
+                    <%= link_to "Assign: Problem Set", show_problem_sets_path(@classroom.id), :class => "button_blue" %>
+                    <%#= link_to "Assign: Problem Set", show_psets_path(@classroom.id), :class => "button-blue pull-right" %>
+		    </div>
             <div id="details-content">
                 <div class="tab-pane fade active in" id="overall">
                     <% if defined? params[:type] %>
@@ -65,6 +67,6 @@
 </div>
     
 <script>
-box_lid();
-$('.box-lid-menu').boxLid();
+    box_lid();
+    $('.box-lid-menu').boxLid();
 </script>

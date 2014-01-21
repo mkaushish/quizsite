@@ -1,0 +1,14 @@
+<li class='color_list_box'>
+	<% if answer.correct %>
+		<div class="correct_hist">
+	<% else %>
+		<div class="incorrect_hist">
+	<%end%>
+	<%=answer.problem_type.to_s%>
+	
+		<div class="with_tooltip pull-right"
+			style="width:40px; text-align:center;" 
+      		data-original-title="<%= acquired_points %>"
+      	><%= answer.points.to_i %></div>
+	</div>
+</li>

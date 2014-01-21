@@ -18,6 +18,7 @@ group :test, :development do
     gem 'database_cleaner'
     gem 'launchy'
     gem 'guard-rails'
+
 end
 
 group :development do
@@ -28,9 +29,10 @@ group :development do
     gem "better_errors"
     gem "binding_of_caller"
     gem 'quiet_assets'
-    #gem 'debugger'
+    gem 'debugger'
     #gem 'rack-mini-profiler'
     gem 'hirb'
+    gem 'zeus'
     gem "mailcatcher", "~> 0.5.12"
 end
 

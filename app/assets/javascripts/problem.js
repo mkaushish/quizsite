@@ -36,14 +36,20 @@ function initProblemOverlay() {
   return $p;
 }
 function bclr_pset(){
-  COLOR=["#049cdb", "#46a546", "#9d261d", "#f89406", "#c3325f", "#7a43b6", "#ffc40d"];
-  $(".pset_list_box").hover(function(){
+  COLOR=['#1abc9c', '#c3325f', '#c3325f', '#16a085', '#f1c40f', '#f39c12', '#27ae60', '#e67e22', '#d35400', '#2980b9', '#e74c3c', '#c0392b', '#9b59b6', '#8e44ad'];
+  $(".color_list_box").each(function(){
+    $(this).css("background-color",COLOR[Math.round(Math.random()*(COLOR.length-1))]);
+  });
+  $(".color_list_box").hover(function(){
     $(this).css("background-color",COLOR[Math.round(Math.random()*(COLOR.length-1))]);
   });
 }
 function bclr_problem(){
-  COLOR=["#049cdb", "#46a546", "#9d261d", "#f89406", "#c3325f", "#7a43b6", "#ffc40d"];
-  $(".problem_list_box").hover(function(){
+  COLOR=['#1abc9c', '#c3325f', '#c3325f', '#16a085', '#f1c40f', '#f39c12', '#27ae60', '#e67e22', '#d35400', '#2980b9', '#e74c3c', '#c0392b', '#9b59b6', '#8e44ad'];
+  $(".color_list_box").each(function(){
+    $(this).css("background-color",COLOR[Math.round(Math.random()*(COLOR.length-1))]);
+  });
+  $(".color_list_box").hover(function(){
     $(this).css("background-color",COLOR[Math.round(Math.random()*(COLOR.length-1))]);
   });
 }
