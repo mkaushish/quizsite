@@ -256,6 +256,8 @@ GEM
       execjs (>= 0.3.0)
       json (>= 1.8.0)
     will_paginate (3.0.5)
+    zeus (0.13.3)
+      method_source (>= 0.6.7)
 
 PLATFORMS
   ruby
@@ -291,3 +293,4 @@ DEPENDENCIES
   turn
   uglifier (>= 1.0.3)
   will_paginate (~> 3.0)
+  zeus
