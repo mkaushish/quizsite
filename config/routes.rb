@@ -3,7 +3,11 @@ Quizsite::Application.routes.draw do
   resources :badges, only: [:show]
   resources :problem_sets, only: [:show, :destroy]
   resources :teachers, only: [] do
-    resources :custom_problems
+    resources :custom_problems do 
+      collection do 
+        post 'import'
+      end
+    end
   end
   resources :users do
     member do

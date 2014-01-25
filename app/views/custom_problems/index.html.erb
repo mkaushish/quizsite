@@ -1,3 +1,11 @@
+\[\int_a^b f(x) dx=F(b)-F(a)\]
+\[1\frac{1}{c^2}\]
+<div class="row">
+	<div class="pull-right" id="import_problems">
+		<%= link_to "Import Custom Problems", "javascript: show_import_form()", :class => "btn", id: "show_import_form_button" %>
+		<%= link_to "Cancel Import", "javascript: cancel_import_form()", :class => "btn", id: "cancel_import_button" %>
+	</div>
+</div>
 <div id="custom_problems_message" class="teacher-details-header" style="margin-bottom:5px;"></div>
 <div class="row">
 	<div class="span4">
@@ -12,7 +20,6 @@
 			</ul>
 		</div>
 	</div>
- 
 	<div class="span4">
 		<div class="tab-content">
 			<% @chapters.each do |chapter| %>
@@ -54,6 +61,25 @@
 
 <script>
 	$(function() { 
+		$("#cancel_import_button").hide();
 		$('#chapter_tabs a:first').tab('show');
 	}); 
+	function show_import_form() {
+		$("#show_import_form_button").hide();
+		$("#import_problems").prepend("<%= j(render "custom_problems/import_problems_form") %>");
+		$("#cancel_import_button").show();
+	}
+	function cancel_import_form() {
+		$("#show_import_form_button").show();
+		$("#import_problems_form").remove();
+		$("#cancel_import_button").hide();
+	}
+</script>
+<script type="text/javascript">
+  window.MathJax = {
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  };
 </script>
