@@ -99,7 +99,6 @@ class ClassroomsController < ApplicationController
     end
 
     def join_class
-        debugger
         @classroom = Classroom.find_by_teacher_password(params[:class_teacher_pass])
         unless @classroom.blank?
             @join_class = @teacher.classrooms.find_by_id(@classroom.id) 

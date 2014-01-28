@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<!-- saved from url=(0047)http://localhost:3000/sg_challenge_2014#round_2 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>SG - SmarterGrades</title>
+        <link href="./SG - SmarterGrades_files/application.css" media="screen" rel="stylesheet" type="text/css">
+        <script type="text/javascript" async="" src="./SG - SmarterGrades_files/ga.js"></script><script src="./SG - SmarterGrades_files/application.js" type="text/javascript"></script>
+        <script type="text/javascript" src="./SG - SmarterGrades_files/jsapi"></script>
+        
+        <meta name="viewport" content="user-scalable=0">
+        <meta content="authenticity_token" name="csrf-param">
+<meta content="5jpQWWcFj0UQwowluZOIhDMUxiCqfe3P+6TePofaDiQ=" name="csrf-token">
+        
+    </head>
+    <body>
+        <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-30557946-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+
+<div class="container color_list_box sg-nav not_log_in" style="background-color: rgb(26, 188, 156);">
+  <div class="row-fluid sg-nav">
+    <div><a href="http://localhost:3000/"><div class="nelogo"><b class="fclr">SMARTER</b><b class="sclr">GRADES</b></div></a></div>
+    <ul>
+</ul>
+
+<ul style="float:right;">
+	<li class="switch-to"><a href="http://localhost:3000/sg_challenge_2014#logIn" data-toggle="modal">LOG IN</a></li>
+	<li class="switch-to-blue"><a href="http://localhost:3000/sg_challenge_2014#SignUp" data-toggle="modal">SIGN UP</a></li>
+</ul>
+
+<div class="modal hide fade" id="logIn">
+    <div class="row-fluid">
+        <div class="modal-header">
+                <img src="./SG - SmarterGrades_files/login_bar.png" style="width:100%">
+            </div>
+        </div>
+        <div class="modal-body">
+            <div class="row-fluid">
+                <div id="log_in_errors">
+                </div>
+                <div class="span8">
+                    <form accept-charset="UTF-8" action="http://localhost:3000/signin" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"><input name="authenticity_token" type="hidden" value="5jpQWWcFj0UQwowluZOIhDMUxiCqfe3P+6TePofaDiQ="></div>
+                        <div class="field_block">
+                            <div class="row-fluid">
+                                <span class="error_block" id="login_email_err"></span>
+                                <div class="span3">
+                                    <label for="login_email">Email</label>
+                                </div>    
+                                <div class="span4">    
+                                    <input id="login_email" name="login_email" placeholder="Your Email" type="text">
+                                </div>
+                            </div>    
+                        </div>
+                        <div class="field_block">
+                            <div class="row-fluid">
+                                <span class="error_block" id="login_password_err"></span>
+                                <div class="span3">
+                                    <label for="login_password">Password</label>
+                                </div>    
+                                <div class="span4">    
+                                    <input id="login_password" name="login_password" placeholder="Your Password" type="password">    
+                                </div>
+                            </div>    
+                        </div>
+                        <div class="span2">
+                            <input class="button-blue pull-right" name="commit" type="submit" value="Sign in">
+                        </div>
+</form>                </div>
+                <!--<div class="span3">
+                    <h3>OR</h3>
+                    <h5>Sign_in Via:</h5>
+                    <a href="/auth/google_oauth2"><img alt="Google_logo_flat_print_small" src="/assets/google_logo_flat_print_small.png" /></a>
+                </div>-->
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+<div class="modal hide fade" id="SignUp" style="font-family:SansSerif;">
+    <div class="row-fluid">
+        <div class="modal-header">
+            <img src="./SG - SmarterGrades_files/signup_bar.png" style="width:100%">
+        </div>
+        
+        <div class="modal-body">
+            <div class="row-fluid">
+                <div id="Sign_up_errors">
+                  <!--   
+                        <div class="form_error">
+                        </div>
+                     -->
+                </div>
+                <div class="span12">
+                    <div class="row-fluid">
+                        <a href="http://localhost:3000/sg_challenge_2014#" class="user_sel" id="Student" onclick="select_type(&quot;Student&quot;)"><img alt="Student_homepage" height="80" src="./SG - SmarterGrades_files/student_homepage.png" width="150" style="border: 8px solid purple; border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px;"></a>
+                        <a href="http://localhost:3000/sg_challenge_2014#" class="user_sel" id="Teacher" onclick="select_type(&quot;Teacher&quot;)"><img alt="Teacher_homepage" height="80" src="./SG - SmarterGrades_files/teacher_homepage.png" width="150"></a>
+                        <a href="http://localhost:3000/sg_challenge_2014#" class="user_sel" id="Coach" onclick="select_type(&quot;Coach&quot;)"><img alt="Coach_homepage" height="80" src="./SG - SmarterGrades_files/coach_homepage.png" width="150"></a>
+                    </div>
+                    <br>
+                    <form accept-charset="UTF-8" action="http://localhost:3000/users/signup" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"><input name="authenticity_token" type="hidden" value="5jpQWWcFj0UQwowluZOIhDMUxiCqfe3P+6TePofaDiQ="></div>
+                        <div class="field_block">
+                            <div class="row-fluid">
+                                <span class="error_block" id="signup_email_err"></span>
+                                <div class="span3">
+                                    <label for="signup_email">Email</label>
+                                </div>    
+                                <div class="span4">    
+                                    <input id="signup_email" name="signup_email" placeholder="Your Email" type="text">
+                                </div>
+                            </div>    
+                        </div>
+                        <div class="field_block">
+                            <div class="row-fluid">
+                                <span class="error_block" id="signup_password_err"></span>
+                                <div class="span3">
+                                    <label for="signup_password">Password</label>
+                                </div>    
+                                <div class="span4">    
+                                    <input id="signup_password" name="signup_password" placeholder="Your Password" type="password">    
+                                </div>
+                            </div>    
+                        </div>
+                        <input id="type" name="type" type="hidden" value="Student">
+                        <div class="span2">
+                            <input class="button-blue pull-right" name="commit" type="submit" value="Sign Up">
+                        </div>
+</form>                </div>
+                <!-- <div class="span3">
+                    <h3>OR</h3>
+                    <h5>Sign_in Via:</h5>
+                </div> -->
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    $("#Student img").css("border","8px solid purple");
+    $("#Student img").css("border-radius","5px");
+    function select_type(value) {
+        var type = value;
+        $("#type").val(type);
+        $('.user_sel img').css('border-width','0px');
+        $("#"+value+" img").css("border","8px solid purple");
+        $("#"+value+" img").css("border-radius","5px");
+    }
+
+</script>
+  
+
+        <div class="container not_log_in">
+            
+
+            <div id="main-content" style="text-align:center; font-family:Courier">
+    <section id="home" class="clearfix">
+    	<div class="row-fluid">
+    	<div class="actual_c">
+        	<div id="logo_with_sides">
+	<div id="logo_left_border"></div>
+	<div id="logo_text">
+		<p class="logo_blue">Smarter</p>
+		<p class="logo_green">Grades</p>
+		<p class="logo_tag">The smartest way to learn maths</p>
+	</div>
+	<div id="tick">
+		<img src="./SG - SmarterGrades_files/tick.png">
+	</div>
+	<div id="logo_right_border"></div>
+</div>
+
+
+			<div id="home_students">
+	    		<img src="./SG - SmarterGrades_files/boy.png">
+	    		<img src="./SG - SmarterGrades_files/girl.png">
+			</div>
+			<div id="sign_up_big" style="position: relative; float: left;">
+				<div style="margin-left: 10px; margin-top: 30px;">
+					<h1 style="font-size: 55px; color: red;">CHALLENGE 2014</h1>
+				</div>
+			</div>
+			<div id="home_teachers">
+			    <img src="./SG - SmarterGrades_files/teacher.png">
+			    <img src="./SG - SmarterGrades_files/principal.png">
+			</div>
+        </div></div>
+    	
+		<div class="row-fluid">
+			<div class="span8 font_lane" style="padding-left: 16%; text-align: center;">
+				<p>The by-invitation competition is being hosted completely online on the SmarterGrades Math platform and consists of 3 rounds as follows:</p>
+			</div>
+		</div>
+		<div class="row-fluid">
+			<div class="span8" style="padding-left: 16%;">
+				<ul class="nav nav-tabs" id="myTab" style="margin-top: 18px; padding-left: 32%;">
+	    			<li class="active"><a href="http://localhost:3000/sg_challenge_2014#round_1" class="font_lane">ROUND 1</a></li>
+	    			<li><a href="./SG - SmarterGrades_files/SG - SmarterGrades.html" class="font_lane">ROUND 2</a></li>
+	    			<li><a href="http://localhost:3000/sg_challenge_2014#round_3" class="font_lane">ROUND 3</a></li>
+				</ul>
+				
+				<div class="tab-content">
+				    <div class="tab-pane active" id="round_1">
+				        <p class="font_lane text_justify">From [Date] all interested sixth-grade students of your school will be given access to the SmarterGrades online Math platform. By working on questions specifically designed to enhance their Math skills, answering them correctly, and mastering various Math concepts, they will keep accumulating points. Those who accumulate [points] points by [Date+1 month] will qualify for Round 2 on [Date+1 month+1 week].</p>
+				    </div>
+				    <div class="tab-pane" id="round_2">
+				        <p class="font_lane text_justify">All those&nbsp;who qualified from Round 1 will be eligible. The top 10 students from the top 10 schools will qualify for the final round on [Date+1 month+1 week+2 weeks].</p>
+				    </div>
+				    <div class="tab-pane" id="round_3">
+				        <p class="font_lane text_justify">All those&nbsp;who qualified from Round 2 will be eligible. The top 5 schools and top 3 individuals will be eligible for prizes as stated below.</p>
+				    </div>      
+				</div>
+			</div>
+		</div>
+		<div class="row-fluid">
+			<div class="span4 font_lane" style="padding-left: 16%;">
+				<h1 class="blue_text">SCHOOL PRIZES</h1>
+			</div>
+			<div class="span4 font_lane">
+				<h1 class="blue_text">INDIVIDUAL PRIZES</h1>
+			</div>
+		</div>
+		<div class="row-fluid">
+			<div class="span4 font_lane" style="padding-left: 16%;">
+				<p style="text-align: justify;"><strong class="green_text text_italic">FIRST PRIZE - </strong>Rs. 50,000 worth of Flipkart vouchers for the school, subscription to 3 India Today Group magazine publications for three years and Rs. 5000 worth of Flipkart vouchers to the top 3 students from school.</p>
+		
+			</div>
+			<div class="span4 font_lane">
+				<p class="text_justify"><strong class="green_text text_italic">FIRST PRIZE - </strong>Top 5 students in the online competition get Rs. 10,000 worth of Flipkart vouchers.</p>
+		
+			</div>
+		</div>
+		<div class="row-fluid">
+			<div class="span4 font_lane" style="padding-left: 16%;">
+				<p class="text_justify"><strong class="green_text text_italic">SECOND PRIZE - </strong>Rs. 30,000 worth of Flipkart vouchers for the school, subscription to 3 India Today Group magazine publications for three years and Rs. 3000 worth of Flipkart vouchers to the top 3 students from school.</p>
+			</div>
+			<div class="span4 font_lane">
+				<p style="text-align: justify;"><strong class="green_text text_italic">SECOND PRIZE - </strong>Next 10 students in the online competition get Rs. 5,000 worth of Flipkart vouchers.</p>
+
+			</div>
+		</div>
+		<div class="row-fluid">
+			<div class="span4 font_lane" style="padding-left: 16%;">
+				<p style="text-align: justify;"><strong class="green_text text_italic">THIRD PRIZE - </strong>Rs. 20,000 worth of Flipkart vouchers for the school, subscription to 3 India Today Group magazine publications for three years and Rs. 2000 worth of Flipkart vouchers to the top 3 students from school.</p>
+
+			</div>
+			<div class="span4 font_lane">
+				<p class="text_justify"><strong class="green_text text_italic">THIRD PRIZE - </strong>Next 10 students in the online competition get Rs. 2,500 worth of Flipkart vouchers.</p>
+
+			</div>
+		</div>
+		<div class="row-fluid">
+			<div class="span4 font_lane" style="padding-left: 16%;">
+				<p class="text_justify"><strong class="green_text text_italic">Additionally, the top 5 schools will get free access to the SmarterGrades platform for 6 months!</strong></p>
+
+			</div>
+			<div class="span4 font_lane">
+						
+			</div>
+		</div>
+		<div class="row-fluid">
+			<div class="span8 font_lane" style="padding-left: 16%; font-weight: bold;">
+				<h1 style="text-align: left;">FAQ<small>s</small></h1>
+
+				<div style="text-align: left; font-size: 14px;">
+					<h3>How does the school register?</h3>
+					<ol>
+						<li>
+							Send in the attached excel sheet registration template with the details as requested to sgchallenge2014@ulearntoday.com.
+						</li>
+						<li>
+							You will receive a confirmation email from us immediately.
+						</li>
+						<li>
+							Within 2 working days, we will also send across an excel sheet with details of the userids and passwords for your students. We will also create a teacher userid for the teacher to track individual and group performance.
+						</li>
+						<li>
+							Do let us know if you would like us to create sections within the list of students for ease of teacher monitoring.
+						</li>
+					</ol>
+					<h3>How does the points system work for the 3 rounds?</h3>
+					<ol>
+						<li>
+							Points will be awarded for correct answers, speed of responses, difficulty level of questions and topics covered.
+						</li>
+					</ol>
+
+					<h3>Can the teachers monitor the performance of the students?</h3>
+					<ol>
+						<li>
+							Along with the userids and passwords for the students, one userid and password for teacher access would be given as well. Through this userid, the teacher can track individual and group performance of the students. It will also highlight the common errors made by students and gap in conceptual understanding of students if any. 
+						</li>
+					</ol>
+					<h3>When would the prizes be announced and given away?</h3>
+					<ol>
+						<li>
+							Winners would be announced at 8pm on [Date]. 
+						</li>
+						<li>
+							The mechanism for claiming the prizes would be shared by [Date + 1 week].
+						</li>
+					</ol>
+				</div>
+			</div>
+		</div>
+		<div class="row-fluid">
+			<div class="span8 font_lane" style="padding-left: 16%; font-weight: bold;">
+				<h1 style="text-align: left;">Terms and Conditions</h1>
+				<div style="text-align: left; font-size: 14px;">
+					<ol>
+						<li>
+							Student must be a bonafide student of grade 6 or 7 and of the school and proof might be requested by Universal Learn Today and SmarterGrades at any time.
+						</li><li>
+							Student must be below the age of 13 years as on 31st March 2014.
+						</li>
+						<li>
+							Whilst attempting problems on the SmarterGrades online platform, staff members of the school are expected to ensure that the competition is conducted in a fair manner.
+						</li>
+						<li>
+							Prizes will be given away in the form of Flipkart e-vouchers.
+						</li>
+						<li>
+							Flipkart vouchers will be valid for a period of 12 months from 28th February.
+						</li>
+						<li>
+							Usage of Flipkart vouchers would additionally be bound by Flipkart policy and guidelines.
+						</li>
+					<ol>
+				</ol></ol></div>
+			</div>
+		</div>
+	</section>
+</div>
+<style type="text/css">
+	.font_lane{
+		font-family: "Lane_narrow";		
+	}
+	.text_justify{
+		text-align: justify;
+	}
+
+	.text_italic{
+		font-style: italic;
+	}
+</style>
+<script type="text/javascript">
+	$('#myTab a').click(function (e) {
+        e.preventDefault();
+        $(this).tab('show');
+    });
+</script>
+            <div id="outside"></div>
+        </div>
+        <div class="the_footer">
+            <script> bclr_pset()</script>
+        </div>
+    
+</body></html>

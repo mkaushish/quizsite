@@ -97,7 +97,7 @@ class QuizzesController < ApplicationController
                     @quiz_type      = "Multiple Classrooms"
                     @classroom_ids  = params[:classroom_ids] if defined? params[:classroom_ids]
                     @classrooms     = Classroom.where(:id => @classroom_ids) unless @classroom_ids.blank?
-                    debugger
+                    
                     unless @quiz_id.blank?
                         unless @classroom_ids.blank? 
                             @quiz = Quiz.find_by_id(@quiz_id)

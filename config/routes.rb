@@ -41,6 +41,9 @@ Quizsite::Application.routes.draw do
   
   match "/auth/:provider/callback" => "users#create_user_vdp"
 
+  
+
+
   get 'users/signup',                         to: 'users#signup', as: :signup_form
   post 'users/signup',                        to: 'users#signup_step1', as: :signup_user
   get 'users/:id/confirm',                    to: 'users#signup_step2', as: :confirm
@@ -181,6 +184,7 @@ Quizsite::Application.routes.draw do
   get '/draw',                                to: 'pages#draw'
   get '/access_denied',                       to: 'pages#access_denied'
   get '/mathematician',                       to: 'pages#mathematician'
+  get '/sg_challenge_2014',                   to: 'pages#sg_challenge_2014', as: :sg_challenge_2014
 
   # quiz_problems 
   get '/quiz_problems/',                                to: 'quiz_problems#new',                      as: :new_quiz_problem
