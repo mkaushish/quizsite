@@ -5,7 +5,9 @@
 <div class='row-fluid problem_body'>
   	<%= form_tag finish_quiz_problem_path, method: :post, autocomplete: :off do %>
     	<%= hidden_field_tag 'stat_id', @stat.id.to_s %>
-		<%= link_to "Previous Problem", left_quiz_problem_path(:instance => @quiz_problem, :c => @counter), :class => 'button-blue', remote: :true  %>
+    	<%- if @quiz.quiz_type == 1 -%>
+			<%= link_to "Previous Problem", left_quiz_problem_path(:instance => @quiz_problem, :c => @counter), :class => 'button-blue', remote: :true  %>
+		<%- end -%>
         <%= submit_tag "Next Problem", :class => 'pull-right button-blue' %>
     	<br /><br />
     	<%#= @quiz_problem.name %>

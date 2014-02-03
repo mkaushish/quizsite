@@ -7,7 +7,7 @@
 		<br /><br />
 		<%= render 'problems/nameless_form', :@problem => @problem %>
     	<div class"row-fluid">
-    		<%= link_to "Previous Problem", do_quiz_problem_path(@quiz, @quiz_instance, :c => (@counter - 2 )), :class => 'button-blue pull-left' unless @counter == 1 %>
+            <%= link_to "Previous Problem", do_quiz_problem_path(@quiz, @quiz_instance, :c => (@counter - 2 )), :class => 'button-blue pull-left' unless @counter == 1 %>
             <%= submit_tag "Save", :class => 'button-blue' %>
         </div>
     <% end %>

@@ -28,6 +28,7 @@ class QuizInstance < ActiveRecord::Base
 
         self.complete = false
         self.started_at = Time.now
+        self.paused = false
         self.quiz_stats.create quiz.stat_attrs
 
         # the ! makes it return false if it doesn't save
@@ -62,6 +63,19 @@ class QuizInstance < ActiveRecord::Base
 
     def stats
         self.quiz_stats 
+    end
+
+    def update_last_visited
+        self.last_visited_at = Time.now.utc 
+        # self.save
+    end
+
+    def update_timer_and_last_visited
+        old_last_visited_at = self.last_visited_at
+        new_last_visited_at = update_last_visited
+        self.remaining_time -= ( new_last_visited_at - old_last_visited_at ).round unless self.paused
+        self.paused = false
+        self.save
     end
 
     def problems_left

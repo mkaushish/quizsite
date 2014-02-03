@@ -1,0 +1,50 @@
+<h2>Quiz</h2>
+
+<div class='row-fluid problem_body'>
+	<%= @counter += 1 %><%= " of " %> <%= @quiz.quiz_problems.count %>
+  	
+    <%= form_tag finish_quiz_problem_type_2_path(@quiz, @quiz_instance), method: :post, id: "problem_form", autocomplete: :off do %>
+    	
+        <%= hidden_field_tag 'stat_id', @stat.id.to_s %>
+        
+		<br /><br />
+		<%= render 'problems/nameless_form', :@problem => @problem %>
+        <br />
+    	
+        <div class"row-fluid">
+            <% unless @remaining == 1 %>
+                <%= link_to "Submit", "javascript: void(0);", :class => 'button-blue', id: "submit_with_html" %>
+                
+                <%= submit_tag "Submit And Pause", :class => 'button-blue' %>
+
+                <%= link_to "Skip this Question for 50 points", skip_question_path(@quiz, @quiz_instance, stat_id: @stat.id.to_s, pause: "false"), remote: :true,  :class => 'button-blue' %>
+                
+                <%= link_to "Skip this Question for 50 points and pause", skip_question_path(@quiz, @quiz_instance, stat_id: @stat.id.to_s, pause: "true"), :class => 'button-blue' %>
+            <% else %>
+                <%= submit_tag "Submit Quiz", :class => 'button-blue' %>                
+            <% end %>
+        </div>
+    <% end %>
+</div>
+
+<% if @problem.problem.has_notepad? %>
+    <div class='row-fluid calculations'>
+        <%= render 'problems/side_notepad' %>
+    </div>
+<% end %>
+
+<script type="text/javascript">
+    
+    $("#submit_with_html").click(function() {
+        var valuesToSubmit = $('#problem_form').serialize();
+        console.log(valuesToSubmit);
+        $.ajax({
+            type: "POST",
+            url: $('#problem_form').attr('action'),
+            data: valuesToSubmit,
+            dataType: "script"
+        });
+        return false;
+    });
+
+</script>

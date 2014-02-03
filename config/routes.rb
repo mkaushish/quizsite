@@ -108,9 +108,14 @@ Quizsite::Application.routes.draw do
   # student-quiz_instances views
   get   'problem_sets/:problem_set_instance_id/quiz/:quiz_id/',         to: 'quiz_instances#show',                  :as => :show_quiz
   get   '/quiz/:quiz_id/quiz_instances/:id/start',                      to: 'quiz_instances#start',                 :as => :start_quiz
-  get   '/quiz/:quiz_id/quiz_instances/:id/result',                to: 'quiz_instances#finish_quiz',           :as => :finish_quiz
+  get   '/quiz/:quiz_id/quiz_instances/:id/result',                     to: 'quiz_instances#finish_quiz',           :as => :finish_quiz
   get   '/quiz/:quiz_id/quiz_instances/:id/do',                         to: 'quiz_instances#do_problem',            :as => :do_quiz_problem
+  get   '/quiz/:quiz_id/quiz_instances/:id/timed_quiz',                 to: 'quiz_instances#do_problem_quiz_type_2',            :as => :do_quiz_problem_type_2
+  post  '/quiz/:quiz_id/quiz_instances/:id/timed_quiz',                 to: 'quiz_instances#finish_problem_quiz_type_2',            :as => :finish_quiz_problem_type_2
+  get   '/quiz/:quiz_id/quiz_instances/:id/skip_question',              to: 'quiz_instances#skip_question',         :as => :skip_question  
   post  '/quiz/:quiz_id/quiz_instances/:id/do',                         to: 'quiz_instances#finish_problem',        :as => :finish_quiz_problem
+  post  '/quiz/:quiz_id/quiz_instances/:id/update_time_taken',          to: 'quiz_instances#update_time_taken',        :as => :update_time_taken
+  get   '/quiz/:quiz_id/quiz_instances/:id/quiz_result',                to: 'quiz_instances#finish_quiz_type_2',           :as => :finish_quiz_type_2
   # get '/quiz/do/:pid',                                                to: 'quiz_instances#do',    :as => :quiz_do
   
   # #get '/quiz/:id/start_new',                 to: 'quiz_instances#new',   :as => :start_new_quiz

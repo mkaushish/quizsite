@@ -28,8 +28,23 @@
         </div>
     <% end %>
     <p>
-        <%= f.label "Quiz Name" %><br />
-        <%= f.text_field :name %>
+        <%= f.label "Quiz Name" %><%= f.text_field :name %><br />
+    </p>
+    <p>
+        <%= f.label "Start Date & Time:" %><br />
+        <%= f.datetime_select :start_time %>
+    </p>
+    <p>
+        <%= f.label "End Date & Time:" %><br />
+        <%= f.datetime_select :end_time %>
+    </p>
+    <p>
+        <%= f.label "Timer" %><br />
+        <%= f.time_select :timer %>
+    </p>
+    <p>
+        <%= f.label "Quiz Type" %><br />
+        <%= f.collection_select :quiz_type, Quiz.quiz_type_array, :first, :last %>
     </p>
         <div id="quiz_problem_fields">
             <%#= render "field_for_qp", :f => f %>
