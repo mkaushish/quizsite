@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20131212102736) do
+ActiveRecord::Schema.define(:version => 20140202191227) do
 
   create_table "answers", :force => true do |t|
     t.boolean  "correct"
@@ -62,8 +62,17 @@ ActiveRecord::Schema.define(:version => 20131212102736) do
     t.datetime "updated_at"
     t.datetime "starts_at"
     t.datetime "ends_at"
-    t.boolean  "active",         :default => true
+    t.boolean  "active"
   end
+
+  create_table "classroom_quizzes", :force => true do |t|
+    t.integer  "classroom_id"
+    t.integer  "quiz_id"
+    t.datetime "starts_at"
+    t.datetime "ends_at"
+  end
+
+  add_index "classroom_quizzes", ["classroom_id", "quiz_id"], :name => "classroom_quizzes_dual_index", :unique => true
 
   create_table "classroom_teachers", :force => true do |t|
     t.integer  "classroom_id", :null => false
@@ -160,7 +169,7 @@ ActiveRecord::Schema.define(:version => 20131212102736) do
   create_table "problem_set_instances", :force => true do |t|
     t.integer  "user_id"
     t.integer  "problem_set_id"
-    t.datetime "stop_green",     :default => '2013-12-06 10:29:23', :null => false
+    t.datetime "stop_green",     :default => '2013-11-16 05:34:23', :null => false
     t.integer  "num_red",        :default => 0
     t.integer  "num_green",      :default => 0
     t.integer  "num_blue",       :default => 0
@@ -209,7 +218,7 @@ ActiveRecord::Schema.define(:version => 20131212102736) do
     t.integer  "points",          :default => 0,                     :null => false
     t.integer  "points_wrong",    :default => 0,                     :null => false
     t.integer  "points_right",    :default => 100,                   :null => false
-    t.datetime "stop_green",      :default => '2013-12-06 10:29:23', :null => false
+    t.datetime "stop_green",      :default => '2013-11-16 05:34:23', :null => false
     t.integer  "points_required", :default => 500
     t.datetime "created_at",                                         :null => false
     t.datetime "updated_at",                                         :null => false
@@ -245,8 +254,12 @@ ActiveRecord::Schema.define(:version => 20131212102736) do
     t.datetime "ended_at"
     t.boolean  "complete"
     t.integer  "problem_set_instance_id"
-    t.datetime "created_at",              :null => false
-    t.datetime "updated_at",              :null => false
+    t.datetime "created_at",                                 :null => false
+    t.datetime "updated_at",                                 :null => false
+    t.boolean  "over_by_timer",           :default => false
+    t.integer  "remaining_time"
+    t.datetime "last_visited_at"
+    t.boolean  "paused"
   end
 
   add_index "quiz_instances", ["quiz_id", "user_id"], :name => "index_quiz_instances_on_quiz_id_and_user_id", :unique => true
@@ -269,7 +282,7 @@ ActiveRecord::Schema.define(:version => 20131212102736) do
   create_table "quiz_stats", :force => true do |t|
     t.integer  "quiz_instance_id"
     t.integer  "problem_type_id"
-    t.integer  "completed",        :default => 0
+    t.integer  "remaining",        :default => 0
     t.integer  "total"
     t.integer  "problem_id"
     t.datetime "created_at",                      :null => false
@@ -286,6 +299,11 @@ ActiveRecord::Schema.define(:version => 20131212102736) do
     t.integer  "quiz_problems_count", :default => 0
     t.datetime "created_at",                         :null => false
     t.datetime "updated_at",                         :null => false
+    t.datetime "start_time"
+    t.datetime "end_time"
+    t.integer  "limit"
+    t.time     "timer"
+    t.integer  "quiz_type"
   end
 
   add_index "quizzes", ["teacher_id", "name"], :name => "index_quizzes_on_teacher_id_and_name", :unique => true
@@ -300,12 +318,12 @@ ActiveRecord::Schema.define(:version => 20131212102736) do
 
   create_table "topics", :force => true do |t|
     t.string   "title"
-    t.text     "description"
     t.integer  "user_id"
     t.integer  "classroom_id"
     t.integer  "comments_count", :default => 0
     t.datetime "created_at",                    :null => false
     t.datetime "updated_at",                    :null => false
+    t.text     "description"
   end
 
   create_table "users", :force => true do |t|

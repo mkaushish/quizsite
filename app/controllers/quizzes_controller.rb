@@ -35,9 +35,7 @@ class QuizzesController < ApplicationController
     end
     
     def create
-        @quiz                   = @teacher.quizzes.build(params[:quizzes])
-        @quiz.name              = params[:quiz][:name]
-        @quiz.problem_set_id    = params[:quiz][:problem_set_id]
+        @quiz                   = @teacher.quizzes.build(params[:quiz])
         @quiz_type              = params[:quiz_type] if defined? params[:quiz_type] and !params[:quiz_type].blank?
         if @quiz.save
             if @quiz_type == "Single Classroom"

@@ -12,7 +12,7 @@ class ProblemSetInstancesController < ApplicationController
         @sessions = []
         @history = @student.problem_history(@problem_set.problem_types.map(&:id)).limit(11)
         @all_badges = @student.all_badges
-        @quiz = @student.all_quizzes(@classroom, @problem_set) if !@instance.blue?
+        @quiz = @student.all_quizzes(@classroom, @problem_set) if @instance.blue?
         @random_stat = @stats.sample
         @random_problem_type = @random_stat.problem_type_id
     end

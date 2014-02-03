@@ -83,6 +83,11 @@ class CustomProblemsController < ApplicationController
 		end
 	end
 
+	def import
+  		Problem.import(params[:file])
+  		redirect_to teacher_custom_problems_path(@teacher), notice: "Custom Problems Imported."
+	end
+
 	private
 
 	def make_custom_prob_from_params

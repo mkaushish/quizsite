@@ -5,7 +5,7 @@ class Quiz < ActiveRecord::Base
   has_many :quiz_problems, inverse_of: :quiz, :dependent => :destroy
 
   has_many :classroom_quizzes, :dependent => :destroy
-  has_many   :problem_types, :through => :problem_set
+  has_many :problem_types, :through => :problem_set
 
   belongs_to :classroom
   belongs_to :problem_set
@@ -14,7 +14,17 @@ class Quiz < ActiveRecord::Base
 
   accepts_nested_attributes_for :quiz_problems
 
-  attr_accessible :name, :problem_set_id
+  attr_accessible :name, :problem_set_id, :start_time, :end_time, :limit, :timer, :quiz_type
+
+  QUIZ_TYPES = { 1 => "Back and Forth", 2 => "Timed without Back and Forth" }
+
+  def quiztype
+    QUIZ_TYPES[quiz_type]
+  end
+
+  def self.quiz_type_array
+    QUIZ_TYPES.to_a.sort
+  end
 
   def Quiz.history_classroom(klass)
     psets = klass.problem_sets
@@ -70,6 +80,7 @@ class Quiz < ActiveRecord::Base
   # psi = a ProblemSetInstance
   def assign_with_pset_inst(problem_set_instance)
     instance = quiz_instances.build(:user_id => problem_set_instance.user_id, :problem_set_instance => problem_set_instance)
+    instance.remaining_time = self.timer.hour * 60 * 60 + self.timer.min * 60 +  self.timer.sec if self.quiz_type == 2 
     return nil unless instance.save # if they already have an instance of this problem set it won't work
     instance
   end

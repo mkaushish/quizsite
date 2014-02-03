@@ -10,7 +10,11 @@ gem 'jquery-rails', '~> 2.0.2'
 gem 'ransack'
 gem 'will_paginate', '~> 3.0'
 gem 'auto_html'
-gem "google_visualr"
+gem 'google_visualr'
+gem 'roo'
+gem 'iconv'
+gem 'mathjax-rails'
+
 
 group :test, :development do
 	gem 'rspec-rails'

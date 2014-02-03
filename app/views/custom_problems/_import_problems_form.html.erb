@@ -1,0 +1,6 @@
+<div id="import_problems_form">
+	<%= form_tag import_teacher_custom_problems_path(@teacher), multipart: true do %>
+		<%= file_field_tag :file %>
+		<%= submit_tag "Import" %>
+	<% end %>
+</div>

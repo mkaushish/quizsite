@@ -1,23 +1,36 @@
 <div class=row-fluid>
     <%= render 'shared/shelf', :@student => current_user %>
 </div>
-<ul class=column-list>
-  	<h2>Your Quiz Stats</h2>
+<h2>Your Quiz Stats</h2>
+<ul class="column-list">
   	<% @quiz_stats.each_with_index do |stat, i| %>
 		<% i +=1 %>
-		<li>
-			<%= link_to "Problem #{i.to_s}" , do_quiz_problem_path(@quiz, @quiz_instance, :problem_id => stat.problem_id) %>
-		</li>
+		<% if @quiz.quiz_type == 2 %>
+			<li>
+				<%= "Problem #{i.to_s}" %>
+			</li>
+		<% else %>
+			<li>
+				<%= link_to "Problem #{i.to_s}" , do_quiz_problem_path(@quiz, @quiz_instance, :problem_id => stat.problem_id) %>
+			</li>
+		<% end %>
 	<% end %>
 </ul>
 <% unless @quiz_instance.over? %>
 	<% unless @quiz_instance.started? %>
 		<%= link_to "Resume", start_quiz_path(@quiz, @quiz_instance), :class => 'button-blue' %>
 	<% else %>
-		<%= link_to "Start", do_quiz_problem_path(@quiz, @quiz_instance), :class => 'button-blue' %>
+		<%- if @quiz.quiz_type == 2 -%>
+			<%= link_to "Start", do_quiz_problem_type_2_path(@quiz, @quiz_instance), :class => 'button-blue' %>
+		<%- else -%>
+			<%= link_to "Start", do_quiz_problem_path(@quiz, @quiz_instance), :class => 'button-blue' %>
+		<%- end -%>
 		<%#= link_to "Start", start_new_quiz_path(@quiz, @quiz_instance), :class => 'button-blue' %>
 	<% end %>
-	<%= link_to 'Submit', finish_quiz_path(@quiz, @quiz_instance), :id => 'finish_quiz', :class => 'button-blue', :confirm => "Your Quiz isn't completed yet. Do you still want to submit?" %>
-	<% else %>
-	<%= link_to 'Submit', finish_quiz_path(@quiz, @quiz_instance), :id => 'finish_quiz', :class => 'button-blue', :confirm => "Are you sure?" %>
+<% end %>
+
+<% if @quiz.quiz_type == 2 %>	
+	<%= link_to 'Submit', finish_quiz_type_2_path(@quiz, @quiz_instance), :id => 'finish_quiz', :class => 'button-blue', :confirm => (( @quiz_instance.over? ) ? ("Your Quiz isn't completed yet. Do you still want to submit?") : ("Are You Sure?")) %>
+<% else %>
+	<%= link_to 'Submit', finish_quiz_path(@quiz, @quiz_instance), :id => 'finish_quiz', :class => 'button-blue', :confirm => (( @quiz_instance.over? ) ? ("Your Quiz isn't completed yet. Do you still want to submit?") : ("Are You Sure?")) %>
 <% end %>
