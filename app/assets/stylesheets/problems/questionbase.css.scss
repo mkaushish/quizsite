@@ -38,7 +38,7 @@ $problem_top_m: 0;
   display:none;
 }
 #problem_overlay{
-	background-color: purple;
+	background-color: #9b59b6;
 }
 .problem_body{
 	background-color:white;
@@ -59,10 +59,11 @@ $pset_title_m: 200px;
 	height:50px;
 }
 .button-blue:hover{
-	-moz-box-shadow: inset 0 0 10px black;
--webkit-box-shadow: inset 0 0 10px black;
-box-shadow: inner 0 0 10px black;
+	//-moz-box-shadow: inset 0 0 10px black;
+//-webkit-box-shadow: inset 0 0 10px black;
+//box-shadow: inner 0 0 10px black;
 color:white;
+background-color: #e74c3c;
 }
 .button-blue {
 	display: inline-block;
@@ -75,9 +76,9 @@ color:white;
 
     text-align: center;
     color: white;
-    background-color: orange;
+    background-color: #f39c12;
 
-    box-shadow: 2px 2px 2px black;
+    //box-shadow: 2px 2px 2px black;
     border:none;
     border-radius:0px;
     -webkit-border-radius:0px;
