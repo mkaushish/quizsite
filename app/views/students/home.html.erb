@@ -7,8 +7,8 @@
     </div>
     <div id='bbor'>
         <%- unless @pset_instances.blank? -%>
-            <% @pset_instances.each do |i| %>
-                <%= render 'pset_list_box_2', :pset_list_box => i %>
+            <% @pset_instances.each do |problem_set_instance| %>
+                <%= render 'pset_list_box_2', problem_set_instance: problem_set_instance %>
             <% end %>
         <%- else -%>
             <h1 style="text-align: center;">No Problem Set is assigned to Your Classroom</h1>

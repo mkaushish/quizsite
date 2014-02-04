@@ -1,1 +1,2 @@
-<%= "#{@student.badges.where("level = #{@shape}").count} / #{@all_badges.reject{|x| x[2] != @shape}.count}" %>
+<%#= "#{@student.badges.where("level = #{@shape}").count}" %>
+<%= @student["badges_level_#{level}_count"] %>

@@ -24,10 +24,10 @@ class ProblemSet < ActiveRecord::Base
 
 	def assign(user)
 		instance = problem_set_instances.build(:user_id => user.id)
-		instance.num_blue = instance.problem_stats.blue.count
-		instance.num_green = instance.problem_stats.green.count
-		instance.num_red = instance.problem_stats.count - instance.num_blue - instance.num_green
-		return nil unless instance.save # if they already have an instance of this problem set it won't work
+		# instance.num_blue = instance.problem_stats.blue.count
+		# instance.num_green = instance.problem_stats.green.count
+		# instance.num_red = instance.problem_stats.count - instance.num_blue - instance.num_green
+	 	return nil unless instance.save # if they already have an instance of this problem set it won't work
 	end
 
 	def self.master_sets

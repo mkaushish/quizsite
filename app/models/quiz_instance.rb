@@ -28,6 +28,7 @@ class QuizInstance < ActiveRecord::Base
 
         self.complete = false
         self.started_at = Time.now
+        self.last_visited_at = self.started_at
         self.paused = false
         self.quiz_stats.create quiz.stat_attrs
 

@@ -1,7 +1,7 @@
 class Student < User
 
     attr_accessor :old_password, :new_password, :confirm_password
-    attr_accessible :old_password, :new_password, :confirm_password
+    attr_accessible :old_password, :new_password, :confirm_password, :badges_count
       
     has_many :classroom_assignments
     has_many :classrooms, :through => :classroom_assignments

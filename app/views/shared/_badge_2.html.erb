@@ -1,14 +1,14 @@
-<div id="get_badge_<%= shape %>" class="get_badge">
+<div id="get_badge_<%= level %>" class="get_badge">
 	<% unless ajax %>
-    	<%= link_to (image_tag "#{shape_name}_2.png"), student_badges_path(student.id, :shape => shape) -%>
+    	<%= link_to (image_tag "#{shape_name}_2.png"), student_badges_path(student.id, :shape => level) -%>
     <% else %>
-    	<%= link_to (image_tag "#{shape_name}_2.png"), student_badges_path(student.id, :shape => shape), :remote => :true -%>
+    	<%= link_to (image_tag "#{shape_name}_2.png"), student_badges_path(student.id, :shape => level), :remote => :true -%>
     <% end %>
 </div>
 <div id="badge_count_<%= shape_name %>">
 	<% unless ajax %>
-    	<%= link_to (render 'students/badge_count', :@shape => shape), student_badges_path(student.id, :shape => shape), :class => "#{plate_class}" %>
+    	<%= link_to (render 'students/badge_count', :level => level), student_badges_path(student.id, :shape => level), :class => "#{plate_class}" %>
     <% else %>
-    	<%= link_to "#{shape_name}", student_badges_path(student.id, :shape => shape), :remote => :true, :class => "#{plate_class}" %>
+    	<%= link_to "#{shape_name}", student_badges_path(student.id, :shape => level), :remote => :true, :class => "#{plate_class}" %>
     <% end %>
 </div>

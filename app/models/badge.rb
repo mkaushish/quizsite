@@ -1,6 +1,6 @@
 class Badge < ActiveRecord::Base
   	# attr_accessible :title, :body
-  	belongs_to :student
+  	belongs_to :student, counter_cache: :badges_count
     belongs_to :merit_given_by, :class_name => "Teacher",
                                 :foreign_key => "teacher_id"
 
@@ -13,7 +13,9 @@ class Badge < ActiveRecord::Base
   	# 4		  => 20000	#
   	# 5 	  => 50000  #
 
-   def self.get_badges(student, pset, ptype)
+    after_create :update_badges_counters_for_student
+
+    def self.get_badges(student, pset, ptype)
         #Badge.create_all_fake_badges(student)
         result = student.problem_set_instances_num_problem_problem_stats_blue
         unless result.blank?
@@ -56,10 +58,10 @@ class Badge < ActiveRecord::Base
         badge_3=[]
         badge_4=[]
         badge_5=[]
-        student.problem_sets.order('id ASC').each do |pset|
+        student.problem_sets.includes(:problem_types).order('id ASC').each do |pset|
             badge_3.push(["Badge" + pset.name + "B", "#{pset.name} Problem Set Blue", 3])
 
-            pset.problem_types.order('id ASC').each do |ptype|
+            pset.problem_types.each do |ptype|
                 badge_1.push(["Badge" + ptype.name + "B", "#{ptype.name} Problem Type Blue", 1])
                 badge_2.push(["Badge" + ptype.name + "TQC", "5 Questions Correct in a Row for the First Time of #{ptype.name}", 2])         
         
@@ -255,4 +257,24 @@ class Badge < ActiveRecord::Base
     #             student.badges.create(:badge_key=> "Badge#{(i+1)*5}PSB", :name=> "#{(i+1)*5} Problem Sets Blue", :level=> 4)
     #     end
     # end
+
+    private
+
+    def update_badges_counters_for_student
+        student = self.student
+        _levels = student.badges.pluck(:level)
+        case self.level
+            when 1
+                student.badges_level_1_count = _levels.count(1)
+            when 2
+                student.badges_level_2_count = _levels.count(2)
+            when 3
+                student.badges_level_3_count = _levels.count(3)
+            when 4
+                student.badges_level_4_count = _levels.count(4)
+            when 5
+                student.badges_level_5_count = _levels.count(5)
+        end
+        student.save
+    end
 end

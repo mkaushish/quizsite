@@ -5,13 +5,13 @@
         <ul class='shelf_ul'>
             <li class='shelf_li' id='account'>
                 <% unless @student.image.blank? %>
-                <% if @student.image[@student.image.length-4, 4]=='.jpg' %>
-                    <%= image_tag @student.image, :size => '70x70'  %>
+                    <% if @student.image[@student.image.length-4, 4]=='.jpg' %>
+                        <%= image_tag @student.image, :size => '70x70'  %>
+                    <%else%>
+                        <%= link_to (content_tag :i, '', :class => ('st_img_2 char ' + @student.image)), student_path(@student.id)%>
+                    <%end%>
                 <%else%>
-                    <%= link_to (content_tag :i, '', :class => ('st_img_2 char ' + @student.image)), student_path(@student.id)%>
-                <%end%>
-                <%else%>
-                <%=  link_to (image_tag ("default_70x70.png"), :size => "70x70", :class => "st_img"), student_path(@student.id) if @student.image.blank?%>
+                    <%=  link_to (image_tag ("default_70x70.png"), :size => "70x70", :class => "st_img"), student_path(@student.id) if @student.image.blank?%>
                 <%end%>
                 <%= link_to 'Account',  student_path(@student.id), :class => 'plate' %>
             </li>
@@ -24,31 +24,24 @@
             <li class='shelf_li'> 
                 <div class="btn-group"> 
                     <!-- <button class="btn btn-success dropdown-toggle dropdown-toggle2" data-toggle="dropdown" > -->
-                    <%= link_to "","#", :class => "btn btn-success dropdown-toggle dropdown-toggle2", :id => "notifications", :data => {:toggle => "dropdown"}, remote: :true %>
+                    <%= link_to "", student_notifications_path(@student), id: "notifications", :class => "btn btn-success dropdown-toggle2", :id => "notifications",  remote: :true, :data => { :toggle => "dropdown-toggle2" } %>
                         <span class="caret" style='margin-left:16px'></span>
-                    </button>
+                    
                     <div id='news'>
-                        <%= render  "students/notifications" %>
+                        <%#= render  "students/notifications" %>
                     </div>    	
                 </div>
             </li>
-            <li class='shelf_li'>
-                <%= render "shared/badge_2", :shape => 1, :shape_name => "tetrahedron", :student => @student, :plate_class => "plate", :ajax => false %>
-            </li>
-            <li class='shelf_li'>
-                <%= render "shared/badge_2", :shape => 2, :shape_name => "cube", :student => @student, :plate_class => "plate", :ajax => false %>
-            </li>
-            <li class='shelf_li'>
-                <%= render "shared/badge_2", :shape => 3, :shape_name => "octahedron", :student => @student, :plate_class => "plate", :ajax => false %>
-            </li>
-            <li class='shelf_li'>
-                <%= render "shared/badge_2", :shape => 4, :shape_name => "dodecahedron", :student => @student, :plate_class => "plate", :ajax => false %>
-            </li>
-            <li class='shelf_li'>
-                <%= render "shared/badge_2", :shape => 5, :shape_name => "icosahedron", :student => @student, :plate_class => "plate", :ajax => false %>
-            </li>
+            <%- ["tetrahedron", "cube", "octahedron", "dodecahedron", "icosahedron"].each_with_index do |_shape, _index| -%>
+                <%- _index += 1 -%>
+                <li class="shelf_li">
+                    <%= render "shared/badge_2", :level => _index, :shape_name => _shape, :student => @student, :plate_class => "plate", :ajax => false %>    
+                </li>
+            <%- end -%>
+
+            
             <li class='shelf_li'><a href="javascript:;" id="open-walkthrough"><img src='/assets/Help.png' style='border-radius:50%'/></a></li>
-            <li class='shelf_li'><%=link_to raw("<img src='/assets/discussion.png'/>"), classroom_path(@student.classrooms.last.id), :id => 'discussion_p'%></li>
+            <li class='shelf_li'><%=link_to raw("<img src='/assets/discussion.png'/>"), classroom_path(@classroom), :id => 'discussion_p'%></li>
         </ul>
     </div>
     <div id="badgeModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
