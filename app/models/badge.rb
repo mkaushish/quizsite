@@ -263,18 +263,7 @@ class Badge < ActiveRecord::Base
     def update_badges_counters_for_student
         student = self.student
         _levels = student.badges.pluck(:level)
-        case self.level
-            when 1
-                student.badges_level_1_count = _levels.count(1)
-            when 2
-                student.badges_level_2_count = _levels.count(2)
-            when 3
-                student.badges_level_3_count = _levels.count(3)
-            when 4
-                student.badges_level_4_count = _levels.count(4)
-            when 5
-                student.badges_level_5_count = _levels.count(5)
-        end
+        student["badges_level_#{self.level}_count"] = _levels.count(self.level)
         student.save
     end
 end

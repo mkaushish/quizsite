@@ -39,16 +39,13 @@ class ProblemSetInstance < ActiveRecord::Base
 
 		@tmpstats = []
 		# existing stats are for problems a student has already done
-		existing_stats = problem_set_stats.includes(:problem_stat).includes(:problem_type)
-																			.order("problem_type_id ASC")
+		existing_stats = problem_set_stats.includes(:problem_stat, :problem_type).order("problem_type_id ASC")
 
 		# we merge these with new stats (without saving them), for problem types that are in the problem set
 		# but that the student has yet to attempt
 		all_ptypes = problem_types.order("id ASC")
 
-		problem_stats = user.problem_stats
-												.where(:problem_type_id => all_ptypes.map(&:id))
-												.order("problem_type_id ASC")
+		problem_stats = user.problem_stats.where(:problem_type_id => all_ptypes.map(&:id)).order("problem_type_id ASC")
 		j, k = 0, 0
 		all_ptypes.length.times do |i|
 			next_stat = nil

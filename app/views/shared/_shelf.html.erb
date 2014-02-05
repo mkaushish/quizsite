@@ -24,11 +24,10 @@
             <li class='shelf_li'> 
                 <div class="btn-group"> 
                     <!-- <button class="btn btn-success dropdown-toggle dropdown-toggle2" data-toggle="dropdown" > -->
-                    <%= link_to "", student_notifications_path(@student), id: "notifications", :class => "btn btn-success dropdown-toggle2", :id => "notifications",  remote: :true, :data => { :toggle => "dropdown-toggle2" } %>
-                        <span class="caret" style='margin-left:16px'></span>
-                    
+                    <%= link_to "", student_notifications_path(@student), :class => "btn btn-success dropdown-toggle dropdown-toggle2", :id => "notifications", :data => {:toggle => "dropdown", :target => "#"}, remote: :true %>
+                    <span class="caret" style='margin-left:16px'></span>
                     <div id='news'>
-                        <%#= render  "students/notifications" %>
+                        <%= render  "students/notifications" %>
                     </div>    	
                 </div>
             </li>

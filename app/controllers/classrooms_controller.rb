@@ -53,8 +53,10 @@ class ClassroomsController < ApplicationController
     end
 
     def show_problem_sets
+        @teacher = Teacher.find_by_id(params[:teacher_id])
         @classroom = Classroom.find_by_id(params[:classroom_id])
-        @classroom_problem_sets = @classroom.classroom_problem_sets.includes(:problem_set)
+        @classroom_problem_sets = @classroom.classroom_problem_sets.includes(:problem_set).select{|v| v.problem_set.user_id == nil}
+        @my_problem_sets = @classroom.classroom_problem_sets.includes(:problem_set).select{|v| v.problem_set.user_id == @teacher.id}
         respond_to do |format|
             format.html
         end

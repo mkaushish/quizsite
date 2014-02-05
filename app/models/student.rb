@@ -31,7 +31,7 @@ class Student < User
         if ptypes[0].is_a? Array
             ptypes_list = ptypes[0]
         end
-        answers.where(:problem_type_id => ptypes_list).order("created_at DESC").includes(:problem)
+        answers.where(problem_type_id: ptypes_list).includes(:problem_type).order("created_at DESC")
     end
 
     def change_password(old_pass, new_pass, confirm_pass)

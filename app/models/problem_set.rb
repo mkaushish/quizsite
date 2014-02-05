@@ -22,6 +22,8 @@ class ProblemSet < ActiveRecord::Base
 
 	before_validation :parse_ptype_params
 
+	after_create :assign_problem_set_to_teacher_classrooms
+
 	def assign(user)
 		instance = problem_set_instances.build(:user_id => user.id)
 		# instance.num_blue = instance.problem_stats.blue.count
@@ -129,5 +131,14 @@ class ProblemSet < ActiveRecord::Base
 			self.problem_types = ProblemType.where(id: @ptype_params.keys)
 	  	end
 	  	self
+	end
+
+	def assign_problem_set_to_teacher_classrooms
+		teacher = self.owner
+		unless teacher.blank?
+			teacher.classrooms.each do |classroom|
+				classroom.classroom_problem_sets.create( problem_set_id: self.id, active: false )
+			end
+		end
 	end
 end

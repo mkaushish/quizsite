@@ -1,6 +1,6 @@
 class AddColumnColorStatusToProblemStats < ActiveRecord::Migration
   	def self.up
-    	add_column :problem_stats, :color, :string, default: "yellow"
+    	add_column :problem_stats, :color, :string, default: "red"
 
     	ProblemStat.reset_column_information
   	end

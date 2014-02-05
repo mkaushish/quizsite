@@ -7,10 +7,9 @@
   	<p>
   		<small>
   			<span class="label label-info correct_hist" style="background-color:transparent"><%= @true %></span> 
-        <span class="label label-info incorrect_hist" style="background-color:transparent"><%= @false %></span> 
+        	<span class="label label-info incorrect_hist" style="background-color:transparent"><%= @false %></span> 
   		</small><br />
       <%= ptype.to_s %>
   	</p>
-	 
-  <%= link_to "Start", pset_do_path(:name => @instance.problem_set_id, :pid => ptype.id, :random => false), :remote => true %>
+	<%= link_to "Start", pset_do_path(:name => @instance.problem_set_id, :pid => ptype.id, :random => false), :remote => true %>
 </div>
