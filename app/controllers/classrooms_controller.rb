@@ -9,7 +9,8 @@ class ClassroomsController < ApplicationController
     def show
         @topics = @classroom.topics.includes(:user)
         @topic = Topic.new
-        #@comments = @classroom.comments.includes(:user).order("created_at DESC")
+        @recent_topics = @topics.order("created_at DESC").limit(5)
+        @recent_comments = @classroom.comments.includes(:user).order("created_at DESC").limit(5)
         #@comment = Comment.new
         if current_user.is_a? Student and current_user.classrooms.include? @classroom
             @student = current_user

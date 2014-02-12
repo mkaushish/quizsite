@@ -7,9 +7,9 @@
 	</thead>
 	<tbody id="topics_list">
 		<%- unless topics.blank? -%>
-		<%- topics.each do |topic| -%>
-				<%= render 'topics/topic', :topic => topic, :user => user, :classroom_id => classroom_id %>
-		<%- end -%>
+			<%- topics.each do |topic| -%>
+					<%= render 'topics/topic', :topic => topic, :user => user, :classroom_id => classroom_id %>
+			<%- end -%>
 		<%- else -%>
 			<tr class='tpc'>
 				<td class="span6">No Current Posts</td>
