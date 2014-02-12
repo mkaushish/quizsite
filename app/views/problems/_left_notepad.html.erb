@@ -1,0 +1,19 @@
+    <div class="calculations" style="position:relative;">
+      <div class="np_head">
+        <h1>Notes</h1>
+        <div id="drawnp" class="tbicons">
+          <i class="icon-pencil"></i>
+        </div>
+        <input type="color" id="npcolorpicker"></input>
+      </div>
+      <div id="note" style="position:relative">
+        <div id="npPane" style="position:absolute; top:0px; left:0px; width:370px;"></div>
+        <canvas id="notepad" height=222px width=346px border=2px>
+        Your browser does not support the HTML5 Canvas feature. This app uses new HTML5 features and will only work on the latest versions of Firefox, Safari or Chrome (and maybe Internet Explorer 9).
+        </canvas>
+        <input type="text" id="notes" maxlength=41 style="background-color:transparent; position:absolute; height:15px; left:0px; top:13px; width:338px">
+      </div>
+      <% if @answer!=nil %>
+      <%= hidden_field_tag 'npstr', @answer.notepad %>
+      <% end %>
+    </div>

@@ -1,15 +1,16 @@
-<div class="row-fluid">
-	<div class="span3">
-		<div id="timer" class="span4" style="border: 1px solid">
+<div class="row-fluid" style='text-align:center'>
+		<div id="timer">
 			<span id="highlightCountdown"></span>
 		</div>
-	</div>
+</div>
 
-	<div class="span7" id="problem_overlay"><%= render 'do_problem_quiz_type_2' %></div>
+	<div id="problem_overlay" style='text-align:center'><%= render 'do_problem_quiz_type_2' %></div>
 	
 	<div class="span2">
-		<%= link_to 'Submit Quiz', finish_quiz_type_2_path(@quiz, @quiz_instance), :id => 'finish_quiz', :class => 'button-blue', :confirm => "Your Quiz isn't completed yet. Do you still want to submit?" unless @remaining == 1 %>
+		
+		<%#= link_to 'Submit Quiz', finish_quiz_type_2_path(@quiz, @quiz_instance), :id => 'finish_quiz', :class => 'button-blue', :confirm => "Your Quiz isn't completed yet. Do you still want to submit?" unless @remaining == 1 %>
 	</div>
+
 </div>
 
 <script type="text/javascript">
@@ -20,8 +21,8 @@
 				onTick: highlightLast10, 
 				format: 'HMS', 
 				compact: true, 
-				layout: '<b>{hnn}{sep}{mnn}{sep}{snn}</b> {desc}', 
-				description: 'to over'});
+				layout: '<b>Time Remaining: {hnn}{sep}{mnn}{sep}{snn}</b> {desc}', 
+				description: ''});
 		$('#highlightCountdown').countdown('option', {until: _remaining_time});
      
 		function highlightLast10(periods) { 

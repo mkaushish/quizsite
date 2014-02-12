@@ -12,7 +12,7 @@ function addingForm(name, n1, n2, sign){
   ht+="</tr>\n"
     ht+="<tr>\n"
     for(i=0; i<lt-n2.length; i++){
-      if(i==0){	
+      if(i==0){
         ht+="<td>"+sign+"</td>\n";
       }
       else {ht+="<td> </td>\n";}

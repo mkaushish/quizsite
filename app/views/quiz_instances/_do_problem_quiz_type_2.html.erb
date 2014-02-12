@@ -1,37 +1,48 @@
-<h2>Quiz</h2>
+<% color=['#1abc9c', '#c3325f', '#c3325f', '#16a085', '#f1c40f', '#f39c12', '#27ae60', '#e67e22', '#d35400', '#2980b9', '#e74c3c', '#c0392b', '#9b59b6', '#8e44ad'] %>
 
 <div class='row-fluid problem_body'>
-	<%= @counter += 1 %><%= " of " %> <%= @quiz.quiz_problems.count %>
-  	
+	<%=  "Questions Remaining: " %> <%= @remaining %>
+  	<%=render 'shared/perfect_shapes' %>
     <%= form_tag finish_quiz_problem_type_2_path(@quiz, @quiz_instance), method: :post, id: "problem_form", autocomplete: :off do %>
     	
         <%= hidden_field_tag 'stat_id', @stat.id.to_s %>
         
 		<br /><br />
+        <div class='pro_quiz' style='text-align:left; max-width:720px; margin-left:auto; margin-right:auto; border: 5px solid <%= color.sample %>'>
 		<%= render 'problems/nameless_form', :@problem => @problem %>
+    </div>
         <br />
     	
         <div class"row-fluid">
             <% unless @remaining == 1 %>
-                <%= link_to "Submit", "javascript: void(0);", :class => 'button-blue', id: "submit_with_html" %>
+                <%= link_to raw("<button class='button-blue new-quiz-btn'>Submit</button>"), "javascript: void(0);", id: "submit_with_html", :style => 'padding-top:10px' %>
                 
-                <%= submit_tag "Submit And Pause", :class => 'button-blue' %>
+                <%= submit_tag "Submit And Pause", :class => 'new-quiz-btn button-blue', :style => 'height:80px'%>
 
-                <%= link_to "Skip this Question for 50 points", skip_question_path(@quiz, @quiz_instance, stat_id: @stat.id.to_s, pause: "false"), remote: :true,  :class => 'button-blue' %>
+
+                <%= link_to raw("<button class='button-blue new-quiz-btn'>Skip this Question for 50 points</button>"), skip_question_path(@quiz, @quiz_instance, stat_id: @stat.id.to_s, pause: "false"), remote: :true %>
                 
-                <%= link_to "Skip this Question for 50 points and pause", skip_question_path(@quiz, @quiz_instance, stat_id: @stat.id.to_s, pause: "true"), :class => 'button-blue' %>
+                <%= link_to raw("<button class='button-blue new-quiz-btn'>Skip this Question for 50 points and pause</button>"), skip_question_path(@quiz, @quiz_instance, stat_id: @stat.id.to_s, pause: "true") %>
             <% else %>
                 <%= submit_tag "Submit Quiz", :class => 'button-blue' %>                
             <% end %>
         </div>
+                
     <% end %>
-</div>
 
-<% if @problem.problem.has_notepad? %>
-    <div class='row-fluid calculations'>
-        <%= render 'problems/side_notepad' %>
+</div>
+<div class='np_quiz' style='height:500px;'>
+<div style='max-width:720px; margin-left:auto; margin-right:auto; margin-top:30px;'>
+        <%= render 'problems/left_notepad', :@answer => @answer %>
+        <%= render 'notepad/calculator' %>
     </div>
-<% end %>
+    <script> notepad_new(); </script>
+<script>
+  $(function(){
+    $('#note').jScrollPane({hideFocus:true});
+  });
+</script>
+</div>
 
 <script type="text/javascript">
     

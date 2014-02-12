@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140202191227) do
+ActiveRecord::Schema.define(:version => 20140128064835) do
 
   create_table "answers", :force => true do |t|
     t.boolean  "correct"
@@ -62,7 +62,7 @@ ActiveRecord::Schema.define(:version => 20140202191227) do
     t.datetime "updated_at"
     t.datetime "starts_at"
     t.datetime "ends_at"
-    t.boolean  "active"
+    t.boolean  "active",         :default => true
   end
 
   create_table "classroom_quizzes", :force => true do |t|
@@ -169,7 +169,7 @@ ActiveRecord::Schema.define(:version => 20140202191227) do
   create_table "problem_set_instances", :force => true do |t|
     t.integer  "user_id"
     t.integer  "problem_set_id"
-    t.datetime "stop_green",     :default => '2013-11-16 05:34:23', :null => false
+    t.datetime "stop_green",     :default => '2014-02-04 05:01:47', :null => false
     t.integer  "num_red",        :default => 0
     t.integer  "num_green",      :default => 0
     t.integer  "num_blue",       :default => 0
@@ -218,7 +218,7 @@ ActiveRecord::Schema.define(:version => 20140202191227) do
     t.integer  "points",          :default => 0,                     :null => false
     t.integer  "points_wrong",    :default => 0,                     :null => false
     t.integer  "points_right",    :default => 100,                   :null => false
-    t.datetime "stop_green",      :default => '2013-11-16 05:34:23', :null => false
+    t.datetime "stop_green",      :default => '2014-02-04 05:01:47', :null => false
     t.integer  "points_required", :default => 500
     t.datetime "created_at",                                         :null => false
     t.datetime "updated_at",                                         :null => false
@@ -318,12 +318,12 @@ ActiveRecord::Schema.define(:version => 20140202191227) do
 
   create_table "topics", :force => true do |t|
     t.string   "title"
+    t.text     "description"
     t.integer  "user_id"
     t.integer  "classroom_id"
     t.integer  "comments_count", :default => 0
     t.datetime "created_at",                    :null => false
     t.datetime "updated_at",                    :null => false
-    t.text     "description"
   end
 
   create_table "users", :force => true do |t|
