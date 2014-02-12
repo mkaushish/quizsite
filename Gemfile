@@ -14,6 +14,7 @@ gem 'google_visualr'
 gem 'roo'
 gem 'iconv'
 gem 'mathjax-rails'
+gem 'delayed_job_active_record'
 
 
 group :test, :development do
@@ -38,10 +39,6 @@ group :development do
     gem 'hirb'
     gem 'zeus'
     gem "mailcatcher", "~> 0.5.12"
-end
-
-group :development, :production do
-    gem 'delayed_job_active_record'
 end
 
 group :assets do

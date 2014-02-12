@@ -19,15 +19,15 @@
         <span class="student_class_password"><%= classroom.student_password %></span><p style="display: inline-block;"><small>Password for Students</small></p><br>
         <span class="teacher_class_password"><%= classroom.teacher_password %></span><p style="display: inline-block;"><small>Password for Teachers</small></p>
         <br>
-        <span class="students_count" style="display: inline-block;"><%= students_count = classroom.students.count %></span>
+        <span class="students_count" style="display: inline-block;"><%= students_count = classroom.students_count %></span>
         <% if students_count == 0 %>
             <p style="display: inline-block;"><small>Give your students the seven letter / number password in the box above so they can join your online classroom. </small></p>
         <% else %>
             <p style="display: inline-block;"><small>Students</small></p>
         <% end %>
-        <%= classroom.quizzes.count %>
+        <%= classroom.quizzes_count %>
         <p style="display: inline-block;"><small>Quizzes</small></p>
-        <%= classroom.problem_sets.count %>
+        <%= classroom.problem_sets_count %>
         <p style="display: inline-block;"><small>Problem Sets</small></p>
     </div>
 </div>

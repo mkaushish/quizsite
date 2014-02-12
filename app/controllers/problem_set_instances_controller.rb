@@ -10,7 +10,7 @@ class ProblemSetInstancesController < ApplicationController
         @classroom = @student.classrooms.first
         @stats = @instance.stats
         @sessions = []
-        @history                = @student.problem_history(@problem_set.problem_types.pluck(:id)).limit(11)
+        @history = @student.problem_history(@problem_set.problem_types.pluck(:id)).limit(11)
         @quiz = @student.all_quizzes(@classroom, @problem_set) if @instance.blue?
         @random_stat = @stats.sample
         @random_problem_type = @random_stat.problem_type_id
@@ -49,8 +49,8 @@ class ProblemSetInstancesController < ApplicationController
             @solution = @problem.prefix_solve
             @response = @answer.response_hash
             @changedPoints = @answer.points
-            @student.create_badges(@instance.problem_set, @stat.problem_type.id)
-            @all_badges = @student.all_badges
+            @student.delay.create_badges(@instance.problem_set, @stat.problem_type.id)
+            # @all_badges = @student.all_badges
             @comments = @answer.comments.includes(:user)
             @comment = Comment.new
            

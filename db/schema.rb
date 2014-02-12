@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140204093620) do
+ActiveRecord::Schema.define(:version => 20140206112610) do
 
   create_table "answers", :force => true do |t|
     t.boolean  "correct"
@@ -86,8 +86,17 @@ ActiveRecord::Schema.define(:version => 20140204093620) do
     t.integer  "teacher_id"
     t.string   "student_password"
     t.string   "teacher_password"
-    t.datetime "created_at",       :null => false
-    t.datetime "updated_at",       :null => false
+    t.datetime "created_at",                          :null => false
+    t.datetime "updated_at",                          :null => false
+    t.integer  "badges_level_1_count", :default => 0
+    t.integer  "badges_level_2_count", :default => 0
+    t.integer  "badges_level_3_count", :default => 0
+    t.integer  "badges_level_4_count", :default => 0
+    t.integer  "badges_level_5_count", :default => 0
+    t.integer  "badges_count",         :default => 0
+    t.integer  "students_count"
+    t.integer  "problem_sets_count"
+    t.integer  "quizzes_count"
   end
 
   add_index "classrooms", ["name"], :name => "index_classrooms_on_name", :unique => true
@@ -112,9 +121,9 @@ ActiveRecord::Schema.define(:version => 20140204093620) do
   end
 
   create_table "delayed_jobs", :force => true do |t|
-    t.integer  "priority",   :default => 0
-    t.integer  "attempts",   :default => 0
-    t.text     "handler"
+    t.integer  "priority",   :default => 0, :null => false
+    t.integer  "attempts",   :default => 0, :null => false
+    t.text     "handler",                   :null => false
     t.text     "last_error"
     t.datetime "run_at"
     t.datetime "locked_at"

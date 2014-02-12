@@ -2,7 +2,7 @@ require 'digest'
 
 class Classroom < ActiveRecord::Base
     
-    attr_accessible :name, :student_password, :teacher_password
+    attr_accessible :name, :student_password, :teacher_password, :badges_level_1_count, :badges_level_2_count, :badges_level_3_count, :badges_level_4_count, :badges_level_5_count, :badges_count, :students_count, :problem_sets_count
     
     has_many :classroom_teachers, :dependent => :destroy
     has_many :teachers, :through => :classroom_teachers    
@@ -13,6 +13,8 @@ class Classroom < ActiveRecord::Base
     has_many :classroom_problem_sets, :dependent => :destroy
     has_many :problem_sets, :through => :classroom_problem_sets,
                             :order => 'classroom_problem_sets.created_at ASC'
+
+    has_many :classroom_problem_types, through: :problem_sets, source: :problem_types
     has_many :classroom_quizzes, :dependent => :destroy
     has_many :quizzes
 
@@ -27,6 +29,7 @@ class Classroom < ActiveRecord::Base
     
     validates :name, :presence => true
     
+    before_save  :update_counters_for_badges_acc_to_levels
     after_create :new_password
 
     def self.smarter_grades
@@ -119,7 +122,10 @@ class Classroom < ActiveRecord::Base
     def chart_over_all_students_answer_stats(start_time, end_time)
         chart_data = [['%correct','Number of Students']]
         temp = []
-        self.students.each do |student| 
+
+        # _problem_type_ids = self.classroom_problem_types.pluck(:id).uniq.sort
+        # answers_stats = student.answers.collect{|v| v.created_at >= start_time and v.created_at <= end_time }.collect{ |v| _problem_type_ids.include? v.problem_type_id }
+        self.students.includes(:answers).each do |student|
             answers_stats = student.total_correct_wrong_answers(start_time, end_time) 
             total_answers = answers_stats[0] 
             correct_answers = answers_stats[1] 
@@ -207,5 +213,14 @@ class Classroom < ActiveRecord::Base
         unless value == 0 or total == 0
             return ((value.to_f / total.to_f) * 100).to_f
         end
+    end
+
+    def update_counters_for_badges_acc_to_levels
+        _all_badges = Badge.all_badges(self)
+        
+        Badge.levels.each do |level|
+            self["badges_level_#{level.to_i}_count"] = _all_badges.count{ |v| v[2] == level.to_i }
+        end
+        self.badges_count = _all_badges.count
     end
 end

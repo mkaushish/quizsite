@@ -86,41 +86,50 @@ class Student < User
 
     def charts_combine
         # Percentage of correct answers by weekly
-        chart_data_1 = [['Weeks Ago','% correct']]
+        chart_data_1 = [['Weeks Ago','Correct Percentage']]
         # Percentage of wrong answers by Chapter
         chart_data_2 = [['Chapters','Wrong Answers']]
         # Student performance chart by each problem set correct percentage 
         chart_data_3 = [['Chapters','Correct Percentage']]
         # Questions done in the particular week 
         chart_data_4 = [['Weeks Ago','Questions Done']]
-        i=51 
-        
+        # Student performance chart by each problem type correct percentage 
+        chart_data_5 = [['Problem Types','Correct Percentage']]
+
+        i = self.get_weeks_count 
+        total_weeks = i
         while i >= 0 do 
-            time_range = ( date_of_last( "Monday", (i+1).weeks.ago )..date_of_last( "Monday", i.weeks.ago )) 
-            answers = self.answers_correct_in_time_range(time_range.first, time_range.last)            
+            # time_range = ( date_of_last( "Monday", (i+1).weeks.ago )...date_of_last( "Monday", i.weeks.ago )) 
+            answers = self.answers_correct_in_time_range( ( i ).weeks.ago.beginning_of_week, ( i ).weeks.ago.end_of_week )            
             ans_right = answers.select{ |v| v == true }.count 
             ans_wrong = answers.select{ |v| v == false }.count 
             total_answers = answers.count 
             if total_answers == 0 
-                chart_data_1.push( [(i+1).to_s, 0] ) 
+                chart_data_1.push( [ "Week " + ( total_weeks - i + 1 ).to_s, 0 ] ) 
             else 
-                chart_data_1.push( [(i+1).to_s, (ans_right*100) / (total_answers)]) 
+                chart_data_1.push( [ "Week " + ( total_weeks - i + 1 ).to_s, ( ans_right * 100 ) / ( total_answers ) ] ) 
             end 
-                chart_data_4.push([(i+1).to_s, total_answers])    
-            i = i-1 
+                chart_data_4.push( [ "Week " + ( total_weeks - i + 1 ).to_s, total_answers ] )    
+            i = i - 1 
         end  
-        
+        _problem_type_answers = []
         self.problem_set_instances.each do |pset_instance| 
-            answers = pset_instance.total_correct_wrong_problem_set_instance_answers
-            total_answers = answers[0]
-            ans_right = answers[1]
-            ans_wrong = answers[2]
+            answers = pset_instance.answers.find( :all , select: [ :correct, :problem_type_id ], order: :problem_type_id , :include => :problem_type).map{ |v| [ v.problem_type_id, v.problem_type.name, v.correct ] }
+            total_answers   = answers.count
+            ans_right       = answers.count{ |v| v[2] == true }
+            ans_wrong       = answers.count{ |v| v[2] == false }
+
+
             if (total_answers) > 0   
                 chart_data_3.push([pset_instance.name, (ans_right * 100) / (total_answers)]) 
+                _problem_type_answers.push answers
             end   
-                chart_data_2.push([pset_instance.name, ans_wrong])
+            chart_data_2.push([pset_instance.name, ans_wrong])
         end
-        return [chart_data_1, chart_data_2, chart_data_3, chart_data_4]
+        _problem_type_answers = _problem_type_answers.flatten(1)
+        _problem_type_ids = _problem_type_answers.collect{ |v| v[0] }.uniq
+        _problem_type_ids.each { |problem_type_id| chart_data_5.push [_problem_type_answers.select{ |u| u[0] == problem_type_id }.first[1], ( ( _problem_type_answers.select{ |u| u[0] == problem_type_id }.count{ |u| u[2] == true } * 100 ) / _problem_type_answers.select{ |u| u[0] == problem_type_id }.count ) ]}
+        return [chart_data_1, chart_data_2, chart_data_3, chart_data_4, chart_data_5]
     end
     
     def total_correct_wrong_answers(start_time, end_time)
@@ -131,8 +140,8 @@ class Student < User
         else
             answers = self.answers_correct
         end
-        correct_answers = answers.select{|v| v == true }.count 
-        wrong_answers = answers.select{|v| v == false }.count 
+        correct_answers = answers.count{ |v| v == true }
+        wrong_answers = answers.count{ |v| v == false }
         total_answers = answers.count 
         return [total_answers, correct_answers, wrong_answers]     
     end
@@ -172,16 +181,16 @@ class Student < User
 
     def problem_set_instances_num_problem_problem_stats_blue
         result = Array.new
-        self.problem_set_instances.order("id").includes(&:problem_stats).each do |pset_instance|
-           result = result.push [(pset_instance.name), (pset_instance.num_problems - pset_instance.problem_stats.blue.count == 0), (pset_instance.num_problems - pset_instance.problem_stats.blue.count), (pset_instance.stop_green)]
+        self.problem_set_instances.order("id").includes(:problem_set, :problem_stats).each do |pset_instance|
+           result = result.push [(pset_instance.name), (pset_instance.num_problems - pset_instance.num_blue == 0), (pset_instance.num_problems - pset_instance.num_blue), (pset_instance.stop_green)]
         end
         return result
     end
 
     def problem_types_blue_name
         problem_type_name = Array.new
-        self.problem_set_instances.order("id").each do |pset_instance|
-            pset_instance.problem_stats.blue.each do |problem_stat|
+        self.problem_set_instances.order("id").includes(:problem_stats).each do |pset_instance|
+            pset_instance.problem_stats.includes(:problem_type).blue.each do |problem_stat|
                 problem_type_name = problem_type_name.push problem_stat.problem_type.name
             end
         end
@@ -219,6 +228,20 @@ class Student < User
     def is_assigned?(problem_set_id)
         self.problem_sets.pluck(:problem_set_id).include?(problem_set_id.to_s)
     end
+
+    def get_weeks_count
+        _created_at = self.created_at.to_date
+        _created_at_week = _created_at.cweek
+        _weeks = 52-_created_at_week
+        _time_now_week = Time.now.utc.to_date.cweek
+        _year_diff = Time.now.utc.to_date.year - _created_at.year
+        unless _year_diff == 1
+            _weeks += (_year_diff - 1) * 52
+        end
+        _weeks += _time_now_week
+        return _weeks
+    end
+
     private
 
     def assign_class
@@ -228,9 +251,9 @@ class Student < User
         @class.assign!(self)
     end
 
-    def date_of_last(day,date)
-        newdate  = Date.parse(day)
-        delta = newdate > date.to_date ? 0 : 7
-        newdate + delta - 7
-    end
+    # def date_of_last(day,date)
+    #     newdate  = Date.parse(day)
+    #     delta = newdate > date.to_date ? 0 : 7
+    #     newdate + delta - 7
+    # end
 end
