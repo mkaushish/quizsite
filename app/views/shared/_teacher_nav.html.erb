@@ -1,0 +1,18 @@
+<%= render 'shared/analytics' %>
+<div class="navbar">
+  <div class="navbar-inner">
+    <div><%= link_to (render "/shared/logo_2"), root_path %></div>
+    <ul class="nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#">Link</a></li>
+      <li><a href="#">Link</a></li>
+    </ul>
+  </div>
+</div>
+
+<div class="container <%= 'not_log_in' if !signed_in? %>">
+  <div class='row-fluid'>
+    <div><%= link_to (render "/shared/logo_2"), root_path %></div>
+    <%= render nav_elts_path %>
+  </div>
+</div>

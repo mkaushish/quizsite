@@ -3,7 +3,7 @@ class Teacher < User
   has_many :homeworks, :foreign_key => 'user_id'
   has_many :classroom_teachers, :dependent => :destroy
   
-  has_many :classrooms, :through => :classroom_teachers
+  has_many :classrooms, :through => :classroom_teachers, order: "id ASC"
   has_many :problem_sets, :foreign_key => 'user_id'
 
   has_many :merits_given, :class_name => "Badge"

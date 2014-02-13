@@ -5,11 +5,13 @@ class StudentsController < ApplicationController
     before_filter :validate_student_via_current_user, :only => [:home, :edit]
 
     def home
-        @pset_instances = @student.problem_set_instances.order("problem_set_id ASC").includes(:problem_stats, :problem_set, :problem_set_problems)
-        @active_problem_set_ids = @student.classrooms.first.classroom_problem_sets.only_active.pluck(:problem_set_id)
-        @pset_instances = @pset_instances.select {|v| @active_problem_set_ids.include? v.problem_set_id }
-        @history = current_user.answers.order("created_at DESC").limit(11)
-        @all_badges = @student.all_badges
+        @pset_instances         = @student.problem_set_instances.order("problem_set_id ASC").includes(:problem_set)
+        @classroom              = @student.classrooms.first
+        @active_problem_set_ids = @classroom.classroom_problem_sets.only_active.pluck(:problem_set_id)
+        @history                = @student.answers.limit(11).includes(:problem_type).order("created_at DESC")
+        @pset_instances         = @pset_instances.select {|v| @active_problem_set_ids.include? v.problem_set_id }
+        
+        # @all_badges = @student.all_badges
     end
     
     def badges
@@ -87,6 +89,8 @@ class StudentsController < ApplicationController
         @chart_data_2 = charts_data[1]
         @chart_data_3 = charts_data[2]
         @chart_data_4 = charts_data[3]
+        @chart_data_5 = charts_data[4]
+        @chart_data_6 = charts_data[5]
     end   
     
     def problemset_chart

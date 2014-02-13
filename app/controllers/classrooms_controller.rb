@@ -9,7 +9,8 @@ class ClassroomsController < ApplicationController
     def show
         @topics = @classroom.topics.includes(:user)
         @topic = Topic.new
-        #@comments = @classroom.comments.includes(:user).order("created_at DESC")
+        @recent_topics = @topics.order("created_at DESC").limit(5)
+        @recent_comments = @classroom.comments.includes(:user).order("created_at DESC").limit(5)
         #@comment = Comment.new
         if current_user.is_a? Student and current_user.classrooms.include? @classroom
             @student = current_user
@@ -53,8 +54,10 @@ class ClassroomsController < ApplicationController
     end
 
     def show_problem_sets
+        @teacher = Teacher.find_by_id(params[:teacher_id])
         @classroom = Classroom.find_by_id(params[:classroom_id])
-        @classroom_problem_sets = @classroom.classroom_problem_sets.includes(:problem_set)
+        @classroom_problem_sets = @classroom.classroom_problem_sets.includes(:problem_set).select{|v| v.problem_set.user_id == nil}
+        @my_problem_sets = @classroom.classroom_problem_sets.includes(:problem_set).select{|v| v.problem_set.user_id == @teacher.id}
         respond_to do |format|
             format.html
         end

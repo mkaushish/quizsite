@@ -1,25 +1,25 @@
 <div class="row-fluid">
-  <h2>Assign a Problem Set to class <%= @classroom.name %></h2>
+	<h2>Assign a Problem Set to class <%= @classroom.name %></h2>
 </div>
 <div class="row-fluid">
-  <div class="span6">
-    <ul class="column-list overlay_list">
-      <li class="list-header">SmarterGrades Sets</li>
-      <% @sg_psets.each do |pset| %>
-        <li id="assign_btn_<%= pset.id %>">
-            <%= render "assign_btns", :pset => pset, :@assigned_problem_sets => @assigned_problem_sets, :@classroom => @classroom %>
-        </li>
-      <% end %>
-    </ul>
-  </div>
-  <div class="span6">
-    <ul class="column-list overlay_list">
-      <li class="list-header">My Problem Sets</li>
-      <% @my_psets.each do |pset| %>
-        <li id="assign_btn_<%= pset.id %>">
-            <%= render "assign_btns", :pset => pset, :@assigned_problem_sets => @assigned_problem_sets, :@classroom => @classroom %>
-        </li>
-      <% end %>
-    </ul>
-  </div>
+	<div class="span6">
+		<h2>SmarterGrades Problem Sets</h2>  
+		<ul class="column-list overlay_list">
+			<% @sg_psets.each do |pset| %>
+				<li id="assign_btn_<%= pset.id %>">
+					<%= render "assign_btns", :pset => pset, :@assigned_problem_sets => @assigned_problem_sets, :@classroom => @classroom %>
+				</li>
+			<% end %>
+		</ul>
+	</div>
+	<div class="span6">
+		<h2>My Problem Sets</h2>	
+		<ul class="column-list overlay_list">
+			<% @my_psets.each do |pset| %>
+				<li id="assign_btn_<%= pset.id %>">
+					<%= render "assign_btns", :pset => pset, :@assigned_problem_sets => @assigned_problem_sets, :@classroom => @classroom %>
+				</li>
+			<% end %>
+		</ul>
+	</div>
 </div>

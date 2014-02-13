@@ -1,4 +1,4 @@
-<%= render 'shared/shelf', :@student => current_user, :@badges => @badges, :@all_badges => @all_badges %>
+<%= render 'shared/shelf', :@student => current_user, :@badges => @badges %>
 
 <% unless @quiz.blank? %>
     <div class='btn-group'>
@@ -38,12 +38,12 @@
     </div>
 </div>
 
-<% @a = @stats.map(&:color_status) %>
 <% @total = @instance.num_problems %>
-
-<% @blue  = percentage(@a.count("green"), @total) %>
-<% @green = percentage(@a.count("yellow"), @total) %>
+<% @blue  = percentage(@instance.num_blue, @total) %>
+<% @green = percentage(@instance.num_green, @total) %>
 <% @red   = 100.0 - @blue - @green %>
+
+
 <script>dbord(["<%=@blue%>","<%=@green%>","<%=@red%>"]);
 </script>
 <!-- it should be like this -->

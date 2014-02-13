@@ -1,28 +1,28 @@
 <div class="row-fluid">
-  <%= link_to "Create Problem Set", new_problem_set_path(@teacher), :class => "btn pull-right" %>              
+	<%= link_to "Create Problem Set", new_problem_set_path(@teacher), :class => "btn pull-right" %>              
 </div>
 <div class="row-fluid">
-  <div class="span6">
-    <ul class="column-list overlay_list">
-      <li class="list-header">SmarterGrades Sets</li>
-      <% @sg_problem_sets.each do |problem_set| %>
-        <li><%= problem_set.name %>
-              <%#= link_to "View Problem Types", "#", :class => "btn pull-right", :remote => true %>              
-        </li>
-      <% end %>
-    </ul>
-  </div>
-  <div class="span6">
-    <ul class="column-list overlay_list">
-      <li class="list-header">My Problem Sets</li>
-      <% unless @my_problem_sets.blank? %>
-        <% @my_problem_sets.each do |problem_set| %>
-          <li><%= problem_set.name %>
-            <%#= link_to "View Problem Types", "#", :class => "btn pull-right", :remote => true %>
-            <%= link_to "Edit Problem Set", edit_teacher_problem_set_path(@teacher, problem_set), :class => "btn pull-right" %>              
-          </li>
-        <% end %>
-      <% end %>
-    </ul>
-  </div>
+	<div class="span6">
+		<ul class="column-list overlay_list">
+			<li class="list-header">SmarterGrades Sets</li>
+			<% @sg_problem_sets.each do |problem_set| %>
+				<li><%= problem_set.name %>
+					<%#= link_to "View Problem Types", "#", :class => "btn pull-right", :remote => true %>              
+				</li>
+			<% end %>
+		</ul>
+	</div>
+	<div class="span6">
+		<ul class="column-list overlay_list">
+			<li class="list-header">My Problem Sets</li>
+			<% unless @my_problem_sets.blank? %>
+				<% @my_problem_sets.each do |problem_set| %>
+					<li><%= problem_set.name %>
+						<%#= link_to "View Problem Types", "#", :class => "btn pull-right", :remote => true %>
+						<%= link_to "Edit Problem Set", edit_teacher_problem_set_path(@teacher, problem_set), :class => "btn pull-right" %>              
+					</li>
+				<% end %>
+			<% end %>
+		</ul>
+	</div>
 </div>

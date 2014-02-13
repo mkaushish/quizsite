@@ -13,7 +13,11 @@
         <%= yield :head %>
     </head>
     <body>
+        <% if current_user.is_a? Teacher %>  
+        <%= render 'shared/teacher_nav'%>
+        <%else%>
         <%= render 'shared/navbar'%>
+        <%end%>
         <div class="container <%= 'not_log_in' if !signed_in? %>">
             <% unless notice.nil? %>
                 <div class="alert alert-success">

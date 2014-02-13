@@ -1,10 +1,8 @@
-
-
-<ul class=column-list>
-	<% if @history.empty? %>
-	<li class='color_list_box'>Problems will show up here as you do them</li>
+<ul class="column-list">
+	<% if @history.blank? %>
+		<li class='color_list_box'>Problems will show up here as you do them</li>
 	<% else %>
-	<%= render :partial => 'history_ans', :collection => @history, :as => :answer%>
+		<%= render :partial => 'history_ans', :collection => @history, :as => :answer%>
 	<% end %>
 	<li class='color_list_box'><%= link_to 'Click for Detailed History', progress_student_path(@student.id) %></li>
 </ul>

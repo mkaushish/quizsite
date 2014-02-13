@@ -1,4 +1,4 @@
-<ul class="dropdown-menu">
+<ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
 	<% current_user.news_feeds.order("created_at DESC").each do |news_feed| %>
         	<li><%= news_feed.content %></li>
     <% end %>    	

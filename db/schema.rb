@@ -11,7 +11,8 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140128064835) do
+
+ActiveRecord::Schema.define(:version => 20140206112610) do
 
   create_table "answers", :force => true do |t|
     t.boolean  "correct"
@@ -86,8 +87,17 @@ ActiveRecord::Schema.define(:version => 20140128064835) do
     t.integer  "teacher_id"
     t.string   "student_password"
     t.string   "teacher_password"
-    t.datetime "created_at",       :null => false
-    t.datetime "updated_at",       :null => false
+    t.datetime "created_at",                          :null => false
+    t.datetime "updated_at",                          :null => false
+    t.integer  "badges_level_1_count", :default => 0
+    t.integer  "badges_level_2_count", :default => 0
+    t.integer  "badges_level_3_count", :default => 0
+    t.integer  "badges_level_4_count", :default => 0
+    t.integer  "badges_level_5_count", :default => 0
+    t.integer  "badges_count",         :default => 0
+    t.integer  "students_count"
+    t.integer  "problem_sets_count"
+    t.integer  "quizzes_count"
   end
 
   add_index "classrooms", ["name"], :name => "index_classrooms_on_name", :unique => true
@@ -112,9 +122,9 @@ ActiveRecord::Schema.define(:version => 20140128064835) do
   end
 
   create_table "delayed_jobs", :force => true do |t|
-    t.integer  "priority",   :default => 0
-    t.integer  "attempts",   :default => 0
-    t.text     "handler"
+    t.integer  "priority",   :default => 0, :null => false
+    t.integer  "attempts",   :default => 0, :null => false
+    t.text     "handler",                   :null => false
     t.text     "last_error"
     t.datetime "run_at"
     t.datetime "locked_at"
@@ -206,8 +216,10 @@ ActiveRecord::Schema.define(:version => 20140128064835) do
     t.integer  "user_id"
     t.text     "description"
     t.string   "video_link"
-    t.datetime "created_at",  :null => false
-    t.datetime "updated_at",  :null => false
+    t.datetime "created_at",                                 :null => false
+    t.datetime "updated_at",                                 :null => false
+    t.integer  "problem_set_problems_count",  :default => 0
+    t.integer  "problem_set_instances_count", :default => 0
   end
 
   create_table "problem_stats", :force => true do |t|
@@ -222,6 +234,7 @@ ActiveRecord::Schema.define(:version => 20140128064835) do
     t.integer  "points_required", :default => 500
     t.datetime "created_at",                                         :null => false
     t.datetime "updated_at",                                         :null => false
+    t.string   "color",           :default => "yellow"
   end
 
   add_index "problem_stats", ["user_id", "problem_type_id"], :name => "problem_stats_user_problem_type", :unique => true
@@ -328,13 +341,13 @@ ActiveRecord::Schema.define(:version => 20140128064835) do
 
   create_table "users", :force => true do |t|
     t.string   "name"
-    t.string   "email",                                 :null => false
+    t.string   "email",                                   :null => false
     t.string   "encrypted_password"
     t.string   "salt"
     t.binary   "pscores"
     t.string   "confirmation_code"
-    t.boolean  "confirmed",          :default => false
-    t.integer  "points",             :default => 0
+    t.boolean  "confirmed",            :default => false
+    t.integer  "points",               :default => 0
     t.string   "first_name"
     t.string   "last_name"
     t.string   "gender"
@@ -344,9 +357,15 @@ ActiveRecord::Schema.define(:version => 20140128064835) do
     t.string   "provider"
     t.string   "image"
     t.string   "confirmation_token"
-    t.datetime "created_at",                            :null => false
-    t.datetime "updated_at",                            :null => false
+    t.datetime "created_at",                              :null => false
+    t.datetime "updated_at",                              :null => false
     t.string   "type"
+    t.integer  "badges_level_1_count", :default => 0
+    t.integer  "badges_level_2_count", :default => 0
+    t.integer  "badges_level_3_count", :default => 0
+    t.integer  "badges_level_4_count", :default => 0
+    t.integer  "badges_level_5_count", :default => 0
+    t.integer  "badges_count",         :default => 0
   end
 
   add_index "users", ["email"], :name => "index_users_on_email", :unique => true

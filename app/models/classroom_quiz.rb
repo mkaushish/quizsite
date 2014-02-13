@@ -1,5 +1,5 @@
 class ClassroomQuiz < ActiveRecord::Base
-  belongs_to :classroom
+  belongs_to :classroom, counter_cache: :quizzes_count
   belongs_to :quiz
 
   after_create :send_news_feed_to_classroom_students
