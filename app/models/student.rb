@@ -95,21 +95,23 @@ class Student < User
         chart_data_4 = [['Weeks Ago','Questions Done']]
         # Student performance chart by each problem type correct percentage 
         chart_data_5 = [['Problem Types','Correct Percentage']]
+        # Percentage of correct answers by weekly(i + (i + 1) week)
+        chart_data_6 = [['Weeks Ago','Correct Percentage']]
 
         i = self.get_weeks_count 
         total_weeks = i
+        _ans_right, _total_ans = 0, 0
         while i >= 0 do 
-            # time_range = ( date_of_last( "Monday", (i+1).weeks.ago )...date_of_last( "Monday", i.weeks.ago )) 
             answers = self.answers_correct_in_time_range( ( i ).weeks.ago.beginning_of_week, ( i ).weeks.ago.end_of_week )            
             ans_right = answers.select{ |v| v == true }.count 
             ans_wrong = answers.select{ |v| v == false }.count 
             total_answers = answers.count 
-            if total_answers == 0 
-                chart_data_1.push( [ "Week " + ( total_weeks - i + 1 ).to_s, 0 ] ) 
-            else 
-                chart_data_1.push( [ "Week " + ( total_weeks - i + 1 ).to_s, ( ans_right * 100 ) / ( total_answers ) ] ) 
-            end 
-                chart_data_4.push( [ "Week " + ( total_weeks - i + 1 ).to_s, total_answers ] )    
+            _ans_right += ans_right
+            _total_ans += total_answers 
+                
+            ( total_answers == 0 ) ? chart_data_1.push( [ "Week " + ( total_weeks - i + 1 ).to_s, 0 ] ) : chart_data_1.push( [ "Week " + ( total_weeks - i + 1 ).to_s, ( ans_right * 100 ) / ( total_answers ) ] ) 
+            ( _total_ans == 0 ) ? chart_data_6.push( [ "Week " + ( total_weeks - i + 1 ).to_s, 0 ] ) : chart_data_6.push( [ "Week " + ( total_weeks - i + 1 ).to_s, ( _ans_right * 100 ) / ( _total_ans ) ] ) 
+            chart_data_4.push( [ "Week " + ( total_weeks - i + 1 ).to_s, total_answers ] )    
             i = i - 1 
         end  
         _problem_type_answers = []
@@ -118,7 +120,6 @@ class Student < User
             total_answers   = answers.count
             ans_right       = answers.count{ |v| v[2] == true }
             ans_wrong       = answers.count{ |v| v[2] == false }
-
 
             if (total_answers) > 0   
                 chart_data_3.push([pset_instance.name, (ans_right * 100) / (total_answers)]) 
@@ -129,7 +130,7 @@ class Student < User
         _problem_type_answers = _problem_type_answers.flatten(1)
         _problem_type_ids = _problem_type_answers.collect{ |v| v[0] }.uniq
         _problem_type_ids.each { |problem_type_id| chart_data_5.push [_problem_type_answers.select{ |u| u[0] == problem_type_id }.first[1], ( ( _problem_type_answers.select{ |u| u[0] == problem_type_id }.count{ |u| u[2] == true } * 100 ) / _problem_type_answers.select{ |u| u[0] == problem_type_id }.count ) ]}
-        return [chart_data_1, chart_data_2, chart_data_3, chart_data_4, chart_data_5]
+        return [chart_data_1, chart_data_2, chart_data_3, chart_data_4, chart_data_5, chart_data_6]
     end
     
     def total_correct_wrong_answers(start_time, end_time)

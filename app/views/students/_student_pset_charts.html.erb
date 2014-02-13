@@ -27,6 +27,10 @@
   <!-- <div id="chart_div_4" style="width: 95%; height: 550px;"><%#= render 'shared/google_visual_linechart', :array => @chart_data_4, :div => "chart_div_4", :title => "Student Performance" %></div> -->
   <!-- Chart ends -->
 
-  <!-- Student performance chart by each problem set correct percentage -->
+  <!-- Student performance chart by each problem type correct percentage  -->
   <div id="chart_div_5" style="width: 95%; height: 650px;"><%= render "shared/google_visual_barchart", :array => @chart_data_5, :div => "chart_div_5", :title => "Student Performance", :vAxis_title => "Problem Types" %></div>
   <!-- Chart ends -->
+
+  <!-- Percentage of correct answers by weekly(i + (i + 1) week) -->
+  <div id="chart_div_6" style="width: 95%; height: 550px;"><%= render "shared/google_visual_linechart", :array => @chart_data_6, :div => "chart_div_6", :title => "Student Performance" %></div>
+  <!-- chart end -->

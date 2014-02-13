@@ -90,6 +90,7 @@ class StudentsController < ApplicationController
         @chart_data_3 = charts_data[2]
         @chart_data_4 = charts_data[3]
         @chart_data_5 = charts_data[4]
+        @chart_data_6 = charts_data[5]
     end   
     
     def problemset_chart
