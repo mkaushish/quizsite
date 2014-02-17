@@ -5,7 +5,7 @@
 	
 		<tr>
 			<td>
-				<%= link_to "#{student[1]}", student_path(student[0].to_i), remote: :true  %>
+				<%= link_to "#{student[1]}", details_path(@classroom.id, type: 'students', :student_id => student[0]) %>
 			</td>
 			<td>
 				<% unless student[2]== -1 %>

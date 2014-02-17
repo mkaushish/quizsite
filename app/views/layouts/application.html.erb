@@ -14,7 +14,7 @@
     </head>
     <body>
         <% if current_user.is_a? Teacher %>  
-        <%= render 'shared/teacher_nav'%>
+        <%= render 'shared/teacher_nav', :@teacher => current_user%>
         <%else%>
         <%= render 'shared/navbar'%>
         <%end%>

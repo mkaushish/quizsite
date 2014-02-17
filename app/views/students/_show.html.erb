@@ -1,7 +1,7 @@
 <div class="row-fluid">
 	<%#= @student.name %>
 	<% if @student.is_a?(Student) and current_user.is_a?(Teacher) %>
- 		<%= link_to "Give a Merit", new_teacher_badge_path(current_user, :student_id => @student.id), remote: :true, id: "merit_link_#{@student.id}" if @merit.blank? %>
+ 		<%= link_to "Give a Merit", new_teacher_badge_path(current_user, :student_id => @student.id), remote: :true, :class => 'button-blue', id: "merit_link_#{@student.id}" if @merit.blank? %>
     <% end %>
     <div class "row-fluid" id="merit_box_<%= @student.id %>">
         <%= render "badges/student_merit", :user_id => @student.id, :merit => @merit %>

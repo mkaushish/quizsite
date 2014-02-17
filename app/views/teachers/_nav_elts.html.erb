@@ -1,22 +1,28 @@
-<ul class='collap'>
+<ul class='nav'>
   	<% if current_user.is_a? Teacher %>
+      <li class="divider-vertical"></li>
       <li><%= link_to "Overview", teacherhome_path %></li>
-      <li><%= link_to "New / Join Classroom", new_classroom_path(current_user), remote: :true %></li>
-      <li><%= link_to "My Problem Sets", problem_sets_path(current_user) %></li>
+      <li class="divider-vertical"></li>
+      <li><%= link_to "New/Join Classroom", new_classroom_path(current_user), remote: :true %></li>
+      <li class="divider-vertical"></li>
+      <li><%= link_to "Problem Sets", problem_sets_path(current_user) %></li>
+      <li class="divider-vertical"></li>
       <li><%= link_to "Quizzes", teacher_quizzes_path(current_user) %></li>
-      <li><%= link_to "Custom Problems", teacher_custom_problems_path(current_user) %></li> 
+      <li class="divider-vertical"></li>
+      <li><%= link_to "Your Problems", teacher_custom_problems_path(current_user) %></li> 
+      <li class="divider-vertical"></li>
     <% end %>
   <%= yield :nav_elts if content_for?(:nav_elts) %>
 </ul>
 <i id='navcol' class='icon-align-justify' style='display:none'></i>
 
-<% if @teacher_nav_elts == 'details' && false %>
-  <%= render :partial => 'teachers/forms/details_classroom_form' %>
-  <%= render :partial => 'teachers/forms/details_problem_set_form' %>
-<% end %>
 
-<ul class=pull-right>
-  <li class=switch-to>
-    <%= link_to "Log Out", signout_path, :method => :delete %>
-  </li>
+
+<ul class='nav pull-right'>
+  <li class="divider-vertical"></li>
+      <li><a href='#'><i class='icon-envelope'></i></a></li>
+      <li class="divider-vertical"></li>
+      <li><%= link_to raw("<i class='icon-user'></i>"), edit_teacher_path(@teacher), remote: :true %></li>
+      <li class="divider-vertical"></li>
+    <li><%= link_to "Log Out", signout_path, :method => :delete %></li>
 </ul>

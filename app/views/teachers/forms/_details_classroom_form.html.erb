@@ -1,9 +1,8 @@
 <%= form_tag(details_classroom_path, {:id => 'classroom-form'}) do %>
     <div class="row-fluid">
-            <div class ="inline-form pull-right">
-            <%= label_tag "classroom_id", "Classroom: " %>
-            <%= select_tag :classroom_id, options_from_collection_for_select(@classrooms, 'id', 'name', @classroom.id), { class: 'form-control', style:"width:100px" } %>
-            <%= submit_tag "Get Details", :class=>"button-blue", :style => "margin-top: 0; margin-left: 0; display: inline;"  %>
+            <div>
+            <%= select_tag :classroom_id, options_from_collection_for_select(@classrooms, 'id', 'name', @classroom.id), { class: 'form-control'} %>
+            <%= submit_tag "Change Classroom", :class=>"button-blue", :style => "margin-top: 0; margin-left: 0; display: inline;"  %>
         </div>
     </div>
 <% end %>

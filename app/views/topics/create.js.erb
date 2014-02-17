@@ -1,1 +1,3 @@
-$("#topics_list").prepend("<%= j(render "topics/topic", :topic => @topic, :user => @user, :classroom_id => @topic.classroom_id ) %>")
+$("#topics_list").prepend("<%= j(render "topics/topic", :topic => @topic, :user => @user, :classroom_id => @topic.classroom_id ) %>");
+$('#topic_title').val("");
+$('#topic_description').val('');

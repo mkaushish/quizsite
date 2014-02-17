@@ -1,26 +1,30 @@
 <div class="row-fluid">
-	<div class="span4">
-		<%- unless @students.blank? -%>
-			<div class="dotted-border-header">
-				Students
-			</div>
-			<div class="dotted-border">
-				<ul class="column-list" style="border:none">
-					<% @students.sort { |a,b| a.name <=> b.name }.each do |student| %>
-						<li>
-							<%= link_to student.name, student_path(student.id), remote: :true %>
-						</li>
-					<% end %>
+	<%- unless @students.blank? -%>
+		<%= render "teachers/forms/details_student_form", :type => "students" %>
+	<%- end -%>
+	
+	<div id="check">
+		<% unless @student.nil? %>
+			<div>
+				<ul id="student_tab" class="nav nav-tabs" style="font-family:Courier">
+					<li class='active'><a href="#charts" data-toggle="tab">Charts</a></li>
+					<li><a href="#problems" data-toggle="tab">Problems</a></li>
 				</ul>
 			</div>
-		<%- else -%>
-			No Students in this classroom. Please add students !
-		<%- end -%>
-	</div>
-	<div class="span8" id="check">
-		<% unless @student.nil? %>
-			<p>Click on Student to get details</p>
-			<%= render "students/show", :@student => @student %>
+			<div class="tab-content" style="font-family:Courier">
+				<div id='charts' class='tab-pane active'>
+				<%= render "students/student_pset_charts", :@student => @student %>
+				</div>
+				<div id='problems' class='tab-pane'>
+				<%= render "students/show", :@problem_sets => @student.problem_sets %>
+				</div>
+			</div>
+		<script>
+$('#student_tab a').click(function (e) {
+	e.preventDefault();
+	$(this).tab('show');
+})
+</script>
 		<% end %>
 	</div>
 </div>

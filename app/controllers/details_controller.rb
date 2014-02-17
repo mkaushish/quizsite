@@ -12,7 +12,16 @@ class DetailsController < ApplicationController
         if defined? params[:type]
             case params[:type]
                 when 'students'
-                    
+                    @student = params[:student_id].nil? ? @students.first : @students.find_by_id(params[:student_id])
+                    unless @student.blank?
+                        charts_data = @student.charts_combine
+                        @chart_data_1 = charts_data[0]
+                        @chart_data_2 = charts_data[1]
+                        @chart_data_3 = charts_data[2]
+                        @chart_data_4 = charts_data[3]
+                        @chart_data_5 = charts_data[4]
+                        @chart_data_6 = charts_data[5]
+                    end
                 when 'problem_sets'
                     @problem_sets = @classroom.problem_sets.order("id ASC")
                     @problem_set = params[:problem_set_id].nil? ? @problem_sets.first : ProblemSet.find_by_id(params[:problem_set_id])

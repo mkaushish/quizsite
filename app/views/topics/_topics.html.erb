@@ -1,22 +1,7 @@
-<table class="table">
-	<thead class='tpc'>
-			<td class="span6">Post</td>
-			<td class="span2">Creator</td>
-			<td class="span2">Comments Count</td>
-			<td class="span2">Options</td>
-	</thead>
-	<tbody id="topics_list">
-		<%- unless topics.blank? -%>
-			<%- topics.each do |topic| -%>
-					<%= render 'topics/topic', :topic => topic, :user => user, :classroom_id => classroom_id %>
-			<%- end -%>
-		<%- else -%>
-			<tr class='tpc'>
-				<td class="span6">No Current Posts</td>
-				<td></td>
-				<td></td>
-				<td></td>
-			</tr>
-		<%- end -%>
-	</tbody>
-</table>
+<%- unless topics.blank? -%>
+	<%- topics.reverse.each do |topic| -%>
+	<div class='the_topic' id='topic_<%=topic.id%>'>
+		<%= render 'topics/topic', :topic => topic, :user => user, :classroom_id => classroom_id %>
+	</div>
+	<%- end -%>
+<%- end -%>

@@ -11,7 +11,6 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-
 ActiveRecord::Schema.define(:version => 20140206112610) do
 
   create_table "answers", :force => true do |t|
@@ -234,7 +233,7 @@ ActiveRecord::Schema.define(:version => 20140206112610) do
     t.integer  "points_required", :default => 500
     t.datetime "created_at",                                         :null => false
     t.datetime "updated_at",                                         :null => false
-    t.string   "color",           :default => "yellow"
+    t.string   "color",           :default => "red"
   end
 
   add_index "problem_stats", ["user_id", "problem_type_id"], :name => "problem_stats_user_problem_type", :unique => true

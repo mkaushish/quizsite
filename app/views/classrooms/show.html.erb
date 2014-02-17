@@ -1,11 +1,11 @@
 <div class='navbar' style='margin-bottom:0px;'>
-	<div class="navbar-inner" style="height:40px; border-radius:0px; -webkit-border-radius:0px; background:#bdc3c7;">
+	<div class="navbar-inner" style="height:40px; border-radius:0px; -webkit-border-radius:0px; background:#bdc3c7; box-shadow:none; -webkit-box-shadow:none;">
 <a class="brand"><%=@classroom.name %> - Discussion</a>
 </div>
 </div>
-<div class="row-fluid" id="t_or_c">
-	<div class="span8">
-		<div class="row-fluid" id="all_topics">
+<div class="row-fluid">
+	<div class="span8" id='topics_list'>
+		<div>
 			<%= render "topics/topics", :topics => @topics, :user => current_user, :classroom_id => @classroom.id %>
 		</div>
 		<div id="new_topic_form">
@@ -19,20 +19,20 @@
 	<div class="span4">
 		<h1>Recent Topics</h1>
 		<%- unless @recent_topics.blank? -%>
-			<%- @recent_topics.each do |recent_topic| -%>
-				<%= link_to	recent_topic.title, user_topic_path(current_user, recent_topic, classroom_id: @classroom_id) %>
+			<%- @recent_topics.first(5).each do |recent_topic| -%>
+				<p><%= link_to	recent_topic.title, user_topic_path(current_user, recent_topic, classroom_id: @classroom_id) %></p>
 			<%- end -%>
 		<%- else -%>
-			<h2>No Recent Topics</h2>
+			<p>No Recent Topics</p>
 		<%- end -%>
 
 		<h1>Recent Comments</h1>
 		<%- unless @recent_comments.blank? -%>
-			<%- @recent_comments.each do |recent_comment| -%>
-				<%= recent_comment.content_html %>
+			<%- @recent_comments.first(5).each do |recent_comment| -%>
+				<p><%= recent_comment.content_html %></p>
 			<%- end -%>
 		<%- else -%>
-			<h2>No Recent Comments</h2>
+			<p>No Recent Comments</p>
 		<%- end -%>
 	</div>
 </div>
