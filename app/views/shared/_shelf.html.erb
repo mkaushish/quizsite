@@ -1,6 +1,6 @@
 <%@changedPoints = 0%>
 
-<div id='bigshelf'>
+<div id='bigshelf' style='position:relative'>
     <div class='shelf' id='shelf_0'>
         <ul class='shelf_ul'>
             <li class='shelf_li' id='account'>
@@ -22,13 +22,13 @@
                 <a class='plate' style='margin-top:7px'>Points</a>
             </li>
             <li class='shelf_li'> 
-                <div class="btn-group"> 
+                <div class="btn-group" style='margin-left:-15px; width:135%'> 
                     <!-- <button class="btn btn-success dropdown-toggle dropdown-toggle2" data-toggle="dropdown" > -->
-                    <%= link_to "", student_notifications_path(@student), :class => "btn btn-success dropdown-toggle dropdown-toggle2", :id => "notifications", :data => {:toggle => "dropdown", :target => "#"}, remote: :true %>
-                    <span class="caret" style='margin-left:16px'></span>
-                    <div id='news'>
+                    <%= link_to "", student_notifications_path(@student), :class => "btn btn-success  dropdown-toggle2", :id => "notifications", :data => {:toggle => "dropdown", :target => "#"}, remote: :true %>
+                    <span class="caret" ></span>
+                    <ul id='news' class="dropdown-menu" role="menu">
                         <%= render  "students/notifications" %>
-                    </div>    	
+                    </ul>
                 </div>
             </li>
             <%- ["tetrahedron", "cube", "octahedron", "dodecahedron", "icosahedron"].each_with_index do |_shape, _index| -%>
@@ -42,9 +42,11 @@
             <li class='shelf_li'><a href="javascript:;" id="open-walkthrough"><img src='/assets/Help.png' style='border-radius:50%'/></a></li>
             <li class='shelf_li'><%=link_to raw("<img src='/assets/discussion.png'/>"), classroom_path(@classroom), :id => 'discussion_p'%></li>
         </ul>
+        <div class='bot_bor'></div>
     </div>
     <div id="badgeModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
     </div>
+    
 </div>  
 
 <script>

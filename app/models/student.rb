@@ -86,17 +86,17 @@ class Student < User
 
     def charts_combine
         # Percentage of correct answers by weekly
-        chart_data_1 = [['Weeks Ago','Correct Percentage']]
+        chart_data_1 = []# = [['Weeks Ago','Correct Percentage']]
         # Percentage of wrong answers by Chapter
-        chart_data_2 = [['Chapters','Wrong Answers']]
+        chart_data_2 = []# = [['Chapters','Wrong Answers']]
         # Student performance chart by each problem set correct percentage 
-        chart_data_3 = [['Chapters','Correct Percentage']]
+        chart_data_3 = []# = [['Chapters','Correct Percentage']]
         # Questions done in the particular week 
-        chart_data_4 = [['Weeks Ago','Questions Done']]
+        chart_data_4 = []# = [['Weeks Ago','Questions Done']]
         # Student performance chart by each problem type correct percentage 
-        chart_data_5 = [['Problem Types','Correct Percentage']]
+        chart_data_5 = []# = [['Problem Types','Correct Percentage']]
         # Percentage of correct answers by weekly(i + (i + 1) week)
-        chart_data_6 = [['Weeks Ago','Correct Percentage']]
+        chart_data_6 = []# = [['Weeks Ago','Correct Percentage']]
 
         i = self.get_weeks_count 
         total_weeks = i
@@ -113,7 +113,8 @@ class Student < User
             ( _total_ans == 0 ) ? chart_data_6.push( [ "Week " + ( total_weeks - i + 1 ).to_s, 0 ] ) : chart_data_6.push( [ "Week " + ( total_weeks - i + 1 ).to_s, ( _ans_right * 100 ) / ( _total_ans ) ] ) 
             chart_data_4.push( [ "Week " + ( total_weeks - i + 1 ).to_s, total_answers ] )    
             i = i - 1 
-        end  
+        end
+        
         _problem_type_answers = []
         self.problem_set_instances.each do |pset_instance| 
             answers = pset_instance.answers.find( :all , select: [ :correct, :problem_type_id ], order: :problem_type_id , :include => :problem_type).map{ |v| [ v.problem_type_id, v.problem_type.name, v.correct ] }
@@ -130,7 +131,22 @@ class Student < User
         _problem_type_answers = _problem_type_answers.flatten(1)
         _problem_type_ids = _problem_type_answers.collect{ |v| v[0] }.uniq
         _problem_type_ids.each { |problem_type_id| chart_data_5.push [_problem_type_answers.select{ |u| u[0] == problem_type_id }.first[1], ( ( _problem_type_answers.select{ |u| u[0] == problem_type_id }.count{ |u| u[2] == true } * 100 ) / _problem_type_answers.select{ |u| u[0] == problem_type_id }.count ) ]}
-        return [chart_data_1, chart_data_2, chart_data_3, chart_data_4, chart_data_5, chart_data_6]
+        chart_data_5.sort_by! {|e| e[1]}
+        chart_data_3.sort_by! {|e| e[1]}
+        chart_data_1 = [['Weeks Ago','Correct Percentage']] + chart_data_1
+        # Percentage of wrong answers by Chapter
+        chart_data_2 = [['Chapters','Wrong Answers']] + chart_data_2
+        # Student performance chart by each problem set correct percentage 
+        chart_data_7 = [['Chapters','Correct Percentage']] + chart_data_3.reverse
+        chart_data_3 = [['Chapters','Correct Percentage']] + chart_data_3
+        # Questions done in the particular week 
+        chart_data_4 = [['Weeks Ago','Questions Done']] + chart_data_4
+        # Student performance chart by each problem type correct percentage 
+        chart_data_8 = [['Problem Types','Correct Percentage']] + chart_data_5.reverse
+        chart_data_5 = [['Problem Types','Correct Percentage']] + chart_data_5
+        # Percentage of correct answers by weekly(i + (i + 1) week)
+        chart_data_6 = [['Weeks Ago','Correct Percentage']] + chart_data_6
+        return [chart_data_1, chart_data_2, chart_data_3, chart_data_4, chart_data_5, chart_data_6, chart_data_7, chart_data_8]
     end
     
     def total_correct_wrong_answers(start_time, end_time)

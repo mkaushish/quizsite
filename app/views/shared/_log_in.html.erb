@@ -1,8 +1,10 @@
-<div class="modal hide fade" id="logIn">
-    <div class="row-fluid">
+
+
+<div class="modal fade" id="logInModal" tabindex="-1" aria-hidden="true" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
         <div class="modal-header">
-                <img src="/assets/Home/login_bar.png" style="width:100%">
-            </div>
+            <img src="/assets/Home/login_bar.png" style="width:100%">
         </div>
         <div class="modal-body">
             <div class="row-fluid">
@@ -10,31 +12,31 @@
                 </div>
                 <div class="span8">
                     <%= form_tag signin_path, remote: :true do |f| %>
-                        <div class = "field_block">
-                            <div class="row-fluid">
-                                <span class="error_block" id="login_email_err"></span>
-                                <div class="span3">
-                                    <%= label_tag "login_email", "Email" %>
-                                </div>    
-                                <div class="span4">    
-                                    <%= text_field_tag :login_email, flash[:email], :placeholder=>"Your Email" %>
-                                </div>
+                    <div class = "field_block">
+                        <div class="row-fluid">
+                            <span class="error_block" id="login_email_err"></span>
+                            <div class="span3">
+                                <%= label_tag "login_email", "Email" %>
                             </div>    
-                        </div>
-                        <div class = "field_block">
-                            <div class="row-fluid">
-                                <span class="error_block" id="login_password_err"></span>
-                                <div class="span3">
-                                    <%= label_tag "login_password", "Password" %>
-                                </div>    
-                                <div class="span4">    
-                                    <%= password_field_tag "login_password", flash[:password], :placeholder => "Your Password" %>    
-                                </div>
+                            <div class="span4">    
+                                <%= text_field_tag :login_email, flash[:email], :placeholder=>"Your Email" %>
+                            </div>
+                        </div>    
+                    </div>
+                    <div class = "field_block">
+                        <div class="row-fluid">
+                            <span class="error_block" id="login_password_err"></span>
+                            <div class="span3">
+                                <%= label_tag "login_password", "Password" %>
                             </div>    
-                        </div>
-                        <div class="span2">
-                            <%= submit_tag "Sign in", :class=>"button-blue pull-right" %>
-                        </div>
+                            <div class="span4">    
+                                <%= password_field_tag "login_password", flash[:password], :placeholder => "Your Password" %>    
+                            </div>
+                        </div>    
+                    </div>
+                    <div class="span2">
+                        <%= submit_tag "Sign in", :class=>"button-blue" %>
+                    </div>
                     <% end %>
                 </div>
                 <!--<div class="span3">
@@ -45,5 +47,5 @@
             </div>
         </div>
     </div>
-    </div>
+</div>
 </div>

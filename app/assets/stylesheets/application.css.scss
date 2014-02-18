@@ -8,7 +8,17 @@
 
 @import 'jquery.jscrollpane';
 @import 'mixins_n_colors';
+@import "bootstrap";
+body{
+  width:100%;
+}
+.container{
+  width:100%;
+}
 
+small{
+  font-size: 55%;
+}
 
 // handwriting fonts {{{
 @font-face {
@@ -97,6 +107,8 @@ body {
 .container {
   width:100%;
   min-width: 421px;
+  margin:0;
+  padding:0;
 }
 
 /* Homepage stuff {{{ */
@@ -239,3 +251,4 @@ form div.field_block {
 @import 'comments.css.scss';
 @import 'topics.css.scss';
 @import 'jquery.pagewalkthrough.css';
+

@@ -16,17 +16,20 @@
 
 <div id='check'>
 </div>
-<div id="classroom_problem_sets">
-	<div class='teacher-details-body row-fluid'>
-		<div class="dotted-border-header">
+<div id="classroom_problem_sets" class='row'>
+		<div class='col-md-6'>
+		<%= render "classrooms/top_weak_students", :@top_weak_students => @top_weak_students %>
+	</div>
+	<div class='teacher-details-body col-md-6'>
+		<h2>
 			Problem Sets
-		</div>
-		<div class="dotted-border teacher-details-column" style="width:20%">
+		</h2>
+		<div>
 			<div>
 				<%- unless @classroom_problem_sets.blank? -%>
-					<ul class="column-list" style="border:none">
+					<ul style='padding:0'>
 						<%- @classroom_problem_sets.each do |classroom_problem_set| -%>
-							<li>
+							<li style='border:1px solid #ccc; padding:3px'>
 								<%= link_to classroom_problem_set.problem_set.name, details_path(@classroom.id, type: "problem_sets", 
 									problem_set_id: classroom_problem_set.problem_set.id ) %>
 							</li>

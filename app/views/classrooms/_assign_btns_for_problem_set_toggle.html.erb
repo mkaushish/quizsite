@@ -1,7 +1,7 @@
 <%= classroom_problem_set.problem_set.name %>
 <% if classroom_problem_set.active? %>
-	<%= link_to "Assigned", toggle_problem_set_path(classroom_id: @classroom.id, id: classroom_problem_set.id), :class => "btn btn-inverse pull-right", :remote => true %>
+	<%= link_to "Assigned", toggle_problem_set_path(classroom_id: @classroom.id, id: classroom_problem_set.id), :class => "", :style => 'float:right', :remote => true %>
 <% else %>
 	<%= link_to "Assign", toggle_problem_set_path(classroom_id: @classroom.id, id: classroom_problem_set.id), 
-		:class => "btn pull-right", :remote => true %>              
+		:class => "", :style => 'float:right', :remote => true %>              
 <% end %>

@@ -100,7 +100,7 @@ lis="";
   for(i=0; i < lisarr.length; i++){
     n = parseInt(($(".container").width()-200)/86);
     te=(lisarr.slice(i, (i+n))).join("\n");
-    $("#bigshelf").append("<div class=shelf><ul class=shelf_ul>"+te+"</ul></div>");
+    $("#bigshelf").append("<div class=shelf><ul class=shelf_ul>"+te+"</ul><div class='bot_bor'></div></div>");
     i=i+n-1;
   }
   liwt=parseInt($(".shelf .shelf_ul .shelf_li").css("width"))+2*parseInt($(".shelf .shelf_ul .shelf_li").css("padding"));
@@ -123,7 +123,7 @@ $(window).resize(function(){
   for(i=0; i < lisarr.length; i++){
     n = parseInt(($(".container").width()-200)/liwt);
     te=(lisarr.slice(i, (i+n))).join("\n");
-    $("#bigshelf").append("<div class=shelf><ul class=shelf_ul>"+te+"</ul></div>");
+    $("#bigshelf").append("<div class=shelf><ul class=shelf_ul>"+te+"</ul><div class='bot_bor'></div></div>");
     i=i+n-1;
   }
   wdt=$(".container").width();

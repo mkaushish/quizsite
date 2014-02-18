@@ -2,8 +2,8 @@
 
 
 <div class="container color_list_box sg-nav <%= 'not_log_in' if !signed_in? %>">
-  <div class='row-fluid sg-nav'>
-    <div><%= link_to (render "/shared/logo_2"), root_path %></div>
+  <div class='row-fluid sg-nav' style='width:100%'>
+    <div style='float:left'><%= link_to (render "/shared/logo_2"), root_path %></div>
     <%= render :partial => nav_elts_path %>
   </div>
 </div>

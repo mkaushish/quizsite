@@ -1,3 +1,5 @@
-<div id="chart_div_2_class_pset" style="width: 500px; height: 500px;"><%= render 'shared/google_visual_piechart', :array => @chart_data_2, :div => "chart_div_2_class_pset", :title => "Students performance"  %></div>
+<div class='row'>
+<div id="chart_div_2_class_pset" class='col-md-6' style='height:300px'><%= render 'shared/google_visual_piechart', :array => @chart_data_2, :div => "chart_div_2_class_pset", :title => "Student Performance"  %></div>
 
-<div id="chart_div_3_class_pset" style="width: 900px; height: 500px;"><%= render 'shared/google_visual_barchart', :array => @chart_data_3, :div => "chart_div_3_class_pset", :title => "Students performance", :vAxis_title => "Problem Types" %></div>
+<div id="chart_div_3_class_pset" class='col-md-6' style='height:300px'><%= render 'shared/google_visual_barchart', :array => @chart_data_3, :div => "chart_div_3_class_pset", :title => "Performance On Problem Types", :vAxis_title => "Problem Types" %></div>
+</div>

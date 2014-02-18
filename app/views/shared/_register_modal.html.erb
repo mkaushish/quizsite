@@ -1,9 +1,13 @@
-<div class="modal hide fade" id="register"> 
-	<%# class=hide get's overridden by display-block status %>
-	<div class="modal-body">
-		<%= render 'users/form', :@user => "Student" %>
-	</div>
-	<div class="modal-footer">
-		<a href="#" class="btn" data-dismiss="modal">Close</a>
+<div class="modal fade" id="register" tabindex="-1" aria-hidden="true" role="dialog">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<%# class=hide get's overridden by display-block status %>
+			<div class="modal-body">
+				<%= render 'users/form', :@user => "Student" %>
+			</div>
+			<div class="modal-footer">
+				<a href="#" class="btn" data-dismiss="modal">Close</a>
+			</div>
+		</div>
 	</div>
 </div>

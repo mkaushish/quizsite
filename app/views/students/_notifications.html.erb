@@ -1,6 +1,5 @@
-<ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+
 	<% current_user.news_feeds.order("created_at DESC").each do |news_feed| %>
-        	<li><%= news_feed.content %></li>
+        	<li class='notf'><%= news_feed.content %></li>
     <% end %>    	
-    <li><%= "Welcome to SmarterGrades!" %></li>
-</ul>
+    <li class='notf'><%= "Welcome to SmarterGrades!" %></li>

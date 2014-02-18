@@ -1,5 +1,4 @@
-\[\int_a^b f(x) dx=F(b)-F(a)\]
-\[1\frac{1}{c^2}\]
+
 <div class="row">
 	<div class="pull-right" id="import_problems">
 		<%= link_to "Import Custom Problems", "javascript: show_import_form()", :class => "btn", id: "show_import_form_button" %>
@@ -8,27 +7,27 @@
 </div>
 <div id="custom_problems_message" class="teacher-details-header" style="margin-bottom:5px;"></div>
 <div class="row">
-	<div class="span4">
-		<div class="dotted-border-header">
+	<div class="col-md-4">
+		<h2>
 			Chapters
-		</div>
-		<div class='dotted-border teacher-details-column'>
-			<ul class='column-list' id="chapter_tabs">
+		</h2>
+		<div>
+			<ul class='col-list-2' id="chapter_tabs">
 				<% @chapters.each do |chapter| %>
 					<li><%= link_to chapter.name, "#chap_#{chapter.id}", "data-toggle" => "tab" %></li>
 				<% end %>
 			</ul>
 		</div>
 	</div>
-	<div class="span4">
+	<div class="col-md-4">
 		<div class="tab-content">
 			<% @chapters.each do |chapter| %>
 				<div class="tab-pane" id="chap_<%= chapter.id %>">
-					<div class="dotted-border-header">
+					<h2>
 						Problem Types
-					</div>
-					<div class='dotted-border teacher-details-column'>
-						<ul class='column-list' id="column_list">
+					</h2>
+					<div>
+						<ul class='col-list-2' id="column_list">
 							<%- chapter.problem_types.each do |ptype| -%>
 								<li>
 									<%= link_to ptype.to_s, do_sample_problem_path(ptype.id), remote: :true %>
@@ -41,15 +40,15 @@
 			<% end %>
 		</div>
 	</div>
-	 <div class="span4">
-		<div class="dotted-border-header">
+	 <div class="col-md-4">
+		<h2>
 			Created Problems
-		</div>
-		<div class='dotted-border teacher-details-column'>
-			<ul class='column-list' id="custom_problems">
+		</h2>
+		<div >
+			<ul class='col-list-2' id="custom_problems">
 				<% if !@custom_problems.blank? %>
 					<% @custom_problems.each do |problem| %>
-						<%= render "custom_problems", :problem => problem %>
+						<li><%= render "custom_problems", :problem => problem %></li>
 					<% end %>
 				<% else %>
 					<p id="no_cprob_msg"><%= "You haven't created any problem!" %></p>

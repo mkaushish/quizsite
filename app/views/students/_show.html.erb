@@ -1,111 +1,32 @@
-<div class="row-fluid">
+<div class="row">
 	<%#= @student.name %>
 	<% if @student.is_a?(Student) and current_user.is_a?(Teacher) %>
  		<%= link_to "Give a Merit", new_teacher_badge_path(current_user, :student_id => @student.id), remote: :true, :class => 'button-blue', id: "merit_link_#{@student.id}" if @merit.blank? %>
     <% end %>
-    <div class "row-fluid" id="merit_box_<%= @student.id %>">
+    <div class "row" id="merit_box_<%= @student.id %>">
         <%= render "badges/student_merit", :user_id => @student.id, :merit => @merit %>
     </div>
-    <div class"row-field" id="merit_form_<%= @student.id %>" style="display: inline-block;">
+    <div class"row" id="merit_form_<%= @student.id %>" style="display: inline-block;">
     </div>
 </div>
 <div id="problems_history" class="teacher-details-header" style="margin-bottom:5px;"></div>
 <div class="row">
-  	<div class="span4" id="chapterspan4" style='width:270px; margin-right:0px'>
-		<div class="column-listheader">
-	  		Chapters
-		</div>
-		<div class='column-listdiv'>
-	  		<ul class='column-list2' id="chapter_tabs">
-				<% @problem_sets.each do |problem_set| %>
-					<li><%= link_to problem_set.name, get_problem_set_history_path(@student.id, problem_set_id: problem_set.id), remote: :true %></li>
-				<% end %>
-	  		</ul>
-		</div>
+  	<div class="col-md-4">
+  		<div class='cols-his'>
+	  	<h2>Problem Sets</h2>
+	  	<ul>
+			<% @problem_sets.each do |problem_set| %>
+				<li><%= link_to problem_set.name, get_problem_set_history_path(@student.id, problem_set_id: problem_set.id), remote: :true %></li>
+			<% end %>
+	  	</ul>
+	  </div>
   	</div>
-  	<div class="span4" id="tryspan4" style='width:270px'>
-		<div class="tab-content" id="problem_types_column_list">
+  	<div class="col-md-4">
+		<div id="problem_types_column_list">
 		</div>
 	</div>
-	<div class="span4" id="tryspan4">
-		<div class="tab-content" id="problems_column_list">
+	<div class="col-md-4">
+		<div id="problems_column_list">
 		</div>
 	</div>
 </div>
-
-
-	<!-- <div class="span4" id="tryspan4" style='width:270px'>
-		<div class="tab-content">
-	  		<%# @problem_sets.each do |problem_set| %>
- 				<div class="tab-pane" id="chap_<%#= problem_set.id %>">
-		  			<div class="column-listheader">
-						Problem Types
-		  			</div>
-		  			<div class="column-listdiv">
-						<ul class='column-list2 column-list22' id="column_list">
-			  				<%# problem_set.problem_types.each do |problem_type| %>
-			  					<%# total_answers = 0 %>
-			  					<%# correct_answers = 0 %>
-			  					<%# answers = problem_type_student_answers_correct(problem_type, @student.id) %>
-								<%# correct_answers = answers.select{|v| v == true}.count %>
-								<%# total_answers = answers.count %>
-		  						<li><%#= link_to (problem_type.name), "#chap_#{problem_set.id}_#{problem_type.id}", :"data-toggle" => "tab" %> 
-		  							<span style="float:right;"><%#= ( correct_answers.to_s + "/" +total_answers.to_s)%></span></li>
-		  					<%# end %>
-						</ul>
-		  			</div>     
-				</div>
-	  		<%# end %>
-		</div>
-  	</div> -->
-<!-- 	<div class="span4" id="histspan4" style='width:270px'>
-   		<div class="tab-content">
-			<%# @problem_sets.each do |problem_set| %>
-				<%# problem_set.problem_types.each do |problem_type|%>
-					<div class="tab-pane" id="chap_problem_type_<%#= problem_type.id%>">
-	  					<div class='dotted-border-header'>
-	  					<div class="column-listheader">
-							<h4>History</h4>
-	  					</div> -->
-	  					<!-- <div class='dotted-border' style='min-height:400px;'> -->
-<!-- 	  					<div class="column-listdiv" style="min-height:400px;">
-							<ul class='column-list2 colum-list22' id="History_tabs">
-		  						<%# answers = problem_type.answers.where("user_id = ?", @student.id) %>
-		  						<%# answers.each do |answer| %>
-			  						<%# if answer.correct == true%>
-										<li><%#= link_to (answer.problem_type.to_s), show_answer_path(id: answer.id, instance: problem_set.id), remote: true %><span style="float:right;"><%#= image_tag "correct_check.png"%></span>
-										</li>	
-									<%# else %>		
-										<li><%#= link_to (answer.problem_type.to_s), show_answer_path(id: answer.id, instance: problem_set.id), remote: true %><span style="float:right;"><%#= image_tag "incorrect_3.png"%></span>
-										</li>
-									<%# end %>
-	  							<%# end %>
-							</ul>
-						</div>
-					</div>
-				<%# end %>
-			<%# end %>
-  		</div>
-	</div>
-</div>
-<div class = "span12" id = "pset_chart">
- 	<div id="chart_div_2_pset" style="width: 900px; height: 500px;"></div>
-</div> 
- -->
-<!-- Student Performance chart by each problem_types correct percentage -->
-<%#= render "shared/google_visual_barchart", :array => @array, :div => "chart_div_2_pset", :title => "Student Performance", :vAxis_title => "Problem Types"  %>
-<div id="chart_div_2_pset" style="width: 900px; height: 500px;"></div>
-<!-- Chart ends -->
-
-<script>
-	// $("#chapter_tabs li a").click(function(){
-	// 	$("#histspan4").hide();
-	// 	$('#chapterspan4').css("margin-right","0%");
-	// 	$('#chapterspan4').animate({marginRight:"7%"},"fast","swing");
-	// });
-	// $("#tryspan4 li a").click(function(){
-	// 	$('#histspan4').show();
-	// 	$('#histspan4').css("margin-left","0%");
-	// 	$('#histspan4').animate({marginLeft:"7%"},"fast","swing");
-	// });
-</script>

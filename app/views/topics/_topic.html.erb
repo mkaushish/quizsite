@@ -1,9 +1,9 @@
 
 <h1><%= link_to topic.title, user_topic_path(user, topic, classroom_id: classroom_id) %></h1>
-<% if topic.user.image.blank? %>
+<% if topic.user.image.blank? || topic.user.image.nil? %>
 <p style='font-size:10px;'><%=image_tag ("default_70x70.png"), :size => "70x70", :class => "st_img", :style => 'border-radius:50%'%><i><%= topic.user.name %></i> | Comments: <%= topic.comments.size %></p>
 <% else %>
-<p style='font-size:10px;'><%=content_tag :i, '', :class => ('st_img_2 char ' + @student.image)%><i><%= topic.user.name %></i> | Comments: <%= topic.comments.size %></p>
+<p style='font-size:10px; margin-top:70px; margin-bottom:30px'><%=content_tag :i, '', :class => ('st_img_2 img_st char ' + topic.user.image)%><i><%= topic.user.name %></i> | Comments: <%= topic.comments.size %></p>
 <%end%>
 <p><%= topic.description_html %></p>
 <p><% if topic.user_id = current_user.id %></p>

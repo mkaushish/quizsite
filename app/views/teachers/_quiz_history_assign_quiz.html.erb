@@ -1,4 +1,4 @@
-<ul class='column-list details_quiz_hist'>
+<ul class='col-list-2 details_quiz_hist'>
 	<li>
 		<% if current_user.is_a? Teacher %>
 			<%= link_to "Create Quiz", new_teacher_quiz_path(current_user, pset: @problem_set.id) %>

@@ -2,10 +2,7 @@
 	<div class=row-fluid>
   		<%= render "teachers/forms/details_problem_set_form", :type => "quizzes" %>
 	  	<div>
-			<div class=dotted-border-header>
-			  	Quizzes
-			</div>
-			<div id='quiz_history' class='dotted-border teacher-details-column'>
+			<div id='quiz_history' class='teacher-details-column'>
 			  	<%= render partial: 'teachers/quiz_history_assign_quiz', :@problem_set => @problem_set, :@quiz_history => @quiz_history %>
 			</div>
 	  	</div>

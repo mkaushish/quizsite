@@ -1,24 +1,35 @@
-<div class="navbar row-fluid" style='margin-bottom:0px;'>
-  <div class="navbar-inner" style="height:40px; border-radius:0px; -webkit-border-radius:0px; background:#c0392b">
-    <a class="brand"><%=@student.name %></a>
-    <ul class="nav">
-      <%- if @student == current_user -%>
+<nav class="navbar navbar-default" role="navigation" style='margin-bottom:0'>
+  <div class="container-fluid">
+
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"><%=@student.name %></a>
+    </div>
+    <div class="collapse navbar-collapse" id='example-navbar'>
+      <ul class="nav navbar-nav">
+        <%- if @student == current_user -%>
         <li class="<%= 'active' if @tab=='profile' || @tab==nil || @tab=='' %>">
           <%= link_to "Profile", student_path(@student.id) %>
         </li>
-      <%- end -%>
-     <li class="<%= 'active' if @tab=='badges'%>">
-       <%= link_to "Badges", student_badges_path() %>
+        <%- end -%>
+        <li class="<%= 'active' if @tab=='badges'%>">
+         <%= link_to "Badges", student_badges_path() %>
+       </li>
+       <li class="<%= 'active' if @tab=='progress'%>">
+        <%= link_to 'History', progress_student_path(@student.id)%>
+      </li>
+      <li class="<%= 'active' if @tab=='graphs'%>">
+       <%= link_to "Graphs", chart_student_path() %>
      </li>
-     <li class="<%= 'active' if @tab=='progress'%>">
-      <%= link_to 'History', progress_student_path(@student.id)%>
-    </li>
-    <li class="<%= 'active' if @tab=='graphs'%>">
-    	<%= link_to "Graphs", chart_student_path() %>
-    </li>
-    <li class="<%= 'active' if @tab=='quizzes'%>">
+     <li class="<%= 'active' if @tab=='quizzes'%>">
       <%= link_to "Quizzes", student_quizzes_path %>
     </li>
   </ul>
 </div>
 </div>
+</nav>

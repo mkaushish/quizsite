@@ -10,17 +10,20 @@
         </ul>
     </div>
   </div> -->
-
   <!-- Percentage of correct answers by weekly -->
-  <div id="chart_div" style="width: 95%; height: 550px;"><%= render "shared/google_visual_linechart", :array => @chart_data_1, :div => "chart_div", :title => "Student Performance" %></div>
+  <div class='row'>
+     <div id="chart_div_6" class='col-md-6' style="height: 300px;"><%= render "shared/google_visual_linechart", :array => @chart_data_6, :div => "chart_div_6", :title => "Overall Performance" %></div>
+  <div id="chart_div" class='col-md-6' style="height: 300px;"><%= render "shared/google_visual_linechart", :array => @chart_data_1, :div => "chart_div", :title => "Performance Per Week" %></div>
   <!-- chart end -->
+   
 
   <!-- Percentage of wrong answers by Chapter -->
-  <div id="chart_div_2" style="width: 95%; height: 650px;"><%= render 'shared/google_visual_piechart', :array => @chart_data_2, :div => "chart_div_2", :title => "Percentage of wrong answers to the chapter" %></div>
-  <!-- chart end -->
 
+  <!-- chart end -->
+</div>
+<div class='row'>
   <!-- Student performance chart by each problem set correct percentage -->
-  <div id="chart_div_3" style="width: 95%; height: 550px;"><%= render "shared/google_visual_barchart", :array => @chart_data_3, :div => "chart_div_3", :title => "Student Performance", :vAxis_title => "Chapters" %></div>
+  <div id="chart_div_7" class='col-md-6' style="height: 300px;"><%= render "shared/google_visual_barchart", :array => @chart_data_7.first(5), :div => "chart_div_7", :title => "Best Problem Sets", :vAxis_title => "Problem Sets" %></div>
   <!-- Chart ends -->
 
   <!-- Questions done in the particular week -->
@@ -28,9 +31,26 @@
   <!-- Chart ends -->
 
   <!-- Student performance chart by each problem type correct percentage  -->
-  <div id="chart_div_5" style="width: 95%; height: 650px;"><%= render "shared/google_visual_barchart", :array => @chart_data_5, :div => "chart_div_5", :title => "Student Performance", :vAxis_title => "Problem Types" %></div>
+  <div id="chart_div_8" class='col-md-6' style="height: 300px;"><%= render "shared/google_visual_barchart", :array => @chart_data_8.first(10), :div => "chart_div_8", :title => "Best Problem Types", :vAxis_title => "Problem Types" %></div>
+  <!-- Chart ends -->
+  </div>
+
+
+<div class='row'>
+  <!-- Student performance chart by each problem set correct percentage -->
+  <div id="chart_div_3" class='col-md-6' style="height: 300px;"><%= render "shared/google_visual_barchart", :array => @chart_data_3.first(5), :div => "chart_div_3", :title => "Problem Sets which Need Work", :vAxis_title => "Problem Sets" %></div>
   <!-- Chart ends -->
 
+  <!-- Questions done in the particular week -->
+  <!-- <div id="chart_div_4" style="width: 95%; height: 550px;"><%#= render 'shared/google_visual_linechart', :array => @chart_data_4, :div => "chart_div_4", :title => "Student Performance" %></div> -->
+  <!-- Chart ends -->
+
+  <!-- Student performance chart by each problem type correct percentage  -->
+  <div id="chart_div_5" class='col-md-6' style="height: 300px;"><%= render "shared/google_visual_barchart", :array => @chart_data_5.first(10), :div => "chart_div_5", :title => "Problem Types which need Work", :vAxis_title => "Problem Types" %></div>
+  <!-- Chart ends -->
+  </div>
+<div class='row'>
   <!-- Percentage of correct answers by weekly(i + (i + 1) week) -->
-  <div id="chart_div_6" style="width: 95%; height: 550px;"><%= render "shared/google_visual_linechart", :array => @chart_data_6, :div => "chart_div_6", :title => "Student Performance" %></div>
+  <div id="chart_div_2" class='col-md-6' style="height: 300px;"><%= render 'shared/google_visual_piechart', :array => @chart_data_2, :div => "chart_div_2", :title => "Percentage of wrong answers to the chapter" %></div>
   <!-- chart end -->
+  </div>

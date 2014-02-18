@@ -10,7 +10,6 @@ $bar_to_top: ($image_height / 2) + 5px;
   //background-color:#bdc3c7;
 
   div { 
-    float:left;
     display: inline-block
   }
 
@@ -40,8 +39,8 @@ $bar_to_top: ($image_height / 2) + 5px;
       }
     }
     li.switch-to {
-      height:15px;
-      padding: 8px 16px 9px 16px;
+      height:35px;
+      padding: 0px 16px 9px 16px;
       margin:10px;
       margin-top: 19px;
       border-radius:5px;
@@ -52,8 +51,8 @@ $bar_to_top: ($image_height / 2) + 5px;
       a { color:black}
     }
     li.switch-to-blue {
-      height:13px;
-      padding: 8px 16px 9px 16px;
+      height:30px;
+      padding: 0px 16px 9px 16px;
       margin:10px;
       margin-top: 18px;
       background-color: #3a9fae;
@@ -121,11 +120,11 @@ $bar_to_top: ($image_height / 2) + 5px;
 .nelogo{
   //font-family:'Aller';
  // font-weight: bold;
-  font-size:40px;
+  font-size:35px;
   background-color:white;
   margin:20px;
   padding:8px;
-  padding-top:2px;
+  padding-top:0px;
   border-radius: 5px;
   .fclr{
     color:#3498db;
@@ -156,4 +155,28 @@ $bar_to_top: ($image_height / 2) + 5px;
 .left-link > a {
   color:#999999;
   margin-left:5px;
+}
+
+#logInModal{
+  input{
+    width:100%;
+    font-family: Courier;
+  }
+}
+#SignUp{
+  input{
+    width:100%;
+    font-family: Courier;
+  }
+}
+.modal{
+  .modal-content{
+  border-radius:0;
+  -webkit-border-radius:0;
+}
+.modal-header{
+  border:none;
+  padding-left:0;
+  padding-right:0;
+}
 }

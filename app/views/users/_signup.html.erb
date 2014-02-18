@@ -1,4 +1,6 @@
-<div class="modal hide fade" id="SignUp" style="font-family:SansSerif;">
+<div class="modal fade" id="SignUp" tabindex="-1" aria-hidden="true" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
     <div class="row-fluid">
         <div class="modal-header">
             <img src="/assets/Home/signup_bar.png" style="width:100%">
@@ -15,9 +17,9 @@
                 </div>
                 <div class="span12">
                     <div class="row-fluid">
-                        <%= link_to image_tag("student_homepage.png", :size => "150x80"),"#", :class => 'user_sel', :id=>"Student", :onclick=> 'select_type("Student")' %>
-                        <%= link_to image_tag("teacher_homepage.png", :size => "150x80"),"#", :class => 'user_sel', :id=>"Teacher", :onclick=> 'select_type("Teacher")' %>
-                        <%= link_to image_tag("coach_homepage.png", :size => "150x80"),"#", :class => 'user_sel', :id=>"Coach", :onclick=> 'select_type("Coach")' %>
+                        <%= link_to image_tag("student_homepage.png"),"#", :class => 'user_sel', :id=>"Student", :onclick=> 'select_type("Student")' %>
+                        <%= link_to image_tag("teacher_homepage.png"),"#", :class => 'user_sel', :id=>"Teacher", :onclick=> 'select_type("Teacher")' %>
+                        <%#= link_to image_tag("coach_homepage.png"),"#", :class => 'user_sel', :id=>"Coach", :onclick=> 'select_type("Coach")' %>
                     </div>
                     <br>
                     <%= form_tag signup_user_path, method: :post do |f| %>
@@ -45,7 +47,7 @@
                         </div>
                         <%= hidden_field_tag "type", "Student" %>
                         <div class="span2">
-                            <%= submit_tag "Sign Up", :class=>"button-blue pull-right" %>
+                            <%= submit_tag "Sign Up", :class=>"button-blue" %>
                         </div>
                     <% end %>
                 </div>
@@ -57,6 +59,8 @@
             </div>
         </div>
     </div>
+</div>
+</div>
 </div>
 <script>
     $("#Student img").css("border","8px solid purple");

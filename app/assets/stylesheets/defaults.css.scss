@@ -47,10 +47,8 @@ a {
   padding-bottom:0;
 }
 #home_students{
-  float:left;
 }
 #home_teachers{
-  float:right;
 }
 .how_work{
     padding-top: 40px;
@@ -81,7 +79,6 @@ color:white;
 #beta_test{
   position:absolute;
   left:76%;
-  top:-13px;
   padding-left:20px;
   padding-right:20px;
   color:white;
@@ -147,9 +144,9 @@ color:white;
   width: 88%;
 height: 100%;
 float: left;
-margin-top: 5px;
-margin-left: -5px;
+margin-left: 5px;
 margin-right: -5px;
+  margin-top:50px;
 }
 #logo_left_border{
   width:5%;
@@ -182,14 +179,22 @@ margin-right: -5px;
   position:relative;
   margin-left:auto;
   margin-right: auto;
+
 }
 input[type="text"] {
   border-radius:0;
   border:1px solid gray;
+  color:black;
+}
+textarea {
+  border-radius:0;
+  border:1px solid gray;
+  color:black;
 }
 input[type="password"] {
   border-radius:0;
   border:1px solid gray;
+  color:black;
 }
 .span2{
   width:135px;

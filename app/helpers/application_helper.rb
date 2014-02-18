@@ -3,7 +3,7 @@ require 'grade6'
 module ApplicationHelper
 
   def title
-    return "SG - SmarterGrades"
+    return "SmarterGrades | The Smartest Way to Learn"
     return "SG - #{@title}"
   end
 

@@ -1,18 +1,22 @@
 <%= render 'shared/analytics' %>
-<div class="navbar" style='margin-bottom:40px;'>
 
-  <div class="navbar-inner navbar-fixed-top" style="height:40px; border-radius:0px; -webkit-border-radius:0px; background:white">
-  	<div class='container' style='width:100%'>
-  	<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </a>
-    <a class='brand'><b style='color:#2ecc71'>Smarter</b><b style='color:#3498db'>Grades</b></a>
-<div class='nav-collapse collapse'>
-        <%= render nav_elts_path %>
-</div>
-</div>
-</div>
-</div>
+<nav class="navbar navbar-default" role="navigation" style='margin-bottom:50px;'>
+	<div class="container-fluid">
+
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#the_nav">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="#"><b style='color:#2ecc71'>Smarter</b><b style='color:#3498db'>Grades</b></a>
+		</div>
+
+
+		<div class='collapse navbar-collapse' id='the_nav'>
+			<%= render nav_elts_path %>
+		</div>
+	</div>
+</nav>
 

@@ -1,21 +1,17 @@
-<h3>Students</h3>
-<div class='stweta'>
-<table>
-	<% @top_weak_students.each do |student| %>
+<h2>Students</h2>
+<div>
 	
-		<tr>
-			<td>
-				<%= link_to "#{student[1]}", details_path(@classroom.id, type: 'students', :student_id => student[0]) %>
-			</td>
-			<td>
-				<% unless student[2]== -1 %>
+	<% @top_weak_students.each do |student| %>
+	<div class='row' style='border:1px solid #ccc; padding:3px;'>
+		<%= link_to "#{student[1]}", details_path(@classroom.id, type: 'students', :student_id => student[0]) %>
+		<div style='float:right'>
+			<% unless student[2]== -1 %>
 				<%= student[2].to_s + "%" %>
-				<%else%>
+			<%else%>
 				<%= "Not Attempted" %>
-				<%end%>
-			</td>
-		</tr>
-
+			<%end%>
+		</div>
+	</div>
 	<% end %>
-</table>
+	
 </div>

@@ -54,19 +54,19 @@ function notepad_new() {
   }
   $("#drawnp").click(function(e){
     if(mode!="dr"){
-      $("#drawnp").css("background-color", "gray");
+      $("#drawnp").css("color", "black");
       mode="dr";
       $("#npPane").hide();
       $("#notes").hide();
       for(i=0; i<notes.length; i++){
-        context.fillStyle="rgb(85, 102, 119)"; 
+        context.fillStyle="white"; 
         context.font="10pt Courier";
         context.fillText(notes[i], 2, i*lheight+12); 
       }
     }
     else{
       mode="wr";
-      $("#drawnp").css("background-color", "white");
+      $("#drawnp").css("color", "white");
       $("#npPane").show();
       $("#notes").show();
       $("#notes").focus();
@@ -123,13 +123,13 @@ function notepad_new() {
   var adding = true
     , subtracting = false
     , multiplying = false;
-  $("#np_add").css("background-color","gray");
+  $("#np_add").css("color","black");
 
   var disable_old_form = function() {
     adding=false;
     subtracting=false;
     multiplying=false;
-    $(".tbicons").css("background-color", "white");
+    $(".tbicons").css("color", "white");
     $("#calc-form").removeClass();
   }
 
@@ -137,7 +137,7 @@ function notepad_new() {
     if(!adding){
       disable_old_form();
       adding=true;
-      $(this).css("background-color", "gray");
+      $(this).css("color", "black");
       $("#calc-form").addClass("addition");
     }
   });
@@ -146,7 +146,7 @@ function notepad_new() {
     if(!subtracting){
       disable_old_form();
       subtracting=true;
-      $(this).css("background-color", "gray");
+      $(this).css("color", "black");
       $("#calc-form").addClass("subtraction");
     }
   });
@@ -155,7 +155,7 @@ function notepad_new() {
     if(!multiplying){
       disable_old_form();
       multiplying=true;
-      $(this).css("background-color", "gray");
+      $(this).css("color", "black");
       $("#calc-form").addClass("multiplication");
     }
   });

@@ -1,4 +1,4 @@
-<ul class='nav'>
+<ul class='nav navbar-nav'>
   	<% if current_user.is_a? Teacher %>
       <li class="divider-vertical"></li>
       <li><%= link_to "Overview", teacherhome_path %></li>
@@ -14,11 +14,7 @@
     <% end %>
   <%= yield :nav_elts if content_for?(:nav_elts) %>
 </ul>
-<i id='navcol' class='icon-align-justify' style='display:none'></i>
-
-
-
-<ul class='nav pull-right'>
+<ul class='nav navbar-nav pull-right'>
   <li class="divider-vertical"></li>
       <li><a href='#'><i class='icon-envelope'></i></a></li>
       <li class="divider-vertical"></li>

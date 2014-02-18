@@ -1,9 +1,6 @@
-<div class="tab-pane" id="chap_problem_type_<%= @problem_type.id%>">
-	<div class="column-listheader">
-		<h4>History</h4>
-	</div>
-	<div class="column-listdiv" style="min-height:400px;">
-		<ul class='column-list2 colum-list22' id="History_tabs">
+<div class='cols-his' id="chap_problem_type_<%= @problem_type.id%>">
+		<h2>History</h2>
+		<ul>
 			<% @answers.each do |answer| %>
 				<% if answer.correct == true%>
 					<li>
@@ -18,5 +15,4 @@
 				<% end %>
 			<% end %>
 		</ul>
-	</div>
 </div>
