@@ -140,7 +140,6 @@ class Classroom < ActiveRecord::Base
         return chart_data
     end
 
-
     def pick_values(chart_data, temp)
         select_90_to_100 = (temp.select{|v| v>=90}).count 
             chart_data.push(["90-100%", select_90_to_100])

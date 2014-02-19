@@ -1,4 +1,4 @@
-<h2>Create Classroom</h2>
+<h2 style='border-bottom:1px solid #e5e5e5'>Create Classroom</h2>
 <%= form_for [@teacher, @classroom], :url => create_classroom_path do |f| %>
     <% if @classroom.errors.any? %>
         <div class="alert alert-error">
@@ -13,14 +13,14 @@
         </div>
     <% end %>
     <div class="input-prepend">
-        <span class="add-on">Classroom Name</span>
-        <%= f.text_field :name, :placeholder => "Type Classroom Name Here !!", id: "classroom_name_modal" %>
+        <label for="classroom_name_modal">Classroom Name</label>
+        <%= f.text_field :name, :placeholder => "Type Classroom Name Here !!", id: "classroom_name_modal", :class => 'form-control' %>
     </div>
-    
+    <br/>
     <div class="input-prepend">
-        <span class="add-on">Student Password</span>
-        <%= f.text_field :student_password, :value => @classroom.rand_password, :readonly => :true %>
+        <label for='student_password'>Student Password</label>
+        <%= f.text_field :student_password, :value => @classroom.rand_password, :readonly => :true, :class => 'form-control' %>
     </div>
-
-    <%= f.submit "Create", :class => 'btn btn-info pull-right' %>
+    <br/>
+    <%= f.submit "Create", :class => 'btn btn-default' %>
 <% end %>

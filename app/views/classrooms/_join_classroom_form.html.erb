@@ -1,9 +1,11 @@
-<h2>Join Classroom</h2>
+<h2 style='border-bottom:1px solid #e5e5e5'>Join Classroom</h2>
+<p>Please input the password for the classroom you wish to join. Any teacher currently able to view the aforementioned classroom will have access to this password.</p>
 <%= form_tag(join_classroom_path(@teacher), method: :post) do %>
 	<div class="input-prepend">
-        <span class="add-on">Classroom Password</span>
-        <%= text_field_tag :class_teacher_pass %>
+        <label for="class_teacher_pass">Classroom Password</label>
+        <%= text_field_tag :class_teacher_pass, nil, :class => 'form-control' %>
     </div>
+    <br/>
 
-	<%= submit_tag "Add", :class => "btn btn-info pull-right" %>
+	<%= submit_tag "Add", :class => "btn btn-default" %>
 <% end %>

@@ -1,18 +1,21 @@
-<div id="new_classroom_Modal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="new_classroom_modal_Label" aria-hidden="true" width="80%">
+<div id="new_class_Modal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class='modal-dialog'>
+        <div class='modal-content'>
     <div class="modal-header">
         <!-- <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button> -->
-        <!-- <h3 id="new_classroom_modal_Label">Create / Join Classroom</h3> -->
     </div>
     <div class="modal-body">
-        <div class="well">
+        <div>
             <%= render "new_classroom_form", :@classroom => @classroom %> 
         </div>
-        <h3>Or</h3>
-        <div class="well">
+        <h3 style='text-align:center; border-top:1px solid #e5e5e5; border-bottom:1px solid #e5e5e5; padding:20px'>Or</h3>
+        <div>
             <%= render "join_classroom_form" %>
         </div>
     </div>
     <div class="modal-footer">
-        <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+        <button class="btn btn-default" data-dismiss="modal" aria-hidden="true">Close</button>
     </div>
+</div>
+</div>
 </div>
