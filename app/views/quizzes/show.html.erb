@@ -1,7 +1,4 @@
 <div class="row-fluid">
-    <%= render 'teachers/teacher_info', :teacher => @teacher %>
-</div>
-<div class="row-fluid">
 	<%- unless @quiz_problems.blank? -%>
 		<%- if defined? @classroom and !@classroom.blank? -%>
 			<div class="span4">

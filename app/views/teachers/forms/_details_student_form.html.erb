@@ -1,13 +1,13 @@
-<%= form_tag details_path(@classroom.id), :method => 'get', :class => 'inline-form', :id => 'student-form' do %>
-  <%= hidden_field_tag "type", type if defined? type %>
-  <%= label_tag "student_id", "Student" %>
-  <% if @students.empty? %>
-    <%= select_tag :student_id, "", disabled: true %>
-  <% else %>
-    <%= select_tag :student_id, 
-      options_from_collection_for_select(@students, 'id', 'name', @student.id),
-      { class: 'select' }
-    %>
-    <%= submit_tag "Get Details", :class=>"button-blue" %>
-  <% end %>
+<%= form_tag details_path(@classroom.id), :method => 'get', :class => 'form-inline', :id => 'student-form' do %>
+	<%= hidden_field_tag "type", type if defined? type %>
+	
+		<div class="form-group">
+		<%= label_tag "student_id", "Student" %>
+			<% if @students.empty? %>
+				<%= select_tag :student_id, "", disabled: true %>
+			<% else %>
+				<%= select_tag :student_id, options_from_collection_for_select(@students, 'id', 'name', @student.id), :class => "form-control", :style => "width: 350px;" %>
+			<% end %>
+		</div>
+	<%= submit_tag "Get Details", :class => "button-blue" %>
 <% end %>

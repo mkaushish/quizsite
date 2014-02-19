@@ -4,4 +4,6 @@
 		<%= render 'topics/topic', :topic => topic, :user => user, :classroom_id => classroom_id %>
 	</div>
 	<%- end -%>
+<%- else -%>
+	<h1>No Post !! Add a new post using form below.</h1>
 <%- end -%>
