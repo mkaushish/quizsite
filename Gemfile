@@ -15,6 +15,7 @@ gem 'roo'
 gem 'iconv'
 gem 'mathjax-rails'
 gem 'delayed_job_active_record'
+gem "pnotify-rails"
 
 
 group :test, :development do

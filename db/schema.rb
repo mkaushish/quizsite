@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140206112610) do
+ActiveRecord::Schema.define(:version => 20140219162845) do
 
   create_table "answers", :force => true do |t|
     t.boolean  "correct"
@@ -365,6 +365,7 @@ ActiveRecord::Schema.define(:version => 20140206112610) do
     t.integer  "badges_level_4_count", :default => 0
     t.integer  "badges_level_5_count", :default => 0
     t.integer  "badges_count",         :default => 0
+    t.integer  "news_feeds_count",     :default => 0
   end
 
   add_index "users", ["email"], :name => "index_users_on_email", :unique => true

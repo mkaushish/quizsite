@@ -38,6 +38,14 @@ Quizsite::Application.routes.draw do
     end
   end
 
+  resources :students do
+    get 'notify_student', on: :collection
+  end
+
+  resources :teachers do
+    get 'notify_teacher', on: :collection
+  end
+
   
   match "/auth/:provider/callback" => "users#create_user_vdp"
 
@@ -71,6 +79,7 @@ Quizsite::Application.routes.draw do
   post 'teacher/:teacher_id/problem_sets',           to: 'problem_sets#create', as: :teacher_problem_sets
   get  'teacher/:teacher_id/problem_sets/:id/edit',  to: 'problem_sets#edit', as: :edit_teacher_problem_set
   put  'teacher/:teacher_id/problem_sets/:id',       to: 'problem_sets#update', as: :teacher_problem_set
+  get  "/teacher/:id/notifications",                 to: 'teachers#notifications', :as => :teacher_notifications
 
   get '/problem_set/:id',                     to: 'problem_sets#view', as: :view_problem_set
   get '/problem_sets/:id/edit_pset',          to: 'problem_sets#edit_pset'

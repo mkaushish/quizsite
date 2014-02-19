@@ -41,6 +41,15 @@
         <div class='the_footer'>
             <script> bclr_pset()</script>
         </div>
+         <% if !@student.nil? && @teacher.nil? %>
+            <script>
+                studentSubscribe();
+            </script>
+        <% elsif @student.nil? && !@teacher.nil? %>
+            <script>
+                teacherSubscribe();
+            </script>
+        <% end %>
     </body>
 </html>
 <script type="text/javascript">

@@ -160,6 +160,7 @@ GEM
       oauth2 (~> 0.9.3)
       omniauth (~> 1.2)
     pg (0.17.1)
+    pnotify-rails (1.2.2)
     polyamorous (0.6.4)
       activerecord (>= 3.0)
     polyglot (0.3.3)
@@ -296,6 +297,7 @@ DEPENDENCIES
   omniauth-google-oauth2
   omniauth-oauth2
   pg
+  pnotify-rails
   quiet_assets
   rails (= 3.2.13)
   rails-dev-tweaks (~> 0.6.1)

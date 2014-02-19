@@ -1,7 +1,7 @@
 class TeachersController < ApplicationController
     
     before_filter :validate_teacher, :only => [:edit, :update]
-    before_filter :validate_teacher_via_current_user, :only => [:home, :student]
+    before_filter :validate_teacher_via_current_user, :only => [:home, :student, :notify_teacher]
 
     def home
         @classrooms = @teacher.classrooms
@@ -44,6 +44,23 @@ class TeachersController < ApplicationController
             else
                 format.html { render action: "edit" }
             end
+        end
+    end
+
+    def notify_teacher
+        notification_count = @teacher.cached_count
+        if notification_count < @teacher.news_feeds_count
+            respond_to do |format|
+                format.js
+            end
+            @teacher.flush_cache
+        end
+    end
+
+    def notfications
+        @notfications = @teacher.news_feeds.order("created_at DESC").pluck(:content)
+        respond_to do |format|
+            format.js
         end
     end
 

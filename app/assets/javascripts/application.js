@@ -12,8 +12,25 @@
 //= require jquery.mousewheel
 //= require jquery.jscrollpane.min
 //= require jquery.countdown
+//= require pnotify
 //= require_tree .
 
 $(function() {
-  	$('.with_tooltip').tooltip();
+    $('.with_tooltip').tooltip();
 });
+
+function studentSubscribe() {
+  setInterval(checkNotificationsStudent, 30000);
+}
+
+function checkNotificationsStudent() {
+  $.ajax("/students/notify_student");
+}
+
+function teacherSubscribe() {
+  setInterval(checkNotificationsTeacher, 30000);
+}
+
+function checkNotificationsTeacher() {
+  $.ajax("/teachers/notify_teacher");
+}

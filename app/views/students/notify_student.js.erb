@@ -1,0 +1,9 @@
+$(function () {
+	$.pnotify({
+  	title: 'New Notification',
+  	text: '<%= @student.news_feeds.last.content %>',
+  	nonblock: true
+	});
+});
+
+
