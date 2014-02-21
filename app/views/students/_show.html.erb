@@ -12,11 +12,11 @@
 <div id="problems_history" class="teacher-details-header" style="margin-bottom:5px;"></div>
 <div class="row-clearfix">
   	<div class="col-md-4">
-  		<div class='cols-his'>
+  		<div>
 	  	<h2>Problem Sets</h2>
-	  	<ul>
+	  	<ul class='col-list-2'>
 			<% @problem_sets.each do |problem_set| %>
-				<li><%= link_to problem_set.name, get_problem_set_history_path(@student.id, problem_set_id: problem_set.id), remote: :true %></li>
+				<li id="chap_problem_set_<%= problem_set.id %>"><%= link_to problem_set.name, get_problem_set_history_path(@student.id, problem_set_id: problem_set.id), remote: :true %></li>
 			<% end %>
 	  	</ul>
 	  </div>

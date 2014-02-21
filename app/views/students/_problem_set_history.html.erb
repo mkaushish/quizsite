@@ -1,8 +1,8 @@
-<div class='cols-his' id="chap_problem_set_<%= @problem_set.id %>">
+<div id="chap_problem_set_<%= @problem_set.id %>">
 		<h2>Problem Types</h2>
-		<ul>	  							
+		<ul class='col-list-2'>	  							
 			<%- @problem_set_history.each do |problem_set_history| -%>
-				<li><%= link_to problem_set_history[1], get_problem_types_history_path(@student.id, problem_type_id: problem_set_history[0]), remote: :true %> 
+				<li id="chap_problem_type_<%= problem_set_history[0] %>"><%= link_to problem_set_history[1], get_problem_types_history_path(@student.id, problem_type_id: problem_set_history[0]), remote: :true %> 
 				<span style="float:right;"><%= ( problem_set_history[2].to_s + "/" + problem_set_history[3].to_s) %></span></li>
 			<% end %>
 		</ul>   

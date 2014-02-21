@@ -146,6 +146,9 @@ $bar_to_top: ($image_height / 2) + 5px;
   width:235px;
   height:100%;
   box-shadow:0 1px 6px #999999;
+  background-color: white;
+  z-index:19;
+  overflow: scroll;
 }
 .left-link{
   margin-top:5px;
@@ -179,4 +182,12 @@ $bar_to_top: ($image_height / 2) + 5px;
   padding-left:0;
   padding-right:0;
 }
+}
+.coll-menu{
+  position:fixed;
+  height:100%;
+  box-shadow:0 1px 6px #999999;
+  background-color: white;
+  padding:5px;
+  z-index:19;
 }
