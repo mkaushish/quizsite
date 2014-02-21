@@ -4,4 +4,11 @@ $(function () {
   	text: '<%= @teacher.news_feeds.last.content %>',
   	nonblock: true
 	});
+  $('#teacher_bubble').css("position", "absolute");
+  $('#teacher_bubble').css('background-color', 'red');
+  $('#teacher_bubble').css('height', '12px');
+  $('#teacher_bubble').css('width', '12px');
+  $('#teacher_bubble').css('border-radius', '50%');
+  $('#teacher_bubble').css('margin-top', '-39px');
+  $('#teacher_bubble').css('margin-left', '24px');
 });
