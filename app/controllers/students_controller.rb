@@ -2,7 +2,7 @@ class StudentsController < ApplicationController
     
     before_filter :authenticate, :except => [:show, :new, :create]
     before_filter :validate_student, :only => [:update, :show, :chart, :badges, :notifications, :progress, :quizzes, :get_problem_set_history, :get_problem_type_history]
-    before_filter :validate_student_via_current_user, :only => [:home, :edit]
+    before_filter :validate_student_via_current_user, :only => [:home, :edit, :notify_student]
 
     def home
         @pset_instances         = @student.problem_set_instances.order("problem_set_id ASC").includes(:problem_set)
@@ -28,6 +28,16 @@ class StudentsController < ApplicationController
         @notifications = @student.news_feeds.order("created_at DESC").limit(10).pluck(:content)
         respond_to do |format|
             format.js
+        end
+    end
+
+    def notify_student
+        notification_count = @student.cached_count
+        if notification_count < @student.news_feeds_count
+            respond_to do |format|
+                format.js
+            end
+            @student.flush_cache
         end
     end
     

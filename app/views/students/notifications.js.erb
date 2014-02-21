@@ -1,1 +1,11 @@
-$("#news").html('<%= j(render 'students/notifications', :@notifications => @notifications) %>');
+
+$("#news").html('<%= j(render 'notifications', :notifications => @notifications) %>');
+
+$('#student_bubble').css('position', '');
+$('#student_bubble').css('background-color', '');
+$('#student_bubble').css('height', '');
+$('#student_bubble').css('width', '');
+$('#student_bubble').css('border-radius', '');
+$('#student_bubble').css('margin-top', '');
+$('#student_bubble').css('margin-left', '');
+$('#student_bubble').css('z-index', '');
