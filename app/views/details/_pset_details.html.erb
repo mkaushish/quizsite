@@ -1,7 +1,9 @@
+<br />
 <%- unless @problem_sets.blank? -%>
 	<%= render "teachers/forms/details_problem_set_form", :type => "problem_sets" %>
 <%- end -%>
-<div class='teacher-details-body row-fluid'>
+<br />
+<div class="row-clearfix">
 <!-- 	<div class="span4" style="width:30%">
 		<div>
 			<%#- unless @problem_sets.blank? -%>
@@ -19,7 +21,6 @@
 			<%#- end -%>
 		</div>
 	</div> -->
-	<div>
 		<%- unless @problem_set.blank? -%>
 			<div>
 				<ul id="pset_tab" class="nav nav-tabs" style="font-family:Courier">
@@ -33,7 +34,7 @@
 		<%- else -%>
 				No Problem Sets in the this classroom. Please add classroom!
 		<%- end -%>
-	</div>
+	
 </div>
 <script>
 $('#pset_tab a').click(function (e) {

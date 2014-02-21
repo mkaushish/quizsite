@@ -1,5 +1,5 @@
 
-	<% current_user.news_feeds.order("created_at DESC").each do |news_feed| %>
-        	<li class='notf'><%= news_feed.content %></li>
+	<% @notifications.each do |news_feed| %>
+        	<li class='notf'><%= news_feed %></li>
     <% end %>    	
     <li class='notf'><%= "Welcome to SmarterGrades!" %></li>

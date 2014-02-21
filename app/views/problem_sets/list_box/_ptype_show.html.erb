@@ -1,6 +1,6 @@
 <% ptype = item %>
 
-<div id="pt_<%= ptype.id %>" class="list_box problem_list_box">
+<div id="pt_<%= ptype.id %>" class="list_box_2 color_list_box problem_list_box pset_list_box">
   <p><%= ptype.to_s %></p>
   <%= link_to "Try Example", problem_type_path(ptype), remote:true %>
 </div>

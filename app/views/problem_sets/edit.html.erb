@@ -1,46 +1,44 @@
 <% if @problem_set.valid? %>
-  <div class=row>
-    <ul class=errors>
-      <% @problem_set.errors.full_messages.each do |error| %>
-        <li><%= error %></li>
-      <% end %>
-    </ul>
-  </div>
+	<div class="row">
+		<ul class="errors">
+			<% @problem_set.errors.full_messages.each do |error| %>
+				<li><%= error %></li>
+			<% end %>
+		</ul>
+	</div>
 <% end %>
-<%= form_for [@teacher, @problem_set], method: :put  do |f| %>
-<div class=row>
-  <div class=span4>
-    <div class=dotted-border-header>
-      Other Chapters
-    </div>
-    <div class='dotted-border teacher-details-column'>
-      <ul class='column-list' id="chapter_tabs">
-        <% @chapters.each do |chapter| %>
-          <li><%= link_to chapter.name, "#chap_#{chapter.id}", :"data-toggle" => "tab" %></li>
-        <% end %>
-      </ul>
-    </div>
-  </div>
+<div class="row">
+	<%= form_for [@teacher, @problem_set], method: :put  do |f| %>
 
-  <div class="span8">
-    <div class="row-fluid teacher-details-header inline-form" style="margin-bottom:5px;">
-      Problem Set Name: <%= f.text_field :name %>
-      <%= f.submit "Update", :class => "button-blue pull-right", :style => "margin-top:0;" %>
-    </div>
-    <div class=tab-content>
-      <% @chapters.each do |chapter| %>
-        <div class="tab-pane" id="chap_<%= chapter.id %>">
-          <%= render :partial => 'shared/list_box_table', 
-            :locals  => { items: chapter.problem_types, partial: 'problem_sets/list_box/ptype_edit' } %>
-        </div>
-      <% end %>
-    </div>
-  </div>
+		<div class="col-md-4">
+			<h2>SmarterGrades Chapters</h2>
+			<ul class="col-list-2 overlay_list">
+				<li><h3>Choose Chapter</h3></li>
+				<% @chapters.each do |chapter| %>
+					<li><%= link_to chapter.name, "#chap_#{chapter.id}", :data => { :toggle => "tab" } %></li>
+				<% end %>
+			</ul>
+		</div>
+		<div class="col-md-8">
+			<div style="margin-top: 25px; margin-bottom:25px;">
+				Problem Set Name: <%= f.text_field :name %>
+				<%= f.submit "Update", :class => "button-blue", :style => "margin-top:0;" %>
+			</div>
+			<div class="tab-content">
+				<% @chapters.each do |chapter| %>
+					<div class="tab-pane" id="chap_<%= chapter.id %>">
+						<%= render :partial => 'shared/list_box_table', 
+							:locals  => { items: chapter.problem_types, partial: 'problem_sets/list_box/ptype_edit' } %>
+					</div>
+				<% end %>
+			</div>
+		</div>
+	<% end %>
 </div>
 <script>
-  $(function() { 
-    $('.checkbox').checkBox();
-    $('#chapter_tabs a:last').tab('show');
-  }); 
+	$(function() { 
+		$('.checkbox').checkBox();
+		$('#chapter_tabs a:last').tab('show');
+	}); 
 </script>
-<% end %>
+

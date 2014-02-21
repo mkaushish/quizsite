@@ -1,28 +1,32 @@
-<div id="assign_quiz_to_Modal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="assign_quiz_to_ModalLabel" aria-hidden="true">
-    <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-        <h3 id="assign_quiz_to_ModalLabel">Choose whom to assign quiz</h3>
-    </div>
-    <div class="modal-body" id="quiz_type_modal_body">
-        <p>
-            <%= form_tag set_type_teacher_quizzes_path, method: :post, remote: :true do %>
-                <%= radio_button_tag 'aqt', 'Single Classroom' %>
-                <%= label_tag 'Single Classroom Only' %>
-                <br />
-                <%= radio_button_tag 'aqt', 'Multiple Classrooms' %>
-                <%= label_tag 'Multiple Classrooms' %>
-                <br />
-                <%= radio_button_tag 'aqt', 'Specific Students' %>
-                <%= label_tag 'Specific Students' %>
-                
-                <%- if defined? @quiz_id and !@quiz_id.blank? -%>
-                    <%= hidden_field_tag "quiz_id", @quiz_id %>
-                <%- end -%>
-                <%= submit_tag "Submit", :class => "btn pull-right" %>
-            <% end %>    
-        </p>
-    </div>
-    <div class="modal-footer">
-        
+<div id="assign_quiz_to_Modal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class='modal-dialog'>
+        <div class='modal-content'>
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h3 id="assign_quiz_to_ModalLabel">Choose whom to assign quiz</h3>
+            </div>
+            <div class="modal-body" id="quiz_type_modal_body">
+                <p>
+                    <%= form_tag set_type_teacher_quizzes_path, method: :post, remote: :true do %>
+                        <%= radio_button_tag 'aqt', 'Single Classroom' %>
+                        <%= label_tag 'Single Classroom Only' %>
+                        <br />
+                        <%= radio_button_tag 'aqt', 'Multiple Classrooms' %>
+                        <%= label_tag 'Multiple Classrooms' %>
+                        <br />
+                        <%= radio_button_tag 'aqt', 'Specific Students' %>
+                        <%= label_tag 'Specific Students' %>
+                        
+                        <%- if defined? @quiz_id and !@quiz_id.blank? -%>
+                            <%= hidden_field_tag "quiz_id", @quiz_id %>
+                        <%- end -%>
+                        <%= submit_tag "Submit", :class => "btn pull-right" %>
+                    <% end %>    
+                </p>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal" aria-hidden="true">Close</button>
+            </div>
+        </div>
     </div>
 </div>

@@ -1,16 +1,16 @@
-<div class="row">
-	<%#= @student.name %>
+<div class="row-clearfix">
 	<% if @student.is_a?(Student) and current_user.is_a?(Teacher) %>
- 		<%= link_to "Give a Merit", new_teacher_badge_path(current_user, :student_id => @student.id), remote: :true, :class => 'button-blue', id: "merit_link_#{@student.id}" if @merit.blank? %>
+ 		<br />
+ 		<%= link_to "Give a Merit", new_teacher_badge_path(current_user, :student_id => @student.id), remote: :true, :class => 'button-blue pull-right', id: "merit_link_#{@student.id}" if @merit.blank? %>
     <% end %>
-    <div class "row" id="merit_box_<%= @student.id %>">
+    <div class "row-clearfix" id="merit_box_<%= @student.id %>">
         <%= render "badges/student_merit", :user_id => @student.id, :merit => @merit %>
     </div>
-    <div class"row" id="merit_form_<%= @student.id %>" style="display: inline-block;">
+    <div class"row-clearfix" id="merit_form_<%= @student.id %>" style="display: inline-block;">
     </div>
 </div>
 <div id="problems_history" class="teacher-details-header" style="margin-bottom:5px;"></div>
-<div class="row">
+<div class="row-clearfix">
   	<div class="col-md-4">
   		<div class='cols-his'>
 	  	<h2>Problem Sets</h2>
