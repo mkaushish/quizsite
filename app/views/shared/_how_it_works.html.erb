@@ -1,90 +1,31 @@
-<div class="page_header_home">
-    <div class="intro-text">
-        How 
-        <div class="logo_blue">Smarter</div>
-        <div class="logo_green">Grades</div>
-        Works
-    </div>
-</div>
-
-<!-- <a class="how_work">How Does it Work?</a> -->
-<ul class="nav nav-tabs" id="myTab" style="margin-top: 18px; padding-left: 180px;">
-    <li class="active"><a href="#student_works">STUDENTS</a></li>
-    <li><a href="#teacher_works">TEACHERS</a></li>
-    <li><a href="#coach_works">COACHES</a></li>
-</ul>
-
-<div class="tab-content">
-    <div class="tab-pane active" id="student_works">
+<div class='row'>
+    <h2><img src="/assets/teacher.png"/>Teachers<img src="/assets/principal.png" style='width:46px'/></h2>
         <div id="steps">
-            <span class="step">1</span>
-            <h2><span class="blue_text">SIGN UP</span></h2>
-            <%= link_to "SIGN UP", "#register", "data-toggle" => "modal", :class => "sign_up_home", :style => "float:none"%>
-            <!--<p>Quickly signup on SmarterGrades through a simple from, pay the amount via Google Wallet and get access to the world of subject questions with explanations.</p>
-
-            <%#= image_tag "signup_form.png", :size => "300x300", :style =>"border: 1px solid #ccc" %>-->
+            <h2><span class="blue_text">Earn Badges and Points!!</span></h2>
+            <div class='row'>
+                <img src='/assets/badgespts.png' style='max-width:100%;'>
+            </div>
         </div>
         <div id="steps">
-            <span class="step">2</span>
-            <h2><span class="blue_text">LEARN</span></h2>
-            <p>After signup read about the Problem Sets that are assigned by your teacher. Start practising problems particular to the problem sets and problem types. You will be prompted whether you answer is right or wrong and each of these problems have explanations so that if you don't know how to do it you can learn it how from there. Happy Learning !!</p>
-            <h3>How your landing page looks</h3>
-            <%= image_tag "student_landing_page.png", :style =>"border: 1px solid #ccc; width:100%" %><br><br>
-            <h3>How Problem looks</h3>
-            <%= image_tag "problem.png", :style =>"border: 1px solid #ccc; width:100%" %>
+            <h2><span class="blue_text">See Detailed Graphs of your Progress!!</span></h2>
+            <p>Below is mine. I'm not very good at Maths. I'm sure you'll do better than me!</p>
+            <img src='/assets/my_progress.png' style='max-width:100%;'>
         </div>
         <div id="steps">
-            <span class="step">3</span>
-            <h2><span class="blue_text">EARN POINTS AND BADGES</span></h2>
-            <p>You'll get Points and Badges for problems. Difficult the Problem Higher will be the Points. Even Get few points on wrong Answer. Badges will be distributed on some parameters and each badge has a level. Higher the level of Badge higher will be the increment of Points</p>
-            <h3>Points</h3>
-            <%= image_tag "points.png", :style =>"border: 1px solid #ccc; width:100%" %><br><br>
-            <h3>Badges</h3>
-            <%= image_tag "badges.png", :style =>"border: 1px solid #ccc; width:100%" %>
+            <h2><span class="blue_text">Share and Discuss Interesting Videos, Images or Questions with your Classmates!!</span></h2>
+            <div class='row'>
+            
+            <div class='col-md-6'>
+                <img src='/assets/post1.png' style='max-width:100%;'>
+            </div>
+            <div class='col-md-6'>
+                <img src='/assets/comments2.png' style='max-width:100%;'>
+            </div>
+            </div>
         </div>
-        <div id="steps">
-            <span class="step">4</span>
-            <h2><span class="blue_text">QUIZ</span></h2>
-            <p>Test yourself by attempting quizzes that are assigned by your Teacher. Attempt Quiz ---> Get Result ---> Get Points.</p>
-            <h3>Where you can start Quiz</h3>
-            <%= image_tag "quiz_button.png", :style =>"border: 1px solid #ccc; width:100%" %><br><br>
-            <h3>How your Quiz Result will look</h3>
-            <%= image_tag "quiz_result.png", :style =>"border: 1px solid #ccc; width:100%" %>
+        <div id="steps" style='height:400px;'>
+            <h2><span class="blue_text">Choose Your Avatar!!</span></h2>
+            <%=render 'shared/select_image'%>
         </div>
-        <!-- <div id="student_steps">
-            <span class="step">5</span>
-            <h2>Get Certified by SmarterGrades</h2>
-            <p>Complete problems and then get Certified so that you can take prints and show them to folks. </p>
-        </div> -->
-    </div>
-    <div class="tab-pane" id="teacher_works">
-        <div id="steps">
-            <span class="step">1</span>
-            <h2><span class="blue_text">ANALYSE STUDENT's PERFORMANCE</span></h2>
-            <p>You can analyse the performance of the students on vairous aspects through visual charts and numbers. Also you can view answer of the student to the specific problem.</p>
-        </div>
-
-        <div id="steps">
-            <span class="step">2</span>
-            <h2><span class="blue_text">CREATE CLASSROOMS</span></h2>
-            <p>Create Classrooms so that you can add multiple students to them. Each Classroom will have a password from which students have to signup so that they can be associated with it.</p>
-        </div>
-        <!--<div id="steps">
-            <span class="step">3</span>
-            <h2><span class="blue_text">ASSIGN PROBLEM SETS</span></h2>
-            <p>You can assign multiple problem sets to a classroom so that your students can attempt the problems based on your selection. </p>
-        </div>-->
-        <div id="steps">
-            <span class="step">4</span>
-            <h2><span class="blue_text">CREATE QUIZZES</span></h2>
-            <p>You can create Quizzes and assign them to the classroom so that students can progress can be tested. You can create quizzes from the random problems and your custom ones</p>
-        </div>
-    </div>
-    <div class="tab-pane" id="coach_works">
-        <div id="steps">
-            <span class="step">1</span>
-            <h2><span class="blue_text">ANALYSE STUDENT's PERFORMANCE</span></h2>
-            <p>You can analyse the performance of the students on vairous aspects through visual charts and numbers. Also you can view answer of the student to the specific problem. You can contact the Teacher after this if you want to.</p>
-        </div>
-    </div>      
+        
 </div>

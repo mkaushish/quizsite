@@ -3,40 +3,38 @@
         <div class='coll-menu' style='display:none'>
             <div><span class='glyphicon glyphicon-forward'></span></div>
         </div>
-            <div class="menu-links">
-                <div class='left-link' id='coll-men'>Collapse Menu <span class='glyphicon glyphicon-backward pull-right' style='margin-right:10px'></span></div>
-            <h4 class='left-link'><%= render :partial => 'teachers/forms/details_classroom_form' %></h4>
-            <ul style='padding-left:0px'>
-
-                <li class='left-link'>
+            <div  class="menu-links" >
+                
+            <ul class='nav nav-list' style='padding-left:0px'>
+                <li id='coll-men'>Collapse Menu <span class='glyphicon glyphicon-backward pull-right' style='margin-right:10px'></span></li>
+            <li ><%= render :partial => 'teachers/forms/details_classroom_form' %></li>
+                <li >
                     <%= link_to "Manage Class Problem Sets", show_problem_sets_path(@teacher, @classroom.id), :class => "button_blue" %>
                 </li>
-                <li class='left-link' style='height:30px'>
-                </li>
-                <li class='left-link'>
+                <li >
                     <%= link_to "Students", details_path(@classroom.id, type: "students") %>
 
                 </li>
-                <li class='left-link' id='left-link-pr'>
+                <li >
                     <%= link_to "Problem Sets", details_path(@classroom.id, type: "problem_sets") %>
                 </li>
-                <li class='left-link'>
+                <li >
                     <%= link_to "Quizzes", details_path(@classroom.id, type: "quizzes") %>
                 </li>
-                <li class='left-link'>
+                <li >
                     <%= link_to "Grades", details_path(@classroom.id, type: "grades") %>
                 </li>
-                <li class='left-link'>
+                <li >
                     <%= link_to "Discussions", classroom_path(@classroom.id), :@teacher => @teacher %>
                 </li>
-                <li class='left-link'>
+                <li >
                 <%= link_to "Sessions", classroom_lessons_path(@classroom.id) %>
             </li>
                 </div>
             </ul>
             <%= yield :teacher_sidebar %>
         </div>
-        <div class='the-content' style='margin-left:250px;'>
+        <div class='the-content' style='margin-left:250px; padding:20px'>
             <div class='teacher-details-header'>
                     <%#= link_to "Assign: Problem Set", show_psets_path(@classroom.id), :class => "button-blue pull-right" %>
 		    </div>

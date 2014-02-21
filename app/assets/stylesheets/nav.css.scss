@@ -142,13 +142,30 @@ $bar_to_top: ($image_height / 2) + 5px;
   border-right: 0;
 }
 .menu-links{
+  border:1px solid #ccc;
   position:fixed;
   width:235px;
   height:100%;
-  box-shadow:0 1px 6px #999999;
-  background-color: white;
+  background-color: #f9f9f9;
   z-index:19;
   overflow: scroll;
+  font-size:14px;
+  li{
+    border-bottom:1px solid #e5e5e5;
+    a{
+      color:#585858;
+      padding:5px;
+    }
+    a:hover{
+      background-color: white;
+    }
+  }
+  li.active{
+    background-color:white;
+  }
+  li:hover{
+    background-color: white
+  }
 }
 .left-link{
   margin-top:5px;

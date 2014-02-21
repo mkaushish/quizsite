@@ -9,7 +9,7 @@
 <div class="row">
 	<div class="col-md-4">
 		<h2>
-			Chapters
+			Problem Sets
 		</h2>
 		<div>
 			<ul class='col-list-2' id="chapter_tabs">
@@ -48,7 +48,7 @@
 			<ul class='col-list-2' id="custom_problems">
 				<% if !@custom_problems.blank? %>
 					<% @custom_problems.each do |problem| %>
-						<li><%= render "custom_problems", :problem => problem %></li>
+						<%= render "custom_problems", :problem => problem %>
 					<% end %>
 				<% else %>
 					<p id="no_cprob_msg"><%= "You haven't created any problem!" %></p>
