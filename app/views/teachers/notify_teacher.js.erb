@@ -2,6 +2,8 @@ $(function () {
 	$.pnotify({
   	title: 'New Notification',
   	text: '<%= @teacher.news_feeds.last.content %>',
+    addclass: "stack-bottomright",
+    stack: stack_bottomright,
   	nonblock: true
 	});
   $('#teacher_bubble').css("position", "absolute");
@@ -12,3 +14,5 @@ $(function () {
   $('#teacher_bubble').css('margin-top', '-39px');
   $('#teacher_bubble').css('margin-left', '24px');
 });
+
+var stack_bottomright = {"dir1": "up", "dir2": "left", "firstpos1": 25, "firstpos2": 25};

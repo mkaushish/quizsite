@@ -15,6 +15,9 @@
 //= require pnotify
 //= require_tree .
 
+$.pnotify.defaults.styling = "bootstrap3";
+$.pnotify.defaults.history = false;
+
 $(function() {
     $('.with_tooltip').tooltip();
 });
