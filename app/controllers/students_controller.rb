@@ -1,5 +1,5 @@
 class StudentsController < ApplicationController
-    
+
     before_filter :authenticate, :except => [:show, :new, :create]
     before_filter :validate_student, :only => [:update, :show, :chart, :badges, :notifications, :progress, :quizzes, :get_problem_set_history, :get_problem_type_history]
     before_filter :validate_student_via_current_user, :only => [:home, :edit, :notify_student]
@@ -10,20 +10,20 @@ class StudentsController < ApplicationController
         @active_problem_set_ids = @classroom.classroom_problem_sets.only_active.pluck(:problem_set_id)
         @history                = @student.answers.limit(11).includes(:problem_type).order("created_at DESC")
         @pset_instances         = @pset_instances.select {|v| @active_problem_set_ids.include? v.problem_set_id }
-        
+
         # @all_badges = @student.all_badges
     end
-    
+
     def badges
         @shape = params[:shape]
-        @student_badges = @student.badges.where("level = ?", @shape) 
+        @student_badges = @student.badges.where("level = ?", @shape)
         @all_badges = @student.all_badges.select{ |v| v[2] == @shape.to_i }
         respond_to do |format|
             format.html
             format.js
         end
     end
-    
+
     def notifications
         @notifications = @student.news_feeds.order("created_at DESC").pluck(:content)
         respond_to do |format|
@@ -40,7 +40,7 @@ class StudentsController < ApplicationController
             @student.flush_cache
         end
     end
-    
+
     def show
         if current_user.is_a? Teacher
             @problem_sets = @student.problem_sets.order("id ASC").includes(:problem_types)
@@ -103,15 +103,15 @@ class StudentsController < ApplicationController
         @chart_data_6 = charts_data[5]
         @chart_data_7 = charts_data[6]
         @chart_data_8 = charts_data[7]
-    end   
-    
+    end
+
     def problemset_chart
         @problem_set = ProblemSet.find_by_id(params[:pset])
         @chart_data_1 = @problem_set.chart_percentage_of_correct_answers_by_problem_set
         @chart_data_2 = @problem_set.chart_percentage_of_wrong_answers_by_problem_set
         respond_to do |format|
-            format.js 
-        end 
+            format.js
+        end
     end
 
     def get_problem_set_history
