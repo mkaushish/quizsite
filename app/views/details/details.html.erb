@@ -1,8 +1,13 @@
 <div class="row-fluid" style='margin-top:50px;'>
     <div>
+        <div class='coll-menu' style='display:none'>
+            <div><span class='glyphicon glyphicon-forward'></span></div>
+        </div>
             <div class="menu-links">
+                <div class='left-link' id='coll-men'>Collapse Menu <span class='glyphicon glyphicon-backward pull-right' style='margin-right:10px'></span></div>
             <h4 class='left-link'><%= render :partial => 'teachers/forms/details_classroom_form' %></h4>
             <ul style='padding-left:0px'>
+
                 <li class='left-link'>
                     <%= link_to "Manage Class Problem Sets", show_problem_sets_path(@teacher, @classroom.id), :class => "button_blue" %>
                 </li>
@@ -31,7 +36,7 @@
             </ul>
             <%= yield :teacher_sidebar %>
         </div>
-        <div style='margin-left:250px;'>
+        <div class='the-content' style='margin-left:250px;'>
             <div class='teacher-details-header'>
                     <%#= link_to "Assign: Problem Set", show_psets_path(@classroom.id), :class => "button-blue pull-right" %>
 		    </div>
@@ -67,4 +72,21 @@
 
 <script>
 $('nav').addClass('navbar-fixed-top');
+shown=true;
+$('#coll-men').click(function(){
+    if(shown){
+        $('.menu-links').fadeOut();
+        $('.coll-menu').fadeIn();
+        $('.the-content').css('margin-left', '40px');
+        shown=false;
+    }
+});
+$('.coll-menu').click(function(){
+    if(!shown){
+        $('.menu-links').fadeIn();
+        $('.coll-menu').fadeOut();
+        $('.the-content').css('margin-left', '250px');
+        shown=true;
+    }
+});
 </script>

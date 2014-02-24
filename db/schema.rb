@@ -62,7 +62,7 @@ ActiveRecord::Schema.define(:version => 20140219162845) do
     t.datetime "updated_at"
     t.datetime "starts_at"
     t.datetime "ends_at"
-    t.boolean  "active",         :default => true
+    t.boolean  "active"
   end
 
   create_table "classroom_quizzes", :force => true do |t|
@@ -178,7 +178,7 @@ ActiveRecord::Schema.define(:version => 20140219162845) do
   create_table "problem_set_instances", :force => true do |t|
     t.integer  "user_id"
     t.integer  "problem_set_id"
-    t.datetime "stop_green",     :default => '2014-02-04 05:01:47', :null => false
+    t.datetime "stop_green",     :default => '2013-11-16 05:34:23', :null => false
     t.integer  "num_red",        :default => 0
     t.integer  "num_green",      :default => 0
     t.integer  "num_blue",       :default => 0
@@ -229,11 +229,11 @@ ActiveRecord::Schema.define(:version => 20140219162845) do
     t.integer  "points",          :default => 0,                     :null => false
     t.integer  "points_wrong",    :default => 0,                     :null => false
     t.integer  "points_right",    :default => 100,                   :null => false
-    t.datetime "stop_green",      :default => '2014-02-04 05:01:47', :null => false
+    t.datetime "stop_green",      :default => '2013-11-16 05:34:23', :null => false
     t.integer  "points_required", :default => 500
     t.datetime "created_at",                                         :null => false
     t.datetime "updated_at",                                         :null => false
-    t.string   "color",           :default => "red"
+    t.string   "color",           :default => "yellow"
   end
 
   add_index "problem_stats", ["user_id", "problem_type_id"], :name => "problem_stats_user_problem_type", :unique => true
@@ -330,12 +330,12 @@ ActiveRecord::Schema.define(:version => 20140219162845) do
 
   create_table "topics", :force => true do |t|
     t.string   "title"
-    t.text     "description"
     t.integer  "user_id"
     t.integer  "classroom_id"
     t.integer  "comments_count", :default => 0
     t.datetime "created_at",                    :null => false
     t.datetime "updated_at",                    :null => false
+    t.text     "description"
   end
 
   create_table "users", :force => true do |t|

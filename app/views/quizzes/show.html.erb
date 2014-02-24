@@ -1,12 +1,9 @@
-<div class="row-fluid">
-    <%= render 'teachers/teacher_info', :teacher => @teacher %>
-</div>
-<div class="row-fluid">
+<div class="row-clearfix">
 	<%- unless @quiz_problems.blank? -%>
 		<%- if defined? @classroom and !@classroom.blank? -%>
-			<div class="span4">
+			<div class="col-md-4">
 		<%- else -%>
-			<div class="span12">
+			<div class="col-md-12">
 		<%- end -%>
 				<h3>Quiz Problems</h3>
 				<table class="table table-hover">
@@ -26,46 +23,42 @@
 		<%= "No Quiz Problems" %>
 	<%- end -%>
 	<%- if defined? @classroom and !@classroom.blank? -%>
-		<div class="span4">
-        	<div class="dotted-border-header">
-            	Student Quiz Progress
-        	</div>
+		<div class="col-md-4">
+			<h3>Student Quiz Progress</h3>
+			<ul class="col-list-2 overlay_list">
+				<%- @quiz_result.each do |result| -%>
+   					<li>
+   						<%#= link_to result[1], student_path(result[0]), remote: :true %>
+   						<%= result[1] %>
+   						<% if result[3].nil?%>
+							<span class"pull-right"><%= result[2] %></span>
+						<% else %>
+							<%= link_to result[2], quiz_answers_path(result[3].to_i, result[0].to_i), remote: :true, :class => "pull-right" %>
+						<% end %>
+					</li>
+				<%- end -%>
+			</ul>
         	<div class='dotted-border teacher-details-column'>
-            	<ul class='column-list' id="quiz_results">
-	   				<% @quiz_result.each do |result| %>
-	   					<li>
-	   						<%= link_to result[1], student_path(result[0]) %>
-	   						<% if result[3].nil?%>
-								<span class"pull-right"><%= result[2] %></span>
-							<% else %>
-								<%= link_to result[2], quiz_answers_path(result[3].to_i, result[0].to_i), remote: :true, :class => "pull-right" %>
-							<% end %>
-						</li>
-					<% end %>
-				</ul>
+            	<ul class="col-list-2 overlay_list" id="quiz_results"></ul>
 			</div>
 		</div>	
 		<%- unless @quiz_problems.blank? -%>
-			<div class="span4">
-	        	<div class="dotted-border-header">
-	            	Answers correct per Quiz Problem
-	        	</div>
-	        	<div class='dotted-border teacher-details-column'>
-	            	<ul class='column-list' id="answers_correct_per_problem">
-		   				<%- @quiz_problems.each do |quiz_problem| -%>
-		   					<li>
-			   					<%= link_to quiz_problem.problem.to_s, problem_path(quiz_problem.problem_id), remote: :true %>
-			   					<%-	total_answers =  quiz_problem.problem.answers.where(:user_id => @student_ids) -%>
-			   					<%- total_answers_count = total_answers.count -%>
-			   					<%- answers_correct = total_answers.pluck(:correct).count -%>
-			   					<span class"pull-right"><%= "#{answers_correct} / #{total_answers_count}" %></span>
-			   				</li>
-		   				<%- end -%>
-					</ul>
-				</div>
+			<div class="col-md-4">
+	        	<h3>Answers correct</h3>
+	        	<ul class="col-list-2 overlay_list">
+        			<%- @quiz_problems.each do |quiz_problem| -%>
+	   					<li>
+		   					<%= link_to quiz_problem.problem.to_s, problem_path(quiz_problem.problem_id), remote: :true %>
+		   					<%-	total_answers =  quiz_problem.problem.answers.where(:user_id => @student_ids) -%>
+		   					<%- total_answers_count = total_answers.count -%>
+		   					<%- answers_correct = total_answers.pluck(:correct).count -%>
+		   					<span class"pull-right"><%= "#{answers_correct} / #{total_answers_count}" %></span>
+		   				</li>
+	   				<%- end -%>
+				</ul>
 			</div>
 		<%- end -%>
-		<div class="span4" id="quiz_answers">
+		<div class="col-md-4" id="quiz_answers">
 	        <% if defined? @answers %>
 	        	<%= render "quiz_answers", :answers => @answers, :quiz_instance => @quiz_instance %>
 			<% end %>

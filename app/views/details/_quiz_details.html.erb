@@ -1,6 +1,8 @@
 <%- unless @problem_set.blank? -%>
-	<div class=row-fluid>
+	<div class="row-clearfix">
+		<br />
   		<%= render "teachers/forms/details_problem_set_form", :type => "quizzes" %>
+  		<br />
 	  	<div>
 			<div id='quiz_history' class='teacher-details-column'>
 			  	<%= render partial: 'teachers/quiz_history_assign_quiz', :@problem_set => @problem_set, :@quiz_history => @quiz_history %>

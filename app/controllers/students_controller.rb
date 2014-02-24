@@ -25,7 +25,7 @@ class StudentsController < ApplicationController
     end
 
     def notifications
-        @notifications = @student.news_feeds.order("created_at DESC").pluck(:content)
+        @notifications = @student.news_feeds.order("created_at DESC").limit(10).pluck(:content)
         respond_to do |format|
             format.js
         end

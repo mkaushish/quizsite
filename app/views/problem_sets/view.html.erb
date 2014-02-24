@@ -11,7 +11,7 @@
     </div>
     <div id="badges_box" style='margin-left:40px'>
         <% @problem_set.problem_types.each do |ptype| %>
-        <div class="list_box problem_list_box pset_list_box" style='margin:5px'>
+        <div class="list_box_2 color_list_box problem_list_box pset_list_box" style='margin:5px'>
             <p><%=ptype.name%></p>
             <% if(signed_in? && current_user.is_a?(Student))%>
             <%= link_to 'Try', pset_do_path(@problem_set.id, ptype.id), remote: :true%>

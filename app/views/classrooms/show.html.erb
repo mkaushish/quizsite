@@ -7,13 +7,13 @@
 
 	</div>
 	<div class="col-md-4">
-		<h1>Recent Topics</h1>
+		<h1>Recent Posts</h1>
 		<%- unless @recent_topics.blank? -%>
 			<%- @recent_topics.first(5).each do |recent_topic| -%>
 				<p><%= link_to	recent_topic.title, user_topic_path(current_user, recent_topic, classroom_id: @classroom_id) %></p>
 			<%- end -%>
 		<%- else -%>
-			<p>No Recent Topics</p>
+			<p>No Recent Post</p>
 		<%- end -%>
 
 		<h1>Recent Comments</h1>
