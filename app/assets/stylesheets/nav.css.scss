@@ -144,7 +144,7 @@ $bar_to_top: ($image_height / 2) + 5px;
 .menu-links{
   border:1px solid #ccc;
   position:fixed;
-  width:235px;
+  width:200px;
   height:100%;
   background-color: #f9f9f9;
   z-index:19;
@@ -207,4 +207,27 @@ $bar_to_top: ($image_height / 2) + 5px;
   background-color: white;
   padding:5px;
   z-index:19;
+}
+
+.nav-teachers{
+  background-color:#3498db;
+  li > a{
+    color:white;
+  }
+  .navbar-brand{
+    background-color: #f9f9f9;
+    width:200px;
+    text-align: center;
+  }
+  .navbar-brand:hover{
+    background-color: #f9f9f9;
+  }
+}
+#the_nav a{
+  color:white;
+}
+
+#the_nav a:hover, #the_nav a.active{
+  background-color: black;
+  color:white;
 }
