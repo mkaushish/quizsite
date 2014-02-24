@@ -1,0 +1,34 @@
+<div style='margin-top:50px'>
+	<h2>Assign a Problem Set to class <%= @classroom.name %></h2>
+</div>
+<div class="row">
+	<div class="col-md-6">
+		<h2>SmarterGrades Sets</h2>	
+		<ul class="col-list-2 overlay_list">
+			<%- unless @classroom_problem_sets.blank? -%>
+				<%- @classroom_problem_sets.each do |classroom_problem_set| %>
+					<li id="assign_btn_<%= classroom_problem_set.id %>">
+						<%= render "classrooms/assign_btns_for_problem_set_toggle", :classroom_problem_set => classroom_problem_set, :@classroom => @classroom %>
+					</li>
+				<%- end -%>
+			<%- else -%>
+				No Classroom Problem Sets
+			<%- end -%>
+		</ul>
+	</div>
+	<div class="col-md-6">
+		<h2>My Problem Sets</h2>
+		<ul class="col-list-2 overlay_list">
+			<li><%= link_to "Create New Problem Set", new_problem_set_path(@teacher)%></li>
+			<%- unless @my_problem_sets.blank? -%>
+				<%- @my_problem_sets.each do |my_problem_set| -%>
+	        		<li id="assign_btn_<%= my_problem_set.id %>">
+	            		<%= render "classrooms/assign_btns_for_problem_set_toggle", :classroom_problem_set => my_problem_set, :@classroom => @classroom %>
+	        		</li>
+        		<%- end -%>
+  			<%- else -%>
+				You haven't created any Problem Set.
+			<%- end -%>
+		</ul>
+	</div>
+</div>

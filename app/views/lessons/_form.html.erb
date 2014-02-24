@@ -24,7 +24,7 @@
         <%= f.datetime_select :end_time, :default => (Time.now + 0.5.hours), :size => 2 %>
     </div>
 
-    <div class="actions">
-        <%= f.submit %>
+    <div class="row actions">
+        <%= f.submit "Create Session", :class => 'btn btn-default' %>
     </div>
 <% end %>

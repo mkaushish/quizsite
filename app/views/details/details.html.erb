@@ -9,7 +9,10 @@
                 <li id='coll-men'>Collapse Menu <span class='glyphicon glyphicon-backward pull-right' style='margin-right:10px'></span></li>
             <li ><%= render :partial => 'teachers/forms/details_classroom_form' %></li>
                 <li >
-                    <%= link_to "Manage Class Problem Sets", show_problem_sets_path(@teacher, @classroom.id), :class => "button_blue" %>
+                    <%= link_to "Overview", details_path(@classroom.id, type: "overview")  %>
+                </li>
+                <li >
+                    <%= link_to "Manage Class Problem Sets", details_path(@classroom.id, type: "psets")  %>
                 </li>
                 <li >
                     <%= link_to "Students", details_path(@classroom.id, type: "students") %>
@@ -28,7 +31,7 @@
                     <%= link_to "Discussions", classroom_path(@classroom.id), :@teacher => @teacher %>
                 </li>
                 <li >
-                <%= link_to "Sessions", classroom_lessons_path(@classroom.id) %>
+                <%= link_to "Sessions", details_path(@classroom.id, type: "lessons") %>
             </li>
                 </div>
             </ul>
@@ -53,6 +56,12 @@
      
                             <% when 'grades' %>
                                 <%= render 'grades_tab', :@problem_set => @problem_set, :@problem_sets => @problem_sets, :@problem_types => @problem_types, :@start_date => @start_date, :@end_date => @end_date %>
+                            <% when 'discussions' %>
+                                <%= render 'discussions_tab', :@classroom => @classroom %>
+                            <% when 'lessons' %>
+                                <%= render 'lessons_tab'%>
+                            <% when 'psets' %>
+                                <%= render 'manage_psets_tab'%>
                             
                             <% else %>
                                 <%= render 'overall_details', :@chart_data_1 => @chart_data_1, :@top_weak_students => @top_weak_students %>

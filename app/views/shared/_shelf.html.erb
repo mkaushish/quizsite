@@ -21,8 +21,8 @@
                 </div>
                 <a class='plate' style='margin-top:7px'>Points</a>
             </li>
-            <li class='shelf_li'> 
-                <div class="btn-group" style='margin-left:-15px; width:135%'> 
+            <li class='shelf_li'>
+                <div class="btn-group" style='margin-left:-15px; width:135%'>
                     <!-- <button class="btn btn-success dropdown-toggle dropdown-toggle2" data-toggle="dropdown" > -->
                     <%= link_to "", student_notifications_path(@student), :class => "btn btn-success  dropdown-toggle2", :id => "notifications", :data => {:toggle => "dropdown", :target => "#"}, remote: :true %><div id="student_bubble"></div>
                     <span class="caret" ></span>
@@ -34,11 +34,11 @@
             <%- ["tetrahedron", "cube", "octahedron", "dodecahedron", "icosahedron"].each_with_index do |_shape, _index| -%>
                 <%- _index += 1 -%>
                 <li class="shelf_li">
-                    <%= render "shared/badge_2", :level => _index, :shape_name => _shape, :student => @student, :plate_class => "plate", :ajax => false %>    
+                    <%= render "shared/badge_2", :level => _index, :shape_name => _shape, :student => @student, :plate_class => "plate", :ajax => false %>
                 </li>
             <%- end -%>
 
-            
+
             <li class='shelf_li'><a href="javascript:;" id="open-walkthrough"><img src='/assets/Help.png' style='border-radius:50%'/></a></li>
             <li class='shelf_li'><%=link_to raw("<img src='/assets/discussion.png'/>"), classroom_path(@classroom), :id => 'discussion_p'%></li>
         </ul>
@@ -46,8 +46,8 @@
     </div>
     <div id="badgeModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
     </div>
-    
-</div>  
+
+</div>
 
 <script>
     shelf_do();

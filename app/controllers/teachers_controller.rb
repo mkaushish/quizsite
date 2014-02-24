@@ -1,6 +1,6 @@
 class TeachersController < ApplicationController
-    
-    before_filter :validate_teacher, :only => [:edit, :update]
+
+    before_filter :validate_teacher, :only => [:edit, :update, :notifications]
     before_filter :validate_teacher_via_current_user, :only => [:home, :student, :notify_teacher]
 
     def home

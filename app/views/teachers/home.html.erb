@@ -1,14 +1,19 @@
-<div class="row-fluid">
+<div style='padding:30px;'>
             
             <div id="form"></div>
-            <div id="classrooms_div")>
-                <% @classrooms.each do |classroom| %>
-                    <%= render "classrooms/overview", :classroom => classroom %>
+            <div>
+                <% @classrooms.each_with_index do |classroom, index| %>
+                	<% if index % 2 == 0 %>
+                		<div class='row'>
+                	<% end%>
+                    	<%= render "classrooms/overview", :classroom => classroom %>
+                    <% if index % 2 != 0 || index == @classrooms.length-1 %>
+                		</div>
+                	<% end%>
                 <% end %>
                 <%#= will_paginate @classrooms %>
             </div>
-</div>
-    
+   </div>
 <script>
     $('.student_class_password').tooltip({title: "Class Password: Students need this to join your classroom"});
       $('.teacher_class_password').tooltip({title: "Class Password: Teachers need this to join your classroom"});

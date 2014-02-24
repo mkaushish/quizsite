@@ -1,33 +1,37 @@
-<div class="row" id="classroom" style='margin-top:100px;'>
-    <div class="col-md-4" id="classroom_name">
-        <%= link_to classroom.name, details_path(classroom.id) %>
-    </div>
-    <div class="col-md-6" id="classroom_stat">
-        <div class="btn-group">
+<div class="col-md-6 class_over">
+    <h2><%= link_to classroom.name, details_path(classroom.id) %>
+        <div class="btn-group pull-right">
             
-            <button class="btn btn-small dropdown-toggle" data-toggle="dropdown">
-                <%= image_tag "gear_small.png" %><span class="caret"></span>
-            </button>
+            <div  data-toggle="dropdown">
+                <span class='glyphicon glyphicon-align-justify'></span>
+            </div>
             <ul class="dropdown-menu">
                 <li>
                     <%= link_to "Assign: Problem Set(Main)", show_psets_path(classroom.id) if current_user.email == "t.homasramfjord@gmail.com" %>                   
-                    <%= link_to "Assign: Problem Set", show_problem_sets_path(@teacher, classroom.id) %>
-                    <%= link_to "Assign: Quiz", "#", remote: :true %>
+                    <%=link_to "Manage Problem Sets", details_path(classroom.id, type: "psets")%>
+                    <%=link_to "Problem Set Stats", details_path(classroom.id, type: "problem_sets")%>
+                    <%=link_to "Quizzes", details_path(classroom.id, type: "quizzes")%>
+                    <%=link_to "Students", details_path(classroom.id, type: "students")%>
+                    <%=link_to "Discussions", details_path(classroom.id, type: "discussions")%>
+                    <%=link_to "Sessions", details_path(classroom.id, type: "lessons")%>
                 </li>
             </ul>
         </div>
-        <span class="student_class_password"><%= classroom.student_password %></span><p style="display: inline-block;"><small>Password for Students</small></p><br>
-        <span class="teacher_class_password"><%= classroom.teacher_password %></span><p style="display: inline-block;"><small>Password for Teachers</small></p>
+    </h2>
+    <div style='margin-top: 50px;'>
+        
+        <p style="display: inline-block; margin-right:5px;"><small>Password for Students</small></p><span class="student_class_password"><%= classroom.student_password %></span><br>
+        <p style="display: inline-block;; margin-right:5px;"><small>Password for Teachers</small></p><span class="teacher_class_password"><%= classroom.teacher_password %></span>
         <br>
         <span class="students_count" style="display: inline-block;"><%= students_count = classroom.students_count %></span>
         <% if students_count == 0 %>
             <p style="display: inline-block;"><small>Give your students the seven letter / number password in the box above so they can join your online classroom. </small></p>
         <% else %>
-            <p style="display: inline-block;"><small>Students</small></p>
+            <p style="display: inline-block;"><%=link_to "Students", details_path(classroom.id, type: "students")%></p>
         <% end %>
         <%= classroom.quizzes_count %>
-        <p style="display: inline-block;"><small>Quizzes</small></p>
+        <p style="display: inline-block;"><%=link_to "Quizzes", details_path(classroom.id, type: "quizzes")%></p>
         <%= classroom.problem_sets_count %>
-        <p style="display: inline-block;"><small>Problem Sets</small></p>
+        <p style="display: inline-block;"><%=link_to "Problem Sets", details_path(classroom.id, type: "psets")%></p>
     </div>
 </div>

@@ -1,7 +1,7 @@
 login: &login
   adapter: postgresql
   username: mk
-  password: root
+  password:
   encoding: UTF8
   host: localhost
   pool: 5

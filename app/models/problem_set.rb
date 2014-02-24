@@ -133,11 +133,13 @@ class ProblemSet < ActiveRecord::Base
 	  	self
 	end
 
+	
 	def assign_problem_set_to_teacher_classrooms
 		teacher = self.owner
 		unless teacher.blank?
 			teacher.classrooms.each do |classroom|
-				classroom.classroom_problem_sets.create( problem_set_id: self.id, active: false )
+				classroom.assign!(self)
+				classroom.classroom_problem_sets.where( "problem_set_id = ?", self.id ).first.update_attributes(active: false )
 			end
 		end
 	end

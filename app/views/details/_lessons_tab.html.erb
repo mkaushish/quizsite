@@ -1,0 +1,79 @@
+<%= render 'lessons/index' %>
+	<div class="row">
+		<%= link_to "Start session", new_classroom_lesson_path(@classroom), :class => 'btn btn-info', remote: :true %>
+		<%#= link_to "Start indefinite session", "javascript: start_indefinite_session( #{@classroom.id}, #{@teacher.id} )" -%> 
+		<%= link_to "Start Indefinite Session", classroom_lessons_path(@classroom, teacher_id: @teacher.id, type: "indefinite"), :class => 'btn btn-info', method: :post if @lesson.blank? %>
+		<%#= link_to "Stop session", "javascript: stop_indefinite_session( #{@classroom.id}, #{@teacher.id}, #{@lesson.id} )" if defined? @lesson and !@lesson.blank? %>
+
+		<%= link_to "Stop Indefinite Session", stop_session_classroom_lesson_path(@classroom, @lesson, teacher_id: @teacher.id, type: "indefinite"), :class => 'btn btn-danger' if defined? @lesson and !@lesson.blank? %>
+		<div id="session_form"></div>
+	</div>
+<script>
+	$(function() {
+		<%- unless @lesson.blank? -%>
+  			validate_datetime();
+  		<%- end -%>
+	});
+
+	function start_indefinite_session( classroom_id, teacher_id ) {
+		var _classroom_id = classroom_id
+		var _teacher_id = teacher_id
+
+		$.ajax({
+			type: "POST",
+			url: "http://localhost:3000/classrooms/" + _classroom_id + "/lessons?teacher_id=" + _teacher_id + "&type=indefinite",
+			dataType: "html",
+			contentType: "text/html; charset=utf-8",
+		});
+	}
+
+	function stop_indefinite_session( classroom_id, teacher_id, lesson_id ) {
+		var _classroom_id = classroom_id
+		var _teacher_id = teacher_id
+		var _lesson_id = lesson_id
+
+		$.ajax({
+			type: "GET",
+			url: "http://localhost:3000/classrooms/" + _classroom_id + "/lessons/" + _lesson_id + "/stop_session?teacher_id=" + _teacher_id + "	&type=indefinite",
+			dataType: "html",
+			contentType: "text/html; charset=utf-8",
+		});
+	}
+
+	function send_request( classroom_id, lesson_id, type ) {
+		var _classroom_id = classroom_id
+		var _lesson_id = lesson_id
+		var _session_type = type
+
+		$.ajax({
+			type: "GET",
+			url: "http://localhost:3000/classrooms/" + _classroom_id + "/lessons/" +  _lesson_id + "?type=" + _session_type,
+			dataType: "script",
+			contentType: "application/text; charset=utf-8",
+		});
+	}
+
+	function validate_datetime(){
+		<%- unless @lesson.blank? -%>
+			<%- if @lesson.end_time.blank? -%>
+				var timer = setInterval("send_request(" + <%= @classroom.id %> + ", " + <%= @lesson.id %> + ", 'indefinite' )", 10000);
+			<%- else -%>
+				var timer = false;		
+				time_now = new Date( <%= Time.now.utc.to_i %> * 1000 );
+		    	lesson_start_time = new Date( <%= (@lesson.start_time - 5.hours - 30.minutes).to_i %> * 1000 );
+		    	lesson_end_time = new Date( <%= (@lesson.end_time - 5.hours - 30.minutes).to_i %> * 1000 );
+	    		if (time_now >= lesson_start_time && time_now < lesson_end_time) 
+				{
+					timer = setInterval("send_request(" + <%= @classroom.id %> + ", " + <%= @lesson.id %> + ", 'definite' )", 10000);
+				}
+				else
+				{
+					clearTimeout(timer);
+					timer = false;
+				}
+			<%- end -%>
+		<%- end -%>
+	}
+
+
+</script>
