@@ -6,31 +6,31 @@
             <div  class="menu-links" >
                 
             <ul class='nav nav-list' style='padding-left:0px'>
-                <li id='coll-men'>Collapse Menu <span class='glyphicon glyphicon-backward pull-right' style='margin-right:10px'></span></li>
+                <li id='coll-men'><a href='#'>Collapse Menu <span class='glyphicon glyphicon-backward pull-right' style='margin-right:10px'></span></a></li>
             <li ><%= render :partial => 'teachers/forms/details_classroom_form' %></li>
-                <li >
-                    <%= link_to "Overview", details_path(@classroom.id, type: "overview")  %>
+                <li class='<%= 'active' if params[:type]=='overview' || params[:type]==nil%>'>
+                    <%= link_to " Classroom Overview", details_path(@classroom.id, type: "overview")  %>
                 </li>
-                <li >
+                <li  class='<%= 'active' if params[:type]=='psets'%>'>
                     <%= link_to "Manage Class Problem Sets", details_path(@classroom.id, type: "psets")  %>
                 </li>
-                <li >
+                <li class='<%= 'active' if params[:type]=='students'%>'>
                     <%= link_to "Students", details_path(@classroom.id, type: "students") %>
 
                 </li>
-                <li >
+                <li class='<%= 'active' if params[:type]=='problem_sets'%>'>
                     <%= link_to "Problem Sets", details_path(@classroom.id, type: "problem_sets") %>
                 </li>
-                <li >
+                <li class='<%= 'active' if params[:type]=='quizzes'%>'>
                     <%= link_to "Quizzes", details_path(@classroom.id, type: "quizzes") %>
                 </li>
-                <li >
+                <li class='<%= 'active' if params[:type]=='grades'%>'>
                     <%= link_to "Grades", details_path(@classroom.id, type: "grades") %>
                 </li>
-                <li >
+                <li class='<%= 'active' if params[:type]=='discussions'%>'>
                     <%= link_to "Discussions", classroom_path(@classroom.id), :@teacher => @teacher %>
                 </li>
-                <li >
+                <li class='<%= 'active' if params[:type]=='lessons'%>'>
                 <%= link_to "Sessions", details_path(@classroom.id, type: "lessons") %>
             </li>
                 </div>

@@ -23,15 +23,20 @@
         <p style="display: inline-block; margin-right:5px;"><small>Password for Students</small></p><span class="student_class_password"><%= classroom.student_password %></span><br>
         <p style="display: inline-block;; margin-right:5px;"><small>Password for Teachers</small></p><span class="teacher_class_password"><%= classroom.teacher_password %></span>
         <br>
-        <span class="students_count" style="display: inline-block;"><%= students_count = classroom.students_count %></span>
-        <% if students_count == 0 %>
-            <p style="display: inline-block;"><small>Give your students the seven letter / number password in the box above so they can join your online classroom. </small></p>
-        <% else %>
+        <span class="students_count the_det" style="display: inline-block;"><p><%= students_count = classroom.students_count %></p>
+        
             <p style="display: inline-block;"><%=link_to "Students", details_path(classroom.id, type: "students")%></p>
-        <% end %>
-        <%= classroom.quizzes_count %>
+        </span>
+        <span class='the_det' style="display: inline-block;">
+        <p><%= classroom.quizzes_count %></p>
         <p style="display: inline-block;"><%=link_to "Quizzes", details_path(classroom.id, type: "quizzes")%></p>
-        <%= classroom.problem_sets_count %>
+        </span>
+        <span class='the_det' style="display: inline-block;">
+        <p><%= classroom.problem_sets_count %></p>
         <p style="display: inline-block;"><%=link_to "Problem Sets", details_path(classroom.id, type: "psets")%></p>
+        </span>
     </div>
+    <% if students_count == 0 || students_count==nil %>
+        <p style="display: inline-block;"><small>Give your students the seven letter / number password in the box above so they can join your online classroom. </small></p>
+    <%end%>
 </div>

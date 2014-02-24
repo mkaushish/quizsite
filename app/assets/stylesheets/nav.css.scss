@@ -142,7 +142,7 @@ $bar_to_top: ($image_height / 2) + 5px;
   border-right: 0;
 }
 .menu-links{
-  border:1px solid #ccc;
+  border:1px solid #e5e5e5;
   position:fixed;
   width:200px;
   height:100%;
@@ -150,7 +150,12 @@ $bar_to_top: ($image_height / 2) + 5px;
   z-index:19;
   overflow: scroll;
   font-size:14px;
+  #classroom_id{
+    margin-top:5px;
+    margin-bottom:5px;
+  }
   li{
+
     border-bottom:1px solid #e5e5e5;
     a{
       color:#585858;
@@ -162,8 +167,12 @@ $bar_to_top: ($image_height / 2) + 5px;
   }
   li.active{
     background-color:white;
+    border-right:4px solid #3498db;
+    border-left: 3px solid #2ecc71;
   }
   li:hover{
+    border-left: 3px solid #2ecc71;
+    border-right:4px solid #3498db;
     background-color: white
   }
 }
@@ -203,8 +212,8 @@ $bar_to_top: ($image_height / 2) + 5px;
 .coll-menu{
   position:fixed;
   height:100%;
-  box-shadow:0 1px 6px #999999;
-  background-color: white;
+  border:1px solid #e5e5e5;
+  background-color: #f9f9f9;
   padding:5px;
   z-index:19;
 }
@@ -227,7 +236,7 @@ $bar_to_top: ($image_height / 2) + 5px;
   color:white;
 }
 
-#the_nav a:hover, #the_nav a.active{
+#the_nav a:hover, #the_nav a.active, #the_nav a.open{
   background-color: black;
   color:white;
 }
