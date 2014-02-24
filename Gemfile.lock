@@ -35,6 +35,8 @@ GEM
       i18n (= 0.6.1)
       multi_json (~> 1.0)
     addressable (2.3.5)
+    amcharts-rails (2.7.7.1.0)
+      rails (~> 3.2.8)
     ansi (1.4.3)
     arel (3.0.3)
     auto_html (1.6.1)
@@ -281,6 +283,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  amcharts-rails
   auto_html
   better_errors
   binding_of_caller

@@ -615,7 +615,7 @@ margin-top:20px;
 
 /* ----sections---- */
 
-#home, #work, #about, #contact, #how_it_helps, #how_it_works, #try_page{
+#home, #work, #about, #contact, #how_it_helps, #how_it_works{
   background-color: white;
   position:relative;
   padding-top:15px;
@@ -627,6 +627,9 @@ margin-top:20px;
     margin-left: auto;
     //background-color: white;
   }
+}
+#try_page{
+  background-color: white;
 }
 #home{
   background-color: white;
@@ -663,7 +666,7 @@ color:black;
 #main-content{
   width:100%;
    margin: 0 auto;
-   background-image: url("/assets/blue_wall_2.png");
+   //background-image: url("/assets/blue_wall_2.png");
    background-attachment:fixed;
 }
 

@@ -13,6 +13,7 @@
 //= require jquery.jscrollpane.min
 //= require jquery.countdown
 //= require pnotify
+//= require amcharts
 //= require_tree .
 
 $.pnotify.defaults.styling = "bootstrap3";
