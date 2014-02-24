@@ -22,8 +22,7 @@
         </ul>
       </li>
       <li class="divider-vertical"></li>
-      <li><%= link_to raw("<i class='glyphicon glyphicon-user'></i>"), edit_teacher_path(@teacher), remote: :true %></li>
+      <li class=switch-to><%= link_to raw("<i class='glyphicon glyphicon-user'></i>"), edit_teacher_path(@teacher), remote: :true %></li>
       <li class="divider-vertical"></li>
     <li><%= link_to "Log Out", signout_path, :method => :delete %></li>
 </ul>
-<%=render 'teachers/edit'%>

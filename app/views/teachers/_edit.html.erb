@@ -1,8 +1,10 @@
-<div class='modal fade' id='editprofile' tabindex="-1" aria-hidden="true" role="dialog">
-    <div class='modal-dialog'>
-        <div class='modal-content'>
-            <div class='modal-header'><h2>Edit Your Profile</h2></div>
-            
+<div class="modal fade" id="edit_teacher_profile" tabindex="-1" role="dialog" aria-labelledby="edit_teacher_profileLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="edit_teacher_profileLabel">Edit Your Profile</h4>
+            </div>
             <%= form_for @teacher, :url => update_teacher_path(@teacher), :html => { :multipart => true } do |f| %>
                 <div class='modal-body'>
                     <% if @teacher.errors.any? %>
@@ -42,14 +44,13 @@
                         </div>
                     </div>
                 </div>
-                <div class='modal-footer'>
+                <div class="modal-footer">
                     <div class="form-actions">
                         <%= f.submit "Update", :class => 'btn btn-danger' %>
                         <%= link_to "Cancel", teacherhome_path, :class => "btn btn-default" %>
                     </div>
                 </div>
             <% end %>
-            
         </div>
     </div>
 </div>
