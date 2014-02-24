@@ -1,7 +1,7 @@
 class TeachersController < ApplicationController
 
     before_filter :validate_teacher, :only => [:edit, :update, :notifications]
-    before_filter :validate_teacher_via_current_user, :only => [:home, :student, :notify_teacher]
+    before_filter :validate_teacher_via_current_user, :only => [:home, :student, :notify_teacher, :pending_notifications]
 
     def home
         @classrooms = @teacher.classrooms
@@ -54,6 +54,14 @@ class TeachersController < ApplicationController
                 format.js
             end
             @teacher.flush_cache
+        end
+    end
+
+    def pending_notifications
+        if @teacher.news_feeds.where(:read_notification => "false").size > 0
+            respond_to do |format|
+                format.js
+            end
         end
     end
 

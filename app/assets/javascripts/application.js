@@ -37,3 +37,11 @@ function teacherSubscribe() {
 function checkNotificationsTeacher() {
   $.ajax("/teachers/notify_teacher");
 }
+
+$(function() {
+	$.ajax("/teachers/pending_notifications");
+});
+
+$(function() {
+	$.ajax("/students/pending_notifications");
+});

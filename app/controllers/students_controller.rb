@@ -2,7 +2,7 @@ class StudentsController < ApplicationController
 
     before_filter :authenticate, :except => [:show, :new, :create]
     before_filter :validate_student, :only => [:update, :show, :chart, :badges, :notifications, :progress, :quizzes, :get_problem_set_history, :get_problem_type_history]
-    before_filter :validate_student_via_current_user, :only => [:home, :edit, :notify_student]
+    before_filter :validate_student_via_current_user, :only => [:home, :edit, :notify_student, :pending_notifications]
 
     def home
         @pset_instances         = @student.problem_set_instances.order("problem_set_id ASC").includes(:problem_set)
@@ -38,6 +38,14 @@ class StudentsController < ApplicationController
                 format.js
             end
             @student.flush_cache
+        end
+    end
+
+    def pending_notifications
+        if @student.news_feeds.where(:read_notification => "false").size > 0
+            respond_to do |format|
+                format.js
+            end
         end
     end
 

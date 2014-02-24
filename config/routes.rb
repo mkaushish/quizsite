@@ -40,10 +40,12 @@ Quizsite::Application.routes.draw do
 
   resources :students do
     get 'notify_student', on: :collection
+    get 'pending_notifications', on: :collection
   end
 
   resources :teachers do
     get 'notify_teacher', on: :collection
+    get 'pending_notifications', on: :collection
   end
 
   
