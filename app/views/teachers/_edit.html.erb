@@ -2,52 +2,54 @@
     <div class='modal-dialog'>
         <div class='modal-content'>
             <div class='modal-header'><h2>Edit Your Profile</h2></div>
-            <div class='modal-body'>
-                <%= form_for @teacher, :url => update_teacher_path(@teacher), :html => { :multipart => true } do |f| %>
-                <% if @teacher.errors.any? %>
-                <div class="alert alert-error">
-                    <div id="error_explanation">
-                        <h5><%= pluralize(@teacher.errors.count, "error") %> prohibited this comment from being saved:</h5>
-                        <ul>
-                            <% @teacher.errors.full_messages.each do |msg| %>
-                            <li><%= msg %></li>
-                            <% end %>
-                        </ul>
+            
+            <%= form_for @teacher, :url => update_teacher_path(@teacher), :html => { :multipart => true } do |f| %>
+                <div class='modal-body'>
+                    <% if @teacher.errors.any? %>
+                        <div class="alert alert-error">
+                            <div id="error_explanation">
+                                <h5><%= pluralize(@teacher.errors.count, "error") %> prohibited this comment from being saved:</h5>
+                                <ul>
+                                    <% @teacher.errors.full_messages.each do |msg| %>
+                                        <li><%= msg %></li>
+                                    <% end %>
+                                </ul>
+                            </div>
+                        </div>
+                    <% end %>
+                    <div class="control-group">
+                        <%= f.label :name, :class => 'control-label' %>
+                        <div class="controls">
+                            <%= f.text_field :name, :class => 'text_field form-control' %>
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <%= f.label :old_password, :class => 'control-label' %>
+                        <div class="controls">
+                            <%= f.password_field :old_password, :class => 'text_field form-control' %>
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <%= f.label :new_password, :class => 'control-label' %>
+                        <div class="controls">
+                            <%= f.password_field :new_password, :class => 'text_field form-control' %>
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <%= f.label :confirm_password, :class => 'control-label' %>
+                        <div class="controls">
+                            <%= f.password_field :confirm_password, :class => 'text_field form-control' %>
+                        </div>
                     </div>
                 </div>
-                <% end %>
-                <div class="control-group">
-                    <%= f.label :name, :class => 'control-label' %>
-                    <div class="controls">
-                        <%= f.text_field :name, :class => 'text_field form-control' %>
+                <div class='modal-footer'>
+                    <div class="form-actions">
+                        <%= f.submit "Update", :class => 'btn btn-danger' %>
+                        <%= link_to "Cancel", teacherhome_path, :class => "btn btn-default" %>
                     </div>
                 </div>
-                <div class="control-group">
-                    <%= f.label :old_password, :class => 'control-label' %>
-                    <div class="controls">
-                        <%= f.password_field :old_password, :class => 'text_field form-control' %>
-                    </div>
-                </div>
-                <div class="control-group">
-                    <%= f.label :new_password, :class => 'control-label' %>
-                    <div class="controls">
-                        <%= f.password_field :new_password, :class => 'text_field form-control' %>
-                    </div>
-                </div>
-                <div class="control-group">
-                    <%= f.label :confirm_password, :class => 'control-label' %>
-                    <div class="controls">
-                        <%= f.password_field :confirm_password, :class => 'text_field form-control' %>
-                    </div>
-                </div>
-            </div>
-            <div class='modal-footer'>
-                <div class="form-actions">
-                    <%= f.submit "Update", :class => 'btn btn-danger' %>
-                    <%= link_to "Cancel", teacherhome_path, :class => "btn btn-default" %>
-                </div>
-                <% end %>
-            </div>
+            <% end %>
+            
         </div>
     </div>
 </div>
