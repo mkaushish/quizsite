@@ -123,10 +123,10 @@ class Student < User
             ans_wrong       = answers.count{ |v| v[2] == false }
 
             if (total_answers) > 0   
-                chart_data_3.push([pset_instance.name, (ans_right * 100) / (total_answers)]) 
+                chart_data_3.push([pset_instance.problem_set_name, (ans_right * 100) / (total_answers)]) 
                 _problem_type_answers.push answers
             end   
-            chart_data_2.push([pset_instance.name, ans_wrong])
+            chart_data_2.push([pset_instance.problem_set_name, ans_wrong])
         end
         _problem_type_answers = _problem_type_answers.flatten(1)
         _problem_type_ids = _problem_type_answers.collect{ |v| v[0] }.uniq
@@ -199,7 +199,7 @@ class Student < User
     def problem_set_instances_num_problem_problem_stats_blue
         result = Array.new
         self.problem_set_instances.order("id").includes(:problem_set, :problem_stats).each do |pset_instance|
-           result = result.push [(pset_instance.name), (pset_instance.num_problems - pset_instance.num_blue == 0), (pset_instance.num_problems - pset_instance.num_blue), (pset_instance.stop_green)]
+           result = result.push [(pset_instance.problem_set_name), (pset_instance.num_problems - pset_instance.num_blue == 0), (pset_instance.num_problems - pset_instance.num_blue), (pset_instance.stop_green)]
         end
         return result
     end

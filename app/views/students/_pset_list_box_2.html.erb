@@ -1,4 +1,4 @@
-<% problem_set = problem_set_instance.problem_set %>
+<%# problem_set = problem_set_instance.problem_set %>
 
 <div class='pset_pbar'>
 	<div class='list_box_2 color_list_box problem_list_box pset_list_box'>
@@ -12,10 +12,10 @@
 		<%# @is_problem_set_is_blue = @total - @a.count("blue") %>
 		<%#= image_tag("maths_genius.png", :class => "badge", :size => "20x20", :alt => " You won this Badge for completing #{pset.name} ") unless @is_problem_set_is_blue != 0 %>
 		<p>
-			<%= problem_set.name %><br> 
-			<%= link_to "?", view_problem_set_path(problem_set), :class => "normal_a_link", :target => "_blank" %>
+			<%= problem_set_instance.problem_set_name %><br> 
+			<%= link_to "?", view_problem_set_path(problem_set_instance.problem_set_id), :class => "normal_a_link", :target => "_blank" %>
 		</p>
-		<%= link_to "Enter", pset_path(:name => problem_set.id) %> 
+		<%= link_to "Enter", problem_set_instance_path(problem_set_instance.problem_set_id) %> 
 
 	</div>
 

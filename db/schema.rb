@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140219162845) do
+ActiveRecord::Schema.define(:version => 20140224101741) do
 
   create_table "answers", :force => true do |t|
     t.boolean  "correct"
@@ -136,6 +136,17 @@ ActiveRecord::Schema.define(:version => 20140219162845) do
 
   add_index "delayed_jobs", ["priority", "run_at"], :name => "delayed_jobs_priority"
 
+  create_table "friendly_id_slugs", :force => true do |t|
+    t.string   "slug",                         :null => false
+    t.integer  "sluggable_id",                 :null => false
+    t.string   "sluggable_type", :limit => 40
+    t.datetime "created_at"
+  end
+
+  add_index "friendly_id_slugs", ["slug", "sluggable_type"], :name => "index_friendly_id_slugs_on_slug_and_sluggable_type", :unique => true
+  add_index "friendly_id_slugs", ["sluggable_id"], :name => "index_friendly_id_slugs_on_sluggable_id"
+  add_index "friendly_id_slugs", ["sluggable_type"], :name => "index_friendly_id_slugs_on_sluggable_type"
+
   create_table "hw_assignments", :force => true do |t|
     t.integer "classroom_id"
     t.integer "homework_id"
@@ -178,15 +189,18 @@ ActiveRecord::Schema.define(:version => 20140219162845) do
   create_table "problem_set_instances", :force => true do |t|
     t.integer  "user_id"
     t.integer  "problem_set_id"
-    t.datetime "stop_green",     :default => '2013-11-16 05:34:23', :null => false
-    t.integer  "num_red",        :default => 0
-    t.integer  "num_green",      :default => 0
-    t.integer  "num_blue",       :default => 0
+    t.datetime "stop_green",       :default => '2013-11-16 05:34:23', :null => false
+    t.integer  "num_red",          :default => 0
+    t.integer  "num_green",        :default => 0
+    t.integer  "num_blue",         :default => 0
     t.datetime "last_attempted"
-    t.datetime "created_at",                                        :null => false
-    t.datetime "updated_at",                                        :null => false
+    t.datetime "created_at",                                          :null => false
+    t.datetime "updated_at",                                          :null => false
+    t.string   "problem_set_name"
+    t.string   "slug"
   end
 
+  add_index "problem_set_instances", ["slug"], :name => "index_problem_set_instances_on_slug", :unique => true
   add_index "problem_set_instances", ["user_id", "problem_set_id"], :name => "problem_set_instances_user_problem_set", :unique => true
 
   create_table "problem_set_problems", :force => true do |t|

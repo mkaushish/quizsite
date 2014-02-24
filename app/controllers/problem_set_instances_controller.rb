@@ -79,7 +79,7 @@ class ProblemSetInstancesController < ApplicationController
     end
 
     def validate_problem_set
-        @problem_set = ProblemSet.includes(:problem_types).find_by_id(params[:name])
+        @problem_set = ProblemSet.includes(:problem_types).find_by_id(params[:id])
     end
     
     def validate_instance
