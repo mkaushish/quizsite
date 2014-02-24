@@ -108,12 +108,12 @@ Quizsite::Application.routes.draw do
 
 	# student-problem_set_instances views
 
-	resources :problem_set_instances, only: [:show] 
-
+	resources :problem_set_instances, only: [:show], path: "problem-sets"
+	
 	# get '/psets/:name',                         to: 'problem_set_instances#show', :as => :pset
-	get '/psets/:name/do/:pid',                 to: 'problem_set_instances#do', :as => :pset_do
-	get '/psets/:name/static_do/:pid',          to: 'problem_set_instances#static_do', :as => :problem_set_static_do
-	post '/psets/:name/finish_problem',         to: 'problem_set_instances#finish_problem', :as => :finish_ps_problem
+	get '/psets/:id/do/:pid',                 to: 'problem_set_instances#do', :as => :pset_do
+	get '/psets/:id/static_do/:pid',          to: 'problem_set_instances#static_do', :as => :problem_set_static_do
+	post '/psets/:id/finish_problem',         to: 'problem_set_instances#finish_problem', :as => :finish_ps_problem
 
 	# student-quiz_instances views
 	get   'problem_sets/:problem_set_instance_id/quiz/:quiz_id/',         to: 'quiz_instances#show',                  :as => :show_quiz

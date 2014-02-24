@@ -1,22 +1,30 @@
 <%- unless @problem_set.blank? -%>
-	<%= form_tag select_dates_path(@classroom.id), method: :get, remote: :true %>
-		<h2><%= @problem_set.name %></h2>
-		<%= select_tag :problem_set_id, options_from_collection_for_select(@problem_sets, 'id', 'name', @problem_set.id),
-      { class: 'select' } %>
-		<%= text_field_tag "start_date", @start_date.strftime("%Y-%m-%d"), :type => "date"%>
-		<%= text_field_tag "end_date", @end_date.strftime("%Y-%m-%d"), :type => "date"%>
-		<%= submit_tag "Change Dates", :class => "button_blue"%>
-		<p class = "pull-right">
-  			Download:
-  			<%= link_to "Excel", download_grades_path(@classroom.id, 
-  														:problem_set_id => @problem_set.id, 
-  														:@start_date => @start_date, 
-  														:@end_date => @end_date, 
-  														format: "xls") %>
-		</p>
-		<table id="grad" border="1">
-			<%= render "grades", :@start_date => @start_date, :@end_date => @end_date, :@problem_types => @problem_types %>
-		</table>
+	<h2><%= @problem_set.name %></h2>
+	
+	<%= form_tag select_dates_path(@classroom.id), method: :get, :class => "form-inline", remote: :true %>
+		
+		<div class="form-group">
+			<%= select_tag :problem_set_id, options_from_collection_for_select(@problem_sets, 'id', 'name', @problem_set.id),
+      			{ class: 'form-control' } %>
+      		<%= text_field_tag "start_date", @start_date.strftime("%Y-%m-%d"), :type => "date" %>
+			<%= text_field_tag "end_date", @end_date.strftime("%Y-%m-%d"), :type => "date" %>
+		</div>	
+		
+		
+		<%= submit_tag "Change Dates", :class => "button-blue" %>
+	<p class = "pull-right">
+		Download:
+		<%= link_to "Excel", download_grades_path(@classroom.id, 
+													:problem_set_id => @problem_set.id, 
+													:@start_date => @start_date, 
+													:@end_date => @end_date, 
+													format: "xls") %>
+	</p>
+	<br />
+	<br />
+	<table id="grad" border="1">
+		<%= render "grades", :@start_date => @start_date, :@end_date => @end_date, :@problem_types => @problem_types %>
+	</table>
 <%- else -%>
 	No Problem Sets. Please add problem sets!
 <%- end -%>
