@@ -7,3 +7,4 @@ $('#teacher_bubble').css('width', '');
 $('#teacher_bubble').css('border-radius', '');
 $('#teacher_bubble').css('margin-top', '');
 $('#teacher_bubble').css('margin-left', '');
+<%= @teacher.news_feeds.where(:read_notification => "false").update_all(:read_notification => "true") %>
