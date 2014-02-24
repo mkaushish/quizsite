@@ -17,7 +17,7 @@
 <ul class='nav navbar-nav pull-right'>
   <li class="divider-vertical"></li>
       <li id="teacher_notification" style="position: relative;"><%= link_to raw("<i class='glyphicon glyphicon-envelope'></i>"), teacher_notifications_path(@teacher),  :data => {:toggle => "dropdown"}, remote: :true %><div id="teacher_bubble"></div>
-        <ul id="teacher_news" class="dropdown-menu" role="menu">
+        <ul id="teacher_news" class="dropdown-menu dropdown-menu-right" role="menu">
           <%= render "teachers/notifications" %>
         </ul>
       </li>
