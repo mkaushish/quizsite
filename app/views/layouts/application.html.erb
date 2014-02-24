@@ -43,10 +43,17 @@
         </div>
          <% if !@student.nil? && @teacher.nil? %>
             <script>
+                $(function() {
+                    $.ajax("/students/pending_notifications");
+                });
                 studentSubscribe();
             </script>
         <% elsif @student.nil? && !@teacher.nil? %>
             <script>
+                $(function() {
+                    $.ajax("/teachers/pending_notifications");
+                });
+
                 teacherSubscribe();
             </script>
         <% end %>
