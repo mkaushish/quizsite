@@ -1,8 +1,5 @@
 class ProblemSetInstance < ActiveRecord::Base
 
-	extend FriendlyId
-  	friendly_id :problem_set_name, use: :slugged
-	
 	belongs_to :problem_set, counter_cache: :problem_set_instances_count
 	belongs_to :user
 
@@ -14,13 +11,12 @@ class ProblemSetInstance < ActiveRecord::Base
 	has_many :assigned_quizzes, :class_name => 'QuizInstance',
 															:conditions => 'complete ISNULL'
 
-
 	has_many :answers, :as => :session
 
 	validates :user, :presence => true
 	validates :problem_set, :presence => true
 
-	delegate :name, :idname, :to => :problem_set
+	# delegate :name, :idname, :to => :problem_set
 
 	before_save :update_num_blue_num_red_and_num_yellow, :set_problem_set_name
 
@@ -149,6 +145,6 @@ class ProblemSetInstance < ActiveRecord::Base
 	end
 
 	def set_problem_set_name
-		self.problem_set_name = self.name
+		self.name = self.problem_set.name
 	end
 end

@@ -45,6 +45,8 @@ class User < ActiveRecord::Base
     after_create :set_confirmation, :send_confirmation_mail
 
     
+
+    
     def self.authenticate(email, submitted_password)
         user = find_by_email(email)
         (user && user.has_password?(submitted_password)) ? user : nil

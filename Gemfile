@@ -16,8 +16,8 @@ gem 'iconv'
 gem 'mathjax-rails'
 gem 'delayed_job_active_record'
 gem "pnotify-rails", :git => "https://github.com/navinpeiris/pnotify-rails.git"
-gem 'friendly_id'
 gem 'metamagic'
+gem 'amcharts-rails'
 
 group :test, :development do
 	gem 'rspec-rails'

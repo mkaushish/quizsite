@@ -14,7 +14,7 @@
     <% end %>
   <%= yield :nav_elts if content_for?(:nav_elts) %>
 </ul>
-<ul class='nav navbar-nav pull-right'>
+<ul class='nav navbar-nav navbar-right'>
   <li class="divider-vertical"></li>
       <li id="teacher_notification" style="position: relative;"><%= link_to raw("<i class='glyphicon glyphicon-envelope'></i>"), teacher_notifications_path(@teacher),  :data => {:toggle => "dropdown"}, remote: :true %><div id="teacher_bubble"></div>
         <ul id="teacher_news" class="dropdown-menu dropdown-menu-right" role="menu">

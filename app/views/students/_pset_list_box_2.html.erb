@@ -12,7 +12,7 @@
 		<%# @is_problem_set_is_blue = @total - @a.count("blue") %>
 		<%#= image_tag("maths_genius.png", :class => "badge", :size => "20x20", :alt => " You won this Badge for completing #{pset.name} ") unless @is_problem_set_is_blue != 0 %>
 		<p>
-			<%= problem_set_instance.problem_set_name %><br> 
+			<%= problem_set_instance.name %><br> 
 			<%= link_to "?", view_problem_set_path(problem_set_instance.problem_set_id), :class => "normal_a_link", :target => "_blank" %>
 		</p>
 		<%= link_to "Enter", problem_set_instance_path(problem_set_instance.problem_set_id) %> 

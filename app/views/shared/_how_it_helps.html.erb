@@ -1,18 +1,37 @@
-<div class="page_header_home">
-    <div class="intro-text">
-        <div class="logo_blue">Smarter</div>
-        <div class="logo_green">Grades</div>
-        Lets
-    </div>
+<div class='row'>
+    <h2><img src="/assets/girl.png"/>Students<img src="/assets/boy.png" style='width:46px'/></h2>
+        <div id="steps">
+            <h2><span class="blue_text">Earn Badges and Points!!</span></h2>
+            <div class='row'>
+                <img src='/assets/badgespts.png' style='max-width:100%;'>
+            </div>
+        </div>
+        <div id="steps">
+            <h2><span class="blue_text">See Detailed Graphs of your Progress!!</span></h2>
+            <p>Below is mine. I'm not very good at Maths. I'm sure you'll do better than me!</p>
+            <img src='/assets/my_progress.png' style='max-width:100%;'>
+        </div>
+        <div id="steps">
+            <h2><span class="blue_text">Share and Discuss Interesting Videos, Images or Questions with your Classmates!!</span></h2>
+            <div class='row'>
+            
+            <div class='col-md-6'>
+                <img src='/assets/post1.png' style='max-width:100%;'>
+            </div>
+            <div class='col-md-6'>
+                <img src='/assets/comments2.png' style='max-width:100%;'>
+            </div>
+            </div>
+        </div>
+        <div id="steps" style='height:400px; border:none;'>
+            <h2><span class="blue_text">Choose Your Avatar!!</span></h2>
+            <%=render 'shared/select_image'%>
+        </div>
+        
 </div>
-<ul class="nav nav-tabs" id="myTab" style="margin-top: 18px; padding-left: 180px;">
-    <li class="active"><a href="#student">STUDENTS</a></li>
-    <li><a href="#teacher">TEACHERS</a></li>
-    <li><a href="#coach">COACHES</a></li>
-</ul>
-
-<div class="tab-content">
-    <div class="tab-pane active" id="student">
+<!--<div class='row'>
+    <div class='col-md-4'>
+        <div class='help-heads'>Students</div>
         <div id="steps">
             <h2><span class="blue_text">WORK ON PROBLEMS TILL THEY ARE UNDERSTOOD</span></h2>
             <p>You no longer have to do thousands of maths problems. Work on concepts till you understand them.</p>
@@ -22,51 +41,38 @@
             <h2><span class="blue_text">LEARN WHILE PLAYING A GAME</span></h2>
             <p>Earn Points and Badges while doing Maths Problems. Doing Maths Problems is no longer without reward.</p>
         </div>
-        
     </div>
-    <div class="tab-pane" id="teacher">
-        <div class="row-fluid">
-            <div class="span" id="how_it_helps_content" style="border-left: 4px solid red;">
-                <div class="span4">
-                    <p>ANALYSE YOUR STUDENTS PERFORMANCE</p>
-                </div>
-                <div class="span4" style="background-image: url('/assets/m2.jpg'); height: 200px; float: right;">
-                </div>
+    <div class='col-md-4'>
+        <div>
+            <div>
+                <p>ANALYSE YOUR STUDENTS PERFORMANCE</p>
+            </div>
+            <div>
             </div>
         </div>
-        <br>
-        <div class="row-fluid">
-            <div class="span" id="how_it_helps_content" style="border-right: 4px solid blue;">
-                <div class="span4" style="background-image: url('/assets/m1.jpg'); height: 200px; float: left;">
-                </div>
-                <div class="span4">
-                    <p>MAKE MULTIPLE PRIVATE CLASSES</p>
-                </div>
+        <div>
+            <div>
+            </div>
+            <div>
+                <p>MAKE MULTIPLE PRIVATE CLASSES</p>
             </div>
         </div>
-        <br>
-        <br>
-        <div class="row-fluid">
-            <div class="span" id="how_it_helps_content" style="border-left: 4px solid red;">
-                
-                <div class="span4">
-                    <p>ASSIGN YOUR STUDENTS QUIZZES</p>
-                </div>
-                <div class="span4" style="background-image: url('/assets/m2.jpg'); height: 200px; float: right;">
-                </div>
+        <div>
+
+            <div>
+                <p>ASSIGN YOUR STUDENTS QUIZZES</p>
+            </div>
+            <div >
             </div>
         </div>
     </div>
-    <div class="tab-pane" id="coach">
-        <div class="row-fluid">
-            <div class="span" id="how_it_helps_content" style="border-left: 4px solid red;">
-                <div class="span4">
-                    <p>ANALYSE YOUR KID's PERFORMANCE IN VARIOUS PROBLEMS</p>
-                </div>
-                <div class="span4" style="background-image: url('/assets/m2.jpg'); height: 200px; float: right;">
-                </div>
+    <div class='col-md-4'>
+        <div>
+            <div>
+                <p>ANALYSE YOUR KID's PERFORMANCE IN VARIOUS PROBLEMS</p>
+            </div>
+            <div>
             </div>
         </div>
-        <br>
     </div>
-</div>
+</div>-->

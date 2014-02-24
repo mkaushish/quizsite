@@ -24,6 +24,8 @@ class ProblemSet < ActiveRecord::Base
 
 	after_create :assign_problem_set_to_teacher_classrooms
 
+	
+
 	def assign(user)
 		instance = problem_set_instances.build(:user_id => user.id)
 		# instance.num_blue = instance.problem_stats.blue.count

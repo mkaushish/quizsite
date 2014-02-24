@@ -5,7 +5,7 @@
   <body>
     <h1>Thanks for signing up for SmarterGrades.</h1>
     <p>
-      Please <%= link_to "Click here", "http://smartergrades.in/users/#{@user.id}/confirm?token=#{@user.confirmation_token}
+      Please <%= link_to "Click here", "http://localhost:3000/users/#{@user.id}/confirm?token=#{@user.confirmation_token}
       ", :method => :post %> to complete your registration! and put code <h3><%= @user.confirmation_code %></h3>
     </p>
 

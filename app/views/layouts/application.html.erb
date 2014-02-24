@@ -2,14 +2,14 @@
 <html>
     <head>
         <title><%= title %></title>
-        <%= stylesheet_link_tag    "application" %>
-        <%= javascript_include_tag "application" %>
-        
-        <script type="text/javascript" src="https://www.google.com/jsapi"></script>
-
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="viewport" content="user-scalable=0"/>
         <%= metamagic %>
+
+        <%= stylesheet_link_tag    "application" %>
+        <%= javascript_include_tag "application" %>
+        <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+
         <%= csrf_meta_tags %>
         <%= yield :head %>
     </head>

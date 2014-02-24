@@ -1,6 +1,7 @@
 <% meta :title => "SmarterGrades | The Smartest Way to Learn",
-        :description => "My description",
-        :keywords => %w(keyword1 keyword2 keyword3) %>
+        :description => "SmarterGrades (www.smartergrades.com) is a fun, online Mathematics assessment tool, 
+                        which gives students and teachers instant feedback on student and classroom performance.",
+        :keywords => @problem_sets.to_a.map(&:name) + @problem_types.to_a.map(&:name) %>
 
 <div id="main-content" style="text-align:center; font-family:Courier">
 
@@ -79,7 +80,7 @@
         fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));
     bclr_pset();
-
+    shelf_do(true);
 </script>
 <%#= render :partial => 'shared/log_in' %>
 <%#= render :partial => 'shared/register_modal' %>

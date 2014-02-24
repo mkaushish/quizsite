@@ -18,7 +18,7 @@ class PagesController < ApplicationController
         else 
             @nav_selected = "home"
             @problem_types = ProblemType.limit(5)
-            @problem_sets=ProblemSet.where('user_id is ?', nil)
+            @problem_sets = ProblemSet.where('user_id is ?', nil)
         end
         
         if defined? params[:ptypes]

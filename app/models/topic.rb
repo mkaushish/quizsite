@@ -18,6 +18,11 @@ class Topic < ActiveRecord::Base
     end
 
     after_create :send_notification_to_students_if_owner_is_teacher
+
+    def to_param
+        "#{id} #{title}".parameterize
+    end
+
     
     private
 
