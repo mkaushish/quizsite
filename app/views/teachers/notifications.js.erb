@@ -1,0 +1,9 @@
+$("#teacher_news").html('<%= j(render 'notifications', :notifications => @notifications) %>');
+// Remove Css notification bubble
+$('#teacher_bubble').css('position', '');
+$('#teacher_bubble').css('background-color', '');
+$('#teacher_bubble').css('height', '');
+$('#teacher_bubble').css('width', '');
+$('#teacher_bubble').css('border-radius', '');
+$('#teacher_bubble').css('margin-top', '');
+$('#teacher_bubble').css('margin-left', '');

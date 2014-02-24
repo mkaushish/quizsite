@@ -36,4 +36,12 @@ class Teacher < User
             p "Hey, your Old password doesn't match!"
         end
     end
+
+    def cached_count
+        Rails.cache.fetch([self, "teachers_feed_count"]) { news_feeds.size }
+    end
+
+    def flush_cache
+        Rails.cache.delete([self, "teachers_feed_count"])
+    end
 end
