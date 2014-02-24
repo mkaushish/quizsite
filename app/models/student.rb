@@ -259,6 +259,14 @@ class Student < User
         return _weeks
     end
 
+    def cached_count
+        Rails.cache.fetch([self, "students_feeds_count"]) { news_feeds.size }
+    end
+
+    def flush_cache
+        Rails.cache.delete([self, "students_feeds_count"])
+    end
+
     private
 
     def assign_class

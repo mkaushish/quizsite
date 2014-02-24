@@ -1,0 +1,17 @@
+$(function () {
+	$.pnotify({
+  	title: 'New Notification',
+  	text: '<%= @student.news_feeds.last.content %>',
+  	nonblock: true
+	});
+	$('#student_bubble').css('position', 'absolute');
+	$('#student_bubble').css('background-color', 'red');
+	$('#student_bubble').css('height', '20px');
+	$('#student_bubble').css('width', '20px');
+	$('#student_bubble').css('border-radius', '50%');
+	$('#student_bubble').css('margin-top', '-26px');
+	$('#student_bubble').css('margin-left', '85px');
+	$('#student_bubble').css('z-index', '2');
+});
+
+
