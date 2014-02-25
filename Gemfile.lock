@@ -35,6 +35,8 @@ GEM
       i18n (= 0.6.1)
       multi_json (~> 1.0)
     addressable (2.3.5)
+    amcharts-rails (2.7.7.1.0)
+      rails (~> 3.2.8)
     ansi (1.4.3)
     arel (3.0.3)
     auto_html (1.6.1)
@@ -59,7 +61,6 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.7.0)
-    columnize (0.3.6)
     compass (0.12.2)
       chunky_png (~> 1.2)
       fssm (>= 0.2.7)
@@ -69,12 +70,6 @@ GEM
     daemons (1.1.9)
     database_cleaner (1.2.0)
     debug_inspector (0.0.2)
-    debugger (1.6.5)
-      columnize (>= 0.3.1)
-      debugger-linecache (~> 1.2.0)
-      debugger-ruby_core_source (~> 1.3.1)
-    debugger-linecache (1.2.0)
-    debugger-ruby_core_source (1.3.1)
     delayed_job (4.0.0)
       activesupport (>= 3.0, < 4.1)
     delayed_job_active_record (4.0.0)
@@ -288,6 +283,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  amcharts-rails
   auto_html
   better_errors
   binding_of_caller
@@ -295,7 +291,6 @@ DEPENDENCIES
   coffee-rails (~> 3.2.1)
   compass-rails
   database_cleaner
-  debugger
   delayed_job_active_record
   factory_girl_rails (~> 4.0)
   google_visualr

@@ -1,8 +1,1 @@
-<blockquote>
-  <p><%= @classroom.name %> Session</p>
-  <small>Taken By: <%= @lesson.teacher.name %> <cite title="Source Title">For period <%= @lesson.start_time %> and <%= @lesson.end_time %></cite></small>
-</blockquote>
-
-<%= render 'classrooms/overall_chart_and_top_weak_students', :@chart_data_1 => @chart_data_1, :@top_weak_students => @top_weak_students %>
-                                
-<%= link_to 'Back', classroom_lessons_path(@classroom) %>
+<%= render 'lessons/show' %>

@@ -16,6 +16,7 @@ gem 'iconv'
 gem 'mathjax-rails'
 gem 'delayed_job_active_record'
 gem "pnotify-rails", :git => "https://github.com/navinpeiris/pnotify-rails.git"
+gem 'amcharts-rails'
 
 
 group :test, :development do
@@ -35,7 +36,7 @@ group :development do
     gem "better_errors"
     gem "binding_of_caller"
     gem 'quiet_assets'
-    gem 'debugger'
+    #gem 'debugger'
     #gem 'rack-mini-profiler'
     gem 'hirb'
     gem 'zeus'

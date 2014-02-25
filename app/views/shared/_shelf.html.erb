@@ -40,6 +40,7 @@
 
 
             <li class='shelf_li'><a href="javascript:;" id="open-walkthrough"><img src='/assets/Help.png' style='border-radius:50%'/></a></li>
+            <li class='shelf_li'><%=link_to raw("<img src='/assets/graphst.png'/>"), chart_student_path(@student.id), :id => 'graphs_p'%></li>
             <li class='shelf_li'><%=link_to raw("<img src='/assets/discussion.png'/>"), classroom_path(@classroom), :id => 'discussion_p'%></li>
         </ul>
         <div class='bot_bor'></div>

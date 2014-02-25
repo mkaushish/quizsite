@@ -3,40 +3,41 @@
         <div class='coll-menu' style='display:none'>
             <div><span class='glyphicon glyphicon-forward'></span></div>
         </div>
-            <div class="menu-links">
-                <div class='left-link' id='coll-men'>Collapse Menu <span class='glyphicon glyphicon-backward pull-right' style='margin-right:10px'></span></div>
-            <h4 class='left-link'><%= render :partial => 'teachers/forms/details_classroom_form' %></h4>
-            <ul style='padding-left:0px'>
-
-                <li class='left-link'>
-                    <%= link_to "Manage Class Problem Sets", show_problem_sets_path(@teacher, @classroom.id), :class => "button_blue" %>
+            <div  class="menu-links" >
+                
+            <ul class='nav nav-list' style='padding-left:0px'>
+                <li id='coll-men'><a href='#'>Collapse Menu <span class='glyphicon glyphicon-backward pull-right' style='margin-right:10px'></span></a></li>
+            <li ><%= render :partial => 'teachers/forms/details_classroom_form' %></li>
+                <li class='<%= 'active' if params[:type]=='overview' || params[:type]==nil%>'>
+                    <%= link_to " Classroom Overview", details_path(@classroom.id, type: "overview")  %>
                 </li>
-                <li class='left-link' style='height:30px'>
+                <li  class='<%= 'active' if params[:type]=='psets'%>'>
+                    <%= link_to "Manage Class Problem Sets", details_path(@classroom.id, type: "psets")  %>
                 </li>
-                <li class='left-link'>
+                <li class='<%= 'active' if params[:type]=='students'%>'>
                     <%= link_to "Students", details_path(@classroom.id, type: "students") %>
 
                 </li>
-                <li class='left-link' id='left-link-pr'>
+                <li class='<%= 'active' if params[:type]=='problem_sets'%>'>
                     <%= link_to "Problem Sets", details_path(@classroom.id, type: "problem_sets") %>
                 </li>
-                <li class='left-link'>
+                <li class='<%= 'active' if params[:type]=='quizzes'%>'>
                     <%= link_to "Quizzes", details_path(@classroom.id, type: "quizzes") %>
                 </li>
-                <li class='left-link'>
+                <li class='<%= 'active' if params[:type]=='grades'%>'>
                     <%= link_to "Grades", details_path(@classroom.id, type: "grades") %>
                 </li>
-                <li class='left-link'>
+                <li class='<%= 'active' if params[:type]=='discussions'%>'>
                     <%= link_to "Discussions", classroom_path(@classroom.id), :@teacher => @teacher %>
                 </li>
-                <li class='left-link'>
-                <%= link_to "Sessions", classroom_lessons_path(@classroom.id) %>
+                <li class='<%= 'active' if params[:type]=='lessons'%>'>
+                <%= link_to "Sessions", details_path(@classroom.id, type: "lessons") %>
             </li>
                 </div>
             </ul>
             <%= yield :teacher_sidebar %>
         </div>
-        <div class='the-content' style='margin-left:250px;'>
+        <div class='the-content' style='margin-left:215px; padding:20px'>
             <div class='teacher-details-header'>
                     <%#= link_to "Assign: Problem Set", show_psets_path(@classroom.id), :class => "button-blue pull-right" %>
 		    </div>
@@ -55,6 +56,12 @@
      
                             <% when 'grades' %>
                                 <%= render 'grades_tab', :@problem_set => @problem_set, :@problem_sets => @problem_sets, :@problem_types => @problem_types, :@start_date => @start_date, :@end_date => @end_date %>
+                            <% when 'discussions' %>
+                                <%= render 'discussions_tab', :@classroom => @classroom %>
+                            <% when 'lessons' %>
+                                <%= render 'lessons_tab'%>
+                            <% when 'psets' %>
+                                <%= render 'manage_psets_tab'%>
                             
                             <% else %>
                                 <%= render 'overall_details', :@chart_data_1 => @chart_data_1, :@top_weak_students => @top_weak_students %>
@@ -85,7 +92,7 @@ $('.coll-menu').click(function(){
     if(!shown){
         $('.menu-links').fadeIn();
         $('.coll-menu').fadeOut();
-        $('.the-content').css('margin-left', '250px');
+        $('.the-content').css('margin-left', '215px');
         shown=true;
     }
 });

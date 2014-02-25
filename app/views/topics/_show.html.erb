@@ -1,4 +1,4 @@
-<div class="row-fluid">
+<div class="row">
 	
 <div id='comm_all'>
 	<%= link_to raw('<i class="icon-arrow-left"></i>'), classroom_path(@classroom.id), :class => "pull-right" %>
@@ -10,11 +10,11 @@
 	<div>
 		
 		
-		<div class="row-fluid" id="new_comment_form" style='display:none'>
+		<div class="row" id="new_comment_form" style='display:none'>
 			<%= render "comments/form_for_new_comment", :user => current_user, :classroom => @classroom, :comment => @comment, :topic => topic %>
 		</div>
 		<div class='button-blue' id='add_comm' style='box-shadow:none'>Reply</div>
-		<div class="row-fluid" id="comments">
+		<div class="row" id="comments">
 				<%= render "comments/comments", :comments => @comments %>
 		</div>
 		

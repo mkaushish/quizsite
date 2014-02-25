@@ -54,7 +54,14 @@ class DetailsController < ApplicationController
                 # when 'discussions'
                 #     @topics = @classroom.topics.includes(:user)
                 #     @topic = Topic.new
-                    
+                when 'discussions'
+                    @topics = @classroom.topics.includes(:user)
+                    @topic = Topic.new
+                when 'lessons'
+                    @lessons = @classroom.lessons.includes(:teacher)
+                when 'psets'
+                    @classroom_problem_sets = @classroom.classroom_problem_sets.includes(:problem_set).select{|v| v.problem_set.user_id == nil}
+                    @my_problem_sets = @classroom.classroom_problem_sets.includes(:problem_set).select{|v| v.problem_set.user_id == @teacher.id}
                 else
                     @chart_data_1 = @classroom.chart_over_all_students_answer_stats(nil, nil)
                     @top_weak_students = @classroom.weak_students(5, nil, nil)

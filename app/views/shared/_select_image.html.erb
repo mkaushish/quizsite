@@ -1,0 +1,33 @@
+<div class="control-group">
+    <div class="controls">
+      <%= content_tag :i, "",:class=>"char_disp char char_1", :onclick=> 'select_image("char_1")' %>
+      <%= content_tag :i, "",:class=>"char_disp char char_2", :onclick=> 'select_image("char_2")' %>
+      <%= content_tag :i, "",:class=>"char_disp char char_3", :onclick=> 'select_image("char_3")' %>
+      <%= content_tag :i, "",:class=>"char_disp char char_4", :onclick=> 'select_image("char_4")' %>
+      <%= content_tag :i, "",:class=>"char_disp char char_5", :onclick=> 'select_image("char_5")' %>
+      <%= content_tag :i, "",:class=>"char_disp char char_6", :onclick=> 'select_image("char_6")' %>
+      <%= content_tag :i, "",:class=>"char_disp char char_7", :onclick=> 'select_image("char_7")' %>
+      <%= content_tag :i, "",:class=>"char_disp char char_8", :onclick=> 'select_image("char_8")' %>
+      <%= content_tag :i, "",:class=>"char_disp char char_9", :onclick=> 'select_image("char_9")' %>
+      <%= content_tag :i, "",:class=>"char_disp char char_10", :onclick=> 'select_image("char_10")' %>
+      <%= content_tag :i, "",:class=>"char_disp char char_11", :onclick=> 'select_image("char_11")' %>
+      <%= content_tag :i, "",:class=>"char_disp char char_12", :onclick=> 'select_image("char_12")' %>
+      <%= content_tag :i, "",:class=>"char_disp char char_13", :onclick=> 'select_image("char_13")' %>
+      <%= content_tag :i, "",:class=>"char_disp char char_14", :onclick=> 'select_image("char_14")' %>
+      <%= content_tag :i, "",:class=>"char_disp char char_15", :onclick=> 'select_image("char_15")' %>
+      <%= content_tag :i, "",:class=>"char_disp char char_16", :onclick=> 'select_image("char_16")' %>
+      <%= content_tag :i, "",:class=>"char_disp char char_17", :onclick=> 'select_image("char_17")' %>
+      <%= content_tag :i, "",:class=>"char_disp char char_18", :onclick=> 'select_image("char_18")' %>
+      <%= content_tag :i, "",:class=>"char_disp char char_19", :onclick=> 'select_image("char_19")' %>
+    </div>
+  </div>
+
+  <script>
+  function select_image(value) {
+    var image = value; 
+    $(".char").css('border', 'none');
+    $(".char").css("width","100px");
+    $(".char").css("height","100px");
+    $("."+image).css("border","1px solid #ccc");
+  }
+</script>

@@ -31,10 +31,12 @@
 
 #home, #work, #about, #contact, #how_it_helps, #how_it_works{
   position:relative;
-  margin-bottom:500px;
   width:100%;
   padding-top:15px;
   text-align: center;
+}
+#how_it_helps{
+  background-color:white;
 }
 
 #work, #about, #contact, .columns, .intro-text{
@@ -72,21 +74,12 @@
 }
 
 #how_it_helps_content{
-  border: 1px solid #CCCCCC;
   -webkit-box-shadow: 0 8px 6px -6px black;
      -moz-box-shadow: 0 8px 6px -6px black;
           box-shadow: 0 8px 6px -6px black;
 }
 
-#how_it_works img{
-  border: 1px solid #CCCCCC;
-  -webkit-box-shadow: 0 8px 6px -6px black;
-     -moz-box-shadow: 0 8px 6px -6px black;
-          box-shadow: 0 8px 6px -6px black;
-}
-
-.page_header_home {
-  border-bottom: 1px solid #CCC;  
+.page_header_home { 
   -webkit-box-shadow: 0 8px 6px -6px black;
      -moz-box-shadow: 0 8px 6px -6px black;
           box-shadow: 0 8px 6px -6px black;
@@ -547,7 +540,9 @@ $slidecol: #444;
 .not_log_in{
   
   background-attachment:fixed;
-  min-width: 780px;
+  min-width: 450px;
+}
+.loggedout{
 }
 .slidebutton {
   position:relative;
@@ -620,19 +615,21 @@ margin-top:20px;
 
 /* ----sections---- */
 
-#home, #work, #about, #contact, #how_it_helps, #how_it_works, #try_page{
+#home, #work, #about, #contact, #how_it_helps, #how_it_works{
+  background-color: white;
   position:relative;
-  margin-bottom:250px;
   padding-top:15px;
   text-align: center;
-  
+  border-bottom:1px solid #e5e5e5;
   .actual_c{
-  width:720px;
   padding:30px;
     margin-right: auto;
     margin-left: auto;
-    background-color: white;
+    //background-color: white;
   }
+}
+#try_page{
+  background-color: white;
 }
 #home{
   background-color: white;
@@ -669,7 +666,7 @@ color:black;
 #main-content{
   width:100%;
    margin: 0 auto;
-   background-image: url("/assets/blue_wall_2.png");
+   //background-image: url("/assets/blue_wall_2.png");
    background-attachment:fixed;
 }
 
@@ -691,12 +688,6 @@ color:black;
           box-shadow: 0 8px 6px -6px black;
 }
 
-#how_it_works img{
-  border: 1px solid #CCCCCC;
-  -webkit-box-shadow: 0 8px 6px -6px black;
-     -moz-box-shadow: 0 8px 6px -6px black;
-          box-shadow: 0 8px 6px -6px black;
-}
 
 .page_header_home {
   border-bottom: 1px solid #CCC;  

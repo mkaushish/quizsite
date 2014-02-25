@@ -11,9 +11,9 @@
 	<%= form_for [@teacher, @problem_set], method: :put  do |f| %>
 
 		<div class="col-md-4">
-			<h2>SmarterGrades Chapters</h2>
+			<h2>SmarterGrades Problem Sets</h2>
 			<ul class="col-list-2 overlay_list">
-				<li><h3>Choose Chapter</h3></li>
+				<li><h3>Choose Problem Set</h3></li>
 				<% @chapters.each do |chapter| %>
 					<li><%= link_to chapter.name, "#chap_#{chapter.id}", :data => { :toggle => "tab" } %></li>
 				<% end %>

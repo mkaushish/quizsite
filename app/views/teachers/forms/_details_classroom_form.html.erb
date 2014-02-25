@@ -2,14 +2,18 @@
     <div class="row-fluid">
             <div>
             <%= select_tag :classroom_id, options_from_collection_for_select(@classrooms, 'id', 'name', @classroom.id), { class: 'form-control'} %>
+<<<<<<< HEAD
             <%= submit_tag "Change Classroom", :class=>"button-blue", :style => "margin-top: 0; margin-left: 0; display: inline; width: 67%;"  %>
+=======
+            <%#= submit_tag "Change Classroom", :class=>"button-blue", :style => "margin-top: 0; margin-left: 0; display: inline; width:auto"  %>
+>>>>>>> ad4567aba3c6d7ab8df82c298fcbd919184d0989
         </div>
     </div>
 <% end %>
 <script>
     $(function() {
         $('#classroom_id').change(function() {
-            $(this).parent('form').submit();
+            $("#classroom-form").submit();
         });
     });
 </script>
