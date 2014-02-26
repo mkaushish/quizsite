@@ -23,10 +23,115 @@ $border_w: 7px;
 }
 
 .notf{
-  border:1px solid #ccc;
+  // border:1px solid #ccc;
   width:300px;
-  padding:2px;
+  padding:10px 10px 10px 30px;
+  border-bottom: 1px dotted rgb(28,204,252);
+  font-family: "Aller";
+  font-size: 16px;
+  transition: all 0.3s ease-out;
 }
+
+#news .dropdown-menu:before{
+    }
+    .dropdown-menu:hover{overflow-y:auto;width:310px;}
+.dropdown-menu {
+  position: absolute;
+  overflow:hidden;
+  top: 100%;
+  left: -1px;
+  right:-1px;
+  z-index: 1000;
+  max-height:300px;
+  float: left;
+  display: none;
+  width:300px;
+  min-width: 160px;
+  padding: 4px 0;
+  margin: 0;
+  list-style: none;
+  background-color:white;
+  border-color: #ccc;
+  border-color: rgba(0, 0, 0, 0.2);
+  border-style: solid;
+  border-width: 1px;
+  -webkit-border-radius: 0 0 5px 5px;
+  -moz-border-radius: 0 0 5px 5px;
+  border-radius: 0 0 5px 5px;
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+  *border-right-width: 2px;
+  *border-bottom-width: 2px;
+  
+}
+#news .dropdown-menu li:before{content: "";
+    width: 4px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 15px;
+    border: 1px solid #ffaa9f;
+    border-top: none;
+    border-bottom: none;
+    z-index: 2;}
+#news .dropdown-menu li{
+  overflow:hidden;
+  cursor:pointer;
+  position:relative;
+  display: block;
+  padding: 10px 10px 10px 30px; /* Same padding as the button */
+  border-bottom: 1px dotted #1ccfcf;
+  transition: all 0.3s ease-out;
+}
+.dropdown-menu.pull-right {
+  right: 0;
+  left: auto;
+}
+.dropdown-menu .divider {
+  height: 1px;
+  margin: 8px 1px;
+  overflow: hidden;
+  background-color: #e5e5e5;
+  border-bottom: 1px solid #ffffff;
+  *width: 100%;
+  *margin: -5px 0 5px;
+}
+.dropdown-menu a {
+  display: block;
+  padding: 3px 15px;
+  clear: both;
+  font-weight: normal;
+  line-height: 18px;
+  color: #333333;
+  white-space: nowrap;
+}
+.dropdown-menu li:hover{
+  background-color: #87CEEB;
+  transition:all 1s ease-in-out;
+  -webkit-transition:all 1s ease-in-out;
+  -moz-transition:all 1s ease-in-out;
+}
+.dropdown-menu li > a:hover,
+.dropdown-menu .active > a,
+.dropdown-menu .active > a:hover {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #0088cc;
+}
+.dropdown.open {
+  *z-index: 1000;
+
+}
+.dropdown.open .dropdown-toggle {
+  color: #ffffff;
+  background: #ccc;
+  background: rgba(0, 0, 0, 0.3);
+}
+
 
 
 .jScroll_bboard{
